@@ -1,0 +1,6 @@
+
+{
+  "Name": "twilightforest.quest_ram",
+  "Registry ID": "twilightforest:quest_ram",
+  "Class": "twilightforest.entity.passive.EntityTFQuestRam"
+}

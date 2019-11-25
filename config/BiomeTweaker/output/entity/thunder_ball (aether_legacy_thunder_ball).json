@@ -1,0 +1,6 @@
+
+{
+  "Name": "thunder_ball",
+  "Registry ID": "aether_legacy:thunder_ball",
+  "Class": "com.legacy.aether.entities.projectile.crystals.EntityThunderBall"
+}

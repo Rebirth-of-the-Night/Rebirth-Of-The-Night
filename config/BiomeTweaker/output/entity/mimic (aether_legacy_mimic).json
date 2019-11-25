@@ -1,0 +1,6 @@
+
+{
+  "Name": "mimic",
+  "Registry ID": "aether_legacy:mimic",
+  "Class": "com.legacy.aether.entities.hostile.EntityMimic"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.sheepman",
+  "Registry ID": "primitivemobs:sheepman",
+  "Class": "net.daveyx0.primitivemobs.entity.passive.EntitySheepman"
+}

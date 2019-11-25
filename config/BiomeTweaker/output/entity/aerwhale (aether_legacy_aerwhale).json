@@ -1,0 +1,6 @@
+
+{
+  "Name": "aerwhale",
+  "Registry ID": "aether_legacy:aerwhale",
+  "Class": "com.legacy.aether.entities.passive.EntityAerwhale"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "scalinghealth:crystalore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/scalinghealth/crystalore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

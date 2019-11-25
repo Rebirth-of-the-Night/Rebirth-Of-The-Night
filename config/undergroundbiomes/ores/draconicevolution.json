@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "draconicevolution:draconium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/draconicevolution/draconium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.treasure_slime",
+  "Registry ID": "primitivemobs:treasure_slime",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityTreasureSlime"
+}

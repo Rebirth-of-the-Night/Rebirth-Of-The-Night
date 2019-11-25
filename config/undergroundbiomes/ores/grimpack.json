@@ -1,0 +1,42 @@
+[
+  {
+    "internalOreName": "grimpack:aluminum_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/aluminum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "grimpack:oil_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/oil_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "grimpack:black_diamond_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/black_diamond_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "grimpack:element_115_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/element_115_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "grimpack:randomite",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/randomite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

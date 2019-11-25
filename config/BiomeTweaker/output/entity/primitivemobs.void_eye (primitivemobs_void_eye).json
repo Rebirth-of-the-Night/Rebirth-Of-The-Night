@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.void_eye",
+  "Registry ID": "primitivemobs:void_eye",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityVoidEye"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "firefly",
+  "Registry ID": "betternether:firefly",
+  "Class": "paulevs.betternether.entities.EntityFirefly"
+}

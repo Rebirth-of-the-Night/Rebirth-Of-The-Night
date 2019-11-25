@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.flame_spewer",
+  "Registry ID": "primitivemobs:flame_spewer",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityFlameSpewer"
+}

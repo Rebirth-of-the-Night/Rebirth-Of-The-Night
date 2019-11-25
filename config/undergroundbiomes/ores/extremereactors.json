@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "bigreactors:brore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/bigreactors/yellorite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

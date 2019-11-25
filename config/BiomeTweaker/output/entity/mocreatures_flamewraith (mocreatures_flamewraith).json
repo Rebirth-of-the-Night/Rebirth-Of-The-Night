@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:flamewraith",
+  "Registry ID": "mocreatures:flamewraith",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityFlameWraith"
+}

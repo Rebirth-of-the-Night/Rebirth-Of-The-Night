@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:cricket",
+  "Registry ID": "mocreatures:cricket",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket"
+}

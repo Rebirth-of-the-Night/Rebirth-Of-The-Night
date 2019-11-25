@@ -1,0 +1,6 @@
+
+{
+  "Name": "if_mob_skull",
+  "Registry ID": "iceandfire:if_mob_skull",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityMobSkull"
+}

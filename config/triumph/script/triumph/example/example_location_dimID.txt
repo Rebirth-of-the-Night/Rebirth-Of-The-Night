@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:map>)
+
+//Set title String
+setTitle("Be in the nether")
+
+//Set description String
+setDescription("Be in dimension -1")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(80,89)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "entered_nether" with the trigger type "minecraft:location". This function returns the criteria as an object
+criteria = addCriteria("entered_nether", "minecraft:location")
+
+//Sets the required dimension id for the criteria. This is the dimension the player must be in.
+criteria.setDimID(-1)

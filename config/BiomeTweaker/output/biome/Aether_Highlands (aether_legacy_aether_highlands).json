@@ -1,0 +1,134 @@
+
+{
+  "ID": 145,
+  "Name": "Aether Highlands",
+  "Resource Location": "aether_legacy:aether_highlands",
+  "Class": "com.legacy.aether.world.biome.AetherBiome",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "aether_legacy:aether_grass[aether_legacy_double_drops\u003dtrue]",
+  "Filler Block": "aether_legacy:holystone[aether_legacy_double_drops\u003dtrue]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "COLD",
+    "VOID",
+    "MAGICAL"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.legacy.aether.entities.passive.mountable.EntitySwet",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.hostile.EntityAechorPlant",
+      "Weight": 8,
+      "Min Group Count": 3,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.passive.EntitySheepuff",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.passive.mountable.EntityPhyg",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.passive.mountable.EntityMoa",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.passive.mountable.EntityFlyingCow",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.passive.mountable.EntityAerbunny",
+      "Weight": 11,
+      "Min Group Count": 3,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.legacy.aether.entities.hostile.EntityWhirlwind",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.hostile.EntityCockatrice",
+      "Weight": 4,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.passive.EntityAerwhale",
+      "Weight": 7,
+      "Min Group Count": 3,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.hostile.EntityZephyr",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.legacy.aether.entities.hostile.EntityAechorPlant",
+      "Weight": 2,
+      "Min Group Count": 3,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
+      "Weight": 100,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

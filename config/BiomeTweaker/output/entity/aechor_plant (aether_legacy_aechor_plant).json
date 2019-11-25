@@ -1,0 +1,6 @@
+
+{
+  "Name": "aechor_plant",
+  "Registry ID": "aether_legacy:aechor_plant",
+  "Class": "com.legacy.aether.entities.hostile.EntityAechorPlant"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:turkey",
+  "Registry ID": "mocreatures:turkey",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityTurkey"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.grovesprite",
+  "Registry ID": "primitivemobs:grovesprite",
+  "Class": "net.daveyx0.primitivemobs.entity.passive.EntityGroveSprite"
+}

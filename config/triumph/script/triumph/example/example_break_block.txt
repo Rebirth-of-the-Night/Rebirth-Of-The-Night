@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:log>)
+
+//Set title String
+setTitle("Caveman hate tree!")
+
+//Set description String
+setDescription("Break a log")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(57,89)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setBlock(<ore:logWood>)

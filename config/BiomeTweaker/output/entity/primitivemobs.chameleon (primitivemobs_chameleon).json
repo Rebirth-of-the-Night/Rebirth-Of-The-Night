@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.chameleon",
+  "Registry ID": "primitivemobs:chameleon",
+  "Class": "net.daveyx0.primitivemobs.entity.passive.EntityChameleon"
+}

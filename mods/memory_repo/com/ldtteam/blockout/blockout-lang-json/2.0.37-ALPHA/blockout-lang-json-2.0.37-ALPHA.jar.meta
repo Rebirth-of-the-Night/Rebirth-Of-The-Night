@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+ContainedDeps: jvoxelizer-api-1.0.52-ALPHA.jar blockout-api-2.0.37-ALP
+ HA.jar
+Maven-Artifact: com.ldtteam.blockout:blockout-lang-json:2.0.37-ALPHA
+Timestamp: 1563459600169
+

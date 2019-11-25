@@ -1,0 +1,6 @@
+
+{
+  "Name": "twilightforest.tower_golem",
+  "Registry ID": "twilightforest:tower_golem",
+  "Class": "twilightforest.entity.EntityTFTowerGolem"
+}

@@ -1,0 +1,462 @@
+
+{
+  "ID": 32,
+  "Name": "Mega Taiga",
+  "Resource Location": "minecraft:redwood_taiga",
+  "Class": "net.minecraft.world.biome.BiomeTaiga",
+  "Root Height": 0.2,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.3,
+  "Humidity": 0.8,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "COLD",
+    "FOREST",
+    "CONIFEROUS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityWolf",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBird",
+      "Weight": 15,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBlackBear",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBoar",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBunny",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityDeer",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityDuck",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityElephant",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityEnt",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityFox",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityGoat",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityGrizzlyBear",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMole",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityPandaBear",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityPanther",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityRaccoon",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntitySnake",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityTiger",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityHorse",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 95,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityDweller",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityAshen",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityGolem",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityCaveOgre",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityFireOgre",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityFlameWraith",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityGreenOgre",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityHorseMob",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityManticore",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityMiniGolem",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityRat",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityScorpion",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntitySilverSkeleton",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityWerewolf",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityWraith",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityWWolf",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
+      "Weight": 100,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityAnt",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityBee",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityDragonfly",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityFirefly",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityFly",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityMaggot",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityRoach",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntitySnail",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "tanzanite"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "BOREAL": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "ferrous_wroughtnaut",
+  "Registry ID": "mowziesmobs:ferrous_wroughtnaut",
+  "Class": "com.bobmowzie.mowziesmobs.server.entity.wroughtnaut.EntityWroughtnaut"
+}

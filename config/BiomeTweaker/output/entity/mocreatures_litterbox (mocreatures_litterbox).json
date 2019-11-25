@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:litterbox",
+  "Registry ID": "mocreatures:litterbox",
+  "Class": "drzhark.mocreatures.entity.item.MoCEntityLitterBox"
+}

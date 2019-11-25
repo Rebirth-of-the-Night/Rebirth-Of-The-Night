@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:salmon",
+  "Registry ID": "mocreatures:salmon",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntitySalmon"
+}

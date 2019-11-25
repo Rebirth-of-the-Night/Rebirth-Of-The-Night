@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:snake",
+  "Registry ID": "mocreatures:snake",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntitySnake"
+}

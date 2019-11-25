@@ -1,0 +1,73 @@
+{
+    "comment": "These qualities will apply for bows, and possibly for guns from
+                other mods if they extend the vanilla bow class. For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": [
+        "mainhand",
+        "offhand"
+    ],
+    "whitelist": [
+      {
+        "class": "ItemBow"
+      }
+    ],
+    "blacklist": [
+    
+    ],
+    "qualities": [
+      {
+        "name": "quality.cracked.name",
+        "color": "dark_gray",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": -0.15,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.clumsy.name",
+        "color": "red",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "normal",
+        "weight": 50
+      },
+      {
+        "name": "quality.light.name",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "quality.powerful.name",
+        "color": "aqua",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

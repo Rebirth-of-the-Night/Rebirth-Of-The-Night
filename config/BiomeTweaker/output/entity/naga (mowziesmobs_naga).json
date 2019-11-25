@@ -1,0 +1,6 @@
+
+{
+  "Name": "naga",
+  "Registry ID": "mowziesmobs:naga",
+  "Class": "com.bobmowzie.mowziesmobs.server.entity.naga.EntityNaga"
+}

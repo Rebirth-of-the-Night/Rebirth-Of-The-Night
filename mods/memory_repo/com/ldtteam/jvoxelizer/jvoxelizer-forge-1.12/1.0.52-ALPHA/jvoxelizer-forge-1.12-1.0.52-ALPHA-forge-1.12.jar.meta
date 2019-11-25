@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+FMLAT: jvoxelizer_at.cfg
+ContainedDeps: jvoxelizer-api-1.0.52-ALPHA.jar
+Maven-Artifact: com.ldtteam.jvoxelizer:jvoxelizer-forge-1.12:1.0.52-AL
+ PHA:forge-1.12
+Timestamp: 1563459309885
+

@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.bewitched_tome",
+  "Registry ID": "primitivemobs:bewitched_tome",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook"
+}

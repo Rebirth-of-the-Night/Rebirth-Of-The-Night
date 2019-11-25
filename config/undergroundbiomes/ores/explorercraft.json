@@ -1,0 +1,27 @@
+[
+  {
+    "internalOreName": "explorercraft:ruby_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/explorercraft/ruby",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "explorercraft:amethyst_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/explorercraft/amethyst",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "explorercraft:jade_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/explorercraft/jade",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+
+]

@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:saddle>)
+
+//Set title String
+setTitle("Caveman like horse")
+
+//Set description String
+setDescription("Tame a horse")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(11,89)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "tamed_horse" with the trigger type "minecraft:tame_animal". This function returns the criteria as an object
+criteria = addCriteria("tamed_horse", "minecraft:tame_animal")
+
+//Sets the required entity type for the criteria. This is the entity that the player must tame.
+criteria.setEntityType("minecraft:horse")

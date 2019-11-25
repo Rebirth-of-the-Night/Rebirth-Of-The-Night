@@ -1,0 +1,6 @@
+
+{
+  "Name": "twilightforest.lich_minion",
+  "Registry ID": "twilightforest:lich_minion",
+  "Class": "twilightforest.entity.boss.EntityTFLichMinion"
+}

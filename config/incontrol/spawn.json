@@ -1,0 +1,14 @@
+[
+ {
+    "mob": "primitivemobs:festive_creeper",
+    "dimension": [-1, 1, 4],
+    "onjoin": true,
+    "result": "deny"
+ },
+ {
+    "mob": "minecraft:creeper",
+    "dimension": [-1, 1, 4],
+    "onjoin": true,
+    "result": "deny"
+ }
+]

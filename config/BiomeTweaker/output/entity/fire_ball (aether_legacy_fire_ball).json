@@ -1,0 +1,6 @@
+
+{
+  "Name": "fire_ball",
+  "Registry ID": "aether_legacy:fire_ball",
+  "Class": "com.legacy.aether.entities.projectile.crystals.EntityFireBall"
+}

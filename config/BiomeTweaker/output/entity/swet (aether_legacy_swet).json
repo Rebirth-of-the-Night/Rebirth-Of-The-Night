@@ -1,0 +1,6 @@
+
+{
+  "Name": "swet",
+  "Registry ID": "aether_legacy:swet",
+  "Class": "com.legacy.aether.entities.passive.mountable.EntitySwet"
+}

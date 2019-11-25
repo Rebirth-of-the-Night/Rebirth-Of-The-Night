@@ -1,0 +1,18 @@
+{
+	"name" : "demo:main",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"PLAINS"
+		]
+	},
+	"inherit" : [
+		"demo:tower",
+		"demo:layout",
+		"demo:rooms",
+		"demo:segments",
+		"demo:theme",
+		"demo:loot",
+		"demo:filters"
+	]
+}

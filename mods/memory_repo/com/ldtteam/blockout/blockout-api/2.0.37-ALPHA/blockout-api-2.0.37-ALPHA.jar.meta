@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+ContainedDeps: jvoxelizer-api-1.0.52-ALPHA.jar guice-4.2.1.jar kryo-4.
+ 0.2.jar
+Maven-Artifact: com.ldtteam.blockout:blockout-api:2.0.37-ALPHA
+Timestamp: 1563459599886
+

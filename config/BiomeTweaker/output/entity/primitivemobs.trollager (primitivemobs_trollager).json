@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.trollager",
+  "Registry ID": "primitivemobs:trollager",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityTrollager"
+}

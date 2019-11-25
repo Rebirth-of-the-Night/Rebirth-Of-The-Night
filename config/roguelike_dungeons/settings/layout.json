@@ -1,0 +1,9 @@
+{
+	"name" : "demo:layout",
+	"num_rooms" : [10, 15, 15, 20, 15],
+	"scatter" : [15, 15, 17, 12, 12],
+	"layouts" : [
+		{"level" : [0, 1, 3, 4], "type" : "classic"},
+		{"level" : 2, "type" : "mst"}
+	]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:fly",
+  "Registry ID": "mocreatures:fly",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityFly"
+}

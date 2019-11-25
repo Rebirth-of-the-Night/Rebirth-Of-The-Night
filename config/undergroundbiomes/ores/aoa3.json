@@ -1,0 +1,50 @@
+[
+  {
+    "internalOreName": "aoa3:amethyst_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/aoa3/amethyst_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "aoa3:jade_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/aoa3/jade_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "aoa3:limonite_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/aoa3/limonite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "aoa3:rosite_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/aoa3/rosite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "aoa3:runium_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/aoa3/runium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "aoa3:sapphire_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/aoa3/sapphire_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

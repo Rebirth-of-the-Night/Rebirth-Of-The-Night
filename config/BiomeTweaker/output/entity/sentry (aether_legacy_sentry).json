@@ -1,0 +1,6 @@
+
+{
+  "Name": "sentry",
+  "Registry ID": "aether_legacy:sentry",
+  "Class": "com.legacy.aether.entities.hostile.EntitySentry"
+}

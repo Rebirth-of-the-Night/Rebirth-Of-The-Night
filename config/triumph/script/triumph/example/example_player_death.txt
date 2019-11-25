@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:lava_bucket>)
+
+//Set title String
+setTitle("Example for triumph:player_death trigger")
+
+//Set description String
+setDescription("Die in lava to trigger.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(172,89)
+
+//Hide the connection lines
+hideLines()
+
+//Adds criteria named "die_in_lava" with the trigger type "triumph:player_death". This function returns the criteria as an object
+criteria = addCriteria("die_in_lava", "triumph:player_death")
+
+//Sets the required damage type for the criteria.
+criteria.damageType("lava")

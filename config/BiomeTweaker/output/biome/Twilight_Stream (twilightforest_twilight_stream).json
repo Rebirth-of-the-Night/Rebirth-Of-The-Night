@@ -1,0 +1,183 @@
+
+{
+  "ID": 123,
+  "Name": "Twilight Stream",
+  "Resource Location": "twilightforest:twilight_stream",
+  "Class": "twilightforest.biomes.TFBiomeStream",
+  "Root Height": -0.5,
+  "Height Variation": 0.0,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.1,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "RIVER",
+    "WATER",
+    "TWILIGHT"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
+      "Weight": 100,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAnchovy",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAngelFish",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAngler",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityClownFish",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityCod",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityDolphin",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityFishy",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityGoldFish",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityHippoTang",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityJellyFish",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityManderin",
+      "Weight": 12,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityPiranha",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntitySalmon",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityShark",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.aquatic.MoCEntityStingRay",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "twilightforest.entity.passive.EntityTFMobileFirefly",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "drzhark.mocreatures.entity.ambient.MoCEntityCrab",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "barakoan_player",
+  "Registry ID": "mowziesmobs:barakoan_player",
+  "Class": "com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoanToPlayer"
+}

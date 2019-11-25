@@ -1,0 +1,6 @@
+
+{
+  "Name": "zephyr",
+  "Registry ID": "aether_legacy:zephyr",
+  "Class": "com.legacy.aether.entities.hostile.EntityZephyr"
+}

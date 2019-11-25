@@ -1,0 +1,58 @@
+[
+  {
+    "internalOreName": "projectred-exploration:ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/projectred/ruby_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "projectred-exploration:ore",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/projectred/sapphire_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "projectred-exploration:ore",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/projectred/peridot_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "projectred-exploration:ore",
+    "meta": 3,
+    "overlay": "undergroundbiomes:blocks/overlays/projectred/copper_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "projectred-exploration:ore",
+    "meta": 4,
+    "overlay": "undergroundbiomes:blocks/overlays/projectred/tin_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "projectred-exploration:ore",
+    "meta": 5,
+    "overlay": "undergroundbiomes:blocks/overlays/projectred/silver_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "projectred-exploration:ore",
+    "meta": 6,
+    "overlay": "undergroundbiomes:blocks/overlays/projectred/electrotine_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

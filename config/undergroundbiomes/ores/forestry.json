@@ -1,0 +1,26 @@
+[
+  {
+    "internalOreName": "forestry:resources",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/apatite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "forestry:resources",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/copper",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "forestry:resources",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/tin",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

@@ -1,0 +1,530 @@
+{
+  "wiki": "//looking to customize your own invasions? see http://coros.us/wiki/index.php?title=Hostile_Worlds_-_Invasions_-_Customizing for helpfull info",
+  "format": "mob_spawns",
+  "templates": [
+    {
+      "name": "invasion_stage_1",
+      "wave_message": "§cThe undead horde is approaching...",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 3,
+          "count_max": 5,
+          "count_difficulty_multiplier": 2,
+          "spawn_type": "ground",
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 5,
+          "count_max": 15,
+          "count_difficulty_multiplier": 2,
+          "spawn_type": "ground",
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_2",
+      "wave_message": "§cThe undead and skeleton horde is approaching...",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 3,
+          "count_max": 5,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:skeleton"
+          ],
+          "count": 5,
+          "count_max": 10,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales_no_weapon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_1_zombies",
+      "wave_message": "§cThe undead super horde is approaching...",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 5,
+          "count_max": 10,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 5,
+          "count_max": 30,
+          "count_difficulty_multiplier": 0.5,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_2_pirates",
+      "wave_message": "§cThe pirates have arrived!",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "quark:pirate"
+          ],
+          "count": 5,
+          "count_max": 25,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_3_skeletons",
+      "wave_message": "§cThe undead and skeleton super horde is approaching...",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 5,
+          "count_max": 10,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:skeleton"
+          ],
+          "count": 5,
+          "count_max": 30,
+          "count_difficulty_multiplier": 1,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales_no_weapon"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_4_creepers",
+      "wave_message": "§cThe undead and Creeper horde is approaching...",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 5,
+          "count_max": 10,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:creeper"
+          ],
+          "count": 5,
+          "count_max": 30,
+          "count_difficulty_multiplier": 0.5,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_5_bats",
+      "wave_message": "§cThe undead and bat horde is approaching...",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 5,
+          "count_max": 10,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:bat"
+          ],
+          "count": 35,
+          "count_max": 40,
+          "count_difficulty_multiplier": 0.5,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            },
+            {
+              "cmod": "ai_attack_melee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_6_spiders",
+      "wave_message": "§cThe undead and spider super horde is approaching...",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 5,
+          "count_max": 10,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_all_scales"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:spider"
+          ],
+          "count": 15,
+          "count_max": 40,
+          "count_difficulty_multiplier": 0.5,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_7_crazy_animals",
+      "wave_message": "§cThe animal uprising has begun. They want revenge!",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "cow", "pig", "sheep", "chicken", "wolf", "ocelot", "parrot", "polar_bear", "rabbit", "horse", "donkey", "mule", "llama", "mocreatures:deer", "mocreatures:bird", "mocreatures:blackbear", "mocreatures:bunny", "mocreatures:elephant", "mocreatures:boar"
+          ],
+          "count": 20,
+          "count_max": 30,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "ai_omniscience"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            },
+            {
+              "cmod": "ai_attack_melee"
+            },
+            {
+              "cmod": "attribute_attackdamage",
+              "base_value": 5,
+              "max_value": 10,
+              "difficulty_multiplier": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_stage_3_opt_8_illagers",
+      "wave_message": "§cThe Illager army has arrived!",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 5
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "vindication_illager", "illusion_illager"
+          ],
+          "count": 7,
+          "count_max": 25,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "evocation_illager"
+          ],
+          "count": 1,
+          "count_max": 2,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "buffed_attributes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}

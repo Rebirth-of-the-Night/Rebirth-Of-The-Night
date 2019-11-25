@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Maven-Artifact: tyra314:toolprogression-core:1.12.2-1.6.8
+FMLCorePlugin: tyra314.toolprogression.core.ToolProgressionPlugin
+
+Name: tyra314/toolprogression/core/ToolProgressionPlugin.class
+SHA-256-Digest: b5yPtf3D8A21cVghE7BXNLS9HLebKThwbFWbwmhDuL4=
+
+Name: tyra314/toolprogression/core/asm/ToolProgressionClassTransformer
+ .class
+SHA-256-Digest: fni3MFePkIFOOaII3C2qXNEJybzA1+UEWBS5gUdG4fo=
+
+Name: tyra314/toolprogression/core/AsmHooks.class
+SHA-256-Digest: TG3QSL0lbOZj4UJtDKWgy5dt0oFbU4s9mRgSaJeKoyQ=
+
+Name: tyra314/toolprogression/core/ToolProgressionCoreMod.class
+SHA-256-Digest: DpCN+IXfRLkrgF1kdos5tz/3JrorPVx6u+z1p5/CfCg=
+

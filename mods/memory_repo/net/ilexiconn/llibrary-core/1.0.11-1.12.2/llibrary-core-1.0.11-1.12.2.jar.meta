@@ -1,0 +1,212 @@
+Manifest-Version: 1.0
+Maven-Artifact: net.ilexiconn:llibrary-core:1.0.11-1.12.2
+FMLCorePlugin: net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugi
+ n
+Timestamp: 1552203149415
+
+Name: net/ilexiconn/llibrary/server/asm/Method.class
+SHA-256-Digest: F5DPsmeTSY7Lvs84W9zO9oLKt8G4fGL9EVHmWR9GQAY=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$Patch$4.class
+SHA-256-Digest: z0qHMX9JcDCKEvz+ju69ObM9OhpGBy6yCNRxkBytpnY=
+
+Name: net/ilexiconn/llibrary/server/asm/InsnPredicate.class
+SHA-256-Digest: KfYXzWklZbqQYi1XStqWFmchbvYGoRXMcQEeyMlaYuQ=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Left$Post.cla
+ ss
+SHA-256-Digest: ybml7yQExWmpIQFWQ8dUefM4K+V12L7k4K/pcGqf/Jw=
+
+Name: net/ilexiconn/llibrary/client/event/ApplyRenderRotationsEvent$Pr
+ e.class
+SHA-256-Digest: +Wff6tKGhGaXuqSuESynTbLWk95HvMss8R36hpmAqSo=
+
+Name: net/ilexiconn/llibrary/client/event/PlayerModelEvent$Render.clas
+ s
+SHA-256-Digest: 5pZTSAeQ6RZL0pdD+SgpamR77DvANinLCC1iuseuqc8=
+
+Name: net/ilexiconn/llibrary/server/asm/InsnPredicate$Op.class
+SHA-256-Digest: xleV80mdL/VZNlTBakLP7RuH6ApvUSc1Xs/K+bLsGww=
+
+Name: net/ilexiconn/llibrary/server/asm/writer/HierarchyParser$1.class
+SHA-256-Digest: 3MDkYUbyYB2/ItxMjoeHY8Owr9ozZp7WOA9hECi2tYk=
+
+Name: net/ilexiconn/llibrary/server/asm/ClassPatcher.class
+SHA-256-Digest: BGAsMKzv6Woneln5LJIQ0l+r6c+m5bCsAfJmFlcZsas=
+
+Name: net/ilexiconn/llibrary/server/asm/InsnPredicate$Method.class
+SHA-256-Digest: jkKCjgp1vQ43Z9Mri0rommx44s3FmiK/r8JNYXvEjXw=
+
+Name: net/ilexiconn/llibrary/server/asm/InsnPredicate$Var.class
+SHA-256-Digest: FFiw8lgQV8vlTYKXdW/j8z/dc1q4a97plt459vGS0Bg=
+
+Name: net/ilexiconn/llibrary/server/asm/PostProcessor.class
+SHA-256-Digest: Cax+JXpyPHLTJxQ+ugTnU5f0IkbWq+ibvPDVYjQuPnk=
+
+Name: net/ilexiconn/llibrary/client/event/PlayerModelEvent.class
+SHA-256-Digest: dVnngqNIJi23mtejfEgRn1PsNYD7LO05l3DsGXCc5is=
+
+Name: llibrary.mappings
+SHA-256-Digest: oXouYXTQHPrGznE9y/aQ154IJnJ4rNnOqEIoNlxuypI=
+
+Name: net/ilexiconn/llibrary/server/asm/MappingHandler.class
+SHA-256-Digest: 0SSJ2M3iiSyWuh08SZ9Z765kZ67J4Iecno4AFsgV0d4=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$1.class
+SHA-256-Digest: SUhdbsFNwS9pfGPkLU9wWsPU0AC4xgP2uXukxpQK/WU=
+
+Name: net/ilexiconn/llibrary/server/core/plugin/LLibraryTransformer.cl
+ ass
+SHA-256-Digest: AgxDpAO4+B2JuogD5Mb767NVkOT+KZgU6B/KmKh+zoQ=
+
+Name: net/ilexiconn/llibrary/server/asm/Descriptors.class
+SHA-256-Digest: NOQUOEUGj1RHin5YSo2fF2GaCuHTC7Hu64zOh88nrD8=
+
+Name: net/ilexiconn/llibrary/server/asm/PostProcessor$PreserveFrames.c
+ lass
+SHA-256-Digest: 7GURIbk2uR8HSnTbPRKoKnfe6s49QX1/gahDuCsyaS4=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Left.class
+SHA-256-Digest: 0FNQ16qSpgS93BGLiXi19zULWBDChIALfnTUq5K/Bak=
+
+Name: META-INF/fml_cache_annotation.json
+SHA-256-Digest: HTsHv9wWgVXuZRpnhDVu/6dZjEszNxn4T3Z5Hgd7BUw=
+
+Name: net/ilexiconn/llibrary/server/asm/writer/PatchClassWriter.class
+SHA-256-Digest: FANRO/I1x320wmdCODZtAdDOzThLKht6igiJdfifez8=
+
+Name: net/ilexiconn/llibrary/server/asm/MethodPatcher$PredicateData.cl
+ ass
+SHA-256-Digest: L0FvbTRXLfnG372I98eO2u3Sm49BDfXvGXDLf2jRuGo=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$At$2.class
+SHA-256-Digest: L9Fifu005vTdT6xz7oI/MF3Ud+h6ahSbY8vcAtdCCy8=
+
+Name: net/ilexiconn/llibrary/server/asm/writer/ClassHierarchy.class
+SHA-256-Digest: hT3UeOW2lY8WuYb7DfLwBC939erjYdLsdLL1UE7gGIM=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$Patch$1.class
+SHA-256-Digest: RPl9sTfXReN67mIppyw7ZJNLRZxNerzL0uNNBU/PwY8=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$At$1$1.class
+SHA-256-Digest: qEpmn9vhtG/16wWzEiYZcJBjA8v/5MSS1/KtmGQoKDM=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Post.class
+SHA-256-Digest: fOaAdPiksXLyO1KfvWvfZebi6A/R+je0Q9AMlr6uBTA=
+
+Name: META-INF/fml_cache_class_versions.json
+SHA-256-Digest: iLZ5ZKO76AQDW2rLMwk66pxCaQzBQEASV1HbWGzBMdc=
+
+Name: net/ilexiconn/llibrary/server/core/patcher/LLibraryHooks.class
+SHA-256-Digest: N1xmcBV+YAyu90n6a9uk8Cc3369Q1+U7sn3XoiPlbdo=
+
+Name: net/ilexiconn/llibrary/server/core/plugin/LLibraryPlugin.class
+SHA-256-Digest: uTCsY1cX4C0Z9ylfcRWqJfkoOofckw9ZrmXW7ZS5ssE=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$At.class
+SHA-256-Digest: IhAHQGnFyX8X9G2adkYJmthh+kGVcw3asMVtU8WnzvU=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Right$Pre.cla
+ ss
+SHA-256-Digest: qHx6UiR2FJTGXmVPAAhi2epv9cp0j+wbCMV7knTIcFk=
+
+Name: net/ilexiconn/llibrary/server/asm/writer/HierarchyNode.class
+SHA-256-Digest: N9Vt3snfu7cAptzE/miOzx/z3XsY9wB7WHYs8vFCG34=
+
+Name: net/ilexiconn/llibrary/server/core/patcher/LLibraryRuntimePatche
+ r.class
+SHA-256-Digest: BUm1U15lC9hKL1Oq4anrw5i01YvdyLze/dwyRFKgp5w=
+
+Name: net/ilexiconn/llibrary/server/asm/Transformed.class
+SHA-256-Digest: gAifM1Uc2V6hcT1nV+qLxoBY+8DoCNZNKX+YKreEbdw=
+
+Name: net/ilexiconn/llibrary/server/asm/InsnPredicate$Ldc.class
+SHA-256-Digest: gqxl8hbAknpT4HaWUzP2sN37PKcJOVTKJ3WTOQESSfM=
+
+Name: net/ilexiconn/llibrary/server/asm/writer/HierarchyParser.class
+SHA-256-Digest: +cntvpVRrUTcXi89SdZEItOukG7z/L3N+hiWjx4Rz3Y=
+
+Name: net/ilexiconn/llibrary/server/asm/writer/RawClassFetcher.class
+SHA-256-Digest: iFUbSTvkglyopOd1XBleEFXR/Ycvh0dLk+RSdgxHvU8=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Pre.class
+SHA-256-Digest: 2HBjYSXmjWjZdWRpPUQfS9D9gQdXSqb5uvug5hIYvVk=
+
+Name: net/ilexiconn/llibrary/client/event/ApplyRenderRotationsEvent$Po
+ st.class
+SHA-256-Digest: 0ExyT86OsjL3JjgKPEAWl89Zx1xBzg4MqcJirugRn9M=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$At$4.class
+SHA-256-Digest: 7f/W8Kq6wUVbMqAtp3x6ysk0XCBGaEb2Emvq5DyAvF0=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$Patch$2.class
+SHA-256-Digest: k18X7lEKA2zEbBbcB+Fu34ofgomNO4Jq/ESLPFjExqE=
+
+Name: net/ilexiconn/llibrary/client/event/ApplyRenderRotationsEvent.cl
+ ass
+SHA-256-Digest: 2TFvz74k39VmRikKvOfrouNJR6gbiD4AdW/7ezG0ua4=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$Patch.class
+SHA-256-Digest: CNXtAuhj6ysniW7iC5iSwtQ7u3yQgl+onKgGWOWzQ/0=
+
+Name: net/ilexiconn/llibrary/client/event/PlayerModelEvent$Construct.c
+ lass
+SHA-256-Digest: mOCbg/Lj0ve5R84/McBg7rrLyn7LOD3WdIuF3eg2Ubc=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$At$1.class
+SHA-256-Digest: 9jL8vnSKb4pKlugVUSUdYad5tAqC728gEfUcwZ2WyEI=
+
+Name: net/ilexiconn/llibrary/client/event/PlayerViewDistanceEvent.clas
+ s
+SHA-256-Digest: E//K3p9/7+WeBePnbE+uzXrjkMYyrSNhKEfFDM+R+vY=
+
+Name: net/ilexiconn/llibrary/server/core/api/LLibraryCoreAPI$Fallback.
+ class
+SHA-256-Digest: HmTn1njXIKefEqn98Owk2y7KWk82BERM0Wrdv44LGe4=
+
+Name: net/ilexiconn/llibrary/server/asm/InsnPredicate$Frame.class
+SHA-256-Digest: WaOR/MJ1X6FJUtS68csI/i7vhp4wzkHfq60ePtmwFbo=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent.class
+SHA-256-Digest: xFHL6pQtgIKqQtYIvrXKtdCuQM5WCYWDXBVGE77cHyY=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$Patch$3.class
+SHA-256-Digest: GXGdlA7w5u0rPbj6x/+rNtGd2L8UusCAj+s9jIs3tB0=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Right$Post.cl
+ ass
+SHA-256-Digest: zh/85tkeSVXRsqOV8EFr8P1Bj2uarR5zrtzHl9eyzpY=
+
+Name: net/ilexiconn/llibrary/server/asm/MethodPatcher.class
+SHA-256-Digest: HDa5i/h9C3xD1o4CZSe8Zh2pUyKNV3jxwf+aY0Wm4/A=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher$At$3.class
+SHA-256-Digest: ctjKSaMcnPAWTBilMTnt7yxfLZ7wwYoqIlMBGpBNOv0=
+
+Name: net/ilexiconn/llibrary/client/event/PlayerModelEvent$Assign.clas
+ s
+SHA-256-Digest: RUzPMbFHA3Mqg/m9x7nVD+MsQR1lbIO6r54JaGOPCuo=
+
+Name: net/ilexiconn/llibrary/server/asm/InsnPredicate$Field.class
+SHA-256-Digest: rzBeKW0lRPkr7VPGqdKQom5w2aIPQGG8uaTklFFX4WQ=
+
+Name: net/ilexiconn/llibrary/server/asm/RuntimePatcher.class
+SHA-256-Digest: yBgb1qc0Ck9WqVeSNz+Lv4nvBAR0/GWOe2J0N5lm87w=
+
+Name: net/ilexiconn/llibrary/client/event/PlayerModelEvent$SetRotation
+ Angles.class
+SHA-256-Digest: 2yQvoOuokIvvdEj47ylMWOGFx4UT31cC5meVHmIFZo0=
+
+Name: net/ilexiconn/llibrary/server/asm/MethodPatcher$PatchData.class
+SHA-256-Digest: NQLt5EiO638Cf62ukJQaVJNLGpC5pyv9HoLPDWaUZeI=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Right.class
+SHA-256-Digest: Zs/0WdHNl7YT3upp4IN7aXCNDjaUqWsBAgjPcJFEOZw=
+
+Name: net/ilexiconn/llibrary/server/core/api/LLibraryCoreAPI.class
+SHA-256-Digest: LInkMHjd4CWyIbw4nyGdNKIkzr+SO6Vqi228LOEO5YI=
+
+Name: net/ilexiconn/llibrary/client/event/RenderArmEvent$Left$Pre.clas
+ s
+SHA-256-Digest: aqx0BrPMyy/tJrDL2A6hY2hL/iScxT5sbraQqt7Xe8k=
+

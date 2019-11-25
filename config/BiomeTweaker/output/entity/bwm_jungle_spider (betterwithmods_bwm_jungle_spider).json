@@ -1,0 +1,6 @@
+
+{
+  "Name": "bwm_jungle_spider",
+  "Registry ID": "betterwithmods:bwm_jungle_spider",
+  "Class": "betterwithmods.common.entity.EntityJungleSpider"
+}

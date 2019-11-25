@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.traveling_merchant",
+  "Registry ID": "primitivemobs:traveling_merchant",
+  "Class": "net.daveyx0.primitivemobs.entity.passive.EntityTravelingMerchant"
+}

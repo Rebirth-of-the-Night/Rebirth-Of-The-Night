@@ -1,0 +1,6 @@
+
+{
+  "Name": "twilightforest.squirrel",
+  "Registry ID": "twilightforest:squirrel",
+  "Class": "twilightforest.entity.passive.EntityTFSquirrel"
+}

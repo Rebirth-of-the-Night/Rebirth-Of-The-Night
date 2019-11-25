@@ -1,0 +1,6 @@
+
+{
+  "Name": "watcher",
+  "Registry ID": "endreborn:watcher",
+  "Class": "endreborn.mod.entity.EntityWatcher"
+}

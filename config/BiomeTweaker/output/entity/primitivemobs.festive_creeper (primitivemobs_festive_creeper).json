@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.festive_creeper",
+  "Registry ID": "primitivemobs:festive_creeper",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityFestiveCreeper"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:jellyfish",
+  "Registry ID": "mocreatures:jellyfish",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityJellyFish"
+}

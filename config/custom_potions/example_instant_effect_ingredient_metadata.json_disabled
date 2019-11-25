@@ -1,0 +1,12 @@
+{
+  "level": 0,
+  "durationSeconds": 0,
+  "ingredient": "minecraft:dye@2",
+  "basePotionType": "minecraft:harming",
+  "effect": "minecraft:instant_damage",
+  "name": "instant_with_meta",
+  "autoGenerateStrongVersion": true,
+  "autoGenerateLongVersion": false,
+  "durationLongVersion": 0,
+  "durationStrongVersion": 0
+}

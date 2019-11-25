@@ -1,0 +1,6 @@
+
+{
+  "Name": "grottol",
+  "Registry ID": "mowziesmobs:grottol",
+  "Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol"
+}

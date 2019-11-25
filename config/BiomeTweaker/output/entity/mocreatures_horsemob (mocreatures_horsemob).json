@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:horsemob",
+  "Registry ID": "mocreatures:horsemob",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityHorseMob"
+}

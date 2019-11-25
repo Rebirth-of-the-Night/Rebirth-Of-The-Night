@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:mouse",
+  "Registry ID": "mocreatures:mouse",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse"
+}

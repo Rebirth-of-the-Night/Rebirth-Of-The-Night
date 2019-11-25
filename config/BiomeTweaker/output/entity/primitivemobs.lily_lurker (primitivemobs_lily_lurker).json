@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.lily_lurker",
+  "Registry ID": "primitivemobs:lily_lurker",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityLilyLurker"
+}

@@ -1,0 +1,43 @@
+
+//This tells the script parser that the script requires Reskillable. If the mod is not loaded, the script will be canceled.
+Parser.addRequiredMod("reskillable")
+
+//Set the icon item
+setIcon(<minecraft:experience_bottle>)
+
+//Set the title String
+setTitle("Unsupported Mod Example")
+
+//Set the description String
+setDescription("Example of how to add and configure a criteria from an unsupported mod like Reskillable. Requires level 5 attack for completion.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(172,65)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Add the criteria with its resource location like any other criteria
+criteria = addCriteria("attack_5", "reskillable:skill_level")
+
+//To add conditions to an unsupported criteria, JSON must be used.
+//One option, is to add multiple criteria at once. This is what the "conditions" object would be in a normal JSON advancement.
+criteria.addConditions({"skill": "reskillable:attack", "level": 5})
+
+//The other option is to add conditions one at a time.
+//criteria.addCondition(""skill": "reskillable:attack"")
+//criteria.addCondition(""level": 5")
+
+//For reference, this is what the criteria would look like in a purely JSON advancement:
+//  "criteria": {
+//    "level_up": {
+//      "trigger": "reskillable:skill_level",
+//      "conditions": {
+//        "skill": "reskillable:attack",
+//        "level": 5
+//      }
+//    }
+//  }

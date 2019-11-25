@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:map>)
+
+//Set title String
+setTitle("Superflat")
+
+//Set description String
+setDescription("Enter a superflat world.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(126,65)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "superflat" with the trigger type "minecraft:location". This function returns the criteria as an object
+criteria = addCriteria("superflat", "minecraft:location")
+
+//Sets the required WorldType for the criteria.
+criteria.setWorldType("flat")

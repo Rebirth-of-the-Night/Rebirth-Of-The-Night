@@ -1,0 +1,6 @@
+
+{
+  "Name": "mini_cloud",
+  "Registry ID": "aether_legacy:mini_cloud",
+  "Class": "com.legacy.aether.entities.passive.EntityMiniCloud"
+}

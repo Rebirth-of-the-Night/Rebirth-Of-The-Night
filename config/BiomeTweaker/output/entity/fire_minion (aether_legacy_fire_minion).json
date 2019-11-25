@@ -1,0 +1,6 @@
+
+{
+  "Name": "fire_minion",
+  "Registry ID": "aether_legacy:fire_minion",
+  "Class": "com.legacy.aether.entities.bosses.EntityFireMinion"
+}

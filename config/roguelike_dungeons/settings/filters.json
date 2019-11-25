@@ -1,0 +1,6 @@
+{
+	"name" : "demo:filters",
+	"filters" : [
+		{"level" : 3, "name" : "vine"}
+	]
+}

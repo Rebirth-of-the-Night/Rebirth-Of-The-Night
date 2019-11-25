@@ -1,0 +1,28 @@
+{
+	"name" : "demo:spawners",
+	"spawners" : [
+		{
+			"type" : "ZOMBIE",
+			"potentials" : [
+				{"name" : "minecraft:vindication_illager"},
+				{"name" : "minecraft:witch"},
+				{"name" : "minecraft:zombie_villager"}
+			],
+			"level" : [0, 1]
+		},
+		{
+			"type" : "SPIDER",
+			"potentials" : [
+				{"name" : "minecraft:creeper", "nbt" : "{powered:1}"}
+			],
+			"level" : [0, 1]
+		},
+		{
+			"type" : "SKELETON",
+			"potentials" : [
+				{"name" : "minecraft:wither_skeleton"}
+			],
+			"level" : [0, 1]
+		}
+	]
+}

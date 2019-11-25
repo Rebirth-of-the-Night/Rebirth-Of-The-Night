@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:diamond>)
+
+//Set title String
+setTitle("Right clicking with an item")
+
+//Set description String
+setDescription("Right click with a diamond")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(172,41)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "clickedItem" with the trigger type "triumph:right_click_item". This function returns the criteria as an object
+criteria = addCriteria("clickedItem", "triumph:right_click_item")
+
+//Sets the required item for the criteria. This is the item that needs to be right clicked with by the player.
+criteria.setItem(<minecraft:diamond>)

@@ -1,0 +1,34 @@
+[
+  {
+    "internalOreName": "simpleores:copper_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/simpleores/copper",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "simpleores:adamantium_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/simpleores/adamantium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "simpleores:mythril_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/simpleores/mythril",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "simpleores:tin_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/simpleores/tin",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

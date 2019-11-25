@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:werewolf",
+  "Registry ID": "mocreatures:werewolf",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityWerewolf"
+}

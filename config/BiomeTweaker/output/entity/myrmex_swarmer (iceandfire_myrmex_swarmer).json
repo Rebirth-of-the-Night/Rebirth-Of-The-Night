@@ -1,0 +1,6 @@
+
+{
+  "Name": "myrmex_swarmer",
+  "Registry ID": "iceandfire:myrmex_swarmer",
+  "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexSwarmer"
+}

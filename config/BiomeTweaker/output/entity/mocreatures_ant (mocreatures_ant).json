@@ -1,0 +1,6 @@
+
+{
+  "Name": "mocreatures:ant",
+  "Registry ID": "mocreatures:ant",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityAnt"
+}

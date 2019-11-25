@@ -1,0 +1,6 @@
+
+{
+  "Name": "moa",
+  "Registry ID": "aether_legacy:moa",
+  "Class": "com.legacy.aether.entities.passive.mountable.EntityMoa"
+}

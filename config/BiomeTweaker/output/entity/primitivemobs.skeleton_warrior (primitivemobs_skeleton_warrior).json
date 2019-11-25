@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.skeleton_warrior",
+  "Registry ID": "primitivemobs:skeleton_warrior",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntitySkeletonWarrior"
+}

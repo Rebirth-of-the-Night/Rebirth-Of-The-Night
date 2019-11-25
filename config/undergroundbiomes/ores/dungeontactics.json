@@ -1,0 +1,27 @@
+[
+  {
+    "internalOreName": "dungeontactics:silver_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/dungeontactics/silver",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "dungeontactics:mithril_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/dungeontactics/mithril",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "dungeontactics:stonequartz_ore",
+    "meta": -1,
+    "overlay": "rotn:overlays/dungeontactics/quartz",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+
+]

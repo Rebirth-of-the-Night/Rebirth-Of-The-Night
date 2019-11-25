@@ -1,0 +1,34 @@
+[
+  {
+    "internalOreName": "byg:fossilstone",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/fossil_stone",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "byg:lathariumore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/latharium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "byg:pendoriteore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/pendorite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "byg:tamreliteore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/tamrelite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

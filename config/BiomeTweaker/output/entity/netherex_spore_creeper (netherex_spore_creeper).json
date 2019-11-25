@@ -1,0 +1,6 @@
+
+{
+  "Name": "netherex:spore_creeper",
+  "Registry ID": "netherex:spore_creeper",
+  "Class": "logictechcorp.netherex.entity.monster.EntitySporeCreeper"
+}

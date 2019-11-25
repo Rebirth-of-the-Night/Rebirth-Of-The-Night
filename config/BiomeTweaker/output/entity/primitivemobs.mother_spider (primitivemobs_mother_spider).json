@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.mother_spider",
+  "Registry ID": "primitivemobs:mother_spider",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityMotherSpider"
+}

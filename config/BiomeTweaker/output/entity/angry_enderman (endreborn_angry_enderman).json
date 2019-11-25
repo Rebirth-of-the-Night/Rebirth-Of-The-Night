@@ -1,0 +1,6 @@
+
+{
+  "Name": "angry_enderman",
+  "Registry ID": "endreborn:angry_enderman",
+  "Class": "endreborn.mod.entity.EntityAngryEnder"
+}

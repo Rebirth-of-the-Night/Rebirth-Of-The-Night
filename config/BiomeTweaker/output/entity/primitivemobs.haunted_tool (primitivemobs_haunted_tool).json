@@ -1,0 +1,6 @@
+
+{
+  "Name": "primitivemobs.haunted_tool",
+  "Registry ID": "primitivemobs:haunted_tool",
+  "Class": "net.daveyx0.primitivemobs.entity.monster.EntityHauntedTool"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "internalOreName": "pyrotech:fossil_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/pyrotech/fossil_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "pyrotech:dense_coal_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/byg/dense_coal_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]
