@@ -20,13 +20,61 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "SANDY",
+    "MESA",
     "SPARSE",
-    "MESA"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
+    {
+      "Entity Class": "com.animania.common.entities.horses.HorseDraft$EntityMareDraftHorse",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowAngus$EntityCowAngus",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatKinder$EntityDoeKinder",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatNigerianDwarf$EntityDoeNigerianDwarf",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatPygmy$EntityDoePygmy",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepSuffolk$EntityEweSuffolk",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitJack$EntityRabbitDoeJack",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBird",
       "Weight": 15,

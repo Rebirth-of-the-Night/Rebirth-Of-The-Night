@@ -1,6 +1,6 @@
 
 {
-  "ID": 117,
+  "ID": 111,
   "Name": "Twilight Lake",
   "Resource Location": "twilightforest:twilight_lake",
   "Class": "twilightforest.biomes.TFBiomeTwilightLake",

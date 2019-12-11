@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 112,
   "Name": "Twilight Forest",
   "Resource Location": "twilightforest:twilight_forest",
   "Class": "twilightforest.biomes.TFBiomeBase",

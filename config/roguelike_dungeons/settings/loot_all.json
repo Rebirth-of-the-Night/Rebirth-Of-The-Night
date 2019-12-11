@@ -186,16 +186,7 @@
 				{"data" : {"name" : "minecraft:string"}, "weight" : 1},
 				{"data" : {"name" : "minecraft:snowball"}, "weight" : 1},
 				{"data" : {"name" : "minecraft:feather"}, "weight" : 1},
-				{"data" : {"name" : "minecraft:torch", "min" : 1, "max" : 6}, "weight" : 3},
-				{"data" : {"name" : "artifacts:flame_pendant"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:shiny_red_balloon"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:thorn_pendant"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:bottled_cloud"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:star_cloak"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:panic_necklace"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:fire_gauntlet"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:magma_stone"}, "weight" : 1},
-				{"data" : {"name" : "artifacts:lucky_horseshoe"}, "weight" : 1}
+				{"data" : {"name" : "minecraft:torch", "min" : 1, "max" : 6}, "weight" : 3}
 			],
 			"each" : true,
 			"quantity" : 4

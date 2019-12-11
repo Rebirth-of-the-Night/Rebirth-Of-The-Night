@@ -1,5 +1,14 @@
 import crafttweaker.item.IIngredient;
 
+
+mods.jei.JEI.removeAndHide(<minecraftfuture:honey_block>);
+mods.jei.JEI.removeAndHide(<minecraftfuture:honeycomb_block>);
+mods.jei.JEI.removeAndHide(<minecraftfuture:honey_bottle>);
+mods.jei.JEI.removeAndHide(<minecraftfuture:honeycomb>);
+mods.jei.JEI.removeAndHide(<minecraftfuture:bee_nest>);
+mods.jei.JEI.removeAndHide(<minecraftfuture:bee_hive>);
+
+
 mods.jei.JEI.removeAndHide(<minecraftfuture:lantern>);
 recipes.remove(<minecraftfuture:stonecutter>);
 

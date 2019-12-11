@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MUSHROOM",
     "RARE",
+    "MUSHROOM",
     "BEACH"
   ],
   "BiomeManager Entries": {},
@@ -31,6 +31,18 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowMooshroom$EntityCowMooshroom",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Monsters": [

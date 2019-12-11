@@ -248,3 +248,9 @@ potioncore:strong_burst
 potioncore:archery
 potioncore:strong_archery
 potioncore:long_archery
+toroquest:royalty
+toroquest:long_royalty
+toroquest:strong_royalty
+toroquest:loyalty
+toroquest:long_loyalty
+toroquest:strong_loyalty

@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "DRY",
+    "SANDY",
     "HILLS",
-    "SANDY"
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -32,6 +32,66 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigHampshire$EntitySowHampshire",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowHereford$EntityCowHereford",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowHighland$EntityCowHighland",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatAlpine$EntityDoeAlpine",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatKiko$EntityDoeKiko",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatNigerianDwarf$EntityDoeNigerianDwarf",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepDorset$EntityEweDorset",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitHavana$EntityRabbitDoeHavana",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitJack$EntityRabbitDoeJack",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",

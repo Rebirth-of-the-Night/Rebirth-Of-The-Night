@@ -1,6 +1,6 @@
 
 {
-  "ID": 141,
+  "ID": 128,
   "Name": "Dark Forest Center",
   "Resource Location": "twilightforest:dark_forest_center",
   "Class": "twilightforest.biomes.TFBiomeDarkForestCenter",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
-    "TWILIGHT",
     "DENSE",
-    "FOREST",
-    "MAGICAL"
+    "TWILIGHT",
+    "SPOOKY",
+    "MAGICAL",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

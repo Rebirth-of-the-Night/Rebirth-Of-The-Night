@@ -60,16 +60,6 @@
     "maxy": 120
   },
   {
-    "ore": "minecraft:emerald_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 3,
-    "size": 3,
-    "miny": 10,
-    "maxy": 120
-  },
-  {
     "ore": "minecraft:monster_egg",
     "oremeta": 0,
     "source": "minecraft:stone",

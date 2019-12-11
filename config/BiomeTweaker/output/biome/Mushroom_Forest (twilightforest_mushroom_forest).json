@@ -1,6 +1,6 @@
 
 {
-  "ID": 121,
+  "ID": 115,
   "Name": "Mushroom Forest",
   "Resource Location": "twilightforest:mushroom_forest",
   "Class": "twilightforest.biomes.TFBiomeMushrooms",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MUSHROOM",
     "TWILIGHT",
+    "MUSHROOM",
     "FOREST"
   ],
   "BiomeManager Entries": {},

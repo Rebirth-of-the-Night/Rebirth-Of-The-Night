@@ -4,6 +4,8 @@ import crafttweaker.item.IIngredient;
 
 brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
+furnace.remove(<minecraft:coal:1>);
+
 
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);

@@ -35,6 +35,7 @@ rustic:full
 rustic:magic_resistance
 rustic:wither_ward
 rustic:tipsy
+twilightforest:frosted
 betterwithmods:true_sight
 betterwithmods:fortune
 betterwithmods:looting
@@ -124,6 +125,6 @@ potioncore:curse
 potioncore:burst
 potioncore:archery
 scalinghealth:bandaged
-twilightforest:frosted
+toroquest:royalty
 bountifulbaubles:sinful
 hungeroverhaul:wellfed

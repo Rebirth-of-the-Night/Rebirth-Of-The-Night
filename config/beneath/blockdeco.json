@@ -1,72 +1,12 @@
 [
   {
-    "ore": "nethercraft:nether_dirt",
+    "ore": "minecraft:lava",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 12,
-    "size": 48,
-    "miny": 1,
-    "maxy": 256
-  },
-  {
-    "ore": "undergroundbiomes:sedimentary_gravel:4",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 8,
-    "size": 22,
-    "miny": 1,
-    "maxy": 256
-  },
-  {
-    "ore": "undergroundbiomes:sedimentary_stone:4",
-    "oremeta": 1,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 4,
-    "size": 128,
-    "miny": 1,
-    "maxy": 180
-  },
-  {
-    "ore": "undergroundbiomes:igneous_stone:1",
-    "oremeta": 1,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 4,
-    "size": 128,
-    "miny": 1,
-    "maxy": 255
-  },
-  {
-    "ore": "explorercraft:basalt",
-    "oremeta": 1,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 4,
-    "size": 128,
-    "miny": 1,
-    "maxy": 255
-  },
-  {
-    "ore": "explorercraft:slate",
-    "oremeta": 3,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 4,
-    "size": 128,
-    "miny": 120,
-    "maxy": 255
-  },
-  {
-    "ore": "minecraft:magma",
-    "oremeta": 5,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 2,
-    "size": 64,
-    "miny": 1,
-    "maxy": 160
+    "veins": 1,
+    "size": 256,
+    "miny": 5,
+    "maxy": 50
   }
 ]

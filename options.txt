@@ -9,7 +9,7 @@ guiScale:0
 particles:1
 bobView:true
 anaglyph3d:false
-maxFps:260
+maxFps:145
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -26,10 +26,10 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -86,7 +86,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_of.key.zoom:46
-key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -105,6 +104,8 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -113,7 +114,6 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
-key_quark.keybind.toggleAutojump:0
 key_keybind.baublesinventory:0
 key_key.davincis.up:72
 key_key.davincis.down:76
@@ -122,13 +122,12 @@ key_key.davincis.align:0
 key_key.davincis.decompile:0
 key_key.davincis.shipinv:37
 key_MoCreatures Dive:0
-key_MoCreatures GUI:100
+key_MoCreatures GUI:0
 key_Toggle Magnetism Suppressor:0
 key_neat.keybind.toggle:0
 key_Difficulty Meter - Show:40
 key_Difficulty Meter - Show Always:0
 key_key.dismount:42
-key_AM Interface:73
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -143,13 +142,14 @@ key_key.jei.toggleBookmarkOverlay:0
 key_key.astikorcarts.desc:19
 key_key.betterHud.open:22
 key_key.carry.desc:42
-key_Options Gui:23
+key_Options Gui:0
 key_key.dungeontactics.rocketjump.desc:57
 key_key.dungeontactics.shieldbash.desc:56
 key_key.dungeontactics.trinket1.desc:79
 key_key.dungeontactics.trinket2.desc:80
 key_key.dungeontactics.trinket3.desc:81
 key_key.dungeontactics.trinket4.desc:75
+key_dsurround.cfg.keybind.AnimaniaBadges:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:0
 key_waila.keybind.liquid:0
@@ -165,8 +165,8 @@ key_key.debugScreen:61
 key_key.narrator:0
 key_keys.travellersBackpack.inventory:48
 key_keys.travellersBackpack.toggle_tank:0
-soundCategory_master:0.7086093
-soundCategory_music:0.056338027
+soundCategory_master:0.705298
+soundCategory_music:0.1056338
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

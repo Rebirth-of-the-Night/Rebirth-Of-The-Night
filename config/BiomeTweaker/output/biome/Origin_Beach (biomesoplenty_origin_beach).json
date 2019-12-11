@@ -24,7 +24,14 @@
     "BEACH"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -49,6 +56,24 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityDweller",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityAshen",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",

@@ -1,6 +1,9 @@
 import crafttweaker.item.IIngredient;
 
-furnace.addRecipe(<minecraft:iron_ingot>, <dungeontactics:steel_ingot>);
+
+furnace.addRecipe(<dungeontactics:steel_ingot>, <minecraft:iron_ingot>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:climbing_rope>);
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_plate_boots>);
@@ -38,7 +41,11 @@ mods.jei.JEI.removeAndHide(<dungeontactics:mithril_plate_greaves>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_plate_chestpiece>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_plate_faceplate>);
 
+
+
 mods.jei.JEI.removeAndHide(<dungeontactics:ironlinks>);
+mods.ltt.LootTable.removeGlobalItem("ironlinks");
+
 
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_hoe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_axe>);
@@ -86,6 +93,13 @@ mods.jei.JEI.removeAndHide(<dungeontactics:diamond_cutlass>);
 mods.jei.JEI.removeAndHide(<dungeontactics:diamond_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:diamond_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:diamond_hammer>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_shield");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_cestus");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_cutlass");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_glaive");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_battleaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_hammer");
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_shield>);
@@ -95,6 +109,15 @@ mods.jei.JEI.removeAndHide(<dungeontactics:iron_cutlass>);
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_hammer>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_shield");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_cestus");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_cutlass");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_glaive");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_battleaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_hammer");
+
+
 
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_shield>);
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_cestus>);
@@ -103,6 +126,16 @@ mods.jei.JEI.removeAndHide(<dungeontactics:stone_cutlass>);
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_hammer>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:stone_shield");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:stone_cestus");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:stone_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:stone_cutlass");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:stone_glaive");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:stone_battleaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:stone_hammer");
+
+
+
 
 mods.jei.JEI.removeAndHide(<dungeontactics:wooden_shield>);
 mods.jei.JEI.removeAndHide(<dungeontactics:wooden_cestus>);
@@ -111,6 +144,16 @@ mods.jei.JEI.removeAndHide(<dungeontactics:wooden_cutlass>);
 mods.jei.JEI.removeAndHide(<dungeontactics:wooden_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:wooden_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:wooden_hammer>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wooden_shield");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wooden_cestus");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wooden_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wooden_cutlass");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wooden_glaive");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wooden_battleaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wooden_hammer");
+
+
+
 
 mods.jei.JEI.removeAndHide(<dungeontactics:golden_shield>);
 mods.jei.JEI.removeAndHide(<dungeontactics:golden_cestus>);
@@ -119,6 +162,16 @@ mods.jei.JEI.removeAndHide(<dungeontactics:golden_cutlass>);
 mods.jei.JEI.removeAndHide(<dungeontactics:golden_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:golden_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:golden_hammer>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_shield");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_cestus");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_cutlass");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_glaive");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_battleaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_hammer");
+
+
+
 
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_hoe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_axe>);
@@ -138,6 +191,9 @@ mods.jei.JEI.removeAndHide(<dungeontactics:bone_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_hammer>);
 
+
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
+
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_shield>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_cestus>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_knife>);
@@ -145,6 +201,14 @@ mods.jei.JEI.removeAndHide(<dungeontactics:silver_cutlass>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_hammer>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_sword");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_shield");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_cestus");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_cutlass");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_glaive");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:throwing_knife>);
@@ -152,10 +216,13 @@ mods.jei.JEI.removeAndHide(<dungeontactics:throwing_knife_slowness>);
 mods.jei.JEI.removeAndHide(<dungeontactics:throwing_knife_weakness>);
 mods.jei.JEI.removeAndHide(<dungeontactics:throwing_knife_poison>);
 mods.jei.JEI.removeAndHide(<dungeontactics:throwing_knife_caustic>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:throwing_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:throwing_knife_slowness");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:throwing_knife_weakness");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:throwing_knife_poison");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:throwing_knife_caustic");
 
 
-
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
 mods.jei.JEI.removeAndHide(<dungeontactics:master_cestus_pummel>);
 mods.jei.JEI.removeAndHide(<dungeontactics:master_cestus_roar>);
 mods.jei.JEI.removeAndHide(<dungeontactics:master_knife_multistrike>);
@@ -164,7 +231,14 @@ mods.jei.JEI.removeAndHide(<dungeontactics:master_hammer_leap>);
 mods.jei.JEI.removeAndHide(<dungeontactics:master_cutlass_riposte>);
 mods.jei.JEI.removeAndHide(<dungeontactics:master_cutlass_pierce>);
 mods.jei.JEI.removeAndHide(<dungeontactics:master_knife_smokebomb>);
-
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_cestus_pummel");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_cestus_roar");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_knife_multistrike");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_hammer_smash");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_hammer_leap");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_cutlass_riposte");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_cutlass_pierce");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_knife_smokebomb");
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:flour>);
@@ -172,7 +246,7 @@ mods.jei.JEI.removeAndHide(<dungeontactics:lantern_iron>);
 
 recipes.remove(<dungeontactics:lantern_magic>);
 recipes.remove(<dungeontactics:iron_ring>);
-
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_ring");
 
 # Replaces Magic Lantern recipe with Rustic's lantern
 

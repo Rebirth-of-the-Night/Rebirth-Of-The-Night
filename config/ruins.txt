@@ -17,7 +17,7 @@ tries_per_chunk_nether=0
 chance_to_spawn_nether=0
 #
 # prevent a message from being logged every time a ruin is built
-disableRuinSpawnCoordsLogging=true
+disableRuinSpawnCoordsLogging=false
 #
 # minimum distance a template must have from instances of itself
 templateInstancesMinDistance=256
@@ -124,7 +124,7 @@ specific_mini_jungle=75
 specific_twilight_forest=75
 specific_rocky_plateau=75
 specific_desert=75
-specific_hell=75
+specific_hell=100
 specific_stone_beach=75
 specific_green_swamp=75
 specific_twilight_swamp=75
@@ -159,3 +159,4 @@ specific_fields_sub_forest=75
 specific_twilight_glacier=75
 specific_mutated_taiga=75
 specific_mutated_birch_forest=75
+specific_the_beneath=100

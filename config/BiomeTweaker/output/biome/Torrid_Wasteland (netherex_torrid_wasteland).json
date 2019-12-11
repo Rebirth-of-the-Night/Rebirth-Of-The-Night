@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 143,
   "Name": "Torrid Wasteland",
   "Resource Location": "netherex:torrid_wasteland",
   "Class": "logictechcorp.netherex.world.biome.BiomeTorridWasteland",
@@ -20,22 +20,15 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "NETHER",
+    "PLAINS",
     "DRY",
     "HOT",
-    "SAVANNA",
     "WASTELAND",
-    "PLAINS",
-    "NETHER"
+    "SAVANNA"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.passive.EntityImp",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 12
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntityMagmaCube",
@@ -54,12 +47,6 @@
       "Weight": 100,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.monster.EntityNitroCreeper",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 6
     },
     {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoana",

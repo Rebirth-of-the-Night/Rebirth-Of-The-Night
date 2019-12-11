@@ -38,8 +38,8 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 8,
-				"variation": 4,
+				"size": 6,
+				"variation": 3,
 				"frequency": 10,
 				"minHeight": 0,
 				"maxHeight": 108
@@ -270,31 +270,6 @@
 			"blocks": [
 				{
 					"name": "minecraft:lapis_ore",
-					"chance": 100
-				}
-			]
-		},
-		"emerald_ore": {
-			"retrogen": false,
-			"enabled": true,
-			"feature": "default",
-			"replaces": "default",
-			"dimensions": [
-				0
-			],
-			"biomes": {
-				"includes": [ "MOUNTAIN" ]
-			},
-			"parameters": {
-				"size": 1,
-				"variation": 0,
-				"frequency": 70,
-				"minHeight": 4,
-				"maxHeight": 32
-			},
-			"blocks": [
-				{
-					"name": "minecraft:emerald_ore",
 					"chance": 100
 				}
 			]

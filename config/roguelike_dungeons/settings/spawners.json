@@ -1,28 +1,30 @@
 {
-	"name" : "demo:spawners",
+	"name" : "beneath:spawners",
 	"spawners" : [
 		{
 			"type" : "ZOMBIE",
 			"potentials" : [
-				{"name" : "minecraft:vindication_illager"},
 				{"name" : "minecraft:witch"},
-				{"name" : "minecraft:zombie_villager"}
+				{"name" : "minecraft:zombie_villager"},
+				{"name" : "primitivemobs:goblin"}
 			],
-			"level" : [0, 1]
+			"level" : [0, 1, 2, 3, 4]
 		},
 		{
 			"type" : "SPIDER",
 			"potentials" : [
-				{"name" : "minecraft:creeper", "nbt" : "{powered:1}"}
+				{"name" : "minecraft:creeper"},
+				{"name" : "primitivemobs:rocket_creeper"}
 			],
-			"level" : [0, 1]
+			"level" : [0, 1, 2, 3, 4]
 		},
 		{
 			"type" : "SKELETON",
 			"potentials" : [
-				{"name" : "minecraft:wither_skeleton"}
+				{"name" : "minecraft:wither_skeleton"},
+				{"name" : "primitivemobs:skeleton_warrior"}				
 			],
-			"level" : [0, 1]
+			"level" : [0, 1, 2, 3, 4]
 		}
 	]
 }

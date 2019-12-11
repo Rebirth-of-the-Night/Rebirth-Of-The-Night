@@ -131,12 +131,6 @@ biomesoplenty:flower_island
 biomesoplenty:corrupted_sands
 biomesoplenty:phantasmagoric_inferno
 biomesoplenty:visceral_heap
-mocreatures:wyvernbiome
-iceandfire:glacier
-netherex:ruthless_sands
-netherex:fungi_forest
-netherex:torrid_wasteland
-netherex:arctic_abyss
 twilightforest:twilight_lake
 twilightforest:twilight_forest
 twilightforest:dense_twilight_forest
@@ -157,6 +151,12 @@ twilightforest:dark_forest_center
 twilightforest:highlands_center
 twilightforest:thornlands
 twilightforest:spooky_forest
+mocreatures:wyvernbiome
+iceandfire:glacier
+netherex:ruthless_sands
+netherex:fungi_forest
+netherex:torrid_wasteland
+netherex:arctic_abyss
 aether_legacy:aether_highlands
 beneath:the_beneath
 explorercraft:bamboo_forest

@@ -1,0 +1,6 @@
+
+{
+  "Name": "animania:hedgehog",
+  "Registry ID": "animania:hedgehog",
+  "Class": "com.animania.common.entities.rodents.EntityHedgehog"
+}

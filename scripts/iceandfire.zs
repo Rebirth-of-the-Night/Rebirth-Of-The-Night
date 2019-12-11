@@ -14,3 +14,7 @@ mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_helmet>);
 mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_chestplate>);
 mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_leggings>);
 mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_boots>);
+
+mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
+mods.jei.JEI.removeAndHide(<iceandfire:sapphire_block>);
+mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);

@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "DENSE",
     "SWAMP",
     "WET",
-    "DENSE"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -50,6 +50,174 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHedgehogAlbino",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigLargeBlack$EntitySowLargeBlack",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.ChickenOrpington$EntityHenOrpington",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowAngus$EntityCowAngus",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowJersey$EntityCowJersey",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityToad",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityFrogs",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlCharcoal$EntityPeacockCharcoal",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlCharcoal$EntityPeafowlCharcoal",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlCharcoal$EntityPeachickCharcoal",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlOpal$EntityPeacockOpal",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlOpal$EntityPeafowlOpal",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlOpal$EntityPeachickOpal",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlPeach$EntityPeacockPeach",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlPeach$EntityPeafowlPeach",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlPeach$EntityPeachickPeach",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlPurple$EntityPeacockPurple",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlPurple$EntityPeafowlPurple",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlPurple$EntityPeachickPurple",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlTaupe$EntityPeacockTaupe",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlTaupe$EntityPeafowlTaupe",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlTaupe$EntityPeachickTaupe",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlBlue$EntityPeacockBlue",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlBlue$EntityPeafowlBlue",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlBlue$EntityPeachickBlue",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlWhite$EntityPeacockWhite",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlWhite$EntityPeafowlWhite",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.peacocks.PeafowlWhite$EntityPeachickWhite",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityCrocodile",
@@ -130,6 +298,24 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityDweller",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityAshen",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityGolem",

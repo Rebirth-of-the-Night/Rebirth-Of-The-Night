@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
-    "SNOWY",
     "MOUNTAIN",
-    "FOREST",
+    "SNOWY",
     "RARE",
-    "CONIFEROUS"
+    "COLD",
+    "CONIFEROUS",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -64,6 +64,120 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHedgehog",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigOldSpot$EntitySowOldSpot",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigLargeWhite$EntitySowLargeWhite",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigHampshire$EntitySowHampshire",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.ChickenPlymouthRock$EntityHenPlymouthRock",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.ChickenWyandotte$EntityHenWyandotte",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.ChickenRhodeIslandRed$EntityHenRhodeIslandRed",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowHolstein$EntityCowHolstein",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowHereford$EntityCowHereford",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowHighland$EntityCowHighland",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityToad",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.amphibians.EntityDartFrogs",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatAlpine$EntityDoeAlpine",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatKiko$EntityDoeKiko",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepJacob$EntityEweJacob",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitCottonail$EntityRabbitDoeCottontail",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitHavana$EntityRabbitDoeHavana",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitNewZealand$EntityRabbitDoeNewZealand",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitLop$EntityRabbitDoeLop",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBird",
@@ -255,19 +369,19 @@
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-      "Weight": 40,
+      "Weight": 70,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-      "Weight": 40,
+      "Weight": 70,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-      "Weight": 40,
+      "Weight": 70,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

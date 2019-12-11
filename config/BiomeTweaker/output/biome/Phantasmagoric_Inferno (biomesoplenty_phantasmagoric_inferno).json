@@ -20,26 +20,32 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "NETHER",
+    "MAGICAL",
+    "SPOOKY",
     "HOT",
     "DRY",
-    "SPOOKY",
-    "WASTELAND",
-    "MAGICAL",
-    "NETHER"
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowJersey$EntityCowJersey",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowMooshroom$EntityCowMooshroom",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntitySnake",
       "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.passive.EntityImp",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 12
     }
   ],
   "Spawnable Monsters": [
@@ -168,12 +174,6 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.monster.EntityNitroCreeper",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 6
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",

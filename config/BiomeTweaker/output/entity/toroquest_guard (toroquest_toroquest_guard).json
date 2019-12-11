@@ -1,0 +1,6 @@
+
+{
+  "Name": "toroquest_guard",
+  "Registry ID": "toroquest:toroquest_guard",
+  "Class": "net.torocraft.toroquest.entities.EntityGuard"
+}

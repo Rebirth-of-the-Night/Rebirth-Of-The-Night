@@ -1,6 +1,6 @@
 
 {
-  "ID": 113,
+  "ID": 141,
   "Name": "Ruthless Sands",
   "Resource Location": "netherex:ruthless_sands",
   "Class": "logictechcorp.netherex.world.biome.BiomeRuthlessSands",
@@ -20,22 +20,15 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SANDY",
+    "NETHER",
+    "PLAINS",
     "DRY",
     "HOT",
-    "SANDY",
-    "SAVANNA",
-    "PLAINS",
-    "NETHER"
+    "SAVANNA"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.passive.EntityImp",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 12
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitherSkeleton",
@@ -54,12 +47,6 @@
       "Weight": 100,
       "Min Group Count": 1,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.monster.EntityNitroCreeper",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 6
     },
     {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoana",

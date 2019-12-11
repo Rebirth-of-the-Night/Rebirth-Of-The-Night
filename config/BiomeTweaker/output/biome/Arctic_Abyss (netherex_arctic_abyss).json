@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 144,
   "Name": "Arctic Abyss",
   "Resource Location": "netherex:arctic_abyss",
   "Class": "logictechcorp.netherex.world.biome.BiomeArcticAbyss",
@@ -20,21 +20,14 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "COLD",
+    "NETHER",
     "WET",
     "PLAINS",
-    "NETHER"
+    "DRY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.passive.EntityImp",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 12
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "logictechcorp.netherex.entity.monster.EntityFrost",
@@ -59,12 +52,6 @@
       "Weight": 15,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.progwml6.natura.entities.entity.monster.EntityNitroCreeper",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 6
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",

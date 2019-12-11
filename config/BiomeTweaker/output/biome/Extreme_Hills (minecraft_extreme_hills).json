@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -61,6 +61,54 @@
       "Weight": 5,
       "Min Group Count": 4,
       "Max Group Count": 6
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigHampshire$EntitySowHampshire",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.ChickenPlymouthRock$EntityHenPlymouthRock",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowHereford$EntityCowHereford",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowHighland$EntityCowHighland",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatAlpine$EntityDoeAlpine",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatKiko$EntityDoeKiko",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepDorset$EntityEweDorset",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitHavana$EntityRabbitDoeHavana",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
@@ -234,7 +282,7 @@
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-      "Weight": 40,
+      "Weight": 70,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

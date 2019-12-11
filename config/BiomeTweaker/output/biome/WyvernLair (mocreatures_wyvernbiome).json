@@ -1,6 +1,6 @@
 
 {
-  "ID": 111,
+  "ID": 138,
   "Name": "WyvernLair",
   "Resource Location": "mocreatures:wyvernbiome",
   "Class": "drzhark.mocreatures.dimension.BiomeGenWyvernLair",

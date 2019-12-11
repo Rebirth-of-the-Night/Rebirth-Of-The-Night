@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "SANDY",
-    "PLAINS"
+    "PLAINS",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -73,6 +73,84 @@
       "Weight": 4,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.horses.HorseDraft$EntityMareDraftHorse",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.EntityHamster",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigYorkshire$EntitySowYorkshire",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.ChickenLeghorn$EntityHenLeghorn",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowFriesian$EntityCowFriesian",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatAngora$EntityDoeAngora",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatFainting$EntityDoeFainting",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatNigerianDwarf$EntityDoeNigerianDwarf",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepFriesian$EntityEweFriesian",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepMerino$EntityEweMerino",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitDutch$EntityRabbitDoeDutch",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitJack$EntityRabbitDoeJack",
+      "Weight": 11,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitLop$EntityRabbitDoeLop",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm",
@@ -255,6 +333,24 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityDweller",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityAshen",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityGolem",

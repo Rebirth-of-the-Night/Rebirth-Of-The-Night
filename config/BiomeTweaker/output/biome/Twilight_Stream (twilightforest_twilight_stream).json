@@ -1,6 +1,6 @@
 
 {
-  "ID": 123,
+  "ID": 117,
   "Name": "Twilight Stream",
   "Resource Location": "twilightforest:twilight_stream",
   "Class": "twilightforest.biomes.TFBiomeStream",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RIVER",
     "WATER",
-    "TWILIGHT"
+    "TWILIGHT",
+    "RIVER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

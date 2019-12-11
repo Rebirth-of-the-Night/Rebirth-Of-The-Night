@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "RARE"
+    "RARE",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -60,6 +60,66 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.horses.HorseDraft$EntityMareDraftHorse",
+      "Weight": 11,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.pigs.PigYorkshire$EntitySowYorkshire",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.chickens.ChickenLeghorn$EntityHenLeghorn",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowFriesian$EntityCowFriesian",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatAngora$EntityDoeAngora",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.goats.GoatFainting$EntityDoeFainting",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepFriesian$EntityEweFriesian",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.sheep.SheepMerino$EntityEweMerino",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitDutch$EntityRabbitDoeDutch",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.rodents.rabbits.RabbitLop$EntityRabbitDoeLop",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBird",

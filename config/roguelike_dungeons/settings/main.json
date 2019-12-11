@@ -1,18 +1,19 @@
 {
-	"name" : "demo:main",
+	"name" : "beneath:main",
 	"exclusive" : true,
 	"criteria" : {
 		"biomeTypes" : [
-			"PLAINS"
+			"DEAD"
 		]
 	},
 	"inherit" : [
-		"demo:tower",
-		"demo:layout",
-		"demo:rooms",
-		"demo:segments",
-		"demo:theme",
-		"demo:loot",
-		"demo:filters"
+		"builtin:forest",
+		"builtin:rooms",
+		"builtin:secrets",
+		"builtin:segments",
+		"builtin:layout",
+		"builtin:loot",
+		"builtin:base",
+		"beneath:spawners"
 	]
 }

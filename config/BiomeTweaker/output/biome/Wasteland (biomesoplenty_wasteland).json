@@ -20,13 +20,19 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "WASTELAND",
     "SPARSE",
-    "DEAD"
+    "DEAD",
+    "DRY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowJersey$EntityCowJersey",
+      "Weight": 13,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntitySnake",
       "Weight": 8,
@@ -76,6 +82,24 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityDweller",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityAshen",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.monster.MoCEntityGolem",

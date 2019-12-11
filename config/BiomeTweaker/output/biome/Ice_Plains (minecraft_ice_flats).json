@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "SNOWY",
+    "COLD",
     "WASTELAND"
   ],
   "BiomeManager Entries": {
@@ -40,6 +40,12 @@
       "Entity Class": "net.minecraft.entity.monster.EntityPolarBear",
       "Weight": 1,
       "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.common.entities.cows.CowJersey$EntityCowJersey",
+      "Weight": 13,
+      "Min Group Count": 2,
       "Max Group Count": 2
     },
     {
@@ -148,7 +154,7 @@
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-      "Weight": 40,
+      "Weight": 70,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

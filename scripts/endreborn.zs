@@ -3,7 +3,12 @@ import crafttweaker.item.IIngredient;
 
 recipes.remove(<endreborn:item_shard_obsidian>);
 
-mods.ltt.LootTable.removeGlobalItem("item_ingot_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:tool_shovel_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:tool_axe_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:tool_sword_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:tool_hoe_wolframium");
 
 
 var obsidian = <minecraft:obsidian>;

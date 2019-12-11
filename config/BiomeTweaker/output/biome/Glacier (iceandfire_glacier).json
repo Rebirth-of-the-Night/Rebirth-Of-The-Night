@@ -1,6 +1,6 @@
 
 {
-  "ID": 112,
+  "ID": 139,
   "Name": "Glacier",
   "Resource Location": "iceandfire:glacier",
   "Class": "com.github.alexthe666.iceandfire.world.BiomeGlacier",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "SNOWY",
-    "WASTELAND",
     "SPARSE",
-    "DEAD"
+    "DEAD",
+    "COLD",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 135,
+  "ID": 122,
   "Name": "Firefly Forest",
   "Resource Location": "twilightforest:firefly_forest",
   "Class": "twilightforest.biomes.TFBiomeFireflyForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
     "TWILIGHT",
+    "LUSH",
     "FOREST"
   ],
   "BiomeManager Entries": {},
