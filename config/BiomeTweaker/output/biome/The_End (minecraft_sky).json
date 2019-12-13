@@ -46,12 +46,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "zathrox.explorercraft.entity.EntityEnderreeper",
-      "Weight": 2,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
       "Weight": 100,
       "Min Group Count": 1,

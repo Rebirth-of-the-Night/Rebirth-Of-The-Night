@@ -1,0 +1,11 @@
+setIcon("minecraft:diamond")
+setTitle("Diamonds!")
+setDescription("Obtain diamond.")
+
+addParent("triumph:advancements/ores/silver")
+
+criteria = addCriteria("Diamond", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond")
+
+alwaysVisible()
+setPos(-43,4)

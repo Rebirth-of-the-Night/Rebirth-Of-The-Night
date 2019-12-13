@@ -1,0 +1,12 @@
+setIcon("simpleores:onyx_gem")
+setTitle("Unimaginable strength")
+setDescription("Obtain onyx.")
+
+addParent("triumph:advancements/ores/mythril")
+
+criteria = addCriteria("Onyx Ore", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_gem")
+
+alwaysVisible()
+setFrameType("CHALLENGE")
+setPos(49,24)

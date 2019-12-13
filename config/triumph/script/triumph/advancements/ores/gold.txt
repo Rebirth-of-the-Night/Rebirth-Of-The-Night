@@ -1,0 +1,11 @@
+setIcon("minecraft:gold_ore")
+setTitle("The Golden Age")
+setDescription("Obtain gold.")
+
+addParent("triumph:advancements/ores/iron")
+
+criteria = addCriteria("Gold ore", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreGold>)
+
+alwaysVisible()
+setPos(-99,-54)

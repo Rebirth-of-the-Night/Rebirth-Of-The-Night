@@ -1,0 +1,20 @@
+setIcon("atop:amethyst_helmet")
+setTitle("Colorful Power!")
+setDescription("Obtain all the colors!")
+
+addParent("triumph:advancements/setbonuses/goldarmor")
+
+criteria = addCriteria("Sapphire Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:sapphire_helmet")
+
+criteria = addCriteria("Amethyst Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_chestplate")
+
+criteria = addCriteria("Ruby Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:ruby_leggings")
+
+criteria = addCriteria("Peridot Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_boots")
+
+alwaysVisible()
+setPos(-220,-89)

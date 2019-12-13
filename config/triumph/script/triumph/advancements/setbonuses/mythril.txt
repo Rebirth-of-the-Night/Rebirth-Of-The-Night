@@ -1,0 +1,27 @@
+setIcon("simpleores:mythril_sword")
+setTitle("A Myth No More")
+setDescription("Obtain all 6 mythril pieces")
+
+addParent("triumph:advancements/setbonuses/diamondarmor")
+
+criteria = addCriteria("Mythril Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_helmet")
+
+criteria = addCriteria("Mythril Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_chestplate")
+
+criteria = addCriteria("Mythril Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_leggings")
+
+criteria = addCriteria("Mythril Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_boots")
+
+criteria = addCriteria("Mythril Sword", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_sword")
+
+criteria = addCriteria("Mythril Shield", "minecraft:inventory_changed")
+criteria.addItem("spartanshields:shield_basic_lead")
+setPos(-72,11)
+
+alwaysVisible()
+setFrameType("CHALLENGE")

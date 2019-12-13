@@ -1,0 +1,11 @@
+setIcon("minecraft:redstone")
+setTitle("Useful when powered")
+setDescription("Obtain redstone.")
+
+addParent("triumph:advancements/ores/iron")
+
+criteria = addCriteria("Redstone", "minecraft:inventory_changed")
+criteria.addItem("minecraft:redstone")
+
+alwaysVisible()
+setPos(-99,33)

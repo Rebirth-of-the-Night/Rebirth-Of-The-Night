@@ -1,0 +1,20 @@
+setIcon("atop:ruby_chestplate")
+setTitle("Cover Me With Blood")
+setDescription("Obtain all 4 ruby armor pieces")
+
+addParent("triumph:advancements/setbonuses/goldarmor")
+
+criteria = addCriteria("Ruby Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:ruby_helmet")
+
+criteria = addCriteria("Ruby Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:ruby_chestplate")
+
+criteria = addCriteria("Ruby Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:ruby_leggings")
+
+criteria = addCriteria("Ruby Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:ruby_boots")
+
+alwaysVisible()
+setPos(-249,-131)

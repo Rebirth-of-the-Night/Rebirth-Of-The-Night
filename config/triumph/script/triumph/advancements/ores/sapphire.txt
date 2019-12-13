@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:gem, ore:gemSapphire, meta:6, count:1>)
+setTitle("An ocean inside")
+setDescription("Obtain sapphire.")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Sapphire", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:gem, ore:gemSapphire, meta:6, count:1>)
+
+hideLines()
+alwaysVisible()
+setPos(-54,-84)

@@ -1,0 +1,21 @@
+setIcon("minecraft:leather_chestplate")
+setTitle("One With Nature")
+setDescription("Obtain all 4 leather armor pieces.")
+
+addParent("triumph:advancements/setbonuses/copperarmor")
+
+criteria = addCriteria("Leather Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_helmet")
+
+criteria = addCriteria("Leather Chesplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_chestplate")
+
+criteria = addCriteria("Leather Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_leggings")
+
+criteria = addCriteria("Leather Boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_boots")
+
+hideLines()
+alwaysVisible()
+setPos(-395,-89)

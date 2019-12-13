@@ -1,0 +1,16 @@
+setIcon("simpleores:onyx_sword")
+setTitle("A Hell Of A Duo")
+setDescription("Obtain an onyx sword and an onyx bow.")
+
+addParent("triumph:advancements/setbonuses/hitemhardandfast")
+
+criteria = addCriteria("Onyx Sword", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_sword")
+
+criteria = addCriteria("Onyx Bow", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_bow")
+
+
+alwaysVisible()
+setFrameType("CHALLENGE")
+setPos(-72,93)

@@ -1,0 +1,21 @@
+setIcon("atop:peridot_chestplate")
+setTitle("Going Green")
+setDescription("Obtain all 4 peridot armor pieces.")
+
+addParent("triumph:advancements/setbonuses/goldarmor")
+
+criteria = addCriteria("Peridot Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_helmet")
+
+criteria = addCriteria("Peridot Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_chestplate")
+
+criteria = addCriteria("Peridot Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_leggings")
+
+criteria = addCriteria("Peridot Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_boots")
+
+
+alwaysVisible()
+setPos(-249,-47)

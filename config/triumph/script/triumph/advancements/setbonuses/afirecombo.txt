@@ -1,0 +1,20 @@
+setIcon("simpleores:onyx_boots")
+setTitle("A Fire Combo")
+setDescription("Obtain 3 mythril armor pieces and 1 onyx armor piece")
+
+addParent("triumph:advancements/setbonuses/diamondarmor")
+
+criteria = addCriteria("Mythril Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_helmet")
+
+criteria = addCriteria("Mythril Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_chestplate")
+
+criteria = addCriteria("Mythril Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_leggings")
+
+criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_boots")
+
+alwaysVisible()
+setPos(-113,-34)

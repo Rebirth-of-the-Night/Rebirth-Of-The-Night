@@ -3,8 +3,48 @@ import crafttweaker.item.IIngredient;
 
 furnace.addRecipe(<dungeontactics:steel_ingot>, <minecraft:iron_ingot>);
 
+mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
+mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
+mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
+
+mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_mithril_ore:*>);
+mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_mithril_ore:*>);
+mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_mithril_ore:*>);
+
+
+mods.jei.JEI.removeAndHide(<dungeontactics:iron_cluster>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_cluster>);
+mods.jei.JEI.removeAndHide(<dungeontactics:gold_cluster>);
+mods.jei.JEI.removeAndHide(<dungeontactics:tin_cluster>);
+mods.jei.JEI.removeAndHide(<dungeontactics:copper_cluster>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:bottled_milk>);
+mods.jei.JEI.removeAndHide(<dungeontactics:toast>);
+mods.jei.JEI.removeAndHide(<dungeontactics:bread_slice>);
+mods.jei.JEI.removeAndHide(<dungeontactics:toast_slice>);
+mods.jei.JEI.removeAndHide(<dungeontactics:jam_on_toast>);
+mods.jei.JEI.removeAndHide(<dungeontactics:jam>);
+mods.jei.JEI.removeAndHide(<dungeontactics:ration_standard>);
+mods.jei.JEI.removeAndHide(<dungeontactics:ration_iron>);
+mods.jei.JEI.removeAndHide(<dungeontactics:ration_gold>);
+mods.jei.JEI.removeAndHide(<dungeontactics:spidereye_soup>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mince_pie>);
+mods.jei.JEI.removeAndHide(<dungeontactics:stonequartz_ore>);
+mods.jei.JEI.removeAndHide(<dungeontactics:wooden_chair>);
+mods.jei.JEI.removeAndHide(<dungeontactics:wooden_table>);
+mods.jei.JEI.removeAndHide(<dungeontactics:radio>);
+mods.jei.JEI.removeAndHide(<dungeontactics:peg_hammer>);
+
+
+
+
+
 mods.jei.JEI.removeAndHide(<dungeontactics:climbing_rope>);
 
+mods.jei.JEI.removeAndHide(<dungeontactics:studded_boots>);
+mods.jei.JEI.removeAndHide(<dungeontactics:studded_leggings>);
+mods.jei.JEI.removeAndHide(<dungeontactics:studded_chestplate>);
+mods.jei.JEI.removeAndHide(<dungeontactics:studded_helmet>);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_plate_boots>);
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_plate_greaves>);
@@ -66,6 +106,9 @@ mods.jei.JEI.removeAndHide(<dungeontactics:steel_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_hammer>);
 
+mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cluster>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mithril_block>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ore>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ingot>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_nugget>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_hoe>);

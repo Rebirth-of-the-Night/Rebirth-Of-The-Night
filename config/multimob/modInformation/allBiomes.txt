@@ -159,8 +159,5 @@ netherex:torrid_wasteland
 netherex:arctic_abyss
 aether_legacy:aether_highlands
 beneath:the_beneath
-explorercraft:bamboo_forest
-explorercraft:forested_mountain
-explorercraft:snowdonia
 stygian:stygian_growth
 stygian:acidic_plains

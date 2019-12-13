@@ -3,6 +3,12 @@ import crafttweaker.item.IIngredient;
 
 recipes.remove(<endreborn:item_shard_obsidian>);
 
+mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_endreborn_block_wolframium_ore:*>);
+mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_endreborn_block_wolframium_ore:*>);
+mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_endreborn_block_wolframium_ore:*>);
+
+mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium_ore");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_shovel_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");

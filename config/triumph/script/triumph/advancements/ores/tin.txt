@@ -1,0 +1,11 @@
+setIcon("simpleores:tin_ore")
+setTitle("Not quite iron")
+setDescription("Obtain tin ore.")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Tin ore", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreTin>)
+
+alwaysVisible()
+setPos(-180,4)

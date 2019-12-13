@@ -1,5 +1,7 @@
 import crafttweaker.item.IIngredient;
 
+
+mods.jei.JEI.removeAndHide(<iceandfire:silver_ore>);
 mods.jei.JEI.removeAndHide(<iceandfire:silver_ingot>);
 mods.jei.JEI.removeAndHide(<iceandfire:silver_block>);
 mods.jei.JEI.removeAndHide(<iceandfire:silver_nugget>);

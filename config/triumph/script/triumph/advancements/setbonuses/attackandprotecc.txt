@@ -1,0 +1,15 @@
+setIcon("minecraft:iron_sword")
+setTitle("Attac And Protecc")
+setDescription("Obtain an iron shield and an iron sword")
+
+addParent("triumph:advancements/setbonuses/copperarmor")
+
+criteria = addCriteria("Iron Sword", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_sword")
+
+criteria = addCriteria("Iron Shield", "minecraft:inventory_changed")
+criteria.addItem("spartanshields:shield_basic_iron")
+
+hideLines()
+alwaysVisible()
+setPos(-267,93)

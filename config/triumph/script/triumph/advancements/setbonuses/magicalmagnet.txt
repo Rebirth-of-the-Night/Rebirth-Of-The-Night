@@ -1,0 +1,20 @@
+setIcon("simpleores:adamantium_leggings")
+setTitle("Magical Magnet")
+setDescription("Obtain 3 mythril armor pieces and 1 viridium armor piece")
+
+addParent("triumph:advancements/setbonuses/diamondarmor")
+
+criteria = addCriteria("Mythril Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_helmet")
+
+criteria = addCriteria("Mythril Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_chestplate")
+
+criteria = addCriteria("Viridium Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_leggings")
+
+criteria = addCriteria("Mythril Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_boots")
+
+alwaysVisible()
+setPos(-113,58)

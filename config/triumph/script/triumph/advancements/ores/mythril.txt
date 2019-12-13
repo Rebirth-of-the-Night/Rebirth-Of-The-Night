@@ -1,0 +1,11 @@
+setIcon("simpleores:mythril_ore")
+setTitle("Mystical power")
+setDescription("Obtain mythril ore.")
+
+addParent("triumph:advancements/ores/diamond")
+
+criteria = addCriteria("Mythril Ore", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreMythril>)
+
+alwaysVisible()
+setPos(3,24)

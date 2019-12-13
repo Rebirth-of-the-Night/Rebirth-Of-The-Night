@@ -1,0 +1,20 @@
+setIcon("atop:amethyst_chestplate")
+setTitle("Pretty In Pink")
+setDescription("Obtain all 4 amethyst armor pieces")
+
+addParent("triumph:advancements/setbonuses/goldarmor")
+
+criteria = addCriteria("Amethyst Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_helmet")
+
+criteria = addCriteria("Amethyst Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_chestplate")
+
+criteria = addCriteria("Amethyst Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_leggings")
+
+criteria = addCriteria("Amethyst Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_boots")
+
+alwaysVisible()
+setPos(-249,-103)

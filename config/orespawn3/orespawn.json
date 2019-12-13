@@ -101,6 +101,31 @@
 				}
 			]
 		},
+		"tin_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				0
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 12,
+				"variation": 6,
+				"frequency": 300,
+				"minHeight": 0,
+				"maxHeight": 62
+			},
+			"blocks": [
+				{
+					"name": "simpleores:tin_ore",
+					"chance": 100
+				}
+			]
+		},
 		"iron_ore": {
 			"retrogen": false,
 			"enabled": true,
@@ -280,7 +305,7 @@
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
-				0
+				1
 			],
 			"biomes": {
 				"excludes": []
@@ -288,13 +313,14 @@
 			"parameters": {
 				"size": 3,
 				"variation": 1,
-				"frequency": 90,
+				"frequency": 30,
 				"minHeight": 2,
 				"maxHeight": 52
 			},
 			"blocks": [
 				{
-					"name": "explorercraft:amethyst_ore",
+					"name": "biomesoplenty:gem_ore",
+					"metaData": "0",
 					"chance": 100
 				}
 			]
@@ -313,18 +339,19 @@
 			"parameters": {
 				"size": 3,
 				"variation": 1,
-				"frequency": 90,
+				"frequency": 30,
 				"minHeight": 2,
-				"maxHeight": 52
+				"maxHeight": 18
 			},
 			"blocks": [
 				{
-					"name": "explorercraft:ruby_ore",
+					"name": "biomesoplenty:gem_ore",
+					"metaData": "1",
 					"chance": 100
 				}
 			]
 		},
-		"jade_ore": {
+		"sapphire_ore": {
 			"retrogen": false,
 			"enabled": true,
 			"feature": "default",
@@ -338,133 +365,41 @@
 			"parameters": {
 				"size": 3,
 				"variation": 1,
-				"frequency": 90,
+				"frequency": 30,
 				"minHeight": 2,
-				"maxHeight": 52
+				"maxHeight": 42
 			},
 			"blocks": [
 				{
-					"name": "explorercraft:jade_ore",
+					"name": "biomesoplenty:gem_ore",
+					"metaData": "6",
 					"chance": 100
 				}
 			]
 		},
-		"dirt": {
+		"peridot_ore": {
 			"retrogen": false,
 			"enabled": true,
 			"feature": "default",
 			"replaces": "default",
-			"dimensions": [],
+			"dimensions": [
+				0
+			],
 			"biomes": {
 				"excludes": []
 			},
 			"parameters": {
-				"size": 112,
-				"variation": 50,
-				"frequency": 100,
-				"minHeight": 0,
-				"maxHeight": 255
+				"size": 3,
+				"variation": 1,
+				"frequency": 30,
+				"minHeight": 2,
+				"maxHeight": 42
 			},
 			"blocks": [
 				{
-					"name": "minecraft:dirt",
-					"chance": 100,
-					"state": "snowy=false,variant=dirt"
-				}
-			]
-		},
-		"gravel": {
-			"retrogen": false,
-			"enabled": true,
-			"feature": "default",
-			"replaces": "default",
-			"dimensions": [],
-			"biomes": {
-				"excludes": []
-			},
-			"parameters": {
-				"size": 112,
-				"variation": 50,
-				"frequency": 80,
-				"minHeight": 0,
-				"maxHeight": 255
-			},
-			"blocks": [
-				{
-					"name": "minecraft:gravel",
+					"name": "biomesoplenty:gem_ore",
+					"metaData": "2",
 					"chance": 100
-				}
-			]
-		},
-		"andesite": {
-			"retrogen": false,
-			"enabled": true,
-			"feature": "default",
-			"replaces": "default",
-			"dimensions": [],
-			"biomes": {
-				"excludes": []
-			},
-			"parameters": {
-				"size": 112,
-				"variation": 50,
-				"frequency": 100,
-				"minHeight": 0,
-				"maxHeight": 255
-			},
-			"blocks": [
-				{
-					"name": "minecraft:stone",
-					"chance": 100,
-					"state": "variant=andesite"
-				}
-			]
-		},
-		"diorite": {
-			"retrogen": false,
-			"enabled": true,
-			"feature": "default",
-			"replaces": "default",
-			"dimensions": [],
-			"biomes": {
-				"excludes": []
-			},
-			"parameters": {
-				"size": 112,
-				"variation": 50,
-				"frequency": 100,
-				"minHeight": 0,
-				"maxHeight": 255
-			},
-			"blocks": [
-				{
-					"name": "minecraft:stone",
-					"chance": 100,
-					"state": "variant=diorite"
-				}
-			]
-		},
-		"granite": {
-			"retrogen": false,
-			"enabled": true,
-			"feature": "default",
-			"replaces": "default",
-			"dimensions": [],
-			"biomes": {
-				"excludes": []
-			},
-			"parameters": {
-				"size": 112,
-				"variation": 50,
-				"frequency": 100,
-				"minHeight": 0,
-				"maxHeight": 255
-			},
-			"blocks": [
-				{
-					"name": "minecraft:stone",
-					"chance": 100,
-					"state": "variant=granite"
 				}
 			]
 		}

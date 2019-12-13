@@ -1,0 +1,11 @@
+setIcon("dungeontactics:silver_ore")
+setTitle("Shiny!")
+setDescription("Obtain silver ore.")
+
+addParent("triumph:advancements/ores/iron")
+
+criteria = addCriteria("Silver ore", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreSilver>)
+
+alwaysVisible()
+setPos(-81,4)

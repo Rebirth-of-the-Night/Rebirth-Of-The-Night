@@ -1,0 +1,12 @@
+setIcon("simpleores:copper_ore")
+setTitle("Flimsy but plentiful")
+setDescription("Obtain copper ore.")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Copper ore", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreCopper>)
+
+hideLines()
+alwaysVisible()
+setPos(-229,4)

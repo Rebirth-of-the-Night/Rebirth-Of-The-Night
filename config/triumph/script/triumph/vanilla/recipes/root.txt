@@ -1,1 +1,0 @@
-addCriteria("impossible", "minecraft:impossible")

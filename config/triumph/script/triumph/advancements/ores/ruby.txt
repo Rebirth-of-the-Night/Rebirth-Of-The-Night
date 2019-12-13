@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:gem, ore:gemRuby, meta:1, count:1>)
+setTitle("Ravaging Ruby")
+setDescription("Obtain ruby.")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Ruby", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:gem, ore:gemRuby, meta:1, count:1>)
+
+hideLines()
+alwaysVisible()
+setPos(-116,-84)

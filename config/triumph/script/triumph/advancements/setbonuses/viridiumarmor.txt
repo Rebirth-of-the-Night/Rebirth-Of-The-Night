@@ -1,0 +1,20 @@
+setIcon("simpleores:adamantium_chestplate")
+setTitle("I Am Speed")
+setDescription("Obtain all 4 viridium armor pieces")
+
+addParent("triumph:advancements/setbonuses/diamondarmor")
+
+criteria = addCriteria("Viridium Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_helmet")
+
+criteria = addCriteria("Viridium Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_chestplate")
+
+criteria = addCriteria("Viridium Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_leggings")
+
+criteria = addCriteria("Viridium Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_boots")
+setPos(-113,30)
+
+alwaysVisible()

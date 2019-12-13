@@ -1,0 +1,20 @@
+setIcon("minecraft:iron_chestplate")
+setTitle("The Iron Giant")
+setDescription("Obtain all 4 iron armor pieces.")
+
+addParent("triumph:advancements/setbonuses/tinarmor")
+
+criteria = addCriteria("Iron Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_helmet")
+
+criteria = addCriteria("Iron Chestplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_chestplate")
+
+criteria = addCriteria("Iron Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_leggings")
+
+criteria = addCriteria("Iron Boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_boots")
+setPos(-267,11)
+
+alwaysVisible()

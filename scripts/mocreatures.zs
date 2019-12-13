@@ -8,7 +8,7 @@ mods.jei.JEI.removeAndHide(<mocreatures:staffportal>);
 mods.jei.JEI.removeAndHide(<mocreatures:turkeyraw>);
 mods.jei.JEI.removeAndHide(<mocreatures:turkeycooked>);
 
-
+mods.jei.JEI.removeAndHide(<mocreatures:silversword>);
 mods.jei.JEI.removeAndHide(<mocreatures:sharksword>);
 mods.jei.JEI.removeAndHide(<mocreatures:scorpsworddirt>);
 mods.jei.JEI.removeAndHide(<mocreatures:scorpswordfrost>);

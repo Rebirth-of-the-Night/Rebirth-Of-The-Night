@@ -3,7 +3,6 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
-mods.betterwithmods.Anvil.removeShaped(<betterwithmods:material:47>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
@@ -15,6 +14,8 @@ recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
+mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail
+
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:29>]); # blasting oil
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:50>]); # soal
@@ -28,3 +29,5 @@ mods.jei.JEI.removeAndHide(<betterwithmods:wool_boots>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_helmet>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_pants>);
+
+mods.jei.JEI.removeAndHide(<betterwithmods:material:45>); # diamond ingot

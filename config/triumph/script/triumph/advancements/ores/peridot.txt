@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:gem, ore:gemPeridot, meta:2, count:1>)
+setTitle("A lucky find")
+setDescription("Obtain peridot.")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Peridot", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:gem, ore:gemPeridot, meta:2, count:1>)
+
+hideLines()
+alwaysVisible()
+setPos(-147,-84)

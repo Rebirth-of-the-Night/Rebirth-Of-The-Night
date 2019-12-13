@@ -1,0 +1,20 @@
+setIcon("endreborn:armour_chestplate_obsidian")
+setTitle("Heavy Steps")
+setDescription("Obtain all 4 obsidian armor pieces")
+
+addParent("triumph:advancements/setbonuses/awalkingrainbow")
+
+criteria = addCriteria("Obsidian Helmet", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_helmet_helmet")
+
+criteria = addCriteria("Obsidian Chestplate", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_chestplate_obsidian")
+
+criteria = addCriteria("Obsidian Leggings", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_leggings_obsidian")
+
+criteria = addCriteria("Obsidian Boots", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_boots_obsidian")
+
+alwaysVisible()
+setPos(-181,-89)

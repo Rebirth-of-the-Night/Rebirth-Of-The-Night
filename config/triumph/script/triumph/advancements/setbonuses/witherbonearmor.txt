@@ -1,0 +1,20 @@
+setIcon("netherex:wither_bone_chestplate")
+setTitle("Part Of The Bone Gang")
+setDescription("Obtain all 4 wither bone armor pieces.")
+
+addParent("triumph:advancements/setbonuses/obsidianarmor")
+
+criteria = addCriteria("Wither Bone Helmet", "minecraft:inventory_changed")
+criteria.addItem("netherex:wither_bone_helmet")
+
+criteria = addCriteria("Wither Bone Chestplate", "minecraft:inventory_changed")
+criteria.addItem("netherex:wither_bone_chestplate")
+
+criteria = addCriteria("Wither Bone Leggings", "minecraft:inventory_changed")
+criteria.addItem("netherex:wither_bone_leggings")
+
+criteria = addCriteria("Wither Bone Boots", "minecraft:inventory_changed")
+criteria.addItem("netherex:wither_bone_boots")
+
+alwaysVisible()
+setPos(-145,-61)

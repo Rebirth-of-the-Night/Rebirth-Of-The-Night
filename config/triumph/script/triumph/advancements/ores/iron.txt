@@ -1,0 +1,11 @@
+setIcon("minecraft:iron_ore")
+setTitle("The most versatile ore")
+setDescription("Obtain iron ore.")
+
+addParent("triumph:advancements/ores/tin")
+
+criteria = addCriteria("Iron ore", "minecraft:inventory_changed")
+criteria.addItem(<ore:oreIron>)
+
+alwaysVisible()
+setPos(-135,4)
