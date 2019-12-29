@@ -1,0 +1,6 @@
+
+{
+  "Name": "LightningEnderman",
+  "Registry ID": "specialmobs:lightningenderman",
+  "Class": "fathertoast.specialmobs.entity.enderman.EntityLightningEnderman"
+}

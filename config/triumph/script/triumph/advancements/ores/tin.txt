@@ -1,5 +1,5 @@
 setIcon("simpleores:tin_ore")
-setTitle("Not quite iron")
+setTitle("Not Quite Iron")
 setDescription("Obtain tin ore.")
 
 addParent("triumph:advancements/ores/copper")

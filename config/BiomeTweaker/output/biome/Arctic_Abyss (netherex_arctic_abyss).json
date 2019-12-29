@@ -1,6 +1,6 @@
 
 {
-  "ID": 144,
+  "ID": 143,
   "Name": "Arctic Abyss",
   "Resource Location": "netherex:arctic_abyss",
   "Class": "logictechcorp.netherex.world.biome.BiomeArcticAbyss",
@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "DRY",
+    "PLAINS",
     "WET",
+    "COLD",
     "NETHER",
-    "PLAINS"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,5 +1,5 @@
 setIcon("simpleores:adamantium_ore")
-setTitle("Light and powerful")
+setTitle("Light and Powerful")
 setDescription("Obtain viridum ore.")
 
 addParent("triumph:advancements/ores/diamond")

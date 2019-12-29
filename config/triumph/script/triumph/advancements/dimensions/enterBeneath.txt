@@ -1,0 +1,14 @@
+setIcon(<dimstack:portal>)
+setTitle("Where The Lost Tread")
+setDescription("Enter The Beneath.")
+
+addParent("triumph:advancements/dimensions/root")
+
+
+criteria = addCriteria("entered_beneath", "triumph:changed_dimension")
+criteria.setDimensionDestination(10)
+
+
+hideLines()
+alwaysVisible()
+setPos(-104,16)

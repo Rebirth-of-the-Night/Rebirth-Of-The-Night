@@ -1,6 +1,6 @@
 
 {
-  "ID": 141,
+  "ID": 139,
   "Name": "Ruthless Sands",
   "Resource Location": "netherex:ruthless_sands",
   "Class": "logictechcorp.netherex.world.biome.BiomeRuthlessSands",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
+    "PLAINS",
     "SAVANNA",
     "NETHER",
-    "PLAINS",
+    "DRY",
     "HOT",
     "SANDY"
   ],
@@ -47,6 +47,12 @@
       "Weight": 100,
       "Min Group Count": 1,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoana",

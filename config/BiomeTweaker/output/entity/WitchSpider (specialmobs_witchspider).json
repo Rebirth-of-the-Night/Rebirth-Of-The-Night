@@ -1,0 +1,6 @@
+
+{
+  "Name": "WitchSpider",
+  "Registry ID": "specialmobs:witchspider",
+  "Class": "fathertoast.specialmobs.entity.spider.EntityWitchSpider"
+}

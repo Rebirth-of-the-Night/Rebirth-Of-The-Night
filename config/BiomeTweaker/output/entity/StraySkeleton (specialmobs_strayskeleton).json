@@ -1,0 +1,6 @@
+
+{
+  "Name": "StraySkeleton",
+  "Registry ID": "specialmobs:strayskeleton",
+  "Class": "fathertoast.specialmobs.entity.skeleton.EntityStraySkeleton"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "SpecialSkeleton",
+  "Registry ID": "specialmobs:specialskeleton",
+  "Class": "fathertoast.specialmobs.entity.skeleton.Entity_SpecialSkeleton"
+}

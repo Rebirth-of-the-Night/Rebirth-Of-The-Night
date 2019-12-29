@@ -1,0 +1,6 @@
+
+{
+  "Name": "FishingSilverfish",
+  "Registry ID": "specialmobs:fishingsilverfish",
+  "Class": "fathertoast.specialmobs.entity.silverfish.EntityFishingSilverfish"
+}

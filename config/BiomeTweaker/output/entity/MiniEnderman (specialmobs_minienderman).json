@@ -1,0 +1,6 @@
+
+{
+  "Name": "MiniEnderman",
+  "Registry ID": "specialmobs:minienderman",
+  "Class": "fathertoast.specialmobs.entity.enderman.EntityMiniEnderman"
+}

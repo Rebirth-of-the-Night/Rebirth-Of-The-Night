@@ -8,7 +8,7 @@
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "tool": "any",
     "material": {
-        "item": "minecraft:nether_star"
+        "item": "simpleores:mythril_ingot"
     }
   },
   {
@@ -137,6 +137,262 @@
     },
     "material": {
         "ore_dict": "ingotMythril"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:tool_sword_endorium"
+    },
+    "material": {
+        "item": "endreborn:item_ingot_endorium"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:ender_sword"
+    },
+    "material": {
+        "item": "endreborn:item_ingot_endorium"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:tool_magnifier"
+    },
+    "material": {
+        "item": "endreborn:item_ingot_endorium"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:entropy_wand"
+    },
+    "material": {
+        "item": "endreborn:item_ingot_endorium"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:armour_chestplate_obsidian"
+    },
+    "material": {
+        "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:armour_helmet_helmet"
+    },
+    "material": {
+        "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:armour_boots_obsidian"
+    },
+    "material": {
+        "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+        "item": "endreborn:armour_leggings_obsidian"
+    },
+    "material": {
+        "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:amethyst_helmet"
+    },
+    "material": {
+        "ore_dict": "gemAmethyst"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:amethyst_chestplate"
+    },
+    "material": {
+        "ore_dict": "gemAmethyst"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:amethyst_leggings"
+    },
+    "material": {
+        "ore_dict": "gemAmethyst"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:amethyst_boots"
+    },
+    "material": {
+        "ore_dict": "gemAmethyst"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:peridot_boots"
+    },
+    "material": {
+        "ore_dict": "gemPeridot"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:peridot_leggings"
+    },
+    "material": {
+        "ore_dict": "gemPeridot"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:peridot_chestplate"
+    },
+    "material": {
+        "ore_dict": "gemPeridot"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:peridot_helmet"
+    },
+    "material": {
+        "ore_dict": "gemPeridot"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:ruby_helmet"
+    },
+    "material": {
+        "ore_dict": "gemRuby"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:ruby_chestplate"
+    },
+    "material": {
+        "ore_dict": "gemRuby"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:ruby_leggings"
+    },
+    "material": {
+        "ore_dict": "gemRuby"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:ruby_boots"
+    },
+    "material": {
+        "ore_dict": "gemRuby"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:sapphire_helmet"
+    },
+    "material": {
+        "ore_dict": "gemSapphire"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:sapphire_chestplate"
+    },
+    "material": {
+        "ore_dict": "gemSapphire"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:sapphire_leggings"
+    },
+    "material": {
+        "ore_dict": "gemSapphire"
+    }
+  },
+  {
+    "tool": {
+        "item": "atop:sapphire_boots"
+    },
+    "material": {
+        "ore_dict": "gemSapphire"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_pickaxe"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_axe"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_shovel"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_helmet"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_chestplate"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_leggings"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:silver_boots"
+    },
+    "material": {
+        "ore_dict": "ingotSilver"
     }
   }
 ]

@@ -1,5 +1,8 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.removeAndHide(<glaretorch:del>);
+
+
 recipes.remove(<glaretorch:itemglaretorchsmall>);
 recipes.remove(<glaretorch:itemglaretorch>);
 recipes.remove(<glaretorch:itemglaretorchlarge>);

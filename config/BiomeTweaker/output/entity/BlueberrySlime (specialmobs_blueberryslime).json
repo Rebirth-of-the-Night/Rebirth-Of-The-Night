@@ -1,0 +1,6 @@
+
+{
+  "Name": "BlueberrySlime",
+  "Registry ID": "specialmobs:blueberryslime",
+  "Class": "fathertoast.specialmobs.entity.slime.EntityBlueberrySlime"
+}

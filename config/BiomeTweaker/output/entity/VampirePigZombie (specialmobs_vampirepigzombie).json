@@ -1,0 +1,6 @@
+
+{
+  "Name": "VampirePigZombie",
+  "Registry ID": "specialmobs:vampirepigzombie",
+  "Class": "fathertoast.specialmobs.entity.pigzombie.EntityVampirePigZombie"
+}

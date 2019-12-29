@@ -1,0 +1,6 @@
+
+{
+  "Name": "MotherSpider",
+  "Registry ID": "specialmobs:motherspider",
+  "Class": "fathertoast.specialmobs.entity.spider.EntityMotherSpider"
+}

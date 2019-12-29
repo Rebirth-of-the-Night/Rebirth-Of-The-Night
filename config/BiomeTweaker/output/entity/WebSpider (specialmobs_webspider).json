@@ -1,0 +1,6 @@
+
+{
+  "Name": "WebSpider",
+  "Registry ID": "specialmobs:webspider",
+  "Class": "fathertoast.specialmobs.entity.spider.EntityWebSpider"
+}

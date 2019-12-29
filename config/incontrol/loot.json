@@ -1,1 +1,55 @@
-[]
+[
+
+	// Ghast Queen Drops
+	{
+    "mob": "netherex:ghast_queen",
+    "player": true,
+    "item": "netherex:rime_crystal",
+    "itemcount": "24-32"
+ 	},
+ 	{
+    "mob": "netherex:ghast_queen",
+    "player": true,
+    "item": "minecraft:ghast_tear",
+    "itemcount": "12-15"
+ 	},
+ 	{
+    "mob": "netherex:ghast_queen",
+    "player": true,
+    "item": "simpleores:onyx_gem",
+    "itemcount": "2-4"
+ 	},
+ 	{
+    "mob": "netherex:ghast_queen",
+    "player": true,
+    "item": "bountifulbaubles:crowngold"
+ 	},
+
+ 	 // Wither Drops
+ 	{
+    "mob": "minecraft:wither",
+    "player": true,
+    "item": "simpleores:onyx_gem",
+    "itemcount": "2-4"
+ 	},
+ 	{
+    "mob": "minecraft:wither",
+    "player": true,
+    "item": "iceandfire:witherbone",
+    "itemcount": "7-14"
+ 	},
+ 	{
+    "mob": "minecraft:wither",
+    "player": true,
+    "item": "dungeontactics:charm_barren"
+ 	},
+
+
+ 	// Ender Dragon
+ 	{
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "endreborn:item_advanced_ender_pearl",
+    "itemcount": "8-13"
+ 	}
+]

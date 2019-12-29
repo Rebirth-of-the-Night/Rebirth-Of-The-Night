@@ -1,0 +1,6 @@
+
+{
+  "Name": "SplittingCreeper",
+  "Registry ID": "specialmobs:splittingcreeper",
+  "Class": "fathertoast.specialmobs.entity.creeper.EntitySplittingCreeper"
+}

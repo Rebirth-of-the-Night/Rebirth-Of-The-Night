@@ -1,5 +1,5 @@
 setIcon(<minecraft:dye, ore:gemLapis, meta:4, count:1>)
-setTitle("We can enchant!")
+setTitle("We Can Enchant!")
 setDescription("Obtain lapis.")
 
 addParent("triumph:advancements/ores/iron")

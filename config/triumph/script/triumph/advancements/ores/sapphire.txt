@@ -1,5 +1,5 @@
 setIcon(<biomesoplenty:gem, ore:gemSapphire, meta:6, count:1>)
-setTitle("An ocean inside")
+setTitle("An Ocean Inside")
 setDescription("Obtain sapphire.")
 
 addParent("triumph:advancements/ores/copper")

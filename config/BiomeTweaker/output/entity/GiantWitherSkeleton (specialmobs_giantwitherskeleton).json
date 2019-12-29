@@ -1,0 +1,6 @@
+
+{
+  "Name": "GiantWitherSkeleton",
+  "Registry ID": "specialmobs:giantwitherskeleton",
+  "Class": "fathertoast.specialmobs.entity.witherskeleton.EntityGiantWitherSkeleton"
+}

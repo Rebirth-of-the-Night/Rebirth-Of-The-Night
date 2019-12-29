@@ -1,0 +1,6 @@
+
+{
+  "Name": "VolatileLavaSlime",
+  "Registry ID": "specialmobs:volatilelavaslime",
+  "Class": "fathertoast.specialmobs.entity.lavaslime.EntityVolatileLavaSlime"
+}

@@ -1,5 +1,5 @@
 setIcon(<biomesoplenty:gem, ore:gemAmethyst, meta:0, count:1>)
-setTitle("Taking back what's yours")
+setTitle("Taking Back What's Yours")
 setDescription("Obtain amethyst.")
 
 addParent("triumph:advancements/ores/copper")

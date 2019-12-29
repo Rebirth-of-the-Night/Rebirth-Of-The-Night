@@ -1,0 +1,6 @@
+
+{
+  "Name": "SpitfireWitherSkeleton",
+  "Registry ID": "specialmobs:spitfirewitherskeleton",
+  "Class": "fathertoast.specialmobs.entity.witherskeleton.EntitySpitfireWitherSkeleton"
+}

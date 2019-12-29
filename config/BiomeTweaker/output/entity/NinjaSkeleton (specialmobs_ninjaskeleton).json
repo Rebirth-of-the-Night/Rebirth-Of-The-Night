@@ -1,0 +1,6 @@
+
+{
+  "Name": "NinjaSkeleton",
+  "Registry ID": "specialmobs:ninjaskeleton",
+  "Class": "fathertoast.specialmobs.entity.skeleton.EntityNinjaSkeleton"
+}

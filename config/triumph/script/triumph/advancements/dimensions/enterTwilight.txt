@@ -1,0 +1,13 @@
+setIcon(<twilightforest:miniature_structure>)
+setTitle("A Waning Realm")
+setDescription("Enter The Twilight Forest.")
+
+addParent("triumph:advancements/dimensions/enterEnd")
+
+
+criteria = addCriteria("entered_twilight_forest", "triumph:changed_dimension")
+criteria.setDimensionDestination(7)
+
+
+alwaysVisible()
+setPos(37,1)

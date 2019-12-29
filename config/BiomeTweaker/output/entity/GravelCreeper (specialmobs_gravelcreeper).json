@@ -1,0 +1,6 @@
+
+{
+  "Name": "GravelCreeper",
+  "Registry ID": "specialmobs:gravelcreeper",
+  "Class": "fathertoast.specialmobs.entity.creeper.EntityGravelCreeper"
+}

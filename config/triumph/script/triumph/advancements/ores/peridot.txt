@@ -1,5 +1,5 @@
 setIcon(<biomesoplenty:gem, ore:gemPeridot, meta:2, count:1>)
-setTitle("A lucky find")
+setTitle("A Lucky Find")
 setDescription("Obtain peridot.")
 
 addParent("triumph:advancements/ores/copper")

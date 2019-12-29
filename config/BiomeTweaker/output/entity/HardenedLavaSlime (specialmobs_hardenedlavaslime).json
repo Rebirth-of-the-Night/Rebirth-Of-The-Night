@@ -1,0 +1,6 @@
+
+{
+  "Name": "HardenedLavaSlime",
+  "Registry ID": "specialmobs:hardenedlavaslime",
+  "Class": "fathertoast.specialmobs.entity.lavaslime.EntityHardenedLavaSlime"
+}

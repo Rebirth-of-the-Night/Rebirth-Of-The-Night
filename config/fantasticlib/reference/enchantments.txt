@@ -72,6 +72,7 @@ dungeontactics:poison_tangle
 dungeontactics:poison_ailment
 dungeontactics:poison_fade
 dungeontactics:poison_feather
+corpsecomplex:soulbound
 endreborn:ender_core
 endreborn:ender_killer
 endreborn:shulker_core

@@ -1,5 +1,5 @@
 setIcon("simpleores:onyx_gem")
-setTitle("Unimaginable strength")
+setTitle("Unimaginable Strength")
 setDescription("Obtain onyx.")
 
 addParent("triumph:advancements/ores/mythril")

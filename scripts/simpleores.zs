@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
+mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
+
+
 recipes.remove(<simpleores:onyx_bow>);
 recipes.remove(<simpleores:onyx_sword>);
 recipes.remove(<simpleores:mythril_bow>);

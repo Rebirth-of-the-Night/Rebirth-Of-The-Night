@@ -1,0 +1,16 @@
+setIcon(<netherex:ghast_queen_tear>)
+setTitle("Queen of the Nether")
+setDescription("Slay The Ghast Queen and obtain it's tears.")
+
+addParent("triumph:advancements/bosskills/killenddragon")
+addParent("triumph:advancements/bosskills/killwither")
+
+addRewardFunction("triumph:killGhastQueen")
+
+criteria = addCriteria("Ghast Queen", "minecraft:player_killed_entity")
+criteria.setEntityType("netherex:ghast_queen")
+
+alwaysVisible()
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+setPos(-68,-11)

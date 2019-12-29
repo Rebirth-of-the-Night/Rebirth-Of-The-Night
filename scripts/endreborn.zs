@@ -1,7 +1,25 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
+mods.jei.JEI.removeAndHide(<endreborn:tool_axe_endorium>);
+mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
+mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
+
+// Anvil Recipes
+
+var test = <endreborn:tool_sword_endorium>.anyDamage().marked("mark");
+
+// addRecipe(IItemstack input1, IItemstack input2, IItemstack output, int exp-cost);
+// mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_sword_endorium>.anyDamage().marked("mark"), <endreborn:item_ingot_endorium>, mark.damage + 10, 5);
+
+
+
 
 recipes.remove(<endreborn:item_shard_obsidian>);
+mods.jei.JEI.removeAndHide(<endreborn:armour_helmet_dragon>);
+mods.jei.JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
+mods.jei.JEI.removeAndHide(<endreborn:armour_leggings_dragon>);
+mods.jei.JEI.removeAndHide(<endreborn:armour_boots_dragon>);
 
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_endreborn_block_wolframium_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_endreborn_block_wolframium_ore:*>);
@@ -20,12 +38,7 @@ mods.ltt.LootTable.removeGlobalItem("endreborn:tool_hoe_wolframium");
 var obsidian = <minecraft:obsidian>;
 var hammer = <endreborn:tool_hammer_iron>;
 
-recipes.addShaped("Obsidian Shard", <endreborn:item_shard_obsidian>,[
-	[null, null, null],
-    [null, null, null],
-    [obsidian, hammer, null]
-]);
-
+recipes.addShapeless("Obsidian Shard", <endreborn:item_shard_obsidian>, [hammer.anyDamage(),obsidian]);
 
 
 

@@ -1,0 +1,6 @@
+
+{
+  "Name": "SpecialBlaze",
+  "Registry ID": "specialmobs:specialblaze",
+  "Class": "fathertoast.specialmobs.entity.blaze.Entity_SpecialBlaze"
+}

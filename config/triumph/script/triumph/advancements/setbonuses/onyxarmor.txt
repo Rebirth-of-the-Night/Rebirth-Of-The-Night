@@ -1,6 +1,6 @@
 setIcon("simpleores:onyx_chestplate")
 setTitle("Armor Of The Titans")
-setDescription("Obtain all 4 viridium armor pieces")
+setDescription("Obtain all 4 onyx armor pieces")
 
 addParent("triumph:advancements/setbonuses/diamondarmor")
 

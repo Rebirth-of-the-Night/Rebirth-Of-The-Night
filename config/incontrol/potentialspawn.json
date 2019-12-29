@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "dimension": -1,
+    "block": ["betternether:bone_tile", "betternether:nether_brick_tile_large"],
+    "mobs": [
+      {
+        "mob": "netherex:gold_golem",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
+]

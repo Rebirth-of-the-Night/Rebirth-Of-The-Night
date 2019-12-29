@@ -1,5 +1,5 @@
 setIcon("minecraft:redstone")
-setTitle("Useful when powered")
+setTitle("Useful When Powered")
 setDescription("Obtain redstone.")
 
 addParent("triumph:advancements/ores/iron")

@@ -1,0 +1,6 @@
+
+{
+  "Name": "WitchCaveSpider",
+  "Registry ID": "specialmobs:witchcavespider",
+  "Class": "fathertoast.specialmobs.entity.cavespider.EntityWitchCaveSpider"
+}

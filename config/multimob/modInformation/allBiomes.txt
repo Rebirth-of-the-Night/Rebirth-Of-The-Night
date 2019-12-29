@@ -151,7 +151,6 @@ twilightforest:dark_forest_center
 twilightforest:highlands_center
 twilightforest:thornlands
 twilightforest:spooky_forest
-mocreatures:wyvernbiome
 iceandfire:glacier
 netherex:ruthless_sands
 netherex:fungi_forest

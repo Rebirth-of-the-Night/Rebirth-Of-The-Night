@@ -276,7 +276,7 @@
 		},
 		"lapis_ore": {
 			"retrogen": false,
-			"enabled": false,
+			"enabled": true,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -311,11 +311,11 @@
 				"excludes": []
 			},
 			"parameters": {
-				"size": 3,
+				"size": 4,
 				"variation": 1,
-				"frequency": 30,
+				"frequency": 50,
 				"minHeight": 2,
-				"maxHeight": 52
+				"maxHeight": 60
 			},
 			"blocks": [
 				{

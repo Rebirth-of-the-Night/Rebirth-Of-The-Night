@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:rime_crystal>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:frost_powder>, <minecraft:potion>.withTag({Potion: "netherex:freezing"}));
 
+mods.jei.JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 4x4 pool of water surrounded by flowers on top of grass to open the portal.");
 
 mods.ltt.LootTable.removeGlobalItem("netherex:wither_bone");
 mods.jei.JEI.removeAndHide(<netherex:wither_bone>);

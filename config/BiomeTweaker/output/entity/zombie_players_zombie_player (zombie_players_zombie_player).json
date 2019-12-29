@@ -1,0 +1,6 @@
+
+{
+  "Name": "zombie_players:zombie_player",
+  "Registry ID": "zombie_players:zombie_player",
+  "Class": "com.corosus.zombie_players.entity.EntityZombiePlayer"
+}

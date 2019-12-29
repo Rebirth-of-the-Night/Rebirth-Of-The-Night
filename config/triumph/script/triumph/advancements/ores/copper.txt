@@ -1,5 +1,5 @@
 setIcon("simpleores:copper_ore")
-setTitle("Flimsy but plentiful")
+setTitle("Flimsy But Plentiful")
 setDescription("Obtain copper ore.")
 
 addParent("triumph:advancements/ores/root")

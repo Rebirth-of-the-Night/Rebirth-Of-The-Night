@@ -10,5 +10,63 @@
     "dimension": [-1, 1, 4],
     "onjoin": true,
     "result": "deny"
+ },
+
+ // Remove Wolves spawning in the Nether
+ {
+    "mob": "minecraft:wolf",
+    "dimension": -1,
+    "onjoin": true,
+    "result": "deny"
+ },
+
+ // Remove enderman spawning in the Nether
+ {
+    "mob": "minecraft:enderman",
+    "dimension": -1,
+    "onjoin": true,
+    "result": "deny"
+ },
+
+
+  // Remove Zombie Players spawning in the Nether
+ {
+    "mob": "zombie_players:zombie_player",
+    "dimension": -1,
+    "onjoin": true,
+    "result": "deny"
+ },
+
+ // Remove Baby Zombies spawning in the Nether
+ {
+    "mob": "minecraft:zombie",
+    "dimension": -1,
+    "onjoin": true,
+    "result": "deny"
+ },
+
+
+ // Remove vanilla horses from spawning
+ {
+    "mob": "minecraft:horse",
+    "onjoin": true,
+    "result": "deny"
+ },
+
+ // Spawn Gold Golems in Nether Cities
+ {
+    "dimension": -1,
+    "mob": "netherex:gold_golem",
+    "block": ["betternether:bone_tile", "betternether:nether_brick_tile_large"],
+    "maxcount": {
+      		"amount": 6,
+      		"perplayer": true
+      	},
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "netherex:gold_golem",
+    "result": "deny"
  }
 ]

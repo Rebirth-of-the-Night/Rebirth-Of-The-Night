@@ -12,6 +12,10 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_mithr
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_mithril_ore:*>);
 
 
+mods.jei.JEI.removeAndHide(<dungeontactics:iron_ring>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_ring");
+
+
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:gold_cluster>);
