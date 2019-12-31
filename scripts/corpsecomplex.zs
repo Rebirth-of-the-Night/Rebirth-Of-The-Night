@@ -11,3 +11,9 @@ recipes.addShaped("Grave Scroll 1", <corpsecomplex:scroll>,[
     [enderpearl, emerald, enderpearl],
     [paper, enderpearl, paper]
 ]);
+
+recipes.addShapeless("Grave Scroll 2", <corpsecomplex:scroll>,[
+    <minecraft:paper>,
+    <bountifulbaubles:magicmirror>.reuse(),
+	<minecraft:emerald>
+]);
