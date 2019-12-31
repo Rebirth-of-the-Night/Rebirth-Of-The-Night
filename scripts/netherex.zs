@@ -36,6 +36,27 @@ mods.jei.JEI.removeAndHide(<netherex:amethyst_crystal>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_block>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_ore>);
 
+//End Reborn Compatibility
+recipes.addShaped(<atop:amethyst_helmet>,[
+[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>],
+[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>], 
+[null, null, null]
+]);
+recipes.addShaped(<atop:amethyst_chestplate>,[
+[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>],
+[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>], 
+[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>]
+]);
+recipes.addShaped(<atop:amethyst_leggings>,[
+[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>],
+[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>], 
+[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>]
+]);
+recipes.addShaped(<atop:amethyst_boots>,[
+[null, null, null],
+[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>], 
+[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>]
+]);
 
 recipes.remove(<netherex:frosted_amedian_sword>);
 recipes.remove(<netherex:frosted_amedian_pickaxe>);
