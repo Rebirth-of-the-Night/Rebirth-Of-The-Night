@@ -10,6 +10,7 @@ addRewardFunction("triumph:killWither")
 criteria = addCriteria("wither", "minecraft:player_killed_entity")
 criteria.setEntityType("wither")
 
+
 hideLines()
 alwaysVisible()
 //Set the advancement to not send a chat message when it is achieved.

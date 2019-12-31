@@ -3,6 +3,9 @@ import crafttweaker.item.IIngredient;
 mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<minecraft:bread>);
 
+mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
+
+
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco1>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco2>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco3>);

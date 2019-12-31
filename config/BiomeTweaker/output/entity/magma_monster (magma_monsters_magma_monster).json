@@ -1,0 +1,6 @@
+
+{
+  "Name": "magma_monster",
+  "Registry ID": "magma_monsters:magma_monster",
+  "Class": "magma_monsters.entities.EntityMagmaMonster"
+}

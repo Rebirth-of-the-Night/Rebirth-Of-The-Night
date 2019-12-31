@@ -4,6 +4,8 @@ setDescription("Obtain all 4 diamond armor pieces")
 
 addParent("triumph:advancements/setbonuses/silverarmor")
 
+addRewardFunction("triumph:fullDiamondArmor")
+
 criteria = addCriteria("Diamond Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond_helmet")
 

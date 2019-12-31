@@ -1,6 +1,75 @@
 import crafttweaker.item.IIngredient;
 
 
+mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_helmet>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_helmet>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_chestplate>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_chestplate>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_leggings>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_leggings>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_boots>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_boots>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+
+mods.rockytweaks.Anvil.addRecipe(<atop:ruby_helmet>.anyDamage(), <ore:gemRuby>, <atop:ruby_helmet>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:ruby_chestplate>.anyDamage(), <ore:gemRuby>, <atop:ruby_chestplate>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:ruby_leggings>.anyDamage(), <ore:gemRuby>, <atop:ruby_leggings>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:ruby_boots>.anyDamage(), <ore:gemRuby>, <atop:ruby_boots>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+
+mods.rockytweaks.Anvil.addRecipe(<atop:peridot_helmet>.anyDamage(), <ore:gemPeridot>, <atop:peridot_helmet>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:peridot_chestplate>.anyDamage(), <ore:gemPeridot>, <atop:peridot_chestplate>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:peridot_leggings>.anyDamage(), <ore:gemPeridot>, <atop:peridot_leggings>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:peridot_boots>.anyDamage(), <ore:gemPeridot>, <atop:peridot_boots>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+
+mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_helmet>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_helmet>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_chestplate>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_chestplate>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_leggings>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_leggings>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_boots>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_boots>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+
+
 mods.jei.JEI.removeAndHide(<atop:amethyst_sword>);
 mods.jei.JEI.removeAndHide(<atop:amethyst_pickaxe>);
 mods.jei.JEI.removeAndHide(<atop:amethyst_shovel>);

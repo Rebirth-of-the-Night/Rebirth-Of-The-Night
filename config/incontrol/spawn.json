@@ -1,10 +1,11 @@
 [
  {
-    "mob": "primitivemobs:festive_creeper",
-    "dimension": [-1, 1, 4],
-    "onjoin": true,
-    "result": "deny"
+    "dimension": 7,
+    "damagemultiply": 2.5,
+    "healthmultiply": 2.5
  },
+
+
  {
     "mob": "minecraft:creeper",
     "dimension": [-1, 1, 4],
@@ -12,7 +13,14 @@
     "result": "deny"
  },
 
- // Remove Wolves spawning in the Nether
+ // Disable Trumpet Spawning
+ {
+    "mob": "trumpetskeleton:trumpet_skeleton",
+    "onjoin": true,
+    "result": "deny"
+ },
+
+ // Remove Wolves spawning in the Nether (doesnt work)
  {
     "mob": "minecraft:wolf",
     "dimension": -1,
@@ -53,6 +61,13 @@
     "result": "deny"
  },
 
+// Remove Toros from spawning
+ {
+    "mob": "toroquest:toroquest_toro",
+    "onjoin": true,
+    "result": "deny"
+ },
+
  // Spawn Gold Golems in Nether Cities
  {
     "dimension": -1,
@@ -68,5 +83,781 @@
     "dimension": -1,
     "mob": "netherex:gold_golem",
     "result": "deny"
+ },
+
+
+ /////////////// GAME STAGES ///////////////
+ {
+    "dimension": 0,
+    "mob": "aether_legacy:moa",
+    "gamestage": "enteredAether",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "aether_legacy:moa",
+    "result": "deny"
+ },
+
+
+ // Pigmen
+ {
+    "dimension": -1,
+    "mob": "specialmobs:brutepigzombie",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:brutepigzombie",
+    "result": "deny"
+ },
+  {
+    "dimension": -1,
+    "mob": "specialmobs:hungrypigzombie",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:hungrypigzombie",
+    "result": "deny"
+ },
+
+
+
+ // Wither Skeleton
+ {
+    "dimension": -1,
+    "mob": "specialmobs:brutewitherskeleton",
+    "structure": "Fortress",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:brutewitherskeleton",
+    "result": "deny"
+ },
+  {
+    "dimension": -1,
+    "mob": "specialmobs:giantwitherskeleton",
+    "structure": "Fortress",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:giantwitherskeleton",
+    "result": "deny"
+ },
+{
+    "dimension": -1,
+    "mob": "specialmobs:spitfirewitherskeleton",
+    "structure": "Fortress",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:spitfirewitherskeleton",
+    "result": "deny"
+ },
+
+
+
+ {
+    "dimension": -1,
+    "mob": "netherex:wight",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "netherex:wight",
+    "result": "deny"
+ },
+
+{
+    "dimension": -1,
+    "mob": "netherex:spore_creeper",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "netherex:spore_creeper",
+    "result": "deny"
+ },
+
+
+ // Salamanders
+ {
+    "dimension": 0,
+    "mob": "netherex:salamander",
+    "gamestage": "enteredNether",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": 0,
+    "mob": "netherex:salamander",
+    "result": "deny"
+ },
+
+
+
+ // Trollagers
+ {
+    "dimension": [0,10],
+    "mob": "primitivemobs:trollager",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "primitivemobs:trollager",
+    "result": "deny"
+ },
+
+
+
+ // Magma Grunt
+ {
+    "dimension": 0,
+    "mob": "magma_monsters:magma_monster_grunt",
+    "gamestage": "enteredNether",
+    "maxheight": 32,
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "magma_monsters:magma_monster_grunt",
+    "result": "deny"
+ },
+ {
+    "dimension": -1,
+    "mob": "magma_monsters:magma_monster_grunt",
+    "gamestage": "enteredNether",
+    "maxcount": {
+        "amount": 15,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "magma_monsters:magma_monster_grunt",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 25,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "magma_monsters:magma_monster_grunt",
+    "result": "deny"
+ },
+
+
+ // Magma Monster
+{
+    "dimension": -1,
+    "mob": "magma_monsters:magma_monster",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 10,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "magma_monsters:magma_monster",
+    "result": "deny"
+ },
+
+
+  // Void Eyes
+ {
+    "dimension": [0,10],
+    "mob": "primitivemobs:void_eye",
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "primitivemobs:void_eye",
+    "result": "deny"
+ },
+
+
+
+
+ // Creepers
+
+ {
+    "dimension": 10,
+    "mob": "specialmobs:deathcreeper",
+    "gamestage": "enteredBeneath",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "specialmobs:deathcreeper",
+    "result": "deny"
+ },
+
+ {
+    "dimension": -1,
+    "mob": "specialmobs:doomcreeper",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:doomcreeper",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "primitivemobs:rocket_creeper",
+    "gamestage": "minedDiamond",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "primitivemobs:rocket_creeper",
+    "result": "deny"
+ },
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:jumpingcreeper",
+    "gamestage": "fullDiamondArmor",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:jumpingcreeper",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:darkcreeper",
+    "gamestage": "enteredBeneath",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:darkcreeper",
+    "result": "deny"
+ },
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:lightningcreeper",
+    "gamestage": "minedMythril",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:lightningcreeper",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:firecreeper",
+    "gamestage": "enteredNether",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:firecreeper",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:endercreeper",
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:endercreeper",
+    "result": "deny"
+ },
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:splittingcreeper",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:splittingcreeper",
+    "result": "deny"
+ },
+
+
+
+  // Zombies
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:hungryzombie",
+    "gamestage": "minedDiamond",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+},
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:hungryzombie",
+    "result": "deny"
+},
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:brutezombie",
+    "gamestage": "fullDiamondArmor",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:brutezombie",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:plaguezombie",
+    "gamestage": "enteredBeneath",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:plaguezombie",
+    "result": "deny"
+ },
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:fishingzombie",
+    "gamestage": "minedMythril",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:fishingzombie",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:firezombie",
+    "gamestage": "enteredNether",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:firezombie",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:giantzombie",
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:giantzombie",
+    "result": "deny"
+ },
+
+
+ // Skeletons
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:sniperskeleton",
+    "gamestage": "minedDiamond",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:sniperskeleton",
+    "result": "deny"
+ },
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:bruteskeleton",
+    "gamestage": "fullDiamondArmor",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:bruteskeleton",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:poisonskeleton",
+    "gamestage": "enteredBeneath",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:poisonskeleton",
+    "result": "deny"
+ },
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:ninjaskeleton",
+    "gamestage": "minedMythril",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:ninjaskeleton",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:fireskeleton",
+    "gamestage": "enteredNether",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:fireskeleton",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:giantskeleton",
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:giantskeleton",
+    "result": "deny"
+ },
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:spitfireskeleton",
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:spitfireskeleton",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:gatlingskeleton",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:gatlingskeleton",
+    "result": "deny"
+ },
+
+
+
+
+ // Spiders
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:hungryspider",
+    "gamestage": "minedDiamond",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:hungryspider",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:palespider",
+    "gamestage": "minedDiamond",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:palespider",
+    "result": "deny"
+},
+
+{
+    "dimension": 0,
+    "mob": "specialmobs:desertspider",
+    "biome": "Desert",
+    "gamestage": "fullDiamondArmor",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+},
+{
+    "dimension": 0,
+    "mob": "specialmobs:desertspider",
+    "result": "deny"
+},
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:witchspider",
+    "gamestage": "fullDiamondArmor",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+},
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:witchspider",
+    "result": "deny"
+},
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:poisonspider",
+    "gamestage": "enteredBeneath",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:poisonspider",
+    "result": "deny"
+ },
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:webspider",
+    "gamestage": "minedMythril",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:webspider",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:giantspider",
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:giantspider",
+    "result": "deny"
+ },
+
+{
+    "dimension": [0,10],
+    "mob": "specialmobs:flyingspider",
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:flyingspider",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:motherspider",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "specialmobs:motherspider",
+    "result": "deny"
  }
+
 ]

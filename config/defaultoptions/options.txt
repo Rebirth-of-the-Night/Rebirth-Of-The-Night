@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Better Default 1.12.2.zip"]
+resourcePacks:["Better Default 1.12.2.zip","Better_Rebirth_1.12.2-0.7.zip"]
 incompatibleResourcePacks:[]
 lastServer:192.168.1.123
 lang:en_us

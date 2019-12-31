@@ -4,6 +4,8 @@ setDescription("Enter The Beneath.")
 
 addParent("triumph:advancements/dimensions/root")
 
+addRewardFunction("triumph:enteredBeneath")
+
 
 criteria = addCriteria("entered_beneath", "triumph:changed_dimension")
 criteria.setDimensionDestination(10)

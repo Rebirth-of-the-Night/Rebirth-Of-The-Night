@@ -701,6 +701,19 @@ animania:unhitch
 betternether:bn_fly
 epicsiegemod:cena_creeper.start
 epicsiegemod:cena_creeper.end
+malisisdoors:slidingdooro
+malisisdoors:jaildoor
+malisisdoors:space_door_open
+malisisdoors:space_door_close
+malisisdoors:shoji_door
+malisisdoors:rustyhatch_open
+malisisdoors:rustyhatch_close
+malisisdoors:carriage_opening
+malisisdoors:carriage_closing
+malisisdoors:carriage_closed
+malisisdoors:rustydoor_opening
+malisisdoors:rustydoor_closing
+malisisdoors:rustydoor_closed
 zombieawareness:alert
 zombieawareness:target
 zombieawareness:investigate
@@ -948,6 +961,9 @@ iceandfire:sea_serpent_roar
 iceandfire:sea_serpent_breath
 iceandfire:sea_serpent_splash
 iceandfire:pixie_wand
+magma_monsters:magma_monster_living
+magma_monsters:magma_monster_hurt
+magma_monsters:magma_monster_death
 mowziesmobs:laser
 mowziesmobs:sunstrike
 mowziesmobs:wroughtnaut.preswing1
@@ -1205,3 +1221,6 @@ beneath:deepdank
 beneath:dark1
 beneath:dark2
 beneath:scream
+trumpetskeleton:entity.trumpet_skeleton.ambient
+trumpetskeleton:item.trumpet.use
+trumpetskeleton:entity.parrot.imitate.trumpet_skeleton

@@ -1,4 +1,6 @@
 [
+
+  // Gold Golems
   {
     "dimension": -1,
     "block": ["betternether:bone_tile", "betternether:nether_brick_tile_large"],
@@ -10,5 +12,570 @@
         "groupcountmax": 1
       }
     ]
+  },
+
+
+  // Magma Monster Grunt Overworld
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "magma_monsters:magma_monster_grunt",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  // Magma Monster Grunt Nether
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "magma_monsters:magma_monster_grunt",
+        "weight": 50,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+  // Magma Monster Nether
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "magma_monsters:magma_monster",
+        "weight": 50,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  // Moas
+  {
+    "dimension": 0,
+    "seesky": true,
+    "mobs": [
+      {
+        "mob": "aether_legacy:moa",
+        "weight": 2
+      }
+    ]
+  },
+
+
+  // Void Eyes
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "primitivemobs:void_eye",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  // Trollagers
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "primitivemobs:trollager",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+
+
+  // Pigmen
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:brutepigzombie",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:hungrypigzombie",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+  // Wither Skeletons
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:brutewitherskeleton",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:giantwitherskeleton",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:spitfirewitherskeleton",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "netherex:salamander",
+        "weight": 3
+      }
+    ]
+  },
+
+
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "netherex:wight",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "netherex:spore_creeper",
+        "weight": 3
+      }
+    ]
+  },
+
+
+
+
+
+
+  // Creepers
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "specialmobs:deathcreeper",
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:doomcreeper",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "primitivemobs:rocket_creeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:jumpingcreeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:darkcreeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:lightningcreeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:firecreeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:endercreeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:splittingcreeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+
+
+    // Zombies
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:brutezombie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:hungryzombie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:plaguezombie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:fishingzombie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:firezombie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:giantzombie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+
+
+      // Skeletons
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:bruteskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:sniperskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:poisonskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:ninjaskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:fireskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:giantskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:spitfireskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:gatlingskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+   // Spiders
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:hungryspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:palespider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:desertspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:witchspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:poisonspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:webspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:giantspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:flyingspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:motherspider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
   }
+
+
 ]

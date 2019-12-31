@@ -1,0 +1,54 @@
+{
+  "tiers": [
+    {
+      "name": "Spotless",
+      "minKills": 0,
+      "maxKills": 4
+    },
+    {
+      "name": "Menacing",
+      "minKills": 5,
+      "maxKills": 9
+    },
+    {
+      "name": "Frightening",
+      "minKills": 10,
+      "maxKills": 49
+    },
+    {
+      "name": "Terrifying",
+      "minKills": 50,
+      "maxKills": 99
+    },
+    {
+      "name": "Petrifying",
+      "minKills": 100,
+      "maxKills": 199
+    },
+    {
+      "name": "Stained",
+      "minKills": 200,
+      "maxKills": 399
+    },
+    {
+      "name": "Uncharitable",
+      "minKills": 400,
+      "maxKills": 999
+    },
+    {
+      "name": "Epic",
+      "minKills": 1000,
+      "maxKills": 1999
+    },
+    {
+      "name": "Legendary",
+      "minKills": 2000,
+      "maxKills": 3999
+    },
+    {
+      "name": "Godlike",
+      "minKills": 4000,
+      "maxKills": 2147483647
+    }
+  ]
+}

@@ -10,7 +10,7 @@ recipes.remove(<malisisdoors:garage_door>);
 recipes.addShapeless("Camouflaged Fence Gate", <malisisdoors:camofencegate>,[
 	<ore:fenceGateWood>,<primitivemobs:camouflage_dye>
 ]);
-recipes.addShaped("Factory Door", <malisisdoors:factory_door>.withTag({item: 9388, redstoneBehavior: 0, proximityDetection: 0 as byte, sound: "pneumatic_door", openingTime: 12, autoCloseTime: 0, block: 2354, doubleDoor: 1 as byte, movement: "sliding_split_door"}),[
+recipes.addShaped("Factory Door", <malisisdoors:factory_door>,[
 	[<ore:ingotTin>, <ore:ingotTin>],
     [<ore:latchRedstone>, <ore:latchRedstone>],
     [<ore:ingotTin>, <ore:ingotTin>]

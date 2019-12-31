@@ -1,5 +1,41 @@
 import crafttweaker.item.IIngredient;
 
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_helmet>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_helmet>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_chestplate>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_chestplate>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_leggings>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_leggings>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_boots>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_boots>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_pickaxe>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_pickaxe>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_axe>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_axe>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_shovel>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_shovel>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_hoe>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_hoe>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+
+
+
 
 furnace.addRecipe(<dungeontactics:steel_ingot>, <minecraft:iron_ingot>);
 

@@ -4,6 +4,7 @@ setDescription("Enter the Nether.")
 
 addParent("triumph:advancements/dimensions/root")
 
+addRewardFunction("triumph:enteredNether")
 
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
 criteria.setDimensionDestination(-1)

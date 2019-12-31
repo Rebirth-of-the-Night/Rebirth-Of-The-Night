@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
     "FOREST",
+    "WATER",
     "RARE"
   ],
   "BiomeManager Entries": {},
@@ -171,6 +171,12 @@
       "Weight": 70,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",

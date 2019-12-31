@@ -4,6 +4,8 @@ setDescription("Enter The Twilight Forest.")
 
 addParent("triumph:advancements/dimensions/enterEnd")
 
+addRewardFunction("triumph:enteredTwilightForest")
+
 
 criteria = addCriteria("entered_twilight_forest", "triumph:changed_dimension")
 criteria.setDimensionDestination(7)

@@ -9,9 +9,23 @@ mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
 
 var test = <endreborn:tool_sword_endorium>.anyDamage().marked("mark");
 
-// addRecipe(IItemstack input1, IItemstack input2, IItemstack output, int exp-cost);
-// mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_sword_endorium>.anyDamage().marked("mark"), <endreborn:item_ingot_endorium>, mark.damage + 10, 5);
-
+// Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
+mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_sword_endorium>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:tool_sword_endorium>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<endreborn:ender_sword>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:ender_sword>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_magnifier>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:tool_magnifier>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<endreborn:entropy_wand>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:entropy_wand>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
 
 
 

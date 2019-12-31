@@ -4,6 +4,8 @@ setDescription("Enter The Aether.")
 
 addParent("triumph:advancements/dimensions/root")
 
+addRewardFunction("triumph:enteredAether")
+
 
 criteria = addCriteria("entered_aether", "triumph:changed_dimension")
 criteria.setDimensionDestination(4)

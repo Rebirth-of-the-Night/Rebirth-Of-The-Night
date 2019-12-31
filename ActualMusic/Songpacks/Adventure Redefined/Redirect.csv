@@ -1,27 +1,25 @@
-Rain[1],redirectSong:WorldUnbound
-Rain[2],redirectSong:Storm
-Rain[3],redirectSong:Mufaya-DarkAscension
-Rain[4],redirectSong:Moonsong
-Rain[5],redirectSong:KeeperOfTheForest
-Rain[6],redirectSong:IntoSilenceP1
-Rain[7],redirectSong:DuNock-Street-TitleEdit
-Rain[8],redirectSong:CrystalForest
-Rain[9],redirectSong:FrozenInTime
 
-//Add more snow songs
-// Day-Snow[1],redirectSong:Deliverance
-// Day-Snow[2],redirectSong:Wanderer
+// Rain
+Rain[1],redirectSong:Moonsong
+Rain[2],redirectSong:KeeperOfTheForest
+Rain[3],redirectSong:IntoSilenceP1
+Rain[4],redirectSong:CrystalForest
+Rain[5],redirectSong:FrozenInTime
 
+// Sunset
 Sunset[1],redirectSong:Alvae,start:13000
 Sunset[2],redirectSong:SiochainShuthain
 Sunset[3],redirectSong:Sombre
 Sunset[4],redirectSong:FallOfTheLeaf
 
+
+// Sunrise
 Sunrise[1],redirectSong:Alvae,start:13000
 Sunrise[2],redirectSong:SiochainShuthain
 Sunrise[3],redirectSong:Sombre
 
 
+// Day
 Day[1],redirectSong:ACelticTale
 Day[2],redirectSong:Alpha
 Day[3],redirectSong:ASongFromTheDeep
@@ -45,7 +43,10 @@ Day[20],redirectSong:Mirrormere
 Day[21],redirectSong:NightAtTheEolian
 Day[22],redirectSong:WildfireP1
 Day[23],redirectSong:WildfireP2
-
+Day[24],redirectSong:CrannNaBeatha
+Day[25],redirectSong:CastleInTheSky
+Day-Snow[1],redirectSong:Deliverance
+Day-Snow[2],redirectSong:Wanderer
 BiomeType(Mountain)-Day[1],redirectSong:ForTheKing
 BiomeType(Mountain)-Day[2],redirectSong:Freedom
 BiomeType(Mountain)-Day[3],redirectSong:BreathOfTheForest
@@ -53,54 +54,58 @@ BiomeType(Mountain)-Day[4],redirectSong:IntoTheUnknown
 BiomeType(Mountain)-Day[5],redirectSong:Mourning
 BiomeType(Mountain)-Day[6],redirectSong:Myth
 
-//Add more underground songs
-Underground[1],redirectSong:WintersBreath,cutoff:186000
-Underground[2],redirectSong:WintersBreath,start:186000,cutoff:405000
-Underground[3],redirectSong:WintersBreath,start:405000,cutoff:587000
-Underground[4],redirectSong:WintersBreath,start:587000,cutoff:862000
-Underground[5],redirectSong:WintersBreath,start:865000
-Underground[6],redirectSong:IntoSilenceP1
 
-BiomeType(Nether)[1],redirectSong:Mufaya-DarkAscension
-BiomeType(Nether)[2],redirectSong:TheShapersRealm
-BiomeType(Nether)[3],redirectSong:Storm
-BiomeType(Nether)[4],redirectSong:CrannNaBeatha
-BiomeType(Nether)[5],redirectSong:WorldUnbound
-
-BiomeType(End)[1],redirectSong:DuNock-Street-TitleEdit
-BiomeType(End)[2],redirectSong:Mufaya-DarkAscension
-BiomeType(End)[3],redirectSong:Storm
-BiomeType(End)[4],redirectSong:TheShapersRealm
-BiomeType(End)[5],redirectSong:WintersBreath,cutoff:186000
-BiomeType(End)[6],redirectSong:WorldUnbound
-
+// Night
 Night[1],redirectSong:IntoSilenceP1
 Night[2],redirectSong:Moonsong
 Night[3],redirectSong:CrystalForest
-Night[4],redirectSong:Storm
-Night[5],redirectSong:Alvae
-Night[6],redirectSong:CelticLore
-Night[7],redirectSong:FallOfTheLeaf
-Night[8],redirectSong:IntoSilenceP2
-Night[9],redirectSong:OdeToTheFallen
-Night[10],redirectSong:Sleeper
-Night[11],redirectSong:Sombre,start:431000
-Night[12],redirectSong:TheShapersRealm
+Night[4],redirectSong:Alvae
+Night[5],redirectSong:CelticLore
+Night[6],redirectSong:FallOfTheLeaf
+Night[7],redirectSong:IntoSilenceP2
+Night[8],redirectSong:OdeToTheFallen
+Night[9],redirectSong:Sleeper
+Night[10],redirectSong:Sombre,start:431000
+Night-Rain[1],redirectSong:WorldUnbound
+Night-Snow[1],redirectSong:WorldUnbound
 
+
+//Underground
+Underground[1],redirectSong:WintersBreath,cutoff:186000
+Underground[2],redirectSong:IntoSilenceP1
+
+
+// Dimension
+BiomeType(Nether)[1],redirectSong:Mufaya-DarkAscension
+BiomeType(Nether)[2],redirectSong:TheShapersRealm
+BiomeType(End)[1],redirectSong:Storm
+Dimension(4)[1],redirectSong:EmptySong,Priority:20000  // Aether no music
+Dimension(10)[1],redirectSong:WintersBreath,start:186000,Priority:20000 // The Beneath
+
+// Village
+Village[1],redirectSong:ACelticTale
+Village[2],redirectSong:CircleOfLife
+Village-Night[1],redirectSong:WintersNight
+
+
+// Bosses
+Boss[1],redirectSong:Ruthless
+Boss-Dimension(-1)[1],redirectSong:LastStand
+Boss(GhastQueen)[1],redirectSong:GhastQueenMusic
+Boss(wither)[1],redirectSong:WitherMusic
+
+
+// Invasions
+Horde-Night[1],redirectSong:InvasionSong
+
+
+
+// Other
 BiomeType(Beach),redirectSong:CliffsOfMoher
 Underwater,redirectSong:Eventide
 
-BiomeType(Nether)[1],redirectSong:CrannNaBeatha
 
 
-Boss[1],redirectSong:LastStand
-Boss[2],redirectSong:Ruthless
-
-Home-Snow-Night,redirectSong:WintersNight
-Home[1],redirectSong:KeeperOfTheForest
-Home[2],redirectSong:CastleInTheSky
-Home[3],redirectSong:CircleOfLife
-
-
+// Menus
+ForgeLoad[1],redirectSong:Alpha
 Title[1],redirectSong:DuNock-Street-TitleEdit
-

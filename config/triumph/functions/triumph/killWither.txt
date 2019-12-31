@@ -3,5 +3,4 @@ gamerule sendCommandFeedback false
 title @a times 40 120 60
 title @a subtitle {"text":"Lost souls have been set free...", "color":"yellow"}
 title @a title {"text":"Rebirth of the Nether", "bold":false, "italic":true, "color":"red"}
-playsound minecraft:ambient.cave music @a 0 0 0 100 0.1
-gamestage silentadd @a killed_wither
+gamestage silentadd @a killedWither

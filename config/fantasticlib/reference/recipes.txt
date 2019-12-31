@@ -414,6 +414,7 @@ minecraft:acacia_fence
 minecraft:acacia_door
 minecraft:acacia_boat
 biomesoplenty:biome_essence
+wearablebackpacks:dyeable_item
 rusticbopwoods:sacred_oak_chair
 rusticbopwoods:cherry_chair
 rusticbopwoods:umbran_chair
@@ -1089,7 +1090,6 @@ harvestcraft:ramenitem
 harvestcraft:rambutan_sapling
 harvestcraft:raisinsitem
 harvestcraft:raisincookiesitem
-harvestcraft:rainbowcurryitem
 harvestcraft:radishseeditem
 harvestcraft:quinoaseeditem
 harvestcraft:quesadillaitem
@@ -2278,6 +2278,9 @@ animania:banner_alt
 animania:banner
 animania:bacon_omelette
 animania:animania_manual
+sereneseasons:season_sensor
+sereneseasons:season_clock
+sereneseasons:greenhouse_glass
 betterwithmods:quark/dark_oak_trapdoor
 betterwithmods:quark/acacia_trapdoor
 betterwithmods:quark/birch_trapdoor
@@ -2302,7 +2305,6 @@ betterwithmods:items/material/material.windmill_blade
 betterwithmods:items/material/material.hemp_cloth
 betterwithmods:items/material/material.windmill_blade.siding
 betterwithmods:items/material/leather_strap
-betterwithmods:items/material/material.redstone_latch
 betterwithmods:items/material/material.wood_blade
 betterwithmods:items/material/material.soap
 betterwithmods:items/material/material.hemp_fibers
@@ -2346,7 +2348,6 @@ betterwithmods:blocks/redstone/chime/bamboo_chime_4
 betterwithmods:blocks/shaft
 betterwithmods:blocks/shaft-back
 betterwithmods:blocks/grate_1
-betterwithmods:blocks/steel_anvil
 betterwithmods:blocks/aesthetic.10
 betterwithmods:blocks/slats_4
 betterwithmods:blocks/slats_1
@@ -2658,6 +2659,7 @@ betternether:bn_bone_block_plate
 betternether:bn_bone_block_button
 betternether:bn_bone_block
 betternether:black_apple_seed
+wearablebackpacks:backpack
 dungeontactics:weapons/slingshot
 dungeontactics:weapons/sharp_stick
 dungeontactics:weapons/potshot_right
@@ -2770,9 +2772,6 @@ dungeontactics:armour/silver_boots
 dungeontactics:armour/rocket_pants
 dungeontactics:armour/flight_goggles
 dungeontactics:armour/bounce_boots
-sereneseasons:season_sensor
-sereneseasons:season_clock
-sereneseasons:greenhouse_glass
 endreborn:tools/tool_sword_endorium
 endreborn:tools/tool_hammer_iron
 endreborn:tools/entropy_wand
@@ -3024,7 +3023,6 @@ iceandfire:dragon_horn
 iceandfire:dragon_flute
 iceandfire:dragon_bone_block_wall
 iceandfire:dragon_bone_block
-iceandfire:dragonsteel_ice_sword
 iceandfire:dragonsteel_ice_shovel
 iceandfire:dragonsteel_ice_pickaxe
 iceandfire:dragonsteel_ice_leggings
@@ -3039,7 +3037,6 @@ iceandfire:dragonsteel_ice_chestplate
 iceandfire:dragonsteel_ice_boots
 iceandfire:dragonsteel_ice_block
 iceandfire:dragonsteel_ice_axe
-iceandfire:dragonsteel_fire_sword
 iceandfire:dragonsteel_fire_shovel
 iceandfire:dragonsteel_fire_pickaxe
 iceandfire:dragonsteel_fire_leggings
@@ -3150,6 +3147,50 @@ iceandfire:ash
 iceandfire:amphithere_macuahuitl
 iceandfire:amphithere_arrow
 iceandfire:ambrosia
+malisisdoors:wood_sliding_door
+malisisdoors:vertical_hatch
+malisisdoors:trapdoor_spruce
+malisisdoors:trapdoor_jungle
+malisisdoors:trapdoor_dark_oak
+malisisdoors:trapdoor_birch
+malisisdoors:trapdoor_acacia
+malisisdoors:shoji_door
+malisisdoors:saloon_door
+malisisdoors:rusty_ladder
+malisisdoors:rusty_hatch
+malisisdoors:rusty_handle
+malisisdoors:medieval_door
+malisisdoors:laboratory_door
+malisisdoors:jail_door
+malisisdoors:iron_sliding_door
+malisisdoors:hitech_door
+malisisdoors:forcefield_item
+malisisdoors:door_factory
+malisisdoors:curtain_yellow
+malisisdoors:curtain_white
+malisisdoors:curtain_silver
+malisisdoors:curtain_red
+malisisdoors:curtain_purple
+malisisdoors:curtain_pink
+malisisdoors:curtain_orange
+malisisdoors:curtain_magenta
+malisisdoors:curtain_lime
+malisisdoors:curtain_light_blue
+malisisdoors:curtain_green
+malisisdoors:curtain_gray
+malisisdoors:curtain_cyan
+malisisdoors:curtain_brown
+malisisdoors:curtain_blue
+malisisdoors:curtain_black
+malisisdoors:carriage_door
+malisisdoors:big_door_spruce
+malisisdoors:big_door_rusty
+malisisdoors:big_door_oak
+malisisdoors:big_door_jungle
+malisisdoors:big_door_iron
+malisisdoors:big_door_dark_oak
+malisisdoors:big_door_birch
+malisisdoors:big_door_acacia
 primitivemobs:wonder_sap_convert
 primitivemobs:camouflage_leggings_toggle
 primitivemobs:camouflage_leggings
@@ -3210,6 +3251,7 @@ simpleores:mythril_rod
 simpleores:onyx_leggings
 simpleores:tin_shears
 simpleores:mythril_boots
+simpleores:copper_bucket
 simpleores:mythril_helmet
 simpleores:copper_chestplate
 simpleores:copper_pickaxe
@@ -3372,6 +3414,7 @@ spartanweaponry:modded/boomerang_copper
 spartanweaponry:modded/battleaxe_tin
 spartanweaponry:modded/battleaxe_silver
 spartanweaponry:modded/battleaxe_copper
+spartanweaponry:mace_wood
 spartanweaponry:mace_stone
 spartanweaponry:mace_iron
 spartanweaponry:mace_gold
@@ -3392,6 +3435,7 @@ spartanweaponry:katana_stone
 spartanweaponry:katana_iron
 spartanweaponry:katana_gold
 spartanweaponry:katana_diamond
+spartanweaponry:javelin_wood
 spartanweaponry:javelin_stone
 spartanweaponry:javelin_iron
 spartanweaponry:javelin_gold
@@ -3399,6 +3443,7 @@ spartanweaponry:javelin_diamond
 spartanweaponry:handle_wool
 spartanweaponry:handle_string
 spartanweaponry:handle_leather
+spartanweaponry:hammer_wood
 spartanweaponry:hammer_stone
 spartanweaponry:hammer_iron
 spartanweaponry:hammer_gold
@@ -3658,82 +3703,6 @@ spartanshields:shield_mod_lead
 spartanshields:shield_mod_copper
 spartanshields:shield_bwm_soulforged_steel
 stygian:end_planks
-travellersbackpack:travellers_backpack_zombie
-travellersbackpack:travellers_backpack_yellow
-travellersbackpack:travellers_backpack_wolf
-travellersbackpack:travellers_backpack_witherskeleton
-travellersbackpack:travellers_backpack_wither
-travellersbackpack:travellers_backpack_white
-travellersbackpack:travellers_backpack_to_standard
-travellersbackpack:travellers_backpack_sunflower
-travellersbackpack:travellers_backpack_standard
-travellersbackpack:travellers_backpack_squid
-travellersbackpack:travellers_backpack_sponge
-travellersbackpack:travellers_backpack_spider
-travellersbackpack:travellers_backpack_snow
-travellersbackpack:travellers_backpack_slime
-travellersbackpack:travellers_backpack_skeleton
-travellersbackpack:travellers_backpack_silverfish
-travellersbackpack:travellers_backpack_sheep
-travellersbackpack:travellers_backpack_sandstone
-travellersbackpack:travellers_backpack_redstone
-travellersbackpack:travellers_backpack_redmushroom
-travellersbackpack:travellers_backpack_red
-travellersbackpack:travellers_backpack_rainbow
-travellersbackpack:travellers_backpack_quartz
-travellersbackpack:travellers_backpack_purple
-travellersbackpack:travellers_backpack_pumpkin
-travellersbackpack:travellers_backpack_pink
-travellersbackpack:travellers_backpack_pig
-travellersbackpack:travellers_backpack_overworld
-travellersbackpack:travellers_backpack_orange
-travellersbackpack:travellers_backpack_ocelot
-travellersbackpack:travellers_backpack_obsidian
-travellersbackpack:travellers_backpack_nether
-travellersbackpack:travellers_backpack_mooshroom
-travellersbackpack:travellers_backpack_moddednetwork
-travellersbackpack:travellers_backpack_melon
-travellersbackpack:travellers_backpack_magmacube
-travellersbackpack:travellers_backpack_magenta
-travellersbackpack:travellers_backpack_lime
-travellersbackpack:travellers_backpack_lightgray
-travellersbackpack:travellers_backpack_lightblue
-travellersbackpack:travellers_backpack_leather
-travellersbackpack:travellers_backpack_lapis
-travellersbackpack:travellers_backpack_iron
-travellersbackpack:travellers_backpack_horse
-travellersbackpack:travellers_backpack_haybale
-travellersbackpack:travellers_backpack_green
-travellersbackpack:travellers_backpack_gray
-travellersbackpack:travellers_backpack_gold
-travellersbackpack:travellers_backpack_glowstone
-travellersbackpack:travellers_backpack_ghast
-travellersbackpack:travellers_backpack_enderman
-travellersbackpack:travellers_backpack_end
-travellersbackpack:travellers_backpack_emerald
-travellersbackpack:travellers_backpack_egg
-travellersbackpack:travellers_backpack_dragon
-travellersbackpack:travellers_backpack_diamond
-travellersbackpack:travellers_backpack_cyan
-travellersbackpack:travellers_backpack_creeper
-travellersbackpack:travellers_backpack_cow
-travellersbackpack:travellers_backpack_cookie
-travellersbackpack:travellers_backpack_coal
-travellersbackpack:travellers_backpack_chicken
-travellersbackpack:travellers_backpack_chest
-travellersbackpack:travellers_backpack_carrot
-travellersbackpack:travellers_backpack_cake
-travellersbackpack:travellers_backpack_cactus
-travellersbackpack:travellers_backpack_brownmushroom
-travellersbackpack:travellers_backpack_brown
-travellersbackpack:travellers_backpack_bookshelf
-travellersbackpack:travellers_backpack_blue
-travellersbackpack:travellers_backpack_blaze
-travellersbackpack:travellers_backpack_black
-travellersbackpack:sleeping_bag_bottom
-travellersbackpack:hose_nozzle
-travellersbackpack:hose
-travellersbackpack:backpack_tank
 undergroundbiomes:marble_brick_wall
 undergroundbiomes:greenschist_sandstone
 undergroundbiomes:migmatite_stone_stairs
@@ -4065,6 +4034,16 @@ villagenames:lunarinironbrick_toingots
 villagenames:lunarinironbrick
 villagenames:lunaringoldbrick_toingots
 villagenames:lunaringoldbrick
+totemexpansion:totem_undying
+totemexpansion:totem_time
+totemexpansion:totem_spelunking
+totemexpansion:totem_repair
+totemexpansion:totem_recall
+totemexpansion:totem_plummeting
+totemexpansion:totem_lava
+totemexpansion:totem_explode
+totemexpansion:totem_breathing
+totemexpansion:totem_base
 minecraft:bread
 minecraft:beetroot_soup
 minecraft:mushroom_stew
@@ -4076,82 +4055,6 @@ twilightforest:maze_map_cloning
 twilightforest:ore_map_cloning
 quark:elytra_dyeing
 quark:firework_cloning
-quark:chute
-quark:sugar_block
-quark:iron_button
-quark:iron_button_1
-quark:gold_button
-quark:gold_button_1
-quark:iron_rod
-quark:gravisand
-quark:obsidian_pressure_plate
-quark:rain_detector
-quark:arrow_ender
-quark:arrow_explosive
-quark:arrow_torch
-quark:map_pinning
-quark:rune
-quark:dispenser
-quark:repeater
-quark:chest_minecart
-quark:furnace_minecart
-quark:hopper_minecart
-quark:tnt_minecart
-quark:chest_minecart_1
-quark:horse_whistle
-quark:elytra_duplication
-quark:paper_wall
-quark:paper_wall_big
-quark:paper_wall_sakura
-quark:iron_ladder
-quark:paper_lantern
-quark:paper_lantern_1
-quark:colored_flowerpot_white
-quark:colored_flowerpot_orange
-quark:colored_flowerpot_magenta
-quark:colored_flowerpot_light_blue
-quark:colored_flowerpot_yellow
-quark:colored_flowerpot_lime
-quark:colored_flowerpot_pink
-quark:colored_flowerpot_gray
-quark:colored_flowerpot_silver
-quark:colored_flowerpot_cyan
-quark:colored_flowerpot_purple
-quark:colored_flowerpot_blue
-quark:colored_flowerpot_brown
-quark:colored_flowerpot_green
-quark:colored_flowerpot_red
-quark:colored_flowerpot_black
-quark:custom_bookshelf
-quark:custom_bookshelf_1
-quark:custom_bookshelf_2
-quark:custom_bookshelf_3
-quark:custom_bookshelf_4
-quark:bookshelf
-quark:colored_item_frame
-quark:colored_item_frame_1
-quark:colored_item_frame_2
-quark:colored_item_frame_3
-quark:colored_item_frame_4
-quark:colored_item_frame_5
-quark:colored_item_frame_6
-quark:colored_item_frame_7
-quark:colored_item_frame_8
-quark:colored_item_frame_9
-quark:colored_item_frame_10
-quark:colored_item_frame_11
-quark:colored_item_frame_12
-quark:colored_item_frame_13
-quark:colored_item_frame_14
-quark:colored_item_frame_15
-quark:lit_lamp
-quark:rope
-quark:blaze_lantern
-quark:nether_brick_fence_gate
-quark:grate
-quark:charcoal_block
-quark:coal
-quark:glass_item_frame
 quark:root_dye
 quark:root_dye_1
 quark:root_dye_2
@@ -4483,6 +4386,16 @@ quark:quilted_wool_12
 quark:quilted_wool_13
 quark:quilted_wool_14
 quark:quilted_wool_15
+quark:chute
+quark:sugar_block
+quark:iron_button
+quark:iron_button_1
+quark:gold_button
+quark:gold_button_1
+quark:iron_rod
+quark:gravisand
+quark:obsidian_pressure_plate
+quark:rain_detector
 quark:stone_pickaxe
 quark:stone_shovel
 quark:stone_axe
@@ -4506,58 +4419,72 @@ quark:stained_glass_12
 quark:stained_glass_13
 quark:stained_glass_14
 quark:stained_glass_15
-quark:redstone_randomizer
-quark:ender_watcher
-quark:slime
-quark:color_slime
-quark:color_slime_1
-quark:color_slime_2
-quark:color_slime_3
-quark:color_slime_4
-quark:redstone_inductor
-quark:pickarang
-quark:soul_powder
-quark:spruce_trapdoor
-quark:birch_trapdoor
-quark:jungle_trapdoor
-quark:acacia_trapdoor
-quark:dark_oak_trapdoor
-quark:trapdoor
-quark:chest
-quark:custom_chest
-quark:custom_chest_1
-quark:custom_chest_trap
-quark:custom_chest_2
-quark:custom_chest_3
-quark:custom_chest_trap_1
-quark:custom_chest_4
-quark:custom_chest_5
-quark:custom_chest_trap_2
-quark:custom_chest_6
-quark:custom_chest_7
-quark:custom_chest_trap_3
-quark:custom_chest_8
-quark:custom_chest_9
-quark:custom_chest_trap_4
-quark:chest_1
-quark:hopper
-quark:purple_shulker_box
-quark:leaf_carpet
-quark:leaf_carpet_1
-quark:leaf_carpet_2
-quark:leaf_carpet_3
-quark:leaf_carpet_4
-quark:leaf_carpet_5
-quark:spruce_pressure_plate
-quark:birch_pressure_plate
-quark:jungle_pressure_plate
-quark:acacia_pressure_plate
-quark:dark_oak_pressure_plate
-quark:spruce_button
-quark:birch_button
-quark:jungle_button
-quark:acacia_button
-quark:dark_oak_button
+quark:paper_wall
+quark:paper_wall_big
+quark:paper_wall_sakura
+quark:iron_ladder
+quark:paper_lantern
+quark:paper_lantern_1
+quark:colored_flowerpot_white
+quark:colored_flowerpot_orange
+quark:colored_flowerpot_magenta
+quark:colored_flowerpot_light_blue
+quark:colored_flowerpot_yellow
+quark:colored_flowerpot_lime
+quark:colored_flowerpot_pink
+quark:colored_flowerpot_gray
+quark:colored_flowerpot_silver
+quark:colored_flowerpot_cyan
+quark:colored_flowerpot_purple
+quark:colored_flowerpot_blue
+quark:colored_flowerpot_brown
+quark:colored_flowerpot_green
+quark:colored_flowerpot_red
+quark:colored_flowerpot_black
+quark:custom_bookshelf
+quark:custom_bookshelf_1
+quark:custom_bookshelf_2
+quark:custom_bookshelf_3
+quark:custom_bookshelf_4
+quark:bookshelf
+quark:colored_item_frame
+quark:colored_item_frame_1
+quark:colored_item_frame_2
+quark:colored_item_frame_3
+quark:colored_item_frame_4
+quark:colored_item_frame_5
+quark:colored_item_frame_6
+quark:colored_item_frame_7
+quark:colored_item_frame_8
+quark:colored_item_frame_9
+quark:colored_item_frame_10
+quark:colored_item_frame_11
+quark:colored_item_frame_12
+quark:colored_item_frame_13
+quark:colored_item_frame_14
+quark:colored_item_frame_15
+quark:lit_lamp
+quark:rope
+quark:blaze_lantern
+quark:nether_brick_fence_gate
+quark:grate
+quark:charcoal_block
+quark:coal
+quark:glass_item_frame
+quark:arrow_ender
+quark:arrow_explosive
+quark:arrow_torch
+quark:map_pinning
+quark:rune
+quark:dispenser
+quark:repeater
+quark:chest_minecart
+quark:furnace_minecart
+quark:hopper_minecart
+quark:tnt_minecart
+quark:chest_minecart_1
+quark:horse_whistle
+quark:elytra_duplication
 quark:rune_1
 quark:rune_2
 quark:rune_3
@@ -4631,6 +4558,15 @@ quark:stained_planks_31
 quark:world_stone_pavement
 quark:world_stone_pavement_1
 quark:world_stone_pavement_2
+quark:redstone_randomizer
+quark:ender_watcher
+quark:slime
+quark:color_slime
+quark:color_slime_1
+quark:color_slime_2
+quark:color_slime_3
+quark:color_slime_4
+quark:redstone_inductor
 quark:slabs_to_stairs
 quark:stairs_to_blocks
 quark:wool
@@ -4697,6 +4633,49 @@ quark:wool_30
 quark:wool_31
 quark:quilted_wool_46
 quark:quilted_wool_47
+quark:spruce_trapdoor
+quark:birch_trapdoor
+quark:jungle_trapdoor
+quark:acacia_trapdoor
+quark:dark_oak_trapdoor
+quark:trapdoor
+quark:chest
+quark:custom_chest
+quark:custom_chest_1
+quark:custom_chest_trap
+quark:custom_chest_2
+quark:custom_chest_3
+quark:custom_chest_trap_1
+quark:custom_chest_4
+quark:custom_chest_5
+quark:custom_chest_trap_2
+quark:custom_chest_6
+quark:custom_chest_7
+quark:custom_chest_trap_3
+quark:custom_chest_8
+quark:custom_chest_9
+quark:custom_chest_trap_4
+quark:chest_1
+quark:hopper
+quark:purple_shulker_box
+quark:leaf_carpet
+quark:leaf_carpet_1
+quark:leaf_carpet_2
+quark:leaf_carpet_3
+quark:leaf_carpet_4
+quark:leaf_carpet_5
+quark:spruce_pressure_plate
+quark:birch_pressure_plate
+quark:jungle_pressure_plate
+quark:acacia_pressure_plate
+quark:dark_oak_pressure_plate
+quark:spruce_button
+quark:birch_button
+quark:jungle_button
+quark:acacia_button
+quark:dark_oak_button
+quark:pickarang
+quark:soul_powder
 dynamictreesbop:floweringoakseed
 dynamictreesbop:floweringoaksapling
 dynamictreesbop:yellowautumnseed
@@ -5150,11 +5129,14 @@ extraalchemy:extraalchemy_sails_strong
 extraalchemy:extraalchemy_sinking_normal
 extraalchemy:extraalchemy_sinking_strong
 hungeroverhaul:wheatseeds
+crafttweaker:steel anvil
+crafttweaker:latch
 crafttweaker:fly wheel ring
 crafttweaker:lucky horseshoe
 crafttweaker:obsidian skull
 crafttweaker:magic mirror
 crafttweaker:grave scroll 1
+crafttweaker:grave scroll 2
 crafttweaker:air balloon
 crafttweaker:air balloon 2
 crafttweaker:air balloon 3
@@ -5168,10 +5150,19 @@ crafttweaker:mediumglaretorch
 crafttweaker:largeglaretorch
 crafttweaker:verylargeglaretorch
 crafttweaker:grapplehook
+crafttweaker:fire dragonsteel sword
+crafttweaker:ice dragonsteel sword
+crafttweaker:camouflaged fence gate
+crafttweaker:factory door
+crafttweaker:sliding trapdoor
 crafttweaker:chainmail helmet
 crafttweaker:chainmail chestplate
 crafttweaker:chainmail leggings
 crafttweaker:chainmail boots
+crafttweaker:ct_shaped799310631
+crafttweaker:ct_shaped-516550929
+crafttweaker:ct_shaped-3200904
+crafttweaker:ct_shaped-1328546777
 crafttweaker:wither bone helmet
 crafttweaker:wither bone chestplate
 crafttweaker:wither bone leggings
@@ -5188,30 +5179,8 @@ crafttweaker:gold lantern
 crafttweaker:iron lantern
 crafttweaker:iron candle
 crafttweaker:golden candle
-crafttweaker:oynx bow
-crafttweaker:mythril bow
-crafttweaker:mythril sword
-crafttweaker:mythril pickaxe
-crafttweaker:mythril axe
-crafttweaker:mythril shovel
-crafttweaker:mythril hoe
-crafttweaker:onyx sword
-crafttweaker:onyx pickaxe
-crafttweaker:onyx axe
-crafttweaker:onyx shovel
-crafttweaker:onyx hoe
-crafttweaker:adamantium sword
-crafttweaker:adamantium pickaxe
-crafttweaker:adamantium axe
-crafttweaker:adamantium shovel
-crafttweaker:adamantium hoe
 crafttweaker:mythril battleaxe
 crafttweaker:mythril shield
-crafttweaker:travellers backpack
-crafttweaker:travellers backpack1
-crafttweaker:travellers backpack2
-crafttweaker:travellers backpack3
-crafttweaker:travellers backpack4
 crafttweaker:anycobble
 betterwithmods:oak_planks
 betterwithmods:spruce_planks
@@ -5251,15 +5220,15 @@ betterwithmods:wood/mine_planks
 betterwithmods:wood/sort_planks
 betterwithmods:torch
 betterwithmods:baiting_recipe
-betterwithmods:siding_rock
-betterwithmods:moulding_rock
-betterwithmods:corner_rock
 betterwithmods:siding_wood
 betterwithmods:moulding_wood
 betterwithmods:corner_wood
 betterwithmods:siding_iron
 betterwithmods:moulding_iron
 betterwithmods:corner_iron
+betterwithmods:siding_rock
+betterwithmods:moulding_rock
+betterwithmods:corner_rock
 betterwithmods:wood_siding.0
 betterwithmods:wood_moulding.0
 betterwithmods:wood_corner.0

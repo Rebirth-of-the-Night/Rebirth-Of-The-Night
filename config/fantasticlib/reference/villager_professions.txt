@@ -10,4 +10,5 @@ primitivemobs:fakemerchant
 primitivemobs:sheepman_scavenger
 primitivemobs:sheepman_alchemist
 primitivemobs:sheepman_thief
+totemexpansion:witchdoctor
 endreborn:explorer

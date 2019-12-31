@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "LUSH",
-    "WET",
     "SWAMP",
-    "DENSE"
+    "DENSE",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -292,6 +292,12 @@
       "Weight": 40,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
+      "Weight": 25,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",
