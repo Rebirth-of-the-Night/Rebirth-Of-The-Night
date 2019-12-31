@@ -29,6 +29,38 @@ mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:42>, [
    [<ore:hideStrap>]
 ]);
 
+//Removed Recipes
+recipes.remove(<simpleores:mythril_helmet>);
+recipes.remove(<simpleores:mythril_chestplate>);
+recipes.remove(<simpleores:mythril_leggings>);
+recipes.remove(<simpleores:mythril_boots>);
+
+recipes.remove(<simpleores:onyx_helmet>);
+recipes.remove(<simpleores:onyx_chestplate>);
+recipes.remove(<simpleores:onyx_leggings>);
+recipes.remove(<simpleores:onyx_boots>);
+
+recipes.remove(<simpleores:adamantium_helmet>);
+recipes.remove(<simpleores:adamantium_chestplate>);
+recipes.remove(<simpleores:adamantium_leggings>);
+recipes.remove(<simpleores:adamantium_boots>);
+
+recipes.remove(<endreborn:armour_helmet_helmet>);
+recipes.remove(<endreborn:armour_chestplate_obsidian>);
+recipes.remove(<endreborn:armour_leggings_obsidian>);
+recipes.remove(<endreborn:armour_boots_obsidian>);
+
+recipes.remove(<iceandfire:dragonsteel_fire_helmet>);
+recipes.remove(<iceandfire:dragonsteel_fire_chestplate>);
+recipes.remove(<iceandfire:dragonsteel_fire_leggings>);
+recipes.remove(<iceandfire:dragonsteel_fire_boots>);
+
+recipes.remove(<iceandfire:dragonsteel_ice__helmet>);
+recipes.remove(<iceandfire:dragonsteel_ice__chestplate>);
+recipes.remove(<iceandfire:dragonsteel_ice__leggings>);
+recipes.remove(<iceandfire:dragonsteel_ice__boots>);
+
+
 //Armors
 //Mythril
 mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_helmet>, 
@@ -138,7 +170,8 @@ mods.betterwithmods.Anvil.addShaped(<endreborn:armour_leggings_obsidian>,
    [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, null, null],
    [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, null, null],
    [<endreborn:item_ingot_endorium>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
-]);mods.betterwithmods.Anvil.addShaped(<endreborn:armour_boots_obsidian>, 
+]);
+mods.betterwithmods.Anvil.addShaped(<endreborn:armour_boots_obsidian>, 
 [
    [null, null, <endreborn:item_shard_obsidian>],
    [<endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <betterwithmods:material:42>],
