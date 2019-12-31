@@ -29,7 +29,7 @@ mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:42>, [
    [<ore:hideStrap>]
 ]);
 
-//Armors==================================================================
+//Armors
 //Mythril
 mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_helmet>, 
 [
@@ -128,20 +128,81 @@ mods.betterwithmods.Anvil.addShaped(<endreborn:armour_helmet_helmet>,
    mods.betterwithmods.Anvil.addShaped(<endreborn:armour_chestplate_obsidian>, 
    [
    [<betterwithmods:material:42>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>],
-   [null, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>],
-   [null, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>],
+   [null, <endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <endreborn:item_shard_obsidian>],
+   [null, <endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <endreborn:item_shard_obsidian>],
    [<betterwithmods:material:42>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>],
 ]);
 mods.betterwithmods.Anvil.addShaped(<endreborn:armour_leggings_obsidian>, 
 [
-   [<endreborn:item_shard_obsidian>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
-   [<endreborn:item_ingot_endorium>, <endreborn:item_shard_obsidian>, null, null],
-   [<endreborn:item_ingot_endorium>, <endreborn:item_shard_obsidian>, null, null],
-    [<endreborn:item_shard_obsidian>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>]
+   [<endreborn:item_ingot_endorium>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+   [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, null, null],
+   [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, null, null],
+   [<endreborn:item_ingot_endorium>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
 ]);mods.betterwithmods.Anvil.addShaped(<endreborn:armour_boots_obsidian>, 
 [
    [null, null, <endreborn:item_shard_obsidian>],
    [<endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <betterwithmods:material:42>],
    [<endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <betterwithmods:material:42>],
    [null, null, <endreborn:item_shard_obsidian>]
+]);
+
+//Dragon Steel
+//Fire
+mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_fire_helmet>, 
+[
+   [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <betterwithmods:material:42>],
+   [<iceandfire:dragonsteel_fire_ingot>, null, null, null],
+   [<iceandfire:dragonsteel_fire_ingot>, null, null, null],
+   [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <betterwithmods:material:42>]
+]);   
+   mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_fire_chestplate>, 
+   [
+   [<betterwithmods:material:42>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>],
+   [null, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>],
+   [null, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>],
+   [<betterwithmods:material:42>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>],
+]);
+mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_fire_leggings>, 
+[
+   [<iceandfire:dragonsteel_fire_ingot>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+   [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, null, null],
+   [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, null, null],
+   [<iceandfire:dragonsteel_fire_ingot>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+]);
+mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_fire_boots>, 
+[
+   [null, null, <iceandfire:dragonsteel_fire_ingot>],
+   [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <betterwithmods:material:42>],
+   [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:dragonsteel_fire_ingot>, <betterwithmods:material:42>],
+   [null, null, <iceandfire:dragonsteel_fire_ingot>]
+]);
+
+//Ice
+mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_ice_helmet>, 
+[
+   [<iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <betterwithmods:material:42>],
+   [<iceandfire:dragonsteel_ice_ingot>, null, null, null],
+   [<iceandfire:dragonsteel_ice_ingot>, null, null, null],
+   [<iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <betterwithmods:material:42>]
+]);   
+   mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_ice_chestplate>, 
+   [
+   [<betterwithmods:material:42>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>],
+   [null, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>],
+   [null, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>],
+   [<betterwithmods:material:42>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>],
+]);
+mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_ice_leggings>, 
+[
+   [<iceandfire:dragonsteel_ice_ingot>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+   [<iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, null, null],
+   [<iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, null, null],
+   [<iceandfire:dragonsteel_ice_ingot>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+]);
+mods.betterwithmods.Anvil.addShaped(<iceandfire:dragonsteel_ice_boots>, 
+[
+   [null, null, <iceandfire:dragonsteel_ice_ingot>],
+   [<iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <betterwithmods:material:42>],
+   [<iceandfire:dragonsteel_ice_ingot>, <iceandfire:dragonsteel_ice_ingot>, <betterwithmods:material:42>],
+   [null, null, <iceandfire:dragonsteel_ice_ingot>]
 ]);
