@@ -55,10 +55,10 @@ recipes.remove(<iceandfire:dragonsteel_fire_chestplate>);
 recipes.remove(<iceandfire:dragonsteel_fire_leggings>);
 recipes.remove(<iceandfire:dragonsteel_fire_boots>);
 
-recipes.remove(<iceandfire:dragonsteel_ice__helmet>);
-recipes.remove(<iceandfire:dragonsteel_ice__chestplate>);
-recipes.remove(<iceandfire:dragonsteel_ice__leggings>);
-recipes.remove(<iceandfire:dragonsteel_ice__boots>);
+recipes.remove(<iceandfire:dragonsteel_ice_helmet>);
+recipes.remove(<iceandfire:dragonsteel_ice_chestplate>);
+recipes.remove(<iceandfire:dragonsteel_ice_leggings>);
+recipes.remove(<iceandfire:dragonsteel_ice_boots>);
 
 
 //Armors
