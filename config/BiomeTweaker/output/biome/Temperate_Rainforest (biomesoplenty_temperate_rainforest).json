@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "LUSH",
     "DENSE",
+    "LUSH",
     "WET"
   ],
   "BiomeManager Entries": {},

@@ -1,5 +1,10 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Used to create many traps, an anvil used for late game crafting, and more.");
+
+mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-hand and the duct tape in your main hand. Right click to repair. Items can only be repaired with duct tape until they reach Duct Taped V");
+
+
 mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_helmet>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_helmet>, 1,
 function(out, ins, cInfo){
     return ins.left.withDamage(max(0,ins.left.damage - 50));
@@ -36,9 +41,6 @@ function(out, ins, cInfo){
 
 
 
-
-furnace.addRecipe(<dungeontactics:steel_ingot>, <minecraft:iron_ingot>);
-
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
@@ -46,6 +48,10 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_s
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_mithril_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_mithril_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_mithril_ore:*>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);
+
+furnace.remove(<dungeontactics:steel_ingot>);
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_ring>);
@@ -326,6 +332,15 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:master_knife_smokebomb");
 
 mods.jei.JEI.removeAndHide(<dungeontactics:flour>);
 mods.jei.JEI.removeAndHide(<dungeontactics:lantern_iron>);
+
+
+recipes.remove(<dungeontactics:fan_block>);
+
+recipes.addShaped("Fan", <dungeontactics:fan_block>,[
+	[<ore:cobblestone>, <ore:ingotSteel>, <ore:cobblestone>],
+    [<ore:ingotSteel>, <minecraft:redstone_block>, <ore:ingotSteel>],
+    [<ore:cobblestone>, <ore:ingotSteel>, <ore:cobblestone>]
+]);
 
 recipes.remove(<dungeontactics:lantern_magic>);
 recipes.remove(<dungeontactics:iron_ring>);

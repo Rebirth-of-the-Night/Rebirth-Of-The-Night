@@ -26,6 +26,7 @@ recipes.remove(<simpleores:onyx_axe>);
 recipes.remove(<simpleores:onyx_shovel>);
 recipes.remove(<simpleores:onyx_hoe>);
 
+
 //Better With Mods SFS Anvil
 //Values
 val viri = <simpleores:adamantium_ingot>;

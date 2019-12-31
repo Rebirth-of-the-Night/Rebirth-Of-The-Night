@@ -12,3 +12,5 @@ mods.MobStages.toggleSpawner("minecraft:blaze", true, -1);
 
 
 mods.MobStages.addStage("impossibleStage", "minecraft:wolf", -1);
+
+mods.MobStages.addStage("killedEnderDragon", "netherex:ghast_queen", -1);

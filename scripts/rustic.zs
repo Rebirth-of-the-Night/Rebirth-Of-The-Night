@@ -1,5 +1,8 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"Only spawns in mountain biomes. Used to create bloons for air ships.");
+
+
 mods.jei.JEI.removeAndHide(<rustic:rope>);
 mods.jei.JEI.removeAndHide(<rustic:crushing_tub>);
 

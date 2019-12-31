@@ -75,7 +75,7 @@ recipes.remove(<netherex:frosted_wither_bone>);
 
 
 recipes.remove(<netherex:rime_and_steel>);
-
+mods.jei.JEI.addDescription(<netherex:rime_and_steel>,"Rime and Steel can create a Nether Portal of any size and orientation!");
 
 var frostedwitherbone = <netherex:frosted_wither_bone>;
 var rime = <netherex:rime_block>;

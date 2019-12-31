@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "LUSH",
-    "HILLS",
     "JUNGLE",
     "DENSE",
+    "HILLS",
+    "LUSH",
     "WET"
   ],
   "BiomeManager Entries": {},

@@ -74,7 +74,7 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 10,
+    "veins": 14,
     "size": 6,
     "miny": 10,
     "maxy": 190
@@ -84,7 +84,7 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 8,
+    "veins": 12,
     "size": 5,
     "miny": 10,
     "maxy": 190

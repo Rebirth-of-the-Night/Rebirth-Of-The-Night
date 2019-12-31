@@ -224,7 +224,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.65",
+            "text": "Version 2.7",
             "posX": 2,
             "posY": -10,
             "color": 450,
@@ -239,7 +239,7 @@
             "image" : "",
             "slideshow":
             {
-                "images" : ["rotn:textures/background/background3.png","rotn:textures/background/background2.png","rotn:textures/background/background1.png","rotn:textures/background/background4.png","rotn:textures/background/background5.png","rotn:textures/background/background6.png","rotn:textures/background/background7.png","rotn:textures/background/background8.png","rotn:textures/background/background9.png"],
+                "images" : ["rotn:textures/background/background3.png","rotn:textures/background/background2.png","rotn:textures/background/background1.png","rotn:textures/background/background4.png","rotn:textures/background/background5.png","rotn:textures/background/background6.png","rotn:textures/background/background7.png","rotn:textures/background/background8.png","rotn:textures/background/background9.png","rotn:textures/background/background10.png"],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
             }

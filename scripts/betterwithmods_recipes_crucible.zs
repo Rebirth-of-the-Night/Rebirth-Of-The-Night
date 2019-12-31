@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
+mods.betterwithmods.Crucible.remove([<dungeontactics:steel_ingot>]);
+
+
 mods.betterwithmods.Crucible.addStoked([<ore:cobblestone>],[<minecraft:stone>]);
 //Normal Steel
 mods.betterwithmods.Crucible.addStoked(
