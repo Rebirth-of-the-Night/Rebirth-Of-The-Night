@@ -4,7 +4,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/simpleores/copper",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -12,7 +12,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/simpleores/adamantium",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -20,7 +20,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/simpleores/mythril",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -28,7 +28,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/simpleores/tin",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   }
 ]
