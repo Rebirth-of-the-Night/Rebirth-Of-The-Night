@@ -4,7 +4,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/scalinghealth/crystalore",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   }
 ]
