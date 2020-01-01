@@ -2,12 +2,21 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-mods.betterwithmods.Crucible.remove([<dungeontactics:steel_ingot>]);
+//mods.betterwithmods.Crucible.remove([<dungeontactics:steel_ingot>]); // nugget > steel ingot
+//mods.betterwithmods.StokedCrucible.remove([<betterwithmods:material:14>,<betterwithmods:urn>]);
+
+mods.betterwithmods.Crucible.removeAll();
 
 
-mods.betterwithmods.Crucible.addStoked([<ore:cobblestone>],[<minecraft:stone>]);
+// nugget > sfs
+// block > sfs
+// sfs rail > 6iron 2sfs
+// urn:8 steel dustCarbon soul flux > sfs urn:0
+
+mods.betterwithmods.Crucible.addUnstoked([<ore:cobblestone>],[<minecraft:stone>]);
+
 //Normal Steel
-mods.betterwithmods.Crucible.addStoked(
+mods.betterwithmods.Crucible.addUnstoked(
     [
         <minecraft:iron_ingot>,
         <ore:dustCoal>,
@@ -27,6 +36,18 @@ mods.betterwithmods.Crucible.addStoked(
         <ore:blockSoulUrn>
     ],
     [
-        <betterwithmods:material:14>
+        <betterwithmods:material:14>,
+        <betterwithmods:urn:8>
     ]
 );
+
+// Anvil > Steel
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <betterwithmods:steel_anvil>
+    ],
+    [
+        <dungeontactics:steel_ingot>*9
+    ]
+);
+

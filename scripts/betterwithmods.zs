@@ -15,6 +15,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>);
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
+mods.betterwithmods.Cauldron.remove([<minecraft:mushroom_stew>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
 mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail

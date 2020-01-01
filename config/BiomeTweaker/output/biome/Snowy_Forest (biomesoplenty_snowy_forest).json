@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "FOREST",
-    "COLD",
     "SNOWY",
+    "COLD",
     "WET",
     "SPARSE"
   ],

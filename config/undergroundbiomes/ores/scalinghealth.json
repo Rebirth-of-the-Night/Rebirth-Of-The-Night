@@ -2,9 +2,9 @@
   {
     "internalOreName": "scalinghealth:crystalore",
     "meta": -1,
-    "overlay": "rotn:overlays/scalinghealth/crystalore",
+    "overlay": "undergroundbiomes:blocks/overlays/scalinghealth/crystalore",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   }
 ]

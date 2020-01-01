@@ -2,57 +2,57 @@
   {
     "internalOreName": "biomesoplenty:gem_ore",
     "meta": 1,
-    "overlay": "rotn:overlays/custom/ruby",
+    "overlay": "undergroundbiomes:blocks/overlays/custom/ruby",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "biomesoplenty:gem_ore",
     "meta": 2,
-    "overlay": "rotn:overlays/custom/peridot",
+    "overlay": "undergroundbiomes:blocks/overlays/custom/peridot",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "biomesoplenty:gem_ore",
     "meta": 3,
-    "overlay": "rotn:overlays/custom/topaz",
+    "overlay": "undergroundbiomes:blocks/overlays/custom/topaz",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "biomesoplenty:gem_ore",
     "meta": 4,
-    "overlay": "rotn:overlays/custom/tanzanite",
+    "overlay": "undergroundbiomes:blocks/overlays/custom/tanzanite",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "biomesoplenty:gem_ore",
     "meta": 5,
-    "overlay": "rotn:overlays/overlays/custom/malachite",
+    "overlay": "undergroundbiomes:blocks/overlays/custom/malachite",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "biomesoplenty:gem_ore",
     "meta": 6,
-    "overlay": "rotn:overlays/overlays/custom/sapphire",
+    "overlay": "undergroundbiomes:blocks/overlays/custom/sapphire",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "biomesoplenty:gem_ore",
     "meta": 7,
-    "overlay": "rotn:overlays/overlays/custom/amber",
+    "overlay": "undergroundbiomes:blocks/overlays/custom/amber",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   }
 ]

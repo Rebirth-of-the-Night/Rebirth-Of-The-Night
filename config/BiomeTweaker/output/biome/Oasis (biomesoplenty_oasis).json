@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "JUNGLE",
     "SANDY",
+    "WET",
     "HOT",
     "LUSH",
-    "WET",
     "SPARSE"
   ],
   "BiomeManager Entries": {},

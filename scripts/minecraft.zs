@@ -5,7 +5,11 @@ import crafttweaker.item.IIngredient;
 brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
 furnace.remove(<minecraft:coal:1>);
+mods.jei.JEI.removeAndHide(<minecraft:mushroom_stew>);
 
+
+recipes.removeByRecipeName("aether_legacy:saddle");
+recipes.removeByRecipeName("animania:saddle");
 
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);

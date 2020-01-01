@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
-    "SPOOKY",
-    "SWAMP",
-    "DEAD",
     "WET",
+    "SWAMP",
+    "SPOOKY",
+    "DEAD",
     "SPARSE"
   ],
   "BiomeManager Entries": {},

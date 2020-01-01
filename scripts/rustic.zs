@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 
 mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"Only spawns in mountain biomes. Used to create bloons for air ships.");
 
+mods.jei.JEI.removeAndHide(<rustic:crop_stake>);
 
 mods.jei.JEI.removeAndHide(<rustic:rope>);
 mods.jei.JEI.removeAndHide(<rustic:crushing_tub>);
@@ -19,6 +20,9 @@ mods.jei.JEI.removeAndHide(<rustic:leaves_apple>);
 mods.jei.JEI.removeAndHide(<rustic:grape_stem>);
 mods.jei.JEI.removeAndHide(<rustic:grapes>);
 
+mods.jei.JEI.removeAndHide(<rustic:tomato>);
+mods.jei.JEI.removeAndHide(<rustic:chili_pepper>);
+mods.jei.JEI.removeAndHide(<rustic:oliveseed>);
 
 mods.jei.JEI.removeAndHide(<dynamictreesphc:grapefruitseed>);
 

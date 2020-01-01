@@ -2,57 +2,57 @@
   {
     "internalOreName": "minecraft:diamond_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/minecraft/diamond",
+    "overlay": "undergroundbiomes:blocks/overlays/minecraft/diamond",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "minecraft:iron_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/minecraft/iron",
+    "overlay": "undergroundbiomes:blocks/overlays/minecraft/iron",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "minecraft:coal_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/minecraft/coal",
+    "overlay": "undergroundbiomes:blocks/overlays/minecraft/coal",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "minecraft:lapis_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/minecraft/lapis",
+    "overlay": "undergroundbiomes:blocks/overlays/minecraft/lapis",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "minecraft:redstone_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/minecraft/redstone",
+    "overlay": "undergroundbiomes:blocks/overlays/minecraft/redstone",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "minecraft:gold_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/minecraft/gold",
+    "overlay": "undergroundbiomes:blocks/overlays/minecraft/gold",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
     "internalOreName": "minecraft:emerald_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/minecraft/emerald",
+    "overlay": "undergroundbiomes:blocks/overlays/minecraft/emerald",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   }
 ]
