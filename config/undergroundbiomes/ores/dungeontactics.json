@@ -4,7 +4,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/dungeontactics/silver",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
