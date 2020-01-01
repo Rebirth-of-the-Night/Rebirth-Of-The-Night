@@ -4,7 +4,7 @@
     "meta": 1,
     "overlay": "rotn:overlays/custom/ruby",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -12,7 +12,7 @@
     "meta": 2,
     "overlay": "rotn:overlays/custom/peridot",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -20,7 +20,7 @@
     "meta": 3,
     "overlay": "rotn:overlays/custom/topaz",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -28,7 +28,7 @@
     "meta": 4,
     "overlay": "rotn:overlays/custom/tanzanite",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -36,7 +36,7 @@
     "meta": 5,
     "overlay": "rotn:overlays/overlays/custom/malachite",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -44,7 +44,7 @@
     "meta": 6,
     "overlay": "rotn:overlays/overlays/custom/sapphire",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   },
   {
@@ -52,7 +52,7 @@
     "meta": 7,
     "overlay": "rotn:overlays/overlays/custom/amber",
     "lightValue": -1,
-    "alphaOverlay": true,
+    "alphaOverlay": false,
     "oreDirectories": []
   }
 ]
