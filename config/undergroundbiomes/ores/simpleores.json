@@ -12,7 +12,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/simpleores/adamantium",
     "lightValue": -1,
-    "alphaOverlay": false,
+    "alphaOverlay": true,
     "oreDirectories": []
   },
   {
@@ -20,7 +20,7 @@
     "meta": -1,
     "overlay": "rotn:overlays/simpleores/mythril",
     "lightValue": -1,
-    "alphaOverlay": false,
+    "alphaOverlay": true,
     "oreDirectories": []
   },
   {
