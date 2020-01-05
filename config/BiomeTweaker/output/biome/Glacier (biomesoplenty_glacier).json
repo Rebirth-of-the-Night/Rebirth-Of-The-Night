@@ -6,7 +6,7 @@
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenGlacier",
   "Root Height": 1.3529412,
   "Height Variation": 0.118750006,
-  "Top Block": "minecraft:air",
+  "Top Block": "minecraft:ice",
   "Filler Block": "biomesoplenty:hard_ice",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SNOWY",
+    "WASTELAND",
     "COLD",
-    "WASTELAND"
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
