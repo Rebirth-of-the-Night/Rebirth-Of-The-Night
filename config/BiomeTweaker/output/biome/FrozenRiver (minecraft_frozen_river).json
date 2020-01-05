@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "RIVER",
-    "WATER",
+    "SNOWY",
     "COLD",
-    "SNOWY"
+    "WATER",
+    "RIVER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

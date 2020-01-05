@@ -51,3 +51,14 @@ mods.betterwithmods.Crucible.addUnstoked(
     ]
 );
 
+
+//Soul Flux
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <betterwithmods:material:39>,
+    ],
+    [
+        <betterwithmods:material:25>,
+        <betterwithmods:material:38>
+    ]
+);

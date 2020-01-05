@@ -4,8 +4,8 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 15,
-    "size": 16,
+    "veins": 5,
+    "size": 24,
     "miny": 10,
     "maxy": 246
   },
@@ -14,8 +14,8 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 20,
-    "size": 16,
+    "veins": 10,
+    "size": 24,
     "miny": 10,
     "maxy": 246
   },
@@ -24,8 +24,8 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 12,
-    "size": 8,
+    "veins": 2,
+    "size": 18,
     "miny": 10,
     "maxy": 246
   },
@@ -34,8 +34,8 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 12,
-    "size": 12,
+    "veins": 2,
+    "size": 22,
     "miny": 10,
     "maxy": 246
   },
@@ -44,8 +44,8 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 12,
-    "size": 8,
+    "veins": 2,
+    "size": 18,
     "miny": 10,
     "maxy": 246
   },
@@ -54,78 +54,38 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 3,
-    "size": 8,
+    "veins": 2,
+    "size": 16,
     "miny": 10,
-    "maxy": 120
-  },
-  {
-    "ore": "minecraft:monster_egg",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 48,
-    "size": 24,
-    "miny": 10,
-    "maxy": 246
+    "maxy": 100
   },
   {
     "ore": "simpleores:adamantium_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 14,
-    "size": 6,
+    "veins": 2,
+    "size": 14,
     "miny": 10,
-    "maxy": 190
+    "maxy": 150
   },
   {
     "ore": "simpleores:mythril_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 12,
-    "size": 5,
+    "veins": 1,
+    "size": 18,
     "miny": 10,
-    "maxy": 190
-  },
-  {
-    "ore": "explorercraft:ruby_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 14,
-    "size": 8,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
-    "ore": "explorercraft:amethyst_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 12,
-    "size": 8,
-    "miny": 10,
-    "maxy": 140
-  },
-  {
-    "ore": "explorercraft:jade_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 4,
-    "size": 8,
-    "miny": 10,
-    "maxy": 70
+    "maxy": 75
   },
   {
     "ore": "dungeontactics:stonequartz_ore",
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 8,
-    "size": 6,
+    "veins": 7,
+    "size": 10,
     "miny": 10,
     "maxy": 246
   },
@@ -134,19 +94,9 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 9,
+    "veins": 10,
     "size": 8,
     "miny": 10,
-    "maxy": 246
-  },
-  {
-    "ore": "xlfoodmod:rock_salt",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 2,
-    "size": 8,
-    "miny": 180,
     "maxy": 246
   }
 ]

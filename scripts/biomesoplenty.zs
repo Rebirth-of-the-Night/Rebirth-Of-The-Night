@@ -46,3 +46,5 @@ mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_tile.gem_ore.malachite_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.malachite_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.malachite_ore:*>);
+
+furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>);

@@ -4,7 +4,6 @@ import mods.jei.JEI;
 
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late game crafting material. It can craft a Mattok, the best mining tool available! It is also needed for some late game contraptions.");
 
-
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
@@ -35,3 +34,8 @@ mods.jei.JEI.removeAndHide(<betterwithmods:wool_helmet>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_pants>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:45>); # diamond ingot
+
+
+recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*4,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
+
+mods.jei.JEI.removeAndHide(<betterwithmods:chicken_soup>);

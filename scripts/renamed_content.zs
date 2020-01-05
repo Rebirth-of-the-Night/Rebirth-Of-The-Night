@@ -8,3 +8,79 @@
 
 //malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
+
+
+
+#Rare
+<simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
+<simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
+<simpleores:adamantium_shovel>.displayName = "§2Viridium Shovel";
+<simpleores:adamantium_hoe>.displayName = "§2Viridium Hoe";
+<simpleores:adamantium_axe>.displayName = "§2Viridium Axe";
+<simpleores:adamantium_chestplate>.displayName = "§2Viridium Chestplate";
+<simpleores:adamantium_leggings>.displayName = "§2Viridium Leggings";
+<simpleores:adamantium_helmet>.displayName = "§2Viridium Helmet";
+<simpleores:adamantium_boots>.displayName = "§2Viridium Boots";
+<simpleores:adamantium_ingot>.displayName = "§2Viridium Ingot";
+<simpleores:adamantium_block>.displayName = "§2Block of Viridium";
+
+<iceandfire:myrmex_desert_sword_venom>.displayName = "§2Desert Myrmex Stinger Sword";
+<iceandfire:myrmex_jungle_sword_venom>.displayName = "§2Jungle Myrmex Stinger Sword";
+
+#Epic
+<simpleores:mythril_bow>.displayName = "§5Mythril Bow";
+<simpleores:mythril_sword>.displayName = "§5Mythril Sword";
+<simpleores:mythril_pickaxe>.displayName = "§5Mythril Pickaxe";
+<simpleores:mythril_shovel>.displayName = "§5Mythril Shovel";
+<simpleores:mythril_axe>.displayName = "§5Mythril Axe";
+<simpleores:mythril_hoe>.displayName = "§5Mythril Hoe";
+<simpleores:mythril_chestplate>.displayName = "§5Mythril Chestplate";
+<simpleores:mythril_leggings>.displayName = "§5Mythril Leggings";
+<simpleores:mythril_helmet>.displayName = "§5Mythril Helmet";
+<simpleores:mythril_boots>.displayName = "§5Mythril Boots";
+<simpleores:mythril_ingot>.displayName = "§5Mythril Ingot";
+<simpleores:mythril_block>.displayName = "§5Block of Mythril";
+
+<iceandfire:dragonbone_sword>.displayName = "§5Dragon Bone Sword";
+<mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
+
+
+#Legendary
+<simpleores:onyx_bow>.displayName = "§6Onyx Bow";
+<simpleores:onyx_sword>.displayName = "§6Onyx Sword";
+<simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";
+<simpleores:onyx_shovel>.displayName = "§6Onyx Shovel";
+<simpleores:onyx_hoe>.displayName = "§6Onyx Hoe";
+<simpleores:onyx_axe>.displayName = "§6Onyx Axe";
+<simpleores:onyx_chestplate>.displayName = "§6Onyx Chestplate";
+<simpleores:onyx_leggings>.displayName = "§6Onyx Leggings";
+<simpleores:onyx_helmet>.displayName = "§6Onyx Helmet";
+<simpleores:onyx_boots>.displayName = "§6Onyx Boots";
+<simpleores:onyx_gem>.displayName = "§6Onyx";
+<simpleores:onyx_block>.displayName = "§6Block of Onyx";
+
+<aether_legacy:notch_hammer>.displayName = "§6Hammer of Miku";
+<endreborn:ender_sword>.displayName = "§6End-Mage Barclay's Sword";
+
+<iceandfire:dragonsteel_ice_sword>.displayName = "§6Ice Dragonsteel Sword";
+<iceandfire:dragonsteel_ice_pickaxe>.displayName = "§6Ice Dragonsteel Pickaxe";
+<iceandfire:dragonsteel_ice_axe>.displayName = "§6Ice Dragonsteel Axe";
+<iceandfire:dragonsteel_ice_shovel>.displayName = "§6Ice Dragonsteel Shovel";
+<iceandfire:dragonsteel_ice_hoe>.displayName = "§6Ice Dragonsteel Hoe";
+<iceandfire:dragonsteel_fire_sword>.displayName = "§6Fire Dragonsteel Sword";
+<iceandfire:dragonsteel_fire_pickaxe>.displayName = "§6Fire Dragonsteel Pickaxe";
+<iceandfire:dragonsteel_fire_axe>.displayName = "§6Fire Dragonsteel Axe";
+<iceandfire:dragonsteel_fire_shovel>.displayName = "§6Fire Dragonsteel Shovel";
+<iceandfire:dragonsteel_fire_hoe>.displayName = "§6Fire Dragonsteel Hoe";
+<iceandfire:dragonsteel_fire_chestplate>.displayName = "§6Fire Dragonsteel Chestplate";
+<iceandfire:dragonsteel_fire_helmet>.displayName = "§6Fire Dragonsteel Helmet";
+<iceandfire:dragonsteel_fire_leggings>.displayName = "§6Fire Dragonsteel Leggings";
+<iceandfire:dragonsteel_fire_boots>.displayName = "§6Fire Dragonsteel Boots";
+<iceandfire:dragonsteel_ice_chestplate>.displayName = "§6Ice Dragonsteel Chestplate";
+<iceandfire:dragonsteel_ice_helmet>.displayName = "§6Ice Dragonsteel Helmet";
+<iceandfire:dragonsteel_ice_leggings>.displayName = "§6Ice Dragonsteel Leggings";
+<iceandfire:dragonsteel_ice_boots>.displayName = "§6Ice Dragonsteel Boots";
+
+<iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragon Bone Sword";
+<iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragon Bone Sword";
+<iceandfire:hippogryph_sword>.displayName = "§6Hippogryph Talon Sword";

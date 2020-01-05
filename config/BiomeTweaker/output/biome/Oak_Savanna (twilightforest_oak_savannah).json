@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "TWILIGHT",
-    "SPARSE"
+    "SPARSE",
+    "TWILIGHT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,0 +1,6 @@
+
+{
+  "Name": "Dummy",
+  "Registry ID": "testdummy:dummy",
+  "Class": "boni.dummy.EntityDummy"
+}

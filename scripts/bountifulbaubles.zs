@@ -8,23 +8,6 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");
 mods.jei.JEI.removeAndHide(<bountifulbaubles:flare_red>);
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
 
-mods.jei.JEI.removeAndHide(<bountifulbaubles:ringiron>);
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringiron");
-
-
-// Fly Wheel Ring
-recipes.remove(<bountifulbaubles:ringflywheel>);
-var iron = <minecraft:iron_ingot>;
-var copper = <simpleores:copper_ingot>;
-var ironring = <aether_legacy:iron_ring>;
-
-recipes.addShaped("Fly Wheel Ring", <bountifulbaubles:ringflywheel>,[
-	[iron, copper, iron],
-    [copper, ironring, copper],
-    [iron, copper, iron]
-]);
-
-
 // Potions
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <simpleores:mythril_ingot>, <bountifulbaubles:potionrecall>);

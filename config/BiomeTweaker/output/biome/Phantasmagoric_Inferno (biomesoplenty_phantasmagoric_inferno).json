@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "NETHER",
-    "WASTELAND",
-    "MAGICAL",
+    "HOT",
     "SPOOKY",
     "DRY",
-    "HOT"
+    "NETHER",
+    "MAGICAL",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -78,6 +78,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityWraith",
+      "Weight": 60,
+      "Min Group Count": 4,
+      "Max Group Count": 6
     },
     {
       "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",

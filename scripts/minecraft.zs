@@ -42,3 +42,6 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chainlink, null, chainlink],
     [chainlink, null, chainlink]
 ]);
+
+mods.jei.JEI.removeAndHide(<betternether:stalagnate_bowl_wart>);
+mods.jei.JEI.removeAndHide(<minecraft:beetroot_soup>);

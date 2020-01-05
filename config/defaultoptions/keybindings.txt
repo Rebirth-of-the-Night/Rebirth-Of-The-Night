@@ -21,7 +21,7 @@ key_key.spectatorOutlines:0:NONE
 key_key.swapHands:33:NONE
 key_key.saveToolbarActivator:0:NONE
 key_key.loadToolbarActivator:0:NONE
-key_key.advancements:0:NONE
+key_key.advancements:38:NONE
 key_key.hotbar.1:2:NONE
 key_key.hotbar.2:3:NONE
 key_key.hotbar.3:4:NONE
@@ -67,11 +67,9 @@ key_key.davincis.brake:0:NONE
 key_key.davincis.align:0:NONE
 key_key.davincis.decompile:0:NONE
 key_key.davincis.shipinv:37:NONE
-key_MoCreatures Dive:0:NONE
-key_MoCreatures GUI:0:NONE
 key_Toggle Magnetism Suppressor:0:NONE
 key_neat.keybind.toggle:0:NONE
-key_Difficulty Meter - Show:40:NONE
+key_Difficulty Meter - Show:0:NONE
 key_Difficulty Meter - Show Always:0:NONE
 key_key.dismount:42:NONE
 key_dsurround.cfg.keybind.AnimaniaBadges:0:NONE
@@ -80,15 +78,15 @@ key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0:NONE
 key_key.jei.toggleEditMode:0:NONE
-key_key.jei.showRecipe:50:NONE
-key_key.jei.showUses:49:NONE
+key_key.jei.showRecipe:19:NONE
+key_key.jei.showUses:22:NONE
 key_key.jei.recipeBack:14:NONE
 key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:0:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
 key_key.astikorcarts.desc:19:NONE
-key_key.betterHud.open:22:NONE
+key_key.betterHud.open:0:NONE
 key_key.carry.desc:42:NONE
 key_Options Gui:0:NONE
 key_key.dungeontactics.rocketjump.desc:57:NONE
@@ -100,8 +98,8 @@ key_key.dungeontactics.trinket4.desc:75:NONE
 key_waila.keybind.wailaconfig:82:NONE
 key_waila.keybind.wailadisplay:0:NONE
 key_waila.keybind.liquid:0:NONE
-key_waila.keybind.recipe:50:NONE
-key_waila.keybind.usage:49:NONE
+key_waila.keybind.recipe:19:NONE
+key_waila.keybind.usage:22:NONE
 key_key.dragon_fireAttack:35:NONE
 key_key.dragon_strike:34:NONE
 key_key.dragon_down:45:NONE
@@ -110,5 +108,3 @@ key_key.quit:1:NONE
 key_key.hideHUD:59:NONE
 key_key.debugScreen:61:NONE
 key_key.narrator:0:NONE
-key_keys.travellersBackpack.inventory:48:NONE
-key_keys.travellersBackpack.toggle_tank:0:NONE

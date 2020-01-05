@@ -816,6 +816,8 @@ quark:block.tiny_potato.shia_labeouf
 betteranimalsplus:crabrave
 bettercombatmod:player.swordslash
 bettercombatmod:player.criticalstrike
+doggytalents:whistle_short
+doggytalents:whistle_long
 fairylights:cord.stretch
 fairylights:cord.connect
 fairylights:cord.disconnect

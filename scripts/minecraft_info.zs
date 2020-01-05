@@ -8,3 +8,5 @@ mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining qual
 mods.jei.JEI.addDescription([<minecraft:torch>],["Much more handy and practical than a fire starter"]);
 # Dirt
 mods.jei.JEI.addDescription([<minecraft:dirt>],["Everything has an origin"]);
+
+mods.jei.JEI.addDescription([<minecraft:endstone>],["Some have seen this paradimensional stone floating around in the Overworld.]);
