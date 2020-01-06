@@ -25,7 +25,6 @@ mods.jei.JEI.removeAndHide(<harvestcraft:candledeco15>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
 
 
-recipes.addShaped();
 recipes.addShaped("water well", <harvestcraft:well>,[
 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
     [<ore:stone>, <quark:rope>, <ore:stone>],
