@@ -13,6 +13,6 @@ recipes.addShaped("Tin bridge armrest", <mcwbridges:iron_armrest>*6,[
 	[<ore:ingotTin>],
   [<ore:ingotTin>]
 ]);
-recipes.addShaped("Tin bridge armrest", <mcwbridges:iron_platform>*2,[
+recipes.addShaped("Tin bridge platform", <mcwbridges:iron_platform>*2,[
 	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
 ]);

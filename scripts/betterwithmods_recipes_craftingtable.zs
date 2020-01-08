@@ -16,7 +16,7 @@ recipes.addShaped("Latch", latch,
   [null,rstone,null]]);
   
   //Dynamite
-recipes.removeshapeless(<betterwithmods:dynamite>);
+recipes.removeShapeless(<betterwithmods:dynamite>);
 
 recipes.addShapeless("betterwithmods dynamite", <betterwithmods:dynamite>, 
 [<ore:paper>, <ore:paper>, <ore:paper>, 
