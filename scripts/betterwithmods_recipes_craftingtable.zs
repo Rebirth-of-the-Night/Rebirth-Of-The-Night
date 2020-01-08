@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-//Values
+//Redstone Latch
 recipes.remove(<betterwithmods:material:34>);
 
 val latch = <betterwithmods:material:34>;
@@ -14,3 +14,10 @@ recipes.addShaped("Latch", latch,
  [[null,gnugg,null],
   [gnugg,copper,gnugg],
   [null,rstone,null]]);
+  
+  //Dynamite
+recipes.removeShapeless(<betterwithmods:dynamite>);
+
+recipes.addShapeless("betterwithmods dynamite", <betterwithmods:dynamite>, 
+[<ore:paper>, <ore:paper>, <ore:paper>, 
+<betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);

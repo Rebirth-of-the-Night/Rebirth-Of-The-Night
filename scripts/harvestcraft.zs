@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 
 mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<minecraft:bread>);
+recipes.remove(<harvestcraft:well>);
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
 
@@ -23,3 +24,9 @@ mods.jei.JEI.removeAndHide(<harvestcraft:candledeco14>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco15>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
 
+
+recipes.addShaped("water well", <harvestcraft:well>,[
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<ore:stone>, <quark:rope>, <ore:stone>],
+    [<ore:stone>, <minecraft:bucket>, <ore:stone>]
+]);

@@ -20,6 +20,7 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_wood>);
 //mods.jei.JEI.removeAndHide(<spartanweaponry:mace_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_wood>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:dynamite>);
 
 
 
