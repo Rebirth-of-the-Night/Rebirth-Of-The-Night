@@ -6,7 +6,6 @@ import mods.jei.JEI;
 recipes.remove(<mcwbridges:iron_rod>);
 recipes.remove(<mcwbridges:iron_armrest>);
 recipes.remove(<mcwbridges:iron_platform>);
-recipes.remove(<mcwbridges:most1>);
 
 //Added material recipes
 recipes.addShaped("Tin bridge armrest", <mcwbridges:iron_armrest>*6,[
