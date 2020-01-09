@@ -9,6 +9,8 @@
 //malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
 
+<biomesoplenty:biome_essence>.displayName = "Light Essence";
+<biomesoplenty:biome_block>.displayName = "Light Essence Ore";
 
 
 #Rare
@@ -27,6 +29,9 @@
 <iceandfire:myrmex_desert_sword_venom>.displayName = "§2Desert Myrmex Stinger Sword";
 <iceandfire:myrmex_jungle_sword_venom>.displayName = "§2Jungle Myrmex Stinger Sword";
 
+<msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
+<msmlegacy:draconic_blade>.displayName = "§2Draconic Sword";
+
 #Epic
 <simpleores:mythril_bow>.displayName = "§5Mythril Bow";
 <simpleores:mythril_sword>.displayName = "§5Mythril Sword";
@@ -43,6 +48,8 @@
 
 <iceandfire:dragonbone_sword>.displayName = "§5Dragon Bone Sword";
 <mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
+
+
 
 
 #Legendary
@@ -84,3 +91,16 @@
 <iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragon Bone Sword";
 <iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragon Bone Sword";
 <iceandfire:hippogryph_sword>.displayName = "§6Hippogryph Talon Sword";
+<msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
+
+
+# Godly
+<msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
+<msmlegacy:dawn_star>.displayName = "§cDark's Edge";
+<msmlegacy:glacial_blade>.displayName = "§cDragon's Bane";
+<msmlegacy:crystaline_blade>.displayName = "§cLight's Edge";
+
+<msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
+
+
+<msmlegacy:relic_aqueous>.displayName = "§4Red Hot Chili Pepper Sword";

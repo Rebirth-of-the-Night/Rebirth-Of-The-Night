@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
     "PLAINS",
-    "LUSH",
+    "FOREST",
     "SPARSE",
+    "WET",
     "COLD",
-    "FOREST"
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -388,8 +388,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "BOREAL": 7,
-    "COOL_TEMPERATE": 3
+    "COOL_TEMPERATE": 3,
+    "BOREAL": 7
   },
   "BOP Climate Weights": {
     "BOREAL": [

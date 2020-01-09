@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
-    "WATER",
-    "FOREST"
+    "FOREST",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

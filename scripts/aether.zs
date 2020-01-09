@@ -47,3 +47,4 @@ mods.ltt.LootTable.removeGlobalItem("aether_legacy:valkyrie_cape");
 
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:iron_bubble");
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
