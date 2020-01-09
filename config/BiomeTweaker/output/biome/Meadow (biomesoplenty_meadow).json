@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "COLD",
-    "PLAINS",
-    "LUSH",
+    "SPARSE",
+    "FOREST",
     "WET",
-    "SPARSE"
+    "PLAINS",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -260,6 +260,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "svenhjol.charm.world.entity.EntitySpectre",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    },
+    {
       "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",
       "Weight": 1,
       "Min Group Count": 1,
@@ -382,8 +388,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 3,
-    "BOREAL": 7
+    "BOREAL": 7,
+    "COOL_TEMPERATE": 3
   },
   "BOP Climate Weights": {
     "BOREAL": [

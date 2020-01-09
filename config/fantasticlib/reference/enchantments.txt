@@ -85,3 +85,10 @@ spartanweaponry:throwing_damage
 spartanweaponry:throwing_fire
 spartanweaponry:throwing_luck
 spartanshields:ssenchspikes
+charm:curse_break
+charm:rusting_curse
+charm:clumsiness_curse
+charm:haunting_curse
+charm:harming_curse
+charm:magnetic
+charm:salvage

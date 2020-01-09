@@ -21,10 +21,10 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "COLD",
-    "WASTELAND",
-    "DEAD",
+    "SPARSE",
     "SNOWY",
-    "SPARSE"
+    "DEAD",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -99,6 +99,12 @@
       "Weight": 5,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "svenhjol.charm.world.entity.EntitySpectre",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 8
     },
     {
       "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",

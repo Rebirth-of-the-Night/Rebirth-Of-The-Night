@@ -1,0 +1,6 @@
+
+{
+  "Name": "charm:spectre",
+  "Registry ID": "charm:spectre",
+  "Class": "svenhjol.charm.world.entity.EntitySpectre"
+}

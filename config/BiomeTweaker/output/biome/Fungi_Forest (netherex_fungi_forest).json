@@ -21,12 +21,12 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "COLD",
-    "PLAINS",
-    "SAVANNA",
-    "NETHER",
     "DRY",
+    "SAVANNA",
+    "COLD",
+    "NETHER",
     "WET",
+    "PLAINS",
     "MUSHROOM"
   ],
   "BiomeManager Entries": {},

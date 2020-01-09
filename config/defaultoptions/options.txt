@@ -22,7 +22,7 @@ lang:en_us
 chatVisibility:0
 chatColors:true
 chatLinks:true
-chatLinksPrompt:true
+chatLinksPrompt:false
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false

@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "COLD",
     "DENSE",
     "SWAMP",
+    "FOREST",
     "DEAD",
     "WET"
   ],
@@ -366,6 +366,12 @@
       "Weight": 25,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "svenhjol.charm.world.entity.EntitySpectre",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 8
     },
     {
       "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",

@@ -86,7 +86,7 @@
         },
         "wiki":
         {
-            "text" : "Wiki",
+            "text" : "Read The Wiki",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
@@ -101,6 +101,25 @@
             {
                 "type" : "openLink",
                 "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Rebirth_of_the_Night_Mod_Pack_Wiki"
+            }
+        },
+        "tips":
+        {
+            "text" : "View All Tips",
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
+            "texture" : "rotn:textures/btn.png",
+            "posX" : -100,
+            "posY" : 60,
+            "width" : 100,
+            "height" : 20,
+            "imageWidth" : 100,
+            "imageHeight" : 50,
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Tips"
             }
         },
 
@@ -224,7 +243,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.72",
+            "text": "Version 2.73",
             "posX": 2,
             "posY": -10,
             "color": 450,

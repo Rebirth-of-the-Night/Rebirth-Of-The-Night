@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "HILLS",
-    "RARE",
     "JUNGLE",
-    "SPARSE"
+    "HILLS",
+    "SPARSE",
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -377,6 +377,12 @@
       "Weight": 100,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "svenhjol.charm.world.entity.EntitySpectre",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 8
     },
     {
       "Entity Class": "com.corosus.zombie_players.entity.EntityZombiePlayer",
