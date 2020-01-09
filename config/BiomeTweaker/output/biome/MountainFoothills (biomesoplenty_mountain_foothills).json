@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "HILLS",
-    "MOUNTAIN",
     "SPARSE",
+    "MOUNTAIN",
+    "HILLS",
     "FOREST"
   ],
   "BiomeManager Entries": {},
