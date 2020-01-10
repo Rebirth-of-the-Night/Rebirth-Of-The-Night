@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "TWILIGHT",
-    "MUSHROOM",
-    "FOREST"
+    "FOREST",
+    "MUSHROOM"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

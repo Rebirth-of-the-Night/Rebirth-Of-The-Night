@@ -394,5 +394,118 @@
     "material": {
         "ore_dict": "ingotSilver"
     }
+  },
+  {
+    "tool": {
+        "item": "msmlegacy:relic_aqueous"
+    },
+    "material": {
+        "item": "harvestcraft:chilipepperitem"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "msmlegacy:dawn_star"
+    },
+    "material": {
+        "item": "quark:biotite"
+    }
+  },
+  {
+    "tool": {
+        "item": "msmlegacy:glacial_blade"
+    },
+    "material": {
+        "item": "iceandfire:dragonsteel_fire_ingot"
+    }
+  },
+  {
+    "tool": {
+        "item": "msmlegacy:glacial_blade"
+    },
+    "material": {
+        "item": "iceandfire:dragonsteel_ice_ingot"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "msmlegacy:aethers_guard"
+    },
+    "material": {
+        "item": "aether_legacy:zanite_gemstone"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "msmlegacy:crystaline_blade"
+    },
+    "material": {
+        "item": "biomesoplenty:biome_essence"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "msmlegacy:eye_end_blade"
+    },
+    "material": {
+        "item": "endreborn:item_ingot_endorium"
+    }
+  },
+  {
+    "tool": {
+        "item": "msmlegacy:eye_end_blade"
+    },
+    "material": {
+        "item": "aether_legacy:zanite_gemstone"
+    }
+  },
+  {
+    "tool": {
+        "item": "msmlegacy:eye_end_blade"
+    },
+    "material": {
+        "item": "netherex:rime_crystal"
+    }
+  },
+  {
+    "tool": {
+        "item": "msmlegacy:eye_end_blade"
+    },
+    "material": {
+        "item": "minecraft:glass"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "msmlegacy:draconic_blade"
+    },
+    "material": {
+        "item": "minecraft:diamond"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "msmlegacy:gladiolus"
+    },
+    "material": {
+        "item": "minecraft:red_flower",
+        "meta": 1
+    }
+  },
+
+  {
+    "tool": {
+        "item": "msmlegacy:vampiric_blade"
+    },
+    "material": {
+        "item": "dungeontactics:silver_ingot"
+    }
   }
 ]

@@ -1,1 +1,1 @@
-reforging materials.json: Unknown item endreborn:endersword
+reforging materials.json: Expected item to be a string, was an array (["ic...t"])

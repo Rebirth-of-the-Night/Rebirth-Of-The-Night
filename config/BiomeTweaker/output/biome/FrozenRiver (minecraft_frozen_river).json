@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "RIVER",
-    "SNOWY",
     "WATER",
+    "SNOWY",
     "COLD"
   ],
   "BiomeManager Entries": {},
