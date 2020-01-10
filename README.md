@@ -8,3 +8,4 @@ A modpack aimed to bring the survival back in Minecraft and improve many other a
 ·[Curse page of the modpack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) 
 ·[Fandom Wiki for RotN](https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Rebirth_of_the_Night_Mod_Pack_Wiki) 
 ·[Discord for Rotn](https://discord.gg/VDvJdjR)
+
