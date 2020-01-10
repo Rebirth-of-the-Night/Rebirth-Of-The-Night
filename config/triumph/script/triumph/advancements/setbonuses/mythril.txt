@@ -24,4 +24,3 @@ criteria.addItem("spartanshields:shield_basic_lead")
 setPos(-72,11)
 
 alwaysVisible()
-setFrameType("CHALLENGE")

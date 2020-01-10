@@ -1,6 +1,6 @@
 setIcon("spartanshields:shield_basic_diamond")
 setTitle("Death Is Not An Option")
-setDescription("Obtain all of the most powerful armor in the game.")
+setDescription("Obtain all pieces of the set.")
 
 addParent("triumph:advancements/setbonuses/takingaim")
 
@@ -21,5 +21,4 @@ criteria.addItem("spartanshields:shield_basic_diamond")
 
 
 alwaysVisible()
-setFrameType("CHALLENGE")
 setPos(-72,-89)

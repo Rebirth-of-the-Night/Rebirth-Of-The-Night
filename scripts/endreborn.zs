@@ -76,3 +76,39 @@ mods.jei.JEI.removeAndHide(<endreborn:tool_sword_wolframium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_wolframium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_axe_wolframium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_wolframium>);
+mods.jei.JEI.removeAndHide(<endreborn:block_wolframium>);
+mods.jei.JEI.removeAndHide(<endreborn:block_wolframium_ore>);
+
+
+var crystal = <endreborn:item_lormyte_crystal>;
+var obsidianshard = <endreborn:item_shard_obsidian>;
+
+recipes.addShaped("End Shards", <endreborn:item_end_shard>,[
+	[obsidianshard, obsidianshard, obsidianshard],
+    [crystal, endorium, crystal],
+    [crystal, crystal, crystal]
+]);
+
+var smoothendstone = <endreborn:block_end_stone_smooth>;
+
+recipes.addShaped("Being Of Entropy", <endreborn:death_essence>,[
+	[smoothendstone, smoothendstone, smoothendstone],
+    [smoothendstone, <endreborn:item_end_rune>, smoothendstone],
+    [smoothendstone, smoothendstone, smoothendstone]
+]);
+
+recipes.remove(<endreborn:item_end_rune>);
+recipes.addShaped("End Rune", <endreborn:item_end_rune>,[
+	[<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>],
+    [<endreborn:item_end_shard>, <endreborn:item_advanced_ender_pearl>, <endreborn:item_end_shard>],
+    [<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>]
+]);
+
+
+recipes.addShaped("String of Life", <endreborn:item_ender_string>,[
+	[<endreborn:item_raw_endorium>, <endreborn:item_world_mirror>, <endreborn:item_raw_endorium>],
+    [<endreborn:item_angel_feather>, <minecraft:string>, <endreborn:item_angel_feather>],
+    [<endreborn:item_lormyte_crystal>, <endreborn:item_lormyte_crystal>, <endreborn:item_lormyte_crystal>]
+]);
+
+

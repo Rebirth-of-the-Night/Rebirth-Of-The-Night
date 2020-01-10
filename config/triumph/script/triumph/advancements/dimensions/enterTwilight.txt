@@ -1,5 +1,5 @@
 setIcon(<twilightforest:miniature_structure>)
-setTitle("A Waning Realm")
+setTitle("The True Final Frontier")
 setDescription("Enter The Twilight Forest.")
 
 addParent("triumph:advancements/dimensions/enterEnd")

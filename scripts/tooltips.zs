@@ -37,5 +37,3 @@
 <msmlegacy:crystaline_blade>.addTooltip("There will be light.");
 <msmlegacy:dawn_star>.addTooltip("Darkness consumes the unworthy.");
 <msmlegacy:glacial_blade>.addTooltip("The power of an entire species in one sword.");
-
-<msmlegacy:relic_aqueous>.addTooltip("Take it on the other side.");

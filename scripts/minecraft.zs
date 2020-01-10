@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
 furnace.remove(<minecraft:coal:1>);
-mods.jei.JEI.removeAndHide(<minecraft:mushroom_stew>);
+
 
 
 recipes.removeByRecipeName("aether_legacy:saddle");
@@ -45,3 +45,7 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
 
 mods.jei.JEI.removeAndHide(<betternether:stalagnate_bowl_wart>);
 mods.jei.JEI.removeAndHide(<minecraft:beetroot_soup>);
+mods.jei.JEI.removeAndHide(<minecraft:mushroom_stew>);
+
+
+mods.jei.JEI.removeAndHide(<minecraft:shield>);

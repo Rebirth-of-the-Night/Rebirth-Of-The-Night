@@ -12,5 +12,4 @@ criteria.addItem("simpleores:onyx_bow")
 
 
 alwaysVisible()
-setFrameType("CHALLENGE")
 setPos(-72,93)

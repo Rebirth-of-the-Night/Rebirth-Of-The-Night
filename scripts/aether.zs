@@ -5,6 +5,7 @@ mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_helmet>);
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_boots>);
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_leggings>);
 
+mods.jei.JEI.removeAndHide(<aether_legacy:repulsion_shield>);
 mods.jei.JEI.removeAndHide(<aether_legacy:iron_ring>);
 mods.jei.JEI.removeAndHide(<aether_legacy:golden_ring>);
 mods.jei.JEI.removeAndHide(<aether_legacy:zanite_ring>);

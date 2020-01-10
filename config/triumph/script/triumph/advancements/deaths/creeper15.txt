@@ -1,0 +1,12 @@
+setIcon(<minecraft:skull, meta:4>)
+setTitle("Cause Baby Tonight")
+setDescription("Die by a Creeper 120 times.")
+
+addParent("triumph:advancements/deaths/creeper14")
+
+
+criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("creeper","specialmobs:jumpingcreeper","specialmobs:darkcreeper","specialmobs:minicreeper","specialmobs:lightningcreeper","primitivemobs:rocket_creeper","netherex:spore_creeper","specialmobs:firecreeper","specialmobs:doomcreeper","specialmobs:endercreeper","specialmobs:splittingcreeper","specialmobs:deathcreeper")
+criteria.setCount(120)
+setPos(380,9)
+setHidden(true)

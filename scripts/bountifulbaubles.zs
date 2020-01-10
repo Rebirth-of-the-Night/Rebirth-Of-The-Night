@@ -61,3 +61,15 @@ recipes.addShaped("Magic Mirror", <bountifulbaubles:magicmirror>,[
     [glass, diamond, glass],
     [spectralsilt, biotite, spectralsilt]
 ]);
+
+
+
+recipes.remove(<bountifulbaubles:shieldcobalt>);
+
+var ironshield = <spartanshields:shield_basic_iron>;
+
+recipes.addShaped("Cobalt Shield", <bountifulbaubles:shieldcobalt>,[
+	[spectralsilt, spectralsilt, spectralsilt],
+    [spectralsilt, ironshield, spectralsilt],
+    [spectralsilt, spectralsilt, spectralsilt]
+]);

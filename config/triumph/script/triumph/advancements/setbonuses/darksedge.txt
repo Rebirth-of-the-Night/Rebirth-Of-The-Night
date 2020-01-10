@@ -1,0 +1,13 @@
+setIcon("msmlegacy:dawn_star")
+setTitle("Darkness Consumes All")
+setDescription("Craft a Dark's Edge")
+
+addParent("triumph:advancements/setbonuses/mythril")
+addParent("triumph:advancements/setbonuses/ahellofaduo")
+
+criteria = addCriteria("Dark's Edge", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:dawn_star")
+
+alwaysVisible()
+setFrameType("CHALLENGE")
+setPos(-29,73)

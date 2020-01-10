@@ -43,7 +43,7 @@ var aethers_guard = <msmlegacy:aethers_guard>;
 var glass_sword = <twilightforest:glass_sword>;
 
 recipes.remove(<msmlegacy:eye_end_blade>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag({ench: [{lvl: 1 as short, id: 103 as short}, {lvl: 1 as short, id: 102 as short}, {lvl: 1 as short, id: 101 as short}, {lvl: 1 as short, id: 96 as short}]}), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag({ench: [{lvl: 1 as short, id: 97 as short}, {lvl: 1 as short, id: 89 as short}, {lvl: 1 as short, id: 95 as short}, {lvl: 1 as short, id: 96 as short}]}), 
 [
    [null, null, null, amedian_sword],
    [null, null, null, end_sword],
@@ -61,7 +61,7 @@ var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
 
 recipes.remove(<msmlegacy:dawn_star>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag({ench: [{lvl: 1 as short, id: 99 as short}, {lvl: 3 as short, id: 103 as short}]}), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag({ench: [{lvl: 1 as short, id: 98 as short}, {lvl: 3 as short, id: 97 as short}]}), 
 [
    [biotite, biotite, biotite, biotite],
    [biotite, onyx_sword, mythril_sword, biotite],
@@ -74,7 +74,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag({ench: [{lvl: 
 var lightessence = <biomesoplenty:biome_essence>;
 
 recipes.remove(<msmlegacy:crystaline_blade>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag({ench: [{lvl: 1 as short, id: 97 as short}, {lvl: 3 as short, id: 109 as short}]}), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag({ench: [{lvl: 1 as short, id: 82 as short}, {lvl: 3 as short, id: 81 as short}]}), 
 [
    [lightessence, lightessence, lightessence, lightessence],
    [lightessence, onyx_sword, mythril_sword, lightessence],
@@ -91,7 +91,7 @@ var dragonsteel_fire = <iceandfire:dragonsteel_fire_ingot>;
 var dragonsteel_ice = <iceandfire:dragonsteel_ice_ingot>;
 
 recipes.remove(<msmlegacy:glacial_blade>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:glacial_blade>.withTag({ench: [{lvl: 3 as short, id: 108 as short}, {lvl: 2 as short, id: 19 as short}, {lvl: 2 as short, id: 20 as short}, {lvl: 1 as short, id: 95 as short}]}), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:glacial_blade>.withTag({ench: [{lvl: 3 as short, id: 93 as short}, {lvl: 2 as short, id: 20 as short}, {lvl: 2 as short, id: 19 as short}, {lvl: 1 as short, id: 94 as short}]}), 
 [
    [dragonsteel_fire, dragonsteel_fire, dragonsteel_ice, dragonsteel_ice],
    [dragonsteel_fire, ice_dragonsteel_sword, dragonsteel_ice, dragonsteel_ice],

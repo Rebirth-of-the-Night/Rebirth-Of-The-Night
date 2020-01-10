@@ -2,12 +2,12 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
 //Set icon item
-setIcon(<simpleores:mythril_chestplate>)
+setIcon(<msmlegacy:dawn_star>)
 
 //Set title String
-setTitle("Set Bonuses")
+setTitle("Perfectly Ready")
 
-setDescription("Set Bonuses")
+setDescription("Perfectly Ready")
 
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.

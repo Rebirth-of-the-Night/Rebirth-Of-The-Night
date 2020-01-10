@@ -1,0 +1,12 @@
+setIcon(<minecraft:skull, meta:4>)
+setTitle("Side to Side, Side-Side to Side")
+setDescription("Die by a Creeper 20 times.")
+
+addParent("triumph:advancements/deaths/creeper4")
+
+
+criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("creeper","specialmobs:jumpingcreeper","specialmobs:darkcreeper","specialmobs:minicreeper","specialmobs:lightningcreeper","primitivemobs:rocket_creeper","netherex:spore_creeper","specialmobs:firecreeper","specialmobs:doomcreeper","specialmobs:endercreeper","specialmobs:splittingcreeper","specialmobs:deathcreeper")
+criteria.setCount(20)
+setPos(-20,9)
+setHidden(true)

@@ -5,9 +5,9 @@
 setIcon(<simpleores:onyx_gem>)
 
 //Set title String
-setTitle("Ores")
+setTitle("Journey of a Craftsperson")
 
-setDescription("Ores")
+setDescription("Journey of a Craftsperson")
 
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.

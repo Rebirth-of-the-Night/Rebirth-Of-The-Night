@@ -1,0 +1,13 @@
+setIcon(<minecraft:skull, meta:4>)
+setTitle("Creeper")
+setDescription("Die by a Creeper one time.")
+
+addParent("triumph:advancements/deaths/root")
+
+
+criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("creeper","specialmobs:jumpingcreeper","specialmobs:darkcreeper","specialmobs:minicreeper","specialmobs:lightningcreeper","primitivemobs:rocket_creeper","netherex:spore_creeper","specialmobs:firecreeper","specialmobs:doomcreeper","specialmobs:endercreeper","specialmobs:splittingcreeper","specialmobs:deathcreeper")
+
+setHidden(true)
+hideLines()
+setPos(-180,9)

@@ -1,0 +1,12 @@
+setIcon("iceandfire:dragonsteel_fire_sword")
+setTitle("Fire It Up")
+setDescription("Craft a Fire Dragonsteel Sword")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Fire Dragonsteel Sword", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_sword")
+
+alwaysVisible()
+hideLines()
+setPos(-72,176)

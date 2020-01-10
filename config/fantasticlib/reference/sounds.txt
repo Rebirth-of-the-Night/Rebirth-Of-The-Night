@@ -1228,6 +1228,8 @@ notenoughcats:mob.cat.beg
 notenoughcats:mob.cat.eat
 notenoughcats:mob.cat.ocelot.idle
 notenoughcats:mob.cat.ocelot.death
+patchouli:book_open
+patchouli:book_flip
 beneath:beneath.normal
 beneath:beneath.muffled
 beneath:beneath.drawnout

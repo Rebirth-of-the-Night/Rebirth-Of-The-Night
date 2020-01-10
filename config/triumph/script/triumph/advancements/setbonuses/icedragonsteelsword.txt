@@ -1,0 +1,12 @@
+setIcon("iceandfire:dragonsteel_ice_sword")
+setTitle("Icy Offense")
+setDescription("Craft a Ice Dragonsteel Sword")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Ice Dragonsteel Sword", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_ice_sword")
+
+alwaysVisible()
+hideLines()
+setPos(-72,203)

@@ -35,18 +35,18 @@ dim_ceiling = 255; !default height at which ceiling portals are generated
 PRE_INIT() {
 	!stacking dimensions on top of each other so they get connected via portals (order bottom to top):
 	!add("dimstack", [<dimId>...]#);
-	add("dimstack", [-1, 10, 0, 4]#); !nether, beneath, overworld, aether
-
+	add("dimstack", [10, 0]#); !overworld on top of beneath
+	
 	!dimension data for automatic transition layer generation:
 	!dim_transitions:<dimId> = [<botMaterial>, <botLayerSize>, <topMaterial>, <topLayerSize>];
-	!dim_transitions:0 = ["minecraft:stone", 4, "minecraft:air", 0]; !Overworld has stone at floor and air at ceiling
+	dim_transitions:0 = ["minecraft:stone", 4, "minecraft:air", 0]; !Overworld has stone at floor and air at ceiling
 	
 	!lower the portal ceiling height in the nether
 	!dim_ceiling:-1 = 127;
 	
 	!prevent bedrock from being generated in ...
 	rem_block_gen:0 = "minecraft:bedrock"; !the Overworld
-	rem_block_gen:-1 = "minecraft:bedrock"; !the Nether
+	!rem_block_gen:-1 = "minecraft:bedrock"; !the Nether
 	
 	!register a new noise field
 	!add("noiseField", <name>, <genIdx>, <horGrid>, <vertGrid>, <horScale>, <vertScale>);
