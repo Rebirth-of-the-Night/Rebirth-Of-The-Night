@@ -6,7 +6,8 @@ addParent("triumph:advancements/deaths/creeper8")
 
 
 criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
-criteria.setEntityType("creeper","specialmobs:jumpingcreeper","specialmobs:darkcreeper","specialmobs:minicreeper","specialmobs:lightningcreeper","primitivemobs:rocket_creeper","netherex:spore_creeper","specialmobs:firecreeper","specialmobs:doomcreeper","specialmobs:endercreeper","specialmobs:splittingcreeper","specialmobs:deathcreeper")
+criteria.setEntityType("creeper")
+
 criteria.setCount(60)
 setPos(140,9)
 setHidden(true)

@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "TWILIGHT",
-    "FOREST",
+    "DENSE",
     "SPOOKY",
-    "DENSE"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

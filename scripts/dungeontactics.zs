@@ -152,11 +152,11 @@ mods.jei.JEI.removeAndHide(<dungeontactics:steel_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_hammer>);
 
+recipes.removeByRecipeName("dungeontactics:misc/mithril_nugget");
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_block>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ore>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ingot>);
-mods.jei.JEI.removeAndHide(<dungeontactics:mithril_nugget>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_hoe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_axe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_pickaxe>);
@@ -366,4 +366,20 @@ recipes.addShapedMirrored("Iron Ring", <dungeontactics:iron_ring>,[
 	[null, null, null],
     [null, ironnugget, ironnugget],
     [null, ironnugget, ironnugget]
+]);
+
+
+var tiningot = <simpleores:tin_ingot>;
+var tinnugget = <dungeontactics:mithril_nugget>;
+
+recipes.addShapedMirrored("Tin Nugget", <dungeontactics:mithril_nugget>*9,[
+	[null, null, null],
+    [null, tiningot, null],
+    [null, null, null]
+]);
+
+recipes.addShapedMirrored("Tin Ingot", <simpleores:tin_ingot>,[
+	[tinnugget, tinnugget, tinnugget],
+    [tinnugget, tinnugget, tinnugget],
+    [tinnugget, tinnugget, tinnugget]
 ]);

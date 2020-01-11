@@ -28,12 +28,20 @@
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
 
-#Misc.
-<wards:enchanted_paper>.addTooltip("Used to power Wards");
-<aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
 
 # Weapons
 <msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
 <msmlegacy:crystaline_blade>.addTooltip("There will be light.");
 <msmlegacy:dawn_star>.addTooltip("Darkness consumes the unworthy.");
 <msmlegacy:glacial_blade>.addTooltip("The power of an entire species in one sword.");
+
+
+
+
+#Misc.
+<wards:enchanted_paper>.addTooltip("Used to power Wards");
+<aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
+
+<minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
+<eplus:advanced_table>.addTooltip("Requires placing an Enchantment Table Upgrade on a regular Enchantment Table.");
+<eplus:table_upgrade>.addTooltip("Shift + right click on an Enchantment Table to upgrade.");

@@ -1,16 +1,35 @@
-//better with mods
+// Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 
-//vanilla
+// DT
+<dungeontactics:mithril_nugget>.displayName = "Tin Nugget";
+
+// Rustic
+<rustic:iron_lantern>.displayName = "Tin Lantern";
+
+// Vanilla
 <minecraft:anvil>.displayName = "Iron Anvil";
 <minecraft:anvil:1>.displayName = "Damaged Iron Anvil";
 <minecraft:anvil:2>.displayName = "Crumbling Iron Anvil";
 
-//malisis doors
+// Malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
 
+// Macaws Bridges
+<mcwbridges:iron_armrest>.displayName = "Tin Armrest";
+<mcwbridges:iron_rod>.displayName = "Tin Rod";
+<mcwbridges:iron_platform>.displayName = "Tin Platform";
+<mcwbridges:most1>.displayName = "Tin Bridge Middle";
+<mcwbridges:most2>.displayName = "Tin Bridge End";
+
+
+// BOP
 <biomesoplenty:biome_essence>.displayName = "Light Essence";
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
+
+// EPlus
+<eplus:table_upgrade>.displayName = "Enchantment Table Upgrade";
+<eplus:advanced_table>.displayName = "§6True Enchantment Table";
 
 
 #Rare

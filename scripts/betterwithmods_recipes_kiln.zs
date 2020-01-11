@@ -9,7 +9,7 @@ mods.betterwithmods.Kiln.add(
 	<minecraft:stick>
 	]
 );
-//Fence Destroyer
+
 mods.betterwithmods.Kiln.add(
 	<minecraft:sandstone:*>,
 	[

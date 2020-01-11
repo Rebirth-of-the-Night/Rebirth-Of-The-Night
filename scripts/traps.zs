@@ -9,9 +9,26 @@ mods.jei.JEI.removeAndHide(<minetraps:fall_trap>);
 
 recipes.remove(<minetraps:nails>);
 
+var tinnugget = <dungeontactics:mithril_nugget>;
 
 recipes.addShaped("Nails", <minetraps:nails>,[
   [null, null, null],
-    [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
-    [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]
+    [tinnugget, tinnugget, tinnugget],
+    [tinnugget, tinnugget, tinnugget]
+]);
+
+var silvernugget = <dungeontactics:silver_nugget>;
+
+recipes.addShaped("Nails 2", <minetraps:nails>,[
+  [null, null, null],
+    [silvernugget, silvernugget, silvernugget],
+    [silvernugget, silvernugget, silvernugget]
+]);
+
+var ironnugget = <minecraft:iron_nugget>;
+
+recipes.addShaped("Nails 3", <minetraps:nails>,[
+  [null, null, null],
+    [ironnugget, ironnugget, ironnugget],
+    [ironnugget, ironnugget, ironnugget]
 ]);
