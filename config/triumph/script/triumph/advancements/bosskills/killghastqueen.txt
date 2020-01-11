@@ -1,6 +1,6 @@
 setIcon(<netherex:ghast_queen_tear>)
 setTitle("Queen of the Nether")
-setDescription("Slay The Ghast Queen and obtain it's tears.")
+setDescription("Slay The Ghast Queen that rarely shows up in Nether Cities.")
 
 addParent("triumph:advancements/bosskills/killenddragon")
 addParent("triumph:advancements/bosskills/killwither")

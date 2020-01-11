@@ -383,3 +383,25 @@ recipes.addShapedMirrored("Tin Ingot", <simpleores:tin_ingot>,[
     [tinnugget, tinnugget, tinnugget],
     [tinnugget, tinnugget, tinnugget]
 ]);
+
+
+recipes.remove(<dungeontactics:tunnelling_device>);
+recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
+	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],
+    [<dungeontactics:steel_ingot>, <betterwithmods:material:17>, <betterwithmods:material:31>],
+    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
+]);
+
+recipes.remove(<dungeontactics:piston_glove>);
+recipes.addShaped("Portable Piston Device", <dungeontactics:piston_glove>,[
+	[null, <dungeontactics:steel_ingot>, null],
+    [<dungeontactics:steel_ingot>, <minecraft:piston>, <betterwithmods:material:31>],
+    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
+]);
+
+recipes.remove(<dungeontactics:piston_glove_sticky>);
+recipes.addShaped("Portable Piston Device (Sticky)", <dungeontactics:piston_glove_sticky>,[
+	[null, <dungeontactics:steel_ingot>, null],
+    [<dungeontactics:steel_ingot>, <minecraft:sticky_piston>, <betterwithmods:material:31>],
+    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
+]);

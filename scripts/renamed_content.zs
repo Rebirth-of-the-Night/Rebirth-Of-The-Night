@@ -86,7 +86,7 @@
 <simpleores:onyx_block>.displayName = "§6Block of Onyx";
 
 <aether_legacy:notch_hammer>.displayName = "§6Hammer of Miku";
-<endreborn:ender_sword>.displayName = "§6End-Mage Barclay's Sword";
+<endreborn:ender_sword>.displayName = "§6Void Ripper";
 
 <iceandfire:dragonsteel_ice_sword>.displayName = "§6Ice Dragonsteel Sword";
 <iceandfire:dragonsteel_ice_pickaxe>.displayName = "§6Ice Dragonsteel Pickaxe";
