@@ -43,9 +43,12 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chainlink, null, chainlink]
 ]);
 
-mods.jei.JEI.removeAndHide(<betternether:stalagnate_bowl_wart>);
-mods.jei.JEI.removeAndHide(<minecraft:beetroot_soup>);
-mods.jei.JEI.removeAndHide(<minecraft:mushroom_stew>);
-
-
 mods.jei.JEI.removeAndHide(<minecraft:shield>);
+
+var potions = <minecraft:potion>;
+var potions_splash = <minecraft:splash_potion>;
+var potions_lingering = <minecraft:lingering_potion>;
+
+potions.maxStackSize = 8;
+potions_splash.maxStackSize = 8;
+potions_lingering.maxStackSize = 8;

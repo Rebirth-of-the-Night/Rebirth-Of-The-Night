@@ -1,0 +1,11 @@
+setIcon(<minetraps:spikes_toxic>)
+setTitle("Toxic Spikes")
+setDescription("Toxins do not work against most monsters. Needs redstone power.")
+
+addParent("triumph:advancements/basedefense/spikes")
+
+criteria = addCriteria("Toxic Spikes", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:spikes_toxic>)
+
+alwaysVisible()
+setPos(-166,-33)

@@ -405,3 +405,11 @@ recipes.addShaped("Portable Piston Device (Sticky)", <dungeontactics:piston_glov
     [<dungeontactics:steel_ingot>, <minecraft:sticky_piston>, <betterwithmods:material:31>],
     [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
 ]);
+
+
+recipes.remove(<dungeontactics:powered_bars>);
+recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
+	[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+    [<minecraft:redstone>, <minetraps:barbed_wire_fence>, <minecraft:redstone>],
+    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
+]);

@@ -1,28 +1,28 @@
 
 #Boat tooltips
-<minecraft:boat>.addTooltip("Not as fast if not using a sail");
-<minecraft:spruce_boat>.addTooltip("Not as fast if not using a sail");
-<minecraft:birch_boat>.addTooltip("Not as fast if not using a sail");
-<minecraft:jungle_boat>.addTooltip("Not as fast if not using a sail");
-<minecraft:acacia_boat>.addTooltip("Not as fast if not using a sail");
-<minecraft:dark_oak_boat>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_sacred_oak>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_cherry>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_umbran>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_fir>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_ethereal>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_magic>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_mangrove>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_palm>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_redwood>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_willow>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_pine>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_hellbark>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_jacaranda>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_mahogany>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_ebony>.addTooltip("Not as fast if not using a sail");
-<biomesoplenty:boat_eucalyptus>.addTooltip("Not as fast if not using a sail");
-<netherex:obsidian_boat>.addTooltip("Not as fast if not using a sail");
+<minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");
+<minecraft:spruce_boat>.addTooltip("Place a banner on the boat to increase speed");
+<minecraft:birch_boat>.addTooltip("Place a banner on the boat to increase speed");
+<minecraft:jungle_boat>.addTooltip("Place a banner on the boat to increase speed");
+<minecraft:acacia_boat>.addTooltip("Place a banner on the boat to increase speed");
+<minecraft:dark_oak_boat>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_sacred_oak>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_cherry>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_umbran>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_fir>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_ethereal>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_magic>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_mangrove>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_palm>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_redwood>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_willow>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_pine>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_hellbark>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_jacaranda>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_mahogany>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_ebony>.addTooltip("Place a banner on the boat to increase speed");
+<biomesoplenty:boat_eucalyptus>.addTooltip("Place a banner on the boat to increase speed");
+<netherex:obsidian_boat>.addTooltip("Place a banner on the boat to increase speed");
 
 
 #Progression

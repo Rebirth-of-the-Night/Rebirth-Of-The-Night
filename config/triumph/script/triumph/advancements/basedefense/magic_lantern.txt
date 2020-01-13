@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:lantern_magic>)
+setTitle("Magic Lantern")
+setDescription("A very powerful lantern that mobs are afraid to go near, even if they have to.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Magic Lantern", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:lantern_magic>)
+
+alwaysVisible()
+hideLines()
+setPos(39,84)
