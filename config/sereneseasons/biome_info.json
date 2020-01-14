@@ -16,7 +16,7 @@
   },
   "climaticbiomesjbg:dense_scrub": {
     "enable_seasonal_effects": true,
-    "use_tropical_seasons": false,
+    "use_tropical_seasons": true,
     "disable_crops": false
   },
   "biomesoplenty:flower_island": {
@@ -46,7 +46,7 @@
   },
   "minecraft:deep_ocean": {
     "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
+    "use_tropical_seasons": false,
     "disable_crops": false
   },
   "biomesoplenty:ominous_woods": {
@@ -81,7 +81,7 @@
   },
   "biomesoplenty:coral_reef": {
     "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
+    "use_tropical_seasons": false,
     "disable_crops": false
   },
   "minecraft:mutated_jungle": {
@@ -166,7 +166,7 @@
   },
   "climaticbiomesjbg:dense_scrub_hills": {
     "enable_seasonal_effects": true,
-    "use_tropical_seasons": false,
+    "use_tropical_seasons": true,
     "disable_crops": false
   },
   "biomesoplenty:oasis": {
@@ -391,7 +391,7 @@
   },
   "biomesoplenty:scrubland": {
     "enable_seasonal_effects": true,
-    "use_tropical_seasons": false,
+    "use_tropical_seasons": true,
     "disable_crops": false
   }
 }
