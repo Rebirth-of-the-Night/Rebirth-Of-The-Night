@@ -23,8 +23,8 @@ config/splash.properties
 config/splash.properties
 mods/OptiFine_1.12.2_HD_U_F4.jar
 config/splash.properties
-config/BiomeTweaker/output
-config/netherex/biomes
+config/BiomeTweaker/output/
+config/netherex/biomes/
 logs/
 llibrary/debug/
 config/multimob/modInformation/
