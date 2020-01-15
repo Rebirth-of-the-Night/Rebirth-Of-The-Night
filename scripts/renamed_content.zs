@@ -68,6 +68,8 @@
 <iceandfire:dragonbone_sword>.displayName = "§5Dragon Bone Sword";
 <mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
 
+<dungeontactics:lantern_magic>.displayName = "§5Magic Lantern";
+
 
 
 

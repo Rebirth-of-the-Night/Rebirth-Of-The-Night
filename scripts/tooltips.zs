@@ -45,3 +45,10 @@
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table>.addTooltip("Requires placing an Enchantment Table Upgrade on a regular Enchantment Table.");
 <eplus:table_upgrade>.addTooltip("Shift + right click on an Enchantment Table to upgrade.");
+
+<netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
+<dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
+<dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");
+<dungeontactics:bounce_boots>.addTooltip("Minimizes fall damage with bounciness!");
+<dungeontactics:lantern_magic>.addTooltip("Outputs a magical aura that forces mobs to walk away from it.");
+<iceandfire:dragonbone_bow>.addTooltip("Only shoots Dragonbone Arrows.");

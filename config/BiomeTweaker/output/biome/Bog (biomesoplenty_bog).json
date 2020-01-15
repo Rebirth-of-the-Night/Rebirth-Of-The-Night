@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SWAMP",
-    "FOREST",
     "WET",
+    "FOREST",
     "COLD"
   ],
   "BiomeManager Entries": {},
