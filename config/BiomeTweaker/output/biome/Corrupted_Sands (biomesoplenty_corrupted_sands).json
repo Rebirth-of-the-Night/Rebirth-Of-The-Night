@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "NETHER",
+    "DENSE",
     "HOT",
     "SANDY",
-    "DENSE",
     "DRY"
   ],
   "BiomeManager Entries": {},

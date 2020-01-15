@@ -5,7 +5,6 @@
     "healthmultiply": 2.5
  },
 
-
  {
     "mob": "minecraft:creeper",
     "dimension": [-1, 1, 4],
@@ -316,6 +315,8 @@
     "dimension": [0,10],
     "mob": "primitivemobs:void_eye",
     "gamestage": "killedEnderDragon",
+    "maxlight": 7,
+    "minlight": 0,
     "maxcount": {
         "amount": 1,
         "perplayer": true
@@ -850,6 +851,228 @@
     "dimension": [0,10],
     "mob": "specialmobs:motherspider",
     "result": "deny"
+ },
+
+
+
+
+
+
+ // Slimes
+ {
+    "dimension": 0,
+    "mob": "specialmobs:blackberryslime",
+    "gamestage": "killedGhastQueen",
+    "maxlight": 15,
+    "minlight": 14,
+    "random": 0.01,
+    "seesky": true,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:blackberryslime",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "specialmobs:lemonslime",
+    "maxlight": 15,
+    "minlight": 14,
+    "random": 0.01,
+    "seesky": true,
+    "gamestage": "minedDiamond",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:lemonslime",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "specialmobs:grapeslime",
+    "maxlight": 15,
+    "minlight": 14,
+    "random": 0.01,
+    "seesky": true,
+    "gamestage": "fullDiamondArmor",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:grapeslime",
+    "result": "deny"
+ },
+
+  {
+    "dimension": 0,
+    "mob": "specialmobs:caramelslime",
+    "maxlight": 15,
+    "minlight": 14,
+    "random": 0.01,
+    "seesky": true,
+    "gamestage": "enteredBeneath",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:caramelslime",
+    "result": "deny"
+ },
+
+  {
+    "dimension": 0,
+    "mob": "specialmobs:blueberryslime",
+    "maxlight": 15,
+    "minlight": 14,
+    "random": 0.01,
+    "seesky": true,
+    "gamestage": "minedMythril",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:blueberryslime",
+    "result": "deny"
+ },
+
+  {
+    "dimension": 0,
+    "mob": "specialmobs:strawberryslime",
+    "random": 0.01,
+    "maxlight": 15,
+    "minlight": 14,
+    "seesky": true,
+    "gamestage": "enteredNether",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:blueberryslime",
+    "result": "deny"
+ },
+
+  {
+    "dimension": 0,
+    "mob": "specialmobs:watermelonslime",
+    "maxlight": 15,
+    "minlight": 14,
+    "random": 0.01,
+    "seesky": true,
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:watermelonslime",
+    "result": "deny"
+ },
+
+
+
+  // Endermen
+ {
+    "dimension": [0,10,1],
+    "mob": "specialmobs:blindingenderman",
+    "gamestage": "killedEnderDragon",
+    "random": 0.1,
+    "maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "specialmobs:blindingenderman",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10,1],
+    "mob": "specialmobs:icyenderman",
+    "biometype": "COLD",
+    "random": 0.01,
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10,1],
+    "mob": "specialmobs:icyenderman",
+    "result": "deny"
+ },
+
+ {
+    "dimension": [0,10,1],
+    "mob": "specialmobs:lightningenderman",
+    "biometype": "MOUNTAIN",
+    "random": 0.01,
+    "gamestage": "killedEnderDragon",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0,10,1],
+    "mob": "specialmobs:lightningenderman",
+    "result": "deny"
+ },
+
+  {
+    "dimension": [0,10,1],
+    "mob": "specialmobs:mirageenderman",
+    "gamestage": "killedEnderDragon",
+    "random": 0.01,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10,1],
+    "mob": "specialmobs:mirageenderman",
+    "result": "deny"
  }
+
 
 ]
