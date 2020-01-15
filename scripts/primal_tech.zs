@@ -77,9 +77,6 @@ mods.jei.JEI.addDescription(<primal_tech:stone_anvil>,"Place Items on it. Bash w
 ClayKiln.addRecipe(<betterwithmods:cooking_pot>,
             <betterwithmods:unfired_pottery>, 500
         );
-ClayKiln.addRecipe(<ceramics:clay_barrel:0>,
-            <ceramics:clay_barrel_unfired:0>,200
-        );
 ClayKiln.addRecipe(<betterwithmods:planter>,
             <betterwithmods:unfired_pottery:1>, 500
        );
@@ -91,12 +88,6 @@ ClayKiln.addRecipe(<betterwithmods:vase>,
         );
 ClayKiln.addRecipe(<minecraft:cake>,
             <betterwithmods:raw_pastry>, 200
-        );
-ClayKiln.addRecipe(<ceramics:clay_barrel:1>,
-            <ceramics:clay_barrel_unfired:1>,200
-        );
-ClayKiln.addRecipe(<ceramics:clay_bucket:0>,
-            <ceramics:clay_bucket_block:0>,200
         );
 ClayKiln.addRecipe(<minecraft:brick:0>,
             <minecraft:clay_ball:0>,200
@@ -130,9 +121,6 @@ ClayKiln.addRecipe(<minecraft:stone:3>,
         );
 ClayKiln.addRecipe(<minecraft:stone:5>,
             <betterwithmods:cobblestone:2>,200
-        );
-ClayKiln.addRecipe(<ceramics:unfired_clay:5>,
-            <ceramics:unfired_clay:4>,200
         );
 ClayKiln.addRecipe(<minecraft:blaze_powder>,
             <minecraft:fire_charge>, 500
