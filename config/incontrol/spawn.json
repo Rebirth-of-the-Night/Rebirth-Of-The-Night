@@ -20,21 +20,6 @@
     "result": "deny"
  },
 
- // Remove Wolves spawning in the Nether (doesnt work)
- {
-    "mob": "minecraft:wolf",
-    "dimension": -1,
-    "onjoin": true,
-    "result": "deny"
- },
-  // Remove Longbois?? spawning in the Nether
- {
-    "mob": "betterwithmods:longboi",
-    "dimension": -1,
-    "onjoin": true,
-    "result": "deny"
- },
-
  // Remove enderman spawning in the Nether
  {
     "mob": "minecraft:enderman",

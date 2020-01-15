@@ -3,7 +3,14 @@ import crafttweaker.item.IIngredient;
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:rime_crystal>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:frost_powder>, <minecraft:potion>.withTag({Potion: "netherex:freezing"}));
 
-mods.jei.JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 4x4 pool of water surrounded by flowers on top of grass to open the portal.");
+mods.jei.JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 4x4 pool of water surrounded by flowers on top of grass to open the portal. DEV NOTE: Ghast Queen is currently disabled, so we provided a temporary recipe so you may still enter the Twilight Forest.");
+
+// temporary
+recipes.addShaped(<netherex:ghast_queen_tear>,[
+[<quark:biotite>, <biomesoplenty:biome_essence>, <quark:biotite>],
+[<minecraft:ghast_tear>, <minecraft:nether_star>, <minecraft:ghast_tear>], 
+[<minecraft:ender_eye>, <minecraft:ender_eye>, <minecraft:ender_eye>]
+]);
 
 mods.ltt.LootTable.removeGlobalItem("netherex:wither_bone");
 mods.jei.JEI.removeAndHide(<netherex:wither_bone>);
@@ -15,6 +22,8 @@ mods.jei.JEI.removeAndHide(<netherex:withered_amedian_shovel>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_axe>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_hoe>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_hammer>);
+mods.jei.JEI.removeAndHide(<netherex:rime_and_steel>);
+
 
 mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_sword>);
 mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_pickaxe>);
@@ -74,9 +83,6 @@ recipes.remove(<netherex:frosted_wither_bone>);
 
 
 
-recipes.remove(<netherex:rime_and_steel>);
-mods.jei.JEI.addDescription(<netherex:rime_and_steel>,"Rime and Steel can create a Nether Portal of any size and orientation!");
-
 var frostedwitherbone = <netherex:frosted_wither_bone>;
 var rime = <netherex:rime_block>;
 var obsidian = <minecraft:obsidian>;
@@ -122,14 +128,6 @@ recipes.addShaped("Wither Bone", <iceandfire:witherbone>,[
     [witherash, witherash, witherash],
     [witherash, bone, witherash],
     [witherash, witherash, witherash]
-]);
-
-
-
-recipes.addShaped("Rime and Steel", <netherex:rime_and_steel>,[
-    [rimecrystal, steel, null],
-    [null, null, null],
-    [null, null, null]
 ]);
 
 recipes.addShaped("Frosted Amedian Sword", <netherex:frosted_amedian_sword>,[

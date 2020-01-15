@@ -24,8 +24,8 @@
     "FOREST",
     "DRY",
     "SNOWY",
-    "COLD",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

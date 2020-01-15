@@ -1172,6 +1172,9 @@ spartanweaponry:throwing_weapon_throw
 spartanweaponry:throwing_weapon_hit
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
+primal_tech:breaking_stuff
+primal_tech:cabbage_fart
+primal_tech:bentley
 aether_legacy:aemob.moa.say
 aether_legacy:aemob.moa.flap
 aether_legacy:aemob.sheepuff.say
