@@ -36,8 +36,8 @@ mods.jei.JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:grinder>)
-mods.jei.JEI.removeAndHide(<harvestcraft:presser>)
+mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
+mods.jei.JEI.removeAndHide(<harvestcraft:presser>);
 
 
 
