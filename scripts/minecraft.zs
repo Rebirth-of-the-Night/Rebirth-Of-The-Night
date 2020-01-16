@@ -52,3 +52,6 @@ var potions_lingering = <minecraft:lingering_potion>;
 potions.maxStackSize = 8;
 potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
+
+//lore
+mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...they will rise again just to seek the surface once again as the night falls.");
