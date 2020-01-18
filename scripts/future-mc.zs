@@ -190,6 +190,8 @@ Blast Furnace Recipes
 **********************************************************************************/
 
 
+/****** Underground Biomes ******/
+
 
 for i in 0 .. 8 {
 
@@ -293,3 +295,48 @@ mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone
 
 											
 }
+
+
+/******** Modded Ores *********/
+
+
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<biomesoplenty:gem_ore>, //Ender Amethyst Ore
+											<biomesoplenty:gem>); //Ender Amethyst
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<biomesoplenty:gem_ore:1>, //Ruby Ore
+											<biomesoplenty:gem:1>); //Ruby
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<biomesoplenty:gem_ore:2>, //Peridot Ore
+											<biomesoplenty:gem:2>); //Peridot
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<biomesoplenty:gem_ore:6>, //Sapphire Ore
+											<biomesoplenty:gem:6>); //Sapphire
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<dungeontactics:silver_ore>, 
+											<dungeontactics:silver_ingot>); 
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<dungeontactics:enddiamond_ore>, 
+											<minecraft:diamond>);
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<dungeontactics:endlapis_ore>, 
+											<minecraft:dye:4>); //Lapis
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<quark:biotite_ore>, 
+											<quark:biotite>);
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<simpleores:copper_ore>, 
+											<simpleores:copper_ingot>);
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<simpleores:tin_ore>, 
+											<simpleores:tin_ingot>);
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<simpleores:mythril_ore>, 
+											<simpleores:mythril_ingot>);
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<simpleores:adamantium_ore>, 
+											<simpleores:adamantium_ingot>);
+
+mods.minecraftfuture.BlastFurnace.addRecipe(<simpleores:onyx_ore>, 
+											<simpleores:onyx_gem>);
+											
