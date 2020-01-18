@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:flamer_block>)
+setTitle("Flamer")
+setDescription("Pushes mobs away and lights them on fire when powered by redstone. More flamers behind it increase the push power.")
+
+addParent("triumph:advancements/basedefense/fan")
+
+criteria = addCriteria("Flamer", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:flamer_block>)
+
+alwaysVisible()
+setPos(-259,118)

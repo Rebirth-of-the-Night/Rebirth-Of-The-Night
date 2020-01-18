@@ -1,0 +1,11 @@
+setIcon(<minetraps:nails>)
+setTitle("Nails")
+setDescription("A crafting material used for many useful traps.")
+
+addParent("triumph:advancements/basedefense/caltrops")
+
+criteria = addCriteria("Caltrops", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:nails>)
+
+alwaysVisible()
+setPos(-259,0)

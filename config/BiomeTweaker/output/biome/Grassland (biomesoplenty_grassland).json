@@ -385,8 +385,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 7,
-    "WET_TEMPERATE": 3
+    "WET_TEMPERATE": 3,
+    "COOL_TEMPERATE": 7
   },
   "BOP Climate Weights": {
     "WET_TEMPERATE": [

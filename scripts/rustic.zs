@@ -75,6 +75,7 @@ recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
 
 var iron = <minecraft:iron_ingot>;
+var tin = <simpleores:tin_ingot>;
 var gold = <minecraft:gold_ingot>;
 var torch = <minecraft:torch>;
 var glass = <minecraft:glass_pane>;
@@ -86,10 +87,10 @@ recipes.addShaped("Gold Lantern", <rustic:golden_lantern>,[
     [null, gold, null]
 ]);
 
-recipes.addShaped("Iron Lantern", <rustic:iron_lantern>,[
-	[null, iron, null],
+recipes.addShaped("Tin Lantern", <rustic:iron_lantern>,[
+	[null, tin, null],
     [glass, torch, glass],
-    [null, iron, null]
+    [null, tin, null]
 ]);
 
 

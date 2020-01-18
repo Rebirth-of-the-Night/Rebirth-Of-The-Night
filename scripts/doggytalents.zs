@@ -17,3 +17,10 @@ recipes.addShaped("Training Treat", <doggytalents:training_treat>,[
     [wheat, bone, wheat],
     [wheat, wheat, wheat]
 ]);
+
+recipes.remove(<doggytalents:wool_collar>);
+recipes.addShaped("Collar", <doggytalents:wool_collar>,[
+	[null, <minecraft:string>, null],
+    [<minecraft:string>, null, <minecraft:string>],
+    [null, <minecraft:string>, null]
+]);

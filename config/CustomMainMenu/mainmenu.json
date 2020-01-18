@@ -19,6 +19,15 @@
             "width" : 512,
             "height" : 512,
             "alignment" : "top_left"
+        },
+        "akliz":
+        {
+            "image" : "rotn:textures/AklizBadge.png",
+            "posX" : -50,
+            "posY" : -25,
+            "width" : 50,
+            "height" : 24,
+            "alignment" : "bottom_right"
         }
 	
 	},
@@ -67,7 +76,7 @@
 
         "discord":
         {
-            "text" : "Join The Discord!",
+            "text" : "Join The Discord",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
@@ -122,6 +131,27 @@
                 "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Tips"
             }
         },
+
+        "server":
+        {
+            "text" : "Get A Server!",
+            "normalTextColor" : 16776960,
+            "hoverTextColor" : 3125670,
+            "texture" : "rotn:textures/btn.png",
+            "posX" : -137,
+            "posY" : -23,
+            "width" : 100,
+            "height" : 20,
+            "imageWidth" : 100,
+            "imageHeight" : 50,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.akliz.net/rebirthofthenight"
+            }
+        },
+
 
 		"multiplayer":
         {
@@ -243,7 +273,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.73",
+            "text": "Version 2.74",
             "posX": 2,
             "posY": -10,
             "color": 450,

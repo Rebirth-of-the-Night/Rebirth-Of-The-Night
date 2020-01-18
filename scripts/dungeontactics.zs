@@ -152,11 +152,14 @@ mods.jei.JEI.removeAndHide(<dungeontactics:steel_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_hammer>);
 
+recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_logs");
+recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_cactus");
+recipes.removeByRecipeName("betternether:stalagnate_stick");
+recipes.removeByRecipeName("dungeontactics:misc/mithril_nugget");
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_block>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ore>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ingot>);
-mods.jei.JEI.removeAndHide(<dungeontactics:mithril_nugget>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_hoe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_axe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_pickaxe>);
@@ -366,4 +369,50 @@ recipes.addShapedMirrored("Iron Ring", <dungeontactics:iron_ring>,[
 	[null, null, null],
     [null, ironnugget, ironnugget],
     [null, ironnugget, ironnugget]
+]);
+
+
+var tiningot = <simpleores:tin_ingot>;
+var tinnugget = <dungeontactics:mithril_nugget>;
+
+recipes.addShapedMirrored("Tin Nugget", <dungeontactics:mithril_nugget>*9,[
+	[null, null, null],
+    [null, tiningot, null],
+    [null, null, null]
+]);
+
+recipes.addShapedMirrored("Tin Ingot", <simpleores:tin_ingot>,[
+	[tinnugget, tinnugget, tinnugget],
+    [tinnugget, tinnugget, tinnugget],
+    [tinnugget, tinnugget, tinnugget]
+]);
+
+
+recipes.remove(<dungeontactics:tunnelling_device>);
+recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
+	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],
+    [<dungeontactics:steel_ingot>, <betterwithmods:material:17>, <betterwithmods:material:31>],
+    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
+]);
+
+recipes.remove(<dungeontactics:piston_glove>);
+recipes.addShaped("Portable Piston Device", <dungeontactics:piston_glove>,[
+	[null, <dungeontactics:steel_ingot>, null],
+    [<dungeontactics:steel_ingot>, <minecraft:piston>, <betterwithmods:material:31>],
+    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
+]);
+
+recipes.remove(<dungeontactics:piston_glove_sticky>);
+recipes.addShaped("Portable Piston Device (Sticky)", <dungeontactics:piston_glove_sticky>,[
+	[null, <dungeontactics:steel_ingot>, null],
+    [<dungeontactics:steel_ingot>, <minecraft:sticky_piston>, <betterwithmods:material:31>],
+    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
+]);
+
+
+recipes.remove(<dungeontactics:powered_bars>);
+recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
+	[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+    [<minecraft:redstone>, <minetraps:barbed_wire_fence>, <minecraft:redstone>],
+    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);

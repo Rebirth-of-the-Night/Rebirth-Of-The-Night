@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "TWILIGHT",
-    "SNOWY",
     "COLD",
+    "SNOWY",
+    "TWILIGHT",
     "WASTELAND"
   ],
   "BiomeManager Entries": {},

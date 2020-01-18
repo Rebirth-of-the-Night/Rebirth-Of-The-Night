@@ -1,0 +1,12 @@
+setIcon(<harvestcraft:well>)
+setTitle("Well, well, well.")
+setDescription("Allows for infinite water. Very useful for setting up base defenses.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Well", "minecraft:inventory_changed")
+criteria.addItem(<harvestcraft:well>)
+
+hideLines()
+alwaysVisible()
+setPos(-339,0)

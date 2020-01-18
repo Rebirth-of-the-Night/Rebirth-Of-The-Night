@@ -5,6 +5,9 @@ import mods.jei.JEI;
 
 recipes.removeShapeless(<davincisvessels:balloon:*>,[<minecraft:string>,<minecraft:wool:*>]);
 
+//lore
+mods.jei.JEI.addDescription(<davincisvessels:balloon:*>,"There are plenty of stories about lands only the bravest sailors would venture into. 40% of the mass of a flying ship must be composed of balloons to take flight");
+
 var bluff = <rustic:cloudsbluff>;
 var wool = <minecraft:wool>;
 

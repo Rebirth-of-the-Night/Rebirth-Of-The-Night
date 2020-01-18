@@ -24,9 +24,25 @@ mods.jei.JEI.removeAndHide(<harvestcraft:candledeco14>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco15>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
 
+//hideCategory(Grinder, Presser and Trap)
+mods.jei.JEI.hideCategory("jehc.ground_trap");
+mods.jei.JEI.hideCategory("jehc.water_trap");
+mods.jei.JEI.hideCategory("jehc.grinder");
+mods.jei.JEI.hideCategory("jehc.presser");
+
+mods.jei.JEI.removeAndHide(<harvestcraft:groundtrap>);
+mods.jei.JEI.removeAndHide(<harvestcraft:watertrap>);
+mods.jei.JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
+mods.jei.JEI.removeAndHide(<harvestcraft:presser>);
+
+
 
 recipes.addShaped("water well", <harvestcraft:well>,[
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-    [<ore:stone>, <quark:rope>, <ore:stone>],
-    [<ore:stone>, <minecraft:bucket>, <ore:stone>]
+	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:stone>, <betterwithmods:bucket>, <ore:stone>],
+    [<ore:stone>, <minecraft:water_bucket>, <ore:stone>]
 ]);

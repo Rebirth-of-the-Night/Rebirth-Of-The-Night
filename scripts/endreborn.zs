@@ -112,3 +112,10 @@ recipes.addShaped("String of Life", <endreborn:item_ender_string>,[
 ]);
 
 
+recipes.remove(<endreborn:tool_sword_endorium>);
+recipes.addShaped("Endorium Sword", <endreborn:tool_sword_endorium>,[
+    [null, <endreborn:item_ingot_endorium>, null],
+    [null, <endreborn:item_ingot_endorium>, null],
+    [null, <spartanweaponry:material:0>, null]
+]);
+

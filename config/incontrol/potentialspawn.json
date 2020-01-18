@@ -14,7 +14,6 @@
     ]
   },
 
-
   // Magma Monster Grunt Overworld
   {
     "dimension": 0,
@@ -575,7 +574,147 @@
         "groupcountmax": 1
       }
     ]
-  }
+  },
 
+  // Slimes
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:blackberryslime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:lemonslime",
+        "weight": 50,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:grapeslime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:caramelslime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:blueberryslime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:strawberryslime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:watermelonslime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+
+
+
+
+
+  // Enderman
+
+  {
+    "dimension": [0,10,1],
+    "mobs": [
+      {
+        "mob": "specialmobs:blindingenderman",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10,1],
+    "mobs": [
+      {
+        "mob": "specialmobs:icyenderman",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10,1],
+    "mobs": [
+      {
+        "mob": "specialmobs:lightningenderman",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10,1],
+    "mobs": [
+      {
+        "mob": "specialmobs:mirageenderman",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
 
 ]

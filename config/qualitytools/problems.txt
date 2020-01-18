@@ -1,1 +1,1 @@
-reforging materials.json: Expected item to be a string, was an array (["ic...t"])
+reforging materials.json: Unknown item netherex:rime_crystal

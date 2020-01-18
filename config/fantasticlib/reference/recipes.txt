@@ -413,7 +413,6 @@ minecraft:acacia_fence
 minecraft:acacia_door
 minecraft:acacia_boat
 biomesoplenty:biome_essence
-wearablebackpacks:dyeable_item
 rusticbopwoods:sacred_oak_chair
 rusticbopwoods:cherry_chair
 rusticbopwoods:umbran_chair
@@ -784,7 +783,6 @@ harvestcraft:whitemushroomseeditem
 harvestcraft:weekendpicnicitem
 harvestcraft:waxcombitem_x9_waxcomb
 harvestcraft:waxcomb
-harvestcraft:watertrap
 harvestcraft:watermelonjellysandwichitem
 harvestcraft:watermelonjellyitem
 harvestcraft:waterfilter
@@ -799,7 +797,6 @@ harvestcraft:veggiestripsitem_foodsalt
 harvestcraft:veggiestripsitem_dustsalt
 harvestcraft:veggiestirfryitem_listallveggie
 harvestcraft:veggiestirfryitem_listallmushroom
-harvestcraft:veggiebaititem_x4
 harvestcraft:vegetarianlettucewrapitem
 harvestcraft:vegetablesoupitem
 harvestcraft:vegemiteontoastitem
@@ -1295,11 +1292,13 @@ harvestcraft:minecraft_pumpkinpie
 harvestcraft:minecraft_planks_meta_3_x4_pampaperbark
 harvestcraft:minecraft_planks_meta_3_x4_pamcinnamon
 harvestcraft:minecraft_planks_meta_1_x4_pammaple
+harvestcraft:minecraft_mushroomstew
 harvestcraft:minecraft_leather_leggings
 harvestcraft:minecraft_leather_helmet
 harvestcraft:minecraft_leather_chestplate
 harvestcraft:minecraft_leather_boots
 harvestcraft:minecraft_cookie
+harvestcraft:minecraft_beetrootsoup
 harvestcraft:minecraft_bakedpotato
 harvestcraft:mincepieitem
 harvestcraft:milletseeditem
@@ -1477,7 +1476,6 @@ harvestcraft:gumboitem
 harvestcraft:guisoitem
 harvestcraft:guava_sapling
 harvestcraft:guacamoleitem
-harvestcraft:groundtrap
 harvestcraft:groundnutmegitem
 harvestcraft:groundcinnamonitem
 harvestcraft:groiledcheesesandwichitem
@@ -1514,7 +1512,6 @@ harvestcraft:grapefruitsmoothieitem
 harvestcraft:grapefruitjuiceitem
 harvestcraft:grapefruitjellysandwichitem
 harvestcraft:grapefruitjellyitem
-harvestcraft:grainbaititem_x4
 harvestcraft:gourmetvenisonpattyitem_itemsalt
 harvestcraft:gourmetvenisonpattyitem_foodsalt
 harvestcraft:gourmetvenisonpattyitem_dustsalt
@@ -1565,7 +1562,6 @@ harvestcraft:fruitpunchitem
 harvestcraft:fruitcrumbleitem
 harvestcraft:fruitcreamfestivalbreaditem
 harvestcraft:fruitcakeitem
-harvestcraft:fruitbaititem_x4
 harvestcraft:frosteddonutitem
 harvestcraft:froglegstirfryitem
 harvestcraft:friesitem_itemsalt
@@ -1591,7 +1587,6 @@ harvestcraft:footlongitem_listallbeefcooked
 harvestcraft:flaxseeditem
 harvestcraft:fivespiceitem_x5
 harvestcraft:fish_0
-harvestcraft:fishtrapbaititem_x4
 harvestcraft:fishtacoitem
 harvestcraft:fishsticksitem
 harvestcraft:fishsandwichitem
@@ -2372,7 +2367,6 @@ betterwithmods:blocks/mini/wood_table_3
 betterwithmods:blocks/mini/wood_table_2
 betterwithmods:blocks/stake
 betterwithmods:blocks/grate_2
-betterwithmods:blocks/aesthetic.5
 betterwithmods:blocks/aesthetic.11
 betterwithmods:blocks/aesthetic.9
 betterwithmods:blocks/vine_trap
@@ -2479,7 +2473,6 @@ betterwithmods:decompress/steel_block
 betterwithmods:decompress/melon_decompress
 betterwithmods:decompress/ender_pearl_decompress
 betterwithmods:decompress/wicker_block_decompress
-betterwithmods:decompress/flint_decompress
 betterwithmods:decompress/rope_block_decompress
 betterwithmods:decompress/rope_decompress
 betterwithmods:decompress/nethercoal_decompress
@@ -2536,7 +2529,6 @@ betteranimalsplus:wolf_pelt_snowy_leather
 betteranimalsplus:bear_skin_kermode_leather
 betteranimalsplus:bear_skin_kermode_wool
 betternether:stalagnate_workbench
-betternether:stalagnate_stick
 betternether:stalagnate_planks_trapdoor
 betternether:stalagnate_planks_stairs
 betternether:stalagnate_planks_slab
@@ -2545,6 +2537,7 @@ betternether:stalagnate_planks_gate
 betternether:stalagnate_planks_fence
 betternether:stalagnate_planks_chest
 betternether:stalagnate_planks_button
+betternether:stalagnate_bowl_wart
 betternether:stalagnate_bowl_mushroom
 betternether:stalagnate_bowl_apple
 betternether:stalagnate_bowl
@@ -2631,8 +2624,6 @@ betternether:bn_bone_block_plate
 betternether:bn_bone_block_button
 betternether:bn_bone_block
 betternether:black_apple_seed
-wearablebackpacks:backpack
-doggytalents:wool_collar
 doggytalents:whistle
 doggytalents:treat_bag
 doggytalents:tiny_bone
@@ -2677,8 +2668,6 @@ dungeontactics:traps/trap_fire
 dungeontactics:traps/trap_clamp
 dungeontactics:traps/trap_ambush
 dungeontactics:traps/trap_ailment
-dungeontactics:traps/powered_fence_single
-dungeontactics:traps/powered_fence_multiple
 dungeontactics:traps/powderkeg
 dungeontactics:traps/flamer_block
 dungeontactics:traps/caltrops_poison
@@ -2689,10 +2678,6 @@ dungeontactics:tools/silver_hoe_right
 dungeontactics:tools/silver_hoe_left
 dungeontactics:tools/silver_axe_right
 dungeontactics:tools/silver_axe_left
-dungeontactics:tools/pistonglove_sticky_right
-dungeontactics:tools/pistonglove_sticky_left
-dungeontactics:tools/pistonglove_right
-dungeontactics:tools/pistonglove_left
 dungeontactics:tools/magic_tether
 dungeontactics:tools/magic_scroll
 dungeontactics:tools/magic_pouch
@@ -2703,8 +2688,6 @@ dungeontactics:tools/engineers_wrench_iron_left
 dungeontactics:tools/engineerdungarees_with_dye
 dungeontactics:tools/engineerdungarees
 dungeontactics:tools/ducttape
-dungeontactics:tools/boomglove_right
-dungeontactics:tools/boomglove_left
 dungeontactics:tools/bagofhoarding
 dungeontactics:tools/alchemical_cauldron
 dungeontactics:misc/steel_nugget
@@ -2741,8 +2724,6 @@ dungeontactics:misc/cushions/cushion_black
 dungeontactics:misc/convenience/unpoison_potato
 dungeontactics:misc/convenience/string_from_wool
 dungeontactics:misc/convenience/sticks_from_saplings
-dungeontactics:misc/convenience/sticks_from_logs
-dungeontactics:misc/convenience/sticks_from_cactus
 dungeontactics:misc/convenience/snowballs_from_snow
 dungeontactics:misc/convenience/planks_from_sticks
 dungeontactics:misc/convenience/melonslice_from_melon
@@ -2766,7 +2747,6 @@ dungeontactics:armour/silver_boots
 dungeontactics:armour/rocket_pants
 dungeontactics:armour/flight_goggles
 dungeontactics:armour/bounce_boots
-endreborn:tools/tool_sword_endorium
 endreborn:tools/tool_hammer_iron
 endreborn:tools/entropy_wand
 endreborn:tools/ender_sword
@@ -4049,6 +4029,8 @@ totemexpansion:totem_explode
 totemexpansion:totem_breathing
 totemexpansion:totem_base
 minecraft:bread
+minecraft:beetroot_soup
+minecraft:mushroom_stew
 minecraft:cookie
 minecraft:pumpkin_pie
 twilightforest:arctic_armor_dyeing
@@ -4107,29 +4089,7 @@ quark:grate
 quark:charcoal_block
 quark:coal
 quark:glass_item_frame
-quark:stone_pickaxe
-quark:stone_shovel
-quark:stone_axe
-quark:stone_hoe
-quark:stone_sword
-quark:clay_ball
-quark:glass
-quark:stained_glass
-quark:stained_glass_1
-quark:stained_glass_2
-quark:stained_glass_3
-quark:stained_glass_4
-quark:stained_glass_5
-quark:stained_glass_6
-quark:stained_glass_7
-quark:stained_glass_8
-quark:stained_glass_9
-quark:stained_glass_10
-quark:stained_glass_11
-quark:stained_glass_12
-quark:stained_glass_13
-quark:stained_glass_14
-quark:stained_glass_15
+quark:backpack
 quark:root_dye
 quark:root_dye_1
 quark:root_dye_2
@@ -4164,6 +4124,30 @@ quark:icy_stone_brick_wall
 quark:elder_prismarine_wall
 quark:elder_prismarine_bricks_wall
 quark:elder_prismarine_dark_wall
+quark:mushroom_stew
+quark:stone_pickaxe
+quark:stone_shovel
+quark:stone_axe
+quark:stone_hoe
+quark:stone_sword
+quark:clay_ball
+quark:glass
+quark:stained_glass
+quark:stained_glass_1
+quark:stained_glass_2
+quark:stained_glass_3
+quark:stained_glass_4
+quark:stained_glass_5
+quark:stained_glass_6
+quark:stained_glass_7
+quark:stained_glass_8
+quark:stained_glass_9
+quark:stained_glass_10
+quark:stained_glass_11
+quark:stained_glass_12
+quark:stained_glass_13
+quark:stained_glass_14
+quark:stained_glass_15
 quark:chute
 quark:sugar_block
 quark:iron_button
@@ -4470,8 +4454,6 @@ quark:quilted_wool_12
 quark:quilted_wool_13
 quark:quilted_wool_14
 quark:quilted_wool_15
-quark:elytra_dyeing
-quark:firework_cloning
 quark:arrow_ender
 quark:arrow_explosive
 quark:arrow_torch
@@ -4486,6 +4468,8 @@ quark:tnt_minecart
 quark:chest_minecart_1
 quark:horse_whistle
 quark:elytra_duplication
+quark:elytra_dyeing
+quark:firework_cloning
 quark:spruce_trapdoor
 quark:birch_trapdoor
 quark:jungle_trapdoor
@@ -4527,6 +4511,36 @@ quark:birch_button
 quark:jungle_button
 quark:acacia_button
 quark:dark_oak_button
+quark:rune_1
+quark:rune_2
+quark:rune_3
+quark:rune_4
+quark:rune_5
+quark:rune_6
+quark:rune_7
+quark:rune_8
+quark:rune_9
+quark:crystal_pane
+quark:crystal_pane_1
+quark:crystal_pane_2
+quark:crystal_pane_3
+quark:crystal_pane_4
+quark:crystal_pane_5
+quark:crystal_pane_6
+quark:crystal_pane_7
+quark:crystal_pane_8
+quark:stone_speleothem
+quark:granite_speleothem
+quark:diorite_speleothem
+quark:andesite_speleothem
+quark:netherrack_speleothem
+quark:biome_brick
+quark:biome_brick_1
+quark:elder_prismarine
+quark:elder_prismarine_1
+quark:elder_prismarine_2
+quark:elder_sea_lantern
+quark:biome_cobblestone
 quark:slabs_to_stairs
 quark:stairs_to_blocks
 quark:wool
@@ -4593,36 +4607,6 @@ quark:wool_30
 quark:wool_31
 quark:quilted_wool_46
 quark:quilted_wool_47
-quark:rune_1
-quark:rune_2
-quark:rune_3
-quark:rune_4
-quark:rune_5
-quark:rune_6
-quark:rune_7
-quark:rune_8
-quark:rune_9
-quark:crystal_pane
-quark:crystal_pane_1
-quark:crystal_pane_2
-quark:crystal_pane_3
-quark:crystal_pane_4
-quark:crystal_pane_5
-quark:crystal_pane_6
-quark:crystal_pane_7
-quark:crystal_pane_8
-quark:stone_speleothem
-quark:granite_speleothem
-quark:diorite_speleothem
-quark:andesite_speleothem
-quark:netherrack_speleothem
-quark:biome_brick
-quark:biome_brick_1
-quark:elder_prismarine
-quark:elder_prismarine_1
-quark:elder_prismarine_2
-quark:elder_sea_lantern
-quark:biome_cobblestone
 quark:redstone_randomizer
 quark:ender_watcher
 quark:slime
@@ -4848,15 +4832,12 @@ dynamictreesphc:durianseedfromfruit
 dynamictreesphc:tamarindseedfromsapling
 dynamictreesphc:tamarindsapling
 dynamictreesphc:tamarindseedfromfruit
-eplus:upgrade
-eplus:table
 eplus:book_eplus
 eplus:book_vanilla
 eplus:booke_prismarine
 eplus:book_nether
 eplus:book_white
 eplus:book_metal
-eplus:shapeless_upgrade
 extraalchemy:sticky_potion
 extraalchemy:split_potion
 extraalchemy:vial_potion
@@ -5016,6 +4997,9 @@ spartanshields:shield_banner_electrum
 spartanshields:shield_banner_nickel
 spartanshields:shield_banner_lead
 spartanshields:shield_banner_constantan
+primal_tech:recipe_clay_kiln
+primal_tech:recipe_stone_mallet
+primal_tech:recipe_stone_anvil
 bountifulbaubles:ringgold
 bountifulbaubles:ringiron
 bountifulbaubles:trinketankhcharm
@@ -5194,16 +5178,26 @@ crafttweaker:grave scroll 2
 crafttweaker:air balloon
 crafttweaker:air balloon 2
 crafttweaker:air balloon 3
+crafttweaker:disenchantment table
 crafttweaker:training treat
+crafttweaker:collar
 crafttweaker:fan
 crafttweaker:magic lantern
 crafttweaker:iron ring
+crafttweaker:tin nugget
+crafttweaker:tin ingot
+crafttweaker:portable tunneling device
+crafttweaker:portable piston device
+crafttweaker:portable piston device (sticky)
+crafttweaker:powered bars
 crafttweaker:obsidian shard
 crafttweaker:magnitifus
 crafttweaker:end shards
 crafttweaker:being of entropy
 crafttweaker:end rune
 crafttweaker:string of life
+crafttweaker:endorium sword
+crafttweaker:table upgrade
 crafttweaker:stone cutter
 crafttweaker:smallglaretorch
 crafttweaker:mediumglaretorch
@@ -5227,6 +5221,7 @@ crafttweaker:chainmail boots
 crafttweaker:vampiric blade
 crafttweaker:draconic blade
 crafttweaker:red hot chili pepper sword
+crafttweaker:ct_shaped449973793
 crafttweaker:ct_shaped799310631
 crafttweaker:ct_shaped-516550929
 crafttweaker:ct_shaped-3200904
@@ -5237,19 +5232,20 @@ crafttweaker:wither bone leggings
 crafttweaker:wither bone boots
 crafttweaker:frosted wither bone
 crafttweaker:wither bone
-crafttweaker:rime and steel
 crafttweaker:frosted amedian sword
 crafttweaker:frosted amedian pickaxe
 crafttweaker:frosted amedian shovel
 crafttweaker:frosted amedian axe
 crafttweaker:frosted amedian hoe
 crafttweaker:gold lantern
-crafttweaker:iron lantern
+crafttweaker:tin lantern
 crafttweaker:iron candle
 crafttweaker:golden candle
 crafttweaker:mythril battleaxe
 crafttweaker:mythril shield
 crafttweaker:nails
+crafttweaker:nails 2
+crafttweaker:nails 3
 crafttweaker:anycobble
 betterwithmods:oak_planks
 betterwithmods:spruce_planks
@@ -5289,15 +5285,15 @@ betterwithmods:wood/mine_planks
 betterwithmods:wood/sort_planks
 betterwithmods:torch
 betterwithmods:baiting_recipe
-betterwithmods:siding_rock
-betterwithmods:moulding_rock
-betterwithmods:corner_rock
-betterwithmods:siding_wood
-betterwithmods:moulding_wood
-betterwithmods:corner_wood
 betterwithmods:siding_iron
 betterwithmods:moulding_iron
 betterwithmods:corner_iron
+betterwithmods:siding_wood
+betterwithmods:moulding_wood
+betterwithmods:corner_wood
+betterwithmods:siding_rock
+betterwithmods:moulding_rock
+betterwithmods:corner_rock
 betterwithmods:wood_siding.0
 betterwithmods:wood_moulding.0
 betterwithmods:wood_corner.0

@@ -2,8 +2,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-//mods.betterwithmods.Crucible.remove([<dungeontactics:steel_ingot>]); // nugget > steel ingot
-//mods.betterwithmods.StokedCrucible.remove([<betterwithmods:material:14>,<betterwithmods:urn>]);
+furnace.addRecipe(<betterwithmods:cooking_pot>, <betterwithmods:unfired_pottery>);
+
 
 mods.betterwithmods.Crucible.removeAll();
 
