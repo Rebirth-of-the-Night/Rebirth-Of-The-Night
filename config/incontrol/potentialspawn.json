@@ -68,7 +68,7 @@
 
   // Void Eyes
   {
-    "dimension": [0,10],
+    "dimension": [0,1,10],
     "mobs": [
       {
         "mob": "primitivemobs:void_eye",
