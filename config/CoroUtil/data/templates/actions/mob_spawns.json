@@ -1,4 +1,4 @@
-{
+﻿{
   "wiki": "//looking to customize your own invasions? see http://coros.us/wiki/index.php?title=Hostile_Worlds_-_Invasions_-_Customizing for helpfull info",
   "format": "mob_spawns",
   "templates": [
@@ -447,10 +447,10 @@
       "spawns": [
         {
           "entities": [
-            "cow", "pig", "sheep", "chicken", "wolf", "ocelot", "parrot", "polar_bear", "rabbit", "horse", "donkey", "mule", "llama", "mocreatures:deer", "mocreatures:bird", "mocreatures:blackbear", "mocreatures:bunny", "mocreatures:elephant", "mocreatures:boar"
+            "animania:bull_highland", "animania:bull_holstein", "animania:hog_yorkshire", "animania:rooster_leghorn", "wolf", "ocelot", "parrot", "polar_bear", "animania:ram_dorset", "animania:stallion_draft", "donkey", "mule", "llama", "betteranimalsplus:songbird", "betteranimalsplus:moose", "animania:cow_holstein", "betteranimalsplus:brownbear", "betteranimalsplus:deer", "animania:buck_angora", "primitivemobs:filch_lizard", "betteranimalsplus:boar", "animania:buck_cottontail"
           ],
           "count": 20,
-          "count_max": 30,
+          "count_max": 40,
           "count_difficulty_multiplier": 2,
           "cmods": [
             {
@@ -466,7 +466,7 @@
             {
               "cmod": "attribute_attackdamage",
               "base_value": 5,
-              "max_value": 10,
+              "max_value": 12,
               "difficulty_multiplier": 0.5
             }
           ]
