@@ -19,7 +19,7 @@
     "generateThorns": true,
     "generateQuicksand": true,
     "generateLiquidPoison": true,
-    "generateHotSprings": true,
+    "generateHotSprings": false,
     "generateNetherHives": true,
     "generateEndFeatures": true,
     "mainNoiseScaleX": 80,
