@@ -1,3 +1,9 @@
+//Aether Legacy
+<aether_legacy:cockatrice>.displayName = "Kelenk Meat";
+<aether_legacy:burnt_cockatrice>.displayName = "Burnt Kelenk Meat";
+<aether_legacy:enchanted_cockatrice>.displayName = "Enchanted Kelenk Meat";
+<aether_legacy:cooked_enchanted_cockatrice>.displayName = "Cooked Enchanted Kelenk Meat";
+
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 
@@ -22,6 +28,8 @@
 <mcwbridges:most1>.displayName = "Tin Bridge Middle";
 <mcwbridges:most2>.displayName = "Tin Bridge End";
 
+// Mowzie's Mobs
+<mowziesmobs:naga_fang>.displayName = "Skydrake Fang";
 
 // BOP
 <biomesoplenty:biome_essence>.displayName = "Light Essence";
@@ -31,6 +39,10 @@
 <eplus:table_upgrade>.displayName = "Enchantment Table Upgrade";
 <eplus:advanced_table>.displayName = "§6True Enchantment Table";
 
+// Rats
+<rats:vial_of_sentience>.displayName = "§cGod-Essence";
+<rats:ratlantean_flame>.displayName = "Soulfire";
+<rats:psionic_rat_brain>.displayName = "§cAscendant Brain";
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
