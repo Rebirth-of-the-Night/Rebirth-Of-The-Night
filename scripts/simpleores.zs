@@ -156,20 +156,10 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_hoe>, [
 //info
 
 # Copper
-mods.jei.JEI.addDescription(<simpleores:copper_ingot>,"A rudimentary but serviceable metal for starter tools and armor. At its best when using it to make redstone components");
-mods.jei.JEI.addDescription(<simpleores:copper_helmet>,"Not the most protective, but it's better than nothing.");
-mods.jei.JEI.addDescription(<simpleores:copper_chestplate>,"Not the most protective, but it's better than receiving a kick to the chest.");
-mods.jei.JEI.addDescription(<simpleores:copper_leggings>,"Not the most protective, but theya have good ventilation.");
-mods.jei.JEI.addDescription(<simpleores:copper_boots>,"Not the most protective, but it's better than nothing.");
-mods.jei.JEI.addDescription(<simpleores:copper_sword>,"A standard copper sword, serviceable at best.");
+mods.jei.JEI.addDescription(<simpleores:copper_ingot>,"A rudimentary but serviceable metal. At its best when using it to make redstone components and Bronze.");
 
 # Tin
-mods.jei.JEI.addDescription(<simpleores:tin_ingot>,"Still a bit better than copper alone.");
-mods.jei.JEI.addDescription(<simpleores:tin_helmet>,"Not the most protective, but it gets you covered (maybe too much).");
-mods.jei.JEI.addDescription(<simpleores:tin_chestplate>,"Not the most protective, but it gets you covered.");
-mods.jei.JEI.addDescription(<simpleores:tin_leggings>,"Not the most protective, but it gets you covered.");
-mods.jei.JEI.addDescription(<simpleores:tin_boots>,"Not the most protective, but it gets you covered.");
-mods.jei.JEI.addDescription(<simpleores:tin_sword>,"A standard tin sword, cuts things.");
+mods.jei.JEI.addDescription(<simpleores:tin_ingot>,"Good for building structures and creting components. At its best when using it to make Bronze");
 
 # Viridium
 mods.jei.JEI.addDescription(<simpleores:adamantium_ingot>,"Viridium is found in The Beneath. It's not the most durable, but it's light, fast and stronger than diamond.");
