@@ -35,6 +35,17 @@
 <biomesoplenty:biome_essence>.displayName = "Light Essence";
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
 
+//ATOP
+<atop:mud_axe>.displayName = "Bronze Axe";
+<atop:mud_boots>.displayName = "Bronze Boots";
+<atop:mud_chestplate>.displayName = "Bronze Cuirass";
+<atop:mud_helmet>.displayName = "Bronze Helmet";
+<atop:mud_hoe>.displayName = "Bronze Hoe";
+<atop:mud_leggings>.displayName = "Bronze Leggings";
+<atop:mud_pickaxe>.displayName = "Bronze Pickaxe";
+<atop:mud_shovel>.displayName = "Bronze Shovel";
+<atop:mud_sword>.displayName = "Bronze Gladius";
+
 // EPlus
 <eplus:table_upgrade>.displayName = "Enchantment Table Upgrade";
 <eplus:advanced_table>.displayName = "§6True Enchantment Table";

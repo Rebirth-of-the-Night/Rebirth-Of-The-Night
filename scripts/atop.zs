@@ -125,16 +125,6 @@ mods.jei.JEI.removeAndHide(<atop:tanzanite_shovel>);
 mods.jei.JEI.removeAndHide(<atop:tanzanite_axe>);
 mods.jei.JEI.removeAndHide(<atop:tanzanite_hoe>);
 
-mods.jei.JEI.removeAndHide(<atop:mud_boots>);
-mods.jei.JEI.removeAndHide(<atop:mud_chestplate>);
-mods.jei.JEI.removeAndHide(<atop:mud_leggings>);
-mods.jei.JEI.removeAndHide(<atop:mud_helmet>);
-mods.jei.JEI.removeAndHide(<atop:mud_sword>);
-mods.jei.JEI.removeAndHide(<atop:mud_pickaxe>);
-mods.jei.JEI.removeAndHide(<atop:mud_shovel>);
-mods.jei.JEI.removeAndHide(<atop:mud_axe>);
-mods.jei.JEI.removeAndHide(<atop:mud_hoe>);
-
 mods.jei.JEI.removeAndHide(<atop:malachite_boots>);
 mods.jei.JEI.removeAndHide(<atop:malachite_chestplate>);
 mods.jei.JEI.removeAndHide(<atop:malachite_leggings>);
