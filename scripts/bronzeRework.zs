@@ -133,3 +133,44 @@ mods.jei.JEI.addDescription(<atop:mud_chestplate>,"Much better than running arou
 mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, they have good ventilation.");
 mods.jei.JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
 mods.jei.JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
+
+//ANVIL REPAIR
+// Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
+#armor
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_helmet>.anyDamage(), <contenttweaker:material_part>, <atop:mud_helmet>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_chestplate>.anyDamage(), <contenttweaker:material_part>, <atop:mud_chestplate>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_leggings>.anyDamage(), <contenttweaker:material_part>, <atop:mud_leggings>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_boots>.anyDamage(), <contenttweaker:material_part>, <atop:mud_boots>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+#tools
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_sword>.anyDamage(), <contenttweaker:material_part>, <atop:mud_sword>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_shovel>.anyDamage(), <contenttweaker:material_part>, <atop:mud_shovel>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_pickaxe>.anyDamage(), <contenttweaker:material_part>, <atop:mud_pickaxe>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_axe>.anyDamage(), <contenttweaker:material_part>, <atop:mud_axe>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+mods.rockytweaks.Anvil.addRecipe(<atop:mud_hoe>.anyDamage(), <contenttweaker:material_part>, <atop:mud_hoe>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
