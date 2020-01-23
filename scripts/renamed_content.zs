@@ -54,6 +54,7 @@
 <rats:vial_of_sentience>.displayName = "§cGod-Essence";
 <rats:ratlantean_flame>.displayName = "Soulfire";
 <rats:psionic_rat_brain>.displayName = "§cAscendant Brain";
+<rats:feral_bagh_nakhs>.displayName = "Feral Bagh Nakh";
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
@@ -90,10 +91,13 @@
 
 <iceandfire:dragonbone_sword>.displayName = "§5Dragon Bone Sword";
 <mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
+<mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
+<mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
+<rats:black_death_mask>.displayName = "§5Black Death Mask";
+<iceandfire:myrmex_desert_staff>.displayName = "§5Desert Myrmex Staff";
+<iceandfire:myrmex_jungle_staff>.displayName = "§5Jungle Myrmex Staff";
 
 <dungeontactics:lantern_magic>.displayName = "§5Magic Lantern";
-
-
 
 
 #Legendary
@@ -132,10 +136,26 @@
 <iceandfire:dragonsteel_ice_leggings>.displayName = "§6Ice Dragonsteel Leggings";
 <iceandfire:dragonsteel_ice_boots>.displayName = "§6Ice Dragonsteel Boots";
 
+<msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
+<rats:plague_scythe>.displayName = "§6Plague Scythe";
+<iceandfire:gorgon_head>.displayName = "§6PGorgon Head";
 <iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragon Bone Sword";
 <iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragon Bone Sword";
 <iceandfire:hippogryph_sword>.displayName = "§6Hippogryph Talon Sword";
-<msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
+<iceandfire:deathworm_gauntlet_yellow>.displayName = "§6Yellow Deathworm Gauntlet";
+<iceandfire:deathworm_gauntlet_white>.displayName = "§6White Deathworm Gauntlet";
+<iceandfire:deathworm_gauntlet_red>.displayName = "§6Red Deathworm Gauntlet";
+<iceandfire:cockatrice_scepter>.displayName = "§6Cockatrice Scepter";
+<iceandfire:pixie_wand>.displayName = "§6Pixie Wand";
+<iceandfire:siren_flute>.displayName = "§6Siren Flute";
+<iceandfire:hippocampus_slapper>.displayName = "§6Hippocampus Slapper";
+<iceandfire:cyclops_eye>.displayName = "§6Cyclops Eye";
+<iceandfire:stymphalian_bird_dagger>.displayName = "§6Stymphalian Bird Dagger";
+<iceandfire:stymphalian_feather_bundle>.displayName = "§6Stymphalian Feather Bundle";
+<iceandfire:myrmex_desert_swarm>.displayName = "§6Desert Myrmex Swarm";
+<iceandfire:myrmex_jungle_swarm>.displayName = "§6Jungle Myrmex Swarm";
+<iceandfire:tide_trident>.displayName = "§6Tide Trident";
+<iceandfire:amphithere_macuahuitl>.displayName = "§6Amphithere Macuahuitl";
 
 
 # Godly
@@ -143,8 +163,9 @@
 <msmlegacy:dawn_star>.displayName = "§cDark's Edge";
 <msmlegacy:glacial_blade>.displayName = "§cDragon's Bane";
 <msmlegacy:crystaline_blade>.displayName = "§cLight's Edge";
+<mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman"
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 
-
 <msmlegacy:relic_aqueous>.displayName = "§4Red Hot Chili Pepper Sword";
+
