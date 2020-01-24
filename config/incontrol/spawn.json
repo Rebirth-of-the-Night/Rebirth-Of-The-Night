@@ -219,6 +219,7 @@
     "dimension": 0,
     "mob": "netherex:salamander",
     "gamestage": "enteredNether",
+    "maxheight": 32,
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -312,7 +313,7 @@
 
   // Void Eyes
  {
-    "dimension": [0,1,10],
+    "dimension": [0,10],
     "mob": "primitivemobs:void_eye",
     "gamestage": "killedEnderDragon",
     "maxlight": 5,
