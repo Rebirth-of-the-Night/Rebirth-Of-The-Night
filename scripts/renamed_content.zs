@@ -163,7 +163,7 @@
 <msmlegacy:dawn_star>.displayName = "§cDark's Edge";
 <msmlegacy:glacial_blade>.displayName = "§cDragon's Bane";
 <msmlegacy:crystaline_blade>.displayName = "§cLight's Edge";
-<mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman"
+<mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman";
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 
