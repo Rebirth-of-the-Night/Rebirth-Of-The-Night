@@ -138,7 +138,7 @@
 
 <msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
 <rats:plague_scythe>.displayName = "§6Plague Scythe";
-<iceandfire:gorgon_head>.displayName = "§6PGorgon Head";
+<iceandfire:gorgon_head>.displayName = "§6Gorgon Head";
 <iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragon Bone Sword";
 <iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragon Bone Sword";
 <iceandfire:hippogryph_sword>.displayName = "§6Hippogryph Talon Sword";
