@@ -48,5 +48,3 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.mal
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.malachite_ore:*>);
 
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>);
-recipes.addShapeless("green dye", <biomesoplenty:green_dye>*2,
- [<ore:dyeBlue>,<ore:dyeYellow>]);
