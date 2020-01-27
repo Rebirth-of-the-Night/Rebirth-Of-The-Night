@@ -44,5 +44,5 @@ mods.jei.JEI.removeAndHide(<harvestcraft:presser>);
 recipes.addShaped("water well", <harvestcraft:well>,[
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
     [<ore:stone>, <betterwithmods:bucket>, <ore:stone>],
-    [<ore:stone>, <minecraft:water_bucket>, <ore:stone>]
+    [<ore:stone>, <betterwithmods:screw_pump>, <ore:stone>]
 ]);
