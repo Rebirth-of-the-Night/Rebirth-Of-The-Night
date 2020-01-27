@@ -259,6 +259,9 @@
     "mob": "magma_monsters:magma_monster_grunt",
     "gamestage": "enteredNether",
     "maxheight": 32,
+ 	"amount": 5,
+        "perplayer": true
+    },
     "result": "allow"
  },
  {
