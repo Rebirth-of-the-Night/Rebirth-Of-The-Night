@@ -41,7 +41,6 @@ mods.jei.JEI.removeAndHide(<rats:ratglove_flower>);
 mods.jei.JEI.removeAndHide(<rats:chunky_cheese_token>);
 mods.jei.JEI.removeAndHide(<rats:token_fragment>);
 mods.jei.JEI.removeAndHide(<rats:token_piece>);
-mods.jei.JEI.removeAndHide(<rats:cheese>);
 mods.jei.JEI.removeAndHide(<rats:auto_curdler>);
 mods.jei.JEI.removeAndHide(<rats:rat_crafting_table>);
 mods.jei.JEI.removeAndHide(<rats:marbled_cheese_raw>);
@@ -60,6 +59,7 @@ mods.jei.JEI.removeAndHide(<rats:garbage_pile>);
 // other removed recipes
 recipes.remove(<rats:rat_upgrade_voodoo>);
 recipes.remove(<rats:feathery_wing>);
+recipes.remove(<rats:cheese>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.removeChefRatRecipe(<rats:potato_kinishes>);
 mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
@@ -94,6 +94,7 @@ mods.ltt.LootTable.removeGlobalItem("rats:ratlantean_flame");
 
 
 // New Rat Item Recipes
+
 recipes.addShaped("rat_toga", <rats:rat_toga>,[
 	[null, null, null],
     [null, <minecraft:string>, null],
@@ -110,12 +111,6 @@ recipes.addShaped("feathery_wing", <rats:feathery_wing>,[
 	[null, null, null],
     [<aether_legacy:aercloud>, <ore:feather>, <ore:feather>],
     [<ore:feather>, <ore:feather>, null]
-]);
-
-recipes.addShaped("cheeseblock", <rats:block_of_cheese>,[
-	[<ore:foodCheese>, <ore:foodCheese>, <ore:foodCheese>],
-    [<ore:foodCheese>, <ore:foodCheese>, <ore:foodCheese>],
-    [<ore:foodCheese>, <ore:foodCheese>, <ore:foodCheese>]
 ]);
 
 // remove archeologist rat recipes
