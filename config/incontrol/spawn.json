@@ -1006,7 +1006,7 @@
     "dimension": [0,10,1],
     "mob": "specialmobs:blindingenderman",
     "gamestage": "killedEnderDragon",
-    "random": 0.1,
+    "random": 0.125,
     "maxlight": 7,
     "minlight": 0,
     "maxcount": {
@@ -1016,10 +1016,11 @@
     "result": "allow"
  },
  {
-    "dimension": 0,
+    "dimension": [0,1],
     "mob": "specialmobs:blindingenderman",
     "result": "deny"
  },
+
 
  {
     "dimension": [0,10,1],
