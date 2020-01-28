@@ -4,6 +4,7 @@ mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_axe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
+mods.jei.JEI.removeAndHide(<endreborn:block_rune>);
 
 // Anvil Recipes
 
