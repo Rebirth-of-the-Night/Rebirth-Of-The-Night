@@ -715,6 +715,18 @@
         "groupcountmax": 1
       }
     ]
+  },
+  
+  {
+    "dimension": [0,10,1],
+    "mobs": [
+      {
+        "mob": "specialmobs:blindingenderman",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
   }
 
 ]
