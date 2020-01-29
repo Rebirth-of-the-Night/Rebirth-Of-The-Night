@@ -1,7 +1,7 @@
 import crafttweaker.item.IIngredient;
 recipes.remove(<scalinghealth:healingitem:1>);
 
-recipes.addShaped("scalinghealth:medkit", <scalinghealth:healingitem:1>, 
+recipes.addShaped("scalinghealth medkit", <scalinghealth:healingitem:1>, 
 [[null, <ore:ingotIron>, null], 
 [<scalinghealth:healingitem>, <minecraft:speckled_melon>, <scalinghealth:healingitem>], 
 [<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>]]);
