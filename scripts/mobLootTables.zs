@@ -9,6 +9,25 @@ import crafttweaker.data.IData;
 val irongolem = LootTables.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
+// attempt to fix godswords
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:dawn_star");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:vampiric_blade");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:gladiolus");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:draconic_blade");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:eye_end_blade");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:crystaline_blade");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:glacial_blade");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:aethers_guard");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:wither_bane");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:adminium_ark");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_aqueous");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_candy");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_infinity");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_keyblade");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_molten");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
+
 //PrimitiveMobs ######################
 val gob = LootTables.getTable("primitivemobs:entities/goblin");
 val gobMain = gob.getPool("goblin_drops");

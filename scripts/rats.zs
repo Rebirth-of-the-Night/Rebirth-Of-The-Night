@@ -116,7 +116,21 @@ recipes.addShaped("feathery_wing", <rats:feathery_wing>,[
 // remove archeologist rat recipes
 mods.jei.JEI.hideCategory("rats.archeologist_rat");
 
-// #### need to add new mob soup recipe that requires herb bundle, up saturation value
+// new pam's recipes
+
+val eyeOredict = <ore:eyeball>;
+eyeOredict.add(<minecraft:spider_eye>);
+eyeOredict.add(<minecraft:fermented_spider_eye>);
+eyeOredict.add(<biomesoplenty:double_plant:2>);
+eyeOredict.add(<betternether:eye_seed>);
+eyeOredict.add(<iceandfire:cyclops_eye>);
+eyeOredict.add(<iceandfire:cockatrice_eye>);
+
+//new eye pie
+recipes.addShapeless(<harvestcraft:spidereyepieitem>, [<harvestcraft:bakewareitem>.transformReplace(<harvestcraft:bakewareitem>), <ore:foodDough>, <ore:eyeball>, <ore:listAllsugar>, <rats:herb_bundle>]);
+
+//new mob soup
+recipes.addShapeless(<harvestcraft:mobsoupitem>, [<harvestcraft:potitem>.transformReplace(<harvestcraft:potitem>), <harvestcraft:stockitem>, <minecraft:spider_eye>, <minecraft:rotten_flesh>, <minecraft:slime_ball>, <ore:listAllsalt>, <rats:herb_bundle>]);
 
 //chef rat recipes
 mods.rats.recipes.addChefRatRecipe(<minecraft:golden_apple:1>, <rats:confit_byaldi>);

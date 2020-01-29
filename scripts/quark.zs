@@ -20,3 +20,12 @@ mods.jei.JEI.removeAndHide(<quark:candle:12>);
 mods.jei.JEI.removeAndHide(<quark:candle:13>);
 mods.jei.JEI.removeAndHide(<quark:candle:14>);
 mods.jei.JEI.removeAndHide(<quark:candle:15>);
+
+
+recipes.remove(<quark:backpack>);
+
+recipes.addShaped("Backpack", <quark:backpack>,[
+	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>],
+    [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
+    [<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>]
+]);

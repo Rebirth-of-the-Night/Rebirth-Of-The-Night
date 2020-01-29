@@ -56,6 +56,10 @@
 <rats:psionic_rat_brain>.displayName = "§cAscendant Brain";
 <rats:feral_bagh_nakhs>.displayName = "Feral Bagh Nakh";
 
+// Pams
+<harvestcraft:spidereyepieitem>.displayName = "Eye Pie";
+
+
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
@@ -168,4 +172,6 @@
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 
 <msmlegacy:relic_aqueous>.displayName = "§4Red Hot Chili Pepper Sword";
+
+<rats:confit_byaldi>.displayName = "§cConfit Byaldi";
 
