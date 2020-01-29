@@ -50,12 +50,6 @@
 <eplus:table_upgrade>.displayName = "Enchantment Table Upgrade";
 <eplus:advanced_table>.displayName = "§6True Enchantment Table";
 
-// Rats
-<rats:vial_of_sentience>.displayName = "§cGod-Essence";
-<rats:ratlantean_flame>.displayName = "Soulfire";
-<rats:psionic_rat_brain>.displayName = "§cAscendant Brain";
-<rats:feral_bagh_nakhs>.displayName = "Feral Bagh Nakh";
-
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
@@ -93,7 +87,6 @@
 <mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
-<rats:black_death_mask>.displayName = "§5Black Death Mask";
 <iceandfire:myrmex_desert_staff>.displayName = "§5Desert Myrmex Staff";
 <iceandfire:myrmex_jungle_staff>.displayName = "§5Jungle Myrmex Staff";
 
@@ -137,7 +130,6 @@
 <iceandfire:dragonsteel_ice_boots>.displayName = "§6Ice Dragonsteel Boots";
 
 <msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
-<rats:plague_scythe>.displayName = "§6Plague Scythe";
 <iceandfire:gorgon_head>.displayName = "§6PGorgon Head";
 <iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragon Bone Sword";
 <iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragon Bone Sword";

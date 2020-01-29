@@ -108,7 +108,6 @@ minecraft:purple_stained_hardened_clay
 minecraft:purple_stained_glass_pane
 minecraft:purple_stained_glass
 minecraft:purple_shulker_box
-minecraft:purple_dye
 minecraft:purple_concrete_powder
 minecraft:purple_carpet
 minecraft:purple_bed_from_white_bed
@@ -125,7 +124,6 @@ minecraft:pink_wool
 minecraft:pink_stained_hardened_clay
 minecraft:pink_stained_glass_pane
 minecraft:pink_stained_glass
-minecraft:pink_dye_from_red_bonemeal
 minecraft:pink_concrete_powder
 minecraft:pink_carpet
 minecraft:pink_bed_from_white_bed
@@ -138,7 +136,6 @@ minecraft:orange_wool
 minecraft:orange_stained_hardened_clay
 minecraft:orange_stained_glass_pane
 minecraft:orange_stained_glass
-minecraft:orange_dye_from_red_yellow
 minecraft:orange_concrete_powder
 minecraft:orange_carpet
 minecraft:orange_bed_from_white_bed
@@ -165,9 +162,6 @@ minecraft:magenta_wool
 minecraft:magenta_stained_hardened_clay
 minecraft:magenta_stained_glass_pane
 minecraft:magenta_stained_glass
-minecraft:magenta_dye_from_purple_and_pink
-minecraft:magenta_dye_from_lapis_red_pink
-minecraft:magenta_dye_from_lapis_ink_bonemeal
 minecraft:magenta_concrete_powder
 minecraft:magenta_carpet
 minecraft:magenta_bed_from_white_bed
@@ -178,7 +172,6 @@ minecraft:lime_wool
 minecraft:lime_stained_hardened_clay
 minecraft:lime_stained_glass_pane
 minecraft:lime_stained_glass
-minecraft:lime_dye
 minecraft:lime_concrete_powder
 minecraft:lime_carpet
 minecraft:lime_bed_from_white_bed
@@ -189,8 +182,6 @@ minecraft:light_gray_wool
 minecraft:light_gray_stained_hardened_clay
 minecraft:light_gray_stained_glass_pane
 minecraft:light_gray_stained_glass
-minecraft:light_gray_dye_from_ink_bonemeal
-minecraft:light_gray_dye_from_gray_bonemeal
 minecraft:light_gray_concrete_powder
 minecraft:light_gray_carpet
 minecraft:light_gray_bed_from_white_bed
@@ -200,7 +191,6 @@ minecraft:light_blue_wool
 minecraft:light_blue_stained_hardened_clay
 minecraft:light_blue_stained_glass_pane
 minecraft:light_blue_stained_glass
-minecraft:light_blue_dye_from_lapis_bonemeal
 minecraft:light_blue_concrete_powder
 minecraft:light_blue_carpet
 minecraft:light_blue_bed_from_white_bed
@@ -258,7 +248,6 @@ minecraft:gray_wool
 minecraft:gray_stained_hardened_clay
 minecraft:gray_stained_glass_pane
 minecraft:gray_stained_glass
-minecraft:gray_dye
 minecraft:gray_concrete_powder
 minecraft:gray_carpet
 minecraft:gray_bed_from_white_bed
@@ -327,7 +316,6 @@ minecraft:cyan_wool
 minecraft:cyan_stained_hardened_clay
 minecraft:cyan_stained_glass_pane
 minecraft:cyan_stained_glass
-minecraft:cyan_dye
 minecraft:cyan_concrete_powder
 minecraft:cyan_carpet
 minecraft:cyan_bed_from_white_bed
@@ -469,7 +457,6 @@ aether_legacy:skyroot_fence
 aether_legacy:skyroot_bucket
 aether_legacy:skyroot_bookshelf
 aether_legacy:skyroot_axe
-aether_legacy:purple_dye_flower
 aether_legacy:poison_dart_shooter
 aether_legacy:poison_dart
 aether_legacy:nature_staff
@@ -491,7 +478,6 @@ aether_legacy:holystone_axe
 aether_legacy:hellfire_wall
 aether_legacy:hellfire_stairs
 aether_legacy:hellfire_slab
-aether_legacy:gray_dye_flower
 aether_legacy:gravitite_sword
 aether_legacy:gravitite_shovel
 aether_legacy:gravitite_pickaxe
@@ -581,8 +567,6 @@ biomesoplenty:white_wool_from_cattails
 biomesoplenty:white_sandstone_stairs
 biomesoplenty:white_sandstone_slab
 biomesoplenty:white_sandstone
-biomesoplenty:white_dye_from_white_anemone
-biomesoplenty:white_dye_from_lily_of_the_valley
 biomesoplenty:wasteland_terrarium
 biomesoplenty:umbran_wooden_slab
 biomesoplenty:umbran_stairs
@@ -612,11 +596,6 @@ biomesoplenty:redwood_planks
 biomesoplenty:redwood_fence_gate
 biomesoplenty:redwood_fence
 biomesoplenty:redwood_door
-biomesoplenty:purple_dye_from_violet
-biomesoplenty:purple_dye_from_lavender
-biomesoplenty:pink_dye_from_pink_hibiscus
-biomesoplenty:pink_dye_from_pink_daffodil
-biomesoplenty:pink_dye_from_miners_delight
 biomesoplenty:pine_wooden_slab
 biomesoplenty:pine_stairs
 biomesoplenty:pine_planks
@@ -632,8 +611,6 @@ biomesoplenty:palm_fence_gate
 biomesoplenty:palm_fence
 biomesoplenty:palm_door
 biomesoplenty:origin_terrarium
-biomesoplenty:orange_dye_from_orange_cosmos
-biomesoplenty:orange_dye_from_burning_blossom
 biomesoplenty:ominous_terrarium
 biomesoplenty:nether_terrarium
 biomesoplenty:mystic_terrarium
@@ -661,12 +638,6 @@ biomesoplenty:magic_planks
 biomesoplenty:magic_fence_gate
 biomesoplenty:magic_fence
 biomesoplenty:magic_door
-biomesoplenty:magenta_dye_from_wildflower
-biomesoplenty:lime_dye_from_glowshroom
-biomesoplenty:light_gray_dye_from_clover
-biomesoplenty:light_blue_dye_from_icy_iris
-biomesoplenty:light_blue_dye_from_flax
-biomesoplenty:light_blue_dye_from_blue_hydrangea
 biomesoplenty:leaf_pile
 biomesoplenty:koru_terrarium
 biomesoplenty:jacaranda_wooden_slab
@@ -681,8 +652,6 @@ biomesoplenty:hellbark_planks
 biomesoplenty:hellbark_fence_gate
 biomesoplenty:hellbark_fence
 biomesoplenty:hellbark_door
-biomesoplenty:gray_dye_from_wilted_lily
-biomesoplenty:gray_dye_from_ash
 biomesoplenty:glowshroom_terrarium
 biomesoplenty:flower_terrarium
 biomesoplenty:flesh_block
@@ -715,8 +684,6 @@ biomesoplenty:ebony_fence_gate
 biomesoplenty:ebony_fence
 biomesoplenty:ebony_door
 biomesoplenty:dead_terrarium
-biomesoplenty:cyan_dye_from_swampflower
-biomesoplenty:cyan_dye_from_glowflower
 biomesoplenty:coarse_silty_dirt
 biomesoplenty:coarse_sandy_dirt
 biomesoplenty:coarse_loamy_dirt
@@ -730,9 +697,6 @@ biomesoplenty:cherry_fence
 biomesoplenty:cherry_door
 biomesoplenty:celestial_crystal
 biomesoplenty:cactus_terrarium
-biomesoplenty:brown_dye_from_flat_mushroom
-biomesoplenty:brown_dye_from_double_cattail
-biomesoplenty:brown_dye_from_cattail
 biomesoplenty:boat_willow
 biomesoplenty:boat_umbran
 biomesoplenty:boat_sacred_oak
@@ -749,10 +713,6 @@ biomesoplenty:boat_eucalyptus
 biomesoplenty:boat_ethereal
 biomesoplenty:boat_ebony
 biomesoplenty:boat_cherry
-biomesoplenty:blue_dye_from_blue_milk_cap
-biomesoplenty:blue_dye_from_bluebells
-biomesoplenty:black_dye_from_enderlotus
-biomesoplenty:black_dye_from_deathbloom
 biomesoplenty:beach_terrarium
 biomesoplenty:bamboo_thatching
 biomesoplenty:bamboo_terrarium
@@ -1080,7 +1040,6 @@ harvestcraft:pumpkinoatsconesitem
 harvestcraft:pumpkinmuffinitem
 harvestcraft:pumpkincheesecakeitem
 harvestcraft:pumpkinbreaditem
-harvestcraft:presser
 harvestcraft:pressedwax
 harvestcraft:pralinesitem
 harvestcraft:powdereddonutitem
@@ -1480,7 +1439,6 @@ harvestcraft:groundnutmegitem
 harvestcraft:groundcinnamonitem
 harvestcraft:groiledcheesesandwichitem
 harvestcraft:gritsitem
-harvestcraft:grinder
 harvestcraft:grilledskewersitem
 harvestcraft:grilledmushroomitem_minecraft_red_mushroom
 harvestcraft:grilledmushroomitem_minecraft_brown_mushroom
@@ -2504,6 +2462,7 @@ atop:shaped_amethyst_leggings
 atop:shaped_amethyst_helmet
 atop:shaped_amethyst_chestplate
 atop:shaped_amethyst_boots
+base:wrench
 betteranimalsplus:milk_to_cheese2
 betteranimalsplus:wolf_pelt_black_leather
 betteranimalsplus:bear_skin_black_leather
@@ -2593,7 +2552,6 @@ betternether:nether_tile_small
 betternether:nether_tile_large
 betternether:nether_brick_wall
 betternether:netherrack_furnace
-betternether:gray_dye
 betternether:cincinnasite_wall
 betternether:cincinnasite_tile_small
 betternether:cincinnasite_tile_large
@@ -2785,7 +2743,6 @@ endreborn:blocks/end_bricks_glow_stairs
 endreborn:blocks/end_bricks_glow
 endreborn:blocks/crop_ender_flower
 endreborn:blocks/cobblestone
-endreborn:blocks/block_rune
 endreborn:blocks/block_purpur_lamp
 endreborn:blocks/block_phantom
 endreborn:blocks/block_lormyte_crystal
@@ -2835,13 +2792,6 @@ minecraftfuture:else/campfrecipe
 minecraftfuture:else/blueicerecipe
 minecraftfuture:else/blastrecipe
 minecraftfuture:else/barrelrecipe
-minecraftfuture:dye/flowerwhiterecipe
-minecraftfuture:dye/flowerbluerecipe
-minecraftfuture:dye/flowerblackrecipe
-minecraftfuture:dye/dyewhiterecipe
-minecraftfuture:dye/dyebrownrecipe
-minecraftfuture:dye/dyebluerecipe
-minecraftfuture:dye/dyeblackrecipe
 grapplemod:forcefieldupgradeitem
 grapplemod:motorupgradeitem
 grapplemod:throwupgradeitem
@@ -3229,45 +3179,24 @@ rustic:brewing_barrel
 rustic:barrel
 rustic:apiary
 rustic:almanac
-scalinghealth:medkit
 scalinghealth:heart_dust
 scalinghealth:heart_container
 scalinghealth:bandages
 simpleores:mythril_block
 simpleores:tin_block
-simpleores:tin_helmet
-simpleores:tin_axe
-simpleores:copper_shovel
-simpleores:copper_axe
-simpleores:tin_shovel
 simpleores:onyx_rod
 simpleores:mythril_rod
-simpleores:tin_shears
-simpleores:copper_chestplate
-simpleores:copper_pickaxe
-simpleores:tin_pickaxe
-simpleores:copper_hoe
-simpleores:copper_shears
-simpleores:copper_sword
 simpleores:tin_ingot
 simpleores:mythril_shears
-simpleores:tin_leggings
 simpleores:onyx_block
 simpleores:mythril_ingot
 simpleores:adamantium_shears
-simpleores:copper_helmet
-simpleores:copper_leggings
 simpleores:onyx_shears
-simpleores:tin_boots
-simpleores:tin_hoe
 simpleores:copper_ingot
-simpleores:tin_chestplate
-simpleores:tin_sword
 simpleores:adamantium_ingot
 simpleores:copper_block
 simpleores:adamantium_block
 simpleores:onyx_gem
-simpleores:copper_boots
 spartanweaponry:warhammer_stone
 spartanweaponry:warhammer_iron
 spartanweaponry:warhammer_gold
@@ -4089,10 +4018,42 @@ quark:grate
 quark:charcoal_block
 quark:coal
 quark:glass_item_frame
+quark:stone_pickaxe
+quark:stone_shovel
+quark:stone_axe
+quark:stone_hoe
+quark:stone_sword
+quark:clay_ball
+quark:glass
+quark:stained_glass
+quark:stained_glass_1
+quark:stained_glass_2
+quark:stained_glass_3
+quark:stained_glass_4
+quark:stained_glass_5
+quark:stained_glass_6
+quark:stained_glass_7
+quark:stained_glass_8
+quark:stained_glass_9
+quark:stained_glass_10
+quark:stained_glass_11
+quark:stained_glass_12
+quark:stained_glass_13
+quark:stained_glass_14
+quark:stained_glass_15
 quark:backpack
-quark:root_dye
-quark:root_dye_1
-quark:root_dye_2
+quark:chute
+quark:sugar_block
+quark:iron_button
+quark:iron_button_1
+quark:gold_button
+quark:gold_button_1
+quark:iron_rod
+quark:gravisand
+quark:obsidian_pressure_plate
+quark:rain_detector
+quark:elytra_dyeing
+quark:firework_cloning
 quark:biotite_slab
 quark:biotite_stairs
 quark:biotite_wall
@@ -4125,39 +4086,6 @@ quark:elder_prismarine_wall
 quark:elder_prismarine_bricks_wall
 quark:elder_prismarine_dark_wall
 quark:mushroom_stew
-quark:stone_pickaxe
-quark:stone_shovel
-quark:stone_axe
-quark:stone_hoe
-quark:stone_sword
-quark:clay_ball
-quark:glass
-quark:stained_glass
-quark:stained_glass_1
-quark:stained_glass_2
-quark:stained_glass_3
-quark:stained_glass_4
-quark:stained_glass_5
-quark:stained_glass_6
-quark:stained_glass_7
-quark:stained_glass_8
-quark:stained_glass_9
-quark:stained_glass_10
-quark:stained_glass_11
-quark:stained_glass_12
-quark:stained_glass_13
-quark:stained_glass_14
-quark:stained_glass_15
-quark:chute
-quark:sugar_block
-quark:iron_button
-quark:iron_button_1
-quark:gold_button
-quark:gold_button_1
-quark:iron_rod
-quark:gravisand
-quark:obsidian_pressure_plate
-quark:rain_detector
 quark:sandstone_new
 quark:sandstone_new_1
 quark:sandstone_new_2
@@ -4468,8 +4396,6 @@ quark:tnt_minecart
 quark:chest_minecart_1
 quark:horse_whistle
 quark:elytra_duplication
-quark:elytra_dyeing
-quark:firework_cloning
 quark:spruce_trapdoor
 quark:birch_trapdoor
 quark:jungle_trapdoor
@@ -4511,36 +4437,6 @@ quark:birch_button
 quark:jungle_button
 quark:acacia_button
 quark:dark_oak_button
-quark:rune_1
-quark:rune_2
-quark:rune_3
-quark:rune_4
-quark:rune_5
-quark:rune_6
-quark:rune_7
-quark:rune_8
-quark:rune_9
-quark:crystal_pane
-quark:crystal_pane_1
-quark:crystal_pane_2
-quark:crystal_pane_3
-quark:crystal_pane_4
-quark:crystal_pane_5
-quark:crystal_pane_6
-quark:crystal_pane_7
-quark:crystal_pane_8
-quark:stone_speleothem
-quark:granite_speleothem
-quark:diorite_speleothem
-quark:andesite_speleothem
-quark:netherrack_speleothem
-quark:biome_brick
-quark:biome_brick_1
-quark:elder_prismarine
-quark:elder_prismarine_1
-quark:elder_prismarine_2
-quark:elder_sea_lantern
-quark:biome_cobblestone
 quark:slabs_to_stairs
 quark:stairs_to_blocks
 quark:wool
@@ -4616,6 +4512,36 @@ quark:color_slime_2
 quark:color_slime_3
 quark:color_slime_4
 quark:redstone_inductor
+quark:rune_1
+quark:rune_2
+quark:rune_3
+quark:rune_4
+quark:rune_5
+quark:rune_6
+quark:rune_7
+quark:rune_8
+quark:rune_9
+quark:crystal_pane
+quark:crystal_pane_1
+quark:crystal_pane_2
+quark:crystal_pane_3
+quark:crystal_pane_4
+quark:crystal_pane_5
+quark:crystal_pane_6
+quark:crystal_pane_7
+quark:crystal_pane_8
+quark:stone_speleothem
+quark:granite_speleothem
+quark:diorite_speleothem
+quark:andesite_speleothem
+quark:netherrack_speleothem
+quark:biome_brick
+quark:biome_brick_1
+quark:elder_prismarine
+quark:elder_prismarine_1
+quark:elder_prismarine_2
+quark:elder_sea_lantern
+quark:biome_cobblestone
 quark:sandstone_new_4
 quark:sandstone_new_5
 quark:world_stone_bricks
@@ -5173,6 +5099,21 @@ crafttweaker:lucky horseshoe
 crafttweaker:obsidian skull
 crafttweaker:magic mirror
 crafttweaker:cobalt shield
+crafttweaker:bronze helmet
+crafttweaker:bronze chestplate
+crafttweaker:bronze leggings
+crafttweaker:bronze boots
+crafttweaker:bronze sword
+crafttweaker:bronze shovel
+crafttweaker:bronze pickaxe
+crafttweaker:bronze axe
+crafttweaker:bronze hoe
+crafttweaker:bronze block
+crafttweaker:bronze lunarin
+crafttweaker:bronze plate
+crafttweaker:bronze to ingot
+crafttweaker:bronze to nugget
+crafttweaker:copper tin mixture
 crafttweaker:grave scroll 1
 crafttweaker:grave scroll 2
 crafttweaker:air balloon
@@ -5190,6 +5131,46 @@ crafttweaker:portable tunneling device
 crafttweaker:portable piston device
 crafttweaker:portable piston device (sticky)
 crafttweaker:powered bars
+crafttweaker:standard dye 1 
+crafttweaker:standard dye 2 
+crafttweaker:standard dye 3 
+crafttweaker:standard dye 4 
+crafttweaker:standard dye 5 
+crafttweaker:standard dye 7 
+crafttweaker:standard dye 9 
+crafttweaker:standard dye 10
+crafttweaker:standard dye 11
+crafttweaker:standard dye 12
+crafttweaker:standard dye 13
+crafttweaker:standard dye 14
+crafttweaker:standard dye 15
+crafttweaker:standard dye 16
+crafttweaker:standard dye 17
+crafttweaker:standard dye 18
+crafttweaker:standard dye 19
+crafttweaker:standard dye 20
+crafttweaker:standard dye 21
+crafttweaker:standard dye 22
+crafttweaker:standard dye 23
+crafttweaker:standard dye 24
+crafttweaker:standard dye 25
+crafttweaker:standard dye 26
+crafttweaker:standard dye 27
+crafttweaker:standard dye 28
+crafttweaker:standard dye 29
+crafttweaker:standard dye 30
+crafttweaker:standard dye 31
+crafttweaker:standard dye 32
+crafttweaker:standard dye 33
+crafttweaker:standard dye 34
+crafttweaker:standard dye 35
+crafttweaker:standard dye 36
+crafttweaker:standard dye 37
+crafttweaker:standard dye 38
+crafttweaker:standard dye 39
+crafttweaker:standard dye 40
+crafttweaker:green dye
+crafttweaker:green from lyme
 crafttweaker:obsidian shard
 crafttweaker:magnitifus
 crafttweaker:end shards
@@ -5241,6 +5222,22 @@ crafttweaker:gold lantern
 crafttweaker:tin lantern
 crafttweaker:iron candle
 crafttweaker:golden candle
+crafttweaker:medkit
+crafttweaker:trilium bandage
+crafttweaker:eucalyptus bandage
+crafttweaker:aloe bandage
+crafttweaker:glowshroom bandage
+crafttweaker:root bandage
+crafttweaker:clean soap bandage
+crafttweaker:squishy cicada bandage
+crafttweaker:ct_shaped947001589
+crafttweaker:ct_shapeless-1876161875
+crafttweaker:ct_shaped1626685072
+crafttweaker:ct_shapeless1346547962
+crafttweaker:ct_shaped501980076
+crafttweaker:ct_shapeless651832284
+crafttweaker:ct_shaped252137150
+crafttweaker:ct_shapeless-948902432
 crafttweaker:mythril battleaxe
 crafttweaker:mythril shield
 crafttweaker:nails
@@ -5285,15 +5282,15 @@ betterwithmods:wood/mine_planks
 betterwithmods:wood/sort_planks
 betterwithmods:torch
 betterwithmods:baiting_recipe
-betterwithmods:siding_iron
-betterwithmods:moulding_iron
-betterwithmods:corner_iron
 betterwithmods:siding_wood
 betterwithmods:moulding_wood
 betterwithmods:corner_wood
 betterwithmods:siding_rock
 betterwithmods:moulding_rock
 betterwithmods:corner_rock
+betterwithmods:siding_iron
+betterwithmods:moulding_iron
+betterwithmods:corner_iron
 betterwithmods:wood_siding.0
 betterwithmods:wood_moulding.0
 betterwithmods:wood_corner.0
