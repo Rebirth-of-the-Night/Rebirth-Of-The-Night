@@ -1016,7 +1016,7 @@
     "result": "allow"
  },
  {
-    "dimension": [0,1],
+    "dimension": [0,10,1],
     "mob": "specialmobs:blindingenderman",
     "result": "deny"
  },
