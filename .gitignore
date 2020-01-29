@@ -23,3 +23,5 @@ config/multimob/modInformation/
 ActualMusic/Config/config.tsv
 saves/
 config/biomesoplenty/biomes/defaults/
+screenshots/
+crash-reports/
