@@ -79,7 +79,9 @@ Underground[2],redirectSong:IntoSilenceP1
 BiomeType(Nether)[1],redirectSong:Mufaya-DarkAscension
 BiomeType(Nether)[2],redirectSong:TheShapersRealm
 BiomeType(End)[1],redirectSong:Storm
-Dimension(4)[1],redirectSong:EmptySong,Priority:20000  // Aether no music
+// Aether Legacy overrides, since there's no way to disable builtin Aether music
+Dimension(4)[1],redirectSong:EmptySong,priority:20000
+Dimension(4)-Sunrise[1],redirectSong:EmptySong
 Dimension(10)[1],redirectSong:WintersBreath,start:186000,Priority:20000 // The Beneath
 
 // Village
