@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late game crafting material. It can craft a Mattok, the best mining tool available! It is also needed for some late game contraptions.");
+mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock, the best mining tool available! It is also needed for some late game contraptions.");
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
