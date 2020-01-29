@@ -1,6 +1,6 @@
 import crafttweaker.item.IIngredient;
 
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Used to create many traps, an anvil used for late game crafting, and more.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Used to create many traps, an anvil used for crafting powerful items, and more.");
 
 mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-hand and the duct tape in your main hand. Right click to repair. Items can only be repaired with duct tape until they reach Duct Taped V");
 
@@ -56,6 +56,31 @@ furnace.remove(<dungeontactics:steel_ingot>);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_ring>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_ring");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:golden_ring>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:golden_ring");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:diamond_ring>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:diamond_ring");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:icarus_ring>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:icarus_ring");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:magic_tether>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:magic_tether");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:heart_drop>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:heart_drop");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:heart_jar>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:heart_jar");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:heart_golden>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:heart_golden");
+
+mods.jei.JEI.removeAndHide(<dungeontactics:fire_water>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:fire_water");
+
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_cluster>);

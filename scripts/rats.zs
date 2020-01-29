@@ -115,3 +115,42 @@ recipes.addShaped("feathery_wing", <rats:feathery_wing>,[
 
 // remove archeologist rat recipes
 mods.jei.JEI.hideCategory("rats.archeologist_rat");
+
+// #### need to add new mob soup recipe that requires herb bundle, up saturation value
+
+//chef rat recipes
+mods.rats.recipes.addChefRatRecipe(<minecraft:golden_apple:1>, <rats:confit_byaldi>);
+mods.rats.recipes.addChefRatRecipe(<minecraft:skull>, <harvestcraft:spaghettidinneritem>);
+mods.rats.recipes.addChefRatRecipe(<minecraft:rotten_flesh>, <harvestcraft:zombiejerkyitem>);
+mods.rats.recipes.addChefRatRecipe(<minecraft:spider_eye>, <harvestcraft:spidereyesoupitem>);
+mods.rats.recipes.addChefRatRecipe(<biomesoplenty:fleshchunk>, <minecraft:rotten_flesh>);
+mods.rats.recipes.addChefRatRecipe(<aether_legacy:cooked_enchanted_cockatrice>, <harvestcraft:deluxechickencurryitem>);
+mods.rats.recipes.addChefRatRecipe(<quark:root>, <harvestcraft:roastedrootveggiemedleyitem>);
+mods.rats.recipes.addChefRatRecipe(<quark:rune:16>, <harvestcraft:epicbaconitem>);
+mods.rats.recipes.addChefRatRecipe(<quark:enderdragon_scale>, <harvestcraft:mobsoupitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:deathworm_tounge>, <harvestcraft:sausageinbreaditem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_blue>, <harvestcraft:fishandchipsitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_bronze>, <harvestcraft:fishandchipsitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_deepblue>, <harvestcraft:fishandchipsitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_green>, <harvestcraft:fishandchipsitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_purple>, <harvestcraft:fishandchipsitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_red>, <harvestcraft:fishandchipsitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_teal>, <harvestcraft:fishandchipsitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_desert_egg>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_desert_egg:1>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_desert_egg:2>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_desert_egg:3>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_jungle_egg>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_jungle_egg:1>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_jungle_egg:2>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:myrmex_jungle_egg:3>, <harvestcraft:eggsbenedictitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:fire_dragon_heart>, <harvestcraft:heartybreakfastitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:ice_dragon_heart>, <harvestcraft:heartybreakfastitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:fire_dragon_flesh>, <harvestcraft:meatfeastpizzaitem>);
+mods.rats.recipes.addChefRatRecipe(<iceandfire:ice_dragon_flesh>, <harvestcraft:meatfeastpizzaitem>);
+
+
+
+
+
+

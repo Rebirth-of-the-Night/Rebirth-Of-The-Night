@@ -5,6 +5,15 @@ recipes.remove(<minecraft:bread>);
 recipes.remove(<harvestcraft:well>);
 recipes.remove(<harvestcraft:zombiejerkyitem>);
 recipes.remove(<harvestcraft:cheeseitem>);
+recipes.remove(<harvestcraft:epicbaconitem>);
+recipes.remove(<harvestcraft:epicbltitem>);
+recipes.remove(<harvestcraft:sausageinbreaditem>);
+recipes.remove(<harvestcraft:beefwellingtonitem>);
+recipes.remove(<harvestcraft:spidereyesoupitem>);
+recipes.remove(<harvestcraft:spidereyepieitem>);
+recipes.remove(<harvestcraft:slimepieitem>);
+recipes.remove(<harvestcraft:mobsoupitem>);
+
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
 
