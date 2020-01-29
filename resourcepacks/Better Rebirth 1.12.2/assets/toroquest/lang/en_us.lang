@@ -1,0 +1,24 @@
+﻿item.samurai_boots.name=Ō-yoroi Fauld
+item.samurai_helmet.name=Ō-yoroi Helm
+item.samurai_leggings.name=Ō-yoroi Greaves
+item.samurai_chestplate.name=Ō-yoroi Cuirass
+item.toro_armor_boots.name=Astado Boots
+item.toro_armor_helmet.name=Astado Helmet
+item.toro_armor_leggings.name=Astado Leggings
+item.toro_armor_chestplate.name=Astado Chestplate
+item.toro_leather.name=Astado Leather
+
+entity.toroquest.toro.name=Astado
+entity.toro.name=Astado
+entity.toroquest_toro.name=Astado
+
+entity.toroquest.sentry.name=Grunt
+entity.sentry.name=Grunt
+entity.toroquest_sentry.name=Grunt
+
+civilization.earth.name=Terra
+civilization.wind.name=Gustaberg
+civilization.fire.name=Emberium
+civilization.moon.name=Shadits
+civilization.sun.name=Lumens
+civilization.water.name=Umbertau
