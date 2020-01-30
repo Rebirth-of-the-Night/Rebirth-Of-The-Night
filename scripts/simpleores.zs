@@ -30,13 +30,13 @@ recipes.remove(<simpleores:onyx_hoe>);
 
 //Extra Parts
 recipes.addShaped(<simpleores:adamantium_ingot>, [[<contenttweaker:material_part:10>, <contenttweaker:material_part:10>, <contenttweaker:material_part:10>],[<contenttweaker:material_part:10>, <contenttweaker:material_part:10>, <contenttweaker:material_part:10>], [<contenttweaker:material_part:10>, <contenttweaker:material_part:10>, <contenttweaker:material_part:10>]]);
-recipes.addShapeless(<contenttweaker:material_part:10>, [<simpleores:adamantium_ingot>*9]);
+recipes.addShapeless(<contenttweaker:material_part:10>*9, [<simpleores:adamantium_ingot>]);
 recipes.addShaped(<simpleores:mythril_ingot>, [[<contenttweaker:material_part:8>, <contenttweaker:material_part:8>, <contenttweaker:material_part:8>],[<contenttweaker:material_part:8>, <contenttweaker:material_part:8>, <contenttweaker:material_part:8>], [<contenttweaker:material_part:8>, <contenttweaker:material_part:8>, <contenttweaker:material_part:8>]]);
-recipes.addShapeless(<contenttweaker:material_part:8>, [<simpleores:mythril_ingot>*9]);
+recipes.addShapeless(<contenttweaker:material_part:8>*9, [<simpleores:mythril_ingot>]);
 recipes.addShaped(<simpleores:copper_ingot>, [[<contenttweaker:material_part:4>, <contenttweaker:material_part:4>, <contenttweaker:material_part:4>],[<contenttweaker:material_part:4>, <contenttweaker:material_part:4>, <contenttweaker:material_part:4>], [<contenttweaker:material_part:4>, <contenttweaker:material_part:4>, <contenttweaker:material_part:4>]]);
-recipes.addShapeless(<contenttweaker:material_part:4>, [<simpleores:copper_ingot>*9]);
+recipes.addShapeless(<contenttweaker:material_part:4>*9, [<simpleores:copper_ingot>]);
 recipes.addShaped(<simpleores:tin_ingot>, [[<contenttweaker:material_part:6>, <contenttweaker:material_part:6>, <contenttweaker:material_part:6>],[<contenttweaker:material_part:6>, <contenttweaker:material_part:6>, <contenttweaker:material_part:6>], [<contenttweaker:material_part:6>, <contenttweaker:material_part:6>, <contenttweaker:material_part:6>]]);
-recipes.addShapeless(<contenttweaker:material_part:6>, [<simpleores:tin_ingot>*9]);
+recipes.addShapeless(<contenttweaker:material_part:6>*9, [<simpleores:tin_ingot>]);
 
 //Better With Mods SFS Anvil
 //Values
