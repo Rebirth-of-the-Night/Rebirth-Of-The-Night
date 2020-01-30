@@ -259,11 +259,13 @@
     "mob": "magma_monsters:magma_monster_grunt",
     "gamestage": "enteredNether",
     "maxheight": 32,
- 	"amount": 5,
+    "maxcount": {
+        "amount": 3,
         "perplayer": true
     },
     "result": "allow"
  },
+
  {
     "dimension": 0,
     "mob": "magma_monsters:magma_monster_grunt",
@@ -328,7 +330,7 @@
     "result": "default"
  },
  {
-    "dimension": [0,10],
+    "dimension": [0,1,10],
     "mob": "primitivemobs:void_eye",
     "result": "deny"
  },
