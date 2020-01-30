@@ -219,6 +219,7 @@
     "dimension": 0,
     "mob": "netherex:salamander",
     "gamestage": "enteredNether",
+    "maxheight": 32,
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -258,6 +259,9 @@
     "mob": "magma_monsters:magma_monster_grunt",
     "gamestage": "enteredNether",
     "maxheight": 32,
+ 	"amount": 5,
+        "perplayer": true
+    },
     "result": "allow"
  },
  {

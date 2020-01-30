@@ -3,6 +3,17 @@ import crafttweaker.item.IIngredient;
 mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<minecraft:bread>);
 recipes.remove(<harvestcraft:well>);
+recipes.remove(<harvestcraft:zombiejerkyitem>);
+recipes.remove(<harvestcraft:cheeseitem>);
+recipes.remove(<harvestcraft:epicbaconitem>);
+recipes.remove(<harvestcraft:epicbltitem>);
+recipes.remove(<harvestcraft:sausageinbreaditem>);
+recipes.remove(<harvestcraft:beefwellingtonitem>);
+recipes.remove(<harvestcraft:spidereyesoupitem>);
+recipes.remove(<harvestcraft:spidereyepieitem>);
+recipes.remove(<harvestcraft:slimepieitem>);
+recipes.remove(<harvestcraft:mobsoupitem>);
+
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
 
@@ -24,6 +35,7 @@ mods.jei.JEI.removeAndHide(<harvestcraft:candledeco14>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco15>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
 
+
 //hideCategory(Grinder, Presser and Trap)
 mods.jei.JEI.hideCategory("jehc.ground_trap");
 mods.jei.JEI.hideCategory("jehc.water_trap");
@@ -36,10 +48,64 @@ mods.jei.JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
+
+mods.jei.JEI.removeAndHide(<harvestcraft:groundtrap>);
+mods.jei.JEI.removeAndHide(<harvestcraft:watertrap>);
+mods.jei.JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
 mods.jei.JEI.removeAndHide(<harvestcraft:presser>);
 
+// copper can be used instead of clay brick
+//pot
+recipes.addShaped("Pot", <harvestcraft:potitem>,[
+	[null, null, null],
+	[<ore:stickWood>, <simpleores:copper_ingot>, <simpleores:copper_ingot>],
+	[null, <simpleores:copper_ingot>, <simpleores:copper_ingot>]
+]);
 
+//skillet
+recipes.addShaped("Skillet", <harvestcraft:skilletitem>,[
+	[<simpleores:copper_ingot>, null, null],
+	[null, <simpleores:copper_ingot>, null],
+	[null, null, <ore:stickWood>]
+]);
+
+//saucepan
+recipes.addShaped("Saucepan", <harvestcraft:saucepanitem>,[
+	[<simpleores:copper_ingot>, null, null],
+	[null, <ore:stickWood>, null]
+]);
+
+//bakeware
+recipes.addShaped("Bakeware", <harvestcraft:bakewareitem> * 3,[
+	[<simpleores:copper_ingot>, <simpleores:copper_ingot>, <simpleores:copper_ingot>],
+	[<simpleores:copper_ingot>, null, <simpleores:copper_ingot>],
+	[<simpleores:copper_ingot>, <simpleores:copper_ingot>, <simpleores:copper_ingot>]
+]);
+
+// tin uses
+recipes.remove(<sereneseasons:season_clock>);
+
+recipes.addShaped("tintripwirehook", <minecraft:tripwire_hook> * 2,[
+	[null, <simpleores:tin_ingot>, null],
+	[null, <ore:stickWood>, null],
+	[null, <ore:plankWood>, null]
+]);
+
+recipes.addShaped("tincompass", <minecraft:tripwire_hook> * 2,[
+	[null, <simpleores:tin_ingot>, null],
+	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
+	[null, <simpleores:tin_ingot>, null]
+]);
+
+recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
+	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>],
+	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
+	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>]
+]);
 
 recipes.addShaped("water well", <harvestcraft:well>,[
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
