@@ -42,7 +42,7 @@ lslimeMain.removeEntry("minecraft:diamond");
 lslimeMain.removeEntry("minecraft:ender_eye");
 lslimeMain.removeEntry("minecraft:blaze_powder");
 lslimeMain.addItemEntryHelper(<betterwithmods:material:26>, 4, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<rats:cheese>, 6, 0, [Functions.setCount(1, 1)], []);
+
 lslimeMain.addItemEntryHelper(<dungeontactics:diamond_nugget>, 1, 0, [Functions.setCount(1, 1)], []);
 lslimeMain.addItemEntryHelper(<dungeontactics:silver_nugget>, 5, 0, [Functions.setCount(1, 1)], []);
 lslimeMain.addItemEntryHelper(<simpleores:copper_ingot>, 6, 0, [Functions.setCount(1, 1)], []);
@@ -62,14 +62,14 @@ filchMain.addItemEntryHelper(<simpleores:tin_ingot>, 6, 0, [Functions.setCount(1
 filchMain.addItemEntryHelper(<harvestcraft:agaveseeditem>, 6, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<harvestcraft:cactusfruitseeditem>, 5, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:bone>, 5, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<rats:raw_rat>, 4, 0, [Functions.setCount(1, 1)], []);
+
 filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_resin>, 3, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:poisonous_potato>, 3, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<dungeontactics:silver_ingot>, 3, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:rabbit_foot>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:torch>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<totemexpansion:totem_base>, 2, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<rats:herb_bundle>, 2, 0, [Functions.setCount(1, 1)], []);
+
 filchMain.addItemEntryHelper(<betterwithmods:mystery_meat>, 1, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<harvestcraft:pizzasliceitem>, 1, 0, [Functions.setCount(1, 1)], []);

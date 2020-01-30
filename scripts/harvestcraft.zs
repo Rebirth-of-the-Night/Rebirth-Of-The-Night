@@ -101,7 +101,7 @@ recipes.addShaped("tincompass", <minecraft:tripwire_hook> * 2,[
 	[null, <simpleores:tin_ingot>, null]
 ]);
 
-recipes.addShaped("seasonclock", <sereneseasons:season_clock> [
+recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
 	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>],
 	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
 	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>]
