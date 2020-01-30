@@ -50,6 +50,11 @@
 <eplus:table_upgrade>.displayName = "Enchantment Table Upgrade";
 <eplus:advanced_table>.displayName = "§6True Enchantment Table";
 
+
+// Shields
+<spartanshields:shield_basic_lead>.displayName = "§5Mythril Shield";
+
+
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
