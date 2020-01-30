@@ -11,4 +11,4 @@ criteria = addCriteria("Mythril Ore", "minecraft:inventory_changed")
 criteria.addItem(<ore:oreMythril>)
 
 alwaysVisible()
-setPos(3,24)
+setPos(3,33)

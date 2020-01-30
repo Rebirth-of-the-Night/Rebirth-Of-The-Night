@@ -8,4 +8,4 @@ criteria = addCriteria("Viridium Ore", "minecraft:inventory_changed")
 criteria.addItem(<ore:oreAdamantium>)
 
 alwaysVisible()
-setPos(3,-22)
+setPos(3,-26)

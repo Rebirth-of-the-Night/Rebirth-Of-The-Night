@@ -379,7 +379,7 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_ring");
 var powder = <dungeontactics:magic_powder>;
 var nugget = <minecraft:gold_nugget>;
 var pumpkin = <minecraft:pumpkin>;
-var lantern = <rustic:iron_lantern>;
+var lantern = <rustic:golden_lantern>;
 
 recipes.addShaped("Magic Lantern", <dungeontactics:lantern_magic>,[
 	[<simpleores:mythril_ingot>, <netherex:ghast_queen_tear>, <simpleores:mythril_ingot>],

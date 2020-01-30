@@ -8,4 +8,4 @@ criteria = addCriteria("Gold ore", "minecraft:inventory_changed")
 criteria.addItem(<ore:oreGold>)
 
 alwaysVisible()
-setPos(-99,-54)
+setPos(-100,-57)

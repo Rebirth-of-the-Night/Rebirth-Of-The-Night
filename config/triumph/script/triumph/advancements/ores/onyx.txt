@@ -10,4 +10,4 @@ criteria.addItem("simpleores:onyx_gem")
 
 alwaysVisible()
 setFrameType("CHALLENGE")
-setPos(49,24)
+setPos(53,33)

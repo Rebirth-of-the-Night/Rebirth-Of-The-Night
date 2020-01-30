@@ -8,4 +8,4 @@ criteria = addCriteria("Redstone", "minecraft:inventory_changed")
 criteria.addItem("minecraft:redstone")
 
 alwaysVisible()
-setPos(-99,33)
+setPos(-100,33)

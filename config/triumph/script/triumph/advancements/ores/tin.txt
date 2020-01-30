@@ -8,4 +8,4 @@ criteria = addCriteria("Tin ore", "minecraft:inventory_changed")
 criteria.addItem(<ore:oreTin>)
 
 alwaysVisible()
-setPos(-180,4)
+setPos(-218,-26)

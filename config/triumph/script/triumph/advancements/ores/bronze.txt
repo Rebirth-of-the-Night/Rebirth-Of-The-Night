@@ -1,0 +1,11 @@
+setIcon("contenttweaker:material_part")
+setTitle("Bronze")
+setDescription("Obtain Bronze.")
+
+addParent("triumph:advancements/ores/tin")
+
+criteria = addCriteria("Bronze", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotBronze>)
+
+alwaysVisible()
+setPos(-174,4)

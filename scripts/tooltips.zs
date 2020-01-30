@@ -53,3 +53,4 @@
 <dungeontactics:lantern_magic>.addTooltip("Outputs a magical aura that forces mobs to walk away from it.");
 <iceandfire:dragonbone_bow>.addTooltip("Only shoots Dragonbone Arrows.");
 <dungeontactics:lantern_magic>.addTooltip("Light with a Flint and Steel to activate.");
+<dungeontactics:lantern_magic>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));

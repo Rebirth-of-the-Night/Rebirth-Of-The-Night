@@ -8,4 +8,4 @@ criteria = addCriteria("Silver ore", "minecraft:inventory_changed")
 criteria.addItem(<ore:oreSilver>)
 
 alwaysVisible()
-setPos(-81,4)
+setPos(-80,4)

@@ -10,4 +10,4 @@ criteria = addCriteria("Diamond", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond")
 
 alwaysVisible()
-setPos(-43,4)
+setPos(-38,4)

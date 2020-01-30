@@ -8,4 +8,4 @@ criteria = addCriteria("Lapis", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:dye, ore:gemLapis, meta:4, count:1>)
 
 alwaysVisible()
-setPos(-99,-26)
+setPos(-100,-26)

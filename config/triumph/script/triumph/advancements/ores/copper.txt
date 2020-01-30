@@ -9,4 +9,4 @@ criteria.addItem(<ore:oreCopper>)
 
 hideLines()
 alwaysVisible()
-setPos(-229,4)
+setPos(-218,33)
