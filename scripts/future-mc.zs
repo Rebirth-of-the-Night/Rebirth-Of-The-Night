@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 mods.jei.JEI.removeAndHide(<minecraftfuture:lantern>);
+mods.jei.JEI.removeAndHide(<minecraftfuture:barrel>);
 recipes.remove(<minecraftfuture:stonecutter>);
 
 var a = <minecraft:stone>;
