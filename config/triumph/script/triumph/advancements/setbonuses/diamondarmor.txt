@@ -17,6 +17,6 @@ criteria.addItem("minecraft:diamond_leggings")
 
 criteria = addCriteria("Diamond Boots", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond_boots")
-setPos(-170,11)
+setPos(-169,11)
 
 alwaysVisible()

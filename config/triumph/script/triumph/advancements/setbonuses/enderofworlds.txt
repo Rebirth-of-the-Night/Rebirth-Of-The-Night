@@ -1,0 +1,13 @@
+setIcon("msmlegacy:adminium_ark")
+setTitle("Creator's Blade")
+setDescription("You shouldn't have this.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Ender of Worlds", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:adminium_ark")
+
+setHidden()
+setFrameType("CHALLENGE")
+hideLines()
+setPos(27,11)
