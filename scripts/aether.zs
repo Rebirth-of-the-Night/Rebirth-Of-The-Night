@@ -1,5 +1,24 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.removeAndHide(<toroquest:obsidian_sword>);
+mods.jei.JEI.removeAndHide(<toroquest:fire_sword>);
+mods.jei.JEI.removeAndHide(<toroquest:sword_of_pain>);
+mods.jei.JEI.removeAndHide(<toroquest:pickaxe_of_greed>);
+mods.jei.JEI.removeAndHide(<toroquest:diamond_battle_axe>);
+
+mods.ltt.LootTable.removeGlobalItem("toroquest:obsidian_sword");
+mods.ltt.LootTable.removeGlobalItem("toroquest:fire_sword");
+mods.ltt.LootTable.removeGlobalItem("toroquest:sword_of_pain");
+mods.ltt.LootTable.removeGlobalItem("toroquest:pickaxe_of_greed");
+mods.ltt.LootTable.removeGlobalItem("toroquest:diamond_battle_axe");
+
+
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_helmet");
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_boots");
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_leggings");
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_feather");
+
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_chestplate>);
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_helmet>);
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_boots>);
