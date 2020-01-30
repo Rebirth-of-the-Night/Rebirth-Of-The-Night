@@ -396,23 +396,6 @@ recipes.addShapedMirrored("Iron Ring", <dungeontactics:iron_ring>,[
     [null, ironnugget, ironnugget]
 ]);
 
-
-var tiningot = <simpleores:tin_ingot>;
-var tinnugget = <dungeontactics:mithril_nugget>;
-
-recipes.addShapedMirrored("Tin Nugget", <dungeontactics:mithril_nugget>*9,[
-	[null, null, null],
-    [null, tiningot, null],
-    [null, null, null]
-]);
-
-recipes.addShapedMirrored("Tin Ingot", <simpleores:tin_ingot>,[
-	[tinnugget, tinnugget, tinnugget],
-    [tinnugget, tinnugget, tinnugget],
-    [tinnugget, tinnugget, tinnugget]
-]);
-
-
 recipes.remove(<dungeontactics:tunnelling_device>);
 recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
 	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],
