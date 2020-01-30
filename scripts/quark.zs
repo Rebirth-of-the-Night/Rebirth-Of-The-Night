@@ -23,6 +23,7 @@ mods.jei.JEI.removeAndHide(<quark:candle:15>);
 
 
 recipes.remove(<quark:backpack>);
+recipes.remove(<quark:pipe>);
 
 recipes.addShaped("Backpack", <quark:backpack>,[
 	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>],

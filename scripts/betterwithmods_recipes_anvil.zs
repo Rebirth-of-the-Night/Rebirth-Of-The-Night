@@ -98,3 +98,13 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:glacial_blade>.withTag({ench: [{l
    [dragonsteel_fire, dragonsteel_fire, fire_dragonsteel_sword, dragonsteel_ice],
    [dragonsteel_fire, dragonsteel_fire, dragonsteel_ice, dragonsteel_ice]
 ]);
+
+
+// pipes
+mods.betterwithmods.Anvil.addShaped(<quark:pipe> * 12, 
+[
+   [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null],
+   [<simpleores:copper_ingot>, <ore:paneGlass>, <ore:paneGlass>, <simpleores:copper_ingot>],
+   [<simpleores:copper_ingot>, <ore:paneGlass>, <ore:paneGlass>, <simpleores:copper_ingot>],
+   [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null]
+]);

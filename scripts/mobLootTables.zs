@@ -209,31 +209,15 @@ LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("haun
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanshields:shield_basic_stone>, 7, 0, "spartanshields:shield_basic_stone");
 
 //copper
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:copper_sword>, 6, 0, "simpleores:copper_sword");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:copper_pickaxe>, 6, 0, "simpleores:copper_pickaxe");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:copper_axe>, 6, 0, "simpleores:copper_axe");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:copper_shovel>, 6, 0, "simpleores:copper_shovel");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:copper_hoe>, 6, 0, "simpleores:copper_hoe");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:dagger_copper>, 6, 0, "spartanweaponry:dagger_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:longsword_copper>, 6, 0, "spartanweaponry:longsword_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:katana_copper>, 6, 0, "spartanweaponry:katana_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:saber_copper>, 6, 0, "spartanweaponry:saber_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:rapier_copper>, 6, 0, "spartanweaponry:rapier_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:greatsword_copper>, 5, 0, "spartanweaponry:greatsword_copper");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:hammer_copper>, 6, 0, "spartanweaponry:hammer_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:warhammer_copper>, 6, 0, "spartanweaponry:warhammer_copper");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:spear_copper>, 6, 0, "spartanweaponry:spear_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:halberd_copper>, 6, 0, "spartanweaponry:halberd_copper");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:pike_copper>, 6, 0, "spartanweaponry:pike_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:lance_copper>, 6, 0, "spartanweaponry:lance_copper");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:throwing_knife_copper>, 6, 0, "spartanweaponry:throwing_knife_copper");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:throwing_axe_copper>, 6, 0, "spartanweaponry:throwing_axe_copper");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:javelin_copper>, 6, 0, "spartanweaponry:javelin_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:battleaxe_copper>, 6, 0, "spartanweaponry:battleaxe_copper");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:mace_copper>, 6, 0, "spartanweaponry:mace_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:glaive_copper>, 6, 0, "spartanweaponry:glaive_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:staff_copper>, 6, 0, "spartanweaponry:staff_copper");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanshields:shield_basic_copper>, 5, 0, "spartanshields:shield_basic_copper");
 
 //iron
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:dagger_iron>, 5, 0, "spartanweaponry:dagger_iron");
@@ -259,31 +243,7 @@ LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("haun
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanshields:shield_basic_iron>, 4, 0, "spartanshields:shield_basic_iron");
 
 //tin
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:tin_sword>, 4, 0, "simpleores:tin_sword");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:tin_pickaxe>, 4, 0, "simpleores:tin_pickaxe");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:tin_axe>, 4, 0, "simpleores:tin_axe");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:tin_shovel>, 4, 0, "simpleores:tin_shovel");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<simpleores:tin_hoe>, 4, 0, "simpleores:tin_hoe");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:dagger_tin>, 4, 0, "spartanweaponry:dagger_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:longsword_tin>, 4, 0, "spartanweaponry:longsword_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:katana_tin>, 4, 0, "spartanweaponry:katana_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:saber_tin>, 4, 0, "spartanweaponry:saber_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:rapier_tin>, 4, 0, "spartanweaponry:rapier_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:greatsword_tin>, 3, 0, "spartanweaponry:greatsword_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:hammer_tin>, 4, 0, "spartanweaponry:hammer_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:warhammer_tin>, 4, 0, "spartanweaponry:warhammer_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:spear_tin>, 4, 0, "spartanweaponry:spear_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:halberd_tin>, 4, 0, "spartanweaponry:halberd_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:pike_tin>, 4, 0, "spartanweaponry:pike_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:lance_tin>, 4, 0, "spartanweaponry:lance_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:throwing_knife_tin>, 4, 0, "spartanweaponry:throwing_knife_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:throwing_axe_tin>, 4, 0, "spartanweaponry:throwing_axe_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:javelin_tin>, 4, 0, "spartanweaponry:javelin_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:battleaxe_tin>, 4, 0, "spartanweaponry:battleaxe_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:mace_tin>, 4, 0, "spartanweaponry:mace_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:glaive_tin>, 4, 0, "spartanweaponry:glaive_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:staff_tin>, 4, 0, "spartanweaponry:staff_tin");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanshields:shield_basic_tin>, 3, 0, "spartanshields:shield_basic_tin");
 
 //gold
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:dagger_gold>, 3, 0, "spartanweaponry:dagger_gold");
