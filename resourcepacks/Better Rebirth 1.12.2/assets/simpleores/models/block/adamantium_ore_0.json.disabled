@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "blocks/adamantium_ore_0"
+    }
+}
