@@ -382,9 +382,9 @@ var pumpkin = <minecraft:pumpkin>;
 var lantern = <rustic:iron_lantern>;
 
 recipes.addShaped("Magic Lantern", <dungeontactics:lantern_magic>,[
-	[nugget, powder, nugget],
+	[<simpleores:mythril_ingot>, <netherex:ghast_queen_tear>, <simpleores:mythril_ingot>],
     [powder, lantern, powder],
-    [nugget, pumpkin, nugget]
+    [<simpleores:mythril_ingot>, pumpkin, <simpleores:mythril_ingot>]
 ]);
 
 
