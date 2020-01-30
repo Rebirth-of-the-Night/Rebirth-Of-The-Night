@@ -43,7 +43,10 @@ mods.betterwithmods.Anvil.addShaped(<spartanshields:shield_basic_lead>,
    [<ore:ingotMythril>, <spartanshields:shield_basic_gold>, <ore:ingotMythril>, <ore:ingotMythril>],
    [<ore:ingotMythril>, <ore:ingotMythril>, null, null]
 ]);   
-
+mods.rockytweaks.Anvil.addRecipe(<spartanshields:shield_basic_lead>.anyDamage(), <ore:ingotMythril>, <spartanshields:shield_basic_lead>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
 
 
 mods.jei.JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairCost: 0, display: {Name: "Mythril Shield"}})],["It's on the edge of the abyss that this shield truly shines."]);
