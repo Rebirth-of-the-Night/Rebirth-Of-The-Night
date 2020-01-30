@@ -921,26 +921,6 @@
 
   {
     "dimension": 0,
-    "mob": "specialmobs:caramelslime",
-    "maxlight": 15,
-    "minlight": 14,
-    "random": 0.01,
-    "seesky": true,
-    "gamestage": "enteredBeneath",
-    "maxcount": {
-        "amount": 2,
-        "perplayer": true
-    },
-    "result": "allow"
- },
- {
-    "dimension": 0,
-    "mob": "specialmobs:caramelslime",
-    "result": "deny"
- },
-
-  {
-    "dimension": 0,
     "mob": "specialmobs:blueberryslime",
     "maxlight": 15,
     "minlight": 14,

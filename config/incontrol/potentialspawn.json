@@ -618,18 +618,6 @@
     "dimension": 0,
     "mobs": [
       {
-        "mob": "specialmobs:caramelslime",
-        "weight": 5,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-
-  {
-    "dimension": 0,
-    "mobs": [
-      {
         "mob": "specialmobs:blueberryslime",
         "weight": 5,
         "groupcountmin": 1,
