@@ -1,5 +1,5 @@
 setIcon("contenttweaker:material_part")
-setTitle("Bronze")
+setTitle("Bronze Age")
 setDescription("Obtain Bronze.")
 
 addParent("triumph:advancements/ores/tin")

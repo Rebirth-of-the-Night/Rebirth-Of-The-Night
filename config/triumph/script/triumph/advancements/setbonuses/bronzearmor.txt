@@ -1,5 +1,5 @@
 setIcon("atop:mud_chestplate")
-setTitle("Bronze Age")
+setTitle("Ancient Warfare")
 setDescription("Obtain all 4 bronze armor pieces.")
 
 addParent("triumph:advancements/setbonuses/root")
