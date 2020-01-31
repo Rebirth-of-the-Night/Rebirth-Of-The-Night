@@ -9,9 +9,13 @@
 
 // DT
 <dungeontactics:mithril_nugget>.displayName = "Tin Nugget";
+<dungeontactics:barrel>.displayName = "Small Barrel";
+
 
 // Rustic
 <rustic:iron_lantern>.displayName = "Tin Lantern";
+<rustic:barrel>.displayName = "Vertical Barrel";
+
 
 // Vanilla
 <minecraft:anvil>.displayName = "Iron Anvil";

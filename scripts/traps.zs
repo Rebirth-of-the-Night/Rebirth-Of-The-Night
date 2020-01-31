@@ -9,7 +9,7 @@ mods.jei.JEI.removeAndHide(<minetraps:fall_trap>);
 
 recipes.remove(<minetraps:nails>);
 
-var tinnugget = <dungeontactics:mithril_nugget>;
+var tinnugget = <contenttweaker:material_part:6>;
 
 recipes.addShaped("Nails", <minetraps:nails>,[
   [null, null, null],
