@@ -1,5 +1,5 @@
 //antler -> bonemeal
-recipes.addShapeless("antlerBonemeal", <minecraft:dye>*2,[<betteranimalsplus:antler>]);
+recipes.addShapeless("antlerBonemeal", <minecraft:dye:15>*2,[<betteranimalsplus:antler>]);
 
 //alternative throwbone recipe
 recipes.addShaped("antlerThrowbone", <doggytalents:throw_bone>,[
