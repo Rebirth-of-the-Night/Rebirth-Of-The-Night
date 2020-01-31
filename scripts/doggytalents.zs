@@ -24,3 +24,9 @@ recipes.addShaped("Collar", <doggytalents:wool_collar>,[
     [<minecraft:string>, null, <minecraft:string>],
     [null, <minecraft:string>, null]
 ]);
+
+recipes.remove(<doggytalents:tiny_bone>);
+recipes.addShapedMirrored("Tiny Bone", <doggytalents:tiny_bone>,[
+	[<ore:stickBone>, <ore:ingotTin>],
+    [<ore:ingotTin>, <ore:stickBone>]
+]);
