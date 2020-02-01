@@ -6,7 +6,7 @@ mods.jei.JEI.addDescription([<biomesoplenty:biome_essence>],["Can be found at th
 
 mods.jei.JEI.addDescription([<quark:witch_hat>],["Protects your items from being cursed by spectres."]);
 
-mods.jei.JEI.addDescription([<quark:tallow>],["Used for making candles and for repairing gear in an anvil."]);
+mods.jei.JEI.addDescription([<quark:tallow>],["Used for making candles and for repairing gear in an iron anvil."]);
 
 mods.jei.JEI.addDescription([<minecraft:cactus>],["Can be used to fill a bottle with water. Drink it in a very hot and dry biome to recieve a small buff."]);
 
