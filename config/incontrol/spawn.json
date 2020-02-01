@@ -219,7 +219,8 @@
     "dimension": 0,
     "mob": "netherex:salamander",
     "gamestage": "enteredNether",
-    "maxheight": 32,
+    "seesky": "false",
+    "maxheight": 48,
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -546,30 +547,18 @@
 {
     "mob": "specialmobs:hungryzombie",
     "random": 0.1,
-    "armorhelmet": "atop:mud_helmet",
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    }
+    "armorhelmet": "atop:mud_helmet"
 },
 {
     "mob": "specialmobs:hungryzombie",
     "random": 0.1,
-    "armorlegs": "atop:mud_leggings",
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    }
+    "armorlegs": "atop:mud_leggings"
 },
 {
     "mob": "specialmobs:hungryzombie",
     "random": 0.1,
     "armorboots": "atop:mud_boots",
-    "gamestage": "minedDiamond",
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    }
+    "gamestage": "minedDiamond"
 },
 
 
