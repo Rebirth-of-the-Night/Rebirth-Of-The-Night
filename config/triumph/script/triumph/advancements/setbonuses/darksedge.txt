@@ -1,4 +1,4 @@
-setIcon("msmlegacy:dawn_star")
+setIcon("msmlegacy:wither_bane")
 setTitle("Darkness Consumes All")
 setDescription("Craft a Dark's Edge")
 

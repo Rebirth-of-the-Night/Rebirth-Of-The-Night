@@ -161,7 +161,7 @@
 
 # Godly
 <msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
-<msmlegacy:dawn_star>.displayName = "§cDark's Edge";
+<msmlegacy:wither_bane>.displayName = "§cDark's Edge";
 <msmlegacy:glacial_blade>.displayName = "§cDragon's Bane";
 <msmlegacy:crystaline_blade>.displayName = "§cLight's Edge";
 <mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman";
