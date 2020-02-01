@@ -8,7 +8,6 @@ recipes.remove(<harvestcraft:cheeseitem>);
 recipes.remove(<harvestcraft:epicbaconitem>);
 recipes.remove(<harvestcraft:epicbltitem>);
 recipes.remove(<harvestcraft:sausageinbreaditem>);
-recipes.remove(<harvestcraft:beefwellingtonitem>);
 recipes.remove(<harvestcraft:spidereyesoupitem>);
 recipes.remove(<harvestcraft:spidereyepieitem>);
 recipes.remove(<harvestcraft:slimepieitem>);
@@ -57,6 +56,14 @@ mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
 mods.jei.JEI.removeAndHide(<harvestcraft:presser>);
+
+recipes.remove(<harvestcraft:stockitem>);
+recipes.addShapeless("harvestcraft_bonestock", <harvestcraft:stockitem>, [<ore:toolPot>, <minecraft:bone>]);
+
+recipes.addShapeless("harvestcraft_vegstock", <harvestcraft:stockitem> * 2, [<ore:toolPot>, <ore:listAllveggie>]);
+
+recipes.addShapeless("harvestcraft_meatstock", <harvestcraft:stockitem> * 3, [<ore:toolPot>, <ore:listAllmeatraw>]);
+
 
 // copper can be used instead of clay brick
 //pot
