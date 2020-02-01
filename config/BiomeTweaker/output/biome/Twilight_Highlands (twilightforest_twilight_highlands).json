@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "TWILIGHT",
     "MOUNTAIN",
-    "CONIFEROUS"
+    "CONIFEROUS",
+    "FOREST",
+    "TWILIGHT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -91,7 +91,7 @@
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
-      "Weight": 100,
+      "Weight": 50,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

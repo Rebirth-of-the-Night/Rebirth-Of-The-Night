@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "COLD",
-    "SNOWY",
     "TWILIGHT",
+    "SNOWY",
     "WASTELAND"
   ],
   "BiomeManager Entries": {},
@@ -49,7 +49,7 @@
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
-      "Weight": 100,
+      "Weight": 50,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

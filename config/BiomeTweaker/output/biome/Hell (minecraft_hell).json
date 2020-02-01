@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "NETHER",
+    "DRY",
     "HOT",
-    "DRY"
+    "NETHER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -77,7 +77,7 @@
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
-      "Weight": 100,
+      "Weight": 50,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

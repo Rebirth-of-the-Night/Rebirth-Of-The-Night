@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "DENSE",
-    "JUNGLE",
     "LUSH",
-    "WET"
+    "FOREST",
+    "WET",
+    "DENSE",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -352,7 +352,7 @@
       "Entity Class": "vazkii.quark.world.entity.EntityAshen",
       "Weight": 40,
       "Min Group Count": 1,
-      "Max Group Count": 2
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
@@ -398,7 +398,7 @@
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
-      "Weight": 100,
+      "Weight": 50,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

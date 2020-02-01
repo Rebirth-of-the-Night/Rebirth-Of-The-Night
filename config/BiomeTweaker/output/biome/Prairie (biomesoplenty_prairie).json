@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "DRY",
-    "SPARSE"
+    "SPARSE",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -182,7 +182,7 @@
       "Entity Class": "vazkii.quark.world.entity.EntityAshen",
       "Weight": 40,
       "Min Group Count": 1,
-      "Max Group Count": 2
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.jamieswhiteshirt.trumpetskeleton.common.entity.EntityTrumpetSkeleton",
@@ -210,7 +210,7 @@
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
-      "Weight": 100,
+      "Weight": 50,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

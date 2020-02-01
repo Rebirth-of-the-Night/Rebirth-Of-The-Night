@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "DEAD",
+    "SPARSE",
     "COLD",
     "SNOWY",
-    "WASTELAND",
-    "SPARSE",
-    "DEAD"
+    "WASTELAND"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -126,7 +126,7 @@
     },
     {
       "Entity Class": "net.daveyx0.primitivemobs.entity.monster.EntityEnchantedBook",
-      "Weight": 100,
+      "Weight": 50,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

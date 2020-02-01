@@ -4,7 +4,6 @@ setDescription("Obtain diamond.")
 
 addParent("triumph:advancements/ores/silver")
 
-addRewardFunction("triumph:minedDiamond")
 
 criteria = addCriteria("Diamond", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond")

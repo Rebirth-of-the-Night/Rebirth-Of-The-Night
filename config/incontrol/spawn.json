@@ -486,6 +486,100 @@
 
 
   // Zombies
+
+  //////////////// DEFAULT //////////////////////////
+
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorhelmet": ["minecraft:leather_helmet", "minecraft:chainmail_helmet"]
+},
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorchest": ["minecraft:leather_chestplate", "minecraft:chainmail_chestplate"]
+},
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorlegs": ["minecraft:leather_leggings", "minecraft:chainmail_leggings"]
+
+},
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorboots": ["minecraft:leather_boots", "minecraft:chainmail_boots"]
+},
+
+
+/////////// MINED DIAMOND GAMESTAGE //////////////
+
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorhelmet": "atop:mud_helmet",
+    "gamestage": "minedDiamond"
+},
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorchest": "atop:mud_chestplate",
+    "gamestage": "minedDiamond"
+
+},
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorlegs": "atop:mud_leggings",
+    "gamestage": "minedDiamond"
+
+},
+{
+    "mob": "minecraft:zombie",
+    "random": 0.1,
+    "armorboots": "atop:mud_boots",
+    "gamestage": "minedDiamond"
+},
+
+
+
+{
+    "mob": "specialmobs:hungryzombie",
+    "random": 0.1,
+    "armorhelmet": "atop:mud_helmet",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    }
+},
+{
+    "mob": "specialmobs:hungryzombie",
+    "random": 0.1,
+    "armorlegs": "atop:mud_leggings",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    }
+},
+{
+    "mob": "specialmobs:hungryzombie",
+    "random": 0.1,
+    "armorboots": "atop:mud_boots",
+    "gamestage": "minedDiamond",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    }
+},
+
+
+
+
+
+
+
+
+
 {
     "dimension": [0,10],
     "mob": "specialmobs:hungryzombie",
@@ -501,6 +595,10 @@
     "mob": "specialmobs:hungryzombie",
     "result": "deny"
 },
+
+
+
+
 {
     "dimension": [0,10],
     "mob": "specialmobs:brutezombie",
