@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "TWILIGHT",
     "DRY",
-    "MESA",
     "WASTELAND",
-    "DEAD"
+    "DEAD",
+    "MESA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

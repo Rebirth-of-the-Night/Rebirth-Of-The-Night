@@ -2,6 +2,8 @@ import crafttweaker.item.IIngredient;
 
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketluckyhorseshoe");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:magicmirror");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketobsidianskull");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:shieldobsidian");
 
 mods.jei.JEI.removeAndHide(<bountifulbaubles:flaregun>);
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");

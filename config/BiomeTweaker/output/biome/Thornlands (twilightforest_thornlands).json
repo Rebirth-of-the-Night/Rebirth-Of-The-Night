@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "TWILIGHT",
     "DRY",
-    "WASTELAND",
     "HILLS",
+    "WASTELAND",
     "DEAD"
   ],
   "BiomeManager Entries": {},

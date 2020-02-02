@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "DRY",
-    "WASTELAND",
-    "COLD",
     "HILLS",
+    "COLD",
+    "WASTELAND",
     "MAGICAL"
   ],
   "BiomeManager Entries": {},
