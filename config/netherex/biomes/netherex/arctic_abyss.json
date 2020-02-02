@@ -5,15 +5,6 @@
 	"isSubBiome": false,
 	"isEnabled": false,
 	"blocks": {
-		"caveFloorBlock": {
-			"block": "netherex:icy_netherrack"
-		},
-		"fluidBlock": {
-			"block": "minecraft:magma"
-		},
-		"caveWallBlock": {
-			"block": "netherex:icy_netherrack"
-		},
 		"surfaceBlock": {
 			"block": "netherex:frostburn_ice"
 		},
@@ -22,981 +13,1062 @@
 		},
 		"caveCeilingBlock": {
 			"block": "netherex:icy_netherrack"
+		},
+		"caveWallBlock": {
+			"block": "netherex:icy_netherrack"
+		},
+		"caveFloorBlock": {
+			"block": "netherex:icy_netherrack"
+		},
+		"fluidBlock": {
+			"block": "minecraft:magma"
 		}
 	},
 	"entities": [
 		{
+			"entity": "netherex:frost",
 			"spawnWeight": 10,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3,
-			"entity": "netherex:frost"
+			"maximumGroupCount": 3
 		}, 
 		{
+			"entity": "netherex:coolmar_spider",
 			"spawnWeight": 35,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4,
-			"entity": "netherex:coolmar_spider"
+			"maximumGroupCount": 4
 		}, 
 		{
+			"entity": "netherex:wight",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4,
-			"entity": "netherex:wight"
+			"maximumGroupCount": 4
 		}, 
 		{
+			"entity": "netherex:brute",
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:brute"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "minecraft:ghast",
 			"spawnWeight": 2,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "minecraft:ghast"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:spinout",
 			"spawnWeight": 6,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:spinout"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:rocket_creeper",
 			"spawnWeight": 25,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:rocket_creeper"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:ghast_queen",
 			"spawnWeight": 2,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:ghast_queen"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:salamander",
 			"spawnWeight": 6,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:salamander"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:harpy",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3,
-			"entity": "primitivemobs:harpy"
+			"maximumGroupCount": 3
 		}, 
 		{
+			"entity": "primitivemobs:trollager",
 			"spawnWeight": 5,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:trollager"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:haunted_tool",
 			"spawnWeight": 60,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:haunted_tool"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:mogus",
 			"spawnWeight": 6,
 			"minimumGroupCount": 3,
-			"maximumGroupCount": 5,
-			"entity": "netherex:mogus"
+			"maximumGroupCount": 5
 		}, 
 		{
+			"entity": "netherex:brute",
 			"spawnWeight": 2,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:brute"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:coolmar_spider",
 			"spawnWeight": 10,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:coolmar_spider"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:festive_creeper",
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:festive_creeper"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:mother_spider",
 			"spawnWeight": 25,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:mother_spider"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:trollager",
 			"spawnWeight": 25,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:trollager"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:frost",
 			"spawnWeight": 2,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:frost"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:support_creeper",
 			"spawnWeight": 25,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:support_creeper"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:ghastling",
 			"spawnWeight": 3,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "netherex:ghastling"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "netherex:nethermite",
 			"spawnWeight": 6,
 			"minimumGroupCount": 2,
-			"maximumGroupCount": 4,
-			"entity": "netherex:nethermite"
+			"maximumGroupCount": 4
 		}, 
 		{
+			"entity": "primitivemobs:goblin",
 			"spawnWeight": 50,
 			"minimumGroupCount": 3,
-			"maximumGroupCount": 3,
-			"entity": "primitivemobs:goblin"
+			"maximumGroupCount": 3
 		}, 
 		{
+			"entity": "primitivemobs:goblin",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:goblin"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "minecraft:zombie_pigman",
 			"spawnWeight": 20,
 			"minimumGroupCount": 2,
-			"maximumGroupCount": 6,
-			"entity": "minecraft:zombie_pigman"
+			"maximumGroupCount": 6
 		}, 
 		{
+			"entity": "primitivemobs:treasure_slime",
 			"spawnWeight": 20,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:treasure_slime"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:bewitched_tome",
 			"spawnWeight": 20,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:bewitched_tome"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:skeleton_warrior",
 			"spawnWeight": 35,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3,
-			"entity": "primitivemobs:skeleton_warrior"
+			"maximumGroupCount": 3
 		}, 
 		{
+			"entity": "primitivemobs:blazing_juggernaut",
 			"spawnWeight": 5,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:blazing_juggernaut"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 400,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 70,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 2,
-			"entity": "primitivemobs:dodo"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:dodo",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "primitivemobs:void_eye",
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:void_eye"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:traveling_merchant",
 			"spawnWeight": 1,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:traveling_merchant"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:lost_miner",
 			"spawnWeight": 3,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:lost_miner"
+			"maximumGroupCount": 1
 		}, 
 		{
+			"entity": "primitivemobs:sheepman",
 			"spawnWeight": 40,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 2,
-			"entity": "primitivemobs:sheepman"
+			"maximumGroupCount": 2
 		}, 
 		{
+			"entity": "multimob:dummy",
 			"spawnWeight": 50,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "multimob:dummy"
+			"maximumGroupCount": 1
 		}, 
 		{
-			"spawnWeight": 50,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "multimob:dummy"
-		}, 
-		{
-			"spawnWeight": 70,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
-		}, 
-		{
+			"entity": "primitivemobs:flame_spewer",
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1,
-			"entity": "primitivemobs:flame_spewer"
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "multimob:dummy",
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
 		}
 	],
 	"traits": [
 		{
+			"trait": "libraryex:pool",
 			"generationAttempts": 2,
-			"generationStage": "terrain_alteration",
+			"randomizeGenerationAttempts": false,
 			"generationProbability": 0.125,
 			"minimumGenerationHeight": 36,
-			"blockToSpawn": {
-				"block": "netherex:ichor"
-			},
-			"randomizeGenerationAttempts": false,
-			"trait": "libraryex:pool",
 			"maximumGenerationHeight": 108,
 			"blockToSurround": {
 				"block": "netherex:frostburn_ice"
-			}
+			},
+			"blockToSpawn": {
+				"block": "netherex:ichor"
+			},
+			"generationStage": "terrain_alteration"
 		}, 
 		{
+			"trait": "libraryex:scatter",
 			"generationAttempts": 5,
-			"generationStage": "decoration",
+			"randomizeGenerationAttempts": true,
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 4,
+			"maximumGenerationHeight": 124,
 			"blockToSpawn": {
 				"block": "netherex:blue_fire"
 			},
 			"blockToTarget": {
 				"block": "netherex:frostburn_ice"
 			},
-			"randomizeGenerationAttempts": true,
-			"trait": "libraryex:scatter",
-			"maximumGenerationHeight": 124,
-			"placement": "on_ground"
+			"placement": "on_ground",
+			"generationStage": "decoration"
 		}, 
 		{
+			"trait": "libraryex:cluster",
 			"generationAttempts": 10,
-			"generationStage": "decoration",
+			"randomizeGenerationAttempts": true,
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 4,
-			"blockToSpawn": {
-				"block": "minecraft:glowstone"
-			},
-			"randomizeGenerationAttempts": true,
-			"trait": "libraryex:cluster",
 			"maximumGenerationHeight": 124,
+			"direction": "down",
 			"blockToAttachTo": {
 				"block": "netherex:icy_netherrack"
 			},
-			"direction": "down"
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"generationStage": "decoration"
 		}, 
 		{
+			"trait": "libraryex:cluster",
 			"generationAttempts": 10,
-			"generationStage": "decoration",
+			"randomizeGenerationAttempts": false,
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 1,
-			"blockToSpawn": {
-				"block": "minecraft:glowstone"
-			},
-			"randomizeGenerationAttempts": false,
-			"trait": "libraryex:cluster",
 			"maximumGenerationHeight": 128,
+			"direction": "down",
 			"blockToAttachTo": {
 				"block": "netherex:icy_netherrack"
 			},
-			"direction": "down"
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"generationStage": "decoration"
 		}, 
 		{
+			"trait": "libraryex:ore",
 			"generationAttempts": 16,
-			"generationStage": "ore",
+			"randomizeGenerationAttempts": false,
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 10,
+			"maximumGenerationHeight": 108,
 			"veinSize": 14,
+			"blockToReplace": {
+				"block": "netherex:icy_netherrack"
+			},
 			"blockToSpawn": {
 				"block": "netherex:quartz_ore"
 			},
+			"generationStage": "ore"
+		}, 
+		{
+			"trait": "libraryex:ore",
+			"generationAttempts": 16,
 			"randomizeGenerationAttempts": false,
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"maximumGenerationHeight": 108,
+			"veinSize": 7,
 			"blockToReplace": {
 				"block": "netherex:icy_netherrack"
 			},
-			"trait": "libraryex:ore",
-			"maximumGenerationHeight": 108
-		}, 
-		{
-			"generationAttempts": 16,
-			"generationStage": "ore",
-			"generationProbability": 1.0,
-			"minimumGenerationHeight": 10,
-			"veinSize": 7,
 			"blockToSpawn": {
 				"block": "netherex:rime_ore"
 			},
-			"randomizeGenerationAttempts": false,
-			"blockToReplace": {
-				"block": "netherex:icy_netherrack"
-			},
-			"trait": "libraryex:ore",
-			"maximumGenerationHeight": 108
+			"generationStage": "ore"
 		}
 	],
 	"subBiomes": []
