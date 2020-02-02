@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MESA",
     "DRY",
-    "SANDY",
-    "MESA"
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

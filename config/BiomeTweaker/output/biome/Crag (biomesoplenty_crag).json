@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MOUNTAIN",
     "DRY",
-    "HILLS",
+    "MOUNTAIN",
     "COLD",
+    "HILLS",
     "WASTELAND",
     "MAGICAL"
   ],
