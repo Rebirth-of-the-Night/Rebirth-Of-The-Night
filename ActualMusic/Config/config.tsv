@@ -2,11 +2,11 @@ Crossfade	true
 DotLowHP	true
 SmallBiomes	false
 Songpack	Adventure Redefined
-WindowX	478
-WindowY	190
+WindowX	2238
+WindowY	155
 ambVol	1.000000
 bossCards	true
-interSong	7
+interSong	1
 leadMulti	100
 locationCards	1
 locationCardsD	2
@@ -15,7 +15,7 @@ locationCardsS+	1
 locationCardsS-	1
 locationCardsZ	1
 loopPoints	true
-mainVol	0.000000
+mainVol	1.000000
 musVol	0.105634
 pauseVol	50
 pauseVolMin	25

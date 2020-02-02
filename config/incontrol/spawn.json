@@ -491,23 +491,23 @@
   //////////////// DEFAULT //////////////////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorhelmet": ["minecraft:leather_helmet", "minecraft:chainmail_helmet"]
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorchest": ["minecraft:leather_chestplate", "minecraft:chainmail_chestplate"]
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorlegs": ["minecraft:leather_leggings", "minecraft:chainmail_leggings"]
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorboots": ["minecraft:leather_boots", "minecraft:chainmail_boots"]
 },
@@ -516,151 +516,56 @@
 /////////// MINED DIAMOND GAMESTAGE //////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorhelmet": "atop:mud_helmet",
     "gamestage": "minedDiamond"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorchest": "atop:mud_chestplate",
     "gamestage": "minedDiamond"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorlegs": "atop:mud_leggings",
     "gamestage": "minedDiamond"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "minecraft:zombie",
     "random": 0.1,
     "armorboots": "atop:mud_boots",
     "gamestage": "minedDiamond"
 },
 
 
-/////////// NETHER GAMESTAGE //////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "specialmobs:hungryzombie",
     "random": 0.1,
-    "armorhelmet": "minecraft:golden_helmet",
-    "gamestage": "enteredNether"
+    "armorhelmet": "atop:mud_helmet"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "specialmobs:hungryzombie",
     "random": 0.1,
-    "armorchest": "minecraft:golden_chestplate",
-    "gamestage": "enteredNether"
-
+    "armorlegs": "atop:mud_leggings"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": "specialmobs:hungryzombie",
     "random": 0.1,
-    "armorlegs": "minecraft:golden_leggings",
-    "gamestage": "enteredNether"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorboots": "minecraft:golden_boots",
-    "gamestage": "enteredNether"
+    "armorboots": "atop:mud_boots",
+    "gamestage": "minedDiamond"
 },
 
 
-/////////// DIAMOND ARMOR GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorhelmet": ["dungeontactics:silver_helmet", "minecraft:iron_helmet"],
-    "gamestage": "fullDiamondArmor"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorchest": ["dungeontactics:silver_chestplate", "minecraft:iron_chestplate"],
-    "gamestage": "fullDiamondArmor"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorlegs": ["dungeontactics:silver_leggings", "minecraft:iron_leggings"],
-    "gamestage": "fullDiamondArmor"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorboots": ["dungeontactics:silver_boots", "minecraft:iron_boots"],
-    "gamestage": "fullDiamondArmor"
-},
 
 
-/////////// MYTHRIL GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorhelmet": ["minecraft:diamond_helmet","endreborn:armour_helmet_helmet"],
-    "gamestage": "minedMythril"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorchest": ["minecraft:diamond_chestplate","endreborn:armour_chestplate_obsidian"],
-    "gamestage": "minedMythril"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorlegs": ["minecraft:diamond_leggings","endreborn:armour_leggings_obsidian"],
-    "gamestage": "minedMythril"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorboots": ["minecraft:diamond_boots","endreborn:armour_boots_obsidian"],
-    "gamestage": "minedMythril"
-},
 
 
-/////////// ENDER DRAGON GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorhelmet": ["simpleores:mythril_helmet", "simpleores:adamantium_helmet"],
-    "gamestage": "killedEnderDragon"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorchest": ["simpleores:mythril_chestplate", "simpleores:adamantium_chestplate"],
-    "gamestage": "killedEnderDragon"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorlegs": ["simpleores:mythril_leggings", "simpleores:adamantium_leggings"],
-    "gamestage": "killedEnderDragon"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
-    "random": 0.1,
-    "armorboots": ["simpleores:mythril_boots", "simpleores:adamantium_boots"],
-    "gamestage": "killedEnderDragon"
-},
 
 
 
@@ -1053,7 +958,7 @@
     "gamestage": "killedGhastQueen",
     "maxlight": 15,
     "minlight": 14,
-    "random": 0.003,
+    "random": 0.01,
     "seesky": true,
     "maxcount": {
         "amount": 2,
@@ -1072,7 +977,7 @@
     "mob": "specialmobs:lemonslime",
     "maxlight": 15,
     "minlight": 14,
-    "random": 0.003,
+    "random": 0.01,
     "seesky": true,
     "gamestage": "minedDiamond",
     "maxcount": {
@@ -1092,7 +997,7 @@
     "mob": "specialmobs:grapeslime",
     "maxlight": 15,
     "minlight": 14,
-    "random": 0.003,
+    "random": 0.01,
     "seesky": true,
     "gamestage": "fullDiamondArmor",
     "maxcount": {
@@ -1112,7 +1017,7 @@
     "mob": "specialmobs:blueberryslime",
     "maxlight": 15,
     "minlight": 14,
-    "random": 0.003,
+    "random": 0.01,
     "seesky": true,
     "gamestage": "minedMythril",
     "maxcount": {
@@ -1130,7 +1035,7 @@
   {
     "dimension": 0,
     "mob": "specialmobs:strawberryslime",
-    "random": 0.003,
+    "random": 0.01,
     "maxlight": 15,
     "minlight": 14,
     "seesky": true,
@@ -1152,7 +1057,7 @@
     "mob": "specialmobs:watermelonslime",
     "maxlight": 15,
     "minlight": 14,
-    "random": 0.003,
+    "random": 0.01,
     "seesky": true,
     "gamestage": "killedEnderDragon",
     "maxcount": {
