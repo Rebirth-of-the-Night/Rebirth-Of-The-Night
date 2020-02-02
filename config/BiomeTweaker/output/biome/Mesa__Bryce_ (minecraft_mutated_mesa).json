@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
-    "DRY",
-    "HOT",
     "MOUNTAIN",
+    "DRY",
+    "SPARSE",
+    "HOT",
     "RARE"
   ],
   "BiomeManager Entries": {},
