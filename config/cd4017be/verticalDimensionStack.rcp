@@ -12,6 +12,9 @@ cont_load_time = 300.0;
 !set to true to disable creation of nether portals (through obsidian ignition)
 disable_nether_portal = false;
 
+!Whether the "Dimension Stack" button should be enabled during world creation. (disable for modpacks where you don't want players messing with the configuration)
+dimstack_editor = false;
+
 !set these to true to disable vanilla ore-generation in overworld and nether. 
 disable_coal = false;
 disable_diamond = false;
