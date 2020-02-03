@@ -1,0 +1,42 @@
+{
+    "parent": "spartanweaponry:item/crossbow_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/crossbow_bronze_standby"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "spartanweaponry:item/crossbow_bronze_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "spartanweaponry:item/crossbow_bronze_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "spartanweaponry:item/crossbow_bronze_pulling_2"
+        },
+        {
+            "predicate": {
+                "pulling": 0,
+                "pull": 1.0
+            },
+            "model": "spartanweaponry:item/crossbow_bronze_loaded"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 1.0
+            },
+            "model": "spartanweaponry:item/crossbow_bronze_firing"
+        }
+    ]
+}
