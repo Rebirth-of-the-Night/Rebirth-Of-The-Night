@@ -25,6 +25,53 @@
 <netherex:obsidian_boat>.addTooltip("Place a banner on the boat to increase speed");
 
 
+# bed
+<minecraft:bed>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:1>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:2>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:3>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:4>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:5>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:6>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:7>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:8>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:9>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:10>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:11>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:12>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:13>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:14>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<minecraft:bed:15>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:1>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:2>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:3>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:4>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:5>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:6>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:7>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:8>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:9>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:10>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:11>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:12>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:13>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:14>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed:15>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+
+#lootbags
+<dungeontactics:bag_food>.addTooltip("Some of the food inside still looks fresh.");
+<dungeontactics:bag_arbour>.addTooltip("Seems to contain a few assorted plants.");
+<dungeontactics:bag_ore>.addTooltip("Looks like there's a chunk of ore inside.");
+<dungeontactics:bag_tool>.addTooltip("Looks like there's a tool inside.");
+<dungeontactics:bag_book>.addTooltip("Looks like there's a worn book tucked inside.");
+<dungeontactics:bag_quiver>.addTooltip("Seems to contain a few weathered arrows.");
+<dungeontactics:bag_magic>.addTooltip("The bag is stained with a faint purple powder. What could be inside?");
+<dungeontactics:bag_potion>.addTooltip("Seems to contain some forgotten potion or reagent.");
+<dungeontactics:bag_record>.addTooltip("Contains a music disc carefully wrapped for safe transport.");
+<dungeontactics:trickortreat_bag>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on candy.");
+<dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well, finders' keepers.");
+
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
 

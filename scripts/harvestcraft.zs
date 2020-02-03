@@ -119,3 +119,10 @@ recipes.addShaped("water well", <harvestcraft:well>,[
     [<ore:stone>, <betterwithmods:bucket>, <ore:stone>],
     [<ore:stone>, <betterwithmods:screw_pump>, <ore:stone>]
 ]);
+
+// new bucket recipe
+recipes.addShaped("tin_bucket", <minecraft:bucket>,[
+	[null, null, null],
+    [<simpleores:tin_ingot>, null, <simpleores:tin_ingot>],
+    [null, <simpleores:tin_ingot>, null]
+]);
