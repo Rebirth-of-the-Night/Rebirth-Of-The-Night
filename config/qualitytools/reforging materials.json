@@ -203,6 +203,78 @@
         "item": "minecraft:obsidian"
     }
   },
+    {
+    "tool": {
+        "item": "atop:mud_helmet"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_chestplate"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_leggings"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_boots"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_shovel"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_pickaxe"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_axe"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
+      {
+    "tool": {
+        "item": "atop:mud_sword"
+    },
+    "material": {
+        "ore_dict": "ingotBronze"
+    }
+  },
   {
     "tool": {
         "item": "atop:amethyst_helmet"
