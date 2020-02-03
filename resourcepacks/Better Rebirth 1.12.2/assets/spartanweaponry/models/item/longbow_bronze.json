@@ -1,0 +1,28 @@
+{
+    "parent": "spartanweaponry:item/longbow_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/longbow_bronze_standby"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "spartanweaponry:item/longbow_bronze_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "spartanweaponry:item/longbow_bronze_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "spartanweaponry:item/longbow_bronze_pulling_2"
+        }
+    ]
+}
