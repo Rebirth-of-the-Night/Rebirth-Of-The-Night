@@ -1,0 +1,6 @@
+{
+    "parent": "spartanweaponry:item/crossbow_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/crossbow_bronze_loaded"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/throwing_knife_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/throwing_knife_bronze"
+    }
+}
