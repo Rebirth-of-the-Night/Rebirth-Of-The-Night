@@ -1,0 +1,13 @@
+﻿item.aether_legacy:cockatrice.name=Kelenk Meat
+item.aether_legacy:burnt_cockatrice.name=Burnt Kelenk Meat
+item.aether_legacy:enchanted_cockatrice.name=Enchanted Kelenk Meat
+item.aether_legacy:cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
+item.cockatrice.name=Kelenk Meat
+item.burnt_cockatrice.name=Burnt Kelenk Meat
+item.burnt_cockatrice.name=Burnt Kelenk Meat
+item.cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
+
+entity.aether_legacy.cockatrice.name=Kelenk
+entity.cockatrice.name=Kelenk
+entity.aether_legacy:cockatrice.name=Kelenk
+
