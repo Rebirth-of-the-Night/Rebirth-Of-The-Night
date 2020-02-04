@@ -102,7 +102,7 @@ recipes.addShaped("tintripwirehook", <minecraft:tripwire_hook> * 2,[
 	[null, <ore:plankWood>, null]
 ]);
 
-recipes.addShaped("tincompass", <minecraft:tripwire_hook> * 2,[
+recipes.addShaped("tincompass", <minecraft:compass>,[
 	[null, <simpleores:tin_ingot>, null],
 	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
 	[null, <simpleores:tin_ingot>, null]
