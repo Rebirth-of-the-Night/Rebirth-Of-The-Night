@@ -12,6 +12,12 @@ recipes.remove(<aether_legacy:skyroot_sword>);
 recipes.remove(<aether_legacy:holystone_sword>);
 recipes.remove(<aether_legacy:zanite_sword>);
 recipes.remove(<aether_legacy:gravitite_sword>);
+recipes.remove(<iceandfire:dragonbone_sword>);
+recipes.remove(<iceandfire:myrmex_desert_sword>);
+recipes.remove(<iceandfire:myrmex_desert_sword_venom>);
+recipes.remove(<iceandfire:myrmex_jungle_sword>);
+recipes.remove(<iceandfire:myrmex_jungle_sword_venom>);
+recipes.remove(<iceandfire:amphithere_macuahuitl>);
 
 //Wooden Sword Tweaks
 
@@ -31,6 +37,7 @@ recipes.addShaped("Sharp Stick", sharp_stick,
 //Addition of weapon recipes that involve stick > handle
 
 val handle = <spartanweaponry:material>;
+val witherhandle = <spartanfire:witherbone_handle>;
 val feather = <ore:feather>;
 val iron = <ore:ingotIron>;
 val stone = <ore:cobblestone>;
@@ -40,6 +47,12 @@ val holystone = <aether_legacy:holystone>;
 val zanite = <aether_legacy:zanite_gemstone>;
 val egravitite = <aether_legacy:enchanted_gravitite>;
 val diamond = <minecraft:diamond>;
+val obsidian = <minecraft:obsidian>;
+val dragonbone = <iceandfire:dragonbone>;
+val mdchitin = <iceandfire:myrmex_desert_chitin>;
+val mjchitin = <iceandfire:myrmex_jungle_chitin>;
+val mstinger = <iceandfire:myrmex_stinger>;
+val amphitherefeather = <iceandfire:amphithere_feather>;
 val goldensword = <minecraft:golden_sword>;
 val stonesword = <minecraft:stone_sword>;
 val ironsword = <minecraft:iron_sword>;
@@ -52,6 +65,12 @@ val hippogryphtalon = <iceandfire:hippogryph_talon>;
 val symphalianbirdfeather = <iceandfire:stymphalian_bird_feather>;
 val hippogryph_sword = <iceandfire:hippogryph_sword>;
 val stymphalian_bird_dagger = <iceandfire:stymphalian_bird_dagger>;
+val dragonbonesword = <iceandfire:dragonbone_sword>;
+val desertmyrmexsword = <iceandfire:myrmex_desert_sword>;
+val desertmyrmexstingersword = <iceandfire:myrmex_desert_sword_venom>;
+val junglemyrmexsword = <iceandfire:myrmex_jungle_sword>;
+val junglemyrmexstingersword = <iceandfire:myrmex_jungle_sword_venom>;
+val amphitheremacuahuitl = <iceandfire:amphithere_macuahuitl>;
 
 recipes.addShaped("HippogryphSword", hippogryph_sword,
  [[null,hippogryphtalon,null],
@@ -93,6 +112,30 @@ recipes.addShaped("Gravitite Sword", gravititesword,
  [[null,egravitite,null],
   [null,egravitite,null],
   [null,handle,null]]);
+recipes.addShaped("Dragonbone Sword", dragonbonesword,
+ [[null,dragonbone,null],
+  [null,dragonbone,null],
+  [null,witherhandle,null]]);
+recipes.addShaped("Desert Myrmex Chitin Sword", desertmyrmexsword,
+ [[null,mdchitin,null],
+  [null,mdchitin,null],
+  [null,witherhandle,null]]);
+recipes.addShaped("Desert Myrmex Stinger Sword", desertmyrmexstingersword,
+ [[null,mstinger,null],
+  [null,mdchitin,null],
+  [null,witherhandle,null]]);
+recipes.addShaped("Jungle Myrmex Chitin Sword", junglemyrmexsword,
+ [[null,mjchitin,null],
+  [null,mjchitin,null],
+  [null,witherhandle,null]]);
+recipes.addShaped("Jungle Myrmex Stinger Sword", junglemyrmexstingersword,
+ [[null,mstinger,null],
+  [null,mjchitin,null],
+  [null,witherhandle,null]]);
+recipes.addShaped("Amphithere Macuahuitl", amphitheremacuahuitl,
+ [[obsidian,wood,obsidian],
+  [amphitherefeather,wood,amphitherefeather],
+  [obsidian,handle,obsidian]]);
   
   
   
