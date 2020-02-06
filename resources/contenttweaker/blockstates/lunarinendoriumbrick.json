@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/darky",
-      "particle": "contenttweaker:blocks/darky"
+      "texture": "contenttweaker:blocks/lunarinendoriumbrick",
+      "particle": "contenttweaker:blocks/lunarinendoriumbrick"
     },
     "model": "base:storage",
     "uvlock": true,
