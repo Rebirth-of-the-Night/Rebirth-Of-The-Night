@@ -8,6 +8,10 @@ recipes.remove(<minecraft:golden_sword>);
 recipes.remove(<minecraft:stone_sword>);
 recipes.remove(<minecraft:iron_sword>);
 recipes.remove(<minecraft:diamond_sword>);
+recipes.remove(<aether_legacy:skyroot_sword>);
+recipes.remove(<aether_legacy:holystone_sword>);
+recipes.remove(<aether_legacy:zanite_sword>);
+recipes.remove(<aether_legacy:gravitite_sword>);
 
 //Wooden Sword Tweaks
 
@@ -31,11 +35,19 @@ val feather = <ore:feather>;
 val iron = <ore:ingotIron>;
 val stone = <ore:cobblestone>;
 val gold = <ore:ingotGold>;
+val skyroot = <aether_legacy:skyroot_plank>;
+val holystone = <aether_legacy:holystone>;
+val zanite = <aether_legacy:zanite_gemstone>;
+val egravitite = <aether_legacy:enchanted_gravitite>;
 val diamond = <minecraft:diamond>;
 val goldensword = <minecraft:golden_sword>;
 val stonesword = <minecraft:stone_sword>;
 val ironsword = <minecraft:iron_sword>;
 val diamondsword = <minecraft:diamond_sword>;
+val skyrootsword = <aether_legacy:skyroot_sword>;
+val holystonesword = <aether_legacy:holystone_sword>;
+val zanitesword = <aether_legacy:zanite_sword>;
+val gravititesword = <aether_legacy:gravitite_sword>;
 val hippogryphtalon = <iceandfire:hippogryph_talon>;
 val symphalianbirdfeather = <iceandfire:stymphalian_bird_feather>;
 val hippogryph_sword = <iceandfire:hippogryph_sword>;
@@ -45,25 +57,41 @@ recipes.addShaped("HippogryphSword", hippogryph_sword,
  [[null,hippogryphtalon,null],
   [feather,iron,feather],
   [null,handle,null]]);
-  recipes.addShaped("Stymphalian Bird Dagger", stymphalian_bird_dagger,
+recipes.addShaped("Stymphalian Bird Dagger", stymphalian_bird_dagger,
  [[null,symphalianbirdfeather,null],
   [null,symphalianbirdfeather,null],
   [null,handle,null]]);
-  recipes.addShaped("Golden Sword", goldensword,
+recipes.addShaped("Golden Sword", goldensword,
  [[null,gold,null],
   [null,gold,null],
   [null,handle,null]]);
-  recipes.addShaped("Stone Sword", stonesword,
+recipes.addShaped("Stone Sword", stonesword,
  [[null,stone,null],
   [null,stone,null],
   [null,handle,null]]);
-  recipes.addShaped("Iron Sword", ironsword,
+recipes.addShaped("Iron Sword", ironsword,
  [[null,iron,null],
   [null,iron,null],
   [null,handle,null]]);
-  recipes.addShaped("Diamond Sword", diamondsword,
+recipes.addShaped("Diamond Sword", diamondsword,
  [[null,diamond,null],
   [null,diamond,null],
+  [null,handle,null]]);
+recipes.addShaped("Skyroot Sword", skyrootsword,
+ [[null,skyroot,null],
+  [null,skyroot,null],
+  [null,handle,null]]);
+recipes.addShaped("Holystone Sword", holystonesword,
+ [[null,holystone,null],
+  [null,holystone,null],
+  [null,handle,null]]);
+recipes.addShaped("Zanite Sword", zanitesword,
+ [[null,zanite,null],
+  [null,zanite,null],
+  [null,handle,null]]);
+recipes.addShaped("Gravitite Sword", gravititesword,
+ [[null,egravitite,null],
+  [null,egravitite,null],
   [null,handle,null]]);
   
   

@@ -3,6 +3,10 @@
 <aether_legacy:burnt_cockatrice>.displayName = "Burnt Kelenk Meat";
 <aether_legacy:enchanted_cockatrice>.displayName = "Enchanted Kelenk Meat";
 <aether_legacy:cooked_enchanted_cockatrice>.displayName = "Cooked Enchanted Kelenk Meat";
+<aether_legacy:skyroot_sword>.displayName = "Skyroot Arming Sword";
+<aether_legacy:holystone_sword>.displayName = "Holystone Arming Sword";
+<aether_legacy:zanite_sword>.displayName = "Zanite Arming Sword";
+<aether_legacy:gravitite_sword>.displayName = "Gravitite Arming Sword";
 
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
