@@ -21,6 +21,10 @@
 <minecraft:anvil>.displayName = "Iron Anvil";
 <minecraft:anvil:1>.displayName = "Damaged Iron Anvil";
 <minecraft:anvil:2>.displayName = "Crumbling Iron Anvil";
+<minecraft:stone_sword>.displayName = "Stone Arming Sword";
+<minecraft:iron_sword>.displayName = "Iron Arming Sword";
+<minecraft:golden_sword>.displayName = "Golden Arming Sword";
+<minecraft:diamond_sword>.displayName = "Diamond Arming Sword";
 
 // Malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
