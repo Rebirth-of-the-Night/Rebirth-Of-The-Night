@@ -7,6 +7,9 @@
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 
+// Quark
+<quark:iron_ladder>.displayName = "Tin Ladder";
+
 // DT
 <dungeontactics:mithril_nugget>.displayName = "Tin Nugget";
 <dungeontactics:barrel>.displayName = "Small Barrel";

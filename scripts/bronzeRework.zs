@@ -2,10 +2,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-import mods.primaltech.ClayKiln;
-import mods.primaltech.StoneAnvil;
-
-
 #REMOVE copper and tin
 //copper
 mods.jei.JEI.removeAndHide(<simpleores:copper_sword>);
@@ -84,7 +80,6 @@ val bronze = <ore:ingotBronze>;
 val stick =  <ore:stickWood>;
 val handle = <spartanweaponry:material>;
 val block = <contenttweaker:sub_block_holder_0>; 
-val lunarin = <contenttweaker:lunarinbronzebrick>;
 val plate = <contenttweaker:bronze_plate>;
 val nugget = <contenttweaker:material_part:1>;
 
@@ -158,24 +153,18 @@ recipes.addShapeless("bronze to nugget", nugget*9,
  [<ore:ingotTin>,<ore:ingotCopper>,<ore:ingotCopper>,
   <ore:ingotCopper>]
 		);
-  
-StoneAnvil.addRecipe(<contenttweaker:copper_tin_pebbles>*2,
-			<contenttweaker:copper_tin_mixture>
-		);
-		
-ClayKiln.addRecipe(<contenttweaker:material_part>*2,
-            <contenttweaker:copper_tin_pebbles>, 200
-        );
+  #Additional recipes on pyrotech scripts 
+
 		
 //info
-mods.jei.JEI.addDescription(<contenttweaker:material_part>,"This is a big step in the right direction. As good if not better than iron. won't shatter diamond, sadly");
+mods.jei.JEI.addDescription(<contenttweaker:material_part>,"This is a big step in the right direction. As good if not better than iron.");
 mods.jei.JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also cooler.");
 mods.jei.JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
 mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, they have good ventilation.");
 mods.jei.JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
 mods.jei.JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
 
-//ANVIL REPAIR
+//VANILLA ANVIL REPAIR
 // Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
 #armor
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_helmet>.anyDamage(), <contenttweaker:material_part>, <atop:mud_helmet>, 1,
