@@ -76,7 +76,7 @@ recipes.addShaped("pyro stone tank", <pyrotech:tank>,
  [[<pyrotech:material:16>,<ore:blockGlassColorless>,<pyrotech:material:16>],
   [<ore:blockGlassColorless>,<ore:slimeball>,<ore:blockGlassColorless>],
   [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]]);
-recipes.addShaped("pyro stone hammer tool", <pyrotech:tank>,
+recipes.addShaped("pyro stone hammer tool", <pyrotech:stone_hammer>,
  [[<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
   [<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
   [null,<ore:stickWood>,null]]);
