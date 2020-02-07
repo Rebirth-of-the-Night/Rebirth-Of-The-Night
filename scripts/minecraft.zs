@@ -62,6 +62,12 @@ mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...they will rise just to 
 val allStoneSlab = <ore:stoneSlab>;
 allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:0>, <biomesoplenty:other_slab:1>]);
 
+val hammerTool = <ore:hammerTool>;
+hammerTool.addItems([<aether_legacy:notch_hammer>,<endreborn:tool_hammer_iron>,<pyrotech:stone_hammer>]);
+
+val anvilAny = <ore:anvilAny>;
+anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
+
 //ContentTweaker extra blocks recipes
 //All Lunarin bricks
 recipes.remove(<villagenames:lunaringoldbrick>);
@@ -111,4 +117,13 @@ recipes.addShaped("dust to witheredblock", <contenttweaker:witheredblock>,[
 	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
     [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
     [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
+]);
+
+//Simple mod recipes
+recipes.removeByRecipeName("qualitytools:reforging_station");
+
+recipes.addShaped("forgiving tool reforging station", <qualitytools:reforging_station>,[
+	[<ore:hammerTool>, null, <quark:black_ash>],
+    	[<ore:stoneSlab>, <ore:anvilAny>, <ore:stoneSlab>],
+    	[<ore:ingotSteel>, <ore:obsidian>, <ore:ingotSteel>]
 ]);
