@@ -57,3 +57,22 @@ recipes.addShaped("pyro log pile", <pyrotech:log_pile>,
  [[<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
+recipes.addShaped("pyro wooden bucket", <pyrotech:bucket_wood>,
+ [[<ore:plankWood>,null,<ore:plankWood>],
+  [null,<ore:logWood>,null]]);
+recipes.addShaped("pyro stone door", <pyrotech:stone_door>,
+ [[<pyrotech:material:16>,<pyrotech:material:16>],
+  [<pyrotech:material:16>,<pyrotech:material:16>],
+  [<pyrotech:material:16>,<pyrotech:material:16>]]);
+recipes.addShaped("pyro shelf", <pyrotech:shelf>,
+ [[<ore:plankWood>,<ore:slabWood>,<ore:plankWood>],
+  [<ore:plankWood>,<ore:slabWood>,<ore:plankWood>],
+  [<ore:plankWood>,<ore:slabWood>,<ore:plankWood>]]);
+recipes.addShaped("pyro stash", <pyrotech:stash>,
+ [[<ore:plankWood>,null,<ore:plankWood>],
+  [<ore:plankWood>,null,<ore:plankWood>],
+  [<ore:plankWood>,<ore:chestWood>,<ore:plankWood>]]);
+recipes.addShaped("pyro stone tank", <pyrotech:tank>,
+ [[<pyrotech:material:16>,<ore:blockGlassColorless>,<pyrotech:material:16>],
+  [<ore:blockGlassColorless>,<ore:slimeball>,<ore:blockGlassColorless>],
+  [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]]);
