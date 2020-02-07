@@ -1,4 +1,6 @@
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.jei.JEI;
 
 mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<minecraft:bread>);
@@ -39,7 +41,6 @@ mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
 mods.jei.JEI.hideCategory("jehc.ground_trap");
 mods.jei.JEI.hideCategory("jehc.water_trap");
 mods.jei.JEI.hideCategory("jehc.grinder");
-mods.jei.JEI.hideCategory("jehc.presser");
 
 mods.jei.JEI.removeAndHide(<harvestcraft:groundtrap>);
 mods.jei.JEI.removeAndHide(<harvestcraft:watertrap>);
@@ -114,15 +115,29 @@ recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
 	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>]
 ]);
 
-recipes.addShaped("water well", <harvestcraft:well>,[
-	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:stone>, <betterwithmods:bucket>, <ore:stone>],
-    [<ore:stone>, <betterwithmods:screw_pump>, <ore:stone>]
-]);
-
 // new bucket recipe
 recipes.addShaped("tin_bucket", <minecraft:bucket>,[
 	[null, null, null],
     [<simpleores:tin_ingot>, null, <simpleores:tin_ingot>],
     [null, <simpleores:tin_ingot>, null]
 ]);
+
+// Hyper hardcore well
+recipes.addShaped("water_well", <harvestcraft:well>,[
+	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:stone>, <betterwithmods:bucket>, <ore:stone>],
+    [<ore:stone>, <betterwithmods:screw_pump>, <ore:stone>]
+]);
+
+// Hyper hardcore presser
+recipes.addShaped("food_presser", <harvestcraft:presser>, [
+[<dungeontactics:steel_ingot>, <dungeontactics:steel_ingot>, <dungeontactics:steel_ingot>],
+[<minecraft:piston>, <betterwithmods:single_machine>, <minecraft:piston>], 
+[<betterwithmods:material:24>, <betterwithmods:material:34>, <betterwithmods:material:24>]]);
+
+//Honey production
+recipes.addShapeless("harvestcraft_glowing_honey", <harvestcraft:royaljellyitem>*3, [<mowziesmobs:glowing_jelly>,<harvestcraft:queenbeeitem>.giveBack()]);
+recipes.addShapeless("harvestcraft_grub_crowning", <harvestcraft:queenbeeitem>, [<harvestcraft:grubitem>,<bountifulbaubles:crowngold>.giveBack(),<dungeontactics:magic_powder>]);
+
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*6]);
