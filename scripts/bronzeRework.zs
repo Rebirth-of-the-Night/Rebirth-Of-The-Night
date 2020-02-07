@@ -130,10 +130,6 @@ recipes.addShaped("bronze block", block,
 recipes.addShapeless("block to bronze", bronze.firstItem*9,
  [block]);
   
-recipes.addShapeless("bronze lunarin", lunarin,
- [bronze,bronze,bronze,
-  bronze,bronze,bronze]);
-  
 recipes.addShaped("bronze plate", plate*24,
  [[bronze,bronze,bronze],
   [bronze,null,bronze],
