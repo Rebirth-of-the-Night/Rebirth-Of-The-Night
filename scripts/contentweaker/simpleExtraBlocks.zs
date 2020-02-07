@@ -17,7 +17,7 @@ var halite = VanillaFactory.createBlock("halite", <blockmaterial:Rock>);
 halite.setCreativeTab(<creativetab:buildingBlocks>);
 halite.setFullBlock(false);
 halite.setBlockSoundType(<soundtype:glass>);
-halite.setBlockLayer("TRANSLUSCENT");
+halite.setBlockLayer("TRANSLUCENT");
 halite.setTranslucent(true);
 halite.setLightOpacity(0);
 halite.register();
