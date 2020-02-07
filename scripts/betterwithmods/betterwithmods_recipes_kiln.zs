@@ -15,13 +15,7 @@ mods.betterwithmods.Kiln.add(
 	[
 	<animania:salt>
 	]
-);
-//Low quality charcoal
-mods.betterwithmods.Kiln.add(
-	<ore:logWood>,
-	[
-	<primal_tech:charcoal_block>
-	]
+
 );
 //Cosmetic
 mods.betterwithmods.Kiln.add(
