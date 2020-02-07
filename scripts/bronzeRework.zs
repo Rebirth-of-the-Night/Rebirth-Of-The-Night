@@ -127,7 +127,7 @@ recipes.addShaped("bronze block", block,
   [bronze,bronze,bronze],
   [bronze,bronze,bronze]]);
   
-recipes.addShapeless("block to bronze", bronze*9,
+recipes.addShapeless("block to bronze", bronze.firstItem*9,
  [block]);
   
 recipes.addShapeless("bronze lunarin", lunarin,
