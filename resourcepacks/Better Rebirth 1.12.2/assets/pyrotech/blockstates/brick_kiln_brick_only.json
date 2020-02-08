@@ -1,0 +1,41 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "pyrotech:brick_kiln_brick_only",
+    "textures": {
+      "particle": "pyrotech:blocks/brick_machine_side_brick_only"
+    }
+  },
+  "variants": {
+    "facing": {
+      "north": {
+      },
+      "east": {
+        "y": 90
+      },
+      "south": {
+        "y": 180
+      },
+      "west": {
+        "y": 270
+      }
+    },
+    "type": {
+      "top": {
+        "model": "pyrotech:_empty"
+      },
+      "bottom": {},
+      "bottom_lit": {
+        "submodel": {
+          "lit": {"model": "pyrotech:stone_machine_lit"},
+          "brick_lit": {"model": "pyrotech:brick_machine_lit"}
+        }
+      },
+      "bottom_dormant": {
+        "submodel": {
+          "dormant": {"model": "pyrotech:stone_machine_dormant"}
+        }
+      }
+    }
+  }
+}

@@ -25,8 +25,14 @@ mods.jei.JEI.removeAndHide(<quark:candle:15>);
 recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);
 
-recipes.addShaped("Backpack", <quark:backpack>,[
+recipes.addShaped("Quark Backpack", <quark:backpack>,[
 	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>],
-    [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
-    [<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>]
+    	[<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
+   	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>]
+]);
+
+recipes.addShaped("Tin Ladder", <quark:iron_ladder>*12,[
+	[<ore:ingotTin>, null, <ore:ingotTin>],
+   	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+    	[<ore:ingotTin>, null, <ore:ingotTin>]
 ]);
