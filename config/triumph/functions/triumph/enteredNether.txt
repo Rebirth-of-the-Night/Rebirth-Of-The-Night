@@ -2,6 +2,6 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 title @a times 40 120 60
 title @a subtitle {"text":"Tread carefully. Actions have consequences.", "color":"yellow"}
-title @a title {"text":"The Nether", "bold":false, "italic":true, "color":"red"}
+title @a title {"text":"The Nether", "bold":false, "italic":false, "color":"red"}
 
 gamestage silentadd @p enteredNether

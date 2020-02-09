@@ -2,5 +2,5 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 title @a times 40 120 60
 title @a subtitle {"text":"Your skills and gear will be tested. Good luck.", "color":"yellow"}
-title @a title {"text":"The Twilight Forest", "bold":false, "italic":true, "color":"blue"}
+title @a title {"text":"The Twilight Forest", "bold":false, "italic":false, "color":"blue"}
 gamestage silentadd @a enteredTwilightForest
