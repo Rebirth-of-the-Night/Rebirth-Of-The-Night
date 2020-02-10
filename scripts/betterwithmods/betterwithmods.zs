@@ -42,6 +42,6 @@ mods.jei.JEI.removeAndHide(<betterwithmods:chicken_soup>);
 
 //Descriptions
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock, the best mining tool available! It is also needed for some late game contraptions.");
-mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make super high quality and durable fibers for a variety of uses like sails and different kinds of cloth");
+mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses like sails and different kinds of cloth.");
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short, can be made by interlacing some plants.");
-mods.jei.JEI.addDescription(<betterwithmods:saw>,"Even if any axe and any log can give the so coveted bark in a crafting table, some people seek efficiency. The saw can also make some nice half blocks");
+mods.jei.JEI.addDescription(<betterwithmods:saw>,"Any axe and any log crafted in a crafting table produces bark as a byproduct, but the saw does it so much more efficiently. The saw can also make some nice half-blocks.");

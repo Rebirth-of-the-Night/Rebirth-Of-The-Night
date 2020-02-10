@@ -84,12 +84,12 @@ recipes.addShapeless("pyro bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<or
 recipes.addShapeless("pyro flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<minecraft:flint>]);
 
 //descriptions
-mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"Much more effective than a fire starter. Can lit a kiln.");
-mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"made with materials lying around on the floor. Can lit a kiln.");
-mods.jei.JEI.addDescription(<pyrotech:stone_kiln>,"A kind of furnace that can smelt certain items like clay, bronze alloy and charcoal in batches of 8. Needs to be ignited with a flint and tinder or a better igniter.");
-mods.jei.JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone kiln that can smelt certain items like clay, bronze alloy and charcoal in batches of 24! Needs to be ignited with a flint and tinder or a better igniter.");
-mods.jei.JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suited for making bronze!");
-mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it");
-mods.jei.JEI.addDescription(<pyrotech:shelf>,"Display items much clearer than a chest would ever do.");
-mods.jei.JEI.addDescription(<pyrotech:stash>,"When all is needed is somewhere to stash an overflowing item");
-mods.jei.JEI.addDescription(<dungeontactics:fire_starter>,"Crude way of starting a fire, may not ignite a kiln, although certain obsidian formations seems to be susceptibe to even the slightest fire");
+mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"Much more effective than a simple firestarter. Can light a kiln.");
+mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"Made with common materials. Can light a kiln.");
+mods.jei.JEI.addDescription(<pyrotech:stone_kiln>,"A kind of furnace that can smelt certain items like clay, bronze alloy, and charcoal in batches of 8. Needs to be ignited with a flint and tinder or a better igniter.");
+mods.jei.JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone kiln that can smelt certain items like clay, bronze alloy, and charcoal in batches of 24! Needs to be ignited with a flint and tinder or a better igniter.");
+mods.jei.JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
+mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
+mods.jei.JEI.addDescription(<pyrotech:shelf>,"Displays items much more visibly than a chest ever could.");
+mods.jei.JEI.addDescription(<pyrotech:stash>,"When all that's needed is somewhere to stash an overflowing item.");
+mods.jei.JEI.addDescription(<dungeontactics:fire_starter>,"Crude way of starting a fire. Can't ignite a kiln, although certain obsidian formations seems to be susceptible to even the slightest fire...");
