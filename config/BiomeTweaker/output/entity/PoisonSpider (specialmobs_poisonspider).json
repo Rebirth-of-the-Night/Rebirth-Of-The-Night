@@ -1,6 +1,0 @@
-
-{
-  "Name": "PoisonSpider",
-  "Registry ID": "specialmobs:poisonspider",
-  "Class": "fathertoast.specialmobs.entity.spider.EntityPoisonSpider"
-}

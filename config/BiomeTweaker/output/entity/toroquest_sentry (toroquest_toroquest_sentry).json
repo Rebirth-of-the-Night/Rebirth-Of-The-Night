@@ -1,6 +1,0 @@
-
-{
-  "Name": "toroquest_sentry",
-  "Registry ID": "toroquest:toroquest_sentry",
-  "Class": "net.torocraft.toroquest.entities.EntitySentry"
-}

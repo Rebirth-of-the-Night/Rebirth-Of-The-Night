@@ -253,7 +253,10 @@ betterwithmods:bwm_fishing_hook
 betterwithmods:bwm_tentacle
 betterwithmods:bwm_jungle_spider
 quark:seat
-quark:gravisand
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:chest_passenger
 quark:pickarang
 quark:arrow_ender
@@ -267,14 +270,10 @@ quark:archaeologist
 quark:foxhound
 quark:dweller
 quark:ashen
-quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
+quark:gravisand
 betternether:firefly
 bountifulbaubles:grenade
 bountifulbaubles:beenade
@@ -547,6 +546,9 @@ netherex:coolmar_spider
 netherex:brute
 netherex:frost
 netherex:ghast_queen
+pyrotech:rock
+pyrotech:rock_grass
+pyrotech:pyrotech.entityitembook
 spartanweaponry:bolt
 spartanweaponry:bolt_specral
 spartanweaponry:dagger_thrown
@@ -599,9 +601,6 @@ aether_legacy:parachute
 aether_legacy:whirlwind
 coroutil:bat_smart
 glaretorch:entitytorch
-notenoughcats:ocelot_nec
-notenoughcats:wolf_nec
-notenoughcats:mooshroom_nec
 specialmobs:specialcreeper
 specialmobs:darkcreeper
 specialmobs:deathcreeper

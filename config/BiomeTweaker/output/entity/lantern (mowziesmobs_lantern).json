@@ -1,6 +1,0 @@
-
-{
-  "Name": "lantern",
-  "Registry ID": "mowziesmobs:lantern",
-  "Class": "com.bobmowzie.mowziesmobs.server.entity.lantern.EntityLantern"
-}
