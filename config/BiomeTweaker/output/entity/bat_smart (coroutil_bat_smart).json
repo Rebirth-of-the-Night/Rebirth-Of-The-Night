@@ -1,6 +1,0 @@
-
-{
-  "Name": "bat_smart",
-  "Registry ID": "coroutil:bat_smart",
-  "Class": "CoroUtil.entity.EntityBatSmart"
-}

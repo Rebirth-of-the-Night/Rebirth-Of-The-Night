@@ -1,6 +1,0 @@
-
-{
-  "Name": "LightningCreeper",
-  "Registry ID": "specialmobs:lightningcreeper",
-  "Class": "fathertoast.specialmobs.entity.creeper.EntityLightningCreeper"
-}
