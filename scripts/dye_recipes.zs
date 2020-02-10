@@ -107,3 +107,5 @@ recipes.addShapeless("green dye", <biomesoplenty:green_dye>*2,
  [<ore:dyeBlue>,<ore:dyeYellow>]);
  recipes.addShapeless("green from lyme",<biomesoplenty:green_dye>*2,
  [<ore:dyeBlack>,<ore:dyeLime>]);
+recipes.addShapeless("cyan dye",<minecraft:dye:6>*2,
+ [<ore:dyeGreen>,<ore:dyeBlue>]);
