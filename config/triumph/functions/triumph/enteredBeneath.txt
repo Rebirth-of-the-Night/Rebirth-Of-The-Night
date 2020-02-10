@@ -1,6 +1,6 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 title @a times 40 120 60
-title @a subtitle {"text":"Stay away from the darkness...", "color":"black"}
-title @a title {"text":"The Beneath", "bold":false, "italic":false, "color":"black"}
+title @a subtitle {"text":"Stay away from the darkness...", "color":"gray"}
+title @a title {"text":"The Beneath", "bold":false, "italic":false, "color":"gray"}
 gamestage silentadd @a enteredBeneath
