@@ -1,1 +1,1 @@
-tellraw @p ["",{"text":"WARNING!!","bold":true,"color":"dark_red"},{"text":" The Nether takes a very long time to load for the first time. Do NOT quit the game while it is loading. It may take 1-5 minutes."}]
+tellraw @p ["",{"text":"WARNING!","bold":true,"color":"dark_red"},{"text":" The Nether takes a very long time to load for the first time. Do NOT quit the game while it is loading. It may take 1-5 minutes."}]

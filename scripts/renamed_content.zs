@@ -3,9 +3,16 @@
 <aether_legacy:burnt_cockatrice>.displayName = "Burnt Kelenk Meat";
 <aether_legacy:enchanted_cockatrice>.displayName = "Enchanted Kelenk Meat";
 <aether_legacy:cooked_enchanted_cockatrice>.displayName = "Cooked Enchanted Kelenk Meat";
+<aether_legacy:skyroot_sword>.displayName = "Skyroot Arming Sword";
+<aether_legacy:holystone_sword>.displayName = "Holystone Arming Sword";
+<aether_legacy:zanite_sword>.displayName = "Zanite Arming Sword";
+<aether_legacy:gravitite_sword>.displayName = "Gravitite Arming Sword";
 
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
+
+// Quark
+<quark:iron_ladder>.displayName = "Tin Ladder";
 
 // DT
 <dungeontactics:mithril_nugget>.displayName = "Tin Nugget";
@@ -21,6 +28,10 @@
 <minecraft:anvil>.displayName = "Iron Anvil";
 <minecraft:anvil:1>.displayName = "Damaged Iron Anvil";
 <minecraft:anvil:2>.displayName = "Crumbling Iron Anvil";
+<minecraft:stone_sword>.displayName = "Stone Arming Sword";
+<minecraft:iron_sword>.displayName = "Iron Arming Sword";
+<minecraft:golden_sword>.displayName = "Golden Arming Sword";
+<minecraft:diamond_sword>.displayName = "Diamond Arming Sword";
 
 // Malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
