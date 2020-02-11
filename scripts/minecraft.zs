@@ -142,6 +142,17 @@ val tideBoots = <ore:tideBoots>;
 tideBoots.addItems([<iceandfire:tide_blue_boots>,<iceandfire:tide_bronze_boots>,<iceandfire:tide_green_boots>,<iceandfire:tide_red_boots>,<iceandfire:tide_purple_boots>,<iceandfire:tide_teal_boots>]);
 
 
+val myrmexChestplate = <ore:myrmexChestplate>;
+myrmexChestplate.addItems([<iceandfire:myrmex_jungle_chestplate>,<iceandfire:myrmex_desert_chestplate>]);
+
+val myrmexHelmet = <ore:myrmexHelmet>;
+myrmexHelmet.addItems([<iceandfire:myrmex_jungle_helmet>,<iceandfire:myrmex_desert_helmet>]);
+
+val myrmexLeggings = <ore:myrmexLeggings>;
+myrmexLeggings.addItems([<iceandfire:myrmex_jungle_leggings>,<iceandfire:myrmex_desert_leggings>]);
+
+val myrmexBoots = <ore:myrmexBoots>;
+myrmexBoots.addItems([<iceandfire:myrmex_jungle_boots>,<iceandfire:myrmex_desert_boots>]);
 
 
 //ContentTweaker extra blocks recipes
