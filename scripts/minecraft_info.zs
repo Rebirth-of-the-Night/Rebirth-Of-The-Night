@@ -15,7 +15,7 @@ mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Even when bronze is more dur
 
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... Salty!");
 
-mods.jei.JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword I guess?");
+mods.jei.JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword I guess? Very low durability, but these can be stacked.");
 
 mods.jei.JEI.addDescription(<dimstack:portal>,"Getting past these will take you to places...");
 
@@ -27,8 +27,12 @@ mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beatiful gem native to the land
 
 mods.jei.JEI.addDescription(<mowziesmobs:spear>,"This surprisingly short spear seems to be able to reach more than it should, must be the work of an enemy Barako chief.");
 
-mods.jei.JEI.addDescription(<davincisvessels:marker>,"Upon thinking of this item the word `wiki` comes to mind");
+mods.jei.JEI.addDescription(<davincisvessels:marker>,"Upon thinking of this item the word `wiki` comes to mind.");
 
-mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best... If you don't have a crucible, that is");
+mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best... If you don't have a crucible, that is.");
 
-mods.jei.JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power");
+mods.jei.JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power.");
+
+mods.jei.JEI.addDescription(<ore:barkWood>,"Most useful for tanning leather. Guranteed to be obtained as a byproduct of crafting and axe and a log together to get planks.");
+
+mods.jei.JEI.addDescription(<ore:dung>,"Gross? no, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Trigger fermentative process to make tanned leather.");
