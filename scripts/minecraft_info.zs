@@ -33,6 +33,6 @@ mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the m
 
 mods.jei.JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power.");
 
-mods.jei.JEI.addDescription(<ore:barkWood>,"Most useful for tanning leather. Guranteed to be obtained as a byproduct of crafting and axe and a log together to get planks.");
+mods.jei.JEI.addDescription(<betterwithmods:material:5>,"Most useful for tanning leather. Guranteed to be obtained as a byproduct of crafting and axe and a log together to get planks.");
 
-mods.jei.JEI.addDescription(<ore:dung>,"Gross? no, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Trigger fermentative process to make tanned leather.");
+mods.jei.JEI.addDescription(<betterwithmods:bark:*>,"Gross? no, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Trigger fermentative process to make tanned leather.");
