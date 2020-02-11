@@ -56,7 +56,7 @@ potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
 
 //lore
-mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...they will rise just to seek the surface once again as the night falls.");
+mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
 
 //Ore Dictionary Entries
 val allStoneSlab = <ore:stoneSlab>;

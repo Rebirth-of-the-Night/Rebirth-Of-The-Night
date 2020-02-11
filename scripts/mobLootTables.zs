@@ -131,9 +131,6 @@ filch23.addItemEntry(<harvestcraft:pizzasliceitem>, 1);
 val filch24 = stealFilch.addPool("filch_lizard_024", 1, 1, 0, 0);
 filch24.addItemEntry(<harvestcraft:pizzaitem>, 1);
 
-val filch25 = stealFilch.addPool("filch_lizard_025", 1, 1, 0, 0);
-filch25.addItemEntry(<primitivemobs:spider_egg>, 1);
-
 val filch26 = stealFilch.addPool("filch_lizard_026", 1, 1, 0, 0);
 filch26.addItemEntry(<dungeontactics:magic_powder>, 1);
 
@@ -151,9 +148,6 @@ filch30.addItemEntry(<minecraft:golden_apple>, 1);
 
 val filch31 = stealFilch.addPool("filch_lizard_031", 1, 1, 0, 0);
 filch31.addItemEntry(<minecraft:golden_carrot>, 1);
-
-val filch32 = stealFilch.addPool("filch_lizard_032", 1, 1, 0, 0);
-filch32.addItemEntry(<quark:golden_frog_leg>, 1);
 
 val filch33 = stealFilch.addPool("filch_lizard_033", 1, 1, 0, 0);
 filch33.addItemEntry(<aether_legacy:victory_medal>, 1);

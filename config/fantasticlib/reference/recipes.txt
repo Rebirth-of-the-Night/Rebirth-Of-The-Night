@@ -42,7 +42,6 @@ minecraft:tnt_minecart
 minecraft:tnt
 minecraft:string_to_wool
 minecraft:stonebrick
-minecraft:stone_sword
 minecraft:stone_stairs
 minecraft:stone_slab
 minecraft:stone_shovel
@@ -215,7 +214,6 @@ minecraft:jungle_boat
 minecraft:jukebox
 minecraft:item_frame
 minecraft:iron_trapdoor
-minecraft:iron_sword
 minecraft:iron_shovel
 minecraft:iron_pickaxe
 minecraft:iron_nugget
@@ -253,7 +251,6 @@ minecraft:gray_bed_from_white_bed
 minecraft:gray_bed
 minecraft:gray_banner
 minecraft:granite
-minecraft:golden_sword
 minecraft:golden_shovel
 minecraft:golden_rail
 minecraft:golden_pickaxe
@@ -291,7 +288,6 @@ minecraft:emerald
 minecraft:dropper
 minecraft:dispenser
 minecraft:diorite
-minecraft:diamond_sword
 minecraft:diamond_shovel
 minecraft:diamond_pickaxe
 minecraft:diamond_leggings
@@ -433,7 +429,6 @@ rusticbopwoods:mahogany_table
 rusticbopwoods:ebony_table
 rusticbopwoods:eucalyptus_table
 testdummy:dummy
-aether_legacy:zanite_sword
 aether_legacy:zanite_shovel
 aether_legacy:zanite_pickaxe
 aether_legacy:zanite_leggings
@@ -444,7 +439,6 @@ aether_legacy:zanite_boots
 aether_legacy:zanite_block
 aether_legacy:zanite_axe
 aether_legacy:swetty_lead
-aether_legacy:skyroot_sword
 aether_legacy:skyroot_stick
 aether_legacy:skyroot_stairs
 aether_legacy:skyroot_slab
@@ -464,7 +458,6 @@ aether_legacy:mossy_holystone_stairs
 aether_legacy:mossy_holystone_slab
 aether_legacy:incubator
 aether_legacy:holystone_wall
-aether_legacy:holystone_sword
 aether_legacy:holystone_stairs
 aether_legacy:holystone_slab
 aether_legacy:holystone_shovel
@@ -477,7 +470,6 @@ aether_legacy:holystone_axe
 aether_legacy:hellfire_wall
 aether_legacy:hellfire_stairs
 aether_legacy:hellfire_slab
-aether_legacy:gravitite_sword
 aether_legacy:gravitite_shovel
 aether_legacy:gravitite_pickaxe
 aether_legacy:gravitite_leggings
@@ -840,7 +832,6 @@ harvestcraft:stuffedmushroomitem
 harvestcraft:stuffedeggplantitem
 harvestcraft:stuffedduckitem
 harvestcraft:stuffedchilipeppersitem
-harvestcraft:string_listallfiber
 harvestcraft:string_cropsisal
 harvestcraft:string_cropkenaf
 harvestcraft:string_cropjute
@@ -860,9 +851,6 @@ harvestcraft:strawberryjellysandwichitem
 harvestcraft:strawberryjellyitem
 harvestcraft:strawberryicecreamitem
 harvestcraft:strawberrycupcakeitem
-harvestcraft:stockitem_x3_minecraft_bone
-harvestcraft:stockitem_x3_listallveggie
-harvestcraft:stockitem_x3_listallmeatraw
 harvestcraft:steamedspinachitem
 harvestcraft:steamedpeasitem_itemsalt
 harvestcraft:steamedpeasitem_foodsalt
@@ -1835,6 +1823,7 @@ harvestcraft:beetburgeritem
 harvestcraft:beeswaxitem_x9_pressedwax
 harvestcraft:beeswaxitem_x8_cropcandle
 harvestcraft:beeswaxitem_cropcandle
+harvestcraft:beefwellingtonitem
 harvestcraft:beefjerkyitem_itemsalt
 harvestcraft:beefjerkyitem_foodsalt
 harvestcraft:beefjerkyitem_dustsalt
@@ -2010,7 +1999,6 @@ twilightforest:equipment/knightmetal_boots
 twilightforest:equipment/knightmetal_leggings
 twilightforest:equipment/ironwood_shovel
 twilightforest:torch
-twilightforest:uncrafting_table
 twilightforest:iron_ladder
 twilightforest:materials/carminite_alt
 twilightforest:materials/carminite
@@ -2682,26 +2670,18 @@ endreborn:tools/tool_hammer_iron
 endreborn:tools/entropy_wand
 endreborn:tools/ender_sword
 endreborn:tools/ender_bow
-endreborn:items/quartz_block
 endreborn:items/purpur_block
 endreborn:items/purpur_and_endorium
-endreborn:items/prismarine_2
-endreborn:items/prismarine
-endreborn:items/netherbrick
 endreborn:items/item_world_mirror
-endreborn:items/item_raw_endorium
-endreborn:items/item_lormyte_crystal
+endreborn:items/item_shard_obsidian
 endreborn:items/item_ingot_endorium_2
 endreborn:items/item_ingot_endorium_1
 endreborn:items/item_dragonite_tea
 endreborn:items/item_dragonite_seeds
 endreborn:items/item_angel_feather
 endreborn:items/item_advanced_ender_pearl
-endreborn:items/glowstone_dust
 endreborn:items/food_ender_flesh
 endreborn:items/elytra
-endreborn:items/catalyst
-endreborn:items/brick
 endreborn:blocks/smooth_end_stone_wall
 endreborn:blocks/smooth_end_stone_stairs
 endreborn:blocks/e_purpur_wall
@@ -2715,7 +2695,6 @@ endreborn:blocks/end_bricks_glow_wall
 endreborn:blocks/end_bricks_glow_stairs
 endreborn:blocks/end_bricks_glow
 endreborn:blocks/crop_ender_flower
-endreborn:blocks/cobblestone
 endreborn:blocks/block_purpur_lamp
 endreborn:blocks/block_phantom
 endreborn:blocks/block_lormyte_crystal
@@ -2842,10 +2821,6 @@ iceandfire:podium2
 iceandfire:podium1
 iceandfire:pixie_wand
 iceandfire:packed_ice
-iceandfire:myrmex_sword_venom_jungle
-iceandfire:myrmex_sword_venom_desert
-iceandfire:myrmex_sword_jungle
-iceandfire:myrmex_sword_desert
 iceandfire:myrmex_staff_jungle
 iceandfire:myrmex_staff_desert
 iceandfire:myrmex_shovel_jungle
@@ -2990,7 +2965,6 @@ iceandfire:dragonforge_ice_brick
 iceandfire:dragonforge_fire_input
 iceandfire:dragonforge_fire_core
 iceandfire:dragonforge_fire_brick
-iceandfire:dragonbone_sword
 iceandfire:dragonbone_shovel
 iceandfire:dragonbone_pickaxe
 iceandfire:dragonbone_hoe
@@ -3026,7 +3000,6 @@ iceandfire:blindfold
 iceandfire:bestiary
 iceandfire:ash_to_charcoal
 iceandfire:ash
-iceandfire:amphithere_macuahuitl
 iceandfire:amphithere_arrow
 iceandfire:ambrosia
 malisisdoors:wood_sliding_door
@@ -3117,7 +3090,6 @@ primitivemobs:camouflage_chestplate_toggle
 primitivemobs:camouflage_chestplate
 primitivemobs:camouflage_boots_toggle
 primitivemobs:camouflage_boots
-qualitytools:reforging_station
 qualitytools:emerald_ring
 qualitytools:emerald_amulet
 rustic:vase
@@ -3211,54 +3183,98 @@ spartanweaponry:pike_gold
 spartanweaponry:pike_diamond
 spartanweaponry:modded/warhammer_silver
 spartanweaponry:modded/warhammer_lead
+spartanweaponry:modded/warhammer_electrum
+spartanweaponry:modded/warhammer_bronze
 spartanweaponry:modded/throwing_knife_silver
 spartanweaponry:modded/throwing_knife_lead
+spartanweaponry:modded/throwing_knife_electrum
+spartanweaponry:modded/throwing_knife_bronze
 spartanweaponry:modded/throwing_axe_silver
 spartanweaponry:modded/throwing_axe_lead
+spartanweaponry:modded/throwing_axe_electrum
 spartanweaponry:modded/throwing_axe_copper
+spartanweaponry:modded/throwing_axe_bronze
 spartanweaponry:modded/spear_silver
 spartanweaponry:modded/spear_lead
+spartanweaponry:modded/spear_electrum
 spartanweaponry:modded/spear_copper
+spartanweaponry:modded/spear_bronze
 spartanweaponry:modded/saber_silver
 spartanweaponry:modded/saber_lead
+spartanweaponry:modded/saber_electrum
+spartanweaponry:modded/saber_bronze
 spartanweaponry:modded/rapier_silver
 spartanweaponry:modded/rapier_lead
+spartanweaponry:modded/rapier_electrum
+spartanweaponry:modded/rapier_bronze
 spartanweaponry:modded/quarterstaff_silver
 spartanweaponry:modded/quarterstaff_lead
+spartanweaponry:modded/quarterstaff_electrum
+spartanweaponry:modded/quarterstaff_bronze
 spartanweaponry:modded/pike_silver
 spartanweaponry:modded/pike_lead
+spartanweaponry:modded/pike_electrum
 spartanweaponry:modded/pike_copper
+spartanweaponry:modded/pike_bronze
 spartanweaponry:modded/mace_silver
 spartanweaponry:modded/mace_lead
+spartanweaponry:modded/mace_electrum
 spartanweaponry:modded/mace_copper
+spartanweaponry:modded/mace_bronze
 spartanweaponry:modded/longsword_silver
 spartanweaponry:modded/longsword_lead
+spartanweaponry:modded/longsword_electrum
+spartanweaponry:modded/longsword_bronze
 spartanweaponry:modded/longbow_silver
 spartanweaponry:modded/longbow_lead
+spartanweaponry:modded/longbow_electrum
+spartanweaponry:modded/longbow_bronze
 spartanweaponry:modded/lance_silver
 spartanweaponry:modded/lance_lead
+spartanweaponry:modded/lance_electrum
+spartanweaponry:modded/lance_bronze
 spartanweaponry:modded/katana_silver
 spartanweaponry:modded/katana_lead
+spartanweaponry:modded/katana_electrum
+spartanweaponry:modded/katana_bronze
 spartanweaponry:modded/javelin_silver
 spartanweaponry:modded/javelin_lead
+spartanweaponry:modded/javelin_electrum
 spartanweaponry:modded/javelin_copper
+spartanweaponry:modded/javelin_bronze
 spartanweaponry:modded/hammer_silver
 spartanweaponry:modded/hammer_lead
+spartanweaponry:modded/hammer_electrum
 spartanweaponry:modded/hammer_copper
+spartanweaponry:modded/hammer_bronze
 spartanweaponry:modded/halberd_silver
 spartanweaponry:modded/halberd_lead
+spartanweaponry:modded/halberd_electrum
+spartanweaponry:modded/halberd_bronze
 spartanweaponry:modded/greatsword_silver
 spartanweaponry:modded/greatsword_lead
+spartanweaponry:modded/greatsword_electrum
+spartanweaponry:modded/greatsword_bronze
 spartanweaponry:modded/glaive_silver
 spartanweaponry:modded/glaive_lead
+spartanweaponry:modded/glaive_electrum
+spartanweaponry:modded/glaive_bronze
 spartanweaponry:modded/dagger_silver
 spartanweaponry:modded/dagger_lead
+spartanweaponry:modded/dagger_electrum
 spartanweaponry:modded/dagger_copper
+spartanweaponry:modded/dagger_bronze
 spartanweaponry:modded/crossbow_silver
 spartanweaponry:modded/crossbow_lead
+spartanweaponry:modded/crossbow_electrum
+spartanweaponry:modded/crossbow_bronze
 spartanweaponry:modded/boomerang_silver
 spartanweaponry:modded/boomerang_lead
+spartanweaponry:modded/boomerang_electrum
+spartanweaponry:modded/boomerang_bronze
 spartanweaponry:modded/battleaxe_silver
+spartanweaponry:modded/battleaxe_electrum
+spartanweaponry:modded/battleaxe_bronze
 spartanweaponry:mace_wood
 spartanweaponry:mace_stone
 spartanweaponry:mace_iron
@@ -3872,9 +3888,7 @@ undergroundbiomes:lignite_smooth_sandstone
 undergroundbiomes:gneiss_smooth_sandstone
 undergroundbiomes:blue_concrete_powder
 villagenames:lunarinironbrick_toingots
-villagenames:lunarinironbrick
 villagenames:lunaringoldbrick_toingots
-villagenames:lunaringoldbrick
 wards:ward
 wards:enchanted_paper
 totemexpansion:totem_undying
@@ -3896,6 +3910,74 @@ twilightforest:arctic_armor_dyeing
 twilightforest:magic_map_cloning
 twilightforest:maze_map_cloning
 twilightforest:ore_map_cloning
+quark:elytra_dyeing
+quark:firework_cloning
+quark:arrow_ender
+quark:arrow_explosive
+quark:arrow_torch
+quark:map_pinning
+quark:rune
+quark:dispenser
+quark:repeater
+quark:chest_minecart
+quark:furnace_minecart
+quark:hopper_minecart
+quark:tnt_minecart
+quark:chest_minecart_1
+quark:horse_whistle
+quark:elytra_duplication
+quark:paper_wall
+quark:paper_wall_big
+quark:paper_wall_sakura
+quark:iron_ladder
+quark:paper_lantern
+quark:paper_lantern_1
+quark:colored_flowerpot_white
+quark:colored_flowerpot_orange
+quark:colored_flowerpot_magenta
+quark:colored_flowerpot_light_blue
+quark:colored_flowerpot_yellow
+quark:colored_flowerpot_lime
+quark:colored_flowerpot_pink
+quark:colored_flowerpot_gray
+quark:colored_flowerpot_silver
+quark:colored_flowerpot_cyan
+quark:colored_flowerpot_purple
+quark:colored_flowerpot_blue
+quark:colored_flowerpot_brown
+quark:colored_flowerpot_green
+quark:colored_flowerpot_red
+quark:colored_flowerpot_black
+quark:custom_bookshelf
+quark:custom_bookshelf_1
+quark:custom_bookshelf_2
+quark:custom_bookshelf_3
+quark:custom_bookshelf_4
+quark:bookshelf
+quark:colored_item_frame
+quark:colored_item_frame_1
+quark:colored_item_frame_2
+quark:colored_item_frame_3
+quark:colored_item_frame_4
+quark:colored_item_frame_5
+quark:colored_item_frame_6
+quark:colored_item_frame_7
+quark:colored_item_frame_8
+quark:colored_item_frame_9
+quark:colored_item_frame_10
+quark:colored_item_frame_11
+quark:colored_item_frame_12
+quark:colored_item_frame_13
+quark:colored_item_frame_14
+quark:colored_item_frame_15
+quark:lit_lamp
+quark:rope
+quark:blaze_lantern
+quark:nether_brick_fence_gate
+quark:grate
+quark:charcoal_block
+quark:coal
+quark:glass_item_frame
 quark:sandstone_new
 quark:sandstone_new_1
 quark:sandstone_new_2
@@ -4192,8 +4274,6 @@ quark:quilted_wool_12
 quark:quilted_wool_13
 quark:quilted_wool_14
 quark:quilted_wool_15
-quark:elytra_dyeing
-quark:firework_cloning
 quark:chute
 quark:sugar_block
 quark:iron_button
@@ -4204,27 +4284,12 @@ quark:iron_rod
 quark:gravisand
 quark:obsidian_pressure_plate
 quark:rain_detector
-quark:arrow_ender
-quark:arrow_explosive
-quark:arrow_torch
-quark:map_pinning
-quark:rune
-quark:dispenser
-quark:repeater
-quark:chest_minecart
-quark:furnace_minecart
-quark:hopper_minecart
-quark:tnt_minecart
-quark:chest_minecart_1
-quark:horse_whistle
-quark:elytra_duplication
 quark:biotite_slab
 quark:biotite_stairs
 quark:biotite_wall
 quark:biotite_block
 quark:biotite_block_1
 quark:biotite_block_2
-quark:golden_frog_leg
 quark:fire_stone_slab
 quark:fire_stone_stairs
 quark:fire_stone_brick_slab
@@ -4254,7 +4319,6 @@ quark:stone_pickaxe
 quark:stone_shovel
 quark:stone_axe
 quark:stone_hoe
-quark:stone_sword
 quark:clay_ball
 quark:glass
 quark:stained_glass
@@ -4273,58 +4337,49 @@ quark:stained_glass_12
 quark:stained_glass_13
 quark:stained_glass_14
 quark:stained_glass_15
-quark:paper_wall
-quark:paper_wall_big
-quark:paper_wall_sakura
-quark:iron_ladder
-quark:paper_lantern
-quark:paper_lantern_1
-quark:colored_flowerpot_white
-quark:colored_flowerpot_orange
-quark:colored_flowerpot_magenta
-quark:colored_flowerpot_light_blue
-quark:colored_flowerpot_yellow
-quark:colored_flowerpot_lime
-quark:colored_flowerpot_pink
-quark:colored_flowerpot_gray
-quark:colored_flowerpot_silver
-quark:colored_flowerpot_cyan
-quark:colored_flowerpot_purple
-quark:colored_flowerpot_blue
-quark:colored_flowerpot_brown
-quark:colored_flowerpot_green
-quark:colored_flowerpot_red
-quark:colored_flowerpot_black
-quark:custom_bookshelf
-quark:custom_bookshelf_1
-quark:custom_bookshelf_2
-quark:custom_bookshelf_3
-quark:custom_bookshelf_4
-quark:bookshelf
-quark:colored_item_frame
-quark:colored_item_frame_1
-quark:colored_item_frame_2
-quark:colored_item_frame_3
-quark:colored_item_frame_4
-quark:colored_item_frame_5
-quark:colored_item_frame_6
-quark:colored_item_frame_7
-quark:colored_item_frame_8
-quark:colored_item_frame_9
-quark:colored_item_frame_10
-quark:colored_item_frame_11
-quark:colored_item_frame_12
-quark:colored_item_frame_13
-quark:colored_item_frame_14
-quark:colored_item_frame_15
-quark:lit_lamp
-quark:rope
-quark:blaze_lantern
-quark:nether_brick_fence_gate
-quark:grate
-quark:charcoal_block
-quark:coal
-quark:glass_item_frame
+quark:pickarang
+quark:soul_powder
+quark:spruce_trapdoor
+quark:birch_trapdoor
+quark:jungle_trapdoor
+quark:acacia_trapdoor
+quark:dark_oak_trapdoor
+quark:trapdoor
+quark:chest
+quark:custom_chest
+quark:custom_chest_1
+quark:custom_chest_trap
+quark:custom_chest_2
+quark:custom_chest_3
+quark:custom_chest_trap_1
+quark:custom_chest_4
+quark:custom_chest_5
+quark:custom_chest_trap_2
+quark:custom_chest_6
+quark:custom_chest_7
+quark:custom_chest_trap_3
+quark:custom_chest_8
+quark:custom_chest_9
+quark:custom_chest_trap_4
+quark:chest_1
+quark:hopper
+quark:purple_shulker_box
+quark:leaf_carpet
+quark:leaf_carpet_1
+quark:leaf_carpet_2
+quark:leaf_carpet_3
+quark:leaf_carpet_4
+quark:leaf_carpet_5
+quark:spruce_pressure_plate
+quark:birch_pressure_plate
+quark:jungle_pressure_plate
+quark:acacia_pressure_plate
+quark:dark_oak_pressure_plate
+quark:spruce_button
+quark:birch_button
+quark:jungle_button
+quark:acacia_button
+quark:dark_oak_button
 quark:sandstone_new_4
 quark:sandstone_new_5
 quark:world_stone_bricks
@@ -4377,8 +4432,6 @@ quark:color_slime_2
 quark:color_slime_3
 quark:color_slime_4
 quark:redstone_inductor
-quark:pickarang
-quark:soul_powder
 quark:rune_1
 quark:rune_2
 quark:rune_3
@@ -4475,47 +4528,6 @@ quark:wool_30
 quark:wool_31
 quark:quilted_wool_46
 quark:quilted_wool_47
-quark:spruce_trapdoor
-quark:birch_trapdoor
-quark:jungle_trapdoor
-quark:acacia_trapdoor
-quark:dark_oak_trapdoor
-quark:trapdoor
-quark:chest
-quark:custom_chest
-quark:custom_chest_1
-quark:custom_chest_trap
-quark:custom_chest_2
-quark:custom_chest_3
-quark:custom_chest_trap_1
-quark:custom_chest_4
-quark:custom_chest_5
-quark:custom_chest_trap_2
-quark:custom_chest_6
-quark:custom_chest_7
-quark:custom_chest_trap_3
-quark:custom_chest_8
-quark:custom_chest_9
-quark:custom_chest_trap_4
-quark:chest_1
-quark:hopper
-quark:purple_shulker_box
-quark:leaf_carpet
-quark:leaf_carpet_1
-quark:leaf_carpet_2
-quark:leaf_carpet_3
-quark:leaf_carpet_4
-quark:leaf_carpet_5
-quark:spruce_pressure_plate
-quark:birch_pressure_plate
-quark:jungle_pressure_plate
-quark:acacia_pressure_plate
-quark:dark_oak_pressure_plate
-quark:spruce_button
-quark:birch_button
-quark:jungle_button
-quark:acacia_button
-quark:dark_oak_button
 doggytalents:dog_bed
 doggytalents:collar_colouring
 doggytalents:cape_colouring
@@ -4852,9 +4864,6 @@ spartanshields:shield_banner_electrum
 spartanshields:shield_banner_nickel
 spartanshields:shield_banner_lead
 spartanshields:shield_banner_constantan
-primal_tech:recipe_clay_kiln
-primal_tech:recipe_stone_mallet
-primal_tech:recipe_stone_anvil
 bountifulbaubles:ringgold
 bountifulbaubles:ringiron
 bountifulbaubles:trinketankhcharm
@@ -5023,6 +5032,7 @@ hungeroverhaul:wheatseeds
 crafttweaker:antlerbonemeal
 crafttweaker:antlerthrowbone
 crafttweaker:hemp fibers
+crafttweaker:hemp seeds
 crafttweaker:steel anvil
 crafttweaker:latch
 crafttweaker:betterwithmods dynamite
@@ -5040,7 +5050,7 @@ crafttweaker:bronze pickaxe
 crafttweaker:bronze axe
 crafttweaker:bronze hoe
 crafttweaker:bronze block
-crafttweaker:bronze lunarin
+crafttweaker:block to bronze
 crafttweaker:bronze plate
 crafttweaker:bronze to ingot
 crafttweaker:bronze to nugget
@@ -5099,9 +5109,12 @@ crafttweaker:standard dye 37
 crafttweaker:standard dye 38
 crafttweaker:standard dye 39
 crafttweaker:standard dye 40
+crafttweaker:plant partition 1
+crafttweaker:plant fiber 1
+crafttweaker:plant fiber 2
 crafttweaker:green dye
 crafttweaker:green from lyme
-crafttweaker:obsidian shard
+crafttweaker:cyan dye
 crafttweaker:magnitifus
 crafttweaker:end shards
 crafttweaker:being of entropy
@@ -5115,6 +5128,9 @@ crafttweaker:mediumglaretorch
 crafttweaker:largeglaretorch
 crafttweaker:verylargeglaretorch
 crafttweaker:grapplehook
+crafttweaker:harvestcraft_bonestock
+crafttweaker:harvestcraft_vegstock
+crafttweaker:harvestcraft_meatstock
 crafttweaker:pot
 crafttweaker:skillet
 crafttweaker:saucepan
@@ -5122,7 +5138,11 @@ crafttweaker:bakeware
 crafttweaker:tintripwirehook
 crafttweaker:tincompass
 crafttweaker:seasonclock1
-crafttweaker:water well
+crafttweaker:tin_bucket
+crafttweaker:water_well
+crafttweaker:food_presser
+crafttweaker:harvestcraft_glowing_honey
+crafttweaker:harvestcraft_grub_crowning
 crafttweaker:fire dragonsteel sword
 crafttweaker:ice dragonsteel sword
 crafttweaker:rusty handle
@@ -5136,6 +5156,21 @@ crafttweaker:chainmail helmet
 crafttweaker:chainmail chestplate
 crafttweaker:chainmail leggings
 crafttweaker:chainmail boots
+crafttweaker:lunarin iron
+crafttweaker:lunarin bronze
+crafttweaker:lunarin silver
+crafttweaker:lunarin gold
+crafttweaker:lunarin viridium
+crafttweaker:lunarin mythril
+crafttweaker:lunarin endorium
+crafttweaker:lunarin steel
+crafttweaker:lunarin sfs
+crafttweaker:lunarin crystal heart
+crafttweaker:lunarin rime
+crafttweaker:lunarin fiery
+crafttweaker:witheredblock to dust>
+crafttweaker:dust to witheredblock
+crafttweaker:forgiving tool reforging station
 crafttweaker:vampiric blade
 crafttweaker:draconic blade
 crafttweaker:red hot chili pepper sword
@@ -5155,7 +5190,21 @@ crafttweaker:frosted amedian pickaxe
 crafttweaker:frosted amedian shovel
 crafttweaker:frosted amedian axe
 crafttweaker:frosted amedian hoe
-crafttweaker:backpack
+crafttweaker:pyro stone brick
+crafttweaker:pyro stone kiln
+crafttweaker:pyro stone anvil
+crafttweaker:pyro brick kiln
+crafttweaker:pyro log pile
+crafttweaker:pyro wooden bucket
+crafttweaker:pyro stone door
+crafttweaker:pyro shelf
+crafttweaker:pyro stash
+crafttweaker:pyro stone tank
+crafttweaker:pyro stone hammer tool
+crafttweaker:pyro bow_drill
+crafttweaker:pyro flint_and_tinder
+crafttweaker:quark backpack
+crafttweaker:tin ladder
 crafttweaker:gold lantern
 crafttweaker:tin lantern
 crafttweaker:iron candle
@@ -5185,9 +5234,24 @@ crafttweaker:ct_shapeless1093959174
 crafttweaker:sharp stick
 crafttweaker:hippogryphsword
 crafttweaker:stymphalian bird dagger
+crafttweaker:golden sword
+crafttweaker:stone sword
+crafttweaker:iron sword
+crafttweaker:diamond sword
+crafttweaker:skyroot sword
+crafttweaker:holystone sword
+crafttweaker:zanite sword
+crafttweaker:gravitite sword
+crafttweaker:dragonbone sword
+crafttweaker:desert myrmex chitin sword
+crafttweaker:desert myrmex stinger sword
+crafttweaker:jungle myrmex chitin sword
+crafttweaker:jungle myrmex stinger sword
+crafttweaker:amphithere macuahuitl
 crafttweaker:nails
 crafttweaker:nails 2
 crafttweaker:nails 3
+crafttweaker:tf uncrafting table
 crafttweaker:anycobble
 betterwithmods:oak_planks
 betterwithmods:spruce_planks
@@ -5227,15 +5291,15 @@ betterwithmods:wood/mine_planks
 betterwithmods:wood/sort_planks
 betterwithmods:torch
 betterwithmods:baiting_recipe
-betterwithmods:siding_wood
-betterwithmods:moulding_wood
-betterwithmods:corner_wood
-betterwithmods:siding_rock
-betterwithmods:moulding_rock
-betterwithmods:corner_rock
 betterwithmods:siding_iron
 betterwithmods:moulding_iron
 betterwithmods:corner_iron
+betterwithmods:siding_rock
+betterwithmods:moulding_rock
+betterwithmods:corner_rock
+betterwithmods:siding_wood
+betterwithmods:moulding_wood
+betterwithmods:corner_wood
 betterwithmods:wood_siding.0
 betterwithmods:wood_moulding.0
 betterwithmods:wood_corner.0

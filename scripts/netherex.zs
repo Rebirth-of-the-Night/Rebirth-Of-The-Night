@@ -5,8 +5,8 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <neth
 
 //lore
 mods.jei.JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 4x4 pool of water surrounded by flowers on top of grass to open the portal. DEV NOTE: Ghast Queen is currently disabled, so we provided a temporary recipe so you may still enter the Twilight Forest.");
-mods.jei.JEI.addDescription(<netherex:rime_crystal>,"It'c cold to the touch, yet it seems to hold blazing flames in it. It was once used to make igniters, but they were unpredictable and too unstable.");
-mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"Hard to come by in the overworld, they seem to hold a significant value among the population of the Nether");
+mods.jei.JEI.addDescription(<netherex:rime_crystal>,"It's cold to the touch, yet it seems to hold blazing flames within. It was once used to make igniters, but they were unpredictable and too unstable.");
+mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"Hard to come by in the overworld, they seem to hold a significant value among the still-living natives of the Nether.");
 
 // temporary
 recipes.addShaped(<netherex:ghast_queen_tear>,[

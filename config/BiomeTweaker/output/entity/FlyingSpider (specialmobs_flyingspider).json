@@ -1,6 +1,0 @@
-
-{
-  "Name": "FlyingSpider",
-  "Registry ID": "specialmobs:flyingspider",
-  "Class": "fathertoast.specialmobs.entity.spider.EntityFlyingSpider"
-}

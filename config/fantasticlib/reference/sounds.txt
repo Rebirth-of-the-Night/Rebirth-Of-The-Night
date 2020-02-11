@@ -1162,6 +1162,10 @@ primitivemobs:entity.harpy.idle
 primitivemobs:entity.harpy.hurt
 primitivemobs:entity.flamespewer.idle
 primitivemobs:entity.voideye.idle
+pyrotech:sawmill_idle
+pyrotech:sawmill_active
+pyrotech:sawmill_active_short_a
+pyrotech:sawmill_active_short_b
 scalinghealth:cursed_heart_use
 scalinghealth:enchanted_heart_use
 scalinghealth:heart_container_use
@@ -1172,9 +1176,6 @@ spartanweaponry:throwing_weapon_throw
 spartanweaponry:throwing_weapon_hit
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
-primal_tech:breaking_stuff
-primal_tech:cabbage_fart
-primal_tech:bentley
 aether_legacy:aemob.moa.say
 aether_legacy:aemob.moa.flap
 aether_legacy:aemob.sheepuff.say
@@ -1227,11 +1228,6 @@ charm:homing
 charm:whispers
 charm:above_stronghold
 charm:ender_resonance
-notenoughcats:mob.cat.stray.idle
-notenoughcats:mob.cat.beg
-notenoughcats:mob.cat.eat
-notenoughcats:mob.cat.ocelot.idle
-notenoughcats:mob.cat.ocelot.death
 beneath:beneath.normal
 beneath:beneath.muffled
 beneath:beneath.drawnout

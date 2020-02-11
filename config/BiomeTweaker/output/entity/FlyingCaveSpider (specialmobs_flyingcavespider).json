@@ -1,6 +1,0 @@
-
-{
-  "Name": "FlyingCaveSpider",
-  "Registry ID": "specialmobs:flyingcavespider",
-  "Class": "fathertoast.specialmobs.entity.cavespider.EntityFlyingCaveSpider"
-}

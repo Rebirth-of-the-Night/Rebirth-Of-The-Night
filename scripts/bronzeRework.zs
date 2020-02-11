@@ -153,10 +153,10 @@ recipes.addShapeless("bronze to nugget", nugget*9,
 
 		
 //info
-mods.jei.JEI.addDescription(<contenttweaker:material_part>,"This is a big step in the right direction. As good if not better than iron.");
-mods.jei.JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also cooler.");
+mods.jei.JEI.addDescription(<contenttweaker:material_part>,"As good as, if not better than iron.");
+mods.jei.JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
 mods.jei.JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
-mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, they have good ventilation.");
+mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
 mods.jei.JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
 mods.jei.JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
 

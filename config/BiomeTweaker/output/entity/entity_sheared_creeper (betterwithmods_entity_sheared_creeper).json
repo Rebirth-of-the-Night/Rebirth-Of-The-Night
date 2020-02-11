@@ -1,6 +1,0 @@
-
-{
-  "Name": "entity_sheared_creeper",
-  "Registry ID": "betterwithmods:entity_sheared_creeper",
-  "Class": "betterwithmods.common.entity.EntityShearedCreeper"
-}

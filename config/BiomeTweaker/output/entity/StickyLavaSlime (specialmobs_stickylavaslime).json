@@ -1,6 +1,0 @@
-
-{
-  "Name": "StickyLavaSlime",
-  "Registry ID": "specialmobs:stickylavaslime",
-  "Class": "fathertoast.specialmobs.entity.lavaslime.EntityStickyLavaSlime"
-}

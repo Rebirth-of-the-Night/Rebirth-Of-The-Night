@@ -1,6 +1,0 @@
-
-{
-  "Name": "DirtCreeper",
-  "Registry ID": "specialmobs:dirtcreeper",
-  "Class": "fathertoast.specialmobs.entity.creeper.EntityDirtCreeper"
-}

@@ -2,5 +2,5 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 title @a times 40 120 60
 title @a subtitle {"text":"Unique challenges await...", "color":"yellow"}
-title @a title {"text":"The Aether", "bold":false, "italic":true, "color":"white"}
+title @a title {"text":"The Aether", "bold":false, "italic":false, "color":"white"}
 gamestage silentadd @a enteredAether

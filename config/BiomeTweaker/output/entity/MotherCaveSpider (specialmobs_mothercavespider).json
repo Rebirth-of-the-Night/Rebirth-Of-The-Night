@@ -1,6 +1,0 @@
-
-{
-  "Name": "MotherCaveSpider",
-  "Registry ID": "specialmobs:mothercavespider",
-  "Class": "fathertoast.specialmobs.entity.cavespider.EntityMotherCaveSpider"
-}
