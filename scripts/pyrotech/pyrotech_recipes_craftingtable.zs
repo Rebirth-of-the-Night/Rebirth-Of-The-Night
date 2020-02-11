@@ -44,7 +44,7 @@ recipes.addShaped("pyro stone brick", stoneBrick*2,
 recipes.addShaped("pyro stone kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [stoneBrick,<minecraft:furnace>,stoneBrick],
-  [stoneBrick,<minecraft:stonebrick>,stoneBrick]]);
+  [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
 recipes.addShaped("pyro stone anvil", <pyrotech:anvil_granite>,
  [[null,<ore:stoneSlab>,null],
   [null,<ore:stone>,null]]);
