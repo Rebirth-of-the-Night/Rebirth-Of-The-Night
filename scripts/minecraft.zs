@@ -148,6 +148,8 @@ tideBoots.addItems([<iceandfire:tide_blue_boots>,<iceandfire:tide_bronze_boots>,
 //All Lunarin bricks
 recipes.remove(<villagenames:lunaringoldbrick>);
 recipes.remove(<villagenames:lunarinironbrick>);
+recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
+recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 
 recipes.addShapeless("lunarin iron", <villagenames:lunarinironbrick>*24,
 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>,<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
