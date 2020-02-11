@@ -1,6 +1,6 @@
 setIcon("simpleores:adamantium_sword")
 setTitle("Hit Em Hard And Fast")
-setDescription("Obtain two viridium swords.")
+setDescription("Complete the Hit Em Hard And Fast set.")
 
 addParent("triumph:advancements/setbonuses/attackandprotecc")
 

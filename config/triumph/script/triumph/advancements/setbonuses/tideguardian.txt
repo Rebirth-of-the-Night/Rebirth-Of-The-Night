@@ -1,0 +1,20 @@
+setIcon("iceandfire:tide_blue_chestplate")
+setTitle("Ebb And Flow")
+setDescription("Complete the Ebb And Flow set.")
+
+addParent("triumph:advancements/setbonuses/diamondarmor")
+
+criteria = addCriteria("Tide Helmet", "minecraft:inventory_changed")
+criteria.addItem(<ore:tideHelmet>)
+
+criteria = addCriteria("Tide Chestplate", "minecraft:inventory_changed")
+criteria.addItem(<ore:tideChestplate>)
+
+criteria = addCriteria("Tide Leggings", "minecraft:inventory_changed")
+criteria.addItem(<ore:tideLeggings>)
+
+criteria = addCriteria("Tide Boots", "minecraft:inventory_changed")
+criteria.addItem(<ore:tideBoots>)
+
+alwaysVisible()
+setPos(-113,156)

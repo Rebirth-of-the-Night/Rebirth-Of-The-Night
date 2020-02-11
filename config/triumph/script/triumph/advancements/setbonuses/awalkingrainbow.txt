@@ -1,6 +1,6 @@
 setIcon("atop:amethyst_helmet")
 setTitle("Colorful Power!")
-setDescription("Obtain all the colors!")
+setDescription("Complete the Colorful Power set.")
 
 addParent("triumph:advancements/setbonuses/goldarmor")
 
@@ -17,4 +17,4 @@ criteria = addCriteria("Peridot Boots", "minecraft:inventory_changed")
 criteria.addItem("atop:peridot_boots")
 
 alwaysVisible()
-setPos(-220,-89)
+setPos(-222,-113)

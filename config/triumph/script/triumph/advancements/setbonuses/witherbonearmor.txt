@@ -1,6 +1,6 @@
 setIcon("netherex:wither_bone_chestplate")
 setTitle("Part Of The Bone Gang")
-setDescription("Obtain all 4 wither bone armor pieces.")
+setDescription("Complete the Part Of The Bone Gang set.")
 
 addParent("triumph:advancements/setbonuses/obsidianarmor")
 
@@ -17,4 +17,4 @@ criteria = addCriteria("Wither Bone Boots", "minecraft:inventory_changed")
 criteria.addItem("netherex:wither_bone_boots")
 
 alwaysVisible()
-setPos(-145,-61)
+setPos(-145,-85)

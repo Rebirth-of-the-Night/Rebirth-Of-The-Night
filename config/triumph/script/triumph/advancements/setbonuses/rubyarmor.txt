@@ -1,6 +1,6 @@
 setIcon("atop:ruby_chestplate")
 setTitle("Cover Me With Blood")
-setDescription("Obtain all 4 ruby armor pieces")
+setDescription("Complete the Cover Me With Blood set.")
 
 addParent("triumph:advancements/setbonuses/goldarmor")
 
@@ -17,4 +17,4 @@ criteria = addCriteria("Ruby Boots", "minecraft:inventory_changed")
 criteria.addItem("atop:ruby_boots")
 
 alwaysVisible()
-setPos(-249,-131)
+setPos(-252,-157)

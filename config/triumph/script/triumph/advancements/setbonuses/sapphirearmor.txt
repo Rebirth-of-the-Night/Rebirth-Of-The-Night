@@ -1,6 +1,6 @@
 setIcon("atop:sapphire_chestplate")
 setTitle("The Deep Blue Sea")
-setDescription("Obtain all 4 sapphire armor pieces.")
+setDescription("Complete The Deep Blue Sea set.")
 
 addParent("triumph:advancements/setbonuses/goldarmor")
 
@@ -18,4 +18,4 @@ criteria.addItem("atop:sapphire_boots")
 
 
 alwaysVisible()
-setPos(-249,-74)
+setPos(-252,-97)

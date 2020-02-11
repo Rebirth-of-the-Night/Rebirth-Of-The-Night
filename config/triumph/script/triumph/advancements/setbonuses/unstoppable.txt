@@ -1,6 +1,6 @@
 setIcon("betterwithmods:steel_chest")
 setTitle("Unstoppable")
-setDescription("Obtain all 4 plate armor pieces.")
+setDescription("Complete the Unstoppable set.")
 
 addParent("triumph:advancements/setbonuses/obsidianarmor")
 
@@ -17,4 +17,4 @@ criteria = addCriteria("Plate Armor Boots", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:steel_boots")
 
 alwaysVisible()
-setPos(-145,-117)
+setPos(-145,-141)

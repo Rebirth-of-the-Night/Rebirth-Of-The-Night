@@ -1,6 +1,6 @@
-setIcon("simpleores:mythril_sword")
+setIcon("simpleores:mythril_chestplate")
 setTitle("A Myth No More")
-setDescription("Obtain all 6 mythril pieces")
+setDescription("Complete the A Myth No More set.")
 
 addParent("triumph:advancements/setbonuses/diamondarmor")
 
@@ -21,6 +21,6 @@ criteria.addItem("simpleores:mythril_sword")
 
 criteria = addCriteria("Mythril Shield", "minecraft:inventory_changed")
 criteria.addItem("spartanshields:shield_basic_lead")
-setPos(-72,11)
+setPos(-113,11)
 
 alwaysVisible()

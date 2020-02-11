@@ -1,6 +1,6 @@
 setIcon("endreborn:armour_chestplate_obsidian")
 setTitle("Heavy Steps")
-setDescription("Obtain all 4 obsidian armor pieces")
+setDescription("Complete the Heavy Steps set.")
 
 addParent("triumph:advancements/setbonuses/awalkingrainbow")
 
@@ -17,4 +17,4 @@ criteria = addCriteria("Obsidian Boots", "minecraft:inventory_changed")
 criteria.addItem("endreborn:armour_boots_obsidian")
 
 alwaysVisible()
-setPos(-181,-89)
+setPos(-181,-113)

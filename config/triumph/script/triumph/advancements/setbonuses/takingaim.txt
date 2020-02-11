@@ -1,6 +1,6 @@
 setIcon("dungeontactics:silver_helmet")
 setTitle("Taking Aim")
-setDescription("Obtain 2 onyx armor pieces and 2 silver armor pieces")
+setDescription("Complete the Taking Aim set.")
 
 addParent("triumph:advancements/setbonuses/aworthycompromise")
 addParent("triumph:advancements/setbonuses/powercouple")
@@ -17,6 +17,6 @@ criteria.addItem("simpleores:onyx_leggings")
 
 criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
 criteria.addItem("simpleores:onyx_boots")
-setPos(-145,-89)
+setPos(-145,-113)
 
 alwaysVisible()

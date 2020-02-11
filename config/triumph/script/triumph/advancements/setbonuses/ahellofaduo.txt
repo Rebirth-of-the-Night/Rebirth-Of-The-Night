@@ -1,6 +1,6 @@
 setIcon("simpleores:onyx_sword")
 setTitle("A Hell Of A Duo")
-setDescription("Obtain an onyx sword and an onyx bow.")
+setDescription("Complete the A Hell Of A Duo set.")
 
 addParent("triumph:advancements/setbonuses/hitemhardandfast")
 

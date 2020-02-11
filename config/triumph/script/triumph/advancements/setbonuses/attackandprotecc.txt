@@ -1,6 +1,6 @@
 setIcon("minecraft:iron_sword")
 setTitle("Attac And Protecc")
-setDescription("Obtain an iron shield and an iron sword")
+setDescription("Complete the Attac And Protecc set.")
 
 addParent("triumph:advancements/setbonuses/copperarmor")
 

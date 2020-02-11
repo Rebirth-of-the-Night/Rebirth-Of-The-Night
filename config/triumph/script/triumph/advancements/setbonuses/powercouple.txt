@@ -1,6 +1,6 @@
 setIcon("endreborn:armour_helmet_helmet")
 setTitle("Power Couple")
-setDescription("Obtain 3 diamond armor pieces and 1 obsidian armor piece")
+setDescription("Complete the Power Couple set.")
 
 addParent("triumph:advancements/setbonuses/awalkingrainbow")
 
@@ -15,6 +15,6 @@ criteria.addItem("minecraft:diamond_leggings")
 
 criteria = addCriteria("Diamond Boots", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond_boots")
-setPos(-181,-117)
+setPos(-181,-141)
 
 alwaysVisible()

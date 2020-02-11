@@ -1,6 +1,6 @@
 setIcon("atop:peridot_chestplate")
 setTitle("Going Green")
-setDescription("Obtain all 4 peridot armor pieces.")
+setDescription("Complete the Going Green set.")
 
 addParent("triumph:advancements/setbonuses/goldarmor")
 
@@ -18,4 +18,4 @@ criteria.addItem("atop:peridot_boots")
 
 
 alwaysVisible()
-setPos(-249,-47)
+setPos(-252,-69)
