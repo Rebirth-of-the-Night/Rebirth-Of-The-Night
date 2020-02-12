@@ -17,6 +17,52 @@ mods.jei.JEI.removeAndHide(<pyrotech:mechanical_mulch_spreader>);
 mods.jei.JEI.removeAndHide(<pyrotech:bellows>);
 mods.jei.JEI.removeAndHide(<pyrotech:material:*>);
 mods.jei.JEI.removeAndHide(<pyrotech:rock:*>);
+mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_stone>);
+mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_flint>);
+mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_bone>);
+mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_iron>);
+mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_gold>);
+mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_diamond>);
+mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_obsidian>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_wood>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_stone>);
+mods.jei.JEI.removeAndHide(<pyrotech:wood_tar_block>);
+mods.jei.JEI.removeAndHide(<pyrotech:living_tar>);
+mods.jei.JEI.removeAndHide(<pyrotech:mushroom_brown_roasted>);
+mods.jei.JEI.removeAndHide(<pyrotech:mushroom_red_roasted>);
+mods.jei.JEI.removeAndHide(<pyrotech:apple_baked>);
+mods.jei.JEI.removeAndHide(<pyrotech:burned_food>);
+mods.jei.JEI.removeAndHide(<pyrotech:iron_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:diamond_hammer>);
+mods.jei.JEI.removeAndHide(<pyrotech:shelf_stone>);
+mods.jei.JEI.removeAndHide(<pyrotech:crate>);
+mods.jei.JEI.removeAndHide(<pyrotech:crate_stone>);
+mods.jei.JEI.removeAndHide(<pyrotech:chopping_block>);
+mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
+mods.jei.JEI.removeAndHide(<pyrotech:tinder>);
+mods.jei.JEI.removeAndHide(<pyrotech:campfire>);
+mods.jei.JEI.removeAndHide(<pyrotech:kiln_pit>);
+mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay_unfired>);
+mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay>);
+mods.jei.JEI.removeAndHide(<pyrotech:stash_stone>);
+mods.jei.JEI.removeAndHide(<pyrotech:wood_rack>);
+mods.jei.JEI.removeAndHide(<pyrotech:drying_rack:1>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_obsidian>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_diamond>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_gold>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_iron>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_bone>);
+mods.jei.JEI.removeAndHide(<pyrotech:cog_flint>);
+mods.jei.JEI.removeAndHide(<pyrotech:thatch>);
+mods.jei.JEI.removeAndHide(<pyrotech:refractory_glass>);
+mods.jei.JEI.removeAndHide(<pyrotech:slag_glass>);
+mods.jei.JEI.removeAndHide(<pyrotech:limestone>);
+mods.jei.JEI.removeAndHide(<pyrotech:cobblestone:3>);
+mods.jei.JEI.removeAndHide(<pyrotech:planks_tarred>);
+mods.jei.JEI.removeAndHide(<pyrotech:pile_wood_chips>);
+mods.jei.JEI.removeAndHide(<pyrotech:wool_tarred>);
+mods.jei.JEI.removeAndHide(<pyrotech:charcoal_block>);
+mods.jei.JEI.removeAndHide(<pyrotech:coal_coke_block>);
 mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
 mods.jei.JEI.hideCategory("pyrotech.crude.drying");
 mods.jei.JEI.hideCategory("pyrotech.drying");
@@ -44,7 +90,7 @@ recipes.addShaped("pyro stone brick", stoneBrick*2,
 recipes.addShaped("pyro stone kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [stoneBrick,<minecraft:furnace>,stoneBrick],
-  [stoneBrick,<minecraft:stonebrick>,stoneBrick]]);
+  [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
 recipes.addShaped("pyro stone anvil", <pyrotech:anvil_granite>,
  [[null,<ore:stoneSlab>,null],
   [null,<ore:stone>,null]]);
