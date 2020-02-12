@@ -22,7 +22,7 @@ GraniteAnvil.addRecipe("lormyte crystal", <endreborn:item_lormyte_crystal>*2, <e
 GraniteAnvil.addRecipe("obsidian dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer");
 GraniteAnvil.addRecipe("obsidian shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 32, "pickaxe");
 GraniteAnvil.addRecipe("cobblestone any cobblestone", <minecraft:cobblestone>, <ore:cobblestone>, 8, "hammer");
-GraniteAnvil.addRecipe("copper tin to pebbles", <contenttweaker:copper_tin_pebbles>*2, <contenttweaker:copper_tin_mixture>, 8, "hammer");
+GraniteAnvil.addRecipe("copper tin to pebbles", <contenttweaker:copper_tin_pebbles>*4, <contenttweaker:copper_tin_mixture>, 8, "hammer");
 GraniteAnvil.addRecipe("charcoal pile to charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 2,"hammer");
 GraniteAnvil.addRecipe("log to sawdust",<betterwithmods:material:22>*12, <ore:logWood>, 32,"hammer");
 GraniteAnvil.addRecipe("crab murder",<quark:crab_shell>*2, <harvestcraft:crabrawitem>, 1,"hammer");
