@@ -4,6 +4,8 @@ setDescription("Complete the Not Entirely Useless set.")
 
 addParent("triumph:advancements/setbonuses/chainarmor")
 
+addRewardFunction("triumph:fullEarlyArmor")
+
 criteria = addCriteria("Gold Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:golden_helmet")
 

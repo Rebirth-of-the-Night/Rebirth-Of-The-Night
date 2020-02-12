@@ -4,6 +4,8 @@ setDescription("Complete the Ancient Warfare set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
+addRewardFunction("triumph:fullEarlyArmor")
+
 criteria = addCriteria("Bronze Helmet", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_helmet")
 

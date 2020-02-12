@@ -412,7 +412,7 @@
  {
     "dimension": [0,10],
     "mob": "primitivemobs:rocket_creeper",
-    "gamestage": "minedDiamond",
+    "gamestage": "fullEarlyArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -555,27 +555,27 @@
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorhelmet": "atop:mud_helmet",
-    "gamestage": "minedDiamond"
+    "gamestage": "fullEarlyArmor"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorchest": "atop:mud_chestplate",
-    "gamestage": "minedDiamond"
+    "gamestage": "fullEarlyArmor"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorlegs": "atop:mud_leggings",
-    "gamestage": "minedDiamond"
+    "gamestage": "fullEarlyArmor"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorboots": "atop:mud_boots",
-    "gamestage": "minedDiamond"
+    "gamestage": "fullEarlyArmor"
 },
 
 
@@ -703,7 +703,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:hungryzombie",
-    "gamestage": "minedDiamond",
+    "gamestage": "fullEarlyArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -804,7 +804,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:sniperskeleton",
-    "gamestage": "minedDiamond",
+    "gamestage": "fullEarlyArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -935,7 +935,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:hungryspider",
-    "gamestage": "minedDiamond",
+    "gamestage": "fullEarlyArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -951,7 +951,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:palespider",
-    "gamestage": "minedDiamond",
+    "gamestage": "fullEarlyArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1110,7 +1110,7 @@
     "minlight": 14,
     "random": 0.003,
     "seesky": true,
-    "gamestage": "minedDiamond",
+    "gamestage": "fullEarlyArmor",
     "maxcount": {
         "amount": 2,
         "perplayer": true
