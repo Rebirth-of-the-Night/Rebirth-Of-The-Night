@@ -92,6 +92,28 @@
 
 
  /////////////// GAME STAGES ///////////////
+ 
+ // Zotzpyre
+ {
+    "dimension": [0,10],
+    "mob": "betteranimalsplus:zotzpyre",
+    "maxlight": 7,
+    "minlight": 0,
+    "gamestage": "enteredBeneath",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "betteranimalsplus:zotzpyre",
+    "result": "deny"
+ },
+
+
+
  {
     "dimension": 0,
     "mob": "aether_legacy:moa",
