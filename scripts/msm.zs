@@ -3,6 +3,8 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
 
+mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 99 as short}]})");
+
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_infinity>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_keyblade>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_master>);
