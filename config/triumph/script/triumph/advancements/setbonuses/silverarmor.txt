@@ -1,6 +1,6 @@
 setIcon("dungeontactics:silver_chestplate")
 setTitle("Knight In Shining Armor")
-setDescription("Complete Knight In Shining Armor set.")
+setDescription("Complete the Knight In Shining Armor set.")
 
 addParent("triumph:advancements/setbonuses/ironarmor")
 

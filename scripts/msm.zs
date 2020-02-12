@@ -3,7 +3,6 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
 
-mods.jei.JEI.removeAndHide(<msmlegacy:relic_candy>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_infinity>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_keyblade>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_master>);
@@ -62,6 +61,26 @@ recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTa
 
 
 
+
+var sfs = <betterwithmods:material:14>;
+var fiery = <twilightforest:fiery_ingot>;
+var onyxrod = <simpleores:onyx_rod>;
+
+val enchantmentsRelic2 as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_aspect>];
+
+var enchantmentRelicMap2 as IData = {};
+
+enchantmentRelicMap2 += enchantmentsRelic2[0].makeEnchantment(2).makeTag();
+
+recipes.remove(<msmlegacy:relic_candy>);
+
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:relic_candy>.withTag(enchantmentRelicMap2), 
+[
+   [null, ruby, ruby, onyxrod],
+   [null, fiery, sfs, ruby],
+   [fiery, sfs, fiery, ruby],
+   [sfs, fiery, null, null]
+]);
 
 ////////////////////////////////////////        Legendaries        ///////////////////////////////////
 

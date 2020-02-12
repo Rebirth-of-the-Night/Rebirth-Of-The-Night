@@ -179,5 +179,8 @@
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 
+
+# Relics
 <msmlegacy:relic_aqueous>.displayName = "§4Red Hot Chili Pepper Sword";
+<msmlegacy:relic_candy>.displayName = "§4Burning Super Death Sword";
 
