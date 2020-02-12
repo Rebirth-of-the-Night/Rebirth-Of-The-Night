@@ -144,11 +144,20 @@ recipes.addShaped("bronze to ingot", <contenttweaker:material_part>,
 recipes.addShapeless("bronze to nugget", nugget*9,
  [bronze]);
  
- //BRONZE RECIPES
- recipes.addShapeless("copper tin mixture", <contenttweaker:copper_tin_mixture>,
+//BRONZE RECIPES
+recipes.addShapeless("copper tin mixture", <contenttweaker:copper_tin_mixture>,
  [<ore:ingotTin>,<ore:ingotCopper>,<ore:ingotCopper>,
   <ore:ingotCopper>]
 		);
+recipes.addShapeless("copper_tin_mixture_return", <simpleores:copper_ingot>*3,
+    [<contenttweaker:copper_tin_mixture>],
+    function(out,ins,cInfo){
+    return out;
+},
+//IRecipeAction
+function(out,cInfo,player){
+    player.give(<simpleores:tin_ingot>);
+});	
   #Additional recipes on pyrotech scripts 
 
 		
