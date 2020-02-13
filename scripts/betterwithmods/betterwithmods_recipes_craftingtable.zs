@@ -21,3 +21,7 @@ recipes.removeShapeless(<betterwithmods:dynamite>);
 recipes.addShapeless("betterwithmods dynamite", <betterwithmods:dynamite>, 
 [<ore:paper>, <ore:paper>, <ore:paper>, 
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
+
+ //Vine Trap
+ recipes.addShaped("VineTrap", <betterwithmods:vine_trap>,
+ [[<ore:vine>,<ore:vine>,<ore:vine>]);

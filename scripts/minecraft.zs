@@ -79,6 +79,12 @@ hammerTool.addItems([<aether_legacy:notch_hammer>,<endreborn:tool_hammer_iron>,<
 val anvilAny = <ore:anvilAny>;
 anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
 
+val vine = <ore:vine>;
+vine.addItems([<biomesoplenty:willow_vine>,<biomesoplenty:ivy>]);
+
+vak fang = <ore:fang>;
+fang.addItems([<mod_lavacow:sharptooth>, <mowziesmobs:naga_fang>, <iceandfire:sea_serpent_fang>, <netherex:coolmar_spider_fang>]);
+
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
 
