@@ -32,6 +32,7 @@
 <minecraft:iron_sword>.displayName = "Iron Arming Sword";
 <minecraft:golden_sword>.displayName = "Golden Arming Sword";
 <minecraft:diamond_sword>.displayName = "Diamond Arming Sword";
+<minecraft:cauldron>.displayName = "Liquid Cauldron";
 
 // Malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
