@@ -1,4 +1,6 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.data.IData;
 
 //Removal of weapons recipes that involve stick > handle
 
@@ -18,6 +20,10 @@ recipes.remove(<iceandfire:myrmex_desert_sword_venom>);
 recipes.remove(<iceandfire:myrmex_jungle_sword>);
 recipes.remove(<iceandfire:myrmex_jungle_sword_venom>);
 recipes.remove(<iceandfire:amphithere_macuahuitl>);
+recipes.remove(<twilightforest:ironwood_sword>);
+recipes.remove(<twilightforest:steeleaf_sword>);
+recipes.remove(<twilightforest:knightmetal_sword>);
+recipes.remove(<twilightforest:giant_sword>);
 
 //Wooden Sword Tweaks
 
@@ -40,6 +46,8 @@ val handle = <spartanweaponry:material>;
 val witherhandle = <spartanfire:witherbone_handle>;
 val feather = <ore:feather>;
 val iron = <ore:ingotIron>;
+val wool = <ore:wool>;
+val log = <ore:log>;
 val stone = <ore:cobblestone>;
 val gold = <ore:ingotGold>;
 val skyroot = <aether_legacy:skyroot_plank>;
@@ -53,6 +61,10 @@ val mdchitin = <iceandfire:myrmex_desert_chitin>;
 val mjchitin = <iceandfire:myrmex_jungle_chitin>;
 val mstinger = <iceandfire:myrmex_stinger>;
 val amphitherefeather = <iceandfire:amphithere_feather>;
+val ironwood = <twilightforest:ironwood_ingot>;
+val steeleaf = <twilightforest:steeleaf_ingot>;
+val knightmetal = <twilightforest:knightmetal_ingot>;
+val giantcobblestone = <twilightforest:giant_cobblestone>;
 val goldensword = <minecraft:golden_sword>;
 val stonesword = <minecraft:stone_sword>;
 val ironsword = <minecraft:iron_sword>;
@@ -71,6 +83,10 @@ val desertmyrmexstingersword = <iceandfire:myrmex_desert_sword_venom>;
 val junglemyrmexsword = <iceandfire:myrmex_jungle_sword>;
 val junglemyrmexstingersword = <iceandfire:myrmex_jungle_sword_venom>;
 val amphitheremacuahuitl = <iceandfire:amphithere_macuahuitl>;
+val ironwoodsword = <twilightforest:ironwood_sword>;
+val steeleafsword = <twilightforest:steeleaf_sword>;
+val knightsword = <twilightforest:knightmetal_sword>;
+val giantsword = <twilightforest:giant_sword>;
 
 recipes.addShaped("HippogryphSword", hippogryph_sword,
  [[null,hippogryphtalon,null],
@@ -136,6 +152,36 @@ recipes.addShaped("Amphithere Macuahuitl", amphitheremacuahuitl,
  [[obsidian,wood,obsidian],
   [amphitherefeather,wood,amphitherefeather],
   [obsidian,handle,obsidian]]);
+  
+  val enchantments1 as IEnchantmentDefinition[] = [<enchantment:minecraft:knockback>];
+
+var enchantmentMap1 as IData = {};
+
+enchantmentMap1 += enchantments1[0].makeEnchantment(1).makeTag();
+
+recipes.addShaped("Ironwood Sword", ironwoodsword.withTag(enchantmentMap1),
+ [[null,ironwood,null],
+  [null,ironwood,null],
+  [null,handle,null]]);
+  
+  val enchantments2 as IEnchantmentDefinition[] = [<enchantment:minecraft:looting>];
+
+var enchantmentMap2 as IData = {};
+
+enchantmentMap2 += enchantments2[0].makeEnchantment(2).makeTag();
+  
+recipes.addShaped("Steeleaf Sword", steeleafsword.withTag(enchantmentMap2),
+ [[null,steeleaf,null],
+  [null,steeleaf,null],
+  [null,handle,null]]);
+recipes.addShaped("Knightmetal Sword", knightsword,
+ [[null,knightmetal,null],
+  [null,knightmetal,null],
+  [null,handle,null]]);
+recipes.addShaped("Giant Sword", giantsword,
+ [[null,giantcobblestone,null],
+  [null,giantcobblestone,null],
+  [null,log,wool]]);
   
   
   
