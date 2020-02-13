@@ -72,85 +72,174 @@
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
+<simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 <simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
+<simpleores:adamantium_pickaxe>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_shovel>.displayName = "§2Viridium Shovel";
+<simpleores:adamantium_shovel>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_hoe>.displayName = "§2Viridium Hoe";
+<simpleores:adamantium_hoe>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_axe>.displayName = "§2Viridium Axe";
+<simpleores:adamantium_axe>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_chestplate>.displayName = "§2Viridium Chestplate";
+<simpleores:adamantium_chestplate>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_leggings>.displayName = "§2Viridium Leggings";
+<simpleores:adamantium_leggings>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_helmet>.displayName = "§2Viridium Helmet";
+<simpleores:adamantium_helmet>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_boots>.displayName = "§2Viridium Boots";
+<simpleores:adamantium_boots>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_ingot>.displayName = "§2Viridium Ingot";
+<simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Item"));
 <simpleores:adamantium_block>.displayName = "§2Block of Viridium";
+<simpleores:adamantium_block>.addTooltip(format.darkGreen("Rare Block"));
 
 <iceandfire:myrmex_desert_sword_venom>.displayName = "§2Desert Myrmex Stinger Sword";
+<iceandfire:myrmex_desert_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
 <iceandfire:myrmex_jungle_sword_venom>.displayName = "§2Jungle Myrmex Stinger Sword";
+<iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
 
 <msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
+<msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
 <msmlegacy:draconic_blade>.displayName = "§2Draconic Sword";
+<msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
+
 
 #Epic
 <simpleores:mythril_bow>.displayName = "§5Mythril Bow";
+<simpleores:mythril_bow>.addTooltip(format.darkPurple("Epic Weapon"));
 <simpleores:mythril_sword>.displayName = "§5Mythril Sword";
+<simpleores:mythril_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 <simpleores:mythril_pickaxe>.displayName = "§5Mythril Pickaxe";
+<simpleores:mythril_pickaxe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_shovel>.displayName = "§5Mythril Shovel";
+<simpleores:mythril_shovel>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_axe>.displayName = "§5Mythril Axe";
+<simpleores:mythril_axe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_hoe>.displayName = "§5Mythril Hoe";
+<simpleores:mythril_hoe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_chestplate>.displayName = "§5Mythril Chestplate";
+<simpleores:mythril_chestplate>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_leggings>.displayName = "§5Mythril Leggings";
+<simpleores:mythril_leggings>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_helmet>.displayName = "§5Mythril Helmet";
+<simpleores:mythril_helmet>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_boots>.displayName = "§5Mythril Boots";
+<simpleores:mythril_boots>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_ingot>.displayName = "§5Mythril Ingot";
+<simpleores:mythril_ingot>.addTooltip(format.darkPurple("Epic Item"));
 <simpleores:mythril_block>.displayName = "§5Block of Mythril";
+<simpleores:mythril_block>.addTooltip(format.darkPurple("Epic Block"));
+
 
 <iceandfire:dragonbone_sword>.displayName = "§5Dragon Bone Sword";
+<iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
+<mowziesmobs:wrought_axe>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
+<mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
+<mowziesmobs:ice_crystal>.addTooltip(format.darkPurple("Epic Weapon"));
 <iceandfire:myrmex_desert_staff>.displayName = "§5Desert Myrmex Staff";
+<iceandfire:myrmex_desert_staff>.addTooltip(format.darkPurple("Epic Weapon"));
 <iceandfire:myrmex_jungle_staff>.displayName = "§5Jungle Myrmex Staff";
-
+<iceandfire:myrmex_jungle_staff>.addTooltip(format.darkPurple("Epic Weapon"));
 <dungeontactics:lantern_magic>.displayName = "§5Magic Lantern";
+<dungeontactics:lantern_magic>.addTooltip(format.darkPurple("Epic Item"));
+
 
 
 #Legendary
 <simpleores:onyx_bow>.displayName = "§6Onyx Bow";
+<simpleores:onyx_bow>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_sword>.displayName = "§6Onyx Sword";
+<simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";
+<simpleores:onyx_pickaxe>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_shovel>.displayName = "§6Onyx Shovel";
+<simpleores:onyx_shovel>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_hoe>.displayName = "§6Onyx Hoe";
+<simpleores:onyx_hoe>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_axe>.displayName = "§6Onyx Axe";
+<simpleores:onyx_axe>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_chestplate>.displayName = "§6Onyx Chestplate";
+<simpleores:onyx_chestplate>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_leggings>.displayName = "§6Onyx Leggings";
+<simpleores:onyx_leggings>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_helmet>.displayName = "§6Onyx Helmet";
+<simpleores:onyx_helmet>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_boots>.displayName = "§6Onyx Boots";
+<simpleores:onyx_boots>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_gem>.displayName = "§6Onyx";
+<simpleores:onyx_gem>.addTooltip(format.gold("Legendary Item"));
 <simpleores:onyx_block>.displayName = "§6Block of Onyx";
+<simpleores:onyx_block>.addTooltip(format.gold("Legendary Block"));
+
 
 <aether_legacy:notch_hammer>.displayName = "§6Hammer of Miku";
+<aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
 <endreborn:ender_sword>.displayName = "§6Void Ripper";
+<endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
+
 
 <iceandfire:dragonsteel_ice_sword>.displayName = "§6Ice Dragonsteel Sword";
+<iceandfire:dragonsteel_ice_sword>.addTooltip(format.gold("Legendary Weapon"));
+
 <iceandfire:dragonsteel_ice_pickaxe>.displayName = "§6Ice Dragonsteel Pickaxe";
+<iceandfire:dragonsteel_ice_pickaxe>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_ice_axe>.displayName = "§6Ice Dragonsteel Axe";
+<iceandfire:dragonsteel_ice_axe>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_ice_shovel>.displayName = "§6Ice Dragonsteel Shovel";
+<iceandfire:dragonsteel_ice_shovel>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_ice_hoe>.displayName = "§6Ice Dragonsteel Hoe";
+<iceandfire:dragonsteel_ice_hoe>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_fire_sword>.displayName = "§6Fire Dragonsteel Sword";
+<iceandfire:dragonsteel_fire_sword>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_fire_pickaxe>.displayName = "§6Fire Dragonsteel Pickaxe";
+<iceandfire:dragonsteel_fire_pickaxe>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_fire_axe>.displayName = "§6Fire Dragonsteel Axe";
+<iceandfire:dragonsteel_fire_axe>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_fire_shovel>.displayName = "§6Fire Dragonsteel Shovel";
+<iceandfire:dragonsteel_fire_shovel>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_fire_hoe>.displayName = "§6Fire Dragonsteel Hoe";
+<iceandfire:dragonsteel_fire_hoe>.addTooltip(format.gold("Legendary Tool"));
+
 <iceandfire:dragonsteel_fire_chestplate>.displayName = "§6Fire Dragonsteel Chestplate";
+<iceandfire:dragonsteel_fire_chestplate>.addTooltip(format.gold("Legendary Armor"));
+
 <iceandfire:dragonsteel_fire_helmet>.displayName = "§6Fire Dragonsteel Helmet";
+<iceandfire:dragonsteel_fire_helmet>.addTooltip(format.gold("Legendary Armor"));
+
 <iceandfire:dragonsteel_fire_leggings>.displayName = "§6Fire Dragonsteel Leggings";
+<iceandfire:dragonsteel_fire_leggings>.addTooltip(format.gold("Legendary Armor"));
+
 <iceandfire:dragonsteel_fire_boots>.displayName = "§6Fire Dragonsteel Boots";
+<iceandfire:dragonsteel_fire_boots>.addTooltip(format.gold("Legendary Armor"));
+
 <iceandfire:dragonsteel_ice_chestplate>.displayName = "§6Ice Dragonsteel Chestplate";
+<iceandfire:dragonsteel_ice_chestplate>.addTooltip(format.gold("Legendary Armor"));
+
 <iceandfire:dragonsteel_ice_helmet>.displayName = "§6Ice Dragonsteel Helmet";
+<iceandfire:dragonsteel_ice_helmet>.addTooltip(format.gold("Legendary Armor"));
+
 <iceandfire:dragonsteel_ice_leggings>.displayName = "§6Ice Dragonsteel Leggings";
+<iceandfire:dragonsteel_ice_leggings>.addTooltip(format.gold("Legendary Armor"));
+
 <iceandfire:dragonsteel_ice_boots>.displayName = "§6Ice Dragonsteel Boots";
+<iceandfire:dragonsteel_ice_boots>.addTooltip(format.gold("Legendary Armor"));
+
 
 <msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
-<iceandfire:gorgon_head>.displayName = "§6PGorgon Head";
+<msmlegacy:aethers_guard>.addTooltip(format.gold("Legendary Weapon"));
+<iceandfire:gorgon_head>.displayName = "§6Gorgon Head";
 <iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragon Bone Sword";
 <iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragon Bone Sword";
 <iceandfire:hippogryph_sword>.displayName = "§6Hippogryph Talon Sword";
@@ -172,12 +261,22 @@
 
 # Godly
 <msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
+<msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
+
 <msmlegacy:wither_bane>.displayName = "§cDark's Edge";
+<msmlegacy:wither_bane>.addTooltip(format.red("Godly Weapon"));
+
 <msmlegacy:glacial_blade>.displayName = "§cDragon's Bane";
+<msmlegacy:glacial_blade>.addTooltip(format.red("Godly Weapon"));
+
 <msmlegacy:crystaline_blade>.displayName = "§cLight's Edge";
+<msmlegacy:crystaline_blade>.addTooltip(format.red("Godly Weapon"));
+
 <mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman";
+<mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Weapon"));
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
+<msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
 
 
 # Relics
