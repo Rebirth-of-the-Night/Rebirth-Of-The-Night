@@ -169,7 +169,7 @@ mods.jei.JEI.removeAndHide(<dungeontactics:steel_axe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_pickaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_shovel>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_pickaxe>);
-mods.jei.JEI.removeAndHide(<dungeontactics:engineers_wrench	_steel>);
+mods.jei.JEI.removeAndHide(<dungeontactics:engineers_wrench_steel>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_boots>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_leggings>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_chestplate>);
