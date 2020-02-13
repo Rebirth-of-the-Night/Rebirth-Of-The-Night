@@ -18,3 +18,4 @@
 //I don't know where to put this so it is going here and you're gonna just deal with it ok?
 recipes.remove(<betterwithmods:donut>);
 mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
