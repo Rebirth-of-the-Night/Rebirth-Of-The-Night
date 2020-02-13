@@ -11,7 +11,7 @@
       }
     ]
   },
-
+  
   // Gold Golems
   {
     "dimension": -1,
@@ -65,13 +65,13 @@
     ]
   },
 
-  // Moas
+  // Cockatrice/Kelenk
   {
     "dimension": 0,
     "seesky": true,
     "mobs": [
       {
-        "mob": "aether_legacy:moa",
+        "mob": "aether_legacy:cockatrice",
         "weight": 2
       }
     ]
@@ -607,7 +607,7 @@
     "mobs": [
       {
         "mob": "specialmobs:lemonslime",
-        "weight": 50,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -727,6 +727,223 @@
         "groupcountmax": 1
       }
     ]
-  }
+  },
 
+// skydrake
+ {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:naga",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+ // Fish's Undead Rising 
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "mod_lavacow:wendigo",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:zombiepiranha",
+        "weight": 5,
+        "groupcountmin": 3,
+        "groupcountmax": 10
+      }
+    ]
+  },
+  
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:undeadswine",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
+    {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:zombiefrozen",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
+    {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:zombiemushroom",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
+    {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:foglet",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:ptera",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  
+  {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:ptera",
+        "weight": 1,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },  
+// rats
+ {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "rats:rat",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ]
+  },
+  
+  {
+    "dimension": [-1,0,10],
+    "mobs": [
+      {
+        "mob": "rats:ratlantean_spirit",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "rats:plague_beast",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "rats:black_death",
+        "weight": 0.05,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "netherex:wight",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+  {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "netherex:coolmar_spider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+ 
+   {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "primitivemobs:harpy",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ]
+  },
+ 
+    {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "iceandfire:stymphalianbird",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ]
+  },
+ 
+   {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:vespa",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
 ]

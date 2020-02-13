@@ -18,6 +18,19 @@
     "onjoin": true,
     "result": "deny"
  },
+ 
+  // Disable unneeded fish's mobs
+ {
+    "mob": "mod_lavacow:raven",
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+ {
+    "mob": "mod_lavacow:lavacow",
+    "onjoin": true,
+    "result": "deny"
+ },
 
  // Remove enderman spawning in the Nether
  {
@@ -26,8 +39,33 @@
     "onjoin": true,
     "result": "deny"
  },
+ 
+ // Remove zomb spawning in Aether
+ {
+    "mob": "minecraft:zombie",
+    "dimension": 4,
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+ // Remove skele spawning in Aether
+ {
+    "mob": "minecraft:skeleton",
+    "dimension": 4,
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+ 
+ // remove piper spawning in Aether
+ {
+    "mob": "rats:illager_piper",
+    "dimension": 4,
+    "onjoin": true,
+    "result": "deny"
+ },
 
- // Remove angry enderman
+// Remove angry enderman
  {
     "mob": "endreborn:angry_enderman",
     "onjoin": true,
@@ -40,7 +78,6 @@
     "onjoin": true,
     "result": "deny"
  },
-
 
   // Remove Zombie Players spawning in the Nether
  {
@@ -90,15 +127,23 @@
     "result": "deny"
  },
 
+//aether attempt to make fireballs explode
+  {
+    "mob": "aether_legacy:fire_ball",
+    "result": "allow",
+    "potion": "extraalchemy:effect.fuse,300,1"
+  },
 
  /////////////// GAME STAGES ///////////////
- 
- // Zotzpyre
+  // Zotzpyre
  {
     "dimension": [0,10],
     "mob": "betteranimalsplus:zotzpyre",
     "maxlight": 7,
     "minlight": 0,
+	"maxheight": 100,
+	"random": 0.3,
+	"seesky": false,
     "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 2,
@@ -111,22 +156,25 @@
     "mob": "betteranimalsplus:zotzpyre",
     "result": "deny"
  },
-
-
-
+ 
  {
     "dimension": 0,
-    "mob": "aether_legacy:moa",
+    "mob": "aether_legacy:cockatrice",
     "gamestage": "enteredAether",
+	"minheight": 70,
+	"random": 0.7,
+	"seesky": true,
+	"maxlight": 10,
+    "minlight": 0,
     "maxcount": {
-        "amount": 2,
+        "amount": 3,
         "perplayer": true
     },
     "result": "allow"
  },
  {
     "dimension": 0,
-    "mob": "aether_legacy:moa",
+    "mob": "aether_legacy:cockatrice",
     "result": "deny"
  },
 
@@ -295,7 +343,9 @@
     "dimension": 0,
     "mob": "magma_monsters:magma_monster_grunt",
     "gamestage": "enteredNether",
-    "maxheight": 32,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxheight": 40,
     "maxcount": {
         "amount": 3,
         "perplayer": true
@@ -743,7 +793,8 @@
         "amount": 5,
         "perplayer": true
     },
-    "result": "default"
+    "result": "default",
+	"potion": "rats:plague,1000000,1"
  },
  {
     "dimension": [0,10],
@@ -1217,7 +1268,8 @@
         "amount": 2,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "allow",
+	"potion": "rats:plague,1000000,1"
  },
  {
     "dimension": [0,10,1],
@@ -1277,7 +1329,361 @@
     "dimension": [0,10,1],
     "mob": "specialmobs:mirageenderman",
     "result": "deny"
- }
+ },
 
+// rats
+ {
+    "dimension": 0,
+    "mob": "rats:rat",
+    "gamestage": "enteredBeneath",
+	"random": 0.45,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0],
+    "mob": "rats:rat",
+    "result": "deny"
+ },
+ {
+    "dimension": [0,10,-1],
+    "mob": "rats:ratlantean_spirit",
+    "gamestage": "enteredBeneath",
+	"random": 0.125,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow",
+	"potion": "minecraft:fire_resistance,10000,1"
+ },
+ {
+    "dimension": [0,10,-1],
+    "mob": "rats:ratlantean_spirit",
+    "result": "deny"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "rats:plague_beast",
+    "gamestage": "minedMythril",
+	"random": 0.01,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "rats:plague_beast",
+    "result": "deny"
+ },
+ {
+    "dimension": 0,
+    "mob": "rats:black_death",
+    "gamestage": "minedMythril",
+	"maxlight": 7,
+    "minlight": 0,
+	"random": 0.001,
+	"seesky": true,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "rats:black_death",
+    "result": "deny"
+ },
+ 
+// skydrake
+ {
+    "dimension": 4,
+    "mob": "mowziesmobs:naga",
+    "gamestage": "enteredAether",
+	"random": 0.05,
+	"damagemultiply": 1.5,
+    "healthmultiply": 1.5,
+	"block": ["aether_legacy:quicksoil"],
+	"seesky": true,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "mowziesmobs:naga",
+    "result": "deny"
+ },
+  // Fish's Undead Rising
+ {
+    "dimension": [0,10],
+    "mob": "mod_lavacow:wendigo",
+	"biome": ["forest", "taiga", "frozen_river", "ice_flats", "ice_mountains", "forest_hills", "taiga_hills", "minecraft:smaller_extreme_hills", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:roofed_forest", "minecraft:taiga_cold", "minecraft:taiga_cold_hills", "minecraft:redwood_taiga", "minecraft:redwood_taiga_hills", "minecraft:extreme_hills_with_trees", "minecraft:mutated_extreme_hills", "minecraft:mutated_forest", "minecraft:mutated_taiga", "minecraft:mutated_ice_flats", "minecraft:mutated_birch_forest", "minecraft:mutated_birch_forest_hills", "minecraft:mutated_roofed_forest", "minecraft:mutated_taiga_cold", "minecraft:mutated_redwood_taiga", "minecraft:mutated_redwood_taiga_hills", "minecraft:mutated_extreme_hills_with_trees", "biomesoplenty:alps", "biomesoplenty:boreal_forest", "biomesoplenty:cold_desert", "biomesoplenty:crag", "biomesoplenty:dead_forest", "biomesoplenty:mountain", "biomesoplenty:ominous_woods", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_forest", "biomesoplenty:tundra", "biomesoplenty:glacier", "biomesoplenty:snowy_tundra", "iceandfire:glacier", "biomesoplenty:alps_foothills", "biomesoplenty:mountain_foothills", "beneath:the_beneath"],
+    "gamestage": "minedMythril",
+	"random": 0.01,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "mod_lavacow:wendigo",
+    "result": "deny"
+ },
+ 
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:zombiepiranha",
+	"biome": ["jungle", "jungle_hills", "jungle_edge", "swampland", "mutated_swampland", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:dead_swamp", "biomesoplenty:lush_swamp", "biomesoplenty:rainforest", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:quagmire"],
+    "gamestage": "minedMythril",
+	"random": 0.125,
+	"seesky": true,
+    "maxcount": {
+        "amount": 15,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:zombiepiranha",
+    "result": "deny"
+ },
+ 
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:undeadswine",
+	"biome": ["plains", "jungle", "jungle_hills", "jungle_edge", "roofed_forest", "mutated_plains", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:rainforest", "biomesoplenty:tropical_rainforest", "forest", "forest_hills", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:roofed_forest", "minecraft:extreme_hills_with_trees", "minecraft:mutated_extreme_hills", "minecraft:mutated_forest", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:brushland", "biomesoplenty:chaparral", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:dead_forest", "biomesoplenty:grassland", "biomesoplenty:grove", "biomesoplenty:lavender_fields", "biomesoplenty:maple_woods", "biomesoplenty:ominous_woods", "biomesoplenty:orchard", "biomesoplenty:overgrown_cliffs", "biomesoplenty:prairie", "biomesoplenty:seasonal_forest", "biomesoplenty:shrubland", "biomesoplenty:temperate_rainforest", "biomesoplenty:pasture", "biomesoplenty:wasteland", "biomesoplenty:woodland", "biomesoplenty:tropical_island"],
+    "gamestage": "enteredBeneath",
+	"maxlight": 7,
+    "minlight": 0,
+	"random": 0.05,
+	"seesky": true,
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+{
+    "dimension": 0,
+    "mob": "mod_lavacow:undeadswine",
+    "result": "deny"
+ },
+ 
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:zombiefrozen",
+	"biome": ["taiga", "frozen_river", "ice_flats", "ice_mountains", "taiga_hills", "minecraft:taiga_cold", "minecraft:taiga_cold_hills", "minecraft:mutated_taiga", "minecraft:mutated_ice_flats", "minecraft:mutated_taiga_cold", "minecraft:mutated_redwood_taiga", "biomesoplenty:alps", "biomesoplenty:boreal_forest", "biomesoplenty:cold_desert", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_forest", "biomesoplenty:tundra", "biomesoplenty:glacier", "biomesoplenty:snowy_tundra", "iceandfire:glacier", "biomesoplenty:alps_foothills"],
+    "gamestage": "enteredBeneath",
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:zombiefrozen",
+    "result": "deny"
+ },
+ 
+  {
+    "dimension": [0,10],
+    "mob": "mod_lavacow:zombiemushroom",
+	"biome": ["jungle", "jungle_hills", "jungle_edge", "swampland", "mutated_swampland", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:dead_swamp", "biomesoplenty:lush_swamp", "biomesoplenty:rainforest", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:quagmire", "minecraft:mushroom_island", "minecraft:mushroom_island_shore", "minecraft:mutated_roofed_forest", "biomesoplenty:fen", "biomesoplenty:flower_field", "biomesoplenty:mangrove", "biomesoplenty:marsh", "biomesoplenty:moor", "biomesoplenty:wetland", "biomesoplenty:oasis", "biomesoplenty:flower_island", "beneath:the_beneath"],  
+    "gamestage": "enteredBeneath",
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "mod_lavacow:zombiemushroom",
+    "result": "deny"
+ },
+ 
+  {
+    "dimension": 0,
+    "mob": "mod_lavacow:foglet",
+	"biome": ["taiga", "frozen_river", "ice_flats", "ice_mountains", "taiga_hills", "minecraft:taiga_cold", "minecraft:taiga_cold_hills", "minecraft:mutated_taiga", "minecraft:mutated_ice_flats", "minecraft:mutated_taiga_cold", "minecraft:mutated_redwood_taiga", "biomesoplenty:alps", "biomesoplenty:boreal_forest", "biomesoplenty:cold_desert", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_forest", "biomesoplenty:tundra", "biomesoplenty:glacier", "biomesoplenty:snowy_tundra", "iceandfire:glacier", "biomesoplenty:alps_foothills", "biomesoplenty:ominous_woods", "biomesoplenty:dead_forest", "biomesoplenty:dead_swamp", "aether_legacy:aether_highlands"], 
+    "gamestage": "enteredBeneath",
+	"random": 0.125,
+	"seesky": true,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:foglet",
+    "result": "deny"
+ },
+ 
+   {
+    "dimension": 0,
+    "mob": "mod_lavacow:ptera",
+	"biome": ["jungle", "jungle_hills", "jungle_edge", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:lush_swamp", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:mangrove", "biomesoplenty:oasis", "minecraft:desert", "minecraft:desert_hills", "minecraft:mesa", "minecraft:mesa_rock", "minecraft:mesa_clear_rock", "minecraft:mutated_desert", "minecraft:mutated_mesa", "minecraft:mutated_mesa_rock", "minecraft:mutated_mesa_clear_rock", "minecraft:beaches", "minecraft:deep_ocean", "minecraft:stone_beach", "minecraft:cold_beach", "biomesoplenty:gravel_beach", "biomesoplenty:white_beach", "biomesoplenty:volcanic_island", "biomesoplenty:flower_island", "biomesoplenty:xeric_shrubland", "biomesoplenty:coral_reef", "biomesoplenty:kelp_forest"],  
+    "gamestage": "enteredBeneath",
+	"minheight": 60,
+	"block": ["minecraft:grass", "minecraft:sand", "minecraft:leaves", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
+	"random": 0.25,
+	"seesky": true,
+	"maxlight": 11,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 10,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:ptera",
+    "result": "deny"
+ },
+    {
+    "dimension": 4,
+    "mob": "mod_lavacow:ptera",
+    "gamestage": "enteredAether",
+	"minheight": 60,
+	"block": ["minecraft:grass", "minecraft:sand", "minecraft:leaves", "minecraft:hardened_clay", "minecraft:sandstone", "biomesoplenty:grass", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
+	"random": 0.25,
+	"seesky": true,
+    "maxcount": {
+        "amount": 10,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "mod_lavacow:ptera",
+    "result": "deny"
+ },
+{
+    "dimension": 4,
+    "mob": "netherex:wight",
+    "gamestage": "minedMythril",
+	"random": 0.30,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "netherex:wight",
+    "result": "deny"
+ },
 
+{
+    "dimension": 4,
+    "mob": "netherex:coolmar_spider",
+    "gamestage": "enteredBeneath",
+	"random": 0.30,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "netherex:coolmar_spider",
+    "result": "deny"
+ },
+
+{
+    "dimension": 4,
+    "mob": "primitivemobs:harpy",
+    "gamestage": "enteredBeneath",
+	"random": 0.50,
+	"maxlight": 15,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 12,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "primitivemobs:harpy",
+    "result": "deny"
+ },
+
+{
+    "dimension": 4,
+    "mob": "iceandfire:stymphalianbird",
+    "gamestage": "fullEarlyArmor",
+	"random": 0.05,
+	"maxlight": 9,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 9,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "iceandfire:stymphalianbird",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:vespa",
+	"biome": ["jungle", "jungle_hills", "jungle_edge", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:lush_swamp", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:mangrove", "biomesoplenty:oasis", "minecraft:desert", "minecraft:desert_hills", "minecraft:mesa", "minecraft:mesa_rock", "minecraft:mesa_clear_rock", "minecraft:mutated_desert", "minecraft:mutated_mesa", "minecraft:mutated_mesa_rock", "minecraft:mutated_mesa_clear_rock", "biomesoplenty:volcanic_island", "biomesoplenty:flower_island", "biomesoplenty:xeric_shrubland"],  
+    "gamestage": "fullEarlyArmor",
+	"block": ["minecraft:grass", "minecraft:sand", "minecraft:sandstone", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "aether_legacy:aether_grass"],
+	"random": 0.125,
+	"seesky": true,
+	"maxlight": 13,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:vespa",
+    "result": "deny"
+ } 
 ]
