@@ -844,7 +844,7 @@
     "mobs": [
       {
         "mob": "rats:rat",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 5
       }
