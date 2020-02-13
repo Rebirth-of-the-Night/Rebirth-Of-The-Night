@@ -60,7 +60,7 @@
 <aether_legacy:skyroot_bed:15>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 
 #lootbags
-<dungeontactics:bag_food>.addTooltip("Some of the food inside still looks fresh.");
+<dungeontactics:bag_food>.addTooltip("Some of the food inside still looks edible.");
 <dungeontactics:bag_arbour>.addTooltip("Seems to contain a few assorted plants.");
 <dungeontactics:bag_ore>.addTooltip("Looks like there's a chunk of ore inside.");
 <dungeontactics:bag_tool>.addTooltip("Looks like there's a tool inside.");
@@ -70,7 +70,7 @@
 <dungeontactics:bag_potion>.addTooltip("Seems to contain some forgotten potion or reagent.");
 <dungeontactics:bag_record>.addTooltip("Contains a music disc carefully wrapped for safe transport.");
 <dungeontactics:trickortreat_bag>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on candy.");
-<dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well, finders' keepers.");
+<dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
 
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
