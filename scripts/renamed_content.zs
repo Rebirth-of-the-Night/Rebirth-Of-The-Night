@@ -8,6 +8,11 @@
 <aether_legacy:zanite_sword>.displayName = "Zanite Arming Sword";
 <aether_legacy:gravitite_sword>.displayName = "Gravitite Arming Sword";
 
+//Twilight Forest
+<twilightforest:ironwood_sword>.displayName = "Ironwood Arming Sword";
+<twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
+<twilightforest:knightmetal_sword>.displayName = "Knightly Arming Sword";
+
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 
