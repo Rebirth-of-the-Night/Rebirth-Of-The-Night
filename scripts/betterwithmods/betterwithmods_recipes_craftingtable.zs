@@ -23,5 +23,4 @@ recipes.addShapeless("betterwithmods dynamite", <betterwithmods:dynamite>,
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
 
  //Vine Trap
- recipes.addShaped("VineTrap", <betterwithmods:vine_trap>,
- [<ore:vine>,<ore:vine>,<ore:vine>]);
+recipes.replaceAllOccurences(<minecraft:vine>, <ore:vine>, <*>);
