@@ -719,6 +719,8 @@
 },
 
 
+
+
 /////////// ENDER DRAGON GAMESTAGE //////////////
 
 {
@@ -745,6 +747,26 @@
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorboots": ["simpleores:mythril_boots", "simpleores:adamantium_boots"],
+    "gamestage": "killedEnderDragon"
+},
+
+
+
+
+// TOOL GAME STAGES
+{
+    "mob": "minecraft:zombie",
+    "helditem": ["1=minecraft:iron_pickaxe", "2=minecraft:copper_pickaxe"],
+    "gamestage": "fullDiamondArmor"
+},
+{
+    "mob": "minecraft:zombie",
+    "helditem": "1=minecraft:diamond_pickaxe",
+    "gamestage": "minedMythril"
+},
+{
+    "mob": "minecraft:zombie",
+    "helditem": ["1=simpleores:mythril_pickaxe","2=simpleores:onyx_pickaxe"],
     "gamestage": "killedEnderDragon"
 },
 
