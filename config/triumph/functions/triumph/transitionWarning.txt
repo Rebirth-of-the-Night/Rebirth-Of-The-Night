@@ -1,0 +1,1 @@
+tellraw @p ["",{"text":" The barrier trembles. You sense a foul presence yearning to break free...","color":"dark_red"}]

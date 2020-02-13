@@ -13,6 +13,9 @@
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
 <twilightforest:knightmetal_sword>.displayName = "Knightly Arming Sword";
 
+//Dimstack
+<dimstack:portal>.displayName = "Arcane Barrier";
+
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil")
