@@ -1,6 +1,6 @@
 setIcon("spartanshields:shield_basic_diamond")
 setTitle("Death Is Not An Option")
-setDescription("Obtain all pieces of the set.")
+setDescription("Complete the Death Is Not An Option set.")
 
 addParent("triumph:advancements/setbonuses/takingaim")
 
@@ -21,4 +21,4 @@ criteria.addItem("spartanshields:shield_basic_diamond")
 
 
 alwaysVisible()
-setPos(-72,-89)
+setPos(-113,-113)

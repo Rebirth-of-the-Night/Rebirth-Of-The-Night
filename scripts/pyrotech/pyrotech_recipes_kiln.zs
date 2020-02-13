@@ -11,7 +11,7 @@ furnace.remove(<minecraft:netherbrick>, <betterwithmods:material:35>);
 
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
-StoneKiln.addRecipe("Bronze from pebbles",<contenttweaker:material_part>*2, <contenttweaker:copper_tin_pebbles>, 2000, true);
+StoneKiln.addRecipe("Bronze from pebbles",<contenttweaker:material_part>, <contenttweaker:copper_tin_pebbles>, 2000, true);
 StoneKiln.addRecipe("bwmpottery",<betterwithmods:cooking_pot>, <betterwithmods:unfired_pottery>, 600, true);
 StoneKiln.addRecipe("bwmpottery1",<betterwithmods:planter>, <betterwithmods:unfired_pottery:1>, 600, true);
 StoneKiln.addRecipe("bwmpottery2",<betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 600, true);

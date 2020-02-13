@@ -1,11 +1,10 @@
 setIcon("dungeontactics:silver_chestplate")
 setTitle("Knight In Shining Armor")
-setDescription("Obtain all 4 silver armor pieces.")
+setDescription("Complete the Knight In Shining Armor set.")
 
 addParent("triumph:advancements/setbonuses/ironarmor")
 
-addRewardFunction("triumph:minedDiamond")
-
+addRewardFunction("triumph:fullEarlyArmor")
 
 criteria = addCriteria("Silver Helmet", "minecraft:inventory_changed")
 criteria.addItem("dungeontactics:silver_helmet")

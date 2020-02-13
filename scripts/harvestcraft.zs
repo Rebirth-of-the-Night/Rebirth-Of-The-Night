@@ -14,6 +14,7 @@ recipes.remove(<harvestcraft:spidereyesoupitem>);
 recipes.remove(<harvestcraft:spidereyepieitem>);
 recipes.remove(<harvestcraft:slimepieitem>);
 recipes.remove(<harvestcraft:mobsoupitem>);
+recipes.remove(<harvestcraft:presser>);
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
@@ -56,7 +57,6 @@ mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
-mods.jei.JEI.removeAndHide(<harvestcraft:presser>);
 
 recipes.remove(<harvestcraft:stockitem>);
 recipes.addShapeless("harvestcraft_bonestock", <harvestcraft:stockitem>, [<ore:toolPot>, <minecraft:bone>]);

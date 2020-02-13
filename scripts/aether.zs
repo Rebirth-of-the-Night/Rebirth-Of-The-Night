@@ -7,7 +7,7 @@ mods.jei.JEI.removeAndHide(<toroquest:fire_sword>);
 mods.jei.JEI.removeAndHide(<toroquest:sword_of_pain>);
 mods.jei.JEI.removeAndHide(<toroquest:pickaxe_of_greed>);
 mods.jei.JEI.removeAndHide(<toroquest:diamond_battle_axe>);
-
+# Im putting these in here bc they literally dont work in any other file, ive tried
 mods.ltt.LootTable.removeGlobalItem("toroquest:obsidian_sword");
 mods.ltt.LootTable.removeGlobalItem("toroquest:fire_sword");
 mods.ltt.LootTable.removeGlobalItem("toroquest:sword_of_pain");

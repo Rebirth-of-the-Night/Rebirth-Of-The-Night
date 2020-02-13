@@ -1,6 +1,6 @@
 setIcon("simpleores:onyx_chestplate")
 setTitle("Armor Of The Titans")
-setDescription("Obtain all 4 onyx armor pieces")
+setDescription("Complete the Armor Of The Titans set.")
 
 addParent("triumph:advancements/setbonuses/diamondarmor")
 
@@ -15,6 +15,6 @@ criteria.addItem("simpleores:onyx_leggings")
 
 criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
 criteria.addItem("simpleores:onyx_boots")
-setPos(-113,-7)
+setPos(-113,-18)
 
 alwaysVisible()

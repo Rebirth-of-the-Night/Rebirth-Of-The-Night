@@ -1,10 +1,10 @@
 setIcon("minecraft:iron_chestplate")
 setTitle("The Iron Giant")
-setDescription("Obtain all 4 iron armor pieces.")
+setDescription("Complete The Iron Giant set.")
 
 addParent("triumph:advancements/setbonuses/bronzearmor")
 
-addRewardFunction("triumph:minedDiamond")
+addRewardFunction("triumph:fullEarlyArmor")
 
 criteria = addCriteria("Iron Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:iron_helmet")

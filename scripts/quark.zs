@@ -36,3 +36,24 @@ recipes.addShaped("Tin Ladder", <quark:iron_ladder>*12,[
    	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
     	[<ore:ingotTin>, null, <ore:ingotTin>]
 ]);
+
+recipes.remove(<quark:bark:*>);
+
+recipes.addShapeless("Quark Bark", <quark:bark>*6,
+	[<minecraft:log>, <minecraft:log>, <minecraft:log>, <minecraft:log>, <minecraft:log>, <minecraft:log>]
+);
+recipes.addShapeless("Quark Bark1", <quark:bark:1>*6,
+	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>]
+);
+recipes.addShapeless("Quark Bark2", <quark:bark:2>*6,
+	[<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>]
+);
+recipes.addShapeless("Quark Bark3", <quark:bark:3>*6,
+	[<minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>]
+);
+recipes.addShapeless("Quark Bark4", <quark:bark:4>*6,
+	[<minecraft:log2>, <minecraft:log2>, <minecraft:log2>, <minecraft:log2>, <minecraft:log2>, <minecraft:log2>]
+);
+recipes.addShapeless("Quark Bark5", <quark:bark:5>*6,
+	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]
+);

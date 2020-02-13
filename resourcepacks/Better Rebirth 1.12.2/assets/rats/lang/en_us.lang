@@ -1,0 +1,10 @@
+﻿item.rats.ratlantean_flame.name=Soulfire
+jei.item.rats.ratlantean_flame=A fiery essence, still living.
+
+entity.rats.ratlantean_spirit.name=Vermin Soul
+entity.ratlantean_spirit.name=Vermin Soul
+entity.rats:ratlantean_spirit.name=Vermin Soul
+
+entity.rats.feral_ratlantean.name=Dire Rat
+entity.feral_ratlantean.name=Dire Rat
+entity.rats:feral_ratlantean.name=Dire Rat

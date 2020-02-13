@@ -1,0 +1,31 @@
+#########
+# ITEMS #
+#########
+item.mod_lavacow.reapers_scythe.name=Reaper's Scythe
+item.mod_lavacow.mimic_claw_cooked.name=Baked Mimicrab Claw
+item.mod_lavacow.swinemask.name=Plagued Coif
+item.mod_lavacow.swinearmor_chestplate.name=Plagued Tunic
+item.mod_lavacow.swinearmor_leggings.name=Plagued Leggings
+item.mod_lavacow.swinearmor_boots.name=Plagued Boots
+item.mod_lavacow.zombiepiranha_item.name=Frenzy
+item.mod_lavacow.zombiepiranha_item_cooked.name=Cooked Frenzy
+item.mod_lavacow.piranhalauncher.name=Frenzy Launcher
+item.mod_lavacow.sharptooth.name=Deadly Fang
+item.mod_lavacow.vespa_dagger.name=Wasp Sting
+
+############
+# Entities #
+############
+entity.mod_lavacow.undeadswine.name=Dread Swine
+entity.mod_lavacow.salamander.name=Netherdrake
+entity.mod_lavacow.lilsludge.name=Sludgeling
+entity.mod_lavacow.zombiepiranha.name=Frenzy
+entity.mod_lavacow.zombiemushroom.name=Overgrown
+entity.mod_lavacow.zombiefrozen.name=Frostbound
+entity.mod_lavacow.wendigo.name=Ithaqua
+
+
+############
+# Tooltips #
+############
+message.mod_lavacow.metamorphosis= begins to metamorphose!

@@ -41,6 +41,7 @@ function(out, ins, cInfo){
 
 
 
+
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
@@ -52,6 +53,11 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_m
 mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);
 
 furnace.remove(<dungeontactics:steel_ingot>);
+
+mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
+mods.jei.JEI.removeAndHide(<base:wrench>);
+mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extinguishes fires, and blows away dust. Stronger push if there is another fan behind.");
+mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_ring>);
@@ -181,6 +187,7 @@ recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_logs");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_cactus");
 recipes.removeByRecipeName("betternether:stalagnate_stick");
 recipes.removeByRecipeName("dungeontactics:misc/mithril_nugget");
+recipes.removeByRecipeName("dungeontactics:misc/convenience/clayball_from_clay");
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_block>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ore>);

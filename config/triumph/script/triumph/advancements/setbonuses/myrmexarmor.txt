@@ -1,0 +1,21 @@
+setIcon("iceandfire:myrmex_desert_chestplate")
+setTitle("Dedicated Worker")
+setDescription("Complete the Dedicated Worker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Myrmex Helmet", "minecraft:inventory_changed")
+criteria.addItem(<ore:myrmexHelmet>)
+
+criteria = addCriteria("Myrmex Chestplate", "minecraft:inventory_changed")
+criteria.addItem(<ore:myrmexChestplate>)
+
+criteria = addCriteria("Myrmex Leggings", "minecraft:inventory_changed")
+criteria.addItem(<ore:myrmexLeggings>)
+
+criteria = addCriteria("Myrmex Boots", "minecraft:inventory_changed")
+criteria.addItem(<ore:myrmexBoots>)
+
+hideLines()
+alwaysVisible()
+setPos(-185,66)

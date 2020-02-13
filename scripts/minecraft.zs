@@ -55,12 +55,23 @@ potions.maxStackSize = 8;
 potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
 
+
+
+
+
 //lore
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
+
+
+
+
 
 //Ore Dictionary Entries
 val allStoneSlab = <ore:stoneSlab>;
 allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:0>, <biomesoplenty:other_slab:1>]);
+
+val StoneHugeBrick = <ore:StoneHugeBrick>;
+StoneHugeBrick.addItems([<undergroundbiomes:igneous_brick:2>,<undergroundbiomes:igneous_brick:3>,<undergroundbiomes:igneous_brick:4>,<undergroundbiomes:igneous_brick:5>,<undergroundbiomes:igneous_brick:6>,<undergroundbiomes:igneous_brick:7>,<undergroundbiomes:metamorphic_brick>,<undergroundbiomes:metamorphic_brick:2>,<undergroundbiomes:metamorphic_brick:3>,<undergroundbiomes:metamorphic_brick:5>,<undergroundbiomes:metamorphic_brick:6>,<minecraft:stonebrick>,<quark:biome_brick>,<quark:world_stone_bricks>,<quark:world_stone_bricks:1>,<undergroundbiomes:metamorphic_brick:7>,<endreborn:end_bricks_glow>,<quark:biome_brick:1>,<quark:world_stone_bricks:2>,<undergroundbiomes:igneous_brick:1>,<undergroundbiomes:metamorphic_brick:1>,<undergroundbiomes:igneous_brick>,<undergroundbiomes:metamorphic_brick:4>]);
 
 val hammerTool = <ore:hammerTool>;
 hammerTool.addItems([<aether_legacy:notch_hammer>,<endreborn:tool_hammer_iron>,<pyrotech:stone_hammer>]);
@@ -68,10 +79,91 @@ hammerTool.addItems([<aether_legacy:notch_hammer>,<endreborn:tool_hammer_iron>,<
 val anvilAny = <ore:anvilAny>;
 anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
 
+val scaleChestplate = <ore:scaleChestplate>;
+scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
+
+val scaleHelmet = <ore:scaleHelmet>;
+scaleHelmet.addItems([<iceandfire:armor_red_helmet>,<iceandfire:armor_green_helmet>,<iceandfire:armor_bronze_helmet>,<iceandfire:armor_gray_helmet>]);
+
+val scaleLeggings = <ore:scaleLeggings>;
+scaleLeggings.addItems([<iceandfire:armor_red_leggings>,<iceandfire:armor_green_leggings>,<iceandfire:armor_bronze_leggings>,<iceandfire:armor_gray_leggings>]);
+
+val scaleBoots = <ore:scaleBoots>;
+scaleBoots.addItems([<iceandfire:armor_red_boots>,<iceandfire:armor_green_boots>,<iceandfire:armor_bronze_boots>,<iceandfire:armor_gray_boots>]);
+
+
+val scaleLightChestplate = <ore:scaleLightChestplate>;
+scaleLightChestplate.addItems([<iceandfire:armor_blue_chestplate>,<iceandfire:armor_white_chestplate>,<iceandfire:armor_sapphire_chestplate>,<iceandfire:armor_silver_chestplate>]);
+
+val scaleLightHelmet = <ore:scaleLightHelmet>;
+scaleLightHelmet.addItems([<iceandfire:armor_blue_helmet>,<iceandfire:armor_white_helmet>,<iceandfire:armor_sapphire_helmet>,<iceandfire:armor_silver_helmet>]);
+
+val scaleLightLeggings = <ore:scaleLightLeggings>;
+scaleLightLeggings.addItems([<iceandfire:armor_blue_leggings>,<iceandfire:armor_white_leggings>,<iceandfire:armor_sapphire_leggings>,<iceandfire:armor_silver_leggings>]);
+
+val scaleLightBoots = <ore:scaleLightBoots>;
+scaleLightBoots.addItems([<iceandfire:armor_blue_boots>,<iceandfire:armor_white_boots>,<iceandfire:armor_sapphire_boots>,<iceandfire:armor_silver_boots>]);
+
+
+
+val trollChestplate = <ore:trollChestplate>;
+trollChestplate.addItems([<iceandfire:mountain_troll_leather_chestplate>,<iceandfire:forest_troll_leather_chestplate>,<iceandfire:frost_troll_leather_chestplate>]);
+
+val trollHelmet = <ore:trollHelmet>;
+trollHelmet.addItems([<iceandfire:mountain_troll_leather_helmet>,<iceandfire:forest_troll_leather_helmet>,<iceandfire:frost_troll_leather_helmet>]);
+
+val trollLeggings = <ore:trollLeggings>;
+trollLeggings.addItems([<iceandfire:mountain_troll_leather_leggings>,<iceandfire:forest_troll_leather_leggings>,<iceandfire:frost_troll_leather_leggings>]);
+
+val trollBoots = <ore:trollBoots>;
+trollBoots.addItems([<iceandfire:mountain_troll_leather_boots>,<iceandfire:forest_troll_leather_boots>,<iceandfire:frost_troll_leather_boots>]);
+
+
+val deathWormChestplate = <ore:deathWormChestplate>;
+deathWormChestplate.addItems([<iceandfire:deathworm_yellow_chestplate>,<iceandfire:deathworm_white_chestplate>,<iceandfire:deathworm_red_chestplate>]);
+
+val deathWormHelmet = <ore:deathWormHelmet>;
+deathWormHelmet.addItems([<iceandfire:deathworm_yellow_helmet>,<iceandfire:deathworm_white_helmet>,<iceandfire:deathworm_red_helmet>]);
+
+val deathWormLeggings = <ore:deathWormLeggings>;
+deathWormLeggings.addItems([<iceandfire:deathworm_yellow_leggings>,<iceandfire:deathworm_white_leggings>,<iceandfire:deathworm_red_leggings>]);
+
+val deathWormBoots = <ore:deathWormBoots>;
+deathWormBoots.addItems([<iceandfire:deathworm_yellow_boots>,<iceandfire:deathworm_white_boots>,<iceandfire:deathworm_red_boots>]);
+
+
+val tideChestplate = <ore:tideChestplate>;
+tideChestplate.addItems([<iceandfire:tide_blue_chestplate>,<iceandfire:tide_bronze_chestplate>,<iceandfire:tide_green_chestplate>,<iceandfire:tide_red_chestplate>,<iceandfire:tide_purple_chestplate>,<iceandfire:tide_teal_chestplate>]);
+
+val tideHelmet = <ore:tideHelmet>;
+tideHelmet.addItems([<iceandfire:tide_blue_helmet>,<iceandfire:tide_bronze_helmet>,<iceandfire:tide_green_helmet>,<iceandfire:tide_red_helmet>,<iceandfire:tide_purple_helmet>,<iceandfire:tide_teal_helmet>]);
+
+val tideLeggings = <ore:tideLeggings>;
+tideLeggings.addItems([<iceandfire:tide_blue_leggings>,<iceandfire:tide_bronze_leggings>,<iceandfire:tide_green_leggings>,<iceandfire:tide_red_leggings>,<iceandfire:tide_purple_leggings>,<iceandfire:tide_teal_leggings>]);
+
+val tideBoots = <ore:tideBoots>;
+tideBoots.addItems([<iceandfire:tide_blue_boots>,<iceandfire:tide_bronze_boots>,<iceandfire:tide_green_boots>,<iceandfire:tide_red_boots>,<iceandfire:tide_purple_boots>,<iceandfire:tide_teal_boots>]);
+
+
+val myrmexChestplate = <ore:myrmexChestplate>;
+myrmexChestplate.addItems([<iceandfire:myrmex_jungle_chestplate>,<iceandfire:myrmex_desert_chestplate>]);
+
+val myrmexHelmet = <ore:myrmexHelmet>;
+myrmexHelmet.addItems([<iceandfire:myrmex_jungle_helmet>,<iceandfire:myrmex_desert_helmet>]);
+
+val myrmexLeggings = <ore:myrmexLeggings>;
+myrmexLeggings.addItems([<iceandfire:myrmex_jungle_leggings>,<iceandfire:myrmex_desert_leggings>]);
+
+val myrmexBoots = <ore:myrmexBoots>;
+myrmexBoots.addItems([<iceandfire:myrmex_jungle_boots>,<iceandfire:myrmex_desert_boots>]);
+
+
 //ContentTweaker extra blocks recipes
 //All Lunarin bricks
 recipes.remove(<villagenames:lunaringoldbrick>);
 recipes.remove(<villagenames:lunarinironbrick>);
+recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
+recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 
 recipes.addShapeless("lunarin iron", <villagenames:lunarinironbrick>*24,
 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>,<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]

@@ -1,6 +1,6 @@
 setIcon("simpleores:onyx_boots")
 setTitle("A Fire Combo")
-setDescription("Obtain 3 mythril armor pieces and 1 onyx armor piece")
+setDescription("Complete the A Fire Combo set.")
 
 addParent("triumph:advancements/setbonuses/diamondarmor")
 
@@ -17,4 +17,4 @@ criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
 criteria.addItem("simpleores:onyx_boots")
 
 alwaysVisible()
-setPos(-113,-34)
+setPos(-113,-47)

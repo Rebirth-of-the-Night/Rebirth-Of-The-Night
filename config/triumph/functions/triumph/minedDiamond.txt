@@ -1,3 +1,0 @@
-gamerule commandBlockOutput false
-gamerule sendCommandFeedback false
-gamestage silentadd @a minedDiamond

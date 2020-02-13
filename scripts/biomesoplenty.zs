@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.removeAndHide(<biomesoplenty:peach>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:plant_1:3>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:ricebowl>);
 

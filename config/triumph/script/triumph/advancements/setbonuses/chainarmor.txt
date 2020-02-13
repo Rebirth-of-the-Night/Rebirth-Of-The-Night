@@ -1,8 +1,10 @@
 setIcon("minecraft:chainmail_chestplate")
 setTitle("Chivalry Is Not Dead")
-setDescription("Obtain all 4 chainmail armor pieces")
+setDescription("Complete the Chivalry Is Not Dead set.")
 
 addParent("triumph:advancements/setbonuses/leatherarmor")
+
+addRewardFunction("triumph:fullEarlyArmor")
 
 criteria = addCriteria("Chainmail Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:chainmail_helmet")
@@ -17,4 +19,4 @@ criteria = addCriteria("Chainmail Boots", "minecraft:inventory_changed")
 criteria.addItem("minecraft:chainmail_boots")
 
 alwaysVisible()
-setPos(-331,-89)
+setPos(-344,-113)

@@ -1,6 +1,6 @@
 setIcon("minecraft:diamond_chestplate")
 setTitle("Cover Me With Diamonds")
-setDescription("Obtain all 4 diamond armor pieces")
+setDescription("Complete the Cover Me With Diamonds set.")
 
 addParent("triumph:advancements/setbonuses/silverarmor")
 

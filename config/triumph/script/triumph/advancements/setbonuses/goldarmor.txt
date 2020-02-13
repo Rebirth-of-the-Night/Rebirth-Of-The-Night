@@ -1,8 +1,10 @@
 setIcon("minecraft:golden_chestplate")
 setTitle("Not Entirely Useless")
-setDescription("Obtain all 4 gold armor pieces")
+setDescription("Complete the Not Entirely Useless set.")
 
 addParent("triumph:advancements/setbonuses/chainarmor")
+
+addRewardFunction("triumph:fullEarlyArmor")
 
 criteria = addCriteria("Gold Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:golden_helmet")
@@ -17,4 +19,4 @@ criteria = addCriteria("Gold Boots", "minecraft:inventory_changed")
 criteria.addItem("minecraft:golden_boots")
 
 alwaysVisible()
-setPos(-285,-89)
+setPos(-298,-113)

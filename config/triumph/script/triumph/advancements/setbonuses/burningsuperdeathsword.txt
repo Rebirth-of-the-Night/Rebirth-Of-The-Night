@@ -1,0 +1,12 @@
+setIcon("msmlegacy:relic_candy")
+setTitle("Grand Ol' Time")
+setDescription("Craft Relic 2 of 7")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Relic 2", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:relic_candy")
+
+alwaysVisible()
+hideLines()
+setPos(-310,193)
