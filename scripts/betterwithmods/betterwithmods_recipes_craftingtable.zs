@@ -24,4 +24,4 @@ recipes.addShapeless("betterwithmods dynamite", <betterwithmods:dynamite>,
 
  //Vine Trap
  recipes.addShaped("VineTrap", <betterwithmods:vine_trap>,
- [[<ore:vine>,<ore:vine>,<ore:vine>]);
+ [<ore:vine>,<ore:vine>,<ore:vine>]);
