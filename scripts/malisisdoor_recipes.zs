@@ -59,10 +59,3 @@ mods.betterwithmods.Anvil.addShaped(<malisisdoors:garage_door>, [
    [<ore:ingotSteel>, <rustic:iron_lattice>,<rustic:iron_lattice>, <ore:latchRedstone>],
    [<ore:ingotSteel>, <rustic:iron_lattice>,<rustic:iron_lattice>, <ore:latchRedstone>]
 ]);
-
-mods.betterwithmods.Anvil.addShaped(<malisisdoors:medieval_door>, [
-   [<minecraft:quartz>, <minecraft:quartz>,<minecraft:quartz>, <minecraft:quartz>],
-   [<quark:carved_wood:*>, <quark:carved_wood:*>,<quark:carved_wood:*>, <minecraft:quartz>],
-   [<quark:carved_wood:*>, <quark:carved_wood:*>,<quark:carved_wood:*>, <minecraft:quartz>],
-   [<minecraft:quartz>, <minecraft:quartz>,<minecraft:quartz>, <minecraft:quartz>]
-]);
