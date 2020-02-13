@@ -83,13 +83,9 @@
 <msmlegacy:glacial_blade>.addTooltip("The power of an entire species in one sword.");
 
 #potion rings
-#<extraalchemy:potion_ring>.withTag({Potion: "minecraft:night_vision"}).addTooltip("Requires 3 exp every 30 seconds.");
-#<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}).addTooltip("Requires 3 exp every 30 seconds.");
-#<extraalchemy:potion_ring>.withTag({Potion: "minecraft:leaping"}).addTooltip("Requires 3 exp every 30 seconds.");
-#<extraalchemy:potion_ring>.withTag({Potion: "minecraft:strong_leaping"}).addTooltip("Requires 6 exp every 30 seconds.");
-#<extraalchemy:potion_ring>.withTag({Potion: "minecraft:fire_resistance"}).addTooltip("Requires 3 exp every 30 seconds.");
-#<extraalchemy:potion_ring>.withTag({Potion: "minecraft:swiftness"}).addTooltip("Requires 3 exp every 30 seconds.");
-<extraalchemy:potion_ring>.addTooltip("Potion strength 1 rings each require 3 exp every 30 seconds. Potion strength 2 rings each require 6 exp every 30 seconds.");
+<extraalchemy:potion_ring>.addTooltip("Level 1 potion rings each require 3 exp every 30 seconds. Leven 2 potion 2 rings each require 6 exp every 30 seconds.");
+
+
 
 
 
