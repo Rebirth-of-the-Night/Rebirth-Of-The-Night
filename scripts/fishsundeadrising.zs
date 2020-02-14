@@ -109,6 +109,13 @@ recipes.addShaped("greeneggsham", <mod_lavacow:green_bacon_and_eggs>,[
     [<rats:herb_bundle>, <harvestcraft:honeyitem>, null],
 ]);
 
+//new weapon recipes
+recipes.addShaped(<mod_lavacow:war>,[
+[<quark:pipe>, <mod_lavacow:mootenheart>, <betterwithmods:material:27>],
+[<betternether:cincinnasite>, <betternether:cincinnasite>, <minecraft:repeater>],
+[null, null, <betternether:cincinnasite>]
+]);
+
 //netherbeast armor set
 recipes.addShaped("felhelm", <mod_lavacow:felarmor_helmet>,[
 	[<ore:salamanderhide>, <mod_lavacow:moltenbeef>, <ore:salamanderhide>],

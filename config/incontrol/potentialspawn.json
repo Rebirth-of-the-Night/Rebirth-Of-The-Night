@@ -670,7 +670,7 @@
   // Enderman
 
   {
-    "dimension": [0,10,1,-1],
+    "dimension": [0,10,1],
     "mobs": [
       {
         "mob": "specialmobs:blindingenderman",
@@ -792,11 +792,11 @@
   },
   
     {
-    "dimension": [0,10],
+    "dimension": 0,
     "mobs": [
       {
         "mob": "mod_lavacow:zombiemushroom",
-        "weight": 2,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
