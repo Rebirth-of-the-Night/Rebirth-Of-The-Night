@@ -5,6 +5,20 @@
     "healthmultiply": 2.5
  },
 
+ // Max spawn cap
+ // I have no idea what 10 means. It doesn't mean 10 mobs. I tested it with a variation of different stages
+ // and it seems like a good limit. 
+ // Overworld: ~400 limit with all stages
+ // Nether: ~100-150 limit with all stages
+ // Beneath: ~200 limit with all stages
+ // This includes all mobs, but not minecraft:item
+ {
+    "mincount": 10,
+    "result": "deny",
+    "onjoin": "true"
+ },
+
+
  {
     "mob": "minecraft:creeper",
     "dimension": [-1, 1, 4],
@@ -752,24 +766,24 @@
 
 
 
-
-// TOOL GAME STAGES
+	////////////////// TOOL GAME STAGES //////////////////////////
 {
-    "mob": "minecraft:zombie",
-    "helditem": ["1=minecraft:iron_pickaxe", "2=minecraft:copper_pickaxe"],
-    "gamestage": "fullDiamondArmor"
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": ["1=simpleores:mythril_pickaxe","2=simpleores:onyx_pickaxe"],
+    "gamestage": "killedEnderDragon"
 },
 {
-    "mob": "minecraft:zombie",
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": "1=minecraft:diamond_pickaxe",
     "gamestage": "minedMythril"
 },
 {
-    "mob": "minecraft:zombie",
-    "helditem": ["1=simpleores:mythril_pickaxe","2=simpleores:onyx_pickaxe"],
-    "gamestage": "killedEnderDragon"
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": ["1=minecraft:iron_pickaxe", "2=minecraft:copper_pickaxe"],
+    "gamestage": "fullDiamondArmor"
 },
 
+	////////////////// ZOMBIE SPAWNS //////////////////////////
 
 
 {
@@ -787,10 +801,6 @@
     "mob": "specialmobs:hungryzombie",
     "result": "deny"
 },
-
-
-
-
 {
     "dimension": [0,10],
     "mob": "specialmobs:brutezombie",

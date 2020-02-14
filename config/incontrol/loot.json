@@ -5,7 +5,7 @@
     "mob": "netherex:ghast_queen",
     "player": true,
     "item": "netherex:rime_crystal",
-    "itemcount": "24-32"
+    "itemcount": "50-60"
  	},
  	{
     "mob": "netherex:ghast_queen",
@@ -17,20 +17,32 @@
     "mob": "netherex:ghast_queen",
     "player": true,
     "item": "simpleores:onyx_gem",
-    "itemcount": "2-4"
+    "itemcount": "20-40"
  	},
  	{
     "mob": "netherex:ghast_queen",
     "player": true,
     "item": "bountifulbaubles:crowngold"
  	},
+    {
+    "mob": "netherex:ghast_queen",
+    "player": true,
+    "item": "mod_lavacow:war"
+    },
+    {
+    "mob": "minecraft:wither",
+    "player": true,
+    "item": "dungeontactics:magic_powder",
+    "itemcount": "40-59"
+    },
+
 
  	 // Wither Drops
  	{
     "mob": "minecraft:wither",
     "player": true,
     "item": "simpleores:onyx_gem",
-    "itemcount": "2-4"
+    "itemcount": "10-15"
  	},
  	{
     "mob": "minecraft:wither",
@@ -43,6 +55,13 @@
     "player": true,
     "item": "dungeontactics:charm_barren"
  	},
+    {
+    "mob": "minecraft:wither",
+    "player": true,
+    "item": "dungeontactics:magic_powder",
+    "itemcount": "40-59"
+    },
+
 
 
  	// Ender Dragon
@@ -51,5 +70,41 @@
     "player": true,
     "item": "endreborn:item_advanced_ender_pearl",
     "itemcount": "8-13"
- 	}
+ 	},
+    {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "dungeontactics:magic_powder",
+    "itemcount": "40-59"
+    },
+    {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "endreborn:item_raw_endorium",
+    "itemcount": "200-300"
+    },
+    {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "spartanweaponry:arrow_diamond",
+    "itemcount": "100-150"
+    },
+    {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "endreborn:item_end_shard",
+    "itemcount": "5-10"
+    },
+    {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "endreborn:item_end_essence",
+    "itemcount": "5-10"
+    },
+    {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "quark:biotite",
+    "itemcount": "2-4"
+    },
 ]
