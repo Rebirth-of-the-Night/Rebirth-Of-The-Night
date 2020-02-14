@@ -18,7 +18,16 @@
     "onjoin": "true"
  },
 
+{
+    "mob": "aether_legacy:valkyrie_queen",
+    "onjoin": true,
+    "potion": "potioncore:reach,1000000,2",
+	"potion": "potioncore:magic_shield,1000000,2",
+	"potion": "wards:effect_projectile_protection,1000000,5",
+	"potion": "potioncore:solid_core,1000000,2"
+  },
 
+// no creeper, aww man
  {
     "mob": "minecraft:creeper",
     "dimension": [-1, 1, 4],
@@ -733,8 +742,6 @@
 },
 
 
-
-
 /////////// ENDER DRAGON GAMESTAGE //////////////
 
 {
@@ -764,8 +771,6 @@
     "gamestage": "killedEnderDragon"
 },
 
-
-
 	////////////////// TOOL GAME STAGES //////////////////////////
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
@@ -784,8 +789,6 @@
 },
 
 	////////////////// ZOMBIE SPAWNS //////////////////////////
-
-
 {
     "dimension": [0,10],
     "mob": "specialmobs:hungryzombie",
@@ -801,6 +804,10 @@
     "mob": "specialmobs:hungryzombie",
     "result": "deny"
 },
+
+
+
+
 {
     "dimension": [0,10],
     "mob": "specialmobs:brutezombie",
@@ -1290,10 +1297,10 @@
 
   // Endermen
  {
-    "dimension": [0,10,1],
+    "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
-    "gamestage": "killedEnderDragon",
-    "random": 0.125,
+    "gamestage": "minedMythril",
+    "random": 0.0625,
     "maxlight": 7,
     "minlight": 0,
     "maxcount": {
@@ -1304,7 +1311,7 @@
 	"potion": "rats:plague,1000000,1"
  },
  {
-    "dimension": [0,10,1],
+    "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
     "result": "deny"
  },
@@ -1464,16 +1471,17 @@
  {
     "dimension": [0,10],
     "mob": "mod_lavacow:wendigo",
-	"biome": ["forest", "taiga", "frozen_river", "ice_flats", "ice_mountains", "forest_hills", "taiga_hills", "minecraft:smaller_extreme_hills", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:roofed_forest", "minecraft:taiga_cold", "minecraft:taiga_cold_hills", "minecraft:redwood_taiga", "minecraft:redwood_taiga_hills", "minecraft:extreme_hills_with_trees", "minecraft:mutated_extreme_hills", "minecraft:mutated_forest", "minecraft:mutated_taiga", "minecraft:mutated_ice_flats", "minecraft:mutated_birch_forest", "minecraft:mutated_birch_forest_hills", "minecraft:mutated_roofed_forest", "minecraft:mutated_taiga_cold", "minecraft:mutated_redwood_taiga", "minecraft:mutated_redwood_taiga_hills", "minecraft:mutated_extreme_hills_with_trees", "biomesoplenty:alps", "biomesoplenty:boreal_forest", "biomesoplenty:cold_desert", "biomesoplenty:crag", "biomesoplenty:dead_forest", "biomesoplenty:mountain", "biomesoplenty:ominous_woods", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_forest", "biomesoplenty:tundra", "biomesoplenty:glacier", "biomesoplenty:snowy_tundra", "iceandfire:glacier", "biomesoplenty:alps_foothills", "biomesoplenty:mountain_foothills", "beneath:the_beneath"],
+	"biome": ["Forest", "Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "ForestHills", "TaigaHills", "Extreme Hills Edge", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Extreme Hills M", "Flower Forest", "Taiga M", "Ice Plains Spikes", "Birch Forest M", "Birch Forest Hills M", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Crag", "Dead Forest", "Mountain", "Ominous Woods", "Seasonal Forest", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "Glacier", "SnowyTundra", "Glacier", "AlpsFoothills", "MountainFoothills", "The Beneath"],
     "gamestage": "minedMythril",
-	"random": 0.01,
+	"random": 0.02,
 	"maxlight": 7,
     "minlight": 0,
     "maxcount": {
         "amount": 1,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "allow",
+    "potion": "extraalchemy:effect.leech,100000,7"
  },
  {
     "dimension": [0,10],
@@ -1484,7 +1492,7 @@
  {
     "dimension": 0,
     "mob": "mod_lavacow:zombiepiranha",
-	"biome": ["jungle", "jungle_hills", "jungle_edge", "swampland", "mutated_swampland", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:dead_swamp", "biomesoplenty:lush_swamp", "biomesoplenty:rainforest", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:quagmire"],
+	"biome": ["Jungle", "JungleHills", "JungleEdge", "Swampland", "Swampland M", "Jungle M", "JungleEdge M", "Bayou", "Bog", "Dead Swamp", "Lush Swamp", "Rainforest", "Tropical Rainforest", "Tropical Island", "Quagmire"],
     "gamestage": "minedMythril",
 	"random": 0.125,
 	"seesky": true,
@@ -1503,7 +1511,7 @@
  {
     "dimension": 0,
     "mob": "mod_lavacow:undeadswine",
-	"biome": ["plains", "jungle", "jungle_hills", "jungle_edge", "roofed_forest", "mutated_plains", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:rainforest", "biomesoplenty:tropical_rainforest", "forest", "forest_hills", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:roofed_forest", "minecraft:extreme_hills_with_trees", "minecraft:mutated_extreme_hills", "minecraft:mutated_forest", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:brushland", "biomesoplenty:chaparral", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:dead_forest", "biomesoplenty:grassland", "biomesoplenty:grove", "biomesoplenty:lavender_fields", "biomesoplenty:maple_woods", "biomesoplenty:ominous_woods", "biomesoplenty:orchard", "biomesoplenty:overgrown_cliffs", "biomesoplenty:prairie", "biomesoplenty:seasonal_forest", "biomesoplenty:shrubland", "biomesoplenty:temperate_rainforest", "biomesoplenty:pasture", "biomesoplenty:wasteland", "biomesoplenty:woodland", "biomesoplenty:tropical_island"],
+	"biome": ["Plains", "Jungle", "JungleHills", "JungleEdge", "Roofed Forest", "Sunflower Plains", "Jungle M", "JungleEdge M", "Rainforest", "Tropical Rainforest", "Forest", "ForestHills", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Extreme Hills+", "Extreme Hills M", "Flower Forest", "Bayou", "Bog", "Brushland", "Chaparral", "Cherry Blossom Grove", "Dead Forest", "Grassland", "Grove", "Lavender Fields", "Maple Woods", "Ominous Woods", "Orchard", "Overgrown Cliffs", "Prairie", "Seasonal Forest", "Shrubland", "Temperate Rainforest", "Pasture", "Wasteland", "Woodland", "Tropical Island"],
     "gamestage": "enteredBeneath",
 	"maxlight": 7,
     "minlight": 0,
@@ -1513,7 +1521,8 @@
         "amount": 5,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "allow",
+	"potion": "rats:plague,1000000,1"
  },
 {
     "dimension": 0,
@@ -1524,7 +1533,7 @@
  {
     "dimension": 0,
     "mob": "mod_lavacow:zombiefrozen",
-	"biome": ["taiga", "frozen_river", "ice_flats", "ice_mountains", "taiga_hills", "minecraft:taiga_cold", "minecraft:taiga_cold_hills", "minecraft:mutated_taiga", "minecraft:mutated_ice_flats", "minecraft:mutated_taiga_cold", "minecraft:mutated_redwood_taiga", "biomesoplenty:alps", "biomesoplenty:boreal_forest", "biomesoplenty:cold_desert", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_forest", "biomesoplenty:tundra", "biomesoplenty:glacier", "biomesoplenty:snowy_tundra", "iceandfire:glacier", "biomesoplenty:alps_foothills"],
+	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Cold Taiga", "Cold Taiga Hills", "Taiga M", "Ice Plains Spikes", "Cold Taiga M", "Mega Spruce Taiga", "Alps", "Boreal Forest", "Cold Desert", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "Glacier", "SnowyTundra", "Glacier", "AlpsFoothills"],
     "gamestage": "enteredBeneath",
 	"maxlight": 7,
     "minlight": 0,
@@ -1532,7 +1541,8 @@
         "amount": 5,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "allow",
+    "potion": "extraalchemy:effect.freezing,1000000,2"
  },
  {
     "dimension": 0,
@@ -1543,7 +1553,7 @@
   {
     "dimension": [0,10],
     "mob": "mod_lavacow:zombiemushroom",
-	"biome": ["jungle", "jungle_hills", "jungle_edge", "swampland", "mutated_swampland", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:dead_swamp", "biomesoplenty:lush_swamp", "biomesoplenty:rainforest", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:quagmire", "minecraft:mushroom_island", "minecraft:mushroom_island_shore", "minecraft:mutated_roofed_forest", "biomesoplenty:fen", "biomesoplenty:flower_field", "biomesoplenty:mangrove", "biomesoplenty:marsh", "biomesoplenty:moor", "biomesoplenty:wetland", "biomesoplenty:oasis", "biomesoplenty:flower_island", "beneath:the_beneath"],  
+	"biome": ["Jungle", "JungleHills", "JungleEdge", "Swampland", "Swampland M", "Jungle M", "JungleEdge M", "Bayou", "Bog", "Dead Swamp", "Lush Swamp", "Rainforest", "Tropical Rainforest", "Tropical Island", "Quagmire", "MushroomIsland", "MushroomIslandShore", "Roofed Forest M", "Fen", "Flower Field", "Mangrove", "Marsh", "Moor", "Wetland", "Oasis", "Flower Island", "The Beneath"],  
     "gamestage": "enteredBeneath",
 	"maxlight": 7,
     "minlight": 0,
@@ -1551,7 +1561,8 @@
         "amount": 5,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "allow",
+    "potion": "extraalchemy:effect.leech,100000,4"
  },
  {
     "dimension": [0,10],
@@ -1562,9 +1573,9 @@
   {
     "dimension": 0,
     "mob": "mod_lavacow:foglet",
-	"biome": ["taiga", "frozen_river", "ice_flats", "ice_mountains", "taiga_hills", "minecraft:taiga_cold", "minecraft:taiga_cold_hills", "minecraft:mutated_taiga", "minecraft:mutated_ice_flats", "minecraft:mutated_taiga_cold", "minecraft:mutated_redwood_taiga", "biomesoplenty:alps", "biomesoplenty:boreal_forest", "biomesoplenty:cold_desert", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_forest", "biomesoplenty:tundra", "biomesoplenty:glacier", "biomesoplenty:snowy_tundra", "iceandfire:glacier", "biomesoplenty:alps_foothills", "biomesoplenty:ominous_woods", "biomesoplenty:dead_forest", "biomesoplenty:dead_swamp", "aether_legacy:aether_highlands"], 
+	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Cold Taiga", "Cold Taiga Hills", "Taiga M", "Ice Plains Spikes", "Cold Taiga M", "Mega Spruce Taiga", "Alps", "Boreal Forest", "Cold Desert", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "Glacier", "SnowyTundra", "Glacier", "AlpsFoothills", "Ominous Woods", "Dead Swamp", "Bayou", "Bog"], 
     "gamestage": "enteredBeneath",
-	"random": 0.125,
+	"random": 0.10,
 	"seesky": true,
 	"maxlight": 7,
     "minlight": 0,
@@ -1583,7 +1594,7 @@
    {
     "dimension": 0,
     "mob": "mod_lavacow:ptera",
-	"biome": ["jungle", "jungle_hills", "jungle_edge", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:lush_swamp", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:mangrove", "biomesoplenty:oasis", "minecraft:desert", "minecraft:desert_hills", "minecraft:mesa", "minecraft:mesa_rock", "minecraft:mesa_clear_rock", "minecraft:mutated_desert", "minecraft:mutated_mesa", "minecraft:mutated_mesa_rock", "minecraft:mutated_mesa_clear_rock", "minecraft:beaches", "minecraft:deep_ocean", "minecraft:stone_beach", "minecraft:cold_beach", "biomesoplenty:gravel_beach", "biomesoplenty:white_beach", "biomesoplenty:volcanic_island", "biomesoplenty:flower_island", "biomesoplenty:xeric_shrubland", "biomesoplenty:coral_reef", "biomesoplenty:kelp_forest"],  
+	"biome": ["Jungle", "JungleHills", "JungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Beach", "Deep Ocean", "Stone Beach", "Cold Beach", "Gravel Beach", "White Beach", "Volcanic Island", "Flower Island", "Xeric Shrubland", "Coral Reef", "Kelp Forest"],  
     "gamestage": "enteredBeneath",
 	"minheight": 60,
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:leaves", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
@@ -1700,7 +1711,7 @@
  {
     "dimension": 0,
     "mob": "mod_lavacow:vespa",
-	"biome": ["jungle", "jungle_hills", "jungle_edge", "mutated_jungle", "mutated_jungle_edge", "biomesoplenty:lush_swamp", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropical_island", "biomesoplenty:mangrove", "biomesoplenty:oasis", "minecraft:desert", "minecraft:desert_hills", "minecraft:mesa", "minecraft:mesa_rock", "minecraft:mesa_clear_rock", "minecraft:mutated_desert", "minecraft:mutated_mesa", "minecraft:mutated_mesa_rock", "minecraft:mutated_mesa_clear_rock", "biomesoplenty:volcanic_island", "biomesoplenty:flower_island", "biomesoplenty:xeric_shrubland"],  
+	"biome": ["jungle", "JungleHills", "jungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa","Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Volcanic Island", "Flower Island", "Xeric Shrubland"],  
     "gamestage": "fullEarlyArmor",
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:sandstone", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "aether_legacy:aether_grass"],
 	"random": 0.125,
