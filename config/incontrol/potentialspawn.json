@@ -808,7 +808,7 @@
     "mobs": [
       {
         "mob": "mod_lavacow:foglet",
-        "weight": 3,
+        "weight": 6,
         "groupcountmin": 1,
         "groupcountmax": 4
       }
@@ -943,6 +943,17 @@
         "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
+      }
+    ]
+  },
+   {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:scarecrow",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   }
