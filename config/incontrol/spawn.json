@@ -1579,7 +1579,7 @@
 	"seesky": true,
 	"maxlight": 7,
     "minlight": 0,
-	"weather": rain,
+	"weather": "rain",
     "maxcount": {
         "amount": 5,
         "perplayer": true
