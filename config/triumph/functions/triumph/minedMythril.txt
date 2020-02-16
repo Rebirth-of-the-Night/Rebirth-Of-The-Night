@@ -1,3 +1,3 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-gamestage silentadd @a mythrilPickaxe
+gamestage silentadd @a minedMythril
