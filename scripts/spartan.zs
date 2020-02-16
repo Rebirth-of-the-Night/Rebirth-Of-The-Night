@@ -25,7 +25,6 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:dynamite>);
 
 
 
-recipes.remove(<spartanweaponry:battleaxe_lead>);
 recipes.remove(<spartanshields:shield_basic_lead>);
 
 
