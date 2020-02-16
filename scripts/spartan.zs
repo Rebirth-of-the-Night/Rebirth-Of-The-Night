@@ -53,6 +53,7 @@ mods.jei.JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairC
 
 
 // Spartan Compat
+
 // Viridium: Saber, Katana, Staff, Spear, Dagger, Throwing Knife
 
 mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
@@ -60,9 +61,7 @@ mods.jei.JEI.removeAndHide(<spartancompat:halberd_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:greatsword_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:hammer_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:warhammer_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:pike_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:lance_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:longbow_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_adamantium>);

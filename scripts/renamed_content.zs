@@ -79,10 +79,40 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Shields
 <spartanshields:shield_basic_lead>.displayName = "§5Mythril Shield";
 
+// Lavacow
+<mod_lavacow:moltenbeef>.displayName = "Molten Scale";
+
+
+
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
+game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
+<spartancompat:saber_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:katana_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:staff_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:spear_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:dagger_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:throwing_knife_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
+
+
+
+
+<iceandfire:myrmex_desert_sword_venom>.displayName = "§2Desert Myrmex Stinger Sword";
+<iceandfire:myrmex_desert_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
+<iceandfire:myrmex_jungle_sword_venom>.displayName = "§2Jungle Myrmex Stinger Sword";
+<iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
+<msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
+<msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
+<msmlegacy:draconic_blade>.displayName = "§2Draconic Sword";
+<msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<mod_lavacow:famine>.displayName = "§2Blade of Devouring Greed";
+<mod_lavacow:famine>.addTooltip(format.darkGreen("Rare Weapon"));
+
+
+
 <simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
 <simpleores:adamantium_pickaxe>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_shovel>.displayName = "§2Viridium Shovel";
@@ -104,15 +134,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <simpleores:adamantium_block>.displayName = "§2Block of Viridium";
 <simpleores:adamantium_block>.addTooltip(format.darkGreen("Rare Block"));
 
-<iceandfire:myrmex_desert_sword_venom>.displayName = "§2Desert Myrmex Stinger Sword";
-<iceandfire:myrmex_desert_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
-<iceandfire:myrmex_jungle_sword_venom>.displayName = "§2Jungle Myrmex Stinger Sword";
-<iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
 
-<msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
-<msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
-<msmlegacy:draconic_blade>.displayName = "§2Draconic Sword";
-<msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
 
 
 #Epic
@@ -121,6 +143,21 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <simpleores:mythril_sword>.displayName = "§5Mythril Sword";
 <simpleores:mythril_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 <simpleores:mythril_pickaxe>.displayName = "§5Mythril Pickaxe";
+game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
+<spartancompat:rapier_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:longsword_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:glaive_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:lance_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:mace_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:boomerang_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:javelin_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+
+<mod_lavacow:war>.displayName = "§5Nether Cannon";
+<mod_lavacow:war>.addTooltip(format.darkPurple("Epic Weapon"));
+<mod_lavacow:sludge_wand>.displayName = "§5Oozemancer's Staff";
+<mod_lavacow:sludge_wand>.addTooltip(format.darkPurple("Epic Weapon"));
+
+
 <simpleores:mythril_pickaxe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_shovel>.displayName = "§5Mythril Shovel";
 <simpleores:mythril_shovel>.addTooltip(format.darkPurple("Epic Tool"));
@@ -165,6 +202,16 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <simpleores:onyx_sword>.displayName = "§6Onyx Sword";
 <simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";
+game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
+<spartancompat:halberd_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:greatsword_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:warhammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:pike_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:battleaxe_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:hammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:throwing_axe_onyx>.addTooltip(format.gold("Legendary Weapon"));
+
+
 <simpleores:onyx_pickaxe>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_shovel>.displayName = "§6Onyx Shovel";
 <simpleores:onyx_shovel>.addTooltip(format.gold("Legendary Tool"));
@@ -267,6 +314,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <iceandfire:myrmex_jungle_swarm>.displayName = "§6Jungle Myrmex Swarm";
 <iceandfire:tide_trident>.displayName = "§6Tide Trident";
 <iceandfire:amphithere_macuahuitl>.displayName = "§6Amphithere Macuahuitl";
+
+<mod_lavacow:piranhalauncher>.displayName = "§6Frenzy Launcher";
+<mod_lavacow:piranhalauncher>.addTooltip(format.gold("Legendary Weapon"));
 
 
 # Godly

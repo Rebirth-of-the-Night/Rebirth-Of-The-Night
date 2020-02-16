@@ -13,31 +13,6 @@ import crafttweaker.item.IItemStack;
 ////// need: remove all these damn tooltips (see the ones that I attempted to remove and only half actually succeeded)
 ////// need to remove partial set bonus tooltips from item description and use SetBonus instead
 
-// tooltips
-<mod_lavacow:moltenbeef>.displayName = "Molten Scale";
-<mod_lavacow:famine>.displayName = "Blade of Devouring Greed";
-<mod_lavacow:war>.displayName = "Nether Cannon";
-<mod_lavacow:sludge_wand>.displayName = "Oozemancer's Staff";
-
-<mod_lavacow:famine>.removeTooltip("Gives Hunger. Restore 1 hunger points when hitting a non-undead entity.");
-<mod_lavacow:famine>.addTooltip("And so cursed with hunger / that foul Wielder lashed out against the living / to satisfy their Yearning");
-<mod_lavacow:sludge_wand>.removeTooltip("Right click to summon a loyal Lil'Sludge");
-<mod_lavacow:sludge_wand>.addTooltip("Right-click to conjure a loyal li'l sludgeling from the staff for 1 minute.");
-<mod_lavacow:war>.removeTooltip("Raise a war between you and your friend who built a wood cabin (need Fire Charge as ammunition)");
-<mod_lavacow:war>.addTooltip("Glorious fiery destruction in handheld form. Uses Fire Charges as ammunition.");
-<mod_lavacow:piranhalauncher>.removeTooltip("Right click to launch a Swarmer at target. (need Swarmer as ammunition)");
-<mod_lavacow:piranhalauncher>.addTooltip("Right-click to launch an undead piranha. Uses Frenzy as ammunition.");
-<mod_lavacow:intestine>.removeTooltip("Right click to find what's inside it");
-<mod_lavacow:intestine>.addTooltip("Unpleasant to handle. Right-click to sift through the remains.");
-<mod_lavacow:canerottenmeat>.removeTooltip("Gives Regeneration(0:08) when eaten, is also mimicrab's favorite.");
-<mod_lavacow:canerottenmeat>.addTooltip("Disgusting, but has regenerative powers. Favored by rare species of hermit crabs.");
-<mod_lavacow:swinemask>.removeTooltip("Grants player poison immunity.");
-<mod_lavacow:swinemask>.removeTooltip("Undead Swine will be neutral to player");
-<mod_lavacow:frozenthigh>.removeTooltip("Is edible. Attacks give target SlownessIII(0:04)");
-<mod_lavacow:frozenthigh>.addTooltip("The cold has theoretically made this safe to eat... but it's still freezing to the touch.");
-<mod_lavacow:green_bacon_and_eggs>.removeTooltip("Gives Haste(1:00) when eaten.");
-<mod_lavacow:green_bacon_and_eggs>.addTooltip("This rather sickening meal was first created by the infamous chef, Samuel.");
-
 
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
