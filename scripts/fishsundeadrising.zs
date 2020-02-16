@@ -13,11 +13,6 @@ import crafttweaker.item.IItemStack;
 ////// need: remove all these damn tooltips (see the ones that I attempted to remove and only half actually succeeded)
 ////// need to remove partial set bonus tooltips from item description and use SetBonus instead
 
-// tooltips
-<mod_lavacow:moltenbeef>.displayName = "Molten Scale";
-<mod_lavacow:famine>.displayName = "Blade of Devouring Greed";
-<mod_lavacow:war>.displayName = "Nether Cannon";
-<mod_lavacow:sludge_wand>.displayName = "Oozemancer's Staff";
 
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);

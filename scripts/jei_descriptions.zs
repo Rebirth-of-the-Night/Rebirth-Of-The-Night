@@ -16,6 +16,12 @@ mods.jei.JEI.addDescription([<minecraft:enchanting_table>],["Can be upgraded wit
 
 mods.jei.JEI.addDescription([<netherchest:nether_chest>],["When items are stored in a Nether Chest, their normal stack size limit is multiplied by 8, due to the way the Nether compresses space by a factor of 8. This stack size increase also applies to tools and any other items that aren't normally stackable. Despite their name, trying to open one in the Nether is a very bad idea."]);
 
+mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
+mods.jei.JEI.removeAndHide(<base:wrench>);
+
+mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extinguishes fires, and blows away dust. Stronger push if there is another fan behind.");
+
+mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
 # Relics
 
