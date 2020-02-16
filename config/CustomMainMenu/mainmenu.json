@@ -131,6 +131,25 @@
                 "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Tips"
             }
         },
+        "patreon":
+        {
+            "text" : "Donate via Patreon",
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
+            "texture" : "rotn:textures/btn.png",
+            "posX" : -100,
+            "posY" : 80,
+            "width" : 100,
+            "height" : 20,
+            "imageWidth" : 100,
+            "imageHeight" : 50,
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.patreon.com/rebirthofthenight"
+            }
+        },
 
         "server":
         {
