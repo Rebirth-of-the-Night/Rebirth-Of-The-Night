@@ -532,7 +532,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:lightningcreeper",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -718,27 +718,27 @@
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorhelmet": ["minecraft:diamond_helmet","endreborn:armour_helmet_helmet"],
-    "gamestage": "minedMythril"
+    "gamestage": "mythrilPickaxe"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorchest": ["minecraft:diamond_chestplate","endreborn:armour_chestplate_obsidian"],
-    "gamestage": "minedMythril"
+    "gamestage": "mythrilPickaxe"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorlegs": ["minecraft:diamond_leggings","endreborn:armour_leggings_obsidian"],
-    "gamestage": "minedMythril"
+    "gamestage": "mythrilPickaxe"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton"],
     "random": 0.1,
     "armorboots": ["minecraft:diamond_boots","endreborn:armour_boots_obsidian"],
-    "gamestage": "minedMythril"
+    "gamestage": "mythrilPickaxe"
 },
 
 
@@ -780,7 +780,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": "1=minecraft:diamond_pickaxe",
-    "gamestage": "minedMythril"
+    "gamestage": "mythrilPickaxe"
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
@@ -844,7 +844,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:fishingzombie",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -941,7 +941,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:ninjaskeleton",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1106,7 +1106,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:webspider",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1240,7 +1240,7 @@
     "minlight": 14,
     "random": 0.003,
     "seesky": true,
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -1299,7 +1299,7 @@
  {
     "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
     "random": 0.0625,
     "maxlight": 7,
     "minlight": 0,
@@ -1411,7 +1411,7 @@
  {
     "dimension": [0,10],
     "mob": "rats:plague_beast",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
 	"random": 0.01,
 	"maxlight": 7,
     "minlight": 0,
@@ -1429,7 +1429,7 @@
  {
     "dimension": 0,
     "mob": "rats:black_death",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
 	"maxlight": 7,
     "minlight": 0,
 	"random": 0.001,
@@ -1472,7 +1472,7 @@
     "dimension": [0,10],
     "mob": "mod_lavacow:wendigo",
 	"biome": ["Forest", "Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "ForestHills", "TaigaHills", "Extreme Hills Edge", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Extreme Hills M", "Flower Forest", "Taiga M", "Ice Plains Spikes", "Birch Forest M", "Birch Forest Hills M", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Crag", "Dead Forest", "Mountain", "Ominous Woods", "Seasonal Forest", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "Glacier", "SnowyTundra", "Glacier", "AlpsFoothills", "MountainFoothills", "The Beneath"],
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
 	"random": 0.02,
 	"maxlight": 7,
     "minlight": 0,
@@ -1493,7 +1493,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:zombiepiranha",
 	"biome": ["Jungle", "JungleHills", "JungleEdge", "Swampland", "Swampland M", "Jungle M", "JungleEdge M", "Bayou", "Bog", "Dead Swamp", "Lush Swamp", "Rainforest", "Tropical Rainforest", "Tropical Island", "Quagmire"],
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
 	"random": 0.125,
 	"seesky": true,
     "maxcount": {
@@ -1636,7 +1636,7 @@
 {
     "dimension": 4,
     "mob": "netherex:wight",
-    "gamestage": "minedMythril",
+    "gamestage": "mythrilPickaxe",
 	"random": 0.30,
 	"maxlight": 7,
     "minlight": 0,

@@ -4,7 +4,6 @@ setDescription("Obtain mythril ore.")
 
 addParent("triumph:advancements/ores/diamond")
 
-addRewardFunction("triumph:minedMythril")
 
 
 criteria = addCriteria("Mythril Ore", "minecraft:inventory_changed")

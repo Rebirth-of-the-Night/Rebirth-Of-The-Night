@@ -1,0 +1,14 @@
+setIcon("simpleores:mythril_pickaxe")
+setTitle("Mythril Pickaxe")
+setDescription("Mythril Pickaxe")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Mythril Pickaxe", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_pickaxe")
+
+addRewardFunction("triumph:mythrilPickaxe")
+
+
+alwaysHidden()
+hideLines()
