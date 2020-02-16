@@ -1,6 +1,6 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-tellraw @p ["",{"text":"You hear groans as the last magic barrier protecting the plague shatters...","color":"dark_red"}]
+tellraw @p ["",{"text":"The darkness erupts with distant screeches as the last magic barrier shatters...","color":"dark_red"}]
 playsound zombieawareness:investigate ambient @p ~ ~ ~ 0.8 0.1
 gamestage silentadd @a minedMythril
 gamestage silentadd @a fullDiamondArmor
