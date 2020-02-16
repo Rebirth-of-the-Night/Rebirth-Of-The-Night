@@ -4,3 +4,6 @@ title @a times 40 120 60
 title @a subtitle {"text":"Faint roars occur far, far away...", "color":"yellow"}
 title @a title {"text":"Rebirth of the Forest", "bold":false, "italic":true, "color":"red"}
 gamestage silentadd @a killedGhastQueen
+gamestage silentadd @a fullDiamondArmor
+gamestage silentadd @a fullEarlyArmor
+gamestage silentadd @a minedMythril
