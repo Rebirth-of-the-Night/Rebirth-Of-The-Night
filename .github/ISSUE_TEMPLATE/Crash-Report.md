@@ -6,6 +6,7 @@ labels: ''
 assignees: ''
 
 ---
+ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
 
 **Describe the crash**
 A clear and concise description of what happened when you crash. Also, tell us if it continues to crash on world join or if it was a one time thing.
