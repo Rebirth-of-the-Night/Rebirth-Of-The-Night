@@ -66,6 +66,13 @@ recipes.addShapeless("harvestcraft_vegstock", <harvestcraft:stockitem> * 2, [<or
 recipes.addShapeless("harvestcraft_meatstock", <harvestcraft:stockitem> * 3, [<ore:toolPot>, <ore:listAllmeatraw>]);
 
 
+recipes.remove(<harvestcraft:hardenedleatheritem>);
+recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<harvestcraft:beeswaxitem>,<betterwithmods:material:6>]);
+
+recipes.removeByRecipeName("harvestcraft:beeswaxitem_x8_cropcandle");
+recipes.removeByRecipeName("harvestcraft:beeswaxitem_cropcandle");
+
+
 // copper can be used instead of clay brick
 //pot
 recipes.addShaped("Pot", <harvestcraft:potitem>,[

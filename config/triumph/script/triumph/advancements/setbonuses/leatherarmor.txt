@@ -1,6 +1,6 @@
 setIcon("minecraft:leather_chestplate")
-setTitle("One With Nature")
-setDescription("Complete the One With Nature set.")
+setTitle("The Hunter")
+setDescription("Complete The Hunter set.")
 
 addParent("triumph:advancements/setbonuses/bronzearmor")
 
@@ -15,6 +15,9 @@ criteria.addItem("minecraft:leather_leggings")
 
 criteria = addCriteria("Leather Boots", "minecraft:inventory_changed")
 criteria.addItem("minecraft:leather_boots")
+
+criteria = addCriteria("Bronze Axe", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_axe")
 
 hideLines()
 alwaysVisible()

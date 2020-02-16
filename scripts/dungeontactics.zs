@@ -54,10 +54,6 @@ mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);
 
 furnace.remove(<dungeontactics:steel_ingot>);
 
-mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
-mods.jei.JEI.removeAndHide(<base:wrench>);
-mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extinguishes fires, and blows away dust. Stronger push if there is another fan behind.");
-mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
 mods.jei.JEI.removeAndHide(<dungeontactics:ducttape>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:ducttape");
