@@ -13,8 +13,8 @@ setAnnounceToChat(false)
 addRewardFunction("triumph:transitionWarning")
 
 
-criteria = addCriteria("touched", "triumph:left_click_block")
-criteria.setBlock(<dimstack:portal>)
+criteria = addCriteria("break_barrier", "triumph:player_break_block")
+criteria.setBlock(<dimstack:bedrock, meta:0>)
 
 setRequirements("all")
 alwaysHidden()
