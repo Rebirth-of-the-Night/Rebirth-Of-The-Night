@@ -6,6 +6,7 @@ labels: ''
 assignees: ''
 
 ---
+ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
 
 **Describe the bug**
 A clear and concise description of what the bug is.
