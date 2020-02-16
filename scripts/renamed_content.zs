@@ -15,6 +15,7 @@
 
 //Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
+<dimstack:bedrock>.displayName = "Arcane Barrier";
 
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
