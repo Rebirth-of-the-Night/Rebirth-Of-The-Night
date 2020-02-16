@@ -755,17 +755,6 @@
     ]
   },
   
-  {
-    "dimension": 0,
-    "mobs": [
-      {
-        "mob": "mod_lavacow:zombiepiranha",
-        "weight": 5,
-        "groupcountmin": 3,
-        "groupcountmax": 10
-      }
-    ]
-  },
   
   {
     "dimension": 0,

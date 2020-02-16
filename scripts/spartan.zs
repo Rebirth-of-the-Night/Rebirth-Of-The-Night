@@ -53,12 +53,11 @@ mods.jei.JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairC
 
 
 // Spartan Compat
-
 // Viridium: Saber, Katana, Staff, Spear, Dagger, Throwing Knife
 
-// Mythril: Rapier, Longsword, Glaive, Lance, Mace, Boomerang
+// Mythril: Rapier, Longsword, Glaive, Lance, Mace, Boomerang, Javelin
 
-// Onyx: Halberd, Greatsword, Warhammer, Pike, Battleaxe, Quarterstaff, Hammer, Throwing Axe
+// Onyx: Halberd, Greatsword, Warhammer, Pike, Battleaxe, Hammer, Throwing Axe
 
 mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:halberd_adamantium>);
@@ -76,7 +75,40 @@ mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:glaive_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:boomerang_adamantium>);
 mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_adamantium>);
 
 
+mods.jei.JEI.removeAndHide(<spartancompat:halberd_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:pike_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:saber_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:katana_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:staff_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:spear_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_mythril>);
 
 
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:rapier_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:mace_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:glaive_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:saber_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:katana_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:staff_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:spear_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);

@@ -1489,24 +1489,7 @@
     "result": "deny"
  },
  
- {
-    "dimension": 0,
-    "mob": "mod_lavacow:zombiepiranha",
-	"biome": ["Jungle", "JungleHills", "JungleEdge", "Swampland", "Swampland M", "Jungle M", "JungleEdge M", "Bayou", "Bog", "Dead Swamp", "Lush Swamp", "Rainforest", "Tropical Rainforest", "Tropical Island", "Quagmire"],
-    "gamestage": "minedMythril",
-	"random": 0.125,
-	"seesky": true,
-    "maxcount": {
-        "amount": 15,
-        "perplayer": true
-    },
-    "result": "default"
- },
- {
-    "dimension": 0,
-    "mob": "mod_lavacow:zombiepiranha",
-    "result": "deny"
- },
+
  
  {
     "dimension": 0,
