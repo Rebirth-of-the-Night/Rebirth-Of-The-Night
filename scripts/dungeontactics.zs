@@ -59,6 +59,8 @@ mods.jei.JEI.removeAndHide(<base:wrench>);
 mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extinguishes fires, and blows away dust. Stronger push if there is another fan behind.");
 mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
+mods.jei.JEI.removeAndHide(<dungeontactics:ducttape>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:ducttape");
 
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_ring>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_ring");
