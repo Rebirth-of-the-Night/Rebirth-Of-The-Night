@@ -50,3 +50,34 @@ function(out, ins, cInfo){
 
 
 mods.jei.JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairCost: 0, display: {Name: "Mythril Shield"}})],["It's on the edge of the abyss that this shield truly shines."]);
+
+
+// Spartan Compat
+// Viridium: Saber, Katana, Staff, Spear, Dagger, Throwing Knife
+
+// Mythril: Rapier, Longsword, Glaive, Lance, Mace, Boomerang
+
+// Onyx: Halberd, Greatsword, Warhammer, Pike, Battleaxe, Quarterstaff, Hammer, Throwing Axe
+
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:halberd_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:pike_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:rapier_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:mace_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:glaive_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_adamantium>);
+
+
+
+
