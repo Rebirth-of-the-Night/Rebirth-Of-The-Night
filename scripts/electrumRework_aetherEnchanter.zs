@@ -56,6 +56,9 @@ function(out,cInfo,player){
 });
   #Additional recipes on pyrotech scripts 
  
+//JEI decriptions
+mods.jei.JEI.addDescription(<ore:ingotElectrum>.firstItem,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, this material is far greater than the sum of its parts");
+ 
 //Aether Enchanter
 mods.aether_legacy.Enchanter.registerEnchanterFuel(elec,4800);
 mods.aether_legacy.Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);
