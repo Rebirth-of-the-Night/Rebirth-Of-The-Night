@@ -121,3 +121,50 @@ mods.betterwithmods.Crucible.addStoked(
         <ore:ingotBronze>.firstItem*4
     ]
 );
+
+//Electrum Production
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <ore:blockSilver>,
+        <ore:blockGold>,
+        <ore:blockGold>,
+        <aether_legacy:ambrosium_block>
+    ],
+    [
+        <ore:blockElectrum>.firstItem*4
+    ]
+);
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <ore:ingotSilver>,
+        <ore:ingotGold>,
+        <ore:ingotGold>,
+        <ore:gemAmbrosium>
+    ],
+    [
+        <ore:ingotElectrum>.firstItem*4
+    ]
+);
+//Stoked Electrum Production
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <ore:blockSilver>,
+        <ore:blockGold>,
+        <ore:blockGold>,
+        <aether_legacy:ambrosium_block>
+    ],
+    [
+        <ore:blockElectrum>.firstItem*4
+    ]
+);
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <ore:ingotSilver>,
+        <ore:ingotGold>,
+        <ore:ingotGold>,
+        <ore:gemAmbrosium>
+    ],
+    [
+        <ore:ingotElectrum>.firstItem*4
+    ]
+);
