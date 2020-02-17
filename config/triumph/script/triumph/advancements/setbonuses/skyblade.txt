@@ -8,5 +8,5 @@ criteria = addCriteria("Sky Blade", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:aethers_guard")
 
 alwaysVisible()
-setPos(-113,265)
+setPos(-113,283)
 hideLines()
