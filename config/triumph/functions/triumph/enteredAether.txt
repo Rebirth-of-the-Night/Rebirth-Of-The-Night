@@ -1,6 +1,6 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 title @a times 40 120 60
-title @a subtitle {"text":"A cold yet mysterious presence surrounds you...", "color":"yellow"}
+title @a subtitle {"text":"The wind howls, carrying a dread cold...", "color":"yellow"}
 title @a title {"text":"The Aether", "bold":false, "italic":false, "color":"white"}
 gamestage silentadd @a enteredAether
