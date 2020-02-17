@@ -54,3 +54,10 @@ tootip.mod_lavacow.swinearmor.l2=
 tootip.mod_lavacow.piranhalauncher=Right-click to launch an undead piranha. Uses Frenzy as ammunition.
 tootip.mod_lavacow.cursed_bandage=Heals 2 HP to your pet
 tootip.mod_lavacow.holy_grenade=Throw at target location and cause explosion. Undead within 300%% damage and get burned(0:08)
+
+################
+# Enchantments #
+################
+enchantment.endreborn.poisonous.desc=Inflicts target with poison.
+
+
