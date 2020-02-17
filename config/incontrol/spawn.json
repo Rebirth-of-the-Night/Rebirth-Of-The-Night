@@ -20,6 +20,7 @@
 
 {
     "mob": "aether_legacy:valkyrie_queen",
+    "dimension": 4,
     "onjoin": true,
     "potion": "potioncore:reach,1000000,2",
 	"potion": "potioncore:magic_shield,1000000,2",
@@ -1293,8 +1294,6 @@
     "result": "deny"
  },
 
-
-
   // Endermen
  {
     "dimension": [0,10,1,-1],
@@ -1489,8 +1488,6 @@
     "result": "deny"
  },
  
-
- 
  {
     "dimension": 0,
     "mob": "mod_lavacow:undeadswine",
@@ -1524,8 +1521,7 @@
         "amount": 5,
         "perplayer": true
     },
-    "result": "allow",
-    "potion": "extraalchemy:effect.freezing,1000000,2"
+    "result": "allow"
  },
  {
     "dimension": 0,
