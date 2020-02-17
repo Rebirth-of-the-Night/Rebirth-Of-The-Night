@@ -5,6 +5,8 @@
     "healthmultiply": 2.5
  },
 
+
+
  // Max spawn cap
  // I have no idea what 10 means. It doesn't mean 10 mobs. I tested it with a variation of different stages
  // and it seems like a good limit. 
@@ -12,11 +14,7 @@
  // Nether: ~100-150 limit with all stages
  // Beneath: ~200 limit with all stages
  // This includes all mobs, but not minecraft:item
- {
-    "mincount": 10,
-    "result": "deny",
-    "onjoin": "true"
- },
+
 
 {
     "mob": "aether_legacy:valkyrie_queen",
@@ -784,7 +782,7 @@
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
-    "helditem": ["1=minecraft:iron_pickaxe", "2=minecraft:copper_pickaxe"],
+    "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
     "gamestage": "fullDiamondArmor"
 },
 
@@ -1385,7 +1383,7 @@
     "result": "allow"
  },
  {
-    "dimension": [0],
+    "dimension": 0,
     "mob": "rats:rat",
     "result": "deny"
  },
