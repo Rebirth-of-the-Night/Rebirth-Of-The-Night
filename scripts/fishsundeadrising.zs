@@ -14,6 +14,9 @@ import crafttweaker.item.IItemStack;
 ////// need to remove partial set bonus tooltips from item description and use SetBonus instead
 
 
+mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
+mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
+
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_chestplate>);

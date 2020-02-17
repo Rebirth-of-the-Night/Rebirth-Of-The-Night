@@ -156,6 +156,7 @@ netherex:ruthless_sands
 netherex:fungi_forest
 netherex:torrid_wasteland
 netherex:arctic_abyss
+rats:ratlantis
 aether_legacy:aether_highlands
 beneath:the_beneath
 stygian:stygian_growth

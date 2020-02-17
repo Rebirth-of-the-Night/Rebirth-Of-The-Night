@@ -2,15 +2,18 @@
   "materialMappings": {
     "viridium_molten": 11,
     "tin_molten": 7,
+    "bronze_nugget": 1,
+    "mythril_nugget": 8,
     "copper_nugget": 4,
+    "electrum_ingot": 12,
     "mythril_molten": 9,
+    "electrum_dense_plate": 13,
     "bronze_molten": 2,
     "bronze_ingot": 0,
     "bronze_block": 3,
     "viridium_nugget": 10,
     "tin_nugget": 6,
-    "bronze_nugget": 1,
-    "mythril_nugget": 8,
+    "electrum_block": 14,
     "copper_molten": 5
   }
 }

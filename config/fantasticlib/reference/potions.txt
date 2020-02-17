@@ -124,6 +124,8 @@ potioncore:antidote
 potioncore:curse
 potioncore:burst
 potioncore:archery
+rats:synesthesia
+rats:plague
 scalinghealth:bandaged
 toroquest:royalty
 totemexpansion:spelunking
