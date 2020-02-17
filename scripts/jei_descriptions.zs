@@ -23,7 +23,11 @@ mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extingu
 
 mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
+mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],["You'll really bone your enemies with this sword."]);
+
+
 # Relics
 
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
 mods.jei.JEI.addDescription([<msmlegacy:relic_candy>],["Relic idea by Just A BLU Toon. Thanks for becoming a Dragonsteel supporter on our Patreon!"]);
+

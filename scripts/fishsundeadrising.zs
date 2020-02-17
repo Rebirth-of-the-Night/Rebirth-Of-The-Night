@@ -103,10 +103,10 @@ recipes.addShaped("bonedagger", <mod_lavacow:tooth_dagger>,[
 
 mods.betterwithmods.Anvil.addShaped(<mod_lavacow:bonesword>, 
 [
-   [null, null, <ore:monsterTooth>, <ore:monsterTooth>],
+   [null, null, <ore:monsterTooth>, <spartanweaponry:material:0>],
    [null, <ore:monsterTooth>, <ore:stickWood>, <ore:monsterTooth>],
    [<ore:monsterTooth>, <ore:stickWood>, <ore:monsterTooth>, null],
-   [<ore:stickWood>, <ore:monsterTooth>, null, null]
+   [<ore:monsterTooth>, <ore:monsterTooth>, null, null]
 ]);
 
 //netherbeast armor set
