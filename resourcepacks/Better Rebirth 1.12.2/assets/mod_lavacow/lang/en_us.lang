@@ -12,6 +12,10 @@ item.mod_lavacow.zombiepiranha_item_cooked.name=Cooked Frenzy
 item.mod_lavacow.piranhalauncher.name=Frenzy Launcher
 item.mod_lavacow.sharptooth.name=Deadly Fang
 item.mod_lavacow.vespa_dagger.name=Wasp Sting
+item.mod_lavacow.felarmor_helmet.name=Netherbeast Helm
+item.mod_lavacow.felarmor_chestplate.name=Netherbeast Chestplate
+item.mod_lavacow.felarmor_leggings.name=Netherbeast Leggings
+item.mod_lavacow.felarmor_boots.name=Netherbeast Boots
 
 ############
 # Entities #

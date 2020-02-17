@@ -94,6 +94,19 @@ recipes.addShaped(<mod_lavacow:war>,[
 [null, null, <betternether:cincinnasite>]
 ]);
 
+recipes.addShaped("bonedagger", <mod_lavacow:tooth_dagger>,[
+	[null, <ore:monsterTooth>],
+    [<ore:stickWood>, null]
+]);
+
+mods.betterwithmods.Anvil.addShaped(<mod_lavacow:bonesword>, 
+[
+   [null, null, <ore:monsterTooth>, <ore:monsterTooth>],
+   [null, <ore:monsterTooth>, <ore:stickWood>, <ore:monsterTooth>],
+   [<ore:monsterTooth>, <ore:stickWood>, <ore:monsterTooth>, null],
+   [<ore:stickWood>, <ore:monsterTooth>, null, null]
+]);
+
 //netherbeast armor set
 recipes.addShaped("felhelm", <mod_lavacow:felarmor_helmet>,[
 	[<ore:salamanderhide>, <mod_lavacow:moltenbeef>, <ore:salamanderhide>],
