@@ -2,20 +2,9 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 
-////// this is not done.
-////// need: -add oredict bonedagger recipe. -add oredict bonesword recipe, witherbone handle in steel anvil. 
-////// The bigger they are, the harder they fall. Deals 5% of enemy's maximum HP as damage.
-////// null, null, <ore:monsterTooth>, <ore:monsterTooth>
-////// null, <ore:monsterTooth>, witherbone, <ore:monsterTooth>
-////// <ore:monsterTooth>, witherbone, <ore:monsterTooth>, null
-////// handle or something idk, <ore:monsterTooth>, null, null
-////// need: war/Nether Cannon recipe
-////// need: remove all these damn tooltips (see the ones that I attempted to remove and only half actually succeeded)
-////// need to remove partial set bonus tooltips from item description and use SetBonus instead
-
-
 mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
 mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
+mods.ltt.LootTable.removeGlobalItem(<mod_lavacow:poisonspore>);
 
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
