@@ -9,4 +9,4 @@ criteria.addItem("msmlegacy:relic_aqueous")
 
 alwaysVisible()
 hideLines()
-setPos(-347,193)
+setPos(-390,193)

@@ -128,6 +128,10 @@ recipes.addShaped("pyro stone hammer tool", <pyrotech:stone_hammer>,
   [null,<ore:stickWood>,null]]);
 recipes.addShapeless("pyro bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
 recipes.addShapeless("pyro flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<minecraft:flint>]);
+furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
+recipes.addShaped(<minecraft:stonebrick:2>, 
+[[<pyrotech:material:16>, <pyrotech:material:16>],
+[<pyrotech:material:16>, <pyrotech:material:16>]]);
 
 //descriptions
 mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"Much more effective than a simple firestarter. Can light a kiln if held down.");
