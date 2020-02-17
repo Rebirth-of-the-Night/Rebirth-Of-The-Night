@@ -101,12 +101,6 @@ mods.jei.JEI.hideCategory("bwa.soakingbox");
 mods.jei.JEI.hideCategory("bwa.dryingbox");
 mods.jei.JEI.hideCategory("bwa.infuser");
 mods.jei.JEI.hideCategory("bwa.infuser.transmutation");
-mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
-mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
-mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
-mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
-mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
-
 
 //Aqueducts
 recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [
@@ -128,3 +122,8 @@ recipes.addShaped(<betterwithaddons:aqueduct:1> * 6,
 //Misc.
 recipes.addShapeless(<betterwithaddons:lattice> * 4, [<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>]);
 recipes.addShaped(<betterwithaddons:wrought_bars> * 6, [[null, null, null],[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
+
+//JEI descriptions
+mods.jei.JEI.addDescription(<minecraft:clay_ball>,"Such a maluable material, could they see us the same in the Void?");
+mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"Aqueducts aren't seen these days, the people of the sands didn't have access to wells like today's villages.");
+mods.jei.JEI.addDescription(<minecraft:clay_ball>,"Such a maluable material, could they see us the same in the Void?");
