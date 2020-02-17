@@ -54,6 +54,8 @@ recipes.remove(<mod_lavacow:tooth_dagger>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:holy_sludge>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:potion_of_mooten_lava>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:fissionpotion>);
+// THIS WOULD MAKE COOL ENDGAME LOOT OK I DON'T WANT TO JUST TRASH IT COMPLETELY
+mods.jei.JEI.removeAndHide(<mod_lavacow:goldenheart>);
 
 //tweaked armor
 recipes.remove(<mod_lavacow:felarmor_helmet>);
