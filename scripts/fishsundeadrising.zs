@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 
 mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
 mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
-mods.ltt.LootTable.removeGlobalItem(<mod_lavacow:poisonspore>);
+mods.ltt.LootTable.removeGlobalItem("mod_lavacow:poisonspore");
 
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
