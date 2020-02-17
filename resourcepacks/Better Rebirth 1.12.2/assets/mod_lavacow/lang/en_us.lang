@@ -30,30 +30,30 @@ entity.mod_lavacow.wendigo.name=Ithaqua
 ############
 message.mod_lavacow.metamorphosis= begins to metamorphose!
 tootip.mod_lavacow.bonesword=Deals additional %d%% of target's maximum HP as damage.
-tootip.mod_lavacow.canebeef=Gives Regeneration(0:08) when eaten.
-tootip.mod_lavacow.canepork=Gives Regeneration(0:08) when eaten.
+tootip.mod_lavacow.canebeef=
+tootip.mod_lavacow.canepork=
 tootip.mod_lavacow.canerottenmeat=Disgusting, but has regenerative powers. Favored by rare species of hermit crabs.
-tootip.mod_lavacow.netherstew=Gives random effects(0:40) when eaten.
-tootip.mod_lavacow.goldenheart=Gives Regeneration and repairs(+1/sec) all equipments when equipped.
-tootip.mod_lavacow.moltenaxe=Get charcoal when chopping down logs.
-tootip.mod_lavacow.moltenhammer=Right click to deal damage to creatures around player.
-tootip.mod_lavacow.potion_of_mooten_lava=Try feeding this to a cow with Fire Resistence. :)
-tootip.mod_lavacow.fissionpotion=Turn Animal into two individuals.
+tootip.mod_lavacow.netherstew=
+tootip.mod_lavacow.goldenheart=Grants regeneration and repairs all equipment when equipped.
+tootip.mod_lavacow.moltenaxe=
+tootip.mod_lavacow.moltenhammer=
+tootip.mod_lavacow.potion_of_mooten_lava=
+tootip.mod_lavacow.fissionpotion=
 tootip.mod_lavacow.green_bacon_and_eggs=This rather sickening meal was first created by the infamous chef, Samuel.
 tootip.mod_lavacow.reapers_scythe=All attacks sweep target, and their damage bypasses any armors.
-tootip.mod_lavacow.famine=And so cursed with hunger / that foul Wielder lashed out against the living / to satisfy their Yearning     
+tootip.mod_lavacow.famine=§oAnd so cursed with hunger / that foul Wielder lashed out against the living / to satisfy their Yearning     
 tootip.mod_lavacow.frozenthigh=The cold has theoretically made this safe to eat... but it's still freezing to the touch.
 tootip.mod_lavacow.sludge_wand=Right-click to conjure a loyal li'l sludgeling for 1 minute.
 tootip.mod_lavacow.war=Glorious fiery destruction in handheld form. Uses Fire Charges as ammunition.
-tootip.mod_lavacow.moltenpan=Used to make special cuisines
+tootip.mod_lavacow.moltenpan=
 tootip.mod_lavacow.intestine=Unpleasant to handle. Right-click to sift through the remains.
-tootip.mod_lavacow.felarmor=Damage to burning mobs+
-tootip.mod_lavacow.felarmor.l2=Fire damage to player-
+tootip.mod_lavacow.felarmor=
+tootip.mod_lavacow.felarmor.l2=
 tootip.mod_lavacow.swinearmor=
 tootip.mod_lavacow.swinearmor.l2=
 tootip.mod_lavacow.piranhalauncher=Right-click to launch an undead piranha. Uses Frenzy as ammunition.
-tootip.mod_lavacow.cursed_bandage=Heals 2 HP to your pet
-tootip.mod_lavacow.holy_grenade=Throw at target location and cause explosion. Undead within 300%% damage and get burned(0:08)
+tootip.mod_lavacow.cursed_bandage=Unnaturally sticky, but it'll mend minor wounds... right-click on a pet to heal it for 2 HP.
+tootip.mod_lavacow.holy_grenade=Blessed explosive. Undead within range take triple damage and are set on fire.
 
 ################
 # Enchantments #
