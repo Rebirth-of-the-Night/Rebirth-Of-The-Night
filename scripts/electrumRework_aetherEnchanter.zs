@@ -20,6 +20,11 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_electrum>);
 
+//Name Tweaks
+<contenttweaker:material_part:12>.displayName = "Aetherial Electrum";
+<contenttweaker:sub_block_holder_0:1>.displayName = "Aetherial Electrum Block";
+<contenttweaker:electrum_plate>.displayName = "Aetherial Electrum Plate";
+
 #ADD RECIPES
 
 val elec = <ore:ingotElectrum>.firstItem;
@@ -38,7 +43,6 @@ recipes.addShaped("electrum_to_plateBlock",<contenttweaker:electrum_plate> * 24,
 [elec, null, elec], 
 [elec, elec, elec]]
 );
-
 
 //ELECTRUM RECIPES
 recipes.addShapeless("gold_silver_mixture", <contenttweaker:silver_gold_mixture>, 
