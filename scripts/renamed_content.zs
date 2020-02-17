@@ -77,8 +77,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <eplus:advanced_table>.displayName = "§6True Enchantment Table";
 
 
-// Shields
-<spartanshields:shield_basic_lead>.displayName = "§5Mythril Shield";
 
 // Lavacow
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
@@ -96,7 +94,6 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <spartancompat:spear_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:dagger_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:throwing_knife_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-
 
 
 
@@ -131,9 +128,8 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <simpleores:adamantium_boots>.displayName = "§2Viridium Boots";
 <simpleores:adamantium_boots>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_ingot>.displayName = "§2Viridium Ingot";
-<simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Item"));
-<simpleores:adamantium_block>.displayName = "§2Block of Viridium";
-<simpleores:adamantium_block>.addTooltip(format.darkGreen("Rare Block"));
+<simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Material"));
+
 
 
 
@@ -152,6 +148,9 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <spartancompat:mace_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:boomerang_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:javelin_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartanshields:shield_basic_lead>.displayName = "§5Mythril Shield";
+<spartanshields:shield_basic_lead>.addTooltip(format.darkPurple("Epic Weapon"));
+
 
 <mod_lavacow:war>.displayName = "§5Nether Cannon";
 <mod_lavacow:war>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -175,9 +174,8 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <simpleores:mythril_boots>.displayName = "§5Mythril Boots";
 <simpleores:mythril_boots>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_ingot>.displayName = "§5Mythril Ingot";
-<simpleores:mythril_ingot>.addTooltip(format.darkPurple("Epic Item"));
-<simpleores:mythril_block>.displayName = "§5Block of Mythril";
-<simpleores:mythril_block>.addTooltip(format.darkPurple("Epic Block"));
+<simpleores:mythril_ingot>.addTooltip(format.darkPurple("Epic Material"));
+
 
 
 <iceandfire:dragonbone_sword>.displayName = "§5Dragon Bone Sword";
@@ -192,8 +190,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <iceandfire:myrmex_desert_staff>.addTooltip(format.darkPurple("Epic Weapon"));
 <iceandfire:myrmex_jungle_staff>.displayName = "§5Jungle Myrmex Staff";
 <iceandfire:myrmex_jungle_staff>.addTooltip(format.darkPurple("Epic Weapon"));
-<dungeontactics:lantern_magic>.displayName = "§5Magic Lantern";
-<dungeontactics:lantern_magic>.addTooltip(format.darkPurple("Epic Item"));
+
 
 
 
@@ -229,10 +226,11 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <simpleores:onyx_boots>.displayName = "§6Onyx Boots";
 <simpleores:onyx_boots>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_gem>.displayName = "§6Onyx";
-<simpleores:onyx_gem>.addTooltip(format.gold("Legendary Item"));
-<simpleores:onyx_block>.displayName = "§6Block of Onyx";
-<simpleores:onyx_block>.addTooltip(format.gold("Legendary Block"));
+<simpleores:onyx_gem>.addTooltip(format.gold("Legendary Material"));
 
+
+<dungeontactics:lantern_magic>.displayName = "§6Magic Lantern";
+<dungeontactics:lantern_magic>.addTooltip(format.gold("Legendary"));
 
 <aether_legacy:notch_hammer>.displayName = "§6Hammer of Miku";
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
