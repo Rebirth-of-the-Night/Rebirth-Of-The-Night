@@ -1,7 +1,7 @@
 {
     "parent":"item/handheld",
     "textures": {
-        "layer0":""atop:items/amethyst_sword""
+        "layer0":"atop:items/sapphire_sword"
     },
     "display": {
         "thirdperson_righthand": {

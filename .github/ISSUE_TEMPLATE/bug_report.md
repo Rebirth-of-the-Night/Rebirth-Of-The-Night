@@ -1,11 +1,12 @@
 ---
-name: Bug report
+name: Bug Report
 about: Create a report to help us improve
 title: "[BUG]"
 labels: ''
 assignees: ''
 
 ---
+ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
 
 **Describe the bug**
 A clear and concise description of what the bug is.

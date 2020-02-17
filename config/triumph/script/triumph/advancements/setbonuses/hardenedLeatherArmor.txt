@@ -1,0 +1,25 @@
+setIcon("harvestcraft:hardenedleatherchestitem")
+setTitle("The Apex Hunter")
+setDescription("Complete The Apex Hunter set.")
+
+addParent("triumph:advancements/setbonuses/tannedLeatherArmor")
+
+addRewardFunction("triumph:fullEarlyArmor")
+
+criteria = addCriteria("Hardened Leather Helmet", "minecraft:inventory_changed")
+criteria.addItem("harvestcraft:hardenedleatherhelmitem")
+
+criteria = addCriteria("Hardened Leather Chesplate", "minecraft:inventory_changed")
+criteria.addItem("harvestcraft:hardenedleatherchestitem")
+
+criteria = addCriteria("Hardened Leather Leggings", "minecraft:inventory_changed")
+criteria.addItem("harvestcraft:hardenedleatherleggingsitem")
+
+criteria = addCriteria("Hardened Leather Boots", "minecraft:inventory_changed")
+criteria.addItem("harvestcraft:hardenedleatherbootsitem")
+
+criteria = addCriteria("Diamond Axe", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_axe")
+
+alwaysVisible()
+setPos(-323,-56)

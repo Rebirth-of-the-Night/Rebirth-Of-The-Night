@@ -11,6 +11,10 @@ mods.MobStages.addStage("killedWither", "minecraft:blaze", -1);
 mods.MobStages.toggleSpawner("minecraft:blaze", true, -1);
 
 
+// doesnt work?
+mods.MobStages.addStage("minedMythril", "mod_lavacow:zombiepiranha", 0);
+
+
 mods.MobStages.addStage("impossibleStage", "minecraft:wolf", -1);
 mods.MobStages.addStage("impossibleStage", "betterwithmods:longboi", -1);
 mods.MobStages.addStage("impossibleStage", "endreborn:angry_enderman", 1);

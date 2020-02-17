@@ -1,7 +1,7 @@
 import crafttweaker.item.IIngredient;
 
 
-
+//Removed content
 mods.jei.JEI.removeAndHide(<toroquest:obsidian_sword>);
 mods.jei.JEI.removeAndHide(<toroquest:fire_sword>);
 mods.jei.JEI.removeAndHide(<toroquest:sword_of_pain>);

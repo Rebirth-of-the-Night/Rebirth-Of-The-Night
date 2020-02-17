@@ -19,6 +19,8 @@ mods.jei.JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sw
 
 mods.jei.JEI.addDescription(<dimstack:portal>,"Getting past these will take you to places...");
 
+mods.jei.JEI.addDescription(<dimstack:bedrock:0>,"Getting past these will take you to places...");
+
 mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for more advanced weapons.");
 
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");

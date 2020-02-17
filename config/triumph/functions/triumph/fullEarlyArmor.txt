@@ -1,3 +1,4 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @a fullEarlyArmor
+tellraw @p ["",{"text":"You feel uneasy as you grow in power...","color":"dark_red"}]

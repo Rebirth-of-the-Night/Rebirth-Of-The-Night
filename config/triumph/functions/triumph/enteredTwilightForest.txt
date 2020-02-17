@@ -1,6 +1,7 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 title @a times 40 120 60
-title @a subtitle {"text":"Your skills and gear will be tested. Good luck.", "color":"yellow"}
+title @a subtitle {"text":"You hear loud roars in the distance...", "color":"yellow"}
 title @a title {"text":"The Twilight Forest", "bold":false, "italic":false, "color":"blue"}
+playsound minecraft:entity.enderdragon.growl master CalaMariGold ~ ~ ~ 0.5 0.5
 gamestage silentadd @a enteredTwilightForest
