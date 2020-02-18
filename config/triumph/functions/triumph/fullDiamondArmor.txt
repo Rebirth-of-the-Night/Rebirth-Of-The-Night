@@ -1,5 +1,5 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-tellraw @p ["",{"text":"You tremor as you sense something stir deep Beneath the world...","color":"dark_red"}]
+tellraw @p ["",{"text":"The ground shudders as you sense something stir deep beneath the world...","color":"dark_red"}]
 gamestage silentadd @a fullDiamondArmor
 gamestage silentadd @a fullEarlyArmor
