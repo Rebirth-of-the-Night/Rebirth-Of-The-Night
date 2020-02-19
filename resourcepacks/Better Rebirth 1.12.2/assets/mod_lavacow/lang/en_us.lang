@@ -55,9 +55,8 @@ tootip.mod_lavacow.piranhalauncher=Right-click to launch an undead piranha. Uses
 tootip.mod_lavacow.cursed_bandage=Unnaturally sticky, but it'll mend minor wounds... right-click on a pet to heal it for 2 HP.
 tootip.mod_lavacow.holy_grenade=Blessed explosive. Undead within range take triple damage and are set on fire.
 
-################
-# Enchantments #
-################
-enchantment.endreborn.poisonous.desc=Inflicts target with poison.
+
+#Enchantments
+enchantment.mod_lavacow.poisonous.desc=Inflicts target with poison.
 
 
