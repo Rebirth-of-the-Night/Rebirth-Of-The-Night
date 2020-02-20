@@ -14,7 +14,7 @@ GraniteAnvil.addRecipe("break mud brick",<biomesoplenty:mud_brick>*4, <biomesopl
 //GraniteAnvil.addRecipe("white stone recycling",<betterwithmods:material:39>, <betterwithaddons:whitebrick:2>,4,"hammer");
 GraniteAnvil.addRecipe("prismarine to prismshard",<minecraft:prismarine_shard>*3, <minecraft:prismarine>, 12,"pickaxe");
 GraniteAnvil.addRecipe("prism brick to prismshard to",<minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 12,"pickaxe");
-GraniteAnvil.addRecipe("dwarven measures",<minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven measures"}),<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility", Quality: {}}), 1,"hammer");
+GraniteAnvil.addRecipe("dwarven measures",<minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}),<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility", Quality: {}}), 1,"hammer");
 GraniteAnvil.addRecipe("flintblock to flint",<minecraft:flint>*4,<betterwithmods:aesthetic:5>, 8,"hammer");
 GraniteAnvil.addRecipe("ambrosium to magic dust", <dungeontactics:magic_powder>*3, <aether_legacy:ambrosium_block>, 12,"hammer");
 GraniteAnvil.addRecipe("raw endorium", <endreborn:item_raw_endorium>, <ore:enderpearl>, 12, "hammer");
