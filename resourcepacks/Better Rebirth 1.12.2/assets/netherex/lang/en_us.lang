@@ -30,13 +30,13 @@ entity.netherex:pigtificate_enchanter.name=Pigman Enchanter
 entity.netherex:pigtificate_brewer.name=Pigman Brewer
 entity.netherex:gold_golem.name=Ancient Gold Golem
 entity.netherex:ember.name=Living Ember
-entity.netherex:spore_creeper.name=Blighted Creeper
-entity.netherex:spore.name=Volatile Spore
-entity.netherex:spore_one.name=Volatile Spore Stage One
-entity.netherex:spore_two.name=Volatile Spore Stage Two
-entity.netherex:spore_three.name=Volatile Spore Stage Three
-entity.netherex:spore_four.name=Volatile Spore Stage Four
-entity.netherex:spore_five.name=Volatile Spore Stage Five
+entity.netherex:spore_creeper.name=Blightspore Creeper
+entity.netherex:spore.name=Volatile Blightspore
+entity.netherex:spore_one.name=Volatile Blightspore Stage One
+entity.netherex:spore_two.name=Volatile Blightspore Stage Two
+entity.netherex:spore_three.name=Volatile Blightspore Stage Three
+entity.netherex:spore_four.name=Volatile Blightspore Stage Four
+entity.netherex:spore_five.name=Volatile Blightspore Stage Five
 entity.netherex:ghastling.name=Royal Polyp
 
 # Items
