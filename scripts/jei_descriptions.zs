@@ -23,7 +23,7 @@ mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extingu
 
 mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
-mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],["You'll really bone your enemies with this sword."]);
+mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],["You'll really bone your enemies with this sword... with the help of all those teeth from slain predators. Remember: the bigger they are, the harder they fall."]);
 
 
 # Relics
