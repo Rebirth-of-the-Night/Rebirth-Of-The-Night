@@ -92,13 +92,13 @@ val viridiumOre = <ore:oreViridium>;
 viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore:4>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
 
 val viridiumIngot = <ore:ingotViridium>;
-viridiumIngot.addItem(<simpleores:adamantium_ingot>);
+viridiumIngot.add(<simpleores:adamantium_ingot>);
 
 val biotiteOre = <ore:oreBiotite>;
-biotiteOre.addItem(<quark:biotite_ore>);
+biotiteOre.add(<quark:biotite_ore>);
 
 val redstone = <ore:gemRedstone>;
-biotiteOre.addItem(<minecraft:redstone>);
+redstone.add(<minecraft:redstone>);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
