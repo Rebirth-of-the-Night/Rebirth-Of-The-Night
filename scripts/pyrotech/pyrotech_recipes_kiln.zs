@@ -36,4 +36,22 @@ StoneKiln.addRecipe("bwmcookie",<minecraft:cookie>*8, <betterwithmods:raw_pastry
 StoneKiln.addRecipe("bwmbread",<minecraft:bread>, <betterwithmods:raw_pastry:3>,200, true);
 StoneKiln.addRecipe("bwmapplepie",<betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
 StoneKiln.addRecipe("raw_salt_from_sandstone",<contenttweaker:halite>, <ore:sandstone>,2400, true);
-//ore recipes -------- need to make a loop map
+//Unified kiln recipes
+
+/*
+This useful map couldn't have been made without the contribution of the Crafttweaker Discord Server users Silicon_Ent and Zook. Many thanks.
+*/
+
+//metal
+var stringMat as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
+for mat in stringMat {
+//optional furnace ore recipes removal  ==>  furnace.remove(oreDict["ingot"~mat], oreDict["ore"~mat]);
+    StoneKiln.addRecipe("stonekiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 4800, true);
+}
+
+//gem
+var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "Rime", "EnderBiotite", "Onyx"];
+for mat1 in stringMat1 {
+//optional furnace ore recipes removal  ==>  furnace.remove(oreDict["gem"~mat1], oreDict["ore"~mat1]);
+    StoneKiln.addRecipe("stonekiln"~mat1, oreDict["gem"~mat1].firstItem, oreDict["ore"~mat1], 5000, true);
+}
