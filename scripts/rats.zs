@@ -25,6 +25,17 @@ import crafttweaker.item.IItemStack;
 <rats:vial_of_sentience>.removeTooltip("A serum that can, §lin theory§r§7, reverse the de-evolution of a Ratlantean.");
 
 //completely hidden upgrades. we can add some of these later
+//will never add these ones due to mod incompatibility or just not in spirit of the pack
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_energy>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_advanced_energy>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_elite_energy>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_extreme_energy>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_milker>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_breeder>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
+
+// maybe add these later with magic mods and/or Twilight Forest progression
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_ratlantean>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_feral_bite>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ratinator>);
@@ -33,23 +44,13 @@ mods.jei.JEI.removeAndHide(<rats:rat_upgrade_nonbeliever>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_combined>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_combined_creative>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_god>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_energy>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_advanced_energy>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_elite_energy>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_extreme_energy>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_archeologist>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_milker>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_crafting>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_buccaneer>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_aristocrat>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_bucket>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_big_bucket>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_miner>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_breeder>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_disenchanter>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_tnt_survivor>);
 
 //more removed items
 mods.jei.JEI.removeAndHide(<rats:gem_of_ratlantis>);
@@ -85,10 +86,12 @@ mods.jei.JEI.removeAndHide(<rats:garbage_pile>);
 
 // other removed recipes
 recipes.remove(<rats:rat_upgrade_voodoo>);
+recipes.remove(<rats:rat_upgrade_tnt_survivor>);
 recipes.remove(<rats:feathery_wing>);
 recipes.remove(<rats:cheese>);
 recipes.remove(<rats:rat_burger>);
 recipes.remove(<rats:potato_pancake>);
+recipes.remove(<rats:rat_upgrade_disenchanter>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.removeChefRatRecipe(<rats:potato_kinishes>);
 mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
@@ -121,7 +124,11 @@ mods.ltt.LootTable.removeGlobalItem("rats:ratlantean_flame");
 <entity:mod_lavacow:wendigo>.addPlayerOnlyDrop(<rats:plague_essence> %50, 1, 3);
 <entity:mod_lavacow:wendigo>.addPlayerOnlyDrop(<mod_lavacow:pigboarhide> %60, 1, 3);
 <entity:mod_lavacow:undeadswine>.addPlayerOnlyDrop(<rats:plague_essence> %20, 1, 2);
+<entity:mod_lavacow:undeadswine>.addPlayerOnlyDrop(<rats:plague_leech> %20, 1, 2);
+<entity:mod_lavacow:zombiepiranha>.addPlayerOnlyDrop(<rats:plague_leech> %40, 1);
 
+
+mods.jei.JEI.addDescription(<rats:plague_leech>,"A disgusting critter typically found on plagued-infested beasts. Some species are hardy enough to survive in the guts of living creatures.");
 
 // New Rat Item Recipes
 
@@ -142,6 +149,19 @@ recipes.addShaped("feathery_wing", <rats:feathery_wing>,[
     [<aether_legacy:aercloud>, <ore:feather>, <ore:feather>],
     [<ore:feather>, <ore:feather>, null]
 ]);
+
+recipes.addShaped("rats_tnt_expert", <rats:rat_upgrade_tnt_survivor>,[
+	[<rats:charged_creeper_chunk>, <betterwithmods:mining_charge>, <rats:charged_creeper_chunk>],
+    [<betterwithmods:mining_charge>, <rats:rat_upgrade_tnt>, <betterwithmods:mining_charge>],
+    [<rats:charged_creeper_chunk>, <betterwithmods:mining_charge>, <rats:charged_creeper_chunk>]
+]);
+
+recipes.addShaped("rats_disenchanter_upgrade", <rats:rat_upgrade_disenchanter>,[
+	[<bountifulbaubles:disintegrationtablet>, <disenchanter:disenchantmenttable>, <bountifulbaubles:disintegrationtablet>],
+    [<dungeontactics:mithril_ingot>, <rats:rat_upgrade_enchanter>, <dungeontactics:mithril_ingot>],
+    [<bountifulbaubles:disintegrationtablet>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:disintegrationtablet>]
+]);
+
 
 // remove archeologist rat recipes
 mods.jei.JEI.hideCategory("rats.archeologist_rat");
@@ -180,6 +200,18 @@ recipes.addShaped("rats_herb_bundle", <rats:herb_bundle> * 3, [[<ore:sweetHerb>,
 
 recipes.remove(<rats:rat_fez>);
 recipes.addShaped("rat_fez", <rats:rat_fez>, [[null, <minecraft:string>, null], [<minecraft:wool:14>, <ore:foodCheese>, <minecraft:wool:14>], [<minecraft:wool:14>, null, <minecraft:wool:14>]]);
+
+// treacle
+val MoldOredict = <ore:agedMold>;
+MoldOredict.add(<betternether:gray_mold>);
+MoldOredict.add(<betternether:red_mold>);
+
+recipes.addShaped("moldyTreacle", <rats:treacle>,[
+	[<harvestcraft:maplesyrupitem>, <ore:agedMold>],
+    [<ore:agedMold>, <minecraft:glass_bottle>]
+]);
+
+recipes.addShapeless(<rats:treacle>, [<harvestcraft:maplesyrupitem>, <minecraft:experience_bottle>]);
 
 /// Brewing
 brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "minecraft:thick"}), <minecraft:skull:4>, <minecraft:splash_potion>.withTag({Potion: "potioncore:explode"}));

@@ -6,6 +6,11 @@ mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantment
 mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
 mods.ltt.LootTable.removeGlobalItem("mod_lavacow:poisonspore");
 
+
+<mod_lavacow:glowshroom>.displayName = "Teal Glowshroom";
+<quark:glowshroom>.displayName = "Blue Glowshroom";
+<biomesoplenty:mushroom:3>.displayName = "Green Glowshroom";
+
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_chestplate>);
@@ -57,6 +62,9 @@ recipes.remove(<mod_lavacow:swinearmor_leggings>);
 recipes.remove(<mod_lavacow:swinearmor_boots>);
 
 //Fish's Undead Rising Mob Loot
+<entity:mod_lavacow:zombiefrozen>.addPlayerOnlyDrop(<minecraft:packed_ice> %60, 1, 2);
+<entity:mod_lavacow:zombiemushroom>.addPlayerOnlyDrop(<rustic:deathstalk_mushroom> %30, 1, 2);
+<entity:mod_lavacow:zombiemushroom>.addPlayerOnlyDrop(<rustic:mooncap_mushroom> %50, 1, 2);
 
 // new oredict
 val salahideOredict = <ore:salamanderhide>;
@@ -92,9 +100,9 @@ recipes.addShaped("bonedagger", <mod_lavacow:tooth_dagger>,[
 
 mods.betterwithmods.Anvil.addShaped(<mod_lavacow:bonesword>, 
 [
-   [null, null, <ore:monsterTooth>, <spartanweaponry:material:0>],
-   [null, <ore:monsterTooth>, <ore:stickWood>, <ore:monsterTooth>],
-   [<ore:monsterTooth>, <ore:stickWood>, <ore:monsterTooth>, null],
+   [null, null, <ore:monsterTooth>, <spartanfire:witherbone_handle>],
+   [null, <ore:monsterTooth>, <minecraft:bone>, <ore:monsterTooth>],
+   [<ore:monsterTooth>, <minecraft:bone>, <ore:monsterTooth>, null],
    [<ore:monsterTooth>, <ore:monsterTooth>, null, null]
 ]);
 
@@ -145,8 +153,8 @@ recipes.addShaped("plagueboots", <mod_lavacow:swinearmor_boots>,[
 ]);
 
 /// Brewing
-brewing.removeRecipe(<mod_lavacow:fissionpotion>, <mod_lavacow:hyphae>);
-brewing.removeRecipe(<mod_lavacow:potion_of_mooten_lava>, <mod_lavacow:mootenheart>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <mod_lavacow:hyphae>);
+brewing.removeRecipe(<mod_lavacow:fissionpotion>, <mod_lavacow:mootenheart>);
 
 //chef rat recipes
 mods.rats.recipes.addChefRatRecipe(<mod_lavacow:parasite_item>, <mod_lavacow:sausage_roll>);

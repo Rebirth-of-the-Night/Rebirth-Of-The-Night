@@ -10,7 +10,7 @@ mods.jei.JEI.addDescription([<quark:tallow>],["Used for making candles and for r
 
 mods.jei.JEI.addDescription([<minecraft:cactus>],["Can be used to fill a bottle with water. Drink it in a very hot and dry biome to recieve a small buff."]);
 
-mods.jei.JEI.addDescription([<minecraft:compass>],["Right click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints."]);
+mods.jei.JEI.addDescription([<minecraft:compass>],["Crouch and right click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints."]);
 
 mods.jei.JEI.addDescription([<minecraft:enchanting_table>],["Can be upgraded with an Enchantment Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!"]);
 
@@ -23,7 +23,7 @@ mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extingu
 
 mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
-mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],["You'll really bone your enemies with this sword... with the help of all those teeth from slain predators. Remember: the bigger they are, the harder they fall."]);
+mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your enemies with this sword, thanks to all those teeth from slain predators. Remember: the bigger they are, the harder they fall.");
 
 
 # Relics

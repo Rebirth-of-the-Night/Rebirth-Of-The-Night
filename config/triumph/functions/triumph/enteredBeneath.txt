@@ -1,6 +1,6 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-title @a times 40 120 60
-title @a subtitle {"text":"Shadows squirm and writhe around you...", "color":"gray"}
-title @a title {"text":"The Beneath", "bold":false, "italic":false, "color":"gray"}
+title @p times 40 120 60
+title @p subtitle {"text":"Shadows squirm and writhe around you...", "color":"gray"}
+title @p title {"text":"The Beneath", "bold":false, "italic":false, "color":"gray"}
 gamestage silentadd @a enteredBeneath

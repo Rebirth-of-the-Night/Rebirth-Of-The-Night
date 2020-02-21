@@ -15,6 +15,7 @@ recipes.remove(<harvestcraft:spidereyepieitem>);
 recipes.remove(<harvestcraft:slimepieitem>);
 recipes.remove(<harvestcraft:mobsoupitem>);
 recipes.remove(<harvestcraft:presser>);
+recipes.remove(<harvestcraft:saltitem>);
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
