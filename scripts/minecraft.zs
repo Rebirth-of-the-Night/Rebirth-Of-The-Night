@@ -18,6 +18,8 @@ recipes.remove(<minecraft:chainmail_chestplate>);
 recipes.remove(<minecraft:chainmail_leggings>);
 recipes.remove(<minecraft:chainmail_boots>);
 
+mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
+
 var chainlink = <iceandfire:chain_link>;
 
 
