@@ -38,3 +38,7 @@ mods.jei.JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this
 mods.jei.JEI.addDescription(<betterwithmods:bark:*>,"Most useful for tanning leather. Guranteed to be obtained as a byproduct of crafting and axe and a log together to get planks.");
 
 mods.jei.JEI.addDescription(<betterwithmods:material:5>,"Gross? no, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Trigger fermentative process to make tanned leather.");
+
+mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "Considered by many as just a very hard, somewhat hypnotising rock. It is the source of end essence.");
+
+mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "When their civilization collapsed, ensuing chaos imbued parts of the world with living enthropy");
