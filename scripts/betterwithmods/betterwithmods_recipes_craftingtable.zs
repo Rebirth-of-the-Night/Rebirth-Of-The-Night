@@ -18,7 +18,7 @@ recipes.addShaped("Latch", latch,
   //Dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
 
-recipes.addShapeless("betterwithmods dynamite", <betterwithmods:dynamite>, 
+recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>, 
 [<ore:paper>, <ore:paper>, <ore:paper>, 
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
 
