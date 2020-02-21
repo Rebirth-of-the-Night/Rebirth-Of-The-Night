@@ -85,6 +85,21 @@ vine.addItems([<biomesoplenty:willow_vine>,<biomesoplenty:ivy>]);
 val fang = <ore:fang>;
 fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_serpent_fang>,<netherex:coolmar_spider_fang>]);
 
+val coal = <ore:gemCoal>;
+coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
+
+val viridiumOre = <ore:oreViridium>;
+viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore:4>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
+
+val viridiumIngot = <ore:ingotViridium>;
+viridiumIngot.add(<simpleores:adamantium_ingot>);
+
+val biotiteOre = <ore:oreBiotite>;
+biotiteOre.add(<quark:biotite_ore>);
+
+val redstone = <ore:gemRedstone>;
+redstone.add(<minecraft:redstone>);
+
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
 
@@ -96,7 +111,6 @@ scaleLeggings.addItems([<iceandfire:armor_red_leggings>,<iceandfire:armor_green_
 
 val scaleBoots = <ore:scaleBoots>;
 scaleBoots.addItems([<iceandfire:armor_red_boots>,<iceandfire:armor_green_boots>,<iceandfire:armor_bronze_boots>,<iceandfire:armor_gray_boots>]);
-
 
 val scaleLightChestplate = <ore:scaleLightChestplate>;
 scaleLightChestplate.addItems([<iceandfire:armor_blue_chestplate>,<iceandfire:armor_white_chestplate>,<iceandfire:armor_sapphire_chestplate>,<iceandfire:armor_silver_chestplate>]);

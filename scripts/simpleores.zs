@@ -165,46 +165,46 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_hoe>, [
 //info
 
 # Copper
-mods.jei.JEI.addDescription(<simpleores:copper_ingot>,"A rudimentary but serviceable metal. At its best when using it to make redstone components and Bronze.");
+mods.jei.JEI.addDescription(<simpleores:copper_ingot>,"A rudimentary but serviceable metal. Best used to make redstone components and bronze.");
 
 # Tin
-mods.jei.JEI.addDescription(<simpleores:tin_ingot>,"Good for building structures and creting components. At its best when using it to make Bronze");
+mods.jei.JEI.addDescription(<simpleores:tin_ingot>,"Good for building structures and creating components. Best used to make bronze and a few simple utility items.");
 
 # Viridium
-mods.jei.JEI.addDescription(<simpleores:adamantium_ingot>,"Viridium is found in The Beneath. It's not the most durable, but it's light, fast and stronger than diamond.");
+mods.jei.JEI.addDescription(<simpleores:adamantium_ingot>,"Viridium is found deep underground in the Beneath. It's not the most durable, but it's light, fast, and stronger than diamond.");
 mods.jei.JEI.addDescription(<simpleores:adamantium_helmet>,"Lightweight and highly protective. Let the conquest begin!");
 mods.jei.JEI.addDescription(<simpleores:adamantium_chestplate>,"Lightweight and highly protective.");
 mods.jei.JEI.addDescription(<simpleores:adamantium_leggings>,"Lightweight and highly protective.");
 mods.jei.JEI.addDescription(<simpleores:adamantium_boots>,"For long runs.");
-mods.jei.JEI.addDescription(<simpleores:adamantium_sword>,"So light you could probably wear full armor and carry two of these around with ease.");
-mods.jei.JEI.addDescription(<simpleores:adamantium_pickaxe>,"Fragile, but very effective.");
+mods.jei.JEI.addDescription(<simpleores:adamantium_sword>,"So light, you could probably wear full armor and carry two of these around with ease.");
+mods.jei.JEI.addDescription(<simpleores:adamantium_pickaxe>,"Fragile, yet very effective.");
 mods.jei.JEI.addDescription(<simpleores:adamantium_axe>,"Small tree killer.");
-mods.jei.JEI.addDescription(<simpleores:adamantium_shovel>,"No dirt block will resist to you.");
+mods.jei.JEI.addDescription(<simpleores:adamantium_shovel>,"No dirt block will resist you now.");
 mods.jei.JEI.addDescription(<simpleores:adamantium_hoe>,"Is this thing just for farming?");
-mods.jei.JEI.addDescription(<simpleores:adamantium_shears>,"One of a kind, these shears are so sharp and nimble you can actually cut the explosive spores off of a creeper");
+mods.jei.JEI.addDescription(<simpleores:adamantium_shears>,"One of a kind. These shears are so sharp and nimble, you could actually cut the explosive glands off of a common creeper.");
 
 # Mythril
-mods.jei.JEI.addDescription(<simpleores:mythril_ingot>,"Mythril is found in The Beneath. It's very powerful and has some peculiar magical properties that sets it apart from diamond.");
+mods.jei.JEI.addDescription(<simpleores:mythril_ingot>,"Mythril is found deep underground in the Beneath. It's a very powerful metal and has peculiar magical properties that set it apart from diamond.");
 mods.jei.JEI.addDescription(<simpleores:mythril_helmet>,"Comfortable, practical and will keep you alive.");
 mods.jei.JEI.addDescription(<simpleores:mythril_chestplate>,"Comfortable, practical and will keep you alive.");
 mods.jei.JEI.addDescription(<simpleores:mythril_leggings>,"Comfortable, practical and will keep you alive.");
 mods.jei.JEI.addDescription(<simpleores:mythril_boots>,"Comfortable, practical and will keep you alive.");
 mods.jei.JEI.addDescription(<simpleores:mythril_sword>,"An elegant weapon... for a more civilized age. This is the most powerful sword the earth can provide.");
-mods.jei.JEI.addDescription(<simpleores:mythril_bow>,"Powerful, nimble and deadly.");
-mods.jei.JEI.addDescription(<simpleores:mythril_pickaxe>,"Seems brittle, but turns out it's not at all, only mythril can stand up to certain veins of ore...");
-mods.jei.JEI.addDescription(<simpleores:mythril_axe>,"The heads of your enemies will roll! (providing you hate trees of course) ");
-mods.jei.JEI.addDescription(<simpleores:mythril_shovel>,"An elegant design for a less than glamorous task.");
-mods.jei.JEI.addDescription(<simpleores:mythril_hoe>,"This thing definetely will reap all that pesky crops.");
+mods.jei.JEI.addDescription(<simpleores:mythril_bow>,"Powerful, nimble, and deadly.");
+mods.jei.JEI.addDescription(<simpleores:mythril_pickaxe>,"Only mythril is powerful enough to shatter certain types of ore...");
+mods.jei.JEI.addDescription(<simpleores:mythril_axe>,"The heads of your enemies will fall before you... or maybe just a lot of tree trunks.");
+mods.jei.JEI.addDescription(<simpleores:mythril_shovel>,"An elegant design for a less-than-glamorous task.");
+mods.jei.JEI.addDescription(<simpleores:mythril_hoe>,"Capable of reaping all those pesky crops.");
 
 # Onyx
-mods.jei.JEI.addDescription(<simpleores:onyx_gem>,"Onyx is found in The Nether. Contrary to its crystalline appearance, it is extremely tough, and the hardest material in existence. Mythril is known to neutralize it enough to make it harvestable");
-mods.jei.JEI.addDescription(<simpleores:onyx_helmet>,"Heavy duty protection, armor can't get much better than this.");
-mods.jei.JEI.addDescription(<simpleores:onyx_chestplate>,"Heavy duty protection, armor can't get much better than this.");
-mods.jei.JEI.addDescription(<simpleores:onyx_leggings>,"Heavy duty protection, armor can't get much better than this.");
-mods.jei.JEI.addDescription(<simpleores:onyx_boots>,"Heavy duty protection, armor can't get much better than this.");
-mods.jei.JEI.addDescription(<simpleores:onyx_sword>,"The sheer magnitude of this thing is enough to give any monster a hard time, specially in tandem with the onyx bow.");
-mods.jei.JEI.addDescription(<simpleores:onyx_bow>,"The tension built by this bow paired with it's twin sword is enough to make it a true beast slayer");
-mods.jei.JEI.addDescription(<simpleores:onyx_pickaxe>,"Ergonomic to a fault, this is a true miner's best friend.");
+mods.jei.JEI.addDescription(<simpleores:onyx_gem>,"Onyx is found in the Nether. Despite its crystalline appearance, it is extremely tough, and is the hardest known material. Mythril is strong enough to break it out of veins.");
+mods.jei.JEI.addDescription(<simpleores:onyx_helmet>,"Heavy-duty protection. Armor doesn't get much better than this.");
+mods.jei.JEI.addDescription(<simpleores:onyx_chestplate>,"Heavy-duty protection. Armor doesn't get much better than this.");
+mods.jei.JEI.addDescription(<simpleores:onyx_leggings>,"Heavy-duty protection. Armor doesn't get much better than this.");
+mods.jei.JEI.addDescription(<simpleores:onyx_boots>,"Heavy-duty protection. Armor doesn't get much better than this.");
+mods.jei.JEI.addDescription(<simpleores:onyx_sword>,"The sheer magnitude of this thing is enough to give any monster a hard time, especially in tandem with the onyx bow.");
+mods.jei.JEI.addDescription(<simpleores:onyx_bow>,"The tension built by this bow paired with its twin sword is enough to make it a true beast slayer.");
+mods.jei.JEI.addDescription(<simpleores:onyx_pickaxe>,"Ergonomic to a fault. This is a true miner's best friend.");
 mods.jei.JEI.addDescription(<simpleores:onyx_axe>,"Chop through wood like butter!");
-mods.jei.JEI.addDescription(<simpleores:onyx_shovel>,"Huge blade for Huge pebbles.");
-mods.jei.JEI.addDescription(<simpleores:onyx_hoe>,"This will not burn my fields, right?");
+mods.jei.JEI.addDescription(<simpleores:onyx_shovel>,"Huge blade for huge pebbles.");
+mods.jei.JEI.addDescription(<simpleores:onyx_hoe>,"This won't burn the fields, right?");
