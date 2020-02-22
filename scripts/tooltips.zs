@@ -85,6 +85,10 @@
 #Misc.
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
+<mowziesmobs:wrought_axe>.clearTooltip();
+<mowziesmobs:wrought_axe>.addTooltip("Only damaged by dying");
+<mowziesmobs:wrought_axe>.addShiftTooltip("Right-Click to swing ", "Hold shift for more info.");
+<mowziesmobs:wrought_axe>.addShiftTooltip("Shift + Right-Click to smash the ground");
 
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table>.addTooltip("Requires placing an Enchantment Table Upgrade on a regular Enchantment Table.");
