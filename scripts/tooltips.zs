@@ -82,12 +82,6 @@
 <msmlegacy:dawn_star>.addTooltip("Darkness consumes the unworthy.");
 <msmlegacy:glacial_blade>.addTooltip("The power of an entire species in one sword.");
 
-#Potion Rings
-<extraalchemy:potion_ring>.addTooltip("Level 1 potion rings each require 3 exp every 30 seconds. Leven 2 potion 2 rings each require 6 exp every 30 seconds.");
-
-#Arcane Scrolls
-<betterwithmods:arcane_scroll>.addTooltip("Use in Infernal Enchanter.");
-
 #Misc.
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
@@ -104,3 +98,7 @@
 <iceandfire:dragonbone_bow>.addTooltip("Only shoots Dragonbone Arrows.");
 <dungeontactics:lantern_magic>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
+
+<betterwithmods:arcane_scroll>.addTooltip("Use in Infernal Enchanter.");
+<extraalchemy:potion_ring>.addTooltip("Level 1 potion rings each require 3 exp every 30 seconds. Leven 2 potion 2 rings each require 6 exp every 30 seconds.");
+<dungeontactics:magic_pouch>.addTooltip("Right click to open");
