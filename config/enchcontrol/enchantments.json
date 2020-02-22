@@ -3180,12 +3180,16 @@
       "OFFHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+    	"minecraft:sharpness",
+	"minecraft:bane_of_arthropods",
+	"minecraft:smite"
+    ],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
     "description": [
-		"Drains the life of the target"
+		"Drains the life of the target."
 	]
   },
   {
