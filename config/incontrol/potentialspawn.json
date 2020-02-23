@@ -12,6 +12,19 @@
     ]
   },
   
+   // Direwolves
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "betteranimalsplus:feralwolf",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      }
+    ]
+  },
+  
   // Gold Golems
   {
     "dimension": -1,
@@ -1083,6 +1096,20 @@
       {
         "mob": "mowziesmobs:naga",
         "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+ 
+// skydrake
+ {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "netherex:frost",
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

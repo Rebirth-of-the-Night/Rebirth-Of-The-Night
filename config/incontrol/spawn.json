@@ -15,10 +15,20 @@
  // Beneath: ~200 limit with all stages
  // This includes all mobs, but not minecraft:item
 
-
+// boss buff time!
+{
+    "mob": "betteranimalsplus:hirschgeist",
+    "onjoin": true,
+    "potion": "minecraft:fire_resistance,10000000,",
+	"potion": "wards:effect_projectile_protection,1000000,7",
+	"potion": "potioncore:solid_core,1000000,2",
+	"potion": "minecraft:regeneration,1000000,2",
+	"potion": "potioncore:purity,1000000,1"
+  },
+  
 {
     "mob": "aether_legacy:valkyrie_queen",
-    "dimension": 4,
+	"dimension": 4,
     "onjoin": true,
     "potion": "potioncore:reach,1000000,2",
 	"potion": "potioncore:magic_shield,1000000,2",
@@ -118,9 +128,45 @@
  },
 
 
- // Remove vanilla horses from spawning
+ // Remove vanilla animals from spawning
  {
     "mob": "minecraft:horse",
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+  {
+    "mob": "minecraft:pig",
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+  {
+    "mob": "minecraft:sheep",
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+  {
+    "mob": "minecraft:cow",
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+  {
+    "mob": "minecraft:chicken",
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+  {
+    "mob": "minecraft:mooshroom",
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+  {
+    "mob": "minecraft:rabbit",
     "onjoin": true,
     "result": "deny"
  },
@@ -1973,6 +2019,29 @@
     "mob": "mowziesmobs:naga",
     "result": "deny"
  },
+ 
+ // Direwolves
+ {
+    "dimension": 0,
+    "mob": "betteranimalsplus:feralwolf",
+	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Taiga M", "Ice Plains Spikes", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Ominous Woods", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "AlpsFoothills"],
+    "gamestage": "fullDiamondArmor",
+	"maxlight": 7,
+    "minlight": 0,
+	"random": 0.2,
+	"seesky": true,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "betteranimalsplus:feralwolf",
+    "result": "deny"
+ },
+
   // Fish's Undead Rising
  {
     "dimension": [0,10],
@@ -2154,6 +2223,26 @@
  {
     "dimension": 4,
     "mob": "netherex:coolmar_spider",
+    "result": "deny"
+ },
+
+{
+    "dimension": 4,
+    "mob": "netherex:frost",
+    "gamestage": "minedMythril",
+	"random": 0.30,
+	"maxlight": 7,
+    "minlight": 0,
+	"seesky": true,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "netherex:frost",
     "result": "deny"
  },
 

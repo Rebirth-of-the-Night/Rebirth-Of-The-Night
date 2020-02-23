@@ -27,6 +27,8 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_keyblade");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_molten");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
+// aether
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
 
 // SpecialMobs
 
