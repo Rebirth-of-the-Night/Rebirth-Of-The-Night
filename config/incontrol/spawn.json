@@ -152,7 +152,8 @@
 //aether attempt to make fireballs explode
   {
     "mob": "aether_legacy:fire_ball",
-    "result": "allow",
+    "dimension": 4,
+    "onjoin": true,
     "potion": "extraalchemy:effect.fuse,300,1"
   },
 
@@ -285,26 +286,30 @@
     "result": "deny"
  },
 
-
-
+//spore creeper
  {
-    "dimension": -1,
-    "mob": "netherex:wight",
+    "dimension": 0,
+    "mob": "netherex:spore_creeper",
     "gamestage": "killedWither",
+	"maxlight": 7,
+    "minlight": 0,
+	"seesky": false,
+    "maxheight": 50,
     "maxcount": {
         "amount": 3,
         "perplayer": true
     },
     "result": "allow"
  },
+
  {
-    "dimension": -1,
-    "mob": "netherex:wight",
+    "dimension": [0,10],
+    "mob": "netherex:spore_creeper",
     "result": "deny"
  },
 
 {
-    "dimension": -1,
+    "dimension": [-1,10],
     "mob": "netherex:spore_creeper",
     "gamestage": "killedWither",
     "maxcount": {
@@ -325,7 +330,7 @@
     "dimension": 0,
     "mob": "netherex:salamander",
     "gamestage": "enteredNether",
-    "seesky": "false",
+    "seesky": false,
     "maxheight": 48,
     "maxcount": {
         "amount": 2,
@@ -362,7 +367,7 @@
 
  // Magma Grunt
  {
-    "dimension": 0,
+    "dimension": [0,10],
     "mob": "magma_monsters:magma_monster_grunt",
     "gamestage": "enteredNether",
 	"maxlight": 7,
@@ -376,7 +381,7 @@
  },
 
  {
-    "dimension": 0,
+    "dimension": [0,10],
     "mob": "magma_monsters:magma_monster_grunt",
     "result": "deny"
  },
@@ -425,6 +430,27 @@
  },
 
 
+// Ember
+ {
+    "dimension": [0,10],
+    "mob": "netherex:ember",
+    "gamestage": "enteredNether",
+	"maxlight": 7,
+    "minlight": 0,
+    "maxheight": 50,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+
+ {
+    "dimension": [0,10],
+    "mob": "netherex:ember",
+    "result": "deny"
+ },
+
   // Void Eyes
  {
     "dimension": [0,1,10],
@@ -444,8 +470,272 @@
     "result": "deny"
  },
 
+// Blazes
+{
+    "dimension": -1,
+    "mob": "specialmobs:cinderblaze",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:cinderblaze",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": -1,
+    "mob": "specialmobs:emberblaze",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:emberblaze",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": -1,
+    "mob": "specialmobs:hellfireblaze",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:hellfireblaze",
+    "result": "deny"
+ },
+
+{
+    "dimension": -1,
+    "mob": "specialmobs:infernoblaze",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:infernoblaze",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": -1,
+    "mob": "specialmobs:joltblaze",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:joltblaze",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": -1,
+    "mob": "specialmobs:conflagrationblaze",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:conflagrationblaze",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": -1,
+    "mob": "specialmobs:wildfireblaze",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:wildfireblaze",
+    "result": "deny"
+ },
+ 
+// magma slimes
+{
+    "dimension": -1,
+    "mob": "specialmobs:flyinglavaslime",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:flyinglavaslime",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": [-1,10],
+    "mob": "specialmobs:hardenedlavaslime",
+    "gamestage": "killedWither",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [-1,10],
+    "mob": "specialmobs:hardenedlavaslime",
+    "result": "deny"
+ },
+
+{
+    "dimension": -1,
+    "mob": "specialmobs:stickylavaslime",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:stickylavaslime",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": -1,
+    "mob": "specialmobs:volatilelavaslime",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:volatilelavaslime",
+    "result": "deny"
+ },
+
+/// ghast
+{
+    "dimension": -1,
+    "mob": "specialmobs:kingghast",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:kingghast",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": -1,
+    "mob": "specialmobs:queenghast",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": -1,
+    "mob": "specialmobs:queenghast",
+    "result": "deny"
+ },
+
+{
+    "dimension": 10,
+    "mob": "specialmobs:unholyghast",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "specialmobs:unholyghast",
+    "result": "deny"
+ },
 
 
+// return of the primitive mobs
+{
+    "dimension": [0,10],
+    "mob": "primitivemobs:festive_creeper",
+    "gamestage": "killedGhastQueen",
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0,10],
+    "mob": "primitivemobs:festive_creeper",
+    "result": "deny"
+ },
+ 
+{
+    "dimension": 0,
+    "mob": "primitivemobs:brain_slime",
+    "gamestage": "minedMythril",
+    "maxlight": 15,
+    "minlight": 14,
+    "random": 0.05,
+    "seesky": true,
+	"biometype": ["OCEAN", "BEACH"],
+	"block": ["minecraft:sand", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "biomesoplenty:white_sand", "biomesoplenty:dried_sand"],
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "primitivemobs:brain_slime",
+    "result": "deny"
+ },
 
  // Creepers
 
@@ -592,30 +882,249 @@
     "result": "deny"
  },
 
+// Witch Witch 
 
+ {
+    "dimension": 0,
+    "mob": "specialmobs:windwitch",
+    "gamestage": "fullEarlyArmor",
+	"random": 0.12,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+  {
+    "dimension": 0,
+    "mob": "specialmobs:windwitch",
+    "result": "deny"
+ },
+  {
+    "dimension": 0,
+    "mob": "specialmobs:wildswitch",
+    "gamestage": "fullDiamondArmor",
+	"random": 0.12,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+   {
+    "dimension": 0,
+    "mob": "specialmobs:wildswitch",
+    "result": "deny"
+ },
+ 
+  {
+    "dimension": [0,10],
+    "mob": "specialmobs:undeadwitch",
+    "gamestage": "enteredBeneath",
+	"random": 0.12,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+  {
+    "dimension": [0,10],
+    "mob": "specialmobs:undeadwitch",
+    "result": "deny"
+ },
+ 
+   {
+    "dimension": [0,10],
+    "mob": "specialmobs:shadowswitch",
+    "gamestage": "minedMythril",
+	"random": 0.12,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+   {
+    "dimension": [0,10],
+    "mob": "specialmobs:shadowswitch",
+    "result": "deny"
+ },
+ 
+    {
+    "dimension": [0,10],
+    "mob": "specialmobs:dominationwitch",
+    "gamestage": "killedEnderDragon",
+	"random": 0.12,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+    {
+    "dimension": [0,10],
+    "mob": "specialmobs:dominationwitch",
+    "result": "deny"
+ },
+ 
+/// silverfish
+
+ {
+    "dimension": [0,10],
+    "mob": "minecraft:silverfish",
+    "gamestage": "fullEarlyArmor",
+	"maxlight": 5,
+    "minlight": 0,
+	"random": 0.5,
+    "maxheight": 120,
+	"block": ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"],	
+	"seesky": false,
+    "maxcount": {
+        "amount": 16,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+
+    {
+    "dimension": [0,10],
+    "mob": "minecraft:silverfish",
+    "result": "deny"
+ },
+ 
+  {
+    "dimension": [0,10],
+    "mob": "specialmobs:flyingsilverfish",
+    "gamestage": "fullDiamondArmor",
+	"maxlight": 5,
+    "minlight": 0,
+	"random": 0.3,
+    "maxheight": 120,
+	"block": ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"],	
+	"seesky": false,
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+
+    {
+    "dimension": [0,10],
+    "mob": "specialmobs:flyingsilverfish",
+    "result": "deny"
+ },
+
+  {
+    "dimension": [0,10],
+    "mob": "specialmobs:blindingsilverfish",
+    "gamestage": "enteredBeneath",
+	"maxlight": 5,
+    "minlight": 0,
+	"random": 0.3,
+    "maxheight": 80,
+	"block": ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"],
+	"seesky": false,
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+
+    {
+    "dimension": [0,10],
+    "mob": "specialmobs:blindingsilverfish",
+    "result": "deny"
+ },
+ 
+  {
+    "dimension": [0,10],
+    "mob": "specialmobs:poisonsilverfish",
+    "gamestage": "enteredBeneath",
+	"maxlight": 5,
+    "minlight": 0,
+	"random": 0.3,
+    "maxheight": 80,
+	"block": ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"],
+	"seesky": false,
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+    {
+    "dimension": [0,10],
+    "mob": "specialmobs:poisonsilverfish",
+    "result": "deny"
+ },
+ 
+   {
+    "dimension": [0,10],
+    "mob": "specialmobs:toughsilverfish",
+    "gamestage": "killedEnderDragon",
+	"maxlight": 5,
+    "minlight": 0,
+	"random": 0.3,
+	"block": ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"],
+	"seesky": false,
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+    {
+    "dimension": [0,10],
+    "mob": "specialmobs:toughsilverfish",
+    "result": "deny"
+ },
+
+   {
+    "dimension": 0,
+    "mob": "specialmobs:fishingsilverfish",
+	"biometype": ["OCEAN", "RIVER"],
+    "gamestage": "killedGhastQueen",
+	"maxlight": 5,
+    "minlight": 0,
+	"random": 0.3,
+	"block": ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"],
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+    {
+    "dimension": 0,
+    "mob": "specialmobs:fishingsilverfish",
+    "result": "deny"
+ },
 
   // Zombies
 
   //////////////// DEFAULT //////////////////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["minecraft:leather_helmet", "minecraft:chainmail_helmet"]
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["minecraft:leather_chestplate", "minecraft:chainmail_chestplate"]
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["minecraft:leather_leggings", "minecraft:chainmail_leggings"]
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["minecraft:leather_boots", "minecraft:chainmail_boots"]
 },
@@ -624,27 +1133,27 @@
 /////////// MINED DIAMOND GAMESTAGE //////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": "atop:mud_helmet",
     "gamestage": "fullEarlyArmor"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": "atop:mud_chestplate",
     "gamestage": "fullEarlyArmor"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": "atop:mud_leggings",
     "gamestage": "fullEarlyArmor"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": "atop:mud_boots",
     "gamestage": "fullEarlyArmor"
@@ -654,27 +1163,27 @@
 /////////// NETHER GAMESTAGE //////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": "minecraft:golden_helmet",
     "gamestage": "enteredNether"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": "minecraft:golden_chestplate",
     "gamestage": "enteredNether"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": "minecraft:golden_leggings",
     "gamestage": "enteredNether"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": "minecraft:golden_boots",
     "gamestage": "enteredNether"
@@ -684,27 +1193,27 @@
 /////////// DIAMOND ARMOR GAMESTAGE //////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["dungeontactics:silver_helmet", "minecraft:iron_helmet"],
     "gamestage": "fullDiamondArmor"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["dungeontactics:silver_chestplate", "minecraft:iron_chestplate"],
     "gamestage": "fullDiamondArmor"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["dungeontactics:silver_leggings", "minecraft:iron_leggings"],
     "gamestage": "fullDiamondArmor"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["dungeontactics:silver_boots", "minecraft:iron_boots"],
     "gamestage": "fullDiamondArmor"
@@ -714,27 +1223,27 @@
 /////////// MYTHRIL GAMESTAGE //////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["minecraft:diamond_helmet","endreborn:armour_helmet_helmet"],
     "gamestage": "minedMythril"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["minecraft:diamond_chestplate","endreborn:armour_chestplate_obsidian"],
     "gamestage": "minedMythril"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["minecraft:diamond_leggings","endreborn:armour_leggings_obsidian"],
     "gamestage": "minedMythril"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["minecraft:diamond_boots","endreborn:armour_boots_obsidian"],
     "gamestage": "minedMythril"
@@ -744,27 +1253,27 @@
 /////////// ENDER DRAGON GAMESTAGE //////////////
 
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["simpleores:mythril_helmet", "simpleores:adamantium_helmet"],
     "gamestage": "killedEnderDragon"
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["simpleores:mythril_chestplate", "simpleores:adamantium_chestplate"],
     "gamestage": "killedEnderDragon"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["simpleores:mythril_leggings", "simpleores:adamantium_leggings"],
     "gamestage": "killedEnderDragon"
 
 },
 {
-    "mob": ["minecraft:zombie","minecraft:skeleton"],
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["simpleores:mythril_boots", "simpleores:adamantium_boots"],
     "gamestage": "killedEnderDragon"

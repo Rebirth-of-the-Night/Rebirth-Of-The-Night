@@ -28,7 +28,7 @@
 
   // Magma Monster Grunt Overworld
   {
-    "dimension": 0,
+    "dimension": [0,10],
     "mobs": [
       {
         "mob": "magma_monsters:magma_monster_grunt",
@@ -61,6 +61,19 @@
         "weight": 50,
         "groupcountmin": 1,
         "groupcountmax": 1
+      }
+    ]
+  },
+
+  //Ember
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "netherex:ember",
+        "weight": 0.3,
+        "groupcountmin": 1,
+        "groupcountmax": 5
       }
     ]
   },
@@ -176,29 +189,228 @@
     ]
   },
 
-
+// spore creepers
+//nether and beneath
   {
-    "dimension": -1,
-    "mobs": [
-      {
-        "mob": "netherex:wight",
-        "weight": 3
-      }
-    ]
-  },
-  {
-    "dimension": -1,
+    "dimension": [-1,10],
     "mobs": [
       {
         "mob": "netherex:spore_creeper",
-        "weight": 3
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       }
     ]
   },
 
+//overworld spore creeper
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "netherex:spore_creeper",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
 
+  // Blazes
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:cinderblaze",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
 
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:emberblaze",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
 
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:hellfireblaze",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:infernoblaze",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:joltblaze",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:conflagrationblaze",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:wildfireblaze",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+// magma slimes
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:flyinglavaslime",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+   {
+    "dimension": [-1,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:hardenedlavaslime",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:stickylavaslime",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:volatilelavaslime",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+// ghast
+   {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:kingghast",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+    {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:queenghast",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+     {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "specialmobs:unholyghast",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+// return of primitive mobs
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "primitivemobs:festive_creeper",
+        "weight": 0.05,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+   {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "primitivemobs:brain_slime",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
 
 
   // Creepers
@@ -382,7 +594,7 @@
 
 
 
-      // Skeletons
+ // Skeletons
   {
     "dimension": [0,10],
     "mobs": [
@@ -479,7 +691,7 @@
     ]
   },
 
-   // Spiders
+// Spiders
   {
     "dimension": [0,10],
     "mobs": [
@@ -521,7 +733,7 @@
     "mobs": [
       {
         "mob": "specialmobs:witchspider",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -588,7 +800,7 @@
     ]
   },
 
-  // Slimes
+// Slimes
 
   {
     "dimension": 0,
@@ -729,6 +941,141 @@
     ]
   },
 
+ // Witches
+
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:windwitch",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+    {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "specialmobs:wildswitch",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
+    {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:undeadwitch",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+   {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:shadowswitch",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+    {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:dominationwitch",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+//silverfish
+    {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "minecraft:silverfish",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ]
+  },
+  
+    {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:flyingsilverfish",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:blindingsilverfish",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:poisonsilverfish",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:toughsilverfish",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
+   {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:fishingsilverfish",
+        "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
 // skydrake
  {
     "dimension": 4,
