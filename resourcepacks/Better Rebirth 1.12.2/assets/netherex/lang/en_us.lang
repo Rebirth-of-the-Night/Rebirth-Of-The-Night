@@ -41,8 +41,8 @@ entity.netherex:ghastling.name=Royal Polyp
 
 # Items
 item.netherex:spore.name=Blighted Spore
-item.netherex:ghast_meat_raw.name=Raw Ghast Cytoplasm
-item.netherex:ghast_meat_cooked.name=Cooked Ghast Cytoplasm
+item.netherex:ghast_meat_raw.name=Ghast Cytoplasm
+item.netherex:ghast_meat_cooked.name=Ghast Cytoplasm Mound
 
 # Subtitles
 subtitle.netherex:sound.pigtificate_ambient=Pigman Snort
