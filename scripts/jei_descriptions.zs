@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 mods.jei.JEI.addDescription([<quark:biotite>],["Can be found on the Ender Dragon island after killing the Ender Dragon."]);
 
@@ -27,6 +28,14 @@ mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your e
 
 mods.jei.JEI.addDescription([<rats:treacle>],"Supposedly, syrup aged for at least ten years can help ward off the plague. Unless you were preparing for the plague starting ten years ago, that won't help... unless you can find something to magically age the syrup or spark a strange fermentation reaction.");
 
+
+# Runes
+
+mods.jei.JEI.addItem(<contenttweaker:blank_rune>);
+mods.jei.JEI.addDescription([<contenttweaker:blank_rune>],["Stone imbued with magic powder. Used as a base for all runes."]);
+
+mods.jei.JEI.addItem(<contenttweaker:disint_rune>);
+mods.jei.JEI.addDescription([<contenttweaker:disint_rune>],["Craft with magical items to disintegrate them into Spectral Silt. Spectral Silt is used for creating more powerful magical items."]);
 
 # Relics
 

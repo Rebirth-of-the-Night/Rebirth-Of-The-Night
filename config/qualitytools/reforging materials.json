@@ -579,5 +579,221 @@
     "material": {
         "item": "dungeontactics:silver_ingot"
     }
+  },
+    
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketballoon"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+    
+  {
+    "tool": {
+        "item": "bountifulbaubles:shieldcobalt"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+    
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketobsidianskull"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+    
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketmagiclenses"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+      
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketapple"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+      
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketvitamins"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+      
+  {
+    "tool": {
+        "item": "bountifulbaubles:ringoverclocking"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+      
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketshulkerheart"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+      
+  {
+    "tool": {
+        "item": "bountifulbaubles:ringfreeaction"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+      
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketbezoar"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+        
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketblackdragonscale"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+        
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketankhcharm"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+          
+  {
+    "tool": {
+        "item": "bountifulbaubles:shieldankh"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+          
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketluckyhorseshoe"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+          
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsinempty"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+          
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsingluttony"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+            
+  {
+    "tool": {
+        "item": "bountifulbaubles:crowngold"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+              
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsinpride"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+                
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsinwrath"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+                
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketbrokenheart"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+                  
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletcross"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+                  
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsinpride"
+    },
+    "material": {
+        "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+                    
+  {
+    "tool": {
+        "item": "mowziesmobs:wrought_axe"
+    },
+    "material": {
+        "item": "minecraft:iron_block"
+    }
+  },
+                      
+  {
+    "tool": {
+        "item": "mowziesmobs:wrought_helmet"
+    },
+    "material": {
+        "item": "minecraft:iron_block"
+    }
   }
 ]
