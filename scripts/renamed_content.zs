@@ -81,6 +81,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Lavacow
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 
+// Runes
+<contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
+<contenttweaker:disint_rune>.addTooltip(format.darkGreen("Mundane"));
+<contenttweaker:disint_rune>.addTooltip(format.blue("adito tera"));
 
 
 
