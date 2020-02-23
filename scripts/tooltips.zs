@@ -71,6 +71,8 @@
 <dungeontactics:bag_record>.addTooltip("Contains a music disc carefully wrapped for safe transport.");
 <dungeontactics:trickortreat_bag>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on candy.");
 <dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
+<sereneseasons:greenhouse_glass>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
+<netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
 
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
@@ -87,12 +89,12 @@
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
 <mowziesmobs:wrought_axe>.clearTooltip();
 <mowziesmobs:wrought_axe>.addTooltip("Only damaged by dying");
-<mowziesmobs:wrought_axe>.addShiftTooltip("Right-Click to swing ", "Hold shift for more info.");
-<mowziesmobs:wrought_axe>.addShiftTooltip("Shift + Right-Click to smash the ground");
+<mowziesmobs:wrought_axe>.addShiftTooltip("Right-click to swing ", "Hold Shift for more info.");
+<mowziesmobs:wrought_axe>.addShiftTooltip("Shift + right-click to smash the ground");
 
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table>.addTooltip("Requires placing an Enchantment Table Upgrade on a regular Enchantment Table.");
-<eplus:table_upgrade>.addTooltip("Shift + right click on an Enchantment Table to upgrade.");
+<eplus:table_upgrade>.addTooltip("Shift + right-click on an Enchantment Table to upgrade.");
 
 <netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
@@ -105,4 +107,4 @@
 
 <betterwithmods:arcane_scroll>.addTooltip("Use in Infernal Enchanter.");
 <extraalchemy:potion_ring>.addTooltip("Level 1 potion rings each require 3 exp every 30 seconds. Leven 2 potion 2 rings each require 6 exp every 30 seconds.");
-<dungeontactics:magic_pouch>.addTooltip("Right click to open.");
+<dungeontactics:magic_pouch>.addTooltip("Right-click to open.");

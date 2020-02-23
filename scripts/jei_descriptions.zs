@@ -25,6 +25,8 @@ mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage bas
 
 mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your enemies with this sword, thanks to all those teeth from slain predators. Remember: the bigger they are, the harder they fall.");
 
+mods.jei.JEI.addDescription([<rats:treacle>],"Supposedly, syrup aged for at least ten years can help ward off the plague. Unless you were preparing for the plague starting ten years ago, that won't help... unless you can find something to magically age the syrup or spark a strange fermentation reaction.");
+
 
 # Relics
 
