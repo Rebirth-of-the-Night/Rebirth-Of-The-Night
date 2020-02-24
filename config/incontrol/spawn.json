@@ -36,6 +36,62 @@
 	"potion": "potioncore:solid_core,1000000,2"
   },
 
+{
+    "mob": "toroquest:toroquest_mage",
+    "onjoin": true,
+    "potion": "potioncore:slow_fall,1000000,2",
+    "potion": "minecraft:fire_resistance,1000000,2",
+	"potion": "mowziesmobs:poison_resist,1000000,2",
+	"potion": "wards:effect_projectile_protection,1000000,5",
+	"potion": "potioncore:magic_focus,1000000,2",
+	"potion": "minecraft:regeneration,1000000,1",
+	"potion": "potioncore:purity,1000000,1",
+	"potion": "extraalchemy:effect.dislocation,1000000,2"
+  },
+  
+ {
+    "mob": "rats:black_death",
+    "onjoin": true,
+	"potion": "mowziesmobs:poison_resist,1000000,2",
+	"potion": "minecraft:regeneration,1000000,2",
+	"potion": "potioncore:purity,1000000,1",
+	"potion": "potioncore:magic_shield,1000000,2"
+  },
+
+
+// mob special effects
+ {
+    "mob": "mod_lavacow:zombiefrozen",
+    "onjoin": true,
+	"potion": "extraalchemy:effect.pacifism,1000000,1"
+  },
+
+ {
+    "mob": "netherex:wight",
+    "onjoin": true,
+	"potion": "extraalchemy:effect.pacifism,1000000,1"
+  },
+  
+ {
+    "mob": "netherex:frost",
+    "onjoin": true,
+	"potion": "extraalchemy:effect.pacifism,1000000,1"
+  },
+  
+   {
+    "mob": "twilightforest:snow_queen",
+    "onjoin": true,
+	"potion": "extraalchemy:effect.pacifism,1000000,1"
+  },
+  
+  
+   {
+    "mob": "mowziesmobs:frostmaw",
+    "onjoin": true,
+	"potion": "extraalchemy:effect.pacifism,1000000,1",
+	"potion": "wards:effect_projectile_protection,1000000,1"
+  },
+  
 // no creeper, aww man
  {
     "mob": "minecraft:creeper",
@@ -1984,7 +2040,7 @@
     "gamestage": "minedMythril",
 	"maxlight": 7,
     "minlight": 0,
-	"random": 0.001,
+	"random": 0.005,
 	"seesky": true,
     "maxcount": {
         "amount": 1,
@@ -2020,6 +2076,25 @@
     "result": "deny"
  },
  
+// Mage Boss
+ {
+    "dimension": [0,4,7,1],
+    "mob": "toroquest:toroquest_mage",
+    "gamestage": "killedEnderDragon",
+	"random": 0.01,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": [0,4,7,1],
+    "mob": "toroquest:toroquest_mage",
+    "result": "deny"
+ }, 
+ 
+ 
  // Direwolves
  {
     "dimension": 0,
@@ -2031,7 +2106,7 @@
 	"random": 0.2,
 	"seesky": true,
     "maxcount": {
-        "amount": 1,
+        "amount": 5,
         "perplayer": true
     },
     "result": "allow"

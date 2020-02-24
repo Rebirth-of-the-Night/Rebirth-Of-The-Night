@@ -16,9 +16,20 @@ entity.toroquest.sentry.name=Grunt
 entity.sentry.name=Grunt
 entity.toroquest_sentry.name=Grunt
 
+entity.toroquest.mage.name=Voidwracked Ascendant
+entity.mage.name=Voidwracked Ascendant
+entity.toroquest_mage.name=Voidwracked Ascendant
+
+
+
+entity.toroquest.bas.name=Skeleton Overlord
+entity.bas.name=Skeleton Overlord
+entity.toroquest_bas.name=Skeleton Overlord
+
 civilization.earth.name=Terra
 civilization.wind.name=Gustaberg
 civilization.fire.name=Emberium
 civilization.moon.name=Shadits
 civilization.sun.name=Lumens
 civilization.water.name=Umbertau
+

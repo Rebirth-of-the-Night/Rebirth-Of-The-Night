@@ -25,6 +25,19 @@
     ]
   },
   
+    // Mage Boss
+  {
+    "dimension": [0,4,7,1],
+    "mobs": [
+      {
+        "mob": "toroquest:toroquest_mage",
+        "weight": 0.01,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
   // Gold Golems
   {
     "dimension": -1,
@@ -1095,7 +1108,7 @@
     "mobs": [
       {
         "mob": "mowziesmobs:naga",
-        "weight": 0.3,
+        "weight": 0.2,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1195,7 +1208,7 @@
     "mobs": [
       {
         "mob": "mod_lavacow:ptera",
-        "weight": 1,
+        "weight": 0.6,
         "groupcountmin": 2,
         "groupcountmax": 4
       }
@@ -1291,7 +1304,7 @@
     "mobs": [
       {
         "mob": "iceandfire:stymphalianbird",
-        "weight": 0.5,
+        "weight": 0.3,
         "groupcountmin": 1,
         "groupcountmax": 5
       }
