@@ -433,6 +433,8 @@
     "mob": "netherex:salamander",
     "gamestage": "enteredNether",
     "seesky": false,
+	"maxlight": 7,
+    "minlight": 0,
     "maxheight": 48,
     "maxcount": {
         "amount": 2,
