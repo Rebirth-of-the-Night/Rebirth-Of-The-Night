@@ -79,6 +79,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_shovel>, 15600
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_hoe>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_sword>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_bow>, 15600);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:greatbow>, 15600);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:dagger_onyx>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longsword_onyx>, 15600);

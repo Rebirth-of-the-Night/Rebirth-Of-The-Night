@@ -5,7 +5,7 @@ import mods.jei.JEI;
 mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
 
 //Removed crafting table
-recipes.remove(<simpleores:onyx_bow>);
+mods.jei.JEI.removeAndHide(<simpleores:onyx_bow>);
 recipes.remove(<simpleores:onyx_sword>);
 recipes.remove(<simpleores:mythril_bow>);
 recipes.remove(<simpleores:mythril_sword>);
@@ -124,14 +124,16 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_hoe>, [
 
 
 
-//Onyx
+//Onyx and Onyxbow tweaks
 mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_sword>, [
    [null, null, null, brod],
    [null, null, orod, null],
    [null, orod, null, null],
    [orod, null, null, null]
 ]);
-mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_bow>, [
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatbow>);
+<betterwithaddons:greatbow>.maxDamage = 1000;
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatbow>.withTag({ench:[{lvl: 1 as short, id: 50 as short}]}), [
    [null, null, null, orod],
    [null, diam, onyx, onyx],
    [null, onyx, mbow, null],
@@ -197,14 +199,17 @@ mods.jei.JEI.addDescription(<simpleores:mythril_shovel>,"An elegant design for a
 mods.jei.JEI.addDescription(<simpleores:mythril_hoe>,"Capable of reaping all those pesky crops.");
 
 # Onyx
-mods.jei.JEI.addDescription(<simpleores:onyx_gem>,"Onyx is found in the Nether. Despite its crystalline appearance, it is extremely tough, and is the hardest known material. Mythril is strong enough to break it out of veins.");
+mods.jei.JEI.addDescription(<simpleores:onyx_ore>,"Despite having a striking resemblance to Overworld's onyx, it's the one found only in the nether that has the properties that make it known as the hardest material in existance.");
+mods.jei.JEI.addDescription(<simpleores:onyx_gem>,"Onyx is found in the Nether. Despite its crystalline appearance, it is extremely tough, and is the hardest known material. Both Mythril and Soul Forged Steel are strong enough to break it out of veins.");
+mods.jei.JEI.addDescription(<simpleores:onyx_block>,"Known as the hardest material to have ever existed, somehow, when held on the hands of an expert craftsperson it becomes quite malleable, unbetsknown to most due to it's extreme rarity.");
 mods.jei.JEI.addDescription(<simpleores:onyx_helmet>,"Heavy-duty protection. Armor doesn't get much better than this.");
 mods.jei.JEI.addDescription(<simpleores:onyx_chestplate>,"Heavy-duty protection. Armor doesn't get much better than this.");
 mods.jei.JEI.addDescription(<simpleores:onyx_leggings>,"Heavy-duty protection. Armor doesn't get much better than this.");
 mods.jei.JEI.addDescription(<simpleores:onyx_boots>,"Heavy-duty protection. Armor doesn't get much better than this.");
 mods.jei.JEI.addDescription(<simpleores:onyx_sword>,"The sheer magnitude of this thing is enough to give any monster a hard time, especially in tandem with the onyx bow.");
-mods.jei.JEI.addDescription(<simpleores:onyx_bow>,"The tension built by this bow paired with its twin sword is enough to make it a true beast slayer.");
-mods.jei.JEI.addDescription(<simpleores:onyx_pickaxe>,"Ergonomic to a fault. This is a true miner's best friend.");
+mods.jei.JEI.addDescription(<betterwithaddons:greatbow>,"The tension built by this bow paired with its twin sword is enough to make it a true beast slayer. Only a greatarrow can withstand such pressure.");
+mods.jei.JEI.addDescription(<simpleores:onyx_pickaxe>,"Ergonomic to a fault. This is a true miner's best friend. Although not quite as adaptable as a Soul Forged Steel Tool");
+mods.jei.JEI.addDescription(<simpleores:onyx_bow>);"OwO? What's this, how did you get it?"
 mods.jei.JEI.addDescription(<simpleores:onyx_axe>,"Chop through wood like butter!");
 mods.jei.JEI.addDescription(<simpleores:onyx_shovel>,"Huge blade for huge pebbles.");
 mods.jei.JEI.addDescription(<simpleores:onyx_hoe>,"This won't burn the fields, right?");
