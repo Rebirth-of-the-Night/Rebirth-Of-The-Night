@@ -2003,7 +2003,7 @@
     "dimension": 4,
     "mob": "mowziesmobs:naga",
     "gamestage": "enteredAether",
-	"random": 0.05,
+	"random": 0.02,
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
 	"block": ["aether_legacy:quicksoil"],
@@ -2273,7 +2273,7 @@
 	"maxlight": 9,
     "minlight": 0,
     "maxcount": {
-        "amount": 9,
+        "amount": 5,
         "perplayer": true
     },
     "result": "allow"
