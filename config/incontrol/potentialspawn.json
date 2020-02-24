@@ -25,19 +25,6 @@
     ]
   },
   
-    // Mage Boss
-  {
-    "dimension": [0,4,7,1],
-    "mobs": [
-      {
-        "mob": "toroquest:toroquest_mage",
-        "weight": 0.01,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  
   // Gold Golems
   {
     "dimension": -1,
@@ -46,6 +33,20 @@
       {
         "mob": "netherex:gold_golem",
         "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+   // Zombie Pigmen in Abandoned Cities
+  {
+    "dimension": -1,
+    "block": ["betternether:bone_tile", "betternether:nether_brick_tile_large"],
+    "mobs": [
+      {
+        "mob": "minecraft:zombie_pigman",
+        "weight": 0.3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -215,32 +216,7 @@
     ]
   },
 
-// spore creepers
-//nether and beneath
-  {
-    "dimension": [-1,10],
-    "mobs": [
-      {
-        "mob": "netherex:spore_creeper",
-        "weight": 3,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      }
-    ]
-  },
 
-//overworld spore creeper
-  {
-    "dimension": 0,
-    "mobs": [
-      {
-        "mob": "netherex:spore_creeper",
-        "weight": 0.5,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
 
   // Blazes
   {

@@ -27,7 +27,7 @@
     {
     "mob": "netherex:ghast_queen",
     "player": true,
-    "item": "minecraft:fire_charge"
+    "item": "minecraft:fire_charge",
 	"itemcount": "45-59"
     },
     {
@@ -87,48 +87,6 @@
     "player": true,
     "item": "rats:ratlantean_flame",
     "itemcount": "3-5"
-    },
-
- // Toroquest Mage / Voidwarped Ascendant Drops
- 	{
-    "mob": "toroquest:toroquest_mage",
-    "player": true,
-    "item": "quark:rune:10",
-    "itemcount": "3-5"
- 	},
-	
- 	{
-    "mob": "toroquest:toroquest_mage",
-    "player": true,
-    "item": "endreborn:item_end_shard",
-    "itemcount": "1-4"
- 	},
-
- 	{
-    "mob": "toroquest:toroquest_mage",
-    "player": true,
-    "item": "endreborn:item_advanced_ender_pearl",
-    "itemcount": "3-5"
- 	},
-
-    {
-    "mob": "toroquest:toroquest_mage",
-    "player": true,
-    "item": "dungeontactics:magic_powder",
-    "itemcount": "19-31"
-    },	
-
-    {
-    "mob": "toroquest:toroquest_mage",
-    "player": true,
-    "item": "endreborn:item_end_rune"
-    },
-
-    {
-    "mob": "toroquest:toroquest_mage",
-    "player": true,
-    "item": "endreborn:item_end_essence",
-    "itemcount": "3-7"
     },
 	
  	// Ender Dragon
