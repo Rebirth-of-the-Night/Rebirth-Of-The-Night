@@ -99,7 +99,7 @@ recipes.addShaped("bronze leggings", <atop:mud_leggings>,
 recipes.addShaped("bronze boots", <atop:mud_boots>,
  [[bronze,null,bronze],
   [bronze,null,bronze]]);
-recipes.addShaped("bronze shield", <spartanshields:shield_basic_copper>, 
+recipes.addShaped("bronze shield", <spartanshields:shield_basic_bronze>, 
  [[null,bronze,null],
   [bronze,wShield,bronze],
   [null,bronze,null]]);
