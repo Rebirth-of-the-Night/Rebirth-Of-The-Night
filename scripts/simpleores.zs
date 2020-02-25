@@ -209,7 +209,7 @@ mods.jei.JEI.addDescription(<simpleores:onyx_boots>,"Heavy-duty protection. Armo
 mods.jei.JEI.addDescription(<simpleores:onyx_sword>,"The sheer magnitude of this thing is enough to give any monster a hard time, especially in tandem with the onyx bow.");
 mods.jei.JEI.addDescription(<betterwithaddons:greatbow>,"The tension built by this bow paired with its twin sword is enough to make it a true beast slayer. Only a greatarrow can withstand such pressure.");
 mods.jei.JEI.addDescription(<simpleores:onyx_pickaxe>,"Ergonomic to a fault. This is a true miner's best friend. Although not quite as adaptable as a Soul Forged Steel Tool");
-mods.jei.JEI.addDescription(<simpleores:onyx_bow>);"OwO? What's this, how did you get it?"
+mods.jei.JEI.addDescription(<simpleores:onyx_bow>);"OwO? What's this, how did you get it?");
 mods.jei.JEI.addDescription(<simpleores:onyx_axe>),"Chop through wood like butter!");
 mods.jei.JEI.addDescription(<simpleores:onyx_shovel>,"Huge blade for huge pebbles.");
 mods.jei.JEI.addDescription(<simpleores:onyx_hoe>,"This won't burn the fields, right?");
