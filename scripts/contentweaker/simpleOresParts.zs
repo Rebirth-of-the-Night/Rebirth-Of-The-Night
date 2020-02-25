@@ -14,9 +14,12 @@ val vcolor = Color.fromHex("4CEF5A") as Color;
 val viridium = MaterialSystem.getMaterialBuilder().setName("Viridium").setColor(vcolor).build();
 val mcolor = Color.fromHex("4390F5") as Color;
 val mythril = MaterialSystem.getMaterialBuilder().setName("Mythril").setColor(mcolor).build();
+val ecolor = Color.fromHex("FFFFFF") as Color;
+val electrum = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(ecolor).build();
 
 //MISC PARTS
 copper.registerParts(["nugget","molten"] as string[]);
 tin.registerParts(["nugget","molten"] as string[]);
 mythril.registerParts(["nugget","molten"] as string[]);
 viridium.registerParts(["nugget","molten"] as string[]);
+electrum.registerParts(["nugget","molten"] as string[]);
