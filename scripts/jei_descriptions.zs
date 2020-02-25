@@ -28,7 +28,11 @@ mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your e
 
 mods.jei.JEI.addDescription([<rats:treacle>],"Supposedly, syrup aged for at least ten years can help ward off the plague. Unless you were preparing for the plague starting ten years ago, that won't help... unless you can find something to magically age the syrup or spark a strange fermentation reaction.");
 
-mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Can also repair weapons and tools, although it takes some time.");
+mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Can repair weapons and tools, although it takes some time.");
+
+mods.jei.JEI.addDescription(<betterwithmods:saw>,"Requires continuous mechanical power to work. A windmill or waterwheel would suffice.");
+
+mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
 
 
 # Runes
