@@ -14,7 +14,7 @@ val sivgoldPebbles = mods.contenttweaker.VanillaFactory.createItem("silver_gold_
 sivgoldPebbles.register();
 
 //MISC PARTS
-electrum.registerParts(["ingot","dense_plate"] as string[]);
+electrum.registerParts(["ingot","nugget","molten","dense_plate"] as string[]);
 
 //ORE BLOCK
 var block = electrum.registerPart("block").getData();
