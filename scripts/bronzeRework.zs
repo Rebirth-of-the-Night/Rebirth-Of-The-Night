@@ -77,7 +77,7 @@ recipes.remove(<atop:mud_hoe>);
 
 val bronze = <ore:ingotBronze>;
 val stick =  <ore:stickWood>;
-val handle = <spartanweaponry:material>;
+val handle = <spartanweaponry:material:0>;
 val block = <contenttweaker:sub_block_holder_0>; 
 val plate = <contenttweaker:bronze_plate>;
 val nugget = <contenttweaker:material_part:1>;
@@ -156,7 +156,7 @@ recipes.addShapeless("copper tin mixture", <contenttweaker:copper_tin_mixture>,
 recipes.addShapeless("copper_tin_mixture_return", <simpleores:copper_ingot>*3,
     [<contenttweaker:copper_tin_mixture>],
     function(out,ins,cInfo){
-    return out;
+      return out;
 },
 //IRecipeAction
 function(out,cInfo,player){
