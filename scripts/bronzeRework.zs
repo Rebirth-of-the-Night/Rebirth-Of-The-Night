@@ -82,6 +82,7 @@ val handle = <spartanweaponry:material>;
 val block = <contenttweaker:sub_block_holder_0>; 
 val plate = <contenttweaker:bronze_plate>;
 val nugget = <contenttweaker:material_part:1>;
+val wShield = <spartanshields:shield_basic_wood>;
 
 //ARMOR
 recipes.addShaped("bronze helmet", <atop:mud_helmet>,
@@ -98,6 +99,10 @@ recipes.addShaped("bronze leggings", <atop:mud_leggings>,
 recipes.addShaped("bronze boots", <atop:mud_boots>,
  [[bronze,null,bronze],
   [bronze,null,bronze]]);
+recipes.addShaped("bronze shield", <spartanshields:shield_basic_copper>, 
+ [[null,bronze,null],
+  [bronze,wShield,bronze],
+  [null,bronze,null]]);
   
 //TOOLS
 recipes.addShaped("bronze sword", <atop:mud_sword>,
@@ -168,6 +173,7 @@ mods.jei.JEI.addDescription(<atop:mud_chestplate>,"Much better than running arou
 mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
 mods.jei.JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
 mods.jei.JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
+mods.jei.JEI.addDescription(<spartanshields:shield_basic_copper>, "Also know as hoplon. Provides excellent cover without sacrificing offensive capacity.");
 
 //VANILLA ANVIL REPAIR
 // Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
