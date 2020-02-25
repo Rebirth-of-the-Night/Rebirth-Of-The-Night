@@ -13,7 +13,6 @@ mods.jei.JEI.removeAndHide(<simpleores:copper_helmet>);
 mods.jei.JEI.removeAndHide(<simpleores:copper_leggings>);
 mods.jei.JEI.removeAndHide(<simpleores:copper_chestplate>);
 mods.jei.JEI.removeAndHide(<simpleores:copper_boots>);
-mods.jei.JEI.removeAndHide(<spartanshields:shield_basic_copper>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_copper>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:katana_copper>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:saber_copper>);
@@ -173,7 +172,7 @@ mods.jei.JEI.addDescription(<atop:mud_chestplate>,"Much better than running arou
 mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
 mods.jei.JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
 mods.jei.JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
-mods.jei.JEI.addDescription(<spartanshields:shield_basic_copper>, "Also know as hoplon. Provides excellent cover without sacrificing offensive capacity.");
+mods.jei.JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also know as hoplon. Provides excellent cover without sacrificing offensive capacity.");
 
 //VANILLA ANVIL REPAIR
 // Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
