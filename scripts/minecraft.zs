@@ -13,7 +13,14 @@ furnace.remove(<minecraft:coal:1>);
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
 recipes.removeByRecipeName("minecraft:rabbit_stew_from_red_mushroom");
-recipes.replaceAllOccurences(<minecraft:brown_mushroom>, <ore:listAllmushroom>, <minecraft:rabbit_stew>);
+recipes.replaceAllOccurences(<minecraft:brown_mushroom>, <ore:listAllmushroom>, <*>.only(function(item) {
+    return !isNull(item) & !<minecraft:fermented_spider_eye>.matches(item);
+}));
+recipes.replaceAllOccurences(<minecraft:brown_mushroom>, <ore:listAllmushroom>, <*>.only(function(item) {
+    return !isNull(item) & !<biomesoplenty:mushroom_terrarium>.matches(item) & !<betterwithmods:stump_remover>.matches(item) & !<dungeontactics:dungeonpedia_volume_4>.matches(item);
+}));
+
+recipes.removeByRecipeName("minecraft:cake");
 
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);
