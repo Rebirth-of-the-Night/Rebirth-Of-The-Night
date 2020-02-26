@@ -12,6 +12,8 @@ furnace.remove(<minecraft:coal:1>);
 
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
+recipes.removeByRecipeName("minecraft:rabbit_stew_from_red_mushroom");
+recipes.replaceAllOccurences(<minecraft:brown_mushroom>, <ore:listAllmushroom>, <minecraft:rabbit_stew>);
 
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);

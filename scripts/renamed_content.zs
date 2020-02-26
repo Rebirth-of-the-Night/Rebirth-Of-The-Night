@@ -77,11 +77,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <eplus:advanced_table>.displayName = "§6True Enchantment Table";
 
 
-
 // Lavacow
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 
-
+// Better Nether
+<betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
 
 
 #Rare

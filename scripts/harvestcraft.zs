@@ -19,6 +19,8 @@ recipes.remove(<harvestcraft:saltitem>);
 
 
 recipes.removeByRecipeName("harvestcraft:berryvinaigrettesaladitem");
+recipes.addShapeless("harvestcraft:berryvinaigrettesaladitem", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <harvestcraft:lettuceitem>, <harvestcraft:vinegaritem>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
+
 
 // removes duplicate salt recipes
 recipes.removeByRecipeName("harvestcraft:sausageitem_itemsalt");
