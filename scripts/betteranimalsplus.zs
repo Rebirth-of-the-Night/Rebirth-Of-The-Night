@@ -1,7 +1,3 @@
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
-import mods.jei.JEI;
-
 //antler -> bonemeal
 recipes.addShapeless("antlerBonemeal", <minecraft:dye:15>*2,[<betteranimalsplus:antler>]);
 
@@ -12,7 +8,6 @@ recipes.addShaped("antlerThrowbone", <doggytalents:throw_bone>,[
 	[<betteranimalsplus:antler>, null, <betteranimalsplus:antler>]
 ]);
 
-recipes.removeByRecipeName("betteranimalsplus:milk_to_cheese2");
 
 <betteranimalsplus:hirschgeistskull>.displayName = "§6Hirschgeist Skull";
 <betteranimalsplus:hirschgeistskull>.addTooltip(format.gold("Legendary Artifact"));
