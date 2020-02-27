@@ -1,11 +1,11 @@
 setIcon("simpleores:tin_ore")
 setTitle("Not Quite Iron")
-setDescription("Obtain tin ore.")
+setDescription("Mine tin ore")
 
 addParent("triumph:advancements/ores/copper")
 
-criteria = addCriteria("Tin ore", "minecraft:inventory_changed")
-criteria.addItem(<ore:oreTin>)
+criteria = addCriteria("Tin ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreTin>)
 
 alwaysVisible()
 setPos(-218,-26)

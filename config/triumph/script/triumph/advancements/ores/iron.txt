@@ -1,11 +1,11 @@
 setIcon("minecraft:iron_ore")
 setTitle("The Most Versatile Ore")
-setDescription("Obtain iron ore.")
+setDescription("Mine iron ore")
 
 addParent("triumph:advancements/ores/bronze")
 
-criteria = addCriteria("Iron ore", "minecraft:inventory_changed")
-criteria.addItem(<ore:oreIron>)
+criteria = addCriteria("Iron ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreIron>)
 
 alwaysVisible()
 setPos(-135,4)

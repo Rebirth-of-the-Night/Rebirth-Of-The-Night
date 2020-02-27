@@ -1,12 +1,12 @@
 setIcon("minecraft:diamond")
 setTitle("Diamonds!")
-setDescription("Obtain diamond.")
+setDescription("Mine diamond ore")
 
 addParent("triumph:advancements/ores/silver")
 
 
-criteria = addCriteria("Diamond", "minecraft:inventory_changed")
-criteria.addItem("minecraft:diamond")
+criteria = addCriteria("Diamond", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreDiamond>)
 
 alwaysVisible()
 setPos(-38,4)

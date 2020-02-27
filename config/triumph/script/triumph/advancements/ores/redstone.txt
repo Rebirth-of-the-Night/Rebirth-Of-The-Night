@@ -1,11 +1,11 @@
 setIcon("minecraft:redstone")
 setTitle("Useful When Powered")
-setDescription("Obtain redstone.")
+setDescription("Mine redstone ore")
 
 addParent("triumph:advancements/ores/iron")
 
-criteria = addCriteria("Redstone", "minecraft:inventory_changed")
-criteria.addItem("minecraft:redstone")
+criteria = addCriteria("Redstone", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreRedstone>)
 
 alwaysVisible()
 setPos(-100,33)

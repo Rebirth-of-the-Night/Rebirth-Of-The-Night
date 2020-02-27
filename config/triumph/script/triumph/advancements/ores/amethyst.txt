@@ -1,11 +1,11 @@
 setIcon(<biomesoplenty:gem, ore:gemAmethyst, meta:0, count:1>)
 setTitle("Taking Back What's Yours")
-setDescription("Obtain amethyst.")
+setDescription("Mine amethyst ore")
 
 addParent("triumph:advancements/ores/copper")
 
-criteria = addCriteria("Amethyst", "minecraft:inventory_changed")
-criteria.addItem(<biomesoplenty:gem, ore:gemAmethyst, meta:0, count:1>)
+criteria = addCriteria("Amethyst", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreAmethyst>)
 
 hideLines()
 alwaysVisible()
