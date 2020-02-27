@@ -68,7 +68,7 @@ filchMain.addItemEntryHelper(<harvestcraft:cactusfruitseeditem>, 5, 0, [Function
 filchMain.addItemEntryHelper(<minecraft:bone>, 5, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_resin>, 3, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:poisonous_potato>, 3, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<dungeontactics:silver_ingot>, 3, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntryHelper(<iceandfire:silver_ingot>, 3, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:rabbit_foot>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:torch>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<totemexpansion:totem_base>, 2, 0, [Functions.setCount(1, 1)], []);
@@ -264,11 +264,11 @@ LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("haun
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanshields:shield_basic_gold>, 2, 0, "spartanshields:shield_basic_gold");
 
 //silver
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<dungeontactics:silver_sword>, 2, 0, "dungeontactics:silver_sword");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<dungeontactics:silver_pickaxe>, 2, 0, "dungeontactics:silver_pickaxe");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<dungeontactics:silver_shovel>, 2, 0, "dungeontactics:silver_shovel");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<dungeontactics:silver_axe>, 2, 0, "dungeontactics:silver_axe");
-LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<dungeontactics:silver_hoe>, 2, 0, "dungeontactics:silver_hoe");
+LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<iceandfire:silver_sword>, 2, 0, "iceandfire:silver_sword");
+LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<iceandfire:silver_pickaxe>, 2, 0, "iceandfire:silver_pickaxe");
+LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<iceandfire:silver_shovel>, 2, 0, "iceandfire:silver_shovel");
+LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<iceandfire:silver_axe>, 2, 0, "iceandfire:silver_axe");
+LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<iceandfire:silver_hoe>, 2, 0, "iceandfire:silver_hoe");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:dagger_silver>, 2, 0, "spartanweaponry:dagger_silver");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:longsword_silver>, 2, 0, "spartanweaponry:longsword_silver");
 LootTables.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:katana_silver>, 2, 0, "spartanweaponry:katana_silver");
