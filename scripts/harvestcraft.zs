@@ -20,7 +20,7 @@ recipes.remove(<harvestcraft:saltitem>);
 
 recipes.removeByRecipeName("harvestcraft:berryvinaigrettesaladitem");
 recipes.addShapeless("harvestcraft_berryvinaigrettesaladitem", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <harvestcraft:lettuceitem>, <harvestcraft:vinegaritem>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
-
+recipes.replaceAllOccurences(<harvestcraft:frograwitem>, <ore:listAllfrograw>, <harvestcraft:froglegstirfryitem>);
 
 // removes duplicate salt recipes
 recipes.removeByRecipeName("harvestcraft:sausageitem_itemsalt");
@@ -138,7 +138,7 @@ recipes.removeByRecipeName("harvestcraft:peanutbuttercookiesitem - copy (2)");
 recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_cropwhitemushroom");
 recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_red_mushroom");
 recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_brown_mushroom");
-recipes.removeByRecipeName("harvestcraft:deluxenachoesitem_foodtortillachip_foodsalsa");
+recipes.removeByRecipeName("harvestcraft:deluxenachoesitem_foodtortillachips_foodsalsa");
 
 recipes.removeByRecipeName("harvestcraft:wovencottonitem_x3");
 
@@ -164,7 +164,7 @@ mods.jei.JEI.removeAndHide(<harvestcraft:candledeco15>);
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
 
 
-//hideCategory(Grinder, Presser and Trap)
+//hideCategory(Grinder and Traps)
 mods.jei.JEI.hideCategory("jehc.ground_trap");
 mods.jei.JEI.hideCategory("jehc.water_trap");
 mods.jei.JEI.hideCategory("jehc.grinder");

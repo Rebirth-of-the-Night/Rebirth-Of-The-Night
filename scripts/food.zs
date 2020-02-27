@@ -10,6 +10,8 @@
 <harvestcraft:mobsoupitem>.foodValues.saturationModifier = 0.4;
 <betterwithmods:cooked_omelet>.foodValues.hunger = 3;
 <betterwithmods:cooked_omelet>.foodValues.saturationModifier = 0.8;
+<harvestcraft:scrambledeggitem>.foodValues.hunger = 3;
+<harvestcraft:scrambledeggitem>.foodValues.saturationModifier = 0.8;
 <rats:raw_rat>.foodValues.hunger = 1.5;
 <rats:raw_rat>.foodValues.saturationModifier = 0.2;
 <rats:cooked_rat>.foodValues.hunger = 3;
