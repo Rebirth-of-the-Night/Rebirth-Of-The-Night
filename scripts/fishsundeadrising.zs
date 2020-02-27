@@ -34,6 +34,7 @@ mods.jei.JEI.removeAndHide(<mod_lavacow:parasite_item_cooked>);
 recipes.remove(<mod_lavacow:sausage_roll>);
 recipes.remove(<mod_lavacow:canerottenmeat>);
 recipes.remove(<mod_lavacow:green_bacon_and_eggs>);
+recipes.removeByRecipeName("mod_lavacow:mushroomstew");
 
 //weapons
 mods.jei.JEI.removeAndHide(<mod_lavacow:moltenaxe>);
@@ -73,6 +74,8 @@ salahideOredict.add(<netherex:black_salamander_hide>);
 
 val oreMonsterTooth = <ore:monsterTooth>;
 oreMonsterTooth.addItems([<iceandfire:sea_serpent_fang>, <mowziesmobs:naga_fang>, <netherex:coolmar_spider_fang>, <mod_lavacow:sharptooth>]);
+
+
 
 // new food recipes
 

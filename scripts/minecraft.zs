@@ -12,6 +12,14 @@ furnace.remove(<minecraft:coal:1>);
 
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
+recipes.removeByRecipeName("minecraft:rabbit_stew_from_red_mushroom");
+recipes.replaceAllOccurences(<minecraft:brown_mushroom>, <ore:listAllmushroom>, <*>.only(function(item) {
+    return !isNull(item) & !<minecraft:fermented_spider_eye>.matches(item);
+}));
+recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <minecraftfuture:suspiciousstew>);
+recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <betternether:stalagnate_bowl_mushroom>);
+
+recipes.removeByRecipeName("minecraft:cake");
 
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);
@@ -89,6 +97,9 @@ fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_
 
 val coal = <ore:gemCoal>;
 coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
+
+val qualityGem = <ore:Gem_highQuality>;
+qualityGem.addItems([<minecraft:diamond>,<minecraft:emerald>,<simpleores:onyx_gem>,<netherex:amethyst_crystal>,<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 
 val viridiumOre = <ore:oreViridium>;
 viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore:4>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);

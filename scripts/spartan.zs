@@ -26,15 +26,12 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:dynamite>);
 
 
 recipes.remove(<spartanshields:shield_basic_lead>);
-
-
-
-var onyxrod = <simpleores:onyx_rod>;
-var mythril = <simpleores:mythril_ingot>;
-
+recipes.remove(<spartanshields:shield_basic_diamond>);
 
 
 //Mythril
+var onyxrod = <simpleores:onyx_rod>;
+var mythril = <simpleores:mythril_ingot>;
 mods.betterwithmods.Anvil.addShaped(<spartanshields:shield_basic_lead>, 
 [
    [<ore:ingotMythril>, <ore:ingotMythril>, null, null],
@@ -46,9 +43,24 @@ mods.rockytweaks.Anvil.addRecipe(<spartanshields:shield_basic_lead>.anyDamage(),
 function(out, ins, cInfo){
     return ins.left.withDamage(max(0,ins.left.damage - 50));
 });
-
-
 mods.jei.JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairCost: 0, display: {Name: "Mythril Shield"}})],["It's on the edge of the abyss that this shield truly shines."]);
+
+//Gem forged shield
+val qualityGem = <ore:Gem_highQuality>;
+val polishedPapiz = <betterwithmods:material:20>;
+recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
+[
+	[qualityGem, null, qualityGem],
+    [<minecraft:diamond>, polishedPapiz, <minecraft:diamond>],
+    [null, <minecraft:diamond>, null]
+]);
+mods.rockytweaks.Anvil.addRecipe(<spartanshields:shield_basic_diamond>.anyDamage(), qualityGem, <spartanshields:shield_basic_diamond>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 50));
+});
+
+
+
 
 
 // Spartan Compat

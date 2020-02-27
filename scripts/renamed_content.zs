@@ -8,6 +8,9 @@
 <aether_legacy:zanite_sword>.displayName = "Zanite Arming Sword";
 <aether_legacy:gravitite_sword>.displayName = "Gravitite Arming Sword";
 
+//End Reborn III
+<endreborn:tool_hammer_iron>.displayName = "Iron Sledgehammer";
+
 //Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironwood Arming Sword";
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
@@ -25,7 +28,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:iron_ladder>.displayName = "Tin Ladder";
 
 // DT
-<dungeontactics:mithril_nugget>.displayName = "Tin Nugget";
 <dungeontactics:barrel>.displayName = "Small Barrel";
 
 
@@ -77,12 +79,14 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <eplus:advanced_table>.displayName = "§6True Enchantment Table";
 
 
-
 // Lavacow
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 
+// Better Nether
+<betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
 
-
+//Pyrotech
+<pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
@@ -94,6 +98,8 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <spartancompat:spear_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:dagger_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:throwing_knife_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartanshields:shield_basic_diamond>.displayName = "§2Gem Forged Shield";
+<spartanshields:shield_basic_diamond>.addTooltip(format.darkGreen("Rare Shield"));
 
 
 
@@ -149,7 +155,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <spartancompat:boomerang_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:javelin_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartanshields:shield_basic_lead>.displayName = "§5Mythril Shield";
-<spartanshields:shield_basic_lead>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartanshields:shield_basic_lead>.addTooltip(format.darkPurple("Epic Shield"));
 
 
 <mod_lavacow:war>.displayName = "§5Nether Cannon";
@@ -208,6 +214,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <spartancompat:halberd_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:greatsword_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:warhammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:warhammer_onyx>.addTooltip("Also a sledgehammer");
 <spartancompat:pike_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:battleaxe_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:hammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
@@ -238,6 +245,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 <aether_legacy:notch_hammer>.displayName = "§6Hammer of Miku";
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
+<aether_legacy:notch_hammer>.addTooltip("Also a sledgehammer");
 <endreborn:ender_sword>.displayName = "§6Void Ripper";
 <endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
 

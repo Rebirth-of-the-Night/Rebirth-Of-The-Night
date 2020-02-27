@@ -14,6 +14,10 @@ mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:5>);
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 mods.betterwithmods.Cauldron.remove([<minecraft:mushroom_stew>]);
+mods.betterwithmods.Cauldron.remove([<minecraft:rabbit_stew>]);
+mods.betterwithmods.Cauldron.addUnstoked([<minecraft:cooked_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:hearty_stew>]);
+mods.betterwithmods.Cauldron.addUnstoked([<minecraft:chicken>|<minecraft:cooked_chicken>|<minecraft:beef>|<minecraft:cooked_beef>|<minecraft:porkchop>|<minecraft:cooked_porkchop>|<minecraft:mutton>|<minecraft:cooked_mutton>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<betterwithmods:hearty_stew>*5]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
 mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail

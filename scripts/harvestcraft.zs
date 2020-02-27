@@ -19,6 +19,8 @@ recipes.remove(<harvestcraft:saltitem>);
 
 
 recipes.removeByRecipeName("harvestcraft:berryvinaigrettesaladitem");
+recipes.addShapeless("harvestcraft_berryvinaigrettesaladitem", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <harvestcraft:lettuceitem>, <harvestcraft:vinegaritem>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
+
 
 // removes duplicate salt recipes
 recipes.removeByRecipeName("harvestcraft:sausageitem_itemsalt");
@@ -113,6 +115,30 @@ recipes.removeByRecipeName("harvestcraft:banananutbreaditem_itemsalt");
 recipes.removeByRecipeName("harvestcraft:banananutbreaditem_foodsalt");
 recipes.removeByRecipeName("harvestcraft:bakedturnipsitem_itemsalt");
 recipes.removeByRecipeName("harvestcraft:bakedturnipsitem_foodsalt");
+
+// removed duplicate honey recipes
+recipes.removeByRecipeName("harvestcraft:teriyakichickenitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:sweetandsoursauceitem_x5_drophoney");
+recipes.removeByRecipeName("harvestcraft:marzipanitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeysoyribsitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeysandwichitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeylemonlambitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeyitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeyglazedhamitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeyglazedcarrotsitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeycombchocolatebaritem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeybunitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:honeybreaditem_drophoney");
+recipes.removeByRecipeName("harvestcraft:gingerchickenitem_drophoney");
+recipes.removeByRecipeName("harvestcraft:charsuiitem_drophoney");
+
+// removed other duplicates
+recipes.removeByRecipeName("harvestcraft:pemmican_one");
+recipes.removeByRecipeName("harvestcraft:peanutbuttercookiesitem - copy (2)");
+recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_cropwhitemushroom");
+recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_red_mushroom");
+recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_brown_mushroom");
+
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
