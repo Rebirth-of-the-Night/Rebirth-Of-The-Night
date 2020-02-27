@@ -98,7 +98,6 @@ mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
 
 
 // loot - b - gone
-
 mods.ltt.LootTable.removeGlobalItem("rats:chunky_cheese_token");
 mods.ltt.LootTable.removeGlobalItem("rats:token_fragment");
 mods.ltt.LootTable.removeGlobalItem("rats:token_piece");
@@ -121,8 +120,8 @@ mods.ltt.LootTable.removeGlobalItem("rats:ratlantean_flame");
 <entity:rats:plague_beast>.addPlayerOnlyDrop(<mod_lavacow:pigboarhide> %40, 1, 2);
 
 //Fish's Undead Rising Mob Loot Additions
-<entity:mod_lavacow:wendigo>.addPlayerOnlyDrop(<rats:plague_essence> %50, 1, 3);
-<entity:mod_lavacow:wendigo>.addPlayerOnlyDrop(<mod_lavacow:pigboarhide> %60, 1, 3);
+<entity:mod_lavacow:ithaqua>.addPlayerOnlyDrop(<rats:plague_essence> %50, 1, 3);
+<entity:mod_lavacow:ithaqua>.addPlayerOnlyDrop(<mod_lavacow:pigboarhide> %60, 1, 3);
 <entity:mod_lavacow:undeadswine>.addPlayerOnlyDrop(<rats:plague_essence> %20, 1, 2);
 <entity:mod_lavacow:undeadswine>.addPlayerOnlyDrop(<rats:plague_leech> %20, 1, 2);
 <entity:mod_lavacow:zombiepiranha>.addPlayerOnlyDrop(<rats:plague_leech> %40, 1);
@@ -162,6 +161,19 @@ recipes.addShaped("rats_disenchanter_upgrade", <rats:rat_upgrade_disenchanter>,[
     [<bountifulbaubles:disintegrationtablet>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:disintegrationtablet>]
 ]);
 
+
+// cheese workaround until official fix
+val orecheese = <ore:foodCheese>;
+orecheese.remove(<rats:cheese>);
+
+<rats:cheese>.displayName = "Cheese Chunk";
+<rats:cheese>.addTooltip("For you, it's hardly worth the effort to eat. For a rat, it's a perfect treat!");
+recipes.addShapeless("cheeseChunk", <rats:cheese>*4, [<ore:foodCheese>]);
+
+val chWheel = <ore:foodCheeseWheel>;
+chWheel.add([<animania:friesian_cheese_wheel>, <animania:holstein_cheese_wheel>, <animania:jersey_cheese_wheel>, <animania:goat_cheese_wheel>, <animania:sheep_cheese_wheel>]);
+
+recipes.addShapeless("cheeseChunks", <rats:cheese>*16, [<ore:foodCheeseWheel>]);
 
 // remove archeologist rat recipes
 mods.jei.JEI.hideCategory("rats.archeologist_rat");

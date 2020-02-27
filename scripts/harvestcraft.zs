@@ -269,7 +269,6 @@ recipes.addShaped("food_presser", <harvestcraft:presser>, [
 [<betterwithmods:material:24>, <betterwithmods:material:34>, <betterwithmods:material:24>]]);
 
 //Honey production
-recipes.addShapeless("harvestcraft_glowing_honey", <harvestcraft:royaljellyitem>*3, [<mowziesmobs:glowing_jelly>,<harvestcraft:queenbeeitem>.giveBack()]);
 recipes.addShapeless("harvestcraft_grub_crowning", <harvestcraft:queenbeeitem>, [<harvestcraft:grubitem>,<bountifulbaubles:crowngold>.giveBack(),<dungeontactics:magic_powder>]);
 
 mods.betterwithmods.Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);

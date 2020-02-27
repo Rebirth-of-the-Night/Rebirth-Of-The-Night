@@ -34,6 +34,8 @@ mods.jei.JEI.addDescription(<betterwithmods:saw>,"Requires continuous mechanical
 
 mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
 
+mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a manifestation of your nightmares will be summoned when you awaken.");
+
 
 # Runes
 

@@ -22,7 +22,6 @@ entity.mod_lavacow.lilsludge.name=Sludgeling
 entity.mod_lavacow.zombiepiranha.name=Frenzy
 entity.mod_lavacow.zombiemushroom.name=Overgrown
 entity.mod_lavacow.zombiefrozen.name=Frostbound
-entity.mod_lavacow.wendigo.name=Ithaqua
 
 
 ############
@@ -54,9 +53,12 @@ tootip.mod_lavacow.swinearmor.l2=
 tootip.mod_lavacow.piranhalauncher=Right-click to launch an undead piranha. Uses Frenzy as ammunition.
 tootip.mod_lavacow.cursed_bandage=Unnaturally sticky, but it'll mend minor wounds... right-click on a pet to heal it for 2 HP.
 tootip.mod_lavacow.holy_grenade=Blessed explosive. Undead within range take triple damage and are set on fire.
+tootip.mod_lavacow.halo_necklace=Damage to undead monsters increased by %d%%.
+tootip.mod_lavacow.dreamcatcher=Has a chance to trap nightmarish creatures from your dreams, forcing them into corporeal form.
 
-
-#Enchantments
-enchantment.mod_lavacow.poisonous.desc=Inflicts target with poison.
+################
+# Enchantments #
+################
+enchantment.endreborn.poisonous.desc=Inflicts target with poison.
 
 

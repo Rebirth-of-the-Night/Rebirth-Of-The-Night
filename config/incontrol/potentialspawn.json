@@ -11,7 +11,19 @@
       }
     ]
   },
-  
+//lantern
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:lantern",
+        "weight": 7,
+        "groupcountmin": 1,
+        "groupcountmax": 7
+      }
+    ]
+  },
+
    // Direwolves
   {
     "dimension": 0,
@@ -1110,8 +1122,20 @@
     "dimension": [0,10],
     "mobs": [
       {
-        "mob": "mod_lavacow:wendigo",
+        "mob": "mod_lavacow:ithaqua",
         "weight": 0.5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:boneworm",
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1135,8 +1159,20 @@
     "dimension": 0,
     "mobs": [
       {
+        "mob": "mod_lavacow:pingu",
+        "weight": 2,
+        "groupcountmin": 3,
+        "groupcountmax": 5
+      }
+    ]
+  },
+  
+     {
+    "dimension": 0,
+    "mobs": [
+      {
         "mob": "mod_lavacow:zombiefrozen",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1282,7 +1318,7 @@
         "mob": "iceandfire:stymphalianbird",
         "weight": 0.3,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 2
       }
     ]
   },

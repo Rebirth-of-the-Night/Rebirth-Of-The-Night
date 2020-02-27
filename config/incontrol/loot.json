@@ -62,6 +62,18 @@
     "item": "dungeontactics:magic_powder",
     "itemcount": "40-59"
     },
+	
+//mowzie lantern
+  {
+    "mob": "mowziesmobs:lantern",
+    "remove": "mowziesmobs:glowing_jelly"
+  },
+  {
+    "mob": "mowziesmobs:lantern",
+    "player": true,
+    "helditem": "quark:soul_bead",
+    "item": "mowziesmobs:glowing_jelly"
+  },
 
  // Hirschgeist Drops
  	{
@@ -88,7 +100,62 @@
     "item": "rats:ratlantean_flame",
     "itemcount": "3-5"
     },
+    {
+    "mob": "betteranimalsplus:hirschgeist",
+    "player": true,
+    "item": "mod_lavacow:undyingheart"
+    },
+
+// Teeth / Teefs
+ 	{
+    "mob": "iceandfire:firedragon",
+    "player": true,
+    "item": "mod_lavacow:sharptooth",
+    "itemcount": "5-9"
+ 	},
 	
+ 	{
+    "mob": "iceandfire:icedragon",
+    "player": true,
+    "item": "mod_lavacow:sharptooth",
+    "itemcount": "5-9"
+ 	},
+	
+ 	{
+    "mob": "iceandfire:deathworm",
+    "player": true,
+    "item": "mod_lavacow:sharptooth",
+    "itemcount": "1-4"
+ 	},
+
+ 	{
+    "mob": "mowziesmobs:naga",
+    "player": true,
+    "item": "mod_lavacow:sharptooth",
+    "itemcount": "3-6"
+ 	},
+
+ 	{
+    "mob": "iceandfire:seaserpent",
+    "player": true,
+    "item": "mod_lavacow:sharptooth",
+    "itemcount": "2-5"
+ 	},
+
+ 	{
+    "mob": "mowziesmobs:frostmaw",
+    "player": true,
+    "item": "mod_lavacow:sharptooth",
+    "itemcount": "1-4"
+ 	},
+
+ 	{
+    "mob": "betteranimalsplus:feralwolf",
+    "player": true,
+    "item": "mod_lavacow:sharptooth",
+    "itemcount": "1-2"
+ 	},
+
  	// Ender Dragon
  	{
     "mob": "minecraft:ender_dragon",

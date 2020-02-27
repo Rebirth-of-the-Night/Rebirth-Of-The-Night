@@ -1,15 +1,18 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-
+//removed loot
 mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
 mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
 mods.ltt.LootTable.removeGlobalItem("mod_lavacow:poisonspore");
-
+mods.ltt.LootTable.removeGlobalItem("mod_lavacow:shattered_ice");
 
 <mod_lavacow:glowshroom>.displayName = "Teal Glowshroom";
 <quark:glowshroom>.displayName = "Blue Glowshroom";
 <biomesoplenty:mushroom:3>.displayName = "Green Glowshroom";
+
+<mod_lavacow:dreamcatcher>.displayName = "§2Dreamcatcher";
+<mod_lavacow:halo_necklace>.displayName = "§5Radiant Necklace";
 
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
@@ -22,7 +25,7 @@ mods.jei.JEI.removeAndHide(<netherex:black_salamander_hide_leggings>);
 mods.jei.JEI.removeAndHide(<netherex:black_salamander_hide_boots>);
 
 
-//food
+//removed or modified food
 mods.jei.JEI.removeAndHide(<mod_lavacow:netherstew>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:canebeef>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:canepork>);
@@ -36,7 +39,7 @@ recipes.remove(<mod_lavacow:canerottenmeat>);
 recipes.remove(<mod_lavacow:green_bacon_and_eggs>);
 recipes.removeByRecipeName("mod_lavacow:mushroomstew");
 
-//weapons
+//removed or modified weapons
 mods.jei.JEI.removeAndHide(<mod_lavacow:moltenaxe>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:moltenhammer>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:reapers_scythe>);
@@ -49,6 +52,8 @@ recipes.remove(<mod_lavacow:tooth_dagger>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:holy_sludge>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:potion_of_mooten_lava>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:fissionpotion>);
+recipes.remove(<mod_lavacow:halo_necklace>);
+recipes.remove(<mod_lavacow:dreamcatcher>);
 // THIS WOULD MAKE COOL ENDGAME LOOT OK I DON'T WANT TO JUST TRASH IT COMPLETELY
 mods.jei.JEI.removeAndHide(<mod_lavacow:goldenheart>);
 
@@ -74,8 +79,6 @@ salahideOredict.add(<netherex:black_salamander_hide>);
 
 val oreMonsterTooth = <ore:monsterTooth>;
 oreMonsterTooth.addItems([<iceandfire:sea_serpent_fang>, <mowziesmobs:naga_fang>, <netherex:coolmar_spider_fang>, <mod_lavacow:sharptooth>]);
-
-
 
 // new food recipes
 
@@ -161,6 +164,17 @@ brewing.removeRecipe(<mod_lavacow:fissionpotion>, <mod_lavacow:mootenheart>);
 
 //chef rat recipes
 mods.rats.recipes.addChefRatRecipe(<mod_lavacow:parasite_item>, <mod_lavacow:sausage_roll>);
+
+// dreamcatcher
+val bFeatherOre = <ore:blackFeather>;
+bFeatherOre.add([<animania:charcoal_peacock_feather>, <twilightforest:raven_feather>, <mod_lavacow:feather_black>]);
+
+recipes.addShaped("dreamcatcher", <mod_lavacow:dreamcatcher>,[
+	[<mod_lavacow:mossy_stick>, <mod_lavacow:mossy_stick>, <mod_lavacow:mossy_stick>],
+    [<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>],
+	[bFeatherOre, bFeatherOre, bFeatherOre]
+]);
+
 
 
 
