@@ -54,7 +54,7 @@ recipes.addShaped("Lectern Manifest", <arcanearchives:lectern_manifest>,[
 ]);
 
 recipes.remove(<arcanearchives:tome_arcana>);
-recipes.addShapeless("arcanearchives_tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <contenttweaker:material_part:14>]);
+recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <contenttweaker:material_part:14>]);
 
 
 //dumbass magic wood brewing recipe until transmutation rune is done
