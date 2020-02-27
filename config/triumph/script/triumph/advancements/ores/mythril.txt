@@ -7,8 +7,8 @@ addParent("triumph:advancements/ores/diamond")
 addRewardFunction("triumph:minedMythril")
 
 
-criteria = addCriteria("Mythril Ore", "minecraft:inventory_changed")
-criteria.addItem(<ore:oreMythril>)
+criteria = addCriteria("Mythril Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreMythril>)
 
 alwaysVisible()
 setPos(3,33)
