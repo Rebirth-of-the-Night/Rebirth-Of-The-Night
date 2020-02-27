@@ -55,33 +55,6 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chainlink, null, chainlink]
 ]);
 
-val flint = <minecraft:flint>;
-val stick = <ore:stickWood>;
-
-recipes.addShaped("Flintstone Axe", <minecraft:stone_axe>,[
-	[flint, flint, null],
-    [flint, stick, null],
-    [null, stick, null]
-]);
-
-recipes.addShaped("Flintstone Hoe", <minecraft:stone_hoe>,[
-	[flint, flint, null],
-    [null, stick, null],
-    [null, stick, null]
-]);
-
-recipes.addShaped("Flintstone Shovel", <minecraft:stone_shovel>,[
-	[null, flint, null],
-    [null, stick, null],
-    [null, stick, null]
-]);
-
-recipes.addShaped("Flintstone Pickaxe", <minecraft:stone_pickaxe>,[
-	[flint, flint, flint],
-    [null, stick, null],
-    [null, stick, null]
-]);
-
 mods.jei.JEI.removeAndHide(<minecraft:shield>);
 
 var potions = <minecraft:potion>;
@@ -104,6 +77,8 @@ mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only
 
 
 //Ore Dictionary Entries
+val cobble = <ore:cobblestone>;
+cobble.add(<minecraft:flint>);
 
 val allStoneSlab = <ore:stoneSlab>;
 allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:0>, <biomesoplenty:other_slab:1>]);
