@@ -162,14 +162,6 @@
     },
     "result": "deny"
   },
-
-
- // Remove vanilla animals from spawning
- {
-    "mob": "minecraft:horse",
-    "onjoin": true,
-    "result": "deny"
- },
  
   {
     "mob": "minecraft:pig",
