@@ -47,7 +47,7 @@ lslimeMain.removeEntry("minecraft:ender_eye");
 lslimeMain.removeEntry("minecraft:blaze_powder");
 lslimeMain.addItemEntryHelper(<betterwithmods:material:26>, 4, 0, [Functions.setCount(1, 1)], []);
 lslimeMain.addItemEntryHelper(<dungeontactics:diamond_nugget>, 1, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<dungeontactics:silver_nugget>, 5, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<iceandfire:silver_nugget>, 5, 0, [Functions.setCount(1, 1)], []);
 lslimeMain.addItemEntryHelper(<simpleores:copper_ingot>, 6, 0, [Functions.setCount(1, 1)], []);
 lslimeMain.addItemEntryHelper(<simpleores:tin_ingot>, 5, 0, [Functions.setCount(1, 1)], []);
 lslimeMain.addItemEntryHelper(<harvestcraft:dragonfruititem>, 6, 0, [Functions.setCount(1, 1)], []);
@@ -82,10 +82,10 @@ filchMain.addItemEntryHelper(<bountifulbaubles:spectralsilt>, 1, 0, [Functions.s
 val stealFilch = LootTables.getTable("primitivemobs:entities/special/filch_lizard_steal");
 
 val filch8 = stealFilch.addPool("filch_lizard_008", 1, 1, 0, 0);
-filch8.addItemEntry(<dungeontactics:silver_ingot>, 1);
+filch8.addItemEntry(<iceandfire:silver_ingot>, 1);
 
 val filch9 = stealFilch.addPool("filch_lizard_009", 1, 1, 0, 0);
-filch9.addItemEntry(<dungeontactics:silver_nugget>, 1);
+filch9.addItemEntry(<iceandfire:silver_nugget>, 1);
 
 val filch10= stealFilch.addPool("filch_lizard_010", 1, 1, 0, 0);
 filch10.addItemEntry(<dungeontactics:diamond_nugget>, 1);
