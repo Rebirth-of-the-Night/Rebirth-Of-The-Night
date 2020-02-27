@@ -116,6 +116,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_shovel>, 14
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_hoe>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_sword>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_bow>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<spartanshields:shield_basic_lead>, 14400);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:dagger_mythril>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longsword_mythril>, 14400);
@@ -464,3 +465,4 @@ mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_candy>, 28800)
 
 //Special
 mods.aether_legacy.Enchanter.registerEnchantment(<quark:pickarang>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<spartanshields:shield_basic_diamond>, 7700);

@@ -92,6 +92,9 @@ fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_
 val coal = <ore:gemCoal>;
 coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
 
+val qualityGem = <ore:Gem_highQuality>;
+qualityGem.addItems([<minecraft:diamond>,<minecraft:emerald>,<simpleores:onyx_gem>,<netherex:amethyst_crystal>,<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
+
 val viridiumOre = <ore:oreViridium>;
 viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore:4>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
 
