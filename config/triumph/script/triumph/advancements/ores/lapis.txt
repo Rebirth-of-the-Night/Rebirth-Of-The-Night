@@ -5,7 +5,7 @@ setDescription("Obtain lapis.")
 addParent("triumph:advancements/ores/iron")
 
 criteria = addCriteria("Lapis", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:dye, ore:gemLapis, meta:4, count:1>)
+criteria.addItem(<ore:gemLapis>)
 
 alwaysVisible()
 setPos(-100,-26)
