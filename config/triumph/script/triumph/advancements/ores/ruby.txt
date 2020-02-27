@@ -1,11 +1,11 @@
 setIcon(<biomesoplenty:gem, ore:gemRuby, meta:1, count:1>)
 setTitle("Ravaging Ruby")
-setDescription("Obtain ruby.")
+setDescription("Mine ruby ore")
 
 addParent("triumph:advancements/ores/copper")
 
-criteria = addCriteria("Ruby", "minecraft:inventory_changed")
-criteria.addItem(<biomesoplenty:gem, ore:gemRuby, meta:1, count:1>)
+criteria = addCriteria("Ruby", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreRuby>)
 
 hideLines()
 alwaysVisible()

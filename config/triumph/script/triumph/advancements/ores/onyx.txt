@@ -1,11 +1,11 @@
 setIcon("simpleores:onyx_gem")
 setTitle("Unimaginable Strength")
-setDescription("Obtain onyx.")
+setDescription("Mine onyx ore")
 
 addParent("triumph:advancements/ores/mythril")
 
-criteria = addCriteria("Onyx Ore", "minecraft:inventory_changed")
-criteria.addItem("simpleores:onyx_gem")
+criteria = addCriteria("Onyx Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreOnyx>)
 
 
 alwaysVisible()

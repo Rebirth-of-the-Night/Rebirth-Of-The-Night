@@ -1,11 +1,11 @@
 setIcon("simpleores:copper_ore")
 setTitle("Flimsy But Plentiful")
-setDescription("Obtain copper ore.")
+setDescription("Mine copper ore")
 
 addParent("triumph:advancements/ores/root")
 
-criteria = addCriteria("Copper ore", "minecraft:inventory_changed")
-criteria.addItem(<ore:oreCopper>)
+criteria = addCriteria("Copper ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreCopper>)
 
 hideLines()
 alwaysVisible()

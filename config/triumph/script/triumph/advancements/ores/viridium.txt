@@ -1,11 +1,11 @@
 setIcon("simpleores:adamantium_ore")
 setTitle("Light and Powerful")
-setDescription("Obtain viridum ore.")
+setDescription("Mine viridum ore")
 
 addParent("triumph:advancements/ores/diamond")
 
-criteria = addCriteria("Viridium Ore", "minecraft:inventory_changed")
-criteria.addItem(<ore:oreAdamantium>)
+criteria = addCriteria("Viridium Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreAdamantium>)
 
 alwaysVisible()
 setPos(3,-26)

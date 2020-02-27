@@ -1,6 +1,6 @@
 setIcon("simpleores:mythril_ore")
 setTitle("Mystical Power")
-setDescription("Obtain mythril ore.")
+setDescription("Mine mythril ore")
 
 addParent("triumph:advancements/ores/diamond")
 

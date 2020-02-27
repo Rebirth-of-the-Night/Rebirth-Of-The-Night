@@ -1,6 +1,6 @@
 setIcon("iceandfire:dragonsteel_ice_ingot")
 setTitle("Inside The Winter Storm")
-setDescription("Obtain ice dragonsteel.")
+setDescription("Obtain ice dragonsteel")
 
 addParent("triumph:advancements/ores/onyx")
 
