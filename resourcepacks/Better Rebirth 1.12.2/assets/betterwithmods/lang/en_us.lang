@@ -1,15 +1,19 @@
 tile.bwm:creative_generator.name=Hyper Magical Rotator
+
 tile.bwm:steel_anvil.name=Steel Anvil
+item.bwm:steel_anvil.name=Steel Anvil
+container.steel_anvil=Steel Anvil
+inv.steel_anvil.name=Steel Anvil
+
 tile.bwm:bucket.name=Robust Well Bucket
 
 item.bwm:material.hemp_fibers.name=Durable Fibers
 item.bwm:material.hemp_cloth.name=Durable Cloth
 
 item.bwm:wool_helmet.name=Wool Cap
-item.bwm:wool_chest.name=Gambesson
+item.bwm:wool_chest.name=Wool Shirt
 item.bwm:wool_pants.name=Wool Pants
 item.bwm:wool_boots.name=Wool Socks
 
 inv.cauldron.name=Cooking Cauldron
 inv.cauldron.stoked.name=Stoked Cooking Cauldron
-inv.steel_anvil.name=Steel Anvil

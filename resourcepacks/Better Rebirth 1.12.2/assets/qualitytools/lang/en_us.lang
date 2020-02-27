@@ -1,7 +1,3 @@
-item.reforging_station.name=Tool and Armor Reforging Station
-tile.reforging_station.name=Tool and Armor Reforging Station
-container.reforging_station=Tool and Armor Reforging Station
-
 item.modifiers.baubles_amulet=When in amulet slot:
 item.modifiers.baubles_ring=When in ring slot:
 item.modifiers.baubles_belt=When in belt slot:
