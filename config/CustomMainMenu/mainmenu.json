@@ -56,7 +56,7 @@
 
         "optifine":
         {
-            "text" : "Download Optifine",
+            "text" : "Download OptiFine",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
