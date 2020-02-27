@@ -8,10 +8,12 @@
 <harvestcraft:spidereyesoupitem>.foodValues.saturationModifier = 0.4;
 <harvestcraft:mobsoupitem>.foodValues.hunger = 10;
 <harvestcraft:mobsoupitem>.foodValues.saturationModifier = 0.4;
+<betterwithmods:cooked_omelet>.foodValues.hunger = 3;
+<betterwithmods:cooked_omelet>.foodValues.saturationModifier = 0.8;
 <rats:raw_rat>.foodValues.hunger = 1.5;
 <rats:raw_rat>.foodValues.saturationModifier = 0.2;
 <rats:cooked_rat>.foodValues.hunger = 3;
-<rats:raw_rat>.foodValues.saturationModifier = 0.5;
+<rats:cooked_rat>.foodValues.saturationModifier = 0.5;
 <rats:assorted_vegetables>.foodValues.hunger = 3;
 <rats:assorted_vegetables>.foodValues.saturationModifier = 0.8;
 <rats:cheese>.foodValues.hunger = 0;
