@@ -49,8 +49,8 @@ mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_peacock>],[<minecraft
 mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_peacock>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_chevon>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_chevon>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:burnt_cockatrice>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_enchanted_cockatrice>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<aether_legacy:burnt_cockatrice>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<aether_legacy:cooked_enchanted_cockatrice>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:crab_meat_cooked>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_mystery_meat>],[<minecraft:leather>]);
 
