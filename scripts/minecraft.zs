@@ -77,6 +77,9 @@ mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only
 
 
 //Ore Dictionary Entries
+val cobble = <ore:cobblestone>;
+cobble.add(minecraft:flint);
+
 val allStoneSlab = <ore:stoneSlab>;
 allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:0>, <biomesoplenty:other_slab:1>]);
 
