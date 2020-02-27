@@ -100,6 +100,8 @@ msmlegacy:decay
 msmlegacy:consuming_shadows
 msmlegacy:stealth
 msmlegacy:extinction
+nyx:lunar_edge
+nyx:lunar_shield
 spartanweaponry:throwing_range
 spartanweaponry:throwing_damage
 spartanweaponry:throwing_fire

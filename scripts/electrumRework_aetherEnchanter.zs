@@ -46,7 +46,7 @@ recipes.addShaped("electrum_to_plateBlock",<contenttweaker:electrum_plate> * 24,
 
 //ELECTRUM RECIPES
 recipes.addShapeless("gold_silver_mixture", <contenttweaker:silver_gold_mixture>, 
-[<minecraft:gold_ingot>,<minecraft:gold_ingot>,<dungeontactics:silver_ingot>,<aether_legacy:ambrosium_shard>]
+[<minecraft:gold_ingot>,<minecraft:gold_ingot>,<ore:ingotSilver>,<aether_legacy:ambrosium_shard>]
 );
 recipes.addShapeless("gold_silver_mixture_return", <minecraft:gold_ingot>*2,
     [<contenttweaker:silver_gold_mixture>],
@@ -55,7 +55,7 @@ recipes.addShapeless("gold_silver_mixture_return", <minecraft:gold_ingot>*2,
 },
 //IRecipeAction
 function(out,cInfo,player){
-    player.give(<dungeontactics:silver_ingot>);
+    player.give(<iceandfire:silver_ingot>);
     player.give(<aether_legacy:ambrosium_shard>);
 });
   #Additional recipes on pyrotech scripts 
@@ -287,6 +287,11 @@ mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_helmet
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_chestplate>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_leggings>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_boots>, 12000);
+
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_metal_helmet>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_metal_chestplate>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_metal_leggings>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:armor_silver_metal_boots>, 12000);
 
 //Fire Dragon Steel
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:dragonsteel_fire_helmet>, 28800);

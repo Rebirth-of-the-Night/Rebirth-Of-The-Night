@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A matieral known to be effectively used against undead mobs. Silver is strong in damage and mining speed, but weak in other aspects.");
 
 
 recipes.remove(<iceandfire:dragonsteel_fire_sword>);
@@ -21,21 +22,8 @@ recipes.addShaped("Ice Dragonsteel Sword", <iceandfire:dragonsteel_ice_sword>,[
 ]);
 
 
-mods.jei.JEI.removeAndHide(<iceandfire:silver_ore>);
-mods.jei.JEI.removeAndHide(<iceandfire:silver_ingot>);
-mods.jei.JEI.removeAndHide(<iceandfire:silver_block>);
-mods.jei.JEI.removeAndHide(<iceandfire:silver_nugget>);
 
-mods.jei.JEI.removeAndHide(<iceandfire:silver_pickaxe>);
-mods.jei.JEI.removeAndHide(<iceandfire:silver_axe>);
-mods.jei.JEI.removeAndHide(<iceandfire:silver_hoe>);
-mods.jei.JEI.removeAndHide(<iceandfire:silver_sword>);
-mods.jei.JEI.removeAndHide(<iceandfire:silver_shovel>);
 
-mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_helmet>);
-mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_chestplate>);
-mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_leggings>);
-mods.jei.JEI.removeAndHide(<iceandfire:armor_silver_metal_boots>);
 
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_block>);

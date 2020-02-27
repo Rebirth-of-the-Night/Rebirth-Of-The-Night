@@ -6,7 +6,7 @@ mods.jei.JEI.removeAndHide(<minecraftfuture:barrel>);
 recipes.remove(<minecraftfuture:stonecutter>);
 
 var a = <minecraft:stone>;
-var b = <dungeontactics:silver_ingot>;
+var b = <iceandfire:silver_ingot>;
 
 //igneous stone blocks
 val igStone = <undergroundbiomes:igneous_stone>;
@@ -214,8 +214,8 @@ mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_lap
 											<minecraft:dye:4>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_tile.gem_ore.ruby_ore>.definition.makeStack(i), 
 											<biomesoplenty:gem:1>);
-mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_dungeontactics_silver_ore>.definition.makeStack(i), 
-											<dungeontactics:silver_ingot>);
+mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_iceandfire_silver_ore>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_iron_ore>.definition.makeStack(i), 
 											<minecraft:iron_ingot>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_tile.gem_ore.sapphire_ore>.definition.makeStack(i), 
@@ -247,8 +247,8 @@ mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone
 											<minecraft:dye:4>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_tile.gem_ore.ruby_ore>.definition.makeStack(i), 
 											<biomesoplenty:gem:1>);
-mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_dungeontactics_silver_ore>.definition.makeStack(i), 
-											<dungeontactics:silver_ingot>);
+mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_iceandfire_silver_ore>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_iron_ore>.definition.makeStack(i), 
 											<minecraft:iron_ingot>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_tile.gem_ore.sapphire_ore>.definition.makeStack(i), 
@@ -279,8 +279,8 @@ mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone
 											<minecraft:dye:4>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_tile.gem_ore.ruby_ore>.definition.makeStack(i), 
 											<biomesoplenty:gem:1>);
-mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_dungeontactics_silver_ore>.definition.makeStack(i), 
-											<dungeontactics:silver_ingot>);
+mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_iceandfire_silver_ore>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_iron_ore>.definition.makeStack(i), 
 											<minecraft:iron_ingot>);
 mods.minecraftfuture.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_tile.gem_ore.sapphire_ore>.definition.makeStack(i), 
@@ -314,8 +314,8 @@ mods.minecraftfuture.BlastFurnace.addRecipe(<biomesoplenty:gem_ore:2>, //Peridot
 mods.minecraftfuture.BlastFurnace.addRecipe(<biomesoplenty:gem_ore:6>, //Sapphire Ore
 											<biomesoplenty:gem:6>); //Sapphire
 
-mods.minecraftfuture.BlastFurnace.addRecipe(<dungeontactics:silver_ore>, 
-											<dungeontactics:silver_ingot>); 
+mods.minecraftfuture.BlastFurnace.addRecipe(<iceandfire:silver_ore>, 
+											<iceandfire:silver_ingot>); 
 
 mods.minecraftfuture.BlastFurnace.addRecipe(<dungeontactics:enddiamond_ore>, 
 											<minecraft:diamond>);

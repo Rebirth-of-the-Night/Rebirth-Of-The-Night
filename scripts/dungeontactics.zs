@@ -5,42 +5,55 @@ mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Used to create many tr
 mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-hand and the duct tape in your main hand. Right click to repair. Items can only be repaired with duct tape until they reach Duct Taped V");
 
 
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_helmet>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_helmet>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_chestplate>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_chestplate>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_leggings>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_leggings>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_boots>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_boots>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
+///////////////////// SILVER ///////////////////
 
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_pickaxe>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_pickaxe>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_axe>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_axe>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_shovel>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_shovel>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<dungeontactics:silver_hoe>.anyDamage(), <ore:ingotSilver>, <dungeontactics:silver_hoe>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_pickaxe>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_axe>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_shovel>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_hoe>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_shield>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_cestus>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_knife>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_cutlass>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_glaive>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_battleaxe>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_hammer>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_cluster>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_boots>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_greaves>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_chestpiece>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_faceplate>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_boots>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_leggings>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_chestplate>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_helmet>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_ingot>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_nugget>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_ore>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_block>);
+
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_pickaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_axe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_shovel");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hoe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_sword");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_shield");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_cestus");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_knife");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_cutlass");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_glaive");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 
 
-
+recipes.addShapeless("Old silver to new", <iceandfire:silver_ingot>,
+	[<dungeontactics:silver_ingot>]
+);
 
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
@@ -88,7 +101,6 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:fire_water");
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_cluster>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:gold_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:tin_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:copper_cluster>);
@@ -131,10 +143,7 @@ mods.jei.JEI.removeAndHide(<dungeontactics:iron_plate_greaves>);
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_plate_chestpiece>);
 mods.jei.JEI.removeAndHide(<dungeontactics:iron_plate_faceplate>);
 
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_boots>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_greaves>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_chestpiece>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_plate_faceplate>);
+
 
 mods.jei.JEI.removeAndHide(<dungeontactics:golden_plate_boots>);
 mods.jei.JEI.removeAndHide(<dungeontactics:golden_plate_greaves>);
@@ -313,24 +322,6 @@ mods.jei.JEI.removeAndHide(<dungeontactics:bone_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_hammer>);
 
-
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
-
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_shield>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_cestus>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_knife>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_cutlass>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_glaive>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_battleaxe>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_hammer>);
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_sword");
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_shield");
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_cestus");
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_knife");
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_cutlass");
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_glaive");
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:throwing_knife>);

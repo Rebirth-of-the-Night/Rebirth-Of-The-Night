@@ -46,6 +46,10 @@ quark:white
 quark:resilience
 quark:curse
 quark:danger_sight
+betterwithaddons:boss
+betterwithaddons:cannonball
+betterwithaddons:electrified
+betterwithaddons:tarred
 extraalchemy:effect.fuse
 extraalchemy:effect.recall
 extraalchemy:effect.sinking

@@ -15,7 +15,7 @@ mods.jei.JEI.removeAndHide(<msmlegacy:dawn_star>);
 
 
 
-var silver = <dungeontactics:silver_ingot>;
+var silver = <ore:ingotSilver>;
 var obsidian = <minecraft:obsidian>;
 var heartcrystal = <scalinghealth:crystalshard>;
 var handle = <spartanweaponry:material:0>;
