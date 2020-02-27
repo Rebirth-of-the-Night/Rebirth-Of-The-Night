@@ -132,9 +132,13 @@ recipes.removeByRecipeName("harvestcraft:honeybreaditem_drophoney");
 recipes.removeByRecipeName("harvestcraft:gingerchickenitem_drophoney");
 recipes.removeByRecipeName("harvestcraft:charsuiitem_drophoney");
 
-
+// removed other duplicates
 recipes.removeByRecipeName("harvestcraft:pemmican_one");
 recipes.removeByRecipeName("harvestcraft:peanutbuttercookiesitem - copy (2)");
+recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_cropwhitemushroom");
+recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_red_mushroom");
+recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_brown_mushroom");
+
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
