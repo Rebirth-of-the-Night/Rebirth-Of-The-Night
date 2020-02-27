@@ -151,10 +151,10 @@ val cookedMeat = <ore:listAllmeatcooked>;
 cookedMeat.add(<primitivemobs:cooked_dodo>);
 
 val rawChicken = <ore:listAllchickenraw>;
-rawChicken.addItems([<primitivemobs:dodo>,<animania:raw_prime_chicken>,<animania:raw_peacock>,<animania:raw_prime_peacock>]);
+rawChicken.addItems([<primitivemobs:dodo>,<animania:raw_prime_chicken>,<animania:raw_peacock>,<animania:raw_prime_peacock>,<aether_legacy:cockatrice>,<aether_legacy:enchanted_cockatrice>]);
 
 val cookedChicken = <ore:listAllchickencooked>;
-cookedChicken.addItems([<primitivemobs:cooked_dodo>,<animania:cooked_prime_chicken>,<animania:cooked_peacock>,<animania:cooked_prime_peacock>]);
+cookedChicken.addItems([<primitivemobs:cooked_dodo>,<animania:cooked_prime_chicken>,<animania:cooked_peacock>,<animania:cooked_prime_peacock>,<aether_legacy:cooked_enchanted_cockatrice>]);
 
 val rawMutton = <ore:listAllmuttonraw>;
 rawMutton.add(<animania:raw_prime_mutton>);

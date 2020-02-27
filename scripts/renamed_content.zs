@@ -35,6 +35,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Rustic
 <rustic:iron_lantern>.displayName = "Tin Lantern";
 <rustic:barrel>.displayName = "Vertical Barrel";
+<rustic:chain>.displayName = "Iron Chandelier Chain";
 
 
 // Vanilla
