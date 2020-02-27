@@ -36,6 +36,8 @@ mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first 
 
 mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a manifestation of your nightmares will be summoned when you awaken.");
 
+mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Most Puffbulbs were long since consumed by the corruption of the Beneath. Perhaps they could be reawakened by a powerful magic reaction, such as the mining of a mystical ore.");
+
 
 # Runes
 
