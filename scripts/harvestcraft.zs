@@ -103,8 +103,8 @@ recipes.removeByRecipeName("harvestcraft:doughitem_itemsalt");
 recipes.removeByRecipeName("harvestcraft:doughitem_foodsalt");
 recipes.removeByRecipeName("harvestcraft:damperitem_itemsalt");
 recipes.removeByRecipeName("harvestcraft:damperitem_foodsalt");
-recipes.removeByRecipeName("harvestcraft:curryriceitem_itemsalt");
-recipes.removeByRecipeName("harvestcraft:curryriceitem_foodsalt");
+recipes.removeByRecipeName("harvestcraft:curryitem_itemsalt");
+recipes.removeByRecipeName("harvestcraft:curryitem_foodsalt");
 recipes.removeByRecipeName("harvestcraft:cornchipsitem_itemsalt");
 recipes.removeByRecipeName("harvestcraft:cornchipsitem_foodsalt");
 recipes.removeByRecipeName("harvestcraft:butteritem_itemsalt");
@@ -138,7 +138,9 @@ recipes.removeByRecipeName("harvestcraft:peanutbuttercookiesitem - copy (2)");
 recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_cropwhitemushroom");
 recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_red_mushroom");
 recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_brown_mushroom");
+recipes.removeByRecipeName("harvestcraft:deluxenachoesitem_foodtortillachip_foodsalsa");
 
+recipes.removeByRecipeName("harvestcraft:wovencottonitem_x3");
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);

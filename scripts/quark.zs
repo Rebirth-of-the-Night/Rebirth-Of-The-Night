@@ -21,6 +21,10 @@ mods.jei.JEI.removeAndHide(<quark:candle:13>);
 mods.jei.JEI.removeAndHide(<quark:candle:14>);
 mods.jei.JEI.removeAndHide(<quark:candle:15>);
 
+recipes.removeByRecipeName("quark:stone_shovel");
+recipes.removeByRecipeName("quark:stone_pickaxe");
+recipes.removeByRecipeName("quark:stone_axe");
+recipes.removeByRecipeName("quark:stone_hoe");
 
 recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);
