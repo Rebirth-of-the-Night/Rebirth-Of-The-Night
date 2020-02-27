@@ -2,6 +2,13 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
+recipes.removeByRecipeName("betterwithmods:higheff/oak_boat");
+recipes.removeByRecipeName("betterwithmods:higheff/spruce_boat");
+recipes.removeByRecipeName("betterwithmods:higheff/birch_boat");
+recipes.removeByRecipeName("betterwithmods:higheff/jungle_boat");
+recipes.removeByRecipeName("betterwithmods:higheff/dark_oak_boat");
+recipes.removeByRecipeName("betterwithmods:higheff/acacia_boat");
+
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
