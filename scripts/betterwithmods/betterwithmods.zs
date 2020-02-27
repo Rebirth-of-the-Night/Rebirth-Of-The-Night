@@ -2,12 +2,27 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-recipes.removeByRecipeName("betterwithmods:higheff/oak_boat");
-recipes.removeByRecipeName("betterwithmods:higheff/spruce_boat");
-recipes.removeByRecipeName("betterwithmods:higheff/birch_boat");
-recipes.removeByRecipeName("betterwithmods:higheff/jungle_boat");
-recipes.removeByRecipeName("betterwithmods:higheff/dark_oak_boat");
-recipes.removeByRecipeName("betterwithmods:higheff/acacia_boat");
+//Remove unnecessary siding clutter
+mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:0>);
+mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:1>);
+mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:2>);
+mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:3>);
+mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:4>);
+mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:5>);
+mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:0>);
+mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:1>);
+mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:2>);
+mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:3>);
+mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:4>);
+mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:5>);
+val skyplank = <aether_legacy:skyroot_plank>;
+recipes.remove(<aether_legacy:skyroot_trapdoor>);
+recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapdoor>*6,
+    [[null,null,null],
+    [skyplank,skyplank,skyplank],
+    [skyplank,skyplank,skyplank]]);
+recipes.removeByRecipeName("betternether:stalagnate_planks_trapdoor");
+
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
@@ -25,6 +40,20 @@ mods.betterwithmods.Cauldron.remove([<minecraft:rabbit_stew>]);
 mods.betterwithmods.Cauldron.addUnstoked([<minecraft:cooked_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:hearty_stew>]);
 mods.betterwithmods.Cauldron.addUnstoked([<minecraft:chicken>|<minecraft:cooked_chicken>|<minecraft:beef>|<minecraft:cooked_beef>|<minecraft:porkchop>|<minecraft:cooked_porkchop>|<minecraft:mutton>|<minecraft:cooked_mutton>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<betterwithmods:hearty_stew>*5]);
+
+mods.betterwithmods.Cauldron.addUnstoked([<primitivemobs:dodo>],[<primitivemobs:cooked_dodo>]);
+mods.betterwithmods.Cauldron.addUnstoked([<primitivemobs:cooked_dodo>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_beef>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_mutton>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_pork>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_chicken>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_horse>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_rabbit>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_frog_legs>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_peacock>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_peacock>],[<minecraft:leather>]);
+
+
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
 mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail

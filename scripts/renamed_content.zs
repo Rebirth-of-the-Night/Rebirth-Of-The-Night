@@ -88,6 +88,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 //Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
 
+// Animania
+<animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
+<animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
+
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));

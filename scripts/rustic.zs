@@ -61,6 +61,7 @@ mods.jei.JEI.removeAndHide(<rustic:beeswax>);
 mods.jei.JEI.removeAndHide(<rustic:honeycomb>);
 mods.jei.JEI.removeAndHide(<rustic:beehive>);
 mods.jei.JEI.removeAndHide(<rustic:bee>);
+mods.jei.JEI.removeAndHide(<rustic:apiary>);
 
 
 mods.jei.JEI.removeAndHide(<rustic:ironberry_juice>);

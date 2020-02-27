@@ -11,7 +11,7 @@ val gnugg = <minecraft:gold_nugget>;
 val rstone = <minecraft:redstone>;
 
 recipes.addShaped("Latch", latch,
- [[null,gnugg,null],
+  [[null,gnugg,null],
   [gnugg,copper,gnugg],
   [null,rstone,null]]);
   
