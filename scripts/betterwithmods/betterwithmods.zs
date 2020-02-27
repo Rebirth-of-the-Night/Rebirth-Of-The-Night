@@ -2,19 +2,43 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-//Remove unnecessary siding clutter
-mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:0>);
-mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:1>);
-mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:2>);
-mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:3>);
-mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:4>);
-mods.jei.JEI.removeAndHide(<betterwithmods:wood_siding:5>);
-mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:0>);
-mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:1>);
-mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:2>);
-mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:3>);
-mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:4>);
-mods.jei.JEI.removeAndHide(<betterwithmods:stone_siding:5>);
+//Fix depreciated and unnecessary recipes
+recipes.removeByRecipeName("betterwithmods:wood_siding.0");
+recipes.removeByRecipeName("betterwithmods:wood_siding.1");
+recipes.removeByRecipeName("betterwithmods:wood_siding.2");
+recipes.removeByRecipeName("betterwithmods:wood_siding.3");
+recipes.removeByRecipeName("betterwithmods:wood_siding.4");
+recipes.removeByRecipeName("betterwithmods:wood_siding.5");
+recipes.removeByRecipeName("betterwithmods:stone_siding.0");
+recipes.removeByRecipeName("betterwithmods:stone_siding.1");
+recipes.removeByRecipeName("betterwithmods:stone_siding.2");
+recipes.removeByRecipeName("betterwithmods:stone_siding.3");
+recipes.removeByRecipeName("betterwithmods:stone_siding.4");
+recipes.removeByRecipeName("betterwithmods:stone_siding.5");
+recipes.removeByRecipeName("betterwithmods:wood_moulding.0");
+recipes.removeByRecipeName("betterwithmods:wood_moulding.1");
+recipes.removeByRecipeName("betterwithmods:wood_moulding.2");
+recipes.removeByRecipeName("betterwithmods:wood_moulding.3");
+recipes.removeByRecipeName("betterwithmods:wood_moulding.4");
+recipes.removeByRecipeName("betterwithmods:wood_moulding.5");
+recipes.removeByRecipeName("betterwithmods:stone_moulding.0");
+recipes.removeByRecipeName("betterwithmods:stone_moulding.1");
+recipes.removeByRecipeName("betterwithmods:stone_moulding.2");
+recipes.removeByRecipeName("betterwithmods:stone_moulding.3");
+recipes.removeByRecipeName("betterwithmods:stone_moulding.4");
+recipes.removeByRecipeName("betterwithmods:stone_moulding.5");
+recipes.removeByRecipeName("betterwithmods:wood_corner.0");
+recipes.removeByRecipeName("betterwithmods:wood_corner.1");
+recipes.removeByRecipeName("betterwithmods:wood_corner.2");
+recipes.removeByRecipeName("betterwithmods:wood_corner.3");
+recipes.removeByRecipeName("betterwithmods:wood_corner.4");
+recipes.removeByRecipeName("betterwithmods:wood_corner.5");
+recipes.removeByRecipeName("betterwithmods:stone_corner.0");
+recipes.removeByRecipeName("betterwithmods:stone_corner.1");
+recipes.removeByRecipeName("betterwithmods:stone_corner.2");
+recipes.removeByRecipeName("betterwithmods:stone_corner.3");
+recipes.removeByRecipeName("betterwithmods:stone_corner.4");
+recipes.removeByRecipeName("betterwithmods:stone_corner.5");
 val skyplank = <aether_legacy:skyroot_plank>;
 recipes.remove(<aether_legacy:skyroot_trapdoor>);
 recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapdoor>*6,
@@ -22,6 +46,11 @@ recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapd
     [skyplank,skyplank,skyplank],
     [skyplank,skyplank,skyplank]]);
 recipes.removeByRecipeName("betternether:stalagnate_planks_trapdoor");
+recipes.removeByRecipeName("betterwithmods:quark/spruce_trapdoor");
+recipes.removeByRecipeName("betterwithmods:quark/birch_trapdoor");
+recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
+recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
+
 
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);

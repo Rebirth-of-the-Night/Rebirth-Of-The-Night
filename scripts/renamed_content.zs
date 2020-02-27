@@ -23,6 +23,7 @@
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
+<betterwithmods:cooking_pot>.displayName = "Cooking Cauldon";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -44,7 +45,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:iron_sword>.displayName = "Iron Arming Sword";
 <minecraft:golden_sword>.displayName = "Golden Arming Sword";
 <minecraft:diamond_sword>.displayName = "Diamond Arming Sword";
-<minecraft:cauldron>.displayName = "Liquid Cauldron";
 
 // Malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
