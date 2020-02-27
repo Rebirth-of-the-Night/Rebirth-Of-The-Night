@@ -786,6 +786,9 @@ betterwithmods:block.millstone.netherrack
 betterwithmods:block.saw.cut
 betterwithmods:block.mechanical.overpower
 betterwithmods:entity.player.oof
+arcanearchives:resonator.complete
+arcanearchives:resonator.loop
+arcanearchives:brazier.absorb
 quark:item.soul_powder.spawn
 quark:block.pipe.shoot
 quark:block.pipe.pickup
@@ -838,6 +841,7 @@ mod_lavacow:entity_foglet_ambient
 mod_lavacow:entity_foglet_hurt
 mod_lavacow:entity_foglet_death
 mod_lavacow:entity_undeadswine_attack
+mod_lavacow:entity_undeadswine_charge
 mod_lavacow:entity_undeadswine_hurt
 mod_lavacow:entity_undeadswine_death
 mod_lavacow:entity_salamander_ambient
@@ -879,6 +883,12 @@ mod_lavacow:entity_boneworm_ambient
 mod_lavacow:entity_boneworm_attack
 mod_lavacow:entity_boneworm_hurt
 mod_lavacow:entity_boneworm_death
+mod_lavacow:entity_seagull_ambient
+mod_lavacow:entity_seagull_hurt
+mod_lavacow:entity_seagull_death
+mod_lavacow:entity_pingu_ambient
+mod_lavacow:entity_pingu_hurt
+mod_lavacow:entity_pingu_death
 minecraftfuture:throw_trident
 minecraftfuture:pierce_trident
 minecraftfuture:impact_trident

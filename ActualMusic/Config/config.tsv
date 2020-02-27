@@ -4,7 +4,7 @@ SmallBiomes	false
 Songpack	Adventure Redefined
 WindowX	478
 WindowY	190
-ambVol	1.000000
+ambVol	0.394366
 bossCards	true
 interSong	7
 leadMulti	100
@@ -15,8 +15,8 @@ locationCardsS+	1
 locationCardsS-	1
 locationCardsZ	1
 loopPoints	true
-mainVol	0.857616
-musVol	0.204225
+mainVol	0.705298
+musVol	0.105634
 pauseVol	50
 pauseVolMin	25
 pauseVolTime	60
