@@ -44,7 +44,7 @@ ofClearWater:false
 ofAaLevel:0
 ofAfLevel:1
 ofProfiler:false
-ofBetterSnow:false
+ofBetterSnow:true
 ofSwampColors:true
 ofRandomEntities:true
 ofSmoothBiomes:true
