@@ -20,6 +20,8 @@
 <rats:assorted_vegetables>.foodValues.saturationModifier = 0.8;
 <rats:cheese>.foodValues.hunger = 0;
 <rats:cheese>.foodValues.saturationModifier = 0;
+<mod_lavacow:canebeef>.foodValues.hunger = 20;
+<mod_lavacow:canebeef>.foodValues.saturationModifier = 0.4;
 
 //I don't know where to put this so it is going here and you're gonna just deal with it ok?
 recipes.remove(<betterwithmods:donut>);

@@ -45,7 +45,8 @@ recipes.addShapeless("CalaMariGold 2", <contenttweaker:calamarigold>,
 mods.jei.JEI.hide(<contenttweaker:calamarigold>);
 
 
-//BetterwithMods
+//Sandwich Horror
+///BetterwithMods
 <betterwithmods:tasty_sandwich>.displayName = "§2Foul Sandwich";
 
 ///shhh
@@ -66,8 +67,6 @@ recipes.addHiddenShaped("tsh", <mod_lavacow:canebeef>,[
 mods.jei.JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twenty percent bread,", "Fifteen percent cursed meat harvested from the dead", "Five percent ???", "Fifty percent strain,", "and a hundred percent reason to remember the name.");
 //mods.jei.JEI.hide(<mod_lavacow:canebeef>);
 
-
-//Sandwich Horror
 <mod_lavacow:canebeef>.clearTooltip();
 <mod_lavacow:canebeef>.displayName = "§4Sandwich Horror";
 <mod_lavacow:canebeef>.addTooltip(format.darkRed("Sandwich Horror"));
