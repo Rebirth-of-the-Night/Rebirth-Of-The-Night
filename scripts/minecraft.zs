@@ -145,10 +145,10 @@ val mushroom = <ore:mushroomAny>;
 mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.add(<primitivemobs:dodo>);
+rawMeat.addItems([<primitivemobs:dodo>,<betterwithmods:mystery_meat>]);
 
 val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.add(<primitivemobs:cooked_dodo>);
+cookedMeat.addItems([<primitivemobs:cooked_dodo>,<betterwithmods:cooked_mystery_meat>]);
 
 val rawChicken = <ore:listAllchickenraw>;
 rawChicken.addItems([<primitivemobs:dodo>,<animania:raw_prime_chicken>,<animania:raw_peacock>,<animania:raw_prime_peacock>,<aether_legacy:cockatrice>,<aether_legacy:enchanted_cockatrice>]);
@@ -164,6 +164,18 @@ cookedMutton.add(<animania:cooked_prime_mutton>);
 
 val rawFrog = <ore:listAllfrograw>;
 rawFrog.addItems([<animania:raw_frog_legs>,<harvestcraft:frograwitem>]);
+
+val rawCrab = <ore:foodCrabraw>;
+rawCrab.addItems([<betteranimalsplus:crab_meat_raw>,<mod_lavacow:mimic_claw>,<quark:crab_leg>]);
+
+val cookedCrab = <ore:foodCrabcooked>;
+cookedCrab.addItems([<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
+
+val rawFish = <ore:listAllfishraw>;
+rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:mimic_claw>,<quark:crab_leg>]);
+
+val cookedFish = <ore:listAllfishcooked>;
+cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);

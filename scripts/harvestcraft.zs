@@ -19,8 +19,12 @@ recipes.remove(<harvestcraft:saltitem>);
 
 
 recipes.removeByRecipeName("harvestcraft:berryvinaigrettesaladitem");
-recipes.addShapeless("harvestcraft_berryvinaigrettesaladitem", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <harvestcraft:lettuceitem>, <harvestcraft:vinegaritem>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
+recipes.addShapeless("harvestcraft_berryvinaigrettesaladitem", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <ore:cropLettuce>, <ore:foodVinegar>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
+recipes.addShapeless("harvestcraft_imitationcrabsticksitem", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:dyeRed>, <ore:flourEqualswheat>, <ore:listAllegg>]);
+
 recipes.replaceAllOccurences(<harvestcraft:frograwitem>, <ore:listAllfrograw>, <harvestcraft:froglegstirfryitem>);
+recipes.replaceAllOccurences(<harvestcraft:crabcookeditem>, <ore:foodCrabcooked>, <harvestcraft:crabkimbapitem>);
+recipes.replaceAllOccurences(<harvestcraft:crabrawitem>, <ore:foodCrabraw>, <harvestcraft:gumboitem>);
 
 // removes duplicate salt recipes
 recipes.removeByRecipeName("harvestcraft:sausageitem_itemsalt");

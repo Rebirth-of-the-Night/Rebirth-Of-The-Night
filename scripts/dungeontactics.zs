@@ -51,10 +51,6 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 
 
-recipes.addShapeless("Old silver to new", <iceandfire:silver_ingot>,
-	[<dungeontactics:silver_ingot>]
-);
-
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
