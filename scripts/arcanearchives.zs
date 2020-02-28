@@ -42,7 +42,7 @@ mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>,
 recipes.remove(<arcanearchives:scepter_revelation>);
 mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>, 
 [
-   [null, null, null, <contenttweaker:material_part:14>],
+   [null, null, null, <contenttweaker:material_part:16>],
    [null, null, <ore:stickWood>, null],
    [<ore:ingotElectrum>, <arcanearchives:raw_quartz>, null, null],
    [<ore:ingotElectrum>, <ore:ingotElectrum>, null, null]
@@ -56,7 +56,7 @@ recipes.addShaped("Lectern Manifest", <arcanearchives:lectern_manifest>,[
 ]);
 
 recipes.remove(<arcanearchives:tome_arcana>);
-recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <contenttweaker:material_part:14>]);
+recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}), [<minecraft:book>, <contenttweaker:material_part:16>]);
 
 
 //dumbass magic wood brewing recipe until transmutation rune is done
@@ -70,9 +70,9 @@ brewing.addBrew(<ore:logWood>, <dungeontactics:magic_powder>, <biomesoplenty:log
 //// Replaces the shaped radiant quartz recipe without disordering the GCT screen: GCT.replaceRecipe("shaped_quartz", <arcanearchives:shaped_quartz>, [<arcanearchives:raw_quartz>*10]);
 
 // radiant amphora
-GCT.replaceRecipe("radiant_amphora", <arcanearchives:radiant_amphora>, [<arcanearchives:radiant_dust>*4, <betterwithmods:urn:9>, <contenttweaker:material_part:14>*4]);
+GCT.replaceRecipe("radiant_amphora", <arcanearchives:radiant_amphora>, [<arcanearchives:radiant_dust>*4, <betterwithmods:urn:9>, <contenttweaker:material_part:16>*4]);
 
-GCT.replaceRecipe("scintillating_inlay", <arcanearchives:scintillating_inlay>, [<arcanearchives:radiant_dust>*6, <minecraft:redstone>*12, <ore:ingotElectrum>, <contenttweaker:material_part:14>*6]);
+GCT.replaceRecipe("scintillating_inlay", <arcanearchives:scintillating_inlay>, [<arcanearchives:radiant_dust>*6, <minecraft:redstone>*12, <ore:ingotElectrum>, <contenttweaker:material_part:16>*6]);
 
 GCT.replaceRecipe("material_interface", <arcanearchives:material_interface>, [<arcanearchives:scintillating_inlay>, <ore:ingotElectrum>, <arcanearchives:shaped_quartz>]);
 
@@ -89,15 +89,23 @@ GCT.replaceRecipe("matrix_brace", <arcanearchives:matrix_brace>, [<arcanearchive
 
 GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm>*4, [<minecraft:gold_ingot>*8, <bountifulbaubles:amuletsingluttony>, <mod_lavacow:sharptooth>*4]);
 
-GCT.replaceRecipe("radiant_key", <arcanearchives:radiant_key>*4, [<ore:ingotElectrum>, <contenttweaker:material_part:14>*3, <arcanearchives:shaped_quartz>]);
+GCT.replaceRecipe("radiant_key", <arcanearchives:radiant_key>*4, [<ore:ingotElectrum>, <contenttweaker:material_part:16>*3, <arcanearchives:shaped_quartz>]);
 
-GCT.replaceRecipe("radiant_lantern", <arcanearchives:radiant_lantern>*4, [<arcanearchives:raw_quartz>*2, <contenttweaker:material_part:14>*2]);
+GCT.replaceRecipe("radiant_lantern", <arcanearchives:radiant_lantern>*4, [<arcanearchives:raw_quartz>*2, <contenttweaker:material_part:16>*2]);
 
 GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchives:shaped_quartz>*2, <arcanearchives:containment_field>, <ore:ingotElectrum>, <endreborn:item_end_essence>*2]);
 
-GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<arcanearchives:shaped_quartz>, <contenttweaker:material_part:14>*2, <ore:stickWood>*4]);
+GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<arcanearchives:shaped_quartz>, <contenttweaker:material_part:16>*2, <ore:stickWood>*4]);
 
 GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*2, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
 
 //fish's halo necklace
 GCT.addRecipe("halo_necklace", <mod_lavacow:halo_necklace>, [<ore:ingotElectrum>*2, <arcanearchives:radiant_dust>*12, <dungeontactics:silver_nugget>*6, <rustic:chain_gold>*4, <twilightforest:charm_of_life_1>, <mod_lavacow:scythe_claw>*2]);
+
+//ender spectacles
+//actually turns out, this thing is OP as shit. endermen and variants don't even retaliate when attacked. I don't like that. until we can fix that or make a workaround, away it goes.
+recipes.remove(<betterwithmods:ender_spectacles>);
+//GCT.addRecipe("ender_spectacles", <betterwithmods:ender_spectacles>, [<arcanearchives:matrix_brace>*2, <arcanearchives:monitoring_crystal>*2, <betterwithmods:material:40>*2, <arcanearchives:scintillating_inlay>, <betterwithmods:material:8>*1]);
+//<betterwithmods:ender_spectacles>.displayName = "§5Ender Spectacles";
+//<betterwithmods:ender_spectacles>.addTooltip(format.darkPurple("Epic Headgear"));
+//<betterwithmods:ender_spectacles>.addTooltip("Equip to gain unnatural insight into where monsters can spawn. Highly reduces your chance of being teleported by End creatures.");

@@ -43,3 +43,32 @@ recipes.addShapeless("CalaMariGold 2", <contenttweaker:calamarigold>,
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
 
 mods.jei.JEI.hide(<contenttweaker:calamarigold>);
+
+
+//BetterwithMods
+<betterwithmods:tasty_sandwich>.displayName = "§2Foul Sandwich";
+
+///shhh
+recipes.remove(<betterwithmods:tasty_sandwich>);
+recipes.addShaped("foul_sandwich", <betterwithmods:tasty_sandwich>*4,[
+	[<minecraft:bread>, <minecraft:bread>, <minecraft:bread>],
+    [<harvestcraft:lettuceitem>, <harvestcraft:zombiejerkyitem>, <harvestcraft:lettuceitem>],
+	[<minecraft:bread>, <minecraft:bread>, <minecraft:bread>]
+]);
+<betterwithmods:tasty_sandwich>.addTooltip("But... why?");
+
+recipes.addHiddenShaped("tsh", <mod_lavacow:canebeef>,[
+[<rats:plague_essence>, <betterwithmods:tasty_sandwich>, <rats:plague_essence>],
+[<betterwithmods:tasty_sandwich>, <bountifulbaubles:trinketshulkerheart>, <betterwithmods:tasty_sandwich>],
+[<rats:plague_essence>, <betterwithmods:tasty_sandwich>, <rats:plague_essence>]
+]);
+
+mods.jei.JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twenty percent bread,", "Fifteen percent cursed meat harvested from the dead", "Five percent ???", "Fifty percent strain,", "and a hundred percent reason to remember the name.");
+//mods.jei.JEI.hide(<mod_lavacow:canebeef>);
+
+
+//Sandwich Horror
+<mod_lavacow:canebeef>.clearTooltip();
+<mod_lavacow:canebeef>.displayName = "§4Sandwich Horror";
+<mod_lavacow:canebeef>.addTooltip(format.darkRed("Sandwich Horror"));
+<mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Item 3/6"));

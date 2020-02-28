@@ -38,6 +38,8 @@ mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the
 
 mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Most Puffbulbs were long since consumed by the corruption of the Beneath. Perhaps they could be reawakened by a powerful magic reaction, such as the mining of a mystical ore.");
 
+mods.jei.JEI.addDescription(<betterwithmods:ender_spectacles>,"...if you gaze long into the End, the End also gazes into you.");
+
 
 # Runes
 

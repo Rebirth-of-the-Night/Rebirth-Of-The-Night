@@ -23,6 +23,19 @@
       }
     ]
   },
+  
+//lantern
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "netherex:spinout",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
 
    // Direwolves
   {

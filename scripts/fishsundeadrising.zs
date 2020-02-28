@@ -27,13 +27,13 @@ mods.jei.JEI.removeAndHide(<netherex:black_salamander_hide_boots>);
 
 //removed or modified food
 mods.jei.JEI.removeAndHide(<mod_lavacow:netherstew>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:canebeef>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:canepork>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:parasite_item_cooked>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:mousse>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:meatball>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:moltenpan>);
 mods.jei.JEI.removeAndHide(<mod_lavacow:parasite_item_cooked>);
+recipes.remove(<mod_lavacow:canebeef>);
 recipes.remove(<mod_lavacow:sausage_roll>);
 recipes.remove(<mod_lavacow:canerottenmeat>);
 recipes.remove(<mod_lavacow:green_bacon_and_eggs>);

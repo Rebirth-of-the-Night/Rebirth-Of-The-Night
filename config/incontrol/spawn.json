@@ -39,9 +39,17 @@
     "mob": "mowziesmobs:frostmaw",
     "onjoin": true,
 	"potion": "extraalchemy:effect.pacifism,1000000,1",
-	"potion": "wards:effect_projectile_protection,1000000,1"
+	"potion": "wards:effect_projectile_protection,1000000,2"
   },
   
+   {
+    "mob": "mod_lavacow:sludgelord",
+    "onjoin": true,
+    "potion": "minecraft:fire_resistance,10000000,1",
+	"potion": "minecraft:regeneration,1000000,2",
+	"potion": "wards:effect_projectile_protection,1000000,3"
+  },
+
 // no creeper, aww man
  {
     "mob": "minecraft:creeper",
@@ -321,8 +329,25 @@
     "mob": "specialmobs:hungrypigzombie",
     "result": "deny"
  },
-
-
+  
+ {
+    "dimension": -1,
+    "mob": "netherex:spinout",
+    "gamestage": "killedWither",
+    "random": 0.15,
+	"block": ["minecraft:soul_sand", "netherex:possessed_soul_sand"],
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow",
+	"potion": "potioncore:recoil,10000000,1"
+ },
+ {
+    "dimension": -1,
+    "mob": "netherex:spinout",
+    "result": "deny"
+ },
 
  // Wither Skeleton
  {
@@ -771,8 +796,8 @@
     "dimension": 0,
     "mob": "primitivemobs:brain_slime",
     "gamestage": "minedMythril",
-    "maxlight": 15,
-    "minlight": 14,
+    "maxlight": 14,
+    "minlight": 10,
     "random": 0.05,
     "seesky": true,
 	"biometype": ["OCEAN", "BEACH"],
@@ -2068,7 +2093,7 @@
         "perplayer": true
     },
     "result": "allow",
-    "potion": "extraalchemy:effect.leech,100000,7"
+    "potion": "extraalchemy:effect.leech,1000000,7"
  },
  {
     "dimension": [0,10],
@@ -2079,7 +2104,7 @@
   {
     "dimension": 0,
     "mob": "mod_lavacow:boneworm",
-	"biome": ["Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Desert", "DesertHills", "Xeric Shrubland", "Marsh"],
+	"biome": ["Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Desert", "DesertHills", "Xeric Shrubland", "Marsh", "Bayou", "Bog", "Dead Swamp", "Quagmire", "Fen", "Ominous Woods", "Dead Forest"],
     "gamestage": "minedMythril",
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "biomesoplenty:grass", "biomesoplenty:white_sand", "biomesoplenty:dried_sand", "biomesoplenty:dirt"],
 	"random": 0.20,
@@ -2089,7 +2114,8 @@
         "amount": 1,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "allow",
+	"potion": "wards:effect_projectile_protection,1000000,5"
  },
  {
     "dimension": 0,

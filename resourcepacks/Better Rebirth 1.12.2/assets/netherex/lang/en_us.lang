@@ -20,7 +20,7 @@ entity.netherex:ghastling_fireball.name=Royal Polyp Fireball
 entity.netherex:pigtificate_leader.name=Pigman Leader
 entity.netherex:pigtificate_leader_chief.name=Pigman Chief
 entity.netherex:pigtificate.name=Pigman
-entity.netherex:pigtificate_nincompoop.name=Pigman Nincompoop
+entity.netherex:pigtificate_nincompoop.name=Pigman Commoner
 entity.netherex:pigtificate_hunter.name=Pigman Hunter
 entity.netherex:pigtificate_gatherer.name=Pigman Gatherer
 entity.netherex:pigtificate_scavenger.name=Pigman Scavenger
@@ -38,6 +38,7 @@ entity.netherex:spore_three.name=Volatile Blightspore Stage Three
 entity.netherex:spore_four.name=Volatile Blightspore Stage Four
 entity.netherex:spore_five.name=Volatile Blightspore Stage Five
 entity.netherex:ghastling.name=Royal Polyp
+entity.netherex:spinout.name=Withering Spine
 
 # Items
 item.netherex:spore.name=Blighted Spore
