@@ -22,7 +22,21 @@ recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <b
 recipes.removeByRecipeName("minecraft:cake");
 recipes.removeByRecipeName("minecraft:painting");
 recipes.removeByRecipeName("minecraft:purple_shulker_box");
-
+recipes.removeByRecipeName("minecraft:yellow_wool");
+recipes.removeByRecipeName("minecraft:red_wool");
+recipes.removeByRecipeName("minecraft:purple_wool");
+recipes.removeByRecipeName("minecraft:pink_wool");
+recipes.removeByRecipeName("minecraft:orange_wool");
+recipes.removeByRecipeName("minecraft:magenta_wool");
+recipes.removeByRecipeName("minecraft:lime_wool");
+recipes.removeByRecipeName("minecraft:light_gray_wool");
+recipes.removeByRecipeName("minecraft:light_blue_wool");
+recipes.removeByRecipeName("minecraft:green_wool");
+recipes.removeByRecipeName("minecraft:gray_wool");
+recipes.removeByRecipeName("minecraft:cyan_wool");
+recipes.removeByRecipeName("minecraft:brown_wool");
+recipes.removeByRecipeName("minecraft:blue_wool");
+recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("betternether:stalagnate_workbench");
 
 recipes.remove(<minecraft:chainmail_helmet>);

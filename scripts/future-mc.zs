@@ -4,6 +4,11 @@ import crafttweaker.item.IItemStack;
 mods.jei.JEI.removeAndHide(<minecraftfuture:lantern>);
 mods.jei.JEI.removeAndHide(<minecraftfuture:barrel>);
 recipes.remove(<minecraftfuture:stonecutter>);
+recipes.removeByRecipeName("minecraftfuture:else/smoothstonerecipe");
+recipes.addShaped("minecraftfuture_else/smoothstonerecipe", <minecraft:stone_slab:0>*6,
+  [[null,null,null],
+  [<minecraftfuture:smoothstone>,<minecraftfuture:smoothstone>,<minecraftfuture:smoothstone>],
+  [null,null,null]]);
 
 var a = <minecraft:stone>;
 var b = <iceandfire:silver_ingot>;

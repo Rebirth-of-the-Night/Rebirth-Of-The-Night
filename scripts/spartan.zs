@@ -123,8 +123,6 @@ mods.jei.JEI.removeAndHide(<spartancompat:dagger_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);
 
 recipes.replaceAllOccurences(<ore:stickWood>, <betterwithmods:shaft>, <spartanweaponry:material:0>);
-
+recipes.replaceAllOccurences(<ore:stickWood>, <betterwithmods:shaft>, <spartanweaponry:material:1>);
 recipes.removeShapeless(<betterwithmods:shaft>);
-
-recipes.addShapeless("stickShaft", <betterwithmods:shaft>,
-[<ore:stickWood>]);
+recipes.addShapeless("stickShaft", <betterwithmods:shaft>,[<ore:stickWood>]);
