@@ -17,7 +17,7 @@ recipes.addShaped("Nails", <minetraps:nails>,[
     [tinnugget, tinnugget, tinnugget]
 ]);
 
-var silvernugget = <dungeontactics:silver_nugget>;
+var silvernugget = <iceandfire:silver_nugget>;
 
 recipes.addShaped("Nails 2", <minetraps:nails>,[
   [null, null, null],

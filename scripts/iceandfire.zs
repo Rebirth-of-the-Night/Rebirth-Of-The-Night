@@ -22,7 +22,7 @@ recipes.addShaped("Ice Dragonsteel Sword", <iceandfire:dragonsteel_ice_sword>,[
 ]);
 
 
-
+recipes.removeByRecipeName("iceandfire:dragonmeal_alternate");
 
 
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
