@@ -1,6 +1,6 @@
 setIcon("dungeontactics:steel_sword")
 setTitle("You Are Valid")
-setDescription("Craft Dev Item 6 of 6")
+setDescription("Craft Dev Item 6 of 6 using diamonds, silver, pink dye, and shaped radiant quartz.")
 
 addParent("triumph:advancements/eastereggs/root")
 
