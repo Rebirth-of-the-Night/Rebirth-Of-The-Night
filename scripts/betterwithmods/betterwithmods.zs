@@ -56,6 +56,8 @@ mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_mystery_meat>],
 mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:mimic_claw_cooked>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:crabcookeditem>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<quark:cooked_crab_leg>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:venisoncooked>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<twilightforest:cooked_venison>],[<minecraft:leather>]);
 
 
 

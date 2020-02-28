@@ -148,6 +148,8 @@ recipes.removeByRecipeName("harvestcraft:wovencottonitem_x3");
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:venisonrawitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:venisoncookeditem>);
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:candledeco1>);
