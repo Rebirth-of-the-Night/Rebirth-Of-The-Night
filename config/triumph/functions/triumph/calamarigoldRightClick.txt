@@ -1,0 +1,6 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @a ["",{"text":"It's Joke!","color":"light_purple"}]
+tellraw @a ["",{"text":"Hope you're prepared for the next night.","color":"dark_red"}]
+bloodmoon force
+playsound zombieawareness:investigate ambient @a ~ ~ ~ 1.0 0.1
