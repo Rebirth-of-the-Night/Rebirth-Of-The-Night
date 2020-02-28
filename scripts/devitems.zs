@@ -32,7 +32,7 @@ mods.jei.JEI.hide(<dungeontactics:steel_sword>);
 <contenttweaker:calamarigold>.displayName = "§dCalaMariGold マリ";
 mods.jei.JEI.addDescription([<contenttweaker:calamarigold>],["You begin to have hallucinations of anime girls, pride flags, music, and Beat Saber."]);
 
-<contenttweaker:calamarigold>.addTooltip(format.aqua("Use this item to become a developer ;)"));
+<contenttweaker:calamarigold>.addTooltip(format.aqua("Use this item to become a developer! ;)"));
 <contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/6"));
 
 
@@ -68,6 +68,6 @@ mods.jei.JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twent
 //mods.jei.JEI.hide(<mod_lavacow:canebeef>);
 
 <mod_lavacow:canebeef>.clearTooltip();
-<mod_lavacow:canebeef>.displayName = "§4Sandwich Horror";
-<mod_lavacow:canebeef>.addTooltip(format.darkRed("Sandwich Horror"));
-<mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Item 3/6"));
+<mod_lavacow:canebeef>.displayName = "§4The Sandwich Horror";
+<mod_lavacow:canebeef>.addTooltip(format.darkRed("The Sandwich Horror"));
+<mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Relic 3/6"));
