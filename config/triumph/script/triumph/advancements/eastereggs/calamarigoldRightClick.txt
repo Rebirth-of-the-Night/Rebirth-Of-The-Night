@@ -7,7 +7,7 @@ addParent("triumph:advancements/eastereggs/root")
 addRewardFunction("triumph:calamarigoldRightClick")
 
 criteria = addCriteria("Dev Relic 1", "triumph:right_click_item")
-criteria.setItem("contenttweaker:calamarigold")
+criteria.setItem(<contenttweaker:calamarigold>)
 
 
 alwaysHidden()
