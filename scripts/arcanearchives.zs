@@ -3,6 +3,8 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.arcanearchives.GCT;
 
+recipes.removeByRecipeName("arcanearchives:diorite");
+
 // Radiant Resonator
 // Replace mythril and water buckets with Molten Mythril buckets once that is implemented in the Beneath
 recipes.remove(<arcanearchives:radiant_resonator>);

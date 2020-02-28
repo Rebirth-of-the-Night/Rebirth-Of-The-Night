@@ -28,6 +28,12 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
+<quark:bark:0>.displayName = "Oak Bark Block";
+<quark:bark:1>.displayName = "Spruce Bark Block";
+<quark:bark:2>.displayName = "Birch Bark Block";
+<quark:bark:3>.displayName = "Jungle Bark Block";
+<quark:bark:4>.displayName = "Acacia Bark Block";
+<quark:bark:5>.displayName = "Dark Oak Bark Block";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
@@ -86,6 +92,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Better Nether
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
+<betternether:stalagnate_bark>.displayName = "Stalagnate Bark Block";
 
 //Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";

@@ -20,6 +20,10 @@ recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <m
 recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <betternether:stalagnate_bowl_mushroom>);
 
 recipes.removeByRecipeName("minecraft:cake");
+recipes.removeByRecipeName("minecraft:painting");
+recipes.removeByRecipeName("minecraft:purple_shulker_box");
+
+recipes.removeByRecipeName("betternether:stalagnate_workbench");
 
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);
