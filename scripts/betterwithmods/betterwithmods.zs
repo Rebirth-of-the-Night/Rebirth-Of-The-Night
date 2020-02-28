@@ -53,6 +53,9 @@ mods.betterwithmods.Cauldron.addUnstoked([<aether_legacy:burnt_cockatrice>],[<mi
 mods.betterwithmods.Cauldron.addUnstoked([<aether_legacy:cooked_enchanted_cockatrice>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:crab_meat_cooked>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_mystery_meat>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:mimic_claw_cooked>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:crabcookeditem>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<quark:cooked_crab_leg>],[<minecraft:leather>]);
 
 
 

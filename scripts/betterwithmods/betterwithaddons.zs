@@ -152,6 +152,9 @@ mods.jei.JEI.hideCategory("bwa.soakingbox");
 mods.jei.JEI.hideCategory("bwa.dryingbox");
 mods.jei.JEI.hideCategory("bwa.infuser.transmutation");
 
+mods.betterwithmods.Mill.remove([<betterwithaddons:food_ground_meat>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:food_meatballs>]);
+
 //Aqueducts
 recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [
 [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
