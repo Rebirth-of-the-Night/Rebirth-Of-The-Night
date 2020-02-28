@@ -15,6 +15,7 @@
 <twilightforest:ironwood_sword>.displayName = "Ironwood Arming Sword";
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
 <twilightforest:knightmetal_sword>.displayName = "Knightly Arming Sword";
+<twilightforest:raw_venison>.displayName = "Raw Venison Steak";
 
 //Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
