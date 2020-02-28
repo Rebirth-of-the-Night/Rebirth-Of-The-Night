@@ -18,3 +18,5 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
    [<minecraft:diamond>, <ore:dyePink>, <ore:ingotSilver>, null],
    [<minecraft:diamond>, <minecraft:diamond>, null, null ]
 ]);
+
+mods.jei.JEI.hide(<dungeontactics:steel_sword>);
