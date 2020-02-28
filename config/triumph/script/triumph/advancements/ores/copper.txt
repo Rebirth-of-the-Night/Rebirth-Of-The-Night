@@ -9,4 +9,4 @@ criteria.setBlock(<ore:oreCopper>)
 
 hideLines()
 alwaysVisible()
-setPos(-218,33)
+setPos(-218,35)

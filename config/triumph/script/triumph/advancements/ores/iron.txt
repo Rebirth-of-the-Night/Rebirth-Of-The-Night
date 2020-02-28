@@ -2,7 +2,8 @@ setIcon("minecraft:iron_ore")
 setTitle("The Most Versatile Ore")
 setDescription("Mine iron ore")
 
-addParent("triumph:advancements/ores/bronze")
+addParent("triumph:advancements/ores/tin")
+addParent("triumph:advancements/ores/copper")
 
 criteria = addCriteria("Iron ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreIron>)
