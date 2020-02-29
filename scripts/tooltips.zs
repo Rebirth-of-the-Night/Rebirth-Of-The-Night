@@ -73,6 +73,7 @@
 <dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
 <sereneseasons:greenhouse_glass>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
+<quark:soul_bead>.addTooltip("Holding this softly shimmering bead makes you feel uneasy.");
 
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");

@@ -161,7 +161,9 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Material"));
 
 
-
+//better animals plus
+<betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
+<betteranimalsplus:wolfhead>.addTooltip(format.darkGreen("Rare Trophy"));
 
 
 #Epic
@@ -186,7 +188,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <mod_lavacow:war>.addTooltip(format.darkPurple("Epic Weapon"));
 <mod_lavacow:sludge_wand>.displayName = "§5Oozemancer's Staff";
 <mod_lavacow:sludge_wand>.addTooltip(format.darkPurple("Epic Weapon"));
-<mod_lavacow:bonesword>.displayName = "§5Bone Sword";
+<mod_lavacow:bonesword>.displayName = "§5Bonetooth Sword";
 <mod_lavacow:bonesword>.addTooltip(format.darkPurple("Epic Weapon"));
 
 
