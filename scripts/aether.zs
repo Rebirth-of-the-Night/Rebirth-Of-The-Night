@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 
+mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 
 //Removed content
 mods.jei.JEI.removeAndHide(<toroquest:obsidian_sword>);

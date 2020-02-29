@@ -7,6 +7,14 @@
 <aether_legacy:holystone_sword>.displayName = "Holystone Arming Sword";
 <aether_legacy:zanite_sword>.displayName = "Zanite Arming Sword";
 <aether_legacy:gravitite_sword>.displayName = "Gravitite Arming Sword";
+<aether_legacy:skyroot_slab>.displayName = "Skyroot Slab";
+<aether_legacy:carved_slab>.displayName = "Carved Slab";
+<aether_legacy:angelic_slab>.displayName = "Angelic Slab";
+<aether_legacy:hellfire_slab>.displayName = "Hellfire Slab";
+<aether_legacy:holystone_slab>.displayName = "Holystone Slab";
+<aether_legacy:mossy_holystone_slab>.displayName = "Mossy Holystone Slab";
+<aether_legacy:holystone_brick_slab>.displayName = "Holystone Brick Slab";
+<aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
 
 //End Reborn III
 <endreborn:tool_hammer_iron>.displayName = "Iron Sledgehammer";
