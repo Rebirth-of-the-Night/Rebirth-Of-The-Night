@@ -15,7 +15,7 @@
 <aether_legacy:mossy_holystone_slab>.displayName = "Mossy Holystone Slab";
 <aether_legacy:holystone_brick_slab>.displayName = "Holystone Brick Slab";
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
-<aether_legacy:skyroot_slab>.displayName = "Aether Legacy Slab";
+<aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 
 //End Reborn III
 <endreborn:tool_hammer_iron>.displayName = "Iron Sledgehammer";

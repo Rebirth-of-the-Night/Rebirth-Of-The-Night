@@ -6,6 +6,8 @@ mods.jei.JEI.removeAndHide(<malisisdoors:hitechdoor>);
 mods.jei.JEI.removeAndHide(<malisisdoors:forcefielditem>);
 mods.jei.JEI.removeAndHide(<malisisdoors:door_factory>);
 mods.jei.JEI.removeAndHide(<malisisdoors:carriage_door>);
+mods.jei.JEI.removeAndHide(<malisisdoors:medieval_door>);
+
 
 mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_acacia>);
 mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_birch>);
