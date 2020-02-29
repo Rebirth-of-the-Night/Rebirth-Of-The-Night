@@ -16,38 +16,38 @@
 // boss buff time!
 {
     "mob": "betteranimalsplus:hirschgeist",
-    "onjoin": true,
-    "potion": "minecraft:fire_resistance,10000000,",
-	"potion": "wards:effect_projectile_protection,1000000,7",
-	"potion": "potioncore:solid_core,1000000,2",
-	"potion": "minecraft:regeneration,1000000,2",
-	"potion": "potioncore:purity,1000000,1"
+	"onjoin": true,
+    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "extraalchemy:effect.dislocation,20,2", "potioncore:teleport_surface,10,1"]
   },
   
+// {
+ //   "mob": "betteranimalsplus:hirschgeist",
+//	"onjoin": true,
+//    "potion": "minecraft:fire_resistance,1000000,1",
+//	"potion": "wards:effect_projectile_protection,1000000,5",
+//	"potion": "minecraft:regeneration,1000000,1",
+//	"potion": "potioncore:purity,1000000,2",
+//	"potion": "extraalchemy:effect.dislocation,1000000,2"
+//  },
+  
+
 {
     "mob": "aether_legacy:valkyrie_queen",
-	"dimension": 4,
-    "onjoin": true,
-    "potion": "potioncore:reach,1000000,2",
-	"potion": "potioncore:magic_shield,1000000,2",
-	"potion": "wards:effect_projectile_protection,1000000,5",
-	"potion": "potioncore:solid_core,1000000,2"
+	"onjoin": true,
+    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,0", "potioncore:solid_core,100000,2", "potioncore:magic_shield,1000000,2"]	
   },
   
 // mob special effects  
    {
     "mob": "mowziesmobs:frostmaw",
     "onjoin": true,
-	"potion": "extraalchemy:effect.pacifism,1000000,1",
-	"potion": "wards:effect_projectile_protection,1000000,2"
+	"potion": ["extraalchemy:effect.pacifism,1000000,1", "minecraft:regeneration,1000000,0"]
   },
   
    {
     "mob": "mod_lavacow:sludgelord",
     "onjoin": true,
-    "potion": "minecraft:fire_resistance,10000000,1",
-	"potion": "minecraft:regeneration,1000000,2",
-	"potion": "wards:effect_projectile_protection,1000000,3"
+    "potion": ["minecraft:fire_resistance,1000000,1", "minecraft:regeneration,1000000,0", "wards:effect_projectile_protection,1000000,10"]
   },
 
 // no creeper, aww man
@@ -341,7 +341,7 @@
         "perplayer": true
     },
     "result": "allow",
-	"potion": "potioncore:recoil,10000000,1"
+	"potion": "potioncore:recoil,1000000,1"
  },
  {
     "dimension": -1,
@@ -2022,10 +2022,7 @@
         "perplayer": true
     },
     "result": "allow",
-	"potion": "mowziesmobs:poison_resist,1000000,2",
-	"potion": "minecraft:regeneration,1000000,1",
-	"potion": "potioncore:purity,1000000,1",
-	"potion": "potioncore:magic_shield,1000000,2"
+	"potion": ["mowziesmobs:poison_resist,1000000,2", "minecraft:regeneration,1000000,1", "potioncore:purity,1000000,1", "potioncore:magic_shield,1000000,2"]
  },
  {
     "dimension": 0,
@@ -2338,7 +2335,7 @@
 	"maxlight": 15,
     "minlight": 0,
     "maxcount": {
-        "amount": 12,
+        "amount": 10,
         "perplayer": true
     },
     "result": "allow"
@@ -2353,11 +2350,11 @@
     "dimension": 4,
     "mob": "iceandfire:stymphalianbird",
     "gamestage": "fullEarlyArmor",
-	"random": 0.05,
+	"random": 0.03,
 	"maxlight": 9,
     "minlight": 0,
     "maxcount": {
-        "amount": 5,
+        "amount": 1,
         "perplayer": true
     },
     "result": "allow"

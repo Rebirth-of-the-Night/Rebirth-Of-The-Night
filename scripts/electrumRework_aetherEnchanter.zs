@@ -435,6 +435,9 @@ mods.aether_legacy.Enchanter.registerEnchantment(<netherex:frosted_amedian_shove
 mods.aether_legacy.Enchanter.registerEnchantment(<netherex:frosted_amedian_hoe>, 9600);
 mods.aether_legacy.Enchanter.registerEnchantment(<netherex:frosted_amedian_sword>, 9600);
 
+//Epic Weapons
+mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:sludge_wand>, 12000);
+
 //Legendary Weapons
 mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:notch_hammer>, 72000);
 mods.aether_legacy.Enchanter.registerEnchantment(<endreborn:ender_sword>, 72000);

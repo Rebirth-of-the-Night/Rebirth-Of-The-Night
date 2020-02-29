@@ -15,7 +15,14 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 ]);
 
 
-
+// heart of diamond
+mods.betterwithmods.Anvil.addShaped(<quark:diamond_heart>, 
+[
+   [<bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>],
+   [<arcanearchives:shaped_quartz>, <minecraft:diamond>, <minecraft:diamond>, <bountifulbaubles:spectralsilt>],
+   [<bountifulbaubles:spectralsilt>, <minecraft:diamond>, <minecraft:diamond>, <arcanearchives:shaped_quartz>],
+   [<arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>]
+]);
 
 // pipes
 mods.betterwithmods.Anvil.addShaped(<quark:pipe> * 12, 

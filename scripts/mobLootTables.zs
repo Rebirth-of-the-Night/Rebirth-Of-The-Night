@@ -181,6 +181,56 @@ filch41.addItemEntry(<biomesoplenty:gem:2>, 1);
 val filch42 = stealFilch.addPool("filch_lizard_042", 1, 1, 0, 0);
 filch42.addItemEntry(<biomesoplenty:gem:6>, 1);
 
+//nuggs
+val filch44 = stealFilch.addPool("filch_lizard_044", 1, 1, 0, 0);
+filch44.addItemEntry(<contenttweaker:material_part:16>, 1);
+
+val filch45 = stealFilch.addPool("filch_lizard_045", 1, 1, 0, 0);
+filch45.addItemEntry(<contenttweaker:material_part:10>, 1);
+
+val filch46 = stealFilch.addPool("filch_lizard_046", 1, 1, 0, 0);
+filch46.addItemEntry(<contenttweaker:material_part:8>, 1);
+
+//lizard want shiny from arcane archives
+val filch47 = stealFilch.addPool("filch_lizard_047", 1, 1, 0, 0);
+filch47.addItemEntry(<arcanearchives:raw_quartz>, 1);
+
+val filch48 = stealFilch.addPool("filch_lizard_048", 1, 1, 0, 0);
+filch48.addItemEntry(<arcanearchives:shaped_quartz>, 1);
+
+val filch49 = stealFilch.addPool("filch_lizard_049", 1, 1, 0, 0);
+filch49.addItemEntry(<arcanearchives:containment_field>, 1);
+
+val filch50 = stealFilch.addPool("filch_lizard_050", 1, 1, 0, 0);
+filch50.addItemEntry(<arcanearchives:matrix_brace>, 1);
+
+val filch51 = stealFilch.addPool("filch_lizard_051", 1, 1, 0, 0);
+filch51.addItemEntry(<arcanearchives:material_interface>, 1);
+
+val filch52 = stealFilch.addPool("filch_lizard_052", 1, 1, 0, 0);
+filch52.addItemEntry(<arcanearchives:radiant_dust>, 1);
+
+val filch53 = stealFilch.addPool("filch_lizard_053", 1, 1, 0, 0);
+filch53.addItemEntry(<arcanearchives:scintillating_inlay>, 1);
+
+val filch54 = stealFilch.addPool("filch_lizard_054", 1, 1, 0, 0);
+filch54.addItemEntry(<arcanearchives:radiant_key>, 1);
+
+val filch55 = stealFilch.addPool("filch_lizard_055", 1, 1, 0, 0);
+filch55.addItemEntry(<arcanearchives:quartz_sliver>, 1);
+
+val filch56 = stealFilch.addPool("filch_lizard_056", 1, 1, 0, 0);
+filch56.addItemEntry(<arcanearchives:monitoring_crystal>, 1);
+
+val filch57 = stealFilch.addPool("filch_lizard_057", 1, 1, 0, 0);
+filch57.addItemEntry(<bountifulbaubles:amuletcross>, 1);
+
+val filch58 = stealFilch.addPool("filch_lizard_058", 1, 1, 0, 0);
+filch58.addItemEntry(<mod_lavacow:canebeef>, 1);
+
+val filch59 = stealFilch.addPool("filch_lizard_059", 1, 1, 0, 0);
+filch59.addItemEntry(<minecraft:experience_bottle>, 1);
+
 
 //New Haunted Tools
 //wood
