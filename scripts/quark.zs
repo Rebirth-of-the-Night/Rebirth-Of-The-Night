@@ -21,6 +21,18 @@ mods.jei.JEI.removeAndHide(<quark:candle:13>);
 mods.jei.JEI.removeAndHide(<quark:candle:14>);
 mods.jei.JEI.removeAndHide(<quark:candle:15>);
 
+mods.jei.JEI.removeAndHide(<quark:brick_wall>);
+mods.jei.JEI.removeAndHide(<quark:stone_granite_wall>);
+mods.jei.JEI.removeAndHide(<quark:stone_diorite_wall>);
+mods.jei.JEI.removeAndHide(<quark:stone_andesite_wall>);
+mods.jei.JEI.removeAndHide(<quark:sandstone_wall>);
+mods.jei.JEI.removeAndHide(<quark:red_sandstone_wall>);
+mods.jei.JEI.removeAndHide(<quark:stonebrick_wall>);
+mods.jei.JEI.removeAndHide(<quark:stonebrick_mossy_wall>);
+mods.jei.JEI.removeAndHide(<quark:prismarine_rough_wall>);
+mods.jei.JEI.removeAndHide(<netherex:nether_brick_wall>);
+mods.jei.JEI.removeAndHide(<netherex:red_nether_brick_wall>);
+
 recipes.removeByRecipeName("quark:chest_minecart");
 recipes.removeByRecipeName("quark:stone_shovel");
 recipes.removeByRecipeName("quark:stone_pickaxe");

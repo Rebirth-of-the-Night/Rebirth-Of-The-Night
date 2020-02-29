@@ -4,10 +4,24 @@ item.aether_legacy:enchanted_cockatrice.name=Enchanted Kelenk Meat
 item.aether_legacy:cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
 item.cockatrice.name=Kelenk Meat
 item.burnt_cockatrice.name=Burnt Kelenk Meat
-item.burnt_cockatrice.name=Burnt Kelenk Meat
 item.cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
 
 entity.aether_legacy.cockatrice.name=Kelenk
 entity.cockatrice.name=Kelenk
-entity.aether_legacy:cockatrice.name=Kelenk
 
+﻿item.aether_legacy:skyroot_slab.name=Skyroot Slab
+﻿item.aether_legacy:carved_slab.name=Carved Slab
+﻿item.aether_legacy:angelic_slab.name=Angelic Slab
+﻿item.aether_legacy:hellfire_slab.name=Hellfire Slab
+﻿item.aether_legacy:holystone_slab.name=Holystone Slab
+﻿item.aether_legacy:mossy_holystone_slab.name=Mossy Holystone Slab
+﻿item.aether_legacy:holystone_brick_slab.name=Holystone Brick Slab
+﻿item.aether_legacy:aerogel_slab.name=Aerogel Slab
+﻿item.skyroot_slab.name=Skyroot Slab
+﻿item.angelic_slab.name=Angelic Slab
+﻿item.carved_slab.name=Carved Slab
+﻿item.hellfire_slab.name=Hellfire Slab
+﻿item.holystone_slab.name=Holystone Slab
+﻿item.mossy_holystone_slab.name=Mossy Holystone Slab
+﻿item.holystone_brick_slab.name=Holystone Brick Slab
+﻿item.aerogel_slab.name=Aerogel Slab

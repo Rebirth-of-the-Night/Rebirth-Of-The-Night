@@ -15,6 +15,7 @@
 <aether_legacy:mossy_holystone_slab>.displayName = "Mossy Holystone Slab";
 <aether_legacy:holystone_brick_slab>.displayName = "Holystone Brick Slab";
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
+<aether_legacy:skyroot_slab>.displayName = "Aether Legacy Slab";
 
 //End Reborn III
 <endreborn:tool_hammer_iron>.displayName = "Iron Sledgehammer";
@@ -101,6 +102,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Better Nether
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
 <betternether:stalagnate_bark>.displayName = "Stalagnate Bark Block";
+<betternether:nether_brick_wall>.displayName = "Nether Brick Tile Wall";
+
 
 //Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
