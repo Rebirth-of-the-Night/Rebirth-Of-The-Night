@@ -212,12 +212,12 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 
 
-<iceandfire:dragonbone_sword>.displayName = "§5Dragon Bone Sword";
+<iceandfire:dragonbone_sword>.displayName = "§5Dragonbone Sword";
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
 <mowziesmobs:wrought_axe>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
-<mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Weapon"));
+<mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
 <mowziesmobs:ice_crystal>.addTooltip(format.darkPurple("Epic Weapon"));
 <iceandfire:myrmex_desert_staff>.displayName = "§5Desert Myrmex Staff";
@@ -267,11 +267,11 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 
 <dungeontactics:lantern_magic>.displayName = "§6Magic Lantern";
-<dungeontactics:lantern_magic>.addTooltip(format.gold("Legendary"));
+<dungeontactics:lantern_magic>.addTooltip(format.gold("Legendary Artifact"));
 
 <aether_legacy:notch_hammer>.displayName = "§6Hammer of Miku";
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
-<aether_legacy:notch_hammer>.addTooltip("Also a sledgehammer");
+<aether_legacy:notch_hammer>.addTooltip("Also functions as a sledgehammer.");
 <endreborn:ender_sword>.displayName = "§6Void Ripper";
 <endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
 
@@ -333,9 +333,10 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 <msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
 <msmlegacy:aethers_guard>.addTooltip(format.gold("Legendary Weapon"));
+
 <iceandfire:gorgon_head>.displayName = "§6Gorgon Head";
-<iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragon Bone Sword";
-<iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragon Bone Sword";
+<iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragonbone Sword";
+<iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragonbone Sword";
 <iceandfire:hippogryph_sword>.displayName = "§6Hippogryph Talon Sword";
 <iceandfire:deathworm_gauntlet_yellow>.displayName = "§6Yellow Deathworm Gauntlet";
 <iceandfire:deathworm_gauntlet_white>.displayName = "§6White Deathworm Gauntlet";
@@ -370,7 +371,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <msmlegacy:crystaline_blade>.addTooltip(format.red("Godly Weapon"));
 
 <mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman";
-<mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Weapon"));
+<mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Artifact"));
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
