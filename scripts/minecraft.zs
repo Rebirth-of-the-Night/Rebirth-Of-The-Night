@@ -111,16 +111,6 @@ potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
 
 
-
-
-
-//lore
-mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
-
-
-
-
-
 //Ore Dictionary Entries
 
 val allStoneSlab = <ore:stoneSlab>;
@@ -158,6 +148,9 @@ biotiteOre.add(<quark:biotite_ore>);
 
 val redstone = <ore:gemRedstone>;
 redstone.add(<minecraft:redstone>);
+
+val glue = <ore:glue>;
+glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
 
 val mushroom = <ore:mushroomAny>;
 mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
@@ -203,6 +196,7 @@ rawVenison.add(<twilightforest:raw_venison>);
 
 val cookedVenison = <ore:listAllvenisoncooked>;
 cookedVenison.add(<twilightforest:cooked_venison>);
+
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);

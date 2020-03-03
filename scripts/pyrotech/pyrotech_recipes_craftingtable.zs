@@ -137,10 +137,16 @@ recipes.addShaped("pyro stone tank", <pyrotech:tank>,
  [[<pyrotech:material:16>,<ore:blockGlassColorless>,<pyrotech:material:16>],
   [<ore:blockGlassColorless>,<ore:slimeball>,<ore:blockGlassColorless>],
   [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]]);
+recipes.addShaped("pyro stone faucet", <pyrotech:faucet_stone>*2,
+ [[stoneBrick,null,stoneBrick],
+  [stoneBrick,stoneBrick,stoneBrick]]);
 recipes.addShaped("pyro stone hammer tool", <pyrotech:stone_hammer>,
  [[<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
   [<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
   [null,<ore:stickWood>,null]]);
+recipes.addShaped("pyro clay bucket", <pyrotech:bucket_clay_unfired>,
+ [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
+  [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
 recipes.addShapeless("pyro flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<minecraft:flint>]);
 furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
