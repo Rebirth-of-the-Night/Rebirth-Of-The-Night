@@ -36,7 +36,7 @@ mods.jei.JEI.addDescription(<betterwithmods:saw>,"Requires continuous mechanical
 
 mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
 
-mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a manifestation of your nightmares will be summoned when you awaken.");
+mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken.");
 
 mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Most Puffbulbs were long since consumed by the corruption of the Beneath. Perhaps they could be reawakened by a powerful magic reaction, such as the mining of a mystical ore.");
 
@@ -70,13 +70,13 @@ mods.jei.JEI.addDescription(<quark:soul_bead>,"Consuming the bead releases the t
 # Diamond Heart
 mods.jei.JEI.addDescription(<quark:diamond_heart>,"A rare heart of living mineral ripped from the core of the world and restored to life with magic.");
 # Sap
-mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material left behind by grove sprites. It can turn species of wood into this item onw species, but most interesting, when combined with some dense liquids it makes for an extremely strong glue");
+mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material left behind by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong glue.");
 # Faucet
-mods.jei.JEI.addDescription(<pyrotech:faucet_stone>,"On interaction, it will substract any liquid from a container to another one below itself, can be powered with redstone");
+mods.jei.JEI.addDescription(<pyrotech:faucet_stone>,"When interacted with via right-click, it will start to drain any liquid from one container to another container below itself. Right-click again to stop the faucet's flow. Can be powered with redstone.");
 # Coal
-mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires a proper kiln, as just a simple furnace won't suffice."]);
+mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires a proper kiln. A simple furnace just won't suffice."]);
 # Torch
-mods.jei.JEI.addDescription([<minecraft:torch>],["Much more practical than a fire starter, at least when you want to light up your surroundings."]);
+mods.jei.JEI.addDescription([<minecraft:torch>],["An adventurer's best friend."]);
 # Endstone
 mods.jei.JEI.addDescription([<minecraft:end_stone>],["Some have seen this paradimensional stone floating around in the Overworld."]);
 # Codex
@@ -86,7 +86,7 @@ mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher a
 # Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
 # Pointy thingy
-mods.jei.JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword I guess? Very low durability, but these can be stacked.");
+mods.jei.JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword, it's mostly useful to newly-stranded survivors in unfamiliar lands. Very low durability, but these can be stacked.");
 # Generic transition portal
 mods.jei.JEI.addDescription(<dimstack:portal>,"Getting past these will take you to places...");
 # transition portal 0
@@ -96,7 +96,7 @@ mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for
 # Handle 1
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");
 # Amethyst
-mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beatiful gem native to the lands of the Pig and the Ender people. Some testificates in the coldest places collect this gem using unkown methods.");
+mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beatiful gem native to the lands of the Pig and the Ender people. Some villagers in the coldest of places collect this gem through unknown methods.");
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
 # Copper tin
@@ -114,10 +114,10 @@ mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization
 # Spell Scroll
 mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>, 'A gate to unhibited magic power and a variety of different spells. Scholars can find more knowledge in "Magic."');
 # Aqueducts
-mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long distance water transport. Aqueducts will carry water exclusively from biomes which are abundant in water, other sources won't suffice.");
-mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to long distance water transport. Aqueducts will carry water exclusively from biomes which are abundant in water, other sources won't suffice.");
-mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long distance water transport. Aqueducts will carry water exclusively from biomes which are abundant in water, other sources won't suffice.");
-mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"Aqueducts aren't seen these days, the people of the sands didn't have access to wells like today's villages.");
+mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
+mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
+mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
+mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
 
 
 # Runes
