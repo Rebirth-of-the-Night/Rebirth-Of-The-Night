@@ -4,7 +4,7 @@ mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Used to create many tr
 
 mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-hand and the duct tape in your main hand. Right click to repair. Items can only be repaired with duct tape until they reach Duct Taped V");
 
-
+mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 ///////////////////// SILVER ///////////////////
 
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);

@@ -18,6 +18,8 @@ recipes.replaceAllOccurences(<minecraft:brown_mushroom>, <ore:listAllmushroom>, 
 }));
 recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <minecraftfuture:suspiciousstew>);
 recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <betternether:stalagnate_bowl_mushroom>);
+recipes.replaceAllOccurences(<minecraft:cobblestone>, <ore:cobblestone>, <wards:ward>);
+recipes.replaceAllOccurences(<minecraft:stone_slab>, <ore:stoneSlab>, <wards:ward>);
 
 recipes.removeByRecipeName("minecraft:cake");
 recipes.removeByRecipeName("minecraft:painting");

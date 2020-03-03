@@ -1,6 +1,6 @@
 import crafttweaker.item.IIngredient;
 
-mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A matieral known to be effectively used against undead mobs. Silver is strong in damage and mining speed, but weak in other aspects.");
+mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A material known to be effectively used against undead mobs. Silver is strong in damage and mining speed, but weak in other aspects.");
 
 
 recipes.remove(<iceandfire:dragonsteel_fire_sword>);
@@ -28,3 +28,6 @@ recipes.removeByRecipeName("iceandfire:dragonmeal_alternate");
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_block>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);
+
+recipes.remove(<iceandfire:earplugs>);
+recipes.addShapeless("iceandfire_earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
