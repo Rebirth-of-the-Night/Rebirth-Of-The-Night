@@ -13,13 +13,31 @@ furnace.remove(<minecraft:coal:1>);
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
 recipes.removeByRecipeName("minecraft:rabbit_stew_from_red_mushroom");
-recipes.replaceAllOccurences(<minecraft:brown_mushroom>, <ore:listAllmushroom>, <*>.only(function(item) {
-    return !isNull(item) & !<minecraft:fermented_spider_eye>.matches(item);
-}));
-recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <minecraftfuture:suspiciousstew>);
-recipes.replaceAllOccurences(<minecraft:red_mushroom>, <ore:listAllmushroom>, <betternether:stalagnate_bowl_mushroom>);
-recipes.replaceAllOccurences(<minecraft:cobblestone>, <ore:cobblestone>, <wards:ward>);
-recipes.replaceAllOccurences(<minecraft:stone_slab>, <ore:stoneSlab>, <wards:ward>);
+recipes.removeByRecipeName("minecraft:rabbit_stew_from_brown_mushroom");
+recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>,
+  [[null,<minecraft:cooked_rabbit>,null],
+  [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
+  [null,<minecraft:bowl>,null]]);
+recipes.remove(<betterwithmods:raw_kebab>);
+recipes.addShapeless("betterwithmods_food/raw_kebab", <betterwithmods:raw_kebab>*3, 
+[<ore:listAllmushroom>, <minecraft:carrot>, <ore:listAllmuttonraw>, <ore:stickWood>]);
+recipes.remove(<betterwithmods:raw_omelet>);
+recipes.addShapeless("betterwithmods_food/raw_omelet", <betterwithmods:raw_omelet>*2, 
+[<ore:listAllegg>, <ore:listAllmushroom>, <ore:listAllmushroom>, <ore:listAllmushroom>]);
+recipes.remove(<betteranimalsplus:goatcheese>);
+recipes.addShapeless("betteranimalsplus_milk_to_cheese", <betteranimalsplus:goatcheese>*3, 
+[<betteranimalsplus:goatmilk>, <ore:listAllmushroom>]);
+recipes.remove(<betternether:stalagnate_bowl_mushroom>);
+recipes.addShapeless("betternether_stalagnate_bowl_mushroom", <betternether:stalagnate_bowl_mushroom>, 
+[<ore:mushroomAny>, <ore:mushroomAny>, <betternether:stalagnate_bowl>]);
+recipes.remove(<minecraftfuture:suspiciousstew>);
+recipes.addShapeless("minecraftfuture_stew/sustew", <minecraftfuture:suspiciousstew>, 
+[<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
+recipes.remove(<wards:ward>);
+recipes.addShaped("wards_ward", <wards:ward>,
+  [[null,<minecraft:obsidian>,null],
+  [<minecraft:diamond>,<minecraft:obsidian>,<minecraft:diamond>],
+  [<ore:stoneSlab>,<ore:cobblestone>,<ore:stoneSlab>]]);
 
 recipes.removeByRecipeName("minecraft:cake");
 recipes.removeByRecipeName("minecraft:painting");
@@ -114,6 +132,8 @@ potions_lingering.maxStackSize = 8;
 
 
 //Ore Dictionary Entries
+val buttonWood = <ore:buttonWood>;
+buttonWood.addItems([<aether_legacy:skyroot_button>,<betternether:reeds_button>,<betternether:stalagnate_planks_button>]);
 
 val allStoneSlab = <ore:stoneSlab>;
 allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:0>, <biomesoplenty:other_slab:1>]);
@@ -153,6 +173,9 @@ redstone.add(<minecraft:redstone>);
 
 val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
+
+val flower = <ore:flower>;
+flower.addItems([<biomesoplenty:flower_0:*>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<minecraftfuture:flowerwhite>,<minecraftfuture:flowerblue>,<minecraftfuture:flowerblack>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:*>,<biomesoplenty:flower_1:*>,<endreborn:crop_ender_flower>]);
 
 val mushroom = <ore:mushroomAny>;
 mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
@@ -199,6 +222,8 @@ rawVenison.add(<twilightforest:raw_venison>);
 val cookedVenison = <ore:listAllvenisoncooked>;
 cookedVenison.add(<twilightforest:cooked_venison>);
 
+val egg = <ore:listAllegg>;
+egg.add(<betterwithmods:raw_egg>);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);

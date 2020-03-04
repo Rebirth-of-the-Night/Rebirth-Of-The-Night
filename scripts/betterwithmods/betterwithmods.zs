@@ -65,7 +65,7 @@ mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_bat_wing>],[<mi
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
 mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail
-
+mods.betterwithmods.Cauldron.remove([<betterwithmods:material:13>]);
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:29>]); # blasting oil
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:50>]); # soal
