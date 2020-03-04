@@ -2,6 +2,11 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
+# KNOWN BUGS #
+mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in anyway, including checking recipes for items in JEI while you have an emerald in the payment slot."]);
+
+
+
 #MISCELLANEOUS#
 mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly living crystal. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
 

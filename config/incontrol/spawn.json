@@ -1,8 +1,8 @@
 [
  {
     "dimension": 7,
-    "damagemultiply": 2.5,
-    "healthmultiply": 2.5
+    "damagemultiply": 1.5,
+    "healthmultiply": 1.5
  },
 
  // Max spawn cap

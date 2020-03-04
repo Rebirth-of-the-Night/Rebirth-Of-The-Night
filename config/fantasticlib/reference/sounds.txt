@@ -714,6 +714,10 @@ malisisdoors:carriage_closed
 malisisdoors:rustydoor_opening
 malisisdoors:rustydoor_closing
 malisisdoors:rustydoor_closed
+roughmobsrevamped:entity.boss.boss_spawn
+roughmobsrevamped:entity.boss.boss_idle
+roughmobsrevamped:entity.boss.boss_death
+roughmobsrevamped:entity.boss.boss_batswarm
 zombieawareness:alert
 zombieawareness:target
 zombieawareness:investigate
@@ -1314,6 +1318,8 @@ charm:homing
 charm:whispers
 charm:above_stronghold
 charm:ender_resonance
+patchouli:book_open
+patchouli:book_flip
 beneath:beneath.normal
 beneath:beneath.muffled
 beneath:beneath.drawnout

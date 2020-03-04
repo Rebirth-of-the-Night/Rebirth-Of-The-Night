@@ -70,4 +70,4 @@ GraniteAnvil.addRecipe("halite to salt",<animania:salt>*3, <contenttweaker:halit
 
 
 
-mods.jei.JEI.hide(<minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven measures"}));
+mods.jei.JEI.hide(<minecraft:written_book>.withTag({title: "Dwarven measures"}));

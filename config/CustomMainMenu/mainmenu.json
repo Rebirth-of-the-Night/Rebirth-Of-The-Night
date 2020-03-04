@@ -307,9 +307,23 @@
             "image" : "",
             "slideshow":
             {
-                "images" : ["rotn:textures/background/background3.png","rotn:textures/background/background2.png","rotn:textures/background/background1.png","rotn:textures/background/background4.png","rotn:textures/background/background5.png","rotn:textures/background/background6.png","rotn:textures/background/background7.png","rotn:textures/background/background8.png","rotn:textures/background/background9.png","rotn:textures/background/background10.png"],
+                "images" : ["rotn:textures/background/1.png","rotn:textures/background/2.png","rotn:textures/background/3.png","rotn:textures/background/4.png","rotn:textures/background/5.png",
+                    "rotn:textures/background/6.png","rotn:textures/background/7.png","rotn:textures/background/8.png","rotn:textures/background/9.png",
+                    "rotn:textures/background/10.png","rotn:textures/background/11.png","rotn:textures/background/12.png","rotn:textures/background/13.png","rotn:textures/background/14.png",
+                    "rotn:textures/background/15.png",
+                    "rotn:textures/background/16.png","rotn:textures/background/17.png","rotn:textures/background/18.png","rotn:textures/background/19.png",
+                    "rotn:textures/background/20.png","rotn:textures/background/21.png","rotn:textures/background/22.png","rotn:textures/background/23.png","rotn:textures/background/24.png",
+                    "rotn:textures/background/25.png",
+                    "rotn:textures/background/26.png","rotn:textures/background/27.png","rotn:textures/background/28.png","rotn:textures/background/29.png",
+                    "rotn:textures/background/30.png","rotn:textures/background/31.png","rotn:textures/background/32.png","rotn:textures/background/33.png","rotn:textures/background/34.png",
+                    "rotn:textures/background/35.png",
+                    "rotn:textures/background/36.png","rotn:textures/background/37.png","rotn:textures/background/38.png","rotn:textures/background/39.png",
+                    "rotn:textures/background/40.png","rotn:textures/background/41.png","rotn:textures/background/42.png","rotn:textures/background/43.png","rotn:textures/background/44.png",
+                    "rotn:textures/background/45.png",
+                    "rotn:textures/background/46.png","rotn:textures/background/47.png"],
                 "displayDuration" : 100,
-                "fadeDuration" : 40
+                "fadeDuration" : 40,
+                "shuffle": true
             }
         }
     }

@@ -90,7 +90,6 @@
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
 <mowziesmobs:wrought_axe>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe>.addTooltip("Only damaged by dying");
-<nyx:lunar_water_bottle>.addTooltip("Clears most negative potion effects.");
 
 <minecraft:enchanting_table>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
