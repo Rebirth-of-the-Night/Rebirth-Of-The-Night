@@ -88,11 +88,11 @@
 #Misc.
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
-<mowziesmobs:wrought_axe>.clearTooltip();
+<mowziesmobs:wrought_axe>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe>.addTooltip("Only damaged by dying");
-<mowziesmobs:wrought_axe>.addShiftTooltip("Right-click to swing ", "Hold Shift for more info.");
-<mowziesmobs:wrought_axe>.addShiftTooltip("Shift + right-click to smash the ground");
+<nyx:lunar_water_bottle>.addTooltip("Clears most negative potion effects.");
 
+<minecraft:enchanting_table>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table>.addTooltip("Requires placing an Enchantment Table Upgrade on a regular Enchantment Table.");
 <eplus:table_upgrade>.addTooltip("Shift + right-click on an Enchantment Table to upgrade.");
