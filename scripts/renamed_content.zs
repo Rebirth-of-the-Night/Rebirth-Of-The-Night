@@ -114,6 +114,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
 
+// Bountiful Baubles
+<bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
+
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
