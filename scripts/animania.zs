@@ -12,4 +12,4 @@ recipes.addShaped("animania_bed", <minecraft:bed>,
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 
 recipes.addShapeless("bwmrawegg", <betterwithmods:raw_egg>, [<ore:listAllegg>]);
-recipes.replaceAllOccurences(<ore:woolBlock>, <ore:wool>);
+//recipes.replaceAllOccurences(<ore:woolBlock>, <ore:wool>);
