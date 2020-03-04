@@ -7,7 +7,6 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:katana_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:saber_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_wood>);
-//mods.jei.JEI.removeAndHide(<spartanweaponry:hammer_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:spear_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_wood>);
@@ -15,9 +14,7 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:pike_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:lance_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_wood>);
-//mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_wood>);
-//mods.jei.JEI.removeAndHide(<spartanweaponry:mace_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dynamite>);
@@ -59,6 +56,10 @@ function(out, ins, cInfo){
     return ins.left.withDamage(max(0,ins.left.damage - 50));
 });
 
+//Obsidian Shield Bauble
+recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[null, <simpleores:onyx_gem>, null],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [null, <spartanshields:shield_basic_obsidian>, null]]);
+//Ankh Shield Bauble
+recipes.addShaped(<bountifulbaubles:shieldankh>, [[<spartanshields:shield_basic_diamond>, <bountifulbaubles:shieldobsidian>, <spartanshields:shield_basic_diamond>],[<endreborn:item_end_essence>, <bountifulbaubles:trinketankhcharm>, <endreborn:item_end_essence>], [<spartanshields:shield_basic_diamond>, <spartanshields:shield_basic_lead>, <spartanshields:shield_basic_diamond>]]);
 
 
 
