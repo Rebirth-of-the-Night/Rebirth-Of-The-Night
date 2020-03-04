@@ -134,8 +134,8 @@ recipes.addShaped("pyro stash", <pyrotech:stash>,
   [<ore:plankWood>,null,<ore:plankWood>],
   [<ore:plankWood>,<ore:chestWood>,<ore:plankWood>]]);
 recipes.addShaped("pyro stone tank", <pyrotech:tank>,
- [[<pyrotech:material:16>,<ore:blockGlassColorless>,<pyrotech:material:16>],
-  [<ore:blockGlassColorless>,<ore:slimeball>,<ore:blockGlassColorless>],
+ [[<pyrotech:material:16>,<minecraft:glass>,<pyrotech:material:16>],
+  [<minecraft:glass>,<ore:slimeball>,<minecraft:glass>],
   [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]]);
 recipes.addShaped("pyro stone faucet", <pyrotech:faucet_stone>*2,
  [[stoneBrick,null,stoneBrick],

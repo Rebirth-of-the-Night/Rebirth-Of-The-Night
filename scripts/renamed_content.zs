@@ -33,7 +33,7 @@
 // Better with mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
-<betterwithmods:cooking_pot>.displayName = "Cooking Cauldon";
+<betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldon";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";

@@ -158,10 +158,10 @@ val mushroom = <ore:mushroomAny>;
 mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<primitivemobs:dodo>,<betterwithmods:mystery_meat>,<twilightforest:raw_venison>]);
+rawMeat.addItems([<primitivemobs:dodo>,<betterwithmods:mystery_meat>,<twilightforest:raw_venison>,<betterwithmods:bat_wing>]);
 
 val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.addItems([<primitivemobs:cooked_dodo>,<betterwithmods:cooked_mystery_meat>,<twilightforest:cooked_venison>]);
+cookedMeat.addItems([<primitivemobs:cooked_dodo>,<betterwithmods:cooked_mystery_meat>,<twilightforest:cooked_venison>,<betterwithmods:cooked_bat_wing>]);
 
 val rawChicken = <ore:listAllchickenraw>;
 rawChicken.addItems([<primitivemobs:dodo>,<animania:raw_prime_chicken>,<animania:raw_peacock>,<animania:raw_prime_peacock>,<aether_legacy:cockatrice>,<aether_legacy:enchanted_cockatrice>]);

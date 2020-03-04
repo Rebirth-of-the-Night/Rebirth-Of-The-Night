@@ -17,16 +17,12 @@ mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>,
 ]);   
 
 //Gemcutter's Table
-val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;
-magicgoldPaneOredict.add(<betternether:quartz_glass_framed_pane>);
-magicgoldPaneOredict.add(<aether_legacy:quicksoil_glass_pane>);
-
 recipes.remove(<arcanearchives:gemcutters_table>);
 mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>, 
 [
    [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>],
-   [<ore:otherworldlyGoldPane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
-   [<ore:otherworldlyGoldPane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
+   [<betternether:quartz_glass_framed_pane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
+   [<betternether:quartz_glass_framed_pane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
    [<dungeontactics:magic_scroll>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>]
 ]);   
 
