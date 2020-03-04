@@ -79,6 +79,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // BOP
 <biomesoplenty:biome_essence>.displayName = "Light Essence";
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
+<biomesoplenty:flower_0:14>.displayName = "Valley Lily";
+<biomesoplenty:double_plant:0>.displayName = "Flax Flower";
 
 //ATOP
 <atop:mud_axe>.displayName = "Bronze Axe";
