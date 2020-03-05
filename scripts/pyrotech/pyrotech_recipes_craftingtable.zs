@@ -94,6 +94,9 @@ mods.jei.JEI.hideCategory("pyrotech.brick.oven");
 mods.jei.JEI.hideCategory("pyrotech.brick.crucible");
 mods.jei.JEI.hideCategory("pyrotech.mechanical.compacting.bin");
 
+furnace.remove(<pyrotech:mushroom_red_roasted>);
+furnace.remove(<pyrotech:mushroom_brown_roasted>);
+
 //Simplified recipes
 val stone = <ore:stone>;
 val stoneBrick = <pyrotech:material:16>;

@@ -79,6 +79,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // BOP
 <biomesoplenty:biome_essence>.displayName = "Light Essence";
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
+<biomesoplenty:flower_0:14>.displayName = "Valley Lily";
+<biomesoplenty:double_plant:0>.displayName = "Flax Flower";
 
 //ATOP
 <atop:mud_axe>.displayName = "Bronze Axe";
@@ -111,6 +113,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
+
+// Bountiful Baubles
+<bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";

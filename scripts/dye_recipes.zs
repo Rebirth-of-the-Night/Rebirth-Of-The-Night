@@ -17,8 +17,7 @@ recipes.addShapeless("standard dye 2 ",<minecraft:dye:5>,[<ore:toolMortarandpest
 recipes.addShapeless("standard dye 3 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:0>]);
 recipes.addShapeless("standard dye 4 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:1>]);
 recipes.addShapeless("standard dye 5 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:3>]);
-#recipes.addShapeless("standard dye 6 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<mod_lavacow:glowshroom>]);
-recipes.addShapeless("standard dye 7 ",<minecraft:dye:7>,[<ore:toolMortarandpestle>,<aether_legacy:white_flower>]);
+recipes.addShapeless("standard dye 6 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<mod_lavacow:glowshroom>]);
 recipes.addShapeless("standard dye 9 ",<minecraft:dye:7>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:0>]);
 recipes.addShapeless("standard dye 10",<minecraft:dye:7>,[<ore:toolMortarandpestle>,<betternether:gray_mold>]);
 recipes.addShapeless("standard dye 11",<minecraft:dye:8>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:12>]);
@@ -41,6 +40,7 @@ recipes.addShapeless("standard dye 27",<biomesoplenty:brown_dye>,[<ore:toolMorta
 recipes.addShapeless("standard dye 28",<biomesoplenty:brown_dye>*2,[<ore:toolMortarandpestle>,<biomesoplenty:double_plant:1>]);
 recipes.addShapeless("standard dye 29",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:3>]);
 recipes.addShapeless("standard dye 30",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:plant_1:4>]);
+recipes.addShapeless("standard dye 7",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<aether_legacy:white_flower>]);
 recipes.addShapeless("standard dye 31",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:9>]);
 recipes.addShapeless("standard dye 32",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:14>]);
 recipes.addShapeless("standard dye 33",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerwhite>]);
@@ -63,7 +63,7 @@ mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:8>],[<minecraft:dye:
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_1:0>],[<minecraft:dye:5>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:1>],[<minecraft:dye:6>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:3>],[<minecraft:dye:6>*2]);
-#mods.betterwithmods.Mill.addRecipe([<mod_lavacow:glowshroom>],[<minecraft:dye:6>*2]);
+mods.betterwithmods.Mill.addRecipe([<mod_lavacow:glowshroom>],[<minecraft:dye:6>*2]);
 mods.betterwithmods.Mill.addRecipe([<aether_legacy:white_flower>],[<minecraft:dye:7>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:3>],[<minecraft:dye:7>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:0>],[<minecraft:dye:7>*2]);
