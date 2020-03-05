@@ -31,7 +31,17 @@ recipes.addShaped("scalinghealth medkit 6", <scalinghealth:healingitem:1>,
 [<scalinghealth:healingitem>, <aether_legacy:healing_stone>, <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:fiberHemp>, <minecraft:string>]]);
 
+recipes.addShapeless(<mod_lavacow:cursed_bandage>*5, [<scalinghealth:healingitem:1>]);
+<mod_lavacow:cursed_bandage>.displayName = "Pet Bandage";
+
+recipes.remove(<mod_lavacow:cursed_bandage>);
+recipes.addShaped("pet_bandage", <mod_lavacow:cursed_bandage>*20, 
+[[<mod_lavacow:cursed_fabric>, <ore:fiberHemp>, <mod_lavacow:cursed_fabric>], 
+[<mod_lavacow:cursed_fabric>, <ore:fiberHemp>, <mod_lavacow:cursed_fabric>], 
+[<mod_lavacow:cursed_fabric>, <ore:fiberHemp>, <mod_lavacow:cursed_fabric>]]);
+
 recipes.removeByRecipeName("scalinghealth:bandages");
+
 
 recipes.addShapeless("trilium bandage", <scalinghealth:healingitem>,
  [<ore:fiberHemp>,<ore:fiberHemp>,<betteranimalsplus:trillium>]);

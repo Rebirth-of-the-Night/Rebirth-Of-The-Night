@@ -199,8 +199,8 @@ mods.jei.JEI.addDescription(<simpleores:mythril_shovel>,"An elegant design for a
 mods.jei.JEI.addDescription(<simpleores:mythril_hoe>,"Capable of reaping all those pesky crops.");
 
 # Onyx
-mods.jei.JEI.addDescription(<simpleores:onyx_ore>,"Despite having a striking resemblance to Overworld's onyx, it's the one found only in the nether that has the properties that make it known as the hardest material in existance.");
-mods.jei.JEI.addDescription(<simpleores:onyx_gem>,"Onyx is found in the Nether. Despite its crystalline appearance, it is extremely tough, and is the hardest known material. Both Mythril and Soul Forged Steel are strong enough to break it out of veins.");
+mods.jei.JEI.addDescription(<simpleores:onyx_ore>,"Onyx is found in the Nether. Despite its crystalline appearance, it is extremely tough, and is one of the hardest known materials. Both Mythril and Soulforged Steel are strong enough to break it into chunks.");
+mods.jei.JEI.addDescription(<simpleores:onyx_gem>,"Onyx is found in the Nether. Despite its crystalline appearance, it is extremely tough, and is one of the hardest known materials. Both Mythril and Soulforged Steel are strong enough to break it into chunks like these.");
 mods.jei.JEI.addDescription(<simpleores:onyx_block>,"Perhaps the hardest material to have ever existed. Somehow, in the hands of an expert craftsperson, it becomes quite malleable, but few have seen this mineral and lived to tell the tale.");
 mods.jei.JEI.addDescription(<simpleores:onyx_helmet>,"Heavy-duty protection. Armor doesn't get much better than this.");
 mods.jei.JEI.addDescription(<simpleores:onyx_chestplate>,"Heavy-duty protection. Armor doesn't get much better than this.");
