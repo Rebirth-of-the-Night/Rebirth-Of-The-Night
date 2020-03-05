@@ -265,10 +265,6 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 
 #Legendary
-<simpleores:onyx_bow>.displayName = "§6Onyx Bow";
-<simpleores:onyx_bow>.addTooltip(format.gold("Legendary Weapon"));
-<betterwithaddons:greatbow>.displayName = "§6Onyx Slayer Greatbow";
-<betterwithaddons:greatbow>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_sword>.displayName = "§6Onyx Sword";
 <simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";
@@ -394,6 +390,13 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 
 # Godly
+
+
+
+<betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
+<betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
+
+
 <msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
 <msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
 
@@ -411,6 +414,12 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
+
+<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
+<msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
+<msmlegacy:crystaline_blade>.addTooltip("Light purifies all");
+<msmlegacy:wither_bane>.addTooltip("Darkness consumes the unworthy");
+<msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
 
 
 # Relics

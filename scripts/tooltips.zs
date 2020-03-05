@@ -80,10 +80,6 @@
 
 
 # Weapons
-<msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
-<msmlegacy:crystaline_blade>.addTooltip("There will be light.");
-<msmlegacy:dawn_star>.addTooltip("Darkness consumes the unworthy.");
-<msmlegacy:glacial_blade>.addTooltip("The power of an entire species in one sword.");
 
 #Misc.
 <wards:enchanted_paper>.addTooltip("Used to power Wards");

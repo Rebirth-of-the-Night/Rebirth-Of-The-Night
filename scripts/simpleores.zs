@@ -93,7 +93,7 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_sword>, [
 ]);
 mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_bow>, [
    [null, null, null, mrod],
-   [null, neths, myth, strings],
+   [null, diam, myth, strings],
    [null, myth, strings, null],
    [mrod, strings, null, null]
 ]);
@@ -135,8 +135,8 @@ mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatbow>);
 <betterwithaddons:greatbow>.maxDamage = 1000;
 mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatbow>.withTag({ench:[{lvl: 1 as short, id: 50 as short}]}), [
    [null, null, null, orod],
-   [null, diam, onyx, onyx],
-   [null, onyx, mbow, null],
+   [null, <minecraft:nether_star>, orod, onyx],
+   [null, orod, mbow, null],
    [orod, onyx, null, null]
 ]);
 mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_pickaxe>, [
@@ -207,7 +207,7 @@ mods.jei.JEI.addDescription(<simpleores:onyx_chestplate>,"Heavy-duty protection.
 mods.jei.JEI.addDescription(<simpleores:onyx_leggings>,"Heavy-duty protection. Armor doesn't get much better than this.");
 mods.jei.JEI.addDescription(<simpleores:onyx_boots>,"Heavy-duty protection. Armor doesn't get much better than this.");
 mods.jei.JEI.addDescription(<simpleores:onyx_sword>,"The sheer magnitude of this thing is enough to give any monster a hard time, especially in tandem with the onyx bow.");
-mods.jei.JEI.addDescription(<betterwithaddons:greatbow>,"The tension built by this bow paired with its twin sword is enough to make it a true beast slayer. Only a greatarrow can withstand such pressure.");
+mods.jei.JEI.addDescription(<betterwithaddons:greatbow>,"The tension built by this bow paired with its twin sword will iradicate any living being that stands in its way. Only a greatarrow can withstand such pressure.");
 mods.jei.JEI.addDescription(<simpleores:onyx_pickaxe>,"Ergonomic to a fault. This is a true miner's best friend. Although not quite as adaptable as a Soul Forged Steel Tool");
 mods.jei.JEI.addDescription(<simpleores:onyx_bow>,"OwO? What's this, how did you get it?");
 mods.jei.JEI.addDescription(<simpleores:onyx_axe>,"Chop through wood like butter!");
