@@ -17,7 +17,8 @@ recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 
-recipes.replaceAllOccurences(<minecraft:feather>, <ore:feather>, <betterwithmods:material:41>);
+recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
+recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 

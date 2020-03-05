@@ -25,11 +25,11 @@
 <animania:plain_omelette>.foodValues.hunger = 2;
 <animania:plain_omelette>.foodValues.saturationModifier = 0.2;
 <animania:cheese_omelette>.foodValues.hunger = 4;
-<animania:cheese_omelette>.foodValues.saturationModifier = 0.7;
+<animania:cheese_omelette>.foodValues.saturationModifier = 0.5;
 <animania:bacon_omelette>.foodValues.hunger = 4;
-<animania:bacon_omelette>.foodValues.saturationModifier = 0.7;
+<animania:bacon_omelette>.foodValues.saturationModifier = 0.5;
 <animania:super_omelette>.foodValues.hunger = 7;
-<animania:super_omelette>.foodValues.saturationModifier = 1.5;
+<animania:super_omelette>.foodValues.saturationModifier = 0.7;
 
 //I don't know where to put this so it is going here and you're gonna just deal with it ok?
 recipes.remove(<betterwithmods:donut>);
