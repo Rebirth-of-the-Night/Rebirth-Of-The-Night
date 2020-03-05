@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"You feel enlightened as you touch this sword for the first time. You have hope the gods are watching over you.","color":"light_purple","italic":true}]

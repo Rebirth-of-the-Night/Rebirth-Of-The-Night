@@ -1,4 +1,4 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-tellraw @p ["",{"text":" The barrier trembles. You sense a foul presence yearning to break free...","color":"dark_red"}]
+tellraw @p ["",{"text":" The barrier trembles. You sense a foul presence yearning to break free...","color":"dark_red","italic":true}]
 playsound zombieawareness:investigate ambient @p ~ ~ ~ 0.8 0.1

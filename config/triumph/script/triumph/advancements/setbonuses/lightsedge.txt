@@ -13,4 +13,4 @@ criteria.addItem("msmlegacy:crystaline_blade")
 
 alwaysVisible()
 setFrameType("CHALLENGE")
-setPos(-31,-4)
+setPos(-33,40)
