@@ -1,6 +1,6 @@
 setIcon("mod_lavacow:canebeef")
-setTitle("The Sandwich Horror")
-setDescription("Craft Dev Relic 2 of 6 using greens, bread, cursed meat, and ???")
+setTitle("Eldritch Eatin'")
+setDescription("Craft Dev Relic 2 of 6, the Sandwich Horror.")
 
 addParent("triumph:advancements/eastereggs/root")
 
