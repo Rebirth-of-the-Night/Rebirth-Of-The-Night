@@ -18,4 +18,3 @@ recipes.addShapeless("bwmrawegg3", <betterwithmods:raw_egg>, [<animania:brown_eg
 recipes.addShapeless("bwmrawegg4", <betterwithmods:raw_egg>, [<animania:peacock_egg_blue>]);
 recipes.addShapeless("bwmrawegg5", <betterwithmods:raw_egg>, [<animania:peacock_egg_white>]);
 recipes.addShapeless("bwmrawegg6", <betterwithmods:raw_egg>, [<primitivemobs:dodo_egg>]);
-//recipes.replaceAllOccurences(<ore:woolBlock>, <ore:wool>);

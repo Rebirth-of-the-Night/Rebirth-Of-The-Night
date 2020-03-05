@@ -572,8 +572,10 @@
     "equipment_slots": [
       "MAINHAND"
     ],
-    "incompat_mode": 0,
-    "incompatible": [],
+    "incompat_mode": 1,
+    "incompatible": [
+		"mod_lavacow:lifesteal"
+	],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
@@ -1152,14 +1154,14 @@
   {
     "id": "msmlegacy:feast",
     "name": "enchantment.msmlegacy.feast",
-    "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
+    "enabled": false,
+    "hide_on_item": true,
+    "hide_on_book": true,
     "rarity": "COMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 3,
     "custom_evaluations": false,
@@ -1662,8 +1664,10 @@
     "equipment_slots": [
       "MAINHAND"
     ],
-    "incompat_mode": 0,
-    "incompatible": [],
+    "incompat_mode": 1,
+    "incompatible": [
+		mod_lavacow:lifesteal
+	],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
@@ -1892,8 +1896,10 @@
     "equipment_slots": [
       "MAINHAND"
     ],
-    "incompat_mode": 0,
-    "incompatible": [],
+    "incompat_mode": 1,
+    "incompatible": [
+		"mod_lavacow:lifesteal"
+		],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
@@ -3179,11 +3185,11 @@
       "MAINHAND",
       "OFFHAND"
     ],
-    "incompat_mode": 0,
+    "incompat_mode": 1,
     "incompatible": [
     	"minecraft:sharpness",
-	"minecraft:bane_of_arthropods",
-	"minecraft:smite"
+		"minecraft:bane_of_arthropods",
+		"minecraft:smite"
     ],
     "applicability_mode": 0,
     "items_list_mode": 0,

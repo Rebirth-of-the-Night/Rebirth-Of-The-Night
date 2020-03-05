@@ -1,49 +1,67 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketballoon>]);
+val disintRune = <contenttweaker:disint_rune>;
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:shieldcobalt>]);
+disintRune.maxDamage = 6;
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketobsidianskull>]);
+// recipes.addShapeless("disintrune30",<bountifulbaubles:spectralsilt> * 3,[<minecraft:apple>,disintrune.anyDamage().transformDamage()]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketmagiclenses>]);
+// Inert
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketapple>]);
+recipes.addShapeless("disintrune1", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsinempty>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketvitamins>]);
+recipes.addShapeless("disintrune2", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:crowngold>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:ringoverclocking>]);
+// Mundane
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketshulkerheart>]);
+recipes.addShapeless("disintrune3", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketballoon>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:ringfreeaction>]);
+// Arcane
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketbezoar>]);
+recipes.addShapeless("disintrune4", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketobsidianskull>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketblackdragonscale>]);
+recipes.addShapeless("disintrune5", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsingluttony>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketankhcharm>]);
+recipes.addShapeless("disintrune6", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsinpride>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:shieldankh>]);
+recipes.addShapeless("disintrune7", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsinwrath>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketluckyhorseshoe>]);
+recipes.addShapeless("disintrune8", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletcross>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:amuletsinempty>]);
+recipes.addShapeless("disintrune9", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsinpride>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:amuletsingluttony>]);
+// Mystical
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:crowngold>]);
+recipes.addShapeless("disintrune10", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:shieldcobalt>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:amuletsinpride>]);
+recipes.addShapeless("disintrune11", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketmagiclenses>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:amuletsinwrath>]);
+recipes.addShapeless("disintrune12", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:ringoverclocking>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:trinketbrokenheart>]);
+recipes.addShapeless("disintrune13", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketshulkerheart>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:amuletcross>]);
+recipes.addShapeless("disintrune14", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketbezoar>]);
 
-recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <bountifulbaubles:amuletsinpride>]);
+recipes.addShapeless("disintrune15", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketblackdragonscale>]);
+
+recipes.addShapeless("disintrune16", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketluckyhorseshoe>]);
+
+recipes.addShapeless("disintrune17", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketbrokenheart>]);
+
+// Ascended
+
+recipes.addShapeless("disintrune18", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketapple>]);
+
+recipes.addShapeless("disintrune19", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketvitamins>]);
+
+recipes.addShapeless("disintrune20", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:ringfreeaction>]);
+
+recipes.addShapeless("disintrune21", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketankhcharm>]);
+
+recipes.addShapeless("disintrune22", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:shieldankh>]);
+
+
 
 //template
 //recipes.addShapeless(<bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>, <>]);
