@@ -182,7 +182,7 @@ recipes.addShaped("Knightmetal Sword", knightsword,
 recipes.addShaped("Giant Sword", giantsword,
  [[null,giantcobblestone,null],
   [null,giantcobblestone,null],
-  [null,log,wool]]);
+  [null,<twilightforest:giant_log>,null]]);
   
   
   

@@ -36,13 +36,11 @@ mods.jei.JEI.addDescription([<contenttweaker:calamarigold>],["You begin to have 
 <contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/6"));
 
 
-recipes.addShapeless("CalaMariGold", <contenttweaker:calamarigold>,
+recipes.addHiddenShapeless("CalaMariGold", <contenttweaker:calamarigold>,
 	[<harvestcraft:calamarirawitem>,<minecraft:gold_ingot>]);
 
-recipes.addShapeless("CalaMariGold 2", <contenttweaker:calamarigold>,
+recipes.addHiddenShapeless("CalaMariGold 2", <contenttweaker:calamarigold>,
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
-
-mods.jei.JEI.hide(<contenttweaker:calamarigold>);
 
 
 //Sandwich Horror

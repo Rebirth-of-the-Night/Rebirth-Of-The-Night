@@ -18,13 +18,12 @@ recipes.remove(<harvestcraft:presser>);
 recipes.remove(<harvestcraft:saltitem>);
 
 
-recipes.removeByRecipeName("harvestcraft:berryvinaigrettesaladitem");
+recipes.remove(<harvestcraft:berryvinaigrettesaladitem>);
 recipes.addShapeless("harvestcraft_berryvinaigrettesaladitem", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <ore:cropLettuce>, <ore:foodVinegar>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
 recipes.addShapeless("harvestcraft_imitationcrabsticksitem", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:dyeRed>, <ore:flourEqualswheat>, <ore:listAllegg>]);
-
-recipes.replaceAllOccurences(<harvestcraft:frograwitem>, <ore:listAllfrograw>, <harvestcraft:froglegstirfryitem>);
-recipes.replaceAllOccurences(<harvestcraft:crabcookeditem>, <ore:foodCrabcooked>, <harvestcraft:crabkimbapitem>);
-recipes.replaceAllOccurences(<harvestcraft:crabrawitem>, <ore:foodCrabraw>, <harvestcraft:gumboitem>);
+recipes.remove(<harvestcraft:froglegstirfryitem>);
+recipes.addShapeless("harvestcraft_froglegstirfryitem", <harvestcraft:froglegstirfryitem>, 
+[<ore:toolSkillet>, <ore:listAllfrograw>, <ore:cropRice>, <harvestcraft:broccoliitem>, <minecraft:carrot>, <harvestcraft:bellpepperitem>]);
 
 // removes duplicate salt recipes
 recipes.removeByRecipeName("harvestcraft:sausageitem_itemsalt");
@@ -145,6 +144,7 @@ recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_brown_mus
 recipes.removeByRecipeName("harvestcraft:deluxenachoesitem_foodtortillachips_foodsalsa");
 
 recipes.removeByRecipeName("harvestcraft:wovencottonitem_x3");
+recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
