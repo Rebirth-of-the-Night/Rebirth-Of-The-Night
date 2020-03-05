@@ -79,6 +79,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // BOP
 <biomesoplenty:biome_essence>.displayName = "Light Essence";
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
+<biomesoplenty:flower_0:14>.displayName = "Valley Lily";
+<biomesoplenty:double_plant:0>.displayName = "Flax Flower";
 
 //ATOP
 <atop:mud_axe>.displayName = "Bronze Axe";
@@ -111,6 +113,40 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
+
+// Bountiful Baubles
+<bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
+
+// Runes and Magic Items
+<contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
+<bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
+<bountifulbaubles:crowngold>.addTooltip(format.gray("Inert"));
+
+<bountifulbaubles:trinketballoon>.addTooltip(format.darkGreen("Mundane"));
+
+<contenttweaker:disint_rune>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:trinketobsidianskull>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsingluttony>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsinpride>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsinwrath>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletcross>.addTooltip(format.aqua("Arcane"));
+
+<bountifulbaubles:shieldcobalt>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketmagiclenses>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:ringoverclocking>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketshulkerheart>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketbezoar>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketblackdragonscale>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketluckyhorseshoe>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketbrokenheart>.addTooltip(format.darkPurple("Mystical"));
+
+<bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:shieldankh>.addTooltip(format.gold("Ascended"));
+
+<contenttweaker:disint_rune>.addTooltip(format.blue("adito tera"));
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
