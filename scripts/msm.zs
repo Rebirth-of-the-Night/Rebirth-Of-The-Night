@@ -140,12 +140,14 @@ var viridium_sword = <simpleores:adamantium_sword>;
 var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
 
-val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>, <enchantment:msmlegacy:decay>];
+val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>, <enchantment:msmlegacy:decay>, <enchantment:livingenchantment:living>];
 
 var enchantmentMap3 as IData = {};
 
 enchantmentMap3 += enchantments3[0].makeEnchantment(1).makeTag();
 enchantmentMap3 += enchantments3[1].makeEnchantment(3).makeTag();
+enchantmentMap3 += enchantments3[2].makeEnchantment(1).makeTag();
+
 
 recipes.remove(<msmlegacy:wither_bane>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(enchantmentMap3), 

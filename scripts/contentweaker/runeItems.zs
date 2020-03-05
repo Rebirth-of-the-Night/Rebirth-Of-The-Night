@@ -9,4 +9,5 @@ blankRune.register();
 
 val disintRune = mods.contenttweaker.VanillaFactory.createItem("disint_rune");
 disintRune.setCreativeTab(<creativetab:materials.base>);
+disintRune.maxStackSize = 1;
 disintRune.register();

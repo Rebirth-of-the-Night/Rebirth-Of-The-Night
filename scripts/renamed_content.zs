@@ -117,6 +117,37 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
 
+// Runes and Magic Items
+<contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
+<bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
+<bountifulbaubles:crowngold>.addTooltip(format.gray("Inert"));
+
+<bountifulbaubles:trinketballoon>.addTooltip(format.darkGreen("Mundane"));
+
+<contenttweaker:disint_rune>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:trinketobsidianskull>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsingluttony>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsinpride>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsinwrath>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletcross>.addTooltip(format.aqua("Arcane"));
+
+<bountifulbaubles:shieldcobalt>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketmagiclenses>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:ringoverclocking>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketshulkerheart>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketbezoar>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketblackdragonscale>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketluckyhorseshoe>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketbrokenheart>.addTooltip(format.darkPurple("Mystical"));
+
+<bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:shieldankh>.addTooltip(format.gold("Ascended"));
+
+<contenttweaker:disint_rune>.addTooltip(format.blue("adito tera"));
+
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
@@ -235,10 +266,6 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 
 #Legendary
-<simpleores:onyx_bow>.displayName = "§6Onyx Bow";
-<simpleores:onyx_bow>.addTooltip(format.gold("Legendary Weapon"));
-<betterwithaddons:greatbow>.displayName = "§6Onyx Slayer Greatbow";
-<betterwithaddons:greatbow>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_sword>.displayName = "§6Onyx Sword";
 <simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";
@@ -364,6 +391,13 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 
 # Godly
+
+
+
+<betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
+<betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
+
+
 <msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
 <msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
 
@@ -381,6 +415,12 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
+
+<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
+<msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
+<msmlegacy:crystaline_blade>.addTooltip("Light purifies all");
+<msmlegacy:wither_bane>.addTooltip("Darkness consumes the unworthy");
+<msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
 
 
 # Relics
