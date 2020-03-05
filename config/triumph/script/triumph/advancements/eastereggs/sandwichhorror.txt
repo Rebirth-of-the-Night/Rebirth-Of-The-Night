@@ -1,0 +1,12 @@
+setIcon("mod_lavacow:canebeef")
+setTitle("The Sandwich Horror")
+setDescription("Craft Dev Relic 2 of 6 using greens, bread, cursed meat, and ???")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 2", "minecraft:inventory_changed")
+criteria.addItem("mod_lavacow:canebeef")
+
+alwaysVisible()
+hideLines()
+setPos(-333,138)

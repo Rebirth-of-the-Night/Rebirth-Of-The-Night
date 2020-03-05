@@ -4,6 +4,8 @@ setDescription("Craft an Interdimensional Blade")
 
 addParent("triumph:advancements/setbonuses/skyblade")
 
+addRewardFunction("triumph:interdimblade")
+
 criteria = addCriteria("Interdimensional Blade", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:eye_end_blade")
 

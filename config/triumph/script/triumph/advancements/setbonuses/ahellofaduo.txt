@@ -4,6 +4,8 @@ setDescription("Complete the A Hell Of A Duo set.")
 
 addParent("triumph:advancements/setbonuses/hitemhardandfast")
 
+addRewardFunction("triumph:ahellofaduo")
+
 criteria = addCriteria("Onyx Sword", "minecraft:inventory_changed")
 criteria.addItem("simpleores:onyx_sword")
 

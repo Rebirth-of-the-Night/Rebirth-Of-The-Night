@@ -22,7 +22,7 @@
     "separator": "---",
     "for_books": true,
     "for_items": true,
-    "show_domain": true
+    "show_domain": false
   },
   "mod_support": {
     "load_enchantment_descriptions_desc": true,

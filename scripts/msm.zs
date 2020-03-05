@@ -140,7 +140,7 @@ var viridium_sword = <simpleores:adamantium_sword>;
 var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
 
-val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>, <enchantment:msmlegacy:decay>, <enchantment:livingenchantment:living>];
+val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>, <enchantment:msmlegacy:decay>, <enchantment:livingenchantment:enchantment.living>];
 
 var enchantmentMap3 as IData = {};
 
@@ -179,6 +179,11 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(enchant
    [lightessence, lightessence, lightessence, lightessence]
 ]);
 
+// repair
+mods.rockytweaks.Anvil.addRecipe(<msmlegacy:crystaline_blade>.anyDamage(), lightessence, <msmlegacy:crystaline_blade>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 999999));
+});
 
 
 var ice_dragonsteel_sword = <iceandfire:dragonsteel_ice_sword>;

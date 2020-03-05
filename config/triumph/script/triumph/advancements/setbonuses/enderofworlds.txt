@@ -4,6 +4,8 @@ setDescription("You shouldn't have this.")
 
 addParent("triumph:advancements/setbonuses/root")
 
+addRewardFunction("triumph:enderofworlds")
+
 criteria = addCriteria("Ender of Worlds", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:adminium_ark")
 

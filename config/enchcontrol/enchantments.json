@@ -572,7 +572,7 @@
     "equipment_slots": [
       "MAINHAND"
     ],
-    "incompat_mode": 1,
+    "incompat_mode": 0,
     "incompatible": [
 		"mod_lavacow:lifesteal"
 	],
@@ -628,7 +628,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_DESCENSION",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -746,7 +746,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_SCORN",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -830,7 +830,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_FROZEN_ASPECT",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -857,7 +857,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_IGNITE",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -884,7 +884,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_ENDER_AURA",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -996,7 +996,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_ABSORB",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -1052,7 +1052,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_DECAY",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -1155,8 +1155,8 @@
     "id": "msmlegacy:feast",
     "name": "enchantment.msmlegacy.feast",
     "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "COMMON",
     "treasure": false,
     "double_price": false,
@@ -1167,7 +1167,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_FEAST",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -1573,7 +1573,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_KEEN_EDGE",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -1664,9 +1664,8 @@
     "equipment_slots": [
       "MAINHAND"
     ],
-    "incompat_mode": 1,
+    "incompat_mode": 0,
     "incompatible": [
-		mod_lavacow:lifesteal
 	],
     "applicability_mode": 0,
     "items_list_mode": 0,
@@ -1780,7 +1779,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_ASCENSION",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -1898,7 +1897,6 @@
     ],
     "incompat_mode": 1,
     "incompatible": [
-		"mod_lavacow:lifesteal"
 		],
     "applicability_mode": 0,
     "items_list_mode": 0,
@@ -2010,7 +2008,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_STEALTH",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -2067,7 +2065,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_VENOMOUS_ASPECT",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -2264,7 +2262,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_EXTINCTION",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -2490,7 +2488,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_ENDER_PULSE",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -2517,7 +2515,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_CONSUMING_SHADOWS",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -2811,7 +2809,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_FROST_WAVE",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -2896,7 +2894,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_SPARKS",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -3039,7 +3037,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_WISDOM",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -3096,7 +3094,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_VITALITY",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],
@@ -3246,7 +3244,7 @@
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
-    "type": "MSM_LEGACY_GREED",
+    "type": "WEAPON",
     "equipment_slots": [
       "MAINHAND"
     ],

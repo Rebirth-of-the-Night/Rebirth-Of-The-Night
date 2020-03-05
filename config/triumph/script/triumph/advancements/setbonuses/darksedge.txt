@@ -6,6 +6,7 @@ addParent("triumph:advancements/setbonuses/mythril")
 addParent("triumph:advancements/setbonuses/onyxarmor")
 addParent("triumph:advancements/setbonuses/viridiumarmor")
 
+addRewardFunction("triumph:darksedge")
 
 criteria = addCriteria("Dark's Edge", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:dawn_star")
