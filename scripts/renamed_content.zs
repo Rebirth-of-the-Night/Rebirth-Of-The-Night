@@ -21,12 +21,12 @@
 <endreborn:tool_hammer_iron>.displayName = "Iron Sledgehammer";
 
 //guidebook
-<animania:animania_manual>.displayName "§bAnimania Manual";
+<animania:animania_manual>.displayName = "§bAnimania Manual";
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
 
 
-<golems:info_book>.displayName "§bTome of Golemancy";
+<golems:info_book>.displayName = "§bTome of Golemancy";
 <golems:info_book>.addTooltip(format.aqua("Guidebook"));
 <golems:info_book>.addTooltip("Fantastic golems and how to build them.");
 
