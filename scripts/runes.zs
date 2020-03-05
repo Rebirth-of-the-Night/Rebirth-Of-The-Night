@@ -8,3 +8,4 @@ recipes.addShapeless(<contenttweaker:blank_rune>, [<minecraft:stone>, <dungeonta
 
 recipes.addShaped(<contenttweaker:disint_rune>, [[null, <dungeontactics:magic_powder>, null], [<minecraft:dye:4>, <contenttweaker:blank_rune>, <minecraft:redstone>], [null, null, null]]);
 
+mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);

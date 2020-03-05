@@ -1318,8 +1318,6 @@ charm:homing
 charm:whispers
 charm:above_stronghold
 charm:ender_resonance
-patchouli:book_open
-patchouli:book_flip
 beneath:beneath.normal
 beneath:beneath.muffled
 beneath:beneath.drawnout

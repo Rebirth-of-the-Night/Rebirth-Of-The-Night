@@ -9,8 +9,8 @@ addParent("triumph:advancements/setbonuses/viridiumarmor")
 addRewardFunction("triumph:darksedge")
 
 criteria = addCriteria("Dark's Edge", "minecraft:inventory_changed")
-criteria.addItem("msmlegacy:dawn_star")
+criteria.addItem("msmlegacy:wither_bane")
 
 alwaysVisible()
 setFrameType("CHALLENGE")
-setPos(-31,25)
+setPos(-33,-18)

@@ -155,7 +155,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
-<bountifulbaubles:shieldankh>.addTooltip(format.gold("Ascended"));
 
 <contenttweaker:disint_rune>.addTooltip(format.blue("adito tera"));
 
@@ -403,7 +402,8 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 # Godly
 
-
+<bountifulbaubles:shieldankh>.displayName = "§cAnkh Shield";
+<bountifulbaubles:shieldankh>.addTooltip(format.gold("Godly Shield"));
 
 <betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));

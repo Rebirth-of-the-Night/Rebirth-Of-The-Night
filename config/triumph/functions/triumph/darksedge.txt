@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Dark's Edge: Are you ready to consume the world in darkness, wielder?","color":"dark_red","italic":true}]

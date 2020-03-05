@@ -1,0 +1,27 @@
+setIcon("bountifulbaubles:shieldankh")
+setTitle("Death Is Non-Existent")
+setDescription("Complete the Death Is Non-Existent set.")
+
+addParent("triumph:advancements/setbonuses/deathisnotanoption")
+
+addRewardFunction("triumph:deathisnonexistent")
+
+criteria = addCriteria("Crown", "minecraft:inventory_changed")
+criteria.addItem("bountifulbaubles:crowngold")
+
+criteria = addCriteria("Onyx Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_chestplate")
+
+criteria = addCriteria("Onyx Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_leggings")
+
+criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_boots")
+
+criteria = addCriteria("Ankh Shield", "minecraft:inventory_changed")
+criteria.addItem("bountifulbaubles:shieldankh")
+
+
+alwaysVisible()
+setFrameType("CHALLENGE")
+setPos(-33,-113)

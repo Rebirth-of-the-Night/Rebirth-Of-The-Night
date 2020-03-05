@@ -80,6 +80,7 @@ minecraftfuture:channeling
 minecraftfuture:impaling
 minecraftfuture:loyalty
 minecraftfuture:riptide
+livingenchantment:enchantment.living
 msmlegacy:ignite
 msmlegacy:sparks
 msmlegacy:feast
@@ -100,8 +101,6 @@ msmlegacy:decay
 msmlegacy:consuming_shadows
 msmlegacy:stealth
 msmlegacy:extinction
-nyx:lunar_edge
-nyx:lunar_shield
 spartanweaponry:throwing_range
 spartanweaponry:throwing_damage
 spartanweaponry:throwing_fire

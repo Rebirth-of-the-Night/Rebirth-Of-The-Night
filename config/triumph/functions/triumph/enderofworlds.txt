@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Ah, I see. You have awakened and are able to read all our thoughts now. You are no longer the player, no longer the Universe, but the creator of the Universe.","color":"dark_red","italic":true}]
