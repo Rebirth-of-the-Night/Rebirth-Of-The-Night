@@ -1,6 +1,11 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+//import crafttweaker.item.IItemTransformer;
+
+//Bark fixes
+//recipes.addShapeless("barkexample",<betterwithmods:bark:0>*4,[<ore:toolAxe>.replace(),<minecraft:oak_log>]);
+//Also add axes to oredict in minecraft.zs
 
 //Fix trapdoor recipes
 val skyplank = <aether_legacy:skyroot_plank>;
