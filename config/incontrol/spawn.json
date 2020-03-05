@@ -23,20 +23,20 @@
 {
     "mob": "aether_legacy:valkyrie_queen",
 	"onjoin": true,
-    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,0", "potioncore:solid_core,100000,2", "potioncore:magic_shield,1000000,2"]	
+    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "potioncore:solid_core,100000,2", "potioncore:magic_shield,1000000,2"]	
   },
   
 // mob special effects  
    {
     "mob": "mowziesmobs:frostmaw",
     "onjoin": true,
-	"potion": ["extraalchemy:effect.pacifism,1000000,1", "minecraft:regeneration,1000000,0"]
+	"potion": ["extraalchemy:effect.pacifism,1000000,1", "minecraft:regeneration,1000000,1"]
   },
   
    {
     "mob": "mod_lavacow:sludgelord",
     "onjoin": true,
-    "potion": ["minecraft:fire_resistance,1000000,1", "minecraft:regeneration,1000000,0", "wards:effect_projectile_protection,1000000,10"]
+    "potion": ["minecraft:fire_resistance,1000000,1", "minecraft:regeneration,1000000,1", "wards:effect_projectile_protection,1000000,10"]
   },
 
 // no creeper, aww man
