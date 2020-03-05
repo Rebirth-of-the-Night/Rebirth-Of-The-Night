@@ -123,7 +123,13 @@ mods.jei.JEI.removeAndHide(<spartancompat:spear_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:dagger_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);
 
-recipes.replaceAllOccurences(<ore:stickWood>, <betterwithmods:shaft>, <spartanweaponry:material:0>);
-recipes.replaceAllOccurences(<ore:stickWood>, <betterwithmods:shaft>, <spartanweaponry:material:1>);
-recipes.removeShapeless(<betterwithmods:shaft>);
+recipes.remove(<spartanweaponry:material:0>);
+recipes.addShapeless("spartanweaponry_handle_wool", <spartanweaponry:material:0>*4, [<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<ore:wool>]);
+recipes.addShapeless("spartanweaponry_handle_string", <spartanweaponry:material:0>, [<betterwithmods:shaft>,<minecraft:string>]);
+recipes.addShapeless("spartanweaponry_handle_leather", <spartanweaponry:material:0>*4, [<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<ore:leather>]);
+recipes.remove(<spartanweaponry:material:1>);
+recipes.addShapeless("spartanweaponry_pole_wool", <spartanweaponry:material:1>*4, [<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<ore:wool>]);
+recipes.addShapeless("spartanweaponry_pole_string", <spartanweaponry:material:1>, [<betterwithmods:shaft>,<betterwithmods:shaft>,<minecraft:string>]);
+recipes.addShapeless("spartanweaponry_pole_leather", <spartanweaponry:material:1>*4, [<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<ore:leather>]);
+recipes.remove(<betterwithmods:shaft>);
 recipes.addShapeless("stickShaft", <betterwithmods:shaft>,[<ore:stickWood>]);

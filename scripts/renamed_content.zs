@@ -200,6 +200,7 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 //better animals plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
 <betteranimalsplus:wolfhead>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:fried_egg>.displayName = "Roast Egg";
 
 
 #Epic

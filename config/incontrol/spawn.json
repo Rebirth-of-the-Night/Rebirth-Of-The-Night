@@ -19,17 +19,6 @@
 	"onjoin": true,
     "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "extraalchemy:effect.dislocation,20,2", "potioncore:teleport_surface,10,1"]
   },
-  
-// {
- //   "mob": "betteranimalsplus:hirschgeist",
-//	"onjoin": true,
-//    "potion": "minecraft:fire_resistance,1000000,1",
-//	"potion": "wards:effect_projectile_protection,1000000,5",
-//	"potion": "minecraft:regeneration,1000000,1",
-//	"potion": "potioncore:purity,1000000,2",
-//	"potion": "extraalchemy:effect.dislocation,1000000,2"
-//  },
-  
 
 {
     "mob": "aether_legacy:valkyrie_queen",
@@ -1975,7 +1964,7 @@
  {
     "dimension": [0,10,-1],
     "mob": "rats:ratlantean_spirit",
-    "gamestage": "enteredBeneath",
+    "gamestage": "minedMythril",
 	"random": 0.125,
 	"maxlight": 7,
     "minlight": 0,
@@ -2082,7 +2071,7 @@
     "mob": "mod_lavacow:ithaqua",
 	"biome": ["Forest", "Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "ForestHills", "TaigaHills", "Extreme Hills Edge", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Extreme Hills M", "Flower Forest", "Taiga M", "Ice Plains Spikes", "Birch Forest M", "Birch Forest Hills M", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Crag", "Dead Forest", "Mountain", "Ominous Woods", "Seasonal Forest", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "Glacier", "AlpsFoothills", "MountainFoothills", "The Beneath"],
     "gamestage": "minedMythril",
-	"random": 0.07,
+	"random": 0.10,
 	"maxlight": 7,
     "minlight": 0,
     "maxcount": {
@@ -2127,7 +2116,7 @@
     "gamestage": "enteredBeneath",
 	"maxlight": 7,
     "minlight": 0,
-	"random": 0.05,
+	"random": 0.10,
 	"seesky": true,
     "maxcount": {
         "amount": 5,
@@ -2208,8 +2197,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:foglet",
 	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Cold Taiga", "Cold Taiga Hills", "Taiga M", "Ice Plains Spikes", "Cold Taiga M", "Mega Spruce Taiga", "Alps", "Boreal Forest", "Cold Desert", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "Glacier", "AlpsFoothills", "Ominous Woods", "Dead Swamp", "Bayou", "Bog"], 
-    "gamestage": "enteredBeneath",
-	"random": 0.10,
+	"random": 0.70,
 	"seesky": true,
 	"maxlight": 7,
     "minlight": 0,
@@ -2230,7 +2218,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:ptera",
 	"biome": ["Jungle", "JungleHills", "JungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Beach", "Deep Ocean", "Stone Beach", "Cold Beach", "Gravel Beach", "White Beach", "Volcanic Island", "Flower Island", "Xeric Shrubland", "Coral Reef", "Kelp Forest"],  
-    "gamestage": "enteredBeneath",
+    "gamestage": "fullEarlyArmor",
 	"minheight": 60,
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
 	"random": 0.25,
@@ -2238,7 +2226,7 @@
 	"maxlight": 11,
     "minlight": 0,
     "maxcount": {
-        "amount": 10,
+        "amount": 7,
         "perplayer": true
     },
     "result": "allow"
@@ -2291,7 +2279,7 @@
     "dimension": 4,
     "mob": "netherex:coolmar_spider",
     "gamestage": "enteredBeneath",
-	"random": 0.30,
+	"random": 0.10,
 	"maxlight": 7,
     "minlight": 0,
     "maxcount": {
