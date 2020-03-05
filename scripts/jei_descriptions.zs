@@ -68,6 +68,9 @@ mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull>],"Cursed skull
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull_1>],"Cursed skull of a powerful forest spirit.");
 
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures.");
+# Archeologist Hat
+mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a little more adventurous, a little luckier, and a little more likely to store artifacts in museums.");
+<quark:archaeologist_hat>.addTooltip("When worn, provides a slight chance to unearth additional gems when mining gemstone ores.");
 # Soul Powder
 mods.jei.JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
 # Soul Bead
@@ -123,6 +126,16 @@ mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to lon
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
+#Rats
+mods.jei.JEI.addDescription(<rats:plague_essence>,"Calcified clump of plague energy. The plagues were thought to be sealed away for good, but now this strain, at least, has returned with a vengeance.");
+
+mods.jei.JEI.addDescription(<rats:plague_doctorate>,"Contains vital knowledge for studying and treating plague, with the potential cost of being shunned or even feared within one's village.");
+
+mods.jei.JEI.addDescription(<rats:rat_breeding_lantern>,"Use of accompanying jukebox and candles entirely optional.");
+
+mods.jei.JEI.addDescription(<rats:plague_scythe>,"Instilled with the corrupting potential to destroy empires.");
+
+mods.jei.JEI.addDescription(<rats:black_death_mask>,"Diseases are perfected through experimentation... what better laboratory than the blood-soaked battlefield?");
 
 
 # Runes
