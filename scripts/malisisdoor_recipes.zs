@@ -61,3 +61,24 @@ mods.betterwithmods.Anvil.addShaped(<malisisdoors:garage_door>, [
    [<ore:ingotSteel>, <rustic:iron_lattice>,<rustic:iron_lattice>, <ore:latchRedstone>],
    [<ore:ingotSteel>, <rustic:iron_lattice>,<rustic:iron_lattice>, <ore:latchRedstone>]
 ]);
+
+recipes.remove(<malisisdoors:wood_sliding_door>);
+recipes.addShaped("wood_sliding_door",<malisisdoors:wood_sliding_door>,[
+  [<ore:plankWood>,<minecraft:glass>,null],
+  [<ore:plankWood>,<minecraft:glass>,null],
+  [<ore:plankWood>,<minecraft:glass>,null]
+]);
+
+recipes.remove(<malisisdoors:shoji_door>);
+recipes.addShaped("shoji_door",<malisisdoors:shoji_door>,[
+  [<ore:plankWood>,<minecraft:paper>,null],
+  [<ore:plankWood>,<minecraft:paper>,null],
+  [<ore:plankWood>,<minecraft:paper>,null]
+]);
+
+recipes.remove(<malisisdoors:saloon>);
+recipes.addShaped("saloon",<malisisdoors:saloon>,[
+  [<ore:plankWood>,<ore:plankWood>,null],
+  [<ore:stickWood>,<ore:stickWood>,null],
+  [<ore:plankWood>,<ore:plankWood>,null]
+]);

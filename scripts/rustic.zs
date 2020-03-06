@@ -6,6 +6,7 @@ mods.jei.JEI.removeAndHide(<rustic:crop_stake>);
 
 mods.jei.JEI.removeAndHide(<rustic:rope>);
 mods.jei.JEI.removeAndHide(<rustic:crushing_tub>);
+mods.jei.JEI.hideCategory("rustic.crushing_tub");
 
 mods.jei.JEI.removeAndHide(<rustic:tomato_seeds>);
 mods.jei.JEI.removeAndHide(<rustic:tomato>);

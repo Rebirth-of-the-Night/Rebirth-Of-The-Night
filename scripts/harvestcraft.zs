@@ -19,10 +19,10 @@ recipes.remove(<harvestcraft:saltitem>);
 
 
 recipes.remove(<harvestcraft:berryvinaigrettesaladitem>);
-recipes.addShapeless("harvestcraft_berryvinaigrettesaladitem", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <ore:cropLettuce>, <ore:foodVinegar>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
-recipes.addShapeless("harvestcraft_imitationcrabsticksitem", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:dyeRed>, <ore:flourEqualswheat>, <ore:listAllegg>]);
+recipes.addShapeless("berryvinaigrettesalad", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <ore:cropLettuce>, <ore:foodVinegar>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
+recipes.addShapeless("imitationcrabsticks", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:dyeRed>, <ore:flourEqualswheat>, <ore:listAllegg>]);
 recipes.remove(<harvestcraft:froglegstirfryitem>);
-recipes.addShapeless("harvestcraft_froglegstirfryitem", <harvestcraft:froglegstirfryitem>, 
+recipes.addShapeless("froglegstirfry", <harvestcraft:froglegstirfryitem>, 
 [<ore:toolSkillet>, <ore:listAllfrograw>, <ore:cropRice>, <harvestcraft:broccoliitem>, <minecraft:carrot>, <harvestcraft:bellpepperitem>]);
 
 // removes duplicate salt recipes

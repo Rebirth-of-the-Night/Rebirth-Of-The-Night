@@ -96,6 +96,9 @@ mods.jei.JEI.hideCategory("pyrotech.mechanical.compacting.bin");
 
 furnace.remove(<pyrotech:mushroom_red_roasted>);
 furnace.remove(<pyrotech:mushroom_brown_roasted>);
+furnace.remove(<pyrotech:apple_baked>);
+furnace.remove(<pyrotech:carrot_roasted>);
+furnace.remove(<pyrotech:egg_roasted>);
 
 //Simplified recipes
 val stone = <ore:stone>;
