@@ -74,7 +74,7 @@ mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes yo
 # Soul Powder
 mods.jei.JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
 # Soul Bead
-mods.jei.JEI.addDescription(<quark:soul_bead>,"Consuming the bead releases the trapped spirit within, at the cost of alerting all manners of dreadful creatures attracted to the use of rare magic.");
+mods.jei.JEI.addDescription(<quark:soul_bead>,"Consuming the bead releases the trapped spirit within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
 # Diamond Heart
 mods.jei.JEI.addDescription(<quark:diamond_heart>,"A rare heart of living mineral ripped from the core of the world and restored to life with magic.");
 # Sap

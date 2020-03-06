@@ -1,4 +1,4 @@
-<harvestcraft:stockitem>.foodValues.hunger = 1.0;
+<harvestcraft:stockitem>.foodValues.hunger = 0.5;
 <harvestcraft:stockitem>.foodValues.saturationModifier = 0.2;
 <harvestcraft:beefwellingtonitem>.foodValues.hunger = 6;
 <harvestcraft:beefwellingtonitem>.foodValues.saturationModifier = 0.5;
@@ -31,7 +31,19 @@
 <animania:super_omelette>.foodValues.hunger = 7;
 <animania:super_omelette>.foodValues.saturationModifier = 0.7;
 
+<mod_lavacow:parasite_item>.foodValues.hunger = 0.5;
+<mod_lavacow:parasite_item>.foodValues.saturationModifier = 0.2;
+
+<mod_lavacow:parasite_item_cooked>.foodValues.hunger = 1;
+<mod_lavacow:parasite_item_cooked>.foodValues.saturationModifier = 0.2;
+
+<mod_lavacow:shattered_ice>.displayName = "§Ice Chunks";
+<mod_lavacow:shattered_ice>.foodValues.hunger = 0;
+<mod_lavacow:shattered_ice>.foodValues.saturationModifier = 0;
+
 //I don't know where to put this so it is going here and you're gonna just deal with it ok?
 recipes.remove(<betterwithmods:donut>);
 mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
+
+//
