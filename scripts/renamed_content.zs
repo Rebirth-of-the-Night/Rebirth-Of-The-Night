@@ -36,6 +36,18 @@
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
 <twilightforest:knightmetal_sword>.displayName = "Knightly Arming Sword";
 <twilightforest:raw_venison>.displayName = "Raw Venison Steak";
+<twilightforest:mangrove_door>.displayName = "Twilight Mangrove Door";
+<twilightforest:mangrove_planks>.displayName = "Twilight Mangrove Planks";
+<twilightforest:twilight_log:2>.displayName = "Twilight Mangrove Wood";
+<twilightforest:twilight_leaves:2>.displayName = "Twilight Mangrove Leaves";
+<twilightforest:mangrove_stairs>.displayName = "Twilight Mangrove Stairs";
+<twilightforest:mangrove_slab:*>.displayName = "Twilight Mangrove Slab";
+<twilightforest:mangrove_button>.displayName = "Twilight Mangrove Button";
+<twilightforest:mangrove_trapdoor>.displayName = "Twilight Mangrove Trapdoor";
+<twilightforest:mangrove_fence>.displayName = "Twilight Mangrove Fence";
+<twilightforest:mangrove_gate>.displayName = "Twilight Mangrove Gate";
+<twilightforest:mangrove_plate>.displayName = "Twilight Mangrove Pressure Plate";
+
 
 //Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";

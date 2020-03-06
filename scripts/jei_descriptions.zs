@@ -16,7 +16,7 @@ mods.jei.JEI.addDescription([<quark:witch_hat>],["Enchanted thread is woven thro
 
 mods.jei.JEI.addDescription([<quark:tallow>],["Used for making candles or repairing gear in an iron anvil."]);
 
-mods.jei.JEI.addDescription([<minecraft:cactus>],["Can be used to fill a bottle with water. Drink it in a very hot and dry biome to recieve a small buff."]);
+mods.jei.JEI.addDescription([<minecraft:cactus>],["Can be used to fill a bottle with water. Drink it in a hot and arid biome to recieve a small buff."]);
 
 mods.jei.JEI.addDescription([<minecraft:compass>],["Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints."]);
 
@@ -27,15 +27,15 @@ mods.jei.JEI.addDescription([<netherchest:nether_chest>],["When items are stored
 mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 mods.jei.JEI.removeAndHide(<base:wrench>);
 
-mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extinguishes fires, and blows away dust. Stronger push if there is another fan behind.");
+mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extinguishes fires, and blows away dust. Gives a stronger push if there is another fan behind.");
 
-mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage based on distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
+mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage relative to distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 
-mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your enemies with this sword, thanks to all those teeth from slain predators. Remember: the bigger they are, the harder they fall.");
+mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your enemies with this sword - thanks to all those teeth from slain predators. Remember: the bigger they are, the harder they fall.");
 
 mods.jei.JEI.addDescription([<rats:treacle>],"Supposedly, syrup aged for at least ten years can help ward off the plague. Unless you were preparing for the plague starting ten years ago, that won't help... unless you can find something to magically age the syrup or spark a strange fermentation reaction.");
 
-mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Can repair weapons and tools, although it takes some time.");
+mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Can repair weapons and tools, although it takes a while.");
 
 mods.jei.JEI.addDescription(<betterwithmods:saw>,"Requires continuous mechanical power to work. A windmill or waterwheel will suffice.");
 
@@ -43,7 +43,7 @@ mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first 
 
 mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken.");
 
-mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Most Puffbulbs were long since consumed by the corruption of the Beneath. Perhaps they could be reawakened by a powerful magic reaction, such as the mining of a mystical ore.");
+mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Most Puffbulbs were long since consumed by the corruption of the Beneath. Perhaps they could be reawakened by a powerful magic reaction - such as the mining of a mystical ore.");
 
 mods.jei.JEI.addDescription(<betterwithmods:ender_spectacles>,"...if you gaze long into the End, the End also gazes into you.");
 
@@ -71,13 +71,13 @@ mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Curs
 # Soul Powder
 mods.jei.JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
 # Soul Bead
-mods.jei.JEI.addDescription(<quark:soul_bead>,"Consuming the bead releases the trapped spirit within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
+mods.jei.JEI.addDescription(<quark:soul_bead>,"Consuming the bead releases the trapped spirit within, at the cost of alerting all manners of dreadful creatures attracted to the use of rare magic.");
 # Diamond Heart
 mods.jei.JEI.addDescription(<quark:diamond_heart>,"A rare heart of living mineral ripped from the core of the world and restored to life with magic.");
 # Sap
 mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material left behind by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong glue.");
 # Faucet
-mods.jei.JEI.addDescription(<pyrotech:faucet_stone>,"When interacted with via right-click, it will start to drain any liquid from one container to another container below itself. Right-click again to stop the faucet's flow. Can be powered with redstone.");
+mods.jei.JEI.addDescription(<pyrotech:faucet_stone>,"When right-clicked, it will start to drain any liquid from one container to another container below itself. Right-click again to stop the faucet's flow. Can be powered with redstone.");
 # Coal
 mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires a proper kiln. A simple furnace just won't suffice."]);
 # Torch
@@ -105,11 +105,11 @@ mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beatiful gem native to the land
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
 # Copper tin
-mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best... If you don't have a crucible, that is.");
+mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best approach... If you don't have a crucible, that is.");
 # Trumpet
 mods.jei.JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power.");
 # Bark
-mods.jei.JEI.addDescription(<betterwithmods:bark:*>,"Most useful for tanning leather. Guranteed to be obtained as a byproduct of crafting an axe and a log together to get planks.");
+mods.jei.JEI.addDescription(<betterwithmods:bark:*>,"Obtained from chopping up logs, these are most useful for tanning leather.");
 # Dung
 mods.jei.JEI.addDescription(<betterwithmods:material:5>,"Gross? No, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Triggers a fermentative process to make tanned leather.");
 # End Essence ore
