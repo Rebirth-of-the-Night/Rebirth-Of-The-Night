@@ -47,6 +47,7 @@ mods.ltt.LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_axe_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_sword_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_hoe_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:dragon_scales");
 
 
 //sledgehammer recipes are in pyrotech_recipes_anvil.zs these are just removals

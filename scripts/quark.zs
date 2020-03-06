@@ -38,6 +38,8 @@ recipes.removeByRecipeName("quark:stone_shovel");
 recipes.removeByRecipeName("quark:stone_pickaxe");
 recipes.removeByRecipeName("quark:stone_axe");
 recipes.removeByRecipeName("quark:stone_hoe");
+recipes.removeByRecipeName("quark:iron_button");
+recipes.removeByRecipeName("quark:gold_button");
 
 recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);
@@ -47,6 +49,7 @@ recipes.addShaped("Quark Backpack", <quark:backpack>,[
     	[<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
    	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>]
 ]);
+
 
 recipes.addShaped("Tin Ladder", <quark:iron_ladder>*12,[
 	[<ore:ingotTin>, null, <ore:ingotTin>],
