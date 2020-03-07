@@ -57,7 +57,6 @@ mods.jei.JEI.removeAndHide(<pyrotech:thatch>);
 mods.jei.JEI.removeAndHide(<pyrotech:refractory_glass>);
 mods.jei.JEI.removeAndHide(<pyrotech:slag_glass>);
 mods.jei.JEI.removeAndHide(<pyrotech:limestone>);
-mods.jei.JEI.removeAndHide(<pyrotech:cobblestone:3>);
 mods.jei.JEI.removeAndHide(<pyrotech:planks_tarred>);
 mods.jei.JEI.removeAndHide(<pyrotech:pile_wood_chips>);
 mods.jei.JEI.removeAndHide(<pyrotech:wool_tarred>);
@@ -99,6 +98,10 @@ furnace.remove(<pyrotech:mushroom_brown_roasted>);
 furnace.remove(<pyrotech:apple_baked>);
 furnace.remove(<pyrotech:carrot_roasted>);
 furnace.remove(<pyrotech:egg_roasted>);
+furnace.remove(<pyrotech:material:24>);
+furnace.remove(<pyrotech:cobblestone:2>);
+furnace.remove(<pyrotech:cobblestone:1>);
+furnace.remove(<pyrotech:cobblestone:0>);
 
 //Simplified recipes
 val stone = <ore:stone>;

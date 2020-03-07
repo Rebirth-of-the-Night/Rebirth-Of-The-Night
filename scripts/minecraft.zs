@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 
@@ -58,6 +60,11 @@ recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("betternether:stalagnate_workbench");
+recipes.removeByRecipeName("minecraft:stone_brick_stairs");
+recipes.removeByRecipeName("minecraft:stone_brick_slab");
+recipes.removeByRecipeName("minecraft:repeater");
+
+//mods.rockycore.Anvil.remove(<minecraft:wooden_sword>);
 
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);
@@ -178,7 +185,7 @@ val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
 
 val flower = <ore:flower>;
-flower.addItems([<biomesoplenty:flower_0:*>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<minecraftfuture:flowerwhite>,<minecraftfuture:flowerblue>,<minecraftfuture:flowerblack>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:*>,<biomesoplenty:flower_1:*>,<endreborn:crop_ender_flower>]);
+flower.addItems([<biomesoplenty:flower_0:*>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<minecraftfuture:flowerwhite>,<minecraftfuture:flowerblue>,<minecraftfuture:flowerblack>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:0>,<minecraft:double_plant:1>,<minecraft:double_plant:4>,<minecraft:double_plant:5>,<biomesoplenty:flower_1:*>,<endreborn:crop_ender_flower>]);
 
 val mushroom = <ore:mushroomAny>;
 mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);

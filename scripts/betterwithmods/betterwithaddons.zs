@@ -75,7 +75,6 @@ val bwaArray = [
 <betterwithaddons:unbaked:3>,
 <betterwithaddons:tea_powder>,
 <betterwithaddons:soulsand_pile>,
-<betterwithaddons:wool>,
 <betterwithaddons:rotten_food>,
 <betterwithaddons:food_sashimi>,
 <betterwithaddons:food_mulberry>,
@@ -154,6 +153,24 @@ mods.jei.JEI.hideCategory("bwa.infuser.transmutation");
 
 mods.betterwithmods.Mill.remove([<betterwithaddons:food_ground_meat>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:food_meatballs>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:pcb_block>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:0>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:1>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:2>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:3>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:4>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:5>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:6>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:7>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:8>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:9>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:10>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:11>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:12>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:13>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:14>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
+
 
 //Aqueducts
 recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [

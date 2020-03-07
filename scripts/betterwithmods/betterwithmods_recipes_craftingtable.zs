@@ -15,15 +15,14 @@ recipes.addShaped("Latch", latch,
   [gnugg,copper,gnugg],
   [null,rstone,null]]);
   
-  //Dynamite
+//Dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
 
 recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>, 
 [<ore:paper>, <ore:paper>, <ore:paper>, 
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
 
- //Vine Trap
-//recipes.replaceAllOccurences(<minecraft:vine>, <ore:vine>, <*>);
+//Vine Trap + Mossy
 recipes.remove(<betterwithmods:vine_trap>);
 recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,
   [[null,null,null],
@@ -135,3 +134,10 @@ recipes.addShapeless("green_schist_mossy_cobblestone", <undergroundbiomes:metamo
 recipes.remove(<undergroundbiomes:metamorphic_cobble_mossy:6>);
 recipes.addShapeless("soapstone_mossy_cobblestone", <undergroundbiomes:metamorphic_cobble_mossy:6>, 
 [<undergroundbiomes:metamorphic_cobble:6>, <ore:vine>]);
+
+recipes.addShapeless("moss_stone",<minecraft:mossy_cobblestone>, [<minecraft:cobblestone>, <ore:vine>]);
+recipes.addShapeless("mossy_holystone",<aether_legacy:mossy_holystone>, [<aether_legacy:holystone>, <ore:vine>]);
+recipes.addShapeless("mossy_stone_bricks",<minecraft:stonebrick:1>, [<minecraft:stonebrick:0>, <ore:vine>]);
+recipes.addShapeless("mossy_towerwood",<twilightforest:tower_wood:3>, [<twilightforest:tower_wood:0>, <ore:vine>]);
+recipes.addShapeless("mossy_castle_brick",<twilightforest:castle_brick:4>, [<twilightforest:castle_brick:0>, <ore:vine>]);
+recipes.addShapeless("mossy_etched_nagastone",<twilightforest:etched_nagastone_mossy>, [<twilightforest:etched_nagastone>, <ore:vine>]);
