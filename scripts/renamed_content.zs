@@ -1,4 +1,6 @@
-//Aether Legacy
+import crafttweaker.game.IGame;
+
+// Aether Legacy
 <aether_legacy:cockatrice>.displayName = "Kelenk Meat";
 <aether_legacy:burnt_cockatrice>.displayName = "Burnt Kelenk Meat";
 <aether_legacy:enchanted_cockatrice>.displayName = "Enchanted Kelenk Meat";
@@ -17,10 +19,10 @@
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 
-//End Reborn III
+// End Reborn III
 <endreborn:tool_hammer_iron>.displayName = "Iron Sledgehammer";
 
-//guidebook
+// Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
@@ -33,7 +35,7 @@
 <betterwithmods:manual>.addTooltip(format.aqua("Guidebook"));
 <betterwithmods:manual>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
 
-//Twilight Forest
+// Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironwood Arming Sword";
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
 <twilightforest:knightmetal_sword>.displayName = "Knightly Arming Sword";
@@ -51,7 +53,7 @@
 <twilightforest:mangrove_plate>.displayName = "Twilight Mangrove Pressure Plate";
 
 
-//Dimstack
+// Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
 <dimstack:bedrock>.displayName = "Arcane Barrier";
 
@@ -87,6 +89,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:iron_sword>.displayName = "Iron Arming Sword";
 <minecraft:golden_sword>.displayName = "Golden Arming Sword";
 <minecraft:diamond_sword>.displayName = "Diamond Arming Sword";
+<minecraft:cobblestone_wall:1>.displayName = "Moss Cobblestone Wall";
 
 // Malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
@@ -107,7 +110,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <biomesoplenty:flower_0:14>.displayName = "Valley Lily";
 <biomesoplenty:double_plant:0>.displayName = "Flax Flower";
 
-//ATOP
+// ATOP
 <atop:mud_axe>.displayName = "Bronze Axe";
 <atop:mud_boots>.displayName = "Bronze Boots";
 <atop:mud_chestplate>.displayName = "Bronze Cuirass";
@@ -132,7 +135,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:nether_brick_wall>.displayName = "Nether Brick Tile Wall";
 
 
-//Pyrotech
+// Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
 
 // Animania
@@ -171,6 +174,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
 
 <contenttweaker:disint_rune>.addTooltip(format.blue("adito tera"));
+
+// Better Animals Plus
+<betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
+<betteranimalsplus:wolfhead>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:fried_egg>.displayName = "Baked Egg";
 
 #Rare
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
@@ -220,11 +228,6 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <simpleores:adamantium_ingot>.displayName = "§2Viridium Ingot";
 <simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Material"));
 
-
-//better animals plus
-<betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
-<betteranimalsplus:wolfhead>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:fried_egg>.displayName = "Baked Egg";
 
 
 #Epic

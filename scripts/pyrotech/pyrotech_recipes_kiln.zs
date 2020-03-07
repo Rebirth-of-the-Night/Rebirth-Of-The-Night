@@ -19,8 +19,8 @@ StoneKiln.addRecipe("bwmpottery2",<betterwithmods:urn>, <betterwithmods:unfired_
 StoneKiln.addRecipe("bwmpottery3",<betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 600, true);
 StoneKiln.addRecipe("bwmclaybrick",<minecraft:brick:0>, <minecraft:clay_ball:0>, 300, true);
 StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 180, true);
-StoneKiln.addRecipe("bwmclaybrick_efficient",<minecraft:netherbrick>*4, <minecraft:netherrack>, 700, true);
-StoneKiln.addRecipe("bwmnetherbrick_efficient ",<minecraft:brick>, <betterwithmods:unfired_pottery:4>, 180, true);
+StoneKiln.addRecipe("bwmnetherbrick_efficient",<minecraft:netherbrick>*4, <minecraft:netherrack>, 700, true);
+StoneKiln.addRecipe("bwmclaybrick_efficient ",<minecraft:brick>, <betterwithmods:unfired_pottery:4>, 180, true);
 StoneKiln.addRecipe("bwmcobble_to_stone",<minecraft:stone:0>, <minecraft:cobblestone:0>, 700, true);
 StoneKiln.addRecipe("bwmcobble_to_stone1",<minecraft:stone:1>, <betterwithmods:cobblestone:0>,700, true);
 StoneKiln.addRecipe("bwmcobble_to_stone2",<minecraft:stone:3>, <betterwithmods:cobblestone:1>, 700, true);

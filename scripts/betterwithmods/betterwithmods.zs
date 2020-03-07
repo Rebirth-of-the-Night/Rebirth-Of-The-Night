@@ -72,8 +72,7 @@ mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leathe
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 
-mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>);
-mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:5>);
+mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>); 
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>);
 
 
