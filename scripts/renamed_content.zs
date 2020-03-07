@@ -70,6 +70,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:bark:3>.displayName = "Jungle Bark Block";
 <quark:bark:4>.displayName = "Acacia Bark Block";
 <quark:bark:5>.displayName = "Dark Oak Bark Block";
+<quark:chain>.displayName = "Small Chain"
+<quark:chain>.addTooltip("Can be used to link minecarts or boats");
+
+// Ice And Fire: Dragons in a Whole New Light
+<iceandfire:chain>.displayName = "Big Chain";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";

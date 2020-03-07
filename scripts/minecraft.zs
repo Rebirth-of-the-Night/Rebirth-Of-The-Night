@@ -66,38 +66,64 @@ recipes.removeByRecipeName("minecraft:repeater");
 
 //mods.rockycore.Anvil.remove(<minecraft:wooden_sword>);
 
+mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
+
+//Chain Recipes
+var chainlink = <iceandfire:chain_link>;
+var chain = <quark:chain>;
+var bigchain = <iceandfire:chain>;
+var decochain = <rustic:chain>;
+
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);
 recipes.remove(<minecraft:chainmail_leggings>);
 recipes.remove(<minecraft:chainmail_boots>);
+recipes.remove(<quark:chain>);
+recipes.remove(<iceandfire:chain_link>);
 
-mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
+recipes.addShaped("Chainlinks", chainlink*2,[
+	[null, <ore:nuggetIron>, null],
+    [<ore:nuggetIron>, null, <ore:nuggetIron>],
+    [null, <ore:nuggetIron>, null]
+]);
 
-var chainlink = <iceandfire:chain_link>;
+recipes.addShapeless("Quark_chain", chain,
+	[chainlink, chainlink]
+);
+
+recipes.addShapeless("iceandfire_chain", bigchain,
+	[chain, chainlink, chain]
+);
+
+recipes.addShaped("rustic_chain", decochain*16,[
+	[chainlink, chainlink, chainlink],
+    [chainlink, null, chainlink],
+    [chainlink, chainlink, chainlink]
+]);
 
 
 recipes.addShaped("Chainmail Helmet", <minecraft:chainmail_helmet>,[
-	[chainlink, chainlink, chainlink],
-    [chainlink, null, chainlink],
+	[chain, chain, chain],
+    [chain, null, chain],
     [null, null, null]
 ]);
 
 recipes.addShaped("Chainmail Chestplate", <minecraft:chainmail_chestplate>,[
-	[chainlink, null, chainlink],
-    [chainlink, chainlink, chainlink],
-    [chainlink, chainlink, chainlink]
+	[chain, null, chain],
+    [chain, chain, chain],
+    [chain, chain, chain]
 ]);
 
 recipes.addShaped("Chainmail Leggings", <minecraft:chainmail_leggings>,[
-	[chainlink, chainlink, chainlink],
-    [chainlink, null, chainlink],
-    [chainlink, null, chainlink]
+	[chain, chain, chain],
+    [chain, null, chain],
+    [chain, null, chain]
 ]);
 
 recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
 	[null, null, null],
-    [chainlink, null, chainlink],
-    [chainlink, null, chainlink]
+    [chain, null, chain],
+    [chain, null, chain]
 ]);
 
 val flint = <minecraft:flint>;
