@@ -1,8 +1,8 @@
 [
   {
-    "internalOreName": "dungeontactics:silver_ore",
+    "internalOreName": "iceandfire:silver_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/dungeontactics/silver",
+    "overlay": "rotn:overlays/iceandfire/silver",
     "lightValue": -1,
     "alphaOverlay": false,
     "oreDirectories": []
