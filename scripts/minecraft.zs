@@ -255,7 +255,7 @@ val cookedFish = <ore:listAllfishcooked>;
 cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>]);
 
 val fish = <ore:fish>;
-fish.add(<ore:listAllfishraw>);
+fish.addAll(<ore:listAllfishraw>);
 
 val rawVenison = <ore:listAllvenisonraw>;
 rawVenison.add(<twilightforest:raw_venison>);
