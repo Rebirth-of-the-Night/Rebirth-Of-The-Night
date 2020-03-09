@@ -76,10 +76,6 @@ endreborn:ender_killer
 endreborn:shulker_core
 mod_lavacow:poisonous
 mod_lavacow:lifesteal
-minecraftfuture:channeling
-minecraftfuture:impaling
-minecraftfuture:loyalty
-minecraftfuture:riptide
 livingenchantment:enchantment.living
 msmlegacy:ignite
 msmlegacy:sparks
