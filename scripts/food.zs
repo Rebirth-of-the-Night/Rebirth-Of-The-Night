@@ -12,10 +12,16 @@
 <betterwithmods:cooked_omelet>.foodValues.saturationModifier = 0.8;
 <harvestcraft:scrambledeggitem>.foodValues.hunger = 3;
 <harvestcraft:scrambledeggitem>.foodValues.saturationModifier = 0.8;
+<harvestcraft:pemmicanitem>.foodValues.hunger = 7;
+<harvestcraft:pemmicanitem>.foodValues.saturationModifier = 0.4;
+<harvestcraft:liverandonionsitem>.foodValues.hunger = 4;
+<harvestcraft:liverandonionsitem>.foodValues.saturationModifier = 0.4;
+<harvestcraft:haggisitem>.foodValues.hunger = 5;
+<harvestcraft:haggisitem>.foodValues.saturationModifier = 0.4;
 <rats:raw_rat>.foodValues.hunger = 1.5;
 <rats:raw_rat>.foodValues.saturationModifier = 0.2;
 <rats:cooked_rat>.foodValues.hunger = 3;
-<rats:cooked_rat>.foodValues.saturationModifier = 0.5;
+<rats:cooked_rat>.foodValues.saturationModifier = 0.3;
 <rats:assorted_vegetables>.foodValues.hunger = 3;
 <rats:assorted_vegetables>.foodValues.saturationModifier = 0.8;
 <rats:cheese>.foodValues.hunger = 0;

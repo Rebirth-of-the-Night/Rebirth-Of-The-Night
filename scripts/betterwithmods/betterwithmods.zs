@@ -69,6 +69,7 @@ recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 recipes.removeByRecipeName("betterwithmods:baiting_recipe");
+recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
@@ -80,7 +81,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>); 
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>);
-
+mods.jei.JEI.removeAndHide(<betterwithmods:material:46>); 
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
@@ -113,7 +114,8 @@ mods.betterwithmods.Cauldron.addUnstoked([<quark:cooked_crab_leg>],[<minecraft:l
 mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:venisoncooked>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<twilightforest:cooked_venison>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_bat_wing>],[<minecraft:leather>]);
-
+mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:piranha_cooked>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:zombiepiranha_item_cooked>],[<minecraft:leather>]);
 
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow

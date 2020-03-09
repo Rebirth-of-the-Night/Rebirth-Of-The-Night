@@ -164,6 +164,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
 
+// Spartanweapony
+<spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
+
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
 <bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));

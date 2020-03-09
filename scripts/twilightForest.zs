@@ -16,3 +16,10 @@ recipes.addShaped("encased_castle_brick_tile",<twilightforest:castle_pillar:1>,[
     [<twilightforest:castle_pillar:0>,<twilightforest:castle_pillar:0>,null],
     [null,null,null]
 ]);
+
+recipes.remove(<twilightforest:castle_pillar:3>);
+recipes.addShaped("bold_castle_brick_tiles",<twilightforest:castle_pillar:3>,[
+    [<twilightforest:castle_pillar:2>,<twilightforest:castle_pillar:2>,null],
+    [<twilightforest:castle_pillar:2>,<twilightforest:castle_pillar:2>,null],
+    [null,null,null]
+]);

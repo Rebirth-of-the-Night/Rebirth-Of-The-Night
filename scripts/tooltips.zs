@@ -104,3 +104,4 @@
 <betterwithmods:arcane_scroll>.addTooltip("Use in Infernal Enchanter.");
 <extraalchemy:potion_ring>.addTooltip("Level 1 potion rings each require 3 exp every 30 seconds. Level 2 potion 2 rings each require 6 exp every 30 seconds.");
 <dungeontactics:magic_pouch>.addTooltip("Right-click to open.");
+<nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
