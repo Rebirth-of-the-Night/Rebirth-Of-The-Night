@@ -3,7 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-//import mods.rockycore.Anvil;
+import mods.rockytweaks.Anvil;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 
@@ -67,7 +67,7 @@ recipes.removeByRecipeName("minecraft:repeater");
 
 recipes.remove(<minecraft:fish:0>);
 
-//Anvil.remove(<minecraft:wooden_sword>);
+Anvil.remove(<minecraft:wooden_sword>);
 
 mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
 
