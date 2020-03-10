@@ -19,7 +19,7 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dynamite>);
 
-
+recipes.removeByRecipeName("spartanshields:shield_mod_bronze");
 
 
 recipes.remove(<spartanshields:shield_basic_lead>);

@@ -23,3 +23,10 @@ recipes.addShaped("bold_castle_brick_tiles",<twilightforest:castle_pillar:3>,[
     [<twilightforest:castle_pillar:2>,<twilightforest:castle_pillar:2>,null],
     [null,null,null]
 ]);
+
+recipes.remove(<twilightforest:spiral_bricks>);
+recipes.addShaped("spiral_stone_bricks",<twilightforest:spiral_bricks>,[
+    [<ore:stone>|<ore:StoneHugeBrick>,<ore:stoneSlab>,<ore:stoneSlab>],
+    [<ore:stone>|<ore:StoneHugeBrick>,<ore:stoneSlab>,<ore:stoneSlab>],
+    [<ore:stone>|<ore:StoneHugeBrick>,<ore:stone>|<ore:StoneHugeBrick>,<ore:stone>|<ore:StoneHugeBrick>],
+]);

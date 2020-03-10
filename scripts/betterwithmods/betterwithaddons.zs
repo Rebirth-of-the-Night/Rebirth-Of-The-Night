@@ -60,7 +60,7 @@ val bwaArray = [
 <betterwithaddons:chest_paper>,
 <betterwithaddons:legs_paper>,
 <betterwithaddons:boots_paper>,
-<betterwithaddons:decomat>,
+<betterwithaddons:decomat:*>,
 <betterwithaddons:tweakmat>,
 <betterwithaddons:unbaked>,
 <betterwithaddons:unbaked:1>,
@@ -72,9 +72,7 @@ val bwaArray = [
 <betterwithaddons:food_sashimi>,
 <betterwithaddons:food_mulberry>,
 <betterwithaddons:food_bowl_rice>,
-<betterwithaddons:tea_leaves>,
 <betterwithaddons:food_fugu_sac>,
-<betterwithaddons:food_pufferfish_prepared>,
 <betterwithaddons:iron_machete>,
 <betterwithaddons:gold_carpentersaw>,
 <betterwithaddons:gold_masonpick>,
@@ -83,11 +81,10 @@ val bwaArray = [
 <betterwithaddons:tanto>,
 <betterwithaddons:yumi>,
 <betterwithaddons:japanmat:2>,
-<betterwithaddons:decomat:2>,
 <betterwithaddons:box>,
-<betterwithaddons:writing_table>,
+<betterwithaddons:writing_table:*>,
 <betterwithaddons:adobe>,
-<betterwithaddons:ecksie_sapling:8>,
+<betterwithaddons:ecksie_sapling:*>,
 <betterwithaddons:steel_spade>,
 <betterwithaddons:material:1>,
 <betterwithaddons:material:2>,
@@ -118,11 +115,7 @@ val bwaArray = [
 <betterwithaddons:paper_wall>,
 <betterwithaddons:wood_lamp>,
 <betterwithaddons:pavement>,
-<betterwithaddons:tea_leaves>,
-<betterwithaddons:tea_soaked>,
-<betterwithaddons:tea_powder>,
 <betterwithaddons:tea_wilted>,
-<betterwithaddons:tea_powder>,
 <betterwithaddons:wool:*>,
 <betterwithaddons:salt>,
 <betterwithaddons:brick_stained:*>,
@@ -130,6 +123,13 @@ val bwaArray = [
 <betterwithaddons:japanmat:*>,
 <betterwithaddons:teacup>,
 <betterwithaddons:ya>,
+<betterwithaddons:food_carrot_cooked>,
+<betterwithaddons:food_beetroot_cooked>,
+<betterwithaddons:food_pufferfish_prepared>,
+<betterwithaddons:food_pufferfish_cooked>,
+<betterwithaddons:world_scale_ore:*>,
+<betterwithaddons:leaves_mulberry>,
+<betterwithaddons:leaves_sakura>
 ] as IItemStack[];
 
 for item in bwaArray {
@@ -164,6 +164,8 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:13>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:14>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
 
+furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
+furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);
 
 //Aqueducts
 recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [
