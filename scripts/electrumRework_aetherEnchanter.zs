@@ -28,6 +28,7 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_electrum>);
 #ADD RECIPES
 
 val elec = <ore:ingotElectrum>.firstItem;
+val elecnugget = <ore:nuggetElectrum>.firstItem;
 
 //BLOCKS
 recipes.addShaped("electrum_to_block",<ore:blockElectrum>.firstItem, [
@@ -45,6 +46,15 @@ recipes.addShaped("electrum_to_plateBlock",<contenttweaker:electrum_plate> * 24,
 );
 
 //ELECTRUM RECIPES
+recipes.addShaped("electrum_nugget_to_ingot",elec, [
+[elecnugget, elecnugget, elecnugget],
+[elecnugget, elecnugget, elecnugget], 
+[elecnugget, elecnugget, elecnugget]]
+);
+recipes.addShapeless("ingot_to_electrum_nugget",elecnugget* 9,
+[elec]
+);
+
 recipes.addShapeless("gold_silver_mixture", <contenttweaker:silver_gold_mixture>, 
 [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<ore:ingotSilver>,<aether_legacy:ambrosium_shard>]
 );
@@ -470,6 +480,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<rats:plague_scythe>, 72000);
 //Relics
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_aqueous>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_candy>, 28800);
+mods.aether_legacy.Enchanter.registerEnchantment(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 240);
+mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 3 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 72000);
 
 //Special
 mods.aether_legacy.Enchanter.registerEnchantment(<quark:pickarang>, 7700);

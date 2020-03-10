@@ -3,7 +3,6 @@ import crafttweaker.item.IIngredient;
 //Remove unnecessary weapons
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_wood>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:katana_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:saber_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_wood>);
@@ -117,7 +116,6 @@ mods.jei.JEI.removeAndHide(<spartancompat:glaive_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:boomerang_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:javelin_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:saber_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:katana_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:staff_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:spear_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:dagger_onyx>);

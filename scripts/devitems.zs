@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.rockycore.Anvil
 
 // cutcat
 
@@ -69,3 +70,25 @@ mods.jei.JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twent
 <mod_lavacow:canebeef>.displayName = "§4The Sandwich Horror";
 <mod_lavacow:canebeef>.addTooltip(format.darkRed("The Sandwich Horror"));
 <mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Relic 3/6"));
+
+
+//Foreck
+//My Stick
+<spartanweaponry:katana_wood>.addTooltip("An old stick wrapped ...with tape?");
+<spartanweaponry:katana_wood>.maxDamage = 24;
+//Is Better than Bacommm
+<spartancompat:katana_onyx>.addTooltip(format.darkBlue("Developer Relic 4/6"));
+<spartancompat:katana_onyx>.maxDamage = 1838;
+
+//Register specific sticks;
+mods.jei.JEI.removeAndHide(<spartanweaponry:katana_wood>);
+mods.jei.JEI.removeAndHide(<spartancompat:katana_onyx>);
+mods.jei.JEI.addItem(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}));
+mods.jei.JEI.addItem(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 3 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}));
+
+Anvil.remove([<spartanweaponry:katana_wood>]);
+Anvil.remove([<spartancompat:katana_onyx>]);
+
+mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"An old stick.", "§mThe chief of the village holds it very dear for unknown reasons, seems it is even more important than amethysts.");
+mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"Ancient. it is really just a stick, yet it feels like whoever its original wielder was really trusted it.", "How can a rat get its tiny hands on this?");
+mods.jei.JEI.addDescription(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 3 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),"Restored to a pristine state, the wisdom and power of previous generations has been deeply §linfused §rinto this artifact.");

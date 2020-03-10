@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 recipes.removeByMod("betterwithaddons");
+mods.betterwithaddons.Infuser.removeAll();
 
 val bwaArray = [
 <betterwithaddons:elytra_magma>,
@@ -142,7 +143,6 @@ mods.jei.JEI.hideCategory("bwa.waternet");
 mods.jei.JEI.hideCategory("bwa.sandnet");
 mods.jei.JEI.hideCategory("bwa.soakingbox");
 mods.jei.JEI.hideCategory("bwa.dryingbox");
-mods.jei.JEI.hideCategory("bwa.infuser.transmutation");
 
 mods.betterwithmods.Mill.remove([<betterwithaddons:food_ground_meat>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:food_meatballs>]);
@@ -166,6 +166,7 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
 
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);
+mods.jei.JEI.addItem(<betterwithaddons:greatarrow>);
 
 //Aqueducts
 recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [
@@ -189,7 +190,15 @@ recipes.addShapeless(<betterwithaddons:lattice> * 4, [<rustic:iron_lattice>,<rus
 recipes.addShaped(<betterwithaddons:wrought_bars> * 6, [[null, null, null],[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
 
 //INFUSER
+recipes.addShaped(<betterwithaddons:ancestry_infuser>, 
+[[<minecraft:clay_ball>],
+[<eplus:table_upgrade>], 
+[<minecraft:enchanting_table>]]
+);
+
 mods.betterwithaddons.Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
 [<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>],
 [<betterwithaddons:greatarrow>,<rats:charged_creeper_chunk>,<betterwithaddons:greatarrow>],
 [<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>]], 0);
+
+mods.betterwithaddons.Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 3 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 0);
