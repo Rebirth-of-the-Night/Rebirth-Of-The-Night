@@ -66,7 +66,7 @@ recipes.removeByRecipeName("minecraft:repeater");
 
 recipes.remove(<minecraft:fish:0>);
 
-//mods.rockycore.Anvil.remove(<minecraft:wooden_sword>);
+Anvil.remove(<minecraft:wooden_sword>);
 
 mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
 

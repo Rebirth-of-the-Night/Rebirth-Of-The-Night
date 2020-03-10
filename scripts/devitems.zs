@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
-import mods.rockycore.Anvil
+import mods.rockycore.Anvil;
 
 // cutcat
 
