@@ -329,6 +329,9 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <simpleores:onyx_boots>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_gem>.displayName = "§6Onyx";
 <simpleores:onyx_gem>.addTooltip(format.gold("Legendary Material"));
+<contenttweaker:phosphophyllite>.displayName = "§6Phosphophyllite";
+<contenttweaker:phosphophyllite>.addTooltip(format.gold("Legendary Material"));
+<contenttweaker:phosphophyllite>.addTooltip("Extremely rare gem. Valuable to the Nether natives.");
 
 
 <dungeontactics:lantern_magic>.displayName = "§6Magic Lantern";

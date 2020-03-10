@@ -267,6 +267,8 @@ mods.rats.recipes.addChefRatRecipe(<iceandfire:fire_dragon_flesh>, <harvestcraft
 mods.rats.recipes.addChefRatRecipe(<iceandfire:ice_dragon_flesh>, <harvestcraft:meatfeastpizzaitem>);
 mods.rats.recipes.addChefRatRecipe(<rats:tiny_coin>, <harvestcraft:chocolatesprinklecakeitem>);
 
-
+mods.rats.recipes.addGemcutterRatRecipe(<contenttweaker:phosphophyllite>,<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}));
+mods.rats.recipes.addGemcutterRatRecipe(<biomesoplenty:gem>, <netherex:amethyst_crystal>);
+mods.rats.recipes.addGemcutterRatRecipe(<netherex:amethyst_crystal>, <biomesoplenty:gem>);
 
 
