@@ -72,6 +72,15 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:bark:5>.displayName = "Dark Oak Bark Block";
 <quark:chain>.displayName = "Small Chain";
 <quark:chain>.addTooltip("Can be used to link minecarts or boats");
+<quark:stone_andesite_stairs>.displayName = "Gray Andesite Stairs";
+<quark:stone_andesite_slab:*>.displayName = "Gray Andesite Slab";
+<quark:world_stone_bricks:2>.displayName = "Gray Andesite Bricks";
+<quark:world_stone_carved:2>.displayName = "Chiseled Gray Andesite Bricks";
+<quark:stone_andesite_bricks_stairs>.displayName = "Gray Andesite Brick Stairs";
+<quark:stone_andesite_bricks_slab:*>.displayName = "Gray Andesite Brick Slab";
+<quark:world_stone_pavement:2>.displayName = "Gray Andesite Pavement";
+<quark:stone_andesite_bricks_wall>.displayName = "Gray Andesite Brick Wall";
+<quark:andesite_speleothem>.displayName = "Gray Andesite Speleothem";
 
 // Ice And Fire: Dragons in a Whole New Light
 <iceandfire:chain>.displayName = "Big Chain";
@@ -84,7 +93,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <rustic:iron_lantern>.displayName = "Tin Lantern";
 <rustic:barrel>.displayName = "Vertical Barrel";
 <rustic:chain>.displayName = "Iron Chandelier Chain";
-
+<rustic:andesite_pillar>.displayName = "Gray Andesite Pillar";
 
 // Vanilla
 <minecraft:anvil>.displayName = "Iron Anvil";
@@ -95,6 +104,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:golden_sword>.displayName = "Golden Arming Sword";
 <minecraft:diamond_sword>.displayName = "Diamond Arming Sword";
 <minecraft:cobblestone_wall:1>.displayName = "Moss Cobblestone Wall";
+<minecraft:stone:5>.displayName = "Gray Andesite";
+<minecraft:stone:6>.displayName = "Polished Gray Andesite";
+
+// Minecraft Future
+<minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
 
 // Malisis doors
 <malisisdoors:garage_door>.displayName = "Redstone Gate";
@@ -149,6 +163,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
+
+// Spartanweapony
+<spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
 
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));

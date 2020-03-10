@@ -64,6 +64,8 @@ recipes.removeByRecipeName("minecraft:stone_brick_stairs");
 recipes.removeByRecipeName("minecraft:stone_brick_slab");
 recipes.removeByRecipeName("minecraft:repeater");
 
+recipes.remove(<minecraft:fish:0>);
+
 //mods.rockycore.Anvil.remove(<minecraft:wooden_sword>);
 
 mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
@@ -247,10 +249,13 @@ val cookedCrab = <ore:foodCrabcooked>;
 cookedCrab.addItems([<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
 
 val rawFish = <ore:listAllfishraw>;
-rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:mimic_claw>,<quark:crab_leg>]);
+rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:mimic_claw>,<quark:crab_leg>,<mod_lavacow:piranha>,<mod_lavacow:zombiepiranha_item>]);
 
 val cookedFish = <ore:listAllfishcooked>;
-cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
+cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>]);
+
+val fish = <ore:fish>;
+fish.addAll(<ore:listAllfishraw>);
 
 val rawVenison = <ore:listAllvenisonraw>;
 rawVenison.add(<twilightforest:raw_venison>);

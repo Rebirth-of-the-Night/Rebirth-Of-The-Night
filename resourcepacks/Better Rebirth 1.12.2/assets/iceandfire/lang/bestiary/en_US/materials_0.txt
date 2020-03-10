@@ -1,16 +1,16 @@
-    After you have slain a
-dragon or come across a dead dragon,
-you can begin carving its carcass 
-by interacting with it.
+    After you have slayed a
+dragon or come across one's corpse,
+one can loot from it by interacting
+wit it.
 
 
 
 
 
 
-Dragon scales are the most
-common material that can be recovered
-from those dread reptiles. They can be crafted
+Dragon scales are one of the most
+common items that can be recovered
+from dead beasts. They can be crafted
 into suits of armor, which are very
 durable.
 
@@ -18,7 +18,7 @@ durable.
 
 
 
-The next most common loot one can
+The second most common loot one can
 receive are dragon bones.
 
 
@@ -31,8 +31,6 @@ Dragon bones are used in many
 recipes, but are mostly for crafting
 tools and weapons. These recipes
 usually involve the use of wither
-bone instead of sticks. Wither bones
-can be gathered from those black
-skeletons in the Nether, which I
-postulate are the ruined remains of 
-Endermen.
+bone instead of sticks. Wither bone
+can be gathered form black
+skeletons in the nether.

@@ -4,10 +4,15 @@ import mods.jei.JEI;
 import crafttweaker.item.IItemTransformer;
 
 //Bark fixes
-//recipes.addShapeless("barkexample",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<minecraft:oak_log>]);
 //Also add axes to oredict in minecraft.zs
 //Birch and Alicio give 8 (immeeeersion)
-recipes.remove(<betterwithmods:bark:*>);
+recipes.remove(<betterwithmods:bark:0>);
+recipes.remove(<betterwithmods:bark:1>);
+recipes.remove(<betterwithmods:bark:2>);
+recipes.remove(<betterwithmods:bark:3>);
+recipes.remove(<betterwithmods:bark:4>);
+recipes.remove(<betterwithmods:bark:5>);
+recipes.remove(<betterwithmods:bark:6>);
 recipes.addShapeless("axe_blookwood_bark",<betterwithmods:bark:6>*4,[<ore:toolAxe>.reuse(),<betterwithmods:blood_log>]);
 recipes.addShapeless("axe_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<minecraft:log:0>]);
 recipes.addShapeless("axe_spruce_bark",<betterwithmods:bark:1>*4,[<ore:toolAxe>.reuse(),<minecraft:log:1>]);
@@ -63,6 +68,8 @@ recipes.removeByRecipeName("betterwithmods:quark/birch_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
+recipes.removeByRecipeName("betterwithmods:baiting_recipe");
+recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
@@ -74,7 +81,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>); 
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>);
-
+mods.jei.JEI.removeAndHide(<betterwithmods:material:46>); 
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
@@ -107,7 +114,8 @@ mods.betterwithmods.Cauldron.addUnstoked([<quark:cooked_crab_leg>],[<minecraft:l
 mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:venisoncooked>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<twilightforest:cooked_venison>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_bat_wing>],[<minecraft:leather>]);
-
+mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:piranha_cooked>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:zombiepiranha_item_cooked>],[<minecraft:leather>]);
 
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
@@ -134,6 +142,12 @@ recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*4,[<betterwithmo
 recipes.addShapeless("Hemp Seeds", <betterwithmods:hemp>,[<ore:cropHemp>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:chicken_soup>);
+mods.jei.JEI.removeAndHide(<betterwithmods:cobblestone:0>);
+mods.jei.JEI.removeAndHide(<betterwithmods:cobblestone:1>);
+mods.jei.JEI.removeAndHide(<betterwithmods:cobblestone:2>);
+furnace.remove(<minecraft:stone:1>);
+furnace.remove(<minecraft:stone:3>);
+furnace.remove(<minecraft:stone:5>);
 
 //Descriptions
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
