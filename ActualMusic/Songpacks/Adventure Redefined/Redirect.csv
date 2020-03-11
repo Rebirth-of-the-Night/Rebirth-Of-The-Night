@@ -165,23 +165,23 @@ Dimension(10)[9],redirectSong:Beneath9,Priority:20000
 Dimension(10)[10],redirectSong:Beneath10,Priority:20000 
 
 // Twilight Forest
-Dimension(7)-Night[1],redirectSong:Mufaya-DarkAscension
-Dimension(7)-Night[2],redirectSong:TFNight1
-Dimension(7)-Night[3],redirectSong:TFNight2
-Dimension(7)-Night[4],redirectSong:TFNight3
-Dimension(7)-Night[5],redirectSong:TFNight4
+Dimension(7)[1],redirectSong:Mufaya-DarkAscension
+Dimension(7)[2],redirectSong:TFNight1
+Dimension(7)[3],redirectSong:TFNight2
+Dimension(7)[4],redirectSong:TFNight3
+Dimension(7)[5],redirectSong:TFNight4
 
-Dimension(7)-Day[1],redirectSong:TForest1
-Dimension(7)-Day[2],redirectSong:TForest2
-Dimension(7)-Day[3],redirectSong:TForest3
-Dimension(7)-Day[4],redirectSong:TForest4
-Dimension(7)-Day[5],redirectSong:TForest5
+Dimension(7)[6],redirectSong:TForest1
+Dimension(7)[7],redirectSong:TForest2
+Dimension(7)[8],redirectSong:TForest3
+Dimension(7)[9],redirectSong:TForest4
+Dimension(7)[10],redirectSong:TForest5
 
-Biome(Twilight Glacier)-Day[1],redirectSong:GlacierDay1
-Biome(Twilight Glacier)-Day[2],redirectSong:GlacierDay2
-Biome(Twilight Glacier)-Night[1],redirectSong:GlacierNight1
-Biome(Twilight Glacier)-Night[2],redirectSong:GlacierNight2
-Biome(Twilight Glacier)-Night[3],redirectSong:GlacierNight3
+Biome(Twilight Glacier)[1],redirectSong:GlacierDay1
+Biome(Twilight Glacier)[2],redirectSong:GlacierDay2
+Biome(Twilight Glacier)[3],redirectSong:GlacierNight1
+Biome(Twilight Glacier)[4],redirectSong:GlacierNight2
+Biome(Twilight Glacier)[5],redirectSong:GlacierNight3
 
 
 
