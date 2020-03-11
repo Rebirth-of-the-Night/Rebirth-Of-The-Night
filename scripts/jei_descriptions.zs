@@ -67,7 +67,7 @@ mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull>],"Cursed skull
 
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull_1>],"Cursed skull of a powerful forest spirit.");
 
-mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures.");
+mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures."); 
 # Archeologist Hat
 mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a little more adventurous, a little luckier, and a little more likely to store artifacts in museums.");
 <quark:archaeologist_hat>.addTooltip("When worn, provides a slight chance to unearth additional gems when mining gemstone ores.");
@@ -104,7 +104,8 @@ mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for
 # Handle 1
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");
 # Amethyst
-mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beatiful gem native to the lands of the Pig and the Ender people. Some villagers in the coldest of places collect this gem through unknown methods.");
+mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beatiful gem common to the lands of the Ender folk, as by now deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods too.");
+mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beatiful gem native to the lands of the pig folk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods too..");
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
 # Copper tin
