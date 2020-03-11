@@ -73,7 +73,21 @@
 <dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
 <sereneseasons:greenhouse_glass>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
+
+#Charm
+<charm:totem_of_returning>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to the location.");
+<charm:totem_of_shielding>.addTooltip("§5Absorbs all incoming damage when held in your offhand.");
+
+
+#Quark
 <quark:soul_bead>.addTooltip("Holding this softly shimmering bead makes you feel uneasy.");
+<quark:horse_whistle>.addTooltip("Summons your trusty steed, even from a great distance away.");
+<quark:backpack>.addTooltip("An invaluable storage tool, although it must be worn in place of chest armor.");
+<quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
+
+#Pyrotech
+<pyrotech:flint_and_tinder>.addTooltip("Hold right-click to light. Can't light a kiln without fuel.");
+
 
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
@@ -89,8 +103,8 @@
 
 <minecraft:enchanting_table>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
-<eplus:advanced_table>.addTooltip("Requires placing an Enchantment Table Upgrade on a regular Enchantment Table.");
-<eplus:table_upgrade>.addTooltip("Shift + right-click on an Enchantment Table to upgrade.");
+<eplus:advanced_table>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
+<eplus:table_upgrade>.addTooltip("Shift + right-click on an Enchanting Table to upgrade.");
 
 <netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");

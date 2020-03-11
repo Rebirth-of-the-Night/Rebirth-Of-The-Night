@@ -129,7 +129,9 @@ mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empi
 #Rats
 mods.jei.JEI.addDescription(<rats:plague_essence>,"Calcified clump of plague energy. The plagues were thought to be sealed away for good, but now this strain, at least, has returned with a vengeance.");
 
-mods.jei.JEI.addDescription(<rats:plague_doctorate>,"Contains vital knowledge for studying and treating plague, with the potential cost of being shunned or even feared within one's village.");
+mods.jei.JEI.addDescription(<rats:plague_doctor_mask>,"Protects the wearer from foul smells. The beak has just enough space to stuff a bundle of sweet herbs inside - ideal to distract from the stench of examining plagued or rotting flesh.");
+
+mods.jei.JEI.addDescription(<rats:plague_doctorate>,"Contains vital knowledge for studying and treating plague. Plague doctors are often feared or even shunned within their own communities, due to the nature of their work.");
 
 mods.jei.JEI.addDescription(<rats:rat_breeding_lantern>,"Use of accompanying jukebox and candles entirely optional.");
 
