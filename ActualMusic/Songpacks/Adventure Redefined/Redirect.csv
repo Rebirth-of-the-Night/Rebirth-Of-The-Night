@@ -47,6 +47,8 @@ Day[24],redirectSong:CrannNaBeatha
 Day[25],redirectSong:CastleInTheSky
 Day-Snow[1],redirectSong:Deliverance
 Day-Snow[2],redirectSong:Wanderer
+
+//BiomeType: Mountain
 BiomeType(Mountain)-Day[1],redirectSong:ForTheKing
 BiomeType(Mountain)-Day[2],redirectSong:Freedom
 BiomeType(Mountain)-Day[3],redirectSong:BreathOfTheForest
@@ -54,56 +56,173 @@ BiomeType(Mountain)-Day[4],redirectSong:IntoTheUnknown
 BiomeType(Mountain)-Day[5],redirectSong:Mourning
 BiomeType(Mountain)-Day[6],redirectSong:Myth
 
+//Snowy Biomes
+BiomeType(Snowy)-Day[1],redirectSong:IcyDay1
+BiomeType(Snowy)-Day[2],redirectSong:IcyDay2
+BiomeType(Snowy)-Day[3],redirectSong:IcyDay3
+BiomeType(Snowy)-Day[4],redirectSong:NightAtTheEolian
+
+BiomeType(Snowy)-Night[1],redirectSong:IcyNight1
+BiomeType(Snowy)-Night[2],redirectSong:IcyNight2
+BiomeType(Snowy)-Night[3],redirectSong:Sombre,start:431000
+BiomeType(Snowy)-Night[4],redirectSong:CrystalForest
 
 // Night
 Night[1],redirectSong:IntoSilenceP1
 Night[2],redirectSong:Moonsong
 Night[3],redirectSong:CrystalForest
 Night[4],redirectSong:Alvae
-Night[5],redirectSong:CelticLore
+Night[5],redirectSong:Storm
 Night[6],redirectSong:FallOfTheLeaf
 Night[7],redirectSong:IntoSilenceP2
 Night[8],redirectSong:OdeToTheFallen
 Night[9],redirectSong:Sleeper
 Night[10],redirectSong:Sombre,start:431000
+Night[11],redirectSong:Night1
+Night[12],redirectSong:Night2
+
 Night-Rain[1],redirectSong:WorldUnbound
+Night-Rain[2],redirectSong:TheShapersRealm
 Night-Snow[1],redirectSong:WorldUnbound
 
 
-//Underground
+// Underground
 Underground[1],redirectSong:WintersBreath,cutoff:186000
 Underground[2],redirectSong:IntoSilenceP1
+Underground[3],redirectSong:Underground1
+Underground[4],redirectSong:Underground2
+Underground[5],redirectSong:Underground3
+Underground[6],redirectSong:Underground4
+Underground[7],redirectSong:Underground5
+Underground[8],redirectSong:Underground6
+Underground[9],redirectSong:Underground7
+Underground[10],redirectSong:Underground8
+Underground[11],redirectSong:Underground9
+Underground[12],redirectSong:Underground10
+Underground[13],redirectSong:Underground11
+
+DeepUnder[1],redirectSong:DeepUnder1
+DeepUnder[2],redirectSong:DeepUnder2
+DeepUnder[3],redirectSong:DeepUnder3
+
+Stronghold[1],redirectSong:Fort1
+Stronghold[2],redirectSong:Fort2
+Stronghold[3],redirectSong:Fort3
+Stronghold[4],redirectSong:Fort4
+Stronghold[5],redirectSong:Fort5
 
 
-// Dimension
-BiomeType(Nether)[1],redirectSong:Mufaya-DarkAscension
-BiomeType(Nether)[2],redirectSong:TheShapersRealm
-BiomeType(End)[1],redirectSong:Storm
+//// **** Dimensions **** ////
+
+// Nether
+BiomeType(Nether)[1],redirectSong:Nether1
+BiomeType(Nether)[2],redirectSong:Nether2
+BiomeType(Nether)[3],redirectSong:Nether3
+BiomeType(Nether)[4],redirectSong:Nether4
+BiomeType(Nether)[5],redirectSong:NetherDepths
+BiomeType(Nether)[6],redirectSong:Nether6
+BiomeType(Nether)[7],redirectSong:Nether7
+BiomeType(Nether)[8],redirectSong:Nether8
+BiomeType(Nether)[9],redirectSong:Nether5
+
+NetherFort[1],redirectSong:NFortress1
+NetherFort[2],redirectSong:NFortress2
+NetherFort[3],redirectSong:NFortress3
+
+
+// End
+BiomeType(End)[1],redirectSong:End1
+BiomeType(End)[2],redirectSong:End2
+BiomeType(End)[3],redirectSong:End3
+BiomeType(End)[4],redirectSong:End4
+BiomeType(End)[5],redirectSong:End5
+BiomeType(End)[6],redirectSong:End6
+
+EndCity[1],redirectSong:EndCity1
+EndCity[2],redirectSong:EndCity2
+
+BiomeType(End)-Horde[1],redirectSong:EndBattle
+BiomeType(End)-Horde[2],redirectSong:EndBattle2
+
+
+
 // Aether Legacy overrides, since there's no way to disable builtin Aether music
 Dimension(4)[1],redirectSong:EmptySong,priority:20000
 Dimension(4)-Sunrise[1],redirectSong:EmptySong
-Dimension(10)[1],redirectSong:WintersBreath,start:186000,Priority:20000 // The Beneath
+
+//Dimension(-8)[1],redirectSong:rats,Priority:20000 
+
+// The Beneath
+Dimension(10)[1],redirectSong:Beneath1,Priority:20000 
+Dimension(10)[2],redirectSong:Beneath2,Priority:20000 
+Dimension(10)[3],redirectSong:Beneath3,Priority:20000 
+Dimension(10)[4],redirectSong:Beneath4,Priority:20000 
+Dimension(10)[5],redirectSong:Beneath5,Priority:20000 
+Dimension(10)[6],redirectSong:Beneath6,Priority:20000 
+Dimension(10)[7],redirectSong:Beneath7,Priority:20000 
+Dimension(10)[8],redirectSong:Beneath8,Priority:20000 
+Dimension(10)[9],redirectSong:Beneath9,Priority:20000 
+Dimension(10)[10],redirectSong:Beneath10,Priority:20000 
+
+// Twilight Forest
+Dimension(7)-Night[1],redirectSong:Mufaya-DarkAscension
+Dimension(7)-Night[2],redirectSong:TFNight1
+Dimension(7)-Night[3],redirectSong:TFNight2
+Dimension(7)-Night[4],redirectSong:TFNight3
+Dimension(7)-Night[5],redirectSong:TFNight4
+
+Dimension(7)-Day[1],redirectSong:TForest1
+Dimension(7)-Day[2],redirectSong:TForest2
+Dimension(7)-Day[3],redirectSong:TForest3
+Dimension(7)-Day[4],redirectSong:TForest4
+Dimension(7)-Day[5],redirectSong:TForest5
+
+Biome(Twilight Glacier)-Day[1],redirectSong:GlacierDay1
+Biome(Twilight Glacier)-Day[2],redirectSong:GlacierDay2
+Biome(Twilight Glacier)-Night[1],redirectSong:GlacierNight1
+Biome(Twilight Glacier)-Night[2],redirectSong:GlacierNight2
+Biome(Twilight Glacier)-Night[3],redirectSong:GlacierNight3
+
+
 
 // Village
 Village[1],redirectSong:ACelticTale
 Village[2],redirectSong:CircleOfLife
+Village[3],redirectSong:VillageDay1
+Village[4],redirectSong:VillageDay2
+Village[5],redirectSong:VillageDayNight1
+
 Village-Night[1],redirectSong:WintersNight
+Village-Night[2],redirectSong:VillageNight1
+Village-Night[3],redirectSong:VillageNight2
+Village-Night[4],redirectSong:VillageDayNight1
 
 
 // Bosses
-Boss[1],redirectSong:Ruthless
+Boss[1],redirectSong:Ruthless,Priority:20000 
 Boss-Dimension(-1)[1],redirectSong:LastStand
 Boss(GhastQueen)[1],redirectSong:GhastQueenMusic
 Boss(wither)[1],redirectSong:WitherMusic
+Boss(wither)[2],redirectSong:WitherIntense
+Boss(BlackDeath)[1],redirectSong:BlackDeath1
+
+Boss(TFSnowQueen)[1],redirectSong:SnowQueen1
+
+Battle(Frostmaw)[1],redirectSong:Frostmaw
+Battle(Barako)[1],redirectSong:SunChief
+Battle(Hirschgeist)[1],redirectSong:Hirschgeist1
+
 
 
 // Invasions
 Horde-Night[1],redirectSong:InvasionSong
 
 
-
 // Other
 BiomeType(Beach),redirectSong:CliffsOfMoher
+BiomeType(End)-Elytra[1],redirectSong:ElytraFlight
+Battle(TrumpetSkeleton)[1],redirectSong:SpookyScary
+
 Underwater,redirectSong:Eventide
 
 
