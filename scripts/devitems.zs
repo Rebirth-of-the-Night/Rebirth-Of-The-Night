@@ -89,6 +89,6 @@ mods.jei.JEI.addItem(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, 
 mods.rockytweaks.Anvil.remove([<spartanweaponry:katana_wood>]);
 mods.rockytweaks.Anvil.remove([<spartancompat:katana_onyx>]);
 
-mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"An old stick.", "§mThe chief of the village holds it very dear for unknown reasons, seems it is even more important than amethysts.");
-mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"Ancient. it is really just a stick, yet it feels like whoever its original wielder was really trusted it.", "How can a rat get its tiny hands on this?");
-mods.jei.JEI.addDescription(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 3 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),"Restored to a pristine state, the wisdom and power of previous generations has been deeply §linfused §rinto this artifact.");
+mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"An old stick.", "The chief of the village holds it very dear for unknown reasons, seems it is even more important than amethysts.");
+mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"Ancient. it is really just a stick, yet it feels like whoever its original wielder was really trusted it.");
+mods.jei.JEI.addDescription(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),"Restored to a pristine state, the wisdom and power of previous generations has been deeply §linfused §rinto this artifact.");

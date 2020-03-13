@@ -1,9 +1,9 @@
 
 
 
-Wither bone can also be made into
+Wither bones can also be made into
 wither bone shards, which replace
-flint when making dragon bone
+flint when making dragonbone
 arrows.
 
 
@@ -18,10 +18,12 @@ cooked, and has different effects
 based on what type of dragon it
 came from. Fire Dragon flesh will
 
-smite its eater, and Ice Dragon
+sear its eater, and Ice Dragon
 flesh can slow its consumer to
-a halt. All flesh sates as much
-as cooked beef.
+a halt. Though some cults may 
+claim to gain great power from 
+consuming this flesh, I would
+not recommend it.
 
 
 

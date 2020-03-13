@@ -481,7 +481,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<rats:plague_scythe>, 72000);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_aqueous>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_candy>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 240);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 3 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 72000);
 
 //Special
 mods.aether_legacy.Enchanter.registerEnchantment(<quark:pickarang>, 7700);
