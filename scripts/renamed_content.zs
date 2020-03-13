@@ -152,6 +152,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
 <betternether:stalagnate_bark>.displayName = "Stalagnate Bark Block";
 <betternether:nether_brick_wall>.displayName = "Nether Brick Tile Wall";
+<betternether:chest_of_drawers>.displayName = "Cincinnasite Chest Of Drawers";
 
 
 // Pyrotech
