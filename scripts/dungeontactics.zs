@@ -55,9 +55,6 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_s
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
 
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_mithril_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_mithril_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_mithril_ore:*>);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);
 
