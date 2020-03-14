@@ -2,7 +2,7 @@ setIcon(<minecraft:glowstone>)
 setTitle("A Heavenly Realm")
 setDescription("Enter The Aether.")
 
-addParent("triumph:advancements/dimensions/root")
+addParent("triumph:advancements/dimensions/enterNether")
 
 addRewardFunction("triumph:enteredAether")
 
@@ -12,4 +12,4 @@ criteria.setDimensionDestination(4)
 
 
 alwaysVisible()
-setPos(-56,-39)
+setPos(-98,-38)
