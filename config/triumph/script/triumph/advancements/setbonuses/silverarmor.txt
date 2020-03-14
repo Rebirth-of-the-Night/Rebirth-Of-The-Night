@@ -1,4 +1,4 @@
-setIcon("dungeontactics:silver_chestplate")
+setIcon("iceandfire:armor_silver_metal_chestplate")
 setTitle("Knight In Shining Armor")
 setDescription("Complete the Knight In Shining Armor set.")
 
