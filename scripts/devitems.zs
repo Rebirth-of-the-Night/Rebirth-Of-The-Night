@@ -9,7 +9,7 @@ import mods.rockytweaks.Anvil;
 mods.jei.JEI.addDescription([<dungeontactics:steel_sword>],['A sword imbued with the power of cat girls, pretty colors, pickles, and head pats. Lovingly referred to by its creator as "Sword of Gay."']);
 
 <dungeontactics:steel_sword>.addTooltip(format.aqua("+9999 validity to wielder"));
-<dungeontactics:steel_sword>.addTooltip(format.darkBlue("Developer Relic 6/6"));
+<dungeontactics:steel_sword>.addTooltip(format.darkBlue("Developer Relic 6/7"));
 
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
 [
@@ -18,6 +18,9 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
    [<minecraft:diamond>, <ore:dyePink>, <ore:ingotSilver>, null],
    [<minecraft:diamond>, <minecraft:diamond>, null, null ]
 ]);
+
+
+
 
 // CalaMariGold
 
@@ -31,7 +34,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 mods.jei.JEI.addDescription([<contenttweaker:calamarigold>],["You begin to have hallucinations of anime girls, pride flags, music, and Beat Saber."]);
 
 <contenttweaker:calamarigold>.addTooltip(format.aqua("Use this item to become a developer! ;)"));
-<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/6"));
+<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/7"));
 
 
 recipes.addHiddenShapeless("CalaMariGold", <contenttweaker:calamarigold>,
@@ -39,6 +42,12 @@ recipes.addHiddenShapeless("CalaMariGold", <contenttweaker:calamarigold>,
 
 recipes.addHiddenShapeless("CalaMariGold 2", <contenttweaker:calamarigold>,
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
+
+
+
+
+
+
 
 
 //Sandwich Horror
@@ -69,12 +78,13 @@ mods.jei.JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twent
 <mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Relic 3/6"));
 
 
+
 //Foreck
 //My Stick
 <spartanweaponry:katana_wood>.addTooltip("An old stick wrapped ...with tape?");
 <spartanweaponry:katana_wood>.maxDamage = 24;
 //Is Better than Bacommm
-<spartancompat:katana_onyx>.addTooltip(format.darkBlue("Developer Relic 4/6"));
+<spartancompat:katana_onyx>.addTooltip(format.darkBlue("Developer Relic 4/7"));
 <spartancompat:katana_onyx>.maxDamage = 1838;
 
 //Register specific sticks;
