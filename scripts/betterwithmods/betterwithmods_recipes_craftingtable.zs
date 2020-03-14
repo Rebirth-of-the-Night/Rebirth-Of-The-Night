@@ -22,6 +22,24 @@ recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>,
 [<ore:paper>, <ore:paper>, <ore:paper>, 
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
 
+//Put wind sail recipe using slabs above recipe using siding so noobs dont ask questions
+recipes.remove(<betterwithmods:material:11>);
+
+val sail = <betterwithmods:material:11>;
+val cloth = <betterwithmods:material:4>;
+val slab = <ore:slabWood>;
+val siding = <betterwithmods:siding_wood:*>;
+
+recipes.addShaped("Wind Sail Slab", <betterwithmods:material:11>,
+  [[cloth,cloth,cloth],
+  [cloth,cloth,cloth],
+  [slab,slab,slab]]);
+
+recipes.addShaped("Wind Sail Siding", <betterwithmods:material:11>,
+  [[cloth,cloth,cloth],
+  [cloth,cloth,cloth],
+  [siding,siding,siding]]);  
+
 //Vine Trap + Mossy
 recipes.remove(<betterwithmods:vine_trap>);
 recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,
