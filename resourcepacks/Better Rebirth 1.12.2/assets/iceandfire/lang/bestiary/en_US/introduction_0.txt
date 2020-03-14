@@ -1,12 +1,12 @@
-    A small tattered note clings to
+    A small, tattered note clings to
 the binding of the bestiary. It
 reads:
 
 
 "This manuscript is meant to be a
-guide to those who like to inform
+guide to those who wish to inform
 themselves about the greatest
-wonders in this supernatural realm.
+wonders across worlds.
 It will cover some of the basics of
 designing tools, armor, and weapons
 to tracking, hunting, and learning
@@ -36,5 +36,5 @@ which have a variety of uses.
 
 
 Silver weaponry does extra
-damage to the undead, due to
+damage to the undead due to
 its magical properties.

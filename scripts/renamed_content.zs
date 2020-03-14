@@ -152,6 +152,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
 <betternether:stalagnate_bark>.displayName = "Stalagnate Bark Block";
 <betternether:nether_brick_wall>.displayName = "Nether Brick Tile Wall";
+<betternether:chest_of_drawers>.displayName = "Cincinnasite Chest Of Drawers";
 
 
 // Pyrotech
@@ -163,6 +164,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
+
+// Spartanweapony
+<spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
 
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
@@ -343,6 +347,9 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <simpleores:onyx_boots>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_gem>.displayName = "§6Onyx";
 <simpleores:onyx_gem>.addTooltip(format.gold("Legendary Material"));
+<contenttweaker:phosphophyllite>.displayName = "§6Phosphophyllite";
+<contenttweaker:phosphophyllite>.addTooltip(format.gold("Legendary Material"));
+<contenttweaker:phosphophyllite>.addTooltip("Extremely rare gem. Valuable to the Nether natives.");
 
 
 <dungeontactics:lantern_magic>.displayName = "§6Magic Lantern";

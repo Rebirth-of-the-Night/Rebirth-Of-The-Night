@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.rockytweaks.Anvil;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 
@@ -64,7 +65,9 @@ recipes.removeByRecipeName("minecraft:stone_brick_stairs");
 recipes.removeByRecipeName("minecraft:stone_brick_slab");
 recipes.removeByRecipeName("minecraft:repeater");
 
-//mods.rockycore.Anvil.remove(<minecraft:wooden_sword>);
+recipes.remove(<minecraft:fish:0>);
+
+mods.rockytweaks.Anvil.remove(<minecraft:wooden_sword>);
 
 mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
 
@@ -216,11 +219,11 @@ flower.addItems([<biomesoplenty:flower_0:*>,<iceandfire:fire_lily>,<iceandfire:f
 val mushroom = <ore:mushroomAny>;
 mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
 
-val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<primitivemobs:dodo>,<betterwithmods:mystery_meat>,<twilightforest:raw_venison>,<betterwithmods:bat_wing>]);
+val rawBeef = <ore:listAllbeefraw>;
+rawBeef.add(<twilightforest:raw_meef>);
 
-val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.addItems([<primitivemobs:cooked_dodo>,<betterwithmods:cooked_mystery_meat>,<twilightforest:cooked_venison>,<betterwithmods:cooked_bat_wing>]);
+val cookedBeef = <ore:listAllbeefcooked>;
+cookedBeef.add(<twilightforest:cooked_meef>);
 
 val rawChicken = <ore:listAllchickenraw>;
 rawChicken.addItems([<primitivemobs:dodo>,<animania:raw_prime_chicken>,<animania:raw_peacock>,<animania:raw_prime_peacock>,<aether_legacy:cockatrice>,<aether_legacy:enchanted_cockatrice>]);
@@ -247,10 +250,15 @@ val cookedCrab = <ore:foodCrabcooked>;
 cookedCrab.addItems([<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
 
 val rawFish = <ore:listAllfishraw>;
-rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:mimic_claw>,<quark:crab_leg>]);
+rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:piranha>,<mod_lavacow:zombiepiranha_item>,<mod_lavacow:cheirolepis>]);
+rawFish.addAll(<ore:rawCrab>);
 
 val cookedFish = <ore:listAllfishcooked>;
-cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
+cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<mod_lavacow:cheirolepis_cooked>]);
+cookedFish.addAll(<ore:cookedCrab>);
+
+val fish = <ore:fish>;
+fish.addAll(<ore:listAllfishraw>);
 
 val rawVenison = <ore:listAllvenisonraw>;
 rawVenison.add(<twilightforest:raw_venison>);
@@ -260,6 +268,24 @@ cookedVenison.add(<twilightforest:cooked_venison>);
 
 val egg = <ore:listAllegg>;
 egg.add(<betterwithmods:raw_egg>);
+
+val rawMeat = <ore:listAllmeatraw>;
+rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>]);
+rawMeat.addAll(<ore:rawBeef>);
+rawMeat.addAll(<ore:rawChicken>);
+rawMeat.addAll(<ore:rawMutton>);
+rawMeat.addAll(<ore:rawFrog>);
+rawMeat.addAll(<ore:rawFish>);
+rawMeat.addAll(<ore:rawVenison>);
+
+val cookedMeat = <ore:listAllmeatcooked>;
+cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>]);
+cookedMeat.addAll(<ore:cookedBeef>);
+cookedMeat.addAll(<ore:cookedChicken>);
+cookedMeat.addAll(<ore:cookedMutton>);
+cookedMeat.addAll(<ore:cookedFrog>);
+cookedMeat.addAll(<ore:cookedFish>);
+cookedMeat.addAll(<ore:cookedVenison>);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);

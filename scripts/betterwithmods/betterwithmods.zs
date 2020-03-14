@@ -13,43 +13,43 @@ recipes.remove(<betterwithmods:bark:3>);
 recipes.remove(<betterwithmods:bark:4>);
 recipes.remove(<betterwithmods:bark:5>);
 recipes.remove(<betterwithmods:bark:6>);
-recipes.addShapeless("axe_blookwood_bark",<betterwithmods:bark:6>*4,[<ore:toolAxe>.reuse(),<betterwithmods:blood_log>]);
-recipes.addShapeless("axe_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<minecraft:log:0>]);
-recipes.addShapeless("axe_spruce_bark",<betterwithmods:bark:1>*4,[<ore:toolAxe>.reuse(),<minecraft:log:1>]);
-recipes.addShapeless("axe_birch_bark",<betterwithmods:bark:2>*8,[<ore:toolAxe>.reuse(),<minecraft:log:2>]);
-recipes.addShapeless("axe_jungle_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.reuse(),<minecraft:log:3>]);
-recipes.addShapeless("axe_acacia_bark",<betterwithmods:bark:4>*4,[<ore:toolAxe>.reuse(),<minecraft:log2:0>]);
-recipes.addShapeless("axe_dark_oak_bark",<betterwithmods:bark:5>*4,[<ore:toolAxe>.reuse(),<minecraft:log2:1>]);
-recipes.addShapeless("axe_sacred_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_0:4>]);
-recipes.addShapeless("axe_cherry_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_0:5>]);
-recipes.addShapeless("axe_umbran_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_0:6>]);
-recipes.addShapeless("axe_fir_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_0:7>]);
-recipes.addShapeless("axe_ethereal_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_1:4>]);
-recipes.addShapeless("axe_magic_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_1:5>]);
-recipes.addShapeless("axe_mangrove_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_1:6>]);
-recipes.addShapeless("axe_palm_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_1:7>]);
-recipes.addShapeless("axe_redwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_2:4>]);
-recipes.addShapeless("axe_willow_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_2:5>]);
-recipes.addShapeless("axe_pine_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_2:6>]);
-recipes.addShapeless("axe_hellbark_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_2:7>]);
-recipes.addShapeless("axe_jacaranda_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_3:4>]);
-recipes.addShapeless("axe_mahogany_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_3:5>]);
-recipes.addShapeless("axe_ebony_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_3:6>]);
-recipes.addShapeless("axe_eucalyptus_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<biomesoplenty:log_3:7>]);
-recipes.addShapeless("axe_olive_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<rustic:log:0>]);
-recipes.addShapeless("axe_ironwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<rustic:log:1>]);
-recipes.addShapeless("axe_wyrmwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<stygian:endlog>]);
-recipes.addShapeless("axe_maple_bark",<betterwithmods:bark:1>*4,[<ore:toolAxe>.reuse(),<harvestcraft:pammaple>]);
-recipes.addShapeless("axe_paperbark_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.reuse(),<harvestcraft:pampaperbark>]);
-recipes.addShapeless("axe_cinnamon_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.reuse(),<harvestcraft:pamcinnamon>]);
-recipes.addShapeless("axe_twilight_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:twilight_log:0>]);
-recipes.addShapeless("axe_canopy_tree_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:twilight_log:1>]);
-recipes.addShapeless("axe_twilight_mangrove_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:twilight_log:2>]);
-recipes.addShapeless("axe_darkwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:twilight_log:3>]);
-recipes.addShapeless("axe_timewood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:magic_log:0>]);
-recipes.addShapeless("axe_transwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:magic_log:1>]);
-recipes.addShapeless("axe_minewood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:magic_log:2>]);
-recipes.addShapeless("axe_sortingwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.reuse(),<twilightforest:magic_log:3>]);
+recipes.addShapeless("axe_blookwood_bark",<betterwithmods:bark:6>*4,[<ore:toolAxe>.transformDamage(),<betterwithmods:blood_log>]);
+recipes.addShapeless("axe_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log:0>]);
+recipes.addShapeless("axe_spruce_bark",<betterwithmods:bark:1>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log:1>]);
+recipes.addShapeless("axe_birch_bark",<betterwithmods:bark:2>*8,[<ore:toolAxe>.transformDamage(),<minecraft:log:2>]);
+recipes.addShapeless("axe_jungle_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log:3>]);
+recipes.addShapeless("axe_acacia_bark",<betterwithmods:bark:4>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log2:0>]);
+recipes.addShapeless("axe_dark_oak_bark",<betterwithmods:bark:5>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log2:1>]);
+recipes.addShapeless("axe_sacred_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:4>]);
+recipes.addShapeless("axe_cherry_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:5>]);
+recipes.addShapeless("axe_umbran_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:6>]);
+recipes.addShapeless("axe_fir_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:7>]);
+recipes.addShapeless("axe_ethereal_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:4>]);
+recipes.addShapeless("axe_magic_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:5>]);
+recipes.addShapeless("axe_mangrove_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:6>]);
+recipes.addShapeless("axe_palm_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:7>]);
+recipes.addShapeless("axe_redwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:4>]);
+recipes.addShapeless("axe_willow_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:5>]);
+recipes.addShapeless("axe_pine_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:6>]);
+recipes.addShapeless("axe_hellbark_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:7>]);
+recipes.addShapeless("axe_jacaranda_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:4>]);
+recipes.addShapeless("axe_mahogany_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:5>]);
+recipes.addShapeless("axe_ebony_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:6>]);
+recipes.addShapeless("axe_eucalyptus_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:7>]);
+recipes.addShapeless("axe_olive_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<rustic:log:0>]);
+recipes.addShapeless("axe_ironwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<rustic:log:1>]);
+recipes.addShapeless("axe_wyrmwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<stygian:endlog>]);
+recipes.addShapeless("axe_maple_bark",<betterwithmods:bark:1>*4,[<ore:toolAxe>.transformDamage(),<harvestcraft:pammaple>]);
+recipes.addShapeless("axe_paperbark_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.transformDamage(),<harvestcraft:pampaperbark>]);
+recipes.addShapeless("axe_cinnamon_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.transformDamage(),<harvestcraft:pamcinnamon>]);
+recipes.addShapeless("axe_twilight_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:0>]);
+recipes.addShapeless("axe_canopy_tree_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:1>]);
+recipes.addShapeless("axe_twilight_mangrove_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:2>]);
+recipes.addShapeless("axe_darkwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:3>]);
+recipes.addShapeless("axe_timewood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:0>]);
+recipes.addShapeless("axe_transwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:1>]);
+recipes.addShapeless("axe_minewood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:2>]);
+recipes.addShapeless("axe_sortingwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:3>]);
 
 mods.betterwithmods.Saw.remove(<twilightforest:twilight_log:3>);
 mods.betterwithmods.Saw.add(<twilightforest:twilight_log:3>,[<twilightforest:dark_planks>*4,<betterwithmods:bark:0>,<betterwithmods:material:22>*2]);
@@ -69,6 +69,7 @@ recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 recipes.removeByRecipeName("betterwithmods:baiting_recipe");
+recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
@@ -80,7 +81,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>); 
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>);
-
+mods.jei.JEI.removeAndHide(<betterwithmods:material:46>); 
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
@@ -113,7 +114,8 @@ mods.betterwithmods.Cauldron.addUnstoked([<quark:cooked_crab_leg>],[<minecraft:l
 mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:venisoncooked>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<twilightforest:cooked_venison>],[<minecraft:leather>]);
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_bat_wing>],[<minecraft:leather>]);
-
+mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:piranha_cooked>],[<minecraft:leather>]);
+mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:zombiepiranha_item_cooked>],[<minecraft:leather>]);
 
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
