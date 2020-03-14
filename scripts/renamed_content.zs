@@ -316,6 +316,11 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 
 #Legendary
+<betterwithmods:steel_mattock>.displayName = "§6Refined Mattock";
+<betterwithmods:steel_mattock>.addTooltip(format.gold("Legendary Tool"));
+
+
+
 <simpleores:onyx_sword>.displayName = "§6Onyx Sword";
 <simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";

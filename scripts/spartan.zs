@@ -1,5 +1,56 @@
 import crafttweaker.item.IIngredient;
 
+//Remove soulforged/refined weapoons (sfs is only used for tools and armor, a defensive material)
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:saber_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:rapier_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:spear_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:halberd_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:pike_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:glaive_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:mace_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:katana_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartancompat:staff_soulforged_steel>);
+
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:dagger_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:longsword_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:saber_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:rapier_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:greatsword_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:warhammer_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:spear_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:halberd_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:pike_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:lance_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:throwing_knife_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:throwing_axe_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:battleaxe_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:glaive_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:dagger_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:longbow_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:crossbow_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:boomerang_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:mace_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:javelin_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:hammer_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:katana_soulforged_steel>);
+mods.betterwithmods.Anvil.removeShaped(<spartancompat:staff_soulforged_steel>);
+
+
+
 //Remove unnecessary weapons
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_wood>);

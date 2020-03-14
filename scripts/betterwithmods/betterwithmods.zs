@@ -155,3 +155,10 @@ mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
 mods.jei.JEI.addDescription(<betterwithmods:saw>,"Much more precise than any axe, the saw can make some nice half-blocks.");
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any Wooden Slab, or cheaper using Wooden Siding once you build a Saw!");
+
+mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
+mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_battleaxe>);
+
+mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
+mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_sword>);
+

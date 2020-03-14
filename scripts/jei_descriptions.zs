@@ -8,6 +8,17 @@ mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has 
 
 
 #MISCELLANEOUS#
+mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");
+
+mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Can not be enchanted since it is already infused with souls.");
+
+
 mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly living crystal. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
 
 mods.jei.JEI.addDescription([<biomesoplenty:biome_essence>],["Residual energy of that which was extinguished by Void. Can be found at the bottom of the Ender Dragon island."]);
@@ -69,6 +80,7 @@ mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull_1>],"Cursed sku
 
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures.");
 
+
 mods.jei.JEI.addDescription([<forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000})],"Jersey Milk is obtained from Jersey Cows.");
 # Archeologist Hat
 mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a little more adventurous, a little luckier, and a little more likely to store artifacts in museums.");
@@ -124,11 +136,20 @@ mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat 
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
 # Spell Scroll
 mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>, 'A gate to unhibited magic power and a variety of different spells. Scholars can find more knowledge in "Magic."');
+
+
+
 # Aqueducts
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
+
+
+
+
+
+
 #Rats
 mods.jei.JEI.addDescription(<rats:plague_essence>,"Calcified clump of plague energy. The plagues were thought to be sealed away for good, but now this strain, at least, has returned with a vengeance.");
 
@@ -141,6 +162,10 @@ mods.jei.JEI.addDescription(<rats:rat_breeding_lantern>,"Use of accompanying juk
 mods.jei.JEI.addDescription(<rats:plague_scythe>,"Instilled with the corrupting potential to destroy empires.");
 
 mods.jei.JEI.addDescription(<rats:black_death_mask>,"Diseases are perfected through experimentation... what better laboratory than the blood-soaked battlefield?");
+
+
+
+
 
 
 # Runes
