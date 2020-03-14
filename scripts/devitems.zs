@@ -11,7 +11,7 @@ mods.jei.JEI.addDescription([<dungeontactics:steel_sword>],['A sword imbued with
 <dungeontactics:steel_sword>.addTooltip(format.aqua("+9999 validity to wielder"));
 <dungeontactics:steel_sword>.addTooltip(format.darkBlue("Developer Relic 6/6"));
 
-mods.betterwithmods.Anvil.addHiddenShaped(<dungeontactics:steel_sword>, 
+mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
 [
    [null, null, <minecraft:diamond>, <arcanearchives:shaped_quartz>],
    [null, <ore:ingotSilver>, <ore:dyePink>, <minecraft:diamond>],
