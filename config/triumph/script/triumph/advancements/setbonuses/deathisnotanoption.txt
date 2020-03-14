@@ -16,7 +16,7 @@ criteria.addItem("simpleores:adamantium_leggings")
 criteria = addCriteria("Mythril Boots", "minecraft:inventory_changed")
 criteria.addItem("simpleores:mythril_boots")
 
-criteria = addCriteria("Diamond Shield", "minecraft:inventory_changed")
+criteria = addCriteria("Gem Forged Shield", "minecraft:inventory_changed")
 criteria.addItem("spartanshields:shield_basic_diamond")
 
 

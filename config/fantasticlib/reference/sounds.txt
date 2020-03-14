@@ -718,6 +718,7 @@ roughmobsrevamped:entity.boss.boss_spawn
 roughmobsrevamped:entity.boss.boss_idle
 roughmobsrevamped:entity.boss.boss_death
 roughmobsrevamped:entity.boss.boss_batswarm
+roughmobsrevamped:entity.player.player_cough
 zombieawareness:alert
 zombieawareness:target
 zombieawareness:investigate
@@ -1209,6 +1210,9 @@ netherex:ghast_queen_hurt
 netherex:ghast_queen_death
 netherex:ghast_queen_shoot
 netherex:ghast_queen_summon
+nyx:lunar_water
+nyx:falling_star
+nyx:falling_star_impact
 primitivemobs:entity.brainslime.slimecharge
 primitivemobs:entity.motherspider.spiderscreech
 primitivemobs:entity.grovesprite.angry

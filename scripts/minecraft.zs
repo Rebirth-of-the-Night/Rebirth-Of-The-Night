@@ -250,11 +250,11 @@ val cookedCrab = <ore:foodCrabcooked>;
 cookedCrab.addItems([<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
 
 val rawFish = <ore:listAllfishraw>;
-rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:piranha>,<mod_lavacow:zombiepiranha_item>]);
+rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:piranha>,<mod_lavacow:zombiepiranha_item>,<mod_lavacow:cheirolepis>]);
 rawFish.addAll(<ore:rawCrab>);
 
 val cookedFish = <ore:listAllfishcooked>;
-cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>]);
+cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<mod_lavacow:cheirolepis_cooked>]);
 cookedFish.addAll(<ore:cookedCrab>);
 
 val fish = <ore:fish>;

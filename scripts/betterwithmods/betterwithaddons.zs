@@ -67,7 +67,6 @@ val bwaArray = [
 <betterwithaddons:unbaked:1>,
 <betterwithaddons:unbaked:2>,
 <betterwithaddons:unbaked:3>,
-<betterwithaddons:tea_powder>,
 <betterwithaddons:soulsand_pile>,
 <betterwithaddons:rotten_food>,
 <betterwithaddons:food_sashimi>,
@@ -116,7 +115,6 @@ val bwaArray = [
 <betterwithaddons:paper_wall>,
 <betterwithaddons:wood_lamp>,
 <betterwithaddons:pavement>,
-<betterwithaddons:tea_wilted>,
 <betterwithaddons:wool:*>,
 <betterwithaddons:salt>,
 <betterwithaddons:brick_stained:*>,
@@ -136,6 +134,37 @@ val bwaArray = [
 for item in bwaArray {
     mods.jei.JEI.removeAndHide(item);
 }
+
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "sencha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "assam"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "nether"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "ceylon"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "white"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "bancha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "end"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "tencha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "gyokuro"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "sencha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "bancha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "tencha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "gyokuro"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "assam"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "nether"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "ceylon"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "white"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "end"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "sencha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "assam"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "nether"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "ceylon"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "white"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "bancha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "end"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "tencha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "gyokuro"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"}));
+mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
+
 
 mods.jei.JEI.hideCategory("bwa.tatara");
 mods.jei.JEI.hideCategory("bwa.firenet");

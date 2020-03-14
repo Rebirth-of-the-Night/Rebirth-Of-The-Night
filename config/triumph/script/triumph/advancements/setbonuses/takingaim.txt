@@ -1,4 +1,4 @@
-setIcon("dungeontactics:silver_helmet")
+setIcon("iceandfire:armor_silver_metal_helmet")
 setTitle("Taking Aim")
 setDescription("Complete the Taking Aim set.")
 
@@ -7,10 +7,10 @@ addParent("triumph:advancements/setbonuses/powercouple")
 
 
 criteria = addCriteria("Silver Helmet", "minecraft:inventory_changed")
-criteria.addItem("dungeontactics:silver_helmet")
+criteria.addItem("iceandfire:armor_silver_metal_helmet")
 
 criteria = addCriteria("Silver Chestplate", "minecraft:inventory_changed")
-criteria.addItem("dungeontactics:silver_chestplate")
+criteria.addItem("iceandfire:armor_silver_metal_chestplate")
 
 criteria = addCriteria("Onyx Leggings", "minecraft:inventory_changed")
 criteria.addItem("simpleores:onyx_leggings")

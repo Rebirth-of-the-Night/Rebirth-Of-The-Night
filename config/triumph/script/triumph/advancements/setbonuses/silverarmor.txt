@@ -1,4 +1,4 @@
-setIcon("dungeontactics:silver_chestplate")
+setIcon("iceandfire:armor_silver_metal_chestplate")
 setTitle("Knight In Shining Armor")
 setDescription("Complete the Knight In Shining Armor set.")
 
@@ -7,16 +7,16 @@ addParent("triumph:advancements/setbonuses/ironarmor")
 addRewardFunction("triumph:fullEarlyArmor")
 
 criteria = addCriteria("Silver Helmet", "minecraft:inventory_changed")
-criteria.addItem("dungeontactics:silver_helmet")
+criteria.addItem("iceandfire:armor_silver_metal_helmet")
 
 criteria = addCriteria("Silver Chestplate", "minecraft:inventory_changed")
-criteria.addItem("dungeontactics:silver_chestplate")
+criteria.addItem("iceandfire:armor_silver_metal_chestplate")
 
 criteria = addCriteria("Silver Leggings", "minecraft:inventory_changed")
-criteria.addItem("dungeontactics:silver_leggings")
+criteria.addItem("iceandfire:armor_silver_metal_leggings")
 
 criteria = addCriteria("Silver Boots", "minecraft:inventory_changed")
-criteria.addItem("dungeontactics:silver_boots")
+criteria.addItem("iceandfire:armor_silver_metal_boots")
 setPos(-220,11)
 
 alwaysVisible()

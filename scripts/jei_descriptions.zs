@@ -67,7 +67,9 @@ mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull>],"Cursed skull
 
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull_1>],"Cursed skull of a powerful forest spirit.");
 
-mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures."); 
+mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures.");
+
+mods.jei.JEI.addDescription([<forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000})],"Jersey Milk is obtained from Jersey Cows.");
 # Archeologist Hat
 mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a little more adventurous, a little luckier, and a little more likely to store artifacts in museums.");
 <quark:archaeologist_hat>.addTooltip("When worn, provides a slight chance to unearth additional gems when mining gemstone ores.");
