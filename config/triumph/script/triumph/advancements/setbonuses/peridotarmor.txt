@@ -4,6 +4,8 @@ setDescription("Complete the Going Green set.")
 
 addParent("triumph:advancements/setbonuses/goldarmor")
 
+addRewardFunction("triumph:fullMidArmor")
+
 criteria = addCriteria("Peridot Helmet", "minecraft:inventory_changed")
 criteria.addItem("atop:peridot_helmet")
 

@@ -855,7 +855,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:jumpingcreeper",
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -969,7 +969,7 @@
   {
     "dimension": 0,
     "mob": "specialmobs:wildswitch",
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
 	"random": 0.12,
     "maxcount": {
         "amount": 3,
@@ -1062,7 +1062,7 @@
   {
     "dimension": [0,10],
     "mob": "specialmobs:flyingsilverfish",
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
 	"maxlight": 5,
     "minlight": 0,
 	"random": 0.3,
@@ -1262,27 +1262,27 @@
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["dungeontactics:silver_helmet", "minecraft:iron_helmet"],
-    "gamestage": "fullDiamondArmor"
+    "gamestage": "fullMidArmor"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["dungeontactics:silver_chestplate", "minecraft:iron_chestplate"],
-    "gamestage": "fullDiamondArmor"
+    "gamestage": "fullMidArmor"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["dungeontactics:silver_leggings", "minecraft:iron_leggings"],
-    "gamestage": "fullDiamondArmor"
+    "gamestage": "fullMidArmor"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["dungeontactics:silver_boots", "minecraft:iron_boots"],
-    "gamestage": "fullDiamondArmor"
+    "gamestage": "fullMidArmor"
 },
 
 
@@ -1359,7 +1359,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
-    "gamestage": "fullDiamondArmor"
+    "gamestage": "fullMidArmor"
 },
 
 	////////////////// ZOMBIE SPAWNS //////////////////////////
@@ -1385,7 +1385,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:brutezombie",
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1483,7 +1483,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:bruteskeleton",
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1632,7 +1632,7 @@
     "dimension": 0,
     "mob": "specialmobs:desertspider",
     "biome": "Desert",
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1648,7 +1648,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:witchspider",
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1794,7 +1794,7 @@
     "minlight": 14,
     "random": 0.003,
     "seesky": true,
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -2048,7 +2048,7 @@
     "dimension": 0,
     "mob": "betteranimalsplus:feralwolf",
 	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Taiga M", "Ice Plains Spikes", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Ominous Woods", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "AlpsFoothills"],
-    "gamestage": "fullDiamondArmor",
+    "gamestage": "fullMidArmor",
 	"maxlight": 7,
     "minlight": 0,
 	"random": 0.2,
