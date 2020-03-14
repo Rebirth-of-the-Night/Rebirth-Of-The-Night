@@ -36,3 +36,5 @@ mods/blockdrops-1.12.2-1.4.0.jar
 config/BlockDrops/blockdrops.txt
 config/BlockDrops/modVersions.txt
 config/BlockDrops/config.cfg
+modlist.html
+manifest.json
