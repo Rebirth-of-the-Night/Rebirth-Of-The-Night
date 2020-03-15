@@ -413,3 +413,14 @@ recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
     [<minecraft:redstone>, <minetraps:barbed_wire_fence>, <minecraft:redstone>],
     [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);
+
+#Bag of Hoarding crafted using Tanned Leather
+
+var tanned = <betterwithmods:material:6>;
+
+recipes.remove(<dungeontactics:bagofhoarding>);
+recipes.addShaped("Bag of Hoarding", <dungeontactics:bagofhoarding>,[
+    [<minecraft:string>, tanned, <minecraft:string>],
+    [tanned, <minecraft:ender_chest>, tanned],
+    [tanned, tanned, tanned]
+]);
