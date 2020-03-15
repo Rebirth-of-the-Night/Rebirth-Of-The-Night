@@ -154,6 +154,12 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:nether_brick_wall>.displayName = "Nether Brick Tile Wall";
 <betternether:chest_of_drawers>.displayName = "Cincinnasite Chest Of Drawers";
 
+// NetherEX
+<netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";
+<netherex:frosted_amedian_pickaxe>.displayName = "Frosted Rime Pickaxe";
+<netherex:frosted_amedian_axe>.displayName = "Frosted Rime Axe";
+<netherex:frosted_amedian_shovel>.displayName = "Frosted Rime Shovel";
+<netherex:frosted_amedian_hoe>.displayName = "Frosted Rime Hoe";
 
 // Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
