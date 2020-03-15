@@ -476,7 +476,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <dungeontactics:silver_sword>.displayName = "§cTrue Dark's Edge";
 <dungeontactics:silver_sword>.addTooltip(format.red("Godly Weapon"));
 <dungeontactics:silver_sword>.addTooltip("They shall feel my pain, and fear for their souls.");
-mods.jei.JEI.addDescription([<dungeontactics:silver_sword>],["The True Dark's Edge is a living blade fused with the eternal power of the fallen and pain. The sword will never despawn and inflicts enemies with paralysis."]);
+mods.jei.JEI.addDescription([<dungeontactics:silver_sword>],["The True Dark's Edge is a living blade fused with the eternal power of the fallen. The sword will never despawn and inflicts enemies with paralysis."]);
 
 
 <betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";
