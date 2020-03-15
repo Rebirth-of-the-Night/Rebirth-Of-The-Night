@@ -24,4 +24,4 @@ criteria.addItem("bountifulbaubles:shieldankh")
 
 alwaysVisible()
 setFrameType("CHALLENGE")
-setPos(-33,-113)
+setPos(-18,-113)

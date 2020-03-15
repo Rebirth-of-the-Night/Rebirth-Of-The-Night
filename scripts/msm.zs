@@ -3,16 +3,13 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
 
-mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 99 as short}]})");
+//mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 99 as short}]})");
 
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_infinity>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_keyblade>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_master>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_molten>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_pie>);
-
-mods.jei.JEI.removeAndHide(<msmlegacy:dawn_star>);
-
 
 
 var silver = <ore:ingotSilver>;
@@ -62,8 +59,6 @@ recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTa
 ]);
 
 
-
-
 var sfs = <betterwithmods:material:14>;
 var fiery = <twilightforest:fiery_ingot>;
 var onyxrod = <simpleores:onyx_rod>;
@@ -85,10 +80,123 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:relic_candy>.withTag(enchantmentR
 ]);
 
 ////////////////////////////////////////        Legendaries        ///////////////////////////////////
+var onyx_sword = <simpleores:onyx_sword>;
+var mythril_sword = <simpleores:mythril_sword>;
+var viridium_sword = <simpleores:adamantium_sword>;
+var diamond_sword = <minecraft:diamond_sword>;
+var biotite = <quark:biotite>;
+
+val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>];
+
+var enchantmentMap3 as IData = {};
+
+enchantmentMap3 += enchantments3[0].makeEnchantment(1).makeTag();
+
+
+recipes.remove(<msmlegacy:wither_bane>);
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(enchantmentMap3), 
+[
+   [biotite, biotite, biotite, biotite],
+   [biotite, onyx_sword, mythril_sword, biotite],
+   [biotite, viridium_sword, diamond_sword, biotite],
+   [biotite, biotite, biotite, biotite]
+]);
+
+
+
+
+
+var lightessence = <biomesoplenty:biome_essence>;
+
+val enchantments4 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:sparks>];
+
+var enchantmentMap4 as IData = {};
+
+enchantmentMap4 += enchantments4[0].makeEnchantment(1).makeTag();
+
+recipes.remove(<msmlegacy:crystaline_blade>);
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(enchantmentMap4), 
+[
+   [lightessence, lightessence, lightessence, lightessence],
+   [lightessence, onyx_sword, mythril_sword, lightessence],
+   [lightessence, viridium_sword, diamond_sword, lightessence],
+   [lightessence, lightessence, lightessence, lightessence]
+]);
+
 
 
 
 ////////////////////////////////////////        Godly        ///////////////////////////////////
+
+var undyingheart = <mod_lavacow:undyingheart>;
+var witherrose = <minecraftfuture:flowerblack>;
+var shulkerheart = <bountifulbaubles:trinketshulkerheart>;
+var trollskull = <iceandfire:troll_skull>;
+var brokenheart = <bountifulbaubles:trinketbrokenheart>;
+var hirschgeistskull = <betteranimalsplus:hirschgeistskull_1>;
+var darksedge = <msmlegacy:wither_bane>;
+var heartofthefallen = <contenttweaker:heartofthefallen>;
+var onyx = <simpleores:onyx_gem>;
+var cometshard = <nyx:comet_shard>;
+var ravenfeather = <twilightforest:raven_feather>;
+
+mods.betterwithmods.Anvil.addShaped(<contenttweaker:heartofthefallen>, 
+[
+   [shulkerheart, witherrose, witherrose, trollskull],
+   [witherrose, undyingheart, undyingheart, witherrose],
+   [witherrose, undyingheart, undyingheart, witherrose],
+   [hirschgeistskull, witherrose, witherrose, brokenheart]
+]);
+
+
+recipes.remove(<dungeontactics:silver_sword>);
+mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag({ench: [{personalityName: "Unholy", kills: 0, effectiveness: 1.00 as float, personality: 0.13866483 as float, xp: 1, lvl: 1 as short, id: 78 as short}, {lvl: 1 as short, id: 96 as short}, {lvl: 3 as short, id: 95 as short}, {lvl: 1 as short, id: 146 as short}, {lvl: 1 as short, id: 140 as short}]}), 
+[
+   [cometshard, onyx, onyx, cometshard],
+   [onyx, ravenfeather, darksedge, onyx],
+   [onyx, heartofthefallen, ravenfeather, onyx],
+   [cometshard, onyx, onyx, cometshard]
+]);
+
+
+
+
+
+
+var heartofdiamond = <quark:diamond_heart>;
+var victorymedal = <aether_legacy:victory_medal>;
+var healingstone = <aether_legacy:healing_stone>;
+var fallenstar = <nyx:fallen_star>;
+var fierytears = <twilightforest:fiery_tears>;
+var heavensheart = <contenttweaker:heavensheart>;
+var lightsedge = <msmlegacy:crystaline_blade>;
+
+mods.betterwithmods.Anvil.addShaped(<contenttweaker:heavensheart>, 
+[
+   [healingstone, victorymedal, victorymedal, healingstone],
+   [victorymedal, heartofdiamond, heartofdiamond, victorymedal],
+   [victorymedal, heartofdiamond, heartofdiamond, victorymedal],
+   [healingstone, victorymedal, victorymedal, healingstone]
+]);
+
+recipes.remove(<msmlegacy:dawn_star>);
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag({ench: [{personalityName: "Divine", personality: 0.9898941 as float, lvl: 1 as short, kills: 0, effectiveness: 1.00 as float, xp: 1, id: 78 as short}, {lvl: 1 as short, id: 80 as short}, {lvl: 3 as short, id: 79 as short}]}), 
+[
+   [fallenstar, fallenstar, fallenstar, fallenstar],
+   [fallenstar, fierytears, lightsedge, fallenstar],
+   [fallenstar, heavensheart, fierytears, fallenstar],
+   [fallenstar, fallenstar, fallenstar, fallenstar]
+]);
+
+// repair
+mods.rockytweaks.Anvil.addRecipe(<msmlegacy:dawn_star>.anyDamage(), lightessence, <msmlegacy:crystaline_blade>, 1,
+function(out, ins, cInfo){
+    return ins.left.withDamage(max(0,ins.left.damage - 999999));
+});
+
+
+
+
 var vampire_blade = <aether_legacy:vampire_blade>;
 var zanite_sword = <aether_legacy:zanite_sword>;
 var flaming_sword = <aether_legacy:flaming_sword>;
@@ -134,56 +242,12 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag(enchantmen
 
 
 
-var onyx_sword = <simpleores:onyx_sword>;
-var mythril_sword = <simpleores:mythril_sword>;
-var viridium_sword = <simpleores:adamantium_sword>;
-var diamond_sword = <minecraft:diamond_sword>;
-var biotite = <quark:biotite>;
-
-val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>, <enchantment:msmlegacy:decay>, <enchantment:livingenchantment:enchantment.living>];
-
-var enchantmentMap3 as IData = {};
-
-enchantmentMap3 += enchantments3[0].makeEnchantment(1).makeTag();
-enchantmentMap3 += enchantments3[1].makeEnchantment(3).makeTag();
-enchantmentMap3 += enchantments3[2].makeEnchantment(1).makeTag();
-
-
-recipes.remove(<msmlegacy:wither_bane>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(enchantmentMap3), 
-[
-   [biotite, biotite, biotite, biotite],
-   [biotite, onyx_sword, mythril_sword, biotite],
-   [biotite, viridium_sword, diamond_sword, biotite],
-   [biotite, biotite, biotite, biotite]
-]);
 
 
 
-var lightessence = <biomesoplenty:biome_essence>;
 
 
-val enchantments4 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>];
 
-var enchantmentMap4 as IData = {};
-
-enchantmentMap4 += enchantments4[0].makeEnchantment(1).makeTag();
-enchantmentMap4 += enchantments4[1].makeEnchantment(3).makeTag();
-
-recipes.remove(<msmlegacy:crystaline_blade>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(enchantmentMap4), 
-[
-   [lightessence, lightessence, lightessence, lightessence],
-   [lightessence, onyx_sword, mythril_sword, lightessence],
-   [lightessence, viridium_sword, diamond_sword, lightessence],
-   [lightessence, lightessence, lightessence, lightessence]
-]);
-
-// repair
-mods.rockytweaks.Anvil.addRecipe(<msmlegacy:crystaline_blade>.anyDamage(), lightessence, <msmlegacy:crystaline_blade>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 999999));
-});
 
 
 var ice_dragonsteel_sword = <iceandfire:dragonsteel_ice_sword>;

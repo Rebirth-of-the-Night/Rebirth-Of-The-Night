@@ -254,6 +254,10 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 
 #Epic
+<msmlegacy:aethers_guard>.displayName = "§5Sky Blade";
+<msmlegacy:aethers_guard>.addTooltip(format.darkPurple("Epic Weapon"));
+
+
 <simpleores:mythril_bow>.displayName = "§5Mythril Bow";
 <simpleores:mythril_bow>.addTooltip(format.darkPurple("Epic Weapon"));
 <simpleores:mythril_sword>.displayName = "§5Mythril Sword";
@@ -316,6 +320,27 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 
 #Legendary
+
+
+
+<msmlegacy:wither_bane>.displayName = "§6Dark's Edge";
+<msmlegacy:wither_bane>.addTooltip(format.gold("Legendary Weapon"));
+<msmlegacy:wither_bane>.addTooltip("Darkness consumes the unworthy");
+
+
+<contenttweaker:heavensheart>.displayName = "§6Heaven's Heart";
+<contenttweaker:heartofthefallen>.displayName = "§6Heart of the Fallen";
+
+
+<msmlegacy:crystaline_blade>.displayName = "§6Light's Edge";
+<msmlegacy:crystaline_blade>.addTooltip(format.gold("Legendary Weapon"));
+<msmlegacy:crystaline_blade>.addTooltip("Light purifies all");
+
+
+
+
+
+
 <simpleores:onyx_sword>.displayName = "§6Onyx Sword";
 <simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
 <simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";
@@ -417,8 +442,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <iceandfire:dragonsteel_ice_boots>.addTooltip(format.gold("Legendary Armor"));
 
 
-<msmlegacy:aethers_guard>.displayName = "§6Sky Blade";
-<msmlegacy:aethers_guard>.addTooltip(format.gold("Legendary Weapon"));
+
 
 <iceandfire:gorgon_head>.displayName = "§6Gorgon Head";
 <iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragonbone Sword";
@@ -445,8 +469,21 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 # Godly
 
+<msmlegacy:dawn_star>.displayName = "§cTrue Light's Edge";
+<msmlegacy:dawn_star>.addTooltip(format.red("Godly Weapon"));
+<msmlegacy:dawn_star>.addTooltip("In me will rise the strength of a thousand swords... The fury of a thousand flames...");
+
+<dungeontactics:silver_sword>.displayName = "§cTrue Dark's Edge";
+<dungeontactics:silver_sword>.addTooltip(format.red("Godly Weapon"));
+<dungeontactics:silver_sword>.addTooltip("They shall feel my pain, and fear for their souls.");
+mods.jei.JEI.addDescription([<dungeontactics:silver_sword>],["The True Dark's Edge is a living blade fused with the eternal power of the fallen and pain. The sword will never despawn and inflicts enemies with paralysis."]);
+
+
+<betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";
+<betterwithmods:steel_mattock>.addTooltip(format.red("Godly Tool"));
+
 <bountifulbaubles:shieldankh>.displayName = "§cAnkh Shield";
-<bountifulbaubles:shieldankh>.addTooltip(format.gold("Godly Shield"));
+<bountifulbaubles:shieldankh>.addTooltip(format.red("Godly Shield"));
 
 <betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
@@ -455,14 +492,12 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
 <msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
 
-<msmlegacy:wither_bane>.displayName = "§cDark's Edge";
-<msmlegacy:wither_bane>.addTooltip(format.red("Godly Weapon"));
+
+
 
 <msmlegacy:glacial_blade>.displayName = "§cDragon's Bane";
 <msmlegacy:glacial_blade>.addTooltip(format.red("Godly Weapon"));
 
-<msmlegacy:crystaline_blade>.displayName = "§cLight's Edge";
-<msmlegacy:crystaline_blade>.addTooltip(format.red("Godly Weapon"));
 
 <mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman";
 <mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Artifact"));
@@ -470,11 +505,12 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
 
+<msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
+
+
+
 <betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
 <msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
-<msmlegacy:crystaline_blade>.addTooltip("Light purifies all");
-<msmlegacy:wither_bane>.addTooltip("Darkness consumes the unworthy");
-<msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
 
 
 # Relics

@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"True Dark's Edge: They are not ready for the reflections within my darkness.","color":"dark_red"}]

@@ -7,7 +7,8 @@ mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-ha
 mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 ///////////////////// SILVER ///////////////////
 
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
+//mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
+// using the silver sword as the true darks edge
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_pickaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_axe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_shovel>);
@@ -412,4 +413,15 @@ recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
 	[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
     [<minecraft:redstone>, <minetraps:barbed_wire_fence>, <minecraft:redstone>],
     [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
+]);
+
+#Bag of Hoarding crafted using Tanned Leather
+
+var tanned = <betterwithmods:material:6>;
+
+recipes.remove(<dungeontactics:bagofhoarding>);
+recipes.addShaped("Bag of Hoarding", <dungeontactics:bagofhoarding>,[
+    [<minecraft:string>, tanned, <minecraft:string>],
+    [tanned, <minecraft:ender_chest>, tanned],
+    [tanned, tanned, tanned]
 ]);

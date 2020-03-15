@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"True Light's Edge: Let me grow stronger, that I might vanquish the forces of darkness. Let me transcend mortal frailty.","color":"yellow"}]
