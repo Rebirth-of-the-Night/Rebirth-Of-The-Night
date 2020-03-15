@@ -392,6 +392,8 @@ recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device
     [<dungeontactics:steel_ingot>, <betterwithmods:material:17>, <betterwithmods:material:31>],
     [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
 ]);
+mods.jei.JEI.addDescription(<dungeontactics:tunnelling_device>,"Creates concentrated blasts of explosive energy. Useful for terraforming large areas of dirt, sand, and other soft blocks, but the smaller concentration of energy has no effect on harder stone blocks.");
+
 
 recipes.remove(<dungeontactics:piston_glove>);
 recipes.addShaped("Portable Piston Device", <dungeontactics:piston_glove>,[
