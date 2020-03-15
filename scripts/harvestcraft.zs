@@ -271,6 +271,7 @@ recipes.addShaped("water_well", <harvestcraft:well>,[
     [<ore:stone>, <betterwithmods:bucket>, <ore:stone>],
     [<ore:stone>, <betterwithmods:screw_pump>, <ore:stone>]
 ]);
+mods.jei.JEI.addDescription(<harvestcraft:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken.");
 
 // Hyper hardcore presser
 recipes.addShaped("food_presser", <harvestcraft:presser>, [

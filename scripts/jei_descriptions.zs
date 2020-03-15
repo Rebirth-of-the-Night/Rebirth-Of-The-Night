@@ -182,6 +182,29 @@ mods.jei.JEI.addDescription([<contenttweaker:blank_rune>],["Stone imbued with ma
 mods.jei.JEI.addItem(<contenttweaker:disint_rune>);
 mods.jei.JEI.addDescription([<contenttweaker:disint_rune>],["Craft with magical items to disintegrate them into Spectral Silt. Spectral Silt is used for creating more powerful magical items."]);
 
+mods.jei.JEI.addItem(<contenttweaker:sol_rune>);
+mods.jei.JEI.addItem(<contenttweaker:luna_rune>);
+mods.jei.JEI.addItem(<contenttweaker:air_rune>);
+mods.jei.JEI.addItem(<contenttweaker:fire_rune>);
+mods.jei.JEI.addItem(<contenttweaker:earth_rune>);
+mods.jei.JEI.addItem(<contenttweaker:water_rune>);
+mods.jei.JEI.addItem(<contenttweaker:balance_rune>);
+mods.jei.JEI.addItem(<contenttweaker:chaos_rune>);
+mods.jei.JEI.addItem(<contenttweaker:creation_rune>);
+mods.jei.JEI.addItem(<contenttweaker:death_rune>);
+mods.jei.JEI.addItem(<contenttweaker:energy_rune>);
+mods.jei.JEI.addItem(<contenttweaker:illusion_rune>);
+mods.jei.JEI.addItem(<contenttweaker:knowledge_rune>);
+mods.jei.JEI.addItem(<contenttweaker:life_rune>);
+mods.jei.JEI.addItem(<contenttweaker:mind_rune>);
+mods.jei.JEI.addItem(<contenttweaker:nature_rune>);
+mods.jei.JEI.addItem(<contenttweaker:order_rune>);
+mods.jei.JEI.addItem(<contenttweaker:poison_rune>);
+mods.jei.JEI.addItem(<contenttweaker:soul_rune>);
+mods.jei.JEI.addItem(<contenttweaker:strength_rune>);
+mods.jei.JEI.addItem(<contenttweaker:trans_rune>);
+
+
 # Relics
 
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
