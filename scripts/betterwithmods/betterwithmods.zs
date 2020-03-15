@@ -156,6 +156,8 @@ mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used
 mods.jei.JEI.addDescription(<betterwithmods:saw>,"Much more precise than any axe, the saw can make some nice half-blocks.");
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any Wooden Slab, or cheaper using Wooden Siding once you build a Saw!");
 
+
+// Remove unused refined weapons
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_battleaxe>);
 

@@ -19,4 +19,4 @@ criteria.addItem("iceandfire:dragonsteel_fire_boots")
 
 setFrameType("CHALLENGE")
 alwaysVisible()
-setPos(-33,98)
+setPos(-66,98)

@@ -8,6 +8,12 @@ mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has 
 
 
 #MISCELLANEOUS#
+
+mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the force of holy light from the Heavens, this heart flows with a burning radiance and searing power to cast away all evil."]);
+
+mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. You hear faint screams of pain as you listen closely to this heart."]);
+
+
 mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");
 mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but can not be enchanted since it is already infused with souls.");
 mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");

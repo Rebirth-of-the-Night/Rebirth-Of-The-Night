@@ -7,7 +7,8 @@ mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-ha
 mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 ///////////////////// SILVER ///////////////////
 
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
+//mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
+// using the silver sword as the true darks edge
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_pickaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_axe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_shovel>);
