@@ -28,7 +28,7 @@ var glow = <minecraft:glowstone_dust>;
 var filament = <betterwithmods:material:19>;
 
 recipes.addShaped("startorch", torch*16,[
-	[star],
+	[null,star,null],
     [star,stick,star],
 	[stick,stick,stick]
 ]);

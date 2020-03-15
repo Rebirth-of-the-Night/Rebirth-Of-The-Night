@@ -11,6 +11,7 @@ mods.jei.JEI.removeAndHide(<msmlegacy:relic_master>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_molten>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_pie>);
 
+/////////////////////        Vampire Blade        /////////////////////
 
 var silver = <ore:ingotSilver>;
 var obsidian = <minecraft:obsidian>;
@@ -23,6 +24,8 @@ recipes.addShaped("Vampiric Blade", <msmlegacy:vampiric_blade>,[
     [obsidian, heartcrystal, silver],
     [handle, obsidian, null]
 ]);
+
+/////////////////////        Draconic Blade        /////////////////////
 
 var iron = <minecraft:iron_ingot>;
 var redstone = <minecraft:redstone>;
@@ -40,6 +43,8 @@ recipes.addShaped("Draconic Blade", <msmlegacy:draconic_blade>,[
 
 
 ////////////////////////////////////////    Relics        ///////////////////////////////////
+/////////////////////        Red Hot Chili Pepper Sword        /////////////////////
+
 var ruby = <biomesoplenty:gem:1>;
 var chili = <harvestcraft:chilipepperitem>;
 var blaze = <betterwithmods:material:27>;
@@ -59,18 +64,20 @@ recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTa
 ]);
 
 
+
+/////////////////////        Burning Super Death Sword        /////////////////////
+
 var sfs = <betterwithmods:material:14>;
 var fiery = <twilightforest:fiery_ingot>;
 var onyxrod = <simpleores:onyx_rod>;
 
 val enchantmentsRelic2 as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_aspect>];
-
 var enchantmentRelicMap2 as IData = {};
 
 enchantmentRelicMap2 += enchantmentsRelic2[0].makeEnchantment(2).makeTag();
 
-recipes.remove(<msmlegacy:relic_candy>);
 
+recipes.remove(<msmlegacy:relic_candy>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:relic_candy>.withTag(enchantmentRelicMap2), 
 [
    [null, ruby, ruby, onyxrod],
@@ -80,21 +87,23 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:relic_candy>.withTag(enchantmentR
 ]);
 
 ////////////////////////////////////////        Legendaries        ///////////////////////////////////
+/////////////////////        Dark's Edge        /////////////////////
+
 var onyx_sword = <simpleores:onyx_sword>;
 var mythril_sword = <simpleores:mythril_sword>;
 var viridium_sword = <simpleores:adamantium_sword>;
 var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
 
-val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>];
 
+val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>];
 var enchantmentMap3 as IData = {};
 
 enchantmentMap3 += enchantments3[0].makeEnchantment(1).makeTag();
 
 
 recipes.remove(<msmlegacy:wither_bane>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(enchantmentMap3), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(({"Quark:RuneColor": 14, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap3), 
 [
    [biotite, biotite, biotite, biotite],
    [biotite, onyx_sword, mythril_sword, biotite],
@@ -105,17 +114,18 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(enchantmentM
 
 
 
+/////////////////////        Lights's Edge        /////////////////////
 
 var lightessence = <biomesoplenty:biome_essence>;
 
 val enchantments4 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:sparks>];
-
 var enchantmentMap4 as IData = {};
 
 enchantmentMap4 += enchantments4[0].makeEnchantment(1).makeTag();
 
+
 recipes.remove(<msmlegacy:crystaline_blade>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(enchantmentMap4), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(({"Quark:RuneColor": 4, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap4), 
 [
    [lightessence, lightessence, lightessence, lightessence],
    [lightessence, onyx_sword, mythril_sword, lightessence],
@@ -127,6 +137,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(enchant
 
 
 ////////////////////////////////////////        Godly        ///////////////////////////////////
+/////////////////////        True Dark's Edge        /////////////////////
 
 var undyingheart = <mod_lavacow:undyingheart>;
 var witherrose = <minecraftfuture:flowerblack>;
@@ -149,8 +160,23 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heartofthefallen>,
 ]);
 
 
+val enchantments5 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:consuming_shadows>, <enchantment:msmlegacy:decay>, <enchantment:randomenchantments:paralysis>, <enchantment:randomenchantments:eternal>];
+var enchantmentMap5 as IData = {};
+
+
+var enchTag1 = enchantments5[0].makeEnchantment(1).makeTag().ench[0];
+enchTag1 += {personalityName: "Unholy", personality: 0.13866483 as float, kills: 0, effectiveness: 1.00 as float, xp: 1};
+
+
+enchantmentMap5 += {ench: [enchTag1]};
+enchantmentMap5 += enchantments5[1].makeEnchantment(1).makeTag();
+enchantmentMap5 += enchantments5[2].makeEnchantment(3).makeTag();
+enchantmentMap5 += enchantments5[3].makeEnchantment(1).makeTag();
+enchantmentMap5 += enchantments5[4].makeEnchantment(1).makeTag();
+
+
 recipes.remove(<dungeontactics:silver_sword>);
-mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag({ench: [{personalityName: "Unholy", kills: 0, effectiveness: 1.00 as float, personality: 0.13866483 as float, xp: 1, lvl: 1 as short, id: 78 as short}, {lvl: 1 as short, id: 96 as short}, {lvl: 3 as short, id: 95 as short}, {lvl: 1 as short, id: 146 as short}, {lvl: 1 as short, id: 140 as short}]}), 
+mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag(({"Quark:RuneColor": 14, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap5),
 [
    [cometshard, onyx, onyx, cometshard],
    [onyx, ravenfeather, darksedge, onyx],
@@ -161,6 +187,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag({ench:
 
 
 
+/////////////////////        True Lights's Edge        /////////////////////
 
 
 var heartofdiamond = <quark:diamond_heart>;
@@ -179,8 +206,21 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heavensheart>,
    [healingstone, victorymedal, victorymedal, healingstone]
 ]);
 
+
+val enchantments6 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>];
+var enchantmentMap6 as IData = {};
+
+
+var enchTag2 = enchantments6[0].makeEnchantment(1).makeTag().ench[0];
+enchTag2 += {personalityName: "Divine", personality: 0.9898941 as float, kills: 0, effectiveness: 1.00 as float, xp: 1};
+
+
+enchantmentMap6 += {ench: [enchTag2]};
+enchantmentMap6 += enchantments6[1].makeEnchantment(1).makeTag();
+enchantmentMap6 += enchantments6[2].makeEnchantment(3).makeTag();
+
 recipes.remove(<msmlegacy:dawn_star>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag({ench: [{personalityName: "Divine", personality: 0.9898941 as float, lvl: 1 as short, kills: 0, effectiveness: 1.00 as float, xp: 1, id: 78 as short}, {lvl: 1 as short, id: 80 as short}, {lvl: 3 as short, id: 79 as short}]}), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag(({"Quark:RuneColor": 4, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap6),
 [
    [fallenstar, fallenstar, fallenstar, fallenstar],
    [fallenstar, fierytears, lightsedge, fallenstar],
@@ -196,6 +236,7 @@ function(out, ins, cInfo){
 
 
 
+/////////////////////        Sky Blade        /////////////////////
 
 var vampire_blade = <aether_legacy:vampire_blade>;
 var zanite_sword = <aether_legacy:zanite_sword>;
@@ -216,30 +257,39 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:aethers_guard>,
 ]);
 
 
+/////////////////////        Interdimensional Blade        /////////////////////
 
 var amedian_sword = <netherex:frosted_amedian_sword>;
 var end_sword = <endreborn:ender_sword>;
 var aethers_guard = <msmlegacy:aethers_guard>;
 var glass_sword = <twilightforest:glass_sword>;
+var mythrilsword = <simpleores:mythril_sword>;
+var diamondsword = <minecraft:diamond_sword>;
+var worldmirror = <endreborn:item_world_mirror>;
+var beingofentropy = <endreborn:death_essence>;
+var advenderpearl = <endreborn:item_advanced_ender_pearl>;
+var wormholepotion = <bountifulbaubles:potionwormhole>;
+var respawnpotion = <bountifulbaubles:potionrecall>;
 
-val enchantments2 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:decay>, <enchantment:msmlegacy:ender_pulse>, <enchantment:msmlegacy:ascension>, <enchantment:msmlegacy:descension>];
 
-var enchantmentMap2 as IData = {};
+val enchantments7 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:decay>, <enchantment:msmlegacy:ender_pulse>, <enchantment:msmlegacy:ascension>, <enchantment:msmlegacy:descension>];
 
-enchantmentMap2 += enchantments2[0].makeEnchantment(1).makeTag();
-enchantmentMap2 += enchantments2[1].makeEnchantment(1).makeTag();
-enchantmentMap2 += enchantments2[2].makeEnchantment(1).makeTag();
-enchantmentMap2 += enchantments2[3].makeEnchantment(1).makeTag();
+var enchantmentMap7 as IData = {};
+
+enchantmentMap7 += enchantments7[0].makeEnchantment(1).makeTag();
+enchantmentMap7 += enchantments7[1].makeEnchantment(1).makeTag();
+enchantmentMap7 += enchantments7[2].makeEnchantment(1).makeTag();
+enchantmentMap7 += enchantments7[3].makeEnchantment(1).makeTag();
+
 
 recipes.remove(<msmlegacy:eye_end_blade>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag(enchantmentMap2), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag(({"Quark:RuneColor": 5, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap7),
 [
-   [null, null, null, amedian_sword],
-   [null, null, null, end_sword],
-   [null, null, null, aethers_guard],
-   [null, null, null, glass_sword]
+   [end_sword, worldmirror, aethers_guard, diamondsword],
+   [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
+   [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
+   [amedian_sword, mythrilsword, beingofentropy, glass_sword]
 ]);
-
 
 
 
@@ -255,17 +305,17 @@ var fire_dragonsteel_sword = <iceandfire:dragonsteel_fire_sword>;
 var dragonsteel_fire = <iceandfire:dragonsteel_fire_ingot>;
 var dragonsteel_ice = <iceandfire:dragonsteel_ice_ingot>;
 
-val enchantments5 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:frozen_aspect>, <enchantment:minecraft:fire_aspect>, <enchantment:minecraft:knockback>, <enchantment:msmlegacy:frost_wave>];
+val enchantments8 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:frozen_aspect>, <enchantment:minecraft:fire_aspect>, <enchantment:minecraft:knockback>, <enchantment:msmlegacy:frost_wave>];
 
-var enchantmentMap5 as IData = {};
+var enchantmentMap8 as IData = {};
 
-enchantmentMap5 += enchantments5[0].makeEnchantment(3).makeTag();
-enchantmentMap5 += enchantments5[1].makeEnchantment(2).makeTag();
-enchantmentMap5 += enchantments5[2].makeEnchantment(2).makeTag();
-enchantmentMap5 += enchantments5[3].makeEnchantment(1).makeTag();
+enchantmentMap8 += enchantments8[0].makeEnchantment(3).makeTag();
+enchantmentMap8 += enchantments8[1].makeEnchantment(2).makeTag();
+enchantmentMap8 += enchantments8[2].makeEnchantment(2).makeTag();
+enchantmentMap8 += enchantments8[3].makeEnchantment(1).makeTag();
 
 recipes.remove(<msmlegacy:glacial_blade>);
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:glacial_blade>.withTag(enchantmentMap5), 
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:glacial_blade>.withTag(({"Quark:RuneColor": 0, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap8), 
 [
    [dragonsteel_fire, dragonsteel_fire, dragonsteel_ice, dragonsteel_ice],
    [dragonsteel_fire, ice_dragonsteel_sword, dragonsteel_ice, dragonsteel_ice],

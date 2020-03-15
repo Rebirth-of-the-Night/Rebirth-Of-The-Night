@@ -101,7 +101,3 @@ mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Nam
 mods.jei.JEI.addDescription(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),"Restored to a pristine state, the wisdom and power of previous generations has been deeply §linfused §rinto this artifact.");
 mods.jei.JEI.addDescription(<contenttweaker:nethercoin>,"Some sort of currency from an era long forgotten, before the disease had decimated the population of the Nether.","Only some high ranking individuals have them.");
 <contenttweaker:nethercoin>.addTooltip("Might be valuable to an archeologist or merchant from far away.");
-
-recipes.addHiddenShapeless("trueNightsEdge", <spartanweaponry:throwing_knife_electrum>.withTag({display: {Name: "§o§6True Night's Edge"}, AttributeModifiers: [{UUIDMost: 52977, UUIDLeast: 170749, Amount: 15, Slot: "mainhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}, {UUIDMost: 27219, UUIDLeast: 165766, Amount: 15, Slot: "offhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}]}),
-    [<simpleores:onyx_gem>, <simpleores:onyx_gem>]
-);

@@ -172,6 +172,36 @@ mods.jei.JEI.removeAndHide(<spartancompat:spear_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:dagger_onyx>);
 mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);
 
+
+mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:saber_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:spear_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:pike_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:lance_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:mace_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:hammer_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:katana_electrum>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:staff_electrum>);
+
+
+
+
+
+
 recipes.remove(<spartanweaponry:material:0>);
 recipes.addShapeless("spartanweaponry_handle_wool", <spartanweaponry:material:0>*4, [<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<ore:wool>]);
 recipes.addShapeless("spartanweaponry_handle_string", <spartanweaponry:material:0>, [<betterwithmods:shaft>,<minecraft:string>]);
@@ -182,3 +212,8 @@ recipes.addShapeless("spartanweaponry_pole_string", <spartanweaponry:material:1>
 recipes.addShapeless("spartanweaponry_pole_leather", <spartanweaponry:material:1>*4, [<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<betterwithmods:shaft>,<ore:leather>]);
 recipes.remove(<betterwithmods:shaft>);
 recipes.addShapeless("stickShaft", <betterwithmods:shaft>,[<ore:stickWood>]);
+
+//True Night edge
+recipes.addHiddenShapeless("trueNightsEdge", <spartanweaponry:throwing_knife_electrum>.withTag({display: {Name: "§o§6True Night's Edge"}, AttributeModifiers: [{UUIDMost: 52977, UUIDLeast: 170749, Amount: 4, Slot: "mainhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}, {UUIDMost: 27219, UUIDLeast: 165766, Amount: 4, Slot: "offhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}]}),
+    [<simpleores:onyx_gem>, <simpleores:onyx_gem>]
+);
