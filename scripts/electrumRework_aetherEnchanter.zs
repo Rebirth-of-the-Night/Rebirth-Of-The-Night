@@ -3,23 +3,6 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.aether_legacy.Enchanter;
 
-#REMOVE electrum
-mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:katana_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:saber_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:staff_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:lance_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_electrum>);
-
 //Name Tweaks
 <contenttweaker:material_part:12>.displayName = "Aetherial Electrum";
 <contenttweaker:sub_block_holder_0:1>.displayName = "Aetherial Electrum Block";

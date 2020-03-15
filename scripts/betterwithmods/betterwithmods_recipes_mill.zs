@@ -10,8 +10,8 @@ mods.betterwithmods.Mill.builder()
 .build();
 
 mods.betterwithmods.Mill.builder()
-.buildRecipe([<nyx:fallen_star>], [<dungeontactics:magic_powder>*1])
-.setPriority(10)
+.buildRecipe([<nyx:fallen_star>], [<bountifulbaubles:spectralsilt>*1])
+.setPriority(20)
 .setGrindType("iceandfire:mermaid_idle")
 .build();
 
