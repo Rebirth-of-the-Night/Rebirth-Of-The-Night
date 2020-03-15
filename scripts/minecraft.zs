@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.rockytweaks.Anvil;
+import mods.rockytweaks.Merchant;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 
@@ -216,6 +217,9 @@ glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
 val flower = <ore:flower>;
 flower.addItems([<biomesoplenty:flower_0:*>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<minecraftfuture:flowerwhite>,<minecraftfuture:flowerblue>,<minecraftfuture:flowerblack>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:0>,<minecraft:double_plant:1>,<minecraft:double_plant:4>,<minecraft:double_plant:5>,<biomesoplenty:flower_1:*>,<endreborn:crop_ender_flower>]);
 
+val pixieJar = <ore:jarPixieAny>;
+pixieJar.addItems([<iceandfire:jar_pixie>,<iceandfire:jar_pixie:1>,<iceandfire:jar_pixie:2>,<iceandfire:jar_pixie:3>,<iceandfire:jar_pixie:4>]);
+
 val mushroom = <ore:mushroomAny>;
 mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
 
@@ -426,3 +430,14 @@ recipes.addShaped("forgiving tool reforging station", <qualitytools:reforging_st
     	[<ore:stoneSlab>, <ore:anvilAny>, <ore:stoneSlab>],
     	[<ore:ingotSteel>, <ore:obsidian>, <ore:ingotSteel>]
 ]);
+//Villager Trades
+//Example: Merchant.addTrade("minecraft:nitwit", "nitwit", <minecraft:emerald>, <minecraft:diamond>, <minecraft:cobblestone>, 1);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 2);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <minecraft:emerald>*12, <twilightforest:firefly>, 1);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <minecraft:emerald>*5, <betterwithaddons:shinai>, 1);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:4>, 2);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:3>, 2);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:2>, 2);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:1>, 2);
+Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie>, 2);
+Merchant.addTrade("minecraft:nitwit", "nitwit", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 1);

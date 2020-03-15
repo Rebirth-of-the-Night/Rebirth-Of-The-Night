@@ -34,6 +34,7 @@ GraniteAnvil.addRecipe("smash heart 3",<scalinghealth:crystalshard>*6, <iceandfi
 GraniteAnvil.addRecipe("smash heart 4",<scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>,16,"hammer");
 GraniteAnvil.addRecipe("smash heart 5",<scalinghealth:crystalshard>*1, <quark:diamond_heart>,16,"hammer");
 GraniteAnvil.addRecipe("halite to salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe");
+GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>,25,"pickaxe");
 
 
 
