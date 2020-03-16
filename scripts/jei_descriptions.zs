@@ -20,15 +20,15 @@ mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the f
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. You hear faint screams of pain as you listen closely to this heart."]);
 
 
-mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but can not be enchanted since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
 
-mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Can not be enchanted since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Can not be enchanted since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Can not be enchanted since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Can not be enchanted since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Very limited enchantability since it is already infused with souls.");
 
 
 mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly living crystal. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
