@@ -19,7 +19,7 @@ criteria = addCriteria("Tanned Leather Boots", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:leather_tanned_boots")
 
 criteria = addCriteria("Silver Axe", "minecraft:inventory_changed")
-criteria.addItem("dungeontactics:silver_axe")
+criteria.addItem("iceandfire:silver_axe")
 
 alwaysVisible()
 setPos(-376,-56)
