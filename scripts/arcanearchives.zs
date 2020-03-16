@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.arcanearchives.GCT;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 recipes.removeByRecipeName("arcanearchives:diorite");
 
@@ -17,23 +19,19 @@ mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>,
 ]);   
 
 //Gemcutter's Table
-recipes.remove(<arcanearchives:gemcutters_table>);
-mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>, 
-[
-   [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>],
-   [<betternether:quartz_glass_framed_pane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
-   [<betternether:quartz_glass_framed_pane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
-   [<dungeontactics:magic_scroll>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>]
-]);   
+val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	
+magicgoldPaneOredict.addItems([<betternether:quartz_glass_framed_pane>,<aether_legacy:quicksoil_glass_pane>]);	
 
-// oredict not working with steel anvil, so here's another recipe
-mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>, 
-[
-   [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>],
-   [<aether_legacy:quicksoil_glass_pane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
-   [<aether_legacy:quicksoil_glass_pane>, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
-   [<dungeontactics:magic_scroll>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>]
-]);   
+recipes.remove(<arcanearchives:gemcutters_table>);
+for item in magicgoldPaneOredict.items{
+   mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>, 
+   [
+      [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>],
+      [item, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
+      [item, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
+      [<dungeontactics:magic_scroll>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>]
+   ]);
+}
 
 recipes.remove(<arcanearchives:scepter_revelation>);
 mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>, 

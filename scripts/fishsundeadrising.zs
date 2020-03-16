@@ -1,5 +1,8 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 //removed loot
 mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
@@ -104,13 +107,14 @@ recipes.addShaped("bonedagger", <mod_lavacow:tooth_dagger>,[
     [<ore:stickWood>, null]
 ]);
 
-mods.betterwithmods.Anvil.addShaped(<mod_lavacow:bonesword>, 
-[
-   [null, null, <ore:monsterTooth>, <spartanfire:witherbone_handle>],
-   [null, <ore:monsterTooth>, <minecraft:bone>, <ore:monsterTooth>],
-   [<ore:monsterTooth>, <minecraft:bone>, <ore:monsterTooth>, null],
-   [<ore:monsterTooth>, <ore:monsterTooth>, null, null]
-]);
+for item in oreMonsterTooth.items{
+	mods.betterwithmods.Anvil.addShaped(<mod_lavacow:bonesword>, [
+		[null, null, item, <spartanfire:witherbone_handle>],
+		[null, item, <minecraft:bone>, item],
+		[item, <minecraft:bone>, item, null],
+		[item, item, null, null]
+	]);
+}
 
 //netherbeast armor set
 recipes.addShaped("felhelm", <mod_lavacow:felarmor_helmet>,[

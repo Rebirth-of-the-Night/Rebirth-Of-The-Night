@@ -63,62 +63,70 @@ recipes.remove(<iceandfire:dragonsteel_ice_boots>);
 
 //Armors
 //Mythril
-mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_helmet>, 
-[
-   [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <betterwithmods:material:42>],
-   [<ore:ingotMythril>, null, null, null],
-   [<ore:ingotMythril>, null, null, null],
-   [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <betterwithmods:material:42>]
-]);   
-   mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_chestplate>, 
+val ingotMythril = <ore:ingotMythril>;
+
+for item in ingotMythril.items{
+   mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_helmet>, 
    [
-   [<betterwithmods:material:42>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>],
-   [null, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>],
-   [null, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>],
-   [<betterwithmods:material:42>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>],
-]);
-mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_leggings>, 
-[
-   [<ore:ingotMythril>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
-   [<ore:ingotMythril>, <ore:ingotMythril>, null, null],
-   [<ore:ingotMythril>, <ore:ingotMythril>, null, null],
-    [<ore:ingotMythril>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>]
-]);mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_boots>, 
-[
-   [null, null, <ore:ingotMythril>],
-   [<ore:ingotMythril>, <ore:ingotMythril>, <betterwithmods:material:42>],
-   [<ore:ingotMythril>, <ore:ingotMythril>, <betterwithmods:material:42>],
-   [null, null, <ore:ingotMythril>]
-]);
+      [item, item, item, <betterwithmods:material:42>],
+      [item, null, null, null],
+      [item, null, null, null],
+      [item, item, item, <betterwithmods:material:42>]
+   ]);   
+      mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_chestplate>, 
+      [
+      [<betterwithmods:material:42>, item, item, item],
+      [null, item, item, item],
+      [null, item, item, item],
+      [<betterwithmods:material:42>, item, item, item],
+   ]);
+   mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_leggings>, 
+   [
+      [item, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+      [item, item, null, null],
+      [item, item, null, null],
+      [item, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>]
+   ]);mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_boots>, 
+   [
+      [null, null, item],
+      [item, item, <betterwithmods:material:42>],
+      [item, item, <betterwithmods:material:42>],
+      [null, null, item]
+   ]);
+}
 
 //Onyx
-mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_helmet>, 
-[
-   [<ore:gemOnyx>, <ore:gemOnyx>, <ore:gemOnyx>, <betterwithmods:material:42>],
-   [<ore:gemOnyx>, null, null, null],
-   [<ore:gemOnyx>, null, null, null],
-   [<ore:gemOnyx>, <ore:gemOnyx>, <ore:gemOnyx>, <betterwithmods:material:42>]
-]);   
-   mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_chestplate>, 
+val gemOnyx = <ore:gemOnyx>;
+
+for item in gemOnyx.items{
+   mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_helmet>, 
    [
-   [<betterwithmods:material:42>, <ore:gemOnyx>, <ore:gemOnyx>, <ore:gemOnyx>],
-   [null, <ore:gemOnyx>, <ore:gemOnyx>, <ore:gemOnyx>],
-   [null, <ore:gemOnyx>, <ore:gemOnyx>, <ore:gemOnyx>],
-   [<betterwithmods:material:42>, <ore:gemOnyx>, <ore:gemOnyx>, <ore:gemOnyx>],
-]);
-mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_leggings>, 
-[
-   [<ore:gemOnyx>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
-   [<ore:gemOnyx>, <ore:gemOnyx>, null, null],
-   [<ore:gemOnyx>, <ore:gemOnyx>, null, null],
-    [<ore:gemOnyx>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>]
-]);mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_boots>, 
-[
-   [null, null, <ore:gemOnyx>],
-   [<ore:gemOnyx>, <ore:gemOnyx>, <betterwithmods:material:42>],
-   [<ore:gemOnyx>, <ore:gemOnyx>, <betterwithmods:material:42>],
-   [null, null, <ore:gemOnyx>]
-]);
+      [item, item, item, <betterwithmods:material:42>],
+      [item, null, null, null],
+      [item, null, null, null],
+      [item, item, item, <betterwithmods:material:42>]
+   ]);   
+      mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_chestplate>, 
+      [
+      [<betterwithmods:material:42>, item, item, item],
+      [null, item, item, item],
+      [null, item, item, item],
+      [<betterwithmods:material:42>, item, item, item],
+   ]);
+   mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_leggings>, 
+   [
+      [item, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+      [item, item, null, null],
+      [item, item, null, null],
+      [item, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>]
+   ]);mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_boots>, 
+   [
+      [null, null, item],
+      [item, item, <betterwithmods:material:42>],
+      [item, item, <betterwithmods:material:42>],
+      [null, null, item]
+   ]);
+}
 
 //Viridium
 mods.betterwithmods.Anvil.addShaped(<simpleores:adamantium_helmet>, 
