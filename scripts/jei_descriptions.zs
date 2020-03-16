@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 # KNOWN BUGS #
-mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in anyway, including checking recipes for items in JEI while you have an emerald in the payment slot."]);
+mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in any way, including checking recipes for items in JEI while you have an emerald in the payment slot. ALSO, vanilla spawn eggs don't work, so don't waste your emeralds."]);
 
 
 
