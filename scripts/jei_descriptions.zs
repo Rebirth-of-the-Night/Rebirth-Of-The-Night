@@ -9,6 +9,12 @@ mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has 
 
 #MISCELLANEOUS#
 
+
+mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of Heaven lies inside fallen stars. These will rarely fall from the sky, but many will fall during a star shower."]);
+
+mods.jei.JEI.addDescription([<nyx:comet_shard>],["A very rare find, this is. They fall from the sky, but also drop from Elder Guardians."]);
+
+
 mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the force of holy light from the Heavens, this heart flows with a burning radiance and searing power to cast away all evil."]);
 
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. You hear faint screams of pain as you listen closely to this heart."]);
