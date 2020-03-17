@@ -1,5 +1,9 @@
 import crafttweaker.game.IGame;
 
+
+
+
+
 // Aether Legacy
 <aether_legacy:cockatrice>.displayName = "Kelenk Meat";
 <aether_legacy:burnt_cockatrice>.displayName = "Burnt Kelenk Meat";
@@ -260,6 +264,10 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 
 #Epic
+<nyx:fallen_star>.displayName = "§5Fallen Star";
+<nyx:fallen_star>.addTooltip("Crafting Material");
+
+
 <msmlegacy:aethers_guard>.displayName = "§5Sky Blade";
 <msmlegacy:aethers_guard>.addTooltip(format.darkPurple("Epic Weapon"));
 
@@ -326,6 +334,9 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 
 #Legendary
+
+<nyx:comet_shard>.displayName = "§6Comet Shard";
+<nyx:comet_shard>.addTooltip("Crafting Material");
 
 
 

@@ -2,15 +2,22 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-val DArray = [<minecraft:dye:5>,<minecraft:dye:6>,<minecraft:dye:7>,<minecraft:dye:8>,<minecraft:dye:9>,<minecraft:dye:10>,<minecraft:dye:12>,<minecraft:dye:13>,<minecraft:dye:14>,<biomesoplenty:blue_dye>,<biomesoplenty:brown_dye>,<biomesoplenty:green_dye>,<biomesoplenty:white_dye>,<biomesoplenty:black_dye>,<minecraftfuture:dye>,<minecraftfuture:dye:1>,<minecraftfuture:dye:2>,<minecraftfuture:dye:3>,<quark:root_dye>,<quark:root_dye:1>,<quark:root_dye:2>] as IItemStack[];
+val DArrayHide = [<minecraftfuture:dye>,<minecraftfuture:dye:1>,<minecraftfuture:dye:2>,<minecraftfuture:dye:3>,<quark:root_dye>,<quark:root_dye:1>,<quark:root_dye:2>] as IItemStack[];
+
+for dyes in DArrayHide {
+    mods.jei.JEI.removeAndHide(dyes);
+}
+
+val DArray = [<minecraft:dye:5>,<minecraft:dye:6>,<minecraft:dye:7>,<minecraft:dye:8>,<minecraft:dye:9>,<minecraft:dye:10>,<minecraft:dye:12>,<minecraft:dye:13>,<minecraft:dye:14>,<biomesoplenty:blue_dye>,<biomesoplenty:brown_dye>,<biomesoplenty:green_dye>,<biomesoplenty:white_dye>,<biomesoplenty:black_dye>] as IItemStack[];
 //Removed vanilla recipes
 for dyes in DArray {
     //defines the variable "dyes" with each element of dyeArray
     //Just use this variable now!
     recipes.remove(dyes);
 }
-	recipes.removeByRecipeName("harvestcraft:string_listallfiber");
-	
+
+recipes.removeByRecipeName("harvestcraft:string_listallfiber");
+
 //Mortar and pestle recipes
 recipes.addShapeless("standard dye 1 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<aether_legacy:purple_flower>]);
 recipes.addShapeless("standard dye 2 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:8>]);

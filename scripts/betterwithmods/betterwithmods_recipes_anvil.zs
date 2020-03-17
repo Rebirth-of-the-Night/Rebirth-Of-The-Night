@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 //Steel Anvil
 recipes.remove(<betterwithmods:steel_anvil>);
@@ -25,14 +27,18 @@ mods.betterwithmods.Anvil.addShaped(<quark:diamond_heart>,
 ]);
 
 // pipes
-mods.betterwithmods.Anvil.addShaped(<quark:pipe> * 12, 
-[
-   [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null],
-   [<simpleores:copper_ingot>, <ore:paneGlass>, <ore:paneGlass>, <simpleores:copper_ingot>],
-   [<simpleores:copper_ingot>, <ore:paneGlass>, <ore:paneGlass>, <simpleores:copper_ingot>],
-   [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null]
-]);
+val paneGlass = <ore:paneGlass>;
+paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
+for item in paneGlass.items{
+   mods.betterwithmods.Anvil.addShaped(<quark:pipe> * 12, 
+   [
+      [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null],
+      [<simpleores:copper_ingot>, item, item, <simpleores:copper_ingot>],
+      [<simpleores:copper_ingot>, item, item, <simpleores:copper_ingot>],
+      [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null]
+   ]);
+}
 
 // Spartan Compat
 var blaze = <minecraft:blaze_rod>;
