@@ -1,18 +1,18 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "msmlegacy:items/dawn_star"
+        "layer0": "dungeontactics:items/silver_sword"
 	},
     "display": {
         "thirdperson_righthand": {
             "rotation": [ 0, -90, 55 ],
-            "translation": [ 0, 11.50, 0.5 ],
-            "scale": [ 2.00, 2.00, 1.70 ]
+            "translation": [ 0, 9.70, 0.5 ],
+            "scale": [ 1.70, 1.70, 1.70 ]
         },
         "thirdperson_lefthand": {
             "rotation": [ 0, 90, -55 ],
-            "translation": [ 0, 11.50, 0.5 ],
-            "scale": [ 2.00, 2.00, 1.70 ]
+            "translation": [ 0, 9.70, 0.5 ],
+            "scale": [ 1.70, 1.70, 1.70 ]
         },
         "firstperson_righthand": {
             "rotation": [ 0, -90, 30 ],
