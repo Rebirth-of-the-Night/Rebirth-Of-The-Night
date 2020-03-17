@@ -93,6 +93,12 @@ mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull_1>],"Cursed sku
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures.");
 
 
+# lore
+mods.jei.JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 2x2 pool of water surrounded by flowers on top of grass to open the portal. DEV NOTE: Ghast Queen is currently disabled, so we provided a temporary recipe so you may still enter the Twilight Forest.");
+mods.jei.JEI.addDescription(<netherex:rime_crystal>,"It's cold to the touch, yet it seems to hold blazing flames within. It was once used to make igniters, but they were unpredictable and too unstable.");
+mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"Hard to come by in the overworld, they seem to hold a significant value among the still-living natives of the Nether.");
+# Silver Ingot
+mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A material known to be effectively used against undead mobs. Silver is strong in damage and mining speed, but weak in other aspects.");
 mods.jei.JEI.addDescription([<forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000})],"Jersey Milk is obtained from Jersey Cows.");
 # Archeologist Hat
 mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a little more adventurous, a little luckier, and a little more likely to store artifacts in museums.");
