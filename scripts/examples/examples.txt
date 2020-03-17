@@ -10,7 +10,7 @@ import crafttweaker.item.IIngredient;
 Removing Crafting Table Recipes
 
 
-recipes.remove(<mod_ID:output>);
+recipes.remove(<mod_ID:item_id>);
 
 Removes all crafting table recipes with <mod_ID:output> as output.
 An item's ID can be found by hovering over it with developer mode (F3 + H) on.
