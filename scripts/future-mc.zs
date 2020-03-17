@@ -346,3 +346,291 @@ mods.minecraftfuture.BlastFurnace.addRecipe(<simpleores:adamantium_ore>,
 mods.minecraftfuture.BlastFurnace.addRecipe(<simpleores:onyx_ore>, 
 											<simpleores:onyx_gem>);
 											
+/*********************************************************************************
+
+Smoker Recipes
+
+**********************************************************************************/
+
+
+/****** Animania ******/
+
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_beef>, 
+									  <animania:cooked_prime_beef>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_bacon>, 
+									  <animania:cooked_prime_bacon>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_chevon>, 
+									  <animania:cooked_prime_chevon>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_chicken>, 
+									  <animania:cooked_prime_chicken>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_mutton>, 
+									  <animania:cooked_prime_mutton>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_peacock>, 
+									  <animania:cooked_prime_peacock>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_pork>, 
+									  <animania:cooked_prime_pork>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_rabbit>, 
+									  <animania:cooked_prime_rabbit>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_prime_steak>, 
+									  <animania:cooked_prime_steak>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_frog_legs>, 
+									  <animania:cooked_frog_legs>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_horse>, 
+									  <animania:cooked_horse>);
+
+/****** Harvestcraft ******/
+
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:musselrawitem>, 
+									  <harvestcraft:musselcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:grubitem>,
+									  <harvestcraft:cookedgrubitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:calamarirawitem>, 
+									  <harvestcraft:calamaricookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:clamrawitem>, 
+									  <harvestcraft:clamcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:crabrawitem>, 
+									  <harvestcraft:crabcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:crayfishrawitem>, 
+									  <harvestcraft:crayfishcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:frograwitem>, 
+									  <harvestcraft:frogcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:octopusrawitem>, 
+									  <harvestcraft:octopuscookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:scalloprawitem>, 
+									  <harvestcraft:scallopcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:shrimprawitem>, 
+									  <harvestcraft:shrimpcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:snailrawitem>, 
+									  <harvestcraft:snailcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:turtlerawitem>, 
+									  <harvestcraft:turtlecookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:oysterrawitem>, 
+									  <harvestcraft:oystercookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:turkeyrawitem>, 
+									  <harvestcraft:turkeycookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:duckrawitem>, 
+									  <harvestcraft:duckcookeditem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofeakitem>, 
+									  <harvestcraft:cookedtofeakitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofaconitem>, 
+									  <harvestcraft:cookedtofaconitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofishitem>, 
+									  <harvestcraft:cookedtofishitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofeegitem>, 
+									  <harvestcraft:cookedtofeegitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofuttonitem>, 
+									  <harvestcraft:cookedtofuttonitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofickenitem>, 
+									  <harvestcraft:cookedtofickenitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofabbititem>, 
+									  <harvestcraft:cookedtofabbititem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofurkeyitem>, 
+									  <harvestcraft:cookedtofurkeyitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofenisonitem>, 
+									  <harvestcraft:cookedtofenisonitem>);
+mods.minecraftfuture.Smoker.addRecipe(<harvestcraft:rawtofuduckitem>, 
+									  <harvestcraft:cookedtofuduckitem>);
+
+
+/****** DT Potion Fish ******/
+
+mods.minecraftfuture.Smoker.addRecipe(<dungeontactics:fish_swift>, 
+									  <dungeontactics:fish_swift_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<dungeontactics:fish_flying>, 
+									  <dungeontactics:fish_flying_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<dungeontactics:fish_lava>, 
+									  <dungeontactics:fish_lava_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<dungeontactics:fish_muscle>, 
+									  <dungeontactics:fish_muscle_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<dungeontactics:fish_lung>, 
+									  <dungeontactics:fish_lung_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<dungeontactics:fish_obsidian>, 
+									  <dungeontactics:fish_obsidian_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<dungeontactics:fish_tunnel>, 
+									  <dungeontactics:fish_tunnel_cooked>);
+
+/****** LAVACOWWW ******/
+
+mods.minecraftfuture.Smoker.addRecipe(<mod_lavacow:piranha>, 
+									  <mod_lavacow:piranha_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<mod_lavacow:cheirolepis>, 
+									  <mod_lavacow:cheirolepis_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<mod_lavacow:zombiepiranha_item>, 
+									  <mod_lavacow:zombiepiranha_item_cooked>);
+
+
+/****** Other ******/
+
+mods.minecraftfuture.Smoker.addRecipe(<primitivemobs:dodo>,
+									  <primitivemobs:cooked_dodo>);
+mods.minecraftfuture.Smoker.addRecipe(<quark:crab_leg>,
+									  <quark:cooked_crab_leg>);
+mods.minecraftfuture.Smoker.addRecipe(<aether_legacy:enchanted_cockatrice>,
+									  <aether_legacy:cooked_enchanted_cockatrice>);
+mods.minecraftfuture.Smoker.addRecipe(<betteranimalsplus:venisonraw>,
+									  <betteranimalsplus:venisoncooked>);
+mods.minecraftfuture.Smoker.addRecipe(<betteranimalsplus:pheasantraw>,
+									  <betteranimalsplus:pheasantcooked>);
+mods.minecraftfuture.Smoker.addRecipe(<betteranimalsplus:crab_meat_raw>,
+									  <betteranimalsplus:crab_meat_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<betteranimalsplus:turkey_raw>,
+									  <betteranimalsplus:turkey_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:wolf_chop>,
+									  <betterwithmods:cooked_wolf_chop>);
+mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:bat_wing>,
+									  <betterwithmods:cooked_bat_wing>);
+mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:mystery_meat>,
+									  <betterwithmods:cooked_mystery_meat>);
+mods.minecraftfuture.Smoker.addRecipe(<minecraft:fish:2>,
+									  <betterwithaddons:food_clownfish_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<minecraft:fish:3>,
+									  <betterwithaddons:food_pufferfish_baked>);
+mods.minecraftfuture.Smoker.addRecipe(<rats:raw_rat>,
+									  <rats:cooked_rat>);
+mods.minecraftfuture.Smoker.addRecipe(<twilightforest:raw_meef>,
+									  <twilightforest:cooked_meef>);
+
+
+/*********************************************************************************
+
+Campfire Recipes
+
+**********************************************************************************/
+
+
+/****** Animania ******/
+
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_beef>, 
+									    <animania:cooked_prime_beef>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_bacon>, 
+									    <animania:cooked_prime_bacon>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_chevon>, 
+									    <animania:cooked_prime_chevon>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_chicken>, 
+									    <animania:cooked_prime_chicken>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_mutton>, 
+									    <animania:cooked_prime_mutton>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_peacock>, 
+									    <animania:cooked_prime_peacock>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_pork>, 
+									    <animania:cooked_prime_pork>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_rabbit>, 
+									    <animania:cooked_prime_rabbit>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_prime_steak>, 
+									    <animania:cooked_prime_steak>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_frog_legs>, 
+									    <animania:cooked_frog_legs>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_horse>, 
+									    <animania:cooked_horse>, 600);
+
+/****** Harvestcraft ******/
+
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:musselrawitem>, 
+									    <harvestcraft:musselcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:grubitem>,
+									    <harvestcraft:cookedgrubitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:calamarirawitem>, 
+									    <harvestcraft:calamaricookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:clamrawitem>, 
+									    <harvestcraft:clamcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:crabrawitem>, 
+									    <harvestcraft:crabcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:crayfishrawitem>, 
+									    <harvestcraft:crayfishcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:frograwitem>, 
+									    <harvestcraft:frogcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:octopusrawitem>, 
+									    <harvestcraft:octopuscookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:scalloprawitem>, 
+									    <harvestcraft:scallopcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:shrimprawitem>, 
+									    <harvestcraft:shrimpcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:snailrawitem>, 
+									    <harvestcraft:snailcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:turtlerawitem>, 
+									    <harvestcraft:turtlecookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:oysterrawitem>, 
+									    <harvestcraft:oystercookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:turkeyrawitem>, 
+									    <harvestcraft:turkeycookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:duckrawitem>, 
+									    <harvestcraft:duckcookeditem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofeakitem>, 
+									    <harvestcraft:cookedtofeakitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofaconitem>, 
+									    <harvestcraft:cookedtofaconitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofishitem>, 
+									    <harvestcraft:cookedtofishitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofeegitem>, 
+									    <harvestcraft:cookedtofeegitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofuttonitem>, 
+									    <harvestcraft:cookedtofuttonitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofickenitem>, 
+									    <harvestcraft:cookedtofickenitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofabbititem>, 
+									    <harvestcraft:cookedtofabbititem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofurkeyitem>, 
+									    <harvestcraft:cookedtofurkeyitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofenisonitem>, 
+									    <harvestcraft:cookedtofenisonitem>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<harvestcraft:rawtofuduckitem>, 
+									    <harvestcraft:cookedtofuduckitem>, 600);
+
+
+/****** DT Potion Fish ******/
+
+mods.minecraftfuture.Campfire.addRecipe(<dungeontactics:fish_swift>, 
+									    <dungeontactics:fish_swift_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<dungeontactics:fish_flying>, 
+									    <dungeontactics:fish_flying_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<dungeontactics:fish_lava>, 
+									    <dungeontactics:fish_lava_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<dungeontactics:fish_muscle>, 
+									    <dungeontactics:fish_muscle_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<dungeontactics:fish_lung>, 
+									    <dungeontactics:fish_lung_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<dungeontactics:fish_obsidian>, 
+									    <dungeontactics:fish_obsidian_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<dungeontactics:fish_tunnel>, 
+									    <dungeontactics:fish_tunnel_cooked>, 600);
+
+/****** LAVACOWWW ******/
+
+mods.minecraftfuture.Campfire.addRecipe(<mod_lavacow:piranha>, 
+									    <mod_lavacow:piranha_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<mod_lavacow:cheirolepis>, 
+									    <mod_lavacow:cheirolepis_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<mod_lavacow:zombiepiranha_item>, 
+									    <mod_lavacow:zombiepiranha_item_cooked>, 600);
+
+
+/****** Other ******/
+
+mods.minecraftfuture.Campfire.addRecipe(<primitivemobs:dodo>,
+									    <primitivemobs:cooked_dodo>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<quark:crab_leg>,
+							  	        <quark:cooked_crab_leg>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<aether_legacy:enchanted_cockatrice>,
+									    <aether_legacy:cooked_enchanted_cockatrice>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betteranimalsplus:venisonraw>,
+									    <betteranimalsplus:venisoncooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betteranimalsplus:pheasantraw>,
+									    <betteranimalsplus:pheasantcooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betteranimalsplus:crab_meat_raw>,
+									    <betteranimalsplus:crab_meat_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betteranimalsplus:turkey_raw>,
+									    <betteranimalsplus:turkey_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betterwithmods:wolf_chop>,
+									    <betterwithmods:cooked_wolf_chop>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betterwithmods:bat_wing>,
+									    <betterwithmods:cooked_bat_wing>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betterwithmods:mystery_meat>,
+									    <betterwithmods:cooked_mystery_meat>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<minecraft:fish:2>,
+									    <betterwithaddons:food_clownfish_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<minecraft:fish:3>,
+									    <betterwithaddons:food_pufferfish_baked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<rats:raw_rat>,
+									    <rats:cooked_rat>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<twilightforest:raw_meef>,
+									    <twilightforest:cooked_meef>, 600);
