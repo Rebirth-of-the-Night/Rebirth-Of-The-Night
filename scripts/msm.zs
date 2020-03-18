@@ -174,7 +174,7 @@ enchantmentMap5 += enchantments5[2].makeEnchantment(3).makeTag();
 enchantmentMap5 += enchantments5[3].makeEnchantment(1).makeTag();
 enchantmentMap5 += enchantments5[4].makeEnchantment(1).makeTag();
 
-
+furnace.remove(<dungeontactics:silver_nugget>, <dungeontactics:silver_sword>);
 recipes.remove(<dungeontactics:silver_sword>);
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag(({"Quark:RuneColor": 14, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap5),
 [

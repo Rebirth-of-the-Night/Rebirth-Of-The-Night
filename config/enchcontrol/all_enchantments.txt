@@ -1,0 +1,154 @@
+mod name - enchantment name - enchantment registry name
+Charm - Curse of Clumsiness - charm:clumsiness_curse
+Charm - Curse of Harming - charm:harming_curse
+Charm - Curse of Haunting - charm:haunting_curse
+Charm - Curse Break - charm:curse_break
+Charm - Magnetic - charm:magnetic
+Charm - Curse of Rusting - charm:rusting_curse
+DungeonTactics - Uncover - dungeontactics:uncover
+DungeonTactics - Sunder - dungeontactics:sunder
+DungeonTactics - Bark - dungeontactics:poison_bark
+DungeonTactics - Satiate - dungeontactics:satiate
+DungeonTactics - Berserking - dungeontactics:berserking
+DungeonTactics - Strength - dungeontactics:trinket_strength
+DungeonTactics - Restoration - dungeontactics:restoration
+DungeonTactics - Tangle - dungeontactics:poison_tangle
+DungeonTactics - Sanguine - dungeontactics:poison_sanguine
+DungeonTactics - Ailment - dungeontactics:poison_ailment
+DungeonTactics - Pin Missile - dungeontactics:pinmissile
+DungeonTactics - Bramble - dungeontactics:poison_bramble
+DungeonTactics - Mage Affinity - dungeontactics:mage_affinity
+DungeonTactics - Cinder - dungeontactics:poison_cinder
+DungeonTactics - Bonus Package - dungeontactics:clustered
+DungeonTactics - Punish - dungeontactics:punish
+DungeonTactics - Duct Taped - dungeontactics:ducttaped
+DungeonTactics - Debilitating - dungeontactics:debilitating
+DungeonTactics - Transport - dungeontactics:transport
+DungeonTactics - Smelting - dungeontactics:smelting
+DungeonTactics - Exploding - dungeontactics:explosive
+DungeonTactics - Speed Boost - dungeontactics:trinket_speed
+DungeonTactics - Rage - dungeontactics:rage
+DungeonTactics - Night Sight - dungeontactics:trinket_nightvision
+DungeonTactics - Freeze - dungeontactics:freezing
+DungeonTactics - Disarm - dungeontactics:disarm
+DungeonTactics - Gills - dungeontactics:trinket_gills
+DungeonTactics - Disorient - dungeontactics:disorient
+DungeonTactics - Jump Boost - dungeontactics:trinket_jump
+DungeonTactics - Ghostly - dungeontactics:trinket_invisibility
+DungeonTactics - Cook - dungeontactics:cooking
+DungeonTactics - Mining Boost - dungeontactics:trinket_haste
+DungeonTactics - Fade - dungeontactics:poison_fade
+DungeonTactics - Sonic Boom - dungeontactics:sonicboom
+DungeonTactics - Fire Shield - dungeontactics:trinket_fireshield
+DungeonTactics - Stone Skin - dungeontactics:trinket_resistance
+DungeonTactics - Smite - dungeontactics:smite
+DungeonTactics - Forge - dungeontactics:forging
+DungeonTactics - Companion - dungeontactics:companion
+DungeonTactics - Wither - dungeontactics:wither
+DungeonTactics - Magic Missile - dungeontactics:magicmissile
+DungeonTactics - Feather - dungeontactics:poison_feather
+DungeonTactics - Runed - dungeontactics:runed
+End: Reborn III - Shulker Core - endreborn:shulker_core
+End: Reborn III - Ender Killer - endreborn:ender_killer
+End: Reborn III - Ender Core - endreborn:ender_core
+Fish's Undead Rising - Poisonous - mod_lavacow:poisonous
+Fish's Undead Rising - Lifesteal - mod_lavacow:lifesteal
+Living Enchantment - Living - livingenchantment:enchantment.living
+Minecraft - Frost Walker - minecraft:frost_walker
+Minecraft - Fire Protection - minecraft:fire_protection
+Minecraft - Flame - minecraft:flame
+Minecraft - Knockback - minecraft:knockback
+Minecraft - Curse of Vanishing - minecraft:vanishing_curse
+Minecraft - Punch - minecraft:punch
+Minecraft - Unbreaking - minecraft:unbreaking
+Minecraft - Bane of Arthropods - minecraft:bane_of_arthropods
+Minecraft - Luck of the Sea - minecraft:luck_of_the_sea
+Minecraft - Fortune - minecraft:fortune
+Minecraft - Sweeping Edge - minecraft:sweeping
+Minecraft - Silk Touch - minecraft:silk_touch
+Minecraft - Sharpness - minecraft:sharpness
+Minecraft - Aqua Affinity - minecraft:aqua_affinity
+Minecraft - Curse of Binding - minecraft:binding_curse
+Minecraft - Looting - minecraft:looting
+Minecraft - Thorns - minecraft:thorns
+Minecraft - Lure - minecraft:lure
+Minecraft - Power - minecraft:power
+Minecraft - Depth Strider - minecraft:depth_strider
+Minecraft - Respiration - minecraft:respiration
+Minecraft - Feather Falling - minecraft:feather_falling
+Minecraft - Efficiency - minecraft:efficiency
+Minecraft - Mending - minecraft:mending
+Minecraft - Smite - minecraft:smite
+Minecraft - Blast Protection - minecraft:blast_protection
+Minecraft - Infinity - minecraft:infinity
+Minecraft - Protection - minecraft:protection
+Minecraft - Fire Aspect - minecraft:fire_aspect
+Minecraft - Projectile Protection - minecraft:projectile_protection
+More Swords Legacy - Ascension - msmlegacy:ascension
+More Swords Legacy - Descension - msmlegacy:descension
+More Swords Legacy - Consuming Shadows - msmlegacy:consuming_shadows
+More Swords Legacy - Frozen Aspect - msmlegacy:frozen_aspect
+More Swords Legacy - Sparks - msmlegacy:sparks
+More Swords Legacy - Ender Aura - msmlegacy:ender_aura
+More Swords Legacy - Ender Pulse - msmlegacy:ender_pulse
+More Swords Legacy - Venomous Aspect - msmlegacy:venomous_aspect
+More Swords Legacy - Scorn - msmlegacy:scorn
+More Swords Legacy - Vitality - msmlegacy:vitality
+More Swords Legacy - Frost Wave - msmlegacy:frost_wave
+More Swords Legacy - Keen Edge - msmlegacy:keen_edge
+More Swords Legacy - Ignite - msmlegacy:ignite
+More Swords Legacy - Decay - msmlegacy:decay
+More Swords Legacy - Greed - msmlegacy:greed
+More Swords Legacy - Wisdom - msmlegacy:wisdom
+More Swords Legacy - Absorb - msmlegacy:absorb
+More Swords Legacy - Stealth - msmlegacy:stealth
+More Swords Legacy - Feast - msmlegacy:feast
+More Swords Legacy - Extinction - msmlegacy:extinction
+Nyx - Lunar Edge - nyx:lunar_edge
+Nyx - Lunar Shield - nyx:lunar_shield
+Random Enchantments - Reflect - randomenchantments:reflect
+Random Enchantments - Solar - randomenchantments:solar
+Random Enchantments - Fumbling - randomenchantments:fumbling
+Random Enchantments - Magnetic - randomenchantments:magnetic
+Random Enchantments - Harvesting - randomenchantments:harvesting
+Random Enchantments - Ricochet - randomenchantments:ricochet
+Random Enchantments - Lumber Jack - randomenchantments:lumberjack
+Random Enchantments - Snatching - randomenchantments:hooked
+Random Enchantments - Butterfingers - randomenchantments:butterfingers
+Random Enchantments - Shattering - randomenchantments:shattering
+Random Enchantments - Floating - randomenchantments:floating
+Random Enchantments - Curse of Shadow - randomenchantments:shadow
+Random Enchantments - Eternal - randomenchantments:eternal
+Random Enchantments - Phasing - randomenchantments:phasing
+Random Enchantments - Momentum - randomenchantments:momentum
+Random Enchantments - Paralysis - randomenchantments:paralysis
+Random Enchantments - Resistant - randomenchantments:resistance
+Random Enchantments - Deflect - randomenchantments:deflect
+Random Enchantments - Equal Mine - randomenchantments:equal_mine
+Random Enchantments - Disarm - randomenchantments:disarm
+Random Enchantments - Stonebound - randomenchantments:stonebound
+Random Enchantments - Randomness - randomenchantments:randomness
+Random Enchantments - Swiftness - randomenchantments:swift
+Random Enchantments - Global Traveler - randomenchantments:global_traveler
+Random Enchantments - True Shot - randomenchantments:true_shot
+Random Enchantments - Exploding - randomenchantments:exploding
+Random Enchantments - Transposition - randomenchantments:transposition
+Random Enchantments - Instant Death - randomenchantments:instant_death
+Random Enchantments - Teleportation - randomenchantments:teleportation
+Random Enchantments - Quickdraw - randomenchantments:quickdraw
+Random Enchantments - Grappling - randomenchantments:grappling
+Random Enchantments - Back to the Chamber - randomenchantments:back_to_the_chamber
+Random Enchantments - Stone Lover - randomenchantments:stonelover
+Random Enchantments - Piercing - randomenchantments:piercing
+Random Enchantments - Curse of Breaking - randomenchantments:breaking
+Random Enchantments - Cursed Jump - randomenchantments:cursed_jump
+Random Enchantments - Homing - randomenchantments:homing
+Random Enchantments - Torches - randomenchantments:torches
+Random Enchantments - Obsidian Buster - randomenchantments:obsidian_buster
+Random Enchantments - Lightning - randomenchantments:lightning
+Random Enchantments - True Life Steal - randomenchantments:true_lifesteal
+Spartan Shields - Spikes - spartanshields:ssenchspikes
+Spartan Weaponry - Sharpened - spartanweaponry:throwing_damage
+Spartan Weaponry - Lucky Strike - spartanweaponry:throwing_luck
+Spartan Weaponry - Lightweight - spartanweaponry:throwing_range
+Spartan Weaponry - Incendiary - spartanweaponry:throwing_fire
