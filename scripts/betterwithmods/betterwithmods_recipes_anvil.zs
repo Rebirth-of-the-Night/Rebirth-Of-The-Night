@@ -433,15 +433,6 @@ mods.betterwithmods.Anvil.addShaped(<spartanfire:longbow_fire_dragonsteel>,
    [fire_dragonsteel, hfiber, hfiber, null]
 ]);
 
-recipes.remove(<spartanfire:crossbow_fire_dragonsteel>);
-mods.betterwithmods.Anvil.addShaped(<spartanfire:crossbow_fire_dragonsteel>, 
-[
-   [<minecraft:bow>, hfiber, fire_dragonsteel, fire_dragonsteel],
-   [hfiber, <ore:logWood>, <ore:logWood>, hfiber],
-   [fire_dragonsteel, <ore:logWood>, wbone, hfiber],
-   [fire_dragonsteel, hfiber, hfiber, wbone]
-]);
-
 // Ice Dragonsteel
 
 recipes.remove(<spartanfire:battleaxe_ice_dragonsteel>);
@@ -635,13 +626,4 @@ mods.betterwithmods.Anvil.addShaped(<spartanfire:longbow_ice_dragonsteel>,
    [wbone, null, null, hfiber],
    [ice_dragonsteel, null, null, hfiber],
    [ice_dragonsteel, hfiber, hfiber, null]
-]);
-
-recipes.remove(<spartanfire:crossbow_ice_dragonsteel>);
-mods.betterwithmods.Anvil.addShaped(<spartanfire:crossbow_ice_dragonsteel>, 
-[
-   [<minecraft:bow>, hfiber, ice_dragonsteel, ice_dragonsteel],
-   [hfiber, <ore:logWood>, <ore:logWood>, hfiber],
-   [ice_dragonsteel, <ore:logWood>, wbone, hfiber],
-   [ice_dragonsteel, hfiber, hfiber, wbone]
 ]);

@@ -55,15 +55,16 @@ recipes.removeByRecipeName("endreborn:items/item_lormyte_crystal");
 recipes.removeByRecipeName("endreborn:items/glowstone_dust");
 recipes.removeByRecipeName("endreborn:items/brick");
 recipes.removeByRecipeName("endreborn:items/quartz_block");
-recipes.removeByRecipeName("obsidian shard");
+recipes.removeByRecipeName("endreborn:items/obsidian shard");
 recipes.removeByRecipeName("endreborn:items/prismarine_2");
 recipes.removeByRecipeName("endreborn:items/prismarine_2");
 recipes.removeByRecipeName("endreborn:items/item_raw_endorium");
 recipes.removeByRecipeName("endreborn:items/prismarine");
-recipes.removeByRecipeName("anycobble");
+recipes.removeByRecipeName("endreborn:items/anycobble");
 recipes.removeByRecipeName("endreborn:items/netherbrick");
 recipes.removeByRecipeName("endreborn:items/catalyst");
 recipes.removeByRecipeName("endreborn:blocks/cobblestone");
+recipes.removeByRecipeName("endreborn:blocks/purpur_block");
 
 
 recipes.remove(<endreborn:tool_magnifier>);

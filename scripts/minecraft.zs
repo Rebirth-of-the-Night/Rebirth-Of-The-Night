@@ -291,6 +291,9 @@ cookedMeat.addAll(<ore:cookedFrog>);
 cookedMeat.addAll(<ore:cookedFish>);
 cookedMeat.addAll(<ore:cookedVenison>);
 
+val componentWheel = <ore:componentWheel>;
+componentWheel.addItems([<animania:wheel>,<betterwithmods:material>,<betterwithmods:material:48>]);
+
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);
 

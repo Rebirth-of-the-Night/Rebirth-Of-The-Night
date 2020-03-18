@@ -35,19 +35,22 @@ recipes.remove(<dungeontactics:sharp_stick>);
 recipes.remove(<minecraft:wooden_sword>);
 mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>);
 
-recipes.addShaped("Sharp Stick", sharp_stick,
+recipes.addShaped("SharpStick", sharp_stick,
  [[null,wood,null],
   [null,wood,null],
   [null,stick,null]]);
 
-//Addition of weapon recipes that involve stick > handle
+//Addition of weapon recipes that involve stick > handle + crossbow
 
 val handle = <spartanweaponry:material>;
 val ahandle = <spartancompat:handle_skyroot>;
 val witherhandle = <spartanfire:witherbone_handle>;
 val feather = <ore:feather>;
 val iron = <ore:ingotIron>;
+val steel = <ore:ingotSteel>;
 val wool = <ore:wool>;
+val fiber = <ore:fiberHemp>;
+val wheel = <ore:componentWheel>;
 val log = <ore:log>;
 val stone = <ore:cobblestone>;
 val gold = <ore:ingotGold>;
@@ -66,6 +69,7 @@ val ironwood = <twilightforest:ironwood_ingot>;
 val steeleaf = <twilightforest:steeleaf_ingot>;
 val knightmetal = <twilightforest:knightmetal_ingot>;
 val giantcobblestone = <twilightforest:giant_cobblestone>;
+val bow = <minecraft:bow>;
 val goldensword = <minecraft:golden_sword>;
 val stonesword = <minecraft:stone_sword>;
 val ironsword = <minecraft:iron_sword>;
@@ -89,6 +93,14 @@ val steeleafsword = <twilightforest:steeleaf_sword>;
 val knightsword = <twilightforest:knightmetal_sword>;
 val giantsword = <twilightforest:giant_sword>;
 
+//Crossbow Tweaks
+recipes.remove(<spartanweaponry:crossbow_wood>);
+recipes.addShaped("SteelCrossbow", <spartanweaponry:crossbow_wood>.withTag({display: {Name: "§5Steel Crossbow"}}),
+ [[bow,fiber,wheel],
+  [fiber,steel,null],
+  [wheel,null,handle]]);
+
+//Weapons
 recipes.addShaped("HippogryphSword", hippogryph_sword,
  [[null,hippogryphtalon,null],
   [feather,iron,feather],

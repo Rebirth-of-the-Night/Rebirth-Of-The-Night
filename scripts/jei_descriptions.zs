@@ -147,7 +147,7 @@ mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat 
 # End Essence
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
 # Spell Scroll
-mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>, 'A gate to unhibited magic power and a variety of different spells. Scholars can find more knowledge in "Magic."');
+mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>, 'A gate to unhibited magic power and a variety of different spells once enchanted with them. Scholars can find more knowledge in the "Magic" book.');
 
 
 
@@ -209,6 +209,16 @@ mods.jei.JEI.addItem(<contenttweaker:poison_rune>);
 mods.jei.JEI.addItem(<contenttweaker:soul_rune>);
 mods.jei.JEI.addItem(<contenttweaker:strength_rune>);
 mods.jei.JEI.addItem(<contenttweaker:trans_rune>);
+
+# Pyrotech
+mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
+mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"Made with common materials. Can light a kiln if held down but it is rather fragile.");
+mods.jei.JEI.addDescription(<pyrotech:stone_kiln>,"A primitive machine that can smelt certain items like clay, bronze alloy, and charcoal in batches of 12. Needs to be ignited with a flint and tinder or a better igniter while having fuel. Use and hold igniter until lit.");
+mods.jei.JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone kiln that can smelt certain items like clay, bronze alloy, and charcoal in batches of 32, faster and more effectively! Ignited the same way as a stone kiln.");
+mods.jei.JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
+mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
+mods.jei.JEI.addDescription(<pyrotech:shelf>,"Displays items much more visibly than a chest ever could.");
+mods.jei.JEI.addDescription(<pyrotech:stash>,"When all that's needed is somewhere to stash items but not as massive as arcane trove. Can hold up to 32 stacks of the same item.");
 
 
 # Relics
