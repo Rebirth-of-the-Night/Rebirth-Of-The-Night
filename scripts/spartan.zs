@@ -192,7 +192,7 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_electrum>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_electrum>);
+//mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:mace_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_electrum>);
