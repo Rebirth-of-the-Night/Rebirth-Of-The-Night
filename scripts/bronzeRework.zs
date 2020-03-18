@@ -26,7 +26,6 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:staff_copper>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_copper>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:lance_copper>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_copper>);
-//mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_copper>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_copper>);
 //tin
 mods.jei.JEI.removeAndHide(<simpleores:tin_sword>);
@@ -58,7 +57,6 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_tin>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:pike_tin>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:lance_tin>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_tin>);
-//mods.jei.JEI.removeAndHide(<spartanweaponry:crossbow_tin>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_tin>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_tin>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_tin>);

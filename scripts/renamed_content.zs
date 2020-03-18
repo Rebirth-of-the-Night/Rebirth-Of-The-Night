@@ -295,7 +295,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <mod_lavacow:sludge_wand>.addTooltip(format.darkPurple("Epic Weapon"));
 <mod_lavacow:bonesword>.displayName = "§5Bonetooth Sword";
 <mod_lavacow:bonesword>.addTooltip(format.darkPurple("Epic Weapon"));
-
+<spartanweaponry:crossbow_wood>.addTooltip(format.darkPurple("Epic Weapon"));
 
 <simpleores:mythril_pickaxe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_shovel>.displayName = "§5Mythril Shovel";
