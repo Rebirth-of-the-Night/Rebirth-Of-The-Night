@@ -22,12 +22,6 @@ recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>
   [[null,<minecraft:cooked_rabbit>,null],
   [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
   [null,<minecraft:bowl>,null]]);
-recipes.remove(<betterwithmods:raw_kebab>);
-recipes.addShapeless("betterwithmods_food/raw_kebab", <betterwithmods:raw_kebab>*3, 
-[<ore:listAllmushroom>, <minecraft:carrot>, <ore:listAllmuttonraw>, <ore:stickWood>]);
-recipes.remove(<betterwithmods:raw_omelet>);
-recipes.addShapeless("betterwithmods_food/raw_omelet", <betterwithmods:raw_omelet>*2, 
-[<ore:listAllegg>, <ore:listAllmushroom>, <ore:listAllmushroom>, <ore:listAllmushroom>]);
 recipes.remove(<betteranimalsplus:goatcheese>);
 recipes.addShapeless("betteranimalsplus_milk_to_cheese", <betteranimalsplus:goatcheese>*3, 
 [<betteranimalsplus:goatmilk>, <ore:listAllmushroom>]);
@@ -67,6 +61,12 @@ recipes.removeByRecipeName("minecraft:stone_brick_slab");
 recipes.removeByRecipeName("minecraft:repeater");
 
 recipes.remove(<minecraft:fish:0>);
+recipes.remove(<minecraft:fishing_rod>);
+recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
+    [null,null,<ore:stickWood>],
+    [null,<ore:stickWood>,<minecraft:string>],
+    [<ore:stickWood>,<minecraft:iron_nugget>|<contenttweaker:material_part:6>,<minecraft:string>]
+]);
 
 mods.rockytweaks.Anvil.remove(<minecraft:wooden_sword>);
 
@@ -274,7 +274,7 @@ val egg = <ore:listAllegg>;
 egg.add(<betterwithmods:raw_egg>);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>]);
+rawMeat.addItems([<betterwithmods:wolf_chop>,<betterwithmods:bat_wing>]);
 rawMeat.addAll(<ore:rawBeef>);
 rawMeat.addAll(<ore:rawChicken>);
 rawMeat.addAll(<ore:rawMutton>);
@@ -283,7 +283,7 @@ rawMeat.addAll(<ore:rawFish>);
 rawMeat.addAll(<ore:rawVenison>);
 
 val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>]);
+cookedMeat.addItems([<betterwithmods:cooked_wolf_chop>,<betterwithmods:cooked_bat_wing>]);
 cookedMeat.addAll(<ore:cookedBeef>);
 cookedMeat.addAll(<ore:cookedChicken>);
 cookedMeat.addAll(<ore:cookedMutton>);

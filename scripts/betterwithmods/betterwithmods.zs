@@ -68,7 +68,6 @@ recipes.removeByRecipeName("betterwithmods:quark/birch_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
-recipes.removeByRecipeName("betterwithmods:baiting_recipe");
 recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
@@ -81,44 +80,66 @@ mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>); 
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>);
-mods.jei.JEI.removeAndHide(<betterwithmods:material:46>); 
+mods.jei.JEI.removeAndHide(<betterwithmods:material:46>);
+
+mods.jei.JEI.removeAndHide(<betterwithmods:raw_egg>);
+mods.jei.JEI.removeAndHide(<betterwithmods:cooked_egg>);
+furnace.remove(<betterwithmods:cooked_egg>);
+mods.jei.JEI.removeAndHide(<betterwithmods:ham_and_eggs>);
+mods.jei.JEI.removeAndHide(<betterwithmods:raw_scrambled_egg>);
+mods.jei.JEI.removeAndHide(<betterwithmods:cooked_scrambled_egg>);
+furnace.remove(<betterwithmods:cooked_scrambled_egg>);
+mods.jei.JEI.removeAndHide(<betterwithmods:raw_pastry:4>);
+mods.jei.JEI.removeAndHide(<betterwithmods:apple_pie>);
+furnace.remove(<betterwithmods:apple_pie>);
+mods.jei.JEI.removeAndHide(<betterwithmods:raw_omelet>);
+mods.jei.JEI.removeAndHide(<betterwithmods:cooked_omelet>);
+furnace.remove(<betterwithmods:cooked_omelet>);
+mods.jei.JEI.removeAndHide(<betterwithmods:raw_kebab>);
+mods.jei.JEI.removeAndHide(<betterwithmods:cooked_kebab>);
+furnace.remove(<betterwithmods:cooked_kebab>);
+mods.jei.JEI.removeAndHide(<betterwithmods:creeper_oyster>);
+mods.ltt.LootTable.removeGlobalItem("betterwithmods:creeper_oyster");
+mods.jei.JEI.removeAndHide(<betterwithmods:stump_remover>);
+mods.jei.JEI.removeAndHide(<betterwithmods:beef_dinner>);
+mods.jei.JEI.removeAndHide(<betterwithmods:beef_potatoes>);
+mods.jei.JEI.removeAndHide(<betterwithmods:chocolate>);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:chocolate>]);
+mods.jei.JEI.removeAndHide(<betterwithmods:chowder>);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:chowder>]);
+mods.jei.JEI.removeAndHide(<betterwithmods:hearty_stew>);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:hearty_stew>]);
+mods.jei.JEI.removeAndHide(<betterwithmods:pork_dinner>);
+mods.jei.JEI.removeAndHide(<betterwithmods:mystery_meat>);
+mods.ltt.LootTable.removeGlobalItem("betterwithmods:mystery_meat");
+mods.jei.JEI.removeAndHide(<betterwithmods:cooked_mystery_meat>);
+furnace.remove(<betterwithmods:cooked_mystery_meat>);
+recipes.remove(<betterwithmods:donut>);
+mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
+
+mods.jei.JEI.removeAndHide(<betterwithmods:dirt_pile>);
+mods.jei.JEI.removeAndHide(<betterwithmods:gravel_pile>);
+mods.jei.JEI.removeAndHide(<betterwithmods:sand_pile>);
+mods.jei.JEI.removeAndHide(<betterwithmods:red_sand_pile>);
+recipes.removeByRecipeName("betterwithmods:piles/dirt_slab_0");
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 mods.betterwithmods.Cauldron.remove([<minecraft:mushroom_stew>]);
 mods.betterwithmods.Cauldron.remove([<minecraft:rabbit_stew>]);
 mods.betterwithmods.Cauldron.addUnstoked([<minecraft:cooked_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
-mods.betterwithmods.Cauldron.remove([<betterwithmods:hearty_stew>]);
-mods.betterwithmods.Cauldron.addUnstoked([<minecraft:chicken>|<minecraft:cooked_chicken>|<minecraft:beef>|<minecraft:cooked_beef>|<minecraft:porkchop>|<minecraft:cooked_porkchop>|<minecraft:mutton>|<minecraft:cooked_mutton>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<betterwithmods:hearty_stew>*5]);
 
 mods.betterwithmods.Cauldron.addUnstoked([<quark:crab_leg>],[<quark:cooked_crab_leg>]);
 mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:grubitem>],[<harvestcraft:cookedgrubitem>]);
 mods.betterwithmods.Cauldron.addUnstoked([<primitivemobs:dodo>],[<primitivemobs:cooked_dodo>]);
-mods.betterwithmods.Cauldron.addUnstoked([<primitivemobs:cooked_dodo>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_beef>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_mutton>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_pork>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_chicken>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_horse>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_rabbit>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_frog_legs>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_peacock>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_peacock>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_chevon>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<animania:cooked_prime_chevon>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<aether_legacy:burnt_cockatrice>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<aether_legacy:cooked_enchanted_cockatrice>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:crab_meat_cooked>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_mystery_meat>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:mimic_claw_cooked>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:crabcookeditem>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<quark:cooked_crab_leg>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:venisoncooked>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<twilightforest:cooked_venison>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:cooked_bat_wing>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:piranha_cooked>],[<minecraft:leather>]);
-mods.betterwithmods.Cauldron.addUnstoked([<mod_lavacow:zombiepiranha_item_cooked>],[<minecraft:leather>]);
 
+val arrayLeather = [<primitivemobs:cooked_dodo>,<animania:cooked_prime_beef>,<animania:cooked_prime_mutton>,<animania:cooked_prime_pork>,<animania:cooked_prime_chicken>,<animania:cooked_horse>,<animania:cooked_prime_rabbit>,<animania:cooked_frog_legs>,<animania:cooked_peacock>,<animania:cooked_prime_peacock>,<animania:cooked_chevon>,<animania:cooked_prime_chevon>,<aether_legacy:burnt_cockatrice>,<aether_legacy:cooked_enchanted_cockatrice>,<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<harvestcraft:crabcookeditem>,<quark:cooked_crab_leg>,<betteranimalsplus:venisoncooked>,<twilightforest:cooked_venison>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<twilightforest:cooked_meef>] as IItemStack[];
+
+for cookedFood in arrayLeather{
+    mods.betterwithmods.Cauldron.addUnstoked([cookedFood],[<minecraft:leather>]);
+    furnace.addRecipe(<minecraft:leather>,cookedFood,0.1);
+}
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
 mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail

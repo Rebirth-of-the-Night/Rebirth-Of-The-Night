@@ -34,7 +34,7 @@ StoneKiln.addRecipe("bwmcake",<minecraft:cake>, <betterwithmods:raw_pastry>, 200
 StoneKiln.addRecipe("bwmpumpkinpie",<minecraft:pumpkin_pie>, <betterwithmods:raw_pastry:1>, 200, true);
 StoneKiln.addRecipe("bwmcookie",<minecraft:cookie>*8, <betterwithmods:raw_pastry:2>, 200, true);
 StoneKiln.addRecipe("bwmbread",<minecraft:bread>, <betterwithmods:raw_pastry:3>,200, true);
-StoneKiln.addRecipe("bwmapplepie",<betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
+//StoneKiln.addRecipe("bwmapplepie",<betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
 StoneKiln.addRecipe("raw_salt_from_sandstone",<contenttweaker:halite>, <ore:sandstone>,2400, true);
 //Unified kiln recipes
 

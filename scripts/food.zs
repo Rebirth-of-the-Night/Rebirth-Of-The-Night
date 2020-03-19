@@ -8,8 +8,6 @@
 <harvestcraft:spidereyesoupitem>.foodValues.saturationModifier = 0.4;
 <harvestcraft:mobsoupitem>.foodValues.hunger = 10;
 <harvestcraft:mobsoupitem>.foodValues.saturationModifier = 0.4;
-<betterwithmods:cooked_omelet>.foodValues.hunger = 3;
-<betterwithmods:cooked_omelet>.foodValues.saturationModifier = 0.4;
 <harvestcraft:scrambledeggitem>.foodValues.hunger = 3;
 <harvestcraft:scrambledeggitem>.foodValues.saturationModifier = 0.8;
 <harvestcraft:pemmicanitem>.foodValues.hunger = 7;
@@ -36,6 +34,10 @@
 <animania:bacon_omelette>.foodValues.saturationModifier = 0.5;
 <animania:super_omelette>.foodValues.hunger = 7;
 <animania:super_omelette>.foodValues.saturationModifier = 0.7;
+<betterwithmods:wolf_chop>.foodValues.hunger = 1;
+<betterwithmods:wolf_chop>.foodValues.saturationModifier = 0.3;
+<betterwithmods:cooked_wolf_chop>.foodValues.hunger = 2;
+<betterwithmods:cooked_wolf_chop>.foodValues.saturationModifier = 0.3;
 
 <mod_lavacow:parasite_item>.foodValues.hunger = 0.5;
 <mod_lavacow:parasite_item>.foodValues.saturationModifier = 0.2;
@@ -43,13 +45,6 @@
 <mod_lavacow:parasite_item_cooked>.foodValues.hunger = 1;
 <mod_lavacow:parasite_item_cooked>.foodValues.saturationModifier = 0.2;
 
-<mod_lavacow:shattered_ice>.displayName = "§Ice Chunks";
+<mod_lavacow:shattered_ice>.displayName = "Ice Chunks";
 <mod_lavacow:shattered_ice>.foodValues.hunger = 0;
 <mod_lavacow:shattered_ice>.foodValues.saturationModifier = 0;
-
-//I don't know where to put this so it is going here and you're gonna just deal with it ok?
-recipes.remove(<betterwithmods:donut>);
-mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
-mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
-
-//

@@ -72,7 +72,6 @@ filchMain.addItemEntryHelper(<iceandfire:silver_ingot>, 3, 0, [Functions.setCoun
 filchMain.addItemEntryHelper(<minecraft:rabbit_foot>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:torch>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<totemexpansion:totem_base>, 2, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<betterwithmods:mystery_meat>, 1, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<harvestcraft:pizzasliceitem>, 1, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_egg>, 1, 0, [Functions.setCount(1, 1)], []);

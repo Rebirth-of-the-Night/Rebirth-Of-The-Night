@@ -63,15 +63,15 @@ val disabledEnchantmentLevels = [1,2,3];
 
 //////////////////////////////////////////////////////////////////////////
 var enchantLoopCounter = 0; //Enchant Array Locater
-var enchantNameLevelTag = disabledEnchantments[0].makeEnchantment(1).makeTag().ench[0];
+var enchantTag = disabledEnchantments[0].makeEnchantment(1).makeTag().ench[0];
 var enchantMap = {}  as IData;
 
 for enchant in disabledEnchantments {
 	for enchantLevel in disabledEnchantmentLevels {
 
-		enchantNameLevelTag = disabledEnchantments[enchantLoopCounter].makeEnchantment(enchantLevel).makeTag().ench[0];
+		enchantTag = disabledEnchantments[enchantLoopCounter].makeEnchantment(enchantLevel).makeTag().ench[0];
 
-		enchantMap = {StoredEnchantments: [enchantNameLevelTag]};
+		enchantMap = {StoredEnchantments: [enchantTag]};
 
 		mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag(enchantMap));
 
