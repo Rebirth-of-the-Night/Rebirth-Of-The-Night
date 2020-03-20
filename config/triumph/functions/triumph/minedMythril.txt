@@ -6,3 +6,4 @@ playsound mod_lavacow:entity.wendigo.attack ambient @p ~ ~ ~ 0.5 0.9
 gamestage silentadd @a minedMythril
 gamestage silentadd @a fullDiamondArmor
 gamestage silentadd @a fullEarlyArmor
+gamestage silentremove @a noStage

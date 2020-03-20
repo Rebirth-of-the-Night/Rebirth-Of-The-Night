@@ -52,9 +52,7 @@
         },
         {
           "cmod": "attribute_speed_flying",
-          "base_value": 3.0,
-          "max_value": 5,
-          "difficulty_multiplier": 0.5
+          "base_value": 4.0
         },
         {
           "cmod": "xp",
@@ -64,144 +62,12 @@
       ]
     },
     {
-      "name": "infernal_skeleton_1",
-      "cmods": [
-        {
-          "cmod": "ai_infernal",
-          "modifiers": [
-            "Regen", "Cloaking", "Storm"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "inventory_all_scales",
-      "cmods": [
-        {
-          "cmod": "inventory_difficulty_scaled",
-
-          "stages": [
-            {
-              "min": 0,
-              "max": 0.25,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_hand_main": "minecraft:stone_sword",
-              "inv_head": "minecraft:leather_helmet",
-              "inv_chest": "minecraft:leather_chestplate",
-              "inv_legs": "minecraft:leather_leggings",
-              "inv_feet": "minecraft:leather_boots"
-            },
-            {
-              "min": 0.25,
-              "max": 0.5,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_hand_main": "minecraft:stone_sword",
-              "inv_head": "minecraft:chainmail_helmet",
-              "inv_chest": "minecraft:chainmail_chestplate",
-              "inv_legs": "minecraft:chainmail_leggings",
-              "inv_feet": "minecraft:chainmail_boots"
-            },
-            {
-              "min": 0.5,
-              "max": 0.75,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_hand_main": "minecraft:iron_sword",
-              "inv_head": "minecraft:iron_helmet",
-              "inv_chest": "minecraft:iron_chestplate",
-              "inv_legs": "minecraft:iron_leggings",
-              "inv_feet": "minecraft:iron_boots"
-            },
-            {
-              "min": 0.75,
-              "max": 999,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_hand_main": "minecraft:diamond_sword",
-              "inv_head": "minecraft:diamond_helmet",
-              "inv_chest": "minecraft:diamond_chestplate",
-              "inv_legs": "minecraft:diamond_leggings",
-              "inv_feet": "minecraft:diamond_boots"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "inventory_all_scales_no_weapon",
-      "cmods": [
-        {
-          "cmod": "inventory_difficulty_scaled",
-
-          "stages": [
-            {
-              "min": 0,
-              "max": 0.25,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_head": "minecraft:leather_helmet",
-              "inv_chest": "minecraft:leather_chestplate",
-              "inv_legs": "minecraft:leather_leggings",
-              "inv_feet": "minecraft:leather_boots"
-            },
-            {
-              "min": 0.25,
-              "max": 0.5,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_head": "minecraft:chainmail_helmet",
-              "inv_chest": "minecraft:chainmail_chestplate",
-              "inv_legs": "minecraft:chainmail_leggings",
-              "inv_feet": "minecraft:chainmail_boots"
-            },
-            {
-              "min": 0.5,
-              "max": 0.75,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_head": "minecraft:iron_helmet",
-              "inv_chest": "minecraft:iron_chestplate",
-              "inv_legs": "minecraft:iron_leggings",
-              "inv_feet": "minecraft:iron_boots"
-            },
-            {
-              "min": 0.75,
-              "max": 999,
-
-              "inv_hand_off": "minecraft:shield",
-              "inv_head": "minecraft:diamond_helmet",
-              "inv_chest": "minecraft:diamond_chestplate",
-              "inv_legs": "minecraft:diamond_leggings",
-              "inv_feet": "minecraft:diamond_boots"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "inventory_leather",
       "cmods": [
         {
           "cmod": "inventory",
 
-          "inv_hand_main": "minecraft:stone_sword",
-          "inv_head": "minecraft:leather_helmet",
-          "inv_chest": "minecraft:leather_chestplate",
-          "inv_legs": "minecraft:leather_leggings",
-          "inv_feet": "minecraft:leather_boots"
-        }
-      ]
-    },
-    {
-      "name": "inventory_leather_no_weapon",
-      "cmods": [
-        {
-          "cmod": "inventory",
-
-          "inv_hand_main": "minecraft:stone_sword",
-          "inv_head": "minecraft:leather_helmet",
+          "inv_head": "betterwithmods:leather_tanned_helmet",
           "inv_chest": "minecraft:leather_chestplate",
           "inv_legs": "minecraft:leather_leggings",
           "inv_feet": "minecraft:leather_boots"
@@ -214,8 +80,7 @@
         {
           "cmod": "inventory",
 
-          "inv_hand_main": "minecraft:stone_sword",
-          "inv_head": "minecraft:chainmail_helmet",
+          "inv_head": "minecraft:iron_helmet",
           "inv_chest": "minecraft:chainmail_chestplate",
           "inv_legs": "minecraft:chainmail_leggings",
           "inv_feet": "minecraft:chainmail_boots"
@@ -228,12 +93,78 @@
         {
           "cmod": "inventory",
 
-          "inv_hand_main": "minecraft:iron_sword",
-          "inv_hand_off": "minecraft:shield",
-          "inv_head": "minecraft:iron_helmet",
+          "inv_head": "iceandfire:armor_silver_metal_helmet",
           "inv_chest": "minecraft:iron_chestplate",
           "inv_legs": "minecraft:iron_leggings",
           "inv_feet": "minecraft:iron_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_iron_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_iron",
+          "inv_head": "iceandfire:armor_silver_metal_helmet",
+          "inv_chest": "minecraft:iron_chestplate",
+          "inv_legs": "minecraft:iron_leggings",
+          "inv_feet": "minecraft:iron_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_bronze",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_head": "atop:mud_helmet",
+          "inv_chest": "atop:mud_chestplate",
+          "inv_legs": "atop:mud_leggings",
+          "inv_feet": "atop:mud_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_bronze_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_bronze",
+          "inv_head": "atop:mud_helmet",
+          "inv_chest": "atop:mud_chestplate",
+          "inv_legs": "atop:mud_leggings",
+          "inv_feet": "atop:mud_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_silver",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_head": "minecraft:diamond_helmet",
+          "inv_chest": "iceandfire:armor_silver_metal_chestplate",
+          "inv_legs": "iceandfire:armor_silver_metal_leggings",
+          "inv_feet": "iceandfire:armor_silver_metal_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_silver_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_silver",
+          "inv_head": "minecraft:diamond_helmet",
+          "inv_chest": "iceandfire:armor_silver_metal_chestplate",
+          "inv_legs": "iceandfire:armor_silver_metal_leggings",
+          "inv_feet": "iceandfire:armor_silver_metal_boots"
         }
       ]
     },
@@ -243,9 +174,8 @@
         {
           "cmod": "inventory",
 
-          "inv_hand_main": "minecraft:diamond_sword",
-          "inv_hand_off": "minecraft:shield",
-          "inv_head": "minecraft:diamond_helmet",
+
+          "inv_head": "endreborn:armour_helmet_helmet",
           "inv_chest": "minecraft:diamond_chestplate",
           "inv_legs": "minecraft:diamond_leggings",
           "inv_feet": "minecraft:diamond_boots"
@@ -253,28 +183,100 @@
       ]
     },
     {
-      "name": "infernal_skeleton_1_bad",
-      "cmods": [
-        {
-          "cmod": "ai_infernal",
-          "modifiers": [
-            "Regen", "Claking", "Storm"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "inventory_chainmail_bad",
+      "name": "inventory_diamond_with_shield",
       "cmods": [
         {
           "cmod": "inventory",
 
-          "inv_hand_main": "minecraft:diamond_swod",
-          "inv_hand_off": "minecraft:shield",
-          "inv_head": "minecraft:diamond_helmet",
+          "inv_hand_off": "spartanshields:shield_basic_diamond",
+          "inv_head": "endreborn:armour_helmet_helmet",
           "inv_chest": "minecraft:diamond_chestplate",
           "inv_legs": "minecraft:diamond_leggings",
           "inv_feet": "minecraft:diamond_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_mythril",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+
+          "inv_head": "simpleores:onyx_helmet",
+          "inv_chest": "simpleores:mythril_chestplate",
+          "inv_legs": "simpleores:mythril_leggings",
+          "inv_feet": "simpleores:mythril_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_mythril_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_lead",
+          "inv_head": "simpleores:onyx_helmet",
+          "inv_chest": "simpleores:mythril_chestplate",
+          "inv_legs": "simpleores:mythril_leggings",
+          "inv_feet": "simpleores:mythril_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_viridium",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+
+          "inv_head": "simpleores:mythril_helmet",
+          "inv_chest": "simpleores:adamantium_chestplate",
+          "inv_legs": "simpleores:adamantium_leggings",
+          "inv_feet": "simpleores:adamantium_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_viridium_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_lead",
+          "inv_head": "simpleores:mythril_helmet",
+          "inv_chest": "simpleores:adamantium_chestplate",
+          "inv_legs": "simpleores:adamantium_leggings",
+          "inv_feet": "simpleores:adamantium_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_onyx",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+
+          "inv_head": "iceandfire:dragonsteel_fire_helmet",
+          "inv_chest": "simpleores:onyx_chestplate",
+          "inv_legs": "simpleores:onyx_leggings",
+          "inv_feet": "simpleores:onyx_boots"
+        }
+      ]
+    },
+    {
+      "name": "inventory_onyx_with_shield",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_off": "spartanshields:shield_basic_lead",
+          "inv_head": "iceandfire:dragonsteel_fire_helmet",
+          "inv_chest": "simpleores:onyx_chestplate",
+          "inv_legs": "simpleores:onyx_leggings",
+          "inv_feet": "simpleores:onyx_boots"
         }
       ]
     }
