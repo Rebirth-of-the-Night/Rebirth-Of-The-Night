@@ -152,6 +152,13 @@ for i, output in arrayBambooChime{
     ]);
 }
 
+recipes.remove(<betterwithmods:single_machine:2>);
+recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[
+    [<betterwithmods:siding_wood>,null,<betterwithmods:siding_wood>],
+    [<betterwithmods:material:0>,<ore:pressurePlateWood>,<betterwithmods:material:0>],
+    [null,<betterwithmods:corner_wood>,null]
+]);
+
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 mods.betterwithmods.Cauldron.remove([<minecraft:mushroom_stew>]);
