@@ -29,7 +29,7 @@ recipes.remove(<twilightforest:giant_sword>);
 
 val sharp_stick = <dungeontactics:sharp_stick>;
 val wood = <ore:plankWood>;
-val stick = <minecraft:stick>;
+val stick = <ore:stickWood>;
 
 recipes.remove(<dungeontactics:sharp_stick>);
 recipes.remove(<minecraft:wooden_sword>);

@@ -44,7 +44,3 @@
 
 <mod_lavacow:parasite_item_cooked>.foodValues.hunger = 1;
 <mod_lavacow:parasite_item_cooked>.foodValues.saturationModifier = 0.2;
-
-<mod_lavacow:shattered_ice>.displayName = "Ice Chunks";
-<mod_lavacow:shattered_ice>.foodValues.hunger = 0;
-<mod_lavacow:shattered_ice>.foodValues.saturationModifier = 0;
