@@ -123,6 +123,34 @@ mods.jei.JEI.removeAndHide(<betterwithmods:gravel_pile>);
 mods.jei.JEI.removeAndHide(<betterwithmods:sand_pile>);
 mods.jei.JEI.removeAndHide(<betterwithmods:red_sand_pile>);
 recipes.removeByRecipeName("betterwithmods:piles/dirt_slab_0");
+mods.jei.JEI.removeAndHide(<betterwithmods:infernal_enchanter>);
+mods.jei.JEI.removeAndHide(<betterwithmods:arcane_scroll>);
+mods.ltt.LootTable.removeGlobalItem("betterwithmods:arcane_scroll");
+recipes.removeByRecipeName("betterwithmods:blocks/redstone/comparator");
+recipes.remove(<betterwithmods:metal_chime:*>);
+recipes.remove(<betterwithmods:bamboo_chime:*>);
+
+val arrayMoulding = [<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}})] as IItemStack[];
+
+val arrayWindChime = [<betterwithmods:metal_chime:0>,<betterwithmods:metal_chime:1>,<betterwithmods:metal_chime:2>,<betterwithmods:metal_chime:3>,<betterwithmods:metal_chime:4>,<betterwithmods:metal_chime:5>] as IItemStack[];
+
+val arrayBambooChime = [<betterwithmods:bamboo_chime:0>,<betterwithmods:bamboo_chime:1>,<betterwithmods:bamboo_chime:2>,<betterwithmods:bamboo_chime:3>,<betterwithmods:bamboo_chime:4>,<betterwithmods:bamboo_chime:5>,] as IItemStack[];
+
+for i, output in arrayWindChime{
+    recipes.addShaped(output,[
+        [null,<minecraft:string>,null],
+        [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
+        [<minecraft:iron_ingot>,arrayMoulding[i],<minecraft:iron_ingot>]
+    ]);
+}
+
+for i, output in arrayBambooChime{
+    recipes.addShaped(output,[
+        [null,<minecraft:string>,null],
+        [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
+        [<ore:sugarcane>,arrayMoulding[i],<ore:sugarcane>]
+    ]);
+}
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 

@@ -67,6 +67,12 @@ recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
     [null,<ore:stickWood>,<minecraft:string>],
     [<ore:stickWood>,<minecraft:iron_nugget>|<contenttweaker:material_part:6>,<minecraft:string>]
 ]);
+recipes.remove(<minecraft:detector_rail>);
+recipes.addShaped("detector_rail",<minecraft:detector_rail>,[
+    [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>,<ore:pressurePlateWood>,<minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]
+]);
 
 mods.rockytweaks.Anvil.remove(<minecraft:wooden_sword>);
 
@@ -169,6 +175,9 @@ potions_lingering.maxStackSize = 8;
 
 
 //Ore Dictionary Entries
+val pressurePlateWood = <ore:pressurePlateWood>;
+pressurePlateWood.addItems([<aether_legacy:skyroot_pressure_plate>,<betternether:stalagnate_planks_plate>,<betternether:reeds_plate>,<twilightforest:twilight_oak_plate>,<twilightforest:canopy_plate>,<twilightforest:mangrove_plate>,<twilightforest:dark_plate>,<twilightforest:time_plate>,<twilightforest:trans_plate>,<twilightforest:mine_plate>,<twilightforest:sort_plate>]);
+
 val buttonWood = <ore:buttonWood>;
 buttonWood.addItems([<aether_legacy:skyroot_button>,<betternether:reeds_button>,<betternether:stalagnate_planks_button>]);
 
