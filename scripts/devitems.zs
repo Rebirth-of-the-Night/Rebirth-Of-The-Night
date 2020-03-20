@@ -16,8 +16,8 @@ for item in dyePink.items{
     mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
     [
         [null, null, <minecraft:diamond>, <arcanearchives:shaped_quartz>],
-        [null, <ore:ingotSilver>, item, <minecraft:diamond>],
-        [<minecraft:diamond>, item, <ore:ingotSilver>, null],
+        [null, <iceandfire:silver_ingot>, item, <minecraft:diamond>],
+        [<minecraft:diamond>, item, <iceandfire:silver_ingot>, null],
         [<minecraft:diamond>, <minecraft:diamond>, null, null ]
     ]);
 }

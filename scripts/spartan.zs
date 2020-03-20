@@ -77,17 +77,14 @@ recipes.remove(<spartanshields:shield_basic_diamond>);
 
 
 //Mythril
-val ingotMythril = <ore:ingotMythril>;
-
-for item in ingotMythril.items{
 mods.betterwithmods.Anvil.addShaped(<spartanshields:shield_basic_lead>, 
-    [
-        [<ore:ingotMythril>, <ore:ingotMythril>, null, null],
-        [<ore:ingotMythril>, <spartanshields:shield_basic_gold>, <ore:ingotMythril>, <ore:ingotMythril>],
-        [<ore:ingotMythril>, <spartanshields:shield_basic_gold>, <ore:ingotMythril>, <ore:ingotMythril>],
-        [<ore:ingotMythril>, <ore:ingotMythril>, null, null]
-    ]);
-}
+[
+    [<ore:ingotMythril>, <ore:ingotMythril>, null, null],
+    [<ore:ingotMythril>, <spartanshields:shield_basic_gold>, <ore:ingotMythril>, <ore:ingotMythril>],
+    [<ore:ingotMythril>, <spartanshields:shield_basic_gold>, <ore:ingotMythril>, <ore:ingotMythril>],
+    [<ore:ingotMythril>, <ore:ingotMythril>, null, null]
+]);
+
 
 mods.rockytweaks.Anvil.addRecipe(<spartanshields:shield_basic_lead>.anyDamage(), <simpleores:mythril_ingot>, <spartanshields:shield_basic_lead>, 1,
 function(out, ins, cInfo){

@@ -55,16 +55,13 @@ recipes.addShaped("Sliding trapdoor", <malisisdoors:sliding_trapdoor>,[
 ]);
 
 //Huge Doors
-val ingotSteel = <ore:ingotSteel>;
+mods.betterwithmods.Anvil.addShaped(<malisisdoors:garage_door>, [
+  [<minecraft:iron_ingot>, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>],
+  [<minecraft:iron_ingot>, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>],
+  [<minecraft:iron_ingot>, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>],
+  [<minecraft:iron_ingot>, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>]
+]);
 
-for item in ingotSteel.items{
-  mods.betterwithmods.Anvil.addShaped(<malisisdoors:garage_door>, [
-    [item, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>],
-    [item, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>],
-    [item, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>],
-    [item, <rustic:iron_lattice>,<rustic:iron_lattice>, <betterwithmods:material:34>]
-  ]);
-}
 
 recipes.remove(<malisisdoors:wood_sliding_door>);
 recipes.addShaped("wood_sliding_door",<malisisdoors:wood_sliding_door>,[
