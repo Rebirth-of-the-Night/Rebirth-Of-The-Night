@@ -59,6 +59,7 @@ recipes.removeByRecipeName("betternether:stalagnate_workbench");
 recipes.removeByRecipeName("minecraft:stone_brick_stairs");
 recipes.removeByRecipeName("minecraft:stone_brick_slab");
 recipes.removeByRecipeName("minecraft:repeater");
+recipes.removeByRecipeName("betternether:paper");
 
 recipes.remove(<minecraft:fish:0>);
 recipes.remove(<minecraft:fishing_rod>);
