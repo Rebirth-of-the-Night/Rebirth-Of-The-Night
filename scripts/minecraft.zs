@@ -444,13 +444,13 @@ recipes.addShaped("forgiving tool reforging station", <qualitytools:reforging_st
 ]);
 //Villager Trades
 //Example: Merchant.addTrade("minecraft:nitwit", "nitwit", <minecraft:emerald>, <minecraft:diamond>, <minecraft:cobblestone>, 1);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 2);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <minecraft:emerald>*12, <twilightforest:firefly>, 1);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <minecraft:emerald>*5, <betterwithaddons:shinai>, 1);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:4>, 2);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:3>, 2);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:2>, 2);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:1>, 2);
-Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie>, 2);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 2);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <minecraft:emerald>*12, <twilightforest:firefly>, 1);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <minecraft:emerald>*5, <betterwithaddons:shinai>, 1);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:4>, 2);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:3>, 2);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:2>, 2);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:1>, 2);
+//Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie>, 2);
 
 Merchant.addTrade("minecraft:nitwit", "nitwit", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 1);
