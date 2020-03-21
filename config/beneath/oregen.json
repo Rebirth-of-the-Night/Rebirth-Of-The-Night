@@ -64,10 +64,10 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 2,
+    "veins": 3,
     "size": 14,
     "miny": 10,
-    "maxy": 150
+    "maxy": 246
   },
   {
     "ore": "simpleores:mythril_ore",
