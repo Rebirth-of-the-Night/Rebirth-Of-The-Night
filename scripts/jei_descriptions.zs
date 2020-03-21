@@ -194,6 +194,9 @@ mods.jei.JEI.addDescription([<contenttweaker:blank_rune>],["Stone imbued with ma
 mods.jei.JEI.addItem(<contenttweaker:disint_rune>);
 mods.jei.JEI.addDescription([<contenttweaker:disint_rune>],["Craft with magical items to disintegrate them into Spectral Silt. Spectral Silt is used for creating more powerful magical items."]);
 
+mods.jei.JEI.addItem(<contenttweaker:spectral_shard>);
+mods.jei.JEI.addItem(<contenttweaker:magic_orb>);
+
 mods.jei.JEI.addItem(<contenttweaker:sol_rune>);
 mods.jei.JEI.addItem(<contenttweaker:luna_rune>);
 mods.jei.JEI.addItem(<contenttweaker:air_rune>);
@@ -215,6 +218,44 @@ mods.jei.JEI.addItem(<contenttweaker:poison_rune>);
 mods.jei.JEI.addItem(<contenttweaker:soul_rune>);
 mods.jei.JEI.addItem(<contenttweaker:strength_rune>);
 mods.jei.JEI.addItem(<contenttweaker:trans_rune>);
+mods.jei.JEI.addItem(<contenttweaker:holding_rune>);
+mods.jei.JEI.addItem(<contenttweaker:nether_rune>);
+mods.jei.JEI.addItem(<contenttweaker:plague_rune>);
+mods.jei.JEI.addItem(<contenttweaker:time_rune>);
+mods.jei.JEI.addItem(<contenttweaker:aether_rune>);
+mods.jei.JEI.addItem(<contenttweaker:arcane_rune>);
+mods.jei.JEI.addItem(<contenttweaker:draconic_rune>);
+mods.jei.JEI.addItem(<contenttweaker:fae_rune>);
+
+mods.jei.JEI.addItem(<contenttweaker:sol_orb>);
+mods.jei.JEI.addItem(<contenttweaker:luna_orb>);
+mods.jei.JEI.addItem(<contenttweaker:air_orb>);
+mods.jei.JEI.addItem(<contenttweaker:fire_orb>);
+mods.jei.JEI.addItem(<contenttweaker:earth_orb>);
+mods.jei.JEI.addItem(<contenttweaker:water_orb>);
+mods.jei.JEI.addItem(<contenttweaker:balance_orb>);
+mods.jei.JEI.addItem(<contenttweaker:chaos_orb>);
+mods.jei.JEI.addItem(<contenttweaker:creation_orb>);
+mods.jei.JEI.addItem(<contenttweaker:death_orb>);
+mods.jei.JEI.addItem(<contenttweaker:energy_orb>);
+mods.jei.JEI.addItem(<contenttweaker:illusion_orb>);
+mods.jei.JEI.addItem(<contenttweaker:knowledge_orb>);
+mods.jei.JEI.addItem(<contenttweaker:life_orb>);
+mods.jei.JEI.addItem(<contenttweaker:mind_orb>);
+mods.jei.JEI.addItem(<contenttweaker:nature_orb>);
+mods.jei.JEI.addItem(<contenttweaker:order_orb>);
+mods.jei.JEI.addItem(<contenttweaker:poison_orb>);
+mods.jei.JEI.addItem(<contenttweaker:soul_orb>);
+mods.jei.JEI.addItem(<contenttweaker:strength_orb>);
+mods.jei.JEI.addItem(<contenttweaker:trans_orb>);
+mods.jei.JEI.addItem(<contenttweaker:holding_orb>);
+mods.jei.JEI.addItem(<contenttweaker:nether_orb>);
+mods.jei.JEI.addItem(<contenttweaker:plague_orb>);
+mods.jei.JEI.addItem(<contenttweaker:time_orb>);
+mods.jei.JEI.addItem(<contenttweaker:aether_orb>);
+mods.jei.JEI.addItem(<contenttweaker:arcane_orb>);
+mods.jei.JEI.addItem(<contenttweaker:draconic_orb>);
+mods.jei.JEI.addItem(<contenttweaker:fae_orb>);
 
 # Pyrotech
 mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
