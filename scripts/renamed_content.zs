@@ -117,8 +117,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Minecraft Future
 <minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
 
-// Malisis doors
-<malisisdoors:garage_door>.displayName = "Redstone Gate";
 
 // Macaws Bridges
 <mcwbridges:iron_armrest>.displayName = "Tin Armrest";
