@@ -3,89 +3,78 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 recipes.removeByMod("pyrotech");
-mods.jei.JEI.removeAndHide(<pyrotech:crude_hammer>);
-mods.jei.JEI.removeAndHide(<pyrotech:bone_hammer>);
-mods.jei.JEI.removeAndHide(<pyrotech:flint_hammer>);
-mods.jei.JEI.removeAndHide(<pyrotech:gold_hammer>);
-mods.jei.JEI.removeAndHide(<pyrotech:obsidian_hammer>);
-mods.jei.JEI.removeAndHide(<pyrotech:bag_durable>);
-mods.jei.JEI.removeAndHide(<pyrotech:drying_rack>);
-mods.jei.JEI.removeAndHide(<pyrotech:mechanical_hopper>);
-mods.jei.JEI.removeAndHide(<pyrotech:mechanical_bellows>);
-mods.jei.JEI.removeAndHide(<pyrotech:mechanical_compacting_bin>);
-mods.jei.JEI.removeAndHide(<pyrotech:mechanical_mulch_spreader>);
-mods.jei.JEI.removeAndHide(<pyrotech:bellows>);
-mods.jei.JEI.removeAndHide(<pyrotech:material:*>);
-mods.jei.JEI.removeAndHide(<pyrotech:rock:*>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_flint>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_bone>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_iron>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_gold>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_diamond>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_obsidian>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_wood>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:wood_tar_block>);
-mods.jei.JEI.removeAndHide(<pyrotech:living_tar>);
-mods.jei.JEI.removeAndHide(<pyrotech:mushroom_brown_roasted>);
-mods.jei.JEI.removeAndHide(<pyrotech:mushroom_red_roasted>);
-mods.jei.JEI.removeAndHide(<pyrotech:apple_baked>);
-mods.jei.JEI.removeAndHide(<pyrotech:burned_food>);
-mods.jei.JEI.removeAndHide(<pyrotech:iron_hammer>);
-mods.jei.JEI.removeAndHide(<pyrotech:diamond_hammer>);
-mods.jei.JEI.removeAndHide(<pyrotech:shelf_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:crate>);
-mods.jei.JEI.removeAndHide(<pyrotech:crate_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:chopping_block>);
-mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
-mods.jei.JEI.removeAndHide(<pyrotech:tinder>);
-mods.jei.JEI.removeAndHide(<pyrotech:campfire>);
-mods.jei.JEI.removeAndHide(<pyrotech:kiln_pit>);
-mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay_unfired>);
-mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay>);
-mods.jei.JEI.removeAndHide(<pyrotech:stash_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:wood_rack>);
-mods.jei.JEI.removeAndHide(<pyrotech:drying_rack:1>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_obsidian>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_diamond>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_gold>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_iron>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_bone>);
-mods.jei.JEI.removeAndHide(<pyrotech:cog_flint>);
-mods.jei.JEI.removeAndHide(<pyrotech:thatch>);
-mods.jei.JEI.removeAndHide(<pyrotech:refractory_glass>);
-mods.jei.JEI.removeAndHide(<pyrotech:slag_glass>);
-mods.jei.JEI.removeAndHide(<pyrotech:limestone>);
-mods.jei.JEI.removeAndHide(<pyrotech:planks_tarred>);
-mods.jei.JEI.removeAndHide(<pyrotech:pile_wood_chips>);
-mods.jei.JEI.removeAndHide(<pyrotech:wool_tarred>);
-mods.jei.JEI.removeAndHide(<pyrotech:charcoal_block>);
-mods.jei.JEI.removeAndHide(<pyrotech:coal_coke_block>);
-mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:beetroot_roasted>);
-mods.jei.JEI.removeAndHide(<pyrotech:egg_roasted>);
-mods.jei.JEI.removeAndHide(<pyrotech:carrot_roasted>);
-mods.jei.JEI.removeAndHide(<pyrotech:pile_ash>);
-mods.jei.JEI.removeAndHide(<pyrotech:cobblestone:*>);
-mods.jei.JEI.removeAndHide(<pyrotech:rock_grass>);
-mods.jei.JEI.removeAndHide(<pyrotech:stone_crucible>);
-mods.jei.JEI.removeAndHide(<pyrotech:stone_sawmill>);
-mods.jei.JEI.removeAndHide(<pyrotech:stone_oven>);
-mods.jei.JEI.removeAndHide(<pyrotech:brick_crucible>);
-mods.jei.JEI.removeAndHide(<pyrotech:brick_sawmill>);
-mods.jei.JEI.removeAndHide(<pyrotech:soaking_pot>);
-mods.jei.JEI.removeAndHide(<pyrotech:compacting_bin>);
-mods.jei.JEI.removeAndHide(<pyrotech:brick_oven>);
-mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
-mods.jei.JEI.hideCategory("pyrotech.crude.drying");
-mods.jei.JEI.hideCategory("pyrotech.drying");
-mods.jei.JEI.hideCategory("pyrotech.chopping");
-mods.jei.JEI.hideCategory("pyrotech.compacting.bin");
+recipes.remove(<pyrotech:stone_hammer>);
+recipes.remove(<pyrotech:crude_hammer>);
+recipes.remove(<pyrotech:bone_hammer>);
+recipes.remove(<pyrotech:flint_hammer>);
+recipes.remove(<pyrotech:gold_hammer>);
+recipes.remove(<pyrotech:obsidian_hammer>);
+recipes.remove(<pyrotech:bag_durable>);
+recipes.remove(<pyrotech:drying_rack>);
+recipes.remove(<pyrotech:mechanical_hopper>);
+recipes.remove(<pyrotech:mechanical_bellows>);
+recipes.remove(<pyrotech:mechanical_compacting_bin>);
+recipes.remove(<pyrotech:mechanical_mulch_spreader>);
+recipes.remove(<pyrotech:bellows>);
+recipes.remove(<pyrotech:rock:*>);
+recipes.remove(<pyrotech:sawmill_blade_stone>);
+recipes.remove(<pyrotech:sawmill_blade_flint>);
+recipes.remove(<pyrotech:sawmill_blade_bone>);
+recipes.remove(<pyrotech:sawmill_blade_iron>);
+recipes.remove(<pyrotech:sawmill_blade_gold>);
+recipes.remove(<pyrotech:sawmill_blade_diamond>);
+recipes.remove(<pyrotech:sawmill_blade_obsidian>);
+recipes.remove(<pyrotech:cog_wood>);
+recipes.remove(<pyrotech:cog_stone>);
+recipes.remove(<pyrotech:wood_tar_block>);
+recipes.remove(<pyrotech:living_tar>);
+recipes.remove(<pyrotech:mushroom_brown_roasted>);
+recipes.remove(<pyrotech:mushroom_red_roasted>);
+recipes.remove(<pyrotech:apple_baked>);
+recipes.remove(<pyrotech:burned_food>);
+recipes.remove(<pyrotech:iron_hammer>);
+recipes.remove(<pyrotech:diamond_hammer>);
+recipes.remove(<pyrotech:shelf_stone>);
+recipes.remove(<pyrotech:crate>);
+recipes.remove(<pyrotech:crate_stone>);
+recipes.remove(<pyrotech:chopping_block>);
+recipes.remove(<pyrotech:worktable>);
+recipes.remove(<pyrotech:tinder>);
+recipes.remove(<pyrotech:campfire>);
+recipes.remove(<pyrotech:kiln_pit>);
+recipes.remove(<pyrotech:bucket_clay_unfired>);
+recipes.remove(<pyrotech:bucket_clay>);
+recipes.remove(<pyrotech:stash_stone>);
+recipes.remove(<pyrotech:wood_rack>);
+recipes.remove(<pyrotech:cog_obsidian>);
+recipes.remove(<pyrotech:cog_diamond>);
+recipes.remove(<pyrotech:cog_gold>);
+recipes.remove(<pyrotech:cog_iron>);
+recipes.remove(<pyrotech:cog_bone>);
+recipes.remove(<pyrotech:cog_flint>);
+recipes.remove(<pyrotech:thatch>);
+recipes.remove(<pyrotech:refractory_glass>);
+recipes.remove(<pyrotech:slag_glass>);
+recipes.remove(<pyrotech:limestone>);
+recipes.remove(<pyrotech:planks_tarred>);
+recipes.remove(<pyrotech:wool_tarred>);
+recipes.remove(<pyrotech:charcoal_block>);
+recipes.remove(<pyrotech:coal_coke_block>);
+recipes.remove(<pyrotech:worktable_stone>);
+recipes.remove(<pyrotech:beetroot_roasted>);
+recipes.remove(<pyrotech:egg_roasted>);
+recipes.remove(<pyrotech:carrot_roasted>);
+recipes.remove(<pyrotech:pile_ash>);
+recipes.remove(<pyrotech:cobblestone:*>);
+recipes.remove(<pyrotech:rock_grass>);
+recipes.remove(<pyrotech:stone_crucible>);
+recipes.remove(<pyrotech:stone_sawmill>);
+recipes.remove(<pyrotech:brick_crucible>);
+recipes.remove(<pyrotech:brick_sawmill>);
+recipes.remove(<pyrotech:compacting_bin>);
+recipes.remove(<pyrotech:brick_oven>);
 mods.jei.JEI.hideCategory("pyrotech.campfire");
 mods.jei.JEI.hideCategory("pyrotech.worktable");
-mods.jei.JEI.hideCategory("pyrotech.soaking.pot");
-mods.jei.JEI.hideCategory("pyrotech.stone.mill");
 mods.jei.JEI.hideCategory("pyrotech.stone.oven");
 mods.jei.JEI.hideCategory("pyrotech.stone.crucible");
 mods.jei.JEI.hideCategory("pyrotech.brick.mill");
@@ -103,12 +92,19 @@ furnace.remove(<pyrotech:cobblestone:2>);
 furnace.remove(<pyrotech:cobblestone:1>);
 furnace.remove(<pyrotech:cobblestone:0>);
 furnace.remove(<pyrotech:beetroot_roasted>);
+furnace.remove(<pyrotech:material:15>);
 
 //Simplified recipes
 val stone = <ore:stone>;
 val stoneBrick = <pyrotech:material:16>;
 val clayBrick = <ore:ingotBrick>;
+val dry = <pyrotech:material:13>;
+val twine = <pyrotech:material:14>;
 
+recipes.addShaped("dryToTwine", twine*3,
+[[dry,dry,dry]]);
+recipes.addShaped("twineToString", <minecraft:string>*3,
+[[twine,twine,twine]]);
 recipes.addShaped("pyro stone brick", stoneBrick*2,
 [[<ore:stone>],
 [<ore:stone>]]);
@@ -117,9 +113,13 @@ recipes.addShaped("pyro stone kiln", <pyrotech:stone_kiln>,
   [stoneBrick,<minecraft:furnace>,stoneBrick],
   [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
 recipes.addShaped("pyro stone anvil", <pyrotech:anvil_granite>,
- [[null,<ore:stoneSlab>,null],
-  [null,<ore:stone>,null]]);
+ [[<ore:stoneSlab>],
+  [<ore:stone>]]);
 <pyrotech:anvil_granite>.displayName = "Multipurpose Stone Anvil";
+recipes.addShaped("pyro steel anvil", <pyrotech:anvil_iron_plated>,
+ [[<ore:plateSoulforgedSteel>],
+  [<pyrotech:anvil_granite>]]);
+<pyrotech:anvil_iron_plated>.displayName = "Refined Plating Anvil";
 recipes.addShaped("pyro brick kiln", <pyrotech:brick_kiln>,
  [[clayBrick,clayBrick,clayBrick],
   [clayBrick,<minecraft:furnace>,clayBrick],
@@ -128,8 +128,20 @@ recipes.addShaped("pyro log pile", <pyrotech:log_pile>,
  [[<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
+recipes.addShaped("compacting_bin", <pyrotech:compacting_bin>,
+ [[null,<minecraftfuture:composter>,null],
+  [<ore:stoneSlab>,<minecraftfuture:composter>,<ore:stoneSlab>],
+  [<ore:stoneSlab>,<ore:slabWood>,<ore:stoneSlab>]]);
+recipes.addShaped("potash_mulch1", <pyrotech:mulch>*4,
+ [[<pyrotech:rock:7>,<biomesoplenty:ash>,<pyrotech:rock:7>],
+  [<biomesoplenty:ash>,<ore:mulchNitrogen>,<biomesoplenty:ash>],
+  [<pyrotech:rock:7>,<biomesoplenty:ash>,<pyrotech:rock:7>]]);
+recipes.addShaped("potash_mulch2", <pyrotech:mulch>*12,
+ [[<ore:dustPotash>,<ore:dustPotash>,<ore:dustPotash>],
+  [<ore:dustPotash>,<ore:mulchNitrogen>,<ore:dustPotash>],
+  [<ore:dustPotash>,<ore:dustPotash>,<ore:dustPotash>]]);  
 recipes.addShaped("pyro wooden bucket", <pyrotech:bucket_wood>,
- [[<ore:plankWood>,null,<ore:plankWood>],
+ [[<ore:plankWood>,<ore:twine>,<ore:plankWood>],
   [null,<ore:logWood>,null]]);
 recipes.addShaped("pyro stone door", <pyrotech:stone_door>,
  [[<pyrotech:material:16>,<pyrotech:material:16>],
@@ -158,9 +170,60 @@ recipes.addShaped("pyro clay bucket", <pyrotech:bucket_clay_unfired>,
  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
   [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
-recipes.addShapeless("pyro flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<minecraft:flint>]);
+recipes.addShapeless("pyro flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<pyrotech:material:13>,<minecraft:flint>]);
 furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
-recipes.addShaped(<minecraft:stonebrick:2>, 
+recipes.addShaped("masonry_stoneBricks", <minecraft:stonebrick:2>, 
 [[<pyrotech:material:16>, <pyrotech:material:16>],
 [<pyrotech:material:16>, <pyrotech:material:16>]]);
-
+recipes.addShaped("drying_rack", <pyrotech:drying_rack:1>,
+ [[<ore:stickWood>,twine,<ore:stickWood>],
+  [twine,<minecraft:ladder>,twine],
+  [<ore:stickWood>,twine,<ore:stickWood>]]);
+recipes.remove(<pyrotech:soaking_pot>);
+recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
+ [[stoneBrick,null,stoneBrick],
+  [twine,stoneBrick,twine],
+  [<ore:plankWood>,twine,<ore:plankWood>]]);
+recipes.addShaped("pyro_chopping_block", <pyrotech:chopping_block>,
+ [[<ore:toolAxe>],
+  [<ore:logWood>]]);  
+recipes.addShaped("pyro_stone_sawmill", <pyrotech:stone_sawmill>,
+ [[stoneBrick,stoneBrick,stoneBrick],
+  [stoneBrick,<pyrotech:chopping_block>,stoneBrick],
+  [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
+recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
+ [[null,null,<ore:stickWood>],
+  [null,<ore:stickWood>,twine],
+  [<ore:stickWood>,null,twine]]);
+recipes.addShaped("quilting_sail", <betterwithmods:material:4>,
+ [[<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>],
+  [<minecraft:carpet:*>,<pyrotech:material:26>,<minecraft:carpet:*>],
+  [<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>]]);
+recipes.addShaped("iron_sawblade", <pyrotech:sawmill_blade_iron>,
+ [[<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>],
+  [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>],
+  [<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>]]);
+recipes.addShaped("tar_collector", <pyrotech:tar_collector>,
+ [[stoneBrick,null,stoneBrick],
+  [stoneBrick,null,stoneBrick],
+  [stoneBrick,stoneBrick,stoneBrick]]);
+recipes.addShaped("tar_drain", <pyrotech:tar_drain>,
+ [[stoneBrick,stoneBrick,stoneBrick],
+  [null, null, null],
+  [stoneBrick,stoneBrick,stoneBrick]]);
+  
+//hammers
+recipes.addShaped("stone_sledgehammer", <pyrotech:stone_hammer>,
+ [[<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
+  [<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
+  [null,<ore:stickWood>,null]]);
+recipes.addShaped("iron_sledgehammer", <pyrotech:iron_hammer>,
+ [[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
+  [<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
+  [null,<ore:stickWood>,null]]);  
+recipes.addShaped("SFS_sledgehammer", <pyrotech:diamond_hammer>,
+ [[<ore:ingotSoulforgedSteel>,<ore:stickWood>,<ore:ingotSoulforgedSteel>],
+  [<ore:ingotSoulforgedSteel>,<ore:stickWood>,<ore:ingotSoulforgedSteel>],
+  [null,<ore:stickWood>,null]]);
+recipes.addShaped("onyx_sledgehammer", <pyrotech:obsidian_hammer>,
+ [[<simpleores:onyx_rod>,<pyrotech:diamond_hammer>,<simpleores:onyx_rod>]]);

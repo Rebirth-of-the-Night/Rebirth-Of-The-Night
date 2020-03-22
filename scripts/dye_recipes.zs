@@ -61,7 +61,7 @@ recipes.addShapeless("standard dye 40",<biomesoplenty:black_dye>,[<ore:toolMorta
 
 recipes.addShapeless("plant partition 1",<harvestcraft:flaxitem>*4,[<biomesoplenty:double_plant:0>]);
 
-recipes.addShapeless("plant fiber 1",<betterwithmods:material:3>*4,[<ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>]);
+recipes.addShapeless("plant fiber 1",<betterwithmods:material:3>*4,[<ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>,<ore:cropFlax>, <ore:cropFlax>]);
 recipes.addShapeless("plant fiber 2",<betterwithmods:material:3>*4,[<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 
 //Mill recipes

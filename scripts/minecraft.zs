@@ -62,6 +62,9 @@ recipes.removeByRecipeName("minecraft:repeater");
 recipes.removeByRecipeName("betternether:paper");
 
 recipes.remove(<minecraft:fish:0>);
+
+recipes.remove(<endreborn:tool_hammer_iron>);
+
 recipes.remove(<minecraft:fishing_rod>);
 recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
     [null,null,<ore:stickWood>],
@@ -74,6 +77,7 @@ recipes.addShaped("detector_rail",<minecraft:detector_rail>,[
     [<minecraft:iron_ingot>,<ore:pressurePlateWood>,<minecraft:iron_ingot>],
     [<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]
 ]);
+
 
 mods.rockytweaks.Anvil.remove(<minecraft:wooden_sword>);
 
@@ -200,6 +204,13 @@ anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvi
 val vine = <ore:vine>;
 vine.addItems([<biomesoplenty:willow_vine>,<biomesoplenty:ivy>]);
 
+val twine = <ore:twine>;
+twine.add(<betterwithmods:material:3>);
+
+val durableFiber = <ore:durableFiber>;
+durableFiber.addAll(<ore:fiberHemp>);
+durableFiber.add(<pyrotech:material:26>);
+
 val fang = <ore:fang>;
 fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_serpent_fang>,<netherex:coolmar_spider_fang>]);
 
@@ -284,7 +295,8 @@ val egg = <ore:listAllegg>;
 egg.add(<betterwithmods:raw_egg>);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<betterwithmods:wolf_chop>,<betterwithmods:bat_wing>]);
+
+rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betterwithmods:wolf_chop>]);
 rawMeat.addAll(<ore:rawBeef>);
 rawMeat.addAll(<ore:rawChicken>);
 rawMeat.addAll(<ore:rawMutton>);
@@ -293,13 +305,22 @@ rawMeat.addAll(<ore:rawFish>);
 rawMeat.addAll(<ore:rawVenison>);
 
 val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.addItems([<betterwithmods:cooked_wolf_chop>,<betterwithmods:cooked_bat_wing>]);
+cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:meatball>,<betterwithmods:cooked_wolf_chop>]);
 cookedMeat.addAll(<ore:cookedBeef>);
 cookedMeat.addAll(<ore:cookedChicken>);
 cookedMeat.addAll(<ore:cookedMutton>);
 cookedMeat.addAll(<ore:cookedFrog>);
 cookedMeat.addAll(<ore:cookedFish>);
 cookedMeat.addAll(<ore:cookedVenison>);
+
+val nitrogen = <ore:mulchNitrogen>;
+nitrogen.addAll(<ore:listAllmeat>);
+nitrogen.addAll(<ore:listAllbeefraw>);
+nitrogen.addAll(<ore:listAllmeatraw>);
+
+
+val anyAsh = <ore:dustAsh>;
+anyAsh.add(<biomesoplenty:ash>);
 
 val componentWheel = <ore:componentWheel>;
 componentWheel.addItems([<animania:wheel>,<betterwithmods:material>,<betterwithmods:material:48>]);

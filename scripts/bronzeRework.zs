@@ -134,7 +134,7 @@ recipes.addShapeless("block to bronze", bronze.firstItem*9,
   
 recipes.addShaped("bronze plate", plate*24,
  [[bronze,bronze,bronze],
-  [bronze,null,bronze],
+  [bronze,<minetraps:nails>,bronze],
   [bronze,bronze,bronze]]);
   
   //PARTS

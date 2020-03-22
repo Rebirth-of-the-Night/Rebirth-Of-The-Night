@@ -159,3 +159,11 @@ recipes.addShapeless("mossy_stone_bricks",<minecraft:stonebrick:1>, [<minecraft:
 recipes.addShapeless("mossy_towerwood",<twilightforest:tower_wood:3>, [<twilightforest:tower_wood:0>, <ore:vine>]);
 recipes.addShapeless("mossy_castle_brick",<twilightforest:castle_brick:4>, [<twilightforest:castle_brick:0>, <ore:vine>]);
 recipes.addShapeless("mossy_etched_nagastone",<twilightforest:etched_nagastone_mossy>, [<twilightforest:etched_nagastone>, <ore:vine>]);
+
+//Pyrotech compat <ore:fiber>
+val fiber = <ore:fiber>;
+recipes.addShapeless("iDidItImFiberNow", <betterwithmods:material:3>, [<pyrotech:material:26>]);
+recipes.addShaped("quarkrope_hempfibers", <quark:rope> * 6, [
+[fiber, fiber, fiber],
+[fiber, null, fiber],
+[fiber, fiber, fiber]]);

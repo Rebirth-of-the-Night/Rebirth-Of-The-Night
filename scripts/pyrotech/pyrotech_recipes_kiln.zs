@@ -8,6 +8,7 @@ BrickKiln.removeAllRecipes();
 StoneKiln.removeAllRecipes();
 furnace.remove(<minecraft:brick>, <minecraft:clay_ball>);
 furnace.remove(<minecraft:netherbrick>, <betterwithmods:material:35>);
+furnace.remove(<pyrotech:material:15>);
 
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
@@ -28,6 +29,7 @@ StoneKiln.addRecipe("bwmcobble_to_stone3",<minecraft:stone:5>, <betterwithmods:c
 StoneKiln.addRecipe("charge_to_blazepowder",<minecraft:blaze_powder>, <minecraft:fire_charge>, 600, true);
 StoneKiln.addRecipe("bwmmudbrick_efficient",<biomesoplenty:mud_brick>, <ore:ballMud>, 180, true);
 StoneKiln.addRecipe("charcoal_pile",<contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 2400, true);
+StoneKiln.addRecipe("charcoal_flakes",<pyrotech:material:15>, <pyrotech:rock:7>, 1200, 0.25, [<biomesoplenty:ash>*2], true);
 StoneKiln.addRecipe("bwmflint_block",<betterwithmods:aesthetic:5>, <ore:gravel>, 1200, true);
 //food recipes
 StoneKiln.addRecipe("bwmcake",<minecraft:cake>, <betterwithmods:raw_pastry>, 200, true);
@@ -36,6 +38,10 @@ StoneKiln.addRecipe("bwmcookie",<minecraft:cookie>*8, <betterwithmods:raw_pastry
 StoneKiln.addRecipe("bwmbread",<minecraft:bread>, <betterwithmods:raw_pastry:3>,200, true);
 //StoneKiln.addRecipe("bwmapplepie",<betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
 StoneKiln.addRecipe("raw_salt_from_sandstone",<contenttweaker:halite>, <ore:sandstone>,2400, true);
+//Misc
+StoneKiln.addRecipe("kiln_rimeOre",<netherex:rime_crystal>, <netherex:rime_ore>,5000, true);
+
+
 //Unified kiln recipes
 
 /*
@@ -50,7 +56,7 @@ for mat in stringMat {
 }
 
 //gem
-var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "Rime", "EnderBiotite", "Onyx"];
+var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "EnderBiotite", "Onyx"];
 for mat1 in stringMat1 {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["gem"~mat1], oreDict["ore"~mat1]);
     StoneKiln.addRecipe("stonekiln"~mat1, oreDict["gem"~mat1].firstItem, oreDict["ore"~mat1], 5000, true);
