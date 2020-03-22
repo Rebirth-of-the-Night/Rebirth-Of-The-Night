@@ -24,7 +24,7 @@ import crafttweaker.game.IGame;
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 
 // End Reborn III
-<endreborn:tool_hammer_iron>.displayName = "Iron Sledgehammer";
+<endreborn:tool_hammer_iron>.displayName = "Ancient Sledgehammer";
 
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
@@ -167,6 +167,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
+<pyrotech:diamond_hammer>.displayName = "Refined Sledgehammer";
+<pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
 
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";

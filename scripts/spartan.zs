@@ -216,6 +216,6 @@ recipes.remove(<betterwithmods:shaft>);
 recipes.addShapeless("stickShaft", <betterwithmods:shaft>,[<ore:stickWood>]);
 
 //True Night edge
-recipes.addHiddenShapeless("trueNightsEdge", <spartanweaponry:throwing_knife_electrum>.withTag({display: {Name: "§o§6True Night's Edge"}, AttributeModifiers: [{UUIDMost: 52977, UUIDLeast: 170749, Amount: 4, Slot: "mainhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}, {UUIDMost: 27219, UUIDLeast: 165766, Amount: 4, Slot: "offhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}]}),
+recipes.addHiddenShapeless("trueNightsEdge", <spartanweaponry:throwing_knife_electrum>.withTag({display: {Name: "o6True Night's Edge"}, AttributeModifiers: [{UUIDMost: 52977, UUIDLeast: 170749, Amount: 4, Slot: "mainhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}, {UUIDMost: 27219, UUIDLeast: 165766, Amount: 4, Slot: "offhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}]}),
     [<simpleores:onyx_gem>, <simpleores:onyx_gem>]
 );

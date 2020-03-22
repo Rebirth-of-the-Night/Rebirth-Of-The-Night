@@ -38,9 +38,17 @@ recipes.removeByRecipeName("quark:stone_axe");
 recipes.removeByRecipeName("quark:stone_hoe");
 recipes.removeByRecipeName("quark:iron_button");
 recipes.removeByRecipeName("quark:gold_button");
+recipes.removeByRecipeName("quark:iron_plate_1");
 
 recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);
+recipes.remove(<quark:iron_plate>);
+
+//Immersive plating
+recipes.addShaped("iron plate", <quark:iron_plate>*24,
+ [[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
+  [<ore:ingotIron>,<minetraps:nails>,<ore:ingotIron>],
+  [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
 
 recipes.addShaped("Quark Backpack", <quark:backpack>,[
 	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>],

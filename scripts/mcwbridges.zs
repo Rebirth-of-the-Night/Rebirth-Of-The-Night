@@ -14,13 +14,6 @@ recipes.addShaped("Tin bridge armrest", <mcwbridges:iron_armrest>*6,[
 ]);
 recipes.addShaped("Tin bridge platform", <mcwbridges:iron_platform>*2,[
 	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
-	
-]);
-//QoL recipes
-recipes.addShaped("quarkRope_hempFibers", <quark:rope>*6,[
-	[<betterwithmods:material:3>, <betterwithmods:material:3>, <betterwithmods:material:3>],
-	[<betterwithmods:material:3>, null, <betterwithmods:material:3>],
-	[<betterwithmods:material:3>, <betterwithmods:material:3>, <betterwithmods:material:3>]
 ]);
 
 //rope bridges

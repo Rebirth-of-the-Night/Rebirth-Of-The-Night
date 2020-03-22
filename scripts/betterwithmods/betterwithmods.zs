@@ -3,57 +3,6 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import crafttweaker.item.IItemTransformer;
 
-//Bark fixes
-//Also add axes to oredict in minecraft.zs
-//Birch and Alicio give 8 (immeeeersion)
-recipes.remove(<betterwithmods:bark:0>);
-recipes.remove(<betterwithmods:bark:1>);
-recipes.remove(<betterwithmods:bark:2>);
-recipes.remove(<betterwithmods:bark:3>);
-recipes.remove(<betterwithmods:bark:4>);
-recipes.remove(<betterwithmods:bark:5>);
-recipes.remove(<betterwithmods:bark:6>);
-recipes.addShapeless("axe_blookwood_bark",<betterwithmods:bark:6>*4,[<ore:toolAxe>.transformDamage(),<betterwithmods:blood_log>]);
-recipes.addShapeless("axe_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log:0>]);
-recipes.addShapeless("axe_spruce_bark",<betterwithmods:bark:1>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log:1>]);
-recipes.addShapeless("axe_birch_bark",<betterwithmods:bark:2>*8,[<ore:toolAxe>.transformDamage(),<minecraft:log:2>]);
-recipes.addShapeless("axe_jungle_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log:3>]);
-recipes.addShapeless("axe_acacia_bark",<betterwithmods:bark:4>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log2:0>]);
-recipes.addShapeless("axe_dark_oak_bark",<betterwithmods:bark:5>*4,[<ore:toolAxe>.transformDamage(),<minecraft:log2:1>]);
-recipes.addShapeless("axe_sacred_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:4>]);
-recipes.addShapeless("axe_cherry_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:5>]);
-recipes.addShapeless("axe_umbran_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:6>]);
-recipes.addShapeless("axe_fir_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_0:7>]);
-recipes.addShapeless("axe_ethereal_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:4>]);
-recipes.addShapeless("axe_magic_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:5>]);
-recipes.addShapeless("axe_mangrove_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:6>]);
-recipes.addShapeless("axe_palm_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_1:7>]);
-recipes.addShapeless("axe_redwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:4>]);
-recipes.addShapeless("axe_willow_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:5>]);
-recipes.addShapeless("axe_pine_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:6>]);
-recipes.addShapeless("axe_hellbark_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_2:7>]);
-recipes.addShapeless("axe_jacaranda_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:4>]);
-recipes.addShapeless("axe_mahogany_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:5>]);
-recipes.addShapeless("axe_ebony_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:6>]);
-recipes.addShapeless("axe_eucalyptus_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<biomesoplenty:log_3:7>]);
-recipes.addShapeless("axe_olive_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<rustic:log:0>]);
-recipes.addShapeless("axe_ironwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<rustic:log:1>]);
-recipes.addShapeless("axe_wyrmwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<stygian:endlog>]);
-recipes.addShapeless("axe_maple_bark",<betterwithmods:bark:1>*4,[<ore:toolAxe>.transformDamage(),<harvestcraft:pammaple>]);
-recipes.addShapeless("axe_paperbark_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.transformDamage(),<harvestcraft:pampaperbark>]);
-recipes.addShapeless("axe_cinnamon_bark",<betterwithmods:bark:3>*4,[<ore:toolAxe>.transformDamage(),<harvestcraft:pamcinnamon>]);
-recipes.addShapeless("axe_twilight_oak_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:0>]);
-recipes.addShapeless("axe_canopy_tree_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:1>]);
-recipes.addShapeless("axe_twilight_mangrove_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:2>]);
-recipes.addShapeless("axe_darkwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:twilight_log:3>]);
-recipes.addShapeless("axe_timewood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:0>]);
-recipes.addShapeless("axe_transwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:1>]);
-recipes.addShapeless("axe_minewood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:2>]);
-recipes.addShapeless("axe_sortingwood_bark",<betterwithmods:bark:0>*4,[<ore:toolAxe>.transformDamage(),<twilightforest:magic_log:3>]);
-
-mods.betterwithmods.Saw.remove(<twilightforest:twilight_log:3>);
-mods.betterwithmods.Saw.add(<twilightforest:twilight_log:3>,[<twilightforest:dark_planks>*4,<betterwithmods:bark:0>,<betterwithmods:material:22>*2]);
-
 //Fix trapdoor recipes
 val skyplank = <aether_legacy:skyroot_plank>;
 recipes.remove(<aether_legacy:skyroot_trapdoor>);
@@ -73,6 +22,10 @@ recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
+
+recipes.addShaped("twine_durable_cloth", <aether_legacy:skyroot_trapdoor>*6,
+    [[<pyrotech:material:26>,<pyrotech:material:26>,<pyrotech:material:26>],
+    [<ore:wool>,<ore:wool>,<ore:wool>]]);
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
@@ -130,7 +83,14 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:50>]); # soal
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
 
+#Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
+mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
+mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); # chips to potash
+mods.betterwithmods.FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); #sawdust from soul dust
+mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);
+mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>*1,[<betterwithmods:material:38>*1],[<betterwithaddons:congealed>*5]);
 
+mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_boots>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);

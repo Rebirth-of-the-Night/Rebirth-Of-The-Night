@@ -36,21 +36,21 @@ recipes.addShaped("Air Balloon 3", <davincisvessels:balloon>,[
 
 //Using Fiber
 
-var fiber = <betterwithmods:material:3>;
+var fiber = <ore:fiber>;
 
-recipes.addShaped("Air Balloon Fiber 1", <davincisvessels:balloon>,[
+recipes.addShaped("Air Balloon Fiber 1", <davincisvessels:balloon>*2,[
 	[fiber, wool, fiber],
-    [wool, cloud, wool],
+    [wool, bluff, wool],
     [fiber, wool, fiber]
 ]);
 
-recipes.addShaped("Air Balloon Fiber 2", <davincisvessels:balloon>*10,[
+recipes.addShaped("Air Balloon Fiber 2", <davincisvessels:balloon>*15,[
 	[fiber, wool, fiber],
     [wool, balloon, wool],
     [fiber, wool, fiber]
 ]);
 
-recipes.addShaped("Air Balloon Fiber 3", <davincisvessels:balloon>,[
+recipes.addShaped("Air Balloon Fiber 3", <davincisvessels:balloon>*2,[
 	[fiber, wool, fiber],
     [wool, cloud, wool],
     [fiber, wool, fiber]

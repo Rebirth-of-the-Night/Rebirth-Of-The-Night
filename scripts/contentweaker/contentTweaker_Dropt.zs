@@ -1,6 +1,6 @@
 import mods.dropt.Dropt;
 
-Dropt.list("list_name")
+Dropt.list("phosphophyllite")
 
   .add(Dropt.rule()
       .matchBlocks(["simpleores:onyx_ore"])
