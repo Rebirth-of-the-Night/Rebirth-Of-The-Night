@@ -168,6 +168,9 @@ potioncore:long_extension
 potioncore:recoil
 potioncore:strong_recoil
 potioncore:long_recoil
+potioncore:broken_magic_shield
+potioncore:strong_broken_magic_shield
+potioncore:long_broken_magic_shield
 potioncore:iron_skin
 potioncore:strong_iron_skin
 potioncore:long_iron_skin
@@ -240,6 +243,9 @@ potioncore:strong_slow_fall
 potioncore:long_slow_fall
 potioncore:antidote
 potioncore:long_antidote
+potioncore:spin
+potioncore:strong_spin
+potioncore:long_spin
 potioncore:curse
 potioncore:strong_curse
 potioncore:burst

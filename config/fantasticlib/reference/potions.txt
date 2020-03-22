@@ -93,6 +93,7 @@ potioncore:repair
 potioncore:flight
 potioncore:extension
 potioncore:recoil
+potioncore:broken_magic_shield
 potioncore:iron_skin
 potioncore:purity
 potioncore:reach
@@ -125,6 +126,7 @@ potioncore:broken_armor
 potioncore:magic_shield
 potioncore:slow_fall
 potioncore:antidote
+potioncore:spin
 potioncore:curse
 potioncore:burst
 potioncore:archery

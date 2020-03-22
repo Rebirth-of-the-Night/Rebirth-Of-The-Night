@@ -252,7 +252,7 @@ betterwithmods:bwm_fishing_hook
 betterwithmods:bwm_tentacle
 betterwithmods:bwm_jungle_spider
 arcanearchives:weight
-quark:gravisand
+quark:seat
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
@@ -272,7 +272,7 @@ quark:ashen
 quark:pirate
 quark:crab
 quark:wraith
-quark:seat
+quark:gravisand
 quark:chest_passenger
 betterwithaddons:greatarrow
 betterwithaddons:ya
@@ -625,6 +625,7 @@ netherex:ghast_queen
 pyrotech:rock
 pyrotech:rock_grass
 pyrotech:pyrotech.entityitembook
+pyrotech:pyrotech.entityitembloom
 randomenchantments:piercing_arrow
 rats:rat
 rats:illager_piper
