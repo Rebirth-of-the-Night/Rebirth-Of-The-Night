@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import crafttweaker.item.IItemTransformer;
 
 recipes.removeByMod("pyrotech");
 recipes.remove(<pyrotech:stone_hammer>);
@@ -185,7 +186,7 @@ recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
   [twine,stoneBrick,twine],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
 recipes.addShaped("pyro_chopping_block", <pyrotech:chopping_block>,
- [[<ore:toolAxe>],
+ [[<ore:toolAxe>.transformDamage()],
   [<ore:logWood>]]);  
 recipes.addShaped("pyro_stone_sawmill", <pyrotech:stone_sawmill>,
  [[stoneBrick,stoneBrick,stoneBrick],

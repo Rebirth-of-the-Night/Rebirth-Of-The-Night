@@ -66,6 +66,8 @@ import crafttweaker.game.IGame;
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldon";
+<betterwithmods:aesthetic:0>.displayName = "Stone Chopping Block";
+<betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
