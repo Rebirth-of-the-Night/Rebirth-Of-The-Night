@@ -18,11 +18,18 @@ recipes.remove(<harvestcraft:presser>);
 recipes.remove(<harvestcraft:saltitem>);
 
 
+recipes.remove(<harvestcraft:shippingbin>);
+recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[
+	[<ore:plankWood>,<ore:logWood>,<ore:plankWood>],
+	[<ore:logWood>,<minecraft:emerald>,<ore:logWood>],
+	[<ore:plankWood>,<ore:logWood>,<ore:plankWood>]
+]);
+
 recipes.remove(<harvestcraft:berryvinaigrettesaladitem>);
-recipes.addShapeless("berryvinaigrettesalad", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <ore:cropLettuce>, <ore:foodVinegar>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
-recipes.addShapeless("imitationcrabsticks", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:dyeRed>, <ore:flourEqualswheat>, <ore:listAllegg>]);
+recipes.addShapeless("berry_vinaigrette_salad", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <ore:cropLettuce>, <ore:foodVinegar>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
+recipes.addShapeless("imitation_crab_sticks", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:dyeRed>, <ore:flourEqualswheat>, <ore:listAllegg>]);
 recipes.remove(<harvestcraft:froglegstirfryitem>);
-recipes.addShapeless("froglegstirfry", <harvestcraft:froglegstirfryitem>, 
+recipes.addShapeless("frog_leg_stirfry", <harvestcraft:froglegstirfryitem>, 
 [<ore:toolSkillet>, <ore:listAllfrograw>, <ore:cropRice>, <harvestcraft:broccoliitem>, <minecraft:carrot>, <harvestcraft:bellpepperitem>]);
 
 // removes duplicate salt recipes
@@ -150,6 +157,8 @@ recipes.removeByRecipeName("harvestcraft:minecraft_leather_chestplate");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_leggings");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_boots");
 
+recipes.remove(<harvestcraft:lavendershortbreaditem>);
+recipes.addShapeless("lavender_shortbread",<harvestcraft:lavendershortbreaditem>,[<ore:toolBakeware>,<ore:dyePurple>,<harvestcraft:doughitem>]);
 
 mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:venisonrawitem>);

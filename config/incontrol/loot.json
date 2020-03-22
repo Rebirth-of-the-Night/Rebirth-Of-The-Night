@@ -210,5 +210,14 @@
       "player": true,
       "item": "quark:enderdragon_scale",
       "itemcount": "7-10"
+   },
+
+
+   // Ender Creeper
+   {
+      "mob": "specialmobs:endercreeper",
+      "player": true,
+      "item": "endreborn:food_ender_flesh",
+      "itemcount": "1-2"
    }
 ]

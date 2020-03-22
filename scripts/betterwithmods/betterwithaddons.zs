@@ -128,7 +128,8 @@ val bwaArray = [
 <betterwithaddons:food_pufferfish_cooked>,
 <betterwithaddons:world_scale_ore:*>,
 <betterwithaddons:leaves_mulberry>,
-<betterwithaddons:leaves_sakura>
+<betterwithaddons:leaves_sakura>,
+<betterwithaddons:worldshard>
 ] as IItemStack[];
 
 for item in bwaArray {

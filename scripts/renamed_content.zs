@@ -55,7 +55,8 @@ import crafttweaker.game.IGame;
 <twilightforest:mangrove_fence>.displayName = "Twilight Mangrove Fence";
 <twilightforest:mangrove_gate>.displayName = "Twilight Mangrove Gate";
 <twilightforest:mangrove_plate>.displayName = "Twilight Mangrove Pressure Plate";
-
+<twilightforest:stone_twist>.displayName = "Twisted Stone Pillar";
+<twilightforest:stone_twist_thin>.displayName = "Thin Twisted Stone Pillar";
 
 // Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
@@ -208,7 +209,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
 
-<contenttweaker:disint_rune>.addTooltip(format.blue("adito tera"));
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";

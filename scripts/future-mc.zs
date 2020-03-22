@@ -479,8 +479,6 @@ mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:wolf_chop>,
 									  <betterwithmods:cooked_wolf_chop>);
 mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:bat_wing>,
 									  <betterwithmods:cooked_bat_wing>);
-mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:mystery_meat>,
-									  <betterwithmods:cooked_mystery_meat>);
 mods.minecraftfuture.Smoker.addRecipe(<minecraft:fish:2>,
 									  <betterwithaddons:food_clownfish_cooked>);
 mods.minecraftfuture.Smoker.addRecipe(<minecraft:fish:3>,

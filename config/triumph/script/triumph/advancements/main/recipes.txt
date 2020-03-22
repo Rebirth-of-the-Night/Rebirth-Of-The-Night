@@ -4,6 +4,9 @@ setDescription("Hover over any block or item and press R or U to view recipes an
 
 addParent("triumph:advancements/main/root")
 
+addRewardFunction("triumph:noStage")
+
+
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
 

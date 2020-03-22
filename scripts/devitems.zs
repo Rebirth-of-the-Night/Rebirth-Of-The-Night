@@ -10,19 +10,14 @@ mods.jei.JEI.addDescription([<dungeontactics:steel_sword>],['A sword imbued with
 
 <dungeontactics:steel_sword>.addTooltip(format.aqua("+9999 validity to wielder"));
 <dungeontactics:steel_sword>.addTooltip(format.darkBlue("Developer Relic 6/7"));
-val dyePink = <ore:dyePink>;
 
-for item in dyePink.items{
-    mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
-    [
-        [null, null, <minecraft:diamond>, <arcanearchives:shaped_quartz>],
-        [null, <ore:ingotSilver>, item, <minecraft:diamond>],
-        [<minecraft:diamond>, item, <ore:ingotSilver>, null],
-        [<minecraft:diamond>, <minecraft:diamond>, null, null ]
-    ]);
-}
-
-
+mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
+[
+    [null, null, <minecraft:diamond>, <arcanearchives:shaped_quartz>],
+    [null, <iceandfire:silver_ingot>, <minecraft:dye:9>, <minecraft:diamond>],
+    [<minecraft:diamond>, <minecraft:dye:9>, <iceandfire:silver_ingot>, null],
+    [<minecraft:diamond>, <minecraft:diamond>, null, null ]
+]);
 
 // CalaMariGold
 

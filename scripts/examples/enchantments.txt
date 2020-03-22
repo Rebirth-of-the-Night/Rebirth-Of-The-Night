@@ -54,7 +54,7 @@ enchantmentMap2 += enchantments2[1].makeEnchantment(LEVEL_YOU_WANT).makeTag(); /
 /////////////// applying to item /////////////////
 
 // then just do this to apply it to a item, or you can get the book with <minecraft:enchanted_book>.withtag...
-mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag(({enchantmentMap6),
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag(enchantmentMap6));
 
 
 // if you want to add non-enchantment tag data to the item, put this in withTag, replace in {} with your tag

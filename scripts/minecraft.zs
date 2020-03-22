@@ -22,12 +22,6 @@ recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>
   [[null,<minecraft:cooked_rabbit>,null],
   [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
   [null,<minecraft:bowl>,null]]);
-recipes.remove(<betterwithmods:raw_kebab>);
-recipes.addShapeless("betterwithmods_food/raw_kebab", <betterwithmods:raw_kebab>*3, 
-[<ore:listAllmushroom>, <minecraft:carrot>, <ore:listAllmuttonraw>, <ore:stickWood>]);
-recipes.remove(<betterwithmods:raw_omelet>);
-recipes.addShapeless("betterwithmods_food/raw_omelet", <betterwithmods:raw_omelet>*2, 
-[<ore:listAllegg>, <ore:listAllmushroom>, <ore:listAllmushroom>, <ore:listAllmushroom>]);
 recipes.remove(<betteranimalsplus:goatcheese>);
 recipes.addShapeless("betteranimalsplus_milk_to_cheese", <betteranimalsplus:goatcheese>*3, 
 [<betteranimalsplus:goatmilk>, <ore:listAllmushroom>]);
@@ -65,9 +59,25 @@ recipes.removeByRecipeName("betternether:stalagnate_workbench");
 recipes.removeByRecipeName("minecraft:stone_brick_stairs");
 recipes.removeByRecipeName("minecraft:stone_brick_slab");
 recipes.removeByRecipeName("minecraft:repeater");
+recipes.removeByRecipeName("betternether:paper");
 
 recipes.remove(<minecraft:fish:0>);
+
 recipes.remove(<endreborn:tool_hammer_iron>);
+
+recipes.remove(<minecraft:fishing_rod>);
+recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
+    [null,null,<ore:stickWood>],
+    [null,<ore:stickWood>,<minecraft:string>],
+    [<ore:stickWood>,<minecraft:iron_nugget>|<contenttweaker:material_part:6>,<minecraft:string>]
+]);
+recipes.remove(<minecraft:detector_rail>);
+recipes.addShaped("detector_rail",<minecraft:detector_rail>,[
+    [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>,<ore:pressurePlateWood>,<minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]
+]);
+
 
 mods.rockytweaks.Anvil.remove(<minecraft:wooden_sword>);
 
@@ -170,6 +180,9 @@ potions_lingering.maxStackSize = 8;
 
 
 //Ore Dictionary Entries
+val pressurePlateWood = <ore:pressurePlateWood>;
+pressurePlateWood.addItems([<aether_legacy:skyroot_pressure_plate>,<betternether:stalagnate_planks_plate>,<betternether:reeds_plate>,<twilightforest:twilight_oak_plate>,<twilightforest:canopy_plate>,<twilightforest:mangrove_plate>,<twilightforest:dark_plate>,<twilightforest:time_plate>,<twilightforest:trans_plate>,<twilightforest:mine_plate>,<twilightforest:sort_plate>]);
+
 val buttonWood = <ore:buttonWood>;
 buttonWood.addItems([<aether_legacy:skyroot_button>,<betternether:reeds_button>,<betternether:stalagnate_planks_button>]);
 
@@ -282,7 +295,8 @@ val egg = <ore:listAllegg>;
 egg.add(<betterwithmods:raw_egg>);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>]);
+
+rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betterwithmods:wolf_chop>]);
 rawMeat.addAll(<ore:rawBeef>);
 rawMeat.addAll(<ore:rawChicken>);
 rawMeat.addAll(<ore:rawMutton>);
@@ -291,7 +305,7 @@ rawMeat.addAll(<ore:rawFish>);
 rawMeat.addAll(<ore:rawVenison>);
 
 val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:meatball>]);
+cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:meatball>,<betterwithmods:cooked_wolf_chop>]);
 cookedMeat.addAll(<ore:cookedBeef>);
 cookedMeat.addAll(<ore:cookedChicken>);
 cookedMeat.addAll(<ore:cookedMutton>);

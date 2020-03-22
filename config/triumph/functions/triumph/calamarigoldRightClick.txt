@@ -1,6 +1,16 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 tellraw @a ["",{"text":"It's Joke!","color":"light_purple"}]
-tellraw @a ["",{"text":"Hope you're prepared for the next night.","color":"dark_red"}]
-bloodmoon force
-playsound zombieawareness:investigate ambient @a ~ ~ ~ 1.0 0.1
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
+summon zombie_players:zombie_player ~ ~ ~ {playerName:CalaMariGold, ArmorItems:[{id:"minecraft:diamond_boots",Count:1},{id:"minecraft:diamond_leggings",Count:1},{id:"minecraft:diamond_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}]}
