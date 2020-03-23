@@ -437,7 +437,7 @@
   },
   {
     "tool": {
-        "item": "iceandfire:silver_armor_metal_helmet"
+        "item": "iceandfire:armor_silver_metal_helmet"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -445,7 +445,7 @@
   },
   {
     "tool": {
-        "item": "iceandfire:silver_armor_metal_chestplate"
+        "item": "iceandfire:armor_silver_metal_chestplate"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -453,7 +453,7 @@
   },
   {
     "tool": {
-        "item": "iceandfire:silver_armor_metal_leggings"
+        "item": "iceandfire:armor_silver_metal_leggings"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -461,7 +461,7 @@
   },
   {
     "tool": {
-        "item": "iceandfire:silver_armor_metal_boots"
+        "item": "iceandfire:armor_silver_metal_boots"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -486,7 +486,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:steel_sword"
+        "item": "dungeontactics:silver_sword"
     },
     "material": {
         "item": "quark:biotite"
@@ -593,7 +593,7 @@
         "item": "msmlegacy:vampiric_blade"
     },
     "material": {
-        "item": "dungeontactics:silver_ingot"
+        "item": "iceandfire:silver_ingot"
     }
   },
     

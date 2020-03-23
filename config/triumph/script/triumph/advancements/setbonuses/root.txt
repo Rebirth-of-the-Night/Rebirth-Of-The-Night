@@ -2,7 +2,7 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
 //Set icon item
-setIcon(<msmlegacy:wither_bane>)
+setIcon(<dungeontactics:silver_sword>)
 
 //Set title String
 setTitle("Perfectly Ready")
