@@ -1,0 +1,20 @@
+setIcon("betterwithmods:steel_chest")
+setTitle("Unstoppable")
+setDescription("Complete the Unstoppable set.")
+
+addParent("triumph:advancements/setbonuses/obsidianarmor")
+
+criteria = addCriteria("Plate Armor Helmet", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_helmet")
+
+criteria = addCriteria("Plate Armor Chestplate", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_chest")
+
+criteria = addCriteria("Plate Armor Leggings", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_pants")
+
+criteria = addCriteria("Plate Armor Boots", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_boots")
+
+alwaysVisible()
+setPos(-145,-141)
