@@ -162,11 +162,7 @@ recipes.addShaped("pyro stone tank", <pyrotech:tank>,
   [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]]);
 recipes.addShaped("pyro stone faucet", <pyrotech:faucet_stone>*2,
  [[stoneBrick,null,stoneBrick],
-  [stoneBrick,stoneBrick,stoneBrick]]);
-recipes.addShaped("pyro stone hammer tool", <pyrotech:stone_hammer>,
- [[<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
-  [<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
-  [null,<ore:stickWood>,null]]);
+  [<ore:twine>,stoneBrick,<ore:twine>]]);
 recipes.addShaped("pyro clay bucket", <pyrotech:bucket_clay_unfired>,
  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
   [null,<minecraft:clay_ball>,null]]);
@@ -177,13 +173,13 @@ recipes.addShaped("masonry_stoneBricks", <minecraft:stonebrick:2>,
 [[<pyrotech:material:16>, <pyrotech:material:16>],
 [<pyrotech:material:16>, <pyrotech:material:16>]]);
 recipes.addShaped("drying_rack", <pyrotech:drying_rack:1>,
- [[<ore:stickWood>,twine,<ore:stickWood>],
-  [twine,<minecraft:ladder>,twine],
-  [<ore:stickWood>,twine,<ore:stickWood>]]);
+ [[<ore:stickWood>,<ore:twine>,<ore:stickWood>],
+  [<ore:twine>,<minecraft:ladder>,<ore:twine>],
+  [<ore:stickWood>,<ore:twine>,<ore:stickWood>]]);
 recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
  [[stoneBrick,null,stoneBrick],
-  [twine,stoneBrick,twine],
+  [<ore:twine>,stoneBrick,<ore:twine>],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
 recipes.addShaped("pyro_chopping_block", <pyrotech:chopping_block>,
  [[<ore:toolAxe>.transformDamage()],
@@ -193,9 +189,8 @@ recipes.addShaped("pyro_stone_sawmill", <pyrotech:stone_sawmill>,
   [stoneBrick,<pyrotech:chopping_block>,stoneBrick],
   [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
 recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
- [[null,null,<ore:stickWood>],
-  [null,<ore:stickWood>,twine],
-  [<ore:stickWood>,null,twine]]);
+ [[null,<ore:stickWood>],
+  [<ore:stickWood>,<ore:twine>]]);
 recipes.addShaped("quilting_sail", <betterwithmods:material:4>,
  [[<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>],
   [<minecraft:carpet:*>,<pyrotech:material:26>,<minecraft:carpet:*>],
