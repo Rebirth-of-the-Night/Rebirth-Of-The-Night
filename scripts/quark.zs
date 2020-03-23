@@ -62,11 +62,6 @@ recipes.addShaped("Tin Ladder", <quark:iron_ladder>*12,[
     	[<ore:ingotTin>, null, <ore:ingotTin>]
 ]);
 
-recipes.addShaped("stoneling", <minecraft:spawn_egg>.withTag({EntityTag: {id: "quark:stoneling"}}), 
-[[<ore:stone>, null, <ore:stone>], 
-[null, <quark:diamond_heart>, null], 
-[<ore:stone>, null, <ore:stone>]]);
-
 recipes.remove(<quark:bark:*>);
 
 recipes.addShapeless("Quark Bark", <quark:bark>*6,

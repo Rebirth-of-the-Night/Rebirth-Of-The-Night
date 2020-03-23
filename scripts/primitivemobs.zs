@@ -8,7 +8,6 @@ recipes.removeByRecipeName("primitivemobs:camouflage_boots_toggle");
 recipes.removeByRecipeName("primitivemobs:camouflage_leggings_toggle");
 
 //Wonderful Glue Recipes
-recipes.addShapeless("sap_drool_1", <ore:glue>.firstItem,[<primitivemobs:wonder_sap>,<doggytalents:throw_bone_wet>]);
 recipes.addShapeless("sap_drool_2", <ore:glue>.firstItem,[<primitivemobs:wonder_sap>,<doggytalents:throw_stick_wet>]);
 recipes.addShapeless("sap_mysterious_stew", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<minecraftfuture:suspiciousstew>]);
 recipes.addShapeless("sap_biochar", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<doggytalents:throw_bone_wet>]);

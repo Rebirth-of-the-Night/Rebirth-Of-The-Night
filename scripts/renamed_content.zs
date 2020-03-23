@@ -39,6 +39,9 @@ import crafttweaker.game.IGame;
 <betterwithmods:manual>.addTooltip(format.aqua("Guidebook"));
 <betterwithmods:manual>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
 
+<arcanearchives:tome_arcana>.displayName = "§bTome of Radiant Arcana";
+<arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
+
 // Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironwood Arming Sword";
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
