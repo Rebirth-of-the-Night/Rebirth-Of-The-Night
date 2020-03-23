@@ -9,4 +9,4 @@ criteria.addItem(<simpleores:adamantium_sword, count:2>)
 
 
 alwaysVisible()
-setPos(-113,93)
+setPos(-252,-22)

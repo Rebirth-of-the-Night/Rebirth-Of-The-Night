@@ -17,6 +17,6 @@ criteria.addItem("iceandfire:armor_silver_metal_leggings")
 
 criteria = addCriteria("Silver Boots", "minecraft:inventory_changed")
 criteria.addItem("iceandfire:armor_silver_metal_boots")
-setPos(-220,11)
+setPos(-226,11)
 
 alwaysVisible()

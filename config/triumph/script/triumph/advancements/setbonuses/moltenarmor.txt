@@ -1,6 +1,6 @@
 setIcon("mod_lavacow:felarmor_chestplate")
-setTitle("Walking Inferno")
-setDescription("Complete the Walking Inferno set.")
+setTitle("Hellwalker")
+setDescription("Complete the Hellwalker set.")
 
 addParent("triumph:advancements/setbonuses/root")
 

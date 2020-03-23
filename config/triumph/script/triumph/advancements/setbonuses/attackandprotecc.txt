@@ -2,7 +2,7 @@ setIcon("minecraft:iron_sword")
 setTitle("Attac And Protecc")
 setDescription("Complete the Attac And Protecc set.")
 
-addParent("triumph:advancements/setbonuses/copperarmor")
+addParent("triumph:advancements/setbonuses/bronzearmor")
 
 criteria = addCriteria("Iron Sword", "minecraft:inventory_changed")
 criteria.addItem("minecraft:iron_sword")
@@ -12,4 +12,4 @@ criteria.addItem("spartanshields:shield_basic_iron")
 
 hideLines()
 alwaysVisible()
-setPos(-267,93)
+setPos(-286,-22)

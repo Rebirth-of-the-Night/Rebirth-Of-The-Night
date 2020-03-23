@@ -1,21 +1,5 @@
 import mods.dropt.Dropt;
 
-Dropt.list("essence_biotite")
-
-  .add(Dropt.rule()
-      .matchBlocks(["endreborn:block_essence_ore"])
-	  .addDrop(Dropt.drop()
-          .force()
-		  .items([<endreborn:item_end_essence>])
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(98)) // drops nothing if selected
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(2))
-          .items([<quark:biotite>])
-      )
-  );
   
 /* 
 Dropt.list("fortune_essence")

@@ -11,6 +11,4 @@ criteria = addCriteria("Ghast Queen", "minecraft:player_killed_entity")
 criteria.setEntityType("netherex:ghast_queen")
 
 alwaysVisible()
-//Set the advancement to not send a chat message when it is achieved.
-setAnnounceToChat(false)
-setPos(-68,-11)
+setPos(-95,118)

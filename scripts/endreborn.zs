@@ -108,13 +108,14 @@ recipes.addShaped("Being Of Entropy", <endreborn:death_essence>,[
     [smoothendstone, smoothendstone, smoothendstone]
 ]);
 
+/*
 recipes.remove(<endreborn:item_end_rune>);
 recipes.addShaped("End Rune", <endreborn:item_end_rune>,[
 	[<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>],
     [<endreborn:item_end_shard>, <endreborn:item_advanced_ender_pearl>, <endreborn:item_end_shard>],
     [<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>]
 ]);
-
+*/
 
 recipes.addShaped("String of Life", <endreborn:item_ender_string>,[
 	[<endreborn:item_raw_endorium>, <endreborn:item_world_mirror>, <endreborn:item_raw_endorium>],

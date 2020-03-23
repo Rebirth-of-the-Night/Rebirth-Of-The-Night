@@ -12,4 +12,5 @@ criteria = addCriteria("Lights's Edge", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:crystaline_blade")
 
 alwaysVisible()
-setPos(-66,40)
+setFrameType("CHALLENGE")
+setPos(-62,40)
