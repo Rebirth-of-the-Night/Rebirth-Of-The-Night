@@ -1,9 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-val disintRune = <contenttweaker:disint_rune>;
 
-disintRune.maxDamage = 6;
 
 // Inert
 
