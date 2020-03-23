@@ -159,6 +159,9 @@ criteria.setAdvancement("triumph:advancements/setbonuses/viridiumarmor")
 criteria = addCriteria("witherbonearmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/witherbonearmor")
 
+criteria = addCriteria("unstoppable", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/unstoppable")
+
 criteria = addCriteria("truelightsedge", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/truelightsedge")
 
