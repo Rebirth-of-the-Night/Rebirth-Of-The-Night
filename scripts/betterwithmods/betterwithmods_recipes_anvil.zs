@@ -17,7 +17,7 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 ]);
 
 
-// heart of diamond
+// Heart of diamond
 mods.betterwithmods.Anvil.addShaped(<quark:diamond_heart>, 
 [
    [<bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>],
@@ -26,7 +26,7 @@ mods.betterwithmods.Anvil.addShaped(<quark:diamond_heart>,
    [<arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>]
 ]);
 
-// pipes
+// Pipes
 val paneGlass = <ore:paneGlass>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
@@ -39,6 +39,32 @@ for item in paneGlass.items{
       [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null]
    ]);
 }
+
+// Arrows
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow>);
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow>, #Greatarrow
+[
+   [null, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null],
+   [null, <ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],
+   [null, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null],
+   [null, null, null, null]
+]);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow_destruction>);
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_destruction>, #Destructive Greatarrow
+[
+   [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null],
+   [null, <ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],
+   [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null],
+   [null, null, null, null]
+]);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow_lightning>);
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_lightning>, #Lightning Greatarrow
+[
+   [<ore:latchRedstone>, <ore:latchRedstone>, <ore:nuggetSoulforgedSteel>, null],
+   [null, <ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],
+   [<ore:latchRedstone>, <ore:latchRedstone>, <ore:nuggetSoulforgedSteel>, null],
+   [null, null, null, null]
+]);
 
 // Spartan Compat
 var blaze = <minecraft:blaze_rod>;
