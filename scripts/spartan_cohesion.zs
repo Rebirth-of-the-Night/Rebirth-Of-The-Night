@@ -43,7 +43,6 @@ recipes.addShaped("SharpStick", sharp_stick,
 //Addition of weapon recipes that involve stick > handle + crossbow
 
 val handle = <spartanweaponry:material>;
-val ahandle = <spartancompat:handle_skyroot>;
 val witherhandle = <spartanfire:witherbone_handle>;
 val feather = <ore:feather>;
 val iron = <ore:ingotIron>;
@@ -128,19 +127,19 @@ recipes.addShaped("Diamond Sword", diamondsword,
 recipes.addShaped("Skyroot Sword", skyrootsword,
  [[null,skyroot,null],
   [null,skyroot,null],
-  [null,ahandle,null]]);
+  [null,handle,null]]);
 recipes.addShaped("Holystone Sword", holystonesword,
  [[null,holystone,null],
   [null,holystone,null],
-  [null,ahandle,null]]);
+  [null,handle,null]]);
 recipes.addShaped("Zanite Sword", zanitesword,
  [[null,zanite,null],
   [null,zanite,null],
-  [null,ahandle,null]]);
+  [null,handle,null]]);
 recipes.addShaped("Gravitite Sword", gravititesword,
  [[null,egravitite,null],
   [null,egravitite,null],
-  [null,ahandle,null]]);
+  [null,handle,null]]);
 recipes.addShaped("Dragonbone Sword", dragonbonesword,
  [[null,dragonbone,null],
   [null,dragonbone,null],
