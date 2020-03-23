@@ -405,7 +405,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_pickaxe"
+        "item": "iceandfire:silver_pickaxe"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -413,7 +413,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_axe"
+        "item": "iceandfire:silver_axe"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -421,7 +421,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_hoe"
+        "item": "iceandfire:silver_hoe"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -429,7 +429,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_shovel"
+        "item": "iceandfire:silver_shovel"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -437,7 +437,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_helmet"
+        "item": "iceandfire:silver_armor_metal_helmet"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -445,7 +445,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_chestplate"
+        "item": "iceandfire:silver_armor_metal_chestplate"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -453,7 +453,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_leggings"
+        "item": "iceandfire:silver_armor_metal_leggings"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -461,7 +461,7 @@
   },
   {
     "tool": {
-        "item": "dungeontactics:silver_boots"
+        "item": "iceandfire:silver_armor_metal_boots"
     },
     "material": {
         "ore_dict": "ingotSilver"
@@ -478,10 +478,26 @@
 
   {
     "tool": {
-        "item": "msmlegacy:dawn_star"
+        "item": "msmlegacy:wither_bane"
     },
     "material": {
         "item": "quark:biotite"
+    }
+  },
+  {
+    "tool": {
+        "item": "dungeontactics:steel_sword"
+    },
+    "material": {
+        "item": "quark:biotite"
+    }
+  },
+  {
+    "tool": {
+        "item": "msmlegacy:dawn_star"
+    },
+    "material": {
+        "item": "biomesoplenty:biome_essence"
     }
   },
   {
