@@ -14,4 +14,4 @@ criteria.addItem("betterwithaddons:greatbow")
 
 setFrameType("CHALLENGE")
 alwaysVisible()
-setPos(-18,11)
+setPos(-33,11)

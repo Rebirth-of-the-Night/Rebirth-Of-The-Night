@@ -12,4 +12,5 @@ criteria = addCriteria("Dark's Edge", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:wither_bane")
 
 alwaysVisible()
-setPos(-66,-18)
+setFrameType("CHALLENGE")
+setPos(-62,-18)

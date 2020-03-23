@@ -9,14 +9,14 @@ addParent("triumph:advancements/setbonuses/powercouple")
 criteria = addCriteria("Silver Helmet", "minecraft:inventory_changed")
 criteria.addItem("iceandfire:armor_silver_metal_helmet")
 
-criteria = addCriteria("Silver Chestplate", "minecraft:inventory_changed")
-criteria.addItem("iceandfire:armor_silver_metal_chestplate")
+criteria = addCriteria("Onyx Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_chestplate")
 
 criteria = addCriteria("Onyx Leggings", "minecraft:inventory_changed")
 criteria.addItem("simpleores:onyx_leggings")
 
-criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
-criteria.addItem("simpleores:onyx_boots")
+criteria = addCriteria("Silver Boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_silver_metal_boots")
 setPos(-145,-113)
 
 alwaysVisible()

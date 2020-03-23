@@ -22,4 +22,4 @@ criteria = addCriteria("Diamond Axe", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond_axe")
 
 alwaysVisible()
-setPos(-323,-56)
+setPos(-325,-56)

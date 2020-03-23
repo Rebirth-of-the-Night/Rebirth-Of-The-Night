@@ -12,6 +12,4 @@ criteria.setEntityType("ender_dragon")
 
 hideLines()
 alwaysVisible()
-//Set the advancement to not send a chat message when it is achieved.
-setAnnounceToChat(false)
-setPos(-126,4)
+setPos(-126,149)
