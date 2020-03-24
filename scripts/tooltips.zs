@@ -93,16 +93,18 @@
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
 
 #Doggy Talents
-<doggytalents:training_treat>.addTooltip("Feed to a tamed wolf to begin training it.");
+<doggytalents:training_treat>.addTooltip("Feed to a tamed wolf to begin training it. Used to advance a dog's initial training.");
 <doggytalents:cape>.addTooltip("Dog accessory");
 <doggytalents:cape_coloured>.addTooltip("Dog accessory");
 <doggytalents:sunglasses>.addTooltip("Dog accessory");
 <doggytalents:sunglasses>.addTooltip("Cool as they are, wolves refuse to wear them.");
+<doggytalents:leather_jacket>.addTooltip("Dog accessory");
 
 <mod_lavacow:ptera_wing_cooked>.addTooltip("Has a rough, leathery texture. Extraordinarily chewy.");
 
 
-
+#Rustic
+<rustic:vase>.addTooltip("Storage container. While in hand, sneak and scroll with mouse wheel to cycle between patterns.");
 
 # Weapons
 

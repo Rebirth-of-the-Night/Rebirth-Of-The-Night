@@ -16,9 +16,13 @@ recipes.addShapeless("sap_sludge_low", <ore:glue>.firstItem*2,[<primitivemobs:wo
 recipes.addShapeless("sap_honey", <ore:glue>.firstItem*12,[<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<forge:bucketfilled>.withTag({FluidName: "honey", Amount: 1000})]);
 recipes.addShapeless("sap_sludge", <ore:glue>.firstItem*12,[<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<mod_lavacow:silky_sludge>]);
 
+//
 recipes.remove(<rustic:fertile_soil>);
 
-recipes.addShapeless("fertilesoil", <rustic:fertile_soil>*3,[<primitivemobs:wonder_sap>,<ore:Dirt>]);
+val oreDirtBlock = <ore:DirtBlock>;
+oreDirtBlock.addItems([<minecraft:dirt>, <minecraft:dirt:1>, <biomesoplenty:dirt>, <biomesoplenty:dirt:1>, <biomesoplenty:dirt:2>, <biomesoplenty:dirt:8>, <biomesoplenty:dirt:9>, <biomesoplenty:dirt:10> ]);
+
+recipes.addShapeless("fertilesoil", <rustic:fertile_soil>*3,[<primitivemobs:wonder_sap>, <ore:DirtBlock>]);
 
 <rustic:fertile_soil>.displayName = "Ever-Fertile Soil";
 <rustic:fertile_soil>.addTooltip("Can't be trampled. Crops planted in it don't require water nearby.");
