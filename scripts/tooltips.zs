@@ -86,11 +86,22 @@
 <quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
 
 #Pyrotech
-<pyrotech:flint_and_tinder>.addTooltip("Hold right-click to light. Can't light a kiln without fuel.");
+<pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several second to light. Can't light a kiln without fuel.");
 
 
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
+
+#Doggy Talents
+<doggytalents:training_treat>.addTooltip("Feed to a tamed wolf to begin training it.");
+<doggytalents:cape>.addTooltip("Dog accessory");
+<doggytalents:cape_coloured>.addTooltip("Dog accessory");
+<doggytalents:sunglasses>.addTooltip("Dog accessory");
+<doggytalents:sunglasses>.addTooltip("Cool as they are, wolves refuse to wear them.");
+
+<mod_lavacow:ptera_wing_cooked>.addTooltip("Has a rough, leathery texture. Extraordinarily chewy.");
+
+
 
 
 # Weapons

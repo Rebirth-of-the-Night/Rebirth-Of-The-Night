@@ -15,3 +15,10 @@ recipes.addShapeless("sap_honey_low", <ore:glue>.firstItem*2,[<primitivemobs:won
 recipes.addShapeless("sap_sludge_low", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<mod_lavacow:silky_sludge>]);
 recipes.addShapeless("sap_honey", <ore:glue>.firstItem*12,[<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<forge:bucketfilled>.withTag({FluidName: "honey", Amount: 1000})]);
 recipes.addShapeless("sap_sludge", <ore:glue>.firstItem*12,[<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<primitivemobs:wonder_sap>,<mod_lavacow:silky_sludge>]);
+
+recipes.remove(<rustic:fertile_soil>);
+
+recipes.addShapeless("fertilesoil", <rustic:fertile_soil>*3,[<primitivemobs:wonder_sap>,<ore:Dirt>]);
+
+<rustic:fertile_soil>.displayName = "Ever-Fertile Soil";
+<rustic:fertile_soil>.addTooltip("Can't be trampled. Crops planted in it don't require water nearby.");

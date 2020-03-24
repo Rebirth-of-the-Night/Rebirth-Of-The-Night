@@ -16,9 +16,9 @@
 <harvestcraft:liverandonionsitem>.foodValues.saturationModifier = 0.4;
 <harvestcraft:haggisitem>.foodValues.hunger = 5;
 <harvestcraft:haggisitem>.foodValues.saturationModifier = 0.4;
-<rats:raw_rat>.foodValues.hunger = 1.5;
+<rats:raw_rat>.foodValues.hunger = 1;
 <rats:raw_rat>.foodValues.saturationModifier = 0.2;
-<rats:cooked_rat>.foodValues.hunger = 3;
+<rats:cooked_rat>.foodValues.hunger = 2;
 <rats:cooked_rat>.foodValues.saturationModifier = 0.3;
 <rats:assorted_vegetables>.foodValues.hunger = 3;
 <rats:assorted_vegetables>.foodValues.saturationModifier = 0.8;
@@ -44,3 +44,9 @@
 
 <mod_lavacow:parasite_item_cooked>.foodValues.hunger = 1;
 <mod_lavacow:parasite_item_cooked>.foodValues.saturationModifier = 0.2;
+
+<mod_lavacow:ptera_wing>.foodValues.hunger = 0.5;
+<mod_lavacow:ptera_wing>.foodValues.saturationModifier = 0.2;
+
+<mod_lavacow:ptera_wing_cooked>.foodValues.hunger = 1;
+<mod_lavacow:ptera_wing_cooked>.foodValues.saturationModifier = 0.2;

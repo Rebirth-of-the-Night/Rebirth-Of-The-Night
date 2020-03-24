@@ -24,7 +24,7 @@ import crafttweaker.item.IItemStack;
 <rats:rat_fez>.removeTooltip("Definitely not throwing shade at another mod");
 <rats:vial_of_sentience>.removeTooltip("A serum that can, §lin theory§r§7, reverse the de-evolution of a Ratlantean.");
 
-//completely hidden upgrades. we can add some of these later
+///////////////completely hidden upgrades. we can add some of these later
 //will never add these ones due to mod incompatibility or just not in spirit of the pack
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_energy>);
@@ -174,6 +174,8 @@ val chWheel = <ore:foodCheeseWheel>;
 chWheel.add([<animania:friesian_cheese_wheel>, <animania:holstein_cheese_wheel>, <animania:jersey_cheese_wheel>, <animania:goat_cheese_wheel>, <animania:sheep_cheese_wheel>]);
 
 recipes.addShapeless("cheeseChunks", <rats:cheese>*16, [<ore:foodCheeseWheel>]);
+
+recipes.addShapeless("blocktocheeseChunks", <rats:cheese>*16, [<rats:block_of_cheese>]);
 
 // remove archeologist rat recipes
 mods.jei.JEI.hideCategory("rats.archeologist_rat");
