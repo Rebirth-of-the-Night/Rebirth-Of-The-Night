@@ -24,7 +24,7 @@ recipes.addShapeless("block_to_electrum",<ore:ingotElectrum>.firstItem* 9,
 );
 recipes.addShaped("electrum_to_plateBlock",<contenttweaker:electrum_plate> * 24, [
 [elec, elec, elec],
-[elec, null, elec], 
+[elec, <minetraps:nails>, elec], 
 [elec, elec, elec]]
 );
 

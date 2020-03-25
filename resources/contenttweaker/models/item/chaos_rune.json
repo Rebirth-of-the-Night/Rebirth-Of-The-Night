@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/chaos_rune"
+    "layer0": "contenttweaker:items/runes/chaos_rune"
   }
 }

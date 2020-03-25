@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/strength_rune"
+    "layer0": "contenttweaker:items/runes/strength_rune"
   }
 }

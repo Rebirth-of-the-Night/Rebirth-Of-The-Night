@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/copper_tin_pebbles"
+    "layer0": "contenttweaker:items/metals/copper_tin_pebbles"
   }
 }

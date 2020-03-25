@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/order_orb"
+    "layer0": "contenttweaker:items/orbs/order_orb"
   }
 }
