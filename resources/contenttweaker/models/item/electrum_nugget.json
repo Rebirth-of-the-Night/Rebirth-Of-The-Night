@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/electrum_nugget"
+    "layer0": "contenttweaker:items/metals/electrum_nugget"
   }
 }

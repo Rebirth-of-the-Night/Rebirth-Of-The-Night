@@ -9,8 +9,8 @@ recipes.remove(<quark:rune:*>);
 recipes.remove(<endreborn:item_end_rune>);
 
 //inert
-recipes.addShapeless(<contenttweaker:blank_rune>, [<ore:stone>, <dungeontactics:magic_powder>]);
-recipes.addShaped(<contenttweaker:magic_orb>, [[<dungeontactics:magic_powder>, <dungeontactics:magic_powder>, <dungeontactics:magic_powder>],[<dungeontactics:magic_powder>, <minecraft:clay_ball>, <dungeontactics:magic_powder>], [<dungeontactics:magic_powder>, <dungeontactics:magic_powder>, <dungeontactics:magic_powder>]]);
+recipes.addShapeless(<contenttweaker:blank_rune>.withTag({"Quark:RuneColor": 7, ench: [{lvl: 1 as short, id: 57 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), [<ore:stone>, <dungeontactics:magic_powder>]);
+recipes.addShaped(<contenttweaker:magic_orb>.withTag({"Quark:RuneColor": 7, ench: [{lvl: 1 as short, id: 57 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), [[<dungeontactics:magic_powder>, <dungeontactics:magic_powder>, <dungeontactics:magic_powder>],[<dungeontactics:magic_powder>, <minecraft:clay_ball>, <dungeontactics:magic_powder>], [<dungeontactics:magic_powder>, <dungeontactics:magic_powder>, <dungeontactics:magic_powder>]]);
 
 
 //mundane

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/copper_nugget"
+    "layer0": "contenttweaker:items/metals/copper_nugget"
   }
 }
