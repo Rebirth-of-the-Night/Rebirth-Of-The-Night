@@ -804,6 +804,25 @@
     }
   },
                       
+					
+ {
+    "tool": {
+        "item": "rats:black_death_mask"
+    },
+    "material": {
+        "item": "rats:plague_essence"
+    }
+  },
+                      
+					  
+  {
+    "tool": {
+        "item": "rats:plague_scythe"
+    },
+    "material": {
+        "item": "rats:plague_essence"
+    }
+  },
   {
     "tool": {
         "item": "mowziesmobs:wrought_helmet"
