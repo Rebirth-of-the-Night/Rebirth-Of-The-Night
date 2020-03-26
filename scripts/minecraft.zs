@@ -180,6 +180,9 @@ potions_lingering.maxStackSize = 8;
 
 
 //Ore Dictionary Entries
+val wool = <ore:wool>;
+wool.remove(<minecraft:wool>);
+
 val pressurePlateWood = <ore:pressurePlateWood>;
 pressurePlateWood.addItems([<aether_legacy:skyroot_pressure_plate>,<betternether:stalagnate_planks_plate>,<betternether:reeds_plate>,<twilightforest:twilight_oak_plate>,<twilightforest:canopy_plate>,<twilightforest:mangrove_plate>,<twilightforest:dark_plate>,<twilightforest:time_plate>,<twilightforest:trans_plate>,<twilightforest:mine_plate>,<twilightforest:sort_plate>]);
 
