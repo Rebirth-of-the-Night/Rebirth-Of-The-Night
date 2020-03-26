@@ -71,6 +71,14 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:dynamite>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:katana_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:saber_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:pike_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:lance_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_stone>);
 
 recipes.removeByRecipeName("spartanshields:shield_mod_bronze");
 
