@@ -19,11 +19,6 @@ val bwaArray = [
 <betterwithaddons:diamond_machete>,
 <betterwithaddons:diamond_carpentersaw>,
 <betterwithaddons:diamond_masonpick>,
-<betterwithaddons:steel_matchpick>,
-<betterwithaddons:steel_machete>,
-<betterwithaddons:steel_kukri>,
-<betterwithaddons:steel_carpentersaw>,
-<betterwithaddons:steel_masonpick>,
 <betterwithaddons:material:3>,
 <betterwithaddons:material:5>,
 <betterwithaddons:material:6>,
@@ -85,7 +80,6 @@ val bwaArray = [
 <betterwithaddons:writing_table:*>,
 <betterwithaddons:adobe>,
 <betterwithaddons:ecksie_sapling:*>,
-<betterwithaddons:steel_spade>,
 <betterwithaddons:material:1>,
 <betterwithaddons:material:2>,
 <betterwithaddons:chute>,
@@ -193,13 +187,6 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:12>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:13>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:14>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
-
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_spade>);
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_matchpick>);
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_machete>);
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_kukri>);
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_carpentersaw>);
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_masonpick>);
 
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);

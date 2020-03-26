@@ -10,9 +10,4 @@ var paper = <minecraft:paper>;
 var dyeBlack = <ore:dyeBlack>;
 var redstone = <minecraft:redstone>;
 
-
-recipes.addShaped("Golem Spell", <golems:golem_paper>,[
-	[magicpowder, null, null],
-    [feather, redstone, null],
-    [paper, dyeBlack, null]
-]);
+recipes.addShapeless("GolemSpell", <golems:golem_paper>,[magicpowder, feather, redstone, paper, dyeBlack]);

@@ -36,7 +36,7 @@ recipes.addShaped("Air Balloon 3", <davincisvessels:balloon>,[
 
 //Using Fiber
 
-var fiber = <ore:fiber>;
+var fiber = <ore:durableFiber>;
 
 recipes.addShaped("Air Balloon Fiber 1", <davincisvessels:balloon>*2,[
 	[fiber, wool, fiber],

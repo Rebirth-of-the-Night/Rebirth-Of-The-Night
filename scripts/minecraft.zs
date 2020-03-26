@@ -212,6 +212,7 @@ twine.add(<betterwithmods:material:3>);
 
 val durableFiber = <ore:durableFiber>;
 durableFiber.addAll(<ore:fiberHemp>);
+durableFiber.add(<betterwithmods:material:3>);
 durableFiber.add(<pyrotech:material:26>);
 
 val fang = <ore:fang>;
