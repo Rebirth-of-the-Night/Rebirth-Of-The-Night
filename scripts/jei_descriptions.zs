@@ -5,6 +5,14 @@ import mods.jei.JEI;
 # KNOWN BUGS #
 mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in any way, including checking recipes for items in JEI while you have an emerald in the payment slot. ALSO, vanilla spawn eggs don't work, so don't waste your emeralds."]);
 
+#SFS TOOLS#
+
+mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like Shears. When right-clicked, places Vines from your inventory. Has very limited enchantability since it is already infused with souls."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Has very limited enchantability since it is already infused with souls."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil, it will be placed directly in your inventory. Right-clicking with the Spade places soil from your inventory. Has very limited enchantability since it is already infused with souls."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpose tool. Stone blocks mined will be placed in your inventory. Right-clicking with the Mason Pick places processed stone such as Slabs, Bricks, or Stairs from your inventory. Has very limited enchantability since it is already infused with souls."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Has very limited enchantability since it is already infused with souls."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as Slabs, Planks, or Stairs from your inventory. Has very limited enchantability since it is already infused with souls."]);
 
 
 #MISCELLANEOUS#
@@ -20,10 +28,11 @@ mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the f
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. You hear faint screams of pain as you listen closely to this heart."]);
 
 
-mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but impossible to enchant since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but impossible to enchant since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but impossible to enchant since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but impossible to enchant since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_hoe>,"Provides the best durability, but impossible to enchant since it is already infused with souls.");
 
 mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Impossible to enchant since it is already infused with souls.");
 mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Impossible to enchant since it is already infused with souls.");
@@ -139,8 +148,8 @@ mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for
 # Handle 1
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");
 # Amethyst
-mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beatiful gem common to the lands of the Ender folk, as by now deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods too.");
-mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beatiful gem native to the lands of the pig folk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods too..");
+mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lands of the Ender folk, as by now deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods.");
+mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the pig folk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
 # Copper tin
@@ -292,7 +301,7 @@ mods.jei.JEI.addDescription(<pyrotech:stash>,"When all that's needed is somewher
 mods.jei.JEI.addDescription(driedPlantFiber, "Small strands of dried fiber, can be tied together for some string or better quality fiber.");
 mods.jei.JEI.addDescription(PlantFiber, "Various good quality grass blades found by breaking different kinds of grass.");
 mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance of spider or wool string.");
-mods.jei.JEI.addDescription(durableTwine, "By means of various procedures, this simple strand of plants has roughly achieved the durability and strenght of higher quality fibers.");
+mods.jei.JEI.addDescription(durableTwine, "By means of various procedures, this simple strand of plants has roughly achieved the durability and strength of higher quality fibers.");
 mods.jei.JEI.addDescription(crudePole, "Less than ideal, may break unexpectedly the more it is used.");
 mods.jei.JEI.addDescription(compact, "A reinforced container, that's useful to compact stuff into denser materials or blocks.");
 mods.jei.JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash one gets mulch! By applying it to farmland, it gets protected from trambling and will grow a bit faster.");
