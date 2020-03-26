@@ -60,6 +60,12 @@ mods.jei.JEI.addDescription(<ore:ingotElectrum>.firstItem,"Normal electrum holds
 mods.aether_legacy.Enchanter.registerEnchanterFuel(elec,4800);
 mods.aether_legacy.Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);
 
+//Stone
+mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:stone_hammer>, 500);
+
+//Iron
+mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:iron_hammer>, 2000);
+
 //Onyx
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_helmet>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_chestplate>, 15600);
@@ -73,6 +79,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_hoe>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_sword>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_bow>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:greatbow>, 15600);
+mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:obsidian_hammer>, 15600);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:dagger_onyx>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longsword_onyx>, 15600);
@@ -183,6 +190,14 @@ mods.aether_legacy.Enchanter.registerEnchantment(<betterwithmods:steel_shovel>, 
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithmods:steel_hoe>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithmods:steel_sword>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithmods:steel_mattock>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithmods:steel_hacksaw>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:steel_spade>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:steel_matchpick>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:steel_machete>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:steel_kukri>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:steel_carpentersaw>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:steel_masonpick>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:diamond_hammer>, 14400);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:dagger_soulforged_steel>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longsword_soulforged_steel>, 14400);

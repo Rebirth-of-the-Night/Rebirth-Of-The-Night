@@ -91,12 +91,13 @@ val ironwoodsword = <twilightforest:ironwood_sword>;
 val steeleafsword = <twilightforest:steeleaf_sword>;
 val knightsword = <twilightforest:knightmetal_sword>;
 val giantsword = <twilightforest:giant_sword>;
+val fiber = <ore:durableFiber>;
 
 //Crossbow Tweaks
 recipes.remove(<spartanweaponry:crossbow_wood>);
 recipes.addShaped("SteelCrossbow", <spartanweaponry:crossbow_wood>.withTag({display: {Name: "§5Steel Crossbow"}}),
- [[bow,<betterwithmods:material:3>|<pyrotech:material:26>,wheel],
-  [<betterwithmods:material:3>|<pyrotech:material:26>,steel,null],
+ [[bow,fiber,wheel],
+  [fiber,steel,null],
   [wheel,null,handle]]);
 
 //Weapons

@@ -45,9 +45,9 @@ for item in paneGlass.items{
 recipes.remove(<pyrotech:diamond_hammer>);
 mods.betterwithmods.Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgehammer
 [
-   [null, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, null],
-   [null, <betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>],
-   [null, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, null],
+   [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, null, null],
+   [<betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>],
+   [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, null, null],
    [null, null, null, null]
 ]);
 
