@@ -1,9 +1,9 @@
 {
     "comment": "These qualities will apply for bows, and possibly for guns from
                 other mods if they extend the vanilla bow class. For more info
-                about how to edit this file and add more files, visit 
+                about how to edit this file and add more files, visit
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
+
     "slot": [
         "mainhand",
         "offhand"
@@ -11,10 +11,13 @@
     "whitelist": [
       {
         "class": "ItemBow"
+      },
+      {
+        "item": "spartanweaponry:crossbow_wood"
       }
     ],
     "blacklist": [
-    
+
     ],
     "qualities": [
       {
@@ -32,7 +35,7 @@
       {
         "name": "quality.clumsy.name",
         "color": "red",
-        "weight": 10,
+        "weight": 11,
         "attributes": [
           {
             "name": "potioncore.projectileDamage",
@@ -44,6 +47,28 @@
       {
         "name": "normal",
         "weight": 50
+      },
+      {
+        "name": "Glass cannon",
+        "color": "yellow",
+        "weight": 2,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.14,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.25,
+            "operation": 2
+          },
+          {
+            "name": "generic.knockbackResistance",
+            "amount": -0.5,
+            "operation": 2
+          }
+        ]
       },
       {
         "name": "quality.light.name",
@@ -68,6 +93,6 @@
             "operation": 2
           }
         ]
-      }
+      },
     ]
 }

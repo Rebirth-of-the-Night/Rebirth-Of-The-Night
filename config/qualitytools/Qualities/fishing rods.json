@@ -1,8 +1,8 @@
 {
     "comment": "These qualities will apply for all fishing rods! For more info
-                about how to edit this file and add more files, visit 
+                about how to edit this file and add more files, visit
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
+
     "slot": [
         "mainhand"
     ],
@@ -12,7 +12,7 @@
       }
     ],
     "blacklist": [
-    
+
     ],
     "qualities": [
       {
@@ -29,7 +29,7 @@
       },
       {
         "name": "normal",
-        "weight": 50
+        "weight": 40
       },
       {
         "name": "quality.lucky.name",

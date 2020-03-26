@@ -1,12 +1,13 @@
 {
-    "comment": "These qualities will apply for all boots! For more info
-                about how to edit this file and add more files, visit 
+    "comment": "These qualities will apply for all horse armor. It may or may not
+                work with modded horse armor. If not, you can add the items manually.
+                For more info about how to edit this file and add more files, visit 
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     
-    "slot": "feet",
+    "slot": "horse",
     "whitelist": [
       {
-        "slot": "feet"
+        "slot": "horse"
       }
     ],
     "blacklist": [
@@ -20,12 +21,7 @@
         "attributes": [
           {
             "name": "generic.armor",
-            "amount": -1.5,
-            "operation": 0
-          },
-          {
-            "name": "generic.armorToughness",
-            "amount": -1,
+            "amount": -2,
             "operation": 0
           },
           {
@@ -70,25 +66,13 @@
         "attributes": [
           {
             "name": "generic.armor",
-            "amount": 0.5,
+            "amount": 2,
             "operation": 0
           },
           {
             "name": "generic.movementSpeed",
-            "amount": -0.05,
+            "amount": -0.1,
             "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.tough.name",
-        "color": "blue",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.armorToughness",
-            "amount": 1,
-            "operation": 0
           }
         ]
       },
@@ -99,7 +83,7 @@
         "attributes": [
           {
             "name": "generic.armor",
-            "amount": 0.5,
+            "amount": 2,
             "operation": 0
           }
         ]
@@ -117,18 +101,6 @@
         ]
       },
       {
-        "name": "quality.tall.name",
-        "color": "blue",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "potioncore.stepHeight",
-            "amount": 0.5,
-            "operation": 0
-          }
-        ]
-      },
-      {
         "name": "quality.speedy.name",
         "color": "blue",
         "weight": 10,
@@ -136,7 +108,7 @@
           {
             "name": "generic.movementSpeed",
             "amount": 0.1,
-			   "operation": 2
+            "operation": 2
           }
         ]
       },
@@ -147,17 +119,7 @@
         "attributes": [
           {
             "name": "generic.armor",
-            "amount": 0.5,
-            "operation": 0
-          },
-          {
-            "name": "generic.armorToughness",
-            "amount": 1,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.stepHeight",
-            "amount": 0.5,
+            "amount": 2,
             "operation": 0
           },
           {

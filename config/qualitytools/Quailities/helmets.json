@@ -1,8 +1,8 @@
 {
     "comment": "These qualities will apply for all helmets! For more info
-                about how to edit this file and add more files, visit
+                about how to edit this file and add more files, visit 
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-
+    
     "slot": "head",
     "whitelist": [
       {
@@ -10,18 +10,13 @@
       }
     ],
     "blacklist": [
-      {
-        "item": "simpleores:mythril_helmet"
-      },
-      {
-        "item": "betterwithmods:steel_helmet"
-      }
+    
     ],
     "qualities": [
       {
         "name": "quality.crumbling.name",
         "color": "dark_red",
-        "weight": 20,
+        "weight": 8,
         "attributes": [
           {
             "name": "generic.armor",
@@ -41,38 +36,9 @@
         ]
       },
       {
-        "name": "Tainted",
-        "color": "dark_red",
-        "weight": 20,
-        "attributes": [
-          {
-            "name": "generic.luck",
-            "amount": -3,
-            "operation": 0
-          }
-        ]
-      },
-      {
-        "name": "Weakening",
-        "color": "dark_red",
-        "weight": 20,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": -0.1,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": -0.1,
-            "operation": 2
-          }
-        ]
-      },
-      {
         "name": "quality.dented.name",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.armor",
@@ -82,43 +48,9 @@
         ]
       },
       {
-        "name": "Scuffed",
-        "color": "dark_gray",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "generic.armorToughness",
-            "amount": -1,
-            "operation": 0
-          },
-          {
-            "name": "generic.luck",
-            "amount": -0.5,
-            "operation": 0
-          }
-        ]
-      },
-      {
-        "name": "Impotent",
-        "color": "dark_gray",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "potioncore.magicShielding",
-            "amount": -1,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
         "name": "quality.heavy.name",
         "color": "red",
-        "weight": 40,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -129,12 +61,12 @@
       },
       {
         "name": "normal",
-        "weight": 440
+        "weight": 100
       },
       {
         "name": "quality.thick.name",
         "color": "yellow",
-        "weight": 40,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.armor",
@@ -149,89 +81,9 @@
         ]
       },
       {
-        "name": "Eye-covering",
-        "color": "yellow",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "generic.armor",
-            "amount": 0.5,
-            "operation": 0
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.08,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Massive",
-        "color": "yellow",
-        "weight": 20,
-        "attributes": [
-          {
-            "name": "generic.armorToughness",
-            "amount": 1,
-            "operation": 0
-          },
-          {
-            "name": "generic.knockbackResistance",
-            "amount": 0.2,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.jumpHeight",
-            "amount": -0.2,
-            "operation": 0
-          },
-          {
-            "name": "generic.movementSpeed",
-            "amount": -0.1,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Guiding",
-        "color": "blue",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": 0.08,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Energized",
-        "color": "blue",
-        "weight": 20,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": 0.04,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Forceful",
-        "color": "blue",
-        "weight": 20,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": 0.04,
-            "operation": 2
-          }
-        ]
-      },
-      {
         "name": "quality.tough.name",
         "color": "blue",
-        "weight": 40,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.armorToughness",
@@ -243,7 +95,7 @@
       {
         "name": "quality.protective.name",
         "color": "blue",
-        "weight": 40,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.armor",
@@ -255,7 +107,7 @@
       {
         "name": "quality.arcane.name",
         "color": "blue",
-        "weight": 40,
+        "weight": 10,
         "attributes": [
           {
             "name": "potioncore.magicShielding",
@@ -267,7 +119,7 @@
       {
         "name": "quality.lucky.name",
         "color": "aqua",
-        "weight": 40,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.luck",
@@ -279,7 +131,7 @@
       {
         "name": "quality.masterful.name",
         "color": "light_purple",
-        "weight": 16,
+        "weight": 5,
         "attributes": [
           {
             "name": "generic.armor",
@@ -295,52 +147,6 @@
             "name": "generic.luck",
             "amount": 0.5,
             "operation": 0
-          }
-        ]
-      },
-      {
-        "name": "Enlightened",
-        "color": "light_purple",
-        "weight": 16,
-        "attributes": [
-          {
-            "name": "potioncore.magicShielding",
-            "amount": 1.5,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.magicDamage",
-            "amount": 0.08,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Eternal",
-        "color": "light_purple",
-        "weight": 8,
-        "attributes": [
-          {
-            "name": "generic.maxHealth",
-            "amount": 2,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.damageResistance",
-            "amount": 0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Sniping",
-        "color": "gold",
-        "weight": 4,
-        "attributes": [
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": 0.16,
-            "operation": 2
           }
         ]
       }
