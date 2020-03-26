@@ -172,6 +172,14 @@ furnace.remove(<minecraft:stone:1>);
 furnace.remove(<minecraft:stone:3>);
 furnace.remove(<minecraft:stone:5>);
 
+// better mining charge
+recipes.remove(<betterwithmods:mining_charge>);
+recipes.addShaped("betterminingcharge",<betterwithmods:mining_charge>*64,[
+    [<betterwithmods:rope>,<ore:slimeball>,<betterwithmods:rope>],
+    [<betterwithmods:dynamite>,<betterwithmods:dynamite>,<betterwithmods:dynamite>],
+    [<betterwithmods:dynamite>,<betterwithmods:dynamite>,<betterwithmods:dynamite>]
+]);
+
 //Descriptions
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
 mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, like sails and different kinds of cloth.");
