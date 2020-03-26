@@ -39,6 +39,8 @@ recipes.removeByRecipeName("quark:stone_hoe");
 recipes.removeByRecipeName("quark:iron_button");
 recipes.removeByRecipeName("quark:gold_button");
 recipes.removeByRecipeName("quark:iron_plate_1");
+recipes.removeByRecipeName("quark:iron_ladder");
+recipes.removeByRecipeName("quark:hopper");
 
 recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);

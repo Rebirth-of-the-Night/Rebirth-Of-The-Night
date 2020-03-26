@@ -48,7 +48,6 @@ val feather = <ore:feather>;
 val iron = <ore:ingotIron>;
 val steel = <ore:ingotSteel>;
 val wool = <ore:wool>;
-val fiber = <ore:fiber>;
 val wheel = <ore:componentWheel>;
 val log = <ore:log>;
 val stone = <ore:cobblestone>;
@@ -95,8 +94,8 @@ val giantsword = <twilightforest:giant_sword>;
 //Crossbow Tweaks
 recipes.remove(<spartanweaponry:crossbow_wood>);
 recipes.addShaped("SteelCrossbow", <spartanweaponry:crossbow_wood>.withTag({display: {Name: "§5Steel Crossbow"}}),
- [[bow,fiber,wheel],
-  [fiber,steel,null],
+ [[bow,<betterwithmods:material:3>|<pyrotech:material:26>,wheel],
+  [<betterwithmods:material:3>|<pyrotech:material:26>,steel,null],
   [wheel,null,handle]]);
 
 //Weapons

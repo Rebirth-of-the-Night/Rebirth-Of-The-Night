@@ -171,6 +171,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
+<pyrotech:iron_hammer>.displayName = "Iron Sledgehammer";
 <pyrotech:diamond_hammer>.displayName = "Refined Sledgehammer";
 <pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
 
@@ -181,8 +182,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
 
-// Spartanweapony
+// Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
+
+// Underground Biomes
+<undergroundbiomes:fossil_piece:5>.displayName = "Claw Fossil";
 
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));

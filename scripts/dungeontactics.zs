@@ -193,6 +193,7 @@ mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_block>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ore>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ingot>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mithril_nugget>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_hoe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_axe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_pickaxe>);
