@@ -194,6 +194,13 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:13>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:14>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
 
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_spade>);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_matchpick>);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_machete>);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_kukri>);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_carpentersaw>);
+mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:steel_masonpick>);
+
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);
 mods.jei.JEI.addItem(<betterwithaddons:greatarrow>);

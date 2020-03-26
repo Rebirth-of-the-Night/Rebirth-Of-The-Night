@@ -34,7 +34,6 @@ recipes.remove(<pyrotech:mushroom_red_roasted>);
 recipes.remove(<pyrotech:apple_baked>);
 recipes.remove(<pyrotech:burned_food>);
 recipes.remove(<pyrotech:iron_hammer>);
-recipes.remove(<pyrotech:diamond_hammer>);
 recipes.remove(<pyrotech:shelf_stone>);
 recipes.remove(<pyrotech:crate>);
 recipes.remove(<pyrotech:crate_stone>);
@@ -216,10 +215,6 @@ recipes.addShaped("stone_sledgehammer", <pyrotech:stone_hammer>,
 recipes.addShaped("iron_sledgehammer", <pyrotech:iron_hammer>,
  [[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
   [<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
-  [null,<ore:stickWood>,null]]);  
-recipes.addShaped("SFS_sledgehammer", <pyrotech:diamond_hammer>,
- [[<ore:ingotSoulforgedSteel>,<ore:stickWood>,<ore:ingotSoulforgedSteel>],
-  [<ore:ingotSoulforgedSteel>,<ore:stickWood>,<ore:ingotSoulforgedSteel>],
   [null,<ore:stickWood>,null]]);
 recipes.addShaped("onyx_sledgehammer", <pyrotech:obsidian_hammer>,
  [[<simpleores:onyx_rod>,<pyrotech:diamond_hammer>,<simpleores:onyx_rod>]]);

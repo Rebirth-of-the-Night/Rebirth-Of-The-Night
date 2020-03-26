@@ -201,14 +201,20 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:staff_electrum>);
 
 mods.jei.JEI.removeAndHide(<spartancompat:handle_skyroot>);
 mods.jei.JEI.removeAndHide(<spartancompat:pole_skyroot>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_skyroot>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_zanite>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_gravitite>);
+
 recipes.removeByRegex("spartancompat:.*(?<!handle_|pole_)skyroot");
 recipes.removeByRegex("spartancompat:.*holystone");
 recipes.removeByRegex("spartancompat:.*zanite");
 recipes.removeByRegex("spartancompat:.*gravitite") ;
-var skyrootWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!handle_|pole_)skyroot") as IItemStack[];
-var holystoneWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*holystone") as IItemStack[];
-var zaniteWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*zanite") as IItemStack[];
-var gravititeWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*gravitite") as IItemStack[];
+
+var skyrootWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!handle_|pole_|crossbow_)skyroot") as IItemStack[];
+var holystoneWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_)holystone") as IItemStack[];
+var zaniteWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_)zanite") as IItemStack[];
+var gravititeWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_)gravitite") as IItemStack[];
 var aetherWeapon = [skyrootWeapon,holystoneWeapon,zaniteWeapon,gravititeWeapon] as IItemStack[][];
 var aetherMat = [<aether_legacy:skyroot_plank>,<aether_legacy:holystone>,<aether_legacy:zanite_gemstone>,<aether_legacy:enchanted_gravitite>] as IItemStack[];
 var counter = 0;
@@ -231,135 +237,128 @@ for x, weapon in aetherWeapon {
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
-        [<minecraft:bow>,<minecraft:string>,aetherMat[x]],
-        [<minecraft:string>,<ore:logWood>,null],
-        [aetherMat[x],null,handle]
-    ]);//crossbow 2
-
-    counter += 1;
-    recipes.addShaped(weapon[counter],[
         [aetherMat[x]],
         [handle]
-    ]);//dagger 3
+    ]);//dagger 2
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x]],
         [null,aetherMat[x]],
         [aetherMat[x],pole]
-    ]);//glaive 4
+    ]);//glaive 3
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x],null],
         [aetherMat[x],aetherMat[x],aetherMat[x]],
         [aetherMat[x],handle,aetherMat[x]]
-    ]);//greatsword 5
+    ]);//greatsword 4
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x]],
         [aetherMat[x],aetherMat[x]],
         [aetherMat[x],pole]
-    ]);//halberd 6
+    ]);//halberd 5
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [aetherMat[x],aetherMat[x],aetherMat[x]],
         [aetherMat[x],aetherMat[x],aetherMat[x]],
         [null,aetherMat[x],null]
-    ]);//hammer 7
+    ]);//hammer 6
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [pole,aetherMat[x]]
-    ]);//javelin 8
+    ]);//javelin 7
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,null,aetherMat[x]],
         [null,aetherMat[x],null],
         [handle,null,null]
-    ]);//katana 9
+    ]);//katana 8
     
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [aetherMat[x]],
         [pole],
         [handle]
-    ]);//lance 10
+    ]);//lance 9
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [handle,<ore:stickWood>,aetherMat[x]],
         [<ore:stickWood>,null,<minecraft:string>],
         [aetherMat[x],<minecraft:string>,<minecraft:string>]
-    ]);//longbow 11
+    ]);//longbow 10
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x],null],
         [null,aetherMat[x],null],
         [aetherMat[x],handle,aetherMat[x]]
-    ]);//longsword 12
+    ]);//longsword 11
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x],aetherMat[x]],
         [null,<ore:stick>,aetherMat[x]],
         [handle,null,null]
-    ]);//mace 13
+    ]);//mace 12
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [aetherMat[x]],
         [pole],
         [pole]
-    ]);//pike 14
+    ]);//pike 13
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,null,aetherMat[x]],
         [aetherMat[x],aetherMat[x],null],
         [handle,aetherMat[x],null]
-    ]);//rapier 15
+    ]);//rapier 14
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x]],
         [null,aetherMat[x]],
         [aetherMat[x],handle]
-    ]);//saber 16
+    ]);//saber 15
     
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [aetherMat[x]],
         [pole]
-    ]);//spear 17
+    ]);//spear 16
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [pole],
         [aetherMat[x]]
-    ]);//staff 18
+    ]);//staff 17
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [handle,aetherMat[x]],
         [null,aetherMat[x]]
-    ]);//throwing axe 19
+    ]);//throwing axe 18
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [handle,aetherMat[x]]
-    ]);//throwing knife 20
+    ]);//throwing knife 19
 
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x]],
         [aetherMat[x],aetherMat[x]],
         [null,handle]
-    ]);//warhammer 21
+    ]);//warhammer 20
 
     counter = 0;
 }

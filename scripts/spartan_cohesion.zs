@@ -4,6 +4,7 @@ import crafttweaker.data.IData;
 
 //Removal of weapons recipes that involve stick > handle
 
+recipes.remove(<iceandfire:silver_sword>);
 recipes.remove(<iceandfire:hippogryph_sword>);
 recipes.remove(<iceandfire:stymphalian_bird_dagger>);
 recipes.remove(<minecraft:golden_sword>);
@@ -99,7 +100,11 @@ recipes.addShaped("SteelCrossbow", <spartanweaponry:crossbow_wood>.withTag({disp
   [wheel,null,handle]]);
 
 //Weapons
-recipes.addShaped("HippogryphSword", hippogryph_sword,
+recipes.addShaped("Silver Sword", <iceandfire:silver_sword>,
+ [[null,<ore:ingotSilver>,null],
+  [null,<ore:ingotSilver>,null],
+  [null,handle,null]]);
+recipes.addShaped("Hippogryph Sword", hippogryph_sword,
  [[null,hippogryphtalon,null],
   [feather,iron,feather],
   [null,handle,null]]);

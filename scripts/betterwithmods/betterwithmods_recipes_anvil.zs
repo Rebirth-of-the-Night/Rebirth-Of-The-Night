@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+
 //Steel Anvil
 recipes.remove(<betterwithmods:steel_anvil>);
 
@@ -39,6 +40,16 @@ for item in paneGlass.items{
       [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null]
    ]);
 }
+
+// Sledgehammer
+recipes.remove(<pyrotech:diamond_hammer>);
+mods.betterwithmods.Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgehammer
+[
+   [null, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, null],
+   [null, <betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>],
+   [null, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, null],
+   [null, null, null, null]
+]);
 
 // Arrows
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow>);
@@ -117,8 +128,8 @@ mods.betterwithmods.Anvil.addShaped(<spartancompat:katana_adamantium>,
 recipes.remove(<spartancompat:throwing_knife_adamantium>);
 mods.betterwithmods.Anvil.addShaped(<spartancompat:throwing_knife_adamantium>, 
 [
-   [viridium, blaze, null, null],
-   [null, null, null, null],
+   [viridium, null, null, null],
+   [blaze, null, null, null],
    [null, null, null, null],
    [null, null, null, null]
 ]);
@@ -174,10 +185,10 @@ mods.betterwithmods.Anvil.addShaped(<spartancompat:javelin_mythril>,
 recipes.remove(<spartancompat:boomerang_mythril>);
 mods.betterwithmods.Anvil.addShaped(<spartancompat:boomerang_mythril>, 
 [
-   [null, null, null, null],
+   [mythril, blaze, blaze, null],
    [blaze, null, null, null],
    [blaze, null, null, null],
-   [mythril, blaze, blaze, null]
+   [null, null, null, null]
 ]);
 
 recipes.remove(<spartancompat:mace_mythril>);
