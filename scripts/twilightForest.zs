@@ -1,14 +1,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.data.IData;
 
 mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table>);
-/* recipes.removeByRecipeName("twilightforest:uncrafting_table");
-
-recipes.addShaped("TF uncrafting table", <twilightforest:uncrafting_table>,
- [[<ore:workbench>,<twilightforest:maze_map_focus>,<ore:workbench>],
-  [<minecraft:clock>,<aether_legacy:notch_hammer>,<minecraft:clock>],
-  [<endreborn:death_essence>,<minecraft:stonebrick>,<endreborn:death_essence>]]); */
 
 recipes.remove(<twilightforest:castle_pillar:1>);
 recipes.addShaped("encased_castle_brick_tile",<twilightforest:castle_pillar:1>,[
@@ -29,4 +25,17 @@ recipes.addShaped("spiral_stone_bricks",<twilightforest:spiral_bricks>,[
     [<ore:stone>|<ore:StoneHugeBrick>,<ore:stoneSlab>,<ore:stoneSlab>],
     [<ore:stone>|<ore:StoneHugeBrick>,<ore:stoneSlab>,<ore:stoneSlab>],
     [<ore:stone>|<ore:StoneHugeBrick>,<ore:stone>|<ore:StoneHugeBrick>,<ore:stone>|<ore:StoneHugeBrick>],
+]);
+
+val enchantments as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>];
+var enchantmentMap as IData = {};
+
+enchantmentMap += enchantments[0].makeEnchantment(1).makeTag();
+
+recipes.remove(<twilightforest:ironwood_hoe>);
+recipes.addShaped("ironwood_hoe",<twilightforest:ironwood_hoe>.withTag(enchantmentMap), 
+[
+   [<twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, null],
+   [null, <ore:stickWood>, null],
+   [null, <ore:stickWood>, null]
 ]);

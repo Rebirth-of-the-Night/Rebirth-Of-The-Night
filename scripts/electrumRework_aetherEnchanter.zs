@@ -65,6 +65,10 @@ mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:stone_hammer>, 500);
 
 //Iron
 mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:iron_hammer>, 2000);
+mods.aether_legacy.Enchanter.registerEnchantment(<minecraft:shears>, 2000);
+mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:potshot>, 2000);
+mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:coin_cannon>, 2000);
+mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:backfire_cannon>, 2000);
 
 //Onyx
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_helmet>, 15600);
@@ -79,6 +83,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_hoe>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_sword>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_bow>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:greatbow>, 15600);
+mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:onyx_shears>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:obsidian_hammer>, 15600);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:dagger_onyx>, 15600);
@@ -117,6 +122,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_hoe>, 14400
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_sword>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_bow>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanshields:shield_basic_lead>, 14400);
+mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:mythril_shears>, 14400);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:dagger_mythril>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longsword_mythril>, 14400);
@@ -151,6 +157,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:adamantium_axe>, 12
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:adamantium_shovel>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:adamantium_hoe>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:adamantium_sword>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<simpleores:adamantium_shears>, 12000);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:dagger_adamantium>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longsword_adamantium>, 12000);
