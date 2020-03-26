@@ -6,20 +6,15 @@
     "slot": "feet",
     "whitelist": [
       {
-        "slot": "feet"
-      }
-    ],
-    "blacklist": [
-      {
-        "item": "simpleores:mythril_boots"
-      },
-      {
         "item": "betterwithmods:steel_boots"
       }
     ],
+    "blacklist": [
+
+    ],
     "qualities": [
       {
-        "name": "quality.crumbling.name",
+        "name": "Doomed",
         "color": "dark_red",
         "weight": 40,
         "attributes": [
@@ -35,6 +30,28 @@
           },
           {
             "name": "potioncore.magicShielding",
+            "amount": -1,
+            "operation": 0
+          },
+          {
+            "name": "generic.luck",
+            "amount": -0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Mourning",
+        "color": "dark_red",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.luck",
             "amount": -1,
             "operation": 0
           }
@@ -60,7 +77,7 @@
       {
         "name": "quality.dented.name",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 20,
         "attributes": [
           {
             "name": "generic.armor",
@@ -89,7 +106,7 @@
       {
         "name": "Impotent",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 20,
         "attributes": [
           {
             "name": "potioncore.magicShielding",
@@ -170,7 +187,7 @@
           },
           {
             "name": "generic.armor",
-            "amount": -1,
+            "amount": 1,
             "operation": 0
           }
         ]
@@ -194,6 +211,28 @@
             "name": "generic.armorToughness",
             "amount": -1,
             "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Vengeful",
+        "color": "yellow",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.08,
+            "operation": 2
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.05,
+            "operation": 2
           }
         ]
       },
@@ -335,7 +374,7 @@
       {
         "name": "quality.masterful.name",
         "color": "light_purple",
-        "weight": 20,
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.armor",
@@ -360,9 +399,41 @@
         ]
       },
       {
-        "name": "Lightning-quick",
+        "name": "Unleashed",
         "color": "light_purple",
         "weight": 16,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": 4,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.08,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.luck",
+            "amount": -0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Lightning-quick",
+        "color": "light_purple",
+        "weight": 10,
         "attributes": [
           {
             "name": "generic.movementSpeed",

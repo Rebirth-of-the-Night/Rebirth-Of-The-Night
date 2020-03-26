@@ -1,10 +1,10 @@
 {
-    "comment": "These qualities will apply for anything that can go 
+    "comment": "These qualities will apply for anything that can go
                 in baubles slots, and also the totem of undying (which can
                 be held in the offhand slot). For more info about how to
-                edit this file and add more files, visit 
+                edit this file and add more files, visit
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
+
     "slot": [
         "baubles_trinket",
         "offhand"
@@ -24,13 +24,59 @@
       }
     ],
     "blacklist": [
-    
+
     ],
     "qualities": [
       {
-        "name": "quality.horrible.name",
+        "name": "Cursed",
+        "color": "dark_red",
+        "weight": 4,
+        "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Possessed",
+        "color": "dark_red",
+        "weight": 4,
+        "attributes": [
+          {
+            "name": "generic.luck",
+            "amount": -2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Rational",
+        "color": "dark_red",
+        "weight": 4,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": -1,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.magicDamage",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.luck",
+            "amount": -0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Mischievous",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 4,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -52,7 +98,7 @@
       {
         "name": "quality.clunky.name",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 4,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -72,13 +118,25 @@
         ]
       },
       {
+        "name": "Nether-drawn",
+        "color": "dark_gray",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.jumpHeight",
+            "amount": -0.1,
+            "operation": 0
+          }
+        ]
+      },
+      {
         "name": "quality.unlucky.name",
         "color": "red",
         "weight": 10,
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": -0.2,
+            "amount": -0.3,
             "operation": 0
           }
         ]
@@ -88,19 +146,102 @@
         "weight": 100
       },
       {
+        "name": "Effervescent",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.035,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Intronautical",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": -1,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Astral",
+        "color": "yellow",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": 4,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.06,
+            "operation": 2
+          }
+        ]
+      },
+      {
         "name": "quality.lucky.name",
         "color": "blue",
         "weight": 10,
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": 0.2,
+            "amount": 0.3,
             "operation": 0
           }
         ]
       },
       {
-        "name": "quality.healthy.name",
+        "name": "Sigiled",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.luck",
+            "amount": 0.3,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Conjuring",
         "color": "blue",
         "weight": 10,
         "attributes": [
@@ -112,7 +253,7 @@
         ]
       },
       {
-        "name": "quality.armored.name",
+        "name": "Preposterous",
         "color": "blue",
         "weight": 10,
         "attributes": [
@@ -148,31 +289,31 @@
         ]
       },
       {
-        "name": "quality.prospecting.name",
+        "name": "Erratic",
         "color": "blue",
         "weight": 10,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.flailing.name",
+        "name": "Playful",
         "color": "blue",
         "weight": 10,
         "attributes": [
           {
             "name": "generic.attackSpeed",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.shielding.name",
+        "name": "Warding",
         "color": "blue",
         "weight": 10,
         "attributes": [
@@ -190,32 +331,44 @@
         "attributes": [
           {
             "name": "potioncore.magicDamage",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.aiming.name",
+        "name": "Sparkling",
         "color": "blue",
         "weight": 10,
         "attributes": [
           {
             "name": "potioncore.projectileDamage",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.strengthening.name",
+        "name": "Volatile",
         "color": "blue",
         "weight": 10,
         "attributes": [
           {
             "name": "generic.attackDamage",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Expanding",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.25,
+            "operation": 0
           }
         ]
       },
@@ -226,18 +379,18 @@
         "attributes": [
           {
             "name": "generic.attackSpeed",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           },
           {
             "name": "potioncore.digSpeed",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.athletic.name",
+        "name": "Excitable",
         "color": "aqua",
         "weight": 10,
         "attributes": [
@@ -260,18 +413,35 @@
         "attributes": [
           {
             "name": "generic.attackDamage",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           },
           {
             "name": "potioncore.projectileDamage",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
           },
           {
             "name": "potioncore.magicDamage",
-            "amount": 0.03,
+            "amount": 0.035,
             "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Mystical",
+        "color": "light_purple",
+        "weight": 5,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
           }
         ]
       },
@@ -294,6 +464,28 @@
             "name": "potioncore.magicShielding",
             "amount": 1,
             "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Aether Infused",
+        "color": "gold",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "potioncore.jumpHeight",
+            "amount": 1,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.stepHeight",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.06,
+            "operation": 2
           }
         ]
       }

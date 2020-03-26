@@ -1,27 +1,19 @@
 {
-    "comment": "These qualities will apply for all leggings! For more info
-                about how to edit this file and add more files, visit
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-
-    "slot": "legs",
+    "comment": "These are special magic-themed qualities that will only apply to mythril. They are very slightly stronger, but are mostly just for flavor.",
+    "slot": "head",
     "whitelist": [
       {
-        "slot": "legs"
+        "item": "simpleores:mythril_leggings"
       }
     ],
     "blacklist": [
-      {
-        "item": "simpleores:mythril_leggings"
-      },
-      {
-        "item": "betterwithmods:steel_pants"
-      }
+
     ],
     "qualities": [
       {
-        "name": "quality.crumbling.name",
+        "name": "Overflowing",
         "color": "dark_red",
-        "weight": 30,
+        "weight": 50,
         "attributes": [
           {
             "name": "generic.armor",
@@ -30,20 +22,15 @@
           },
           {
             "name": "generic.armorToughness",
-            "amount": -1,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.magicShielding",
-            "amount": -1,
+            "amount": -2,
             "operation": 0
           }
         ]
       },
       {
-        "name": "Weakening",
+        "name": "Drained of magic",
         "color": "dark_red",
-        "weight": 30,
+        "weight": 45,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -58,9 +45,26 @@
         ]
       },
       {
-        "name": "Restrictive",
+        "name": "Attracting strange magic",
+        "color": "dark_red",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "generic.armorToughness",
+            "amount": -2,
+            "operation": 0
+          },
+          {
+            "name": "generic.luck",
+            "amount": -1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Abnormal",
         "color": "dark_gray",
-        "weight": 35,
+        "weight": 40,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -75,37 +79,20 @@
         ]
       },
       {
-        "name": "quality.dented.name",
+        "name": "Destabilizing",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 45,
         "attributes": [
           {
             "name": "generic.armor",
-            "amount": -1,
+            "amount": -1.5,
             "operation": 0
           }
         ]
       },
       {
-        "name": "Impotent",
+        "name": "Containing residue magic",
         "color": "dark_gray",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "potioncore.magicShielding",
-            "amount": -1,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.heavy.name",
-        "color": "red",
         "weight": 40,
         "attributes": [
           {
@@ -120,7 +107,107 @@
         "weight": 440
       },
       {
-        "name": "quality.thick.name",
+        "name": "Reckless",
+        "color": "yellow",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.05,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Steadfast",
+        "color": "yellow",
+        "weight": 20,
+        "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.magicDamage",
+            "amount": -0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": -0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Warped",
+        "color": "yellow",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": -1,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Unstable",
+        "color": "yellow",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.14,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.08,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Silly",
+        "color": "yellow",
+        "weight": 20,
+        "attributes": [
+          {
+            "name": "generic.luck",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "generic.armor",
+            "amount": -0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Dazzling",
         "color": "yellow",
         "weight": 40,
         "attributes": [
@@ -154,73 +241,7 @@
         ]
       },
       {
-        "name": "Reckless",
-        "color": "yellow",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "generic.movementSpeed",
-            "amount": 0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.damageResistance",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Steadfast",
-        "color": "yellow",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "potioncore.damageResistance",
-            "amount": 0.1,
-            "operation": 2
-          },
-          {
-            "name": "generic.attackDamage",
-            "amount": -0.1,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": -0.1,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.1,
-            "operation": 2
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.1,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Silly",
-        "color": "yellow",
-        "weight": 40,
-        "attributes": [
-          {
-            "name": "generic.luck",
-            "amount": 0.5,
-            "operation": 0
-          },
-          {
-            "name": "generic.armor",
-            "amount": -0.5,
-            "operation": 0
-          }
-        ]
-      },
-      {
-        "name": "quality.tough.name",
+        "name": "Runed",
         "color": "blue",
         "weight": 40,
         "attributes": [
@@ -228,28 +249,43 @@
             "name": "generic.armorToughness",
             "amount": 1,
             "operation": 0
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
           }
         ]
       },
       {
-        "name": "Surging",
+        "name": "Magician's",
         "color": "blue",
         "weight": 40,
         "attributes": [
           {
             "name": "potioncore.magicDamage",
-            "amount": 0.08,
+            "amount": 0.1,
             "operation": 2
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
           }
         ]
       },
       {
-        "name": "Flexible",
+        "name": "Arcane archer's",
         "color": "blue",
-        "weight": 40,
+        "weight": 20,
         "attributes": [
           {
             "name": "potioncore.projectileDamage",
+            "amount": 0.04,
+            "operation": 2
+          },
+          {
+            "name": "generic.movementSpeed",
             "amount": 0.04,
             "operation": 2
           }
@@ -264,26 +300,24 @@
             "name": "generic.attackDamage",
             "amount": 0.04,
             "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "Imposing",
-        "color": "blue",
-        "weight": 40,
-        "attributes": [
+          },
           {
             "name": "potioncore.damageResistance",
-            "amount": 0.05,
+            "amount": 0.02,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.protective.name",
+        "name": "Warded",
         "color": "blue",
         "weight": 40,
         "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          },
           {
             "name": "generic.armor",
             "amount": 0.5,
@@ -292,10 +326,15 @@
         ]
       },
       {
-        "name": "quality.arcane.name",
+        "name": "Runeguardian's",
         "color": "blue",
         "weight": 40,
         "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.05,
+            "operation": 2
+          },
           {
             "name": "potioncore.magicShielding",
             "amount": 1,
@@ -304,7 +343,31 @@
         ]
       },
       {
-        "name": "quality.springy.name",
+        "name": "Infused",
+        "color": "blue",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Anciently arcane",
+        "color": "blue",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 2,
+            "operation": 0
+          }
+        ]
+      },
+      {
+        "name": "Levitating",
         "color": "blue",
         "weight": 40,
         "attributes": [
@@ -316,13 +379,18 @@
         ]
       },
       {
-        "name": "quality.masterful.name",
+        "name": "Brilliant",
         "color": "light_purple",
         "weight": 12,
         "attributes": [
           {
             "name": "generic.armor",
             "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
             "operation": 0
           },
           {
@@ -338,7 +406,7 @@
         ]
       },
       {
-        "name": "Acrobatic",
+        "name": "Arcane trickster's",
         "color": "light_purple",
         "weight": 12,
         "attributes": [
@@ -348,20 +416,25 @@
             "operation": 0
           },
           {
+            "name": "potioncore.stepHeight",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
             "name": "generic.movementSpeed",
-            "amount": 0.05,
+            "amount": 0.08,
             "operation": 2
           }
         ]
       },
       {
-        "name": "Enlightened",
+        "name": "Archmage's",
         "color": "light_purple",
         "weight": 12,
         "attributes": [
           {
             "name": "potioncore.magicShielding",
-            "amount": 1.5,
+            "amount": 2,
             "operation": 0
           },
           {
@@ -373,13 +446,13 @@
       },
       {
         "name": "Converging",
-        "color": "gold",
+        "color": "light_purple",
         "weight": 4,
         "attributes": [
           {
             "name": "potioncore.magicDamage",
             "amount": 0.16,
-            "operation": 2
+            "operation": 0
           }
         ]
       }

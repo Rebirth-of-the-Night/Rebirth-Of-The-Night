@@ -1,46 +1,15 @@
 {
-    "comment": "These qualities will apply for all basic weapons and
-                tools, including swords, pickaxes, axes, shovels, hoes,
-                and shears! For more info about how to edit this file
-                and add more files, visit
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "comment": "-",
 
     "slot": "mainhand",
     "whitelist": [
       {
-        "class": "ItemTool"
-      },
-      {
-        "class": "ItemHoe"
-      },
-      {
-        "class": "ItemShears"
+        "item": "simpleores:mythril_shears"
       }
     ],
     "blacklist": [
       {
-        "item": "simpleores:mythril_shears"
-      },
-      {
-        "item": "betterwithmods:steel_axe"
-      },
-      {
-        "item": "betterwithmods:steel_hoe"
-      },
-      {
-        "item": "betterwithmods:steel_pickaxe"
-      },
-      {
-        "item": "betterwithmods:steel_shovel"
-      },
-      {
-        "item": "betterwithmods:steel_mattock"
-      },
-      {
-        "item": "betterwithmods:steel_battleaxe"
-      },
-      {
-        "item": "betterwithmods:steel_hacksaw"
+
       }
 
     ],
@@ -48,7 +17,7 @@
       {
         "name": "quality.worthless.name",
         "color": "dark_red",
-        "weight": 15,
+        "weight": 60,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -65,7 +34,7 @@
       {
         "name": "Rusted",
         "color": "dark_gray",
-        "weight": 25,
+        "weight": 100,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -77,7 +46,7 @@
       {
         "name": "Dense",
         "color": "red",
-        "weight": 15,
+        "weight": 60,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -94,7 +63,7 @@
       {
         "name": "Heavy",
         "color": "dark_gray",
-        "weight": 25,
+        "weight": 100,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -106,7 +75,7 @@
       {
         "name": "Clumsy",
         "color": "dark_gray",
-        "weight": 30,
+        "weight": 120,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -118,7 +87,7 @@
       {
         "name": "quality.short.name",
         "color": "yellow",
-        "weight": 40,
+        "weight": 160,
         "attributes": [
           {
             "name": "generic.reachDistance",
@@ -134,12 +103,12 @@
       },
       {
         "name": "normal",
-        "weight": 200
+        "weight": 800
       },
       {
         "name": "Oversized",
         "color": "yellow",
-        "weight": 40,
+        "weight": 160,
         "attributes": [
           {
             "name": "generic.reachDistance",
@@ -156,7 +125,7 @@
       {
         "name": "quality.long.name",
         "color": "blue",
-        "weight": 40,
+        "weight": 160,
         "attributes": [
           {
             "name": "generic.reachDistance",
@@ -166,9 +135,21 @@
         ]
       },
       {
+        "name": "MAGIC SHEARS!",
+        "color": "green",
+        "weight": 2,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 1.5,
+            "operation": 2
+          }
+        ]
+      },
+      {
         "name": "Electric",
         "color": "blue",
-        "weight": 40,
+        "weight": 160,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -185,7 +166,7 @@
       {
         "name": "quality.graceful.name",
         "color": "aqua",
-        "weight": 32,
+        "weight": 128,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -197,7 +178,7 @@
       {
         "name": "Epic",
         "color": "light_purple",
-        "weight": 14,
+        "weight": 56,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -214,7 +195,7 @@
       {
         "name": "Notched",
         "color": "gold",
-        "weight": 2,
+        "weight": 8,
         "attributes": [
           {
             "name": "potioncore.digSpeed",

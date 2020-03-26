@@ -8,20 +8,6 @@
     "slot": "mainhand",
     "whitelist": [
       {
-        "class": "ItemTool"
-      },
-      {
-        "class": "ItemHoe"
-      },
-      {
-        "class": "ItemShears"
-      }
-    ],
-    "blacklist": [
-      {
-        "item": "simpleores:mythril_shears"
-      },
-      {
         "item": "betterwithmods:steel_axe"
       },
       {
@@ -42,6 +28,8 @@
       {
         "item": "betterwithmods:steel_hacksaw"
       }
+    ],
+    "blacklist": [
 
     ],
     "qualities": [
@@ -63,14 +51,19 @@
         ]
       },
       {
-        "name": "Rusted",
-        "color": "dark_gray",
+        "name": "Tortured",
+        "color": "dark_red",
         "weight": 25,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
             "amount": -0.15,
             "operation": 2
+          },
+          {
+            "name": "generic.luck",
+            "amount": -0.5,
+            "operation": 0
           }
         ]
       },
@@ -92,12 +85,17 @@
         ]
       },
       {
-        "name": "Heavy",
-        "color": "dark_gray",
+        "name": "Wailing",
+        "color": "dark_red",
         "weight": 25,
         "attributes": [
           {
             "name": "generic.movementSpeed",
+            "amount": -0.05,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
             "amount": -0.05,
             "operation": 2
           }
@@ -129,6 +127,23 @@
             "name": "potioncore.digSpeed",
             "amount": 0.15,
             "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Damned",
+        "color": "yellow",
+        "weight": 40,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.luck",
+            "amount": -0.5,
+            "operation": 0
           }
         ]
       },
@@ -197,7 +212,7 @@
       {
         "name": "Epic",
         "color": "light_purple",
-        "weight": 14,
+        "weight": 7,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -212,13 +227,72 @@
         ]
       },
       {
+        "name": "Soulreaping",
+        "color": "light_purple",
+        "weight": 7,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": 1,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
         "name": "Notched",
         "color": "gold",
-        "weight": 2,
+        "weight": 1,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
             "amount": 0.25,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Spirit Crusher",
+        "color": "gold",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.25,
+            "operation": 2
+          },
+          {
+            "name": "generic.reachDistance",
+            "amount": 1,
+            "operation": 0
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.luck",
+            "amount": -0.5,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -0.2,
             "operation": 2
           }
         ]
