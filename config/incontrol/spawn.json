@@ -15,6 +15,18 @@
 
 // boss buff time!
 {
+    "mob": "minecraft:wither",
+	"onjoin": true,
+    "damagemultiply": 2
+  },
+
+{
+    "mob": "minecraft:wither_skull",
+	"onjoin": true,
+    "damagemultiply": 2
+  },
+  
+{
     "mob": "betteranimalsplus:hirschgeist",
 	"onjoin": true,
     "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "extraalchemy:effect.dislocation,20,2", "potioncore:teleport_surface,10,1"]
