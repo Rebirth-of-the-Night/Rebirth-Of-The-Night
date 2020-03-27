@@ -9,6 +9,8 @@ import crafttweaker.data.IData;
 val irongolem = LootTables.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
+<entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,5);
+
 // attempt to fix godswords
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:dawn_star");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:vampiric_blade");
