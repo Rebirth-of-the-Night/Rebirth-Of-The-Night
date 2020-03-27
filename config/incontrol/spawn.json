@@ -1985,6 +1985,8 @@
         "perplayer": true
     },
     "result": "allow",
+	"damagemultiply": 0.5,
+    "healthmultiply": 0.5,
 	"potion": "minecraft:fire_resistance,10000,1"
  },
  {
