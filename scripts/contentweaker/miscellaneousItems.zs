@@ -17,6 +17,8 @@ val coin4 = mods.contenttweaker.VanillaFactory.createItem("coinT4");
 coin4.register();
 val pcoin = mods.contenttweaker.VanillaFactory.createItem("nethercoin");
 pcoin.register();
+val info = mods.contenttweaker.VanillaFactory.createItem("info");
+info.register();
 
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
