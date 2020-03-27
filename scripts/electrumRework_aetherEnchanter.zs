@@ -473,12 +473,21 @@ mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk>
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk_frost>, 72000);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:aethers_guard>, 72000);
 mods.aether_legacy.Enchanter.registerEnchantment(<rats:plague_scythe>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:wither_bane>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:crystaline_blade>, 72000);
 
-//Relics
+//Relics-Godly
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_aqueous>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_candy>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 240);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:dawn_star>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:silver_sword>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:eye_end_blade>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(, 72000);
 
 //Special
 mods.aether_legacy.Enchanter.registerEnchantment(<quark:pickarang>, 7700);

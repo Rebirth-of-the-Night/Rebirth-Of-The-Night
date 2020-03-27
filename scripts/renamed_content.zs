@@ -375,7 +375,6 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <spartancompat:halberd_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:greatsword_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:warhammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:warhammer_onyx>.addTooltip("Also a sledgehammer");
 <spartancompat:pike_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:battleaxe_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:hammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
@@ -409,7 +408,6 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 <aether_legacy:notch_hammer>.displayName = "§6Hammer of Miku";
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
-<aether_legacy:notch_hammer>.addTooltip("Also functions as a sledgehammer.");
 <endreborn:ender_sword>.displayName = "§6Void Ripper";
 <endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
 
