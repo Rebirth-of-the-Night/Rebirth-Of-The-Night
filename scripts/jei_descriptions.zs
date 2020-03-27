@@ -20,12 +20,12 @@ mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipur
 
 mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of Heaven lies inside fallen stars. These will rarely fall from the sky, but many will fall during a star shower."]);
 
-mods.jei.JEI.addDescription([<nyx:comet_shard>],["A very rare find, this is. They fall from the sky, but also drop from Elder Guardians."]);
+mods.jei.JEI.addDescription([<nyx:comet_shard>],["A very rare find. These toughened rock chunks fall from the sky, but are also found embedded within Elder Guardians."]);
 
 
 mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the force of holy light from the Heavens, this heart flows with a burning radiance and searing power to cast away all evil."]);
 
-mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. You hear faint screams of pain as you listen closely to this heart."]);
+mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. If you listen closely, you can hear faint cries of pain and sorrow echoing within."]);
 
 
 mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
@@ -34,10 +34,10 @@ mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining
 mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
 mods.jei.JEI.addDescription(<betterwithmods:steel_hoe>,"Provides the best durability, but impossible to enchant since it is already infused with souls.");
 
-mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Impossible to enchant since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Impossible to enchant since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Impossible to enchant since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Impossible to enchant since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Impossible to enchant, since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Impossible to enchant, since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Impossible to enchant, since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Impossible to enchant, since it is already infused with souls.");
 
 
 mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly living crystal. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
@@ -291,23 +291,23 @@ val compact = <pyrotech:compacting_bin>;
 val woodChips = <pyrotech:rock:7>;
 
 mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
-mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"Made with common materials. Can light a kiln if held down but it is rather fragile.");
+mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"Made with common materials. Can light a kiln if held down, but it is rather fragile. Not as convenient as a flint and steel.");
 mods.jei.JEI.addDescription(<pyrotech:stone_kiln>,"A primitive machine that can smelt certain items like clay, bronze alloy, and charcoal in batches of 12. Needs to be ignited with a flint and tinder or a better igniter while having fuel. Use and hold igniter until lit.");
 mods.jei.JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone kiln that can smelt certain items like clay, bronze alloy, and charcoal in batches of 32, faster and more effectively! Ignited the same way as a stone kiln.");
 mods.jei.JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
 mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
 mods.jei.JEI.addDescription(<pyrotech:shelf>,"Displays items much more visibly than a chest ever could.");
-mods.jei.JEI.addDescription(<pyrotech:stash>,"When all that's needed is somewhere to stash items but not as massive as an arcane trove. Can hold up to 32 stacks of the same item.");
-mods.jei.JEI.addDescription(driedPlantFiber, "Small strands of dried fiber, can be tied together for some string or better quality fiber.");
-mods.jei.JEI.addDescription(PlantFiber, "Various good quality grass blades found by breaking different kinds of grass.");
-mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance of spider or wool string.");
-mods.jei.JEI.addDescription(durableTwine, "By means of various procedures, this simple strand of plants has roughly achieved the durability and strength of higher quality fibers.");
-mods.jei.JEI.addDescription(crudePole, "Less than ideal, may break unexpectedly the more it is used.");
-mods.jei.JEI.addDescription(compact, "A reinforced container, that's useful to compact stuff into denser materials or blocks.");
+mods.jei.JEI.addDescription(<pyrotech:stash>,"When all you need is somewhere to stash items... without requiring an arcane trove. Can hold up to 32 stacks of the same item.");
+mods.jei.JEI.addDescription(driedPlantFiber, "Small strands of dried fiber. Can be tied together for some string or better quality fiber.");
+mods.jei.JEI.addDescription(PlantFiber, "Various high-quality plant material found by breaking different kinds of grass.");
+mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance as string from wool or spider-silk.");
+mods.jei.JEI.addDescription(durableTwine, "By means of various crafting procedures, these simple strands of plants have roughly achieved the durability and strength of higher quality fibers.");
+mods.jei.JEI.addDescription(crudePole, "Less than ideal... may break unexpectedly the more it is used.");
+mods.jei.JEI.addDescription(compact, "A reinforced container that's useful to compact stuff into denser materials or blocks.");
 mods.jei.JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash one gets mulch! By applying it to farmland, it gets protected from trambling and will grow a bit faster.");
 mods.jei.JEI.addDescription(woodChips, "This pesky byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
-mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "This combustion based sawmill needs a saw placed on top, fuel and to be ignited in order to properly work.");
-mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "Although it is not as durable, fast or high yielding as a mechanically powered sawmill, it is easier to build and has room for two items.");
+mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "This combustion-based sawmill needs a saw placed on top and fuel ignited within in order to function.");
+mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "Although it is not as fast, durable, or high-yielding as a mechanically-powered sawmill, it is easier to build and has room for two items.");
 
 # Relics
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
