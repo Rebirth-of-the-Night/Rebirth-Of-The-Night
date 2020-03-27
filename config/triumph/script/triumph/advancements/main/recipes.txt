@@ -16,5 +16,5 @@ setAnnounceToChat(false)
 criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
 
 hideLines()
-alwaysVisible()
+setHidden(true)
 setPos(-446,-13)
