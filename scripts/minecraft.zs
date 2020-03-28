@@ -169,6 +169,8 @@ recipes.addShaped("Flintstone Pickaxe", <minecraft:stone_pickaxe>,[
 ]);
 
 mods.jei.JEI.removeAndHide(<minecraft:shield>);
+mods.ltt.LootTable.removeGlobalItem("minecraft:shield");
+
 
 var potions = <minecraft:potion>;
 var potions_splash = <minecraft:splash_potion>;
