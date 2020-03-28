@@ -45,11 +45,6 @@ recipes.remove(<simpleores:adamantium_chestplate>);
 recipes.remove(<simpleores:adamantium_leggings>);
 recipes.remove(<simpleores:adamantium_boots>);
 
-recipes.remove(<endreborn:armour_helmet_helmet>);
-recipes.remove(<endreborn:armour_chestplate_obsidian>);
-recipes.remove(<endreborn:armour_leggings_obsidian>);
-recipes.remove(<endreborn:armour_boots_obsidian>);
-
 recipes.remove(<iceandfire:dragonsteel_fire_helmet>);
 recipes.remove(<iceandfire:dragonsteel_fire_chestplate>);
 recipes.remove(<iceandfire:dragonsteel_fire_leggings>);
@@ -149,35 +144,6 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:adamantium_leggings>,
    [null, null, <simpleores:adamantium_ingot>]
 ]);
 
-//Obsidian
-mods.betterwithmods.Anvil.addShaped(<endreborn:armour_helmet_helmet>, 
-[
-   [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <betterwithmods:material:42>],
-   [<endreborn:item_ingot_endorium>, null, null, null],
-   [<endreborn:item_ingot_endorium>, null, null, null],
-   [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <betterwithmods:material:42>]
-]);   
-   mods.betterwithmods.Anvil.addShaped(<endreborn:armour_chestplate_obsidian>, 
-   [
-   [<betterwithmods:material:42>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>],
-   [null, <endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <endreborn:item_shard_obsidian>],
-   [null, <endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <endreborn:item_shard_obsidian>],
-   [<betterwithmods:material:42>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>],
-]);
-mods.betterwithmods.Anvil.addShaped(<endreborn:armour_leggings_obsidian>, 
-[
-   [<endreborn:item_ingot_endorium>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
-   [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, null, null],
-   [<endreborn:item_shard_obsidian>, <endreborn:item_shard_obsidian>, null, null],
-   [<endreborn:item_ingot_endorium>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
-]);
-mods.betterwithmods.Anvil.addShaped(<endreborn:armour_boots_obsidian>, 
-[
-   [null, null, <endreborn:item_shard_obsidian>],
-   [<endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <betterwithmods:material:42>],
-   [<endreborn:item_shard_obsidian>, <endreborn:item_ingot_endorium>, <betterwithmods:material:42>],
-   [null, null, <endreborn:item_shard_obsidian>]
-]);
 
 //Dragon Steel
 //Fire
