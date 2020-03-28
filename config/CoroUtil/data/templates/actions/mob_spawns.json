@@ -22,7 +22,6 @@
             "minecraft:zombie"
           ],
           "count": 3,
-          "count_max": 5,
           "spawn_type": "ground",
           "cmods": [
             {
@@ -40,7 +39,6 @@
             "minecraft:zombie"
           ],
           "count": 5,
-          "count_max": 15,
           "spawn_type": "ground",
           "cmods": [
             {
@@ -75,7 +73,6 @@
             "minecraft:zombie"
           ],
           "count": 3,
-          "count_max": 5,
           "cmods": [
             {
               "cmod": "template",
@@ -92,7 +89,6 @@
             "minecraft:zombie"
           ],
           "count": 3,
-          "count_max": 5,
           "cmods": [
             {
               "cmod": "template",
@@ -109,7 +105,6 @@
             "minecraft:skeleton"
           ],
           "count": 5,
-          "count_max": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -143,7 +138,6 @@
             "quark:pirate"
           ],
           "count": 5,
-          "count_max": 25,
           "cmods": [
             {
               "cmod": "template",
@@ -160,7 +154,6 @@
             "minecraft:parrot"
           ],
           "count": 5,
-          "count_max": 15,
           "spawn_type": "ground",
           "cmods": [
             {
@@ -198,7 +191,6 @@
             "minecraft:zombie"
           ],
           "count": 5,
-          "count_max": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -215,7 +207,6 @@
             "minecraft:creeper"
           ],
           "count": 5,
-          "count_max": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -231,7 +222,6 @@
             "primitivemobs:rocket_creeper"
           ],
           "count": 5,
-          "count_max": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -247,7 +237,6 @@
             "primitivemobs:jumping_creeper"
           ],
           "count": 5,
-          "count_max": 10,
           "cmods": [
             {
               "cmod": "template",
