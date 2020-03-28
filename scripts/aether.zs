@@ -38,6 +38,9 @@ mods.ltt.LootTable.removeGlobalItem("toroquest:diamond_battle_axe");
 mods.jei.JEI.removeAndHide(<aeble:obsidian_ring>);
 mods.jei.JEI.removeAndHide(<aeble:zanite_ring>);
 mods.jei.JEI.removeAndHide(<aeble:ice_ring>);
+mods.ltt.LootTable.removeGlobalItem("aeble:obsidian_ring");
+mods.ltt.LootTable.removeGlobalItem("aeble:zanite_ring");
+mods.ltt.LootTable.removeGlobalItem("aeble:ice_ring");
 
 
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");
