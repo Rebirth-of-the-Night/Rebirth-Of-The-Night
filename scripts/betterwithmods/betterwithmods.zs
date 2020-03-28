@@ -181,11 +181,7 @@ recipes.addShaped("betterminingcharge",<betterwithmods:mining_charge>*64,[
 ]);
 
 //Descriptions
-mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
-mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, like sails and different kinds of cloth.");
-mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
-mods.jei.JEI.addDescription(<betterwithmods:saw>,"Much more precise than any axe, the saw can make some nice half-blocks.");
-mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any Wooden Slab, or cheaper using Wooden Siding once you build a Saw!");
+
 
 
 // Remove unused refined weapons
