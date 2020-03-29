@@ -141,7 +141,7 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chain, null, chain]
 ]);
 
-val flint = <minecraft:flint>;
+val flint = <ore:materialStoneTool>;
 val stick = <ore:stickWood>;
 
 recipes.addShaped("Flintstone Axe", <minecraft:stone_axe>,[
@@ -190,6 +190,9 @@ pressurePlateWood.addItems([<aether_legacy:skyroot_pressure_plate>,<betternether
 
 val buttonWood = <ore:buttonWood>;
 buttonWood.addItems([<aether_legacy:skyroot_button>,<betternether:reeds_button>,<betternether:stalagnate_planks_button>]);
+
+val materialStoneTool = <ore:materialStoneTool>;
+materialStoneTool.add(<pyrotech:rock>);
 
 val allStoneSlab = <ore:stoneSlab>;
 allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:0>, <biomesoplenty:other_slab:1>]);
@@ -481,4 +484,4 @@ recipes.addShaped("forgiving tool reforging station", <qualitytools:reforging_st
 //Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie:1>, 2);
 //Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <iceandfire:jar_pixie>, 2);
 
-Merchant.addTrade("minecraft:nitwit", "nitwit", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 1);
+//Merchant.addTrade("minecraft:nitwit", "nitwit", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 1);
