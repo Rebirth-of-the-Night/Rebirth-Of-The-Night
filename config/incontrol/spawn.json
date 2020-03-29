@@ -1784,9 +1784,9 @@
     "mob": "specialmobs:lemonslime",
     "maxlight": 15,
     "minlight": 14,
-    "random": 0.003,
+    "random": 0.001,
     "seesky": true,
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "enteredAether",
     "maxcount": {
         "amount": 2,
         "perplayer": true
