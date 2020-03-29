@@ -279,6 +279,11 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 
 #Epic
+
+<contenttweaker:amulet_of_divinity>.displayName = "§5Amulet of Divinity";
+<contenttweaker:amulet_of_divinity>.addTooltip(format.darkPurple(""));
+
+
 <nyx:fallen_star>.displayName = "§5Fallen Star";
 <nyx:fallen_star>.addTooltip("Crafting Material");
 
