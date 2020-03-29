@@ -820,6 +820,8 @@
  {
     "dimension": 10,
     "mob": "specialmobs:deathcreeper",
+    "maxlight": 7,
+    "minlight": 0,
     "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 5,
@@ -836,6 +838,8 @@
  {
     "dimension": -1,
     "mob": "specialmobs:doomcreeper",
+    "maxlight": 7,
+    "minlight": 0,
     "gamestage": "killedWither",
     "maxcount": {
         "amount": 5,
