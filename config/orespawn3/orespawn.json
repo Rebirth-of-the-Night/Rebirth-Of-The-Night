@@ -4,7 +4,7 @@
 		"quartz_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				-1
@@ -29,7 +29,7 @@
 		"rime_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				-1
@@ -54,7 +54,7 @@
 		"onyx_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				-1
@@ -79,7 +79,7 @@
 		"coal_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -104,7 +104,7 @@
 		"tin_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -129,7 +129,7 @@
 		"iron_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -154,7 +154,7 @@
 		"silver_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -179,7 +179,7 @@
 		"gold_ore_standard": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -201,33 +201,10 @@
 				}
 			]
 		},
-		"gold_ore_mesa": {
-			"retrogen": false,
-			"enabled": true,
-			"feature": "default",
-			"replaces": "default",
-			"dimensions": [],
-			"biomes": {
-				"includes": [ "MESA" ]
-			},
-			"parameters": {
-				"size": 8,
-				"variation": 2,
-				"frequency": 120,
-				"minHeight": 32,
-				"maxHeight": 79
-			},
-			"blocks": [
-				{
-					"name": "minecraft:gold_ore",
-					"chance": 100
-				}
-			]
-		},
 		"diamond_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -252,7 +229,7 @@
 		"redstone_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -277,7 +254,7 @@
 		"lapis_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -302,7 +279,7 @@
 		"amethyst_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				1
@@ -328,7 +305,7 @@
 		"ruby_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -354,7 +331,7 @@
 		"sapphire_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0
@@ -380,7 +357,7 @@
 		"peridot_ore": {
 			"retrogen": false,
 			"enabled": true,
-			"feature": "default",
+			"feature": "vein",
 			"replaces": "default",
 			"dimensions": [
 				0

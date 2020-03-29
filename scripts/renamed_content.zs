@@ -5,6 +5,11 @@ import crafttweaker.game.IGame;
 
 
 // Aether Legacy
+<aether_legacy:obsidian_chestplate>.displayName = "Extinguished Flame Chestplate";
+<aether_legacy:obsidian_helmet>.displayName = "Extinguished Flame Helmet";
+<aether_legacy:obsidian_leggings>.displayName = "Extinguished Flame Leggings";
+<aether_legacy:obsidian_boots>.displayName = "Extinguished Flame Boots";
+
 <aether_legacy:cockatrice>.displayName = "Kelenk Meat";
 <aether_legacy:burnt_cockatrice>.displayName = "Burnt Kelenk Meat";
 <aether_legacy:enchanted_cockatrice>.displayName = "Enchanted Kelenk Meat";
