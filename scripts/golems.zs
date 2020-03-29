@@ -2,7 +2,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
+
+mods.jei.JEI.removeAndHide(<golems:info_book>);
+
+
 recipes.remove(<golems:golem_paper>);
+
 
 var magicpowder = <dungeontactics:magic_powder>;
 var feather = <minecraft:feather>;

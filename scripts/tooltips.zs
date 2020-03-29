@@ -109,6 +109,8 @@
 # Weapons
 
 #Misc.
+<betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
+
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
 <mowziesmobs:wrought_axe>.removeTooltip("Never breaks");
