@@ -61,6 +61,7 @@ import crafttweaker.game.IGame;
 <twilightforest:mangrove_plate>.displayName = "Twilight Mangrove Pressure Plate";
 <twilightforest:stone_twist>.displayName = "Twisted Stone Pillar";
 <twilightforest:stone_twist_thin>.displayName = "Thin Twisted Stone Pillar";
+<twilightforest:boss_spawner:9>.displayName = "Final Boss Spawner";
 
 // Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
@@ -169,6 +170,30 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <netherex:frosted_amedian_axe>.displayName = "Frosted Rime Axe";
 <netherex:frosted_amedian_shovel>.displayName = "Frosted Rime Shovel";
 <netherex:frosted_amedian_hoe>.displayName = "Frosted Rime Hoe";
+<netherex:basalt>.displayName = "Black Basalt";
+<netherex:smooth_basalt>.displayName = "Smooth Black Basalt";
+<netherex:basalt_brick>.displayName = "Black Basalt Bricks";
+<netherex:basalt_pillar>.displayName = "Black Basalt Pillar";
+<netherex:basalt_slab>.displayName = "Black Basalt Slab";
+<netherex:smooth_basalt_slab>.displayName = "Smooth Black Basalt Slab";
+<netherex:basalt_brick_slab>.displayName = "Black Basalt Brick Slab";
+<netherex:basalt_pillar_slab>.displayName = "Black Basalt Pillar Slab";
+<netherex:basalt_stairs>.displayName = "Black Basalt Stairs";
+<netherex:smooth_basalt_stairs>.displayName = "Smooth Black Basalt Stairs";
+<netherex:basalt_brick_stairs>.displayName = "Black Basalt Brick Stairs";
+<netherex:basalt_pillar_stairs>.displayName = "Black Basalt Pillar Stairs";
+<netherex:basalt_wall>.displayName = "Black Basalt Wall";
+<netherex:smooth_basalt_wall>.displayName = "Smooth Black Basalt Wall";
+<netherex:basalt_brick_wall>.displayName = "Black Basalt Brick Wall";
+<netherex:basalt_pillar_wall>.displayName = "Black Basalt Pillar Wall";
+<netherex:basalt_fence>.displayName = "Black Basalt Fence";
+<netherex:smooth_basalt_fence>.displayName = "Smooth Black Basalt Fence";
+<netherex:basalt_brick_fence>.displayName = "Black Basalt Brick Fence";
+<netherex:basalt_pillar_fence>.displayName = "Black Basalt Pillar Fence";
+<netherex:basalt_fence_gate>.displayName = "Black Basalt Fence Gate";
+<netherex:smooth_basalt_fence_gate>.displayName = "Smooth Black Basalt Fence Gate";
+<netherex:basalt_brick_fence_gate>.displayName = "Black Basalt Brick Fence Gate";
+<netherex:basalt_pillar_fence_gate>.displayName = "Black Basalt Pillar Fence Gate";
 
 // Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
@@ -188,6 +213,17 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Underground Biomes
 <undergroundbiomes:fossil_piece:5>.displayName = "Claw Fossil";
+<undergroundbiomes:metamorphic_sandstone_chiseled:0>.displayName = "Chiseled Gneiss Sandstone";
+<undergroundbiomes:metamorphic_sandstone_chiseled:1>.displayName = "Chiseled Eclogite Sandstone";
+<undergroundbiomes:metamorphic_sandstone_chiseled:2>.displayName = "Chiseled Marble Sandstone";
+<undergroundbiomes:metamorphic_sandstone_chiseled:3>.displayName = "Chiseled Quartzite Sandstone";
+<undergroundbiomes:metamorphic_sandstone_chiseled:4>.displayName = "Chiseled Blue Schist Sandstone";
+<undergroundbiomes:metamorphic_sandstone_chiseled:5>.displayName = "Chiseled Green Schist Sandstone";
+<undergroundbiomes:metamorphic_sandstone_chiseled:6>.displayName = "Chiseled Soapstone Sandstone";
+<undergroundbiomes:metamorphic_sandstone_chiseled:7>.displayName = "Chiseled Migmatite Sandstone";
+
+// Rats
+<rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
 
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));

@@ -19,9 +19,9 @@ mods.betterwithmods.Crucible.addUnstoked([<ore:cobblestone>],[<minecraft:stone>]
 mods.betterwithmods.Crucible.addUnstoked(
     [
         <minecraft:iron_ingot>,
-        <ore:dustCoal>,
-        <ore:dustCoal>,
-        <ore:dustCoal>
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>
     ],
     [
         <dungeontactics:steel_ingot>
@@ -31,9 +31,9 @@ mods.betterwithmods.Crucible.addUnstoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <minecraft:iron_ingot>,
-        <ore:dustCoal>,
-        <ore:dustCoal>,
-        <ore:dustCoal>
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>
     ],
     [
         <dungeontactics:steel_ingot>
