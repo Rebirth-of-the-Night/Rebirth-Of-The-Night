@@ -7,12 +7,12 @@ mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has 
 
 #SFS TOOLS#
 
-mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like Shears. When right-clicked, places Vines from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil, it will be placed directly in your inventory. Right-clicking with the Spade places soil from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpose tool. Stone blocks mined will be placed in your inventory. Right-clicking with the Mason Pick places processed stone such as Slabs, Bricks, or Stairs from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as Slabs, Planks, or Stairs from your inventory. Has very limited enchantability since it is already infused with souls."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like Shears. When right-clicked, places Vines from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil, it will be placed directly in your inventory. Right-clicking with the Spade places soil from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpose tool. Stone blocks mined will be placed in your inventory. Right-clicking with the Mason Pick places processed stone such as Slabs, Bricks, or Stairs from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as Slabs, Planks, or Stairs from your inventory. Can only be enchanted in the True Enchantment Table"]);
 
 # BWM #
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
@@ -34,10 +34,10 @@ mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the f
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. If you listen closely, you can hear faint cries of pain and sorrow echoing within."]);
 
 
-mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but has very limited enchantability since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but Can only be enchanted in the True Enchantment Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
 mods.jei.JEI.addDescription(<betterwithmods:steel_hoe>,"Provides the best durability, but impossible to enchant since it is already infused with souls.");
 
 mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Impossible to enchant, since it is already infused with souls.");

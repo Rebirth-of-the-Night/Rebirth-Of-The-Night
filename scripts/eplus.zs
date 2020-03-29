@@ -29,6 +29,22 @@ mods.rockytweaks.Anvil.remove([<msmlegacy:wither_bane:*>]); // darks edge
 mods.rockytweaks.Anvil.remove([<msmlegacy:relic_aqueous:*>]);
 mods.rockytweaks.Anvil.remove([<msmlegacy:relic_candy:*>]);
 
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_pickaxe>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_axe>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_shovel>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_hoe>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_mattock>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_hacksaw>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_helmet>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_chest>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_pants>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_boots>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_spade>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_matchpick>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_machete>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_kukri>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_carpentersaw>]);
+mods.rockytweaks.Anvil.remove([<betterwithmods:steel_masonpick>]);
 
 
 
