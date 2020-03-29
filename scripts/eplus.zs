@@ -39,12 +39,12 @@ mods.rockytweaks.Anvil.remove([<betterwithmods:steel_helmet>]);
 mods.rockytweaks.Anvil.remove([<betterwithmods:steel_chest>]);
 mods.rockytweaks.Anvil.remove([<betterwithmods:steel_pants>]);
 mods.rockytweaks.Anvil.remove([<betterwithmods:steel_boots>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_spade>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_matchpick>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_machete>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_kukri>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_carpentersaw>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_masonpick>]);
+mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_spade>]);
+mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_matchpick>]);
+mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_machete>]);
+mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_kukri>]);
+mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_carpentersaw>]);
+mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_masonpick>]);
 
 
 
