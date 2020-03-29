@@ -17,6 +17,7 @@ recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
+recipes.removeByRecipeName("betterwithmods:decompress/melon_decompress");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
