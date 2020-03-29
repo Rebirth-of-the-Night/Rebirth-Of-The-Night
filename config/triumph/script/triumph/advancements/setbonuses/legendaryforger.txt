@@ -1,4 +1,4 @@
-setIcon(<spartanfire:hammer_fire_dragonbone>)
+setIcon(<msmlegacy:adminium_ark>)
 setTitle("Legendary Forger")
 setDescription("Become a Legendary Forger by completing all other Perfectly Ready achievements!")
 
@@ -8,6 +8,8 @@ setUncompletedTitleColor(253, 245, 95)
 setCompletedIconColor(255, 255, 0)
 
 addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:legendaryforger")
 
 criteria = addCriteria("afirecombo", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/afirecombo")

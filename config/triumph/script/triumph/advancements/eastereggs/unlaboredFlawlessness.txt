@@ -9,4 +9,4 @@ criteria.addItem("spartancompat:katana_onyx")
 
 alwaysVisible()
 hideLines()
-setPos(-298,138)
+setPos(-368,138)

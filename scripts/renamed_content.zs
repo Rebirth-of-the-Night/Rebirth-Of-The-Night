@@ -558,6 +558,7 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword>],["The True Dark's Ed
 
 <betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
+<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
 
 
 <msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
@@ -574,14 +575,18 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword>],["The True Dark's Ed
 <mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Artifact"));
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
-<msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
 
 <msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
 
 
 
-<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
 <msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
+
+
+
+<msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
+<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may weild this weapon.");
+
 
 
 # Relics

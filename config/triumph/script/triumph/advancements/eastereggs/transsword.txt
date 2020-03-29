@@ -1,12 +1,12 @@
 setIcon("dungeontactics:steel_sword")
 setTitle("You Are Valid")
-setDescription("Craft Dev Relic 6 of 6 using diamonds, silver, pink dye, and shaped radiant quartz.")
+setDescription("Craft Dev Relic 5 of 6 using diamonds, silver, pink dye, and shaped radiant quartz.")
 
 addParent("triumph:advancements/eastereggs/root")
 
-criteria = addCriteria("Dev Relic 6", "minecraft:inventory_changed")
+criteria = addCriteria("Dev Relic 5", "minecraft:inventory_changed")
 criteria.addItem("dungeontactics:steel_sword")
 
 alwaysVisible()
 hideLines()
-setPos(-368,138)
+setPos(-264,138)
