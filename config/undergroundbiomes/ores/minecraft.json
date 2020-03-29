@@ -2,7 +2,7 @@
   {
     "internalOreName": "minecraft:diamond_ore",
     "meta": -1,
-    "overlay": "undergroundbiomes:blocks/overlays/minecraft/diamond",
+    "overlay": "rotn:overlays/minecraft/diamond",
     "lightValue": -1,
     "alphaOverlay": false,
     "oreDirectories": []
