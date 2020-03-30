@@ -108,6 +108,9 @@ recipes.addShaped("twineToString", <minecraft:string>*3,
 recipes.addShaped("pyro stone brick", stoneBrick*2,
 [[<ore:stone>],
 [<ore:stone>]]);
+recipes.addShaped("pyrorock stone brick", stoneBrick*1,
+[[<pyrotech:rock>],
+[<pyrotech:rock>]]);
 recipes.addShaped("pyro stone kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [stoneBrick,<minecraft:furnace>,stoneBrick],

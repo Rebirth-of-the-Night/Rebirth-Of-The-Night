@@ -23,4 +23,5 @@ setAnnounceToChat(false)
 addCriteria("impossible", "minecraft:impossible")
 
 setHidden(true)
-alwaysVisible()
+hideLines()
+setPos(100,-62)

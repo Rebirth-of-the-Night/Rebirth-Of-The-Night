@@ -1,6 +1,6 @@
 setIcon("contenttweaker:phosphophyllite")
 setTitle("Gem Cutters and Ancient Sticks")
-setDescription("Craft Dev Relic 2 of 6, Placing a wrapped stick and an Onyx rod in an infuser.")
+setDescription("Craft Dev Relic 2 of 6, placing a wrapped stick and an Onyx rod in an infuser.")
 
 addParent("triumph:advancements/eastereggs/root")
 
@@ -9,4 +9,4 @@ criteria.addItem("spartancompat:katana_onyx")
 
 alwaysVisible()
 hideLines()
-setPos(-298,138)
+setPos(-368,138)
