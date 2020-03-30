@@ -28,9 +28,6 @@ import crafttweaker.game.IGame;
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 
-// End Reborn III
-<endreborn:tool_hammer_iron>.displayName = "Ancient Sledgehammer";
-
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
@@ -167,7 +164,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
 <betternether:stalagnate_bark>.displayName = "Stalagnate Bark Block";
 <betternether:nether_brick_wall>.displayName = "Nether Brick Tile Wall";
-<betternether:chest_of_drawers>.displayName = "Cincinnasite Chest Of Drawers";
+<betternether:chest_of_drawers>.displayName = "Cincinnasite Drawer";
+<betternether:cincinnasite_carved>.displayName = "Carved Cincinnasite";
+<betternether:magma_flower>.displayName = "Magma Flower Seed";
 
 // NetherEX
 <netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";

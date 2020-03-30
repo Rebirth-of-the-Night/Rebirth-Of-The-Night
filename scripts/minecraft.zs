@@ -13,6 +13,12 @@ brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:exper
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
 
+recipes.remove(<sereneseasons:season_sensor_spring>);
+recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
+    [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
+    [<minecraft:quartz>,<sereneseasons:season_clock>,<minecraft:quartz>],
+    [<ore:stoneSlab>,<ore:stoneSlab>,<ore:stoneSlab>]
+]);
 
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
@@ -25,9 +31,6 @@ recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>
 recipes.remove(<betteranimalsplus:goatcheese>);
 recipes.addShapeless("betteranimalsplus_milk_to_cheese", <betteranimalsplus:goatcheese>*3, 
 [<betteranimalsplus:goatmilk>, <ore:listAllmushroom>]);
-recipes.remove(<betternether:stalagnate_bowl_mushroom>);
-recipes.addShapeless("betternether_stalagnate_bowl_mushroom", <betternether:stalagnate_bowl_mushroom>, 
-[<ore:mushroomAny>, <ore:mushroomAny>, <betternether:stalagnate_bowl>]);
 recipes.remove(<minecraftfuture:suspiciousstew>);
 recipes.addShapeless("minecraftfuture_stew/sustew", <minecraftfuture:suspiciousstew>, 
 [<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
@@ -55,15 +58,11 @@ recipes.removeByRecipeName("minecraft:cyan_wool");
 recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
-recipes.removeByRecipeName("betternether:stalagnate_workbench");
 recipes.removeByRecipeName("minecraft:stone_brick_stairs");
 recipes.removeByRecipeName("minecraft:stone_brick_slab");
 recipes.removeByRecipeName("minecraft:repeater");
-recipes.removeByRecipeName("betternether:paper");
 
 recipes.remove(<minecraft:fish:0>);
-
-recipes.remove(<endreborn:tool_hammer_iron>);
 
 recipes.remove(<minecraft:fishing_rod>);
 recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
@@ -192,7 +191,7 @@ val buttonWood = <ore:buttonWood>;
 buttonWood.addItems([<aether_legacy:skyroot_button>,<betternether:reeds_button>,<betternether:stalagnate_planks_button>]);
 
 val allStoneSlab = <ore:stoneSlab>;
-allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:0>, <biomesoplenty:other_slab:1>]);
+allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:igneous_cobble_halfslab:*>, <undergroundbiomes:metamorphic_cobble_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>, <quark:sandstone_smooth_slab:*>, <quark:red_sandstone_smooth_slab:*>, <biomesoplenty:other_slab:1>, <minecraft:stone_slab2:*>, <aether_legacy:holystone_slab:*>, <aether_legacy:mossy_holystone_slab:*>, <quark:fire_stone_slab:*>, <quark:icy_stone_slab:*>, <quark:cobbed_stone_slab:*>, <quark:soul_sandstone_slab:*>, <minecraft:purpur_slab:*>, <aether_legacy:carved_slab:*>, <aether_legacy:angelic_slab:*>, <aether_legacy:hellfire_slab:*>, <aether_legacy:holystone_brick_slab:*>, <betternether:nether_brick_tile_slab_half:*>, <netherex:red_nether_brick_slab:*>, <netherex:gloomy_nether_brick_slab:*>, <netherex:lively_nether_brick_slab:*>, <netherex:fiery_nether_brick_slab:*>, <netherex:icy_nether_brick_slab:*>, <netherex:basalt_slab:*>, <netherex:smooth_basalt_slab:*>, <netherex:basalt_brick_slab:*>, <netherex:basalt_pillar_slab:*>, <quark:biotite_slab:*>, <quark:fire_stone_brick_slab:*>, <quark:icy_stone_brick_slab:*>, <quark:elder_prismarine_slab:*>, <quark:elder_prismarine_bricks_slab:*>, <quark:elder_prismarine_dark_slab:*>, <quark:sandstone_bricks_slab:*>, <quark:red_sandstone_bricks_slab:*>, <quark:soul_sandstone_smooth_slab:*>, <quark:soul_sandstone_bricks_slab:*>, <quark:sandy_bricks_slab:*>, <quark:stone_granite_slab:*>, <quark:stone_diorite_slab:*>, <quark:stone_andesite_slab:*>, <quark:end_bricks_slab:*>, <quark:prismarine_slab:*>, <quark:prismarine_bricks_slab:*>, <quark:prismarine_dark_slab:*>, <quark:cobblestone_mossy_slab:*>, <quark:stonebrick_mossy_slab:*>, <quark:charred_nether_brick_slab:*>, <quark:stone_granite_bricks_slab:*>, <quark:stone_diorite_bricks_slab:*>, <quark:stone_andesite_bricks_slab:*>, <quark:midori_block_slab:*>, <quark:magma_bricks_slab:*>, <quark:duskbound_block_slab:*>, <quark:polished_netherrack_bricks_slab:*>, <undergroundbiomes:igneous_brick_halfslab:*>, <undergroundbiomes:metamorphic_brick_halfslab:*>]);
 
 val StoneHugeBrick = <ore:StoneHugeBrick>;
 StoneHugeBrick.addItems([<undergroundbiomes:igneous_brick:2>,<undergroundbiomes:igneous_brick:3>,<undergroundbiomes:igneous_brick:4>,<undergroundbiomes:igneous_brick:5>,<undergroundbiomes:igneous_brick:6>,<undergroundbiomes:igneous_brick:7>,<undergroundbiomes:metamorphic_brick>,<undergroundbiomes:metamorphic_brick:2>,<undergroundbiomes:metamorphic_brick:3>,<undergroundbiomes:metamorphic_brick:5>,<undergroundbiomes:metamorphic_brick:6>,<minecraft:stonebrick>,<quark:biome_brick>,<quark:world_stone_bricks>,<quark:world_stone_bricks:1>,<undergroundbiomes:metamorphic_brick:7>,<endreborn:end_bricks_glow>,<quark:biome_brick:1>,<quark:world_stone_bricks:2>,<undergroundbiomes:igneous_brick:1>,<undergroundbiomes:metamorphic_brick:1>,<undergroundbiomes:igneous_brick>,<undergroundbiomes:metamorphic_brick:4>]);
@@ -201,7 +200,7 @@ val toolAxe = <ore:toolAxe>;
 toolAxe.addItems([<minecraft:wooden_axe>,<aether_legacy:skyroot_axe>,<aether_legacy:holystone_axe>,<aether_legacy:zanite_axe>,<aether_legacy:gravitite_axe>,<aether_legacy:valkyrie_axe>,<atop:mud_axe>,<betterwithmods:steel_axe>,<mowziesmobs:wrought_axe>,<netherex:frosted_amedian_axe>,<simpleores:copper_axe>,<simpleores:mythril_axe>,<simpleores:adamantium_axe>,<simpleores:onyx_axe>,<twilightforest:ironwood_axe>,<twilightforest:steeleaf_axe>,<twilightforest:minotaur_axe_gold>,<twilightforest:minotaur_axe>,<twilightforest:knightmetal_axe>,<spartancompat:battleaxe_onyx>,<spartancompat:battleaxe_skyroot>,<spartancompat:battleaxe_holystone>,<spartancompat:battleaxe_zanite>,<spartancompat:battleaxe_gravitite>,<spartancompat:battleaxe_soulforged_steel>,<spartanfire:battleaxe_dragonbone>,<spartanfire:battleaxe_fire_dragonbone>,<spartanfire:battleaxe_ice_dragonbone>,<spartanfire:battleaxe_jungle>,<spartanfire:battleaxe_desert>,<spartanfire:battleaxe_jungle_venom>,<spartanfire:battleaxe_desert_venom>,<spartanfire:battleaxe_ice_dragonsteel>,<spartanfire:battleaxe_fire_dragonsteel>,<spartanweaponry:battleaxe_stone>,<spartanweaponry:battleaxe_iron>,<spartanweaponry:battleaxe_gold>,<spartanweaponry:battleaxe_diamond>,<spartanweaponry:battleaxe_bronze>,<spartanweaponry:battleaxe_silver>,]);
 
 val hammerTool = <ore:hammerTool>;
-hammerTool.addItems([<aether_legacy:notch_hammer>,<endreborn:tool_hammer_iron>,<pyrotech:stone_hammer>]);
+hammerTool.addItems([<aether_legacy:notch_hammer>,<pyrotech:stone_hammer>,<pyrotech:iron_hammer>,<pyrotech:diamond_hammer>,<pyrotech:obsidian_hammer>]);
 
 val anvilAny = <ore:anvilAny>;
 anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
@@ -462,14 +461,6 @@ recipes.addShaped("dust to witheredblock", <contenttweaker:witheredblock>,[
     [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
 ]);
 
-//Simple mod recipes
-recipes.removeByRecipeName("qualitytools:reforging_station");
-
-recipes.addShaped("forgiving tool reforging station", <qualitytools:reforging_station>,[
-	[<ore:hammerTool>, null, <quark:black_ash>],
-    	[<ore:stoneSlab>, <ore:anvilAny>, <ore:stoneSlab>],
-    	[<ore:ingotSteel>, <ore:obsidian>, <ore:ingotSteel>]
-]);
 //Villager Trades
 //Example: Merchant.addTrade("minecraft:nitwit", "nitwit", <minecraft:emerald>, <minecraft:diamond>, <minecraft:cobblestone>, 1);
 //Merchant.addTrade("primitivemobs:merchant", "primitivemobs.traveling_merchant", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 2);

@@ -9,8 +9,6 @@ recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapd
     [[null,null,null],
     [skyplank,skyplank,skyplank],
     [skyplank,skyplank,skyplank]]);
-recipes.removeByRecipeName("betternether:stalagnate_planks_trapdoor");
-recipes.removeByRecipeName("betternether:stalagnate_planks_chest");
 recipes.removeByRecipeName("betterwithmods:quark/spruce_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/birch_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");

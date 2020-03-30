@@ -186,7 +186,6 @@ mods.jei.JEI.removeAndHide(<dungeontactics:steel_hammer>);
 
 recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_logs");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_cactus");
-recipes.removeByRecipeName("betternether:stalagnate_stick");
 recipes.removeByRecipeName("dungeontactics:misc/mithril_nugget");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/clayball_from_clay");
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cluster>);
