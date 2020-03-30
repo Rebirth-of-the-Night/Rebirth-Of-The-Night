@@ -31,9 +31,9 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 
 
 <atop:amethyst_sword>.displayName = "§dCalaMariGold マリ";
-mods.jei.JEI.addDescription([<atop:amethyst_sword>],["You begin to have hallucinations of anime girls, pride flags, music, and Beat Saber."]);
+mods.jei.JEI.addDescription([<atop:amethyst_sword>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
 
-<atop:amethyst_sword>.addTooltip(format.aqua("Use this item to become a developer! ;)"));
+<atop:amethyst_sword>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));
 <atop:amethyst_sword>.addTooltip(format.darkBlue("Developer Relic 1/6"));
 
 
