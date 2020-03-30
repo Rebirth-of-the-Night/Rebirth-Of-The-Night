@@ -70,6 +70,7 @@ function(out, ins, cInfo){
 });
 
 
+// used for Mari's dev relic
 mods.jei.JEI.removeAndHide(<atop:amethyst_sword>);
 mods.jei.JEI.removeAndHide(<atop:amethyst_pickaxe>);
 mods.jei.JEI.removeAndHide(<atop:amethyst_shovel>);

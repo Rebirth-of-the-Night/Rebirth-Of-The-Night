@@ -544,10 +544,10 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <msmlegacy:dawn_star>.addTooltip(format.red("Godly Weapon"));
 <msmlegacy:dawn_star>.addTooltip("I am truth. I am majesty. I am justice.");
 
-<dungeontactics:silver_sword>.displayName = "§cTrue Dark's Edge";
-<dungeontactics:silver_sword>.addTooltip(format.red("Godly Weapon"));
-<dungeontactics:silver_sword>.addTooltip("They will suffer as we have.");
-mods.jei.JEI.addDescription([<dungeontactics:silver_sword>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. The sword will never despawn and inflicts enemies with paralysis."]);
+<dungeontactics:silver_sword:*>.displayName = "§cTrue Dark's Edge";
+<dungeontactics:silver_sword:*>.addTooltip(format.red("Godly Weapon"));
+<dungeontactics:silver_sword:*>.addTooltip("They will suffer as we have.");
+mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. The sword will never despawn and inflicts enemies with paralysis."]);
 
 
 <betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";

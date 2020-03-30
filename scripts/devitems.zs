@@ -2,14 +2,17 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.rockytweaks.Anvil;
+import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
 
 // cutcat
 
-<dungeontactics:steel_sword>.displayName = "§bTrans§dcen§fded §cP§6r§e§ai§9d§5e§cs§6w§eo§ar§9d";
-mods.jei.JEI.addDescription([<dungeontactics:steel_sword>],['A sword imbued with the power of cat girls, pretty colors, pickles, and head pats. Lovingly referred to by its creator as "Sword of Gay."']);
+<dungeontactics:steel_sword:*>.displayName = "§bTrans§dcen§fded §cP§6r§e§ai§9d§5e§cs§6w§eo§ar§9d";
+mods.jei.JEI.addDescription([<dungeontactics:steel_sword:*>],['A sword imbued with the power of cat girls, pretty colors, pickles, and head pats. Lovingly referred to by its creator as "Sword of Gay."']);
 
-<dungeontactics:steel_sword>.addTooltip(format.aqua("+9999 validity to wielder"));
-<dungeontactics:steel_sword>.addTooltip(format.darkBlue("Developer Relic 5/6"));
+<dungeontactics:steel_sword:*>.addTooltip(format.aqua("+9999 validity to wielder"));
+<dungeontactics:steel_sword:*>.addTooltip(format.darkBlue("Developer Relic 5/6"));
 
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
 [
@@ -27,17 +30,22 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 <harvestcraft:dandelionteaitem>.displayName = "Marigold Tea";
 
 
-<contenttweaker:calamarigold>.displayName = "§dCalaMariGold マリ";
-mods.jei.JEI.addDescription([<contenttweaker:calamarigold>],["You begin to have hallucinations of anime girls, pride flags, music, and Beat Saber."]);
+<atop:amethyst_sword>.displayName = "§dCalaMariGold マリ";
+mods.jei.JEI.addDescription([<atop:amethyst_sword>],["You begin to have hallucinations of anime girls, pride flags, music, and Beat Saber."]);
 
-<contenttweaker:calamarigold>.addTooltip(format.aqua("Use this item to become a developer! ;)"));
-<contenttweaker:calamarigold>.addTooltip(format.darkBlue("Developer Relic 1/6"));
+<atop:amethyst_sword>.addTooltip(format.aqua("Use this item to become a developer! ;)"));
+<atop:amethyst_sword>.addTooltip(format.darkBlue("Developer Relic 1/6"));
 
 
-recipes.addHiddenShapeless("CalaMariGold", <contenttweaker:calamarigold>,
-	[<harvestcraft:calamarirawitem>,<minecraft:gold_ingot>]);
+val enchantmentsMari as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>];
+var enchantmentMapMari as IData = {};
 
-recipes.addHiddenShapeless("CalaMariGold 2", <contenttweaker:calamarigold>,
+var enchTagMari = enchantmentsMari[0].makeEnchantment(1).makeTag().ench[0];
+enchTagMari += {personalityName: "Shiny", personality: 0.36782956 as float, kills: 0, effectiveness: 1.00 as float, xp: 1};
+
+enchantmentMapMari += {ench: [enchTagMari]};
+
+recipes.addHiddenShapeless("CalaMariGold", <atop:amethyst_sword>.withTag(({"Quark:RuneColor": 15, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMapMari),
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
 
 
