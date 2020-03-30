@@ -167,7 +167,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:chest_of_drawers>.displayName = "Cincinnasite Drawer";
 <betternether:cincinnasite_carved>.displayName = "Carved Cincinnasite";
 <betternether:magma_flower>.displayName = "Magma Flower Seed";
-<betternether:pig_statue_01>.displayName = "Statue of Reincarnation";
 
 // NetherEX
 <netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";
@@ -211,7 +210,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
 
 // Bountiful Baubles
-<bountifulbaubles:potionrecall>.displayName = "Return Potion";
+<bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
 
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
