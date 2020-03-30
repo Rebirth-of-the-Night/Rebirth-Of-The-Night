@@ -24,13 +24,13 @@
     ]
   },
   
-//spinout
+//lantern
   {
     "dimension": -1,
     "mobs": [
       {
         "mob": "netherex:spinout",
-        "weight": 3,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -67,7 +67,7 @@
    // Zombie Pigmen in Abandoned Cities
   {
     "dimension": -1,
-    "block": ["betternether:bone_tile", "betternether:nether_brick_tile_large", "betternether:stalagnate_planks", "betternether:bone_stairs", "betternether:nether_brick_tile_stairs"],
+    "block": ["betternether:bone_tile", "betternether:nether_brick_tile_large"],
     "mobs": [
       {
         "mob": "minecraft:zombie_pigman",
@@ -97,7 +97,7 @@
     "mobs": [
       {
         "mob": "magma_monsters:magma_monster_grunt",
-        "weight": 40,
+        "weight": 50,
         "groupcountmin": 1,
         "groupcountmax": 3
       }

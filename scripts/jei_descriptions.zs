@@ -24,7 +24,7 @@ mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using 
 #MISCELLANEOUS#
 
 
-mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower."]);
+mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of Heaven lies inside fallen stars. These will rarely fall from the sky, but many will fall during a star shower."]);
 
 mods.jei.JEI.addDescription([<nyx:comet_shard>],["A very rare find. These toughened rock chunks fall from the sky, but are also found embedded within Elder Guardians."]);
 
@@ -58,7 +58,7 @@ mods.jei.JEI.addDescription([<minecraft:cactus>],["Can be used to fill a bottle 
 
 mods.jei.JEI.addDescription([<minecraft:compass>],["Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints."]);
 
-mods.jei.JEI.addDescription([<minecraft:enchanting_table>],["Can be upgraded with an Enchanting Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!"]);
+mods.jei.JEI.addDescription([<minecraft:enchanting_table>],["Can be upgraded with an Enchantment Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!"]);
 
 mods.jei.JEI.addDescription([<netherchest:nether_chest>],["When items are stored in a Nether Chest, their normal stack size limit is multiplied by 8, due to the way the Nether compresses space by a factor of 8. This stack size increase also applies to tools and any other items that aren't normally stackable. Despite their name, trying to open one in the Nether is a very bad idea."]);
 
@@ -155,7 +155,7 @@ mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");
 # Amethyst
 mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lands of the Ender folk, as by now deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods.");
-mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
+mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the pig folk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
 # Copper tin
@@ -321,6 +321,4 @@ mods.jei.JEI.addDescription([<msmlegacy:relic_candy>],["Relic idea by Just A BLU
 
 # Lore Specific
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
-mods.jei.JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the Pigfolk. The inscriptions around the rim of the brazier are carved in unfamiliar languages... all except for one. You can make out the words 'VARKAAL...', 'LIFE FROM LIGHT...', and 'DUST...'");
-
 ### mods.jei.JEI.addDescription(<minecraft:clay_ball>,"Such a malleable material, could they see us the same in the Void?"); -> should be put on a more fitting item
