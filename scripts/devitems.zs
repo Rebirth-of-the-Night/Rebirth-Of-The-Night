@@ -49,7 +49,32 @@ recipes.addHiddenShapeless("CalaMariGold", <atop:amethyst_sword>.withTag(({"Quar
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
 
 
+// Kompy
 
+<contenttweaker:kompy_kantrip>.displayName = "§dKompy's §aKantrip";
+<contenttweaker:kompy_kantrip>.addTooltip(format.aqua("Whimsicott's Playday =3"));
+<contenttweaker:kompy_kantrip>.addTooltip(format.darkBlue("Developer Relic 2/6"));
+
+mods.jei.JEI.addDescription([<contenttweaker:kompy_kantrip>],["Kompy's Kantrip can be used to kraft gardens full of her favorite flower!"]);
+mods.jei.JEI.addDescription([<contenttweaker:kompy_essence>],["Krafted with Kompy's favorite flower, favorite blue Gem, her wife's favorite green Gem, their favorite afternoon spiced tea, an orb of nature, and Kompy's two favorite colors."]);
+mods.jei.JEI.addDescription([<contenttweaker:kompy_kott>],["Kompy's favorite Whimsical doll is krafted with 3 tufts of cotten, the Whimsical doll's primary and secondary type items, and an orb of air =3"]);
+
+#Essence
+recipes.addHiddenShapeless("Kompy's Essence", <contenttweaker:kompy_essence>,
+    [<biomesoplenty:flower_0:13>, <biomesoplenty:gem:6>, <harvestcraft:chaiteaitem>, <contenttweaker:nature_orb>, <ore:dyePink>, <ore:dyeLime>, <biomesoplenty:gem:2>]);
+	
+#Precursor
+recipes.addHiddenShapeless("Kompy's Precursor", <contenttweaker:kompy_kott>,
+    [<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <iceandfire:pixie_dust>, <minecraft:tallgrass:1>, <contenttweaker:air_orb>]);
+	
+#Kantrip
+mods.betterwithaddons.Infuser.addShaped(<contenttweaker:kompy_kantrip>,[
+[null,<contenttweaker:creation_rune>.anyDamage().transformDamage(),null],
+[<contenttweaker:kompy_essence>,<contenttweaker:spectral_shard>,<contenttweaker:kompy_kott>],
+[null,<contenttweaker:fae_rune>.anyDamage().transformDamage(),null]], 210);
+
+recipes.addShapeless("Kantrip Effect", <biomesoplenty:flower_0:13>,
+    [<contenttweaker:kompy_kantrip>.transformDamage(0), <ore:flower>]);	
 
 
 
