@@ -1,6 +1,6 @@
 import crafttweaker.item.IIngredient;
 
-mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"Only spawns in mountain biomes. Used to create balloons for air ships.");
+mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for air ships.");
 
 mods.jei.JEI.removeAndHide(<rustic:crop_stake>);
 

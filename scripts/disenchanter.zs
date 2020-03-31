@@ -4,8 +4,7 @@ import crafttweaker.item.IItemStack;
 recipes.remove(<disenchanter:disenchantmenttable>);
 
 
-recipes.addShaped("Disenchantment Table", <disenchanter:disenchantmenttable>,[
-  [<minecraft:emerald>, <contenttweaker:disint_rune>, <minecraft:emerald>],
-    [<ore:dyeYellow>, <minecraft:enchanting_table>, <ore:dyeYellow>],
-    [<minecraft:emerald>, <contenttweaker:disint_rune>, <minecraft:emerald>]
-]);
+recipes.addShaped("Disenchanter", <disenchanter:disenchantmenttable>, [
+[<minecraft:emerald>, <minecraft:carpet:4>, <minecraft:emerald>],
+[<bountifulbaubles:spectralsilt>, <minecraft:enchanting_table>, <bountifulbaubles:spectralsilt>], 
+[<minecraft:emerald>, <contenttweaker:disint_orb>, <minecraft:emerald>]]);

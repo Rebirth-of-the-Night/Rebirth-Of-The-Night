@@ -215,12 +215,15 @@ recipes.addShaped(<betterwithaddons:aqueduct:1> * 6,
 recipes.addShapeless(<betterwithaddons:lattice> * 4, [<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>]);
 recipes.addShaped(<betterwithaddons:wrought_bars> * 6, [[null, null, null],[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
 
+// Spirit potion. This is TEMPORARY until we can find a way to spawn spirits at night.
+
+recipes.addShaped(<betterwithaddons:ancestry_bottle>, [[null, null, null],[null, <minecraft:glass_bottle>, null], [<nyx:fallen_star>, <quark:soul_powder>, <bountifulbaubles:spectralsilt>]]);
+
 //INFUSER
-recipes.addShaped(<betterwithaddons:ancestry_infuser>, 
-[[<minecraft:clay_ball>],
-[<eplus:table_upgrade>], 
-[<minecraft:enchanting_table>]]
-);
+recipes.addShaped(<betterwithaddons:ancestry_infuser>, [
+[<betternether:cincinnasite>, <contenttweaker:soul_orb>, <betternether:cincinnasite>],
+[<bountifulbaubles:spectralsilt>, <minecraft:carpet:10>, <bountifulbaubles:spectralsilt>], 
+[<betternether:cincinnasite>, <minecraft:enchanting_table>, <betternether:cincinnasite>]]);
 
 mods.betterwithaddons.Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
 [<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>],

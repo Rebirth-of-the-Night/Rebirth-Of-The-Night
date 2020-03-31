@@ -61,5 +61,5 @@ GraniteAnvil.addRecipe("smash heart 3",<scalinghealth:crystalshard>*6, <iceandfi
 GraniteAnvil.addRecipe("smash heart 4",<scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>,32,"hammer", true);
 GraniteAnvil.addRecipe("smash heart 5",<scalinghealth:crystalshard>*1, <quark:diamond_heart>,64,"hammer", true);
 GraniteAnvil.addRecipe("halite to salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
-GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>,16,"hammer", true);
+GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>,48,"hammer", true);
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>,64,"hammer", true);
