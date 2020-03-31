@@ -152,3 +152,11 @@ recipes.addShapeless("Quark crystal 0-1", <quark:crystal:0>*3,
 recipes.addShapeless("Quark crystal 0-2", <quark:crystal:0>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:phosphophyllite>]
 );
+
+// Soul Powder
+
+recipes.remove(<quark:soul_powder>);
+
+recipes.addShaped("Soul Bead to Soul Powder", <quark:soul_powder>*9, [[<quark:soul_bead>, <minecraft:soul_sand>, null],[<minecraft:soul_sand>, <minecraft:soul_sand>, null], [null, null, null]]);
+
+recipes.addShapeless("Soul sand and magic dust", <quark:soul_powder>, [<dungeontactics:magic_powder>, <minecraft:soul_sand>]);
