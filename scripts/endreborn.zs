@@ -64,6 +64,8 @@ recipes.removeByRecipeName("endreborn:items/prismarine");
 recipes.removeByRecipeName("endreborn:items/anycobble");
 recipes.removeByRecipeName("endreborn:items/netherbrick");
 recipes.removeByRecipeName("endreborn:items/catalyst");
+recipes.removeByRecipeName("endreborn:items/purpur_block");
+recipes.removeByRecipeName("endreborn:items/item_shard_obsidian");
 recipes.removeByRecipeName("endreborn:blocks/cobblestone");
 recipes.removeByRecipeName("endreborn:blocks/purpur_block");
 
@@ -101,7 +103,26 @@ recipes.addShaped("End Shards", <endreborn:item_end_shard>,[
     [crystal, crystal, crystal]
 ]);
 
+mods.jei.JEI.removeAndHide(<endreborn:e_end_bricks_wall>);
+mods.jei.JEI.removeAndHide(<quark:end_bricks_wall>);
+mods.jei.JEI.removeAndHide(<quark:end_bricks_stairs>);
+
 var smoothendstone = <endreborn:block_end_stone_smooth>;
+var endstone = <minecraft:end_stone>;
+var purpur = <minecraft:purpur_block>;
+
+recipes.remove(smoothendstone);
+recipes.addShaped("smooth_end_stone", smoothendstone*9, [
+    [endstone,endstone,endstone],
+    [endstone,endstone,endstone],
+    [endstone,endstone,endstone]
+]);
+
+recipes.addShaped("chiseled_purpur", <endreborn:tech_portal>*6,[
+    [purpur,null,purpur],
+    [purpur,null,purpur],
+    [purpur,null,purpur]
+]);
 
 recipes.addShaped("Being Of Entropy", <endreborn:death_essence>,[
 	[smoothendstone, smoothendstone, smoothendstone],

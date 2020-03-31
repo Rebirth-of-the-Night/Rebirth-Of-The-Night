@@ -30,10 +30,10 @@ mods.jei.JEI.removeAndHide(<quark:red_sandstone_wall>);
 mods.jei.JEI.removeAndHide(<quark:stonebrick_wall>);
 mods.jei.JEI.removeAndHide(<quark:stonebrick_mossy_wall>);
 mods.jei.JEI.removeAndHide(<quark:prismarine_rough_wall>);
-mods.jei.JEI.removeAndHide(<netherex:nether_brick_wall>);
-mods.jei.JEI.removeAndHide(<netherex:red_nether_brick_wall>);
 mods.jei.JEI.removeAndHide(<quark:red_nether_brick_slab>);
 mods.jei.JEI.removeAndHide(<quark:purpur_block_wall>);
+mods.jei.JEI.removeAndHide(<quark:red_nether_brick_stairs>);
+mods.jei.JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 
 recipes.removeByRecipeName("quark:chest_minecart");
 recipes.removeByRecipeName("quark:stone_shovel");

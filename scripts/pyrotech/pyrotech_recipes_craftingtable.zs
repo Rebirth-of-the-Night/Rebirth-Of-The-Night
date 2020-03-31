@@ -101,6 +101,7 @@ val clayBrick = <ore:ingotBrick>;
 val dry = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
 
+recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
 recipes.addShaped("twineToString", <minecraft:string>*3,
@@ -109,8 +110,8 @@ recipes.addShaped("pyro stone brick", stoneBrick*2,
 [[<ore:stone>],
 [<ore:stone>]]);
 recipes.addShaped("pyrorock stone brick", stoneBrick*1,
-[[<pyrotech:rock>],
-[<pyrotech:rock>]]);
+[[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>],
+[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]]);
 recipes.addShaped("pyro stone kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [stoneBrick,<minecraft:furnace>,stoneBrick],

@@ -49,8 +49,10 @@ Chopping.addRecipe("axe_transwood_bark",<betterwithmods:bark:0>*4,<twilightfores
 Chopping.addRecipe("axe_minewood_bark",<betterwithmods:bark:0>*4,<twilightforest:magic_log:2>, true);
 Chopping.addRecipe("axe_sortingwood_bark",<betterwithmods:bark:0>*4,<twilightforest:magic_log:3>, true);
 
-
-mods.betterwithmods.Saw.removeAll();
+var removeArray = [<minecraft:pumpkin>, <minecraft:vine>, <minecraft:yellow_flower:0>, <minecraft:brown_mushroom>, <minecraft:red_mushroom>, <betterwithmods:rope>, <minecraft:red_flower:0>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>] as IItemStack[];
+for i in removeArray{
+    mods.betterwithmods.Saw.remove(i);
+}
 mods.betterwithmods.Saw.add(<betterwithmods:blood_log>,[<betterwithmods:bark:6>*5,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<minecraft:log:0>,[<minecraft:planks>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<minecraft:log:1>,[<minecraft:planks:1>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);

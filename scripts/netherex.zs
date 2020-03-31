@@ -1,4 +1,6 @@
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.jei.JEI;
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:rime_crystal>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:frost_powder>, <minecraft:potion>.withTag({Potion: "netherex:freezing"}));
@@ -42,6 +44,30 @@ mods.jei.JEI.removeAndHide(<netherex:icy_netherbrick>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_crystal>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_block>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_ore>);
+
+mods.jei.JEI.removeAndHide(<netherex:nether_brick_wall>);
+mods.jei.JEI.removeAndHide(<netherex:red_nether_brick_wall>);
+recipes.removeByRecipeName("netherex:quartz_block");
+recipes.removeByRecipeName("netherex:gloomy_nether_brick_2");
+recipes.removeByRecipeName("netherex:lively_nether_brick_2");
+recipes.removeByRecipeName("netherex:fiery_nether_brick_2");
+recipes.removeByRecipeName("netherex:icy_nether_brick_2");
+recipes.removeByRecipeName("netherex:basalt_2");
+recipes.removeByRecipeName("netherex:smooth_basalt_3");
+recipes.removeByRecipeName("netherex:basalt_brick_3");
+recipes.removeByRecipeName("netherex:basalt_pillar_2");
+recipes.removeByRecipeName("netherex:soul_glass");
+
+recipes.remove(<netherex:soul_glass_pane>);
+recipes.addShaped("soul_glass_pane",<netherex:soul_glass_pane>,[
+    [<netherex:soul_glass>,<netherex:soul_glass>,<netherex:soul_glass>],
+    [<netherex:soul_glass>,<netherex:soul_glass>,<netherex:soul_glass>]
+]);
+
+recipes.addShaped("nether_brick_fence_gate",<netherex:nether_brick_fence_gate>*3,[
+    [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>],
+    [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>]
+]);
 
 //End Reborn Compatibility
 recipes.addShaped(<atop:amethyst_helmet>,[

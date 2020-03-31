@@ -45,8 +45,18 @@ import crafttweaker.game.IGame;
 <arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
 
 // Twilight Forest
-<twilightforest:ironwood_sword>.displayName = "Ironwood Arming Sword";
-<twilightforest:ironwood_hoe>.displayName = "§bIronwood Hoe";
+<twilightforest:ironwood_sword>.displayName = "Ironroot Arming Sword";
+<twilightforest:ironwood_hoe>.displayName = "§bIronroot Hoe";
+<twilightforest:ironwood_raw>.displayName = "Raw Ironroot Material";
+<twilightforest:ironwood_ingot>.displayName = "Ironroot Ingot";
+<twilightforest:block_storage:0>.displayName = "Block of Ironroot";
+<twilightforest:ironwood_helmet>.displayName = "Ironroot Helmet";
+<twilightforest:ironwood_chestplate>.displayName = "Ironroot Chestplate";
+<twilightforest:ironwood_leggings>.displayName = "Ironroot Leggings";
+<twilightforest:ironwood_boots>.displayName = "Ironroot Boots";
+<twilightforest:ironwood_shovel>.displayName = "Ironroot Shovel";
+<twilightforest:ironwood_pickaxe>.displayName = "Ironroot Pickaxe";
+<twilightforest:ironwood_axe>.displayName = "Ironroot Axe";
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
 <twilightforest:knightmetal_sword>.displayName = "Knightly Arming Sword";
 <twilightforest:raw_venison>.displayName = "Raw Venison Steak";
@@ -69,7 +79,7 @@ import crafttweaker.game.IGame;
 <dimstack:portal>.displayName = "Arcane Barrier";
 <dimstack:bedrock>.displayName = "Arcane Barrier";
 
-// Better with mods
+// Better with Mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldon";
@@ -95,6 +105,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:world_stone_pavement:2>.displayName = "Gray Andesite Pavement";
 <quark:stone_andesite_bricks_wall>.displayName = "Gray Andesite Brick Wall";
 <quark:andesite_speleothem>.displayName = "Gray Andesite Speleothem";
+<quark:end_bricks_slab:*>.displayName = "End Stone Brick Slab";
 
 // Ice And Fire: Dragons in a Whole New Light
 <iceandfire:chain>.displayName = "Big Chain";
@@ -140,6 +151,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
 <biomesoplenty:flower_0:14>.displayName = "Valley Lily";
 <biomesoplenty:double_plant:0>.displayName = "Flax Flower";
+<biomesoplenty:mud_brick_block:0>.displayName = "Mud Brick Block";
+<biomesoplenty:mud_brick_stairs:0>.displayName = "Mud Brick Stairs";
+<biomesoplenty:other_slab:0>.displayName = "Mud Brick Slab";
 
 // ATOP
 <atop:mud_axe>.displayName = "Bronze Axe";
@@ -168,6 +182,13 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:cincinnasite_carved>.displayName = "Carved Cincinnasite";
 <betternether:magma_flower>.displayName = "Magma Flower Seed";
 <betternether:pig_statue_01>.displayName = "Statue of Reincarnation";
+<betternether:bone_block>.displayName = "Hardened Bone Block";
+<betternether:bone_stairs>.displayName = "Hardened Bone Stairs";
+<betternether:bone_slab_half:*>.displayName = "Hardened Bone Slab";
+<betternether:bone_button>.displayName = "Hardened Bone Button";
+<betternether:bone_plate>.displayName = "Hardened Bone Pressure Plate";
+<betternether:bone_wall>.displayName = "Hardened Bone Wall";
+<betternether:bone_tile>.displayName = "Hardened Bone Tile";
 
 // NetherEX
 <netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";
@@ -209,6 +230,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
+<animania:bee_hive>.displayName = "Wooden Beehive";
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Return Potion";
@@ -229,6 +251,12 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Rats
 <rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
+
+// Better with Addons
+<betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";
+<betterwithaddons:extra_grass:1>.displayName = "Clay Grass Block";
+<betterwithaddons:extra_grass:2>.displayName = "Sand Grass Block";
+<betterwithaddons:extra_grass:3>.displayName = "Red Sand Grass Block";
 
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));

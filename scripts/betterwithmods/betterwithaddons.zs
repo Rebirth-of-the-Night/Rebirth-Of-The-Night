@@ -123,7 +123,9 @@ val bwaArray = [
 <betterwithaddons:world_scale_ore:*>,
 <betterwithaddons:leaves_mulberry>,
 <betterwithaddons:leaves_sakura>,
-<betterwithaddons:worldshard>
+<betterwithaddons:worldshard>,
+<betterwithaddons:world_scale:*>,
+<betterwithaddons:world_scale_active:*>
 ] as IItemStack[];
 
 for item in bwaArray {

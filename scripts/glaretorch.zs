@@ -99,7 +99,7 @@ mods.betterwithmods.Anvil.addShaped(large*16,[
       [ncoal, ncoal, stick, ncoal],
       [medium, medium, latch, star],
       [medium, medium, latch, star],
-      [ncoal, medium, stick, ncoal]
+      [ncoal, ncoal, stick, ncoal]
    ]);
 
 //Glare Experts

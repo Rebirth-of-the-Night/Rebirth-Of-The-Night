@@ -45,6 +45,8 @@ minecraft:stone_shovel
 minecraft:stone_pressure_plate
 minecraft:stone_pickaxe
 minecraft:stone_hoe
+minecraft:stone_brick_stairs
+minecraft:stone_brick_slab
 minecraft:stone_axe
 minecraft:sticky_piston
 minecraft:stick
@@ -2386,10 +2388,8 @@ dungeontactics:armour/bounce_boots
 endreborn:tools/entropy_wand
 endreborn:tools/ender_sword
 endreborn:tools/ender_bow
-endreborn:items/purpur_block
 endreborn:items/purpur_and_endorium
 endreborn:items/item_world_mirror
-endreborn:items/item_shard_obsidian
 endreborn:items/item_ingot_endorium_2
 endreborn:items/item_ingot_endorium_1
 endreborn:items/item_dragonite_tea
@@ -2401,7 +2401,6 @@ endreborn:items/elytra
 endreborn:blocks/smooth_end_stone_wall
 endreborn:blocks/smooth_end_stone_stairs
 endreborn:blocks/e_purpur_wall
-endreborn:blocks/e_end_bricks_wall
 endreborn:blocks/e_end_bricks_stairs
 endreborn:blocks/end_stone_glow_smooth_wall
 endreborn:blocks/end_stone_glow_smooth_stairs
@@ -2414,7 +2413,6 @@ endreborn:blocks/crop_ender_flower
 endreborn:blocks/block_purpur_lamp
 endreborn:blocks/block_phantom
 endreborn:blocks/block_lormyte_crystal
-endreborn:blocks/block_end_stone_smooth
 endreborn:blocks/block_end_stone_pillar
 endreborn:blocks/block_end_forge
 endreborn:blocks/block_endorium
@@ -2948,7 +2946,6 @@ rustic:chain_gold
 rustic:chain
 rustic:brewing_barrel
 rustic:barrel
-rustic:almanac
 scalinghealth:heart_dust
 scalinghealth:heart_container
 simpleores:mythril_block
@@ -3674,7 +3671,6 @@ quark:colored_item_frame_15
 quark:lit_lamp
 quark:rope
 quark:blaze_lantern
-quark:nether_brick_fence_gate
 quark:grate
 quark:charcoal_block
 quark:coal
@@ -3716,7 +3712,6 @@ quark:stone_wall
 quark:quartz_wall
 quark:prismarine_bricks_wall
 quark:dark_prismarine_wall
-quark:end_bricks_wall
 quark:stained_planks_white_stairs
 quark:stained_planks_orange_stairs
 quark:stained_planks_magenta_stairs
@@ -3872,7 +3867,6 @@ quark:stone_diorite_stairs
 quark:stone_diorite_slab
 quark:stone_andesite_stairs
 quark:stone_andesite_slab
-quark:end_bricks_stairs
 quark:end_bricks_slab
 quark:prismarine_stairs
 quark:prismarine_slab
@@ -3880,7 +3874,6 @@ quark:prismarine_bricks_stairs
 quark:prismarine_bricks_slab
 quark:prismarine_dark_stairs
 quark:prismarine_dark_slab
-quark:red_nether_brick_stairs
 quark:cobblestone_mossy_stairs
 quark:cobblestone_mossy_slab
 quark:stonebrick_mossy_stairs
@@ -3905,6 +3898,7 @@ quark:midori_block_stairs
 quark:midori_block_slab
 quark:midori_pillar
 quark:midori_block_wall
+quark:midori_block
 quark:magma_bricks_stairs
 quark:magma_bricks_slab
 quark:magma_bricks
@@ -4370,14 +4364,12 @@ fairylights:icicle
 fairylights:meteor
 mod_lavacow:poisonarrow
 msmlegacy:gladiolus
-msmlegacy:adminium_ark
 minecraft:painted acacia slab
 netherchest:nether_chest_recipe
 netherex:gloomy_nether_brick
 netherex:gloomy_nether_brick_slab
 netherex:gloomy_nether_brick_1
 netherex:gloomy_nether_brick_wall
-netherex:gloomy_nether_brick_2
 netherex:gloomy_nether_brick_stairs
 netherex:gloomy_nether_brick_3
 netherex:gloomy_nether_brick_fence
@@ -4386,7 +4378,6 @@ netherex:lively_nether_brick
 netherex:lively_nether_brick_slab
 netherex:lively_nether_brick_1
 netherex:lively_nether_brick_wall
-netherex:lively_nether_brick_2
 netherex:lively_nether_brick_stairs
 netherex:lively_nether_brick_3
 netherex:lively_nether_brick_fence
@@ -4395,7 +4386,6 @@ netherex:fiery_nether_brick
 netherex:fiery_nether_brick_slab
 netherex:fiery_nether_brick_1
 netherex:fiery_nether_brick_wall
-netherex:fiery_nether_brick_2
 netherex:fiery_nether_brick_stairs
 netherex:fiery_nether_brick_3
 netherex:fiery_nether_brick_fence
@@ -4404,7 +4394,6 @@ netherex:icy_nether_brick
 netherex:icy_nether_brick_slab
 netherex:icy_nether_brick_1
 netherex:icy_nether_brick_wall
-netherex:icy_nether_brick_2
 netherex:icy_nether_brick_stairs
 netherex:icy_nether_brick_3
 netherex:icy_nether_brick_fence
@@ -4413,7 +4402,6 @@ netherex:basalt
 netherex:basalt_slab
 netherex:basalt_1
 netherex:basalt_wall
-netherex:basalt_2
 netherex:basalt_stairs
 netherex:basalt_3
 netherex:basalt_fence
@@ -4423,7 +4411,6 @@ netherex:smooth_basalt_1
 netherex:smooth_basalt_slab
 netherex:smooth_basalt_2
 netherex:smooth_basalt_wall
-netherex:smooth_basalt_3
 netherex:smooth_basalt_stairs
 netherex:smooth_basalt_4
 netherex:smooth_basalt_fence
@@ -4433,7 +4420,6 @@ netherex:basalt_brick_1
 netherex:basalt_brick_slab
 netherex:basalt_brick_2
 netherex:basalt_brick_wall
-netherex:basalt_brick_3
 netherex:basalt_brick_stairs
 netherex:basalt_brick_4
 netherex:basalt_brick_fence
@@ -4442,7 +4428,6 @@ netherex:basalt_pillar
 netherex:basalt_pillar_slab
 netherex:basalt_pillar_1
 netherex:basalt_pillar_wall
-netherex:basalt_pillar_2
 netherex:basalt_pillar_stairs
 netherex:basalt_pillar_3
 netherex:basalt_pillar_fence
@@ -4456,13 +4441,10 @@ netherex:red_nether_brick_2
 netherex:red_nether_brick_fence
 netherex:red_nether_brick_fence_gate
 netherex:quartz_wall
-netherex:quartz_block
 netherex:quartz_fence
 netherex:quartz_fence_gate
 netherex:dull_mirror
 netherex:dull_mirror_1
-netherex:soul_glass_pane
-netherex:soul_glass
 netherex:rime_block
 netherex:rime_crystal
 netherex:dye
@@ -4659,7 +4641,6 @@ crafttweaker:ct_shaped1389547624
 crafttweaker:ct_shaped-890650639
 crafttweaker:aether_legacy_skyroot_trapdoor
 crafttweaker:betterwithmods_items/material/material_padding
-crafttweaker:stickshaft
 crafttweaker:twine_durable_cloth
 crafttweaker:ct_shaped-158925336
 crafttweaker:ct_shaped1853415960
@@ -4750,6 +4731,7 @@ crafttweaker:calamarigold
 crafttweaker:calamarigold 2
 crafttweaker:foul_sandwich
 crafttweaker:tsh
+crafttweaker:tickywicky
 crafttweaker:disenchantment table
 crafttweaker:disintrune11
 crafttweaker:disintrune12
@@ -4900,6 +4882,8 @@ crafttweaker:gold_silver_mixture
 crafttweaker:gold_silver_mixture_return
 crafttweaker:magnitifus
 crafttweaker:end shards
+crafttweaker:smooth_end_stone
+crafttweaker:chiseled_purpur
 crafttweaker:being of entropy
 crafttweaker:string of life
 crafttweaker:endorium sword
@@ -5012,6 +4996,8 @@ crafttweaker:vampiric blade
 crafttweaker:draconic blade
 crafttweaker:red hot chili pepper sword
 crafttweaker:ct_shaped449973793
+crafttweaker:soul_glass_pane
+crafttweaker:nether_brick_fence_gate
 crafttweaker:ct_shaped799310631
 crafttweaker:ct_shaped-516550929
 crafttweaker:ct_shaped-3200904
@@ -5035,9 +5021,11 @@ crafttweaker:sap_sludge_low
 crafttweaker:sap_honey
 crafttweaker:sap_sludge
 crafttweaker:fertilesoil
+crafttweaker:rock_conversion
 crafttweaker:drytotwine
 crafttweaker:twinetostring
 crafttweaker:pyro stone brick
+crafttweaker:pyrorock stone brick
 crafttweaker:pyro stone kiln
 crafttweaker:pyro stone anvil
 crafttweaker:pyro steel anvil
@@ -5186,6 +5174,7 @@ crafttweaker:ct_shapeless-1386164286
 crafttweaker:ct_shapeless1410625186
 crafttweaker:ct_shapeless-1411504406
 crafttweaker:ct_shapeless635450180
+crafttweaker:almanac
 crafttweaker:gold lantern
 crafttweaker:tin lantern
 crafttweaker:iron candle

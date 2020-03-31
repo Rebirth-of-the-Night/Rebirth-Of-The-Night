@@ -66,10 +66,14 @@ mods.jei.JEI.removeAndHide(<rustic:apiary>);
 
 
 mods.jei.JEI.removeAndHide(<rustic:ironberry_juice>);
-
-
 mods.jei.JEI.removeAndHide(<rustic:tallow>);
 
+recipes.remove(<rustic:book>);
+recipes.addShaped("almanac",<rustic:book>,[
+    [null,<harvestcraft:oliveitem>,null],
+    [<minecraft:iron_nugget>,<minecraft:book>,<minecraft:iron_nugget>],
+    [null,<minecraft:iron_nugget>,null]
+]);
 
 # Iron and Gold Lanterns
 

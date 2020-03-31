@@ -1,4 +1,6 @@
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.jei.JEI;
 
 mods.jei.JEI.removeAndHide(<biomesoplenty:peach>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:plant_1:3>);
@@ -49,3 +51,10 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.mal
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.malachite_ore:*>);
 
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>, 0.3);
+
+recipes.removeByRecipeName("biomesoplenty:mud_bricks_stairs");
+recipes.addShaped("mud_brick_stairs",<biomesoplenty:mud_brick_stairs:0>*8,[
+    [<biomesoplenty:mud_brick_block:0>,null,null],
+    [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,null],
+    [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>]
+]);

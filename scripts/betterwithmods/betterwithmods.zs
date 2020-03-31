@@ -16,11 +16,11 @@ recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 recipes.removeByRecipeName("betterwithmods:decompress/melon_decompress");
+recipes.removeByRecipeName("betterwithmods:blocks/shaft_back");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
-recipes.remove(<betterwithmods:shaft>);
-recipes.addShapeless("stickShaft", <betterwithmods:shaft>,[<ore:stickWood>]);
+mods.jei.JEI.removeAndHide(<betterwithmods:shaft>);
 
 recipes.addShaped("twine_durable_cloth", <aether_legacy:skyroot_trapdoor>*6,
     [[<pyrotech:material:26>,<pyrotech:material:26>,<pyrotech:material:26>],
@@ -37,7 +37,6 @@ mods.jei.JEI.removeAndHide(<betterwithmods:material:46>);
 mods.jei.JEI.removeAndHide(<betterwithmods:siding_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
 mods.jei.JEI.removeAndHide(<betterwithmods:moulding_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
 mods.jei.JEI.removeAndHide(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
-mods.betterwithmods.Saw.remove(<betterwithaddons:log_mulberry>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:raw_egg>);
 mods.jei.JEI.removeAndHide(<betterwithmods:cooked_egg>);
