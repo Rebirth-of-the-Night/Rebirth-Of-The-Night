@@ -17,6 +17,7 @@
 {
     "mob": "minecraft:wither",
 	"onjoin": true,
+    "potion": ["extraalchemy:effect.dislocation,20,2"],
     "damagemultiply": 2
   },
 
