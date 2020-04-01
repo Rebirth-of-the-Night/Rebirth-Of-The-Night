@@ -365,18 +365,16 @@ recipes.remove(<dungeontactics:lantern_magic>);
 recipes.remove(<dungeontactics:iron_ring>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:iron_ring");
 
-# Replaces Magic Lantern recipe with Rustic's lantern
+# Magic Lantern
 
 var powder = <dungeontactics:magic_powder>;
 var nugget = <minecraft:gold_nugget>;
 var pumpkin = <minecraft:pumpkin>;
 var lantern = <rustic:golden_lantern>;
 
-recipes.addShaped("Magic Lantern", <dungeontactics:lantern_magic>,[
-	[<simpleores:mythril_ingot>, <netherex:ghast_queen_tear>, <simpleores:mythril_ingot>],
-    [powder, lantern, powder],
-    [<simpleores:mythril_ingot>, pumpkin, <simpleores:mythril_ingot>]
-]);
+mods.betterwithaddons.Infuser.addShaped(<dungeontactics:lantern_magic>, [
+    [<nyx:fallen_star>, <netherex:ghast_queen_tear>, <nyx:fallen_star>],[<bountifulbaubles:spectralsilt>, <minecraft:pumpkin>, <bountifulbaubles:spectralsilt>], [<nyx:fallen_star>, <contenttweaker:luna_orb>, <nyx:fallen_star>]],
+	64);
 
 
 var ironnugget = <minecraft:iron_nugget>;
@@ -428,3 +426,15 @@ recipes.addShaped("Bag of Hoarding", <dungeontactics:bagofhoarding>,[
     [tanned, <minecraft:ender_chest>, tanned],
     [tanned, tanned, tanned]
 ]);
+
+// Charm recipes
+
+recipes.addShaped(<dungeontactics:charm_searing>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:fire_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_barren>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:luna_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_famine>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:nature_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_darkened>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:sol_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_unintelligible>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:water_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_emaciated>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:strength_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_heavy>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:air_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_sapping>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:energy_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+recipes.addShaped(<dungeontactics:charm_toxic>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:poison_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
