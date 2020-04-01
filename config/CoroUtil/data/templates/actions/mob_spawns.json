@@ -501,7 +501,7 @@
         },
         {
           "condition": "random",
-          "weight": 40
+          "weight": 100
         }
       ],
       "spawns": [
