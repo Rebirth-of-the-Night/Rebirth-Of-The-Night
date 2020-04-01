@@ -9,4 +9,4 @@ criteria.addItem("dungeontactics:terrible_feather")
 
 alwaysVisible()
 hideLines()
-setPos(-229,138)
+setPos(-226,138)

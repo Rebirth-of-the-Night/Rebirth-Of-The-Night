@@ -53,7 +53,7 @@ recipes.addHiddenShapeless("CalaMariGold", <atop:amethyst_sword>.withTag(({"Quar
 
 <contenttweaker:kompy_kantrip>.displayName = "§dKompy's §aKantrip";
 <contenttweaker:kompy_kantrip>.addTooltip(format.aqua("Whimsicott's Playday =3"));
-<contenttweaker:kompy_kantrip>.addTooltip(format.darkBlue("Developer Relic 2/6"));
+<contenttweaker:kompy_kantrip>.addTooltip(format.darkBlue("Developer Relic 4/6"));
 
 mods.jei.JEI.addDescription([<contenttweaker:kompy_kantrip>],["Kompy's Kantrip can be used to kraft gardens full of her favorite flower!"]);
 mods.jei.JEI.addDescription([<contenttweaker:kompy_essence>],["Krafted with Kompy's favorite flower, favorite blue Gem, her wife's favorite green Gem, their favorite afternoon spiced tea, an orb of nature, and Kompy's two favorite colors."]);

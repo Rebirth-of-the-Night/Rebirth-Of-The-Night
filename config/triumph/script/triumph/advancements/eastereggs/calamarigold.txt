@@ -1,12 +1,12 @@
-setIcon("contenttweaker:calamarigold")
+setIcon("atop:amethyst_sword")
 setTitle("CalaMariGold")
-setDescription("Craft Dev Relic 1 of 6 using raw calamari and marigold or a gold ingot.")
+setDescription("Craft Dev Relic 1 of 6 with by combining the two items in her name.")
 
 addParent("triumph:advancements/eastereggs/root")
 
 
 criteria = addCriteria("Dev Relic 1", "minecraft:inventory_changed")
-criteria.addItem("contenttweaker:calamarigold")
+criteria.addItem("atop:amethyst_sword")
 
 alwaysVisible()
 hideLines()
