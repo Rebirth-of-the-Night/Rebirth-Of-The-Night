@@ -40,26 +40,6 @@ recipes.addShaped("ironwood_hoe",<twilightforest:ironwood_hoe>.withTag(enchantme
    [null, <ore:stickWood>, null]
 ]);
 
-// Lich Scepters
-
-mods.betterwithaddons.Infuser.addShaped(<twilightforest:shield_scepter>, [
-[null, <aether_legacy:golden_amber>, <contenttweaker:strength_orb>],
-[null, <doggytalents:big_bone>, <aether_legacy:golden_amber>], 
-[<doggytalents:big_bone>, null, null]],
-16);
-
-mods.betterwithaddons.Infuser.addShaped(<twilightforest:zombie_scepter>, [
-[null, null, <contenttweaker:plague_orb>],
-[null, <doggytalents:big_bone>, null], 
-[<doggytalents:big_bone>, null, null]],
-16);
-
-mods.betterwithaddons.Infuser.addShaped(<twilightforest:twilight_scepter>, [
-[null, null, <contenttweaker:end_orb>],
-[null, <doggytalents:big_bone>, null], 
-[<doggytalents:big_bone>, null, null]],
-16);
-
 // Charms
 
 recipes.remove(<twilightforest:charm_of_keeping_3>);
