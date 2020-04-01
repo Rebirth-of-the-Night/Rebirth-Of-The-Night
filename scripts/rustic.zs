@@ -1,12 +1,12 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
-mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for air ships.");
+mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"Only spawns in mountain biomes. Used to create balloons for air ships.");
 
 mods.jei.JEI.removeAndHide(<rustic:crop_stake>);
 
 mods.jei.JEI.removeAndHide(<rustic:rope>);
 mods.jei.JEI.removeAndHide(<rustic:crushing_tub>);
-mods.jei.JEI.hideCategory("rustic.crushing_tub");
 
 mods.jei.JEI.removeAndHide(<rustic:tomato_seeds>);
 mods.jei.JEI.removeAndHide(<rustic:tomato>);
@@ -66,14 +66,10 @@ mods.jei.JEI.removeAndHide(<rustic:apiary>);
 
 
 mods.jei.JEI.removeAndHide(<rustic:ironberry_juice>);
+
+
 mods.jei.JEI.removeAndHide(<rustic:tallow>);
 
-recipes.remove(<rustic:book>);
-recipes.addShaped("almanac",<rustic:book>,[
-    [null,<harvestcraft:oliveitem>,null],
-    [<minecraft:iron_nugget>,<minecraft:book>,<minecraft:iron_nugget>],
-    [null,<minecraft:iron_nugget>,null]
-]);
 
 # Iron and Gold Lanterns
 
@@ -119,3 +115,36 @@ recipes.addShaped("Golden Candle", <rustic:candle_gold>,[
     [null, whitecandle, null],
     [null, gold, null]
 ]);
+
+# fixed unbrewable potion recipes
+
+val regenerationElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]});
+val regenerationElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 1800, Amplifier: 0}]});
+val regenerationElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 450, Amplifier: 1}]});
+val healthElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});
+val healthElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 1}]});
+
+var cohosh = <rustic:cohosh>;
+var honeycomb = <harvestcraft:honeycombitem>;
+var chamomile = <rustic:chamomile>;
+var root = <rustic:marsh_mallow>;
+var horsetail = <rustic:horsetail>;
+
+mods.rustic.Condenser.removeRecipe(regenerationElixir);
+mods.rustic.Condenser.removeRecipe(regenerationElixirLong);
+mods.rustic.Condenser.removeRecipe(regenerationElixirStrong);
+mods.rustic.Condenser.removeRecipe(healthElixir);
+mods.rustic.Condenser.removeRecipe(healthElixirStrong);
+
+mods.rustic.Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
+mods.rustic.Condenser.addRecipe(regenerationElixirLong, horsetail, [cohosh, honeycomb, null]);
+mods.rustic.Condenser.addRecipe(regenerationElixirStrong, root, [cohosh, honeycomb, null]);
+
+val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
+//raw beef is included because it still sometimes drops
+
+for item in beef
+{
+	mods.rustic.Condenser.addRecipe(healthElixir, chamomile, item);
+	mods.rustic.Condenser.addRecipe(healthElixirStrong, root, [chamomile, item, null]);
+}
