@@ -1,12 +1,13 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"Only spawns in mountain biomes. Used to create balloons for air ships.");
+mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for air ships.");
 
 mods.jei.JEI.removeAndHide(<rustic:crop_stake>);
 
 mods.jei.JEI.removeAndHide(<rustic:rope>);
 mods.jei.JEI.removeAndHide(<rustic:crushing_tub>);
+mods.jei.JEI.hideCategory("rustic.crushing_tub");
 
 mods.jei.JEI.removeAndHide(<rustic:tomato_seeds>);
 mods.jei.JEI.removeAndHide(<rustic:tomato>);
@@ -66,10 +67,14 @@ mods.jei.JEI.removeAndHide(<rustic:apiary>);
 
 
 mods.jei.JEI.removeAndHide(<rustic:ironberry_juice>);
-
-
 mods.jei.JEI.removeAndHide(<rustic:tallow>);
 
+recipes.remove(<rustic:book>);
+recipes.addShaped("almanac",<rustic:book>,[
+    [null,<harvestcraft:oliveitem>,null],
+    [<minecraft:iron_nugget>,<minecraft:book>,<minecraft:iron_nugget>],
+    [null,<minecraft:iron_nugget>,null]
+]);
 
 # Iron and Gold Lanterns
 
