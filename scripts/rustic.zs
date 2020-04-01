@@ -146,7 +146,7 @@ mods.rustic.Condenser.addRecipe(regenerationElixirLong, horsetail, [cohosh, hone
 mods.rustic.Condenser.addRecipe(regenerationElixirStrong, root, [cohosh, honeycomb, null]);
 
 val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
-//raw beef is included because it still sometimes drops
+//raw vanilla beef is included because it still sometimes drops
 
 for item in beef
 {
