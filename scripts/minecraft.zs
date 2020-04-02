@@ -181,6 +181,11 @@ potions.maxStackSize = 8;
 potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
 
+<dungeontactics:bone_cestus>.displayName = "Holy Stake";
+recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>, 
+[[null, <iceandfire:silver_nugget>, <contenttweaker:aether_rune>.anyDamage().transformDamage()],
+[<iceandfire:silver_nugget>, <betterwithmods:stake>, <iceandfire:silver_nugget>], 
+[<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
 
 //Ore Dictionary Entries
 val wool = <ore:wool>;

@@ -73,7 +73,7 @@ mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your e
 
 mods.jei.JEI.addDescription([<rats:treacle>],"Supposedly, syrup aged for at least ten years can help ward off the plague. Unless you were preparing for the plague starting ten years ago, that won't help... unless you can find something to magically age the syrup or spark a strange fermentation reaction.");
 
-mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Can infuse or repair quality weapons and tools, although it takes a while. Using electrum instead of ambrosium proves to be much more efficient.");
+mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Given a generous amount of time, it can infuse or repair quality weapons and tools which will also changue the item's quality. using electrum instead of ambrosium proves to be much more efficient.");
 
 mods.jei.JEI.addDescription(<betterwithmods:saw>,"Requires continuous mechanical power to work. A windmill or waterwheel will suffice.");
 

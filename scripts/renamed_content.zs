@@ -27,6 +27,7 @@ import crafttweaker.game.IGame;
 <aether_legacy:holystone_brick_slab>.displayName = "Holystone Brick Slab";
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
+<aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
