@@ -174,7 +174,7 @@ mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat 
 # End Essence
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
 # Spell Scroll
-mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>, 'A gate to uninhibited magical power once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the "Magic" book.');
+mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited magical power once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the 'Magic' book.");
 
 
 
