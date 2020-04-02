@@ -347,7 +347,152 @@
         }
       ]
     },
+    {
+      "name": "invasion_undead_cavalry",
+      "wave_message": "§cThe undead cavalry rides tonight!",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "specialmobs:brutezombie"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_diamond"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron_pickaxe"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:brutezombie"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_diamond"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:bruteskeleton"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:zombie_horse"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        },    
+        {
+          "entities": [
+            "minecraft:skeleton_horse"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        }
+      ]
+    },
 
+    {
+      "name": "invasion_skydrake",
+      "wave_message": "§cYou hear a loud roar coming from the skies...",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron_pickaxe"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "mowziesmobs:naga"
+          ],
+          "count": 1,
+          "cmods": [
+            {
+              "cmod": "ai_omniscience"
+            },
+            {
+              "cmod": "attribute_health",
+              "base_value": 300
+            },
+            {
+              "cmod": "xp",
+              "base_value": 200
+            },
+            {
+              "cmod": "attribute_attackdamage",
+              "base_value": 20
+            }
+          ]
+        }
+      ]
+    },
 
 
 
@@ -408,7 +553,7 @@
     },
     {
       "name": "invasion_illagers",
-      "wave_message": "§cAn Illager army is invading!",
+      "wave_message": "§cThe Illager army is invading!",
       "conditions": [
         {      
           "condition": "game_stages",
