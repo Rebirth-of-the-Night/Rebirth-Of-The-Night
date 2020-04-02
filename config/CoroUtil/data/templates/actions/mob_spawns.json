@@ -10,10 +10,6 @@
           "condition": "game_stages",
           "game_stages": ["noStage"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 5
         }
       ],
       "spawns": [
@@ -83,10 +79,6 @@
           "condition": "game_stages",
           "game_stages": ["fullEarlyArmor"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 20
         }
       ],
       "spawns": [
@@ -165,10 +157,6 @@
           "condition": "game_stages",
           "game_stages": ["fullEarlyArmor"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 20
         }
       ],
       "spawns": [
@@ -245,16 +233,12 @@
 
     {
       "name": "invasion_pirates",
-      "wave_message": "§cThe pirates have arrived!",
+      "wave_message": "§cThe pirates are invading!",
       "conditions": [
         {      
           "condition": "game_stages",
           "game_stages": ["fullMidArmor"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 30
         }
       ],
       "spawns": [
@@ -303,10 +287,6 @@
           "condition": "game_stages",
           "game_stages": ["fullMidArmor"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 30
         }
       ],
       "spawns": [
@@ -399,18 +379,14 @@
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 40
         }
       ],
       "spawns": [
         {
           "entities": [
-            "animania:bull_highland", "animania:bull_holstein", "animania:hog_yorkshire", "animania:rooster_leghorn", "wolf", "ocelot", "parrot", "polar_bear", "animania:ram_dorset", "animania:stallion_draft", "donkey", "mule", "llama", "betteranimalsplus:songbird", "betteranimalsplus:moose", "animania:cow_holstein", "betteranimalsplus:brownbear", "betteranimalsplus:deer", "animania:buck_angora", "primitivemobs:filch_lizard", "betteranimalsplus:boar", "animania:buck_cottontail"
+            "animania:bull_highland", "animania:bull_holstein", "animania:hog_yorkshire", "animania:rooster_leghorn", "ocelot", "parrot", "animania:ram_dorset", "animania:stallion_draft", "donkey", "mule", "llama", "betteranimalsplus:songbird", "betteranimalsplus:moose", "animania:cow_holstein", "betteranimalsplus:brownbear", "betteranimalsplus:deer", "animania:buck_angora", "primitivemobs:filch_lizard", "betteranimalsplus:boar", "animania:buck_cottontail"
           ],
-          "count": 50,
+          "count": 75,
           "cmods": [
             {
               "cmod": "ai_omniscience"
@@ -420,7 +396,11 @@
             },
             {
               "cmod": "attribute_attackdamage",
-              "base_value": 5
+              "base_value": 10
+            },
+            {
+              "cmod": "attribute_speed",
+              "base_value": 0.5
             }
           ]
         }
@@ -428,16 +408,12 @@
     },
     {
       "name": "invasion_illagers",
-      "wave_message": "§cThe Illager army has arrived!",
+      "wave_message": "§cAn Illager army is invading!",
       "conditions": [
         {      
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 40
         }
       ],
       "spawns": [
@@ -469,7 +445,31 @@
     },
 
 
-
+    {
+      "name": "invasion_vermin_souls",
+      "wave_message": "§cOOPS! All Vermin Souls!",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["minedMythril"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "rats:ratlantean_spirit"
+          ],
+          "count": 40,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        }
+      ]
+    },
 
 
 
@@ -498,10 +498,6 @@
         {
           "condition": "invasion_rate",
           "rate": 52
-        },
-        {
-          "condition": "random",
-          "weight": 100
         }
       ],
       "spawns": [
