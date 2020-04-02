@@ -53,12 +53,7 @@
     "result": "deny"
  },
 
- // Disable Trumpet Spawning
- //{
-    //"mob": "trumpetskeleton:trumpet_skeleton",
-    //"onjoin": true,
-    //"result": "deny"
- //},
+
  
   // Disable unneeded fish's mobs
  {
@@ -127,6 +122,26 @@
     "mob": "minecraft:zombie",
     "dimension": -1,
     "onjoin": true,
+    "result": "deny"
+ },
+
+ // Trumpet Skelly
+ {
+    "dimension": 0,
+    "mob": "trumpetskeleton:trumpet_skeleton",
+    "maxlight": 7,
+    "minlight": 0,
+    "random": 0.00001,
+    "gamestage": "minedMythril",
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "trumpetskeleton:trumpet_skeleton",
     "result": "deny"
  },
 
