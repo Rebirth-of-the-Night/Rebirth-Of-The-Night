@@ -310,7 +310,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag(({"Quark:R
    [end_sword, worldmirror, aethers_guard, diamondsword],
    [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
    [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
-   [amedian_sword, mythrilsword, beingofentropy, glass_sword]
+   [onyx_sword, mythrilsword, beingofentropy, glass_sword]
 ]);
 
 
