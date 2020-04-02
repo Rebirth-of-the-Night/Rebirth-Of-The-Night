@@ -45,8 +45,11 @@ mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Impossible to enchant,
 mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Impossible to enchant, since it is already infused with souls.");
 mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Impossible to enchant, since it is already infused with souls.");
 
+mods.jei.JEI.addDescription(<quark:ancient_tome>,"Filled with arcane secrets from a long-dead civilization. Combine an Ancient Tome and a matching enchanted book in an anvil to increase the enchantment one level higher than its normal maximum level.");
 
-mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly living crystal. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
+mods.jei.JEI.addDescription(<qualitytools:reforging_station>,"Placing an item in the Reforging Station along with one piece of its primary material, such as an ingot, will change the item's quality. Many magical items can be reforged with Spectral Silt.");
+
+mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
 
 mods.jei.JEI.addDescription([<biomesoplenty:biome_essence>],["Residual energy of that which was extinguished by Void. Can be found at the bottom of the Ender Dragon island."]);
 
@@ -73,7 +76,7 @@ mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your e
 
 mods.jei.JEI.addDescription([<rats:treacle>],"Supposedly, syrup aged for at least ten years can help ward off the plague. Unless you were preparing for the plague starting ten years ago, that won't help... unless you can find something to magically age the syrup or spark a strange fermentation reaction.");
 
-mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Given a generous amount of time, it can infuse or repair quality weapons and tools which will also changue the item's quality. using electrum instead of ambrosium proves to be much more efficient.");
+mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"With a generous amount of time and fuel, it can infuse or repair rarer weapons and tools, changing the item's quality in the process. Using electrum instead of ambrosium proves to be much more efficient.");
 
 mods.jei.JEI.addDescription(<betterwithmods:saw>,"Requires continuous mechanical power to work. A windmill or waterwheel will suffice.");
 

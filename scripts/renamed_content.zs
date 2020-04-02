@@ -168,11 +168,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <atop:mud_sword>.displayName = "Bronze Gladius";
 
 // EPlus
-<eplus:table_upgrade>.displayName = "Enchantment Table Upgrade";
-<eplus:advanced_table>.displayName = "§6True Enchantment Table";
+<eplus:table_upgrade>.displayName = "Enchanting Table Upgrade";
+<eplus:advanced_table>.displayName = "§6True Enchanting Table";
 
 
-// Lavacow
+// Lavacow / Fish's Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 
 // Better Nether
@@ -252,6 +252,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Rats
 <rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
+
+// Pam's Harvestcraft
+<harvestcraft:maplesyrupitem>.displayName = "Sweet Syrup";
 
 // Better with Addons
 <betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";

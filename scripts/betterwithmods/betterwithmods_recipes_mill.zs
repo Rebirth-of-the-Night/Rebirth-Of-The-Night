@@ -41,3 +41,9 @@ mods.betterwithmods.Mill.builder()
 .setPriority(8)
 .setGrindType("fairylights:cord.stretch")
 .build();
+
+// nether sugar
+mods.betterwithmods.Mill.builder()
+.buildRecipe([<betternether:nether_reed>], [<minecraft:sugar>*2])
+.setPriority(6)
+.build();
