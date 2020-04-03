@@ -63,3 +63,13 @@ GraniteAnvil.addRecipe("smash heart 5",<scalinghealth:crystalshard>*1, <quark:di
 GraniteAnvil.addRecipe("halite to salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
 GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>,48,"hammer", true);
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>,64,"hammer", true);
+
+//D-Heads
+
+var dhead1 = <iceandfire:dragon_skull>:*>.withTag({Stage: 1});
+
+GraniteAnvil.addRecipe("DragonHead1",<mod_lavacow:sharptooth>*3, dhead1,3,"hammer", true);
+GraniteAnvil.addRecipe("DragonHead2",<mod_lavacow:sharptooth>*7, <iceandfire:dragon_skull>:*>.withTag({Stage: 2}),6,"hammer", true);
+GraniteAnvil.addRecipe("DragonHead3",<mod_lavacow:sharptooth>*12, <iceandfire:dragon_skull:*>.withTag({Stage: 3}),9,"hammer", true);
+GraniteAnvil.addRecipe("DragonHead4",<mod_lavacow:sharptooth>*17, <iceandfire:dragon_skull:*>.withTag({Stage: 4}),12,"hammer", true);
+GraniteAnvil.addRecipe("DragonHead5",<mod_lavacow:sharptooth>*25, <iceandfire:dragon_skull:*>.withTag({Stage: 5}),15,"hammer", true);

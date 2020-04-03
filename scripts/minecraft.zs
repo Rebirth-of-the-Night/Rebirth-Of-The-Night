@@ -66,12 +66,12 @@ recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>,[
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
 ]);
 recipes.remove(<minecraft:stone_brick_stairs>);
-recipes.addShaped("stone_brick_stairs",<minecraft:stone_brick_stairs>*8,[
+recipes.addShaped("stone_brick_stairs_brick",<minecraft:stone_brick_stairs>*8,[
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null,null],
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null],
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
 ]);
-recipes.addShaped("stone_brick_stairs",<minecraft:stone_brick_stairs>*4,[
+recipes.addShaped("stone_brick_stairs_slab",<minecraft:stone_brick_stairs>*4,[
     [<minecraft:stone_slab:5>,null,null],
     [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,null],
     [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,<minecraft:stone_slab:5>]
@@ -121,9 +121,8 @@ recipes.addShaped("Chainlinks", chainlink*2,[
     [null, <ore:nuggetIron>, null]
 ]);
 
-recipes.addShapeless("Quark_chain", chain,
-	[chainlink, chainlink]
-);
+recipes.addShapeless("Quark_chain", <quark:chain>, 
+[chainlink, chainlink]);
 
 recipes.addShaped("iceandfire_chain", bigchain,[
 	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>],
