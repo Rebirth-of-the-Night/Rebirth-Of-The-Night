@@ -58,3 +58,10 @@ recipes.addShaped("mud_brick_stairs",<biomesoplenty:mud_brick_stairs:0>*8,[
     [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,null],
     [<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>,<biomesoplenty:mud_brick_block:0>]
 ]);
+
+recipes.removeByRecipeName("biomesoplenty:white_sandstone_stairs");
+recipes.addShaped("white_sandstone_stairs",<biomesoplenty:white_sandstone_stairs:0>*8,[
+    [<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>,null,null],
+    [<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>,<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>,null],
+    [<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>,<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>,<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>]
+]);

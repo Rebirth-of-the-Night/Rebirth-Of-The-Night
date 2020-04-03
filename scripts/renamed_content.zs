@@ -27,6 +27,15 @@ import crafttweaker.game.IGame;
 <aether_legacy:holystone_brick_slab>.displayName = "Holystone Brick Slab";
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
+<aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
+
+//Biomes o'Plenty
+<biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
+<biomesoplenty:hive>.displayName = "Giant Hive Block";
+<biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
+<biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
+<biomesoplenty:hive>.displayName = "Giant Filled Honeycomb";
+
 
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
@@ -108,10 +117,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:end_bricks_slab:*>.displayName = "End Stone Brick Slab";
 
 // Ice And Fire: Dragons in a Whole New Light
-<iceandfire:chain>.displayName = "Big Chain";
+<iceandfire:chain>.displayName = "Refined Chain";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
+<dungeontactics:steel_ingot>.displayName = "Crude Steel Ingot";
 
 
 // Rustic
@@ -167,11 +177,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <atop:mud_sword>.displayName = "Bronze Gladius";
 
 // EPlus
-<eplus:table_upgrade>.displayName = "Enchantment Table Upgrade";
-<eplus:advanced_table>.displayName = "§6True Enchantment Table";
+<eplus:table_upgrade>.displayName = "Enchanting Table Upgrade";
+<eplus:advanced_table>.displayName = "§6True Enchanting Table";
 
 
-// Lavacow
+// Lavacow / Fish's Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 
 // Better Nether
@@ -251,6 +261,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Rats
 <rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
+
+// Pam's Harvestcraft
+<harvestcraft:maplesyrupitem>.displayName = "Sweet Syrup";
 
 // Better with Addons
 <betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";
@@ -426,7 +439,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <msmlegacy:wither_bane>.displayName = "§6Dark's Edge";
 <msmlegacy:wither_bane>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:wither_bane>.addTooltip("Darkness consumes the unworthy");
+<msmlegacy:wither_bane>.addTooltip("Darkness consumes the fallen.");
 
 
 <contenttweaker:heavensheart>.displayName = "§6Heaven's Heart";
@@ -435,7 +448,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <msmlegacy:crystaline_blade>.displayName = "§6Light's Edge";
 <msmlegacy:crystaline_blade>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:crystaline_blade>.addTooltip("Light purifies all");
+<msmlegacy:crystaline_blade>.addTooltip("Light purifies all.");
 
 
 
@@ -613,7 +626,7 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's 
 
 
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
-<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may weild this weapon.");
+<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may wield this weapon.");
 
 
 

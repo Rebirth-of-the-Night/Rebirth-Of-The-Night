@@ -64,10 +64,21 @@ recipes.addShaped("soul_glass_pane",<netherex:soul_glass_pane>,[
     [<netherex:soul_glass>,<netherex:soul_glass>,<netherex:soul_glass>]
 ]);
 
-recipes.addShaped("nether_brick_fence_gate",<netherex:nether_brick_fence_gate>*3,[
+recipes.addShaped("nether_brick_fence_gate",<netherex:nether_brick_fence_gate>*6,[
     [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>],
     [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>]
 ]);
+
+var slabArray = [<netherex:red_nether_brick_slab:0>,<netherex:gloomy_nether_brick_slab:0>,<netherex:lively_nether_brick_slab:0>,<netherex:fiery_nether_brick_slab:0>,<netherex:icy_nether_brick_slab:0>,<netherex:basalt_slab:0>,<netherex:smooth_basalt_slab:0>,<netherex:basalt_brick_slab:0>,<netherex:basalt_pillar_slab:0>] as IItemStack[];
+var stairArray = [<netherex:red_nether_brick_stairs>,<netherex:gloomy_nether_brick_stairs>,<netherex:lively_nether_brick_stairs>,<netherex:fiery_nether_brick_stairs>,<netherex:icy_nether_brick_stairs>,<netherex:basalt_stairs>,<netherex:smooth_basalt_stairs>,<netherex:basalt_brick_stairs>,<netherex:basalt_pillar_stairs>] as IItemStack[];
+
+for i, output in stairArray{
+    recipes.addShaped(output*4,[
+        [slabArray[i],null,null],
+        [slabArray[i],slabArray[i],null],
+        [slabArray[i],slabArray[i],slabArray[i]]
+    ]);
+}
 
 //End Reborn Compatibility
 recipes.addShaped(<atop:amethyst_helmet>,[

@@ -45,8 +45,6 @@ minecraft:stone_shovel
 minecraft:stone_pressure_plate
 minecraft:stone_pickaxe
 minecraft:stone_hoe
-minecraft:stone_brick_stairs
-minecraft:stone_brick_slab
 minecraft:stone_axe
 minecraft:sticky_piston
 minecraft:stick
@@ -254,7 +252,6 @@ minecraft:ender_chest
 minecraft:end_rod
 minecraft:end_crystal
 minecraft:end_bricks
-minecraft:enchanting_table
 minecraft:emerald_block
 minecraft:emerald
 minecraft:dropper
@@ -347,7 +344,6 @@ minecraft:birch_door
 minecraft:birch_boat
 minecraft:beacon
 minecraft:arrow
-minecraft:armor_stand
 minecraft:anvil
 minecraft:andesite
 minecraft:activator_rail
@@ -516,7 +512,6 @@ biomesoplenty:willow_fence_gate
 biomesoplenty:willow_fence
 biomesoplenty:willow_door
 biomesoplenty:white_wool_from_cattails
-biomesoplenty:white_sandstone_stairs
 biomesoplenty:white_sandstone_slab
 biomesoplenty:white_sandstone
 biomesoplenty:wasteland_terrarium
@@ -568,7 +563,6 @@ biomesoplenty:nether_terrarium
 biomesoplenty:mystic_terrarium
 biomesoplenty:mushroom_terrarium
 biomesoplenty:mud_from_dirt
-biomesoplenty:mud_bricks_stairs
 biomesoplenty:mud_bricks_slab
 biomesoplenty:mud_bricks
 biomesoplenty:mud
@@ -1757,9 +1751,7 @@ twilightforest:dark_tower/tower_wood_encased
 twilightforest:dark_tower/tower_device_reactor
 twilightforest:dark_tower/tower_device_vanishing
 twilightforest:dark_tower/encased_fire_jet
-twilightforest:ore_map_empty_from_maze_map_empty
 twilightforest:firefly_jar
-twilightforest:magic_map_empty
 twilightforest:nagastone/nagastone_stairs_right
 twilightforest:nagastone/nagastone_stairs_right_weathered
 twilightforest:nagastone/nagastone_stairs_reverse
@@ -1798,7 +1790,6 @@ twilightforest:equipment/knightmetal_chestplate
 twilightforest:equipment/steeleaf_hoe
 twilightforest:equipment/steeleaf_pickaxe
 twilightforest:equipment/knightmetal_shield
-twilightforest:equipment/charm_of_keeping_3
 twilightforest:equipment/yeti_helmet
 twilightforest:equipment/fiery_sword
 twilightforest:equipment/arctic_helmet
@@ -1810,10 +1801,8 @@ twilightforest:equipment/arctic_leggings
 twilightforest:equipment/arctic_boots
 twilightforest:equipment/fiery_helmet
 twilightforest:equipment/ironwood_pickaxe
-twilightforest:equipment/charm_of_life_2
 twilightforest:equipment/ironwood_boots
 twilightforest:equipment/fiery_chestplate
-twilightforest:equipment/charm_of_keeping_2
 twilightforest:equipment/knightmetal_block
 twilightforest:equipment/steeleaf_boots
 twilightforest:equipment/fiery_boots
@@ -1931,8 +1920,6 @@ twilightforest:wood/darkwood_button
 twilightforest:wood/mine_button
 twilightforest:wood/darkwood_slab
 twilightforest:wood/mangrove_slab
-twilightforest:magic_map_focus
-twilightforest:maze_map_empty
 animania:wool_15
 animania:wool_12_alt_alt_alt
 animania:wool_12_alt_alt
@@ -1993,7 +1980,6 @@ animania:carpet_12
 animania:carpet_0
 animania:block_trough
 animania:block_nest
-animania:block_hamster_wheel
 animania:bee_hive
 animania:beef_cutting_1
 animania:banner_alt_alt_alt_alt_alt_alt
@@ -2248,6 +2234,7 @@ betternether:quartz_glass_cyan
 betternether:quartz_glass_brown
 betternether:quartz_glass_blue
 betternether:quartz_glass_black
+betternether:paper
 betternether:nether_tile_stairs
 betternether:nether_tile_small
 betternether:nether_tile_large
@@ -3586,45 +3573,6 @@ twilightforest:arctic_armor_dyeing
 twilightforest:magic_map_cloning
 twilightforest:maze_map_cloning
 twilightforest:ore_map_cloning
-quark:chute
-quark:sugar_block
-quark:iron_button_1
-quark:gold_button_1
-quark:iron_rod
-quark:gravisand
-quark:obsidian_pressure_plate
-quark:rain_detector
-quark:biotite_slab
-quark:biotite_stairs
-quark:biotite_wall
-quark:biotite_block
-quark:biotite_block_1
-quark:biotite_block_2
-quark:fire_stone_slab
-quark:fire_stone_stairs
-quark:fire_stone_brick_slab
-quark:fire_stone_brick_stairs
-quark:icy_stone_slab
-quark:icy_stone_stairs
-quark:icy_stone_brick_slab
-quark:icy_stone_brick_stairs
-quark:cobbed_stone_slab
-quark:cobbed_stone_stairs
-quark:elder_prismarine_slab
-quark:elder_prismarine_stairs
-quark:elder_prismarine_bricks_slab
-quark:elder_prismarine_bricks_stairs
-quark:elder_prismarine_dark_slab
-quark:elder_prismarine_dark_stairs
-quark:fire_stone_wall
-quark:icy_stone_wall
-quark:cobbed_stone_wall
-quark:fire_stone_brick_wall
-quark:icy_stone_brick_wall
-quark:elder_prismarine_wall
-quark:elder_prismarine_bricks_wall
-quark:elder_prismarine_dark_wall
-quark:mushroom_stew
 quark:paper_wall
 quark:paper_wall_big
 quark:paper_wall_sakura
@@ -3675,24 +3623,28 @@ quark:grate
 quark:charcoal_block
 quark:coal
 quark:glass_item_frame
-quark:clay_ball
-quark:glass
-quark:stained_glass
-quark:stained_glass_1
-quark:stained_glass_2
-quark:stained_glass_3
-quark:stained_glass_4
-quark:stained_glass_5
-quark:stained_glass_6
-quark:stained_glass_7
-quark:stained_glass_8
-quark:stained_glass_9
-quark:stained_glass_10
-quark:stained_glass_11
-quark:stained_glass_12
-quark:stained_glass_13
-quark:stained_glass_14
-quark:stained_glass_15
+quark:arrow_ender
+quark:arrow_explosive
+quark:arrow_torch
+quark:map_pinning
+quark:dispenser
+quark:repeater
+quark:furnace_minecart
+quark:hopper_minecart
+quark:tnt_minecart
+quark:chest_minecart_1
+quark:horse_whistle
+quark:elytra_duplication
+quark:elytra_dyeing
+quark:firework_cloning
+quark:chute
+quark:sugar_block
+quark:iron_button_1
+quark:gold_button_1
+quark:iron_rod
+quark:gravisand
+quark:obsidian_pressure_plate
+quark:rain_detector
 quark:sandstone_new
 quark:sandstone_new_1
 quark:sandstone_new_2
@@ -3967,50 +3919,55 @@ quark:quilted_wool_12
 quark:quilted_wool_13
 quark:quilted_wool_14
 quark:quilted_wool_15
-quark:elytra_dyeing
-quark:firework_cloning
-quark:arrow_ender
-quark:arrow_explosive
-quark:arrow_torch
-quark:map_pinning
-quark:dispenser
-quark:repeater
-quark:furnace_minecart
-quark:hopper_minecart
-quark:tnt_minecart
-quark:chest_minecart_1
-quark:horse_whistle
-quark:elytra_duplication
-quark:redstone_randomizer
-quark:ender_watcher
-quark:slime
-quark:color_slime
-quark:color_slime_1
-quark:color_slime_2
-quark:color_slime_3
-quark:color_slime_4
-quark:redstone_inductor
-quark:crystal_pane
-quark:crystal_pane_1
-quark:crystal_pane_2
-quark:crystal_pane_3
-quark:crystal_pane_4
-quark:crystal_pane_5
-quark:crystal_pane_6
-quark:crystal_pane_7
-quark:crystal_pane_8
-quark:stone_speleothem
-quark:granite_speleothem
-quark:diorite_speleothem
-quark:andesite_speleothem
-quark:netherrack_speleothem
-quark:biome_brick
-quark:biome_brick_1
-quark:elder_prismarine
-quark:elder_prismarine_1
-quark:elder_prismarine_2
-quark:elder_sea_lantern
-quark:biome_cobblestone
+quark:clay_ball
+quark:glass
+quark:stained_glass
+quark:stained_glass_1
+quark:stained_glass_2
+quark:stained_glass_3
+quark:stained_glass_4
+quark:stained_glass_5
+quark:stained_glass_6
+quark:stained_glass_7
+quark:stained_glass_8
+quark:stained_glass_9
+quark:stained_glass_10
+quark:stained_glass_11
+quark:stained_glass_12
+quark:stained_glass_13
+quark:stained_glass_14
+quark:stained_glass_15
+quark:biotite_slab
+quark:biotite_stairs
+quark:biotite_wall
+quark:biotite_block
+quark:biotite_block_1
+quark:biotite_block_2
+quark:fire_stone_slab
+quark:fire_stone_stairs
+quark:fire_stone_brick_slab
+quark:fire_stone_brick_stairs
+quark:icy_stone_slab
+quark:icy_stone_stairs
+quark:icy_stone_brick_slab
+quark:icy_stone_brick_stairs
+quark:cobbed_stone_slab
+quark:cobbed_stone_stairs
+quark:elder_prismarine_slab
+quark:elder_prismarine_stairs
+quark:elder_prismarine_bricks_slab
+quark:elder_prismarine_bricks_stairs
+quark:elder_prismarine_dark_slab
+quark:elder_prismarine_dark_stairs
+quark:fire_stone_wall
+quark:icy_stone_wall
+quark:cobbed_stone_wall
+quark:fire_stone_brick_wall
+quark:icy_stone_brick_wall
+quark:elder_prismarine_wall
+quark:elder_prismarine_bricks_wall
+quark:elder_prismarine_dark_wall
+quark:mushroom_stew
 quark:spruce_trapdoor
 quark:birch_trapdoor
 quark:jungle_trapdoor
@@ -4051,6 +4008,59 @@ quark:birch_button
 quark:jungle_button
 quark:acacia_button
 quark:dark_oak_button
+quark:pickarang
+quark:redstone_randomizer
+quark:ender_watcher
+quark:slime
+quark:color_slime
+quark:color_slime_1
+quark:color_slime_2
+quark:color_slime_3
+quark:color_slime_4
+quark:redstone_inductor
+quark:sandstone_new_4
+quark:sandstone_new_5
+quark:world_stone_bricks
+quark:world_stone_carved
+quark:world_stone_bricks_1
+quark:world_stone_carved_1
+quark:world_stone_bricks_2
+quark:world_stone_carved_2
+quark:vertical_stained_planks
+quark:stained_planks_16
+quark:vertical_stained_planks_1
+quark:stained_planks_17
+quark:vertical_stained_planks_2
+quark:stained_planks_18
+quark:vertical_stained_planks_3
+quark:stained_planks_19
+quark:vertical_stained_planks_4
+quark:stained_planks_20
+quark:vertical_stained_planks_5
+quark:stained_planks_21
+quark:vertical_stained_planks_6
+quark:stained_planks_22
+quark:vertical_stained_planks_7
+quark:stained_planks_23
+quark:vertical_stained_planks_8
+quark:stained_planks_24
+quark:vertical_stained_planks_9
+quark:stained_planks_25
+quark:vertical_stained_planks_10
+quark:stained_planks_26
+quark:vertical_stained_planks_11
+quark:stained_planks_27
+quark:vertical_stained_planks_12
+quark:stained_planks_28
+quark:vertical_stained_planks_13
+quark:stained_planks_29
+quark:vertical_stained_planks_14
+quark:stained_planks_30
+quark:vertical_stained_planks_15
+quark:stained_planks_31
+quark:world_stone_pavement
+quark:world_stone_pavement_1
+quark:world_stone_pavement_2
 quark:slabs_to_stairs
 quark:stairs_to_blocks
 quark:wool
@@ -4117,51 +4127,27 @@ quark:wool_30
 quark:wool_31
 quark:quilted_wool_46
 quark:quilted_wool_47
-quark:sandstone_new_4
-quark:sandstone_new_5
-quark:world_stone_bricks
-quark:world_stone_carved
-quark:world_stone_bricks_1
-quark:world_stone_carved_1
-quark:world_stone_bricks_2
-quark:world_stone_carved_2
-quark:vertical_stained_planks
-quark:stained_planks_16
-quark:vertical_stained_planks_1
-quark:stained_planks_17
-quark:vertical_stained_planks_2
-quark:stained_planks_18
-quark:vertical_stained_planks_3
-quark:stained_planks_19
-quark:vertical_stained_planks_4
-quark:stained_planks_20
-quark:vertical_stained_planks_5
-quark:stained_planks_21
-quark:vertical_stained_planks_6
-quark:stained_planks_22
-quark:vertical_stained_planks_7
-quark:stained_planks_23
-quark:vertical_stained_planks_8
-quark:stained_planks_24
-quark:vertical_stained_planks_9
-quark:stained_planks_25
-quark:vertical_stained_planks_10
-quark:stained_planks_26
-quark:vertical_stained_planks_11
-quark:stained_planks_27
-quark:vertical_stained_planks_12
-quark:stained_planks_28
-quark:vertical_stained_planks_13
-quark:stained_planks_29
-quark:vertical_stained_planks_14
-quark:stained_planks_30
-quark:vertical_stained_planks_15
-quark:stained_planks_31
-quark:world_stone_pavement
-quark:world_stone_pavement_1
-quark:world_stone_pavement_2
-quark:pickarang
-quark:soul_powder
+quark:crystal_pane
+quark:crystal_pane_1
+quark:crystal_pane_2
+quark:crystal_pane_3
+quark:crystal_pane_4
+quark:crystal_pane_5
+quark:crystal_pane_6
+quark:crystal_pane_7
+quark:crystal_pane_8
+quark:stone_speleothem
+quark:granite_speleothem
+quark:diorite_speleothem
+quark:andesite_speleothem
+quark:netherrack_speleothem
+quark:biome_brick
+quark:biome_brick_1
+quark:elder_prismarine
+quark:elder_prismarine_1
+quark:elder_prismarine_2
+quark:elder_sea_lantern
+quark:biome_cobblestone
 doggytalents:dog_bed
 doggytalents:collar_colouring
 doggytalents:cape_colouring
@@ -4476,22 +4462,6 @@ spartanshields:shield_banner_electrum
 spartanshields:shield_banner_nickel
 spartanshields:shield_banner_lead
 spartanshields:shield_banner_constantan
-bountifulbaubles:spectralsilt_balloon
-bountifulbaubles:spectralsilt_magiclenses
-bountifulbaubles:spectralsilt_amuletcross
-bountifulbaubles:spectralsilt_sinpendantempty
-bountifulbaubles:disintegrate_item.bountifulbaubles.trinketbrokenheart
-bountifulbaubles:disintegrate_item.bountifulbaubles.trinketballoon
-bountifulbaubles:disintegrate_item.bountifulbaubles.shieldcobalt
-bountifulbaubles:disintegrate_item.bountifulbaubles.shieldobsidian
-bountifulbaubles:disintegrate_item.bountifulbaubles.magicmirror
-bountifulbaubles:disintegrate_item.bountifulbaubles.wormholemirror
-bountifulbaubles:disintegrate_item.bountifulbaubles.trinketluckyhorseshoe
-bountifulbaubles:disintegrate_item.bountifulbaubles.trinketmagiclenses
-bountifulbaubles:disintegrate_item.bountifulbaubles.amuletcross
-bountifulbaubles:disintegrate_item.bountifulbaubles.amuletsinempty
-bountifulbaubles:disintegrate_item.bountifulbaubles.flaregun
-bountifulbaubles:disintegrate_item.bountifulbaubles.brokenblackdragonscale
 charm:gunpowder_block
 charm:gunpowder
 charm:redstone_sand
@@ -4624,6 +4594,7 @@ redstonepaste:stickyrepeater
 redstonepaste:stickycomparator
 hungeroverhaul:wheatseeds
 crafttweaker:covered_wagon
+crafttweaker:hamster_wheel
 crafttweaker:lectern manifest
 crafttweaker:tome_arcana
 crafttweaker:antlerbonemeal
@@ -4633,12 +4604,14 @@ crafttweaker:cincinnasite_frame
 crafttweaker:framed_quartz_glass
 crafttweaker:small_nether_brick_tile_slab
 crafttweaker:small_nether_brick_tile
+crafttweaker:small_nether_brick_tile_stairs
 crafttweaker:ct_shaped-1296611527
 crafttweaker:ct_shaped1958735081
 crafttweaker:ct_shaped-1170223491
 crafttweaker:ct_shapeless411605237
 crafttweaker:ct_shaped1389547624
-crafttweaker:ct_shaped-890650639
+crafttweaker:ct_shaped-1235084934
+crafttweaker:ct_shaped-2074974725
 crafttweaker:aether_legacy_skyroot_trapdoor
 crafttweaker:betterwithmods_items/material/material_padding
 crafttweaker:twine_durable_cloth
@@ -4696,12 +4669,11 @@ crafttweaker:mossy_stone_bricks
 crafttweaker:mossy_towerwood
 crafttweaker:mossy_castle_brick
 crafttweaker:mossy_etched_nagastone
-crafttweaker:lucky horseshoe
+crafttweaker:mud_brick_stairs
+crafttweaker:white_sandstone_stairs
 crafttweaker:cracked scale
-crafttweaker:ender dragon scale
-crafttweaker:obsidian skull
-crafttweaker:magic mirror
-crafttweaker:cobalt shield
+crafttweaker:balloon
+crafttweaker:sin pendant
 crafttweaker:bronze helmet
 crafttweaker:bronze chestplate
 crafttweaker:bronze leggings
@@ -4728,11 +4700,13 @@ crafttweaker:air balloon fiber 1
 crafttweaker:air balloon fiber 2
 crafttweaker:air balloon fiber 3
 crafttweaker:calamarigold
-crafttweaker:calamarigold 2
+crafttweaker:kompy's essence
+crafttweaker:kompy's precursor
+crafttweaker:kantrip effect
 crafttweaker:foul_sandwich
 crafttweaker:tsh
 crafttweaker:tickywicky
-crafttweaker:disenchantment table
+crafttweaker:disenchanter
 crafttweaker:disintrune11
 crafttweaker:disintrune12
 crafttweaker:disintrune13
@@ -4821,13 +4795,21 @@ crafttweaker:training treat
 crafttweaker:collar
 crafttweaker:tiny bone
 crafttweaker:fan
-crafttweaker:magic lantern
 crafttweaker:iron ring
 crafttweaker:portable tunneling device
 crafttweaker:portable piston device
 crafttweaker:portable piston device (sticky)
 crafttweaker:powered bars
 crafttweaker:bag of hoarding
+crafttweaker:ct_shaped-2092186894
+crafttweaker:ct_shaped-683210313
+crafttweaker:ct_shaped917780732
+crafttweaker:ct_shaped85636253
+crafttweaker:ct_shaped1939554437
+crafttweaker:ct_shaped1744139
+crafttweaker:ct_shaped1525520168
+crafttweaker:ct_shaped699964303
+crafttweaker:ct_shaped1662293324
 crafttweaker:standard dye 1 
 crafttweaker:standard dye 2 
 crafttweaker:standard dye 3 
@@ -4956,6 +4938,10 @@ crafttweaker:minecraft_rabbit_stew_from_mushroom
 crafttweaker:betteranimalsplus_milk_to_cheese
 crafttweaker:minecraftfuture_stew/sustew
 crafttweaker:wards_ward
+crafttweaker:stone_brick_slab
+crafttweaker:stone_brick_stairs
+crafttweaker:ct_shaped719282771
+crafttweaker:armor_stand
 crafttweaker:fishing_rod
 crafttweaker:detector_rail
 crafttweaker:chainlinks
@@ -4970,6 +4956,7 @@ crafttweaker:flintstone axe
 crafttweaker:flintstone hoe
 crafttweaker:flintstone shovel
 crafttweaker:flintstone pickaxe
+crafttweaker:holy stake
 crafttweaker:lunarin iron
 crafttweaker:lunarin bronze
 crafttweaker:lunarin silver
@@ -4984,6 +4971,7 @@ crafttweaker:lunarin rime
 crafttweaker:lunarin fiery
 crafttweaker:witheredblock to dust>
 crafttweaker:dust to witheredblock
+crafttweaker:enchanting table
 crafttweaker:mask of fear
 crafttweaker:commonglowpowder
 crafttweaker:uncommonglowpowder
@@ -4998,6 +4986,15 @@ crafttweaker:red hot chili pepper sword
 crafttweaker:ct_shaped449973793
 crafttweaker:soul_glass_pane
 crafttweaker:nether_brick_fence_gate
+crafttweaker:ct_shaped397438060
+crafttweaker:ct_shaped-321895002
+crafttweaker:ct_shaped2036831774
+crafttweaker:ct_shaped-2001255516
+crafttweaker:ct_shaped1246964810
+crafttweaker:ct_shaped667109191
+crafttweaker:ct_shaped-199592636
+crafttweaker:ct_shaped1049220437
+crafttweaker:ct_shaped-2001281070
 crafttweaker:ct_shaped799310631
 crafttweaker:ct_shaped-516550929
 crafttweaker:ct_shaped-3200904
@@ -5084,6 +5081,8 @@ crafttweaker:quark crystal 1-1
 crafttweaker:quark crystal 1-2
 crafttweaker:quark crystal 0-1
 crafttweaker:quark crystal 0-2
+crafttweaker:soul bead to soul powder
+crafttweaker:soul sand and magic dust
 crafttweaker:rat_toga
 crafttweaker:rat_voodoo
 crafttweaker:feathery_wing
@@ -5320,7 +5319,21 @@ crafttweaker:nails 3
 crafttweaker:encased_castle_brick_tile
 crafttweaker:bold_castle_brick_tiles
 crafttweaker:spiral_stone_bricks
+crafttweaker:ct_shaped-1182784980
+crafttweaker:ct_shaped-1113717474
+crafttweaker:ct_shaped-1535588715
+crafttweaker:ct_shaped136595904
+crafttweaker:ct_shaped1725935073
+crafttweaker:ct_shaped1953056456
+crafttweaker:ct_shaped-606973941
+crafttweaker:ct_shaped724641496
 crafttweaker:ironwood_hoe
+crafttweaker:ct_shaped-1914977566
+crafttweaker:ct_shaped1287071906
+crafttweaker:ct_shaped-1336395997
+crafttweaker:ct_shaped1375310856
+crafttweaker:ct_shaped1871609785
+crafttweaker:ct_shaped-1620450667
 crafttweaker:forgiving tool reforging station
 crafttweaker:popped_chorus_fruit
 crafttweaker:anycobble
@@ -5342,12 +5355,12 @@ crafttweaker:red_concrete_powder
 crafttweaker:black_concrete_powder
 betterwithmods:torch
 betterwithmods:baiting_recipe
-betterwithmods:siding_rock
-betterwithmods:moulding_rock
-betterwithmods:corner_rock
 betterwithmods:siding_iron
 betterwithmods:moulding_iron
 betterwithmods:corner_iron
+betterwithmods:siding_rock
+betterwithmods:moulding_rock
+betterwithmods:corner_rock
 betterwithmods:siding_wood
 betterwithmods:moulding_wood
 betterwithmods:corner_wood

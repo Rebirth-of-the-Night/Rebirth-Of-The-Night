@@ -62,6 +62,36 @@
       ]
     },
     {
+      "name": "inventory_iron_pickaxe",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_main": "minecraft:iron_pickaxe"
+        }
+      ]
+    },
+    {
+      "name": "inventory_diamond_pickaxe",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_main": "minecraft:diamond_pickaxe"
+        }
+      ]
+    },
+    {
+      "name": "inventory_mythril_pickaxe",
+      "cmods": [
+        {
+          "cmod": "inventory",
+
+          "inv_hand_main": "simpleores:mythril_pickaxe"
+        }
+      ]
+    },
+    {
       "name": "inventory_leather",
       "cmods": [
         {

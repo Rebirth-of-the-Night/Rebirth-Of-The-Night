@@ -10,5 +10,4 @@ criteria.setEntityType("creeper")
 
 criteria.setCount(130)
 setPos(420,9)
-setHidden()
 setHidden(true)

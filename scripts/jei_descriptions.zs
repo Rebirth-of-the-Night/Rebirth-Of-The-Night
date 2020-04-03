@@ -3,22 +3,22 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 # KNOWN BUGS #
-mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in any way, including checking recipes for items in JEI while you have an emerald in the payment slot. ALSO, vanilla spawn eggs don't work, so don't waste your emeralds."]);
+mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in any way, including checking recipes for items in JEI while you have an emerald in the payment slot."]);
 
 #SFS TOOLS#
 
-mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like Shears. When right-clicked, places Vines from your inventory. Can only be enchanted in the True Enchantment Table"]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Can only be enchanted in the True Enchantment Table"]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil, it will be placed directly in your inventory. Right-clicking with the Spade places soil from your inventory. Can only be enchanted in the True Enchantment Table"]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpose tool. Stone blocks mined will be placed in your inventory. Right-clicking with the Mason Pick places processed stone such as Slabs, Bricks, or Stairs from your inventory. Can only be enchanted in the True Enchantment Table"]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Can only be enchanted in the True Enchantment Table"]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as Slabs, Planks, or Stairs from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like shears. When right-clicked, places vines from your inventory. Can only be enchanted in the True Enchanting Table."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Can only be enchanted in the True Enchanting Table."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil, it will be placed directly in your inventory. Right-clicking with the Spade places soil from your inventory. Can only be enchanted in the True Enchanting Table."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpose tool. Stone blocks mined will be placed in your inventory. Right-clicking with the Mason Pick places processed stone such as slabs, bricks, or stairs from your inventory. Can only be enchanted in the True Enchanting Table."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Can only be enchanted in the True Enchanting Table."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as slabs, planks, or stairs from your inventory. Can only be enchanted in the True Enchanting Table."]);
 
 # BWM #
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
 mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, like sails and different kinds of cloth.");
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
-mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any Wooden Slab, or cheaper using Wooden Siding once you build a Saw!");
+mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 
 
 #MISCELLANEOUS#
@@ -29,15 +29,15 @@ mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of the heavens lies in
 mods.jei.JEI.addDescription([<nyx:comet_shard>],["A very rare find. These toughened rock chunks fall from the sky, but are also found embedded within Elder Guardians."]);
 
 
-mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the force of holy light from the Heavens, this heart flows with a burning radiance and searing power to cast away all evil."]);
+mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the force of blessed fury from the heavens, this heart flows with a burning radiance and the searing power to cast away evil."]);
 
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. If you listen closely, you can hear faint cries of pain and sorrow echoing within."]);
 
 
-mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
-mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but Can only be enchanted in the True Enchantment Table");
-mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
-mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchanting Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but Can only be enchanted in the True Enchanting Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchanting Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchanting Table");
 mods.jei.JEI.addDescription(<betterwithmods:steel_hoe>,"Provides the best durability, but impossible to enchant since it is already infused with souls.");
 
 mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Impossible to enchant, since it is already infused with souls.");
@@ -45,8 +45,11 @@ mods.jei.JEI.addDescription(<betterwithmods:steel_chest>,"Impossible to enchant,
 mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Impossible to enchant, since it is already infused with souls.");
 mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Impossible to enchant, since it is already infused with souls.");
 
+mods.jei.JEI.addDescription(<quark:ancient_tome>,"Filled with arcane secrets from a long-dead civilization. Combine an Ancient Tome and a matching enchanted book in an anvil to increase the enchantment one level higher than its normal maximum level.");
 
-mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly living crystal. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
+mods.jei.JEI.addDescription(<qualitytools:reforging_station>,"Placing an item in the Reforging Station along with one piece of its primary material, such as an ingot, will change the item's quality. Many magical items can be reforged with Spectral Silt.");
+
+mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
 
 mods.jei.JEI.addDescription([<biomesoplenty:biome_essence>],["Residual energy of that which was extinguished by Void. Can be found at the bottom of the Ender Dragon island."]);
 
@@ -73,7 +76,7 @@ mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your e
 
 mods.jei.JEI.addDescription([<rats:treacle>],"Supposedly, syrup aged for at least ten years can help ward off the plague. Unless you were preparing for the plague starting ten years ago, that won't help... unless you can find something to magically age the syrup or spark a strange fermentation reaction.");
 
-mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"Can infuse or repair quality weapons and tools, although it takes a while. Using electrum instead of ambrosium proves to be much more efficient.");
+mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"With a generous amount of time and fuel, it can infuse or repair rarer weapons and tools, changing the item's quality in the process. Using electrum instead of ambrosium proves to be much more efficient.");
 
 mods.jei.JEI.addDescription(<betterwithmods:saw>,"Requires continuous mechanical power to work. A windmill or waterwheel will suffice.");
 
@@ -114,7 +117,7 @@ mods.jei.JEI.addDescription(<netherex:rime_crystal>,"It's cold to the touch, yet
 mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"Hard to come by in the Overworld, these crystals seem to hold significant value with the still-living natives of the Nether.");
 mods.jei.JEI.addDescription(<betterwithmods:material:51>,"Are they still there? Is there any trace of what remains? Wide dead eyes like amethyst, behold.");
 # Silver Ingot
-mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A material known to be effectively used against undead mobs. Silver is strong in damage and mining speed, but weak in other aspects.");
+mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A material known to be effectively used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
 mods.jei.JEI.addDescription([<forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000})],"Jersey Milk is obtained from Jersey Cows.");
 # Millstone
 mods.jei.JEI.addDescription(<betterwithmods:single_machine>,"Once common and basic, now the state of the art for the starting mechanist! Place a mechanically powered axle on top to make it work.");
@@ -171,7 +174,7 @@ mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat 
 # End Essence
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
 # Spell Scroll
-mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>, 'A gate to unhibited magic power and a variety of different spells once enchanted with them. Scholars can find more knowledge in the "Magic" book.');
+mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited magical power once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the 'Magic' book.");
 
 
 
@@ -310,7 +313,7 @@ mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance as 
 mods.jei.JEI.addDescription(durableTwine, "By means of various crafting procedures, these simple strands of plants have roughly achieved the durability and strength of higher quality fibers.");
 mods.jei.JEI.addDescription(crudePole, "Less than ideal... may break unexpectedly the more it is used.");
 mods.jei.JEI.addDescription(compact, "A reinforced container that's useful to compact stuff into denser materials or blocks.");
-mods.jei.JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash one gets mulch! By applying it to farmland, it gets protected from trambling and will grow a bit faster.");
+mods.jei.JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash, one gets mulch! Applying it to farmland will protect the block from being trampled, and will help crops grow a little faster.");
 mods.jei.JEI.addDescription(woodChips, "This pesky byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
 mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "This combustion-based sawmill needs a saw placed on top and fuel ignited within in order to function.");
 mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "Although it is not as fast, durable, or high-yielding as a mechanically-powered sawmill, it is easier to build and has room for two items.");

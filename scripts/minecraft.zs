@@ -65,6 +65,24 @@ recipes.remove(<minecraft:stone_slab:5>);
 recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>,[
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
 ]);
+recipes.remove(<minecraft:stone_brick_stairs>);
+recipes.addShaped("stone_brick_stairs_brick",<minecraft:stone_brick_stairs>*8,[
+    [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null,null],
+    [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null],
+    [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
+]);
+recipes.addShaped("stone_brick_stairs_slab",<minecraft:stone_brick_stairs>*4,[
+    [<minecraft:stone_slab:5>,null,null],
+    [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,null],
+    [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,<minecraft:stone_slab:5>]
+]);
+
+recipes.remove(<minecraft:armor_stand>);
+recipes.addShaped("armor_stand",<minecraft:armor_stand>,[
+    [<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
+    [null,<ore:stickWood>,null],
+    [<ore:stickWood>,<ore:stoneSlab>,<ore:stickWood>]
+]);
 
 recipes.remove(<minecraft:fishing_rod>);
 recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
@@ -103,13 +121,14 @@ recipes.addShaped("Chainlinks", chainlink*2,[
     [null, <ore:nuggetIron>, null]
 ]);
 
-recipes.addShapeless("Quark_chain", chain,
-	[chainlink, chainlink]
-);
+recipes.addShapeless("Quark_chain", <quark:chain>, 
+[chainlink, chainlink]);
 
-recipes.addShapeless("iceandfire_chain", bigchain,
-	[chain, chainlink, chain]
-);
+recipes.addShaped("iceandfire_chain", bigchain,[
+	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>],
+	[chain, chainlink, chain],
+	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>]
+]);
 
 recipes.addShaped("rustic_chain", decochain*16,[
 	[chainlink, chainlink, chainlink],
@@ -181,6 +200,11 @@ potions.maxStackSize = 8;
 potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
 
+<dungeontactics:bone_cestus>.displayName = "Holy Stake";
+recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>, 
+[[null, <iceandfire:silver_nugget>, <contenttweaker:aether_rune>.anyDamage().transformDamage()],
+[<iceandfire:silver_nugget>, <betterwithmods:stake>, <iceandfire:silver_nugget>], 
+[<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
 
 //Ore Dictionary Entries
 val wool = <ore:wool>;
@@ -468,7 +492,3 @@ recipes.addShaped("dust to witheredblock", <contenttweaker:witheredblock>,[
 recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("Enchanting Table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
-
-//Villager Trades
-
-//Merchant.addTrade("minecraft:nitwit", "nitwit", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 1);

@@ -27,6 +27,17 @@ recipes.addShaped("spiral_stone_bricks",<twilightforest:spiral_bricks>,[
     [<ore:stone>|<ore:StoneHugeBrick>,<ore:stone>|<ore:StoneHugeBrick>,<ore:stone>|<ore:StoneHugeBrick>],
 ]);
 
+var slabArray = [<twilightforest:twilight_oak_slab:0>,<twilightforest:canopy_slab:0>,<twilightforest:mangrove_slab:0>,<twilightforest:dark_slab:0>,<twilightforest:time_slab:0>,<twilightforest:trans_slab:0>,<twilightforest:mine_slab:0>,<twilightforest:sort_slab:0>] as IItemStack[];
+var stairArray = [<twilightforest:twilight_oak_stairs>,<twilightforest:canopy_stairs>,<twilightforest:mangrove_stairs>,<twilightforest:dark_stairs>,<twilightforest:time_stairs>,<twilightforest:trans_stairs>,<twilightforest:mine_stairs>,<twilightforest:sort_stairs>] as IItemStack[];
+
+for i, output in stairArray{
+    recipes.addShaped(output*4,[
+        [slabArray[i],null,null],
+        [slabArray[i],slabArray[i],null],
+        [slabArray[i],slabArray[i],slabArray[i]]
+    ]);
+}
+
 val enchantments as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>];
 var enchantmentMap as IData = {};
 

@@ -129,7 +129,9 @@ biomesoplenty:tropical_island
 biomesoplenty:volcanic_island
 biomesoplenty:flower_island
 biomesoplenty:corrupted_sands
+biomesoplenty:fungi_forest
 biomesoplenty:phantasmagoric_inferno
+biomesoplenty:undergarden
 biomesoplenty:visceral_heap
 twilightforest:twilight_lake
 twilightforest:twilight_forest

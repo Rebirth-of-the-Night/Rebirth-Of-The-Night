@@ -10,10 +10,6 @@
           "condition": "game_stages",
           "game_stages": ["noStage"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 100
         }
       ],
       "spawns": [
@@ -21,8 +17,7 @@
           "entities": [
             "minecraft:zombie"
           ],
-          "count": 3,
-          "spawn_type": "ground",
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -38,8 +33,7 @@
           "entities": [
             "minecraft:zombie"
           ],
-          "count": 5,
-          "spawn_type": "ground",
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -53,18 +47,38 @@
         }
       ]
     },
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "name": "undead_and_skeletons",
-      "wave_message": "§cThe undead and skeleton horde is approaching...",
+      "wave_message": "§cThe skeleton horde is approaching...",
       "conditions": [
         {      
           "condition": "game_stages",
           "game_stages": ["fullEarlyArmor"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 10
         }
       ],
       "spawns": [
@@ -72,7 +86,7 @@
           "entities": [
             "minecraft:zombie"
           ],
-          "count": 3,
+          "count": 20,
           "cmods": [
             {
               "cmod": "template",
@@ -86,9 +100,9 @@
         },
         {
           "entities": [
-            "minecraft:zombie"
+            "minecraft:skeleton"
           ],
-          "count": 3,
+          "count": 15,
           "cmods": [
             {
               "cmod": "template",
@@ -96,15 +110,31 @@
             },
             {
               "cmod": "template",
-              "template": "inventory_bronze_with_shield"
+              "template": "inventory_bronze"
             }
           ]
         },
         {
           "entities": [
-            "minecraft:skeleton"
+            "primitivemobs:skeleton_warrior"
           ],
-          "count": 5,
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_bronze"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:bruteskeleton"
+          ],
+          "count": 15,
           "cmods": [
             {
               "cmod": "template",
@@ -118,149 +148,15 @@
         }
       ]
     },
-    {
-      "name": "invasion_pirates",
-      "wave_message": "§cThe pirates have arrived!",
-      "conditions": [
-        {      
-          "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
-          "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 10
-        }
-      ],
-      "spawns": [
-        {
-          "entities": [
-            "quark:pirate"
-          ],
-          "count": 5,
-          "cmods": [
-            {
-              "cmod": "template",
-              "template": "invader_miner"
-            },
-            {
-              "cmod": "template",
-              "template": "inventory_iron"
-            }
-          ]
-        },
-        {
-          "entities": [
-            "minecraft:parrot"
-          ],
-          "count": 5,
-          "spawn_type": "ground",
-          "cmods": [
-            {
-              "cmod": "template",
-              "template": "invader_soldier"
-            },
-            {
-              "cmod": "template",
-              "template": "attribute_speed_flying"
-            },
-            {
-              "cmod": "ai_attack_melee"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "invasion_undead_and_creepers",
-      "wave_message": "§cThe undead and creeper horde is approaching...",
-      "conditions": [
-        {      
-          "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
-          "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 10
-        }
-      ],
-      "spawns": [
-        {
-          "entities": [
-            "minecraft:zombie"
-          ],
-          "count": 5,
-          "cmods": [
-            {
-              "cmod": "template",
-              "template": "invader_miner"
-            },
-            {
-              "cmod": "template",
-              "template": "inventory_diamond"
-            }
-          ]
-        },
-        {
-          "entities": [
-            "minecraft:creeper"
-          ],
-          "count": 5,
-          "cmods": [
-            {
-              "cmod": "template",
-              "template": "invader_soldier"
-            },
-            {
-              "cmod": "ai_explodeonstuck"
-            }
-          ]
-        },
-        {
-          "entities": [
-            "primitivemobs:rocket_creeper"
-          ],
-          "count": 5,
-          "cmods": [
-            {
-              "cmod": "template",
-              "template": "invader_soldier"
-            },
-            {
-              "cmod": "ai_explodeonstuck"
-            }
-          ]
-        },    
-        {
-          "entities": [
-            "primitivemobs:jumping_creeper"
-          ],
-          "count": 5,
-          "cmods": [
-            {
-              "cmod": "template",
-              "template": "invader_soldier"
-            },
-            {
-              "cmod": "ai_explodeonstuck"
-            }
-          ]
-        }
-      ]
-    },
+
     {
       "name": "invasion_undead_and_spiders",
-      "wave_message": "§cThe undead and spider horde is approaching...",
+      "wave_message": "§cThe spider horde is approaching...",
       "conditions": [
         {      
           "condition": "game_stages",
           "game_stages": ["fullEarlyArmor"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 10
         }
       ],
       "spawns": [
@@ -268,7 +164,7 @@
           "entities": [
             "minecraft:zombie"
           ],
-          "count": 10,
+          "count": 20,
           "cmods": [
             {
               "cmod": "template",
@@ -318,6 +214,308 @@
         }
       ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "name": "invasion_pirates",
+      "wave_message": "§cThe pirates are invading!",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "quark:pirate"
+          ],
+          "count": 30,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:parrot"
+          ],
+          "count": 40,
+          "spawn_type": "air",
+          "cmods": [
+            {
+              "cmod": "ai_omniscience"
+            },
+            {
+              "cmod": "attribute_speed_flying",
+              "base_value": 2.0
+            },
+            {
+              "cmod": "ai_attack_melee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_undead_and_creepers",
+      "wave_message": "§cThe creeper horde is approaching...",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 20,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_diamond"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:creeper"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "primitivemobs:rocket_creeper"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "ai_antiair"
+            }
+          ]
+        },    
+        {
+          "entities": [
+            "primitivemobs:jumping_creeper"
+          ],
+          "count": 5,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_undead_cavalry",
+      "wave_message": "§cThe undead cavalry rides tonight!",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "specialmobs:brutezombie"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_diamond"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron_pickaxe"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:brutezombie"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_diamond"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:bruteskeleton"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "minecraft:zombie_horse"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        },    
+        {
+          "entities": [
+            "minecraft:skeleton_horse"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "invasion_skydrake",
+      "wave_message": "§cYou hear a loud roar coming from the skies...",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:zombie"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron"
+            },
+            {
+              "cmod": "template",
+              "template": "inventory_iron_pickaxe"
+            }
+          ]
+        },
+        {
+          "entities": [
+            "mowziesmobs:naga"
+          ],
+          "count": 1,
+          "cmods": [
+            {
+              "cmod": "ai_omniscience"
+            },
+            {
+              "cmod": "attribute_health",
+              "base_value": 300
+            },
+            {
+              "cmod": "xp",
+              "base_value": 200
+            },
+            {
+              "cmod": "attribute_attackdamage",
+              "base_value": 20
+            }
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
     {
       "name": "invasion_animals",
       "wave_message": "§cThe animal uprising has begun. They want revenge!",
@@ -326,18 +524,14 @@
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 10
         }
       ],
       "spawns": [
         {
           "entities": [
-            "animania:bull_highland", "animania:bull_holstein", "animania:hog_yorkshire", "animania:rooster_leghorn", "wolf", "ocelot", "parrot", "polar_bear", "animania:ram_dorset", "animania:stallion_draft", "donkey", "mule", "llama", "betteranimalsplus:songbird", "betteranimalsplus:moose", "animania:cow_holstein", "betteranimalsplus:brownbear", "betteranimalsplus:deer", "animania:buck_angora", "primitivemobs:filch_lizard", "betteranimalsplus:boar", "animania:buck_cottontail"
+            "animania:bull_highland", "animania:bull_holstein", "animania:hog_yorkshire", "animania:rooster_leghorn", "ocelot", "parrot", "animania:ram_dorset", "animania:stallion_draft", "donkey", "mule", "llama", "betteranimalsplus:songbird", "betteranimalsplus:moose", "animania:cow_holstein", "betteranimalsplus:brownbear", "betteranimalsplus:deer", "animania:buck_angora", "primitivemobs:filch_lizard", "betteranimalsplus:boar", "animania:buck_cottontail"
           ],
-          "count": 50,
+          "count": 75,
           "cmods": [
             {
               "cmod": "ai_omniscience"
@@ -347,7 +541,11 @@
             },
             {
               "cmod": "attribute_attackdamage",
-              "base_value": 5
+              "base_value": 10
+            },
+            {
+              "cmod": "attribute_speed",
+              "base_value": 0.5
             }
           ]
         }
@@ -355,16 +553,12 @@
     },
     {
       "name": "invasion_illagers",
-      "wave_message": "§cThe Illager army has arrived!",
+      "wave_message": "§cThe Illager army is invading!",
       "conditions": [
         {      
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 10
         }
       ],
       "spawns": [
@@ -394,14 +588,61 @@
         }
       ]
     },
+
+
+    {
+      "name": "invasion_vermin_souls",
+      "wave_message": "§cOOPS! All Vermin Souls!",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["minedMythril"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "rats:ratlantean_spirit"
+          ],
+          "count": 40,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            }
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "name": "new_year_party",
       "wave_message": "§dThe mobs are throwing a party for the New Year!",
       "conditions": [
         {
           "condition": "invasion_rate",
-          "min": 52,
-          "max": 52
+          "rate": 52
         }
       ],
       "spawns": [

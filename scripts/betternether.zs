@@ -5,7 +5,6 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 recipes.removeByRecipeName("betternether:stalagnate_workbench");
-recipes.removeByRecipeName("betternether:paper");
 recipes.removeByRecipeName("betternether:stalagnate_stick");
 recipes.removeByRecipeName("betternether:stalagnate_planks_trapdoor");
 recipes.removeByRecipeName("betternether:stalagnate_planks_chest");
@@ -35,3 +34,11 @@ recipes.addShaped("small_nether_brick_tile", <betternether:nether_brick_tile_sma
     [<betternether:nether_brick_tile_slab_half>],
     [<betternether:nether_brick_tile_slab_half>]
 ]);
+
+recipes.addShaped("small_nether_brick_tile_stairs", <betternether:nether_brick_tile_stairs>*4,[
+    [<betternether:nether_brick_tile_slab_half:0>,null,null],
+    [<betternether:nether_brick_tile_slab_half:0>,<betternether:nether_brick_tile_slab_half:0>,null],
+    [<betternether:nether_brick_tile_slab_half:0>,<betternether:nether_brick_tile_slab_half:0>,<betternether:nether_brick_tile_slab_half:0>]
+]);
+
+brewing.addBrew(<minecraft:glass_bottle>, <betternether:nether_reed>, <harvestcraft:maplesyrupitem>);
