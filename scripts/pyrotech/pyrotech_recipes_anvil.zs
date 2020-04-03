@@ -66,9 +66,7 @@ GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwith
 
 //D-Heads
 
-var dhead1 = <iceandfire:dragon_skull>:*>.withTag({Stage: 1});
-
-GraniteAnvil.addRecipe("DragonHead1",<mod_lavacow:sharptooth>*3, dhead1,3,"hammer", true);
+GraniteAnvil.addRecipe("DragonHead1",<mod_lavacow:sharptooth>*3, <iceandfire:dragon_skull>:*>.withTag({Stage: 1}),3,"hammer", true);
 GraniteAnvil.addRecipe("DragonHead2",<mod_lavacow:sharptooth>*7, <iceandfire:dragon_skull>:*>.withTag({Stage: 2}),6,"hammer", true);
 GraniteAnvil.addRecipe("DragonHead3",<mod_lavacow:sharptooth>*12, <iceandfire:dragon_skull:*>.withTag({Stage: 3}),9,"hammer", true);
 GraniteAnvil.addRecipe("DragonHead4",<mod_lavacow:sharptooth>*17, <iceandfire:dragon_skull:*>.withTag({Stage: 4}),12,"hammer", true);
