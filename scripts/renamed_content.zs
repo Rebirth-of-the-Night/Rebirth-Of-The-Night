@@ -29,6 +29,10 @@ import crafttweaker.game.IGame;
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 
+//Biomes o'Plenty
+//biomesoplenty:hive
+<biomesoplenty:honeycomb>.displayName = "Giant Honeycomb";
+
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
