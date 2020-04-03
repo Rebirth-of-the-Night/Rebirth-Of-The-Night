@@ -2189,7 +2189,7 @@
 	"maxlight": 7,
     "minlight": 0,
     "maxcount": {
-        "amount": 5,
+        "amount": 12,
         "perplayer": true
     },
     "result": "allow"
@@ -2248,7 +2248,7 @@
     "gamestage": "fullEarlyArmor",
 	"minheight": 60,
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
-	"random": 0.10,
+	"random": 0.14,
 	"seesky": true,
 	"maxlight": 11,
     "minlight": 0,
@@ -2269,7 +2269,7 @@
     "gamestage": "fullEarlyArmor",
 	"minheight": 60,
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:leaves", "minecraft:hardened_clay", "minecraft:sandstone", "biomesoplenty:grass", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
-	"random": 0.10,
+	"random": 0.14,
 	"seesky": true,
     "maxcount": {
         "amount": 8,

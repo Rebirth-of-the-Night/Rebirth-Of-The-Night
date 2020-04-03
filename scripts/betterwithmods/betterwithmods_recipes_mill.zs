@@ -45,5 +45,5 @@ mods.betterwithmods.Mill.builder()
 // nether sugar
 mods.betterwithmods.Mill.builder()
 .buildRecipe([<betternether:nether_reed>], [<minecraft:sugar>*2])
-.setPriority(6)
+.setPriority(7)
 .build();

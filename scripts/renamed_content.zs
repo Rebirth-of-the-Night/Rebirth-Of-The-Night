@@ -431,7 +431,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <msmlegacy:wither_bane>.displayName = "§6Dark's Edge";
 <msmlegacy:wither_bane>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:wither_bane>.addTooltip("Darkness consumes the unworthy");
+<msmlegacy:wither_bane>.addTooltip("Darkness consumes the fallen.");
 
 
 <contenttweaker:heavensheart>.displayName = "§6Heaven's Heart";
@@ -440,7 +440,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <msmlegacy:crystaline_blade>.displayName = "§6Light's Edge";
 <msmlegacy:crystaline_blade>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:crystaline_blade>.addTooltip("Light purifies all");
+<msmlegacy:crystaline_blade>.addTooltip("Light purifies all.");
 
 
 
@@ -618,7 +618,7 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's 
 
 
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
-<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may weild this weapon.");
+<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may wield this weapon.");
 
 
 
