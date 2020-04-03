@@ -29,6 +29,14 @@ import crafttweaker.game.IGame;
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 
+//Biomes o'Plenty
+<biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
+<biomesoplenty:hive>.displayName = "Giant Hive Block";
+<biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
+<biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
+<biomesoplenty:hive>.displayName = "Giant Filled Honeycomb";
+
+
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
@@ -431,7 +439,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <msmlegacy:wither_bane>.displayName = "§6Dark's Edge";
 <msmlegacy:wither_bane>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:wither_bane>.addTooltip("Darkness consumes the unworthy");
+<msmlegacy:wither_bane>.addTooltip("Darkness consumes the fallen.");
 
 
 <contenttweaker:heavensheart>.displayName = "§6Heaven's Heart";
@@ -440,7 +448,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <msmlegacy:crystaline_blade>.displayName = "§6Light's Edge";
 <msmlegacy:crystaline_blade>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:crystaline_blade>.addTooltip("Light purifies all");
+<msmlegacy:crystaline_blade>.addTooltip("Light purifies all.");
 
 
 
@@ -618,7 +626,7 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's 
 
 
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
-<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may weild this weapon.");
+<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may wield this weapon.");
 
 
 

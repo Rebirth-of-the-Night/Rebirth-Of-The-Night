@@ -75,7 +75,7 @@
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
 
 #Charm
-<charm:totem_of_returning>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to the location.");
+<charm:totem_of_returning>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
 <charm:totem_of_shielding>.addTooltip("§5Absorbs all incoming damage when held in your offhand.");
 
 
@@ -86,7 +86,8 @@
 <quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
 
 #Pyrotech
-<pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several second to light. Can't light a kiln without fuel.");
+<pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
+<pyrotech:flint_and_tinder>.addTooltip("Not as convenient as a flint and steel.");
 
 
 #Progression
