@@ -30,8 +30,12 @@ import crafttweaker.game.IGame;
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 
 //Biomes o'Plenty
-//biomesoplenty:hive
-<biomesoplenty:honeycomb>.displayName = "Giant Honeycomb";
+<biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
+<biomesoplenty:hive>.displayName = "Giant Hive Block";
+<biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
+<biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
+<biomesoplenty:hive>.displayName = "Giant Filled Honeycomb";
+
 
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
