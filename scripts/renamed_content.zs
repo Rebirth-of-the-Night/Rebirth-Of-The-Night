@@ -109,10 +109,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:end_bricks_slab:*>.displayName = "End Stone Brick Slab";
 
 // Ice And Fire: Dragons in a Whole New Light
-<iceandfire:chain>.displayName = "Big Chain";
+<iceandfire:chain>.displayName = "Refined Chain";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
+<dungeontactics:steel_ingot>.displayName = "Crude Steel Ingot";
 
 
 // Rustic

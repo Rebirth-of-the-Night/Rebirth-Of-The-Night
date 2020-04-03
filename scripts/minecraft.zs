@@ -126,7 +126,9 @@ recipes.addShapeless("Quark_chain", chain,
 );
 
 recipes.addShapeless("iceandfire_chain", bigchain,
-	[chain, chainlink, chain]
+	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>]
+	[chain, chainlink, chain],
+	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>]
 );
 
 recipes.addShaped("rustic_chain", decochain*16,[
