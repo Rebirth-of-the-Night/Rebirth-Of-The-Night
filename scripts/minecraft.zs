@@ -491,7 +491,3 @@ recipes.addShaped("dust to witheredblock", <contenttweaker:witheredblock>,[
 recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("Enchanting Table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
-
-//Villager Trades
-
-//Merchant.addTrade("minecraft:nitwit", "nitwit", <contenttweaker:nethercoin>, <spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 1);
