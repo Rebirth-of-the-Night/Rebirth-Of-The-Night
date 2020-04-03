@@ -65,6 +65,24 @@ recipes.remove(<minecraft:stone_slab:5>);
 recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>,[
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
 ]);
+recipes.remove(<minecraft:stone_brick_stairs>);
+recipes.addShaped("stone_brick_stairs",<minecraft:stone_brick_stairs>*8,[
+    [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null,null],
+    [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null],
+    [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
+]);
+recipes.addShaped("stone_brick_stairs",<minecraft:stone_brick_stairs>*4,[
+    [<minecraft:stone_slab:5>,null,null],
+    [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,null],
+    [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,<minecraft:stone_slab:5>]
+]);
+
+recipes.remove(<minecraft:armor_stand>);
+recipes.addShaped("armor_stand",<minecraft:armor_stand>,[
+    [<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
+    [null,<ore:stickWood>,null],
+    [<ore:stickWood>,<ore:stoneSlab>,<ore:stickWood>]
+]);
 
 recipes.remove(<minecraft:fishing_rod>);
 recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
