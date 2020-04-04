@@ -21,7 +21,7 @@
       {
         "name": "quality.crumbling.name",
         "color": "dark_red",
-        "weight": 40,
+        "weight": 35,
         "attributes": [
           {
             "name": "generic.armor",
@@ -43,7 +43,7 @@
       {
         "name": "Sticky",
         "color": "dark_red",
-        "weight": 40,
+        "weight": 35,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -60,7 +60,7 @@
       {
         "name": "quality.dented.name",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 50,
         "attributes": [
           {
             "name": "generic.armor",

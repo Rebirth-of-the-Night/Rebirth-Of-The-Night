@@ -43,7 +43,7 @@
       {
         "name": "Weakening",
         "color": "dark_red",
-        "weight": 30,
+        "weight": 25,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -60,7 +60,7 @@
       {
         "name": "Restrictive",
         "color": "dark_gray",
-        "weight": 35,
+        "weight": 40,
         "attributes": [
           {
             "name": "generic.movementSpeed",

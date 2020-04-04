@@ -183,12 +183,34 @@
         ]
       },
       {
+        "name": "Keen",
+        "color": "blue",
+        "weight": 20,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      },
+      {
         "name": "quality.graceful.name",
         "color": "aqua",
         "weight": 32,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
             "amount": 0.15,
             "operation": 2
           }

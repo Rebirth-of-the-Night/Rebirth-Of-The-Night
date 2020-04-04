@@ -55,7 +55,7 @@
       {
         "name": "Weakening",
         "color": "dark_red",
-        "weight": 20,
+        "weight": 15,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -72,7 +72,7 @@
       {
         "name": "quality.dented.name",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 45,
         "attributes": [
           {
             "name": "generic.armor",

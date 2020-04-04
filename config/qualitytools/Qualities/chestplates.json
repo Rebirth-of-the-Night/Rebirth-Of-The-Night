@@ -22,7 +22,7 @@
       {
         "name": "quality.crumbling.name",
         "color": "dark_red",
-        "weight": 24,
+        "weight": 20,
         "attributes": [
           {
             "name": "generic.armor",
@@ -90,7 +90,7 @@
       {
         "name": "quality.dented.name",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 44,
         "attributes": [
           {
             "name": "generic.armor",

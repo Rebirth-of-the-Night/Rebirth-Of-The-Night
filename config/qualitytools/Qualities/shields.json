@@ -1,8 +1,8 @@
 {
     "comment": "These qualities will apply for all shields! For more info
-                about how to edit this file and add more files, visit 
+                about how to edit this file and add more files, visit
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
+
     "slot": [
         "offhand"
     ],
@@ -12,13 +12,13 @@
       }
     ],
     "blacklist": [
-    
+
     ],
     "qualities": [
       {
         "name": "quality.heavy.name",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 11,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -61,6 +61,18 @@
         ]
       },
       {
+        "name": "Protective",
+        "color": "blue",
+        "weight": 10,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      },
+      {
         "name": "quality.solid.name",
         "color": "blue",
         "weight": 5,
@@ -71,6 +83,28 @@
             "operation": 0
           }
         ]
-      }
+      },
+      {
+        "name": "Epic",
+        "color": "light_purple",
+        "weight": 2,
+        "attributes": [
+          {
+            "name": "generic.armor",
+            "amount": 0.5,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.04,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
     ]
 }

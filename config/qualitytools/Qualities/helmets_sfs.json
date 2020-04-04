@@ -43,7 +43,7 @@
       {
         "name": "Tainted",
         "color": "dark_red",
-        "weight": 20,
+        "weight": 15,
         "attributes": [
           {
             "name": "generic.luck",
@@ -72,7 +72,7 @@
       {
         "name": "Mourning",
         "color": "dark_red",
-        "weight": 40,
+        "weight": 35,
         "attributes": [
           {
             "name": "potioncore.damageResistance",
@@ -89,7 +89,7 @@
       {
         "name": "quality.dented.name",
         "color": "dark_gray",
-        "weight": 20,
+        "weight": 25,
         "attributes": [
           {
             "name": "generic.armor",
@@ -101,7 +101,7 @@
       {
         "name": "Scuffed",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 45,
         "attributes": [
           {
             "name": "generic.armorToughness",
