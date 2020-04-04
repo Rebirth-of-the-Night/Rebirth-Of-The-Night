@@ -16,7 +16,7 @@
       {
         "name": "Doomed",
         "color": "dark_red",
-        "weight": 40,
+        "weight": 35,
         "attributes": [
           {
             "name": "generic.armor",
@@ -43,7 +43,7 @@
       {
         "name": "Mourning",
         "color": "dark_red",
-        "weight": 40,
+        "weight": 35,
         "attributes": [
           {
             "name": "potioncore.damageResistance",
@@ -77,7 +77,7 @@
       {
         "name": "quality.dented.name",
         "color": "dark_gray",
-        "weight": 20,
+        "weight": 30,
         "attributes": [
           {
             "name": "generic.armor",

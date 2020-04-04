@@ -13,7 +13,7 @@
       {
         "name": "Overflowing",
         "color": "dark_red",
-        "weight": 50,
+        "weight": 40,
         "attributes": [
           {
             "name": "generic.armor",
@@ -64,7 +64,7 @@
       {
         "name": "Destabilizing",
         "color": "dark_gray",
-        "weight": 40,
+        "weight": 50,
         "attributes": [
           {
             "name": "generic.armor",
@@ -414,7 +414,7 @@
         ]
       },
       {
-        "name": "Charging",
+        "name": "Godspeed",
         "color": "light_purple",
         "weight": 4,
         "attributes": [
