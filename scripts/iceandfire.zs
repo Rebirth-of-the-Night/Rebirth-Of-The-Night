@@ -55,3 +55,16 @@ mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);
 
 recipes.remove(<iceandfire:earplugs>);
 recipes.addShapeless("iceandfire_earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
+
+recipes.remove(<iceandfire:pixie_wand>);
+recipes.remove(<iceandfire:siren_flute>);
+
+recipes.addShaped("Pixie Wand", <iceandfire:pixie_wand>, [
+   [null, <iceandfire:pixie_wings>, <contenttweaker:fae_orb>],
+   [<iceandfire:pixie_dust>, <minecraft:end_rod>, <iceandfire:pixie_wings>], 
+   [<minecraft:end_rod>, <iceandfire:pixie_dust>, null]]);
+
+recipes.addShaped("Siren Flute", <iceandfire:siren_flute>, [
+   [<iceandfire:shiny_scales>, <iceandfire:siren_tear>, <iceandfire:shiny_scales>],
+   [<iceandfire:shiny_scales>, <iceandfire:dragon_flute>, <iceandfire:shiny_scales>], 
+   [<iceandfire:shiny_scales>, <contenttweaker:fae_rune>.anyDamage().transformDamage(), <iceandfire:shiny_scales>]]);

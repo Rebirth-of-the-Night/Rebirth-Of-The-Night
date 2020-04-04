@@ -126,7 +126,7 @@ recipes.addShaped("chiseled_purpur", <endreborn:tech_portal>*6,[
 
 recipes.addShaped("Being Of Entropy", <endreborn:death_essence>,[
 	[smoothendstone, smoothendstone, smoothendstone],
-    [smoothendstone, <endreborn:item_end_rune>, smoothendstone],
+    [smoothendstone, <endreborn:item_end_rune>.anyDamage().transformDamage(), smoothendstone],
     [smoothendstone, smoothendstone, smoothendstone]
 ]);
 
@@ -153,3 +153,10 @@ recipes.addShaped("Endorium Sword", <endreborn:tool_sword_endorium>,[
     [null, <spartanweaponry:material:0>, null]
 ]);
 
+recipes.remove(<endreborn:entropy_wand>);
+
+mods.betterwithaddons.Infuser.addShaped(<endreborn:entropy_wand>, [
+   [null, <endreborn:death_essence>, <contenttweaker:disint_orb>],[
+   null, <aether_legacy:skyroot_stick>, <endreborn:death_essence>], 
+   [<aether_legacy:skyroot_stick>, null, null]],
+   16);

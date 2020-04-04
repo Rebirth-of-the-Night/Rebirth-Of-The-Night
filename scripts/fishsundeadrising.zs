@@ -168,15 +168,22 @@ brewing.removeRecipe(<mod_lavacow:fissionpotion>, <mod_lavacow:mootenheart>);
 //chef rat recipes
 mods.rats.recipes.addChefRatRecipe(<mod_lavacow:parasite_item>, <mod_lavacow:sausage_roll>);
 
+// Oozemancer Staff
+recipes.remove(<mod_lavacow:sludge_wand>);
+
+mods.betterwithaddons.Infuser.addShaped(<mod_lavacow:sludge_wand>, [
+   [null, <mod_lavacow:silky_sludge>, <contenttweaker:creation_orb>],
+   [<minecraft:vine>, <mod_lavacow:mossy_stick>, <mod_lavacow:silky_sludge>], 
+   [<mod_lavacow:mossy_stick>, <minecraft:vine>, null]],
+16);
+
 // dreamcatcher
 val bFeatherOre = <ore:blackFeather>;
 bFeatherOre.add([<animania:charcoal_peacock_feather>, <twilightforest:raven_feather>, <mod_lavacow:feather_black>]);
 
-recipes.addShaped("dreamcatcher", <mod_lavacow:dreamcatcher>,[
-	[<mod_lavacow:mossy_stick>, <mod_lavacow:mossy_stick>, <mod_lavacow:mossy_stick>],
-    [<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>],
-	[bFeatherOre, bFeatherOre, bFeatherOre]
-]);
+mods.betterwithaddons.Infuser.addShaped(<mod_lavacow:dreamcatcher>, [
+   [<mod_lavacow:mossy_stick>, <contenttweaker:mind_rune>.anyDamage().transformDamage(), <mod_lavacow:mossy_stick>],[<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>], [bFeatherOre, bFeatherOre, bFeatherOre]],
+   16);
 
 
 

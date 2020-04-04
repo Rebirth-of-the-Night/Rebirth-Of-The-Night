@@ -8,11 +8,6 @@ mods.jei.JEI.removeAndHide(<golems:info_book>);
 
 recipes.remove(<golems:golem_paper>);
 
-
-var magicpowder = <dungeontactics:magic_powder>;
-var feather = <minecraft:feather>;
-var paper = <minecraft:paper>;
-var dyeBlack = <ore:dyeBlack>;
-var redstone = <minecraft:redstone>;
-
-recipes.addShapeless("GolemSpell", <golems:golem_paper>,[magicpowder, feather, redstone, paper, dyeBlack]);
+recipes.addShapeless("GolemSpell", <golems:golem_paper>, [
+<wards:enchanted_paper>, <minecraft:feather>, <contenttweaker:creation_rune>.anyDamage().transformDamage(), <minecraft:dye>, <minecraft:dye:1>]
+);
