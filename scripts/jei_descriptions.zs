@@ -21,6 +21,7 @@ mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 
 
+
 #MISCELLANEOUS#
 
 
@@ -50,6 +51,8 @@ mods.jei.JEI.addDescription(<quark:ancient_tome>,"Filled with arcane secrets fro
 mods.jei.JEI.addDescription(<qualitytools:reforging_station>,"Placing an item in the Reforging Station along with one piece of its primary material, such as an ingot, will change the item's quality. Many magical items can be reforged with Spectral Silt.");
 
 mods.jei.JEI.addDescription([<quark:biotite>],["An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon."]);
+
+mods.jei.JEI.addDescription([<undergroundbiomes:lignite_coal>],["An almost otherworldly amalgamation of tough organic matter. Just powerful enough to act as a catalyst for steel to contain souls."]);
 
 mods.jei.JEI.addDescription([<biomesoplenty:biome_essence>],["Residual energy of that which was extinguished by Void. Can be found at the bottom of the Ender Dragon island."]);
 

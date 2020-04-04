@@ -161,6 +161,14 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chain, null, chain]
 ]);
 
+//Wireless Redstone
+recipes.removeByRecipeName("lwr:recwirelessremote");
+recipes.removeByRecipeName("lwr:recwirelessreciever");
+recipes.removeByRecipeName("lwr:recwirelesstransmitter");
+recipes.addShaped("wireless_remote",<lwr:itemwirelessremote>, [[null, <minecraft:redstone_torch>, null],[<simpleores:tin_ingot>, <contenttweaker:order_rune>.anyDamage().transformDamage(), <simpleores:tin_ingot>], [<simpleores:tin_ingot>, <betterwithmods:material:34>, <simpleores:tin_ingot>]]);
+recipes.addShaped("wireless_reciever",<lwr:blockwirelessreciever>, [[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null],[null, <minecraft:ender_pearl>, null], [<simpleores:tin_ingot>, <simpleores:tin_ingot>, <simpleores:tin_ingot>]]);
+recipes.addShaped("wireless_transmitter",<lwr:blockwirelesstransmitter>, [[null, <minecraft:ender_pearl>, null],[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null], [<simpleores:tin_ingot>, <simpleores:tin_ingot>, <simpleores:tin_ingot>]]);
+
 val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;
 
