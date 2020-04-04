@@ -993,7 +993,7 @@
           ]
         },
         {
-          "entities":["specialmobs:plaguezombie"],
+          "entities":["specialmobs:brutezombie"],
           "count":20,
           "cmods":[
             {"cmod": "xp", "base_value": 40},
@@ -1025,7 +1025,7 @@
           ]
         },
         {
-          "entities":["specialmobs:plaguezombie"],
+          "entities":["specialmobs:brutezombie"],
           "count":20,
           "cmods":[
             {"cmod": "xp", "base_value": 30},
@@ -1082,7 +1082,7 @@
           ]
         },
         {
-          "entities":["specialmobs:plaguezombie"],
+          "entities":["specialmobs:brutezombie"],
           "count":15,
           "cmods":[
             {"cmod": "xp", "base_value": 40},
@@ -1251,7 +1251,7 @@
         },
         {
           "entities": [
-            "specialmobs:plaguezombie"
+            "specialmobs:brutezombie"
           ],
           "count": 15,
           "cmods": [
@@ -1306,7 +1306,7 @@
         },
         {
           "entities": [
-            "specialmobs:plaguezombie"
+            "specialmobs:brutezombie"
           ],
           "count": 15,
           "cmods": [
@@ -1484,7 +1484,7 @@
         },
         {
           "entities": [
-            "specialmobs:plaguezombie"
+            "specialmobs:brutezombie"
           ],
           "count": 15,
           "cmods": [
