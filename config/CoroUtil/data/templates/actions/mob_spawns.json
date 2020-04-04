@@ -3,6 +3,7 @@
   "format": "mob_spawns",
   "templates": [
     {
+      "comment": "//No Game Stage Invasions",
       "name": "undead_horde",
       "wave_message": "§cThe undead horde is approaching...",
       "conditions": [
@@ -72,6 +73,7 @@
 
 
     {
+      "comment": "//Full Early Armor Invasions",
       "name": "undead_and_skeletons",
       "wave_message": "§cThe skeleton horde is approaching...",
       "conditions": [
@@ -232,6 +234,7 @@
 
 
     {
+      "comment": "//Full Mid Armor Invasions",
       "name": "invasion_pirates",
       "wave_message": "§cThe pirates are invading!",
       "conditions": [
@@ -493,6 +496,142 @@
         }
       ]
     },
+    {
+      "comment":"//Personal Template",
+      "name":"invasion_birds",
+      "wave_message":"§cYou hear a flock of birds in the distance...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["fullMidArmor"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["betteranimalsplus:lammergeier"],
+          "count":15,
+          "cmods":[
+            {"cmod":"ai_attack_melee"},
+            {"cmod":"ai_omniscience"}
+          ]
+        },
+        {
+          "entities":["iceandfire:stymphalianbird"],
+          "count":20,
+          "cmods":[
+            {"cmod":"ai_omniscience"}
+          ]
+        },
+        {
+          "entities":["minecraft:zombie"],
+          "count":15,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        }
+      ]
+    },
+    {
+      "name":"invasion_spiders",
+      "wave_message":"§cThe average spider eats eight humans every year...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["fullMidArmor"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["betteranimalsplus:tarantula","specialmobs:palespider","specialmobs:hungryspider","specialmobs:witchspider"],
+          "count":40,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"}
+          ]
+        },
+        {
+          "entities":["minecraft:zombie"],
+          "count":10,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        }
+      ]
+    },
+    {
+      "name":"invasion_goblins",
+      "wave_message":"§cA Goblin Army is Invading!",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["fullMidArmor"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["minecraft:wolf"],
+          "count":10,
+          "cmods":[
+            {"cmod":"ai_attack_melee"},
+            {"cmod":"ai_omniscience"}
+          ]
+        },
+        {
+          "entities":["betteranimalsplus:tarantula","specialmobs:witchcavespider"],
+          "count":10,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"}
+          ]
+        },
+        {
+          "entities":["primitivemobs:goblin"],
+          "count":40,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"}
+          ]
+        }
+      ]
+    },
+    {
+      "name":"invasion_buzz",
+      "wave_message":"§cYou hear buzzing and slithering in the distance...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["fullMidArmor"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["specialmobs:flyingsilverfish"],
+          "count":30,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"}
+          ]
+        },
+        {
+          "entities":["mod_lavacow:vespa"],
+          "count":15,
+          "cmods":[
+            {"cmod":"ai_omniscience"}
+          ]
+        },
+        {
+          "entities":["specialmobs:toughsilverfish"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"}
+          ]
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
 
 
 
@@ -515,8 +654,8 @@
 
     
 
-
     {
+      "comment": "//Mined Mythril Invasions",
       "name": "invasion_animals",
       "wave_message": "§cThe animal uprising has begun. They want revenge!",
       "conditions": [
@@ -546,6 +685,10 @@
             {
               "cmod": "attribute_speed",
               "base_value": 0.5
+            },
+            {
+              "cmod": "attribute_speed_flying",
+              "base_value": 2.0
             }
           ]
         }
@@ -637,6 +780,7 @@
 
 
     {
+      "comment": "//Other Invasions",
       "name": "new_year_party",
       "wave_message": "§dThe mobs are throwing a party for the New Year!",
       "conditions": [
