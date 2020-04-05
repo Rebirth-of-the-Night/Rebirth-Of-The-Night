@@ -73,7 +73,7 @@
 
 
     {
-      "comment": "//Full Early Armor Invasions",
+      "comment": "///////////////////////////////////////////// Full Early Armor Invasions",
       "name": "undead_and_skeletons",
       "wave_message": "§cThe skeleton horde is approaching...",
       "conditions": [
@@ -97,6 +97,10 @@
             {
               "cmod": "template",
               "template": "inventory_iron"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -113,6 +117,10 @@
             {
               "cmod": "template",
               "template": "inventory_bronze"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -129,6 +137,10 @@
             {
               "cmod": "template",
               "template": "inventory_bronze"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -145,6 +157,10 @@
             {
               "cmod": "template",
               "template": "inventory_bronze"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         }
@@ -175,6 +191,10 @@
             {
               "cmod": "template",
               "template": "inventory_bronze"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -187,6 +207,10 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -199,6 +223,10 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -211,6 +239,10 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         }
@@ -234,7 +266,7 @@
 
 
     {
-      "comment": "//Full Mid Armor Invasions",
+      "comment": "///////////////////////////////////////////// Full Mid Armor Invasions",
       "name": "invasion_pirates",
       "wave_message": "§cThe pirates are invading!",
       "conditions": [
@@ -258,6 +290,10 @@
             {
               "cmod": "template",
               "template": "inventory_iron"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -277,6 +313,10 @@
             },
             {
               "cmod": "ai_attack_melee"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         }
@@ -306,6 +346,10 @@
             {
               "cmod": "template",
               "template": "inventory_diamond"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -318,6 +362,10 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -333,6 +381,10 @@
             },
             {
               "cmod": "ai_antiair"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },    
@@ -345,6 +397,10 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         }
@@ -378,6 +434,10 @@
             {
               "cmod": "template",
               "template": "inventory_iron_pickaxe"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -394,6 +454,10 @@
             {
               "cmod": "template",
               "template": "inventory_diamond"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -410,6 +474,10 @@
             {
               "cmod": "template",
               "template": "inventory_iron"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -422,6 +490,10 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },    
@@ -434,6 +506,10 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         }
@@ -468,6 +544,10 @@
             {
               "cmod": "template",
               "template": "inventory_iron_pickaxe"
+            },
+            {
+              "cmod": "xp",
+              "base_value": 40
             }
           ]
         },
@@ -482,7 +562,7 @@
             },
             {
               "cmod": "attribute_health",
-              "base_value": 300
+              "base_value": 400
             },
             {
               "cmod": "xp",
@@ -508,17 +588,19 @@
       "spawns":[
         {
           "entities":["betteranimalsplus:lammergeier"],
-          "count":15,
+          "count":20,
           "cmods":[
             {"cmod":"ai_attack_melee"},
-            {"cmod":"ai_omniscience"}
+            {"cmod":"ai_omniscience"},
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
           "entities":["iceandfire:stymphalianbird"],
-          "count":20,
+          "count":10,
           "cmods":[
-            {"cmod":"ai_omniscience"}
+            {"cmod":"ai_omniscience"},
+            {"cmod": "xp", "base_value": 50}
           ]
         },
         {
@@ -526,8 +608,8 @@
           "count":15,
           "cmods":[
             {"cmod":"template","template":"invader_miner"},
-            {"cmod":"template","template":"inventory_iron"},
-            {"cmod":"template","template":"inventory_iron_pickaxe"}
+            {"cmod":"template","template":"inventory_iron_pickaxe"},
+            {"cmod": "xp", "base_value": 40}
           ]
         }
       ]
@@ -545,7 +627,8 @@
           "entities":["betteranimalsplus:tarantula","specialmobs:palespider","specialmobs:hungryspider","specialmobs:witchspider"],
           "count":40,
           "cmods":[
-            {"cmod":"template","template":"invader_soldier"}
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
@@ -554,14 +637,15 @@
           "cmods":[
             {"cmod":"template","template":"invader_miner"},
             {"cmod":"template","template":"inventory_iron"},
-            {"cmod":"template","template":"inventory_iron_pickaxe"}
+            {"cmod":"template","template":"inventory_iron_pickaxe"},
+            {"cmod": "xp", "base_value": 40}
           ]
         }
       ]
     },
     {
       "name":"invasion_goblins",
-      "wave_message":"§cA Goblin Army is Invading!",
+      "wave_message":"§cA Goblin Army is invading!",
       "conditions":[{
         "condition":"game_stages",
         "game_stages":["fullMidArmor"],
@@ -573,21 +657,33 @@
           "count":10,
           "cmods":[
             {"cmod":"ai_attack_melee"},
-            {"cmod":"ai_omniscience"}
+            {"cmod":"ai_omniscience"},
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
           "entities":["betteranimalsplus:tarantula","specialmobs:witchcavespider"],
           "count":10,
           "cmods":[
-            {"cmod":"template","template":"invader_soldier"}
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
           "entities":["primitivemobs:goblin"],
           "count":40,
           "cmods":[
-            {"cmod":"template","template":"invader_miner"}
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["primitivemobs:goblin"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"},
+            {"cmod": "xp", "base_value": 40}
           ]
         }
       ]
@@ -605,21 +701,33 @@
           "entities":["specialmobs:flyingsilverfish"],
           "count":30,
           "cmods":[
-            {"cmod":"template","template":"invader_soldier"}
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
           "entities":["mod_lavacow:vespa"],
           "count":15,
           "cmods":[
-            {"cmod":"ai_omniscience"}
+            {"cmod":"ai_omniscience"},
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
           "entities":["specialmobs:toughsilverfish"],
           "count":20,
           "cmods":[
-            {"cmod":"template","template":"invader_miner"}
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["minecraft:zombie"],
+          "count":10,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"},
+            {"cmod": "xp", "base_value": 40}
           ]
         }
       ]
@@ -642,9 +750,351 @@
 
 
 
+    {
+      "comment": "///////////////////////////////////////////// Entered Nether Invasions",
+      "name":"invasion_bee",
+      "wave_message":"§cYou better BEE prepared tonight...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["enteredNether"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["minecraftfuture:bee"],
+          "count":50,
+          "cmods":[
+            {"cmod":"ai_omniscience"},
+            {"cmod":"ai_attack_melee"},
+            {"cmod": "xp", "base_value": 40},
+            {"cmod": "attribute_attackdamage", "base_value": 6},
+            {"cmod": "mob_drops", "loot_table": "beeLoot"}
+          ]
+        },
+        {
+          "entities":["minecraft:zombie"],
+          "count":10,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "name":"invasion_fire",
+      "wave_message":"§cFire burns on the horizon...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["enteredNether"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["specialmobs:firezombie"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["specialmobs:fireskeleton"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["specialmobs:firecreeper"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["netherex:ember"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "name":"invasion_nether",
+      "wave_message":"§cA horde monsters has stormed out of the Nether!",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["enteredNether"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["netherex:nethermite"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["magma_monsters:magma_monster_grunt"],
+          "count":10,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["quark:foxhound"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["netherex:ember"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["minecraft:zombie_pigman"],
+          "count":30,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        }
+      ]
+    },
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "comment": "///////////////////////////////////////////// Entered Beneath Invasions",
+      "name":"invasion_bugs",
+      "wave_message":"§cA swarm of bugs is approaching...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["enteredBeneath"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["mod_lavacow:vespa"],
+          "count":10,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["specialmobs:palespider"],
+          "count":10,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["betteranimalsplus:tarantula"],
+          "count":15,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["mod_lavacow:parasite"],
+          "count":35,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 20}
+          ]
+        },
+        {
+          "entities":["minecraft:silverfish"],
+          "count":30,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["specialmobs:flyingsilverfish"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["specialmobs:poisonsilverfish"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities":["iceandfire:myrmex_soldier"],
+          "count":20,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 40},
+            {
+              "cmod": "attribute_health",
+              "base_value": 25
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name":"invasion_rats",
+      "wave_message":"§cThey're the rats! And all of your base belongs to them!",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["enteredBeneath"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["rats:rat"],
+          "count":100,
+          "cmods":[
+            {"cmod":"template","template":"invader_soldier"},
+            {"cmod": "xp", "base_value": 30}
+          ]
+        },
+        {
+          "entities":["specialmobs:brutezombie"],
+          "count":20,
+          "cmods":[
+            {"cmod": "xp", "base_value": 40},
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        }
+      ]
+    },
+    {
+      "name":"invasion_bats",
+      "wave_message":"§cHundreds of wings flap in the distance...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["enteredBeneath"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["minecraft:bat"],
+          "spawn_type": "air",
+          "count":100,
+          "cmods":[
+            
+            {"cmod":"ai_omniscience"},
+            {"cmod":"ai_attack_melee"},
+            {"cmod": "xp", "base_value": 20},
+            {"cmod": "attribute_attackdamage", "base_value": 3}
+          ]
+        },
+        {
+          "entities":["specialmobs:brutezombie"],
+          "count":20,
+          "cmods":[
+            {"cmod": "xp", "base_value": 30},
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        },
+        {
+          "entities":["betteranimalsplus:zotzpyre"],
+          "count":50,
+          "spawn_type": "air",
+          "cmods":[
+            {"cmod": "xp", "base_value": 40},
+            {"cmod":"ai_omniscience"}
+          ]
+        }
+      ]
+    },
+    {
+      "name":"invasion_piper",
+      "wave_message":"§cYou hear a haunting flute melody growing louder...",
+      "conditions":[{
+        "condition":"game_stages",
+        "game_stages":["enteredBeneath"],
+        "match_mode":"all_of"
+      }],
+      "spawns":[
+        {
+          "entities":["rats:illager_piper"],
+          "spawn_type": "surface",
+          "count":1,
+          "cmods":[
+            {
+              "cmod": "attribute_health",
+              "base_value": 300
+            },
+            {
+              "cmod": "xp",
+              "base_value": 200
+            },
+            {
+              "cmod": "attribute_attackdamage",
+              "base_value": 10
+            },
+            {"cmod": "mob_drops", "loot_table": "piperLoot"}
+          ]
+        },
+        {
+          "entities":["rats:rat"],
+          "count":30,
+          "cmods":[
+            {"cmod": "xp", "base_value": 20},
+            {"cmod":"ai_omniscience"}
+          ]
+        },
+        {
+          "entities":["specialmobs:brutezombie"],
+          "count":15,
+          "cmods":[
+            {"cmod": "xp", "base_value": 40},
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        }
+      ]
+    },
+
+
+    
 
 
 
@@ -655,7 +1105,7 @@
     
 
     {
-      "comment": "//Mined Mythril Invasions",
+      "comment": "///////////////////////////////////////////// Mined Mythril Invasions",
       "name": "invasion_animals",
       "wave_message": "§cThe animal uprising has begun. They want revenge!",
       "conditions": [
@@ -689,7 +1139,8 @@
             {
               "cmod": "attribute_speed_flying",
               "base_value": 2.0
-            }
+            },
+            {"cmod": "xp", "base_value": 10}
           ]
         }
       ]
@@ -714,7 +1165,8 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
-            }
+            },
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
@@ -726,7 +1178,8 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
-            }
+            },
+            {"cmod": "xp", "base_value": 40}
           ]
         }
       ]
@@ -753,7 +1206,321 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
-            }
+            },
+            {"cmod": "xp", "base_value": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_legendary_undead",
+      "wave_message": "§cThe legendary undead horde is approaching...",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["minedMythril"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "mod_lavacow:ithaqua"
+          ],
+          "count": 3,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 100}
+          ]
+        },
+        {
+          "entities": [
+            "mod_lavacow:undeadswine"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 50}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:brutezombie"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 40},
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "invasion_rats2",
+      "wave_message": "§cThey pray at night... They stalk at night...",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["minedMythril"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "rats:rat"
+          ],
+          "count": 20,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 20}
+          ]
+        },
+        {
+          "entities": [
+            "rats:plague_beast"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 50}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:brutezombie"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 40},
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:poisonskeleton"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 40},
+            {"cmod": "template", "template": "invader_soldier"}
+          ]
+        },
+        {
+          "entities": [
+            "rats:ratlantean_spirit"
+          ],
+          "count": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "invasion_witch",
+      "wave_message": "§cThe witch covens are invading!",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["minedMythril"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "minecraft:witch"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "mob_drops", "loot_table": "witchLoot"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:windwitch"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "mob_drops", "loot_table": "witchLoot"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:wildswitch"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "mob_drops", "loot_table": "witchLoot"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:undeadwitch"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "mob_drops", "loot_table": "witchLoot"},
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:witchspider"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "mob_drops", "loot_table": "witchLoot"},
+            {"cmod": "xp", "base_value": 30}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "invasion_terrible",
+      "wave_message": "§cThis is going to be a terrible night...",
+      "conditions": [
+        {      
+          "condition": "game_stages",
+          "game_stages": ["minedMythril"],
+          "match_mode": "all_of"
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "mod_lavacow:scarecrow"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 50}
+          ]
+        },
+        {
+          "entities": [
+            "mod_lavacow:ithaqua"
+          ],
+          "count": 3,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 100}
+          ]
+        },
+        {
+          "entities": [
+            "mod_lavacow:boneworm"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 50}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:brutezombie"
+          ],
+          "count": 15,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+
+            {"cmod": "xp", "base_value": 40},
+            {"cmod":"template","template":"invader_miner"},
+            {"cmod":"template","template":"inventory_iron_pickaxe"}
+          ]
+        },
+        {
+          "entities": [
+            "specialmobs:blindingenderman"
+          ],
+          "count": 5,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 50}
+          ]
+        },
+        {
+          "entities": [
+            "mod_lavacow:raven"
+          ],
+          "count": 50,
+          "cmods": [
+            {"cmod":"ai_omniscience"},
+            {"cmod":"ai_attack_melee"},
+            {"cmod": "xp", "base_value": 30},
+            {"cmod": "attribute_attackdamage", "base_value": 6}
           ]
         }
       ]
@@ -761,10 +1528,7 @@
 
 
 
-
-
-
-
+    
 
 
 
@@ -780,7 +1544,7 @@
 
 
     {
-      "comment": "//Other Invasions",
+      "comment": "///////////////////////////////////////////// Other Invasions",
       "name": "new_year_party",
       "wave_message": "§dThe mobs are throwing a party for the New Year!",
       "conditions": [
@@ -799,7 +1563,8 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
-            }
+            },
+            {"cmod": "xp", "base_value": 50}
           ]
         },
         {
@@ -814,7 +1579,8 @@
             },
             {
               "cmod": "ai_explodeonstuck"
-            }
+            },
+            {"cmod": "xp", "base_value": 50}
           ]
         },
         {
@@ -829,7 +1595,8 @@
             },
             {
               "cmod": "ai_explodeonstuck"
-            }
+            },
+            {"cmod": "xp", "base_value": 50}
           ]
         },
         {
@@ -841,7 +1608,8 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
-            }
+            },
+            {"cmod": "xp", "base_value": 50}
           ]
         }
       ]

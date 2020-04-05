@@ -299,6 +299,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
 
+<undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
+
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";

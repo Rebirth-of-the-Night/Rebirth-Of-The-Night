@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iceandfire:dragon_flute",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "quark:horse_whistle",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "trumpetskeleton:trumpet",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
