@@ -1445,6 +1445,19 @@
       "spawns": [
         {
           "entities": [
+            "minecraft:cave_spider"
+          ],
+          "count": 10,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {"cmod": "xp", "base_value": 40}
+          ]
+        },
+        {
+          "entities": [
             "mod_lavacow:scarecrow"
           ],
           "count": 10,
