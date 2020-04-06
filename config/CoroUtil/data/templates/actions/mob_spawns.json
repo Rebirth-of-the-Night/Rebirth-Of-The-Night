@@ -108,7 +108,7 @@
           "entities": [
             "minecraft:skeleton"
           ],
-          "count": 15,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -128,7 +128,7 @@
           "entities": [
             "primitivemobs:skeleton_warrior"
           ],
-          "count": 15,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -148,7 +148,7 @@
           "entities": [
             "specialmobs:bruteskeleton"
           ],
-          "count": 15,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -202,7 +202,7 @@
           "entities": [
             "minecraft:spider"
           ],
-          "count": 30,
+          "count": 20,
           "cmods": [
             {
               "cmod": "template",
@@ -218,7 +218,7 @@
           "entities": [
             "specialmobs:hungryspider"
           ],
-          "count": 15,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -234,7 +234,7 @@
           "entities": [
             "specialmobs:palespider"
           ],
-          "count": 15,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -465,7 +465,7 @@
           "entities": [
             "specialmobs:bruteskeleton"
           ],
-          "count": 15,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -802,20 +802,12 @@
         },
         {
           "entities":["specialmobs:fireskeleton"],
-          "count":20,
+          "count":15,
           "cmods":[
             {"cmod":"template","template":"invader_soldier"},
             {"cmod": "xp", "base_value": 40}
           ]
-        },
-        {
-          "entities":["specialmobs:firecreeper"],
-          "count":20,
-          "cmods":[
-            {"cmod":"template","template":"invader_soldier"},
-            {"cmod": "xp", "base_value": 40}
-          ]
-        },
+        }
         {
           "entities":["netherex:ember"],
           "count":20,
@@ -1323,7 +1315,7 @@
           "entities": [
             "specialmobs:poisonskeleton"
           ],
-          "count": 15,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -1447,7 +1439,7 @@
           "entities": [
             "minecraft:cave_spider"
           ],
-          "count": 10,
+          "count": 5,
           "cmods": [
             {
               "cmod": "template",
@@ -1515,7 +1507,7 @@
           "entities": [
             "specialmobs:blindingenderman"
           ],
-          "count": 5,
+          "count": 3,
           "cmods": [
             {
               "cmod": "template",
@@ -1528,7 +1520,7 @@
           "entities": [
             "mod_lavacow:raven"
           ],
-          "count": 50,
+          "count": 25,
           "cmods": [
             {"cmod":"ai_omniscience"},
             {"cmod":"ai_attack_melee"},

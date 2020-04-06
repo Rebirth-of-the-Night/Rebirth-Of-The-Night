@@ -60,7 +60,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
+key_quark.keybind.toggleAutojump:0
 key_key.davincis.up:45
 key_key.davincis.down:44
 key_key.davincis.brake:0
@@ -73,7 +73,7 @@ key_Difficulty Meter - Show:0
 key_Difficulty Meter - Show Always:0
 key_key.toastcontrol.clear:36
 key_key.dismount:42
-key_smoothfont.key.guiOpen:199
+key_smoothfont.key.guiOpen:0
 key_key.reveal:0
 key_dsurround.cfg.keybind.AnimaniaBadges:0
 key_AM Interface:0
@@ -99,7 +99,7 @@ key_key.dungeontactics.trinket2.desc:0
 key_key.dungeontactics.trinket3.desc:0
 key_key.dungeontactics.trinket4.desc:47
 key_key.mod_lavacow.special:34
-key_FpsReducer.key.guiOpen:207
+key_FpsReducer.key.guiOpen:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -117,4 +117,4 @@ key_key.narrator:0
 key_key.trashslot.toggle:20
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
-key_Profile GUI:210
+key_Profile GUI:0
