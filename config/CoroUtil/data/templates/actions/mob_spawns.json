@@ -624,7 +624,7 @@
       }],
       "spawns":[
         {
-          "entities":["betteranimalsplus:tarantula","specialmobs:palespider","specialmobs:hungryspider","specialmobs:witchspider"],
+          "entities":["betteranimalsplus:tarantula","specialmobs:palespider","specialmobs:hungryspider","specialmobs:witchspider","minecraft:cave_spider"],
           "count":40,
           "cmods":[
             {"cmod":"template","template":"invader_soldier"},
