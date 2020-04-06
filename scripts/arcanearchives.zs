@@ -91,7 +91,7 @@ GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchive
 
 GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<arcanearchives:shaped_quartz>, <contenttweaker:material_part:16>*2, <ore:stickWood>*4]);
 
-GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*2, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
+GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
 
 //fish's halo necklace
 GCT.addRecipe("halo_necklace", <mod_lavacow:halo_necklace>, [<ore:ingotElectrum>*2, <arcanearchives:radiant_dust>*12, <dungeontactics:silver_nugget>*6, <rustic:chain_gold>*4, <twilightforest:charm_of_life_1>, <mod_lavacow:scythe_claw>*2]);
