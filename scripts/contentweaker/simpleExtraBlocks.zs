@@ -91,3 +91,10 @@ witheredblock.setCreativeTab(<creativetab:buildingBlocks>);
 witheredblock.setBlockSoundType(<soundtype:sand>);
 witheredblock.setGravity(true);
 witheredblock.register();
+
+var starblock = VanillaFactory.createBlock("starblock", <blockmaterial:Glass>);
+starblock.setWitherProof(true);
+starblock.setCreativeTab(<creativetab:buildingBlocks>);
+starblock.setLightValue(11);
+starblock.setBlockSoundType(<soundtype:glass>);
+starblock.register();
