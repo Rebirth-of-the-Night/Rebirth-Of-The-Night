@@ -189,6 +189,9 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:12>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:13>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:14>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:decomat:1>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:decomat:2>]);
+mods.betterwithmods.Cauldron.remove([<betterwithaddons:pavement:0>]);
 
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);
