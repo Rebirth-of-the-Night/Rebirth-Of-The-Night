@@ -52,7 +52,7 @@ GraniteAnvil.addRecipe("copper_tin_to_pebbles", <contenttweaker:copper_tin_pebbl
 GraniteAnvil.addRecipe("silver_gold_ambrosium_to_pebbles", <contenttweaker:silver_gold_pebbles>*8, <contenttweaker:silver_gold_mixture>, 6, "hammer", true);
 GraniteAnvil.addRecipe("charcoal pile to charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);
 GraniteAnvil.addRecipe("log to wood chips",<pyrotech:rock:7>*12, <ore:logWood>, 32,"pickaxe", true);
-GraniteAnvil.addRecipe("log to pulp",<pyrotech:material:25>*8, <ore:logWood>, 32,"hammer", true);
+GraniteAnvil.addRecipe("log to pulp",<pyrotech:material:25>*6, <ore:barkWood>, 32,"hammer", true);
 GraniteAnvil.addRecipe("crab murder",<quark:crab_shell>*2, <harvestcraft:crabrawitem>, 1,"hammer", true);
 GraniteAnvil.addRecipe("wither skull to dust",<quark:black_ash>*3, <minecraft:skull:1>,8,"hammer", true);
 GraniteAnvil.addRecipe("smash heart 1",<scalinghealth:crystalshard>*4, <bountifulbaubles:trinketbrokenheart>,12,"hammer", true);
