@@ -29,6 +29,9 @@ import crafttweaker.game.IGame;
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 
+//Better with Addons
+<betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
+
 //Biomes o'Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
@@ -236,6 +239,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <pyrotech:iron_hammer>.displayName = "Iron Sledgehammer";
 <pyrotech:diamond_hammer>.displayName = "Refined Sledgehammer";
 <pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
+game.setLocalization("tile.pyrotech:anvil_granite.name","Multipurpose Stone Anvil");
+game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anvil");
 
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";

@@ -48,7 +48,7 @@ GraniteAnvil.addRecipe("lormyte crystal", <endreborn:item_lormyte_crystal>*2, <e
 GraniteAnvil.addRecipe("obsidian dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);
 GraniteAnvil.addRecipe("obsidian shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 64, "pickaxe", true);
 GraniteAnvil.addRecipe("cobblestone any cobblestone", <minecraft:cobblestone>, <ore:cobblestone>, 1, "hammer", true);
-GraniteAnvil.addRecipe("copper_tin_to_pebbles", <contenttweaker:copper_tin_pebbles>*8, <contenttweaker:copper_tin_mixture>, 8, "hammer", true);
+GraniteAnvil.addRecipe("copper_tin_to_pebbles", <contenttweaker:copper_tin_pebbles>*4, <contenttweaker:copper_tin_mixture>, 8, "hammer", true);
 GraniteAnvil.addRecipe("silver_gold_ambrosium_to_pebbles", <contenttweaker:silver_gold_pebbles>*8, <contenttweaker:silver_gold_mixture>, 6, "hammer", true);
 GraniteAnvil.addRecipe("charcoal pile to charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);
 GraniteAnvil.addRecipe("log to wood chips",<pyrotech:rock:7>*12, <ore:logWood>, 32,"pickaxe", true);
@@ -65,9 +65,10 @@ GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <ny
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>,64,"hammer", true);
 
 //D-Heads
-
+/* 
 GraniteAnvil.addRecipe("DragonHead1",<mod_lavacow:sharptooth>*3, <iceandfire:dragon_skull:*>.withTag({Stage: 1}),3,"hammer", true);
 GraniteAnvil.addRecipe("DragonHead2",<mod_lavacow:sharptooth>*7, <iceandfire:dragon_skull:*>.withTag({Stage: 2}),6,"hammer", true);
 GraniteAnvil.addRecipe("DragonHead3",<mod_lavacow:sharptooth>*12, <iceandfire:dragon_skull:*>.withTag({Stage: 3}),9,"hammer", true);
 GraniteAnvil.addRecipe("DragonHead4",<mod_lavacow:sharptooth>*17, <iceandfire:dragon_skull:*>.withTag({Stage: 4}),12,"hammer", true);
 GraniteAnvil.addRecipe("DragonHead5",<mod_lavacow:sharptooth>*25, <iceandfire:dragon_skull:*>.withTag({Stage: 5}),15,"hammer", true);
+ */

@@ -26,7 +26,7 @@ criteria.setAdvancement("triumph:advancements/eastereggs/kompy")
 criteria = addCriteria("redhotchilipeppersword", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/eastereggs/redhotchilipeppersword")
 
-criteria = aworthycompromise("sandwichhorror", "triumph:completed_advancement")
+criteria = addCriteria("sandwichhorror", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/eastereggs/sandwichhorror")
 
 criteria = addCriteria("transsword", "triumph:completed_advancement")

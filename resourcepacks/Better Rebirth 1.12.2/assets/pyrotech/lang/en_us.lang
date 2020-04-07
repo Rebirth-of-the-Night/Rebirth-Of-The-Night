@@ -1,0 +1,9 @@
+tile.bwm:anvil_granite.name=Multipurpose Stone Anvil
+item.bwm:anvil_granite.name=Multipurpose Stone Anvil
+container.anvil_granite=Multipurpose Stone Anvil
+inv.anvil_granite.name=Multipurpose Stone Anvil
+
+tile.bwm:anvil_iron_plated.name=Refined Plating Anvil
+item.bwm:anvil_iron_plated.name=Refined Plating Anvil
+container.anvil_iron_plated=Refined Plating Anvil
+inv.anvil_iron_plated.name=Refined Plating Anvil

@@ -327,6 +327,8 @@ mods.jei.JEI.addDescription([<msmlegacy:relic_candy>],["Relic idea by Just A BLU
 
 # Lore Specific
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
+mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"Also known as RotN Flesh.");
+
 mods.jei.JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the Pigfolk. The inscriptions around the rim of the brazier are carved in unfamiliar languages... all except for one. You can make out the words 'VARKAAL...', 'LIFE FROM LIGHT...', and 'DUST...'");
 
 ### mods.jei.JEI.addDescription(<minecraft:clay_ball>,"Such a malleable material, could they see us the same in the Void?"); -> should be put on a more fitting item

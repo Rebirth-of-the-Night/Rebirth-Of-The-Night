@@ -1793,11 +1793,11 @@
  },
 
  {
-    "dimension": 0,
+    "dimension": 4,
     "mob": "specialmobs:lemonslime",
     "maxlight": 15,
     "minlight": 14,
-    "random": 0.001,
+    "random": 0.003,
     "seesky": true,
     "gamestage": "enteredAether",
     "maxcount": {
