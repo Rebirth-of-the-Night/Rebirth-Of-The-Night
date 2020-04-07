@@ -29,6 +29,9 @@ import crafttweaker.game.IGame;
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 
+//Better with Addons
+<betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
+
 //Biomes o'Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
