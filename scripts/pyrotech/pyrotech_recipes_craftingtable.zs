@@ -170,7 +170,8 @@ recipes.addShaped("pyro clay bucket", <pyrotech:bucket_clay_unfired>,
  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
   [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
-recipes.addShapeless("pyro flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<pyrotech:material:13>,<minecraft:flint>]);
+recipes.addShapeless("pyro_flint_and_tinder_for_survivors", <pyrotech:flint_and_tinder>*3,[<ore:cobblestone>,<pyrotech:material:13>,<minecraft:flint>]);
+recipes.addShapeless("pyro flint_and_tinder_for_pussies", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:flint>]);
 furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
 recipes.addShaped("masonry_stoneBricks", <minecraft:stonebrick:2>, 
 [[<pyrotech:material:16>, <pyrotech:material:16>],

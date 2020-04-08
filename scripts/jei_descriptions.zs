@@ -178,8 +178,9 @@ mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat 
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
 # Spell Scroll
 mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited magical power once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the 'Magic' book.");
-
-
+# Chute
+mods.jei.JEI.addDescription(<chutes:chute_wood>, "The bennefit of 4 full blocks in 1, specially useful to access underwater areas quickly.");
+mods.jei.JEI.addDescription(<chutes:chute_entry_wood>, "The bennefit of 4 full blocks in 1, specially useful to access underwater areas quickly. This one acts as an entry point.");
 
 # Aqueducts
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
@@ -318,8 +319,11 @@ mods.jei.JEI.addDescription(crudePole, "Less than ideal... may break unexpectedl
 mods.jei.JEI.addDescription(compact, "A reinforced container that's useful to compact stuff into denser materials or blocks.");
 mods.jei.JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash, one gets mulch! Applying it to farmland will protect the block from being trampled, and will help crops grow a little faster.");
 mods.jei.JEI.addDescription(woodChips, "This pesky byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
-mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "This combustion-based sawmill needs a saw placed on top and fuel ignited within in order to function.");
-mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "Although it is not as fast, durable, or high-yielding as a mechanically-powered sawmill, it is easier to build and has room for two items.");
+mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "This combustion-based sawmill needs a saw placed on top and fuel burning within in order to function.");
+mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "Although it is not as fast, durable, or high-yielding as a mechanically-powered sawmill, it is easier to build and has room for two items. ");
+mods.jei.JEI.addDescription(<pyrotech:drying_rack:1>, "This device may hold 4 items at a time. Drying time is heavily reduced by nearby fire, but all the fire in the world won't dry something exposed to rain.");
+mods.jei.JEI.addDescription(<pyrotech:material:25>, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
+mods.jei.JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harvesting of both bark and wood chips, which can be used in ingenious ways for advanced crafting like tanned leather or tar and charcoal production.");
 
 # Relics
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
