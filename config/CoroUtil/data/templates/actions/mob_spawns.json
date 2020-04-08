@@ -807,7 +807,7 @@
             {"cmod":"template","template":"invader_soldier"},
             {"cmod": "xp", "base_value": 40}
           ]
-        }
+        },
         {
           "entities":["netherex:ember"],
           "count":20,
@@ -1180,7 +1180,7 @@
 
     {
       "name": "invasion_vermin_souls",
-      "wave_message": "§cOOPS! All Vermin Souls!",
+      "wave_message": "§cOOPS! All Vermin Souls! (hope you have fire resistance...)",
       "conditions": [
         {      
           "condition": "game_stages",
@@ -1199,7 +1199,9 @@
               "cmod": "template",
               "template": "invader_soldier"
             },
-            {"cmod": "xp", "base_value": 40}
+            {"cmod": "attribute_health","base_value": 10},
+            {"cmod": "xp", "base_value": 40},
+            {"cmod": "mob_drops", "loot_table": "verminLoot"}
           ]
         }
       ]
