@@ -94,7 +94,7 @@ import crafttweaker.game.IGame;
 // Better with Mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
-<betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldon";
+<betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldron";
 <betterwithmods:aesthetic:0>.displayName = "Stone Chopping Block";
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
 
