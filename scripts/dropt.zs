@@ -81,3 +81,11 @@ Dropt.list("blood_tainted_gold")
   );
 */ 
 
+Dropt.list("Well_Worth")
+
+  .add(Dropt.rule()
+      .matchBlocks(["harvestcraft:well"])
+	  .addDrop(Dropt.drop()
+		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
+      )	
+  );

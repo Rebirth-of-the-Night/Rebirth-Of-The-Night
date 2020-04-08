@@ -177,38 +177,38 @@ mods.jei.JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also know as 
 #armor
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_helmet>.anyDamage(), <contenttweaker:material_part>, <atop:mud_helmet>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 100));
 });
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_chestplate>.anyDamage(), <contenttweaker:material_part>, <atop:mud_chestplate>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 137));
 });
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_leggings>.anyDamage(), <contenttweaker:material_part>, <atop:mud_leggings>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 130));
 });
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_boots>.anyDamage(), <contenttweaker:material_part>, <atop:mud_boots>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 115));
 });
 #tools
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_sword>.anyDamage(), <contenttweaker:material_part>, <atop:mud_sword>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 113));
 });
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_shovel>.anyDamage(), <contenttweaker:material_part>, <atop:mud_shovel>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 105));
 });
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_pickaxe>.anyDamage(), <contenttweaker:material_part>, <atop:mud_pickaxe>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 105));
 });
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_axe>.anyDamage(), <contenttweaker:material_part>, <atop:mud_axe>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 105));
 });
 mods.rockytweaks.Anvil.addRecipe(<atop:mud_hoe>.anyDamage(), <contenttweaker:material_part>, <atop:mud_hoe>, 1,
 function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
+    return ins.left.withDamage(max(0,ins.left.damage - 105));
 });

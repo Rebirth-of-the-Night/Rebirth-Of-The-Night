@@ -122,6 +122,18 @@
 <eplus:advanced_table>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
 <eplus:table_upgrade>.addTooltip("Shift + right-click on an Enchanting Table to upgrade.");
 
+<scalinghealth:healingitem>.removeTooltip("Use for 5 seconds to apply.");
+<scalinghealth:healingitem>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold <SHIFT> for info.");
+
+<scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
+<scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold <SHIFT> for info.");
+
+<harvestcraft:well>.addShiftTooltip("One way installation, dismounting will result in some of the components being returned", "Hold <SHIFT> for info.");
+
+<minecraft:furnace>.addShiftTooltip("Input Capacity: 1 at a time.", "Hold <SHIFT> for info.");
+<minecraft:furnace>.addShiftTooltip("Fuel Capacity: 1 at a time.");
+<minecraft:furnace>.addShiftTooltip("Fuel Modifier: 100%");
+
 <netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
 <dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");

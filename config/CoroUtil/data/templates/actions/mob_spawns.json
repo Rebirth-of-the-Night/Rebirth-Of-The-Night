@@ -1571,7 +1571,7 @@
               "cmod": "template",
               "template": "invader_soldier"
             },
-            {"cmod": "xp", "base_value": 50}
+            {"cmod": "xp", "base_value": 100}
           ]
         },
         {
@@ -1587,7 +1587,7 @@
             {
               "cmod": "ai_explodeonstuck"
             },
-            {"cmod": "xp", "base_value": 50}
+            {"cmod": "xp", "base_value": 100}
           ]
         },
         {
@@ -1603,7 +1603,7 @@
             {
               "cmod": "ai_explodeonstuck"
             },
-            {"cmod": "xp", "base_value": 50}
+            {"cmod": "xp", "base_value": 100}
           ]
         },
         {
@@ -1616,7 +1616,7 @@
               "cmod": "template",
               "template": "invader_soldier"
             },
-            {"cmod": "xp", "base_value": 50}
+            {"cmod": "xp", "base_value": 100}
           ]
         }
       ]

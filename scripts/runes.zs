@@ -7,6 +7,8 @@ mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
 recipes.remove(<quark:rune:*>);
 //recipes.removeShaped(<endreborn:item_end_rune>, [[<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>],[<endreborn:item_end_shard>, <endreborn:item_advanced_ender_pearl>, <endreborn:item_end_shard>],[<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>]]);
 recipes.remove(<endreborn:item_end_rune>);
+val endrune = <endreborn:item_end_rune>;
+endrune.maxDamage = 8;
 
 //inert
 recipes.addShapeless(<contenttweaker:blank_rune>.withTag({"Quark:RuneColor": 7, ench: [{lvl: 1 as short, id: 57 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), [<ore:stone>, <dungeontactics:magic_powder>]);

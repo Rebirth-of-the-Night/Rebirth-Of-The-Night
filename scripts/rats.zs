@@ -216,7 +216,7 @@ val oreHerbEnt = <ore:sweetHerb>;
 oreHerbEnt.addItems([<biomesoplenty:flower_0>, <biomesoplenty:flower_0:1>, <biomesoplenty:flower_0:3>, <biomesoplenty:flower_0:4>, <biomesoplenty:flower_0:5>, <biomesoplenty:flower_0:6>, <biomesoplenty:flower_0:7>, <biomesoplenty:flower_0:8>, <biomesoplenty:flower_0:9>, <biomesoplenty:flower_0:11>, <biomesoplenty:flower_0:12>, <biomesoplenty:flower_0:13>, <biomesoplenty:flower_0:14>, <biomesoplenty:flower_1>, <biomesoplenty:flower_1:1>, <biomesoplenty:flower_1:2>, <biomesoplenty:flower_1:3>, <biomesoplenty:flower_1:5>, <betteranimalsplus:trillium>, <rustic:chamomile>, <harvestcraft:garlicitem>, <harvestcraft:spiceleafitem>, <harvestcraft:cinnamonitem>]);
 oreHerbEnt.addItems([<minecraft:yellow_flower>, <minecraft:red_flower>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>, <minecraft:red_flower:8>]);
 
-recipes.addShaped("rats_herb_bundle", <rats:herb_bundle> * 3, [[<ore:sweetHerb>, <ore:sweetHerb>, <ore:sweetHerb>], [<ore:sweetHerb>, <rats:assorted_vegetables>, <ore:sweetHerb>], [<ore:sweetHerb>, <ore:sweetHerb>, <ore:sweetHerb>]]);
+recipes.addShaped("rats_herb_bundle", <rats:herb_bundle> * 9, [[<ore:sweetHerb>, <ore:sweetHerb>, <ore:sweetHerb>], [<ore:sweetHerb>, <rats:assorted_vegetables>, <ore:sweetHerb>], [<ore:sweetHerb>, <ore:sweetHerb>, <ore:sweetHerb>]]);
 
 recipes.remove(<rats:rat_fez>);
 recipes.addShaped("rat_fez", <rats:rat_fez>, [[null, <minecraft:string>, null], [<minecraft:wool:14>, <ore:foodCheese>, <minecraft:wool:14>], [<minecraft:wool:14>, null, <minecraft:wool:14>]]);

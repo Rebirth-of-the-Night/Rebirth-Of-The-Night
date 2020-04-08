@@ -500,3 +500,11 @@ recipes.addShaped("dust to witheredblock", <contenttweaker:witheredblock>,[
 recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("Enchanting Table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+//Hardness
+/*
+The minimum block resistance required to absorb maximum blast force of an explosion happening in nearby air = ((1.3 × power − attenuation steps × step length × 0.75)/step length − 0.3).
+Thus, the block resistances are 24.2 (charged creepers), 15.534 (TNT), 11.2 (creepers), 3.284 (fireballs).
+*/	
+
+<simpleores:onyx_block>.hardness = 100.0;
