@@ -52,6 +52,18 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.mal
 
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>, 0.3);
 
+recipes.addShaped("overgrown_stone",<biomesoplenty:grass:1>*8,[
+    [<ore:stone>,<ore:stone>,<ore:stone>],
+    [<ore:stone>,<minecraft:vine>,<ore:stone>],
+    [<ore:stone>,<ore:stone>,<ore:stone>]
+]);
+
+recipes.addShaped("white_sand",<biomesoplenty:white_sand>*8,[
+    [<ore:sand>,<ore:sand>,<ore:sand>],
+    [<ore:sand>,<ore:dyeWhite>,<ore:sand>],
+    [<ore:sand>,<ore:sand>,<ore:sand>]
+]);
+
 recipes.removeByRecipeName("biomesoplenty:mud_bricks_stairs");
 recipes.addShaped("mud_brick_stairs",<biomesoplenty:mud_brick_stairs:0>*8,[
     [<biomesoplenty:mud_brick_block:0>,null,null],
