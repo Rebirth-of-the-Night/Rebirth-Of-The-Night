@@ -95,20 +95,6 @@
     "result": "deny"
  },
 
-// Remove angry enderman
- {
-    "mob": "endreborn:angry_enderman",
-    "onjoin": true,
-    "result": "deny"
- },
-
- // Remove watcher
- {
-    "mob": "endreborn:watcher",
-    "onjoin": true,
-    "result": "deny"
- },
-
   // Remove Zombie Players spawning in the Nether
  {
     "mob": "zombie_players:zombie_player",

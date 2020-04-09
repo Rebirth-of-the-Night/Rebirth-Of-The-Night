@@ -4,7 +4,13 @@ mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_axe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
-mods.jei.JEI.removeAndHide(<endreborn:block_rune>);
+mods.jei.JEI.removeAndHide(<endreborn:dragon_scales>);
+mods.jei.JEI.removeAndHide(<endreborn:entropy_user>);
+mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_seeds>);
+mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_tea>);
+mods.jei.JEI.removeAndHide(<endreborn:food_dragonite_berries>);
+mods.jei.JEI.removeAndHide(<endreborn:food_chorus_soup>);
+
 
 // Anvil Recipes
 
@@ -49,6 +55,10 @@ mods.ltt.LootTable.removeGlobalItem("endreborn:tool_sword_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_hoe_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:dragon_scales");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_angel_feather");
+mods.ltt.LootTable.removeGlobalItem("endreborn:item_dragonite_seeds");
+mods.ltt.LootTable.removeGlobalItem("endreborn:item_dragonite_tea");
+mods.ltt.LootTable.removeGlobalItem("endreborn:food_dragonite_berries");
+mods.ltt.LootTable.removeGlobalItem("endreborn:entropy_user");
 
 
 //sledgehammer recipes are in pyrotech_recipes_anvil.zs these are just removals
@@ -68,6 +78,8 @@ recipes.removeByRecipeName("endreborn:items/purpur_block");
 recipes.removeByRecipeName("endreborn:items/item_shard_obsidian");
 recipes.removeByRecipeName("endreborn:blocks/cobblestone");
 recipes.removeByRecipeName("endreborn:blocks/purpur_block");
+recipes.removeByRecipeName("endreborn:tools/item_ender_string");
+recipes.removeByRecipeName("endreborn:items/food_ender_flesh");
 
 
 recipes.remove(<endreborn:tool_magnifier>);
@@ -97,12 +109,6 @@ mods.jei.JEI.removeAndHide(<endreborn:block_wolframium_ore>);
 var crystal = <endreborn:item_lormyte_crystal>;
 var obsidianshard = <endreborn:item_shard_obsidian>;
 
-recipes.addShaped("End Shards", <endreborn:item_end_shard>,[
-	[obsidianshard, obsidianshard, obsidianshard],
-    [crystal, endorium, crystal],
-    [crystal, crystal, crystal]
-]);
-
 mods.jei.JEI.removeAndHide(<endreborn:e_end_bricks_wall>);
 mods.jei.JEI.removeAndHide(<quark:end_bricks_wall>);
 mods.jei.JEI.removeAndHide(<quark:end_bricks_stairs>);
@@ -118,26 +124,13 @@ recipes.addShaped("smooth_end_stone", smoothendstone*9, [
     [endstone,endstone,endstone]
 ]);
 
-recipes.addShaped("chiseled_purpur", <endreborn:tech_portal>*6,[
-    [purpur,null,purpur],
-    [purpur,null,purpur],
-    [purpur,null,purpur]
+recipes.addShaped("xorcite", <endreborn:death_essence>,[
+	[<endreborn:item_end_shard>, smoothendstone, <endreborn:item_end_shard>],
+    [smoothendstone, <endreborn:item_end_shard>, smoothendstone],
+    [<endreborn:item_end_shard>, smoothendstone, <endreborn:item_end_shard>]
 ]);
 
-recipes.addShaped("Being Of Entropy", <endreborn:death_essence>,[
-	[smoothendstone, smoothendstone, smoothendstone],
-    [smoothendstone, <endreborn:item_end_rune>.anyDamage().transformDamage(), smoothendstone],
-    [smoothendstone, smoothendstone, smoothendstone]
-]);
 
-/*
-recipes.remove(<endreborn:item_end_rune>);
-recipes.addShaped("End Rune", <endreborn:item_end_rune>,[
-	[<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>],
-    [<endreborn:item_end_shard>, <endreborn:item_advanced_ender_pearl>, <endreborn:item_end_shard>],
-    [<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>]
-]);
-*/
 
 recipes.addShaped("String of Life", <endreborn:item_ender_string>,[
 	[<endreborn:item_raw_endorium>, <endreborn:item_world_mirror>, <endreborn:item_raw_endorium>],
@@ -153,10 +146,24 @@ recipes.addShaped("Endorium Sword", <endreborn:tool_sword_endorium>,[
     [null, <spartanweaponry:material:0>, null]
 ]);
 
-recipes.remove(<endreborn:entropy_wand>);
+recipes.remove(<endreborn:ender_sword>);
+recipes.addShaped("Void Sword", <endreborn:ender_sword>,[
+    [<endreborn:item_end_essence>, <endreborn:item_ender_string>, <endreborn:item_end_essence>],
+    [<endreborn:item_ingot_endorium>, <endreborn:item_end_rune>, <endreborn:item_ingot_endorium>],
+    [null, <endreborn:sword_shard>, null]
+]);
 
+recipes.remove(<endreborn:entropy_wand>);
 mods.betterwithaddons.Infuser.addShaped(<endreborn:entropy_wand>, [
    [null, <endreborn:death_essence>, <contenttweaker:disint_orb>],[
    null, <aether_legacy:skyroot_stick>, <endreborn:death_essence>], 
    [<aether_legacy:skyroot_stick>, null, null]],
    16);
+
+
+recipes.remove(<endreborn:block_purpur_lamp>);
+recipes.addShaped("Purpur Lamp", <endreborn:block_purpur_lamp>,[
+    [<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>],
+    [<minecraft:glass_pane>, <endreborn:block_end_magma>, <minecraft:glass_pane>],
+    [<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>]
+]);

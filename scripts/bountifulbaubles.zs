@@ -6,6 +6,10 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketobsidianskull");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:shieldobsidian");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:enderdragonscale");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:brokenblackdragonscale");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringiron");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
+
+
 recipes.remove(<bountifulbaubles:brokenblackdragonscale>);
 
 
