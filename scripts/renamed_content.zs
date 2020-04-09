@@ -56,6 +56,10 @@ import crafttweaker.game.IGame;
 <arcanearchives:tome_arcana>.displayName = "§bTome of Radiant Arcana";
 <arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
 
+<rustic:book>.displayName = "§bAlmanac of the Farmer";
+<rustic:book>.addTooltip(format.aqua("Guidebook"));
+<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate efficiently.");
+
 // Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironroot Arming Sword";
 <twilightforest:ironwood_hoe>.displayName = "§bIronroot Hoe";
