@@ -16,11 +16,12 @@ mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipur
 
 # BWM #
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
-mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, like sails and different kinds of cloth.");
+mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, like sails and different kinds of cloth. Grows two blocks high like Sugar Cane - make sure you only harvest the top one!");
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 
-
+#RUSTIC"
+mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
 
 #MISCELLANEOUS#
 

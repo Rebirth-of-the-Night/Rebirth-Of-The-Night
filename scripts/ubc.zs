@@ -12,6 +12,8 @@ recipes.addShaped("forgiving tool reforging station", <qualitytools:reforging_st
     [<ore:ingotSteel>, <ore:obsidian>, <ore:ingotSteel>]
 ]);
 
+recipes.addShapeless("gravel_to_flint",<minecraft:flint>*2,[<ore:gravel>, <ore:gravel>]);
+
 mods.jei.JEI.removeAndHide(<endreborn:tool_hammer_iron>);
 recipes.addShapeless("popped_chorus_fruit", <minecraft:chorus_fruit_popped>, [<minecraft:purpur_block>, <ore:hammerTool>.transformDamage()]);
 recipes.addShapeless("anyCobble",<minecraft:cobblestone>,[<ore:cobblestone>,<ore:hammerTool>.transformDamage()]);

@@ -189,6 +189,7 @@ recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_logs");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/sticks_from_cactus");
 recipes.removeByRecipeName("dungeontactics:misc/mithril_nugget");
 recipes.removeByRecipeName("dungeontactics:misc/convenience/clayball_from_clay");
+recipes.removeByRecipeName("dungeontactics:misc/convenience/flint_from_gravel");
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_block>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_ore>);
