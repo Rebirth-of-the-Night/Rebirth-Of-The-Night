@@ -142,7 +142,7 @@ mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material lef
 # Faucet
 mods.jei.JEI.addDescription(<pyrotech:faucet_stone>,"When right-clicked, it will start to drain any liquid from one container to another container below itself. Right-click again to stop the faucet's flow. Can be powered with redstone.");
 # Coal
-mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires a proper kiln. A simple furnace just won't suffice."]);
+mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace just won't suffice..."]);
 # Torch
 mods.jei.JEI.addDescription([<minecraft:torch>],["An adventurer's best friend."]);
 # Endstone
