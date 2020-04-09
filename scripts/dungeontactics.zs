@@ -312,7 +312,6 @@ mods.jei.JEI.removeAndHide(<dungeontactics:bone_helmet>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_shield>);
 //mods.jei.JEI.removeAndHide(<dungeontactics:bone_cestus>);
 recipes.remove(<dungeontactics:bone_cestus>);
-JEI.mods.jei.JEI.addItem(<dungeontactics:bone_cestus>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_knife>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_cutlass>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_sword>);
