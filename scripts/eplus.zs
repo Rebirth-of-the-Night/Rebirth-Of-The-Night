@@ -25,6 +25,7 @@ mods.rockytweaks.Anvil.remove([<msmlegacy:eye_end_blade:*>]); // interdim blade
 mods.rockytweaks.Anvil.remove([<msmlegacy:glacial_blade:*>]); // dragons bane
 mods.rockytweaks.Anvil.remove([<msmlegacy:crystaline_blade:*>]); // lights edge
 mods.rockytweaks.Anvil.remove([<msmlegacy:wither_bane:*>]); // darks edge
+mods.rockytweaks.Anvil.remove([<atop:amethyst_sword>]); // mari
 mods.rockytweaks.Anvil.remove([<msmlegacy:relic_aqueous:*>]);
 mods.rockytweaks.Anvil.remove([<msmlegacy:relic_candy:*>]);
 

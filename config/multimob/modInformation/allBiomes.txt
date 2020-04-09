@@ -62,7 +62,6 @@ minecraft:mutated_mesa_rock
 minecraft:mutated_mesa_clear_rock
 biomesoplenty:gravel_beach
 biomesoplenty:white_beach
-biomesoplenty:origin_beach
 biomesoplenty:alps
 biomesoplenty:bamboo_forest
 biomesoplenty:bayou
@@ -101,7 +100,6 @@ biomesoplenty:prairie
 biomesoplenty:quagmire
 biomesoplenty:rainforest
 biomesoplenty:redwood_forest
-biomesoplenty:sacred_springs
 biomesoplenty:seasonal_forest
 biomesoplenty:shield
 biomesoplenty:shrubland
@@ -124,7 +122,6 @@ biomesoplenty:oasis
 biomesoplenty:snowy_tundra
 biomesoplenty:coral_reef
 biomesoplenty:kelp_forest
-biomesoplenty:origin_island
 biomesoplenty:tropical_island
 biomesoplenty:volcanic_island
 biomesoplenty:flower_island

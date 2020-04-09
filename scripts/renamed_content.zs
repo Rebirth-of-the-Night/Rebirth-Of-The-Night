@@ -94,7 +94,7 @@ import crafttweaker.game.IGame;
 // Better with Mods
 <betterwithmods:steel_anvil>.displayName = "Steel Anvil";
 game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
-<betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldon";
+<betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldron";
 <betterwithmods:aesthetic:0>.displayName = "Stone Chopping Block";
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
 
@@ -504,7 +504,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
 <endreborn:ender_sword>.displayName = "§6Void Ripper";
 <endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
-
+<endreborn:armour_leggings_obsidian>.displayName = "Obsidian Leggings";
 
 <iceandfire:dragonsteel_ice_sword>.displayName = "§6Ice Dragonsteel Sword";
 <iceandfire:dragonsteel_ice_sword>.addTooltip(format.gold("Legendary Weapon"));
