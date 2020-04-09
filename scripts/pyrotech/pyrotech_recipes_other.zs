@@ -23,3 +23,5 @@ SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 
 furnace.remove(<pyrotech:material:22>);
+
+Burn.removeRecipes(<pyrotech:material:23>);
