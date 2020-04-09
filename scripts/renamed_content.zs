@@ -504,7 +504,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
 <endreborn:ender_sword>.displayName = "§6Void Ripper";
 <endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
-
+<endreborn:armour_leggings_obsidian>.displayName = "Obsidian Leggings";
 
 <iceandfire:dragonsteel_ice_sword>.displayName = "§6Ice Dragonsteel Sword";
 <iceandfire:dragonsteel_ice_sword>.addTooltip(format.gold("Legendary Weapon"));
