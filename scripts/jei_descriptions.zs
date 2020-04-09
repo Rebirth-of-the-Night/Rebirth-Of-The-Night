@@ -19,6 +19,7 @@ mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game cr
 mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, like sails and different kinds of cloth.");
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
+mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block, it creates a magical updrift when flied over with an elytra!");
 
 
 
