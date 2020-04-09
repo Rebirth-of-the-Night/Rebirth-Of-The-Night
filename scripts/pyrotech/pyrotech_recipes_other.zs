@@ -20,5 +20,6 @@ SoakingPot.removeRecipes(<pyrotech:material:23>);
 SoakingPot.removeRecipes(<minecraft:coal_block>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
+SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 
 furnace.remove(<pyrotech:material:22>);
