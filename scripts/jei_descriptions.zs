@@ -23,6 +23,8 @@ mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block
 
 #RUSTIC"
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
+mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for air ships.");
+
 
 #MISCELLANEOUS#
 
