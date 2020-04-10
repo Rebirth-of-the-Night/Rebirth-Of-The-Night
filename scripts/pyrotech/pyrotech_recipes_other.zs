@@ -21,7 +21,21 @@ SoakingPot.removeRecipes(<minecraft:coal_block>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
+SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <liquid:blood>, <nyx:lunar_water_bottle>, 8 * 60 * 20);
+SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:flowing_souls>, <pyrotech:material:16>, 10 * 75 * 30);
 
 furnace.remove(<pyrotech:material:22>);
 
 Burn.removeRecipes(<pyrotech:material:23>);
+var mythrilore = ["simpleores:mythril_ore","undergroundbiomes:igneous_stone_simpleores_mythril_ore:*","undergroundbiomes:metamorphic_stone_simpleores_mythril_ore:*","undergroundbiomes:sedimentary_stone_simpleores_mythril_ore:*"] as string[];
+var mythname = ["molten_soul_vanilla","molten_soul_igneous","molten_soul_metamorphic","molten_soul_sedimentary"] as string[];
+
+for i,ores in mythrilore{
+Burn.createBuilder(mythname[i], <pyrotech:material:16>, ores)
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(1 * 60 * 20)
+    .setFluidProduced(<liquid:mythril> * 100)
+    .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
+    }

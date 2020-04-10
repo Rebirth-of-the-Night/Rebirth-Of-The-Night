@@ -142,15 +142,18 @@ mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material lef
 # Faucet
 mods.jei.JEI.addDescription(<pyrotech:faucet_stone>,"When right-clicked, it will start to drain any liquid from one container to another container below itself. Right-click again to stop the faucet's flow. Can be powered with redstone.");
 # Coal
-mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace just won't suffice..."]);
+mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood..."]);
 # Torch
-mods.jei.JEI.addDescription([<minecraft:torch>],["An adventurer's best friend."]);
+mods.jei.JEI.addDescription([<minecraft:torch>],["An adventurer's best friend. Most will rather delve into caves looking for mineral coal than assemble a charcoal production operation, specially those in dire situations. Other more powerful light sources include Glaretorches, Hanging Lights or Lanterns."]);
 # Endstone
-mods.jei.JEI.addDescription([<minecraft:end_stone>],["Some have seen this paradimensional stone floating around in the Overworld."]);
+mods.jei.JEI.addDescription([<minecraft:end_stone>],["Some have seen this paradimensional stone floating around in the Overworld. Legends claim this stone to be the most common soil in the home of the Enderpeople, although it was desctibed as covered with vibrant purple grass and flora."]);
 # Codex
-mods.jei.JEI.addDescription(<villagenames:codex>,'This strange device has written something in it: "We have a wiki!"... What could it mean?');
+mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of information used long time ago by advanced civilizations. Using it while holding a book in the off-hand will register data of the structure its holder is inside.");
 # Iron ingot
 mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
+# Steel ingot
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"This kind of steel has always been seen as a serviceable alloy at best, useful for components but stiff and barely harder than bronze yet les resilient. Crudely made steel is widely used in mechanisms and as a hard component, but diamond is preferred for day to day use");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages, yet, there are rumors that a craftsperson skilled enough could make a steel alloy better than anything priorly discovered.");
 # Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
 # Pointy thingy
@@ -161,7 +164,6 @@ mods.jei.JEI.addDescription(<dimstack:portal>,"Getting past these will take you 
 mods.jei.JEI.addDescription(<dimstack:bedrock:0>,"Getting past these will take you to dark places...");
 # Handle
 mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for more advanced weapons.");
-# Handle 1
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");
 # Amethyst
 mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lands of the Ender folk, as the deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods.");
