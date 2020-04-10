@@ -62,7 +62,7 @@ recipes.removeByRecipeName("minecraft:repeater");
 
 recipes.remove(<minecraft:fish:0>);
 recipes.remove(<minecraft:stone_slab:5>);
-recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>,[
+recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>*6,[
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
 ]);
 recipes.remove(<minecraft:stone_brick_stairs>);
