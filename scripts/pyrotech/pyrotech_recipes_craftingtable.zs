@@ -73,6 +73,7 @@ recipes.remove(<pyrotech:brick_crucible>);
 recipes.remove(<pyrotech:brick_sawmill>);
 recipes.remove(<pyrotech:compacting_bin>);
 recipes.remove(<pyrotech:brick_oven>);
+recipes.remove(<pyrotech:drying_rack:1>);
 mods.jei.JEI.hideCategory("pyrotech.campfire");
 mods.jei.JEI.hideCategory("pyrotech.worktable");
 mods.jei.JEI.hideCategory("pyrotech.stone.oven");
@@ -100,6 +101,7 @@ val stoneBrick = <pyrotech:material:16>;
 val clayBrick = <ore:ingotBrick>;
 val dry = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
+val ladder = <minecraft:ladder>;
 
 recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
@@ -214,6 +216,9 @@ recipes.addShaped("tar_drain", <pyrotech:tar_drain>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [null, null, null],
   [stoneBrick,stoneBrick,stoneBrick]]);
+recipes.addShaped("Standing_dryingrack", <pyrotech:drying_rack:1>,
+ [[null,ladder,null],
+  [ladder,null,ladder]]);
   
 //hammers
 recipes.addShaped("stone_sledgehammer", <pyrotech:stone_hammer>,
