@@ -63,7 +63,7 @@ recipes.addShapeless("goldenrod_dye",<minecraft:dye:11>,[<ore:toolMortarandpestl
 recipes.addShapeless("bromeliad_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:11>]);
 recipes.addShapeless("red_mold_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<betternether:red_mold>]);
 recipes.addShapeless("rose_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:5>]);
-recipes.addShapeless("rafflesia_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:10>]);
+recipes.addShapeless("rafflesia_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:plant_1:10>]);
 
 recipes.addShapeless("plant_partition_1",<harvestcraft:flaxitem>*3,[<biomesoplenty:double_plant:0>]);
 
