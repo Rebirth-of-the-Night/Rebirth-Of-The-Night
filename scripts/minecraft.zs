@@ -110,6 +110,7 @@ var chain = <quark:chain>;
 var bigchain = <iceandfire:chain>;
 var decochain = <rustic:chain>;
 
+recipes.removeByRecipeName("iceandfire:chain");
 recipes.remove(<minecraft:chainmail_helmet>);
 recipes.remove(<minecraft:chainmail_chestplate>);
 recipes.remove(<minecraft:chainmail_leggings>);
