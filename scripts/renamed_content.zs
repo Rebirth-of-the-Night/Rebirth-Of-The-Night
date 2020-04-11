@@ -168,7 +168,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
 <biomesoplenty:flower_0:14>.displayName = "Valley Lily";
 <biomesoplenty:double_plant:0>.displayName = "Flax Flower";
-<biomesoplenty:mud_brick_block:0>.displayName = "Mud Brick Block";
+<biomesoplenty:mud_brick_block:0>.displayName = "Mud Bricks";
 <biomesoplenty:mud_brick_stairs:0>.displayName = "Mud Brick Stairs";
 <biomesoplenty:other_slab:0>.displayName = "Mud Brick Slab";
 

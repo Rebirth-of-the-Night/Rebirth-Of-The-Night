@@ -59,6 +59,7 @@ recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("minecraft:repeater");
+recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 
 recipes.remove(<minecraft:fish:0>);
 recipes.remove(<minecraft:stone_slab:5>);
@@ -66,16 +67,17 @@ recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>*6,[
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
 ]);
 recipes.remove(<minecraft:stone_brick_stairs>);
-recipes.addShaped("stone_brick_stairs_brick",<minecraft:stone_brick_stairs>*8,[
+recipes.addShapedMirrored("stone_brick_stairs_brick",<minecraft:stone_brick_stairs>*8,[
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null,null],
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,null],
     [<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>,<minecraft:stonebrick:0>|<minecraft:stonebrick:2>|<minecraft:stonebrick:3>]
 ]);
-recipes.addShaped("stone_brick_stairs_slab",<minecraft:stone_brick_stairs>*4,[
+recipes.addShapedMirrored("stone_brick_stairs_slab",<minecraft:stone_brick_stairs>*4,[
     [<minecraft:stone_slab:5>,null,null],
     [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,null],
     [<minecraft:stone_slab:5>,<minecraft:stone_slab:5>,<minecraft:stone_slab:5>]
 ]);
+recipes.addShapeless("stone_brick_from_stairs",<minecraft:stonebrick:0>*3,[<minecraft:stone_brick_stairs>,<minecraft:stone_brick_stairs>,<minecraft:stone_brick_stairs>,<minecraft:stone_brick_stairs>]);
 
 recipes.remove(<minecraft:armor_stand>);
 recipes.addShaped("armor_stand",<minecraft:armor_stand>,[
@@ -217,6 +219,9 @@ recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>,
 //Ore Dictionary Entries
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
+
+val trapdoorWood = <ore:trapdoorWood>;
+trapdoorWood.addItems([<twilightforest:twilight_oak_trapdoor>,<twilightforest:canopy_trapdoor>,<twilightforest:mangrove_trapdoor>,<twilightforest:dark_trapdoor>,<twilightforest:time_trapdoor>,<twilightforest:trans_trapdoor>,<twilightforest:mine_trapdoor>,<twilightforest:sort_trapdoor>]);
 
 val pressurePlateWood = <ore:pressurePlateWood>;
 pressurePlateWood.addItems([<aether_legacy:skyroot_pressure_plate>,<betternether:stalagnate_planks_plate>,<betternether:reeds_plate>,<twilightforest:twilight_oak_plate>,<twilightforest:canopy_plate>,<twilightforest:mangrove_plate>,<twilightforest:dark_plate>,<twilightforest:time_plate>,<twilightforest:trans_plate>,<twilightforest:mine_plate>,<twilightforest:sort_plate>]);

@@ -29,13 +29,15 @@ recipes.addShaped("spiral_stone_bricks",<twilightforest:spiral_bricks>,[
 
 var slabArray = [<twilightforest:twilight_oak_slab:0>,<twilightforest:canopy_slab:0>,<twilightforest:mangrove_slab:0>,<twilightforest:dark_slab:0>,<twilightforest:time_slab:0>,<twilightforest:trans_slab:0>,<twilightforest:mine_slab:0>,<twilightforest:sort_slab:0>] as IItemStack[];
 var stairArray = [<twilightforest:twilight_oak_stairs>,<twilightforest:canopy_stairs>,<twilightforest:mangrove_stairs>,<twilightforest:dark_stairs>,<twilightforest:time_stairs>,<twilightforest:trans_stairs>,<twilightforest:mine_stairs>,<twilightforest:sort_stairs>] as IItemStack[];
+var blockArray = [<twilightforest:twilight_oak_planks>,<twilightforest:canopy_planks>,<twilightforest:mangrove_planks>,<twilightforest:dark_planks>,<twilightforest:time_planks>,<twilightforest:trans_planks>,<twilightforest:mine_planks>,<twilightforest:sort_planks>] as IItemStack[];
 
-for i, output in stairArray{
-    recipes.addShaped(output*4,[
+for i,stair in stairArray{
+    recipes.addShapedMirrored(stair*4,[
         [slabArray[i],null,null],
         [slabArray[i],slabArray[i],null],
         [slabArray[i],slabArray[i],slabArray[i]]
     ]);
+    recipes.addShapeless(blockArray[i]*3,[stair,stair,stair,stair]);
 }
 
 val enchantments as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>];

@@ -76,7 +76,7 @@ var slabArray = [<netherex:red_nether_brick_slab:0>,<netherex:gloomy_nether_bric
 var stairArray = [<netherex:red_nether_brick_stairs>,<netherex:gloomy_nether_brick_stairs>,<netherex:lively_nether_brick_stairs>,<netherex:fiery_nether_brick_stairs>,<netherex:icy_nether_brick_stairs>,<netherex:basalt_stairs>,<netherex:smooth_basalt_stairs>,<netherex:basalt_brick_stairs>,<netherex:basalt_pillar_stairs>] as IItemStack[];
 
 for i, output in stairArray{
-    recipes.addShaped(output*4,[
+    recipes.addShapedMirrored(output*4,[
         [slabArray[i],null,null],
         [slabArray[i],slabArray[i],null],
         [slabArray[i],slabArray[i],slabArray[i]]
