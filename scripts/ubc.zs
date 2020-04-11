@@ -16,7 +16,6 @@ recipes.addShapeless("gravel_to_flint",<minecraft:flint>*2,[<ore:gravel>, <ore:g
 
 mods.jei.JEI.removeAndHide(<endreborn:tool_hammer_iron>);
 recipes.addShapeless("popped_chorus_fruit", <minecraft:chorus_fruit_popped>, [<minecraft:purpur_block>, <ore:hammerTool>.transformDamage()]);
-recipes.addShapeless("anyCobble",<minecraft:cobblestone>,[<ore:cobblestone>,<ore:hammerTool>.transformDamage()]);
 
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);

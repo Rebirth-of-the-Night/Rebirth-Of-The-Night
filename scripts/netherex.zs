@@ -12,6 +12,9 @@ recipes.addShaped(<netherex:ghast_queen_tear>,[
 [<minecraft:ender_eye>, <minecraft:ender_eye>, <minecraft:ender_eye>]
 ]);
 
+mods.jei.JEI.removeAndHide(<netherex:dull_mirror>);
+
+
 mods.ltt.LootTable.removeGlobalItem("netherex:wither_bone");
 mods.jei.JEI.removeAndHide(<netherex:wither_bone>);
 mods.jei.JEI.removeAndHide(<netherex:wither_dust>);

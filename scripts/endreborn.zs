@@ -10,7 +10,12 @@ mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_seeds>);
 mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_tea>);
 mods.jei.JEI.removeAndHide(<endreborn:food_dragonite_berries>);
 mods.jei.JEI.removeAndHide(<endreborn:food_chorus_soup>);
+mods.jei.JEI.removeAndHide(<endreborn:block_end_forge>);
+mods.jei.JEI.removeAndHide(<endreborn:block_rune>);
+mods.jei.JEI.removeAndHide(<endreborn:item_world_mirror>);
+mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
 
+<endreborn:sword_shard>.addTooltip("Rare drop from End Guards");
 
 // Anvil Recipes
 
@@ -26,10 +31,6 @@ function(out, ins, cInfo){
     return ins.left.withDamage(max(0,ins.left.damage - 50));
 });
 mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_magnifier>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:tool_magnifier>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<endreborn:entropy_wand>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:entropy_wand>, 1,
 function(out, ins, cInfo){
     return ins.left.withDamage(max(0,ins.left.damage - 50));
 });
@@ -133,7 +134,7 @@ recipes.addShaped("xorcite", <endreborn:death_essence>,[
 
 
 recipes.addShaped("String of Life", <endreborn:item_ender_string>,[
-	[<endreborn:item_raw_endorium>, <endreborn:item_world_mirror>, <endreborn:item_raw_endorium>],
+	[<endreborn:item_raw_endorium>, <endreborn:death_essence>, <endreborn:item_raw_endorium>],
     [<endreborn:item_angel_feather>, <minecraft:string>, <endreborn:item_angel_feather>],
     [<endreborn:item_lormyte_crystal>, <endreborn:item_lormyte_crystal>, <endreborn:item_lormyte_crystal>]
 ]);
@@ -152,13 +153,6 @@ recipes.addShaped("Void Sword", <endreborn:ender_sword>,[
     [<endreborn:item_ingot_endorium>, <endreborn:item_end_rune>, <endreborn:item_ingot_endorium>],
     [null, <endreborn:sword_shard>, null]
 ]);
-
-recipes.remove(<endreborn:entropy_wand>);
-mods.betterwithaddons.Infuser.addShaped(<endreborn:entropy_wand>, [
-   [null, <endreborn:death_essence>, <contenttweaker:disint_orb>],[
-   null, <aether_legacy:skyroot_stick>, <endreborn:death_essence>], 
-   [<aether_legacy:skyroot_stick>, null, null]],
-   16);
 
 
 recipes.remove(<endreborn:block_purpur_lamp>);

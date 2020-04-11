@@ -307,7 +307,7 @@ enchantmentMap7 += enchantments7[3].makeEnchantment(1).makeTag();
 recipes.remove(<msmlegacy:eye_end_blade>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag(({"Quark:RuneColor": 5, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap7),
 [
-   [end_sword, worldmirror, aethers_guard, diamondsword],
+   [end_sword, beingofentropy, aethers_guard, diamondsword],
    [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
    [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
    [onyx_sword, mythrilsword, beingofentropy, glass_sword]

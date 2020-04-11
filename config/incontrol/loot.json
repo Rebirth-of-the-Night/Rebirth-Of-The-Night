@@ -1,4 +1,12 @@
 [
+	{
+      "mob": "endreborn:endguard",
+      "player": true,
+      "item": "endreborn:sword_shard",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
 
 	// Ghast Queen Drops
 	{

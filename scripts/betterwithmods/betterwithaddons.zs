@@ -6,7 +6,6 @@ recipes.removeByMod("betterwithaddons");
 mods.betterwithaddons.Infuser.removeAll();
 
 val bwaArray = [
-<betterwithaddons:elytra_magma>,
 <betterwithaddons:pcb_block>,
 <betterwithaddons:thorn_rose>,
 <betterwithaddons:planks_mulberry>,
@@ -21,7 +20,6 @@ val bwaArray = [
 <betterwithaddons:diamond_masonpick>,
 <betterwithaddons:material:3>,
 <betterwithaddons:material:5>,
-<betterwithaddons:material:6>,
 <betterwithaddons:food_mushroom_baked>,
 <betterwithaddons:iron_kukri>,
 <betterwithaddons:iron_carpentersaw>,

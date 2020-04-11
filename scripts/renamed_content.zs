@@ -379,6 +379,8 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <nyx:fallen_star>.displayName = "§5Fallen Star";
 <nyx:fallen_star>.addTooltip("Crafting Material");
 
+<endreborn:tool_magnifier>.displayName = "§5Magnitifus";
+<endreborn:tool_magnifier>.addTooltip(format.darkPurple("Epic Weapon"));
 
 <msmlegacy:aethers_guard>.displayName = "§5Sky Blade";
 <msmlegacy:aethers_guard>.addTooltip(format.darkPurple("Epic Weapon"));
