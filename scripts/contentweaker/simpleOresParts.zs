@@ -22,10 +22,9 @@ mythril.registerParts(["nugget","molten"] as string[]);
 viridium.registerParts(["nugget","molten"] as string[]);
 
 var molten_soul = VanillaFactory.createFluid("flowing_souls", Color.fromHex("4390F5"));
-molten_soul.fillSound = <soundevent:block.anvil.place>;
 molten_soul.density = 1200;
 molten_soul.gaseous = true;
 molten_soul.luminosity = 4;
-molten_soul.temperature = 580;
+molten_soul.temperature = 400;
 molten_soul.viscosity = 1300;
 molten_soul.register();

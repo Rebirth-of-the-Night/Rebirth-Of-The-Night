@@ -22,9 +22,6 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 mods.jei.JEI.removeAndHide(<betterwithmods:shaft>);
 
-recipes.addShaped("twine_durable_cloth", <aether_legacy:skyroot_trapdoor>*6,
-    [[<pyrotech:material:26>,<pyrotech:material:26>,<pyrotech:material:26>],
-    [<ore:wool>,<ore:wool>,<ore:wool>]]);
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
