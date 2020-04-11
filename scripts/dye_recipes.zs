@@ -19,52 +19,71 @@ for dyes in DArray {
 recipes.removeByRecipeName("harvestcraft:string_listallfiber");
 
 //Mortar and pestle recipes
-recipes.addShapeless("standard dye 1 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<aether_legacy:purple_flower>]);
-recipes.addShapeless("standard dye 2 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:8>]);
-recipes.addShapeless("standard dye 3 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:0>]);
-recipes.addShapeless("standard dye 4 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:1>]);
-recipes.addShapeless("standard dye 5 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:3>]);
-recipes.addShapeless("standard dye 6 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<mod_lavacow:glowshroom>]);
-recipes.addShapeless("standard dye 9 ",<minecraft:dye:7>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:0>]);
-recipes.addShapeless("standard dye 10",<minecraft:dye:7>,[<ore:toolMortarandpestle>,<betternether:gray_mold>]);
-recipes.addShapeless("standard dye 11",<minecraft:dye:8>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:12>]);
-recipes.addShapeless("standard dye 12",<minecraft:dye:8>,[<ore:toolMortarandpestle>,<biomesoplenty:ash>]);
-recipes.addShapeless("standard dye 13",<minecraft:dye:9>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:13>]);
-recipes.addShapeless("standard dye 14",<minecraft:dye:9>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:6>]);
-recipes.addShapeless("standard dye 15",<minecraft:dye:9>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:3>]);
-recipes.addShapeless("standard dye 16",<minecraft:dye:10>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:3>]);
-recipes.addShapeless("standard dye 17",<minecraft:dye:12>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:4>]);
-recipes.addShapeless("standard dye 18",<minecraft:dye:12>*2,[<ore:toolMortarandpestle>,<biomesoplenty:double_plant:0>]);
-recipes.addShapeless("standard dye 19",<minecraft:dye:12>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:4>]);
-recipes.addShapeless("standard dye 20",<minecraft:dye:13>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:7>]);
-recipes.addShapeless("standard dye 21",<minecraft:dye:14>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:5>]);
-recipes.addShapeless("standard dye 22",<minecraft:dye:14>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:15>]);
-recipes.addShapeless("standard dye 23",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:2>]);
-recipes.addShapeless("standard dye 24",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:2>]);
-recipes.addShapeless("standard dye 25",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerblue>]);
-recipes.addShapeless("standard dye 26",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:0>]);
-recipes.addShapeless("standard dye 27",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:4>]);
-recipes.addShapeless("standard dye 28",<biomesoplenty:brown_dye>*2,[<ore:toolMortarandpestle>,<biomesoplenty:double_plant:1>]);
-recipes.addShapeless("standard dye 29",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:3>]);
-recipes.addShapeless("standard dye 30",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:plant_1:4>]);
-recipes.addShapeless("standard dye 7",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<aether_legacy:white_flower>]);
-recipes.addShapeless("standard dye 31",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:9>]);
-recipes.addShapeless("standard dye 32",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:14>]);
-recipes.addShapeless("standard dye 33",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerwhite>]);
-recipes.addShapeless("standard dye 34",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:15>]);
-recipes.addShapeless("standard dye 35",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:2>]);
-recipes.addShapeless("standard dye 36",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:10>]);
-recipes.addShapeless("standard dye 37",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:2>]);
-recipes.addShapeless("standard dye 38",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerblack>]);
-recipes.addShapeless("standard dye 39",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:0>]);
-recipes.addShapeless("standard dye 40",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:1>]);
+recipes.addShapeless("standard_dye_1 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<aether_legacy:purple_flower>]);
+recipes.addShapeless("standard_dye_2 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:8>]);
+recipes.addShapeless("standard_dye_3 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:0>]);
+recipes.addShapeless("standard_dye_4 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:1>]);
+recipes.addShapeless("standard_dye_5 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:3>]);
+recipes.addShapeless("standard_dye_6 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<mod_lavacow:glowshroom>]);
+recipes.addShapeless("standard_dye_9 ",<minecraft:dye:7>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:0>]);
+recipes.addShapeless("standard_dye_10",<minecraft:dye:7>,[<ore:toolMortarandpestle>,<betternether:gray_mold>]);
+recipes.addShapeless("standard_dye_11",<minecraft:dye:8>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:12>]);
+recipes.addShapeless("standard_dye_12",<minecraft:dye:8>,[<ore:toolMortarandpestle>,<biomesoplenty:ash>]);
+recipes.addShapeless("standard_dye_13",<minecraft:dye:9>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:13>]);
+recipes.addShapeless("standard_dye_14",<minecraft:dye:9>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:6>]);
+recipes.addShapeless("standard_dye_15",<minecraft:dye:9>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:3>]);
+recipes.addShapeless("standard_dye_16",<minecraft:dye:10>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:3>]);
+recipes.addShapeless("standard_dye_17",<minecraft:dye:12>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:4>]);
+recipes.addShapeless("standard_dye_18",<minecraft:dye:12>*2,[<ore:toolMortarandpestle>,<biomesoplenty:double_plant:0>]);
+recipes.addShapeless("standard_dye_19",<minecraft:dye:12>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:4>]);
+recipes.addShapeless("standard_dye_20",<minecraft:dye:13>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:7>]);
+recipes.addShapeless("standard_dye_21",<minecraft:dye:14>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:5>]);
+recipes.addShapeless("standard_dye_22",<minecraft:dye:14>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:15>]);
+recipes.addShapeless("standard_dye_23",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:2>]);
+recipes.addShapeless("standard_dye_24",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:2>]);
+recipes.addShapeless("standard_dye_25",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerblue>]);
+recipes.addShapeless("standard_dye_26",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:0>]);
+recipes.addShapeless("standard_dye_27",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:4>]);
+recipes.addShapeless("standard_dye_28",<biomesoplenty:brown_dye>*2,[<ore:toolMortarandpestle>,<biomesoplenty:double_plant:1>]);
+recipes.addShapeless("standard_dye_29",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:3>]);
+recipes.addShapeless("standard_dye_30",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:plant_1:4>]);
+recipes.addShapeless("standard_dye_7",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<aether_legacy:white_flower>]);
+recipes.addShapeless("standard_dye_31",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:9>]);
+recipes.addShapeless("standard_dye_32",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:14>]);
+recipes.addShapeless("standard_dye_33",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerwhite>]);
+recipes.addShapeless("standard_dye_34",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:15>]);
+recipes.addShapeless("standard_dye_35",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:2>]);
+recipes.addShapeless("standard_dye_36",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:10>]);
+recipes.addShapeless("standard_dye_37",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:2>]);
+recipes.addShapeless("standard_dye_38",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerblack>]);
+recipes.addShapeless("standard_dye_39",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:0>]);
+recipes.addShapeless("standard_dye_40",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:1>]);
 
-recipes.addShapeless("plant partition 1",<harvestcraft:flaxitem>*4,[<biomesoplenty:double_plant:0>]);
+recipes.addShapeless("plant_partition_1",<harvestcraft:flaxitem>*3,[<biomesoplenty:double_plant:0>]);
 
-recipes.addShapeless("plant fiber 1",<betterwithmods:material:3>*4,[<ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>,<ore:cropFlax>, <ore:cropFlax>]);
-recipes.addShapeless("plant fiber 2",<betterwithmods:material:3>*4,[<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
+//Fiber, twine string and pulp
+recipes.addShapeless("plant_fiber_flax",<betterwithmods:material:3>*4,[<ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>,<ore:cropFlax>, <ore:cropFlax>]);
+recipes.addShapeless("plant_fiber_cotton",<betterwithmods:material:3>*4,[<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
+recipes.addShapeless("plant_fiber_sisal",<betterwithmods:material:3>*4,[<ore:cropSisal>, <ore:cropSisal>, <ore:cropSisal>]);
+recipes.addShapeless("plant_fiber_4",<betterwithmods:material:3>*4,[<ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>,<ore:cropFlax>, <ore:cropFlax>]);
+
+recipes.removeByRecipeName("harvestcraft:string:cropflax");
+recipes.removeByRecipeName("harvestcraft:string:cropcotton");
+recipes.removeByRecipeName("harvestcraft:string:cropsisal");
+recipes.removeByRecipeName("harvestcraft:string:cropkenaf");
+recipes.removeByRecipeName("harvestcraft:string:cropjute");
+
+recipes.addShaped("harvest_twine_1",<pyrotech:material:14>*8, [[<betterwithmods:material:2>, <betterwithmods:material:2>],[<betterwithmods:material:2>]]); #Hemp is still the best material for making STRONG plant fiber and textiles.
+recipes.addShaped("harvest_twine_2",<pyrotech:material:14>*4, [[<harvestcraft:flaxitem>, <harvestcraft:flaxitem>],[<harvestcraft:flaxitem>]]); #Flax is very good for making textiles, not as durable as hemp but third to none, also good for blue dye.
+recipes.addShaped("harvest_twine_3",<pyrotech:material:14>*6, [[<harvestcraft:sisalitem>, <harvestcraft:sisalitem>],[<harvestcraft:sisalitem>]]); #AKA henequen is a very durable dry "palm", pretty good for fiber and string since its leaves are big and strong.
+#Kenaf has good fiber, but it's used for paper, not textiles. SEE Pirotech Anvil.zs.
+#Jute is pretty durable but needs to be dried, then macerated to get any value out of it. Effort comes with higher yield. SEE Pyrotech Other.zs.
+recipes.addShaped("harvest_twine_4",<pyrotech:material:14>*2, [[<harvestcraft:cottonitem>, <harvestcraft:cottonitem>],[<harvestcraft:cottonitem>]]); #Cotton is pretty good but not the most resilient, it is still incredibly comfortable.
+
 
 //Mill recipes
+mods.betterwithmods.Mill.remove([<betterwithmods:material:3>]);
+
 mods.betterwithmods.Mill.addRecipe([<aether_legacy:purple_flower>],[<minecraft:dye:5>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:8>],[<minecraft:dye:5>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_1:0>],[<minecraft:dye:5>*2]);
@@ -82,8 +101,8 @@ mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:6>],[<minecraft:dye:
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_1:3>],[<minecraft:dye:9>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:mushroom:3>],[<minecraft:dye:10>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_1:4>],[<minecraft:dye:12>*2]);
-mods.betterwithmods.Mill.addRecipe([<harvestcraft:flaxitem>],[<minecraft:dye:12>*2,<betterwithmods:material:3>*2]);
-mods.betterwithmods.Mill.addRecipe([<biomesoplenty:double_plant:0>],[<minecraft:dye:12>*4,<betterwithmods:material:3>*4]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:flaxitem>],[<minecraft:dye:12>*2,<betterwithmods:material:3>*3,<pyrotech:material:12>*4]);
+mods.betterwithmods.Mill.addRecipe([<biomesoplenty:double_plant:0>],[<minecraft:dye:12>*3,<betterwithmods:material:3>*4,<pyrotech:material:12>*6]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:4>],[<minecraft:dye:12>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:7>],[<minecraft:dye:13>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:5>],[<minecraft:dye:14>*2]);
@@ -107,7 +126,10 @@ mods.betterwithmods.Mill.addRecipe([<minecraftfuture:flowerblack>],[<biomesoplen
 mods.betterwithmods.Mill.addRecipe([<minecraft:dye:0>],[<biomesoplenty:black_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<quark:root_flower:1>],[<biomesoplenty:black_dye>*2]);
 
-mods.betterwithmods.Mill.addRecipe([<harvestcraft:cottonitem>],[<betterwithmods:material:3>]);
+mods.betterwithmods.Mill.addRecipe([<betterwithmods:material:2>],[<betterwithmods:material:3>*4,<minecraft:string>*3,<pyrotech:material:12>*2]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:cottonitem>],[<betterwithmods:material:3>,<minecraft:string>,<pyrotech:material:12>*5]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:sisalitem>],[<betterwithmods:material:3>*3,<minecraft:string>*5]);
+
 
 //Mixed dyes recipes
 recipes.addShapeless("green dye", <biomesoplenty:green_dye>*2,

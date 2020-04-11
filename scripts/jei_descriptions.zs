@@ -16,7 +16,7 @@ mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipur
 
 # BWM #
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
-mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, like sails and different kinds of cloth. Grows two blocks high like Sugar Cane - make sure you only harvest the top one!");
+mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, easily made into sails and different kinds of textiles. Grows two blocks high like Sugar Cane - make sure to only harvest the top one!");
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block, it creates a magical updrift when flied over with an elytra!");
@@ -187,6 +187,19 @@ mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited
 # Chute
 mods.jei.JEI.addDescription(<chutes:chute_wood>, "The bennefit of 4 full blocks in 1, specially useful to access underwater areas quickly.");
 mods.jei.JEI.addDescription(<chutes:chute_entry_wood>, "The bennefit of 4 full blocks in 1, specially useful to access underwater areas quickly. This one acts as an entry point.");
+# Jute
+mods.jei.JEI.addDescription(<harvestcraft:juteitem>, "A diamond in the rough, durable but needs to be dried and macerated first to get any value out of it. Effort comes with higher yield of fiber.");
+# Flax
+mods.jei.JEI.addDescription(<harvestcraft:flaxitem>, "Flax is versatile when it comes to textiles. Not as durable as hemp but third to none, also useful to make light blue dye...");
+# Kenaf
+mods.jei.JEI.addDescription(<harvestcraft:kenafitem>, "Contains a good amount of fiber, but this fiber is mostly useful for paper, not textiles.");
+# Sisal
+mods.jei.JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a very durable 'palm-like' plant native to dry biomes, it's decently good to make fiber and string since its leaves are thick and strong.");
+# Cotton
+mods.jei.JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles but it is not the most naturally resilient fiber, it is still incredibly comfortable.");
+# Ash
+mods.jei.JEI.addDescription(<pyrotech:material>, "Remains from pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
+
 
 # Aqueducts
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");

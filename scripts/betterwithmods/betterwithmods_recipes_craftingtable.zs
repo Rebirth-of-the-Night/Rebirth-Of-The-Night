@@ -15,6 +15,17 @@ recipes.addShaped("Latch", latch,
   [gnugg,copper,gnugg],
   [null,rstone,null]]);
   
+//Funnier rope
+recipes.remove(<betterwithmods:rope>);
+
+val rope = <betterwithmods:rope>;
+val dfiber = <ore:durableFiber>;
+
+recipes.addShaped("benign_rope", rope*2,
+  [[dfiber,dfiber],
+  [dfiber,dfiber],
+  [dfiber,dfiber]]);
+  
 //Dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
 

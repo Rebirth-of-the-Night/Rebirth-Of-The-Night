@@ -89,3 +89,73 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
+  
+Dropt.list("plants_basic")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(120)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35))
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(18))
+          .items([<pyrotech:material:13>])
+	  )
+  );
+  
+Dropt.list("plants_custom")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(700)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20)) // Hemp crop
+          .items([<betterwithmods:material:2>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // Maggot
+          .items([<mod_lavacow:parasite_item>])
+	  )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2)) // Lottery!
+          .items([<scalinghealth:heartdust>])
+	  )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(22)) // Truffle
+          .items([<animania:truffle>])
+	  )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20)) // Bathroom Truffle
+          .items([<betterwithaddons:food_mulberry>])
+	  )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(15)) // sap
+       	   .items([<primitivemobs:wonder_sap>])
+      )
+  );
+  
+Dropt.list("tallplants_custom")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:double_plant:2"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2500)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(150)) // Hemp crop
+          .items([<betterwithmods:material:2>])
+	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // Strange flower
+          .items([<dungeontactics:flower_ailment>])
+	  )
+  );
