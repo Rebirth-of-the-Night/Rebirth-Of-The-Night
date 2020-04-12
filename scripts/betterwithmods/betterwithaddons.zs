@@ -159,6 +159,7 @@ mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "tencha"
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "gyokuro"}));
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"}));
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
+mods.ltt.LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 
 mods.jei.JEI.hideCategory("bwa.tatara");
