@@ -30,3 +30,15 @@ recipes.addShapedMirrored("Tiny Bone", <doggytalents:tiny_bone>,[
 	[<ore:stickBone>, <ore:ingotTin>],
     [<ore:ingotTin>, <ore:stickBone>]
 ]);
+
+recipes.remove(<doggytalents:spotted_collar>);
+recipes.addShaped("spotted_collar",<doggytalents:spotted_collar>,[
+    [<ore:dyeBlack>,<ore:dyeWhite>,<ore:dyeBlack>],
+    [<ore:dyeWhite>,<doggytalents:wool_collar>,<ore:dyeWhite>],
+    [<ore:dyeBlack>,<minecraft:string>,<ore:dyeBlack>]
+]);
+
+recipes.remove(<doggytalents:multicoloured_collar>);
+recipes.addShapeless("multicolored_collar>",<doggytalents:multicoloured_collar>,
+    [<doggytalents:wool_collar>,<ore:dyeBlue>,<ore:dyeLime>,<ore:dyeYellow>,<ore:dyeOrange>,<ore:dyeRed>,<ore:dyePurple>,<minecraft:string>]
+);
