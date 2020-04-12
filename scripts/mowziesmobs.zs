@@ -44,11 +44,11 @@ val uncommonGlowOredict = <ore:uncommonGlowSource>;
 uncommonGlowOredict.add(<mod_lavacow:glowshroom>);
 uncommonGlowOredict.add(<quark:glowshroom>);
 uncommonGlowOredict.add(<twilightforest:torchberries>);
+uncommonGlowOredict.add(<biomesoplenty:coral:3>);
 
 val rareGlowOredict = <ore:rareGlowSource>;
 rareGlowOredict.add(<quark:glowshroom_block>);
 rareGlowOredict.add(<twilightforest:firefly>);
-rareGlowOredict.add(<biomesoplenty:coral:3>);
 rareGlowOredict.add(<stygian:endglow>);
 
 recipes.addShapeless("commonglowpowder", <betterwithaddons:wheatmat>, [<ore:commonGlowSource>, <ore:commonGlowSource>]);
