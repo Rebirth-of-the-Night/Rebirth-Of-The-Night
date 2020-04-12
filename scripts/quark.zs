@@ -56,7 +56,7 @@ recipes.addShaped("iron plate", <quark:iron_plate>*24,
   [<ore:ingotIron>,<minetraps:nails>,<ore:ingotIron>],
   [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
 
-recipes.addShaped("Quark Backpack", <quark:backpack>,[
+recipes.addShaped("Quark Backpack", <quark:backpack>.withTag({Quality: {}}),[
 	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>],
     [<betterwithmods:material:8>, <ore:chestWood>, <betterwithmods:material:8>],
    	[<betterwithmods:material:6>, <betterwithmods:material:6>, <betterwithmods:material:6>]
