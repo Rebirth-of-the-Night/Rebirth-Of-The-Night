@@ -645,7 +645,7 @@
     },
     {
       "name":"invasion_goblins",
-      "wave_message":"§cA Goblin Army is invading!",
+      "wave_message":"§cA goblin army is invading!",
       "conditions":[{
         "condition":"game_stages",
         "game_stages":["fullMidArmor"],
@@ -784,7 +784,7 @@
     },
     {
       "name":"invasion_fire",
-      "wave_message":"§cFire burns on the horizon...",
+      "wave_message":"§cFire burns on the horizon!",
       "conditions":[{
         "condition":"game_stages",
         "game_stages":["enteredNether"],
@@ -820,7 +820,7 @@
     },
     {
       "name":"invasion_nether",
-      "wave_message":"§cA horde monsters has stormed out of the Nether!",
+      "wave_message":"§cA horde of monsters has stormed out of the Nether!",
       "conditions":[{
         "condition":"game_stages",
         "game_stages":["enteredNether"],
@@ -969,7 +969,7 @@
 
     {
       "name":"invasion_rats",
-      "wave_message":"§cThey're the rats! And all of your base belongs to them!",
+      "wave_message":"§cThey're the rats! And all of your base are belong to them!",
       "conditions":[{
         "condition":"game_stages",
         "game_stages":["enteredBeneath"],
@@ -1038,7 +1038,7 @@
     },
     {
       "name":"invasion_piper",
-      "wave_message":"§cYou hear a haunting flute melody growing louder...",
+      "wave_message":"§cYou hear the haunting melody of a flute growing louder...",
       "conditions":[{
         "condition":"game_stages",
         "game_stages":["enteredBeneath"],
@@ -1180,7 +1180,7 @@
 
     {
       "name": "invasion_vermin_souls",
-      "wave_message": "§cOOPS! All Vermin Souls! (hope you have fire resistance...)",
+      "wave_message": "§cOOPS! All Vermin Souls! (Hope you have fire resistance...)",
       "conditions": [
         {      
           "condition": "game_stages",
@@ -1208,7 +1208,7 @@
     },
     {
       "name": "invasion_legendary_undead",
-      "wave_message": "§cThe legendary undead horde is approaching...",
+      "wave_message": "§cA legendary undead horde is approaching!",
       "conditions": [
         {      
           "condition": "game_stages",
@@ -1263,7 +1263,7 @@
 
     {
       "name": "invasion_rats2",
-      "wave_message": "§cThey pray at night... They stalk at night...",
+      "wave_message": "§cThey prey at night... they stalk at night...",
       "conditions": [
         {      
           "condition": "game_stages",
