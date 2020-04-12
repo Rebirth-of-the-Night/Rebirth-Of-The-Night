@@ -47,3 +47,12 @@ mods.betterwithmods.Mill.builder()
 .buildRecipe([<betternether:nether_reed>], [<minecraft:sugar>*2])
 .setPriority(7)
 .build();
+
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*6]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*3]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*3]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*6]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
+mods.betterwithmods.Mill.remove([<betterwithmods:material:44>]);
