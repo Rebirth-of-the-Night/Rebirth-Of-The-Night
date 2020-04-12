@@ -119,8 +119,6 @@ mods.betterwithmods.Mill.addRecipe([<quark:root_flower:0>],[<biomesoplenty:blue_
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:mushroom:4>],[<biomesoplenty:brown_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:double_plant:1>],[<biomesoplenty:brown_dye>*4]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:plant_1:4>],[<biomesoplenty:brown_dye>*2]);
-mods.betterwithmods.Mill.addRecipe([<biomesoplenty:plant_0:9>],[<biomesoplenty:white_dye>*2]);
-mods.betterwithmods.Mill.addRecipe([<biomesoplenty:plant_0:14>],[<biomesoplenty:white_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<minecraftfuture:flowerwhite>],[<biomesoplenty:white_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<minecraft:dye:15>],[<biomesoplenty:white_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<quark:root_flower:2>],[<biomesoplenty:white_dye>*2]);
@@ -141,12 +139,43 @@ mods.betterwithmods.Mill.addRecipe([<harvestcraft:sisalitem>],[<betterwithmods:m
 //Mixed dyes recipes
 recipes.addShapeless("green_dye", <biomesoplenty:green_dye>*2,
  [<ore:dyeBlue>,<ore:dyeYellow>]);
- recipes.addShapeless("green_from_lime",<biomesoplenty:green_dye>*2,
- [<ore:dyeBlack>,<ore:dyeLime>]);
+recipes.addShapeless("green_from_lime",<biomesoplenty:green_dye>*2,
+ [<ore:dyeLime>,<ore:dyeBlack>]);
 recipes.addShapeless("cyan_dye",<minecraft:dye:6>*2,
  [<ore:dyeGreen>,<ore:dyeBlue>]);
 recipes.addShapeless("lime_from_green",<minecraft:dye:10>*2,
  [<ore:dyeGreen>,<ore:dyeBlack>]);
 recipes.addShapeless("purple_dye",<minecraft:dye:5>*2,
  [<ore:dyeRed>,<ore:dyeBlue>]);
- 
+recipes.addShapeless("magenta_dye",<minecraft:dye:13>*2,
+ [<ore:dyePurple>,<ore:dyePink>]);
+recipes.addShapeless("blue_from_light_blue",<biomesoplenty:blue_dye>*2,
+ [<ore:dyeLightBlue>,<ore:dyeBlack>]);
+recipes.addShapeless("light_blue_from_blue",<minecraft:dye:12>*2,
+ [<ore:dyeBlue>,<ore:dyeWhite>]);
+recipes.addShapeless("red_from_pink",<minecraft:dye:1>*2,
+ [<ore:dyePink>,<ore:dyeBlack>]);
+recipes.addShapeless("pink_from_red",<minecraft:dye:9>*2,
+ [<ore:dyeRed>,<ore:dyeBlack>]);
+recipes.addShapeless("orange_dye",<minecraft:dye:14>*2,
+ [<ore:dyeRed>,<ore:dyeYellow>]);
+recipes.addShaped("gray_from_black",<minecraft:dye:8>*2,
+ [[<ore:dyeBlack>,<ore:dyeWhite>]]);
+recipes.addShapeless("light_gray_from_gray",<minecraft:dye:7>*2,
+ [<ore:dyeGray>,<ore:dyeWhite>]);
+recipes.addShapeless("white_from_light_gray",<biomesoplenty:white_dye>*2,
+ [<ore:dyeLightGray>,<ore:dyeWhite>]);
+recipes.addShaped("light_gray_from_white",<minecraft:dye:7>*2,
+ [[<ore:dyeWhite>,<ore:dyeBlack>]]);
+recipes.addShapeless("gray_from_light_gray",<minecraft:dye:8>*2,
+ [<ore:dyeLightGray>,<ore:dyeBlack>]);
+recipes.addShapeless("black_from_gray",<biomesoplenty:black_dye>*2,
+ [<ore:dyeGray>,<ore:dyeBlack>]);
+recipes.addShapeless("brown_dye",<biomesoplenty:brown_dye>*3,
+ [<ore:dyeRed>,<ore:dyeBlue>,<ore:dyeYellow>]);
+recipes.addShapeless("brown_dye_orange",<biomesoplenty:brown_dye>*2,
+ [<ore:dyeBlue>,<ore:dyeOrange>]);
+recipes.addShapeless("brown_dye_green",<biomesoplenty:brown_dye>*2,
+ [<ore:dyeRed>,<ore:dyeGreen>]);
+recipes.addShapeless("brown_dye_purple",<biomesoplenty:brown_dye>*2,
+ [<ore:dyeYellow>,<ore:dyePurple>]);

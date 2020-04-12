@@ -50,6 +50,11 @@ recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);
 recipes.remove(<quark:iron_plate>);
 
+recipes.addShaped("midori_block",<quark:midori_block>,[
+	[<betterwithaddons:material:2>,<betterwithaddons:material:2>],
+	[<betterwithaddons:material:2>,<betterwithaddons:material:2>]
+]);
+
 //Immersive plating
 recipes.addShaped("iron plate", <quark:iron_plate>*24,
  [[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
