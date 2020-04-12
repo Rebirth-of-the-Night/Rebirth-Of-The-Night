@@ -85,15 +85,11 @@ recipes.removeByRecipeName("endreborn:items/food_ender_flesh");
 
 recipes.remove(<endreborn:tool_magnifier>);
 
-var stick = <minecraft:stick>;
-var endorium = <endreborn:item_ingot_endorium>;
-var essence = <endreborn:item_end_essence>;
-
-recipes.addShaped("Magnitifus", <endreborn:tool_magnifier>,[
-	[null, endorium, essence],
-    [null, stick, endorium],
-    [stick, null, null]
-]);
+mods.betterwithaddons.Infuser.addShaped(<endreborn:tool_magnifier>, [
+   [null, <endreborn:item_ingot_endorium>, <contenttweaker:end_orb>],
+   [null, <minecraft:end_rod>, <dungeontactics:steel_ingot>], 
+   [<minecraft:end_rod>, null, null]],
+   16);
 
 
 
