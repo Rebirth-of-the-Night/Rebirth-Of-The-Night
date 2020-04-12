@@ -106,7 +106,7 @@
     "biomesoplenty:bramble_plant,*":{
         "replace":true,
         "allowsilktouch":true,
-        "dropsilktouchalways":false,
+        "dropsilktouchalways":true,
         "toolsBlacklist":true,
         "tools":[],
         "biomeBlacklist":true,

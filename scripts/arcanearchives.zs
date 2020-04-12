@@ -10,13 +10,15 @@ recipes.removeByRecipeName("arcanearchives:diorite");
 // Radiant Resonator
 // Replace mythril and water buckets with Molten Mythril buckets once that is implemented in the Beneath
 recipes.remove(<arcanearchives:radiant_resonator>);
-mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
-[
-   [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>],
-   [<minecraft:iron_bars>, <ore:listAllwater>, <simpleores:mythril_ingot>, null],
-   [<minecraft:iron_bars>, <ore:listAllwater>, <simpleores:mythril_ingot>, null],
-   [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>]
-]);   
+for item in <ore:listAllwater>.items{
+      mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
+   [
+      [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>],
+      [<minecraft:iron_bars>, item, <simpleores:mythril_ingot>, null],
+      [<minecraft:iron_bars>, item, <simpleores:mythril_ingot>, null],
+      [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>]
+   ]);   
+}
 
 //Gemcutter's Table
 val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	

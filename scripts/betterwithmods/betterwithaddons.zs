@@ -78,8 +78,6 @@ val bwaArray = [
 <betterwithaddons:writing_table:*>,
 <betterwithaddons:adobe>,
 <betterwithaddons:ecksie_sapling:*>,
-<betterwithaddons:material:1>,
-<betterwithaddons:material:2>,
 <betterwithaddons:chute>,
 <betterwithaddons:redstone_emitter>,
 <betterwithaddons:weight_wood>,
@@ -159,6 +157,7 @@ mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "tencha"
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "gyokuro"}));
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"}));
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
+mods.ltt.LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 
 mods.jei.JEI.hideCategory("bwa.tatara");
@@ -190,8 +189,6 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:decomat:1>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:decomat:2>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:pavement:0>]);
-mods.betterwithmods.Cauldron.remove([<betterwithaddons:material:2>]);
-furnace.remove(<betterwithaddons:material:2>);
 
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);
