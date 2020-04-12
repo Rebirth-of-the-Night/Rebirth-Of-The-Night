@@ -98,4 +98,6 @@ item.contenttweaker.coinT1.name=₦1
 item.contenttweaker.coinT2.name=₦10
 item.contenttweaker.coinT3.name=₦100
 item.contenttweaker.coinT4.name=₦1000
-food.contenttweaker.ratatouille.name=Ratatouille
+item.contenttweaker.4leaf_clover.name=4-Leaf Clover
+item.contenttweaker.5leaf_clover.name=5-Leaf Clover
+fluid.flowing_spirits=Flowing Spirits

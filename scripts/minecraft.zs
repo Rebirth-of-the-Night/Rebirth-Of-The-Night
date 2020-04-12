@@ -98,6 +98,12 @@ recipes.addShaped("detector_rail",<minecraft:detector_rail>,[
     [<minecraft:iron_ingot>,<ore:pressurePlateWood>,<minecraft:iron_ingot>],
     [<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]
 ]);
+recipes.remove(<chutes:chute_wood>);
+recipes.addShaped("stone_brick_slab",<chutes:chute_wood>*16,[
+    [null,<ore:barkWood>,null],
+    [<ore:barkWood>,null,<ore:barkWood>],
+    [null,<ore:barkWood>,null]
+]);
 
 
 mods.rockytweaks.Anvil.remove(<minecraft:wooden_sword>);
