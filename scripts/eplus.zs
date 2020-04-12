@@ -5,6 +5,10 @@ import crafttweaker.data.IData;
 import mods.jei.JEI;
 
 
+//mods.eplus.Eplus.blacklistItem(<msmlegacy:wither_bane>);
+//mods.eplus.Eplus.blacklistItem(<atop:amethyst_sword>);
+
+
 recipes.remove(<eplus:advanced_table>);
 recipes.remove(<eplus:table_upgrade>);
 
