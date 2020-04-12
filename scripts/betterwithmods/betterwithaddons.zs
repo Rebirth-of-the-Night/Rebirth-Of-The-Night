@@ -7,7 +7,6 @@ mods.betterwithaddons.Infuser.removeAll();
 
 val bwaArray = [
 <betterwithaddons:pcb_block>,
-<betterwithaddons:thorn_rose>,
 <betterwithaddons:planks_mulberry>,
 <betterwithaddons:planks_sakura>,
 <betterwithaddons:chandelier>,
@@ -18,7 +17,6 @@ val bwaArray = [
 <betterwithaddons:diamond_machete>,
 <betterwithaddons:diamond_carpentersaw>,
 <betterwithaddons:diamond_masonpick>,
-<betterwithaddons:material:3>,
 <betterwithaddons:material:5>,
 <betterwithaddons:food_mushroom_baked>,
 <betterwithaddons:iron_kukri>,
@@ -159,6 +157,8 @@ mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
 mods.ltt.LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
+recipes.remove(<betterwithaddons:material:3>);
+recipes.remove(<betterwithaddons:thorn_rose:0>);
 
 mods.jei.JEI.hideCategory("bwa.tatara");
 mods.jei.JEI.hideCategory("bwa.firenet");

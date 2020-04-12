@@ -230,7 +230,7 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heavensheart>,
 ]);
 
 
-val enchantments6 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>, <enchantment:msmlegacy:greed>];
+val enchantments6 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>, <enchantment:msmlegacy:greed>, <enchantment:msmlegacy:wisdom>];
 var enchantmentMap6 as IData = {};
 
 
@@ -241,6 +241,7 @@ enchTag2 += {personalityName: "Divine", personality: 0.9898941 as float, kills: 
 enchantmentMap6 += {ench: [enchTag2]};
 enchantmentMap6 += enchantments6[1].makeEnchantment(1).makeTag();
 enchantmentMap6 += enchantments6[2].makeEnchantment(3).makeTag();
+enchantmentMap6 += enchantments6[3].makeEnchantment(1).makeTag();
 enchantmentMap6 += enchantments6[3].makeEnchantment(1).makeTag();
 
 
