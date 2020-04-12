@@ -168,3 +168,11 @@ mods.betterwithaddons.Infuser.addShaped(<quark:soul_bead>, [
    [<bountifulbaubles:spectralsilt>, <contenttweaker:soul_orb>, <bountifulbaubles:spectralsilt>], 
    [<quark:soul_powder>, <bountifulbaubles:spectralsilt>, <quark:soul_powder>]],
    16);
+
+// Slime Blocks
+
+recipes.addShapeless("mixed_green_slime_block",<minecraft:slime>,[<quark:color_slime:1>,<quark:color_slime:4>]);
+recipes.removeByRecipeName("quark:color_slime_4");
+recipes.addShapeless("dyed_yellow_slime_block",<quark:color_slime:4>,[<ore::blockSlime>,<ore:dyeYellow>]);
+recipes.addShapeless("dyed_cyan_slime_block",<quark:color_slime:2>,[<ore::blockSlime>,<ore:dyeCyan>]);
+recipes.addShapeless("dyed_magenta_slime_block",<quark:color_slime:3>,[<ore::blockSlime>,<ore:dyeMagenta>]);

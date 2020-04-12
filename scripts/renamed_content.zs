@@ -191,6 +191,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Lavacow / Fish's Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
+<mod_lavacow:green_bacon_and_eggs>.displayName = "Green Eggs and Bacon";
 
 // Better Nether
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
@@ -277,6 +278,8 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 // Pam's Harvestcraft
 <harvestcraft:maplesyrupitem>.displayName = "Sweet Syrup";
 <harvestcraft:wovencottonitem>.displayName = "Woven Cloth";
+<harvestcraft:hamsweetpicklesandwichitem>.displayName = "Sweet Pickle and Ham Sandwich";
+<harvestcraft:pbandjitem>.displayName = "PBJ Sandwich"; 
 
 // Better with Addons
 <betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";

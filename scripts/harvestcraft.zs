@@ -12,7 +12,7 @@ recipes.remove(<harvestcraft:epicbltitem>);
 recipes.remove(<harvestcraft:sausageinbreaditem>);
 recipes.remove(<harvestcraft:spidereyesoupitem>);
 recipes.remove(<harvestcraft:spidereyepieitem>);
-recipes.remove(<harvestcraft:slimepieitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:slimepieitem>);
 recipes.remove(<harvestcraft:mobsoupitem>);
 recipes.remove(<harvestcraft:presser>);
 recipes.remove(<harvestcraft:saltitem>);
