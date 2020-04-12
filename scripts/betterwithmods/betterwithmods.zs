@@ -108,9 +108,8 @@ for i, output in arrayBambooChime{
 
 recipes.remove(<betterwithmods:single_machine:2>);
 recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[
-    [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}})|<betterwithmods:siding_wood>,null,<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}})|<betterwithmods:siding_wood>],
-    [<betterwithmods:material:0>,<ore:pressurePlateWood>,<betterwithmods:material:0>],
-    [null,<betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}})|<betterwithmods:corner_wood>,null]
+    [null,<chutes:chute_wood>,null],
+    [<betterwithmods:material:0>,<quark:chute>,<betterwithmods:material:0>]
 ]);
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
