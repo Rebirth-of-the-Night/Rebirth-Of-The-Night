@@ -17,11 +17,10 @@ recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 recipes.removeByRecipeName("betterwithmods:decompress/melon_decompress");
 recipes.removeByRecipeName("betterwithmods:blocks/shaft_back");
-
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 mods.jei.JEI.removeAndHide(<betterwithmods:shaft>);
-
+mods.jei.JEI.removeAndHide(<betterwithmods:material:44>);
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
