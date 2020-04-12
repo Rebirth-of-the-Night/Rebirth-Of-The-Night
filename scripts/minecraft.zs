@@ -98,6 +98,12 @@ recipes.addShaped("detector_rail",<minecraft:detector_rail>,[
     [<minecraft:iron_ingot>,<ore:pressurePlateWood>,<minecraft:iron_ingot>],
     [<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]
 ]);
+recipes.remove(<chutes:chute_wood>);
+recipes.addShaped("stone_brick_slab",<chutes:chute_wood>*16,[
+    [null,<ore:barkWood>,null],
+    [<ore:barkWood>,null,<ore:barkWood>],
+    [null,<ore:barkWood>,null]
+]);
 
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>*8,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);

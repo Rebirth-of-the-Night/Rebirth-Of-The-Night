@@ -98,7 +98,7 @@ var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
 
 
-val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:consuming_shadows>];
+val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:decay>];
 var enchantmentMap3 as IData = {};
 
 enchantmentMap3 += enchantments3[0].makeEnchantment(1).makeTag();
@@ -120,10 +120,11 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(({"Quark:Run
 
 var lightessence = <biomesoplenty:biome_essence>;
 
-val enchantments4 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:sparks>];
+val enchantments4 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>];
 var enchantmentMap4 as IData = {};
 
 enchantmentMap4 += enchantments4[0].makeEnchantment(1).makeTag();
+enchantmentMap4 += enchantments4[1].makeEnchantment(1).makeTag();
 
 
 recipes.remove(<msmlegacy:crystaline_blade>);
@@ -162,7 +163,7 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heartofthefallen>,
 ]);
 
 
-val enchantments5 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:consuming_shadows>, <enchantment:msmlegacy:decay>, <enchantment:randomenchantments:paralysis>, <enchantment:randomenchantments:eternal>];
+val enchantments5 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:absorb>, <enchantment:msmlegacy:decay>, <enchantment:msmlegacy:vitality>, <enchantment:dungeontactics:runed>];
 var enchantmentMap5 as IData = {};
 
 
@@ -229,7 +230,7 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heavensheart>,
 ]);
 
 
-val enchantments6 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>];
+val enchantments6 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>, <enchantment:msmlegacy:greed>];
 var enchantmentMap6 as IData = {};
 
 
@@ -240,6 +241,8 @@ enchTag2 += {personalityName: "Divine", personality: 0.9898941 as float, kills: 
 enchantmentMap6 += {ench: [enchTag2]};
 enchantmentMap6 += enchantments6[1].makeEnchantment(1).makeTag();
 enchantmentMap6 += enchantments6[2].makeEnchantment(3).makeTag();
+enchantmentMap6 += enchantments6[3].makeEnchantment(1).makeTag();
+
 
 recipes.remove(<msmlegacy:dawn_star>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag(({"Quark:RuneColor": 4, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap6),

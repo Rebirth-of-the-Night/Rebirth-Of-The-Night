@@ -20,6 +20,8 @@ mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block, it creates a magical updrift when flied over with an elytra!");
+mods.jei.JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant, will rapidly grow on sand and will wonder towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses");
+
 
 #RUSTIC"
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
