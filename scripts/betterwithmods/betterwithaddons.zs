@@ -78,8 +78,6 @@ val bwaArray = [
 <betterwithaddons:writing_table:*>,
 <betterwithaddons:adobe>,
 <betterwithaddons:ecksie_sapling:*>,
-<betterwithaddons:material:1>,
-<betterwithaddons:material:2>,
 <betterwithaddons:chute>,
 <betterwithaddons:redstone_emitter>,
 <betterwithaddons:weight_wood>,
@@ -159,6 +157,7 @@ mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "tencha"
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "gyokuro"}));
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"}));
 mods.jei.JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
+mods.ltt.LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 
 mods.jei.JEI.hideCategory("bwa.tatara");

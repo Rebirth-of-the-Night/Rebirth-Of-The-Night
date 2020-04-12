@@ -31,6 +31,8 @@ recipes.addShapeless("imitation_crab_sticks", <harvestcraft:imitationcrabsticksi
 recipes.remove(<harvestcraft:froglegstirfryitem>);
 recipes.addShapeless("frog_leg_stirfry", <harvestcraft:froglegstirfryitem>, 
 [<ore:toolSkillet>, <ore:listAllfrograw>, <ore:cropRice>, <harvestcraft:broccoliitem>, <minecraft:carrot>, <harvestcraft:bellpepperitem>]);
+recipes.remove(<harvestcraft:wovencottonitem>);
+recipes.addShapeless("wovencottonitem_twine", <harvestcraft:wovencottonitem>, [<ore:twine>,<ore:twine>]);
 
 // removes duplicate salt recipes
 recipes.removeByRecipeName("harvestcraft:sausageitem_itemsalt");

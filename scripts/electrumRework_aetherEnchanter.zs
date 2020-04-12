@@ -182,8 +182,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_ada
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:javelin_adamantium>, 12000);
 
 //Wroughtnaught
-mods.aether_legacy.Enchanter.registerEnchantment(<mowziesmobs:wrought_axe>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<mowziesmobs:wrought_helmet>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<mowziesmobs:wrought_axe>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<mowziesmobs:wrought_helmet>, 32200);
 
 //Soul Forged Steel
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithmods:steel_helmet>, 14400);
@@ -446,45 +446,45 @@ mods.aether_legacy.Enchanter.registerEnchantment(<netherex:frosted_amedian_sword
 mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:sludge_wand>, 12000);
 
 //Legendary Weapons
-mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:notch_hammer>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<endreborn:ender_sword>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:hippogryph_sword>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:gorgon_head>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:pixie_wand>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:cyclops_eye>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:siren_flute>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:hippocampus_slapper>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_yellow>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_white>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_red>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:cockatrice_scepter>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:stymphalian_feather_bundle>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:stymphalian_bird_dagger>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_desert_swarm>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_swarm>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:amphithere_macuahuitl>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:tide_trident>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.axe>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.column>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.column_forest>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.column_frost>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.hammer>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk_frost>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:aethers_guard>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<rats:plague_scythe>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:wither_bane>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:crystaline_blade>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:notch_hammer>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<endreborn:ender_sword>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:hippogryph_sword>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:gorgon_head>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:pixie_wand>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:cyclops_eye>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:siren_flute>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:hippocampus_slapper>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_yellow>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_white>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_red>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:cockatrice_scepter>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:stymphalian_feather_bundle>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:stymphalian_bird_dagger>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_desert_swarm>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_swarm>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:amphithere_macuahuitl>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:tide_trident>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.axe>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.column>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.column_forest>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.column_frost>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.hammer>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk_frost>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:aethers_guard>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<rats:plague_scythe>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:wither_bane>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:crystaline_blade>, 32200);
 
 //Relics-Godly
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_aqueous>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_candy>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 240);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:dawn_star>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:silver_sword>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:eye_end_blade>, 72000);
-mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 72000);
+mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:dawn_star>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:silver_sword>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:eye_end_blade>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:steel_sword:*>, 28800);
 
 

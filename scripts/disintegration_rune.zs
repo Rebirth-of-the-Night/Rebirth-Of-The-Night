@@ -127,6 +127,8 @@ recipes.addShapeless("disintrune329", <bountifulbaubles:spectralsilt> * 3, [<con
 
 recipes.addShapeless("disintrune330", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_recalling>]);
 
+recipes.addShapeless("disintrune331", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <contenttweaker:phosphophyllite>]);
+
 
 
 //recipes.addShapeless("disintrune3", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <>]);

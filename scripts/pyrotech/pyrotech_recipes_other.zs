@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.CompactingBin;
 import mods.pyrotech.DryingRack;
 import mods.pyrotech.SoakingPot;
@@ -12,6 +14,7 @@ CompactingBin.addRecipe("starblock_from_stars", <contenttweaker:starblock>, <nyx
 CompactingBin.addRecipe("magma_verus_block", <betterwithaddons:elytra_magma>, <betterwithaddons:material:6>, 4);
 
 DryingRack.removeRecipes(<pyrotech:material:2>);
+DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 120 * 20);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);
@@ -21,21 +24,46 @@ SoakingPot.removeRecipes(<minecraft:coal_block>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
-SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <liquid:blood>, <nyx:lunar_water_bottle>, 8 * 60 * 20);
-SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:flowing_souls>, <pyrotech:material:16>, 10 * 75 * 30);
+SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <liquid:flowing_spirits>*500, <nyx:lunar_water_bottle>, 8 * 60 * 20);
+SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:flowing_spirits>*950, <pyrotech:material:16>, 10 * 75 * 30);
+SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
 
 furnace.remove(<pyrotech:material:22>);
 
 Burn.removeRecipes(<pyrotech:material:23>);
-var mythrilore = ["simpleores:mythril_ore","undergroundbiomes:igneous_stone_simpleores_mythril_ore:*","undergroundbiomes:metamorphic_stone_simpleores_mythril_ore:*","undergroundbiomes:sedimentary_stone_simpleores_mythril_ore:*"] as string[];
-var mythname = ["molten_soul_vanilla","molten_soul_igneous","molten_soul_metamorphic","molten_soul_sedimentary"] as string[];
 
-for i,ores in mythrilore{
-Burn.createBuilder(mythname[i], <pyrotech:material:16>, ores)
+Burn.createBuilder("molten_spirit_vanilla", <pyrotech:material:16>, "simpleores:mythril_ore")
     .setBurnStages(1)
-    .setTotalBurnTimeTicks(1 * 60 * 20)
-    .setFluidProduced(<liquid:mythril> * 100)
-    .setRequiresRefractoryBlocks(false)
+    .setTotalBurnTimeTicks(3 * 60 * 20)
+    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
-    }
+Burn.createBuilder("molten_spirit_igneous", <pyrotech:material:16>, "undergroundbiomes:igneous_stone_simpleores_mythril_ore:*")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(3 * 60 * 20)
+    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
+Burn.createBuilder("molten_spirit_metamorphic", <pyrotech:material:16>, "undergroundbiomes:metamorphic_stone_simpleores_mythril_ore:*")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(3 * 60 * 20)
+    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
+Burn.createBuilder("molten_spirit_sedimentary", <pyrotech:material:16>, "undergroundbiomes:sedimentary_stone_simpleores_mythril_ore:*")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(3 * 60 * 20)
+    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();
+Burn.createBuilder("molten_spirit_onyx", <pyrotech:rock:0>, "simpleores:onyx_ore")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFluidProduced(<liquid:flowing_spirits> * 2500)
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(false)
+    .register();

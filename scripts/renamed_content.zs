@@ -125,6 +125,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Ice And Fire: Dragons in a Whole New Light
 <iceandfire:chain>.displayName = "Refined Chain";
+<iceandfire:ash>.displayName = "Fiery Ash";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
@@ -168,7 +169,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <biomesoplenty:biome_block>.displayName = "Light Essence Ore";
 <biomesoplenty:flower_0:14>.displayName = "Valley Lily";
 <biomesoplenty:double_plant:0>.displayName = "Flax Flower";
-<biomesoplenty:mud_brick_block:0>.displayName = "Mud Brick Block";
+<biomesoplenty:mud_brick_block:0>.displayName = "Mud Bricks";
 <biomesoplenty:mud_brick_stairs:0>.displayName = "Mud Brick Stairs";
 <biomesoplenty:other_slab:0>.displayName = "Mud Brick Slab";
 
@@ -243,6 +244,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <pyrotech:iron_hammer>.displayName = "Iron Sledgehammer";
 <pyrotech:diamond_hammer>.displayName = "Refined Sledgehammer";
 <pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
+<pyrotech:material:2>.displayName = "Dried Jute";
+<pyrotech:material>.displayName = "Big Pile of Ash Remains";
 game.setLocalization("tile.pyrotech:anvil_granite.name","Multipurpose Stone Anvil");
 game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anvil");
 
@@ -273,6 +276,7 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 
 // Pam's Harvestcraft
 <harvestcraft:maplesyrupitem>.displayName = "Sweet Syrup";
+<harvestcraft:wovencottonitem>.displayName = "Woven Cloth";
 
 // Better with Addons
 <betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";

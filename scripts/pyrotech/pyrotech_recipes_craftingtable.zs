@@ -106,8 +106,8 @@ val ladder = <minecraft:ladder>;
 recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
-recipes.addShaped("ash_conversion", <biomesoplenty:ash>*12,
-[[<pyrotech:pit_ash_block>,<pyrotech:pit_ash_block>,<pyrotech:pit_ash_block>]]);
+recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
+[<pyrotech:material>,]);
 
 recipes.addShaped("twineToString", <minecraft:string>*3,
 [[twine,twine,twine]]);

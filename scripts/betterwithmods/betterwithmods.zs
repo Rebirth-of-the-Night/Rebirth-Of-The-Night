@@ -22,9 +22,6 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 mods.jei.JEI.removeAndHide(<betterwithmods:shaft>);
 
-recipes.addShaped("twine_durable_cloth", <aether_legacy:skyroot_trapdoor>*6,
-    [[<pyrotech:material:26>,<pyrotech:material:26>,<pyrotech:material:26>],
-    [<ore:wool>,<ore:wool>,<ore:wool>]]);
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
@@ -111,9 +108,8 @@ for i, output in arrayBambooChime{
 
 recipes.remove(<betterwithmods:single_machine:2>);
 recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[
-    [<betterwithmods:siding_wood>,null,<betterwithmods:siding_wood>],
-    [<betterwithmods:material:0>,<ore:pressurePlateWood>,<betterwithmods:material:0>],
-    [null,<betterwithmods:corner_wood>,null]
+    [null,<chutes:chute_wood>,null],
+    [<betterwithmods:material:0>,<quark:chute>,<betterwithmods:material:0>]
 ]);
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);

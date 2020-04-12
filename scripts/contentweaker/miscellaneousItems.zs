@@ -19,6 +19,10 @@ val pcoin = mods.contenttweaker.VanillaFactory.createItem("nethercoin");
 pcoin.register();
 val info = mods.contenttweaker.VanillaFactory.createItem("info");
 info.register();
+val clover4 = mods.contenttweaker.VanillaFactory.createItem("4leaf_clover");
+clover4.register();
+val clover5 = mods.contenttweaker.VanillaFactory.createItem("5leaf_clover");
+clover5.register();
 
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
