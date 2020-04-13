@@ -22,6 +22,7 @@ StoneKiln.addRecipe("bwmclaybrick",<minecraft:brick:0>, <minecraft:clay_ball:0>,
 StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 180, true);
 StoneKiln.addRecipe("bwmnetherbrick_efficient",<minecraft:netherbrick>*4, <minecraft:netherrack>, 700, true);
 StoneKiln.addRecipe("bwmclaybrick_efficient ",<minecraft:brick>, <betterwithmods:unfired_pottery:4>, 180, true);
+StoneKiln.addRecipe("refractorybrick", <pyrotech:material:5>, <pyrotech:material:9>, 180, true);
 StoneKiln.addRecipe("bwmcobble_to_stone",<minecraft:stone:0>, <minecraft:cobblestone:0>, 700, true);
 StoneKiln.addRecipe("bwmcobble_to_stone1",<minecraft:stone:1>, <betterwithmods:cobblestone:0>,700, true);
 StoneKiln.addRecipe("bwmcobble_to_stone2",<minecraft:stone:3>, <betterwithmods:cobblestone:1>, 700, true);
@@ -40,6 +41,8 @@ StoneKiln.addRecipe("bwmbread",<minecraft:bread>, <betterwithmods:raw_pastry:3>,
 StoneKiln.addRecipe("raw_salt_from_sandstone",<contenttweaker:halite>, <ore:sandstone>,2400, true);
 //Misc
 StoneKiln.addRecipe("kiln_rimeOre",<netherex:rime_crystal>, <netherex:rime_ore>,5000, true);
+StoneKiln.addRecipe("coral_lime",<pyrotech:material:35>*5, <coralreef:reef>,3600, true);
+
 
 
 //Unified kiln recipes

@@ -279,8 +279,8 @@ recipes.addShaped("tin_bucket", <minecraft:bucket>,[
 // Hyper hardcore well
 recipes.addShaped("water_well", <harvestcraft:well>,[
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:stone>, <betterwithmods:bucket>, <ore:stone>],
-    [<ore:stone>, <betterwithmods:screw_pump>, <ore:stone>]
+    [<pyrotech:material:16>, <betterwithmods:bucket>, <pyrotech:material:16>],
+    [<pyrotech:material:16>, <betterwithmods:screw_pump>, <pyrotech:material:16>]
 ]);
 mods.jei.JEI.addDescription(<harvestcraft:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken.");
 

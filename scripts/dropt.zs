@@ -159,3 +159,57 @@ Dropt.list("tallplants_custom")
           .items([<dungeontactics:flower_ailment>])
 	  )
   );
+  
+Dropt.list("slacked_lime")
+	.add(Dropt.rule()
+	  .matchBiomes(["minecraft:ocean","minecraft:deep_ocean","minecraft:river","minecraft:frozen_ocean","biomesoplenty:coral_reef","biomesoplenty:kelp_forest"])
+      .matchBlocks(["minecraft:clay","minecraft:gravel","undergroundbiomes:igneous_gravel:*","undergroundbiomes:sedimentary_gravel:*","undergroundbiomes:metamorphic_gravel:*"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10000)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2000)) // slaked lime
+          .items([<pyrotech:material:4>*4])
+	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(300)) // fossil_piece
+          .items([<undergroundbiomes:fossil_piece>])
+	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(400)) // fossil_piece
+          .items([<undergroundbiomes:fossil_piece:1>])
+	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(200)) // fossil_piece
+          .items([<undergroundbiomes:fossil_piece:6>])
+	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(200)) // fossil_piece
+          .items([<undergroundbiomes:fossil_piece:7>])
+	  )	  
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(90)) // nugget
+          .items([<minecraft:iron_nugget>])
+	  )	  
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(90)) // nugget
+          .items([<minecraft:gold_nugget>])
+	  )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(60)) // nugget
+          .items([<contenttweaker:material_part:1>])
+	  )	 
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(60)) // nugget
+          .items([<iceandfire:silver_nugget>])
+	  )	 
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // nugget
+          .items([<netherex:amethyst_crystal>])
+	  )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // ???
+          .items([<rats:ancient_sawblade>])
+	  )	 	
+  );

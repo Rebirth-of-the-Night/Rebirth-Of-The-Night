@@ -27,6 +27,7 @@ SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <liquid:flowing_spirits>*500, <nyx:lunar_water_bottle>, 8 * 60 * 20);
 SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:flowing_spirits>*950, <pyrotech:material:16>, 10 * 75 * 30);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
+SoakingPot.addRecipe("tarred_tar_hay", <betterwithmods:material:3>*5, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
 SoakingPot.addRecipe("white_concrete", <minecraft:concrete:0>*8, <liquid:water>*500, <minecraft:concrete_powder:0>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("orange_concrete", <minecraft:concrete:1>*8, <liquid:water>*500, <minecraft:concrete_powder:1>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("magenta_concrete", <minecraft:concrete:2>*8, <liquid:water>*500, <minecraft:concrete_powder:2>*8, 5 * 60 * 20);
@@ -43,6 +44,8 @@ SoakingPot.addRecipe("brown_concrete", <minecraft:concrete:12>*8, <liquid:water>
 SoakingPot.addRecipe("green_concrete", <minecraft:concrete:13>*8, <liquid:water>*500, <minecraft:concrete_powder:13>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("red_concrete", <minecraft:concrete:14>*8, <liquid:water>*500, <minecraft:concrete_powder:14>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("black_concrete", <minecraft:concrete:15>*8, <liquid:water>*500, <minecraft:concrete_powder:15>*8, 5 * 60 * 20);
+SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:4>*2, <liquid:water>*200, <pyrotech:rock:8>, 10 * 60 * 20);
+
 
 furnace.remove(<pyrotech:material:22>);
 

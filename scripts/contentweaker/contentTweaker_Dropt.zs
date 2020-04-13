@@ -9,10 +9,10 @@ Dropt.list("phosphophyllite")
 		  .items([<simpleores:onyx_gem>])
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(91)) // drops nothing if selected
+          .selector(Dropt.weight(100)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(9))
+          .selector(Dropt.weight(8))
           .items([<contenttweaker:phosphophyllite>])
       )
   );
