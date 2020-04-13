@@ -154,8 +154,8 @@ mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index
 # Iron ingot
 mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 # Steel ingot
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"This kind of steel has always been seen as a serviceable alloy at best, useful for components but stiff and barely harder than bronze yet les resilient. Crudely made steel is widely used in mechanisms and as a hard component, but diamond is preferred for day to day use");
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages, yet, there are rumors that a craftsperson skilled enough could make a steel alloy better than anything priorly discovered.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"This kind of steel has always been considered a mediocre alloy at best: useful for components, but stiff and barely harder than bronze... yet less resilient. Nonetheless, crudely made steel is widely used in mechanisms and as a hard component.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.");
 # Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
 # Pointy thingy
@@ -187,18 +187,18 @@ mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization
 # Spell Scroll
 mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited magical power once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the 'Magic' book.");
 # Chute
-mods.jei.JEI.addDescription(<chutes:chute_wood>, "The bennefit of 4 full blocks in 1, specially useful to access underwater areas quickly.");
-mods.jei.JEI.addDescription(<chutes:chute_entry_wood>, "The bennefit of 4 full blocks in 1, specially useful to access underwater areas quickly. This one acts as an entry point.");
+mods.jei.JEI.addDescription(<chutes:chute_wood>, "The benefit of 4 full blocks in 1. Especially useful to access underwater areas quickly.");
+mods.jei.JEI.addDescription(<chutes:chute_entry_wood>, "The benefit of 4 full blocks in 1. Especially useful to access underwater areas quickly. This one acts as an entry point.");
 # Jute
-mods.jei.JEI.addDescription(<harvestcraft:juteitem>, "A diamond in the rough, durable but needs to be dried and macerated first to get any value out of it. Effort comes with higher yield of fiber.");
+mods.jei.JEI.addDescription(<harvestcraft:juteitem>, "Durable, but needs to be dried and macerated first to get any value out of it. This effort pays off with a higher yield of fiber.");
 # Flax
-mods.jei.JEI.addDescription(<harvestcraft:flaxitem>, "Flax is versatile when it comes to textiles. Not as durable as hemp but third to none, also useful to make light blue dye...");
+mods.jei.JEI.addDescription(<harvestcraft:flaxitem>, "Flax is versatile when it comes to textiles, though it is not as durable as hemp. Flax is also useful in making light blue dye.");
 # Kenaf
-mods.jei.JEI.addDescription(<harvestcraft:kenafitem>, "Contains a good amount of fiber, but this fiber is mostly useful for paper, not textiles.");
+mods.jei.JEI.addDescription(<harvestcraft:kenafitem>, "Contains a good amount of fiber... but this fiber is mostly useful for paper, not textiles.");
 # Sisal
-mods.jei.JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a very durable 'palm-like' plant native to dry biomes, it's decently good to make fiber and string since its leaves are thick and strong.");
+mods.jei.JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a very durable 'palm-like' plant native to dry biomes. This plant is a decent source of fiber and string since its leaves are thick and strong.");
 # Cotton
-mods.jei.JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles but it is not the most naturally resilient fiber, it is still incredibly comfortable.");
+mods.jei.JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles, but it is not the most naturally resilient fiber.  When used to make clothing or padding, however, it's very comfortable.");
 # Ash
 mods.jei.JEI.addDescription(<pyrotech:material>, "Remains from pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
 
@@ -339,15 +339,15 @@ mods.jei.JEI.addDescription(durableTwine, "By means of various crafting procedur
 mods.jei.JEI.addDescription(crudePole, "Less than ideal... may break unexpectedly the more it is used.");
 mods.jei.JEI.addDescription(compact, "A reinforced container that's useful to compact stuff into denser materials or blocks.");
 mods.jei.JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash, one gets mulch! Applying it to farmland will protect the block from being trampled, and will help crops grow a little faster.");
-mods.jei.JEI.addDescription(woodChips, "This pesky byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
+mods.jei.JEI.addDescription(woodChips, "This byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
 mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "This combustion-based sawmill needs a saw placed on top and fuel burning within in order to function.");
 mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "Although it is not as fast, durable, or high-yielding as a mechanically-powered sawmill, it is easier to build and has room for two items. ");
 mods.jei.JEI.addDescription(<pyrotech:drying_rack:1>, "This device may hold 4 items at a time. Drying time is heavily reduced by nearby fire, but all the fire in the world won't dry something exposed to rain.");
 mods.jei.JEI.addDescription(<pyrotech:material:25>, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
-mods.jei.JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harvesting of both bark and wood chips, which can be used in ingenious ways for advanced crafting like tanned leather or tar and charcoal production.");
-mods.jei.JEI.addDescription(<pyrotech:material:4>, "A wonder of nature, this muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat resistant burning station");
-mods.jei.JEI.addDescription(<pyrotech:material:5>, "Refractory materials enable the construction of structures for pit burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside filling any spaces, ignite it up then quickly cover or enclose the space, if done correctly the material will burn and output the refined material as well as depositing the resulting liquid if a collector is present");
-mods.jei.JEI.addDescription(<pyrotech:refractory_brick_block>, "Refractory materials enable the construction of structures for pit burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside filling any spaces, ignite it up then quickly cover or enclose the space, if done correctly the material will burn and output the refined material as well as depositing the resulting liquid if a collector is present");
+mods.jei.JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harvesting of both bark and wood chips, which can be used in the advanced crafting of tanned leather or tar and charcoal production.");
+mods.jei.JEI.addDescription(<pyrotech:material:4>, "A wonder of nature, this muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat resistant burning station.");
+mods.jei.JEI.addDescription(<pyrotech:material:5>, "Refractory materials enable the construction of structures for pit burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
+mods.jei.JEI.addDescription(<pyrotech:refractory_brick_block>, "Refractory materials enable the construction of structures for pit burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
 
 # Relics
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
