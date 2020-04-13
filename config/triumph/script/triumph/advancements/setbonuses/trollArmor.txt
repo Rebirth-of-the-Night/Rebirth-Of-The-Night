@@ -18,4 +18,4 @@ criteria.addItem(<ore:trollBoots>)
 
 hideLines()
 alwaysVisible()
-setPos(-220,69)
+setPos(-227,69)

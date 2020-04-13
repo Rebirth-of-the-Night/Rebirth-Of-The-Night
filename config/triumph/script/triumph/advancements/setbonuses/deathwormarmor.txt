@@ -18,4 +18,4 @@ criteria.addItem(<ore:deathWormBoots>)
 
 hideLines()
 alwaysVisible()
-setPos(-260,69)
+setPos(-265,69)
