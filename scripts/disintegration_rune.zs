@@ -63,7 +63,7 @@ recipes.addShapeless("disintrune219", <bountifulbaubles:spectralsilt> * 2, [<con
 
 //recipes.addShapeless("disintrune220", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <rats:rat_flute>]);
 
-recipes.addShapeless("disintrune221", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <wards:enchanted_paper>]);
+//recipes.addShapeless("disintrune221", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <wards:enchanted_paper>]);
 
 // Arcane
 
@@ -101,9 +101,8 @@ recipes.addShapeless("disintrune316", <bountifulbaubles:spectralsilt> * 3, [<con
 
 recipes.addShapeless("disintrune317", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <endreborn:entropy_wand>]);
 
-recipes.addShapeless("disintrune318", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <minecraft:enchanted_book>]);
+//recipes.addShapeless("disintrune318", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <minecraft:enchanted_book>]);
 
-recipes.addShapeless("disintrune319", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <mod_lavacow:halo_necklace>]);
 
 recipes.addShapeless("disintrune320", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <mod_lavacow:dreamcatcher>]);
 
@@ -138,6 +137,8 @@ recipes.addShapeless("disintrune331", <bountifulbaubles:spectralsilt> * 3, [<con
 
 //recipes.addShapeless("disintrune4", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <>]);
 
+recipes.addShapeless("disintrune319", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <mod_lavacow:halo_necklace>]);
+
 recipes.addShapeless("disintrune41", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:shieldcobalt>]);
 
 recipes.addShapeless("disintrune42", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketmagiclenses>]);
@@ -168,9 +169,6 @@ recipes.addShapeless("disintrune414", <bountifulbaubles:spectralsilt> * 4, [<con
 
 recipes.addShapeless("disintrune415", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <mowziesmobs:ice_crystal>]);
 
-recipes.addShapeless("disintrune416", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <arcanearchives:scepter_revelation>]);
-
-recipes.addShapeless("disintrune417", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <arcanearchives:scepter_manipulation>]);
 
 
 
