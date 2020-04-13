@@ -47,7 +47,7 @@ mods.ltt.LootTable.removeGlobalItem("aeble:obsidian_ring");
 mods.ltt.LootTable.removeGlobalItem("aeble:zanite_ring");
 mods.ltt.LootTable.removeGlobalItem("aeble:ice_ring");
 mods.ltt.LootTable.removeModEntry("aeble");
-
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:sun_altar");
 
 
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");
