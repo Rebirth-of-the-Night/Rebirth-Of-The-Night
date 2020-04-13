@@ -28,6 +28,7 @@ import crafttweaker.game.IGame;
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
+game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
 //Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
@@ -247,6 +248,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
 <pyrotech:material:2>.displayName = "Dried Jute";
 <pyrotech:material>.displayName = "Big Pile of Ash Remains";
+<pyrotech:brick_kiln>.displayName = "Brick Kiln";
+<pyrotech:material:35>.displayName = "Lump of Refracotry Material";
+<pyrotech:material:4>.displayName = "Refracotry Material";
 game.setLocalization("tile.pyrotech:anvil_granite.name","Multipurpose Stone Anvil");
 game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anvil");
 
