@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "dungeontactics:items/lithen_reaper"
+        "layer0": "dungeontactics:items/unique_items/lithen_reaper"
     },
     "display": {
         "thirdperson_righthand": {
