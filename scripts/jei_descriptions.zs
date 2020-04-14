@@ -15,17 +15,17 @@ mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose to
 mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as slabs, planks, or stairs from your inventory. Can only be enchanted in the True Enchanting Table."]);
 
 # BWM #
-mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
-mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, it can make very high quality and durable fibers with a variety of uses, easily made into sails and different kinds of textiles. Grows two blocks high like Sugar Cane - make sure to only harvest the top one!");
+mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
+mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, hemp can make very high quality and durable fibers with a variety of uses. It's easily made into sails and different kinds of textiles. Grows two blocks high like Sugar Cane - be sure to only harvest the top one!");
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
-mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block, it creates a magical updrift when flied over with an elytra!");
-mods.jei.JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant, will rapidly grow on sand and will wonder towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses");
+mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block that creates a magical updrift if one flies over it with an elytra!");
+mods.jei.JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
 
 
 # RUSTIC #
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
-mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for air ships.");
+mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for airships.");
 
 
 # MISCELLANEOUS #
@@ -346,8 +346,8 @@ mods.jei.JEI.addDescription(<pyrotech:drying_rack:1>, "This device may hold 4 it
 mods.jei.JEI.addDescription(<pyrotech:material:25>, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
 mods.jei.JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harvesting of both bark and wood chips, which can be used in the advanced crafting of tanned leather or tar and charcoal production.");
 mods.jei.JEI.addDescription(<pyrotech:material:4>, "A wonder of nature, this muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat resistant burning station.");
-mods.jei.JEI.addDescription(<pyrotech:material:5>, "Refractory materials enable the construction of structures for pit burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
-mods.jei.JEI.addDescription(<pyrotech:refractory_brick_block>, "Refractory materials enable the construction of structures for pit burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
+mods.jei.JEI.addDescription(<pyrotech:material:5>, "Refractory materials enable the construction of structures for pit-burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
+mods.jei.JEI.addDescription(<pyrotech:refractory_brick_block>, "Refractory materials enable the construction of structures for pit-burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
 
 # Relics
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
