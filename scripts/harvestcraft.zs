@@ -248,33 +248,9 @@ recipes.addShaped("Bakeware", <harvestcraft:bakewareitem> * 3,[
 	[<simpleores:copper_ingot>, <simpleores:copper_ingot>, <simpleores:copper_ingot>]
 ]);
 
-// tin uses
-recipes.remove(<sereneseasons:season_clock>);
-
-recipes.addShaped("tintripwirehook", <minecraft:tripwire_hook> * 2,[
-	[null, <simpleores:tin_ingot>, null],
-	[null, <ore:stickWood>, null],
-	[null, <ore:plankWood>, null]
-]);
-
-recipes.addShaped("tincompass", <minecraft:compass>,[
-	[null, <simpleores:tin_ingot>, null],
-	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
-	[null, <simpleores:tin_ingot>, null]
-]);
-
-recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
-	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>],
-	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
-	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>]
-]);
-
-// new bucket recipe
-recipes.addShaped("tin_bucket", <minecraft:bucket>,[
-	[null, null, null],
-    [<simpleores:tin_ingot>, null, <simpleores:tin_ingot>],
-    [null, <simpleores:tin_ingot>, null]
-]);
+// leather yogurt wtf
+recipes.remove(<harvestcraft:plainyogurtitem>);
+recipes.addShapeless ("harvestcraft_yogurt", <harvestcraft:plainyogurtitem>*4, [<ore:toolPot>,<ore:listAllmilk>]);
 
 // Hyper hardcore well
 recipes.addShaped("water_well", <harvestcraft:well>,[
@@ -282,7 +258,6 @@ recipes.addShaped("water_well", <harvestcraft:well>,[
     [<pyrotech:material:16>, <betterwithmods:bucket>, <pyrotech:material:16>],
     [<pyrotech:material:16>, <betterwithmods:screw_pump>, <pyrotech:material:16>]
 ]);
-mods.jei.JEI.addDescription(<harvestcraft:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken.");
 
 // Hyper hardcore presser
 recipes.addShaped("food_presser", <harvestcraft:presser>, [

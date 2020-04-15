@@ -128,7 +128,8 @@
 <scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
 <scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold <SHIFT> for info.");
 
-<harvestcraft:well>.addShiftTooltip("One way installation, dismounting will result in some of the components being returned", "Hold <SHIFT> for info.");
+<harvestcraft:well>.addTooltip("Infinite water source");
+<harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold <SHIFT> for info.");
 
 <minecraft:furnace>.addShiftTooltip("Input Capacity: 1 at a time.", "Hold <SHIFT> for info.");
 <minecraft:furnace>.addShiftTooltip("Fuel Capacity: 1 at a time.");

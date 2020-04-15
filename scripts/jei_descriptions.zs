@@ -172,6 +172,8 @@ mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lan
 mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
+# Well
+mods.jei.JEI.addDescription(<harvestcraft:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
 # Copper tin
 mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best approach... If you don't have a crucible, that is.");
 # Trumpet
