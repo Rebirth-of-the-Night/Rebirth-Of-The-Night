@@ -7,4 +7,5 @@ playsound minecraft:entity.wither.hurt ambient @p ~ ~ ~ 0.8 0.5
 gamestage silentadd @a killedWither
 gamestage silentadd @a fullDiamondArmor
 gamestage silentadd @a fullEarlyArmor
+gamestage silentadd @a fullMidArmor
 gamestage silentadd @a minedMythril
