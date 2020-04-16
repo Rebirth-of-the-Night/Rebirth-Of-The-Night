@@ -24,6 +24,25 @@ clover4.register();
 val clover5 = mods.contenttweaker.VanillaFactory.createItem("5leaf_clover");
 clover5.register();
 
+val sfs1 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact");
+sfs1.register();
+val sfs2 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact1");
+sfs2.register();
+val sfs3 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact2");
+sfs3.register();
+val sfs4 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact3");
+sfs4.register();
+val sfs5 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact4");
+sfs5.register();
+val sfs6 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact5");
+sfs6.register();
+val sfs7 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact6");
+sfs7.register();
+val sfs8 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact7");
+sfs8.register();
+val sfs9 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact8");
+sfs9.register();
+
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
 //rat.saturation(6)
