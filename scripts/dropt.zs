@@ -89,24 +89,6 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
-  
-Dropt.list("plants_basic")
-
-  .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
-      .replaceStrategy("ADD")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(180)) // drops nothing if selected
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(35))
-          .items([<pyrotech:material:12>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(18))
-          .items([<pyrotech:material:13>])
-	  )
-  );
 
 Dropt.list("clovers")
 
@@ -126,7 +108,24 @@ Dropt.list("clovers")
       )
   );  
 
-  
+Dropt.list("plants_basic")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(35))
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(18))
+          .items([<pyrotech:material:13>])
+	  )
+  );
+ 
 Dropt.list("plants_custom")
 
   .add(Dropt.rule()
