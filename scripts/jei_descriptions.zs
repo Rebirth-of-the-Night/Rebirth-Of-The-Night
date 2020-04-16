@@ -202,8 +202,11 @@ mods.jei.JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a
 # Cotton
 mods.jei.JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles, but it is not the most naturally resilient fiber.  When used to make clothing or padding, however, it's very comfortable.");
 # Ash
-mods.jei.JEI.addDescription(<pyrotech:material>, "Remains from pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
-
+mods.jei.JEI.addDescription(<pyrotech:material>, "Ashy remains of pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
+# Bees
+mods.jei.JEI.addDescription(<harvestcraft:queenbeeitem>, "Found by breaking Beehives in Forest biomes.");
+# Wax
+mods.jei.JEI.addDescription(<harvestcraft:beeswaxitem>, "An extremely good fuel source, even better when compressed.");
 
 # Aqueducts
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");

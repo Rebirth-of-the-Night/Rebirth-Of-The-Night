@@ -199,6 +199,14 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringoverclocking>,[
 [<contenttweaker:material_part:8>, <qualitytools:emerald_ring>, <contenttweaker:material_part:8>], 
 [<bountifulbaubles:spectralsilt>, <contenttweaker:energy_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]],32);
    
+
+// Crown
+
+recipes.addShaped("BB_Crown", <bountifulbaubles:crowngold>.withTag({Quality: {}}),[
+	[null, null, null],
+	[<minecraft:gold_ingot>, <biomesoplenty:gem:1>, <minecraft:gold_ingot>], 
+	[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+
 // Sunglasses
 
 recipes.remove(<bountifulbaubles:trinketmagiclenses>);

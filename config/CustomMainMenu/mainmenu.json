@@ -292,7 +292,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.77.1",
+            "text": "Version 2.78",
             "posX": 2,
             "posY": -10,
             "color": 450,
@@ -304,7 +304,7 @@
     {
         "splash-text":
         {
-            "posX" : -190,
+            "posX" : 0,
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
