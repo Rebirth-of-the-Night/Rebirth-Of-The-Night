@@ -111,7 +111,7 @@ Dropt.list("plants_basic")
 Dropt.list("clovers")
 
   .add(Dropt.rule()
-      .matchBlocks(["<biomesoplenty:plant_0:10>"])
+      .matchBlocks(["biomesoplenty:plant_0:10"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(20000)) // drops nothing if selected
