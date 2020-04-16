@@ -304,8 +304,8 @@
     {
         "splash-text":
         {
-            "posX" : -190,
-            "posY" : 70,
+            "posX" : 50,
+            "posY" : 60,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:minecraft:texts/splashes.txt"

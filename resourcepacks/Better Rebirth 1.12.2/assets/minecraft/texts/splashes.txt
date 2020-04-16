@@ -7,7 +7,7 @@ Zombie will remember this.
 And they don't stop coming and they don't stop coming and they don't stop coming...
 You are already dead.
 You may not rest, there are monsters nearby.
-Whatcha gonna do, cry? Piss your pants? Maybe shit and cum?
+Whatcha gonna do, cry? Piss your pants?
 PUT THAT THING BACK WHERE IT CAME FROM OR SO HELP ME!
 How do I get bark?
 What's the recommended amount of dedodated wam for making a sewrver?
@@ -75,8 +75,8 @@ There is no cow level!
 There is no Moon Lord!
 Perfectly balanced, as all things should be!
 1.13 swimming!
-As you grow, they grow!
-Stop pinging me!
+When you grow, they grow!
+Don't ping @Developer!
 It's already been suggested!
 Say hi to Vidargavia!
 Say hi to CraftingMantis!
@@ -118,3 +118,6 @@ I give this guy five seconds.
 IT'S DONE! You're dead!
 Niner wuz here
 Sandwich wuz here
+Kilo wuz here
+OOPS! All Vermin Souls!
+Bravery is vital. Arrogance is lethal.
