@@ -60,6 +60,8 @@ recipes.remove(<cyclicmagic:plate_push>);
 recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
 
+recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
+
 var vnugg = <contenttweaker:material_part:10>;
 var duracloth = <betterwithmods:material:4>;
 var glue = <ore:glue>;
@@ -89,6 +91,10 @@ var advpearl = <endreborn:item_advanced_ender_pearl>;
 var dice = <cyclicmagic:dice>;
 var stone = <ore:stone>;
 var gcandle = <rustic:candle_gold>;
+var wax = <ore:materialPressedwax>;
+var carbond = <ore:dustCarbon>;
+var carpaper = <cyclicmagic:carbon_paper>;
+var paper =<ore:paper>;
 
 mods.betterwithaddons.Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
@@ -107,6 +113,19 @@ recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>,[
     [vnugg, glue, tanned],
     [tanned, tanned, duracloth]
 ]);
+
+recipes.addShaped("immersive_carbon_paper", carpaper*6,[
+	[paper, paper, paper],
+    [wax, carbond, wax],
+    [paper, paper, paper]
+]);
+
+recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>,[
+	[carpaper, <quark:glass_item_frame>, <minecraft:stone_pickaxe>],
+    [<minecraft:writable_book>, <ore:stickWood>, <antiqueatlas:empty_antique_atlas>]
+]);
+
+//Spelunker potions with prospecting kit in rustic.zs
 
 mods.betterwithmods.Anvil.addShaped(pipepump, 
 [
