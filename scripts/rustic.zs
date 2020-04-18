@@ -148,9 +148,9 @@ mods.rustic.Condenser.removeRecipe(healthElixir);
 mods.rustic.Condenser.removeRecipe(healthElixirStrong);
 
 mods.rustic.Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
-mods.rustic.Condenser.addRecipe(regenerationElixirLong, horsetail, [cohosh, honeycomb, null]);
-mods.rustic.Condenser.addRecipe(regenerationElixirStrong, root, [cohosh, honeycomb, null]);
+mods.rustic.Condenser.addRecipe(regenerationElixirLong, horsetail, [cohosh, honeycomb]);
+mods.rustic.Condenser.addRecipe(regenerationElixirStrong, root, [cohosh, honeycomb]);
 
 //val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
 mods.rustic.Condenser.addRecipe(healthElixir, chamomile, <animania:raw_prime_beef>);
-mods.rustic.Condenser.addRecipe(healthElixirStrong, root, [chamomile, <animania:raw_prime_beef>, null]);
+mods.rustic.Condenser.addRecipe(healthElixirStrong, root, [chamomile, <animania:raw_prime_beef>]);
