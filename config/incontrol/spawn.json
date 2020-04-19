@@ -903,7 +903,7 @@
  },
 
  {
-    "dimension": [0,10],
+    "dimension": [10],
     "mob": "specialmobs:darkcreeper",
     "gamestage": "enteredBeneath",
     "maxcount": {
@@ -1951,7 +1951,7 @@
         "amount": 2,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "default"
  },
  {
     "dimension": [0,10,1],
