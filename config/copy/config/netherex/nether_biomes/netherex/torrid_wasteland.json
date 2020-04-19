@@ -1,6 +1,6 @@
 {
 	"biome": "netherex:torrid_wasteland",
-	"generationWeight": 6,
+	"generationWeight": 5,
 	"useDefaultDecorations": true,
 	"isSubBiome": false,
 	"blocks": {
