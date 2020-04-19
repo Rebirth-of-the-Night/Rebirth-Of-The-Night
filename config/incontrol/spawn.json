@@ -8,11 +8,25 @@
  {
     "mob": "toroquest:toroquest_sentry",
     "structure": "Village",
+	"random": 0.2,
+	"seesky": true,
+    "minlight": 7,
+    "maxcount": {
+        "amount": 3,
+        "perchunk": true
+    },
     "result": "allow"
   },
   {
     "mob": "toroquest:toroquest_sentry",
     "result": "deny"
+  },
+  
+{
+    "mob": "biomesoplenty:wasp",
+	"onjoin": true,
+    "potion": ["minecraft:fire_resistance,100000,0"],
+    "damagemultiply": 2
   },
 
 // boss buff time!
