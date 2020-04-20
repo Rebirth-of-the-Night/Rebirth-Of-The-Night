@@ -16,7 +16,11 @@ for dyes in DArray {
     recipes.remove(dyes);
 }
 
-recipes.removeByRecipeName("harvestcraft:string_listallfiber");
+recipes.removeByRecipeName("harvestcraft:string_cropsisal");
+recipes.removeByRecipeName("harvestcraft:string_cropkenaf");
+recipes.removeByRecipeName("harvestcraft:string_cropjute");
+recipes.removeByRecipeName("harvestcraft:string_cropflax");
+recipes.removeByRecipeName("harvestcraft:string_cropcotton");
 mods.betterwithmods.Mill.remove([<minecraft:dye:2>]);
 
 //Mortar and pestle recipes
@@ -64,13 +68,12 @@ recipes.addShapeless("red_mold_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>
 recipes.addShapeless("rose_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:5>]);
 recipes.addShapeless("rafflesia_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:plant_1:10>]);
 
-recipes.addShapeless("plant_partition_1",<harvestcraft:flaxitem>*3,[<biomesoplenty:double_plant:0>]);
+recipes.addShapeless("plant_partition_1",<harvestcraft:flaxseeditem>*3,[<biomesoplenty:double_plant:0>]);
 
 //Fiber, twine string and pulp
 recipes.addShapeless("plant_fiber_flax",<betterwithmods:material:3>*4,[<ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>,<ore:cropFlax>, <ore:cropFlax>]);
 recipes.addShapeless("plant_fiber_cotton",<betterwithmods:material:3>*4,[<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
-recipes.addShapeless("plant_fiber_sisal",<betterwithmods:material:3>*4,[<ore:cropSisal>, <ore:cropSisal>, <ore:cropSisal>]);
-recipes.addShapeless("plant_fiber_4",<betterwithmods:material:3>*4,[<ore:cropFlax>, <ore:cropFlax>, <ore:cropFlax>,<ore:cropFlax>, <ore:cropFlax>]);
+recipes.addShapeless("plant_fiber_sisal",<betterwithmods:material:3>*4,[<ore:cropSisal>, <ore:cropSisal>, <ore:cropSisal>,<ore:cropSisal>]);
 
 recipes.removeByRecipeName("harvestcraft:string:cropflax");
 recipes.removeByRecipeName("harvestcraft:string:cropcotton");

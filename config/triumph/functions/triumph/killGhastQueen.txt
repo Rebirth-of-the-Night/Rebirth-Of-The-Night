@@ -6,4 +6,5 @@ title @a title {"text":"Rebirth of the Forest", "bold":false, "italic":true, "co
 gamestage silentadd @a killedGhastQueen
 gamestage silentadd @a fullDiamondArmor
 gamestage silentadd @a fullEarlyArmor
+gamestage silentadd @a fullMidArmor
 gamestage silentadd @a minedMythril

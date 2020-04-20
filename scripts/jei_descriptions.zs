@@ -154,8 +154,8 @@ mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index
 # Iron ingot
 mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 # Steel ingot
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"This kind of steel has always been considered a mediocre alloy at best: useful for components, but stiff and barely harder than bronze... yet less resilient. Nonetheless, crudely made steel is widely used in mechanisms and as a hard component.");
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.');
 # Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
 # Pointy thingy
@@ -172,6 +172,8 @@ mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lan
 mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
+# Well
+mods.jei.JEI.addDescription(<harvestcraft:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
 # Copper tin
 mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best approach... If you don't have a crucible, that is.");
 # Trumpet
@@ -200,8 +202,11 @@ mods.jei.JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a
 # Cotton
 mods.jei.JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles, but it is not the most naturally resilient fiber.  When used to make clothing or padding, however, it's very comfortable.");
 # Ash
-mods.jei.JEI.addDescription(<pyrotech:material>, "Remains from pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
-
+mods.jei.JEI.addDescription(<pyrotech:material>, "Ashy remains of pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
+# Bees
+mods.jei.JEI.addDescription(<harvestcraft:queenbeeitem>, "Found by breaking Beehives in Forest biomes.");
+# Wax
+mods.jei.JEI.addDescription(<harvestcraft:beeswaxitem>, "An extremely good fuel source, even better when compressed.");
 
 # Aqueducts
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
@@ -209,10 +214,8 @@ mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to l
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
 
-
-
-
-
+# Grapple Mod
+mods.jei.JEI.addDescription(<grapplemod:longfallboots>,"Cancels all fall damage when worn. Crafted by right clicking a Grappling Hook Modifier block with a pair of Feather Falling IV Diamond Boots.");
 
 #Rats
 mods.jei.JEI.addDescription(<rats:plague_essence>,"Calcified clump of plague energy. The plagues were thought to be sealed away for good, but now this strain, at least, has returned with a vengeance.");
@@ -326,7 +329,7 @@ val woodChips = <pyrotech:rock:7>;
 
 mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
 mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"Made with common materials. Can light a kiln if held down, but it is rather fragile. Not as convenient as a flint and steel.");
-mods.jei.JEI.addDescription(<pyrotech:stone_kiln>,"A primitive machine that can smelt certain items like clay, bronze alloy, and charcoal in batches of 12. Needs to be ignited with a flint and tinder or a better igniter while having fuel. Use and hold igniter until lit.");
+mods.jei.JEI.addDescription(<pyrotech:stone_kiln>,"A primitive machine that can smelt certain items like clay, bronze alloy, and charcoal in batches of 12. Needs to be ignited with a flint and tinder or a better igniter with fuel placed inside. Use and hold the igniter until the kiln is lit.");
 mods.jei.JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone kiln that can smelt certain items like clay, bronze alloy, and charcoal in batches of 32, faster and more effectively! Ignited the same way as a stone kiln.");
 mods.jei.JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
 mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
@@ -345,9 +348,9 @@ mods.jei.JEI.addDescription(<pyrotech:stone_sawmill>, "Although it is not as fas
 mods.jei.JEI.addDescription(<pyrotech:drying_rack:1>, "This device may hold 4 items at a time. Drying time is heavily reduced by nearby fire, but all the fire in the world won't dry something exposed to rain.");
 mods.jei.JEI.addDescription(<pyrotech:material:25>, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
 mods.jei.JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harvesting of both bark and wood chips, which can be used in the advanced crafting of tanned leather or tar and charcoal production.");
-mods.jei.JEI.addDescription(<pyrotech:material:4>, "A wonder of nature, this muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat resistant burning station.");
-mods.jei.JEI.addDescription(<pyrotech:material:5>, "Refractory materials enable the construction of structures for pit-burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
-mods.jei.JEI.addDescription(<pyrotech:refractory_brick_block>, "Refractory materials enable the construction of structures for pit-burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material as well as depositing any resulting liquid if a collector is present.");
+mods.jei.JEI.addDescription(<pyrotech:material:4>, "This muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat-resistant burning station.");
+mods.jei.JEI.addDescription(<pyrotech:material:5>, "Refractory materials enable the construction of structures for pit-burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
+mods.jei.JEI.addDescription(<pyrotech:refractory_brick_block>, "Refractory materials enable the construction of structures for pit-burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
 
 # Relics
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);

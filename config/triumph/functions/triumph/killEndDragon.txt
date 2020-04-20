@@ -6,4 +6,5 @@ title @a title {"text":"Rebirth of the World", "bold":false, "italic":true, "col
 gamestage silentadd @a killedEnderDragon
 gamestage silentadd @a fullDiamondArmor
 gamestage silentadd @a fullEarlyArmor
+gamestage silentadd @a fullMidArmor
 gamestage silentadd @a minedMythril

@@ -292,7 +292,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.77.1",
+            "text": "Version 2.78",
             "posX": 2,
             "posY": -10,
             "color": 450,
@@ -302,6 +302,15 @@
 
     "other":
     {
+        "splash-text":
+        {
+            "posX" : 0,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+    
 		"background":
         {
             "image" : "",
@@ -327,4 +336,5 @@
             }
         }
     }
+ 
 }

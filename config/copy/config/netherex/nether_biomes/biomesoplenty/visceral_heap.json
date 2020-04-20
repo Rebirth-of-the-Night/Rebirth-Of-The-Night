@@ -1,6 +1,6 @@
 {
 	"biome": "biomesoplenty:visceral_heap",
-	"generationWeight": 4,
+	"generationWeight": 3,
 	"useDefaultDecorations": true,
 	"isSubBiome": false,
 	"blocks": {},

@@ -22,7 +22,7 @@ recipes.remove(<rustic:fertile_soil>);
 val oreDirtBlock = <ore:DirtBlock>;
 oreDirtBlock.addItems([<minecraft:dirt>, <minecraft:dirt:1>, <biomesoplenty:dirt>, <biomesoplenty:dirt:1>, <biomesoplenty:dirt:2>, <biomesoplenty:dirt:8>, <biomesoplenty:dirt:9>, <biomesoplenty:dirt:10> ]);
 
-recipes.addShapeless("fertilesoil", <rustic:fertile_soil>*3,[<primitivemobs:wonder_sap>, <ore:DirtBlock>]);
+recipes.addShapeless("fertilesoil", <rustic:fertile_soil>,[<primitivemobs:wonder_sap>, <ore:DirtBlock>]);
 
 <rustic:fertile_soil>.displayName = "Ever-Fertile Soil";
 <rustic:fertile_soil>.addTooltip("Can't be trampled. Crops planted in it don't require water nearby.");

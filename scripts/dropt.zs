@@ -89,14 +89,32 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
-  
+
+Dropt.list("clovers")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:10"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20000)) // drops nothing if selected
+      )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(200)) // lucky clover
+       	   .items([<contenttweaker:4leaf_clover>])
+      )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // unlucky clover
+       	   .items([<contenttweaker:5leaf_clover>])
+      )
+  );  
+
 Dropt.list("plants_basic")
 
   .add(Dropt.rule()
       .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(120)) // drops nothing if selected
+          .selector(Dropt.weight(180)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(35))
@@ -107,38 +125,34 @@ Dropt.list("plants_basic")
           .items([<pyrotech:material:13>])
 	  )
   );
-  
+ 
 Dropt.list("plants_custom")
 
   .add(Dropt.rule()
       .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(700)) // drops nothing if selected
+          .selector(Dropt.weight(4200)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20)) // Hemp crop
+          .selector(Dropt.weight(32)) // Hemp crop
           .items([<betterwithmods:material:2>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10)) // Maggot
-          .items([<mod_lavacow:parasite_item>])
+          .selector(Dropt.weight(20)) // Maggot
+          .items([<rats:little_black_worm>])
 	  )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(2)) // Lottery!
-          .items([<scalinghealth:heartdust>])
-	  )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(22)) // Truffle
-          .items([<animania:truffle>])
-	  )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20)) // Bathroom Truffle
+          .selector(Dropt.weight(18)) // Bathroom berry
           .items([<betterwithaddons:food_mulberry>])
 	  )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(15)) // sap
+          .selector(Dropt.weight(18)) // sap
        	   .items([<primitivemobs:wonder_sap>])
+      )
+	  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5)) // lucky clover
+       	   .items([<contenttweaker:4leaf_clover>])
       )
   );
   
@@ -151,7 +165,7 @@ Dropt.list("tallplants_custom")
           .selector(Dropt.weight(2500)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(150)) // Hemp crop
+          .selector(Dropt.weight(180)) // Hemp crop
           .items([<betterwithmods:material:2>])
 	  )
       .addDrop(Dropt.drop()
@@ -169,47 +183,47 @@ Dropt.list("slacked_lime")
           .selector(Dropt.weight(10000)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(2000)) // slaked lime
+          .selector(Dropt.weight(1200)) // slaked lime
           .items([<pyrotech:material:4>*4])
 	  )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(300)) // fossil_piece
+          .selector(Dropt.weight(200)) // fossil_piece
           .items([<undergroundbiomes:fossil_piece>])
 	  )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(400)) // fossil_piece
+          .selector(Dropt.weight(300)) // fossil_piece
           .items([<undergroundbiomes:fossil_piece:1>])
 	  )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(200)) // fossil_piece
+          .selector(Dropt.weight(100)) // fossil_piece
           .items([<undergroundbiomes:fossil_piece:6>])
 	  )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(200)) // fossil_piece
+          .selector(Dropt.weight(100)) // fossil_piece
           .items([<undergroundbiomes:fossil_piece:7>])
 	  )	  
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(90)) // nugget
+          .selector(Dropt.weight(70)) // nugget
           .items([<minecraft:iron_nugget>])
 	  )	  
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(90)) // nugget
+          .selector(Dropt.weight(60)) // nugget
           .items([<minecraft:gold_nugget>])
 	  )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(60)) // nugget
+          .selector(Dropt.weight(50)) // nugget
           .items([<contenttweaker:material_part:1>])
 	  )	 
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(60)) // nugget
+          .selector(Dropt.weight(40)) // nugget
           .items([<iceandfire:silver_nugget>])
 	  )	 
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10)) // nugget
+          .selector(Dropt.weight(5)) // nugget
           .items([<netherex:amethyst_crystal>])
 	  )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10)) // ???
+          .selector(Dropt.weight(3)) // ???
           .items([<rats:ancient_sawblade>])
 	  )	 	
   );

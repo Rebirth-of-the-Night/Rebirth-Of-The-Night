@@ -113,17 +113,60 @@ recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
     [null,<ore:stickWood>,<minecraft:string>],
     [<ore:stickWood>,<minecraft:iron_nugget>|<contenttweaker:material_part:6>,<minecraft:string>]
 ]);
+
+
+// Rail Overhaul
+
 recipes.remove(<minecraft:detector_rail>);
-recipes.addShaped("detector_rail",<minecraft:detector_rail>,[
+recipes.addShaped("detector_rail",<minecraft:detector_rail>*6,[
     [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>],
     [<minecraft:iron_ingot>,<ore:pressurePlateWood>,<minecraft:iron_ingot>],
     [<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]
 ]);
+recipes.addShaped("tinrail",<minecraft:rail>*8,[
+    [<simpleores:tin_ingot>,null,<simpleores:tin_ingot>],
+    [<simpleores:tin_ingot>,<ore:stickWood>,<simpleores:tin_ingot>],
+    [<simpleores:tin_ingot>,null,<simpleores:tin_ingot>]
+]);
+recipes.addShaped("steelrail",<minecraft:rail>*32,[
+    [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>],
+    [<dungeontactics:steel_ingot>,<ore:stickWood>,<dungeontactics:steel_ingot>],
+    [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>]
+]);
+
 recipes.remove(<chutes:chute_wood>);
 recipes.addShaped("wooden_chute",<chutes:chute_wood>*16,[
     [null,<ore:barkWood>,null],
     [<ore:barkWood>,null,<ore:barkWood>],
     [null,<ore:barkWood>,null]
+]);
+
+// other tin uses
+recipes.remove(<sereneseasons:season_clock>);
+
+recipes.addShaped("tintripwirehook", <minecraft:tripwire_hook> * 2,[
+	[null, <simpleores:tin_ingot>, null],
+	[null, <ore:stickWood>, null],
+	[null, <ore:plankWood>, null]
+]);
+
+recipes.addShaped("tincompass", <minecraft:compass>,[
+	[null, <simpleores:tin_ingot>, null],
+	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
+	[null, <simpleores:tin_ingot>, null]
+]);
+
+recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
+	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>],
+	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
+	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>]
+]);
+
+// new bucket recipe
+recipes.addShaped("tin_bucket", <minecraft:bucket>,[
+	[null, null, null],
+    [<simpleores:tin_ingot>, null, <simpleores:tin_ingot>],
+    [null, <simpleores:tin_ingot>, null]
 ]);
 
 recipes.remove(<minecraft:concrete_powder:*>);

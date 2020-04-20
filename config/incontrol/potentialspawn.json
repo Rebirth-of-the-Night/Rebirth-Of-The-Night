@@ -1166,7 +1166,18 @@
       }
     ]
   },
-  
+
+    {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:boneworm",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
   
   {
     "dimension": 0,
@@ -1185,7 +1196,7 @@
     "mobs": [
       {
         "mob": "mod_lavacow:pingu",
-        "weight": 2,
+        "weight": 4,
         "groupcountmin": 3,
         "groupcountmax": 5
       }
@@ -1221,7 +1232,7 @@
     "mobs": [
       {
         "mob": "mod_lavacow:foglet",
-        "weight": 6,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 4
       }

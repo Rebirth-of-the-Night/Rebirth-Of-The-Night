@@ -130,7 +130,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
-<dungeontactics:steel_ingot>.displayName = "Crude Steel Ingot";
+<dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
+
+// Cyclic
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 
 
 // Rustic
@@ -249,9 +252,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <pyrotech:material:2>.displayName = "Dried Jute";
 <pyrotech:material>.displayName = "Big Pile of Ash Remains";
 <pyrotech:brick_kiln>.displayName = "Brick Kiln";
-<pyrotech:material:35>.displayName = "Lump of Refracotry Material";
-<pyrotech:material:4>.displayName = "Refracotry Material";
-game.setLocalization("tile.pyrotech:anvil_granite.name","Multipurpose Stone Anvil");
+<pyrotech:material:35>.displayName = "Lump of Refractory Material";
+<pyrotech:material:4>.displayName = "Refractory Material";
+game.setLocalization("tile.pyrotech:anvil_granite.name","Multi-Purpose Stone Anvil");
 game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anvil");
 
 // Animania
