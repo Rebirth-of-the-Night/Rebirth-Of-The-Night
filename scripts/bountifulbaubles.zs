@@ -73,14 +73,14 @@ recipes.remove(<bountifulbaubles:amuletsingluttony>);
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletsingluttony>,[
 [null, <contenttweaker:strength_rune>.anyDamage().transformDamage(), null],
 [<bountifulbaubles:spectralsilt>, <bountifulbaubles:amuletsinempty>, <bountifulbaubles:spectralsilt>], 
-[null, <minecraft:golden_apple>, null]], 16);
+[<mod_lavacow:scythe_claw>, <minecraft:golden_apple>, <mod_lavacow:scythe_claw>]], 16);
 
 // Ender Dragon Scale
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketblackdragonscale>,[
-[<bountifulbaubles:spectralsilt>, <bountifulbaubles:brokenblackdragonscale>, <bountifulbaubles:spectralsilt>],
+[<bountifulbaubles:spectralsilt>, <bountifulbaubles:brokenblackdragonscale>, <simpleores:onyx_gem>],
 [<quark:black_ash>, <contenttweaker:nether_rune>.anyDamage().transformDamage(), <quark:black_ash>], 
-[<bountifulbaubles:spectralsilt>, <bountifulbaubles:brokenblackdragonscale>, <bountifulbaubles:spectralsilt>]], 32);
+[<simpleores:onyx_gem>, <bountifulbaubles:brokenblackdragonscale>, <bountifulbaubles:spectralsilt>]], 32);
 
 // Obsidian Skull
 
@@ -168,9 +168,9 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketapple>,[
 recipes.remove(<bountifulbaubles:trinketbrokenheart>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketbrokenheart>,[
-[<scalinghealth:heartdust>, <contenttweaker:soul_rune>.anyDamage().transformDamage(), <scalinghealth:heartdust>],
+[<scalinghealth:heartcontainer>, <contenttweaker:soul_rune>.anyDamage().transformDamage(), <scalinghealth:heartcontainer>],
 [<bountifulbaubles:spectralsilt>, <twilightforest:charm_of_life_2>, <bountifulbaubles:spectralsilt>], 
-[<scalinghealth:heartdust>, <contenttweaker:life_rune>.anyDamage().transformDamage(), <scalinghealth:heartdust>]], 32);
+[<scalinghealth:heartcontainer>, <contenttweaker:life_rune>.anyDamage().transformDamage(), <scalinghealth:heartcontainer>]], 64);
    
 // Bezoar
 
@@ -179,7 +179,7 @@ recipes.remove(<bountifulbaubles:trinketbezoar>);
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketbezoar>,[
 [<mowziesmobs:naga_fang>, <bountifulbaubles:spectralsilt>, <minecraft:poisonous_potato>],
 [<bountifulbaubles:spectralsilt>, <contenttweaker:poison_orb>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>], 
-[<minecraft:fermented_spider_eye>, <bountifulbaubles:spectralsilt>, <iceandfire:myrmex_stinger>]], 32);
+[<betterwithmods:material:54>, <bountifulbaubles:spectralsilt>, <iceandfire:myrmex_stinger>]], 32);
    
 // Shulker Heart
 
@@ -195,7 +195,7 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketshulkerheart>,[
 recipes.remove(<bountifulbaubles:ringoverclocking>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringoverclocking>,[
-[<bountifulbaubles:spectralsilt>, <contenttweaker:material_part:8>, <bountifulbaubles:spectralsilt>],
+[<bountifulbaubles:spectralsilt>, <netherex:coolmar_spider_fang>, <bountifulbaubles:spectralsilt>],
 [<contenttweaker:material_part:8>, <qualitytools:emerald_ring>, <contenttweaker:material_part:8>], 
 [<bountifulbaubles:spectralsilt>, <contenttweaker:energy_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]],32);
    

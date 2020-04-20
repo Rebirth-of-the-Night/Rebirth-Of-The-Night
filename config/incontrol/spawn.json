@@ -2144,7 +2144,32 @@
     "mob": "mod_lavacow:boneworm",
     "result": "deny"
  },
- 
+
+  {
+    "dimension": -1,
+    "mob": "mod_lavacow:boneworm",
+	"biome": ["Phantasmagoric Inferno", "Visceral Heap"],
+    "gamestage": "minedMythril",
+	"block": ["minecraft:soul_sand", "biomesoplenty:flesh", "biomesoplenty:ash_block"],
+	"random": 0.20,
+	"maxlight": 7,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow",
+	"damagemultiply": 1.5,
+    "healthmultiply": 1.5,
+	"potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,100000,1", "extraalchemy:effect.concentration"]
+ },
+ {
+    "dimension": -1,
+    "mob": "mod_lavacow:boneworm",
+    "result": "deny"
+ },
+
+
  {
     "dimension": 0,
     "mob": "mod_lavacow:undeadswine",
