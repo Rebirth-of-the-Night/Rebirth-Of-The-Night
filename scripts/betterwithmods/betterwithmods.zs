@@ -17,6 +17,11 @@ recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
 recipes.removeByRecipeName("betterwithmods:decompress/melon_decompress");
 recipes.removeByRecipeName("betterwithmods:blocks/shaft_back");
+recipes.removeByRecipeName("betterwithmods:piles/sand_0");
+recipes.removeByRecipeName("betterwithmods:piles/gravel");
+recipes.removeByRecipeName("betterwithmods:piles/red_sand_pile");
+recipes.removeByRecipeName("betterwithmods:piles/dirt_0");
+
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 mods.jei.JEI.removeAndHide(<betterwithmods:shaft>);

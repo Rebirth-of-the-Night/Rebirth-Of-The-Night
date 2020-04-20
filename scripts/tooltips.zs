@@ -103,7 +103,6 @@
 
 <mod_lavacow:ptera_wing_cooked>.addTooltip("Has a rough, leathery texture. Extraordinarily chewy.");
 
-
 #Rustic
 <rustic:vase>.addTooltip("Storage container. While in hand, sneak and scroll with mouse wheel to cycle between patterns.");
 

@@ -36,7 +36,6 @@ minecraft:trapped_chest
 minecraft:trapdoor
 minecraft:torch
 minecraft:tnt_minecart
-minecraft:tnt
 minecraft:string_to_wool
 minecraft:stonebrick
 minecraft:stone_stairs
@@ -288,7 +287,6 @@ minecraft:compass
 minecraft:comparator
 minecraft:cobblestone_wall
 minecraft:cobblestone_slab
-minecraft:coarse_dirt
 minecraft:coal_block
 minecraft:coal
 minecraft:clock
@@ -610,9 +608,6 @@ biomesoplenty:ebony_fence_gate
 biomesoplenty:ebony_fence
 biomesoplenty:ebony_door
 biomesoplenty:dead_terrarium
-biomesoplenty:coarse_silty_dirt
-biomesoplenty:coarse_sandy_dirt
-biomesoplenty:coarse_loamy_dirt
 biomesoplenty:coal_from_ash
 biomesoplenty:chiseled_white_sandstone
 biomesoplenty:cherry_wooden_slab
@@ -639,7 +634,6 @@ biomesoplenty:boat_eucalyptus
 biomesoplenty:boat_ethereal
 biomesoplenty:boat_ebony
 biomesoplenty:boat_cherry
-biomesoplenty:beach_terrarium
 biomesoplenty:bamboo_thatching
 biomesoplenty:bamboo_terrarium
 biomesoplenty:ash_block
@@ -1974,10 +1968,7 @@ sereneseasons:greenhouse_glass
 betterwithmods:web
 betterwithmods:saddle_recipe
 betterwithmods:piles/sand_1
-betterwithmods:piles/sand_0
-betterwithmods:piles/gravel
 betterwithmods:piles/dirt_slab_1
-betterwithmods:piles/dirt_0
 betterwithmods:piles/dirt
 betterwithmods:items/void_urn
 betterwithmods:items/tanned_leather_cut
@@ -2846,7 +2837,6 @@ rats:marbled_cheese_stairs
 rats:marbled_cheese_slab
 rats:marbled_cheese_pillar
 rats:marbled_cheese_grass
-rats:marbled_cheese_dirt
 rats:marbled_cheese_chiseled
 rats:marbled_cheese_brick_stairs
 rats:marbled_cheese_brick_slab
@@ -3527,14 +3517,6 @@ twilightforest:arctic_armor_dyeing
 twilightforest:magic_map_cloning
 twilightforest:maze_map_cloning
 twilightforest:ore_map_cloning
-quark:chute
-quark:sugar_block
-quark:iron_button_1
-quark:gold_button_1
-quark:iron_rod
-quark:gravisand
-quark:obsidian_pressure_plate
-quark:rain_detector
 quark:clay_ball
 quark:glass
 quark:stained_glass
@@ -3553,6 +3535,28 @@ quark:stained_glass_12
 quark:stained_glass_13
 quark:stained_glass_14
 quark:stained_glass_15
+quark:chute
+quark:sugar_block
+quark:iron_button_1
+quark:gold_button_1
+quark:iron_rod
+quark:gravisand
+quark:obsidian_pressure_plate
+quark:rain_detector
+quark:arrow_ender
+quark:arrow_explosive
+quark:arrow_torch
+quark:map_pinning
+quark:dispenser
+quark:repeater
+quark:furnace_minecart
+quark:hopper_minecart
+quark:tnt_minecart
+quark:chest_minecart_1
+quark:horse_whistle
+quark:elytra_duplication
+quark:elytra_dyeing
+quark:firework_cloning
 quark:paper_wall
 quark:paper_wall_big
 quark:paper_wall_sakura
@@ -3769,7 +3773,6 @@ quark:iron_plate_2
 quark:sandy_bricks_stairs
 quark:sandy_bricks_slab
 quark:sandy_bricks_wall
-quark:sandy_bricks
 quark:stone_stairs
 quark:stone_granite_stairs
 quark:stone_granite_slab
@@ -3876,18 +3879,6 @@ quark:quilted_wool_12
 quark:quilted_wool_13
 quark:quilted_wool_14
 quark:quilted_wool_15
-quark:arrow_ender
-quark:arrow_explosive
-quark:arrow_torch
-quark:map_pinning
-quark:dispenser
-quark:repeater
-quark:furnace_minecart
-quark:hopper_minecart
-quark:tnt_minecart
-quark:chest_minecart_1
-quark:horse_whistle
-quark:elytra_duplication
 quark:biotite_slab
 quark:biotite_stairs
 quark:biotite_wall
@@ -3919,17 +3910,6 @@ quark:elder_prismarine_wall
 quark:elder_prismarine_bricks_wall
 quark:elder_prismarine_dark_wall
 quark:mushroom_stew
-quark:elytra_dyeing
-quark:firework_cloning
-quark:redstone_randomizer
-quark:ender_watcher
-quark:slime
-quark:color_slime
-quark:color_slime_1
-quark:color_slime_2
-quark:color_slime_3
-quark:color_slime_4
-quark:redstone_inductor
 quark:slabs_to_stairs
 quark:stairs_to_blocks
 quark:wool
@@ -3996,6 +3976,15 @@ quark:wool_30
 quark:wool_31
 quark:quilted_wool_46
 quark:quilted_wool_47
+quark:redstone_randomizer
+quark:ender_watcher
+quark:slime
+quark:color_slime
+quark:color_slime_1
+quark:color_slime_2
+quark:color_slime_3
+quark:redstone_inductor
+quark:pickarang
 quark:spruce_trapdoor
 quark:birch_trapdoor
 quark:jungle_trapdoor
@@ -4079,7 +4068,6 @@ quark:stained_planks_31
 quark:world_stone_pavement
 quark:world_stone_pavement_1
 quark:world_stone_pavement_2
-quark:pickarang
 quark:crystal_pane
 quark:crystal_pane_1
 quark:crystal_pane_2
@@ -4490,7 +4478,6 @@ rustic:ironwoodseed
 rustic:olivesapling
 rustic:ironwoodsapling
 betterwithmods:armor_dye
-dynamictrees:dirtbucket
 dynamictrees:oakseed
 dynamictrees:oaksapling
 dynamictrees:spruceseed
@@ -4644,6 +4631,7 @@ crafttweaker:mud_brick_stairs
 crafttweaker:mud_bricks_from_stairs
 crafttweaker:white_sandstone_stairs
 crafttweaker:white_sandstone_from_stairs
+crafttweaker:beach_terrarium
 crafttweaker:cracked scale
 crafttweaker:balloon
 crafttweaker:sin pendant
@@ -4698,7 +4686,6 @@ crafttweaker:disintrune216
 crafttweaker:disintrune217
 crafttweaker:disintrune218
 crafttweaker:disintrune219
-crafttweaker:disintrune221
 crafttweaker:disintrune31
 crafttweaker:disintrune32
 crafttweaker:disintrune33
@@ -4716,8 +4703,6 @@ crafttweaker:disintrune314
 crafttweaker:disintrune315
 crafttweaker:disintrune316
 crafttweaker:disintrune317
-crafttweaker:disintrune318
-crafttweaker:disintrune319
 crafttweaker:disintrune320
 crafttweaker:disintrune321
 crafttweaker:disintrune322
@@ -4730,6 +4715,7 @@ crafttweaker:disintrune328
 crafttweaker:disintrune329
 crafttweaker:disintrune330
 crafttweaker:disintrune331
+crafttweaker:disintrune319
 crafttweaker:disintrune41
 crafttweaker:disintrune42
 crafttweaker:disintrune43
@@ -4745,8 +4731,6 @@ crafttweaker:disintrune412
 crafttweaker:disintrune413
 crafttweaker:disintrune414
 crafttweaker:disintrune415
-crafttweaker:disintrune416
-crafttweaker:disintrune417
 crafttweaker:disintrune51
 crafttweaker:disintrune52
 crafttweaker:disintrune53
@@ -4833,6 +4817,22 @@ crafttweaker:green_from_lime
 crafttweaker:cyan_dye
 crafttweaker:lime_from_green
 crafttweaker:purple_dye
+crafttweaker:magenta_dye
+crafttweaker:blue_from_light_blue
+crafttweaker:light_blue_from_blue
+crafttweaker:red_from_pink
+crafttweaker:pink_from_red
+crafttweaker:orange_dye
+crafttweaker:gray_from_black
+crafttweaker:light_gray_from_gray
+crafttweaker:white_from_light_gray
+crafttweaker:light_gray_from_white
+crafttweaker:gray_from_light_gray
+crafttweaker:black_from_gray
+crafttweaker:brown_dye
+crafttweaker:brown_dye_orange
+crafttweaker:brown_dye_green
+crafttweaker:brown_dye_purple
 crafttweaker:electrum_to_block
 crafttweaker:block_to_electrum
 crafttweaker:electrum_to_plateblock
@@ -4840,7 +4840,6 @@ crafttweaker:electrum_nugget_to_ingot
 crafttweaker:ingot_to_electrum_nugget
 crafttweaker:gold_silver_mixture
 crafttweaker:gold_silver_mixture_return
-crafttweaker:magnitifus
 crafttweaker:smooth_end_stone
 crafttweaker:xorcite
 crafttweaker:string of life
@@ -4914,11 +4913,17 @@ crafttweaker:bridgestack_spruce
 crafttweaker:bridgestack_jungle
 crafttweaker:bridgestack_acacia
 crafttweaker:bridgestack_dark_oak
+crafttweaker:dirt_bucket
 crafttweaker:season_sensor
 crafttweaker:minecraft_rabbit_stew_from_mushroom
 crafttweaker:betteranimalsplus_milk_to_cheese
 crafttweaker:minecraftfuture_stew/sustew
 crafttweaker:wards_ward
+crafttweaker:tnt
+crafttweaker:ct_shaped-285884472
+crafttweaker:ct_shaped770323809
+crafttweaker:ct_shaped902871485
+crafttweaker:ct_shaped883420108
 crafttweaker:stone_brick_slab
 crafttweaker:stone_brick_stairs_brick
 crafttweaker:stone_brick_stairs_slab
@@ -4926,7 +4931,7 @@ crafttweaker:stone_brick_from_stairs
 crafttweaker:armor_stand
 crafttweaker:fishing_rod
 crafttweaker:detector_rail
-crafttweaker:ct_shaped-1358233676
+crafttweaker:wooden_chute
 crafttweaker:white_concrete_powder
 crafttweaker:orange_concrete_powder
 crafttweaker:magenta_concrete_powder
@@ -5024,27 +5029,35 @@ crafttweaker:rock_conversion
 crafttweaker:drytotwine
 crafttweaker:ash_conversion
 crafttweaker:twinetostring
-crafttweaker:pyro stone brick
-crafttweaker:pyrorock stone brick
-crafttweaker:pyro stone kiln
-crafttweaker:pyro stone anvil
-crafttweaker:pyro steel anvil
-crafttweaker:pyro brick kiln
-crafttweaker:pyro log pile
+crafttweaker:pyro_stone_brick
+crafttweaker:pyrorock_stone_brick
+crafttweaker:pyro_stone_kiln
+crafttweaker:pyro_stone_anvil
+crafttweaker:pyro_steel_anvil
+crafttweaker:pyro_brick_kiln
+crafttweaker:pyro_log_pile
 crafttweaker:compacting_bin
 crafttweaker:potash_mulch1
 crafttweaker:potash_mulch2
-crafttweaker:pyro wooden bucket
-crafttweaker:pyro stone door
-crafttweaker:pyro shelf
-crafttweaker:pyro stash
-crafttweaker:pyro stone tank
-crafttweaker:pyro stone faucet
-crafttweaker:pyro clay bucket
-crafttweaker:pyro bow_drill
+crafttweaker:pyro_wooden_bucket
+crafttweaker:pyro_stone_door
+crafttweaker:pyro_refractory_door
+crafttweaker:pyro_shelf
+crafttweaker:pyro_stash
+crafttweaker:pyro_stone_tank
+crafttweaker:pyro_refractory_tank
+crafttweaker:pyro_refractory_glass
+crafttweaker:pyro_refractory_igniter
+crafttweaker:pyro_stone_faucet
+crafttweaker:pyro_refractory_faucet
+crafttweaker:pyro_clay_bucket
+crafttweaker:pyro_bow_drill
 crafttweaker:pyro_flint_and_tinder_for_survivors
-crafttweaker:pyro flint_and_tinder_for_pussies
+crafttweaker:pyro_refracotrymaterial_refractorylump
+crafttweaker:pyro_unfiredlime_lime
+crafttweaker:pyro_flint_and_tinder_for_pussies
 crafttweaker:masonry_stonebricks
+crafttweaker:masonry_refractorybricks
 crafttweaker:drying_rack
 crafttweaker:soaking_pot
 crafttweaker:pyro_chopping_block
@@ -5052,12 +5065,16 @@ crafttweaker:pyro_stone_sawmill
 crafttweaker:crude_fishing_pole
 crafttweaker:quilting_sail
 crafttweaker:iron_sawblade
-crafttweaker:tar_collector
-crafttweaker:tar_drain
+crafttweaker:stonetar_collector
+crafttweaker:stonetar_drain
+crafttweaker:refractory_collector
+crafttweaker:refractory_drain
 crafttweaker:standing_dryingrack
 crafttweaker:stone_sledgehammer
 crafttweaker:iron_sledgehammer
 crafttweaker:onyx_sledgehammer
+crafttweaker:sandy_bricks
+crafttweaker:midori_block
 crafttweaker:iron plate
 crafttweaker:quark backpack
 crafttweaker:tin ladder
@@ -5088,6 +5105,11 @@ crafttweaker:quark crystal 0-1
 crafttweaker:quark crystal 0-2
 crafttweaker:soul bead to soul powder
 crafttweaker:soul sand and magic dust
+crafttweaker:mixed_green_slime_block
+crafttweaker:dyed_yellow_slime_block
+crafttweaker:dyed_cyan_slime_block
+crafttweaker:dyed_magenta_slime_block
+crafttweaker:marbled_cheese_dirt
 crafttweaker:rat_toga
 crafttweaker:rat_voodoo
 crafttweaker:feathery_wing
@@ -5106,7 +5128,7 @@ crafttweaker:moldytreacle
 crafttweaker:ct_shapeless1587275660
 crafttweaker:ct_shapeless-1729359533
 crafttweaker:ct_shaped-838815585
-crafttweaker:ct_shaped1193643517
+crafttweaker:ct_shaped878176044
 crafttweaker:ct_shaped170354842
 crafttweaker:ct_shaped1121980610
 crafttweaker:ct_shaped-953755225
@@ -5162,14 +5184,6 @@ crafttweaker:ct_shapeless773904098
 crafttweaker:ct_shapeless-460469198
 crafttweaker:ct_shapeless1956860147
 crafttweaker:ct_shapeless-618736862
-crafttweaker:ct_shaped1780469442
-crafttweaker:ct_shaped2054100212
-crafttweaker:ct_shaped682477424
-crafttweaker:ct_shaped-1936223954
-crafttweaker:ct_shaped842938775
-crafttweaker:ct_shaped-375856651
-crafttweaker:ct_shaped-193614148
-crafttweaker:ct_shaped1524733469
 crafttweaker:ct_shapeless-1032180527
 crafttweaker:ct_shapeless1391115368
 crafttweaker:ct_shapeless695351440
@@ -5353,12 +5367,12 @@ crafttweaker:popped_chorus_fruit
 crafttweaker:enchanted paper
 betterwithmods:torch
 betterwithmods:baiting_recipe
-betterwithmods:siding_wood
-betterwithmods:moulding_wood
-betterwithmods:corner_wood
 betterwithmods:siding_rock
 betterwithmods:moulding_rock
 betterwithmods:corner_rock
 betterwithmods:siding_iron
 betterwithmods:moulding_iron
 betterwithmods:corner_iron
+betterwithmods:siding_wood
+betterwithmods:moulding_wood
+betterwithmods:corner_wood

@@ -79,3 +79,6 @@ recipes.addShapedMirrored("white_sandstone_stairs",<biomesoplenty:white_sandston
     [<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>,<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>,<biomesoplenty:white_sandstone:0>|<biomesoplenty:white_sandstone:1>|<biomesoplenty:white_sandstone:2>]
 ]);
 recipes.addShapeless("white_sandstone_from_stairs",<biomesoplenty:white_sandstone:0>*3,[<biomesoplenty:white_sandstone_stairs:0>,<biomesoplenty:white_sandstone_stairs:0>,<biomesoplenty:white_sandstone_stairs:0>,<biomesoplenty:white_sandstone_stairs:0>]);
+
+recipes.remove(<biomesoplenty:terrarium:7>);
+recipes.addShapeless("beach_terrarium",<biomesoplenty:terrarium:7>,[<ore:sand>,<biomesoplenty:double_plant:3>,<biomesoplenty:jar_empty>]);

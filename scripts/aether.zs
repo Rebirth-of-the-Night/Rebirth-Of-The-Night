@@ -106,7 +106,7 @@ mods.ltt.LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:iron_bubble");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
 
-var sand = <minecraft:sand>;
+var sand = <ore:sand>;
 var shard = <aether_legacy:ambrosium_shard>;
 
 recipes.addShaped("quicksoil", <aether_legacy:quicksoil>*8,[

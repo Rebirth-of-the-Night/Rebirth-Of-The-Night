@@ -1,6 +1,9 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
+recipes.remove(<rats:marbled_cheese_dirt>);
+recipes.addShapeless("marbled_cheese_dirt",<rats:marbled_cheese_dirt>,[<rats:marbled_cheese>,<ore:dirt>]);
+
 // renamed
 <rats:tiny_coin>.displayName = "§aInsignia of the Giant Rat";
 <rats:vial_of_sentience>.displayName = "§cGod-Essence";

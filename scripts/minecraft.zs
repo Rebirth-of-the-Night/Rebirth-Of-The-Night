@@ -13,6 +13,9 @@ brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:exper
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
 
+recipes.remove(<dynamictrees:dirtbucket>);
+recipes.addShapeless("dirt_bucket",<dynamictrees:dirtbucket>,[<minecraft:bucket>,<ore:dirt>]);
+
 recipes.remove(<sereneseasons:season_sensor_spring>);
 recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
     [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
@@ -60,6 +63,24 @@ recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("minecraft:repeater");
 recipes.removeByRecipeName("minecraft:bone_meal_from_block");
+
+recipes.remove(<minecraft:tnt>);
+recipes.addShaped("tnt",<minecraft:tnt>,[
+    [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>],
+    [<ore:sand>,<minecraft:gunpowder>,<ore:sand>],
+    [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>]
+]);
+
+val coarseMatArray = [<minecraft:dirt:0>,<biomesoplenty:dirt:2>,<biomesoplenty:dirt:1>,<biomesoplenty:dirt:0>] as IItemStack[];
+val coarseDirtArray = [<minecraft:dirt:1>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>,<biomesoplenty:dirt:8>] as IItemStack[];
+
+for i,dirt in coarseDirtArray{
+    recipes.remove(dirt);
+    recipes.addShaped(dirt,[
+        [coarseMatArray[i],<ore:gravel>],
+        [<ore:gravel>,coarseMatArray[i]]
+    ]);
+}
 
 recipes.remove(<minecraft:fish:0>);
 recipes.remove(<minecraft:stone_slab:5>);
@@ -242,6 +263,11 @@ recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>,
 [<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
 
 //Ore Dictionary Entries
+<ore:sand>.add(<minecraft:sand:1>);
+
+val dirt = <ore:dirt>;
+dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>]);
+
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
 
