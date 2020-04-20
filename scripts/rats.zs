@@ -160,11 +160,11 @@ recipes.addShaped("rats_tnt_expert", <rats:rat_upgrade_tnt_survivor>,[
     [<rats:charged_creeper_chunk>, <betterwithmods:mining_charge>, <rats:charged_creeper_chunk>]
 ]);
 
-//recipes.addShaped("rats_disenchanter_upgrade", <rats:rat_upgrade_disenchanter>,[
+/* recipes.addShaped("rats_disenchanter_upgrade", <rats:rat_upgrade_disenchanter>,[
 	[<bountifulbaubles:disintegrationtablet>, <disenchanter:disenchantmenttable>, <bountifulbaubles:disintegrationtablet>],
     [<dungeontactics:mithril_ingot>, <rats:rat_upgrade_enchanter>, <dungeontactics:mithril_ingot>],
     [<bountifulbaubles:disintegrationtablet>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:disintegrationtablet>]
-]);
+]); */
 
 recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
     [<minecraft:iron_ingot>, <spartanshields:shield_basic_iron>, <minecraft:iron_ingot>],
