@@ -2161,7 +2161,7 @@
     "result": "allow",
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
-	"potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,100000,1", "extraalchemy:effect.concentration"]
+	"potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,100000,1", "extraalchemy:effect.concentration,100000,1"]
  },
  {
     "dimension": -1,
