@@ -2,7 +2,6 @@
 .curseclient
 minecraftinstance.json
 crafttweaker.log
-options.txt
 optionsof.txt
 config/Embassy/AMLocation.txt
 knownkeys.txt
