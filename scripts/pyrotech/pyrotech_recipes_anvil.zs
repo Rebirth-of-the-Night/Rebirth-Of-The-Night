@@ -51,7 +51,6 @@ GraniteAnvil.addRecipe("cobblestone any cobblestone", <minecraft:cobblestone>, <
 GraniteAnvil.addRecipe("copper_tin_to_pebbles", <contenttweaker:copper_tin_pebbles>*4, <contenttweaker:copper_tin_mixture>, 8, "hammer", true);
 GraniteAnvil.addRecipe("silver_gold_ambrosium_to_pebbles", <contenttweaker:silver_gold_pebbles>*8, <contenttweaker:silver_gold_mixture>, 6, "hammer", true);
 GraniteAnvil.addRecipe("charcoal pile to charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);
-GraniteAnvil.addRecipe("log to wood chips",<pyrotech:rock:7>*12, <ore:logWood>, 32,"pickaxe", true);
 GraniteAnvil.addRecipe("log_to_pulp",<pyrotech:material:25>*6, <ore:barkWood>, 32,"hammer", true);
 GraniteAnvil.addRecipe("kenaf_to_pulp",<pyrotech:material:25>*4, <ore:cropKenaf>, 8, "hammer", true);
 GraniteAnvil.addRecipe("crab murder",<quark:crab_shell>*2, <harvestcraft:crabrawitem>, 1,"hammer", true);
