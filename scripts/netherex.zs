@@ -72,6 +72,15 @@ recipes.addShaped("nether_brick_fence_gate",<netherex:nether_brick_fence_gate>*6
     [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>]
 ]);
 
+recipes.removeByRecipeName("netherex:basalt");
+recipes.addShapeless("black_basalt",<netherex:basalt>,[<netherex:smooth_basalt>]);
+
+recipes.removeByRecipeName("netherex:smooth_basalt_1");
+recipes.addShapeless("smooth_black_basalt",<netherex:smooth_basalt>,[<netherex:basalt_brick>]);
+
+recipes.removeByRecipeName("netherex:basalt_brick_1");
+recipes.addShapeless("black_basalt_bricks",<netherex:basalt_brick>,[<netherex:basalt_pillar>]);
+
 var slabArray = [<netherex:red_nether_brick_slab:0>,<netherex:gloomy_nether_brick_slab:0>,<netherex:lively_nether_brick_slab:0>,<netherex:fiery_nether_brick_slab:0>,<netherex:icy_nether_brick_slab:0>,<netherex:basalt_slab:0>,<netherex:smooth_basalt_slab:0>,<netherex:basalt_brick_slab:0>,<netherex:basalt_pillar_slab:0>] as IItemStack[];
 var stairArray = [<netherex:red_nether_brick_stairs>,<netherex:gloomy_nether_brick_stairs>,<netherex:lively_nether_brick_stairs>,<netherex:fiery_nether_brick_stairs>,<netherex:icy_nether_brick_stairs>,<netherex:basalt_stairs>,<netherex:smooth_basalt_stairs>,<netherex:basalt_brick_stairs>,<netherex:basalt_pillar_stairs>] as IItemStack[];
 

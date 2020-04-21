@@ -263,28 +263,36 @@ recipes.addShaped("wireless_transmitter",<lwr:blockwirelesstransmitter>, [[null,
 val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;
 
-recipes.addShaped("Flintstone Axe", <minecraft:stone_axe>,[
+recipes.addShaped("flintstone_axe", <minecraft:stone_axe>,[
 	[flint, flint, null],
     [flint, stick, null],
     [null, stick, null]
 ]);
 
-recipes.addShaped("Flintstone Hoe", <minecraft:stone_hoe>,[
+recipes.addShaped("flintstone_hoe", <minecraft:stone_hoe>,[
 	[flint, flint, null],
     [null, stick, null],
     [null, stick, null]
 ]);
 
-recipes.addShaped("Flintstone Shovel", <minecraft:stone_shovel>,[
+recipes.addShaped("flintstone_shovel", <minecraft:stone_shovel>,[
 	[null, flint, null],
     [null, stick, null],
     [null, stick, null]
 ]);
 
-recipes.addShaped("Flintstone Pickaxe", <minecraft:stone_pickaxe>,[
+recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
 	[flint, flint, flint],
     [null, stick, null],
     [null, stick, null]
+]);
+
+var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>;
+
+recipes.addShaped("wooden_door",<minecraft:wooden_door>,[
+    [woodenDoorMat,woodenDoorMat],
+    [woodenDoorMat,woodenDoorMat],
+    [woodenDoorMat,woodenDoorMat]
 ]);
 
 mods.jei.JEI.removeAndHide(<minecraft:shield>);

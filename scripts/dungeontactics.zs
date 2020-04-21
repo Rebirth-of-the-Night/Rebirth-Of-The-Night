@@ -57,6 +57,14 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_s
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
 
+<ore:stoneButton>.add(<minecraft:stone_button>);
+<ore:stoneButton>.addItems(itemUtils.getItemsByRegexRegistryName("undergroundbiomes:.*button:.*"));
+recipes.remove(<dungeontactics:rocket_pants>);
+recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
+    [<minecraft:redstone>,<ore:stoneButton>,<minecraft:redstone>],
+    [<minecraft:fireworks>,<minecraft:leather_leggings>,<minecraft:fireworks>],
+    [<minecraft:fireworks>,<minecraft:iron_ingot>,<minecraft:fireworks>]
+]);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);
 

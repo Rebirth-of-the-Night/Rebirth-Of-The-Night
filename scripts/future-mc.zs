@@ -10,7 +10,7 @@ recipes.addShaped("minecraftfuture_else/smoothstonerecipe", <minecraft:stone_sla
   [<minecraftfuture:smoothstone>,<minecraftfuture:smoothstone>,<minecraftfuture:smoothstone>],
   [null,null,null]]);
 
-var a = <minecraft:stone>;
+var a = <ore:stone>;
 var b = <iceandfire:silver_ingot>;
 
 //igneous stone blocks
@@ -377,6 +377,10 @@ mods.minecraftfuture.Smoker.addRecipe(<animania:raw_frog_legs>,
 									  <animania:cooked_frog_legs>);
 mods.minecraftfuture.Smoker.addRecipe(<animania:raw_horse>, 
 									  <animania:cooked_horse>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_chevon>, 
+									  <animania:cooked_chevon>);
+mods.minecraftfuture.Smoker.addRecipe(<animania:raw_peacock>, 
+									  <animania:cooked_peacock>);
 
 /****** Harvestcraft ******/
 
@@ -520,6 +524,10 @@ mods.minecraftfuture.Campfire.addRecipe(<animania:raw_frog_legs>,
 									    <animania:cooked_frog_legs>, 600);
 mods.minecraftfuture.Campfire.addRecipe(<animania:raw_horse>, 
 									    <animania:cooked_horse>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_chevon>, 
+									    <animania:cooked_chevon>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<animania:raw_peacock>, 
+									    <animania:cooked_peacock>, 600);
 
 /****** Harvestcraft ******/
 

@@ -153,6 +153,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:cobblestone_wall:1>.displayName = "Moss Cobblestone Wall";
 <minecraft:stone:5>.displayName = "Gray Andesite";
 <minecraft:stone:6>.displayName = "Polished Gray Andesite";
+<minecraft:wooden_door>.displayName = "Wooden Door";
+<minecraft:chest>.displayName = "Wooden Chest";
+<minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
 
 // Minecraft Future
 <minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
@@ -212,6 +215,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:bone_plate>.displayName = "Hardened Bone Pressure Plate";
 <betternether:bone_wall>.displayName = "Hardened Bone Wall";
 <betternether:bone_tile>.displayName = "Hardened Bone Tile";
+<betternether:smoker>.displayName = "Smoker Plant";
 
 // NetherEX
 <netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";

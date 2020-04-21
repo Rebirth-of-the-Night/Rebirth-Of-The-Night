@@ -119,7 +119,8 @@ val bwaArray = [
 <betterwithaddons:leaves_sakura>,
 <betterwithaddons:worldshard>,
 <betterwithaddons:world_scale:*>,
-<betterwithaddons:world_scale_active:*>
+<betterwithaddons:world_scale_active:*>,
+<betterwithaddons:leafpile_sakura>
 ] as IItemStack[];
 
 for item in bwaArray {
@@ -189,6 +190,10 @@ mods.betterwithmods.Cauldron.remove([<betterwithaddons:wool:15>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:decomat:1>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:decomat:2>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:pavement:0>]);
+mods.betterwithmods.Saw.remove(<betterwithaddons:planks_sakura>);
+mods.betterwithmods.Saw.remove(<betterwithmods:moulding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
+mods.betterwithmods.Saw.remove(<betterwithmods:siding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
+mods.betterwithmods.Saw.remove(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
 
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);

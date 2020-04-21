@@ -5,6 +5,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 recipes.removeByRecipeName("qualitytools:reforging_station");
+recipes.removeByRecipeName("undergroundbiomes:vanilla_button");
 
 recipes.addShaped("forgiving tool reforging station", <qualitytools:reforging_station>,[
 	[<ore:hammerTool>, null, <quark:black_ash>],
