@@ -36,6 +36,14 @@ Dropt.list("fortune_essence")
 		  )	 
   );
 
+Dropt.list("decayed_scaffolding")
+
+  .add(Dropt.rule()
+      .matchBlocks(["cyclicmagic:block_fragile"])
+      .matchDrops([<cyclicmagic:block_fragile>])
+      .replaceStrategy("REPLACE_ITEMS")
+      .addDrop(Dropt.drop())
+  );
 
 
 Dropt.list("fortune_essence_biotite")
