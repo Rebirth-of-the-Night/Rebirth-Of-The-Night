@@ -615,3 +615,4 @@ Thus, the block resistances are 24.2 (charged creepers), 15.534 (TNT), 11.2 (cre
 */	
 
 <simpleores:onyx_block>.hardness = 100.0;
+<cyclicmagic:block_fragile>.hardness = 1.0;
