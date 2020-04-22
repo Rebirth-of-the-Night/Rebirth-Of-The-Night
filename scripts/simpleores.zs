@@ -93,9 +93,16 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_sword>, [
    [null, mrod, null, null],
    [myth, null, null, null]
 ]);
-mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_bow>, [
+
+val enchantmentsMythrilBow as IEnchantmentDefinition[] = [<enchantment:randomenchantments:phasing>, <enchantment:randomenchantments:back_to_the_chamber>];
+var enchantmentMapMythrilBow as IData = {};
+
+enchantmentMapMythrilBow += enchantmentsMythrilBow[0].makeEnchantment(1).makeTag();
+enchantmentMapMythrilBow += enchantmentsMythrilBow[1].makeEnchantment(1).makeTag();
+
+mods.betterwithmods.Anvil.addShaped(<simpleores:mythril_bow>.withTag(enchantmentMapMythrilBow), [
    [null, null, null, mrod],
-   [null, diam, myth, strings],
+   [null, brod, myth, strings],
    [null, myth, strings, null],
    [mrod, strings, null, null]
 ]);
