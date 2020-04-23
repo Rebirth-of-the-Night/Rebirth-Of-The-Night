@@ -1,8 +1,7 @@
 [
  {
     "dimension": 7,
-    "damagemultiply": 1.5,
-    "healthmultiply": 1.5
+    "damagemultiply": 2
  },
 
  {
