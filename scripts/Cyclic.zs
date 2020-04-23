@@ -25,10 +25,8 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:block_workbench>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:laser>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:imbuer>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>)
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
-
-;
 
 
 recipes.remove(<cyclicmagic:fluid_pipe>);
