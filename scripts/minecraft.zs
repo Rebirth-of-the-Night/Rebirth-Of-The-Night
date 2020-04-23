@@ -295,6 +295,18 @@ recipes.addShaped("wooden_door",<minecraft:wooden_door>,[
     [woodenDoorMat,woodenDoorMat]
 ]);
 
+var woodenBoatMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>;
+
+recipes.addShaped("wooden_boat",<minecraft:boat>,[
+    [woodenBoatMat,null,woodenBoatMat],
+    [woodenBoatMat,woodenBoatMat,woodenBoatMat]
+]);
+
+var woodenButtonMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|
+<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>;
+
+recipes.addShapeless("wooden_button",<minecraft:wooden_button>,[woodenButtonMat]);
+
 mods.jei.JEI.removeAndHide(<minecraft:shield>);
 mods.ltt.LootTable.removeGlobalItem("minecraft:shield");
 
@@ -314,6 +326,7 @@ recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>,
 [<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
 
 //Ore Dictionary Entries
+<ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 
 val dirt = <ore:dirt>;

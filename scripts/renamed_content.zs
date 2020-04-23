@@ -102,6 +102,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldron";
 <betterwithmods:aesthetic:0>.displayName = "Stone Chopping Block";
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
+<betterwithmods:bark:0>.displayName = "Wood Bark";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -156,6 +157,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:wooden_door>.displayName = "Wooden Door";
 <minecraft:chest>.displayName = "Wooden Chest";
 <minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
+<minecraft:trapdoor>.displayName = "Wooden Trapdoor";
+<minecraft:boat>.displayName = "Wooden Boat";
+<minecraft:wooden_button>.displayName = "Wooden Button";
 
 // Minecraft Future
 <minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
