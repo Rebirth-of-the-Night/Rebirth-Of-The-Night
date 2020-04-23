@@ -24,9 +24,12 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:melter>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_workbench>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:laser>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:imbuer>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slowest>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slowest_corner>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slowest_angle>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>)
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
+
+;
+
 
 recipes.remove(<cyclicmagic:fluid_pipe>);
 recipes.remove(<cyclicmagic:fluid_drain>);
@@ -53,9 +56,9 @@ recipes.remove(<cyclicmagic:tool_trade>);
 recipes.remove(<cyclicmagic:plate_push_fast>);
 recipes.remove(<cyclicmagic:plate_push_fast_corner>);
 recipes.remove(<cyclicmagic:plate_push_fast_angle>);
-recipes.remove(<cyclicmagic:plate_push_slow>);
-recipes.remove(<cyclicmagic:plate_push_slow_corner>);
-recipes.remove(<cyclicmagic:plate_push_slow_angle>);
+recipes.remove(<cyclicmagic:plate_push_slowest>);
+recipes.remove(<cyclicmagic:plate_push_slowest_corner>);
+recipes.remove(<cyclicmagic:plate_push_slowest_angle>);
 recipes.remove(<cyclicmagic:plate_push>);
 recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
