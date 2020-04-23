@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/staff",
+    "textures": {
+        "layer0":"spartanweaponry:items/staff_electrum"
+    }
+}
