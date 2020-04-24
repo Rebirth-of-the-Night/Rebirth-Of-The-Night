@@ -186,7 +186,13 @@ mods.minecraftfuture.Stonecutter.addOutputs(<biomesoplenty:white_sandstone:2>, /
 											<biomesoplenty:white_sandstone:1>); //Chiseled White Sandstone
 											
 											
-											
+//white stone recipes
+mods.minecraftfuture.Stonecutter.addOutputs(<betterwithmods:aesthetic:6>,
+											<betterwithaddons:whitebrick>,
+											<betterwithaddons:whitebrick:3>);
+
+mods.minecraftfuture.Stonecutter.addOutputs(<betterwithaddons:whitebrick>,
+											<betterwithaddons:whitebrick:3>);
 
 
 /*********************************************************************************

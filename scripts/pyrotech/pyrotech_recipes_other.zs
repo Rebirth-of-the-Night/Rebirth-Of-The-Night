@@ -45,6 +45,7 @@ SoakingPot.addRecipe("green_concrete", <minecraft:concrete:13>*8, <liquid:water>
 SoakingPot.addRecipe("red_concrete", <minecraft:concrete:14>*8, <liquid:water>*500, <minecraft:concrete_powder:14>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("black_concrete", <minecraft:concrete:15>*8, <liquid:water>*500, <minecraft:concrete_powder:15>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:4>*2, <liquid:water>*200, <pyrotech:rock:8>, 10 * 60 * 20);
+SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
 
 
 furnace.remove(<pyrotech:material:22>);
