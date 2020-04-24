@@ -28,7 +28,7 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <mine
 // Cracked Ender Dragon Scale
 
 recipes.addShapeless("Cracked Scale", <bountifulbaubles:brokenblackdragonscale>,
-   	[<quark:enderdragon_scale>, <quark:enderdragon_scale>, <quark:enderdragon_scale>]);
+   	[<endreborn:dragon_scales>, <endreborn:dragon_scales>, <endreborn:dragon_scales>]);
 
 // Balloon
 
@@ -132,7 +132,7 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketankhcharm>,[
 recipes.remove(<bountifulbaubles:trinketmixeddragonscale>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketmixeddragonscale>,[
-[null, <quark:enderdragon_scale>, null],
+[null, <endreborn:dragon_scales>, null],
 [<bountifulbaubles:trinketbezoar>, <minecraft:fermented_spider_eye>, <bountifulbaubles:trinketblackdragonscale>], 
 [<dungeontactics:charm_toxic>, <contenttweaker:spectral_shard>, <dungeontactics:charm_barren>]], 64);
    

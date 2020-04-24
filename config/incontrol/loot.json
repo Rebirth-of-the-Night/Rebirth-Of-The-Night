@@ -207,17 +207,11 @@
     "item": "quark:biotite",
     "itemcount": "5-7"
     },
-    {
-      "mob": "minecraft:ender_dragon",
-      "player": true,
-      "item": "bountifulbaubles:brokenblackdragonscale",
-      "itemcount": "7-10"
-   },
    {
       "mob": "minecraft:ender_dragon",
       "player": true,
-      "item": "quark:enderdragon_scale",
-      "itemcount": "7-10"
+      "item": "endreborn:dragon_scales",
+      "itemcount": "9-15"
    },
 
 
