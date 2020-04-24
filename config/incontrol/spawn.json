@@ -148,7 +148,7 @@
     "result": "allow"
  },
  {
-    "dimension": 0,
+    "dimension": [0,10,7,4],
     "mob": "trumpetskeleton:trumpet_skeleton",
     "result": "deny"
  },
