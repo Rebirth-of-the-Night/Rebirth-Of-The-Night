@@ -25,7 +25,7 @@ import crafttweaker.item.IIngredient;
 
 recipes.addShapeless("disintrune21", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketballoon>]);
 
-recipes.addShapeless("disintrune22", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <extraalchemy:potion_ring:0>]);
+//recipes.addShapeless("disintrune22", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <extraalchemy:potion_ring:0>]);
 
 recipes.addShapeless("disintrune23", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:brokenblackdragonscale>]);
 
@@ -41,7 +41,7 @@ recipes.addShapeless("disintrune28", <bountifulbaubles:spectralsilt> * 2, [<cont
 
 recipes.addShapeless("disintrune29", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:charm_of_keeping_1>]);
 
-recipes.addShapeless("disintrune210", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <quark:witch_hat>]);
+recipes.addShapeless("disintrune210", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <quark:witch_hat>]);
 
 recipes.addShapeless("disintrune211", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_undying>]);
 
@@ -79,9 +79,7 @@ recipes.addShapeless("disintrune35", <bountifulbaubles:spectralsilt> * 3, [<cont
 
 recipes.addShapeless("disintrune36", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:magicmirror>]);
 
-recipes.addShapeless("disintrune37", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:potionwormhole>]);
-
-recipes.addShapeless("disintrune38", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <corpsecomplex:scroll>]);
+recipes.addShapeless("disintrune38", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <corpsecomplex:scroll>]);
 
 recipes.addShapeless("disintrune39", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:twilight_scepter>]);
 
@@ -126,7 +124,7 @@ recipes.addShapeless("disintrune329", <bountifulbaubles:spectralsilt> * 3, [<con
 
 recipes.addShapeless("disintrune330", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_recalling>]);
 
-recipes.addShapeless("disintrune331", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <contenttweaker:phosphophyllite>]);
+recipes.addShapeless("disintrune331", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <contenttweaker:phosphophyllite>]);
 
 
 
