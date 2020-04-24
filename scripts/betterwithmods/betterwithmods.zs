@@ -29,6 +29,8 @@ mods.jei.JEI.removeAndHide(<betterwithmods:material:44>);
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
+mods.jei.JEI.removeAndHide(<betterwithmods:material:40>);
+
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 
