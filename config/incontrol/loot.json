@@ -213,6 +213,124 @@
       "item": "endreborn:dragon_scales",
       "itemcount": "9-15"
    },
+   
+ //// total eclipse of the heart
+   {
+      "mob": "minecraft:elder_guardian",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "1-2"
+   },
+   {
+      "mob": "primitivemobs:trollager",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "1"
+   },
+
+   {
+      "mob": "betteranimalsplus:hirschgeist",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "3-4"
+   },
+   
+    {
+      "mob": "rats:black_death",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "3-6"
+   },
+
+    {
+      "mob": "aether_legacy:slider",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "3"
+   },
+   
+    {
+      "mob": "aether_legacy:valkyrie_queen",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "3-5"
+   },
+   
+    {
+      "mob": "aether_legacy:sun_spirit",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "3-5"
+   },
+
+    {
+      "mob": "minecraft:ender_dragon",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "8-10"
+   },
+    {
+      "mob": "minecraft:wither",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "8-10"
+   },
+
+    {
+      "mob": "netherex:ghast_queen",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "9-10"
+   },
+
+    {
+      "mob": "twilightforest:naga",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "3-5"
+   },
+
+    {
+      "mob": "twilightforest:lich",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "5-7"
+   },
+
+    {
+      "mob": "twilightforest:minoshroom",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "2-3"
+   },
+   
+    {
+      "mob": "twilightforest:ur_ghast",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "12-18"
+   },
+
+    {
+      "mob": "twilightforest:yeti_alpha",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "9-10"
+   },
+   
+     {
+      "mob": "twilightforest:snow_queen",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "12-18"
+   },
+
+     {
+      "mob": "twilightforest:hydra",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "7-10"
+   },
 
 
    // Ender Creeper
