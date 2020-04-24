@@ -147,16 +147,12 @@ Dropt.list("plants_custom")
           .items([<betterwithmods:material:2>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20)) // Maggot
+          .selector(Dropt.weight(20)) // Worm
           .items([<rats:little_black_worm>])
 	  )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(18)) // Bathroom berry
           .items([<betterwithaddons:food_mulberry>])
-	  )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(18)) // sap
-       	   .items([<primitivemobs:wonder_sap>])
       )
 	  	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(5)) // lucky clover
