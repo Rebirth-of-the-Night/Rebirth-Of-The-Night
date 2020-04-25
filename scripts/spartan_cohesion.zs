@@ -26,6 +26,9 @@ recipes.remove(<twilightforest:steeleaf_sword>);
 recipes.remove(<twilightforest:knightmetal_sword>);
 recipes.remove(<twilightforest:giant_sword>);
 
+
+recipes.addShapeless("twine_handle", <spartanweaponry:material>,[<minecraft:stick>,<pyrotech:material:14>]);
+
 //Wooden Sword Tweaks
 
 val sharp_stick = <dungeontactics:sharp_stick>;
