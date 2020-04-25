@@ -44,7 +44,13 @@ SoakingPot.addRecipe("brown_concrete", <minecraft:concrete:12>*8, <liquid:water>
 SoakingPot.addRecipe("green_concrete", <minecraft:concrete:13>*8, <liquid:water>*500, <minecraft:concrete_powder:13>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("red_concrete", <minecraft:concrete:14>*8, <liquid:water>*500, <minecraft:concrete_powder:14>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("black_concrete", <minecraft:concrete:15>*8, <liquid:water>*500, <minecraft:concrete_powder:15>*8, 5 * 60 * 20);
-SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:4>*2, <liquid:water>*200, <pyrotech:rock:8>, 10 * 60 * 20);
+SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:4>*5, <liquid:water>*200, <pyrotech:rock:8>, 6 * 60 * 20);
+SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 6 * 60 * 20);
+SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <charm:rotten_flesh_block>, 14 * 60 * 20);
+
+
+
+
 
 
 furnace.remove(<pyrotech:material:22>);

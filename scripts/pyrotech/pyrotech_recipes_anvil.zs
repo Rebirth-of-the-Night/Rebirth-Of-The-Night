@@ -63,15 +63,15 @@ GraniteAnvil.addRecipe("smash heart 5",<scalinghealth:crystalshard>*1, <quark:di
 GraniteAnvil.addRecipe("halite to salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
 GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>, 48,"hammer", true);
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>, 64,"hammer", true);
-GraniteAnvil.addRecipe("refractorylump_fossil",<pyrotech:material:35>*3, <undergroundbiomes:fossil_piece:*>, 4,"hammer", true);
-GraniteAnvil.addRecipe("refractorylump_ruby",<pyrotech:material:4>*2, <biomesoplenty:gem:1>, 64,"hammer", true);
-GraniteAnvil.addRecipe("refractorylump_sapphire",<pyrotech:material:4>*2, <biomesoplenty:gem:6>, 64,"hammer", true);
-GraniteAnvil.addRecipe("refractorylump_quartz",<pyrotech:material:4>*3, <minecraft:quartz>, 16,"hammer", true);
-GraniteAnvil.addRecipe("refractorylump_radiantquartz",<pyrotech:material:4>*8, <arcanearchives:raw_quartz>, 8,"pickaxe", true);
-GraniteAnvil.addRecipe("refractorylump_chalk",<pyrotech:material:4>*1, <undergroundbiomes:sedimentary_stone:1>, 8,"pickaxe", true);
-GraniteAnvil.addRecipe("refractorylump_quartzite",<pyrotech:material:4>*1, <undergroundbiomes:metamorphic_stone:3>, 8,"pickaxe", true);
-GraniteAnvil.addRecipe("refractorylump_marble",<pyrotech:material:4>*1, <undergroundbiomes:metamorphic_stone:2>, 8,"pickaxe", true);
-GraniteAnvil.addRecipe("refractorylump_dolomite",<pyrotech:material:4>*1, <undergroundbiomes:sedimentary_stone:5>, 8,"pickaxe", true);
+GraniteAnvil.addRecipe("refractorylump_fossil",<pyrotech:material:35>*2, <undergroundbiomes:fossil_piece:*>, 4,"hammer", true);
+GraniteAnvil.addRecipe("refractorylump_ruby",<pyrotech:material:35>*2, <biomesoplenty:gem:1>, 64,"hammer", true);
+GraniteAnvil.addRecipe("refractorylump_sapphire",<pyrotech:material:35>*2, <biomesoplenty:gem:6>, 64,"hammer", true);
+GraniteAnvil.addRecipe("refractorylump_quartz",<pyrotech:material:35>*1, <minecraft:quartz>, 16,"hammer", true);
+GraniteAnvil.addRecipe("refractorylump_radiantquartz",<pyrotech:material:35>*2, <arcanearchives:raw_quartz>, 8,"pickaxe", true);
+GraniteAnvil.addRecipe("refractorylump_chalk",<pyrotech:material:35>*2, <undergroundbiomes:sedimentary_stone:1>, 8,"pickaxe", true);
+GraniteAnvil.addRecipe("refractorylump_quartzite",<pyrotech:material:35>*2, <undergroundbiomes:metamorphic_stone:3>, 8,"pickaxe", true);
+GraniteAnvil.addRecipe("refractorylump_marble",<pyrotech:material:35>*2, <undergroundbiomes:metamorphic_stone:2>, 8,"pickaxe", true);
+GraniteAnvil.addRecipe("refractorylump_dolomite",<pyrotech:material:35>*2, <undergroundbiomes:sedimentary_stone:5>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("limerock_lime",<pyrotech:rock:8>*3, <undergroundbiomes:sedimentary_stone>, 8,"pickaxe", true);
 
 //D-Heads

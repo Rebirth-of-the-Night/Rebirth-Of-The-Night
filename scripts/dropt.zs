@@ -97,6 +97,14 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
+  
+Dropt.list("Fragile_Scaffold")
+
+  .add(Dropt.rule()
+      .matchBlocks(["cyclicmagic:block_fragile"])
+	  .addDrop(Dropt.drop()
+      )	
+  );
 
 Dropt.list("clovers")
 

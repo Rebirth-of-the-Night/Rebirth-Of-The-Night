@@ -126,6 +126,12 @@ recipes.addShaped("wax_candle",<betterwithmods:candle>,[
     [null,<harvestcraft:beeswaxitem>,null]
 ]);
 
+recipes.addShaped("refractored_crucible",<contenttweaker:crucible>,[
+    [<pyrotech:material:9>,null,<pyrotech:material:9>],
+    [<pyrotech:material:9>,<pyrotech:material:9>,<pyrotech:material:9>],
+    [<pyrotech:material:9>,<pyrotech:material:9>,<pyrotech:material:9>]
+]);
+
 mods.betterwithmods.Cauldron.remove([<minecraft:mushroom_stew>]);
 mods.betterwithmods.Cauldron.remove([<minecraft:rabbit_stew>]);
 mods.betterwithmods.Cauldron.addUnstoked([<minecraft:cooked_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
@@ -137,7 +143,11 @@ mods.betterwithmods.Cauldron.addUnstoked([<primitivemobs:dodo>],[<primitivemobs:
 mods.betterwithmods.Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
 
 //Charbiotite
-mods.betterwithmods.Cauldron.addUnstoked([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3]);
+mods.betterwithmods.Cauldron.builder()
+.buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])
+.setHeat(2)
+.setPriority(6)
+.build();
 
 val arrayLeather = [<primitivemobs:cooked_dodo>,<animania:cooked_prime_beef>,<animania:cooked_prime_mutton>,<animania:cooked_prime_pork>,<animania:cooked_prime_chicken>,<animania:cooked_horse>,<animania:cooked_prime_rabbit>,<animania:cooked_frog_legs>,<animania:cooked_peacock>,<animania:cooked_prime_peacock>,<animania:cooked_chevon>,<animania:cooked_prime_chevon>,<aether_legacy:burnt_cockatrice>,<aether_legacy:cooked_enchanted_cockatrice>,<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<harvestcraft:crabcookeditem>,<quark:cooked_crab_leg>,<betteranimalsplus:venisoncooked>,<twilightforest:cooked_venison>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<twilightforest:cooked_meef>] as IItemStack[];
 

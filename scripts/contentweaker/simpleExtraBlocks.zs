@@ -22,6 +22,12 @@ halite.setTranslucent(true);
 halite.setLightOpacity(0);
 halite.register();
 
+//Unfired Refractory Crucible
+var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Rock>);
+crucible.setCreativeTab(<creativetab:buildingBlocks>);
+crucible.setBlockSoundType(<soundtype:stone>);
+crucible.register();
+
 //Lunarin blocks
 //Silver
 var silverlunarin = VanillaFactory.createBlock("lunarinsilverbrick", <blockmaterial:Iron>);

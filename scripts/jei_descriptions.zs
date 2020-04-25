@@ -2,10 +2,10 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-# KNOWN BUGS #
+// KNOWN BUGS //
 mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in any way, including checking recipes for items in JEI while you have an emerald in the payment slot."]);
 
-#SFS TOOLS#
+//SFS TOOLS//
 
 mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like shears. When right-clicked, places vines from your inventory. Can only be enchanted in the True Enchanting Table."]);
 mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Can only be enchanted in the True Enchanting Table."]);
@@ -14,7 +14,7 @@ mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpos
 mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Can only be enchanted in the True Enchanting Table."]);
 mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as slabs, planks, or stairs from your inventory. Can only be enchanted in the True Enchanting Table."]);
 
-# BWM #
+// BWM //
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
 mods.jei.JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, hemp can make very high quality and durable fibers with a variety of uses. It's easily made into sails and different kinds of textiles. Grows two blocks high like Sugar Cane - be sure to only harvest the top one!");
 mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
@@ -23,12 +23,12 @@ mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block
 mods.jei.JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
 
 
-# RUSTIC #
+// RUSTIC //
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
 mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for airships.");
 
 
-# MISCELLANEOUS #
+// MISCELLANEOUS //
 
 
 mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower."]);
@@ -120,104 +120,112 @@ mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull_1>],"Cursed sku
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskullwearable>],"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures.");
 
 
-##### lore #####
+////////// lore //////////
 mods.jei.JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 2x2 pool of water surrounded by flowers on top of grass to open the portal. DEV NOTE: Ghast Queen is currently disabled, so we provided a temporary recipe so you may still enter the Twilight Forest.");
 mods.jei.JEI.addDescription(<netherex:rime_crystal>,"It's cold to the touch, yet seems to hold blazing flames within. It was once used to make igniters, but they were unpredictable and too unstable.");
 mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"Hard to come by in the Overworld, these crystals seem to hold significant value with the still-living natives of the Nether.");
 mods.jei.JEI.addDescription(<betterwithmods:material:51>,"Are they still there? Is there any trace of what remains? Wide dead eyes like amethyst, behold.");
-# Silver Ingot
+// Silver Ingot
 mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A material known to be effectively used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
 mods.jei.JEI.addDescription([<forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000})],"Jersey Milk is obtained from Jersey Cows.");
-# Millstone
+// Millstone
 mods.jei.JEI.addDescription(<betterwithmods:single_machine>,"Once common and basic, now the state of the art for the starting mechanist! Place a mechanically powered axle on top to make it work.");
-# Archeologist Hat
+// Archeologist Hat
 mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a little more adventurous, a little luckier, and a little more likely to store artifacts in museums.");
 <quark:archaeologist_hat>.addTooltip("When worn, provides a slight chance to unearth additional gems when mining gemstone ores.");
-# Soul Powder
+// Soul Powder
 mods.jei.JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
-# Soul Bead
+// Soul Bead
 mods.jei.JEI.addDescription(<quark:soul_bead>,"Warped bead formed from the cursed core of a wraith. Ingesting it releases the trapped spirits within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
-# Diamond Heart
+// Diamond Heart
 mods.jei.JEI.addDescription(<quark:diamond_heart>,"A rare heart of living mineral ripped from the core of the world and restored to life with magic.");
-# Sap
+// Sap
 mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material left behind by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong glue.");
-# Faucet
+// Faucet
 mods.jei.JEI.addDescription(<pyrotech:faucet_stone>,"When right-clicked, it will start to drain any liquid from one container to another container below itself. Right-click again to stop the faucet's flow. Can be powered with redstone.");
-# Coal
+// Coal
 mods.jei.JEI.addDescription([<minecraft:coal:1>],["The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood..."]);
-# Torch
+// Torch
 mods.jei.JEI.addDescription([<minecraft:torch>],["An adventurer's best friend. Most will rather delve into caves looking for mineral coal than assemble a charcoal production operation, specially those in dire situations. Other more powerful light sources include Glaretorches, Hanging Lights or Lanterns."]);
-# Endstone
+// Endstone
 mods.jei.JEI.addDescription([<minecraft:end_stone>],["Some have seen this paradimensional stone floating around in the Overworld. Legends claim this stone to be the most common soil in the home of the Enderpeople, although it was desctibed as covered with vibrant purple grass and flora."]);
-# Codex
+// Codex
 mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of information used long time ago by advanced civilizations. Using it while holding a book in the off-hand will register data of the structure its holder is inside.");
-# Iron ingot
+// Iron ingot
 mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
-# Steel ingot
+// Steel ingot
 mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.");
 mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.');
-# Halite
+// Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
-# Pointy thingy
+// Pointy thingy
 mods.jei.JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword, it's mostly useful to newly-stranded survivors in unfamiliar lands. Very low durability, but these can be stacked.");
-# Generic transition portal
+// Generic transition portal
 mods.jei.JEI.addDescription(<dimstack:portal>,"Getting past these will take you to places...");
-# transition portal 0
+// transition portal 0
 mods.jei.JEI.addDescription(<dimstack:bedrock:0>,"Getting past these will take you to dark places...");
-# Handle
+// Handle
 mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for more advanced weapons.");
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");
-# Amethyst
+// Amethyst
 mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lands of the Ender folk, as the deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods.");
 mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
-# Da Vinci's vessels
+// Diamond
+mods.jei.JEI.addDescription(<minecraft:diamond>,'Diamond! The hardest material available to the denizens of the world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
+// Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
-# Well
+// Well
 mods.jei.JEI.addDescription(<harvestcraft:well>,"Wells drill deep into the earth in search of renewable water. Stressing these delicate components by destroying this block means it cannot be retrieved if broken - only some of the parts will be returned.");
-# Copper tin
+// Copper tin
 mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best approach... If you don't have a crucible, that is.");
-# Trumpet
+// Trumpet
 mods.jei.JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power.");
-# Bark
+// Bark
 mods.jei.JEI.addDescription(<betterwithmods:bark:*>,"Obtained from chopping up logs, these are most useful for tanning leather.");
-# Dung
+// Dung
 mods.jei.JEI.addDescription(<betterwithmods:material:5>,"Gross? No, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Triggers a fermentative process to make tanned leather.");
-# End Essence ore
+mods.jei.JEI.addDescription(<betterwithmods:breeding_harness>, "...");
+// Gearbox
+mods.jei.JEI.addDescription(<betterwithmods:wooden_gearbox>, "One input and multiple outputs; insert a powered axle on the side marked with arrows to redirect rotatory energy to the other sides. Remember, wooden axles can only transfer energy up to three blocks of distance (unless they act as a frame for a vertical windmill). Can be turned off by giving it a redstone signal; attaching a chime will output a redstone signal if it is raining.");
+// End Essence ore
 mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
-# End Essence
+// End Essence
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
-# Spell Scroll
+// Spell Scroll
 mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited magical power once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the 'Magic' book.");
-# Chute
+// Chute
 mods.jei.JEI.addDescription(<chutes:chute_wood>, "The benefit of 4 full blocks in 1. Especially useful to access underwater areas quickly.");
 mods.jei.JEI.addDescription(<chutes:chute_entry_wood>, "The benefit of 4 full blocks in 1. Especially useful to access underwater areas quickly. This one acts as an entry point.");
-# Jute
+// Jute
 mods.jei.JEI.addDescription(<harvestcraft:juteitem>, "Durable, but needs to be dried and macerated first to get any value out of it. This effort pays off with a higher yield of fiber.");
-# Flax
+// Flax
 mods.jei.JEI.addDescription(<harvestcraft:flaxitem>, "Flax is versatile when it comes to textiles, though it is not as durable as hemp. Flax is also useful in making light blue dye.");
-# Kenaf
+// Kenaf
 mods.jei.JEI.addDescription(<harvestcraft:kenafitem>, "Contains a good amount of fiber... but this fiber is mostly useful for paper, not textiles.");
-# Sisal
+// Sisal
 mods.jei.JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a very durable 'palm-like' plant native to dry biomes. This plant is a decent source of fiber and string since its leaves are thick and strong.");
-# Cotton
+// Cotton
 mods.jei.JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles, but it is not the most naturally resilient fiber.  When used to make clothing or padding, however, it's very comfortable.");
-# Ash
+// Ash
 mods.jei.JEI.addDescription(<pyrotech:material>, "Ashy remains of pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
-# Bees
+// Bees
 mods.jei.JEI.addDescription(<harvestcraft:queenbeeitem>, "Found by breaking Beehives in Forest biomes.");
-# Wax
+// Wax
 mods.jei.JEI.addDescription(<harvestcraft:beeswaxitem>, "An extremely good fuel source, even better when compressed.");
+// Flesh Block
+mods.jei.JEI.addDescription(<biomesoplenty:flesh>, "It is like slime! ...but not fun. and gross. Is that an eye?");
+mods.jei.JEI.addDescription(<charm:rotten_flesh_block>, "Similar to the flesh found in the Nether, yet different, it twitches once in a while. Bury this block in dirt and it will become a block of dirt itself.");
 
-# Aqueducts
+// Aqueducts
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
 
-# Grapple Mod
+// Grapple Mod
 mods.jei.JEI.addDescription(<grapplemod:longfallboots>,"Cancels all fall damage when worn. Crafted by right clicking a Grappling Hook Modifier block with a pair of Feather Falling IV Diamond Boots.");
 
-#Rats
+//Rats
 mods.jei.JEI.addDescription(<rats:plague_essence>,"Calcified clump of plague energy. The plagues were thought to be sealed away for good, but now this strain, at least, has returned with a vengeance.");
 
 mods.jei.JEI.addDescription(<rats:plague_doctor_mask>,"Protects the wearer from foul smells. The beak has just enough space to stuff a bundle of sweet herbs inside - ideal to distract from the stench of examining plagued or rotting flesh.");
@@ -246,7 +254,7 @@ mods.jei.JEI.addDescription(<rats:rat_cage>,"Used to contain rats for breeding o
 
 
 
-# Runes
+// Runes
 
 mods.jei.JEI.addItem(<contenttweaker:blank_rune>);
 mods.jei.JEI.addDescription([<contenttweaker:blank_rune>],["Stone imbued with magic powder. Used as a base for all runes."]);
@@ -317,7 +325,7 @@ mods.jei.JEI.addItem(<contenttweaker:arcane_orb>);
 mods.jei.JEI.addItem(<contenttweaker:draconic_orb>);
 mods.jei.JEI.addItem(<contenttweaker:fae_orb>);
 
-# Pyrotech
+// Pyrotech
 val PlantFiber = <pyrotech:material:12>;
 val driedPlantFiber = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
@@ -326,6 +334,7 @@ val Fiber = <betterwithmods:material:3>;
 val crudePole = <pyrotech:crude_fishing_rod>;
 val compact = <pyrotech:compacting_bin>;
 val woodChips = <pyrotech:rock:7>;
+val livingTar = <biomesoplenty:flesh>;
 
 mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
 mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"Made with common materials. Can light a kiln if held down, but it is rather fragile. Not as convenient as a flint and steel.");
@@ -351,15 +360,17 @@ mods.jei.JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables
 mods.jei.JEI.addDescription(<pyrotech:material:4>, "This muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat-resistant burning station.");
 mods.jei.JEI.addDescription(<pyrotech:material:5>, "Refractory materials enable the construction of structures for pit-burning other materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
 mods.jei.JEI.addDescription(<pyrotech:refractory_brick_block>, "Refractory materials enable the construction of structures for pit-burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
+mods.jei.JEI.addDescription(livingTar, 'Burning slowly, this tarry meat substance is in the words of its inventor "A strong candidate for the most loathsome of fuels".');
+mods.jei.JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure works by burning without actually starting a fire, thus, it is of tremendous importance than no air gap is present between the walls of the structure and the material being burned. That includes the door");
 
-# Relics
+// Relics
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
 mods.jei.JEI.addDescription([<msmlegacy:relic_candy>],["Relic idea by Just A BLU Toon. Thanks for becoming a Dragonsteel supporter on our Patreon!"]);
 
-# Lore Specific
+// Lore Specific
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"Also known as RotN Flesh.");
 
 mods.jei.JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the Pigfolk. The inscriptions around the rim of the brazier are carved in unfamiliar languages... all except for one. You can make out the words 'VARKAAL...', 'LIFE FROM LIGHT...', and 'DUST...'");
 
-### mods.jei.JEI.addDescription(<minecraft:clay_ball>,"Such a malleable material, could they see us the same in the Void?"); -> should be put on a more fitting item
+////// mods.jei.JEI.addDescription(<minecraft:clay_ball>,"Such a malleable material, could they see us the same in the Void?"); -> should be put on a more fitting item
