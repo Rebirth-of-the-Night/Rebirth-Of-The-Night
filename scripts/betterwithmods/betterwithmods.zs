@@ -180,7 +180,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_helmet>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_pants>);
 
-mods.jei.JEI.removeAndHide(<betterwithmods:material:45>); # diamond ingot
+recipes.remove(<betterwithmods:material:45>); # diamond ingot
 
 
 recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*4,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
@@ -213,3 +213,38 @@ mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_sword>);
 
+// Gem tools Rework
+
+val diamondAll = [
+    <minecraft:diamond_sword>,
+    <minecraft:diamond_shovel>,
+    <minecraft:diamond_hoe>,
+    <minecraft:diamond_axe>,
+	<minecraft:diamond_pickaxe>,
+	<spartanweaponry:dagger_diamond>,
+	<spartanweaponry:longsword_diamond>,
+	<spartanweaponry:katana_diamond>,
+	<spartanweaponry:saber_diamond>,
+	<spartanweaponry:rapier_diamond>,
+	<spartanweaponry:greatsword_diamond>,
+	<spartanweaponry:hammer_diamond>,
+	<spartanweaponry:warhammer_diamond>,
+	<spartanweaponry:spear_diamond>,
+	<spartanweaponry:halberd_diamond>,
+	<spartanweaponry:pike_diamond>,
+	<spartanweaponry:lance_diamond>,
+	<spartanweaponry:longbow_diamond>,
+	<spartanweaponry:throwing_knife_diamond>,
+	<spartanweaponry:throwing_axe_diamond>,
+	<spartanweaponry:javelin_diamond>,
+	<spartanweaponry:boomerang_diamond>,
+	<spartanweaponry:battleaxe_diamond>,
+	<spartanweaponry:mace_diamond>,
+	<spartanweaponry:glaive_diamond>,
+	<spartanweaponry:staff_diamond>
+] as IIngredient[];
+
+
+for item in diamondAll{
+    recipes.remove(item);
+}

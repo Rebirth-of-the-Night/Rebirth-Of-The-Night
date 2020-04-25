@@ -23,7 +23,7 @@ halite.setLightOpacity(0);
 halite.register();
 
 //Unfired Refractory Crucible
-var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Rock>);
+var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Ground>);
 crucible.setCreativeTab(<creativetab:buildingBlocks>);
 crucible.setBlockSoundType(<soundtype:stone>);
 crucible.register();
