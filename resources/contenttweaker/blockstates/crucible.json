@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/crucible",
       "particle": "contenttweaker:blocks/crucible"
     },
-    "model": "contenttweaker:block/crucible",
+    "model": "contenttweaker:crucible",
     "uvlock": true,
     "transform": "forge:default-block"
   },
