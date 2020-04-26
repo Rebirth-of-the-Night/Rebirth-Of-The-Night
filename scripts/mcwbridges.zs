@@ -8,12 +8,28 @@ recipes.remove(<mcwbridges:iron_armrest>);
 recipes.remove(<mcwbridges:iron_platform>);
 
 //Added material recipes
-recipes.addShaped("Tin bridge armrest", <mcwbridges:iron_armrest>*6,[
+recipes.addShaped("tin_bridge_armrest", <mcwbridges:iron_armrest>*3,[
 	[<ore:ingotTin>],
   [<ore:ingotTin>]
 ]);
-recipes.addShaped("Tin bridge platform", <mcwbridges:iron_platform>*2,[
+recipes.addShaped("tin_bridge_platform", <mcwbridges:iron_platform>*1,[
 	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+]);
+
+recipes.addShaped("iron_bridge_armrest", <mcwbridges:iron_armrest>*6,[
+	[<ore:ingotIron>],
+  [<ore:ingotIron>]
+]);
+recipes.addShaped("iron_bridge_platform", <mcwbridges:iron_platform>*2,[
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+]);
+
+recipes.addShaped("steel_bridge_armrest", <mcwbridges:iron_armrest>*12,[
+	[<ore:ingotSteel>],
+  [<ore:ingotSteel>]
+]);
+recipes.addShaped("steel_bridge_platform", <mcwbridges:iron_platform>*4,[
+	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
 ]);
 
 //rope bridges

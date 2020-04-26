@@ -166,11 +166,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 
 // Macaws Bridges
-<mcwbridges:iron_armrest>.displayName = "Tin Armrest";
-<mcwbridges:iron_rod>.displayName = "Tin Rod";
-<mcwbridges:iron_platform>.displayName = "Tin Platform";
-<mcwbridges:most1>.displayName = "Tin Bridge Middle";
-<mcwbridges:most2>.displayName = "Tin Bridge End";
+<mcwbridges:iron_armrest>.displayName = "Metal Armrest";
+<mcwbridges:iron_rod>.displayName = "Metal Rod";
+<mcwbridges:iron_platform>.displayName = "Metal Platform";
+<mcwbridges:most1>.displayName = "Metal Bridge Middle";
+<mcwbridges:most2>.displayName = "Metal Bridge End";
 
 // Mowzie's Mobs
 <mowziesmobs:naga_fang>.displayName = "Skydrake Fang";

@@ -74,6 +74,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:mystery_meat>);
 mods.ltt.LootTable.removeGlobalItem("betterwithmods:mystery_meat");
 mods.jei.JEI.removeAndHide(<betterwithmods:cooked_mystery_meat>);
 furnace.remove(<betterwithmods:cooked_mystery_meat>);
+furnace.remove(<betterwithmods:cooking_pot>);
 recipes.remove(<betterwithmods:donut>);
 mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);

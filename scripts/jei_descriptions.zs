@@ -40,6 +40,8 @@ mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the f
 
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. If you listen closely, you can hear faint cries of pain and sorrow echoing within."]);
 
+mods.jei.JEI.addDescription([<ore:foodCheeseWheel>, "To create cheese wheels you must place milk in a cheese mold.");
+
 
 mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchanting Table");
 mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but Can only be enchanted in the True Enchanting Table");

@@ -175,6 +175,7 @@ recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;
 orecheese.remove(<rats:cheese>);
+recipes.removeByRecipeName("rats:block_of_cheese"); //Compacted in a compacting bin, pirotech_other.zs
 
 <rats:cheese>.displayName = "Cheese Chunk";
 <rats:cheese>.addTooltip("For you, it's hardly worth the effort to eat. For a rat, it's a perfect treat!");
