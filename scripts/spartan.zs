@@ -118,7 +118,7 @@ function(out, ins, cInfo){
 });
 
 //Obsidian Shield Bauble
-recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[null, <simpleores:onyx_gem>, null],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [null, <spartanshields:shield_basic_obsidian>, null]]);
+recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[<simpleores:onyx_gem>, <bountifulbaubles:trinketobsidianskull>, <simpleores:onyx_gem>],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [<simpleores:onyx_gem>, <spartanshields:shield_basic_obsidian>, <simpleores:onyx_gem>]]);
 //Ankh Shield Bauble
 recipes.addShaped(<bountifulbaubles:shieldankh>, [[<spartanshields:shield_basic_diamond>, <bountifulbaubles:shieldobsidian>, <spartanshields:shield_basic_diamond>],[<endreborn:item_end_essence>, <bountifulbaubles:trinketankhcharm>, <endreborn:item_end_essence>], [<spartanshields:shield_basic_diamond>, <spartanshields:shield_basic_lead>, <spartanshields:shield_basic_diamond>]]);
 

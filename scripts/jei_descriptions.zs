@@ -131,7 +131,7 @@ mods.jei.JEI.addDescription(<betterwithmods:material:51>,"Are they still there? 
 mods.jei.JEI.addDescription(<iceandfire:silver_ingot>,"A material known to be effectively used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
 mods.jei.JEI.addDescription([<forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000})],"Jersey Milk is obtained from Jersey Cows.");
 // Millstone
-mods.jei.JEI.addDescription(<betterwithmods:single_machine>,"Once common and basic, now the state of the art for the starting mechanist! Place a mechanically powered axle on top to make it work.");
+mods.jei.JEI.addDescription(<betterwithmods:single_machine>,"A necessary machine for every starting mechanist! Place a mechanically powered axle on top to make it work.");
 // Archeologist Hat
 mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a little more adventurous, a little luckier, and a little more likely to store artifacts in museums.");
 <quark:archaeologist_hat>.addTooltip("When worn, provides a slight chance to unearth additional gems when mining gemstone ores.");
