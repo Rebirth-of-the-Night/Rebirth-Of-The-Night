@@ -627,7 +627,7 @@ recipes.remove(<minecraft:enchanting_table>);
 recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
 //Lifting methods
-recipes.addShaped("auto_ladder_iron", <advancedliftingmethods:powered_ladder>*4 
+recipes.addShaped("auto_ladder_iron", <advancedliftingmethods:powered_ladder>*4, 
 [[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>],
 [<ore:ingotElectrum>,<betterwithmods:material:36>,<ore:ingotElectrum>],
 [<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]]);
