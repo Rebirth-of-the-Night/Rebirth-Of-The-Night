@@ -26,6 +26,10 @@ recipes.addShaped("benign_rope", rope*2,
   [dfiber,dfiber],
   [dfiber,dfiber]]);
   
+recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers");
+recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
+[<betterwithmods:rope>]);
+
 //Dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
 

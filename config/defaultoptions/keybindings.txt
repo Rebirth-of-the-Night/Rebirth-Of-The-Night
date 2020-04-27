@@ -20,7 +20,7 @@ key_key.fullscreen:87
 key_key.spectatorOutlines:0
 key_key.swapHands:33
 key_key.saveToolbarActivator:0
-key_key.loadToolbarActivator:45
+key_key.loadToolbarActivator:0
 key_key.advancements:38
 key_key.hotbar.1:2
 key_key.hotbar.2:3
@@ -90,7 +90,7 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.betterHud.open:0
 key_key.blockdropstweaker.saveblockdrops:0
-key_key.blockdropstweaker.reloadblockdrops:35
+key_key.blockdropstweaker.reloadblockdrops:0
 key_key.carry.desc:42
 key_key.dungeontactics.rocketjump.desc:57
 key_key.dungeontactics.shieldbash.desc:56
@@ -114,7 +114,7 @@ key_key.quit:1
 key_key.hideHUD:59
 key_key.debugScreen:61
 key_key.narrator:0
-key_key.trashslot.toggle:20
+key_key.trashslot.toggle:0
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
 key_Profile GUI:0
