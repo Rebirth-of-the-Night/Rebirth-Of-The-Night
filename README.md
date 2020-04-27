@@ -7,7 +7,7 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 
 **Links:**
 
-[Installation](https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Installation#GitHub_.28default_MC_launcher.29)
+[Installation guide](https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Installation#GitHub_.28default_MC_launcher.29)
 
 [CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) 
 
