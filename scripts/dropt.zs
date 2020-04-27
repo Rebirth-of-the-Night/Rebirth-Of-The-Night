@@ -36,16 +36,6 @@ Dropt.list("fortune_essence")
 		  )	 
   );
 
-Dropt.list("decayed_scaffolding")
-
-  .add(Dropt.rule()
-      .matchBlocks(["cyclicmagic:block_fragile"])
-      .matchDrops([<cyclicmagic:block_fragile>])
-      .replaceStrategy("REPLACE_ITEMS")
-      .addDrop(Dropt.drop())
-  );
-
-
 Dropt.list("fortune_essence_biotite")
 
   .add(Dropt.rule()
@@ -97,6 +87,15 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
+  
+Dropt.list("decayed_scaffolding")
+
+  .add(Dropt.rule()
+      .matchBlocks(["cyclicmagic:block_fragile"])
+      .matchDrops([<cyclicmagic:block_fragile>])
+      .replaceStrategy("REPLACE_ITEMS")
+      .addDrop(Dropt.drop())
+  );
 
 Dropt.list("clovers")
 
@@ -107,7 +106,7 @@ Dropt.list("clovers")
           .selector(Dropt.weight(20000)) // drops nothing if selected
       )
   	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(200)) // lucky clover
+          .selector(Dropt.weight(100)) // lucky clover
        	   .items([<contenttweaker:4leaf_clover>])
       )
   	  .addDrop(Dropt.drop()
@@ -125,11 +124,11 @@ Dropt.list("plants_basic")
           .selector(Dropt.weight(180)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(35))
+          .selector(Dropt.weight(30))
           .items([<pyrotech:material:12>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(18))
+          .selector(Dropt.weight(15))
           .items([<pyrotech:material:13>])
 	  )
   );
@@ -142,25 +141,13 @@ Dropt.list("plants_custom")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(4200)) // drops nothing if selected
       )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(32)) // Hemp crop
-          .items([<betterwithmods:material:2>])
-      )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20)) // Maggot
+          .selector(Dropt.weight(15)) // Worm
           .items([<rats:little_black_worm>])
-	  )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(18)) // Bathroom berry
-          .items([<betterwithaddons:food_mulberry>])
-	  )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(18)) // sap
-       	   .items([<primitivemobs:wonder_sap>])
       )
-	  	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5)) // lucky clover
-       	   .items([<contenttweaker:4leaf_clover>])
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(14)) // Bathroom berry
+          .items([<betterwithaddons:food_mulberry>])
       )
   );
   
@@ -173,11 +160,11 @@ Dropt.list("tallplants_custom")
           .selector(Dropt.weight(2500)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(180)) // Hemp crop
+          .selector(Dropt.weight(35)) // Hemp crop
           .items([<betterwithmods:material:2>])
 	  )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10)) // Strange flower
+          .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
 	  )
   );
@@ -188,7 +175,7 @@ Dropt.list("slacked_lime")
       .matchBlocks(["minecraft:clay","minecraft:gravel","undergroundbiomes:igneous_gravel:*","undergroundbiomes:sedimentary_gravel:*","undergroundbiomes:metamorphic_gravel:*"])
       .replaceStrategy("REPLACE_ALL_IF_SELECTED")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10000)) // drops nothing if selected
+          .selector(Dropt.weight(11000)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(1200)) // slaked lime

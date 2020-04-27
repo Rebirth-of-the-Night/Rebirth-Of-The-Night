@@ -12,6 +12,7 @@ CompactingBin.removeAllRecipes();
 CompactingBin.addRecipe("ash_pile_from_ash", <pyrotech:pile_wood_chips>, <pyrotech:rock:7>, 4);
 CompactingBin.addRecipe("starblock_from_stars", <contenttweaker:starblock>, <nyx:fallen_star>, 2);
 CompactingBin.addRecipe("magma_verus_block", <betterwithaddons:elytra_magma>, <betterwithaddons:material:6>, 4);
+CompactingBin.addRecipe("rat_cheese_block", <rats:block_of_cheese>, <betterwithaddons:material:6>, 4);
 
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 120 * 20);
@@ -44,8 +45,11 @@ SoakingPot.addRecipe("brown_concrete", <minecraft:concrete:12>*8, <liquid:water>
 SoakingPot.addRecipe("green_concrete", <minecraft:concrete:13>*8, <liquid:water>*500, <minecraft:concrete_powder:13>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("red_concrete", <minecraft:concrete:14>*8, <liquid:water>*500, <minecraft:concrete_powder:14>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("black_concrete", <minecraft:concrete:15>*8, <liquid:water>*500, <minecraft:concrete_powder:15>*8, 5 * 60 * 20);
-SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:4>*2, <liquid:water>*200, <pyrotech:rock:8>, 10 * 60 * 20);
+SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:4>*5, <liquid:water>*200, <pyrotech:rock:8>, 6 * 60 * 20);
+SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 12 * 60 * 20);
+SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
+
 
 
 furnace.remove(<pyrotech:material:22>);

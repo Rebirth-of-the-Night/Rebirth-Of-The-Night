@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.arcanearchives.GCT;
+import crafttweaker.item.IItemTransformer;
 
 mods.jei.JEI.removeAndHide(<glaretorch:del>);
 
@@ -111,4 +112,4 @@ mods.betterwithaddons.Infuser.addShaped(larger*16,[
 [star,large,star],
 [star,star,star]], 8);
 //The Glaring Issue
-recipes.addShapeless("EpicureanVeryLargeGlare", larger*4, [<betterwithaddons:wheatmat>,<ore:jarPixieAny>]);
+recipes.addShapeless("EpicureanVeryLargeGlare", larger*4, [<betterwithaddons:wheatmat>,<ore:jarPixieAny>.transformReplace(<iceandfire:jar_empty>)]);

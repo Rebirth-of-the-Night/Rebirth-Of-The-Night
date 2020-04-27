@@ -9,12 +9,14 @@ StoneKiln.removeAllRecipes();
 furnace.remove(<minecraft:brick>, <minecraft:clay_ball>);
 furnace.remove(<minecraft:netherbrick>, <betterwithmods:material:35>);
 furnace.remove(<pyrotech:material:15>);
+furnace.remove(<betterwithmods:cooking_pot>);
 
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
 StoneKiln.addRecipe("bronze_from_pebbles",<ore:ingotBronze>.firstItem, <contenttweaker:copper_tin_pebbles>, 2000, true);
 StoneKiln.addRecipe("electrum_from_pebbles",<ore:ingotElectrum>.firstItem, <contenttweaker:silver_gold_pebbles>, 1200, true);
 StoneKiln.addRecipe("bwmpottery",<betterwithmods:cooking_pot>, <betterwithmods:unfired_pottery>, 600, true);
+StoneKiln.addRecipe("bwmpottery_a",<betterwithmods:cooking_pot>, <contenttweaker:crucible>, 600, true);
 StoneKiln.addRecipe("bwmpottery1",<betterwithmods:planter>, <betterwithmods:unfired_pottery:1>, 600, true);
 StoneKiln.addRecipe("bwmpottery2",<betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 600, true);
 StoneKiln.addRecipe("bwmpottery3",<betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 600, true);

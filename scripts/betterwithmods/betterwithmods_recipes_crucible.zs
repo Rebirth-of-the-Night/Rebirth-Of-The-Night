@@ -40,6 +40,103 @@ mods.betterwithmods.Crucible.addStoked(
         <dungeontactics:steel_ingot>
     ]
 );
+
+//Gem Ingots
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <minecraft:diamond>
+    ],
+    [
+        <betterwithmods:material:45>
+    ]
+);
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <biomesoplenty:gem:1>
+    ],
+    [
+        <contenttweaker:ruby_ingot>
+    ]
+);
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <biomesoplenty:gem:6>
+    ],
+    [
+        <contenttweaker:sapphire_ingot>
+    ]
+);
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <biomesoplenty:gem:2>
+    ],
+    [
+        <contenttweaker:peridot_ingot>
+    ]
+);
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <ore:gemAmethyst>
+    ],
+    [
+        <contenttweaker:amethyst_ingot>
+    ]
+);
+
+
+//Stoked Gem Ingots
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <minecraft:diamond>
+    ],
+    [
+        <betterwithmods:material:45>
+    ]
+);
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <biomesoplenty:gem:1>
+    ],
+    [
+        <contenttweaker:ruby_ingot>
+    ]
+);
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <biomesoplenty:gem:6>
+    ],
+    [
+        <contenttweaker:sapphire_ingot>
+    ]
+);
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <biomesoplenty:gem:2>
+    ],
+    [
+        <contenttweaker:peridot_ingot>
+    ]
+);
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <dungeontactics:steel_ingot>,
+        <ore:gemAmethyst>
+    ],
+    [
+        <contenttweaker:amethyst_ingot>
+    ]
+);
+
+
 //Soul Forged Steel
 mods.betterwithmods.Crucible.addStoked(
     [

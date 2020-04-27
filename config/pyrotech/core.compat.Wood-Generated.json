@@ -10,6 +10,7 @@
     "Entry item strings are in the format: (domain):(path):(meta)"
   ],
   "entries": {
+    "aether_legacy:skyroot_plank:0": "aether_legacy:skyroot_slab:0",
     "betternether:reeds_block:0": "betternether:reeds_slab_half:0",
     "betternether:stalagnate_planks:0": "betternether:stalagnate_planks_slab_half:0",
     "betterwithaddons:log_mulberry:0": "betterwithaddons:planks_mulberry:0",

@@ -23,6 +23,143 @@
       }
     ]
   },
+  
+  //more mobs
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "minecraft:enderman",
+        "weight": 0.05,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "minecraft:creeper",
+        "weight": 0.2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "minecraft:skeleton",
+        "weight": 0.2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "minecraft:zombie",
+        "weight": 0.2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+   {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "minecraft:spider",
+        "weight": 0.2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+ 
+
+
+//beneath
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "minecraft:cave_spider",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "iceandfire:if_troll",
+        "weight": 0.3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "minecraft:slime",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "twilightforest:fire_beetle",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  
+   {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "quark:dweller",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  
+    {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "quark:ashen",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+
 //lantern
   {
     "dimension": 10,
@@ -395,7 +532,7 @@
     "mobs": [
       {
         "mob": "specialmobs:kingghast",
-        "weight": 3,
+        "weight": 0.5,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -407,7 +544,7 @@
     "mobs": [
       {
         "mob": "specialmobs:queenghast",
-        "weight": 3,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

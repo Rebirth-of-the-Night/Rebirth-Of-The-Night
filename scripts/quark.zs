@@ -106,7 +106,7 @@ recipes.addShapeless("Quark Bark5", <quark:bark:5>*6,
 
 //Easier Crystals 
 recipes.addShapeless("Quark crystal 8-1", <quark:crystal:8>*3,
-	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <quark:enderdragon_scale>]
+	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <endreborn:dragon_scales>]
 );
 recipes.addShapeless("Quark crystal 8-2", <quark:crystal:8>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <simpleores:onyx_gem>]

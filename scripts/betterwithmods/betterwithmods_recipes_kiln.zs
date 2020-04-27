@@ -1,5 +1,13 @@
-//Examples
-//mods.betterwithmods.Kiln.add(<minecraft:fence>,[<minecraft:stick>,<minecraft:stick>]);
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IMaterial;
+import mods.jei.JEI;
+
+mods.betterwithmods.Kiln.registerBlock(<pyrotech:refractory_brick_block>);
+
+mods.betterwithmods.Kiln.removeAll();
 
 //Fence Destroyer
 mods.betterwithmods.Kiln.add(

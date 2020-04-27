@@ -42,6 +42,13 @@ mods.betterwithmods.Mill.builder()
 .setGrindType("fairylights:cord.stretch")
 .build();
 
+// Mushroom powder
+mods.betterwithmods.Mill.builder()
+.buildRecipe([<biomesoplenty:mushroom>], [<biomesoplenty:shroompowder>*3])
+.setPriority(3)
+.setGrindType("quark:entity.stoneling.purr")
+.build();
+
 // nether sugar
 mods.betterwithmods.Mill.builder()
 .buildRecipe([<betternether:nether_reed>], [<minecraft:sugar>*2])

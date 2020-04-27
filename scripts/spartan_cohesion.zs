@@ -26,6 +26,9 @@ recipes.remove(<twilightforest:steeleaf_sword>);
 recipes.remove(<twilightforest:knightmetal_sword>);
 recipes.remove(<twilightforest:giant_sword>);
 
+
+recipes.addShapeless("twine_handle", <spartanweaponry:material>,[<minecraft:stick>,<pyrotech:material:14>]);
+
 //Wooden Sword Tweaks
 
 val sharp_stick = <dungeontactics:sharp_stick>;
@@ -57,7 +60,7 @@ val skyroot = <aether_legacy:skyroot_plank>;
 val holystone = <aether_legacy:holystone>;
 val zanite = <aether_legacy:zanite_gemstone>;
 val egravitite = <aether_legacy:enchanted_gravitite>;
-val diamond = <minecraft:diamond>;
+val diamond = <betterwithmods:material:45>;
 val obsidian = <minecraft:obsidian>;
 val dragonbone = <iceandfire:dragonbone>;
 val mdchitin = <iceandfire:myrmex_desert_chitin>;

@@ -175,6 +175,7 @@ recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;
 orecheese.remove(<rats:cheese>);
+recipes.removeByRecipeName("rats:block_of_cheese"); //Compacted in a compacting bin, pirotech_other.zs
 
 <rats:cheese>.displayName = "Cheese Chunk";
 <rats:cheese>.addTooltip("For you, it's hardly worth the effort to eat. For a rat, it's a perfect treat!");
@@ -256,7 +257,7 @@ mods.rats.recipes.addChefRatRecipe(<biomesoplenty:fleshchunk>, <minecraft:rotten
 mods.rats.recipes.addChefRatRecipe(<aether_legacy:cooked_enchanted_cockatrice>, <harvestcraft:deluxechickencurryitem>);
 mods.rats.recipes.addChefRatRecipe(<quark:root>, <harvestcraft:roastedrootveggiemedleyitem>);
 mods.rats.recipes.addChefRatRecipe(<quark:rune:16>, <harvestcraft:epicbaconitem>);
-mods.rats.recipes.addChefRatRecipe(<quark:enderdragon_scale>, <harvestcraft:mobsoupitem>);
+mods.rats.recipes.addChefRatRecipe(<endreborn:dragon_scales>, <harvestcraft:mobsoupitem>);
 mods.rats.recipes.addChefRatRecipe(<iceandfire:deathworm_tounge>, <harvestcraft:sausageinbreaditem>);
 mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_blue>, <harvestcraft:fishandchipsitem>);
 mods.rats.recipes.addChefRatRecipe(<iceandfire:sea_serpent_scales_bronze>, <harvestcraft:fishandchipsitem>);

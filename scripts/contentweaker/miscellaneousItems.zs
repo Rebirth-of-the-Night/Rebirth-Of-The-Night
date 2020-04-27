@@ -43,6 +43,16 @@ sfs8.register();
 val sfs9 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact8");
 sfs9.register();
 
+//non-ingot ingots
+val sapphire = mods.contenttweaker.VanillaFactory.createItem("sapphire_ingot");
+sapphire.register();
+val ruby = mods.contenttweaker.VanillaFactory.createItem("ruby_ingot");
+ruby.register();
+val peridot = mods.contenttweaker.VanillaFactory.createItem("peridot_ingot");
+peridot.register();
+val amethyst = mods.contenttweaker.VanillaFactory.createItem("amethyst_ingot");
+amethyst.register();
+
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
 //rat.saturation(6)

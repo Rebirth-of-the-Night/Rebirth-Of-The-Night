@@ -29,6 +29,8 @@ mods.jei.JEI.removeAndHide(<betterwithmods:material:44>);
 
 mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
 
+mods.jei.JEI.removeAndHide(<betterwithmods:material:40>);
+
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 
@@ -72,6 +74,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:mystery_meat>);
 mods.ltt.LootTable.removeGlobalItem("betterwithmods:mystery_meat");
 mods.jei.JEI.removeAndHide(<betterwithmods:cooked_mystery_meat>);
 furnace.remove(<betterwithmods:cooked_mystery_meat>);
+furnace.remove(<betterwithmods:cooking_pot>);
 recipes.remove(<betterwithmods:donut>);
 mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
@@ -124,6 +127,12 @@ recipes.addShaped("wax_candle",<betterwithmods:candle>,[
     [null,<harvestcraft:beeswaxitem>,null]
 ]);
 
+recipes.addShaped("refractored_crucible",<contenttweaker:crucible>,[
+    [<pyrotech:material:9>,null,<pyrotech:material:9>],
+    [<pyrotech:material:9>,<pyrotech:material:9>,<pyrotech:material:9>],
+    [<pyrotech:material:9>,<pyrotech:material:9>,<pyrotech:material:9>]
+]);
+
 mods.betterwithmods.Cauldron.remove([<minecraft:mushroom_stew>]);
 mods.betterwithmods.Cauldron.remove([<minecraft:rabbit_stew>]);
 mods.betterwithmods.Cauldron.addUnstoked([<minecraft:cooked_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
@@ -135,7 +144,11 @@ mods.betterwithmods.Cauldron.addUnstoked([<primitivemobs:dodo>],[<primitivemobs:
 mods.betterwithmods.Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
 
 //Charbiotite
-mods.betterwithmods.Cauldron.addUnstoked([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3]);
+mods.betterwithmods.Cauldron.builder()
+.buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])
+.setHeat(2)
+.setPriority(6)
+.build();
 
 val arrayLeather = [<primitivemobs:cooked_dodo>,<animania:cooked_prime_beef>,<animania:cooked_prime_mutton>,<animania:cooked_prime_pork>,<animania:cooked_prime_chicken>,<animania:cooked_horse>,<animania:cooked_prime_rabbit>,<animania:cooked_frog_legs>,<animania:cooked_peacock>,<animania:cooked_prime_peacock>,<animania:cooked_chevon>,<animania:cooked_prime_chevon>,<aether_legacy:burnt_cockatrice>,<aether_legacy:cooked_enchanted_cockatrice>,<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<harvestcraft:crabcookeditem>,<quark:cooked_crab_leg>,<betteranimalsplus:venisoncooked>,<twilightforest:cooked_venison>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<twilightforest:cooked_meef>] as IItemStack[];
 
@@ -168,7 +181,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_helmet>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_pants>);
 
-mods.jei.JEI.removeAndHide(<betterwithmods:material:45>); # diamond ingot
+recipes.remove(<betterwithmods:material:45>); # diamond ingot
 
 
 recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*4,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
@@ -201,3 +214,38 @@ mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_sword>);
 
+// Gem tools Rework
+
+val diamondAll = [
+    <minecraft:diamond_sword>,
+    <minecraft:diamond_shovel>,
+    <minecraft:diamond_hoe>,
+    <minecraft:diamond_axe>,
+	<minecraft:diamond_pickaxe>,
+	<spartanweaponry:dagger_diamond>,
+	<spartanweaponry:longsword_diamond>,
+	<spartanweaponry:katana_diamond>,
+	<spartanweaponry:saber_diamond>,
+	<spartanweaponry:rapier_diamond>,
+	<spartanweaponry:greatsword_diamond>,
+	<spartanweaponry:hammer_diamond>,
+	<spartanweaponry:warhammer_diamond>,
+	<spartanweaponry:spear_diamond>,
+	<spartanweaponry:halberd_diamond>,
+	<spartanweaponry:pike_diamond>,
+	<spartanweaponry:lance_diamond>,
+	<spartanweaponry:longbow_diamond>,
+	<spartanweaponry:throwing_knife_diamond>,
+	<spartanweaponry:throwing_axe_diamond>,
+	<spartanweaponry:javelin_diamond>,
+	<spartanweaponry:boomerang_diamond>,
+	<spartanweaponry:battleaxe_diamond>,
+	<spartanweaponry:mace_diamond>,
+	<spartanweaponry:glaive_diamond>,
+	<spartanweaponry:staff_diamond>
+] as IIngredient[];
+
+
+for item in diamondAll{
+    recipes.remove(item);
+}

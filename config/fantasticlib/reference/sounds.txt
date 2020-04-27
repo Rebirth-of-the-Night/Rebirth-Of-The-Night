@@ -808,7 +808,6 @@ quark:entity.pickarang.clank
 quark:entity.pickarang.pickup
 quark:item.horse_whistle.blow
 quark:block.tiny_potato.shia_labeouf
-betteranimalsplus:crabrave
 bettercombatmod:player.swordslash
 bettercombatmod:player.criticalstrike
 disenchanter:block.disenchantment_table.use
@@ -1257,6 +1256,11 @@ spartanweaponry:throwing_weapon_throw
 spartanweaponry:throwing_weapon_hit
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
+betteranimalsplus:crabrave
+betteranimalsplus:entity_goose_hurt
+betteranimalsplus:record_walrus
+betteranimalsplus:entity_goose_death
+betteranimalsplus:entity_goose_ambient
 aether_legacy:aemob.moa.say
 aether_legacy:aemob.moa.flap
 aether_legacy:aemob.sheepuff.say

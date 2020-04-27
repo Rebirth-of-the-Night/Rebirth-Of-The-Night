@@ -102,6 +102,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:cooking_pot:1>.displayName = "Cooking Cauldron";
 <betterwithmods:aesthetic:0>.displayName = "Stone Chopping Block";
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
+<betterwithmods:bark:0>.displayName = "Wood Bark";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -156,17 +157,20 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:wooden_door>.displayName = "Wooden Door";
 <minecraft:chest>.displayName = "Wooden Chest";
 <minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
+<minecraft:trapdoor>.displayName = "Wooden Trapdoor";
+<minecraft:boat>.displayName = "Wooden Boat";
+<minecraft:wooden_button>.displayName = "Wooden Button";
 
 // Minecraft Future
 <minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
 
 
 // Macaws Bridges
-<mcwbridges:iron_armrest>.displayName = "Tin Armrest";
-<mcwbridges:iron_rod>.displayName = "Tin Rod";
-<mcwbridges:iron_platform>.displayName = "Tin Platform";
-<mcwbridges:most1>.displayName = "Tin Bridge Middle";
-<mcwbridges:most2>.displayName = "Tin Bridge End";
+<mcwbridges:iron_armrest>.displayName = "Metal Armrest";
+<mcwbridges:iron_rod>.displayName = "Metal Rod";
+<mcwbridges:iron_platform>.displayName = "Metal Platform";
+<mcwbridges:most1>.displayName = "Metal Bridge Middle";
+<mcwbridges:most2>.displayName = "Metal Bridge End";
 
 // Mowzie's Mobs
 <mowziesmobs:naga_fang>.displayName = "Skydrake Fang";
@@ -268,6 +272,7 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Return Potion";
+<bountifulbaubles:shieldobsidian>.displayName = "Flameward Shield";
 
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
@@ -619,7 +624,7 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <dungeontactics:silver_sword:*>.displayName = "§cTrue Dark's Edge";
 <dungeontactics:silver_sword:*>.addTooltip(format.red("Godly Weapon"));
 <dungeontactics:silver_sword:*>.addTooltip("They will suffer as we have.");
-mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. It seeks to lengthen other's suffering through Absorb, Vitality allows you to bring the sword closer to freeing it from its bond, and Runed makes this blade strike at the soul."]);
+mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. Its abilities allow you to draw strength from other's suffering, empower yourself by siphoning power from the blade itself, and strike at your enemies' souls, bypassing some of their armor."]);
 
 
 <betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";

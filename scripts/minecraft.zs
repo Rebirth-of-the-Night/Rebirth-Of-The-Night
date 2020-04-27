@@ -295,6 +295,18 @@ recipes.addShaped("wooden_door",<minecraft:wooden_door>,[
     [woodenDoorMat,woodenDoorMat]
 ]);
 
+var woodenBoatMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>;
+
+recipes.addShaped("wooden_boat",<minecraft:boat>,[
+    [woodenBoatMat,null,woodenBoatMat],
+    [woodenBoatMat,woodenBoatMat,woodenBoatMat]
+]);
+
+var woodenButtonMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|
+<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>;
+
+recipes.addShapeless("wooden_button",<minecraft:wooden_button>,[woodenButtonMat]);
+
 mods.jei.JEI.removeAndHide(<minecraft:shield>);
 mods.ltt.LootTable.removeGlobalItem("minecraft:shield");
 
@@ -314,6 +326,7 @@ recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>,
 [<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
 
 //Ore Dictionary Entries
+<ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 
 val dirt = <ore:dirt>;
@@ -580,23 +593,28 @@ recipes.addShapeless("lunarin endorium", <contenttweaker:lunarinendoriumbrick>*2
 recipes.addShapeless("lunarin steel", <contenttweaker:lunarinsteelbrick>*24,
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 );
-recipes.addShapeless("lunarin SFS", <contenttweaker:lunarinsfsbrick>*24,
+/*recipes.addShapeless("lunarin_SFS", <contenttweaker:lunarinsfsbrick>*24,
 	[<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>]
 );
-recipes.addShapeless("lunarin crystal heart", <contenttweaker:lunarinheartbrick>*24,
+*/
+mods.betterwithmods.Anvil.addShapeless(<contenttweaker:lunarinsfsbrick>*24, 
+[<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>]
+);
+
+recipes.addShapeless("lunarin_crystal_heart", <contenttweaker:lunarinheartbrick>*24,
 	[<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>]
 );
 //Should've been farlander since it's a gem, oh whatever
-recipes.addShapeless("lunarin rime", <contenttweaker:lunarinrimebrick>*24,
+recipes.addShapeless("lunarin_rime", <contenttweaker:lunarinrimebrick>*24,
 	[<ore:gemRime>, <ore:gemRime>, <ore:gemRime>, <ore:gemRime>, <ore:gemRime>, <ore:gemRime>]
 );
-recipes.addShapeless("lunarin fiery", <contenttweaker:lunarinfierybrick>*24,
+recipes.addShapeless("lunarin_fiery", <contenttweaker:lunarinfierybrick>*24,
 	[<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
 );
-recipes.addShapeless("witheredblock to dust>", <quark:black_ash>*9, 
+recipes.addShapeless("witheredblock_to_dust>", <quark:black_ash>*9, 
    [<contenttweaker:witheredblock>]
 );
-recipes.addShaped("dust to witheredblock", <contenttweaker:witheredblock>,[
+recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
 	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
     [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
     [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
@@ -606,13 +624,18 @@ recipes.addShaped("dust to witheredblock", <contenttweaker:witheredblock>,[
 
 recipes.remove(<minecraft:enchanting_table>);
 
-recipes.addShaped("Enchanting Table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
-//Hardness
-/*
-The minimum block resistance required to absorb maximum blast force of an explosion happening in nearby air = ((1.3 × power − attenuation steps × step length × 0.75)/step length − 0.3).
-Thus, the block resistances are 24.2 (charged creepers), 15.534 (TNT), 11.2 (creepers), 3.284 (fireballs).
-*/	
-
-<simpleores:onyx_block>.hardness = 100.0;
-<cyclicmagic:block_fragile>.hardness = 1.0;
+//Lifting methods
+recipes.addShaped("auto_ladder_iron", <advancedliftingmethods:powered_ladder>*4, 
+[[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>],
+[<ore:ingotElectrum>,<betterwithmods:material:36>,<ore:ingotElectrum>],
+[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]]);
+recipes.addShaped("auto_ladder_tin", <advancedliftingmethods:powered_ladder>*1 
+[[<ore:ingotTin>,<ore:dustRedstone>,<ore:ingotTin>],
+[<ore:ingotElectrum>,<betterwithmods:material:36>,<ore:ingotElectrum>],
+[<ore:ingotTin>,<ore:dustRedstone>,<ore:ingotTin>]]);
+recipes.addShaped("auto_ladder_steel", <advancedliftingmethods:powered_ladder>*8
+[[<ore:ingotSteel>,<ore:dustRedstone>,<ore:ingotSteel>],
+[<ore:ingotElectrum>,<betterwithmods:material:36>,<ore:ingotElectrum>],
+[<ore:ingotSteel>,<ore:dustRedstone>,<ore:ingotSteel>]]);

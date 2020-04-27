@@ -134,6 +134,8 @@
 <minecraft:furnace>.addShiftTooltip("Fuel Capacity: 1 at a time.");
 <minecraft:furnace>.addShiftTooltip("Fuel Modifier: 100%");
 
+<pyrotech:living_tar>.clearTooltip();
+
 <netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
 <dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");

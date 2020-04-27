@@ -1,10 +1,10 @@
 {
     "comment": "These qualities will apply for all basic weapons and
-                tools, including swords, pickaxes, axes, shovels, hoes, 
-                and shears! For more info about how to edit this file 
-                and add more files, visit 
+                tools, including swords, pickaxes, axes, shovels, hoes,
+                and shears! For more info about how to edit this file
+                and add more files, visit
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
+
     "slot": "mainhand",
     "whitelist": [
       {
@@ -15,30 +15,41 @@
       },
       {
         "class": "ItemShears"
-      },
-      {
-        "class": "ItemSword"
       }
     ],
     "blacklist": [
-    
+      {
+        "item": "simpleores:mythril_shears"
+      },
+      {
+        "item": "betterwithmods:steel_axe"
+      },
+      {
+        "item": "betterwithmods:steel_hoe"
+      },
+      {
+        "item": "betterwithmods:steel_pickaxe"
+      },
+      {
+        "item": "betterwithmods:steel_shovel"
+      },
+      {
+        "item": "betterwithmods:steel_mattock"
+      },
+      {
+        "item": "betterwithmods:steel_battleaxe"
+      },
+      {
+        "item": "betterwithmods:steel_hacksaw"
+      }
+
     ],
     "qualities": [
       {
         "name": "quality.worthless.name",
         "color": "dark_red",
-        "weight": 10,
+        "weight": 15,
         "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": -0.1,
-            "operation": 2
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.1,
-            "operation": 2
-          },
           {
             "name": "potioncore.digSpeed",
             "amount": -0.1,
@@ -52,27 +63,10 @@
         ]
       },
       {
-        "name": "quality.broken.name",
+        "name": "Rusted",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 25,
         "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": -0.15,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.bulky.name",
-        "color": "dark_gray",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.15,
-            "operation": 2
-          },
           {
             "name": "potioncore.digSpeed",
             "amount": -0.15,
@@ -81,51 +75,41 @@
         ]
       },
       {
-        "name": "quality.rusted.name",
+        "name": "Dense",
         "color": "red",
-        "weight": 10,
+        "weight": 15,
         "attributes": [
           {
-            "name": "generic.attackDamage",
+            "name": "potioncore.digSpeed",
             "amount": -0.1,
             "operation": 2
           },
           {
-            "name": "potioncore.digSpeed",
-            "amount": -0.1,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.clumsy.name",
-        "color": "red",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.digSpeed",
+            "name": "generic.movementSpeed",
             "amount": -0.05,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.chipped.name",
-        "color": "red",
-        "weight": 10,
+        "name": "Heavy",
+        "color": "dark_gray",
+        "weight": 25,
         "attributes": [
           {
-            "name": "generic.attackSpeed",
+            "name": "generic.movementSpeed",
             "amount": -0.05,
             "operation": 2
-          },
+          }
+        ]
+      },
+      {
+        "name": "Clumsy",
+        "color": "dark_gray",
+        "weight": 30,
+        "attributes": [
           {
-            "name": "generic.attackDamage",
+            "name": "potioncore.digSpeed",
             "amount": -0.05,
             "operation": 2
           }
@@ -133,68 +117,34 @@
       },
       {
         "name": "quality.short.name",
-        "color": "red",
-        "weight": 10,
+        "color": "yellow",
+        "weight": 40,
         "attributes": [
           {
             "name": "generic.reachDistance",
             "amount": -1,
             "operation": 0
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.15,
+            "operation": 2
           }
         ]
       },
       {
         "name": "normal",
-        "weight": 100
+        "weight": 200
       },
       {
-        "name": "quality.broad.name",
+        "name": "Oversized",
         "color": "yellow",
-        "weight": 10,
+        "weight": 40,
         "attributes": [
           {
-            "name": "generic.attackDamage",
-            "amount": 0.1,
-            "operation": 2
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.digSpeed",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.thin.name",
-        "color": "yellow",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": 0.1,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.pokey.name",
-        "color": "yellow",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": 0.05,
-            "operation": 2
+            "name": "generic.reachDistance",
+            "amount": 1,
+            "operation": 0
           },
           {
             "name": "potioncore.digSpeed",
@@ -204,26 +154,9 @@
         ]
       },
       {
-        "name": "quality.vicious.name",
-        "color": "yellow",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": 0.15,
-            "operation": 2
-          },
-          {
-            "name": "generic.reachDistance",
-            "amount": -0.5,
-            "operation": 0
-          }
-        ]
-      },
-      {
         "name": "quality.long.name",
         "color": "blue",
-        "weight": 10,
+        "weight": 40,
         "attributes": [
           {
             "name": "generic.reachDistance",
@@ -233,29 +166,34 @@
         ]
       },
       {
-        "name": "quality.sharp.name",
+        "name": "Electric",
         "color": "blue",
-        "weight": 10,
+        "weight": 40,
         "attributes": [
           {
-            "name": "generic.attackDamage",
-            "amount": 0.1,
+            "name": "generic.movementSpeed",
+            "amount": 0.04,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.05,
             "operation": 2
           }
         ]
       },
       {
-        "name": "quality.keen.name",
+        "name": "Keen",
         "color": "blue",
-        "weight": 10,
+        "weight": 20,
         "attributes": [
           {
-            "name": "generic.attackDamage",
+            "name": "generic.attackSpeed",
             "amount": 0.1,
             "operation": 2
           },
           {
-            "name": "generic.attackSpeed",
+            "name": "generic.attackDamage",
             "amount": 0.1,
             "operation": 2
           }
@@ -264,7 +202,7 @@
       {
         "name": "quality.graceful.name",
         "color": "aqua",
-        "weight": 10,
+        "weight": 32,
         "attributes": [
           {
             "name": "potioncore.digSpeed",
@@ -279,45 +217,30 @@
         ]
       },
       {
-        "name": "quality.sweeping.name",
-        "color": "aqua",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.reachDistance",
-            "amount": 0.5,
-            "operation": 0
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": 0.2,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.legendary.name",
+        "name": "Epic",
         "color": "light_purple",
-        "weight": 5,
+        "weight": 14,
         "attributes": [
           {
-            "name": "generic.attackDamage",
-            "amount": 0.15,
-            "operation": 2
-          },
-          {
             "name": "potioncore.digSpeed",
-            "amount": 0.1,
+            "amount": 0.15,
             "operation": 2
           },
           {
             "name": "generic.reachDistance",
             "amount": 0.5,
             "operation": 0
-          },
+          }
+        ]
+      },
+      {
+        "name": "Notched",
+        "color": "gold",
+        "weight": 2,
+        "attributes": [
           {
-            "name": "generic.attackSpeed",
-            "amount": 0.1,
+            "name": "potioncore.digSpeed",
+            "amount": 0.25,
             "operation": 2
           }
         ]
