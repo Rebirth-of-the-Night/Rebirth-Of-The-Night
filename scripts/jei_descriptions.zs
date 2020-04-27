@@ -40,7 +40,12 @@ mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the f
 
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. If you listen closely, you can hear faint cries of pain and sorrow echoing within."]);
 
-mods.jei.JEI.addDescription([<ore:foodCheeseWheel>,["To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle."]);
+// Cheese Wheels
+mods.jei.JEI.addDescription([<animania:friesian_cheese_wheel>],["To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle."]);
+mods.jei.JEI.addDescription([<animania:holstein_cheese_wheel>],["To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle."]);
+mods.jei.JEI.addDescription([<animania:jersey_cheese_wheel>],["To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle."]);
+mods.jei.JEI.addDescription([<animania:goat_cheese_wheel>],["To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle."]);
+mods.jei.JEI.addDescription([<animania:sheep_cheese_wheel>],["To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle."]);
 
 
 mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchanting Table");
