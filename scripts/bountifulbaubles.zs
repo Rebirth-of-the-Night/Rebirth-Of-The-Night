@@ -213,7 +213,7 @@ recipes.remove(<bountifulbaubles:trinketmagiclenses>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketmagiclenses>,[
 [<bountifulbaubles:spectralsilt>, <contenttweaker:luna_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
-[<minecraft:glass_pane>, <betterwithmods:material:12>, <minecraft:glass_pane>], 
+[<minecraft:stained_glass_pane:15>, <arcanearchives:scintillating_inlay>, <minecraft:stained_glass_pane:15>], 
 [<bountifulbaubles:spectralsilt>, <contenttweaker:sol_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]], 32);
    
 // Cross Necklace

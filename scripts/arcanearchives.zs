@@ -96,7 +96,7 @@ GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<a
 GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
 
 //fish's halo necklace
-GCT.addRecipe("halo_necklace", <mod_lavacow:halo_necklace>, [<ore:ingotElectrum>*2, <arcanearchives:radiant_dust>*12, <dungeontactics:silver_nugget>*6, <rustic:chain_gold>*4, <twilightforest:charm_of_life_1>, <mod_lavacow:scythe_claw>*2]);
+GCT.addRecipe("halo_necklace", <mod_lavacow:halo_necklace>, [<ore:ingotElectrum>*2, <arcanearchives:radiant_dust>*12, <iceandfire:silver_nugget>*6, <rustic:chain_gold>*4, <twilightforest:charm_of_life_2>, <mod_lavacow:scythe_claw>*2]);
 
 //ender spectacles
 //actually turns out, this thing is OP as shit. endermen and variants don't even retaliate when attacked. I don't like that. until we can fix that or make a workaround, away it goes.
