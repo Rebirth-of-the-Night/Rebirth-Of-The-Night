@@ -144,7 +144,7 @@ var honeycomb = <harvestcraft:honeycombitem>;
 var chamomile = <rustic:chamomile>;
 var root = <rustic:marsh_mallow>;
 var horsetail = <rustic:horsetail>;
-var 4clover = <contenttweaker:4leaf_clover>;
+var fourclover = <contenttweaker:4leaf_clover>;
 var amanita = <minecraft:red_mushroom>;
 var slime = <minecraft:slime_ball>;
 var endpearl = <minecraft:ender_pearl>;
@@ -158,7 +158,7 @@ mods.rustic.Condenser.removeRecipe(healthElixir);
 mods.rustic.Condenser.removeRecipe(healthElixirStrong);
 
 //mods.rustic.Condenser.addRecipe(output, input1, input2);
-mods.rustic.Condenser.addRecipe(luckElixir, 4clover, amanita);
+mods.rustic.Condenser.addRecipe(luckElixir, fourclover, amanita);
 mods.rustic.Condenser.addRecipe(bouncyElixir, slime, endpearl);
 mods.rustic.Condenser.addRecipe(butterElixir, butter, gnugg);
 mods.rustic.Condenser.addRecipe(bouncyElixirLong, horsetail, [slime, endpearl, butter]);
