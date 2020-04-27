@@ -145,7 +145,6 @@ var chamomile = <rustic:chamomile>;
 var root = <rustic:marsh_mallow>;
 var horsetail = <rustic:horsetail>;
 var 4clover = <contenttweaker:4leaf_clover>;
-var 5clover = <contenttweaker:5leaf_clover>;
 var amanita = <minecraft:red_mushroom>;
 var slime = <minecraft:slime_ball>;
 var endpearl = <minecraft:ender_pearl>;
