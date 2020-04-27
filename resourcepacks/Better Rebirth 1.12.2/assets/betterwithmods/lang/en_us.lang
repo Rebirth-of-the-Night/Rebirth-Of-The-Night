@@ -17,3 +17,5 @@ item.bwm:wool_boots.name=Wool Socks
 
 inv.cauldron.name=Cooking Cauldron
 inv.cauldron.stoked.name=Stoked Cooking Cauldron
+
+death.attack.gloom=%s was consumed by the shadows

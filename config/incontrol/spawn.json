@@ -271,6 +271,170 @@
     "potion": "extraalchemy:effect.fuse,300,1"
   },
 
+/// more mobs
+ // Enderman
+ {
+    "dimension": [0,10],
+    "mob": "minecraft:enderman",
+    "maxlight": 7,
+    "minlight": 0,
+    "random": 0.05,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ 
+  {
+    "dimension": [0,10],
+    "mob": "minecraft:zombie",
+    "maxlight": 7,
+    "minlight": 0,
+    "random": 0.05,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ 
+  {
+    "dimension": [0,10],
+    "mob": "minecraft:creeper",
+    "maxlight": 7,
+    "minlight": 0,
+    "random": 0.05,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ 
+  {
+    "dimension": [0,10],
+    "mob": "minecraft:skeleton",
+    "maxlight": 7,
+    "minlight": 0,
+    "random": 0.05,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+
+  {
+    "dimension": [0,10],
+    "mob": "minecraft:spider",
+    "maxlight": 7,
+    "minlight": 0,
+    "random": 0.05,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ 
+ 
+ // Beneath
+ {
+    "dimension": 10,
+    "mob": "minecraft:cave_spider",
+    "maxlight": 7,
+    "minlight": 0,
+	"random": 0.8,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ 
+ 
+ {
+    "dimension": 10,
+    "mob": "minecraft:slime",
+    "maxlight": 7,
+    "minlight": 0,
+	"random": 0.7,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ 
+ {
+    "dimension": 10,
+    "mob": "iceandfire:if_troll",
+    "maxlight": 7,
+    "minlight": 0,
+	"random": 0.1,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ 
+ {
+    "dimension": 10,
+    "mob": "twilightforest:fire_beetle",
+    "maxlight": 7,
+    "minlight": 0,
+	"maxheight": 40,
+	"random": 0.7,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow",
+    "healthmultiply": 0.5
+ },
+ {
+    "dimension": 10,
+    "mob": "twilightforest:fire_beetle",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 10,
+    "mob": "quark:ashen",
+    "maxlight": 7,
+    "minlight": 0,
+	"maxheight": 50,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "quark:ashen",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 10,
+    "mob": "quark:dweller",
+    "maxlight": 7,
+    "minlight": 0,
+	"maxheight": 50,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "quark:dweller",
+    "result": "deny"
+ },
  /////////////// GAME STAGES ///////////////
   // Zotzpyre
  {
@@ -352,8 +516,8 @@
     "dimension": -1,
     "mob": "netherex:spinout",
     "gamestage": "killedWither",
-    "random": 0.15,
-	"block": ["minecraft:soul_sand", "netherex:possessed_soul_sand"],
+    "random": 0.45,
+	"block": ["biomesoplenty:ash_block", "minecraft:soul_sand", "netherex:possessed_soul_sand"],
     "maxcount": {
         "amount": 3,
         "perplayer": true
@@ -1649,6 +1813,7 @@
     "dimension": [0,10],
     "mob": "specialmobs:palespider",
     "gamestage": "fullEarlyArmor",
+	"maxheight": 80,
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1905,7 +2070,7 @@
     "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
     "gamestage": "minedMythril",
-    "random": 0.0625,
+    "random": 0.0225,
     "maxlight": 7,
     "minlight": 0,
     "maxcount": {
