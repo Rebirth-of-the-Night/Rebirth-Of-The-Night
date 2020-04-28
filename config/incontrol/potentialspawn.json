@@ -1381,7 +1381,7 @@
     "mobs": [
       {
         "mob": "mod_lavacow:ptera",
-        "weight": 3,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 4
       }
