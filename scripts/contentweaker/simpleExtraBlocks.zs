@@ -26,6 +26,7 @@ halite.register();
 var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Ground>);
 crucible.setCreativeTab(<creativetab:buildingBlocks>);
 crucible.setBlockSoundType(<soundtype:stone>);
+crucible.setFullBlock(false);
 crucible.register();
 
 //Lunarin blocks

@@ -137,7 +137,7 @@ val healthElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "mine
 val luckElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:luck", Duration: 450, Amplifier: 0}]});
 val bouncyElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 1200, Amplifier: 1}]});
 val bouncyElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 2600, Amplifier: 1}]});
-val butterElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:butter", Duration: 450, Amplifier: 1}]});
+val butterElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.butter", Duration: 450, Amplifier: 1}]});
 
 var cohosh = <rustic:cohosh>;
 var honeycomb = <harvestcraft:honeycombitem>;
