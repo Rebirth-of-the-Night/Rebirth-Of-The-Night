@@ -49,6 +49,13 @@ mods.betterwithmods.Mill.builder()
 .setGrindType("quark:entity.stoneling.purr")
 .build();
 
+// QoL guaranteed 4x Glowstone
+mods.betterwithmods.Mill.builder()
+.buildRecipe([<minecraft:glowstone>], [<minecraft:glowstone_dust>*4])
+.setPriority(3)
+.setGrindType("block.glass.break")
+.build();
+
 // nether sugar
 mods.betterwithmods.Mill.builder()
 .buildRecipe([<betternether:nether_reed>], [<minecraft:sugar>*2])
