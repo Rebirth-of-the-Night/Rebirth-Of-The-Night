@@ -430,14 +430,10 @@ recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
 
 #Bag of Hoarding crafted using Tanned Leather
 
-var tanned = <betterwithmods:material:6>;
+var backpack = <quark:backpack>.withTag({Quality: {}});
 
 recipes.remove(<dungeontactics:bagofhoarding>);
-recipes.addShaped("Bag of Hoarding", <dungeontactics:bagofhoarding>,[
-    [<minecraft:string>, tanned, <minecraft:string>],
-    [tanned, <minecraft:ender_chest>, tanned],
-    [tanned, tanned, tanned]
-]);
+recipes.addShapeless("bag_of_hoarding",<dungeontactics:bagofhoarding>,[backpack,<minecraft:ender_chest>]);
 
 // Charm recipes
 
