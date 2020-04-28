@@ -8,7 +8,17 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:enderdragonscale");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:brokenblackdragonscale");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringiron");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
-
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketshulkerheart");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:amuletsinwrath");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:amuletsinpride");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:amuletsingluttony");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringfreeaction");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketmagiclenses");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketbezoar");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringoverclocking");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketapple");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketbrokenheart");
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketvitamins");
 
 recipes.remove(<bountifulbaubles:brokenblackdragonscale>);
 
@@ -52,17 +62,23 @@ recipes.addShaped("Sin Pendant", <bountifulbaubles:amuletsinempty>,[
 
 recipes.remove(<bountifulbaubles:amuletsinwrath>);
 
+//FierceBeastHead oredict 
+val oreDictEnt = <ore:fierceBeastHead>;
+//oreDictEnt.add(IItemStack... item_items);
+oreDictEnt.add([<betteranimalsplus:wolfhead>, <betteranimalsplus:wolfhead_1>, <betteranimalsplus:wolfhead_2>, <betteranimalsplus:wolfhead_3>, <betteranimalsplus:wolfhead_4>, <betteranimalsplus:wolfhead_5>, <betteranimalsplus:wolfhead_6>, <betteranimalsplus:boarhead>, <betteranimalsplus:boarhead_1>, <betteranimalsplus:boarhead_2>, <betteranimalsplus:boarhead_3>, <betteranimalsplus:boarhead_4>, <betteranimalsplus:bearhead>, <betteranimalsplus:bearhead_1>, <betteranimalsplus:bearhead_2>, <betteranimalsplus:bearhead_3>]);
+
+
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletsinwrath>,[
-[null,<contenttweaker:soul_rune>.anyDamage().transformDamage(),null],
+[<toroquest:royal_helmet>,<contenttweaker:soul_rune>.anyDamage().transformDamage(),<mowziesmobs:barako_mask>],
 [<bountifulbaubles:spectralsilt>,<bountifulbaubles:amuletsinempty>,<bountifulbaubles:spectralsilt>],
-[null,<quark:black_ash>,null]], 16);
+[<ore:fierceBeastHead>,<quark:black_ash>,<ore:fierceBeastHead>]], 16);
 
 // Pride Pendant
 
 recipes.remove(<bountifulbaubles:amuletsinpride>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletsinpride>,[
-[null, <contenttweaker:life_rune>.anyDamage().transformDamage(), null],
+[<bountifulbaubles:crowngold>, <contenttweaker:life_rune>.anyDamage().transformDamage(), <minecraft:golden_sword>],
 [<bountifulbaubles:spectralsilt>, <bountifulbaubles:amuletsinempty>, <bountifulbaubles:spectralsilt>], 
 [null, <scalinghealth:crystalshard>, null]], 16);
    
@@ -96,7 +112,7 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketobsidianskull>,
 recipes.remove(<bountifulbaubles:magicmirror>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:magicmirror>,[
-[<biomesoplenty:gem:6>, <bountifulbaubles:potionrecall>, <biomesoplenty:gem:6>],
+[<biomesoplenty:biome_essence>, <bountifulbaubles:potionrecall>, <biomesoplenty:biome_essence>],
 [<iceandfire:silver_ingot>, <contenttweaker:end_orb>.anyDamage().transformDamage(), <iceandfire:silver_ingot>], 
 [<bountifulbaubles:spectralsilt>, <iceandfire:silver_ingot>, <bountifulbaubles:spectralsilt>]], 16);
 
@@ -160,7 +176,7 @@ recipes.remove(<bountifulbaubles:trinketapple>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketapple>,[
 [null, <aether_legacy:healing_stone>, null],
-[<twilightforest:hydra_chop>, <minecraft:golden_apple:1>, <harvestcraft:epicbaconitem>], 
+[<twilightforest:hydra_chop>, <minecraft:golden_apple:1>, <twilightforest:moonworm_queen>], 
 [<dungeontactics:charm_famine>, <contenttweaker:spectral_shard>, <dungeontactics:charm_unintelligible>]], 64);
    
 // Broken Heart
@@ -179,7 +195,7 @@ recipes.remove(<bountifulbaubles:trinketbezoar>);
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketbezoar>,[
 [<mowziesmobs:naga_fang>, <bountifulbaubles:spectralsilt>, <minecraft:poisonous_potato>],
 [<bountifulbaubles:spectralsilt>, <contenttweaker:poison_orb>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>], 
-[<betterwithmods:material:54>, <bountifulbaubles:spectralsilt>, <iceandfire:myrmex_stinger>]], 32);
+[<betterwithmods:material:54>, <bountifulbaubles:spectralsilt>, <mod_lavacow:poisonstinger>]], 32);
    
 // Shulker Heart
 
@@ -187,7 +203,7 @@ recipes.remove(<bountifulbaubles:trinketshulkerheart>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketshulkerheart>,[
 [<bountifulbaubles:spectralsilt>, <contenttweaker:air_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
-[<scalinghealth:heartdust>, <minecraft:shulker_shell>, <scalinghealth:heartdust>], 
+[<scalinghealth:crystalshard>, <minecraft:shulker_shell>, <scalinghealth:crystalshard>], 
 [<bountifulbaubles:spectralsilt>, <contenttweaker:earth_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]], 32);
    
 // Ring of Overclocking
@@ -213,7 +229,7 @@ recipes.remove(<bountifulbaubles:trinketmagiclenses>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketmagiclenses>,[
 [<bountifulbaubles:spectralsilt>, <contenttweaker:luna_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
-[<minecraft:stained_glass_pane:15>, <arcanearchives:scintillating_inlay>, <minecraft:stained_glass_pane:15>], 
+[<minecraft:stained_glass_pane:15>, <arcanearchives:matrix_brace>, <minecraft:stained_glass_pane:15>], 
 [<bountifulbaubles:spectralsilt>, <contenttweaker:sol_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]], 32);
    
 // Cross Necklace
@@ -233,3 +249,18 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketluckyhorseshoe>
 [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>],
 [<minecraft:gold_ingot>, <contenttweaker:aether_rune>.anyDamage().transformDamage(), <minecraft:gold_ingot>], 
 [<bountifulbaubles:spectralsilt>, <aether_legacy:enchanted_gravitite>, <bountifulbaubles:spectralsilt>]], 32);
+
+
+/////// non-baubles (is this legal? I will make it legal.)
+
+recipes.remove(<rats:plague_doctorate>);
+
+mods.betterwithaddons.Infuser.addShaped(<rats:plague_doctorate>,[
+[<rats:plague_essence>, null, <rats:contaminated_food>],
+[<contenttweaker:plague_rune>.anyDamage().transformDamage(), <wards:enchanted_paper>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage()], 
+[<rats:contaminated_food>, <aether_legacy:enchanted_gravitite>, <rats:plague_essence>]], 8);
+
+
+
+
+

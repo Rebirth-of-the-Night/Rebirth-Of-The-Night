@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
+mods.ltt.LootTable.removeGlobalItem("twilightforest:transformation_powder");
 mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table>);
 
 recipes.remove(<twilightforest:castle_pillar:1>);
