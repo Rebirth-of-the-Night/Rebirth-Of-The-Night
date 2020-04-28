@@ -51,6 +51,7 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_cutlass");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_glaive");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
 
 
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);

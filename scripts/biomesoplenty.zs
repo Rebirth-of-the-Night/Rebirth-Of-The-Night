@@ -82,3 +82,20 @@ recipes.addShapeless("white_sandstone_from_stairs",<biomesoplenty:white_sandston
 
 recipes.remove(<biomesoplenty:terrarium:7>);
 recipes.addShapeless("beach_terrarium",<biomesoplenty:terrarium:7>,[<ore:sand>,<biomesoplenty:double_plant:3>,<biomesoplenty:jar_empty>]);
+
+////ash
+
+recipes.removeByRecipeName("biomesoplenty:coal_from_ash");
+recipes.remove(<biomesoplenty:ash_block>);
+
+recipes.addShaped("ashblock",<biomesoplenty:ash_block>,[
+    [<biomesoplenty:ash>,<biomesoplenty:ash>,<biomesoplenty:ash>],
+    [<biomesoplenty:ash>,<biomesoplenty:ash>,<biomesoplenty:ash>],
+    [<biomesoplenty:ash>,<biomesoplenty:ash>,<biomesoplenty:ash>]
+]);
+
+recipes.addShaped("ashblock_compression",<minecraft:coal>,[
+    [<biomesoplenty:ash_block>,<biomesoplenty:ash_block>,<biomesoplenty:ash_block>],
+    [<biomesoplenty:ash_block>,<biomesoplenty:ash_block>,<biomesoplenty:ash_block>],
+    [<biomesoplenty:ash_block>,<biomesoplenty:ash_block>,<biomesoplenty:ash_block>]
+]);
