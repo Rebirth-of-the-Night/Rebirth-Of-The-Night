@@ -1,0 +1,21 @@
+setIcon(<pyrotech:stash>)
+setTitle("Stash")
+setDescription("Craft a stash.")
+
+addParent("triumph:advancements/storage/chest")
+addParent("triumph:advancements/storage/quarkchest")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Stash", "triumph:player_crafted_item")
+criteria.setItem("pyrotech:stash")
+
+// hideLines()
+// setHidden(true)
+visibleIf("triumph:advancements/storage/chest")
+visibleIf("triumph:advancements/storage/quarkchest")
+setPos(-534,-189)
