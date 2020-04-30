@@ -1,0 +1,17 @@
+setIcon(<iceandfire:dragon_skull>)
+setTitle("Dracarys")
+setDescription("Die by dragon fire.")
+
+addParent("triumph:advancements/deaths/root")
+
+criteria = addCriteria("dragon fire", "minecraft:entity_killed_player")
+criteria.setEntityType("iceandfire:firedragon")
+criteria2 = criteria.getDamageSource()
+criteria2.isFire(true)
+// criteria2 = addCriteria("Fire", "triumph:player_death")
+// criteria2.isFire(true)
+addRequirements([criteria, criteria2])
+
+hideLines()
+setHidden(true)
+setPos(185,-13)

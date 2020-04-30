@@ -8,6 +8,6 @@ addParent("triumph:advancements/deaths/root")
 criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
 criteria.setEntityType("creeper")
 
-hideLines()
+// hideLines()
 setHidden(true)
-setPos(-140,9)
+setPos(64,113)

@@ -9,5 +9,5 @@ criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
 criteria.setEntityType("creeper")
 
 criteria.setCount(120)
-setPos(380,9)
+setPos(584,113)
 setHidden(true)
