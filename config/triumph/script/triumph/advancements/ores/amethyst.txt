@@ -9,4 +9,4 @@ criteria.setBlock(<ore:oreAmethyst>)
 
 hideLines()
 alwaysVisible()
-setPos(-85,-84)
+setPos(-84,-82)

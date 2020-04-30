@@ -1,0 +1,11 @@
+setIcon("betternether:cincinnasite")
+setTitle("Beauty From Hell")
+setDescription("Mine cincinnasite ore")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Cincinnasite", "triumph:player_harvest_block")
+criteria.setBlock(<betternether:cincinnasite_ore>)
+
+alwaysVisible()
+setPos(-135,108)

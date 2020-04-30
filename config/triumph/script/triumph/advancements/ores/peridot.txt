@@ -9,4 +9,4 @@ criteria.setBlock(<ore:orePeridot>)
 
 hideLines()
 alwaysVisible()
-setPos(-147,-84)
+setPos(-53,-49)

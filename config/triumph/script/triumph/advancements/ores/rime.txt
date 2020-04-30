@@ -1,0 +1,11 @@
+setIcon("netherex:rime_crystal")
+setTitle("Frozen Ignitor")
+setDescription("Mine rime ore")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Rime", "triumph:player_harvest_block")
+criteria.setBlock(<netherex:rime_ore>)
+
+alwaysVisible()
+setPos(-135,74)

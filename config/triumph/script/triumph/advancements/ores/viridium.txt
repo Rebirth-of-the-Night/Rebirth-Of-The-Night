@@ -1,4 +1,4 @@
-setIcon("simpleores:adamantium_ore")
+setIcon("simpleores:adamantium_ingot")
 setTitle("Light and Powerful")
 setDescription("Mine viridum ore")
 

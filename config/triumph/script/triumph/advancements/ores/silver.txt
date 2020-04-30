@@ -1,4 +1,4 @@
-setIcon("dungeontactics:silver_ore")
+setIcon("dungeontactics:silver_ingot")
 setTitle("Shiny!")
 setDescription("Mine silver ore")
 
