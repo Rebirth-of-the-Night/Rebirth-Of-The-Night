@@ -6,17 +6,17 @@ setDescription("Craft a refractory tank.")
 addParent("triumph:advancements/storage/stonetank")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
-setShowToast(false)
+setShowToast(true)
 
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-// criteria = addCriteria("Craft Refractory Tank", "triumph:player_crafted_item")
-// criteria.setItem("pyrotech:tank")
+criteria = addCriteria("Craft Refractory Tank", "triumph:player_crafted_item")
+criteria.setItem(<pyrotech:tank:1>)
 
 // fix somehow item data = <pyrotech:tank:1>
-addCriteria("impossible", "minecraft:impossible")
+// addCriteria("impossible", "minecraft:impossible")
 
 // hideLines()
-setHidden(true)
-setPos(-481,-3)
+// setHidden(true)
+setPos(-476,-32)
