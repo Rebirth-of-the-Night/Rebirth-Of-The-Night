@@ -64,3 +64,9 @@ mods/Mineshot-v1.71-1.12.jar
 mods/Patchouli-1.0-20.jar
 mods/themidnight-0.3.5.jar
 options.txt
+mods/twitchspawn_1.12.2-0.4.17.jar
+config/TwitchSpawn/credentials.toml
+config/TwitchSpawn/messages.subtitle.json
+config/TwitchSpawn/messages.title.json
+config/TwitchSpawn/preferences.toml
+config/TwitchSpawn/rules.default.tsl
