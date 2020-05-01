@@ -19,8 +19,6 @@ mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
 
 // Anvil Recipes
 
-var test = <endreborn:tool_sword_endorium>.anyDamage().marked("mark");
-
 // Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
 mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_sword_endorium>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:tool_sword_endorium>, 1,
 function(out, ins, cInfo){
