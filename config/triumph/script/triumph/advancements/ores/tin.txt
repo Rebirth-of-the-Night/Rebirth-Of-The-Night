@@ -1,4 +1,4 @@
-setIcon("simpleores:tin_ore")
+setIcon("simpleores:tin_ingot")
 setTitle("Not Quite Iron")
 setDescription("Mine tin ore")
 

@@ -1,4 +1,4 @@
-setIcon("minecraft:iron_ore")
+setIcon("minecraft:iron_ingot")
 setTitle("The Most Versatile Ore")
 setDescription("Mine iron ore")
 
@@ -9,4 +9,4 @@ criteria = addCriteria("Iron ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreIron>)
 
 alwaysVisible()
-setPos(-174,4)
+setPos(-122,4)

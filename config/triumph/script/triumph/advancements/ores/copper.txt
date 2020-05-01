@@ -1,4 +1,4 @@
-setIcon("simpleores:copper_ore")
+setIcon("simpleores:copper_ingot")
 setTitle("Flimsy But Plentiful")
 setDescription("Mine copper ore")
 

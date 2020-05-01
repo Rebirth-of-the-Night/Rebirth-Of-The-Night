@@ -2,10 +2,10 @@ setIcon("minecraft:redstone")
 setTitle("Useful When Powered")
 setDescription("Mine redstone ore")
 
-addParent("triumph:advancements/ores/iron")
+addParent("triumph:advancements/ores/bronze")
 
 criteria = addCriteria("Redstone", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreRedstone>)
 
 alwaysVisible()
-setPos(-100,33)
+setPos(-135,-70)

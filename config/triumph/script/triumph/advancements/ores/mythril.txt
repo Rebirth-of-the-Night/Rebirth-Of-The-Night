@@ -1,4 +1,4 @@
-setIcon("simpleores:mythril_ore")
+setIcon("simpleores:mythril_ingot")
 setTitle("Mystical Power")
 setDescription("Mine mythril ore")
 

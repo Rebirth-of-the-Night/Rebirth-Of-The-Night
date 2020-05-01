@@ -1,0 +1,12 @@
+setIcon("scalinghealth:heartcontainer")
+setTitle("Heart dust")
+setDescription("Mine heart crystal ore")
+
+addParent("triumph:advancements/ores/iron")
+
+criteria = addCriteria("Heart Crystal", "triumph:player_harvest_block")
+criteria.setBlock(<scalinghealth:crystalore>)
+
+setFrameType("CHALLENGE")
+alwaysVisible()
+setPos(-53,40)
