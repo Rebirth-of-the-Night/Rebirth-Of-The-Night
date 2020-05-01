@@ -2,13 +2,21 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemTransformer;
 
-//misc
+//remove and hide original BB disint tablet
 mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
+
+//remove all original quark rune recipes
 recipes.remove(<quark:rune:*>);
-//recipes.removeShaped(<endreborn:item_end_rune>, [[<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>],[<endreborn:item_end_shard>, <endreborn:item_advanced_ender_pearl>, <endreborn:item_end_shard>],[<endreborn:item_end_shard>, <endreborn:item_end_shard>, <endreborn:item_end_shard>]]);
+
+//changes to end rune behavior
 recipes.remove(<endreborn:item_end_rune>);
 val endrune = <endreborn:item_end_rune>;
+endrune.maxStackSize = 1;
 endrune.maxDamage = 8;
+
+//make quark runes non stackable
+val quarkrune = (<quark:rune:*>);
+quarkrune.maxStackSize = 1;
 
 //inert
 recipes.addShapeless(<contenttweaker:blank_rune>.withTag({"Quark:RuneColor": 7, ench: [{lvl: 1 as short, id: 57 as short}], RepairCost: 1, "Quark:RuneAttached": 1 as byte}), [<ore:stone>, <dungeontactics:magic_powder>]);
