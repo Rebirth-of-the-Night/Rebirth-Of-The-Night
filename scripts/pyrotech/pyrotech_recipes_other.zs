@@ -48,9 +48,7 @@ SoakingPot.addRecipe("black_concrete", <minecraft:concrete:15>*8, <liquid:water>
 SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:4>*5, <liquid:water>*200, <pyrotech:rock:8>, 6 * 60 * 20);
 SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 12 * 60 * 20);
 SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
-
-
-
+SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
 
 
 

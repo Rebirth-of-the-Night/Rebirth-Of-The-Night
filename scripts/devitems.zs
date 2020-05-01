@@ -126,7 +126,7 @@ mods.jei.JEI.addItem(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, 
 mods.rockytweaks.Anvil.remove([<spartanweaponry:katana_wood>]);
 mods.rockytweaks.Anvil.remove([<spartancompat:katana_onyx>]);
 
-mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"Old and not very useful. It is really just a stick that someone probably found lying around, yet it feels like it comes from another era. It can be assumed that whoever its original wielder wasm, they really trusted it.");
+mods.jei.JEI.addDescription(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}),"Old and not very useful. It is really just a stick that someone probably found lying around, yet it feels like it comes from another era. It can be assumed that whoever its original wielder was, they really trusted it.");
 mods.jei.JEI.addDescription(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),"Restored to a pristine state, the wisdom and power of previous generations has been deeply §linfused §rinto this artifact.");
 mods.jei.JEI.addDescription(<contenttweaker:nethercoin>,"Some sort of currency from an era long forgotten, before the disease had decimated the population of the Nether.","Only some high ranking individuals have them.");
 <contenttweaker:nethercoin>.addTooltip("Might be valuable to an archeologist or merchant from far away. Wasn't there some 'collector' in villages?");

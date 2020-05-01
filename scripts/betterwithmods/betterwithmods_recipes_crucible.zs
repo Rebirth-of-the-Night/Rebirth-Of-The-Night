@@ -14,6 +14,7 @@ mods.betterwithmods.Crucible.removeAll();
 // urn:8 steel dustCarbon soul flux > sfs urn:0
 
 mods.betterwithmods.Crucible.addUnstoked([<ore:cobblestone>],[<minecraft:stone>]);
+mods.betterwithmods.Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<betterwithmods:aesthetic:6>]);
 
 //Normal Steel
 mods.betterwithmods.Crucible.addUnstoked(

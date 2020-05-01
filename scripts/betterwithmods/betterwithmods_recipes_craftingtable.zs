@@ -171,6 +171,7 @@ recipes.addShapeless("soapstone_mossy_cobblestone", <undergroundbiomes:metamorph
 recipes.addShapeless("moss_stone",<minecraft:mossy_cobblestone>, [<minecraft:cobblestone>, <ore:vine>]);
 recipes.addShapeless("mossy_holystone",<aether_legacy:mossy_holystone>, [<aether_legacy:holystone>, <ore:vine>]);
 recipes.addShapeless("mossy_stone_bricks",<minecraft:stonebrick:1>, [<minecraft:stonebrick:0>, <ore:vine>]);
+recipes.addShapeless("mossy_white_stone_bricks",<betterwithaddons:whitebrick:1>, [<betterwithaddons:whitebrick:0>, <ore:vine>]);
 recipes.addShapeless("mossy_towerwood",<twilightforest:tower_wood:3>, [<twilightforest:tower_wood:0>, <ore:vine>]);
 recipes.addShapeless("mossy_castle_brick",<twilightforest:castle_brick:4>, [<twilightforest:castle_brick:0>, <ore:vine>]);
 recipes.addShapeless("mossy_etched_nagastone",<twilightforest:etched_nagastone_mossy>, [<twilightforest:etched_nagastone>, <ore:vine>]);
