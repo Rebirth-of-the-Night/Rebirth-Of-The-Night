@@ -286,7 +286,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 		<nyx:fallen_star>
     ],
     [
-        <dungeontactics:magic_powder>*4
+        <dungeontactics:magic_powder>*8
     ]
 );
 //Unstoked Magic Wood & Comet Shard
@@ -296,7 +296,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 		<nyx:comet_shard>
     ],
     [
-        <dungeontactics:magic_powder>*8
+        <dungeontactics:magic_powder>*16
     ]
 );
 //Stoked Magic Wood & Star Piece
@@ -306,7 +306,7 @@ mods.betterwithmods.Crucible.addStoked(
 		<nyx:fallen_star>
     ],
     [
-        <dungeontactics:magic_powder>*8
+        <dungeontactics:magic_powder>*12
     ]
 );
 //Stoked Magic Wood & Comet Shard
@@ -316,7 +316,7 @@ mods.betterwithmods.Crucible.addStoked(
 		<nyx:comet_shard>
     ],
     [
-        <dungeontactics:magic_powder>*16
+        <dungeontactics:magic_powder>*24
     ]
 );
 
