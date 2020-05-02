@@ -1,0 +1,13 @@
+setIcon(<betterwithmods:material:14>)
+setTitle("Soul Imbued Steel")
+setDescription("Craft soulforged steel")
+
+addParent("triumph:advancements/ores/crudesteel")
+
+criteria = addCriteria("Soulforged Steel", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_ingot")
+
+
+alwaysVisible()
+setFrameType("CHALLENGE")
+setPos(-16,47)

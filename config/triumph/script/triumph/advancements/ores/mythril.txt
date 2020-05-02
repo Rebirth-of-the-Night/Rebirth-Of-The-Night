@@ -11,4 +11,4 @@ criteria = addCriteria("Mythril Ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreMythril>)
 
 alwaysVisible()
-setPos(3,33)
+setPos(2,4)
