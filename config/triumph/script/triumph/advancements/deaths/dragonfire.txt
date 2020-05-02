@@ -6,8 +6,8 @@ addParent("triumph:advancements/deaths/root")
 
 criteria = addCriteria("dragon fire", "minecraft:entity_killed_player")
 criteria.setEntityType("iceandfire:firedragon")
-criteria2 = addCriteria("Fire", "triumph:player_death")
-criteria2.isFire(true)
+criteria = addCriteria("Fire", "triumph:player_death")
+criteria.isFire(true)
 addRequirements(["dragon fire", "Fire"])
 
 hideLines()
