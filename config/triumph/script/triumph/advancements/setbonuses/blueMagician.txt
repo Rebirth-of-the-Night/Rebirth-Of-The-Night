@@ -1,0 +1,20 @@
+setIcon("quark:witch_hat")
+setTitle("Blue Magician")
+setDescription("Complete the Blue Magician set.")
+
+addParent("triumph:advancements/setbonuses/magicalmagnet")
+
+criteria = addCriteria("Helmet", "minecraft:inventory_changed")
+criteria.addItem("quark:witch_hat")
+
+criteria = addCriteria("Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_chestplate")
+
+criteria = addCriteria("Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_leggings")
+
+criteria = addCriteria("Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_boots")
+
+alwaysVisible()
+setPos(-77,69)
