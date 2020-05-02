@@ -143,6 +143,13 @@ mods.betterwithmods.Cauldron.addUnstoked([<primitivemobs:dodo>],[<primitivemobs:
 
 mods.betterwithmods.Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
 
+//Horse Upgrades
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<minecraft:slime_ball>*4],[<cyclicmagic:horse_upgrade_jump>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<rustic:cohosh>*2,<harvestcraft:honeyitem>],[<cyclicmagic:horse_upgrade_health>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*16,<mod_lavacow:poisonspore>],[<cyclicmagic:horse_upgrade_type>]);
+
 //Charbiotite
 mods.betterwithmods.Cauldron.builder()
 .buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])

@@ -1,0 +1,6 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+
+effect @p poison 2 1
+effect @p extraalchemy:effect.pain 4 1
+

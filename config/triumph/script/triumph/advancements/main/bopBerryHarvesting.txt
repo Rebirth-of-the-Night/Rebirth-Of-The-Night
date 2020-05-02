@@ -1,0 +1,20 @@
+setIcon(<minecraft:emerald_ore>)
+setTitle("SpineBushes")
+setDescription("Right clicking a berry bush damages the player each time")
+setHidden(true)
+setAnnounceToChat(false)
+setShowToast(false)
+
+addParent("triumph:advancements/main/root")
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+//Sets the required block for the criteria. This is the block that needs to be right clicked by the player.
+criteria.setBlock(<biomesoplenty:plant_0:5>)
+
+addRewardFunction("triumph:bopBerryHarvesting")
+
+//Sets the repeat timer for the advancement. This is in IRL seconds.
+setRepeatTime(0)
+

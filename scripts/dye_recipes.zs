@@ -182,3 +182,18 @@ recipes.addShapeless("brown_dye_green",<biomesoplenty:brown_dye>*2,
  [<ore:dyeRed>,<ore:dyeGreen>]);
 recipes.addShapeless("brown_dye_purple",<biomesoplenty:brown_dye>*2,
  [<ore:dyeYellow>,<ore:dyePurple>]);
+ 
+//Other plant recipes
+
+recipes.addShapeless("cut_rose",<biomesoplenty:flower_1:5>*3, //Recipe for classic (BoP-1.5) rose
+ [<simpleores:onyx_shears>|<simpleores:adamantium_shears>|<simpleores:mythril_shears>|<minecraft:shears>.anyDamage().transformDamage(),<minecraft:double_plant:4>]);
+ 
+recipes.addShaped("wither_rose",<minecraftfuture:flowerblack>, //Recipe for wither rose
+[[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
+[<quark:black_ash>, <biomesoplenty:flower_1:5>, <quark:black_ash>],
+[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]]);
+
+recipes.addShaped("regeneration_garden",<dungeontactics:flower_sanguine>, //Recipe for sanguine rose
+[[<scalinghealth:crystalshard>, <minecraftfuture:flowerblack>, <scalinghealth:crystalshard>],
+[<minecraftfuture:flowerblack>, <betterwithaddons:material:3>, <minecraftfuture:flowerblack>],
+[<scalinghealth:crystalshard>, <minecraftfuture:flowerblack>, <scalinghealth:crystalshard>]]);

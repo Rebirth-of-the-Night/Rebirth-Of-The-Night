@@ -1,0 +1,12 @@
+item.rustic.wildberries.name=Carminberries
+
+tile.rustic.wildberry_bush.name=Carminberry Bush
+tile.rustic.wildberry_juice.name=Carminberry Juice
+fluid.wildberryjuice=Carminberry Juice
+fluid.wildberrywine=Carminberry Wine
+
+book.rustic.entry.wildberries=Carminberries
+book.rustic.text.wildberries=Carminberries come from Carminberry bushes. Carminberry bushes spawn naturally throughout the overworld in warm, but not dry climates. Carminberries can be harvested from fully grown bushes by interacting with the bush. Breaking the bush also works, but then the bush must be replaced.
+book.rustic.text.wildberries_1=Carminberry bushes will not reproduce naturally, but bonemeal can be applied to make them spread. carminberries can be eaten, but they are not very filling. However, they can be eaten faster than normal foods, and they grow very quickly.
+book.rustic.text.wildberry_juice=Crushing carminberries in a crushing tub yields the berries' juice. When drank from a bottle, Carminberry juice fills some hunger and saturation, with a chance of providing a regeneration buff, and a smaller chance of poisoning the consumer. Carminberry juice can also be brewed into Carminberry wine.
+book.rustic.text.wildberry_wine=Carminberry wine increases the level of all positive effects, up to level III.
