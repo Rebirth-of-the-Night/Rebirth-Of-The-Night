@@ -1,0 +1,13 @@
+setIcon("spartanweaponry:crossbow_wood")
+setTitle("Hellsinger offhand")
+setDescription("Complete the Hellsinger set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setToast(false)
+
+criteria = addCriteria("Crossbow", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:crossbow_wood")
+
+alwaysHidden()
+setPos(-202,-22)

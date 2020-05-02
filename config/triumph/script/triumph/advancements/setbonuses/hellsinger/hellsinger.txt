@@ -1,0 +1,23 @@
+setIcon("spartanweaponry:crossbow_wood")
+setTitle("Hellsinger v1")
+setDescription("Complete the Hellsinger set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/helmet")
+criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/helmet")
+criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/leggings")
+criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/boots")
+criteria = addCriteria("Mainhand", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/mainhand")
+criteria = addCriteria("Offhand", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/offhand")
+
+
+alwaysVisible()
+hideLines()
+setPos(-189,98)

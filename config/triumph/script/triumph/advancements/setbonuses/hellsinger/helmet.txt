@@ -1,0 +1,18 @@
+setIcon("spartanweaponry:crossbow_wood")
+setTitle("Hellsinger helm")
+setDescription("Complete the Hellsinger set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setToast(false)
+
+criteria = addCriteria("Silver Helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_silver_metal_helmet")
+criteria = addCriteria("Viridium Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_helmet")
+
+// Tells triumph that only one needs to be completed
+setRequirements("any")
+
+alwaysHidden()
+setPos(-202,-22)

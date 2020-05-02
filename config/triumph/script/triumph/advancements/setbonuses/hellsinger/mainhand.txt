@@ -1,0 +1,13 @@
+setIcon("spartanweaponry:crossbow_wood")
+setTitle("Hellsinger mainhand")
+setDescription("Complete the Hellsinger set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setToast(false)
+
+criteria = addCriteria("Stake", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:bone_cestus")
+
+alwaysHidden()
+setPos(-202,-22)
