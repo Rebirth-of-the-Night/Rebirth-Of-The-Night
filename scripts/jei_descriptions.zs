@@ -28,6 +28,7 @@ mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block
 mods.jei.JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
 mods.jei.JEI.addDescription(<rustic:wildberries>,"A strong-flavored pome-like fruit that can be prepared or distilled. Carminberries have a higlhy staining red pigment which make them a perfect red dye.");
 mods.jei.JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless source of food and they can be multiplied using bonemeal. Carminberry bushes grow naturally in most warm and not dry biomes.");
+mods.jei.JEI.addDescription(<minecraft:brick_block>,"Other than the regular uses it has as a material or building block, bricks are useful to build huge and slow cooking kilns; to build a slow cooking kiln, make a frame consisting of four brick blocks with a space in the middle in which to place the block you wish to cook, then light the block below the structure. These structures can never achieve the level of high temperature a carefully crafted kiln or a refractory structure could achieve, since too much air flows between gaps an the heat source is too far away.");
 
 // RUSTIC //
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
