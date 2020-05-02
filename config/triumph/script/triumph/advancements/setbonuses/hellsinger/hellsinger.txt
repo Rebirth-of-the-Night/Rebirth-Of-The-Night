@@ -1,5 +1,5 @@
 setIcon("spartanweaponry:crossbow_wood")
-setTitle("Hellsinger v1")
+setTitle("Hellsinger")
 setDescription("Complete the Hellsinger set.")
 
 addParent("triumph:advancements/setbonuses/root")
