@@ -1,0 +1,22 @@
+setIcon("iceandfire:armor_red_chestplate")
+setTitle("Flames Of Pride")
+setDescription("Complete the Flames Of Pride set.")
+
+addParent("triumph:advancements/setbonuses/diamondarmor")
+
+
+criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/helmet")
+
+criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/chestplate")
+
+criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/leggings")
+
+criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/boots")
+
+
+alwaysVisible()
+setPos(-113,98)

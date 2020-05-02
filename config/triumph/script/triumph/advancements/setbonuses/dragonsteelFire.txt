@@ -2,7 +2,7 @@ setIcon("iceandfire:dragonsteel_fire_chestplate")
 setTitle("Everflame")
 setDescription("Complete the Everflame set.")
 
-addParent("triumph:advancements/setbonuses/dragonscale")
+addParent("triumph:advancements/setbonuses/flamesofpride/flamesofpride")
 
 criteria = addCriteria("Dragonsteel Helmet", "minecraft:inventory_changed")
 criteria.addItem("iceandfire:dragonsteel_fire_helmet")

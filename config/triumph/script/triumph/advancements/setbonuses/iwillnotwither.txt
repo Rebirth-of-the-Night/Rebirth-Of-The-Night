@@ -1,0 +1,26 @@
+setIcon("netherex:frosted_amedian_sword")
+setTitle("I Will Not Wither")
+setDescription("Complete the I Will Not Wither set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Pickaxe", "minecraft:inventory_changed")
+criteria.addItem("netherex:frosted_amedian_pickaxe")
+
+criteria = addCriteria("Sword", "minecraft:inventory_changed")
+criteria.addItem("netherex:frosted_amedian_sword")
+
+criteria = addCriteria("Axe", "minecraft:inventory_changed")
+criteria.addItem("netherex:frosted_amedian_axe")
+
+criteria = addCriteria("Shovel", "minecraft:inventory_changed")
+criteria.addItem("netherex:frosted_amedian_shovel")
+
+criteria = addCriteria("hoe", "minecraft:inventory_changed")
+criteria.addItem("netherex:frosted_amedian_hoe")
+
+setRequirements("any")
+
+alwaysVisible()
+hideLines()
+setPos(-277,236)

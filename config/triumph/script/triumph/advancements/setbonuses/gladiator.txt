@@ -2,13 +2,13 @@ setIcon("spartanshields:shield_basic_bronze")
 setTitle("Gladiator")
 setDescription("Complete The Gladiator set.")
 
-addParent("triumph:advancements/setbonuses/bronzeCaestus")
+addParent("triumph:advancements/setbonuses/powerfulPunches")
 
 
 criteria = addCriteria("Bronze Helmet", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_helmet")
 
-criteria = addCriteria("Bronze Chesplate", "minecraft:inventory_changed")
+criteria = addCriteria("Bronze Chestplate", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_chestplate")
 
 criteria = addCriteria("Bronze Leggings", "minecraft:inventory_changed")
@@ -18,7 +18,7 @@ criteria = addCriteria("Bronze Boots", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_boots")
 
 criteria = addCriteria("Sword", "minecraft:inventory_changed")
-criteria.addItem(<atop:mud_sword>)
+criteria.addItem("atop:mud_sword")
 
 criteria = addCriteria("Javelin", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:javelin_bronze>)
@@ -29,7 +29,7 @@ criteria.addItem(<spartanweaponry:spear_bronze>)
 criteria = addCriteria("Shield", "minecraft:inventory_changed")
 criteria.addItem(<spartanshields:shield_basic_bronze>)
 
-setRequirements("any", ["Shield", "Bronze Boots", "Bronze Leggings", "Bronze Chesplate", "Bronze Helmet"])
+setRequirements("any", ["Shield", "Bronze Boots", "Bronze Leggings", "Bronze Chestplate", "Bronze Helmet"])
 
 setPos(-294,42)
 

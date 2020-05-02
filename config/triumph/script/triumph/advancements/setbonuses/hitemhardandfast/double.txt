@@ -4,6 +4,10 @@ setDescription("Complete the Hit Em Hard And Fast set.")
 
 addParent("triumph:advancements/setbonuses/attackandprotecc")
 
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()
+
 criteria = addCriteria("Viridium Sword", "minecraft:inventory_changed")
 criteria.addItem(<simpleores:adamantium_sword, count:2>)
 criteria = addCriteria("Viridium Saber", "minecraft:inventory_changed")
@@ -16,8 +20,4 @@ criteria.addItem(<spartancompat:throwing_knife_adamantium, count:2>)
 // Tells triumph that only one needs to be completed
 setRequirements("any")
 
-hiddenIf("triumph:advancements/setbonuses/hitemhardandfast/saberAnd")
-hiddenIf("triumph:advancements/setbonuses/hitemhardandfast/daggerAnd")
-hiddenIf("triumph:advancements/setbonuses/hitemhardandfast/knifeAnd")
-hiddenIf("triumph:advancements/setbonuses/hitemhardandfast/swordAnd")
 setPos(-252,-22)

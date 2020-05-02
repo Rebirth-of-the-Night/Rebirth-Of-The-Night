@@ -1,0 +1,26 @@
+setIcon("simpleores:adamantium_sword")
+setTitle("Hit Em Hard And Fast")
+setDescription("Complete the Hit Em Hard And Fast set.")
+
+addParent("triumph:advancements/setbonuses/attackandprotecc")
+
+
+criteria = addCriteria("Dagger", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hitemhardandfast/daggerAnd")
+
+criteria = addCriteria("Double", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hitemhardandfast/double")
+
+criteria = addCriteria("Knife", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hitemhardandfast/knifeAnd")
+
+criteria = addCriteria("Saber", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hitemhardandfast/saberAnd")
+
+criteria = addCriteria("Sword", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hitemhardandfast/swordAnd")
+
+setRequirements("any")
+
+alwaysVisible()
+setPos(-252,-22)

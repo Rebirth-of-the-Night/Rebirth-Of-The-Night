@@ -1,0 +1,36 @@
+setIcon("iceandfire:mountain_troll_leather_chestplate")
+setTitle("Smashing")
+setDescription("Complete the Smashing set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+
+criteria = addCriteria("Axe", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:troll_weapon.axe")
+
+criteria = addCriteria("Column", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:troll_weapon.column")
+
+criteria = addCriteria("Forest Column", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:troll_weapon.column_forest")
+
+criteria = addCriteria("Frost Column", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:troll_weapon.column_frost")
+
+criteria = addCriteria("Hammer", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:troll_weapon.hammer")
+
+criteria = addCriteria("Trunk", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:troll_weapon.trunk")
+
+criteria = addCriteria("Trunk Frost", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:troll_weapon.trunk_frost")
+
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,156)

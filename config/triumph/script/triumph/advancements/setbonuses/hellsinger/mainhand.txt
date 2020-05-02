@@ -4,7 +4,8 @@ setDescription("Complete the Hellsinger set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-setToast(false)
+setShowToast(false)
+setAnnounceToChat(false)
 
 criteria = addCriteria("Stake", "minecraft:inventory_changed")
 criteria.addItem("dungeontactics:bone_cestus")

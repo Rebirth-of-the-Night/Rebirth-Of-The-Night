@@ -44,8 +44,8 @@ criteria.setAdvancement("triumph:advancements/setbonuses/deathisnonexistent")
 criteria = addCriteria("deathisnotanoption", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/deathisnotanoption")
 
-criteria = addCriteria("deathwormarmor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/deathwormarmor")
+criteria = addCriteria("savagery", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/savagery/savagery")
 
 criteria = addCriteria("diamondarmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/diamondarmor")
@@ -56,11 +56,11 @@ criteria.setAdvancement("triumph:advancements/setbonuses/draconicsword")
 criteria = addCriteria("dragonsbane", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/dragonsbane")
 
-criteria = addCriteria("dragonscale", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/dragonscale")
+criteria = addCriteria("Flames of Pride", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/flamesofpride")
 
-criteria = addCriteria("dragonscalelight", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/dragonscalelight")
+criteria = addCriteria("Glacial Fortitude", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/glacialfortitude")
 
 criteria = addCriteria("dragonsteelFire", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/dragonsteelFire")
@@ -84,7 +84,7 @@ criteria = addCriteria("hardenedLeatherArmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hardenedLeatherArmor")
 
 criteria = addCriteria("hitemhardandfast", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/hitemhardandfast")
+criteria.setAdvancement("triumph:advancements/setbonuses/hitemhardandfast/hitemhardandfast")
 
 criteria = addCriteria("icedragonsteelsword", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/icedragonsteelsword")
@@ -107,8 +107,8 @@ criteria.setAdvancement("triumph:advancements/setbonuses/magicalmagnet")
 criteria = addCriteria("moltenarmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/moltenarmor")
 
-criteria = addCriteria("myrmexarmor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/myrmexarmor")
+criteria = addCriteria("Dedicated Worker", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedworker/dedicatedworker")
 
 criteria = addCriteria("mythril", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/mythril")
@@ -147,10 +147,10 @@ criteria = addCriteria("tannedLeatherArmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/tannedLeatherArmor")
 
 criteria = addCriteria("tideguardian", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian")
+criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/tidequardian")
 
 criteria = addCriteria("trollArmor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/trollArmor")
+criteria.setAdvancement("triumph:advancements/setbonuses/smashing/smashing")
 
 criteria = addCriteria("vampiricsword", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/vampiricsword")
@@ -169,6 +169,9 @@ criteria.setAdvancement("triumph:advancements/setbonuses/truelightsedge")
 
 criteria = addCriteria("truedarkssedge", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/truedarksedge")
+
+criteria = addCriteria("hellsinger", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/hellsinger")
 
 setFrameType("CHALLENGE")
 hideLines()

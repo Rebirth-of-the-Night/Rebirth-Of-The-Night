@@ -2,7 +2,7 @@ setIcon("iceandfire:dragonsteel_ice_chestplate")
 setTitle("Permafrost")
 setDescription("Complete the Permafrost set.")
 
-addParent("triumph:advancements/setbonuses/dragonscalelight")
+addParent("triumph:advancements/setbonuses/glacialfortitude/glacialfortitude")
 
 criteria = addCriteria("Ice Dragonsteel Helmet", "minecraft:inventory_changed")
 criteria.addItem("iceandfire:dragonsteel_ice_helmet")

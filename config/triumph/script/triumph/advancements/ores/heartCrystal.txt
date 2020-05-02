@@ -9,4 +9,4 @@ criteria.setBlock(<scalinghealth:crystalore>)
 
 setFrameType("CHALLENGE")
 alwaysVisible()
-setPos(19,-66)
+setPos(40,-36)

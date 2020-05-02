@@ -4,7 +4,8 @@ setDescription("Complete the Hellsinger set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-setToast(false)
+setShowToast(false)
+setAnnounceToChat(false)
 
 criteria = addCriteria("Silver Leggings", "minecraft:inventory_changed")
 criteria.addItem("iceandfire:armor_silver_metal_leggings")

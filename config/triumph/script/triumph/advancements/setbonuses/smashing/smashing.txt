@@ -1,0 +1,20 @@
+setIcon("iceandfire:mountain_troll_leather_chestplate")
+setTitle("Smashing")
+setDescription("Complete the Smashing set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/smashing/helmet")
+criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/smashing/chestplate")
+criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/smashing/leggings")
+criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/smashing/boots")
+criteria = addCriteria("Mainhand", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/smashing/mainhand")
+
+hideLines()
+alwaysVisible()
+setPos(-227,69)

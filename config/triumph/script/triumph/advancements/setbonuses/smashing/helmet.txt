@@ -1,0 +1,22 @@
+setIcon("iceandfire:mountain_troll_leather_chestplate")
+setTitle("Smashing")
+setDescription("Complete the Smashing set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Frost Helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:frost_troll_leather_helmet")
+
+criteria = addCriteria("Forest Helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:forest_troll_leather_helmet")
+
+criteria = addCriteria("Mountain Helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:mountain_troll_leather_helmet")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,156)

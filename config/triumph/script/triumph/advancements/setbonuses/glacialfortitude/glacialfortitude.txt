@@ -1,0 +1,22 @@
+setIcon("iceandfire:armor_blue_chestplate")
+setTitle("Glacial Fortitude")
+setDescription("Complete the Glacial Fortitude set.")
+
+addParent("triumph:advancements/setbonuses/diamondarmor")
+
+
+criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/helmet")
+
+criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/chestplate")
+
+criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/leggings")
+
+criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/boots")
+
+
+alwaysVisible()
+setPos(-113,127)

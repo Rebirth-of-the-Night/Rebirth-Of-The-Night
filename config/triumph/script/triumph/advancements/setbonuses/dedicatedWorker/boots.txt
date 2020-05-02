@@ -1,0 +1,19 @@
+setIcon("iceandfire:myrmex_desert_chestplate")
+setTitle("Dedicated Worker")
+setDescription("Complete the Dedicated Worker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Desert boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:myrmex_desert_boots")
+
+criteria = addCriteria("Jungle boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:myrmex_jungle_boots")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-189,69)
