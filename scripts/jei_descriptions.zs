@@ -26,7 +26,8 @@ mods.jei.JEI.addDescription(<betterwithmods:material:3>,"High quality fiber used
 mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block that creates a magical updrift if one flies over it with an elytra!");
 mods.jei.JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
-
+mods.jei.JEI.addDescription(<rustic:wildberries>,"A strong-flavored pome-like fruit that can be prepared or distilled. Carminberries have a higlhy staining red pigment which make them a perfect red dye.");
+mods.jei.JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless source of food and they can be multiplied using bonemeal. Carminberry bushes grow naturally in most warm and not dry biomes.");
 
 // RUSTIC //
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
@@ -42,6 +43,8 @@ mods.jei.JEI.addDescription([<nyx:comet_shard>],["A very rare find. These toughe
 
 
 mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the force of blessed fury from the heavens, this heart flows with a burning radiance and the searing power to cast away evil."]);
+
+//mods.jei.JEI.addDescription(<ore:runeItem>,"Runes are symbols carved into stones and imbued with aspects of nature that grant them a specific and strong magic affinity for an element. Their primary use is to act as a catalyst for other magical items or creating single-use orbs.");
 
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. If you listen closely, you can hear faint cries of pain and sorrow echoing within."]);
 
@@ -226,7 +229,9 @@ mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to lon
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
-
+// BoP wildberries
+mods.jei.JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwiliing hawthorn. unfulfilling and sour, some animals like them but they are too hard to get. Horses specially may surprise their owners when presented with a prepared hawthorn dish.");
+mods.jei.JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour berry and has soft leaves. when under stress or pressure from an external force trying to grab its fruit, its branches will harden and poke any unwanted visitors. The berry itself presents particular properties when prepared and fed to horses.");
 // Grapple Mod
 mods.jei.JEI.addDescription(<grapplemod:longfallboots>,"Cancels all fall damage when worn. Crafted by right clicking a Grappling Hook Modifier block with a pair of Feather Falling IV Diamond Boots.");
 
