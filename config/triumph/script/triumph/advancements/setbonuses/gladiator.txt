@@ -29,6 +29,8 @@ criteria.addItem(<spartanweaponry:spear_bronze>)
 criteria = addCriteria("Shield", "minecraft:inventory_changed")
 criteria.addItem(<spartanshields:shield_basic_bronze>)
 
+setRequirements("any", ["Shield", "Bronze Boots", "Bronze Leggings", "Bronze Chesplate", "Bronze Helmet"])
+
 setPos(-294,42)
 
 alwaysVisible()
