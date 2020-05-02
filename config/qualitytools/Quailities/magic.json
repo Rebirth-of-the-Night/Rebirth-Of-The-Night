@@ -1,9 +1,5 @@
 {
-    "comment": "There aren't any magic weapons by default, but you can add
-                the items yourself here. For more info about how to edit 
-                this file and add more files, visit 
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
+    "comment": "There aren't any magic weapons by default, but you can add the items yourself here. For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "slot": [
         "mainhand",
         "offhand"

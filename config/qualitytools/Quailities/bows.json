@@ -1,8 +1,5 @@
 {
-    "comment": "These qualities will apply for bows, and possibly for guns from
-                other mods if they extend the vanilla bow class. For more info
-                about how to edit this file and add more files, visit
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "comment": "These qualities will apply for bows, and possibly for guns from other mods if they extend the vanilla bow class. For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
 
     "slot": [
         "mainhand",
@@ -93,6 +90,6 @@
             "operation": 2
           }
         ]
-      },
+      }
     ]
 }

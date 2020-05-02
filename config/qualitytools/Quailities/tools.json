@@ -1,10 +1,5 @@
 {
-    "comment": "These qualities will apply for all basic weapons and
-                tools, including swords, pickaxes, axes, shovels, hoes,
-                and shears! For more info about how to edit this file
-                and add more files, visit
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-
+    "comment": "These qualities will apply for all basic weapons and tools, including swords, pickaxes, axes, shovels, hoes, and shears! For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "slot": "mainhand",
     "whitelist": [
       {

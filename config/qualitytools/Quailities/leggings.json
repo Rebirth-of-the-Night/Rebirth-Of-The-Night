@@ -1,8 +1,5 @@
 {
-    "comment": "These qualities will apply for all leggings! For more info
-                about how to edit this file and add more files, visit
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-
+    "comment": "These qualities will apply for all leggings! For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "slot": "legs",
     "whitelist": [
       {

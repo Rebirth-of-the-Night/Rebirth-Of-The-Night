@@ -1,6 +1,5 @@
 {
-    "comment": "-",
-
+    "comment": "These are special magic-themed qualities that will only apply to mythril. They are very slightly stronger, but are mostly just for flavor.",
     "slot": "mainhand",
     "whitelist": [
       {
