@@ -19,6 +19,10 @@ criteria.addItem("simpleores:mythril_boots")
 criteria = addCriteria("Gem Forged Shield", "minecraft:inventory_changed")
 criteria.addItem("spartanshields:shield_basic_diamond")
 
+criteria = addCriteria("Ankh Shield", "minecraft:inventory_changed")
+criteria.addItem("bountifulbaubles:shieldankh")
+
+setRequirements("any", ["Diamond Helmet", "Onyx Chestplate",  "Viridium Leggings", "Mythril Boots"])
 
 alwaysVisible()
 setPos(-113,-113)
