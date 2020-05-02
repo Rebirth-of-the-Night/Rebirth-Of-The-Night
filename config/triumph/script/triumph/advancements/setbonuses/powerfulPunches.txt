@@ -20,6 +20,6 @@ criteria.addItem("atop:mud_boots")
 criteria = addCriteria("Mainhand", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:caestus_studded, count:2>)
 
-setPos(-333,57)
+setPos(-332,42)
 
 alwaysVisible()
