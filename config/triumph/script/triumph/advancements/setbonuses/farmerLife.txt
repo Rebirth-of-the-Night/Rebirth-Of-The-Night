@@ -1,0 +1,22 @@
+setIcon("rats:farmer_hat")
+setTitle("Farmer Life")
+setDescription("Complete The Farmer set.")
+
+addParent("triumph:advancements/setbonuses/leatherarmor")
+
+criteria = addCriteria("Helmet", "minecraft:inventory_changed")
+criteria.addItem("rats:farmer_hat")
+
+criteria = addCriteria("Leather Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_leggings")
+
+criteria = addCriteria("Tanned Leggings", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:leather_tanned_pants")
+
+criteria = addCriteria("Hardened Leggins", "minecraft:inventory_changed")
+criteria.addItem("harvestcraft:hardenedleatherleggingsitem")
+
+setRequirements("any", ["Helmet"])
+
+alwaysVisible()
+setPos(-376,-179)
