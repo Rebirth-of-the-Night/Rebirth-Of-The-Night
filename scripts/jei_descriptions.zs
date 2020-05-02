@@ -229,9 +229,11 @@ mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to lon
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:1>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
+
 // BoP wildberries
-mods.jei.JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwiliing hawthorn. unfulfilling and sour, some animals like them but they are too hard to get. Horses specially may surprise their owners when presented with a prepared hawthorn dish.");
-mods.jei.JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour berry and has soft leaves. when under stress or pressure from an external force trying to grab its fruit, its branches will harden and poke any unwanted visitors. The berry itself presents particular properties when prepared and fed to horses.");
+mods.jei.JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwilling hawthorn. Although they are unfulfilling and sour, some animals like them, but they are too hard to get. Horses, especially, may surprise their owners when presented with a prepared hawthorn dish.");
+mods.jei.JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour berry and has soft leaves. When under stress or pressure from an external force trying to grab its fruit, its branches will harden and poke any unwanted visitors. The berry itself presents particular properties when prepared and fed to horses.");
+
 // Grapple Mod
 mods.jei.JEI.addDescription(<grapplemod:longfallboots>,"Cancels all fall damage when worn. Crafted by right clicking a Grappling Hook Modifier block with a pair of Feather Falling IV Diamond Boots.");
 
