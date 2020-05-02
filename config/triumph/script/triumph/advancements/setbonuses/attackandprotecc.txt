@@ -6,9 +6,15 @@ addParent("triumph:advancements/setbonuses/bronzearmor")
 
 criteria = addCriteria("Iron Sword", "minecraft:inventory_changed")
 criteria.addItem("minecraft:iron_sword")
+criteria = addCriteria("Iron Saber", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:rapier_iron")
+criteria = addCriteria("Iron rapier", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:saber_iron")
 
 criteria = addCriteria("Iron Shield", "minecraft:inventory_changed")
 criteria.addItem("spartanshields:shield_basic_iron")
+
+setRequirements("any", ["Iron Shield"])
 
 hideLines()
 alwaysVisible()
