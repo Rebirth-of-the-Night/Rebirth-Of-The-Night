@@ -1,0 +1,34 @@
+setIcon("spartanshields:shield_basic_bronze")
+setTitle("Gladiator")
+setDescription("Complete The Gladiator set.")
+
+addParent("triumph:advancements/setbonuses/bronzeCaestus")
+
+
+criteria = addCriteria("Bronze Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_helmet")
+
+criteria = addCriteria("Bronze Chesplate", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_chestplate")
+
+criteria = addCriteria("Bronze Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_leggings")
+
+criteria = addCriteria("Bronze Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_boots")
+
+criteria = addCriteria("Sword", "minecraft:inventory_changed")
+criteria.addItem(<atop:mud_sword>)
+
+criteria = addCriteria("Javelin", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:javelin_bronze>)
+
+criteria = addCriteria("Spear", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:spear_bronze>)
+
+criteria = addCriteria("Shield", "minecraft:inventory_changed")
+criteria.addItem(<spartanshields:shield_basic_bronze>)
+
+setPos(-294,42)
+
+alwaysVisible()
