@@ -21,16 +21,15 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:block_library_ctrl>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:tool_push>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:magic_net>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:melter>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:block_workbench>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:laser>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:imbuer>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
-
+//mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
+//mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
 
 recipes.remove(<cyclicmagic:fluid_pipe>);
-recipes.remove(<cyclicmagic:fluid_drain>);
 recipes.remove(<cyclicmagic:fluid_pump>);
 recipes.remove(<cyclicmagic:card_location>);
 recipes.remove(<cyclicmagic:evoker_fang>);
@@ -48,7 +47,6 @@ recipes.remove(<cyclicmagic:target>);
 recipes.remove(<cyclicmagic:password_block>);
 recipes.remove(<cyclicmagic:block_fishing>);
 recipes.remove(<cyclicmagic:dice>);
-recipes.remove(<cyclicmagic:fluid_placer>);
 recipes.remove(<cyclicmagic:water_candle>);
 recipes.remove(<cyclicmagic:tool_trade>);
 recipes.remove(<cyclicmagic:plate_push_fast>);
@@ -136,11 +134,13 @@ mods.betterwithmods.Anvil.addShaped(pipepump,
 	[null, null, null, null]
 ]);
 
+/* //Requires RF
 mods.betterwithmods.Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 	[steel, screwpump , steel],
     [refratank, screwpump, pipepump],
     [steel, screwpump, steel]
 ]);
+*/
 
 recipes.addShaped("merchant_almanac", merchantalmanac,[
 	[codex],
