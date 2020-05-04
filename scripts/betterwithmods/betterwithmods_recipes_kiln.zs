@@ -32,3 +32,29 @@ mods.betterwithmods.Kiln.add(
 	<aether_legacy:dungeon_block:4>
 	]
 );
+
+
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<betterwithmods:raw_pastry:3>, [<minecraft:bread>*2])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<betterwithmods:unfired_pottery>, [<betterwithmods:cooking_pot>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<contenttweaker:crucible>, [<betterwithmods:cooking_pot>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<betterwithmods:unfired_pottery:1>, [<betterwithmods:planter>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<betterwithmods:unfired_pottery:2>, [<betterwithmods:urn>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<betterwithmods:unfired_pottery:3>, [<betterwithmods:vase>])
+.setHeat(1)
+.build();
