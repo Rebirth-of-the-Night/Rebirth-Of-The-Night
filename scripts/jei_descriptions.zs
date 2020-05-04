@@ -163,8 +163,8 @@ mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index
 // Iron ingot
 mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 // Steel ingot
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.");
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.');
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"This kind of steel has always been considered a mediocre alloy at best: useful for components, but stiff and barely harder than bronze... yet less resilient. Nonetheless, crudely made steel is widely used in mechanisms and other components.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before...');
 // Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
 // Pointy thingy
