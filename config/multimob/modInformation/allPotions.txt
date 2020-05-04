@@ -136,17 +136,6 @@ scalinghealth:bandaged
 toroquest:royalty
 totemexpansion:spelunking
 bountifulbaubles:sinful
-cyclicmagic:potion.magnet
-cyclicmagic:potion.ender
-cyclicmagic:potion.waterwalk
-cyclicmagic:potion.slowfall
-cyclicmagic:potion.snow
-cyclicmagic:potion.swimspeed
-cyclicmagic:potion.bounce
-cyclicmagic:potion.frostwalker
-cyclicmagic:potion.butter
-cyclicmagic:potion.stunned
-cyclicmagic:potion.saturation
 wards:effect_protection
 wards:effect_fire_protection
 wards:effect_feather_falling
