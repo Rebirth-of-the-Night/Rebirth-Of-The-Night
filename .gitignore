@@ -70,7 +70,3 @@ config/TwitchSpawn/messages.subtitle.json
 config/TwitchSpawn/messages.title.json
 config/TwitchSpawn/preferences.toml
 config/TwitchSpawn/rules.default.tsl
-
-mods/.DS_Store
-
-config/jei/bookmarks.ini
