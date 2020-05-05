@@ -31,9 +31,6 @@ recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>
   [[null,<minecraft:cooked_rabbit>,null],
   [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
   [null,<minecraft:bowl>,null]]);
-recipes.remove(<betteranimalsplus:goatcheese>);
-recipes.addShapeless("betteranimalsplus_milk_to_cheese", <betteranimalsplus:goatcheese>*3, 
-[<betteranimalsplus:goatmilk>, <ore:listAllmushroom>]);
 recipes.remove(<minecraftfuture:suspiciousstew>);
 recipes.addShapeless("minecraftfuture_stew/sustew", <minecraftfuture:suspiciousstew>, 
 [<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
@@ -329,8 +326,10 @@ recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>,
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 
+<ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
+
 val dirt = <ore:dirt>;
-dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>]);
+dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>]);
 
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);

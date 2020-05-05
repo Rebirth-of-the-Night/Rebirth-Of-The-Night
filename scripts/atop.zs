@@ -1,73 +1,18 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import mods.vanillaanvilrepair.addRepairEntry;
 
+var amethystItems = <atop:amethyst_helmet> | <atop:amethyst_chestplate> | <atop:amethyst_leggings> | <atop:amethyst_boots>;
+addRepairEntry(amethystItems, <ore:gemAmethyst>);
 
-mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_helmet>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_helmet>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_chestplate>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_chestplate>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_leggings>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_leggings>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:amethyst_boots>.anyDamage(), <ore:gemAmethyst>, <atop:amethyst_boots>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
+var rubyItems = <atop:ruby_helmet> | <atop:ruby_chestplate> | <atop:ruby_leggings> | <atop:ruby_boots>;
+addRepairEntry(rubyItems, <ore:gemRuby>);
 
-mods.rockytweaks.Anvil.addRecipe(<atop:ruby_helmet>.anyDamage(), <ore:gemRuby>, <atop:ruby_helmet>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:ruby_chestplate>.anyDamage(), <ore:gemRuby>, <atop:ruby_chestplate>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:ruby_leggings>.anyDamage(), <ore:gemRuby>, <atop:ruby_leggings>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:ruby_boots>.anyDamage(), <ore:gemRuby>, <atop:ruby_boots>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
+var peridotItems = <atop:peridot_helmet> | <atop:peridot_chestplate> | <atop:peridot_leggings> | <atop:peridot_boots>;
+addRepairEntry(peridotItems, <ore:gemPeridot>);
 
-mods.rockytweaks.Anvil.addRecipe(<atop:peridot_helmet>.anyDamage(), <ore:gemPeridot>, <atop:peridot_helmet>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:peridot_chestplate>.anyDamage(), <ore:gemPeridot>, <atop:peridot_chestplate>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:peridot_leggings>.anyDamage(), <ore:gemPeridot>, <atop:peridot_leggings>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:peridot_boots>.anyDamage(), <ore:gemPeridot>, <atop:peridot_boots>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-
-mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_helmet>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_helmet>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_chestplate>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_chestplate>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_leggings>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_leggings>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<atop:sapphire_boots>.anyDamage(), <ore:gemSapphire>, <atop:sapphire_boots>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
+var sapphireItems = <atop:sapphire_helmet> | <atop:sapphire_chestplate> | <atop:sapphire_leggings> | <atop:sapphire_boots>;
+addRepairEntry(sapphireItems, <ore:gemSapphire>);
 
 
 // used for Mari's dev relic

@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemCondition;
+import mods.vanillaanvilrepair.addRepairEntry;
 import mods.jei.JEI;
 
 #REMOVE copper and tin
@@ -173,49 +174,6 @@ mods.jei.JEI.addDescription(<atop:mud_boots>,"Not the most protective, but prett
 mods.jei.JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
 mods.jei.JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also know as hoplon. Provides excellent cover without sacrificing offensive capacity.");
 
-//VANILLA ANVIL REPAIR
-// Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
-
-// item conditions DO NOT work on these IIngredients, need to become ifs inside IRecipeFunction
-// except anyDamage(), which needs to be on first IIngredient
-
-var itemArray = [<atop:mud_helmet>, <atop:mud_chestplate>, <atop:mud_leggings>, <atop:mud_boots>, <atop:mud_sword>, <atop:mud_shovel>, <atop:mud_pickaxe>, <atop:mud_axe>, <atop:mud_hoe>] as IItemStack[];
-
-for item in itemArray
-{
-	mods.rockytweaks.Anvil.addRecipe(item.anyDamage(), <contenttweaker:material_part>, item, 1,
-	function(out, ins, cInfo){
-		if (ins.left.damage == 0) {
-			return null;
-		} else {
-			return ins.left.withDamage(max(0, ins.left.damage - ((0.25 * ins.left.maxDamage) as int)));
-		}
-	});
-	
-	mods.rockytweaks.Anvil.addRecipe(item.anyDamage(), <contenttweaker:material_part> * 2, item, 2,
-	function(out, ins, cInfo){
-		if (ins.left.damage <= (0.25 * ins.left.maxDamage) as int) {
-			return null;
-		} else {
-			return ins.left.withDamage(max(0, ins.left.damage - ((0.50 * ins.left.maxDamage) as int)));
-		}
-	});
-	
-	mods.rockytweaks.Anvil.addRecipe(item.anyDamage(), <contenttweaker:material_part> * 3, item, 3,
-	function(out, ins, cInfo){
-		if (ins.left.damage <= (0.50 * ins.left.maxDamage) as int) {
-			return null;
-		} else {
-			return ins.left.withDamage(max(0, ins.left.damage - ((0.75 * ins.left.maxDamage) as int)));
-		}
-	});
-	
-	mods.rockytweaks.Anvil.addRecipe(item.anyDamage(), <contenttweaker:material_part> * 4, item, 4,
-	function(out, ins, cInfo){
-		if (ins.left.damage <= (0.75 * ins.left.maxDamage) as int) {
-			return null;
-		} else {
-			return ins.left.withDamage(0);
-		}
-	});
-}
+//repair recipes
+var bronzeItems = <atop:mud_helmet> | <atop:mud_chestplate> | <atop:mud_leggings> | <atop:mud_boots> | <atop:mud_sword> | <atop:mud_shovel> | <atop:mud_pickaxe> | <atop:mud_axe> | <atop:mud_hoe>;
+addRepairEntry(bronzeItems, <contenttweaker:material_part>);
