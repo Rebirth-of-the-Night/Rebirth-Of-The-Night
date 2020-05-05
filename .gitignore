@@ -70,3 +70,4 @@ config/TwitchSpawn/messages.subtitle.json
 config/TwitchSpawn/messages.title.json
 config/TwitchSpawn/preferences.toml
 config/TwitchSpawn/rules.default.tsl
+config/TwitchSpawn/rules.calamarigold.tsl
