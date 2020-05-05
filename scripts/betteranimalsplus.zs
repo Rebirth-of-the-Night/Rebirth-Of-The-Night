@@ -12,6 +12,7 @@ recipes.addShaped("antlerThrowbone", <doggytalents:throw_bone>,[
 	[<betteranimalsplus:antler>, null, <betteranimalsplus:antler>]
 ]);
 
+mods.jei.JEI.removeAndHide(<betteranimalsplus:goatcheese>);
 recipes.removeByRecipeName("betteranimalsplus:milk_to_cheese2");
 
 <betteranimalsplus:hirschgeistskull>.displayName = "§6Hirschgeist Skull";

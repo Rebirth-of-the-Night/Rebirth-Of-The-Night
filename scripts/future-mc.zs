@@ -485,6 +485,8 @@ mods.minecraftfuture.Smoker.addRecipe(<betteranimalsplus:crab_meat_raw>,
 									  <betteranimalsplus:crab_meat_cooked>);
 mods.minecraftfuture.Smoker.addRecipe(<betteranimalsplus:turkey_raw>,
 									  <betteranimalsplus:turkey_cooked>);
+mods.minecraftfuture.Smoker.addRecipe(<betteranimalsplus:turkey_leg_raw>,
+									  <betteranimalsplus:turkey_leg_cooked>);
 mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:wolf_chop>,
 									  <betterwithmods:cooked_wolf_chop>);
 mods.minecraftfuture.Smoker.addRecipe(<betterwithmods:bat_wing>,
@@ -632,6 +634,8 @@ mods.minecraftfuture.Campfire.addRecipe(<betteranimalsplus:crab_meat_raw>,
 									    <betteranimalsplus:crab_meat_cooked>, 600);
 mods.minecraftfuture.Campfire.addRecipe(<betteranimalsplus:turkey_raw>,
 									    <betteranimalsplus:turkey_cooked>, 600);
+mods.minecraftfuture.Campfire.addRecipe(<betteranimalsplus:turkey_leg_raw>,
+									  <betteranimalsplus:turkey_leg_cooked>,600);
 mods.minecraftfuture.Campfire.addRecipe(<betterwithmods:wolf_chop>,
 									    <betterwithmods:cooked_wolf_chop>, 600);
 mods.minecraftfuture.Campfire.addRecipe(<betterwithmods:bat_wing>,
