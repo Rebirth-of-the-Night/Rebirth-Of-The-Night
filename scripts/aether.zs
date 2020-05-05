@@ -108,8 +108,9 @@ mods.ltt.LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
 
 var sand = <ore:sand>;
 var shard = <aether_legacy:ambrosium_shard>;
+var quicks = <aether_legacy:quicksoil>;
 
-recipes.addShaped("quicksoil", <aether_legacy:quicksoil>*8,[
+recipes.addShaped("quicksoil", quicks*8,[
 	[sand, sand, sand],
     [sand, shard, sand],
     [sand, sand, sand]
@@ -148,3 +149,10 @@ recipes.removeByRecipeName("aether_legacy_addon:red_skyroot_bed_from_white_skyro
 recipes.addShapeless("red_skyroot_bed",<aether_legacy:skyroot_bed:14>,[skyBedList,<ore:dyeRed>]);
 recipes.removeByRecipeName("aether_legacy_addon:black_skyroot_bed_from_white_skyroot_bed");
 recipes.addShapeless("black_skyroot_bed",<aether_legacy:skyroot_bed:15>,[skyBedList,<ore:dyeBlack>]);
+
+recipes.removeByRecipeName("quark:gravisand");
+recipes.addShaped("quickgravisand", <quark:gravisand>*8,[
+	[quicks, quicks, quicks],
+    [quicks, <ore:enderpearl>, quicks],
+    [quicks, quicks, quicks]
+]);

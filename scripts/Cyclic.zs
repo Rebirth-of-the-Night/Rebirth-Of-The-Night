@@ -18,7 +18,6 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:energy_pump>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:bundled_pipe>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_library>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_library_ctrl>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:tool_push>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:magic_net>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:melter>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:laser>);

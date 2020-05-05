@@ -164,9 +164,17 @@ recipes.addShapeless("Quark crystal 0-2", <quark:crystal:0>*3,
 
 recipes.remove(<quark:soul_powder>);
 
-recipes.addShaped("Soul Bead to Soul Powder", <quark:soul_powder>*9, [[<quark:soul_bead>, <minecraft:soul_sand>, null],[<minecraft:soul_sand>, <minecraft:soul_sand>, null], [null, null, null]]);
+recipes.addShaped("Soul_Bead_to_Soul_Powder", <quark:soul_powder>*9, [[<quark:soul_bead>, <minecraft:soul_sand>, null],[<minecraft:soul_sand>, <minecraft:soul_sand>, null], [null, null, null]]);
 
-recipes.addShapeless("Soul sand and magic dust", <quark:soul_powder>, [<dungeontactics:magic_powder>, <minecraft:soul_sand>]);
+recipes.addShapeless("Soul_sand_and_magic_dust", <quark:soul_powder>, [<dungeontactics:magic_powder>, <minecraft:soul_sand>]);
+
+// SFS ROD
+recipes.remove(<quark:iron_rod>);
+
+recipes.addShaped("sfs_rod", <quark:iron_rod>,[
+	[<betterwithmods:material:14>],
+    [<minecraft:end_rod>]
+]);
 
 // Soul Bead
 
