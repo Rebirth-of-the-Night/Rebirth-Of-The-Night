@@ -50,3 +50,5 @@
 
 <mod_lavacow:ptera_wing_cooked>.foodValues.hunger = 1;
 <mod_lavacow:ptera_wing_cooked>.foodValues.saturationModifier = 0.2;
+
+<dungeontactics:toast>.foodValues.hunger = 0;

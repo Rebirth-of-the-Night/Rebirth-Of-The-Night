@@ -78,6 +78,10 @@ steellunarin.register();
 var sfslunarin = VanillaFactory.createBlock("lunarinsfsbrick", <blockmaterial:Iron>);
 sfslunarin.setCreativeTab(<creativetab:buildingBlocks>);
 sfslunarin.register();
+//Mediterranean lunarin mama mia brick block
+var BBlunarin = VanillaFactory.createBlock("baguettebrick", <blockmaterial:Rock>);
+BBlunarin.setCreativeTab(<creativetab:buildingBlocks>);
+BBlunarin.register();
 
 //Farlander Style
 //amethyst

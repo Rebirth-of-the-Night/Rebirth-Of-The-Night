@@ -34,8 +34,36 @@ mods.jei.JEI.addDescription(<minecraft:brick_block>,"Other than the regular uses
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
 mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for airships.");
 
+// QUARK //
+mods.jei.JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through an infectious disease. If fed to certain baby animals, their growth will be stunted forever.");
+mods.jei.JEI.addDescription(<minecraft:purpur_block>, "One of the most distinctive types of Ender architecture, favored as burrows for endermites to pupate into shulkers. Long ago, the shulkers were easily controlled… but now, what remains of the Ender empire cannot prevent the pests from infesting their cities.");
+mods.jei.JEI.addDescription(<quark:parrot_egg:*>, "Much like other birds, parrots love the taste of veggies and seeds. Beetroot seeds, in particular, are their favorite snack during the mating season: some time after eating beetroot seeds, a parrot will lay an egg.");
+mods.jei.JEI.addDescription(<minecraft:gunpowder>, "The central ingredient of most explosives. It can also be placed on the ground and ignited as a fuse.");
+mods.jei.JEI.addDescription(<minecraft:skull:3>, "An old village legend claims that a golem named after a specific person carries a sliver of that person's soul… and those who practice forbidden arts can bring forth an echo of that soul to the physical realm. Named Snow Golems equipped with a pumpkin will drop a copy of that person's head if killed by a witch.");
+mods.jei.JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the accursed beast, infused with the energy of a plane outside all else. Its lingering aura can even affect stone.");
+//mods.jei.JEI.addDescription(<quark:black_ash>, "Foul essence! Decay can be felt being constantly expelled from this remains. A single layer of this dust under a solid material will prevent any living creature from appearing on top of that surface.");
+mods.jei.JEI.addDescription(<quark:chute>, "A glorified funnel. Items deposited in a chute by a hopper will be expelled directly beneath it.");
+mods.jei.JEI.addDescription(<quark:ender_watcher>, "Redstone technology combined with the unblinking will of an Eye of Ender. Emits a redstone signal when looked at.");
+mods.jei.JEI.addDescription(<quark:gravisand>, "A peculiar substance with properties not even heard in tales of the fabled Aether. Will only fall when activated with redstone. If it is already in contact with the ground, the sand will instead float as if falling up.");
+mods.jei.JEI.addDescription(<quark:chain>, "A small chain such as this can be used to link a series of minecarts or boats, allowing for far more organized long-term journeys.");
+mods.jei.JEI.addDescription(<quark:gold_button>, "Emits a signal for 2 ticks.");
+mods.jei.JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 seconds.");
+mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger if a human walks over it. Perhaps humanity indeed carries the heaviest burden.");
+mods.jei.JEI.addDescription(<quark:iron_rod>, "Useful for structural support, but most prized as a powerful mining tool. When pushed by a piston, it can pierce through almost anything.");
+mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
+mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal either to the left or right.");
+mods.jei.JEI.addDescription(<quark:sugar_block>, "Thoughtless farmers will lose their precious sugar deposits if left near water – the blocks will dissolve outright.");
+mods.jei.JEI.addDescription(<quark:rain_detector>, "Will inmediately output a signal if it's raining or snowing.");
+mods.jei.JEI.addDescription(<quark:grate>, "Most animals will never attempt to walk over the precarious-looking surface of a grate. Items, however, will fall right through.");
+mods.jei.JEI.addDescription(<quark:iron_ladder>, "The tin ladder can effectively sustain its own weight without a supporting surface. Right-clicking it with another tin ladder will extend the ladder downwards.");
+mods.jei.JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
+mods.jei.JEI.addDescription(<quark:rope>, "Smartly tied and intertwined; will pull blocks up with itself if clicked while sneaking.");
+mods.jei.JEI.addDescription(<ore:blockCandle>, "An aesthetic alternative to torches. Will fall if their support is removed.");
+mods.jei.JEI.addDescription(<minecraft:lead>, "Besides leading mobs by hand, leads can be tied to a fence or even between two fences to create a connection. Many creatures will never submit to a lead - for that, the use of a refined chain is required.");
 
-// MISCELLANEOUS //
+
+
+////////// MISCELLANEOUS //////////
 
 
 mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower."]);
@@ -163,8 +191,8 @@ mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index
 // Iron ingot
 mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 // Steel ingot
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"This kind of steel has always been considered a mediocre alloy at best: useful for components, but stiff and barely harder than bronze... yet less resilient. Nonetheless, crudely made steel is widely used in mechanisms and other components.");
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before...');
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.');
 // Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
 // Pointy thingy
