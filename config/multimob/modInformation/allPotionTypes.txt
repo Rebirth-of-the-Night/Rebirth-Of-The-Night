@@ -259,3 +259,7 @@ toroquest:strong_royalty
 toroquest:loyalty
 toroquest:long_loyalty
 toroquest:strong_loyalty
+cyclicmagic:ender
+cyclicmagic:butter
+cyclicmagic:butter2
+cyclicmagic:bounce
