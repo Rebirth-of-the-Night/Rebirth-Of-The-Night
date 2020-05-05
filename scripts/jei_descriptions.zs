@@ -35,31 +35,31 @@ mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes a
 mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for airships.");
 
 // QUARK //
-mods.jei.JEI.addDescription(<minecraft:poisonous_potato>, "This rare potato contains a specific pathogen that can poison living creatures, in the case of some baby animals, they will stay at that state forever.");
-mods.jei.JEI.addDescription(<minecraft:purpur_block>, "One of the most easily recognizable pillars of Ender architecture. Langsyne, a widely practiced and strict pest control prevented endermites from multiplying too much, today is easy for the little creatures to enter these blocks and bloom into a fully fleshed shulker");
-mods.jei.JEI.addDescription(<quark:parrot_egg:*>, "Parrots, much like other birds, love the taste of veggies and seeds. When fed specificaly with beetroots, an egg with the same color variation as the mother can be obtained.");
-mods.jei.JEI.addDescription(<minecraft:gunpowder>, "The staple of most explosives and the source of creeper explosions. Nobody has disected a creeper and lived to tell the tale. What remains is a volatile substance that can otherwise be crafted with niter, brimstone and charcoal dust. Not only a component, gunpowder can be placed on the ground and ignited as a fuse.");
-mods.jei.JEI.addDescription(<minecraft:skull:3>, "Rumors exist that a golem named after someone carries a piece of that person's soul and there are some forbidden arts that can bring forth that soul to the physical realm. Named Snow Golems equipped with a Pumpkin will drop a copy of a person's head with the same name as theirs, if killed by a Witch.");
-mods.jei.JEI.addDescription(<minecraft:dragon_breath>, "The breath of the accursed beast. It perpetually carries remnants of a far plane. A lingering aura, even stone could be affected by it.");
-mods.jei.JEI.addDescription(<quark:black_ash>, "Foul essence! Decay can be felt being constantly expelled from this remains. A single layer of this dust under a solid material will prevent any living creature from appearing on top of that surface.");
-mods.jei.JEI.addDescription(<quark:chute>, "A glorified funnel, items deposited in it by a hopper will be promptly expelled downsides.");
-mods.jei.JEI.addDescription(<quark:ender_watcher>, "A marvelous breaktrough in redstone technology, using the the eye of ender peculiar properties, this block will emit a redstone signal when looked at.");
-mods.jei.JEI.addDescription(<quark:gravisand>, "An artifice, with properties not even heard in tales about the Aether. will only fall when activated with redstone, with the single caveat that if it is already in contact with the ground it will instead float as if falling up.");
-mods.jei.JEI.addDescription(<quark:chain>, "A small chain such as this can be used to link a series of minecarts or boats, providing much more organized long-term journeys.");
-mods.jei.JEI.addDescription(<quark:gold_button>, "Emits a signal for just 2 ticks.");
-mods.jei.JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 whole seconds.");
-mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger when humans, bearers of the heaviest burden, walk over them.");
-mods.jei.JEI.addDescription(<quark:iron_rod>, "Cosmetic for some; its real usefulness lies in its use as a drill head, once it's paired with a piston, the tip is powerful enough that it could pierce almost anything.");
-mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs, can be locked with a comparator.");
+mods.jei.JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through an infectious disease. If fed to certain baby animals, their growth will be stunted forever.");
+mods.jei.JEI.addDescription(<minecraft:purpur_block>, "One of the most distinctive types of Ender architecture, favored as burrows for endermites to pupate into shulkers. Long ago, the shulkers were easily controlled… but now, what remains of the Ender empire cannot prevent the pests from infesting their cities.");
+mods.jei.JEI.addDescription(<quark:parrot_egg:*>, "Much like other birds, parrots love the taste of veggies and seeds. Beetroot seeds, in particular, are their favorite snack during the mating season: some time after eating beetroot seeds, a parrot will lay an egg.");
+mods.jei.JEI.addDescription(<minecraft:gunpowder>, "The central ingredient of most explosives. It can also be placed on the ground and ignited as a fuse.");
+mods.jei.JEI.addDescription(<minecraft:skull:3>, "An old village legend claims that a golem named after a specific person carries a sliver of that person's soul… and those who practice forbidden arts can bring forth an echo of that soul to the physical realm. Named Snow Golems equipped with a pumpkin will drop a copy of that person's head if killed by a witch.");
+mods.jei.JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the accursed beast, infused with the energy of a plane outside all else. Its lingering aura can even affect stone.");
+//mods.jei.JEI.addDescription(<quark:black_ash>, "Foul essence! Decay can be felt being constantly expelled from this remains. A single layer of this dust under a solid material will prevent any living creature from appearing on top of that surface.");
+mods.jei.JEI.addDescription(<quark:chute>, "A glorified funnel. Items deposited in a chute by a hopper will be expelled directly beneath it.");
+mods.jei.JEI.addDescription(<quark:ender_watcher>, "Redstone technology combined with the unblinking will of an Eye of Ender. Emits a redstone signal when looked at.");
+mods.jei.JEI.addDescription(<quark:gravisand>, "A peculiar substance with properties not even heard in tales of the fabled Aether. Will only fall when activated with redstone. If it is already in contact with the ground, the sand will instead float as if falling up.");
+mods.jei.JEI.addDescription(<quark:chain>, "A small chain such as this can be used to link a series of minecarts or boats, allowing for far more organized long-term journeys.");
+mods.jei.JEI.addDescription(<quark:gold_button>, "Emits a signal for 2 ticks.");
+mods.jei.JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 seconds.");
+mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger if a human walks over it. Perhaps humanity indeed carries the heaviest burden.");
+mods.jei.JEI.addDescription(<quark:iron_rod>, "Useful for structural support, but most prized as a powerful mining tool. When pushed by a piston, it can pierce through almost anything.");
+mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
 mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal either to the left or right.");
-mods.jei.JEI.addDescription(<quark:sugar_block>, "Lots of thoughtless farmers have lost their precious sugar deposits because of sugar dissolving while near water.");
-mods.jei.JEI.addDescription(<quark:rain_detector>, "Will inmediately output a signal if raining or snowing.");
-mods.jei.JEI.addDescription(<quark:grate>, "A precarious looking surgace, animals will never attempt to walk over it for fear of it. Smarter living beings can just walk over, but any item will fall trough.");
-mods.jei.JEI.addDescription(<quark:iron_ladder>, "The tin ladder can effectively sustain its own weight without a supporting surface. Right clicking it with another tin ladder will stack them downwards.");
-mods.jei.JEI.addDescription(<minecraft:blaze_rod>, "An ever-warn and highly durable commodity that can be gathered from the remains of blazes. Also makes for an excelent decoration when placed down.");
-mods.jei.JEI.addDescription(<quark:rope>, "Smartly tied and intertwined; will pull blocks up with itself if sneak-clicked.");
-mods.jei.JEI.addDescription(<ore:blockCandle>, "An aesthetic alternative to torches, these will fall if their support is removed.");
-mods.jei.JEI.addDescription(<minecraft:lead>, "Other than leading mobs by hand, it can be tied to a fence or even between two fences to create a connection. Where it could fail due to its low durability, a refined chain can be used.");
+mods.jei.JEI.addDescription(<quark:sugar_block>, "Thoughtless farmers will lose their precious sugar deposits if left near water – the blocks will dissolve outright.");
+mods.jei.JEI.addDescription(<quark:rain_detector>, "Will inmediately output a signal if it's raining or snowing.");
+mods.jei.JEI.addDescription(<quark:grate>, "Most animals will never attempt to walk over the precarious-looking surface of a grate. Items, however, will fall right through.");
+mods.jei.JEI.addDescription(<quark:iron_ladder>, "The tin ladder can effectively sustain its own weight without a supporting surface. Right-clicking it with another tin ladder will extend the ladder downwards.");
+mods.jei.JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
+mods.jei.JEI.addDescription(<quark:rope>, "Smartly tied and intertwined; will pull blocks up with itself if clicked while sneaking.");
+mods.jei.JEI.addDescription(<ore:blockCandle>, "An aesthetic alternative to torches. Will fall if their support is removed.");
+mods.jei.JEI.addDescription(<minecraft:lead>, "Besides leading mobs by hand, leads can be tied to a fence or even between two fences to create a connection. Many creatures will never submit to a lead - for that, the use of a refined chain is required.");
 
 
 
