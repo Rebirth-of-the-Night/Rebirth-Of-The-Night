@@ -33,6 +33,20 @@ recipes.addShaped("Nails 3", <minetraps:nails>,[
     [ironnugget, ironnugget, ironnugget]
 ]);
 
+
+
+recipes.remove(<minetraps:nail_trap>);
+recipes.addShaped("Nail Trap", <minetraps:nail_trap>,[
+  [<minetraps:nails>, <minetraps:nails>, null],
+    [<minetraps:nails>, <minetraps:nails>, null],
+    [null, null, null]
+]);
+
+
+
+
+
+
 // trap hardness/resistance tweaks
 // yes this is sloppy using 2 methods idgaf
 
