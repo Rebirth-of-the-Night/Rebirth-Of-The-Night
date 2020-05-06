@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import mods.vanillaanvilrepair.addRepairEntry;
 
 mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_axe_endorium>);
@@ -18,22 +19,9 @@ mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
 <endreborn:sword_shard>.addTooltip("Rare drop from End Guards");
 
 // Anvil Recipes
-
 // Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
-mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_sword_endorium>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:tool_sword_endorium>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<endreborn:ender_sword>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:ender_sword>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-mods.rockytweaks.Anvil.addRecipe(<endreborn:tool_magnifier>.anyDamage(), <endreborn:item_ingot_endorium>, <endreborn:tool_magnifier>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
-
-
+var endoriumItems = <endreborn:tool_sword_endorium> | <endreborn:ender_sword> | <endreborn:tool_magnifier>;
+mods.vanillaanvilrepair.addRepairEntry(endoriumItems, <endreborn:item_ingot_endorium>);
 
 mods.jei.JEI.removeAndHide(<endreborn:armour_helmet_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
