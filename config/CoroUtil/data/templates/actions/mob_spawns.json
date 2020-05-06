@@ -23,10 +23,6 @@
             {
               "cmod": "template",
               "template": "invader_miner"
-            },
-            {
-              "cmod": "template",
-              "template": "inventory_leather"
             }
           ]
         },
@@ -39,10 +35,6 @@
             {
               "cmod": "template",
               "template": "invader_soldier"
-            },
-            {
-              "cmod": "template",
-              "template": "inventory_chainmail"
             }
           ]
         }
