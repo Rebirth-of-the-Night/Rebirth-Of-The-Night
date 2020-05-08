@@ -132,7 +132,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
-<dungeontactics:steel_ingot>.displayName = "Crude Steel Ingot";
+<dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
 
 // Rustic
 <rustic:iron_lantern>.displayName = "Tin Lantern";

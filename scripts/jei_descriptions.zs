@@ -114,9 +114,15 @@ mods.jei.JEI.addDescription([<netherchest:nether_chest>],["When items are stored
 mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 mods.jei.JEI.removeAndHide(<base:wrench>);
 
-mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes entities, extinguishes fires, and blows away dust. Gives a stronger push if there is another fan behind.");
+mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes §lall entities and items§r, extinguishes fires, and blows away dust. Gives a stronger push if there is another fan behind. Because of having a less controlled wind flow than that of a fan elevator it §lcannot make air flow trough chutes.");
+
+mods.jei.JEI.addDescription(<advancedliftingmethods:blowing_elevator>,"Thanks to reverse-flow filter logic from stone pressure plates, it pushes only entities. Use the blowing elevator along with chutes to make chute elevators.");
 
 mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage relative to distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
+
+mods.jei.JEI.addDescription(<contenttweaker:elevator>,"Roughly accurate reproduction of one of the most advanced machines—if it can be called a machine—ever created by the civilization that once inhabited The End. In its current state it is pretty much useless, but that does not mean that it is worthless...");
+
+mods.jei.JEI.addDescription(<advancedliftingmethods:ultimate_ender_elevator>,"At the peak of their technologic advancement, the now warped inhabitants of The End manipulated space so easily that they did not require to use their inhate abilities. While in a column of two or more Ender Elevators, jump to teleport to the one above or crouch to teleport to the one below.");
 
 mods.jei.JEI.addDescription([<mod_lavacow:bonesword>],"You'll really bone your enemies with this sword - thanks to all those teeth from slain predators. Remember: the bigger they are, the harder they fall.");
 
@@ -191,7 +197,7 @@ mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index
 // Iron ingot
 mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 // Steel ingot
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.");
+mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it's needed to make a good anvil, which opens the door to advanced crafting. Steel is also widely used in mechanisms for it's durability that outclasses bronze.");
 mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.');
 // Halite
 mods.jei.JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
@@ -252,6 +258,9 @@ mods.jei.JEI.addDescription(<harvestcraft:beeswaxitem>, "An extremely good fuel 
 // Flesh Block
 mods.jei.JEI.addDescription(<biomesoplenty:flesh>, "It is like slime! ...but not fun. and gross. Is that an eye?");
 mods.jei.JEI.addDescription(<charm:rotten_flesh_block>, "Similar to the flesh found in the Nether, yet different, it twitches once in a while. Bury this block in dirt and it will become a block of dirt itself.");
+// Magic Dust
+mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This basic material is a gate to a world of magic that can be used to craft Runes, various Trinkets, Baubles, Artifacts and even cast powerful Spells.");
+mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Witch covens have a taste for forbidden and unusual arts, but what they can innately do, takes for others to use an §lAlchemical Cauldron§r. Add water to an Alchemical Cauldron then light a fire below so that the water starts boiling. Add a §lbrown mushroom§r, a §lred mushroom§r, §lglowstone dust§r and stir with a spoon—rustic alchemists may use a wooden shovel.");
 
 // Aqueducts
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct>,"A smart solution to long-distance water transport. Aqueducts carry water exclusively from watery biomes, such as rivers, oceans, and wetlands - other sources won't suffice.");
@@ -407,6 +416,15 @@ mods.jei.JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning st
 // Relics
 mods.jei.JEI.addDescription([<msmlegacy:relic_aqueous>],["Relic idea by DonMartn."]);
 mods.jei.JEI.addDescription([<msmlegacy:relic_candy>],["Relic idea by Just A BLU Toon. Thanks for becoming a Dragonsteel supporter on our Patreon!"]);
+
+// Misc Weapons
+mods.jei.JEI.addDescription(<dungeontactics:high_striker>,"Seemingly possesed by a playful spirit. Launches targets hight into the sky.");
+mods.jei.JEI.addDescription(<dungeontactics:wackerjab>,"Maybe made by a mad god or maybe by a force of pure entropy. The Wackerjab can turn the target into anything, at random.");
+mods.jei.JEI.addDescription(<dungeontactics:taser>,"Fallen from above, only with a carefully precise and near hit, it will summon the roar of the skies.");
+mods.jei.JEI.addDescription(<dungeontactics:claws>,"Evoking the arts of ancestral tribes from long ago, these claws will feed their owner with the vital energy of others in exchange of the owner's own energy.");
+mods.jei.JEI.addDescription(<dungeontactics:lithen_scythe>,"The unique tool of a long forgotten being, one that had no desire to harm others. Redirects the vitality of its victims to the owner for a short period of time.");
+mods.jei.JEI.addDescription(<dungeontactics:pirate_hook>, "A symbol of avarice that will transform vital energy into solid matter, but only at the closest range where hate and damnation takes physical form.");
+mods.jei.JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit; will protect against some traps, like caltrops, clamp traps or landmines.");
 
 // Lore Specific
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");

@@ -23,11 +23,18 @@ halite.setLightOpacity(0);
 halite.register();
 
 //Unfired Refractory Crucible
-var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Ground>);
+var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Iron>);
 crucible.setCreativeTab(<creativetab:buildingBlocks>);
 crucible.setBlockSoundType(<soundtype:stone>);
 crucible.setFullBlock(false);
 crucible.register();
+
+//Broken Elevator
+var elevator = VanillaFactory.createBlock("elevator", <blockmaterial:Ground>);
+elevator.setCreativeTab(<creativetab:redstone>);
+elevator.setBlockSoundType(<soundtype:stone>);
+elevator.setFullBlock(false);
+elevator.register();
 
 //Lunarin blocks
 //Silver
@@ -94,6 +101,11 @@ var zanitefarlander = VanillaFactory.createBlock("farlanderzanitebrick", <blockm
 zanitefarlander.setCreativeTab(<creativetab:buildingBlocks>);
 zanitefarlander.setBlockSoundType(<soundtype:glass>);
 zanitefarlander.register();
+//diamond
+var diamondfarlander = VanillaFactory.createBlock("farlanderdiamondbrick", <blockmaterial:Iron>);
+diamondfarlander.setCreativeTab(<creativetab:buildingBlocks>);
+diamondfarlander.setBlockSoundType(<soundtype:glass>);
+diamondfarlander.register();
 
 //Storage blocks
 var witheredblock = VanillaFactory.createBlock("witheredblock", <blockmaterial:Sand>);
@@ -104,8 +116,8 @@ witheredblock.setGravity(true);
 witheredblock.register();
 
 var starblock = VanillaFactory.createBlock("starblock", <blockmaterial:Glass>);
-starblock.setWitherProof(true);
+starblock.setWitherProof(false);
 starblock.setCreativeTab(<creativetab:buildingBlocks>);
-starblock.setLightValue(11);
+starblock.setLightValue(8);
 starblock.setBlockSoundType(<soundtype:glass>);
 starblock.register();

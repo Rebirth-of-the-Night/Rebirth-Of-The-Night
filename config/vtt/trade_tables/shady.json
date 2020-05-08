@@ -112,7 +112,15 @@
 				Count:{min:48,max:56}},
 				sell:{id:"betterwithaddons:thorn_rose",
 				Count:1}
-		}]
+		},
+		{
+			action:"add", CareerLevel:5, maxUses:2, rewardExp:true,
+				buy:{id:"contenttweaker:elevator",
+				Count:1},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:5}
+		}
+		]
 		
 	}
 }

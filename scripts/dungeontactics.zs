@@ -1,7 +1,5 @@
 import crafttweaker.item.IIngredient;
 
-mods.jei.JEI.addDescription(<dungeontactics:steel_ingot>,"Used to create many traps, an anvil used for crafting powerful items, and more.");
-
 mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-hand and the duct tape in your main hand. Right click to repair. Items can only be repaired with duct tape until they reach Duct Taped V");
 
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
@@ -67,10 +65,16 @@ recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
     [<minecraft:fireworks>,<minecraft:iron_ingot>,<minecraft:fireworks>]
 ]);
 
+recipes.remove(<dungeontactics:flight_goggles>);
+recipes.addShaped("flight_googles",<dungeontactics:flight_goggles>,[
+    [<ore:genericMetal>,<ore:durableFiber>,<ore:genericMetal>],
+    [<ore:durableFiber>,null,<ore:durableFiber>],
+    [<ore:enderpearl>,<contenttweaker:order_rune>.anyDamage().transformDamage(),<ore:enderpearl>]
+]);
+
 mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);
 
 furnace.remove(<dungeontactics:steel_ingot>);
-
 
 mods.jei.JEI.removeAndHide(<dungeontactics:ducttape>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:ducttape");
@@ -369,8 +373,8 @@ recipes.remove(<dungeontactics:fan_block>);
 
 recipes.addShaped("Fan", <dungeontactics:fan_block>,[
 	[<ore:cobblestone>, <ore:ingotSteel>, <ore:cobblestone>],
-    [<ore:ingotSteel>, <minecraft:redstone_block>, <ore:ingotSteel>],
-    [<ore:cobblestone>, <ore:ingotSteel>, <ore:cobblestone>]
+    [<ore:ingotSteel>, <advancedliftingmethods:rotor>, <ore:ingotSteel>],
+    [<ore:cobblestone>, <ore:pressurePlateWood>, <ore:cobblestone>]
 ]);
 
 recipes.remove(<dungeontactics:lantern_magic>);

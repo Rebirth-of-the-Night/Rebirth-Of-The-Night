@@ -122,17 +122,27 @@
 <eplus:table_upgrade>.addTooltip("Shift + right-click on an Enchanting Table to upgrade.");
 
 <scalinghealth:healingitem>.removeTooltip("Use for 5 seconds to apply.");
-<scalinghealth:healingitem>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold <SHIFT> for info.");
+<scalinghealth:healingitem>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
-<scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold <SHIFT> for info.");
+<scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <harvestcraft:well>.addTooltip("Infinite water source");
-<harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold <SHIFT> for info.");
+<harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
-<minecraft:furnace>.addShiftTooltip("Input Capacity: 1 at a time.", "Hold <SHIFT> for info.");
-<minecraft:furnace>.addShiftTooltip("Fuel Capacity: 1 at a time.");
-<minecraft:furnace>.addShiftTooltip("Fuel Modifier: 100%");
+<minecraft:furnace>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" 64; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<minecraft:furnace>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" 64; 1 at a time."));
+<minecraft:furnace>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%"));
+
+<advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
+<advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
+<advancedliftingmethods:blowing_elevator>.addShiftTooltip("Can't be rotated; Can descend by crouching.");
+
+<dungeontactics:fan_block>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Any entity or item."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<dungeontactics:fan_block>.addShiftTooltip(format.gold("Chute Compat.:") + format.red(" NO."));
+<dungeontactics:fan_block>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
+<dungeontactics:fan_block>.addShiftTooltip("Can be rotated.");
 
 <pyrotech:living_tar>.clearTooltip();
 
@@ -148,3 +158,33 @@
 <extraalchemy:potion_ring>.addTooltip("Consumes 3 or 6 xp every 30 seconds while active, depending on potion strength.");
 <dungeontactics:magic_pouch>.addTooltip("Right-click to open.");
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
+
+<pyrotech:material:12>.addTooltip("Used for dried fiber.");
+<pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "<" + format.gold("+") + "" + format.gray(">"));
+
+<pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "<" + format.gold("+") + "" + format.gray(">"));
+
+<betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "<" + format.gold("+") + "" + format.gray(">"));
+
+<minecraft:stick>.addShiftTooltip("Can be obtained from leaves.", "<" + format.gold("+") + "" + format.gray(">"));
+
+//Bombs
+<dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
+<dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_frag_cluster>.addTooltip("Explodes in an area");
+<dungeontactics:bomb_frag_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_pyro>.addTooltip("Explodes and sets targets on fire.");
+<dungeontactics:bomb_pyro>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_pyro_cluster>.addTooltip("Explodes and sets targets on fire.");
+<dungeontactics:bomb_pyro_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_porting>.addTooltip("Explodes and teleports targets away.");
+<dungeontactics:bomb_porting>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_porting_cluster>.addTooltip("Explodes and teleports targets away.");
+<dungeontactics:bomb_porting_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_cryo>.addTooltip("Freezes and leaves targets open to damage.");
+<dungeontactics:bomb_cryo>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_cryo_cluster>.addTooltip("Freezes and leaves targets open to damage.");
+<dungeontactics:bomb_cryo_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+
+<minecraft:wooden_shovel>.addShiftTooltip('"Sorcery is the sauce fools spoon over failure to hide the flavor of their own incompetence." -G.R.R.M.');
+<minecraft:wooden_shovel>.addShiftTooltip("Well, a wooden spoon can unlock a great deal of sorceries.");

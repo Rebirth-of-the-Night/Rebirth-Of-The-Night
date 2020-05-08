@@ -369,6 +369,14 @@ durableFiber.addAll(<ore:fiberHemp>);
 durableFiber.add(<betterwithmods:material:3>);
 durableFiber.add(<pyrotech:material:26>);
 
+val genericMetal = <ore:genericMetal>;
+genericMetal.addAll(<ore:ingotCopper>);
+genericMetal.addAll(<ore:ingotTin>);
+genericMetal.addAll(<ore:ingotIron>);
+genericMetal.addAll(<ore:ingotBronze>);
+genericMetal.addAll(<ore:ingotSilver>);
+genericMetal.addAll(<ore:ingotSteel>);
+
 val fang = <ore:fang>;
 fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_serpent_fang>,<netherex:coolmar_spider_fang>]);
 
@@ -628,17 +636,3 @@ recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
 recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
-
-//Lifting methods
-recipes.addShaped("auto_ladder_iron", <advancedliftingmethods:powered_ladder>*4, 
-[[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>],
-[<ore:ingotElectrum>,<betterwithmods:material:36>,<ore:ingotElectrum>],
-[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>]]);
-recipes.addShaped("auto_ladder_tin", <advancedliftingmethods:powered_ladder>*1, 
-[[<ore:ingotTin>,<ore:dustRedstone>,<ore:ingotTin>],
-[<ore:ingotElectrum>,<betterwithmods:material:36>,<ore:ingotElectrum>],
-[<ore:ingotTin>,<ore:dustRedstone>,<ore:ingotTin>]]);
-recipes.addShaped("auto_ladder_steel", <advancedliftingmethods:powered_ladder>*8,
-[[<ore:ingotSteel>,<ore:dustRedstone>,<ore:ingotSteel>],
-[<ore:ingotElectrum>,<betterwithmods:material:36>,<ore:ingotElectrum>],
-[<ore:ingotSteel>,<ore:dustRedstone>,<ore:ingotSteel>]]);
