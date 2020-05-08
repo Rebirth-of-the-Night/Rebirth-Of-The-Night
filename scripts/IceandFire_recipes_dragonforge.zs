@@ -11,9 +11,9 @@ mods.iceandfire.recipes.removeIceDragonForgeRecipe(<iceandfire:dragonsteel_ice_i
 
 //Steelier steel
 mods.iceandfire.recipes.addFireDragonForgeRecipe
-	(<betterwithmods:material:14>,<iceandfire:fire_dragon_blood>,<iceandfire:dragonsteel_fire_ingot>); 
+	(<dungeontactics:steel_ingot>,<iceandfire:fire_dragon_blood>,<iceandfire:dragonsteel_fire_ingot>); 
 mods.iceandfire.recipes.addIceDragonForgeRecipe
-	(<betterwithmods:material:14>,<iceandfire:ice_dragon_blood>,<iceandfire:dragonsteel_ice_ingot>);
+	(<dungeontactics:steel_ingot>,<iceandfire:ice_dragon_blood>,<iceandfire:dragonsteel_ice_ingot>);
 	
 //golden apple
 mods.iceandfire.recipes.addFireDragonForgeRecipe(<minecraft:apple>, <minecraft:milk_bucket>, <minecraft:golden_apple>);
