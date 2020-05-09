@@ -60,9 +60,9 @@ recipes.remove(<iceandfire:pixie_wand>);
 recipes.remove(<iceandfire:siren_flute>);
 
 recipes.addShaped("Pixie Wand", <iceandfire:pixie_wand>, [
-   [null, <iceandfire:pixie_wings>, <contenttweaker:fae_orb>],
-   [<iceandfire:pixie_dust>, <minecraft:end_rod>, <iceandfire:pixie_wings>], 
-   [<minecraft:end_rod>, <iceandfire:pixie_dust>, null]]);
+   [null, null, <contenttweaker:fae_orb>],
+   [null, <iceandfire:pixie_wings>, null], 
+   [<ore:stickWood>, null, null]]);
 
 recipes.addShaped("Siren Flute", <iceandfire:siren_flute>, [
    [<iceandfire:shiny_scales>, <iceandfire:siren_tear>, <iceandfire:shiny_scales>],

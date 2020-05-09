@@ -8,6 +8,10 @@ mods.jei.JEI.removeAndHide(<golems:info_book>);
 
 recipes.remove(<golems:golem_paper>);
 
-recipes.addShapeless("GolemSpell", <golems:golem_paper>, [
-<wards:enchanted_paper>, <minecraft:feather>, <contenttweaker:creation_rune>.anyDamage().transformDamage(), <minecraft:dye>, <minecraft:dye:1>]
+recipes.addShapeless("GolemSpell 1", <golems:golem_paper> * 3, [
+<wards:enchanted_paper>, <wards:enchanted_paper>, <wards:enchanted_paper>, <ore:feather>, <contenttweaker:creation_rune>.anyDamage().transformDamage(), <ore:dyeRed>]
+);
+
+recipes.addShapeless("GolemSpell 2", <golems:golem_paper>, [
+<wards:enchanted_paper>, <ore:feather>, <contenttweaker:creation_rune>.anyDamage().transformDamage(), <ore:dyeRed>]
 );
