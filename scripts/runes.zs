@@ -95,7 +95,7 @@ recipes.addShaped(<contenttweaker:chaos_rune>, [
 recipes.addShaped(<contenttweaker:energy_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:water_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:fire_rune>.anyDamage().transformDamage()], 
-[null, <minecraft:redstone>|<betterwithmods:material:26>|<cyclicmagic:horse_upgrade_speed>|<minecraft:sugar>|<dungeontactics:fish_swift>, null]]);
+[null, <minecraft:redstone>|<betterwithmods:material:26>|<minecraft:sugar>|<dungeontactics:fish_swift>, null]]);
 
 recipes.addShaped(<contenttweaker:disint_rune>, [
 [null, <dungeontactics:magic_powder>, null],
@@ -125,7 +125,7 @@ recipes.addShaped(<contenttweaker:order_rune>, [
 recipes.addShaped(<contenttweaker:trans_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:luna_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:air_rune>.anyDamage().transformDamage()], 
-[null, <dynamictrees:dendropotion:6>|<twilightforest:borer_essence>|<twilightforest:twilight_sapling:6>|<twilightforest:magic_leaves:1>|<twilightforest:magic_log:1>|<iceandfire:pixie_dust>|<mod_lavacow:mimic_claw>|<dynamictrees:dendropotion:5>|<cyclicmagic:horse_upgrade_variant>, null]]);
+[null, <dynamictrees:dendropotion:6>|<twilightforest:borer_essence>|<twilightforest:twilight_sapling:6>|<twilightforest:magic_leaves:1>|<twilightforest:magic_log:1>|<iceandfire:pixie_dust>|<mod_lavacow:mimic_claw>|<dynamictrees:dendropotion:5>, null]]);
 
 recipes.addShaped(<contenttweaker:knowledge_rune>, [
 [null, <dungeontactics:magic_powder>, null],
@@ -145,7 +145,7 @@ recipes.addShaped(<contenttweaker:soul_rune>, [
 recipes.addShaped(<contenttweaker:life_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:sol_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:water_rune>.anyDamage().transformDamage()], 
-[null, <scalinghealth:heartdust>|<contenttweaker:heartofthefallen>|<contenttweaker:heavensheart>|<mod_lavacow:undyingheart>|<mod_lavacow:mootenheart>|<iceandfire:fire_dragon_heart>|<iceandfire:ice_dragon_heart>|<scalinghealth:crystalshard>|<minecraft:speckled_melon>|<cyclicmagic:horse_upgrade_health>, null]]);
+[null, <scalinghealth:heartdust>|<contenttweaker:heartofthefallen>|<contenttweaker:heavensheart>|<mod_lavacow:undyingheart>|<mod_lavacow:mootenheart>|<iceandfire:fire_dragon_heart>|<iceandfire:ice_dragon_heart>|<scalinghealth:crystalshard>|<minecraft:speckled_melon>, null]]);
 
 recipes.addShaped(<contenttweaker:nature_rune>, [
 [null, <dungeontactics:magic_powder>, null],
@@ -162,17 +162,26 @@ recipes.addShaped(<contenttweaker:mind_rune>, [
 [<contenttweaker:sol_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:luna_rune>.anyDamage().transformDamage()], 
 [null, <betterwithmods:material:15>|<minecraft:nether_wart>|<betternether:eye_seed>, null]]);
 
-
-recipes.addShaped(<quark:rune:16>, [[<ore:dyeRed>, <ore:dyeBlue>, <ore:dyeLime>],[<ore:dyeYellow>, <contenttweaker:blank_rune>, <ore:dyeLightBlue>], [<ore:dyeMagenta>, <ore:dyeOrange>, <ore:dyeWhite>]]);
-recipes.addShaped(<quark:rune:15>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeBlack>], [null, null, null]]);
-recipes.addShaped(<quark:rune:14>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeRed>], [null, null, null]]);
-recipes.addShaped(<quark:rune:11>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeBlue>], [null, null, null]]);
-recipes.addShaped(<quark:rune:5>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeLime>], [null, null, null]]);
-recipes.addShaped(<quark:rune:4>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeYellow>], [null, null, null]]);
-recipes.addShaped(<quark:rune:3>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeLightBlue>], [null, null, null]]);
-recipes.addShaped(<quark:rune:2>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeMagenta>], [null, null, null]]);
-recipes.addShaped(<quark:rune:1>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeOrange>], [null, null, null]]);
 recipes.addShaped(<quark:rune:0>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeWhite>], [null, null, null]]);
+recipes.addShaped(<quark:rune:1>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeOrange>], [null, null, null]]);
+recipes.addShaped(<quark:rune:2>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeMagenta>], [null, null, null]]);
+recipes.addShaped(<quark:rune:3>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeLightBlue>], [null, null, null]]);
+recipes.addShaped(<quark:rune:4>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeYellow>], [null, null, null]]);
+recipes.addShaped(<quark:rune:5>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeLime>], [null, null, null]]);
+recipes.addShaped(<quark:rune:6>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyePink>], [null, null, null]]);
+recipes.addShaped(<quark:rune:7>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeGray>], [null, null, null]]);
+recipes.addShaped(<quark:rune:8>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeLightGray>], [null, null, null]]);
+recipes.addShaped(<quark:rune:9>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeCyan>], [null, null, null]]);
+recipes.addShaped(<quark:rune:10>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyePurple>], [null, null, null]]);
+recipes.addShaped(<quark:rune:11>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeBlue>], [null, null, null]]);
+recipes.addShaped(<quark:rune:12>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeBrown>], [null, null, null]]);
+recipes.addShaped(<quark:rune:13>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeGreen>], [null, null, null]]);
+recipes.addShaped(<quark:rune:14>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeRed>], [null, null, null]]);
+recipes.addShaped(<quark:rune:15>, [[null, <dungeontactics:magic_powder>, null],[<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <ore:dyeBlack>], [null, null, null]]);
+recipes.addShaped(<quark:rune:16>, [[<ore:dyeRed>, <ore:dyeBlue>, <ore:dyeLime>],[<ore:dyeYellow>, <contenttweaker:blank_rune>, <ore:dyeLightBlue>], [<ore:dyeMagenta>, <ore:dyeOrange>, <ore:dyeWhite>]]);
+
+
+
 
 recipes.addShapeless(<contenttweaker:disint_orb>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <contenttweaker:magic_orb>]);
 recipes.addShapeless(<contenttweaker:strength_orb>, [<contenttweaker:strength_rune>.anyDamage().transformDamage(), <contenttweaker:magic_orb>]);
