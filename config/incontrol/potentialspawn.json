@@ -1496,30 +1496,6 @@
     ]
   },
  
-    {
-    "dimension": 4,
-    "mobs": [
-      {
-        "mob": "aether_legacy:swet",
-        "weight": 0.01,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      }
-    ]
-  },
-
-   {
-    "dimension": 4,
-    "mobs": [
-      {
-        "mob": "aether_legacy:aechor_plant",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      }
-    ]
-  },
- 
    {
     "dimension": 0,
     "mobs": [
