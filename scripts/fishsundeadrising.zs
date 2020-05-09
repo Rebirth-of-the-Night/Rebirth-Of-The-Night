@@ -172,7 +172,7 @@ mods.rats.recipes.addChefRatRecipe(<mod_lavacow:parasite_item>, <mod_lavacow:sau
 recipes.remove(<mod_lavacow:sludge_wand>);
 
 mods.betterwithaddons.Infuser.addShaped(<mod_lavacow:sludge_wand>, [
-   [null, <mod_lavacow:silky_sludge>, <contenttweaker:creation_orb>],
+   [null, <mod_lavacow:silky_sludge>, <contenttweaker:nature_rune>.anyDamage().transformDamage()],
    [<minecraft:vine>, <mod_lavacow:mossy_stick>, <mod_lavacow:silky_sludge>], 
    [<mod_lavacow:mossy_stick>, <minecraft:vine>, null]],
 16);

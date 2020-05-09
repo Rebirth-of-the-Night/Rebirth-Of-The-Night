@@ -40,7 +40,7 @@ recipes.addShaped(<contenttweaker:luna_rune>, [
 recipes.addShaped(<contenttweaker:water_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<minecraft:water_bucket>|
-<minecraft:potion:0>|
+<minecraft:potion>.withTag({Potion: "minecraft:water"})|
 <harvestcraft:freshwateritem>|
 <aether_legacy:skyroot_bucket:1>, <contenttweaker:blank_rune>, <minecraft:ice>|
 <minecraft:packed_ice>|
@@ -110,7 +110,7 @@ recipes.addShaped(<contenttweaker:creation_rune>, [
 recipes.addShaped(<contenttweaker:death_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:sol_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:fire_rune>.anyDamage().transformDamage()], 
-[null, <quark:black_ash>|<minecraftfuture:flowerblack>|<iceandfire:witherbone>|<iceandfire:wither_shard>|<netherex:frosted_wither_bone>|<biomesoplenty:flower_0:2>|<iceandfire:deathworm_tounge>|<iceandfire:deathworm_chitin:*>|<rustic:deathstalk_mushroom>, null]]);
+[null, <quark:black_ash>|<minecraftfuture:flowerblack>|<iceandfire:witherbone>|<iceandfire:wither_shard>|<netherex:frosted_wither_bone>|<biomesoplenty:flower_0:2>|<minecraft:skull:1>|<iceandfire:cockatrice_skull>|<rustic:deathstalk_mushroom>, null]]);
 
 recipes.addShaped(<contenttweaker:illusion_rune>, [
 [null, <dungeontactics:magic_powder>, null],
@@ -130,7 +130,7 @@ recipes.addShaped(<contenttweaker:trans_rune>, [
 recipes.addShaped(<contenttweaker:knowledge_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:sol_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:air_rune>.anyDamage().transformDamage()], 
-[null, <iceandfire:manuscript>|<villagenames:codex>|<quark:ancient_tome>|<arcanearchives:tome_arcana>|<dungeontactics:magic_scroll>|<minecraft:experience_bottle>, null]]);
+[null, <iceandfire:manuscript>|<villagenames:codex>|<quark:ancient_tome>|<minecraft:experience_bottle>, null]]);
 
 recipes.addShaped(<contenttweaker:poison_rune>, [
 [null, <dungeontactics:magic_powder>, null],
@@ -206,7 +206,7 @@ recipes.addShapeless(<contenttweaker:chaos_orb>, [<contenttweaker:chaos_rune>.an
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:draconic_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
 [<contenttweaker:strength_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage()], 
-[<bountifulbaubles:brokenblackdragonscale>|<iceandfire:dragonscales_red>|<iceandfire:dragonscales_green>|<iceandfire:dragonscales_bronze>|<iceandfire:dragonscales_gray>|<iceandfire:dragonscales_blue>|<iceandfire:dragonscales_white>|<iceandfire:dragonscales_sapphire>|<iceandfire:dragonscales_silver>|<iceandfire:shiny_scales>|<quark:enderdragon_scale>, <iceandfire:dragonbone:*>|<rats:dragon_wing>, <iceandfire:dragonegg_red>|<iceandfire:dragonegg_green>|<iceandfire:dragonegg_bronze>|<iceandfire:dragonegg_gray>|<iceandfire:dragonegg_blue>|<iceandfire:dragonegg_white>|<iceandfire:dragonegg_sapphire>|<iceandfire:dragonegg_silver>]],8);
+[<bountifulbaubles:brokenblackdragonscale>|<iceandfire:dragonscales_red>|<iceandfire:dragonscales_green>|<iceandfire:dragonscales_bronze>|<iceandfire:dragonscales_gray>|<iceandfire:dragonscales_blue>|<iceandfire:dragonscales_white>|<iceandfire:dragonscales_sapphire>|<iceandfire:dragonscales_silver>|<mowziesmobs:naga_fang>|<mod_lavacow:burntovipositor>|<endreborn:dragon_scales>, <iceandfire:dragonbone:*>|<rats:dragon_wing>, <iceandfire:dragonegg_red>|<iceandfire:dragonegg_green>|<iceandfire:dragonegg_bronze>|<iceandfire:dragonegg_gray>|<iceandfire:dragonegg_blue>|<iceandfire:dragonegg_white>|<iceandfire:dragonegg_sapphire>|<iceandfire:dragonegg_silver>]],8);
 
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:aether_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
@@ -216,7 +216,7 @@ mods.betterwithaddons.Infuser.addShaped(<contenttweaker:aether_rune>, [
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:holding_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
 [<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:order_rune>.anyDamage().transformDamage()], 
-[<endreborn:item_shard_obsidian>|<endreborn:catalyst>|<quark:biotite>|<undergroundbiomes:lignite_coal>, <minecraft:ender_pearl>|<minecraft:ender_eye>|<minecraft:shulker_shell>, <arcanearchives:shaped_quartz>|<biomesoplenty:gem:0>|<arcanearchives:raw_quartz>|<arcanearchives:radiant_dust>]],8);
+[<endreborn:item_shard_obsidian>|<endreborn:catalyst>|<quark:biotite>|<undergroundbiomes:lignite_coal>, <minecraft:ender_eye>|<endreborn:item_ender_string>|<minecraft:shulker_shell>, <arcanearchives:shaped_quartz>|<biomesoplenty:gem:0>|<arcanearchives:raw_quartz>|<arcanearchives:radiant_dust>]],8);
 
 mods.betterwithaddons.Infuser.addShaped(<endreborn:item_end_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
@@ -226,7 +226,10 @@ mods.betterwithaddons.Infuser.addShaped(<endreborn:item_end_rune>, [
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:nether_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
 [<contenttweaker:soul_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:disint_rune>.anyDamage().transformDamage()], 
-[<minecraft:ghast_tear>|<minecraft:blaze_powder>|<minecraft:blaze_rod>|<minecraft:nether_star>|<netherex:frost_rod>|<netherex:frost_powder>|<netherex:frosted_wither_bone>|<netherex:orange_salamander_hide>|<netherex:black_salamander_hide>|<netherex:coolmar_spider_fang>|<netherex:ghast_meat_raw>, <minecraft:nether_wart>|<betternether:nether_reed>|<betternether:eye_seed>|<betternether:stalagnate_stem>|<betternether:red_mold>|<betternether:ink_bush_seed>|<betternether:smoker>|<betternether:wart_seed>|<betternether:gray_mold> ,<betternether:cincinnasite>|<minecraft:quartz>|<betterwithmods:material:1>|<betterwithmods:material:15>|<betterwithmods:material:35>|<netherex:rime_crystal>]],8);
+[<minecraft:ghast_tear>|<minecraft:blaze_powder>|<minecraft:blaze_rod>|<netherex:orange_salamander_hide>|<netherex:black_salamander_hide>|<netherex:ghast_meat_raw>, <minecraft:nether_wart>|<betternether:nether_reed>|<betternether:red_mold>|<betternether:smoker>|<betternether:gray_mold>,<betternether:cincinnasite>|<minecraft:quartz>|<betterwithmods:material:1>|<betterwithmods:material:15>|<betterwithmods:material:35>|<netherex:rime_crystal>]],8);
+
+//for 2.8 when these are available
+// <betternether:eye_seed>|<betternether:stalagnate_stem>,<betternether:ink_bush_seed>|<betternether:smoker>|<betternether:wart_seed>|
 
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:plague_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
