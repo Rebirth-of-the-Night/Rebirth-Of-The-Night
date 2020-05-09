@@ -135,7 +135,7 @@ recipes.addShaped(<contenttweaker:knowledge_rune>, [
 recipes.addShaped(<contenttweaker:poison_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:earth_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:water_rune>.anyDamage().transformDamage()], 
-[null, <minecraft:fermented_spider_eye>|<betterwithmods:material:54>|<minecraft:poisonous_potato>|<mowziesmobs:naga_fang>|<aether_legacy:skyroot_bucket>, null]]);
+[null, <minecraft:fermented_spider_eye>|<betterwithmods:material:54>|<minecraft:poisonous_potato>|<mowziesmobs:naga_fang>|<aether_legacy:skyroot_bucket:2>, null]]);
 
 recipes.addShaped(<contenttweaker:soul_rune>, [
 [null, <dungeontactics:magic_powder>, null],
@@ -231,7 +231,7 @@ mods.betterwithaddons.Infuser.addShaped(<contenttweaker:nether_rune>, [
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:plague_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
 [<contenttweaker:death_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:poison_rune>.anyDamage().transformDamage()], 
-[<rats:herb_bundle>|<rats:plague_leech>|<rats:plague_stew>, <mod_lavacow:plagued_porkchop>|<mod_lavacow:pigboarhide>|<rats:plague_essence>|<iceandfire:sickly_dragon_meal>|<twilightforest:twilight_sapling:0>|<minecraft:rotten_flesh> ,<minecraft:fermented_spider_eye>|<betterwithmods:material:54>|<minecraft:poisonous_potato>|<mowziesmobs:naga_fang>|<aether_legacy:skyroot_bucket>]],8);
+[<rats:herb_bundle>|<rats:plague_leech>|<rats:plague_stew>, <mod_lavacow:plagued_porkchop>|<mod_lavacow:pigboarhide>|<rats:plague_essence>|<iceandfire:sickly_dragon_meal>|<twilightforest:twilight_sapling:0>|<minecraft:rotten_flesh> ,<minecraft:fermented_spider_eye>|<betterwithmods:material:54>|<minecraft:poisonous_potato>|<mowziesmobs:naga_fang>|<aether_legacy:skyroot_bucket:2>]],8);
 
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:arcane_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
