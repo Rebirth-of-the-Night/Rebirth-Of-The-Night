@@ -110,6 +110,8 @@
 
 #Misc.
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
+<betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
+<betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
 
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
