@@ -42,7 +42,7 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 <entity:specialmobs:queenghast>.addPlayerOnlyDrop(<minecraft:ghast_tear> %80, 2, 3);
 
 //skulls used for crafting
-<entity:iceandfire:if_troll>.addPlayerOnlyDrop(<iceandfire:troll_skull> %80);
+<entity:iceandfire:if_troll>.addPlayerOnlyDrop(<iceandfire:troll_skull>);
 <entity:iceandfire:cyclops>.addPlayerOnlyDrop(<iceandfire:cyclops_skull>);
 
 //skydrake
