@@ -270,3 +270,6 @@ recipes.addShaped("food_presser", <harvestcraft:presser>, [
 recipes.remove(<harvestcraft:royaljellyitem>);
 mods.betterwithmods.Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);
 mods.betterwithmods.Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*6]);
+
+// Palm seed -> cooking oil
+recipes.addShapeless("palmseed_cookingoil", <harvestcraft:oliveoilitem>*2, [<harvestcraft:juiceritem>, <dynamictreesbop:palmseed>, <dynamictreesbop:palmseed>]);
