@@ -987,6 +987,8 @@
 {
     "dimension": [0,10],
     "mob": "primitivemobs:festive_creeper",
+    "maxlight": 5,
+    "minlight": 0,
     "gamestage": "killedGhastQueen",
     "maxcount": {
         "amount": 1,
