@@ -1299,6 +1299,7 @@ aether_legacy:music.aether2
 aether_legacy:music.aether3
 aether_legacy:music.aether4
 aether_legacy:music.menu
+charset:block.crank
 charm:wood_open
 charm:wood_close
 charm:wood_smash
