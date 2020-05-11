@@ -75,3 +75,11 @@ config/TwitchSpawn/rules.calamarigold.tsl
 mods/.DS_Store
 
 config/jei/bookmarks.ini
+
+config/fantasticlib/reference/blocks.txt
+config/fantasticlib/reference/entities.txt
+config/fantasticlib/reference/items.txt
+config/fantasticlib/reference/players.txt
+config/fantasticlib/reference/potions.txt
+config/fantasticlib/reference/*.txt
+config/multimob/modInformation/*.txt
