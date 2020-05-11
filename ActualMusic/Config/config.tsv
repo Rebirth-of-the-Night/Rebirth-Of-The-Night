@@ -1,0 +1,25 @@
+Crossfade	true
+DotLowHP	true
+SmallBiomes	false
+Songpack	Adventure Redefined
+WindowX	478
+WindowY	190
+ambVol	1.000000
+bossCards	true
+interSong	7
+leadMulti	100
+locationCards	1
+locationCardsD	2
+locationCardsG	1
+locationCardsS+	1
+locationCardsS-	1
+locationCardsZ	1
+loopPoints	true
+mainVol	0.105960
+musVol	0.035211
+pauseVol	50
+pauseVolMin	25
+pauseVolTime	60
+shuffleType	2
+typedCards	true
+variantLoop	true
