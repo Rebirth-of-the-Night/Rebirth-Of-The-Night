@@ -10,11 +10,11 @@ val rope = <quark:rope>;
 val grapplehook = <grapplemod:grapplinghook>;
 val lead = <minecraft:lead>;
 val baseupgrade = <grapplemod:baseupgradeitem>;
-val ropeupgade = <grapplemod:ropeupgradeitem>;
+val ropeupgrade = <grapplemod:ropeupgradeitem>;
 
 recipes.addShaped("GrappleHook", grapplehook,
  [[null,null,gravititepick],
   [null,lead,null],
   [rope,null,null]]);
 
-recipes.addShapeless("GrappleRopeUpgrade", ropeupgade,[baseupgrade, rope]);
+recipes.addShapeless("GrappleRopeUpgrade", ropeupgrade,[baseupgrade, rope]);
