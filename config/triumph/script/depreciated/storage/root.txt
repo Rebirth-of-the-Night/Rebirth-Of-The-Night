@@ -2,16 +2,16 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
 //Set icon item
-setIcon(<biomesoplenty:earth>)
+setIcon(<minecraft:chest>)
 
 //Set title String
-setTitle("Rebirth of the Night")
+setTitle("Storage")
 
-//Set description String
-setDescription("Welcome to Rebirth of the Night!")
+setDescription("Storage")
+
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
-setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(false)
@@ -23,4 +23,5 @@ setAnnounceToChat(false)
 addCriteria("impossible", "minecraft:impossible")
 
 setHidden(true)
-setPos(-483,-48)
+setPos(-699,-115)
+hideLines()

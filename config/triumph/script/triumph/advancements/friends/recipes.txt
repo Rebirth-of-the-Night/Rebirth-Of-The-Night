@@ -2,7 +2,7 @@ setIcon(<minecraft:crafting_table>)
 setTitle("How to view recipes")
 setDescription("Hover over any block or item and press R or U to view recipes and uses.")
 
-addParent("triumph:advancements/main/root")
+addParent("triumph:advancements/friends/root")
 
 addRewardFunction("triumph:noStage")
 
@@ -16,5 +16,5 @@ setAnnounceToChat(false)
 criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
 
 hideLines()
-setHidden(true)
+alwaysVisible()
 setPos(-500,-75)

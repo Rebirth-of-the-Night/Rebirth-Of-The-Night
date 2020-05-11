@@ -1,11 +1,8 @@
-setIcon(<minecraft:crafting_table>)
-setTitle("How to view recipes")
-setDescription("Hover over any block or item and press R or U to view recipes and uses.")
+setIcon(<dungeontactics:dungeonpedia_volume_1>)
+setTitle("Dungeonpedia")
+setDescription("Get a Bestiary to learn information and tips for the aspiring Dungeoneer")
 
-addParent("triumph:advancements/main/root")
-
-addRewardFunction("triumph:noStage")
-
+addParent("triumph:advancements/guides/root")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -14,7 +11,8 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:dungeonpedia_volume_1")
 
 hideLines()
-setHidden(true)
-setPos(-500,-75)
+alwaysVisible()
+setPos(20,15)

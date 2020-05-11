@@ -1,0 +1,19 @@
+setIcon(<pyrotech:tank>)
+setTitle("Stone Tank")
+setDescription("Craft a stone tank.")
+
+
+addParent("triumph:advancements/storage/liquidbarrel")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Stone Tank", "triumph:player_crafted_item")
+criteria.setItem("pyrotech:tank")
+
+// hideLines()
+// setHidden(true)
+setPos(-515,-32)

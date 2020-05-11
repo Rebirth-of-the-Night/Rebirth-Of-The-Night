@@ -1,11 +1,8 @@
-setIcon(<minecraft:crafting_table>)
-setTitle("How to view recipes")
-setDescription("Hover over any block or item and press R or U to view recipes and uses.")
+setIcon(<iceandfire:bestiary>)
+setTitle("Bestiary")
+setDescription("Get a Bestiary to learn more about the mystical creatures. But some manuscripts appear to be missing...")
 
-addParent("triumph:advancements/main/root")
-
-addRewardFunction("triumph:noStage")
-
+addParent("triumph:advancements/guides/root")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -14,7 +11,8 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:bestiary")
 
 hideLines()
-setHidden(true)
-setPos(-500,-75)
+alwaysVisible()
+setPos(20,-25)
