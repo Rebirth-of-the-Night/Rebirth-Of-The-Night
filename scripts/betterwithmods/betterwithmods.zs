@@ -217,7 +217,7 @@ mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_sword>);
 
 // Gem tools Rework
 
-val diamondAll = [
+/*val diamondAll = [
     <minecraft:diamond_sword>,
     <minecraft:diamond_shovel>,
     <minecraft:diamond_hoe>,
@@ -250,7 +250,7 @@ val diamondAll = [
 for item in diamondAll{
     recipes.remove(item);
 }
-
+*/
 
 // Heat sources
 mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=north,lit=true>, 1);
