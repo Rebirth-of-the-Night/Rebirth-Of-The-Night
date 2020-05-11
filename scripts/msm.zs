@@ -242,7 +242,7 @@ enchantmentMap6 += {ench: [enchTag2]};
 enchantmentMap6 += enchantments6[1].makeEnchantment(1).makeTag();
 enchantmentMap6 += enchantments6[2].makeEnchantment(3).makeTag();
 enchantmentMap6 += enchantments6[3].makeEnchantment(1).makeTag();
-enchantmentMap6 += enchantments6[3].makeEnchantment(1).makeTag();
+enchantmentMap6 += enchantments6[4].makeEnchantment(1).makeTag();
 
 
 recipes.remove(<msmlegacy:dawn_star>);
