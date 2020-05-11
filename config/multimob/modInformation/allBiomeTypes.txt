@@ -1,9 +1,14 @@
-OCEAN
 WATER
+OCEAN
 PLAINS
+<<<<<<< HEAD
 DRY
 HOT
+=======
+>>>>>>> 163829b... Fix personalities
 SANDY
+DRY
+HOT
 MOUNTAIN
 HILLS
 FOREST

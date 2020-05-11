@@ -1390,9 +1390,9 @@ twilightforest:sort_trapdoor
 twilightforest:sort_fence
 twilightforest:sort_gate
 twilightforest:sort_plate
-betterwithmods:breeding_harness
 betterwithmods:detector_rail_steel
 betterwithmods:detector_rail_stone
+betterwithmods:breeding_harness
 betterwithmods:anchor
 betterwithmods:rope
 betterwithmods:single_machine
