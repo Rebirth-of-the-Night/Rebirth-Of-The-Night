@@ -2,16 +2,16 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
 //Set icon item
-setIcon(<minetraps:barbed_wire>)
+setIcon(<minecraft:book>)
 
 //Set title String
-setTitle("Base Defense")
+setTitle("Journey of the Scholar!")
 
 //Set description String
-setDescription("Base Defense")
+setDescription("Journey of the Scholar!")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
-setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setBackground("pyrotech:textures/blocks/kiln_brick_side.png")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(false)
@@ -23,5 +23,4 @@ setAnnounceToChat(false)
 addCriteria("impossible", "minecraft:impossible")
 
 setHidden(true)
-hideLines()
-setPos(-72,1)
+setPos(0,0)

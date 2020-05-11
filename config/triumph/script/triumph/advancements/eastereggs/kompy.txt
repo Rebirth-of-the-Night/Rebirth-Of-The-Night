@@ -1,6 +1,6 @@
 setIcon("contenttweaker:kompy_kantrip")
-setTitle("Whimsical Cantrip")
-setDescription("Craft Dev Relic 4 of 6 by enchanting Kompy's memorabilia.")
+setTitle("Talk is Cheep")
+setDescription("Craft Dev Relic 4 of 6 by crafting Whimsicott.")
 
 addParent("triumph:advancements/eastereggs/root")
 

@@ -1,0 +1,17 @@
+setIcon(<dungeontactics:dungeonpedia_volume_1>)
+setTitle("Cauldron Recipes")
+setDescription("Volume 5 of the Dungeonpedia")
+
+addParent("triumph:advancements/guides/dungeonpedia/dungeonpedia4")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:dungeonpedia_volume_5")
+
+visibileIf("triumph:advancements/guides/dungeonpedia/dungeonpedia")
+setPos(120,50)

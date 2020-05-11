@@ -23,4 +23,4 @@ setAnnounceToChat(false)
 addCriteria("impossible", "minecraft:impossible")
 
 setHidden(true)
-setPos(-376,-19)
+setPos(-483,-48)
