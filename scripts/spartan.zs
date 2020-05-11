@@ -96,11 +96,7 @@ mods.betterwithmods.Anvil.addShaped(<spartanshields:shield_basic_lead>,
     [<ore:ingotMythril>, <ore:ingotMythril>, null, null]
 ]);
 
-
-mods.rockytweaks.Anvil.addRecipe(<spartanshields:shield_basic_lead>.anyDamage(), <simpleores:mythril_ingot>, <spartanshields:shield_basic_lead>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
+mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_lead>, <simpleores:mythril_ingot>);
 mods.jei.JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairCost: 0, display: {Name: "Mythril Shield"}})],["It's on the edge of the abyss that this shield truly shines."]);
 
 //Gem forged shield
@@ -112,10 +108,7 @@ recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
     [<minecraft:diamond>, polishedPapiz, <minecraft:diamond>],
     [null, <minecraft:diamond>, null]
 ]);
-mods.rockytweaks.Anvil.addRecipe(<spartanshields:shield_basic_diamond>.anyDamage(), qualityGem, <spartanshields:shield_basic_diamond>, 1,
-function(out, ins, cInfo){
-    return ins.left.withDamage(max(0,ins.left.damage - 50));
-});
+mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qualityGem);
 
 //Obsidian Shield Bauble
 recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[<simpleores:onyx_gem>, <bountifulbaubles:trinketobsidianskull>, <simpleores:onyx_gem>],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [<simpleores:onyx_gem>, <spartanshields:shield_basic_obsidian>, <simpleores:onyx_gem>]]);
