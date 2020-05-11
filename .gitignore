@@ -39,24 +39,6 @@ manifest.json
 mods/JustEnoughResources-1.12.2-0.9.2.60.jar
 config/jeresources/jeresources.cfg
 mods/OptiFine_1.12.2_HD_U_F5.jar
-config/fantasticlib/reference/blocks.txt
-config/fantasticlib/reference/enchantments.txt
-config/fantasticlib/reference/entities.txt
-config/fantasticlib/reference/items.txt
-config/fantasticlib/reference/players.txt
-config/fantasticlib/reference/recipes.txt
-config/fantasticlib/reference/sounds.txt
-config/fantasticlib/reference/villager_professions.txt
-config/multimob/modInformation/allBiomeTypes.txt
-config/multimob/modInformation/allBlocks.txt
-config/multimob/modInformation/allBlockStates.txt
-config/multimob/modInformation/allEnchantments.txt
-config/multimob/modInformation/allEntities.txt
-config/multimob/modInformation/allItems.txt
-config/pyrotech/core.compat.Ore-Generated.json
-config/pyrotech/core.compat.Wood-Generated.json
-config/pyrotech/core.OreDict-Generated.json
-config/pyrotech/module.tech.Bloomery.Slag-Generated.json
 mods/effortlessbuilding-1.12.2-2.16.jar
 mods/JEIHider-1.1c.jar
 mods/Mapmaker's+Gadgets-1.2_for_1.12.x.jar
@@ -75,3 +57,7 @@ config/TwitchSpawn/rules.calamarigold.tsl
 mods/.DS_Store
 
 config/jei/bookmarks.ini
+
+config/fantasticlib/reference/*.txt
+config/multimob/modInformation/*.txt
+config/pyrotech/*-Generated.json
