@@ -11,8 +11,8 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Refractory Tank", "triumph:player_crafted_item")
-criteria.setItem(<pyrotech:tank:1>)
+criteria = addCriteria("Craft Refractory Tank", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:tank:1>)
 
 // fix somehow item data = <pyrotech:tank:1>
 // addCriteria("impossible", "minecraft:impossible")

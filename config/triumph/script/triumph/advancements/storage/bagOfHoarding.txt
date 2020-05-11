@@ -5,13 +5,13 @@ setDescription("Craft a Bag of Hoarding.")
 addParent("triumph:advancements/storage/enderChest")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
-setShowToast(false)
+setShowToast(true)
 
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Bag Of Hoarding", "triumph:player_crafted_item")
-criteria.setItem("dungeontactics:bagofhoarding")
+criteria = addCriteria("Craft Bag Of Hoarding", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:bagofhoarding")
 
 // hideLines()
 setHidden(false)

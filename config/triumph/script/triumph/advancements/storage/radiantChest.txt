@@ -10,8 +10,8 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Radiant Chest", "triumph:player_crafted_item")
-criteria.setItem("arcanearchives:radiant_chest")
+criteria = addCriteria("Craft Radiant Chest", "minecraft:inventory_changed")
+criteria.addItem("arcanearchives:radiant_chest")
 
 // hideLines()
 // setHidden(true)

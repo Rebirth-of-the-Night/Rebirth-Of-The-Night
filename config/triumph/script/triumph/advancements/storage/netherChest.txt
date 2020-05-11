@@ -11,8 +11,8 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Nether Chest", "triumph:player_crafted_item")
-criteria.setItem("netherchest:nether_chest")
+criteria = addCriteria("Craft Nether Chest", "minecraft:inventory_changed")
+criteria.addItem("netherchest:nether_chest")
 
 // hideLines()
 // setHidden(true)

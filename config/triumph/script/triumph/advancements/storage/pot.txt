@@ -7,13 +7,13 @@ addParent("triumph:advancements/storage/chest")
 addParent("triumph:advancements/storage/quarkchest")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
-setShowToast(false)
+setShowToast(true)
 
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft pot", "triumph:player_crafted_item")
-criteria.setItem("rustic:vase")
+criteria = addCriteria("Craft pot", "minecraft:inventory_changed")
+criteria.addItem("rustic:vase")
 
 // hideLines()
 // setHidden(true)
