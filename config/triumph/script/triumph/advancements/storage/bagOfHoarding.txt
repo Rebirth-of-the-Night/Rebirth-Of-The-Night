@@ -14,5 +14,5 @@ criteria = addCriteria("Craft Bag Of Hoarding", "minecraft:inventory_changed")
 criteria.addItem("dungeontactics:bagofhoarding")
 
 // hideLines()
-setHidden(false)
+alwaysVisible()
 setPos(-483,-69)

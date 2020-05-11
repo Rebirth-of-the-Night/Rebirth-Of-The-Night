@@ -16,6 +16,5 @@ criteria = addCriteria("Craft rustic_barrel", "minecraft:inventory_changed")
 criteria.addItem("rustic:barrel")
 
 // hideLines()
-visibleIf("triumph:advancements/storage/chest")
-visibleIf("triumph:advancements/storage/quarkchest")
+alwaysVisible()
 setPos(-613,22)

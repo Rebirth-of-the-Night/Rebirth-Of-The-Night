@@ -15,4 +15,5 @@ criteria.addItem("arcanearchives:material_interface")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-359,-121)

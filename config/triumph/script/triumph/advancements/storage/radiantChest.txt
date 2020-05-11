@@ -15,4 +15,5 @@ criteria.addItem("arcanearchives:radiant_chest")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-515,-146)

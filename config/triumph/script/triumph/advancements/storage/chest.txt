@@ -11,8 +11,8 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 criteria = addCriteria("Craft Chest", "minecraft:inventory_changed")
-criteria.addItem(<charset:chestWood>)
+criteria.addItem(<ore:chestWood>)
 
 hideLines()
-setHidden(false)
+alwaysVisible()
 setPos(-588,-121)

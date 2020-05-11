@@ -16,4 +16,5 @@ criteria.addItem("netherchest:nether_chest")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-552,-146)

@@ -15,4 +15,5 @@ criteria.addItem("minecraft:purple_shulker_box")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-479,-97)

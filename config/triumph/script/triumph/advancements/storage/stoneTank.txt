@@ -16,4 +16,5 @@ criteria.addItem("pyrotech:tank")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-515,-32)

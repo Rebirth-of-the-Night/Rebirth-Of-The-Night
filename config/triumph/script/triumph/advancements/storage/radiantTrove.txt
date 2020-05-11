@@ -15,4 +15,5 @@ criteria.addItem("arcanearchives:radiant_trove")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-479,-146)

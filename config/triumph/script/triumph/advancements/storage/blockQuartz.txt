@@ -16,4 +16,5 @@ criteria.addItem("arcanearchives:storage_shaped_quartz")
 
 // hideLines()
 // setHidden()
+alwaysVisible()
 setPos(-322,-86)

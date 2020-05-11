@@ -17,4 +17,5 @@ criteria.addItem("quark:backpack")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-552,-97)

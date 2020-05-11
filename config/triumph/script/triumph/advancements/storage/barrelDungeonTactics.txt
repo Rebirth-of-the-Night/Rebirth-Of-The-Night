@@ -17,6 +17,5 @@ criteria.addItem("dungeontactics:barrel")
 
 // hideLines()
 // setHidden(true)
-visibleIf("triumph:advancements/storage/chest")
-visibleIf("triumph:advancements/storage/quarkchest")
+alwaysVisible()
 setPos(-534,22)

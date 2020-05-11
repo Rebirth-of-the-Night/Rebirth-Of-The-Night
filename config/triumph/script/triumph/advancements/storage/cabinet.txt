@@ -16,6 +16,5 @@ criteria.addItem("rustic:cabinet")
 
 // hideLines()
 // setHidden(true)
-visibleIf("triumph:advancements/storage/chest")
-visibleIf("triumph:advancements/storage/quarkchest")
+alwaysVisible()
 setPos(-573,-189)

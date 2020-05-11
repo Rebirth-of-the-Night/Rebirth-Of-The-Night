@@ -14,5 +14,5 @@ criteria = addCriteria("Craft Matrix Brace", "minecraft:inventory_changed")
 criteria.addItem("arcanearchives:matrix_brace")
 
 hideLines()
-visibleIf("triumph:advancements/storage/radiantchest")
+alwaysVisible()
 setPos(-393,-121)

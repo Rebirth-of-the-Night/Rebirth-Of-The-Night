@@ -15,4 +15,5 @@ criteria.addItem("minecraft:ender_chest")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-515,-97)

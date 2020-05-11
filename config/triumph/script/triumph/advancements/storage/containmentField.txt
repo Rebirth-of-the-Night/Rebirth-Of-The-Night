@@ -15,4 +15,5 @@ criteria.addItem("arcanearchives:containment_field")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-359,-86)

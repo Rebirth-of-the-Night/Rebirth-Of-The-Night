@@ -17,4 +17,5 @@ criteria.addItem("rustic:liquid_barrel")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-552,-32)
