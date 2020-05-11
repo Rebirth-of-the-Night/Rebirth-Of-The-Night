@@ -11,6 +11,7 @@ mods.jei.JEI.removeAndHide(<advancedliftingmethods:advanced_rotor>);
 mods.jei.JEI.removeAndHide(<advancedliftingmethods:ultimate_rotor>);
 recipes.remove(<advancedliftingmethods:blowing_elevator>);
 recipes.remove(<advancedliftingmethods:ultimate_ender_elevator>);
+recipes.remove(<advancedliftingmethods:powered_ladder>);
 
 mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_oak_stairs>);
 mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_cobblestone_stairs>);
