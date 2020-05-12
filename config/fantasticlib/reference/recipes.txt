@@ -347,30 +347,8 @@ minecraft:acacia_fence_gate
 minecraft:acacia_fence
 minecraft:acacia_door
 minecraft:acacia_boat
-advancedliftingmethods:tile.double_oak_stairs
-advancedliftingmethods:tile.double_cobblestone_stairs
-advancedliftingmethods:tile.double_brick_stairs
-advancedliftingmethods:tile.double_stone_brick_stairs
-advancedliftingmethods:tile.double_nether_brick_stairs
-advancedliftingmethods:tile.double_sandstone_stairs
-advancedliftingmethods:tile.double_spruce_stairs
-advancedliftingmethods:tile.double_birch_stairs
-advancedliftingmethods:tile.double_jungle_stairs
-advancedliftingmethods:tile.double_quartz_stairs
-advancedliftingmethods:tile.double_acacia_stairs
-advancedliftingmethods:tile.double_dark_oak_stairs
-advancedliftingmethods:tile.double_red_sandstone_stairs
-advancedliftingmethods:tile.double_purpur_stairs
 advancedliftingmethods:item.powered_ladder
 advancedliftingmethods:item.rotor
-advancedliftingmethods:item.advanced_rotor
-advancedliftingmethods:item.ultimate_rotor
-advancedliftingmethods:tile.blowing_elevator
-advancedliftingmethods:tile.advanced_blowing_elevator
-advancedliftingmethods:tile.ultimate_blowing_elevator
-advancedliftingmethods:tile.ender_elevator
-advancedliftingmethods:tile.advanced_ender_elevator
-advancedliftingmethods:tile.ultimate_ender_elevator
 biomesoplenty:biome_essence
 rusticbopwoods:sacred_oak_chair
 rusticbopwoods:cherry_chair
@@ -1974,7 +1952,7 @@ animania:banner_alt
 animania:banner
 animania:bacon_omelette
 animania:animania_manual
-sereneseasons:greenhouse_glass
+charset:storage/chests/chest
 betterwithmods:web
 betterwithmods:saddle_recipe
 betterwithmods:piles/sand_1
@@ -2317,8 +2295,8 @@ dungeontactics:misc/books/dungeonpedia_volume_3
 dungeontactics:misc/books/dungeonpedia_volume_2
 dungeontactics:misc/books/dungeonpedia_volume_1
 dungeontactics:misc/barrel
-dungeontactics:armour/flight_goggles
 dungeontactics:armour/bounce_boots
+sereneseasons:greenhouse_glass
 endreborn:tools/ender_bow
 endreborn:items/item_ingot_endorium_2
 endreborn:items/item_ingot_endorium_1
@@ -2342,7 +2320,6 @@ endreborn:armors/armour_chestplate_obsidian
 endreborn:armors/armour_boots_obsidian
 extendeddays:pocket_watch
 golems:golem_head_recipe
-fairylights:stepladder
 fairylights:letter_bunting
 mod_lavacow:vespa_dagger
 mod_lavacow:piranhalauncher
@@ -2692,7 +2669,6 @@ minetraps:toxic_mine
 minetraps:spikes_toxic
 minetraps:spikes
 minetraps:razor_wire
-minetraps:nail_trap
 minetraps:explosive_mine
 minetraps:chest_bomb
 minetraps:bear_trap
@@ -4080,6 +4056,73 @@ quark:stained_planks_31
 quark:world_stone_pavement
 quark:world_stone_pavement_1
 quark:world_stone_pavement_2
+quark:slabs_to_stairs
+quark:stairs_to_blocks
+quark:wool
+quark:wool_1
+quark:quilted_wool_16
+quark:quilted_wool_17
+quark:wool_2
+quark:wool_3
+quark:quilted_wool_18
+quark:quilted_wool_19
+quark:wool_4
+quark:wool_5
+quark:quilted_wool_20
+quark:quilted_wool_21
+quark:wool_6
+quark:wool_7
+quark:quilted_wool_22
+quark:quilted_wool_23
+quark:wool_8
+quark:wool_9
+quark:quilted_wool_24
+quark:quilted_wool_25
+quark:wool_10
+quark:wool_11
+quark:quilted_wool_26
+quark:quilted_wool_27
+quark:wool_12
+quark:wool_13
+quark:quilted_wool_28
+quark:quilted_wool_29
+quark:wool_14
+quark:wool_15
+quark:quilted_wool_30
+quark:quilted_wool_31
+quark:wool_16
+quark:wool_17
+quark:quilted_wool_32
+quark:quilted_wool_33
+quark:wool_18
+quark:wool_19
+quark:quilted_wool_34
+quark:quilted_wool_35
+quark:wool_20
+quark:wool_21
+quark:quilted_wool_36
+quark:quilted_wool_37
+quark:wool_22
+quark:wool_23
+quark:quilted_wool_38
+quark:quilted_wool_39
+quark:wool_24
+quark:wool_25
+quark:quilted_wool_40
+quark:quilted_wool_41
+quark:wool_26
+quark:wool_27
+quark:quilted_wool_42
+quark:quilted_wool_43
+quark:wool_28
+quark:wool_29
+quark:quilted_wool_44
+quark:quilted_wool_45
+quark:wool_30
+quark:wool_31
+quark:quilted_wool_46
+quark:quilted_wool_47
+quark:pickarang
 doggytalents:dog_bed
 doggytalents:collar_colouring
 doggytalents:cape_colouring
@@ -4391,6 +4434,7 @@ spartanshields:shield_banner_electrum
 spartanshields:shield_banner_nickel
 spartanshields:shield_banner_lead
 spartanshields:shield_banner_constantan
+charset:replace_chest
 charm:gunpowder_block
 charm:gunpowder
 charm:redstone_sand
@@ -4662,12 +4706,6 @@ crafttweaker:bronze to nugget
 crafttweaker:copper tin mixture
 crafttweaker:copper_tin_mixture_return
 crafttweaker:grave scroll 2
-crafttweaker:climbing_gloves
-crafttweaker:immersive_carbon_paper
-crafttweaker:immersive_prospector
-crafttweaker:merchant_almanac
-crafttweaker:codex anchor
-crafttweaker:dice
 crafttweaker:air balloon
 crafttweaker:air balloon 2
 crafttweaker:air balloon 3
@@ -4758,6 +4796,7 @@ crafttweaker:tiny bone
 crafttweaker:spotted_collar
 crafttweaker:multicolored_collar>
 crafttweaker:rocket_pants
+crafttweaker:flight_googles
 crafttweaker:fan
 crafttweaker:iron ring
 crafttweaker:portable tunneling device
@@ -4888,7 +4927,8 @@ crafttweaker:mediumglare
 crafttweaker:mediumstarglare
 crafttweaker:largeglare
 crafttweaker:epicureanverylargeglare
-crafttweaker:golemspell
+crafttweaker:golemspell 1
+crafttweaker:golemspell 2
 crafttweaker:grapplehook
 crafttweaker:grappleropeupgrade
 crafttweaker:shipping_bin
@@ -4908,6 +4948,7 @@ crafttweaker:bakeware
 crafttweaker:harvestcraft_yogurt
 crafttweaker:water_well
 crafttweaker:food_presser
+crafttweaker:palmseed_cookingoil
 crafttweaker:fire dragonsteel sword
 crafttweaker:ice dragonsteel sword
 crafttweaker:fire dragonsteel axe
@@ -5158,10 +5199,10 @@ crafttweaker:ct_shapeless1587275660
 crafttweaker:ct_shapeless-1729359533
 crafttweaker:ct_shaped-838815585
 crafttweaker:ct_shaped878176044
-crafttweaker:ct_shaped170354842
-crafttweaker:ct_shaped1121980610
-crafttweaker:ct_shaped-953755225
-crafttweaker:ct_shaped-1620063818
+crafttweaker:ct_shaped794158770
+crafttweaker:ct_shaped1396214950
+crafttweaker:ct_shaped-188970523
+crafttweaker:ct_shaped1193744682
 crafttweaker:ct_shaped-24416315
 crafttweaker:ct_shapeless-380210910
 crafttweaker:ct_shapeless726181090
@@ -5196,6 +5237,22 @@ crafttweaker:ct_shaped2030645216
 crafttweaker:ct_shaped-1775113464
 crafttweaker:ct_shaped-887493074
 crafttweaker:ct_shaped-526985344
+crafttweaker:ct_shaped-887493074
+crafttweaker:ct_shaped-1775113464
+crafttweaker:ct_shaped2030645216
+crafttweaker:ct_shaped-429399637
+crafttweaker:ct_shaped-175785813
+crafttweaker:ct_shaped172676971
+crafttweaker:ct_shaped1773554783
+crafttweaker:ct_shaped-1454344494
+crafttweaker:ct_shaped-1676644831
+crafttweaker:ct_shaped-1362619620
+crafttweaker:ct_shaped-2039343681
+crafttweaker:ct_shaped-178117058
+crafttweaker:ct_shaped-1051154448
+crafttweaker:ct_shaped718105537
+crafttweaker:ct_shaped-74385358
+crafttweaker:ct_shaped2144362743
 crafttweaker:ct_shapeless2009759794
 crafttweaker:ct_shapeless1956860146
 crafttweaker:ct_shapeless157134308
@@ -5365,6 +5422,7 @@ crafttweaker:giant sword
 crafttweaker:nails
 crafttweaker:nails 2
 crafttweaker:nails 3
+crafttweaker:nail trap
 crafttweaker:encased_castle_brick_tile
 crafttweaker:bold_castle_brick_tiles
 crafttweaker:spiral_stone_bricks
@@ -5394,7 +5452,8 @@ crafttweaker:ct_shaped-1620450667
 crafttweaker:forgiving tool reforging station
 crafttweaker:gravel_to_flint
 crafttweaker:popped_chorus_fruit
-crafttweaker:enchanted paper
+crafttweaker:enchanted paper 1
+crafttweaker:enchanted paper 2
 betterwithmods:torch
 betterwithmods:baiting_recipe
 betterwithmods:siding_rock

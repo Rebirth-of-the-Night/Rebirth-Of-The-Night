@@ -425,11 +425,6 @@ animania:milk_jersey
 animania:milk_goat
 animania:milk_sheep
 animania:honey
-sereneseasons:greenhouse_glass
-sereneseasons:season_sensor_spring
-sereneseasons:season_sensor_summer
-sereneseasons:season_sensor_autumn
-sereneseasons:season_sensor_winter
 betternether:block_eyeball
 betternether:block_eyeball_small
 betternether:eye_vine
@@ -532,6 +527,11 @@ betternether:bone_cincinnasite_door
 betternether:quartz_stained_glass_framed
 betternether:stalagnate_bowl_placed
 betternether:chest_of_drawers
+sereneseasons:greenhouse_glass
+sereneseasons:season_sensor_spring
+sereneseasons:season_sensor_summer
+sereneseasons:season_sensor_autumn
+sereneseasons:season_sensor_winter
 grapplemod:block_grapple_modifier
 minetraps:barbed_wire
 minetraps:razor_wire
@@ -1359,6 +1359,9 @@ quark:polished_netherrack_bricks_slab
 quark:polished_netherrack_bricks_slab_double
 quark:polished_netherrack_bricks_wall
 quark:quilted_wool
+quark:glowstone_dust_block
+quark:gunpowder_block
+quark:black_ash
 betterwithaddons:banner_detector
 betterwithaddons:world_scale
 betterwithaddons:world_scale_ore
@@ -2366,6 +2369,7 @@ animania:salt_lick
 animania:wool
 animania:block_hive
 animania:block_wild_hive
+charset:chest
 bountiful:bountyboard
 charm:gunpowder_block
 charm:redstone_sand
@@ -2383,12 +2387,14 @@ contenttweaker:copper_molten
 contenttweaker:charcoal_pile
 contenttweaker:farlanderamethystbrick
 contenttweaker:lunarinsteelbrick
+contenttweaker:farlanderdiamondbrick
 contenttweaker:starblock
 contenttweaker:lunarinbronzebrick
 contenttweaker:lunarinknightbrick
 contenttweaker:tin_molten
 contenttweaker:bronze_molten
 contenttweaker:witheredblock
+contenttweaker:elevator
 contenttweaker:halite
 contenttweaker:sub_block_holder_0
 contenttweaker:lunarinheartbrick

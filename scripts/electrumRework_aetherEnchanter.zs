@@ -485,9 +485,10 @@ mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:dawn_star>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:silver_sword>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:eye_end_blade>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 32200);
-mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:steel_sword:*>, 28800);
+mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:steel_sword>, 28800);
 
 
 //Special
 mods.aether_legacy.Enchanter.registerEnchantment(<quark:pickarang>, 7700);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanshields:shield_basic_diamond>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<grapplemod:grapplinghook>, 9600);

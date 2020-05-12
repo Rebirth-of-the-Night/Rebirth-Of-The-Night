@@ -255,6 +255,8 @@ arcanearchives:weight
 quark:gravisand
 quark:seat
 quark:chest_passenger
+quark:gravisand
+quark:seat
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -439,10 +441,6 @@ twilightforest:cube_of_annihilation
 twilightforest:slider
 twilightforest:boggard
 twilightforest:rising_zombie
-cyclicmagic:lightningbolt
-cyclicmagic:magicnetfull
-cyclicmagic:magicnetempty
-cyclicmagic:magic_missile
 dynamictrees:falling_tree
 dynamictreesbop:maple_seed
 dynamictreesbop:magic_seed

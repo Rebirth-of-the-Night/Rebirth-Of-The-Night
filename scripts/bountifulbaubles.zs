@@ -185,7 +185,7 @@ recipes.remove(<bountifulbaubles:trinketbrokenheart>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketbrokenheart>,[
 [<scalinghealth:heartcontainer>, <contenttweaker:soul_rune>.anyDamage().transformDamage(), <scalinghealth:heartcontainer>],
-[<bountifulbaubles:spectralsilt>, <twilightforest:charm_of_life_2>, <bountifulbaubles:spectralsilt>], 
+[<twilightforest:charm_of_life_2>, <twilightforest:block_storage:4>, <twilightforest:charm_of_life_2>], 
 [<scalinghealth:heartcontainer>, <contenttweaker:life_rune>.anyDamage().transformDamage(), <scalinghealth:heartcontainer>]], 64);
    
 // Bezoar
@@ -246,9 +246,9 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletcross>,[
 recipes.remove(<bountifulbaubles:trinketluckyhorseshoe>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketluckyhorseshoe>,[
-[<minecraft:gold_ingot>, null, <minecraft:gold_ingot>],
-[<minecraft:gold_ingot>, <contenttweaker:aether_rune>.anyDamage().transformDamage(), <minecraft:gold_ingot>], 
-[<bountifulbaubles:spectralsilt>, <aether_legacy:enchanted_gravitite>, <bountifulbaubles:spectralsilt>]], 32);
+[<endreborn:item_end_shard>, null, <endreborn:item_end_shard>],
+[<ore:ingotElectrum>, <contenttweaker:aether_rune>.anyDamage().transformDamage(), <ore:ingotElectrum>], 
+[<ore:ingotElectrum>, <aether_legacy:enchanted_gravitite>, <ore:ingotElectrum>]], 32);
 
 
 /////// non-baubles (is this legal? I will make it legal.)
@@ -258,7 +258,7 @@ recipes.remove(<rats:plague_doctorate>);
 mods.betterwithaddons.Infuser.addShaped(<rats:plague_doctorate>,[
 [<rats:plague_essence>, null, <rats:contaminated_food>],
 [<contenttweaker:plague_rune>.anyDamage().transformDamage(), <wards:enchanted_paper>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage()], 
-[<rats:contaminated_food>, <aether_legacy:enchanted_gravitite>, <rats:plague_essence>]], 8);
+[<rats:contaminated_food>, null, <rats:plague_essence>]], 8);
 
 
 

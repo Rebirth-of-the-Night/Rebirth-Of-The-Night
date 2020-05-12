@@ -4,15 +4,18 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.data.IData;
+import crafttweaker.item.WeightedItemStack;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityDefinition;
 
 //vanilla
 val irongolem = LootTables.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
-<entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,5);
+<entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3);
 <entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,5);
 
-// attempt to fix godswords
+// double security for godswords... you know... I have trust issues after those rough few patches
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:dawn_star");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:vampiric_blade");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:gladiolus");
@@ -30,6 +33,22 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_keyblade");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_molten");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
+
+
+//QoL drops
+//ghast tears
+<entity:minecraft:ghast>.addPlayerOnlyDrop(<minecraft:ghast_tear> % 80, 1, 2);
+
+//skulls used for crafting
+<entity:iceandfire:if_troll>.addPlayerOnlyDrop(<iceandfire:troll_skull>);
+<entity:iceandfire:cyclops>.addPlayerOnlyDrop(<iceandfire:cyclops_skull>);
+
+//skydrake
+<entity:mowziesmobs:naga>.addPlayerOnlyDrop(<mowziesmobs:naga_fang>);
+
+
+
+
 
 // aether
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");

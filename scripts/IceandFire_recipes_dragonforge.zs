@@ -17,3 +17,9 @@ mods.iceandfire.recipes.addIceDragonForgeRecipe
 	
 //golden apple
 mods.iceandfire.recipes.addFireDragonForgeRecipe(<minecraft:apple>, <minecraft:milk_bucket>, <minecraft:golden_apple>);
+
+//Ender Elevator
+mods.iceandfire.recipes.addFireDragonForgeRecipe
+	(<contenttweaker:elevator>,<netherex:rime_block>,<advancedliftingmethods:ultimate_ender_elevator>); 
+mods.iceandfire.recipes.addIceDragonForgeRecipe
+	(<contenttweaker:elevator>,<quark:blaze_lantern>,<advancedliftingmethods:ultimate_ender_elevator>);

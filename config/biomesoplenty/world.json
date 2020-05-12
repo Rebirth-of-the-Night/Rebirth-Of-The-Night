@@ -15,7 +15,7 @@
     "generateBopMushrooms": true,
     "generateRockFormations": true,
     "generatePoisonIvy": false,
-    "generateBerryBushes": false,
+    "generateBerryBushes": true,
     "generateThorns": true,
     "generateQuicksand": true,
     "generateLiquidPoison": true,

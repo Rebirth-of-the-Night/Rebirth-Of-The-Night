@@ -98,9 +98,7 @@
           "cmod": "inventory",
 
           "inv_head": "betterwithmods:leather_tanned_helmet",
-          "inv_chest": "minecraft:leather_chestplate",
-          "inv_legs": "minecraft:leather_leggings",
-          "inv_feet": "minecraft:leather_boots"
+          "inv_chest": "minecraft:leather_chestplate"
         }
       ]
     },
@@ -111,9 +109,7 @@
           "cmod": "inventory",
 
           "inv_head": "minecraft:iron_helmet",
-          "inv_chest": "minecraft:chainmail_chestplate",
-          "inv_legs": "minecraft:chainmail_leggings",
-          "inv_feet": "minecraft:chainmail_boots"
+          "inv_chest": "minecraft:chainmail_chestplate"
         }
       ]
     },
@@ -123,10 +119,8 @@
         {
           "cmod": "inventory",
 
-          "inv_head": "iceandfire:armor_silver_metal_helmet",
-          "inv_chest": "minecraft:iron_chestplate",
-          "inv_legs": "minecraft:iron_leggings",
-          "inv_feet": "minecraft:iron_boots"
+          "inv_head": "minecraft:iron_helmet",
+          "inv_chest": "minecraft:iron_chestplate"
         }
       ]
     },
@@ -138,9 +132,7 @@
 
           "inv_hand_off": "spartanshields:shield_basic_iron",
           "inv_head": "iceandfire:armor_silver_metal_helmet",
-          "inv_chest": "minecraft:iron_chestplate",
-          "inv_legs": "minecraft:iron_leggings",
-          "inv_feet": "minecraft:iron_boots"
+          "inv_chest": "minecraft:iron_chestplate"
         }
       ]
     },
@@ -151,9 +143,7 @@
           "cmod": "inventory",
 
           "inv_head": "atop:mud_helmet",
-          "inv_chest": "atop:mud_chestplate",
-          "inv_legs": "atop:mud_leggings",
-          "inv_feet": "atop:mud_boots"
+          "inv_chest": "atop:mud_chestplate"
         }
       ]
     },
@@ -178,9 +168,7 @@
           "cmod": "inventory",
 
           "inv_head": "minecraft:diamond_helmet",
-          "inv_chest": "iceandfire:armor_silver_metal_chestplate",
-          "inv_legs": "iceandfire:armor_silver_metal_leggings",
-          "inv_feet": "iceandfire:armor_silver_metal_boots"
+          "inv_chest": "iceandfire:armor_silver_metal_chestplate"
         }
       ]
     },
@@ -192,9 +180,7 @@
 
           "inv_hand_off": "spartanshields:shield_basic_silver",
           "inv_head": "minecraft:diamond_helmet",
-          "inv_chest": "iceandfire:armor_silver_metal_chestplate",
-          "inv_legs": "iceandfire:armor_silver_metal_leggings",
-          "inv_feet": "iceandfire:armor_silver_metal_boots"
+          "inv_chest": "iceandfire:armor_silver_metal_chestplate"
         }
       ]
     },
@@ -206,9 +192,7 @@
 
 
           "inv_head": "endreborn:armour_helmet_helmet",
-          "inv_chest": "minecraft:diamond_chestplate",
-          "inv_legs": "minecraft:diamond_leggings",
-          "inv_feet": "minecraft:diamond_boots"
+          "inv_chest": "minecraft:diamond_chestplate"
         }
       ]
     },
@@ -220,9 +204,7 @@
 
           "inv_hand_off": "spartanshields:shield_basic_diamond",
           "inv_head": "endreborn:armour_helmet_helmet",
-          "inv_chest": "minecraft:diamond_chestplate",
-          "inv_legs": "minecraft:diamond_leggings",
-          "inv_feet": "minecraft:diamond_boots"
+          "inv_chest": "minecraft:diamond_chestplate"
         }
       ]
     },
@@ -234,9 +216,7 @@
 
 
           "inv_head": "simpleores:onyx_helmet",
-          "inv_chest": "simpleores:mythril_chestplate",
-          "inv_legs": "simpleores:mythril_leggings",
-          "inv_feet": "simpleores:mythril_boots"
+          "inv_chest": "simpleores:mythril_chestplate"
         }
       ]
     },
@@ -248,9 +228,7 @@
 
           "inv_hand_off": "spartanshields:shield_basic_lead",
           "inv_head": "simpleores:onyx_helmet",
-          "inv_chest": "simpleores:mythril_chestplate",
-          "inv_legs": "simpleores:mythril_leggings",
-          "inv_feet": "simpleores:mythril_boots"
+          "inv_chest": "simpleores:mythril_chestplate"
         }
       ]
     },
@@ -262,9 +240,7 @@
 
 
           "inv_head": "simpleores:mythril_helmet",
-          "inv_chest": "simpleores:adamantium_chestplate",
-          "inv_legs": "simpleores:adamantium_leggings",
-          "inv_feet": "simpleores:adamantium_boots"
+          "inv_chest": "simpleores:adamantium_chestplate"
         }
       ]
     },
@@ -276,9 +252,7 @@
 
           "inv_hand_off": "spartanshields:shield_basic_lead",
           "inv_head": "simpleores:mythril_helmet",
-          "inv_chest": "simpleores:adamantium_chestplate",
-          "inv_legs": "simpleores:adamantium_leggings",
-          "inv_feet": "simpleores:adamantium_boots"
+          "inv_chest": "simpleores:adamantium_chestplate"
         }
       ]
     },
@@ -290,9 +264,7 @@
 
 
           "inv_head": "iceandfire:dragonsteel_fire_helmet",
-          "inv_chest": "simpleores:onyx_chestplate",
-          "inv_legs": "simpleores:onyx_leggings",
-          "inv_feet": "simpleores:onyx_boots"
+          "inv_chest": "simpleores:onyx_chestplate"
         }
       ]
     },
@@ -305,8 +277,6 @@
           "inv_hand_off": "spartanshields:shield_basic_lead",
           "inv_head": "iceandfire:dragonsteel_fire_helmet",
           "inv_chest": "simpleores:onyx_chestplate",
-          "inv_legs": "simpleores:onyx_leggings",
-          "inv_feet": "simpleores:onyx_boots"
         }
       ]
     }

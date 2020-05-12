@@ -10,9 +10,10 @@ setShowToast(true)
 //Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-criteria = addCriteria("Craft Ender Chest", "triumph:player_crafted_item")
-criteria.setItem("minecraft:ender_chest")
+criteria = addCriteria("Craft Ender Chest", "minecraft:inventory_changed")
+criteria.addItem("minecraft:ender_chest")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-515,-97)

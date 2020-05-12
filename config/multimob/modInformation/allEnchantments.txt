@@ -151,4 +151,3 @@ charm:clumsiness_curse
 charm:haunting_curse
 charm:harming_curse
 charm:magnetic
-cyclicmagic:enchantment.launch

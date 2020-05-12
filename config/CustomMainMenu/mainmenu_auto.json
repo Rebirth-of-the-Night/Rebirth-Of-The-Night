@@ -54,26 +54,74 @@
             }
         },	
 
+        "optifineRequired":
+        {
+            "text" : "Required!",
+            "normalTextColor" : 16711680,
+            "hoverTextColor" : 16711680,
+			"texture" : "rotn:textures/btn.png",
+            "posX" : -100,
+            "posY" : 10,
+            "width" : 100,
+            "height" : 20,
+			"imageWidth" : 0,
+			"imageHeight" : 0,
+			"alignment" : "top_right"
+        },
+
+        "musicRecommended":
+        {
+            "text" : "Recommended!",
+            "normalTextColor" : 65280,
+            "hoverTextColor" : 65280,
+			"texture" : "rotn:textures/btn.png",
+            "posX" : -100,
+            "posY" : 37,
+            "width" : 100,
+            "height" : 20,
+			"imageWidth" : 0,
+			"imageHeight" : 0,
+			"alignment" : "top_right"
+        },
+
         "optifine":
         {
-            "text" : "Download OptiFine",
+            "text" : "Install OptiFine",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 0,
+            "posY" : -2,
             "width" : 100,
-            "height" : 20,
+            "height" : 27,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"alignment" : "top_right",
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_F5.jar"
+                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Installation#Installing_OptiFine_.28required.21.29"
             }
         },
-
+        "music":
+        {
+            "text" : "Install Custom Music",
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
+            "texture" : "rotn:textures/btn.png",
+            "posX" : -100,
+            "posY" : 25,
+            "width" : 100,
+            "height" : 27,
+            "imageWidth" : 100,
+            "imageHeight" : 50,
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Installation#Installing_Custom_Music_.28recommended.29"
+            }
+        },
         "discord":
         {
             "text" : "Join The Discord",
@@ -81,7 +129,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 20,
+            "posY" : 60,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -100,7 +148,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 40,
+            "posY" : 80,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -119,7 +167,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 60,
+            "posY" : 100,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
@@ -138,7 +186,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 80,
+            "posY" : 120,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
@@ -292,7 +340,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.78",
+            "text": "Version 2.77.2",
             "posX": 2,
             "posY": -10,
             "color": 450,
@@ -304,8 +352,8 @@
     {
         "splash-text":
         {
-            "posX" : 50,
-            "posY" : 60,
+            "posX" : 0,
+            "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:minecraft:texts/splashes.txt"

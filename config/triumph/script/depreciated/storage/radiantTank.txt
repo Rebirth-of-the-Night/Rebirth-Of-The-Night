@@ -16,4 +16,5 @@ criteria.addItem("arcanearchives:radiant_tank")
 
 // hideLines()
 // setHidden(true)
+alwaysVisible()
 setPos(-437,-32)
