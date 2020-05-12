@@ -1,0 +1,19 @@
+setIcon(<arcanearchives:radiant_trove>)
+setTitle("Radiant Trove")
+setDescription("Craft a radiant trove.")
+
+addParent("triumph:advancements/storage/radiantchest")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Radiant Trove", "minecraft:inventory_changed")
+criteria.addItem("arcanearchives:radiant_trove")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-479,-146)

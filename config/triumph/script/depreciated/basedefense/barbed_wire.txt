@@ -1,0 +1,11 @@
+setIcon(<minetraps:barbed_wire>)
+setTitle("Barbed Wire")
+setDescription("Slows and minimally damages mobs.")
+
+addParent("triumph:advancements/basedefense/spikes")
+
+criteria = addCriteria("Barbed Wire", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:barbed_wire>)
+
+alwaysVisible()
+setPos(-141,0)

@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:trap_clamp>)
+setTitle("Clamp Trap")
+setDescription("Holds a mob in place for a few seconds and damages them. Requires a Wrench to reset")
+
+addParent("triumph:advancements/basedefense/wrench")
+
+criteria = addCriteria("Clamp Trap", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_clamp>)
+
+alwaysVisible()
+setPos(-259,51)

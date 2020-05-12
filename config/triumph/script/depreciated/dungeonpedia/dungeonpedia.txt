@@ -1,0 +1,18 @@
+setIcon(<dungeontactics:dungeonpedia_volume_1>)
+setTitle("Dungeonpedia")
+setDescription("Get a Bestiary to learn information and tips for the aspiring Dungeoneer")
+
+addParent("triumph:advancements/guides/root")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:dungeonpedia_volume_1")
+
+hideLines()
+alwaysVisible()
+setPos(20,15)

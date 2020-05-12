@@ -1,0 +1,19 @@
+setIcon(<arcanearchives:containment_field>)
+setTitle("Tank Upgrade #2")
+setDescription("Craft a containment field.")
+
+addParent("triumph:advancements/storage/matrixBrace")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Containment Field", "minecraft:inventory_changed")
+criteria.addItem("arcanearchives:containment_field")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-359,-86)

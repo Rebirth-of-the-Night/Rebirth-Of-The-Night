@@ -1,0 +1,11 @@
+setIcon(<minetraps:nail_trap>)
+setTitle("Nail Trap")
+setDescription("Kills mobs faster than Caltrops.")
+
+addParent("triumph:advancements/basedefense/nails")
+
+criteria = addCriteria("Nail Trap", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:nail_trap>)
+
+alwaysVisible()
+setPos(-221,0)

@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:caltrops_poison>)
+setTitle("Poisoned Caltrops")
+setDescription("A simple upgrade to Caltrops.")
+
+addParent("triumph:advancements/basedefense/caltrops")
+
+criteria = addCriteria("Caltrops", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:caltrops_poison>)
+
+alwaysVisible()
+setPos(-279,-33)
