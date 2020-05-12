@@ -88,6 +88,15 @@ Dropt.list("Well_Worth")
       )	
   );
   
+Dropt.list("decayed_scaffolding")	
+
+  .add(Dropt.rule()	
+      .matchBlocks(["cyclicmagic:block_fragile"])	
+      .matchDrops([<cyclicmagic:block_fragile>])	
+      .replaceStrategy("REPLACE_ITEMS")	
+      .addDrop(Dropt.drop())	
+  );
+  
 Dropt.list("clovers")
 
   .add(Dropt.rule()

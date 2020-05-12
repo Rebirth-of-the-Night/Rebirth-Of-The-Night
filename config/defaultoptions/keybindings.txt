@@ -118,3 +118,9 @@ key_key.trashslot.toggle:0
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
 key_Profile GUI:0
+key_key.keyExtraCraftin:0
+key_key.keyExtraInvo:0
+key_key.toolbelt.open:41
+key_key.toolbelt.cycle.left:0
+key_key.toolbelt.cycle.right:0
+key_key.toolbelt.slot:0
