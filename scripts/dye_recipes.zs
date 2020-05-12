@@ -147,7 +147,7 @@ recipes.addShapeless("green_from_lime",<biomesoplenty:green_dye>*2,
 recipes.addShapeless("cyan_dye",<minecraft:dye:6>*2,
  [<ore:dyeGreen>,<ore:dyeBlue>]);
 recipes.addShapeless("lime_from_green",<minecraft:dye:10>*2,
- [<ore:dyeGreen>,<ore:dyeBlack>]);
+ [<ore:dyeGreen>,<ore:dyeWhite>]);
 recipes.addShapeless("purple_dye",<minecraft:dye:5>*2,
  [<ore:dyeRed>,<ore:dyeBlue>]);
 recipes.addShapeless("magenta_dye",<minecraft:dye:13>*2,
