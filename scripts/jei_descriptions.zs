@@ -90,6 +90,9 @@ mods.jei.JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this
 mods.jei.JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
 mods.jei.JEI.addDescription(<pyrotech:flint_and_tinder>,"Made with common materials. Can light a kiln if held down, but it is rather fragile. Not as convenient as a flint and steel.");
 
+mods.jei.JEI.addDescription(<toolbelt:belt>,"A rudimentary belt crafted using leather straps and durable fibers. A convenient way of holding many tools for quick access on one's person. Once you put on the belt, hold GRAVE to access the pouches and add or remove items. Holds two tools by default, and every Belt Pouch you attach in an Anvil allows it to hold one more, up to nine.");
+mods.jei.JEI.addDescription(<toolbelt:pouch>,"Attch these to a Tool Belt in an Anvil to allow your Tool Belt to hold more tools. Every  Belt Pouch you attach allows it to hold one more tool, up to nine.");
+
 mods.jei.JEI.addDescription(<dungeontactics:high_striker>,"Seemingly possesed by a playful spirit. Launches targets high into the sky.");
 mods.jei.JEI.addDescription(<dungeontactics:wackerjab>,"Maybe made by a mad god or maybe by a force of pure entropy. The Wackerjab can turn the target into anything, at random.");
 mods.jei.JEI.addDescription(<dungeontactics:taser>,"Fallen from above, only with a carefully precise and near hit, it will summon the roar of the skies.");
@@ -116,7 +119,7 @@ mods.jei.JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material
 
 mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lands of the Ender folk, as the deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods.");
 mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
-mods.jei.JEI.addDescription(<minecraft:diamond>,'Diamond! The hardest material available to the denizens of the world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
+mods.jei.JEI.addDescription(<minecraft:diamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
 mods.jei.JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
 
 mods.jei.JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon.");
