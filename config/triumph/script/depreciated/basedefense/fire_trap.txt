@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:trap_fire>)
+setTitle("Fire Trap")
+setDescription("Sets mobs on fire that walk on it. Needs to be reset after each use.")
+
+addParent("triumph:advancements/basedefense/wrench")
+
+criteria = addCriteria("Fire Trap", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_fire>)
+
+alwaysVisible()
+setPos(-259,84)

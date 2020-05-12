@@ -1,0 +1,11 @@
+setIcon(<wards:ward>)
+setTitle("Ward")
+setDescription("A very powerful base defense tool. Place an enchanted book on it and it will provide that enchant to all players in the area. It also functions as an automated turret when Sword books like Smite are placed on it.")
+
+addParent("triumph:advancements/basedefense/magic_lantern")
+
+criteria = addCriteria("Ward", "minecraft:inventory_changed")
+criteria.addItem(<wards:ward>)
+
+alwaysVisible()
+setPos(39,50)

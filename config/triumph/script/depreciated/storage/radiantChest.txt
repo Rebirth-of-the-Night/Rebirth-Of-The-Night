@@ -1,0 +1,19 @@
+setIcon(<arcanearchives:radiant_chest>)
+setTitle("Radiant Chest")
+setDescription("Craft a radiant chest.")
+
+addParent("triumph:advancements/storage/netherchest")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Radiant Chest", "minecraft:inventory_changed")
+criteria.addItem("arcanearchives:radiant_chest")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-515,-146)

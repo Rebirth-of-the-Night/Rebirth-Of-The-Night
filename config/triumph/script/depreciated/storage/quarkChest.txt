@@ -1,0 +1,18 @@
+setIcon(<minecraft:chest>)
+setTitle("Wooden Chest")
+setDescription("Craft a chest.")
+
+addParent("triumph:advancements/storage/chest")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Chest", "triumph:player_crafted_item")
+criteria.setItem("quark:custom_chest")
+
+hideLines()
+setHidden(true)
+setPos(-588,-121)

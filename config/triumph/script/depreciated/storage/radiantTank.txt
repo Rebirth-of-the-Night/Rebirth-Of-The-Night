@@ -1,0 +1,20 @@
+setIcon(<arcanearchives:radiant_tank>)
+setTitle("Radiant Tank")
+setDescription("Craft a radiant tank.")
+
+
+addParent("triumph:advancements/storage/refractoryTank")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Radiant Tank", "minecraft:inventory_changed")
+criteria.addItem("arcanearchives:radiant_tank")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-437,-32)
