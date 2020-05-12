@@ -135,6 +135,9 @@ val regenerationElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect:
 val healthElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});
 val healthElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 1}]});
 val luckElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:luck", Duration: 450, Amplifier: 0}]});
+val bouncyElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 1200, Amplifier: 1}]});	
+val bouncyElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 2600, Amplifier: 1}]});	
+val butterElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.butter", Duration: 450, Amplifier: 1}]});
 
 var cohosh = <rustic:cohosh>;
 var honeycomb = <harvestcraft:honeycombitem>;
@@ -159,6 +162,9 @@ mods.rustic.Condenser.addRecipe(luckElixir, fourclover, amanita);
 mods.rustic.Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
 mods.rustic.Condenser.addRecipe(regenerationElixirLong, horsetail, [cohosh, honeycomb]);
 mods.rustic.Condenser.addRecipe(regenerationElixirStrong, root, [cohosh, honeycomb]);
+mods.rustic.Condenser.addRecipe(butterElixir, butter, gnugg);	
+mods.rustic.Condenser.addRecipe(bouncyElixir, slime, endpearl);	
+mods.rustic.Condenser.addRecipe(bouncyElixirLong, horsetail, [slime, endpearl, butter]);
 
 //val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
 mods.rustic.Condenser.addRecipe(healthElixir, chamomile, <animania:raw_prime_beef>);
