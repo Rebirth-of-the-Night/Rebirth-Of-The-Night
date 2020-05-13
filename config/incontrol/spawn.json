@@ -24,8 +24,7 @@
 {
     "mob": "biomesoplenty:wasp",
 	"onjoin": true,
-    "potion": ["minecraft:fire_resistance,100000,0"],
-    "damagemultiply": 2
+    "potion": ["minecraft:fire_resistance,100000,0"]
   },
 
 // boss buff time!
