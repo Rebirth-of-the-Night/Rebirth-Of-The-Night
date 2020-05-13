@@ -35,6 +35,7 @@ StoneKiln.addRecipe("charcoal_pile",<contenttweaker:charcoal_pile>, <pyrotech:lo
 StoneKiln.addRecipe("charcoal_flakes",<pyrotech:material:15>, <pyrotech:rock:7>, 1200, 0.25, [<biomesoplenty:ash>*2], true);
 StoneKiln.addRecipe("bwmflint_block",<betterwithmods:aesthetic:5>, <ore:gravel>, 1200, true);
 StoneKiln.addRecipe("whitecobble_to_stone",<betterwithmods:aesthetic:6>, <betterwithmods:aesthetic:7>, 700, true);
+BrickKiln.addRecipe("endstone_to_enderslag",<betterwithmods:aesthetic:7>, <minecraft:end_stone>, 1500, 0.3, [<betterwithmods:material:39>]);
 //food recipes
 StoneKiln.addRecipe("bwmcake",<minecraft:cake>, <betterwithmods:raw_pastry>, 200, true);
 StoneKiln.addRecipe("bwmpumpkinpie",<minecraft:pumpkin_pie>, <betterwithmods:raw_pastry:1>, 200, true);
