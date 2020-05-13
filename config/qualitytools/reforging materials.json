@@ -125,7 +125,7 @@
   },
   {
     "tool": {
-        "item": "simpleores:onyx_bow"
+        "item": "betterwithaddons:greatbow"
     },
     "material": {
         "ore_dict": "gemOnyx"
