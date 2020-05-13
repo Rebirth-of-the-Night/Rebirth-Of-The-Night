@@ -114,7 +114,7 @@ mods.jei.JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twent
 <spartanweaponry:katana_wood:*>.addTooltip("An old stick wrapped ...with tape?");
 <spartanweaponry:katana_wood>.maxDamage = 24;
 //Is Better than Bacommm
-<spartancompat:katana_onyx:*>.addTooltip(format.darkBlue("Developer Relic 4/6"));
+<spartancompat:katana_onyx:*>.addTooltip(format.darkBlue("Developer Relic 2/6"));
 <spartancompat:katana_onyx>.maxDamage = 1838;
 
 //Register specific sticks;
