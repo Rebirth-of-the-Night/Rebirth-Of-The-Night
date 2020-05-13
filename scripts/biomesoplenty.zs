@@ -50,6 +50,15 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_tile.gem_ore.malachi
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.malachite_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.malachite_ore:*>);
 
+recipes.removeByRecipeName("biomesoplenty:biome_finder");
+
+recipes.remove(<biomesoplenty:gem_block:0>);
+recipes.addShaped("amethyst_to_block", <biomesoplenty:gem_block:0>, [
+    [<biomesoplenty:gem:0>,<biomesoplenty:gem:0>,<biomesoplenty:gem:0>],
+    [<biomesoplenty:gem:0>,<biomesoplenty:gem:0>,<biomesoplenty:gem:0>],
+    [<biomesoplenty:gem:0>,<biomesoplenty:gem:0>,<biomesoplenty:gem:0>]
+]);
+
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>, 0.3);
 
 recipes.addShaped("overgrown_stone",<biomesoplenty:grass:1>*8,[
