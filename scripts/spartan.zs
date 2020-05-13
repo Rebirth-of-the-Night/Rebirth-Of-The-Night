@@ -207,6 +207,8 @@ mods.jei.JEI.removeAndHide(<spartancompat:crossbow_holystone>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_zanite>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_gravitite>);
 
+recipes.removeByRecipeName("spartancompat:katana_onyx");
+
 recipes.removeByRegex("spartancompat:.*(?<!handle_|pole_)skyroot");
 recipes.removeByRegex("spartancompat:.*holystone");
 recipes.removeByRegex("spartancompat:.*zanite");

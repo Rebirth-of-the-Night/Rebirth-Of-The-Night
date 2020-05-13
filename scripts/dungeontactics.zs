@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-hand and the duct tape in your main hand. Right click to repair. Items can only be repaired with duct tape until they reach Duct Taped V");
 
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
+recipes.removeByRecipeName("dungeontactics:weapons/steel_sword");
 mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 ///////////////////// SILVER ///////////////////
 

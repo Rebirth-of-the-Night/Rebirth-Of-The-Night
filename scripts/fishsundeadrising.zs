@@ -40,6 +40,7 @@ recipes.remove(<mod_lavacow:sausage_roll>);
 recipes.remove(<mod_lavacow:canerottenmeat>);
 recipes.remove(<mod_lavacow:green_bacon_and_eggs>);
 recipes.removeByRecipeName("mod_lavacow:mushroomstew");
+recipes.removeByRecipeName("mod_lavacow:canebeef");
 
 //removed or modified weapons
 mods.jei.JEI.removeAndHide(<mod_lavacow:moltenaxe>);
