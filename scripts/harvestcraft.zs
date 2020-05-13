@@ -273,3 +273,14 @@ mods.betterwithmods.Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:b
 
 // Palm seed -> cooking oil
 recipes.addShapeless("palmseed_cookingoil", <harvestcraft:oliveoilitem>*2, [<harvestcraft:juiceritem>, <dynamictreesbop:palmseed>, <dynamictreesbop:palmseed>]);
+
+// Ground meat
+mods.betterwithmods.Mill.addRecipe([<ore:listAllbeefraw>],[<harvestcraft:groundbeefitem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllchickenraw>],[<harvestcraft:groundchickenitem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllduckraw>],[<harvestcraft:groundduckitem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllfishraw>],[<harvestcraft:groundfishitem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllmuttonraw>],[<harvestcraft:groundmuttonitem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllporkraw>],[<harvestcraft:groundporkitem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllrabbitraw>],[<harvestcraft:groundrabbititem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllturkeyraw>],[<harvestcraft:groundturkeyitem>*2]);
+mods.betterwithmods.Mill.addRecipe([<ore:listAllvenisonraw>],[<harvestcraft:groundvenisonitem>*2]);
