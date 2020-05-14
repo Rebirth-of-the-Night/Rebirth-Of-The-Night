@@ -10,6 +10,11 @@ mods.jei.JEI.removeAndHide(<arcaneworlds:block_sapphire>);
 mods.jei.JEI.removeAndHide(<arcaneworlds:amethyst>);
 mods.jei.JEI.removeAndHide(<arcaneworlds:block_amethyst>);
 
+mods.ltt.LootTable.removeGlobalItem("arcaneworlds:sapphire");
+mods.ltt.LootTable.removeGlobalItem("arcaneworlds:amethyst");
+mods.ltt.LootTable.removeGlobalItem("arcaneworlds:block_sapphire");
+mods.ltt.LootTable.removeGlobalItem("arcaneworlds:block_amethyst");
+
 mods.ArcaneWorld.removeAll();
 
 //Mob summoning
