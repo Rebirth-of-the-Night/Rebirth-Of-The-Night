@@ -12,6 +12,12 @@ recipes.addShaped("antlerThrowbone", <doggytalents:throw_bone>,[
 	[<betteranimalsplus:antler>, null, <betteranimalsplus:antler>]
 ]);
 
+recipes.removeByRecipeName("betteranimalsplus:blubber_torch");
+recipes.addShaped("blubber_torch",<minecraft:torch>*4,[
+	[<betteranimalsplus:blubber>],
+	[<ore:stickWood>]
+]);
+
 mods.jei.JEI.removeAndHide(<betteranimalsplus:goatcheese>);
 recipes.removeByRecipeName("betteranimalsplus:milk_to_cheese2");
 

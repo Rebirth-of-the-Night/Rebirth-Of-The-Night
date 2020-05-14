@@ -84,6 +84,7 @@
 <quark:horse_whistle>.addTooltip("Summons your trusty steed, even from a great distance away.");
 <quark:backpack>.addTooltip("An invaluable storage tool, although it must be worn in place of chest armor.");
 <quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
+<quark:iron_ladder>.addTooltip("Right click on a tin ladder to place another ladder below which doesn't require a standing block.");
 
 #Pyrotech
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");

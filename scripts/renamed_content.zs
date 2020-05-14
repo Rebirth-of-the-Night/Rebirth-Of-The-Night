@@ -129,6 +129,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Ice And Fire: Dragons in a Whole New Light
 <iceandfire:chain>.displayName = "Refined Chain";
 <iceandfire:ash>.displayName = "Fiery Ash";
+<iceandfire:podium:0>.displayName = "Wooden Podium";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
@@ -152,11 +153,16 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:stone:5>.displayName = "Gray Andesite";
 <minecraft:stone:6>.displayName = "Polished Gray Andesite";
 <minecraft:wooden_door>.displayName = "Wooden Door";
-<minecraft:chest>.displayName = "Wooden Chest";
 <minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
 <minecraft:trapdoor>.displayName = "Wooden Trapdoor";
 <minecraft:boat>.displayName = "Wooden Boat";
 <minecraft:wooden_button>.displayName = "Wooden Button";
+<minecraft:bookshelf>.displayName = "Wooden Bookshelf";
+<minecraft:oak_stairs>.displayName = "Wooden Stairs";
+<minecraft:wooden_slab:*>.displayName = "Wooden Slab";
+<minecraft:fence>.displayName = "Wooden Fence";
+<minecraft:fence_gate>.displayName = "Wooden Fence Gate";
+<minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
 
 // Minecraft Future
 <minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
@@ -168,6 +174,12 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <mcwbridges:iron_platform>.displayName = "Metal Platform";
 <mcwbridges:most1>.displayName = "Metal Bridge Middle";
 <mcwbridges:most2>.displayName = "Metal Bridge End";
+<mcwbridges:oak_log_bridge_middle>.displayName = "Wooden Bridge Middle";
+<mcwbridges:oak_log_bridge_end>.displayName = "Wooden Bridge End";
+<mcwbridges:rope_oak_bridge>.displayName = "Rope Wooden Bridge";
+<mcwbridges:rope_oak_bridge_end>.displayName = "Rope Wooden Bridge End";
+<mcwbridges:oak_rail_bridge>.displayName = "Wooden Rail Bridge";
+<mcwbridges:oak_rail_bridge_powered>.displayName = "Powered Wooden Rail Bridge";
 
 // Mowzie's Mobs
 <mowziesmobs:naga_fang>.displayName = "Skydrake Fang";

@@ -195,13 +195,13 @@ recipes.addShaped("Frosted Amedian Shovel", <netherex:frosted_amedian_shovel>,[
     [null, frostedwitherbone, null]
 ]);
 
-recipes.addShaped("Frosted Amedian Axe", <netherex:frosted_amedian_axe>,[
+recipes.addShapedMirrored("Frosted Amedian Axe", <netherex:frosted_amedian_axe>,[
     [rime, obsidian, null],
     [rime, frostedwitherbone, null],
     [null, frostedwitherbone, null]
 ]);
 
-recipes.addShaped("Frosted Amedian Hoe", <netherex:frosted_amedian_hoe>,[
+recipes.addShapedMirrored("Frosted Amedian Hoe", <netherex:frosted_amedian_hoe>,[
     [rime, obsidian, null],
     [null, frostedwitherbone, null],
     [null, frostedwitherbone, null]
