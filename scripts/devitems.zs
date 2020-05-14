@@ -98,6 +98,11 @@ recipes.addHiddenShaped("tsh", <mod_lavacow:canebeef>,[
 [<betterwithmods:tasty_sandwich>, <bountifulbaubles:trinketshulkerheart>, <betterwithmods:tasty_sandwich>],
 [<rats:plague_essence>, <betterwithmods:tasty_sandwich>, <rats:plague_essence>]
 ]);
+recipes.addHiddenShaped("tsh2", <mod_lavacow:canebeef>,[
+[<betterwithmods:tasty_sandwich>, <rats:plague_essence>, <betterwithmods:tasty_sandwich>],
+[<rats:plague_essence>, <bountifulbaubles:trinketshulkerheart>, <rats:plague_essence>],
+[<betterwithmods:tasty_sandwich>, <rats:plague_essence>, <betterwithmods:tasty_sandwich>]
+]);
 
 mods.jei.JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twenty percent bread,", "Fifteen percent cursed meat harvested from the dead", "Five percent ???", "Fifty percent strain,", "and a hundred percent reason to remember the name.");
 //mods.jei.JEI.hide(<mod_lavacow:canebeef>);
