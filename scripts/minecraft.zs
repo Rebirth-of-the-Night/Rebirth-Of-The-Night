@@ -585,7 +585,7 @@ rawPork.remove(<harvestcraft:groundporkitem>);
 
 val rawTurkey = <ore:listAllturkeyraw>;
 rawTurkey.add(<betteranimalsplus:turkey_leg_raw>);
-rawTurket.remove(<harvestcraft:groundturkeyitem>);
+rawTurkey.remove(<harvestcraft:groundturkeyitem>);
 
 val cookedTurkey = <ore:listAllturkeycooked>;
 cookedTurkey.add(<betteranimalsplus:turkey_leg_cooked>);
