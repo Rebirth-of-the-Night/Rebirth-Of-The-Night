@@ -2,6 +2,8 @@
   "version": 2,
   "data": {
     "aether_legacy:aether_highlands": "PLAINS",
+    "arcaneworld:arcane_dungeon": "PLAINS",
+    "arcaneworld:arcane_void": "PLAINS",
     "beneath:the_beneath": "PLAINS",
     "biomesoplenty:alps": "MOUNTAINS_NAKED",
     "biomesoplenty:alps_foothills": "SNOW_PINES",

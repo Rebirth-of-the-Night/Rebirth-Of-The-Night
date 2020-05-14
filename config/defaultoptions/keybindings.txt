@@ -61,12 +61,6 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.toggleAutojump:0
-key_key.davincis.up:45
-key_key.davincis.down:44
-key_key.davincis.brake:0
-key_key.davincis.align:13
-key_key.davincis.decompile:43
-key_key.davincis.shipinv:37
 key_Toggle Magnetism Suppressor:49
 key_neat.keybind.toggle:0
 key_Difficulty Meter - Show:0

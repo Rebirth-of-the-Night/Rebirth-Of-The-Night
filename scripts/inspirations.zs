@@ -7,7 +7,7 @@ import mods.jei.JEI;
 
 //Lunar Water: Obtainable from cauldrons using bottles / Placeable in cauldrons
 mods.inspirations.Cauldron.addFluidRecipe(<nyx:lunar_water_bottle>, <minecraft:glass_bottle>, <liquid:lunar_water>, 1);
-mods.inspirations.Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar_water>, <minecraft:glass_bottle>);
+mods.inspirations.Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar_water>, 1, <minecraft:glass_bottle>);
 
 //Magic powder 
 mods.inspirations.Cauldron.addFluidRecipe(<dungeontactics:magic_powder>, <minecraft:glowstone_dust>|<aether_legacy:ambrosium_shard>, <liquid:mushroom_stew>, 1, true);
