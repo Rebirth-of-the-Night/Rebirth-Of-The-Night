@@ -47,6 +47,16 @@ StoneKiln.addRecipe("raw_salt_from_sandstone",<contenttweaker:halite>, <ore:sand
 StoneKiln.addRecipe("kiln_rimeOre",<netherex:rime_crystal>, <netherex:rime_ore>,5000, true);
 StoneKiln.addRecipe("coral_lime",<pyrotech:material:35>*5, <coralreef:reef>,3600, true);
 
+// Modded cobble to stone recipes
+val ignStoneDef = <undergroundbiomes:igneous_stone>.definition;
+val ignCobbleDef = <undergroundbiomes:igneous_cobble>.definition;
+val metaStoneDef = <undergroundbiomes:metamorphic_stone>.definition;
+val metaCobbleDef = <undergroundbiomes:metamorphic_cobble>.definition;
+
+for i in 0 to 7 {
+    StoneKiln.addRecipe("igneous_cobble_to_stone_"~i, ignStoneDef.makeStack(i), ignCobbleDef.makeStack(i), 700, true);
+    StoneKiln.addRecipe("metamorphic_cobble_to_stone"~i, metaStoneDef.makeStack(i), metaCobbleDef.makeStack(i), 700, true);
+}
 
 
 //Unified kiln recipes

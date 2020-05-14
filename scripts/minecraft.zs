@@ -312,46 +312,48 @@ var woodenButtonMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<bio
 
 recipes.addShapeless("wooden_button",<minecraft:wooden_button>,[woodenButtonMat]);
 
-var stickMat = <minecraft:planks:*>|<biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>;
+val stickMats = <ore:stickMat>;
+stickMats.mirror(<ore:plankWood>);
+stickMats.remove(<aether_legacy:skyroot_plank>);
 
 recipes.remove(<minecraft:stick>);
 recipes.addShaped("stick",<minecraft:stick>*4,[
-    [stickMat],
-    [stickMat]
+    [<ore:stickMat>],
+    [<ore:stickMat>]
 ]);
 
 recipes.remove(<minecraft:crafting_table>);
 recipes.addShaped("crafting_table",<minecraft:crafting_table>,[
-    [stickMat,stickMat],
-    [stickMat,stickMat]
+    [<ore:stickMat>,<ore:stickMat>],
+    [<ore:stickMat>,<ore:stickMat>]
 ]);
 
 recipes.remove(<minecraft:wooden_shovel>);
 recipes.addShaped("wooden_shovel",<minecraft:wooden_shovel>,[
-    [stickMat],
+    [<ore:stickMat>],
     [<ore:stickWood>],
     [<ore:stickWood>]
 ]);
 
 recipes.remove(<minecraft:wooden_pickaxe>);
 recipes.addShaped("wooden_pickaxe",<minecraft:wooden_pickaxe>,[
-    [stickMat,stickMat,stickMat],
+    [<ore:stickMat>,<ore:stickMat>,<ore:stickMat>],
     [null,<ore:stickWood>,null],
     [null,<ore:stickWood>,null]
 ]);
 
 recipes.remove(<minecraft:wooden_axe>);
 recipes.addShapedMirrored("wooden_axe",<minecraft:wooden_axe>,[
-    [stickMat,stickMat],
-    [stickMat,<ore:stickWood>],
+    [<ore:stickMat>,<ore:stickMat>],
+    [<ore:stickMat>,<ore:stickWood>],
     [null,<ore:stickWood>]
 ]);
 
 recipes.remove(<dungeontactics:sharp_stick>);
 mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>);
 recipes.addShaped("sharp_stick", <dungeontactics:sharp_stick>,[
-    [stickMat],
-    [stickMat],
+    [<ore:stickMat>],
+    [<ore:stickMat>],
     [<ore:stickWood>]
 ]);
 
