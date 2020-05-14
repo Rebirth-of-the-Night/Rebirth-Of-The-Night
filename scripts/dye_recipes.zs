@@ -21,6 +21,7 @@ recipes.removeByRecipeName("harvestcraft:string_cropkenaf");
 recipes.removeByRecipeName("harvestcraft:string_cropjute");
 recipes.removeByRecipeName("harvestcraft:string_cropflax");
 recipes.removeByRecipeName("harvestcraft:string_cropcotton");
+recipes.removeByRecipeName("harvestcraft:string_listallfiber");
 mods.betterwithmods.Mill.remove([<minecraft:dye:2>]);
 
 //Mortar and pestle recipes
