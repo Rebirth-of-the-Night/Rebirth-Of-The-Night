@@ -479,6 +479,12 @@ genericMetal.addAll(<ore:ingotBronze>);
 genericMetal.addAll(<ore:ingotSilver>);
 genericMetal.addAll(<ore:ingotSteel>);
 
+val wolfCape = <ore:wolfCape>;
+wolfCape.addItems([<betteranimalsplus:wolf_cape_classic>,<betteranimalsplus:wolf_cape_timber>,<betteranimalsplus:wolf_cape_black>,<betteranimalsplus:wolf_cape_arctic>,<betteranimalsplus:wolf_cape_red>,<betteranimalsplus:wolf_cape_brown>]);
+
+val bearCape = <ore:bearCape>;
+bearCape.addItems([<betteranimalsplus:bear_cape_brown>,<betteranimalsplus:bear_cape_black>,<betteranimalsplus:bear_cape_kermode>]);
+
 val fang = <ore:fang>;
 fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_serpent_fang>,<netherex:coolmar_spider_fang>]);
 
