@@ -2605,6 +2605,29 @@
     "result": "deny"
  },
 
+// jungle spider
+ {
+    "dimension": 0,
+    "mob": "betterwithmods:bwm_jungle_spider",
+	"biome": ["jungle", "JungleHills", "jungleEdge", "Jungle M", "JungleEdge M", "Tropical Rainforest", "Tropical Island"],  
+    "gamestage": "fullEarlyArmor",
+	"random": 0.15,
+	"seesky": true,
+	"minheight": 60,
+	"maxlight": 12,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "betterwithmods:bwm_jungle_spider",
+    "result": "deny"
+ },
+
  {
     "dimension": 0,
     "mob": "mod_lavacow:vespa",

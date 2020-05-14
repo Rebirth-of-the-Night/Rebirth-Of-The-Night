@@ -1520,6 +1520,20 @@
     ]
   },
  
+ 
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "betterwithmods:bwm_jungle_spider",
+        "weight": 3,
+        "groupcountmin": 2,
+        "groupcountmax": 3
+      }
+    ]
+  },
+ 
+ 
    {
     "dimension": 0,
     "mobs": [

@@ -39,12 +39,12 @@ recipes.addShaped("Mask of Fear", <mowziesmobs:barakoa_mask_fear>,[
 val commonGlowOredict = <ore:commonGlowSource>;
 commonGlowOredict.add(<biomesoplenty:flower_0:3>);
 commonGlowOredict.add(<biomesoplenty:mushroom:3>);
+commonGlowOredict.add(<biomesoplenty:coral:3>);
 
 val uncommonGlowOredict = <ore:uncommonGlowSource>;
 uncommonGlowOredict.add(<mod_lavacow:glowshroom>);
 uncommonGlowOredict.add(<quark:glowshroom>);
 uncommonGlowOredict.add(<twilightforest:torchberries>);
-uncommonGlowOredict.add(<biomesoplenty:coral:3>);
 
 val rareGlowOredict = <ore:rareGlowSource>;
 rareGlowOredict.add(<quark:glowshroom_block>);
