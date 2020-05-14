@@ -260,13 +260,13 @@ recipes.addShaped("wireless_transmitter",<lwr:blockwirelesstransmitter>, [[null,
 val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;
 
-recipes.addShaped("flintstone_axe", <minecraft:stone_axe>,[
+recipes.addShapedMirrored("flintstone_axe", <minecraft:stone_axe>,[
 	[flint, flint, null],
     [flint, stick, null],
     [null, stick, null]
 ]);
 
-recipes.addShaped("flintstone_hoe", <minecraft:stone_hoe>,[
+recipes.addShapedMirrored("flintstone_hoe", <minecraft:stone_hoe>,[
 	[flint, flint, null],
     [null, stick, null],
     [null, stick, null]
@@ -284,9 +284,17 @@ recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
     [null, stick, null]
 ]);
 
+mods.jei.JEI.removeAndHide(<minecraft:chest>);
+mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_chest>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest:0>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest:1>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest:2>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest:3>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest:4>);
+
 var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>;
 
-recipes.addShaped("wooden_door",<minecraft:wooden_door>,[
+recipes.addShaped("wooden_door",<minecraft:wooden_door>*3,[
     [woodenDoorMat,woodenDoorMat],
     [woodenDoorMat,woodenDoorMat],
     [woodenDoorMat,woodenDoorMat]
@@ -299,10 +307,94 @@ recipes.addShaped("wooden_boat",<minecraft:boat>,[
     [woodenBoatMat,woodenBoatMat,woodenBoatMat]
 ]);
 
-var woodenButtonMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|
+var woodenButtonMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|
 <biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>;
 
 recipes.addShapeless("wooden_button",<minecraft:wooden_button>,[woodenButtonMat]);
+
+var stickMat = <minecraft:planks:*>|<biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>;
+
+recipes.remove(<minecraft:stick>);
+recipes.addShaped("stick",<minecraft:stick>*4,[
+    [stickMat],
+    [stickMat]
+]);
+
+recipes.remove(<minecraft:crafting_table>);
+recipes.addShaped("crafting_table",<minecraft:crafting_table>,[
+    [stickMat,stickMat],
+    [stickMat,stickMat]
+]);
+
+recipes.remove(<minecraft:wooden_shovel>);
+recipes.addShaped("wooden_shovel",<minecraft:wooden_shovel>,[
+    [stickMat],
+    [<ore:stickWood>],
+    [<ore:stickWood>]
+]);
+
+recipes.remove(<minecraft:wooden_pickaxe>);
+recipes.addShaped("wooden_pickaxe",<minecraft:wooden_pickaxe>,[
+    [stickMat,stickMat,stickMat],
+    [null,<ore:stickWood>,null],
+    [null,<ore:stickWood>,null]
+]);
+
+recipes.remove(<minecraft:wooden_axe>);
+recipes.addShapedMirrored("wooden_axe",<minecraft:wooden_axe>,[
+    [stickMat,stickMat],
+    [stickMat,<ore:stickWood>],
+    [null,<ore:stickWood>]
+]);
+
+recipes.remove(<dungeontactics:sharp_stick>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>);
+recipes.addShaped("sharp_stick", <dungeontactics:sharp_stick>,[
+    [stickMat],
+    [stickMat],
+    [<ore:stickWood>]
+]);
+
+var woodenStairMat = <stygian:endplanks>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
+
+recipes.addShapedMirrored("wooden_stairs",<minecraft:oak_stairs>*8,[
+    [woodenStairMat,null,null],
+    [woodenStairMat,woodenStairMat,null],
+    [woodenStairMat,woodenStairMat,woodenStairMat]
+]);
+
+recipes.addShaped("wooden_slab",<minecraft:wooden_slab>*6,[
+    [woodenStairMat,woodenStairMat,woodenStairMat]
+]);
+
+var woodenFenceMat = <stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
+
+recipes.addShaped("wooden_fence",<minecraft:fence>*3,[
+    [woodenFenceMat,<ore:stickWood>,woodenFenceMat],
+    [woodenFenceMat,<ore:stickWood>,woodenFenceMat]
+]);
+
+recipes.addShaped("wooden_fence_gate",<minecraft:fence_gate>,[
+    [<ore:stickWood>,woodenFenceMat,<ore:stickWood>],
+    [<ore:stickWood>,woodenFenceMat,<ore:stickWood>]
+]);
+
+var woodenPressurePlateMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
+
+recipes.addShaped("wooden_pressure_plate",<minecraft:wooden_pressure_plate>,[
+    [woodenPressurePlateMat,woodenPressurePlateMat]
+]);
+
+var woodenPodiumMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>;
+
+recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
+    [<minecraft:wooden_slab>,woodenPodiumMat,<minecraft:wooden_slab>],
+    [null,woodenPodiumMat,null],
+    [<minecraft:wooden_slab>,woodenPodiumMat,<minecraft:wooden_slab>]
+]);
+
+recipes.removeByRecipeName("dungeontactics:misc/convenience/books_from_shelves");
+recipes.addShapeless("book_from_bookshelf",<minecraft:book>,[<ore:bookshelf>]);
 
 mods.jei.JEI.removeAndHide(<minecraft:shield>);
 mods.ltt.LootTable.removeGlobalItem("minecraft:shield");
@@ -334,8 +426,18 @@ dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aeth
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
 
+<ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>,<charm:bookshelf_chest>]);
+
+<ore:slabWood>.addItems([<quark:stained_planks_white_slab:*>,<quark:stained_planks_orange_slab:*>,<quark:stained_planks_magenta_slab:*>,<quark:stained_planks_light_blue_slab:*>,<quark:stained_planks_yellow_slab:*>,<quark:stained_planks_lime_slab:*>,<quark:stained_planks_pink_slab:*>,<quark:stained_planks_gray_slab:*>,<quark:stained_planks_silver_slab:*>,<quark:stained_planks_cyan_slab:*>,<quark:stained_planks_purple_slab:*>,<quark:stained_planks_blue_slab:*>,<quark:stained_planks_brown_slab:*>,<quark:stained_planks_green_slab:*>,<quark:stained_planks_red_slab:*>,<quark:stained_planks_black_slab:*>,<quark:bark_oak_slab:*>,<quark:bark_spruce_slab:*>,<quark:bark_birch_slab:*>,<quark:bark_jungle_slab:*>,<quark:bark_acacia_slab:*>,<quark:bark_dark_oak_slab:*>]);
+
+<ore:stairWood>.addItems([<betternether:stalagnate_planks_stairs>,<betternether:reeds_stairs>,<quark:stained_planks_white_stairs>,<quark:stained_planks_orange_stairs>,<quark:stained_planks_magenta_stairs>,<quark:stained_planks_light_blue_stairs>,<quark:stained_planks_yellow_stairs>,<quark:stained_planks_lime_stairs>,<quark:stained_planks_pink_stairs>,<quark:stained_planks_gray_stairs>,<quark:stained_planks_silver_stairs>,<quark:stained_planks_cyan_stairs>,<quark:stained_planks_purple_stairs>,<quark:stained_planks_blue_stairs>,<quark:stained_planks_brown_stairs>,<quark:stained_planks_green_stairs>,<quark:stained_planks_red_stairs>,<quark:stained_planks_black_stairs>,<quark:bark_oak_stairs>,<quark:bark_spruce_stairs>,<quark:bark_birch_stairs>,<quark:bark_jungle_stairs>,<quark:bark_acacia_stairs>,<quark:bark_dark_oak_stairs>]);
+
+<ore:fenceWood>.addItems([<betternether:stalagnate_planks_fence>,<betternether:reeds_fence>,<rustic:fence_olive>,<rustic:fence_ironwood>]);
+
+<ore:fenceGateWood>.addItems([<betternether:stalagnate_planks_gate>,<betternether:reeds_gate>,<rustic:fence_gate_olive>,<rustic:fence_gate_ironwood>]);
+
 val trapdoorWood = <ore:trapdoorWood>;
-trapdoorWood.addItems([<twilightforest:twilight_oak_trapdoor>,<twilightforest:canopy_trapdoor>,<twilightforest:mangrove_trapdoor>,<twilightforest:dark_trapdoor>,<twilightforest:time_trapdoor>,<twilightforest:trans_trapdoor>,<twilightforest:mine_trapdoor>,<twilightforest:sort_trapdoor>]);
+trapdoorWood.addItems([<twilightforest:twilight_oak_trapdoor>,<twilightforest:canopy_trapdoor>,<twilightforest:mangrove_trapdoor>,<twilightforest:dark_trapdoor>,<twilightforest:time_trapdoor>,<twilightforest:trans_trapdoor>,<twilightforest:mine_trapdoor>,<twilightforest:sort_trapdoor>,<aether_legacy:skyroot_trapdoor>]);
 
 val pressurePlateWood = <ore:pressurePlateWood>;
 pressurePlateWood.addItems([<aether_legacy:skyroot_pressure_plate>,<betternether:stalagnate_planks_plate>,<betternether:reeds_plate>,<twilightforest:twilight_oak_plate>,<twilightforest:canopy_plate>,<twilightforest:mangrove_plate>,<twilightforest:dark_plate>,<twilightforest:time_plate>,<twilightforest:trans_plate>,<twilightforest:mine_plate>,<twilightforest:sort_plate>]);

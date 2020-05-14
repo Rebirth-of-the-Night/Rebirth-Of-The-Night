@@ -22,12 +22,12 @@ recipes.addShaped("Ice Dragonsteel Sword", <iceandfire:dragonsteel_ice_sword>,[
 recipes.remove(<iceandfire:dragonsteel_fire_axe>);
 recipes.remove(<iceandfire:dragonsteel_ice_axe>);
 
-recipes.addShaped("Fire Dragonsteel Axe", <iceandfire:dragonsteel_fire_axe>,[
+recipes.addShapedMirrored("Fire Dragonsteel Axe", <iceandfire:dragonsteel_fire_axe>,[
 	[firedragonsteel, firedragonsteel, null],
     [firedragonsteel, witherbone, null],
     [null, witherbone, null]
 ]);
-recipes.addShaped("Ice Dragonsteel Axe", <iceandfire:dragonsteel_ice_axe>,[
+recipes.addShapedMirrored("Ice Dragonsteel Axe", <iceandfire:dragonsteel_ice_axe>,[
 	[icedragonsteel, icedragonsteel, null],
     [icedragonsteel, witherbone, null],
     [null, witherbone, null]
@@ -36,12 +36,12 @@ recipes.addShaped("Ice Dragonsteel Axe", <iceandfire:dragonsteel_ice_axe>,[
 recipes.remove(<iceandfire:dragonsteel_fire_hoe>);
 recipes.remove(<iceandfire:dragonsteel_ice_hoe>);
 
-recipes.addShaped("Fire Dragonsteel Hoe", <iceandfire:dragonsteel_fire_hoe>,[
+recipes.addShapedMirrored("Fire Dragonsteel Hoe", <iceandfire:dragonsteel_fire_hoe>,[
 	[firedragonsteel, firedragonsteel, null],
     [null, witherbone, null],
     [null, witherbone, null]
 ]);
-recipes.addShaped("Ice Dragonsteel Hoe", <iceandfire:dragonsteel_ice_hoe>,[
+recipes.addShapedMirrored("Ice Dragonsteel Hoe", <iceandfire:dragonsteel_ice_hoe>,[
 	[icedragonsteel, icedragonsteel, null],
     [null, witherbone, null],
     [null, witherbone, null]

@@ -27,25 +27,11 @@ recipes.remove(<twilightforest:knightmetal_sword>);
 recipes.remove(<twilightforest:giant_sword>);
 
 
-recipes.addShapeless("twine_handle", <spartanweaponry:material>,[<minecraft:stick>,<pyrotech:material:14>]);
-
-//Wooden Sword Tweaks
-
-val sharp_stick = <dungeontactics:sharp_stick>;
-val wood = <ore:plankWood>;
-val stick = <ore:stickWood>;
-
-recipes.remove(<dungeontactics:sharp_stick>);
-recipes.remove(<minecraft:wooden_sword>);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>);
-
-recipes.addShaped("SharpStick", sharp_stick,
- [[null,wood,null],
-  [null,wood,null],
-  [null,stick,null]]);
+recipes.addShapeless("twine_handle", <spartanweaponry:material>,[<ore:stickWood>,<pyrotech:material:14>]);
 
 //Addition of weapon recipes that involve stick > handle + crossbow
 
+val wood = <ore:plankWood>;
 val handle = <spartanweaponry:material>;
 val witherhandle = <spartanfire:witherbone_handle>;
 val feather = <ore:feather>;

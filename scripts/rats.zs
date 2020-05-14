@@ -101,6 +101,7 @@ recipes.remove(<rats:rat_burger>);
 recipes.remove(<rats:potato_pancake>);
 recipes.remove(<rats:rat_upgrade_disenchanter>);
 recipes.remove(<rats:rat_upgrade_armor>);
+recipes.remove(<rats:rat_upgrade_enchanter>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.removeChefRatRecipe(<rats:potato_kinishes>);
 mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
@@ -174,6 +175,12 @@ recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
     [<minecraft:iron_ingot>, <spartanshields:shield_basic_iron>, <minecraft:iron_ingot>],
     [<minecraft:iron_ingot>, <rats:rat_upgrade_basic>, <minecraft:iron_ingot>],
     [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>]
+]);
+
+recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
+    [<minecraft:book>,<minecraft:enchanting_table>,<minecraft:book>],
+    [<ore:bookshelf>,<rats:rat_upgrade_basic>,<ore:bookshelf>],
+    [<minecraft:book>,<minecraft:experience_bottle>,<minecraft:book>]
 ]);
 
 // cheese workaround until official fix
