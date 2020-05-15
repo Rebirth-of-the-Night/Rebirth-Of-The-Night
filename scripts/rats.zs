@@ -92,6 +92,8 @@ mods.jei.JEI.removeAndHide(<rats:feral_rat_claw>);
 mods.jei.JEI.removeAndHide(<rats:centipede>);
 mods.jei.JEI.removeAndHide(<rats:garbage_pile>);
 
+mods.jei.JEI.removeAndHide(<rats:rat_burger>); // Dunno what we want to do with it, but removing it from jei since no recipe.
+
 // other removed recipes
 recipes.remove(<rats:rat_upgrade_voodoo>);
 recipes.remove(<rats:rat_upgrade_tnt_survivor>);
