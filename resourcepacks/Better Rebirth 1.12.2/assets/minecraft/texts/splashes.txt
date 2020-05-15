@@ -168,3 +168,9 @@ Find that coal!
 Also try Terraria!
 Also try Factorio!
 Also try Space Engineers!
+java.lang.IllegalArgumentException: Size exceeds Integer.MAX_VALUE
+java.lang.IOException: No space left on device
+java.lang.FileNotFoundException: ActualMusic.dll (No such file or directory)
+Potential problem found! Minecraft ran into a problem.
+The following mod(s) have been identified as potential causes: Minecraft
+The following mod(s) have been identified as potential causes: Embassy
