@@ -356,6 +356,8 @@ mods.jei.JEI.addDescription(<grapplemod:longfallboots>,"Cancels all fall damage 
 
 
 /* Runes and Magic */
+mods.jei.JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item to change the item's glow color.");
+
 mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited magical power...once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the 'Magic' guidebook.");
 mods.jei.JEI.addItem(<contenttweaker:spectral_shard>);
 mods.jei.JEI.addItem(<contenttweaker:magic_orb>);

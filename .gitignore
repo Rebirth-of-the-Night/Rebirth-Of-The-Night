@@ -58,3 +58,4 @@ config/fantasticlib/reference/*.txt
 config/multimob/modInformation/*.txt
 config/pyrotech/*-Generated.json
 shaderpacks/SEUS-Renewed-v1.0.1.zip
+patchouli_data.json

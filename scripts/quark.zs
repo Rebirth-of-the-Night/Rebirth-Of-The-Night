@@ -35,6 +35,8 @@ mods.jei.JEI.removeAndHide(<quark:purpur_block_wall>);
 mods.jei.JEI.removeAndHide(<quark:red_nether_brick_stairs>);
 mods.jei.JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 
+<quark:rune:*>.addTooltip("Colors enchanted items in an anvil."); // Because so many people dunno its use.
+
 recipes.removeByRecipeName("quark:chest_minecart");
 recipes.removeByRecipeName("quark:stone_shovel");
 recipes.removeByRecipeName("quark:stone_pickaxe");
