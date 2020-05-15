@@ -224,6 +224,7 @@ mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material lef
 mods.jei.JEI.addDescription(<biomesoplenty:flesh>, "It is like slime! ...but not fun. and gross. Is that an eye?");
 
 mods.jei.JEI.addDescription(<betteranimalsplus:wolfhead>,"Direwolves would only ever submit to something they considered an apex predator. They accept no meat from strangers, but may accept the bones of terrifying creatures as treats.");
+mods.jei.JEI.addDescription(<betteranimalsplus:wolfhead>,"To even attempt to tame a direwolf, one must need the head of a very powerful beast. One may be very obvious (it is a vanilla head) and the other is much less obvious.");
 mods.jei.JEI.addDescription([<betteranimalsplus:coyotehead>, <betteranimalsplus:coyotehead_1>],"Coyotes will eat almost any common meat, as well as many kinds of fruit. They aren't picky eaters.");
 mods.jei.JEI.addDescription([<betteranimalsplus:foxhead>, <betteranimalsplus:foxhead_1>, <betteranimalsplus:foxhead_2>, <betteranimalsplus:foxhead_3>, <betteranimalsplus:foxhead_4>],"Foxes usually hunt animals smaller than them, such as chickens, frogs, pheasants, and rabbits. They're also fond of berries.");
 mods.jei.JEI.addDescription([<betteranimalsplus:hirschgeistskull>, <betteranimalsplus:hirschgeistskull_1>],"Cursed skull of a powerful forest spirit.");
