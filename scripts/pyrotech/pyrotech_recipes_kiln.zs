@@ -54,7 +54,7 @@ val metaCobbleDef = <undergroundbiomes:metamorphic_cobble>.definition;
 
 for i in 0 to 7 {
     StoneKiln.addRecipe("igneous_cobble_to_stone_"~i, ignStoneDef.makeStack(i), ignCobbleDef.makeStack(i), 700, true);
-    StoneKiln.addRecipe("metamorphic_cobble_to_stone"~i, metaStoneDef.makeStack(i), metaCobbleDef.makeStack(i), 700, true);
+    StoneKiln.addRecipe("metamorphic_cobble_to_stone_"~i, metaStoneDef.makeStack(i), metaCobbleDef.makeStack(i), 700, true);
 }
 
 

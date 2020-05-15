@@ -51,7 +51,16 @@ SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*
 SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
 
+// Mossy stone recipes
+val ignMossyDef = <undergroundbiomes:igneous_cobble_mossy>.definition;
+val ignCobbleDef = <undergroundbiomes:igneous_cobble>.definition;
+val metaMossyDef = <undergroundbiomes:metamorphic_cobble_mossy>.definition;
+val metaCobbleDef = <undergroundbiomes:metamorphic_cobble>.definition;
 
+for i in 0 to 7 {
+    SoakingPot.addRecipe("igneous_cobble_to_mossy_"~i, ignMossyDef.makeStack(i), <liquid:water>*250, ignCobbleDef.makeStack(i), 7 * 60 * 20);
+    SoakingPot.addRecipe("metamorphic_cobble_to_mossy_"~i, metaMossyDef.makeStack(i), <liquid:water>*250, metaCobbleDef.makeStack(i), 7 * 60 * 20);
+}
 
 furnace.remove(<pyrotech:material:22>);
 
