@@ -76,6 +76,31 @@ val waterOrb = mods.contenttweaker.VanillaFactory.createItem("water_orb");
 waterOrb.setCreativeTab(<creativetab:materials.base>);
 waterOrb.register();
 
+#quintessence
+val solQ = mods.contenttweaker.VanillaFactory.createItem("sol_quintessence");
+solQ.setCreativeTab(<creativetab:materials.base>);
+solQ.register();
+
+val lunaQ = mods.contenttweaker.VanillaFactory.createItem("luna_quintessence");
+lunaQ.setCreativeTab(<creativetab:materials.base>);
+lunaQ.register();
+
+val airQ = mods.contenttweaker.VanillaFactory.createItem("air_quintessence");
+airQ.setCreativeTab(<creativetab:materials.base>);
+airQ.register();
+
+val fireQ = mods.contenttweaker.VanillaFactory.createItem("fire_quintessence");
+fireQ.setCreativeTab(<creativetab:materials.base>);
+fireQ.register();
+
+val earthQ = mods.contenttweaker.VanillaFactory.createItem("earth_quintessence");
+earthQ.setCreativeTab(<creativetab:materials.base>);
+earthQ.register();
+
+val waterQ = mods.contenttweaker.VanillaFactory.createItem("water_quintessence");
+waterQ.setCreativeTab(<creativetab:materials.base>);
+waterQ.register();
+
 //arcane
 val spectralShard = mods.contenttweaker.VanillaFactory.createItem("spectral_shard");
 spectralShard.setCreativeTab(<creativetab:materials.base>);
@@ -243,6 +268,71 @@ val disintOrb = mods.contenttweaker.VanillaFactory.createItem("disint_orb");
 disintOrb.setCreativeTab(<creativetab:materials.base>);
 disintOrb.register();
 
+#quintessence
+val balanceQ = mods.contenttweaker.VanillaFactory.createItem("balance_quintessence");
+balanceQ.setCreativeTab(<creativetab:materials.base>);
+balanceQ.register();
+
+val chaosQ = mods.contenttweaker.VanillaFactory.createItem("chaos_quintessence");
+chaosQ.setCreativeTab(<creativetab:materials.base>);
+chaosQ.register();
+
+val creationQ = mods.contenttweaker.VanillaFactory.createItem("creation_quintessence");
+creationQ.setCreativeTab(<creativetab:materials.base>);
+creationQ.register();
+
+val deathQ = mods.contenttweaker.VanillaFactory.createItem("death_quintessence");
+deathQ.setCreativeTab(<creativetab:materials.base>);
+deathQ.register();
+
+val energyQ = mods.contenttweaker.VanillaFactory.createItem("energy_quintessence");
+energyQ.setCreativeTab(<creativetab:materials.base>);
+energyQ.register();
+
+val illusionQ = mods.contenttweaker.VanillaFactory.createItem("illusion_quintessence");
+illusionQ.setCreativeTab(<creativetab:materials.base>);
+illusionQ.register();
+
+val knowledgeQ = mods.contenttweaker.VanillaFactory.createItem("knowledge_quintessence");
+knowledgeQ.setCreativeTab(<creativetab:materials.base>);
+knowledgeQ.register();
+
+val lifeQ = mods.contenttweaker.VanillaFactory.createItem("life_quintessence");
+lifeQ.setCreativeTab(<creativetab:materials.base>);
+lifeQ.register();
+
+val mindQ = mods.contenttweaker.VanillaFactory.createItem("mind_quintessence");
+mindQ.setCreativeTab(<creativetab:materials.base>);
+mindQ.register();
+
+val natureQ = mods.contenttweaker.VanillaFactory.createItem("nature_quintessence");
+natureQ.setCreativeTab(<creativetab:materials.base>);
+natureQ.register();
+
+val orderQ = mods.contenttweaker.VanillaFactory.createItem("order_quintessence");
+orderQ.setCreativeTab(<creativetab:materials.base>);
+orderQ.register();
+
+val poisonQ = mods.contenttweaker.VanillaFactory.createItem("poison_quintessence");
+poisonQ.setCreativeTab(<creativetab:materials.base>);
+poisonQ.register();
+
+val soulQ = mods.contenttweaker.VanillaFactory.createItem("soul_quintessence");
+soulQ.setCreativeTab(<creativetab:materials.base>);
+soulQ.register();
+
+val strengthQ = mods.contenttweaker.VanillaFactory.createItem("strength_quintessence");
+strengthQ.setCreativeTab(<creativetab:materials.base>);
+strengthQ.register();
+
+val transQ = mods.contenttweaker.VanillaFactory.createItem("trans_quintessence");
+transQ.setCreativeTab(<creativetab:materials.base>);
+transQ.register();
+
+val disintQ = mods.contenttweaker.VanillaFactory.createItem("disint_quintessence");
+disintQ.setCreativeTab(<creativetab:materials.base>);
+disintQ.register();
+
 //mystical
 
 #runes
@@ -330,3 +420,40 @@ faeOrb.register();
 val endOrb = mods.contenttweaker.VanillaFactory.createItem("end_orb");
 endOrb.setCreativeTab(<creativetab:materials.base>);
 endOrb.register();
+
+#quintessence
+val holdingQ = mods.contenttweaker.VanillaFactory.createItem("holding_quintessence");
+holdingQ.setCreativeTab(<creativetab:materials.base>);
+holdingQ.register();
+
+val netherQ = mods.contenttweaker.VanillaFactory.createItem("nether_quintessence");
+netherQ.setCreativeTab(<creativetab:materials.base>);
+netherQ.register();
+
+val plagueQ = mods.contenttweaker.VanillaFactory.createItem("plague_quintessence");
+plagueQ.setCreativeTab(<creativetab:materials.base>);
+plagueQ.register();
+
+val timeQ = mods.contenttweaker.VanillaFactory.createItem("time_quintessence");
+timeQ.setCreativeTab(<creativetab:materials.base>);
+timeQ.register();
+
+val aetherQ = mods.contenttweaker.VanillaFactory.createItem("aether_quintessence");
+aetherQ.setCreativeTab(<creativetab:materials.base>);
+aetherQ.register();
+
+val arcaneQ = mods.contenttweaker.VanillaFactory.createItem("arcane_quintessence");
+arcaneQ.setCreativeTab(<creativetab:materials.base>);
+arcaneQ.register();
+
+val draconicQ = mods.contenttweaker.VanillaFactory.createItem("draconic_quintessence");
+draconicQ.setCreativeTab(<creativetab:materials.base>);
+draconicQ.register();
+
+val faeQ = mods.contenttweaker.VanillaFactory.createItem("fae_quintessence");
+faeQ.setCreativeTab(<creativetab:materials.base>);
+faeQ.register();
+
+val endQ = mods.contenttweaker.VanillaFactory.createItem("end_quintessence");
+endQ.setCreativeTab(<creativetab:materials.base>);
+endQ.register();
