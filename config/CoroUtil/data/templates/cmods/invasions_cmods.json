@@ -276,7 +276,7 @@
 
           "inv_hand_off": "spartanshields:shield_basic_lead",
           "inv_head": "iceandfire:dragonsteel_fire_helmet",
-          "inv_chest": "simpleores:onyx_chestplate",
+          "inv_chest": "simpleores:onyx_chestplate"
         }
       ]
     }
