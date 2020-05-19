@@ -494,16 +494,22 @@ val coal = <ore:gemCoal>;
 coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
 
 val qualityGem = <ore:Gem_highQuality>;
-qualityGem.addItems([<netherex:amethyst_crystal>,<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
+qualityGem.addItems([<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 qualityGem.addAll(<ore:gemOnyx>);
 qualityGem.addAll(<ore:gemDiamond>);
 qualityGem.addAll(<ore:gemEmerald>);
+qualityGem.addAll(<ore:gemAmethyst>);
+
+val gemAmethyst = <ore:gemAmethyst>;
+gemAmethyst.add(<netherex:amethyst_crystal>);
 
 val viridiumOre = <ore:oreViridium>;
 viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
+viridiumOre.addAll(<ore:oreAdamantium>);
 
 val viridiumIngot = <ore:ingotViridium>;
 viridiumIngot.add(<simpleores:adamantium_ingot>);
+viridiumIngot.addAll(<ore:ingotAdamantium>);
 
 val biotiteOre = <ore:oreBiotite>;
 biotiteOre.add(<quark:biotite_ore>);

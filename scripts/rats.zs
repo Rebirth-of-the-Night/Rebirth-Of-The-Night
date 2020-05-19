@@ -294,9 +294,13 @@ mods.rats.recipes.addChefRatRecipe(<iceandfire:ice_dragon_flesh>, <harvestcraft:
 mods.rats.recipes.addChefRatRecipe(<rats:tiny_coin>, <harvestcraft:chocolatesprinklecakeitem>);
 mods.rats.recipes.addChefRatRecipe(<nyx:fallen_star>, <harvestcraft:starfruititem>);
 
+val amethyst_wo_bop = <ore:amethyst_wo_bop>;
+amethyst_wo_bop.mirror(<ore:gemAmethyst>);
+amethyst_wo_bop.remove(<biomesoplenty:gem:0>);
+
 //gem cutter rat recipes
 mods.rats.recipes.addGemcutterRatRecipe(<contenttweaker:phosphophyllite>,<bountifulbaubles:spectralsilt>);
 mods.rats.recipes.addGemcutterRatRecipe(<biomesoplenty:gem>, <netherex:amethyst_crystal>);
-mods.rats.recipes.addGemcutterRatRecipe(<netherex:amethyst_crystal>, <biomesoplenty:gem>);
+mods.rats.recipes.addGemcutterRatRecipe(<ore:amethyst_wo_bop>, <biomesoplenty:gem>);
 mods.rats.recipes.addGemcutterRatRecipe(<nyx:fallen_star>, <minecraft:glowstone_dust>*2);
 mods.rats.recipes.addGemcutterRatRecipe(<minecraft:nether_star>, <nyx:fallen_star>*16);

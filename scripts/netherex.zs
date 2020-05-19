@@ -94,24 +94,24 @@ for i, output in stairArray{
 
 //End Reborn Compatibility
 recipes.addShaped(<atop:amethyst_helmet>,[
-[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>],
-[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>], 
+[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>],
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
 [null, null, null]
 ]);
 recipes.addShaped(<atop:amethyst_chestplate>,[
-[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>],
-[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>], 
-[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>]
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>],
+[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>], 
+[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>]
 ]);
 recipes.addShaped(<atop:amethyst_leggings>,[
-[<netherex:amethyst_crystal>, <netherex:amethyst_crystal>, <netherex:amethyst_crystal>],
-[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>], 
-[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>]
+[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>],
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
 ]);
 recipes.addShaped(<atop:amethyst_boots>,[
 [null, null, null],
-[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>], 
-[<netherex:amethyst_crystal>, null, <netherex:amethyst_crystal>]
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
 ]);
 
 recipes.remove(<netherex:frosted_amedian_sword>);
