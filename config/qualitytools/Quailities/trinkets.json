@@ -19,9 +19,7 @@
       }
     ],
     "blacklist": [
-      {
-        "item": "toolbelt:belt"
-      }
+      
     ],
     "qualities": [
       {
