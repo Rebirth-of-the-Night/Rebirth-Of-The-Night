@@ -19,7 +19,7 @@ mods.betterwithmods.Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<better
 //Normal Steel
 mods.betterwithmods.Crucible.addUnstoked(
     [
-        <minecraft:iron_ingot>,
+        <ore:ingotIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>
@@ -31,7 +31,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 //Stoked Normal Steel
 mods.betterwithmods.Crucible.addStoked(
     [
-        <minecraft:iron_ingot>,
+        <ore:ingotIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>
@@ -45,7 +45,7 @@ mods.betterwithmods.Crucible.addStoked(
 mods.betterwithmods.Crucible.addUnstoked(
     [
         <dungeontactics:steel_ingot>,
-        <minecraft:diamond>
+        <ore:gemDiamond>
     ],
     [
         <betterwithmods:material:45>
@@ -54,7 +54,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 mods.betterwithmods.Crucible.addUnstoked(
     [
         <dungeontactics:steel_ingot>,
-        <biomesoplenty:gem:1>
+        <ore:gemRuby>
     ],
     [
         <contenttweaker:ruby_ingot>
@@ -63,7 +63,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 mods.betterwithmods.Crucible.addUnstoked(
     [
         <dungeontactics:steel_ingot>,
-        <biomesoplenty:gem:6>
+        <ore:gemSapphire>
     ],
     [
         <contenttweaker:sapphire_ingot>
@@ -72,7 +72,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 mods.betterwithmods.Crucible.addUnstoked(
     [
         <dungeontactics:steel_ingot>,
-        <biomesoplenty:gem:2>
+        <ore:gemPeridot>
     ],
     [
         <contenttweaker:peridot_ingot>
@@ -93,7 +93,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
-        <minecraft:diamond>
+        <ore:gemDiamond>
     ],
     [
         <betterwithmods:material:45>
@@ -102,7 +102,7 @@ mods.betterwithmods.Crucible.addStoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
-        <biomesoplenty:gem:1>
+        <ore:gemRuby>
     ],
     [
         <contenttweaker:ruby_ingot>
@@ -111,7 +111,7 @@ mods.betterwithmods.Crucible.addStoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
-        <biomesoplenty:gem:6>
+        <ore:gemSapphire>
     ],
     [
         <contenttweaker:sapphire_ingot>
@@ -120,7 +120,7 @@ mods.betterwithmods.Crucible.addStoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
-        <biomesoplenty:gem:2>
+        <ore:gemPeridot>
     ],
     [
         <contenttweaker:peridot_ingot>

@@ -78,8 +78,8 @@ mods.jei.JEI.removeAndHide(<rustic:tallow>);
 recipes.remove(<rustic:book>);
 recipes.addShaped("almanac",<rustic:book>,[
     [null,<harvestcraft:oliveitem>,null],
-    [<minecraft:iron_nugget>,<minecraft:book>,<minecraft:iron_nugget>],
-    [null,<minecraft:iron_nugget>,null]
+    [<ore:nuggetIron>,<minecraft:book>,<ore:nuggetIron>],
+    [null,<ore:nuggetIron>,null]
 ]);
 
 # Iron and Gold Lanterns
@@ -87,9 +87,9 @@ recipes.addShaped("almanac",<rustic:book>,[
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
 
-var iron = <minecraft:iron_ingot>;
-var tin = <simpleores:tin_ingot>;
-var gold = <minecraft:gold_ingot>;
+var iron = <ore:ingotIron>;
+var tin = <ore:ingotTin>;
+var gold = <ore:ingotGold>;
 var torch = <minecraft:torch>;
 var glass = <minecraft:glass_pane>;
 

@@ -11,7 +11,7 @@ recipes.addShaped("minecraftfuture_else/smoothstonerecipe", <minecraft:stone_sla
   [null,null,null]]);
 
 var a = <ore:stone>;
-var b = <iceandfire:silver_ingot>;
+var b = <ore:ingotSilver>;
 
 //igneous stone blocks
 val igStone = <undergroundbiomes:igneous_stone>;

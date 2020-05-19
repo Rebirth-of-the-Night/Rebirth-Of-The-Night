@@ -37,7 +37,7 @@ recipes.addShapeless("minecraftfuture_stew/sustew", <minecraftfuture:suspiciouss
 recipes.remove(<wards:ward>);
 recipes.addShaped("wards_ward", <wards:ward>,
   [[null,<minecraft:obsidian>,null],
-  [<minecraft:diamond>,<minecraft:obsidian>,<minecraft:diamond>],
+  [<ore:gemDiamond>,<minecraft:obsidian>,<ore:gemDiamond>],
   [<ore:stoneSlab>,<ore:cobblestone>,<ore:stoneSlab>]]);
 
 recipes.removeByRecipeName("minecraft:cake");
@@ -108,7 +108,7 @@ recipes.remove(<minecraft:fishing_rod>);
 recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
     [null,null,<ore:stickWood>],
     [null,<ore:stickWood>,<minecraft:string>],
-    [<ore:stickWood>,<minecraft:iron_nugget>|<contenttweaker:material_part:6>,<minecraft:string>]
+    [<ore:stickWood>,<ore:nuggetIron>|<contenttweaker:material_part:6>,<minecraft:string>]
 ]);
 
 
@@ -116,14 +116,14 @@ recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
 
 recipes.remove(<minecraft:detector_rail>);
 recipes.addShaped("detector_rail",<minecraft:detector_rail>*6,[
-    [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>,<ore:pressurePlateWood>,<minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]
+    [<ore:ingotIron>,null,<ore:ingotIron>],
+    [<ore:ingotIron>,<ore:pressurePlateWood>,<ore:ingotIron>],
+    [<ore:ingotIron>,<minecraft:redstone>,<ore:ingotIron>]
 ]);
 recipes.addShaped("tinrail",<minecraft:rail>*8,[
-    [<simpleores:tin_ingot>,null,<simpleores:tin_ingot>],
-    [<simpleores:tin_ingot>,<ore:stickWood>,<simpleores:tin_ingot>],
-    [<simpleores:tin_ingot>,null,<simpleores:tin_ingot>]
+    [<ore:ingotTin>,null,<ore:ingotTin>],
+    [<ore:ingotTin>,<ore:stickWood>,<ore:ingotTin>],
+    [<ore:ingotTin>,null,<ore:ingotTin>]
 ]);
 recipes.addShaped("steelrail",<minecraft:rail>*32,[
     [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>],
@@ -142,28 +142,28 @@ recipes.addShaped("wooden_chute",<chutes:chute_wood>*16,[
 recipes.remove(<sereneseasons:season_clock>);
 
 recipes.addShaped("tintripwirehook", <minecraft:tripwire_hook> * 2,[
-	[null, <simpleores:tin_ingot>, null],
+	[null, <ore:ingotTin>, null],
 	[null, <ore:stickWood>, null],
 	[null, <ore:plankWood>, null]
 ]);
 
 recipes.addShaped("tincompass", <minecraft:compass>,[
-	[null, <simpleores:tin_ingot>, null],
-	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
-	[null, <simpleores:tin_ingot>, null]
+	[null, <ore:ingotTin>, null],
+	[<ore:ingotTin>, <minecraft:redstone>, <ore:ingotTin>],
+	[null, <ore:ingotTin>, null]
 ]);
 
 recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
-	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>],
-	[<simpleores:tin_ingot>, <minecraft:redstone>, <simpleores:tin_ingot>],
-	[<minecraft:quartz>, <simpleores:tin_ingot>, <minecraft:quartz>]
+	[<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>],
+	[<ore:ingotTin>, <minecraft:redstone>, <ore:ingotTin>],
+	[<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>]
 ]);
 
 // new bucket recipe
 recipes.addShaped("tin_bucket", <minecraft:bucket>,[
 	[null, null, null],
-    [<simpleores:tin_ingot>, null, <simpleores:tin_ingot>],
-    [null, <simpleores:tin_ingot>, null]
+    [<ore:ingotTin>, null, <ore:ingotTin>],
+    [null, <ore:ingotTin>, null]
 ]);
 
 recipes.remove(<minecraft:concrete_powder:*>);
@@ -253,9 +253,9 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
 recipes.removeByRecipeName("lwr:recwirelessremote");
 recipes.removeByRecipeName("lwr:recwirelessreciever");
 recipes.removeByRecipeName("lwr:recwirelesstransmitter");
-recipes.addShaped("wireless_remote",<lwr:itemwirelessremote>, [[null, <minecraft:redstone_torch>, null],[<simpleores:tin_ingot>, <contenttweaker:order_rune>.anyDamage().transformDamage(), <simpleores:tin_ingot>], [<simpleores:tin_ingot>, <betterwithmods:material:34>, <simpleores:tin_ingot>]]);
-recipes.addShaped("wireless_reciever",<lwr:blockwirelessreciever>, [[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null],[null, <minecraft:ender_pearl>, null], [<simpleores:tin_ingot>, <simpleores:tin_ingot>, <simpleores:tin_ingot>]]);
-recipes.addShaped("wireless_transmitter",<lwr:blockwirelesstransmitter>, [[null, <minecraft:ender_pearl>, null],[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null], [<simpleores:tin_ingot>, <simpleores:tin_ingot>, <simpleores:tin_ingot>]]);
+recipes.addShaped("wireless_remote",<lwr:itemwirelessremote>, [[null, <minecraft:redstone_torch>, null],[<ore:ingotTin>, <contenttweaker:order_rune>.anyDamage().transformDamage(), <ore:ingotTin>], [<ore:ingotTin>, <betterwithmods:material:34>, <ore:ingotTin>]]);
+recipes.addShaped("wireless_reciever",<lwr:blockwirelessreciever>, [[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null],[null, <minecraft:ender_pearl>, null], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
+recipes.addShaped("wireless_transmitter",<lwr:blockwirelesstransmitter>, [[null, <minecraft:ender_pearl>, null],[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
 
 val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;
@@ -494,10 +494,13 @@ val coal = <ore:gemCoal>;
 coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
 
 val qualityGem = <ore:Gem_highQuality>;
-qualityGem.addItems([<minecraft:diamond>,<minecraft:emerald>,<simpleores:onyx_gem>,<netherex:amethyst_crystal>,<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
+qualityGem.addItems([<netherex:amethyst_crystal>,<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
+qualityGem.addAll(<ore:gemOnyx>);
+qualityGem.addAll(<ore:gemDiamond>);
+qualityGem.addAll(<ore:gemEmerald>);
 
 val viridiumOre = <ore:oreViridium>;
-viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore:4>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
+viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
 
 val viridiumIngot = <ore:ingotViridium>;
 viridiumIngot.add(<simpleores:adamantium_ingot>);
@@ -727,7 +730,7 @@ recipes.addShapeless("lunarin gold", <villagenames:lunaringoldbrick>*24,
 	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 );
 recipes.addShapeless("lunarin viridium", <contenttweaker:lunarinviridiumbrick>*24,
-	[<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>,<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>]
+	[<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>,<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>]
 );
 recipes.addShapeless("lunarin mythril", <contenttweaker:lunarinmythrilbrick>*24,
 	[<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>]
@@ -769,4 +772,4 @@ recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
 
 recipes.remove(<minecraft:enchanting_table>);
 
-recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <contenttweaker:luna_orb>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<ore:gemDiamond>, <contenttweaker:luna_orb>, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);

@@ -54,9 +54,9 @@ recipes.removeByRecipeName("biomesoplenty:biome_finder");
 
 recipes.remove(<biomesoplenty:gem_block:0>);
 recipes.addShaped("amethyst_to_block", <biomesoplenty:gem_block:0>, [
-    [<biomesoplenty:gem:0>,<biomesoplenty:gem:0>,<biomesoplenty:gem:0>],
-    [<biomesoplenty:gem:0>,<biomesoplenty:gem:0>,<biomesoplenty:gem:0>],
-    [<biomesoplenty:gem:0>,<biomesoplenty:gem:0>,<biomesoplenty:gem:0>]
+    [<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>],
+    [<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>],
+    [<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>]
 ]);
 
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>, 0.3);

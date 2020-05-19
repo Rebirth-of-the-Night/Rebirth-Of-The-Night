@@ -14,8 +14,8 @@ for item in <ore:listAllwater>.items{
       mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
    [
       [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>],
-      [<minecraft:iron_bars>, item, <simpleores:mythril_ingot>, null],
-      [<minecraft:iron_bars>, item, <simpleores:mythril_ingot>, null],
+      [<minecraft:iron_bars>, item, <ore:ingotMythril>, null],
+      [<minecraft:iron_bars>, item, <ore:ingotMythril>, null],
       [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>]
    ]);   
 }
@@ -83,7 +83,7 @@ GCT.replaceRecipe("containment_field", <arcanearchives:containment_field>, [<arc
 
 GCT.replaceRecipe("matrix_brace", <arcanearchives:matrix_brace>, [<arcanearchives:scintillating_inlay>, <ore:ingotElectrum>*2]);
 
-GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm>*4, [<minecraft:gold_ingot>*8, <bountifulbaubles:amuletsingluttony>, <mod_lavacow:sharptooth>*4]);
+GCT.replaceRecipe("devouring_charm", <arcanearchives:devouring_charm>*4, [<ore:ingotGold>*8, <bountifulbaubles:amuletsingluttony>, <mod_lavacow:sharptooth>*4]);
 
 GCT.replaceRecipe("radiant_key", <arcanearchives:radiant_key>*4, [<ore:ingotElectrum>, <contenttweaker:material_part:16>*3, <arcanearchives:shaped_quartz>]);
 

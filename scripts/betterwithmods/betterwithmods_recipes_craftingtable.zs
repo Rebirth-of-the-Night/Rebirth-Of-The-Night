@@ -6,7 +6,7 @@ import mods.jei.JEI;
 recipes.remove(<betterwithmods:material:34>);
 
 val latch = <betterwithmods:material:34>;
-val copper = <simpleores:copper_ingot>;
+val copper = <ore:ingotCopper>;
 val gnugg = <minecraft:gold_nugget>;
 val rstone = <minecraft:redstone>;
 
@@ -65,7 +65,7 @@ recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,
 recipes.remove(<fairylights:garland>);
 recipes.addShaped("vine_garland", <fairylights:garland>,
   [[null,null,null],
-  [<minecraft:iron_ingot>,<ore:vine>,<minecraft:iron_ingot>],
+  [<ore:ingotIron>,<ore:vine>,<ore:ingotIron>],
   [null,null,null]]);
 
 recipes.remove(<rats:marbled_cheese_brick_mossy>);

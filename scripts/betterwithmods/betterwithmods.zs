@@ -104,7 +104,7 @@ for i, output in arrayWindChime{
     recipes.addShaped(output,[
         [null,<minecraft:string>,null],
         [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<minecraft:iron_ingot>,arrayMoulding[i],<minecraft:iron_ingot>]
+        [<ore:ingotIron>,arrayMoulding[i],<ore:ingotIron>]
     ]);
 }
 

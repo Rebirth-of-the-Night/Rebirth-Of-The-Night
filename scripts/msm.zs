@@ -29,9 +29,9 @@ recipes.addShaped("Vampiric Blade", <msmlegacy:vampiric_blade>,[
 
 /////////////////////        Draconic Blade        /////////////////////
 
-var iron = <minecraft:iron_ingot>;
+var iron = <ore:ingotIron>;
 var redstone = <minecraft:redstone>;
-var diamond = <minecraft:diamond>;
+var diamond = <ore:gemDiamond>;
 var lapis = <minecraft:dye:4>;
 
 recipes.remove(<msmlegacy:draconic_blade>);
@@ -47,7 +47,7 @@ recipes.addShaped("Draconic Blade", <msmlegacy:draconic_blade>,[
 ////////////////////////////////////////    Relics        ///////////////////////////////////
 /////////////////////        Red Hot Chili Pepper Sword        /////////////////////
 
-var ruby = <biomesoplenty:gem:1>;
+var ruby = <ore:gemRuby>;
 var chili = <harvestcraft:chilipepperitem>;
 var blaze = <betterwithmods:material:27>;
 
@@ -150,7 +150,7 @@ var brokenheart = <bountifulbaubles:trinketbrokenheart>;
 var knighttrophy = <twilightforest:trophy:4>;
 var darksedge = <msmlegacy:wither_bane>;
 var heartofthefallen = <contenttweaker:heartofthefallen>;
-var onyx = <simpleores:onyx_gem>;
+var onyx = <ore:gemOnyx>;
 var soulrune = <contenttweaker:soul_rune>;
 var ravenfeather = <twilightforest:raven_feather>;
 

@@ -174,9 +174,9 @@ recipes.addShaped("rats_tnt_expert", <rats:rat_upgrade_tnt_survivor>,[
 ]); */
 
 recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
-    [<minecraft:iron_ingot>, <spartanshields:shield_basic_iron>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <rats:rat_upgrade_basic>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>]
+    [<ore:ingotIron>, <spartanshields:shield_basic_iron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <rats:rat_upgrade_basic>, <ore:ingotIron>],
+    [<ore:ingotIron>, <minecraft:iron_block>, <ore:ingotIron>]
 ]);
 
 recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[

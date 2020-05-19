@@ -29,7 +29,7 @@ recipes.addShaped(<contenttweaker:magic_orb>.withTag({"Quark:RuneColor": 7, ench
 //mundane
 recipes.addShaped(<contenttweaker:sol_rune>, [
 [null, <dungeontactics:magic_powder>, null],
-[<minecraft:yellow_flower>, <contenttweaker:blank_rune>, <minecraft:gold_ingot>], 
+[<minecraft:yellow_flower>, <contenttweaker:blank_rune>, <ore:ingotGold>], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:luna_rune>, [
@@ -155,7 +155,7 @@ recipes.addShaped(<contenttweaker:nature_rune>, [
 recipes.addShaped(<contenttweaker:strength_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:sol_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:earth_rune>.anyDamage().transformDamage()], 
-[null, <betterwithmods:material:14>|<endreborn:catalyst>|<twilightforest:steeleaf_ingot>|<betterwithmods:material:14>|<dungeontactics:steel_ingot>|<iceandfire:dragonsteel_fire_ingot>|<iceandfire:dragonsteel_ice_ingot>|<bountifulbaubles:brokenblackdragonscale>|<iceandfire:dragonscales_red>|<iceandfire:dragonscales_green>|<iceandfire:dragonscales_bronze>|<iceandfire:dragonscales_gray>|<iceandfire:dragonscales_blue>|<iceandfire:dragonscales_white>|<iceandfire:dragonscales_sapphire>|<iceandfire:dragonscales_silver>|<iceandfire:shiny_scales>|<dungeontactics:fish_muscle>|<rustic:ironberries>|<simpleores:onyx_gem>, null]]);
+[null, <betterwithmods:material:14>|<endreborn:catalyst>|<twilightforest:steeleaf_ingot>|<betterwithmods:material:14>|<dungeontactics:steel_ingot>|<iceandfire:dragonsteel_fire_ingot>|<iceandfire:dragonsteel_ice_ingot>|<bountifulbaubles:brokenblackdragonscale>|<iceandfire:dragonscales_red>|<iceandfire:dragonscales_green>|<iceandfire:dragonscales_bronze>|<iceandfire:dragonscales_gray>|<iceandfire:dragonscales_blue>|<iceandfire:dragonscales_white>|<iceandfire:dragonscales_sapphire>|<iceandfire:dragonscales_silver>|<iceandfire:shiny_scales>|<dungeontactics:fish_muscle>|<rustic:ironberries>|<ore:gemOnyx>, null]]);
 
 recipes.addShaped(<contenttweaker:mind_rune>, [
 [null, <dungeontactics:magic_powder>, null],
@@ -216,12 +216,12 @@ mods.betterwithaddons.Infuser.addShaped(<contenttweaker:aether_rune>, [
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:holding_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
 [<contenttweaker:illusion_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:order_rune>.anyDamage().transformDamage()], 
-[<endreborn:item_shard_obsidian>|<endreborn:catalyst>|<quark:biotite>|<undergroundbiomes:lignite_coal>, <minecraft:ender_eye>|<endreborn:item_ender_string>|<minecraft:shulker_shell>, <arcanearchives:shaped_quartz>|<biomesoplenty:gem:0>|<arcanearchives:raw_quartz>|<arcanearchives:radiant_dust>]],8);
+[<endreborn:item_shard_obsidian>|<endreborn:catalyst>|<quark:biotite>|<undergroundbiomes:lignite_coal>, <minecraft:ender_eye>|<endreborn:item_ender_string>|<minecraft:shulker_shell>, <arcanearchives:shaped_quartz>|<ore:gemAmethyst>|<arcanearchives:raw_quartz>|<arcanearchives:radiant_dust>]],8);
 
 mods.betterwithaddons.Infuser.addShaped(<endreborn:item_end_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
 [<contenttweaker:creation_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:life_rune>.anyDamage().transformDamage()], 
-[<endreborn:item_end_essence>|<biomesoplenty:gem:0>|<minecraft:end_stone>|<betterwithmods:material:39>, <endreborn:item_ingot_endorium>|<endreborn:item_end_shard>|<endreborn:item_raw_endorium>, <minecraft:ender_pearl>|<minecraft:ender_eye>]],8);
+[<endreborn:item_end_essence>|<ore:gemAmethyst>|<minecraft:end_stone>|<betterwithmods:material:39>, <endreborn:item_ingot_endorium>|<endreborn:item_end_shard>|<endreborn:item_raw_endorium>, <minecraft:ender_pearl>|<minecraft:ender_eye>]],8);
 
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:nether_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
@@ -239,7 +239,7 @@ mods.betterwithaddons.Infuser.addShaped(<contenttweaker:plague_rune>, [
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:arcane_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],
 [<contenttweaker:chaos_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:energy_rune>.anyDamage().transformDamage()], 
-[<biomesoplenty:sapling_0:3>|<dynamictreesbop:magicseed:0>|<twilightforest:twilight_sapling:4>|<twilightforest:twilight_sapling:5>|<twilightforest:twilight_sapling:6>|<twilightforest:twilight_sapling:7>|<twilightforest:twilight_sapling:8>|<twilightforest:twilight_sapling:9>|<aether_legacy:enchanted_blueberry>|<minecraft:golden_apple:*>, <simpleores:mythril_ingot>|<betterwithmods:material:20>|<twilightforest:fiery_ingot>|<aether_legacy:enchanted_gravitite>, <arcanearchives:radiant_dust>|<contenttweaker:magic_orb>|<biomesoplenty:biome_essence>]],8);
+[<biomesoplenty:sapling_0:3>|<dynamictreesbop:magicseed:0>|<twilightforest:twilight_sapling:4>|<twilightforest:twilight_sapling:5>|<twilightforest:twilight_sapling:6>|<twilightforest:twilight_sapling:7>|<twilightforest:twilight_sapling:8>|<twilightforest:twilight_sapling:9>|<aether_legacy:enchanted_blueberry>|<minecraft:golden_apple:*>, <ore:ingotMythril>|<betterwithmods:material:20>|<twilightforest:fiery_ingot>|<aether_legacy:enchanted_gravitite>, <arcanearchives:radiant_dust>|<contenttweaker:magic_orb>|<biomesoplenty:biome_essence>]],8);
 
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:fae_rune>, [
 [<dungeontactics:magic_powder>, <bountifulbaubles:spectralsilt>, <dungeontactics:magic_powder>],

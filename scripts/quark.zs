@@ -111,7 +111,7 @@ recipes.addShapeless("Quark crystal 8-1", <quark:crystal:8>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <endreborn:dragon_scales>]
 );
 recipes.addShapeless("Quark crystal 8-2", <quark:crystal:8>*3,
-	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <simpleores:onyx_gem>]
+	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <ore:gemOnyx>]
 );
 recipes.addShapeless("Quark crystal 7", <quark:crystal:7>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <ore:gemAmethyst>]
@@ -123,16 +123,16 @@ recipes.addShapeless("Quark crystal 6-2", <quark:crystal:6>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <endreborn:item_advanced_ender_pearl>]
 );
 recipes.addShapeless("Quark crystal 5-1", <quark:crystal:5>*3,
-	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <biomesoplenty:gem:6>]
+	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <ore:gemSapphire>]
 );
 recipes.addShapeless("Quark crystal 5-2", <quark:crystal:5>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <minecraft:dye:4>]
 );
 recipes.addShapeless("Quark crystal 4-1", <quark:crystal:4>*3,
-	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <minecraft:emerald>]
+	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <ore:gemEmerald>]
 );
 recipes.addShapeless("Quark crystal 4-2", <quark:crystal:4>*3,
-	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <biomesoplenty:gem:2>]
+	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <ore:gemPeridot>]
 );
 recipes.addShapeless("Quark crystal 4-3", <quark:crystal:4>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <iceandfire:myrmex_jungle_resin>]
@@ -150,13 +150,13 @@ recipes.addShapeless("Quark crystal 2-2", <quark:crystal:2>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <minecraft:blaze_powder>]
 );
 recipes.addShapeless("Quark crystal 1-1", <quark:crystal:1>*3,
-	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <biomesoplenty:gem:1>]
+	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <ore:gemRuby>]
 );
 recipes.addShapeless("Quark crystal 1-2", <quark:crystal:1>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <scalinghealth:crystalshard>]
 );
 recipes.addShapeless("Quark crystal 0-1", <quark:crystal:0>*3,
-	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <minecraft:diamond>]
+	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <ore:gemDiamond>]
 );
 recipes.addShapeless("Quark crystal 0-2", <quark:crystal:0>*3,
 	[<contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:halite>, <contenttweaker:phosphophyllite>]

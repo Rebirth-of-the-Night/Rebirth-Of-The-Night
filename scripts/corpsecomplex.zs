@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 recipes.remove(<corpsecomplex:scroll>);
 
 var enderpearl = <minecraft:ender_pearl>;
-var emerald = <minecraft:emerald>;
+var emerald = <ore:gemEmerald>;
 var paper = <minecraft:paper>;
 
 mods.betterwithaddons.Infuser.addShaped(<corpsecomplex:scroll>, [

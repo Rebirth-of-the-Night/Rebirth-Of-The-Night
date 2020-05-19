@@ -21,7 +21,7 @@ recipes.remove(<harvestcraft:saltitem>);
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[
 	[<ore:plankWood>,<ore:logWood>,<ore:plankWood>],
-	[<ore:logWood>,<minecraft:emerald>,<ore:logWood>],
+	[<ore:logWood>,<ore:gemEmerald>,<ore:logWood>],
 	[<ore:plankWood>,<ore:logWood>,<ore:plankWood>]
 ]);
 
@@ -224,28 +224,28 @@ recipes.removeByRecipeName("harvestcraft:beeswaxitem_cropcandle");
 //pot
 recipes.addShaped("Pot", <harvestcraft:potitem>,[
 	[null, null, null],
-	[<ore:stickWood>, <simpleores:copper_ingot>, <simpleores:copper_ingot>],
-	[null, <simpleores:copper_ingot>, <simpleores:copper_ingot>]
+	[<ore:stickWood>, <ore:ingotCopper>, <ore:ingotCopper>],
+	[null, <ore:ingotCopper>, <ore:ingotCopper>]
 ]);
 
 //skillet
 recipes.addShaped("Skillet", <harvestcraft:skilletitem>,[
-	[<simpleores:copper_ingot>, null, null],
-	[null, <simpleores:copper_ingot>, null],
+	[<ore:ingotCopper>, null, null],
+	[null, <ore:ingotCopper>, null],
 	[null, null, <ore:stickWood>]
 ]);
 
 //saucepan
 recipes.addShaped("Saucepan", <harvestcraft:saucepanitem>,[
-	[<simpleores:copper_ingot>, null, null],
+	[<ore:ingotCopper>, null, null],
 	[null, <ore:stickWood>, null]
 ]);
 
 //bakeware
 recipes.addShaped("Bakeware", <harvestcraft:bakewareitem> * 3,[
-	[<simpleores:copper_ingot>, <simpleores:copper_ingot>, <simpleores:copper_ingot>],
-	[<simpleores:copper_ingot>, null, <simpleores:copper_ingot>],
-	[<simpleores:copper_ingot>, <simpleores:copper_ingot>, <simpleores:copper_ingot>]
+	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+	[<ore:ingotCopper>, null, <ore:ingotCopper>],
+	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]
 ]);
 
 // leather yogurt wtf

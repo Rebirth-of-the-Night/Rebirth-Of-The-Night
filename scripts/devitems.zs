@@ -16,10 +16,10 @@ mods.jei.JEI.addDescription([<dungeontactics:steel_sword:*>],['A sword imbued wi
 
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
 [
-    [null, null, <minecraft:diamond>, <quark:rune:16>],
-    [null, <iceandfire:silver_ingot>, <minecraft:dye:9>, <minecraft:diamond>],
-    [<minecraft:diamond>, <minecraft:dye:9>, <iceandfire:silver_ingot>, null],
-    [<minecraft:diamond>, <minecraft:diamond>, null, null ]
+    [null, null, <ore:gemDiamond>, <quark:rune:16>],
+    [null, <ore:ingotSilver>, <minecraft:dye:9>, <ore:gemDiamond>],
+    [<ore:gemDiamond>, <minecraft:dye:9>, <ore:ingotSilver>, null],
+    [<ore:gemDiamond>, <ore:gemDiamond>, null, null ]
 ]);
 
 // CalaMariGold

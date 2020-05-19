@@ -30,7 +30,7 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
 
 // Potions
 
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <simpleores:mythril_ingot>, <bountifulbaubles:potionrecall>);
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <quark:arrow_ender>, <bountifulbaubles:potionwormhole>);
 
 // Ender dragon drops cracked scales AND scale fragments. Use fragments to craft into cracked scales. Use cracked scales to craft into the scale bauble.
@@ -56,7 +56,7 @@ recipes.remove(<bountifulbaubles:amuletsinempty>);
 recipes.addShaped("Sin Pendant", <bountifulbaubles:amuletsinempty>,[
 [null, <minecraft:string>, null],
 [<minecraft:string>, <dungeontactics:magic_powder>, <minecraft:string>], 
-[null, <iceandfire:silver_ingot>, null]]);
+[null, <ore:ingotSilver>, null]]);
 
 // Wrath Pendant
 
@@ -94,9 +94,9 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletsingluttony>,[
 // Ender Dragon Scale
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketblackdragonscale>,[
-[<bountifulbaubles:spectralsilt>, <bountifulbaubles:brokenblackdragonscale>, <simpleores:onyx_gem>],
+[<bountifulbaubles:spectralsilt>, <bountifulbaubles:brokenblackdragonscale>, <ore:gemOnyx>],
 [<quark:black_ash>, <contenttweaker:nether_rune>.anyDamage().transformDamage(), <quark:black_ash>], 
-[<simpleores:onyx_gem>, <bountifulbaubles:brokenblackdragonscale>, <bountifulbaubles:spectralsilt>]], 32);
+[<ore:gemOnyx>, <bountifulbaubles:brokenblackdragonscale>, <bountifulbaubles:spectralsilt>]], 32);
 
 // Obsidian Skull
 
@@ -113,16 +113,16 @@ recipes.remove(<bountifulbaubles:magicmirror>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:magicmirror>,[
 [<biomesoplenty:biome_essence>, <bountifulbaubles:potionrecall>, <biomesoplenty:biome_essence>],
-[<iceandfire:silver_ingot>, <contenttweaker:end_orb>.anyDamage().transformDamage(), <iceandfire:silver_ingot>], 
-[<bountifulbaubles:spectralsilt>, <iceandfire:silver_ingot>, <bountifulbaubles:spectralsilt>]], 16);
+[<ore:ingotSilver>, <contenttweaker:end_orb>.anyDamage().transformDamage(), <ore:ingotSilver>], 
+[<bountifulbaubles:spectralsilt>, <ore:ingotSilver>, <bountifulbaubles:spectralsilt>]], 16);
 
 // Cobalt Shield
 
 recipes.remove(<bountifulbaubles:shieldcobalt>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:shieldcobalt>,[
-[<bountifulbaubles:spectralsilt>, <iceandfire:silver_ingot>, <bountifulbaubles:spectralsilt>],
-[<iceandfire:silver_ingot>, <spartanshields:shield_basic_iron>, <iceandfire:silver_ingot>], 
+[<bountifulbaubles:spectralsilt>, <ore:ingotSilver>, <bountifulbaubles:spectralsilt>],
+[<ore:ingotSilver>, <spartanshields:shield_basic_iron>, <ore:ingotSilver>], 
 [<bountifulbaubles:spectralsilt>, <contenttweaker:strength_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]], 32);
    
 //Wormhole Mirror
@@ -157,7 +157,7 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketmixeddragonscal
 recipes.remove(<bountifulbaubles:ringfreeaction>);
 
 mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringfreeaction>,[
-[null, <simpleores:mythril_ingot>, null],
+[null, <ore:ingotMythril>, null],
 [<minecraft:web>, <bountifulbaubles:ringoverclocking>, <minecraft:web>], 
 [<dungeontactics:charm_heavy>, <contenttweaker:spectral_shard>, <bountifulbaubles:trinketshulkerheart>]], 64);
    
@@ -220,8 +220,8 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringoverclocking>,[
 
 recipes.addShaped("BB_Crown", <bountifulbaubles:crowngold>.withTag({Quality: {}}),[
 	[null, null, null],
-	[<minecraft:gold_ingot>, <biomesoplenty:gem:1>, <minecraft:gold_ingot>], 
-	[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+	[<ore:ingotGold>, <ore:gemRuby>, <ore:ingotGold>], 
+	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
 
 // Sunglasses
 
