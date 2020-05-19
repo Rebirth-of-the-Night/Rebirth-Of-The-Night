@@ -789,6 +789,15 @@
         "item": "bountifulbaubles:spectralsilt"
     }
   },
+	
+  {
+    "tool": {
+        "item": "toolbelt:belt"
+    },
+    "material": {
+        "item": "minecraft:leather"
+    }
+  },
                     
   {
     "tool": {
