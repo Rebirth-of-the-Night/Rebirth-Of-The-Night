@@ -1,11 +1,6 @@
 [
   {
-    "comment": "This file contains custom reforging materials. By default, you can reforge
-                a tool with its repair item (like iron ingots for an iron sword), but some
-                items don't have a repair item, like bows. This adds items to reforge those.
-                It can also add an item for 'any', which will work for any item that can't be
-                reforged otherwise. For more info about how to add materials, visit:
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "comment": "This file contains custom reforging materials. By default, you can reforge a tool with its repair item (like iron ingots for an iron sword), but some items don't have a repair item, like bows. This adds items to reforge those. It can also add an item for 'any', which will work for any item that can't be reforged otherwise. For more info about how to add materials, visit: https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "tool": "any",
     "material": {
         "item": "simpleores:mythril_ingot"
