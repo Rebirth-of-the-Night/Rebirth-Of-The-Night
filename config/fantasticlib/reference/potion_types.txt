@@ -116,6 +116,7 @@ extraalchemy:push_strong
 extraalchemy:pull_normal
 extraalchemy:pull_long
 extraalchemy:pull_strong
+fireresistancetiers:strong_fire_resistance
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
 netherex:freezing
@@ -259,3 +260,7 @@ toroquest:strong_royalty
 toroquest:loyalty
 toroquest:long_loyalty
 toroquest:strong_loyalty
+cyclicmagic:ender
+cyclicmagic:butter
+cyclicmagic:butter2
+cyclicmagic:bounce

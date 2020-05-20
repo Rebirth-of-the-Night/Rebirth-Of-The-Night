@@ -11,4 +11,4 @@ criteria.addItem("dungeontactics:silver_sword")
 
 alwaysVisible()
 setFrameType("CHALLENGE")
-setPos(-18,-18)
+setPos(-18,-13)

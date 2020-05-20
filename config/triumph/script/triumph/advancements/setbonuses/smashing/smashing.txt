@@ -17,4 +17,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/smashing/mainhand")
 
 hideLines()
 alwaysVisible()
-setPos(-227,69)
+setPos(-227,84)

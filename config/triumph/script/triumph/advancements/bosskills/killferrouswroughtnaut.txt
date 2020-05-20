@@ -1,4 +1,4 @@
-setIcon(<mowziesmobs:wrought_helmet>)
+setIcon(<mowziesmobs:wrought_axe>)
 setTitle("Broken Vanguard")
 setDescription("Defeat a forgotten iron titan.")
 

@@ -19,4 +19,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/boots"
 
 
 alwaysVisible()
-setPos(-113,127)
+setPos(-113,145)

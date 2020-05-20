@@ -20,4 +20,4 @@ criteria.addItem("aether_legacy:phoenix_boots")
 
 alwaysVisible()
 hideLines()
-setPos(-243,138)
+setPos(-243,156)

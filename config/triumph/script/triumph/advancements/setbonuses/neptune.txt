@@ -20,4 +20,4 @@ criteria.addItem("aether_legacy:neptune_boots")
 
 alwaysVisible()
 hideLines()
-setPos(-211,138)
+setPos(-211,156)
