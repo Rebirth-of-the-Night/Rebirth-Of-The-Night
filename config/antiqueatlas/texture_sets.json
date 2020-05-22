@@ -18,6 +18,12 @@
       "golrithsaa:textures/tc_magicalforest4.png",
       "golrithsaa:textures/tc_magicalforest5.png"
     ],
+    "NX_TORRID": [
+      "antiqueatlas:textures/nx_torrid.png"
+    ],
+    "BOP_VISCERAL": [
+      "antiqueatlas:textures/bop_visceral.png"
+    ],
     "BOP_WASTELAND": [
       "golrithsaa:textures/bop_wasteland.png"
     ],
