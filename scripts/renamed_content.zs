@@ -2,6 +2,8 @@ import crafttweaker.game.IGame;
 
 
 
+// Slimes
+<minecraft:slime_ball>.displayName = "Green Slimeball";
 
 
 // Aether Legacy

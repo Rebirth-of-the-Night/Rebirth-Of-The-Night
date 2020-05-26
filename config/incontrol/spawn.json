@@ -74,6 +74,12 @@
     "result": "deny"
  },
 
+ {
+    "mob": ["null:black_slime","null:iron_slime","null:blue_slime","null:red_slime","null:purple_slime","null:yellow_slime","null:jungle_slime","null:ice_slime","null:sand_slime","null:spectral_slime","null:haunted_slime","null:gold_slime","null:knight_slime"],
+    "result": "deny",
+    "onjoin": true
+  },
+
 //aether spawns
  {
     "dimension": 4,
@@ -203,16 +209,7 @@
 
 
 // attempt to ensure black death only spawns one at a time
-  {
-    "dimension": 0,
-    "mob": "rats:black_death",
-    "mincount": {
-      "amount": 1,
-      "mob": "rats:black_death",
-      "perchunk": true
-    },
-    "result": "deny"
-  },
+
  
   {
     "mob": "minecraft:pig",
@@ -373,20 +370,6 @@
 	"random": 0.5,
     "maxcount": {
         "amount": 3,
-        "perplayer": true
-    },
-    "result": "allow"
- },
- 
- 
- {
-    "dimension": 10,
-    "mob": "minecraft:slime",
-    "maxlight": 7,
-    "minlight": 0,
-	"random": 0.7,
-    "maxcount": {
-        "amount": 2,
         "perplayer": true
     },
     "result": "allow"
@@ -1980,6 +1963,7 @@
     "maxlight": 15,
     "minlight": 14,
     "random": 0.003,
+    "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "seesky": true,
     "maxcount": {
         "amount": 2,
@@ -2000,6 +1984,7 @@
     "minlight": 14,
     "random": 0.003,
     "seesky": true,
+    "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "gamestage": "enteredAether",
     "maxcount": {
         "amount": 2,
@@ -2020,6 +2005,7 @@
     "minlight": 14,
     "random": 0.003,
     "seesky": true,
+    "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "gamestage": "fullMidArmor",
     "maxcount": {
         "amount": 2,
@@ -2039,6 +2025,7 @@
     "maxlight": 15,
     "minlight": 14,
     "random": 0.003,
+    "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "seesky": true,
     "gamestage": "minedMythril",
     "maxcount": {
@@ -2056,13 +2043,13 @@
   {
     "dimension": 0,
     "mob": "specialmobs:strawberryslime",
-    "random": 0.003,
     "maxlight": 15,
     "minlight": 14,
+    "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "seesky": true,
     "gamestage": "enteredNether",
     "maxcount": {
-        "amount": 2,
+        "amount": 20,
         "perplayer": true
     },
     "result": "allow"
@@ -2079,6 +2066,7 @@
     "maxlight": 15,
     "minlight": 14,
     "random": 0.003,
+    "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "seesky": true,
     "gamestage": "killedEnderDragon",
     "maxcount": {
@@ -2228,22 +2216,15 @@
  },
  {
     "dimension": 0,
+    "gamestage": "enteredBeneath",
     "mob": "rats:black_death",
-    "gamestage": "minedMythril",
-	"maxlight": 7,
-    "minlight": 0,
-	"random": 0.005,
-	"seesky": true,
-    "maxcount": {
-        "amount": 1,
-        "perplayer": true
-    },
-    "result": "allow",
-	"potion": ["mowziesmobs:poison_resist,1000000,2", "minecraft:regeneration,1000000,1", "potioncore:purity,1000000,1", "potioncore:magic_shield,1000000,2"]
+    "onjoin": "true",
+    "result": "default"
  },
  {
     "dimension": 0,
     "mob": "rats:black_death",
+    "onjoin": "true",
     "result": "deny"
  },
 

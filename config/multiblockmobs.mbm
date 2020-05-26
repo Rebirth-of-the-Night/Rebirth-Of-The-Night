@@ -1,0 +1,51 @@
+#Dimension
+#Hashtags are comments
+#X goes across, Y goes down
+#Spacing is important
+#Mob 1
+!startMultiblockMob
+!startDim
+Dimensions:[x = 3, y = 3, z = 3]
+!endDim
+
+!startInit
+quark:color_slime:1 = "s"
+minecraft:gold_block = "g"
+biomesoplenty:gem_block:1 = "r"
+biomesoplenty:gem_block:2 = "p"
+multiblockmobs:soul_chassis = "c"
+minecraft:air = "~"
+!endInit
+
+!startLoc
+#z=0
+["prp"]
+["sss"]
+["sss"]
+#z=1
+["r~r"]
+["sss"]
+["sss"]
+#z=2
+["prp"]
+["sss"]
+["sss"]
+!endLoc
+
+!startCustom
+particals = "true"
+particaltype = "modid:partical"
+music = "true"
+musicFile = "music"
+soundEffect = "true"
+soundEffectFile = "sound_effect"
+customChat = "true"
+customChat = "You made a mistake"
+customCommand = "say Hi"
+!stopCustom
+
+!entityStart
+entity = "null:king_slime"
+!entityStop
+
+!endMultiblockMob
