@@ -39,7 +39,7 @@ recipes.addShapeless("ingot_to_electrum_nugget",elecnugget* 9,
 );
 
 recipes.addShapeless("gold_silver_mixture", <contenttweaker:silver_gold_mixture>, 
-[<minecraft:gold_ingot>,<minecraft:gold_ingot>,<ore:ingotSilver>,<aether_legacy:ambrosium_shard>]
+[<ore:ingotGold>,<ore:ingotGold>,<ore:ingotSilver>,<aether_legacy:ambrosium_shard>]
 );
 recipes.addShapeless("gold_silver_mixture_return", <minecraft:gold_ingot>*2,
     [<contenttweaker:silver_gold_mixture>],

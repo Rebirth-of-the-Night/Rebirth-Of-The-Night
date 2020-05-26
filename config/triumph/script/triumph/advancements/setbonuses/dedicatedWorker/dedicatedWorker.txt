@@ -20,4 +20,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/boots")
 
 hideLines()
 alwaysVisible()
-setPos(-189,69)
+setPos(-189,84)

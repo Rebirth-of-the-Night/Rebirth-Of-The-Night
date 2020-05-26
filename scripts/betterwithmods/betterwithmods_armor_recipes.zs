@@ -12,13 +12,13 @@ mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:42>, [
 ]);
 mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:42>, [
    [<ore:hideStrap>],
-   [<simpleores:mythril_ingot>],
+   [<ore:ingotMythril>],
    [<ore:padding>],
    [<ore:hideStrap>]
 ]);
 mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:42>, [
    [<ore:hideStrap>],
-   [<simpleores:adamantium_ingot>],
+   [<ore:ingotViridium>],
    [<ore:padding>],
    [<ore:hideStrap>]
 ]);
@@ -118,30 +118,30 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_leggings>,
 //Viridium
 mods.betterwithmods.Anvil.addShaped(<simpleores:adamantium_helmet>, 
 [
-   [<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <betterwithmods:material:42>],
-   [<simpleores:adamantium_ingot>, null, null, null],
-   [<simpleores:adamantium_ingot>, null, null, null],
-   [<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <betterwithmods:material:42>]
+   [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>, <betterwithmods:material:42>],
+   [<ore:ingotViridium>, null, null, null],
+   [<ore:ingotViridium>, null, null, null],
+   [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>, <betterwithmods:material:42>]
 ]);   
    mods.betterwithmods.Anvil.addShaped(<simpleores:adamantium_chestplate>, 
    [
-   [<betterwithmods:material:42>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>],
-   [null, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>],
-   [null, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>],
-   [<betterwithmods:material:42>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>],
+   [<betterwithmods:material:42>, <ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>],
+   [null, <ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>],
+   [null, <ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>],
+   [<betterwithmods:material:42>, <ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>],
 ]);
 mods.betterwithmods.Anvil.addShaped(<simpleores:adamantium_leggings>, 
 [
-   [<simpleores:adamantium_ingot>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
-   [<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, null, null],
-   [<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, null, null],
-    [<simpleores:adamantium_ingot>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>]
+   [<ore:ingotViridium>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>],
+   [<ore:ingotViridium>, <ore:ingotViridium>, null, null],
+   [<ore:ingotViridium>, <ore:ingotViridium>, null, null],
+    [<ore:ingotViridium>, <betterwithmods:material:42>, <betterwithmods:material:42>, <betterwithmods:material:42>]
 ]);mods.betterwithmods.Anvil.addShaped(<simpleores:adamantium_boots>, 
 [
-   [null, null, <simpleores:adamantium_ingot>],
-   [<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <betterwithmods:material:42>],
-   [<simpleores:adamantium_ingot>, <simpleores:adamantium_ingot>, <betterwithmods:material:42>],
-   [null, null, <simpleores:adamantium_ingot>]
+   [null, null, <ore:ingotViridium>],
+   [<ore:ingotViridium>, <ore:ingotViridium>, <betterwithmods:material:42>],
+   [<ore:ingotViridium>, <ore:ingotViridium>, <betterwithmods:material:42>],
+   [null, null, <ore:ingotViridium>]
 ]);
 
 

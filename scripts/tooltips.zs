@@ -85,6 +85,25 @@
 <quark:backpack>.addTooltip("An invaluable storage tool, although it must be worn in place of chest armor.");
 <quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
 <quark:iron_ladder>.addTooltip("Right click on a tin ladder to place another ladder below which doesn't require a standing block.");
+#Quark Hoes
+<minecraft:stone_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<minecraft:iron_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<minecraft:diamond_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<minecraft:golden_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<twilightforest:ironwood_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<twilightforest:steeleaf_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<betterwithmods:steel_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<atop:mud_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:silver_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonbone_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:myrmex_desert_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:myrmex_jungle_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonsteel_fire_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonsteel_ice_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<netherex:frosted_amedian_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<simpleores:mythril_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<simpleores:adamantium_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<simpleores:onyx_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 
 #Pyrotech
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");

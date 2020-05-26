@@ -96,7 +96,7 @@ mods.betterwithmods.Anvil.addShaped(<spartanshields:shield_basic_lead>,
     [<ore:ingotMythril>, <ore:ingotMythril>, null, null]
 ]);
 
-mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_lead>, <simpleores:mythril_ingot>);
+mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_lead>, <ore:ingotMythril>);
 mods.jei.JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairCost: 0, display: {Name: "Mythril Shield"}})],["It's on the edge of the abyss that this shield truly shines."]);
 
 //Gem forged shield
@@ -105,13 +105,13 @@ val polishedPapiz = <betterwithmods:material:20>;
 recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
 [
 	[qualityGem, null, qualityGem],
-    [<minecraft:diamond>, polishedPapiz, <minecraft:diamond>],
-    [null, <minecraft:diamond>, null]
+    [<ore:gemDiamond>, polishedPapiz, <ore:gemDiamond>],
+    [null, <ore:gemDiamond>, null]
 ]);
 mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qualityGem);
 
 //Obsidian Shield Bauble
-recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[<simpleores:onyx_gem>, <bountifulbaubles:trinketobsidianskull>, <simpleores:onyx_gem>],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [<simpleores:onyx_gem>, <spartanshields:shield_basic_obsidian>, <simpleores:onyx_gem>]]);
+recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[<ore:gemOnyx>, <bountifulbaubles:trinketobsidianskull>, <ore:gemOnyx>],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [<ore:gemOnyx>, <spartanshields:shield_basic_obsidian>, <ore:gemOnyx>]]);
 //Ankh Shield Bauble
 recipes.addShaped(<bountifulbaubles:shieldankh>, [[<spartanshields:shield_basic_diamond>, <bountifulbaubles:shieldobsidian>, <spartanshields:shield_basic_diamond>],[<endreborn:item_end_essence>, <bountifulbaubles:trinketankhcharm>, <endreborn:item_end_essence>], [<spartanshields:shield_basic_diamond>, <spartanshields:shield_basic_lead>, <spartanshields:shield_basic_diamond>]]);
 
@@ -366,5 +366,5 @@ for x, weapon in aetherWeapon {
  
 //True Night edge
 recipes.addHiddenShapeless("trueNightsEdge", <spartanweaponry:throwing_knife_electrum>.withTag({display: {Name: "§6True Night's Edge"}, AttributeModifiers: [{UUIDMost: 52977, UUIDLeast: 170749, Amount: 4, Slot: "mainhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}, {UUIDMost: 27219, UUIDLeast: 165766, Amount: 4, Slot: "offhand", AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage"}]}),
-    [<simpleores:onyx_gem>, <simpleores:onyx_gem>]
+    [<ore:gemOnyx>, <ore:gemOnyx>]
 );

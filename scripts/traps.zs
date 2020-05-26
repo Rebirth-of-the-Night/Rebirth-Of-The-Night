@@ -25,7 +25,7 @@ recipes.addShaped("Nails 2", <minetraps:nails>,[
     [silvernugget, silvernugget, silvernugget]
 ]);
 
-var ironnugget = <minecraft:iron_nugget>;
+var ironnugget = <ore:nuggetIron>;
 
 recipes.addShaped("Nails 3", <minetraps:nails>,[
   [null, null, null],

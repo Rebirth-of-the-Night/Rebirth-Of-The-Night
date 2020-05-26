@@ -17,4 +17,4 @@ criteria = addCriteria("Mythril Boots", "minecraft:inventory_changed")
 criteria.addItem("simpleores:mythril_boots")
 
 alwaysVisible()
-setPos(-113,69)
+setPos(-113,87)

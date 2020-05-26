@@ -23,4 +23,4 @@ criteria.addItem("aether_legacy:valkyrie_lance")
 
 alwaysVisible()
 hideLines()
-setPos(-275,138)
+setPos(-275,156)

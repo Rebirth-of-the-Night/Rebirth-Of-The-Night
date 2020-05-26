@@ -1,0 +1,20 @@
+setIcon("mowziesmobs:wrought_helmet")
+setTitle("Walking Fortress")
+setDescription("Complete the Walking Fortress set.")
+
+addParent("triumph:advancements/setbonuses/unstoppable")
+
+criteria = addCriteria("Plate Armor Helmet", "minecraft:inventory_changed")
+criteria.addItem("mowziesmobs:wrought_helmet")
+
+criteria = addCriteria("Plate Armor Chestplate", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_chest")
+
+criteria = addCriteria("Plate Armor Leggings", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_pants")
+
+criteria = addCriteria("Plate Armor Boots", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:steel_boots")
+
+alwaysVisible()
+setPos(-113,-141)

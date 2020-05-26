@@ -22,8 +22,8 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 mods.betterwithmods.Anvil.addShaped(<quark:diamond_heart>, 
 [
    [<bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>],
-   [<arcanearchives:shaped_quartz>, <minecraft:diamond>, <minecraft:diamond>, <bountifulbaubles:spectralsilt>],
-   [<bountifulbaubles:spectralsilt>, <minecraft:diamond>, <minecraft:diamond>, <arcanearchives:shaped_quartz>],
+   [<arcanearchives:shaped_quartz>, <ore:gemDiamond>, <ore:gemDiamond>, <bountifulbaubles:spectralsilt>],
+   [<bountifulbaubles:spectralsilt>, <ore:gemDiamond>, <ore:gemDiamond>, <arcanearchives:shaped_quartz>],
    [<arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>, <arcanearchives:shaped_quartz>, <bountifulbaubles:spectralsilt>]
 ]);
 
@@ -34,10 +34,10 @@ paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass
 for item in paneGlass.items{
    mods.betterwithmods.Anvil.addShaped(<quark:pipe> * 12, 
    [
-      [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null],
-      [<simpleores:copper_ingot>, item, item, <simpleores:copper_ingot>],
-      [<simpleores:copper_ingot>, item, item, <simpleores:copper_ingot>],
-      [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>, null]
+      [null, <ore:ingotIron>, <ore:ingotIron>, null],
+      [<ore:ingotCopper>, item, item, <ore:ingotCopper>],
+      [<ore:ingotCopper>, item, item, <ore:ingotCopper>],
+      [null, <ore:ingotIron>, <ore:ingotIron>, null]
    ]);
 }
 
@@ -79,9 +79,9 @@ mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_lightning>, #Li
 
 // Spartan Compat
 var blaze = <minecraft:blaze_rod>;
-var viridium = <simpleores:adamantium_ingot>;
-var mythril = <simpleores:mythril_ingot>;
-var onyx = <simpleores:onyx_gem>;
+var viridium = <ore:ingotViridium>;
+var mythril = <ore:ingotMythril>;
+var onyx = <ore:gemOnyx>;
 var fire_dragonsteel = <iceandfire:dragonsteel_fire_ingot>;
 var ice_dragonsteel = <iceandfire:dragonsteel_ice_ingot>;
 var wbone = <spartanfire:witherbone_handle>;

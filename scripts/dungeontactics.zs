@@ -61,7 +61,7 @@ recipes.remove(<dungeontactics:rocket_pants>);
 recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
     [<minecraft:redstone>,<ore:buttonStone>,<minecraft:redstone>],
     [<minecraft:fireworks>,<minecraft:leather_leggings>,<minecraft:fireworks>],
-    [<minecraft:fireworks>,<minecraft:iron_ingot>,<minecraft:fireworks>]
+    [<minecraft:fireworks>,<ore:ingotIron>,<minecraft:fireworks>]
 ]);
 
 recipes.remove(<dungeontactics:flight_goggles>);
@@ -392,7 +392,7 @@ mods.betterwithaddons.Infuser.addShaped(<dungeontactics:lantern_magic>, [
 	64);
 
 
-var ironnugget = <minecraft:iron_nugget>;
+var ironnugget = <ore:nuggetIron>;
 
 recipes.addShapedMirrored("Iron Ring", <dungeontactics:iron_ring>,[
 	[null, null, null],

@@ -93,9 +93,9 @@
     "mobs": [
       {
         "mob": "minecraft:cave_spider",
-        "weight": 3,
+        "weight": 2.5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },

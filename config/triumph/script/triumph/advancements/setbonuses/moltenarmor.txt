@@ -20,4 +20,4 @@ criteria.addItem(<mod_lavacow:felarmor_boots>)
 
 alwaysVisible()
 hideLines()
-setPos(-227,98)
+setPos(-227,119)

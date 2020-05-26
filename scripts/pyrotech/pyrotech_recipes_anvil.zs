@@ -64,8 +64,8 @@ GraniteAnvil.addRecipe("halite to salt",<animania:salt>*3, <contenttweaker:halit
 GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>, 48,"hammer", true);
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>, 64,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_fossil",<pyrotech:material:35>*2, <undergroundbiomes:fossil_piece:*>, 4,"hammer", true);
-GraniteAnvil.addRecipe("refractorylump_ruby",<pyrotech:material:35>*2, <biomesoplenty:gem:1>, 64,"hammer", true);
-GraniteAnvil.addRecipe("refractorylump_sapphire",<pyrotech:material:35>*2, <biomesoplenty:gem:6>, 64,"hammer", true);
+GraniteAnvil.addRecipe("refractorylump_ruby",<pyrotech:material:35>*2, <ore:gemRuby>, 64,"hammer", true);
+GraniteAnvil.addRecipe("refractorylump_sapphire",<pyrotech:material:35>*2, <ore:gemSapphire>, 64,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_quartz",<pyrotech:material:35>*1, <minecraft:quartz>, 16,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_radiantquartz",<pyrotech:material:35>*2, <arcanearchives:raw_quartz>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("refractorylump_chalk",<pyrotech:material:35>*2, <undergroundbiomes:sedimentary_stone:1>, 8,"pickaxe", true);

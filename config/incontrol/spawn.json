@@ -367,7 +367,7 @@
     "mob": "minecraft:cave_spider",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.5,
+	"random": 0.2,
     "maxcount": {
         "amount": 3,
         "perplayer": true
@@ -380,7 +380,7 @@
     "mob": "iceandfire:if_troll",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.1,
+	"random": 0.01,
     "maxcount": {
         "amount": 1,
         "perplayer": true

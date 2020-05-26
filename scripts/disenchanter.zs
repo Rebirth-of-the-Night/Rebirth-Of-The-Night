@@ -5,6 +5,6 @@ recipes.remove(<disenchanter:disenchantmenttable>);
 
 
 recipes.addShaped("Disenchanter", <disenchanter:disenchantmenttable>, [
-[<minecraft:emerald>, <minecraft:carpet:4>, <minecraft:emerald>],
+[<ore:gemEmerald>, <minecraft:carpet:4>, <ore:gemEmerald>],
 [<bountifulbaubles:spectralsilt>, <minecraft:enchanting_table>, <bountifulbaubles:spectralsilt>], 
-[<minecraft:emerald>, <contenttweaker:disint_orb>, <minecraft:emerald>]]);
+[<ore:gemEmerald>, <contenttweaker:disint_orb>, <ore:gemEmerald>]]);

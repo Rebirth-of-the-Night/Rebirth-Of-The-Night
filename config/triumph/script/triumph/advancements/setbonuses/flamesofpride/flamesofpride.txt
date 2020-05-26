@@ -19,4 +19,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/boots")
 
 
 alwaysVisible()
-setPos(-113,98)
+setPos(-113,116)

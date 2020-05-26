@@ -18,7 +18,7 @@ recipes.addShaped("covered_wagon",<animania:item_wagon>,[
 
 recipes.remove(<animania:block_hamster_wheel>);
 recipes.addShaped("hamster_wheel",<animania:block_hamster_wheel>,[
-	[null,<minecraft:iron_ingot>,null],
-	[<minecraft:iron_ingot>,null,<minecraft:iron_ingot>],
-	[<ore:stoneSlab>,<minecraft:iron_ingot>,<ore:stoneSlab>]
+	[null,<ore:ingotIron>,null],
+	[<ore:ingotIron>,null,<ore:ingotIron>],
+	[<ore:stoneSlab>,<ore:ingotIron>,<ore:stoneSlab>]
 ]);

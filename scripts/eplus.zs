@@ -14,7 +14,7 @@ recipes.remove(<eplus:table_upgrade>);
 
 recipes.addShaped("Table Upgrade", <eplus:table_upgrade>,[
 [<minecraft:gold_block>, <eplus:decorative_book>, <minecraft:gold_block>],
-[<minecraft:obsidian>, <simpleores:mythril_ingot>, <minecraft:obsidian>], 
+[<minecraft:obsidian>, <ore:ingotMythril>, <minecraft:obsidian>], 
 [<minecraft:gold_block>, <contenttweaker:knowledge_orb>, <minecraft:gold_block>]]);
       
 
