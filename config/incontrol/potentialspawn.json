@@ -112,17 +112,7 @@
     ]
   },
 
-  {
-    "dimension": 10,
-    "mobs": [
-      {
-        "mob": "minecraft:slime",
-        "weight": 4,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      }
-    ]
-  },
+
 
   {
     "dimension": 10,
@@ -575,18 +565,6 @@
       }
     ]
   },
-  
-   {
-    "dimension": 0,
-    "mobs": [
-      {
-        "mob": "primitivemobs:brain_slime",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      }
-    ]
-  },
 
 
   // Creepers
@@ -977,6 +955,29 @@
   },
 
 // Slimes
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "minecraft:slime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+    
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "primitivemobs:brain_slime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
 
   {
     "dimension": 0,
