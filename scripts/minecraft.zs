@@ -68,7 +68,7 @@ recipes.addShaped("tnt",<minecraft:tnt>,[
     [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>]
 ]);
 
-var greenSlimeList = <minecraft:slime_ball>>;
+var greenSlimeList = <minecraft:slime_ball>;
 
 recipes.removeByRecipeName("minecraft:slime");
 recipes.addShaped("green_slime_block",<minecraft:slime>,[
