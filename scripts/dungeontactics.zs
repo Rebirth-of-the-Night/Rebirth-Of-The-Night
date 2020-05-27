@@ -64,6 +64,11 @@ recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
     [<minecraft:fireworks>,<ore:ingotIron>,<minecraft:fireworks>]
 ]);
 
+recipes.remove(<dungeontactics:bounce_boots>);
+recipes.addShaped("bounce_boots",<dungeontactics:bounce_boots>,[
+    [<ore:blockSlime>,<minecraft:leather_boots>,<ore:blockSlime>]
+]);
+
 recipes.remove(<dungeontactics:flight_goggles>);
 recipes.addShaped("flight_googles",<dungeontactics:flight_goggles>,[
     [<ore:genericMetal>,<ore:durableFiber>,<ore:genericMetal>],

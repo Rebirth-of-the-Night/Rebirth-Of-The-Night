@@ -220,7 +220,7 @@ recipes.addShapeless(<harvestcraft:spidereyepieitem>, [<harvestcraft:bakewareite
 
 
 //new mob soup
-recipes.addShapeless(<harvestcraft:mobsoupitem>, [<harvestcraft:potitem>.transformReplace(<harvestcraft:potitem>), <harvestcraft:stockitem>, <minecraft:spider_eye>, <minecraft:rotten_flesh>, <minecraft:slime_ball>, <ore:listAllsalt>, <rats:herb_bundle>]);
+recipes.addShapeless(<harvestcraft:mobsoupitem>, [<harvestcraft:potitem>.transformReplace(<harvestcraft:potitem>), <harvestcraft:stockitem>, <minecraft:spider_eye>, <minecraft:rotten_flesh>, <ore:slimeball>, <ore:listAllsalt>, <rats:herb_bundle>]);
 
 recipes.remove(<rats:assorted_vegetables>);
 val oreAssVeg = <ore:foodVegetable>;

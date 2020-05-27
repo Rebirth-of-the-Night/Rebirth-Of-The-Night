@@ -156,7 +156,7 @@ for cookedFood in arrayLeather{
 
 //Horse Upgrades
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<minecraft:slime_ball>*4],[<cyclicmagic:horse_upgrade_jump>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<rustic:cohosh>*2,<harvestcraft:honeyitem>],[<cyclicmagic:horse_upgrade_health>]);
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*16,<mod_lavacow:poisonspore>],[<cyclicmagic:horse_upgrade_type>]);

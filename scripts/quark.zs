@@ -193,3 +193,35 @@ recipes.removeByRecipeName("quark:color_slime_4");
 recipes.addShapeless("dyed_yellow_slime_block",<quark:color_slime:4>,[<ore:blockSlime>,<ore:dyeYellow>]);
 recipes.addShapeless("dyed_cyan_slime_block",<quark:color_slime:2>,[<ore:blockSlime>,<ore:dyeCyan>]);
 recipes.addShapeless("dyed_magenta_slime_block",<quark:color_slime:3>,[<ore:blockSlime>,<ore:dyeMagenta>]);
+
+recipes.addShaped("red_slime_block",<quark:color_slime:0>,[
+	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>],
+	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>],
+	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>]
+]);
+recipes.addShapeless("red_slimeball",<betterslimes:red_slime>*9,[<quark:color_slime:0>]);
+
+var blueSlimeList = <betterslimes:blue_slime>|<mod_lavacow:silky_sludge>;
+recipes.addShaped("blue_slime_block",<quark:color_slime:1>,[
+	[blueSlimeList,blueSlimeList,blueSlimeList],
+	[blueSlimeList,blueSlimeList,blueSlimeList],
+	[blueSlimeList,blueSlimeList,blueSlimeList]
+]);
+recipes.addShapeless("blue_slimeball",<betterslimes:blue_slime>*9,[<quark:color_slime:1>]);
+
+recipes.addShapeless("green_slimeball_from_cyan",<minecraft:slime_ball>*9,[<quark:color_slime:2>]);
+
+recipes.addShaped("magenta_slime_block",<quark:color_slime:3>,[
+	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>],
+	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>],
+	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>]
+]);
+recipes.addShapeless("purple_slimeball",<betterslimes:purple_slime>*9,[<quark:color_slime:3>]);
+
+var yellowSlimeList = <betterslimes:yellow_slime>|<betterwithmods:material:12>;
+recipes.addShaped("yellow_slime_block",<quark:color_slime:4>,[
+	[yellowSlimeList,yellowSlimeList,yellowSlimeList],
+	[yellowSlimeList,yellowSlimeList,yellowSlimeList],
+	[yellowSlimeList,yellowSlimeList,yellowSlimeList]
+]);
+recipes.addShapeless("yellow_slimeball",<betterslimes:yellow_slime>*9,[<quark:color_slime:4>]);

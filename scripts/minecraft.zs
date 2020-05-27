@@ -68,6 +68,15 @@ recipes.addShaped("tnt",<minecraft:tnt>,[
     [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>]
 ]);
 
+var greenSlimeList = <minecraft:slime_ball>|<quark:slime_bucket>|<betterslimes:black_slime>;
+
+recipes.removeByRecipeName("minecraft:slime");
+recipes.addShaped("green_slime_block",<minecraft:slime>,[
+    [greenSlimeList,greenSlimeList,greenSlimeList],
+    [greenSlimeList,greenSlimeList,greenSlimeList],
+    [greenSlimeList,greenSlimeList,greenSlimeList]
+]);
+
 val coarseMatArray = [<minecraft:dirt:0>,<biomesoplenty:dirt:2>,<biomesoplenty:dirt:1>,<biomesoplenty:dirt:0>] as IItemStack[];
 val coarseDirtArray = [<minecraft:dirt:1>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>,<biomesoplenty:dirt:8>] as IItemStack[];
 
