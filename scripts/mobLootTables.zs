@@ -54,6 +54,8 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
 
 // SpecialMobs
+val lemonSlime = LootTables.getTable("specialmobs:entities/slime/lemon");
+lemonSlime.clear();
 
 //PrimitiveMobs ######################
 val gob = LootTables.getTable("primitivemobs:entities/goblin");
