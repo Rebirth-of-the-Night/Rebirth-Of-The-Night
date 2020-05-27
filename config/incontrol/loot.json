@@ -13,27 +13,27 @@
       "mob": "minecraft:slime",
       "player": true,
       "item": "harvestcraft:limeitem",
-      "itemcount": "1-3"
+      "itemcount": "1"
    },
    {
       "mob": "minecraft:slime",
       "player": true,
       "item": "harvestcraft:limejellyitem",
-      "itemcount": "1-3",
+      "itemcount": "1",
       "random": "0.1"
    },
    {
       "mob": "minecraft:slime",
       "player": true,
       "item": "quark:rune:5",
-      "itemcount": "1-3",
-      "random": "0.05"
+      "itemcount": "1",
+      "random": "0.03"
    },
    {
       "mob": "minecraft:slime",
       "player": true,
       "item": "harvestcraft:slimegummiesitem",
-      "itemcount": "1-3",
+      "itemcount": "1",
       "random": "0.1"
    },
    {
@@ -41,7 +41,7 @@
       "player": true,
       "item": "bountifulbaubles:crowngold",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.01"
    },
 
    // Lemon Slime
@@ -62,7 +62,7 @@
       "player": true,
       "item": "quark:rune:4",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.03"
    },
    {
       "mob": "specialmobs:lemonslime",
@@ -75,15 +75,15 @@
       "mob": "specialmobs:lemonslime",
       "player": true,
       "item": "harvestcraft:slimegummiesitem",
-      "itemcount": "1-2",
-      "random": "0.2"
+      "itemcount": "1",
+      "random": "0.1"
    },
    {
       "mob": "specialmobs:lemonslime",
       "player": true,
       "item": "bountifulbaubles:crowngold",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.01"
    },
 
 
@@ -106,7 +106,7 @@
       "player": true,
       "item": "quark:rune:10",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.03"
    },
    {
       "mob": "specialmobs:grapeslime",
@@ -119,15 +119,15 @@
       "mob": "specialmobs:grapeslime",
       "player": true,
       "item": "harvestcraft:slimegummiesitem",
-      "itemcount": "1-2",
-      "random": "0.2"
+      "itemcount": "1",
+      "random": "0.1"
    },
    {
       "mob": "specialmobs:grapeslime",
       "player": true,
       "item": "bountifulbaubles:crowngold",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.03"
    },
 
    // Blueberry Slime
@@ -148,7 +148,7 @@
       "player": true,
       "item": "quark:rune:11",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.03"
    },
    {
       "mob": "specialmobs:blueberryslime",
@@ -161,15 +161,15 @@
       "mob": "specialmobs:blueberryslime",
       "player": true,
       "item": "harvestcraft:slimegummiesitem",
-      "itemcount": "1-2",
-      "random": "0.2"
+      "itemcount": "1",
+      "random": "0.1"
    },
    {
       "mob": "specialmobs:blueberryslime",
       "player": true,
       "item": "bountifulbaubles:crowngold",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.01"
    },
 
    // Blackberry Slime
@@ -190,7 +190,7 @@
       "player": true,
       "item": "quark:rune:15",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.03"
    },
    {
       "mob": "specialmobs:blackberryslime",
@@ -203,15 +203,15 @@
       "mob": "specialmobs:blackberryslime",
       "player": true,
       "item": "harvestcraft:slimegummiesitem",
-      "itemcount": "1-2",
-      "random": "0.2"
+      "itemcount": "1",
+      "random": "0.1"
    },
    {
       "mob": "specialmobs:blackberryslime",
       "player": true,
       "item": "bountifulbaubles:crowngold",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.01"
    },
 
 
@@ -234,7 +234,7 @@
       "player": true,
       "item": "quark:rune:14",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.03"
    },
    {
       "mob": "specialmobs:strawberryslime",
@@ -247,15 +247,15 @@
       "mob": "specialmobs:strawberryslime",
       "player": true,
       "item": "harvestcraft:slimegummiesitem",
-      "itemcount": "1-2",
-      "random": "0.2"
+      "itemcount": "1",
+      "random": "0.1"
    },
    {
       "mob": "specialmobs:strawberryslime",
       "player": true,
       "item": "bountifulbaubles:crowngold",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.01"
    },
 
 
@@ -277,7 +277,7 @@
       "player": true,
       "item": "quark:rune:16",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.03"
    },
    {
       "mob": "specialmobs:watermelonslime",
@@ -290,15 +290,15 @@
       "mob": "specialmobs:watermelonslime",
       "player": true,
       "item": "harvestcraft:slimegummiesitem",
-      "itemcount": "1-2",
-      "random": "0.2"
+      "itemcount": "1",
+      "random": "0.1"
    },
    {
       "mob": "specialmobs:watermelonslime",
       "player": true,
       "item": "bountifulbaubles:crowngold",
       "itemcount": "1",
-      "random": "0.05"
+      "random": "0.01"
    },
 
 
