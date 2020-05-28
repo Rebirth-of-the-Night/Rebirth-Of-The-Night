@@ -22,7 +22,7 @@ recipes.remove(<glaretorch:itemglaretorchlarge2>);
 <glaretorch:itemglaretorchlarge2>.addTooltip("Largest possible glaretorch; its light illuminates a huge area.");
 
 var stick = <ore:stickWood>;
-var coal = <minecraft:coal>;
+var coal = <ore:gemCoal>;
 var ncoal = <betterwithmods:material:1>;
 var torch = <minecraft:torch>;
 var small = <glaretorch:itemglaretorchsmall>;
