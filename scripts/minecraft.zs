@@ -331,6 +331,12 @@ recipes.addShaped("stick",<minecraft:stick>*4,[
     [<ore:stickMat>]
 ]);
 
+recipes.remove(<minecraft:bowl>);
+recipes.addShaped("bowl",<minecraft:bowl>*4,[
+    [<ore:stickMat>,null,<ore:stickMat>],
+    [null,<ore:stickMat>,null];
+]);
+
 recipes.remove(<minecraft:crafting_table>);
 recipes.addShaped("crafting_table",<minecraft:crafting_table>,[
     [<ore:stickMat>,<ore:stickMat>],

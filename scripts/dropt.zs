@@ -79,6 +79,31 @@ Dropt.list("blood_tainted_gold")
   );
 */ 
 
+Dropt.list("light_essence")
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:biome_block"])
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1), "EXCLUDED", 0)
+          .items([<biomesoplenty:biome_essence>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10), "EXCLUDED", 1)
+          .items([<biomesoplenty:biome_essence>], Dropt.range(1, 2))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100), "EXCLUDED", 2)
+          .items([<biomesoplenty:biome_essence>], Dropt.range(1, 3))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000), "EXCLUDED", 3)
+          .items([<biomesoplenty:biome_essence>], Dropt.range(2, 3))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1), "REQUIRED", 0)
+          .items([<biomesoplenty:biome_block>])
+      )
+  );
+
 Dropt.list("Well_Worth")
 
   .add(Dropt.rule()
