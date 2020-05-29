@@ -140,6 +140,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <cyclicmagic:horse_upgrade_speed>.displayName = "Fast Haw";
 <cyclicmagic:horse_upgrade_health>.displayName = "Healthy Haw";
 <cyclicmagic:horse_upgrade_type>.displayName = "Strange Haw";
+<cyclicmagic:corrupted_chorus>.displayName = "Chorus Bead";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
