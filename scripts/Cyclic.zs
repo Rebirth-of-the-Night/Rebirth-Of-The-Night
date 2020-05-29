@@ -57,6 +57,12 @@ recipes.remove(<cyclicmagic:plate_push_slowest_angle>);
 recipes.remove(<cyclicmagic:plate_push>);
 recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
+recipes.remove(<cyclicmagic:horse_upgrade_type>);
+recipes.remove(<cyclicmagic:horse_upgrade_variant>);
+recipes.remove(<cyclicmagic:horse_upgrade_health>);
+recipes.remove(<cyclicmagic:horse_upgrade_speed>);
+recipes.remove(<cyclicmagic:horse_upgrade_jump>);
+
 
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 
