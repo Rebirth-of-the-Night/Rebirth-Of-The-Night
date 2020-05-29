@@ -11,3 +11,6 @@ mods.inspirations.Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar
 
 //Magic powder 
 mods.inspirations.Cauldron.addFluidRecipe(<dungeontactics:magic_powder>, <minecraft:glowstone_dust>|<aether_legacy:ambrosium_shard>, <liquid:mushroom_stew>, 1, true);
+
+//Cyclic Corrupte Chorus Fruit
+mods.inspirations.Cauldron.addPotionRecipe(<cyclicmagic:corrupted_chorus>, <quark:soul_bead>, "extraalchemy:dislocation_normal", 4, true); 
