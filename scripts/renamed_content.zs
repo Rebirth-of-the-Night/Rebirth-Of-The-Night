@@ -133,6 +133,14 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <iceandfire:ash>.displayName = "Fiery Ash";
 <iceandfire:podium:0>.displayName = "Wooden Podium";
 
+// Cyclic
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
+<cyclicmagic:horse_upgrade_variant>.displayName = "Variable Haw";
+<cyclicmagic:horse_upgrade_jump>.displayName = "Jumpy Haw";
+<cyclicmagic:horse_upgrade_speed>.displayName = "Fast Haw";
+<cyclicmagic:horse_upgrade_health>.displayName = "Healthy Haw";
+<cyclicmagic:horse_upgrade_type>.displayName = "Strange Haw";
+
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
 <dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
