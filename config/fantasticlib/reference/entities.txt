@@ -252,7 +252,6 @@ betterwithmods:bwm_fishing_hook
 betterwithmods:bwm_tentacle
 betterwithmods:bwm_jungle_spider
 arcanearchives:weight
-quark:gravisand
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -261,6 +260,7 @@ quark:ashen
 quark:pirate
 quark:crab
 quark:wraith
+quark:chest_passenger
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -268,12 +268,12 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:chest_passenger
-quark:seat
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
+quark:seat
+quark:gravisand
 betterwithaddons:greatarrow
 betterwithaddons:ya
 betterwithaddons:artifactframe
@@ -321,8 +321,6 @@ endreborn:endguard
 endreborn:watcher
 endreborn:endlord
 endreborn:chronologist
-minecraftfuture:panda
-minecraftfuture:bee
 grapplemod:grapplemod
 magma_monsters:magma_monster
 magma_monsters:magma_monster_grunt
@@ -524,6 +522,13 @@ mod_lavacow:boneworm
 mod_lavacow:acidjet
 mod_lavacow:holygrenade
 mod_lavacow:pingu
+futuremc:trident
+futuremc:panda
+futuremc:bee
+futuremc:cod
+futuremc:pufferfish
+futuremc:salmon
+futuremc:tropical_fish
 harvestersnight:harvester
 iceandfire:dragonegg
 iceandfire:dragonarrow
