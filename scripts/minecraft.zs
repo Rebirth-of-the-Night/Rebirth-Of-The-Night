@@ -785,9 +785,18 @@ recipes.addShapeless("witheredblock_to_dust>", <quark:black_ash>*9,
 );
 recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
 	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
-    [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
-    [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
+    	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
+    	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
 ]);
+
+// Dead man satchel (Dust Bag)
+
+recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
+	[<ore:hideTanned>,<ore:durableFiber>, <ore:hideTanned>],
+    	[<ore:hideTanned>, <contenttweaker:order_rune>.anyDamage().transformDamage(), <ore:hideTanned>],
+    	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
+]);
+
 
 // Enchanting Table change
 

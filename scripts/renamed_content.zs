@@ -354,6 +354,8 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 
 <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
 
+<deadmanssatchel:deadmanssatchel>.displayName = "Dust Sorting Satchel";
+<deadmanssatchel:deadmanssatchel>..addTooltip(format.aqua("Arcane"));
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
