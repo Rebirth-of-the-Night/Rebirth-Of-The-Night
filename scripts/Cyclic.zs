@@ -99,6 +99,9 @@ var wax = <ore:materialPressedwax>;
 var carbond = <ore:dustCarbon>;
 var carpaper = <cyclicmagic:carbon_paper>;
 var paper =<ore:paper>;
+var sbutton = <ore:buttonStone>;
+var comet = <nyx:comet_shard>;
+var receiver = <lwr:blockwirelessreciever>;
 
 mods.betterwithaddons.Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
@@ -164,4 +167,8 @@ recipes.addShapeless("dice", dice,[
     cha_run.anyDamage().transformDamage()
 ]);
 
-
+recipes.addShaped("password_block", <cyclicmagic:password_block>,[
+    [sbutton, receiver, sbutton],
+    [receiver, comet, receiver],
+    [sbutton, receiver, sbutton]
+]);
