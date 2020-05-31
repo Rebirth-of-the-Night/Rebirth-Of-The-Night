@@ -54,10 +54,12 @@ config/TwitchSpawn/preferences.toml
 config/TwitchSpawn/rules.default.tsl
 config/TwitchSpawn/rules.calamarigold.tsl
 
-mods/.DS_Store
-
 config/jei/bookmarks.ini
 
 config/fantasticlib/reference/*.txt
 config/multimob/modInformation/*.txt
 config/pyrotech/*-Generated.json
+
+patchouli_data.json
+
+.DS_Store
