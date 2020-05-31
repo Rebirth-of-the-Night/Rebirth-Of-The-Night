@@ -13,6 +13,6 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 
 [Wiki](https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Rebirth_of_the_Night_Mod_Pack_Wiki) 
 
-[Discord](https://discord.gg/VDvJdjR)
+[Discord](https://discord.gg/ZSNFj8c)
 
 [Server Pack GitHub](https://github.com/CalaMariGold/Rebirth-of-the-Night-Server)
