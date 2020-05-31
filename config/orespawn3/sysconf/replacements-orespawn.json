@@ -1,8 +1,14 @@
 {
-   "default": [ { "name": "minecraft:stone" },
-	            { "name": "minecraft:andesite" },
-				{ "name": "minecraft:diorite" },
-				{ "name": "minecraft:granite" },
-				{ "name": "minecraft:netherrack" },
-				{ "name": "minecraft:end_stone" } ]
+   "default": [ 
+	    { "name": "minecraft:stone" },
+	    { "name": "minecraft:andesite" },
+	    { "name": "minecraft:diorite" },
+	    { "name": "minecraft:granite" },
+	    { "name": "minecraft:netherrack" },
+	    { "name": "minecraft:end_stone" } 
+	],
+	"light_essence": [
+		{ "name": "minecraft:end_stone" },
+		{ "name": "biomesoplenty:biome_block" }
+	]
 }
