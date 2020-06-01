@@ -178,6 +178,11 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:50>]); # soal
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
 
+//Cyclic Apple
+mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
+mods.betterwithmods.Cauldron.addStoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
+mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
+
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
 mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
 mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); # chips to potash
@@ -267,6 +272,7 @@ for item in diamondAll{
 mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=east,lit=true>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=south,lit=true>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=west,lit=true>, 1);
-mods.betterwithmods.HeatRegistry.addHeatSource(<minecraftfuture:campfire>, 1);*/
+mods.betterwithmods.HeatRegistry.addHeatSource(<minecraftfuture:campfire>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<betternether:cincinnasite_fire_bowl>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<arcanearchives:brazier_of_hoarding>, 1);
+*/
