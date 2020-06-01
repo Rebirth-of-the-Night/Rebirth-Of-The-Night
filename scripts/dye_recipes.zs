@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-val DArrayHide = [<minecraftfuture:dye>,<minecraftfuture:dye:1>,<minecraftfuture:dye:2>,<minecraftfuture:dye:3>,<quark:root_dye>,<quark:root_dye:1>,<quark:root_dye:2>] as IItemStack[];
+val DArrayHide = [<futuremc:dye>,<futuremc:dye:1>,<futuremc:dye:2>,<futuremc:dye:3>,<quark:root_dye>,<quark:root_dye:1>,<quark:root_dye:2>] as IItemStack[];
 
 for dyes in DArrayHide {
     mods.jei.JEI.removeAndHide(dyes);
@@ -46,7 +46,7 @@ recipes.addShapeless("standard_dye_21",<minecraft:dye:14>,[<ore:toolMortarandpes
 recipes.addShapeless("standard_dye_22",<minecraft:dye:14>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:15>]);
 recipes.addShapeless("standard_dye_23",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:2>]);
 recipes.addShapeless("standard_dye_24",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:2>]);
-recipes.addShapeless("standard_dye_25",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerblue>]);
+recipes.addShapeless("standard_dye_25",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<futuremc:cornflower>]);
 recipes.addShapeless("standard_dye_26",<biomesoplenty:blue_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:0>]);
 recipes.addShapeless("standard_dye_27",<biomesoplenty:brown_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:mushroom:4>]);
 recipes.addShapeless("standard_dye_28",<biomesoplenty:brown_dye>*2,[<ore:toolMortarandpestle>,<biomesoplenty:double_plant:1>]);
@@ -54,12 +54,12 @@ recipes.addShapeless("standard_dye_30",<biomesoplenty:brown_dye>,[<ore:toolMorta
 recipes.addShapeless("standard_dye_7",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<aether_legacy:white_flower>]);
 recipes.addShapeless("standard_dye_31",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:9>]);
 recipes.addShapeless("standard_dye_32",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:14>]);
-recipes.addShapeless("standard_dye_33",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerwhite>]);
+recipes.addShapeless("standard_dye_33",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<futuremc:lily_of_the_valley>]);
 recipes.addShapeless("standard_dye_34",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:15>]);
 recipes.addShapeless("standard_dye_35",<biomesoplenty:white_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:2>]);
 recipes.addShapeless("standard_dye_36",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:10>]);
 recipes.addShapeless("standard_dye_37",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:2>]);
-recipes.addShapeless("standard_dye_38",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<minecraftfuture:flowerblack>]);
+recipes.addShapeless("standard_dye_38",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<futuremc:wither_rose>]);
 recipes.addShapeless("standard_dye_39",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<minecraft:dye:0>]);
 recipes.addShapeless("standard_dye_40",<biomesoplenty:black_dye>,[<ore:toolMortarandpestle>,<quark:root_flower:1>]);
 recipes.addShapeless("goldenrod_dye",<minecraft:dye:11>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:1>]);
@@ -117,15 +117,15 @@ mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:5>],[<minecraft:dye:
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_0:15>],[<minecraft:dye:14>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:mushroom:2>],[<biomesoplenty:blue_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_1:2>],[<biomesoplenty:blue_dye>*2]);
-mods.betterwithmods.Mill.addRecipe([<minecraftfuture:flowerblue>],[<biomesoplenty:blue_dye>*2]);
+mods.betterwithmods.Mill.addRecipe([<futuremc:cornflower>],[<biomesoplenty:blue_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<quark:root_flower:0>],[<biomesoplenty:blue_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:mushroom:4>],[<biomesoplenty:brown_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:double_plant:1>],[<biomesoplenty:brown_dye>*4]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:plant_1:4>],[<biomesoplenty:brown_dye>*2]);
-mods.betterwithmods.Mill.addRecipe([<minecraftfuture:flowerwhite>],[<biomesoplenty:white_dye>*2]);
+mods.betterwithmods.Mill.addRecipe([<futuremc:lily_of_the_valley>],[<biomesoplenty:white_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<minecraft:dye:15>],[<biomesoplenty:white_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<quark:root_flower:2>],[<biomesoplenty:white_dye>*2]);
-mods.betterwithmods.Mill.addRecipe([<minecraftfuture:flowerblack>],[<biomesoplenty:black_dye>*2,<quark:black_ash>*4]);
+mods.betterwithmods.Mill.addRecipe([<futuremc:wither_rose>],[<biomesoplenty:black_dye>*2,<quark:black_ash>*4]);
 mods.betterwithmods.Mill.addRecipe([<minecraft:dye:0>],[<biomesoplenty:black_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<quark:root_flower:1>],[<biomesoplenty:black_dye>*2]);
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:flower_1:1>],[<minecraft:dye:11>*2]);
@@ -188,12 +188,12 @@ recipes.addShapeless("brown_dye_purple",<biomesoplenty:brown_dye>*2,
 recipes.addShapeless("cut_rose",<biomesoplenty:flower_1:5>*3, //Recipe for classic (BoP-1.5) rose
  [<simpleores:onyx_shears>|<simpleores:adamantium_shears>|<simpleores:mythril_shears>|<minecraft:shears>.anyDamage().transformDamage(),<minecraft:double_plant:4>]);
  
-recipes.addShaped("wither_rose",<minecraftfuture:flowerblack>, //Recipe for wither rose
+recipes.addShaped("wither_rose",<futuremc:wither_rose>, //Recipe for wither rose
 [[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
 [<quark:black_ash>, <biomesoplenty:flower_1:5>, <quark:black_ash>],
 [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]]);
 
 recipes.addShaped("regeneration_garden",<dungeontactics:flower_sanguine>, //Recipe for sanguine rose
-[[<scalinghealth:crystalshard>, <minecraftfuture:flowerblack>, <scalinghealth:crystalshard>],
-[<minecraftfuture:flowerblack>, <betterwithaddons:material:3>, <minecraftfuture:flowerblack>],
-[<scalinghealth:crystalshard>, <minecraftfuture:flowerblack>, <scalinghealth:crystalshard>]]);
+[[<scalinghealth:crystalshard>, <futuremc:wither_rose>, <scalinghealth:crystalshard>],
+[<futuremc:wither_rose>, <betterwithaddons:material:3>, <futuremc:wither_rose>],
+[<scalinghealth:crystalshard>, <futuremc:wither_rose>, <scalinghealth:crystalshard>]]);

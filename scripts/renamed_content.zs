@@ -165,7 +165,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
 
 // Minecraft Future
-<minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
+<futuremc:andesite_wall>.displayName = "Gray Andesite Wall";
 
 
 // Macaws Bridges
