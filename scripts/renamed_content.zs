@@ -144,6 +144,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <cyclicmagic:card_location>.displayName = "Block Locator";
 <cyclicmagic:apple_emerald>.displayName = "Merchant's Cure";
 <cyclicmagic:apple_lapis>.displayName = 'Dead Horse's Delight';
+<cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
