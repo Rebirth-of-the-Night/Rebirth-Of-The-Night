@@ -36,6 +36,7 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_fast_angle>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:wand_hypno>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:password_block>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
 
