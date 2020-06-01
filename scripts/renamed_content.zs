@@ -142,6 +142,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <cyclicmagic:horse_upgrade_type>.displayName = "Strange Haw";
 <cyclicmagic:corrupted_chorus>.displayName = "Chorus Bead";
 <cyclicmagic:card_location>.displayName = "Block Locator";
+<cyclicmagic:apple_emerald>.displayName = "Merchant's Cure";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
