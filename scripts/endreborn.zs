@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import mods.vanillaanvilrepair.addRepairEntry;
 
+mods.jei.JEI.removeAndHide(<patchouli:guide_book>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_axe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
