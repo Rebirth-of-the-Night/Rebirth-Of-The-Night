@@ -211,6 +211,7 @@ mods.jei.JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through
 /* Mobs and Drops */
 val dung = <betterwithmods:material:5>;
 
+mods.jei.JEI.addDescription([<aether_legacy:sun_altar>],["Used to tame Moas."]);
 mods.jei.JEI.addDescription(<quark:parrot_egg:*>, "Much like other birds, parrots love the taste of veggies and seeds. Beetroot seeds, in particular, are their favorite snack during the mating season: some time after eating beetroot seeds, a parrot will lay an egg.");
 mods.jei.JEI.addDescription(<minecraft:gunpowder>, "The central ingredient of most explosives. It can also be placed on the ground and ignited as a fuse.");
 mods.jei.JEI.addDescription(<minecraft:skull:3>, "An old village legend claims that a golem named after a specific person carries a sliver of that person's soul… and those who practice forbidden arts can bring forth an echo of that soul to the physical realm. Named Snow Golems equipped with a pumpkin will drop a copy of that person's head if killed by a witch.");

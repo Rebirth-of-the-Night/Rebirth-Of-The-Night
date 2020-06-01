@@ -48,6 +48,7 @@ mods.ltt.LootTable.removeGlobalItem("aeble:zanite_ring");
 mods.ltt.LootTable.removeGlobalItem("aeble:ice_ring");
 mods.ltt.LootTable.removeModEntry("aeble");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:sun_altar");
+<aether_legacy:sun_altar>.addTooltip("DO NOT USE! This is an unintended drop that RotN can not remove.");
 
 
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");
