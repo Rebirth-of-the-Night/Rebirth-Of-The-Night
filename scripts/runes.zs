@@ -110,7 +110,7 @@ recipes.addShaped(<contenttweaker:creation_rune>, [
 recipes.addShaped(<contenttweaker:death_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:sol_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:fire_rune>.anyDamage().transformDamage()], 
-[null, <quark:black_ash>|<futuremc:flowerblack>|<iceandfire:witherbone>|<iceandfire:wither_shard>|<netherex:frosted_wither_bone>|<biomesoplenty:flower_0:2>|<minecraft:skull:1>|<iceandfire:cockatrice_skull>|<rustic:deathstalk_mushroom>, null]]);
+[null, <quark:black_ash>|<futuremc:wither_rose>|<iceandfire:witherbone>|<iceandfire:wither_shard>|<netherex:frosted_wither_bone>|<biomesoplenty:flower_0:2>|<minecraft:skull:1>|<iceandfire:cockatrice_skull>|<rustic:deathstalk_mushroom>, null]]);
 
 recipes.addShaped(<contenttweaker:illusion_rune>, [
 [null, <dungeontactics:magic_powder>, null],

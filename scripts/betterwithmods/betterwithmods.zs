@@ -268,11 +268,11 @@ for item in diamondAll{
 
 
 // Heat sources
-/*mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=north,lit=true>, 1);
-mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=east,lit=true>, 1);
-mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=south,lit=true>, 1);
-mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraftfuture:campfire:facing=west,lit=true>, 1);
-mods.betterwithmods.HeatRegistry.addHeatSource(<minecraftfuture:campfire>, 1);
+/*mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=north,lit=true>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=east,lit=true>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=south,lit=true>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=west,lit=true>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<betternether:cincinnasite_fire_bowl>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<arcanearchives:brazier_of_hoarding>, 1);
 */

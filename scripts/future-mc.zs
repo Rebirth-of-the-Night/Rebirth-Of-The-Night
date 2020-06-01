@@ -1,13 +1,13 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-mods.jei.JEI.removeAndHide(<minecraftfuture:lantern>);
-mods.jei.JEI.removeAndHide(<minecraftfuture:barrel>);
-recipes.remove(<minecraftfuture:stonecutter>);
-recipes.removeByRecipeName("minecraftfuture:else/smoothstonerecipe");
-recipes.addShaped("minecraftfuture_else/smoothstonerecipe", <minecraft:stone_slab:0>*6,
+mods.jei.JEI.removeAndHide(<futuremc:lantern>);
+mods.jei.JEI.removeAndHide(<futuremc:barrel>);
+recipes.remove(<futuremc:stonecutter>);
+recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
+recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6,
   [[null,null,null],
-  [<minecraftfuture:smoothstone>,<futuremc:smoothstone>,<futuremc:smoothstone>],
+  [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>],
   [null,null,null]]);
 
 var a = <ore:stone>;
