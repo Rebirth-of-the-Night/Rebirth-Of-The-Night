@@ -90,3 +90,4 @@ mods.betterwithmods.Saw.add(<twilightforest:magic_log:0>,[<twilightforest:time_p
 mods.betterwithmods.Saw.add(<twilightforest:magic_log:1>,[<twilightforest:trans_planks>*5,<betterwithmods:bark:0>*5,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
+mods.betterwithmods.Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*6,<minecraft:redstone>,<pyrotech:rock:7>*2]);
