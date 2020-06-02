@@ -58,6 +58,7 @@ for i in 0 to 7 {
     StoneKiln.addRecipe("metamorphic_cobble_to_stone"~i, metaStoneDef.makeStack(i), metaCobbleDef.makeStack(i), 700, true);
 }
 
+StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 600, true);
 
 //Unified kiln recipes
 
