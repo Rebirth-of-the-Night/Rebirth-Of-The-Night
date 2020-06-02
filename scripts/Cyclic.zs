@@ -25,8 +25,20 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:imbuer>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
-//mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
-//mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
+mods.jei.JEI.removeAndHide(<cyclicmagic:builder_block>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:target>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_med_angle>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_fast>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_fast_corner>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_fast_angle>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:wand_hypno>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:password_block>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
+mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
 
 recipes.remove(<cyclicmagic:fluid_pipe>);
 recipes.remove(<cyclicmagic:fluid_pump>);
@@ -57,14 +69,17 @@ recipes.remove(<cyclicmagic:plate_push_slowest_angle>);
 recipes.remove(<cyclicmagic:plate_push>);
 recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
+recipes.remove(<cyclicmagic:exp_pylon>);
+recipes.remove(<cyclicmagic:shears_obsidian>);
+recipes.remove(<cyclicmagic:doorbell_simple>);
+recipes.remove(<cyclicmagic:tool_prospector>);
 recipes.remove(<cyclicmagic:horse_upgrade_type>);
 recipes.remove(<cyclicmagic:horse_upgrade_variant>);
 recipes.remove(<cyclicmagic:horse_upgrade_health>);
 recipes.remove(<cyclicmagic:horse_upgrade_speed>);
 recipes.remove(<cyclicmagic:horse_upgrade_jump>);
-
-
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
+//apple recipes on betterwithmods.zs
 
 var vnugg = <contenttweaker:material_part:10>;
 var duracloth = <betterwithmods:material:4>;
@@ -72,6 +87,7 @@ var glue = <ore:glue>;
 var tanned = <ore:hideTanned>;
 var pipe = <quark:pipe>;
 var pipepump = <cyclicmagic:fluid_pump>;
+var pipeliquid = <cyclicmagic:fluid_pipe>;
 var screwpump = <betterwithmods:screw_pump>;
 var screw = <betterwithmods:material:24>;
 var steel = <dungeontactics:steel_ingot>;
@@ -98,10 +114,17 @@ var gcandle = <rustic:candle_gold>;
 var wax = <ore:materialPressedwax>;
 var carbond = <ore:dustCarbon>;
 var carpaper = <cyclicmagic:carbon_paper>;
-var paper =<ore:paper>;
-var sbutton = <ore:buttonStone>;
-var comet = <nyx:comet_shard>;
-var receiver = <lwr:blockwirelessreciever>;
+var paper = <ore:paper>;
+var xppylon = <cyclicmagic:exp_pylon>;
+var fhopper = <betterwithmods:single_machine:2>;
+var rtank = <arcanearchives:radiant_tank>;
+var viridium = <simpleores:adamantium_ingot>;
+var soul_urn = <betterwithmods:urn:8>;
+var obsi_shard = <endreborn:item_shard_obsidian>;
+var obsi_shear = <cyclicmagic:shears_obsidian>;
+var ore_locator = <cyclicmagic:tool_prospector>;
+var blazerod = <minecraft:blaze_rod>;
+var st_conveyor = <cyclicmagic:plate_push_slowest>;
 
 mods.betterwithaddons.Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
@@ -132,7 +155,33 @@ recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>,[
     [<minecraft:writable_book>, <ore:stickWood>, <antiqueatlas:empty_antique_atlas>]
 ]);
 
+recipes.addShaped("obsidian_shears", obsi_shear,[
+	[null, obsi_shard, null],
+    [obsi_shard, null, obsi_shard],
+    [null, obsi_shard, null]
+]);
+
+recipes.addShaped("powered_conveyor", st_conveyor*6,[
+	[<betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>],
+    [<advancedliftingmethods:powered_ladder>, <advancedliftingmethods:powered_ladder>, <advancedliftingmethods:powered_ladder>],
+    [<betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>]
+]);
+
+recipes.addShaped("ore_locator", ore_locator,[
+	[null, <villagenames:codex>, <betterwithmods:material:45>],
+    [null, blazerod, <cyclicmagic:tool_spelunker>],
+    [blazerod, null, null]
+]);
+
 //Spelunker potions with prospecting kit in rustic.zs
+
+mods.betterwithmods.Anvil.addShaped(xppylon, 
+[
+	[vnugg, viridium, viridium, vnugg],
+	[fhopper, soul_urn, rtank, fhopper],
+	[vnugg, viridium, viridium, vnugg],
+	[null, null, null, null]
+]);
 
 mods.betterwithmods.Anvil.addShaped(pipepump, 
 [
@@ -141,6 +190,20 @@ mods.betterwithmods.Anvil.addShaped(pipepump,
 	[reframat, pipe, reframat, null],
 	[null, null, null, null]
 ]);
+
+// Pipes
+val paneGlass = <ore:paneGlass>;
+paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
+
+for item in paneGlass.items{
+mods.betterwithmods.Anvil.addShaped(pipeliquid * 12, 
+[
+	[null, reframat, reframat, null],
+	[glue, item, item, glue],
+	[glue, item, item, glue],
+	[null, reframat, reframat, null]
+]);
+}
 
 /* //Requires RF
 mods.betterwithmods.Anvil.addShaped(<cyclicmagic:fluid_drain>,[
@@ -165,10 +228,4 @@ recipes.addShaped("Codex anchor", gps,[
 recipes.addShapeless("dice", dice,[
     stone,
     cha_run.anyDamage().transformDamage()
-]);
-
-recipes.addShaped("password_block", <cyclicmagic:password_block>,[
-    [sbutton, receiver, sbutton],
-    [receiver, comet, receiver],
-    [sbutton, receiver, sbutton]
 ]);

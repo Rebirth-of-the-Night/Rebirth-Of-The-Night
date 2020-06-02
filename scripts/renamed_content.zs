@@ -142,6 +142,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <cyclicmagic:horse_upgrade_type>.displayName = "Strange Haw";
 <cyclicmagic:corrupted_chorus>.displayName = "Chorus Bead";
 <cyclicmagic:card_location>.displayName = "Block Locator";
+<cyclicmagic:apple_emerald>.displayName = "Merchant's Cure";
+<cyclicmagic:apple_lapis>.displayName = "Deadhorse Delight";
+<cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
@@ -177,7 +181,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
 
 // Minecraft Future
-<minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
+<futuremc:andesite_wall>.displayName = "Gray Andesite Wall";
 
 
 // Macaws Bridges
@@ -355,7 +359,7 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
 
 <deadmanssatchel:deadmanssatchel>.displayName = "Dust Sorting Satchel";
-<deadmanssatchel:deadmanssatchel>..addTooltip(format.aqua("Arcane"));
+<deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
