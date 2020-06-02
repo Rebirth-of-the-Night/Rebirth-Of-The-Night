@@ -100,7 +100,6 @@ Michael, it's your birthday today!
 Cake and ice cream is on its way!
 Check your render distance!
 Unobtainable Weezer!
-java.lang.OutOfMemoryError
 Powered by Zenscript!
 Kid tested, mother approved!
 Trans bees!
@@ -139,7 +138,6 @@ Chickity China, the Chinese chicken!
 Now who you gonna call? wicky wicky BEES!
 Better than Landcraft!
 Nice try!
-java.lang.NullPointerException: Ticking entity
 I ain't afraid of no sleep!
 This is how we do it!
 Some rights reserved!
@@ -168,3 +166,5 @@ Find that coal!
 Also try Terraria!
 Also try Factorio!
 Also try Space Engineers!
+The following mod(s) have been identified as potential causes: Minecraft
+Hatsune Miku created Minecraft!
