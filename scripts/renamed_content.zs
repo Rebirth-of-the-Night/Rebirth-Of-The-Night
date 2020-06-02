@@ -2,6 +2,8 @@ import crafttweaker.game.IGame;
 
 
 
+// Slimes
+<minecraft:slime_ball>.displayName = "Green Slimeball";
 
 
 // Aether Legacy
@@ -130,6 +132,20 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <iceandfire:chain>.displayName = "Refined Chain";
 <iceandfire:ash>.displayName = "Fiery Ash";
 <iceandfire:podium:0>.displayName = "Wooden Podium";
+
+// Cyclic
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
+<cyclicmagic:horse_upgrade_variant>.displayName = "Variable Haw";
+<cyclicmagic:horse_upgrade_jump>.displayName = "Jumpy Haw";
+<cyclicmagic:horse_upgrade_speed>.displayName = "Fast Haw";
+<cyclicmagic:horse_upgrade_health>.displayName = "Healthy Haw";
+<cyclicmagic:horse_upgrade_type>.displayName = "Strange Haw";
+<cyclicmagic:corrupted_chorus>.displayName = "Chorus Bead";
+<cyclicmagic:card_location>.displayName = "Block Locator";
+<cyclicmagic:apple_emerald>.displayName = "Merchant's Cure";
+<cyclicmagic:apple_lapis>.displayName = "Deadhorse Delight";
+<cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
@@ -341,7 +357,6 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 <bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
 
 <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
-
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";

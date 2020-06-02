@@ -104,7 +104,7 @@ for i, output in arrayWindChime{
     recipes.addShaped(output,[
         [null,<minecraft:string>,null],
         [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<minecraft:iron_ingot>,arrayMoulding[i],<minecraft:iron_ingot>]
+        [<ore:ingotIron>,arrayMoulding[i],<ore:ingotIron>]
     ]);
 }
 
@@ -154,6 +154,13 @@ for cookedFood in arrayLeather{
     furnace.addRecipe(<minecraft:leather>,cookedFood,0.1);
 }
 
+//Horse Upgrades
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<rustic:cohosh>*2,<harvestcraft:honeyitem>],[<cyclicmagic:horse_upgrade_health>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*16,<mod_lavacow:poisonspore>],[<cyclicmagic:horse_upgrade_type>]);
+
 //Charbiotite
 mods.betterwithmods.Cauldron.builder()
 .buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])
@@ -170,6 +177,11 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:50>]); # soal
 
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
+
+//Cyclic Apple
+mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
+mods.betterwithmods.Cauldron.addStoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
+mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
 
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
 mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
@@ -262,4 +274,5 @@ mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:fac
 mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=west,lit=true>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<betternether:cincinnasite_fire_bowl>, 1);
-mods.betterwithmods.HeatRegistry.addHeatSource(<arcanearchives:brazier_of_hoarding>, 1);*/
+mods.betterwithmods.HeatRegistry.addHeatSource(<arcanearchives:brazier_of_hoarding>, 1);
+*/
