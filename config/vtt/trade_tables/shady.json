@@ -36,6 +36,13 @@
 				Count:{min:2,max:3}}
 		},
 		{
+			action:"add", CareerLevel:2, chance:0.4,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:1,max:2}},
+				sell:{id:"cyclicmagic:card_location",
+				Count:1
+		},
+		{
 			action:"add", CareerLevel:2, maxUses:16, rewardExp:true, chance:0.75,
 				buy:{id:"nyx:comet_shard",
 				Count:{min:8,max:12}},

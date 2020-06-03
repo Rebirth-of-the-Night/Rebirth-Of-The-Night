@@ -18,6 +18,23 @@
 				"maxCount": 1
 			},
 			"tradeLevel": 1
+		},
+		{
+			"output": {
+				"item": "betternether:gray_mold",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 2
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 8,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"tradeLevel": 1
 		}, 
 		{
 			"output": {

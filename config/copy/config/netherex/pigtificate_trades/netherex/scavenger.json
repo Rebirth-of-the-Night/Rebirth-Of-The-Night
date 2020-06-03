@@ -145,6 +145,23 @@
 				"maxCount": 2
 			},
 			"tradeLevel": 2
+		},
+		{
+			"output": {
+				"item": "villagenames:codex",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 6
+			},
+			"tradeLevel": 3
 		}, 
 		{
 			"output": {
