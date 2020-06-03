@@ -1,0 +1,2 @@
+config/itlt.cfg filter=slashfilter
+config/Special_AI.cfg filter=defaultlistfilter
