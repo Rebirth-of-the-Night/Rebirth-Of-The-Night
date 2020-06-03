@@ -40,7 +40,7 @@
 				buy:{id:"contenttweaker:nethercoin",
 				Count:{min:1,max:2}},
 				sell:{id:"cyclicmagic:card_location",
-				Count:1
+				Count:1}
 		},
 		{
 			action:"add", CareerLevel:2, maxUses:16, rewardExp:true, chance:0.75,
