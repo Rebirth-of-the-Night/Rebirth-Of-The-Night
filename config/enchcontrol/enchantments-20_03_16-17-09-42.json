@@ -2189,7 +2189,7 @@
     "description": []
   },
   {
-    "id": "minecraftfuture:loyalty",
+    "id": "futuremc:loyalty",
     "name": "enchantment.loyalty",
     "enabled": true,
     "hide_on_item": false,
@@ -2821,7 +2821,7 @@
     "description": []
   },
   {
-    "id": "minecraftfuture:channeling",
+    "id": "futuremc:channeling",
     "name": "enchantment.channeling",
     "enabled": true,
     "hide_on_item": false,
