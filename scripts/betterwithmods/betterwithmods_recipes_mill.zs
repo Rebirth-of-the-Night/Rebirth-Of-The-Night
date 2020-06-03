@@ -2,6 +2,15 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*6]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*3]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*3]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*6]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
+mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
+mods.betterwithmods.Mill.remove([<betterwithmods:material:44>]);
+
 //Magic Powder
 mods.betterwithmods.Mill.builder()
 .buildRecipe([<bountifulbaubles:spectralsilt>], [<dungeontactics:magic_powder>*2])
@@ -53,7 +62,6 @@ mods.betterwithmods.Mill.builder()
 mods.betterwithmods.Mill.builder()
 .buildRecipe([<minecraft:glowstone>], [<minecraft:glowstone_dust>*4])
 .setPriority(3)
-.setGrindType("block.glass.break")
 .build();
 
 // nether sugar
@@ -62,11 +70,9 @@ mods.betterwithmods.Mill.builder()
 .setPriority(7)
 .build();
 
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*6]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*3]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*3]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*6]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
-mods.betterwithmods.Mill.remove([<betterwithmods:material:44>]);
+// Rotten Flesh Refinement
+mods.betterwithmods.Mill.builder()
+.buildRecipe([<minecraft:rotten_flesh>], [<contenttweaker:monster_hide>*2])
+.setPriority(3)
+.setGrindType("fairylights:cord.stretch")
+.build();

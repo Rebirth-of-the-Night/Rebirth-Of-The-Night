@@ -61,8 +61,11 @@ lemonSlime.clear();
 val gob = LootTables.getTable("primitivemobs:entities/goblin");
 val gobMain = gob.getPool("goblin_drops");
 gobMain.removeEntry("minecraft:iron_ingot");
-val gob1 = gob.addPool("gob1", 1, 1, 0, 0);
-gob1.addItemEntryHelper(<minecraft:leather>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
+val gob1 = gob.addPool("gob1", 1, 1, 1, 2);
+gob1.addItemEntryHelper(<contenttweaker:tattered_hide>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
+
+//BetterAnimals+
+<entity:betteranimalsplus:zotzpyre>.addDrop(<contenttweaker:monster_hide>,1,2);
 
 // Treasure Slime
 val lootSlime = LootTables.getTable("primitivemobs:entities/special/treasure_slime");

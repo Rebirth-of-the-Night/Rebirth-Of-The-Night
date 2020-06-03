@@ -27,8 +27,6 @@ recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwi
 mods.jei.JEI.removeAndHide(<betterwithmods:shaft>);
 mods.jei.JEI.removeAndHide(<betterwithmods:material:44>);
 
-mods.betterwithmods.Mill.addRecipe([<minecraft:rotten_flesh>],[<minecraft:leather>]);
-
 mods.jei.JEI.removeAndHide(<betterwithmods:material:40>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
