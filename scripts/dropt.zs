@@ -105,6 +105,15 @@ Dropt.list("clovers")
        	   .items([<contenttweaker:5leaf_clover>])
       )
   );  
+  
+Dropt.list("decayed_scaffolding")	
+
+  .add(Dropt.rule()	
+      .matchBlocks(["cyclicmagic:block_fragile"])	
+      .matchDrops([<cyclicmagic:block_fragile>])	
+      .replaceStrategy("REPLACE_ITEMS")	
+      .addDrop(Dropt.drop())	
+  );
 
 Dropt.list("plants_basic")
 
