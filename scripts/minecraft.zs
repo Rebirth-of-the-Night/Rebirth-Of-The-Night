@@ -58,7 +58,6 @@ recipes.removeByRecipeName("minecraft:cyan_wool");
 recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
-recipes.removeByRecipeName("minecraft:repeater");
 recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 
 recipes.remove(<minecraft:tnt>);
