@@ -232,7 +232,7 @@
     ]
   },
   {
-    "id": "minecraftfuture:impaling",
+    "id": "futuremc:impaling",
     "name": "enchantment.impaling",
     "enabled": true,
     "hide_on_item": false,
@@ -1008,7 +1008,7 @@
     "description": []
   },
   {
-    "id": "minecraftfuture:riptide",
+    "id": "futuremc:riptide",
     "name": "enchantment.riptide",
     "enabled": true,
     "hide_on_item": false,
