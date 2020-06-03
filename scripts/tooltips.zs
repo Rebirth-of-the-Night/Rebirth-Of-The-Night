@@ -188,8 +188,6 @@
 
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "<" + format.gold("+") + "" + format.gray(">"));
 
-<minecraft:stick>.addShiftTooltip("Can be obtained from leaves.", "<" + format.gold("+") + "" + format.gray(">"));
-
 //Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
