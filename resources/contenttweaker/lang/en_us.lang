@@ -115,4 +115,6 @@ item.contenttweaker.sapphire_ingot.name=Saphire Ingot
 item.contenttweaker.ruby_ingot.name=Ruby Ingot
 item.contenttweaker.peridot_ingot.name=Peridot Ingot
 item.contenttweaker.amethyst_ingot.name=Amethyst Ingot
+item.contenttweaker.tattered_hide.name=Tattered Hide
+item.contenttweaker.monster_hide.name=Monster Hide
 fluid.flowing_spirits=Flowing Spirits

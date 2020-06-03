@@ -53,6 +53,12 @@ peridot.register();
 val amethyst = mods.contenttweaker.VanillaFactory.createItem("amethyst_ingot");
 amethyst.register();
 
+//Balancing ingredients
+val rags_l = mods.contenttweaker.VanillaFactory.createItem("tattered_hide");
+rags_l.register();
+val hide_m = mods.contenttweaker.VanillaFactory.createItem("monster_hide");
+hide_m.register();
+
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
 //rat.saturation(6)

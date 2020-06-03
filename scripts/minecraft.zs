@@ -409,6 +409,14 @@ recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>,
 [<iceandfire:silver_nugget>, <betterwithmods:stake>, <iceandfire:silver_nugget>], 
 [<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
 
+recipes.addShaped("monster_leather", <betterwithmods:material:31>, 
+[[<contenttweaker:monster_hide>, <contenttweaker:monster_hide>, <contenttweaker:monster_hide>],
+[<contenttweaker:monster_hide>, <contenttweaker:monster_hide>, <contenttweaker:monster_hide>]]);
+
+recipes.addShaped("scrapped_leather", <betterwithmods:material:31>, 
+[[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>],
+[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>]]);
+
 //Ore Dictionary Entries
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
