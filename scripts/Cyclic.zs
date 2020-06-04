@@ -80,7 +80,7 @@ recipes.remove(<cyclicmagic:horse_upgrade_variant>);
 recipes.remove(<cyclicmagic:horse_upgrade_health>);
 recipes.remove(<cyclicmagic:horse_upgrade_speed>);
 recipes.remove(<cyclicmagic:horse_upgrade_jump>);
-recipes.remove(<cyclicmagic:tool_mount>);
+//recipes.remove(<cyclicmagic:tool_mount>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 //apple recipes on betterwithmods.zs
 
@@ -128,7 +128,6 @@ var obsi_shear = <cyclicmagic:shears_obsidian>;
 var ore_locator = <cyclicmagic:tool_prospector>;
 var blazerod = <minecraft:blaze_rod>;
 var st_conveyor = <cyclicmagic:plate_push_slowest>;
-var stirrups = <cyclicmagic:tool_mount>;
 
 mods.betterwithaddons.Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
@@ -177,11 +176,11 @@ recipes.addShaped("ore_locator", ore_locator,[
     [blazerod, null, null]
 ]);
 
-recipes.addShaped("durable_stirrups", stirrups,[
-	[null, <betterwithmods:material:9>, null],
-    [null, <harvestcraft:hardenedleatheritem>, <betterwithmods:material:9>],
-    [<ore:ingotSteel>, <ore:ingotSteel>, null]
-]);
+//recipes.addShaped("durable_stirrups", stirrups,[
+//	[null, <betterwithmods:material:9>, null],
+//    [null, <harvestcraft:hardenedleatheritem>, <betterwithmods:material:9>],
+//    [<ore:ingotSteel>, <ore:ingotSteel>, null]
+//]);
 
 //Spelunker potions with prospecting kit in rustic.zs
 
