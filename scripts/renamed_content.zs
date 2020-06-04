@@ -132,6 +132,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <iceandfire:chain>.displayName = "Refined Chain";
 <iceandfire:ash>.displayName = "Fiery Ash";
 <iceandfire:podium:0>.displayName = "Wooden Podium";
+<iceandfire:stymphalian_bird_dagger>.displayName = "Stymphalian Knife";
 
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
