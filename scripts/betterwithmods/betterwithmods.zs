@@ -154,10 +154,8 @@ for cookedFood in arrayLeather{
 
 //Horse Upgrades
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<rustic:cohosh>*2,<harvestcraft:honeyitem>],[<cyclicmagic:horse_upgrade_health>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*16,<mod_lavacow:poisonspore>],[<cyclicmagic:horse_upgrade_type>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*6,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*4,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
 
 //Charbiotite
 mods.betterwithmods.Cauldron.builder()
@@ -177,8 +175,6 @@ mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:ta
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
 
 //Cyclic Apple
-mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
-mods.betterwithmods.Cauldron.addStoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
 mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
 
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
