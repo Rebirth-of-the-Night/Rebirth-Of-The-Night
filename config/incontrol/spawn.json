@@ -370,7 +370,7 @@
     "mob": "minecraft:cave_spider",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.2,
+	"random": 0.06,
     "maxcount": {
         "amount": 3,
         "perplayer": true
@@ -384,7 +384,7 @@
     "mob": "minecraft:slime",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.7,
+	"random": 0.4,
     "maxcount": {
         "amount": 2,
         "perplayer": true
