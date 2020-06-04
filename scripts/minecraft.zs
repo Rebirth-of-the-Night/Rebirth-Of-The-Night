@@ -636,6 +636,9 @@ cookedMeat.addAll(cookedFrog);
 cookedMeat.addAll(cookedFish);
 cookedMeat.addAll(cookedVenison);
 
+val small_knife = <ore:smallKnife>;
+small_knife.addItems([<animania:carving_knife>,<spartanweaponry:throwing_knife_iron>,<spartanweaponry:throwing_knife_bronze>,<spartanweaponry:throwing_knife_gold>,<spartanweaponry:throwing_knife_silver>,<spartanweaponry:throwing_knife_diamond>,<spartancompat:throwing_knife_skyroot>,<spartancompat:throwing_knife_holystone>,<spartancompat:throwing_knife_zanite>,<spartancompat:throwing_knife_gravitite>,<spartancompat:throwing_knife_adamantium>,<spartanfire:throwing_knife_dragonbone>,<spartanfire:throwing_knife_fire_dragonbone>,<spartanfire:throwing_knife_ice_dragonbone>,<spartanfire:throwing_knife_jungle>,<spartanfire:throwing_knife_desert>,<spartanfire:throwing_knife_jungle_venom>,<spartanfire:throwing_knife_desert_venom>,<spartanfire:throwing_knife_ice_dragonsteel>,<spartanfire:throwing_knife_fire_dragonsteel>,<mod_lavacow:famine>,<iceandfire:stymphalian_bird_dagger>]);
+
 val nitrogen = <ore:mulchNitrogen>;
 nitrogen.addAll(<ore:listAllmeat>);
 nitrogen.addAll(<ore:listAllbeefraw>);
