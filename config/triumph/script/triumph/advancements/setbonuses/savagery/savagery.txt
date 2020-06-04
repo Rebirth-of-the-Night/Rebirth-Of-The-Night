@@ -21,4 +21,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/savagery/offhand")
 
 hideLines()
 alwaysVisible()
-setPos(-265,69)
+setPos(-265,84)

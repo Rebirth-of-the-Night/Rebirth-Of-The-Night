@@ -9,4 +9,4 @@ criteria.addItem("iceandfire:dragonsteel_fire_sword")
 
 alwaysVisible()
 hideLines()
-setPos(-113,193)
+setPos(-113,212)

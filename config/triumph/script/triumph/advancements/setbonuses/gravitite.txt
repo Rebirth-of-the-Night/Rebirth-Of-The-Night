@@ -4,7 +4,7 @@ setDescription("Complete the Moonwalker set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullMidArmor")
+// addRewardFunction("triumph:fullMidArmor")
 
 criteria = addCriteria("Gravitite Helmet", "minecraft:inventory_changed")
 criteria.addItem("aether_legacy:gravitite_helmet")
@@ -20,4 +20,4 @@ criteria.addItem("aether_legacy:gravitite_boots")
 
 alwaysVisible()
 hideLines()
-setPos(-179,138)
+setPos(-179,156)

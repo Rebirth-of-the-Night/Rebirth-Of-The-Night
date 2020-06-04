@@ -4,7 +4,7 @@ setDescription("Complete The Iron Giant set.")
 
 addParent("triumph:advancements/setbonuses/bronzearmor")
 
-addRewardFunction("triumph:fullEarlyArmor")
+// addRewardFunction("triumph:fullEarlyArmor")
 
 criteria = addCriteria("Iron Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:iron_helmet")

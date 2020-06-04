@@ -4,7 +4,7 @@ setDescription("Complete the From The Ashes set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullMidArmor")
+// addRewardFunction("triumph:fullMidArmor")
 
 criteria = addCriteria("Pheonix Helmet", "minecraft:inventory_changed")
 criteria.addItem("aether_legacy:phoenix_helmet")
@@ -20,4 +20,4 @@ criteria.addItem("aether_legacy:phoenix_boots")
 
 alwaysVisible()
 hideLines()
-setPos(-243,138)
+setPos(-243,156)

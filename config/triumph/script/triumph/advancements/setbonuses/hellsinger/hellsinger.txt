@@ -20,4 +20,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/offhand")
 
 alwaysVisible()
 hideLines()
-setPos(-189,98)
+setPos(-189,119)

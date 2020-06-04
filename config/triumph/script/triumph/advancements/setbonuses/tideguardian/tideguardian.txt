@@ -14,4 +14,4 @@ criteria = addCriteria("Boots", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/boots")
 
 alwaysVisible()
-setPos(-113,156)
+setPos(-113,174)

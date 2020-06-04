@@ -4,7 +4,7 @@ setDescription("Complete the Hellwalker set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullMidArmor")
+// addRewardFunction("triumph:fullMidArmor")
 
 criteria = addCriteria("Molten Helmet", "minecraft:inventory_changed")
 criteria.addItem(<mod_lavacow:felarmor_helmet>)
@@ -20,4 +20,4 @@ criteria.addItem(<mod_lavacow:felarmor_boots>)
 
 alwaysVisible()
 hideLines()
-setPos(-227,98)
+setPos(-227,119)

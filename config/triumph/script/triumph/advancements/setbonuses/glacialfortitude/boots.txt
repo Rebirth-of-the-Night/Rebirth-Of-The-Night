@@ -21,4 +21,5 @@ criteria.addItem("iceandfire:armor_silver_boots")
 
 setRequirements("any")
 
-setPos(-113,127)
+alwaysHidden()
+setPos(-113,145)

@@ -21,4 +21,5 @@ criteria.addItem("iceandfire:armor_silver_leggings")
 
 setRequirements("any")
 
-setPos(-113,127)
+alwaysHidden()
+setPos(-113,145)

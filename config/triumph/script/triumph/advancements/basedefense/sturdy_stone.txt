@@ -1,0 +1,12 @@
+setIcon(<minecraft:stone>)
+setTitle("Tough as Stone")
+setDescription("Many stones have different levels of sturdiness!")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Caltrops", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:caltrops>)
+
+alwaysVisible()
+hideLines()
+setPos(-256,0)

@@ -1,0 +1,20 @@
+setIcon("mowziesmobs:barakoa_mask_fear")
+setTitle("B E Y O N D  S P E E D")
+setDescription("Complete the B E Y O N D  S P E E D set.")
+
+addParent("triumph:advancements/setbonuses/viridiumarmor")
+
+criteria = addCriteria("Plate Armor Helmet", "minecraft:inventory_changed")
+criteria.addItem("mowziesmobs:barakoa_mask_fear")
+
+criteria = addCriteria("Plate Armor Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_chestplate")
+
+criteria = addCriteria("Plate Armor Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_leggings")
+
+criteria = addCriteria("Plate Armor Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_boots")
+
+alwaysVisible()
+setPos(-74,62)
