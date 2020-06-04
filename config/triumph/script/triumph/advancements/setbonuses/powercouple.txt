@@ -4,7 +4,7 @@ setDescription("Complete the Power Couple set.")
 
 addParent("triumph:advancements/setbonuses/awalkingrainbow")
 
-addRewardFunction("triumph:fullMidArmor")
+// addRewardFunction("triumph:fullMidArmor")
 
 criteria = addCriteria("Obsidian Helmet", "minecraft:inventory_changed")
 criteria.addItem("endreborn:armour_helmet_helmet")
