@@ -17,4 +17,4 @@ criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
 
 hideLines()
 setHidden(true)
-setPos(-500,-75)
+setPos(-578,18)

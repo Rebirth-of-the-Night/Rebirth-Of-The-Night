@@ -1005,7 +1005,7 @@
   },
 
   {
-    "dimension": 0,
+    "dimension": 4,
     "mobs": [
       {
         "mob": "specialmobs:lemonslime",

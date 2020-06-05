@@ -2117,7 +2117,7 @@
     "seesky": true,
     "gamestage": "enteredNether",
     "maxcount": {
-        "amount": 20,
+        "amount": 2,
         "perplayer": true
     },
     "result": "allow"

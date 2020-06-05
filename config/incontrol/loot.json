@@ -18,13 +18,6 @@
    {
       "mob": "minecraft:slime",
       "player": true,
-      "item": "harvestcraft:limejellyitem",
-      "itemcount": "1",
-      "random": "0.1"
-   },
-   {
-      "mob": "minecraft:slime",
-      "player": true,
       "item": "quark:rune:5",
       "itemcount": "1",
       "random": "0.03"
@@ -35,13 +28,6 @@
       "item": "harvestcraft:slimegummiesitem",
       "itemcount": "1",
       "random": "0.1"
-   },
-   {
-      "mob": "minecraft:slime",
-      "player": true,
-      "item": "bountifulbaubles:crowngold",
-      "itemcount": "1",
-      "random": "0.01"
    },
 
    // Lemon Slime
@@ -67,23 +53,9 @@
    {
       "mob": "specialmobs:lemonslime",
       "player": true,
-      "item": "harvestcraft:lemonjellyitem",
-      "itemcount": "1",
-      "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:lemonslime",
-      "player": true,
       "item": "harvestcraft:slimegummiesitem",
       "itemcount": "1",
       "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:lemonslime",
-      "player": true,
-      "item": "bountifulbaubles:crowngold",
-      "itemcount": "1",
-      "random": "0.01"
    },
 
 
@@ -111,23 +83,9 @@
    {
       "mob": "specialmobs:grapeslime",
       "player": true,
-      "item": "harvestcraft:grapejellyitem",
-      "itemcount": "1",
-      "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:grapeslime",
-      "player": true,
       "item": "harvestcraft:slimegummiesitem",
       "itemcount": "1",
       "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:grapeslime",
-      "player": true,
-      "item": "bountifulbaubles:crowngold",
-      "itemcount": "1",
-      "random": "0.03"
    },
 
    // Blueberry Slime
@@ -153,23 +111,9 @@
    {
       "mob": "specialmobs:blueberryslime",
       "player": true,
-      "item": "harvestcraft:blueberryjellyitem",
-      "itemcount": "1",
-      "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:blueberryslime",
-      "player": true,
       "item": "harvestcraft:slimegummiesitem",
       "itemcount": "1",
       "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:blueberryslime",
-      "player": true,
-      "item": "bountifulbaubles:crowngold",
-      "itemcount": "1",
-      "random": "0.01"
    },
 
    // Blackberry Slime
@@ -195,23 +139,9 @@
    {
       "mob": "specialmobs:blackberryslime",
       "player": true,
-      "item": "harvestcraft:blackberryjellyitem",
-      "itemcount": "1",
-      "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:blackberryslime",
-      "player": true,
       "item": "harvestcraft:slimegummiesitem",
       "itemcount": "1",
       "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:blackberryslime",
-      "player": true,
-      "item": "bountifulbaubles:crowngold",
-      "itemcount": "1",
-      "random": "0.01"
    },
 
 
@@ -239,23 +169,9 @@
    {
       "mob": "specialmobs:strawberryslime",
       "player": true,
-      "item": "harvestcraft:strawberryjellyitem",
-      "itemcount": "1",
-      "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:strawberryslime",
-      "player": true,
       "item": "harvestcraft:slimegummiesitem",
       "itemcount": "1",
       "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:strawberryslime",
-      "player": true,
-      "item": "bountifulbaubles:crowngold",
-      "itemcount": "1",
-      "random": "0.01"
    },
 
 
@@ -282,23 +198,26 @@
    {
       "mob": "specialmobs:watermelonslime",
       "player": true,
-      "item": "harvestcraft:watermelonjellyitem",
-      "itemcount": "1",
-      "random": "0.1"
-   },
-   {
-      "mob": "specialmobs:watermelonslime",
-      "player": true,
       "item": "harvestcraft:slimegummiesitem",
       "itemcount": "1",
       "random": "0.1"
    },
+
+   
+
+   // Harvester
    {
-      "mob": "specialmobs:watermelonslime",
+   "mob": "harvestersnight:harvester",
+   "player": true,
+   "item": "bountifulbaubles:crowngold",
+   "itemcount": "1"
+   },
+   {
+      "mob": "harvestersnight:harvester",
       "player": true,
-      "item": "bountifulbaubles:crowngold",
+      "item": "scalinghealth:crystalshard",
       "itemcount": "1",
-      "random": "0.01"
+      "random": "0.50"
    },
 
 

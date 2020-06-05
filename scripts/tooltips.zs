@@ -1,3 +1,6 @@
+<bountifulbaubles:crowngold>.addTooltip("Used for summoning King Slime");
+<harvestersnight:harvester_scythe>.addTooltip("Its true power is yet to be unlocked...");
+
 
 #Boat tooltips
 <minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");

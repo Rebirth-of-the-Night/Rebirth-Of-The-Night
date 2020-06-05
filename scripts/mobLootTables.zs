@@ -58,6 +58,14 @@ mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
 // SpecialMobs
 val lemonSlime = LootTables.getTable("specialmobs:entities/slime/lemon");
 lemonSlime.clear();
+val strawberrySlime = LootTables.getTable("specialmobs:entities/slime/strawberry");
+strawberrySlime.clear();
+val blueberrySlime = LootTables.getTable("specialmobs:entities/slime/blueberry");
+blueberrySlime.clear();
+val blackberrySlime = LootTables.getTable("specialmobs:entities/slime/blackberry");
+blackberrySlime.clear();
+val watermelonSlime = LootTables.getTable("specialmobs:entities/slime/watermelon");
+watermelonSlime.clear();
 
 //PrimitiveMobs ######################
 val gob = LootTables.getTable("primitivemobs:entities/goblin");
