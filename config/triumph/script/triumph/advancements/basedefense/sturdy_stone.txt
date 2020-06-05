@@ -1,12 +1,12 @@
-setIcon(<minecraft:stone>)
+setIcon(<quark:sturdy_stone>)
 setTitle("Tough as Stone")
-setDescription("Many stones have different levels of sturdiness!")
+setDescription("Sturdy Stone and all Stone Bricks have increased hardness and are great for walls!")
 
 addParent("triumph:advancements/basedefense/root")
 
-criteria = addCriteria("Caltrops", "minecraft:inventory_changed")
-criteria.addItem(<dungeontactics:caltrops>)
+criteria = addCriteria("Sturdy Stone", "minecraft:inventory_changed")
+criteria.addItem(<quark:sturdy_stone>)
 
 alwaysVisible()
 hideLines()
-setPos(-256,0)
+setPos(-339,50)
