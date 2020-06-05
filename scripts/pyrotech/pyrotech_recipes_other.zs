@@ -17,7 +17,7 @@ CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <bett
 
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 120 * 20);
-DryingRack.addRecipe("renovable_wax", <harvestcraft:waxcombitem>, <futuremc:honeycomb>, 60 * 20);
+//DryingRack.addRecipe("renovable_wax", <harvestcraft:waxcombitem>, <futuremc:honeycomb>, 60 * 20);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);

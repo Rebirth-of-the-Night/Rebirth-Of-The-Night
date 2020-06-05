@@ -105,7 +105,7 @@ Dropt.list("clovers")
        	   .items([<contenttweaker:5leaf_clover>])
       )
   );
-
+/*
 Dropt.list("nest_grubs")
 
   .add(Dropt.rule()
@@ -143,6 +143,7 @@ Dropt.list("nest_grubs")
        	   .items([<aether_legacy:ambrosium_shard>])
       )
   );   
+*/
   
 Dropt.list("decayed_scaffolding")	
 

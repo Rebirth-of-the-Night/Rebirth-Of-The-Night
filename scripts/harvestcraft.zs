@@ -3,8 +3,6 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:honeycombitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:honeycomb>);
 recipes.remove(<minecraft:bread>);
 recipes.remove(<harvestcraft:well>);
 recipes.remove(<harvestcraft:zombiejerkyitem>);
@@ -270,8 +268,8 @@ recipes.addShaped("food_presser", <harvestcraft:presser>, [
 //Honey production
 //recipes.addShapeless("harvestcraft_grub_crowning", <harvestcraft:queenbeeitem>, [<harvestcraft:grubitem>,<bountifulbaubles:crowngold>.giveBack(),<dungeontactics:magic_powder>]);
 recipes.remove(<harvestcraft:royaljellyitem>);
-mods.betterwithmods.Mill.addRecipe([<futuremc:honeycomb>],[<harvestcraft:honeyitem>*3,<harvestcraft:beeswaxitem>]);
-mods.betterwithmods.Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*3]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);
+mods.betterwithmods.Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*6]);
 
 // Palm seed -> cooking oil
 recipes.addShapeless("palmseed_cookingoil", <harvestcraft:oliveoilitem>*2, [<harvestcraft:juiceritem>, <dynamictreesbop:palmseed>, <dynamictreesbop:palmseed>]);

@@ -73,7 +73,6 @@ GraniteAnvil.addRecipe("refractorylump_quartzite",<pyrotech:material:35>*2, <und
 GraniteAnvil.addRecipe("refractorylump_marble",<pyrotech:material:35>*2, <undergroundbiomes:metamorphic_stone:2>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("refractorylump_dolomite",<pyrotech:material:35>*2, <undergroundbiomes:sedimentary_stone:5>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("limerock_lime",<pyrotech:rock:8>*3, <undergroundbiomes:sedimentary_stone>, 8,"pickaxe", true);
-GraniteAnvil.addRecipe("non-renewable_wax",<harvestcraft:waxcombitem>*6, <futuremc:bee_nest>, 4,"hammer", true);
 
 //D-Heads
 /* 
