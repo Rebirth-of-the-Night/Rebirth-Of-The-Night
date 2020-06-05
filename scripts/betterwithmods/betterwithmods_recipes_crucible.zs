@@ -631,6 +631,6 @@ mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_shovel:*>],[mythril*
 mods.betterwithmods.Crucible.addStoked([<spartancompat:lance_mythril:*>],[mythril*27]);
 mods.betterwithmods.Crucible.addStoked([<spartancompat:longsword_mythril:*>],[mythril*45]);
 mods.betterwithmods.Crucible.addStoked([<spartancompat:rapier_mythril:*>],[mythril*45]);
-mods.betterwithmods.Crucible.addStoked([<spartancompat:boomerang_mythril:*>],[mythril*45]);
+mods.betterwithmods.Crucible.addStoked([<spartancompat:boomerang_mythril:*>],[mythril*9]);
 mods.betterwithmods.Crucible.addStoked([<spartancompat:mace_mythril:*>],[mythril*63]);
 mods.betterwithmods.Crucible.addStoked([<spartanshields:shield_basic_lead:*>],[mythril*90]);
