@@ -120,7 +120,7 @@ recipes.addShaped(<contenttweaker:illusion_rune>, [
 recipes.addShaped(<contenttweaker:order_rune>, [
 [null, <dungeontactics:magic_powder>, null],
 [<contenttweaker:earth_rune>.anyDamage().transformDamage(), <contenttweaker:blank_rune>, <contenttweaker:air_rune>.anyDamage().transformDamage()], 
-[null, <ore:StoneHugeBrick>|<harvestcraft:honeycombitem>|<futuremc:honeycomb>|<minecraft:stonebrick:*>|<undergroundbiomes:fossil_piece:0>|<betteranimalsplus:antler>, null]]);
+[null, <ore:StoneHugeBrick>|<futuremc:honeycomb>|<futuremc:honeycomb>|<minecraft:stonebrick:*>|<undergroundbiomes:fossil_piece:0>|<betteranimalsplus:antler>, null]]);
 
 recipes.addShaped(<contenttweaker:trans_rune>, [
 [null, <dungeontactics:magic_powder>, null],
