@@ -136,7 +136,7 @@ Dropt.list("nest_grubs")
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(1)) // spoils of war 2
-       	   .items([<mod_lavacow:poisonstinger>])
+       	   .items([<betteranimalsplus:bearhead_1>])
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(10)) // sweetest prize
