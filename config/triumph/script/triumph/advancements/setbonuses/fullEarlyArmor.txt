@@ -22,7 +22,7 @@ criteria = addCriteria("Silver Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements\setbonuses\silverarmor")
 
 criteria = addCriteria("Tanned Leather Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements\setbonuses\bronzearmor")
+criteria.setAdvancement("triumph:advancements\setbonuses\tannedLeatherArmor")
 
 criteria = addCriteria("Gold Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements\setbonuses\goldarmor")
@@ -30,4 +30,4 @@ criteria.setAdvancement("triumph:advancements\setbonuses\goldarmor")
 setRequirements("any")
 
 alwaysHidden()
-setPos(0,0)
+setPos(-430,14)
