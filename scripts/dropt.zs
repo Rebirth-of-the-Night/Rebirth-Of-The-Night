@@ -104,7 +104,45 @@ Dropt.list("clovers")
           .selector(Dropt.weight(10)) // unlucky clover
        	   .items([<contenttweaker:5leaf_clover>])
       )
-  );  
+  );
+
+Dropt.list("nest_grubs")
+
+  .add(Dropt.rule()
+      .matchBlocks(["futuremc:bee_nest"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(200)) // drops nothing if selected
+      )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // grub
+       	   .items([<harvestcraft:grubitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // wax
+       	   .items([<harvestcraft:waxcombitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // grub and wax
+       	   .items([<harvestcraft:grubitem>, <harvestcraft:waxcombitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50)) // alright double prizes
+       	   .items([<harvestcraft:grubitem>*2])
+      )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5)) // spoils of war 1
+       	   .items([<mod_lavacow:poisonstinger>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1)) // spoils of war 2
+       	   .items([<mod_lavacow:poisonstinger>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // sweetest prize
+       	   .items([<aether_legacy:ambrosium_shard>])
+      )
+  );   
   
 Dropt.list("decayed_scaffolding")	
 
