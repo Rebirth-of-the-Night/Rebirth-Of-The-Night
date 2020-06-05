@@ -93,7 +93,7 @@
     "mobs": [
       {
         "mob": "minecraft:cave_spider",
-        "weight": 2.5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 2
       }
@@ -151,14 +151,27 @@
   },
 
 //lantern
-  {
+    {
     "dimension": 10,
     "mobs": [
       {
         "mob": "mowziesmobs:lantern",
-        "weight": 7,
+        "weight": 50,
         "groupcountmin": 1,
         "groupcountmax": 7
+      }
+    ]
+  },
+  
+ //grottol
+    {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:grottol",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   },

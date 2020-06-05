@@ -13,7 +13,7 @@ val irongolem = LootTables.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
 <entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3);
-<entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,5);
+<entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,3);
 
 // double security for godswords... you know... I have trust issues after those rough few patches
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:dawn_star");
@@ -31,6 +31,7 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_candy");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_infinity");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_keyblade");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_molten");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
@@ -43,11 +44,12 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 <entity:iceandfire:if_troll>.addPlayerOnlyDrop(<iceandfire:troll_skull>, 1, 1);
 <entity:iceandfire:cyclops>.addPlayerOnlyDrop(<iceandfire:cyclops_skull>, 1, 1);
 
+//Mowzies
 //skydrake
 <entity:mowziesmobs:naga>.addPlayerOnlyDrop(<mowziesmobs:naga_fang>, 1, 1);
 
-
-
+<entity:mowziesmobs:grottol>.addDrop(<arcanearchives:radiant_dust>,2,5);
+<entity:mowziesmobs:grottol>.addDrop(<arcanearchives:raw_quartz>,2,3);
 
 
 // aether

@@ -29,7 +29,7 @@ recipes.addShapeless("disintrune21", <bountifulbaubles:spectralsilt> * 2, [<cont
 
 recipes.addShapeless("disintrune23", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:brokenblackdragonscale>]);
 
-recipes.addShapeless("disintrune24", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <dungeontactics:magic_scroll>]);
+recipes.addShapeless("disintrune24", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <dungeontactics:magic_scroll>]);
 
 recipes.addShapeless("disintrune25", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <golems:golem_paper>]);
 

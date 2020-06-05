@@ -40,6 +40,21 @@
 	"onjoin": true,
     "damagemultiply": 2
   },
+
+
+
+// salmon
+{
+    "dimension": 0,
+    "mob": "futuremc:salmon",
+	"autumn": true,
+    "result": "default"
+ },
+ {
+    "dimension": 0,
+    "mob": "futuremc:salmon",
+    "result": "deny"
+ },
   
 {
     "mob": "betteranimalsplus:hirschgeist",
@@ -186,26 +201,44 @@
 
 /// MowziesMobs Beneath spawn cap
  // lantern
- {
-    "dimension": 10,
-    "mob": "mowziesmobs:lantern",
-    "maxlight": 1,
-    "minlight": 0,
-	"maxheight": 140,
-	"minheight": 90,
-    "gamestage": "minedMythril",
+{
+   "dimension": 10,
+  "mob": "mowziesmobs:lantern",
+  "maxlight": 4,
+  "minlight": 0,
+  "maxheight": 190,
+  "minheight": 90,
+  "block": ["undergroundbiomes:igneous_stone_simpleores_adamantium_ore", "undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore", "undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore"],
     "maxcount": {
         "amount": 10,
         "perplayer": true
     },
-    "result": "allow"
- },
- {
-    "dimension": 10,
-    "mob": "mowziesmobs:lantern",
-    "result": "deny"
- },
+  "result": "allow"
+},
+{
+  "dimension": 10,
+  "mob": "mowziesmobs:lantern",
+  "result": "deny"
+},
 
+{
+   "dimension": 10,
+  "mob": "mowziesmobs:grottol",
+  "maxlight": 1,
+  "minlight": 0,
+  "gamestage": "minedMythril",
+  "maxheight": 200,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+  "result": "allow"
+},
+{
+  "dimension": 10,
+  "mob": "mowziesmobs:grottol",
+  "result": "deny"
+},
 
 
 // attempt to ensure black death only spawns one at a time
@@ -367,7 +400,7 @@
     "mob": "minecraft:cave_spider",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.2,
+	"random": 0.02,
     "maxcount": {
         "amount": 3,
         "perplayer": true
@@ -2671,7 +2704,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:scarecrow",
 	"biome": ["Plains", "Roofed Forest", "Forest", "ForestHills", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Extreme Hills+", "Flower Forest", "Bayou", "Bog", "Brushland", "Chaparral", "Cherry Blossom Grove", "Dead Forest", "Grassland", "Grove", "Lavender Fields", "Maple Woods", "Ominous Woods", "Orchard", "Overgrown Cliffs", "Prairie", "Seasonal Forest", "Shrubland", "Temperate Rainforest", "Pasture", "Wasteland", "Woodland"],
-    "gamestage": "enteredBeneath",
+    "gamestage": "fullEarlyArmor",
 	"maxlight": 7,
     "minlight": 0,
 	"random": 0.10,

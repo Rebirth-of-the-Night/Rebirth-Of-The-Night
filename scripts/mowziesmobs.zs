@@ -2,17 +2,18 @@
 <entity:mowziesmobs:ferrous_wroughtnaut>.addDrop(<minecraft:iron_ingot>,3,9);
 <entity:mowziesmobs:ferrous_wroughtnaut>.addDrop(<minecraft:iron_block>,1,2);
 //
-<entity:mowziesmobs:foliaath>.addPlayerOnlyDrop(<mowziesmobs:foliaath_seed> %80, 1, 2);
+//<entity:mowziesmobs:foliaath>.addPlayerOnlyDrop(<mowziesmobs:foliaath_seed> %80, 1, 2);
 //
 <entity:mowziesmobs:frostmaw>.addDrop(<mod_lavacow:sharptooth>,1,4);
 <entity:mowziesmobs:frostmaw>.addDrop(<betterwithmods:material:6>,5,9);
 //
 <entity:mowziesmobs:naga>.addDrop(<mod_lavacow:sharptooth>,2,6);
 
-//mods.ltt.LootTable.removeGlobalItem("mowziesmobs:glowing_jelly");
+mods.ltt.LootTable.removeGlobalItem("mowziesmobs:glowing_jelly");
 
-//<entity:mowziesmobs:lantern>.removeDrop(<mowziesmobs:glowing_jelly>);
-//<entity:mowziesmobs:lantern>.addDrop(<betterwithaddons:congealed:4>);
+<entity:mowziesmobs:lantern>.removeDrop(<mowziesmobs:glowing_jelly>);
+//<entity:mowziesmobs:lantern>.addDrop(<betterwithaddons:congealed:4>,1,2);
+<entity:mowziesmobs:lantern>.addPlayerOnlyDrop(<betterwithaddons:congealed:4> % 30, 1, 2);
 //val lantern = <mowziesmobs:lantern>;
 //lantern.clearDrops();
 
@@ -40,6 +41,7 @@ val commonGlowOredict = <ore:commonGlowSource>;
 commonGlowOredict.add(<biomesoplenty:flower_0:3>);
 commonGlowOredict.add(<biomesoplenty:mushroom:3>);
 commonGlowOredict.add(<biomesoplenty:coral:3>);
+commonGlowOredict.add(<betterwithaddons:congealed:4>);
 
 val uncommonGlowOredict = <ore:uncommonGlowSource>;
 uncommonGlowOredict.add(<mod_lavacow:glowshroom>);
@@ -77,7 +79,7 @@ recipes.addShaped("MediumResidueGlareTorch", <glaretorch:itemglaretorch>,[
 
 
 // WAITING FOR MOWZIE'S MOBS AUTHOR TO ADD LOOT TABLES SO I CAN ENTIRELY REPLACE GLOWING JELLY DROP WITH THIS
-// mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:congealed:4>, <mowziesmobs:glowing_jelly>, 5000);
+mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:congealed:4>, <mowziesmobs:glowing_jelly>, 5000);
 
 /// Removed Vanilla Night Vision Potions
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:golden_carrot>);
