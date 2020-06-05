@@ -1,0 +1,198 @@
+{
+  "block.wood.creak": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:wood/wood_creak"
+    ],
+    "subtitle": "subtitles.bwm.wood.creak"
+  },
+  "block.stone.grind": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:stone/stone_grind"
+    ],
+    "subtitle": "subtitles.bwm.stone.grind"
+  },
+  "block.wood.bellow": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:wood/bellow"
+    ],
+    "subtitle": "subtitles.bwm.wood.bellow"
+  },
+  "block.wood.chime": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:wood/bamboo_chime_0",
+      "betterwithmods:wood/bamboo_chime_1",
+      "betterwithmods:wood/bamboo_chime_2",
+      "betterwithmods:wood/bamboo_chime_3"
+    ],
+    "subtitle": "subtitles.bwm.wood.chime"
+  },
+  "block.metal.chime": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:metal/metal_chime_0",
+      "betterwithmods:metal/metal_chime_1",
+      "betterwithmods:metal/metal_chime_2"
+    ],
+    "subtitle": "subtitles.bwm.metal.chime"
+  },
+  "block.metal.hacksaw": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:metal/hacksaw"
+    ],
+    "subtitle": "subtitles.bwm.metal.hacksaw"
+  },
+  "entity.player.oof": {
+    "category": "player",
+    "sounds": [
+      "betterwithmods:player/oof"
+    ],
+    "subtitle": "subtitles.bwm.oof"
+  },
+  "block.millstone.netherrack":{
+    "category": "block",
+    "sounds": [
+      "mob/ghast/scream1",
+      "mob/ghast/scream2",
+      "mob/ghast/scream3",
+      "mob/ghast/scream4",
+      "mob/ghast/scream5"
+    ],
+    "subtitle": "subtitles.bwm.millstone.netherrack"
+  },
+  "block.saw.cut": {
+    "category": "block",
+    "sounds": [
+      "minecart/base"
+    ],
+    "subtitle": "subtitle.bwm.saw.cut"
+  },
+  "block.mechanical.overpower": {
+    "category": "block",
+    "sounds": [
+      "mob/zombie/wood1",
+      "mob/zombie/wood2",
+      "mob/zombie/wood3",
+      "mob/zombie/wood4"
+    ],
+    "subtitle": "subtitle.bwm.mechanical.overpower"
+  },
+  "block.bloodwood.break": {
+    "category": "block",
+    "sounds": [
+      "mob/ghast/scream1",
+      "mob/ghast/scream2",
+      "mob/ghast/scream3",
+      "mob/ghast/scream4",
+      "mob/ghast/scream5"
+    ],
+    "subtitle": "subtitles.bwm.bloodwood.break"
+  },
+  "ambient.gloom": {
+    "category": "ambient",
+    "sounds": [
+      "ambient/cave/cave10",
+      "ambient/cave/cave13",
+      "ambient/cave/cave3",
+      "ambient/cave/cave4",
+      "ambient/cave/cave8",
+	  "charm:spectre_ambient1",
+	  "charm:spectre_ambient2",
+	  "charm:spectre_move1",
+	  "charm:spectre_move2",
+	  "netherex:mob/wight/wight_ambient_1",
+	  "netherex:mob/wight/wight_ambient_2",
+	  "netherex:mob/wight/wight_ambient_3",
+	  "dsurround:ambient/insects/crawl1",
+	  "dsurround:ambient/insects/crawl2",
+	  "dsurround:ambient/insects/crawl3",
+	  "dsurround:footsteps/stone/stone_walk1",
+	  "dsurround:footsteps/stone/stone_walk2",
+	  "dsurround:footsteps/stone/stone_walk3",
+	  "dsurround:footsteps/stone/stone_walk4",
+	  "dsurround:footsteps/stone/stone_walk5",
+	  "dsurround:footsteps/stone/stone_walk6",
+	  "dsurround:footsteps/stone/stone_walk7",
+	  "dsurround:footsteps/stone/stone_walk8",
+	  "dsurround:footsteps/stone/stone_walk9",
+	  "dsurround:footsteps/stone/stone_walk10",
+	  "dsurround:footsteps/stone/stone_walk11",
+	  "dsurround:footsteps/stone/stone_run1",
+	  "dsurround:footsteps/stone/stone_run2",
+	  "dsurround:footsteps/stone/stone_run3",
+	  "dsurround:footsteps/stone/stone_run4",
+	  "dsurround:footsteps/stone/stone_run5",
+	  "dsurround:footsteps/stone/stone_run6",
+	  "dsurround:footsteps/stone/stone_run7",
+	  "dsurround:footsteps/stone/stone_run8",
+	  "dsurround:footsteps/stone/stone_run9",
+	  "dsurround:footsteps/stone/stone_run10",
+	  "dsurround:footsteps/stone/stone_run11"
+    ]
+  },
+  "ambient.spook": {
+    "category": "ambient",
+    "sounds": [
+      "charm:whispers",
+	  "mob/zombie/woodbreak",
+	  "mob/wither_skeleton/step1",
+      "mob/wither_skeleton/step2",
+      "mob/wither_skeleton/step3",
+      "mob/wither_skeleton/step4",
+	  "rats:rat_plague_0",
+	  "rats:rat_plague_1",
+	  "rats:rat_plague_2",
+	  "rats:ratlantean_spirit_idle_1",
+	  "dsurround:ambient/insects/crawl1",
+	  "dsurround:ambient/insects/crawl2",
+	  "dsurround:ambient/insects/crawl3",
+	  "dsurround:footsteps/stone/stone_run1",
+	  "dsurround:footsteps/stone/stone_run2",
+	  "dsurround:footsteps/stone/stone_run3",
+	  "dsurround:footsteps/stone/stone_run4",
+	  "dsurround:footsteps/stone/stone_run5",
+	  "dsurround:footsteps/stone/stone_run6",
+	  "dsurround:footsteps/stone/stone_run7",
+	  "dsurround:footsteps/stone/stone_run8",
+	  "dsurround:footsteps/stone/stone_run9",
+	  "dsurround:footsteps/stone/stone_run10",
+	  "dsurround:footsteps/stone/stone_run11",
+	  "dsurround:ambient/underground/monster_growl1",
+	  "netherex:mob/spinout/spinout_ambient_3",
+	  "mod_lavacow:entity/boneworm/ambient",
+	  "mod_lavacow:entity/foglet/ambient",
+	  "mod_lavacow:entity/wendigo/ambient",
+	  "mod_lavacow:entity/zombiepiranha/ambient0",
+	  "mod_lavacow:entity/zombiepiranha/ambient1",
+	  "mod_lavacow:entity/zombiepiranha/ambient2",
+	  "mod_lavacow:entity/zombiepiranha/ambient3",
+	  "mod_lavacow:entity/zombiepiranha/death2",
+	  "netherex:mob/nethermite/nethermite_ambient",
+	  "iceandfire:troll_roar",
+	  "quark:block/monster_box",
+	  "iceandfire:deathworm_giant_idle_0",
+	  "iceandfire:deathworm_giant_idle_1",
+	  "zombieawareness:investigate/zombie_investigate_1",
+	  "zombieawareness:investigate/zombie_investigate_3",
+	  "zombieawareness:target/zombie_target_1",
+	  "mob/spider/step1",
+	  "mob/spider/step2",
+	  "mob/spider/step3",
+	  "mob/spider/step4",
+      "mob/silverfish/step1",
+      "mob/silverfish/step2",
+      "mob/silverfish/step3",
+      "mob/silverfish/step4",
+      "mob/endermen/portal",
+      "mob/endermen/portal2",
+      "mob/endermen/scream1",
+      "mob/endermen/scream2",
+      "mob/endermen/scream3",
+      "mob/endermen/scream4"
+    ]
+  }
+}
