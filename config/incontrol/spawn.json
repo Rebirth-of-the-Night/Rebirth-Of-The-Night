@@ -403,12 +403,17 @@
     "mob": "minecraft:cave_spider",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.02,
     "maxcount": {
-        "amount": 3,
+        "amount": 20,
         "perplayer": true
     },
+    "healthmultiply": 0.5,
     "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "minecraft:cave_spider",
+    "result": "deny"
  },
  
  
@@ -1753,6 +1758,7 @@
     "result": "deny"
  },
 
+ /*
  {
     "dimension": [0,10],
     "mob": "specialmobs:poisonskeleton",
@@ -1768,7 +1774,7 @@
     "mob": "specialmobs:poisonskeleton",
     "result": "deny"
  },
-
+*/
 {
     "dimension": [0,10],
     "mob": "specialmobs:ninjaskeleton",
@@ -1921,7 +1927,7 @@
 },
 
  {
-    "dimension": [0,10],
+    "dimension": 0,
     "mob": "specialmobs:poisonspider",
     "gamestage": "enteredBeneath",
     "maxcount": {
@@ -1931,7 +1937,7 @@
     "result": "default"
  },
  {
-    "dimension": [0,10],
+    "dimension": 0,
     "mob": "specialmobs:poisonspider",
     "result": "deny"
  },

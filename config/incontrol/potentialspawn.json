@@ -93,9 +93,9 @@
     "mobs": [
       {
         "mob": "minecraft:cave_spider",
-        "weight": 2,
+        "weight": 6,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       }
     ]
   },
@@ -807,7 +807,7 @@
       }
     ]
   },
-
+ /*
   {
     "dimension": [0,10],
     "mobs": [
@@ -819,7 +819,7 @@
       }
     ]
   },
-
+*/
   {
     "dimension": [0,10],
     "mobs": [
@@ -930,7 +930,7 @@
   },
 
   {
-    "dimension": [0,10],
+    "dimension": 0,
     "mobs": [
       {
         "mob": "specialmobs:poisonspider",
