@@ -104,6 +104,7 @@ Dropt.list("clovers")
           .selector(Dropt.weight(10)) // unlucky clover
        	   .items([<contenttweaker:5leaf_clover>])
       )
+<<<<<<< HEAD
   );
 
 Dropt.list("nest_grubs")
@@ -143,6 +144,9 @@ Dropt.list("nest_grubs")
        	   .items([<aether_legacy:ambrosium_shard>])
       )
   );   
+=======
+  );  
+>>>>>>> parent of fe61f6bd... Mcfuture honeycomb and nest
   
 Dropt.list("decayed_scaffolding")	
 

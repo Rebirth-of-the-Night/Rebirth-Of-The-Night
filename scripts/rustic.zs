@@ -137,7 +137,7 @@ val healthElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "mine
 val luckElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:luck", Duration: 450, Amplifier: 0}]});
 
 var cohosh = <rustic:cohosh>;
-var honeycomb = <futuremc:honeycomb>;
+var honeycomb = <harvestcraft:honeycombitem>;
 var chamomile = <rustic:chamomile>;
 var root = <rustic:marsh_mallow>;
 var horsetail = <rustic:horsetail>;
