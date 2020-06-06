@@ -1,3 +1,7 @@
+item.pyrotech.bucket.stone.name=%s Flimsy Bucket
+item.pyrotech.bucket.stone.empty.name=Flimsy Bucket
+item.pyrotech.bucket.stone.milk.name=Flimsy Stone Bucket
+
 tile.bwm:anvil_granite.name=Multipurpose Stone Anvil
 item.bwm:anvil_granite.name=Multipurpose Stone Anvil
 container.anvil_granite=Multipurpose Stone Anvil

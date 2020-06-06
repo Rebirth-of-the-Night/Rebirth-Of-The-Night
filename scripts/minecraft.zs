@@ -168,11 +168,24 @@ recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
 ]);
 
 // new bucket recipe
-recipes.addShaped("tin_bucket", <minecraft:bucket>,[
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped("iron_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
 	[null, null, null],
-    [<ore:ingotTin>, null, <ore:ingotTin>],
-    [null, <ore:ingotTin>, null]
+    [<ore:ingotIron>, null, <ore:ingotIron>],
+    [null, <ore:ingotIron>, null]
 ]);
+recipes.addShaped("bronze_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
+	[null, null, null],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [null, <ore:ingotBronze>, null]
+]);
+
+recipes.addShaped("quality_bucket", <minecraft:bucket>,[
+	[<pyrotech:material:4>, <pyrotech:bucket_stone>, <pyrotech:material:4>],
+	[<ore:glue>,<ore:glue>,<ore:glue>],
+    [<pyrotech:material:4>, <contenttweaker:crucible>, <pyrotech:material:4>]
+]);
+
 
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>*8,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);

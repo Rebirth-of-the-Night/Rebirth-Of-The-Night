@@ -76,6 +76,7 @@ mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Impossible to enchant,
 mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Impossible to enchant, since it is already infused with souls.");
 
 mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
+mods.jei.JEI.addDescription(<pyrotech:bucket_stone>,"It is important to know that a metal bucket may not melt but will surely get as hot as gunpowder inside a stoked cauldron! Lava is no joke, nor should it be treated like one.");
 mods.jei.JEI.addDescription(<pyrotech:crude_fishing_rod>, "A less than ideal fishing rod. May break unexpectedly after each use!");
 
 mods.jei.JEI.addDescription(<quark:witch_hat>,"Enchanted thread is woven throughout the inside... and it's comfy, too! Protects your items from being cursed by spectres.");
