@@ -143,7 +143,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(({"Quar
 /////////////////////        True Dark's Edge        /////////////////////
 
 var undyingheart = <mod_lavacow:undyingheart>;
-var witherrose = <futuremc:wither_rose>;
+var witherrose = <minecraftfuture:flowerblack>;
 var shulkerheart = <bountifulbaubles:trinketshulkerheart>;
 var trollskull = <iceandfire:troll_skull>;
 var brokenheart = <bountifulbaubles:trinketbrokenheart>;

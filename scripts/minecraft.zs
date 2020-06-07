@@ -31,8 +31,8 @@ recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>
   [[null,<minecraft:cooked_rabbit>,null],
   [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
   [null,<minecraft:bowl>,null]]);
-recipes.remove(<futuremc:suspicious_stew>);
-recipes.addShapeless("futuremc_stew/sustew", <futuremc:suspicious_stew>, 
+recipes.remove(<minecraftfuture:suspiciousstew>);
+recipes.addShapeless("minecraftfuture_stew/sustew", <minecraftfuture:suspiciousstew>, 
 [<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
 recipes.remove(<wards:ward>);
 recipes.addShaped("wards_ward", <wards:ward>,
@@ -512,7 +512,7 @@ val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
 
 val flower = <ore:flower>;
-flower.addItems([<biomesoplenty:flower_0:*>,<biomesoplenty:plant_1:10>,<biomesoplenty:double_plant:0>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<futuremc:lily_of_the_valley>,<futuremc:cornflower>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:0>,<minecraft:double_plant:1>,<minecraft:double_plant:4>,<minecraft:double_plant:5>,<biomesoplenty:flower_1:*>]);
+flower.addItems([<biomesoplenty:flower_0:*>,<biomesoplenty:plant_1:10>,<biomesoplenty:double_plant:0>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<minecraftfuture:flowerwhite>,<minecraftfuture:flowerblue>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:0>,<minecraft:double_plant:1>,<minecraft:double_plant:4>,<minecraft:double_plant:5>,<biomesoplenty:flower_1:*>]);
 
 val pixieJar = <ore:jarPixieAny>;
 pixieJar.addItems([<iceandfire:jar_pixie>,<iceandfire:jar_pixie:1>,<iceandfire:jar_pixie:2>,<iceandfire:jar_pixie:3>,<iceandfire:jar_pixie:4>]);

@@ -1,4 +1,4 @@
-setIcon(<futuremc:campfire>)
+setIcon(<minecraftfuture:campfire>)
 setTitle("Hot Stuff")
 setDescription("Die from fire.")
 

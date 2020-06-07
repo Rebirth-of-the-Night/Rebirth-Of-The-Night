@@ -232,7 +232,7 @@
     ]
   },
   {
-    "id": "futuremc:impaling",
+    "id": "minecraftfuture:impaling",
     "name": "enchantment.impaling",
     "enabled": true,
     "hide_on_item": false,
@@ -1008,7 +1008,7 @@
     "description": []
   },
   {
-    "id": "futuremc:riptide",
+    "id": "minecraftfuture:riptide",
     "name": "enchantment.riptide",
     "enabled": true,
     "hide_on_item": false,
@@ -2189,7 +2189,7 @@
     "description": []
   },
   {
-    "id": "futuremc:loyalty",
+    "id": "minecraftfuture:loyalty",
     "name": "enchantment.loyalty",
     "enabled": true,
     "hide_on_item": false,
@@ -2821,7 +2821,7 @@
     "description": []
   },
   {
-    "id": "futuremc:channeling",
+    "id": "minecraftfuture:channeling",
     "name": "enchantment.channeling",
     "enabled": true,
     "hide_on_item": false,

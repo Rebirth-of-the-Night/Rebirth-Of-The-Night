@@ -142,8 +142,8 @@ recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("compacting_bin", <pyrotech:compacting_bin>,
- [[null,<futuremc:composter>,null],
-  [<ore:stoneSlab>,<futuremc:composter>,<ore:stoneSlab>],
+ [[null,<minecraftfuture:composter>,null],
+  [<ore:stoneSlab>,<minecraftfuture:composter>,<ore:stoneSlab>],
   [<ore:stoneSlab>,<ore:slabWood>,<ore:stoneSlab>]]);
 recipes.addShaped("potash_mulch1", <pyrotech:mulch>*4,
  [[<pyrotech:rock:7>,<biomesoplenty:ash>,<pyrotech:rock:7>],
