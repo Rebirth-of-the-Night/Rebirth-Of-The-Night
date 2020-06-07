@@ -2299,7 +2299,7 @@
  {
     "dimension": 4,
     "mob": "mowziesmobs:naga",
-	"random": 0.02,
+	"random": 0.1,
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
 	"block": ["aether_legacy:quicksoil"],
