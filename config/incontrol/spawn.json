@@ -11,7 +11,7 @@
 	"seesky": true,
     "minlight": 10,
     "maxcount": {
-        "amount": 2,
+        "amount": 1,
         "perchunk": true
     },
     "result": "allow"
@@ -85,6 +85,14 @@
  {
     "mob": "minecraft:creeper",
     "dimension": [-1, 1, 4],
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+ // no wraith in OW, aether, end
+ {
+    "mob": "quark:wraith",
+    "dimension": [0, 1, 4],
     "onjoin": true,
     "result": "deny"
  },
