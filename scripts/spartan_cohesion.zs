@@ -90,71 +90,71 @@ recipes.addShaped("SteelCrossbow", <spartanweaponry:crossbow_wood>.withTag({disp
   [wheel,null,handle]]);
 
 //Weapons
-recipes.addShaped("Silver Sword", <iceandfire:silver_sword>,
+recipes.addShaped("Silver_Sword", <iceandfire:silver_sword>,
  [[null,<ore:ingotSilver>,null],
   [null,<ore:ingotSilver>,null],
   [null,handle,null]]);
-recipes.addShaped("Hippogryph Sword", hippogryph_sword,
+recipes.addShaped("Hippogryph_Sword", hippogryph_sword,
  [[null,hippogryphtalon,null],
   [feather,iron,feather],
   [null,handle,null]]);
-recipes.addShaped("Stymphalian Bird Dagger", stymphalian_bird_dagger,
+recipes.addShaped("Stymphalian_Bird_Dagger", stymphalian_bird_dagger,
  [[null,symphalianbirdfeather,null],
   [null,symphalianbirdfeather,null],
   [null,handle,null]]);
-recipes.addShaped("Golden Sword", goldensword,
+recipes.addShaped("Golden_Sword", goldensword,
  [[null,gold,null],
   [null,gold,null],
   [null,handle,null]]);
-recipes.addShaped("Stone Sword", stonesword,
+recipes.addShaped("Stone_Sword", stonesword,
  [[null,stone,null],
   [null,stone,null],
   [null,handle,null]]);
-recipes.addShaped("Iron Sword", ironsword,
+recipes.addShaped("Iron_Sword", ironsword,
  [[null,iron,null],
   [null,iron,null],
   [null,handle,null]]);
-recipes.addShaped("Diamond Sword", diamondsword,
+recipes.addShaped("Diamond_Sword", diamondsword,
  [[null,diamond,null],
   [null,diamond,null],
   [null,handle,null]]);
-recipes.addShaped("Skyroot Sword", skyrootsword,
+recipes.addShaped("Skyroot_Sword", skyrootsword,
  [[null,skyroot,null],
   [null,skyroot,null],
   [null,handle,null]]);
-recipes.addShaped("Holystone Sword", holystonesword,
+recipes.addShaped("Holystone_Sword", holystonesword,
  [[null,holystone,null],
   [null,holystone,null],
   [null,handle,null]]);
-recipes.addShaped("Zanite Sword", zanitesword,
+recipes.addShaped("Zanite_Sword", zanitesword,
  [[null,zanite,null],
   [null,zanite,null],
   [null,handle,null]]);
-recipes.addShaped("Gravitite Sword", gravititesword,
+recipes.addShaped("Gravitite_Sword", gravititesword,
  [[null,egravitite,null],
   [null,egravitite,null],
   [null,handle,null]]);
-recipes.addShaped("Dragonbone Sword", dragonbonesword,
+recipes.addShaped("Dragonbone_Sword", dragonbonesword,
  [[null,dragonbone,null],
   [null,dragonbone,null],
   [null,witherhandle,null]]);
-recipes.addShaped("Desert Myrmex Chitin Sword", desertmyrmexsword,
+recipes.addShaped("Desert_Myrmex_Chitin_Sword", desertmyrmexsword,
  [[null,mdchitin,null],
   [null,mdchitin,null],
   [null,witherhandle,null]]);
-recipes.addShaped("Desert Myrmex Stinger Sword", desertmyrmexstingersword,
+recipes.addShaped("Desert_Myrmex_Stinger_Sword", desertmyrmexstingersword,
  [[null,mstinger,null],
   [null,mdchitin,null],
   [null,witherhandle,null]]);
-recipes.addShaped("Jungle Myrmex Chitin Sword", junglemyrmexsword,
+recipes.addShaped("Jungle_Myrmex_Chitin_Sword", junglemyrmexsword,
  [[null,mjchitin,null],
   [null,mjchitin,null],
   [null,witherhandle,null]]);
-recipes.addShaped("Jungle Myrmex Stinger Sword", junglemyrmexstingersword,
+recipes.addShaped("Jungle_Myrmex_Stinger_Sword", junglemyrmexstingersword,
  [[null,mstinger,null],
   [null,mjchitin,null],
   [null,witherhandle,null]]);
-recipes.addShaped("Amphithere Macuahuitl", amphitheremacuahuitl,
+recipes.addShaped("Amphithere_Macuahuitl", amphitheremacuahuitl,
  [[obsidian,wood,obsidian],
   [amphitherefeather,wood,amphitherefeather],
   [obsidian,handle,obsidian]]);
@@ -165,7 +165,7 @@ var enchantmentMap1 as IData = {};
 
 enchantmentMap1 += enchantments1[0].makeEnchantment(1).makeTag();
 
-recipes.addShaped("Ironwood Sword", ironwoodsword.withTag(enchantmentMap1),
+recipes.addShaped("Ironwood_Sword", ironwoodsword.withTag(enchantmentMap1),
  [[null,ironwood,null],
   [null,ironwood,null],
   [null,handle,null]]);
@@ -176,15 +176,15 @@ var enchantmentMap2 as IData = {};
 
 enchantmentMap2 += enchantments2[0].makeEnchantment(2).makeTag();
   
-recipes.addShaped("Steeleaf Sword", steeleafsword.withTag(enchantmentMap2),
+recipes.addShaped("Steeleaf_Sword", steeleafsword.withTag(enchantmentMap2),
  [[null,steeleaf,null],
   [null,steeleaf,null],
   [null,handle,null]]);
-recipes.addShaped("Knightmetal Sword", knightsword,
+recipes.addShaped("Knightmetal_Sword", knightsword,
  [[null,knightmetal,null],
   [null,knightmetal,null],
   [null,handle,null]]);
-recipes.addShaped("Giant Sword", giantsword,
+recipes.addShaped("Giant_Sword", giantsword,
  [[null,giantcobblestone,null],
   [null,giantcobblestone,null],
   [null,<twilightforest:giant_log>,null]]);

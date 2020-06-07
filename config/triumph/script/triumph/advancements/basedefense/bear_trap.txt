@@ -1,0 +1,11 @@
+setIcon(<minetraps:bear_trap>)
+setTitle("Bear Trap")
+setDescription("Completely immobilizes mobs and continuously damages them. Does not need to be reset.")
+
+addParent("triumph:advancements/basedefense/razor_wire")
+
+criteria = addCriteria("Bear Trap", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:bear_trap>)
+
+alwaysVisible()
+setPos(-19,0)

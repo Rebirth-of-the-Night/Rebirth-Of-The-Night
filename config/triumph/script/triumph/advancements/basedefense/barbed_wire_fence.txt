@@ -1,0 +1,11 @@
+setIcon(<minetraps:barbed_wire_fence>)
+setTitle("Barbed Wire Fence")
+setDescription("Same as Barbed Wire except it can not be walked through.")
+
+addParent("triumph:advancements/basedefense/barbed_wire")
+
+criteria = addCriteria("Barbed Wire Fence", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:barbed_wire_fence>)
+
+alwaysVisible()
+setPos(-101,0)

@@ -1,0 +1,11 @@
+{
+    "name": "Summoning",
+    "icon": "minecraft:lit_pumpkin",
+    "category": "bosses:harvester",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is a test entry, but it should show up!"
+        }
+    ]
+}

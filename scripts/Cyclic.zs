@@ -128,12 +128,12 @@ var st_conveyor = <cyclicmagic:plate_push_slowest>;
 
 mods.betterwithaddons.Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
-mods.betterwithaddons.Infuser.addShaped(<cyclicmagic:wand_missile>,[
+mods.betterwithaddons.Infuser.addShaped(<cyclicmagic:ender_lightning>,[
 [null,lightarrow,arc_orb],
 [null, destarrow,lightarrow],
 [ironrod,null,null]], 50);
 
-mods.betterwithaddons.Infuser.addShaped(<cyclicmagic:ender_lightning>,[
+mods.betterwithaddons.Infuser.addShaped(<cyclicmagic:wand_missile>,[
 [null,spirits,en_orb],
 [null,bead,spirits],
 [ironrod,null,null]], 30);

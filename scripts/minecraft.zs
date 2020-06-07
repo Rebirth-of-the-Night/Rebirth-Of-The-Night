@@ -168,11 +168,24 @@ recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
 ]);
 
 // new bucket recipe
-recipes.addShaped("tin_bucket", <minecraft:bucket>,[
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped("iron_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
 	[null, null, null],
-    [<ore:ingotTin>, null, <ore:ingotTin>],
-    [null, <ore:ingotTin>, null]
+    [<ore:ingotIron>, null, <ore:ingotIron>],
+    [null, <ore:ingotIron>, null]
 ]);
+recipes.addShaped("bronze_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
+	[null, null, null],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [null, <ore:ingotBronze>, null]
+]);
+
+recipes.addShaped("quality_bucket", <minecraft:bucket>,[
+	[<pyrotech:material:4>, <pyrotech:bucket_stone>, <pyrotech:material:4>],
+	[<ore:glue>,<ore:glue>,<ore:glue>],
+    [<pyrotech:material:4>, <contenttweaker:crucible>, <pyrotech:material:4>]
+]);
+
 
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>*8,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);
@@ -643,6 +656,9 @@ cookedMeat.addAll(cookedMutton);
 cookedMeat.addAll(cookedFrog);
 cookedMeat.addAll(cookedFish);
 cookedMeat.addAll(cookedVenison);
+
+val small_knife = <ore:smallKnife>;
+small_knife.addItems([<animania:carving_knife>,<spartanweaponry:throwing_knife_iron>,<spartanweaponry:throwing_knife_bronze>,<spartanweaponry:throwing_knife_gold>,<spartanweaponry:throwing_knife_silver>,<spartanweaponry:throwing_knife_diamond>,<spartancompat:throwing_knife_skyroot>,<spartancompat:throwing_knife_holystone>,<spartancompat:throwing_knife_zanite>,<spartancompat:throwing_knife_gravitite>,<spartancompat:throwing_knife_adamantium>,<spartanfire:throwing_knife_dragonbone>,<spartanfire:throwing_knife_fire_dragonbone>,<spartanfire:throwing_knife_ice_dragonbone>,<spartanfire:throwing_knife_jungle>,<spartanfire:throwing_knife_desert>,<spartanfire:throwing_knife_jungle_venom>,<spartanfire:throwing_knife_desert_venom>,<spartanfire:throwing_knife_ice_dragonsteel>,<spartanfire:throwing_knife_fire_dragonsteel>,<mod_lavacow:famine>,<iceandfire:stymphalian_bird_dagger>]);
 
 val nitrogen = <ore:mulchNitrogen>;
 nitrogen.addAll(<ore:listAllmeat>);

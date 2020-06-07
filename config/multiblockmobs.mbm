@@ -5,31 +5,23 @@
 #Mob 1
 !startMultiblockMob
 !startDim
-Dimensions:[x = 3, y = 3, z = 3]
+Dimensions:[x = 3, y = 4, z = 1]
 !endDim
 
 !startInit
-quark:color_slime:1 = "s"
-minecraft:gold_block = "g"
-biomesoplenty:gem_block:1 = "r"
-biomesoplenty:gem_block:2 = "p"
-multiblockmobs:soul_chassis = "c"
+minecraft:hay_block = "h"
+betternether:bone_block = "b"
+multiblockmobs:soul_chassis = "s"
 minecraft:air = "~"
+minecraft:lit_pumpkin = "p"
 !endInit
 
 !startLoc
 #z=0
-["prp"]
-["sss"]
-["sss"]
-#z=1
-["r~r"]
-["sss"]
-["sss"]
-#z=2
-["prp"]
-["sss"]
-["sss"]
+["~s~"]
+["~p~"]
+["hbh"]
+["~b~"]
 !endLoc
 
 !startCustom
@@ -40,12 +32,16 @@ musicFile = "music"
 soundEffect = "true"
 soundEffectFile = "sound_effect"
 customChat = "true"
-customChat = "You made a mistake"
-customCommand = "say Hi"
+customChat = ""
+
+customCommand = "effect @p potioncore:lightning"
+customCommand = "summon harvestersnight:harvester ~ ~ ~ {HandItems:[{id:"harvestersnight:harvester_scythe",Count:1},{}],ActiveEffects:[{Id:12,Amplifier:0,Duration:2147483647}]}"
+customCommand = "playsound harvestersnight:harvester.spawn ambient @a"
+customCommand = "tellraw @a ["",{"text":"The Harvester has been summoned!","color":"dark_red","italic":true}]"
 !stopCustom
 
 !entityStart
-entity = "null:king_slime"
+entity = "zombieawareness:entityscent"
 !entityStop
 
 !endMultiblockMob

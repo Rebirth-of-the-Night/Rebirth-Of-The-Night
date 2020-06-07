@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:caltrops>)
+setTitle("Caltrops")
+setDescription("A simple early game defense trap. Lead zombies in with light sources!")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Caltrops", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:caltrops>)
+
+alwaysVisible()
+hideLines()
+setPos(-296,0)

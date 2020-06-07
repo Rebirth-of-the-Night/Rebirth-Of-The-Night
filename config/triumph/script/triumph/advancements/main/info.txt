@@ -15,4 +15,4 @@ criteria = addCriteria("Inventory changed", "minecraft:inventory_changed")
 criteria.setCount(5)
 
 setHidden(true)
-setPos(-500,-20)
+setPos(-578,53)

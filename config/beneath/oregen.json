@@ -64,10 +64,10 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 3,
-    "size": 14,
-    "miny": 10,
-    "maxy": 220
+    "veins": 5,
+    "size": 18,
+    "miny": 85,
+    "maxy": 200
   },
   {
     "ore": "simpleores:mythril_ore",
@@ -75,9 +75,9 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 1,
-    "size": 18,
+    "size": 14,
     "miny": 10,
-    "maxy": 75
+    "maxy": 53
   },
   {
     "ore": "dungeontactics:stonequartz_ore",

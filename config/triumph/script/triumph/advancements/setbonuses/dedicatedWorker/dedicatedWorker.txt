@@ -4,7 +4,7 @@ setDescription("Complete the Dedicated Worker set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullMidArmor")
+// addRewardFunction("triumph:fullMidArmor")
 
 criteria = addCriteria("Helmet", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/helmet")

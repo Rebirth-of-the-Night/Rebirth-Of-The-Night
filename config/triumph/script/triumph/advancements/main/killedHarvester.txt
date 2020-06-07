@@ -1,0 +1,18 @@
+setIcon(<harvestersnight:harvester_scythe>)
+setTitle("The Harvester")
+setDescription("Kill The Harvester.")
+
+addRewardFunction("triumph:killedHarvester")
+
+
+addParent("triumph:advancements/main/root")
+
+criteria = addCriteria("harvester", "minecraft:player_killed_entity")
+criteria.setEntityType("harvestersnight:harvester")
+
+
+setFrameType("CHALLENGE")
+
+hideLines()
+alwaysVisible()
+setPos(-505,33)

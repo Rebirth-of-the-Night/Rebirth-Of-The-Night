@@ -16,3 +16,5 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 [Discord](https://discord.gg/ZSNFj8c)
 
 [Server Pack GitHub](https://github.com/CalaMariGold/Rebirth-of-the-Night-Server)
+
+[Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329)

@@ -1,0 +1,11 @@
+setIcon(<minetraps:explosive_mine>)
+setTitle("Mine")
+setDescription("WARNING! The blast radius is very large. Should only be used for extreme measures.")
+
+addParent("triumph:advancements/basedefense/bear_trap")
+
+criteria = addCriteria("Mine", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:explosive_mine>)
+
+alwaysVisible()
+setPos(23,0)

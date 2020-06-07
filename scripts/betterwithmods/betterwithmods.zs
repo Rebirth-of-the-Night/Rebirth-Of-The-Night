@@ -154,10 +154,8 @@ for cookedFood in arrayLeather{
 
 //Horse Upgrades
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*8,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<rustic:cohosh>*2,<harvestcraft:honeyitem>],[<cyclicmagic:horse_upgrade_health>]);
-mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*16,<mod_lavacow:poisonspore>],[<cyclicmagic:horse_upgrade_type>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*6,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
+mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*4,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
 
 //Charbiotite
 mods.betterwithmods.Cauldron.builder()
@@ -177,9 +175,8 @@ mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:ta
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
 
 //Cyclic Apple
-mods.betterwithmods.Cauldron.addUnstoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
-mods.betterwithmods.Cauldron.addStoked([<harvestcraft:zombiejerkyitem>,<minecraft:apple>],[<cyclicmagic:apple_lapis>]);//lapis
 mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
+
 
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
 mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
@@ -227,42 +224,6 @@ mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_battleaxe>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_sword>);
-
-// Gem tools Rework
-
-val diamondAll = [
-    <minecraft:diamond_sword>,
-    <minecraft:diamond_shovel>,
-    <minecraft:diamond_hoe>,
-    <minecraft:diamond_axe>,
-	<minecraft:diamond_pickaxe>,
-	<spartanweaponry:dagger_diamond>,
-	<spartanweaponry:longsword_diamond>,
-	<spartanweaponry:katana_diamond>,
-	<spartanweaponry:saber_diamond>,
-	<spartanweaponry:rapier_diamond>,
-	<spartanweaponry:greatsword_diamond>,
-	<spartanweaponry:hammer_diamond>,
-	<spartanweaponry:warhammer_diamond>,
-	<spartanweaponry:spear_diamond>,
-	<spartanweaponry:halberd_diamond>,
-	<spartanweaponry:pike_diamond>,
-	<spartanweaponry:lance_diamond>,
-	<spartanweaponry:longbow_diamond>,
-	<spartanweaponry:throwing_knife_diamond>,
-	<spartanweaponry:throwing_axe_diamond>,
-	<spartanweaponry:javelin_diamond>,
-	<spartanweaponry:boomerang_diamond>,
-	<spartanweaponry:battleaxe_diamond>,
-	<spartanweaponry:mace_diamond>,
-	<spartanweaponry:glaive_diamond>,
-	<spartanweaponry:staff_diamond>
-] as IIngredient[];
-
-
-for item in diamondAll{
-    recipes.remove(item);
-}
 
 
 // Heat sources

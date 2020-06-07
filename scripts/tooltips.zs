@@ -1,3 +1,6 @@
+<bountifulbaubles:crowngold>.addTooltip("Used for summoning King Slime");
+<harvestersnight:harvester_scythe>.addTooltip("Its true power is yet to be unlocked...");
+
 
 #Boat tooltips
 <minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");
@@ -108,7 +111,8 @@
 #Pyrotech
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
 <pyrotech:flint_and_tinder>.addTooltip("Not as convenient as a flint and steel.");
-
+<pyrotech:bucket_stone>.clearTooltip();
+<pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
 
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");

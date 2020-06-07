@@ -76,6 +76,7 @@ mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Impossible to enchant,
 mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Impossible to enchant, since it is already infused with souls.");
 
 mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
+mods.jei.JEI.addDescription(<pyrotech:bucket_stone>,"It is important to know that a metal bucket may not melt but will surely get as hot as gunpowder inside a stoked cauldron! Lava is no joke, nor should it be treated like one.");
 mods.jei.JEI.addDescription(<pyrotech:crude_fishing_rod>, "A less than ideal fishing rod. May break unexpectedly after each use!");
 
 mods.jei.JEI.addDescription(<quark:witch_hat>,"Enchanted thread is woven throughout the inside... and it's comfy, too! Protects your items from being cursed by spectres.");
@@ -218,7 +219,7 @@ mods.jei.JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the acc
 mods.jei.JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
 mods.jei.JEI.addDescription(<quark:tallow>,"Used for making candles or repairing gear in an iron anvil.");
 mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
-mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Most Puffbulbs were long since consumed by the corruption of the Beneath. Perhaps they could be reawakened by a powerful magic reaction - such as the mining of a mystical ore.");
+mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Puffbulbs are particularly fragile creatures that sustain themselves by absorbing energy from a living mineral, surviving against all odds amidst the horrors of the Beneath.");
 mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken.");
 mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material left behind by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong glue.");
 mods.jei.JEI.addDescription(<biomesoplenty:flesh>, "It is like slime! ...but not fun. and gross. Is that an eye?");

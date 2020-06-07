@@ -216,13 +216,6 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringoverclocking>,[
 [<bountifulbaubles:spectralsilt>, <contenttweaker:energy_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]],32);
    
 
-// Crown
-
-recipes.addShaped("BB_Crown", <bountifulbaubles:crowngold>.withTag({Quality: {}}),[
-	[null, null, null],
-	[<ore:ingotGold>, <ore:gemRuby>, <ore:ingotGold>], 
-	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
-
 // Sunglasses
 
 recipes.remove(<bountifulbaubles:trinketmagiclenses>);
