@@ -28,6 +28,10 @@ criteria = addCriteria("Gold Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/goldarmor")
 
 setRequirements("any")
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
 
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
 alwaysHidden()
 setPos(-430,14)
