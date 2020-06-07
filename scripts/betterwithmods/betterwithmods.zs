@@ -227,42 +227,6 @@ mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<betterwithmods:steel_sword>);
 mods.betterwithmods.Anvil.removeShaped(<betterwithmods:steel_sword>);
 
-// Gem tools Rework
-
-val diamondAll = [
-    <minecraft:diamond_sword>,
-    <minecraft:diamond_shovel>,
-    <minecraft:diamond_hoe>,
-    <minecraft:diamond_axe>,
-	<minecraft:diamond_pickaxe>,
-	<spartanweaponry:dagger_diamond>,
-	<spartanweaponry:longsword_diamond>,
-	<spartanweaponry:katana_diamond>,
-	<spartanweaponry:saber_diamond>,
-	<spartanweaponry:rapier_diamond>,
-	<spartanweaponry:greatsword_diamond>,
-	<spartanweaponry:hammer_diamond>,
-	<spartanweaponry:warhammer_diamond>,
-	<spartanweaponry:spear_diamond>,
-	<spartanweaponry:halberd_diamond>,
-	<spartanweaponry:pike_diamond>,
-	<spartanweaponry:lance_diamond>,
-	<spartanweaponry:longbow_diamond>,
-	<spartanweaponry:throwing_knife_diamond>,
-	<spartanweaponry:throwing_axe_diamond>,
-	<spartanweaponry:javelin_diamond>,
-	<spartanweaponry:boomerang_diamond>,
-	<spartanweaponry:battleaxe_diamond>,
-	<spartanweaponry:mace_diamond>,
-	<spartanweaponry:glaive_diamond>,
-	<spartanweaponry:staff_diamond>
-] as IIngredient[];
-
-
-for item in diamondAll{
-    recipes.remove(item);
-}
-
 
 // Heat sources
 /*mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=north,lit=true>, 1);
