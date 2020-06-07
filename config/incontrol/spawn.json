@@ -43,18 +43,7 @@
 
 
 
-// salmon
-{
-    "dimension": 0,
-    "mob": "minecraftfuture:salmon",
-	"autumn": true,
-    "result": "default"
- },
- {
-    "dimension": 0,
-    "mob": "minecraftfuture:salmon",
-    "result": "deny"
- },
+
   
 {
     "mob": "betteranimalsplus:hirschgeist",
