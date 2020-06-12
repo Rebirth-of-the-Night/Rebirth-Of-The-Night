@@ -189,6 +189,7 @@ mods.betterwithaddons.Infuser.addShaped(<quark:soul_bead>, [
 // Slime Blocks
 
 recipes.removeByRecipeName("quark:color_slime_4");
+recipes.removeByRecipeName("quark:slime");
 
 
 recipes.addShaped("red_slime_block",<quark:color_slime:0>,[
@@ -205,8 +206,6 @@ recipes.addShaped("blue_slime_block",<quark:color_slime:1>,[
 	[blueSlimeList,blueSlimeList,blueSlimeList]
 ]);
 recipes.addShapeless("blue_slimeball",<betterslimes:blue_slime>*9,[<quark:color_slime:1>]);
-
-recipes.addShapeless("green_slimeball_from_cyan",<minecraft:slime_ball>*9,[<quark:color_slime:2>]);
 
 recipes.addShaped("magenta_slime_block",<quark:color_slime:3>,[
 	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>],

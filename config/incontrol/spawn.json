@@ -95,20 +95,13 @@
     "onjoin": true
   },
 
-//aether spawns
- {
-    "dimension": 4,
+  {
     "mob": "aether_legacy:swet",
-    "minlight": 10,
-	"random": 0.4,
-	"seesky": true,
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    },
-    "result": "allow"
- },
+    "onjoin": true,
+    "result": "deny"
+  },
 
+//aether spawns
  {
     "dimension": 4,
     "mob": "aether_legacy:aechor_plant",

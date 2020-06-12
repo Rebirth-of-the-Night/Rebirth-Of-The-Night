@@ -56,6 +56,17 @@ mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_boots");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_leggings");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_feather");
 
+
+mods.jei.JEI.removeAndHide(<aether_legacy:swetty_ball>);
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:swetty_ball");
+
+mods.jei.JEI.removeAndHide(<aether_legacy:aetherium_core>);
+recipes.addShaped("aetherium core", <aether_legacy:aetherium_core>,[
+	[<aether_legacy:golden_amber>, <betterslimes:yellow_slime>, null],
+    [<aether_legacy:zanite_gemstone>, null, null],
+    [null, null, null]
+]);
+
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_chestplate>);
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_helmet>);
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_boots>);
