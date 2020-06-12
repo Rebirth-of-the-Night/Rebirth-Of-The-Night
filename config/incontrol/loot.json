@@ -30,6 +30,14 @@
       "random": "0.1"
    },
 
+   // Brain Slime
+   {
+      "mob": "primitivemobs:brain_slime",
+      "player": true,
+      "item": "contenttweaker:brain",
+      "itemcount": "1"
+   },
+
    // Lemon Slime
    {
       "mob": "specialmobs:lemonslime",

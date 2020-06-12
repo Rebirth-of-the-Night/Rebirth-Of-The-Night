@@ -4,7 +4,7 @@ setDescription("Complete The Apex Hunter set.")
 
 addParent("triumph:advancements/setbonuses/tannedLeatherArmor")
 
-// addRewardFunction("triumph:fullEarlyArmor")
+// addRewardFunction("triumph:killedHarvester")
 
 criteria = addCriteria("Hardened Leather Helmet", "minecraft:inventory_changed")
 criteria.addItem("harvestcraft:hardenedleatherhelmitem")

@@ -1059,7 +1059,7 @@
  {
     "dimension": [0,10],
     "mob": "primitivemobs:rocket_creeper",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1172,7 +1172,7 @@
  {
     "dimension": 0,
     "mob": "specialmobs:windwitch",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"random": 0.12,
     "maxcount": {
         "amount": 3,
@@ -1258,7 +1258,7 @@
  {
     "dimension": [0,10],
     "mob": "minecraft:silverfish",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"maxlight": 5,
     "minlight": 0,
 	"random": 0.5,
@@ -1421,27 +1421,27 @@
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": "atop:mud_helmet",
-    "gamestage": "fullEarlyArmor"
+    "gamestage": "killedHarvester"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": "atop:mud_chestplate",
-    "gamestage": "fullEarlyArmor"
+    "gamestage": "killedHarvester"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": "atop:mud_leggings",
-    "gamestage": "fullEarlyArmor"
+    "gamestage": "killedHarvester"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": "atop:mud_boots",
-    "gamestage": "fullEarlyArmor"
+    "gamestage": "killedHarvester"
 },
 
 
@@ -1585,7 +1585,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:hungryzombie",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1687,7 +1687,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:sniperskeleton",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1818,7 +1818,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:hungryspider",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1834,7 +1834,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:palespider",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"maxheight": 80,
     "maxcount": {
         "amount": 5,
@@ -1993,7 +1993,7 @@
  {
     "dimension": 0,
     "mob": "primitivemobs:brain_slime",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
     "mintime": 1000,
     "maxtime": 12000,
     "maxlight": 14,
@@ -2459,7 +2459,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:pingu",
 	"biome": ["Ice Plains", "Ice Mountains", "Ice Plains Spikes", "Cold Desert", "Tundra", "Glacier", "SnowyTundra"],
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"random": 0.50,
 	"seesky": true,
 	"maxlight": 7,
@@ -2521,7 +2521,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:ptera",
 	"biome": ["Jungle", "JungleHills", "JungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Beach", "Ocean", "Deep Ocean", "Stone Beach", "Cold Beach", "Gravel Beach", "White Beach", "Volcanic Island", "Flower Island", "Xeric Shrubland", "Coral Reef", "Kelp Forest"],  
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"minheight": 60,
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
 	"random": 0.05,
@@ -2621,7 +2621,7 @@
 {
     "dimension": 4,
     "mob": "primitivemobs:harpy",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"random": 0.50,
 	"maxlight": 15,
     "minlight": 0,
@@ -2640,7 +2640,7 @@
 {
     "dimension": 4,
     "mob": "iceandfire:stymphalianbird",
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"random": 0.03,
 	"maxlight": 9,
     "minlight": 0,
@@ -2661,7 +2661,7 @@
     "dimension": 0,
     "mob": "betterwithmods:bwm_jungle_spider",
 	"biome": ["jungle", "JungleHills", "jungleEdge", "Jungle M", "JungleEdge M", "Tropical Rainforest", "Tropical Island"],  
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"random": 0.15,
 	"seesky": true,
 	"minheight": 60,
@@ -2704,7 +2704,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:scarecrow",
 	"biome": ["Plains", "Roofed Forest", "Forest", "ForestHills", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Extreme Hills+", "Flower Forest", "Bayou", "Bog", "Brushland", "Chaparral", "Cherry Blossom Grove", "Dead Forest", "Grassland", "Grove", "Lavender Fields", "Maple Woods", "Ominous Woods", "Orchard", "Overgrown Cliffs", "Prairie", "Seasonal Forest", "Shrubland", "Temperate Rainforest", "Pasture", "Wasteland", "Woodland"],
-    "gamestage": "fullEarlyArmor",
+    "gamestage": "killedHarvester",
 	"maxlight": 7,
     "minlight": 0,
 	"random": 0.10,

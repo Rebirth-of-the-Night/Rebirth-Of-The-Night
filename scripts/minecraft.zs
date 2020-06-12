@@ -67,13 +67,24 @@ recipes.addShaped("tnt",<minecraft:tnt>,[
     [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>]
 ]);
 
-var greenSlimeList = <minecraft:slime_ball>;
+recipes.removeByRecipeName("quark:color_slime_1");
+recipes.removeByRecipeName("quark:color_slime");
+recipes.removeByRecipeName("quark:color_slime_3");
+
 
 recipes.removeByRecipeName("minecraft:slime");
 recipes.addShaped("green_slime_block",<minecraft:slime>,[
-    [greenSlimeList,greenSlimeList,greenSlimeList],
-    [greenSlimeList,greenSlimeList,greenSlimeList],
-    [greenSlimeList,greenSlimeList,greenSlimeList]
+    [<minecraft:slime_ball>,<minecraft:slime_ball>,<minecraft:slime_ball>],
+    [<minecraft:slime_ball>,<minecraft:slime_ball>,<minecraft:slime_ball>],
+    [<minecraft:slime_ball>,<minecraft:slime_ball>,<minecraft:slime_ball>]
+]);
+
+
+recipes.remove(<quark:color_slime:2>);
+recipes.addShaped("black slime block",<quark:color_slime:2>,[
+    [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>],
+    [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>],
+    [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>]
 ]);
 
 val coarseMatArray = [<minecraft:dirt:0>,<biomesoplenty:dirt:2>,<biomesoplenty:dirt:1>,<biomesoplenty:dirt:0>] as IItemStack[];
@@ -270,13 +281,6 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chain, null, chain]
 ]);
 
-//Wireless Redstone
-recipes.removeByRecipeName("lwr:recwirelessremote");
-recipes.removeByRecipeName("lwr:recwirelessreciever");
-recipes.removeByRecipeName("lwr:recwirelesstransmitter");
-recipes.addShaped("wireless_remote",<lwr:itemwirelessremote>, [[null, <minecraft:redstone_torch>, null],[<ore:ingotTin>, <contenttweaker:order_rune>.anyDamage().transformDamage(), <ore:ingotTin>], [<ore:ingotTin>, <betterwithmods:material:34>, <ore:ingotTin>]]);
-recipes.addShaped("wireless_reciever",<lwr:blockwirelessreciever>, [[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null],[null, <minecraft:ender_pearl>, null], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
-recipes.addShaped("wireless_transmitter",<lwr:blockwirelesstransmitter>, [[null, <minecraft:ender_pearl>, null],[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
 
 val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;

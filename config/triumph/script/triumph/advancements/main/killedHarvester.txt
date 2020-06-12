@@ -11,8 +11,7 @@ criteria = addCriteria("harvester", "minecraft:player_killed_entity")
 criteria.setEntityType("harvestersnight:harvester")
 
 
-setFrameType("CHALLENGE")
 
 hideLines()
 alwaysVisible()
-setPos(-505,33)
+setPos(-521,34)

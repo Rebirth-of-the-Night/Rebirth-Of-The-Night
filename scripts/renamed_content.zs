@@ -4,6 +4,10 @@ import crafttweaker.game.IGame;
 
 // Slimes
 <minecraft:slime_ball>.displayName = "Green Slimeball";
+<contenttweaker:brain>.displayName = "Brain";
+<quark:color_slime:2>.displayName = "Black Slime Block";
+<quark:color_slime:3>.displayName = "Purple Slime Block";
+
 
 
 // Aether Legacy

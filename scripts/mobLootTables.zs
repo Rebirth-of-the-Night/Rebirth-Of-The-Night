@@ -66,6 +66,8 @@ val blackberrySlime = LootTables.getTable("specialmobs:entities/slime/blackberry
 blackberrySlime.clear();
 val watermelonSlime = LootTables.getTable("specialmobs:entities/slime/watermelon");
 watermelonSlime.clear();
+val grapeSlime = LootTables.getTable("specialmobs:entities/slime/grape");
+grapeSlime.clear();
 
 //PrimitiveMobs ######################
 val gob = LootTables.getTable("primitivemobs:entities/goblin");

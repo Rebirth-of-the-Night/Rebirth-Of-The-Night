@@ -4,7 +4,7 @@ setDescription("Unlock the Full Early Armor gamestage.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullEarlyArmor")
+addRewardFunction("triumph:killedHarvester")
 
 criteria = addCriteria("Bronze Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/bronzearmor")

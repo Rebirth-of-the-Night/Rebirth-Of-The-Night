@@ -188,11 +188,8 @@ mods.betterwithaddons.Infuser.addShaped(<quark:soul_bead>, [
 
 // Slime Blocks
 
-recipes.addShapeless("mixed_green_slime_block",<minecraft:slime>,[<quark:color_slime:1>,<quark:color_slime:4>]);
 recipes.removeByRecipeName("quark:color_slime_4");
-recipes.addShapeless("dyed_yellow_slime_block",<quark:color_slime:4>,[<ore:blockSlime>,<ore:dyeYellow>]);
-recipes.addShapeless("dyed_cyan_slime_block",<quark:color_slime:2>,[<ore:blockSlime>,<ore:dyeCyan>]);
-recipes.addShapeless("dyed_magenta_slime_block",<quark:color_slime:3>,[<ore:blockSlime>,<ore:dyeMagenta>]);
+
 
 recipes.addShaped("red_slime_block",<quark:color_slime:0>,[
 	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>],
@@ -218,10 +215,11 @@ recipes.addShaped("magenta_slime_block",<quark:color_slime:3>,[
 ]);
 recipes.addShapeless("purple_slimeball",<betterslimes:purple_slime>*9,[<quark:color_slime:3>]);
 
-var yellowSlimeList = <betterslimes:yellow_slime>|<betterwithmods:material:12>;
 recipes.addShaped("yellow_slime_block",<quark:color_slime:4>,[
-	[yellowSlimeList,yellowSlimeList,yellowSlimeList],
-	[yellowSlimeList,yellowSlimeList,yellowSlimeList],
-	[yellowSlimeList,yellowSlimeList,yellowSlimeList]
+	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>],
+	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>],
+	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>]
 ]);
 recipes.addShapeless("yellow_slimeball",<betterslimes:yellow_slime>*9,[<quark:color_slime:4>]);
+
+recipes.addShapeless("black_slimeball",<betterslimes:black_slime>*9,[<quark:color_slime:2>]);

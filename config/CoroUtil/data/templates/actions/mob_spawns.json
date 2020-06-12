@@ -71,7 +71,7 @@
       "conditions": [
         {      
           "condition": "game_stages",
-          "game_stages": ["fullEarlyArmor"],
+          "game_stages": ["killedHarvester"],
           "match_mode": "all_of"
         }
       ],
@@ -165,7 +165,7 @@
       "conditions": [
         {      
           "condition": "game_stages",
-          "game_stages": ["fullEarlyArmor"],
+          "game_stages": ["killedHarvester"],
           "match_mode": "all_of"
         }
       ],
