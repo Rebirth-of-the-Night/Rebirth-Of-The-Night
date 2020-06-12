@@ -9,4 +9,7 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 		var potEffect = potion.makePotionEffect(10, 50) as IPotionEffect;
 		potEffect.performEffect(event.player);
 	}
+	if (event.isPlayer & event.item.matches(<minecraft:mushroom_stew>)) {
+		event.player.give(<minecraft:bowl>);
+	}
 });
