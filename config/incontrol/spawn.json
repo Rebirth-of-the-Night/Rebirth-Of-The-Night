@@ -11,7 +11,7 @@
 	"seesky": true,
     "minlight": 10,
     "maxcount": {
-        "amount": 2,
+        "amount": 1,
         "perchunk": true
     },
     "result": "allow"
@@ -85,6 +85,14 @@
  {
     "mob": "minecraft:creeper",
     "dimension": [-1, 1, 4],
+    "onjoin": true,
+    "result": "deny"
+ },
+ 
+ // no wraith in OW, aether, end
+ {
+    "mob": "quark:wraith",
+    "dimension": [0, 1, 4],
     "onjoin": true,
     "result": "deny"
  },
@@ -395,10 +403,16 @@
     "minlight": 0,
 	"random": 0.02,
     "maxcount": {
-        "amount": 3,
+        "amount": 20,
         "perplayer": true
     },
+    "healthmultiply": 0.5,
     "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "minecraft:cave_spider",
+    "result": "deny"
  },
  
  {
@@ -1708,6 +1722,7 @@
     "result": "deny"
  },
 
+ /*
  {
     "dimension": [0,10],
     "mob": "specialmobs:poisonskeleton",
@@ -1723,7 +1738,7 @@
     "mob": "specialmobs:poisonskeleton",
     "result": "deny"
  },
-
+*/
 {
     "dimension": [0,10],
     "mob": "specialmobs:ninjaskeleton",
@@ -1876,7 +1891,7 @@
 },
 
  {
-    "dimension": [0,10],
+    "dimension": 0,
     "mob": "specialmobs:poisonspider",
     "gamestage": "enteredBeneath",
     "maxcount": {
@@ -1886,7 +1901,7 @@
     "result": "default"
  },
  {
-    "dimension": [0,10],
+    "dimension": 0,
     "mob": "specialmobs:poisonspider",
     "result": "deny"
  },
@@ -2296,7 +2311,7 @@
  {
     "dimension": 4,
     "mob": "mowziesmobs:naga",
-	"random": 0.02,
+	"random": 0.1,
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
 	"block": ["aether_legacy:quicksoil"],

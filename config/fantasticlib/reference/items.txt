@@ -832,6 +832,13 @@ animania:block_mud
 animania:block_trough
 animania:block_nest
 animania:block_hamster_wheel
+sereneseasons:greenhouse_glass
+sereneseasons:season_sensor_spring
+sereneseasons:season_sensor_summer
+sereneseasons:season_sensor_autumn
+sereneseasons:season_sensor_winter
+sereneseasons:ss_icon
+sereneseasons:season_clock
 betternether:block_eyeball
 betternether:block_eyeball_small
 betternether:eye_seed
@@ -925,13 +932,6 @@ betternether:stalagnate_bowl_mushroom
 betternether:stalagnate_bowl_apple
 carryon:tile_item
 carryon:entity_item
-sereneseasons:greenhouse_glass
-sereneseasons:season_sensor_spring
-sereneseasons:season_sensor_summer
-sereneseasons:season_sensor_autumn
-sereneseasons:season_sensor_winter
-sereneseasons:ss_icon
-sereneseasons:season_clock
 grapplemod:block_grapple_modifier
 minetraps:barbed_wire
 minetraps:razor_wire
@@ -3433,6 +3433,8 @@ mowziesmobs:earth_talisman
 mowziesmobs:captured_grottol
 mowziesmobs:glowing_jelly
 mowziesmobs:naga_fang
+mowziesmobs:naga_fang_dagger
+mowziesmobs:logo
 mowziesmobs:painted_acacia
 mowziesmobs:painted_acacia_slab
 mowziesmobs:barakoa_mask_fury
@@ -6696,6 +6698,7 @@ contenttweaker:lunarinendoriumbrick
 contenttweaker:end_orb
 contenttweaker:lunarinrimebrick
 contenttweaker:amethyst_ingot
+contenttweaker:tattered_hide
 contenttweaker:nature_orb
 contenttweaker:sol_rune
 contenttweaker:farlanderamethystbrick
@@ -6717,6 +6720,7 @@ contenttweaker:witheredblock
 contenttweaker:soul_rune
 contenttweaker:death_rune
 contenttweaker:poison_orb
+contenttweaker:monster_hide
 contenttweaker:farlanderzanitebrick
 contenttweaker:baguettebrick
 contenttweaker:copper_tin_mixture
@@ -6807,9 +6811,6 @@ grapplemod:staffupgradeitem
 grapplemod:swingupgradeitem
 grapplemod:throwupgradeitem
 grapplemod:limitsupgradeitem
-lwr:blockwirelesstransmitter
-lwr:blockwirelessreciever
-lwr:itemwirelessremote
 testdummy:dummy
 patchouli:guide_book
 redstonepaste:redstonepaste

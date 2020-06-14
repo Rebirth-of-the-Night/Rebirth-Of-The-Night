@@ -86,6 +86,23 @@
 				"maxCount": 16
 			},
 			"tradeLevel": 3
+		},
+		{
+			"output": {
+				"item": "contenttweaker:nether_rune",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 10,
+				"maxCount": 22
+			},
+			"tradeLevel": 4
 		}
 	]
 }

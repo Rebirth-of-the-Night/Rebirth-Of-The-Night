@@ -785,7 +785,7 @@
       }
     ]
   },
-
+ /*
   {
     "dimension": [0,10],
     "mobs": [
@@ -797,7 +797,7 @@
       }
     ]
   },
-
+*/
   {
     "dimension": [0,10],
     "mobs": [
@@ -908,7 +908,7 @@
   },
 
   {
-    "dimension": [0,10],
+    "dimension": 0,
     "mobs": [
       {
         "mob": "specialmobs:poisonspider",

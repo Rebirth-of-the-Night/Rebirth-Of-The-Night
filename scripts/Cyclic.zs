@@ -39,6 +39,8 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:password_block>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
+mods.jei.JEI.removeAndHide(<cyclicmagic:moon_sensor>);//add back
+mods.jei.JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back
 
 recipes.remove(<cyclicmagic:fluid_pipe>);
 recipes.remove(<cyclicmagic:fluid_pump>);
@@ -78,6 +80,7 @@ recipes.remove(<cyclicmagic:horse_upgrade_variant>);
 recipes.remove(<cyclicmagic:horse_upgrade_health>);
 recipes.remove(<cyclicmagic:horse_upgrade_speed>);
 recipes.remove(<cyclicmagic:horse_upgrade_jump>);
+//recipes.remove(<cyclicmagic:tool_mount>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 //apple recipes on betterwithmods.zs
 
@@ -172,6 +175,12 @@ recipes.addShaped("ore_locator", ore_locator,[
     [null, blazerod, <cyclicmagic:tool_spelunker>],
     [blazerod, null, null]
 ]);
+
+//recipes.addShaped("durable_stirrups", stirrups,[
+//	[null, <betterwithmods:material:9>, null],
+//    [null, <harvestcraft:hardenedleatheritem>, <betterwithmods:material:9>],
+//    [<ore:ingotSteel>, <ore:ingotSteel>, null]
+//]);
 
 //Spelunker potions with prospecting kit in rustic.zs
 

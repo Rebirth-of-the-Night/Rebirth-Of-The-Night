@@ -89,6 +89,23 @@
 		},
 		{
 			"output": {
+				"item": "villagenames:codex",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			"minTradeCount": 2,
+			"maxTradeCount": 4,
+			"inputOne": {
+				"item": "contenttweaker:phosphophyllite",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			"tradeLevel": 3
+		},
+		{
+			"output": {
 				"item": "contenttweaker:nethercoin",
 				"meta": 0,
 				"minCount": 1,

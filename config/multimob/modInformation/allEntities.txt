@@ -603,6 +603,7 @@ mowziesmobs:frozen_controller
 mowziesmobs:ring
 mowziesmobs:dart
 mowziesmobs:poison_ball
+mowziesmobs:super_nova
 mowziesmobs:block_swapper
 netherex:ghast_queen_fireball
 netherex:ghastling_fireball

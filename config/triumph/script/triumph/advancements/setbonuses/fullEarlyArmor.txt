@@ -4,7 +4,7 @@ setDescription("Unlock the Full Early Armor gamestage.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:killedHarvester")
+addRewardFunction("triumph:fullEarlyArmor")
 
 criteria = addCriteria("Bronze Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/bronzearmor")
@@ -22,12 +22,16 @@ criteria = addCriteria("Silver Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/silverarmor")
 
 criteria = addCriteria("Tanned Leather Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/bronzearmor")
+criteria.setAdvancement("triumph:advancements/setbonuses/tannedLeatherArmor")
 
 criteria = addCriteria("Gold Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/goldarmor")
 
 setRequirements("any")
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
 
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
 alwaysHidden()
-setPos(0,0)
+setPos(-430,14)

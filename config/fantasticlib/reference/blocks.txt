@@ -425,6 +425,11 @@ animania:milk_jersey
 animania:milk_goat
 animania:milk_sheep
 animania:honey
+sereneseasons:greenhouse_glass
+sereneseasons:season_sensor_spring
+sereneseasons:season_sensor_summer
+sereneseasons:season_sensor_autumn
+sereneseasons:season_sensor_winter
 betternether:block_eyeball
 betternether:block_eyeball_small
 betternether:eye_vine
@@ -527,11 +532,6 @@ betternether:bone_cincinnasite_door
 betternether:quartz_stained_glass_framed
 betternether:stalagnate_bowl_placed
 betternether:chest_of_drawers
-sereneseasons:greenhouse_glass
-sereneseasons:season_sensor_spring
-sereneseasons:season_sensor_summer
-sereneseasons:season_sensor_autumn
-sereneseasons:season_sensor_winter
 grapplemod:block_grapple_modifier
 minetraps:barbed_wire
 minetraps:razor_wire

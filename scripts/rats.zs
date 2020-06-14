@@ -185,6 +185,12 @@ recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
     [<minecraft:book>,<minecraft:experience_bottle>,<minecraft:book>]
 ]);
 
+recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
+    [<minecraft:book>,<minecraft:enchanting_table>,<minecraft:book>],
+    [<ore:bookshelf>,<rats:rat_upgrade_basic>,<ore:bookshelf>],
+    [<minecraft:book>,<minecraft:experience_bottle>,<minecraft:book>]
+]);
+
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;
 orecheese.remove(<rats:cheese>);

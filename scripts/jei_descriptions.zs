@@ -364,6 +364,7 @@ mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited
 mods.jei.JEI.addItem(<contenttweaker:spectral_shard>);
 mods.jei.JEI.addItem(<contenttweaker:magic_orb>);
 
+mods.jei.JEI.addDescription(<contenttweaker:amulet_of_divinity>,"Fade in Light, return to Glory. Gone blazing, born anew, estrelvir.");
 mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This basic material is a gate to a world of magic that can be used to craft Runes, various Trinkets, Baubles, Artifacts and even cast powerful Spells.");
 mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Witch covens have a taste for forbidden and unusual arts. We can tap into that power too, using the §lAlchemical Cauldron§r. Add water to an Alchemical Cauldron then light a fire below so that the water starts boiling. Add a §lbrown mushroom§r, a §lred mushroom§r, §lglowstone dust§r and stir with a spoon—rustic alchemists may use a wooden shovel.");
 
@@ -372,6 +373,7 @@ mods.jei.JEI.addItem(<contenttweaker:blank_rune>);
 mods.jei.JEI.addDescription(<contenttweaker:blank_rune>,"Stone imbued with magic powder. Used as a base for all runes.");
 mods.jei.JEI.addItem(<contenttweaker:disint_rune>);
 mods.jei.JEI.addDescription(<contenttweaker:disint_rune>,"Craft with magical items to disintegrate them into Spectral Silt. Spectral Silt is used for creating more powerful magical items.");
+
 
 mods.jei.JEI.addItem(<contenttweaker:sol_rune>);
 mods.jei.JEI.addItem(<contenttweaker:luna_rune>);

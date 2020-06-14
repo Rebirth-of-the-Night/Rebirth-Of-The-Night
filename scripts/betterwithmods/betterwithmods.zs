@@ -177,7 +177,6 @@ mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tall
 //Cyclic Apple
 mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
 
-
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
 mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
 mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); # chips to potash

@@ -23,6 +23,9 @@ mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
 var endoriumItems = <endreborn:tool_sword_endorium> | <endreborn:ender_sword> | <endreborn:tool_magnifier>;
 mods.vanillaanvilrepair.addRepairEntry(endoriumItems, <endreborn:item_ingot_endorium>);
 
+var obsidianArmor = <endreborn:armour_chestplate_obsidian> | <endreborn:armour_leggings_obsidian> | <endreborn:armour_boots_obsidian> | <endreborn:armour_helmet_helmet>;
+mods.vanillaanvilrepair.addRepairEntry(obsidianArmor, <endreborn:item_shard_obsidian>);
+
 mods.jei.JEI.removeAndHide(<endreborn:armour_helmet_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_leggings_dragon>);
