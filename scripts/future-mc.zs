@@ -3,12 +3,12 @@ import crafttweaker.item.IItemStack;
 
 mods.jei.JEI.removeAndHide(<futuremc:lantern>);
 mods.jei.JEI.removeAndHide(<futuremc:barrel>);
-recipes.remove(<futuremc:stonecutter>);
+
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
-recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6,
-  [[null,null,null],
-  [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>],
-  [null,null,null]]);
+recipes.removeByRecipeName("futuremc:else/stone_slabs_from_smooth_stone");
+recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6, [
+  [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>]
+]);
 
 var a = <ore:stone>;
 var b = <ore:ingotSilver>;
@@ -65,6 +65,7 @@ val sediSand = <undergroundbiomes:sedimentary_sandstone>;
 val sediSandSmooth = <undergroundbiomes:sedimentary_sandstone_smooth>;
 val sediSandChisel = <undergroundbiomes:sedimentary_sandstone_chiseled>;
 
+recipes.remove(<futuremc:stonecutter>);
 recipes.addShaped("Stone Cutter", <futuremc:stonecutter>,[
 	[null, null, null],
     [null, b, null],

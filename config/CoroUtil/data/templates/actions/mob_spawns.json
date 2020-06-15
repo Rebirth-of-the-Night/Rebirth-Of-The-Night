@@ -63,7 +63,7 @@
         },
         {
           "condition": "random",
-          "weight": 5,
+          "weight": 5
         }
       ],
       "spawns": [
