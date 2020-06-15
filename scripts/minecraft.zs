@@ -309,7 +309,6 @@ recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
     [null, stick, null]
 ]);
 
-mods.jei.JEI.removeAndHide(<minecraft:chest>);
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_chest>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:0>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:1>);
@@ -317,9 +316,13 @@ mods.jei.JEI.removeAndHide(<quark:custom_chest:2>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:3>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:4>);
 
-recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>,[
-	[<charset:chest>]
-]);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:0>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:1>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:2>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:3>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:4>);
+
+recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>,[<ore:chestWood>]);
 
 var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>;
 
