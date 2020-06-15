@@ -317,6 +317,10 @@ mods.jei.JEI.removeAndHide(<quark:custom_chest:2>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:3>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:4>);
 
+recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>,[
+	[<charset:chest>]
+]);
+
 var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>;
 
 recipes.addShaped("wooden_door",<minecraft:wooden_door>*3,[
