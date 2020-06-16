@@ -7,7 +7,7 @@
       "name": "undead_horde",
       "wave_message": "§cThe undead horde is approaching...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["noStage"],
           "match_mode": "all_of"
@@ -1164,7 +1164,7 @@
         },
         {
           "condition": "random",
-          "weight": 7500
+          "weight": 1500
         }
       ],
       "spawns": [
