@@ -238,3 +238,12 @@ recipes.addShapeless("dice", dice,[
     stone,
     cha_run.anyDamage().transformDamage()
 ]);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "cyclicmagic:ender"}),<minecraft:slime_ball>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "cyclicmagic:ender"}),<minecraft:slime_ball>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "cyclicmagic:ender"}),<minecraft:slime_ball>);
+
+
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "cyclicmagic:ender"}),<ore:slimeball>,<minecraft:potion>.withTag({Potion: "cyclicmagic:bounce"}));
+brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "cyclicmagic:ender"}),<ore:slimeball>,<minecraft:splash_potion>.withTag({Potion: "cyclicmagic:bounce"}));
+brewing.addBrew(<minecraft:lingering_potion>.withTag({Potion: "cyclicmagic:ender"}),<ore:slimeball>,<minecraft:lingering_potion>.withTag({Potion: "cyclicmagic:bounce"}));
