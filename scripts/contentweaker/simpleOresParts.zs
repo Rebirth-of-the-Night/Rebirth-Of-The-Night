@@ -6,20 +6,24 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
 //Values
-val ccolor = Color.fromHex("FFFFFF") as Color;
+val ccolor = Color.fromHex("D98D3F") as Color;
 val copper = MaterialSystem.getMaterialBuilder().setName("Copper").setColor(ccolor).build();
-val tcolor = Color.fromHex("FFFFFF") as Color;
+val tcolor = Color.fromHex("D0D0D0") as Color;
 val tin = MaterialSystem.getMaterialBuilder().setName("Tin").setColor(tcolor).build();
 val vcolor = Color.fromHex("4CEF5A") as Color;
 val viridium = MaterialSystem.getMaterialBuilder().setName("Viridium").setColor(vcolor).build();
 val mcolor = Color.fromHex("4390F5") as Color;
 val mythril = MaterialSystem.getMaterialBuilder().setName("Mythril").setColor(mcolor).build();
+val sfcolor = Color.fromHex("535052") as Color;
+val sfs = MaterialSystem.getMaterialBuilder().setName("Soul Forged Steel").setColor(sfcolor).build();
 
 //MISC PARTS
 copper.registerParts(["nugget","molten"] as string[]);
 tin.registerParts(["nugget","molten"] as string[]);
 mythril.registerParts(["nugget","molten"] as string[]);
 viridium.registerParts(["nugget","molten"] as string[]);
+sfs.registerParts(["molten"] as string[]);
+
 
 var molten_soul = VanillaFactory.createFluid("flowing_spirits", Color.fromHex("4390F5"));
 molten_soul.density = 1200;
