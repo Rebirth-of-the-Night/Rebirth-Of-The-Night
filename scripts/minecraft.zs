@@ -837,3 +837,10 @@ recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
 recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<ore:gemDiamond>, <contenttweaker:luna_orb>, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+// Charset Materials
+mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betternether:stalagnate_planks>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_mulberry>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_sakura>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<twilightforest:tower_wood>, "block", "wood", "plank");
