@@ -240,9 +240,9 @@ mods.foundry.MoldStation.addRecipe(<contenttweaker:staff_mold>, 6, 6, [
 //casting weapons is -2 nugget per ingot cheaper than crafting them in a crafting table / steel anvil
 
 // HELMET //
-mods.foundry.Casting.removeRecipe(<liquid:iron>*720, <foundry:mold:14>)
+mods.foundry.Casting.removeRecipe(<liquid:iron>*720, <foundry:mold:14>);
 mods.foundry.Casting.addRecipe(<minecraft:iron_helmet>, <liquid:iron>*((144*5)-(16*2*5)), <foundry:mold:14>);//iron
-mods.foundry.Casting.removeRecipe(<liquid:gold>*720, <foundry:mold:14>)
+mods.foundry.Casting.removeRecipe(<liquid:gold>*720, <foundry:mold:14>);
 mods.foundry.Casting.addRecipe(<minecraft:golden_helmet>, <liquid:gold>*((144*5)-(16*2*5)), <foundry:mold:14>);//gold
 mods.foundry.Casting.addRecipe(<atop:mud_helmet>, <liquid:bronze>*((144*5)-(16*2*5)), <foundry:mold:14>);//bronze
 mods.foundry.Casting.addRecipe(<iceandfire:armor_silver_metal_helmet>, <liquid:silver>*((144*5)-(16*2*5)), <foundry:mold:14>);//silver
