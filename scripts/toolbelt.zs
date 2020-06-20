@@ -6,9 +6,9 @@ import crafttweaker.oredict.IOreDictEntry;
 
 recipes.remove(<toolbelt:belt>);
 recipes.addShaped(<toolbelt:belt>, [
-    [<ore:durableFiber>, <betterwithmods:material:8>, <ore:durableFiber>],
-    [<betterwithmods:material:32>, <ore:ingotIron>, <betterwithmods:material:32>], 
-    [<ore:durableFiber>, <betterwithmods:material:8>, <ore:durableFiber>]
+    [null, <ore:durableFiber, null],
+    [<toolbelt:pouch>, <betterwithmods:material:9>, <toolbelt:pouch>], 
+    [null, <ore:ingotIron>, null]
 ]);
 
 recipes.remove(<toolbelt:pouch>);

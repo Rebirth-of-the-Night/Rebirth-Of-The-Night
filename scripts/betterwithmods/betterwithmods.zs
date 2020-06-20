@@ -145,12 +145,6 @@ mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:turkey_raw>],[<bett
 
 mods.betterwithmods.Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
 
-val arrayLeather = [<primitivemobs:cooked_dodo>,<animania:cooked_prime_beef>,<animania:cooked_prime_mutton>,<animania:cooked_prime_pork>,<animania:cooked_prime_chicken>,<animania:cooked_horse>,<animania:cooked_prime_rabbit>,<animania:cooked_frog_legs>,<animania:cooked_peacock>,<animania:cooked_prime_peacock>,<animania:cooked_chevon>,<animania:cooked_prime_chevon>,<aether_legacy:burnt_cockatrice>,<aether_legacy:cooked_enchanted_cockatrice>,<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<harvestcraft:crabcookeditem>,<quark:cooked_crab_leg>,<betteranimalsplus:venisoncooked>,<twilightforest:cooked_venison>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<twilightforest:cooked_meef>,<betteranimalsplus:turkey_leg_cooked>,<betteranimalsplus:pheasantcooked>,<betteranimalsplus:turkey_cooked>,<betterwithmods:cooked_wolf_chop>] as IItemStack[];
-
-for cookedFood in arrayLeather{
-    mods.betterwithmods.Cauldron.addUnstoked([cookedFood],[<minecraft:leather>]);
-    furnace.addRecipe(<minecraft:leather>,cookedFood,0.1);
-}
 
 //Horse Upgrades
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
