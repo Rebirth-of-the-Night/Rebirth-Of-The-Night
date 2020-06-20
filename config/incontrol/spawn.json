@@ -1487,27 +1487,27 @@
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
-    "armorhelmet": ["dungeontactics:silver_helmet", "minecraft:iron_helmet"],
+    "armorhelmet": ["iceandfire:armor_silver_metal_helmet", "minecraft:iron_helmet"],
     "gamestage": "fullMidArmor"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
-    "armorchest": ["dungeontactics:silver_chestplate", "minecraft:iron_chestplate"],
-    "gamestage": "fullMidArmor"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorlegs": ["dungeontactics:silver_leggings", "minecraft:iron_leggings"],
+    "armorchest": ["iceandfire:armor_silver_metal_chestplate", "minecraft:iron_chestplate"],
     "gamestage": "fullMidArmor"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
-    "armorboots": ["dungeontactics:silver_boots", "minecraft:iron_boots"],
+    "armorlegs": ["iceandfire:armor_silver_metal_leggings", "minecraft:iron_leggings"],
+    "gamestage": "fullMidArmor"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorboots": ["iceandfire:armor_silver_metal_boots", "minecraft:iron_boots"],
     "gamestage": "fullMidArmor"
 },
 
