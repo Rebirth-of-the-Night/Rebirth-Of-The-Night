@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/longbow_mold"
+    "layer0": "contenttweaker:items/castingMolds/longbow_mold"
   }
 }

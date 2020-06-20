@@ -181,6 +181,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_a
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_adamantium>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:javelin_adamantium>, 12000);
 
+mods.aether_legacy.Enchanter.registerEnchantment(<cyclicmagic:glove_climb>, 12000);
+
 //Wroughtnaught
 mods.aether_legacy.Enchanter.registerEnchantment(<mowziesmobs:wrought_axe>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<mowziesmobs:wrought_helmet>, 32200);
