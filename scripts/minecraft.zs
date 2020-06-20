@@ -309,13 +309,20 @@ recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
     [null, stick, null]
 ]);
 
-mods.jei.JEI.removeAndHide(<minecraft:chest>);
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_chest>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:0>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:1>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:2>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:3>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:4>);
+
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:0>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:1>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:2>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:3>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:4>);
+
+recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>,[<ore:chestWood>]);
 
 var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>;
 
@@ -566,7 +573,13 @@ val pixieJar = <ore:jarPixieAny>;
 pixieJar.addItems([<iceandfire:jar_pixie>,<iceandfire:jar_pixie:1>,<iceandfire:jar_pixie:2>,<iceandfire:jar_pixie:3>,<iceandfire:jar_pixie:4>]);
 
 val mushroom = <ore:mushroomAny>;
-mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
+mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>,<netherex:brown_elder_mushroom>,<netherex:red_elder_mushroom>,<betternether:orange_mushroom>]);
+
+for item in mushroom.items{
+    if(!(<ore:listAllmushroom> has item)){
+        <ore:listAllmushroom>.add(item);
+    }
+}
 
 val rawBeef = <ore:listAllbeefraw>;
 rawBeef.add(<twilightforest:raw_meef>);
@@ -830,3 +843,10 @@ recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
 recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<ore:gemDiamond>, <contenttweaker:luna_orb>, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+// Charset Materials
+mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betternether:stalagnate_planks>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_mulberry>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_sakura>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<twilightforest:tower_wood>, "block", "wood", "plank");

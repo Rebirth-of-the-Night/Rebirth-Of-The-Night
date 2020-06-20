@@ -299,6 +299,7 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
 <animania:bee_hive>.displayName = "Wooden Beehive";
+<animania:salt>.displayName = "Crystal Salt";
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Return Potion";

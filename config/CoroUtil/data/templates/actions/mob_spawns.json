@@ -7,10 +7,14 @@
       "name": "undead_horde",
       "wave_message": "§cThe undead horde is approaching...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["noStage"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 1
         }
       ],
       "spawns": [
@@ -42,23 +46,6 @@
     },
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -69,10 +56,14 @@
       "name": "undead_and_skeletons",
       "wave_message": "§cThe skeleton horde is approaching...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["killedHarvester"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 5
         }
       ],
       "spawns": [
@@ -163,10 +154,14 @@
       "name": "invasion_undead_and_spiders",
       "wave_message": "§cThe spider horde is approaching...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["killedHarvester"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 5
         }
       ],
       "spawns": [
@@ -249,23 +244,19 @@
 
 
 
-
-
-
-
-
-
-
-
     {
       "comment": "///////////////////////////////////////////// Full Mid Armor Invasions",
       "name": "invasion_pirates",
       "wave_message": "§cThe pirates are invading!",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["fullMidArmor"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
         }
       ],
       "spawns": [
@@ -318,10 +309,14 @@
       "name": "invasion_undead_and_creepers",
       "wave_message": "§cThe creeper horde is approaching...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["fullMidArmor"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
         }
       ],
       "spawns": [
@@ -379,7 +374,7 @@
               "base_value": 40
             }
           ]
-        },    
+        },
         {
           "entities": [
             "primitivemobs:jumping_creeper"
@@ -402,10 +397,14 @@
       "name": "invasion_undead_cavalry",
       "wave_message": "§cThe undead cavalry rides tonight!",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["fullMidArmor"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
         }
       ],
       "spawns": [
@@ -488,7 +487,7 @@
               "base_value": 40
             }
           ]
-        },    
+        },
         {
           "entities": [
             "minecraft:skeleton_horse"
@@ -512,10 +511,14 @@
       "name": "invasion_skydrake",
       "wave_message": "§cYou hear a loud roar coming from the skies...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["fullMidArmor"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
         }
       ],
       "spawns": [
@@ -569,14 +572,20 @@
       ]
     },
     {
-      "comment":"//Personal Template",
-      "name":"invasion_birds",
-      "wave_message":"§cYou hear a flock of birds in the distance...",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["fullMidArmor"],
-        "match_mode":"all_of"
-      }],
+      "comment": "//Personal Template",
+      "name": "invasion_birds",
+      "wave_message": "§cYou hear a flock of birds in the distance...",
+      "conditions": [
+        {
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
+        }
+      ],
       "spawns":[
         {
           "entities":["betteranimalsplus:lammergeier"],
@@ -607,13 +616,19 @@
       ]
     },
     {
-      "name":"invasion_spiders",
-      "wave_message":"§cThe average spider eats eight humans every year...",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["fullMidArmor"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_spiders",
+      "wave_message": "§cThe average spider eats eight humans every year...",
+      "conditions": [
+        {
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
+        }
+      ],
       "spawns":[
         {
           "entities":["betteranimalsplus:tarantula","specialmobs:palespider","specialmobs:hungryspider","specialmobs:witchspider","minecraft:cave_spider"],
@@ -636,13 +651,20 @@
       ]
     },
     {
-      "name":"invasion_goblins",
-      "wave_message":"§cA goblin army is invading!",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["fullMidArmor"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_goblins",
+      "wave_message": "§cA goblin army is invading!",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
+        }
+      ],
       "spawns":[
         {
           "entities":["minecraft:wolf"],
@@ -681,13 +703,20 @@
       ]
     },
     {
-      "name":"invasion_buzz",
-      "wave_message":"§cYou hear buzzing and slithering in the distance...",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["fullMidArmor"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_buzz",
+      "wave_message": "§cYou hear buzzing and slithering in the distance...",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["fullMidArmor"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 50
+        }
+      ],
       "spawns":[
         {
           "entities":["specialmobs:flyingsilverfish"],
@@ -730,27 +759,22 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     {
       "comment": "///////////////////////////////////////////// Entered Nether Invasions",
-      "name":"invasion_bee",
-      "wave_message":"§cYou better BEE prepared tonight...",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["enteredNether"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_bee",
+      "wave_message": "§cYou better BEE prepared tonight...",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["enteredNether"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 300
+        }
+      ],
       "spawns":[
         {
           "entities":["futuremc:bee"],
@@ -761,6 +785,15 @@
             {"cmod": "xp", "base_value": 40},
             {"cmod": "attribute_attackdamage", "base_value": 6},
             {"cmod": "mob_drops", "loot_table": "beeLoot"}
+          ]
+        },
+        {
+          "entities":["biomesoplenty:wasp"],
+          "count":20,
+          "cmods":[
+            {"cmod":"ai_omniscience"},
+            {"cmod":"ai_attack_melee"},
+            {"cmod": "xp", "base_value": 40}
           ]
         },
         {
@@ -775,13 +808,20 @@
       ]
     },
     {
-      "name":"invasion_fire",
-      "wave_message":"§cFire burns on the horizon!",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["enteredNether"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_fire",
+      "wave_message": "§cFire burns on the horizon!",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["enteredNether"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 300
+        }
+      ],
       "spawns":[
         {
           "entities":["specialmobs:firezombie"],
@@ -811,13 +851,20 @@
       ]
     },
     {
-      "name":"invasion_nether",
-      "wave_message":"§cA horde of monsters has stormed out of the Nether!",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["enteredNether"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_nether",
+      "wave_message": "§cA horde of monsters has stormed out of the Nether!",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["enteredNether"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 300
+        }
+      ],
       "spawns":[
         {
           "entities":["netherex:nethermite"],
@@ -870,23 +917,22 @@
 
 
 
-
-
-
-
-
-
-
-
     {
       "comment": "///////////////////////////////////////////// Entered Beneath Invasions",
-      "name":"invasion_bugs",
-      "wave_message":"§cA swarm of bugs is approaching...",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["enteredBeneath"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_bugs",
+      "wave_message": "§cA swarm of bugs is approaching...",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["enteredBeneath"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 1500
+        }
+      ],
       "spawns":[
         {
           "entities":["mod_lavacow:vespa"],
@@ -960,13 +1006,20 @@
     },
 
     {
-      "name":"invasion_rats",
-      "wave_message":"§cThey're the rats! And all of your base are belong to them!",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["enteredBeneath"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_rats",
+      "wave_message": "§cThey're the rats! And all of your base are belong to them!",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["enteredBeneath"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 1500
+        }
+      ],
       "spawns":[
         {
           "entities":["rats:rat"],
@@ -988,20 +1041,27 @@
       ]
     },
     {
-      "name":"invasion_bats",
-      "wave_message":"§cHundreds of wings flap in the distance...",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["enteredBeneath"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_bats",
+      "wave_message": "§cHundreds of wings flap in the distance...",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["enteredBeneath"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 1500
+        }
+      ],
       "spawns":[
         {
           "entities":["minecraft:bat"],
           "spawn_type": "air",
           "count":100,
-          "cmods":[
-            
+          "cmods":
+          [
             {"cmod":"ai_omniscience"},
             {"cmod":"ai_attack_melee"},
             {"cmod": "xp", "base_value": 20},
@@ -1029,13 +1089,20 @@
       ]
     },
     {
-      "name":"invasion_piper",
-      "wave_message":"§cYou hear the haunting melody of a flute growing louder...",
-      "conditions":[{
-        "condition":"game_stages",
-        "game_stages":["enteredBeneath"],
-        "match_mode":"all_of"
-      }],
+      "name": "invasion_piper",
+      "wave_message": "§cYou hear the haunting melody of a flute growing louder...",
+      "conditions":
+      [
+        {
+          "condition": "game_stages",
+          "game_stages": ["enteredBeneath"],
+          "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 1200
+        }
+      ],
       "spawns":[
         {
           "entities":["rats:illager_piper"],
@@ -1078,25 +1145,26 @@
     },
 
 
-    
 
 
 
 
 
 
-
-    
 
     {
       "comment": "///////////////////////////////////////////// Mined Mythril Invasions",
       "name": "invasion_animals",
       "wave_message": "§cThe animal uprising has begun. They want revenge!",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 1500
         }
       ],
       "spawns": [
@@ -1133,10 +1201,14 @@
       "name": "invasion_illagers",
       "wave_message": "§cThe Illager army is invading!",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 7500
         }
       ],
       "spawns": [
@@ -1174,10 +1246,14 @@
       "name": "invasion_vermin_souls",
       "wave_message": "§cOOPS! All Vermin Souls! (Hope you have fire resistance...)",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 7500
         }
       ],
       "spawns": [
@@ -1202,10 +1278,14 @@
       "name": "invasion_legendary_undead",
       "wave_message": "§cA legendary undead horde is approaching!",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 7500
         }
       ],
       "spawns": [
@@ -1257,10 +1337,14 @@
       "name": "invasion_rats2",
       "wave_message": "§cThey prey at night... they stalk at night...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 7500
         }
       ],
       "spawns": [
@@ -1268,7 +1352,7 @@
           "entities": [
             "rats:rat"
           ],
-          "count": 20,
+          "count": 50,
           "cmods": [
             {
               "cmod": "template",
@@ -1323,7 +1407,7 @@
           "entities": [
             "rats:ratlantean_spirit"
           ],
-          "count": 2,
+          "count": 5,
           "cmods": [
             {
               "cmod": "template",
@@ -1338,10 +1422,14 @@
       "name": "invasion_witch",
       "wave_message": "§cThe witch covens are invading!",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 7500
         }
       ],
       "spawns": [
@@ -1422,10 +1510,14 @@
       "name": "invasion_terrible",
       "wave_message": "§cThis is going to be a terrible night...",
       "conditions": [
-        {      
+        {
           "condition": "game_stages",
           "game_stages": ["minedMythril"],
           "match_mode": "all_of"
+        },
+        {
+          "condition": "random",
+          "weight": 7500
         }
       ],
       "spawns": [
@@ -1433,7 +1525,7 @@
           "entities": [
             "minecraft:cave_spider"
           ],
-          "count": 5,
+          "count": 10,
           "cmods": [
             {
               "cmod": "template",
@@ -1527,15 +1619,6 @@
 
 
 
-    
-
-
-
-
-
-
-
-
 
 
 
@@ -1549,7 +1632,11 @@
       "conditions": [
         {
           "condition": "invasion_rate",
-          "rate": 52
+          "rate": 41
+        },
+        {
+          "condition": "random",
+          "weight": 90000
         }
       ],
       "spawns": [

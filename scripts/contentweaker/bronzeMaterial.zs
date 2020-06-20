@@ -6,7 +6,7 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
 //Values
-val color = Color.fromHex("FFFFFF") as Color;
+val color = Color.fromHex("F2E2CD") as Color;
 val bronze = MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(color).build();
 val coptinMixture = mods.contenttweaker.VanillaFactory.createItem("copper_tin_mixture");
 coptinMixture.register();

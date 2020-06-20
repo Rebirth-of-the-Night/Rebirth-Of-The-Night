@@ -6,7 +6,7 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
 //Values
-val color = Color.fromHex("FFFFFF") as Color;
+val color = Color.fromHex("FFFF8C") as Color;
 val electrum = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(color).build();
 val sivgoldMixture = mods.contenttweaker.VanillaFactory.createItem("silver_gold_mixture");
 sivgoldMixture.register();
