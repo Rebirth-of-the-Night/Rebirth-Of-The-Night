@@ -7,37 +7,6 @@ import loottweaker.vanilla.loot.Functions;
 
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 
-//Removed content
-mods.jei.JEI.removeAndHide(<toroquest:obsidian_sword>);
-mods.jei.JEI.removeAndHide(<toroquest:fire_sword>);
-mods.jei.JEI.removeAndHide(<toroquest:sword_of_pain>);
-mods.jei.JEI.removeAndHide(<toroquest:pickaxe_of_greed>);
-mods.jei.JEI.removeAndHide(<toroquest:diamond_battle_axe>);
-mods.jei.JEI.removeAndHide(<toroquest:spicy_chicken>);
-mods.jei.JEI.removeAndHide(<toroquest:toro_leather>);
-mods.jei.JEI.removeAndHide(<toroquest:royal_boots>);
-mods.jei.JEI.removeAndHide(<toroquest:royal_leggings>);
-mods.jei.JEI.removeAndHide(<toroquest:royal_helmet>);
-mods.jei.JEI.removeAndHide(<toroquest:royal_chestplate>);
-mods.jei.JEI.removeAndHide(<toroquest:reinforced_diamond_boots>);
-mods.jei.JEI.removeAndHide(<toroquest:reinforced_diamond_leggings>);
-mods.jei.JEI.removeAndHide(<toroquest:reinforced_diamond_helmet>);
-mods.jei.JEI.removeAndHide(<toroquest:reinforced_diamond_chestplate>);
-mods.jei.JEI.removeAndHide(<toroquest:toro_armor_boots>);
-mods.jei.JEI.removeAndHide(<toroquest:toro_armor_leggings>);
-mods.jei.JEI.removeAndHide(<toroquest:toro_armor_helmet>);
-mods.jei.JEI.removeAndHide(<toroquest:toro_armor_chestplate>);
-mods.jei.JEI.removeAndHide(<toroquest:samurai_boots>);
-mods.jei.JEI.removeAndHide(<toroquest:samurai_leggings>);
-mods.jei.JEI.removeAndHide(<toroquest:samurai_helmet>);
-mods.jei.JEI.removeAndHide(<toroquest:samurai_chestplate>);
-
-# Im putting these in here bc they literally dont work in any other file, ive tried
-mods.ltt.LootTable.removeGlobalItem("toroquest:obsidian_sword");
-mods.ltt.LootTable.removeGlobalItem("toroquest:fire_sword");
-mods.ltt.LootTable.removeGlobalItem("toroquest:sword_of_pain");
-mods.ltt.LootTable.removeGlobalItem("toroquest:pickaxe_of_greed");
-mods.ltt.LootTable.removeGlobalItem("toroquest:diamond_battle_axe");
 
 
 mods.jei.JEI.removeAndHide(<aeble:obsidian_ring>);
