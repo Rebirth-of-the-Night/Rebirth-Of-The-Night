@@ -51,8 +51,8 @@ Mortar.addRecipe(["diamond", "obsidian"], <ceramics:unfired_clay:4>, 5, [<nether
 
 
 //Melting //Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int melting_point, @Optional int speed)
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*144, <betterwithmods:material:14>, 2350) 
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*(144*16), <betterwithmods:steel_block>, 2350)
+mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*144, <betterwithmods:material:14>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*(144*16), <betterwithmods:steel_block>, 2350);
 
 
 //Molds //moldStation.addRecipe(IItemStack output, int width, int height, int[] grid)
