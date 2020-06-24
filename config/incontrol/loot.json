@@ -560,5 +560,13 @@
       "player": true,
       "item": "endreborn:food_ender_flesh",
       "itemcount": "1-2"
+   },
+
+   {
+      "mob": "mod_lavacow:undeadswine",
+      "player": true,
+      "item": "mod_lavacow:undyingheart",
+      "itemcount": "1",
+      "random": "0.1"
    }
 ]
