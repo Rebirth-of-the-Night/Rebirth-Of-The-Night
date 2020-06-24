@@ -6,7 +6,7 @@ recipes.remove(<grapplemod:ropeupgradeitem>);
 mods.jei.JEI.removeAndHide(<grapplemod:repeller>);
 mods.rockytweaks.Anvil.remove([<grapplemod:grapplinghook>]);
 
-val gravititepick = <aether_legacy:gravitite_pickaxe>;
+val gravititepick = <aether_legacy:gravitite_pickaxe>|<atop:amethyst_pickaxe>;
 val rope = <quark:rope>;
 val grapplehook = <grapplemod:grapplinghook>;
 val lead = <minecraft:lead>;
