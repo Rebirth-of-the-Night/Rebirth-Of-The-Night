@@ -2,7 +2,7 @@
 
 #Blocks
 tile.eplus.advanced.table.name=True Enchanting Table
-tile.eplus.decorative.book.eplus.name=Enchanting Plus Book
+tile.eplus.decorative.book.eplus.name=True Enchanting Book
 tile.eplus.decorative.book.vanilla.name=Enchanting Book
 tile.eplus.decorative.book.prismarine.name=Prismarine Book
 tile.eplus.decorative.book.nether.name=Nether Book
@@ -17,10 +17,10 @@ item.eplus.table.upgrade.name=Table Upgrade
 itemGroup.eplus=Enchanting Plus
 
 #Info Box
-eplus.info.playerxp=EXP: %d
-eplus.info.costxp=Cost: %d
-eplus.info.infinity=EXP: ∞
-eplus.info.power=Discount: %.2f
+eplus.info.playerxp=Your XP: %d
+eplus.info.costxp=Cost of enchanting: %d
+eplus.info.infinity=XP: ∞
+eplus.info.power=Discount: %.2f/30%
 gui.eplus.info.noitem=Place an item in to see its available enchantments.
 gui.eplus.info.noench=No enchantments are available for this item.
 gui.eplus.info.tooexpensive=You need more XP to apply this enchantment.
@@ -28,8 +28,8 @@ gui.eplus.info.tooexpensive=You need more XP to apply this enchantment.
 eplus.info.tip.prefix=Tip: 
 eplus.info.tip.bonus=Bonus Tip: 
 eplus.info.tip.description=Hold %s over the enchantment slider for a description.
-eplus.info.tip.books=You can place bookshelves around to reduce the cost of enchantments.
-eplus.info.tip.treasure=Treasure enchantments require a floor of prescious materials, and daylight.
+eplus.info.tip.books=You can place bookshelves around to reduce the cost of enchantments. The max discount is 30%.
+eplus.info.tip.treasure=Treasure enchantments require a floor of prescious materials (gold blocks, iron blocks, etc), and daylight.
 eplus.info.tip.curse=Curses can only be modified near midnight on nights with a full moon.
 eplus.info.tip.storage=The True Enchanting Table will store its inventory like a chest.
 eplus.info.tip.inventory=Every player has their own inventory in the table. Breaking the table will cause the contents of all the inventories to drop.
@@ -52,8 +52,8 @@ enchantment.minecraft.respiration.desc=Extends the amount of time you can spend 
 enchantment.minecraft.aqua_affinity.desc=Increases mining speed while underwater. 
 enchantment.minecraft.thorns.desc=Causes damage to enemies when they attack you.
 enchantment.minecraft.sharpness.desc=Increases the damage of the item.
-enchantment.minecraft.smite.desc=Increases damage against undead mobs such as zombies and skeletons.
-enchantment.minecraft.bane_of_arthropods.desc=Increases damage against arthropods such as spiders and silverfish.
+enchantment.minecraft.smite.desc=Greatly increases damage against undead mobs such as zombies and skeletons.
+enchantment.minecraft.bane_of_arthropods.desc=Greatly increases damage against arthropods such as spiders and silverfish.
 enchantment.minecraft.knockback.desc=Increases the knockback strength of the weapon.
 enchantment.minecraft.fire_aspect.desc=Causes additional fire damage when used to attack a mob.
 enchantment.minecraft.looting.desc=Mobs will drop more loot when killed.
