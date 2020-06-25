@@ -18,9 +18,10 @@ addRepairEntry(sapphireItems, <ore:gemSapphire>);
 // used for Mari's dev relic
 //mods.jei.JEI.removeAndHide(<atop:amethyst_sword>);
 recipes.remove(<atop:amethyst_sword>);
-mods.jei.JEI.removeAndHide(<atop:amethyst_pickaxe>);
-mods.jei.JEI.removeAndHide(<atop:amethyst_shovel>);
-mods.jei.JEI.removeAndHide(<atop:amethyst_axe>);
+// used for grav tools
+// mods.jei.JEI.removeAndHide(<atop:amethyst_pickaxe>);
+// mods.jei.JEI.removeAndHide(<atop:amethyst_shovel>);
+// mods.jei.JEI.removeAndHide(<atop:amethyst_axe>);
 mods.jei.JEI.removeAndHide(<atop:amethyst_hoe>);
 
 mods.jei.JEI.removeAndHide(<atop:sapphire_sword>);

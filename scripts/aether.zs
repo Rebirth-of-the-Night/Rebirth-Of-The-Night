@@ -92,7 +92,7 @@ var shard = <aether_legacy:ambrosium_shard>;
 var quicks = <aether_legacy:quicksoil>;
 
 recipes.addShaped("quicksoil", quicks*8,[
-	[sand, sand, sand],
+    [sand, sand, sand],
     [sand, shard, sand],
     [sand, sand, sand]
 ]);
@@ -133,7 +133,36 @@ recipes.addShapeless("black_skyroot_bed",<aether_legacy:skyroot_bed:15>,[skyBedL
 
 recipes.removeByRecipeName("quark:gravisand");
 recipes.addShaped("quickgravisand", <quark:gravisand>*8,[
-	[quicks, quicks, quicks],
+    [quicks, quicks, quicks],
     [quicks, <ore:enderpearl>, quicks],
     [quicks, quicks, quicks]
+]);
+
+mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_pickaxe>);
+mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_axe>);
+mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
+
+recipes.remove(<atop:amethyst_pickaxe>);
+recipes.remove(<atop:amethyst_axe>);
+recipes.remove(<atop:amethyst_shovel>);
+
+var egrav = <aether_legacy:enchanted_gravitite>;
+var stick = <aether_legacy:skyroot_stick>;
+
+recipes.addShaped("gravitite_pick", <atop:amethyst_pickaxe>,[
+    [egrav, egrav, egrav],
+    [null, stick, null],
+    [null, stick, null]
+]);
+
+recipes.addShaped("gravitite_axe", <atop:amethyst_axe>,[
+    [egrav, egrav],
+    [egrav, stick],
+    [null, stick]
+]);
+
+recipes.addShaped("gravitite_shovel", <atop:amethyst_shovel>,[
+    [egrav],
+    [stick],
+    [stick]
 ]);
