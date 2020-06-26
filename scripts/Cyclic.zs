@@ -27,6 +27,8 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:builder_block>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:target>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_med_angle>);//add back

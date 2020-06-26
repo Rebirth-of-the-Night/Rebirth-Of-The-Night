@@ -137,6 +137,7 @@ val plantFiber = <pyrotech:material:12>;
 val driedPlantFiber = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
 val durableTwine = <pyrotech:material:26>;
+val coade = <liquid:coade_stone>;
 
 mods.jei.JEI.addDescription(windmillBlade, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 mods.jei.JEI.addDescription(millstone,"A necessary machine for every starting mechanist! Needs mechanical power from the top or bottom.");
@@ -160,6 +161,7 @@ mods.jei.JEI.addDescription(hempFiber,"High quality fiber used in advanced recip
 mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance as string from wool or spider-silk.");
 mods.jei.JEI.addDescription(durableTwine, "By means of various crafting procedures, these simple strands of plants have roughly achieved the durability and strength of higher quality fibers.");
 mods.jei.JEI.addDescription(pulp, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
+mods.jei.JEI.addDescription(coade, "An homogenous magma of varied stone that is easy to manipulate. Its name comes from its association with a certain earthenware material that was said to be truly easily moldable into any shape; although not clay, that name stuck with it over time.");
 
 mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 mods.jei.JEI.removeAndHide(<base:wrench>);

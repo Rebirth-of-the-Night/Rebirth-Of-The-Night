@@ -115,12 +115,12 @@ recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 
 recipes.addShaped("twineToString", <minecraft:string>*3,
 [[twine,twine,twine]]);
-recipes.addShaped("pyro_stone_brick", stoneBrick*2,
+recipes.addShaped("pyro_stone_brick", stoneBrick*8,
 [[<ore:stone>],
 [<ore:stone>]]);
-recipes.addShaped("pyrorock_stone_brick", stoneBrick*1,
-[[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>],
-[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]]);
+recipes.addShaped("pyrorock_stone_brick", stoneBrick*2,
+[[<pyrotech:rock:0>],
+[<pyrotech:rock:0>]]);
 recipes.addShaped("pyro_stone_kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [stoneBrick,<minecraft:furnace>,stoneBrick],

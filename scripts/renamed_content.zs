@@ -292,8 +292,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <pyrotech:brick_kiln>.displayName = "Brick Kiln";
 <pyrotech:material:35>.displayName = "Lump of Refractory Material";
 <pyrotech:material:4>.displayName = "Refractory Material";
-game.setLocalization("tile.pyrotech:anvil_granite.name","Multi-Purpose Stone Anvil");
-game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anvil");
 
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";

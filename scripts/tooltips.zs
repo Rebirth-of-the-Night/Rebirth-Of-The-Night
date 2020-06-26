@@ -111,7 +111,10 @@
 #Pyrotech
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
 <pyrotech:flint_and_tinder>.addTooltip("Not as convenient as a flint and steel.");
-<pyrotech:bucket_stone>.clearTooltip();
+
+<pyrotech:bucket_stone>.removeTooltip("Uses=");
+<pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
+//<pyrotech:living_tar>.removeTooltip();
 <pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
 
 #Progression
@@ -153,6 +156,11 @@
 <scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
 <scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
+<foundry:machine:2>.removeTooltip("Requires RF, FE, or Tesla to operate.");
+<foundry:machine:2>.addTooltip("Requires a Redstone signal to operate.");
+<foundry:machine:3>.removeTooltip("Requires RF, FE, or Tesla to operate.");
+<foundry:machine:3>.addTooltip("Requires a Redstone signal to operate.");
+
 <harvestcraft:well>.addTooltip("Infinite water source");
 <harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
@@ -169,8 +177,6 @@
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Chute Compat.:") + format.red(" NO."));
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
 <dungeontactics:fan_block>.addShiftTooltip("Can be rotated.");
-
-<pyrotech:living_tar>.clearTooltip();
 
 <netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");

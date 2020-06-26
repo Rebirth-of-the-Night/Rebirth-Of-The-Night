@@ -1,6 +1,6 @@
 item.pyrotech.bucket.stone.name=%s Flimsy Bucket
 item.pyrotech.bucket.stone.empty.name=Flimsy Bucket
-item.pyrotech.bucket.stone.milk.name=Flimsy Stone Bucket
+item.pyrotech.bucket.stone.milk.name=Flimsy Milk Bucket
 
 tile.bwm:anvil_granite.name=Multipurpose Stone Anvil
 item.bwm:anvil_granite.name=Multipurpose Stone Anvil
@@ -11,3 +11,6 @@ tile.bwm:anvil_iron_plated.name=Refined Plating Anvil
 item.bwm:anvil_iron_plated.name=Refined Plating Anvil
 container.anvil_iron_plated=Refined Plating Anvil
 inv.anvil_iron_plated.name=Refined Plating Anvil
+
+gui.pyrotech.jei.category.anvil.granite=Multipurpose Stone Anvil
+gui.pyrotech.jei.category.anvil.ironclad=Refined Plating Anvil

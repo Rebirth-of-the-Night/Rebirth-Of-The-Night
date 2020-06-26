@@ -183,22 +183,12 @@ mods.jei.JEI.removeAndHide(<dungeontactics:ironlinks>);
 mods.ltt.LootTable.removeGlobalItem("ironlinks");
 
 
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_hoe>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_axe>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_pickaxe>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_shovel>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_pickaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:engineers_wrench_steel>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_boots>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_leggings>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_chestplate>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_helmet>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_shield>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_cestus>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_knife>);
-mods.jei.JEI.removeAndHide(<dungeontactics:steel_cutlass>);
-//mods.jei.JEI.removeAndHide(<dungeontactics:steel_sword>);
-recipes.remove(<dungeontactics:steel_sword>);
+recipes.remove(<dungeontactics:steel_cutlass>);
+recipes.remove(<dungeontactics:steel_sword>); //Trans Sword
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_hammer>);

@@ -11,6 +11,8 @@ mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget
 mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
 mods.betterwithmods.Mill.remove([<betterwithmods:material:44>]);
 
+//Cattail Flour
+mods.betterwithmods.Mill.addRecipe([<biomesoplenty:plant_1:4>],[<betterwithmods:raw_pastry:3>]);
 //Magic Powder
 mods.betterwithmods.Mill.builder()
 .buildRecipe([<bountifulbaubles:spectralsilt>], [<dungeontactics:magic_powder>*2])

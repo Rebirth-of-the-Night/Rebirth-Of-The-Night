@@ -26,6 +26,18 @@ recipes.addShaped("benign_rope", rope*2,
   [dfiber,dfiber],
   [dfiber,dfiber]]);
   
+val cattail = <biomesoplenty:plant_1:4>; 
+val wicker = <betterwithmods:wicker>;
+val driedf = <pyrotech:material:13>;
+
+recipes.addShaped("wicker1", wicker*2,
+  [[cattail,cattail],
+  [cattail,cattail]]);
+  
+recipes.addShaped("wicker2", wicker*2,
+  [[driedf,driedf,driedf],
+  [driedf,driedf,driedf]]);
+  
 recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers");
 recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
 [<betterwithmods:rope>]);
@@ -54,7 +66,12 @@ recipes.addShaped("Wind Sail Siding", <betterwithmods:material:11>,
   [[cloth,cloth,cloth],
   [cloth,cloth,cloth],
   [siding,siding,siding]]);  
-
+//Turntable uses Moulding
+//recipes.remove(<betterwithmods:single_machine:3>);
+//recipes.addShaped("turntable", <betterwithmods:single_machine:3>,
+//  [[<betterwithmods:moulding_wood>,<betterwithmods:moulding_wood>,<betterwithmods:moulding_wood>],
+//  [<ore:stone>,<minecraft:clock>,<ore:stone>],
+//  [<ore:stone>,<ore:gearWood>,<ore:stone>]]);
 //Vine Trap + Mossy
 recipes.remove(<betterwithmods:vine_trap>);
 recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,

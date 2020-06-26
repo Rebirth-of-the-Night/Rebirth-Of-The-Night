@@ -18,6 +18,8 @@ val sfcolor = Color.fromHex("535052") as Color;
 val sfs = MaterialSystem.getMaterialBuilder().setName("Soul Forged Steel").setColor(sfcolor).build();
 val onyxalloycolor = Color.fromHex("280606") as Color;
 val onyxalloy = MaterialSystem.getMaterialBuilder().setName("Onyx Alloy").setColor(onyxalloycolor).build();
+val moltenstonecolor = Color.fromHex("280606") as Color;
+val moltenstone = MaterialSystem.getMaterialBuilder().setName("Coade Stone").setColor(moltenstonecolor).build();
 
 //MISC PARTS
 copper.registerParts(["nugget","molten"] as string[]);
@@ -26,6 +28,7 @@ mythril.registerParts(["nugget","molten"] as string[]);
 viridium.registerParts(["nugget","molten"] as string[]);
 sfs.registerParts(["molten"] as string[]);
 onyxalloy.registerParts(["molten"] as string[]);
+moltenstone.registerParts(["molten"] as string[]);
 
 var molten_soul = VanillaFactory.createFluid("flowing_spirits", Color.fromHex("4390F5"));
 molten_soul.density = 1200;
