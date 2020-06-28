@@ -444,10 +444,53 @@ mods.aether_legacy.Enchanter.registerEnchantment(<netherex:frosted_amedian_shove
 mods.aether_legacy.Enchanter.registerEnchantment(<netherex:frosted_amedian_hoe>, 9600);
 mods.aether_legacy.Enchanter.registerEnchantment(<netherex:frosted_amedian_sword>, 9600);
 
-//Epic Weapons
-mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:sludge_wand>, 12000);
+//Ironroot
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_helmet>, 5300);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_chestplate>, 5300);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_leggings>, 5300);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_boots>, 5300);
 
-//Legendary Weapons
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_pickaxe>, 6000);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_axe>, 6000);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_shovel>, 6000);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_hoe>, 6000);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:ironwood_sword>, 6000);
+
+//Steeleaf
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_helmet>, 6000);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_chestplate>, 6000);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_leggings>, 6000);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_boots>, 6000);
+
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_pickaxe>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_axe>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_shovel>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_hoe>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:steeleaf_sword>, 7700);
+
+//Fiery Iron
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_helmet>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_chestplate>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_leggings>, 7700);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_boots>, 7700);
+
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_pickaxe>, 9600);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_axe>, 9600);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_shovel>, 9600);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_hoe>, 9600);
+mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_sword>, 9600);
+
+//Epic Quality
+mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:sludge_wand>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:bonesword>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:war>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_desert_staff>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_staff>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<spartanweaponry:crossbow_wood>, 12000);
+mods.aether_legacy.Enchanter.registerEnchantment(<rats:black_death_mask>, 12000);
+
+//Legendary Quality
+mods.aether_legacy.Enchanter.registerEnchantment(<betteranimalsplus:hirschgeistskullwearable>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:notch_hammer>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<endreborn:ender_sword>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:hippogryph_sword>, 32200);
@@ -477,17 +520,20 @@ mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:aethers_guard>, 3220
 mods.aether_legacy.Enchanter.registerEnchantment(<rats:plague_scythe>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:wither_bane>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:crystaline_blade>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:piranhalauncher>, 32200);
 
 //Relics-Godly
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_aqueous>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_candy>, 28800);
+mods.aether_legacy.Enchanter.registerEnchantment(<atop:amethyst_sword>, 28800);
+mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:steel_sword>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 240);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:dawn_star>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:silver_sword>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:eye_end_blade>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 32200);
-mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:steel_sword>, 28800);
+mods.aether_legacy.Enchanter.registerEnchantment(<bountifulbaubles:shieldankh>, 32200);
 
 
 //Special
