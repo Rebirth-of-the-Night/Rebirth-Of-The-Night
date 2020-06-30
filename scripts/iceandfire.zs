@@ -68,3 +68,16 @@ recipes.addShaped("Siren Flute", <iceandfire:siren_flute>, [
    [<iceandfire:shiny_scales>, <iceandfire:siren_tear>, <iceandfire:shiny_scales>],
    [<iceandfire:shiny_scales>, <iceandfire:dragon_flute>, <iceandfire:shiny_scales>], 
    [<iceandfire:shiny_scales>, <contenttweaker:fae_rune>.anyDamage().transformDamage(), <iceandfire:shiny_scales>]]);
+
+recipes.remove(<iceandfire:dread_stone>);
+recipes.addShaped("dread_stone",<iceandfire:dread_stone>,[
+    [<ore:stone>,<ore:stone>,<ore:stone>],
+    [<ore:stone>,<iceandfire:dread_shard>,<ore:stone>],
+    [<ore:stone>,<ore:stone>,<ore:stone>]
+]);
+
+recipes.remove(<iceandfire:dragon_stick>);
+recipes.addShaped("dragon_command_staff",<iceandfire:dragon_stick>,[
+    [<iceandfire:dragon_skull:*>],
+    [<spartanweaponry:material:1>]
+]);
