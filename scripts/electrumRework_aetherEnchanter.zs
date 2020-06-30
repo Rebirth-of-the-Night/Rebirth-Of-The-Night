@@ -475,9 +475,6 @@ mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_leggings>
 mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_boots>, 7700);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_pickaxe>, 9600);
-mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_axe>, 9600);
-mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_shovel>, 9600);
-mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_hoe>, 9600);
 mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_sword>, 9600);
 
 //Epic Quality
@@ -525,7 +522,6 @@ mods.aether_legacy.Enchanter.registerEnchantment(<mod_lavacow:piranhalauncher>, 
 //Relics-Godly
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_aqueous>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:relic_candy>, 28800);
-mods.aether_legacy.Enchanter.registerEnchantment(<atop:amethyst_sword>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:steel_sword>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanweaponry:katana_wood>.withTag({display: {Name: "Wrapped Stick"}}), 240);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}), 32200);
