@@ -475,9 +475,6 @@ mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_leggings>
 mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_boots>, 7700);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_pickaxe>, 9600);
-mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_axe>, 9600);
-mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_shovel>, 9600);
-mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_hoe>, 9600);
 mods.aether_legacy.Enchanter.registerEnchantment(<twilightforest:fiery_sword>, 9600);
 
 //Epic Quality
