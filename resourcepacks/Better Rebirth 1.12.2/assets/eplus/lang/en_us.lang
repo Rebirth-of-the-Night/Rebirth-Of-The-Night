@@ -23,12 +23,12 @@ eplus.info.infinity=XP: ∞
 eplus.info.power=Discount: %.2f out of 30
 gui.eplus.info.noitem=Place an item in to see its available enchantments.
 gui.eplus.info.noench=No enchantments are available for this item.
-gui.eplus.info.tooexpensive=You need more XP to apply this enchantment.
+gui.eplus.info.tooexpensive=Not enough XP.
 
 eplus.info.tip.prefix=Tip: 
 eplus.info.tip.bonus=Bonus Tip: 
 eplus.info.tip.description=Hold %s over the enchantment slider for a description.
-eplus.info.tip.books=You can place bookshelves around to reduce the cost of enchantments.
+eplus.info.tip.books=You can place bookshelves around to reduce the cost of enchantments, but True Enchanting Books output more power.
 eplus.info.tip.treasure=Treasure enchantments require a floor of precious materials (gold blocks, iron blocks, etc), and daylight.
 eplus.info.tip.curse=Curses can only be modified near midnight on nights with a full moon.
 eplus.info.tip.storage=The True Enchanting Table will store its inventory like a chest.
@@ -89,6 +89,6 @@ enchantment.extrautils2.xu.boomereaperang=The boomerang will harvest crops.
 enchantment.randomthings.magnetic.desc=Moves mined items a bit closer to you.
 
 #JEI
-jei.eplus.advancedtable=This table can be used to enchant items with specific enchantments that you want.
+jei.eplus.advancedtable=Unlike the regular Enchanting Table, this table is fused with the power of mythril instead of lunar energy. You can use this table during the day and you can choose specific enchantments that you want. Treasure enchantments require a floor (9 blocks) of precious blocks (gold, iron, etc), and daylight. Curses can only be modified near midnight on nights with a full moon.
 jei.eplus.upgrade=Upgrades an existing enchanting table to the True Enchanting table, bolstered by the magic of mythril. Shift-right-click on an enchanting table to upgrade it.
-jei.eplus.decorative=These books are primarily decorative. They count as bookshelves for enchanting tables. They can also interact with comparators under the right circumstances.
+jei.eplus.decorative=True Enchanting Books output double the power of bookshelves for the True Enchanting Table. 15 of these surrounding a True Enchanting Table will give you the max discount of 30%. They can also interact with comparators under the right circumstances.
