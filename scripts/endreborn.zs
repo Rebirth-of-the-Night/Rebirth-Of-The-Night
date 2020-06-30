@@ -15,6 +15,8 @@ mods.jei.JEI.removeAndHide(<endreborn:block_end_forge>);
 mods.jei.JEI.removeAndHide(<endreborn:block_rune>);
 mods.jei.JEI.removeAndHide(<endreborn:item_world_mirror>);
 mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
+mods.jei.JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}));
+recipes.removeByRecipeName("endreborn:book");
 
 <endreborn:sword_shard>.addTooltip("Rare drop from End Guards");
 

@@ -39,7 +39,7 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 //Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
 
-//Biomes o'Plenty
+//Biomes o Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
 <biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
@@ -52,20 +52,23 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
 
-<golems:info_book>.displayName = "§bTome of Golemancy";
-<golems:info_book>.addTooltip(format.aqua("Guidebook"));
-<golems:info_book>.addTooltip("Fantastic golems and how to build them.");
-
 <betterwithmods:manual>.displayName = "§bMechanist's Journal";
 <betterwithmods:manual>.addTooltip(format.aqua("Guidebook"));
 <betterwithmods:manual>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
 
-<arcanearchives:tome_arcana>.displayName = "§bTome of Radiant Arcana";
+<arcanearchives:tome_arcana>.removeTooltip("(Provides documentation for Arcane Archives.)");
+<arcanearchives:tome_arcana:*>.displayName = "§bTome of Radiant Arcana";
 <arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
+<arcanearchives:tome_arcana>.addTooltip("How to store your items efficiently.");
 
 <rustic:book>.displayName = "§bAlmanac of the Farmer";
 <rustic:book>.addTooltip(format.aqua("Guidebook"));
-<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate efficiently.");
+<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate your home.");
+
+// removed these, leaving the following for now
+// <golems:info_book>.displayName = "§bTome of Golemancy";
+// <golems:info_book>.addTooltip(format.aqua("Guidebook"));
+// <golems:info_book>.addTooltip("Fantastic golems and how to build them.");
 
 // Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironroot Arming Sword";

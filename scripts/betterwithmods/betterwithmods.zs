@@ -21,6 +21,7 @@ recipes.removeByRecipeName("betterwithmods:piles/sand_0");
 recipes.removeByRecipeName("betterwithmods:piles/gravel");
 recipes.removeByRecipeName("betterwithmods:piles/red_sand_pile");
 recipes.removeByRecipeName("betterwithmods:piles/dirt_0");
+recipes.removeByRecipeName("betterwithmods:items/patchouli_manual");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);

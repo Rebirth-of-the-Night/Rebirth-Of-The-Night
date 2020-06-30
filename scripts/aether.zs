@@ -141,6 +141,7 @@ recipes.addShaped("quickgravisand", <quark:gravisand>*8,[
 mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_pickaxe>);
 mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_axe>);
 mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
+mods.jei.JEI.removeAndHide(<aether_legacy:lore_book>);
 
 recipes.remove(<atop:amethyst_pickaxe>);
 recipes.remove(<atop:amethyst_axe>);
