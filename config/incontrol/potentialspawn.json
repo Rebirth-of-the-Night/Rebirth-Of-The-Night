@@ -84,10 +84,33 @@
       }
     ]
   },
- 
+  
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "primitivemobs:goblin",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      }
+    ]
+  },
 
 
 //beneath
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "primitivemobs:goblin",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  
   {
     "dimension": 10,
     "mobs": [
