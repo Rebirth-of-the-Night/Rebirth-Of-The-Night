@@ -181,17 +181,20 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:cobblestone_wall:1>.displayName = "Moss Cobblestone Wall";
 <minecraft:stone:5>.displayName = "Gray Andesite";
 <minecraft:stone:6>.displayName = "Polished Gray Andesite";
-<minecraft:wooden_door>.displayName = "Wooden Door";
-<minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
-<minecraft:trapdoor>.displayName = "Wooden Trapdoor";
-<minecraft:boat>.displayName = "Wooden Boat";
-<minecraft:wooden_button>.displayName = "Wooden Button";
-<minecraft:bookshelf>.displayName = "Wooden Bookshelf";
-<minecraft:oak_stairs>.displayName = "Wooden Stairs";
-<minecraft:wooden_slab:*>.displayName = "Wooden Slab";
-<minecraft:fence>.displayName = "Wooden Fence";
-<minecraft:fence_gate>.displayName = "Wooden Fence Gate";
-<minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
+
+
+// wwhy? this is inconsistent
+// <minecraft:wooden_door>.displayName = "Wooden Door";
+// <minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
+// <minecraft:trapdoor>.displayName = "Wooden Trapdoor";
+// <minecraft:boat>.displayName = "Wooden Boat";
+// <minecraft:wooden_button>.displayName = "Wooden Button";
+// <minecraft:bookshelf>.displayName = "Wooden Bookshelf";
+// <minecraft:oak_stairs>.displayName = "Wooden Stairs";
+// <minecraft:wooden_slab:*>.displayName = "Wooden Slab";
+// <minecraft:fence>.displayName = "Wooden Fence";
+// <minecraft:fence_gate>.displayName = "Wooden Fence Gate";
+// <minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
 
 // Minecraft Future
 <futuremc:andesite_wall>.displayName = "Gray Andesite Wall";
