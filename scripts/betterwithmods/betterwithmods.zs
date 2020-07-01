@@ -2,13 +2,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-//Fix trapdoor recipes
-val skyplank = <aether_legacy:skyroot_plank>;
-recipes.remove(<aether_legacy:skyroot_trapdoor>);
-recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapdoor>*6,
-    [[null,null,null],
-    [skyplank,skyplank,skyplank],
-    [skyplank,skyplank,skyplank]]);
 recipes.removeByRecipeName("betterwithmods:quark/spruce_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/birch_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
@@ -146,6 +139,9 @@ mods.betterwithmods.Cauldron.addUnstoked([<betteranimalsplus:turkey_raw>],[<bett
 
 mods.betterwithmods.Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
 
+// fuckin book
+
+recipes.addShapeless("BWM Manual", <betterwithmods:manual>,[<betterwithmods:material>,<minecraft:book>]);
 
 //Horse Upgrades
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);

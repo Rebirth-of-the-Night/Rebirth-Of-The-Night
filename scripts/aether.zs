@@ -87,6 +87,14 @@ mods.ltt.LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:iron_bubble");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
 
+//Fix trapdoor recipes
+val skyplank = <aether_legacy:skyroot_plank>;
+recipes.remove(<aether_legacy:skyroot_trapdoor>);
+recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapdoor>*6,
+    [[null,null,null],
+    [skyplank,skyplank,skyplank],
+    [skyplank,skyplank,skyplank]]);
+
 var sand = <ore:sand>;
 var shard = <aether_legacy:ambrosium_shard>;
 var quicks = <aether_legacy:quicksoil>;
