@@ -1,5 +1,4 @@
 <bountifulbaubles:crowngold>.addTooltip("Used for summoning King Slime");
-<harvestersnight:harvester_scythe>.addTooltip("Its true power is yet to be unlocked...");
 
 #Eplus
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");

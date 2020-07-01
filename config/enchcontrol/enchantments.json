@@ -2936,7 +2936,9 @@
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
-    "items_list": [],
+    "items_list": [
+      "betterwithaddons:greatbow"
+    ],
     "description": []
   },
   {

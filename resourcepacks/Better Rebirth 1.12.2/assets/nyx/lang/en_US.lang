@@ -4,3 +4,6 @@ tile.nyx.lunar_water_cauldron.name=Cauldron of Lunar Water
 fluid.nyx.lunar_water=Lunar Water
 
 item.nyx.lunar_water_bottle.name=Lunar Water Bottle
+
+enchantment.nyx.lunar_edge.desc=
+enchantment.nyx.lunar_shield.desc=
