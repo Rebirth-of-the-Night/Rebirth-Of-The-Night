@@ -36,6 +36,11 @@ import crafttweaker.game.IGame;
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
+// Atlas
+<antiqueatlas:empty_antique_atlas>.displayName = "Empty Atlas";
+<antiqueatlas:antique_atlas>.displayName = "Atlas";
+
+
 //Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
 
