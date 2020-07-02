@@ -54,24 +54,24 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
+key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
 key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.toggleAutojump:0
-key_Toggle Magnetism Suppressor:49
+key_Toggle Magnetism Suppressor:0
 key_neat.keybind.toggle:0
 key_Difficulty Meter - Show:0
 key_Difficulty Meter - Show Always:0
-key_key.toastcontrol.clear:36
+key_key.toastcontrol.clear:0
 key_key.dismount:42
 key_smoothfont.key.guiOpen:0
 key_key.reveal:0
 key_dsurround.cfg.keybind.AnimaniaBadges:0
 key_AM Interface:0
-key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.toggleOverlay:0
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
 key_key.jei.toggleEditMode:0
@@ -87,18 +87,18 @@ key_key.blockdropstweaker.saveblockdrops:0
 key_key.blockdropstweaker.reloadblockdrops:0
 key_key.carry.desc:42
 key_key.dungeontactics.rocketjump.desc:57
-key_key.dungeontactics.shieldbash.desc:56
+key_key.dungeontactics.shieldbash.desc:0
 key_key.dungeontactics.trinket1.desc:0
 key_key.dungeontactics.trinket2.desc:0
 key_key.dungeontactics.trinket3.desc:0
-key_key.dungeontactics.trinket4.desc:47
+key_key.dungeontactics.trinket4.desc:0
 key_key.mod_lavacow.special:34
 key_FpsReducer.key.guiOpen:0
-key_waila.keybind.wailaconfig:82
-key_waila.keybind.wailadisplay:79
-key_waila.keybind.liquid:80
-key_waila.keybind.recipe:81
-key_waila.keybind.usage:75
+key_waila.keybind.wailaconfig:0
+key_waila.keybind.wailadisplay:0
+key_waila.keybind.liquid:0
+key_waila.keybind.recipe:0
+key_waila.keybind.usage:0
 key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
 key_key.dragon_down:45
@@ -110,7 +110,7 @@ key_key.debugScreen:61
 key_key.narrator:0
 key_key.trashslot.toggle:0
 key_key.trashslot.delete:211
-key_key.trashslot.deleteAll:211:SHIFT
+key_key.trashslot.deleteAll:0
 key_Profile GUI:0
 key_key.keyExtraCraftin:0
 key_key.keyExtraInvo:0
