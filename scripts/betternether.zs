@@ -4,6 +4,9 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+mods.jei.JEI.removeAndHide(<betternether:netherrack_furance>);
+
+
 recipes.removeByRecipeName("betternether:stalagnate_workbench");
 recipes.removeByRecipeName("betternether:stalagnate_stick");
 recipes.removeByRecipeName("betternether:stalagnate_planks_trapdoor");
