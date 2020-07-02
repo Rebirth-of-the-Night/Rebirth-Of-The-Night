@@ -187,7 +187,7 @@
 <dungeontactics:lantern_magic>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 
-<extraalchemy:potion_ring>.addTooltip("Consumes 3 or 6 xp every 30 seconds while active, depending on potion strength.");
+<extraalchemy:potion_ring>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
 <dungeontactics:magic_pouch>.addTooltip("Right-click to open.");
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
 
