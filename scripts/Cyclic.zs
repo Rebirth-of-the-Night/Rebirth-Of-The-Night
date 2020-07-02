@@ -7,8 +7,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 
 //Removed items
-mods.jei.JEI.removeAndHide(<cyclicmagic:wireless_transmitter>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:wireless_receiver>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_fragile_auto>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:item_pipe_sort>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:item_pipe>);
