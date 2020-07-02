@@ -36,10 +36,15 @@ import crafttweaker.game.IGame;
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
+// Atlas
+<antiqueatlas:empty_antique_atlas>.displayName = "Empty Atlas";
+<antiqueatlas:antique_atlas>.displayName = "Atlas";
+
+
 //Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
 
-//Biomes o'Plenty
+//Biomes o Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
 <biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
@@ -52,20 +57,23 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
 
-<golems:info_book>.displayName = "§bTome of Golemancy";
-<golems:info_book>.addTooltip(format.aqua("Guidebook"));
-<golems:info_book>.addTooltip("Fantastic golems and how to build them.");
-
 <betterwithmods:manual>.displayName = "§bMechanist's Journal";
 <betterwithmods:manual>.addTooltip(format.aqua("Guidebook"));
 <betterwithmods:manual>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
 
-<arcanearchives:tome_arcana>.displayName = "§bTome of Radiant Arcana";
+<arcanearchives:tome_arcana>.removeTooltip("(Provides documentation for Arcane Archives.)");
+<arcanearchives:tome_arcana:*>.displayName = "§bTome of Radiant Arcana";
 <arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
+<arcanearchives:tome_arcana>.addTooltip("How to store your items efficiently.");
 
 <rustic:book>.displayName = "§bAlmanac of the Farmer";
 <rustic:book>.addTooltip(format.aqua("Guidebook"));
-<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate efficiently.");
+<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate your home.");
+
+// removed these, leaving the following for now
+// <golems:info_book>.displayName = "§bTome of Golemancy";
+// <golems:info_book>.addTooltip(format.aqua("Guidebook"));
+// <golems:info_book>.addTooltip("Fantastic golems and how to build them.");
 
 // Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironroot Arming Sword";
@@ -173,17 +181,20 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:cobblestone_wall:1>.displayName = "Moss Cobblestone Wall";
 <minecraft:stone:5>.displayName = "Gray Andesite";
 <minecraft:stone:6>.displayName = "Polished Gray Andesite";
-<minecraft:wooden_door>.displayName = "Wooden Door";
-<minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
-<minecraft:trapdoor>.displayName = "Wooden Trapdoor";
-<minecraft:boat>.displayName = "Wooden Boat";
-<minecraft:wooden_button>.displayName = "Wooden Button";
-<minecraft:bookshelf>.displayName = "Wooden Bookshelf";
-<minecraft:oak_stairs>.displayName = "Wooden Stairs";
-<minecraft:wooden_slab:*>.displayName = "Wooden Slab";
-<minecraft:fence>.displayName = "Wooden Fence";
-<minecraft:fence_gate>.displayName = "Wooden Fence Gate";
-<minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
+
+
+// wwhy? this is inconsistent
+// <minecraft:wooden_door>.displayName = "Wooden Door";
+// <minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
+// <minecraft:trapdoor>.displayName = "Wooden Trapdoor";
+// <minecraft:boat>.displayName = "Wooden Boat";
+// <minecraft:wooden_button>.displayName = "Wooden Button";
+// <minecraft:bookshelf>.displayName = "Wooden Bookshelf";
+// <minecraft:oak_stairs>.displayName = "Wooden Stairs";
+// <minecraft:wooden_slab:*>.displayName = "Wooden Slab";
+// <minecraft:fence>.displayName = "Wooden Fence";
+// <minecraft:fence_gate>.displayName = "Wooden Fence Gate";
+// <minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
 
 // Minecraft Future
 <futuremc:andesite_wall>.displayName = "Gray Andesite Wall";

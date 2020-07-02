@@ -26,7 +26,26 @@
 	"onjoin": true,
     "potion": ["minecraft:fire_resistance,100000,0"]
   },
-
+  
+// goblin mace nerf
+{
+	"mob": "primitivemobs:goblin",
+	"onjoin": true,
+	"seesky": false,
+	"maxlight": 7,
+	"helditem": ["7=dungeontactics:sharp_stick", "7=spartanweaponry:club_wood", "4=spartanweaponry:hammer_copper", "4=spartanweaponry:saber_iron", "3=spartanweaponry:saber_bronze", "1=primitivemobs:goblin_mace", "4=minecraft:wooden_pickaxe", "4=minecraft:stone_pickaxe", "4=animania:carving_knife", "2=mod_lavacow:tooth_dagger", "4=spartanfire:dagger_jungle_venom", "4=spartanfire:dagger_desert_venom"],
+	"maxcount": {
+        "amount": 50,
+        "perplayer": true
+    },
+	"result": "allow"
+  },
+{
+	"mob": "primitivemobs:goblin",
+	"helditem": "primitivemobs:goblin_mace",
+	"result": "deny"
+  },
+ 
 // boss buff time!
 {
     "mob": "minecraft:wither",

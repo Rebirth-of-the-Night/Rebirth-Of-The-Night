@@ -237,6 +237,9 @@ mods.jei.JEI.addDescription(dung,"Gross? No, it's nature being useful! Obtained 
 mods.jei.JEI.addDescription(<betterwithmods:breeding_harness>, "...");
 
 /* Decorative Blocks */
+mods.jei.JEI.addDescription(<minecraft:bed:*>, ["With some bits of padding and a little carpentry, one can create a place to lay their head, finding peaceful sleep until the glorious dawn."]);
+mods.jei.JEI.addDescription(<aether_legacy:skyroot_bed:*>, ["By adding some Skyroot Planks to a bed, one can even find rest in the Aether."]);
+
 mods.jei.JEI.addDescription(<minecraft:purpur_block>, ["One of the most distinctive types of Ender architecture, favored for endermites as burrows to pupate into shulkers.","Long ago, the shulkers were easily controlled… but now, what remains of the Ender empire cannot prevent the pests from infesting their cities."]);
 mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block that creates a magical updrift if one flies over it with an elytra!");
 mods.jei.JEI.addDescription(<minecraft:end_stone>,"Some have seen this paradimensional stone floating around in the Overworld. Legends claim this stone to be the most common soil in the home of the Enderpeople, although it was described as covered with vibrant purple grass and flora.");

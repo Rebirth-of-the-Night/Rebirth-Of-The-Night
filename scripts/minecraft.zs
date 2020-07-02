@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.data.IData;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -130,6 +131,47 @@ recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
     [<ore:stickWood>,<ore:nuggetIron>|<contenttweaker:material_part:6>,<minecraft:string>]
 ]);
 
+recipes.remove(<chutes:chute_wood>);
+recipes.addShaped("wooden_chute",<chutes:chute_wood>*16,[
+    [null,<ore:barkWood>,null],
+    [<ore:barkWood>,null,<ore:barkWood>],
+    [null,<ore:barkWood>,null]
+]);
+
+// Rebirth of the Bed
+
+recipes.remove(<minecraft:bed:*>);
+
+var moulding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+
+recipes.addShaped("Rebirth_of_the_Bed",<minecraft:bed>,[
+    [<minecraft:carpet:*>,<minecraft:carpet:*>,<betterwithmods:material:41>],
+    [<ore:blockWool>,<betterwithmods:aesthetic:9>,<ore:blockWool>],
+    [moulding_wood,<ore:slabWood>,moulding_wood]
+]);
+
+var BedColors = <minecraft:bed:0>|<minecraft:bed:1>|<minecraft:bed:2>|<minecraft:bed:3>|<minecraft:bed:4>|<minecraft:bed:5>|<minecraft:bed:6>|<minecraft:bed:7>|<minecraft:bed:8>|<minecraft:bed:9>|<minecraft:bed:10>|<minecraft:bed:11>|<minecraft:bed:12>|<minecraft:bed:13>|<minecraft:bed:14>|<minecraft:bed:15>;
+
+recipes.addShapeless("white_bed",<minecraft:bed:0>,[BedColors,<ore:dyeWhite>]);
+recipes.addShapeless("orange_bed",<minecraft:bed:1>,[BedColors,<ore:dyeOrange>]);
+recipes.addShapeless("magenta_bed",<minecraft:bed:2>,[BedColors,<ore:dyeMagenta>]);
+recipes.addShapeless("light_blue_bed",<minecraft:bed:3>,[BedColors,<ore:dyeLightBlue>]);
+recipes.addShapeless("yellow_bed",<minecraft:bed:4>,[BedColors,<ore:dyeYellow>]);
+recipes.addShapeless("lime_bed",<minecraft:bed:5>,[BedColors,<ore:dyeLime>]);
+recipes.addShapeless("pink_bed",<minecraft:bed:6>,[BedColors,<ore:dyePink>]);
+recipes.addShapeless("gray_bed",<minecraft:bed:7>,[BedColors,<ore:dyeGray>]);
+recipes.addShapeless("light_gray_bed",<minecraft:bed:8>,[BedColors,<ore:dyeLightGray>]);
+recipes.addShapeless("cyan_bed",<minecraft:bed:9>,[BedColors,<ore:dyeCyan>]);
+recipes.addShapeless("purple_bed",<minecraft:bed:10>,[BedColors,<ore:dyePurple>]);
+recipes.addShapeless("blue_bed",<minecraft:bed:11>,[BedColors,<ore:dyeBlue>]);
+recipes.addShapeless("brown_bed",<minecraft:bed:12>,[BedColors,<ore:dyeBrown>]);
+recipes.addShapeless("green_bed",<minecraft:bed:13>,[BedColors,<ore:dyeGreen>]);
+recipes.addShapeless("red_bed",<minecraft:bed:14>,[BedColors,<ore:dyeRed>]);
+recipes.addShapeless("black_bed",<minecraft:bed:15>,[BedColors,<ore:dyeBlack>]);
+
+recipes.removeByRecipeName("aether_legacy_addon:white_skyroot_bed");
+
+
 
 // Rail Overhaul
 
@@ -150,12 +192,7 @@ recipes.addShaped("steelrail",<minecraft:rail>*32,[
     [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>]
 ]);
 
-recipes.remove(<chutes:chute_wood>);
-recipes.addShaped("wooden_chute",<chutes:chute_wood>*16,[
-    [null,<ore:barkWood>,null],
-    [<ore:barkWood>,null,<ore:barkWood>],
-    [null,<ore:barkWood>,null]
-]);
+
 
 // other tin uses
 recipes.remove(<sereneseasons:season_clock>);
