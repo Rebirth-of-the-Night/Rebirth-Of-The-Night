@@ -226,4 +226,4 @@ mods.betterwithmods.HeatRegistry.addHeatSource(<futuremc:campfire>, 1);
 */
 mods.betterwithmods.HeatRegistry.addHeatSource(<betternether:cincinnasite_fire_bowl>, 1);
 mods.betterwithmods.HeatRegistry.addHeatSource(<arcanearchives:brazier_of_hoarding>, 1);
-// mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraft:fire>, 1);
+mods.betterwithmods.HeatRegistry.addHeatSource(<blockstate:minecraft:fire>, 1);

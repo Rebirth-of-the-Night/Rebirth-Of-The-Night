@@ -4,11 +4,8 @@ setDescription("Die by dragon fire.")
 
 addParent("triumph:advancements/deaths/root")
 
-criteria = addCriteria("dragon fire", "minecraft:entity_killed_player")
-criteria.setEntityType("iceandfire:firedragon")
 criteria = addCriteria("Fire", "triumph:player_death")
-criteria.isFire(true)
-addRequirements(["dragon fire", "Fire"])
+criteria.damageType("dragon_fire")
 
 hideLines()
 setHidden(true)
