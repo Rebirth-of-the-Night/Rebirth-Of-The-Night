@@ -146,6 +146,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <iceandfire:podium:0>.displayName = "Wooden Podium";
 <iceandfire:stymphalian_bird_dagger>.displayName = "Stymphalian Knife";
 
+// End Reborn
+<endreborn:catalyst>.displayName = "Obsidian Dust";
+<endreborn:catalyst>.removeTooltip("catalyst");
+
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 <cyclicmagic:horse_upgrade_variant>.displayName = "Variable Haw";

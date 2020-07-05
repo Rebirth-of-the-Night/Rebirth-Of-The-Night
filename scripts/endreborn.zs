@@ -40,6 +40,7 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_endreborn_block_
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium_ore");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:wolframium_nugget");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_shovel_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_axe_wolframium");
@@ -85,6 +86,7 @@ mods.betterwithaddons.Infuser.addShaped(<endreborn:tool_magnifier>, [
 
 
 mods.jei.JEI.removeAndHide(<endreborn:item_ingot_wolframium>);
+mods.jei.JEI.removeAndHide(<endreborn:wolframium_nugget>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_wolframium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_sword_wolframium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_wolframium>);
