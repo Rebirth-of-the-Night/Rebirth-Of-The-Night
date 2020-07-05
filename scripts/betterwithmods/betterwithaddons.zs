@@ -226,9 +226,9 @@ recipes.addShaped(<betterwithaddons:ancestry_bottle>, [[null, null, null],[null,
 
 //INFUSER
 recipes.addShaped(<betterwithaddons:ancestry_infuser>, [
-[<betternether:cincinnasite>, <contenttweaker:soul_orb>, <betternether:cincinnasite>],
-[<bountifulbaubles:spectralsilt>, <minecraft:carpet:10>, <bountifulbaubles:spectralsilt>], 
-[<betternether:cincinnasite>, <minecraft:enchanting_table>, <betternether:cincinnasite>]]);
+[<contenttweaker:vis_speck>, <betterwithaddons:ancestry_bottle>, <contenttweaker:vis_speck>],
+[<minecraft:gold_ingot>, <minecraft:carpet:10>, <minecraft:gold_ingot>], 
+[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
 mods.betterwithaddons.Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
 [<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>],
