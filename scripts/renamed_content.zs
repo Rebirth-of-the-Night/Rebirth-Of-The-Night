@@ -149,6 +149,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // End Reborn
 <endreborn:catalyst>.displayName = "Obsidian Dust";
 <endreborn:catalyst>.removeTooltip("catalyst");
+<endreborn:food_ender_flesh>.displayName = "Ender Flesh";
 
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";

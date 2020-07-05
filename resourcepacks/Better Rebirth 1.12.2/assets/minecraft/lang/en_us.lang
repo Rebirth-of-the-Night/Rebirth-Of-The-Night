@@ -7,6 +7,7 @@ screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to p
 tile.bed.noSleep=You can't sleep during the day, bloodmoons, invasions, and thunderstorms.
 
 entity.Slime.name=Lime Slime
+entity.EnderCrystal.name=Ender Crystal
 
 item.bucket.name=Quality Bucket
 item.bucketWater.name=Quality Water Bucket
