@@ -874,7 +874,7 @@ recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
 
 recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
 	[<ore:hideTanned>,<ore:durableFiber>, <ore:hideTanned>],
-    	[<ore:hideTanned>, <contenttweaker:order_rune>.anyDamage().transformDamage(), <ore:hideTanned>],
+    	[<ore:hideTanned>, <contenttweaker:vis_speck>, <ore:hideTanned>],
     	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
 ]);
 
@@ -883,7 +883,7 @@ recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
 
 recipes.remove(<minecraft:enchanting_table>);
 
-recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<ore:gemDiamond>, <contenttweaker:luna_orb>, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],[<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
 // Charset Materials
 mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
