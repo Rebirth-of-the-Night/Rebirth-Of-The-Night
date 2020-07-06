@@ -192,76 +192,6 @@ mindQuintessenceB.add(
     <rustic:book>
 );
 
-// Balance A - Ying - For every ore value in Ying, there must be a thematically-opposite ore value in Yang. Example, YingCold and YangHot
-val balanceYingQuintessenceA = <ore:balanceYingQuintessenceA>; //fire items
-balanceYingQuintessenceA.addAll(
-    <ore:fireQuintessence>
-);
-
-val balanceYingQuintessenceB = <ore:balanceYingQuintessenceB>; //day items
-balanceYingQuintessenceB.addAll(
-    <ore:solarQuintessence>
-);
-
-/* val balanceYingQuintessenceB = <ore:balanceYingQuintessenceB>; //light items
-balanceYingQuintessenceB.add(
-    <minecraft:torch>,
-    <aether_legacy:ambrosium_torch>,
-    <arcanearchives:quartz_sliver>,
-    <glaretorch:itemglaretorchsmall>,
-    <glaretorch:itemglaretorch>,
-    <glaretorch:itemglaretorchlarge>,
-    <glaretorch:itemglaretorchlarge2>,
-    <twilightforest:Torchberries>,
-    <minecraft:glowstone_dust>,
-    <betterwithaddons:wheatmat:0>
-) */
-
-val balanceYingQuintessenceC = <ore:balanceYingQuintessenceC>; //holy items
-balanceYingQuintessenceC.addAll(
-    <ore:soulQuintessenceA>
-);
-
-val balanceYingQuintessenceD = <ore:balanceYingQuintessenceD>; //order items
-balanceYingQuintessenceD.addAll(<ore:orderQuintessenceA>);
-balanceYingQuintessenceD.addAll(<ore:orderQuintessenceB>);
-
-// Balance B - Yang
-val balanceYangQuintessenceA = <ore:balanceYangQuintessenceA>; // cold items
-balanceYangQuintessenceA.add(
-    <aether_legacy:aercloud>,
-    <mod_lavacow:frozenthigh>,
-    <minecraft:ice>,
-    <minecraft:packed_ice>,
-    <aether_legacy:icestone>,
-    <biomesoplenty:hard_ice>,
-    <mod_lavacow:shattered_ice>,
-    <futuremc:blue_ice>,
-    <iceandfire:dragon_ice>,
-    <netherex:frost_rod>,
-    <quark:biome_cobblestone:1>
-);
-
-val balanceYangQuintessenceB = <ore:balanceYangQuintessenceB>; // night items
-balanceYangQuintessenceB.addAll(
-    <ore:lunarQuintessence>
-);
-
-/* val balanceYangQuintessenceB = <ore:balanceYangQuintessenceB>; // night/dark items
-balanceYangQuintessenceB.add(
-    <>
-)
-*/
-
-val balanceYangQuintessenceC = <ore:balanceYangQuintessenceC>; // evil/unholy items
-balanceYangQuintessenceC.addAll(
-    <ore:soulQuintessenceB>
-);
-
-val balanceYangQuintessenceD = <ore:balanceYangQuintessenceD>; // chaos items
-balanceYangQuintessenceD.addAll(<ore:chaosQuintessenceA>);
-balanceYangQuintessenceD.addAll(<ore:chaosQuintessenceB>);
-
 // Creation A - The spark of life - items that may be used to give an artificial creation/automoton "life" (gears, heart, fire, etc)
 val creationQuintessenceA = <ore:creationQuintessenceA>;
 
@@ -543,6 +473,74 @@ deathQuintessenceB.add(
     <mod_lavacow:canerottenmeat>
 );
 
+// Balance A - Ying - For every ore value in Ying, there must be a thematically-opposite ore value in Yang. Example, YingCold and YangHot
+val balanceYingQuintessenceA = <ore:balanceYingQuintessenceA>; //fire items
+balanceYingQuintessenceA.addAll(
+    <ore:fireQuintessence>
+);
+
+val balanceYingQuintessenceB = <ore:balanceYingQuintessenceB>; //day items
+balanceYingQuintessenceB.addAll(
+    <ore:solarQuintessence>
+);
+
+val balanceYingQuintessenceC = <ore:balanceYingQuintessenceC>; //holy items
+balanceYingQuintessenceC.addAll(
+    <ore:soulQuintessenceA>
+);
+
+val balanceYingQuintessenceD = <ore:balanceYingQuintessenceD>; //order items
+balanceYingQuintessenceD.addAll(<ore:orderQuintessenceA>);
+balanceYingQuintessenceD.addAll(<ore:orderQuintessenceB>);
+
+
+/* val balanceYingQuintessenceB = <ore:balanceYingQuintessenceB>; //light items
+balanceYingQuintessenceB.add(
+    <minecraft:torch>,
+    <aether_legacy:ambrosium_torch>,
+    <arcanearchives:quartz_sliver>,
+    <glaretorch:itemglaretorchsmall>,
+    <glaretorch:itemglaretorch>,
+    <glaretorch:itemglaretorchlarge>,
+    <glaretorch:itemglaretorchlarge2>,
+    <twilightforest:Torchberries>,
+    <minecraft:glowstone_dust>,
+    <betterwithaddons:wheatmat:0>
+) */
+
+
+// Balance B - Yang
+val balanceYangQuintessenceA = <ore:balanceYangQuintessenceA>; // cold items
+balanceYangQuintessenceA.add(
+    <aether_legacy:aercloud>,
+    <mod_lavacow:frozenthigh>,
+    <minecraft:ice>,
+    <minecraft:packed_ice>,
+    <aether_legacy:icestone>,
+    <biomesoplenty:hard_ice>,
+    <mod_lavacow:shattered_ice>,
+    <futuremc:blue_ice>,
+    <iceandfire:dragon_ice>,
+    <netherex:frost_rod>,
+    <quark:biome_cobblestone:1>
+);
+
+val balanceYangQuintessenceB = <ore:balanceYangQuintessenceB>; // night items
+balanceYangQuintessenceB.addAll(<ore:lunarQuintessence>);
+
+val balanceYangQuintessenceC = <ore:balanceYangQuintessenceC>; // evil/unholy items
+balanceYangQuintessenceC.addAll(<ore:soulQuintessenceB>);
+
+val balanceYangQuintessenceD = <ore:balanceYangQuintessenceD>; // chaos items
+balanceYangQuintessenceD.addAll(<ore:chaosQuintessenceA>);
+balanceYangQuintessenceD.addAll(<ore:chaosQuintessenceB>);
+
+/* val balanceYangQuintessenceB = <ore:balanceYangQuintessenceB>; // night/dark items
+balanceYangQuintessenceB.add(
+    <>
+)
+*/
+
 ## MYSTICAL ##
 
 // Fae A - Mushrooms
@@ -806,50 +804,277 @@ endQuintessenceC.add(
 
 // Time - Unimplemented!!
 
-
 ##########################
-# Mundane Mortar (gold)  #
-# 1 MP per chance craft  #
-##########################
-
-//Mortar.addRecipe(String[] mortarTypes, IItemStack output, int duration, IItemStack secondaryOutput, float secondaryOutputChance, IIngredient[] inputs);
-//https://github.com/codetaylor/advancedmortars/blob/master/ZENSCRIPT.md
-
-## Earth Quintessence (Mundane) ##
-
-// Tier 1 items - 1% chance for MP
-//Mortar.addRecipe(["gold"], <contenttweaker:earth_quintessence>, 4, <dungeontactics:magic_powder> * 1, 0.01, [<ore:vComEarthQ>]);
-
-// Tier 2 items - 25% chance for MP
-
-// Tier 3 items - 50% chance for MP
-
-// Tier 4 items - 75% chance for MP
-
-// Tier 5 items - 100% chance for MP
-
-## Water Quintessence (Mundane) ##
-
-//Mortar.addRecipe(["gold"], <contenttweaker:earth_quintessence>, 4, <dungeontactics:magic_powder> * 1, 0.01, [<ore:listAllwater>]);
-
-
-
-//Mortar.addRecipe(["(mystical)"], <contenttweaker:nether_quintessence>, 4, <dungeontactics:magic_powder> * 1, 0.25, [<ore:netherQuintessenceA>, <ore:netherQuintessenceB>, <ore:netherQuintessenceC>]);
-
-
-##########################
-# -- Mortar (--)  #
-# - MP per chance craft  #
+# Mundane Mortar (Gold)  #
+# 5% Vis per craft       #
+# 8 int duration         #
 ##########################
 
-## --- Quintessence ##
+## Mundane Qs - 1 speck per chance craft ##
 
-// Tier 1 items - 1% chance for MP
+// Earth Quintessence
 
-// Tier 2 items - 25% chance for MP
+Mortar.addRecipe(["gold"], <contenttweaker:earth_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.05, [<ore:earthQuintessence>]);
 
-// Tier 3 items - 50% chance for MP
+// Fire Quintessence
 
-// Tier 4 items - 75% chance for MP
+Mortar.addRecipe(["gold"], <contenttweaker:fire_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.05, [<ore:fireQuintessence>]);
 
-// Tier 5 items - 100% chance for MP
+// Water Quintessence
+
+Mortar.addRecipe(["gold"], <contenttweaker:water_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.05, [<ore:waterQuintessence>]);
+
+// Air Quintessence
+
+Mortar.addRecipe(["gold"], <contenttweaker:air_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.05, [<ore:airQuintessence>]);
+
+// Lunar Quintessence
+
+Mortar.addRecipe(["gold"], <contenttweaker:luna_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.05, [<ore:lunarQuintessence>]);
+
+// Solar Quintessence
+
+Mortar.addRecipe(["gold"], <contenttweaker:sol_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.05, [<ore:solarQuintessence>]);
+
+
+##########################
+# Arcane Mortar (Wood)  #
+# 10% Vis per craft       #
+# 4 int duration         #
+##########################
+
+## Mundane Qs - 1 speck per chance craft ##
+
+// Earth Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:earth_quintessence>, 4, <contenttweaker:vis_speck> * 1, 0.10, [<ore:earthQuintessence>]);
+
+// Fire Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:fire_quintessence>, 4, <contenttweaker:vis_speck> * 1, 0.10, [<ore:fireQuintessence>]);
+
+// Water Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:water_quintessence>, 4, <contenttweaker:vis_speck> * 1, 0.10, [<ore:waterQuintessence>]);
+
+// Air Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:air_quintessence>, 4, <contenttweaker:vis_speck> * 1, 0.10, [<ore:airQuintessence>]);
+
+// Lunar Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:luna_quintessence>, 4, <contenttweaker:vis_speck> * 1, 0.10, [<ore:lunarQuintessence>]);
+
+// Solar Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:sol_quintessence>, 4, <contenttweaker:vis_speck> * 1, 0.10, [<ore:solarQuintessence>]);
+
+## Arcane Qs - 2 speck per chance craft ##
+
+// Chaos Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:chaos_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:chaosQuintessenceA>, <ore:chaosQuintessenceB>]);
+
+// Mind Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:mind_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:mindQuintessenceA>, <ore:mindQuintessenceB>]);
+
+// Creation Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:creation_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:creationQuintessenceA>, <ore:creationQuintessenceB>]);
+
+// Order Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:order_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:orderQuintessenceA>, <ore:orderQuintessenceB>]);
+
+// Nature Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:nature_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:natureQuintessenceA>, <ore:natureQuintessenceB>]);
+
+// Illusion Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:illusion_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:illusionQuintessenceA>, <ore:illusionQuintessenceB>]);
+
+// Transformation Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:trans_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:transformationQuintessenceA>, <ore:transformationQuintessenceB>]);
+
+// Knowledge Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:knowledge_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
+
+// Disintegration Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:disint_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:disintegrationQuintessenceA>, <ore:disintegrationQuintessenceB>]);
+
+// Strength Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:strength_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:strengthQuintessenceA>, <ore:strengthQuintessenceB>]);
+
+// Poison Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:poison_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:poisonQuintessenceA>, <ore:poisonQuintessenceB>]);
+
+// Energy Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:energy_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:energyQuintessenceA>, <ore:energyQuintessenceB>]);
+
+// Life Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:life_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:lifeQuintessenceA>, <ore:lifeQuintessenceB>]);
+
+// Soul Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:soul_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:soulQuintessenceA>, <ore:soulQuintessenceB>]);
+
+// Death Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:death_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:deathQuintessenceA>, <ore:deathQuintessenceB>]);
+
+// Balance Quintessence
+
+Mortar.addRecipe(["wood"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:balanceYingQuintessenceA>, <ore:balanceYangQuintessenceA>]);
+
+Mortar.addRecipe(["wood"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:balanceYingQuintessenceB>, <ore:balanceYangQuintessenceB>]);
+
+Mortar.addRecipe(["wood"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:balanceYingQuintessenceC>, <ore:balanceYangQuintessenceC>]);
+
+Mortar.addRecipe(["wood"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:balanceYingQuintessenceD>, <ore:balanceYangQuintessenceD>]);
+
+##########################
+# Mystical Mortar (Iron) #
+# 15% Vis per craft      #
+# 2 int duration         #
+##########################
+
+## Mundane Qs - 1 speck per chance craft ##
+
+// Earth Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:earth_quintessence>, 2, <contenttweaker:vis_speck> * 1, 0.15, [<ore:earthQuintessence>]);
+
+// Fire Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:fire_quintessence>, 2, <contenttweaker:vis_speck> * 1, 0.15, [<ore:fireQuintessence>]);
+
+// Water Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:water_quintessence>, 2, <contenttweaker:vis_speck> * 1, 0.15, [<ore:waterQuintessence>]);
+
+// Air Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:air_quintessence>, 2, <contenttweaker:vis_speck> * 1, 0.15, [<ore:airQuintessence>]);
+
+// Lunar Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:luna_quintessence>, 2, <contenttweaker:vis_speck> * 1, 0.15, [<ore:lunarQuintessence>]);
+
+// Solar Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:sol_quintessence>, 2, <contenttweaker:vis_speck> * 1, 0.15, [<ore:solarQuintessence>]);
+
+## Arcane Qs - 2 speck per chance craft ##
+
+// Chaos Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:chaos_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:chaosQuintessenceA>, <ore:chaosQuintessenceB>]);
+
+// Mind Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:mind_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:mindQuintessenceA>, <ore:mindQuintessenceB>]);
+
+// Creation Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:creation_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:creationQuintessenceA>, <ore:creationQuintessenceB>]);
+
+// Order Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:order_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:orderQuintessenceA>, <ore:orderQuintessenceB>]);
+
+// Nature Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:nature_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:natureQuintessenceA>, <ore:natureQuintessenceB>]);
+
+// Illusion Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:illusion_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:illusionQuintessenceA>, <ore:illusionQuintessenceB>]);
+
+// Transformation Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:trans_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:transformationQuintessenceA>, <ore:transformationQuintessenceB>]);
+
+// Knowledge Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:knowledge_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
+
+// Disintegration Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:disint_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:disintegrationQuintessenceA>, <ore:disintegrationQuintessenceB>]);
+
+// Strength Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:strength_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:strengthQuintessenceA>, <ore:strengthQuintessenceB>]);
+
+// Poison Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:poison_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:poisonQuintessenceA>, <ore:poisonQuintessenceB>]);
+
+// Energy Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:energy_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:energyQuintessenceA>, <ore:energyQuintessenceB>]);
+
+// Life Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:life_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:lifeQuintessenceA>, <ore:lifeQuintessenceB>]);
+
+// Soul Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:soul_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:soulQuintessenceA>, <ore:soulQuintessenceB>]);
+
+// Death Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:death_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:deathQuintessenceA>, <ore:deathQuintessenceB>]);
+
+// Balance Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:balanceYingQuintessenceA>, <ore:balanceYangQuintessenceA>]);
+
+Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:balanceYingQuintessenceB>, <ore:balanceYangQuintessenceB>]);
+
+Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:balanceYingQuintessenceC>, <ore:balanceYangQuintessenceC>]);
+
+Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:balanceYingQuintessenceD>, <ore:balanceYangQuintessenceD>]);
+
+## Mystical Qs - 3 speck per chance craft ##
+
+// Fae Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:fae_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:faeQuintessenceA>, <ore:faeQuintessenceB>, <ore:faeQuintessenceC>]);
+
+// Holding Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:holding_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:holdingQuintessenceA>, <ore:holdingQuintessenceB>, <ore:holdingQuintessenceC>]);
+
+// Plague Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:plague_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:plagueQuintessenceA>, <ore:plagueQuintessenceB>, <ore:plagueQuintessenceC>]);
+
+// Draconic Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:draconic_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:draconicQuintessenceA>, <ore:draconicQuintessenceB>, <ore:draconicQuintessenceC>]);
+
+// Aether Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:aether_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:aetherQuintessenceA>, <ore:aetherQuintessenceB>, <ore:aetherQuintessenceC>]);
+
+// Nether Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:nether_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:netherQuintessenceA>, <ore:netherQuintessenceB>, <ore:netherQuintessenceC>]);
+
+// Arcana Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:arcane_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:arcanaQuintessenceA>, <ore:arcanaQuintessenceB>, <ore:arcanaQuintessenceC>]);
+
+// End Quintessence
+
+Mortar.addRecipe(["iron"], <contenttweaker:end_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:endQuintessenceA>, <ore:endQuintessenceB>, <ore:endQuintessenceC>]);
