@@ -838,8 +838,8 @@ Mortar.addRecipe(["gold"], <contenttweaker:sol_quintessence>, 8, <contenttweaker
 
 
 ##########################
-# Arcane Mortar (Wood)  #
-# 10% Vis per craft       #
+# Arcane Mortar (Wood)   #
+# 10% Vis per craft      #
 # 4 int duration         #
 ##########################
 
@@ -1078,3 +1078,20 @@ Mortar.addRecipe(["iron"], <contenttweaker:arcane_quintessence>, 2, <contenttwea
 // End Quintessence
 
 Mortar.addRecipe(["iron"], <contenttweaker:end_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:endQuintessenceA>, <ore:endQuintessenceB>, <ore:endQuintessenceC>]);
+
+
+##################
+# Mortar Recipes #
+##################
+
+// Mundane Mortar
+recipes.remove(<advancedmortars:mortar:4>);
+recipes.addShaped("mundane mortar", <advancedmortars:mortar:4>, [[null, <spartanweaponry:material:0>, null],[<minecraft:gold_ingot>, <minecraft:flint>, <minecraft:gold_ingot>], [<minecraft:dye:4>, <minecraft:gold_ingot>, <minecraft:dye:4>]]);
+
+// Arcane Mortar
+recipes.remove(<advancedmortars:mortar:0>);
+recipes.addShaped("arcane mortar", <advancedmortars:mortar:0>, [[<contenttweaker:vis_speck>, <aether_legacy:skyroot_stick>, <contenttweaker:vis_speck>],[<aether_legacy:enchanted_gravitite>, <minecraft:diamond>, <aether_legacy:enchanted_gravitite>], [<betternether:cincinnasite>, <aether_legacy:enchanted_gravitite>, <betternether:cincinnasite>]]);
+
+// Mystical Mortar
+recipes.remove(<advancedmortars:mortar:2>);
+recipes.addShaped("mystical mortar", <advancedmortars:mortar:2>, [[<contenttweaker:vis_sliver>, <simpleores:mythril_rod>, <contenttweaker:vis_sliver>],[<simpleores:mythril_ingot>, <nyx:comet_shard>, <simpleores:mythril_ingot>], [<nyx:fallen_star>, <simpleores:mythril_ingot>, <nyx:fallen_star>]]);
