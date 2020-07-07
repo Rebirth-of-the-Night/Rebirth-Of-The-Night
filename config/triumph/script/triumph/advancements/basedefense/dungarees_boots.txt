@@ -1,0 +1,25 @@
+setIcon(<dungeontactics:engineer_dungarees>)
+setTitle("Engineer's Dungarees")
+setDescription("A must-have for working with base defenses!")
+
+addParent("triumph:advancements/basedefense/caltrops")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Gold boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:golden_boots")
+
+criteria = addCriteria("Iron boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_boots")
+
+criteria = addCriteria("Diamond boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_boots")
+
+criteria = addCriteria("Steel boots", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_boots")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,156)

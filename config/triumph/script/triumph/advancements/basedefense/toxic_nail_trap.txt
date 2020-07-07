@@ -8,4 +8,4 @@ criteria = addCriteria("Toxic Nail Trap", "minecraft:inventory_changed")
 criteria.addItem(<minetraps:toxic_nail_trap>)
 
 alwaysVisible()
-setPos(-207,-33)
+setPos(-204,-33)
