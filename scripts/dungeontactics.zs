@@ -395,6 +395,12 @@ recipes.addShapedMirrored("Iron Ring", <dungeontactics:iron_ring>,[
     [null, ironnugget, ironnugget]
 ]);
 
+recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
+	[<ore:ingotSteel>],
+    [<ore:ingotSteel>],
+    [<spartanweaponry:material>]
+]);
+
 recipes.remove(<dungeontactics:tunnelling_device>);
 recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
 	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],

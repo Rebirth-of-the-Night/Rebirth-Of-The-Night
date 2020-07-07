@@ -211,6 +211,11 @@ recipes.addShaped("masonry_stoneBricks", <minecraft:stonebrick:2>,
 recipes.addShaped("masonry_refractoryBricks", <pyrotech:refractory_brick_block>, 
 [[<pyrotech:material:5>, <pyrotech:material:5>],
 [<pyrotech:material:5>, <pyrotech:material:5>]]);
+recipes.addShaped("refractoryBlock", <contenttweaker:unfiredrefractory>, 
+[[<pyrotech:material:4>, <pyrotech:material:4>],
+[<pyrotech:material:4>, <pyrotech:material:4>]]);
+recipes.addShapeless("refractoryfromblock", <pyrotech:material:4>*4,[<contenttweaker:unfiredrefractory>]);
+furnace.addRecipe(<contenttweaker:firedrefractory>, <contenttweaker:unfiredrefractory>);
 recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
  [[stoneBrick,null,stoneBrick],
@@ -263,5 +268,11 @@ recipes.addShaped("iron_sledgehammer", <pyrotech:iron_hammer>,
  [[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
   [<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
   [null,<ore:stickWood>,null]]);
+recipes.addShaped("steel_sledgehammer", <pyrotech:flint_hammer>,
+ [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+  [<ore:ingotSteel>,<ore:stickWood>,<ore:ingotSteel>],
+  [null,<ore:stickWood>,null]]);
+recipes.addShaped("mythril_sledgehammer", <pyrotech:bone_hammer>,
+ [[<simpleores:mythril_rod>,<pyrotech:diamond_hammer>,<simpleores:mythril_rod>]]);
 recipes.addShaped("onyx_sledgehammer", <pyrotech:obsidian_hammer>,
  [[<simpleores:onyx_rod>,<pyrotech:diamond_hammer>,<simpleores:onyx_rod>]]);

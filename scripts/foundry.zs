@@ -14,12 +14,14 @@ mB means miniBucket, forge's liquid metric unit
 144 mB = 1 ingot
 288 mB = 1 ore block
 1 bucket = 6 ingots, 8 nuggets, 8 mB
+
+1 ore block = 192 mb (ingot + 1/3 extra)
 */
 
 //heat source
 
-//mods.foundry.Heating.addStateSource(<blockstate:betterwithmods:stoked_flame>, 1500);
-//mods.foundry.Heating.addStateSource(<blockstate:betterwithmods:creative_generator>, 2500);
+mods.foundry.Heating.addStateSource(<blockstate:betterwithmods:stoked_flame>, 1500);
+mods.foundry.Heating.addStateSource(<blockstate:betterwithmods:creative_generator>, 2500);
 
 //recipes
 mods.jei.JEI.removeAndHide(<foundry:componentblock>);
@@ -392,7 +394,7 @@ mods.foundry.Casting.addRecipe(<simpleores:adamantium_sword>, <liquid:viridium>*
 mods.foundry.Casting.addRecipe(<simpleores:mythril_sword>, <liquid:mythril>*((144*4)-(16*2*4)), <foundry:mold:10>, <minecraft:blaze_rod>);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_sword>, <liquid:onyx_alloy>*((144*4)-(16*2*6)), <foundry:mold:10>, <minecraft:blaze_rod>);//onyx
 
-/*/ PICKAXE //
+// PICKAXE //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*432, <foundry:mold:8>, <minecraft:stick>*2);//iron
 mods.foundry.Casting.addRecipe(<minecraft:iron_pickaxe>, <liquid:iron>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);
 mods.foundry.Casting.removeRecipe(<liquid:gold>*432, <foundry:mold:8>, <minecraft:stick>*2);//gold
@@ -448,7 +450,6 @@ mods.foundry.Casting.addRecipe(<simpleores:mythril_hoe>, <liquid:mythril>*((144*
 mods.foundry.Casting.addRecipe(<simpleores:onyx_hoe>, <liquid:onyx_alloy>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//onyx
 mods.foundry.Casting.addRecipe(<betterwithmods:steel_hoe>, <liquid:soul_forged_steel>*((144*2)-(16*2*2)), <foundry:mold:12>, <betterwithmods:material:36>*3);//SFS
 
-*/
 // DAGGER //
 mods.foundry.Casting.addRecipe(<spartanweaponry:dagger_copper>, <liquid:copper>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>);//copper
 mods.foundry.Casting.addRecipe(<spartanweaponry:dagger_iron>, <liquid:iron>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>);//iron
@@ -567,7 +568,7 @@ mods.foundry.Casting.addRecipe(<spartanweaponry:javelin_silver>, <liquid:silver>
 mods.foundry.Casting.addRecipe(<spartanweaponry:javelin_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:javelin_mold>, <spartanweaponry:material:1>);//steel
 mods.foundry.Casting.addRecipe(<spartancompat:javelin_mythril>, <liquid:mythril>*((144*2)-(16*2*2)), <contenttweaker:javelin_mold>, <minecraft:blaze_rod>*2);//mythril
 
-/*/ BOOMERANG //
+// BOOMERANG //
 mods.foundry.Casting.addRecipe(<spartanweaponry:boomerang_iron>, <liquid:iron>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//iron
 mods.foundry.Casting.addRecipe(<spartanweaponry:boomerang_gold>, <liquid:gold>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//gold
 mods.foundry.Casting.addRecipe(<spartanweaponry:boomerang_bronze>, <liquid:bronze>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//bronze
@@ -575,7 +576,6 @@ mods.foundry.Casting.addRecipe(<spartanweaponry:boomerang_silver>, <liquid:silve
 mods.foundry.Casting.addRecipe(<spartanweaponry:boomerang_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//steel
 mods.foundry.Casting.addRecipe(<spartancompat:boomerang_mythril>, <liquid:mythril>*(144-(16*2)), <contenttweaker:boomerang_mold>, <minecraft:blaze_rod>*4);//mythril
 
-*/
 // BATTLEAXE //
 mods.foundry.Casting.addRecipe(<spartanweaponry:battleaxe_iron>, <liquid:iron>*((144*5)-(16*2*5)), <contenttweaker:battleaxe_mold>, <spartanweaponry:material>*2);//iron
 mods.foundry.Casting.addRecipe(<spartanweaponry:battleaxe_gold>, <liquid:gold>*((144*5)-(16*2*5)), <contenttweaker:battleaxe_mold>, <spartanweaponry:material>*2);//gold

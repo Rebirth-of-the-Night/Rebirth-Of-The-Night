@@ -723,6 +723,8 @@ nitrogen.addAll(<ore:listAllmeat>);
 nitrogen.addAll(<ore:listAllbeefraw>);
 nitrogen.addAll(<ore:listAllmeatraw>);
 
+val foundryclay = <ore:foundryClayblock>;
+foundryclay.add(<contenttweaker:unfiredrefractory>);
 
 val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);

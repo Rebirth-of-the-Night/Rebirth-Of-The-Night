@@ -25,7 +25,7 @@ halite.register();
 //Unfired Refractory Crucible
 var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Iron>);
 crucible.setCreativeTab(<creativetab:buildingBlocks>);
-crucible.setBlockSoundType(<soundtype:stone>);
+crucible.setBlockSoundType(<soundtype:ground>);
 crucible.setFullBlock(false);
 crucible.register();
 
@@ -109,15 +109,25 @@ diamondfarlander.register();
 
 //Storage blocks
 var witheredblock = VanillaFactory.createBlock("witheredblock", <blockmaterial:Sand>);
-witheredblock.setWitherProof(true);
 witheredblock.setCreativeTab(<creativetab:buildingBlocks>);
 witheredblock.setBlockSoundType(<soundtype:sand>);
 witheredblock.setGravity(true);
 witheredblock.register();
 
 var starblock = VanillaFactory.createBlock("starblock", <blockmaterial:Glass>);
-starblock.setWitherProof(false);
 starblock.setCreativeTab(<creativetab:buildingBlocks>);
 starblock.setLightValue(8);
 starblock.setBlockSoundType(<soundtype:glass>);
 starblock.register();
+
+var unfiredrefractory = VanillaFactory.createBlock("unfiredrefractory", <blockmaterial:Ground>);
+unfiredrefractory.setCreativeTab(<creativetab:buildingBlocks>);
+unfiredrefractory.setBlockSoundType(<soundtype:ground>);
+unfiredrefractory.setToolClass("shovel");
+unfiredrefractory.register();
+
+var firedrefractory = VanillaFactory.createBlock("firedrefractory", <blockmaterial:Rock>);
+firedrefractory.setCreativeTab(<creativetab:buildingBlocks>);
+firedrefractory.setBlockSoundType(<soundtype:stone>);
+firedrefractory.setToolClass("pickaxe");
+firedrefractory.register();

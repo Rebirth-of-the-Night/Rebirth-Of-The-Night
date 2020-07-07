@@ -302,6 +302,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
 <pyrotech:iron_hammer>.displayName = "Iron Sledgehammer";
 <pyrotech:diamond_hammer>.displayName = "Refined Sledgehammer";
+<pyrotech:bone_hammer>.displayName = "§6Mythril Sledgehammer";
 <pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
 <pyrotech:material:2>.displayName = "Dried Jute";
 <pyrotech:material>.displayName = "Big Pile of Ash Remains";

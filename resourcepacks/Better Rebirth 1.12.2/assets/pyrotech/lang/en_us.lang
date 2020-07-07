@@ -14,3 +14,10 @@ inv.anvil_iron_plated.name=Refined Plating Anvil
 
 gui.pyrotech.jei.category.anvil.granite=Multipurpose Stone Anvil
 gui.pyrotech.jei.category.anvil.ironclad=Refined Plating Anvil
+
+item.pyrotech.stone.hammer.name=Stone Sledgehammer
+item.pyrotech.flint.hammer.name=Steel Sledgehammer
+item.pyrotech.bone.hammer.name=Mythril Sledgehammer
+item.pyrotech.iron.hammer.name=Iron Sledgehammer
+item.pyrotech.diamond.hammer.name=Refined Sledgehammer
+item.pyrotech.obsidian.hammer.name=Onyx Sledgehammer
