@@ -114,9 +114,12 @@
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
 <contenttweaker:firedrefractory>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 
-<pyrotech:bucket_stone>.removeTooltip("Uses=");
+<pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
-//<pyrotech:living_tar>.removeTooltip();
+<pyrotech:coal_coke_block>.removeTooltip("Hold %s<SHIFT>%s for info.");
+<pyrotech:coal_coke_block>.removeTooltip("Efficiency:");
+<pyrotech:coal_coke_block>.removeTooltip("Bloomery:");
+<pyrotech:coal_coke_block>.removeTooltip("Wither Forge:");
 <pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
 
 #Progression
