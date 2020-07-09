@@ -4,7 +4,7 @@ setDescription("Complete the Walking Fortress set.")
 
 addParent("triumph:advancements/setbonuses/unstoppable")
 
-criteria = addCriteria("Plate Armor Helmet", "minecraft:inventory_changed")
+criteria = addCriteria("Wrought Helmet", "minecraft:inventory_changed")
 criteria.addItem("mowziesmobs:wrought_helmet")
 
 criteria = addCriteria("Plate Armor Chestplate", "minecraft:inventory_changed")
