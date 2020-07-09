@@ -147,7 +147,7 @@ criteria = addCriteria("tannedLeatherArmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/tannedLeatherArmor")
 
 criteria = addCriteria("tideguardian", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/tidequardian")
+criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/tideguardian")
 
 criteria = addCriteria("trollArmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/smashing/smashing")
