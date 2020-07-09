@@ -29,6 +29,7 @@
   
 // goblin mace nerf
 {
+	"dimension" : [0, 10],
 	"mob": "primitivemobs:goblin",
 	"onjoin": true,
 	"seesky": false,
@@ -41,6 +42,7 @@
 	"result": "allow"
   },
 {
+	"dimension" : [0, 10],
 	"mob": "primitivemobs:goblin",
 	"helditem": "primitivemobs:goblin_mace",
 	"result": "deny"

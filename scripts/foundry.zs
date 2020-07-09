@@ -19,9 +19,12 @@ mB means miniBucket, forge's liquid metric unit
 */
 
 //heat source
-
 mods.foundry.Heating.addStateSource(<blockstate:betterwithmods:stoked_flame>, 1500);
 mods.foundry.Heating.addStateSource(<blockstate:betterwithmods:creative_generator>, 2500);
+
+//burner heater fuel
+mods.foundry.BurnerHeater.clear();
+mods.foundry.BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 1200, 248);
 
 //recipes
 mods.jei.JEI.removeAndHide(<foundry:componentblock>);
