@@ -143,7 +143,7 @@ Dropt.list("clovers")
 Dropt.list("nest_grubs")
 
   .add(Dropt.rule()
-      .matchBlocks(["minecraftfuture:bee_nest"])
+      .matchBlocks(["futuremc:bee_nest"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(200)) // drops nothing if selected
