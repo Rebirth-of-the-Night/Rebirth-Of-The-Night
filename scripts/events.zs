@@ -1,6 +1,10 @@
 import crafttweaker.events.IEventManager;
+import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
+
+import crafttweaker.entity.IEntity;
+
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 
@@ -44,5 +48,22 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var poisonEffect = <potion:minecraft:poison>.makePotionEffect(40, 1) as IPotionEffect;
 		event.player.addPotionEffect(poisonEffect);
 		event.player.attackEntityFrom(<damageSource:CACTUS>, 4);
+	}
+});
+
+events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeathEvent) {
+	if (event.entityLivingBase.world.isRemote()) {
+		return;
+	}
+
+	print("EntityLivingDeath");
+	print("Name is " + event.entityLivingBase.definition.name);
+	print("Id is " + event.entityLivingBase.definition.id);
+
+	// Spirit spawning
+	if (event.entityLivingBase.definition.id == "specialmobs:hungryzombie") {
+		print("Is Hungry Zombie");
+		<entity:betterwithaddons:spirit>.spawnEntity(event.entityLivingBase.world, event.entityLivingBase.position);
+		print("Spawned spirit");
 	}
 });
