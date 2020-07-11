@@ -4,8 +4,8 @@ setDescription("Mine heart crystal ore")
 
 addParent("triumph:advancements/ores/diamond")
 
-criteria = addCriteria("Heart Crystal", "triumph:player_harvest_block")
-criteria.setBlock(<scalinghealth:crystalore>)
+criteria = addCriteria("Heart Crystal Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreHeartCrystal>)
 
 setFrameType("CHALLENGE")
 alwaysVisible()

@@ -25,7 +25,6 @@ mods.jei.JEI.removeAndHide(<dungeontactics:mithril_club>);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:mortar&pestle>);
 mods.jei.JEI.removeAndHide(<dungeontactics:soulgem>);
-mods.jei.JEI.removeAndHide(<dungeontactics:engineer_dungarees:2>);
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:gunpowder_tinydust>);
@@ -106,7 +105,7 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_glaive");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
-
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:mortar&pestle");
 
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
