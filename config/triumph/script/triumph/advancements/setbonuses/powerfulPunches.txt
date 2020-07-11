@@ -8,7 +8,7 @@ addParent("triumph:advancements/setbonuses/bronzearmor")
 criteria = addCriteria("Bronze Helmet", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_helmet")
 
-criteria = addCriteria("Bronze Chesplate", "minecraft:inventory_changed")
+criteria = addCriteria("Bronze Chestplate", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_chestplate")
 
 criteria = addCriteria("Bronze Leggings", "minecraft:inventory_changed")
@@ -17,7 +17,7 @@ criteria.addItem("atop:mud_leggings")
 criteria = addCriteria("Bronze Boots", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_boots")
 
-criteria = addCriteria("Mainhand", "minecraft:inventory_changed")
+criteria = addCriteria("Caestus", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:caestus_studded, count:2>)
 
 setPos(-332,42)
