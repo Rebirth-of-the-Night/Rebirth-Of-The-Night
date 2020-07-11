@@ -10,6 +10,8 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 			return;
 		}
 	}
+
+	// Ironberry potion effect fix
 	if (event.isPlayer & event.item.definition.id == <rustic:ironberries>.definition.id) {
 		event.player.clearActivePotions();
 		var weight = <potion:potioncore:weight>.makePotionEffect(200, 49, false, false) as IPotionEffect;
@@ -25,6 +27,8 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 		event.player.addPotionEffect(minfat);
 		event.player.addPotionEffect(weak);
 	}
+
+	// Mushroom stew bowl fix
 	if (event.isPlayer & event.item.definition.id == <minecraft:mushroom_stew>.definition.id) {
 		event.player.give(<minecraft:bowl>);
 	}
@@ -34,6 +38,8 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	if (event.world.isRemote()) {
 		return;
 	}
+
+	// Hawthorn bush effects
 	if (event.block.definition.id == "biomesoplenty:plant_0" & event.block.meta == 5) {
 		var poisonEffect = <potion:minecraft:poison>.makePotionEffect(40, 1) as IPotionEffect;
 		event.player.addPotionEffect(poisonEffect);
