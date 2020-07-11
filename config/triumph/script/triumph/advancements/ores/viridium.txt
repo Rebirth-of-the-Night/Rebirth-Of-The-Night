@@ -5,7 +5,7 @@ setDescription("Mine viridum ore")
 addParent("triumph:advancements/ores/diamond")
 
 criteria = addCriteria("Viridium Ore", "triumph:player_harvest_block")
-criteria.setBlock(<ore:oreAdamantium>)
+criteria.setBlock(<ore:oreViridium>)
 
 alwaysVisible()
 setPos(2,-36)

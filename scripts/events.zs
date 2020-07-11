@@ -1,6 +1,10 @@
 import crafttweaker.events.IEventManager;
+import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
+
+import crafttweaker.entity.IEntity;
+
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 
@@ -10,6 +14,8 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 			return;
 		}
 	}
+
+	// Ironberry potion effect fix
 	if (event.isPlayer & event.item.definition.id == <rustic:ironberries>.definition.id) {
 		event.player.clearActivePotions();
 		var weight = <potion:potioncore:weight>.makePotionEffect(200, 49, false, false) as IPotionEffect;
@@ -25,6 +31,8 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 		event.player.addPotionEffect(minfat);
 		event.player.addPotionEffect(weak);
 	}
+
+	// Mushroom stew bowl fix
 	if (event.isPlayer & event.item.definition.id == <minecraft:mushroom_stew>.definition.id) {
 		event.player.give(<minecraft:bowl>);
 	}
@@ -34,9 +42,28 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	if (event.world.isRemote()) {
 		return;
 	}
+
+	// Hawthorn bush effects
 	if (event.block.definition.id == "biomesoplenty:plant_0" & event.block.meta == 5) {
 		var poisonEffect = <potion:minecraft:poison>.makePotionEffect(40, 1) as IPotionEffect;
 		event.player.addPotionEffect(poisonEffect);
 		event.player.attackEntityFrom(<damageSource:CACTUS>, 4);
+	}
+});
+
+events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeathEvent) {
+	if (event.entityLivingBase.world.isRemote()) {
+		return;
+	}
+
+	print("EntityLivingDeath");
+	print("Name is " + event.entityLivingBase.definition.name);
+	print("Id is " + event.entityLivingBase.definition.id);
+
+	// Spirit spawning
+	if (event.entityLivingBase.definition.id == "specialmobs:hungryzombie") {
+		print("Is Hungry Zombie");
+		<entity:betterwithaddons:spirit>.spawnEntity(event.entityLivingBase.world, event.entityLivingBase.position);
+		print("Spawned spirit");
 	}
 });
