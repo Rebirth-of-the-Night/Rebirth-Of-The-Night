@@ -388,6 +388,31 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betteranimalsplus:fried_egg>.displayName = "Baked Egg";
 
 #Rare
+<dungeontactics:high_striker>.displayName = "§2High Striker";
+<dungeontactics:high_striker>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:wackerjab>.displayName = "§2Wackerjab";
+<dungeontactics:wackerjab>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:taser>.displayName = "§2Taser";
+<dungeontactics:taser>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:claws>.displayName = "§2Claws";
+<dungeontactics:claws>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:pirate_hook>.displayName = "§2Pirate Hook";
+<dungeontactics:pirate_hook>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:coin_cannon>.displayName = "§2Coin Cannon";
+<dungeontactics:coin_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:backfire_cannon>.displayName = "§2Backfire Cannon";
+<dungeontactics:backfire_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
+
+
+
+
+
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");

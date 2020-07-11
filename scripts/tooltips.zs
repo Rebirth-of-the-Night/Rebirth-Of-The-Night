@@ -1,5 +1,8 @@
 <bountifulbaubles:crowngold>.addTooltip("Used for summoning King Slime");
 
+
+<dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it");
+
 #Eplus
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");
 
