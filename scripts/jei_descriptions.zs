@@ -100,7 +100,7 @@ mods.jei.JEI.addDescription(<dungeontactics:taser>,"Fallen from above, only with
 mods.jei.JEI.addDescription(<dungeontactics:claws>,"Evoking the arts of ancestral tribes from long ago, these claws will feed their owner with the vital energy of others in exchange of the owner's own energy.");
 mods.jei.JEI.addDescription(<dungeontactics:lithen_scythe>,"The unique tool of a long forgotten being, one that had no desire to harm others. Redirects the vitality of its victims to the owner for a short period of time.");
 mods.jei.JEI.addDescription(<dungeontactics:pirate_hook>, "A symbol of avarice that will transform vital energy into solid matter, but only at the closest range where hate and damnation takes physical form.");
-mods.jei.JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit; will protect against some traps, like caltrops, clamp traps or landmines. Be sure to wear boots!");
+mods.jei.JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit; will protect against some traps, like clamp traps. Wear with gold, iron, or diamond boots for maximum protection from base defenses.");
 
 /* Ores and Ingots */
 val crudeSteelIngot = <dungeontactics:steel_ingot>;
