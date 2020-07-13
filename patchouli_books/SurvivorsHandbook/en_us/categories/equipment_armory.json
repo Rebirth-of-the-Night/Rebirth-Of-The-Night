@@ -1,0 +1,7 @@
+{
+  "name": "Armor and Weaponry",
+  "description": "description",
+  "icon": "minecraft:iron_sword",
+  "sortnum": 0,
+  "parent": "equipment"
+}

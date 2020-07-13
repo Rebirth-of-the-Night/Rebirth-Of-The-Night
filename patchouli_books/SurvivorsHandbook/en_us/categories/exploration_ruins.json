@@ -1,0 +1,7 @@
+{
+  "name": "Ruins",
+  "description": "Ruins descrip",
+  "icon": "minecraft:stonebrick:1",
+  "sortnum": 2,
+  "parent": "exploration"
+}

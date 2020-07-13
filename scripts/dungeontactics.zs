@@ -1,6 +1,61 @@
 import crafttweaker.item.IIngredient;
 
-mods.jei.JEI.addDescription(<dungeontactics:ducttape>,"Put a tool in your off-hand and the duct tape in your main hand. Right click to repair. Items can only be repaired with duct tape until they reach Duct Taped V");
+mods.jei.JEI.removeAndHide(<dungeontactics:brazier>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_iron>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_coal>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_blast>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_silver>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_gold>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_steel>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_mithril>);
+
+
+mods.jei.JEI.removeAndHide(<dungeontactics:wooden_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:bone_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:stone_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:iron_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:golden_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:steel_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:diamond_club>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mithril_club>);
+
+
+
+mods.jei.JEI.removeAndHide(<dungeontactics:mortar&pestle>);
+mods.jei.JEI.removeAndHide(<dungeontactics:soulgem>);
+
+
+mods.jei.JEI.removeAndHide(<dungeontactics:gunpowder_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:coal_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:iron_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:silver_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:steel_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:gold_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:mithril_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:tin_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:copper_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:aluminium_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:nickel_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:lead_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:platinum_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:tungsten_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:titanium_tinydust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:osmium_tinydust>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:coal_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:steel_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:aluminium_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:nickel_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:lead_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:platinum_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:tungsten_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:titanium_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:osmium_dust>);
+
+mods.jei.JEI.removeAndHide(<dungeontactics:alchemical_cauldron>);
+
 
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
 mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
@@ -50,11 +105,16 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_glaive");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
-
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:mortar&pestle");
 
 mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
+
+
+recipes.remove(<dungeontactics:potshot_ammo>);
+recipes.addShapeless("potshot",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
+
 
 <ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
 recipes.remove(<dungeontactics:rocket_pants>);
@@ -71,9 +131,9 @@ recipes.addShaped("bounce_boots",<dungeontactics:bounce_boots>,[
 
 recipes.remove(<dungeontactics:flight_goggles>);
 recipes.addShaped("flight_googles",<dungeontactics:flight_goggles>,[
-    [<ore:genericMetal>,<ore:durableFiber>,<ore:genericMetal>],
-    [<ore:durableFiber>,null,<ore:durableFiber>],
-    [<ore:enderpearl>,<contenttweaker:order_rune>.anyDamage().transformDamage(),<ore:enderpearl>]
+    [<ore:genericMetal>,null,<ore:genericMetal>],
+    [<minecraft:stained_glass_pane:3>,<ore:durableFiber>,<minecraft:stained_glass_pane:3>],
+    [<ore:genericMetal>,null,<ore:genericMetal>]
 ]);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);

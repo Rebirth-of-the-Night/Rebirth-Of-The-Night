@@ -74,6 +74,9 @@ criteria.setAdvancement("triumph:advancements/setbonuses/firedragonsteelsword")
 criteria = addCriteria("gladiolus", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/gladiolus")
 
+criteria = addCriteria("gladiator", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/gladiator")
+
 criteria = addCriteria("goldarmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/goldarmor")
 
@@ -147,7 +150,7 @@ criteria = addCriteria("tannedLeatherArmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/tannedLeatherArmor")
 
 criteria = addCriteria("tideguardian", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/tidequardian")
+criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/tideguardian")
 
 criteria = addCriteria("trollArmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/smashing/smashing")
@@ -167,11 +170,53 @@ criteria.setAdvancement("triumph:advancements/setbonuses/unstoppable")
 criteria = addCriteria("truelightsedge", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/truelightsedge")
 
-criteria = addCriteria("truedarkssedge", "triumph:completed_advancement")
+criteria = addCriteria("truedarksedge", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/truedarksedge")
 
 criteria = addCriteria("hellsinger", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/hellsinger")
+
+criteria = addCriteria("fortuneandglory", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/fortuneandglory/fortuneandglory")
+
+criteria = addCriteria("beyondspeed", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/beyondspeed")
+
+criteria = addCriteria("blueMagician", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/blueMagician")
+
+criteria = addCriteria("farmerLife", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/farmerLife")
+
+criteria = addCriteria("fullEarlyArmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/fullEarlyArmor")
+
+criteria = addCriteria("fullMidArmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/fullMidArmor")
+
+criteria = addCriteria("gravitite", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/gravitite")
+
+criteria = addCriteria("iwillnotwither", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/iwillnotwither")
+
+criteria = addCriteria("neptune", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/neptune")
+
+criteria = addCriteria("phoenix", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/phoenix")
+
+criteria = addCriteria("powerfulPunches", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/powerfulPunches")
+
+criteria = addCriteria("ultimateTank", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/ultimateTank")
+
+criteria = addCriteria("valkyrie", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/valkyrie")
+
+criteria = addCriteria("walkingfortress", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/walkingfortress")
 
 setFrameType("CHALLENGE")
 hideLines()

@@ -1,0 +1,7 @@
+{
+  "name": "Making a Shelter",
+  "description": "Shelter description",
+  "icon": "minecraft:wooden_door",
+  "sortnum": 0,
+  "parent": "survival"
+}

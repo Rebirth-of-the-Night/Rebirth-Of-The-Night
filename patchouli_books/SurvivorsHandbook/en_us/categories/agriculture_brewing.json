@@ -1,0 +1,7 @@
+{
+  "name": "Brewing",
+  "description": "Cheers mate",
+  "icon": "rustic:brewing_barrel",
+  "sortnum": 3,
+  "parent": "agriculture"
+}

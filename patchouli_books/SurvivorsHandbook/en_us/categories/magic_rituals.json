@@ -1,0 +1,7 @@
+{
+  "name": "Rituals",
+  "description": "Yabba dabba doo",
+  "icon": "minecraft:enchanting_table",
+  "sortnum": 3,
+  "parent": "magic"
+}

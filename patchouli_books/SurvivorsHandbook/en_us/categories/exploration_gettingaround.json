@@ -1,0 +1,7 @@
+{
+  "name": "Getting Around",
+  "description": "Planes trains automobile description",
+  "icon": "minecraft:saddle",
+  "sortnum": 1,
+  "parent": "exploration"
+}

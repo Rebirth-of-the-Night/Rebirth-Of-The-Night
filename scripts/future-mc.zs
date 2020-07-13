@@ -441,6 +441,10 @@ mods.futuremc.Smoker.addRecipe(<harvestcraft:rawtofenisonitem>,
 									  <harvestcraft:cookedtofenisonitem>);
 mods.futuremc.Smoker.addRecipe(<harvestcraft:rawtofuduckitem>, 
 									  <harvestcraft:cookedtofuduckitem>);
+var hcfish = [<harvestcraft:anchovyrawitem>,<harvestcraft:bassrawitem>,<harvestcraft:carprawitem>,<harvestcraft:catfishrawitem>,<harvestcraft:charrrawitem>,<harvestcraft:eelrawitem>,<harvestcraft:grouperrawitem>,<harvestcraft:herringrawitem>,<harvestcraft:mudfishrawitem>,<harvestcraft:perchrawitem>,<harvestcraft:snapperrawitem>,<harvestcraft:tilapiarawitem>,<harvestcraft:troutrawitem>,<harvestcraft:tunarawitem>,<harvestcraft:walleyerawitem>,<harvestcraft:greenheartfishitem>,<harvestcraft:sardinerawitem>] as IItemStack[];
+for fish in hcfish{
+	mods.futuremc.Smoker.addRecipe(fish,<minecraft:cooked_fish:0>);
+}
 
 
 /****** DT Potion Fish ******/
@@ -590,6 +594,9 @@ mods.futuremc.Campfire.addRecipe(<harvestcraft:rawtofenisonitem>,
 									    <harvestcraft:cookedtofenisonitem>, 600);
 mods.futuremc.Campfire.addRecipe(<harvestcraft:rawtofuduckitem>, 
 									    <harvestcraft:cookedtofuduckitem>, 600);
+for fish in hcfish{
+	mods.futuremc.Campfire.addRecipe(fish,<minecraft:cooked_fish:0>,600);
+}
 
 
 /****** DT Potion Fish ******/

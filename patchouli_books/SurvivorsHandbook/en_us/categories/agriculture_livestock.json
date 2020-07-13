@@ -1,0 +1,7 @@
+{
+  "name": "Livestock",
+  "description": "haha animania go baaa",
+  "icon": "minecraft:egg",
+  "sortnum": 2,
+  "parent": "agriculture"
+}
