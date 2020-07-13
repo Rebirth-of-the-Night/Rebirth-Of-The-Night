@@ -27,8 +27,8 @@ SoakingPot.removeRecipes(<minecraft:coal_block>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
-SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <liquid:flowing_spirits>*500, <nyx:lunar_water_bottle>, 8 * 60 * 20);
-SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:flowing_spirits>*950, <pyrotech:material:16>, 10 * 75 * 30);
+SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <liquid:lifeblood>*500, <nyx:lunar_water_bottle>, 8 * 60 * 20);
+SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:lifeblood>*950, <pyrotech:material:16>, 10 * 75 * 30);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
 SoakingPot.addRecipe("tarred_tar_hay", <betterwithmods:material:3>*5, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
 SoakingPot.addRecipe("white_concrete", <minecraft:concrete:0>*8, <liquid:water>*500, <minecraft:concrete_powder:0>*8, 5 * 60 * 20);
@@ -70,35 +70,38 @@ Burn.removeRecipes(<pyrotech:material:23>);
 Burn.createBuilder("molten_spirit_vanilla", <pyrotech:material:16>, "simpleores:mythril_ore")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setFluidProduced(<liquid:lifeblood> * 1000)
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
 Burn.createBuilder("molten_spirit_igneous", <pyrotech:material:16>, "undergroundbiomes:igneous_stone_simpleores_mythril_ore:*")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setFluidProduced(<liquid:lifeblood> * 1000)
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
 Burn.createBuilder("molten_spirit_metamorphic", <pyrotech:material:16>, "undergroundbiomes:metamorphic_stone_simpleores_mythril_ore:*")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setFluidProduced(<liquid:lifeblood> * 1000)
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
 Burn.createBuilder("molten_spirit_sedimentary", <pyrotech:material:16>, "undergroundbiomes:sedimentary_stone_simpleores_mythril_ore:*")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:flowing_spirits> * 1000)
+    .setFluidProduced(<liquid:lifeblood> * 1000)
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
-Burn.createBuilder("molten_spirit_onyx", <pyrotech:rock:0>, "simpleores:onyx_ore")
+Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "minecraft:end_stone")
     .setBurnStages(1)
-    .setTotalBurnTimeTicks(5 * 60 * 20)
-    .setFluidProduced(<liquid:flowing_spirits> * 2500)
-    .setRequiresRefractoryBlocks(true)
+    .setTotalBurnTimeTicks(1 * 60 * 20)
+    .setFluidProduced(<liquid:ender_slag> * 1000)
+	.setFailureChance(0.33)
+    .addFailureItem(<betterwithmods:material:39>) // ash
+    .addFailureItem(<betterwithmods:material:39>*2) // ash
+    .setRequiresRefractoryBlocks(false)
     .setFluidLevelAffectsFailureChance(false)
     .register();

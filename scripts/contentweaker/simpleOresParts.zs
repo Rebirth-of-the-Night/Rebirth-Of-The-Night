@@ -29,11 +29,3 @@ viridium.registerParts(["nugget","molten"] as string[]);
 sfs.registerParts(["molten"] as string[]);
 onyxalloy.registerParts(["molten"] as string[]);
 moltenstone.registerParts(["molten"] as string[]);
-
-var molten_soul = VanillaFactory.createFluid("flowing_spirits", Color.fromHex("4390F5"));
-molten_soul.density = 1200;
-molten_soul.gaseous = true;
-molten_soul.luminosity = 4;
-molten_soul.temperature = 400;
-molten_soul.viscosity = 1300;
-molten_soul.register();

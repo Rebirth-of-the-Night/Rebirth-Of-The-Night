@@ -100,7 +100,6 @@ furnace.remove(<pyrotech:material:15>);
 //Simplified recipes
 val stone = <ore:stone>;
 val stoneBrick = <pyrotech:material:16>;
-val clayBrick = <ore:ingotBrick>;
 val dry = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
@@ -132,10 +131,10 @@ recipes.addShaped("pyro_steel_anvil", <pyrotech:anvil_iron_plated>,
  [[<ore:plateSoulforgedSteel>],
   [<pyrotech:anvil_granite>]]);
 <pyrotech:anvil_iron_plated>.displayName = "Refined Plating Anvil";
-recipes.addShaped("pyro_brick_kiln", <pyrotech:brick_kiln>,
- [[clayBrick,clayBrick,clayBrick],
-  [clayBrick,<minecraft:furnace> | <pyrotech:stone_kiln>,clayBrick],
-  [clayBrick,<minecraft:brick_block>,clayBrick]]);
+recipes.addShaped("pyro_refractory_brick_kiln", <pyrotech:brick_kiln>,
+ [[<pyrotech:material:5>,<pyrotech:material:5>,<pyrotech:material:5>],
+  [<pyrotech:material:5>,<minecraft:furnace> | <pyrotech:stone_kiln>,<pyrotech:material:5>],
+  [<pyrotech:material:5>,<pyrotech:refractory_brick_block>,<pyrotech:material:5>]]);
 recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
  [[<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],

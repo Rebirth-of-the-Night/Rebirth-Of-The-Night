@@ -24,7 +24,7 @@ mods.foundry.Heating.addStateSource(<blockstate:betterwithmods:creative_generato
 
 //burner heater fuel
 mods.foundry.BurnerHeater.clear();
-mods.foundry.BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 1200, 248);
+mods.foundry.BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1800);
 
 //recipes
 mods.jei.JEI.removeAndHide(<foundry:componentblock>);
