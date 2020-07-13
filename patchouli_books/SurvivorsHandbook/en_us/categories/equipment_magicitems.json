@@ -1,0 +1,7 @@
+{
+  "name": "Magic Items",
+  "description": "Glittering gold, trinkets and baubles. Paid for in blood",
+  "icon": "cyclicmagic:evoker_fang",
+  "sortnum": 2,
+  "parent": "equipment"
+}

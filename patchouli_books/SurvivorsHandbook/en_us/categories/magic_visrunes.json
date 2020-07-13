@@ -1,0 +1,7 @@
+{
+  "name": "Vis and Runes",
+  "description": "vis and runes",
+  "icon": "minecraft:glowstone_dust",
+  "sortnum": 0,
+  "parent": "magic"
+}

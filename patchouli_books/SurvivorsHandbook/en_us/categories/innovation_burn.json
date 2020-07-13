@@ -1,0 +1,7 @@
+{
+  "name": "Burning and Heating",
+  "description": "I hope that you burn",
+  "icon": "minecraft:magma",
+  "sortnum": 2,
+  "parent": "innovation"
+}

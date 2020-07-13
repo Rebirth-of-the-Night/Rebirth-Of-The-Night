@@ -1,0 +1,7 @@
+{
+  "name": "Danger",
+  "description": "Threats lurk around every corner. How can I survive?",
+  "icon": "minecraft:skull",
+  "sortnum": 5,
+  "parent": "survival"
+}

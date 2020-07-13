@@ -1,0 +1,6 @@
+{
+  "name": "Equipment",
+  "description": "Armor, weapons, trinkets, potions, artifacts... I'll use anything it takes to keep myself alive.",
+  "icon": "minecraft:iron_sword",
+  "sortnum": 5
+}

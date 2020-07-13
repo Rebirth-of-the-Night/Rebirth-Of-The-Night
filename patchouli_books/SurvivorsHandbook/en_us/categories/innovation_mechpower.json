@@ -1,0 +1,7 @@
+{
+  "name": "Mechanical Power",
+  "description": "Torque [Construction Drilling Noise] Lewith",
+  "icon": "minecraft:coal",
+  "sortnum": 1,
+  "parent": "innovation"
+}

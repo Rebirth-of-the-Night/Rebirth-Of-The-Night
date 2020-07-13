@@ -1,0 +1,7 @@
+{
+  "name": "Cooking & Cuisine",
+  "description": "Anyone can cook",
+  "icon": "harvestcraft:potitem",
+  "sortnum": 2,
+  "parent": "agriculture"
+}

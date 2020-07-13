@@ -1,0 +1,7 @@
+{
+  "name": "Crops",
+  "description": "farmersonly.com",
+  "icon": "minecraft:farmland",
+  "sortnum": 0,
+  "parent": "agriculture"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Building Materials",
+  "description": "how hard are you uwu",
+  "icon": "minecraft:brick",
+  "sortnum": 1,
+  "parent": "construction"
+}
