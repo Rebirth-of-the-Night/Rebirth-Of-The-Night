@@ -58,7 +58,7 @@ val ignCobbleDef = <undergroundbiomes:igneous_cobble>.definition;
 val metaMossyDef = <undergroundbiomes:metamorphic_cobble_mossy>.definition;
 val metaCobbleDef = <undergroundbiomes:metamorphic_cobble>.definition;
 
-for i in 0 to 7 {
+for i in 0 to 8 {
     SoakingPot.addRecipe("igneous_cobble_to_mossy_"~i, ignMossyDef.makeStack(i), <liquid:water>*250, ignCobbleDef.makeStack(i), 7 * 60 * 20);
     SoakingPot.addRecipe("metamorphic_cobble_to_mossy_"~i, metaMossyDef.makeStack(i), <liquid:water>*250, metaCobbleDef.makeStack(i), 7 * 60 * 20);
 }

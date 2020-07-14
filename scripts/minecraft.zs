@@ -546,6 +546,9 @@ toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:skyroot_axe:*>,<aether
 val hammerTool = <ore:hammerTool>;
 hammerTool.addItems([<aether_legacy:notch_hammer:*>,<pyrotech:stone_hammer:*>,<pyrotech:iron_hammer:*>,<pyrotech:diamond_hammer:*>,<pyrotech:obsidian_hammer:*>]);
 
+val shears = <ore:shears>;
+shears.addItems([<minecraft:shears>, <ceramics:clay_shears>, <cyclicmagic:shears_obsidian>, <simpleores:mythril_shears>, <simpleores:adamantium_shears>, <simpleores:onyx_shears>]);
+
 val anvilAny = <ore:anvilAny>;
 anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
 
@@ -606,6 +609,9 @@ biotiteOre.add(<quark:biotite_ore>);
 
 val redstone = <ore:gemRedstone>;
 redstone.add(<minecraft:redstone>);
+
+val hellfireIngot = <ore:ingotHellfire>;
+hellfireIngot.addAll(<ore:ingotConcentratedHellfire>);
 
 val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);

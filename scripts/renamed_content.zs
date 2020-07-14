@@ -43,6 +43,7 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
 //Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
+<betterwithaddons:lattice:0>.displayName = "Iron Lattice Block";
 
 //Biomes o Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";

@@ -264,7 +264,6 @@ mods.jei.JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 seconds."
 mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger if a human walks over it. Perhaps humanity indeed carries the heaviest burden.");
 mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
 mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal either to the left or right.");
-mods.jei.JEI.addDescription(<quark:rain_detector>, "Will inmediately output a signal if it's raining or snowing.");
 mods.jei.JEI.addDescription(<minecraft:compass>,"Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints.");
 
 /* Mechanical, Defense, and Item Movement */
