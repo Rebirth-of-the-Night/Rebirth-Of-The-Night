@@ -121,4 +121,6 @@ tile.holystone_brick_slab.name=Holystone Brick Slab
 tile.aerogel_slab.name=Aerogel Slab
 
 tile.enchanter.name=Aetherium Capacitor
+tile.altar.name=Aetherium Capacitor
 container.aether_legacy.enchanter=Aetherium Capacitor
+container.aether_legacy.altar=Aetherium Capacitor
