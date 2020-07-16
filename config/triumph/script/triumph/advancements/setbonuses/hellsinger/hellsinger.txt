@@ -4,17 +4,17 @@ setDescription("Complete the Hellsinger set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria = addCriteria("Silver/Viridium Helmet", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/helmet")
-criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria = addCriteria("Silver/Viridium Chestplate", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/chestplate")
-criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria = addCriteria("Silver/Viridium Leggings", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/leggings")
-criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria = addCriteria("Silver/Viridium Boots", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/boots")
-criteria = addCriteria("Mainhand", "triumph:completed_advancement")
+criteria = addCriteria("Crossbow", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/mainhand")
-criteria = addCriteria("Offhand", "triumph:completed_advancement")
+criteria = addCriteria("Holy Stake", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/hellsinger/offhand")
 
 

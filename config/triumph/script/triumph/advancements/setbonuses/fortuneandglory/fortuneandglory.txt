@@ -4,16 +4,16 @@ setDescription("Complete the Fortune and Glory set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-criteria = addCriteria("Helmet", "minecraft:inventory_changed")
+criteria = addCriteria("Archaeologist Hat", "minecraft:inventory_changed")
 criteria.addItem("quark:archaeologist_hat")
 
-criteria = addCriteria("Chestplate", "minecraft:inventory_changed")
+criteria = addCriteria("Backpack", "minecraft:inventory_changed")
 criteria.addItem("quark:backpack")
 
-criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria = addCriteria("Any Leather Leggings", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/fortuneandglory/leggings")
 
-criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria = addCriteria("Any Leather Boots", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/fortuneandglory/boots")
 
 hideLines()

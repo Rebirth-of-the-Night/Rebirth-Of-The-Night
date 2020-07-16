@@ -1241,39 +1241,6 @@
       ]
     },
 
-
-    {
-      "name": "invasion_vermin_souls",
-      "wave_message": "§cOOPS! All Vermin Souls! (Hope you have fire resistance...)",
-      "conditions": [
-        {
-          "condition": "game_stages",
-          "game_stages": ["minedMythril"],
-          "match_mode": "all_of"
-        },
-        {
-          "condition": "random",
-          "weight": 7500
-        }
-      ],
-      "spawns": [
-        {
-          "entities": [
-            "rats:ratlantean_spirit"
-          ],
-          "count": 40,
-          "cmods": [
-            {
-              "cmod": "template",
-              "template": "invader_soldier"
-            },
-            {"cmod": "attribute_health","base_value": 10},
-            {"cmod": "xp", "base_value": 40},
-            {"cmod": "mob_drops", "loot_table": "verminLoot"}
-          ]
-        }
-      ]
-    },
     {
       "name": "invasion_legendary_undead",
       "wave_message": "§cA legendary undead horde is approaching!",

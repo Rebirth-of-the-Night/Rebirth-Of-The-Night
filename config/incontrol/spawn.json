@@ -29,20 +29,20 @@
   
 // goblin mace nerf
 {
-	"dimension" : [0, 10],
+	"dimension" : [0, 7, 10],
 	"mob": "primitivemobs:goblin",
 	"onjoin": true,
 	"seesky": false,
 	"maxlight": 7,
-	"helditem": ["7=dungeontactics:sharp_stick", "7=spartanweaponry:club_wood", "4=spartanweaponry:hammer_copper", "4=spartanweaponry:saber_iron", "3=spartanweaponry:saber_bronze", "1=primitivemobs:goblin_mace", "4=minecraft:wooden_pickaxe", "4=minecraft:stone_pickaxe", "4=animania:carving_knife", "2=mod_lavacow:tooth_dagger", "4=spartanfire:dagger_jungle_venom", "4=spartanfire:dagger_desert_venom"],
+	"helditem": ["2=spartanweaponry:club_wood", "4=spartanweaponry:saber_iron", "3=spartanweaponry:saber_bronze", "3=primitivemobs:goblin_mace", "4=minecraft:iron_pickaxe", "2=mod_lavacow:tooth_dagger", "4=spartanweaponry:hammer_iron", "4=spartanweaponry:mace_iron", "4=mod_lavacow:vespa_dagger", "1=mod_lavacow:bonesword"],
 	"maxcount": {
-        "amount": 50,
+        "amount": 30,
         "perplayer": true
     },
 	"result": "allow"
   },
 {
-	"dimension" : [0, 10],
+	"dimension" : [0, 7, 10],
 	"mob": "primitivemobs:goblin",
 	"helditem": "primitivemobs:goblin_mace",
 	"result": "deny"
@@ -52,7 +52,7 @@
 {
     "mob": "minecraft:wither",
 	"onjoin": true,
-    "potion": ["extraalchemy:effect.dislocation,50,0"],
+    "potion": ["extraalchemy:effect.dislocation,150,0"],
     "damagemultiply": 2
   },
 
@@ -2650,7 +2650,6 @@
 {
     "dimension": 4,
     "mob": "primitivemobs:harpy",
-    "gamestage": "killedHarvester",
 	"random": 0.50,
 	"maxlight": 15,
     "minlight": 0,
@@ -2669,8 +2668,7 @@
 {
     "dimension": 4,
     "mob": "iceandfire:stymphalianbird",
-    "gamestage": "killedHarvester",
-	"random": 0.03,
+	"random": 0.05,
 	"maxlight": 9,
     "minlight": 0,
     "maxcount": {
@@ -2691,7 +2689,7 @@
     "mob": "betterwithmods:bwm_jungle_spider",
 	"biome": ["jungle", "JungleHills", "jungleEdge", "Jungle M", "JungleEdge M", "Tropical Rainforest", "Tropical Island"],  
     "gamestage": "killedHarvester",
-	"random": 0.15,
+	"random": 0.75,
 	"seesky": true,
 	"minheight": 60,
 	"maxlight": 12,

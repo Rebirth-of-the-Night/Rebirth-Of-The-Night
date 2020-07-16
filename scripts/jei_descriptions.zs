@@ -264,7 +264,6 @@ mods.jei.JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 seconds."
 mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger if a human walks over it. Perhaps humanity indeed carries the heaviest burden.");
 mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
 mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal either to the left or right.");
-mods.jei.JEI.addDescription(<quark:rain_detector>, "Will inmediately output a signal if it's raining or snowing.");
 mods.jei.JEI.addDescription(<minecraft:compass>,"Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints.");
 
 /* Mechanical, Defense, and Item Movement */
@@ -304,6 +303,7 @@ mods.jei.JEI.addDescription(<quark:ancient_tome>,"Filled with arcane secrets fro
 mods.jei.JEI.addDescription(<qualitytools:reforging_station>,"Placing an item in the Reforging Station along with one piece of its primary material, such as an ingot, will change the item's quality. Many magical items can be reforged with Spectral Silt.");
 mods.jei.JEI.addDescription(<minecraft:enchanting_table>,"Can be upgraded with an Enchanting Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!");
 mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"With a generous amount of time and fuel, it can infuse or repair rarer weapons and tools, changing the item's quality in the process. Using electrum instead of ambrosium proves to be much more efficient.");
+mods.jei.JEI.addDescription(<disenchanter:disenchantmenttable>,"Disenchants the first enchantment off an item and onto a book, at the cost of durability. Place bookshelves around it like a normal enchantment table to lower the amount of durability taken.");
 
 
 /* Storage */
