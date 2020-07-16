@@ -16,12 +16,6 @@ coptinPebbles.register();
 //MISC PARTS
 bronze.registerParts(["ingot","nugget","molten"] as string[]);
 
-//ORE BLOCK
-var block = bronze.registerPart("block").getData();
-block.addDataValue("hardness", "4");
-block.addDataValue("resistance", "15");
-block.addDataValue("harvestTool", "pickaxe");
-
 //Lunarin Style Bronze Block
 var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);
 lunarin.setCreativeTab(<creativetab:buildingBlocks>);

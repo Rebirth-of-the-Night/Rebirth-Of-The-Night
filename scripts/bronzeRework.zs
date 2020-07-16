@@ -3,6 +3,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemCondition;
 import mods.vanillaanvilrepair.addRepairEntry;
 import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 #REMOVE copper and tin
 //copper

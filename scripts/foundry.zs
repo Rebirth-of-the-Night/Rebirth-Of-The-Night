@@ -112,8 +112,8 @@ mods.foundry.Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:stone>, 1373);
 mods.foundry.Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:cobblestone>, 1373);
 mods.foundry.Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:StoneHugeBrick>, 1373);
 mods.foundry.Melting.addRecipe(<liquid:coade_stone>*(144*4*8), <quark:sturdy_stone>, 1373);
-mods.foundry.Melting.addRecipe(<liquid:electrum>*144, <contenttweaker:material_part:12>, 1400);//electrum
-mods.foundry.Melting.addRecipe(<liquid:electrum>*(144*9), <contenttweaker:sub_block_holder_0:1>, 1400);
+mods.foundry.Melting.addRecipe(<liquid:electrum>*144, <ore:ingotElectrum>, 1400);//electrum
+mods.foundry.Melting.addRecipe(<liquid:electrum>*(144*9), <ore:blockElectrum>, 1400);
 mods.foundry.Melting.addRecipe(<liquid:electrum>*16, <contenttweaker:material_part:16>, 1400);
 mods.foundry.Melting.addRecipe(<liquid:mythril>*144, <simpleores:mythril_ingot>, 2500);//mythril
 mods.foundry.Melting.addRecipe(<liquid:mythril>*(144*9), <simpleores:mythril_block>, 2500);
@@ -616,12 +616,14 @@ mods.foundry.Casting.addRecipe(<spartancompat:staff_adamantium>, <liquid:viridiu
 mods.foundry.CastingTable.addBlockRecipe(<simpleores:adamantium_block>, <liquid:viridium>*1296);
 mods.foundry.CastingTable.addBlockRecipe(<simpleores:mythril_block>, <liquid:mythril>*1296);
 mods.foundry.CastingTable.addBlockRecipe(<simpleores:onyx_block>, <liquid:onyx_alloy>*1296);
+mods.foundry.CastingTable.addBlockRecipe(<contenttweaker:block_electrum>, <liquid:electrum>*1296);
 mods.foundry.CastingTable.addBlockRecipe(<betterwithmods:steel_block>, <liquid:soul_forged_steel>*(144*16));
 mods.foundry.CastingTable.addBlockRecipe(<minecraft:stone>, <liquid:coade_stone>*576);
+
 //Missing Ingot Casting Recipes
 //addIngotRecipe(IItemStack output, ILiquidStack input)
-mods.foundry.CastingTable.addIngotRecipe(<simpleores:adamantium_block>, <liquid:viridium>*1296);
-mods.foundry.CastingTable.addBlockRecipe(<simpleores:mythril_block>, <liquid:mythril>*1296);
-mods.foundry.CastingTable.addBlockRecipe(<simpleores:onyx_block>, <liquid:onyx_alloy>*1296);
-mods.foundry.CastingTable.addBlockRecipe(<betterwithmods:steel_block>, <liquid:soul_forged_steel>*(144*16));
-mods.foundry.CastingTable.addBlockRecipe(<minecraft:stone>, <liquid:coade_stone>*576);
+mods.foundry.CastingTable.addIngotRecipe(<simpleores:adamantium_ingot>, <liquid:viridium>*144);
+mods.foundry.CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:mythril>*144);
+mods.foundry.CastingTable.addIngotRecipe(<contenttweaker:material_part:12>, <liquid:electrum>*144);
+mods.foundry.CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soul_forged_steel>*144);
+mods.foundry.CastingTable.addIngotRecipe(<pyrotech:material:16>, <liquid:coade_stone>*144);

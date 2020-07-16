@@ -729,6 +729,12 @@ nitrogen.addAll(<ore:listAllmeatraw>);
 val foundryclay = <ore:foundryClayblock>;
 foundryclay.add(<contenttweaker:unfiredrefractory>);
 
+val bronzeBlock = <ore:blockBronze>;
+bronzeBlock.add(<contenttweaker:block_bronze>);
+
+val electrumBlock = <ore:blockElectrum>;
+electrumBlock.add(<contenttweaker:block_electrum>);
+
 val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);
 

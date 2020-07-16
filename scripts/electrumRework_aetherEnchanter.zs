@@ -1,11 +1,14 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.data.IData;
 import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.aether_legacy.Enchanter;
 
 //Name Tweaks
 <contenttweaker:material_part:12>.displayName = "Aetherial Electrum";
-<contenttweaker:sub_block_holder_0:1>.displayName = "Aetherial Electrum Block";
+<contenttweaker:block_electrum>.displayName = "Aetherial Electrum Block";
 <contenttweaker:electrum_plate>.displayName = "Aetherial Electrum Plate";
 
 #ADD RECIPES

@@ -16,12 +16,6 @@ sivgoldPebbles.register();
 //MISC PARTS
 electrum.registerParts(["ingot","nugget","molten","dense_plate"] as string[]);
 
-//ORE BLOCK
-var block = electrum.registerPart("block").getData();
-block.addDataValue("hardness", "3");
-block.addDataValue("resistance", "12");
-block.addDataValue("harvestTool", "pickaxe");
-
 //Electrum Plate
 var plate = VanillaFactory.createBlock("electrum_plate", <blockmaterial:Iron>);
 plate.setCreativeTab(<creativetab:buildingBlocks>);
