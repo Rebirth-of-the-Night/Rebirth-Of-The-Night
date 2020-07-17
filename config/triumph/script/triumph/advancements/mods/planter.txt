@@ -1,0 +1,16 @@
+setIcon("betterwithmods:planter:2")
+setTitle("Planters")
+setDescription("Save a plant, eat a vegan")
+
+addParent("betterwithmods:advancements/light_block")
+
+criteria = addCriteria("Grass Planter", "triumph:right_click_block")
+criteria.setBlock("betterwithmods:planter", 0)
+criteria.setItem("minecraft:grass")
+
+criteria = addCriteria("Grass Planter (item)", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:planter", 2)
+
+setPos(-350,11)
+
+alwaysVisible()
