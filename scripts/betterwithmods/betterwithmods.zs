@@ -73,6 +73,7 @@ furnace.remove(<betterwithmods:cooking_pot>);
 recipes.remove(<betterwithmods:donut>);
 mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
+mods.betterwithmods.Cauldron.remove([<minecraft:leather>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:dirt_pile>);
 mods.jei.JEI.removeAndHide(<betterwithmods:gravel_pile>);
