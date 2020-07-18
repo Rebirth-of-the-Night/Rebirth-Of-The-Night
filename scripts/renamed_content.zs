@@ -140,6 +140,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:andesite_speleothem>.displayName = "Gray Andesite Speleothem";
 <quark:end_bricks_slab:*>.displayName = "End Stone Brick Slab";
 <quark:iron_rod>.displayName = "Soul Forged Steel Rod";
+<quark:redstone_randomizer>.displayName = "Simple Randomizer";
 
 // Ice And Fire: Dragons in a Whole New Light
 <iceandfire:chain>.displayName = "Refined Chain";
@@ -165,6 +166,14 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <cyclicmagic:apple_lapis>.displayName = "Deadhorse Delight";
 <cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
+
+// ProjectRed
+<projectred-core:resource_item:251>.displayName = "Red Alloy Compound";
+<projectred-integration:gate:10>.displayName = "Enhanced Redstone Repeater";
+<projectred-integration:gate:11>.displayName = "Enhanced Randomizer";
+<projectred-integration:gate:20>.displayName = "Running Timer";
+<projectred-integration:gate:33>.displayName = "Selective Enhanced Randomizer";
+<projectred-integration:gate:31>.displayName = "Stacking Latch";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
