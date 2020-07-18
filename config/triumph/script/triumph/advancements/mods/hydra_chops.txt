@@ -7,7 +7,6 @@ addParent("twilightforest:progress_hydra")
 criteria = addCriteria("Hydra Chops", "minecraft:consume_item")
 criteria.setItem("twilightforest:hydra_chop")
 
-setPos(-350,11)
+setPos(192,128)
 
 alwaysVisible()
-hideLines()
