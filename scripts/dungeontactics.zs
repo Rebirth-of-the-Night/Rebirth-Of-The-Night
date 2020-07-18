@@ -510,3 +510,8 @@ recipes.addShaped(<dungeontactics:charm_emaciated>, [[<minecraft:bone>, null, <m
 recipes.addShaped(<dungeontactics:charm_heavy>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:air_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
 recipes.addShaped(<dungeontactics:charm_sapping>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:energy_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
 recipes.addShaped(<dungeontactics:charm_toxic>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:poison_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+
+// Spell rework (wands!)
+
+# Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
+game.setLocalization("item.dungeontactics:scroll_of.name","Wand of");
