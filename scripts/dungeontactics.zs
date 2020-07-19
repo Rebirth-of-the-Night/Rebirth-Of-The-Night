@@ -515,3 +515,68 @@ recipes.addShaped(<dungeontactics:charm_toxic>, [[<minecraft:bone>, null, <minec
 
 # Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
 game.setLocalization("item.dungeontactics:scroll_of.name","Wand of");
+
+# Base wands oredicts for woods
+val mundaneWood = <ore:mundaneWood>;
+mundaneWood.add(
+    <minecraft:log>,
+    <minecraft:log:1>,
+    <minecraft:log:2>,
+    <minecraft:log:3>,
+    <minecraft:log2>,
+    <minecraft:log2:1>
+    );
+
+val arcaneWood = <ore:arcaneWood>;
+arcaneWood.add(
+    <biomesoplenty:log_1:5>,
+    <biomesoplenty:log_1:4>,
+    <biomesoplenty:log_0:4>,
+    <aether_legacy:aether_log>,
+    <aether_legacy:aether_log:1>,
+    <twilightforest:giant_log>,
+    <betternether:stalagnate_bark>,
+    <betternether:reeds_block>,
+    <netherex:elder_mushroom_stem>
+    );
+
+val mysticalWood = <ore:mysticalWood>;
+mysticalWood.add(
+    <twilightforest:magic_log>,
+    <twilightforest:magic_log:1>,
+    <twilightforest:magic_log:2>,
+    <twilightforest:magic_log:3>,
+    <twilightforest:huge_stalk>
+    );
+
+# Base wand recipes
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <contenttweaker:vis_speck>],
+    [null, <ore:mundaneWood>, null],
+    [<ore:mundaneWood>, null, null]])
+  .addOutput(<contenttweaker:wand_base_mundane>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <contenttweaker:vis_sliver>],
+    [null, <ore:arcaneWood>, null],
+    [<ore:arcaneWood>, null, null]])
+  .addOutput(<contenttweaker:wand_base_arcane>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <contenttweaker:vis_shard>],
+    [null, <ore:mysticalWood>, null],
+    [<ore:mysticalWood>, null, null]])
+  .addOutput(<contenttweaker:wand_base_mystical>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
