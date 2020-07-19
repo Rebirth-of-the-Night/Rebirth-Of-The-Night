@@ -94,6 +94,7 @@ import mods.jei.JEI;
 <projectred-core:resource_item:251>.displayName = "Red Alloy Compound";
 <projectred-integration:gate:10>.displayName = "Enhanced Redstone Repeater";
 <projectred-integration:gate:11>.displayName = "Enhanced Randomizer";
+<projectred-integration:gate:26>.displayName = "Enhanced Comparator";
 <projectred-integration:gate:20>.displayName = "Running Timer";
 <projectred-integration:gate:33>.displayName = "Selective Enhanced Randomizer";
 <projectred-integration:gate:31>.displayName = "Stacking Latch";

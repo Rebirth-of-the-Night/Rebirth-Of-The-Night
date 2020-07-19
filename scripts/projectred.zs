@@ -64,7 +64,8 @@ for i in 0 to 35 {
 }
 
 val holystoneBrick = <aether_legacy:holystone_brick>;
-val redstonePaste = <redstonepaste:redstonepaste>;
+// val redstonePaste = <redstonepaste:redstonepaste>;
+val redstonePaste = <ore:dustRedstone>; // Temporary
 val redstoneDust = <ore:dustRedstone>;
 val redstoneBlock = <ore:blockRedstone>;
 val hellfireDust = <ore:dustHellfire>;
@@ -96,8 +97,11 @@ val diamondCover = <microblockcbe:microblock:1>.withTag({mat: "minecraft:diamond
 val mrepeater = <minecraft:repeater>;
 val mcomparator = <minecraft:comparator>;
 val prepeater = <projectred-integration:gate:10>;
-val srepeater = <redstonepaste:stickyrepeater>;
-val scomparator = <redstonepaste:stickycomparator>;
+val pcomparator = <projectred-integration:gate:26>;
+// val srepeater = <redstonepaste:stickyrepeater>;
+val srepeater = mrepeater; // Temporary
+// val scomparator = <redstonepaste:stickycomparator>;
+val scomparator = mcomparator; // Temporary
 val prandomizer = <projectred-integration:gate:11>;
 val drandomizer = <projectred-integration:gate:33>;
 val qrandomizer = <quark:redstone_randomizer>;
@@ -373,6 +377,13 @@ mods.betterwithmods.Anvil.addShaped(prepeater, [
     [hopper, dropper, circuitPlate],
     [dropper, hopper, circuitPlate],
     [circuitPlate, srepeater * 2, scomparator]
+]);
+
+mods.betterwithmods.Anvil.addShaped(pcomparator, [
+    [circuitPlate, srepeater, circuitPlate],
+    [redstonePaste, redstonePaste, redstonePaste],
+    [srepeater, mcomparator, srepeater],
+    [circuitPlate, srepeater, circuitPlate]
 ]);
 
 mods.betterwithmods.Anvil.addShaped(prandomizer, [
