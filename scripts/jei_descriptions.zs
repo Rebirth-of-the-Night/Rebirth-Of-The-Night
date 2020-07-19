@@ -236,6 +236,14 @@ mods.jei.JEI.addDescription(<betteranimalsplus:hirschgeistskullwearable>,"Cursed
 mods.jei.JEI.addDescription(dung,"Gross? No, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Triggers a fermentative process to make tanned leather.");
 mods.jei.JEI.addDescription(<betterwithmods:breeding_harness>, "...");
 
+mods.jei.JEI.addDescription(<netherex:frost_rod>, "Stabilizing rod for a chilling elemental construct, favored as a guardian by users of ice magic.");
+mods.jei.JEI.addDescription(<netherex:frost_powder>, "The remains of crushed frost rods are still cold enough to cause frostbite if handled improperly.");
+mods.jei.JEI.addDescription(<netherex:coolmar_spider_fang>, "Coolmar scuttlers are not true spiders, but unholy constructs of bone and ice. Many folk legends claim that these monstrosities will emerge before the end times.");
+
+mods.jei.JEI.addDescription(<betterwithmods:material:54>, "Unlike most spiders, the notorious Jungle Spiders are cooperative hunters. Jungle spider venom can cause severe vomiting and loss of appetite, but their prey rarely lives long enough to experience these effects.");
+
+mods.jei.JEI.addDescription(<mod_lavacow:scythe_claw>, "Dreadful claw of the Ithaqua, a fiend of visceral hunger and fury.");
+
 /* Decorative Blocks */
 mods.jei.JEI.addDescription(<minecraft:bed:*>, ["With some bits of padding and a little carpentry, one can create a place to lay their head, finding peaceful sleep until the glorious dawn."]);
 mods.jei.JEI.addDescription(<aether_legacy:skyroot_bed:*>, ["By adding some Skyroot Planks to a bed, one can even find rest in the Aether."]);
