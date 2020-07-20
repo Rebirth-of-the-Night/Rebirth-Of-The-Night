@@ -165,7 +165,7 @@ recipes.addShaped("powered_conveyor", st_conveyor*6,[
 ]);
 
 recipes.addShaped("ore_locator", ore_locator,[
-	[null, <villagenames:codex>, <betterwithmods:material:45>],
+	[null, codex, <betterwithmods:material:45>],
     [null, blazerod, <cyclicmagic:tool_spelunker>],
     [blazerod, null, null]
 ]);
