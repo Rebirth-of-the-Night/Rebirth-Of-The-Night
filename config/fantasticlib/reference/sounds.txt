@@ -701,6 +701,7 @@ animania:unhitch
 betternether:bn_fly
 epicsiegemod:cena_creeper.start
 epicsiegemod:cena_creeper.end
+randomthings:time
 roughmobsrevamped:entity.boss.boss_spawn
 roughmobsrevamped:entity.boss.boss_idle
 roughmobsrevamped:entity.boss.boss_death
@@ -1295,6 +1296,11 @@ netherex:ghast_queen_summon
 nyx:lunar_water
 nyx:falling_star
 nyx:falling_star_impact
+outfox:fox.idle
+outfox:fox.sniff
+outfox:fox.steal
+outfox:fox.hurt
+outfox:fox.death
 primitivemobs:entity.brainslime.slimecharge
 primitivemobs:entity.motherspider.spiderscreech
 primitivemobs:entity.grovesprite.angry
@@ -1410,6 +1416,8 @@ aether_legacy:music.aether3
 aether_legacy:music.aether4
 aether_legacy:music.menu
 charset:block.crank
+patchouli:book_open
+patchouli:book_flip
 charm:wood_open
 charm:wood_close
 charm:wood_smash
@@ -1454,8 +1462,6 @@ cyclicmagic:fan_on
 cyclicmagic:fan_loop
 cyclicmagic:doorbell_mikekoenig
 cyclicmagic:dice_mike_koenig
-patchouli:book_open
-patchouli:book_flip
 beneath:beneath.normal
 beneath:beneath.muffled
 beneath:beneath.drawnout

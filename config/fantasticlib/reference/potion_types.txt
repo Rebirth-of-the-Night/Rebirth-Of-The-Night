@@ -35,9 +35,9 @@ minecraft:strong_strength
 minecraft:weakness
 minecraft:long_weakness
 minecraft:luck
-quark:resilience
-quark:long_resilience
-quark:strong_resilience
+randomthings:collapse
+randomthings:long_collapse
+randomthings:strong_collapse
 quark:haste
 quark:long_haste
 quark:strong_haste
@@ -49,6 +49,9 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
+quark:resilience
+quark:long_resilience
+quark:strong_resilience
 extraalchemy:fuse_normal
 extraalchemy:fuse_strong
 extraalchemy:fuse_quick
@@ -117,6 +120,8 @@ extraalchemy:pull_normal
 extraalchemy:pull_long
 extraalchemy:pull_strong
 fireresistancetiers:strong_fire_resistance
+mod_lavacow:corrosive
+mod_lavacow:foulodor
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
 netherex:freezing
