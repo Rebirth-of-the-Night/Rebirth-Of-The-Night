@@ -517,6 +517,40 @@ recipes.addShaped(<dungeontactics:charm_toxic>, [[<minecraft:bone>, null, <minec
 # Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
 game.setLocalization("item.dungeontactics:scroll_of.name","Wand of");
 
+# Force wands to show in JEI
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 44 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 47 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 28 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 43 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 42 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 45 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 41 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 36 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 30 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 39 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 31 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 38 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 40 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 37 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 29 as short}]}));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 27 as short}]}));
+
 # Base wands oredicts for woods
 val mundaneWood = <ore:mundaneWood>;
 mundaneWood.add(
@@ -578,6 +612,202 @@ RecipeBuilder.get("mage")
     [null, <ore:mysticalWood>, null],
     [<ore:mysticalWood>, null, null]])
   .addOutput(<contenttweaker:wand_base_mystical>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+  
+# mundane wands
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:iron_ingot>, <minecraft:fire_charge>],
+    [null, <minecraft:flint_and_steel>, <minecraft:iron_ingot>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 30 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:ice>, <mowziesmobs:ice_crystal>],
+    [null, <minecraft:packed_ice>, <minecraft:ice>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:water_rune>, 1)
+  .addTool(<contenttweaker:order_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 31 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <nyx:fallen_star>, <glaretorch:itemglaretorchsmall>],
+    [null, <minecraft:obsidian>, <nyx:fallen_star>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 38 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:bone>, <minecraft:skull>],
+    [null, <minecraft:bone_block>, <minecraft:bone>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 39 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# arcane
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:fire_charge>, <minecraft:anvil>],
+    [null, <pyrotech:anvil_granite>, <minecraft:fire_charge>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 29 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <aether_legacy:golden_feather>, <aether_legacy:golden_amber>],
+    [null, <minecraft:gold_ingot>, <aether_legacy:golden_feather>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 27 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:iron_ingot>, <contenttweaker:material_part:12>],
+    [null, <betterwithmods:material:34>, <minecraft:iron_ingot>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 41 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <quark:black_ash>, <iceandfire:witherbone>],
+    [null, <iceandfire:witherbone>, <quark:black_ash>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 40 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:bone>, <ore:fierceBeastHead>],
+    [null, <betterwithaddons:ancestry_bottle>, <minecraft:bone>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 45 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <grapplemod:magnetupgradeitem>, <minecraft:iron_block>],
+    [null, <minecraft:iron_sword>, <grapplemod:magnetupgradeitem>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:chaos_rune>, 1)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 37 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <grapplemod:magnetupgradeitem>, <minecraft:iron_block>],
+    [null, <minecraft:iron_chestplate>, <grapplemod:magnetupgradeitem>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:chaos_rune>, 1)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 36 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# mystical
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <biomesoplenty:gem>, <minecraft:shulker_shell>],
+    [null, <aether_legacy:enchanted_gravitite>, <biomesoplenty:gem>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<endreborn:item_end_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 42 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <contenttweaker:material_part:12>, <betterwithaddons:greatarrow>],
+    [null, <aether_legacy:golden_feather>, <contenttweaker:material_part:12>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 43 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <minecraft:apple>],
+    [null, <dungeontactics:charm_famine>, <twilightforest:steeleaf_ingot>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 28 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:gold_ingot>, <mowziesmobs:barakoa_mask_rage>],
+    [null, <minecraft:golden_apple>, <minecraft:gold_ingot>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addTool(<contenttweaker:draconic_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 47 as short}]}))
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <ultimate_unicorn_mod:ice_horseshoes>, <cyclicmagic:water_candle>],
+    [null, <ultimate_unicorn_mod:obsidian_horse_armor>, <ultimate_unicorn_mod:ice_horseshoes>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 44 as short}]}))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
