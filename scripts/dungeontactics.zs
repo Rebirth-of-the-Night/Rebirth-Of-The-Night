@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 mods.jei.JEI.removeAndHide(<dungeontactics:brazier>);
 

@@ -243,6 +243,8 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketluckyhorseshoe>
 [<ore:ingotElectrum>, <contenttweaker:aether_rune>.anyDamage().transformDamage(), <ore:ingotElectrum>], 
 [<ore:ingotElectrum>, <aether_legacy:enchanted_gravitite>, <ore:ingotElectrum>]], 32);
 
+//remove and hide original BB disint tablet
+mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
 
 /////// non-baubles (is this legal? I will make it legal.)
 

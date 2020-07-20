@@ -229,3 +229,12 @@ recipes.addShaped("quark_randomizer", <quark:redstone_randomizer>, [
 	[<minecraft:redstone_torch>, <cyclicmagic:dice>, <minecraft:redstone_torch>],
 	[<ore:stone>, <ore:stone>, <ore:stone>]
 ]);
+
+// runes
+
+# remove all original quark rune recipes
+recipes.remove(<quark:rune:*>);
+
+# make quark runes non stackable
+val quarkrune = (<quark:rune:*>);
+quarkrune.maxStackSize = 1;
