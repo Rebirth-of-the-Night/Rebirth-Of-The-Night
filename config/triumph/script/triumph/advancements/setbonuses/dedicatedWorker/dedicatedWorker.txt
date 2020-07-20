@@ -4,18 +4,18 @@ setDescription("Complete the Dedicated Worker set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullMidArmor")
+// addRewardFunction("triumph:fullMidArmor")
 
-criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria = addCriteria("Myrmex Helmet", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/helmet")
 
-criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria = addCriteria("Myrmex Chestplate", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/chestplate")
 
-criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria = addCriteria("Myrmex Leggings", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/leggings")
 
-criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria = addCriteria("Myrmex Boots", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/boots")
 
 hideLines()

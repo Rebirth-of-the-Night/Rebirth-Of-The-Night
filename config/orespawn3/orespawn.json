@@ -379,6 +379,32 @@
 					"chance": 100
 				}
 			]
+		},
+		"light_essence_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				1
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 8,
+				"minHeight": 8,
+				"maxHeight": 22
+			},
+			"blocks": [
+				{
+					"name": "biomesoplenty:biome_block",
+					"metaData": "0",
+					"chance": 100
+				}
+			]
 		}
 	}
 }

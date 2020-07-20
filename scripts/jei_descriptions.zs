@@ -76,6 +76,7 @@ mods.jei.JEI.addDescription(<betterwithmods:steel_pants>,"Impossible to enchant,
 mods.jei.JEI.addDescription(<betterwithmods:steel_boots>,"Impossible to enchant, since it is already infused with souls.");
 
 mods.jei.JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
+mods.jei.JEI.addDescription(<pyrotech:bucket_stone>,"It is important to know that a metal bucket may not melt but will surely get as hot as gunpowder inside a stoked cauldron! Lava is no joke, nor should it be treated like one.");
 mods.jei.JEI.addDescription(<pyrotech:crude_fishing_rod>, "A less than ideal fishing rod. May break unexpectedly after each use!");
 
 mods.jei.JEI.addDescription(<quark:witch_hat>,"Enchanted thread is woven throughout the inside... and it's comfy, too! Protects your items from being cursed by spectres.");
@@ -99,7 +100,7 @@ mods.jei.JEI.addDescription(<dungeontactics:taser>,"Fallen from above, only with
 mods.jei.JEI.addDescription(<dungeontactics:claws>,"Evoking the arts of ancestral tribes from long ago, these claws will feed their owner with the vital energy of others in exchange of the owner's own energy.");
 mods.jei.JEI.addDescription(<dungeontactics:lithen_scythe>,"The unique tool of a long forgotten being, one that had no desire to harm others. Redirects the vitality of its victims to the owner for a short period of time.");
 mods.jei.JEI.addDescription(<dungeontactics:pirate_hook>, "A symbol of avarice that will transform vital energy into solid matter, but only at the closest range where hate and damnation takes physical form.");
-mods.jei.JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit; will protect against some traps, like caltrops, clamp traps or landmines.");
+mods.jei.JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit; will protect against some traps, like clamp traps. Wear with gold, iron, or diamond boots for maximum protection from base defenses.");
 
 /* Ores and Ingots */
 val crudeSteelIngot = <dungeontactics:steel_ingot>;
@@ -136,6 +137,7 @@ val plantFiber = <pyrotech:material:12>;
 val driedPlantFiber = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
 val durableTwine = <pyrotech:material:26>;
+val coade = <liquid:coade_stone>;
 
 mods.jei.JEI.addDescription(windmillBlade, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 mods.jei.JEI.addDescription(millstone,"A necessary machine for every starting mechanist! Needs mechanical power from the top or bottom.");
@@ -159,6 +161,7 @@ mods.jei.JEI.addDescription(hempFiber,"High quality fiber used in advanced recip
 mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance as string from wool or spider-silk.");
 mods.jei.JEI.addDescription(durableTwine, "By means of various crafting procedures, these simple strands of plants have roughly achieved the durability and strength of higher quality fibers.");
 mods.jei.JEI.addDescription(pulp, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
+mods.jei.JEI.addDescription(coade, "An homogenous magma of varied stone that is easy to manipulate. Its name comes from its association with a certain earthenware material that was said to be truly easily moldable into any shape; although not clay, that name stuck with it over time.");
 
 mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 mods.jei.JEI.removeAndHide(<base:wrench>);
@@ -218,7 +221,7 @@ mods.jei.JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the acc
 mods.jei.JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
 mods.jei.JEI.addDescription(<quark:tallow>,"Used for making candles or repairing gear in an iron anvil.");
 mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
-mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Most Puffbulbs were long since consumed by the corruption of the Beneath. Perhaps they could be reawakened by a powerful magic reaction - such as the mining of a mystical ore.");
+mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Puffbulbs are particularly fragile creatures that sustain themselves by absorbing energy from a living mineral, surviving against all odds amidst the horrors of the Beneath.");
 mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken.");
 mods.jei.JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material left behind by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong glue.");
 mods.jei.JEI.addDescription(<biomesoplenty:flesh>, "It is like slime! ...but not fun. and gross. Is that an eye?");
@@ -233,7 +236,18 @@ mods.jei.JEI.addDescription(<betteranimalsplus:hirschgeistskullwearable>,"Cursed
 mods.jei.JEI.addDescription(dung,"Gross? No, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Triggers a fermentative process to make tanned leather.");
 mods.jei.JEI.addDescription(<betterwithmods:breeding_harness>, "...");
 
+mods.jei.JEI.addDescription(<netherex:frost_rod>, "Stabilizing rod for a chilling elemental construct, favored as a guardian by users of ice magic.");
+mods.jei.JEI.addDescription(<netherex:frost_powder>, "The remains of crushed frost rods are still cold enough to cause frostbite if handled improperly.");
+mods.jei.JEI.addDescription(<netherex:coolmar_spider_fang>, "Coolmar scuttlers are not true spiders, but unholy constructs of bone and ice. Many folk legends claim that these monstrosities will emerge before the end times.");
+
+mods.jei.JEI.addDescription(<betterwithmods:material:54>, "Unlike most spiders, the notorious Jungle Spiders are cooperative hunters. Jungle spider venom can cause severe vomiting and loss of appetite, but their prey rarely lives long enough to experience these effects.");
+
+mods.jei.JEI.addDescription(<mod_lavacow:scythe_claw>, "Dreadful claw of the Ithaqua, a fiend of visceral hunger and fury.");
+
 /* Decorative Blocks */
+mods.jei.JEI.addDescription(<minecraft:bed:*>, ["With some bits of padding and a little carpentry, one can create a place to lay their head, finding peaceful sleep until the glorious dawn."]);
+mods.jei.JEI.addDescription(<aether_legacy:skyroot_bed:*>, ["By adding some Skyroot Planks to a bed, one can even find rest in the Aether."]);
+
 mods.jei.JEI.addDescription(<minecraft:purpur_block>, ["One of the most distinctive types of Ender architecture, favored for endermites as burrows to pupate into shulkers.","Long ago, the shulkers were easily controlled… but now, what remains of the Ender empire cannot prevent the pests from infesting their cities."]);
 mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block that creates a magical updrift if one flies over it with an elytra!");
 mods.jei.JEI.addDescription(<minecraft:end_stone>,"Some have seen this paradimensional stone floating around in the Overworld. Legends claim this stone to be the most common soil in the home of the Enderpeople, although it was described as covered with vibrant purple grass and flora.");
@@ -257,9 +271,41 @@ mods.jei.JEI.addDescription(<quark:gold_button>, "Emits a signal for 2 ticks.");
 mods.jei.JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 seconds.");
 mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger if a human walks over it. Perhaps humanity indeed carries the heaviest burden.");
 mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
-mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal either to the left or right.");
-mods.jei.JEI.addDescription(<quark:rain_detector>, "Will inmediately output a signal if it's raining or snowing.");
-mods.jei.JEI.addDescription(<minecraft:compass>,"Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints.");
+mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal to either the left or right.");
+mods.jei.JEI.addDescription(<minecraft:compass>, "Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints.");
+
+mods.jei.JEI.addDescription(<projectred-core:resource_item:0>, "Circuit plates are used as the base for all logic components.");
+mods.jei.JEI.addDescription(<projectred-core:resource_item:4>, "Platformed plates are used as elevated circuit plates, for when wires are able to cross over each other without intersecting.");
+mods.jei.JEI.addDescription(<projectred-core:resource_item:103>, "Red alloy ingots are an upgraded form of redstone that allow advanced circuitry and processing. Having several times more capability than its primitive counterpart, it's used to design several elegant and compact electrical solutions.");
+mods.jei.JEI.addDescription(<projectred-core:resource_item:251>, "A shoddy mush of iron, redstone, and copper. Useless on its own.");
+mods.jei.JEI.addDescription(<projectred-core:screwdriver>, "A mechanical tool used to configure several advanced contraptions. Right-click on any component to rotate it; most components will also utilize shift-right-clicking to configure it.");
+mods.jei.JEI.addDescription(<projectred-core:multimeter>, "A tool used to measure the power of a wire. Right-click on any wire to display the client- and server-side power levels.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:0>, "A simple component that outputs a signal if any of its inputs are on. It has 3 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:1>, "A simple component that outputs a signal if all of its inputs are off. It has 3 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:2>, "A simple component that outputs a signal if its input is off. It has 1 input and 3 outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:3>, "A simple component that outputs a signal if all of its inputs are on. It has 3 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:4>, "A simple component that outputs a signal if any of its inputs are off. It has 3 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:5>, "A simple component that outputs a signal if either of its inputs are on, but not both. It has 2 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:6>, "A simple component that outputs a signal if both of its inputs are on or both are off. It has 2 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:7>, "A component that reroutes a signal in configurable directions. It has 1 input and a maximum of 3 outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:8>, "A component that emits a signal according to the state of the back input, which acts as a toggle between the right and left sides, respectively. It has 3 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:9>, "A component that emits a short pulse any time the input turns on. It has 1 input and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:10>, "A component similar to a vanilla repeater in that it repeats signals back to full strength and has a tick delay. However, it has a max tick delay of 128 ticks and cannot be locked. It has 1 input and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:11>, "A component similar to the simple randomizer. However, it randomizes each output individually, which is ideal for pulses with random length. Turning on the input allows randomization to occur, and turning off the input locks each output. It has 1 input and 3 outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:12>, "A component that switches between two states. One input will set the latch, and the other will reset it. Consecutive pulses to the same input will not change the state of the latch. It has 2 inputs and 2 or 4 outputs, depending on the configuration.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:14>, "A component similar to a vanilla repeater in that it allows signals to be locked. When the back input is turned on, the outputs are set to the left input; when the back input is turned off, the outputs are locked. It has 2 inputs and 2 outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:17>, "A component used to create second-long delays. When the input is off, the timer waits for the specified time before pulsing its outputs; when the input is on, the timer stops and resets back to 0. Right-click it to open the configuration GUI. It has 1 input and 3 outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:19>, "A component that retains an internal count, which cannot go below 0. When the count is at 0, the back output turns on; when the count is at the configurable maximum, the front output turns on. The left and right control the count by subtracting and adding respectively, or it can be flipped by shift-right-clicking the component with a screwdriver. The component can be configured via a GUI. It has 2 inputs and 2 outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:20>, "A component similar to a timer in that it has a configurable time. The timer can be reset using either the back or right inputs, and the back input can start the timer. While the timer is running, the left output is on; when the timer ends, the front output pulses. Right-click it to open the configuration GUI. It has 2 inputs and 2 outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:21>, "A component that acts as an intermittent AND gate. Either of the inputs have to be on at any point for the output to pulse on and then reset the internal state. However, the back input can be turned on to reset the internal state. It has 3 inputs and 1 output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:23>, "A stacking component that allows wires to cross over each other without intersecting. Null cells can be stacked in the same block, meaning up to four wires can pass through the same block. It has a total of 4 inputs and outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:24>, "A stacking component that allows wires to cross over each other. The top wire is controlled by the bottom wire - if the bottom wire is off, the top wire is on, and vice versa. Invert cells cannot be stacked in the same block. It has a total of 4 inputs and outputs.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:31>, "A stacking component that allows wires to cross over each other. The top wire controls the bottom wire in that it acts as the back input of a transparent latch. The latch's input is the back input, and the latch's output is the front output. Stacking latches can be stacked in the same block. It has a total of 4 inputs and outputs, with at least one input and one output.");
+mods.jei.JEI.addDescription(<projectred-integration:gate:33>, "A component similar to the enhanced randomizer in that it has three random outputs. However, the component switches between the three outputs exclusively, meaning only one output is selected at any given moment. When the input is on, the randomization occurs; when the input is off, the outputs are locked. It has 1 input and 3 outputs.");
+mods.jei.JEI.addDescription(<projectred-transmission:wire:0>, "A simple wire made out of red alloy. This wire can hold up to 256 power and provide resources for many other recipes. It can connect to any insulated wire.");
+mods.jei.JEI.addDescription(<projectred-transmission:framed_wire:0>, "A framed wire that does not require a wall to adhere to. Similar to its unframed counterpart, it connects between all framed wires and holds up to 256 power. It can be connected to normal wires by placing a red alloy wire in the same block as the framed wire.");
+mods.jei.JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:iron_block"}), "Covers allow for blocking between redstone signals that should not intersect. They are also used for creating one-block high bridges over other redstone.");
+mods.jei.JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:diamond_block"}), "Covers allow for blocking between redstone signals that should not intersect. They are also used for creating one-block high bridges over other redstone.");
 
 /* Mechanical, Defense, and Item Movement */
 mods.jei.JEI.addDescription(<quark:rope>, "Smartly tied and intertwined; it will pull blocks up with itself if right-clicked while sneaking.");
@@ -298,6 +344,7 @@ mods.jei.JEI.addDescription(<quark:ancient_tome>,"Filled with arcane secrets fro
 mods.jei.JEI.addDescription(<qualitytools:reforging_station>,"Placing an item in the Reforging Station along with one piece of its primary material, such as an ingot, will change the item's quality. Many magical items can be reforged with Spectral Silt.");
 mods.jei.JEI.addDescription(<minecraft:enchanting_table>,"Can be upgraded with an Enchanting Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!");
 mods.jei.JEI.addDescription(<aether_legacy:enchanter>,"With a generous amount of time and fuel, it can infuse or repair rarer weapons and tools, changing the item's quality in the process. Using electrum instead of ambrosium proves to be much more efficient.");
+mods.jei.JEI.addDescription(<disenchanter:disenchantmenttable>,"Disenchants the first enchantment off an item and onto a book, at the cost of durability. Place bookshelves around it like a normal enchantment table to lower the amount of durability taken.");
 
 
 /* Storage */
@@ -363,6 +410,7 @@ mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited
 mods.jei.JEI.addItem(<contenttweaker:spectral_shard>);
 mods.jei.JEI.addItem(<contenttweaker:magic_orb>);
 
+mods.jei.JEI.addDescription(<contenttweaker:amulet_of_divinity>,"Fade in Light, return to Glory. Gone blazing, born anew, estrelvir.");
 mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This basic material is a gate to a world of magic that can be used to craft Runes, various Trinkets, Baubles, Artifacts and even cast powerful Spells.");
 mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Witch covens have a taste for forbidden and unusual arts. We can tap into that power too, using the §lAlchemical Cauldron§r. Add water to an Alchemical Cauldron then light a fire below so that the water starts boiling. Add a §lbrown mushroom§r, a §lred mushroom§r, §lglowstone dust§r and stir with a spoon—rustic alchemists may use a wooden shovel.");
 
@@ -371,6 +419,7 @@ mods.jei.JEI.addItem(<contenttweaker:blank_rune>);
 mods.jei.JEI.addDescription(<contenttweaker:blank_rune>,"Stone imbued with magic powder. Used as a base for all runes.");
 mods.jei.JEI.addItem(<contenttweaker:disint_rune>);
 mods.jei.JEI.addDescription(<contenttweaker:disint_rune>,"Craft with magical items to disintegrate them into Spectral Silt. Spectral Silt is used for creating more powerful magical items.");
+
 
 mods.jei.JEI.addItem(<contenttweaker:sol_rune>);
 mods.jei.JEI.addItem(<contenttweaker:luna_rune>);

@@ -1,0 +1,7 @@
+{
+  "name": "Decoration",
+  "description": "Does it spark joy?",
+  "icon": "quark:framed_glass_pane",
+  "sortnum": 3,
+  "parent": "construction"
+}

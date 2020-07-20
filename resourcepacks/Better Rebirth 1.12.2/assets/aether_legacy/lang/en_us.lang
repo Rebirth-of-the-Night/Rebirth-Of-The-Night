@@ -56,6 +56,11 @@ gui.spirit.line10=The human returns. Fool! This time will be no different.
 gui.spirit.dead=Such bitter cold... you... know not... what you have done...
 gui.spirit.playerdied=Such is the fate of those who would bring harm to this realm.
 
+gui.sun_altar.time=Don't use!
+gui.sun_altar.message=Don't use!
+gui.sun_altar.eternal_day=Don't use!
+gui.sun_altar.cycle_catchup=Don't use!
+gui.sun_altar.permission=Don't use!
 
 gui.loading.enteraether=Ascending to the Aether
 gui.loading.exitaether=Descending from the Aether
@@ -114,4 +119,8 @@ tile.holystone_slab.name=Holystone Slab
 tile.mossy_holystone_slab.name=Mossy Holystone Slab
 tile.holystone_brick_slab.name=Holystone Brick Slab
 tile.aerogel_slab.name=Aerogel Slab
-tile.enchanter.name=Aeterium Capacitor
+
+tile.enchanter.name=Aetherium Capacitor
+tile.altar.name=Aetherium Capacitor
+container.aether_legacy.enchanter=Aetherium Capacitor
+container.aether_legacy.altar=Aetherium Capacitor

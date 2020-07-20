@@ -23,6 +23,7 @@ recipes.remove(<glaretorch:itemglaretorchlarge2>);
 
 var stick = <ore:stickWood>;
 var coal = <minecraft:coal>;
+var ccoal = <minecraft:coal:1>;
 var ncoal = <betterwithmods:material:1>;
 var torch = <minecraft:torch>;
 var small = <glaretorch:itemglaretorchsmall>;
@@ -37,13 +38,13 @@ var latch = <ore:latchRedstone>;
 
 //small
 recipes.addShaped("coalGlare", small*1,[
-	[coal],
-    [coal], 
+	[coal|ccoal],
+    [coal|ccoal], 
 	[torch]
 ]);
 recipes.addShaped("stackCoalGlare", small*3,[
-	[coal,coal,coal],
-    [coal,torch,coal],
+	[coal|ccoal,coal|ccoal,coal|ccoal],
+    [coal|ccoal,torch,coal|ccoal],
 	[stick,torch,stick]
 ]);
 

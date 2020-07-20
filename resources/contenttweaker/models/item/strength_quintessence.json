@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/strength_quintessence"
+    "layer0": "contenttweaker:items/quintessence/strength_quintessence"
   }
 }

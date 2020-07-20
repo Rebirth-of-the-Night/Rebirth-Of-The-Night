@@ -110,7 +110,7 @@ mods.betterwithmods.Anvil.addShaped(<spartancompat:saber_adamantium>,
 recipes.remove(<spartancompat:spear_adamantium>);
 mods.betterwithmods.Anvil.addShaped(<spartancompat:spear_adamantium>, 
 [
-   [viridium, viridium, blaze, null],
+   [viridium, viridium, blaze, blaze],
    [null, null, null, null],
    [null, null, null, null],
    [null, null, null, null]
@@ -176,7 +176,7 @@ mods.betterwithmods.Anvil.addShaped(<spartancompat:rapier_mythril>,
 recipes.remove(<spartancompat:javelin_mythril>);
 mods.betterwithmods.Anvil.addShaped(<spartancompat:javelin_mythril>, 
 [
-   [mythril, mythril, blaze, null],
+   [mythril, mythril, blaze, blaze],
    [null, null, null, null],
    [null, null, null, null],
    [null, null, null, null]

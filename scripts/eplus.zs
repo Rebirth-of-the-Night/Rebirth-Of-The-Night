@@ -8,6 +8,14 @@ import mods.jei.JEI;
 //mods.eplus.Eplus.blacklistItem(<msmlegacy:wither_bane>);
 //mods.eplus.Eplus.blacklistItem(<atop:amethyst_sword>);
 
+mods.jei.JEI.removeAndHide(<eplus:decorative_book:1>);
+mods.jei.JEI.removeAndHide(<eplus:decorative_book:2>);
+mods.jei.JEI.removeAndHide(<eplus:decorative_book:3>);
+mods.jei.JEI.removeAndHide(<eplus:decorative_book:4>);
+mods.jei.JEI.removeAndHide(<eplus:decorative_book:5>);
+mods.jei.JEI.removeAndHide(<eplus:decorative_book:6>);
+
+
 
 recipes.remove(<eplus:advanced_table>);
 recipes.remove(<eplus:table_upgrade>);

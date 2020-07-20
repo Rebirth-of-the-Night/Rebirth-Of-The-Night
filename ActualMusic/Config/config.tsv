@@ -15,8 +15,8 @@ locationCardsS+	1
 locationCardsS-	1
 locationCardsZ	1
 loopPoints	true
-mainVol	0.105960
-musVol	0.035211
+mainVol	1.000000
+musVol	0.000000
 pauseVol	50
 pauseVolMin	25
 pauseVolTime	60

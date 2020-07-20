@@ -5,6 +5,6 @@ title @a subtitle {"text":"Fragments of a lost empire echo around you...", "colo
 title @a title {"text":"Rebirth of the World", "bold":false, "italic":true, "color":"red"}
 gamestage silentadd @a killedEnderDragon
 gamestage silentadd @a fullDiamondArmor
-gamestage silentadd @a fullEarlyArmor
+gamestage silentadd @a killedHarvester
 gamestage silentadd @a fullMidArmor
 gamestage silentadd @a minedMythril

@@ -188,8 +188,53 @@ mods.betterwithaddons.Infuser.addShaped(<quark:soul_bead>, [
 
 // Slime Blocks
 
-recipes.addShapeless("mixed_green_slime_block",<minecraft:slime>,[<quark:color_slime:1>,<quark:color_slime:4>]);
 recipes.removeByRecipeName("quark:color_slime_4");
-recipes.addShapeless("dyed_yellow_slime_block",<quark:color_slime:4>,[<ore:blockSlime>,<ore:dyeYellow>]);
-recipes.addShapeless("dyed_cyan_slime_block",<quark:color_slime:2>,[<ore:blockSlime>,<ore:dyeCyan>]);
-recipes.addShapeless("dyed_magenta_slime_block",<quark:color_slime:3>,[<ore:blockSlime>,<ore:dyeMagenta>]);
+recipes.removeByRecipeName("quark:slime");
+
+
+recipes.addShaped("red_slime_block",<quark:color_slime:0>,[
+	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>],
+	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>],
+	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>]
+]);
+recipes.addShapeless("red_slimeball",<betterslimes:red_slime>*9,[<quark:color_slime:0>]);
+
+var blueSlimeList = <betterslimes:blue_slime>|<mod_lavacow:silky_sludge>;
+recipes.addShaped("blue_slime_block",<quark:color_slime:1>,[
+	[blueSlimeList,blueSlimeList,blueSlimeList],
+	[blueSlimeList,blueSlimeList,blueSlimeList],
+	[blueSlimeList,blueSlimeList,blueSlimeList]
+]);
+recipes.addShapeless("blue_slimeball",<betterslimes:blue_slime>*9,[<quark:color_slime:1>]);
+
+recipes.addShaped("magenta_slime_block",<quark:color_slime:3>,[
+	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>],
+	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>],
+	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>]
+]);
+recipes.addShapeless("purple_slimeball",<betterslimes:purple_slime>*9,[<quark:color_slime:3>]);
+
+recipes.addShaped("yellow_slime_block",<quark:color_slime:4>,[
+	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>],
+	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>],
+	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>]
+]);
+recipes.addShapeless("yellow_slimeball",<betterslimes:yellow_slime>*9,[<quark:color_slime:4>]);
+
+recipes.addShapeless("black_slimeball",<betterslimes:black_slime>*9,[<quark:color_slime:2>]);
+
+recipes.remove(<quark:redstone_randomizer>);
+recipes.addShaped("quark_randomizer", <quark:redstone_randomizer>, [
+	[null, <minecraft:redstone_torch>, null],
+	[<minecraft:redstone_torch>, <cyclicmagic:dice>, <minecraft:redstone_torch>],
+	[<ore:stone>, <ore:stone>, <ore:stone>]
+]);
+
+// runes
+
+# remove all original quark rune recipes
+recipes.remove(<quark:rune:*>);
+
+# make quark runes non stackable
+val quarkrune = (<quark:rune:*>);
+quarkrune.maxStackSize = 1;

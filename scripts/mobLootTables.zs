@@ -12,8 +12,10 @@ import crafttweaker.entity.IEntityDefinition;
 val irongolem = LootTables.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
+mods.ltt.LootTable.removeGlobalItem("minecraft:spawn_egg");
+
 <entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3);
-<entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,5);
+<entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,3);
 
 // double security for godswords... you know... I have trust issues after those rough few patches
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:dawn_star");
@@ -31,6 +33,7 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_candy");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_infinity");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_keyblade");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
+mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_molten");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
@@ -43,24 +46,53 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 <entity:iceandfire:if_troll>.addPlayerOnlyDrop(<iceandfire:troll_skull>, 1, 1);
 <entity:iceandfire:cyclops>.addPlayerOnlyDrop(<iceandfire:cyclops_skull>, 1, 1);
 
+//Mowzies
 //skydrake
 <entity:mowziesmobs:naga>.addPlayerOnlyDrop(<mowziesmobs:naga_fang>, 1, 1);
 
-
-
+<entity:mowziesmobs:grottol>.addDrop(<arcanearchives:radiant_dust>,2,5);
+<entity:mowziesmobs:grottol>.addDrop(<arcanearchives:raw_quartz>,2,3);
 
 
 // aether
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
 
+
 // SpecialMobs
+val lemonSlime = LootTables.getTable("specialmobs:entities/slime/lemon");
+lemonSlime.clear();
+val strawberrySlime = LootTables.getTable("specialmobs:entities/slime/strawberry");
+strawberrySlime.clear();
+val blueberrySlime = LootTables.getTable("specialmobs:entities/slime/blueberry");
+blueberrySlime.clear();
+val blackberrySlime = LootTables.getTable("specialmobs:entities/slime/blackberry");
+blackberrySlime.clear();
+val watermelonSlime = LootTables.getTable("specialmobs:entities/slime/watermelon");
+watermelonSlime.clear();
+val grapeSlime = LootTables.getTable("specialmobs:entities/slime/grape");
+grapeSlime.clear();
+
+
+//BetterAnimals+
+<entity:betteranimalsplus:zotzpyre>.addDrop(<contenttweaker:monster_hide>,1,2);
+
+//DungeonTactics
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
+
+
+//Fish's Undead Rising
+mods.ltt.LootTable.removeGlobalItem("mod_lavacow:hyphae");
 
 //PrimitiveMobs ######################
+<entity:primitivemobs:harpy>.removeDrop(<minecraft:gold_nugget>);
+<entity:primitivemobs:grovesprite>.removeDrop(<primitivemobs:wonder_sap>);
+//<entity:primitivemobs:grovesprite>.addPlayerOnlyDrop(<primitivemobs:wonder_sap>, 0, 1);
+
 val gob = LootTables.getTable("primitivemobs:entities/goblin");
 val gobMain = gob.getPool("goblin_drops");
 gobMain.removeEntry("minecraft:iron_ingot");
-val gob1 = gob.addPool("gob1", 1, 1, 0, 0);
-gob1.addItemEntryHelper(<minecraft:leather>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
+val gob1 = gob.addPool("gob1", 1, 1, 1, 2);
+gob1.addItemEntryHelper(<contenttweaker:tattered_hide>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
 
 // Treasure Slime
 val lootSlime = LootTables.getTable("primitivemobs:entities/special/treasure_slime");

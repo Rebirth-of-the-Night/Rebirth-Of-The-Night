@@ -2,6 +2,9 @@
   "materialMappings": {
     "viridium_molten": 11,
     "tin_molten": 7,
+    "coade_stone_molten": 19,
+    "soul_forged_steel_molten": 17,
+    "onyx_alloy_molten": 18,
     "bronze_nugget": 1,
     "mythril_nugget": 8,
     "copper_nugget": 4,
@@ -12,10 +15,8 @@
     "electrum_molten": 15,
     "bronze_molten": 2,
     "bronze_ingot": 0,
-    "bronze_block": 3,
     "viridium_nugget": 10,
     "tin_nugget": 6,
-    "electrum_block": 14,
     "copper_molten": 5
   }
 }

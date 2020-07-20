@@ -4,7 +4,7 @@ setDescription("Complete the Chivalry Is Not Dead set.")
 
 addParent("triumph:advancements/setbonuses/leatherarmor")
 
-addRewardFunction("triumph:fullEarlyArmor")
+// addRewardFunction("triumph:killedHarvester")
 
 criteria = addCriteria("Chainmail Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:chainmail_helmet")

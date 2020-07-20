@@ -1,0 +1,7 @@
+{
+  "name": "Base Defense",
+  "description": "All of it are belong to us",
+  "icon": "dungeontactics:trap_clamp",
+  "sortnum": 0,
+  "parent": "construction"
+}

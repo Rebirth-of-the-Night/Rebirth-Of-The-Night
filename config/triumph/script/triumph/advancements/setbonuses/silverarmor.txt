@@ -4,7 +4,7 @@ setDescription("Complete the Knight In Shining Armor set.")
 
 addParent("triumph:advancements/setbonuses/ironarmor")
 
-addRewardFunction("triumph:fullEarlyArmor")
+// addRewardFunction("triumph:killedHarvester")
 
 criteria = addCriteria("Silver Helmet", "minecraft:inventory_changed")
 criteria.addItem("iceandfire:armor_silver_metal_helmet")

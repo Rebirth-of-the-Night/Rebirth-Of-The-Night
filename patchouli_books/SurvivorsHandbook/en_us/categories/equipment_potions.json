@@ -1,0 +1,7 @@
+{
+  "name": "Alchemy and Potions",
+  "description": "I am going into battle and have need of your finest potions.",
+  "icon": "minecraft:potion",
+  "sortnum": 3,
+  "parent": "equipment"
+}

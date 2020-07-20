@@ -79,6 +79,31 @@ Dropt.list("blood_tainted_gold")
   );
 */ 
 
+Dropt.list("light_essence")
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:biome_block"])
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1), "EXCLUDED", 0)
+          .items([<biomesoplenty:biome_essence>])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10), "EXCLUDED", 1)
+          .items([<biomesoplenty:biome_essence>], Dropt.range(1, 2))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100), "EXCLUDED", 2)
+          .items([<biomesoplenty:biome_essence>], Dropt.range(1, 3))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000), "EXCLUDED", 3)
+          .items([<biomesoplenty:biome_essence>], Dropt.range(2, 3))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1), "REQUIRED", 0)
+          .items([<biomesoplenty:biome_block>])
+      )
+  );
+
 Dropt.list("Well_Worth")
 
   .add(Dropt.rule()
@@ -113,7 +138,55 @@ Dropt.list("clovers")
           .selector(Dropt.weight(10)) // unlucky clover
        	   .items([<contenttweaker:5leaf_clover>])
       )
-  );  
+  );
+/*
+Dropt.list("nest_grubs")
+
+  .add(Dropt.rule()
+      .matchBlocks(["futuremc:bee_nest"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(200)) // drops nothing if selected
+      )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // grub
+       	   .items([<harvestcraft:grubitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // wax
+       	   .items([<harvestcraft:waxcombitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(80)) // grub and wax
+       	   .items([<harvestcraft:grubitem>, <harvestcraft:waxcombitem>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50)) // alright double prizes
+       	   .items([<harvestcraft:grubitem>*2])
+      )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5)) // spoils of war 1
+       	   .items([<mod_lavacow:poisonstinger>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1)) // spoils of war 2
+       	   .items([<betteranimalsplus:bearhead_1>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)) // sweetest prize
+       	   .items([<aether_legacy:ambrosium_shard>])
+      )
+  );   
+*/
+  
+Dropt.list("decayed_scaffolding")	
+
+  .add(Dropt.rule()	
+      .matchBlocks(["cyclicmagic:block_fragile"])	
+      .matchDrops([<cyclicmagic:block_fragile>])	
+      .replaceStrategy("REPLACE_ITEMS")	
+      .addDrop(Dropt.drop())	
+  );
 
 Dropt.list("plants_basic")
 

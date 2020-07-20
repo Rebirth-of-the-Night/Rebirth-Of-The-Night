@@ -60,7 +60,6 @@ recipes.remove(<pyrotech:cog_flint>);
 recipes.remove(<pyrotech:thatch>);
 recipes.remove(<pyrotech:limestone>);
 recipes.remove(<pyrotech:charcoal_block>);
-recipes.remove(<pyrotech:coal_coke_block>);
 recipes.remove(<pyrotech:worktable_stone>);
 recipes.remove(<pyrotech:beetroot_roasted>);
 recipes.remove(<pyrotech:egg_roasted>);
@@ -101,7 +100,6 @@ furnace.remove(<pyrotech:material:15>);
 //Simplified recipes
 val stone = <ore:stone>;
 val stoneBrick = <pyrotech:material:16>;
-val clayBrick = <ore:ingotBrick>;
 val dry = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
@@ -115,12 +113,12 @@ recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 
 recipes.addShaped("twineToString", <minecraft:string>*3,
 [[twine,twine,twine]]);
-recipes.addShaped("pyro_stone_brick", stoneBrick*2,
+recipes.addShaped("pyro_stone_brick", stoneBrick*8,
 [[<ore:stone>],
 [<ore:stone>]]);
-recipes.addShaped("pyrorock_stone_brick", stoneBrick*1,
-[[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>],
-[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]]);
+recipes.addShaped("pyrorock_stone_brick", stoneBrick*2,
+[[<pyrotech:rock:0>],
+[<pyrotech:rock:0>]]);
 recipes.addShaped("pyro_stone_kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [stoneBrick,<minecraft:furnace>,stoneBrick],
@@ -133,17 +131,17 @@ recipes.addShaped("pyro_steel_anvil", <pyrotech:anvil_iron_plated>,
  [[<ore:plateSoulforgedSteel>],
   [<pyrotech:anvil_granite>]]);
 <pyrotech:anvil_iron_plated>.displayName = "Refined Plating Anvil";
-recipes.addShaped("pyro_brick_kiln", <pyrotech:brick_kiln>,
- [[clayBrick,clayBrick,clayBrick],
-  [clayBrick,<minecraft:furnace> | <pyrotech:stone_kiln>,clayBrick],
-  [clayBrick,<minecraft:brick_block>,clayBrick]]);
+recipes.addShaped("pyro_refractory_brick_kiln", <pyrotech:brick_kiln>,
+ [[<pyrotech:material:5>,<pyrotech:material:5>,<pyrotech:material:5>],
+  [<pyrotech:material:5>,<minecraft:furnace> | <pyrotech:stone_kiln>,<pyrotech:material:5>],
+  [<pyrotech:material:5>,<pyrotech:refractory_brick_block>,<pyrotech:material:5>]]);
 recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
  [[<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("compacting_bin", <pyrotech:compacting_bin>,
- [[null,<minecraftfuture:composter>,null],
-  [<ore:stoneSlab>,<minecraftfuture:composter>,<ore:stoneSlab>],
+ [[null,<futuremc:composter>,null],
+  [<ore:stoneSlab>,<futuremc:composter>,<ore:stoneSlab>],
   [<ore:stoneSlab>,<ore:slabWood>,<ore:stoneSlab>]]);
 recipes.addShaped("potash_mulch1", <pyrotech:mulch>*4,
  [[<pyrotech:rock:7>,<biomesoplenty:ash>,<pyrotech:rock:7>],
@@ -211,6 +209,11 @@ recipes.addShaped("masonry_stoneBricks", <minecraft:stonebrick:2>,
 recipes.addShaped("masonry_refractoryBricks", <pyrotech:refractory_brick_block>, 
 [[<pyrotech:material:5>, <pyrotech:material:5>],
 [<pyrotech:material:5>, <pyrotech:material:5>]]);
+recipes.addShaped("refractoryBlock", <contenttweaker:unfiredrefractory>, 
+[[<pyrotech:material:4>, <pyrotech:material:4>],
+[<pyrotech:material:4>, <pyrotech:material:4>]]);
+recipes.addShapeless("refractoryfromblock", <pyrotech:material:4>*4,[<contenttweaker:unfiredrefractory>]);
+furnace.addRecipe(<contenttweaker:firedrefractory>, <contenttweaker:unfiredrefractory>);
 recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
  [[stoneBrick,null,stoneBrick],
@@ -253,6 +256,11 @@ recipes.addShaped("refractory_drain", <pyrotech:tar_drain:1>,
 recipes.addShaped("Standing_dryingrack", <pyrotech:drying_rack:1>,
  [[null,ladder,null],
   [ladder,null,ladder]]);
+recipes.addShaped("coalcoke_block", <pyrotech:charcoal_block>,
+[[<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>],
+[<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>],
+[<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>]]);
+recipes.addShapeless("coalcoke_from_block", <pyrotech:material:1>*9,[<pyrotech:charcoal_block>]);
   
 //hammers
 recipes.addShaped("stone_sledgehammer", <pyrotech:stone_hammer>,
@@ -263,5 +271,11 @@ recipes.addShaped("iron_sledgehammer", <pyrotech:iron_hammer>,
  [[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
   [<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
   [null,<ore:stickWood>,null]]);
+recipes.addShaped("steel_sledgehammer", <pyrotech:flint_hammer>,
+ [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+  [<ore:ingotSteel>,<ore:stickWood>,<ore:ingotSteel>],
+  [null,<ore:stickWood>,null]]);
+recipes.addShaped("mythril_sledgehammer", <pyrotech:bone_hammer>,
+ [[<simpleores:mythril_rod>,<pyrotech:diamond_hammer>,<simpleores:mythril_rod>]]);
 recipes.addShaped("onyx_sledgehammer", <pyrotech:obsidian_hammer>,
  [[<simpleores:onyx_rod>,<pyrotech:diamond_hammer>,<simpleores:onyx_rod>]]);

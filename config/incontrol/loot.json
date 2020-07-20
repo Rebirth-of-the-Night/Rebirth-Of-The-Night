@@ -7,6 +7,227 @@
       "random": "0.1"
    },
 
+   // Slimes
+   // Lime Slime
+   {
+      "mob": "minecraft:slime",
+      "player": true,
+      "item": "harvestcraft:limeitem",
+      "itemcount": "1"
+   },
+   {
+      "mob": "minecraft:slime",
+      "player": true,
+      "item": "quark:rune:5",
+      "itemcount": "1",
+      "random": "0.03"
+   },
+   {
+      "mob": "minecraft:slime",
+      "player": true,
+      "item": "harvestcraft:slimegummiesitem",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
+   // Brain Slime
+   {
+      "mob": "primitivemobs:brain_slime",
+      "player": true,
+      "item": "contenttweaker:brain",
+      "itemcount": "1"
+   },
+
+   // Lemon Slime
+   {
+      "mob": "specialmobs:lemonslime",
+      "player": true,
+      "item": "betterslimes:yellow_slime",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:lemonslime",
+      "player": true,
+      "item": "harvestcraft:lemonitem",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:lemonslime",
+      "player": true,
+      "item": "quark:rune:4",
+      "itemcount": "1",
+      "random": "0.03"
+   },
+   {
+      "mob": "specialmobs:lemonslime",
+      "player": true,
+      "item": "harvestcraft:slimegummiesitem",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
+
+
+   // Grape Slime
+   {
+      "mob": "specialmobs:grapeslime",
+      "player": true,
+      "item": "betterslimes:purple_slime",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:grapeslime",
+      "player": true,
+      "item": "harvestcraft:grapeitem",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:grapeslime",
+      "player": true,
+      "item": "quark:rune:10",
+      "itemcount": "1",
+      "random": "0.03"
+   },
+   {
+      "mob": "specialmobs:grapeslime",
+      "player": true,
+      "item": "harvestcraft:slimegummiesitem",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
+   // Blueberry Slime
+   {
+      "mob": "specialmobs:blueberryslime",
+      "player": true,
+      "item": "betterslimes:blue_slime",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:blueberryslime",
+      "player": true,
+      "item": "harvestcraft:blueberryitem",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:blueberryslime",
+      "player": true,
+      "item": "quark:rune:11",
+      "itemcount": "1",
+      "random": "0.03"
+   },
+   {
+      "mob": "specialmobs:blueberryslime",
+      "player": true,
+      "item": "harvestcraft:slimegummiesitem",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
+   // Blackberry Slime
+   {
+      "mob": "specialmobs:blackberryslime",
+      "player": true,
+      "item": "betterslimes:black_slime",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:blackberryslime",
+      "player": true,
+      "item": "harvestcraft:blackberryitem",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:blackberryslime",
+      "player": true,
+      "item": "quark:rune:15",
+      "itemcount": "1",
+      "random": "0.03"
+   },
+   {
+      "mob": "specialmobs:blackberryslime",
+      "player": true,
+      "item": "harvestcraft:slimegummiesitem",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
+
+
+   // Strawberry Slime
+   {
+      "mob": "specialmobs:strawberryslime",
+      "player": true,
+      "item": "betterslimes:red_slime",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:strawberryslime",
+      "player": true,
+      "item": "harvestcraft:strawberryitem",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:strawberryslime",
+      "player": true,
+      "item": "quark:rune:14",
+      "itemcount": "1",
+      "random": "0.03"
+   },
+   {
+      "mob": "specialmobs:strawberryslime",
+      "player": true,
+      "item": "harvestcraft:slimegummiesitem",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
+
+   // Watermelon Slime
+   {
+      "mob": "specialmobs:watermelonslime",
+      "player": true,
+      "item": "betterslimes:red_slime",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:watermelonslime",
+      "player": true,
+      "item": "minecraft:slime_ball",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:watermelonslime",
+      "player": true,
+      "item": "quark:rune:16",
+      "itemcount": "1",
+      "random": "0.03"
+   },
+   {
+      "mob": "specialmobs:watermelonslime",
+      "player": true,
+      "item": "harvestcraft:slimegummiesitem",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
+   
+
+   // Harvester
+   {
+   "mob": "harvestersnight:harvester",
+   "player": true,
+   "item": "bountifulbaubles:crowngold",
+   "itemcount": "1"
+   },
+   {
+      "mob": "harvestersnight:harvester",
+      "player": true,
+      "item": "scalinghealth:crystalshard",
+      "itemcount": "1",
+      "random": "0.50"
+   },
+
 
 	// Ghast Queen Drops
 	{
@@ -339,5 +560,13 @@
       "player": true,
       "item": "endreborn:food_ender_flesh",
       "itemcount": "1-2"
+   },
+
+   {
+      "mob": "mod_lavacow:undeadswine",
+      "player": true,
+      "item": "mod_lavacow:undyingheart",
+      "itemcount": "1",
+      "random": "0.1"
    }
 ]

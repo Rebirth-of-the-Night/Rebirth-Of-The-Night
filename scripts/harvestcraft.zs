@@ -284,3 +284,11 @@ mods.betterwithmods.Mill.addRecipe([<ore:listAllporkraw>],[<harvestcraft:groundp
 mods.betterwithmods.Mill.addRecipe([<ore:listAllrabbitraw>],[<harvestcraft:groundrabbititem>*2]);
 mods.betterwithmods.Mill.addRecipe([<ore:listAllturkeyraw>],[<harvestcraft:groundturkeyitem>*2]);
 mods.betterwithmods.Mill.addRecipe([<ore:listAllvenisonraw>],[<harvestcraft:groundvenisonitem>*2]);
+
+// Food block forms (still dunno why we can harvest them but might as well put them to use)
+val affectedBlocks = ["tamarind","lychee","guava","breadfruit","rambutan","jackfruit","passionfruit","soursop","pawpaw","hazelnut"] as string[];
+for variant in affectedBlocks {
+	print("harvestcraft:"~variant~"item");
+	print("harvestcraft:pam"~variant);
+	recipes.addShapeless("harvestcraft_block_to_food_"~variant, itemUtils.getItem("harvestcraft:"~variant~"item"), [itemUtils.getItem("harvestcraft:pam"~variant)]);
+}

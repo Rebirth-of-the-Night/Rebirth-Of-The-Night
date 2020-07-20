@@ -42,3 +42,17 @@ recipes.remove(<doggytalents:multicoloured_collar>);
 recipes.addShapeless("multicolored_collar>",<doggytalents:multicoloured_collar>,
     [<doggytalents:wool_collar>,<ore:dyeBlue>,<ore:dyeLime>,<ore:dyeYellow>,<ore:dyeOrange>,<ore:dyeRed>,<ore:dyePurple>,<minecraft:string>]
 );
+
+recipes.removeByRecipeName("doggytalents:throw_stick");
+recipes.addShaped("throw_stick",<doggytalents:throw_stick>,[
+    [<ore:stickWood>,null,<ore:stickWood>],
+    [null,<ore:slimeball>,null],
+    [<ore:stickWood>,null,<ore:stickWood>]
+]);
+
+recipes.removeByRecipeName("doggytalents:throw_bone");
+recipes.addShaped("throw_bone",<doggytalents:throw_bone>,[
+    [<minecraft:bone>,null,<minecraft:bone>],
+    [null,<ore:slimeball>,null],
+    [<minecraft:bone>,null,<minecraft:bone>]
+]);

@@ -1,0 +1,22 @@
+{
+  "name": "Altar of Summoning",
+  "icon": "pyrotech:anvil_iron_plated",
+  "category": "slayers_journal_summoning",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "pyrotech:tech/basic/anvil_iron_plated",
+      "text": "$(l)$(#734608)Burning$() $(l)$(thing)magic-imbued totems$() $(l)$(#734608)on an $(item)Altar of Summoning$()$(#734608) $(l)calls monsters from beyond.$()$()" 
+    },
+	 {
+      "type": "text",
+      "text": "$(br2)$(l)$(#734608)The$() $(l)$(item)Altar of Summoning$() $(l)$(#734608)can be built anywhere, but requires delicate setup and is $(#ff0000)not easily transportable.$() $(l)$(#734608)I wouldn't recommend building one of these cursed things in the middle of your house. $()$()" 
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/soulfire_core"
+      ]
+    }
+  ]
+}

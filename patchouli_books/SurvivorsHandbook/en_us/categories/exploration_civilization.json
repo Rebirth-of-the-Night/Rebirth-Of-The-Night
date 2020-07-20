@@ -1,0 +1,7 @@
+{
+  "name": "Civilization",
+  "description": "sid meyer",
+  "icon": "minecraft:emerald",
+  "sortnum": 3,
+  "parent": "exploration"
+}

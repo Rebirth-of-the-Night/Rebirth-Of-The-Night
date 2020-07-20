@@ -59,7 +59,7 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "RARE",
+    "rarity": "UNCOMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -287,7 +287,7 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "RARE",
+    "rarity": "UNCOMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -450,7 +450,7 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "VERY_RARE",
+    "rarity": "UNCOMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -668,7 +668,9 @@
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
-    "items_list": [],
+    "items_list": [
+      "minecraft:elytra"
+    ],
     "description": []
   },
   {
@@ -705,7 +707,7 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "UNCOMMON",
+    "rarity": "COMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -2105,7 +2107,7 @@
     "applicability_mode": 1,
     "items_list_mode": 1,
     "items_list": [
-        "simpleores:mythril_bow"
+      "simpleores:mythril_bow"
     ],
     "description": []
   },
@@ -2171,7 +2173,7 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "UNCOMMON",
+    "rarity": "COMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
@@ -2310,8 +2312,8 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "VERY_RARE",
-    "treasure": false,
+    "rarity": "RARE",
+    "treasure": true,
     "double_price": false,
     "curse": false,
     "allowed_on_books": true,
@@ -2547,7 +2549,7 @@
     "applicability_mode": 1,
     "items_list_mode": 0,
     "items_list": [
-        "msmlegacy:dawn_star"
+      "msmlegacy:dawn_star"
     ],
     "description": []
   },
@@ -2934,7 +2936,9 @@
     "incompatible": [],
     "applicability_mode": 0,
     "items_list_mode": 0,
-    "items_list": [],
+    "items_list": [
+      "betterwithaddons:greatbow"
+    ],
     "description": []
   },
   {
@@ -3083,9 +3087,9 @@
     "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
-    "rarity": "UNCOMMON",
+    "rarity": "VERY_RARE",
     "treasure": false,
-    "double_price": false,
+    "double_price": true,
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
@@ -3380,8 +3384,8 @@
     "applicability_mode": 1,
     "items_list_mode": 1,
     "items_list": [
-        "msmlegacy:dawn_star",
-        "dungeontactics:silver_sword"
+      "msmlegacy:dawn_star",
+      "dungeontactics:silver_sword"
     ],
     "description": []
   },
@@ -3608,6 +3612,33 @@
     "description": []
   },
   {
+    "id": "cyclicmagic:enchantment.launch",
+    "name": "enchantment.launch",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 5,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "ARMOR",
+    "equipment_slots": [
+      "FEET"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
+    "description": []
+  },
+  {
     "id": "randomenchantments:torches",
     "name": "enchantment.torches",
     "enabled": false,
@@ -3717,8 +3748,36 @@
     "applicability_mode": 1,
     "items_list_mode": 1,
     "items_list": [
-        "msmlegacy:glacial_blade"
+      "msmlegacy:glacial_blade"
     ],
+    "description": []
+  },
+  {
+    "id": "mod_lavacow:corrosive",
+    "name": "enchantment.mod_lavacow.Corrosive",
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
+    "rarity": "UNCOMMON",
+    "treasure": false,
+    "double_price": false,
+    "curse": false,
+    "allowed_on_books": true,
+    "min_lvl": 1,
+    "max_lvl": 5,
+    "custom_evaluations": false,
+    "min_ench_eval": "1+LVL*10",
+    "max_ench_eval": "MIN+5",
+    "type": "WEAPON",
+    "equipment_slots": [
+      "MAINHAND",
+      "OFFHAND"
+    ],
+    "incompat_mode": 0,
+    "incompatible": [],
+    "applicability_mode": 0,
+    "items_list_mode": 0,
+    "items_list": [],
     "description": []
   },
   {
@@ -3969,14 +4028,14 @@
   {
     "id": "minecraft:sweeping",
     "name": "enchantment.sweeping",
-    "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
-    "rarity": "RARE",
+    "enabled": false,
+    "hide_on_item": true,
+    "hide_on_book": true,
+    "rarity": "UNCOMMON",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 3,
     "custom_evaluations": false,
@@ -4161,14 +4220,14 @@
   {
     "id": "randomenchantments:stonebound",
     "name": "enchantment.stonebound",
-    "enabled": true,
-    "hide_on_item": false,
-    "hide_on_book": false,
-    "rarity": "RARE",
+    "enabled": false,
+    "hide_on_item": true,
+    "hide_on_book": true,
+    "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,
     "curse": false,
-    "allowed_on_books": true,
+    "allowed_on_books": false,
     "min_lvl": 1,
     "max_lvl": 1,
     "custom_evaluations": false,

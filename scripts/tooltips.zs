@@ -1,3 +1,10 @@
+<bountifulbaubles:crowngold>.addTooltip("Used for summoning King Slime");
+
+
+<dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it");
+
+#Eplus
+<eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");
 
 #Boat tooltips
 <minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");
@@ -82,14 +89,41 @@
 #Quark
 <quark:soul_bead>.addTooltip("Holding this softly shimmering bead makes you feel uneasy.");
 <quark:horse_whistle>.addTooltip("Summons your trusty steed, even from a great distance away.");
-<quark:backpack>.addTooltip("An invaluable storage tool, although it must be worn in place of chest armor.");
 <quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
 <quark:iron_ladder>.addTooltip("Right click on a tin ladder to place another ladder below which doesn't require a standing block.");
+#Quark Hoes
+<minecraft:stone_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<minecraft:iron_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<minecraft:diamond_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<minecraft:golden_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<twilightforest:ironwood_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<twilightforest:steeleaf_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<betterwithmods:steel_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<atop:mud_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:silver_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonbone_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:myrmex_desert_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:myrmex_jungle_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonsteel_fire_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonsteel_ice_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<netherex:frosted_amedian_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<simpleores:mythril_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<simpleores:adamantium_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<simpleores:onyx_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 
 #Pyrotech
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
 <pyrotech:flint_and_tinder>.addTooltip("Not as convenient as a flint and steel.");
+<pyrotech:stash>.addTooltip("When a barrel just won't do.");
+<contenttweaker:firedrefractory>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 
+<pyrotech:bucket_stone>.removeTooltip("Uses:");
+<pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
+<pyrotech:coal_coke_block>.removeTooltip("Hold %s<SHIFT>%s for info.");
+<pyrotech:coal_coke_block>.removeTooltip("Efficiency:");
+<pyrotech:coal_coke_block>.removeTooltip("Bloomery:");
+<pyrotech:coal_coke_block>.removeTooltip("Wither Forge:");
+<pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
 
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
@@ -130,6 +164,11 @@
 <scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
 <scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
+<foundry:machine:2>.removeTooltip("Requires RF, FE, or Tesla to operate.");
+<foundry:machine:2>.addTooltip("Requires a Redstone signal to operate.");
+<foundry:machine:3>.removeTooltip("Requires RF, FE, or Tesla to operate.");
+<foundry:machine:3>.addTooltip("Requires a Redstone signal to operate.");
+
 <harvestcraft:well>.addTooltip("Infinite water source");
 <harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
@@ -147,8 +186,6 @@
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
 <dungeontactics:fan_block>.addShiftTooltip("Can be rotated.");
 
-<pyrotech:living_tar>.clearTooltip();
-
 <netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
 <dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");
@@ -158,7 +195,7 @@
 <dungeontactics:lantern_magic>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 
-<extraalchemy:potion_ring>.addTooltip("Consumes 3 or 6 xp every 30 seconds while active, depending on potion strength.");
+<extraalchemy:potion_ring>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
 <dungeontactics:magic_pouch>.addTooltip("Right-click to open.");
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
 
@@ -168,8 +205,6 @@
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "<" + format.gold("+") + "" + format.gray(">"));
 
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "<" + format.gold("+") + "" + format.gray(">"));
-
-<minecraft:stick>.addShiftTooltip("Can be obtained from leaves.", "<" + format.gold("+") + "" + format.gray(">"));
 
 //Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");

@@ -15,6 +15,8 @@ mods.jei.JEI.removeAndHide(<endreborn:block_end_forge>);
 mods.jei.JEI.removeAndHide(<endreborn:block_rune>);
 mods.jei.JEI.removeAndHide(<endreborn:item_world_mirror>);
 mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
+mods.jei.JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}));
+recipes.removeByRecipeName("endreborn:book");
 
 <endreborn:sword_shard>.addTooltip("Rare drop from End Guards");
 
@@ -22,6 +24,9 @@ mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
 // Anvil.addRecipe(IIngredient left, IIngredient right, IItemStack output, int cost, @Optional IRecipeFunction function)
 var endoriumItems = <endreborn:tool_sword_endorium> | <endreborn:ender_sword> | <endreborn:tool_magnifier>;
 mods.vanillaanvilrepair.addRepairEntry(endoriumItems, <endreborn:item_ingot_endorium>);
+
+var obsidianArmor = <endreborn:armour_chestplate_obsidian> | <endreborn:armour_leggings_obsidian> | <endreborn:armour_boots_obsidian> | <endreborn:armour_helmet_helmet>;
+mods.vanillaanvilrepair.addRepairEntry(obsidianArmor, <endreborn:item_shard_obsidian>);
 
 mods.jei.JEI.removeAndHide(<endreborn:armour_helmet_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
@@ -35,6 +40,7 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_endreborn_block_
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium_ore");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");
+mods.ltt.LootTable.removeGlobalItem("endreborn:wolframium_nugget");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_shovel_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_axe_wolframium");
@@ -80,6 +86,7 @@ mods.betterwithaddons.Infuser.addShaped(<endreborn:tool_magnifier>, [
 
 
 mods.jei.JEI.removeAndHide(<endreborn:item_ingot_wolframium>);
+mods.jei.JEI.removeAndHide(<endreborn:wolframium_nugget>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_wolframium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_sword_wolframium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_wolframium>);
@@ -143,3 +150,11 @@ recipes.addShaped("Purpur Lamp", <endreborn:block_purpur_lamp>,[
     [<minecraft:glass_pane>, <endreborn:block_end_magma>, <minecraft:glass_pane>],
     [<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>]
 ]);
+
+//changes to end rune behavior
+recipes.remove(<endreborn:item_end_rune>);
+val endrune = <endreborn:item_end_rune>;
+endrune.maxStackSize = 1;
+endrune.maxDamage = 8;
+
+game.setLocalization("item.item_end_rune.name","Rune of End");

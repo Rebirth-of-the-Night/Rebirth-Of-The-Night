@@ -4,4 +4,4 @@ title @p times 40 120 60
 title @p subtitle {"text":"The wind howls, carrying a dread cold...", "color":"yellow"}
 title @p title {"text":"The Aether", "bold":false, "italic":false, "color":"white"}
 gamestage silentadd @a enteredAether
-gamestage silentadd @a fullEarlyArmor
+gamestage silentadd @a killedHarvester

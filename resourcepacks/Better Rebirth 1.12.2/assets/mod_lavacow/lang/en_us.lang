@@ -59,6 +59,6 @@ tootip.mod_lavacow.dreamcatcher=Has a chance to trap nightmarish creatures from 
 ################
 # Enchantments #
 ################
-enchantment.endreborn.poisonous.desc=Inflicts target with poison.
-
+enchantment.mod_lavacow.poisonous.desc=Inflicts certain targets with poison.
+enchantment.mod_lavacow.corrosive.desc=Causes targets to recieve more damage. (+20 percent per level)
 

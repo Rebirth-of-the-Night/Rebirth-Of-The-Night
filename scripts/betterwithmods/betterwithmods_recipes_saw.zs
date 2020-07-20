@@ -59,7 +59,7 @@ mods.betterwithmods.Saw.add(<minecraft:log:1>,[<minecraft:planks:1>*5,<betterwit
 mods.betterwithmods.Saw.add(<minecraft:log:2>,[<minecraft:planks:2>*5,<betterwithmods:bark:2>*8,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<minecraft:log:3>,[<minecraft:planks:3>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<minecraft:log2:0>,[<minecraft:planks:4>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
-mods.betterwithmods.Saw.add(<minecraft:log2:1>,[<minecraft:planks:3>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
+mods.betterwithmods.Saw.add(<minecraft:log2:1>,[<minecraft:planks:5>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<biomesoplenty:log_0:4>,[<biomesoplenty:planks_0>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<biomesoplenty:log_0:5>,[<biomesoplenty:planks_0:1>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<biomesoplenty:log_0:6>,[<biomesoplenty:planks_0:2>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
@@ -90,3 +90,4 @@ mods.betterwithmods.Saw.add(<twilightforest:magic_log:0>,[<twilightforest:time_p
 mods.betterwithmods.Saw.add(<twilightforest:magic_log:1>,[<twilightforest:trans_planks>*5,<betterwithmods:bark:0>*5,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
 mods.betterwithmods.Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<betterwithmods:bark:0>*3,<pyrotech:rock:7>*2]);
+mods.betterwithmods.Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*6,<minecraft:redstone>,<pyrotech:rock:7>*2]);

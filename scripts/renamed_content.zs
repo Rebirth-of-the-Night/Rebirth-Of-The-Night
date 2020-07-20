@@ -2,6 +2,12 @@ import crafttweaker.game.IGame;
 
 
 
+// Slimes
+<minecraft:slime_ball>.displayName = "Green Slimeball";
+<contenttweaker:brain>.displayName = "Brain";
+<quark:color_slime:2>.displayName = "Black Slime Block";
+<quark:color_slime:3>.displayName = "Purple Slime Block";
+
 
 
 // Aether Legacy
@@ -30,10 +36,16 @@ import crafttweaker.game.IGame;
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
+// Atlas
+<antiqueatlas:empty_antique_atlas>.displayName = "Empty Atlas";
+<antiqueatlas:antique_atlas>.displayName = "Atlas";
+
+
 //Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
+<betterwithaddons:lattice:0>.displayName = "Iron Lattice Block";
 
-//Biomes o'Plenty
+//Biomes o Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
 <biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
@@ -46,20 +58,23 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
 
-<golems:info_book>.displayName = "§bTome of Golemancy";
-<golems:info_book>.addTooltip(format.aqua("Guidebook"));
-<golems:info_book>.addTooltip("Fantastic golems and how to build them.");
-
 <betterwithmods:manual>.displayName = "§bMechanist's Journal";
 <betterwithmods:manual>.addTooltip(format.aqua("Guidebook"));
 <betterwithmods:manual>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
 
-<arcanearchives:tome_arcana>.displayName = "§bTome of Radiant Arcana";
+<arcanearchives:tome_arcana>.removeTooltip("(Provides documentation for Arcane Archives.)");
+<arcanearchives:tome_arcana:*>.displayName = "§bTome of Radiant Arcana";
 <arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
+<arcanearchives:tome_arcana>.addTooltip("How to store your items efficiently.");
 
 <rustic:book>.displayName = "§bAlmanac of the Farmer";
 <rustic:book>.addTooltip(format.aqua("Guidebook"));
-<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate efficiently.");
+<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate your home.");
+
+// removed these, leaving the following for now
+// <golems:info_book>.displayName = "§bTome of Golemancy";
+// <golems:info_book>.addTooltip(format.aqua("Guidebook"));
+// <golems:info_book>.addTooltip("Fantastic golems and how to build them.");
 
 // Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironroot Arming Sword";
@@ -125,11 +140,40 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:andesite_speleothem>.displayName = "Gray Andesite Speleothem";
 <quark:end_bricks_slab:*>.displayName = "End Stone Brick Slab";
 <quark:iron_rod>.displayName = "Soul Forged Steel Rod";
+<quark:redstone_randomizer>.displayName = "Simple Randomizer";
 
 // Ice And Fire: Dragons in a Whole New Light
 <iceandfire:chain>.displayName = "Refined Chain";
 <iceandfire:ash>.displayName = "Fiery Ash";
 <iceandfire:podium:0>.displayName = "Wooden Podium";
+<iceandfire:stymphalian_bird_dagger>.displayName = "Stymphalian Knife";
+
+// End Reborn
+<endreborn:catalyst>.displayName = "Obsidian Dust";
+<endreborn:catalyst>.removeTooltip("catalyst");
+<endreborn:food_ender_flesh>.displayName = "Ender Flesh";
+
+// Cyclic
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
+<cyclicmagic:horse_upgrade_variant>.displayName = "Variable Haw";
+<cyclicmagic:horse_upgrade_jump>.displayName = "Jumpy Haw";
+<cyclicmagic:horse_upgrade_speed>.displayName = "Fast Haw";
+<cyclicmagic:horse_upgrade_health>.displayName = "Healthy Haw";
+<cyclicmagic:horse_upgrade_type>.displayName = "Strange Haw";
+<cyclicmagic:corrupted_chorus>.displayName = "Chorus Bead";
+<cyclicmagic:card_location>.displayName = "Block Locator";
+<cyclicmagic:apple_emerald>.displayName = "Merchant's Cure";
+<cyclicmagic:apple_lapis>.displayName = "Deadhorse Delight";
+<cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
+<cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
+
+// ProjectRed
+<projectred-core:resource_item:251>.displayName = "Red Alloy Compound";
+<projectred-integration:gate:10>.displayName = "Enhanced Redstone Repeater";
+<projectred-integration:gate:11>.displayName = "Enhanced Randomizer";
+<projectred-integration:gate:20>.displayName = "Running Timer";
+<projectred-integration:gate:33>.displayName = "Selective Enhanced Randomizer";
+<projectred-integration:gate:31>.displayName = "Stacking Latch";
 
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
@@ -152,20 +196,23 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <minecraft:cobblestone_wall:1>.displayName = "Moss Cobblestone Wall";
 <minecraft:stone:5>.displayName = "Gray Andesite";
 <minecraft:stone:6>.displayName = "Polished Gray Andesite";
-<minecraft:wooden_door>.displayName = "Wooden Door";
-<minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
-<minecraft:trapdoor>.displayName = "Wooden Trapdoor";
-<minecraft:boat>.displayName = "Wooden Boat";
-<minecraft:wooden_button>.displayName = "Wooden Button";
-<minecraft:bookshelf>.displayName = "Wooden Bookshelf";
-<minecraft:oak_stairs>.displayName = "Wooden Stairs";
-<minecraft:wooden_slab:*>.displayName = "Wooden Slab";
-<minecraft:fence>.displayName = "Wooden Fence";
-<minecraft:fence_gate>.displayName = "Wooden Fence Gate";
-<minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
+
+
+// wwhy? this is inconsistent
+// <minecraft:wooden_door>.displayName = "Wooden Door";
+// <minecraft:trapped_chest>.displayName = "Wooden Trapped Chest";
+// <minecraft:trapdoor>.displayName = "Wooden Trapdoor";
+// <minecraft:boat>.displayName = "Wooden Boat";
+// <minecraft:wooden_button>.displayName = "Wooden Button";
+// <minecraft:bookshelf>.displayName = "Wooden Bookshelf";
+// <minecraft:oak_stairs>.displayName = "Wooden Stairs";
+// <minecraft:wooden_slab:*>.displayName = "Wooden Slab";
+// <minecraft:fence>.displayName = "Wooden Fence";
+// <minecraft:fence_gate>.displayName = "Wooden Fence Gate";
+// <minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
 
 // Minecraft Future
-<minecraftfuture:andesite_wall>.displayName = "Gray Andesite Wall";
+<futuremc:andesite_wall>.displayName = "Gray Andesite Wall";
 
 
 // Macaws Bridges
@@ -265,19 +312,19 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
 <pyrotech:iron_hammer>.displayName = "Iron Sledgehammer";
 <pyrotech:diamond_hammer>.displayName = "Refined Sledgehammer";
+<pyrotech:bone_hammer>.displayName = "§6Mythril Sledgehammer";
 <pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
 <pyrotech:material:2>.displayName = "Dried Jute";
 <pyrotech:material>.displayName = "Big Pile of Ash Remains";
 <pyrotech:brick_kiln>.displayName = "Brick Kiln";
 <pyrotech:material:35>.displayName = "Lump of Refractory Material";
 <pyrotech:material:4>.displayName = "Refractory Material";
-game.setLocalization("tile.pyrotech:anvil_granite.name","Multi-Purpose Stone Anvil");
-game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anvil");
 
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
 <animania:bee_hive>.displayName = "Wooden Beehive";
+<animania:salt>.displayName = "Crystal Salt";
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Return Potion";
@@ -342,6 +389,8 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 
 <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
 
+<deadmanssatchel:deadmanssatchel>.displayName = "Dust Sorting Satchel";
+<deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
@@ -349,6 +398,31 @@ game.setLocalization("tile.pyrotech:anvil_iron_plated.name","Refined Plating Anv
 <betteranimalsplus:fried_egg>.displayName = "Baked Egg";
 
 #Rare
+<dungeontactics:high_striker>.displayName = "§2High Striker";
+<dungeontactics:high_striker>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:wackerjab>.displayName = "§2Wackerjab";
+<dungeontactics:wackerjab>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:taser>.displayName = "§2Taser";
+<dungeontactics:taser>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:claws>.displayName = "§2Claws";
+<dungeontactics:claws>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:pirate_hook>.displayName = "§2Pirate Hook";
+<dungeontactics:pirate_hook>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:coin_cannon>.displayName = "§2Coin Cannon";
+<dungeontactics:coin_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
+
+<dungeontactics:backfire_cannon>.displayName = "§2Backfire Cannon";
+<dungeontactics:backfire_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
+
+
+
+
+
 <simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");

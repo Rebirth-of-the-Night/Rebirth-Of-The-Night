@@ -14,10 +14,10 @@
 		"logo":
         {
             "image" : "rotn:textures/rotn.png",
-            "posX" : 30,
-            "posY" : 20,
-            "width" : 512,
-            "height" : 512,
+            "posX" : 20,
+            "posY" : -25,
+            "width" : 320,
+            "height" : 180,
             "alignment" : "top_left"
         },
         "akliz":
@@ -340,11 +340,16 @@
     "labels":
     {
         "packName": {
-            "text": "Version 2.78",
+            "text": "Version 2.78 (In Development)",
             "posX": 2,
             "posY": -10,
             "color": 450,
-            "alignment": "bottom_left"
+            "alignment": "bottom_left",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://docs.google.com/document/d/1DGgt4OBx-Vyy3vyT_wgUjjxrXDPFhBpkS9M11shZKAE/edit?usp=sharing"
+            }
         }
     },
 
@@ -352,10 +357,11 @@
     {
         "splash-text":
         {
-            "posX" : -40,
-            "posY" : 70,
+            "posX" : 275,
+            "posY" : 110,
             "color" : -256,
-            "alignment" : "top_center",
+            "alignment" : "top_left",
+            "color" : "16737380",
             "texts" : "file:minecraft:texts/splashes.txt"
         },
     

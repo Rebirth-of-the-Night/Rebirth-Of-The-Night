@@ -1,6 +1,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.data.IData;
 import mods.jei.JEI;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 furnace.addRecipe(<betterwithmods:cooking_pot>, <betterwithmods:unfired_pottery>);
 
@@ -195,7 +198,7 @@ mods.betterwithmods.Crucible.addUnstoked(
         <ore:blockCopper>
     ],
     [
-        <ore:blockBronze>.firstItem*4
+        <contenttweaker:block_bronze>*4
     ]
 );
 mods.betterwithmods.Crucible.addUnstoked(
@@ -218,7 +221,7 @@ mods.betterwithmods.Crucible.addStoked(
         <ore:blockCopper>
     ],
     [
-        <ore:blockBronze>.firstItem*4
+        <contenttweaker:block_bronze>*4
     ]
 );
 mods.betterwithmods.Crucible.addStoked(
@@ -242,7 +245,7 @@ mods.betterwithmods.Crucible.addUnstoked(
         <aether_legacy:ambrosium_block>
     ],
     [
-        <ore:blockElectrum>.firstItem*4
+        <contenttweaker:block_electrum>*4
     ]
 );
 mods.betterwithmods.Crucible.addUnstoked(
@@ -265,7 +268,7 @@ mods.betterwithmods.Crucible.addStoked(
         <aether_legacy:ambrosium_block>
     ],
     [
-        <ore:blockElectrum>.firstItem*4
+        <contenttweaker:block_electrum>*4
     ]
 );
 mods.betterwithmods.Crucible.addStoked(
@@ -631,6 +634,6 @@ mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_shovel:*>],[mythril*
 mods.betterwithmods.Crucible.addStoked([<spartancompat:lance_mythril:*>],[mythril*27]);
 mods.betterwithmods.Crucible.addStoked([<spartancompat:longsword_mythril:*>],[mythril*45]);
 mods.betterwithmods.Crucible.addStoked([<spartancompat:rapier_mythril:*>],[mythril*45]);
-mods.betterwithmods.Crucible.addStoked([<spartancompat:boomerang_mythril:*>],[mythril*45]);
+mods.betterwithmods.Crucible.addStoked([<spartancompat:boomerang_mythril:*>],[mythril*9]);
 mods.betterwithmods.Crucible.addStoked([<spartancompat:mace_mythril:*>],[mythril*63]);
 mods.betterwithmods.Crucible.addStoked([<spartanshields:shield_basic_lead:*>],[mythril*90]);

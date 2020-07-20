@@ -4,7 +4,7 @@ setDescription("Complete The Mighty Hunter set.")
 
 addParent("triumph:advancements/setbonuses/leatherarmor")
 
-addRewardFunction("triumph:fullEarlyArmor")
+// addRewardFunction("triumph:killedHarvester")
 
 criteria = addCriteria("Tanned Leather Helmet", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:leather_tanned_helmet")

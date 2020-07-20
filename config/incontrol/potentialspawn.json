@@ -84,7 +84,18 @@
       }
     ]
   },
- 
+  
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "primitivemobs:goblin",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      }
+    ]
+  },
 
 
 //beneath
@@ -92,10 +103,22 @@
     "dimension": 10,
     "mobs": [
       {
-        "mob": "minecraft:cave_spider",
-        "weight": 3,
+        "mob": "primitivemobs:goblin",
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 3
+      }
+    ]
+  },
+  
+  {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "minecraft:cave_spider",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   },
@@ -112,17 +135,7 @@
     ]
   },
 
-  {
-    "dimension": 10,
-    "mobs": [
-      {
-        "mob": "minecraft:slime",
-        "weight": 4,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      }
-    ]
-  },
+
 
   {
     "dimension": 10,
@@ -161,14 +174,27 @@
   },
 
 //lantern
-  {
+    {
     "dimension": 10,
     "mobs": [
       {
         "mob": "mowziesmobs:lantern",
-        "weight": 7,
+        "weight": 50,
         "groupcountmin": 1,
         "groupcountmax": 7
+      }
+    ]
+  },
+  
+ //grottol
+    {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:grottol",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   },
@@ -575,18 +601,6 @@
       }
     ]
   },
-  
-   {
-    "dimension": 0,
-    "mobs": [
-      {
-        "mob": "primitivemobs:brain_slime",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      }
-    ]
-  },
 
 
   // Creepers
@@ -794,7 +808,7 @@
       }
     ]
   },
-
+ /*
   {
     "dimension": [0,10],
     "mobs": [
@@ -806,7 +820,7 @@
       }
     ]
   },
-
+*/
   {
     "dimension": [0,10],
     "mobs": [
@@ -917,7 +931,7 @@
   },
 
   {
-    "dimension": [0,10],
+    "dimension": 0,
     "mobs": [
       {
         "mob": "specialmobs:poisonspider",
@@ -977,6 +991,29 @@
   },
 
 // Slimes
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "minecraft:slime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+    
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "primitivemobs:brain_slime",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
 
   {
     "dimension": 0,
@@ -991,7 +1028,7 @@
   },
 
   {
-    "dimension": 0,
+    "dimension": 4,
     "mobs": [
       {
         "mob": "specialmobs:lemonslime",
@@ -1526,7 +1563,7 @@
     "mobs": [
       {
         "mob": "betterwithmods:bwm_jungle_spider",
-        "weight": 3,
+        "weight": 4,
         "groupcountmin": 2,
         "groupcountmax": 3
       }

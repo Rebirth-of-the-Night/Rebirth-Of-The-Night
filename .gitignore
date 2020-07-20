@@ -18,8 +18,6 @@ config/BiomeTweaker/output/
 config/netherex/biomes/
 logs/
 llibrary/debug/
-config/multimob/modInformation/
-ActualMusic/Config/config.tsv
 saves/
 config/biomesoplenty/biomes/defaults/
 screenshots/
@@ -28,7 +26,6 @@ servers.dat
 shaderpacks/Sildurs Enhanced Default v1.10.zip
 optionsshaders.txt
 config/jei/worldSettings.cfg
-icon.png
 mods/Embassy_5.0-b20.jar
 mods/blockdrops-1.12.2-1.4.0.jar
 config/BlockDrops/blockdrops.txt
@@ -52,12 +49,27 @@ config/TwitchSpawn/messages.title.json
 config/TwitchSpawn/preferences.toml
 config/TwitchSpawn/rules.default.tsl
 config/TwitchSpawn/rules.calamarigold.tsl
-mods/.DS_Store
+
 config/jei/bookmarks.ini
-config/fantasticlib/reference/*.txt
 config/multimob/modInformation/*.txt
 config/pyrotech/*-Generated.json
 shaderpacks/SEUS-Renewed-v1.0.1.zip
 patchouli_data.json
 
 .DS_Store
+desktop.ini
+mountains.txt
+mods/twitchspawn_1.12.2-0.5.4.jar
+config/ultimate_unicorn_download/*.txt
+.gamelaunched
+mods/twitchspawn_1.12.2-0.5.5.jar
+shaderpacks/SEUS PTGI E12.zip
+shaderpacks/BBVanillaReborn_V1.0.2.zip
+mods/twitchspawn_1.12.2-0.6.3.jar
+
+icon.png
+
+config/tellme.cfg
+config/tellme/
+mods/tellme-*.jar
+config/codechicken/supporters.marker

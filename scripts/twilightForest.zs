@@ -6,6 +6,7 @@ import crafttweaker.data.IData;
 
 mods.ltt.LootTable.removeGlobalItem("twilightforest:transformation_powder");
 mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table>);
+mods.jei.JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "twilightforest:guide"}));
 
 recipes.remove(<twilightforest:castle_pillar:1>);
 recipes.addShaped("encased_castle_brick_tile",<twilightforest:castle_pillar:1>,[

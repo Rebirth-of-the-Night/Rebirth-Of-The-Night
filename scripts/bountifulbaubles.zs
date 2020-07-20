@@ -216,13 +216,6 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringoverclocking>,[
 [<bountifulbaubles:spectralsilt>, <contenttweaker:energy_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]],32);
    
 
-// Crown
-
-recipes.addShaped("BB_Crown", <bountifulbaubles:crowngold>.withTag({Quality: {}}),[
-	[null, null, null],
-	[<ore:ingotGold>, <ore:gemRuby>, <ore:ingotGold>], 
-	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
-
 // Sunglasses
 
 recipes.remove(<bountifulbaubles:trinketmagiclenses>);
@@ -250,6 +243,8 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketluckyhorseshoe>
 [<ore:ingotElectrum>, <contenttweaker:aether_rune>.anyDamage().transformDamage(), <ore:ingotElectrum>], 
 [<ore:ingotElectrum>, <aether_legacy:enchanted_gravitite>, <ore:ingotElectrum>]], 32);
 
+//remove and hide original BB disint tablet
+mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
 
 /////// non-baubles (is this legal? I will make it legal.)
 

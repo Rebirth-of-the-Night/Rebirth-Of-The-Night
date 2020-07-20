@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.data.IData;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -7,8 +8,7 @@ import mods.rockytweaks.Anvil;
 import mods.rockytweaks.Merchant;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
-
-brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
+//brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
@@ -31,8 +31,8 @@ recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>
   [[null,<minecraft:cooked_rabbit>,null],
   [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
   [null,<minecraft:bowl>,null]]);
-recipes.remove(<minecraftfuture:suspiciousstew>);
-recipes.addShapeless("minecraftfuture_stew/sustew", <minecraftfuture:suspiciousstew>, 
+recipes.remove(<futuremc:suspicious_stew>);
+recipes.addShapeless("futuremc_stew/sustew", <futuremc:suspicious_stew>, 
 [<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
 recipes.remove(<wards:ward>);
 recipes.addShaped("wards_ward", <wards:ward>,
@@ -58,7 +58,6 @@ recipes.removeByRecipeName("minecraft:cyan_wool");
 recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
-recipes.removeByRecipeName("minecraft:repeater");
 recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 
 recipes.remove(<minecraft:tnt>);
@@ -66,6 +65,26 @@ recipes.addShaped("tnt",<minecraft:tnt>,[
     [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>],
     [<ore:sand>,<minecraft:gunpowder>,<ore:sand>],
     [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>]
+]);
+
+recipes.removeByRecipeName("quark:color_slime_1");
+recipes.removeByRecipeName("quark:color_slime");
+recipes.removeByRecipeName("quark:color_slime_3");
+
+
+recipes.removeByRecipeName("minecraft:slime");
+recipes.addShaped("green_slime_block",<minecraft:slime>,[
+    [<minecraft:slime_ball>,<minecraft:slime_ball>,<minecraft:slime_ball>],
+    [<minecraft:slime_ball>,<minecraft:slime_ball>,<minecraft:slime_ball>],
+    [<minecraft:slime_ball>,<minecraft:slime_ball>,<minecraft:slime_ball>]
+]);
+
+
+recipes.remove(<quark:color_slime:2>);
+recipes.addShaped("black slime block",<quark:color_slime:2>,[
+    [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>],
+    [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>],
+    [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>]
 ]);
 
 val coarseMatArray = [<minecraft:dirt:0>,<biomesoplenty:dirt:2>,<biomesoplenty:dirt:1>,<biomesoplenty:dirt:0>] as IItemStack[];
@@ -111,6 +130,47 @@ recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
     [<ore:stickWood>,<ore:nuggetIron>|<contenttweaker:material_part:6>,<minecraft:string>]
 ]);
 
+recipes.remove(<chutes:chute_wood>);
+recipes.addShaped("wooden_chute",<chutes:chute_wood>*16,[
+    [null,<ore:barkWood>,null],
+    [<ore:barkWood>,null,<ore:barkWood>],
+    [null,<ore:barkWood>,null]
+]);
+
+// Rebirth of the Bed
+
+recipes.remove(<minecraft:bed:*>);
+
+var moulding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+
+recipes.addShaped("Rebirth_of_the_Bed",<minecraft:bed>,[
+    [<minecraft:carpet:*>,<minecraft:carpet:*>,<betterwithmods:material:41>],
+    [<ore:blockWool>,<betterwithmods:aesthetic:9>,<ore:blockWool>],
+    [moulding_wood,<ore:slabWood>,moulding_wood]
+]);
+
+var BedColors = <minecraft:bed:0>|<minecraft:bed:1>|<minecraft:bed:2>|<minecraft:bed:3>|<minecraft:bed:4>|<minecraft:bed:5>|<minecraft:bed:6>|<minecraft:bed:7>|<minecraft:bed:8>|<minecraft:bed:9>|<minecraft:bed:10>|<minecraft:bed:11>|<minecraft:bed:12>|<minecraft:bed:13>|<minecraft:bed:14>|<minecraft:bed:15>;
+
+recipes.addShapeless("white_bed",<minecraft:bed:0>,[BedColors,<ore:dyeWhite>]);
+recipes.addShapeless("orange_bed",<minecraft:bed:1>,[BedColors,<ore:dyeOrange>]);
+recipes.addShapeless("magenta_bed",<minecraft:bed:2>,[BedColors,<ore:dyeMagenta>]);
+recipes.addShapeless("light_blue_bed",<minecraft:bed:3>,[BedColors,<ore:dyeLightBlue>]);
+recipes.addShapeless("yellow_bed",<minecraft:bed:4>,[BedColors,<ore:dyeYellow>]);
+recipes.addShapeless("lime_bed",<minecraft:bed:5>,[BedColors,<ore:dyeLime>]);
+recipes.addShapeless("pink_bed",<minecraft:bed:6>,[BedColors,<ore:dyePink>]);
+recipes.addShapeless("gray_bed",<minecraft:bed:7>,[BedColors,<ore:dyeGray>]);
+recipes.addShapeless("light_gray_bed",<minecraft:bed:8>,[BedColors,<ore:dyeLightGray>]);
+recipes.addShapeless("cyan_bed",<minecraft:bed:9>,[BedColors,<ore:dyeCyan>]);
+recipes.addShapeless("purple_bed",<minecraft:bed:10>,[BedColors,<ore:dyePurple>]);
+recipes.addShapeless("blue_bed",<minecraft:bed:11>,[BedColors,<ore:dyeBlue>]);
+recipes.addShapeless("brown_bed",<minecraft:bed:12>,[BedColors,<ore:dyeBrown>]);
+recipes.addShapeless("green_bed",<minecraft:bed:13>,[BedColors,<ore:dyeGreen>]);
+recipes.addShapeless("red_bed",<minecraft:bed:14>,[BedColors,<ore:dyeRed>]);
+recipes.addShapeless("black_bed",<minecraft:bed:15>,[BedColors,<ore:dyeBlack>]);
+
+recipes.removeByRecipeName("aether_legacy_addon:white_skyroot_bed");
+
+
 
 // Rail Overhaul
 
@@ -131,12 +191,7 @@ recipes.addShaped("steelrail",<minecraft:rail>*32,[
     [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>]
 ]);
 
-recipes.remove(<chutes:chute_wood>);
-recipes.addShaped("wooden_chute",<chutes:chute_wood>*16,[
-    [null,<ore:barkWood>,null],
-    [<ore:barkWood>,null,<ore:barkWood>],
-    [null,<ore:barkWood>,null]
-]);
+
 
 // other tin uses
 recipes.remove(<sereneseasons:season_clock>);
@@ -160,11 +215,24 @@ recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
 ]);
 
 // new bucket recipe
-recipes.addShaped("tin_bucket", <minecraft:bucket>,[
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped("iron_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
 	[null, null, null],
-    [<ore:ingotTin>, null, <ore:ingotTin>],
-    [null, <ore:ingotTin>, null]
+    [<ore:ingotIron>, null, <ore:ingotIron>],
+    [null, <ore:ingotIron>, null]
 ]);
+recipes.addShaped("bronze_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
+	[null, null, null],
+    [<ore:ingotBronze>, null, <ore:ingotBronze>],
+    [null, <ore:ingotBronze>, null]
+]);
+
+recipes.addShaped("quality_bucket", <minecraft:bucket>,[
+	[<pyrotech:material:4>, <pyrotech:bucket_stone>, <pyrotech:material:4>],
+	[<ore:glue>,<ore:glue>,<ore:glue>],
+    [<pyrotech:material:4>, <contenttweaker:crucible>, <pyrotech:material:4>]
+]);
+
 
 recipes.remove(<minecraft:concrete_powder:*>);
 recipes.addShapeless("white_concrete_powder",<minecraft:concrete_powder:0>*8,[<ore:dyeWhite>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);
@@ -249,13 +317,6 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [chain, null, chain]
 ]);
 
-//Wireless Redstone
-recipes.removeByRecipeName("lwr:recwirelessremote");
-recipes.removeByRecipeName("lwr:recwirelessreciever");
-recipes.removeByRecipeName("lwr:recwirelesstransmitter");
-recipes.addShaped("wireless_remote",<lwr:itemwirelessremote>, [[null, <minecraft:redstone_torch>, null],[<ore:ingotTin>, <contenttweaker:order_rune>.anyDamage().transformDamage(), <ore:ingotTin>], [<ore:ingotTin>, <betterwithmods:material:34>, <ore:ingotTin>]]);
-recipes.addShaped("wireless_reciever",<lwr:blockwirelessreciever>, [[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null],[null, <minecraft:ender_pearl>, null], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
-recipes.addShaped("wireless_transmitter",<lwr:blockwirelesstransmitter>, [[null, <minecraft:ender_pearl>, null],[null, <contenttweaker:order_rune>.anyDamage().transformDamage(), null], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
 
 val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;
@@ -284,13 +345,20 @@ recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
     [null, stick, null]
 ]);
 
-mods.jei.JEI.removeAndHide(<minecraft:chest>);
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_chest>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:0>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:1>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:2>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:3>);
 mods.jei.JEI.removeAndHide(<quark:custom_chest:4>);
+
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:0>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:1>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:2>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:3>);
+mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:4>);
+
+recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>,[<ore:chestWood>]);
 
 var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>;
 
@@ -320,6 +388,12 @@ recipes.remove(<minecraft:stick>);
 recipes.addShaped("stick",<minecraft:stick>*4,[
     [<ore:stickMat>],
     [<ore:stickMat>]
+]);
+
+recipes.remove(<minecraft:bowl>);
+recipes.addShaped("bowl",<minecraft:bowl>*4,[
+    [<ore:stickMat>,null,<ore:stickMat>],
+    [null,<ore:stickMat>,null]
 ]);
 
 recipes.remove(<minecraft:crafting_table>);
@@ -416,11 +490,22 @@ recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>,
 [<iceandfire:silver_nugget>, <betterwithmods:stake>, <iceandfire:silver_nugget>], 
 [<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
 
+recipes.addShaped("monster_leather", <betterwithmods:material:31>, 
+[[<contenttweaker:monster_hide>, <contenttweaker:monster_hide>, <contenttweaker:monster_hide>],
+[<contenttweaker:monster_hide>, <contenttweaker:monster_hide>, <contenttweaker:monster_hide>]]);
+
+recipes.addShaped("scrapped_leather", <betterwithmods:material:31>, 
+[[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>],
+[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>]]);
+
 //Ore Dictionary Entries
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 
+<ore:blockGlass>.addItems([<iceandfire:myrmex_desert_resin_glass>,<iceandfire:myrmex_jungle_resin_glass>,<betternether:quartz_glass>,<betternether:quartz_glass_framed>,<betternether:quartz_stained_glass:*>,<betternether:quartz_stained_glass_framed:*>,<dungeontactics:dungeon_glass>,<quark:framed_glass>,<sereneseasons:greenhouse_glass>,<twilightforest:auroralized_glass>]);
+
 <ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
+
 
 val dirt = <ore:dirt>;
 dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>]);
@@ -428,6 +513,7 @@ dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aeth
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
 
+<ore:listAllSeed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>]);
 <ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>,<charm:bookshelf_chest>]);
 
 <ore:slabWood>.addItems([<quark:stained_planks_white_slab:*>,<quark:stained_planks_orange_slab:*>,<quark:stained_planks_magenta_slab:*>,<quark:stained_planks_light_blue_slab:*>,<quark:stained_planks_yellow_slab:*>,<quark:stained_planks_lime_slab:*>,<quark:stained_planks_pink_slab:*>,<quark:stained_planks_gray_slab:*>,<quark:stained_planks_silver_slab:*>,<quark:stained_planks_cyan_slab:*>,<quark:stained_planks_purple_slab:*>,<quark:stained_planks_blue_slab:*>,<quark:stained_planks_brown_slab:*>,<quark:stained_planks_green_slab:*>,<quark:stained_planks_red_slab:*>,<quark:stained_planks_black_slab:*>,<quark:bark_oak_slab:*>,<quark:bark_spruce_slab:*>,<quark:bark_birch_slab:*>,<quark:bark_jungle_slab:*>,<quark:bark_acacia_slab:*>,<quark:bark_dark_oak_slab:*>]);
@@ -458,6 +544,9 @@ toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:skyroot_axe:*>,<aether
 
 val hammerTool = <ore:hammerTool>;
 hammerTool.addItems([<aether_legacy:notch_hammer:*>,<pyrotech:stone_hammer:*>,<pyrotech:iron_hammer:*>,<pyrotech:diamond_hammer:*>,<pyrotech:obsidian_hammer:*>]);
+
+val shears = <ore:shears>;
+shears.addItems([<minecraft:shears>, <ceramics:clay_shears>, <cyclicmagic:shears_obsidian>, <simpleores:mythril_shears>, <simpleores:adamantium_shears>, <simpleores:onyx_shears>]);
 
 val anvilAny = <ore:anvilAny>;
 anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
@@ -503,6 +592,9 @@ qualityGem.addAll(<ore:gemAmethyst>);
 val gemAmethyst = <ore:gemAmethyst>;
 gemAmethyst.add(<netherex:amethyst_crystal>);
 
+val heartCrystalOre = <ore:oreHeartCrystal>;
+heartCrystalOre.add(<scalinghealth:crystalore>);
+
 val viridiumOre = <ore:oreViridium>;
 viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
 viridiumOre.addAll(<ore:oreAdamantium>);
@@ -517,17 +609,26 @@ biotiteOre.add(<quark:biotite_ore>);
 val redstone = <ore:gemRedstone>;
 redstone.add(<minecraft:redstone>);
 
+val hellfireIngot = <ore:ingotHellfire>;
+hellfireIngot.addAll(<ore:ingotConcentratedHellfire>);
+
 val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
 
 val flower = <ore:flower>;
-flower.addItems([<biomesoplenty:flower_0:*>,<biomesoplenty:plant_1:10>,<biomesoplenty:double_plant:0>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<minecraftfuture:flowerwhite>,<minecraftfuture:flowerblue>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:0>,<minecraft:double_plant:1>,<minecraft:double_plant:4>,<minecraft:double_plant:5>,<biomesoplenty:flower_1:*>]);
+flower.addItems([<biomesoplenty:flower_0:*>,<biomesoplenty:plant_1:10>,<biomesoplenty:double_plant:0>,<iceandfire:fire_lily>,<iceandfire:frost_lily>,<futuremc:lily_of_the_valley>,<futuremc:cornflower>,<aether_legacy:purple_flower>,<aether_legacy:white_flower>,<minecraft:double_plant:0>,<minecraft:double_plant:1>,<minecraft:double_plant:4>,<minecraft:double_plant:5>,<biomesoplenty:flower_1:*>]);
 
 val pixieJar = <ore:jarPixieAny>;
 pixieJar.addItems([<iceandfire:jar_pixie>,<iceandfire:jar_pixie:1>,<iceandfire:jar_pixie:2>,<iceandfire:jar_pixie:3>,<iceandfire:jar_pixie:4>]);
 
 val mushroom = <ore:mushroomAny>;
-mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>]);
+mushroom.addItems([<biomesoplenty:mushroom>,<biomesoplenty:mushroom:1>,<biomesoplenty:mushroom:2>,<biomesoplenty:mushroom:3>,<biomesoplenty:mushroom:4>,<harvestcraft:whitemushroomitem>,<rustic:deathstalk_mushroom>,<rustic:mooncap_mushroom>,<netherex:brown_elder_mushroom>,<netherex:red_elder_mushroom>,<betternether:orange_mushroom>]);
+
+for item in mushroom.items{
+    if(!(<ore:listAllmushroom> has item)){
+        <ore:listAllmushroom>.add(item);
+    }
+}
 
 val rawBeef = <ore:listAllbeefraw>;
 rawBeef.add(<twilightforest:raw_meef>);
@@ -622,11 +723,22 @@ cookedMeat.addAll(cookedFrog);
 cookedMeat.addAll(cookedFish);
 cookedMeat.addAll(cookedVenison);
 
+val small_knife = <ore:smallKnife>;
+small_knife.addItems([<animania:carving_knife>,<spartanweaponry:throwing_knife_iron>,<spartanweaponry:throwing_knife_bronze>,<spartanweaponry:throwing_knife_gold>,<spartanweaponry:throwing_knife_silver>,<spartanweaponry:throwing_knife_diamond>,<spartancompat:throwing_knife_skyroot>,<spartancompat:throwing_knife_holystone>,<spartancompat:throwing_knife_zanite>,<spartancompat:throwing_knife_gravitite>,<spartancompat:throwing_knife_adamantium>,<spartanfire:throwing_knife_dragonbone>,<spartanfire:throwing_knife_fire_dragonbone>,<spartanfire:throwing_knife_ice_dragonbone>,<spartanfire:throwing_knife_jungle>,<spartanfire:throwing_knife_desert>,<spartanfire:throwing_knife_jungle_venom>,<spartanfire:throwing_knife_desert_venom>,<spartanfire:throwing_knife_ice_dragonsteel>,<spartanfire:throwing_knife_fire_dragonsteel>,<mod_lavacow:famine>,<iceandfire:stymphalian_bird_dagger>]);
+
 val nitrogen = <ore:mulchNitrogen>;
 nitrogen.addAll(<ore:listAllmeat>);
 nitrogen.addAll(<ore:listAllbeefraw>);
 nitrogen.addAll(<ore:listAllmeatraw>);
 
+val foundryclay = <ore:foundryClayblock>;
+foundryclay.add(<contenttweaker:unfiredrefractory>);
+
+val bronzeBlock = <ore:blockBronze>;
+bronzeBlock.add(<contenttweaker:block_bronze>);
+
+val electrumBlock = <ore:blockElectrum>;
+electrumBlock.add(<contenttweaker:block_electrum>);
 
 val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);
@@ -770,12 +882,28 @@ recipes.addShapeless("witheredblock_to_dust>", <quark:black_ash>*9,
 );
 recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
 	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
-    [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
-    [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
+    	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
+    	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
 ]);
+
+// Dead man satchel (Dust Bag)
+
+recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
+	[<ore:hideTanned>,<ore:durableFiber>, <ore:hideTanned>],
+    	[<ore:hideTanned>, <contenttweaker:vis_speck>, <ore:hideTanned>],
+    	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
+]);
+
 
 // Enchanting Table change
 
 recipes.remove(<minecraft:enchanting_table>);
 
-recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<ore:gemDiamond>, <contenttweaker:luna_orb>, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],[<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+// Charset Materials
+mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betternether:stalagnate_planks>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_mulberry>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_sakura>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<twilightforest:tower_wood>, "block", "wood", "plank");

@@ -1,0 +1,13 @@
+setIcon(<dungeontactics:engineer_dungarees>)
+setTitle("Engineer's Dungarees")
+setDescription("A must-have for working with base defenses!")
+
+addParent("triumph:advancements/basedefense/caltrops")
+
+criteria = addCriteria("Dungarees", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:engineer_dungarees>)
+criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/basedefense/dungarees_boots")
+
+alwaysVisible()
+setPos(-204,29)
