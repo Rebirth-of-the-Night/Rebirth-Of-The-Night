@@ -5,3 +5,13 @@ power: 10000
 command: true
 ftbutilities.chat.name_format: <&bDEV: {name}&r>
 ftbutilities.badge: https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/master/resources/RebirthOfTheNight_Logo_ROTN_512.png
+
+[player] // This rank will be used for players that don't have a rank assigned
+power: 0
+default_player_rank: true
+
+
+[admin] // This rank will be used for OPs that don't have a rank assigned
+power: 1000
+default_op_rank: true
+command: true // Allows to use all commands
