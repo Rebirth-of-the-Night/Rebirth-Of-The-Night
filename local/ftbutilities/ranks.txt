@@ -9,7 +9,8 @@ ftbutilities.badge: https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebir
 [player] // This rank will be used for players that don't have a rank assigned
 power: 0
 default_player_rank: true
-
+command.ftbutilities.home: false // Deny players from using homes
+command.ftbutilities.back: false // Deny players from using /back
 
 [admin] // This rank will be used for OPs that don't have a rank assigned
 power: 1000
