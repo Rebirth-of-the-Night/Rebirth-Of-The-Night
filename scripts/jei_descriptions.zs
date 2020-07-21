@@ -275,7 +275,7 @@ mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger 
 mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
 mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal to either the left or right.");
 mods.jei.JEI.addDescription(<minecraft:compass>, "Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints.");
-mods.jei.JEI.addDescription(<betterwithmods:rope>, "A tough cord used in the construction of various components, or for pulling up Platforms in conjunction with a Pulley");
+mods.jei.JEI.addDescription(<betterwithmods:rope>, "A tough cord used in the construction of various components, or for pulling up Platforms in conjunction with a Pulley.");
 
 mods.jei.JEI.addDescription(<projectred-core:resource_item:0>, "Circuit plates are used as the base for all logic components.");
 mods.jei.JEI.addDescription(<projectred-core:resource_item:4>, "Platformed plates are used as elevated circuit plates, for when wires are able to cross over each other without intersecting.");

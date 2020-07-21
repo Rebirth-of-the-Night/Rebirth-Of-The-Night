@@ -95,6 +95,9 @@ val luckElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:lu
 val bouncyElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 1200, Amplifier: 1}]});	
 val bouncyElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.bounce", Duration: 2600, Amplifier: 1}]});	
 val butterElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagic:potion.butter", Duration: 450, Amplifier: 1}]});
+val nightvisionElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]});
+val nightvisionExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]});
+val nightvisionObsceneExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 14400, Amplifier: 0}]});
 
 var cohosh = <rustic:cohosh>;
 var honeycomb = <harvestcraft:honeycombitem>;
@@ -107,6 +110,9 @@ var slime = <minecraft:slime_ball>;
 var endpearl = <minecraft:ender_pearl>;
 var butter = <harvestcraft:butteritem>;
 var gnugg = <minecraft:gold_nugget>;
+var wheatmat = <betterwithaddons:wheatmat>;
+var glowjelly = <mowziesmobs:glowing_jelly>;
+var radiantdust = <arcanearchives:radiant_dust>;
 
 mods.rustic.Condenser.removeRecipe(regenerationElixir);
 mods.rustic.Condenser.removeRecipe(regenerationElixirLong);
@@ -114,15 +120,26 @@ mods.rustic.Condenser.removeRecipe(regenerationElixirStrong);
 mods.rustic.Condenser.removeRecipe(healthElixir);
 mods.rustic.Condenser.removeRecipe(healthElixirStrong);
 
-//mods.rustic.Condenser.addRecipe(output, input1, input2);
+// mods.rustic.Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
 mods.rustic.Condenser.addRecipe(luckElixir, fourclover, amanita);
 mods.rustic.Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
-mods.rustic.Condenser.addRecipe(regenerationElixirLong, horsetail, [cohosh, honeycomb]);
-mods.rustic.Condenser.addRecipe(regenerationElixirStrong, root, [cohosh, honeycomb]);
+mods.rustic.Condenser.addRecipe(regenerationElixirLong, [cohosh, honeycomb], horsetail);
+mods.rustic.Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);
 mods.rustic.Condenser.addRecipe(butterElixir, butter, gnugg);	
 mods.rustic.Condenser.addRecipe(bouncyElixir, slime, endpearl);	
-mods.rustic.Condenser.addRecipe(bouncyElixirLong, horsetail, [slime, endpearl, butter]);
+mods.rustic.Condenser.addRecipe(bouncyElixirLong, [slime, endpearl, butter], horsetail);
 
 //val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
 mods.rustic.Condenser.addRecipe(healthElixir, chamomile, <animania:raw_prime_beef>);
-mods.rustic.Condenser.addRecipe(healthElixirStrong, root, [chamomile, <animania:raw_prime_beef>]);
+mods.rustic.Condenser.addRecipe(healthElixirStrong, [chamomile, <animania:raw_prime_beef>], root);
+
+// Removed Default Rustic Nightvision Elixirs
+//val slownessElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 1800, Amplifier: 0}]});
+//val slownessExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 4800, Amplifier: 0}]});
+
+mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}));
+mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}));
+
+mods.rustic.Condenser.addRecipe(nightvisionElixir, [wheatmat, glowjelly, radiantdust]);
+mods.rustic.Condenser.addRecipe(nightvisionExtendedElixir, [wheatmat, glowjelly, radiantdust], <minecraft:golden_carrot>);
+mods.rustic.Condenser.addRecipe(nightvisionObsceneExtendedElixir, [wheatmat, glowjelly, radiantdust], <twilightforest:moonworm>);
