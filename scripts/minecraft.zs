@@ -583,6 +583,15 @@ fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_
 val coal = <ore:gemCoal>;
 coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
 
+val cokedust = <ore:dustCoalCoke>;
+cokedust.add(<pyrotech:material:32>);
+
+val fuelcoke = <ore:fuelCoke>;
+fuelcoke.add(<pyrotech:material:32>);
+
+val carbon = <ore:dustRichCarbon>;
+carbon.add(<pyrotech:material:32>);
+
 val qualityGem = <ore:Gem_highQuality>;
 qualityGem.addItems([<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 qualityGem.addAll(<ore:gemOnyx>);

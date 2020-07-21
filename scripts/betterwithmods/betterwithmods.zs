@@ -161,6 +161,18 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:13>]);
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:29>]); # blasting oil
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:50>]); # soal
+mods.betterwithmods.Cauldron.remove([<betterwithmods:material:1>]); # nethercoal
+
+mods.betterwithmods.Cauldron.builder()
+.buildRecipe([<betterwithmods:material:16>,<ore:dustCarbon>],[<betterwithmods:material:1>]) #coal nethercoal
+.setIgnoreHeat(true)
+.setPriority(12)
+.build();
+mods.betterwithmods.Cauldron.builder()
+.buildRecipe([<betterwithmods:material:16>,<ore:dustRichCarbon>],[<betterwithmods:material:1>*4]) #coke nethercoal
+.setIgnoreHeat(true)
+.setPriority(3)
+.build();
 
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
