@@ -1,0 +1,7 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[dev]
+power: 10000
+command: true
+ftbutilities.chat.name_format: <&bDEV: {name}&r>
+ftbutilities.badge: https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/master/resources/RebirthOfTheNight_Logo_ROTN_512.png
