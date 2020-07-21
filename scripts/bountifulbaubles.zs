@@ -28,6 +28,16 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");
 mods.jei.JEI.removeAndHide(<bountifulbaubles:flare_red>);
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
 
+// Oredicts
+
+val cloudAny = <ore:cloudAny>;
+cloudAny.add(
+	<aether_legacy:aercloud>,
+	<aether_legacy:aercloud:2>,
+	<aether_legacy:aercloud:1>,
+	<rustic:cloudsbluff>
+);
+
 // Potions
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
