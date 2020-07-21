@@ -72,3 +72,5 @@ config/tellme/
 mods/tellme-*.jar
 config/codechicken/supporters.marker
 backups/
+
+config/qualitytools/problems.txt
