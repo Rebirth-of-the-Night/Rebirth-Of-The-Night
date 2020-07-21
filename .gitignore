@@ -74,3 +74,5 @@ config/codechicken/supporters.marker
 backups/
 
 config/qualitytools/problems.txt
+
+local/ftbutilities/backups.json
