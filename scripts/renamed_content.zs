@@ -118,6 +118,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:aesthetic:0>.displayName = "Stone Chopping Block";
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
 <betterwithmods:bark:0>.displayName = "Wood Bark";
+<betterwithmods:rope>.displayName = "Hemp Cord";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -184,6 +185,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <rustic:barrel>.displayName = "Vertical Barrel";
 <rustic:chain>.displayName = "Iron Chandelier Chain";
 <rustic:andesite_pillar>.displayName = "Gray Andesite Pillar";
+<rustic:crop_stake>.displayName = "Crop Stake";
+<rustic:rope>.displayName = "Agricultural Rope";
 
 // Vanilla
 <minecraft:anvil>.displayName = "Iron Anvil";

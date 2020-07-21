@@ -159,9 +159,11 @@ mods.jei.JEI.addDescription(driedPlantFiber, "Small strands of dried fiber. Can 
 mods.jei.JEI.addDescription(plantFiber, "Various high-quality plant material found by breaking different kinds of grass.");
 mods.jei.JEI.addDescription(hempFiber,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
 mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance as string from wool or spider-silk.");
-mods.jei.JEI.addDescription(durableTwine, "By means of various crafting procedures, these simple strands of plants have roughly achieved the durability and strength of higher quality fibers.");
+mods.jei.JEI.addDescription(durableTwine, "By soaking twine in wood tar, it can achieve roughly the same durability and strength of higher quality hemp fibers.");
 mods.jei.JEI.addDescription(pulp, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
 mods.jei.JEI.addDescription(coade, "An homogenous magma of varied stone that is easy to manipulate. Its name comes from its association with a certain earthenware material that was said to be truly easily moldable into any shape; although not clay, that name stuck with it over time.");
+mods.jei.JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow. Used with Crop Stakes. Refer to your Almanac for details.");
+mods.jei.JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow. Used with Agricultural Rope. Refer to your Almanac for details.");
 
 mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 mods.jei.JEI.removeAndHide(<base:wrench>);
@@ -219,7 +221,7 @@ mods.jei.JEI.addDescription(<minecraft:gunpowder>, "The central ingredient of mo
 mods.jei.JEI.addDescription(<minecraft:skull:3>, "An old village legend claims that a golem named after a specific person carries a sliver of that person's soul… and those who practice forbidden arts can bring forth an echo of that soul to the physical realm. Named Snow Golems equipped with a pumpkin will drop a copy of that person's head if killed by a witch.");
 mods.jei.JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the accursed beast, infused with the energy of a plane outside all else. Its lingering aura can even affect stone.");
 mods.jei.JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
-mods.jei.JEI.addDescription(<quark:tallow>,"Used for making candles or repairing gear in an iron anvil.");
+mods.jei.JEI.addDescription(<quark:tallow>,"Used for making candles or repairing gear in an iron anvil. Pigs are a good source of tallow, or you can melt down rotten flesh for a crude source.");
 mods.jei.JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
 mods.jei.JEI.addDescription(<mowziesmobs:glowing_jelly>,"Puffbulbs are particularly fragile creatures that sustain themselves by absorbing energy from a living mineral, surviving against all odds amidst the horrors of the Beneath.");
 mods.jei.JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken.");
@@ -273,6 +275,7 @@ mods.jei.JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger 
 mods.jei.JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
 mods.jei.JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal to either the left or right.");
 mods.jei.JEI.addDescription(<minecraft:compass>, "Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints.");
+mods.jei.JEI.addDescription(<betterwithmods:rope>, "A tough cord used in the construction of various components, or for pulling up Platforms in conjunction with a Pulley");
 
 mods.jei.JEI.addDescription(<projectred-core:resource_item:0>, "Circuit plates are used as the base for all logic components.");
 mods.jei.JEI.addDescription(<projectred-core:resource_item:4>, "Platformed plates are used as elevated circuit plates, for when wires are able to cross over each other without intersecting.");
@@ -308,7 +311,7 @@ mods.jei.JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraf
 mods.jei.JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:diamond_block"}), "Covers allow for blocking between redstone signals that should not intersect. They are also used for creating one-block high bridges over other redstone.");
 
 /* Mechanical, Defense, and Item Movement */
-mods.jei.JEI.addDescription(<quark:rope>, "Smartly tied and intertwined; it will pull blocks up with itself if right-clicked while sneaking.");
+mods.jei.JEI.addDescription(<quark:rope>, "A useful tool for traversal. Right click on a rope with more rope to descend downward. It will also pull itself and blocks underneath it upwards if right-clicked while sneaking.");
 mods.jei.JEI.addDescription(<quark:chain>, "A small chain such as this can be used to link a series of minecarts or boats, allowing for far more organized journeys.");
 mods.jei.JEI.addDescription(<minecraft:lead>, "Besides leading mobs by hand, leads can be tied to a fence or even between two fences to create a connection. Some creatures will never submit to a lead - for that, the use of a refined chain is required.");
 

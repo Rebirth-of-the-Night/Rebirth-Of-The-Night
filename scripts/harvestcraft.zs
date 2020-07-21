@@ -17,6 +17,13 @@ recipes.remove(<harvestcraft:mobsoupitem>);
 recipes.remove(<harvestcraft:presser>);
 recipes.remove(<harvestcraft:saltitem>);
 
+# replaced these with Rustic's 
+mods.jei.JEI.removeAndHide(<harvestcraft:apple_sapling>);
+mods.jei.JEI.removeAndHide(<harvestcraft:chilipepperitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:chilipepperseeditem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:oliveitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:olive_sapling>);
+
 
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[
