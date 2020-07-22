@@ -78,26 +78,6 @@ brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:night
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"}), <minecraft:redstone>);
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"}), <minecraft:dragon_breath>);
 
-// Removed Default Rustic Nightvision Elixirs
-//val slownessElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 1800, Amplifier: 0}]});
-//val slownessExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 4800, Amplifier: 0}]});
-
-mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}));
-mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}));
-
-
-
-// New Rustic Elixirs
-val nightvisionElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]});
-val nightvisionExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]});
-val nightvisionObsceneExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 14400, Amplifier: 0}]});
-
-mods.rustic.Condenser.addRecipe(nightvisionElixir, null, [<betterwithaddons:wheatmat>, <mowziesmobs:glowing_jelly>, <arcanearchives:radiant_dust>]);
-mods.rustic.Condenser.addRecipe(nightvisionExtendedElixir, <minecraft:golden_carrot>, [<betterwithaddons:wheatmat>, <mowziesmobs:glowing_jelly>, <arcanearchives:radiant_dust>]);
-mods.rustic.Condenser.addRecipe(nightvisionObsceneExtendedElixir, <twilightforest:moonworm>, [<betterwithaddons:wheatmat>, <mowziesmobs:glowing_jelly>, <arcanearchives:radiant_dust>]);
-
-
-
 
 //RIP - oredict does not work with rustic condenser. keeping these oredicts here in case we want to use contenttweaker for more complex/differentiated alchemy recipes that reward multidimensional exploration
 //////

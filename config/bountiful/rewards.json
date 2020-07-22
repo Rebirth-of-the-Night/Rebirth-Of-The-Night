@@ -20,9 +20,12 @@
     "weight": 20
   },
   {
-    "content": "scalinghealth:crystalshard",
+    "content": "scalinghealth:heartdust",
     "unitWorth": 2000,
-    "weight": 15
+   "amount": {
+      "min": 16,
+      "max": 25
+    }
   },
   {
     "content": "minecraft:iron_sword",
@@ -80,7 +83,7 @@
     }
   },
   {
-    "content": "bountifulbaubles:trinketvitamins",
+    "content": "contenttweaker:strength_rune",
     "unitWorth": 5000,
     "weight": 5,
     "amount": {
@@ -89,7 +92,7 @@
     }
   },
   {
-    "content": "bountifulbaubles:trinketshulkerheart",
+    "content": "totemexpansion:totem_repair",
     "unitWorth": 5000,
     "weight": 5,
     "amount": {
@@ -98,7 +101,7 @@
     }
   },
   {
-    "content": "bountifulbaubles:trinketbezoar",
+    "content": "contenttweaker:poison_rune",
     "unitWorth": 5000,
     "weight": 5,
     "amount": {

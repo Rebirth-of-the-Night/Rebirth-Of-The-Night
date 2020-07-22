@@ -8,7 +8,7 @@ import mods.aether_legacy.Enchanter;
 
 //Name Tweaks
 <contenttweaker:material_part:12>.displayName = "Aetherial Electrum";
-<contenttweaker:block_electrum>.displayName = "Aetherial Electrum Block";
+<contenttweaker:block_electrum>.displayName = "Block of Aetherial Electrum";
 <contenttweaker:electrum_plate>.displayName = "Aetherial Electrum Plate";
 
 #ADD RECIPES

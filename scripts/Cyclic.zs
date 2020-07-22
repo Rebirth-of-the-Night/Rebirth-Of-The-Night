@@ -71,7 +71,6 @@ recipes.remove(<cyclicmagic:plate_push_slowest_angle>);
 recipes.remove(<cyclicmagic:plate_push>);
 recipes.remove(<cyclicmagic:plate_push_corner>);
 recipes.remove(<cyclicmagic:plate_push_med_angle>);
-recipes.remove(<cyclicmagic:exp_pylon>);
 recipes.remove(<cyclicmagic:shears_obsidian>);
 recipes.remove(<cyclicmagic:doorbell_simple>);
 recipes.remove(<cyclicmagic:tool_prospector>);
@@ -118,11 +117,6 @@ var wax = <ore:materialPressedwax>;
 var carbond = <ore:dustCarbon>;
 var carpaper = <cyclicmagic:carbon_paper>;
 var paper = <ore:paper>;
-var xppylon = <cyclicmagic:exp_pylon>;
-var fhopper = <betterwithmods:single_machine:2>;
-var rtank = <arcanearchives:radiant_tank>;
-var viridium = <simpleores:adamantium_ingot>;
-var soul_urn = <betterwithmods:urn:8>;
 var obsi_shard = <endreborn:item_shard_obsidian>;
 var obsi_shear = <cyclicmagic:shears_obsidian>;
 var ore_locator = <cyclicmagic:tool_prospector>;
@@ -171,7 +165,7 @@ recipes.addShaped("powered_conveyor", st_conveyor*6,[
 ]);
 
 recipes.addShaped("ore_locator", ore_locator,[
-	[null, <villagenames:codex>, <betterwithmods:material:45>],
+	[null, codex, <betterwithmods:material:45>],
     [null, blazerod, <cyclicmagic:tool_spelunker>],
     [blazerod, null, null]
 ]);
@@ -183,14 +177,6 @@ recipes.addShaped("ore_locator", ore_locator,[
 //]);
 
 //Spelunker potions with prospecting kit in rustic.zs
-
-mods.betterwithmods.Anvil.addShaped(xppylon, 
-[
-	[vnugg, viridium, viridium, vnugg],
-	[fhopper, soul_urn, rtank, fhopper],
-	[vnugg, viridium, viridium, vnugg],
-	[null, null, null, null]
-]);
 
 mods.betterwithmods.Anvil.addShaped(pipepump, 
 [

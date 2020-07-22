@@ -1,0 +1,29 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+// Kilo
+[37fc9fca0fec446c8068cdbbc8afaaf6]
+parent: dev
+
+// Mari
+[d9f225140b2b4c48bbd348648d2e2e73]
+parent: dev
+
+// Sandwich
+[22fa1a7bcc624a12b3441c26ebb5a22b]
+parent: dev
+
+// Kompy
+[8200edbd042a4df6942b709588928d48]
+parent: dev
+
+// Foreck
+[4a4b1fbde50849ba8dbb177a7e79f349]
+parent: dev
+
+// Cutcat
+[386785ae568047e6bb7cee4bcc230caf]
+parent: dev
+
+// Demo
+[a6a7f03986e3465885f138e70cbaeb24]
+parent: dev

@@ -611,6 +611,18 @@ mods.foundry.Casting.addRecipe(<spartanweaponry:staff_silver>, <liquid:silver>*(
 mods.foundry.Casting.addRecipe(<spartanweaponry:staff_steel>, <liquid:steel>*((144*2)-(16*2*2)), <contenttweaker:staff_mold>, <spartanweaponry:material:1>);//steel
 mods.foundry.Casting.addRecipe(<spartancompat:staff_adamantium>, <liquid:viridium>*((144*2)-(16*2*2)), <contenttweaker:staff_mold>, <minecraft:blaze_rod>*2);//viridium
 
+// SHEARS //
+mods.foundry.Casting.removeRecipe(<liquid:iron>*288, <foundry:mold:13>);
+mods.foundry.Casting.addRecipe(<minecraft:shears>, <liquid:iron>*((144*2)-(16*2*2)), <foundry:mold:13>);
+mods.foundry.Casting.addRecipe(<simpleores:mythril_shears>, <liquid:mythril>*((144*2)-(16*2*2)), <foundry:mold:13>);
+mods.foundry.Casting.addRecipe(<simpleores:adamantium_shears>, <liquid:viridium>*((144*2)-(16*2*2)), <foundry:mold:13>);
+mods.foundry.Casting.addRecipe(<simpleores:onyx_shears>, <liquid:onyx_alloy>*((144*2)-(16*2*2)), <foundry:mold:13>);
+
+// PLATES //
+mods.foundry.Casting.addRecipe(<minecraft:light_weighted_pressure_plate>, <liquid:gold>*((144*2)-(16*2*2)), <foundry:mold:1>);
+mods.foundry.Casting.addRecipe(<minecraft:heavy_weighted_pressure_plate>, <liquid:iron>*((144*2)-(16*2*2)), <foundry:mold:1>);
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soul_forged_steel>*((144*4)-(16*2*4)), <foundry:mold:1>, <minecraft:redstone>*2);
+
 //Missing Block Casting Recipes
 //addBlockRecipe(IItemStack output, ILiquidStack input)
 mods.foundry.CastingTable.addBlockRecipe(<simpleores:adamantium_block>, <liquid:viridium>*1296);

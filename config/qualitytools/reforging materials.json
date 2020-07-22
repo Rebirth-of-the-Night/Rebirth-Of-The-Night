@@ -834,5 +834,126 @@
     "material": {
         "item": "minecraft:iron_block"
     }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:bonesword"
+    },
+    "material": {
+        "ore_dict": "monsterTooth"
+    }
+  },
+  {
+    "tool": {
+      "item": "mod_lavacow:tooth_dagger"
+    },
+    "material": {
+      "ore_dict": "fang"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:war"
+    },
+    "material": {
+        "item": "betterwithmods:material",
+        "meta": 27
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:felarmor_helmet"
+    },
+    "material": {
+        "ore_dict": "salamanderhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:felarmor_chestplate"
+    },
+    "material": {
+        "ore_dict": "salamanderhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:felarmor_leggings"
+    },
+    "material": {
+        "ore_dict": "salamanderhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:felarmor_boots"
+    },
+    "material": {
+        "ore_dict": "salamanderhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:swinemask"
+    },
+    "material": {
+        "item": "mod_lavacow:pigboarhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:swinearmor_chestplate"
+    },
+    "material": {
+        "item": "mod_lavacow:pigboarhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:swinearmor_leggings"
+    },
+    "material": {
+        "item": "mod_lavacow:pigboarhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:swinearmor_boots"
+    },
+    "material": {
+        "item": "mod_lavacow:pigboarhide"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:sludge_wand"
+    },
+    "material": {
+        "item": "mod_lavacow:silky_sludge"
+    }
+  },
+  {
+    "tool": {
+        "item": "mod_lavacow:dreamcatcher"
+    },
+    "material": {
+        "ore_dict": "blackFeather"
+    }
+  },
+  {
+    "tool": {
+      "item": "mod_lavacow:piranhalauncher"
+    },
+    "material": {
+      "item": "mod_lavacow:war"
+    }
+  },
+  {
+    "tool": {
+      "item": "mod_lavacow:halo_necklace"
+    },
+    "material": {
+      "item": "arcanearchives:radiant_dust"
+    }
   }
 ]

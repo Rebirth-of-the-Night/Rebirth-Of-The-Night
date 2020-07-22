@@ -63,7 +63,10 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 	// Spirit spawning
 	if (event.entityLivingBase.definition.id == "specialmobs:hungryzombie") {
 		print("Is Hungry Zombie");
-		<entity:betterwithaddons:spirit>.spawnEntity(event.entityLivingBase.world, event.entityLivingBase.position);
+		// Until CT fixes entity spawns with nbt
+		// <entity:betterwithaddons:spirit>.spawnEntity(event.entityLivingBase.world, event.entityLivingBase.position);
+
+		server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:4}");
 		print("Spawned spirit");
 	}
 });

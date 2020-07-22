@@ -27,6 +27,12 @@ minecraft:luck
 minecraft:unluck
 biomesoplenty:curse
 dungeontactics:cryo_effect
+randomthings:imbue_fire
+randomthings:imbue_poison
+randomthings:imbue_experience
+randomthings:imbue_wither
+randomthings:imbue_collapse
+randomthings:collapse
 rustic:ironskin
 rustic:feather
 rustic:blazing_trail
@@ -205,6 +211,7 @@ wards:effect_transport
 wards:effect_companion
 wards:effect_sunder
 wards:effect_rage
+wards:effect_soulsteal
 wards:effect_trinket_speed
 wards:effect_trinket_jump
 wards:effect_trinket_haste

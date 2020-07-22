@@ -10,3 +10,6 @@ book.rustic.text.wildberries=Carminberries come from Carminberry bushes. Carminb
 book.rustic.text.wildberries_1=Carminberry bushes will not reproduce naturally, but bonemeal can be applied to make them spread. carminberries can be eaten, but they are not very filling. However, they can be eaten faster than normal foods, and they grow very quickly.
 book.rustic.text.wildberry_juice=Crushing carminberries in a crushing tub yields the berries' juice. When drank from a bottle, Carminberry juice fills some hunger and saturation, with a chance of providing a regeneration buff, and a smaller chance of poisoning the consumer. Carminberry juice can also be brewed into Carminberry wine.
 book.rustic.text.wildberry_wine=Carminberry wine increases the level of all positive effects, up to level III.
+
+book.rustic.entry.crop_stakes=Crop Stakes
+book.rustic.entry.rope=Agricultural Rope

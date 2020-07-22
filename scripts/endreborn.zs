@@ -150,3 +150,11 @@ recipes.addShaped("Purpur Lamp", <endreborn:block_purpur_lamp>,[
     [<minecraft:glass_pane>, <endreborn:block_end_magma>, <minecraft:glass_pane>],
     [<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>]
 ]);
+
+//changes to end rune behavior
+recipes.remove(<endreborn:item_end_rune>);
+val endrune = <endreborn:item_end_rune>;
+endrune.maxStackSize = 1;
+endrune.maxDamage = 8;
+
+game.setLocalization("item.item_end_rune.name","Rune of End");

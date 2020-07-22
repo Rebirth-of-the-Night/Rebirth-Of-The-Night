@@ -12,6 +12,8 @@ import crafttweaker.entity.IEntityDefinition;
 val irongolem = LootTables.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
+mods.ltt.LootTable.removeGlobalItem("minecraft:spawn_egg");
+
 <entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3);
 <entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,3);
 
@@ -55,6 +57,7 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 // aether
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
 
+
 // SpecialMobs
 val lemonSlime = LootTables.getTable("specialmobs:entities/slime/lemon");
 lemonSlime.clear();
@@ -69,15 +72,27 @@ watermelonSlime.clear();
 val grapeSlime = LootTables.getTable("specialmobs:entities/slime/grape");
 grapeSlime.clear();
 
+
+//BetterAnimals+
+<entity:betteranimalsplus:zotzpyre>.addDrop(<contenttweaker:monster_hide>,1,2);
+
+//DungeonTactics
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
+
+
+//Fish's Undead Rising
+mods.ltt.LootTable.removeGlobalItem("mod_lavacow:hyphae");
+
 //PrimitiveMobs ######################
+<entity:primitivemobs:harpy>.removeDrop(<minecraft:gold_nugget>);
+<entity:primitivemobs:grovesprite>.removeDrop(<primitivemobs:wonder_sap>);
+//<entity:primitivemobs:grovesprite>.addPlayerOnlyDrop(<primitivemobs:wonder_sap>, 0, 1);
+
 val gob = LootTables.getTable("primitivemobs:entities/goblin");
 val gobMain = gob.getPool("goblin_drops");
 gobMain.removeEntry("minecraft:iron_ingot");
 val gob1 = gob.addPool("gob1", 1, 1, 1, 2);
 gob1.addItemEntryHelper(<contenttweaker:tattered_hide>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
-
-//BetterAnimals+
-<entity:betteranimalsplus:zotzpyre>.addDrop(<contenttweaker:monster_hide>,1,2);
 
 // Treasure Slime
 val lootSlime = LootTables.getTable("primitivemobs:entities/special/treasure_slime");

@@ -66,9 +66,15 @@ mods/twitchspawn_1.12.2-0.5.5.jar
 shaderpacks/SEUS PTGI E12.zip
 shaderpacks/BBVanillaReborn_V1.0.2.zip
 mods/twitchspawn_1.12.2-0.6.3.jar
-
 icon.png
-
 config/tellme.cfg
 config/tellme/
 mods/tellme-*.jar
+config/codechicken/supporters.marker
+backups/
+
+config/qualitytools/problems.txt
+
+local/ftbutilities/backups.json
+
+local/ftbutilities/uploaded_crash_reports/
