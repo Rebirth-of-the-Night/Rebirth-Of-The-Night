@@ -8,6 +8,8 @@ import crafttweaker.entity.IEntity;
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 
+import mods.ctutils.utils.Math;
+
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
 		if (event.player.world.isRemote()) {
@@ -35,6 +37,12 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 	// Mushroom stew bowl fix
 	if (event.isPlayer & event.item.definition.id == <minecraft:mushroom_stew>.definition.id) {
 		event.player.give(<minecraft:bowl>);
+	}
+
+	// Give hunger when eating raw venison
+	if (event.isPlayer & <ore:listAllvenisonraw> has event.item & Math.random() >= 0.25) {
+		var hunger = <potion:minecraft:hunger>.makePotionEffect(100, 0, false, true);
+		event.player.addPotionEffect(hunger);
 	}
 });
 

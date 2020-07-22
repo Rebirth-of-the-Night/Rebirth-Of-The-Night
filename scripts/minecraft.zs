@@ -690,12 +690,14 @@ rawDuck.remove(<harvestcraft:groundduckitem>);
 val rawVenison = <ore:listAllvenisonraw>;
 rawVenison.add(<twilightforest:raw_venison>);
 rawVenison.add(<betteranimalsplus:venisonraw>);
+rawVenison.add(<harvestcraft:venisonrawitem>);
 rawVenison.addAll(<ore:rawVenison>);
 rawVenison.remove(<harvestcraft:groundvenisonitem>);
 
 val cookedVenison = <ore:listAllvenisoncooked>;
 cookedVenison.add(<twilightforest:cooked_venison>);
 cookedVenison.add(<betteranimalsplus:venisoncooked>);
+cookedVenison.add(<harvestcraft:venisoncookeditem>);
 cookedVenison.addAll(<ore:cookedVenison>);
 
 val rawRabbit = <ore:listAllrabbitraw>;
