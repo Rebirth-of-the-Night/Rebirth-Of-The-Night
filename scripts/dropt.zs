@@ -252,7 +252,7 @@ Dropt.list("slacked_lime")
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(1200)) // slaked lime
-          .items([<pyrotech:material:4>*4])
+          .items([<pyrotech:material:8>*4])
 	  )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(200)) // fossil_piece

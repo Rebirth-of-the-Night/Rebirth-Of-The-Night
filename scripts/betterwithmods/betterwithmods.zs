@@ -165,12 +165,12 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:1>]); # nethercoal
 
 mods.betterwithmods.Cauldron.builder()
 .buildRecipe([<betterwithmods:material:16>,<ore:dustCarbon>],[<betterwithmods:material:1>]) #coal nethercoal
-.setIgnoreHeat(true)
+.setIgnoreHeat(false)
 .setPriority(12)
 .build();
 mods.betterwithmods.Cauldron.builder()
 .buildRecipe([<betterwithmods:material:16>,<ore:dustRichCarbon>],[<betterwithmods:material:1>*4]) #coke nethercoal
-.setIgnoreHeat(true)
+.setIgnoreHeat(false)
 .setPriority(3)
 .build();
 

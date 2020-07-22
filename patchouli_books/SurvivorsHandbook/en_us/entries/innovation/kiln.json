@@ -1,0 +1,26 @@
+{
+    "name": "Kiln",
+    "icon": "pyrotech:brick_kiln",
+    "category": "innovation_burn",
+    "pages": [
+		{
+			"type": "crafting",
+			"recipe": "pyro_stone_kiln",
+			"recipe2": "pyro_brick_kiln"
+		},
+        {
+            "type": "text",
+            "text": "After experimenting a bit with alternative furnace concepts, I came up with the idea of making a kiln that can slowly melt materials in bulk all at the same time for relatively low amounts of fuel. With this device I can achieve the temperature needed to make bronze alloy as well as turning wood into charcoal without burning it up. I just need to carefully "
+		},	
+		{
+            "type": "text",
+            "text":	"ignite it and then I can estimate how much time it will take.$(br2)$(o)To operate the kiln, place fuel in the bottom slot and a valid material in the top slot, after that,  use an igniter(link) on the fuel and let it cook; Duration of the recipe displays on the bottom left corner/$"
+        },
+		{
+			"type": "relations",
+			"entries": [
+				"innovation/refractory"
+			]
+		}
+    ]
+}
