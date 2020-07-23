@@ -9,6 +9,11 @@ import mods.contenttweaker.Color;
 val dunamisTab = VanillaFactory.createCreativeTab("Dunamis", <item:contenttweaker:blank_rune>);
 dunamisTab.register();
 
+// Charm
+val blankCharm = mods.contenttweaker.VanillaFactory.createItem("blank_charm");
+blankCharm.setCreativeTab(<creativetab:Dunamis>);
+blankCharm.register();
+
 // Vis items
 val visSpeck = mods.contenttweaker.VanillaFactory.createItem("vis_speck");
 visSpeck.setCreativeTab(<creativetab:Dunamis>);

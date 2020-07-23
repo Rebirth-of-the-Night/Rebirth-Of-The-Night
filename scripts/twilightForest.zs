@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 mods.ltt.LootTable.removeGlobalItem("twilightforest:transformation_powder");
 mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table>);
@@ -70,27 +71,51 @@ mods.jei.JEI.addDescription([<twilightforest:charm_of_life_1>],["With this charm
 mods.jei.JEI.addDescription([<twilightforest:charm_of_keeping_3>],["With this charm in your inventory, your entire inventory will be kept on death."]);
 mods.jei.JEI.addDescription([<twilightforest:charm_of_life_2>],["With this charm in your inventory, you will restore 10 hearts and gain Regeneration IV, Fire Resistance I, and Resistance I for 30 seconds on a fatal blow to you."]);
 
-recipes.addShaped(<twilightforest:charm_of_keeping_1>, [
-   [<dungeontactics:magic_powder>, <contenttweaker:material_part:1>, <dungeontactics:magic_powder>],
-   [<contenttweaker:material_part:1>, <minecraft:ghast_tear>, <contenttweaker:material_part:1>], 
-   [<bountifulbaubles:spectralsilt>, <contenttweaker:soul_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]]);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <contenttweaker:material_part:1>, <contenttweaker:vis_speck>],
+    [<contenttweaker:material_part:1>, <contenttweaker:blank_charm>, <contenttweaker:material_part:1>],
+    [<contenttweaker:vis_speck>, <minecraft:ghast_tear>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:soul_rune>, 1)
+  .addOutput(<twilightforest:charm_of_keeping_1>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
-recipes.addShaped(<twilightforest:charm_of_life_1>, [
-   [<dungeontactics:magic_powder>, <contenttweaker:soul_rune>.anyDamage().transformDamage(), <dungeontactics:magic_powder>],
-   [<bountifulbaubles:spectralsilt>, <scalinghealth:crystalshard>, <bountifulbaubles:spectralsilt>], 
-   [<dungeontactics:magic_powder>, <contenttweaker:life_rune>.anyDamage().transformDamage(), <dungeontactics:magic_powder>]]);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <scalinghealth:heartdust>, <contenttweaker:vis_speck>],
+    [<scalinghealth:heartdust>, <contenttweaker:blank_charm>, <scalinghealth:heartdust>],
+    [<contenttweaker:vis_speck>, <scalinghealth:heartdust>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:soul_rune>, 1)
+  .addOutput(<twilightforest:charm_of_life_1>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
-mods.betterwithaddons.Infuser.addShaped(<twilightforest:charm_of_keeping_3>, [
-   [<contenttweaker:material_part:8>, <contenttweaker:material_part:16>, <contenttweaker:material_part:8>],
-   [<contenttweaker:material_part:16>, <twilightforest:charm_of_keeping_1>, <contenttweaker:material_part:16>], 
-   [<bountifulbaubles:spectralsilt>, <contenttweaker:holding_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]],
-   32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <contenttweaker:material_part:16>, <contenttweaker:vis_shard>],
+    [<contenttweaker:material_part:16>, <twilightforest:charm_of_keeping_1>, <contenttweaker:material_part:16>],
+    [<contenttweaker:vis_shard>, <contenttweaker:material_part:16>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:holding_rune>, 1)
+  .addOutput(<twilightforest:charm_of_keeping_3>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
-mods.betterwithaddons.Infuser.addShaped(<twilightforest:charm_of_life_2>, [
-   [<dungeontactics:magic_powder>, <contenttweaker:fire_rune>.anyDamage().transformDamage(), <dungeontactics:magic_powder>],
-   [<contenttweaker:life_rune>.anyDamage().transformDamage(), <twilightforest:charm_of_life_1>, <contenttweaker:strength_rune>.anyDamage().transformDamage()], 
-   [<bountifulbaubles:spectralsilt>, <contenttweaker:soul_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]],
-   32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <scalinghealth:crystalshard>, <contenttweaker:vis_shard>],
+    [<scalinghealth:crystalshard>, <twilightforest:charm_of_life_1>, <scalinghealth:crystalshard>],
+    [<contenttweaker:vis_shard>, <scalinghealth:crystalshard>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(<twilightforest:charm_of_life_2>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
    
 // Maps and Foci
 

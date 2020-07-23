@@ -502,16 +502,114 @@ recipes.addShapeless("bag_of_hoarding",<dungeontactics:bagofhoarding>,[backpack,
 
 // Charm recipes
 
-recipes.addShaped(<dungeontactics:charm_searing>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:fire_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_barren>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:luna_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_famine>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:nature_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_darkened>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:sol_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_unintelligible>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:water_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_emaciated>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:strength_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_heavy>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:air_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_sapping>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:energy_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
-recipes.addShaped(<dungeontactics:charm_toxic>, [[<minecraft:bone>, null, <minecraft:bone>],[null, <contenttweaker:poison_orb>, null], [<minecraft:bone>, <bountifulbaubles:spectralsilt>, <minecraft:bone>]]);
+// Charm recipes
 
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:water_rune>, 1)
+  .addOutput(<dungeontactics:charm_unintelligible>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(<dungeontactics:charm_emaciated>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:poison_rune>, 1)
+  .addOutput(<dungeontactics:charm_toxic>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<dungeontactics:charm_sapping>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addOutput(<dungeontactics:charm_heavy>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addOutput(<dungeontactics:charm_searing>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addOutput(<dungeontactics:charm_barren>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addOutput(<dungeontactics:charm_famine>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
+    [null, <contenttweaker:blank_charm>, null],
+    [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addOutput(<dungeontactics:charm_darkened>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<dungeontactics:charm_emaciated>, <dungeontactics:charm_unintelligible>, <dungeontactics:charm_sapping>, <dungeontactics:charm_heavy>, <dungeontactics:charm_searing>, <dungeontactics:charm_barren>, <dungeontactics:charm_toxic>, <dungeontactics:charm_famine>, <dungeontactics:charm_darkened>])
+  .addOutput(<dungeontactics:charm_bleak>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+  
 // Spell rework (wands!)
 
 # Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
