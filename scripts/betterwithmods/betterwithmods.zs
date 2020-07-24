@@ -188,6 +188,13 @@ mods.betterwithmods.FilteredHopper.removeRecipeByInput(<betterwithmods:material:
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>*1,[<betterwithmods:material:38>*1],[<betterwithaddons:congealed>*5]);
 
+mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]); #remove default BWM bark-tanned leather recipe as well as dung variants
+mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); # tanned leather
+mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:7>],[<betterwithmods:material:6>]);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]); #remove default BWM bark-cut tanned leather recipe as well as dung variants
+mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]); # tanned cut leather
+mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]);
+
 mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_boots>);

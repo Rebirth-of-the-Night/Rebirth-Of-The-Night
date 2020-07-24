@@ -132,6 +132,7 @@ val windmillBlade = <betterwithmods:material:11>;
 val millstone = <betterwithmods:single_machine>;
 val woodChips = <pyrotech:rock:7>;
 val pulp = <pyrotech:material:25>;
+val bark = <ore:barkWood>;
 // val fiber = <betterwithmods:material:3>;
 val plantFiber = <pyrotech:material:12>;
 val driedPlantFiber = <pyrotech:material:13>;
@@ -154,7 +155,7 @@ mods.jei.JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone
 mods.jei.JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
 
 mods.jei.JEI.addDescription(woodChips, "This byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
-mods.jei.JEI.addDescription(<betterwithmods:bark:*>,"Woof! Obtained from chopping up logs, these are most useful for tanning leather.");
+mods.jei.JEI.addDescription(bark,"Woof! Obtained from chopping up logs, these are most useful for tanning leather.");
 mods.jei.JEI.addDescription(driedPlantFiber, "Small strands of dried fiber. Can be tied together for some string or better quality fiber.");
 mods.jei.JEI.addDescription(plantFiber, "Various high-quality plant material found by breaking different kinds of grass.");
 mods.jei.JEI.addDescription(hempFiber,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");

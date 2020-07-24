@@ -85,7 +85,8 @@ mods.jei.JEI.hideCategory("pyrotech.brick.mill");
 mods.jei.JEI.hideCategory("pyrotech.brick.oven");
 mods.jei.JEI.hideCategory("pyrotech.brick.crucible");
 mods.jei.JEI.hideCategory("pyrotech.mechanical.compacting.bin");
-
+mods.jei.JEI.hideCategory("pyrotech.chopping");
+mods.jei.JEI.hideCategory("pyrotech.stone.mill");
 furnace.remove(<pyrotech:mushroom_red_roasted>);
 furnace.remove(<pyrotech:mushroom_brown_roasted>);
 furnace.remove(<pyrotech:apple_baked>);
