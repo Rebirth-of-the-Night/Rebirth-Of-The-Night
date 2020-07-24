@@ -62,22 +62,6 @@ recipes.addShapeless("rareglowpowder", <betterwithaddons:wheatmat>*5, [<ore:rare
 recipes.addShapeless(<harvestcraft:royaljellyitem>*3, [<harvestcraft:queenbeeitem>.transformReplace(<harvestcraft:queenbeeitem>), <betterwithaddons:wheatmat>]);
 recipes.addShapeless(<twilightforest:moonworm>, [<twilightforest:moonworm_queen>.anyDamage().transformDamage(1), <betterwithaddons:wheatmat>]);
 
-// new glaretorches - larger upgrades require coal
-var torch = <minecraft:torch>;
-var small = <glaretorch:itemglaretorchsmall>;
-var residue = <betterwithaddons:wheatmat>;
-
-recipes.addShaped("SmallResidueGlareTorch", <glaretorch:itemglaretorchsmall>,[
-	[residue, residue, residue],
-    [residue, torch, residue]
-]);
-
-recipes.addShaped("MediumResidueGlareTorch", <glaretorch:itemglaretorch>,[
-	[residue, residue, residue],
-    [residue, small, residue]
-]);
-
-
 // WAITING FOR MOWZIE'S MOBS AUTHOR TO ADD LOOT TABLES SO I CAN ENTIRELY REPLACE GLOWING JELLY DROP WITH THIS
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:congealed:4>, <mowziesmobs:glowing_jelly>, 5000);
 

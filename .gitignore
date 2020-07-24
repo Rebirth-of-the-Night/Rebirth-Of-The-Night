@@ -76,3 +76,5 @@ backups/
 config/qualitytools/problems.txt
 
 local/ftbutilities/backups.json
+
+local/ftbutilities/uploaded_crash_reports/

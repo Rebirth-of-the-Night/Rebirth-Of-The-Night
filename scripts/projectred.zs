@@ -22,6 +22,10 @@ recipes.addShapeless(<minecraft:iron_ingot> * 2, [
     <microblockcbe:microblock:1>.withTag({mat: "minecraft:iron_block"})
 ]);
 
+<ore:ingotCopper>.remove(<projectred-core:resource_item:100>);
+<ore:ingotTin>.remove(<projectred-core:resource_item:101>);
+<ore:ingotSilver>.remove(<projectred-core:resource_item:102>);
+
 val keepResource = [0, 4, 103, 251] as int[];
 
 for i in 0 to 516 {

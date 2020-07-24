@@ -77,6 +77,7 @@ recipes.remove(<pyrotech:compacting_bin>);
 recipes.remove(<pyrotech:brick_oven>);
 recipes.remove(<pyrotech:drying_rack:1>);
 mods.jei.JEI.hideCategory("pyrotech.campfire");
+mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
 mods.jei.JEI.hideCategory("pyrotech.worktable");
 mods.jei.JEI.hideCategory("pyrotech.stone.oven");
 mods.jei.JEI.hideCategory("pyrotech.stone.crucible");
@@ -84,7 +85,8 @@ mods.jei.JEI.hideCategory("pyrotech.brick.mill");
 mods.jei.JEI.hideCategory("pyrotech.brick.oven");
 mods.jei.JEI.hideCategory("pyrotech.brick.crucible");
 mods.jei.JEI.hideCategory("pyrotech.mechanical.compacting.bin");
-
+mods.jei.JEI.hideCategory("pyrotech.chopping");
+mods.jei.JEI.hideCategory("pyrotech.stone.mill");
 furnace.remove(<pyrotech:mushroom_red_roasted>);
 furnace.remove(<pyrotech:mushroom_brown_roasted>);
 furnace.remove(<pyrotech:apple_baked>);
@@ -197,9 +199,7 @@ recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
   [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro_bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
 recipes.addShapeless("pyro_flint_and_tinder_for_survivors", <pyrotech:flint_and_tinder>*3,[<ore:cobblestone>,<pyrotech:material:13>,<minecraft:flint>]);
-recipes.addShaped("pyro_refracotrymaterial_refractorylump", <pyrotech:material:4>, 
-[[<pyrotech:material:35>, <pyrotech:material:35>],
-[<pyrotech:material:35>, <pyrotech:material:35>]]);
+recipes.addShapeless("pyro_refracotrymaterial_slag", <pyrotech:material:4>, [<pyrotech:material:8>*2,<minecraft:clay_ball>]);
 recipes.addShapeless("pyro_unfiredlime_lime", <pyrotech:material:9>,[<pyrotech:material:4>,<pyrotech:material:4>]);
 recipes.addShapeless("pyro_flint_and_tinder_for_pussies", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:flint>]);
 furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);

@@ -3,7 +3,7 @@
 	"parent": "block/torch",
 	"textures": {
 		"1": "Glaretorch:blocks/blockglaretorch",
-		"particle": "Glaretorch:blocks/blockglaretorch"
+		"particle": "Glaretorch:blocks/blockglaretorch_particle"
 	},
 	"elements": [
 		{

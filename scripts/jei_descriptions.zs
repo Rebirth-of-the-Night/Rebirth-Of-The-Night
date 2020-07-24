@@ -132,6 +132,7 @@ val windmillBlade = <betterwithmods:material:11>;
 val millstone = <betterwithmods:single_machine>;
 val woodChips = <pyrotech:rock:7>;
 val pulp = <pyrotech:material:25>;
+val bark = <ore:barkWood>;
 // val fiber = <betterwithmods:material:3>;
 val plantFiber = <pyrotech:material:12>;
 val driedPlantFiber = <pyrotech:material:13>;
@@ -154,7 +155,7 @@ mods.jei.JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone
 mods.jei.JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
 
 mods.jei.JEI.addDescription(woodChips, "This byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
-mods.jei.JEI.addDescription(<betterwithmods:bark:*>,"Woof! Obtained from chopping up logs, these are most useful for tanning leather.");
+mods.jei.JEI.addDescription(bark,"Woof! Obtained from chopping up logs, these are most useful for tanning leather.");
 mods.jei.JEI.addDescription(driedPlantFiber, "Small strands of dried fiber. Can be tied together for some string or better quality fiber.");
 mods.jei.JEI.addDescription(plantFiber, "Various high-quality plant material found by breaking different kinds of grass.");
 mods.jei.JEI.addDescription(hempFiber,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
@@ -176,7 +177,7 @@ mods.jei.JEI.addDescription(<minecraft:brick_block>,["Other than the regular use
 mods.jei.JEI.addDescription(<pyrotech:material>, "Ashy remains of pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
 
 mods.jei.JEI.addDescription(refractoryClayBall, "This muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat-resistant burning station.");
-mods.jei.JEI.addDescription([<pyrotech:refractory_brick_block>,refractoryBrick], "Refractory materials enable the construction of structures for pit-burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
+mods.jei.JEI.addDescription([<pyrotech:refractory_brick_block>,refractoryBrick], "Refractory materials enable the construction of structures for burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
 mods.jei.JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure works by burning without actually starting a fire, thus, it is of tremendous importance than no air gap is present between the walls of the structure and the material being burned; that includes the door...");
 // mods.jei.JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
 
