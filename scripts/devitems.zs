@@ -12,6 +12,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 mods.jei.JEI.addDescription([<dungeontactics:steel_sword:*>],['A sword imbued with the power of cat girls, pretty colors, pickles, and head pats. Lovingly referred to by its creator as "Sword of Gay."']);
 
 <dungeontactics:steel_sword:*>.addTooltip(format.aqua("+9999 validity to wielder"));
+<dungeontactics:steel_sword:*>.addTooltip(format.aqua("+9999 damage to TERFs"));
 <dungeontactics:steel_sword:*>.addTooltip(format.darkBlue("Developer Relic 5/6"));
 
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>, 
