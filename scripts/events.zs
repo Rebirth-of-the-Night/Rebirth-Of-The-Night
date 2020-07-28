@@ -1,7 +1,6 @@
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
-import crafttweaker.event.EntityLivingUseItemEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
 
@@ -13,7 +12,7 @@ import crafttweaker.potions.IPotionEffect;
 
 import mods.ctutils.utils.Math;
 
-events.onEntityLivingUseItemFinish(function(event as EntityLivingUseItemEvent.Finish) {
+events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
 		if (event.player.world.isRemote()) {
 			return;
@@ -49,7 +48,7 @@ events.onEntityLivingUseItemFinish(function(event as EntityLivingUseItemEvent.Fi
 	}
 });
 
-events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
 	if (event.world.isRemote()) {
 		return;
 	}
@@ -62,7 +61,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
 	}
 });
 
-events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
+events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeathEvent) {
 	if (event.entityLivingBase.world.isRemote()) {
 		return;
 	}
@@ -82,7 +81,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
 	}
 });
 
-events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
+events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
 	// Plague rotten drop
 	if (event.entityLivingBase.isPotionActive(<potion:rats:plague>)) {
 		var drops = event.entityLivingBase.getDrops() as IEntityItem[];
