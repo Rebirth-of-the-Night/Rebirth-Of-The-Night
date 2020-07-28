@@ -1,16 +1,19 @@
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
+import crafttweaker.event.EntityLivingDeathDropsEvent;
+import crafttweaker.event.EntityLivingUseItemEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
 
 import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityItem;
 
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 
 import mods.ctutils.utils.Math;
 
-events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
+events.onEntityLivingUseItemFinish(function(event as EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
 		if (event.player.world.isRemote()) {
 			return;
@@ -46,7 +49,7 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 	}
 });
 
-events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
 	if (event.world.isRemote()) {
 		return;
 	}
@@ -59,7 +62,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	}
 });
 
-events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeathEvent) {
+events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
 	if (event.entityLivingBase.world.isRemote()) {
 		return;
 	}
@@ -76,5 +79,22 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 
 		server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:4}");
 		print("Spawned spirit");
+	}
+});
+
+events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
+	// Plague rotten drop
+	if (event.entityLivingBase.isPotionActive(<potion:rats:plague>)) {
+		var drops = event.entityLivingBase.getDrops() as IEntityItem[];
+		for i in 0 to drops.length {
+			if (<ore:listAllmeat> has drops[i]) {
+				drops[i] = <minecraft:rotten_flesh>.createEntityItem(drops[i].world, drops[i].position);
+			} else {
+				if (drops[i].item.isFood) {
+					drops[i] = <betterwithaddons:rotten_food>.createEntityItem(drops[i].world, drops[i].position);
+				}
+			}
+		}
+		event.setDrops(drops);
 	}
 });
