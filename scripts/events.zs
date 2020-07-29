@@ -7,6 +7,8 @@ import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityItem;
 
+import crafttweaker.player.IPlayer;
+
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 
@@ -66,9 +68,17 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 		return;
 	}
 
+	// Avoid nres on player death
+	if (event.entityLivingBase instanceof IPlayer) {
+		return;
+	}
+	if (event.entityLivingBase.definition == null) {
+		return;
+	}
+
 	print("EntityLivingDeath");
-	print("Name is " + event.entityLivingBase.definition.name);
-	print("Id is " + event.entityLivingBase.definition.id);
+	// print("Name is " + event.entityLivingBase.definition.name);
+	// print("Id is " + event.entityLivingBase.definition.id);
 
 	// Spirit spawning
 	if (event.entityLivingBase.definition.id == "specialmobs:hungryzombie") {
@@ -84,9 +94,9 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
 	// Plague rotten drop
 	if (event.entityLivingBase.isPotionActive(<potion:rats:plague>)) {
-		var drops = event.entityLivingBase.getDrops() as IEntityItem[];
+		var drops = event.drops as IEntityItem[];
 		for i in 0 to drops.length {
-			if (<ore:listAllmeat> has drops[i]) {
+			if (<ore:listAllmeat> has drops[i].item) {
 				drops[i] = <minecraft:rotten_flesh>.createEntityItem(drops[i].world, drops[i].position);
 			} else {
 				if (drops[i].item.isFood) {
@@ -94,6 +104,6 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 				}
 			}
 		}
-		event.setDrops(drops);
+		event.drops = drops;
 	}
 });
