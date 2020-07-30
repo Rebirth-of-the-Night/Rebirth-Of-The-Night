@@ -56,6 +56,8 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
 // aether
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
+<entity:aether_legacy:chest_mimic>.clearDrops();
+<entity:aether_legacy:chest_mimic>.addDrop(<aether_legacy:skyroot_chest>);
 
 
 // SpecialMobs

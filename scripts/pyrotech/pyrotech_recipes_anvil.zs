@@ -73,6 +73,7 @@ GraniteAnvil.addRecipe("refractorylump_quartzite",<pyrotech:material:8>*2, <unde
 GraniteAnvil.addRecipe("refractorylump_marble",<pyrotech:material:8>*2, <undergroundbiomes:metamorphic_stone:2>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("refractorylump_dolomite",<pyrotech:material:8>*2, <undergroundbiomes:sedimentary_stone:5>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("limerock_lime",<pyrotech:rock:8>*3, <undergroundbiomes:sedimentary_stone>, 8,"pickaxe", true);
+GraniteAnvil.addRecipe("blaze_lantern_to_powder",<minecraft:blaze_powder>*3, <quark:blaze_lantern>, 16,"hammer", true);
 
 //D-Heads
 /* 

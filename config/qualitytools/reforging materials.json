@@ -955,5 +955,13 @@
     "material": {
       "item": "arcanearchives:radiant_dust"
     }
+  },
+  {
+    "tool": {
+      "item": "extraalchemy:potion_ring"
+    },
+    "material": {
+      "item": "extraalchemy:empty_ring"
+    }
   }
 ]

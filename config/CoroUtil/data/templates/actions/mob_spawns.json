@@ -550,7 +550,7 @@
           "entities": [
             "mowziesmobs:naga"
           ],
-          "count": 1,
+          "count": 2,
           "cmods": [
             {
               "cmod": "ai_omniscience"
