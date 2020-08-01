@@ -222,3 +222,19 @@ recipes.addShaped("yellow_slime_block",<quark:color_slime:4>,[
 recipes.addShapeless("yellow_slimeball",<betterslimes:yellow_slime>*9,[<quark:color_slime:4>]);
 
 recipes.addShapeless("black_slimeball",<betterslimes:black_slime>*9,[<quark:color_slime:2>]);
+
+recipes.remove(<quark:redstone_randomizer>);
+recipes.addShaped("quark_randomizer", <quark:redstone_randomizer>, [
+	[null, <minecraft:redstone_torch>, null],
+	[<minecraft:redstone_torch>, <cyclicmagic:dice>, <minecraft:redstone_torch>],
+	[<ore:stone>, <ore:stone>, <ore:stone>]
+]);
+
+// runes
+
+# remove all original quark rune recipes
+recipes.remove(<quark:rune:*>);
+
+# make quark runes non stackable
+val quarkrune = (<quark:rune:*>);
+quarkrune.maxStackSize = 1;

@@ -1,0 +1,7 @@
+{
+  "name": "Technological Trinkets",
+  "description": "its really just redstone and ender shit",
+  "icon": "minecraft:redstone",
+  "sortnum": 3,
+  "parent": "innovation"
+}

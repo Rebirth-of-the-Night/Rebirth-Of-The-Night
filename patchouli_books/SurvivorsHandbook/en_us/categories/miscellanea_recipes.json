@@ -1,0 +1,7 @@
+{
+  "name": "Recipes",
+  "description": "Welcome to JEI motherfuckers",
+  "icon": "minecraft:diamond",
+  "sortnum": 0,
+  "parent": "miscellanea"
+}

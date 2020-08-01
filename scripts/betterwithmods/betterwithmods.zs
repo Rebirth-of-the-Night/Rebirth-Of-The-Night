@@ -73,6 +73,7 @@ furnace.remove(<betterwithmods:cooking_pot>);
 recipes.remove(<betterwithmods:donut>);
 mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
+mods.betterwithmods.Cauldron.remove([<minecraft:leather>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:dirt_pile>);
 mods.jei.JEI.removeAndHide(<betterwithmods:gravel_pile>);
@@ -161,6 +162,18 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:13>]);
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:29>]); # blasting oil
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:50>]); # soal
+mods.betterwithmods.Cauldron.remove([<betterwithmods:material:1>]); # nethercoal
+
+mods.betterwithmods.Cauldron.builder()
+.buildRecipe([<betterwithmods:material:16>,<ore:dustCarbon>],[<betterwithmods:material:1>]) #coal nethercoal
+.setIgnoreHeat(false)
+.setPriority(12)
+.build();
+mods.betterwithmods.Cauldron.builder()
+.buildRecipe([<betterwithmods:material:16>,<ore:dustRichCarbon>],[<betterwithmods:material:1>*4]) #coke nethercoal
+.setIgnoreHeat(false)
+.setPriority(3)
+.build();
 
 mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
@@ -174,6 +187,13 @@ mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:m
 mods.betterwithmods.FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); #sawdust from soul dust
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>*1,[<betterwithmods:material:38>*1],[<betterwithaddons:congealed>*5]);
+
+mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]); #remove default BWM bark-tanned leather recipe as well as dung variants
+mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); # tanned leather
+mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:7>],[<betterwithmods:material:6>]);
+mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]); #remove default BWM bark-cut tanned leather recipe as well as dung variants
+mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]); # tanned cut leather
+mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]);
 
 mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
 

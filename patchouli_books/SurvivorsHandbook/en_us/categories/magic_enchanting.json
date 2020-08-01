@@ -1,0 +1,7 @@
+{
+  "name": "Enchanting",
+  "description": "welcome to the matrix",
+  "icon": "minecraft:enchanting_table",
+  "sortnum": 1,
+  "parent": "magic"
+}

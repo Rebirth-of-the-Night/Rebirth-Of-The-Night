@@ -62,22 +62,6 @@ recipes.addShapeless("rareglowpowder", <betterwithaddons:wheatmat>*5, [<ore:rare
 recipes.addShapeless(<harvestcraft:royaljellyitem>*3, [<harvestcraft:queenbeeitem>.transformReplace(<harvestcraft:queenbeeitem>), <betterwithaddons:wheatmat>]);
 recipes.addShapeless(<twilightforest:moonworm>, [<twilightforest:moonworm_queen>.anyDamage().transformDamage(1), <betterwithaddons:wheatmat>]);
 
-// new glaretorches - larger upgrades require coal
-var torch = <minecraft:torch>;
-var small = <glaretorch:itemglaretorchsmall>;
-var residue = <betterwithaddons:wheatmat>;
-
-recipes.addShaped("SmallResidueGlareTorch", <glaretorch:itemglaretorchsmall>,[
-	[residue, residue, residue],
-    [residue, torch, residue]
-]);
-
-recipes.addShaped("MediumResidueGlareTorch", <glaretorch:itemglaretorch>,[
-	[residue, residue, residue],
-    [residue, small, residue]
-]);
-
-
 // WAITING FOR MOWZIE'S MOBS AUTHOR TO ADD LOOT TABLES SO I CAN ENTIRELY REPLACE GLOWING JELLY DROP WITH THIS
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:congealed:4>, <mowziesmobs:glowing_jelly>, 5000);
 
@@ -93,26 +77,6 @@ brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:night
 
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"}), <minecraft:redstone>);
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"}), <minecraft:dragon_breath>);
-
-// Removed Default Rustic Nightvision Elixirs
-//val slownessElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 1800, Amplifier: 0}]});
-//val slownessExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 4800, Amplifier: 0}]});
-
-mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}));
-mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}));
-
-
-
-// New Rustic Elixirs
-val nightvisionElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]});
-val nightvisionExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]});
-val nightvisionObsceneExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 14400, Amplifier: 0}]});
-
-mods.rustic.Condenser.addRecipe(nightvisionElixir, null, [<betterwithaddons:wheatmat>, <mowziesmobs:glowing_jelly>, <arcanearchives:radiant_dust>]);
-mods.rustic.Condenser.addRecipe(nightvisionExtendedElixir, <minecraft:golden_carrot>, [<betterwithaddons:wheatmat>, <mowziesmobs:glowing_jelly>, <arcanearchives:radiant_dust>]);
-mods.rustic.Condenser.addRecipe(nightvisionObsceneExtendedElixir, <twilightforest:moonworm>, [<betterwithaddons:wheatmat>, <mowziesmobs:glowing_jelly>, <arcanearchives:radiant_dust>]);
-
-
 
 
 //RIP - oredict does not work with rustic condenser. keeping these oredicts here in case we want to use contenttweaker for more complex/differentiated alchemy recipes that reward multidimensional exploration

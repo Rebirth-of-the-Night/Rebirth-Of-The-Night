@@ -13,6 +13,8 @@ mods.betterwithmods.Mill.remove([<betterwithmods:material:44>]);
 
 //Cattail Flour
 mods.betterwithmods.Mill.addRecipe([<biomesoplenty:plant_1:4>],[<betterwithmods:raw_pastry:3>]);
+//Coke Powder
+mods.betterwithmods.Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
 //Magic Powder
 mods.betterwithmods.Mill.builder()
 .buildRecipe([<bountifulbaubles:spectralsilt>], [<dungeontactics:magic_powder>*2])

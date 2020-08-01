@@ -182,8 +182,10 @@ val bFeatherOre = <ore:blackFeather>;
 bFeatherOre.add([<animania:charcoal_peacock_feather>, <twilightforest:raven_feather>, <mod_lavacow:feather_black>]);
 
 mods.betterwithaddons.Infuser.addShaped(<mod_lavacow:dreamcatcher>, [
-   [<mod_lavacow:mossy_stick>, <contenttweaker:mind_rune>.anyDamage().transformDamage(), <mod_lavacow:mossy_stick>],[<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>], [bFeatherOre, bFeatherOre, bFeatherOre]],
-   16);
+   [<mod_lavacow:mossy_stick>, <contenttweaker:mind_rune>.anyDamage().transformDamage(), <mod_lavacow:mossy_stick>],
+   [<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>], 
+   [bFeatherOre, bFeatherOre, bFeatherOre]],
+16);
 
 
 

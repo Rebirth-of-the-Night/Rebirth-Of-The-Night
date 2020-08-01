@@ -28,6 +28,16 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");
 mods.jei.JEI.removeAndHide(<bountifulbaubles:flare_red>);
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
 
+// Oredicts
+
+val cloudAny = <ore:cloudAny>;
+cloudAny.add(
+	<aether_legacy:aercloud>,
+	<aether_legacy:aercloud:2>,
+	<aether_legacy:aercloud:1>,
+	<rustic:cloudsbluff>
+);
+
 // Potions
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
@@ -243,6 +253,8 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketluckyhorseshoe>
 [<ore:ingotElectrum>, <contenttweaker:aether_rune>.anyDamage().transformDamage(), <ore:ingotElectrum>], 
 [<ore:ingotElectrum>, <aether_legacy:enchanted_gravitite>, <ore:ingotElectrum>]], 32);
 
+//remove and hide original BB disint tablet
+mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
 
 /////// non-baubles (is this legal? I will make it legal.)
 

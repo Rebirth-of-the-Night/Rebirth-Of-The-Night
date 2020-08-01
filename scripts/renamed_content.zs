@@ -43,6 +43,7 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
 //Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
+<betterwithaddons:lattice:0>.displayName = "Iron Lattice Block";
 
 //Biomes o Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
@@ -117,6 +118,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:aesthetic:0>.displayName = "Stone Chopping Block";
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
 <betterwithmods:bark:0>.displayName = "Wood Bark";
+<betterwithmods:rope>.displayName = "Hemp Cord";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -139,6 +141,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:andesite_speleothem>.displayName = "Gray Andesite Speleothem";
 <quark:end_bricks_slab:*>.displayName = "End Stone Brick Slab";
 <quark:iron_rod>.displayName = "Soul Forged Steel Rod";
+<quark:redstone_randomizer>.displayName = "Simple Randomizer";
 
 // Ice And Fire: Dragons in a Whole New Light
 <iceandfire:chain>.displayName = "Refined Chain";
@@ -165,6 +168,14 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 
+// ProjectRed
+<projectred-core:resource_item:251>.displayName = "Red Alloy Compound";
+<projectred-integration:gate:10>.displayName = "Enhanced Redstone Repeater";
+<projectred-integration:gate:11>.displayName = "Enhanced Randomizer";
+<projectred-integration:gate:20>.displayName = "Running Timer";
+<projectred-integration:gate:33>.displayName = "Selective Enhanced Randomizer";
+<projectred-integration:gate:31>.displayName = "Stacking Latch";
+
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
 <dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
@@ -174,6 +185,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <rustic:barrel>.displayName = "Vertical Barrel";
 <rustic:chain>.displayName = "Iron Chandelier Chain";
 <rustic:andesite_pillar>.displayName = "Gray Andesite Pillar";
+<rustic:crop_stake>.displayName = "Crop Stake";
+<rustic:rope>.displayName = "Agricultural Rope";
 
 // Vanilla
 <minecraft:anvil>.displayName = "Iron Anvil";

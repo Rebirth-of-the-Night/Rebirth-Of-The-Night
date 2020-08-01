@@ -130,6 +130,7 @@ biomesoplenty:fungi_forest
 biomesoplenty:phantasmagoric_inferno
 biomesoplenty:undergarden
 biomesoplenty:visceral_heap
+randomthings:spectral
 twilightforest:twilight_lake
 twilightforest:twilight_forest
 twilightforest:dense_twilight_forest

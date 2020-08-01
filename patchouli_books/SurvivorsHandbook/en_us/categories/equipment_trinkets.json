@@ -1,0 +1,7 @@
+{
+  "name": "Trinkets",
+  "description": "What rings you got bich",
+  "icon": "qualitytools:emerald_amulet",
+  "sortnum": 1,
+  "parent": "equipment"
+}

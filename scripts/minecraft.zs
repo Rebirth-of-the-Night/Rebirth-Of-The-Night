@@ -8,8 +8,7 @@ import mods.rockytweaks.Anvil;
 import mods.rockytweaks.Merchant;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
-
-brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
+//brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
@@ -546,6 +545,9 @@ toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:skyroot_axe:*>,<aether
 val hammerTool = <ore:hammerTool>;
 hammerTool.addItems([<aether_legacy:notch_hammer:*>,<pyrotech:stone_hammer:*>,<pyrotech:iron_hammer:*>,<pyrotech:diamond_hammer:*>,<pyrotech:obsidian_hammer:*>]);
 
+val shears = <ore:shears>;
+shears.addItems([<minecraft:shears>, <ceramics:clay_shears>, <cyclicmagic:shears_obsidian>, <simpleores:mythril_shears>, <simpleores:adamantium_shears>, <simpleores:onyx_shears>]);
+
 val anvilAny = <ore:anvilAny>;
 anvilAny.addItems([<minecraft:anvil>,<betterwithmods:steel_anvil>,<pyrotech:anvil_granite>]);
 
@@ -580,6 +582,15 @@ fang.addItems([<mod_lavacow:sharptooth>,<mowziesmobs:naga_fang>,<iceandfire:sea_
 val coal = <ore:gemCoal>;
 coal.addItems([<minecraft:coal>,<betterwithmods:material:1>]);
 
+val cokedust = <ore:dustCoalCoke>;
+cokedust.add(<pyrotech:material:32>);
+
+val fuelcoke = <ore:fuelCoke>;
+fuelcoke.add(<pyrotech:material:32>);
+
+val carbon = <ore:dustRichCarbon>;
+carbon.add(<pyrotech:material:32>);
+
 val qualityGem = <ore:Gem_highQuality>;
 qualityGem.addItems([<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 qualityGem.addAll(<ore:gemOnyx>);
@@ -606,6 +617,9 @@ biotiteOre.add(<quark:biotite_ore>);
 
 val redstone = <ore:gemRedstone>;
 redstone.add(<minecraft:redstone>);
+
+val hellfireIngot = <ore:ingotHellfire>;
+hellfireIngot.addAll(<ore:ingotConcentratedHellfire>);
 
 val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
@@ -676,12 +690,14 @@ rawDuck.remove(<harvestcraft:groundduckitem>);
 val rawVenison = <ore:listAllvenisonraw>;
 rawVenison.add(<twilightforest:raw_venison>);
 rawVenison.add(<betteranimalsplus:venisonraw>);
+rawVenison.add(<harvestcraft:venisonrawitem>);
 rawVenison.addAll(<ore:rawVenison>);
 rawVenison.remove(<harvestcraft:groundvenisonitem>);
 
 val cookedVenison = <ore:listAllvenisoncooked>;
 cookedVenison.add(<twilightforest:cooked_venison>);
 cookedVenison.add(<betteranimalsplus:venisoncooked>);
+cookedVenison.add(<harvestcraft:venisoncookeditem>);
 cookedVenison.addAll(<ore:cookedVenison>);
 
 val rawRabbit = <ore:listAllrabbitraw>;
@@ -728,6 +744,12 @@ nitrogen.addAll(<ore:listAllmeatraw>);
 
 val foundryclay = <ore:foundryClayblock>;
 foundryclay.add(<contenttweaker:unfiredrefractory>);
+
+val bronzeBlock = <ore:blockBronze>;
+bronzeBlock.add(<contenttweaker:block_bronze>);
+
+val electrumBlock = <ore:blockElectrum>;
+electrumBlock.add(<contenttweaker:block_electrum>);
 
 val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);

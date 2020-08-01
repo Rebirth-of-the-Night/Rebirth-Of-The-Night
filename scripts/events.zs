@@ -1,12 +1,18 @@
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
+import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
 
 import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityItem;
+
+import crafttweaker.player.IPlayer;
 
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
+
+import mods.ctutils.utils.Math;
 
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
@@ -36,6 +42,12 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 	if (event.isPlayer & event.item.definition.id == <minecraft:mushroom_stew>.definition.id) {
 		event.player.give(<minecraft:bowl>);
 	}
+
+	// Give hunger when eating raw venison
+	if (event.isPlayer & <ore:listAllvenisonraw> has event.item & Math.random() >= 0.25) {
+		var hunger = <potion:minecraft:hunger>.makePotionEffect(100, 0, false, true);
+		event.player.addPotionEffect(hunger);
+	}
 });
 
 events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
@@ -56,14 +68,42 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 		return;
 	}
 
+	// Avoid nres on player death
+	if (event.entityLivingBase instanceof IPlayer) {
+		return;
+	}
+	if (event.entityLivingBase.definition == null) {
+		return;
+	}
+
 	print("EntityLivingDeath");
-	print("Name is " + event.entityLivingBase.definition.name);
-	print("Id is " + event.entityLivingBase.definition.id);
+	// print("Name is " + event.entityLivingBase.definition.name);
+	// print("Id is " + event.entityLivingBase.definition.id);
 
 	// Spirit spawning
 	if (event.entityLivingBase.definition.id == "specialmobs:hungryzombie") {
 		print("Is Hungry Zombie");
-		<entity:betterwithaddons:spirit>.spawnEntity(event.entityLivingBase.world, event.entityLivingBase.position);
+		// Until CT fixes entity spawns with nbt
+		// <entity:betterwithaddons:spirit>.spawnEntity(event.entityLivingBase.world, event.entityLivingBase.position);
+
+		server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:4}");
 		print("Spawned spirit");
+	}
+});
+
+events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
+	// Plague rotten drop
+	if (event.entityLivingBase.isPotionActive(<potion:rats:plague>)) {
+		var drops = event.drops as IEntityItem[];
+		for i in 0 to drops.length {
+			if (<ore:listAllmeat> has drops[i].item) {
+				drops[i] = <minecraft:rotten_flesh>.createEntityItem(drops[i].world, drops[i].position);
+			} else {
+				if (drops[i].item.isFood) {
+					drops[i] = <betterwithaddons:rotten_food>.createEntityItem(drops[i].world, drops[i].position);
+				}
+			}
+		}
+		event.drops = drops;
 	}
 });

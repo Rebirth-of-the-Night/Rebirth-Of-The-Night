@@ -1,0 +1,7 @@
+{
+  "name": "Metallurgy",
+  "description": "ironic",
+  "icon": "minecraft:iron_ingot",
+  "sortnum": 0,
+  "parent": "innovation"
+}

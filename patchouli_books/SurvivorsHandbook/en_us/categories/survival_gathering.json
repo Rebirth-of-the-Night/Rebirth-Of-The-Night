@@ -1,0 +1,7 @@
+{
+  "name": "Gathering Resources",
+  "description": "gathering description",
+  "icon": "minecraft:wheat",
+  "sortnum": 1,
+  "parent": "survival"
+}

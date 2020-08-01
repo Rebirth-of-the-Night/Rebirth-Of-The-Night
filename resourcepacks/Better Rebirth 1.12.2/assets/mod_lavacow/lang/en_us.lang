@@ -12,6 +12,20 @@ item.mod_lavacow.zombiepiranha_item_cooked.name=Cooked Frenzy
 item.mod_lavacow.piranhalauncher.name=Frenzy Launcher
 item.mod_lavacow.sharptooth.name=Deadly Fang
 item.mod_lavacow.vespa_dagger.name=Wasp Sting
+tile.glowshroom_block_cap.name=Teal Glowshroom Cap
+tile.glowshroom_block_stem.name=Teal Glowshroom Stem
+tile.bloodtooth_shroom.name=Bloodtooth
+tile.cordy_shroom.name=Acrid Cap
+tile.veil_shroom.name=Veil Shroom
+item.mod_lavacow.undertaker_shovel.name=Midnight Mourne
+item.mod_lavacow.raven_whistle.name=Raven Whistle
+item.mod_lavacow.acidicheart.name=Acidic Heart
+item.mod_lavacow.faminearmor_helmet.name=Famine Helmet
+item.mod_lavacow.faminearmor_chestplate.name=Famine Tunic
+item.mod_lavacow.faminearmor_leggings.name=Famine Breeches
+item.mod_lavacow.faminearmor_boots.name=Famine Boots
+item.mod_lavacow.foul_bristle.name=Foul Bristle
+item.mod_lavacow.crabcake.name=Crab Cake
 
 ############
 # Entities #
@@ -21,8 +35,90 @@ entity.mod_lavacow.salamander.name=Netherdrake
 entity.mod_lavacow.lilsludge.name=Sludgeling
 entity.mod_lavacow.zombiepiranha.name=Frenzy
 entity.mod_lavacow.zombiemushroom.name=Overgrown
-entity.mod_lavacow.zombiefrozen.name=Frostbound
+entity.mod_lavacow.zombiefrozen.name=Frigid
 
+
+##########
+# Sounds #
+##########
+
+entity_parasite_ambient=Parasite squirms
+entity_parasite_death=Parasite dies
+entity_parasite_hurt=Parasite hurts
+
+entity_foglet_ambient=Foglet groans
+entity_foglet_death=Foglet dies
+entity_foglet_hurt=Foglet hurts
+
+entity_undeadswine_attack=Dread Swine snuffles
+entity_undeadswine_charge=Dread Swine snuffles
+entity_undeadswine_death=Dread Swine dies
+entity_undeadswine_hurt=Dread Swine hurts
+
+entity_salamander_ambient=Netherdrake groans
+entity_salamander_death=Netherdrake dies
+entity_salamander_hurt=Netherdrake hurts
+
+entity_zombiepiranha_attack=Mimicrab snaps
+
+entity_wendigo_ambient=Ithaqua barks
+entity_wendigo_attack=Ithaqua howls
+entity_wendigo_death=Ithaqua dies
+entity_wendigo_hurt=Ithaqua hurts
+
+entity_mimic_ambient=Mimicrab clicks
+entity_mimic_death=Mimicrab dies
+entity_mimic_hurt=Mimicrab hurts
+
+entity_sludgelord_ambient=Sludgelord echoes
+entity_sludgelord_death=Sludgelord dies
+entity_sludgelord_hurt=Sludgelord hurts
+
+entity_lilsludge_ambient=Sludgeling hisses
+entity_lilsludge_death=Sludgeling dies
+entity_lilsludge_hurt=Sludgeling hurts
+
+entity_raven_ambient=Raven calls
+entity_raven_call=Whistle calls
+entity_raven_death=Raven dies
+entity_raven_hurt=Raven hurts
+
+entity_ptera_ambient=Ptera shrieks
+entity_ptera_death=Ptera dies
+entity_ptera_hurt=Ptera hurts
+
+entity_vespa_ambient=Vespa buzzes
+entity_vespa_death=Vespa dies
+entity_vespa_hurt=Vespa hurts
+
+entity_scarecrow_ambient=Scarecrow chatters
+entity_scarecrow_death=Scarecrow dies
+entity_scarecrow_hurt=Scarecrow hurts
+
+entity_zombiepiranha_ambient=Frenzy clicks
+entity_zombiepiranha_death=Frenzy dies
+entity_zombiepiranha_hurt=Frenzy hurts
+
+entity_zombiefrozen_ambient=Unburied groans
+entity_zombiefrozen_death=Unburied dies
+entity_zombiefrozen_hurt=Unburied hurts
+
+entity_boneworm_ambient=Osvermis groans
+entity_boneworm_attack=Osvermis spits
+entity_boneworm_death=Osvermis dies
+entity_boneworm_hurt=Osvermis hurts
+
+entity_seagull_ambient=Seagull calls
+entity_seagull_death=Seagull dies
+entity_seagull_hurt=Seagull hurts
+
+entity_pingu_ambient=Penghoul calls
+entity_pingu_death=Penghoul dies
+entity_pingu_hurt=Penghoul hurts
+
+entity_undertaker_ambient=Undertaker groans
+entity_undertaker_death=Undertaker dies
+entity_undertaker_hurt=Undertaker hurts
 
 ############
 # Tooltips #
@@ -55,10 +151,42 @@ tootip.mod_lavacow.cursed_bandage=Sticky enough to apply to a companion that jus
 tootip.mod_lavacow.holy_grenade=Blessed explosive. Undead within range take triple damage and are set on fire.
 tootip.mod_lavacow.halo_necklace=Damage to undead monsters increased by %d%%.
 tootip.mod_lavacow.dreamcatcher=Has a chance to trap nightmarish creatures from your dreams, forcing them into corporeal form.
+tootip.mod_lavacow.undertaker_shovel=Unearths the cursed dead. Right-click to summon an army of Unburied.
+tootip.mod_lavacow.raven_whistle=Right-click to bind with a raven and order it to move to the target location.
+tootip.mod_lavacow.faminearmor=Set(2): +2 damage when afflicted with Hunger.
+tootip.mod_lavacow.faminearmor.l2=Set(4): Cannot eat or drink, but gain +4 Hunger and +1 Health after killing an entity.
 
 ################
 # Enchantments #
 ################
-enchantment.mod_lavacow.poisonous.desc=Inflicts certain targets with poison.
-enchantment.mod_lavacow.corrosive.desc=Causes targets to recieve more damage. (+20 percent per level)
+
+enchantment.mod_lavacow.Poisonous=Poisonous
+enchantment.mod_lavacow.Lifesteal=Lifesteal
+enchantment.mod_lavacow.Corrosive=Acidic
+
+##############
+# MobEffects #
+##############
+
+mob_effect.mod_lavacow:corroded=Caustic Wound
+mob_effect.mod_lavacow:soiled=Diseased
+
+################
+# Enchantments #
+################
+enchantment.mod_lavacow.poisonous.desc=Inflicts targets with poison.
+enchantment.mod_lavacow.corrosive.desc=Causes targets to recieve more damage. (+20% per level)
+
+##############
+# Potions #
+##############
+
+potion.effect.mod_lavacow:corrosive=Potion of Acid Burn
+splash_potion.effect.mod_lavacow:corrosive=Splash Potion of Acid Burn
+lingering_potion.effect.mod_lavacow:corrosive=Lingering Potion of Acid Burn
+tipped_arrow.effect.mod_lavacow:corrosive=Arrow of Acid Burn
+potion.effect.mod_lavacow:foulodor=Potion of Filth
+splash_potion.effect.mod_lavacow:foulodor=Splash Potion of Filth
+lingering_potion.effect.mod_lavacow:foulodor=Lingering Potion of Filth
+tipped_arrow.effect.mod_lavacow:foulodor=Arrow of Filth
 

@@ -3,6 +3,7 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ItemFood;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.Color;
 
 //misc.
 val phos = mods.contenttweaker.VanillaFactory.createItem("phosphophyllite");
@@ -59,7 +60,16 @@ rags_l.register();
 val hide_m = mods.contenttweaker.VanillaFactory.createItem("monster_hide");
 hide_m.register();
 
+var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
+ender_slag.density = 1900;
+ender_slag.temperature = 500;
+ender_slag.viscosity = 2000;
+ender_slag.stillLocation = "contenttweaker:fluids/fluid_still";
+ender_slag.flowingLocation = "contenttweaker:fluids/fluid_flow";
+ender_slag.colorize= true;
+ender_slag.register();
+
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
-//rat.saturation(6)
+//rat.healAmount = 9;
 //rat.register();

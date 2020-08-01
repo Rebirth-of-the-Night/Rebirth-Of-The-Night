@@ -1563,7 +1563,7 @@
     "mobs": [
       {
         "mob": "betterwithmods:bwm_jungle_spider",
-        "weight": 3,
+        "weight": 4,
         "groupcountmin": 2,
         "groupcountmax": 3
       }

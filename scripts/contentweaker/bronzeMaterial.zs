@@ -14,13 +14,11 @@ val coptinPebbles = mods.contenttweaker.VanillaFactory.createItem("copper_tin_pe
 coptinPebbles.register();
 
 //MISC PARTS
-bronze.registerParts(["ingot","nugget","molten"] as string[]);
-
-//ORE BLOCK
-var block = bronze.registerPart("block").getData();
-block.addDataValue("hardness", "4");
-block.addDataValue("resistance", "15");
-block.addDataValue("harvestTool", "pickaxe");
+var bdata = bronze.registerParts(["ingot","nugget","molten"] as string[])[2].getData();
+bdata.addDataValue("temperature", 1220);
+bdata.addDataValue("density", 8730);
+bdata.addDataValue("luminosity", 8);
+bdata.addDataValue("viscosity", 5540);
 
 //Lunarin Style Bronze Block
 var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);

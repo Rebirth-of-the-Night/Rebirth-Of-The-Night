@@ -1,0 +1,7 @@
+{
+  "name": "Dimensions",
+  "description": "Realms beyond these lands.",
+  "icon": "minecraft:netherrack",
+  "sortnum": 1,
+  "parent": "exploration_environment"
+}
