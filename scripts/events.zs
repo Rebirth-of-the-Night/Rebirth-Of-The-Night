@@ -72,7 +72,7 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 	if (event.entityLivingBase instanceof IPlayer) {
 		return;
 	}
-	if (event.entityLivingBase.definition == null) {
+	if (isNull(event.entityLivingBase.definition)) {
 		return;
 	}
 
