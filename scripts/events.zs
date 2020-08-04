@@ -48,6 +48,14 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 		var hunger = <potion:minecraft:hunger>.makePotionEffect(100, 0, false, true);
 		event.player.addPotionEffect(hunger);
 	}
+	
+	// Give player gamestage/achievement when eating Hydra Chops
+	if (event.isPlayer & event.item.definition.id == <twilightforest:hydra_chop>.definition.id) {
+		// Extra if statement to ensure event.player isn't called accidentally
+		if (!(event.player.hasGameStage("eatenHydraChop")) & player.foodStats.foodLevel <= 1) {
+			event.player.addGameStage("eatenHydraChop");
+		}
+	}
 });
 
 events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {

@@ -1,11 +1,11 @@
 setIcon("twilightforest:hydra_chop")
 setTitle("Hydra Chop, Baby!")
-setDescription("Chow down on some overpowered Hydra meat.")
+setDescription("Chow down on some overpowered Hydra meat at low hunger.")
 
 addParent("twilightforest:progress_hydra")
 
-criteria = addCriteria("Hydra Chops", "minecraft:consume_item")
-criteria.setItem("twilightforest:hydra_chop")
+criteria = addCriteria("Hydra Chops", "triumph:gamestage")
+criteria.setStage("eatenHydraChop")
 
 setPos(192,128)
 
