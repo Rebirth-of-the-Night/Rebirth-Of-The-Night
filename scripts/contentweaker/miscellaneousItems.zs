@@ -69,6 +69,41 @@ ender_slag.flowingLocation = "contenttweaker:fluids/fluid_flow";
 ender_slag.colorize= true;
 ender_slag.register();
 
+// Cut Gems
+
+val cutdiamond = mods.contenttweaker.VanillaFactory.createItem("pristine_diamond");
+cutdiamond.register();
+
+val cutemerald = mods.contenttweaker.VanillaFactory.createItem("poisonetched_emerald");
+cutemerald.register();
+
+val cutruby = mods.contenttweaker.VanillaFactory.createItem("fortified_ruby");
+cutruby.register();
+
+val cutsapphire = mods.contenttweaker.VanillaFactory.createItem("waterlogged_sapphire");
+cutsapphire.register();
+
+val cutperidot = mods.contenttweaker.VanillaFactory.createItem("lucky_peridot");
+cutperidot.register();
+
+val cutonyx1 = mods.contenttweaker.VanillaFactory.createItem("fireetched_onyx");
+cutonyx1.register();
+
+val cutonyx2 = mods.contenttweaker.VanillaFactory.createItem("soulinfused_onyx");
+cutonyx2.register();
+
+val cutzanite1 = mods.contenttweaker.VanillaFactory.createItem("holy_zanite");
+cutzanite1.register();
+
+val cutzanite2 = mods.contenttweaker.VanillaFactory.createItem("electrified_zanite");
+cutzanite2.register();
+
+val cutamethyst = mods.contenttweaker.VanillaFactory.createItem("voidseen_amethyst");
+cutamethyst.register();
+
+val cutcarminite = mods.contenttweaker.VanillaFactory.createItem("draconium");
+cutcarminite.register();
+
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
 //rat.healAmount = 9;

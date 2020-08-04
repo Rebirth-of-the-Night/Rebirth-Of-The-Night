@@ -1,4 +1,15 @@
 itemGroup.Dunamis=Dunamis
+item.contenttweaker.draconium.name=Draconium
+item.contenttweaker.electrified_zanite.name=Electrified Zanite
+item.contenttweaker.fireetched_onyx.name=Fire Etched Onyx
+item.contenttweaker.fortified_ruby.name=Fortified Ruby
+item.contenttweaker.holy_zanite.name=Holy Zanite
+item.contenttweaker.lucky_peridot.name=Lucky Peridot
+item.contenttweaker.poisonetched_emerald.name=Poison Etched Emerald
+item.contenttweaker.pristine_diamond.name=Pristine Diamond
+item.contenttweaker.soulinfused_onyx.name=Soul Infused Onyx
+item.contenttweaker.voidseen_amethyst.name=Voidseen Amethyst
+item.contenttweaker.waterlogged_sapphire.name=Waterlogged Sapphire
 tile.contenttweaker.bronze_plate.name=Bronze Plate 
 tile.contenttweaker.lunarinbronzebrick.name=Lunarin Style Bronze Brick
 tile.contenttweaker.lunarinsilverbrick.name=Lunarin Style Silver Brick
