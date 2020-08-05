@@ -52,7 +52,7 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 	// Give player gamestage/achievement when eating Hydra Chops
 	if (event.isPlayer & event.item.definition.id == <twilightforest:hydra_chop>.definition.id) {
 		// Extra if statement to ensure event.player isn't called accidentally
-		if (!(event.player.hasGameStage("eatenHydraChop")) & player.foodStats.foodLevel <= 1) {
+		if (!(event.player.hasGameStage("eatenHydraChop")) & event.player.foodStats.foodLevel <= 1) {
 			event.player.addGameStage("eatenHydraChop");
 		}
 	}
