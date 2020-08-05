@@ -4,36 +4,39 @@ import mods.jei.JEI;
 import mods.arcanearchives.GCT;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IItemTransformer;
 
 recipes.removeByRecipeName("arcanearchives:diorite");
 
 // Radiant Resonator
 // Replace mythril and water buckets with Molten Mythril buckets once that is implemented in the Beneath
 recipes.remove(<arcanearchives:radiant_resonator>);
-for item in <ore:listAllwater>.items{
+for item1 in <ore:listAllwater>.items{
+   for item2 in <ore:arcaneWood>.items{
       mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
    [
-      [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>],
-      [<minecraft:iron_bars>, item, <ore:ingotMythril>, null],
-      [<minecraft:iron_bars>, item, <ore:ingotMythril>, null],
-      [<ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>, <biomesoplenty:log_1:5>]
+      [<ore:ingotElectrum>, <ore:ingotElectrum>, item2, item2],
+      [<minecraft:iron_bars>, item1, <ore:ingotMythril>, null],
+      [<minecraft:iron_bars>, item1, <ore:ingotMythril>, null],
+      [<ore:ingotElectrum>, <ore:ingotElectrum>, item2, item2]
    ]);   
-}
+}}
 
 //Gemcutter's Table
 val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	
 magicgoldPaneOredict.addItems([<betternether:quartz_glass_framed_pane>,<aether_legacy:quicksoil_glass_pane>]);	
 
 recipes.remove(<arcanearchives:gemcutters_table>);
-for item in magicgoldPaneOredict.items{
+for item1 in magicgoldPaneOredict.items{
+   for item2 in <ore:arcaneWood>.items{
    mods.betterwithmods.Anvil.addShaped(<arcanearchives:gemcutters_table>, 
    [
-      [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>],
-      [item, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
-      [item, <biomesoplenty:log_1:5>, <arcanearchives:raw_quartz>, <biomesoplenty:log_1:5>],
-      [<dungeontactics:magic_scroll>, <ore:ingotElectrum>, <ore:ingotElectrum>, <biomesoplenty:log_1:5>]
+      [<aether_legacy:holystone>, <ore:ingotElectrum>, <ore:ingotElectrum>, item2],
+      [item1, item2, <betternether:chest_of_drawers>, item2],
+      [item1, item2, <betternether:chest_of_drawers>, item2],
+      [<wards:enchanted_paper>, <ore:ingotElectrum>, <ore:ingotElectrum>, item2]
    ]);
-}
+}}
 
 recipes.remove(<arcanearchives:scepter_revelation>);
 mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>, 
@@ -47,7 +50,7 @@ mods.betterwithmods.Anvil.addShaped(<arcanearchives:scepter_revelation>,
 recipes.remove(<arcanearchives:lectern_manifest>);
 recipes.addShaped("Lectern Manifest", <arcanearchives:lectern_manifest>,[
 	[<ore:ingotElectrum>, <arcanearchives:manifest>, <ore:ingotElectrum>],
-	[<ore:stickWood>, <biomesoplenty:log_1:5>, <ore:stickWood>],
+	[<ore:stickWood>, <ore:arcaneWood>, <ore:stickWood>],
 	[<ore:stickWood>, <ore:ingotElectrum>, <ore:stickWood>]
 ]);
 
@@ -77,7 +80,7 @@ brfuelOredict.add(<minecraft:coal>);
 brfuelOredict.add(<minecraft:coal:1>);
 brfuelOredict.add(<betterwithmods:material:1>);
 
-GCT.replaceRecipe("brazier_of_hoarding", <arcanearchives:brazier_of_hoarding>, [<arcanearchives:radiant_dust>*6, <ore:ingotElectrum>*4, <ore:brazierFuel>*8, <biomesoplenty:log_1:5>*3, <endreborn:item_advanced_ender_pearl>]);
+GCT.replaceRecipe("brazier_of_hoarding", <arcanearchives:brazier_of_hoarding>, [<arcanearchives:radiant_dust>*6, <ore:ingotElectrum>*4, <ore:brazierFuel>*8, <ore:arcaneWood>*3, <endreborn:item_advanced_ender_pearl>]);
 
 GCT.replaceRecipe("containment_field", <arcanearchives:containment_field>, [<arcanearchives:scintillating_inlay>, <ore:ingotElectrum>*2, <arcanearchives:shaped_quartz>*2]);
 
@@ -97,6 +100,29 @@ GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanear
 
 //fish's halo necklace
 GCT.addRecipe("halo_necklace", <mod_lavacow:halo_necklace>, [<ore:ingotElectrum>*2, <arcanearchives:radiant_dust>*12, <iceandfire:silver_nugget>*6, <rustic:chain_gold>*4, <twilightforest:charm_of_life_2>, <mod_lavacow:scythe_claw>*2]);
+
+//Cut gems
+GCT.addRecipe("pristine_diamond", <contenttweaker:pristine_diamond>, [<minecraft:diamond>, <minecraft:gold_nugget>*6, <minecraft:redstone>*12]);
+
+GCT.addRecipe("poisonetched_emerald", <contenttweaker:poisonetched_emerald>, [<minecraft:emerald>, <betterwithmods:material:54>*6, <betterwithmods:material:37>*12]);
+
+GCT.addRecipe("waterlogged_sapphire", <contenttweaker:waterlogged_sapphire>, [<biomesoplenty:gem:6>, <nyx:lunar_water_bottle>, <betterwithaddons:wheatmat>*12]);
+
+GCT.addRecipe("lucky_peridot", <contenttweaker:lucky_peridot>, [<biomesoplenty:gem:2>, <contenttweaker:4leaf_clover>, <minecraft:dye:4>*12]);
+
+GCT.addRecipe("fortified_ruby", <contenttweaker:fortified_ruby>, [<biomesoplenty:gem:1>, <endreborn:item_shard_obsidian>*6, <endreborn:catalyst>*12]);
+
+GCT.addRecipe("fireetched_onyx", <contenttweaker:fireetched_onyx>, [<simpleores:onyx_gem>, <minecraft:magma_cream>*6, <minecraft:blaze_powder>*8, <betterwithmods:material:16>*12]);
+
+GCT.addRecipe("soulinfused_onyx", <contenttweaker:soulinfused_onyx>, [<simpleores:onyx_gem>, <quark:soul_bead>*6, <quark:soul_powder>*8, <betterwithmods:material:38>*12]);
+
+GCT.addRecipe("holy_zanite", <contenttweaker:holy_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:golden_amber>*6, <aether_legacy:healing_stone>*8, <randomthings:ingredient:5>*12]);
+
+GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:ambrosium_shard>*6, <contenttweaker:material_part:16>*8, <minecraft:glowstone_dust>*12]);
+
+GCT.addRecipe("voidseen_amethyst", <contenttweaker:voidseen_amethyst>, [<biomesoplenty:gem:0>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>, <endreborn:item_end_essence>*12]);
+
+GCT.addRecipe("draconium", <contenttweaker:draconium>, [<twilightforest:carminite>*8, <iceandfire:fire_dragon_blood>*4, <twilightforest:fiery_blood>*4, <twilightforest:borer_essence>*12]);
 
 //ender spectacles
 //actually turns out, this thing is OP as shit. endermen and variants don't even retaliate when attacked. I don't like that. until we can fix that or make a workaround, away it goes.
