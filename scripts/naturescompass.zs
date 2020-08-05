@@ -3,10 +3,14 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.remove(<naturescompass:naturescompass>);
-recipes.addShaped(<naturescompass:naturescompass>, [
-    [<ore:durableFiber>, <contenttweaker:earth_rune>, <ore:durableFiber>],
-    [<ore:logWood>, <minecraft:compass>, <ore:logWood>], 
-    [<ore:durableFiber>, <ore:logWood>, <ore:durableFiber>]
-]);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:durableFiber>, <ore:logWood>, <ore:durableFiber>],
+    [<ore:treeLeaves>, <minecraft:compass>, <ore:treeLeaves>],
+    [<ore:durableFiber>, <ore:logWood>, <ore:durableFiber>]])
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addOutput(<naturescompass:naturescompass>)
+  .create();

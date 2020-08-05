@@ -11,6 +11,7 @@ recipes.removeByRecipeName("arcanearchives:diorite");
 // Radiant Resonator
 // Replace mythril and water buckets with Molten Mythril buckets once that is implemented in the Beneath
 recipes.remove(<arcanearchives:radiant_resonator>);
+//val arcaneWood = <ore:arcaneWood>; // Note: arcanewood oredict list is in dungeontactics.zs
 for item1 in <ore:listAllwater>.items{
    for item2 in <ore:arcaneWood>.items{
       mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
@@ -97,9 +98,6 @@ GCT.replaceRecipe("radiant_tank", <arcanearchives:radiant_tank>, [<arcanearchive
 GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<arcanearchives:shaped_quartz>, <contenttweaker:material_part:16>*2, <ore:stickWood>*4]);
 
 GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
-
-//fish's halo necklace
-GCT.addRecipe("halo_necklace", <mod_lavacow:halo_necklace>, [<ore:ingotElectrum>*2, <arcanearchives:radiant_dust>*12, <iceandfire:silver_nugget>*6, <rustic:chain_gold>*4, <twilightforest:charm_of_life_2>, <mod_lavacow:scythe_claw>*2]);
 
 //Cut gems
 GCT.addRecipe("pristine_diamond", <contenttweaker:pristine_diamond>, [<minecraft:diamond>, <minecraft:gold_nugget>*6, <minecraft:redstone>*12]);

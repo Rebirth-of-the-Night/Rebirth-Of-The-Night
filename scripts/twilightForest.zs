@@ -124,11 +124,15 @@ recipes.remove(<twilightforest:maze_map_empty>);
 recipes.remove(<twilightforest:magic_map_empty>);
 recipes.remove(<twilightforest:magic_map_focus>);
 
-recipes.addShaped(<twilightforest:magic_map_focus>, [
-   [null, <minecraft:glowstone_dust>, null],
-   [null, <ore:feather>, null], 
-   [<dungeontactics:magic_powder>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage(), <dungeontactics:magic_powder>]]);
-
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <minecraft:glowstone_dust>, <contenttweaker:vis_speck>],
+    [<minecraft:glowstone_dust>, <ore:feather>, <minecraft:glowstone_dust>],
+    [<contenttweaker:vis_speck>, <minecraft:glowstone_dust>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addOutput(<twilightforest:magic_map_focus>)
+  .create();
+  
 recipes.addShaped(<twilightforest:ore_map_empty>, [
    [<bountifulbaubles:spectralsilt>, <contenttweaker:earth_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
    [<wards:enchanted_paper>, <twilightforest:maze_map_focus>, null], 

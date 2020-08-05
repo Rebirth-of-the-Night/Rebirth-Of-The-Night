@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketluckyhorseshoe");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:magicmirror");
@@ -38,10 +39,52 @@ cloudAny.add(
 	<rustic:cloudsbluff>
 );
 
+val gemAny = <ore:gemAny>;
+gemAny.add(
+  <minecraft:diamond>,
+  <biomesoplenty:gem:2>,
+  <biomesoplenty:gem:0>,
+  <minecraft:emerald>,
+  <biomesoplenty:gem:6>,
+  <aether_legacy:zanite_gemstone>,
+  <biomesoplenty:gem:1>
+);
+
 // Potions
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <quark:arrow_ender>, <bountifulbaubles:potionwormhole>);
+
+// Rings, amulets, oh my
+
+recipes.remove(<bountifulbaubles:amuletsinempty>);
+recipes.remove(<qualitytools:emerald_amulet>);
+recipes.remove(<qualitytools:emerald_ring>);
+
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<rustic:chain>, <rustic:chain>, <rustic:chain>],
+    [<rustic:chain>, <contenttweaker:vis_speck>, <rustic:chain>],
+    [<iceandfire:silver_nugget>, <iceandfire:silver_ingot>, <iceandfire:silver_nugget>]])
+  .addOutput(<bountifulbaubles:amuletsinempty>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<rustic:chain_gold>, <rustic:chain_gold>, <rustic:chain_gold>],
+    [<rustic:chain_gold>, <contenttweaker:vis_speck>, <rustic:chain_gold>],
+    [<minecraft:gold_nugget>, <ore:gemAny>, <minecraft:gold_nugget>]])
+  .addOutput(<qualitytools:emerald_amulet>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<minecraft:gold_nugget>, <ore:gemAny>, <minecraft:gold_nugget>],
+    [<minecraft:gold_nugget>, <contenttweaker:vis_speck>, <minecraft:gold_nugget>],
+    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]])
+  .addOutput(<qualitytools:emerald_ring>)
+  .create();
 
 // Ender dragon drops cracked scales AND scale fragments. Use fragments to craft into cracked scales. Use cracked scales to craft into the scale bauble.
 
@@ -54,20 +97,15 @@ recipes.addShapeless("Cracked Scale", <bountifulbaubles:brokenblackdragonscale>,
 
 recipes.remove(<bountifulbaubles:trinketballoon>);
 
-recipes.addShaped("Balloon", <bountifulbaubles:trinketballoon>,[
-[<dungeontactics:magic_powder>, <contenttweaker:air_rune>.anyDamage().transformDamage(), <dungeontactics:magic_powder>],
-[<rustic:cloudsbluff>, <bountifulbaubles:spectralsilt>, <rustic:cloudsbluff>], 
-[null, <minecraft:string>, null]]);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <ore:cloudAny>, <contenttweaker:vis_speck>],
+    [<ore:cloudAny>, <minecraft:wool:14>, <ore:cloudAny>],
+    [<contenttweaker:vis_speck>, <minecraft:string>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketballoon>)
+  .create();
     
-// Sin Pendant
-
-recipes.remove(<bountifulbaubles:amuletsinempty>);
-
-recipes.addShaped("Sin Pendant", <bountifulbaubles:amuletsinempty>,[
-[null, <minecraft:string>, null],
-[<minecraft:string>, <dungeontactics:magic_powder>, <minecraft:string>], 
-[null, <ore:ingotSilver>, null]]);
-
 // Wrath Pendant
 
 recipes.remove(<bountifulbaubles:amuletsinwrath>);
@@ -78,71 +116,106 @@ val oreDictEnt = <ore:fierceBeastHead>;
 oreDictEnt.add([<betteranimalsplus:wolfhead>, <betteranimalsplus:wolfhead_1>, <betteranimalsplus:wolfhead_2>, <betteranimalsplus:wolfhead_3>, <betteranimalsplus:wolfhead_4>, <betteranimalsplus:wolfhead_5>, <betteranimalsplus:wolfhead_6>, <betteranimalsplus:boarhead>, <betteranimalsplus:boarhead_1>, <betteranimalsplus:boarhead_2>, <betteranimalsplus:boarhead_3>, <betteranimalsplus:boarhead_4>, <betteranimalsplus:bearhead>, <betteranimalsplus:bearhead_1>, <betteranimalsplus:bearhead_2>, <betteranimalsplus:bearhead_3>]);
 
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletsinwrath>,[
-[<toroquest:royal_helmet>,<contenttweaker:soul_rune>.anyDamage().transformDamage(),<mowziesmobs:barako_mask>],
-[<bountifulbaubles:spectralsilt>,<bountifulbaubles:amuletsinempty>,<bountifulbaubles:spectralsilt>],
-[<ore:fierceBeastHead>,<quark:black_ash>,<ore:fierceBeastHead>]], 16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <contenttweaker:pristine_diamond>, <contenttweaker:vis_sliver>],
+    [<ore:fierceBeastHead>, <bountifulbaubles:amuletsinempty>, <ore:fierceBeastHead>],
+    [<contenttweaker:vis_sliver>, <mowziesmobs:barakoa_mask_fury>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(<bountifulbaubles:amuletsinwrath>)
+  .create();
 
 // Pride Pendant
 
 recipes.remove(<bountifulbaubles:amuletsinpride>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletsinpride>,[
-[<bountifulbaubles:crowngold>, <contenttweaker:life_rune>.anyDamage().transformDamage(), <minecraft:golden_sword>],
-[<bountifulbaubles:spectralsilt>, <bountifulbaubles:amuletsinempty>, <bountifulbaubles:spectralsilt>], 
-[null, <scalinghealth:crystalshard>, null]], 16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <contenttweaker:pristine_diamond>, <contenttweaker:vis_sliver>],
+    [<scalinghealth:crystalshard>, <bountifulbaubles:amuletsinempty>, <scalinghealth:crystalshard>],
+    [<contenttweaker:vis_sliver>, <toroquest:royal_helmet>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addOutput(<bountifulbaubles:amuletsinpride>)
+  .create();
    
 // Gluttony Pendant
 
 recipes.remove(<bountifulbaubles:amuletsingluttony>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletsingluttony>,[
-[null, <contenttweaker:strength_rune>.anyDamage().transformDamage(), null],
-[<bountifulbaubles:spectralsilt>, <bountifulbaubles:amuletsinempty>, <bountifulbaubles:spectralsilt>], 
-[<mod_lavacow:scythe_claw>, <minecraft:golden_apple>, <mod_lavacow:scythe_claw>]], 16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <contenttweaker:pristine_diamond>, <contenttweaker:vis_sliver>],
+    [<betternether:black_apple>, <bountifulbaubles:amuletsinempty>, <aether_legacy:white_apple>],
+    [<contenttweaker:vis_sliver>, <minecraft:golden_apple>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<bountifulbaubles:amuletsingluttony>)
+  .create();
 
 // Ender Dragon Scale
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketblackdragonscale>,[
-[<bountifulbaubles:spectralsilt>, <bountifulbaubles:brokenblackdragonscale>, <ore:gemOnyx>],
-[<quark:black_ash>, <contenttweaker:nether_rune>.anyDamage().transformDamage(), <quark:black_ash>], 
-[<ore:gemOnyx>, <bountifulbaubles:brokenblackdragonscale>, <bountifulbaubles:spectralsilt>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <bountifulbaubles:brokenblackdragonscale>, <contenttweaker:vis_shard>],
+    [<futuremc:wither_rose>, <contenttweaker:holy_zanite>, <futuremc:wither_rose>],
+    [<contenttweaker:vis_shard>, <bountifulbaubles:brokenblackdragonscale>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketblackdragonscale>)
+  .create();
 
 // Obsidian Skull
 
 recipes.remove(<bountifulbaubles:trinketobsidianskull>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketobsidianskull>,[
-[<bountifulbaubles:spectralsilt>, <endreborn:item_shard_obsidian>, <bountifulbaubles:spectralsilt>],
-[<endreborn:item_shard_obsidian>, <iceandfire:cyclops_skull>, <endreborn:item_shard_obsidian>], 
-[<bountifulbaubles:spectralsilt>, <contenttweaker:nether_orb>, <bountifulbaubles:spectralsilt>]], 16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <contenttweaker:draconium>, <contenttweaker:vis_shard>],
+    [<endreborn:item_shard_obsidian>, <ore:dragonSkull>, <endreborn:item_shard_obsidian>],
+    [<contenttweaker:vis_shard>, <endreborn:item_shard_obsidian>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addTool(<contenttweaker:draconic_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketobsidianskull>)
+  .create();
 
 // Magic Mirror
 
 recipes.remove(<bountifulbaubles:magicmirror>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:magicmirror>,[
-[<biomesoplenty:biome_essence>, <bountifulbaubles:potionrecall>, <biomesoplenty:biome_essence>],
-[<ore:ingotSilver>, <contenttweaker:end_orb>.anyDamage().transformDamage(), <ore:ingotSilver>], 
-[<bountifulbaubles:spectralsilt>, <ore:ingotSilver>, <bountifulbaubles:spectralsilt>]], 16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <iceandfire:silver_ingot>, <contenttweaker:vis_shard>],
+    [<iceandfire:silver_ingot>, <bountifulbaubles:potionrecall>, <iceandfire:silver_ingot>],
+    [<contenttweaker:vis_shard>, <contenttweaker:voidseen_amethyst>, <contenttweaker:vis_shard>]])
+  .addTool(<endreborn:item_end_rune>, 1)
+  .addOutput(<bountifulbaubles:magicmirror>)
+  .create();
 
 // Cobalt Shield
 
 recipes.remove(<bountifulbaubles:shieldcobalt>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:shieldcobalt>,[
-[<bountifulbaubles:spectralsilt>, <ore:ingotSilver>, <bountifulbaubles:spectralsilt>],
-[<ore:ingotSilver>, <spartanshields:shield_basic_iron>, <ore:ingotSilver>], 
-[<bountifulbaubles:spectralsilt>, <contenttweaker:strength_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_sliver>],
+    [<betterwithmods:material:20>, <spartanshields:shield_basic_iron>, <betterwithmods:material:20>],
+    [<contenttweaker:vis_sliver>, <betterwithmods:material:20>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(<bountifulbaubles:shieldcobalt>)
+  .create();
    
 //Wormhole Mirror
 
 recipes.remove(<bountifulbaubles:wormholemirror>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:wormholemirror>,[
-[null, <endreborn:item_shard_obsidian>, null],
-[<endreborn:item_shard_obsidian>, <bountifulbaubles:potionwormhole>, <endreborn:item_shard_obsidian>], 
-[<bountifulbaubles:spectralsilt>, <bountifulbaubles:magicmirror>, <bountifulbaubles:spectralsilt>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <endreborn:item_shard_obsidian>, <contenttweaker:vis_shard>],
+    [<endreborn:item_shard_obsidian>, <bountifulbaubles:potionwormhole>, <endreborn:item_shard_obsidian>],
+    [<contenttweaker:vis_shard>, <bountifulbaubles:magicmirror>, <contenttweaker:vis_shard>]])
+  .addTool(<endreborn:item_end_rune>, 1)
+  .addTool(<contenttweaker:soul_rune>, 1)
+  .addOutput(<bountifulbaubles:wormholemirror>)
+  .create();
    
 //Ankh Charm
 
@@ -193,65 +266,98 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketapple>,[
 
 recipes.remove(<bountifulbaubles:trinketbrokenheart>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketbrokenheart>,[
-[<scalinghealth:heartcontainer>, <contenttweaker:soul_rune>.anyDamage().transformDamage(), <scalinghealth:heartcontainer>],
-[<twilightforest:charm_of_life_2>, <twilightforest:block_storage:4>, <twilightforest:charm_of_life_2>], 
-[<scalinghealth:heartcontainer>, <contenttweaker:life_rune>.anyDamage().transformDamage(), <scalinghealth:heartcontainer>]], 64);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <scalinghealth:heartcontainer>, <contenttweaker:vis_shard>],
+    [<scalinghealth:heartcontainer>, <twilightforest:charm_of_life_2>, <scalinghealth:heartcontainer>],
+    [<contenttweaker:vis_shard>, <scalinghealth:heartcontainer>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:soul_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketbrokenheart>)
+  .create();
    
 // Bezoar
 
 recipes.remove(<bountifulbaubles:trinketbezoar>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketbezoar>,[
-[<mowziesmobs:naga_fang>, <bountifulbaubles:spectralsilt>, <minecraft:poisonous_potato>],
-[<bountifulbaubles:spectralsilt>, <contenttweaker:poison_orb>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>], 
-[<betterwithmods:material:54>, <bountifulbaubles:spectralsilt>, <mod_lavacow:poisonstinger>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <mod_lavacow:poisonstinger>, <contenttweaker:vis_shard>],
+    [<mod_lavacow:poisonspore>, <contenttweaker:poisonetched_emerald>, <minecraft:poisonous_potato>],
+    [<contenttweaker:vis_shard>, <mowziesmobs:naga_fang>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:poison_rune>, 1)
+  .addTool(<contenttweaker:water_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketbezoar>)
+  .create();
    
 // Shulker Heart
 
 recipes.remove(<bountifulbaubles:trinketshulkerheart>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketshulkerheart>,[
-[<bountifulbaubles:spectralsilt>, <contenttweaker:air_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
-[<scalinghealth:crystalshard>, <minecraft:shulker_shell>, <scalinghealth:crystalshard>], 
-[<bountifulbaubles:spectralsilt>, <contenttweaker:earth_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <scalinghealth:heartcontainer>, <contenttweaker:vis_shard>],
+    [<aether_legacy:enchanted_gravitite>, <contenttweaker:voidseen_amethyst>, <minecraft:shulker_shell>],
+    [<contenttweaker:vis_shard>, <betterwithmods:anchor>, <contenttweaker:vis_shard>]])
+  .addTool(<endreborn:item_end_rune>, 1)
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketshulkerheart>)
+  .create();
    
 // Ring of Overclocking
 
 recipes.remove(<bountifulbaubles:ringoverclocking>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringoverclocking>,[
-[<bountifulbaubles:spectralsilt>, <netherex:coolmar_spider_fang>, <bountifulbaubles:spectralsilt>],
-[<contenttweaker:material_part:8>, <qualitytools:emerald_ring>, <contenttweaker:material_part:8>], 
-[<bountifulbaubles:spectralsilt>, <contenttweaker:energy_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]],32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <contenttweaker:electrified_zanite>, <contenttweaker:vis_shard>],
+    [<netherex:coolmar_spider_fang>, <qualitytools:emerald_ring>, <netherex:frost_rod>],
+    [<contenttweaker:vis_shard>, <iceandfire:hippocampus_fin>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<bountifulbaubles:ringoverclocking>)
+  .create();
    
 
 // Sunglasses
 
 recipes.remove(<bountifulbaubles:trinketmagiclenses>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketmagiclenses>,[
-[<bountifulbaubles:spectralsilt>, <contenttweaker:luna_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
-[<minecraft:stained_glass_pane:15>, <arcanearchives:matrix_brace>, <minecraft:stained_glass_pane:15>], 
-[<bountifulbaubles:spectralsilt>, <contenttweaker:sol_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <glaretorch:itemglaretorchlarge2>, <contenttweaker:vis_shard>],
+    [<nyx:fallen_star>, <doggytalents:sunglasses>, <nyx:fallen_star>],
+    [<contenttweaker:vis_shard>, <mowziesmobs:glowing_jelly>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketmagiclenses>)
+  .create();
    
 // Cross Necklace
 
 recipes.remove(<bountifulbaubles:amuletcross>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:amuletcross>,[
-[null, <contenttweaker:strength_rune>.anyDamage().transformDamage(), null],
-[<contenttweaker:material_part:16>, <qualitytools:emerald_amulet>, <contenttweaker:material_part:16>], 
-[<bountifulbaubles:spectralsilt>, <contenttweaker:material_part:16>, <bountifulbaubles:spectralsilt>]], 16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <qualitytools:emerald_amulet>, <contenttweaker:vis_speck>],
+    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+    [<contenttweaker:vis_speck>, <minecraft:gold_nugget>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addOutput(<bountifulbaubles:amuletcross>)
+  .create();
 
 // Lucky Horseshoe
 
 recipes.remove(<bountifulbaubles:trinketluckyhorseshoe>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketluckyhorseshoe>,[
-[<endreborn:item_end_shard>, null, <endreborn:item_end_shard>],
-[<ore:ingotElectrum>, <contenttweaker:aether_rune>.anyDamage().transformDamage(), <ore:ingotElectrum>], 
-[<ore:ingotElectrum>, <aether_legacy:enchanted_gravitite>, <ore:ingotElectrum>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <contenttweaker:vis_shard>, <contenttweaker:vis_shard>],
+    [<endreborn:item_end_shard>, <contenttweaker:vis_shard>, <endreborn:item_end_shard>],
+    [<contenttweaker:material_part:12>, <aether_legacy:enchanted_gravitite>, <contenttweaker:material_part:12>]])
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addOutput(<bountifulbaubles:trinketluckyhorseshoe>)
+  .create();
 
 //remove and hide original BB disint tablet
 mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);

@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.remove(<iceandfire:dragonsteel_fire_sword>);
 recipes.remove(<iceandfire:dragonsteel_ice_sword>);
@@ -56,18 +57,29 @@ mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);
 recipes.remove(<iceandfire:earplugs>);
 recipes.addShapeless("iceandfire_earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
 
+// Pixie Wand
 recipes.remove(<iceandfire:pixie_wand>);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <iceandfire:pixie_dust>],
+    [null, <iceandfire:pixie_wings>, null],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:fae_rune>, 1)
+  .addOutput(<iceandfire:pixie_wand>)
+  .create();
+
+// Siren Flute
 recipes.remove(<iceandfire:siren_flute>);
 
-recipes.addShaped("Pixie Wand", <iceandfire:pixie_wand>, [
-   [null, null, <contenttweaker:fae_orb>],
-   [null, <iceandfire:pixie_wings>, null], 
-   [<ore:stickWood>, null, null]]);
-
-recipes.addShaped("Siren Flute", <iceandfire:siren_flute>, [
-   [<iceandfire:shiny_scales>, <iceandfire:siren_tear>, <iceandfire:shiny_scales>],
-   [<iceandfire:shiny_scales>, <iceandfire:dragon_flute>, <iceandfire:shiny_scales>], 
-   [<iceandfire:shiny_scales>, <contenttweaker:fae_rune>.anyDamage().transformDamage(), <iceandfire:shiny_scales>]]);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <iceandfire:siren_tear>, <contenttweaker:vis_shard>],
+    [<iceandfire:shiny_scales>, <iceandfire:dragon_flute>, <iceandfire:shiny_scales>],
+    [<contenttweaker:vis_shard>, <iceandfire:shiny_scales>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:fae_rune>, 1)
+  .addOutput(<iceandfire:siren_flute>)
+  .create();
 
 recipes.remove(<iceandfire:dread_stone>);
 recipes.addShaped("dread_stone",<iceandfire:dread_stone>,[
