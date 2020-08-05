@@ -18,6 +18,12 @@ finalStand.canApplyTogether = function(thisEnchantment, other) {
 finalStand.canApplyAtEnchantmentTable = function(thisEnchantment, item) {
 	return false;
 };
+finalStand.calcEnchantabilityMin = function(thisEnchantment, level) {
+	return 0;
+};
+finalStand.calcEnchantabilityMax = function(thisEnchantment, level) {
+	return 999999;
+};
 finalStand.calcTranslatedName = function(thisEnchantment, level) {
 	return "Curse of the Final Stand";
 };

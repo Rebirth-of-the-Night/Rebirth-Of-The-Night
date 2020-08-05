@@ -103,6 +103,9 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 	// Plague rotten drop
 	if (event.entityLivingBase.isPotionActive(<potion:rats:plague>)) {
 		var drops = event.drops as IEntityItem[];
+		if (drops.length == 0) {
+			return;
+		}
 		for i in 0 to drops.length {
 			if (<ore:listAllmeat> has drops[i].item) {
 				drops[i] = <minecraft:rotten_flesh>.createEntityItem(drops[i].world, drops[i].position);
@@ -110,6 +113,19 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 				if (drops[i].item.isFood) {
 					drops[i] = <betterwithaddons:rotten_food>.createEntityItem(drops[i].world, drops[i].position);
 				}
+			}
+		}
+		event.drops = drops;
+	}
+
+	if (event.entityLivingBase.definition.id == "aether_legacy:mimic") {
+		var drops = event.drops as IEntityItem[];
+		if (drops.length == 0) {
+			return;
+		}
+		for i in 0 to drops.length {
+			if (drops[i].item.definition.id == <minecraft:chest>.definition.id) {
+				drops[i] = <aether_legacy:skyroot_chest>.createEntityItem(drops[i].world, drops[i].position);
 			}
 		}
 		event.drops = drops;
