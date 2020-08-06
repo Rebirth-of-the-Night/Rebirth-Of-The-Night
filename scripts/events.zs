@@ -3,6 +3,7 @@ import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerTickEvent;
 
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityItem;
@@ -87,17 +88,16 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 		return;
 	}
 
-	print("EntityLivingDeath");
-	// print("Name is " + event.entityLivingBase.definition.name);
-	// print("Id is " + event.entityLivingBase.definition.id);
+	// Map of spirit spawning mobs.
+	// Format is:
+	// entity id : spirit count
+	val spiritSpawningMobs = {
+		"specialmobs:hungryzombie" : 4
+	} as int[string];
 
 	// Spirit spawning
-	if (event.entityLivingBase.definition.id == "specialmobs:hungryzombie") {
-		print("Is Hungry Zombie");
-		// Until CT fixes entity spawns with nbt
-		// <entity:betterwithaddons:spirit>.spawnEntity(event.entityLivingBase.world, event.entityLivingBase.position);
-
-		server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:4}");
+	if (spiritSpawningMobs.keySet has event.entityLivingBase.definition.id) {
+		server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:"~spiritSpawningMobs[event.entityLivingBase.definition.id]~"}");
 		print("Spawned spirit");
 	}
 });
@@ -121,6 +121,7 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 		event.drops = drops;
 	}
 
+	// Mimic drops skyroot chest
 	if (event.entityLivingBase.definition.id == "aether_legacy:mimic") {
 		var drops = event.drops as IEntityItem[];
 		if (drops.length == 0) {
@@ -132,5 +133,49 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 			}
 		}
 		event.drops = drops;
+	}
+});
+
+events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
+	if (isNull(event.player) | event.phase == "END" | event.phase == "End" | event.phase == "end") {
+		return;
+	}
+
+	// Average num of seconds between spirit spawns
+	var avgSpiritSpawn = 10 as int;
+
+	// Max num of blocks the spirit can spawn away
+	var maxDistance = 20 as int;
+
+	// Min num of spirits that can spawn at once
+	var minSpawn = 1 as int;
+
+	// Max num of spirits that can spawn at once
+	var maxSpawn = 1 as int;
+
+	// Min num of spirits the spirit can contain
+	var minSpiritCount = 1 as int;
+
+	// Max num of spirits the spirit can contain
+	var maxSpiritCount = 3 as int;
+
+	// Whether spirits should only spawn at night
+	var spawnAtNightOnly = true as bool;
+
+	// Spirit spawning
+	if (Math.random() <= (1 / (20 * avgSpiritSpawn))) {
+		if (!spawnAtNightOnly | (spawnAtNightOnly & (!(event.player.world.isDayTime())))) {
+			var spawnCount = minSpawn + (Math.random() * (maxSpawn - minSpawn + 1)) as int;
+			
+			for i in 0 to spawnCount {
+				var x = (-1 * maxDistance) + (Math.random() * maxDistance * 2) as double;
+				var y = -1 + (Math.random() * 2) as double;
+				var z = (-1 * maxDistance) + (Math.random() * maxDistance * 2) as double;
+
+				var spiritCount = minSpiritCount + (Math.random() * (maxSpiritCount - minSpiritCount + 1)) as int;
+
+				server.commandManager.executeCommand(event.player, "summon betterwithaddons:spirit ~"~x~" ~"~y~" ~"~z~" {Health:100,Age:0,Value:"~spiritCount~"}");
+			}
+		}
 	}
 });
