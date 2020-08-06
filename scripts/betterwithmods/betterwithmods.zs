@@ -205,7 +205,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:wool_pants>);
 recipes.remove(<betterwithmods:material:45>); # diamond ingot
 
 
-recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*4,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
+recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*3,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
 recipes.addShapeless("Hemp Seeds", <betterwithmods:hemp>,[<ore:cropHemp>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:chicken_soup>);
