@@ -197,7 +197,7 @@ Dropt.list("plants_basic")
 Dropt.list("plants_basic_dry")
 
   .add(Dropt.rule()
-      .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe",""])
+      .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe"])
       .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
