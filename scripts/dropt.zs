@@ -112,15 +112,7 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
-  
-Dropt.list("decayed_scaffolding")	
 
-  .add(Dropt.rule()	
-      .matchBlocks(["cyclicmagic:block_fragile"])	
-      .matchDrops([<cyclicmagic:block_fragile>])	
-      .replaceStrategy("REPLACE_ITEMS")	
-      .addDrop(Dropt.drop())	
-  );
   
 Dropt.list("clovers")
 
@@ -200,10 +192,40 @@ Dropt.list("plants_basic")
           .selector(Dropt.weight(30))
           .items([<pyrotech:material:12>])
       )
+  );
+ 
+Dropt.list("plants_basic_dry")
+
+  .add(Dropt.rule()
+      .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe",""])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+          .items([<pyrotech:material:12>])
+      )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(15))
+          .selector(Dropt.weight(20))
           .items([<pyrotech:material:13>])
-	  )
+      )
+  );
+  
+Dropt.list("plants_basic_dead")
+
+  .add(Dropt.rule()
+      .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+          .items([<pyrotech:material:13>])
+      )
   );
  
 Dropt.list("plants_custom")
