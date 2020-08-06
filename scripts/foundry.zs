@@ -96,7 +96,7 @@ Mortar.addRecipe(["diamond", "obsidian"], <ceramics:unfired_clay:4>, 5, [<nether
 
 mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*144, <betterwithmods:material:14>, 2350);//SFS and SFS artifacts
 mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*(144*16), <betterwithmods:steel_block>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <betterwithmods:material:30>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <ore:nuggetSoulforgedSteel>, 2350);
 mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact>, 2350);
 mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact1>, 2350);
 mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact2>, 2350);

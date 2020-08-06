@@ -125,6 +125,12 @@
 <pyrotech:coal_coke_block>.removeTooltip("Wither Forge:");
 <pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
 
+#End Reborn
+<endreborn:catalyst>.removeTooltip("Materializer");
+<endreborn:catalyst>.removeTooltip("catalyst");
+<endreborn:catalyst>.addTooltip("§8endreborn:catalyst");
+<endreborn:block_essence_ore>.removeTooltip("Substance");
+
 #Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
 

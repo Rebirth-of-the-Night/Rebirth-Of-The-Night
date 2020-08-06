@@ -119,6 +119,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
 <betterwithmods:bark:0>.displayName = "Wood Bark";
 <betterwithmods:rope>.displayName = "Hemp Cord";
+<betterwithmods:steel_block:0>.displayName = "Block of Soulforged Steel";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -150,9 +151,13 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <iceandfire:stymphalian_bird_dagger>.displayName = "Stymphalian Knife";
 
 // End Reborn
-<endreborn:catalyst>.displayName = "Obsidian Dust";
-<endreborn:catalyst>.removeTooltip("catalyst");
+<endreborn:catalyst>.displayName = "§fObsidian Dust";
 <endreborn:food_ender_flesh>.displayName = "Ender Flesh";
+<endreborn:item_end_essence>.displayName = "§5End Essence";
+<endreborn:block_essence_ore>.displayName = "§5End Essence Ore";
+<endreborn:item_end_rune>.displayName = "Rune of End";
+<endreborn:item_advanced_ender_pearl>.displayName = "§1Advanced Ender Pearl";
+<endreborn:item_ender_string>.displayName = "§fString of Life";
 
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
@@ -179,6 +184,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
 <dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
+<dungeontactics:steel_nugget>.displayName = "Crucible Steel Nugget";
+<dungeontactics:steel_block>.displayName = "Block of Crucible Steel";
 
 // Rustic
 <rustic:iron_lantern>.displayName = "Tin Lantern";

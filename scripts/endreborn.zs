@@ -156,5 +156,3 @@ recipes.remove(<endreborn:item_end_rune>);
 val endrune = <endreborn:item_end_rune>;
 endrune.maxStackSize = 1;
 endrune.maxDamage = 8;
-
-game.setLocalization("item.item_end_rune.name","Rune of End");

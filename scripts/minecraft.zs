@@ -621,6 +621,10 @@ redstone.add(<minecraft:redstone>);
 val hellfireIngot = <ore:ingotHellfire>;
 hellfireIngot.addAll(<ore:ingotConcentratedHellfire>);
 
+val arrowSfS = <ore:arrowSoulforgedSteel>;
+arrowSfS.remove(<betterwithmods:material:43>);
+arrowSfS.add(<betterwithaddons:material:0>);
+
 val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);
 
