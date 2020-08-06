@@ -51,6 +51,15 @@ mods.betterwithmods.Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgeha
    [null, null, null, null]
 ]);
 
+// Broadhead
+mods.betterwithmods.Anvil.removeShaped(<betterwithmods:material:43>);
+mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:43>,
+[
+   [null, null, <dungeontactics:steel_nugget>, null],
+   [<dungeontactics:steel_nugget>, <dungeontactics:steel_nugget>, <dungeontactics:steel_nugget>, <dungeontactics:steel_nugget>],
+   [null, null, <dungeontactics:steel_nugget>, null]
+]);
+
 // Greatarrow Head
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:material:0>);
 mods.betterwithmods.Anvil.addShaped(<betterwithaddons:material:0>, 
