@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 mods.jei.JEI.removeAndHide(<futuremc:lantern>);
 mods.jei.JEI.removeAndHide(<futuremc:barrel>);
 
+recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
 recipes.removeByRecipeName("futuremc:else/stone_slabs_from_smooth_stone");
 recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6, [

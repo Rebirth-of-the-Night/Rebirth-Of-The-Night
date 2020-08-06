@@ -137,6 +137,71 @@ recipes.addShaped("wooden_chute",<chutes:chute_wood>*16,[
     [null,<ore:barkWood>,null]
 ]);
 
+// Fences use stick oredict
+
+recipes.removeByRecipeName("minecraft:fence");
+recipes.addShaped("oak_fence",<minecraft:fence>*3,[
+    [<minecraft:planks:0>,<ore:stickWood>,<minecraft:planks:0>],
+    [<minecraft:planks:0>,<ore:stickWood>,<minecraft:planks:0>]
+]);
+
+recipes.removeByRecipeName("minecraft:fence_gate");
+recipes.addShaped("oak_fence_gate",<minecraft:fence_gate>,[
+    [<ore:stickWood>,<minecraft:planks:0>,<ore:stickWood>],
+    [<ore:stickWood>,<minecraft:planks:0>,<ore:stickWood>]
+]);
+
+recipes.remove(<betternether:stalagnate_planks_fence>);
+recipes.addShaped("stalagnate_fence",<betternether:stalagnate_planks_fence>*3,[
+    [<betternether:stalagnate_planks>,<ore:stickWood>,<betternether:stalagnate_planks>],
+    [<betternether:stalagnate_planks>,<ore:stickWood>,<betternether:stalagnate_planks>]
+]);
+
+recipes.remove(<betternether:reeds_fence>);
+recipes.addShaped("reeds_fence",<betternether:reeds_fence>*3,[
+    [<betternether:reeds_block>,<ore:stickWood>,<betternether:reeds_block>],
+    [<betternether:reeds_block>,<ore:stickWood>,<betternether:reeds_block>]
+]);
+
+val fenceStickMap = {
+    <minecraft:planks:1> : [<minecraft:spruce_fence>,<minecraft:spruce_fence_gate>],
+    <minecraft:planks:2> : [<minecraft:birch_fence>,<minecraft:birch_fence_gate>],
+    <minecraft:planks:3> : [<minecraft:jungle_fence>,<minecraft:jungle_fence_gate>],
+    <minecraft:planks:4> : [<minecraft:acacia_fence>,<minecraft:acacia_fence_gate>],
+    <minecraft:planks:5> : [<minecraft:dark_oak_fence>,<minecraft:dark_oak_fence_gate>],
+    <aether_legacy:skyroot_plank> : [<aether_legacy:skyroot_fence>,<aether_legacy:skyroot_fence_gate>],
+    <biomesoplenty:planks_0:0> : [<biomesoplenty:sacred_oak_fence:0>,<biomesoplenty:sacred_oak_fence_gate:0>],
+    <biomesoplenty:planks_0:1> : [<biomesoplenty:cherry_fence:0>,<biomesoplenty:cherry_fence_gate:0>],
+    <biomesoplenty:planks_0:2> : [<biomesoplenty:umbran_fence:0>,<biomesoplenty:umbran_fence_gate:0>],
+    <biomesoplenty:planks_0:3> : [<biomesoplenty:fir_fence:0>,<biomesoplenty:fir_fence_gate:0>],
+    <biomesoplenty:planks_0:4> : [<biomesoplenty:ethereal_fence:0>,<biomesoplenty:ethereal_fence_gate:0>],
+    <biomesoplenty:planks_0:5> : [<biomesoplenty:magic_fence:0>,<biomesoplenty:magic_fence_gate:0>],
+    <biomesoplenty:planks_0:6> : [<biomesoplenty:mangrove_fence:0>,<biomesoplenty:mangrove_fence_gate:0>],
+    <biomesoplenty:planks_0:7> : [<biomesoplenty:palm_fence:0>,<biomesoplenty:palm_fence_gate:0>],
+    <biomesoplenty:planks_0:8> : [<biomesoplenty:redwood_fence:0>,<biomesoplenty:redwood_fence_gate:0>],
+    <biomesoplenty:planks_0:9> : [<biomesoplenty:willow_fence:0>,<biomesoplenty:willow_fence_gate:0>],
+    <biomesoplenty:planks_0:10> : [<biomesoplenty:pine_fence:0>,<biomesoplenty:pine_fence_gate:0>],
+    <biomesoplenty:planks_0:11> : [<biomesoplenty:hellbark_fence:0>,<biomesoplenty:hellbark_fence_gate:0>],
+    <biomesoplenty:planks_0:12> : [<biomesoplenty:jacaranda_fence:0>,<biomesoplenty:jacaranda_fence_gate:0>],
+    <biomesoplenty:planks_0:13> : [<biomesoplenty:mahogany_fence:0>,<biomesoplenty:mahogany_fence_gate:0>],
+    <biomesoplenty:planks_0:14> : [<biomesoplenty:ebony_fence:0>,<biomesoplenty:ebony_fence_gate:0>],
+    <biomesoplenty:planks_0:15> : [<biomesoplenty:eucalyptus_fence:0>,<biomesoplenty:eucalyptus_fence_gate:0>]
+} as IItemStack[][IItemStack];
+
+for plank, fenceArray in fenceStickMap{
+    recipes.remove(fenceArray[0]);
+    recipes.addShaped(fenceArray[0]*3,[
+        [plank,<ore:stickWood>,plank],
+        [plank,<ore:stickWood>,plank]
+    ]);
+
+    recipes.remove(fenceArray[1]);
+    recipes.addShaped(fenceArray[1],[
+        [<ore:stickWood>,plank,<ore:stickWood>],
+        [<ore:stickWood>,plank,<ore:stickWood>]
+    ]);
+}
+
 // Rebirth of the Bed
 
 recipes.remove(<minecraft:bed:*>);
@@ -718,7 +783,7 @@ val cookedTurkey = <ore:listAllturkeycooked>;
 cookedTurkey.add(<betteranimalsplus:turkey_leg_cooked>);
 
 val egg = <ore:listAllegg>;
-egg.add(<betterwithmods:raw_egg>);
+egg.addItems([<betterwithmods:raw_egg>,<aether_legacy:moa_egg>]);
 
 val rawMeat = <ore:listAllmeatraw>;
 rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betterwithmods:wolf_chop>]);

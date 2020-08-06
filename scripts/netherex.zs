@@ -67,11 +67,6 @@ recipes.addShaped("soul_glass_pane",<netherex:soul_glass_pane>,[
     [<netherex:soul_glass>,<netherex:soul_glass>,<netherex:soul_glass>]
 ]);
 
-recipes.addShaped("nether_brick_fence_gate",<netherex:nether_brick_fence_gate>*6,[
-    [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>],
-    [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>]
-]);
-
 recipes.removeByRecipeName("netherex:basalt");
 recipes.addShapeless("black_basalt",<netherex:basalt>,[<netherex:smooth_basalt>]);
 
