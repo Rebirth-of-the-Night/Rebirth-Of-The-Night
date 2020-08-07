@@ -148,8 +148,8 @@ recipes.addShaped("immersive_carbon_paper", carpaper*6,[
 ]);
 
 recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>,[
-	[carpaper, <quark:glass_item_frame>, <minecraft:stone_pickaxe>],
-    [<minecraft:writable_book>, <ore:stickWood>, <antiqueatlas:empty_antique_atlas>]
+	[carpaper, <minecraft:stone_pickaxe>],
+    [<minecraft:writable_book>, <artisanworktables:artisans_lens_gold>, <antiqueatlas:empty_antique_atlas>]
 ]);
 
 recipes.addShaped("obsidian_shears", obsi_shear,[
