@@ -1,6 +1,8 @@
 #priority 1
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.data.IData;
 
 mods.jei.JEI.removeAndHide(<dungeontactics:brazier>);
 
@@ -715,6 +717,79 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
   
+# enchant definitions
+val enchantmentsDT1 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:restoration>];
+var enchantmentsDTMap1 as IData = {};
+enchantmentsDTMap1 += enchantmentsDT1[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT2 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:satiate>];
+var enchantmentsDTMap2 as IData = {};
+enchantmentsDTMap2 += enchantmentsDT2[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT3 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:forging>];
+var enchantmentsDTMap3 as IData = {};
+enchantmentsDTMap3 += enchantmentsDT3[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT4 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:cooking>];
+var enchantmentsDTMap4 as IData = {};
+enchantmentsDTMap4 += enchantmentsDT4[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT5 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:freezing>];
+var enchantmentsDTMap5 as IData = {};
+enchantmentsDTMap5 += enchantmentsDT5[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT6 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:uncover>];
+var enchantmentsDTMap6 as IData = {};
+enchantmentsDTMap6 += enchantmentsDT6[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT7 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:disarm>];
+var enchantmentsDTMap7 as IData = {};
+enchantmentsDTMap7 += enchantmentsDT7[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT8 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:disorient>];
+var enchantmentsDTMap8 as IData = {};
+enchantmentsDTMap8 += enchantmentsDT8[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT9 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:punish>];
+var enchantmentsDTMap9 as IData = {};
+enchantmentsDTMap9 += enchantmentsDT9[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT10 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:wither>];
+var enchantmentsDTMap10 as IData = {};
+enchantmentsDTMap10 += enchantmentsDT10[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT11 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:smite>];
+var enchantmentsDTMap11 as IData = {};
+enchantmentsDTMap11 += enchantmentsDT11[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT12 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:magicmissile>];
+var enchantmentsDTMap12 as IData = {};
+enchantmentsDTMap12 += enchantmentsDT12[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT13 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:pinmissile>];
+var enchantmentsDTMap13 as IData = {};
+enchantmentsDTMap13 += enchantmentsDT13[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT14 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:transport>];
+var enchantmentsDTMap14 as IData = {};
+enchantmentsDTMap14 += enchantmentsDT14[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT15 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:companion>];
+var enchantmentsDTMap15 as IData = {};
+enchantmentsDTMap15 += enchantmentsDT15[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT16 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:sunder>];
+var enchantmentsDTMap16 as IData = {};
+enchantmentsDTMap16 += enchantmentsDT16[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT17 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:rage>];
+var enchantmentsDTMap17 as IData = {};
+enchantmentsDTMap17 += enchantmentsDT17[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT18 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:soulsteal>];
+var enchantmentsDTMap18 as IData = {};
+enchantmentsDTMap18 += enchantmentsDT18[0].makeEnchantment(0).makeTag();
+
 # mundane wands
 
 RecipeBuilder.get("mage")
@@ -723,7 +798,7 @@ RecipeBuilder.get("mage")
     [null, <minecraft:flint_and_steel>, <minecraft:iron_ingot>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:fire_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 30 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap4))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -735,7 +810,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:water_rune>, 1)
   .addTool(<contenttweaker:order_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 31 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap5))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -747,7 +822,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:sol_rune>, 1)
   .addTool(<contenttweaker:luna_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 38 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap8))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -758,7 +833,7 @@ RecipeBuilder.get("mage")
     [null, <minecraft:bone_block>, <minecraft:bone>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:earth_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 39 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap9))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -772,7 +847,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:fire_rune>, 1)
   .addTool(<contenttweaker:strength_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 29 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap3))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -784,7 +859,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 27 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap1))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -796,7 +871,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:energy_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 41 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -808,7 +883,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<contenttweaker:nether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 40 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -820,7 +895,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:creation_rune>, 1)
   .addTool(<contenttweaker:death_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 45 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap15))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -832,7 +907,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:chaos_rune>, 1)
   .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 37 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap7))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -844,7 +919,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:chaos_rune>, 1)
   .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 36 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap6))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -858,7 +933,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<endreborn:item_end_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 42 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -870,7 +945,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 43 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -882,7 +957,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 28 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap2))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -894,7 +969,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addTool(<contenttweaker:draconic_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 47 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap17))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -906,7 +981,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<contenttweaker:creation_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 44 as short}]}))
+  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap14))
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
