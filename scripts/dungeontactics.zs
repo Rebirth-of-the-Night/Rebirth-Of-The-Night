@@ -618,40 +618,6 @@ RecipeBuilder.get("mage")
 # Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
 game.setLocalization("item.dungeontactics:scroll_of.name","Wand of");
 
-# Force wands to show in JEI
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 44 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 47 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 28 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 43 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 42 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 45 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 41 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 36 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 30 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 39 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 31 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 38 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 40 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 37 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 29 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 27 as short}]}));
-
 # Base wands oredicts for woods
 val mundaneWood = <ore:mundaneWood>;
 mundaneWood.add(
@@ -789,6 +755,47 @@ enchantmentsDTMap17 += enchantmentsDT17[0].makeEnchantment(0).makeTag();
 val enchantmentsDT18 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:soulsteal>];
 var enchantmentsDTMap18 as IData = {};
 enchantmentsDTMap18 += enchantmentsDT18[0].makeEnchantment(0).makeTag();
+
+# Force wands to show in JEI
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap1));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap2));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap3));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap4));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap5));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap6));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap7));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap8));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap9));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap14));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap15));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap16));
+
+mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap17));
+
+# make wands unstackable
+
+val wand = <dungeontactics:magic_scroll>;
+wand.maxStackSize = 1;
 
 # mundane wands
 

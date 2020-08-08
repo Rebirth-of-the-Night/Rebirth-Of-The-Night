@@ -232,3 +232,23 @@
 
 <minecraft:wooden_shovel>.addShiftTooltip('"Sorcery is the sauce fools spoon over failure to hide the flavor of their own incompetence." -G.R.R.M.');
 <minecraft:wooden_shovel>.addShiftTooltip("Well, a wooden spoon can unlock a great deal of sorceries.");
+
+// Wands
+
+<dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Satiate( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Forge( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Cook( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Freeze( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Uncover( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Disarm( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Disorient( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Punish( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Wither( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Smite( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Magic Missile( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Pin Missile( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Transport( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Companion( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Sunder( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Rage( \\d+)?");
