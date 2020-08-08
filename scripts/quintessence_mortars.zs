@@ -1,6 +1,17 @@
 import mods.advancedmortars.Mortar;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
+// Magic Blend
+val blendPowder = <ore:blendPowder>;
+blendPowder.add(<minecraft:glowstone_dust>, <arcanearchives:radiant_dust>, <aether_legacy:ambrosium_shard>);
 
+Mortar.addRecipe(["gold"], <contenttweaker:magic_blend>, 8, <contenttweaker:magic_blend> * 1, 0.05, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+
+Mortar.addRecipe(["wood"], <contenttweaker:magic_blend>, 4, <contenttweaker:magic_blend> * 1, 0.10, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+
+Mortar.addRecipe(["iron"], <contenttweaker:magic_blend>, 2, <contenttweaker:magic_blend> * 1, 0.15, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
 ############
 # Ore Dict #
@@ -803,6 +814,51 @@ endQuintessenceC.add(
 );
 
 // Time - Unimplemented!!
+
+// Mundane Quintessence
+val anyMundaneQuintessence = <ore:anyMundaneQuintessence>;
+anyMundaneQuintessence.add(<contenttweaker:earth_quintessence>);
+anyMundaneQuintessence.add(<contenttweaker:air_quintessence>);
+anyMundaneQuintessence.add(<contenttweaker:fire_quintessence>);
+anyMundaneQuintessence.add(<contenttweaker:water_quintessence>);
+anyMundaneQuintessence.add(<contenttweaker:sol_quintessence>);
+anyMundaneQuintessence.add(<contenttweaker:luna_quintessence>);
+
+// Arcane Quintessence
+val anyArcaneQuintessence = <ore:anyArcaneQuintessence>;
+anyArcaneQuintessence.add(<contenttweaker:balance_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:death_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:life_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:chaos_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:energy_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:poison_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:strength_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:mind_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:knowledge_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:order_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:nature_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:soul_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:illusion_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:trans_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:disint_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:creation_quintessence>);
+
+// Mystical Quintessence
+val anyMysticalQuintessence = <ore:anyMysticalQuintessence>;
+anyMysticalQuintessence.add(<contenttweaker:draconic_quintessence>);
+anyMysticalQuintessence.add(<contenttweaker:aether_quintessence>);
+anyMysticalQuintessence.add(<contenttweaker:fae_quintessence>);
+anyMysticalQuintessence.add(<contenttweaker:holding_quintessence>);
+anyMysticalQuintessence.add(<contenttweaker:plague_quintessence>);
+anyMysticalQuintessence.add(<contenttweaker:end_quintessence>);
+anyMysticalQuintessence.add(<contenttweaker:arcane_quintessence>);
+anyMysticalQuintessence.add(<contenttweaker:nether_quintessence>);
+
+//ALL the quintessences!
+val anyQuintessence = <ore:anyQuintessence>;
+anyQuintessence.addAll(<ore:anyMundaneQuintessence>);
+anyQuintessence.addAll(<ore:anyArcaneQuintessence>);
+anyQuintessence.addAll(<ore:anyMysticalQuintessence>);
 
 ##########################
 # Mundane Mortar (Gold)  #

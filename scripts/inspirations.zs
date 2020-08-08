@@ -10,7 +10,9 @@ mods.inspirations.Cauldron.addFluidRecipe(<nyx:lunar_water_bottle>, <minecraft:g
 mods.inspirations.Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar_water>, 1, <minecraft:glass_bottle>);
 
 // Magic powder 
-mods.inspirations.Cauldron.addFluidRecipe(<dungeontactics:magic_powder>, <minecraft:glowstone_dust>|<aether_legacy:ambrosium_shard>, <liquid:mushroom_stew>, 1, true);
+mods.inspirations.Cauldron.addFluidRecipe(<dungeontactics:magic_powder>, <contenttweaker:magic_blend>, <liquid:lunar_water>, 1, false);
+
+//mods.inspirations.Cauldron.addFluidRecipe(<dungeontactics:magic_powder>*2, <contenttweaker:magic_blend>, <liquid:mythril>, 1, true);
 
 // Cyclic Corrupted Chorus Fruit
 mods.inspirations.Cauldron.addPotionRecipe(<cyclicmagic:corrupted_chorus>, <quark:soul_bead>, "extraalchemy:dislocation_normal", 4, true); 
