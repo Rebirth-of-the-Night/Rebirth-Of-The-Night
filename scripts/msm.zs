@@ -48,7 +48,7 @@ recipes.addShaped("Draconic Blade", <msmlegacy:draconic_blade>,[
 /////////////////////        Red Hot Chili Pepper Sword        /////////////////////
 
 var ruby = <ore:gemRuby>;
-var chili = <harvestcraft:chilipepperitem>;
+var chili = <rustic:chili_pepper>;
 var blaze = <betterwithmods:material:27>;
 
 val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:scorn>, <enchantment:minecraft:fire_aspect>];

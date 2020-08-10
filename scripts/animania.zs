@@ -22,3 +22,11 @@ recipes.addShaped("hamster_wheel",<animania:block_hamster_wheel>,[
 	[<ore:ingotIron>,null,<ore:ingotIron>],
 	[<ore:stoneSlab>,<ore:ingotIron>,<ore:stoneSlab>]
 ]);
+
+for i in 0 to 16 {
+	recipes.addShaped(<animania:hamster_ball_colored>.definition.makeStack(i),[
+		[<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i)],
+		[<minecraft:stained_glass_pane>.definition.makeStack(15-i),null,<minecraft:stained_glass_pane>.definition.makeStack(15-i)],
+		[<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i)]
+	]);
+}
