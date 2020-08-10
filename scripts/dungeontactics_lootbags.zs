@@ -34,3 +34,16 @@ record.clear();
 
 val tool = LootTweaker.getTable("dungeontactics:loot_bags/tool_bag");
 tool.clear();
+
+// Removing magic scrolls from known sources
+val magicScroll1 = LootTweaker.getTable("minecraft:chests/stronghold_crossing");
+val magicScrollMain1 = magicScroll1.getPool("main");
+magicScrollMain1.removeEntry("DT:MagicScroll");
+
+val magicScroll2 = LootTweaker.getTable("minecraft:entities/witch");
+val magicScrollMain2 = magicScroll2.getPool("main");
+magicScrollMain2.removeEntry("DT:MagicScroll");
+
+val magicScroll3 = LootTweaker.getTable("minecraft:entities/evocation_illager");
+val magicScrollMain3 = magicScroll3.getPool("main");
+magicScrollMain3.removeEntry("DT:MagicScroll");
