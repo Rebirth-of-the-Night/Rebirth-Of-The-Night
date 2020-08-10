@@ -682,7 +682,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-  
+
 # enchant definitions
 val enchantmentsDT1 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:restoration>];
 var enchantmentsDTMap1 as IData = {};
@@ -756,133 +756,166 @@ val enchantmentsDT18 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:
 var enchantmentsDTMap18 as IData = {};
 enchantmentsDTMap18 += enchantmentsDT18[0].makeEnchantment(0).makeTag();
 
+# wand definitions
+
+val wandRestoration = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap1);
+
+val wandSatiate = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap2);
+
+val wandForging = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap3);
+
+val wandCooking = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap4);
+
+val wandFreezing = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap5);
+
+val wandUncover = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap6);
+
+val wandDisarm = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap7);
+
+val wandDisorient = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap8);
+
+val wandPunish = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap9);
+
+val wandWither = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10);
+
+val wandSmite = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11);
+
+val wandMagicMissile = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12);
+
+val wandPinMissile = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13);
+
+val wandTransport = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap14);
+
+val wandCompanion = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap15);
+
+val wandSunder = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap16);
+
+val wandRage = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap17);
+
+val wandSoulSteel = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap18);
+
 # Force wands to show in JEI
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap1));
+mods.jei.JEI.addItem(wandRestoration);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap2));
+mods.jei.JEI.addItem(wandSatiate);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap3));
+#mods.jei.JEI.addItem(wandForging);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap4));
+mods.jei.JEI.addItem(wandCooking);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap5));
+mods.jei.JEI.addItem(wandFreezing);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap6));
+#mods.jei.JEI.addItem(wandUncover);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap7));
+#mods.jei.JEI.addItem(wandDisarm);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap8));
+mods.jei.JEI.addItem(wandDisorient);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap9));
+mods.jei.JEI.addItem(wandPunish);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10));
+mods.jei.JEI.addItem(wandWither);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11));
+mods.jei.JEI.addItem(wandSmite);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12));
+mods.jei.JEI.addItem(wandMagicMissile);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13));
+mods.jei.JEI.addItem(wandPinMissile);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap14));
+mods.jei.JEI.addItem(wandTransport);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap15));
+mods.jei.JEI.addItem(wandCompanion);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap16));
+#mods.jei.JEI.addItem(wandSunder);
 
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap17));
+mods.jei.JEI.addItem(wandRage);
 
 # make wands unstackable
 
 val wand = <dungeontactics:magic_scroll>;
 wand.maxStackSize = 1;
 
-# mundane wands
+### MUNDANE ###
 
+# cook
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:iron_ingot>, <minecraft:fire_charge>],
     [null, <minecraft:flint_and_steel>, <minecraft:iron_ingot>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:fire_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap4))
+  .addOutput(wandCooking)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+# freeze
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <minecraft:ice>, <mowziesmobs:ice_crystal>],
-    [null, <minecraft:packed_ice>, <minecraft:ice>],
+    [null, <minecraft:ice>, <mowziesmobs:ice_crystal>.transformDamage(600)],
+    [null, <contenttweaker:waterlogged_sapphire>, <minecraft:ice>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:water_rune>, 1)
   .addTool(<contenttweaker:order_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap5))
+  .addOutput(wandFreezing)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, <nyx:fallen_star>, <glaretorch:itemglaretorchsmall>],
-    [null, <minecraft:obsidian>, <nyx:fallen_star>],
-    [<contenttweaker:wand_base_mundane>, null, null]])
-  .addTool(<contenttweaker:sol_rune>, 1)
-  .addTool(<contenttweaker:luna_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap8))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
+# punish
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:bone>, <minecraft:skull>],
     [null, <minecraft:bone_block>, <minecraft:bone>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:earth_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap9))
+  .addOutput(wandPunish)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-# arcane
-
+# satiate
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <minecraft:fire_charge>, <minecraft:anvil>],
-    [null, <pyrotech:anvil_granite>, <minecraft:fire_charge>],
-    [<contenttweaker:wand_base_arcane>, null, null]])
-  .addTool(<contenttweaker:fire_rune>, 1)
-  .addTool(<contenttweaker:strength_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap3))
+    [null, null, <minecraft:apple>],
+    [null, <dungeontactics:charm_famine>, <ore:treeLeaves>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(wandSatiate)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+### ARCANE ###
+
+# disorient
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <nyx:fallen_star>, <glaretorch:itemglaretorchsmall>],
+    [null, <minecraft:obsidian>, <nyx:fallen_star>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addOutput(wandDisorient)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# restoration
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <aether_legacy:golden_feather>, <aether_legacy:golden_amber>],
-    [null, <minecraft:gold_ingot>, <aether_legacy:golden_feather>],
+    [null, <contenttweaker:holy_zanite>, <aether_legacy:golden_feather>],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap1))
+  .addOutput(wandRestoration)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, <minecraft:iron_ingot>, <contenttweaker:material_part:12>],
-    [null, <betterwithmods:material:34>, <minecraft:iron_ingot>],
-    [<contenttweaker:wand_base_arcane>, null, null]])
-  .addTool(<contenttweaker:energy_rune>, 1)
-  .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
+# wither
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <quark:black_ash>, <iceandfire:witherbone>],
@@ -890,11 +923,12 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<contenttweaker:nether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10))
+  .addOutput(wandWither)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+# companion
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:bone>, <ore:fierceBeastHead>],
@@ -902,11 +936,26 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:creation_rune>, 1)
   .addTool(<contenttweaker:death_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap15))
+  .addOutput(wandCompanion)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+# pin missile
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <contenttweaker:material_part:12>, <betterwithaddons:greatarrow>],
+    [null, <aether_legacy:golden_feather>, <contenttweaker:material_part:12>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(wandPinMissile)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+/*
+# disarm
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <grapplemod:magnetupgradeitem>, <minecraft:iron_block>],
@@ -914,11 +963,14 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:chaos_rune>, 1)
   .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap7))
+  .addOutput(wandDisarm)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
+/*
+# uncover
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <grapplemod:magnetupgradeitem>, <minecraft:iron_block>],
@@ -926,61 +978,69 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:chaos_rune>, 1)
   .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap6))
+  .addOutput(wandUncover)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
 # mystical
 
+# forge
+/*
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <biomesoplenty:gem>, <minecraft:shulker_shell>],
-    [null, <aether_legacy:enchanted_gravitite>, <biomesoplenty:gem>],
+    [null, <minecraft:fire_charge>, <minecraft:anvil>],
+    [null, <pyrotech:anvil_granite>, <minecraft:fire_charge>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(wandForging)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+*/
+
+# smite
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:iron_ingot>, <contenttweaker:material_part:12>],
+    [null, <contenttweaker:electrified_zanite>, <minecraft:iron_ingot>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(wandSmite)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# magic missile
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <aether_legacy:enchanted_gravitite>, <minecraft:shulker_shell>],
+    [null, <contenttweaker:voidseen_amethyst>, <aether_legacy:enchanted_gravitite>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<endreborn:item_end_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12))
+  .addOutput(wandMagicMissile)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, <contenttweaker:material_part:12>, <betterwithaddons:greatarrow>],
-    [null, <aether_legacy:golden_feather>, <contenttweaker:material_part:12>],
-    [<contenttweaker:wand_base_mystical>, null, null]])
-  .addTool(<contenttweaker:air_rune>, 1)
-  .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, null, <minecraft:apple>],
-    [null, <dungeontactics:charm_famine>, <twilightforest:steeleaf_ingot>],
-    [<contenttweaker:wand_base_mystical>, null, null]])
-  .addTool(<contenttweaker:life_rune>, 1)
-  .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap2))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
+# rage
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:gold_ingot>, <mowziesmobs:barakoa_mask_rage>],
-    [null, <minecraft:golden_apple>, <minecraft:gold_ingot>],
+    [null, <contenttweaker:fortified_ruby>, <minecraft:gold_ingot>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addTool(<contenttweaker:draconic_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap17))
+  .addOutput(wandRage)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+# transport
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <ultimate_unicorn_mod:ice_horseshoes>, <cyclicmagic:water_candle>],
@@ -988,7 +1048,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<contenttweaker:creation_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap14))
+  .addOutput(wandTransport)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
