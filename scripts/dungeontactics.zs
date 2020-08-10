@@ -1056,3 +1056,23 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+
+// tier tooltips
+
+wandCooking.addTooltip(format.green("Mundane"));
+wandFreezing.addTooltip(format.green("Mundane"));
+wandPunish.addTooltip(format.green("Mundane"));
+wandSatiate.addTooltip(format.green("Mundane"));
+
+wandDisorient.addTooltip(format.aqua("Arcane"));
+wandRestoration.addTooltip(format.aqua("Arcane"));
+wandWither.addTooltip(format.aqua("Arcane"));
+wandCompanion.addTooltip(format.aqua("Arcane"));
+wandPinMissile.addTooltip(format.aqua("Arcane"));
+
+wandSmite.addTooltip(format.darkPurple("Mystical"));
+wandMagicMissile.addTooltip(format.darkPurple("Mystical"));
+wandRage.addTooltip(format.darkPurple("Mystical"));
+wandTransport.addTooltip(format.darkPurple("Mystical"));
+
+#wandCooking.addTooltip(format.gold("Ascended"));

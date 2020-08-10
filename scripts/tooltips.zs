@@ -252,3 +252,4 @@
 <dungeontactics:magic_scroll>.removeTooltip("^Companion( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Sunder( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Rage( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Hold LSHIFT to see enchantments description");
