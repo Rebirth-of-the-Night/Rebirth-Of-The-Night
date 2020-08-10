@@ -115,6 +115,9 @@ mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_s
 mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
 mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
 
+// this removes the regular magic scroll recipe, and hides it from JEI. Added back as wands further down
+recipes.remove(<dungeontactics:magic_scroll>);
+#mods.jei.JEI.removeAndHide(<dungeontactics:magic_scroll>);
 
 recipes.remove(<dungeontactics:potshot_ammo>);
 recipes.addShapeless("potshot",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
@@ -505,8 +508,6 @@ recipes.addShapeless("bag_of_hoarding",<dungeontactics:bagofhoarding>,[backpack,
 
 // Charm recipes
 
-// Charm recipes
-
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
@@ -617,6 +618,9 @@ RecipeBuilder.get("mage")
 
 # Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
 game.setLocalization("item.dungeontactics:scroll_of.name","Wand of");
+game.setLocalization("item.dungeontactics:magic_scroll.name","Magic Wand");
+game.setLocalization("item.dungeontactics:magic_powder.name","Wand Powder");
+game.setLocalization("item.dungeontactics:magic_pouch.name","Wand Powder Pouch");
 
 # Base wands oredicts for woods
 val mundaneWood = <ore:mundaneWood>;

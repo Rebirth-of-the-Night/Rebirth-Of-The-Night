@@ -410,13 +410,13 @@ mods.jei.JEI.addDescription(<grapplemod:longfallboots>,"Cancels all fall damage 
 /* Runes and Magic */
 mods.jei.JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item to change the item's glow color.");
 
-mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"A gate to uninhibited magical power...once it's inscribed with a spell from an enchanted book. Scholars can find more knowledge in the 'Magic' guidebook.");
+mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"Wands contain potent magic, ready to be released on a mage's command. A magical powder is required to power the wand. Scholars can find more knowledge in the 'Magic' section of the guidebook.");
 mods.jei.JEI.addItem(<contenttweaker:spectral_shard>);
 mods.jei.JEI.addItem(<contenttweaker:magic_orb>);
 
 mods.jei.JEI.addDescription(<contenttweaker:amulet_of_divinity>,"Fade in Light, return to Glory. Gone blazing, born anew, estrelvir.");
-mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This basic material is a gate to a world of magic that can be used to craft Runes, various Trinkets, Baubles, Artifacts and even cast powerful Spells.");
-mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Witch covens have a taste for forbidden and unusual arts. We can tap into that power too, using the §lAlchemical Cauldron§r. Add water to an Alchemical Cauldron then light a fire below so that the water starts boiling. Add a §lbrown mushroom§r, a §lred mushroom§r, §lglowstone dust§r and stir with a spoon—rustic alchemists may use a wooden shovel.");
+mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This magical material is needed cast powerful spells from wands.");
+mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Witch covens have a taste for forbidden and unusual arts. We can tap into that power too, using the §lCauldron§r. Add §llunar water§r to a Cauldron then toss in §lmagic blend§l, made from a §lmushroom§r, §lglowstone dust§r, §lvis specks§r, and §lquintessence§r.");
 
 //mods.jei.JEI.addDescription(<ore:runeItem>,"Runes are symbols carved into stones and imbued with aspects of nature that grant them a specific and strong magic affinity for an element. Their primary use is to act as a catalyst for other magical items or creating single-use orbs.");
 mods.jei.JEI.addItem(<contenttweaker:blank_rune>);

@@ -335,7 +335,6 @@ knowledgeQuintessenceA.add(
     <aether_legacy:lore_book>,
     <minecraft:enchanted_book>,
     <quark:ancient_tome>,
-    <dungeontactics:magic_scroll>,
     <contenttweaker:brain>
 );
 
