@@ -153,6 +153,9 @@
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
 <betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
+<betterwithaddons:slat>.addTooltip("Perfect for being covered with tatami mats!");
+<betterwithaddons:slat>.addShiftTooltip("Place a tatami mat on top, then use a hoe to fit it perfectly to floor level.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithaddons:tatami>.addShiftTooltip('Tatami should not be arranged forming a "+" shape at the junctions, lest it bring an inauspicious future.');
 
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
@@ -206,29 +209,29 @@
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
 
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
-<pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "<" + format.gold("+") + "" + format.gray(">"));
+<pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
-<pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "<" + format.gold("+") + "" + format.gray(">"));
+<pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
-<betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "<" + format.gold("+") + "" + format.gray(">"));
+<betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 //Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
-<dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_frag_cluster>.addTooltip("Explodes in an area");
-<dungeontactics:bomb_frag_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_frag_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_pyro>.addTooltip("Explodes and sets targets on fire.");
-<dungeontactics:bomb_pyro>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_pyro>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_pyro_cluster>.addTooltip("Explodes and sets targets on fire.");
-<dungeontactics:bomb_pyro_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_pyro_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_porting>.addTooltip("Explodes and teleports targets away.");
-<dungeontactics:bomb_porting>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_porting>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_porting_cluster>.addTooltip("Explodes and teleports targets away.");
-<dungeontactics:bomb_porting_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_porting_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_cryo>.addTooltip("Freezes and leaves targets open to damage.");
-<dungeontactics:bomb_cryo>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_cryo>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_cryo_cluster>.addTooltip("Freezes and leaves targets open to damage.");
-<dungeontactics:bomb_cryo_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "<" + format.gold("+") + "" + format.gray(">"));
+<dungeontactics:bomb_cryo_cluster>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <minecraft:wooden_shovel>.addShiftTooltip('"Sorcery is the sauce fools spoon over failure to hide the flavor of their own incompetence." -G.R.R.M.');
 <minecraft:wooden_shovel>.addShiftTooltip("Well, a wooden spoon can unlock a great deal of sorceries.");

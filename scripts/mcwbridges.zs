@@ -6,6 +6,7 @@ import mods.jei.JEI;
 recipes.remove(<mcwbridges:iron_rod>);
 recipes.remove(<mcwbridges:iron_armrest>);
 recipes.remove(<mcwbridges:iron_platform>);
+recipes.remove(<ore:durableFiber>);
 
 //Added material recipes
 recipes.addShaped("tin_bridge_armrest", <mcwbridges:iron_armrest>*3,[
@@ -56,4 +57,10 @@ recipes.addShaped("bridgeStack_acacia", <mcwbridges:rope_acacia_bridge>*32,[
 recipes.addShaped("bridgeStack_dark_oak", <mcwbridges:rope_dark_oak_bridge>*32,[
 	[<quark:rope>, null, <quark:rope>],
 	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]
+]);
+
+//actual bamboo bridge
+recipes.addShaped("bridge_bamboo", <mcwbridges:bamboo_bridge>*2,[
+	[<biomesoplenty:bamboo>, <ore:durableFiber>, <biomesoplenty:bamboo>],
+	[<biomesoplenty:bamboo>, <biomesoplenty:bamboo>, <biomesoplenty:bamboo>]
 ]);

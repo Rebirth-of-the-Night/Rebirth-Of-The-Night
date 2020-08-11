@@ -84,6 +84,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:infernal_enchanter>);
 mods.jei.JEI.removeAndHide(<betterwithmods:arcane_scroll>);
 mods.ltt.LootTable.removeGlobalItem("betterwithmods:arcane_scroll");
 recipes.removeByRecipeName("betterwithmods:blocks/redstone/comparator");
+recipes.removeByRecipeName("betterwithmods:decompress/wicker_decompress");
 recipes.remove(<betterwithmods:metal_chime:*>);
 recipes.remove(<betterwithmods:bamboo_chime:*>);
 
@@ -97,7 +98,7 @@ for i, output in arrayWindChime{
     recipes.addShaped(output,[
         [null,<minecraft:string>,null],
         [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<ore:ingotIron>,arrayMoulding[i],<ore:ingotIron>]
+        [<ore:genericMetal>,arrayMoulding[i],<ore:genericMetal>]
     ]);
 }
 
@@ -105,7 +106,7 @@ for i, output in arrayBambooChime{
     recipes.addShaped(output,[
         [null,<minecraft:string>,null],
         [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<ore:sugarcane>,arrayMoulding[i],<ore:sugarcane>]
+        [<ore:hollowReed>,arrayMoulding[i],<ore:hollowReed>]
     ]);
 }
 

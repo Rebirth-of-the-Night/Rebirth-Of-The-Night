@@ -29,6 +29,7 @@ recipes.addShaped("benign_rope", rope*2,
 val cattail = <biomesoplenty:plant_1:4>; 
 val wicker = <betterwithmods:wicker>;
 val driedf = <pyrotech:material:13>;
+val rice = <harvestcraft:riceitem>;
 
 recipes.remove(<betterwithmods:bucket>);
 recipes.addShaped("well_bucket", <betterwithmods:bucket>,
@@ -43,6 +44,10 @@ recipes.addShaped("wicker2", wicker*2,
   [[driedf,driedf,driedf],
   [driedf,driedf,driedf]]);
   
+recipes.addShaped("wicker3", wicker*3,
+  [[rice,rice,rice],
+  [rice,rice,rice]]);
+    	
 recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers");
 recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
 [<betterwithmods:rope>]);

@@ -172,24 +172,26 @@ mods.jei.JEI.removeAndHide(<base:wrench>);
 /* Multiblock Kilns, Refractory Structures, and Pit Burning */
 val refractoryClayBall = <pyrotech:material:4>;
 val refractoryBrick = <pyrotech:material:5>;
+val slag = <pyrotech:material:8>;
 
 mods.jei.JEI.addDescription(<minecraft:brick_block>,["Other than the regular uses it has as a material or building block, bricks are useful to build huge and slow cooking kilns; to build a slow cooking kiln, make a frame consisting of four brick blocks with a space in the middle in which to place the block you wish to cook, then light the block below the structure.","","These structures can never achieve the level of high temperature a carefully crafted kiln or a refractory structure could achieve, since too much air flows between gaps and the heat source is too far away."]);
 mods.jei.JEI.addDescription(<pyrotech:material>, "Ashy remains of pit burning. With a little care, a lot of pure ash can be extracted from this pile.");
 
-mods.jei.JEI.addDescription(refractoryClayBall, "This muddy, limy ball contains a great concentration of calcium and magnesium, which makes it practically impervious to heat. An excellent material to make a heat-resistant burning station.");
+mods.jei.JEI.addDescription(refractoryClayBall, "This muddy, limy ball contains a great concentration of particular elements which makes it practically impervious to heat once processed. An excellent material to make a heat-resistant burning station.");
+mods.jei.JEI.addDescription(slag, "Leftovers of certain materials containing precious components such as silica, aluminum, calcium and magnesium.");
 mods.jei.JEI.addDescription([<pyrotech:refractory_brick_block>,refractoryBrick], "Refractory materials enable the construction of structures for burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
 mods.jei.JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure works by burning without actually starting a fire, thus, it is of tremendous importance than no air gap is present between the walls of the structure and the material being burned; that includes the door...");
 // mods.jei.JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
 
 /* Plants */
-mods.jei.JEI.addDescription(<rustic:wildberries>,"A strong-flavored pome-like fruit that can be prepared or distilled. Carminberries have a higlhy staining red pigment which make them a perfect red dye.");
-mods.jei.JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless source of food and they can be multiplied using bonemeal. Carminberry bushes grow naturally in most warm and not dry biomes.");
+mods.jei.JEI.addDescription(<rustic:wildberries>,"A strong-flavored pome-like fruit that can be prepared or distilled. Carminberries have a highly staining red pigment which make them a perfect red dye.");
+mods.jei.JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless source of food and they can be multiplied using bone meal. Carminberry bushes grow naturally in most warm and not dry biomes.");
 mods.jei.JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
 mods.jei.JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes. Cloudsbluff can be used to create balloons for airships.");
 mods.jei.JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
 mods.jei.JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwilling hawthorn. Although they are unfulfilling and sour, some animals like them, but they are too hard to get. Horses, especially, may surprise their owners when presented with a prepared hawthorn dish.");
 mods.jei.JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour berry and has soft leaves. When under stress or pressure from an external force trying to grab its fruit, its branches will harden and poke any unwanted visitors. The berry itself presents particular properties when prepared and fed to horses.");
-mods.jei.JEI.addDescription(<minecraft:cactus>,"Can be used to fill a bottle with water. Drink it in a hot and arid biome to recieve a small buff.");
+mods.jei.JEI.addDescription(<minecraft:cactus>,"Can be used to fill a bottle with water. Drink it in a hot and arid biome to receive a small buff.");
 mods.jei.JEI.addDescription(<pyrotech:mulch>, "The smart gardener knows that with some nitrogen and potash, one gets mulch! Applying it to farmland will protect the block from being trampled and will help crops grow a little faster.");
 
 mods.jei.JEI.addDescription(<harvestcraft:juteitem>, "Durable, but needs to be dried and macerated first to get any value out of it. This effort pays off with a higher yield of fiber.");
@@ -253,7 +255,7 @@ mods.jei.JEI.addDescription(<aether_legacy:skyroot_bed:*>, ["By adding some Skyr
 
 mods.jei.JEI.addDescription(<minecraft:purpur_block>, ["One of the most distinctive types of Ender architecture, favored for endermites as burrows to pupate into shulkers.","Long ago, the shulkers were easily controlled… but now, what remains of the Ender empire cannot prevent the pests from infesting their cities."]);
 mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block that creates a magical updrift if one flies over it with an elytra!");
-mods.jei.JEI.addDescription(<minecraft:end_stone>,"Some have seen this paradimensional stone floating around in the Overworld. Legends claim this stone to be the most common soil in the home of the Enderpeople, although it was described as covered with vibrant purple grass and flora.");
+mods.jei.JEI.addDescription(<minecraft:end_stone>,"Some have seen this para-dimensional stone floating around in the Overworld. Legends claim this stone to be the most common soil in the home of the Enderpeople, although it was described as covered with vibrant purple grass and flora.");
 
 mods.jei.JEI.addDescription(<chutes:chute_wood>, "The benefit of 4 full blocks in 1. Especially useful to access underwater areas quickly.");
 mods.jei.JEI.addDescription(<chutes:chute_entry_wood>, "The benefit of 4 full blocks in 1. Especially useful to access underwater areas quickly. This one acts as an entry point.");
@@ -327,7 +329,7 @@ mods.jei.JEI.addDescription([<betterwithaddons:aqueduct>,<betterwithaddons:aqued
 mods.jei.JEI.addDescription(<betterwithaddons:aqueduct:4>,"The great desert empires relied on these constructions where wells fell short. Few aqueducts still remain standing today.");
 
 mods.jei.JEI.addDescription(<contenttweaker:elevator>,"Roughly accurate reproduction of one of the most advanced machines — if it can be called a machine — ever created by the civilization that once inhabited The End. In its current state it is pretty much useless, but that does not mean that it is worthless...");
-mods.jei.JEI.addDescription(<advancedliftingmethods:ultimate_ender_elevator>,"At the peak of their technologic advancement, the now warped inhabitants of The End manipulated space so easily that they did not require to use their inhate abilities. While in a column of two or more Ender Elevators, jump to teleport to the one above or crouch to teleport to the one below.");
+mods.jei.JEI.addDescription(<advancedliftingmethods:ultimate_ender_elevator>,"At the peak of their technological advancement, the now warped inhabitants of The End manipulated space so easily that they did not require to use their inhate abilities. While in a column of two or more Ender Elevators, jump to teleport to the one above or crouch to teleport to the one below.");
 mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes §lall entities and items§r, extinguishes fires, and blows away dust. Gives a stronger push if there is another fan behind. Because it has a less controlled wind flow than that of a fan elevator, it §lcannot make air flow through chutes.");
 mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage relative to distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 mods.jei.JEI.addDescription(<advancedliftingmethods:blowing_elevator>,"Thanks to reverse-flow filter logic from stone pressure plates, it pushes only entities. Use the blowing elevator along with chutes to make chute elevators.");
