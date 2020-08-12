@@ -166,6 +166,7 @@ mods.jei.JEI.hideCategory("bwa.firenet");
 mods.jei.JEI.hideCategory("bwa.waternet");
 mods.jei.JEI.hideCategory("bwa.sandnet");
 mods.jei.JEI.hideCategory("bwa.soakingbox");
+mods.jei.JEI.hideCategory("bwa.dryingbox");
 
 mods.betterwithmods.Mill.remove([<betterwithaddons:food_ground_meat>]);
 mods.betterwithmods.Cauldron.remove([<betterwithaddons:food_meatballs>]);
@@ -200,19 +201,6 @@ mods.jei.JEI.addItem(<betterwithaddons:greatarrow>);
 
 val wicker = <betterwithmods:wicker>;
 val cloth = <harvestcraft:wovencottonitem>;
-
-//Cherrywood drying unit as upgrade to drying rack
-mods.betterwithaddons.DryingBox.add(<pyrotech:material:13>,<pyrotech:material:12>);
-mods.betterwithaddons.DryingBox.add(<pyrotech:material:13>,<ore:treeSapling>);
-mods.betterwithaddons.DryingBox.add(<minecraft:sponge:0>,<minecraft:sponge:1>);
-mods.betterwithaddons.DryingBox.add(<minecraft:paper>,<pyrotech:material:25>);
-mods.betterwithaddons.DryingBox.add(<pyrotech:material:2>,<harvestcraft:juteitem>);
-
-//Drying case recipes
-recipes.addShaped(<betterwithaddons:cherrybox:1>,[
-[<sereneseasons:greenhouse_glass>],
-[<chutes:chute_wood>]]
-);
 
 //Tatami
 recipes.addShaped(<betterwithaddons:tatami> * 4, [
