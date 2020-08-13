@@ -151,18 +151,6 @@ recipes.addShaped("oak_fence_gate",<minecraft:fence_gate>,[
     [<ore:stickWood>,<minecraft:planks:0>,<ore:stickWood>]
 ]);
 
-recipes.remove(<betternether:stalagnate_planks_fence>);
-recipes.addShaped("stalagnate_fence",<betternether:stalagnate_planks_fence>*3,[
-    [<betternether:stalagnate_planks>,<ore:stickWood>,<betternether:stalagnate_planks>],
-    [<betternether:stalagnate_planks>,<ore:stickWood>,<betternether:stalagnate_planks>]
-]);
-
-recipes.remove(<betternether:reeds_fence>);
-recipes.addShaped("reeds_fence",<betternether:reeds_fence>*3,[
-    [<betternether:reeds_block>,<ore:stickWood>,<betternether:reeds_block>],
-    [<betternether:reeds_block>,<ore:stickWood>,<betternether:reeds_block>]
-]);
-
 val fenceStickMap = {
     <minecraft:planks:1> : [<minecraft:spruce_fence>,<minecraft:spruce_fence_gate>],
     <minecraft:planks:2> : [<minecraft:birch_fence>,<minecraft:birch_fence_gate>],
@@ -185,7 +173,9 @@ val fenceStickMap = {
     <biomesoplenty:planks_0:12> : [<biomesoplenty:jacaranda_fence:0>,<biomesoplenty:jacaranda_fence_gate:0>],
     <biomesoplenty:planks_0:13> : [<biomesoplenty:mahogany_fence:0>,<biomesoplenty:mahogany_fence_gate:0>],
     <biomesoplenty:planks_0:14> : [<biomesoplenty:ebony_fence:0>,<biomesoplenty:ebony_fence_gate:0>],
-    <biomesoplenty:planks_0:15> : [<biomesoplenty:eucalyptus_fence:0>,<biomesoplenty:eucalyptus_fence_gate:0>]
+    <biomesoplenty:planks_0:15> : [<biomesoplenty:eucalyptus_fence:0>,<biomesoplenty:eucalyptus_fence_gate:0>],
+    <betternether:stalagnate_planks> : [<betternether:stalagnate_planks_fence>,<betternether:stalagnate_planks_gate>],
+    <betternether:reeds_block> : [<betternether:reeds_fence>,<betternether:reeds_gate>]
 } as IItemStack[][IItemStack];
 
 for plank, fenceArray in fenceStickMap{

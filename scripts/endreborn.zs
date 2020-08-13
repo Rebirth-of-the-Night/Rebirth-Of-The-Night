@@ -81,7 +81,7 @@ mods.betterwithaddons.Infuser.addShaped(<endreborn:tool_magnifier>, [
    [null, <endreborn:item_ingot_endorium>, <contenttweaker:end_orb>],
    [null, <minecraft:end_rod>, <dungeontactics:steel_ingot>], 
    [<minecraft:end_rod>, null, null]],
-   16);
+16);
 
 
 
@@ -149,6 +149,13 @@ recipes.addShaped("Purpur Lamp", <endreborn:block_purpur_lamp>,[
     [<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>],
     [<minecraft:glass_pane>, <endreborn:block_end_magma>, <minecraft:glass_pane>],
     [<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>]
+]);
+
+recipes.remove(<endreborn:ender_bow>);
+recipes.addShaped("endorium_bow",<endreborn:ender_bow>,[
+    [<minecraft:string>,<ore:stickWood>,null],
+    [<minecraft:string>,null,<endreborn:item_ingot_endorium>],
+    [<minecraft:string>,<ore:stickWood>,null]
 ]);
 
 //changes to end rune behavior

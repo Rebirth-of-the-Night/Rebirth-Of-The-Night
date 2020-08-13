@@ -55,7 +55,14 @@ mods.jei.JEI.removeAndHide(<iceandfire:sapphire_block>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);
 
 recipes.remove(<iceandfire:earplugs>);
-recipes.addShapeless("iceandfire_earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
+recipes.addShapeless("earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
+
+recipes.remove(<iceandfire:dragon_horn>);
+recipes.addShaped("dragon_horn",<iceandfire:dragon_horn>,[
+  [null,null,<iceandfire:dragonbone>],
+  [null,<iceandfire:dragonbone>,<iceandfire:dragonbone>],
+  [<ore:stickWood>,<iceandfire:dragonbone>,null]
+]);
 
 // Pixie Wand
 recipes.remove(<iceandfire:pixie_wand>);

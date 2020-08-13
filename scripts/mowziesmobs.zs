@@ -65,7 +65,7 @@ recipes.addShapeless(<twilightforest:moonworm>, [<twilightforest:moonworm_queen>
 // WAITING FOR MOWZIE'S MOBS AUTHOR TO ADD LOOT TABLES SO I CAN ENTIRELY REPLACE GLOWING JELLY DROP WITH THIS
 mods.aether_legacy.Enchanter.registerEnchantment(<betterwithaddons:congealed:4>, <mowziesmobs:glowing_jelly>, 5000);
 
-/// Removed Vanilla Night Vision Potions
+// Removed Vanilla Night Vision Potions
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:golden_carrot>);
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:night_vision"}), <minecraft:redstone>);
 
@@ -78,6 +78,13 @@ brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:night
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"}), <minecraft:redstone>);
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"}), <minecraft:dragon_breath>);
 
+// Recipe oredict fixes
+recipes.remove(<mowziesmobs:naga_fang_dagger>);
+recipes.addShaped("skydrake_shiv",<mowziesmobs:naga_fang_dagger>,[
+	[<mowziesmobs:naga_fang>],
+	[<minecraft:iron_ingot>],
+	[<ore:stickWood>]
+]);
 
 //RIP - oredict does not work with rustic condenser. keeping these oredicts here in case we want to use contenttweaker for more complex/differentiated alchemy recipes that reward multidimensional exploration
 //////

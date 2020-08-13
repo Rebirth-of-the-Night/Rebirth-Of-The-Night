@@ -59,6 +59,13 @@ recipes.addShaped("midori_block",<quark:midori_block>,[
 	[<betterwithaddons:material:2>,<betterwithaddons:material:2>]
 ]);
 
+recipes.remove(<quark:paper_wall>);
+recipes.addShaped("paper_wall",<quark:paper_wall>,[
+	[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
+	[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],
+	[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]
+]);
+
 //Immersive plating
 recipes.addShaped("iron plate", <quark:iron_plate>*24,
  [[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],

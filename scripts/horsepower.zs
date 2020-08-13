@@ -9,6 +9,14 @@ mods.jei.JEI.removeAndHide(<horsepower:chopper>);
 furnace.setFuel(<horsepower:chopper>, 0);
 mods.jei.JEI.removeAndHide(<horsepower:hand_grindstone>);
 
+//Crafting table recipes
+recipes.remove(<horsepower:press>);
+recipes.addShaped("horse_press",<horsepower:press>,[
+    [<minecraft:lead>,<ore:stickWood>,<minecraft:lead>],
+    [<ore:plankWood>,<ore:pressurePlateWood>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
+]);
+
 //Millstone recipes
 mods.horsepower.Grindstone.add(<minecraft:wheat>, <betterwithmods:raw_pastry:3>, 12);
 mods.horsepower.Grindstone.add(<biomesoplenty:plant_1:4>, <betterwithmods:raw_pastry:3>, 12);
