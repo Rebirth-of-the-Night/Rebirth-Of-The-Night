@@ -2292,12 +2292,6 @@ dimstack:bedrock
 wings:fairy_dust_ore
 wings:amethyst_ore
 zensummoning:altar
-foundry:componentblock
-foundry:machine
-foundry:casting_table
-foundry:mold_station
-foundry:burner_heater
-foundry:bronze_cauldron
 foundry:iron
 foundry:gold
 foundry:copper
@@ -2305,6 +2299,12 @@ foundry:tin
 foundry:bronze
 foundry:silver
 foundry:steel
+foundry:componentblock
+foundry:machine
+foundry:casting_table
+foundry:mold_station
+foundry:burner_heater
+foundry:bronze_cauldron
 arcaneworld:ore_sapphire
 arcaneworld:ore_amethyst
 arcaneworld:ore_amethyst_nether

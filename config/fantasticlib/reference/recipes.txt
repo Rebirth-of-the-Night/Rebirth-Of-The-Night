@@ -2916,12 +2916,15 @@ rats:rat_upgrade_tnt
 rats:rat_upgrade_strength
 rats:rat_upgrade_speed
 rats:rat_upgrade_shears
+rats:rat_upgrade_replanter
 rats:rat_upgrade_poison
 rats:rat_upgrade_platter
 rats:rat_upgrade_placer
 rats:rat_upgrade_no_flute
+rats:rat_upgrade_jury_rigged
 rats:rat_upgrade_health
 rats:rat_upgrade_gemcutter
+rats:rat_upgrade_from_fragment
 rats:rat_upgrade_flight
 rats:rat_upgrade_fisherman
 rats:rat_upgrade_farmer
