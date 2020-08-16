@@ -1044,6 +1044,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+/*
 # transport
 RecipeBuilder.get("mage")
   .setShaped([
@@ -1056,6 +1057,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
 // tier tooltips
 

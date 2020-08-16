@@ -439,7 +439,7 @@ val lifeQuintessenceB = <ore:lifeQuintessenceB>;
 lifeQuintessenceB.add(
     <rustic:blood_orchid>,
     <twilightforest:fiery_blood>,
-    <wings:bat_blood>,
+    // <wings:bat_blood>,
     <iceandfire:fire_dragon_blood>,
     <iceandfire:ice_dragon_blood>
 );
