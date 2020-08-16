@@ -252,6 +252,10 @@ betterwithmods:bwm_fishing_hook
 betterwithmods:bwm_tentacle
 betterwithmods:bwm_jungle_spider
 arcanearchives:weight
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -259,13 +263,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:gravisand
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:seat
-quark:chest_passenger
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -274,6 +271,9 @@ quark:ashen
 quark:pirate
 quark:crab
 quark:wraith
+quark:gravisand
+quark:chest_passenger
+quark:seat
 betterwithaddons:greatarrow
 betterwithaddons:ya
 betterwithaddons:artifactframe
@@ -896,20 +896,4 @@ toroquest:toroquest_grave_titan
 toroquest:toroquest_bandit_lord
 toroquest:toroquest_caravan
 toroquest:smart_arrow
-ultimate_unicorn_mod:magical horse
-ultimate_unicorn_mod:unicorn
-ultimate_unicorn_mod:pegasus
-ultimate_unicorn_mod:destrier
-ultimate_unicorn_mod:nightmare
-ultimate_unicorn_mod:hippocamp
-ultimate_unicorn_mod:knightvagabond
-ultimate_unicorn_mod:velvet
-ultimate_unicorn_mod:typhon
-ultimate_unicorn_mod:alea
-ultimate_unicorn_mod:asmidiske
-ultimate_unicorn_mod:velvetbunny
-ultimate_unicorn_mod:zombieminion
-ultimate_unicorn_mod:kirin
-ultimate_unicorn_mod:reindeer
-ultimate_unicorn_mod:entitythrownitem
 zombieawareness:entityscent

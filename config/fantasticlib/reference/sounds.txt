@@ -1359,8 +1359,6 @@ spartanweaponry:throwing_weapon_throw
 spartanweaponry:throwing_weapon_hit
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
-wings:item.armor.equip_wings
-wings:item.wings.flying
 arcaneworld:ritual_out
 arcaneworld:ritual_item
 arcaneworld:ritual_charge

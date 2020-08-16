@@ -1,9 +1,4 @@
 import crafttweaker.item.IIngredient;
-import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.Functions; 
 
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 
