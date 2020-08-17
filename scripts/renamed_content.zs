@@ -286,6 +286,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:bone_wall>.displayName = "Hardened Bone Wall";
 <betternether:bone_tile>.displayName = "Hardened Bone Tile";
 <betternether:smoker>.displayName = "Smoker Plant";
+<betternether:stalagnate_planks_gate>.displayName = "Stalagnate Fence Gate";
+<betternether:reeds_gate>.displayName = "Reeds Fence Gate";
 
 // NetherEX
 <netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";
