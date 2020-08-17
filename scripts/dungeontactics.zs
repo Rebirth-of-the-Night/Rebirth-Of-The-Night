@@ -499,6 +499,22 @@ recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
     [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);
 
+// Mirroring Steel Tools
+
+recipes.remove(<dungeontactics:steel_axe>);
+recipes.addShapedMirrored("steel_axe",<dungeontactics:steel_axe>,[
+  [<dungeontactics:steel_ingot>,<dungeontactics:steel_ingot>],
+  [<dungeontactics:steel_ingot>,<ore:stickWood>],
+  [null,<ore:stickWood>]
+]);
+
+recipes.remove(<dungeontactics:steel_hoe>);
+recipes.addShapedMirrored("steel_hoe",<dungeontactics:steel_hoe>,[
+  [<dungeontactics:steel_hoe>,<dungeontactics:steel_hoe>],
+  [null,<ore:stickWood>],
+  [null,<ore:stickWood>]
+]);
+
 #Bag of Hoarding crafted using Tanned Leather
 
 var backpack = <quark:backpack>;
