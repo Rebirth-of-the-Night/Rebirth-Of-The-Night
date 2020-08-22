@@ -76,6 +76,9 @@ recipes.addShapeless("smooth_black_basalt",<netherex:smooth_basalt>,[<netherex:b
 recipes.removeByRecipeName("netherex:basalt_brick_1");
 recipes.addShapeless("black_basalt_bricks",<netherex:basalt_brick>,[<netherex:basalt_pillar>]);
 
+furnace.remove(<netherex:fiery_nether_brick>);
+furnace.addRecipe(<netherex:fiery_nether_brick>, <netherex:fiery_netherrack>);
+
 var slabArray = [<netherex:red_nether_brick_slab:0>,<netherex:gloomy_nether_brick_slab:0>,<netherex:lively_nether_brick_slab:0>,<netherex:fiery_nether_brick_slab:0>,<netherex:icy_nether_brick_slab:0>,<netherex:basalt_slab:0>,<netherex:smooth_basalt_slab:0>,<netherex:basalt_brick_slab:0>,<netherex:basalt_pillar_slab:0>] as IItemStack[];
 var stairArray = [<netherex:red_nether_brick_stairs>,<netherex:gloomy_nether_brick_stairs>,<netherex:lively_nether_brick_stairs>,<netherex:fiery_nether_brick_stairs>,<netherex:icy_nether_brick_stairs>,<netherex:basalt_stairs>,<netherex:smooth_basalt_stairs>,<netherex:basalt_brick_stairs>,<netherex:basalt_pillar_stairs>] as IItemStack[];
 
