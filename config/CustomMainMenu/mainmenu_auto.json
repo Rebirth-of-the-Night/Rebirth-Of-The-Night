@@ -198,6 +198,25 @@
                 "link" : "https://www.patreon.com/rebirthofthenight"
             }
         },
+        "blm":
+        {
+            "text" : "Support Black Lives Matter",
+            "normalTextColor" : 6710886,
+            "hoverTextColor" : 3125670,
+            "texture" : "rotn:textures/btn.png",
+            "posX" : 100,
+            "posY" : 125,
+            "width" : 153,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://blacklivesmatters.carrd.co/"
+            }
+        },
 
         "server":
         {
