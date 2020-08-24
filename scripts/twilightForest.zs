@@ -63,7 +63,7 @@ var enchantmentMap2 as IData = {};
 enchantmentMap2 += enchantments[0].makeEnchantment(2).makeTag();
 
 recipes.remove(<twilightforest:steeleaf_hoe>);
-recipes.addShapedMirrored("steeleaf_hoe",<twilightforest:steeleaf_ingot>.withTag(enchantmentMap2),[
+recipes.addShapedMirrored("steeleaf_hoe",<twilightforest:steeleaf_hoe>.withTag(enchantmentMap2),[
   [<twilightforest:steeleaf_ingot>,<twilightforest:steeleaf_ingot>],
   [null,<ore:stickWood>],
   [null,<ore:stickWood>]

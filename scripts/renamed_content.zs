@@ -1,6 +1,6 @@
 import crafttweaker.game.IGame;
-
-
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
 
 // Slimes
 <minecraft:slime_ball>.displayName = "Green Slimeball";
@@ -344,6 +344,50 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
+
+var potionMap = {
+    "Collapse" : "randomthings:collapse",
+    "Collapse" : "randomthings:long_collapse",
+    "Collapse" : "randomthings:strong_collapse",
+    "Stability" : "quark:resilience",
+    "Stability" : "quark:long_resilience",
+    "Stability" : "quark:strong_resilience",
+    "Acid Burn" : "mod_lavacow:corrosive",
+    "Filth" : "mod_lavacow:foulodor",
+    "Poison Resistance" : "mowziesmobs:poison_resist",
+    "Poison Resistance" : "mowziesmobs:long_poison_resist",
+    "Freezing" : "netherex:freezing",
+    "Frigid Health" : "netherex:frigid_health",
+    "Dispersal" : "netherex:dispersal",
+    "Sorrow" : "netherex:sorrow",
+    "Broken Magic Shielding" : "potioncore:broken_magic_shielding",
+    "Broken Magic Shielding" : "potioncore:strong_broken_magic_shielding",
+    "Broken Magic Shielding" : "potioncore:long_broken_magic_shielding",
+    "Gyration" : "potioncore:spin",
+    "Gyration" : "potioncore:strong_spin",
+    "Gyration" : "potioncore:long_spin",
+    "Royalty" : "toroquest:royalty",
+    "Royalty" : "toroquest:long_royalty",
+    "Royalty" : "toroquest:strong_royalty",
+    "Loyalty" : "toroquest:loyalty",
+    "Loyalty" : "toroquest:long_loyalty",
+    "Loyalty" : "toroquest:strong_loyalty"
+} as string[string];
+
+
+var arrowMap = {
+    "Wooden Arrow of " : <spartanweaponry:arrow_wood_tipped>,
+    "Iron Arrow of " : <spartanweaponry:arrow_iron_tipped>,
+    "Diamond Arrow of " : <spartanweaponry:arrow_diamond_tipped>,
+    "Bolt of " : <spartanweaponry:bolt_tipped>,
+    "Diamond Bolt of " : <spartanweaponry:bolt_diamond_tipped>
+} as IItemStack[string];
+
+for potion in potionMap{
+    for arrow in arrowMap{
+        arrowMap[arrow].withTag(({"Potion" : potionMap[potion]}) as IData).displayName = arrow ~ potion;
+    }
+}
 
 // Underground Biomes
 <undergroundbiomes:fossil_piece:5>.displayName = "Claw Fossil";

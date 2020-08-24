@@ -44,4 +44,10 @@ recipes.addShapedMirrored("small_nether_brick_tile_stairs", <betternether:nether
     [<betternether:nether_brick_tile_slab_half:0>,<betternether:nether_brick_tile_slab_half:0>,<betternether:nether_brick_tile_slab_half:0>]
 ]);
 
+recipes.remove(<betternether:cincinnasite_fire_bowl>);
+recipes.addShaped("cincinnasite_fire_bowl",<betternether:cincinnasite_fire_bowl>,[
+    [<betternether:cincinnasite_forged>,<ore:netherrack>,<betternether:cincinnasite_forged>],
+    [null,<betternether:cincinnasite_forged>,null]
+]);
+
 brewing.addBrew(<minecraft:glass_bottle>, <betternether:nether_reed>, <harvestcraft:maplesyrupitem>);

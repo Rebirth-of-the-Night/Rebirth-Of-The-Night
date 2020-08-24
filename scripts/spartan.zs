@@ -86,11 +86,14 @@ recipes.removeByRecipeName("spartanshields:shield_mod_bronze");
 recipes.remove(<spartanshields:shield_basic_lead>);
 recipes.remove(<spartanshields:shield_basic_diamond>);
 
-// Making pole recipes shapeless
+// Making handle and pole recipes shapeless
+
+recipes.removeByRecipeName("spartanweaponry:handle_string");
+recipes.addShapeless("string_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<minecraft:string>]);
 
 recipes.remove(<spartanweaponry:material:1>);
 recipes.addShapeless("wool_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:wool>]);
-recipes.addShapeless("sting_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:string>]);
+recipes.addShapeless("string_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:string>]);
 recipes.addShapeless("leather_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:leather>]);
 
 //Mythril

@@ -510,7 +510,7 @@ recipes.addShapedMirrored("steel_axe",<dungeontactics:steel_axe>,[
 
 recipes.remove(<dungeontactics:steel_hoe>);
 recipes.addShapedMirrored("steel_hoe",<dungeontactics:steel_hoe>,[
-  [<dungeontactics:steel_hoe>,<dungeontactics:steel_hoe>],
+  [<dungeontactics:steel_ingot>,<dungeontactics:steel_ingot>],
   [null,<ore:stickWood>],
   [null,<ore:stickWood>]
 ]);
