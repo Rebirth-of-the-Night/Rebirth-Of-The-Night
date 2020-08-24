@@ -1,7 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
-import loottweaker.vanilla.loot.LootTables;
+import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
@@ -27,7 +27,7 @@ enchantmentMap1 += enchantments1[2].makeEnchantment(1).makeTag();
 
 recipes.remove(<harvestersnight:harvester_scythe>);
 
-val harvester = LootTables.getTable("harvestersnight:entities/harvester");
+val harvester = LootTweaker.getTable("harvestersnight:entities/harvester");
 val harvesterMain = harvester.getPool("scythe");
 harvesterMain.removeEntry("harvestersnight:harvester_scythe");
 

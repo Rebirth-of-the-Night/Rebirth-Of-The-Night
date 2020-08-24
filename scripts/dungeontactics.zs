@@ -499,6 +499,22 @@ recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
     [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);
 
+// Mirroring Steel Tools
+
+recipes.remove(<dungeontactics:steel_axe>);
+recipes.addShapedMirrored("steel_axe",<dungeontactics:steel_axe>,[
+  [<dungeontactics:steel_ingot>,<dungeontactics:steel_ingot>],
+  [<dungeontactics:steel_ingot>,<ore:stickWood>],
+  [null,<ore:stickWood>]
+]);
+
+recipes.remove(<dungeontactics:steel_hoe>);
+recipes.addShapedMirrored("steel_hoe",<dungeontactics:steel_hoe>,[
+  [<dungeontactics:steel_ingot>,<dungeontactics:steel_ingot>],
+  [null,<ore:stickWood>],
+  [null,<ore:stickWood>]
+]);
+
 #Bag of Hoarding crafted using Tanned Leather
 
 var backpack = <quark:backpack>;
@@ -1044,6 +1060,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+/*
 # transport
 RecipeBuilder.get("mage")
   .setShaped([
@@ -1056,6 +1073,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
 // tier tooltips
 

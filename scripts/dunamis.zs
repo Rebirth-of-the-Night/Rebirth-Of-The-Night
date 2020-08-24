@@ -5,28 +5,6 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-// vis upgrades
-
-RecipeBuilder.get("mage")
-.setShaped([
-  [<contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>],
-  [<contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>],
-  [<contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>]])
-.addOutput(<contenttweaker:vis_shard>)
-.setMinimumTier(1)
-.setMaximumTier(1)
-.create();
-
-RecipeBuilder.get("mage")
-.setShaped([
-  [<contenttweaker:vis_speck>, <contenttweaker:vis_speck>, <contenttweaker:vis_speck>],
-  [<contenttweaker:vis_speck>, <contenttweaker:vis_speck>, <contenttweaker:vis_speck>],
-  [<contenttweaker:vis_speck>, <contenttweaker:vis_speck>, <contenttweaker:vis_speck>]])
-.addOutput(<contenttweaker:vis_sliver>)
-.setMinimumTier(1)
-.setMaximumTier(1)
-.create();
-
 // runes
 
 # inert

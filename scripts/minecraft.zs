@@ -23,17 +23,21 @@ recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
     [<ore:stoneSlab>,<ore:stoneSlab>,<ore:stoneSlab>]
 ]);
 
+recipes.remove(<minecraft:tipped_arrow>);
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
+
 recipes.removeByRecipeName("minecraft:rabbit_stew_from_red_mushroom");
 recipes.removeByRecipeName("minecraft:rabbit_stew_from_brown_mushroom");
 recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>,
   [[null,<minecraft:cooked_rabbit>,null],
   [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
   [null,<minecraft:bowl>,null]]);
+
 recipes.remove(<futuremc:suspicious_stew>);
 recipes.addShapeless("futuremc_stew/sustew", <futuremc:suspicious_stew>, 
 [<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
+
 recipes.remove(<wards:ward>);
 recipes.addShaped("wards_ward", <wards:ward>,
   [[null,<minecraft:obsidian>,null],
@@ -554,6 +558,7 @@ recipes.addShaped("scrapped_leather", <betterwithmods:material:31>,
 [<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>]]);
 
 //Ore Dictionary Entries
+
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);

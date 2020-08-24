@@ -104,6 +104,8 @@ recipes.remove(<rats:potato_pancake>);
 recipes.remove(<rats:rat_upgrade_disenchanter>);
 recipes.remove(<rats:rat_upgrade_armor>);
 recipes.remove(<rats:rat_upgrade_enchanter>);
+recipes.remove(<rats:rat_upgrade_replanter>);
+recipes.remove(<rats:rat_upgrade_jury_rigged>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.removeChefRatRecipe(<rats:potato_kinishes>);
 mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
@@ -183,6 +185,18 @@ recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
     [<minecraft:book>,<minecraft:enchanting_table>,<minecraft:book>],
     [<ore:bookshelf>,<rats:rat_upgrade_basic>,<ore:bookshelf>],
     [<minecraft:book>,<minecraft:experience_bottle>,<minecraft:book>]
+]);
+
+recipes.addShaped("rats_replanter_upgrade",<rats:rat_upgrade_replanter>,[
+    [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>],
+    [<ore:listAllseed>,<rats:rat_upgrade_farmer>,<ore:listAllseed>],
+    [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>]
+]);
+
+recipes.addShaped("rats_juryrigged_upgrade",<rats:rat_upgrade_jury_rigged>,[
+    [<simpleores:mythril_block>,<ore:glue>,<contenttweaker:block_electrum>],
+    [<rats:rat_upgrade_basic>,<scalinghealth:healingitem>,<rats:rat_upgrade_basic>],
+    [<betterwithmods:steel_block:0>,<ore:glue>,<betterwithmods:aesthetic:3>]
 ]);
 
 // cheese workaround until official fix

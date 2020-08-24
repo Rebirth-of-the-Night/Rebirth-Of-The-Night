@@ -1328,6 +1328,7 @@ rats:rat_die
 rats:rat_dig
 rats:rat_plague
 rats:rat_flute
+rats:rat_flute_no_funny
 rats:piper_loop
 rats:rat_laser
 rats:ratlantean_spirit_idle
@@ -1358,8 +1359,6 @@ spartanweaponry:throwing_weapon_throw
 spartanweaponry:throwing_weapon_hit
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
-wings:item.armor.equip_wings
-wings:item.wings.flying
 arcaneworld:ritual_out
 arcaneworld:ritual_item
 arcaneworld:ritual_charge
