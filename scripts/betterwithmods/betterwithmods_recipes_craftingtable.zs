@@ -75,13 +75,15 @@ recipes.addShaped("Wind Sail Slab", <betterwithmods:material:11>,
 recipes.addShaped("Wind Sail Siding", <betterwithmods:material:11>,
   [[cloth,cloth,cloth],
   [cloth,cloth,cloth],
-  [siding,siding,siding]]);  
+  [siding,siding,siding]]); 
+
 //Turntable uses Moulding
 //recipes.remove(<betterwithmods:single_machine:3>);
 //recipes.addShaped("turntable", <betterwithmods:single_machine:3>,
 //  [[<betterwithmods:moulding_wood>,<betterwithmods:moulding_wood>,<betterwithmods:moulding_wood>],
 //  [<ore:stone>,<minecraft:clock>,<ore:stone>],
 //  [<ore:stone>,<ore:gearWood>,<ore:stone>]]);
+
 //Vine Trap + Mossy
 recipes.remove(<betterwithmods:vine_trap>);
 recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,
@@ -202,3 +204,15 @@ recipes.addShapeless("mossy_white_stone_bricks",<betterwithaddons:whitebrick:1>,
 recipes.addShapeless("mossy_towerwood",<twilightforest:tower_wood:3>, [<twilightforest:tower_wood:0>, <ore:vine>]);
 recipes.addShapeless("mossy_castle_brick",<twilightforest:castle_brick:4>, [<twilightforest:castle_brick:0>, <ore:vine>]);
 recipes.addShapeless("mossy_etched_nagastone",<twilightforest:etched_nagastone_mossy>, [<twilightforest:etched_nagastone>, <ore:vine>]);
+
+// Oredict fixes
+
+recipes.remove(<betterwithmods:raw_pastry:0>);
+recipes.addShaped("cake_batter",<betterwithmods:raw_pastry:0>,[
+  [<ore:listAllsugar>,<ore:listAllsugar>,<ore:listAllsugar>],
+  [<ore:listAllmilk>,<ore:listAllegg>,<ore:listAllmilk>],
+  [<ore:foodFlour>,<ore:foodFlour>,<ore:foodFlour>]
+]);
+
+recipes.remove(<betterwithmods:raw_pastry:1>);
+recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<minecraft:pumpkin>,<ore:listAllsugar>,<ore:listAllegg>,<ore:foodFlour>]);

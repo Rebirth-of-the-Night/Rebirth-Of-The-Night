@@ -32,12 +32,18 @@ recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[
 	[<ore:plankWood>,<ore:logWood>,<ore:plankWood>]
 ]);
 
+recipes.remove(<harvestcraft:freshmilkitem>);
+recipes.addShapeless("fresh_milk",<harvestcraft:freshmilkitem>,[<minecraft:milk_bucket>|<aether_legacy:skyroot_bucket:4>]);
+
 recipes.remove(<harvestcraft:berryvinaigrettesaladitem>);
 recipes.addShapeless("berry_vinaigrette_salad", <harvestcraft:berryvinaigrettesaladitem>, [<ore:toolMixingbowl>, <ore:cropLettuce>, <ore:foodVinegar>, <ore:listAllgreenveggie>, <ore:listAlljuice>]);
+
 recipes.addShapeless("imitation_crab_sticks", <harvestcraft:imitationcrabsticksitem>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:dyeRed>, <ore:flourEqualswheat>, <ore:listAllegg>]);
+
 recipes.remove(<harvestcraft:froglegstirfryitem>);
 recipes.addShapeless("frog_leg_stirfry", <harvestcraft:froglegstirfryitem>, 
 [<ore:toolSkillet>, <ore:listAllfrograw>, <ore:cropRice>, <harvestcraft:broccoliitem>, <minecraft:carrot>, <harvestcraft:bellpepperitem>]);
+
 recipes.remove(<harvestcraft:wovencottonitem>);
 recipes.addShapeless("wovencottonitem_twine", <harvestcraft:wovencottonitem>, [<ore:twine>,<ore:twine>]);
 

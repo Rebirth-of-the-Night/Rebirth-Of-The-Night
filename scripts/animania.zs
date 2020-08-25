@@ -23,6 +23,8 @@ recipes.addShaped("hamster_wheel",<animania:block_hamster_wheel>,[
 	[<ore:stoneSlab>,<ore:ingotIron>,<ore:stoneSlab>]
 ]);
 
+// Hamster balls craftable with stained glass
+
 for i in 0 to 16 {
 	recipes.addShaped(<animania:hamster_ball_colored>.definition.makeStack(i),[
 		[<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i)],
@@ -30,3 +32,8 @@ for i in 0 to 16 {
 		[<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i),<minecraft:stained_glass_pane>.definition.makeStack(15-i)]
 	]);
 }
+
+// Milk oredict
+
+recipes.remove(<animania:milk_bottle>);
+recipes.addShapeless("bottle_of_milk",<animania:milk_bottle>*4,[<ore:listAllmilk>,<minecraft:glass_bottle>,<minecraft:glass_bottle>,<minecraft:glass_bottle>]);

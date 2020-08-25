@@ -7,6 +7,8 @@ import crafttweaker.data.IData;
 
 mods.jei.JEI.removeAndHide(<fairylights:ladder>);
 
+// Replaces fairy light recipes to use oredicts
+
 val iron = <minecraft:iron_ingot>;
 val pane = <minecraft:glass_pane>;
 val paper = <minecraft:paper>;
@@ -14,8 +16,6 @@ val stick = <ore:stickWood>;
 val paneStained = <minecraft:stained_glass_pane:0>;
 
 val dyeArray = [<ore:dyeBlack>,<ore:dyeRed>,<ore:dyeGreen>,<ore:dyeBrown>,<ore:dyeBlue>,<ore:dyePurple>,<ore:dyeCyan>,<ore:dyeLightGray>,<ore:dyeGray>,<ore:dyePink>,<ore:dyeLime>,<ore:dyeYellow>,<ore:dyeLightBlue>,<ore:dyeMagenta>,<ore:dyeOrange>,<ore:dyeWhite>] as IIngredient[];
-
-var tinselTagArray = [{color: 0 as byte},{color: 1 as byte},{color: 2 as byte},{color: 3 as byte},{color: 4 as byte},{color: 5 as byte},{color: 6 as byte},{color: 7 as byte},{color: 8 as byte},{color: 9 as byte},{color: 10 as byte},{color: 11 as byte},{color: 12 as byte},{color: 13 as byte},{color: 14 as byte},{color: 15 as byte}] as IData[];
 
 for i in 0 to 240{
     recipes.remove(<fairylights:light>.definition.makeStack(i));
@@ -26,7 +26,7 @@ for i in 0 to 240{
             [null,pane,null]
         ]); // tinsel garland
         recipes.remove(<fairylights:tinsel:0>);
-        recipes.addShaped(<fairylights:tinsel:0>.withTag(tinselTagArray[i]),[
+        recipes.addShaped(<fairylights:tinsel:0>.withTag({"color": i as byte}),[
             [null,paper,null],
             [iron,<minecraft:string>,iron],
             [null,dyeArray[i % 16],null]

@@ -51,7 +51,7 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
 <biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
 <biomesoplenty:hive>.displayName = "Giant Filled Honeycomb";
-
+<biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
 
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
@@ -385,7 +385,7 @@ var arrowMap = {
 
 for potion in potionMap{
     for arrow in arrowMap{
-        arrowMap[arrow].withTag(({"Potion" : potionMap[potion]}) as IData).displayName = arrow ~ potion;
+        arrowMap[arrow].withTag({"Potion" : potionMap[potion]} as IData).displayName = arrow ~ potion;
     }
 }
 

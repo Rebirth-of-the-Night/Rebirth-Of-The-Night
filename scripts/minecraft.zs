@@ -559,6 +559,7 @@ recipes.addShaped("scrapped_leather", <betterwithmods:material:31>,
 
 //Ore Dictionary Entries
 
+<ore:listAllmilk>.add(<aether_legacy:skyroot_bucket:4>);
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
