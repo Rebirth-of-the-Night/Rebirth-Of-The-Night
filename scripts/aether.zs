@@ -154,7 +154,7 @@ recipes.addShaped("gravitite_pick", <atop:amethyst_pickaxe>,[
     [null, stick, null]
 ]);
 
-recipes.addShaped("gravitite_axe", <atop:amethyst_axe>,[
+recipes.addShapedMirrored("gravitite_axe", <atop:amethyst_axe>,[
     [egrav, egrav],
     [egrav, stick],
     [null, stick]
