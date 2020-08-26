@@ -451,7 +451,7 @@ for potion in potionMap{
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
 <betteranimalsplus:wolfhead>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:fried_egg>.displayName = "Baked Egg";
+<betteranimalsplus:fried_egg>.displayName = "Cooked Monster Egg";
 
 #Rare
 <dungeontactics:high_striker>.displayName = "§2High Striker";

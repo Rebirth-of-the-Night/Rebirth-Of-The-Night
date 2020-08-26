@@ -37,3 +37,15 @@ for i in 0 to 16 {
 
 recipes.remove(<animania:milk_bottle>);
 recipes.addShapeless("bottle_of_milk",<animania:milk_bottle>*4,[<ore:listAllmilk>,<minecraft:glass_bottle>,<minecraft:glass_bottle>,<minecraft:glass_bottle>]);
+
+// Omelette recipes
+
+var eggAddArray = [<aether_legacy:moa_egg>,<betteranimalsplus:turkey_egg>,<betteranimalsplus:pheasant_egg>,<betteranimalsplus:goose_egg>,<primitivemobs:dodo_egg>] as IItemStack[];
+var eggRemoveArray = [<betteranimalsplus:turkey_egg>,<betteranimalsplus:pheasant_egg>,<betteranimalsplus:goose_egg>] as IItemStack[];
+
+for egg in eggAddArray{
+	if(eggRemoveArray has egg){
+		furnace.remove(<betteranimalsplus:fried_egg>,egg);
+	}
+	furnace.addRecipe(<animania:plain_omelette>,egg,0.3);
+}

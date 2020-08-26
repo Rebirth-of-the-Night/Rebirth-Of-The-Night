@@ -6,11 +6,11 @@ import crafttweaker.oredict.IOreDictEntry;
 
 mods.jei.JEI.removeAndHide(<betternether:netherrack_furnace>);
 
-
 recipes.removeByRecipeName("betternether:stalagnate_workbench");
 recipes.removeByRecipeName("betternether:stalagnate_stick");
 recipes.removeByRecipeName("betternether:stalagnate_planks_trapdoor");
 recipes.removeByRecipeName("betternether:stalagnate_planks_chest");
+recipes.removeByRecipeName("betternether:paper");
 
 recipes.remove(<betternether:stalagnate_bowl_mushroom>);
 recipes.addShapeless("betternether_stalagnate_bowl_mushroom", <betternether:stalagnate_bowl_mushroom>, 
