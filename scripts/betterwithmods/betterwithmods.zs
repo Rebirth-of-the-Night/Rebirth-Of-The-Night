@@ -151,11 +151,11 @@ mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*6,<ore:slimeba
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*4,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
 
 //Charbiotite
-mods.betterwithmods.Cauldron.builder()
-.buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])
-.setHeat(2)
-.setPriority(6)
-.build();
+// mods.betterwithmods.Cauldron.builder()
+// .buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])
+// .setHeat(2)
+// .setPriority(6)
+// .build();
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
 mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail

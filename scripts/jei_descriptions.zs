@@ -106,7 +106,7 @@ mods.jei.JEI.addDescription(<dungeontactics:engineer_dungarees>, "Working outfit
 val crudeSteelIngot = <dungeontactics:steel_ingot>;
 val sfsSteelIngot = <betterwithmods:material:14>;
 val charcoal = <minecraft:coal:1>;
-val enderCharbiotite = <undergroundbiomes:lignite_coal>;
+// val enderCharbiotite = <undergroundbiomes:lignite_coal>;
 
 mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
@@ -124,7 +124,7 @@ mods.jei.JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material avai
 mods.jei.JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
 
 mods.jei.JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon.");
-mods.jei.JEI.addDescription(enderCharbiotite,"An almost otherworldly amalgamation of tough organic matter. Just powerful enough to act as a catalyst for steel to contain souls.");
+// mods.jei.JEI.addDescription(enderCharbiotite,"An almost otherworldly amalgamation of tough organic matter. Just powerful enough to act as a catalyst for steel to contain souls.");
 
 /* Manufacturing */
 val hempFiber = <betterwithmods:material:3>;

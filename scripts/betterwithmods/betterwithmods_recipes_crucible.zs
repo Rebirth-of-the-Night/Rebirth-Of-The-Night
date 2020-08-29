@@ -154,18 +154,18 @@ mods.betterwithmods.Crucible.addStoked(
     ]
 );
 //Charbiotite sfs
-mods.betterwithmods.Crucible.addStoked(
-    [
-        <ore:ingotSteel>,
-        <betterwithmods:material:38>,
-        <undergroundbiomes:lignite_coal>,
-        <ore:blockSoulUrn>
-    ],
-    [
-        <betterwithmods:material:14>,
-        <betterwithmods:urn>
-    ]
-);
+// mods.betterwithmods.Crucible.addStoked(
+//     [
+//         <ore:ingotSteel>,
+//         <betterwithmods:material:38>,
+//         <undergroundbiomes:lignite_coal>,
+//         <ore:blockSoulUrn>
+//     ],
+//     [
+//         <betterwithmods:material:14>,
+//         <betterwithmods:urn>
+//     ]
+// );
 
 // Anvil > Steel
 mods.betterwithmods.Crucible.addStoked(

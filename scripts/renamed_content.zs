@@ -443,7 +443,7 @@ for potion in potionMap{
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
 
-<undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
+// <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
 
 <deadmanssatchel:deadmanssatchel>.displayName = "Dust Sorting Satchel";
 <deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));

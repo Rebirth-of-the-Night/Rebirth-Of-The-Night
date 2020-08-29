@@ -17,3 +17,6 @@ recipes.addShapeless("gravel_to_flint",<minecraft:flint>*2,[<ore:gravel>, <ore:g
 
 mods.jei.JEI.removeAndHide(<endreborn:tool_hammer_iron>);
 recipes.addShapeless("popped_chorus_fruit", <minecraft:chorus_fruit_popped>, [<minecraft:purpur_block>, <ore:hammerTool>.transformDamage()]);
+
+// Remove charbiotite
+mods.jei.JEI.removeAndHide(<undergroundbiomes:lignite_coal>);

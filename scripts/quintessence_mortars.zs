@@ -585,8 +585,8 @@ faeQuintessenceC.add(
 val holdingQuintessenceA = <ore:holdingQuintessenceA>;
 holdingQuintessenceA.add(
     <endreborn:catalyst>,
-    <quark:biotite>,
-    <undergroundbiomes:lignite_coal>
+    // <undergroundbiomes:lignite_coal>,
+    <quark:biotite>
 );
 
 // Holding B - Void/infinity/teleport material (eyes, shulker shell, any other item that has 'void' connetations)
