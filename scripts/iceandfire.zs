@@ -10,12 +10,12 @@ var icedragonsteel = <iceandfire:dragonsteel_ice_ingot>;
 var witherbone = <iceandfire:witherbone>;
 
 recipes.addShaped("Fire Dragonsteel Sword", <iceandfire:dragonsteel_fire_sword>,[
-	[null, firedragonsteel, null],
+    [null, firedragonsteel, null],
     [null, firedragonsteel, null],
     [null, witherbonehandle, null]
 ]);
 recipes.addShaped("Ice Dragonsteel Sword", <iceandfire:dragonsteel_ice_sword>,[
-	[null, icedragonsteel, null],
+    [null, icedragonsteel, null],
     [null, icedragonsteel, null],
     [null, witherbonehandle, null]
 ]);
@@ -104,4 +104,18 @@ recipes.remove(<iceandfire:dragon_stick>);
 recipes.addShaped("dragon_command_staff",<iceandfire:dragon_stick>,[
     [<iceandfire:dragon_skull:*>],
     [<spartanweaponry:material:1>]
+]);
+
+recipes.remove(<iceandfire:myrmex_desert_swarm>);
+recipes.addShaped("desert_myrmex_swarm",<iceandfire:myrmex_desert_swarm>,[
+    [<iceandfire:myrmex_desert_resin>,<iceandfire:myrmex_desert_resin>,<iceandfire:myrmex_desert_resin>],
+    [<iceandfire:myrmex_desert_resin>,<ore:desertMyrmexEgg>,<iceandfire:myrmex_desert_resin>],
+    [<iceandfire:myrmex_desert_resin>,<ore:stick>,<iceandfire:myrmex_desert_resin>]
+]);
+
+recipes.remove(<iceandfire:myrmex_jungle_swarm>);
+recipes.addShaped("jungle_myrmex_swarm",<iceandfire:myrmex_jungle_swarm>,[
+    [<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_resin>],
+    [<iceandfire:myrmex_jungle_resin>,<ore:jungleMyrmexEgg>,<iceandfire:myrmex_jungle_resin>],
+    [<iceandfire:myrmex_jungle_resin>,<ore:stick>,<iceandfire:myrmex_jungle_resin>]
 ]);
