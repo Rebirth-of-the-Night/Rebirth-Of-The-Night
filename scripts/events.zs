@@ -134,6 +134,15 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 		}
 		event.drops = drops;
 	}
+
+	// Toroquest bandit accessory_1
+	if (event.entityLivingBase.definition.id == "toroquest:toroquest_sentry") {
+		var drops = event.drops as [IEntityItem];
+		if (Math.random() <= 0.1) {
+			drops += <behgameon:accessory_1>.createEntityItem(event.entityLivingBase.world, event.entityLivingBase.position);
+		}
+		event.drops = drops as IEntityItem[];
+	}
 });
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {

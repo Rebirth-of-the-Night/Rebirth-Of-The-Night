@@ -38,7 +38,6 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_molten");
 mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
 
-<entity:toroquest:toroquest_sentry>.addPlayerOnlyDrop(<behgameon:accessory_1> % 10, 1, 1);
 <entity:iceandfire:if_troll>.addPlayerOnlyDrop(<behgameon:accessory_1> % 35, 1, 1);
 
 //QoL drops
