@@ -13,4 +13,6 @@ RecipeBuilder.get("mage")
     [<ore:durableFiber>, <ore:logWood>, <ore:durableFiber>]])
   .addTool(<contenttweaker:earth_rune>, 1)
   .addOutput(<naturescompass:naturescompass>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();

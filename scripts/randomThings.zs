@@ -205,6 +205,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_sliver>, <endreborn:item_shard_obsidian>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:nether_rune>, 1)
   .addOutput(<randomthings:obsidianskullring>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 //lava charm 
@@ -216,6 +218,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_shard>, <endreborn:block_end_magma>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:nether_rune>, 1)
   .addOutput(<randomthings:lavacharm>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 

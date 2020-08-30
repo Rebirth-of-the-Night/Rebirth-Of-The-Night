@@ -144,6 +144,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_speck>, <minecraft:glowstone_dust>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:knowledge_rune>, 1)
   .addOutput(<twilightforest:magic_map_focus>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
   
 recipes.addShaped(<twilightforest:ore_map_empty>, [

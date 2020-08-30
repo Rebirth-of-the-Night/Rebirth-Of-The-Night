@@ -68,6 +68,8 @@ RecipeBuilder.get("mage")
     [<rustic:chain>, <contenttweaker:vis_speck>, <rustic:chain>],
     [<iceandfire:silver_nugget>, <iceandfire:silver_ingot>, <iceandfire:silver_nugget>]])
   .addOutput(<bountifulbaubles:amuletsinempty>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 RecipeBuilder.get("mage")
@@ -76,6 +78,8 @@ RecipeBuilder.get("mage")
     [<rustic:chain_gold>, <contenttweaker:vis_speck>, <rustic:chain_gold>],
     [<minecraft:gold_nugget>, <ore:gemAny>, <minecraft:gold_nugget>]])
   .addOutput(<qualitytools:emerald_amulet>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 RecipeBuilder.get("mage")
@@ -84,6 +88,8 @@ RecipeBuilder.get("mage")
     [<minecraft:gold_nugget>, <contenttweaker:vis_speck>, <minecraft:gold_nugget>],
     [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]])
   .addOutput(<qualitytools:emerald_ring>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Ender dragon drops cracked scales AND scale fragments. Use fragments to craft into cracked scales. Use cracked scales to craft into the scale bauble.
@@ -104,6 +110,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_speck>, <minecraft:string>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<bountifulbaubles:trinketballoon>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
     
 // Wrath Pendant
@@ -123,6 +131,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_sliver>, <mowziesmobs:barakoa_mask_fury>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addOutput(<bountifulbaubles:amuletsinwrath>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Pride Pendant
@@ -136,6 +146,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_sliver>, <toroquest:royal_helmet>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addOutput(<bountifulbaubles:amuletsinpride>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 // Gluttony Pendant
@@ -149,6 +161,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_sliver>, <minecraft:golden_apple>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:energy_rune>, 1)
   .addOutput(<bountifulbaubles:amuletsingluttony>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Ender Dragon Scale
@@ -161,6 +175,8 @@ RecipeBuilder.get("mage")
   .addTool(<contenttweaker:nether_rune>, 1)
   .addTool(<contenttweaker:death_rune>, 1)
   .addOutput(<bountifulbaubles:trinketblackdragonscale>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Obsidian Skull
@@ -175,6 +191,8 @@ RecipeBuilder.get("mage")
   .addTool(<contenttweaker:nether_rune>, 1)
   .addTool(<contenttweaker:draconic_rune>, 1)
   .addOutput(<bountifulbaubles:trinketobsidianskull>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Magic Mirror
@@ -188,6 +206,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_shard>, <contenttweaker:voidseen_amethyst>, <contenttweaker:vis_shard>]])
   .addTool(<endreborn:item_end_rune>, 1)
   .addOutput(<bountifulbaubles:magicmirror>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Cobalt Shield
@@ -201,6 +221,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_sliver>, <betterwithmods:material:20>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addOutput(<bountifulbaubles:shieldcobalt>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 //Wormhole Mirror
@@ -215,6 +237,8 @@ RecipeBuilder.get("mage")
   .addTool(<endreborn:item_end_rune>, 1)
   .addTool(<contenttweaker:soul_rune>, 1)
   .addOutput(<bountifulbaubles:wormholemirror>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 //Ankh Charm
@@ -274,6 +298,8 @@ RecipeBuilder.get("mage")
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:soul_rune>, 1)
   .addOutput(<bountifulbaubles:trinketbrokenheart>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 // Bezoar
@@ -288,6 +314,8 @@ RecipeBuilder.get("mage")
   .addTool(<contenttweaker:poison_rune>, 1)
   .addTool(<contenttweaker:water_rune>, 1)
   .addOutput(<bountifulbaubles:trinketbezoar>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 // Shulker Heart
@@ -302,6 +330,8 @@ RecipeBuilder.get("mage")
   .addTool(<endreborn:item_end_rune>, 1)
   .addTool(<contenttweaker:earth_rune>, 1)
   .addOutput(<bountifulbaubles:trinketshulkerheart>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 // Ring of Overclocking
@@ -315,6 +345,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_shard>, <iceandfire:hippocampus_fin>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:energy_rune>, 1)
   .addOutput(<bountifulbaubles:ringoverclocking>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 
@@ -330,6 +362,8 @@ RecipeBuilder.get("mage")
   .addTool(<contenttweaker:luna_rune>, 1)
   .addTool(<contenttweaker:sol_rune>, 1)
   .addOutput(<bountifulbaubles:trinketmagiclenses>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
    
 // Cross Necklace
@@ -343,6 +377,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_speck>, <minecraft:gold_nugget>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<bountifulbaubles:amuletcross>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Lucky Horseshoe
@@ -357,6 +393,8 @@ RecipeBuilder.get("mage")
   .addTool(<contenttweaker:aether_rune>, 1)
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<bountifulbaubles:trinketluckyhorseshoe>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 //remove and hide original BB disint tablet

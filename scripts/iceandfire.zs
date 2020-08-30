@@ -74,6 +74,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:fae_rune>, 1)
   .addOutput(<iceandfire:pixie_wand>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // Siren Flute
@@ -85,7 +87,10 @@ RecipeBuilder.get("mage")
     [<iceandfire:shiny_scales>, <iceandfire:dragon_flute>, <iceandfire:shiny_scales>],
     [<contenttweaker:vis_shard>, <iceandfire:shiny_scales>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:fae_rune>, 1)
+  .addTool(<contenttweaker:water_rune>, 1)
   .addOutput(<iceandfire:siren_flute>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 recipes.remove(<iceandfire:dread_stone>);

@@ -176,6 +176,8 @@ RecipeBuilder.get("mage")
     [<mod_lavacow:mossy_stick>, <ore:vine>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:nature_rune>, 1)
   .addOutput(<mod_lavacow:sludge_wand>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 // dreamcatcher
@@ -184,7 +186,7 @@ bFeatherOre.add([<animania:charcoal_peacock_feather>, <twilightforest:raven_feat
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<mod_lavacow:mossy_stick>, <mod_lavacow:mossy_stick>, <mod_lavacow:mossy_stick>],
+    [<contenttweaker:vis_sliver>, <mod_lavacow:mossy_stick>, <contenttweaker:vis_sliver>],
     [<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>],
     [<ore:blackFeather>, <ore:blackFeather>, <ore:blackFeather>]])
   .addTool(<contenttweaker:mind_rune>, 1)
@@ -200,6 +202,8 @@ RecipeBuilder.get("mage")
     [<mod_lavacow:scythe_claw>, <contenttweaker:fortified_ruby>, <mod_lavacow:scythe_claw>]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addOutput(<mod_lavacow:halo_necklace>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 
