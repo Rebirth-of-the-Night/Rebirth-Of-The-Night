@@ -107,15 +107,15 @@ recipes.addShaped("dragon_command_staff",<iceandfire:dragon_stick>,[
 ]);
 
 recipes.remove(<iceandfire:myrmex_desert_swarm>);
-recipes.addShaped("desert_myrmex_swarm",<iceandfire:myrmex_desert_swarm>,[
+recipes.addShaped("desert_myrmex_swarm",<iceandfire:myrmex_desert_swarm>*6,[
     [<iceandfire:myrmex_desert_resin>,<iceandfire:myrmex_desert_resin>,<iceandfire:myrmex_desert_resin>],
-    [<iceandfire:myrmex_desert_resin>,<ore:desertMyrmexEgg>,<iceandfire:myrmex_desert_resin>],
+    [<iceandfire:myrmex_desert_resin>,<iceandfire:myrmex_desert_egg:4>,<iceandfire:myrmex_desert_resin>],
     [<iceandfire:myrmex_desert_resin>,<ore:stick>,<iceandfire:myrmex_desert_resin>]
 ]);
 
 recipes.remove(<iceandfire:myrmex_jungle_swarm>);
-recipes.addShaped("jungle_myrmex_swarm",<iceandfire:myrmex_jungle_swarm>,[
+recipes.addShaped("jungle_myrmex_swarm",<iceandfire:myrmex_jungle_swarm>*6,[
     [<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_resin>],
-    [<iceandfire:myrmex_jungle_resin>,<ore:jungleMyrmexEgg>,<iceandfire:myrmex_jungle_resin>],
+    [<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_egg:4>,<iceandfire:myrmex_jungle_resin>],
     [<iceandfire:myrmex_jungle_resin>,<ore:stick>,<iceandfire:myrmex_jungle_resin>]
 ]);
