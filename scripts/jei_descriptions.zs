@@ -388,7 +388,6 @@ val steelPlate = <betterwithmods:material:51>;
 
 mods.jei.JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 2x2 pool of water surrounded by flowers on top of grass to open the portal. DEV NOTE: Ghast Queen is currently disabled, so we provided a temporary recipe so you may still enter the Twilight Forest.");
 mods.jei.JEI.addDescription(<netherex:rime_crystal>,"It's cold to the touch, yet seems to hold blazing flames within. It was once used to make igniters, but they were unpredictable and too unstable.");
-mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"Rarely seen in the Overworld, these crystals seem to hold significant value with the still-living natives of the Nether.");
 mods.jei.JEI.addDescription(steelPlate,"Are they still there? Is there any trace of what remains? Wide dead eyes like amethyst, behold.");
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"Also known as RotN Flesh.");

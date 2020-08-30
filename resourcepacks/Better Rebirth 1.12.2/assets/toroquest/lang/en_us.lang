@@ -12,10 +12,6 @@ entity.toroquest.toro.name=Astado
 entity.toro.name=Astado
 entity.toroquest_toro.name=Astado
 
-entity.toroquest.sentry.name=Grunt
-entity.sentry.name=Grunt
-entity.toroquest_sentry.name=Grunt
-
 entity.toroquest.mage.name=Voidwracked Ascendant
 entity.mage.name=Voidwracked Ascendant
 entity.toroquest_mage.name=Voidwracked Ascendant

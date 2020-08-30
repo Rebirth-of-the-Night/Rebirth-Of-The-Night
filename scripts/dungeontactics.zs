@@ -68,7 +68,8 @@ mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 //mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
 // using the silver sword as the true darks edge
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_pickaxe>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_axe>);
+//mods.jei.JEI.removeAndHide(<dungeontactics:silver_axe>);
+// using silver axe for Ogre Axe
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_shovel>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_hoe>);
 
@@ -283,7 +284,8 @@ mods.jei.JEI.removeAndHide(<dungeontactics:mithril_shield>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cestus>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_knife>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cutlass>);
-mods.jei.JEI.removeAndHide(<dungeontactics:mithril_sword>);
+//mods.jei.JEI.removeAndHide(<dungeontactics:mithril_sword>);
+// used for sange
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_hammer>);
