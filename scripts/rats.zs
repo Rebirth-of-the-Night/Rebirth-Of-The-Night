@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityDefinition;
+import mods.betterwithmods.MiniBlocks;
 
 recipes.remove(<rats:marbled_cheese_dirt>);
 recipes.addShapeless("marbled_cheese_dirt",<rats:marbled_cheese_dirt>,[<rats:marbled_cheese>,<ore:dirt>]);
@@ -217,6 +218,16 @@ recipes.addShapeless("blocktocheeseChunks", <rats:cheese>*16, [<rats:block_of_ch
 
 // remove archeologist rat recipes
 mods.jei.JEI.hideCategory("rats.archeologist_rat");
+
+// rat hole recipe
+val woodSiding = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
+val woodMoulding = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+val woodCorner = MiniBlocks.getMiniBlock("corner", <ore:plankWood>);
+
+recipes.addShaped("rat_hole", <rats:rat_hole>, [
+    [woodCorner, woodSiding, woodCorner],
+    [woodMoulding, <rats:cheese>, woodMoulding]
+]);
 
 // new pam's recipes
 
