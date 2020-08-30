@@ -186,6 +186,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
 <dungeontactics:steel_nugget>.displayName = "Crucible Steel Nugget";
 <dungeontactics:steel_block>.displayName = "Block of Crucible Steel";
+<dungeontactics:obsidianbrick>.displayName = "Decorative Obsidian";
 
 // Rustic
 <rustic:iron_lantern>.displayName = "Tin Lantern";
