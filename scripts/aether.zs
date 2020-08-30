@@ -165,3 +165,5 @@ recipes.addShaped("gravitite_shovel", <atop:amethyst_shovel>,[
     [stick],
     [stick]
 ]);
+
+<aether_legacy:blue_berry>.maxStackSize = 16;
