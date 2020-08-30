@@ -503,10 +503,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_white>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:deathworm_gauntlet_red>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:cockatrice_scepter>, 32200);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:stymphalian_feather_bundle>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:stymphalian_bird_dagger>, 32200);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_desert_swarm>, 32200);
-mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_swarm>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:amphithere_macuahuitl>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:tide_trident>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.axe>, 32200);
