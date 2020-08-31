@@ -19,13 +19,7 @@ mods.jei.JEI.removeAndHide(<rustic:tomato>);
 
 mods.jei.JEI.removeAndHide(<dynamictreesphc:grapefruitseed>);
 
-mods.jei.JEI.removeAndHide(<rustic:honey>);
-mods.jei.JEI.removeAndHide(<rustic:beeswax>);
-mods.jei.JEI.removeAndHide(<rustic:honeycomb>);
-mods.jei.JEI.removeAndHide(<rustic:beehive>);
-mods.jei.JEI.removeAndHide(<rustic:bee>);
-mods.jei.JEI.removeAndHide(<rustic:apiary>);
-mods.jei.JEI.removeAndHide(<rustic:tallow>);
+mods.jei.JEI.removeAndHide(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
 
 # Iron and Gold Lanterns
 
