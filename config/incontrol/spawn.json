@@ -550,21 +550,6 @@
 
 
  // Pigmen
- {
-    "dimension": -1,
-    "mob": "specialmobs:brutepigzombie",
-    "gamestage": "killedWither",
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    },
-    "result": "default"
- },
- {
-    "dimension": -1,
-    "mob": "specialmobs:brutepigzombie",
-    "result": "deny"
- },
   {
     "dimension": -1,
     "mob": "specialmobs:hungrypigzombie",
@@ -601,22 +586,6 @@
  },
 
  // Wither Skeleton
- {
-    "dimension": -1,
-    "mob": "specialmobs:brutewitherskeleton",
-    "structure": "Fortress",
-    "gamestage": "killedWither",
-    "maxcount": {
-        "amount": 3,
-        "perplayer": true
-    },
-    "result": "allow"
- },
- {
-    "dimension": -1,
-    "mob": "specialmobs:brutewitherskeleton",
-    "result": "deny"
- },
   {
     "dimension": -1,
     "mob": "specialmobs:giantwitherskeleton",
@@ -1627,24 +1596,6 @@
 },
 
 
-
-
-{
-    "dimension": [0,10],
-    "mob": "specialmobs:brutezombie",
-    "gamestage": "fullMidArmor",
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    },
-    "result": "default"
- },
- {
-    "dimension": [0,10],
-    "mob": "specialmobs:brutezombie",
-    "result": "deny"
- },
-
  {
     "dimension": [0,10],
     "mob": "specialmobs:plaguezombie",
@@ -1725,21 +1676,6 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:sniperskeleton",
-    "result": "deny"
- },
-{
-    "dimension": [0,10],
-    "mob": "specialmobs:bruteskeleton",
-    "gamestage": "fullMidArmor",
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    },
-    "result": "default"
- },
- {
-    "dimension": [0,10],
-    "mob": "specialmobs:bruteskeleton",
     "result": "deny"
  },
 
