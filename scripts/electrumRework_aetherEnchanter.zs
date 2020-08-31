@@ -535,4 +535,3 @@ mods.aether_legacy.Enchanter.registerEnchantment(<bountifulbaubles:shieldankh>, 
 //Special
 mods.aether_legacy.Enchanter.registerEnchantment(<quark:pickarang>, 7700);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanshields:shield_basic_diamond>, 7700);
-mods.aether_legacy.Enchanter.registerEnchantment(<grapplemod:grapplinghook>, 9600);

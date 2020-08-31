@@ -421,7 +421,7 @@ for potion in potionMap{
 <bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
 <bountifulbaubles:crowngold>.addTooltip(format.gray("Inert"));
 
-<bountifulbaubles:trinketballoon>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:shiny_red_balloon>.addTooltip(format.darkGreen("Mundane"));
 
 <contenttweaker:disint_rune>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:trinketobsidianskull>.addTooltip(format.aqua("Arcane"));
@@ -430,13 +430,13 @@ for potion in potionMap{
 <bountifulbaubles:amuletsinwrath>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletcross>.addTooltip(format.aqua("Arcane"));
 
-<bountifulbaubles:shieldcobalt>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:cobalt_shield>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketmagiclenses>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:ringoverclocking>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketshulkerheart>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbezoar>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketblackdragonscale>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketluckyhorseshoe>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:lucky_horseshoe>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbrokenheart>.addTooltip(format.darkPurple("Mystical"));
 
 <bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));

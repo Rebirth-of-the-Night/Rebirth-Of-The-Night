@@ -42,7 +42,7 @@ RecipeBuilder.get("mage")
 // Mundane
 
 RecipeBuilder.get("mage")
-  .setShapeless([<bountifulbaubles:trinketballoon>])
+  .setShapeless([<artifacts:shiny_red_balloon>])
   .addOutput(<contenttweaker:vis_speck>)
   .addTool(<contenttweaker:disint_rune>, 1)
   .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
@@ -94,7 +94,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
-  .setShapeless([<bountifulbaubles:shieldcobalt>])
+  .setShapeless([<artifacts:cobalt_shield>])
   .addOutput(<contenttweaker:vis_sliver>)
   .addTool(<contenttweaker:disint_rune>, 1)
   .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
@@ -223,7 +223,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
-  .setShapeless([<bountifulbaubles:trinketluckyhorseshoe>])
+  .setShapeless([<artifacts:lucky_horseshoe>])
   .addOutput(<contenttweaker:vis_shard>)
   .addTool(<contenttweaker:disint_rune>, 1)
   .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)

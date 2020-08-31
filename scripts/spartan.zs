@@ -120,7 +120,7 @@ recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
 mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qualityGem);
 
 //Obsidian Shield Bauble
-recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[<ore:gemOnyx>, <bountifulbaubles:trinketobsidianskull>, <ore:gemOnyx>],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [<ore:gemOnyx>, <spartanshields:shield_basic_obsidian>, <ore:gemOnyx>]]);
+recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[<ore:gemOnyx>, <bountifulbaubles:trinketobsidianskull>, <ore:gemOnyx>],[<endreborn:item_shard_obsidian>, <artifacts:cobalt_shield>, <endreborn:item_shard_obsidian>], [<ore:gemOnyx>, <spartanshields:shield_basic_obsidian>, <ore:gemOnyx>]]);
 //Ankh Shield Bauble
 recipes.addShaped(<bountifulbaubles:shieldankh>, [[<spartanshields:shield_basic_diamond>, <bountifulbaubles:shieldobsidian>, <spartanshields:shield_basic_diamond>],[<endreborn:item_end_essence>, <bountifulbaubles:trinketankhcharm>, <endreborn:item_end_essence>], [<spartanshields:shield_basic_diamond>, <spartanshields:shield_basic_lead>, <spartanshields:shield_basic_diamond>]]);
 

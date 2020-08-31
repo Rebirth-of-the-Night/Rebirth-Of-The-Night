@@ -405,8 +405,6 @@ val arcanePortal = <dimstack:portal>;
 mods.jei.JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 mods.jei.JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
 
-mods.jei.JEI.addDescription(<grapplemod:longfallboots>,"Cancels all fall damage when worn. Crafted by right clicking a Grappling Hook Modifier block with a pair of Feather Falling IV Diamond Boots.");
-
 
 /* Runes and Magic */
 mods.jei.JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item to change the item's glow color.");

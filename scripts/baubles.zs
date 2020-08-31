@@ -1,5 +1,60 @@
+// This script encompasses all baubles mods, including Baubles, Bountiful Baubles, Behagamon, and Artifacts
+
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+
+
+// Remove everlasting food
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_porkchop");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_beef");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_beef");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_chicken");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_chicken");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_rotten_flesh");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_spider_eye");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_rabbit");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_rabbit");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_mutton");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_mutton");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_rabbit_stew");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cod");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_cod");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_salmon");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_salmon");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_clownfish");
+mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_porkchop>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_porkchop>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_beef>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_beef>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_chicken>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_chicken>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_rotten_flesh>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_spider_eye>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_rabbit>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_rabbit>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_mutton>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_mutton>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_rabbit_stew>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cod>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_cod>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_salmon>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
+mods.jei.JEI.removeAndHide(<artifacts:everlasting_clownfish>);
+
+// Remove useless bauble
+mods.ltt.LootTable.removeGlobalItem("artifacts:tiny_shirt");
+mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
+
+
+
+
+<bountifulbaubles:trinketobsidianskull>.removeTooltip("Holding this makes you feel vaguely nervous.");
+<bountifulbaubles:trinketmagiclenses>.removeTooltip("Cool guys don't look at explosions.");
+
+
 
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketluckyhorseshoe");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:magicmirror");
@@ -101,7 +156,7 @@ recipes.addShapeless("Cracked Scale", <bountifulbaubles:brokenblackdragonscale>,
 
 // Balloon
 
-recipes.remove(<bountifulbaubles:trinketballoon>);
+recipes.remove(<artifacts:shiny_red_balloon>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -109,7 +164,7 @@ RecipeBuilder.get("mage")
     [<ore:cloudAny>, <minecraft:wool:14>, <ore:cloudAny>],
     [<contenttweaker:vis_speck>, <minecraft:string>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
-  .addOutput(<bountifulbaubles:trinketballoon>)
+  .addOutput(<artifacts:shiny_red_balloon>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -212,7 +267,7 @@ RecipeBuilder.get("mage")
 
 // Cobalt Shield
 
-recipes.remove(<bountifulbaubles:shieldcobalt>);
+recipes.remove(<artifacts:cobalt_shield>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -220,7 +275,7 @@ RecipeBuilder.get("mage")
     [<betterwithmods:material:20>, <spartanshields:shield_basic_iron>, <betterwithmods:material:20>],
     [<contenttweaker:vis_sliver>, <betterwithmods:material:20>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:strength_rune>, 1)
-  .addOutput(<bountifulbaubles:shieldcobalt>)
+  .addOutput(<artifacts:cobalt_shield>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
@@ -383,7 +438,7 @@ RecipeBuilder.get("mage")
 
 // Lucky Horseshoe
 
-recipes.remove(<bountifulbaubles:trinketluckyhorseshoe>);
+recipes.remove(<artifacts:lucky_horseshoe>);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -392,7 +447,7 @@ RecipeBuilder.get("mage")
     [<contenttweaker:material_part:12>, <aether_legacy:enchanted_gravitite>, <contenttweaker:material_part:12>]])
   .addTool(<contenttweaker:aether_rune>, 1)
   .addTool(<contenttweaker:air_rune>, 1)
-  .addOutput(<bountifulbaubles:trinketluckyhorseshoe>)
+  .addOutput(<artifacts:lucky_horseshoe>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
