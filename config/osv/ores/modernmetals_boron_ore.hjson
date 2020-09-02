@@ -1,0 +1,31 @@
+name: modernmetals_boron_ore
+mod: modernmetals
+block: {
+  location: modernmetals:boron_ore
+  hardness: 8
+  level: 2
+}
+loot: [
+  {
+    item: modernmetals:boron_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/boron_ore
+}
+recipe: {
+  result: modernmetals:boron_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 8
+    count: 8
+  }
+]

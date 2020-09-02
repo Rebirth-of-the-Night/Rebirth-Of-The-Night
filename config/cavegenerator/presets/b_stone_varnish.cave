@@ -1,0 +1,14 @@
+{
+  blankSlate: false
+  wallDecorators: [
+     # Spawns desert varnish on sandstone surfaces.
+    {
+      states: pyrotech:limestone
+      chance: 0.99
+      minHeight: 0
+      maxHeight: 124
+      matchers: "sandstone"
+      directions: all
+    }
+  ]
+}

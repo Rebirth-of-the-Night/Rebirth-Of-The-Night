@@ -22,33 +22,21 @@ mods.jei.JEI.removeAndHide(<biomesoplenty:gem:7>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:7>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_tile.gem_ore.amber_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.amber_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.amber_ore:*>);
 
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem:3>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:3>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_tile.gem_ore.topaz_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.topaz_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.topaz_ore:*>);
 
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem:4>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:4>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_tile.gem_ore.tanzanite_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.tanzanite_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.tanzanite_ore:*>);
 
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem:5>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:5>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_tile.gem_ore.malachite_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_tile.gem_ore.malachite_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_tile.gem_ore.malachite_ore:*>);
 
 recipes.removeByRecipeName("biomesoplenty:biome_finder");
 

@@ -1,0 +1,31 @@
+name: modernmetals_cadmium_ore
+mod: modernmetals
+block: {
+  location: modernmetals:cadmium_ore
+  hardness: 1
+  level: 0
+}
+loot: [
+  {
+    item: modernmetals:cadmium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/cadmium_ore
+}
+recipe: {
+  result: modernmetals:cadmium_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 96 ]
+    size: 4
+    count: 8
+  }
+]

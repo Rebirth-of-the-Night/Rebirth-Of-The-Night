@@ -671,7 +671,7 @@ val heartCrystalOre = <ore:oreHeartCrystal>;
 heartCrystalOre.add(<scalinghealth:crystalore>);
 
 val viridiumOre = <ore:oreViridium>;
-viridiumOre.addItems([<simpleores:adamantium_ore>,<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>,<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore>,<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>]);
+viridiumOre.add(<simpleores:adamantium_ore>);
 viridiumOre.addAll(<ore:oreAdamantium>);
 
 val viridiumIngot = <ore:ingotViridium>;

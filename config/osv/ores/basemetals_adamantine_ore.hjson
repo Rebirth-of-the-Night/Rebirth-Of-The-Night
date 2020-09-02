@@ -1,0 +1,32 @@
+name: basemetals_adamantine_ore
+mod: basemetals
+block: {
+  location: basemetals:adamantine_ore
+  hardness: 12
+  level: 4
+}
+loot: [
+  {
+    item: basemetals:adamantine_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/adamantine_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: basemetals:adamantine_ingot
+  xp: 0
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 2
+  }
+]

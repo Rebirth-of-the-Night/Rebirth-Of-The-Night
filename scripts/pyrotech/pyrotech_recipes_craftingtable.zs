@@ -4,10 +4,6 @@ import mods.jei.JEI;
 import crafttweaker.item.IItemTransformer;
 import crafttweaker.oredict.IOreDictEntry;
 
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_pyrotech_dense_coal_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_pyrotech_dense_coal_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_pyrotech_dense_coal_ore:*>);
-
 recipes.removeByMod("pyrotech");
 recipes.remove(<pyrotech:stone_hammer>);
 recipes.remove(<pyrotech:crude_hammer>);

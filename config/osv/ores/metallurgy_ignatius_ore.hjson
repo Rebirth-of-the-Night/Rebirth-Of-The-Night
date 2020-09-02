@@ -1,0 +1,30 @@
+name: metallurgy_ignatius_ore
+mod: metallurgy
+block: {
+  location: metallurgy:ignatius_ore
+  resistance: 18
+}
+texture: {
+  original: metallurgy:blocks/ignatius_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:ignatius_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:ignatius_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 255 ]
+    size: 10
+    count: 10
+  }
+]

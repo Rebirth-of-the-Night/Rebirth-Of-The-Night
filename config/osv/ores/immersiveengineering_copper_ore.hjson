@@ -1,0 +1,30 @@
+name: immersiveengineering_copper_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: immersiveengineering:ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_copper
+}
+recipe: {
+  result: immersiveengineering:metal
+  xp: 0.30000001192092896
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 40, 72 ]
+    size: 8
+    count: 8
+  }
+]

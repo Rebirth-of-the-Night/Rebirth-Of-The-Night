@@ -112,10 +112,6 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:mortar&pestle");
 
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
-
 // this removes the regular magic scroll recipe, and hides it from JEI. Added back as wands further down
 recipes.remove(<dungeontactics:magic_scroll>);
 #mods.jei.JEI.removeAndHide(<dungeontactics:magic_scroll>);

@@ -1,0 +1,30 @@
+name: thaumcraft_amber_ore
+mod: thaumcraft
+block: {
+  location: thaumcraft:ore_amber
+  hardness: 2
+  level: 1
+}
+loot: [
+  {
+    item: thaumcraft:amber
+    count: [ 1, 1 ]
+    xp: [ 1, 1 ]
+    chance: 1
+  }
+]
+texture: {
+  builtIn: true
+}
+recipe: {
+  result: thaumcraft:amber
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 3
+    count: 18
+  }
+]

@@ -317,3 +317,16 @@ Dropt.list("slacked_lime")
           .items([<rats:ancient_sawblade>])
 	  )	 	
   );
+Dropt.list("desert_varnish")
+
+  .add(Dropt.rule()
+      .matchBlocks(["pyrotech:limestone"])
+	  .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(3))
+		  .items("ALL", [<minecraft:sandstone>,<minecraft:clay_ball>])
+      )
+	  .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(1))
+		  .items("ALL", [<minecraft:sandstone>,<minecraft:clay_ball>*2])
+      )	
+  );

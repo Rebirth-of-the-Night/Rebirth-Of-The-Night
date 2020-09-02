@@ -1,0 +1,31 @@
+name: embers_silver_ore
+mod: embers
+block: {
+  location: embers:ore_silver
+  hardness: 2.5
+  level: 2
+}
+loot: [
+  {
+    item: embers:ore_silver
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: embers:blocks/ore_silver_vanilla
+}
+recipe: {
+  result: embers:ingot_silver
+  xp: 0.3499999940395355
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 28 ]
+    size: 6
+    count: 4
+  }
+]

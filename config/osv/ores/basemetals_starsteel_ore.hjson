@@ -1,0 +1,27 @@
+name: basemetals_starsteel_ore
+mod: basemetals
+block: {
+  location: basemetals:starsteel_ore
+  hardness: 10
+  level: 3
+}
+loot: [
+  {
+    item: basemetals:starsteel_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/starsteel_ore
+  background: blocks/end_stone
+}
+gen: [
+  {
+    height: [ 0, 255 ]
+    size: 8
+    count: 5
+  }
+]

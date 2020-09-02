@@ -1,0 +1,31 @@
+name: metallurgy_adamantine_ore
+mod: metallurgy
+block: {
+  location: metallurgy:adamantine_ore
+  level: 6
+  lightLevel: 5
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/adamantine_ore
+}
+recipe: {
+  result: metallurgy:adamantine_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:adamantine_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 30 ]
+    size: 3
+    count: 3
+  }
+]

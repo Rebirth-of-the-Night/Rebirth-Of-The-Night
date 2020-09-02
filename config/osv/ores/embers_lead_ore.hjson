@@ -1,0 +1,31 @@
+name: embers_lead_ore
+mod: embers
+block: {
+  location: embers:ore_lead
+  hardness: 2.5
+  level: 2
+}
+loot: [
+  {
+    item: embers:ore_lead
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: embers:blocks/ore_lead_vanilla
+}
+recipe: {
+  result: embers:ingot_lead
+  xp: 0.3499999940395355
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 8
+    count: 4
+  }
+]

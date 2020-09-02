@@ -1,0 +1,32 @@
+name: basemetals_pewter_ore
+mod: basemetals
+block: {
+  # Block doesn't exist?
+  location: "stone" # basemetals:pewter_ore
+  hardness: 1
+  level: 0
+}
+loot: [
+  {
+    item: basemetals:pewter_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/pewter_ore
+}
+recipe: {
+  result: basemetals:pewter_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 0 ]
+    size: 0
+    count: 0
+  }
+]

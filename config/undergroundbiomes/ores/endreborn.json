@@ -2,7 +2,7 @@
   {
     "internalOreName": "endreborn:block_wolframium_ore",
     "meta": -1,
-    "overlay": "rotn:overlays/endreborn/wolframium",
+    "overlay": "contenttweaker:textures/items/sfs_artifact8",
     "lightValue": -1,
     "alphaOverlay": false,
     "oreDirectories": []

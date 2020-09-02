@@ -1,0 +1,19 @@
+name: modernmetals_nichrome_ore
+mod: modernmetals
+block: {
+  location: modernmetals:nichrome_ore
+  hardness: 15.5
+  level: 5
+}
+loot: [
+  {
+    item: modernmetals:nichrome_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/nichrome_ore
+}

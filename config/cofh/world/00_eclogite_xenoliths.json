@@ -1,0 +1,30 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+		"eclogite_inside_metamorphic": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "eclogite"
+						}
+				},
+				"material": "undergroundbiomes:metamorphic_stone",
+				"cluster-size": 900
+			},
+			"chunk-chance": 7,
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 75,
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

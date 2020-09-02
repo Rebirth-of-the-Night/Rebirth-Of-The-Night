@@ -1,0 +1,32 @@
+name: basemetals_cupronickel_ore
+mod: basemetals
+block: {
+  # Block doesn't exist?
+  location: "stone" # basemetals:cupronickel_ore
+  hardness: 6
+  level: 2
+}
+loot: [
+  {
+    item: basemetals:cupronickel_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/cupronickel_ore
+}
+recipe: {
+  result: basemetals:cupronickel_ingot
+  xp: 0.6000000238418579
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 0 ]
+    size: 0
+    count: 0
+  }
+]
