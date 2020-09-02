@@ -15,8 +15,8 @@ mods.ltt.LootTable.removeGlobalItem("mod_lavacow:shattered_ice");
 <quark:glowshroom>.displayName = "Blue Glowshroom";
 <biomesoplenty:mushroom:3>.displayName = "Green Glowshroom";
 
-<mod_lavacow:dreamcatcher>.displayName = "§2Dreamcatcher";
-<mod_lavacow:halo_necklace>.displayName = "§5Radiant Necklace";
+<mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";
+<mod_lavacow:halo_necklace>.displayName = "§bRadiant Necklace";
 
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);

@@ -50,9 +50,57 @@ mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
 
 
 
-
+// Remove tooltips
 <bountifulbaubles:trinketobsidianskull>.removeTooltip("Holding this makes you feel vaguely nervous.");
 <bountifulbaubles:trinketmagiclenses>.removeTooltip("Cool guys don't look at explosions.");
+<bountifulbaubles:ringoverclocking>.removeTooltip("Everyone knows that blue LEDs make your PC run faster.");
+<bountifulbaubles:trinketshulkerheart>.removeTooltip("It's squishy...");
+<bountifulbaubles:trinketmixeddragonscale>.removeTooltip("Interesting, the bezoar has fused with the scale and made it appear to be two different colors.");
+<bountifulbaubles:trinketluckyhorseshoe>.removeTooltip("Why did the horse need this?");
+<bountifulbaubles:trinketbrokenheart>.removeTooltip("How did this happen?");
+<bountifulbaubles:amuletsingluttony>.removeTooltip("Eat faster.");
+<bountifulbaubles:amuletsinwrath>.removeTooltip("Gives +2 damage.");
+<bountifulbaubles:trinketbrokenheart>.removeTooltip("Sleep to regenerate heart containers.");
+
+
+
+// Unify name colors of all baubles
+<minecraft:totem_of_undying>.displayName = "§bTotem of Undying";
+<bountifulbaubles:trinketobsidianskull>.displayName = "§bObsidian Skull";
+<bountifulbaubles:trinketmagiclenses>.displayName = "§bSunglasses";
+<bountifulbaubles:trinketapple>.displayName = "§bForbidden Fruit";
+<bountifulbaubles:trinketvitamins>.displayName = "§bVitamins";
+<bountifulbaubles:ringoverclocking>.displayName = "§bRing of Overclocking";
+<bountifulbaubles:trinketshulkerheart>.displayName = "§bShulker Heart";
+<bountifulbaubles:ringfreeaction>.displayName = "§bRing of Free Action";
+<bountifulbaubles:trinketbezoar>.displayName = "§bBezoar";
+<bountifulbaubles:trinketblackdragonscale>.displayName = "§bBlack Dragon Scale";
+<bountifulbaubles:trinketmixeddragonscale>.displayName = "§bMixed Color Dragon Scale";
+<bountifulbaubles:trinketankhcharm>.displayName = "§bAnkh Charm";
+<bountifulbaubles:amuletsinempty>.displayName = "§bSin Amulet (Empty)";
+<bountifulbaubles:amuletsingluttony>.displayName = "§bGluttony Amulet";
+<bountifulbaubles:amuletsinpride>.displayName = "§bPride Amulet";
+<bountifulbaubles:amuletsinwrath>.displayName = "§bWrath Amulet";
+<bountifulbaubles:trinketbrokenheart>.displayName = "§bBroken Heart";
+<bountifulbaubles:amuletcross>.displayName = "§bCross Amulet";
+<cyclicmagic:glove_climb>.displayName = "§bClimbing Gloves";
+<mod_lavacow:halo_necklace>.displayName = "§bRadiant Amulet";
+<mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";
+<spartanweaponry:quiver_arrow>.displayName = "§bLight Arrrow Quiver";
+<spartanweaponry:quiver_arrow_moderate>.displayName = "§bModerate Arrrow Quiver";
+<spartanweaponry:quiver_arrow_heavy>.displayName = "§bHeavy Arrrow Quiver";
+<spartanweaponry:quiver_bolt>.displayName = "§bLight Bolt Quiver";
+<spartanweaponry:quiver_bolt_moderate>.displayName = "§bModerate Bolt Quiver";
+<spartanweaponry:quiver_bolt_heavy>.displayName = "§bHeavy Bolt Quiver";
+<toolbelt:belt>.displayName = "§bTool Belt";
+<totemexpansion:totem_falling>.displayName = "§bTotem of Ascending";
+<totemexpansion:totem_lava>.displayName = "§bTotem of Smouldering";
+<totemexpansion:totem_breathing>.displayName = "§bTotem of Breathing";
+<totemexpansion:totem_explode>.displayName = "§bTotem of Defusing";
+<totemexpansion:totem_repair>.displayName = "§bTotem of Repairing";
+<totemexpansion:totem_spelunking>.displayName = "§bTotem of Spelunking";
+<totemexpansion:totem_recalling>.displayName = "§bTotem of Recalling";
+
 
 
 
@@ -83,6 +131,10 @@ mods.jei.JEI.removeAndHide(<bountifulbaubles:flaregun>);
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");
 mods.jei.JEI.removeAndHide(<bountifulbaubles:flare_red>);
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
+
+mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
+mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
+
 
 // Oredicts
 

@@ -15,7 +15,7 @@ import crafttweaker.entity.IEntityDefinition;
 
 
 // Belt of Strength
-<behgameon:accessory_1>.displayName = "§2Belt of Strength";
+<behgameon:accessory_1>.displayName = "§bBelt of Strength";
 <behgameon:accessory_1>.addTooltip(format.darkGreen("Mundane"));
 
 mods.ltt.LootTable.removeGlobalItem("behgameon:accessory_1");

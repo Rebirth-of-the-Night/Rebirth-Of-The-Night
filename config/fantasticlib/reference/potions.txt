@@ -141,7 +141,6 @@ potioncore:archery
 rats:synesthesia
 rats:plague
 scalinghealth:bandaged
-toroquest:royalty
 totemexpansion:spelunking
 bountifulbaubles:sinful
 cyclicmagic:potion.magnet

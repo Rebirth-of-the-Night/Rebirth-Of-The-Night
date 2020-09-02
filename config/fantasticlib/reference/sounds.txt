@@ -784,6 +784,11 @@ betterwithmods:ambient.spook
 arcanearchives:resonator.complete
 arcanearchives:resonator.loop
 arcanearchives:brazier.absorb
+artifacts:fart
+artifacts:mimic.close
+artifacts:mimic.open
+artifacts:mimic.hurt
+artifacts:mimic.death
 quark:item.soul_powder.spawn
 quark:block.pipe.shoot
 quark:block.pipe.pickup
@@ -1143,6 +1148,10 @@ mowziesmobs:wroughtnaut.grunt1
 mowziesmobs:wroughtnaut.grunt2
 mowziesmobs:wroughtnaut.grunt3
 mowziesmobs:wroughtnaut.ambient
+mowziesmobs:wroughtnaut.step
+mowziesmobs:wroughtnaut.undamaged
+mowziesmobs:wroughtnaut.axe_land
+mowziesmobs:wroughtnaut.axe_hit
 mowziesmobs:barakoa.inhale
 mowziesmobs:barakoa.blowdart
 mowziesmobs:barakoa.battlecry
@@ -1218,6 +1227,9 @@ mowziesmobs:frostmaw.living1
 mowziesmobs:frostmaw.living2
 mowziesmobs:frostmaw.wakeup
 mowziesmobs:grottol.step
+mowziesmobs:grottol.undamaged
+mowziesmobs:grottol.burrow
+mowziesmobs:grottol.die
 mowziesmobs:lantern.puff
 mowziesmobs:lantern.pop
 mowziesmobs:naga.acidcharge
