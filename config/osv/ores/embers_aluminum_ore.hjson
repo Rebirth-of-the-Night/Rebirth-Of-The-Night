@@ -1,0 +1,31 @@
+name: embers_aluminum_ore
+mod: embers
+block: {
+  location: embers:ore_aluminum
+  hardness: 1.600000023841858
+  level: 1
+}
+loot: [
+  {
+    item: embers:ore_aluminum
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: embers:blocks/ore_aluminum_vanilla
+}
+recipe: {
+  result: embers:ingot_aluminum
+  xp: 0.550000011920929
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 58 ]
+    size: 6
+    count: 4
+  }
+]

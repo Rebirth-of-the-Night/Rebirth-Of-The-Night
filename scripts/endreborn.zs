@@ -33,10 +33,6 @@ mods.jei.JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_leggings_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_boots_dragon>);
 
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_endreborn_block_wolframium_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_endreborn_block_wolframium_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_endreborn_block_wolframium_ore:*>);
-
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium_ore");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");

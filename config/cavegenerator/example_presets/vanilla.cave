@@ -1,0 +1,617 @@
+ # ----------------------------------------------------------- #
+ # ########################################################### #
+ #                 ### vanilla.cave Info ###                   #
+ # ########################################################### #
+ #   This file contains all of the default values used by each #
+ # preset. Any value that gets removed will default to its     #
+ # original counterpart here.                                  #
+ # ########################################################### #
+ #                 ### Preset Format Info ###                  #
+ # ########################################################### #
+ #   The format used by these presets is known as Hjson, a     #
+ # less picky and more readable counterpart to normal JSON. It #
+ # accepts various comment styles, allows trailing commas in   #
+ # arrays, does not require commas in objects when elements    #
+ # are placed on new lines, and has other features that should #
+ # prevent crashes related to syntax errors. You can view      #
+ # hjson.org for more info on using it.                        #
+ #   These presets have been extended with ".cave" by default  #
+ # so as to more clearly indicate their purpose; however,      #
+ # ".json" and ".hjson" are also accepted by the mod.          #
+ # ########################################################### #
+ #              ### Cat Language Cheat Sheet ###               #
+ # ########################################################### #
+ #   These are some of the keywords that get reused throughout #
+ # the preset:                                                 #
+ #   * factor: Multiplies a value.                             #
+ #   * chance: 0.0-1.0% probability.                           #
+ #   * frequency: Relative # of tries.                         #
+ # ########################################################### #
+ #                    ### Noise Blocks ###                     #
+ # ########################################################### #
+ #   Noise blocks are also common. Here's an overview of what  #
+ # each value does:                                            #
+ #    # Used anywhere that only produces values relative to    #
+ #    # each (x, z) coordinate. What this will do is either    #
+ #    # determine the minimum or maximum height of a block or  #
+ #    # determine whether a particular horizontal space is     #
+ #    # acceptable for decoration based on a threshold which   #
+ #    # is calculated from `scale`.                            #
+ #   noise2D: {                                                #
+ #      # Limits the range of acceptable values. In a sense,   #
+ #      # this effectively increases or decreases the width    #
+ #      # of each peak of values generated. In most cases      #
+ #      # throughout this mod, changing the scale in a noise   #
+ #      # block alters the size of each area that gets         #
+ #      # decorated. This parameter is only used whenever the  #
+ #      # noise generator is used to produce a boolean. It     #
+ #      # works by scaling the threshold of acceptable values. #
+ #     scale: floating-point value                             #
+ #      # Alters the distance between peaks of values.         #
+ #     frequency: floating-point value                         #
+ #      # The maximum possible value produced by this          #
+ #      # generator.                                           #
+ #     minVal: integer                                         #
+ #      # The maximum possible value produced by this          #
+ #      # generator.                                           #
+ #     maxVal: integer                                         #
+ #   }                                                         #
+ #    # Used anywhere that produces values relative to each    #
+ #    # (x, y, z) coordinate. What this will do is produce     #
+ #    # 3-dimensional clusters of space. Just because one      #
+ #    # particular y-coordinate is valid does not imply that   #
+ #    # everything below it is also valid, as would be the     #
+ #    # case with 2D noise.                                    #
+ #   noise3D: {                                                #
+ #      # See scale above.                                     #
+ #     scale: floating-point value                             #
+ #      # See frequency above.                                 #
+ #     frequency: floating-point value                         #
+ #      # Stretches and skews the scale on the vertical axis.  #
+ #      # Literally means that clusters generated will be      #
+ #      # either shorter or taller.                            #
+ #     scaleY: floating-point value                            #
+ #      # The octave lacunarity of fractal noise types. Higher #
+ #      # values produce deeper and more precise fractals.     #
+ #      # default: 1.0                                         #
+ #     lacunarity: floating-point value                        #
+ #      # The octave gain for fractal noise types.             #
+ #      # default: 0.5                                         #
+ #     gain: floating-point value                              #
+ #      # The maximum distance a cellular point can move from  #
+ #      # its grid position when using cellular types.         #
+ #      # default: 0.45                                        #
+ #     jitter: floating-point value                            #
+ #      # The number of generation passes. This effectively    #
+ #      # increases the resolution of clusters (makes them     #
+ #      # *less* smooth) at the cost of performance.           #
+ #      # default: 1                                           #
+ #     octaves: integer value                                  #
+ #      # Whether to apply a gradient perturb all values input #
+ #      # to the noise generator, warping the output.          #
+ #      # default: false                                       #
+ #     perturb: boolean value                                  #
+ #      # Sets the maximum amount to warp coordinates when     #
+ #      # perturb is enabled.                                  #
+ #      # default: 1.0                                         #
+ #     perturbAmp: floating-point value                        #
+ #      # The frequency used in warping input coordinates.     #
+ #      # default: 0.1                                         #
+ #     perturbFreq: floating-point value                       #
+ #      # Inverts the noise generator's output.                #
+ #      # default: false                                       #
+ #     invert: boolean value                                   #
+ #      # The type of noise to be used by this generator.      #
+ #      # Possible values include: Value, ValueFractal,        #
+ #      # Perlin, PerlinFractal, Simplex, SimplexFractal,      #
+ #      # Cellular, WhiteNoise, Cubic, and CubicFractal.       #
+ #      # Not case sensitive.                                  #
+ #      # default: SimplexFractal                              #
+ #     type: NoiseType value; from string                      #
+ #      # The type of interpolation to use.                    #
+ #      # Possible values include: Linear, Hermite, and        #
+ #      # Quintic.                                             #
+ #      # Not case sensitive.                                  #
+ #      # default: Hermite                                     #
+ #     interp: Interp value; from string                       #
+ #      # Determines how this noise will be fractalized, when  #
+ #      # applicable.                                          #
+ #      # Possible values include: FBM, Billow, and            #
+ #      # RigidMulti.                                          #
+ #      # Not case sensitive.                                  #
+ #      # default: FBM                                         #
+ #     fractal: FractalType value; from string                 #
+ #      # The type of distance function in cellular noise      #
+ #      # calcuations.                                         #
+ #      # Possible values include: Euclidian, Manhattan, and   #
+ #      # Natural.                                             #
+ #      # Not case sensitive.                                  #
+ #      # default: Euclidian                                   #
+ #     distFunc: CellularDistanceFunction type; from string    #
+ #      # The return type from cellular noise calculations.    #
+ #      # Possible values include: CellValue, NoiseLookup,     #
+ #      # Distance, Distance2, Distance2Add, Distance2Sub,     #
+ #      # Distance2Mul, Distance2Div, Distance3, Distance3Add, #
+ #      # Distance3Sub, Distance3Mul, and Distance3Div.        #
+ #      # Not case sensitive.                                  #
+ #      # default: Distance2                                   #
+ #     returnType: CellularReturnType type; from string        #
+ #      # Sets the noise type used when returnType is set to   #
+ #      # NoiseLookup. See `type` for possible values.         #
+ #      # default: Simplex                                     #
+ #     cellularLookup: NoiseType type; from string             #
+ #   }                                                         #
+ #   The majority of all noise parameters above have           #
+ # equivalent counterparts in the standard FastNoise library.  #
+ # The easiest way to learn what they do is to visit the link  #
+ # below and see them in action. It would be a great idea to   #
+ # download the FastNoise preview application and try changing #
+ # the parameters on your own to get a fast, graphical         #
+ # representation of how your changes will look in-game.       #
+ # ########################################################### #
+ #                   ### ScalableFloats ###                    #
+ # ########################################################### #
+ #   Many of the fields inside of tunnels and ravines are      #
+ # referred to internally as "ScalableFloats." These           #
+ # objects technically all contain the same fields, but        #
+ # those fields are not used as consistently as in noise       #
+ # blocks. This is why they are not named according to their   #
+ # type, unlike noise blocks.                                  #
+ #   ScalableFloats essentially serve to update a floating-    #
+ # point value each time it gets used. So, their parameters    #
+ # are a reflection of that process. The basic function of     #
+ # this type of field is documented below.                     #
+ #   valueName: {                                              #
+ #      # Initial value                                        #
+ #     startVal: floating-point value                          #
+ #      # A random value from 0 to input which multiplies      #
+ #      # startVal.                                            #
+ #     startValRandFactor: floating-point value                #
+ #      # A constant value which multiplies the current value  #
+ #      # each use.                                            #
+ #     factor: floating-point value                            #
+ #      # A random value from 0 to input which multiplies the  #
+ #      # current value each use.                              #
+ #     randFactor: floating-point value                        #
+ #      # A constant value. The current value is raised to     #
+ #      # this power each use.                                 #
+ #     exponent: floating-point value                          #
+ #   }                                                         #
+ #   Despite the inconsistency in terms of which fields are    #
+ # actually used, their identical structure and use of only    #
+ # one single value type allows them to be written with a much #
+ # prettier syntax. Some users may prefer this syntax thanks   #
+ # to its concision. The following example shows how this      #
+ # would look.                                                 #
+ #    # Example values. Helps clarify the order.               #
+ #   standard: {                                               #
+ #     startVal: 1.0                                           #
+ #     startValRandFactor: 2.0                                 #
+ #     factor: 3.0                                             #
+ #     randFactor: 4.0                                         #
+ #     exponent: 5.0                                           #
+ #   }                                                         #
+ #    # Make sure to use an array here, not an object.         #
+ #    # Trailing values (near the end) can be ommitted, but    #
+ #    # intermediate values cannot, since the order does       #
+ #    # matter.                                                #
+ #   identical: [ 1.0, 2.0, 3.0, 4.0, 5.0 ]                    #
+ # ----------------------------------------------------------- #
+{
+   # Whether the preset is enabled globally.
+  enabled: true
+   # When this field is set to true, the absence of any object
+   # in this file will result in missing features. In other
+   # words: if it is not listed here, it does not exist in-game.
+   # Setting this field to false means that absent fields will
+   # produce vanilla functionality. Think of this as a sort of
+   # "blank slate" mode vs. "override" mode.
+  blankSlate: true
+   # A list of biomes for tunnels, rooms, ravines, and most 
+   # (but not all) decorations to be restricted to.
+  biomes: {
+     # A list of registry names.
+    names: []
+     # A list of biome IDs.
+    IDs: []
+     # A list of Biome types.
+    types: []
+  }
+   # Whether to treat the biome list as a blacklist.
+  useBiomeBlacklist: false
+   # A list of dimension IDs for all features to be 
+   # restricted to.
+  dimensions: []
+   # Whether to treat the dimension list as a blacklist.
+  useDimensionBlacklist: false
+   # A list of blocks that can be replaced by this generator.
+   # Bear in mind that very little world decoration has
+   # occurred by the time this generator will run. This means
+   # that almost nothing more than stone, dirt, and water
+   # exist in the world at this point. Use this if you have
+   # any other mods that might be adding blocks early on, or
+   # if any other preset is placing blocks that this generator
+   # should also be able to dig through.
+  replaceableBlocks: [ "stone", "dirt" ]
+   # Setting this field to true will automatically add all
+   # WallDecorators, StoneClusters, etc. to the replaceableBlocks
+   # list. These blocks usually should be added because 
+   # multiple tunnel sections can overlap after decorators have
+   # been placed, resulting in unwanted, floating decorators.
+  replaceDecorators: true
+   # A collection of blocks that will be used instead of air 
+   # at various height levels. Supports random and even 
+   # noise-based placement.
+  caveBlocks: [
+     # Imitates the normal lava placement behavior.
+    {
+       # There are more parameters. See 
+       # underground_forest.cave for more info.
+      states: [ "lava" ]
+       # Maximum height bounds.
+      maxHeight: 10
+    }
+     /* 
+     { Defaults values; these do not spawn by default.
+       states: []
+       chance: 1.0
+       minHeight: 0
+       maxHeight: 50
+        # This is a standard noise3D object. While it is more to
+        # write, the fact that these are everywhere helps you
+        # know that they're all the same. This noise block is
+        # optional. If you do not want these to spawn according
+        # to noise generation, do *not* include this field.
+        # See above for additional parameters.
+       noise3D: {}
+     }
+     */
+  ]
+   # Used for decorating walls with various blocks. Supports
+   # random and noise-based placement. Needs more documentation.
+  wallDecorators: [
+     /*
+     {
+       states: []
+       chance: 1.0
+       minHeight: 10
+       maxHeight: 50
+        # Options 
+       directions: []
+       matchers: [ "stone" ]
+        # Possible options include 'replace_match' and 
+        # 'replace_original.'
+       preference: replace_match
+        # Optional noise3D block. If you don't want these to
+        # spawn according to noise generation, don't include
+        # this field.
+        # See above for additional parameters.
+       noise3D: {}
+     }
+     */
+  ]
+   # Single, circular spaces found near the center of cave 
+   # systems.
+  rooms: {
+     # The radius in blocks.
+    scale: 6
+     # Vertical height multiple of scale.
+    scaleY: 0.5
+  }
+  tunnels: {
+     # The average number of tunnel systems to try and
+     # spawn per chunk.
+    frequency: 15
+     # Mininum starting height.
+    minHeight: 8
+     # Maximum starting height.
+    maxHeight: 128
+     # The length in blocks of this tunnel. A value of 0 
+     # produces between 132-176.
+    distance: 0
+     # The 1 / X chance chance that multiple tunnels will
+     # be spawned at each origin, instead of just one.
+    systemChance: 0.25
+     # The 1 / X chance that any origin will be skipped.
+     # This has an effect of spawning each system in
+     # isolated groups vs. everywhere.
+    isolatedChance: 0.142
+     # The maximum possible number of branches at system 
+     # origins.
+    systemDensity: 4
+     # Whether to reduce the amount of aberrations in
+     # in this cave's vertical angle. When this feature
+     # is enabled, the amount that noiseY can change is
+     # overall reduced, per segment.
+    noiseYReduction: true
+     # Whether branches should decrease in size from their
+     # original tunnel's scale. You will most likely want
+     # to disable this feature when using larger tunnels.
+    resizeBranches: true
+     # These values alter how much the horizontal angle
+     # of each tunnel can change between segments.
+    twistXZ: {
+       # angle first gets changed by x.
+      startVal: 0
+       # angle = angle * x
+      factor: 0.75
+       # angle = angle + (randomValue * x)
+      randFactor: 4
+       # angle = angle^x
+      exponent: 1
+    }
+     # These values alter how much the vertical angle
+     # of each tunnel can change between segments.
+    twistY: {
+      startVal: 0
+      factor: 0.9
+      randFactor: 2
+      exponent: 1
+    }
+     # These values alter the radius in blocks of each
+     # tunnel.
+    scale: {
+      startVal: 0
+       # startVal = startVal + (randomValue * x).
+      startValRandFactor: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+     # scaleY is a multiple of scale on the vertical axis.
+     # If scale == 6 and scaleY == 0.5, the height becomes 3.
+     # These values alter scaleY between tunnel segments.
+    scaleY: {
+      startVal: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+     # The horizontal angle in radians.
+    angleXZ: {
+      startVal: 0
+      startValRandFactor: 1
+    }
+     # The vertical angle in radians.
+    angleY: {
+      startVal: 0
+      startValRandFactor: 0.25
+    }
+  }
+   # Ravines are like tunnels, but with random variations in
+   # horizontal scale. You could theoretically use this as
+   # your main tunnels, if you're using multiple presets.
+  ravines: {
+    chance: 0.02
+    minHeight: 20
+    maxHeight: 66
+    distance: 0
+    twistXZ: {
+      startVal: 0
+      factor: 0.5
+      randFactor: 4
+      exponent: 1
+    }
+    twistY: {
+      startVal: 0
+      factor: 0.8
+      randFactor: 2
+      exponent: 1
+    }
+    scale: {
+      startVal: 0
+      startValRandFactor: 2
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    scaleY: {
+       # This is essentially the second most important
+       # variable accounting for the look of ravines.
+      startVal: 3
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    angleXZ: {
+      startVal: 0
+      startValRandFactor: 1
+    }
+    angleY: {
+      startVal: 0
+      startValRandFactor: 0.25
+    }
+     # Similar to noiseYReduction, but not as random.
+    noiseYFactor: 0.7
+     /*
+      # Contains an optional noise2D block used to change
+      # the look of ravine walls. Placing / uncommenting
+      # this block will completely override the vanilla
+      # ravine wall generation features, producing
+      # smoother, more organic surfaces.
+     wallNoise: {
+       noise2D: {
+          # Scale is ignored in this context.
+         scale: 0.5
+         frequency: 0.1
+         minVal: 0
+         maxVal: 4
+       }
+     }
+     */
+  }
+   # See caverns.json for another example of caverns. These
+   # are the default values.
+  caverns: {
+    enabled: false
+    minHeight: 10
+    maxHeight: 50
+     # Optional 3D noise block for the main cavern shapes.
+     # See above for additional parameters.
+    noise3D: {
+       # This does refer to noise frequency, but its use in
+       # the case of caverns has the opposite effect. Higher
+       # values mean less frequent pockets of air.
+      frequency: 0.0143
+       # scale for noise-based objects is from 0-1.
+      scale: 0.2
+      scaleY: 0.5
+    }
+     # Optional 2D noise block for the cavern ceiling.
+     # The value produced by ceilNoise is added to the terrain
+     # height at any given coordinate. In order to stop caverns
+     # from punching holes through the surface, use negative
+     # values only.
+    ceiling: {
+      noise2D: {
+         # No effect in this context.
+        scale: 0.5
+        frequency: 0.02
+        minVal: -17
+        maxVal: -3
+      }
+    }
+     # Optional 2d noise block for the cavern floor.
+    floor: {
+      noise2D: {
+         # No effect in this context.
+        scale: 0.5
+        frequency: 0.02
+        minVal: 0
+        maxVal: 8
+      }
+    }
+  }
+   # See stone_layers.cave for an example of stoneLayers. These are
+   # just the default values, so you only need to specify the state
+   # and maxHeight.
+  stoneLayers: [
+     /*
+     { Default values; these don't spawn by default.
+       state: null
+        # This is necessary because multiple layers ideally
+        # should not spawn at the exact same height.
+       maxHeight: 0
+        # Optional 2D noise block.
+       noise2D: {
+         scale: 0.5
+          # The distance between this layer's peaks.
+         frequency: 0.015
+          # How many blocks down this layer can vary.
+         minVal: -7
+          # How many blocks up this layer can vary.
+         maxVal: 7
+       }
+     }
+     */
+  ]
+   # See stone_clusters.cave for an example of stoneClusters.
+  stoneClusters: [
+     /*
+     { Default values; these don't spawn by default.
+        # A list of blocks to spawn under these conditions.
+       states: []
+        # The 0 - 1 spawn probability.
+       chance: 0.15
+        # The radius of this cluster on the x-axis.
+       radiusX: 16
+       radiusY: 12
+       radiusZ: 16
+       radiusVariance: 6
+       startHeight: 32
+       heightVariance: 16
+     }
+     */
+  ]
+   # See stalagmites_large.cave for an example of largeStalactites
+   # and largeStalagmites. These are just the default values, so
+   # you only need to specify the states.
+  largeStalactites: [
+     /*
+     { Default values; these don't spawn by default.
+       state: null
+        # Whether the stalactite should be full-sized.
+       wide: true
+        # The maximum number of blocks this structure can be.
+       maxLength: 3
+       chance: 0.167
+       minHeight: 11
+       maxHeight: 55
+       matchers: []
+        # Optional noise block. Will perform better without.
+       noise2D: {
+         scale: 0.7125
+         frequency: 0.025
+          # Not used at all in this context. Can be omitted.
+          # -1 is effectively the default.
+         minVal: -1
+          # Not used at all in this context. Can be omitted.
+          # -1 is effectively the default.
+         maxVal: 1
+       }
+     }
+     */
+  ]
+   # Same as largeStalactites. Spawns from the floor instead of
+   # the ceiling.
+  largeStalagmites: []
+   # See underground_forest.cave for an example of giantPillars.
+   # These are the defaults. You just need to specify a state.
+  giantPillars: [
+     /*
+     { Default values; these don't spawn by default.
+        # This block makes up the body of the pillar.
+       state: null
+        # This may not be null if it does exist, but it can be
+        # left out. If the field is not present, no stairs will
+        # spawn.
+       stairBlock: null
+        # Number of spawn tries per chunk.
+       frequency: 15
+       minHeight: 10
+       maxHeight: 50
+       minLength: 4
+       maxLength: 12
+     }
+     */
+  ]
+   # Structures are ideal for small decorations. Larger decorations
+   # (16x16)+ may cause cascading generation lag and should be
+   # handled by another mod, such as recurrent complex or OTG.
+   # Structures will be centered around X and Z, but not Y. Most of
+   # this information can be left out. See underground_forest.cave
+   # for a better example. These are just the default values.
+  structures: [
+     /*
+     { Default values; no structures spawn by default.
+        # name refers to a resource location or file name.
+        # It may not be null.
+       name: null
+        # The 0-1 ratio of blocks to be retained when spawning.
+       integrity: 1.0
+        # X, Y, Z spawn offset.
+       offset: [0, 0, 0]
+        # Number of tries per chunk. Should be low.
+       frequency: 1
+        # The 0 - 1 chance any try will succeed.
+       chance: 0.05
+       minHeight: 10
+       maxHeight: 50
+        # Any relative coordinates that must be non-solid.
+        # Example:
+        # airMatchers: [
+        #  [0, 1, 0],
+        #  [0, 3, 0]
+        # ]
+       airMatchers: []
+       solidMatchers: []
+       nonSolidMatchers: []
+       waterMatchers: []
+        # Whether to log the coordinates every time this structure
+        # spawns.
+       debugSpawns: false
+       rotateRandomly: false
+     }
+     */
+  ]
+}

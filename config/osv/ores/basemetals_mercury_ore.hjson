@@ -1,0 +1,31 @@
+name: basemetals_mercury_ore
+mod: basemetals
+block: {
+  location: basemetals:mercury_ore
+  hardness: 1
+  level: 0
+}
+loot: [
+  {
+    item: basemetals:mercury_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/mercury_ore
+}
+recipe: {
+  result: basemetals:mercury_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 8
+    count: 3
+  }
+]

@@ -1,0 +1,29 @@
+name: metallurgy_zinc_ore
+mod: metallurgy
+block: {
+  location: metallurgy:zinc_ore
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/zinc_ore
+}
+recipe: {
+  result: metallurgy:zinc_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:zinc_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 10
+  }
+]

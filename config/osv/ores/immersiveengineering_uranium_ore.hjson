@@ -1,0 +1,30 @@
+name: immersiveengineering_uranium_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore:5
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: immersiveengineering:ore:5
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_uranium
+}
+recipe: {
+  result: immersiveengineering:metal:5
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 8, 24 ]
+    size: 4
+    count: 1
+  }
+]

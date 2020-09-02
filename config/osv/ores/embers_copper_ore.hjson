@@ -1,0 +1,31 @@
+name: embers_copper_ore
+mod: embers
+block: {
+  location: embers:ore_copper
+  hardness: 1.7999999523162842
+  level: 1
+}
+loot: [
+  {
+    item: embers:ore_copper
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: embers:blocks/ore_copper_vanilla
+}
+recipe: {
+  result: embers:ingot_copper
+  xp: 0.6499999761581421
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 12
+    count: 6
+  }
+]

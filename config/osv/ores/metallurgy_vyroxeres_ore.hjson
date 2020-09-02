@@ -1,0 +1,31 @@
+name: metallurgy_vyroxeres_ore
+mod: metallurgy
+block: {
+  location: metallurgy:vyroxeres_ore
+  level: 4
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/vyroxeres_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:vyroxeres_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:vyroxeres_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 120 ]
+    size: 5
+    count: 7
+  }
+]

@@ -1,0 +1,24 @@
+name: biomesoplenty_topaz_ore
+mod: biomesoplenty
+block: {
+  location: biomesoplenty:gem_ore:3
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: biomesoplenty:gem:3
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  original: biomesoplenty:blocks/topaz_ore
+}
+recipe: {
+  result: biomesoplenty:gem:3
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: []

@@ -1,0 +1,31 @@
+name: modernmetals_iridium_ore
+mod: modernmetals
+block: {
+  location: modernmetals:iridium_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: modernmetals:iridium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/iridium_ore
+}
+recipe: {
+  result: modernmetals:iridium_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 6
+    count: 5
+  }
+]

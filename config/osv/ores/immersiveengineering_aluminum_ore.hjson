@@ -1,0 +1,30 @@
+name: immersiveengineering_aluminum_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore:1
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: immersiveengineering:ore:1
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_aluminum
+}
+recipe: {
+  result: immersiveengineering:metal:1
+  xp: 0.30000001192092896
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 40, 72 ]
+    size: 4
+    count: 8
+  }
+]

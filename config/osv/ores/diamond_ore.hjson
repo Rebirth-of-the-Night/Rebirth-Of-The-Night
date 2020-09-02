@@ -1,0 +1,58 @@
+name: diamond_ore
+mod: minecraft
+block: {
+  location: diamond_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: diamond
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/diamond_ore
+}
+recipe: {
+  result: diamond
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 16 ]
+    size: 8
+    count: 2
+	chance: 0.8
+  },
+  {
+    height: [ 16, 155 ]
+    size: 3
+    count: 30
+	chance: 0.7
+	biomes: {
+		names: [
+		  biomesoplenty:volcanic_island
+	  ]
+	}
+  },
+  {
+    height: [ 0, 48 ]
+    size: 8
+    count: 6
+	biomes: {
+		names: biomesoplenty:outback
+	}
+  },
+  {
+	height : [16, 255]
+	size: 9
+	count: 6 
+	chance: 0.5
+	dimensions: [10]
+  }
+]

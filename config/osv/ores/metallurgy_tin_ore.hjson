@@ -1,0 +1,29 @@
+name: metallurgy_tin_ore
+mod: metallurgy
+block: {
+  location: metallurgy:tin_ore
+  resistance: 18
+}
+texture: {
+  original: metallurgy:blocks/tin_ore
+}
+recipe: {
+  result: metallurgy:tin_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:tin_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 25, 48 ]
+    size: 10
+    count: 10
+  }
+]

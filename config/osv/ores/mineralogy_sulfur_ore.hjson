@@ -1,0 +1,31 @@
+name: mineralogy_sulfur_ore
+mod: mineralogy
+block: {
+  location: mineralogy:sulfur_ore
+  hardness: 1.5
+  level: 0
+}
+loot: [
+  {
+    item: mineralogy:sulfur_dust
+    count: [ 1, 4 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: mineralogy:blocks/sulfur_ore
+}
+recipe: {
+  result: mineralogy:sulfur_dust
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 16, 64 ]
+    size: 16
+    count: 1
+  }
+]

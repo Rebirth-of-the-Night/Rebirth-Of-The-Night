@@ -1,0 +1,36 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+		"shale-embedded_clay": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {
+					"name": "undergroundbiomes:sedimentary_clay",
+					"properties": {
+						"type" : "shale"
+						}
+				},
+				"material":
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "shale"
+						}
+					},
+				"cluster-size": 9
+			},
+			"chunk-chance": 2,
+			"cluster-count": 5,
+			"min-height": 56,
+			"max-height": 70,
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

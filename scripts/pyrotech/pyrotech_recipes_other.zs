@@ -76,27 +76,6 @@ Burn.createBuilder("molten_spirit_vanilla", <pyrotech:material:16>, "simpleores:
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
-Burn.createBuilder("molten_spirit_igneous", <pyrotech:material:16>, "undergroundbiomes:igneous_stone_simpleores_mythril_ore:*")
-    .setBurnStages(1)
-    .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:lifeblood> * 1000)
-    .setRequiresRefractoryBlocks(true)
-    .setFluidLevelAffectsFailureChance(false)
-    .register();
-Burn.createBuilder("molten_spirit_metamorphic", <pyrotech:material:16>, "undergroundbiomes:metamorphic_stone_simpleores_mythril_ore:*")
-    .setBurnStages(1)
-    .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:lifeblood> * 1000)
-    .setRequiresRefractoryBlocks(true)
-    .setFluidLevelAffectsFailureChance(false)
-    .register();
-Burn.createBuilder("molten_spirit_sedimentary", <pyrotech:material:16>, "undergroundbiomes:sedimentary_stone_simpleores_mythril_ore:*")
-    .setBurnStages(1)
-    .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:lifeblood> * 1000)
-    .setRequiresRefractoryBlocks(true)
-    .setFluidLevelAffectsFailureChance(false)
-    .register();
 Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "minecraft:end_stone")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(1 * 60 * 20)

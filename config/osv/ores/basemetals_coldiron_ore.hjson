@@ -1,0 +1,31 @@
+name: basemetals_coldiron_ore
+mod: basemetals
+block: {
+  location: basemetals:coldiron_ore
+  hardness: 7
+  level: 2
+}
+loot: [
+  {
+    item: basemetals:coldiron_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/coldiron_ore
+}
+recipe: {
+  result: basemetals:coldiron_ingot
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 5
+  }
+]

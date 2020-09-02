@@ -1,0 +1,53 @@
+name: coal_ore
+mod: minecraft
+block: {
+  location: coal_ore
+  hardness: 3
+  level: 0
+}
+loot: [
+  {
+    item: coal
+    count: [ 1, 1 ]
+    xp: [ 2 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/coal_ore
+}
+recipe: {
+  result: coal
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 18
+  },
+  {
+    height: [ 0, 155 ]
+    size: 16
+    count: 20
+	chance: 0.6
+	biomes: {
+	  types: [
+		JUNGLE
+	  ]
+	}
+  }
+  {
+    height: [ 59, 64 ]
+    size: 2
+    count: 12
+	chance: 0.6
+	biomes: {
+	  types: [
+		JUNGLE
+	  ]
+	}
+  }
+]

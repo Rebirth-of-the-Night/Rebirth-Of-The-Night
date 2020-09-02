@@ -1,0 +1,42 @@
+# This file contains all of the information needed for customizing
+# how stone types will spawn in the world. For any questions not
+# answered here, feel free to open a new thread on GitHub or join
+# us on Discord at https://discord.gg/UNsXfvA.
+{
+  # This category contains all of the information regarding this
+  # block's basic information. See Block.Properties in-code.
+  block: {
+    
+    # This ore's resource location, i.e. technically
+    # "minecraft:stone:5" (andesite). 
+    location: stone:5
+  }
+
+  # An array of conditions under which this block can generate.
+  gen: [
+    {
+      # A range of heights, i.e. 0 to 128.
+      height: [0, 80]
+
+      # The size of the ore vein spawned.
+      size: 33
+
+      # The number of tries per chunk to spawn clusters.
+      count: 10
+
+      # The 0-1 chance that any try will succeed.
+      chance: 1.0
+
+      # All of the biomes in which these conditions can be met.
+      biomes: {
+        
+        # An array of biome types from which to retrive biome
+        # names.
+        types: []
+
+        # Raw biome registry names to be used.
+        names: []
+      }
+    }
+  ]
+}

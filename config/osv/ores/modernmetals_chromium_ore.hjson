@@ -1,0 +1,31 @@
+name: modernmetals_chromium_ore
+mod: modernmetals
+block: {
+  location: modernmetals:chromium_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: modernmetals:chromium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/chromium_ore
+}
+recipe: {
+  result: modernmetals:chromium_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 2
+    count: 3
+  }
+]

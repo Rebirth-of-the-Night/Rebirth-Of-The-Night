@@ -1,0 +1,30 @@
+name: glasshearts_amethyst_ore
+mod: glasshearts
+block: {
+  location: glasshearts:ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: glasshearts:gem
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: glasshearts:blocks/amethyst_ore
+}
+recipe: {
+  result: glasshearts:gem
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 3
+    count: 2
+  }
+]

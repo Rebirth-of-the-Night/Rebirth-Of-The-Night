@@ -1,0 +1,32 @@
+name: thermalfoundation_silver_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore:2
+  hardness: 3
+  level: 1
+  light: 4
+}
+loot: [
+  {
+    item: thermalfoundation:ore:2
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_silver
+}
+recipe: {
+  result: thermalfoundation:material:130
+  xp: 0
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 5, 30 ]
+    size: 8
+    count: 3
+  }
+]

@@ -1,0 +1,31 @@
+name: modernmetals_tantalum_ore
+mod: modernmetals
+block: {
+  location: modernmetals:tantalum_ore
+  hardness: 17.5
+  level: 5
+}
+loot: [
+  {
+    item: modernmetals:tantalum_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/tantalum_ore
+}
+recipe: {
+  result: modernmetals:tantalum_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 6
+    count: 6
+  }
+]
