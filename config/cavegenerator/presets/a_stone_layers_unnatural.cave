@@ -2,7 +2,6 @@
   biomes: {
       names: [
 	  biomesoplenty:mystic_grove
-	  biomesoplenty:ominous_woods
 	  ]
 	}
   stoneLayers: [
