@@ -218,10 +218,6 @@ recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
 recipes.addShaped("pyro_chopping_block", <pyrotech:chopping_block>,
  [[<ore:toolAxe>.transformDamage()],
   [<ore:logWood>]]);  
-recipes.addShaped("pyro_stone_sawmill", <pyrotech:stone_sawmill>,
- [[stoneBrick,stoneBrick,stoneBrick],
-  [stoneBrick,<pyrotech:chopping_block>,stoneBrick],
-  [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
 recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
  [[null,<ore:stickWood>],
   [<ore:stickWood>,<ore:twine>]]);
