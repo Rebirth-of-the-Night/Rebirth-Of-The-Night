@@ -112,6 +112,7 @@ mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
 <bountifulbaubles:amuletsinwrath>.displayName = "§bWrath Amulet";
 <bountifulbaubles:amuletcross>.displayName = "§bCross Amulet";
 <artifacts:panic_necklace>.displayName = "§bPanic Amulet";
+<artifacts:ultimate_pendant>.displayName = "§bAmulet of Ultimate Wrath";
 <behgameon:accessory_5>.displayName = "§bAmulet";
 <behgameon:accessory_6>.displayName = "§bAmulet";
 <behgameon:accessory_7>.displayName = "§bAmulet";
