@@ -16,7 +16,7 @@ import crafttweaker.entity.IEntityDefinition;
 
 // Belt of Strength
 <behgameon:accessory_1>.displayName = "§bBelt of Strength";
-<behgameon:accessory_1>.addTooltip(format.darkGreen("Mundane"));
+<behgameon:accessory_1>.addTooltip(format.darkGreen("Inert"));
 
 mods.ltt.LootTable.removeGlobalItem("behgameon:accessory_1");
 
@@ -41,6 +41,7 @@ mods.jei.JEI.addDescription(<dungeontactics:silver_axe>, "You grow stronger just
 <dungeontactics:mithril_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 
 furnace.remove(<dungeontactics:mithril_sword>);
+furnace.remove(<dungeontactics:mithril_ingot>);
 recipes.remove(<dungeontactics:mithril_sword>);
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:mithril_sword>, 
 [
@@ -58,7 +59,7 @@ mods.jei.JEI.addDescription(<dungeontactics:mithril_sword>, "Sange is an unusual
 // Talisman of Evasion
 
 <behgameon:accessory_4>.displayName = "§bTalisman of Evasion";
-<behgameon:accessory_4>.addTooltip(format.aqua("Arcane"));
+<behgameon:accessory_4>.addTooltip(format.aqua("Inert"));
 
 mods.ltt.LootTable.removeGlobalItem("behgameon:accessory_4");
 
