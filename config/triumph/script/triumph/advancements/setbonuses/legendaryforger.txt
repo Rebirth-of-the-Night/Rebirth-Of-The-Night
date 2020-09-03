@@ -38,9 +38,6 @@ criteria.setAdvancement("triumph:advancements/setbonuses/chainarmor")
 criteria = addCriteria("darksedge", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/darksedge")
 
-criteria = addCriteria("deathisnonexistent", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/deathisnonexistent")
-
 criteria = addCriteria("deathisnotanoption", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/deathisnotanoption")
 

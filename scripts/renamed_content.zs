@@ -442,7 +442,6 @@ for potion in potionMap{
 <bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
-<bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
 
 // <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
 
@@ -531,8 +530,7 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 #Epic
 
-<contenttweaker:amulet_of_divinity>.displayName = "§5Amulet of Divinity";
-<contenttweaker:amulet_of_divinity>.addTooltip(format.darkPurple(""));
+
 
 
 <nyx:fallen_star>.displayName = "§5Fallen Star";
@@ -769,9 +767,6 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's 
 
 <betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";
 <betterwithmods:steel_mattock>.addTooltip(format.red("Godly Tool"));
-
-<bountifulbaubles:shieldankh>.displayName = "§cAnkh Shield";
-<bountifulbaubles:shieldankh>.addTooltip(format.red("Godly Shield"));
 
 <betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));

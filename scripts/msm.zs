@@ -199,7 +199,7 @@ var victorymedal = <aether_legacy:victory_medal>;
 var totemascending = <totemexpansion:totem_falling>;
 
 
-mods.betterwithmods.Anvil.addShaped(<contenttweaker:amulet_of_divinity>, 
+mods.betterwithmods.Anvil.addShaped(<behgameon:accessory_49>, 
 [
    [shapedquartz, shapedquartz, shapedquartz, shapedquartz],
    [shapedquartz, victorymedal, pride, shapedquartz],
@@ -215,7 +215,7 @@ var fallenstar = <nyx:fallen_star>;
 var fierytears = <twilightforest:fiery_tears>;
 var heavensheart = <contenttweaker:heavensheart>;
 var lightsedge = <msmlegacy:crystaline_blade>;
-var divinity = <contenttweaker:amulet_of_divinity>;
+var divinity = <behgameon:accessory_49>;
 var lamp = <twilightforest:lamp_of_cinders>;
 var heartcontainer = <scalinghealth:heartcontainer>;
 var cometshard = <nyx:comet_shard>;

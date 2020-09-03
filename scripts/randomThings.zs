@@ -201,7 +201,7 @@ recipes.remove(<randomthings:obsidianskullring>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>, <contenttweaker:fireetched_onyx>, <contenttweaker:vis_sliver>],
-    [<endreborn:item_shard_obsidian>, <qualitytools:emerald_ring>, <endreborn:item_shard_obsidian>],
+    [<endreborn:item_shard_obsidian>, <ore:inertRing>, <endreborn:item_shard_obsidian>],
     [<contenttweaker:vis_sliver>, <endreborn:item_shard_obsidian>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:nether_rune>, 1)
   .addOutput(<randomthings:obsidianskullring>)
@@ -214,7 +214,7 @@ recipes.remove(<randomthings:lavacharm>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <contenttweaker:draconium>, <contenttweaker:vis_shard>],
-    [<endreborn:block_end_magma>, <qualitytools:emerald_ring>, <endreborn:block_end_magma>],
+    [<endreborn:block_end_magma>, <ore:inertRing>, <endreborn:block_end_magma>],
     [<contenttweaker:vis_shard>, <endreborn:block_end_magma>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:nether_rune>, 1)
   .addOutput(<randomthings:lavacharm>)

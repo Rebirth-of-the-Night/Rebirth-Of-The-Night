@@ -529,7 +529,6 @@ mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:dawn_star>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<dungeontactics:silver_sword>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:eye_end_blade>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 32200);
-mods.aether_legacy.Enchanter.registerEnchantment(<bountifulbaubles:shieldankh>, 32200);
 
 
 //Special

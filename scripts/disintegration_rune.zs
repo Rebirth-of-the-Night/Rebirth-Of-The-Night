@@ -21,23 +21,13 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
-  .setShapeless([<qualitytools:emerald_amulet>])
+  .setShapeless([<ore:inertAmulet>])
   .addOutput(<contenttweaker:vis_speck>)
   .addTool(<contenttweaker:disint_rune>, 1)
   .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-
-RecipeBuilder.get("mage")
-  .setShapeless([<qualitytools:emerald_ring>])
-  .addOutput(<contenttweaker:vis_speck>)
-  .addTool(<contenttweaker:disint_rune>, 1)
-  .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
 
 // Mundane
 
@@ -274,10 +264,6 @@ RecipeBuilder.get("mage")
 
 //recipes.addShapeless("disintrune14", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <extraalchemy:empty_ring>]);
 
-//recipes.addShapeless("disintrune15", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <qualitytools:emerald_ring>]);
-
-//recipes.addShapeless("disintrune16", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <qualitytools:emerald_amulet>]);
-
 //recipes.addShapeless("disintrune17", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <iceandfire:dragon_flute>]);
 
 //recipes.addShapeless("disintrune18", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <biomesoplenty:log_1>]);
@@ -356,10 +342,6 @@ recipes.addShapeless("disintrune51", <bountifulbaubles:spectralsilt> * 5, [<cont
 recipes.addShapeless("disintrune52", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketvitamins>]);
 
 recipes.addShapeless("disintrune53", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:ringfreeaction>]);
-
-recipes.addShapeless("disintrune54", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketankhcharm>]);
-
-recipes.addShapeless("disintrune55", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:shieldankh>]);
 
 recipes.addShapeless("disintrune56", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketmixeddragonscale>]);
 

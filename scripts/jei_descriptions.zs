@@ -411,7 +411,7 @@ mods.jei.JEI.addDescription(<dungeontactics:magic_scroll>,"Wands contain potent 
 mods.jei.JEI.addItem(<contenttweaker:spectral_shard>);
 mods.jei.JEI.addItem(<contenttweaker:magic_orb>);
 
-mods.jei.JEI.addDescription(<contenttweaker:amulet_of_divinity>,"Fade in Light, return to Glory. Gone blazing, born anew, estrelvir.");
+
 mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This magical material is needed cast powerful spells from wands.");
 mods.jei.JEI.addDescription(<dungeontactics:magic_powder>, "Witch covens have a taste for forbidden and unusual arts. We can tap into that power too, using the §lCauldron§r. Add §llunar water§r to a Cauldron then toss in §lmagic blend§l, made from a §lmushroom§r, §lglowstone dust§r, §lvis specks§r, and §lquintessence§r.");
 

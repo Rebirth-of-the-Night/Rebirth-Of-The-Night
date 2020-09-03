@@ -4,6 +4,19 @@ import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 
+/////////// Repurposed Behgameon Baubles ////////////
+
+// see msm.zs for amulet of divinity recipe/uses
+// removed from loottables in resourcepack
+<behgameon:accessory_49>.displayName = "§bAmulet of Divinity";
+<behgameon:accessory_49>.addTooltip(format.darkPurple("Fade in Light, return to Glory. Gone blazing, born anew, estrelvir."));
+
+
+/////////////////////////////////////////////////////
+
+
+
+
 // Remove everlasting food
 mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
 mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
@@ -44,9 +57,26 @@ mods.jei.JEI.removeAndHide(<artifacts:everlasting_salmon>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_clownfish>);
 
-// Remove useless bauble
+
+
+// Remove baubles
 mods.ltt.LootTable.removeGlobalItem("artifacts:tiny_shirt");
 mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
+
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketankhcharm");
+mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketankhcharm>);
+
+
+mods.jei.JEI.removeAndHide(<bountifulbaubles:flaregun>);
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");
+mods.jei.JEI.removeAndHide(<bountifulbaubles:flare_red>);
+mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
+
+mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
+mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
+mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
+
+
 
 
 
@@ -64,7 +94,7 @@ mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
 
 
 
-// Unify name colors of all baubles
+// Unify name colors of all baubles and some renaming
 <minecraft:totem_of_undying>.displayName = "§bTotem of Undying";
 <bountifulbaubles:trinketobsidianskull>.displayName = "§bObsidian Skull";
 <bountifulbaubles:trinketmagiclenses>.displayName = "§bSunglasses";
@@ -76,13 +106,17 @@ mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
 <bountifulbaubles:trinketbezoar>.displayName = "§bBezoar";
 <bountifulbaubles:trinketblackdragonscale>.displayName = "§bBlack Dragon Scale";
 <bountifulbaubles:trinketmixeddragonscale>.displayName = "§bMixed Color Dragon Scale";
-<bountifulbaubles:trinketankhcharm>.displayName = "§bAnkh Charm";
 <bountifulbaubles:amuletsinempty>.displayName = "§bSin Amulet (Empty)";
 <bountifulbaubles:amuletsingluttony>.displayName = "§bGluttony Amulet";
 <bountifulbaubles:amuletsinpride>.displayName = "§bPride Amulet";
 <bountifulbaubles:amuletsinwrath>.displayName = "§bWrath Amulet";
-<bountifulbaubles:trinketbrokenheart>.displayName = "§bBroken Heart";
 <bountifulbaubles:amuletcross>.displayName = "§bCross Amulet";
+<artifacts:panic_necklace>.displayName = "§bPanic Amulet";
+<behgameon:accessory_5>.displayName = "§bAmulet";
+<behgameon:accessory_6>.displayName = "§bAmulet";
+<behgameon:accessory_7>.displayName = "§bAmulet";
+<behgameon:accessory_8>.displayName = "§bAmulet";
+<bountifulbaubles:trinketbrokenheart>.displayName = "§bBroken Heart";
 <cyclicmagic:glove_climb>.displayName = "§bClimbing Gloves";
 <mod_lavacow:halo_necklace>.displayName = "§bRadiant Amulet";
 <mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";
@@ -103,7 +137,7 @@ mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
 
 
 
-
+// Remove loot table for Bountiful Baubles
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketluckyhorseshoe");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:magicmirror");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketobsidianskull");
@@ -124,16 +158,8 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketapple");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketbrokenheart");
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketvitamins");
 
-recipes.remove(<bountifulbaubles:brokenblackdragonscale>);
 
 
-mods.jei.JEI.removeAndHide(<bountifulbaubles:flaregun>);
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");
-mods.jei.JEI.removeAndHide(<bountifulbaubles:flare_red>);
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
-
-mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
-mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
 
 
 // Oredicts
@@ -165,8 +191,8 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <quar
 // Rings, amulets, oh my
 
 recipes.remove(<bountifulbaubles:amuletsinempty>);
-recipes.remove(<qualitytools:emerald_amulet>);
-recipes.remove(<qualitytools:emerald_ring>);
+mods.jei.JEI.removeAndHide(<qualitytools:emerald_amulet>);
+mods.jei.JEI.removeAndHide(<qualitytools:emerald_ring>);
 
 
 RecipeBuilder.get("mage")
@@ -179,30 +205,10 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<rustic:chain_gold>, <rustic:chain_gold>, <rustic:chain_gold>],
-    [<rustic:chain_gold>, <contenttweaker:vis_speck>, <rustic:chain_gold>],
-    [<minecraft:gold_nugget>, <ore:gemAny>, <minecraft:gold_nugget>]])
-  .addOutput(<qualitytools:emerald_amulet>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<minecraft:gold_nugget>, <ore:gemAny>, <minecraft:gold_nugget>],
-    [<minecraft:gold_nugget>, <contenttweaker:vis_speck>, <minecraft:gold_nugget>],
-    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]])
-  .addOutput(<qualitytools:emerald_ring>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
 // Ender dragon drops cracked scales AND scale fragments. Use fragments to craft into cracked scales. Use cracked scales to craft into the scale bauble.
 
 // Cracked Ender Dragon Scale
-
+recipes.remove(<bountifulbaubles:brokenblackdragonscale>);
 recipes.addShapeless("Cracked Scale", <bountifulbaubles:brokenblackdragonscale>,
    	[<endreborn:dragon_scales>, <endreborn:dragon_scales>, <endreborn:dragon_scales>]);
 
@@ -348,15 +354,6 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
    
-//Ankh Charm
-
-recipes.remove(<bountifulbaubles:trinketankhcharm>);
-
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketankhcharm>,[
-[<bountifulbaubles:trinketapple>, <bountifulbaubles:trinketmixeddragonscale>, <bountifulbaubles:trinketmagiclenses>],
-[<bountifulbaubles:ringfreeaction>, <contenttweaker:spectral_shard>, <bountifulbaubles:trinketvitamins>], 
-[<nyx:comet_shard>, <dungeontactics:charm_bleak>, <nyx:comet_shard>]], 64);
-   
 // Mixed Color Dragon Scale
 
 recipes.remove(<bountifulbaubles:trinketmixeddragonscale>);
@@ -448,7 +445,7 @@ recipes.remove(<bountifulbaubles:ringoverclocking>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <contenttweaker:electrified_zanite>, <contenttweaker:vis_shard>],
-    [<netherex:coolmar_spider_fang>, <qualitytools:emerald_ring>, <netherex:frost_rod>],
+    [<netherex:coolmar_spider_fang>, <ore:inertRing>, <netherex:frost_rod>],
     [<contenttweaker:vis_shard>, <iceandfire:hippocampus_fin>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:energy_rune>, 1)
   .addOutput(<bountifulbaubles:ringoverclocking>)
@@ -479,7 +476,7 @@ recipes.remove(<bountifulbaubles:amuletcross>);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_speck>, <qualitytools:emerald_amulet>, <contenttweaker:vis_speck>],
+    [<contenttweaker:vis_speck>, <ore:inertAmulet>, <contenttweaker:vis_speck>],
     [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
     [<contenttweaker:vis_speck>, <minecraft:gold_nugget>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
