@@ -82,8 +82,8 @@
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
 
 #Charm
-<charm:totem_of_returning>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
-<charm:totem_of_shielding>.addTooltip("§5Absorbs all incoming damage when held in your offhand.");
+//<charm:totem_of_returning>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
+//<charm:totem_of_shielding>.addTooltip("§5Absorbs all incoming damage when held in your offhand.");
 
 
 #Quark
