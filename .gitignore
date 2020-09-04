@@ -78,3 +78,5 @@ config/qualitytools/problems.txt
 local/ftbutilities/backups.json
 
 local/ftbutilities/uploaded_crash_reports/
+config/Special_AI.cfg
+config/itlt.cfg
