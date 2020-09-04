@@ -22,3 +22,11 @@ mods.inspirations.Cauldron.addFluidRecipe(<cyclicmagic:moon_sensor>, <minecraft:
 
 // Soaking manuscript
 mods.inspirations.Cauldron.addFluidRecipe(<minecraft:paper>, <iceandfire:manuscript>, <liquid:water>);
+
+// Solid Core Egg
+mods.inspirations.Cauldron.addPotionRecipe(<contenttweaker:egg_block>, <ore:listAllegg>, "potioncore:solid_core", 1, false); 
+
+
+###Potion Recipes###
+//mods.inspirations.Cauldron.addBrewingRecipe(String output, String input, IIngredient reagent);
+mods.inspirations.Cauldron.addBrewingRecipe("potioncore:solid_core", "minecraft:slowness", <contenttweaker:holding_quintessence>);
