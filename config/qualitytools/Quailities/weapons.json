@@ -7,7 +7,9 @@
       }
     ],
     "blacklist": [
-
+      {
+        "item": "msmlegacy:relic_infinity"
+      }
     ],
     "qualities": [
       {

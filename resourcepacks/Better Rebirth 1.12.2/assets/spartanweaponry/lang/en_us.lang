@@ -4,3 +4,4 @@ tooltip.spartanweaponry:two_handed.desc=Any item in the opposite hand slows down
 tooltip.spartanweaponry:damage_absorb.desc=%d%% of damage taken is absorbed in durability of this weapon
 tooltip.spartanweaponry:reach.desc=Increased melee damage range exponentially.
 item.spartanweaponry:crossbow_wood.name=Crossbow
+material.spartanweaponry:invar=§eHeaven's

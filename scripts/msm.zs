@@ -45,7 +45,61 @@ recipes.addShaped("Draconic Blade", <msmlegacy:draconic_blade>,[
 
 
 ////////////////////////////////////////    Relics        ///////////////////////////////////
+
+
+
+/////////////////////        Heaven's Halberd        /////////////////////
+mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:katana_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:saber_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:hammer_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:spear_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:pike_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:lance_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:mace_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:staff_invar>);
+
+
+
+var sange = <dungeontactics:mithril_sword>;
+var talisman = <behgameon:accessory_4>;
+
+val enchantmentsHeaven as IEnchantmentDefinition[] = [<enchantment:randomenchantments:disarm>];
+
+var enchantmentsHeavenMap as IData = {};
+
+enchantmentsHeavenMap += enchantmentsHeaven[0].makeEnchantment(1).makeTag();
+
+recipes.remove(<spartanweaponry:halberd_invar>);
+mods.betterwithmods.Anvil.addShaped(<spartanweaponry:halberd_invar>.withTag(enchantmentsHeavenMap), 
+[
+   [null, null, null, null],
+   [null, null, sange, null],
+   [null, talisman, null, null],
+   [null, null, null, null]
+]);
+
+
+
+
+
+
 /////////////////////        Red Hot Chili Pepper Sword        /////////////////////
+<msmlegacy:relic_aqueous>.removeTooltip("Relic 1 of 7.");
+<msmlegacy:relic_aqueous>.addTooltip(format.gold("Patreon relic 1 of 3."));
+
+
 
 var ruby = <ore:gemRuby>;
 var chili = <rustic:chili_pepper>;
@@ -68,6 +122,9 @@ recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTa
 
 
 /////////////////////        Burning Super Death Sword        /////////////////////
+<msmlegacy:relic_candy>.removeTooltip("Relic 2 of 7.");
+<msmlegacy:relic_candy>.addTooltip(format.gold("Patreon relic 2 of 3."));
+
 
 var sfs = <betterwithmods:material:14>;
 var fiery = <twilightforest:fiery_ingot>;

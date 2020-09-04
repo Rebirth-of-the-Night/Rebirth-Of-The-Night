@@ -13,6 +13,12 @@ import crafttweaker.item.WeightedItemStack;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
 
+// Heaven's Halberd
+
+<spartanweaponry:halberd_invar>.displayName = "§eHeaven's Halberd";
+<spartanweaponry:halberd_invar>.addTooltip(format.lightPurple("This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not."));
+<spartanweaponry:halberd_invar>.addTooltip(format.gold("Patreon relic 3 of 3."));
+
 
 // Belt of Strength
 <behgameon:accessory_1>.displayName = "§bBelt of Strength";
@@ -20,8 +26,7 @@ import crafttweaker.entity.IEntityDefinition;
 
 mods.ltt.LootTable.removeGlobalItem("behgameon:accessory_1");
 
-mods.jei.JEI.addDescription(<behgameon:accessory_1>, "A valued accessory for improving vitality. It rarely drops from Bandits and Cave Trolls.");
-
+<behgameon:accessory_1>.addTooltip(format.lightPurple("A valued accessory for improving vitality."));
 
 
 // Ogre Axe
@@ -31,7 +36,7 @@ mods.jei.JEI.addDescription(<behgameon:accessory_1>, "A valued accessory for imp
 recipes.remove(<dungeontactics:silver_axe>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_axe");
 
-mods.jei.JEI.addDescription(<dungeontactics:silver_axe>, "You grow stronger just by holding it. Found rarely in chests underground.");
+<dungeontactics:silver_axe>.addTooltip(format.lightPurple("You grow stronger just by holding it."));
 
 
 
@@ -51,7 +56,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:mithril_sword>,
    [null, null, null, null]
 ]);
 
-mods.jei.JEI.addDescription(<dungeontactics:mithril_sword>, "Sange is an unusually accurate weapon, seeking weak points automatically.");
+<dungeontactics:mithril_sword>.addTooltip(format.lightPurple("An unusually accurate weapon, seeking weak points automatically."));
 
 
 
@@ -63,4 +68,4 @@ mods.jei.JEI.addDescription(<dungeontactics:mithril_sword>, "Sange is an unusual
 
 mods.ltt.LootTable.removeGlobalItem("behgameon:accessory_4");
 
-mods.jei.JEI.addDescription(<behgameon:accessory_4>, "A necklace that allows you to anticipate enemy attacks. It can be found by trading from a shady villager...");
+<behgameon:accessory_4>.addTooltip(format.lightPurple("A necklace that allows you to anticipate enemy attacks."));
