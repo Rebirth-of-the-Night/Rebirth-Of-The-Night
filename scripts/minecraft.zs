@@ -958,6 +958,17 @@ recipes.addShapeless("lunarin_rime", <contenttweaker:lunarinrimebrick>*24,
 recipes.addShapeless("lunarin_fiery", <contenttweaker:lunarinfierybrick>*24,
 	[<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
 );
+//Farlander
+recipes.addShapeless("farlander_amethyst", <contenttweaker:farlanderamethystbrick>*24,
+	[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>]
+);
+recipes.addShapeless("farlander_zanite", <contenttweaker:farlanderzanitebrick>*24,
+	[<ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>]
+);
+recipes.addShapeless("farlander_diamond", <contenttweaker:farlanderdiamondbrick>*24,
+	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
+);
+//Other
 recipes.addShapeless("witheredblock_to_dust>", <quark:black_ash>*9, 
    [<contenttweaker:witheredblock>]
 );
@@ -966,6 +977,11 @@ recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
     	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
     	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
 ]);
+recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
+	[<dungeontactics:toast>, <dungeontactics:toast>],
+    [<dungeontactics:toast>, <dungeontactics:toast>]
+]);
+//L'egg recipe is in inspirations.zs
 
 // Dead man satchel (Dust Bag)
 

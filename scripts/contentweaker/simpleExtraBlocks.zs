@@ -147,3 +147,10 @@ firedrefractory.setCreativeTab(<creativetab:buildingBlocks>);
 firedrefractory.setBlockSoundType(<soundtype:stone>);
 firedrefractory.setToolClass("pickaxe");
 firedrefractory.register();
+
+var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Rock>);
+egg_block.setCreativeTab(<creativetab:buildingBlocks>);
+egg_block.setBlockSoundType(<soundtype:stone>);
+egg_block.setToolClass("pickaxe");
+egg_block.setFullBlock(false);
+egg_block.register();
