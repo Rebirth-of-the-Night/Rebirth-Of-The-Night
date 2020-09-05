@@ -100,7 +100,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Installation#Installing_OptiFine_.28required.21.29"
+                "link" : "https://wiki.rebirthofthenight.com/wiki/Installation#Installing_OptiFine_.28required.21.29"
             }
         },
         "music":
@@ -119,7 +119,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Installation#Installing_Custom_Music_.28recommended.29"
+                "link" : "https://wiki.rebirthofthenight.com/wiki/Installation#Installing_Custom_Music_.28recommended.29"
             }
         },
         "discord":
@@ -157,7 +157,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Rebirth_of_the_Night_Mod_Pack_Wiki"
+                "link" : "https://wiki.rebirthofthenight.com/wiki/Main_Page"
             }
         },
         "tips":
@@ -176,7 +176,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Tips"
+                "link" : "https://wiki.rebirthofthenight.com/wiki/Tips"
             }
         },
         "patreon":
