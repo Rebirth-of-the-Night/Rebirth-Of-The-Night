@@ -7,6 +7,11 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "dungeontactics:mithril_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "behgameon:accessory_1"
                 },
 				{

@@ -441,7 +441,7 @@
     "mob": "iceandfire:if_troll",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.01,
+	"random": 0.00001,
     "maxcount": {
         "amount": 1,
         "perplayer": true
