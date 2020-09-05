@@ -153,4 +153,6 @@ egg_block.setCreativeTab(<creativetab:buildingBlocks>);
 egg_block.setBlockSoundType(<soundtype:stone>);
 egg_block.setToolClass("pickaxe");
 egg_block.setFullBlock(false);
+egg_block.gravity(true);
+egg_block.lightOpacity(75);
 egg_block.register();

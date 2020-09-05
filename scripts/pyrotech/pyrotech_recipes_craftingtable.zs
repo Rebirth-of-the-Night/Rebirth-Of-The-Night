@@ -103,12 +103,12 @@ val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
 val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<betternether:quartz_glass_framed:*>|<netherex:soul_glass>;
 
-recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]);
+recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>]);
+recipes.addShapeless("rock_conversion",<minecraft:sandstone>,[<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 [<pyrotech:material>,]);
-
 recipes.addShaped("twineToString", <minecraft:string>,
 [[twine,twine,twine]]);
 recipes.addShaped("pyro_stone_brick", stoneBrick*8,
@@ -215,9 +215,9 @@ recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
  [[stoneBrick,null,stoneBrick],
   [<ore:twine>,stoneBrick,<ore:twine>],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
-recipes.addShaped("pyro_chopping_block", <pyrotech:chopping_block>,
- [[<ore:toolAxe>.transformDamage()],
-  [<ore:logWood>]]);  
+recipes.addShaped("pyro_crude_axe", <pyrotech:crude_axe>,
+ [[<pyrotech:rock>|<minecraft:flint>,<ore:stickWood>],
+  [<ore:stickWood>,null]]);  
 recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
  [[null,<ore:stickWood>],
   [<ore:stickWood>,<ore:twine>]]);
