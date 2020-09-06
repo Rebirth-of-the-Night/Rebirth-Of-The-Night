@@ -6,6 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 mods.jei.JEI.removeAndHide(<animania:block_mud>);
 mods.jei.JEI.removeAndHide(<animania:riding_crop>);
+mods.jei.JEI.removeAndHide(<animania:item_wagon>);
 
 recipes.removeByRecipeName("animania:straw");
 recipes.removeByRecipeName("animania:bed");
