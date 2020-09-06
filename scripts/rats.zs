@@ -43,6 +43,8 @@ mods.jei.JEI.removeAndHide(<rats:rat_upgrade_milker>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_breeder>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_disenchanter>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_enchanter>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_fisherman>);
 
 // maybe add these later with magic mods and/or Twilight Forest progression
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_ratlantean>);
@@ -182,11 +184,11 @@ recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
     [<ore:ingotIron>, <minecraft:iron_block>, <ore:ingotIron>]
 ]);
 
-recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
+/*recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
     [<minecraft:book>,<minecraft:enchanting_table>,<minecraft:book>],
     [<ore:bookshelf>,<rats:rat_upgrade_basic>,<ore:bookshelf>],
     [<minecraft:book>,<minecraft:experience_bottle>,<minecraft:book>]
-]);
+]); */
 
 recipes.addShaped("rats_replanter_upgrade",<rats:rat_upgrade_replanter>,[
     [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>],
@@ -281,7 +283,6 @@ mods.rats.recipes.addChefRatRecipe(<minecraft:golden_apple:1>, <rats:confit_byal
 mods.rats.recipes.addChefRatRecipe(<minecraft:skull>, <harvestcraft:spaghettidinneritem>);
 mods.rats.recipes.addChefRatRecipe(<minecraft:rotten_flesh>, <harvestcraft:zombiejerkyitem>);
 mods.rats.recipes.addChefRatRecipe(<minecraft:spider_eye>, <harvestcraft:spidereyesoupitem>);
-mods.rats.recipes.addChefRatRecipe(<biomesoplenty:fleshchunk>, <minecraft:rotten_flesh>);
 mods.rats.recipes.addChefRatRecipe(<aether_legacy:cooked_enchanted_cockatrice>, <harvestcraft:deluxechickencurryitem>);
 mods.rats.recipes.addChefRatRecipe(<quark:root>, <harvestcraft:roastedrootveggiemedleyitem>);
 mods.rats.recipes.addChefRatRecipe(<quark:rune:16>, <harvestcraft:epicbaconitem>);

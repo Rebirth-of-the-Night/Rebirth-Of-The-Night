@@ -97,6 +97,11 @@ mods.jei.JEI.removeAndHide(<dungeontactics:silver_nugget>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_ore>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_block>);
 
+mods.jei.JEI.removeAndHide(<dungeontactics:wither_web>);
+mods.jei.JEI.removeAndHide(<dungeontactics:backfire_cannon>);
+mods.jei.JEI.removeAndHide(<dungeontactics:pirate_hook>);
+mods.jei.JEI.removeAndHide(<dungeontactics:boots_of_blinding_speed>);
+
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_axe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_shovel");
@@ -111,6 +116,11 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:mortar&pestle");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:pirate_hook");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:boots_of_blinding_speed");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:backfire_cannon");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wither_web");
+
 
 // this removes the regular magic scroll recipe, and hides it from JEI. Added back as wands further down
 recipes.remove(<dungeontactics:magic_scroll>);

@@ -214,6 +214,30 @@ mods.jei.JEI.removeAndHide(<spartancompat:crossbow_holystone>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_zanite>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_gravitite>);
 
+// I'm sorry, little one.
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:halberd_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:saber_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:rapier_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:spear_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:pike_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:katana_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:mace_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:glaive_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:staff_holystone>);
+
 // Replace skyroot handles and poles with regular versions
 
 recipes.removeByRegex("spartancompat:.*(?<!handle_|pole_)skyroot");
