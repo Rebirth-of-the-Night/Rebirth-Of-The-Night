@@ -13,11 +13,11 @@
 						}
 					}
 				],
-				"surface": "sand"
+				"surface": "sand",
 				"cluster-size": 7
 				},
 			"cluster-count": 5,
-			"chunk-chance": 8
+			"chunk-chance": 8,
 			"retrogen": "true",
 			"biome": "all"
 		}
