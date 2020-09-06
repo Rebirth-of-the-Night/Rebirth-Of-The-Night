@@ -1,4 +1,6 @@
 [
+
+
   // Zotzpyre
   {
     "dimension": [0,10],
@@ -130,7 +132,7 @@
         "mob": "iceandfire:if_troll",
         "weight": 1,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },

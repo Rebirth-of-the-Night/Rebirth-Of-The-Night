@@ -3,24 +3,203 @@
     "dimension": 7,
     "damagemultiply": 2
  },
-
- {
-    "mob": "toroquest:toroquest_sentry",
-    "structure": "Village",
-	"random": 0.05,
-	"seesky": true,
-    "minlight": 10,
-    "maxcount": {
-        "amount": 1,
-        "perchunk": true
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "toroquest:toroquest_sentry",
-    "result": "deny"
-  },
   
+  // Zombies
+
+  //////////////// DEFAULT //////////////////////////
+
+  {
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorhelmet": ["minecraft:leather_helmet", "minecraft:chainmail_helmet"]
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorchest": ["minecraft:leather_chestplate", "minecraft:chainmail_chestplate"]
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorlegs": ["minecraft:leather_leggings", "minecraft:chainmail_leggings"]
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorboots": ["minecraft:leather_boots", "minecraft:chainmail_boots"]
+},
+
+
+/////////// KILLED HARVESTER GAMESTAGE //////////////
+
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorhelmet": "atop:mud_helmet",
+    "gamestage": "killedHarvester"
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorchest": "atop:mud_chestplate",
+    "gamestage": "killedHarvester"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorlegs": "atop:mud_leggings",
+    "gamestage": "killedHarvester"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorboots": "atop:mud_boots",
+    "gamestage": "killedHarvester"
+},
+
+
+/////////// NETHER GAMESTAGE //////////////
+
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorhelmet": "minecraft:golden_helmet",
+    "gamestage": "enteredNether"
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorchest": "minecraft:golden_chestplate",
+    "gamestage": "enteredNether"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorlegs": "minecraft:golden_leggings",
+    "gamestage": "enteredNether"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorboots": "minecraft:golden_boots",
+    "gamestage": "enteredNether"
+},
+
+
+/////////// DIAMOND ARMOR GAMESTAGE //////////////
+
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorhelmet": ["iceandfire:armor_silver_metal_helmet", "minecraft:iron_helmet"],
+    "gamestage": "fullMidArmor"
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorchest": ["iceandfire:armor_silver_metal_chestplate", "minecraft:iron_chestplate"],
+    "gamestage": "fullMidArmor"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorlegs": ["iceandfire:armor_silver_metal_leggings", "minecraft:iron_leggings"],
+    "gamestage": "fullMidArmor"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorboots": ["iceandfire:armor_silver_metal_boots", "minecraft:iron_boots"],
+    "gamestage": "fullMidArmor"
+},
+
+
+/////////// MYTHRIL GAMESTAGE //////////////
+
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorhelmet": ["minecraft:diamond_helmet","endreborn:armour_helmet_helmet"],
+    "gamestage": "minedMythril"
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorchest": ["minecraft:diamond_chestplate","endreborn:armour_chestplate_obsidian"],
+    "gamestage": "minedMythril"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorlegs": ["minecraft:diamond_leggings","endreborn:armour_leggings_obsidian"],
+    "gamestage": "minedMythril"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorboots": ["minecraft:diamond_boots","endreborn:armour_boots_obsidian"],
+    "gamestage": "minedMythril"
+},
+
+
+/////////// ENDER DRAGON GAMESTAGE //////////////
+
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorhelmet": ["simpleores:mythril_helmet", "simpleores:adamantium_helmet"],
+    "gamestage": "killedEnderDragon"
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorchest": ["simpleores:mythril_chestplate", "simpleores:adamantium_chestplate"],
+    "gamestage": "killedEnderDragon"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorlegs": ["simpleores:mythril_leggings", "simpleores:adamantium_leggings"],
+    "gamestage": "killedEnderDragon"
+
+},
+{
+    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
+    "random": 0.1,
+    "armorboots": ["simpleores:mythril_boots", "simpleores:adamantium_boots"],
+    "gamestage": "killedEnderDragon"
+},
+
+	////////////////// TOOL GAME STAGES //////////////////////////
+{
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": ["1=simpleores:mythril_pickaxe","2=simpleores:onyx_pickaxe"],
+    "gamestage": "killedEnderDragon"
+},
+{
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": "1=minecraft:diamond_pickaxe",
+    "gamestage": "minedMythril"
+},
+{
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
+    "gamestage": "fullMidArmor"
+},
+
+
+
+
 {
     "mob": "biomesoplenty:wasp",
 	"onjoin": true,
@@ -348,6 +527,7 @@
     "potion": "extraalchemy:effect.fuse,300,1"
   },
 
+
 /// more mobs
  // Enderman
  {
@@ -441,12 +621,17 @@
     "mob": "iceandfire:if_troll",
     "maxlight": 7,
     "minlight": 0,
-	"random": 0.00001,
+	"random": 0.001,
     "maxcount": {
         "amount": 1,
         "perplayer": true
     },
     "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "iceandfire:if_troll",
+    "result": "deny"
  },
  
  {
@@ -1385,198 +1570,7 @@
     "result": "deny"
  },
 
-  // Zombies
 
-  //////////////// DEFAULT //////////////////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorhelmet": ["minecraft:leather_helmet", "minecraft:chainmail_helmet"]
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorchest": ["minecraft:leather_chestplate", "minecraft:chainmail_chestplate"]
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorlegs": ["minecraft:leather_leggings", "minecraft:chainmail_leggings"]
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorboots": ["minecraft:leather_boots", "minecraft:chainmail_boots"]
-},
-
-
-/////////// MINED DIAMOND GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorhelmet": "atop:mud_helmet",
-    "gamestage": "killedHarvester"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorchest": "atop:mud_chestplate",
-    "gamestage": "killedHarvester"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorlegs": "atop:mud_leggings",
-    "gamestage": "killedHarvester"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorboots": "atop:mud_boots",
-    "gamestage": "killedHarvester"
-},
-
-
-/////////// NETHER GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorhelmet": "minecraft:golden_helmet",
-    "gamestage": "enteredNether"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorchest": "minecraft:golden_chestplate",
-    "gamestage": "enteredNether"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorlegs": "minecraft:golden_leggings",
-    "gamestage": "enteredNether"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorboots": "minecraft:golden_boots",
-    "gamestage": "enteredNether"
-},
-
-
-/////////// DIAMOND ARMOR GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorhelmet": ["iceandfire:armor_silver_metal_helmet", "minecraft:iron_helmet"],
-    "gamestage": "fullMidArmor"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorchest": ["iceandfire:armor_silver_metal_chestplate", "minecraft:iron_chestplate"],
-    "gamestage": "fullMidArmor"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorlegs": ["iceandfire:armor_silver_metal_leggings", "minecraft:iron_leggings"],
-    "gamestage": "fullMidArmor"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorboots": ["iceandfire:armor_silver_metal_boots", "minecraft:iron_boots"],
-    "gamestage": "fullMidArmor"
-},
-
-
-/////////// MYTHRIL GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorhelmet": ["minecraft:diamond_helmet","endreborn:armour_helmet_helmet"],
-    "gamestage": "minedMythril"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorchest": ["minecraft:diamond_chestplate","endreborn:armour_chestplate_obsidian"],
-    "gamestage": "minedMythril"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorlegs": ["minecraft:diamond_leggings","endreborn:armour_leggings_obsidian"],
-    "gamestage": "minedMythril"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorboots": ["minecraft:diamond_boots","endreborn:armour_boots_obsidian"],
-    "gamestage": "minedMythril"
-},
-
-
-/////////// ENDER DRAGON GAMESTAGE //////////////
-
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorhelmet": ["simpleores:mythril_helmet", "simpleores:adamantium_helmet"],
-    "gamestage": "killedEnderDragon"
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorchest": ["simpleores:mythril_chestplate", "simpleores:adamantium_chestplate"],
-    "gamestage": "killedEnderDragon"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorlegs": ["simpleores:mythril_leggings", "simpleores:adamantium_leggings"],
-    "gamestage": "killedEnderDragon"
-
-},
-{
-    "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
-    "random": 0.1,
-    "armorboots": ["simpleores:mythril_boots", "simpleores:adamantium_boots"],
-    "gamestage": "killedEnderDragon"
-},
-
-	////////////////// TOOL GAME STAGES //////////////////////////
-{
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
-    "helditem": ["1=simpleores:mythril_pickaxe","2=simpleores:onyx_pickaxe"],
-    "gamestage": "killedEnderDragon"
-},
-{
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
-    "helditem": "1=minecraft:diamond_pickaxe",
-    "gamestage": "minedMythril"
-},
-{
-    "mob": ["minecraft:zombie","primitivemobs:goblin"],
-    "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
-    "gamestage": "fullMidArmor"
-},
 
 	////////////////// ZOMBIE SPAWNS //////////////////////////
 {

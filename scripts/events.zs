@@ -135,10 +135,19 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 		event.drops = drops;
 	}
 
-	// Toroquest bandit accessory_1
+	// Toroquest bandit accessory_1 (Belt of Strength)
 	if (event.entityLivingBase.definition.id == "toroquest:toroquest_sentry") {
 		var drops = event.drops as [IEntityItem];
 		if (Math.random() <= 0.1) {
+			drops += <behgameon:accessory_1>.createEntityItem(event.entityLivingBase.world, event.entityLivingBase.position);
+		}
+		event.drops = drops as IEntityItem[];
+	}
+
+	// Ice and Fire Troll accessory_1 (Belt of Strength)
+	if (event.entityLivingBase.definition.id == "iceandfire:if_troll") {
+		var drops = event.drops as [IEntityItem];
+		if (Math.random() <= 0.5) {
 			drops += <behgameon:accessory_1>.createEntityItem(event.entityLivingBase.world, event.entityLivingBase.position);
 		}
 		event.drops = drops as IEntityItem[];

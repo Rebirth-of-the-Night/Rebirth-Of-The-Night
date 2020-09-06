@@ -22,7 +22,7 @@
           },
           {
             "name": "generic.attackDamage",
-            "amount": 0.1,
+            "amount": 0.25,
             "operation": 2
           },
           {
@@ -37,7 +37,7 @@
           },
           {
             "name": "generic.attackSpeed",
-            "amount": 0.20,
+            "amount": 0.25,
             "operation": 2
           }
         ]

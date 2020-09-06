@@ -75,14 +75,8 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:staff_invar>);
 var sange = <dungeontactics:mithril_sword>;
 var talisman = <behgameon:accessory_4>;
 
-val enchantmentsHeaven as IEnchantmentDefinition[] = [<enchantment:randomenchantments:disarm>];
-
-var enchantmentsHeavenMap as IData = {};
-
-enchantmentsHeavenMap += enchantmentsHeaven[0].makeEnchantment(1).makeTag();
-
 recipes.remove(<spartanweaponry:halberd_invar>);
-mods.betterwithmods.Anvil.addShaped(<spartanweaponry:halberd_invar>.withTag(enchantmentsHeavenMap), 
+mods.betterwithmods.Anvil.addShaped(<spartanweaponry:halberd_invar>, 
 [
    [null, null, null, null],
    [null, null, sange, null],

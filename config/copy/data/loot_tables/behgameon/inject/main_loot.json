@@ -6,8 +6,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
-                    "name": "dungeontactics:mithril_axe"
+                    "weight": 2,
+                    "name": "dungeontactics:silver_axe"
                 },
                 {
                     "type": "item",

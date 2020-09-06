@@ -19,6 +19,8 @@ import crafttweaker.entity.IEntityDefinition;
 <spartanweaponry:halberd_invar>.addTooltip(format.lightPurple("This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not."));
 <spartanweaponry:halberd_invar>.addTooltip(format.gold("Patreon relic 3 of 3."));
 
+mods.jei.JEI.addDescription(<spartanweaponry:halberd_invar>,"Relic idea by Heaveness. Thank you for being a Dragonsteel Supporter on Patreon!");
+
 
 // Belt of Strength
 <behgameon:accessory_1>.displayName = "§bBelt of Strength";
@@ -43,7 +45,7 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_axe");
 
 // Sange
 <dungeontactics:mithril_sword>.displayName = "§5Sange";
-<dungeontactics:mithril_sword>.addTooltip(format.darkPurple("Epic Weapon"));
+<dungeontactics:mithril_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 
 furnace.remove(<dungeontactics:mithril_sword>);
 furnace.remove(<dungeontactics:mithril_ingot>);

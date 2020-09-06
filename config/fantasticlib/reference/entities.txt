@@ -254,7 +254,9 @@ betterwithmods:bwm_jungle_spider
 arcanearchives:weight
 artifacts:mimic
 artifacts:hallow_star
+quark:seat
 quark:gravisand
+quark:chest_passenger
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -274,8 +276,6 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:seat
-quark:chest_passenger
 betterwithaddons:greatarrow
 betterwithaddons:ya
 betterwithaddons:artifactframe
