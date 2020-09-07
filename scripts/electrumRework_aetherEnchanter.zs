@@ -532,5 +532,4 @@ mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 3220
 
 
 //Special
-mods.aether_legacy.Enchanter.registerEnchantment(<quark:pickarang>, 7700);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanshields:shield_basic_diamond>, 7700);

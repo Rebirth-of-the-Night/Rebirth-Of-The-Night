@@ -60,7 +60,6 @@ val gemAll = [
 	<minecraft:diamond_leggings>,
 	<minecraft:diamond_boots>,
 	<spartanshields:shield_basic_diamond>,
-	<quark:pickarang>,
 	<atop:ruby_helmet>,
 	<atop:ruby_chestplate>,
 	<atop:ruby_leggings>,
@@ -94,10 +93,6 @@ recipes.addShaped("diamond_pickaxe", <minecraft:diamond_pickaxe>,
  [[diamond,diamond,diamond],
   [null,stick,null],
   [null,stick,null]]);
-recipes.addShapedMirrored("diamond_pickarang", <quark:pickarang>,
- [[diamond,wood,dheart],
-  [null,<spartanweaponry:boomerang_diamond>,wood],
-  [null,null,diamond]]);  
 recipes.addShapedMirrored("diamond_hoe", <minecraft:diamond_hoe>,
  [[diamond,diamond],
   [null,stick],
