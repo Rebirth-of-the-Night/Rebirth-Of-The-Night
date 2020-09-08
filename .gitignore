@@ -67,3 +67,5 @@ local/ftbutilities/backups.json
 
 local/ftbutilities/uploaded_crash_reports/
 mods/Sound-Physics-1.12.2-*.jar
+
+config/fantasticlib/reference/players.txt
