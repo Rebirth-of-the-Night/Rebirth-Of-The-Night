@@ -818,7 +818,6 @@ quark:item.horse_whistle.blow
 quark:block.tiny_potato.shia_labeouf
 bettercombatmod:player.swordslash
 bettercombatmod:player.criticalstrike
-disenchanter:block.disenchantment_table.use
 doggytalents:whistle_short
 doggytalents:whistle_long
 fairylights:cord.stretch
