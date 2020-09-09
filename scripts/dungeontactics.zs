@@ -477,6 +477,7 @@ recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
 ]);
 
 recipes.remove(<dungeontactics:tunnelling_device>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:tunnelling_device");
 recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
 	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],
     [<dungeontactics:steel_ingot>, <betterwithmods:material:17>, <betterwithmods:material:31>],
