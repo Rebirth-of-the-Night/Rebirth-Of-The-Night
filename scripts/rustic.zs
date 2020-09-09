@@ -9,6 +9,9 @@ for branch in branchArray{
     mods.jei.JEI.hide(branch);
 }
 
+mods.jei.JEI.removeAndHide(<rustic:lantern_wood>);
+
+
 mods.jei.JEI.removeAndHide(<rustic:tomato_seeds>);
 mods.jei.JEI.removeAndHide(<rustic:tomato>);
 
@@ -25,9 +28,11 @@ mods.jei.JEI.removeAndHide(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ho
 
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
+recipes.remove(<rustic:silver_lantern>);
 
 var iron = <ore:ingotIron>;
 var tin = <ore:ingotTin>;
+var silver = <ore:ingotSilver>;
 var gold = <ore:ingotGold>;
 var torch = <minecraft:torch>;
 var glass = <minecraft:glass_pane>;
@@ -45,12 +50,19 @@ recipes.addShaped("Tin Lantern", <rustic:iron_lantern>,[
     [null, tin, null]
 ]);
 
+recipes.addShaped("Silver Lantern", <rustic:silver_lantern>,[
+	[null, silver, null],
+    [glass, torch, glass],
+    [null, silver, null]
+]);
+
 
 
 # Iron and Gold Candles
 
 recipes.remove(<rustic:candle>);
 recipes.remove(<rustic:candle_gold>);
+recipes.remove(<rustic:candle_silver>);
 
 var whitecandle = <betterwithmods:candle:0>;
 
@@ -64,6 +76,12 @@ recipes.addShaped("Golden Candle", <rustic:candle_gold>,[
 	[null, null, null],
     [null, whitecandle, null],
     [null, gold, null]
+]);
+
+recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
+	[null, null, null],
+    [null, whitecandle, null],
+    [null, silver, null]
 ]);
 
 
