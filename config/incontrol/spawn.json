@@ -303,6 +303,23 @@
     "onjoin": true
   },
 
+
+ // no weird fugitives
+ {
+    "mob": "toroquest:toroquest_fugitive",
+    "dimension": [1, 4, 7, 10, -1],
+    "onjoin": true,
+    "result": "deny"
+ }, 
+ 
+ // no endermen here
+ {
+    "mob": "minecraft:enderman",
+    "dimension": 7,
+    "onjoin": true,
+    "result": "deny"
+ }, 
+
   {
     "mob": "aether_legacy:swet",
     "onjoin": true,
@@ -1352,7 +1369,7 @@
 // Witch Witch 
 
  {
-    "dimension": 0,
+    "dimension": [0,7],
     "mob": "specialmobs:windwitch",
     "gamestage": "killedHarvester",
 	"random": 0.12,
@@ -1363,12 +1380,12 @@
     "result": "default"
  },
   {
-    "dimension": 0,
+    "dimension": [0,7],
     "mob": "specialmobs:windwitch",
     "result": "deny"
  },
   {
-    "dimension": 0,
+    "dimension": [0,7],
     "mob": "specialmobs:wildswitch",
     "gamestage": "fullMidArmor",
 	"random": 0.12,
@@ -1379,7 +1396,7 @@
     "result": "default"
  },
    {
-    "dimension": 0,
+    "dimension": [0,7],
     "mob": "specialmobs:wildswitch",
     "result": "deny"
  },
@@ -1507,7 +1524,7 @@
  },
  
   {
-    "dimension": [0,10],
+    "dimension": [0,7,10],
     "mob": "specialmobs:poisonsilverfish",
     "gamestage": "enteredBeneath",
 	"maxlight": 5,
@@ -1523,7 +1540,7 @@
     "result": "allow"
  },
     {
-    "dimension": [0,10],
+    "dimension": [0,7,10],
     "mob": "specialmobs:poisonsilverfish",
     "result": "deny"
  },
@@ -2308,7 +2325,7 @@
     "mob": "mod_lavacow:ithaqua",
 	"biome": ["Forest", "Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "ForestHills", "TaigaHills", "Extreme Hills Edge", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Extreme Hills M", "Flower Forest", "Taiga M", "Ice Plains Spikes", "Birch Forest M", "Birch Forest Hills M", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Crag", "Dead Forest", "Mountain", "Ominous Woods", "Seasonal Forest", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "Glacier", "AlpsFoothills", "MountainFoothills", "The Beneath"],
     "gamestage": "minedMythril",
-	"random": 0.10,
+	"random": 0.25,
 	"maxlight": 7,
     "minlight": 0,
     "maxcount": {

@@ -16,7 +16,7 @@ mods.iceandfire.recipes.addIceDragonForgeRecipe
 	(<dungeontactics:steel_ingot>,<iceandfire:ice_dragon_blood>,<iceandfire:dragonsteel_ice_ingot>);
 	
 //golden apple
-mods.iceandfire.recipes.addFireDragonForgeRecipe(<minecraft:apple>, <minecraft:milk_bucket>, <minecraft:golden_apple>);
+//mods.iceandfire.recipes.addFireDragonForgeRecipe(<minecraft:apple>, <minecraft:milk_bucket>, <minecraft:golden_apple>);
 
 //Ender Elevator
 mods.iceandfire.recipes.addFireDragonForgeRecipe

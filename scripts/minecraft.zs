@@ -538,10 +538,12 @@ mods.ltt.LootTable.removeGlobalItem("minecraft:shield");
 var potions = <minecraft:potion>;
 var potions_splash = <minecraft:splash_potion>;
 var potions_lingering = <minecraft:lingering_potion>;
+var elixir = <rustic:elixir>;
 
 potions.maxStackSize = 8;
 potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
+elixir.maxStackSize = 8;
 
 <dungeontactics:bone_cestus>.displayName = "Holy Stake";
 recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>, 

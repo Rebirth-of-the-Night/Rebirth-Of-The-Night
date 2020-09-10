@@ -113,7 +113,81 @@ Dropt.list("Well_Worth")
       )	
   );
 
+Dropt.list("Crate_Job")
+
+  .add(Dropt.rule()
+      .matchBlocks(["charm:crate:*"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+		  .items("ALL", [<betterwithmods:material:22>*2,<betterwithmods:material:22>*5])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2))
+       	   .items("ALL", [<betterwithmods:material:22>*1,<betterwithmods:material:22>*2])
+	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+       	  .items("ALL", [<betterwithmods:material:22>*3,<betterwithmods:material:22>*2])
+      )
+  );  
   
+  
+Dropt.list("Berry_Good")
+
+  .add(Dropt.rule()
+      .matchBlocks(["rustic:wildberry_bush"])
+	  .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1), "REQUIRED")
+           .items([<rustic:wildberry_bush>])
+	  )
+	  .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(30), "EXCLUDED", 0)
+		   .items([<minecraft:stick>])
+      )		  
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(15), "EXCLUDED", 0)
+		   .items([<minecraft:stick>*2])
+      )		  
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(10), "EXCLUDED", 0)
+		   .items([<rustic:wildberries>])
+      )		  
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(1), "EXCLUDED", 0)
+		   .items([<rats:little_black_worm>])
+      )	
+  );
+
+Dropt.list("mud")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:mud"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("BLACKLIST", [], "shovel;0;-1")
+      )
+      .addDrop(Dropt.drop()
+	      .selector(Dropt.weight(10))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000)) 
+          .items([<biomesoplenty:mudball>])
+	  )	  
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(40))
+          .items([<biomesoplenty:mudball>*2])
+	  )	  
+  );
+
+Dropt.list("sludge")
+
+  .add(Dropt.rule()
+      .matchBlocks(["mod_lavacow:pileofsludge"])
+      .addDrop(Dropt.drop())
+  );
+
 Dropt.list("clovers")
 
   .add(Dropt.rule()

@@ -604,7 +604,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
     [null, <contenttweaker:blank_charm>, null],
     [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
-  .addTool(<contenttweaker:luna_rune>, 1)
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:death_rune>, 1)
   .addOutput(<dungeontactics:charm_barren>)
   .setMinimumTier(1)
   .setMaximumTier(1)

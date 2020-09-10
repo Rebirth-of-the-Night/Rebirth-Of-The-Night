@@ -1,6 +1,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import crafttweaker.item.IItemTransformer;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 mods.jei.JEI.removeAndHide(<biomesoplenty:peach>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:plant_1:3>);
@@ -37,6 +41,28 @@ mods.jei.JEI.removeAndHide(<biomesoplenty:gem:5>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:5>);
 mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
+
+
+recipes.remove(<biomesoplenty:flesh>);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8],
+    [<biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8],
+    [<biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addOutput(<biomesoplenty:flesh>*8)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+recipes.remove(<biomesoplenty:mud>);
+recipes.addShaped("mudblock", <biomesoplenty:mud>, [
+    [<biomesoplenty:mudball>,<biomesoplenty:mudball>,<biomesoplenty:mudball>],
+    [<biomesoplenty:mudball>,<biomesoplenty:mudball>,<biomesoplenty:mudball>],
+    [<biomesoplenty:mudball>,<biomesoplenty:mudball>,<biomesoplenty:mudball>]
+]);
 
 recipes.removeByRecipeName("biomesoplenty:biome_finder");
 

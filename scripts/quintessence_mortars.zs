@@ -229,7 +229,7 @@ creationQuintessenceB.add(
     <minecraft:clay_ball>,
     <quark:tallow>,
     <minecraft:wheat>,
-    <minecraft:snowball>
+	<biomesoplenty:fleshchunk>
 );
 
 // Order A - Natural order
@@ -461,7 +461,8 @@ soulQuintessenceB.add(
     <quark:soul_powder>,
     <betterwithmods:material:23>,
     <betterwithmods:material:38>,
-    <quark:soul_bead>
+    <quark:soul_bead>,
+	<mod_lavacow:scythe_claw>
 );
 
 // Death A - Wither
@@ -480,7 +481,9 @@ val deathQuintessenceB = <ore:deathQuintessenceB>;
 deathQuintessenceB.add(
     <minecraft:rotten_flesh>,
     <betterwithaddons:congealed:1>,
-    <mod_lavacow:canerottenmeat>
+    <mod_lavacow:canerottenmeat>,
+	<mod_lavacow:parasite_item>,
+	<mod_lavacow:frozenthigh>
 );
 
 // Balance A - Ying - For every ore value in Ying, there must be a thematically-opposite ore value in Yang. Example, YingCold and YangHot
@@ -528,7 +531,6 @@ balanceYangQuintessenceA.add(
     <minecraft:packed_ice>,
     <aether_legacy:icestone>,
     <biomesoplenty:hard_ice>,
-    <mod_lavacow:shattered_ice>,
     <futuremc:blue_ice>,
     <iceandfire:dragon_ice>,
     <netherex:frost_rod>,

@@ -59,6 +59,9 @@ function(out,cInfo,player){
 //JEI decriptions
 mods.jei.JEI.addDescription(<ore:ingotElectrum>.firstItem,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, this material is far greater than the sum of its parts");
  
+// New RECIPES - ON HOLD until removing Enchanter recipes is possible.
+//mods.aether_legacy.Enchanter.registerEnchantment(<minecraft:potato>, <aether_legacy:healing_stone>, 200);
+ 
 //Aether Enchanter
 mods.aether_legacy.Enchanter.registerEnchanterFuel(elec,4800);
 mods.aether_legacy.Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);

@@ -1,6 +1,4 @@
 [
-
-
   // Zotzpyre
   {
     "dimension": [0,10],
@@ -132,7 +130,7 @@
         "mob": "iceandfire:if_troll",
         "weight": 1,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -1115,7 +1113,7 @@
  // Witches
 
   {
-    "dimension": 0,
+    "dimension": [0,7],
     "mobs": [
       {
         "mob": "specialmobs:windwitch",
@@ -1127,7 +1125,7 @@
   },
   
     {
-    "dimension": 0,
+    "dimension": [0,7],
     "mobs": [
       {
         "mob": "specialmobs:wildswitch",
@@ -1212,7 +1210,7 @@
   },
 
   {
-    "dimension": [0,10],
+    "dimension": [0,10,7],
     "mobs": [
       {
         "mob": "specialmobs:poisonsilverfish",
@@ -1280,7 +1278,7 @@
     "mobs": [
       {
         "mob": "mod_lavacow:ithaqua",
-        "weight": 0.5,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
