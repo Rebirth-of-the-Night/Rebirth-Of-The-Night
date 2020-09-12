@@ -93,8 +93,7 @@ for i, output in stairArray{
 //End Reborn Compatibility
 recipes.addShaped(<atop:amethyst_helmet>,[
 [<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>],
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
-[null, null, null]
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
 ]);
 recipes.addShaped(<atop:amethyst_chestplate>,[
 [<ore:gemAmethyst>, null, <ore:gemAmethyst>],
@@ -107,7 +106,6 @@ recipes.addShaped(<atop:amethyst_leggings>,[
 [<ore:gemAmethyst>, null, <ore:gemAmethyst>]
 ]);
 recipes.addShaped(<atop:amethyst_boots>,[
-[null, null, null],
 [<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
 [<ore:gemAmethyst>, null, <ore:gemAmethyst>]
 ]);
@@ -142,8 +140,7 @@ var bone = <minecraft:bone>;
 // Armors
 recipes.addShaped("Wither Bone Helmet", <netherex:wither_bone_helmet>,[
     [witherbone, witherbone, witherbone],
-    [witherbone, null, witherbone],
-    [null, null, null]
+    [witherbone, <minecraft:skull:1>, witherbone]
 ]);
 recipes.addShaped("Wither Bone Chestplate", <netherex:wither_bone_chestplate>,[
     [witherbone, null, witherbone],
@@ -156,7 +153,6 @@ recipes.addShaped("Wither Bone Leggings", <netherex:wither_bone_leggings>,[
     [witherbone, null, witherbone]
 ]);
 recipes.addShaped("Wither Bone Boots", <netherex:wither_bone_boots>,[
-    [null, null, null],
     [witherbone, null, witherbone],
     [witherbone, null, witherbone]
 ]);
@@ -188,19 +184,19 @@ recipes.addShaped("Frosted Amedian Pickaxe", <netherex:frosted_amedian_pickaxe>,
 ]);
 
 recipes.addShaped("Frosted Amedian Shovel", <netherex:frosted_amedian_shovel>,[
-    [null, rime, null],
-    [null, obsidian, null],
-    [null, frostedwitherbone, null]
+    [rime],
+    [obsidian],
+    [frostedwitherbone]
 ]);
 
 recipes.addShapedMirrored("Frosted Amedian Axe", <netherex:frosted_amedian_axe>,[
-    [rime, obsidian, null],
-    [rime, frostedwitherbone, null],
-    [null, frostedwitherbone, null]
+    [rime, obsidian],
+    [rime, frostedwitherbone],
+    [null, frostedwitherbone]
 ]);
 
 recipes.addShapedMirrored("Frosted Amedian Hoe", <netherex:frosted_amedian_hoe>,[
-    [rime, obsidian, null],
-    [null, frostedwitherbone, null],
-    [null, frostedwitherbone, null]
+    [rime, obsidian],
+    [null, frostedwitherbone],
+    [null, frostedwitherbone]
 ]);
