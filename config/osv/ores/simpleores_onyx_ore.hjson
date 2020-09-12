@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   builtIn: true
 }
 recipe: {
@@ -25,8 +25,9 @@ recipe: {
 gen: [
   {
     height: [ 1, 60 ]
-    size: 1
-    count: 30
+    size: 8
+    count: 2
+	chance: 0.4
 	dimensions: [-1]
   }
 ]

@@ -1,0 +1,33 @@
+name: netherex_rime_ore
+mod: netherex
+block: {
+  location: netherex:rime_ore
+  hardness: 8
+  level: 3
+}
+loot: [
+  {
+    item: netherex:rime_crystal
+    count: 1
+    xp: 1
+    chance: 1
+  }
+]
+texture: {
+  shade: true
+  original: netherex:blocks/rime_ore
+}
+recipe: {
+  result: netherex:rime_crystal
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+	height : [60, 120]
+	size: 8
+	count: 12
+	chance: 0.8
+	dimensions: [-1]
+  }
+] 

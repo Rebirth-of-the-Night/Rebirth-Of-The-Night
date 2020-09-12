@@ -1,0 +1,73 @@
+{
+	"populate": {
+		"nether_hellfire_lakes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": [
+					{
+					"name": "contenttweaker:starblock"
+					},
+					{
+					"name": "osv:simpleores_onyx_ore_contenttweaker_starblock",
+					"weight": 10
+					}
+				],
+				"material": [
+					"minecraft:netherrack",
+					"netherex:fiery_netherrack"
+				],
+				"use-material": true,
+				"solid-outline": true,
+				"outline-block": [
+					"quark:biome_cobblestone",
+					"minecraft:magma",
+					"minecraft:obsidian",
+					"netherex:fiery_netherrack"
+				]
+			},
+			"cluster-count": 3,
+			"chunk-chance": 5,
+			"min-height": 75,
+			"max-height": 120,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"beneath_mythril_lakes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "lake",
+				"block": "contenttweaker:mythril_molten",
+				"use-material": false,
+				"outline-block": [
+					{
+					"name":"osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_2",
+					"weight": 1
+					},
+					{
+					"name":"dimstack:bedrock",
+					"weight": 15
+					}
+				]
+			},
+			"cluster-count": 2,
+			"chunk-chance": 38,
+			"min-height": 12,
+			"max-height": 50,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		}
+	}
+}

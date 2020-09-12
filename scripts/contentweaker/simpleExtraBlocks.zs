@@ -2,6 +2,7 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.BlockMaterial;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script*/
 
@@ -133,7 +134,9 @@ witheredblock.register();
 var starblock = VanillaFactory.createBlock("starblock", <blockmaterial:Glass>);
 starblock.setCreativeTab(<creativetab:buildingBlocks>);
 starblock.setLightValue(8);
-starblock.setBlockSoundType(<soundtype:glass>);
+starblock.setBlockSoundType(<soundtype:stone>);
+starblock.setBlockHardness(20);
+starblock.setBlockMaterial(<blockmaterial:fire>);
 starblock.register();
 
 var unfiredrefractory = VanillaFactory.createBlock("unfiredrefractory", <blockmaterial:Ground>);

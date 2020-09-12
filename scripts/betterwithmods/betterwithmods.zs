@@ -188,6 +188,7 @@ mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:m
 mods.betterwithmods.FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); #sawdust from soul dust
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>*1,[<betterwithmods:material:38>*1],[<betterwithaddons:congealed>*5]);
+mods.betterwithmods.FilteredHopper.addFilterRecipe("modtweaker:fiery_hellfire",<contenttweaker:starblock>,[<betterwithmods:material:16>*3],[<betterwithmods:material:15>]); 
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]); #remove default BWM bark-tanned leather recipe as well as dung variants
 mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); # tanned leather

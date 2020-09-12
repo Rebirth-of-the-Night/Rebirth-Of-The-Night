@@ -1,6 +1,5 @@
 {
-	"populate": 
-	{
+	"populate": {
 		"eclogite_geode": {
 			"distribution": "cave",
 			"generator": {
