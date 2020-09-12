@@ -1,11 +1,11 @@
 {
     "comment": "These qualities will apply for anything that can go in baubles slots, and also the totem of undying (which can be held in the offhand slot). For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "slot": [
-        "mainhand"
+        "offhand"
     ],
     "whitelist": [
       {
-        "item": "atop:amethyst_hoe"
+        "item": "atop:topaz_sword"
       }
     ],
     "blacklist": [
@@ -13,23 +13,18 @@
     ],
     "qualities": [
       {
-        "name": "Glam Reaper",
+        "name": "Unending",
         "color": "Light_Purple",
         "weight": 1,
         "attributes": [
           {
             "name": "generic.reachDistance",
-            "amount": 2,
-            "operation": 0
-          },
-          {
-            "name": "generic.attackDamage",
-            "amount": 12,
+            "amount": 1,
             "operation": 0
           },
           {
             "name": "generic.attackSpeed",
-            "amount": 0.10,
+            "amount": 0.05,
             "operation": 2
           }
         ]

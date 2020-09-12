@@ -1,6 +1,6 @@
 setIcon("atop:amethyst_chestplate")
-setTitle("Pretty In Pink")
-setDescription("Complete the Pretty In Pink set.")
+setTitle("Otherworldly Power")
+setDescription("Complete the Otherworldly Power set.")
 
 addParent("triumph:advancements/setbonuses/goldarmor")
 

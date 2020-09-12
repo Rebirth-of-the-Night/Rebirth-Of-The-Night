@@ -1,4 +1,4 @@
-setIcon("atop:amethyst_sword")
+setIcon("atop:amber_sword")
 setTitle("When will you learn??")
 setDescription("That your actions have consequences!!")
 
@@ -7,7 +7,7 @@ addParent("triumph:advancements/eastereggs/root")
 addRewardFunction("triumph:calamarigoldRightClick")
 
 criteria = addCriteria("Dev Relic 1", "triumph:right_click_item")
-criteria.setItem(<atop:amethyst_sword>)
+criteria.setItem(<atop:amber_sword>)
 
 
 alwaysHidden()

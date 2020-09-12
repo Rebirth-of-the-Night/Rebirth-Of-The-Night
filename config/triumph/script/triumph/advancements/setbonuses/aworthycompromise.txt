@@ -2,7 +2,7 @@ setIcon("simpleores:adamantium_boots")
 setTitle("A Worthy Compromise")
 setDescription("Complete the A Worthy Compromise set.")
 
-addParent("triumph:advancements/setbonuses/awalkingrainbow")
+addParent("triumph:advancements/setbonuses/tastetherainbow")
 
 criteria = addCriteria("Obsidian Helmet", "minecraft:inventory_changed")
 criteria.addItem("endreborn:armour_helmet_helmet")

@@ -23,8 +23,8 @@ criteria.setAdvancement("triumph:advancements/setbonuses/amethystarmor")
 criteria = addCriteria("attackandprotecc", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/attackandprotecc")
 
-criteria = addCriteria("awalkingrainbow", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/awalkingrainbow")
+criteria = addCriteria("tastetherainbow", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/tastetherainbow")
 
 criteria = addCriteria("aworthycompromise", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/aworthycompromise")

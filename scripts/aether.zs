@@ -144,26 +144,26 @@ mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_axe>);
 mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
 mods.jei.JEI.removeAndHide(<aether_legacy:lore_book>);
 
-recipes.remove(<atop:amethyst_pickaxe>);
-recipes.remove(<atop:amethyst_axe>);
-recipes.remove(<atop:amethyst_shovel>);
 
 var egrav = <aether_legacy:enchanted_gravitite>;
 var stick = <aether_legacy:skyroot_stick>;
 
-recipes.addShaped("gravitite_pick", <atop:amethyst_pickaxe>,[
+recipes.remove(<atop:amber_pickaxe>);
+recipes.addShaped("gravitite_pick", <atop:amber_pickaxe>,[
     [egrav, egrav, egrav],
     [null, stick, null],
     [null, stick, null]
 ]);
 
-recipes.addShapedMirrored("gravitite_axe", <atop:amethyst_axe>,[
+recipes.remove(<atop:amber_axe>);
+recipes.addShapedMirrored("gravitite_axe", <atop:amber_axe>,[
     [egrav, egrav],
     [egrav, stick],
     [null, stick]
 ]);
 
-recipes.addShaped("gravitite_shovel", <atop:amethyst_shovel>,[
+recipes.remove(<atop:amber_shovel>);
+recipes.addShaped("gravitite_shovel", <atop:amber_shovel>,[
     [egrav],
     [stick],
     [stick]

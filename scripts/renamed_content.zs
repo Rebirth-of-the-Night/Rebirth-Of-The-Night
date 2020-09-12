@@ -2,6 +2,8 @@ import crafttweaker.game.IGame;
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 
+
+
 // Slimes
 <minecraft:slime_ball>.displayName = "Green Slimeball";
 <contenttweaker:brain>.displayName = "Brain";
@@ -261,6 +263,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <atop:mud_pickaxe>.displayName = "Bronze Pickaxe";
 <atop:mud_shovel>.displayName = "Bronze Shovel";
 <atop:mud_sword>.displayName = "Bronze Gladius";
+
+<atop:topaz_sword>.displayName = "§dCovenant";
+<atop:amethyst_sword>.displayName = "§dConvergence";
+
 
 // EPlus
 <eplus:table_upgrade>.displayName = "Enchanting Table Upgrade";

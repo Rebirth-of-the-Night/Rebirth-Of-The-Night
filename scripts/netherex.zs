@@ -90,25 +90,7 @@ for i, output in stairArray{
     ]);
 }
 
-//End Reborn Compatibility
-recipes.addShaped(<atop:amethyst_helmet>,[
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>],
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
-]);
-recipes.addShaped(<atop:amethyst_chestplate>,[
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>],
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>], 
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>]
-]);
-recipes.addShaped(<atop:amethyst_leggings>,[
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>],
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
-]);
-recipes.addShaped(<atop:amethyst_boots>,[
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
-]);
+
 
 recipes.remove(<netherex:frosted_amedian_sword>);
 recipes.remove(<netherex:frosted_amedian_pickaxe>);
