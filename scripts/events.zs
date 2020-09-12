@@ -111,9 +111,11 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 		}
 		for i in 0 to drops.length {
 			if (<ore:listAllmeat> has drops[i].item) {
-				drops[i] = <minecraft:rotten_flesh>.createEntityItem(drops[i].world, drops[i].position);
+				if (drops[i].item.definition.id != "mod_lavacow:plagued_porkchop") {
+					drops[i] = <minecraft:rotten_flesh>.createEntityItem(drops[i].world, drops[i].position);
+				}
 			} else {
-				if (drops[i].item.isFood) {
+				if (drops[i].item.isFood & drops[i].item.definition.id != "mod_lavacow:plagued_porkchop") {
 					drops[i] = <betterwithaddons:rotten_food>.createEntityItem(drops[i].world, drops[i].position);
 				}
 			}
