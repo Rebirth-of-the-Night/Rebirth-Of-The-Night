@@ -83,24 +83,16 @@ for item in gemAll{
     recipes.remove(item);
 }
 
+mods.jei.JEI.removeAndHide(<minecraft:diamond_axe>);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_shovel>);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_hoe>);
+
 
 //Diamond Tools
-recipes.addShaped("diamond_shovel", <minecraft:diamond_shovel>,
- [[diamond],
-  [stick],
-  [stick]]);
 recipes.addShaped("diamond_pickaxe", <minecraft:diamond_pickaxe>,
  [[diamond,diamond,diamond],
   [null,stick,null],
   [null,stick,null]]);
-recipes.addShapedMirrored("diamond_hoe", <minecraft:diamond_hoe>,
- [[diamond,diamond],
-  [null,stick],
-  [null,stick]]);  
-recipes.addShapedMirrored("diamond_axe", <minecraft:diamond_axe>,
- [[diamond,diamond],
-  [diamond,stick],
-  [null,stick]]); 
 recipes.addShapedMirrored("diamond_mortar", <advancedmortars:mortar:3>,
  [[null,null,stick],
   [diamond,flint,diamond],
@@ -212,10 +204,13 @@ recipes.addShaped("diamond_bolt_quiver", <spartanweaponry:quiver_bolt_heavy>,
   
   
 //ruby
+recipes.remove(<atop:ruby_sword>);
 recipes.addShaped("ruby_sword", <atop:ruby_sword>,
  [[ruby],
   [ruby],
   [handle]]);
+
+recipes.remove(<atop:ruby_axe>);
 recipes.addShapedMirrored("ruby_axe", <atop:ruby_axe>,
  [[ruby,ruby],
   [ruby,stick],
@@ -238,14 +233,17 @@ recipes.addShaped("ruby_boots", <atop:ruby_boots>,
   
 
 //sapphire
+recipes.remove(<atop:sapphire_sword>);
 recipes.addShaped("sapphire_sword", <atop:sapphire_sword>,
  [[sapphire],
   [sapphire],
   [handle]]);
-recipes.addShapedMirrored("sapphire_shovel", <atop:sapphire_shovel>,
- [[sapphire],
-  [stick],
-  [stick]]); 
+
+recipes.remove(<atop:sapphire_hoe>);
+recipes.addShapedMirrored("sapphire_hoe", <atop:sapphire_hoe>,
+ [[sapphire,sapphire,null],
+  [null,stick,null],
+  [null,stick,null]]); 
   
 recipes.addShaped("sapphire_helmet", <atop:sapphire_helmet>,
  [[sapphire,sapphire,sapphire],
@@ -264,12 +262,16 @@ recipes.addShaped("sapphire_boots", <atop:sapphire_boots>,
   
   
 //peridot
+
+recipes.remove(<atop:peridot_sword>);
 recipes.addShaped("peridot_sword", <atop:peridot_sword>,
  [[peridot],
   [peridot],
   [handle]]);
-recipes.addShapedMirrored("peridot_pickaxe", <atop:peridot_pickaxe>,
- [[peridot,peridot,peridot],
+
+recipes.remove(<atop:peridot_shovel>);
+recipes.addShapedMirrored("peridot_shovel", <atop:peridot_shovel>,
+ [[null,peridot,null],
   [null,stick,null],
   [null,stick,null]]); 
   
@@ -290,22 +292,31 @@ recipes.addShaped("peridot_boots", <atop:peridot_boots>,
   
   
 //amethyst
+
+recipes.remove(<atop:amethyst_hoe>);
 recipes.addShapedMirrored("amethyst_scythe", <atop:amethyst_hoe>,
  [[amethyst,amethyst],
   [null,stick],
   [null,stick]]); 
   
+recipes.remove(<atop:amethyst_helmet>);
 recipes.addShaped("amethyst_helmet", <atop:amethyst_helmet>,
  [[amethyst,amethyst,amethyst],
   [amethyst,null,amethyst]]);  
+
+recipes.remove(<atop:amethyst_chestplate>);
 recipes.addShaped("amethyst_chestplate", <atop:amethyst_chestplate>,
  [[amethyst,null,amethyst],
   [amethyst,amethyst,amethyst],
-  [amethyst,amethyst,amethyst]]);   
+  [amethyst,amethyst,amethyst]]);  
+
+recipes.remove(<atop:amethyst_leggings>); 
 recipes.addShaped("amethyst_leggings", <atop:amethyst_leggings>,
  [[amethyst,amethyst,amethyst],
   [amethyst,null,amethyst],
   [amethyst,null,amethyst]]);   
+
+recipes.remove(<atop:amethyst_boots>); 
 recipes.addShaped("amethyst_boots", <atop:amethyst_boots>,
  [[amethyst,null,amethyst],
   [amethyst,null,amethyst]]);

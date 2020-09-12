@@ -22,24 +22,24 @@ recipes.remove(<atop:amethyst_sword>);
 // mods.jei.JEI.removeAndHide(<atop:amethyst_pickaxe>);
 // mods.jei.JEI.removeAndHide(<atop:amethyst_shovel>);
 // mods.jei.JEI.removeAndHide(<atop:amethyst_axe>);
-mods.jei.JEI.removeAndHide(<atop:amethyst_hoe>);
+//mods.jei.JEI.removeAndHide(<atop:amethyst_hoe>);
 
-mods.jei.JEI.removeAndHide(<atop:sapphire_sword>);
+//mods.jei.JEI.removeAndHide(<atop:sapphire_sword>);
 mods.jei.JEI.removeAndHide(<atop:sapphire_pickaxe>);
 mods.jei.JEI.removeAndHide(<atop:sapphire_shovel>);
 mods.jei.JEI.removeAndHide(<atop:sapphire_axe>);
-mods.jei.JEI.removeAndHide(<atop:sapphire_hoe>);
+//mods.jei.JEI.removeAndHide(<atop:sapphire_hoe>);
 
-mods.jei.JEI.removeAndHide(<atop:peridot_sword>);
+//mods.jei.JEI.removeAndHide(<atop:peridot_sword>);
 mods.jei.JEI.removeAndHide(<atop:peridot_pickaxe>);
-mods.jei.JEI.removeAndHide(<atop:peridot_shovel>);
+//mods.jei.JEI.removeAndHide(<atop:peridot_shovel>);
 mods.jei.JEI.removeAndHide(<atop:peridot_axe>);
 mods.jei.JEI.removeAndHide(<atop:peridot_hoe>);
 
-mods.jei.JEI.removeAndHide(<atop:ruby_sword>);
+//mods.jei.JEI.removeAndHide(<atop:ruby_sword>);
 mods.jei.JEI.removeAndHide(<atop:ruby_pickaxe>);
 mods.jei.JEI.removeAndHide(<atop:ruby_shovel>);
-mods.jei.JEI.removeAndHide(<atop:ruby_axe>);
+//mods.jei.JEI.removeAndHide(<atop:ruby_axe>);
 mods.jei.JEI.removeAndHide(<atop:ruby_hoe>);
 
 
