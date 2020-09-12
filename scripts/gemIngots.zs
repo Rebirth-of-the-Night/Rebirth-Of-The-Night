@@ -363,7 +363,7 @@ recipes.remove(<atop:amethyst_sword>);
 mods.betterwithmods.Anvil.addShaped(<atop:amethyst_sword>,
 [
    [null, amethyst, amethyst, amethyst],
-   [amethyst, amethyst, <contenttweaker:voidseen_amethyst>, handle],
+   [amethyst, amethyst, <contenttweaker:voidseen_amethyst>, <endreborn:sword_shard>],
    [null, amethyst, amethyst, amethyst],
    [null, null, null, null]
 ]);
