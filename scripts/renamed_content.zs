@@ -347,7 +347,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Return Potion";
-<bountifulbaubles:shieldobsidian>.displayName = "Flameward Shield";
 
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
@@ -426,8 +425,10 @@ for potion in potionMap{
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
 <bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
 <bountifulbaubles:crowngold>.addTooltip(format.gray("Inert"));
+<artifacts:whoopie_cushion>.addTooltip(format.gray("Inert"));
 
 <artifacts:shiny_red_balloon>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:drinking_hat>.addTooltip(format.darkGreen("Mundane"));
 
 <contenttweaker:disint_rune>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:trinketobsidianskull>.addTooltip(format.aqua("Arcane"));
@@ -435,6 +436,18 @@ for potion in potionMap{
 <bountifulbaubles:amuletsinpride>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinwrath>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletcross>.addTooltip(format.aqua("Arcane"));
+<artifacts:snorkel>.addTooltip(format.aqua("Arcane"));
+<artifacts:shock_pendant>.addTooltip(format.aqua("Arcane"));
+<artifacts:flame_pendant>.addTooltip(format.aqua("Arcane"));
+<artifacts:thorn_pendant>.addTooltip(format.aqua("Arcane"));
+<artifacts:bottled_cloud>.addTooltip(format.aqua("Arcane"));
+<artifacts:feral_claws>.addTooltip(format.aqua("Arcane"));
+<artifacts:power_glove>.addTooltip(format.aqua("Arcane"));
+<artifacts:star_cloak>.addTooltip(format.aqua("Arcane"));
+<artifacts:pocket_piston>.addTooltip(format.aqua("Arcane"));
+
+
+
 
 <artifacts:cobalt_shield>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketmagiclenses>.addTooltip(format.darkPurple("Mystical"));
@@ -444,10 +457,14 @@ for potion in potionMap{
 <bountifulbaubles:trinketblackdragonscale>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:lucky_horseshoe>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbrokenheart>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:ultimate_pendant>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:fire_gauntlet>.addTooltip(format.darkPurple("Mystical"));
+
 
 <bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
+<artifacts:night_vision_goggles>.addTooltip(format.gold("Ascended"));
 
 // <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
 
