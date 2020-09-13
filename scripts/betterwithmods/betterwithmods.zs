@@ -182,13 +182,16 @@ mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tall
 //Cyclic Apple
 mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
 
+mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
+mods.betterwithmods.FilteredHopper.addFilter("modtweaker:soulsand", <minecraft:soul_sand>);
+
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
 mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
 mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); # chips to potash
 mods.betterwithmods.FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); #sawdust from soul dust
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>*1,[<betterwithmods:material:38>*1],[<betterwithaddons:congealed>*5]);
-mods.betterwithmods.FilteredHopper.addFilterRecipe("modtweaker:fiery_hellfire",<contenttweaker:starblock>,[<betterwithmods:material:16>*3],[<betterwithmods:material:15>]); 
+mods.betterwithmods.FilteredHopper.addFilterRecipe("modtweaker:soulsand",<contenttweaker:starblock>,[<betterwithmods:material:16>*3],[<betterwithmods:material:15>]); 
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]); #remove default BWM bark-tanned leather recipe as well as dung variants
 mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); # tanned leather
@@ -196,8 +199,6 @@ mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:7>
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]); #remove default BWM bark-cut tanned leather recipe as well as dung variants
 mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]); # tanned cut leather
 mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]);
-
-mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_boots>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);
