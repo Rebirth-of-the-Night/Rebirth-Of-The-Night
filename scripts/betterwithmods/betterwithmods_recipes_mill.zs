@@ -80,3 +80,9 @@ mods.betterwithmods.Mill.builder()
 .setPriority(3)
 .setGrindType("fairylights:cord.stretch")
 .build();
+
+// Extra bonemeal from fossils
+mods.betterwithmods.Mill.builder()
+.buildRecipe([<undergroundbiomes:fossil_piece:*>], [<minecraft:dye:15>*6])
+.setPriority(3)
+.build();
