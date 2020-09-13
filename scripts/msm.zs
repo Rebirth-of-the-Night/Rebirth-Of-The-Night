@@ -147,6 +147,7 @@ var mythril_sword = <simpleores:mythril_sword>;
 var viridium_sword = <simpleores:adamantium_sword>;
 var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
+var lormyte_crystal = <endreborn:item_lormyte_crystal>;
 
 
 val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:decay>];
@@ -158,10 +159,10 @@ enchantmentMap3 += enchantments3[0].makeEnchantment(1).makeTag();
 recipes.remove(<msmlegacy:wither_bane>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(({"Quark:RuneColor": 14, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap3), 
 [
-   [biotite, biotite, biotite, biotite],
-   [biotite, onyx_sword, mythril_sword, biotite],
-   [biotite, viridium_sword, diamond_sword, biotite],
-   [biotite, biotite, biotite, biotite]
+   [biotite, lormyte_crystal, lormyte_crystal, biotite],
+   [lormyte_crystal, onyx_sword, mythril_sword, lormyte_crystal],
+   [lormyte_crystal, viridium_sword, diamond_sword, lormyte_crystal],
+   [biotite, lormyte_crystal, lormyte_crystal, biotite]
 ]);
 
 
@@ -181,10 +182,10 @@ enchantmentMap4 += enchantments4[1].makeEnchantment(1).makeTag();
 recipes.remove(<msmlegacy:crystaline_blade>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(({"Quark:RuneColor": 4, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap4), 
 [
-   [lightessence, lightessence, lightessence, lightessence],
+   [biotite, lightessence, lightessence, biotite],
    [lightessence, onyx_sword, mythril_sword, lightessence],
    [lightessence, viridium_sword, diamond_sword, lightessence],
-   [lightessence, lightessence, lightessence, lightessence]
+   [biotite, lightessence, lightessence, biotite]
 ]);
 
 
