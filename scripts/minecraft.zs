@@ -745,12 +745,12 @@ val cookedCrab = <ore:foodCrabcooked>;
 cookedCrab.addItems([<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
 
 val rawFish = <ore:listAllfishraw>;
-rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:piranha>,<mod_lavacow:zombiepiranha_item>,<mod_lavacow:cheirolepis>]);
+rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:piranha>,<mod_lavacow:zombiepiranha_item>,<mod_lavacow:cheirolepis>,<betteranimalsplus:eel_meat_raw>]);
 rawFish.addAll(<ore:rawCrab>);
 rawFish.remove(<harvestcraft:groundfishitem>);
 
 val cookedFish = <ore:listAllfishcooked>;
-cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<mod_lavacow:cheirolepis_cooked>]);
+cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<mod_lavacow:cheirolepis_cooked>,<betteranimalsplus:eel_meat_cooked>]);
 cookedFish.addAll(<ore:cookedCrab>);
 
 val fish = <ore:fish>;
@@ -789,7 +789,7 @@ val egg = <ore:listAllegg>;
 egg.addItems([<betterwithmods:raw_egg>,<aether_legacy:moa_egg>]);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betterwithmods:wolf_chop>]);
+rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betterwithmods:wolf_chop>,<betteranimalsplus:eel_meat_raw>]);
 rawMeat.addAll(rawBeef);
 rawMeat.addAll(rawChicken);
 rawMeat.addAll(rawMutton);
@@ -798,7 +798,7 @@ rawMeat.addAll(rawFish);
 rawMeat.addAll(rawVenison);
 
 val cookedMeat = <ore:listAllmeatcooked>;
-cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:meatball>,<betterwithmods:cooked_wolf_chop>]);
+cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:meatball>,<betterwithmods:cooked_wolf_chop>,<betteranimalsplus:eel_meat_cooked>]);
 cookedMeat.addAll(cookedBeef);
 cookedMeat.addAll(cookedChicken);
 cookedMeat.addAll(cookedMutton);
