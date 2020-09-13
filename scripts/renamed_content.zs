@@ -38,6 +38,9 @@ import crafttweaker.item.IItemStack;
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
+// Advanced Lifting Methods
+<advancedliftingmethods:ultimate_ender_elevator>.displayName = "Ender Elevator";
+
 // Atlas
 <antiqueatlas:empty_antique_atlas>.displayName = "Empty Atlas";
 <antiqueatlas:antique_atlas>.displayName = "Atlas";
