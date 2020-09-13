@@ -18,52 +18,53 @@ val elecnugget = <ore:nuggetElectrum>.firstItem;
 
 //BLOCKS
 recipes.addShaped("electrum_to_block",<ore:blockElectrum>.firstItem, [
-[elec, elec, elec],
-[elec, elec, elec], 
-[elec, elec, elec]]
-);
+    [elec, elec, elec],
+    [elec, elec, elec], 
+    [elec, elec, elec]
+]);
 recipes.addShapeless("block_to_electrum",<ore:ingotElectrum>.firstItem* 9,
-[<ore:blockElectrum>]
+    [<ore:blockElectrum>]
 );
 recipes.addShaped("electrum_to_plateBlock",<contenttweaker:electrum_plate> * 24, [
-[elec, elec, elec],
-[elec, <minetraps:nails>, elec], 
-[elec, elec, elec]]
-);
+    [elec, elec, elec],
+    [elec, <minetraps:nails>, elec], 
+    [elec, elec, elec]
+]);
 
 //ELECTRUM RECIPES
 recipes.addShaped("electrum_nugget_to_ingot",elec, [
-[elecnugget, elecnugget, elecnugget],
-[elecnugget, elecnugget, elecnugget], 
-[elecnugget, elecnugget, elecnugget]]
-);
+    [elecnugget, elecnugget, elecnugget],
+    [elecnugget, elecnugget, elecnugget], 
+    [elecnugget, elecnugget, elecnugget]
+]);
 recipes.addShapeless("ingot_to_electrum_nugget",elecnugget* 9,
 [elec]
 );
 
-recipes.addShapeless("gold_silver_mixture", <contenttweaker:silver_gold_mixture>, 
-[<ore:ingotGold>,<ore:ingotGold>,<ore:ingotSilver>,<aether_legacy:ambrosium_shard>]
-);
-recipes.addShapeless("gold_silver_mixture_return", <minecraft:gold_ingot>*2,
-    [<contenttweaker:silver_gold_mixture>],
-    function(out,ins,cInfo){
+recipes.addShapeless("gold_silver_mixture", <contenttweaker:silver_gold_mixture>, [
+    <ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<aether_legacy:ambrosium_shard>,<aether_legacy:ambrosium_shard>
+]);
+recipes.addShapeless("gold_silver_mixture_return", <minecraft:gold_ingot>*4,[
+    <contenttweaker:silver_gold_mixture>
+],
+function(out,ins,cInfo){
     return out;
 },
 //IRecipeAction
 function(out,cInfo,player){
-    player.give(<iceandfire:silver_ingot>);
-    player.give(<aether_legacy:ambrosium_shard>);
+    player.give(<iceandfire:silver_ingot>*3);
+    player.give(<aether_legacy:ambrosium_shard>*2);
 });
   #Additional recipes on pyrotech scripts 
  
 //JEI decriptions
-mods.jei.JEI.addDescription(<ore:ingotElectrum>.firstItem,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, this material is far greater than the sum of its parts");
- 
+mods.jei.JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
+
 // New RECIPES - ON HOLD until removing Enchanter recipes is possible.
 //mods.aether_legacy.Enchanter.registerEnchantment(<minecraft:potato>, <aether_legacy:healing_stone>, 200);
  
 //Aether Enchanter
-mods.aether_legacy.Enchanter.registerEnchanterFuel(elec,4800);
+mods.aether_legacy.Enchanter.registerEnchanterFuel(elec,2400);
 mods.aether_legacy.Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);
 
 //Stone
