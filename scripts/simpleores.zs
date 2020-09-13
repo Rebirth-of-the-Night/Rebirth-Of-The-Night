@@ -142,10 +142,11 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_sword>, [
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatbow>);
 <betterwithaddons:greatbow>.maxDamage = 1000;
 
-val enchantments1 as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_aspect>];
+val enchantments1 as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_aspect>, <enchantment:randomenchantments:quickdraw>];
 var enchantmentMap1 as IData = {};
 
 enchantmentMap1 += enchantments1[0].makeEnchantment(2).makeTag();
+enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
 
 mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatbow>.withTag(enchantmentMap1), [
    [null, null, null, orod],

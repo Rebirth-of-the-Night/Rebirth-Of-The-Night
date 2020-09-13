@@ -11,36 +11,21 @@ recipes.remove(<minetraps:nails>);
 
 var tinnugget = <contenttweaker:material_part:6>;
 
-recipes.addShaped("Nails", <minetraps:nails>,[
-  [null, null, null],
-    [tinnugget, tinnugget, tinnugget],
-    [tinnugget, tinnugget, tinnugget]
-]);
+recipes.addShapeless("Nails", <minetraps:nails>,[tinnugget, tinnugget, tinnugget, tinnugget]);
+
 
 var silvernugget = <iceandfire:silver_nugget>;
 
-recipes.addShaped("Nails 2", <minetraps:nails>,[
-  [null, null, null],
-    [silvernugget, silvernugget, silvernugget],
-    [silvernugget, silvernugget, silvernugget]
-]);
+recipes.addShapeless("Nails 2", <minetraps:nails>,[silvernugget, silvernugget, silvernugget, silvernugget]);
 
 var ironnugget = <ore:nuggetIron>;
 
-recipes.addShaped("Nails 3", <minetraps:nails>,[
-  [null, null, null],
-    [ironnugget, ironnugget, ironnugget],
-    [ironnugget, ironnugget, ironnugget]
-]);
+recipes.addShapeless("Nails 3", <minetraps:nails>,[ironnugget, ironnugget, ironnugget, ironnugget]);
 
 
 
 recipes.remove(<minetraps:nail_trap>);
-recipes.addShaped("Nail Trap", <minetraps:nail_trap>,[
-  [<minetraps:nails>, <minetraps:nails>, null],
-    [<minetraps:nails>, <minetraps:nails>, null],
-    [null, null, null]
-]);
+recipes.addShapeless("Nail Trap", <minetraps:nail_trap>,[<minetraps:nails>,<minetraps:nails>]);
 
 
 
@@ -55,23 +40,31 @@ recipes.addShaped("Nail Trap", <minetraps:nail_trap>,[
 
 // barbed wire
 val barbwire as IItemStack = <minetraps:barbed_wire>;
-barbwire.hardness = 1.4;
-<item:minetraps:barbed_wire>.asBlock().definition.resistance = 3.4;
+barbwire.hardness = 6;
+<item:minetraps:barbed_wire>.asBlock().definition.resistance = 9;
+
+// spikes
+val spikes as IItemStack = <minetraps:spikes>;
+spikes.hardness = 10;
+<item:minetraps:spikes>.asBlock().definition.resistance = 5;
+val toxicspikes as IItemStack = <minetraps:spikes_toxic>;
+toxicspikes.hardness = 10;
+<item:minetraps:spikes_toxic>.asBlock().definition.resistance = 5;
 
 // razor wire
 val razorwire as IItemStack = <minetraps:razor_wire>;
-razorwire.hardness = 3;
-<item:minetraps:razor_wire>.asBlock().definition.resistance = 7;
+razorwire.hardness = 10;
+<item:minetraps:razor_wire>.asBlock().definition.resistance = 9;
 
 // barbed wire fence
 val barbfence as IItemStack = <minetraps:barbed_wire_fence>;
-barbfence.hardness = 5;
+barbfence.hardness = 10;
 <item:minetraps:barbed_wire_fence>.asBlock().definition.resistance = 20;
 
 // bear trap
 val beartrap as IItemStack = <minetraps:bear_trap>;
-beartrap.hardness = 3;
-<item:minetraps:bear_trap>.asBlock().definition.resistance = 2;
+beartrap.hardness = 8;
+<item:minetraps:bear_trap>.asBlock().definition.resistance = 8;
 
 // caltrops buff
 val caltrop as IItemStack = <dungeontactics:caltrops>;

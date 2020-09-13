@@ -372,7 +372,7 @@ mods.betterwithmods.Anvil.addShaped(<atop:amethyst_sword>,
 recipes.remove(<atop:topaz_sword>);
 mods.betterwithmods.Anvil.addShaped(<atop:topaz_sword>,
 [
-   [amethyst, amethyst, <contenttweaker:voidseen_amethyst>, <spartanweaponry:material:1>],
+   [<contenttweaker:voidseen_amethyst>, amethyst, amethyst, <spartanweaponry:material:1>],
    [amethyst, null, null, null],
    [amethyst, null, null, null],
    [null, amethyst, null, null]
