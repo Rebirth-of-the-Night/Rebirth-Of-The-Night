@@ -102,6 +102,11 @@ for i,dirt in coarseDirtArray{
     ]);
 }
 
+recipes.remove(<minecraft:name_tag>);
+recipes.addShapeless("name_tag",<minecraft:name_tag>,[
+    <ore:string>, <ore:nuggetGold>, <minecraft:paper>
+]);
+
 recipes.remove(<minecraft:fish:0>);
 recipes.remove(<minecraft:stone_slab:5>);
 recipes.addShaped("stone_brick_slab",<minecraft:stone_slab:5>*6,[
