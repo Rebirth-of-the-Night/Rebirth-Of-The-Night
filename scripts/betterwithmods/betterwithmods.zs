@@ -29,12 +29,6 @@ mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>); 
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>);
 mods.jei.JEI.removeAndHide(<betterwithmods:material:46>);
-mods.jei.JEI.removeAndHide(<betterwithmods:siding_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:moulding_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:siding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:moulding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
 
 mods.jei.JEI.removeAndHide(<betterwithmods:raw_egg>);
 mods.jei.JEI.removeAndHide(<betterwithmods:cooked_egg>);
