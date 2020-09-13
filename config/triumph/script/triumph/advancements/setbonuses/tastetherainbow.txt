@@ -4,6 +4,8 @@ setDescription("Complete the Taste The Rainbow set.")
 
 addParent("triumph:advancements/setbonuses/goldarmor")
 
+addRewardFunction("triumph:fullMidArmor")
+
 criteria = addCriteria("Diamond Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond_helmet")
 
