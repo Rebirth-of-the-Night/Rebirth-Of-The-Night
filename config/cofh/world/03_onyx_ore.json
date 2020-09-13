@@ -3,8 +3,8 @@
 		"lava_ocean_onyx": {
 			"distribution": "uniform",
 			"generator": {
-				"type": "geode",
-				"block": "minecraft:obsidian",
+				"type": "structure",
+				"structure": "/structures/onyx_geode_1.nbt",
 				"material": [
 					{
 						"name":"minecraft:netherrack"
@@ -30,13 +30,10 @@
 					{
 						"name": "biomesoplenty:flesh"
 					}
-				],
-				"hollow": true,
-				"filler": "osv:simpleores_onyx_ore_quark_biome_cobblestone",
-				"crust": "minecraft:lava"
+				]
 			}
-			"cluster-count": 2,
-			"chunk-chance": 2
+			"cluster-count": 1,
+			"chunk-chance": 6
 			"min-height": 1,
 			"max-height": 12,
 			"retrogen": "true",
