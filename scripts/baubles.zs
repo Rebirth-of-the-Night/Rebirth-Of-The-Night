@@ -1,6 +1,9 @@
 // This script encompasses all baubles mods, including Baubles, Bountiful Baubles, Behagamon, and Artifacts
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 
@@ -186,6 +189,9 @@ gemAny.add(
   <aether_legacy:zanite_gemstone>,
   <biomesoplenty:gem:1>
 );
+
+val inertRing = itemUtils.getItemsByRegexRegistryName("behgameon:ring_.*$(?<!53|61)") as IItemStack[];
+<ore:inertRing>.addItems(inertRing);
 
 // Potions
 
