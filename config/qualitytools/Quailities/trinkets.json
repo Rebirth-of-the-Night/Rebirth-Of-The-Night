@@ -1,25 +1,23 @@
 {
     "comment": "These qualities will apply for anything that can go in baubles slots, and also the totem of undying (which can be held in the offhand slot). For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "slot": [
-        "baubles_trinket",
-        "offhand"
+        "baubles_trinket"
     ],
     "whitelist": [
       {
         "slot": "baubles_trinket"
       },
       {
-        "item": "qualitytools:emerald_ring"
-      },
-      {
-        "item": "qualitytools:emerald_amulet"
-      },
-      {
         "item": "minecraft:totem_of_undying"
       }
     ],
     "blacklist": [
-      
+      {
+        "item": "behgameon:accessory_1"
+      },
+      {
+        "item": "behgameon:accessory_4"
+      }
     ],
     "qualities": [
       {

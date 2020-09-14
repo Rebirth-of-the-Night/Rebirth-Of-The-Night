@@ -33,10 +33,6 @@ mods.jei.JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_leggings_dragon>);
 mods.jei.JEI.removeAndHide(<endreborn:armour_boots_dragon>);
 
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_endreborn_block_wolframium_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_endreborn_block_wolframium_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_endreborn_block_wolframium_ore:*>);
-
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium_ore");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");
@@ -81,7 +77,7 @@ mods.betterwithaddons.Infuser.addShaped(<endreborn:tool_magnifier>, [
    [null, <endreborn:item_ingot_endorium>, <contenttweaker:end_orb>],
    [null, <minecraft:end_rod>, <dungeontactics:steel_ingot>], 
    [<minecraft:end_rod>, null, null]],
-   16);
+16);
 
 
 
@@ -151,10 +147,15 @@ recipes.addShaped("Purpur Lamp", <endreborn:block_purpur_lamp>,[
     [<minecraft:purpur_block>, <minecraft:purpur_block>, <minecraft:purpur_block>]
 ]);
 
+recipes.remove(<endreborn:ender_bow>);
+recipes.addShaped("endorium_bow",<endreborn:ender_bow>,[
+    [<minecraft:string>,<ore:stickWood>,null],
+    [<minecraft:string>,null,<endreborn:item_ingot_endorium>],
+    [<minecraft:string>,<ore:stickWood>,null]
+]);
+
 //changes to end rune behavior
 recipes.remove(<endreborn:item_end_rune>);
 val endrune = <endreborn:item_end_rune>;
 endrune.maxStackSize = 1;
 endrune.maxDamage = 8;
-
-game.setLocalization("item.item_end_rune.name","Rune of End");

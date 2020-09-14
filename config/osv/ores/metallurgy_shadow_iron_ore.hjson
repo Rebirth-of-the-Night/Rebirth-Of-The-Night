@@ -1,0 +1,30 @@
+name: metallurgy_shadow_iron_ore
+mod: metallurgy
+block: {
+  location: metallurgy:shadow_iron_ore
+  resistance: 18
+}
+texture: {
+  original: metallurgy:blocks/shadow_iron_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:shadow_iron_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:shadow_iron_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 16, 124 ]
+    size: 6
+    count: 10
+  }
+]

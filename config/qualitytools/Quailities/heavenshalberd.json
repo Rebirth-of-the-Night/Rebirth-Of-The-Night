@@ -1,0 +1,46 @@
+{
+    "comment": "These qualities will apply for all basic weapons and tools, including swords, pickaxes, axes, shovels, hoes, and shears! For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "slot": "mainhand",
+    "whitelist": [
+      {
+        "item": "spartanweaponry:halberd_invar"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "Heaven's Halberd",
+        "color": "yellow",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": 4,
+            "operation": 0
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.25,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.05,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.25,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

@@ -1,18 +1,18 @@
 itemGroup.advancedmortars=Advanced Mortars
 
-text.advancedmortars.jei.category.mortar.wood=Arcane Mortar
+text.advancedmortars.jei.category.mortar.wood=Mundane Mortar
 text.advancedmortars.jei.category.mortar.stone=Stone Mortar
-text.advancedmortars.jei.category.mortar.iron=Mystical Mortar
+text.advancedmortars.jei.category.mortar.iron=Arcane Mortar
 text.advancedmortars.jei.category.mortar.diamond=Diamond Mortar
-text.advancedmortars.jei.category.mortar.gold=Mundane Mortar
+text.advancedmortars.jei.category.mortar.gold=Mystical Mortar
 text.advancedmortars.jei.category.mortar.obsidian=Obsidian Mortar
 text.advancedmortars.jei.category.mortar.emerald=Ascended Mortar
 
-tile.advancedmortars.mortar.mortar_wood.name=Arcane Mortar
+tile.advancedmortars.mortar.mortar_wood.name=Mundane Mortar
 tile.advancedmortars.mortar.mortar_stone.name=Stone Mortar
-tile.advancedmortars.mortar.mortar_iron.name=Mystical Mortar
+tile.advancedmortars.mortar.mortar_iron.name=Arcane Mortar
 tile.advancedmortars.mortar.mortar_diamond.name=Diamond Mortar
-tile.advancedmortars.mortar.mortar_gold.name=Mundane Mortar
+tile.advancedmortars.mortar.mortar_gold.name=Mystical Mortar
 tile.advancedmortars.mortar.mortar_obsidian.name=Obsidian Mortar
 tile.advancedmortars.mortar.mortar_emerald.name=Ascended Mortar
 

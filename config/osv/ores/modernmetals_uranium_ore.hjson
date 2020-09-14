@@ -1,0 +1,31 @@
+name: modernmetals_uranium_ore
+mod: modernmetals
+block: {
+  location: modernmetals:uranium_ore
+  hardness: 16.25
+  level: 5
+}
+loot: [
+  {
+    item: modernmetals:uranium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/uranium_ore
+}
+recipe: {
+  result: modernmetals:uranium_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 2
+    count: 6
+  }
+]

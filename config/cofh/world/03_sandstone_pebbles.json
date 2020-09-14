@@ -1,0 +1,25 @@
+{
+	"populate": 
+	{
+		"sandstone_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					}
+				],
+				"surface": "sand",
+				"cluster-size": 7
+				},
+			"cluster-count": 5,
+			"chunk-chance": 8,
+			"retrogen": "true",
+			"biome": "all"
+		}
+	}
+}

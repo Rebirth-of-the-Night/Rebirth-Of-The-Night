@@ -6,6 +6,7 @@ import crafttweaker.data.IData;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 mods.ltt.LootTable.removeGlobalItem("twilightforest:transformation_powder");
+mods.ltt.LootTable.removeGlobalItem("twilightforest:uncrafting_table");
 mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table>);
 mods.jei.JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "twilightforest:guide"}));
 
@@ -43,7 +44,9 @@ for i,stair in stairArray{
     recipes.addShapeless(blockArray[i]*3,[stair,stair,stair,stair]);
 }
 
-val enchantments as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>];
+// Adding enchantments to hoes from enchanted materials
+
+var enchantments as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>];
 var enchantmentMap as IData = {};
 
 enchantmentMap += enchantments[0].makeEnchantment(1).makeTag();
@@ -54,6 +57,16 @@ recipes.addShapedMirrored("ironwood_hoe",<twilightforest:ironwood_hoe>.withTag(e
    [<twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, null],
    [null, <ore:stickWood>, null],
    [null, <ore:stickWood>, null]
+]);
+
+var enchantmentMap2 as IData = {};
+enchantmentMap2 += enchantments[0].makeEnchantment(2).makeTag();
+
+recipes.remove(<twilightforest:steeleaf_hoe>);
+recipes.addShapedMirrored("steeleaf_hoe",<twilightforest:steeleaf_hoe>.withTag(enchantmentMap2),[
+  [<twilightforest:steeleaf_ingot>,<twilightforest:steeleaf_ingot>],
+  [null,<ore:stickWood>],
+  [null,<ore:stickWood>]
 ]);
 
 // Charms
@@ -124,11 +137,17 @@ recipes.remove(<twilightforest:maze_map_empty>);
 recipes.remove(<twilightforest:magic_map_empty>);
 recipes.remove(<twilightforest:magic_map_focus>);
 
-recipes.addShaped(<twilightforest:magic_map_focus>, [
-   [null, <minecraft:glowstone_dust>, null],
-   [null, <ore:feather>, null], 
-   [<dungeontactics:magic_powder>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage(), <dungeontactics:magic_powder>]]);
-
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <minecraft:glowstone_dust>, <contenttweaker:vis_speck>],
+    [<minecraft:glowstone_dust>, <ore:feather>, <minecraft:glowstone_dust>],
+    [<contenttweaker:vis_speck>, <minecraft:glowstone_dust>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addOutput(<twilightforest:magic_map_focus>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+  
 recipes.addShaped(<twilightforest:ore_map_empty>, [
    [<bountifulbaubles:spectralsilt>, <contenttweaker:earth_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
    [<wards:enchanted_paper>, <twilightforest:maze_map_focus>, null], 

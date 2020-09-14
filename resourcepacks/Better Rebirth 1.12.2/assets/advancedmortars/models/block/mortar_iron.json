@@ -1,7 +1,7 @@
 {
   "parent": "advancedmortars:block/mortar",
   "textures": {
-    "mortar": "simpleores:blocks/mythril_block",
-    "particle": "simpleores:blocks/mythril_block"
+    "mortar": "aether_legacy:blocks/enchanted_gravitite",
+    "particle": "aether_legacy:blocks/enchanted_gravitite"
   }
 }

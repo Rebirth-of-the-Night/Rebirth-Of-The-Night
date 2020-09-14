@@ -1,0 +1,32 @@
+ # ----------------------------------------------------------- #
+ # ########################################################### #
+ #                 ### caverns.cave Info ###                   #
+ # ########################################################### #
+ #   This preset demonstrates a basic use case of the caverns  #
+ # feature. For more information on using noise3D blocks, see  #
+ # vanilla.cave.                                               #
+ # ----------------------------------------------------------- #
+{
+  enabled: false
+  caverns: {
+    enabled: true
+    minHeight: 5
+    maxHeight: 75
+    noise3D: {
+      frequency: 0.02
+      scale: 0.4
+      scaleY: 0.75
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 1
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+    }
+  }
+   # Default lava.
+  caveBlocks: [
+    { states: "lava", maxHeight: 10 }
+  ]
+}

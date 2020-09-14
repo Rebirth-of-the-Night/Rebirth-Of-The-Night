@@ -1,0 +1,30 @@
+name: metallurgy_astral_silver_ore
+mod: metallurgy
+block: {
+  location: metallurgy:astral_silver_ore
+  level: 4
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/astral_silver_ore
+}
+recipe: {
+  result: metallurgy:astral_silver_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:astral_silver_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 24, 64 ]
+    size: 6
+    count: 3
+  }
+]  

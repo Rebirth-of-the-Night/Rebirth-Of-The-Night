@@ -1,7 +1,258 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.artisanworktables.builder.RecipeBuilder;
 
+###########
+# BAUBLES #
+###########
 
+# Baubles will output 1 vis item of their respective tier, 100% of the time. 
+# They will also output 1 extra vis item, and 1 of each quintessence of the respective runes used to craft them, at a 10% chance each.
+
+// Inert
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:amuletsinempty>])
+  .addOutput(<contenttweaker:vis_speck>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<ore:inertAmulet>])
+  .addOutput(<contenttweaker:vis_speck>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Mundane
+
+RecipeBuilder.get("mage")
+  .setShapeless([<artifacts:shiny_red_balloon>])
+  .addOutput(<contenttweaker:vis_speck>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:air_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:amuletcross>])
+  .addOutput(<contenttweaker:vis_speck>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_speck>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:air_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Arcane
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:amuletsinwrath>])
+  .addOutput(<contenttweaker:vis_sliver>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:strength_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:amuletsinpride>])
+  .addOutput(<contenttweaker:vis_sliver>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:life_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:amuletsingluttony>])
+  .addOutput(<contenttweaker:vis_sliver>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:energy_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<artifacts:cobalt_shield>])
+  .addOutput(<contenttweaker:vis_sliver>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:strength_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<randomthings:obsidianskullring>])
+  .addOutput(<contenttweaker:vis_sliver>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:nether_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<mod_lavacow:dreamcatcher>])
+  .addOutput(<contenttweaker:vis_sliver>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_sliver>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:mind_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Mystical
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:trinketblackdragonscale>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:nether_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:death_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:trinketobsidianskull>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:nether_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:draconic_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:magicmirror>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:end_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:wormholemirror>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:end_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:soul_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:trinketbrokenheart>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:life_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:soul_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:trinketbezoar>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:poison_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:water_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:trinketshulkerheart>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:end_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:earth_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:ringoverclocking>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:energy_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<bountifulbaubles:trinketmagiclenses>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:luna_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:sol_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<artifacts:lucky_horseshoe>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:aether_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:air_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<mod_lavacow:halo_necklace>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:strength_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<iceandfire:siren_flute>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:fae_quintessence>, 0.1)
+  .setExtraOutputThree(<contenttweaker:water_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShapeless([<randomthings:lavacharm>])
+  .addOutput(<contenttweaker:vis_shard>)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .setExtraOutputOne(<contenttweaker:vis_shard>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:nether_quintessence>, 0.1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 // Inert
 
@@ -13,53 +264,22 @@ import crafttweaker.item.IIngredient;
 
 //recipes.addShapeless("disintrune14", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <extraalchemy:empty_ring>]);
 
-//recipes.addShapeless("disintrune15", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <qualitytools:emerald_ring>]);
-
-//recipes.addShapeless("disintrune16", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <qualitytools:emerald_amulet>]);
-
 //recipes.addShapeless("disintrune17", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <iceandfire:dragon_flute>]);
 
 //recipes.addShapeless("disintrune18", <bountifulbaubles:spectralsilt>, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <biomesoplenty:log_1>]);
 
 // Mundane
 
-recipes.addShapeless("disintrune21", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketballoon>]);
 
 //recipes.addShapeless("disintrune22", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <extraalchemy:potion_ring:0>]);
 
-recipes.addShapeless("disintrune23", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:brokenblackdragonscale>]);
 
-recipes.addShapeless("disintrune24", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <dungeontactics:magic_scroll>]);
 
-recipes.addShapeless("disintrune25", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <golems:golem_paper>]);
-
-recipes.addShapeless("disintrune26", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <quark:soul_bead>]);
-
-recipes.addShapeless("disintrune27", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:magic_map_focus>]);
 
 recipes.addShapeless("disintrune28", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:charm_of_life_1>]);
 
 recipes.addShapeless("disintrune29", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:charm_of_keeping_1>]);
 
-recipes.addShapeless("disintrune210", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <quark:witch_hat>]);
-
-recipes.addShapeless("disintrune211", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_undying>]);
-
-recipes.addShapeless("disintrune212", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_plummeting>]);
-
-recipes.addShapeless("disintrune213", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_lava>]);
-
-recipes.addShapeless("disintrune214", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_breathing>]);
-
-recipes.addShapeless("disintrune215", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_explode>]);
-
-recipes.addShapeless("disintrune216", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_repair>]);
-
-recipes.addShapeless("disintrune217", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_spelunking>]);
-
-recipes.addShapeless("disintrune218", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_time>]);
-
-recipes.addShapeless("disintrune219", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_head_recalling>]);
 
 //recipes.addShapeless("disintrune220", <bountifulbaubles:spectralsilt> * 2, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <rats:rat_flute>]);
 
@@ -67,19 +287,8 @@ recipes.addShapeless("disintrune219", <bountifulbaubles:spectralsilt> * 2, [<con
 
 // Arcane
 
-recipes.addShapeless("disintrune31", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketobsidianskull>]);
 
-recipes.addShapeless("disintrune32", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsingluttony>]);
 
-recipes.addShapeless("disintrune33", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsinpride>]);
-
-recipes.addShapeless("disintrune34", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletsinwrath>]);
-
-recipes.addShapeless("disintrune35", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:amuletcross>]);
-
-recipes.addShapeless("disintrune36", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:magicmirror>]);
-
-recipes.addShapeless("disintrune38", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <corpsecomplex:scroll>]);
 
 recipes.addShapeless("disintrune39", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:twilight_scepter>]);
 
@@ -89,7 +298,6 @@ recipes.addShapeless("disintrune311", <bountifulbaubles:spectralsilt> * 3, [<con
 
 recipes.addShapeless("disintrune312", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:shield_scepter>]);
 
-recipes.addShapeless("disintrune313", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:maze_map_focus>]);
 
 recipes.addShapeless("disintrune314", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:charm_of_life_2>]);
 
@@ -102,70 +310,25 @@ recipes.addShapeless("disintrune317", <bountifulbaubles:spectralsilt> * 3, [<con
 //recipes.addShapeless("disintrune318", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <minecraft:enchanted_book>]);
 
 
-recipes.addShapeless("disintrune320", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <mod_lavacow:dreamcatcher>]);
-
-recipes.addShapeless("disintrune321", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <golems:golem_head>]);
-
-recipes.addShapeless("disintrune322", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <minecraft:totem_of_undying>]);
-
-recipes.addShapeless("disintrune323", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_falling>]);
-
-recipes.addShapeless("disintrune324", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_lava>]);
-
-recipes.addShapeless("disintrune325", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_breathing>]);
-
-recipes.addShapeless("disintrune326", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_explode>]);
-
-recipes.addShapeless("disintrune327", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_repair>]);
-
-recipes.addShapeless("disintrune328", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_spelunking>]);
-
-recipes.addShapeless("disintrune329", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_time>]);
-
-recipes.addShapeless("disintrune330", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <totemexpansion:totem_recalling>]);
-
-recipes.addShapeless("disintrune331", <bountifulbaubles:spectralsilt> * 1, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <contenttweaker:phosphophyllite>]);
 
 
-
-//recipes.addShapeless("disintrune3", <bountifulbaubles:spectralsilt> * 3, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <>]);
 
 
 // Mystical
 
 //recipes.addShapeless("disintrune4", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <>]);
 
-recipes.addShapeless("disintrune319", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <mod_lavacow:halo_necklace>]);
 
-recipes.addShapeless("disintrune41", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:shieldcobalt>]);
 
-recipes.addShapeless("disintrune42", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketmagiclenses>]);
 
-recipes.addShapeless("disintrune43", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:ringoverclocking>]);
 
-recipes.addShapeless("disintrune44", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketshulkerheart>]);
-
-recipes.addShapeless("disintrune45", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketbezoar>]);
-
-recipes.addShapeless("disintrune46", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketblackdragonscale>]);
-
-recipes.addShapeless("disintrune47", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketluckyhorseshoe>]);
-
-recipes.addShapeless("disintrune48", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketbrokenheart>]);
-
-recipes.addShapeless("disintrune49", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:shieldobsidian>]);
-
-recipes.addShapeless("disintrune410", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:wormholemirror>]);
 
 recipes.addShapeless("disintrune411", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <twilightforest:charm_of_keeping_3>]);
 
-recipes.addShapeless("disintrune412", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <quark:diamond_heart>]);
 
-recipes.addShapeless("disintrune413", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <iceandfire:siren_flute>]);
 
 recipes.addShapeless("disintrune414", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <iceandfire:pixie_wand>]);
 
-recipes.addShapeless("disintrune415", <bountifulbaubles:spectralsilt> * 4, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <mowziesmobs:ice_crystal>]);
 
 
 
@@ -179,10 +342,6 @@ recipes.addShapeless("disintrune51", <bountifulbaubles:spectralsilt> * 5, [<cont
 recipes.addShapeless("disintrune52", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketvitamins>]);
 
 recipes.addShapeless("disintrune53", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:ringfreeaction>]);
-
-recipes.addShapeless("disintrune54", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketankhcharm>]);
-
-recipes.addShapeless("disintrune55", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:shieldankh>]);
 
 recipes.addShapeless("disintrune56", <bountifulbaubles:spectralsilt> * 5, [<contenttweaker:disint_rune>.anyDamage().transformDamage(), <bountifulbaubles:trinketmixeddragonscale>]);
 

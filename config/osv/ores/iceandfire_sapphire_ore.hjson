@@ -1,0 +1,25 @@
+name: iceandfire_sapphire_ore
+mod: iceandfire
+block: {
+  location: iceandfire:sapphire_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: iceandfire:sapphire_gem
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: iceandfire:blocks/sapphire_ore
+}
+recipe: {
+  result: iceandfire:sapphire_gem
+  xp: 1
+  quantity: 1
+}
+gen: []

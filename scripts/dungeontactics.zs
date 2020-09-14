@@ -1,6 +1,8 @@
 #priority 1
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.data.IData;
 
 mods.jei.JEI.removeAndHide(<dungeontactics:brazier>);
 
@@ -66,7 +68,8 @@ mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 //mods.jei.JEI.removeAndHide(<dungeontactics:silver_sword>);
 // using the silver sword as the true darks edge
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_pickaxe>);
-mods.jei.JEI.removeAndHide(<dungeontactics:silver_axe>);
+//mods.jei.JEI.removeAndHide(<dungeontactics:silver_axe>);
+// using silver axe for Ogre Axe
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_shovel>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_hoe>);
 
@@ -94,6 +97,11 @@ mods.jei.JEI.removeAndHide(<dungeontactics:silver_nugget>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_ore>);
 mods.jei.JEI.removeAndHide(<dungeontactics:silver_block>);
 
+mods.jei.JEI.removeAndHide(<dungeontactics:wither_web>);
+mods.jei.JEI.removeAndHide(<dungeontactics:backfire_cannon>);
+mods.jei.JEI.removeAndHide(<dungeontactics:pirate_hook>);
+mods.jei.JEI.removeAndHide(<dungeontactics:boots_of_blinding_speed>);
+
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_axe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_shovel");
@@ -108,11 +116,15 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_battleaxe");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:silver_hammer");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:mortar&pestle");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:pirate_hook");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:boots_of_blinding_speed");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:backfire_cannon");
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:wither_web");
 
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_dungeontactics_stonequartz_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_dungeontactics_stonequartz_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_dungeontactics_stonequartz_ore:*>);
 
+// this removes the regular magic scroll recipe, and hides it from JEI. Added back as wands further down
+recipes.remove(<dungeontactics:magic_scroll>);
+#mods.jei.JEI.removeAndHide(<dungeontactics:magic_scroll>);
 
 recipes.remove(<dungeontactics:potshot_ammo>);
 recipes.addShapeless("potshot",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
@@ -278,7 +290,8 @@ mods.jei.JEI.removeAndHide(<dungeontactics:mithril_shield>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cestus>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_knife>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_cutlass>);
-mods.jei.JEI.removeAndHide(<dungeontactics:mithril_sword>);
+//mods.jei.JEI.removeAndHide(<dungeontactics:mithril_sword>);
+// used for sange
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_glaive>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_battleaxe>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mithril_hammer>);
@@ -464,6 +477,7 @@ recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
 ]);
 
 recipes.remove(<dungeontactics:tunnelling_device>);
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:tunnelling_device");
 recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
 	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],
     [<dungeontactics:steel_ingot>, <betterwithmods:material:17>, <betterwithmods:material:31>],
@@ -494,14 +508,28 @@ recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
     [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);
 
+// Mirroring Steel Tools
+
+recipes.remove(<dungeontactics:steel_axe>);
+recipes.addShapedMirrored("steel_axe",<dungeontactics:steel_axe>,[
+  [<dungeontactics:steel_ingot>,<dungeontactics:steel_ingot>],
+  [<dungeontactics:steel_ingot>,<ore:stickWood>],
+  [null,<ore:stickWood>]
+]);
+
+recipes.remove(<dungeontactics:steel_hoe>);
+recipes.addShapedMirrored("steel_hoe",<dungeontactics:steel_hoe>,[
+  [<dungeontactics:steel_ingot>,<dungeontactics:steel_ingot>],
+  [null,<ore:stickWood>],
+  [null,<ore:stickWood>]
+]);
+
 #Bag of Hoarding crafted using Tanned Leather
 
 var backpack = <quark:backpack>;
 
 recipes.remove(<dungeontactics:bagofhoarding>);
 recipes.addShapeless("bag_of_hoarding",<dungeontactics:bagofhoarding>,[backpack,<minecraft:ender_chest>]);
-
-// Charm recipes
 
 // Charm recipes
 
@@ -576,7 +604,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
     [null, <contenttweaker:blank_charm>, null],
     [<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>]])
-  .addTool(<contenttweaker:luna_rune>, 1)
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:death_rune>, 1)
   .addOutput(<dungeontactics:charm_barren>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -615,40 +644,9 @@ RecipeBuilder.get("mage")
 
 # Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
 game.setLocalization("item.dungeontactics:scroll_of.name","Wand of");
-
-# Force wands to show in JEI
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 44 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 47 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 28 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 43 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 42 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 45 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 41 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 36 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 30 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 39 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 31 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 38 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 40 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 37 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 29 as short}]}));
-
-mods.jei.JEI.addItem(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 27 as short}]}));
+game.setLocalization("item.dungeontactics:magic_scroll.name","Magic Wand");
+game.setLocalization("item.dungeontactics:magic_powder.name","Wand Powder");
+game.setLocalization("item.dungeontactics:magic_pouch.name","Wand Powder Pouch");
 
 # Base wands oredicts for woods
 val mundaneWood = <ore:mundaneWood>;
@@ -714,93 +712,240 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-  
-# mundane wands
 
+# enchant definitions
+val enchantmentsDT1 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:restoration>];
+var enchantmentsDTMap1 as IData = {};
+enchantmentsDTMap1 += enchantmentsDT1[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT2 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:satiate>];
+var enchantmentsDTMap2 as IData = {};
+enchantmentsDTMap2 += enchantmentsDT2[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT3 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:forging>];
+var enchantmentsDTMap3 as IData = {};
+enchantmentsDTMap3 += enchantmentsDT3[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT4 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:cooking>];
+var enchantmentsDTMap4 as IData = {};
+enchantmentsDTMap4 += enchantmentsDT4[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT5 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:freezing>];
+var enchantmentsDTMap5 as IData = {};
+enchantmentsDTMap5 += enchantmentsDT5[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT6 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:uncover>];
+var enchantmentsDTMap6 as IData = {};
+enchantmentsDTMap6 += enchantmentsDT6[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT7 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:disarm>];
+var enchantmentsDTMap7 as IData = {};
+enchantmentsDTMap7 += enchantmentsDT7[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT8 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:disorient>];
+var enchantmentsDTMap8 as IData = {};
+enchantmentsDTMap8 += enchantmentsDT8[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT9 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:punish>];
+var enchantmentsDTMap9 as IData = {};
+enchantmentsDTMap9 += enchantmentsDT9[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT10 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:wither>];
+var enchantmentsDTMap10 as IData = {};
+enchantmentsDTMap10 += enchantmentsDT10[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT11 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:smite>];
+var enchantmentsDTMap11 as IData = {};
+enchantmentsDTMap11 += enchantmentsDT11[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT12 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:magicmissile>];
+var enchantmentsDTMap12 as IData = {};
+enchantmentsDTMap12 += enchantmentsDT12[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT13 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:pinmissile>];
+var enchantmentsDTMap13 as IData = {};
+enchantmentsDTMap13 += enchantmentsDT13[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT14 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:transport>];
+var enchantmentsDTMap14 as IData = {};
+enchantmentsDTMap14 += enchantmentsDT14[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT15 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:companion>];
+var enchantmentsDTMap15 as IData = {};
+enchantmentsDTMap15 += enchantmentsDT15[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT16 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:sunder>];
+var enchantmentsDTMap16 as IData = {};
+enchantmentsDTMap16 += enchantmentsDT16[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT17 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:rage>];
+var enchantmentsDTMap17 as IData = {};
+enchantmentsDTMap17 += enchantmentsDT17[0].makeEnchantment(0).makeTag();
+
+val enchantmentsDT18 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:soulsteal>];
+var enchantmentsDTMap18 as IData = {};
+enchantmentsDTMap18 += enchantmentsDT18[0].makeEnchantment(0).makeTag();
+
+# wand definitions
+
+val wandRestoration = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap1);
+
+val wandSatiate = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap2);
+
+val wandForging = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap3);
+
+val wandCooking = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap4);
+
+val wandFreezing = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap5);
+
+val wandUncover = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap6);
+
+val wandDisarm = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap7);
+
+val wandDisorient = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap8);
+
+val wandPunish = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap9);
+
+val wandWither = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10);
+
+val wandSmite = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11);
+
+val wandMagicMissile = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12);
+
+val wandPinMissile = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13);
+
+val wandTransport = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap14);
+
+val wandCompanion = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap15);
+
+val wandSunder = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap16);
+
+val wandRage = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap17);
+
+val wandSoulSteel = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap18);
+
+# Force wands to show in JEI
+
+mods.jei.JEI.addItem(wandRestoration);
+
+mods.jei.JEI.addItem(wandSatiate);
+
+#mods.jei.JEI.addItem(wandForging);
+
+mods.jei.JEI.addItem(wandCooking);
+
+mods.jei.JEI.addItem(wandFreezing);
+
+#mods.jei.JEI.addItem(wandUncover);
+
+#mods.jei.JEI.addItem(wandDisarm);
+
+mods.jei.JEI.addItem(wandDisorient);
+
+mods.jei.JEI.addItem(wandPunish);
+
+mods.jei.JEI.addItem(wandWither);
+
+mods.jei.JEI.addItem(wandSmite);
+
+mods.jei.JEI.addItem(wandMagicMissile);
+
+mods.jei.JEI.addItem(wandPinMissile);
+
+mods.jei.JEI.addItem(wandTransport);
+
+mods.jei.JEI.addItem(wandCompanion);
+
+#mods.jei.JEI.addItem(wandSunder);
+
+mods.jei.JEI.addItem(wandRage);
+
+# make wands unstackable
+
+val wand = <dungeontactics:magic_scroll>;
+wand.maxStackSize = 1;
+
+### MUNDANE ###
+
+# cook
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:iron_ingot>, <minecraft:fire_charge>],
     [null, <minecraft:flint_and_steel>, <minecraft:iron_ingot>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:fire_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 30 as short}]}))
+  .addOutput(wandCooking)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+# freeze
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <minecraft:ice>, <mowziesmobs:ice_crystal>],
-    [null, <minecraft:packed_ice>, <minecraft:ice>],
+    [null, <minecraft:ice>, <mowziesmobs:ice_crystal>.transformDamage(600)],
+    [null, <contenttweaker:waterlogged_sapphire>, <minecraft:ice>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:water_rune>, 1)
   .addTool(<contenttweaker:order_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 31 as short}]}))
+  .addOutput(wandFreezing)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, <nyx:fallen_star>, <glaretorch:itemglaretorchsmall>],
-    [null, <minecraft:obsidian>, <nyx:fallen_star>],
-    [<contenttweaker:wand_base_mundane>, null, null]])
-  .addTool(<contenttweaker:sol_rune>, 1)
-  .addTool(<contenttweaker:luna_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 38 as short}]}))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
+# punish
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:bone>, <minecraft:skull>],
     [null, <minecraft:bone_block>, <minecraft:bone>],
     [<contenttweaker:wand_base_mundane>, null, null]])
   .addTool(<contenttweaker:earth_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 39 as short}]}))
+  .addOutput(wandPunish)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-# arcane
-
+# satiate
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <minecraft:fire_charge>, <minecraft:anvil>],
-    [null, <pyrotech:anvil_granite>, <minecraft:fire_charge>],
-    [<contenttweaker:wand_base_arcane>, null, null]])
-  .addTool(<contenttweaker:fire_rune>, 1)
-  .addTool(<contenttweaker:strength_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 29 as short}]}))
+    [null, null, <minecraft:apple>],
+    [null, <dungeontactics:charm_famine>, <ore:treeLeaves>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(wandSatiate)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+### ARCANE ###
+
+# disorient
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <nyx:fallen_star>, <glaretorch:itemglaretorchsmall>],
+    [null, <minecraft:obsidian>, <nyx:fallen_star>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addOutput(wandDisorient)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# restoration
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <aether_legacy:golden_feather>, <aether_legacy:golden_amber>],
-    [null, <minecraft:gold_ingot>, <aether_legacy:golden_feather>],
+    [null, <contenttweaker:holy_zanite>, <aether_legacy:golden_feather>],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 27 as short}]}))
+  .addOutput(wandRestoration)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, <minecraft:iron_ingot>, <contenttweaker:material_part:12>],
-    [null, <betterwithmods:material:34>, <minecraft:iron_ingot>],
-    [<contenttweaker:wand_base_arcane>, null, null]])
-  .addTool(<contenttweaker:energy_rune>, 1)
-  .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 41 as short}]}))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
+# wither
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <quark:black_ash>, <iceandfire:witherbone>],
@@ -808,11 +953,12 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<contenttweaker:nether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 40 as short}]}))
+  .addOutput(wandWither)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+# companion
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:bone>, <ore:fierceBeastHead>],
@@ -820,11 +966,26 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:creation_rune>, 1)
   .addTool(<contenttweaker:death_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 45 as short}]}))
+  .addOutput(wandCompanion)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+# pin missile
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <contenttweaker:material_part:12>, <betterwithaddons:greatarrow>],
+    [null, <aether_legacy:golden_feather>, <contenttweaker:material_part:12>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(wandPinMissile)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+/*
+# disarm
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <grapplemod:magnetupgradeitem>, <minecraft:iron_block>],
@@ -832,11 +993,14 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:chaos_rune>, 1)
   .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 37 as short}]}))
+  .addOutput(wandDisarm)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
+/*
+# uncover
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <grapplemod:magnetupgradeitem>, <minecraft:iron_block>],
@@ -844,61 +1008,70 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:chaos_rune>, 1)
   .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 36 as short}]}))
+  .addOutput(wandUncover)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
 # mystical
 
+# forge
+/*
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <biomesoplenty:gem>, <minecraft:shulker_shell>],
-    [null, <aether_legacy:enchanted_gravitite>, <biomesoplenty:gem>],
+    [null, <minecraft:fire_charge>, <minecraft:anvil>],
+    [null, <pyrotech:anvil_granite>, <minecraft:fire_charge>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(wandForging)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+*/
+
+# smite
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:iron_ingot>, <contenttweaker:material_part:12>],
+    [null, <contenttweaker:electrified_zanite>, <minecraft:iron_ingot>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(wandSmite)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# magic missile
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <aether_legacy:enchanted_gravitite>, <minecraft:shulker_shell>],
+    [null, <contenttweaker:voidseen_amethyst>, <aether_legacy:enchanted_gravitite>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<endreborn:item_end_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 42 as short}]}))
+  .addOutput(wandMagicMissile)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, <contenttweaker:material_part:12>, <betterwithaddons:greatarrow>],
-    [null, <aether_legacy:golden_feather>, <contenttweaker:material_part:12>],
-    [<contenttweaker:wand_base_mystical>, null, null]])
-  .addTool(<contenttweaker:air_rune>, 1)
-  .addTool(<contenttweaker:aether_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 43 as short}]}))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, null, <minecraft:apple>],
-    [null, <dungeontactics:charm_famine>, <twilightforest:steeleaf_ingot>],
-    [<contenttweaker:wand_base_mystical>, null, null]])
-  .addTool(<contenttweaker:life_rune>, 1)
-  .addTool(<contenttweaker:energy_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 28 as short}]}))
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
+# rage
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <minecraft:gold_ingot>, <mowziesmobs:barakoa_mask_rage>],
-    [null, <minecraft:golden_apple>, <minecraft:gold_ingot>],
+    [null, <contenttweaker:fortified_ruby>, <minecraft:gold_ingot>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addTool(<contenttweaker:draconic_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 47 as short}]}))
+  .addOutput(wandRage)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
 
+/*
+# transport
 RecipeBuilder.get("mage")
   .setShaped([
     [null, <ultimate_unicorn_mod:ice_horseshoes>, <cyclicmagic:water_candle>],
@@ -906,7 +1079,28 @@ RecipeBuilder.get("mage")
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<contenttweaker:creation_rune>, 1)
-  .addOutput(<dungeontactics:magic_scroll>.withTag({ench: [{lvl: 1 as short, id: 44 as short}]}))
+  .addOutput(wandTransport)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
+
+// tier tooltips
+
+wandCooking.addTooltip(format.green("Mundane"));
+wandFreezing.addTooltip(format.green("Mundane"));
+wandPunish.addTooltip(format.green("Mundane"));
+wandSatiate.addTooltip(format.green("Mundane"));
+
+wandDisorient.addTooltip(format.aqua("Arcane"));
+wandRestoration.addTooltip(format.aqua("Arcane"));
+wandWither.addTooltip(format.aqua("Arcane"));
+wandCompanion.addTooltip(format.aqua("Arcane"));
+wandPinMissile.addTooltip(format.aqua("Arcane"));
+
+wandSmite.addTooltip(format.darkPurple("Mystical"));
+wandMagicMissile.addTooltip(format.darkPurple("Mystical"));
+wandRage.addTooltip(format.darkPurple("Mystical"));
+wandTransport.addTooltip(format.darkPurple("Mystical"));
+
+#wandCooking.addTooltip(format.gold("Ascended"));

@@ -1,0 +1,29 @@
+name: metallurgy_prometheum_ore
+mod: metallurgy
+block: {
+  location: metallurgy:prometheum_ore
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/prometheum_ore
+}
+recipe: {
+  result: metallurgy:prometheum_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:prometheum_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 6
+    count: 10
+  }
+]

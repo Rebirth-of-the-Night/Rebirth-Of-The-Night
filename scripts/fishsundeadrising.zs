@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 //removed loot
 mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
@@ -14,8 +15,8 @@ mods.ltt.LootTable.removeGlobalItem("mod_lavacow:shattered_ice");
 <quark:glowshroom>.displayName = "Blue Glowshroom";
 <biomesoplenty:mushroom:3>.displayName = "Green Glowshroom";
 
-<mod_lavacow:dreamcatcher>.displayName = "§2Dreamcatcher";
-<mod_lavacow:halo_necklace>.displayName = "§5Radiant Necklace";
+<mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";
+<mod_lavacow:halo_necklace>.displayName = "§bRadiant Necklace";
 
 //removed netherex salamander armor
 mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
@@ -89,10 +90,7 @@ recipes.addShaped("canerotten", <mod_lavacow:canerottenmeat>,[
     [<harvestcraft:zombiejerkyitem>, <rats:herb_bundle>, null],
 ]);
 
-recipes.addShaped("greeneggsham", <mod_lavacow:green_bacon_and_eggs>,[
-	[<mod_lavacow:plagued_porkchop>, <harvestcraft:friedeggitem>, <harvestcraft:friedeggitem>],
-    [<rats:herb_bundle>, <harvestcraft:honeyitem>, null],
-]);
+recipes.addShapeless("greeneggsham", <mod_lavacow:green_bacon_and_eggs>,[<mod_lavacow:plagued_porkchop>, <harvestcraft:friedeggitem>, <harvestcraft:friedeggitem>, <rats:herb_bundle>, <harvestcraft:honeyitem>]);
 
 //new weapon recipes
 recipes.addShaped(<mod_lavacow:war>,[
@@ -171,24 +169,42 @@ mods.rats.recipes.addChefRatRecipe(<mod_lavacow:parasite_item>, <mod_lavacow:sau
 // Oozemancer Staff
 recipes.remove(<mod_lavacow:sludge_wand>);
 
-mods.betterwithaddons.Infuser.addShaped(<mod_lavacow:sludge_wand>, [
-   [null, <mod_lavacow:silky_sludge>, <contenttweaker:nature_rune>.anyDamage().transformDamage()],
-   [<minecraft:vine>, <mod_lavacow:mossy_stick>, <mod_lavacow:silky_sludge>], 
-   [<mod_lavacow:mossy_stick>, <minecraft:vine>, null]],
-16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <mod_lavacow:silky_sludge>, <mod_lavacow:mossy_stick>],
+    [<ore:vine>, <mod_lavacow:mossy_stick>, <mod_lavacow:silky_sludge>],
+    [<mod_lavacow:mossy_stick>, <ore:vine>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addOutput(<mod_lavacow:sludge_wand>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 // dreamcatcher
 val bFeatherOre = <ore:blackFeather>;
 bFeatherOre.add([<animania:charcoal_peacock_feather>, <twilightforest:raven_feather>, <mod_lavacow:feather_black>]);
 
-mods.betterwithaddons.Infuser.addShaped(<mod_lavacow:dreamcatcher>, [
-   [<mod_lavacow:mossy_stick>, <contenttweaker:mind_rune>.anyDamage().transformDamage(), <mod_lavacow:mossy_stick>],
-   [<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>], 
-   [bFeatherOre, bFeatherOre, bFeatherOre]],
-16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <mod_lavacow:mossy_stick>, <contenttweaker:vis_sliver>],
+    [<mod_lavacow:mossy_stick>, <minecraft:web>, <mod_lavacow:mossy_stick>],
+    [<ore:blackFeather>, <ore:blackFeather>, <ore:blackFeather>]])
+  .addTool(<contenttweaker:mind_rune>, 1)
+  .addOutput(<mod_lavacow:dreamcatcher>)
+  .create();
 
+// halo necklace
 
-
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_shard>],
+    [<contenttweaker:material_part:12>, <contenttweaker:holy_zanite>, <contenttweaker:material_part:12>],
+    [<mod_lavacow:scythe_claw>, <contenttweaker:fortified_ruby>, <mod_lavacow:scythe_claw>]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addOutput(<mod_lavacow:halo_necklace>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 
 

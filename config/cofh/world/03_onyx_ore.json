@@ -1,0 +1,71 @@
+{
+	"populate": {
+		"lava_ocean_onyx": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "structure",
+				"structure": "/structures/onyx_geode_1.nbt",
+				"material": [
+					{
+						"name":"minecraft:netherrack"
+					},
+					{
+						"name":"netherex:fiery_netherrack"
+					},
+					{
+						"name":"netherex:fiery_netherrack"
+					},
+					{
+						"name":"biomesoplenty:ash_block"
+					},
+					{
+						"name":"minecraft:soul_sand"
+					},
+					{
+						"name": "biomesoplenty:ash_block"
+					},
+					{
+						"name":"minecraft:soul_sand"
+					},
+					{
+						"name": "biomesoplenty:flesh"
+					}
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 6,
+			"min-height": 1,
+			"max-height": 12,
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+				-1
+				]
+			}
+		},
+		"blazing_fiery_block_onyx": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": "osv:simpleores_onyx_ore_contenttweaker_starblock",
+				"material": "contenttweaker:starblock",
+				"min-height": 1,
+				"height-variance": 2,
+				"stack-height": 2,
+				"gen-size": 1,
+				"size-variance": 1
+			},
+			"cluster-count": 10,
+			"min-height": 75,
+			"max-height": 120,
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

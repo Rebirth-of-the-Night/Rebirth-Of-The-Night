@@ -1,0 +1,24 @@
+name: biomesoplenty_tanzanite_ore
+mod: biomesoplenty
+block: {
+  location: biomesoplenty:gem_ore:4
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: biomesoplenty:gem:4
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  original: biomesoplenty:blocks/tanzanite_ore
+}
+recipe: {
+  result: biomesoplenty:gem:4
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: []

@@ -1,0 +1,31 @@
+name: mineralogy_phosphorous_ore
+mod: mineralogy
+block: {
+  location: mineralogy:phosphorous_ore
+  hardness: 1.5
+  level: 0
+}
+loot: [
+  {
+    item: mineralogy:phosphorous_dust
+    count: [ 1, 4 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: mineralogy:blocks/phosphorous_ore
+  background: mineralogy:blocks/limestone
+}
+recipe: {
+  result: mineralogy:phosphorous_dust
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 16, 64 ]
+    size: 16
+    count: 1
+  }
+]

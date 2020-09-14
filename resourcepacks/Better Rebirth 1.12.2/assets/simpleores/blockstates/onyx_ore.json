@@ -1,0 +1,22 @@
+{
+	"variants": {
+		"normal": [
+            { "model": "simpleores:onyx_ore" },
+            { "model": "simpleores:onyx_ore", "x": 90 },
+            { "model": "simpleores:onyx_ore", "x": 180 },
+			{ "model": "simpleores:onyx_ore", "x": 270 },
+            { "model": "simpleores:onyx_ore", "y": 90 },
+            { "model": "simpleores:onyx_ore", "y": 90, "x": 90 },
+			{ "model": "simpleores:onyx_ore", "y": 90, "x": 180 },
+            { "model": "simpleores:onyx_ore", "y": 90, "x": 270 },
+            { "model": "simpleores:onyx_ore", "y": 180 },
+			{ "model": "simpleores:onyx_ore", "y": 180, "x": 90 },
+            { "model": "simpleores:onyx_ore", "y": 180, "x": 180 },
+            { "model": "simpleores:onyx_ore", "y": 180, "x": 270 },
+			{ "model": "simpleores:onyx_ore", "y": 270 },
+            { "model": "simpleores:onyx_ore", "y": 270, "x": 90 },
+            { "model": "simpleores:onyx_ore", "y": 270, "x": 180 },
+			{ "model": "simpleores:onyx_ore", "y": 270, "x": 270 }
+        ]
+	}
+}

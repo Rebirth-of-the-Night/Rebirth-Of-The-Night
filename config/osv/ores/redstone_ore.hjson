@@ -1,0 +1,52 @@
+name: redstone_ore
+mod: minecraft
+block: {
+  location: redstone_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: redstone
+    count: [ 4, 5 ]
+    xp: [ 1, 5 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/redstone_ore
+}
+recipe: {
+  result: redstone
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 8
+    count: 8
+  }
+  {
+    height: [ 0, 32 ]
+    size: 9
+    count: 12
+	chance: 0.6
+    biomes: {
+		names: ["minecraft:mesa","minecraft:mesa_clear_rock","minecraft:mesa_rock"]
+	}
+  }
+  {
+	height : [130, 255]
+	size: 8
+	count: 8 
+	dimensions: [10]
+  }
+  {
+	height : [120, 130]
+	size: 8
+	count: 12
+	dimensions: [10]
+  }
+]

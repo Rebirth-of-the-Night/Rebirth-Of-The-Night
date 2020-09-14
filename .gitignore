@@ -12,7 +12,7 @@ config/jei/worldSettings.cfg
 usercache.json
 usernamecache.json
 config/splash.properties
-mods/OptiFine_1.12.2_HD_U_F4.jar
+mods/OptiFine_1.12.2_*.jar
 config/splash.properties
 config/BiomeTweaker/output/
 config/netherex/biomes/
@@ -23,49 +23,37 @@ config/biomesoplenty/biomes/defaults/
 screenshots/
 crash-reports/
 servers.dat
-shaderpacks/Sildurs Enhanced Default v1.10.zip
+shaderpacks/Sildurs Enhanced Default *.zip
 optionsshaders.txt
 config/jei/worldSettings.cfg
 mods/Embassy_5.0-b20.jar
-mods/blockdrops-1.12.2-1.4.0.jar
-config/BlockDrops/blockdrops.txt
-config/BlockDrops/modVersions.txt
-config/BlockDrops/config.cfg
+mods/blockdrops-1.12.2-*.jar
+config/BlockDrops/
 modlist.html
 manifest.json
-mods/JustEnoughResources-1.12.2-0.9.2.60.jar
+mods/JustEnoughResources-1.12.2-*.jar
 config/jeresources/jeresources.cfg
-mods/OptiFine_1.12.2_HD_U_F5.jar
-mods/effortlessbuilding-1.12.2-2.16.jar
-mods/JEIHider-1.1c.jar
-mods/Mapmaker's+Gadgets-1.2_for_1.12.x.jar
-mods/Mineshot-v1.71-1.12.jar
-mods/themidnight-0.3.5.jar
+mods/effortlessbuilding-1.12.2-*.jar
+mods/JEIHider-*.jar
+mods/Mapmaker's+Gadgets-*_for_1.12.x.jar
+mods/Mineshot-*-1.12.jar
+mods/themidnight-*.jar
 options.txt
-mods/twitchspawn_1.12.2-0.4.17.jar
-config/TwitchSpawn/credentials.toml
-config/TwitchSpawn/messages.subtitle.json
-config/TwitchSpawn/messages.title.json
-config/TwitchSpawn/preferences.toml
-config/TwitchSpawn/rules.default.tsl
-config/TwitchSpawn/rules.calamarigold.tsl
+config/TwitchSpawn/
 
 config/jei/bookmarks.ini
 config/multimob/modInformation/*.txt
 config/pyrotech/*-Generated.json
-shaderpacks/SEUS-Renewed-v1.0.1.zip
 patchouli_data.json
 
 .DS_Store
 desktop.ini
 mountains.txt
-mods/twitchspawn_1.12.2-0.5.4.jar
 config/ultimate_unicorn_download/*.txt
 .gamelaunched
-mods/twitchspawn_1.12.2-0.5.5.jar
-shaderpacks/SEUS PTGI E12.zip
-shaderpacks/BBVanillaReborn_V1.0.2.zip
-mods/twitchspawn_1.12.2-0.6.3.jar
+shaderpacks/SEUS*.zip
+shaderpacks/BBVanillaReborn_*.zip
+mods/twitchspawn_1.12.2-*.jar
 icon.png
 config/tellme.cfg
 config/tellme/
@@ -78,3 +66,6 @@ config/qualitytools/problems.txt
 local/ftbutilities/backups.json
 
 local/ftbutilities/uploaded_crash_reports/
+mods/Sound-Physics-1.12.2-*.jar
+
+config/fantasticlib/reference/players.txt

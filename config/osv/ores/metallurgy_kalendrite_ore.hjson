@@ -1,0 +1,31 @@
+name: metallurgy_kalendrite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:kalendrite_ore
+  level: 4
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/kalendrite_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:kalendrite_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:kalendrite_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 27, 120 ]
+    size: 5
+    count: 7
+  }
+]

@@ -1,0 +1,33 @@
+name: metallurgy_vulcanite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:vulcanite_ore
+  level: 5
+  lightLevel: 5
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/vulcanite_ore
+  background: blocks/netherrack
+  builtIn: true
+}
+recipe: {
+  result: metallurgy:vulcanite_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:vulcanite_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 5
+    count: 7
+  }
+]

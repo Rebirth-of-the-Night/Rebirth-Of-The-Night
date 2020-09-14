@@ -1,4 +1,4 @@
-setIcon(<animania:blue_peacock_feather>)
+setIcon(<mowziesmobs:naga_fang>)
 setTitle("Grounded")
 setDescription("Bring down a fearsome aerial predator.")
 

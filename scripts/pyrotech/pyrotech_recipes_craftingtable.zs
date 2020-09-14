@@ -4,10 +4,6 @@ import mods.jei.JEI;
 import crafttweaker.item.IItemTransformer;
 import crafttweaker.oredict.IOreDictEntry;
 
-mods.jei.JEI.removeAndHide(<undergroundbiomes:sedimentary_stone_pyrotech_dense_coal_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:igneous_stone_pyrotech_dense_coal_ore:*>);
-mods.jei.JEI.removeAndHide(<undergroundbiomes:metamorphic_stone_pyrotech_dense_coal_ore:*>);
-
 recipes.removeByMod("pyrotech");
 recipes.remove(<pyrotech:stone_hammer>);
 recipes.remove(<pyrotech:crude_hammer>);
@@ -107,13 +103,13 @@ val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
 val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<betternether:quartz_glass_framed:*>|<netherex:soul_glass>;
 
-recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>|<pyrotech:rock:6>]);
+recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>]);
+recipes.addShapeless("sandrock_conversion",<minecraft:sandstone>,[<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 [<pyrotech:material>,]);
-
-recipes.addShaped("twineToString", <minecraft:string>*3,
+recipes.addShaped("twineToString", <minecraft:string>,
 [[twine,twine,twine]]);
 recipes.addShaped("pyro_stone_brick", stoneBrick*8,
 [[<ore:stone>],
@@ -199,7 +195,7 @@ recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
   [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro_bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
 recipes.addShapeless("pyro_flint_and_tinder_for_survivors", <pyrotech:flint_and_tinder>*3,[<ore:cobblestone>,<pyrotech:material:13>,<minecraft:flint>]);
-recipes.addShapeless("pyro_refracotrymaterial_slag", <pyrotech:material:4>, [<pyrotech:material:8>*2,<minecraft:clay_ball>]);
+recipes.addShapeless("pyro_refracotrymaterial_slag", <pyrotech:material:4>, [<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
 recipes.addShapeless("pyro_unfiredlime_lime", <pyrotech:material:9>,[<pyrotech:material:4>,<pyrotech:material:4>]);
 recipes.addShapeless("pyro_flint_and_tinder_for_pussies", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:flint>]);
 furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
@@ -219,13 +215,9 @@ recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
  [[stoneBrick,null,stoneBrick],
   [<ore:twine>,stoneBrick,<ore:twine>],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
-recipes.addShaped("pyro_chopping_block", <pyrotech:chopping_block>,
- [[<ore:toolAxe>.transformDamage()],
-  [<ore:logWood>]]);  
-recipes.addShaped("pyro_stone_sawmill", <pyrotech:stone_sawmill>,
- [[stoneBrick,stoneBrick,stoneBrick],
-  [stoneBrick,<pyrotech:chopping_block>,stoneBrick],
-  [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
+recipes.addShaped("pyro_crude_axe", <pyrotech:crude_axe>,
+ [[<pyrotech:rock>|<minecraft:flint>,<ore:stickWood>],
+  [<ore:stickWood>,null]]);  
 recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
  [[null,<ore:stickWood>],
   [<ore:stickWood>,<ore:twine>]]);

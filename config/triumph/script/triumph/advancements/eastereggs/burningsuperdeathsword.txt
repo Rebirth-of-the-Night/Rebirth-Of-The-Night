@@ -1,6 +1,6 @@
 setIcon("msmlegacy:relic_candy")
 setTitle("Grand Ol' Time")
-setDescription("Craft Relic 2 of 7")
+setDescription("Craft Patreon Relic 2 of 3")
 
 addParent("triumph:advancements/eastereggs/root")
 

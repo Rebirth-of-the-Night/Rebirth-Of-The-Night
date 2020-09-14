@@ -26,6 +26,7 @@ item.mod_lavacow.faminearmor_leggings.name=Famine Breeches
 item.mod_lavacow.faminearmor_boots.name=Famine Boots
 item.mod_lavacow.foul_bristle.name=Foul Bristle
 item.mod_lavacow.crabcake.name=Crab Cake
+item.mod_lavacow.halo_necklace.name=§bRadiant Amulet
 
 ############
 # Entities #
@@ -149,8 +150,8 @@ tootip.mod_lavacow.swinearmor.l2=
 tootip.mod_lavacow.piranhalauncher=Right-click to launch an undead piranha. Uses Frenzy as ammunition.
 tootip.mod_lavacow.cursed_bandage=Sticky enough to apply to a companion that just won't stay still. Right-click on a pet to heal it for 2 HP.
 tootip.mod_lavacow.holy_grenade=Blessed explosive. Undead within range take triple damage and are set on fire.
-tootip.mod_lavacow.halo_necklace=Damage to undead monsters increased by %d%%.
-tootip.mod_lavacow.dreamcatcher=Has a chance to trap nightmarish creatures from your dreams, forcing them into corporeal form.
+tootip.mod_lavacow.halo_necklace=§7Damage to undead monsters increased by %d%%.
+tootip.mod_lavacow.dreamcatcher=§7Has a chance to trap nightmarish creatures from your dreams, forcing them into corporeal form.
 tootip.mod_lavacow.undertaker_shovel=Unearths the cursed dead. Right-click to summon an army of Unburied.
 tootip.mod_lavacow.raven_whistle=Right-click to bind with a raven and order it to move to the target location.
 tootip.mod_lavacow.faminearmor=Set(2): +2 damage when afflicted with Hunger.

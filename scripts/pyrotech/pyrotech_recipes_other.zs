@@ -10,7 +10,7 @@ import mods.pyrotech.Burn;
 
 CompactingBin.removeAllRecipes();
 CompactingBin.addRecipe("ash_pile_from_ash", <pyrotech:pile_wood_chips>, <pyrotech:rock:7>, 4);
-CompactingBin.addRecipe("starblock_from_stars", <contenttweaker:starblock>, <nyx:fallen_star>, 2);
+CompactingBin.addRecipe("starblock_from_stars", <nyx:star_block>, <nyx:fallen_star>, 2);
 CompactingBin.addRecipe("magma_verus_block", <betterwithaddons:elytra_magma>, <betterwithaddons:material:6>, 4);
 CompactingBin.addRecipe("rat_cheese_block", <rats:block_of_cheese>, <ore:foodCheese>, 4);
 CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <betterwithaddons:congealed>, 3);
@@ -51,6 +51,8 @@ SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*2, <liquid:wood_ta
 SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 12 * 60 * 20);
 SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
+SoakingPot.addRecipe("vis_sliver", <contenttweaker:vis_sliver>, <liquid:lunar_water>*250, <contenttweaker:vis_speck>*4, 1 * 60 * 20);
+SoakingPot.addRecipe("vis_shard", <contenttweaker:vis_shard>, <liquid:lunar_water>*500, <contenttweaker:vis_sliver>*4, 5 * 60 * 20);
 
 // Mossy stone recipes
 val ignMossyDef = <undergroundbiomes:igneous_cobble_mossy>.definition;
@@ -68,27 +70,6 @@ furnace.remove(<pyrotech:material:22>);
 Burn.removeRecipes(<pyrotech:material:23>);
 
 Burn.createBuilder("molten_spirit_vanilla", <pyrotech:material:16>, "simpleores:mythril_ore")
-    .setBurnStages(1)
-    .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:lifeblood> * 1000)
-    .setRequiresRefractoryBlocks(true)
-    .setFluidLevelAffectsFailureChance(false)
-    .register();
-Burn.createBuilder("molten_spirit_igneous", <pyrotech:material:16>, "undergroundbiomes:igneous_stone_simpleores_mythril_ore:*")
-    .setBurnStages(1)
-    .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:lifeblood> * 1000)
-    .setRequiresRefractoryBlocks(true)
-    .setFluidLevelAffectsFailureChance(false)
-    .register();
-Burn.createBuilder("molten_spirit_metamorphic", <pyrotech:material:16>, "undergroundbiomes:metamorphic_stone_simpleores_mythril_ore:*")
-    .setBurnStages(1)
-    .setTotalBurnTimeTicks(3 * 60 * 20)
-    .setFluidProduced(<liquid:lifeblood> * 1000)
-    .setRequiresRefractoryBlocks(true)
-    .setFluidLevelAffectsFailureChance(false)
-    .register();
-Burn.createBuilder("molten_spirit_sedimentary", <pyrotech:material:16>, "undergroundbiomes:sedimentary_stone_simpleores_mythril_ore:*")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(3 * 60 * 20)
     .setFluidProduced(<liquid:lifeblood> * 1000)

@@ -1,0 +1,51 @@
+name: thermalfoundation_copper_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: thermalfoundation:ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_copper
+}
+recipe: {
+  result: thermalfoundation:material:128
+  xp: 0
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 40, 75 ]
+    size: 8
+    count: 8
+    biomes: {
+      types: [
+        OCEAN
+      ]
+    }
+  }
+  {
+    height: [ 20, 55 ]
+    size: 8
+    count: 4
+    biomes: {
+      types: [
+        OCEAN
+      ]
+    }
+  }
+  {
+    height: [ 48, 96 ]
+    size: 8
+    count: 8
+  }
+]

@@ -1,0 +1,31 @@
+name: basemetals_copper_ore
+mod: basemetals
+block: {
+  location: basemetals:copper_ore
+  hardness: 4
+  level: 1
+}
+loot: [
+  {
+    item: basemetals:copper_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/copper_ore
+}
+recipe: {
+  result: basemetals:copper_ingot
+  xp: 0.5
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 96 ]
+    size: 8
+    count: 10
+  }
+]

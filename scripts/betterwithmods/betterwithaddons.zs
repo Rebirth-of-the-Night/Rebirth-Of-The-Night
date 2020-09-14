@@ -199,6 +199,23 @@ furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);
 mods.jei.JEI.addItem(<betterwithaddons:greatarrow>);
 
+val wicker = <betterwithmods:wicker>;
+val cloth = <harvestcraft:wovencottonitem>;
+
+//Tatami
+recipes.addShaped(<betterwithaddons:tatami> * 4, [
+[cloth, cloth, cloth],
+[wicker, wicker, wicker]]
+);
+
+//Reed slat
+recipes.addShaped(<betterwithaddons:slat> * 8, [
+[<ore:hardReed>, <ore:hardReed>, <ore:hardReed>],
+[null, null, null],
+[<ore:hardReed>, <ore:hardReed>, <ore:hardReed>]]
+);
+
+
 //Aqueducts
 recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [
 [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],

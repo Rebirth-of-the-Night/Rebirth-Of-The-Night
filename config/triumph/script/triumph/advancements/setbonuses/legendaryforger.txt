@@ -23,8 +23,8 @@ criteria.setAdvancement("triumph:advancements/setbonuses/amethystarmor")
 criteria = addCriteria("attackandprotecc", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/attackandprotecc")
 
-criteria = addCriteria("awalkingrainbow", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/awalkingrainbow")
+criteria = addCriteria("tastetherainbow", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/tastetherainbow")
 
 criteria = addCriteria("aworthycompromise", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/aworthycompromise")
@@ -37,9 +37,6 @@ criteria.setAdvancement("triumph:advancements/setbonuses/chainarmor")
 
 criteria = addCriteria("darksedge", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/darksedge")
-
-criteria = addCriteria("deathisnonexistent", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/deathisnonexistent")
 
 criteria = addCriteria("deathisnotanoption", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/deathisnotanoption")

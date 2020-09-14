@@ -1,0 +1,46 @@
+name: metallurgy_platinum_ore
+mod: metallurgy
+block: {
+  location: metallurgy:platinum_ore
+  level: 2
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/platinum_ore
+}
+recipe: {
+  result: metallurgy:platinum_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:platinum_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 80 ]
+    size: 4
+    count: 3
+    blacklistBiomes: true
+    biomes: {
+      types: [
+        WARM
+      ]
+    }
+  }
+  {
+    height: [ 0, 80 ]
+    size: 4
+    count: 7
+    biomes: {
+      types: [
+        WARM
+      ]
+    }
+  }
+]

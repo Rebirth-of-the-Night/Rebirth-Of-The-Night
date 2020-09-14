@@ -21,4 +21,4 @@ recipes.remove(<extraalchemy:empty_ring>);
 recipes.addShaped("Potion Ring Base", <extraalchemy:empty_ring>, [
 [null, <dungeontactics:magic_powder>, null],
 [null, <minecraft:glass_bottle>, null], 
-[null, <qualitytools:emerald_ring>, null]]);
+[null, <ore:inertRing>, null]]);

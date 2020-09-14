@@ -1,0 +1,50 @@
+{
+    "comment": "These qualities will apply for anything that can go in baubles slots, and also the totem of undying (which can be held in the offhand slot). For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "slot": [
+        "mainhand"
+    ],
+    "whitelist": [
+      {
+        "item": "atop:ruby_sword"
+      },
+      {
+        "item": "atop:ruby_pickaxe"
+      },
+      {
+        "item": "atop:ruby_axe"
+      },
+      {
+        "item": "atop:ruby_shovel"
+      },
+      {
+        "item": "atop:ruby_hoe"
+      }
+    ],
+    "blacklist": [
+      
+    ],
+    "qualities": [
+      {
+        "name": "Ravaging",
+        "color": "Red",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "generic.maxHealth",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "generic.armor",
+            "amount": 2,
+            "operation": 0
+          }
+        ]
+      }
+    ]
+}

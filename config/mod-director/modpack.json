@@ -1,0 +1,8 @@
+{
+    "packName": "Rebirth of the Night",
+    "icon": {
+        "path": "resources/rotn/textures/rotn.png",
+        "width": 124,
+        "height": 124
+   }
+}

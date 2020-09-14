@@ -43,9 +43,16 @@
 				Count:1}
 		},
 		{
+			action:"add", CareerLevel:2, maxUses:2, rewardExp:true,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:10,max:20}},
+				sell:{id:"behgameon:accessory_4",
+				Count:1}
+		},
+		{
 			action:"add", CareerLevel:2, maxUses:16, rewardExp:true, chance:0.75,
 				buy:{id:"nyx:comet_shard",
-				Count:{min:8,max:12}},
+				Count:{min:2,max:4}},
 				sell:{id:"contenttweaker:nethercoin",
 				Count:{min:1,max:4}}
 		},
@@ -108,7 +115,7 @@
 		},
 		{
 			action:"add", CareerLevel:4, maxUses:2, rewardExp:true,
-				buy:{id:"atop:amethyst_sword",
+				buy:{id:"atop:amber_sword",
 				Count:1},
 				sell:{id:"contenttweaker:nethercoin",
 				Count:{min:5,max:8}}

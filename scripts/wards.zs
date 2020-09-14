@@ -1,8 +1,10 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import mods.artisanworktables.builder.RecipeBuilder;
 
-recipes.addShapeless("Enchanted Paper 1", <wards:enchanted_paper> * 3, [
-<dungeontactics:magic_powder>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]);
-
-recipes.addShapeless("Enchanted Paper 2", <wards:enchanted_paper>, [
-<dungeontactics:magic_powder>, <minecraft:paper>]);
+RecipeBuilder.get("mage")
+  .setShapeless([<contenttweaker:vis_speck>, <minecraft:paper>])
+  .addOutput(<wards:enchanted_paper>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();

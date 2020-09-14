@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 
 //#########randomthings:endermailbox -> need new recipe
@@ -195,18 +196,31 @@ recipes.addShaped(<randomthings:contactbutton>, [[<ore:Stone>, <minecraft:iron_b
 recipes.remove(<randomthings:quartzlamp>);
 recipes.addShaped(<randomthings:quartzlamp>, [[<arcanearchives:raw_quartz>, <contenttweaker:illusion_orb>, <arcanearchives:raw_quartz>],[<betternether:quartz_glass_framed:15>, <minecraft:redstone_lamp>, <betternether:quartz_glass_framed:15>], [<arcanearchives:raw_quartz>, <betternether:quartz_glass_framed:15>, <arcanearchives:raw_quartz>]]);
 
-//obsidian ring - [[[TEMP RECIPE]]]
+//obsidian ring
 recipes.remove(<randomthings:obsidianskullring>);
-mods.betterwithaddons.Infuser.addShaped(<randomthings:obsidianskullring>,[
-[<contenttweaker:nether_quintessence>, <ore:gemOnyx>, <contenttweaker:nether_quintessence>],
-[<endreborn:item_shard_obsidian>, <contenttweaker:spectral_shard>, <endreborn:item_shard_obsidian>], 
-[<contenttweaker:nether_quintessence>, <endreborn:item_shard_obsidian>, <contenttweaker:nether_quintessence>]], 32);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <contenttweaker:fireetched_onyx>, <contenttweaker:vis_sliver>],
+    [<endreborn:item_shard_obsidian>, <ore:inertRing>, <endreborn:item_shard_obsidian>],
+    [<contenttweaker:vis_sliver>, <endreborn:item_shard_obsidian>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addOutput(<randomthings:obsidianskullring>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
-//lava charm - [[[TEMP RECIPE]]]
-mods.betterwithaddons.Infuser.addShaped(<randomthings:lavacharm>,[
-[<endreborn:block_end_magma>, <twilightforest:fiery_tears>, <endreborn:block_end_magma>],
-[<endreborn:item_shard_obsidian>, <contenttweaker:nether_rune>.anyDamage().transformDamage(), <endreborn:item_shard_obsidian>], 
-[<endreborn:block_end_magma>, <endreborn:item_shard_obsidian>, <endreborn:block_end_magma>]], 64);
+//lava charm 
+recipes.remove(<randomthings:lavacharm>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <contenttweaker:draconium>, <contenttweaker:vis_shard>],
+    [<endreborn:block_end_magma>, <ore:inertRing>, <endreborn:block_end_magma>],
+    [<contenttweaker:vis_shard>, <endreborn:block_end_magma>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addOutput(<randomthings:lavacharm>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 
 recipes.removeShapeless(<randomthings:ingredient:5>, []);

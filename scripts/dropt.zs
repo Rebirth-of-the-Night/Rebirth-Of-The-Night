@@ -112,16 +112,82 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
-  
-Dropt.list("decayed_scaffolding")	
 
-  .add(Dropt.rule()	
-      .matchBlocks(["cyclicmagic:block_fragile"])	
-      .matchDrops([<cyclicmagic:block_fragile>])	
-      .replaceStrategy("REPLACE_ITEMS")	
-      .addDrop(Dropt.drop())	
-  );
+Dropt.list("Crate_Job")
+
+  .add(Dropt.rule()
+      .matchBlocks(["charm:crate:*"])
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+		  .items("ALL", [<betterwithmods:material:22>*2,<betterwithmods:material:22>*5])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(2))
+       	   .items("ALL", [<betterwithmods:material:22>*1,<betterwithmods:material:22>*2])
+	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+       	  .items("ALL", [<betterwithmods:material:22>*3,<betterwithmods:material:22>*2])
+      )
+  );  
   
+  
+Dropt.list("Berry_Good")
+
+  .add(Dropt.rule()
+      .matchBlocks(["rustic:wildberry_bush"])
+	  .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1), "REQUIRED")
+           .items([<rustic:wildberry_bush>])
+	  )
+	  .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(30), "EXCLUDED", 0)
+		   .items([<minecraft:stick>])
+      )		  
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(15), "EXCLUDED", 0)
+		   .items([<minecraft:stick>*2])
+      )		  
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(10), "EXCLUDED", 0)
+		   .items([<rustic:wildberries>])
+      )		  
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(1), "EXCLUDED", 0)
+		   .items([<rats:little_black_worm>])
+      )	
+  );
+
+Dropt.list("mud")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:mud"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("BLACKLIST", [], "shovel;0;-1")
+      )
+      .addDrop(Dropt.drop()
+	      .selector(Dropt.weight(10))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000)) 
+          .items([<biomesoplenty:mudball>])
+	  )	  
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(40))
+          .items([<biomesoplenty:mudball>*2])
+	  )	  
+  );
+
+Dropt.list("sludge")
+
+  .add(Dropt.rule()
+      .matchBlocks(["mod_lavacow:pileofsludge"])
+      .addDrop(Dropt.drop())
+  );
+
 Dropt.list("clovers")
 
   .add(Dropt.rule()
@@ -200,10 +266,40 @@ Dropt.list("plants_basic")
           .selector(Dropt.weight(30))
           .items([<pyrotech:material:12>])
       )
+  );
+ 
+Dropt.list("plants_basic_dry")
+
+  .add(Dropt.rule()
+      .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+          .items([<pyrotech:material:12>])
+      )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(15))
+          .selector(Dropt.weight(20))
           .items([<pyrotech:material:13>])
-	  )
+      )
+  );
+  
+Dropt.list("plants_basic_dead")
+
+  .add(Dropt.rule()
+      .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(20))
+          .items([<pyrotech:material:13>])
+      )
   );
  
 Dropt.list("plants_custom")
@@ -294,4 +390,17 @@ Dropt.list("slacked_lime")
           .selector(Dropt.weight(3)) // ???
           .items([<rats:ancient_sawblade>])
 	  )	 	
+  );
+Dropt.list("desert_varnish")
+
+  .add(Dropt.rule()
+      .matchBlocks(["pyrotech:limestone"])
+	  .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(3))
+		  .items("ALL", [<minecraft:sandstone>,<minecraft:clay_ball>])
+      )
+	  .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(1))
+		  .items("ALL", [<minecraft:sandstone>,<minecraft:clay_ball>*2])
+      )	
   );

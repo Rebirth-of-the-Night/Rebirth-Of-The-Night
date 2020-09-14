@@ -1,6 +1,6 @@
 setIcon("msmlegacy:relic_aqueous")
 setTitle("Take it on the Other Side")
-setDescription("Craft Relic 1 of 7")
+setDescription("Craft Patreon Relic 1 of 3")
 
 addParent("triumph:advancements/eastereggs/root")
 

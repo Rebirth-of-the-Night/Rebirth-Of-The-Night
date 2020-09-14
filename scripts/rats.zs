@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityDefinition;
+import mods.betterwithmods.MiniBlocks;
 
 recipes.remove(<rats:marbled_cheese_dirt>);
 recipes.addShapeless("marbled_cheese_dirt",<rats:marbled_cheese_dirt>,[<rats:marbled_cheese>,<ore:dirt>]);
@@ -42,6 +43,8 @@ mods.jei.JEI.removeAndHide(<rats:rat_upgrade_milker>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_breeder>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_disenchanter>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_enchanter>);
+mods.jei.JEI.removeAndHide(<rats:rat_upgrade_fisherman>);
 
 // maybe add these later with magic mods and/or Twilight Forest progression
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_ratlantean>);
@@ -104,6 +107,8 @@ recipes.remove(<rats:potato_pancake>);
 recipes.remove(<rats:rat_upgrade_disenchanter>);
 recipes.remove(<rats:rat_upgrade_armor>);
 recipes.remove(<rats:rat_upgrade_enchanter>);
+recipes.remove(<rats:rat_upgrade_replanter>);
+recipes.remove(<rats:rat_upgrade_jury_rigged>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.removeChefRatRecipe(<rats:potato_kinishes>);
 mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
@@ -179,10 +184,22 @@ recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
     [<ore:ingotIron>, <minecraft:iron_block>, <ore:ingotIron>]
 ]);
 
-recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
+/*recipes.addShaped("rats_enchanter_upgrade",<rats:rat_upgrade_enchanter>,[
     [<minecraft:book>,<minecraft:enchanting_table>,<minecraft:book>],
     [<ore:bookshelf>,<rats:rat_upgrade_basic>,<ore:bookshelf>],
     [<minecraft:book>,<minecraft:experience_bottle>,<minecraft:book>]
+]); */
+
+recipes.addShaped("rats_replanter_upgrade",<rats:rat_upgrade_replanter>,[
+    [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>],
+    [<ore:listAllseed>,<rats:rat_upgrade_farmer>,<ore:listAllseed>],
+    [<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>]
+]);
+
+recipes.addShaped("rats_juryrigged_upgrade",<rats:rat_upgrade_jury_rigged>,[
+    [<simpleores:mythril_block>,<ore:glue>,<contenttweaker:block_electrum>],
+    [<rats:rat_upgrade_basic>,<scalinghealth:healingitem>,<rats:rat_upgrade_basic>],
+    [<betterwithmods:steel_block:0>,<ore:glue>,<betterwithmods:aesthetic:3>]
 ]);
 
 // cheese workaround until official fix
@@ -266,7 +283,6 @@ mods.rats.recipes.addChefRatRecipe(<minecraft:golden_apple:1>, <rats:confit_byal
 mods.rats.recipes.addChefRatRecipe(<minecraft:skull>, <harvestcraft:spaghettidinneritem>);
 mods.rats.recipes.addChefRatRecipe(<minecraft:rotten_flesh>, <harvestcraft:zombiejerkyitem>);
 mods.rats.recipes.addChefRatRecipe(<minecraft:spider_eye>, <harvestcraft:spidereyesoupitem>);
-mods.rats.recipes.addChefRatRecipe(<biomesoplenty:fleshchunk>, <minecraft:rotten_flesh>);
 mods.rats.recipes.addChefRatRecipe(<aether_legacy:cooked_enchanted_cockatrice>, <harvestcraft:deluxechickencurryitem>);
 mods.rats.recipes.addChefRatRecipe(<quark:root>, <harvestcraft:roastedrootveggiemedleyitem>);
 mods.rats.recipes.addChefRatRecipe(<quark:rune:16>, <harvestcraft:epicbaconitem>);

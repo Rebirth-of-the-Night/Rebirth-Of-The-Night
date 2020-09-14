@@ -1,0 +1,30 @@
+name: metallurgy_infuscolium_ore
+mod: metallurgy
+block: {
+  location: metallurgy:infuscolium_ore
+  level: 2
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/infuscolium_ore
+}
+recipe: {
+  result: metallurgy:infuscolium_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:infuscolium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 10, 72 ]
+    size: 7
+    count: 7
+  }
+]

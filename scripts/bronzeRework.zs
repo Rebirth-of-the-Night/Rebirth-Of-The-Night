@@ -80,7 +80,7 @@ recipes.remove(<atop:mud_hoe>);
 val bronze = <ore:ingotBronze>;
 val stick =  <ore:stickWood>;
 val handle = <spartanweaponry:material:0>;
-val block = <contenttweaker:sub_block_holder_0>; 
+val block = <contenttweaker:block_bronze>; 
 val plate = <contenttweaker:bronze_plate>;
 val nugget = <contenttweaker:material_part:1>;
 val wShield = <spartanshields:shield_basic_wood>;

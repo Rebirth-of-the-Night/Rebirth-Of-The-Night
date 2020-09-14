@@ -67,11 +67,6 @@ recipes.addShaped("soul_glass_pane",<netherex:soul_glass_pane>,[
     [<netherex:soul_glass>,<netherex:soul_glass>,<netherex:soul_glass>]
 ]);
 
-recipes.addShaped("nether_brick_fence_gate",<netherex:nether_brick_fence_gate>*6,[
-    [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>],
-    [<minecraft:stone_slab:6>,<minecraft:nether_brick>,<minecraft:stone_slab:6>]
-]);
-
 recipes.removeByRecipeName("netherex:basalt");
 recipes.addShapeless("black_basalt",<netherex:basalt>,[<netherex:smooth_basalt>]);
 
@@ -80,6 +75,9 @@ recipes.addShapeless("smooth_black_basalt",<netherex:smooth_basalt>,[<netherex:b
 
 recipes.removeByRecipeName("netherex:basalt_brick_1");
 recipes.addShapeless("black_basalt_bricks",<netherex:basalt_brick>,[<netherex:basalt_pillar>]);
+
+furnace.remove(<netherex:fiery_nether_brick>);
+furnace.addRecipe(<netherex:fiery_nether_brick>, <netherex:fiery_netherrack>);
 
 var slabArray = [<netherex:red_nether_brick_slab:0>,<netherex:gloomy_nether_brick_slab:0>,<netherex:lively_nether_brick_slab:0>,<netherex:fiery_nether_brick_slab:0>,<netherex:icy_nether_brick_slab:0>,<netherex:basalt_slab:0>,<netherex:smooth_basalt_slab:0>,<netherex:basalt_brick_slab:0>,<netherex:basalt_pillar_slab:0>] as IItemStack[];
 var stairArray = [<netherex:red_nether_brick_stairs>,<netherex:gloomy_nether_brick_stairs>,<netherex:lively_nether_brick_stairs>,<netherex:fiery_nether_brick_stairs>,<netherex:icy_nether_brick_stairs>,<netherex:basalt_stairs>,<netherex:smooth_basalt_stairs>,<netherex:basalt_brick_stairs>,<netherex:basalt_pillar_stairs>] as IItemStack[];
@@ -92,27 +90,7 @@ for i, output in stairArray{
     ]);
 }
 
-//End Reborn Compatibility
-recipes.addShaped(<atop:amethyst_helmet>,[
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>],
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
-[null, null, null]
-]);
-recipes.addShaped(<atop:amethyst_chestplate>,[
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>],
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>], 
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>]
-]);
-recipes.addShaped(<atop:amethyst_leggings>,[
-[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>],
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
-]);
-recipes.addShaped(<atop:amethyst_boots>,[
-[null, null, null],
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
-[<ore:gemAmethyst>, null, <ore:gemAmethyst>]
-]);
+
 
 recipes.remove(<netherex:frosted_amedian_sword>);
 recipes.remove(<netherex:frosted_amedian_pickaxe>);
@@ -144,8 +122,7 @@ var bone = <minecraft:bone>;
 // Armors
 recipes.addShaped("Wither Bone Helmet", <netherex:wither_bone_helmet>,[
     [witherbone, witherbone, witherbone],
-    [witherbone, null, witherbone],
-    [null, null, null]
+    [witherbone, <minecraft:skull:1>, witherbone]
 ]);
 recipes.addShaped("Wither Bone Chestplate", <netherex:wither_bone_chestplate>,[
     [witherbone, null, witherbone],
@@ -158,7 +135,6 @@ recipes.addShaped("Wither Bone Leggings", <netherex:wither_bone_leggings>,[
     [witherbone, null, witherbone]
 ]);
 recipes.addShaped("Wither Bone Boots", <netherex:wither_bone_boots>,[
-    [null, null, null],
     [witherbone, null, witherbone],
     [witherbone, null, witherbone]
 ]);
@@ -190,19 +166,19 @@ recipes.addShaped("Frosted Amedian Pickaxe", <netherex:frosted_amedian_pickaxe>,
 ]);
 
 recipes.addShaped("Frosted Amedian Shovel", <netherex:frosted_amedian_shovel>,[
-    [null, rime, null],
-    [null, obsidian, null],
-    [null, frostedwitherbone, null]
+    [rime],
+    [obsidian],
+    [frostedwitherbone]
 ]);
 
 recipes.addShapedMirrored("Frosted Amedian Axe", <netherex:frosted_amedian_axe>,[
-    [rime, obsidian, null],
-    [rime, frostedwitherbone, null],
-    [null, frostedwitherbone, null]
+    [rime, obsidian],
+    [rime, frostedwitherbone],
+    [null, frostedwitherbone]
 ]);
 
 recipes.addShapedMirrored("Frosted Amedian Hoe", <netherex:frosted_amedian_hoe>,[
-    [rime, obsidian, null],
-    [null, frostedwitherbone, null],
-    [null, frostedwitherbone, null]
+    [rime, obsidian],
+    [null, frostedwitherbone],
+    [null, frostedwitherbone]
 ]);

@@ -29,12 +29,6 @@ mods.jei.JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
 mods.jei.JEI.removeAndHide(<betterwithmods:candle_holder>); 
 mods.jei.JEI.removeAndHide(<betterwithmods:aesthetic:8>);
 mods.jei.JEI.removeAndHide(<betterwithmods:material:46>);
-mods.jei.JEI.removeAndHide(<betterwithmods:siding_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:moulding_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_mulberry"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:siding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:moulding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
-mods.jei.JEI.removeAndHide(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
 
 mods.jei.JEI.removeAndHide(<betterwithmods:raw_egg>);
 mods.jei.JEI.removeAndHide(<betterwithmods:cooked_egg>);
@@ -84,6 +78,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:infernal_enchanter>);
 mods.jei.JEI.removeAndHide(<betterwithmods:arcane_scroll>);
 mods.ltt.LootTable.removeGlobalItem("betterwithmods:arcane_scroll");
 recipes.removeByRecipeName("betterwithmods:blocks/redstone/comparator");
+recipes.removeByRecipeName("betterwithmods:decompress/wicker_decompress");
 recipes.remove(<betterwithmods:metal_chime:*>);
 recipes.remove(<betterwithmods:bamboo_chime:*>);
 
@@ -97,7 +92,7 @@ for i, output in arrayWindChime{
     recipes.addShaped(output,[
         [null,<minecraft:string>,null],
         [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<ore:ingotIron>,arrayMoulding[i],<ore:ingotIron>]
+        [<ore:genericMetal>,arrayMoulding[i],<ore:genericMetal>]
     ]);
 }
 
@@ -105,7 +100,7 @@ for i, output in arrayBambooChime{
     recipes.addShaped(output,[
         [null,<minecraft:string>,null],
         [<minecraft:string>,<ore:pressurePlateWood>,<minecraft:string>],
-        [<ore:sugarcane>,arrayMoulding[i],<ore:sugarcane>]
+        [<ore:hollowReed>,arrayMoulding[i],<ore:hollowReed>]
     ]);
 }
 
@@ -150,11 +145,11 @@ mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*6,<ore:slimeba
 mods.betterwithmods.Cauldron.addUnstoked([<biomesoplenty:berries>*4,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);
 
 //Charbiotite
-mods.betterwithmods.Cauldron.builder()
-.buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])
-.setHeat(2)
-.setPriority(6)
-.build();
+// mods.betterwithmods.Cauldron.builder()
+// .buildRecipe([<pyrotech:material:15>*9,<contenttweaker:end_orb>,<minecraft:rotten_flesh>*9],[<undergroundbiomes:lignite_coal>*3])
+// .setHeat(2)
+// .setPriority(6)
+// .build();
 
 mods.jei.JEI.removeAndHide(<betterwithmods:material:13>); # tallow
 mods.jei.JEI.removeAndHide(<betterwithmods:material:47>); # chainmail
@@ -181,12 +176,16 @@ mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tall
 //Cyclic Apple
 mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
 
+mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
+mods.betterwithmods.FilteredHopper.addFilter("modtweaker:soulsand", <minecraft:soul_sand>);
+
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
 mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
 mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); # chips to potash
 mods.betterwithmods.FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); #sawdust from soul dust
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>*1,[<betterwithmods:material:38>*1],[<betterwithaddons:congealed>*5]);
+mods.betterwithmods.FilteredHopper.addFilterRecipe("modtweaker:soulsand",<contenttweaker:starblock>,[<betterwithmods:material:16>*3],[<betterwithmods:material:15>]); 
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]); #remove default BWM bark-tanned leather recipe as well as dung variants
 mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); # tanned leather
@@ -194,8 +193,6 @@ mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:7>
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]); #remove default BWM bark-cut tanned leather recipe as well as dung variants
 mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]); # tanned cut leather
 mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]);
-
-mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_boots>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);
@@ -205,7 +202,7 @@ mods.jei.JEI.removeAndHide(<betterwithmods:wool_pants>);
 recipes.remove(<betterwithmods:material:45>); # diamond ingot
 
 
-recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*4,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
+recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*3,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
 recipes.addShapeless("Hemp Seeds", <betterwithmods:hemp>,[<ore:cropHemp>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:chicken_soup>);

@@ -351,17 +351,6 @@
     "dimension": -1,
     "mobs": [
       {
-        "mob": "specialmobs:brutepigzombie",
-        "weight": 3,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      }
-    ]
-  },
-  {
-    "dimension": -1,
-    "mobs": [
-      {
         "mob": "specialmobs:hungrypigzombie",
         "weight": 3,
         "groupcountmin": 1,
@@ -371,17 +360,6 @@
   },
 
   // Wither Skeletons
-  {
-    "dimension": -1,
-    "mobs": [
-      {
-        "mob": "specialmobs:brutewitherskeleton",
-        "weight": 3,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
   {
     "dimension": -1,
     "mobs": [
@@ -710,17 +688,6 @@
 
 
     // Zombies
-  {
-    "dimension": [0,10],
-    "mobs": [
-      {
-        "mob": "specialmobs:brutezombie",
-        "weight": 5,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
 
   {
     "dimension": [0,10],
@@ -785,17 +752,6 @@
 
 
  // Skeletons
-  {
-    "dimension": [0,10],
-    "mobs": [
-      {
-        "mob": "specialmobs:bruteskeleton",
-        "weight": 5,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
 
   {
     "dimension": [0,10],
@@ -1157,7 +1113,7 @@
  // Witches
 
   {
-    "dimension": 0,
+    "dimension": [0,7],
     "mobs": [
       {
         "mob": "specialmobs:windwitch",
@@ -1169,7 +1125,7 @@
   },
   
     {
-    "dimension": 0,
+    "dimension": [0,7],
     "mobs": [
       {
         "mob": "specialmobs:wildswitch",
@@ -1254,7 +1210,7 @@
   },
 
   {
-    "dimension": [0,10],
+    "dimension": [0,10,7],
     "mobs": [
       {
         "mob": "specialmobs:poisonsilverfish",
@@ -1322,7 +1278,7 @@
     "mobs": [
       {
         "mob": "mod_lavacow:ithaqua",
-        "weight": 0.5,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

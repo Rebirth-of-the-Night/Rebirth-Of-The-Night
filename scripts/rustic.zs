@@ -3,11 +3,14 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 
-var branchArray = [<dynamictrees:oakbranch>,<dynamictrees:oakbranchx>,<dynamictrees:sprucebranch>,<dynamictrees:sprucebranchx>,<dynamictrees:birchbranch>,<dynamictrees:junglebranch>,<dynamictrees:acaciabranch>,<dynamictrees:darkoakbranch>,<dynamictrees:darkoakbranchx>,<dynamictreesbop:magicbranch>,<dynamictreesbop:umbranbranch>,<dynamictreesbop:umbranbranchx>,<dynamictreesbop:firbranch>,<dynamictreesbop:firbranchx>,<dynamictreesbop:cherrybranch>,<dynamictreesbop:deadbranch>,<dynamictreesbop:jacarandabranch>,<dynamictreesbop:redwoodbranch>,<dynamictreesbop:redwoodbranchx>,<dynamictreesbop:willowbranch>,<dynamictreesbop:hellbarkbranch>,<dynamictreesbop:pinebranch>,<dynamictreesbop:palmbranch>,<dynamictreesbop:mahoganybranch>,<dynamictreesbop:ebonybranch>,<dynamictreesbop:bamboobranch>,<dynamictreesbop:eucalyptusbranch>,<dynamictreesphc:cinnamonbranch>,<dynamictreesphc:maplebranch>,<dynamictreesphc:paperbarkbranch>,<rustic:olivebranch>,<rustic:ironwoodbranch>,<rustic:ironwoodbranchx>,<dynamictrees:cactusbranch>] as IItemStack[];
+var branchArray = [<dynamictrees:oakbranch>,<dynamictrees:oakbranchx>,<dynamictrees:sprucebranch>,<dynamictrees:sprucebranchx>,<dynamictrees:birchbranch>,<dynamictrees:junglebranch>,<dynamictrees:acaciabranch>,<dynamictrees:darkoakbranch>,<dynamictrees:darkoakbranchx>,<dynamictreesbop:magicbranch>,<dynamictreesbop:umbranbranch>,<dynamictreesbop:umbranbranchx>,<dynamictreesbop:firbranch>,<dynamictreesbop:firbranchx>,<dynamictreesbop:cherrybranch>,<dynamictreesbop:deadbranch>,<dynamictreesbop:jacarandabranch>,<dynamictreesbop:redwoodbranch>,<dynamictreesbop:redwoodbranchx>,<dynamictreesbop:willowbranch>,<dynamictreesbop:hellbarkbranch>,<dynamictreesbop:pinebranch>,<dynamictreesbop:palmbranch>,<dynamictreesbop:mahoganybranch>,<dynamictreesbop:ebonybranch>,<dynamictreesbop:bamboobranch>,<dynamictreesbop:eucalyptusbranch>,<dynamictreesphc:cinnamonbranch>,<dynamictreesphc:maplebranch>,<dynamictreesphc:paperbarkbranch>,<rustic:olivebranch>,<rustic:ironwoodbranch>,<rustic:ironwoodbranchx>,<dynamictrees:cactusbranch>,<dynamictreesquark:blossomingbranch>,<dynamictreesquark:swampoakbranch>,<dynamictreestheaether:skyrootbranch>,<dynamictreestheaether:goldenoakbranch>,<dynamictreestheaether:crystalbranch>,<dynamictreestheaether:holidaybranch>,<dynamictreesttf:sicklytwilightoakbranch>,<dynamictreesttf:canopybranch>,<dynamictreesttf:mangrovebranch>,<dynamictreesttf:darkwoodbranch>,<dynamictreesttf:robusttwilightoakbranch>,<dynamictreesttf:robusttwilightoakbranchx>,<dynamictreesttf:treeoftimecorebranch>,<dynamictreesttf:treeoftimebranch>,<dynamictreesttf:treeoftimebranchx>,<dynamictreesttf:treeoftransformationcorebranch>,<dynamictreesttf:treeoftransformationbranch>,<dynamictreesttf:minerstreecorebranch>,<dynamictreesttf:minerstreebranch>,<dynamictreesttf:sortingtreecorebranch>,<dynamictreesttf:sortingtreebranch>,<dynamictreesttf:rainbowoakbranch>,<dynamictrees:junglebranchx>] as IItemStack[];
 
 for branch in branchArray{
     mods.jei.JEI.hide(branch);
 }
+
+mods.jei.JEI.removeAndHide(<rustic:lantern_wood>);
+
 
 mods.jei.JEI.removeAndHide(<rustic:tomato_seeds>);
 mods.jei.JEI.removeAndHide(<rustic:tomato>);
@@ -19,21 +22,17 @@ mods.jei.JEI.removeAndHide(<rustic:tomato>);
 
 mods.jei.JEI.removeAndHide(<dynamictreesphc:grapefruitseed>);
 
-mods.jei.JEI.removeAndHide(<rustic:honey>);
-mods.jei.JEI.removeAndHide(<rustic:beeswax>);
-mods.jei.JEI.removeAndHide(<rustic:honeycomb>);
-mods.jei.JEI.removeAndHide(<rustic:beehive>);
-mods.jei.JEI.removeAndHide(<rustic:bee>);
-mods.jei.JEI.removeAndHide(<rustic:apiary>);
-mods.jei.JEI.removeAndHide(<rustic:tallow>);
+mods.jei.JEI.removeAndHide(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
 
 # Iron and Gold Lanterns
 
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
+recipes.remove(<rustic:silver_lantern>);
 
 var iron = <ore:ingotIron>;
 var tin = <ore:ingotTin>;
+var silver = <ore:ingotSilver>;
 var gold = <ore:ingotGold>;
 var torch = <minecraft:torch>;
 var glass = <minecraft:glass_pane>;
@@ -51,12 +50,19 @@ recipes.addShaped("Tin Lantern", <rustic:iron_lantern>,[
     [null, tin, null]
 ]);
 
+recipes.addShaped("Silver Lantern", <rustic:silver_lantern>,[
+	[null, silver, null],
+    [glass, torch, glass],
+    [null, silver, null]
+]);
+
 
 
 # Iron and Gold Candles
 
 recipes.remove(<rustic:candle>);
 recipes.remove(<rustic:candle_gold>);
+recipes.remove(<rustic:candle_silver>);
 
 var whitecandle = <betterwithmods:candle:0>;
 
@@ -70,6 +76,12 @@ recipes.addShaped("Golden Candle", <rustic:candle_gold>,[
 	[null, null, null],
     [null, whitecandle, null],
     [null, gold, null]
+]);
+
+recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
+	[null, null, null],
+    [null, whitecandle, null],
+    [null, silver, null]
 ]);
 
 

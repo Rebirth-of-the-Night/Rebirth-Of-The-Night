@@ -2,7 +2,7 @@ setIcon("endreborn:armour_chestplate_obsidian")
 setTitle("Heavy Steps")
 setDescription("Complete the Heavy Steps set.")
 
-addParent("triumph:advancements/setbonuses/awalkingrainbow")
+addParent("triumph:advancements/setbonuses/tastetherainbow")
 
 // addRewardFunction("triumph:fullMidArmor")
 

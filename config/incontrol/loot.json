@@ -7,6 +7,70 @@
       "random": "0.1"
    },
 
+
+   // Mimics
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "remove": "primitivemobs:mimic_orb"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:bottled_cloud",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:drinking_hat",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:magma_stone",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:power_glove",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:shock_pendant",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:star_cloak",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:pocket_piston",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+   {
+      "mob": "primitivemobs:mimic",
+      "player": true,
+      "item": "artifacts:feral_claws",
+      "itemcount": "1",
+      "random": "0.1"
+   },
+
    // Slimes
    // Lime Slime
    {

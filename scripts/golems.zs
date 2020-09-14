@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 
 mods.jei.JEI.removeAndHide(<golems:info_book>);
@@ -8,10 +9,9 @@ mods.jei.JEI.removeAndHide(<golems:info_book>);
 
 recipes.remove(<golems:golem_paper>);
 
-recipes.addShapeless("GolemSpell 1", <golems:golem_paper> * 3, [
-<wards:enchanted_paper>, <wards:enchanted_paper>, <wards:enchanted_paper>, <ore:feather>, <contenttweaker:creation_rune>.anyDamage().transformDamage(), <ore:dyeRed>]
-);
-
-recipes.addShapeless("GolemSpell 2", <golems:golem_paper>, [
-<wards:enchanted_paper>, <ore:feather>, <contenttweaker:creation_rune>.anyDamage().transformDamage(), <ore:dyeRed>]
-);
+RecipeBuilder.get("mage")
+  .setShapeless([<wards:enchanted_paper>])
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addTool(<artisanworktables:artisans_quill_gold>, 1)
+  .addOutput(<golems:golem_paper>)
+  .create();

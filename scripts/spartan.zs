@@ -86,6 +86,24 @@ recipes.removeByRecipeName("spartanshields:shield_mod_bronze");
 recipes.remove(<spartanshields:shield_basic_lead>);
 recipes.remove(<spartanshields:shield_basic_diamond>);
 
+// Craftable skyroot longbows
+var bowMat = <minecraft:planks:*>|<biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<randomthings:spectreplank>|<rustic:planks>|<rustic:planks:1>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>;
+
+recipes.remove(<spartanweaponry:longbow_wood>);
+recipes.addShaped("wooden_longbow",<spartanweaponry:longbow_wood>,[
+    [<spartanweaponry:material:0>,<ore:stickWood>,bowMat],
+    [<ore:stickWood>,null,<minecraft:string>],
+    [bowMat,<minecraft:string>,<minecraft:string>]
+]);
+
+// Shapeless handle and pole recipes
+recipes.removeByRecipeName("spartanweaponry:handle_string");
+recipes.addShapeless("string_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<minecraft:string>]);
+
+recipes.remove(<spartanweaponry:material:1>);
+recipes.addShapeless("wool_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:wool>]);
+recipes.addShapeless("string_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:string>]);
+recipes.addShapeless("leather_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:leather>]);
 
 //Mythril
 mods.betterwithmods.Anvil.addShaped(<spartanshields:shield_basic_lead>, 
@@ -110,10 +128,6 @@ recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
 ]);
 mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qualityGem);
 
-//Obsidian Shield Bauble
-recipes.addShaped(<bountifulbaubles:shieldobsidian>, [[<ore:gemOnyx>, <bountifulbaubles:trinketobsidianskull>, <ore:gemOnyx>],[<endreborn:item_shard_obsidian>, <bountifulbaubles:shieldcobalt>, <endreborn:item_shard_obsidian>], [<ore:gemOnyx>, <spartanshields:shield_basic_obsidian>, <ore:gemOnyx>]]);
-//Ankh Shield Bauble
-recipes.addShaped(<bountifulbaubles:shieldankh>, [[<spartanshields:shield_basic_diamond>, <bountifulbaubles:shieldobsidian>, <spartanshields:shield_basic_diamond>],[<endreborn:item_end_essence>, <bountifulbaubles:trinketankhcharm>, <endreborn:item_end_essence>], [<spartanshields:shield_basic_diamond>, <spartanshields:shield_basic_lead>, <spartanshields:shield_basic_diamond>]]);
 
 
 
@@ -206,6 +220,32 @@ mods.jei.JEI.removeAndHide(<spartancompat:crossbow_skyroot>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_holystone>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_zanite>);
 mods.jei.JEI.removeAndHide(<spartancompat:crossbow_gravitite>);
+
+// I'm sorry, little one.
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:halberd_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:saber_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:rapier_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:spear_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:pike_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:katana_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:mace_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:glaive_holystone>);
+mods.jei.JEI.removeAndHide(<spartancompat:staff_holystone>);
+
+// Replace skyroot handles and poles with regular versions
 
 recipes.removeByRegex("spartancompat:.*(?<!handle_|pole_)skyroot");
 recipes.removeByRegex("spartancompat:.*holystone");

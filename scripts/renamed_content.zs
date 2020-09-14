@@ -1,4 +1,6 @@
 import crafttweaker.game.IGame;
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
 
 
 
@@ -36,6 +38,9 @@ import crafttweaker.game.IGame;
 <aether_legacy:enchanter>.displayName = "Aetherium Capacitor";
 game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 
+// Advanced Lifting Methods
+<advancedliftingmethods:ultimate_ender_elevator>.displayName = "Ender Elevator";
+
 // Atlas
 <antiqueatlas:empty_antique_atlas>.displayName = "Empty Atlas";
 <antiqueatlas:antique_atlas>.displayName = "Atlas";
@@ -51,7 +56,7 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
 <biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
 <biomesoplenty:hive>.displayName = "Giant Filled Honeycomb";
-
+<biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
 
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
@@ -119,6 +124,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:aesthetic:1>.displayName = "Bloodied Stone Chopping Block";
 <betterwithmods:bark:0>.displayName = "Wood Bark";
 <betterwithmods:rope>.displayName = "Hemp Cord";
+<betterwithmods:steel_block:0>.displayName = "Block of Soulforged Steel";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -150,9 +156,13 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <iceandfire:stymphalian_bird_dagger>.displayName = "Stymphalian Knife";
 
 // End Reborn
-<endreborn:catalyst>.displayName = "Obsidian Dust";
-<endreborn:catalyst>.removeTooltip("catalyst");
+<endreborn:catalyst>.displayName = "§fObsidian Dust";
 <endreborn:food_ender_flesh>.displayName = "Ender Flesh";
+<endreborn:item_end_essence>.displayName = "§5End Essence";
+<endreborn:block_essence_ore>.displayName = "§5End Essence Ore";
+<endreborn:item_end_rune>.displayName = "Rune of End";
+<endreborn:item_advanced_ender_pearl>.displayName = "§1Advanced Ender Pearl";
+<endreborn:item_ender_string>.displayName = "§fString of Life";
 
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
@@ -179,6 +189,9 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // DT
 <dungeontactics:barrel>.displayName = "Small Barrel";
 <dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
+<dungeontactics:steel_nugget>.displayName = "Crucible Steel Nugget";
+<dungeontactics:steel_block>.displayName = "Block of Crucible Steel";
+<dungeontactics:obsidianbrick>.displayName = "Decorative Obsidian";
 
 // Rustic
 <rustic:iron_lantern>.displayName = "Tin Lantern";
@@ -254,6 +267,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <atop:mud_shovel>.displayName = "Bronze Shovel";
 <atop:mud_sword>.displayName = "Bronze Gladius";
 
+<atop:topaz_sword>.displayName = "§dCovenant";
+<atop:amethyst_sword>.displayName = "§dConvergence";
+
+
 // EPlus
 <eplus:table_upgrade>.displayName = "Enchanting Table Upgrade";
 <eplus:advanced_table>.displayName = "§6True Enchanting Table";
@@ -279,6 +296,8 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:bone_wall>.displayName = "Hardened Bone Wall";
 <betternether:bone_tile>.displayName = "Hardened Bone Tile";
 <betternether:smoker>.displayName = "Smoker Plant";
+<betternether:stalagnate_planks_gate>.displayName = "Stalagnate Fence Gate";
+<betternether:reeds_gate>.displayName = "Reeds Fence Gate";
 
 // NetherEX
 <netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";
@@ -331,10 +350,53 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Return Potion";
-<bountifulbaubles:shieldobsidian>.displayName = "Flameward Shield";
 
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
+
+var potionMap = {
+    "Collapse" : "randomthings:collapse",
+    "Collapse" : "randomthings:long_collapse",
+    "Collapse" : "randomthings:strong_collapse",
+    "Stability" : "quark:resilience",
+    "Stability" : "quark:long_resilience",
+    "Stability" : "quark:strong_resilience",
+    "Acid Burn" : "mod_lavacow:corrosive",
+    "Filth" : "mod_lavacow:foulodor",
+    "Poison Resistance" : "mowziesmobs:poison_resist",
+    "Poison Resistance" : "mowziesmobs:long_poison_resist",
+    "Freezing" : "netherex:freezing",
+    "Frigid Health" : "netherex:frigid_health",
+    "Dispersal" : "netherex:dispersal",
+    "Sorrow" : "netherex:sorrow",
+    "Broken Magic Shielding" : "potioncore:broken_magic_shielding",
+    "Broken Magic Shielding" : "potioncore:strong_broken_magic_shielding",
+    "Broken Magic Shielding" : "potioncore:long_broken_magic_shielding",
+    "Gyration" : "potioncore:spin",
+    "Gyration" : "potioncore:strong_spin",
+    "Gyration" : "potioncore:long_spin",
+    "Royalty" : "toroquest:royalty",
+    "Royalty" : "toroquest:long_royalty",
+    "Royalty" : "toroquest:strong_royalty",
+    "Loyalty" : "toroquest:loyalty",
+    "Loyalty" : "toroquest:long_loyalty",
+    "Loyalty" : "toroquest:strong_loyalty"
+} as string[string];
+
+
+var arrowMap = {
+    "Wooden Arrow of " : <spartanweaponry:arrow_wood_tipped>,
+    "Iron Arrow of " : <spartanweaponry:arrow_iron_tipped>,
+    "Diamond Arrow of " : <spartanweaponry:arrow_diamond_tipped>,
+    "Bolt of " : <spartanweaponry:bolt_tipped>,
+    "Diamond Bolt of " : <spartanweaponry:bolt_diamond_tipped>
+} as IItemStack[string];
+
+for potion in potionMap{
+    for arrow in arrowMap{
+        arrowMap[arrow].withTag({"Potion" : potionMap[potion]} as IData).displayName = arrow ~ potion;
+    }
+}
 
 // Underground Biomes
 <undergroundbiomes:fossil_piece:5>.displayName = "Claw Fossil";
@@ -366,8 +428,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
 <bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
 <bountifulbaubles:crowngold>.addTooltip(format.gray("Inert"));
+<artifacts:whoopie_cushion>.addTooltip(format.gray("Inert"));
 
-<bountifulbaubles:trinketballoon>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:shiny_red_balloon>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:drinking_hat>.addTooltip(format.darkGreen("Mundane"));
 
 <contenttweaker:disint_rune>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:trinketobsidianskull>.addTooltip(format.aqua("Arcane"));
@@ -375,22 +439,37 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <bountifulbaubles:amuletsinpride>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinwrath>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletcross>.addTooltip(format.aqua("Arcane"));
+<artifacts:snorkel>.addTooltip(format.aqua("Arcane"));
+<artifacts:shock_pendant>.addTooltip(format.aqua("Arcane"));
+<artifacts:flame_pendant>.addTooltip(format.aqua("Arcane"));
+<artifacts:thorn_pendant>.addTooltip(format.aqua("Arcane"));
+<artifacts:bottled_cloud>.addTooltip(format.aqua("Arcane"));
+<artifacts:feral_claws>.addTooltip(format.aqua("Arcane"));
+<artifacts:power_glove>.addTooltip(format.aqua("Arcane"));
+<artifacts:star_cloak>.addTooltip(format.aqua("Arcane"));
+<artifacts:pocket_piston>.addTooltip(format.aqua("Arcane"));
 
-<bountifulbaubles:shieldcobalt>.addTooltip(format.darkPurple("Mystical"));
+
+
+
+<artifacts:cobalt_shield>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketmagiclenses>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:ringoverclocking>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketshulkerheart>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbezoar>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketblackdragonscale>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketluckyhorseshoe>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:lucky_horseshoe>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketbrokenheart>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:ultimate_pendant>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:fire_gauntlet>.addTooltip(format.darkPurple("Mystical"));
+
 
 <bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
-<bountifulbaubles:trinketankhcharm>.addTooltip(format.gold("Ascended"));
+<artifacts:night_vision_goggles>.addTooltip(format.gold("Ascended"));
 
-<undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
+// <undergroundbiomes:lignite_coal>.displayName = "Ender Charbiotite";
 
 <deadmanssatchel:deadmanssatchel>.displayName = "Dust Sorting Satchel";
 <deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));
@@ -398,7 +477,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Better Animals Plus
 <betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
 <betteranimalsplus:wolfhead>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:fried_egg>.displayName = "Baked Egg";
+<betteranimalsplus:fried_egg>.displayName = "Cooked Monster Egg";
 
 #Rare
 <dungeontactics:high_striker>.displayName = "§2High Striker";
@@ -477,8 +556,7 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 #Epic
 
-<contenttweaker:amulet_of_divinity>.displayName = "§5Amulet of Divinity";
-<contenttweaker:amulet_of_divinity>.addTooltip(format.darkPurple(""));
+
 
 
 <nyx:fallen_star>.displayName = "§5Fallen Star";
@@ -715,9 +793,6 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's 
 
 <betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";
 <betterwithmods:steel_mattock>.addTooltip(format.red("Godly Tool"));
-
-<bountifulbaubles:shieldankh>.displayName = "§cAnkh Shield";
-<bountifulbaubles:shieldankh>.addTooltip(format.red("Godly Shield"));
 
 <betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));

@@ -35,6 +35,9 @@ criteria.setAdvancement("triumph:advancements/eastereggs/transsword")
 criteria = addCriteria("unlaboredFlawlessness", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/eastereggs/unlaboredFlawlessness")
 
+criteria = addCriteria("heavenshalberd", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/heavenshalberd")
+
 setFrameType("CHALLENGE")
 hideLines()
 alwaysVisible()

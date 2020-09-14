@@ -1,9 +1,4 @@
 import crafttweaker.item.IIngredient;
-import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.Functions; 
 
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 
@@ -18,6 +13,9 @@ mods.ltt.LootTable.removeGlobalItem("aeble:ice_ring");
 mods.ltt.LootTable.removeModEntry("aeble");
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:sun_altar");
 <aether_legacy:sun_altar>.addTooltip("DO NOT USE! This is an unintended drop that RotN can not remove.");
+
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:holystone_sword");
+mods.jei.JEI.removeAndHide(<aether_legacy:holystone_sword>);
 
 
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");
@@ -146,27 +144,29 @@ mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_axe>);
 mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
 mods.jei.JEI.removeAndHide(<aether_legacy:lore_book>);
 
-recipes.remove(<atop:amethyst_pickaxe>);
-recipes.remove(<atop:amethyst_axe>);
-recipes.remove(<atop:amethyst_shovel>);
 
 var egrav = <aether_legacy:enchanted_gravitite>;
 var stick = <aether_legacy:skyroot_stick>;
 
-recipes.addShaped("gravitite_pick", <atop:amethyst_pickaxe>,[
+recipes.remove(<atop:amber_pickaxe>);
+recipes.addShaped("gravitite_pick", <atop:amber_pickaxe>,[
     [egrav, egrav, egrav],
     [null, stick, null],
     [null, stick, null]
 ]);
 
-recipes.addShaped("gravitite_axe", <atop:amethyst_axe>,[
+recipes.remove(<atop:amber_axe>);
+recipes.addShapedMirrored("gravitite_axe", <atop:amber_axe>,[
     [egrav, egrav],
     [egrav, stick],
     [null, stick]
 ]);
 
-recipes.addShaped("gravitite_shovel", <atop:amethyst_shovel>,[
+recipes.remove(<atop:amber_shovel>);
+recipes.addShaped("gravitite_shovel", <atop:amber_shovel>,[
     [egrav],
     [stick],
     [stick]
 ]);
+
+<aether_legacy:blue_berry>.maxStackSize = 16;

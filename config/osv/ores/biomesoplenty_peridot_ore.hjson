@@ -1,0 +1,48 @@
+name: biomesoplenty_peridot_ore
+mod: biomesoplenty
+block: {
+  location: biomesoplenty:gem_ore:2
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: biomesoplenty:gem:2
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  original: biomesoplenty:blocks/peridot_ore
+}
+recipe: {
+  result: biomesoplenty:gem:2
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 16 ]
+    size: 8
+    count: 1
+	chance: 0.8
+  },
+  {
+    height: [ 0, 16 ]
+    size: 8
+    count: 4
+    biomes: {
+      types: [
+        PLAINS
+      ]
+    }
+  },
+  {
+	height : [16, 255]
+	size: 9
+	count: 6 
+	chance: 0.5
+	dimensions: [10]
+  }
+]

@@ -27,8 +27,6 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:builder_block>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:target>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:chest_sack>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:chest_sack_empty>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_med_angle>);//add back
@@ -150,8 +148,8 @@ recipes.addShaped("immersive_carbon_paper", carpaper*6,[
 ]);
 
 recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>,[
-	[carpaper, <quark:glass_item_frame>, <minecraft:stone_pickaxe>],
-    [<minecraft:writable_book>, <ore:stickWood>, <antiqueatlas:empty_antique_atlas>]
+	[carpaper, <minecraft:stone_pickaxe>],
+    [<minecraft:writable_book>, <artisanworktables:artisans_lens_gold>, <antiqueatlas:empty_antique_atlas>]
 ]);
 
 recipes.addShaped("obsidian_shears", obsi_shear,[

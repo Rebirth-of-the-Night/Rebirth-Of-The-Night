@@ -1,0 +1,25 @@
+name: thermalfoundation_iridium_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore:7
+  hardness: 3
+  level: 1
+  light: 4
+}
+loot: [
+  {
+    item: thermalfoundation:ore:7
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_iridium
+}
+recipe: {
+  result: thermalfoundation:material:135
+  xp: 0
+  quantity: 1
+}

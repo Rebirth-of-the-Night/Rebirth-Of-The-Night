@@ -86,6 +86,23 @@
 			"minTradeCount": 1,
 			"maxTradeCount": 4,
 			"tradeLevel": 2
+		},
+		{
+			"output": {
+				"item": "minecraft:brewing_stand",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 8,
+				"maxCount": 16
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 1,
+			"tradeLevel": 2
 		}
 	]
 }

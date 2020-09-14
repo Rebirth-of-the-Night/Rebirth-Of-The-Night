@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 mods.jei.JEI.removeAndHide(<futuremc:lantern>);
 mods.jei.JEI.removeAndHide(<futuremc:barrel>);
 
+recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
 recipes.removeByRecipeName("futuremc:else/stone_slabs_from_smooth_stone");
 recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6, [
@@ -210,102 +211,1064 @@ for i in 0 .. 8 {
 
 //Igneous
 
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_simpleores_copper_ore>.definition.makeStack(i), 
+//copper
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<simpleores:copper_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_redstone_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+//redstone											
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<minecraft:redstone>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_tile.gem_ore.peridot_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<minecraft:redstone>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<minecraft:redstone>);
+//peridot											
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:2>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_coal_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);											
+//coal
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<minecraft:coal>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_emerald_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<minecraft:coal>);											
+//emerald											
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<minecraft:emerald>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_diamond_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<minecraft:emerald>);											
+//diamond
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<minecraft:diamond>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_lapis_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<minecraft:diamond>);											
+//lapis
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<minecraft:dye:4>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_tile.gem_ore.ruby_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<minecraft:dye:4>);			
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<minecraft:dye:4>);												
+//ruby
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:1>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_iceandfire_silver_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);												
+//silver
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<iceandfire:silver_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_iron_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);													
+//iron
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<minecraft:iron_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_tile.gem_ore.sapphire_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);											
+//sapphire
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:6>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_gold_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);	
+//gold
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<minecraft:gold_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_simpleores_mythril_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);			
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);												
+//mythril
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<simpleores:mythril_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_simpleores_adamantium_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);											
+//viridium	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
 											<simpleores:adamantium_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:igneous_stone_simpleores_tin_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);											
+//tin
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone>.definition.makeStack(i), 
 											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone_1>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone_2>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone_3>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone_4>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);											
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone_5>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone_6>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_igneous_stone_7>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);											
 
 //metamorphic
 
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_simpleores_copper_ore>.definition.makeStack(i), 
+//copper
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<simpleores:copper_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_redstone_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+//redstone											
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<minecraft:redstone>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_tile.gem_ore.peridot_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<minecraft:redstone>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<minecraft:redstone>);
+//peridot											
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:2>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_coal_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);											
+//coal
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<minecraft:coal>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_emerald_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<minecraft:coal>);											
+//emerald											
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<minecraft:emerald>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_diamond_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<minecraft:emerald>);											
+//diamond
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<minecraft:diamond>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_lapis_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<minecraft:diamond>);											
+//lapis
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<minecraft:dye:4>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_tile.gem_ore.ruby_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<minecraft:dye:4>);			
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<minecraft:dye:4>);												
+//ruby
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:1>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_iceandfire_silver_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);												
+//silver
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<iceandfire:silver_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_iron_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);													
+//iron
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<minecraft:iron_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_tile.gem_ore.sapphire_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);											
+//sapphire
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:6>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_gold_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);	
+//gold
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<minecraft:gold_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_simpleores_mythril_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);			
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);												
+//mythril
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<simpleores:mythril_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_simpleores_adamantium_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);											
+//viridium	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
 											<simpleores:adamantium_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:metamorphic_stone_simpleores_tin_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);											
+//tin
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone>.definition.makeStack(i), 
 											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone_1>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone_2>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone_3>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone_4>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);											
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone_5>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone_6>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_metamorphic_stone_7>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);											
 //sedimentary										
 
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_simpleores_copper_ore>.definition.makeStack(i), 
-											<simpleores:copper_ingot>);											
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_redstone_ore>.definition.makeStack(i), 
+//copper
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+//redstone											
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<minecraft:redstone>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_tile.gem_ore.peridot_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<minecraft:redstone>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<minecraft:redstone>);
+//peridot											
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:2>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_coal_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);											
+//coal
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<minecraft:coal>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_emerald_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<minecraft:coal>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<minecraft:coal>);											
+//emerald											
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<minecraft:emerald>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_diamond_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<minecraft:emerald>);											
+//diamond
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<minecraft:diamond>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_lapis_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<minecraft:diamond>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<minecraft:diamond>);											
+//lapis
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<minecraft:dye:4>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_tile.gem_ore.ruby_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<minecraft:dye:4>);			
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<minecraft:dye:4>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<minecraft:dye:4>);												
+//ruby
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:1>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_iceandfire_silver_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);												
+//silver
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<iceandfire:silver_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_iron_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);							
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);								
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);													
+//iron
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<minecraft:iron_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_tile.gem_ore.sapphire_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);											
+//sapphire
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<biomesoplenty:gem:6>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_gold_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);									
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);	
+//gold
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<minecraft:gold_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_simpleores_mythril_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);					
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);		
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);			
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);												
+//mythril
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<simpleores:mythril_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_simpleores_adamantium_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);											
+//viridium	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);										
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
 											<simpleores:adamantium_ingot>);
-mods.futuremc.BlastFurnace.addRecipe(<undergroundbiomes:sedimentary_stone_simpleores_tin_ore>.definition.makeStack(i), 
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);											
+//tin
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone>.definition.makeStack(i), 
 											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone_1>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone_2>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone_3>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone_4>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);											
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone_5>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone_6>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_undergroundbiomes_sedimentary_stone_7>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);											
 
+//other										
+
+//copper
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_hardened_clay>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_red_sandstone>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_sandstone>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_copper_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<simpleores:copper_ingot>);											
+//redstone											
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_hardened_clay>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_red_sandstone>.definition.makeStack(i), 
+											<minecraft:redstone>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<minecraft:redstone>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_sandstone>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<minecraft:redstone>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:redstone_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<minecraft:redstone>);
+//peridot											
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_hardened_clay>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_red_sandstone>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_sandstone>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_peridot_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<biomesoplenty:gem:2>);										
+//coal
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_hardened_clay>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_red_sandstone>.definition.makeStack(i), 
+											<minecraft:coal>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<minecraft:coal>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_sandstone>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<minecraft:coal>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:coal_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<minecraft:coal>);										
+//emerald											
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_hardened_clay>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_red_sandstone>.definition.makeStack(i), 
+											<minecraft:emerald>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<minecraft:emerald>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_sandstone>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<minecraft:emerald>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:emerald_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<minecraft:emerald>);										
+//diamond
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_hardened_clay>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_red_sandstone>.definition.makeStack(i), 
+											<minecraft:diamond>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<minecraft:diamond>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_sandstone>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<minecraft:diamond>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:diamond_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<minecraft:diamond>);											
+//lapis
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_hardened_clay>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_red_sandstone>.definition.makeStack(i), 
+											<minecraft:dye:4>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<minecraft:dye:4>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_sandstone>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<minecraft:dye:4>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:lapis_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<minecraft:dye:4>);											
+//ruby
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_hardened_clay>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_red_sandstone>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_sandstone>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_ruby_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<biomesoplenty:gem:1>);													
+//silver										
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_hardened_clay>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_red_sandstone>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_sandstone>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iceandfire_silver_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<iceandfire:silver_ingot>);												
+//iron
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_hardened_clay>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_red_sandstone>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_sandstone>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:iron_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<minecraft:iron_ingot>);												
+//sapphire
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_hardened_clay>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_red_sandstone>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_sandstone>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:biomesoplenty_sapphire_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<biomesoplenty:gem:6>);	
+//gold
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_hardened_clay>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_red_sandstone>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_sandstone>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:gold_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<minecraft:gold_ingot>);													
+//mythril
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_hardened_clay>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_red_sandstone>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_sandstone>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_mythril_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<simpleores:mythril_ingot>);												
+//viridium	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_hardened_clay>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_red_sandstone>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_sandstone>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_adamantium_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<simpleores:adamantium_ingot>);											
+//tin
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_pyrotech_limestone>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_quark_elder_prismarine>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_hardened_clay>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_quark_biome_cobblestone_1>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_red_sandstone>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_stained_hardened_clay>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);	
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_sandstone>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_quark_biome_cobblestone_2>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);
+mods.futuremc.BlastFurnace.addRecipe(<osv:simpleores_tin_ore_quark_biome_cobblestone>.definition.makeStack(i), 
+											<simpleores:tin_ingot>);												
 											
 }
 

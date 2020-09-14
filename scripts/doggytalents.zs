@@ -56,3 +56,12 @@ recipes.addShaped("throw_bone",<doggytalents:throw_bone>,[
     [null,<ore:slimeball>,null],
     [<minecraft:bone>,null,<minecraft:bone>]
 ]);
+
+recipes.remove(<doggytalents:breeding_bone>);
+recipes.addShapeless("breeding_bone",<doggytalents:breeding_bone>*2,[<doggytalents:master_treat>,<ore:listAllbeefcooked>,<ore:listAllchickencooked>,<ore:listAllporkcooked>,<ore:listAllfishcooked>]);
+
+recipes.remove(<doggytalents:sunglasses>);
+recipes.addShaped("dog_sunglasses",<doggytalents:sunglasses>,[
+    [<ore:stickWood>,null,<ore:stickWood>],
+    [<minecraft:stained_glass_pane:15>,<ore:stickWood>,<minecraft:stained_glass_pane:15>]
+]);

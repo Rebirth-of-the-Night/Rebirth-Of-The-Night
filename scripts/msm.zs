@@ -45,10 +45,58 @@ recipes.addShaped("Draconic Blade", <msmlegacy:draconic_blade>,[
 
 
 ////////////////////////////////////////    Relics        ///////////////////////////////////
+
+
+
+/////////////////////        Heaven's Halberd        /////////////////////
+mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:katana_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:saber_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:hammer_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:spear_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:pike_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:lance_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:mace_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:staff_invar>);
+
+
+
+var sange = <dungeontactics:mithril_sword>;
+var talisman = <behgameon:accessory_4>;
+
+recipes.remove(<spartanweaponry:halberd_invar>);
+mods.betterwithmods.Anvil.addShaped(<spartanweaponry:halberd_invar>, 
+[
+   [null, null, null, null],
+   [null, null, sange, null],
+   [null, talisman, null, null],
+   [null, null, null, null]
+]);
+
+
+
+
+
+
 /////////////////////        Red Hot Chili Pepper Sword        /////////////////////
+<msmlegacy:relic_aqueous>.removeTooltip("Relic 1 of 7.");
+<msmlegacy:relic_aqueous>.addTooltip(format.gold("Patreon relic 1 of 3."));
+
+
 
 var ruby = <ore:gemRuby>;
-var chili = <harvestcraft:chilipepperitem>;
+var chili = <rustic:chili_pepper>;
 var blaze = <betterwithmods:material:27>;
 
 val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:scorn>, <enchantment:minecraft:fire_aspect>];
@@ -68,6 +116,9 @@ recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTa
 
 
 /////////////////////        Burning Super Death Sword        /////////////////////
+<msmlegacy:relic_candy>.removeTooltip("Relic 2 of 7.");
+<msmlegacy:relic_candy>.addTooltip(format.gold("Patreon relic 2 of 3."));
+
 
 var sfs = <betterwithmods:material:14>;
 var fiery = <twilightforest:fiery_ingot>;
@@ -96,6 +147,7 @@ var mythril_sword = <simpleores:mythril_sword>;
 var viridium_sword = <simpleores:adamantium_sword>;
 var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
+var lormyte_crystal = <endreborn:item_lormyte_crystal>;
 
 
 val enchantments3 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:decay>];
@@ -107,10 +159,10 @@ enchantmentMap3 += enchantments3[0].makeEnchantment(1).makeTag();
 recipes.remove(<msmlegacy:wither_bane>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(({"Quark:RuneColor": 14, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap3), 
 [
-   [biotite, biotite, biotite, biotite],
-   [biotite, onyx_sword, mythril_sword, biotite],
-   [biotite, viridium_sword, diamond_sword, biotite],
-   [biotite, biotite, biotite, biotite]
+   [biotite, lormyte_crystal, lormyte_crystal, biotite],
+   [lormyte_crystal, onyx_sword, mythril_sword, lormyte_crystal],
+   [lormyte_crystal, viridium_sword, diamond_sword, lormyte_crystal],
+   [biotite, lormyte_crystal, lormyte_crystal, biotite]
 ]);
 
 
@@ -130,10 +182,10 @@ enchantmentMap4 += enchantments4[1].makeEnchantment(1).makeTag();
 recipes.remove(<msmlegacy:crystaline_blade>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(({"Quark:RuneColor": 4, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap4), 
 [
-   [lightessence, lightessence, lightessence, lightessence],
+   [biotite, lightessence, lightessence, biotite],
    [lightessence, onyx_sword, mythril_sword, lightessence],
    [lightessence, viridium_sword, diamond_sword, lightessence],
-   [lightessence, lightessence, lightessence, lightessence]
+   [biotite, lightessence, lightessence, biotite]
 ]);
 
 
@@ -199,7 +251,7 @@ var victorymedal = <aether_legacy:victory_medal>;
 var totemascending = <totemexpansion:totem_falling>;
 
 
-mods.betterwithmods.Anvil.addShaped(<contenttweaker:amulet_of_divinity>, 
+mods.betterwithmods.Anvil.addShaped(<behgameon:accessory_49>, 
 [
    [shapedquartz, shapedquartz, shapedquartz, shapedquartz],
    [shapedquartz, victorymedal, pride, shapedquartz],
@@ -215,7 +267,7 @@ var fallenstar = <nyx:fallen_star>;
 var fierytears = <twilightforest:fiery_tears>;
 var heavensheart = <contenttweaker:heavensheart>;
 var lightsedge = <msmlegacy:crystaline_blade>;
-var divinity = <contenttweaker:amulet_of_divinity>;
+var divinity = <behgameon:accessory_49>;
 var lamp = <twilightforest:lamp_of_cinders>;
 var heartcontainer = <scalinghealth:heartcontainer>;
 var cometshard = <nyx:comet_shard>;

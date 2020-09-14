@@ -31,11 +31,11 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 <harvestcraft:dandelionteaitem>.displayName = "Marigold Tea";
 
 
-<atop:amethyst_sword>.displayName = "§dCalaMariGold マリ";
-mods.jei.JEI.addDescription([<atop:amethyst_sword>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
+<atop:amber_sword>.displayName = "§dCalaMariGold マリ";
+mods.jei.JEI.addDescription([<atop:amber_sword>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
 
-<atop:amethyst_sword>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));
-<atop:amethyst_sword>.addTooltip(format.darkBlue("Developer Relic 1/6"));
+<atop:amber_sword>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));
+<atop:amber_sword>.addTooltip(format.darkBlue("Developer Relic 1/6"));
 
 
 val enchantmentsMari as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>];
@@ -46,7 +46,7 @@ enchTagMari += {personalityName: "Shiny", personality: 0.36782956 as float, kill
 
 enchantmentMapMari += {ench: [enchTagMari]};
 
-recipes.addHiddenShapeless("CalaMariGold", <atop:amethyst_sword>.withTag(({"Quark:RuneColor": 15, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMapMari),
+recipes.addHiddenShapeless("CalaMariGold", <atop:amber_sword>.withTag(({"Quark:RuneColor": 15, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMapMari),
 	[<harvestcraft:calamarirawitem>,<minecraft:yellow_flower>]);
 
 

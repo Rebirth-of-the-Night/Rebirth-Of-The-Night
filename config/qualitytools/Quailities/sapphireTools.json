@@ -1,0 +1,50 @@
+{
+    "comment": "These qualities will apply for anything that can go in baubles slots, and also the totem of undying (which can be held in the offhand slot). For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "slot": [
+        "mainhand"
+    ],
+    "whitelist": [
+      {
+        "item": "atop:sapphire_sword"
+      },
+      {
+        "item": "atop:sapphire_pickaxe"
+      },
+      {
+        "item": "atop:sapphire_axe"
+      },
+      {
+        "item": "atop:sapphire_shovel"
+      },
+      {
+        "item": "atop:sapphire_hoe"
+      }
+    ],
+    "blacklist": [
+      
+    ],
+    "qualities": [
+      {
+        "name": "Aqueous",
+        "color": "blue",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.stepHeight",
+            "amount": 1,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.jumpHeight",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      }
+    ]
+}

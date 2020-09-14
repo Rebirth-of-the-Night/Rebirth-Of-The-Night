@@ -2,7 +2,7 @@ setIcon("endreborn:armour_helmet_helmet")
 setTitle("Power Couple")
 setDescription("Complete the Power Couple set.")
 
-addParent("triumph:advancements/setbonuses/awalkingrainbow")
+addParent("triumph:advancements/setbonuses/tastetherainbow")
 
 // addRewardFunction("triumph:fullMidArmor")
 

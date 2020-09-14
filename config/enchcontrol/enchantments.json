@@ -3864,9 +3864,9 @@
   {
     "id": "randomenchantments:disarm",
     "name": "enchantment.disarm",
-    "enabled": false,
-    "hide_on_item": true,
-    "hide_on_book": true,
+    "enabled": true,
+    "hide_on_item": false,
+    "hide_on_book": false,
     "rarity": "VERY_RARE",
     "treasure": false,
     "double_price": false,

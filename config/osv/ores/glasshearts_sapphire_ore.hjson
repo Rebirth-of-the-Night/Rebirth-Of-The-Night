@@ -1,0 +1,30 @@
+name: glasshearts_sapphire_ore
+mod: glasshearts
+block: {
+  location: glasshearts:ore:3
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: glasshearts:gem:3
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: glasshearts:blocks/sapphire_ore
+}
+recipe: {
+  result: glasshearts:gem:3
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 3
+    count: 2
+  }
+]

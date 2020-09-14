@@ -11,5 +11,5 @@ primitivemobs:fakemerchant
 primitivemobs:sheepman_scavenger
 primitivemobs:sheepman_alchemist
 primitivemobs:sheepman_thief
-rats:pet_shop_owner
+rats:plague_doctor
 totemexpansion:witchdoctor

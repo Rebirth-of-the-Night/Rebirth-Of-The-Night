@@ -1,0 +1,30 @@
+name: immersiveengineering_nickel_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore:4
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: immersiveengineering:ore:4
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_nickel
+}
+recipe: {
+  result: immersiveengineering:metal:4
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 8, 24 ]
+    size: 6
+    count: 2
+  }
+]

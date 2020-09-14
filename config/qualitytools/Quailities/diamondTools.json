@@ -1,0 +1,50 @@
+{
+    "comment": "These qualities will apply for anything that can go in baubles slots, and also the totem of undying (which can be held in the offhand slot). For more info about how to edit this file and add more files, visit https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "slot": [
+        "mainhand"
+    ],
+    "whitelist": [
+      {
+        "item": "minecraft:diamond_sword"
+      },
+      {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      {
+        "item": "minecraft:diamond_axe"
+      },
+      {
+        "item": "minecraft:diamond_shovel"
+      },
+      {
+        "item": "minecraft:diamond_hoe"
+      }
+    ],
+    "blacklist": [
+      
+    ],
+    "qualities": [
+      {
+        "name": "Pristine",
+        "color": "Aqua",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.25,
+            "operation": 2
+          },
+          {
+            "name": "generic.armorToughness",
+            "amount": 2,
+            "operation": 0
+          },
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

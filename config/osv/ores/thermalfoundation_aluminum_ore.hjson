@@ -1,0 +1,24 @@
+name: thermalfoundation_aluminum_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore:4
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: thermalfoundation:ore:4
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_aluminum
+}
+recipe: {
+  result: thermalfoundation:material:132
+  xp: 0
+  quantity: 1
+}
