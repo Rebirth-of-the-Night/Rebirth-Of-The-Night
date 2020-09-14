@@ -4,58 +4,7 @@
 	"trades": [
 		{
 			"output": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 2,
-				"maxCount": 4
-			},
-			"inputOne": {
-				"item": "minecraft:gold_ingot",
-				"meta": 0,
-				"minCount": 2,
-				"maxCount": 4
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 8,
-			"tradeLevel": 1
-		}, 
-		{
-			"output": {
-				"item": "minecraft:stone_sword",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 2,
-				"maxCount": 5
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 1
-		}, 
-		{
-			"output": {
-				"item": "minecraft:stone_pickaxe",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 2,
-				"maxCount": 4
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 1
-		}, 
-		{
-			"output": {
-				"item": "minecraft:stone_shovel",
+				"item": "iceandfire:silver_sword",
 				"meta": 0,
 				"minCount": 1,
 				"maxCount": 1
@@ -66,13 +15,30 @@
 				"minCount": 2,
 				"maxCount": 3
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 1
 		}, 
 		{
 			"output": {
-				"item": "minecraft:stone_hoe",
+				"item": "iceandfire:silver_pickaxe",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 4
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "iceandfire:silver_shovel",
 				"meta": 0,
 				"minCount": 1,
 				"maxCount": 1
@@ -83,8 +49,25 @@
 				"minCount": 1,
 				"maxCount": 2
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
+			"tradeLevel": 1
+		}, 
+		{
+			"output": {
+				"item": "iceandfire:silver_hoe",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			"inputOne": {
+				"item": "netherex:amethyst_crystal",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 3,
 			"tradeLevel": 1
 		}, 
 		{
@@ -97,8 +80,8 @@
 			"inputOne": {
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
-				"minCount": 2,
-				"maxCount": 4
+				"minCount": 3,
+				"maxCount": 5
 			},
 			"minTradeCount": 2,
 			"maxTradeCount": 4,
@@ -117,8 +100,8 @@
 				"minCount": 3,
 				"maxCount": 6
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 2
 		}, 
 		{
@@ -134,8 +117,8 @@
 				"minCount": 3,
 				"maxCount": 5
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 2
 		}, 
 		{
@@ -151,8 +134,8 @@
 				"minCount": 3,
 				"maxCount": 4
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 2
 		}, 
 		{
@@ -168,81 +151,13 @@
 				"minCount": 2,
 				"maxCount": 3
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 2
 		}, 
 		{
 			"output": {
-				"item": "netherex:withered_amedian_sword",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 4,
-				"maxCount": 7
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:withered_amedian_pickaxe",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 4,
-				"maxCount": 6
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:withered_amedian_shovel",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 4,
-				"maxCount": 5
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:withered_amedian_hoe",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 3,
-				"maxCount": 4
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:withered_amedian_hammer",
+				"item": "pyrotech:iron_hammer",
 				"meta": 0,
 				"minCount": 1,
 				"maxCount": 1
@@ -253,93 +168,8 @@
 				"minCount": 5,
 				"maxCount": 7
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:blazed_amedian_sword",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 4,
-				"maxCount": 7
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:blazed_amedian_pickaxe",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 4,
-				"maxCount": 6
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:blazed_amedian_shovel",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 4,
-				"maxCount": 5
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:blazed_amedian_hoe",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 3,
-				"maxCount": 4
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:blazed_amedian_hammer",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 5,
-				"maxCount": 7
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 3
 		}, 
 		{
@@ -355,8 +185,8 @@
 				"minCount": 4,
 				"maxCount": 7
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 3
 		}, 
 		{
@@ -372,8 +202,8 @@
 				"minCount": 4,
 				"maxCount": 6
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 3
 		}, 
 		{
@@ -389,8 +219,8 @@
 				"minCount": 4,
 				"maxCount": 5
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 3
 		}, 
 		{
@@ -406,25 +236,8 @@
 				"minCount": 3,
 				"maxCount": 4
 			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"tradeLevel": 3
-		}, 
-		{
-			"output": {
-				"item": "netherex:frosted_amedian_hammer",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"inputOne": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 5,
-				"maxCount": 7
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
+			"minTradeCount": 1,
+			"maxTradeCount": 2,
 			"tradeLevel": 3
 		}
 	]
