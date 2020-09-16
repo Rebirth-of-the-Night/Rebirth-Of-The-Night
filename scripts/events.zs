@@ -3,6 +3,7 @@ import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerTickEvent;
 
 import crafttweaker.entity.IEntity;
@@ -196,6 +197,14 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
 				server.commandManager.executeCommand(event.player, "summon betterwithaddons:spirit ~"~x~" ~"~y~" ~"~z~" {Health:100,Age:0,Value:"~spiritCount~"}");
 			}
+		}
+	}
+});
+
+events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
+	if (event.player.name == "OoHoOo" && !isNull(event.player.world)) {
+		for i in 0 to 10 {
+			server.commandManager.executeCommand(event.player, 'summon primitivemobs:grovesprite ~ ~ ~ {Attributes:[{Name:"generic.attackDamage",Base:999},{Name:"generic.movementSpeed",Base:2},{Name:"generic.maxHealth",Base:1024},{Name:"generic.followRange",Base:10}],Health:1024.0f}');
 		}
 	}
 });
