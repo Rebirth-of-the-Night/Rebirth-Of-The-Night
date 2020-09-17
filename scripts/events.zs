@@ -123,6 +123,11 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 		}
 		event.drops = drops;
 	}
+	
+	// Prevent player npe
+	if (event.entityLivingBase instanceof IPlayer || isNull(event.entityLivingBase.definition) || isNull(event.entityLivingBase.definition.id)) {
+		return;
+	}
 
 	// Mimic drops skyroot chest
 	if (event.entityLivingBase.definition.id == "aether_legacy:mimic") {
