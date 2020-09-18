@@ -63,6 +63,7 @@ recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("minecraft:bone_meal_from_block");
+furnace.remove(<minecraft:leather>);
 
 recipes.remove(<minecraft:tnt>);
 recipes.addShaped("tnt",<minecraft:tnt>,[
