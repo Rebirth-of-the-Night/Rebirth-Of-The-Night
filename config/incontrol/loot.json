@@ -89,7 +89,8 @@
    {
       "mob": "minecraft:slime",
       "player": true,
-      "item": "quark:rune:5",
+      "item": "quark:rune",
+      "damage": 5,
       "itemcount": "1",
       "random": "0.03"
    },
@@ -125,7 +126,8 @@
    {
       "mob": "specialmobs:lemonslime",
       "player": true,
-      "item": "quark:rune:4",
+      "item": "quark:rune",
+      "damage": 4,
       "itemcount": "1",
       "random": "0.03"
    },
@@ -155,7 +157,8 @@
    {
       "mob": "specialmobs:grapeslime",
       "player": true,
-      "item": "quark:rune:10",
+      "item": "quark:rune",
+      "damage": 10,
       "itemcount": "1",
       "random": "0.03"
    },
@@ -183,7 +186,8 @@
    {
       "mob": "specialmobs:blueberryslime",
       "player": true,
-      "item": "quark:rune:11",
+      "item": "quark:rune",
+      "damage": 11,
       "itemcount": "1",
       "random": "0.03"
    },
@@ -211,7 +215,8 @@
    {
       "mob": "specialmobs:blackberryslime",
       "player": true,
-      "item": "quark:rune:15",
+      "item": "quark:rune",
+      "damage": 15,
       "itemcount": "1",
       "random": "0.03"
    },
@@ -241,7 +246,8 @@
    {
       "mob": "specialmobs:strawberryslime",
       "player": true,
-      "item": "quark:rune:14",
+      "item": "quark:rune",
+      "damage": 14,
       "itemcount": "1",
       "random": "0.03"
    },
@@ -270,7 +276,8 @@
    {
       "mob": "specialmobs:watermelonslime",
       "player": true,
-      "item": "quark:rune:16",
+      "item": "quark:rune",
+      "damage": 16,
       "itemcount": "1",
       "random": "0.03"
    },
