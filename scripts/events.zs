@@ -85,7 +85,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	// Prevent player from sleeping if your hunger is too low
 	if (bedBlocks has event.block) {
 		if (event.player.foodStats.foodLevel <= 19) {
-			event.player.sendMessage("You're too hungry and can't sleep well.");
+			event.player.sendChat("You're too hungry and can't sleep well.");
 			event.cancel();
 		}
 	}
