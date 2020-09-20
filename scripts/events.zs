@@ -1,3 +1,5 @@
+import crafttweaker.block.IBlock;
+
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
@@ -73,6 +75,19 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var poisonEffect = <potion:minecraft:poison>.makePotionEffect(40, 1) as IPotionEffect;
 		event.player.addPotionEffect(poisonEffect);
 		event.player.attackEntityFrom(<damageSource:CACTUS>, 4);
+	}
+	
+	var bedBlocks = [] as IBlock[]; 
+	for item in <ore:bed>.items {
+		bedBlocks += item.asBlock();
+	}
+	
+	// Prevent player from sleeping if your hunger is too low
+	if (bedBlocks has event.block) {
+		if (event.player.foodStats.foodLevel <= 19) {
+			event.player.sendMessage("You're too hungry and can't sleep well.");
+			event.cancel();
+		}
 	}
 });
 
