@@ -11,6 +11,19 @@ recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6
   [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>]
 ]);
 
+// ********* Composter Recipes ********* //
+
+for item in <ore:listAllSeeds>.items {
+	mods.futuremc.Composter.addValidItem(item, 30);
+}
+
+mods.futuremc.Composter.addValidItem(<pyrotech:material:12>, 40); // Plant fiber
+mods.futuremc.Composter.addValidItem(<pyrotech:material:25>, 40); // Pulp
+mods.futuremc.Composter.addValidItem(<pyrotech:material:13>, 33); // Dried plant fiber
+mods.futuremc.Composter.addValidItem(<pyrotech:rock:7>, 30); // Wood chips
+mods.futuremc.Composter.addValidItem(<minecraft:paper>, 10); // Paper
+
+
 var a = <ore:stone>;
 var b = <ore:ingotSilver>;
 
