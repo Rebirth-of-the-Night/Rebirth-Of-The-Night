@@ -97,11 +97,11 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
 		
 		if (!isNull(mhItem) && mhItem.definition.id == "pyrotech:bucket_stone") {
-			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.withAmount(mhItem.amount - 1));
+			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount <= 1 ? null : mhItem.withAmount(mhItem.amount - 1));
 			event.player.give(mhItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
 		} else {
 			if (!isNull(ohItem) && ohItem.definition.id == "pyrotech:bucket_stone") {
-				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.withAmount(ohItem.amount - 1));
+				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount <= 1 ? null : ohItem.withAmount(ohItem.amount - 1));
 				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
 			}
 		}
