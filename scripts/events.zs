@@ -9,6 +9,7 @@ import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerTickEvent;
 
 import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.entity.IEntityItem;
 
 import crafttweaker.player.IPlayer;
@@ -87,6 +88,22 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		if (event.player.foodStats.foodLevel <= 19) {
 			event.player.sendChat("You're too hungry and can't sleep well.");
 			event.cancel();
+		}
+	}
+	
+	// Fix flimsy bucket on hc well
+	if (event.block.definition.id == "harvestcraft:well") {
+		var mhItem = event.player.getItemInSlot(IEntityEquipmentSlot.mainHand());
+		var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
+		
+		if (!isNull(mhItem) && mhItem.definition.id == "pyrotech:bucket_stone") {
+			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.withAmount(mhItem.amount - 1));
+			event.player.give(mhItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+		} else {
+			if (!isNull(ohItem) && ohItem.definition.id == "pyrotech:bucket_stone") {
+				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.withAmount(ohItem.amount - 1));
+				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+			}
 		}
 	}
 });
