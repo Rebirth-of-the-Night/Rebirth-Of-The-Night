@@ -26,13 +26,14 @@ gen: [
   {
     height: [ 0, 128 ]
     size: 8
-    count: 18
+    count: 17
   },
   {
     height: [ 0, 155 ]
     size: 16
     count: 20
 	chance: 0.6
+	dimensions: [0, 7]
 	biomes: {
 	  types: [
 		JUNGLE
@@ -42,11 +43,12 @@ gen: [
   {
     height: [ 59, 64 ]
     size: 2
-    count: 12
+    count: 20
 	chance: 0.6
+	dimensions: [0, 7]
 	biomes: {
 	  types: [
-		JUNGLE
+		SWAMP
 	  ]
 	}
   }
