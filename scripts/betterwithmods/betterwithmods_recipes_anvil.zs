@@ -142,13 +142,6 @@ mods.betterwithmods.Anvil.addShaped(<spartancompat:katana_adamantium>,
 ]);
 
 recipes.remove(<spartancompat:throwing_knife_adamantium>);
-mods.betterwithmods.Anvil.addShaped(<spartancompat:throwing_knife_adamantium>, 
-[
-   [viridium, null, null, null],
-   [blaze, null, null, null],
-   [null, null, null, null],
-   [null, null, null, null]
-]);
 
 recipes.remove(<spartancompat:staff_adamantium>);
 mods.betterwithmods.Anvil.addShaped(<spartancompat:staff_adamantium>, 
@@ -274,13 +267,7 @@ mods.betterwithmods.Anvil.addShaped(<spartancompat:pike_onyx>,
 ]);
 
 recipes.remove(<spartancompat:throwing_axe_onyx>);
-mods.betterwithmods.Anvil.addShaped(<spartancompat:throwing_axe_onyx>, 
-[
-   [null, null, onyx, blaze],
-   [null, null, onyx, null],
-   [null, null, null, null],
-   [null, null, null, null]
-]);
+
 
 recipes.remove(<spartancompat:battleaxe_onyx>);
 mods.betterwithmods.Anvil.addShaped(<spartancompat:battleaxe_onyx>, 
@@ -348,13 +335,7 @@ mods.betterwithmods.Anvil.addShaped(<spartanfire:katana_fire_dragonsteel>,
 ]);
 
 recipes.remove(<spartanfire:throwing_knife_fire_dragonsteel>);
-mods.betterwithmods.Anvil.addShaped(<spartanfire:throwing_knife_fire_dragonsteel>, 
-[
-   [fire_dragonsteel, wbone, null, null],
-   [null, null, null, null],
-   [null, null, null, null],
-   [null, null, null, null]
-]);
+
 
 recipes.remove(<spartanfire:staff_fire_dragonsteel>);
 mods.betterwithmods.Anvil.addShaped(<spartanfire:staff_fire_dragonsteel>, 
@@ -469,13 +450,6 @@ mods.betterwithmods.Anvil.addShaped(<spartanfire:pike_fire_dragonsteel>,
 ]);
 
 recipes.remove(<spartanfire:throwing_axe_fire_dragonsteel>);
-mods.betterwithmods.Anvil.addShaped(<spartanfire:throwing_axe_fire_dragonsteel>, 
-[
-   [null, null, fire_dragonsteel, wbone],
-   [null, null, fire_dragonsteel, null],
-   [null, null, null, null],
-   [null, null, null, null]
-]);
 
 recipes.remove(<spartanfire:longbow_fire_dragonsteel>);
 mods.betterwithmods.Anvil.addShaped(<spartanfire:longbow_fire_dragonsteel>, 
@@ -543,13 +517,6 @@ mods.betterwithmods.Anvil.addShaped(<spartanfire:katana_ice_dragonsteel>,
 ]);
 
 recipes.remove(<spartanfire:throwing_knife_ice_dragonsteel>);
-mods.betterwithmods.Anvil.addShaped(<spartanfire:throwing_knife_ice_dragonsteel>, 
-[
-   [ice_dragonsteel, wbone, null, null],
-   [null, null, null, null],
-   [null, null, null, null],
-   [null, null, null, null]
-]);
 
 recipes.remove(<spartanfire:staff_ice_dragonsteel>);
 mods.betterwithmods.Anvil.addShaped(<spartanfire:staff_ice_dragonsteel>, 
@@ -664,13 +631,6 @@ mods.betterwithmods.Anvil.addShaped(<spartanfire:pike_ice_dragonsteel>,
 ]);
 
 recipes.remove(<spartanfire:throwing_axe_ice_dragonsteel>);
-mods.betterwithmods.Anvil.addShaped(<spartanfire:throwing_axe_ice_dragonsteel>, 
-[
-   [null, null, ice_dragonsteel, wbone],
-   [null, null, ice_dragonsteel, null],
-   [null, null, null, null],
-   [null, null, null, null]
-]);
 
 recipes.remove(<spartanfire:longbow_ice_dragonsteel>);
 mods.betterwithmods.Anvil.addShaped(<spartanfire:longbow_ice_dragonsteel>, 

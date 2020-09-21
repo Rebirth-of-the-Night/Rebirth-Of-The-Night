@@ -44,8 +44,6 @@ val gemAll = [
 	<spartanweaponry:pike_diamond>,
 	<spartanweaponry:lance_diamond>,
 	<spartanweaponry:longbow_diamond>,
-	<spartanweaponry:throwing_knife_diamond>,
-	<spartanweaponry:throwing_axe_diamond>,
 	<spartanweaponry:javelin_diamond>,
 	<spartanweaponry:boomerang_diamond>,
 	<spartanweaponry:battleaxe_diamond>,
@@ -175,11 +173,11 @@ recipes.addShaped("diamond_longbow", <spartanweaponry:longbow_diamond>,
  [[handle,stick,diamond],
   [stick,null,twine],
   [diamond,twine,twine]]);
-recipes.addShaped("diamond_throwing_knife", <spartanweaponry:throwing_knife_diamond>,
- [[handle,diamond]]);
-recipes.addShaped("diamond_throwing_axe", <spartanweaponry:throwing_axe_diamond>,
- [[handle,diamond],
-  [null,diamond]]);
+//recipes.addShaped("diamond_throwing_knife", <spartanweaponry:throwing_knife_diamond>,
+// [[handle,diamond]]);
+//recipes.addShaped("diamond_throwing_axe", <spartanweaponry:throwing_axe_diamond>,
+// [[handle,diamond],
+//  [null,diamond]]);
 recipes.addShaped("diamond_javelin", <spartanweaponry:javelin_diamond>,
  [[pole,diamond]]);
 recipes.addShaped("diamond_boomerang", <spartanweaponry:boomerang_diamond>,
