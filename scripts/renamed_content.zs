@@ -279,6 +279,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Lavacow / Fish's Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 <mod_lavacow:green_bacon_and_eggs>.displayName = "Green Eggs and Bacon";
+<mod_lavacow:poisonstinger>.displayName = "Vespa Stinger";
 
 // Better Nether
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";

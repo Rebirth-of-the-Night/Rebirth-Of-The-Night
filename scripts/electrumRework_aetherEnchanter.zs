@@ -112,8 +112,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:pike_onyx>, 1560
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:lance_onyx>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longbow_onyx>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:crossbow_onyx>, 15600);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_onyx>, 15600);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_onyx>, 15600);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_onyx>, 15600);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_onyx>, 15600);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:javelin_onyx>, 15600);
 
 //mythril
@@ -149,8 +149,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:halberd_mythril>
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:pike_mythril>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:lance_mythril>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longbow_mythril>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_mythril>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_mythril>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_mythril>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_mythril>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:javelin_mythril>, 14400);
 
 //Viridium
@@ -184,8 +184,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:halberd_adamanti
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:pike_adamantium>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:lance_adamantium>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longbow_adamantium>, 12000);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_adamantium>, 12000);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_adamantium>, 12000);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_adamantium>, 12000);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_adamantium>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:javelin_adamantium>, 12000);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<cyclicmagic:glove_climb>, 12000);
@@ -233,8 +233,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:halberd_soulforg
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:pike_soulforged_steel>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:lance_soulforged_steel>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:longbow_soulforged_steel>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_soulforged_steel>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_soulforged_steel>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_knife_soulforged_steel>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:throwing_axe_soulforged_steel>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartancompat:javelin_soulforged_steel>, 14400);
 
 //Dragon Bone
@@ -262,8 +262,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:halberd_dragonbone
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:pike_dragonbone>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:lance_dragonbone>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:longbow_dragonbone>, 12000);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_dragonbone>, 12000);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_dragonbone>, 12000);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_dragonbone>, 12000);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_dragonbone>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:javelin_dragonbone>, 12000);
 
 //Dragon Scale Armor
@@ -343,8 +343,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:halberd_fire_drago
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:pike_fire_dragonsteel>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:lance_fire_dragonsteel>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:longbow_fire_dragonsteel>, 28800);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonsteel>, 28800);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonsteel>, 28800);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonsteel>, 28800);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonsteel>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:javelin_fire_dragonsteel>, 28800);
 
 //Ice Dragon Steel
@@ -377,8 +377,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:halberd_ice_dragon
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:pike_ice_dragonsteel>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:lance_ice_dragonsteel>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:longbow_ice_dragonsteel>, 28800);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonsteel>, 28800);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonsteel>, 28800);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonsteel>, 28800);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonsteel>, 28800);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:javelin_ice_dragonsteel>, 28800);
 
 //Iced and Flamed Dragonbone Weapons
@@ -401,8 +401,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:halberd_ice_dragon
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:pike_ice_dragonbone>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:lance_ice_dragonbone>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:longbow_ice_dragonbone>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonbone>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonbone>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonbone>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonbone>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:javelin_ice_dragonbone>, 14400);
 
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:dragonbone_sword_fire>, 14400);
@@ -424,8 +424,8 @@ mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:halberd_fire_drago
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:pike_fire_dragonbone>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:lance_fire_dragonbone>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:longbow_fire_dragonbone>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonbone>, 14400);
-mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonbone>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonbone>, 14400);
+//mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonbone>, 14400);
 mods.aether_legacy.Enchanter.registerEnchantment(<spartanfire:javelin_fire_dragonbone>, 14400);
 
 //Endorium

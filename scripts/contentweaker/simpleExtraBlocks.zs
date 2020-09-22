@@ -157,5 +157,12 @@ egg_block.setBlockSoundType(<soundtype:stone>);
 egg_block.setToolClass("pickaxe");
 egg_block.setFullBlock(false);
 egg_block.setGravity(true);
-egg_block.setLightOpacity(75);
+egg_block.setLightOpacity(65);
 egg_block.register();
+
+var fire_block = VanillaFactory.createBlock("fire_block", <blockmaterial:Fire>);
+fire_block.setBlockSoundType(<soundtype:cloth>);
+fire_block.setLightValue(15);
+fire_block.setBlockLayer("CUTOUT");
+fire_block.setPassable(true);
+fire_block.register();

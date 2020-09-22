@@ -97,11 +97,11 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
 		
 		if (!isNull(mhItem) && mhItem.definition.id == "pyrotech:bucket_stone") {
-			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.withAmount(mhItem.amount - 1));
+			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount <= 1 ? null : mhItem.withAmount(mhItem.amount - 1));
 			event.player.give(mhItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
 		} else {
 			if (!isNull(ohItem) && ohItem.definition.id == "pyrotech:bucket_stone") {
-				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.withAmount(ohItem.amount - 1));
+				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount <= 1 ? null : ohItem.withAmount(ohItem.amount - 1));
 				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
 			}
 		}
@@ -241,7 +241,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
 	if (event.player.name == "OoHoOo" && !isNull(event.player.world)) {
 		for i in 0 to 10 {
-			server.commandManager.executeCommand(event.player, 'summon primitivemobs:grovesprite ~ ~ ~ {Attributes:[{Name:"generic.attackDamage",Base:999},{Name:"generic.movementSpeed",Base:2},{Name:"generic.maxHealth",Base:1024},{Name:"generic.followRange",Base:10}],Health:1024.0f}');
+			server.commandManager.executeCommand(event.player, 'summon primitivemobs:grovesprite ~ ~ ~ {CustomName:"Grove Avenger",CustomNameVisible:1,HandItems:[{id:"spartanweaponry:dagger_diamond",Count:1b,tag:{Unbreakable:1,ench:[{id:19,lvl:10}]}},{}],HandDropChances:[0.0F,0.085F],Attributes:[{Name:generic.maxHealth,Base:250},{Name:generic.movementSpeed,Base:2.0},{Name:generic.attackDamage,Base:20},{Name:generic.followRange,Base:40},{Name:generic.knockbackResistance,Base:1}],ActiveEffects:[{Id:12,Amplifier:10,Duration:200000,ShowParticles:0b},{Id:22,Amplifier:2,Duration:9600}]}');
 		}
 	}
 });

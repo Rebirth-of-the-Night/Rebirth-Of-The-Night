@@ -245,6 +245,65 @@ mods.jei.JEI.removeAndHide(<spartancompat:mace_holystone>);
 mods.jei.JEI.removeAndHide(<spartancompat:glaive_holystone>);
 mods.jei.JEI.removeAndHide(<spartancompat:staff_holystone>);
 
+//Throw it all away.
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_wood>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_iron>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_gold>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_diamond>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_copper>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_tin>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_bronze>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_steel>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_electrum>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_skyroot>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_zanite>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_gravitite>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_jungle_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_ice_dragonsteel>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_knife_fire_dragonsteel>);
+
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_wood>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_stone>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_iron>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_gold>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_diamond>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_copper>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_tin>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_bronze>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_steel>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_silver>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_electrum>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_adamantium>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_mythril>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_onyx>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_skyroot>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_zanite>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_gravitite>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_soulforged_steel>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_fire_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_ice_dragonbone>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_jungle>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_desert>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_jungle_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_desert_venom>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_ice_dragonsteel>);
+mods.jei.JEI.removeAndHide(<spartanfire:throwing_axe_fire_dragonsteel>);
+
 // Replace skyroot handles and poles with regular versions
 
 recipes.removeByRegex("spartancompat:.*(?<!handle_|pole_)skyroot");
@@ -383,16 +442,16 @@ for x, weapon in aetherWeapon {
         [aetherMat[x]]
     ]);//staff 17
 
-    counter += 1;
-    recipes.addShaped(weapon[counter],[
-        [handle,aetherMat[x]],
-        [null,aetherMat[x]]
-    ]);//throwing axe 18
+//    counter += 1;
+//    recipes.addShaped(weapon[counter],[
+//        [handle,aetherMat[x]],
+//        [null,aetherMat[x]]
+//    ]);//throwing axe 18
 
-    counter += 1;
-    recipes.addShaped(weapon[counter],[
-        [handle,aetherMat[x]]
-    ]);//throwing knife 19
+//    counter += 1;
+//    recipes.addShaped(weapon[counter],[
+//        [handle,aetherMat[x]]
+//    ]);//throwing knife 19
 
     counter += 1;
     recipes.addShaped(weapon[counter],[

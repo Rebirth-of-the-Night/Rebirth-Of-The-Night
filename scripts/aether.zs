@@ -170,3 +170,21 @@ recipes.addShaped("gravitite_shovel", <atop:amber_shovel>,[
 ]);
 
 <aether_legacy:blue_berry>.maxStackSize = 16;
+
+mods.jei.JEI.removeAndHide(<aether_legacy:cold_parachute>);
+mods.jei.JEI.removeAndHide(<aether_legacy:golden_parachute>);
+
+var coldcloud = <aether_legacy:aercloud:0>;
+var goldcloud = <aether_legacy:aercloud:2>;
+
+recipes.addShaped("cold_parachute", <aether_legacy:cold_parachute>,[
+    [<minecraft:string>, null, <minecraft:string>],
+    [coldcloud, <ore:slimeball>, coldcloud],
+    [coldcloud, coldcloud, coldcloud]
+]);
+
+recipes.addShaped("golden_parachute", <aether_legacy:golden_parachute>,[
+    [<betterwithmods:material:8>, null, <betterwithmods:material:8>],
+    [goldcloud, <ore:slimeball>, goldcloud],
+    [goldcloud, goldcloud, goldcloud]
+]);

@@ -244,6 +244,7 @@ mods.jei.JEI.addDescription(<netherex:frost_powder>, "The remains of crushed fro
 mods.jei.JEI.addDescription(<netherex:coolmar_spider_fang>, "Coolmar scuttlers are not true spiders, but unholy constructs of bone and ice. Many folk legends claim that these monstrosities will emerge before the end times.");
 
 mods.jei.JEI.addDescription(<betterwithmods:material:54>, "Unlike most spiders, the notorious Jungle Spiders are cooperative hunters. Jungle spider venom can cause severe vomiting and loss of appetite, but their prey rarely lives long enough to experience these effects.");
+mods.jei.JEI.addDescription(<mod_lavacow:poisonstinger>, "Honeybees die after stinging once. Vespas keep stinging until you're dead.");
 
 mods.jei.JEI.addDescription(<mod_lavacow:scythe_claw>, "Dreadful claw of the Ithaqua, a fiend of visceral hunger and fury.");
 
@@ -397,9 +398,11 @@ mods.jei.JEI.addDescription(<villagenames:codex>,"The codex was an ancient index
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;
 val arcanePortal = <dimstack:portal>;
+val dummy_fire = <contenttweaker:fire_block>;
 
 mods.jei.JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 mods.jei.JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
+mods.jei.JEI.addDescription(dummy_fire,"Fire! Once common knowledge, now there is no certainty that humanity was the first civilization to conquer this force of nature, but they are still as good making the most out of it. Ignite a surface using a bow drill, a flint and stone, a flint and steel, a firecharge or using more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
 
 
 /* Runes and Magic */

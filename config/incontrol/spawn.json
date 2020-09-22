@@ -2401,8 +2401,7 @@
         "amount": 5,
         "perplayer": true
     },
-    "result": "allow",
-	"potion": "rats:plague,1000000,1"
+    "result": "allow"
  },
 {
     "dimension": 0,

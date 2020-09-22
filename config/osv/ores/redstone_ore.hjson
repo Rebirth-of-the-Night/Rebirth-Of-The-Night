@@ -39,14 +39,16 @@ gen: [
   }
   {
 	height : [130, 255]
-	size: 8
-	count: 8 
+	size: 12
+	count: 6 
+	chance: 0.9
 	dimensions: [10]
   }
   {
 	height : [120, 130]
-	size: 8
-	count: 12
+	size: 12
+	count: 10
+	chance: 0.9
 	dimensions: [10]
   }
 ]
