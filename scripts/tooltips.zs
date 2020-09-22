@@ -2,6 +2,7 @@
 
 
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it");
+<contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
 
 #Eplus
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");
