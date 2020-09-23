@@ -2,6 +2,7 @@ name: simpleores_mythril_ore
 mod: simpleores
 block: {
   location: simpleores:mythril_ore
+  light: 6
   hardness: 4
   level: 2
 }

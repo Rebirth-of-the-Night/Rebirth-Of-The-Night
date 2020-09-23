@@ -4,7 +4,7 @@ block: {
   location: simpleores:adamantium_ore
   hardness: 4
   level: 3
-  light: 0.2
+  light: 1
   resistance: 5.0
 }
 loot: [
