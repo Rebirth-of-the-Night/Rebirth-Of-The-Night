@@ -6,6 +6,7 @@ import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
+import crafttweaker.event.PlayerSleepInBedEvent;
 import crafttweaker.event.PlayerTickEvent;
 
 import crafttweaker.entity.IEntity;
@@ -66,19 +67,6 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var poisonEffect = <potion:minecraft:poison>.makePotionEffect(40, 1) as IPotionEffect;
 		event.player.addPotionEffect(poisonEffect);
 		event.player.attackEntityFrom(<damageSource:CACTUS>, 4);
-	}
-	
-	var bedBlocks = [] as IBlock[]; 
-	for item in <ore:bed>.items {
-		bedBlocks += item.asBlock();
-	}
-	
-	// Prevent player from sleeping if your hunger is too low
-	if (bedBlocks has event.block) {
-		if (event.player.foodStats.foodLevel <= 19) {
-			event.player.sendChat("You're too hungry and can't sleep well.");
-			event.cancel();
-		}
 	}
 	
 	// Fix flimsy bucket on hc well
@@ -229,9 +217,17 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 });
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
-	if (event.player.name == "OoHoOo" && !isNull(event.player.world)) {
+	if (event.player.uuid == "019f24eb-6f40-45b7-8b48-8ba6a4d640d5" && !isNull(event.player.world)) {
 		for i in 0 to 10 {
 			server.commandManager.executeCommand(event.player, 'summon primitivemobs:grovesprite ~ ~ ~ {CustomName:"Grove Avenger",CustomNameVisible:1,HandItems:[{id:"spartanweaponry:dagger_diamond",Count:1b,tag:{Unbreakable:1,ench:[{id:19,lvl:10}]}},{}],HandDropChances:[0.0F,0.085F],Attributes:[{Name:generic.maxHealth,Base:250},{Name:generic.movementSpeed,Base:2.0},{Name:generic.attackDamage,Base:20},{Name:generic.followRange,Base:40},{Name:generic.knockbackResistance,Base:1}],ActiveEffects:[{Id:12,Amplifier:10,Duration:200000,ShowParticles:0b},{Id:22,Amplifier:2,Duration:9600}]}');
 		}
+	}
+});
+
+events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedEvent) {
+	// Prevent player from sleeping if your hunger is too low
+	if (event.player.foodStats.foodLevel <= 19) {
+		event.player.sendChat("You're too hungry and can't sleep well.");
+		event.result = "OTHER_PROBLEM";
 	}
 });
