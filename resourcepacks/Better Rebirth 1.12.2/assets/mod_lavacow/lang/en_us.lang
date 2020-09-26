@@ -27,6 +27,14 @@ item.mod_lavacow.faminearmor_boots.name=Famine Boots
 item.mod_lavacow.foul_bristle.name=Foul Bristle
 item.mod_lavacow.crabcake.name=Crab Cake
 item.mod_lavacow.halo_necklace.name=§bRadiant Amulet
+item.mod_lavacow.ghostjelly.name=Spectral Jelly
+item.mod_lavacow.banshee_vocal_cord.name=Banshee Vocal Cord
+item.mod_lavacow.weta_jaw.name=Weta Mandible
+item.mod_lavacow.chitin.name=Chitin
+item.mod_lavacow.ghostbomb.name=Spectral Bomb
+item.mod_lavacow.sonicbomb.name=Sonic Bomb
+item.mod_lavacow.weta_hoe.name=Hoe of Devastation
+item.mod_lavacow.raven_whistle.name=Crow's Whistle
 
 ############
 # Entities #
@@ -37,6 +45,7 @@ entity.mod_lavacow.lilsludge.name=Sludgeling
 entity.mod_lavacow.zombiepiranha.name=Frenzy
 entity.mod_lavacow.zombiemushroom.name=Overgrown
 entity.mod_lavacow.zombiefrozen.name=Frigid
+entity.mod_lavacow.raven.name=Carrion Crow
 
 
 ##########
@@ -79,11 +88,6 @@ entity_lilsludge_ambient=Sludgeling hisses
 entity_lilsludge_death=Sludgeling dies
 entity_lilsludge_hurt=Sludgeling hurts
 
-entity_raven_ambient=Raven calls
-entity_raven_call=Whistle calls
-entity_raven_death=Raven dies
-entity_raven_hurt=Raven hurts
-
 entity_ptera_ambient=Ptera shrieks
 entity_ptera_death=Ptera dies
 entity_ptera_hurt=Ptera hurts
@@ -121,10 +125,22 @@ entity_undertaker_ambient=Undertaker groans
 entity_undertaker_death=Undertaker dies
 entity_undertaker_hurt=Undertaker hurts
 
+entity_raven_ambient=Crow calls
+entity_raven_call=Whistle calls
+entity_raven_death=Crow dies
+entity_raven_hurt=Crow hurts
+
+
+
 ############
 # Tooltips #
 ############
 message.mod_lavacow.metamorphosis= begins to metamorphose!
+command.mod_lavacow.sitting= is waiting.
+command.mod_lavacow.following= is following.
+command.mod_lavacow.wandering= is wandering.
+command.mod_lavacow.whistle= is now the whistle's target.
+
 tootip.mod_lavacow.bonesword=Deals additional %d%% of target's maximum HP as damage.
 tootip.mod_lavacow.canebeef=
 tootip.mod_lavacow.canepork=
@@ -156,6 +172,10 @@ tootip.mod_lavacow.undertaker_shovel=Unearths the cursed dead. Right-click to su
 tootip.mod_lavacow.raven_whistle=Right-click to bind with a raven and order it to move to the target location.
 tootip.mod_lavacow.faminearmor=
 tootip.mod_lavacow.faminearmor.l2=
+tootip.mod_lavacow.ghostjelly=Transform a tamed Carrion Crow into a Ghost Crow.
+tootip.mod_lavacow.ghostbomb=Throwable explosive containing spectral essence. Briefly inflicts levitation when detonated.
+tootip.mod_lavacow.sonicbomb=Throwable explosive containing the force of a horrible shriek. Greatly weakens enemies for a brief period when detonated.
+tootip.mod_lavacow.weta_hoe=Harvests crops and grasses in a 3x3 area.
 
 ################
 # Enchantments #
@@ -175,8 +195,9 @@ mob_effect.mod_lavacow:soiled=Diseased
 ################
 # Enchantments #
 ################
-enchantment.mod_lavacow.poisonous.desc=Inflicts targets with poison.
-enchantment.mod_lavacow.corrosive.desc=Causes targets to recieve more damage. (+20% per level)
+enchantment.mod_lavacow.Poisonous.desc=Inflicts the target with poison
+enchantment.mod_lavacow.Lifesteal.desc=Heals the player while dealing damage to targets
+enchantment.mod_lavacow.Corrosive.desc=Weakens the target, causing it to receive more damage from any source
 
 ##############
 # Potions #
