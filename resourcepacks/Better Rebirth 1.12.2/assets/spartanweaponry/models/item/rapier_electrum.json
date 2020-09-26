@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "spartanweaponry:items/rapier_electrum",
-		"1_layer0": "spartanweaponry:items/rapier_wood"
+		"layer0": "spartanweaponry:items/rapier_electrum"
 	},
 	"display": {
 		"thirdperson_righthand": {
@@ -17,14 +16,14 @@
 			"scale": [2, 2, 0.8]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, -80, 35],
-			"translation": [1.13, 9.75, 1.13],
+			"rotation": [-60, -90, 35],
+			"translation": [1.13, 4.75, 1.13],
 			"scale": [1.6, 1.6, 0.8]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 90, -35],
-			"translation": [1.13, 4.45, 1.13],
-			"scale": [0.8, 0.8, 0.8]
+			"rotation": [-60, 90, -35],
+			"translation": [1.13, 4.75, 1.13],
+			"scale": [1.6, 1.6, 0.8]
 		}
 	},
 	"groups": [
