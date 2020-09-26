@@ -468,19 +468,19 @@ Chopping.addRecipe("biomesoplenty:log_3", 4, "hitwithaxe:debarked_jacaranda", 1,
 Chopping.addRecipe("biomesoplenty:log_3", 8, "hitwithaxe:debarked_jacaranda", 2, <hitwithaxe:bark:40>); // Z Axis
 Chopping.addRecipe("hitwithaxe:debarked_jacaranda", 32767, <biomesoplenty:planks_0:12>);
 
-// Mahogancy
-recipes.removeByRecipeName("biomesoplenty:mahogancy_planks");
-recipes.addShaped("mahogancy_planks", <biomesoplenty:planks_0:13>*3,[
+// mahogany
+recipes.removeByRecipeName("biomesoplenty:mahogany_planks");
+recipes.addShaped("mahogany_planks", <biomesoplenty:planks_0:13>*3,[
 	[null],
 	[<biomesoplenty:log_3:5>],
 	[null]
 ]);
-recipes.addHiddenShaped("mahogancy_planks1", <biomesoplenty:planks_0:13>*3,[
+recipes.addHiddenShaped("mahogany_planks1", <biomesoplenty:planks_0:13>*3,[
 	[<biomesoplenty:log_3:5>],
 	[null],
 	[null]
 ]);
-recipes.addHiddenShaped("mahogancy_planks2", <biomesoplenty:planks_0:13>*3,[
+recipes.addHiddenShaped("mahogany_planks2", <biomesoplenty:planks_0:13>*3,[
 	[null],
 	[null],
 	[<biomesoplenty:log_3:5>]

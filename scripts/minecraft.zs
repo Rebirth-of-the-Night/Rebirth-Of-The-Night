@@ -102,6 +102,67 @@ for i,dirt in coarseDirtArray{
     ]);
 }
 
+// Bucket Recipes
+var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
+var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
+
+recipes.removeByRecipeName("biomesoplenty:sand_from_dried_sand");
+recipes.addShapeless("sand_from_dried_sand_quality",<minecraft:sand>,[
+    <biomesoplenty:dried_sand>, flimsywaterbucket
+]);
+recipes.addShapeless("sand_from_dried_sand_flimsy",<minecraft:sand>,[
+    <biomesoplenty:dried_sand>, qualitybucket
+]);
+
+recipes.removeByRecipeName("animania:salt_lick_0");
+recipes.addShapeless("salt_lick_0",<animania:salt_lick>,[
+    <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, flimsywaterbucket
+]);
+recipes.addShapeless("salt_lick_1",<animania:salt_lick>,[
+    <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, qualitybucket
+]);
+
+recipes.removeByRecipeName("doggytalents:dog_bath");
+recipes.addShaped("dog_bath_0",<doggytalents:dog_bath>,[
+   [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
+    [<ore:genericMetal>,flimsywaterbucket,<ore:genericMetal>],
+    [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
+]);
+recipes.addShaped("dog_bath_1",<doggytalents:dog_bath>,[
+   [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
+    [<ore:genericMetal>,qualitybucket,<ore:genericMetal>],
+    [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
+]);
+
+recipes.removeByRecipeName("quark:iron_plate_2");
+recipes.addShaped("iron_plate_2_0",<quark:iron_plate:1>*8,[
+   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+    [<quark:iron_plate>,flimsywaterbucket,<quark:iron_plate>],
+    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+]);
+recipes.addShaped("iron_plate_2_1",<quark:iron_plate:1>*8,[
+   [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>],
+    [<quark:iron_plate>,qualitybucket,<quark:iron_plate>],
+    [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
+]);
+
+recipes.removeByRecipeName("cyclicmagic:item.bucketfilled");
+recipes.addShapeless("bucket_poison_0",<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "poison", Amount: 1000}}),[
+    flimsywaterbucket,<ore:poisonQuintessenceA>,<ore:poisonQuintessenceB>,<ore:listAllsugar>
+]);
+recipes.addShapeless("bucket_poison_1",<forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}),[
+    qualitybucket,<ore:poisonQuintessenceA>,<ore:poisonQuintessenceB>,<ore:listAllsugar>
+]);
+
+recipes.removeByRecipeName("rustic:ale_wort");
+recipes.addShapeless("ale_wort_0",<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "alewort", Amount: 1000}}),[
+    flimsywaterbucket,<ore:foodFlour>,<ore:listAllsugar>
+]);
+recipes.addShapeless("ale_wort_1",<forge:bucketfilled>.withTag({FluidName: "alewort", Amount: 1000}),[
+    qualitybucket,<ore:foodFlour>,<ore:listAllsugar>
+]);
+
+
 recipes.remove(<minecraft:name_tag>);
 recipes.addShapeless("name_tag",<minecraft:name_tag>,[
     <ore:string>, <ore:nuggetGold>, <minecraft:paper>
@@ -811,6 +872,9 @@ cookedMeat.addAll(cookedFrog);
 cookedMeat.addAll(cookedFish);
 cookedMeat.addAll(cookedVenison);
 
+val water = <ore:listAllwater>;
+water.addItems([<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<aether_legacy:skyroot_bucket:1>]);
+
 val small_knife = <ore:smallKnife>;
 small_knife.addItems([<animania:carving_knife>,<spartanweaponry:dagger_iron>,<spartanweaponry:dagger_bronze>,<spartanweaponry:dagger_gold>,<spartanweaponry:dagger_silver>,<spartanweaponry:dagger_diamond>,<spartancompat:dagger_skyroot>,<spartancompat:dagger_holystone>,<spartancompat:dagger_zanite>,<spartancompat:dagger_gravitite>,<spartancompat:dagger_adamantium>,<spartanfire:dagger_dragonbone>,<spartanfire:dagger_fire_dragonbone>,<spartanfire:dagger_ice_dragonbone>,<spartanfire:dagger_jungle>,<spartanfire:dagger_desert>,<spartanfire:dagger_jungle_venom>,<spartanfire:dagger_desert_venom>,<spartanfire:dagger_ice_dragonsteel>,<spartanfire:dagger_fire_dragonsteel>,<mod_lavacow:famine>,<iceandfire:stymphalian_bird_dagger>]);
 
@@ -1005,9 +1069,20 @@ recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],[<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
+// Dynamic Trees
+
+recipes.remove(<dynamictrees:dirtbucket>);
+recipes.addShapeless("dirtbucket", <dynamictrees:dirtbucket>,
+	[<pyrotech:bucket_stone>, <ore:dirt>]
+);
+recipes.addShapeless("dirtbucket_return", <pyrotech:bucket_stone>,
+	[<dynamictrees:dirtbucket>]
+);
+
 // Charset Materials
 mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
 mods.charset.MaterialRegistry.registerTypes(<betternether:stalagnate_planks>, "block", "wood", "plank");
 mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_mulberry>, "block", "wood", "plank");
 mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_sakura>, "block", "wood", "plank");
 mods.charset.MaterialRegistry.registerTypes(<twilightforest:tower_wood>, "block", "wood", "plank");
+mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:14>, "block", "wood", "plank");
