@@ -4,14 +4,20 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
+import crafttweaker.event.PlayerAnvilUpdateEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerSleepInBedEvent;
 import crafttweaker.event.PlayerTickEvent;
 
+import crafttweaker.enchantments.IEnchantment;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.entity.IEntityItem;
+
+import crafttweaker.item.IItemStack;
 
 import crafttweaker.player.IPlayer;
 
@@ -229,5 +235,49 @@ events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedE
 	if (event.player.foodStats.foodLevel <= 19) {
 		event.player.sendChat("You're too hungry and can't sleep well.");
 		event.result = "OTHER_PROBLEM";
+	}
+});
+
+events.onPlayerAnvilUpdate(function(event as crafttweaker.event.PlayerAnvilUpdateEvent) {
+	val left = event.leftItem as IItemStack;
+	val right = event.rightItem as IItemStack;
+	
+	val curseFinalStand = <enchantment:contenttweaker:curse_finalstand>.makeEnchantment(1) as IEnchantment;
+
+	if (isNull(left) || isNull(right)) {
+		return;
+	}
+
+	if (isNull(curseFinalStand)) {
+		return;
+	}
+
+	if (event.outputItem.isDamageable) {
+		if (left.isEnchanted) {
+			var enchs = left.enchantments as IEnchantment[];
+			if (enchs has curseFinalStand && event.outputItem.definition == left.definition) {
+				if (left.isDamageable && event.outputItem.damage > left.damage) {
+					event.cancel();
+					return;
+				}
+				if (right.isDamageable && event.outputItem.damage > right.damage) {
+					event.cancel();
+					return;
+				}
+			}
+		}
+		if (right.isEnchanted) {
+			var enchs = right.enchantments as IEnchantment[];
+			if (enchs has curseFinalStand && event.outputItem.definition == right.definition) {
+				if (left.isDamageable && event.outputItem.damage > left.damage) {
+					event.cancel();
+					return;
+				}
+				if (right.isDamageable && event.outputItem.damage > right.damage) {
+					event.cancel();
+					return;
+				}
+			}
+		}
 	}
 });
