@@ -28,15 +28,15 @@ gen: [
   {
     height: [ 0, 120 ]
     size: 20
-    count: 9
-	chance: 1.0
+    count: 6
+	chance: 0.4
 	dimensions: [10]
   },
   {
     height: [ 121, 254 ]
     size: 28
-    count: 18
-	chance: 1.0
+    count: 10
+	chance: 0.6
 	dimensions: [10]
   }
 ]

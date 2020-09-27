@@ -50,15 +50,13 @@
 						}
 					}
 				},
-			"cluster-count": 3,
-			"chunk-chance": 30
+			"cluster-count": 1,
+			"chunk-chance": 14,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
-				"value": [
-				10
-				]
+				"value": [ 10 ]
 			}
 		}
 	}

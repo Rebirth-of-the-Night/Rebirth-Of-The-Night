@@ -180,7 +180,7 @@ mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:
 mods.betterwithmods.FilteredHopper.addFilter("modtweaker:soulsand", <minecraft:soul_sand>);
 
 #Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
-mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
+//mods.betterwithmods.Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); # netherrack and sawdust
 mods.betterwithmods.Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); # chips to potash
 mods.betterwithmods.FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); #sawdust from soul dust
 mods.betterwithmods.FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);

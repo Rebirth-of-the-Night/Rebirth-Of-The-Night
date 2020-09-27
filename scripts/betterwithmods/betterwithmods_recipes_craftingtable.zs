@@ -77,6 +77,19 @@ recipes.addShaped("Wind Sail Siding", <betterwithmods:material:11>,
   [cloth,cloth,cloth],
   [siding,siding,siding]]); 
 
+//Cauldron
+recipes.remove(<betterwithmods:cooking_pot:1>);
+
+val cooking_cauldron = <betterwithmods:cooking_pot:1>;
+val cauldron = <minecraft:cauldron>;
+val whisk = <minecraft:wooden_shovel>|<ore:bone>;
+val bucket = <pyrotech:bucket_wood>|<pyrotech:bucket_clay>|<pyrotech:bucket_stone>|<minecraft:bucket>;
+
+recipes.addShaped("cooking_cauldron", cooking_cauldron,
+  [[whisk],
+  [bucket],
+  [cauldron]]);
+
 //Turntable uses Moulding
 //recipes.remove(<betterwithmods:single_machine:3>);
 //recipes.addShaped("turntable", <betterwithmods:single_machine:3>,

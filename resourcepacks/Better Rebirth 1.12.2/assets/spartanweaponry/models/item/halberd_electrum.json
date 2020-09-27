@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "spartanweaponry:items/halberd_electrum"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 30, -5.25],
+			"scale": [3.5, 3.5, 1.1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 30, -5.25],
+			"scale": [3.5, 3.5, 1.1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -92, 35],
+			"translation": [1.13, 16, 1.13],
+			"scale": [2.25, 2.25, 1.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 92, -35],
+			"translation": [1.13, 16, 1.13],
+			"scale": [2.25, 2.25, 1.03]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [2.0, 2.0, 1.0]
+		},
+		"gui": {
+			"scale": [1.11, 1.11, 1.11]
+		}
+	}
+}

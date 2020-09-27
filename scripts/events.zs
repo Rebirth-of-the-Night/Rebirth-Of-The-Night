@@ -4,13 +4,20 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
+import crafttweaker.event.PlayerAnvilUpdateEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
+import crafttweaker.event.PlayerSleepInBedEvent;
 import crafttweaker.event.PlayerTickEvent;
+
+import crafttweaker.enchantments.IEnchantment;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.entity.IEntityItem;
+
+import crafttweaker.item.IItemStack;
 
 import crafttweaker.player.IPlayer;
 
@@ -28,19 +35,9 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 
 	// Ironberry potion effect fix
 	if (event.isPlayer & event.item.definition.id == <rustic:ironberries>.definition.id) {
-		event.player.clearActivePotions();
+		event.player.removePotionEffect(<potion:minecraft:jump_boost>);
 		var weight = <potion:potioncore:weight>.makePotionEffect(200, 49, false, false) as IPotionEffect;
-		var resist = <potion:minecraft:resistance>.makePotionEffect(200, 15, false, false) as IPotionEffect;
-		var fireres = <potion:minecraft:fire_resistance>.makePotionEffect(200, 15, false, false) as IPotionEffect;
-		var slow = <potion:minecraft:slowness>.makePotionEffect(200, 15, false, false) as IPotionEffect;
-		var minfat = <potion:minecraft:mining_fatigue>.makePotionEffect(200, 15, false, false) as IPotionEffect;
-		var weak = <potion:minecraft:weakness>.makePotionEffect(200, 15, false, false) as IPotionEffect;
 		event.player.addPotionEffect(weight);
-		event.player.addPotionEffect(resist);
-		event.player.addPotionEffect(fireres);
-		event.player.addPotionEffect(slow);
-		event.player.addPotionEffect(minfat);
-		event.player.addPotionEffect(weak);
 	}
 
 	// Mushroom stew bowl fix
@@ -76,19 +73,6 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var poisonEffect = <potion:minecraft:poison>.makePotionEffect(40, 1) as IPotionEffect;
 		event.player.addPotionEffect(poisonEffect);
 		event.player.attackEntityFrom(<damageSource:CACTUS>, 4);
-	}
-	
-	var bedBlocks = [] as IBlock[]; 
-	for item in <ore:bed>.items {
-		bedBlocks += item.asBlock();
-	}
-	
-	// Prevent player from sleeping if your hunger is too low
-	if (bedBlocks has event.block) {
-		if (event.player.foodStats.foodLevel <= 19) {
-			event.player.sendChat("You're too hungry and can't sleep well.");
-			event.cancel();
-		}
 	}
 	
 	// Fix flimsy bucket on hc well
@@ -239,9 +223,61 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 });
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
-	if (event.player.name == "OoHoOo" && !isNull(event.player.world)) {
+	if (event.player.uuid == "019f24eb-6f40-45b7-8b48-8ba6a4d640d5" && !isNull(event.player.world)) {
 		for i in 0 to 10 {
 			server.commandManager.executeCommand(event.player, 'summon primitivemobs:grovesprite ~ ~ ~ {CustomName:"Grove Avenger",CustomNameVisible:1,HandItems:[{id:"spartanweaponry:dagger_diamond",Count:1b,tag:{Unbreakable:1,ench:[{id:19,lvl:10}]}},{}],HandDropChances:[0.0F,0.085F],Attributes:[{Name:generic.maxHealth,Base:250},{Name:generic.movementSpeed,Base:2.0},{Name:generic.attackDamage,Base:20},{Name:generic.followRange,Base:40},{Name:generic.knockbackResistance,Base:1}],ActiveEffects:[{Id:12,Amplifier:10,Duration:200000,ShowParticles:0b},{Id:22,Amplifier:2,Duration:9600}]}');
+		}
+	}
+});
+
+events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedEvent) {
+	// Prevent player from sleeping if your hunger is too low
+	if (event.player.foodStats.foodLevel <= 19) {
+		event.player.sendChat("You're too hungry and can't sleep well.");
+		event.result = "OTHER_PROBLEM";
+	}
+});
+
+events.onPlayerAnvilUpdate(function(event as crafttweaker.event.PlayerAnvilUpdateEvent) {
+	val left = event.leftItem as IItemStack;
+	val right = event.rightItem as IItemStack;
+	
+	val curseFinalStand = <enchantment:contenttweaker:curse_finalstand>.makeEnchantment(1) as IEnchantment;
+
+	if (isNull(left) || isNull(right)) {
+		return;
+	}
+
+	if (isNull(curseFinalStand)) {
+		return;
+	}
+
+	if (event.outputItem.isDamageable) {
+		if (left.isEnchanted) {
+			var enchs = left.enchantments as IEnchantment[];
+			if (enchs has curseFinalStand && event.outputItem.definition == left.definition) {
+				if (left.isDamageable && event.outputItem.damage > left.damage) {
+					event.cancel();
+					return;
+				}
+				if (right.isDamageable && event.outputItem.damage > right.damage) {
+					event.cancel();
+					return;
+				}
+			}
+		}
+		if (right.isEnchanted) {
+			var enchs = right.enchantments as IEnchantment[];
+			if (enchs has curseFinalStand && event.outputItem.definition == right.definition) {
+				if (left.isDamageable && event.outputItem.damage > left.damage) {
+					event.cancel();
+					return;
+				}
+				if (right.isDamageable && event.outputItem.damage > right.damage) {
+					event.cancel();
+					return;
+				}
+			}
 		}
 	}
 });
