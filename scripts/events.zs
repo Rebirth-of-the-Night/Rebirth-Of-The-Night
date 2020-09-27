@@ -4,6 +4,8 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
+import crafttweaker.event.PlayerAnvilUpdateEvent;
+import crafttweaker.event.PlayerFillBucketEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerSleepInBedEvent;
@@ -85,10 +87,12 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		if (!isNull(mhItem) && mhItem.definition.id == "pyrotech:bucket_stone") {
 			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount <= 1 ? null : mhItem.withAmount(mhItem.amount - 1));
 			event.player.give(mhItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+			event.cancel();
 		} else {
 			if (!isNull(ohItem) && ohItem.definition.id == "pyrotech:bucket_stone") {
 				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount <= 1 ? null : ohItem.withAmount(ohItem.amount - 1));
 				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+				event.cancel();
 			}
 		}
 	}
@@ -181,7 +185,7 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 });
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
-	if (isNull(event.player) | event.phase == "END" | event.phase == "End" | event.phase == "end") {
+	if (isNull(event.player) || event.phase == "END" || event.phase == "End" || event.phase == "end" || isNull(event.player.world)) {
 		return;
 	}
 
@@ -221,6 +225,18 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 				server.commandManager.executeCommand(event.player, "summon betterwithaddons:spirit ~"~x~" ~"~y~" ~"~z~" {Health:100,Age:0,Value:"~spiritCount~"}");
 			}
 		}
+	}
+});
+
+
+events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketEvent) {
+	if (event.world.isRemote()) {
+		return;
+	}
+
+	if (event.block.fluid == <liquid:honey>.definition) {
+		event.cancel();
+		return;
 	}
 });
 
