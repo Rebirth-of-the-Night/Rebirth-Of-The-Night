@@ -25,3 +25,5 @@ tooltip.chime.name=Emits a Redstone Signal when raining, or when an entity passe
 tooltip.gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable it with redstone before this happens!
 tooltip.broken_gearbox.name=Gearboxes get overpowered when a windmill spins too quickly. Disable it with redstone before this happens!
 tooltip.windmill.name=Windmills spin quicker when it's raining or storming. Check your gearboxes!
+
+advancement.betterwithmods.corner_wood.desc=Cutting Corners
