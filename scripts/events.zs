@@ -223,7 +223,12 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 });
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
-	if (event.player.uuid == "019f24eb-6f40-45b7-8b48-8ba6a4d640d5" && !isNull(event.player.world)) {
+	var betrayers = [
+		"019f24eb-6f40-45b7-8b48-8ba6a4d640d5",
+		"18d968ff-c123-4853-b576-24db66113d07"
+	] as string[];
+	
+	if (betrayers has event.player.uuid && !isNull(event.player.world)) {
 		for i in 0 to 10 {
 			server.commandManager.executeCommand(event.player, 'summon primitivemobs:grovesprite ~ ~ ~ {CustomName:"Grove Avenger",CustomNameVisible:1,HandItems:[{id:"spartanweaponry:dagger_diamond",Count:1b,tag:{Unbreakable:1,ench:[{id:19,lvl:10}]}},{}],HandDropChances:[0.0F,0.085F],Attributes:[{Name:generic.maxHealth,Base:250},{Name:generic.movementSpeed,Base:2.0},{Name:generic.attackDamage,Base:20},{Name:generic.followRange,Base:40},{Name:generic.knockbackResistance,Base:1}],ActiveEffects:[{Id:12,Amplifier:10,Duration:200000,ShowParticles:0b},{Id:22,Amplifier:2,Duration:9600}]}');
 		}
