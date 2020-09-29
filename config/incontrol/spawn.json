@@ -505,7 +505,7 @@
     "result": "deny"
  },
 
-   // Saltwater Eel
+// Saltwater Eel
    {
     "dimension": 0,
     "mob": "betteranimalsplus:eel_saltwater",
@@ -538,7 +538,7 @@
     "mob": "betteranimalsplus:eel_freshwater",
     "result": "deny"
  },
- 
+
 
  // Spawn Gold Golems in Nether Cities
  {
@@ -1663,6 +1663,8 @@
     "dimension": [0,10],
     "mob": "specialmobs:fishingzombie",
     "gamestage": "minedMythril",
+	"armorhelmet": "rats:fisherman_hat",
+	"armorchest": "harvestcraft:hardenedleatherchestitem",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -2389,8 +2391,7 @@
         "amount": 1,
         "perplayer": true
     },
-    "result": "allow",
-	"potion": "wards:effect_projectile_protection,1000000,5"
+    "result": "allow"
  },
  {
     "dimension": 0,
@@ -2414,11 +2415,53 @@
     "result": "allow",
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
-	"potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,100000,1", "extraalchemy:effect.concentration,100000,1"]
+	"potion": ["minecraft:fire_resistance,1000000,1", "potioncore:purity,100000,1", "extraalchemy:effect.concentration,100000,1"]
  },
  {
     "dimension": -1,
     "mob": "mod_lavacow:boneworm",
+    "result": "deny"
+ },
+
+  {
+    "dimension": 1,
+    "mob": "mod_lavacow:ghostray",
+	"biome": ["Stygian Growth", "Acidic Plains"],
+	"seesky": true,
+	"minheight": 65,
+	"maxlight": 2,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 1,
+    "mob": "mod_lavacow:ghostray",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:weta",
+	"biome": ["Alps", "AlpsFoothills", "Mountain", "MountainFoothills", "Jungle", "JungleHills", "JungleEdge", "Jungle M", "JungleEdge M", "Rainforest", "Tropical Rainforest", "Extreme Hills+", "Brushland", "Grove", "Overgrown Cliffs", "Shrubland", "Tropical Island"],
+    "gamestage": "killedHarvester",
+    "mintime": 13000,
+    "maxtime": 23000,
+	"minheight": 55,
+	"maxlight": 7,
+    "minlight": 0,
+	"random": 0.5,
+    "maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+{
+    "dimension": 0,
+    "mob": "mod_lavacow:weta",
     "result": "deny"
  },
 

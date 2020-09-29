@@ -1345,6 +1345,30 @@
     ]
   },
   
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:weta",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },  
+  
+  {
+    "dimension": 1,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:ghostray",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },  
+  
     {
     "dimension": 0,
     "mobs": [
