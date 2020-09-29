@@ -1,0 +1,344 @@
+{
+    "minecraft:glowstone": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.8",
+                "green": "rng(0.2) + 0.6",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "4 + 5 * flicker(5000)"
+        }
+    ],
+    "minecraft:lit_pumpkin": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "rng(0.2) + 0.4",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "4 + 5 * flicker(2000)"
+        }
+    ],
+    "minecraft:torch": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.7",
+                "green": "rng(0.2) + 0.4",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "6 + 5 * flicker(2000)"
+        }
+    ],
+    "minecraft:lit_redstone_ore": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "1 + 2 * flicker(20000)"
+        }
+    ],
+    "minecraft:redstone_torch": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "3 + 2 *  flicker(5000)"
+        }
+    ],
+    "minecraft:powered_repeater": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "3 + 0.5 * flicker(4000)"
+        }
+    ],
+    "minecraft:unpowered_comparator": [
+        {
+			"state": {
+				"powered": true
+			},
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "3 + 0.5 * flicker(4000)"
+        }
+    ],
+	"minecraft:redstone_block": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "3 + 0.44 * flicker(10000)"
+        }
+	],
+    "minecraft:redstone_wire": [
+        {
+			"state": { "power": 15 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 16)"
+        },
+		{
+			"state": { "power": 14 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 15)"
+        },
+		{
+			"state": { "power": 13 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 14)"
+        },
+		{
+			"state": { "power": 12 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 13)"
+        },
+		{
+			"state": { "power": 11 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 12)"
+        },
+		{
+			"state": { "power": 10 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 11)"
+        },
+		{
+			"state": { "power": 9 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 10)"
+        },
+		{
+			"state": { "power": 8 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 9)"
+        },
+		{
+			"state": { "power": 7 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 8)"
+        },
+		{
+			"state": { "power": 6 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 7)"
+        },
+		{
+			"state": { "power": 5 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 6)"
+        },
+		{
+			"state": { "power": 4 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 5)"
+        },
+		{
+			"state": { "power": 3 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 4)"
+        },
+		{
+			"state": { "power": 2 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 3)"
+        },
+		{
+			"state": { "power": 1 },
+            "color": {
+                "red": "rng(0.4) + 0.6",
+                "green": "0.15",
+                "blue": "0.15",
+                "alpha": "1"
+            },
+            "radius": "(3 + 0.15 * flicker(10000)) * (0.09375 * 2)"
+        }
+    ],
+    "minecraft:lit_redstone_lamp": [
+        {
+            "color": {
+                "red": "rng(0.4) + 0.8",
+                "green": "rng(0.2) + 0.2",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "7 + 2 * flicker(4000)"
+        }
+    ],
+    "minecraft:fire": [
+        {
+            "color": {
+                "red": "rng(0.3) + 0.7",
+                "green": "rng(0.3) + 0.4",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "4 + 8 * flicker(2000)"
+        }
+    ],
+    "minecraft:lit_furnace": [
+        {
+            "color": {
+                "red": "rng(0.3) + 0.7 + 0.5 * flicker(2000)",
+                "green": "rng(0.3) + 0.4 + 0.3 * flicker(10000)",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "4 + 4 * flicker(9000)"
+        }
+    ],
+    "minecraft:portal": [
+        {
+            "color": {
+                "red": "rng(0.3) + 0.1",
+                "green": "0",
+                "blue": "rng(0.3) + 0.4 + 0.3 * flicker(10000)",
+                "alpha": "0.25"
+            },
+            "radius": "4 + 6 * flicker(9000)"
+        }
+    ],
+    "minecraft:sea_lantern": [
+        {
+            "color": {
+                "red": "0",
+                "green": "rng(0.2) + 0.8",
+                "blue": "rng(0.4) + 0.6",
+                "alpha": "1"
+            },
+            "radius": "5 + 3 * flicker(10000)"
+        }
+    ],
+    "minecraft:beacon": [
+        {
+            "color": {
+                "red": "0",
+                "green": "rng(0.2) + 0.8",
+                "blue": "rng(0.4) + 0.6",
+                "alpha": "1"
+            },
+            "radius": "15 + 5 * flicker(10000)"
+        }
+    ],
+    "minecraft:end_portal": [
+        {
+            "color": {
+                "red": "0.5",
+                "green": "rng(0.2) + 0.8",
+                "blue": "rng(0.4) + 0.6",
+                "alpha": "0.6"
+            },
+            "radius": "5 + flicker(10000)"
+        }
+    ],
+    "minecraft:end_gateway": [
+        {
+            "color": {
+                "red": "0.5",
+                "green": "rng(0.2) + 0.8",
+                "blue": "rng(0.4) + 0.6",
+                "alpha": "0.6"
+            },
+            "radius": "5 + flicker(10000)"
+        }
+    ],
+    "minecraft:end_rod": [
+        {
+            "color": {
+                "red": "1",
+                "green": "0.6",
+                "blue": "1",
+                "alpha": "1"
+            },
+            "radius": "5"
+        }
+    ]
+}
