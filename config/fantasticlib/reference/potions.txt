@@ -106,8 +106,6 @@ potioncore:iron_skin
 potioncore:purity
 potioncore:reach
 potioncore:diamond_skin
-potioncore:teleport
-potioncore:teleport_surface
 potioncore:magic_focus
 potioncore:cure
 potioncore:step_up
