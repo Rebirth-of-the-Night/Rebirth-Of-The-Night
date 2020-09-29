@@ -125,23 +125,11 @@ mods.ltt.LootTable.removeGlobalItem("rats:ratlantean_flame");
 //Mob Loot Tweaks
 <entity:rats:ratlantean_spirit>.removeDrop(<rats:ratlantean_flame>);
 <entity:rats:ratlantean_spirit>.removeDrop(<rats:marbled_cheese_rat_head>);
-<entity:rats:ratlantean_spirit>.addPlayerOnlyDrop(<rats:plague_essence> %20, 1);
-<entity:rats:ratlantean_spirit>.addPlayerOnlyDrop(<biomesoplenty:ash> %70, 1, 3);
-<entity:rats:ratlantean_spirit>.addPlayerOnlyDrop(<betterwithmods:material:25> %30, 1, 3);
 
 <entity:rats:feral_ratlantean>.removeDrop(<rats:marbled_cheese_rat_head>);
 <entity:rats:feral_ratlantean>.removeDrop(<rats:rat_toga>);
 
 //addPlayerOnlyDrop(weightedItem, min, max);
-<entity:rats:plague_beast>.addPlayerOnlyDrop(<rats:feral_rat_claw> %25, 1, 2);
-<entity:rats:plague_beast>.addPlayerOnlyDrop(<mod_lavacow:pigboarhide> %40, 1, 2);
-
-//Fish's Undead Rising Mob Loot Additions
-<entity:mod_lavacow:ithaqua>.addPlayerOnlyDrop(<rats:plague_essence> %50, 1, 3);
-<entity:mod_lavacow:ithaqua>.addPlayerOnlyDrop(<mod_lavacow:pigboarhide> %60, 1, 3);
-<entity:mod_lavacow:undeadswine>.addPlayerOnlyDrop(<rats:plague_essence> %20, 1, 2);
-<entity:mod_lavacow:undeadswine>.addPlayerOnlyDrop(<rats:plague_leech> %20, 1, 2);
-<entity:mod_lavacow:zombiepiranha>.addPlayerOnlyDrop(<rats:plague_leech> %40, 1);
 
 
 mods.jei.JEI.addDescription(<rats:plague_leech>,"A disgusting critter typically found on plagued-infested beasts. Some species are hardy enough to survive in the guts of living creatures.");

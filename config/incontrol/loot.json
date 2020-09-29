@@ -7,6 +7,87 @@
       "random": "0.1"
    },
 
+   // Plague Beast
+   {
+      "mob": "rats:plague_beast",
+      "player": true,
+      "item": "mod_lavacow:pigboarhide",
+      "itemcount": "2-4",
+      "random": "0.7"
+   },
+   {
+      "mob": "rats:plague_beast",
+      "player": true,
+      "item": "rats:feral_rat_claw",
+      "itemcount": "1-2",
+      "random": "0.25"
+   },
+
+     // Vermin Soul
+     {
+      "mob": "rats:ratlantean_spirit",
+      "player": true,
+      "item": "rats:plague_essence",
+      "itemcount": "1",
+      "random": "0.2"
+   },
+   {
+      "mob": "rats:ratlantean_spirit",
+      "player": true,
+      "item": "biomesoplenty:ash",
+      "itemcount": "1-3",
+      "random": "0.7"
+   },
+   {
+      "mob": "rats:ratlantean_spirit",
+      "player": true,
+      "item": "betterwithmods:material@25",
+      "itemcount": "1-3",
+      "random": "0.3"
+   },
+
+   // Ithaqua
+   {
+      "mob": "mod_lavacow:ithaqua",
+      "player": true,
+      "item": "rats:plague_essence",
+      "itemcount": "1-3",
+      "random": "0.75"
+   },
+   {
+      "mob": "mod_lavacow:ithaqua",
+      "player": true,
+      "item": "mod_lavacow:pigboarhide",
+      "itemcount": "3-5",
+      "random": "0.8"
+   },
+
+
+   // Dread Swine
+   {
+      "mob": "mod_lavacow:undeadswine",
+      "player": true,
+      "item": "rats:plague_essence",
+      "itemcount": "1-2",
+      "random": "0.2"
+   },
+   {
+      "mob": "mod_lavacow:undeadswine",
+      "player": true,
+      "item": "rats:plague_leech",
+      "itemcount": "1-2",
+      "random": "0.2"
+   },
+
+   // Zombie Piranha
+   {
+      "mob": "mod_lavacow:zombiepiranha",
+      "player": true,
+      "item": "rats:plague_leech",
+      "itemcount": "1",
+      "random": "0.4"
+   },
+
 
    // Mimics
    {
@@ -89,8 +170,7 @@
    {
       "mob": "minecraft:slime",
       "player": true,
-      "item": "quark:rune",
-      "damage": 5,
+      "item": "quark:rune@5",
       "itemcount": "1",
       "random": "0.03"
    },
@@ -126,8 +206,7 @@
    {
       "mob": "specialmobs:lemonslime",
       "player": true,
-      "item": "quark:rune",
-      "damage": 4,
+      "item": "quark:rune@4",
       "itemcount": "1",
       "random": "0.03"
    },
@@ -157,8 +236,7 @@
    {
       "mob": "specialmobs:grapeslime",
       "player": true,
-      "item": "quark:rune",
-      "damage": 10,
+      "item": "quark:rune@10",
       "itemcount": "1",
       "random": "0.03"
    },
@@ -186,8 +264,7 @@
    {
       "mob": "specialmobs:blueberryslime",
       "player": true,
-      "item": "quark:rune",
-      "damage": 11,
+      "item": "quark:rune@11",
       "itemcount": "1",
       "random": "0.03"
    },
@@ -215,8 +292,7 @@
    {
       "mob": "specialmobs:blackberryslime",
       "player": true,
-      "item": "quark:rune",
-      "damage": 15,
+      "item": "quark:rune@15",
       "itemcount": "1",
       "random": "0.03"
    },
@@ -246,8 +322,7 @@
    {
       "mob": "specialmobs:strawberryslime",
       "player": true,
-      "item": "quark:rune",
-      "damage": 14,
+      "item": "quark:rune@14",
       "itemcount": "1",
       "random": "0.03"
    },
@@ -276,8 +351,7 @@
    {
       "mob": "specialmobs:watermelonslime",
       "player": true,
-      "item": "quark:rune",
-      "damage": 16,
+      "item": "quark:rune@16",
       "itemcount": "1",
       "random": "0.03"
    },
