@@ -7,6 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 
 //Removed items
+mods.jei.JEI.removeAndHide(<cyclicmagic:tool_trade>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_fragile_auto>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:item_pipe_sort>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:item_pipe>);
@@ -42,6 +43,7 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
 mods.jei.JEI.removeAndHide(<cyclicmagic:moon_sensor>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back
 
+
 recipes.remove(<cyclicmagic:fluid_pipe>);
 recipes.remove(<cyclicmagic:fluid_pump>);
 recipes.remove(<cyclicmagic:card_location>);
@@ -61,7 +63,6 @@ recipes.remove(<cyclicmagic:password_block>);
 recipes.remove(<cyclicmagic:block_fishing>);
 recipes.remove(<cyclicmagic:dice>);
 recipes.remove(<cyclicmagic:water_candle>);
-recipes.remove(<cyclicmagic:tool_trade>);
 recipes.remove(<cyclicmagic:plate_push_fast>);
 recipes.remove(<cyclicmagic:plate_push_fast_corner>);
 recipes.remove(<cyclicmagic:plate_push_fast_angle>);
@@ -95,7 +96,6 @@ var screw = <betterwithmods:material:24>;
 var steel = <dungeontactics:steel_ingot>;
 var reframat = <pyrotech:material:4>;
 var refratank = <pyrotech:tank:1>;
-var merchantalmanac = <cyclicmagic:tool_trade>;
 var codex = <villagenames:codex>;
 var gps = <cyclicmagic:card_location>;
 var book = <ore:book>;
@@ -207,12 +207,6 @@ mods.betterwithmods.Anvil.addShaped(<cyclicmagic:fluid_drain>,[
     [steel, screwpump, steel]
 ]);
 */
-
-recipes.addShaped("merchant_almanac", merchantalmanac,[
-	[codex],
-    [vnugg],
-    [book]
-]);
 
 recipes.addShaped("Codex anchor", gps,[
 	[advpearl],
