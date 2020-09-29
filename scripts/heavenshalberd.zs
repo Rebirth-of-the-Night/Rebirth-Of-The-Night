@@ -24,7 +24,7 @@ mods.jei.JEI.addDescription(<spartanweaponry:halberd_invar>,"Relic idea by Heave
 
 // Belt of Strength
 <behgameon:accessory_1>.displayName = "§bBelt of Strength";
-<behgameon:accessory_1>.addTooltip(format.darkGreen("Inert"));
+<behgameon:accessory_1>.addTooltip(format.gray("Inert"));
 
 mods.ltt.LootTable.removeGlobalItem("behgameon:accessory_1");
 
@@ -66,7 +66,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:mithril_sword>,
 // Talisman of Evasion
 
 <behgameon:accessory_4>.displayName = "§bTalisman of Evasion";
-<behgameon:accessory_4>.addTooltip(format.aqua("Inert"));
+<behgameon:accessory_4>.addTooltip(format.gray("Inert"));
 
 mods.ltt.LootTable.removeGlobalItem("behgameon:accessory_4");
 

@@ -431,7 +431,6 @@ for potion in potionMap{
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
 <bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
-<bountifulbaubles:crowngold>.addTooltip(format.gray("Inert"));
 <artifacts:whoopie_cushion>.addTooltip(format.gray("Inert"));
 
 <artifacts:shiny_red_balloon>.addTooltip(format.darkGreen("Mundane"));

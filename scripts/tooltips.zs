@@ -1,4 +1,3 @@
-<bountifulbaubles:crowngold>.addTooltip("Used for summoning King Slime");
 
 
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it");

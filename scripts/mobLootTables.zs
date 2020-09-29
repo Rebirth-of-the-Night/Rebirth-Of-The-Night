@@ -212,7 +212,7 @@ val filch33 = stealFilch.addPool("filch_lizard_033", 1, 1, 0, 0);
 filch33.addItemEntry(<aether_legacy:victory_medal>, 1);
 
 val filch34 = stealFilch.addPool("filch_lizard_034", 1, 1, 0, 0);
-filch34.addItemEntry(<bountifulbaubles:crowngold>, 1);
+filch34.addItemEntry(<toroquest:royal_helmet>, 1);
 
 val filch35 = stealFilch.addPool("filch_lizard_035", 1, 1, 0, 0);
 filch35.addItemEntry(<quark:gold_button>, 1);
