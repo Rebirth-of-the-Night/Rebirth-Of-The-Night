@@ -53,18 +53,20 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
 key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
+key_keybind.hammercorerenderstack:0
+key_cos.key.opencosarmorinventory:0
 key_Toggle Magnetism Suppressor:0
 key_neat.keybind.toggle:0
 key_Difficulty Meter - Show:0
 key_Difficulty Meter - Show Always:0
+key_Reload Default Sound Device:0
 key_key.toastcontrol.clear:0
 key_key.dismount:42
 key_smoothfont.key.guiOpen:0
@@ -86,6 +88,9 @@ key_key.betterHud.open:0
 key_key.blockdropstweaker.saveblockdrops:0
 key_key.blockdropstweaker.reloadblockdrops:0
 key_key.carry.desc:42
+key_key.keyExtraInvo:0
+key_key.keyWheel:0
+key_key.keyExtraCraftin:0
 key_key.dungeontactics.rocketjump.desc:57
 key_key.dungeontactics.shieldbash.desc:0
 key_key.dungeontactics.trinket1.desc:0
@@ -94,6 +99,7 @@ key_key.dungeontactics.trinket3.desc:0
 key_key.dungeontactics.trinket4.desc:0
 key_key.mod_lavacow.special:34
 key_FpsReducer.key.guiOpen:0
+key_FpsReducer.key.forceIdle:197
 key_waila.keybind.wailaconfig:0
 key_waila.keybind.wailadisplay:0
 key_waila.keybind.liquid:0
@@ -103,18 +109,19 @@ key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
 key_key.dragon_down:45
 key_key.dragon_change_view:65
-key_invtweaks.key.sort:0
+key_invtweaks.key.sort:-98
 key_key.quit:1
 key_key.hideHUD:59
 key_key.debugScreen:61
 key_key.narrator:0
-key_key.trashslot.toggle:0
-key_key.trashslot.delete:211
-key_key.trashslot.deleteAll:0
-key_Profile GUI:0
-key_key.keyExtraCraftin:0
-key_key.keyExtraInvo:0
 key_key.toolbelt.open:41
 key_key.toolbelt.cycle.left:0
 key_key.toolbelt.cycle.right:0
-key_key.toolbelt.slot:0
+key_key.trashslot.toggle:20
+key_key.trashslot.delete:211
+key_key.trashslot.deleteAll:0
+key_key.control:0
+key_Profile GUI:210
+key_TP Keybind:0
+key_key.fullscreenwindowed.unused:0
+key_Eye changing GUI:0
