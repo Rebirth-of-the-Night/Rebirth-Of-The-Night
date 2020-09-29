@@ -1,4 +1,28 @@
 [
+  // Saltwater Eel
+  {
+    "dimension": [0],
+    "mobs": [
+      {
+        "mob": "betteranimalsplus:eel_saltwater",
+        "weight": 7,
+        "groupcountmin": 3,
+        "groupcountmax": 10
+      }
+    ]
+  },
+  // Freshwater Eel
+  {
+    "dimension": [0],
+    "mobs": [
+      {
+        "mob": "betteranimalsplus:eel_freshwater",
+        "weight": 7,
+        "groupcountmin": 3,
+        "groupcountmax": 6
+      }
+    ]
+  },
   // Zotzpyre
   {
     "dimension": [0,10],

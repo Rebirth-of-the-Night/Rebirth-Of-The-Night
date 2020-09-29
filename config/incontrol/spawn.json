@@ -505,6 +505,41 @@
     "result": "deny"
  },
 
+   // Saltwater Eel
+   {
+    "dimension": 0,
+    "mob": "betteranimalsplus:eel_saltwater",
+    "biometype": ["OCEAN"],
+    "maxcount": {
+      		"amount": 15,
+      		"perplayer": true
+      	},
+    "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "betteranimalsplus:eel_saltwater",
+        "result": "deny"
+    },
+
+  // Freshwater Eel
+  {
+    "dimension": 0,
+    "mob": "betteranimalsplus:eel_freshwater",
+    "biometype": ["RIVER"],
+    "maxcount": {
+      		"amount": 12,
+      		"perplayer": true
+      	},
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "betteranimalsplus:eel_freshwater",
+    "result": "deny"
+ },
+ 
+
  // Spawn Gold Golems in Nether Cities
  {
     "dimension": -1,
