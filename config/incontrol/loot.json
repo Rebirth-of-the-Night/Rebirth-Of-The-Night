@@ -7,6 +7,47 @@
       "random": "0.1"
    },
 
+   // Ghast
+   {
+      "mob": "minecraft:ghast",
+      "player": true,
+      "item": "minecraft:ghast_tear",
+      "itemcount": "1"
+   },
+   {
+      "mob": "netherex:ghastling",
+      "player": true,
+      "item": "minecraft:ghast_tear",
+      "itemcount": "1",
+      "random": "0.7"
+   },
+   {
+      "mob": "specialmobs:babyghast",
+      "player": true,
+      "item": "minecraft:ghast_tear",
+      "itemcount": "1",
+      "random": "0.25"
+   },
+   {
+      "mob": "specialmobs:fighterghast",
+      "player": true,
+      "item": "minecraft:ghast_tear",
+      "itemcount": "1",
+      "random": "0.7"
+   },
+   {
+      "mob": "specialmobs:unholyghast",
+      "player": true,
+      "item": "minecraft:ghast_tear",
+      "itemcount": "1"
+   },
+   {
+      "mob": "specialmobs:kingghast",
+      "player": true,
+      "item": "minecraft:ghast_tear",
+      "itemcount": "2-5"
+   },
+
    // Plague Beast
    {
       "mob": "rats:plague_beast",
