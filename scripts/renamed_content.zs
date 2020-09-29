@@ -3,6 +3,9 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 
 
+<butterflies:butterfly_case>.displayName = "Butterfly Display Case";
+
+
 
 // Slimes
 <minecraft:slime_ball>.displayName = "Green Slimeball";
