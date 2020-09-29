@@ -64,18 +64,18 @@ mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:43>,
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:material:0>);
 mods.betterwithmods.Anvil.addShaped(<betterwithaddons:material:0>, 
 [
-   [null, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>],
-   [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null],
-   [null, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>]
+   [null, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+   [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, null],
+   [null, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]
 ]);
 
 // Arrows
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow>);
 mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow>, #Greatarrow
 [
-   [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null],
+   [<ore:nuggetSteel>, <ore:nuggetSteel>, null],
    [<ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],
-   [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null]
+   [<ore:nuggetSteel>, <ore:nuggetSteel>, null]
 ]);
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow_destruction>);
 mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_destruction>, #Destructive Greatarrow
