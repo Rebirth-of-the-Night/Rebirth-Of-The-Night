@@ -133,64 +133,6 @@ mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qu
 
 
 // Spartan Compat
-// Viridium: Saber, Katana, Staff, Spear, Dagger, Throwing Knife
-
-// Mythril: Rapier, Longsword, Glaive, Lance, Mace, Boomerang, Javelin, Lance
-
-// Onyx: Halberd, Greatsword, Warhammer, Pike, Battleaxe, Hammer, Throwing Axe
-
-mods.jei.JEI.removeAndHide(<spartancompat:longsword_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:halberd_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:greatsword_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:hammer_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:warhammer_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:pike_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:lance_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:longbow_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:crossbow_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:rapier_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:lance_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:mace_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:glaive_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:boomerang_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_adamantium>);
-mods.jei.JEI.removeAndHide(<spartancompat:javelin_adamantium>);
-
-
-mods.jei.JEI.removeAndHide(<spartancompat:halberd_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:greatsword_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:hammer_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:warhammer_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:pike_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:longbow_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:crossbow_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:saber_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:katana_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:staff_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:spear_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:dagger_mythril>);
-mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_mythril>);
-
-
-mods.jei.JEI.removeAndHide(<spartancompat:longsword_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:longbow_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:crossbow_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:rapier_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:lance_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:mace_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:glaive_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:boomerang_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:javelin_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:saber_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:staff_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:spear_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:dagger_onyx>);
-mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);
-
-
 mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:saber_electrum>);
@@ -311,10 +253,10 @@ recipes.removeByRegex("spartancompat:.*holystone");
 recipes.removeByRegex("spartancompat:.*zanite");
 recipes.removeByRegex("spartancompat:.*gravitite") ;
 
-var skyrootWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!handle_|pole_|crossbow_)skyroot") as IItemStack[];
-var holystoneWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_)holystone") as IItemStack[];
-var zaniteWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_)zanite") as IItemStack[];
-var gravititeWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_)gravitite") as IItemStack[];
+var skyrootWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!handle_|pole_|crossbow_|throwing_axe_|throwing_knife_)skyroot") as IItemStack[];
+var holystoneWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)holystone") as IItemStack[];
+var zaniteWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)zanite") as IItemStack[];
+var gravititeWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)gravitite") as IItemStack[];
 var aetherWeapon = [skyrootWeapon,holystoneWeapon,zaniteWeapon,gravititeWeapon] as IItemStack[][];
 var aetherMat = [<aether_legacy:skyroot_plank>,<aether_legacy:holystone>,<aether_legacy:zanite_gemstone>,<aether_legacy:enchanted_gravitite>] as IItemStack[];
 var counter = 0;
@@ -442,23 +384,12 @@ for x, weapon in aetherWeapon {
         [aetherMat[x]]
     ]);//staff 17
 
-//    counter += 1;
-//    recipes.addShaped(weapon[counter],[
-//        [handle,aetherMat[x]],
-//        [null,aetherMat[x]]
-//    ]);//throwing axe 18
-
-//    counter += 1;
-//    recipes.addShaped(weapon[counter],[
-//        [handle,aetherMat[x]]
-//    ]);//throwing knife 19
-
     counter += 1;
     recipes.addShaped(weapon[counter],[
         [null,aetherMat[x]],
         [aetherMat[x],aetherMat[x]],
         [null,handle]
-    ]);//warhammer 20
+    ]);//warhammer 18
 
     counter = 0;
 }

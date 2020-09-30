@@ -15,7 +15,6 @@ recipes.remove(<aether_legacy:skyroot_sword>);
 recipes.remove(<aether_legacy:holystone_sword>);
 recipes.remove(<aether_legacy:zanite_sword>);
 recipes.remove(<aether_legacy:gravitite_sword>);
-recipes.remove(<iceandfire:dragonbone_sword>);
 recipes.remove(<iceandfire:myrmex_desert_sword>);
 recipes.remove(<iceandfire:myrmex_desert_sword_venom>);
 recipes.remove(<iceandfire:myrmex_jungle_sword>);
@@ -75,7 +74,6 @@ val hippogryphtalon = <iceandfire:hippogryph_talon>;
 val symphalianbirdfeather = <iceandfire:stymphalian_bird_feather>;
 val hippogryph_sword = <iceandfire:hippogryph_sword>;
 val stymphalian_bird_dagger = <iceandfire:stymphalian_bird_dagger>;
-val dragonbonesword = <iceandfire:dragonbone_sword>;
 val desertmyrmexsword = <iceandfire:myrmex_desert_sword>;
 val desertmyrmexstingersword = <iceandfire:myrmex_desert_sword_venom>;
 val junglemyrmexsword = <iceandfire:myrmex_jungle_sword>;
@@ -139,10 +137,6 @@ recipes.addShaped("Gravitite_Sword", gravititesword,
  [[null,egravitite,null],
   [null,egravitite,null],
   [null,handle,null]]);
-recipes.addShaped("Dragonbone_Sword", dragonbonesword,
- [[null,dragonbone,null],
-  [null,dragonbone,null],
-  [null,witherhandle,null]]);
 recipes.addShaped("Desert_Myrmex_Chitin_Sword", desertmyrmexsword,
  [[null,mdchitin,null],
   [null,mdchitin,null],

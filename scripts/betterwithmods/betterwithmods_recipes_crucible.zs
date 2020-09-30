@@ -499,7 +499,8 @@ val twentyFourMap = {
     <twilightforest:knightmetal_boots:*> : knightmetal,
     <simpleores:adamantium_sword:*> : viridium,
     <simpleores:adamantium_hoe:*> : viridium,
-    <spartancompat:saber_adamantium:*> : viridium
+    <spartancompat:saber_adamantium:*> : viridium,
+    <betterwithmods:steel_shovel:*> : soulforgedSteel
 } as IItemStack[IItemStack];
 
 for input, output in twentyFourMap{
@@ -541,6 +542,7 @@ val thirtySixMap = {
     <pyrotech:diamond_hammer:*> : soulforgedSteel,
     <spartanshields:shield_basic_soulforged_steel:*> : soulforgedSteel,
     <betterwithmods:steel_mattock:*> : soulforgedSteel,
+    <betterwithmods:steel_axe:*> : soulforgedSteel,
     <betterwithaddons:steel_masonpick:*> : soulforgedSteel,
     <simpleores:mythril_sword:*> : mythril,
     <simpleores:mythril_hoe:*> : mythril,
@@ -615,9 +617,7 @@ mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_helmet:*>],[soulfo
 mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_chest:*>],[soulforgedSteel*108]);
 mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_pants:*>],[soulforgedSteel*54]);
 mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_boots:*>],[soulforgedSteel*54]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_axe:*>],[soulforgedSteel*27]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_pickaxe:*>],[soulforgedSteel*27]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_shovel:*>],[soulforgedSteel*9]);
+mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_pickaxe:*>],[soulforgedSteel*45]);
 mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_hacksaw:*>],[soulforgedSteel*4]);
 mods.betterwithmods.Crucible.addStoked([<betterwithaddons:steel_matchpick:*>],[soulforgedSteel*27]);
 mods.betterwithmods.Crucible.addStoked([<betterwithaddons:steel_machete:*>],[soulforgedSteel*27]);

@@ -49,11 +49,11 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <antiqueatlas:antique_atlas>.displayName = "Atlas";
 
 
-//Better with Addons
+// Better with Addons
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
 <betterwithaddons:lattice:0>.displayName = "Iron Lattice Block";
 
-//Biomes o Plenty
+// Biomes o Plenty
 <biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
 <biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
@@ -128,6 +128,10 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:bark:0>.displayName = "Wood Bark";
 <betterwithmods:rope>.displayName = "Hemp Cord";
 <betterwithmods:steel_block:0>.displayName = "Block of Soulforged Steel";
+<betterwithmods:steel_helmet>.displayName = "Soulforged Steel Helmet";
+<betterwithmods:steel_chest>.displayName = "Soulforged Steel Chest";
+<betterwithmods:steel_pants>.displayName = "Soulforged Steel Leggings";
+<betterwithmods:steel_boots>.displayName = "Soulforged Steel Boots";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";

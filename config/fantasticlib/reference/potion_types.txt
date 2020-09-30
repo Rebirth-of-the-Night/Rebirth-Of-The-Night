@@ -188,6 +188,9 @@ potioncore:long_reach
 potioncore:diamond_skin
 potioncore:strong_diamond_skin
 potioncore:long_diamond_skin
+potioncore:teleport
+potioncore:strong_teleport
+potioncore:teleport_surface
 potioncore:magic_focus
 potioncore:strong_magic_focus
 potioncore:long_magic_focus
