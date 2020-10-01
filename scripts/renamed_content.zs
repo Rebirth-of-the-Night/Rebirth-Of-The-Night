@@ -5,6 +5,8 @@ import crafttweaker.item.IItemStack;
 
 <butterflies:butterfly_case>.displayName = "Butterfly Display Case";
 
+<contenttweaker:shard_of_night>.displayName = "§5Shard of Night";
+
 
 
 // Slimes

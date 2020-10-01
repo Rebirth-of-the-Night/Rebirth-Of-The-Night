@@ -1,9 +1,9 @@
 itemGroup.nyx=Nyx
 
 enchantment.nyx.lunar_edge=Lunar Edge
-enchantment.nyx.lunar_edge.desc=
+enchantment.nyx.lunar_edge.desc=Stronger version of Sharpness whose strength is affected by the current moon phase. Increased XP drops by mobs.
 enchantment.nyx.lunar_shield=Lunar Shield
-enchantment.nyx.lunar_shield.desc=
+enchantment.nyx.lunar_shield.desc=Stronger version of Protection whose strength is affected by the current moon phase.
 
 info.nyx.day_enchanting=It's too light out to enchant right now.
 info.nyx.harvest_moon=The Harvest Moon is rising.
@@ -24,7 +24,7 @@ tile.nyx.star_slab_double.name=Star Block Double Slab
 fluid.nyx.lunar_water=Lunar Water
 
 item.nyx.lunar_water_bottle.name=Lunar Water Bottle
-item.nyx.comet_shard.name=Meteor Shard
+item.nyx.comet_shard.name=Comet Shard
 item.nyx.fallen_star.name=Fallen Star
 
 command.nyx.force.usage=/nyxforce <event> to cause a lunar event to happen

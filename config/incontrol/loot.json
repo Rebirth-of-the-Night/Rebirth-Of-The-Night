@@ -410,17 +410,9 @@
    {
    "mob": "harvestersnight:harvester",
    "player": true,
-   "item": "bountifulbaubles:crowngold",
+   "item": "contenttweaker:shard_of_night",
    "itemcount": "1"
    },
-   {
-      "mob": "harvestersnight:harvester",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "1",
-      "random": "0.50"
-   },
-
 
 	// Ghast Queen Drops
 	{

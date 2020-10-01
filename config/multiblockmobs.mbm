@@ -5,7 +5,7 @@
 #Mob 1
 !startMultiblockMob
 !startDim
-Dimensions:[x = 3, y = 4, z = 1]
+Dimensions:[x = 3, y = 3, z = 2]
 !endDim
 
 !startInit
@@ -18,7 +18,10 @@ minecraft:lit_pumpkin = "p"
 
 !startLoc
 #z=0
+["~~~"]
+["~~~"]
 ["~s~"]
+#z=1
 ["~p~"]
 ["hbh"]
 ["~b~"]
