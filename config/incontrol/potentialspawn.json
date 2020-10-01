@@ -678,7 +678,7 @@
     "mobs": [
       {
         "mob": "specialmobs:firecreeper",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
