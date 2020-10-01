@@ -1,6 +1,6 @@
 {
   "name": "Brewing",
-  "description": "Cheers mate",
+  "description": "Brewing alcohol from plant products can grant me unique benefits... among other things.",
   "icon": "rustic:brewing_barrel",
   "sortnum": 3,
   "parent": "agriculture"

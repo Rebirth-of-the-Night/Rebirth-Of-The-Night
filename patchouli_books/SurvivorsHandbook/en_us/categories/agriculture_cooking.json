@@ -1,6 +1,6 @@
 {
   "name": "Cooking & Cuisine",
-  "description": "Anyone can cook",
+  "description": "If I want to get the most out of my food, I need to learn how to cook it properly.",
   "icon": "harvestcraft:potitem",
   "sortnum": 2,
   "parent": "agriculture"

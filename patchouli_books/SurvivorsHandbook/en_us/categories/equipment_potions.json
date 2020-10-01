@@ -1,6 +1,6 @@
 {
   "name": "Alchemy and Potions",
-  "description": "I am going into battle and have need of your finest potions.",
+  "description": "Brewing supernatural ingredients to create empowering or debilitating cocktails.",
   "icon": "minecraft:potion",
   "sortnum": 3,
   "parent": "equipment"

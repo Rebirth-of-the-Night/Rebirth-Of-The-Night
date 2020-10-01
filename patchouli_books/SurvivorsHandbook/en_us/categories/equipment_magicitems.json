@@ -1,6 +1,6 @@
 {
-  "name": "Magic Items",
-  "description": "Glittering gold, trinkets and baubles. Paid for in blood",
+  "name": "Magic Arsenal",
+  "description": "Unusual and varied tools and weapons with fantastic magical abilities.",
   "icon": "cyclicmagic:evoker_fang",
   "sortnum": 2,
   "parent": "equipment"

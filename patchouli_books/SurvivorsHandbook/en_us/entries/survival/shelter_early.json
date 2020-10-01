@@ -1,0 +1,18 @@
+{
+  "name": "Early Shelter",
+  "icon": "pyrotech:obsidian_pickaxe",
+  "category": "survival_shelter",
+  "pages": [
+	{
+      "type": "text",
+      "text": "A fortress can't be made in a day. For now, I should focus on something that will keep me safe during my first few days. I could find a naturally defensible area, like a mountainside or a cave, or try to build up a walled shelter. If I try to shelter somewhere that's too small or too bright, I'm sure to end up as something's dinner."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "construction/materials_sample",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

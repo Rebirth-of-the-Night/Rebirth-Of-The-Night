@@ -1,6 +1,6 @@
 {
   "name": "Technological Trinkets",
-  "description": "its really just redstone and ender shit",
+  "description": "Redstone dust and redstone-based tools have almost limitless potential.",
   "icon": "minecraft:redstone",
   "sortnum": 3,
   "parent": "innovation"

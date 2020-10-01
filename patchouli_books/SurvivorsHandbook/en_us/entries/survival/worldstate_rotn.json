@@ -1,0 +1,18 @@
+{
+  "name": "Rebirth of the Night",
+  "icon": "minecraft:ender_pearl",
+  "category": "survival_worldstate",
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "With the destruction of that spirit, it seems I've awakened all sorts of creatures across the land. Were they brought to life by my actions, or were they only lying in wait before?"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}
