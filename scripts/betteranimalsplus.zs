@@ -21,8 +21,8 @@ recipes.addShaped("blubber_torch",<minecraft:torch>*4,[
 mods.jei.JEI.removeAndHide(<betteranimalsplus:goatcheese>);
 recipes.removeByRecipeName("betteranimalsplus:milk_to_cheese2");
 
-<betteranimalsplus:hirschgeistskull>.displayName = "§6Hirschgeist Skull";
-<betteranimalsplus:hirschgeistskull>.addTooltip(format.gold("Legendary Artifact"));
+//<betteranimalsplus:hirschgeistskull>.displayName = "§6Hirschgeist Skull";
+//<betteranimalsplus:hirschgeistskull>.addTooltip(format.gold("Legendary Artifact"));
 
 <betteranimalsplus:hirschgeistskull_1>.displayName = "§6Hirschgeist Skull";
 <betteranimalsplus:hirschgeistskull_1>.addTooltip(format.gold("Legendary Artifact"));

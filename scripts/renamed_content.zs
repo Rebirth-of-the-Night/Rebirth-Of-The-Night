@@ -8,7 +8,6 @@ import crafttweaker.item.IItemStack;
 <contenttweaker:shard_of_night>.displayName = "§5Shard of Night";
 
 
-
 // Slimes
 <minecraft:slime_ball>.displayName = "Green Slimeball";
 <contenttweaker:brain>.displayName = "Brain";
@@ -484,8 +483,12 @@ for potion in potionMap{
 <deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));
 
 // Better Animals Plus
-<betteranimalsplus:wolfhead>.displayName = "§2Direwolf Head";
-<betteranimalsplus:wolfhead>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_1>.displayName = "§2Direwolf Head";
+<betteranimalsplus:wolfhead_2>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_3>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_4>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_5>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_6>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:fried_egg>.displayName = "Cooked Monster Egg";
 
 #Rare
