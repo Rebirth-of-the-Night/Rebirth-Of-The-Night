@@ -5,9 +5,9 @@
     "mobs": [
       {
         "mob": "betteranimalsplus:eel_saltwater",
-        "weight": 7,
-        "groupcountmin": 3,
-        "groupcountmax": 10
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   },
@@ -17,9 +17,9 @@
     "mobs": [
       {
         "mob": "betteranimalsplus:eel_freshwater",
-        "weight": 7,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       }
     ]
   },

@@ -510,8 +510,9 @@
     "dimension": 0,
     "mob": "betteranimalsplus:eel_saltwater",
     "biometype": ["OCEAN"],
+	"maxheight": 50,
     "maxcount": {
-      		"amount": 15,
+      		"amount": 8,
       		"perplayer": true
       	},
     "result": "allow"
@@ -528,7 +529,7 @@
     "mob": "betteranimalsplus:eel_freshwater",
     "biometype": ["RIVER"],
     "maxcount": {
-      		"amount": 12,
+      		"amount": 10,
       		"perplayer": true
       	},
     "result": "allow"
