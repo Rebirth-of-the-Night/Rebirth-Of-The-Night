@@ -90,6 +90,14 @@ for i, output in stairArray{
     ]);
 }
 
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <netherex:frost_powder>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <netherex:rime_crystal>);
+
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <netherex:rime_crystal>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "netherex:freezing"}), <minecraft:dragon_breath>);
+
 
 
 recipes.remove(<netherex:frosted_amedian_sword>);
