@@ -5,3 +5,5 @@ entity.QueenGhast.name=Splitting Ghast
 entity.UnholyGhast.name=Tormented Ghast
 entity.PaleSpider.name=Pale Lurker
 entity.HungrySpider.name=Gluttonous Stalker
+entity.HungryZombie.name=Ravener
+entity.PoisonSpider.name=Armored Spider
