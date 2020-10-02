@@ -3326,7 +3326,7 @@
     ],
     "incompat_mode": 1,
     "incompatible": [
-		"minecraft:sharpness",
+		"minecraft:sharpness"
 	],
     "applicability_mode": 0,
     "items_list_mode": 0,
