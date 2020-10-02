@@ -1454,13 +1454,13 @@
   },
   
   {
-    "dimension": [-1,0,10],
+    "dimension": 10,
     "mobs": [
       {
         "mob": "rats:ratlantean_spirit",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },

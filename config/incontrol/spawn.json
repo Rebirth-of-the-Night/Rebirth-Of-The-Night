@@ -653,8 +653,6 @@
  {
     "dimension": 10,
     "mob": "minecraft:cave_spider",
-    "maxlight": 7,
-    "minlight": 0,
 	"random": 0.02,
     "maxcount": {
         "amount": 20,
@@ -2260,23 +2258,22 @@
     "result": "deny"
  },
  {
-    "dimension": [0,10,-1],
+    "dimension": 10,
     "mob": "rats:ratlantean_spirit",
     "gamestage": "minedMythril",
-	"random": 0.125,
-	"maxlight": 7,
-    "minlight": 0,
+	"random": 0.2,
+	"maxheight": 120,
     "maxcount": {
         "amount": 2,
         "perplayer": true
     },
     "result": "allow",
-	"damagemultiply": 0.5,
+	"damagemultiply": 0.7,
     "healthmultiply": 0.5,
 	"potion": "minecraft:fire_resistance,10000,1"
  },
  {
-    "dimension": [0,10,-1],
+    "dimension": 10,
     "mob": "rats:ratlantean_spirit",
     "result": "deny"
  },
