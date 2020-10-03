@@ -2305,7 +2305,7 @@
  {
     "dimension": 10,
     "mob": "rats:ratlantean_spirit",
-    "gamestage": "minedMythril",
+    "gamestage": "enteredBeneath",
 	"random": 0.2,
 	"maxheight": 120,
     "maxcount": {
