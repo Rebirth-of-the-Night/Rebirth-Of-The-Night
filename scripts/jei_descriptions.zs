@@ -250,7 +250,6 @@ mods.jei.JEI.addDescription(<mod_lavacow:scythe_claw>, "Dreadful claw of the Ith
 
 /* Decorative Blocks */
 mods.jei.JEI.addDescription(<minecraft:bed:*>, ["With some bits of padding and a little carpentry, one can create a place to lay their head, finding peaceful sleep until the glorious dawn."]);
-mods.jei.JEI.addDescription(<aether_legacy:skyroot_bed:*>, ["By adding some Skyroot Planks to a bed, one can even find rest in the Aether."]);
 
 mods.jei.JEI.addDescription(<minecraft:purpur_block>, ["One of the most distinctive types of Ender architecture, favored for endermites as burrows to pupate into shulkers.","Long ago, the shulkers were easily controlled… but now, what remains of the Ender empire cannot prevent the pests from infesting their cities."]);
 mods.jei.JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block that creates a magical updrift if one flies over it with an elytra!");

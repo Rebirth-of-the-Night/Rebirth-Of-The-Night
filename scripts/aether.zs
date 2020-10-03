@@ -105,32 +105,17 @@ recipes.addShaped("quicksoil", quicks*8,[
 
 // Rebirth of the Bed AETHER EDITION
 
-recipes.remove(<aether_legacy:skyroot_bed:*>);
+recipes.remove(<aether_legacy:skyroot_bed_item>);
 
-recipes.addShaped("Rebirth_of_the_Bed_Aether",<aether_legacy:skyroot_bed>,[
+recipes.addShaped("Rebirth_of_the_Bed_Aether",<aether_legacy:skyroot_bed_item>,[
     [null,null,null],
     [null,<ore:bed>,null],
     [<ore:plankSkyroot>,<ore:plankSkyroot>,<ore:plankSkyroot>]
 ]);
 
-var skyBedColors = <aether_legacy:skyroot_bed:0>|<aether_legacy:skyroot_bed:1>|<aether_legacy:skyroot_bed:2>|<aether_legacy:skyroot_bed:3>|<aether_legacy:skyroot_bed:4>|<aether_legacy:skyroot_bed:5>|<aether_legacy:skyroot_bed:6>|<aether_legacy:skyroot_bed:7>|<aether_legacy:skyroot_bed:8>|<aether_legacy:skyroot_bed:9>|<aether_legacy:skyroot_bed:10>|<aether_legacy:skyroot_bed:11>|<aether_legacy:skyroot_bed:12>|<aether_legacy:skyroot_bed:13>|<aether_legacy:skyroot_bed:14>|<aether_legacy:skyroot_bed:15>;
+<aether_legacy:skyroot_bed_item>.addTooltip("Allows you to sleep in the Aether");
 
-recipes.addShapeless("white_skyroot_bed_fromother",<aether_legacy:skyroot_bed:0>,[skyBedColors,<ore:dyeWhite>]);
-recipes.addShapeless("orange_skyroot_bed_fromother",<aether_legacy:skyroot_bed:1>,[skyBedColors,<ore:dyeOrange>]);
-recipes.addShapeless("magenta_skyroot_bed_fromother",<aether_legacy:skyroot_bed:2>,[skyBedColors,<ore:dyeMagenta>]);
-recipes.addShapeless("light_blue_skyroot_bed_fromother",<aether_legacy:skyroot_bed:3>,[skyBedColors,<ore:dyeLightBlue>]);
-recipes.addShapeless("yellow_skyroot_bed_fromother",<aether_legacy:skyroot_bed:4>,[skyBedColors,<ore:dyeYellow>]);
-recipes.addShapeless("lime_skyroot_bed_fromother",<aether_legacy:skyroot_bed:5>,[skyBedColors,<ore:dyeLime>]);
-recipes.addShapeless("pink_skyroot_bed_fromother",<aether_legacy:skyroot_bed:6>,[skyBedColors,<ore:dyePink>]);
-recipes.addShapeless("gray_skyroot_bed_fromother",<aether_legacy:skyroot_bed:7>,[skyBedColors,<ore:dyeGray>]);
-recipes.addShapeless("light_gray_skyroot_bed_fromother",<aether_legacy:skyroot_bed:8>,[skyBedColors,<ore:dyeLightGray>]);
-recipes.addShapeless("cyan_skyroot_bed_fromother",<aether_legacy:skyroot_bed:9>,[skyBedColors,<ore:dyeCyan>]);
-recipes.addShapeless("purple_skyroot_bed_fromother",<aether_legacy:skyroot_bed:10>,[skyBedColors,<ore:dyePurple>]);
-recipes.addShapeless("blue_skyroot_bed_fromother",<aether_legacy:skyroot_bed:11>,[skyBedColors,<ore:dyeBlue>]);
-recipes.addShapeless("brown_skyroot_bed_fromother",<aether_legacy:skyroot_bed:12>,[skyBedColors,<ore:dyeBrown>]);
-recipes.addShapeless("green_skyroot_bed_fromother",<aether_legacy:skyroot_bed:13>,[skyBedColors,<ore:dyeGreen>]);
-recipes.addShapeless("red_skyroot_bed_fromother",<aether_legacy:skyroot_bed:14>,[skyBedColors,<ore:dyeRed>]);
-recipes.addShapeless("black_skyroot_bed_fromother",<aether_legacy:skyroot_bed:15>,[skyBedColors,<ore:dyeBlack>]);
+
 
 recipes.removeByRecipeName("quark:gravisand");
 recipes.addShaped("quickgravisand", <quark:gravisand>*8,[
