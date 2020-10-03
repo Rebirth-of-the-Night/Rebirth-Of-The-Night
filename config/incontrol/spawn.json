@@ -2656,7 +2656,7 @@
 {
     "dimension": 4,
     "mob": "netherex:wight",
-    "gamestage": "minedMythril",
+    "gamestage": "enteredBeneath",
 	"random": 0.30,
 	"maxlight": 7,
     "minlight": 0,
@@ -2676,7 +2676,6 @@
 {
     "dimension": 4,
     "mob": "netherex:coolmar_spider",
-    "gamestage": "enteredBeneath",
 	"random": 0.30,
 	"seesky": false,
 	"maxlight": 7,
