@@ -15,9 +15,9 @@
       "name": "Harvester Effigy",
       "multiblock": {
         "pattern": [
-					[" ", " J "],
-					[" ", "H0H"],
-					["S", " B "]
+					["  ", " J "],
+					["  ", "H0H"],
+					[" S ", " B "]
 				],
         "mapping": {
           "0": "betternether:bone_block",
