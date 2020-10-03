@@ -1823,7 +1823,52 @@
     "result": "deny"
  },
 
+{
+	"dimension" : [0, 10],
+	"mob": "specialmobs:knightskeleton",
+    "gamestage": "enteredBeneath",
+	"maxlight": 7,
+	"armorhelmet": "iceandfire:armor_silver_metal_helmet",
+	"armorchest": ["12=minecraft:iron_chestplate", "5=minecraft:chainmail_chestplate", "2=dungeontactics:steel_chestplate"],
+	"helditem": ["12=spartanweaponry:warhammer_iron", "5=spartanweaponry:longsword_iron", "8=spartanweaponry:mace_iron", "8=minecraft:iron_sword", "3=minecraft:iron_pickaxe"],
+	"maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+	"result": "allow"
+  },
+{
+	"dimension" : [0, 10],
+	"mob": "specialmobs:knightskeleton",
+	"helditem": "specialmobs:knightskeleton",
+	"result": "deny"
+  },
 
+
+
+{
+	"dimension" : -1,
+	"mob": "specialmobs:knightpigzombie",
+    "gamestage": "killedWither",
+	"maxlight": 7,
+	"armorhelmet": "netherex:wither_bone_helmet",
+	"armorchest": "endreborn:armour_chestplate_obsidian",
+	"armorlegs": "endreborn:armour_leggings_obsidian",
+	"armorboots": "endreborn:armour_boots_obsidian",
+	"helditem": ["10=mod_lavacow:moltenaxe", "7=pyrotech:obsidian_axe", "6=pyrotech:obsidian_sword", "2=pyrotech:obsidian_pickaxe", "7=netherex:blazed_amedian_axe"],
+	"angry": true,
+	"maxcount": {
+        "amount": 5,
+        "perplayer": true
+    },
+	"result": "allow"
+  },
+{
+	"dimension" : -1,
+	"mob": "specialmobs:knightpigzombie",
+	"helditem": "specialmobs:knightpigzombie",
+	"result": "deny"
+  },
 
 
  // Spiders

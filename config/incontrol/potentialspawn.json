@@ -861,6 +861,31 @@
     ]
   },
 
+
+  {
+    "dimension": [0,10],
+    "mobs": [
+      {
+        "mob": "specialmobs:knightskeleton",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "specialmobs:knightpigzombie",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
 // Spiders
   {
     "dimension": [0,10],
