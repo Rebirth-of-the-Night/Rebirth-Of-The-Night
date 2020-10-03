@@ -166,3 +166,30 @@ fire_block.setLightValue(15);
 fire_block.setBlockLayer("CUTOUT");
 fire_block.setPassable(true);
 fire_block.register();
+
+var planarspsp2 = VanillaFactory.createBlock("planarspsp2", <blockmaterial:Rock>);
+planarspsp2.setCreativeTab(<creativetab:buildingBlocks>);
+blockBronze.setBlockHardness(350.0);
+blockBronze.setBlockResistance(3600000.0);
+planarspsp2.setBlockSoundType(<soundtype:stone>);
+planarspsp2.setToolClass("pickaxe");
+planarspsp2.setToolLevel(6);
+planarspsp2.register();
+
+//sandstone native copper
+var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);
+n_copper_sandstone.setCreativeTab(<creativetab:buildingBlocks>);
+n_copper_sandstone.setBlockSoundType(<soundtype:stone>);
+n_copper_sandstone.setBlockHardness(4.0);
+n_copper_sandstone.setBlockResistance(15.0);
+n_copper_sandstone.setBeaconBase(true);
+n_copper_sandstone.register();
+
+var n_copper_sandstone_red = VanillaFactory.createBlock("n_copper_sandstone_red", <blockmaterial:Rock>);
+n_copper_sandstone_red.setCreativeTab(<creativetab:buildingBlocks>);
+n_copper_sandstone_red.setBlockSoundType(<soundtype:stone>);
+n_copper_sandstone_red.setBlockHardness(4.0);
+n_copper_sandstone_red.setBlockResistance(15.0);
+n_copper_sandstone_red.setBeaconBase(true);
+n_copper_sandstone_red.register();
+

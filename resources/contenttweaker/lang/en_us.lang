@@ -41,6 +41,7 @@ tile.contenttweaker.block_electrum.name=Block of Aetherial Electrum
 tile.contenttweaker.block_bronze.name=Block of Bronze
 tile.contenttweaker.egg_block.name=L'Egg
 tile.contenttweaker.fire_block.name=Fire
+tile.contenttweaker.planarspsp2.name=Earthspine
 item.contenttweaker.copper_tin_mixture.name=Copper and Tin 
 item.contenttweaker.copper_tin_pebbles.name=Copper and Tin Pebbles
 item.contenttweaker.electrum_plate.name=Aetherial Electrum Plate

@@ -104,6 +104,48 @@ Dropt.list("light_essence")
       )
   );
 
+Dropt.list("native_copper")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:n_copper_sandstone"])
+      .addDrop(Dropt.drop()
+          .items([<contenttweaker:material_part:4>], Dropt.range(6, 9))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10), "ANY", 1)
+          .items([<contenttweaker:material_part:4>*9])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100), "ANY", 2)
+          .items([<contenttweaker:material_part:4>], Dropt.range(9, 12))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000), "ANY", 3)
+          .items([<contenttweaker:material_part:4>*12])
+      )
+  );
+  
+Dropt.list("native_copper_red")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:n_copper_sandstone_red"])
+      .addDrop(Dropt.drop()
+          .items([<contenttweaker:material_part:4>], Dropt.range(6, 9))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10), "ANY", 1)
+          .items([<contenttweaker:material_part:4>*9])
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100), "ANY", 2)
+          .items([<contenttweaker:material_part:4>], Dropt.range(9, 12))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1000), "ANY", 3)
+          .items([<contenttweaker:material_part:4>*12])
+      )
+  );
+
 Dropt.list("Well_Worth")
 
   .add(Dropt.rule()

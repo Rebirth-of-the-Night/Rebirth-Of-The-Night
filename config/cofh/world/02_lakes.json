@@ -1,4 +1,5 @@
 {
+	"dependencies": "roguelike",
 	"populate": {
 		"nether_hellfire_lakes": {
 			"distribution": "uniform",

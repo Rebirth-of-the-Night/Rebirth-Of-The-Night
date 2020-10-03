@@ -48,6 +48,7 @@ GraniteAnvil.addRecipe("lormyte crystal", <endreborn:item_lormyte_crystal>*2, <e
 GraniteAnvil.addRecipe("obsidian dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);
 GraniteAnvil.addRecipe("obsidian shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 64, "pickaxe", true);
 GraniteAnvil.addRecipe("cobblestone any cobblestone", <minecraft:cobblestone>, <ore:cobblestone>, 1, "hammer", true);
+GraniteAnvil.addRecipe("entropy_cobblestone", <endreborn:block_entropy_end_stone>, <minecraft:end_stone>, 4,"hammer", true);
 GraniteAnvil.addRecipe("copper_tin_to_pebbles", <contenttweaker:copper_tin_pebbles>*4, <contenttweaker:copper_tin_mixture>, 8, "hammer", true);
 GraniteAnvil.addRecipe("silver_gold_ambrosium_to_pebbles", <contenttweaker:silver_gold_pebbles>*8, <contenttweaker:silver_gold_mixture>, 6, "hammer", true);
 GraniteAnvil.addRecipe("charcoal pile to charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);

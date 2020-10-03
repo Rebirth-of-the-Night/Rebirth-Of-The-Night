@@ -52,6 +52,7 @@
 				},
 			"cluster-count": 1,
 			"chunk-chance": 14,
+			"ground-level":80,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {

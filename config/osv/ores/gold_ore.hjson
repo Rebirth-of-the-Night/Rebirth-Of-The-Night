@@ -50,16 +50,16 @@ gen: [
   }
   {
 	height : [130, 255]
-	size: 12
+	size: 11
 	count: 6 
-	chance: 0.9
+	chance: 0.8
 	dimensions: [10]
   }
   {
 	height : [120, 130]
-	size: 12
-	count: 10
-	chance: 0.9
+	size: 11
+	count: 9
+	chance: 0.8
 	dimensions: [10]
   }
 ]

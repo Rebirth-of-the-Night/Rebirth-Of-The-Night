@@ -64,8 +64,8 @@ var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"
 ender_slag.density = 1900;
 ender_slag.temperature = 500;
 ender_slag.viscosity = 2000;
-ender_slag.stillLocation = "contenttweaker:fluids/fluid_still";
-ender_slag.flowingLocation = "contenttweaker:fluids/fluid_flow";
+ender_slag.stillLocation = "contenttweaker:fluids/ender_slag_still";
+ender_slag.flowingLocation = "contenttweaker:fluids/ender_slag_flow";
 ender_slag.colorize= true;
 ender_slag.register();
 

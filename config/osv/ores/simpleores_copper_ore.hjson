@@ -23,28 +23,30 @@ recipe: {
   quantity: 1
 }
 gen: [
-#Native copper
-  {
-    height: [ 70, 98 ]
-    size: 25
-    count: 3
-	chance: 0.8
-	biomes: {
-		types: ["DRY","HOT"]
-	}
-  }
   {
 	height: [ 50, 150 ]
     size: 10
     count: 23
 	chance: 1.0
+	blacklistBiomes: true
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+	}
   }
 #Copper ore
   {
-    height: [ 70, 98 ]
+    height: [ 30, 56 ]
     size: 12
     count: 5
-	chance: 0.9
+	chance: 0.6
 	biomes: {
 		types: ["SANDY"]
 	}

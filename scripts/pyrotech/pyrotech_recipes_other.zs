@@ -76,7 +76,7 @@ Burn.createBuilder("molten_spirit_vanilla", <pyrotech:material:16>, "simpleores:
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
-Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "minecraft:end_stone")
+Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "endreborn:block_entropy_end_stone")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(1 * 60 * 20)
     .setFluidProduced(<liquid:ender_slag> * 1000)

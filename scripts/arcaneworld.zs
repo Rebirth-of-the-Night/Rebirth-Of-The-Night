@@ -23,3 +23,5 @@ mods.ArcaneWorld.removeAll();
 //Mob summoning
 //mods.ArcaneWorld.createRitualSummon(String name, String displayName, String entity, IIngredient... inputs)
 mods.ArcaneWorld.createRitualSummon("pixie", "Pixie Calling", "iceandfire:if_pixie", [<contenttweaker:fae_rune>.anyDamage().transformDamage(),<ore:Gem_highQuality>]);
+
+recipes.remove(<arcaneworld:levitator>);
