@@ -15,16 +15,16 @@
       "name": "Harvester Effigy",
       "multiblock": {
         "pattern": [
-					[" J "],
-					["H0H"],
-					[" B "],
-					[" B "]
+					[" ", " J "],
+					[" ", "H0H"],
+					["S", " B "]
 				],
         "mapping": {
-          "0": "multiblockmobs:soul_chassis",
+          "0": "betternether:bone_block",
           "J": "minecraft:lit_pumpkin[facing=east]",
           "H": "minecraft:hay_block",
-		  "B": "betternether:bone_block"
+		  "B": "betternether:bone_block",
+		  "S": "multiblockmobs:soul_chassis"
 		},
 				"symmetrical": true,
 				"offset"     : [0, 0, 0],
