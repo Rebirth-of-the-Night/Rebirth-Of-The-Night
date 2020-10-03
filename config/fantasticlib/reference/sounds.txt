@@ -1500,4 +1500,3 @@ beneath:scream
 trumpetskeleton:entity.trumpet_skeleton.ambient
 trumpetskeleton:item.trumpet.use
 trumpetskeleton:entity.parrot.imitate.trumpet_skeleton
-hmctt:tile.neon_sign.hum
