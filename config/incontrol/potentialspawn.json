@@ -1459,9 +1459,9 @@
     "mobs": [
       {
         "mob": "mod_lavacow:ptera",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },  
@@ -1555,7 +1555,7 @@
     "mobs": [
       {
         "mob": "iceandfire:stymphalianbird",
-        "weight": 2,
+        "weight": 0.3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
