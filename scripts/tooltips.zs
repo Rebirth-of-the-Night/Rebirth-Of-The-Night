@@ -49,22 +49,7 @@
 <minecraft:bed:13>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 <minecraft:bed:14>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 <minecraft:bed:15>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:1>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:2>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:3>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:4>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:5>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:6>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:7>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:8>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:9>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:10>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:11>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:12>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:13>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:14>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<aether_legacy:skyroot_bed:15>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
+<aether_legacy:skyroot_bed_item>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 
 #lootbags
 <dungeontactics:bag_food>.addTooltip("Some of the food inside still looks edible.");
