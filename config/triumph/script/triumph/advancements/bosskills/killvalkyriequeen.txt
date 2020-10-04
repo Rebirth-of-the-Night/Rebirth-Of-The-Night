@@ -1,0 +1,12 @@
+setIcon(<minecraft:dirt>)
+setTitle("kill Valkyrie Queen")
+setDescription("#PLACEHOLDER#")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("#PLACEHOLDER#", "minecraft:player_killed_entity")
+criteria.setEntityType("#PLACEHOLDER#")
+
+hideLines()
+alwaysVisible()
+setPos(-221,57)
