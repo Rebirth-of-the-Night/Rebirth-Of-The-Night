@@ -27,6 +27,9 @@ mods.futuremc.Composter.addValidItem(<minecraft:paper>, 10); // Paper
 var a = <ore:stone>;
 var b = <ore:ingotSilver>;
 
+//misc
+val foundation = <contenttweaker:micomi_foundation>;
+
 //igneous stone blocks
 val igStone = <undergroundbiomes:igneous_stone>;
 val igStoneSlab = <undergroundbiomes:igneous_stone_halfslab>;
@@ -113,7 +116,8 @@ mods.futuremc.Stonecutter.addOutputs(igStone.definition.makeStack(i),
 											igStairs.definition.makeStack(i),
 											igBrickStairs.definition.makeStack(i),											
 											igWall.definition.makeStack(i),
-											igBrickWall.definition.makeStack(i));
+											igBrickWall.definition.makeStack(i),
+											foundation);
 
 
 

@@ -160,6 +160,13 @@ egg_block.setGravity(true);
 egg_block.setLightOpacity(65);
 egg_block.register();
 
+var micomi_foundation = VanillaFactory.createBlock("micomi_foundation", <blockmaterial:Rock>);
+micomi_foundation.setCreativeTab(<creativetab:buildingBlocks>);
+micomi_foundation.setBlockSoundType(<soundtype:stone>);
+micomi_foundation.setBlockHardness(3.0);
+micomi_foundation.setBlockResistance(20.0);
+micomi_foundation.register();
+
 var fire_block = VanillaFactory.createBlock("fire_block", <blockmaterial:Fire>);
 fire_block.setBlockSoundType(<soundtype:cloth>);
 fire_block.setLightValue(15);
