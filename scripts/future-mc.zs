@@ -140,9 +140,10 @@ mods.futuremc.Stonecutter.addOutputs(metaStone.definition.makeStack(i),
 											metaBrick.definition.makeStack(i),
 											metaBrickSlab.definition.makeStack(i),
 											metaStairs.definition.makeStack(i),
-											metaBrickStairs.definition.makeStack(i),											
+											metaBrickStairs.definition.makeStack(i),									
 											metaWall.definition.makeStack(i),
-											metaBrickWall.definition.makeStack(i));
+											metaBrickWall.definition.makeStack(i),
+											foundation);
 }
 
 //sedimentary stone recipes

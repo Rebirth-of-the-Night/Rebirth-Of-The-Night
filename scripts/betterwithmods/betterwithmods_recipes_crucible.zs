@@ -22,7 +22,7 @@ mods.betterwithmods.Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<better
 //Normal Steel
 mods.betterwithmods.Crucible.addUnstoked(
     [
-        <ore:ingotIron>,
+        <ore:ingotIron>|<ore:dustIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>
@@ -34,7 +34,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 //Stoked Normal Steel
 mods.betterwithmods.Crucible.addStoked(
     [
-        <ore:ingotIron>,
+        <ore:ingotIron>|<ore:dustIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>
@@ -240,10 +240,15 @@ mods.betterwithmods.Crucible.addStoked(
 //Electrum Production
 mods.betterwithmods.Crucible.addUnstoked(
     [
-        <ore:blockSilver>,
         <ore:blockGold>,
         <ore:blockGold>,
-        <aether_legacy:ambrosium_block>
+		<ore:blockGold>,
+        <ore:blockGold>,
+		<ore:blockSilver>,
+		<ore:blockSilver>,
+		<ore:blockSilver>,
+        <aether_legacy:ambrosium_block>,
+		<aether_legacy:ambrosium_block>
     ],
     [
         <contenttweaker:block_electrum>*4
@@ -251,10 +256,15 @@ mods.betterwithmods.Crucible.addUnstoked(
 );
 mods.betterwithmods.Crucible.addUnstoked(
     [
-        <ore:ingotSilver>,
         <ore:ingotGold>,
         <ore:ingotGold>,
-        <ore:gemAmbrosium>
+		<ore:ingotGold>,
+		<ore:ingotGold>,
+		<ore:ingotSilver>,
+		<ore:ingotSilver>,
+		<ore:ingotSilver>,
+        <ore:gemAmbrosium>,
+		<ore:gemAmbrosium>
     ],
     [
         <ore:ingotElectrum>.firstItem*4
@@ -263,10 +273,15 @@ mods.betterwithmods.Crucible.addUnstoked(
 //Stoked Electrum Production
 mods.betterwithmods.Crucible.addStoked(
     [
-        <ore:blockSilver>,
         <ore:blockGold>,
         <ore:blockGold>,
-        <aether_legacy:ambrosium_block>
+		<ore:blockGold>,
+        <ore:blockGold>,
+		<ore:blockSilver>,
+		<ore:blockSilver>,
+		<ore:blockSilver>,
+        <aether_legacy:ambrosium_block>,
+		<aether_legacy:ambrosium_block>
     ],
     [
         <contenttweaker:block_electrum>*4
@@ -274,10 +289,15 @@ mods.betterwithmods.Crucible.addStoked(
 );
 mods.betterwithmods.Crucible.addStoked(
     [
-        <ore:ingotSilver>,
         <ore:ingotGold>,
         <ore:ingotGold>,
-        <ore:gemAmbrosium>
+		<ore:ingotGold>,
+		<ore:ingotGold>,
+		<ore:ingotSilver>,
+		<ore:ingotSilver>,
+		<ore:ingotSilver>,
+        <ore:gemAmbrosium>,
+		<ore:gemAmbrosium>
     ],
     [
         <ore:ingotElectrum>.firstItem*4

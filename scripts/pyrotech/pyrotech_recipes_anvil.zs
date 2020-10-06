@@ -33,36 +33,52 @@ lvl 9 = 108
 lvl 10(9) = 108
 	dragonsteel
 */
-GraniteAnvil.addRecipe("break clay brick",<minecraft:brick>*4, <minecraft:brick_block>, 4,"hammer", true);
-GraniteAnvil.addRecipe("break stone brick",<pyrotech:material:16>*4, <minecraft:stonebrick>, 4,"hammer", true);
-GraniteAnvil.addRecipe("break nether brick",<minecraft:netherbrick>*4, <minecraft:nether_brick>, 4,"hammer", true);
-GraniteAnvil.addRecipe("break mud brick",<biomesoplenty:mud_brick>*4, <biomesoplenty:mud_brick_block>, 4,"hammer", true);
-GraniteAnvil.addRecipe("white stone recycling",<betterwithmods:material:39>, <betterwithaddons:whitebrick:2>,4,"hammer", true);
-GraniteAnvil.addRecipe("prismarine to prismshard",<minecraft:prismarine_shard>*3, <minecraft:prismarine>, 18,"pickaxe", true);
-GraniteAnvil.addRecipe("prism brick to prismshard to",<minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 18,"pickaxe", true);
-GraniteAnvil.addRecipe("dwarven measures",<minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}),<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility", Quality: {}}), 1,"hammer", true);
-GraniteAnvil.addRecipe("flintblock to flint",<minecraft:flint>*4,<betterwithmods:aesthetic:5>, 8,"hammer", true);
-GraniteAnvil.addRecipe("ambrosium to magic dust", <dungeontactics:magic_powder>*3, <aether_legacy:ambrosium_block>, 16,"hammer", true);
-GraniteAnvil.addRecipe("raw endorium", <endreborn:item_raw_endorium>, <ore:enderpearl>, 16, "hammer", true);
-GraniteAnvil.addRecipe("lormyte crystal", <endreborn:item_lormyte_crystal>*2, <endreborn:block_lormyte_crystal>, 8, "hammer", true);
-GraniteAnvil.addRecipe("obsidian dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);
-GraniteAnvil.addRecipe("obsidian shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 64, "pickaxe", true);
-GraniteAnvil.addRecipe("cobblestone any cobblestone", <minecraft:cobblestone>, <ore:cobblestone>, 1, "hammer", true);
+GraniteAnvil.addRecipe("break_clay_brick",<minecraft:brick>*4, <minecraft:brick_block>, 4,"hammer", true);
+GraniteAnvil.addRecipe("break_stone_brick",<pyrotech:material:16>*4, <minecraft:stonebrick>, 4,"hammer", true);
+GraniteAnvil.addRecipe("break_nether_brick",<minecraft:netherbrick>*4, <minecraft:nether_brick>, 4,"hammer", true);
+GraniteAnvil.addRecipe("break_mud_brick",<biomesoplenty:mud_brick>*4, <biomesoplenty:mud_brick_block>, 4,"hammer", true);
+GraniteAnvil.addRecipe("white_stone_recycling",<betterwithmods:material:39>, <betterwithaddons:whitebrick:2>,4,"hammer", true);
+GraniteAnvil.addRecipe("prismarine_to_prismshard",<minecraft:prismarine_shard>*3, <minecraft:prismarine>, 18,"pickaxe", true);
+GraniteAnvil.addRecipe("prism_brick_to_prismshard_to",<minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 18,"pickaxe", true);
+GraniteAnvil.addRecipe("flintblock_to_flint",<minecraft:flint>*4,<betterwithmods:aesthetic:5>, 8,"hammer", true);
+GraniteAnvil.addRecipe("ambrosium_to_magic_dust", <contenttweaker:magic_blend>*3, <aether_legacy:ambrosium_block>, 16,"hammer", true);
+GraniteAnvil.addRecipe("raw_endorium", <endreborn:item_raw_endorium>, <ore:enderpearl>, 16, "hammer", true);
+GraniteAnvil.addRecipe("lormyte_crystal", <endreborn:item_lormyte_crystal>*2, <endreborn:block_lormyte_crystal>, 8, "hammer", true);
+GraniteAnvil.addRecipe("obsidian_dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);
+GraniteAnvil.addRecipe("obsidian_shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 64, "pickaxe", true);
+GraniteAnvil.addRecipe("cobblestone_any_cobblestone", <minecraft:cobblestone>, <ore:cobblestone>, 1, "hammer", true);
 GraniteAnvil.addRecipe("entropy_cobblestone", <endreborn:block_entropy_end_stone>, <minecraft:end_stone>, 4,"hammer", true);
-GraniteAnvil.addRecipe("copper_tin_to_pebbles", <contenttweaker:copper_tin_pebbles>*4, <contenttweaker:copper_tin_mixture>, 8, "hammer", true);
-GraniteAnvil.addRecipe("silver_gold_ambrosium_to_pebbles", <contenttweaker:silver_gold_pebbles>*8, <contenttweaker:silver_gold_mixture>, 6, "hammer", true);
-GraniteAnvil.addRecipe("charcoal pile to charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);
+GraniteAnvil.addRecipe("copper_to_dust", <ore:dustCopper>.firstItem, <ore:ingotCopper>, 8, "hammer", true);
+GraniteAnvil.addRecipe("copper_ore_to_dust", <ore:dustCopper>.firstItem, <ore:oreCopper>, 4, "hammer", true);
+GraniteAnvil.addRecipe("tin_to_dust", <ore:dustTin>.firstItem, <ore:ingotTin>, 8, "hammer", true);
+GraniteAnvil.addRecipe("tin_ore_to_dust", <ore:dustTin>.firstItem, <ore:oreTin>, 4, "hammer", true);
+GraniteAnvil.addRecipe("iron_to_dust", <ore:dustIron>.firstItem, <ore:ingotIron>, 12, "hammer", true);
+GraniteAnvil.addRecipe("iron_ore_to_dust", <ore:dustIron>.firstItem, <ore:oreIron>, 8, "hammer", true);
+GraniteAnvil.addRecipe("bronze_to_dust", <ore:dustBronze>.firstItem, <ore:ingotBronze>, 16, "hammer", true);
+GraniteAnvil.addRecipe("gold_to_dust", <ore:dustGold>.firstItem, <ore:ingotGold>, 8, "hammer", true);
+GraniteAnvil.addRecipe("gold_ore_to_dust", <ore:dustGold>.firstItem, <ore:oreGold>, 4, "hammer", true);
+GraniteAnvil.addRecipe("silver_to_dust", <ore:dustSilver>.firstItem, <ore:ingotSilver>, 8, "hammer", true);
+GraniteAnvil.addRecipe("silver_ore_to_dust", <ore:dustSilver>.firstItem, <ore:oreSilver>, 4, "hammer", true);
+GraniteAnvil.addRecipe("electrum_to_dust", <ore:dustElectrum>.firstItem, <ore:ingotElectrum>, 8, "hammer", true);
+GraniteAnvil.addRecipe("steel_to_dust", <ore:dustCrucibleSteel>.firstItem, <ore:ingotCrucibleSteel>, 32, "hammer", true);
+GraniteAnvil.addRecipe("viridium_to_dust", <ore:dustViridium>.firstItem, <ore:ingotViridium>, 12, "hammer", true);
+GraniteAnvil.addRecipe("viridium_ore_to_dust", <ore:dustViridium>.firstItem, <ore:oreViridium>, 8, "hammer", true);
+GraniteAnvil.addRecipe("mythril_to_dust", <ore:dustMythril>.firstItem, <ore:ingotMyhtril>, 48, "hammer", true);
+GraniteAnvil.addRecipe("mythril_ore_to_dust", <ore:dustMythril>.firstItem, <ore:oreMyhtril>, 16, "hammer", true);
+GraniteAnvil.addRecipe("sfs_to_dust", <ore:dustSoulforgedSteel>.firstItem, <ore:ingotSoulforgedSteel>, 64, "hammer", true);
+GraniteAnvil.addRecipe("endorium_to_dust", <ore:dustEndorium>.firstItem, <ore:ingotEndorium>, 12, "hammer", true);
+GraniteAnvil.addRecipe("charcoal_pile_to_charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);
 GraniteAnvil.addRecipe("log_to_pulp",<pyrotech:material:25>*6, <ore:barkWood>, 32,"hammer", true);
 GraniteAnvil.addRecipe("kenaf_to_pulp",<pyrotech:material:25>*4, <ore:cropKenaf>, 8, "hammer", true);
-GraniteAnvil.addRecipe("crab murder",<quark:crab_shell>*2, <harvestcraft:crabrawitem>, 1,"hammer", true);
-GraniteAnvil.addRecipe("wither skull to dust",<quark:black_ash>*3, <minecraft:skull:1>, 8,"hammer", true);
-GraniteAnvil.addRecipe("smash heart 1",<scalinghealth:crystalshard>*4, <bountifulbaubles:trinketbrokenheart>, 12,"hammer", true);
-GraniteAnvil.addRecipe("smash heart 2",<scalinghealth:crystalshard>*3, <bountifulbaubles:trinketshulkerheart>, 16,"hammer", true);
-GraniteAnvil.addRecipe("smash heart 3",<scalinghealth:crystalshard>*6, <iceandfire:fire_dragon_heart>, 32,"hammer", true);
-GraniteAnvil.addRecipe("smash heart 4",<scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>, 32,"hammer", true);
-GraniteAnvil.addRecipe("smash heart 5",<scalinghealth:crystalshard>*1, <quark:diamond_heart>, 64,"hammer", true);
-GraniteAnvil.addRecipe("halite to salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
-GraniteAnvil.addRecipe("star to magic dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>, 48,"hammer", true);
+GraniteAnvil.addRecipe("crab_murder",<quark:crab_shell>*2, <harvestcraft:crabrawitem>, 1,"hammer", true);
+GraniteAnvil.addRecipe("wither_skull_to_dust",<quark:black_ash>*3, <minecraft:skull:1>, 8,"hammer", true);
+GraniteAnvil.addRecipe("smash_heart_1",<scalinghealth:crystalshard>*4, <bountifulbaubles:trinketbrokenheart>, 12,"hammer", true);
+GraniteAnvil.addRecipe("smash_heart_2",<scalinghealth:crystalshard>*3, <bountifulbaubles:trinketshulkerheart>, 16,"hammer", true);
+GraniteAnvil.addRecipe("smash_heart_3",<scalinghealth:crystalshard>*6, <iceandfire:fire_dragon_heart>, 32,"hammer", true);
+GraniteAnvil.addRecipe("smash_heart_4",<scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>, 32,"hammer", true);
+GraniteAnvil.addRecipe("smash_heart_5",<scalinghealth:crystalshard>*1, <quark:diamond_heart>, 64,"hammer", true);
+GraniteAnvil.addRecipe("halite_to_salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
+GraniteAnvil.addRecipe("star_to_magic_dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>, 48,"hammer", true);
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>, 64,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_fossil",<pyrotech:material:8>, <undergroundbiomes:fossil_piece:*>, 4,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_ruby",<pyrotech:material:8>*3, <ore:gemRuby>, 64,"hammer", true);
@@ -75,6 +91,7 @@ GraniteAnvil.addRecipe("refractorylump_marble",<pyrotech:material:8>*2, <undergr
 GraniteAnvil.addRecipe("refractorylump_dolomite",<pyrotech:material:8>*2, <undergroundbiomes:sedimentary_stone:5>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("limerock_lime",<pyrotech:rock:8>*3, <undergroundbiomes:sedimentary_stone>, 8,"pickaxe", true);
 GraniteAnvil.addRecipe("blaze_lantern_to_powder",<minecraft:blaze_powder>*3, <quark:blaze_lantern>, 16,"hammer", true);
+GraniteAnvil.addRecipe("dwarven_measures",<minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}),<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility", Quality: {}}), 1,"hammer", true);
 
 //D-Heads
 /* 

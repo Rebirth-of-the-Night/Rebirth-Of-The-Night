@@ -94,18 +94,18 @@ Mortar.addRecipe(["diamond", "obsidian"], <ceramics:unfired_clay:4>, 5, [<nether
 
 //Melting //Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int melting_point, @Optional int speed)
 
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*144, <betterwithmods:material:14>, 2350);//SFS and SFS artifacts
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*(144*16), <betterwithmods:steel_block>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <ore:nuggetSoulforgedSteel>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact1>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact2>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact3>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact4>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact5>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact6>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact7>, 2350);
-mods.foundry.Melting.addRecipe(<liquid:soul_forged_steel>*16, <contenttweaker:sfs_artifact8>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*144, <betterwithmods:material:14>, 2350);//SFS and SFS artifacts
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*(144*16), <betterwithmods:steel_block>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <ore:nuggetSoulforgedSteel>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact1>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact2>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact3>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact4>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact5>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact6>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact7>, 2350);
+mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact8>, 2350);
 mods.foundry.Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:material:16>, 1373);//stone
 mods.foundry.Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:rock>, 1373);
 mods.foundry.Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:stone>, 1373);
@@ -123,6 +123,7 @@ mods.foundry.Melting.addRecipe(<liquid:viridium>*(144*9), <contenttweaker:lunari
 mods.foundry.Melting.addRecipe(<liquid:viridium>*16, <contenttweaker:material_part:10>, 2500);
 
 mods.foundry.Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450);//miscellaneous melting
+mods.foundry.Melting.addRecipe(<liquid:ender_slag>*1000, <ore:endstone>, 1200);
 
 //Removed molds
 mods.foundry.MoldStation.removeRecipe([//Gear
@@ -344,7 +345,7 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_helmet>, <liquid:steel>*((1
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_helmet>, <liquid:viridium>*((144*8)-(16*2*8)), <foundry:mold:14>, <betterwithmods:material:42>*2);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_helmet>, <liquid:mythril>*((144*8)-(16*2*8)), <foundry:mold:14>, <betterwithmods:material:42>*2);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_helmet>, <liquid:onyx_alloy>*((144*8)-(16*2*8)), <foundry:mold:14>, <betterwithmods:material:42>*2);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_helmet>, <liquid:soul_forged_steel>*((144*8)-(16*2*8)), <foundry:mold:14>, <betterwithmods:material:42>*2);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_helmet>, <liquid:soulforged_steel>*((144*8)-(16*2*8)), <foundry:mold:14>, <betterwithmods:material:42>*2);//SFS
 
 // CHESTPLATE //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*1152, <foundry:mold:15>);
@@ -357,7 +358,7 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_chestplate>, <liquid:steel>
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_chestplate>, <liquid:viridium>*((144*12)-(16*2*12)), <foundry:mold:15>, <betterwithmods:material:42>*2);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_chestplate>, <liquid:mythril>*((144*12)-(16*2*12)), <foundry:mold:15>, <betterwithmods:material:42>*2);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_chestplate>, <liquid:onyx_alloy>*((144*12)-(16*2*12)), <foundry:mold:15>, <betterwithmods:material:42>*2);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_chest>, <liquid:soul_forged_steel>*((144*12)-(16*2*12)), <foundry:mold:15>, <betterwithmods:material:42>*2);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_chest>, <liquid:soulforged_steel>*((144*12)-(16*2*12)), <foundry:mold:15>, <betterwithmods:material:42>*2);//SFS
 
 // LEGGINGS //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*1008, <foundry:mold:16>);
@@ -370,7 +371,7 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_leggings>, <liquid:steel>*(
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_leggings>, <liquid:viridium>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_leggings>, <liquid:mythril>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_leggings>, <liquid:onyx_alloy>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_pants>, <liquid:soul_forged_steel>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_pants>, <liquid:soulforged_steel>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//SFS
 
 // BOOTS //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*576, <foundry:mold:17>);
@@ -383,7 +384,7 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_boots>, <liquid:steel>*((14
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_boots>, <liquid:viridium>*((144*6)-(16*2*6)), <foundry:mold:17>, <betterwithmods:material:42>*2);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_boots>, <liquid:mythril>*((144*6)-(16*2*6)), <foundry:mold:17>, <betterwithmods:material:42>*2);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_boots>, <liquid:onyx_alloy>*((144*6)-(16*2*6)), <foundry:mold:17>, <betterwithmods:material:42>*2);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_boots>, <liquid:soul_forged_steel>*((144*6)-(16*2*6)), <foundry:mold:17>, <betterwithmods:material:42>*2);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_boots>, <liquid:soulforged_steel>*((144*6)-(16*2*6)), <foundry:mold:17>, <betterwithmods:material:42>*2);//SFS
 
 // ARMING SWORD //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*288, <foundry:mold:10>, <minecraft:stick>);//iron
@@ -408,11 +409,11 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_pickaxe>, <liquid:steel>*((
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_pickaxe>, <liquid:viridium>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_pickaxe>, <liquid:mythril>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_pickaxe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_pickaxe>, <liquid:soul_forged_steel>*((144*3)-(16*2*3)), <foundry:mold:8>, <betterwithmods:material:36>*3);//SFS
-mods.foundry.Casting.addRecipe(<pyrotech:diamond_hammer>, <liquid:soul_forged_steel>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <betterwithmods:material:36>*4);
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_pickaxe>, <liquid:soulforged_steel>*((144*3)-(16*2*3)), <foundry:mold:8>, <betterwithmods:material:36>*3);//SFS
+mods.foundry.Casting.addRecipe(<pyrotech:diamond_hammer>, <liquid:soulforged_steel>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <betterwithmods:material:36>*4);
 
 // MATTOCK //
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_mattock>, <liquid:soul_forged_steel>*((144*4)-(16*2*4)), <contenttweaker:mattock_mold>, <betterwithmods:material:36>*3);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_mattock>, <liquid:soulforged_steel>*((144*4)-(16*2*4)), <contenttweaker:mattock_mold>, <betterwithmods:material:36>*3);//SFS
 
 // AXE //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*432, <foundry:mold:9>, <minecraft:stick>*2);//iron
@@ -425,7 +426,7 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_axe>, <liquid:steel>*((144*
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_axe>, <liquid:viridium>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_axe>, <liquid:mythril>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_axe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_axe>, <liquid:soul_forged_steel>*((144*3)-(16*2*3)), <foundry:mold:9>, <betterwithmods:material:36>*3);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_axe>, <liquid:soulforged_steel>*((144*3)-(16*2*3)), <foundry:mold:9>, <betterwithmods:material:36>*3);//SFS
 
 // SHOVEL //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*144, <foundry:mold:11>, <minecraft:stick>*2);//iron
@@ -438,7 +439,7 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_shovel>, <liquid:steel>*((1
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_shovel>, <liquid:viridium>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_shovel>, <liquid:mythril>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_shovel>, <liquid:onyx_alloy>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_shovel>, <liquid:soul_forged_steel>*((144)-(16*2)), <foundry:mold:11>, <betterwithmods:material:36>*3);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_shovel>, <liquid:soulforged_steel>*((144)-(16*2)), <foundry:mold:11>, <betterwithmods:material:36>*3);//SFS
 
 // HOE //
 mods.foundry.Casting.removeRecipe(<liquid:iron>*288, <foundry:mold:12>, <minecraft:stick>*2);//iron
@@ -451,7 +452,7 @@ mods.foundry.Casting.addRecipe(<dungeontactics:steel_hoe>, <liquid:steel>*((144*
 mods.foundry.Casting.addRecipe(<simpleores:adamantium_hoe>, <liquid:viridium>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//viridium
 mods.foundry.Casting.addRecipe(<simpleores:mythril_hoe>, <liquid:mythril>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//mythril
 mods.foundry.Casting.addRecipe(<simpleores:onyx_hoe>, <liquid:onyx_alloy>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//onyx
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_hoe>, <liquid:soul_forged_steel>*((144*2)-(16*2*2)), <foundry:mold:12>, <betterwithmods:material:36>*3);//SFS
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_hoe>, <liquid:soulforged_steel>*((144*2)-(16*2*2)), <foundry:mold:12>, <betterwithmods:material:36>*3);//SFS
 
 // DAGGER //
 mods.foundry.Casting.addRecipe(<spartanweaponry:dagger_copper>, <liquid:copper>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>);//copper
@@ -621,7 +622,7 @@ mods.foundry.Casting.addRecipe(<simpleores:onyx_shears>, <liquid:onyx_alloy>*((1
 // PLATES //
 mods.foundry.Casting.addRecipe(<minecraft:light_weighted_pressure_plate>, <liquid:gold>*((144*2)-(16*2*2)), <foundry:mold:1>);
 mods.foundry.Casting.addRecipe(<minecraft:heavy_weighted_pressure_plate>, <liquid:iron>*((144*2)-(16*2*2)), <foundry:mold:1>);
-mods.foundry.Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soul_forged_steel>*((144*4)-(16*2*4)), <foundry:mold:1>, <minecraft:redstone>*2);
+mods.foundry.Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_steel>*((144*4)-(16*2*4)), <foundry:mold:1>, <minecraft:redstone>*2);
 
 //Missing Block Casting Recipes
 //addBlockRecipe(IItemStack output, ILiquidStack input)
@@ -629,13 +630,15 @@ mods.foundry.CastingTable.addBlockRecipe(<simpleores:adamantium_block>, <liquid:
 mods.foundry.CastingTable.addBlockRecipe(<simpleores:mythril_block>, <liquid:mythril>*1296);
 mods.foundry.CastingTable.addBlockRecipe(<simpleores:onyx_block>, <liquid:onyx_alloy>*1296);
 mods.foundry.CastingTable.addBlockRecipe(<contenttweaker:block_electrum>, <liquid:electrum>*1296);
-mods.foundry.CastingTable.addBlockRecipe(<betterwithmods:steel_block>, <liquid:soul_forged_steel>*(144*16));
+mods.foundry.CastingTable.addBlockRecipe(<betterwithmods:steel_block>, <liquid:soulforged_steel>*(144*16));
 mods.foundry.CastingTable.addBlockRecipe(<minecraft:stone>, <liquid:coade_stone>*576);
+mods.foundry.CastingTable.addBlockRecipe(<endreborn:block_end_stone_smooth>, <liquid:ender_slag>*1000);
 
 //Missing Ingot Casting Recipes
 //addIngotRecipe(IItemStack output, ILiquidStack input)
 mods.foundry.CastingTable.addIngotRecipe(<simpleores:adamantium_ingot>, <liquid:viridium>*144);
 mods.foundry.CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:mythril>*144);
 mods.foundry.CastingTable.addIngotRecipe(<contenttweaker:material_part:12>, <liquid:electrum>*144);
-mods.foundry.CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soul_forged_steel>*144);
+mods.foundry.CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soulforged_steel>*144);
 mods.foundry.CastingTable.addIngotRecipe(<pyrotech:material:16>, <liquid:coade_stone>*144);
+mods.foundry.CastingTable.addIngotRecipe(<betterwithmods:material:39>, <liquid:ender_slag>*250);

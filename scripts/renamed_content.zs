@@ -154,7 +154,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <quark:stone_andesite_bricks_wall>.displayName = "Gray Andesite Brick Wall";
 <quark:andesite_speleothem>.displayName = "Gray Andesite Speleothem";
 <quark:end_bricks_slab:*>.displayName = "End Stone Brick Slab";
-<quark:iron_rod>.displayName = "Soul Forged Steel Rod";
+<quark:iron_rod>.displayName = "Soulforged Steel Rod";
 <quark:redstone_randomizer>.displayName = "Simple Randomizer";
 
 // Ice And Fire: Dragons in a Whole New Light

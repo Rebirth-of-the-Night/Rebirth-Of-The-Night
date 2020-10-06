@@ -111,8 +111,6 @@ val charcoal = <minecraft:coal:1>;
 mods.jei.JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
 mods.jei.JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
 mods.jei.JEI.addDescription(<biomesoplenty:biome_essence>,"Residual energy of that which was extinguished by Void. Can be found at the bottom of the Ender Dragon island.");
-
-mods.jei.JEI.addDescription(<contenttweaker:copper_tin_mixture>,"Sometimes the most direct approach is the best approach... If you don't have a crucible, that is.");
 mods.jei.JEI.addDescription(<ore:ingotSilver>,"A material known to be effectively used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
 mods.jei.JEI.addDescription(<ore:ingotIron>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 mods.jei.JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
