@@ -151,24 +151,15 @@ recipes.addShapeless("bronze to nugget", nugget*9,
  [bronze]);
  
 //BRONZE RECIPES
-recipes.addShapeless("copper tin mixture", <contenttweaker:copper_tin_mixture>,
- [<ore:ingotTin>,<ore:ingotCopper>,<ore:ingotCopper>,
-  <ore:ingotCopper>]
+recipes.addShapeless("bronze_dust", <contenttweaker:material_part:20>*4,
+ [<ore:dustTin>,<ore:dustCopper>,<ore:dustCopper>,
+  <ore:dustCopper>]
 		);
-recipes.addShapeless("copper_tin_mixture_return", <simpleores:copper_ingot>*3,
-    [<contenttweaker:copper_tin_mixture>],
-    function(out,ins,cInfo){
-      return out;
-},
-//IRecipeAction
-function(out,cInfo,player){
-    player.give(<simpleores:tin_ingot>);
-});	
   #Additional recipes on pyrotech scripts 
 
 		
 //info
-mods.jei.JEI.addDescription(<contenttweaker:material_part>,"As good as, if not better than iron.");
+mods.jei.JEI.addDescription(<contenttweaker:material_part>,"Definitely better than iron, not quite as good as steel.");
 mods.jei.JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
 mods.jei.JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
 mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");

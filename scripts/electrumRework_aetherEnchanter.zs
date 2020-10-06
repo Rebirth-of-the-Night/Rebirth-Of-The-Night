@@ -41,20 +41,10 @@ recipes.addShapeless("ingot_to_electrum_nugget",elecnugget* 9,
 [elec]
 );
 
-recipes.addShapeless("gold_silver_mixture", <contenttweaker:silver_gold_mixture>, [
-    <ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>,<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>,<aether_legacy:ambrosium_shard>,<aether_legacy:ambrosium_shard>
+recipes.addShapeless("aetherial_electrum_dust", <contenttweaker:material_part:21>*4, [
+    <ore:dustGold>,<ore:dustGold>,<ore:dustGold>,<ore:dustGold>,<ore:dustSilver>,<ore:dustSilver>,<ore:dustSilver>,<aether_legacy:ambrosium_shard>,<aether_legacy:ambrosium_shard>
 ]);
-recipes.addShapeless("gold_silver_mixture_return", <minecraft:gold_ingot>*4,[
-    <contenttweaker:silver_gold_mixture>
-],
-function(out,ins,cInfo){
-    return out;
-},
-//IRecipeAction
-function(out,cInfo,player){
-    player.give(<iceandfire:silver_ingot>*3);
-    player.give(<aether_legacy:ambrosium_shard>*2);
-});
+
   #Additional recipes on pyrotech scripts 
  
 //JEI decriptions

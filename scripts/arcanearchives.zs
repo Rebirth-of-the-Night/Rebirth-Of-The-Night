@@ -60,7 +60,7 @@ recipes.addShapeless("tome_arcana", <arcanearchives:tome_arcana>.withTag({Book: 
 
 
 //dumbass magic wood brewing recipe until transmutation rune is done
-brewing.addBrew(<ore:logWood>, <dungeontactics:magic_powder>, <biomesoplenty:log_1:5>);
+brewing.addBrew(<ore:logWood>, <contenttweaker:magic_blend>, <biomesoplenty:log_1:5>);
 
 
 //////////Gemcutter Table Recipes
@@ -120,7 +120,15 @@ GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aethe
 
 GCT.addRecipe("voidseen_amethyst", <contenttweaker:voidseen_amethyst>, [<biomesoplenty:gem:0>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>, <endreborn:item_end_essence>*12]);
 
+GCT.addRecipe("ender_amethyst", <biomesoplenty:gem>, [<netherex:amethyst_crystal>, <endreborn:item_raw_endorium>*2]);
+
 GCT.addRecipe("draconium", <contenttweaker:draconium>, [<twilightforest:carminite>*8, <iceandfire:fire_dragon_blood>*4, <twilightforest:fiery_blood>*4, <twilightforest:borer_essence>*12]);
+
+GCT.addRecipe("magicinfused_wood1", <biomesoplenty:log_1:5>*16, [<arcanearchives:radiant_dust>, <contenttweaker:magic_blend>, <ore:mundaneWood>*16]);
+
+GCT.addRecipe("magicinfused_wood2", <biomesoplenty:log_1:5>*64, [<arcanearchives:radiant_dust>*2, <contenttweaker:magic_blend>*2, <ore:mundaneWood>*64]);
+
+// Misc
 
 //ender spectacles
 //actually turns out, this thing is OP as shit. endermen and variants don't even retaliate when attacked. I don't like that. until we can fix that or make a workaround, away it goes.

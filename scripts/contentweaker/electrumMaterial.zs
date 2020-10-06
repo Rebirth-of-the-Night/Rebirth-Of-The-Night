@@ -14,7 +14,7 @@ val sivgoldPebbles = mods.contenttweaker.VanillaFactory.createItem("silver_gold_
 sivgoldPebbles.register();
 
 //MISC PARTS
-var edata = electrum.registerParts(["ingot","nugget","molten","dense_plate"] as string[])[2].getData();
+var edata = electrum.registerParts(["ingot","nugget","molten","dense_plate","dust"] as string[])[2].getData();
 edata.addDataValue("temperature", 1308);
 edata.addDataValue("density", 1500);
 edata.addDataValue("luminosity", 9);

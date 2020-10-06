@@ -30,6 +30,16 @@ SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <
 SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:lifeblood>*950, <pyrotech:material:16>, 10 * 75 * 30);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
 SoakingPot.addRecipe("tarred_tar_hay", <pyrotech:wood_tar_block>*5, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
+SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20);
+SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*2, <liquid:wood_tar>*50, <pyrotech:material:32>, 6 * 60 * 20);
+SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 12 * 60 * 20);
+SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
+SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
+SoakingPot.addRecipe("vis_sliver", <contenttweaker:vis_sliver>, <liquid:lunar_water>*250, <contenttweaker:vis_speck>*4, 1 * 60 * 20);
+SoakingPot.addRecipe("vis_shard", <contenttweaker:vis_shard>, <liquid:lunar_water>*500, <contenttweaker:vis_sliver>*4, 5 * 60 * 20);
+SoakingPot.addRecipe("ender_amethyst", <netherex:amethyst_crystal>, <liquid:ender_slag>*200, <biomesoplenty:gem>*4, 1 * 60 * 20);
+
+// concrete
 SoakingPot.addRecipe("white_concrete", <minecraft:concrete:0>*8, <liquid:water>*500, <minecraft:concrete_powder:0>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("orange_concrete", <minecraft:concrete:1>*8, <liquid:water>*500, <minecraft:concrete_powder:1>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("magenta_concrete", <minecraft:concrete:2>*8, <liquid:water>*500, <minecraft:concrete_powder:2>*8, 5 * 60 * 20);
@@ -46,13 +56,6 @@ SoakingPot.addRecipe("brown_concrete", <minecraft:concrete:12>*8, <liquid:water>
 SoakingPot.addRecipe("green_concrete", <minecraft:concrete:13>*8, <liquid:water>*500, <minecraft:concrete_powder:13>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("red_concrete", <minecraft:concrete:14>*8, <liquid:water>*500, <minecraft:concrete_powder:14>*8, 5 * 60 * 20);
 SoakingPot.addRecipe("black_concrete", <minecraft:concrete:15>*8, <liquid:water>*500, <minecraft:concrete_powder:15>*8, 5 * 60 * 20);
-SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20);
-SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*2, <liquid:wood_tar>*50, <pyrotech:material:32>, 6 * 60 * 20);
-SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 12 * 60 * 20);
-SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
-SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
-SoakingPot.addRecipe("vis_sliver", <contenttweaker:vis_sliver>, <liquid:lunar_water>*250, <contenttweaker:vis_speck>*4, 1 * 60 * 20);
-SoakingPot.addRecipe("vis_shard", <contenttweaker:vis_shard>, <liquid:lunar_water>*500, <contenttweaker:vis_sliver>*4, 5 * 60 * 20);
 
 // Mossy stone recipes
 val ignMossyDef = <undergroundbiomes:igneous_cobble_mossy>.definition;
@@ -79,7 +82,7 @@ Burn.createBuilder("molten_spirit_vanilla", <pyrotech:material:16>, "simpleores:
 Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "endreborn:block_entropy_end_stone")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(1 * 60 * 20)
-    .setFluidProduced(<liquid:ender_slag> * 1000)
+    .setFluidProduced(<liquid:ender_slag> * 250)
 	.setFailureChance(0.33)
     .addFailureItem(<betterwithmods:material:39>) // enderslag
     .addFailureItem(<betterwithmods:material:39>*2) // enderslag

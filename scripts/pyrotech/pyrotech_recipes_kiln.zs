@@ -11,10 +11,13 @@ furnace.remove(<minecraft:netherbrick>, <betterwithmods:material:35>);
 furnace.remove(<pyrotech:material:15>);
 furnace.remove(<betterwithmods:cooking_pot>);
 
+var bronzeDust = <ore:dustBronze>;
+var electrumDust = <ore:dustElectrum>;
+
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
-StoneKiln.addRecipe("bronze_from_pebbles",<ore:ingotBronze>.firstItem, <contenttweaker:copper_tin_pebbles>, 20*300, true);
-StoneKiln.addRecipe("electrum_from_pebbles",<ore:ingotElectrum>.firstItem, <contenttweaker:silver_gold_pebbles>, 20*300, true);
+StoneKiln.addRecipe("bronze_from_dust",<ore:ingotBronze>.firstItem, bronzeDust, 20*300, true);
+StoneKiln.addRecipe("electrum_from_dust",<ore:ingotElectrum>.firstItem, electrumDust, 20*300, true);
 StoneKiln.addRecipe("bwmpottery",<betterwithmods:cooking_pot>, <betterwithmods:unfired_pottery>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery_a",<betterwithmods:cooking_pot>, <contenttweaker:crucible>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery1",<betterwithmods:planter>, <betterwithmods:unfired_pottery:1>, 20*210, true);
@@ -29,7 +32,7 @@ StoneKiln.addRecipe("bwmcobble_to_stone",<minecraft:stone:0>, <minecraft:cobbles
 StoneKiln.addRecipe("bwmcobble_to_stone1",<minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*210, true);
 StoneKiln.addRecipe("bwmcobble_to_stone2",<minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*210, true);
 StoneKiln.addRecipe("bwmcobble_to_stone3",<minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*210, true);
-StoneKiln.addRecipe("charge_to_blazepowder",<minecraft:blaze_powder>, <minecraft:fire_charge>, 20*210, true);
+StoneKiln.addRecipe("charge_to_burnt_goo",<betterslimes:black_slime>, <minecraft:fire_charge>, 20*300, true);
 StoneKiln.addRecipe("bwmmudbrick_efficient",<biomesoplenty:mud_brick>, <ore:ballMud>, 20*210, true);
 StoneKiln.addRecipe("charcoal_pile",<contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*290, true);
 StoneKiln.addRecipe("charcoal_flakes",<pyrotech:material:15>, <pyrotech:rock:7>, 20*290, 0.25, [<biomesoplenty:ash>*2], true);

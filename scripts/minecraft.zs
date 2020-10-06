@@ -637,6 +637,7 @@ recipes.addShaped("scrapped_leather", <betterwithmods:material:31>,
 
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
+<ore:ingotCrucibleSteel>.add(<dungeontactics:steel_ingot>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
 <ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>]);
 <ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>,<ceramics:clay_bucket:1>]);

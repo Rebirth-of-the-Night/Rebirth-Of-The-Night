@@ -25,3 +25,7 @@ item.pyrotech.obsidian.hammer.name=Onyx Sledgehammer
 item.pyrotech.glass.shard.name=Coal Coke Dust
 item.pyrotech.slaked.lime.name=Rich Slag
 tile.pyrotech.limestone.name=Desert Varnish
+
+tile.pyrotech.rock_andesite.name=Zinc Bits
+tile.pyrotech.rock_diorite.name=Au'Ag Pebbles
+tile.pyrotech.rock_granite.name=Copperons 

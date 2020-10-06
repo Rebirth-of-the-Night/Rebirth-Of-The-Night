@@ -39,6 +39,17 @@ blockBronze.setBlockResistance(15.0);
 blockBronze.setBeaconBase(true);
 blockBronze.register();
 
+//copper_plate
+var copper_plate = VanillaFactory.createBlock("copper_plate", <blockmaterial:Iron>);
+copper_plate.setCreativeTab(<creativetab:buildingBlocks>);
+copper_plate.register();
+
+//copper_patined
+var copper_patined = VanillaFactory.createBlock("copper_patined", <blockmaterial:Iron>);
+copper_patined.setCreativeTab(<creativetab:buildingBlocks>);
+copper_plate.setBeaconBase(true);
+copper_patined.register();
+
 //Unfired Refractory Crucible
 var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Iron>);
 crucible.setCreativeTab(<creativetab:buildingBlocks>);
@@ -176,8 +187,8 @@ fire_block.register();
 
 var planarspsp2 = VanillaFactory.createBlock("planarspsp2", <blockmaterial:Rock>);
 planarspsp2.setCreativeTab(<creativetab:buildingBlocks>);
-blockBronze.setBlockHardness(350.0);
-blockBronze.setBlockResistance(3600000.0);
+planarspsp2.setBlockHardness(350.0);
+planarspsp2.setBlockResistance(3600000.0);
 planarspsp2.setBlockSoundType(<soundtype:stone>);
 planarspsp2.setToolClass("pickaxe");
 planarspsp2.setToolLevel(6);
