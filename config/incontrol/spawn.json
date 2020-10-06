@@ -1149,21 +1149,6 @@
     "result": "deny"
  },
 
-{
-    "dimension": -1,
-    "mob": "specialmobs:stickylavaslime",
-    "gamestage": "killedGhastQueen",
-    "maxcount": {
-        "amount": 5,
-        "perplayer": true
-    },
-    "result": "allow"
- },
- {
-    "dimension": -1,
-    "mob": "specialmobs:stickylavaslime",
-    "result": "deny"
- },
  
 {
     "dimension": -1,
