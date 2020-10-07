@@ -722,7 +722,10 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+		"endreborn:ender_killer",
+		"dungeontactics:runed"
+	],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
@@ -2188,7 +2191,10 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+		"endreborn:ender_killer",
+		"dungeontactics:runed"
+	],
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
@@ -2545,7 +2551,10 @@
       "MAINHAND"
     ],
     "incompat_mode": 0,
-    "incompatible": [],
+    "incompatible": [
+		"endreborn:ender_killer",
+		"dungeontactics:runed"
+	],
     "applicability_mode": 1,
     "items_list_mode": 0,
     "items_list": [
@@ -3326,7 +3335,10 @@
     ],
     "incompat_mode": 1,
     "incompatible": [
-		"minecraft:sharpness"
+		"minecraft:sharpness",
+		"minecraft:bane_of_arthropods",
+		"minecraft:smite",
+		"endreborn:ender_killer"
 	],
     "applicability_mode": 0,
     "items_list_mode": 0,
