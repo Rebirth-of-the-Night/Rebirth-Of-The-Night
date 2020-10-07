@@ -142,10 +142,10 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:relic_candy>.withTag(enchantmentR
 ////////////////////////////////////////        Legendaries        ///////////////////////////////////
 /////////////////////        Dark's Edge        /////////////////////
 
-var onyx_sword = <simpleores:onyx_sword>;
+var covenant = <atop:topaz_sword>;
+var convergence = <atop:amethyst_sword>;
 var mythril_sword = <simpleores:mythril_sword>;
 var viridium_sword = <simpleores:adamantium_sword>;
-var diamond_sword = <minecraft:diamond_sword>;
 var biotite = <quark:biotite>;
 var lormyte_crystal = <endreborn:item_lormyte_crystal>;
 
@@ -160,8 +160,8 @@ recipes.remove(<msmlegacy:wither_bane>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(({"Quark:RuneColor": 14, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap3), 
 [
    [biotite, lormyte_crystal, lormyte_crystal, biotite],
-   [lormyte_crystal, onyx_sword, mythril_sword, lormyte_crystal],
-   [lormyte_crystal, viridium_sword, diamond_sword, lormyte_crystal],
+   [lormyte_crystal, covenant, mythril_sword, lormyte_crystal],
+   [lormyte_crystal, viridium_sword, convergence, lormyte_crystal],
    [biotite, lormyte_crystal, lormyte_crystal, biotite]
 ]);
 
@@ -183,8 +183,8 @@ recipes.remove(<msmlegacy:crystaline_blade>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(({"Quark:RuneColor": 4, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap4), 
 [
    [biotite, lightessence, lightessence, biotite],
-   [lightessence, onyx_sword, mythril_sword, lightessence],
-   [lightessence, viridium_sword, diamond_sword, lightessence],
+   [lightessence, covenant, mythril_sword, lightessence],
+   [lightessence, viridium_sword, convergence, lightessence],
    [biotite, lightessence, lightessence, biotite]
 ]);
 
@@ -342,7 +342,6 @@ var end_sword = <endreborn:ender_sword>;
 var aethers_guard = <msmlegacy:aethers_guard>;
 var glass_sword = <twilightforest:glass_sword>;
 var mythrilsword = <simpleores:mythril_sword>;
-var diamondsword = <minecraft:diamond_sword>;
 var worldmirror = <endreborn:item_world_mirror>;
 var beingofentropy = <endreborn:death_essence>;
 var advenderpearl = <endreborn:item_advanced_ender_pearl>;
@@ -363,10 +362,10 @@ enchantmentMap7 += enchantments7[3].makeEnchantment(1).makeTag();
 recipes.remove(<msmlegacy:eye_end_blade>);
 mods.betterwithmods.Anvil.addShaped(<msmlegacy:eye_end_blade>.withTag(({"Quark:RuneColor": 5, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap7),
 [
-   [end_sword, beingofentropy, aethers_guard, diamondsword],
+   [end_sword, beingofentropy, aethers_guard, convergence],
    [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
    [wormholepotion, advenderpearl, advenderpearl, respawnpotion],
-   [onyx_sword, mythrilsword, beingofentropy, glass_sword]
+   [covenant, mythrilsword, beingofentropy, glass_sword]
 ]);
 
 
