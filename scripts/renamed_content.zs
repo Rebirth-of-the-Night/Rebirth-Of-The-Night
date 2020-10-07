@@ -195,6 +195,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <projectred-integration:gate:31>.displayName = "Stacking Latch";
 
 // DT
+<dungeontactics:steel_cutlass>.displayName = "Steel Arming Sword";
 <dungeontactics:barrel>.displayName = "Small Barrel";
 <dungeontactics:steel_ingot>.displayName = "Crucible Steel Ingot";
 <dungeontactics:steel_nugget>.displayName = "Crucible Steel Nugget";
