@@ -2641,7 +2641,7 @@
 {
     "dimension": 4,
     "mob": "netherex:wight",
-    "gamestage": "enteredBeneath",
+    "gamestage": "fullMidArmor",
 	"random": 0.30,
 	"maxlight": 7,
     "minlight": 0,
