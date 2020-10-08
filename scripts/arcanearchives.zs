@@ -120,8 +120,6 @@ GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aethe
 
 GCT.addRecipe("voidseen_amethyst", <contenttweaker:voidseen_amethyst>, [<biomesoplenty:gem:0>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>, <endreborn:item_end_essence>*12]);
 
-GCT.addRecipe("ender_amethyst", <biomesoplenty:gem>, [<netherex:amethyst_crystal>, <endreborn:item_raw_endorium>*2]);
-
 GCT.addRecipe("draconium", <contenttweaker:draconium>, [<twilightforest:carminite>*8, <iceandfire:fire_dragon_blood>*4, <twilightforest:fiery_blood>*4, <twilightforest:borer_essence>*12]);
 
 GCT.addRecipe("magicinfused_wood1", <biomesoplenty:log_1:5>*16, [<arcanearchives:radiant_dust>, <contenttweaker:magic_blend>, <ore:mundaneWood>*16]);
