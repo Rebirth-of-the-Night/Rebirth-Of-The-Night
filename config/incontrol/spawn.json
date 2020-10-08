@@ -710,7 +710,7 @@
     "mob": "quark:ashen",
     "maxlight": 7,
     "minlight": 0,
-	"maxheight": 50,
+	"maxheight": 59,
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -728,7 +728,7 @@
     "mob": "quark:dweller",
     "maxlight": 7,
     "minlight": 0,
-	"maxheight": 50,
+	"maxheight": 59,
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -740,6 +740,44 @@
     "mob": "quark:dweller",
     "result": "deny"
  },
+ 
+ {
+    "dimension": 10,
+    "mob": "mod_lavacow:undertaker",
+    "maxlight": 7,
+	"random": 0.5,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 10,
+    "mob": "mod_lavacow:undertaker",
+    "result": "deny"
+ }, 
+ 
+ 
+  {
+    "dimension": 0,
+    "mob": "mod_lavacow:undertaker",
+    "maxlight": 7,
+	"random": 0.5,
+	"gamestage": "enteredBeneath",
+	"biome": ["Ominous Woods", "Wasteland", "Dead Forest"],
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:undertaker",
+    "result": "deny"
+ }, 
+ 
  /////////////// GAME STAGES ///////////////
   // Zotzpyre
  {
@@ -2086,6 +2124,7 @@
     "maxtime": 12000,
     "maxlight": 15,
     "minlight": 14,
+	"minheight": 105,
     "random": 0.003,
     "seesky": true,
     "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4","aether_legacy:aether_grass"],
@@ -2526,8 +2565,7 @@
         "amount": 5,
         "perplayer": true
     },
-    "result": "allow",
-	"potion": "extraalchemy:effect.pacifism,1000000,1"
+    "result": "allow"
  },
  {
     "dimension": 0,
@@ -2677,10 +2715,12 @@
     "result": "deny"
  },
 
+/////// KILLED SUN SPIRIT
+
 {
     "dimension": 4,
     "mob": "netherex:frost",
-    "gamestage": "minedMythril",
+    "gamestage": "killedSunSpirit",
 	"random": 0.30,
 	"maxlight": 7,
     "minlight": 0,
@@ -2698,12 +2738,167 @@
     "result": "deny"
  },
 
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_beast",
+    "gamestage": "killedSunSpirit",
+	"seesky": true,
+	"maxlight": 9,
+	"minheight": 65,
+	"block": ["minecraft:grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "minecraft:snow", "minecraft:packed_ice", "biomesoplenty:hard_ice", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone"],
+	"winter": true,
+    "maxcount": {
+        "amount": 6,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_beast",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_scuttler",
+    "gamestage": "killedSunSpirit",
+	"random": 0.80,
+	"maxlight": 9,
+	"minheight": 65,
+	"block": ["minecraft:grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "minecraft:snow", "minecraft:packed_ice", "biomesoplenty:hard_ice", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone"],
+	"winter": true,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_scuttler",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_ghoul",
+    "gamestage": "killedSunSpirit",
+	"seesky": true,
+	"random": 0.60,
+	"maxlight": 7,
+	"minheight": 65,
+	"block": ["minecraft:grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "minecraft:snow", "minecraft:packed_ice", "biomesoplenty:hard_ice", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone"],
+	"winter": true,
+    "maxcount": {
+        "amount": 4,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_ghoul",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_thrall",
+    "gamestage": "killedSunSpirit",
+	"seesky": true,
+	"random": 0.70,
+	"maxlight": 7,
+	"minheight": 65,
+	"block": ["minecraft:grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "minecraft:snow", "minecraft:packed_ice", "biomesoplenty:hard_ice", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone"],
+	"winter": true,
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_thrall",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_lich",
+    "gamestage": "killedSunSpirit",
+	"seesky": true,
+	"random": 0.30,
+	"maxlight": 7,
+	"weather": "rain",
+	"minheight": 65,
+	"block": ["minecraft:grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "minecraft:snow", "minecraft:packed_ice", "biomesoplenty:hard_ice", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone"],
+	"winter": true,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow",
+	"potion": "extraalchemy:effect.pacifism,1000000,1"
+ },
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_lich",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_knight",
+    "gamestage": "killedSunSpirit",
+	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Cold Taiga", "Cold Taiga Hills", "Taiga M", "Ice Plains Spikes", "Cold Taiga M", "Mega Spruce Taiga", "Alps", "Boreal Forest", "Cold Desert", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "Glacier", "AlpsFoothills"], 
+	"seesky": true,
+	"random": 0.20,
+	"maxlight": 7,
+	"minheight": 65,
+	"block": ["minecraft:grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "minecraft:snow", "minecraft:packed_ice", "biomesoplenty:hard_ice", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone"],
+	"winter": true,
+    "maxcount": {
+        "amount": 4,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "iceandfire:dread_knight",
+    "result": "deny"
+ },
+
+ {
+    "dimension": 4,
+    "mob": "mod_lavacow:zombiefrozen",
+    "gamestage": "killedSunSpirit",
+	"random": 0.70,
+	"maxlight": 9,
+	"minheight": 100,
+    "maxcount": {
+        "amount": 7,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 0,
+    "mob": "mod_lavacow:zombiefrozen",
+    "result": "deny"
+ },
+
+
+///////////
 {
     "dimension": 4,
     "mob": "primitivemobs:harpy",
 	"random": 0.50,
 	"maxlight": 15,
     "minlight": 0,
+	"minheight": 85,
     "maxcount": {
         "amount": 10,
         "perplayer": true
@@ -2719,7 +2914,7 @@
 {
     "dimension": 4,
     "mob": "iceandfire:stymphalianbird",
-	"random": 0.05,
+	"random": 0.2,
     "maxcount": {
         "amount": 2,
         "perplayer": true
