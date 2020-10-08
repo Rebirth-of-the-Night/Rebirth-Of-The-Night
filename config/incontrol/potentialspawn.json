@@ -159,7 +159,29 @@
     ]
   },
 
+ {
+    "dimension": 10,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:undertaker",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
 
+ {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:undertaker",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
 
   {
     "dimension": 10,
@@ -1297,7 +1319,7 @@
   },
   
  
-// skydrake
+// KILLED SUN SPIRIT
  {
     "dimension": 4,
     "mobs": [
@@ -1309,7 +1331,91 @@
       }
     ]
   },
+
+ {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "iceandfire:dread_beast",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      }
+    ]
+  },
+
+ {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "iceandfire:dread_scuttler",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+
+{
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "iceandfire:dread_ghoul",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
   
+ {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "iceandfire:dread_thrall",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 8
+      }
+    ]
+  },
+  
+ {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "iceandfire:dread_lich",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+ {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "iceandfire:dread_knight",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+
+ {
+    "dimension": 4,
+    "mobs": [
+      {
+        "mob": "mod_lavacow:zombiefrozen",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
  // Fish's Undead Rising 
   {
     "dimension": [0,10],

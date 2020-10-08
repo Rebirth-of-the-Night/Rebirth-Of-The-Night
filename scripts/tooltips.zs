@@ -143,7 +143,7 @@
 <betterwithaddons:tatami>.addShiftTooltip('Tatami should not be arranged forming a "+" shape at the junctions, lest it bring an inauspicious future.');
 
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
-<aether_legacy:notch_hammer>.addTooltip("From the #1 princess in the world.");
+<aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
 <mowziesmobs:wrought_axe>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe>.addTooltip("Only damaged by dying");
 
