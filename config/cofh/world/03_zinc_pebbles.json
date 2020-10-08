@@ -1,0 +1,40 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": 
+	{
+		"zinc_pebbles": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"material": "air",
+				"cluster-size": 64,
+				"see-sky": false
+				},
+			"cluster-count": 48,
+			"ground-level": 64,
+			"chunk-chance": 10,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:glacier",
+					"iceandfire:glacier",
+					"twilightforest:twilight_glacier"
+				]
+			}
+		}
+	}
+}

@@ -56,7 +56,7 @@
 				"gen-size": 1,
 				"size-variance": 1
 			},
-			"cluster-count": 10,
+			"cluster-count": 1,
 			"min-height": 75,
 			"max-height": 120,
 			"retrogen": "true",

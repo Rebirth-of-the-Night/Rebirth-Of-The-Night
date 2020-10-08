@@ -1,5 +1,9 @@
 {
-	"dependencies": "roguelike",
+	"dependencies": [
+		"roguelike",
+		"bettercaves",
+		"cavegenerator"
+		]
 	"populate": {
 		"nether_hellfire_lakes": {
 			"distribution": "uniform",
@@ -21,15 +25,22 @@
 				"use-material": true,
 				"solid-outline": true,
 				"outline-block": [
-					"quark:biome_cobblestone",
 					"minecraft:magma",
 					"minecraft:obsidian",
 					"netherex:fiery_netherrack"
-				]
+				],
+				"gap-block": [
+					{
+					"name": "adpother:sulfur",
+					"properties": {
+						"density" : "heavy"
+						}
+					}
+				],
 			},
 			"cluster-count": 3,
-			"chunk-chance": 5,
-			"min-height": 75,
+			"chunk-chance": 10,
+			"min-height": 90,
 			"max-height": 120,
 			"biome": "all",
 			"retrogen": true,
@@ -41,14 +52,19 @@
 			}
 		},
 		"beneath_mythril_lakes": {
-			"distribution": "cave",
+			"distribution": "uniform",
 			"generator": {
 				"type": "lake",
 				"block": "contenttweaker:mythril_molten",
-				"use-material": false,
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"use-material": true,
 				"outline-block": [
 					{
-					"name":"osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_2",
+					"name":"osv:simpleores_mythril_ore_undergroundbiomes_igneous_stone_1",
 					"weight": 1
 					},
 					{
@@ -59,13 +75,62 @@
 			},
 			"cluster-count": 2,
 			"chunk-chance": 38,
-			"ground-level": 50,
+			"min-height": 19,
+			"max-height": 48,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
 					10
+				]
+			}
+		},
+		"volcanic_fumes": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "lake",
+				"block": "lava",
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"use-material": true,
+				"solid-outline": true,
+				"total-outline": true,
+				"outline-block": [
+					{
+					"name": "undergroundbiomes:igneous_cobble",
+					"properties": {
+						"type" : "basalt"
+						},
+					"weight": 12
+					},
+					{
+					"name": "air",
+					"weight": 1
+					}
+				],
+				"gap-block": [
+					{
+					"name": "adpother:degassing",
+					"properties": {
+						"density" : "medium"
+						}
+					}
+				]
+			},
+			"cluster-count": 3,
+			"chunk-chance": 8,
+			"center-height": 38,
+			"spread": 4,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
 				]
 			}
 		}
