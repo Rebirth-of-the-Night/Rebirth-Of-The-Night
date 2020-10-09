@@ -1,0 +1,25 @@
+setIcon("iceandfire:armor_red_chestplate")
+setTitle("Flames Of Pride")
+setDescription("Complete the Flames Of Pride set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Red leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_red_leggings")
+
+criteria = addCriteria("Bronze leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_bronze_leggings")
+
+criteria = addCriteria("Green leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_green_leggings")
+
+criteria = addCriteria("Gray leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_gray_leggings")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-189,69)

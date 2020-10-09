@@ -1,0 +1,21 @@
+setIcon("simpleores:adamantium_chestplate")
+setTitle("Heart of the World")
+setDescription("Complete the Heart of the World set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Viridium Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_helmet")
+
+criteria = addCriteria("Viridium Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_chestplate")
+
+criteria = addCriteria("Viridium Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_leggings")
+
+criteria = addCriteria("Viridium Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_boots")
+
+hideLines()
+alwaysVisible()
+setPos(135,45)

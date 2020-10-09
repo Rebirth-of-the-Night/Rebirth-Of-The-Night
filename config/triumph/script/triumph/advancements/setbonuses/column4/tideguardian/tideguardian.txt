@@ -1,0 +1,18 @@
+setIcon("iceandfire:tide_blue_chestplate")
+setTitle("Ebb And Flow")
+setDescription("Complete the Ebb And Flow set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/helmet")
+criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/chestplate")
+criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/leggings")
+criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/tideguardian/boots")
+
+hideLines()
+alwaysVisible()
+setPos(180,-60)

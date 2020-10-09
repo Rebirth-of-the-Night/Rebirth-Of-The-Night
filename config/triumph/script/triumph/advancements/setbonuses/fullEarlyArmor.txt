@@ -12,17 +12,11 @@ criteria.setAdvancement("triumph:advancements/setbonuses/bronzearmor")
 criteria = addCriteria("Chain Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/chainarmor")
 
-criteria = addCriteria("Hardened Leather Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/hardenedLeatherArmor")
-
 criteria = addCriteria("Iron Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/ironarmor")
 
 criteria = addCriteria("Silver Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/silverarmor")
-
-criteria = addCriteria("Tanned Leather Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/tannedLeatherArmor")
 
 criteria = addCriteria("Gold Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/goldarmor")

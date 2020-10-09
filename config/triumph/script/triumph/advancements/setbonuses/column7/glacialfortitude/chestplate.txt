@@ -1,0 +1,25 @@
+setIcon("iceandfire:armor_blue_chestplate")
+setTitle("Glacial Fortitude")
+setDescription("Complete the Glacial Fortitude set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Blue chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_blue_chestplate")
+
+criteria = addCriteria("White chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_white_chestplate")
+
+criteria = addCriteria("Sapphire chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_sapphire_chestplate")
+
+criteria = addCriteria("Silver chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_silver_chestplate")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,145)

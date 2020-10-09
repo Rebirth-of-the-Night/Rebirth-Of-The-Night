@@ -1,0 +1,25 @@
+setIcon("iceandfire:armor_blue_chestplate")
+setTitle("Glacial Fortitude")
+setDescription("Complete the Glacial Fortitude set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Blue leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_blue_leggings")
+
+criteria = addCriteria("White leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_white_leggings")
+
+criteria = addCriteria("Sapphire leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_sapphire_leggings")
+
+criteria = addCriteria("Silver leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_silver_leggings")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,145)

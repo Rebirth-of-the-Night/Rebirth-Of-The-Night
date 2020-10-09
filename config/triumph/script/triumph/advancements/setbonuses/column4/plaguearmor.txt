@@ -1,0 +1,21 @@
+setIcon("mod_lavacow:swinearmor_chestplate")
+setTitle("Inoculated")
+setDescription("Complete the Inoculated set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Plagued Coif", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:swinemask>)
+
+criteria = addCriteria("Plagued Chestplate", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:swinearmor_chestplate>)
+
+criteria = addCriteria("Plagued Leggings", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:swinearmor_leggings>)
+
+criteria = addCriteria("Plagued Boots", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:swinearmor_boots>)
+
+hideLines()
+alwaysVisible()
+setPos(180,0)

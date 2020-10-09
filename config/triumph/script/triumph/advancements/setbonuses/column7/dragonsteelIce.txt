@@ -1,0 +1,23 @@
+setIcon("iceandfire:dragonsteel_ice_chestplate")
+setTitle("Permafrost")
+setDescription("Complete the Permafrost set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Ice Dragonsteel Helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_ice_helmet")
+
+criteria = addCriteria("Ice Dragonsteel Chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_ice_chestplate")
+
+criteria = addCriteria("Ice Dragonsteel Leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_ice_leggings")
+
+criteria = addCriteria("Ice Dragonsteel Boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_ice_boots")
+
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(360,45)

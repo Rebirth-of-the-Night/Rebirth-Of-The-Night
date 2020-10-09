@@ -1,0 +1,23 @@
+setIcon("atop:mud_chestplate")
+setTitle("Ancient Warfare")
+setDescription("Complete the Ancient Warfare set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+// addRewardFunction("triumph:fullEarlyArmor")
+
+criteria = addCriteria("Bronze Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_helmet")
+
+criteria = addCriteria("Bronze Chesplate", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_chestplate")
+
+criteria = addCriteria("Bronze Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_leggings")
+
+criteria = addCriteria("Bronze Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_boots")
+
+hideLines()
+alwaysVisible()
+setPos(0,30)
