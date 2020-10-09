@@ -6,7 +6,7 @@
   "show_progress": false,
   "model": "pyrotech:book",
   "dont_generate_book": false,
-  "book_texture": "pyrotech:textures/gui/book/book_texture.png",
+  "book_texture": "book:book_texture.png",
   "filler_texture": "pyrotech:textures/gui/book/filler_texture.png",
   "crafting_texture": "pyrotech:textures/gui/book/crafting_texture.png",
   "macros": {
