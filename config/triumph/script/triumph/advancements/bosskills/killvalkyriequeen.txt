@@ -4,8 +4,8 @@ setDescription("#PLACEHOLDER#")
 
 addParent("triumph:advancements/bosskills/root")
 
-criteria = addCriteria("#PLACEHOLDER#", "minecraft:player_killed_entity")
-criteria.setEntityType("#PLACEHOLDER#")
+criteria = addCriteria("valkyrie_queen", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:valkyrie_queen")
 
 hideLines()
 alwaysVisible()

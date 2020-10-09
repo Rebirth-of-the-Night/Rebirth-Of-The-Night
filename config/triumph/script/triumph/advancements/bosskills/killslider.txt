@@ -4,7 +4,7 @@ setDescription("#PLACEHOLDER#")
 
 addParent("triumph:advancements/bosskills/root")
 
-criteria = addCriteria("#PLACEHOLDER#", "minecraft:player_killed_entity")
+criteria = addCriteria("kill_slider", "minecraft:player_killed_entity")
 criteria.setEntityType("#PLACEHOLDER#")
 
 hideLines()
