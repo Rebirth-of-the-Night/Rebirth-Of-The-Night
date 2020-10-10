@@ -1,3 +1,5 @@
+minecraft:blaze_powder
+minecraft:magma_cream
 simpleores:onyx_gem
 simpleores:onyx_ore
 simpleores:onyx_block
