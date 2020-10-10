@@ -25,14 +25,20 @@ recipe: {
 gen: [
   {
     height: [ 0, 128 ]
-    size: 10
-    count: 19
-	dimensions: 0
+    size: 8
+    count: 17
+	blacklistBiomes: true
+	biomes: {
+		names: [
+			beneath:the_beneath
+		]
+	}
   },
   {
     height: [ 0, 155 ]
-    size: 10
-    count: 30
+    size: 16
+    count: 20
+	chance: 0.6
 	dimensions: [0, 7]
 	biomes: {
 	  types: [
@@ -42,7 +48,7 @@ gen: [
   }
   {
     height: [ 59, 64 ]
-    size: 8
+    size: 2
     count: 20
 	chance: 0.6
 	dimensions: [0, 7]
