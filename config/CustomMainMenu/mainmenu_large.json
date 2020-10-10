@@ -71,7 +71,7 @@
 
         "music":
         {
-            "text" : "Install Custom Music",
+            "text" : "Install RotN Soundtrack",
             "normalTextColor" : 12303291,
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
