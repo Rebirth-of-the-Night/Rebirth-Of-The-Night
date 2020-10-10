@@ -28,8 +28,8 @@ gen: [
     size: 8
     count: 17
 	blacklistDimensions : true
-	dimensions: 10
-  },
+	dimensions: [10]
+  }
   {
     height: [ 0, 155 ]
     size: 16
