@@ -93,6 +93,65 @@ for mat, armor in anvilArmorMap{
     counter = 0;
 }
 
+var tideBlueArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:tide_blue.*") as IItemStack[];
+var tideBronzeArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:tide_bronze.*") as IItemStack[];
+var tideDeepBlueArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:tide_deepblue.*") as IItemStack[];
+var tideGreenArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:tide_green.*") as IItemStack[];
+var tidePurpleArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:tide_purple.*") as IItemStack[];
+var tideRedArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:tide_red.*") as IItemStack[];
+var tideTealArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:tide_teal.*") as IItemStack[];
+
+var tideArmorMap = {
+    <iceandfire:sea_serpent_scales_blue> : tideBlueArmor,
+    <iceandfire:sea_serpent_scales_bronze> : tideBronzeArmor,
+    <iceandfire:sea_serpent_scales_deepblue> : tideDeepBlueArmor,
+    <iceandfire:sea_serpent_scales_green> : tideGreenArmor,
+    <iceandfire:sea_serpent_scales_purple> : tidePurpleArmor,
+    <iceandfire:sea_serpent_scales_red> : tideRedArmor,
+    <iceandfire:sea_serpent_scales_teal> : tideTealArmor
+} as IItemStack[][IItemStack];
+
+var shinyScales = <iceandfire:shiny_scales>;
+
+for mat, armor in tideArmorMap{
+    recipes.remove(armor[counter]);// boots 0
+    mods.betterwithmods.Anvil.addShaped(armor[counter],[
+        [null, null, mat],
+        [shinyScales, mat, plateArmor],
+        [shinyScales, mat, plateArmor],
+        [null, null, mat]
+    ]);
+
+    counter += 1;
+    recipes.remove(armor[counter]);// chestplate 1
+    mods.betterwithmods.Anvil.addShaped(armor[counter],[
+        [plateArmor, mat, mat, shinyScales],
+        [null, mat, mat, mat],
+        [null, mat, mat, mat],
+        [plateArmor, mat, mat, shinyScales]
+    ]);
+
+    counter += 1;
+    recipes.remove(armor[counter]);// helmet 2
+    mods.betterwithmods.Anvil.addShaped(armor[counter],[
+        [shinyScales, mat, mat, plateArmor],
+        [mat, null, null, null],
+        [mat, null, null, null],
+        [shinyScales, mat, mat, plateArmor]
+    ]);
+
+    counter += 1;
+    recipes.remove(armor[counter]);// leggings 3
+    mods.betterwithmods.Anvil.addShaped(armor[counter],[
+        [plateArmor, plateArmor, plateArmor, shinyScales],
+        [mat, mat, null, null],
+        [mat, mat, null, null],
+        [plateArmor, plateArmor, plateArmor, shinyScales]
+    ]);
+
+    counter = 0;
+}
+
 // Spartan Weapons
 
 // Viridium: Saber, Katana, Staff, Spear, Dagger

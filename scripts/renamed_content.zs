@@ -133,6 +133,12 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betterwithmods:steel_chest>.displayName = "Soulforged Steel Chest";
 <betterwithmods:steel_pants>.displayName = "Soulforged Steel Leggings";
 <betterwithmods:steel_boots>.displayName = "Soulforged Steel Boots";
+<betterwithmods:steel_axe>.displayName = "Soulforged Steel Axe";
+<betterwithmods:steel_hoe>.displayName = "Soulforged Steel Hoe";
+<betterwithmods:steel_pickaxe>.displayName = "Soulforged Steel Pickaxe";
+<betterwithmods:steel_shovel>.displayName = "Soulforged Steel Shovel";
+<betterwithmods:steel_mattock>.displayName = "Soulforged Steel Mattock";
+<betterwithmods:steel_hacksaw>.displayName = "Soulforged Steel Hacksaw";
 
 // Quark
 <quark:iron_ladder>.displayName = "Tin Ladder";
@@ -433,6 +439,12 @@ for potion in potionMap{
 <betterwithaddons:extra_grass:1>.displayName = "Clay Grass Block";
 <betterwithaddons:extra_grass:2>.displayName = "Sand Grass Block";
 <betterwithaddons:extra_grass:3>.displayName = "Red Sand Grass Block";
+<betterwithaddons:steel_spade>.displayName = "Soulforged Steel Spade";
+<betterwithaddons:steel_matchpick>.displayName = "Soulforged Steel Matchpick";
+<betterwithaddons:steel_machete>.displayName = "Soulforged Steel Machete";
+<betterwithaddons:steel_kukri>.displayName = "Soulforged Steel Kukri";
+<betterwithaddons:steel_carpentersaw>.displayName = "Soulforged Steel Carpenter Saw";
+<betterwithaddons:steel_masonpick>.displayName = "Soulforged Steel Mason Pick";
 
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
