@@ -1,0 +1,68 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"quark",
+		"bettermineshafts"
+		]
+	"populate": 
+	{
+		"moss_layer": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": "caves_and_cliffs:moss_layer",
+				"material": [
+					"air",
+					"tallgrass"
+				],
+				"surface": [
+					"grass",
+					"mossy_cobblestone",
+					"dirt"
+				],
+				"cluster-size": 20,
+				"see-sky": false
+				},
+			"cluster-count": 10,
+			"ground-level": 60,
+			"chunk-chance": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary","entry": "LUSH"},
+					{"type": "dictionary","entry": "FOREST"}
+				]
+			}
+		},
+		"moss": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": "caves_and_cliffs:moss",
+				"surface": [
+					"grass",
+					"leaves"
+					]
+				"material": "air",
+				"cluster-size": 32,
+				"see-sky": false,
+				"stack-height": {
+					"min":1,
+					"max":3
+					}
+				},
+			"cluster-count": 4,
+			"ground-level": 60,
+			"chunk-chance": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary","entry": "LUSH"},
+					{"type": "dictionary","entry": "FOREST"}
+				]
+			}
+		}
+	}
+}

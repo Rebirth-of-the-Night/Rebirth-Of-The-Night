@@ -893,6 +893,9 @@ nitrogen.addAll(<ore:listAllmeatraw>);
 val foundryclay = <ore:foundryClayblock>;
 foundryclay.add(<contenttweaker:unfiredrefractory>);
 
+val copperBlock = <ore:blockCopper>;
+copperBlock.addItems([<caves_and_cliffs:copper_block>,<caves_and_cliffs:copper_block_stage_1>,<caves_and_cliffs:copper_block_stage_2>,<caves_and_cliffs:copper_block_stage_3>]);
+
 val bronzeBlock = <ore:blockBronze>;
 bronzeBlock.add(<contenttweaker:block_bronze>);
 

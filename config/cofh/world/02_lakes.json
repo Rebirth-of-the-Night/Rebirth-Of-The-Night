@@ -11,11 +11,12 @@
 				"type": "lake",
 				"block": [
 					{
-					"name": "contenttweaker:starblock"
+					"name": "contenttweaker:starblock",
+					"weight": 10
 					},
 					{
 					"name": "osv:simpleores_onyx_ore_contenttweaker_starblock",
-					"weight": 10
+					"weight": 1
 					}
 				],
 				"material": [
@@ -38,8 +39,8 @@
 					}
 				],
 			},
-			"cluster-count": 3,
-			"chunk-chance": 10,
+			"cluster-count": 2,
+			"chunk-chance": 9,
 			"min-height": 90,
 			"max-height": 120,
 			"biome": "all",
@@ -116,7 +117,7 @@
 					{
 					"name": "adpother:degassing",
 					"properties": {
-						"density" : "medium"
+						"density" : "heavy"
 						}
 					}
 				]

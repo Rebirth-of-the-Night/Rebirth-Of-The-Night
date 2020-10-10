@@ -5,16 +5,100 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
 mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
+mods.jei.JEI.removeAndHide(<simpleores:copper_block>);
+
+var ingotViri = <simpleores:adamantium_ingot>;
+var nuggetViri = <contenttweaker:material_part:10>;
+var ingotMyth = <simpleores:mythril_ingot>;
+var nuggetMyth = <contenttweaker:material_part:8>;
+var ingotCopp = <simpleores:copper_ingot>;
+var nuggetCopp = <contenttweaker:material_part:4>;
+var anyBlockCopp = <ore:blockCopper>;
+var blockCopp = <ore:blockCopper>.firstItem;
+var ingotTin = <simpleores:copper_ingot>;
+var nuggetTin = <contenttweaker:material_part:4>;
+
 
 //Extra Parts
-recipes.addShaped(<simpleores:adamantium_ingot>, [[<contenttweaker:material_part:10>, <contenttweaker:material_part:10>, <contenttweaker:material_part:10>],[<contenttweaker:material_part:10>, <contenttweaker:material_part:10>, <contenttweaker:material_part:10>], [<contenttweaker:material_part:10>, <contenttweaker:material_part:10>, <contenttweaker:material_part:10>]]);
-recipes.addShapeless(<contenttweaker:material_part:10>*9, [<ore:ingotViridium>]);
-recipes.addShaped(<simpleores:mythril_ingot>, [[<contenttweaker:material_part:8>, <contenttweaker:material_part:8>, <contenttweaker:material_part:8>],[<contenttweaker:material_part:8>, <contenttweaker:material_part:8>, <contenttweaker:material_part:8>], [<contenttweaker:material_part:8>, <contenttweaker:material_part:8>, <contenttweaker:material_part:8>]]);
-recipes.addShapeless(<contenttweaker:material_part:8>*9, [<ore:ingotMythril>]);
-recipes.addShaped(<simpleores:copper_ingot>, [[<contenttweaker:material_part:4>, <contenttweaker:material_part:4>, <contenttweaker:material_part:4>],[<contenttweaker:material_part:4>, <contenttweaker:material_part:4>, <contenttweaker:material_part:4>], [<contenttweaker:material_part:4>, <contenttweaker:material_part:4>, <contenttweaker:material_part:4>]]);
-recipes.addShapeless(<contenttweaker:material_part:4>*9, [<ore:ingotCopper>]);
-recipes.addShaped(<simpleores:tin_ingot>, [[<contenttweaker:material_part:6>, <contenttweaker:material_part:6>, <contenttweaker:material_part:6>],[<contenttweaker:material_part:6>, <contenttweaker:material_part:6>, <contenttweaker:material_part:6>], [<contenttweaker:material_part:6>, <contenttweaker:material_part:6>, <contenttweaker:material_part:6>]]);
-recipes.addShapeless(<contenttweaker:material_part:6>*9, [<ore:ingotTin>]);
+recipes.addShaped("viridium_nugget_to_ingot",ingotViri, [
+[nuggetViri, nuggetViri, nuggetViri],
+[nuggetViri, nuggetViri, nuggetViri],
+[nuggetViri, nuggetViri, nuggetViri]]);
+recipes.addShapeless("viridium_ingot_to_nugget",nuggetViri*9, [ingotViri]);
+recipes.addShaped("mythril_nugget_to_ingot",ingotMyth, [
+[nuggetMyth,nuggetMyth,nuggetMyth],
+[nuggetMyth,nuggetMyth,nuggetMyth],
+[nuggetMyth,nuggetMyth,nuggetMyth]]);
+recipes.addShapeless("mythril_ingot_to_nugget",nuggetMyth*9, [ingotMyth]);
+recipes.addShaped("copper_nugget_to_ingot",ingotCopp, [
+[nuggetCopp,nuggetCopp,nuggetCopp],
+[nuggetCopp,nuggetCopp,nuggetCopp],
+[nuggetCopp,nuggetCopp,nuggetCopp]]);
+recipes.addShapeless("copper_ingot_to_nugget",nuggetCopp*9, [ingotCopp]);
+recipes.addShaped("copper_ingot_to_block",blockCopp, [
+[ingotCopp,ingotCopp,ingotCopp],
+[ingotCopp,ingotCopp,ingotCopp],
+[ingotCopp,ingotCopp,ingotCopp]]);
+recipes.addShapeless("copper_block_to_ingot",ingotCopp*9, [anyBlockCopp]);
+recipes.addShaped("tin_ingot_to_nugget",ingotTin, [
+[nuggetTin,nuggetTin,nuggetTin],
+[nuggetTin,nuggetTin,nuggetTin],
+[nuggetTin,nuggetTin,nuggetTin]]);
+recipes.addShapeless("tin_nugget_to_ingot",nuggetTin*9, [ingotTin]);
+// Copper Blocks
+var blockCoppA = <caves_and_cliffs:copper_block>;
+var blockCoppB = <caves_and_cliffs:copper_block_stage_1>;
+var blockCoppC = <caves_and_cliffs:copper_block_stage_2>;
+var blockCoppD = <caves_and_cliffs:copper_block_stage_2>;
+var stairsCoppA = <caves_and_cliffs:copper_stairs>;
+var stairsCoppB = <caves_and_cliffs:copper_stairs_stage_1>;
+var stairsCoppC = <caves_and_cliffs:copper_stairs_stage_2>;
+var stairsCoppD = <caves_and_cliffs:copper_stairs_stage_3>;
+var slabCoppA = <caves_and_cliffs:copper_slab>;
+var slabCoppB = <caves_and_cliffs:copper_slab_stage_1>;
+var slabCoppC = <caves_and_cliffs:copper_slab_stage_2>;
+var slabCoppD = <caves_and_cliffs:copper_slab_stage_3>;
+
+recipes.addShapedMirrored("stairsCoppA",stairsCoppA*8, [
+[null,null,blockCoppA],
+[null,blockCoppA,blockCoppA],
+[blockCoppA,blockCoppA,blockCoppA]]);
+recipes.addShapeless("stairsCoppA_to_block",blockCoppA*3, [
+stairsCoppA,stairsCoppA,stairsCoppA,stairsCoppA]);
+recipes.addShaped("slabCoppA",slabCoppA*6, [
+[blockCoppA,blockCoppA,blockCoppA]]);
+recipes.addShapeless("slabCoppA_to_block",blockCoppA, [
+slabCoppA,slabCoppA]);
+recipes.addShapedMirrored("stairsCoppB",stairsCoppB*8, [
+[null,null,blockCoppB],
+[null,blockCoppB,blockCoppB],
+[blockCoppB,blockCoppB,blockCoppB]]);
+recipes.addShapeless("stairsCoppB_to_block",blockCoppB*3, [
+stairsCoppB,stairsCoppB,stairsCoppB,stairsCoppB]);
+recipes.addShaped("slabCoppB",slabCoppB*6, [
+[blockCoppB,blockCoppB,blockCoppB]]);
+recipes.addShapeless("slabCoppB_to_block",blockCoppB, [
+slabCoppB,slabCoppB]);
+recipes.addShapedMirrored("stairsCoppC",stairsCoppC*8, [
+[null,null,blockCoppC],
+[null,blockCoppC,blockCoppC],
+[blockCoppC,blockCoppC,blockCoppC]]);
+recipes.addShapeless("stairsCoppC_to_block",blockCoppC*3, [
+stairsCoppC,stairsCoppC,stairsCoppC,stairsCoppC]);
+recipes.addShaped("slabCoppC",slabCoppC*6, [
+[blockCoppC,blockCoppC,blockCoppC]]);
+recipes.addShapeless("slabCoppC_to_block",blockCoppC, [
+slabCoppC,slabCoppC]);
+recipes.addShapedMirrored("stairsCoppD",stairsCoppD*8, [
+[null,null,blockCoppD],
+[null,blockCoppD,blockCoppD],
+[blockCoppD,blockCoppD,blockCoppD]]);
+recipes.addShapeless("stairsCoppD_to_block",blockCoppD*3, [
+stairsCoppD,stairsCoppD,stairsCoppD,stairsCoppD]);
+recipes.addShaped("slabCoppD",slabCoppD*6, [
+[blockCoppD,blockCoppD,blockCoppD]]);
+recipes.addShapeless("slabCoppD_to_block",blockCoppD, [
+slabCoppD,slabCoppD]);
 
 //info
 
