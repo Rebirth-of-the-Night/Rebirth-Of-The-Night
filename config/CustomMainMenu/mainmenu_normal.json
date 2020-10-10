@@ -54,21 +54,6 @@
             }
         },	
 
-        "optifineRequired":
-        {
-            "text" : "Required!",
-            "normalTextColor" : 16711680,
-            "hoverTextColor" : 16711680,
-			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 10,
-            "width" : 100,
-            "height" : 20,
-			"imageWidth" : 0,
-			"imageHeight" : 0,
-			"alignment" : "top_right"
-        },
-
         "musicRecommended":
         {
             "text" : "Recommended!",
@@ -76,7 +61,7 @@
             "hoverTextColor" : 65280,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 37,
+            "posY" : 12,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 0,
@@ -84,25 +69,6 @@
 			"alignment" : "top_right"
         },
 
-        "optifine":
-        {
-            "text" : "Install OptiFine",
-			"normalTextColor" : 12303291,
-			"hoverTextColor" : 3125670,
-			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : -2,
-            "width" : 100,
-            "height" : 27,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
-			"alignment" : "top_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://wiki.rebirthofthenight.com/wiki/Installation#Installing_OptiFine_.28required.21.29"
-            }
-        },
         "music":
         {
             "text" : "Install Custom Music",
@@ -110,7 +76,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 25,
+            "posY" : 0,
             "width" : 100,
             "height" : 27,
             "imageWidth" : 100,
@@ -129,7 +95,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 60,
+            "posY" : 30,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -148,7 +114,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 80,
+            "posY" : 50,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -167,7 +133,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 100,
+            "posY" : 70,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
@@ -186,7 +152,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 120,
+            "posY" : 90,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
@@ -362,7 +328,7 @@
             "text": "Version 3.0",
             "posX": 2,
             "posY": -10,
-            "color": 450,
+            "color": 16737380,
             "alignment": "bottom_left",
             "action" : 
             {
