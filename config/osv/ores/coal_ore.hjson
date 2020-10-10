@@ -27,12 +27,8 @@ gen: [
     height: [ 0, 128 ]
     size: 8
     count: 17
-	blacklistBiomes: true
-	biomes: {
-		names: [
-			beneath:the_beneath
-		]
-	}
+	blacklistDimensions : true
+	dimensions: 10
   },
   {
     height: [ 0, 155 ]
