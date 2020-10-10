@@ -24,15 +24,9 @@ recipe: {
 }
 gen: [
   {
-    height: [ 30, 56 ]
-    size: 12
-    count: 10
-	chance: 0.6
-  }
-  {
-	height: [ 25, 150 ]
+	height: [ 50, 150 ]
     size: 10
-    count: 30
+    count: 23
 	chance: 1.0
 	blacklistBiomes: true
 	biomes: {
@@ -48,6 +42,15 @@ gen: [
 	}
   }
 #Copper ore
+  {
+    height: [ 30, 56 ]
+    size: 12
+    count: 5
+	chance: 0.6
+	biomes: {
+		types: ["SANDY"]
+	}
+  }
   {
     height: [ 32, 120 ]
     size: 4
