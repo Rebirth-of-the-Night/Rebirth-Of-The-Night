@@ -87,6 +87,23 @@ Dropt.list("wither_skull")
       )	
   );
 
+Dropt.list("bed")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:bed"])
+      .addDrop(Dropt.drop()
+        .force()
+        .items([<minecraft:planks:0>*2]) // always drop a couple planks
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(50)) // drop nothing else 50% of time  
+      )
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(50))
+        .items([<minecraft:wool:0>*2]) // drop 2 wool 50% of the time
+      )
+  );
+
 Dropt.list("light_essence")
   .add(Dropt.rule()
       .matchBlocks(["biomesoplenty:biome_block"])
