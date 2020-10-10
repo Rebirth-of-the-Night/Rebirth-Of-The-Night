@@ -3,11 +3,9 @@
 minecraftinstance.json
 crafttweaker.log
 optionsof.txt
-config/Embassy/AMLocation.txt
 knownkeys.txt
 .mixin.out/
 llibrary/debug/
-ActualMusic.zones
 config/jei/worldSettings.cfg
 usercache.json
 usernamecache.json
@@ -26,7 +24,6 @@ servers.dat
 shaderpacks/Sildurs Enhanced Default *.zip
 optionsshaders.txt
 config/jei/worldSettings.cfg
-mods/Embassy_5.0-b20.jar
 mods/blockdrops-1.12.2-*.jar
 config/BlockDrops/
 modlist.html
