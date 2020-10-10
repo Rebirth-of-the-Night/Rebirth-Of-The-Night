@@ -547,13 +547,9 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 
 <simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
-<simpleores:adamantium_pickaxe>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_shovel>.displayName = "§2Viridium Shovel";
-<simpleores:adamantium_shovel>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_hoe>.displayName = "§2Viridium Hoe";
-<simpleores:adamantium_hoe>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_axe>.displayName = "§2Viridium Axe";
-<simpleores:adamantium_axe>.addTooltip(format.darkGreen("Rare Tool"));
 <simpleores:adamantium_chestplate>.displayName = "§2Viridium Chestplate";
 <simpleores:adamantium_chestplate>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_leggings>.displayName = "§2Viridium Leggings";
@@ -607,23 +603,14 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <mod_lavacow:bonesword>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartanweaponry:crossbow_wood>.addTooltip(format.darkPurple("Epic Weapon"));
 
-<simpleores:mythril_pickaxe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_shovel>.displayName = "§5Mythril Shovel";
-<simpleores:mythril_shovel>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_axe>.displayName = "§5Mythril Axe";
-<simpleores:mythril_axe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_hoe>.displayName = "§5Mythril Hoe";
-<simpleores:mythril_hoe>.addTooltip(format.darkPurple("Epic Tool"));
 <simpleores:mythril_chestplate>.displayName = "§5Mythril Chestplate";
-<simpleores:mythril_chestplate>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_leggings>.displayName = "§5Mythril Leggings";
-<simpleores:mythril_leggings>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_helmet>.displayName = "§5Mythril Helmet";
-<simpleores:mythril_helmet>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_boots>.displayName = "§5Mythril Boots";
-<simpleores:mythril_boots>.addTooltip(format.darkPurple("Epic Armor"));
 <simpleores:mythril_ingot>.displayName = "§5Mythril Ingot";
-<simpleores:mythril_ingot>.addTooltip(format.darkPurple("Epic Material"));
 
 
 
@@ -681,13 +668,9 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <spartancompat:throwing_axe_onyx>.addTooltip(format.gold("Legendary Weapon"));
 
 
-<simpleores:onyx_pickaxe>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_shovel>.displayName = "§6Onyx Shovel";
-<simpleores:onyx_shovel>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_hoe>.displayName = "§6Onyx Hoe";
-<simpleores:onyx_hoe>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_axe>.displayName = "§6Onyx Axe";
-<simpleores:onyx_axe>.addTooltip(format.gold("Legendary Tool"));
 <simpleores:onyx_chestplate>.displayName = "§6Onyx Chestplate";
 <simpleores:onyx_chestplate>.addTooltip(format.gold("Legendary Armor"));
 <simpleores:onyx_leggings>.displayName = "§6Onyx Leggings";
@@ -716,31 +699,22 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <iceandfire:dragonsteel_ice_sword>.addTooltip(format.gold("Legendary Weapon"));
 
 <iceandfire:dragonsteel_ice_pickaxe>.displayName = "§6Ice Dragonsteel Pickaxe";
-<iceandfire:dragonsteel_ice_pickaxe>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_ice_axe>.displayName = "§6Ice Dragonsteel Axe";
-<iceandfire:dragonsteel_ice_axe>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_ice_shovel>.displayName = "§6Ice Dragonsteel Shovel";
-<iceandfire:dragonsteel_ice_shovel>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_ice_hoe>.displayName = "§6Ice Dragonsteel Hoe";
-<iceandfire:dragonsteel_ice_hoe>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_fire_sword>.displayName = "§6Fire Dragonsteel Sword";
-<iceandfire:dragonsteel_fire_sword>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_fire_pickaxe>.displayName = "§6Fire Dragonsteel Pickaxe";
-<iceandfire:dragonsteel_fire_pickaxe>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_fire_axe>.displayName = "§6Fire Dragonsteel Axe";
-<iceandfire:dragonsteel_fire_axe>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_fire_shovel>.displayName = "§6Fire Dragonsteel Shovel";
-<iceandfire:dragonsteel_fire_shovel>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_fire_hoe>.displayName = "§6Fire Dragonsteel Hoe";
-<iceandfire:dragonsteel_fire_hoe>.addTooltip(format.gold("Legendary Tool"));
 
 <iceandfire:dragonsteel_fire_chestplate>.displayName = "§6Fire Dragonsteel Chestplate";
 <iceandfire:dragonsteel_fire_chestplate>.addTooltip(format.gold("Legendary Armor"));
@@ -803,9 +777,6 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <dungeontactics:silver_sword:*>.addTooltip("They will suffer as we have.");
 mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. Its abilities allow you to draw strength from other's suffering, empower yourself by siphoning power from the blade itself, and strike at your enemies' souls, bypassing some of their armor."]);
 
-
-<betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";
-<betterwithmods:steel_mattock>.addTooltip(format.red("Godly Tool"));
 
 <betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));

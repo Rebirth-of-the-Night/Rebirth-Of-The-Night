@@ -3,7 +3,7 @@ mod: biomesoplenty
 block: {
   location: biomesoplenty:gem_ore
   hardness: 3
-  level: 3
+  level: 4
 }
 loot: [
   {
