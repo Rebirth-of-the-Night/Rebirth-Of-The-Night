@@ -50,7 +50,8 @@ recipes.addShapeless("aetherial_electrum_dust", <contenttweaker:material_part:21
 //JEI decriptions
 mods.jei.JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
 
-// New RECIPES - ON HOLD until removing Enchanter recipes is possible.
+//healing stone
+mods.aether_legacy.Enchanter.removeEnchantment(<aether_legacy:holystone>);
 //mods.aether_legacy.Enchanter.registerEnchantment(<minecraft:potato>, <aether_legacy:healing_stone>, 200);
  
 //Aether Enchanter

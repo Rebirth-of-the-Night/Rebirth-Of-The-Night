@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
 
 mods.jei.JEI.removeAndHide(<minecraft:splash_potion>.withTag({Potion: "extraalchemy:return_normal"}));
 mods.jei.JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "extraalchemy:return_normal"}));
@@ -17,6 +18,13 @@ mods.jei.JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalc
 mods.jei.JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalchemy:leech_strong"}));
 
 recipes.remove(<extraalchemy:empty_ring>);
+
+recipes.removeByRecipeName("extraalchemy:minecraft_strong_regeneration");
+recipes.removeByRecipeName("extraalchemy:minecraft_regeneration");
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:harming"}), <minecraft:speckled_melon>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:harming"}), <minecraft:gunpowder>);
+
 
 recipes.addShaped("Potion Ring Base", <extraalchemy:empty_ring>, [
 [null, <dungeontactics:magic_powder>, null],
