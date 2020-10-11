@@ -5,4 +5,4 @@ title @p subtitle {"text":"Cries of the damned echo around you...", "color":"yel
 title @p title {"text":"The Nether", "bold":false, "italic":false, "color":"red"}
 gamestage silentadd @a enteredNether
 gamestage silentadd @a killedHarvester
-gamestage silentremove @a noStage
+gamestage silentremove @a start

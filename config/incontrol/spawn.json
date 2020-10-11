@@ -1863,7 +1863,6 @@
 {
 	"dimension" : [0, 10],
 	"mob": "specialmobs:knightskeleton",
-	"helditem": "specialmobs:knightskeleton",
 	"result": "deny"
   },
 
@@ -1889,7 +1888,6 @@
 {
 	"dimension" : -1,
 	"mob": "specialmobs:knightpigzombie",
-	"helditem": "specialmobs:knightpigzombie",
 	"result": "deny"
   },
 

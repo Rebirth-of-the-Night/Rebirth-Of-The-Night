@@ -1,5 +1,23 @@
 [
-	{
+   
+   {
+      "mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villagers","minecraft:villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dwellers","primitivemobs:lost_miner","toroquest:toroquest_guard","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+      "player": true,
+      "item": "contenttweaker:slayers_tattered_journal",
+      "itemcount": "1",
+      "random": "0.1",
+      "gamestage": "start"
+   },
+
+   {
+      "mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villagers","minecraft:villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dwellers","primitivemobs:lost_miner","toroquest:toroquest_guard","toroquest:toroquest_sentry","zombie_players:zombie_player"],
+      "remove": "contenttweaker:slayers_tattered_journal",
+      "gamestage": "slayersjournal"
+   },
+
+
+   
+   {
       "mob": "endreborn:endguard",
       "player": true,
       "item": "endreborn:sword_shard",

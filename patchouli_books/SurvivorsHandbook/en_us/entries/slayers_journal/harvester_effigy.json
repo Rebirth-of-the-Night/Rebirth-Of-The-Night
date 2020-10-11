@@ -2,13 +2,15 @@
   "name": "The Harvester",
   "icon": "minecraft:lit_pumpkin",
   "category": "slayers_journal",
+  "advancement": "triumph:advancements/main/slayersjournal",
+
   "sortnum": 1,
   "pages": [
   	{
 			"type": "spotlight",
 			"title": "Lighting the Wickerman",
 			"item": "minecraft:lit_pumpkin",
-			"text": "$(l)$(#734608)The Harvester is less a monster and more a force of nature. Learned this dark ritual from a witch: building one of these scarecrows around a $(l:slayers_journal/soulfire_core)$(item)Soulfire Core$()$() $(l)$(#734608)will summon an echo of the Harvester's spirit.$()$()"
+			"text": "$(l)$(#734608)The Harvester is less a monster and more a force of nature. Learned this dark ritual from a witch: building one of these scarecrows around a $(l:slayers_journal/soulfire_core)$(item)Soulfire Chassis$()$() $(l)$(#734608)will summon an echo of the Harvester's spirit.$()$()"
 		},
 	{
 	"type": "multiblock",

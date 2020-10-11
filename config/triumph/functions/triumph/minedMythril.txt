@@ -7,4 +7,4 @@ gamestage silentadd @a minedMythril
 gamestage silentadd @a fullDiamondArmor
 gamestage silentadd @a fullMidArmor
 gamestage silentadd @a killedHarvester
-gamestage silentremove @a noStage
+gamestage silentremove @a start

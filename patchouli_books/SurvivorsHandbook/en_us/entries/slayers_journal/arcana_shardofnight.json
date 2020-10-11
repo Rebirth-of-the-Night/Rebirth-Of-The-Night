@@ -1,7 +1,9 @@
 {
   "name": "Shard of Night",
-  "icon": "minecraft:flint",
+  "icon": "contenttweaker:shard_of_night",
   "category": "slayers_journal_arcana",
+  "advancement": "triumph:advancements/main/killedHarvester",
+
   "pages": [
   	{
 			"type": "spotlight",

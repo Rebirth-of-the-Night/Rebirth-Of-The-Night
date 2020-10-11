@@ -10,6 +10,8 @@ setTitle("Rebirth of the Night")
 //Set description String
 setDescription("Welcome to Rebirth of the Night!")
 
+addRewardFunction("triumph:start")
+
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 
@@ -20,7 +22,7 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 //Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
-addCriteria("impossible", "minecraft:impossible")
+addCriteria("location", "minecraft:location")
 
 setHidden(true)
 setPos(-483,-48)

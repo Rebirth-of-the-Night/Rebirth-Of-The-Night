@@ -5,13 +5,10 @@ setDescription("Kill The Harvester.")
 addRewardFunction("triumph:killedHarvester")
 
 
-addParent("triumph:advancements/main/root")
+addParent("triumph:advancements/main/slayersjournal")
 
 criteria = addCriteria("harvester", "minecraft:player_killed_entity")
 criteria.setEntityType("harvestersnight:harvester")
 
-
-
-hideLines()
 alwaysVisible()
 setPos(-521,34)

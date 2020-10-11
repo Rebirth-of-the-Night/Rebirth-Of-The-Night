@@ -1,5 +1,0 @@
-gamerule commandBlockOutput false
-gamerule sendCommandFeedback false
-gamestage silentadd @p killedHarvester
-tellraw @p ["",{"text":"You feel uneasy, even as you grow in power...","color":"dark_red","italic":true}]
-gamestage silentremove @a noStage

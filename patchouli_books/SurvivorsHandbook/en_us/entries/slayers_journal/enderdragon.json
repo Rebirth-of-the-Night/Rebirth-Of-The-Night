@@ -2,6 +2,8 @@
   "name": "The Ender Dragon",
   "icon": "quark:enderdragon_scale",
   "category": "slayers_journal",
+  "advancement": "triumph:advancements/main/WIP_ACHIEVEMENT",
+
   "sortnum": 3,
   "pages": [
   	{

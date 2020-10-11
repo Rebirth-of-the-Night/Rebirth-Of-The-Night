@@ -7,6 +7,13 @@ import crafttweaker.item.IItemStack;
 
 <contenttweaker:shard_of_night>.displayName = "§5Shard of Night";
 
+<contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
+<contenttweaker:slayers_tattered_journal>.addTooltip("Check your Guidebook for the Slayer's Journal category. This item can be thrown away when obtained.");
+
+
+<multiblockmobs:soul_chassis>.displayName = "Soulfire Chassis";
+<multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
+
 
 // Slimes
 <minecraft:slime_ball>.displayName = "Green Slimeball";
