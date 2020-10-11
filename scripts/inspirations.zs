@@ -15,7 +15,8 @@ mods.inspirations.Cauldron.addFluidRecipe(<dungeontactics:magic_powder>, <conten
 //mods.inspirations.Cauldron.addFluidRecipe(<dungeontactics:magic_powder>*2, <contenttweaker:magic_blend>, <liquid:mythril>, 1, true);
 
 // Cyclic Corrupted Chorus Fruit
-mods.inspirations.Cauldron.addPotionRecipe(<cyclicmagic:corrupted_chorus>, <quark:soul_bead>, "extraalchemy:dislocation_normal", 4, true); 
+////The Chorus Bead can be enabled in a future update as part of a late-game magic recipe.
+//mods.inspirations.Cauldron.addPotionRecipe(<cyclicmagic:corrupted_chorus>, <quark:soul_bead>, "extraalchemy:dislocation_normal", 4, true); 
 
 // Cyclic Moon Phase Detector
 mods.inspirations.Cauldron.addFluidRecipe(<cyclicmagic:moon_sensor>, <minecraft:daylight_detector>, <liquid:lunar_water>, 1);

@@ -192,9 +192,11 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <cyclicmagic:horse_upgrade_speed>.displayName = "Fast Haw";
 <cyclicmagic:horse_upgrade_health>.displayName = "Healthy Haw";
 <cyclicmagic:horse_upgrade_type>.displayName = "Strange Haw";
-<cyclicmagic:corrupted_chorus>.displayName = "Chorus Bead";
+//This item can be enabled in a future update as part of a late-game magic recipe.
+//<cyclicmagic:corrupted_chorus>.displayName = "Chorus Bead";
 <cyclicmagic:card_location>.displayName = "Block Locator";
-<cyclicmagic:apple_emerald>.displayName = "Merchant's Cure";
+//Unless this item receives a bugpatch, it routinely does not work and is thus disabled.
+//<cyclicmagic:apple_emerald>.displayName = "Merchant's Cure";
 <cyclicmagic:apple_lapis>.displayName = "Deadhorse Delight";
 <cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
