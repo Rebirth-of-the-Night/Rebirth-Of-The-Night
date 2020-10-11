@@ -15,10 +15,10 @@
       "gamestage": "slayersjournal"
    },
 
-{
+   {
       "mob": "aether_legacy:sun_spirit",
       "remove": "aether_legacy:sun_altar"
-}
+   },
    
    {
       "mob": "endreborn:endguard",
