@@ -156,8 +156,8 @@ recipes.addShaped("gravitite_shovel", <atop:amber_shovel>,[
 
 <aether_legacy:blue_berry>.maxStackSize = 16;
 
-mods.jei.JEI.removeAndHide(<aether_legacy:cold_parachute>);
-mods.jei.JEI.removeAndHide(<aether_legacy:golden_parachute>);
+recipes.remove(<aether_legacy:cold_parachute>);
+recipes.remove(<aether_legacy:golden_parachute>);
 
 var coldcloud = <aether_legacy:aercloud:0>;
 var goldcloud = <aether_legacy:aercloud:2>;
