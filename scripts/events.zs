@@ -227,6 +227,11 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 			server.commandManager.executeCommand(event.player, 'summon primitivemobs:grovesprite ~ ~ ~ {CustomName:"Grove Avenger",CustomNameVisible:1,HandItems:[{id:"spartanweaponry:dagger_diamond",Count:1b,tag:{Unbreakable:1,ench:[{id:19,lvl:10}]}},{}],HandDropChances:[0.0F,0.085F],Attributes:[{Name:generic.maxHealth,Base:250},{Name:generic.movementSpeed,Base:2.0},{Name:generic.attackDamage,Base:20},{Name:generic.followRange,Base:40},{Name:generic.knockbackResistance,Base:1}],ActiveEffects:[{Id:12,Amplifier:10,Duration:200000,ShowParticles:0b},{Id:22,Amplifier:2,Duration:9600}]}');
 		}
 	}
+	
+	if ("490a8ee7-ae3e-40b0-a9c7-653024832c67" == event.player.uuid) {
+		event.player.sendChat("you have to be ready for it");
+		event.player.sendChat("you have to be ready for it");
+	}
 });
 
 events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedEvent) {
