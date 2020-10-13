@@ -274,12 +274,14 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 		}
 	}
 
+	print(event.player.world.getBlock(event.player.position3f.asBlockPos().getOffset(IFacing.up(), 1)).definition.id);
+	print(event.player.world.getWorldTime());
 
-    // Gas entity spawning
-    if (!isNull(event.player) && event.player.world.getBlock(event.player.position3f.asBlockPos().getOffset(IFacing.up(), 1)).definition.id == "adpother:gassing" && event.player.world.getWorldTime() % 10 == 0) {
-        server.commandManager.executeCommand(event.player, "summon gaspunk:gas_cloud ~ ~1 ~ {gas:\"gaspunk:choke_smoke\",max_lifespan:20,cloud_age:0}");
-        print("Spawned gas cloud");
-    }
+	// Gas entity spawning
+	if (event.player.world.getBlock(event.player.position3f.asBlockPos().getOffset(IFacing.up(), 1)).definition.id == "adpother:gassing" && event.player.world.getWorldTime() % 10 == 0) {
+		server.commandManager.executeCommand(event.player, "summon gaspunk:gas_cloud ~ ~1 ~ {gas:\"gaspunk:choke_smoke\",max_lifespan:20,cloud_age:0}");
+		print("Spawned gas cloud");
+	}
 });
 
 
