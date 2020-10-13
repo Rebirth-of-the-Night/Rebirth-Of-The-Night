@@ -174,8 +174,6 @@ mods.betterwithmods.Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:ta
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
 
 //Cyclic Apple
-mods.betterwithmods.Cauldron.addStoked([<rats:purifying_liquid>,<minecraft:emerald>],[<cyclicmagic:apple_emerald>*3]);//emerald
-
 mods.betterwithmods.FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
 mods.betterwithmods.FilteredHopper.addFilter("modtweaker:soulsand", <minecraft:soul_sand>);
 

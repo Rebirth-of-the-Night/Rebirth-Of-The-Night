@@ -41,7 +41,7 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:password_block>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
 mods.jei.JEI.removeAndHide(<cyclicmagic:moon_sensor>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back
+//mods.jei.JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back in future update
 
 
 recipes.remove(<cyclicmagic:fluid_pipe>);
@@ -51,11 +51,10 @@ recipes.remove(<cyclicmagic:evoker_fang>);
 recipes.remove(<cyclicmagic:ender_lightning>);
 recipes.remove(<cyclicmagic:tool_spelunker>);
 recipes.remove(<cyclicmagic:wand_hypno>);
-recipes.remove(<cyclicmagic:corrupted_chorus>);
+//recipes.remove(<cyclicmagic:corrupted_chorus>);//add back in future update
 recipes.remove(<cyclicmagic:wand_missile>);
 recipes.remove(<cyclicmagic:glove_climb>);
 recipes.remove(<cyclicmagic:apple_lapis>);
-recipes.remove(<cyclicmagic:apple_emerald>);
 recipes.remove(<cyclicmagic:moon_sensor>);
 recipes.remove(<cyclicmagic:builder_block>);
 recipes.remove(<cyclicmagic:target>);
