@@ -5,7 +5,7 @@ setDescription("Craft soulforged steel")
 addParent("triumph:advancements/ores/crudesteel")
 
 criteria = addCriteria("Soulforged Steel", "minecraft:inventory_changed")
-criteria.addItem("betterwithmods:material:14")
+criteria.addItem(<betterwithmods:material:14>)
 
 
 alwaysVisible()
