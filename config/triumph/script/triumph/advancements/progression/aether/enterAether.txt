@@ -1,0 +1,18 @@
+setIcon(<minecraft:glowstone>)
+setTitle("A Heavenly Realm")
+setDescription("Enter The Aether.")
+
+addParent("triumph:advancements/progression/enterNether")
+
+addRewardFunction("triumph:enteredAether")
+
+criteria = addCriteria("entered_aether", "triumph:changed_dimension")
+criteria.setDimensionDestination(4)
+
+setShowToast(true)
+setFrameType("GOAL")
+setUncompletedIconColor(137,227,52)
+
+drawDirectLines()
+hiddenUnless("triumph:advancements/progression/enterNether")
+setPos(90,-60)

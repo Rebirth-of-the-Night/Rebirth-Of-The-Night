@@ -1,0 +1,13 @@
+setIcon(<minecraft:dirt>)
+setTitle("Quazar ???")
+setDescription("#PLACEHOLDER#")
+
+addParent("triumph:advancements/progression/enterNether")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+setShowToast(true)
+setFrameType("CHALLENGE")
+
+hiddenUnless("triumph:advancements/progression/enterNether")
+setPos(220,0)

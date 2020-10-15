@@ -1,0 +1,17 @@
+setIcon(<dimstack:portal>)
+setTitle("Where The Lost Tread")
+setDescription("Enter The Beneath.")
+
+addParent("triumph:advancements/progression/enterNether")
+
+addRewardFunction("triumph:enteredBeneath")
+
+criteria = addCriteria("entered_beneath", "triumph:changed_dimension")
+criteria.setDimensionDestination(10)
+
+setShowToast(true)
+setFrameType("GOAL")
+setUncompletedIconColor(137,227,52)
+
+hiddenUnless("triumph:advancements/progression/enterNether")
+setPos(265,0)

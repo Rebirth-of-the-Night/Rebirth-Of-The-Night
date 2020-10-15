@@ -1,0 +1,16 @@
+setIcon(<minecraft:dirt>)
+setTitle("kill Slider")
+setDescription("#PLACEHOLDER#")
+
+addParent("triumph:advancements/progression/aether/enterAether")
+
+criteria = addCriteria("kill_slider", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:slider")
+
+setShowToast(true)
+setFrameType("CHALLENGE")
+setAnnounceToChat(true)
+
+drawDirectLines()
+hiddenUnless("triumph:advancements/progression/aether/killslider")
+setPos(120,-90)

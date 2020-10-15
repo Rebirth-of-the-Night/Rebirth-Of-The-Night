@@ -1,0 +1,13 @@
+setIcon("atop:mud_chestplate")
+setTitle("Gearing Up!")
+setDescription("Acquire a set of Early Armor.")
+
+addParent("triumph:advancements/progression/root")
+
+criteria = addCriteria("Early Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/fullEarlyArmor")
+
+hideLines()
+
+alwaysVisible()
+setPos(0,0)

@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:gem:6>)
+setTitle("Bling! Bling!")
+setDescription("Obtain some gems.")
+
+addParent("triumph:advancements/progression/steel")
+// addParent("triumph:advancements/progression/soulforgedsteel")
+
+criteria = addCriteria("Gems", "minecraft:inventory_changed")
+criteria.addItem("minecraft:dirt")
+
+hiddenUnless("triumph:advancements/progression/enterNether")
+setPos(175,0)

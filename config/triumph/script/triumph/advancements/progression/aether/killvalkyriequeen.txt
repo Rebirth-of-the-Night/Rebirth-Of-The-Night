@@ -1,0 +1,16 @@
+setIcon(<minecraft:dirt>)
+setTitle("kill Valkyrie Queen")
+setDescription("#PLACEHOLDER#")
+
+addParent("triumph:advancements/progression/aether/enterAether")
+
+criteria = addCriteria("valkyrie_queen", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:valkyrie_queen")
+
+setShowToast(true)
+setFrameType("CHALLENGE")
+setAnnounceToChat(true)
+
+drawDirectLines()
+hiddenUnless("triumph:advancements/progression/aether/killvalkyriequeen")
+setPos(60,-90)
