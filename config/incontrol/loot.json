@@ -429,10 +429,17 @@
 
    // Harvester
    {
-   "mob": "harvestersnight:harvester",
-   "player": true,
-   "item": "contenttweaker:shard_of_night",
-   "itemcount": "1"
+      "mob": "harvestersnight:harvester",
+      "player": true,
+      "item": "contenttweaker:shard_of_night",
+      "itemcount": "1"
+   },
+   {
+      "mob": "harvestersnight:harvester",
+      "player": true,
+      "item": "golems:golem_head",
+      "itemcount": "1",
+      "random": "0.4"
    },
 
 	// Ghast Queen Drops

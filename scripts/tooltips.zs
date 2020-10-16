@@ -3,6 +3,8 @@
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
 
+<golems:golem_head>.addTooltip("Used for summoning Golems");
+
 #Eplus
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");
 
