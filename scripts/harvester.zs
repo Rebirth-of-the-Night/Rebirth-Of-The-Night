@@ -10,8 +10,6 @@ import crafttweaker.item.WeightedItemStack;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
 
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:crowngold");
-
 var scythe = <harvestersnight:harvester_scythe>;
 var lapis = <minecraft:dye:4>;
 
@@ -31,7 +29,7 @@ val harvester = LootTweaker.getTable("harvestersnight:entities/harvester");
 val harvesterMain = harvester.getPool("scythe");
 harvesterMain.removeEntry("harvestersnight:harvester_scythe");
 
-<entity:harvestersnight:harvester>.addPlayerOnlyDrop(<harvestersnight:harvester_scythe>.withTag(enchantmentMap1) % 100, 1, 1);
+<entity:harvestersnight:harvester>.addDrop(<harvestersnight:harvester_scythe>.withTag(enchantmentMap1) % 100, 1, 1);
 
 
 recipes.addShaped("Soul Chassis", <multiblockmobs:soul_chassis>,[
