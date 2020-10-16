@@ -1,0 +1,15 @@
+setIcon(<rats:plague_scythe>)
+setTitle("The Black Death")
+setDescription("Purge the incarnation of corruption.")
+
+addParent("triumph:advancements/progression/mythril")
+
+criteria = addCriteria("black_death", "minecraft:player_killed_entity")
+criteria.setEntityType("rats:black_death")
+
+setShowToast(true)
+setFrameType("CHALLENGE")
+setAnnounceToChat(true)
+
+hiddenUnless("triumph:advancements/progression/killblackdeath")
+setPos(371,47)
