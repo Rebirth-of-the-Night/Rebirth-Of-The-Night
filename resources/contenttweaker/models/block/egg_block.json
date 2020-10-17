@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/cube",
 	"ambientocclusion": false,
 	"textures": {
 		"0": "contenttweaker:blocks/egg_block",

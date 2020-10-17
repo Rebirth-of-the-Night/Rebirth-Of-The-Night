@@ -27,6 +27,7 @@ mods.foundry.BurnerHeater.clear();
 mods.foundry.BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1800);
 
 //recipes
+recipes.removeByRecipeName("ceramics:tools/cake");
 mods.jei.JEI.removeAndHide(<foundry:componentblock>);
 mods.jei.JEI.removeAndHide(<foundry:componentblock:1>);
 mods.jei.JEI.removeAndHide(<foundry:componentblock:2>);
@@ -44,6 +45,9 @@ mods.jei.JEI.removeAndHide(<foundry:casting_table:2>);
 mods.jei.JEI.removeAndHide(<foundry:small_clay>);
 mods.jei.JEI.hideCategory("foundry.alloyingcrucible");
 mods.jei.JEI.hideCategory("foundry.fluidheater");
+
+recipes.remove(<ceramics:clay_barrel_unfired>);
+recipes.remove(<ceramics:clay_barrel_unfired:1>);//Recipes for these are found in pottery.zs and betterwithmods.zs
 
 recipes.remove(<foundry:machine:8>);
 recipes.remove(<foundry:mold_station>);
@@ -91,7 +95,105 @@ recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_bone_meal");
 Mortar.addRecipe(["diamond", "obsidian"], <ceramics:unfired_clay:4> * 9, 5, [<netherex:rime_crystal>, <pyrotech:material:4> * 8]);
 Mortar.addRecipe(["diamond", "obsidian"], <ceramics:unfired_clay:4>, 5, [<netherex:rime_crystal>, <minecraft:clay_ball> * 8]);
 
+//Refracotta colors
+val refracotta = <contenttweaker:refracotta>;
+val reGray = <contenttweaker:refracotta_gray>;
+val reYell = <contenttweaker:refracotta_yellow>;
+val reCyan = <contenttweaker:refracotta_cyan>;
+val reMagen = <contenttweaker:refracotta_magenta>;
+val reLime = <contenttweaker:refracotta_lime>;
+val reWhite = <contenttweaker:refracotta_white>;
+val rePink = <contenttweaker:refracotta_pink>;
+val reBrown = <contenttweaker:refracotta_brown>;
+val reLBlue = <contenttweaker:refracotta_light_blue>;
+val reRed = <contenttweaker:refracotta_red>;
+val reGreen = <contenttweaker:refracotta_green>;
+val reBlue = <contenttweaker:refracotta_blue>;
+val reBlack = <contenttweaker:refracotta_black>;
+val rePurp = <contenttweaker:refracotta_purple>;
+val reLGray = <contenttweaker:refracotta_light_gray>;
+val reOran = <contenttweaker:refracotta_orange>;
 
+recipes.addShaped("black_refracotta", reBlack*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeBlack>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("red_refracotta", reRed*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeRed>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("green_refracotta", reGreen*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeGreen>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("brown_refracotta", reBrown*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeBrown>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("blue_refracotta", reBlue*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeBlue>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("purple_refracotta", rePurp*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyePurple>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("cyan_refracotta", reCyan*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeCyan>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("light_gray_refracotta", reLGray*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeLightGray>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("gray_refracotta", reGray*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeGray>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("pink_refracotta", rePink*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyePink>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("lime_refracotta", reLime*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeLime>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("yellow_refracotta", reYell*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeYellow>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("light_blue_refracotta", reLBlue*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeLightBlue>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("magenta_refracotta", reMagen*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeMagenta>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("orange_refracotta", reOran*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeOrange>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
+recipes.addShaped("white_refracotta", reWhite*8,[
+	[refracotta,refracotta,refracotta],
+    [refracotta,<ore:dyeWhite>,refracotta],
+    [refracotta,refracotta,refracotta]
+]);
 //Melting //Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int melting_point, @Optional int speed)
 
 mods.foundry.Melting.addRecipe(<liquid:soulforged_steel>*144, <betterwithmods:material:14>, 2350);//SFS and SFS artifacts

@@ -82,6 +82,17 @@ recipes.removeByRecipeName("betterwithmods:decompress/wicker_decompress");
 recipes.remove(<betterwithmods:metal_chime:*>);
 recipes.remove(<betterwithmods:bamboo_chime:*>);
 
+//Turntable
+mods.betterwithmods.Turntable.removeAll();
+mods.betterwithmods.Turntable.add(<minecraft:clay>, <betterwithmods:unfired_pottery:1>, [<minecraft:clay_ball>]);
+mods.betterwithmods.Turntable.add(<betterwithmods:unfired_pottery:1>, <contenttweaker:pot_unfired>, [<minecraft:clay_ball>]);
+mods.betterwithmods.Turntable.add(<rustic:vase>, <betterwithmods:unfired_pottery:3>, [<minecraft:clay_ball>]);
+mods.betterwithmods.Turntable.add(<betterwithmods:unfired_pottery:3>, <betterwithmods:unfired_pottery:2>, [<minecraft:clay_ball>]);
+
+mods.betterwithmods.Turntable.add(<contenttweaker:modelingrefractory>, <contenttweaker:crucible>, [<pyrotech:material:4>*4]);
+mods.betterwithmods.Turntable.add(<contenttweaker:crucible>, <ceramics:clay_barrel_unfired>, [<pyrotech:material:4>*4]);
+mods.betterwithmods.Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, [<pyrotech:material:4>*4]);
+
 val arrayMoulding = [<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}})] as IItemStack[];
 
 val arrayWindChime = [<betterwithmods:metal_chime:0>,<betterwithmods:metal_chime:1>,<betterwithmods:metal_chime:2>,<betterwithmods:metal_chime:3>,<betterwithmods:metal_chime:4>,<betterwithmods:metal_chime:5>] as IItemStack[];
@@ -116,12 +127,6 @@ recipes.addShaped("wax_candle",<betterwithmods:candle>,[
     [null,<minecraft:string>,null],
     [null,<harvestcraft:beeswaxitem>,null],
     [null,<harvestcraft:beeswaxitem>,null]
-]);
-
-recipes.addShaped("refractored_crucible",<contenttweaker:crucible>,[
-    [<pyrotech:material:9>,null,<pyrotech:material:9>],
-    [<pyrotech:material:9>,<pyrotech:material:9>,<pyrotech:material:9>],
-    [<pyrotech:material:9>,<pyrotech:material:9>,<pyrotech:material:9>]
 ]);
 
 mods.betterwithmods.Cauldron.remove([<minecraft:mushroom_stew>]);

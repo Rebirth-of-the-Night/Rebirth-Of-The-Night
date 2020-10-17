@@ -4,10 +4,6 @@ import crafttweaker.data.IData;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-
-furnace.addRecipe(<betterwithmods:cooking_pot>, <betterwithmods:unfired_pottery>);
-
-
 mods.betterwithmods.Crucible.removeAll();
 
 

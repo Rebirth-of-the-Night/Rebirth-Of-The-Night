@@ -39,15 +39,15 @@ mods.betterwithmods.Kiln.builder()
 .setHeat(1)
 .build();
 mods.betterwithmods.Kiln.builder()
-.buildRecipe(<betterwithmods:unfired_pottery>, [<betterwithmods:cooking_pot>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
 .buildRecipe(<contenttweaker:crucible>, [<betterwithmods:cooking_pot>])
 .setHeat(1)
 .build();
 mods.betterwithmods.Kiln.builder()
 .buildRecipe(<betterwithmods:unfired_pottery:1>, [<betterwithmods:planter>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<contenttweaker:pot_unfired>, [<rustic:vase>])
 .setHeat(1)
 .build();
 mods.betterwithmods.Kiln.builder()

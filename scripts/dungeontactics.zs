@@ -49,6 +49,7 @@ mods.jei.JEI.removeAndHide(<dungeontactics:titanium_tinydust>);
 mods.jei.JEI.removeAndHide(<dungeontactics:osmium_tinydust>);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:coal_dust>);
+mods.jei.JEI.removeAndHide(<dungeontactics:copper_dust>);
 mods.jei.JEI.removeAndHide(<dungeontactics:steel_dust>);
 mods.jei.JEI.removeAndHide(<dungeontactics:aluminium_dust>);
 mods.jei.JEI.removeAndHide(<dungeontactics:nickel_dust>);
@@ -190,6 +191,8 @@ mods.jei.JEI.removeAndHide(<dungeontactics:iron_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:gold_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:tin_cluster>);
 mods.jei.JEI.removeAndHide(<dungeontactics:copper_cluster>);
+
+furnace.remove(<simpleores:copper_ore>, <dungeontactics:iron_cluster>);
 
 mods.jei.JEI.removeAndHide(<dungeontactics:bottled_milk>);
 mods.jei.JEI.removeAndHide(<dungeontactics:toast>);

@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/firedrefractory",
-      "particle": "contenttweaker:blocks/firedrefractory"
+      "texture": "contenttweaker:blocks/refracotta/refracotta_blue",
+      "particle": "contenttweaker:blocks/refracotta/refracotta_blue"
     },
     "model": "base:storage",
     "uvlock": true,

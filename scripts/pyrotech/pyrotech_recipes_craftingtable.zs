@@ -189,7 +189,7 @@ recipes.addShaped("pyro_stone_faucet", <pyrotech:faucet_stone>*2,
   [<ore:twine>,stoneBrick,<ore:twine>]]);
 recipes.addShaped("pyro_refractory_faucet", <pyrotech:faucet_brick>*2,
  [[<pyrotech:material:5>,null,<pyrotech:material:5>],
-  [<ore:twine>,<pyrotech:material:5>,<ore:twine>]]);
+  [<pyrotech:material:4>,<pyrotech:material:5>,<pyrotech:material:4>]]);
 recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
   [null,<minecraft:clay_ball>,null]]);
@@ -209,7 +209,7 @@ recipes.addShaped("refractoryBlock", <contenttweaker:unfiredrefractory>,
 [[<pyrotech:material:4>, <pyrotech:material:4>],
 [<pyrotech:material:4>, <pyrotech:material:4>]]);
 recipes.addShapeless("refractoryfromblock", <pyrotech:material:4>*4,[<contenttweaker:unfiredrefractory>]);
-furnace.addRecipe(<contenttweaker:firedrefractory>, <contenttweaker:unfiredrefractory>);
+furnace.addRecipe(<contenttweaker:refracotta>, <contenttweaker:unfiredrefractory>);
 recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
  [[stoneBrick,null,stoneBrick],

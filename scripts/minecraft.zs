@@ -893,6 +893,9 @@ nitrogen.addAll(<ore:listAllmeatraw>);
 val foundryclay = <ore:foundryClayblock>;
 foundryclay.add(<contenttweaker:unfiredrefractory>);
 
+val refracotta = <ore:refracotta>;
+refracotta.addItems([<contenttweaker:refracotta>,<contenttweaker:refracotta_gray>,<contenttweaker:refracotta_yellow>,<contenttweaker:refracotta_cyan>,<contenttweaker:refracotta_magenta>,<contenttweaker:refracotta_lime>,<contenttweaker:refracotta_white>,<contenttweaker:refracotta_pink>,<contenttweaker:refracotta_brown>,<contenttweaker:refracotta_light_blue>,<contenttweaker:refracotta_red>,<contenttweaker:refracotta_green>,<contenttweaker:refracotta_blue>,<contenttweaker:refracotta_black>,<contenttweaker:refracotta_purple>,<contenttweaker:refracotta_light_gray>,<contenttweaker:refracotta_orange>]);
+
 val copperBlock = <ore:blockCopper>;
 copperBlock.addItems([<caves_and_cliffs:copper_block>,<caves_and_cliffs:copper_block_stage_1>,<caves_and_cliffs:copper_block_stage_2>,<caves_and_cliffs:copper_block_stage_3>]);
 

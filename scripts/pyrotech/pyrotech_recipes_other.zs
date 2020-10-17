@@ -14,6 +14,9 @@ CompactingBin.addRecipe("starblock_from_stars", <nyx:star_block>, <nyx:fallen_st
 CompactingBin.addRecipe("magma_verus_block", <betterwithaddons:elytra_magma>, <betterwithaddons:material:6>, 4);
 CompactingBin.addRecipe("rat_cheese_block", <rats:block_of_cheese>, <ore:foodCheese>, 4);
 CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <betterwithaddons:congealed>, 3);
+CompactingBin.addRecipe("modeling_refractory", <contenttweaker:modelingrefractory>, <contenttweaker:unfiredrefractory>, 4);
+CompactingBin.addRecipe("modeling_refractory1", <contenttweaker:modelingrefractory>, <pyrotech:material:4>, 16);
+
 
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 120 * 20);
@@ -37,7 +40,6 @@ SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
 SoakingPot.addRecipe("vis_sliver", <contenttweaker:vis_sliver>, <liquid:lunar_water>*250, <contenttweaker:vis_speck>*4, 1 * 60 * 20);
 SoakingPot.addRecipe("vis_shard", <contenttweaker:vis_shard>, <liquid:lunar_water>*500, <contenttweaker:vis_sliver>*4, 5 * 60 * 20);
-SoakingPot.addRecipe("ender_amethyst", <netherex:amethyst_crystal>, <liquid:ender_slag>*200, <biomesoplenty:gem>*4, 1 * 60 * 20);
 
 // concrete
 SoakingPot.addRecipe("white_concrete", <minecraft:concrete:0>*8, <liquid:water>*500, <minecraft:concrete_powder:0>*8, 5 * 60 * 20);

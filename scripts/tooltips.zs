@@ -102,7 +102,8 @@
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
 <pyrotech:flint_and_tinder>.addTooltip("Not as convenient as a flint and steel.");
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
-<contenttweaker:firedrefractory>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
+<contenttweaker:refracotta>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
+<contenttweaker:modelingrefractory>.addTooltip("Malleable and Homogeneous, ready for modeling.");
 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
@@ -201,6 +202,8 @@
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+
+<artisanworkstumps:workstump_potter>.addTooltip("Enables hand-building pottery.");
 
 //Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");

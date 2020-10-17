@@ -1,0 +1,54 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-item",
+    "model": "forge:item-layer"
+  },
+  "variants": {
+    "bucket": [{ "textures": { "layer0": "ceramics:items/unfired_bucket" }}],
+    "shears": [{ "textures": { "layer0": "ceramics:items/unfired_shears" }}],
+    "porcelain": [{ "textures": { "layer0": "ceramics:items/porcelain_ball" }}],
+    "porcelain_brick": [{ "textures": { "layer0": "ceramics:items/porcelain_brick" }}],
+    "clay_plate": [{ "textures": { "layer0": "ceramics:items/clay_plate" }}],
+    "clay_plate_raw": [{ "textures": { "layer0": "ceramics:items/clay_plate_raw" }}],
+    
+    "barrel": {
+      "transform": "forge:default-block",
+      "model": "ceramics:barrel",
+      "textures": {
+        "texture": "contenttweaker:blocks/unfiredrefractory"
+      }
+    },
+    "barrel_extension": {
+      "model": "ceramics:barrel_extension",
+      "textures": {
+        "texture": "contenttweaker:blocks/unfiredrefractory"
+      }
+    },
+
+    "faucet": {
+      "model": "ceramics:faucet",
+      "textures": {
+        "tex": "ceramics:blocks/porcelain_raw"
+      }
+    },
+    "faucet_clay": {
+      "model": "ceramics:faucet",
+      "textures": {
+        "tex": "contenttweaker:blocks/unfiredrefractory"
+      }
+    },
+    "channel": {
+      "model": "ceramics:channel/inventory",
+      "textures": {
+        "texture": "ceramics:blocks/porcelain_raw"
+      }
+    },
+    "channel_clay": {
+      "model": "ceramics:channel/inventory",
+      "textures": {
+        "texture": "contenttweaker:blocks/unfiredrefractory"
+      }
+    }
+  }
+}
