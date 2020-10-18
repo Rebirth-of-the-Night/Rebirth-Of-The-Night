@@ -10,4 +10,5 @@ criteria.setAdvancement("triumph:advancements/setbonuses/fullEarlyArmor")
 hideLines()
 
 alwaysVisible()
+drawDirectLines()
 setPos(0,0)

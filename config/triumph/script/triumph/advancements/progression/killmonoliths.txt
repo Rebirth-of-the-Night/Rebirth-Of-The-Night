@@ -1,0 +1,19 @@
+setIcon(<minecraft:dirt>)
+setTitle("Monoliths")
+setDescription("Slay The Monoliths.")
+
+addParent("triumph:advancements/progression/killstagnantsignal")
+
+
+criteria = addCriteria("Stagnant Signal", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:dirt")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+hiddenUnless("triumph:advancements/progression/killstagnantsignal")
+drawDirectLines()
+setPos(525,92)

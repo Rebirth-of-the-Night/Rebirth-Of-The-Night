@@ -1,0 +1,15 @@
+setIcon(<minecraft:dirt>)
+setTitle("Quazar ???")
+setDescription("#PLACEHOLDER#")
+
+addParent("triumph:advancements/progression/nether/enterNether")
+
+criteria = addCriteria("Idol of Radiance", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:dirt")
+
+setShowToast(true)
+setFrameType("CHALLENGE")
+
+hiddenUnless("triumph:advancements/progression/killharvester")
+drawDirectLines()
+setPos(185,0)

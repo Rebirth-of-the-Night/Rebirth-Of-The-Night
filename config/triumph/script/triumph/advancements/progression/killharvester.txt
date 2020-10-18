@@ -4,15 +4,14 @@ setDescription("Kill The Harvester.")
 
 addParent("triumph:advancements/progression/earlyArmor")
 
-criteria = addCriteria("Kill Harvester", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/main/killedHarvester")
+criteria = addCriteria("Harvester", "minecraft:player_killed_entity")
+criteria.setEntityType("harvestersnight:harvester")
 
 setShowToast(true)
 setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-// setCompletedIconColor(191, 8, 8)
-
 alwaysVisible()
-setPos(45,0)
+drawDirectLines()
+setPos(65,0)

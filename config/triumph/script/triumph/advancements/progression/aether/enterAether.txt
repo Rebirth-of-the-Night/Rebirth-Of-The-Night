@@ -2,7 +2,7 @@ setIcon(<minecraft:glowstone>)
 setTitle("A Heavenly Realm")
 setDescription("Enter The Aether.")
 
-addParent("triumph:advancements/progression/enterNether")
+addParent("triumph:advancements/progression/nether/enterNether")
 
 addRewardFunction("triumph:enteredAether")
 
@@ -15,6 +15,6 @@ setFrameType("GOAL")
 setUncompletedIconColor(217,255,92)
 
 
+hiddenUnless("triumph:advancements/progression/nether/enterNether")
 drawDirectLines()
-hiddenUnless("triumph:advancements/progression/enterNether")
-setPos(90,-60)
+setPos(185,-60)

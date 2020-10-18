@@ -16,4 +16,5 @@ setUncompletedIconColor(217,255,92)
 
 
 alwaysVisible()
-setPos(90,0)
+drawDirectLines()
+setPos(125,0)

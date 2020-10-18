@@ -1,0 +1,19 @@
+setIcon(<minecraft:dirt>)
+setTitle("Vermin Supreme")
+setDescription("Slay The Vermin Supreme.")
+
+addParent("triumph:advancements/progression/twilight/killbossensemble")
+
+
+criteria = addCriteria("Vermin Supreme", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:dirt")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+hiddenUnless("triumph:advancements/progression/twilight/killbossensemble")
+drawDirectLines()
+setPos(665,0)

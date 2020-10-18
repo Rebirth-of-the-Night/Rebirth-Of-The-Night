@@ -24,4 +24,4 @@ addCriteria("impossible", "minecraft:impossible")
 
 alwaysVisible()
 setHidden(true)
-setPos(0,0)
+setPos(0,-25)

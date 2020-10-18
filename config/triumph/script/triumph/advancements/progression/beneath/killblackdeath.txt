@@ -2,7 +2,7 @@ setIcon(<rats:plague_scythe>)
 setTitle("The Black Death")
 setDescription("Purge the incarnation of corruption.")
 
-addParent("triumph:advancements/progression/mythril")
+addParent("triumph:advancements/progression/beneath/enterBeneath")
 
 criteria = addCriteria("black_death", "minecraft:player_killed_entity")
 criteria.setEntityType("rats:black_death")
@@ -14,4 +14,5 @@ setUncompletedIconColor(255,71,71)
 
 
 hiddenUnless("triumph:advancements/progression/killblackdeath")
-setPos(371,47)
+drawDirectLines()
+setPos(275,-30)
