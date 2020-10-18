@@ -8,8 +8,10 @@ criteria = addCriteria("Kill Harvester", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/main/killedHarvester")
 
 setShowToast(true)
+setAnnounceToChat(true)
 setFrameType("CHALLENGE")
-setUncompletedIconColor(51, 234, 203)
+setUncompletedIconColor(255,71,71)
+
 // setCompletedIconColor(191, 8, 8)
 
 alwaysVisible()

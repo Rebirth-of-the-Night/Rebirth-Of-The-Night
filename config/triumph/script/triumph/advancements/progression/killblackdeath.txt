@@ -8,8 +8,10 @@ criteria = addCriteria("black_death", "minecraft:player_killed_entity")
 criteria.setEntityType("rats:black_death")
 
 setShowToast(true)
-setFrameType("CHALLENGE")
 setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
 
 hiddenUnless("triumph:advancements/progression/killblackdeath")
 setPos(371,47)

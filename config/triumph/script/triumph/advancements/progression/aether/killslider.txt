@@ -8,8 +8,10 @@ criteria = addCriteria("kill_slider", "minecraft:player_killed_entity")
 criteria.setEntityType("aether_legacy:slider")
 
 setShowToast(true)
-setFrameType("CHALLENGE")
 setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
 
 drawDirectLines()
 hiddenUnless("triumph:advancements/progression/aether/killslider")

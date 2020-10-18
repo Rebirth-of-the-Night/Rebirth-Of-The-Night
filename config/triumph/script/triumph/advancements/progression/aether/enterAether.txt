@@ -10,8 +10,10 @@ criteria = addCriteria("entered_aether", "triumph:changed_dimension")
 criteria.setDimensionDestination(4)
 
 setShowToast(true)
+setAnnounceToChat(true)
 setFrameType("GOAL")
-setUncompletedIconColor(137,227,52)
+setUncompletedIconColor(217,255,92)
+
 
 drawDirectLines()
 hiddenUnless("triumph:advancements/progression/enterNether")
