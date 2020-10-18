@@ -18,9 +18,9 @@ setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
 
-hiddenUnless("triumph:advancements/progression/killsanguinechampion")
-hiddenUnless("triumph:advancements/progression/killRAT")
-hiddenUnless("triumph:advancements/progression/killverminsupreme")
-hiddenUnless("triumph:advancements/progression/killdarkprophet")
+visibleIf("triumph:advancements/progression/killsanguinechampion")
+visibleIf("triumph:advancements/progression/killRAT")
+visibleIf("triumph:advancements/progression/killverminsupreme")
+visibleIf("triumph:advancements/progression/killdarkprophet")
 drawDirectLines()
 setPos(729,0)

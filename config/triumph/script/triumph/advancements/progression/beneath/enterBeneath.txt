@@ -16,7 +16,7 @@ setFrameType("GOAL")
 setUncompletedIconColor(217,255,92)
 
 
-hiddenUnless("triumph:advancements/progression/nether/enterNether")
-hiddenUnless("triumph:advancements/progression/aether/enterAether")
+visibleIf("triumph:advancements/progression/nether/killquazar")
+visibleIf("triumph:advancements/progression/aether/enterAether")
 drawDirectLines()
 setPos(245,0)

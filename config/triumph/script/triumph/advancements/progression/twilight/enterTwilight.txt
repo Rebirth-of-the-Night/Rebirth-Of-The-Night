@@ -18,7 +18,7 @@ setFrameType("GOAL")
 setUncompletedIconColor(217,255,92)
 
 
-hiddenUnless("triumph:advancements/progression/wither/killghastqueen")
-hiddenUnless("triumph:advancements/progression/wither/killprimordial")
+visibleIf("triumph:advancements/progression/wither/killghastqueen")
+visibleIf("triumph:advancements/progression/wither/killprimordial")
 drawDirectLines()
 setPos(565,0)
