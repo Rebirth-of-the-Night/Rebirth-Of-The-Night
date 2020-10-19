@@ -6,16 +6,16 @@ addParent("triumph:advancements/setbonuses/root")
 
 
 criteria = addCriteria("Fire Dragon Scale Helmet", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/helmet")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/flamesofpride/helmet")
 
 criteria = addCriteria("Fire Dragon Scale Chestplate", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/chestplate")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/flamesofpride/chestplate")
 
 criteria = addCriteria("Fire Dragon Scale Leggings", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/leggings")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/flamesofpride/leggings")
 
 criteria = addCriteria("Fire Dragon Scale Boots", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/flamesofpride/boots")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/flamesofpride/boots")
 
 hideLines()
 alwaysVisible()

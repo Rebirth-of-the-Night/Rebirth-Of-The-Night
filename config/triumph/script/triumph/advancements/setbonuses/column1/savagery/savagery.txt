@@ -5,19 +5,19 @@ setDescription("Complete the Savagery set.")
 addParent("triumph:advancements/setbonuses/root")
 
 criteria = addCriteria("Helmet", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/savagery/helmet")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/helmet")
 
 criteria = addCriteria("Chestplate", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/savagery/chestplate")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/chestplate")
 
 criteria = addCriteria("Leggings", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/savagery/leggings")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/leggings")
 
 criteria = addCriteria("Boots", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/savagery/boots")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/boots")
 
 criteria = addCriteria("Offhand", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/savagery/offhand")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/offhand")
 
 hideLines()
 alwaysVisible()

@@ -6,16 +6,16 @@ addParent("triumph:advancements/setbonuses/root")
 
 
 criteria = addCriteria("Ice Dragon Scale Helmet", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/helmet")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/glacialfortitude/helmet")
 
 criteria = addCriteria("Ice Dragon Scale Chestplate", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/chestplate")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/glacialfortitude/chestplate")
 
 criteria = addCriteria("Ice Dragon Scale Leggings", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/leggings")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/glacialfortitude/leggings")
 
 criteria = addCriteria("Ice Dragon Scale Boots", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/glacialfortitude/boots")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/glacialfortitude/boots")
 
 hideLines()
 alwaysVisible()

@@ -7,16 +7,16 @@ addParent("triumph:advancements/setbonuses/root")
 // addRewardFunction("triumph:fullMidArmor")
 
 criteria = addCriteria("Helmet", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/helmet")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/helmet")
 
 criteria = addCriteria("Chestplate", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/chestplate")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/chestplate")
 
 criteria = addCriteria("Leggings", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/leggings")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/leggings")
 
 criteria = addCriteria("Boots", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/boots")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/boots")
 
 hideLines()
 alwaysVisible()

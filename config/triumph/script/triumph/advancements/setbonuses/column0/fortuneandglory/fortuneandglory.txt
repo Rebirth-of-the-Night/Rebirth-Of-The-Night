@@ -11,10 +11,10 @@ criteria = addCriteria("Chestplate", "minecraft:inventory_changed")
 criteria.addItem("quark:backpack")
 
 criteria = addCriteria("Leggings", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/fortuneandglory/leggings")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/fortuneandglory/leggings")
 
 criteria = addCriteria("Boots", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/fortuneandglory/boots")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/fortuneandglory/boots")
 
 hideLines()
 alwaysVisible()
