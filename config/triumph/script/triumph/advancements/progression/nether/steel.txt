@@ -9,4 +9,4 @@ criteria.addItem("dungeontactics:steel_ingot")
 
 hiddenUnless("triumph:advancements/progression/killharvester")
 drawDirectLines()
-setPos(155,30)
+setPos(95,30)

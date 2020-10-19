@@ -14,4 +14,4 @@ setUncompletedIconColor(255,71,71)
 
 hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
 drawDirectLines()
-setPos(335,-30)
+setPos(337,-68)

@@ -16,4 +16,4 @@ setUncompletedIconColor(255,71,71)
 
 hiddenUnless("triumph:advancements/progression/aether/killslider")
 drawDirectLines()
-setPos(215,-90)
+setPos(213,-68)

@@ -16,4 +16,4 @@ setUncompletedIconColor(255,71,71)
 
 hiddenUnless("triumph:advancements/progression/killmonoliths")
 drawDirectLines()
-setPos(665,92)
+setPos(665,78)

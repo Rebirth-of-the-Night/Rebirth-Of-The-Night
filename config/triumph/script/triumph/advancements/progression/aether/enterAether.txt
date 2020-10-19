@@ -17,4 +17,4 @@ setUncompletedIconColor(217,255,92)
 
 hiddenUnless("triumph:advancements/progression/nether/enterNether")
 drawDirectLines()
-setPos(185,-60)
+setPos(185,-40)
