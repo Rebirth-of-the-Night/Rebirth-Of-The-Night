@@ -227,7 +227,7 @@
       "mob": "primitivemobs:brain_slime",
       "player": true,
       "item": "contenttweaker:brain",
-      "itemcount": "1"
+      "itemcount": "1",
       "random": "0.1"
    },
 
@@ -358,7 +358,7 @@
       "mob": "specialmobs:strawberryslime",
       "player": true,
       "item": "harvestcraft:strawberryitem",
-      "itemcount": "1"
+      "itemcount": "1",
 	  "random": "0.1"
    },
    {
@@ -493,7 +493,7 @@
   {
     "mob": "mowziesmobs:lantern",
     "player": true,
-    "item": "mowziesmobs:glowing_jelly"
+    "item": "mowziesmobs:glowing_jelly",
 	"itemcount": "1",
     "random": "0.25"
   },
