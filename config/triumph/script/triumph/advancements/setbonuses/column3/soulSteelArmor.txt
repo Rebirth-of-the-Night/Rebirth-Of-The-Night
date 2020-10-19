@@ -1,6 +1,6 @@
 setIcon("betterwithmods:steel_chest")
-setTitle("Nerves of Steel")
-setDescription("Complete the Nerves of Steel set.")
+setTitle("Soul Steel")
+setDescription("Complete the Soul Steel set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
