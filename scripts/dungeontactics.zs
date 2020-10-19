@@ -489,19 +489,9 @@ recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device
 mods.jei.JEI.addDescription(<dungeontactics:tunnelling_device>,"Creates concentrated blasts of explosive energy. Useful for terraforming large areas of dirt, sand, and other soft blocks, but the smaller concentration of energy has no effect on harder stone blocks.");
 
 
-recipes.remove(<dungeontactics:piston_glove>);
-recipes.addShaped("Portable Piston Device", <dungeontactics:piston_glove>,[
-	[null, <dungeontactics:steel_ingot>, null],
-    [<dungeontactics:steel_ingot>, <minecraft:piston>, <betterwithmods:material:31>],
-    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
-]);
+mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove>);
 
-recipes.remove(<dungeontactics:piston_glove_sticky>);
-recipes.addShaped("Portable Piston Device (Sticky)", <dungeontactics:piston_glove_sticky>,[
-	[null, <dungeontactics:steel_ingot>, null],
-    [<dungeontactics:steel_ingot>, <minecraft:sticky_piston>, <betterwithmods:material:31>],
-    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
-]);
+mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove_sticky>);
 
 
 recipes.remove(<dungeontactics:powered_bars>);
