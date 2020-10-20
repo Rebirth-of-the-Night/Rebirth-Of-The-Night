@@ -490,9 +490,9 @@ mods.jei.JEI.addDescription(<dungeontactics:tunnelling_device>,"Creates concentr
 
 
 mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove>);
-
 mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove_sticky>);
-
+mods.ltt.LootTable.removeGlobalItem(<dungeontactics:piston_glove>);
+mods.ltt.LootTable.removeGlobalItem(<dungeontactics:piston_glove_sticky>);
 
 recipes.remove(<dungeontactics:powered_bars>);
 recipes.addShaped("Powered Bars", <dungeontactics:powered_bars>,[
