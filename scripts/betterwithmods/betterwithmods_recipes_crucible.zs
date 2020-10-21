@@ -40,55 +40,7 @@ mods.betterwithmods.Crucible.addStoked(
     ]
 );
 
-//Gem Ingots
 //Overworld gems are alloyed with steel, while Amethyst is alloyed with Endorium
-mods.betterwithmods.Crucible.addUnstoked(
-    [
-        <dungeontactics:steel_ingot>,
-        <ore:gemDiamond>
-    ],
-    [
-        <betterwithmods:material:45>
-    ]
-);
-mods.betterwithmods.Crucible.addUnstoked(
-    [
-        <dungeontactics:steel_ingot>,
-        <ore:gemRuby>
-    ],
-    [
-        <contenttweaker:ruby_ingot>
-    ]
-);
-mods.betterwithmods.Crucible.addUnstoked(
-    [
-        <dungeontactics:steel_ingot>,
-        <ore:gemSapphire>
-    ],
-    [
-        <contenttweaker:sapphire_ingot>
-    ]
-);
-mods.betterwithmods.Crucible.addUnstoked(
-    [
-        <dungeontactics:steel_ingot>,
-        <ore:gemPeridot>
-    ],
-    [
-        <contenttweaker:peridot_ingot>
-    ]
-);
-//mods.betterwithmods.Crucible.addUnstoked(
-//    [
-//        <dungeontactics:steel_ingot>,
-//        <ore:gemAmethyst>
-//    ],
-//    [
-//        <contenttweaker:amethyst_ingot>
-//    ]
-//);
-
-
 //Stoked Gem Ingots
 mods.betterwithmods.Crucible.addStoked(
     [
