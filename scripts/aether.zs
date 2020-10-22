@@ -1,8 +1,12 @@
 import crafttweaker.item.IIngredient;
 
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
-
-
+mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_pickaxe>);
+mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_axe>);
+mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_shovel>);
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:skyroot_pickaxe");
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:skyroot_axe");
+mods.ltt.LootTable.removeGlobalItem("aether_legacy:skyroot_shovel");
 
 mods.jei.JEI.removeAndHide(<aeble:obsidian_ring>);
 mods.jei.JEI.removeAndHide(<aeble:zanite_ring>);

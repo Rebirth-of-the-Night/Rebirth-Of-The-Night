@@ -194,8 +194,8 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]); #remove defa
 mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); # tanned leather
 mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:7>],[<betterwithmods:material:6>]);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]); #remove default BWM bark-cut tanned leather recipe as well as dung variants
-mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]); # tanned cut leather
-mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>]);
+mods.betterwithmods.Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>*2]); # tanned cut leather
+mods.betterwithmods.Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>*2]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_boots>);
 mods.jei.JEI.removeAndHide(<betterwithmods:wool_chest>);

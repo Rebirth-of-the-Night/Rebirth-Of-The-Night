@@ -24,6 +24,7 @@ recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
 ]);
 
 recipes.remove(<minecraft:tipped_arrow>);
+mods.jei.JEI.hide(<minecraft:tipped_arrow>);
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
 
@@ -535,26 +536,14 @@ recipes.addShaped("crafting_table",<minecraft:crafting_table>,[
     [<ore:stickMat>,<ore:stickMat>]
 ]);
 
-recipes.remove(<minecraft:wooden_shovel>);
-recipes.addShaped("wooden_shovel",<minecraft:wooden_shovel>,[
-    [<ore:stickMat>],
-    [<ore:stickWood>],
-    [<ore:stickWood>]
-]);
-
-recipes.remove(<minecraft:wooden_pickaxe>);
-recipes.addShaped("wooden_pickaxe",<minecraft:wooden_pickaxe>,[
-    [<ore:stickMat>,<ore:stickMat>,<ore:stickMat>],
-    [null,<ore:stickWood>,null],
-    [null,<ore:stickWood>,null]
-]);
-
-recipes.remove(<minecraft:wooden_axe>);
-recipes.addShapedMirrored("wooden_axe",<minecraft:wooden_axe>,[
-    [<ore:stickMat>,<ore:stickMat>],
-    [<ore:stickMat>,<ore:stickWood>],
-    [null,<ore:stickWood>]
-]);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_shovel>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_pickaxe>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_axe>);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_hoe>);
+mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_pickaxe");
+mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_axe");
+mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_hoe");
+mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_shovel");
 
 recipes.remove(<dungeontactics:sharp_stick>);
 mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>);

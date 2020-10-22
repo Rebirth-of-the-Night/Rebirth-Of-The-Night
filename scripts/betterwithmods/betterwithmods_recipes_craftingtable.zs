@@ -82,7 +82,7 @@ recipes.remove(<betterwithmods:cooking_pot:1>);
 
 val cooking_cauldron = <betterwithmods:cooking_pot:1>;
 val cauldron = <minecraft:cauldron>;
-val whisk = <minecraft:wooden_shovel>|<ore:bone>;
+val whisk = <ore:bone>;
 val bucket = <pyrotech:bucket_wood>|<pyrotech:bucket_clay>|<pyrotech:bucket_stone>|<minecraft:bucket>;
 
 recipes.addShaped("cooking_cauldron", cooking_cauldron,

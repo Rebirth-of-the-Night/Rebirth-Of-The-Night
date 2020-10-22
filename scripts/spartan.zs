@@ -3,6 +3,10 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.oredict.IOreDictEntry;
 
+mods.jei.JEI.hide(<spartanweaponry:arrow_wood_tipped>);
+mods.jei.JEI.hide(<spartanweaponry:arrow_iron_tipped>);
+mods.jei.JEI.hide(<spartanweaponry:arrow_diamond_tipped>);
+
 //Remove soulforged/refined weapoons (sfs is only used for tools and armor, a defensive material)
 mods.jei.JEI.removeAndHide(<spartancompat:dagger_soulforged_steel>);
 mods.jei.JEI.removeAndHide(<spartancompat:longsword_soulforged_steel>);

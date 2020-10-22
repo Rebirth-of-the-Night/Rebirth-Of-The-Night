@@ -25,7 +25,7 @@ recipes.removeByRecipeName("harvestcraft:string_listallfiber");
 mods.betterwithmods.Mill.remove([<minecraft:dye:2>]);
 
 //Mortar and pestle recipes
-recipes.addShapeless("standard_dye_1 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<aether_legacy:purple_flower>]);
+/* recipes.addShapeless("standard_dye_1 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<aether_legacy:purple_flower>]);
 recipes.addShapeless("standard_dye_2 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:8>]);
 recipes.addShapeless("standard_dye_3 ",<minecraft:dye:5>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:0>]);
 recipes.addShapeless("standard_dye_4 ",<minecraft:dye:6>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:1>]);
@@ -67,7 +67,7 @@ recipes.addShapeless("goldenrod_dye",<minecraft:dye:11>,[<ore:toolMortarandpestl
 recipes.addShapeless("bromeliad_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_0:11>]);
 recipes.addShapeless("red_mold_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<betternether:red_mold>]);
 recipes.addShapeless("rose_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:flower_1:5>]);
-recipes.addShapeless("rafflesia_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:plant_1:10>]);
+recipes.addShapeless("rafflesia_dye",<minecraft:dye:1>,[<ore:toolMortarandpestle>,<biomesoplenty:plant_1:10>]); */
 
 recipes.addShapeless("plant_partition_1",<harvestcraft:flaxseeditem>*3,[<biomesoplenty:double_plant:0>]);
 
