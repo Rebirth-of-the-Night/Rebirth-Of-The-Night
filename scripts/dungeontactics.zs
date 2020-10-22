@@ -151,6 +151,14 @@ recipes.addShaped("flight_googles",<dungeontactics:flight_goggles>,[
     [<ore:genericMetal>,null,<ore:genericMetal>]
 ]);
 
+
+// broken item
+// https://www.curseforge.com/minecraft/mc-mods/dungeon-tactics/issues/156
+mods.ltt.LootTable.removeGlobalItem("dungeontactics:alchemist_brew");
+
+
+
+
 mods.jei.JEI.removeAndHide(<dungeontactics:trap_boom>);
 
 furnace.remove(<dungeontactics:steel_ingot>);
