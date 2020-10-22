@@ -54,40 +54,7 @@
             }
         },	
 
-        "musicRecommended":
-        {
-            "text" : "Recommended!",
-            "normalTextColor" : 65280,
-            "hoverTextColor" : 65280,
-			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 12,
-            "width" : 100,
-            "height" : 20,
-			"imageWidth" : 0,
-			"imageHeight" : 0,
-			"alignment" : "top_right"
-        },
 
-        "music":
-        {
-            "text" : "Install RotN Soundtrack",
-            "normalTextColor" : 12303291,
-            "hoverTextColor" : 3125670,
-            "texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 0,
-            "width" : 100,
-            "height" : 27,
-            "imageWidth" : 100,
-            "imageHeight" : 50,
-            "alignment" : "top_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://wiki.rebirthofthenight.com/wiki/Installation#Installing_The_Official_Soundtrack_.28recommended.29"
-            }
-        },
         "discord":
         {
             "text" : "Join The Discord",
@@ -95,7 +62,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 30,
+            "posY" : 0,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -114,7 +81,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 50,
+            "posY" : 20,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -133,7 +100,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 70,
+            "posY" : 40,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
@@ -152,7 +119,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
-            "posY" : 90,
+            "posY" : 60,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
