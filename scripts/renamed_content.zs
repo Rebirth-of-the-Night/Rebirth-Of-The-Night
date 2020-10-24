@@ -653,8 +653,8 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 #Legendary
 
-<nyx:comet_shard>.displayName = "§6Comet Shard";
-<nyx:comet_shard>.addTooltip("Crafting Material");
+<nyx:meteor_shard>.displayName = "§6Meteor Shard";
+<nyx:meteor_shard>.addTooltip("Crafting Material");
 
 
 

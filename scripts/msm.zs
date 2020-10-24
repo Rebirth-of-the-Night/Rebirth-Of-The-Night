@@ -270,7 +270,6 @@ var lightsedge = <msmlegacy:crystaline_blade>;
 var divinity = <behgameon:accessory_49>;
 var lamp = <twilightforest:lamp_of_cinders>;
 var heartcontainer = <scalinghealth:heartcontainer>;
-var cometshard = <nyx:comet_shard>;
 
 
 mods.betterwithmods.Anvil.addShaped(<contenttweaker:heavensheart>, 

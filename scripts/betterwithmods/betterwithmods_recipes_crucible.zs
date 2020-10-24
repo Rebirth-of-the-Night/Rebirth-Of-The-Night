@@ -265,7 +265,7 @@ mods.betterwithmods.Crucible.addUnstoked(
 mods.betterwithmods.Crucible.addUnstoked(
     [
         <biomesoplenty:log_1:5>*4,
-		<nyx:comet_shard>
+		<nyx:meteor_shard>
     ],
     [
         <dungeontactics:magic_powder>*16
@@ -285,7 +285,7 @@ mods.betterwithmods.Crucible.addStoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <biomesoplenty:log_1:5>*4,
-		<nyx:comet_shard>
+		<nyx:meteor_shard>
     ],
     [
         <dungeontactics:magic_powder>*24

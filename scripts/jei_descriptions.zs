@@ -333,7 +333,6 @@ mods.jei.JEI.addDescription(<advancedliftingmethods:blowing_elevator>,"Thanks to
 
 /* Stars */
 mods.jei.JEI.addDescription(<nyx:fallen_star>,"A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower.");
-mods.jei.JEI.addDescription(<nyx:comet_shard>,"A very rare find. These toughened rock chunks fall from the sky, but are also found embedded within Elder Guardians.");
 
 
 /* Hearts */

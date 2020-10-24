@@ -1151,4 +1151,4 @@ recipes.addShaped("arcane mortar", <advancedmortars:mortar:2>, [[<contenttweaker
 
 // Mystical Mortar
 recipes.remove(<advancedmortars:mortar:4>);
-recipes.addShaped("mystical mortar", <advancedmortars:mortar:4>, [[<contenttweaker:vis_sliver>, <simpleores:mythril_rod>, <contenttweaker:vis_sliver>],[<simpleores:mythril_ingot>, <nyx:comet_shard>, <simpleores:mythril_ingot>], [<nyx:fallen_star>, <simpleores:mythril_ingot>, <nyx:fallen_star>]]);
+recipes.addShaped("mystical mortar", <advancedmortars:mortar:4>, [[<contenttweaker:vis_sliver>, <simpleores:mythril_rod>, <contenttweaker:vis_sliver>],[<simpleores:mythril_ingot>, <nyx:meteor_shard>, <simpleores:mythril_ingot>], [<nyx:fallen_star>, <simpleores:mythril_ingot>, <nyx:fallen_star>]]);
