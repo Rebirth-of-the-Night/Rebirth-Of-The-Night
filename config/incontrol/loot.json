@@ -15,6 +15,41 @@
       "gamestage": "slayersjournal"
    },
 
+
+      
+
+   // Harvester
+   {
+      "mob": "harvestersnight:harvester",
+      "player": true,
+      "item": "contenttweaker:shard_of_night",
+      "itemcount": "1"
+   },
+   {
+      "mob": "harvestersnight:harvester",
+      "player": true,
+      "item": "golems:golem_head",
+      "itemcount": "1",
+      "random": "0.4"
+   },
+
+   // Quazar
+   {
+      "mob": "betterslimes:king_slime",
+      "player": true,
+      "item": "contenttweaker:volatile_core",
+      "itemcount": "1"
+   },
+   {
+      "mob": "betterslimes:king_slime",
+      "player": true,
+      "item": "contenttweaker:mercurial_ooze",
+      "itemcount": "1"
+   },
+
+
+
+
    {
       "mob": "aether_legacy:sun_spirit",
       "remove": "aether_legacy:sun_altar"
@@ -405,22 +440,7 @@
       "random": "0.02"
    },
 
-   
 
-   // Harvester
-   {
-      "mob": "harvestersnight:harvester",
-      "player": true,
-      "item": "contenttweaker:shard_of_night",
-      "itemcount": "1"
-   },
-   {
-      "mob": "harvestersnight:harvester",
-      "player": true,
-      "item": "golems:golem_head",
-      "itemcount": "1",
-      "random": "0.4"
-   },
 
 	// Ghast Queen Drops
 	{

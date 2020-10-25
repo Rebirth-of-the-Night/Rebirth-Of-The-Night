@@ -5,14 +5,17 @@ import crafttweaker.item.IItemStack;
 
 <butterflies:butterfly_case>.displayName = "Butterfly Display Case";
 
+// Progression
 <contenttweaker:shard_of_night>.displayName = "§5Shard of Night";
+<contenttweaker:volatile_core>.displayName = "§5Volatile Core";
+<contenttweaker:mercurial_ooze>.displayName = "§5Mercurial Ooze";
+<contenttweaker:heart_of_fire>.displayName = "§5Heart of Fire";
 
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
-
-
 <multiblockmobs:soul_chassis>.displayName = "Soulfire Chassis";
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
+
 
 
 // Slimes
