@@ -5,6 +5,25 @@
 
 <golems:golem_head>.addTooltip("Used for summoning Golems");
 
+
+
+#Nyx
+<nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
+<nyx:scythe>.addTooltip("Destroys crops and plants in a 9x9x9 area");
+<nyx:scythe>.addTooltip("Has a chance to double, triple, or quadruple crop and plant drops");
+<nyx:meteor_finder>.addTooltip("Points to the closest meteor impact zone (if any)");
+<nyx:meteor_hammer>.addTooltip("Mines in a 3x3 area (disable by sneaking)");
+<nyx:meteor_hammer>.addTooltip("Hold right-click then let go while looking towards the sky to leap");
+<nyx:meteor_hammer>.addTooltip("Creatures near the impact zone takes damage");
+<nyx:meteor_sword>.addTooltip("Stuns creatures when hit by a critical hit");
+<nyx:meteor_sword>.addTooltip("Has slightly slower attack speed than other arming swords");
+<nyx:crystal>.addTooltip("Passively boosts crop growth when placed near crops");
+
+mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
+
+
+
+
 #Eplus
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");
 
@@ -187,14 +206,13 @@
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
 <dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");
 <dungeontactics:bounce_boots>.addTooltip("Minimizes fall damage with bounciness!");
-<dungeontactics:lantern_magic>.addTooltip("Outputs a magical aura that forces mobs to walk away from it.");
+<dungeontactics:lantern_magic>.addTooltip("Outputs a magical aura that forces most creatures to steer away from it.");
 <iceandfire:dragonbone_bow>.addTooltip("Only shoots Dragonbone Arrows.");
 <dungeontactics:lantern_magic>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 
 <extraalchemy:potion_ring>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
 <dungeontactics:magic_pouch>.addTooltip("Right-click to open.");
-<nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
 
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
