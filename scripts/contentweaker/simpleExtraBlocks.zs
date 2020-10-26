@@ -100,10 +100,6 @@ mythrillunarin.register();
 var endoriumlunarin = VanillaFactory.createBlock("lunarinendoriumbrick", <blockmaterial:Iron>);
 endoriumlunarin.setCreativeTab(<creativetab:buildingBlocks>);
 endoriumlunarin.register();
-//Rime
-var rimelunarin = VanillaFactory.createBlock("lunarinrimebrick", <blockmaterial:Iron>);
-rimelunarin.setCreativeTab(<creativetab:buildingBlocks>);
-rimelunarin.register();
 //Hearth
 var heartlunarin = VanillaFactory.createBlock("lunarinheartbrick", <blockmaterial:Iron>);
 heartlunarin.setCreativeTab(<creativetab:buildingBlocks>);

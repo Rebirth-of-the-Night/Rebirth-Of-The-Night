@@ -1024,10 +1024,6 @@ mods.betterwithmods.Anvil.addShapeless(<contenttweaker:lunarinsfsbrick>*24,
 recipes.addShapeless("lunarin_crystal_heart", <contenttweaker:lunarinheartbrick>*24,
 	[<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>]
 );
-//Should've been farlander since it's a gem, oh whatever
-recipes.addShapeless("lunarin_rime", <contenttweaker:lunarinrimebrick>*24,
-	[<ore:gemRime>, <ore:gemRime>, <ore:gemRime>, <ore:gemRime>, <ore:gemRime>, <ore:gemRime>]
-);
 recipes.addShapeless("lunarin_fiery", <contenttweaker:lunarinfierybrick>*24,
 	[<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
 );

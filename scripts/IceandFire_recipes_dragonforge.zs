@@ -20,6 +20,6 @@ mods.iceandfire.recipes.addIceDragonForgeRecipe
 
 //Ender Elevator
 mods.iceandfire.recipes.addFireDragonForgeRecipe
-	(<contenttweaker:elevator>,<netherex:rime_block>,<advancedliftingmethods:ultimate_ender_elevator>); 
+	(<contenttweaker:elevator>,<quark:blaze_lantern>,<advancedliftingmethods:ultimate_ender_elevator>); 
 mods.iceandfire.recipes.addIceDragonForgeRecipe
 	(<contenttweaker:elevator>,<quark:blaze_lantern>,<advancedliftingmethods:ultimate_ender_elevator>);

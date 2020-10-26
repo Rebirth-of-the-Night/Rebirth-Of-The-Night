@@ -547,22 +547,6 @@
         "item": "aether_legacy:zanite_gemstone"
     }
   },
-  {
-    "tool": {
-        "item": "msmlegacy:eye_end_blade"
-    },
-    "material": {
-        "item": "netherex:rime_crystal"
-    }
-  },
-  {
-    "tool": {
-        "item": "msmlegacy:eye_end_blade"
-    },
-    "material": {
-        "item": "minecraft:glass"
-    }
-  },
 
   {
     "tool": {

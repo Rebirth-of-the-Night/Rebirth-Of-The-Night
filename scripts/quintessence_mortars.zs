@@ -735,8 +735,7 @@ netherQuintessenceC.add(
     <minecraft:quartz>,
     <betterwithmods:material:1>,
     <betterwithmods:material:15>,
-    <betterwithmods:material:35>,
-    <netherex:rime_crystal>
+    <betterwithmods:material:35>
 );
 
 // Arcana A - Magical plants and plant-foods

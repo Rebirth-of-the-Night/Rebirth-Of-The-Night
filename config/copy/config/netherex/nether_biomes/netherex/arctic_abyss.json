@@ -335,22 +335,6 @@
 			},
 			"trait": "libraryex:ore",
 			"maximumGenerationHeight": 108
-		}, 
-		{
-			"generationAttempts": 16,
-			"generationStage": "ore",
-			"generationProbability": 1.0,
-			"minimumGenerationHeight": 10,
-			"veinSize": 7,
-			"blockToSpawn": {
-				"block": "netherex:rime_ore"
-			},
-			"randomizeGenerationAttempts": false,
-			"blockToReplace": {
-				"block": "netherex:icy_netherrack"
-			},
-			"trait": "libraryex:ore",
-			"maximumGenerationHeight": 108
 		}
 	],
 	"subBiomes": []

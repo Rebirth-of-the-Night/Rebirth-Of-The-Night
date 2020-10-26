@@ -443,12 +443,6 @@
 
 
 	// Ghast Queen Drops
-	{
-    "mob": "netherex:ghast_queen",
-    "player": true,
-    "item": "netherex:rime_crystal",
-    "itemcount": "50-60"
- 	},
  	{
     "mob": "netherex:ghast_queen",
     "player": true,

@@ -92,8 +92,6 @@ mods.betterwithmods.Anvil.addShaped(<foundry:machine:2>, //Alloy Mixer
 recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_quartz");
 recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_bone_meal");
 
-Mortar.addRecipe(["diamond", "obsidian"], <ceramics:unfired_clay:4> * 9, 5, [<netherex:rime_crystal>, <pyrotech:material:4> * 8]);
-Mortar.addRecipe(["diamond", "obsidian"], <ceramics:unfired_clay:4>, 5, [<netherex:rime_crystal>, <minecraft:clay_ball> * 8]);
 
 //Refracotta colors
 val refracotta = <contenttweaker:refracotta>;

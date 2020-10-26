@@ -8,9 +8,9 @@ block: {
 loot: [
   {
     item: netherex:rime_crystal
-    count: 1
+    count: 0
     xp: 1
-    chance: 1
+    chance: 0
   }
 ]
 texture: {
@@ -25,9 +25,9 @@ recipe: {
 gen: [
   {
 	height : [60, 120]
-	size: 8
-	count: 12
-	chance: 0.8
+	size: 0
+	count: 0
+	chance: 0
 	dimensions: [-1]
   }
 ] 

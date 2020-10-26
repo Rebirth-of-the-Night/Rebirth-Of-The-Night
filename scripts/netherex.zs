@@ -27,6 +27,11 @@ mods.jei.JEI.removeAndHide(<netherex:withered_amedian_hoe>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_hammer>);
 mods.jei.JEI.removeAndHide(<netherex:rime_and_steel>);
 
+ mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_sword>);
+ mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_pickaxe>);
+ mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_shovel>);
+ mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_axe>);
+ mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_hoe>);
 
 mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_sword>);
 mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_pickaxe>);
@@ -117,9 +122,7 @@ recipes.remove(<netherex:frosted_wither_bone>);
 
 
 var frostedwitherbone = <netherex:frosted_wither_bone>;
-var rime = <netherex:rime_block>;
 var obsidian = <minecraft:obsidian>;
-var rimecrystal = <netherex:rime_crystal>;
 var steel = <dungeontactics:steel_ingot>;
 var witherbone = <iceandfire:witherbone>;
 var frostrod = <netherex:frost_rod>;
@@ -161,32 +164,4 @@ recipes.addShaped("Wither Bone", <iceandfire:witherbone>,[
     [witherash, witherash, witherash]
 ]);
 
-recipes.addShaped("Frosted Amedian Sword", <netherex:frosted_amedian_sword>,[
-    [rime, obsidian, rime],
-    [rime, obsidian, rime],
-    [null, frostedwitherbone, null]
-]);
 
-recipes.addShaped("Frosted Amedian Pickaxe", <netherex:frosted_amedian_pickaxe>,[
-    [rime, obsidian, rime],
-    [null, frostedwitherbone, null],
-    [null, frostedwitherbone, null]
-]);
-
-recipes.addShaped("Frosted Amedian Shovel", <netherex:frosted_amedian_shovel>,[
-    [rime],
-    [obsidian],
-    [frostedwitherbone]
-]);
-
-recipes.addShapedMirrored("Frosted Amedian Axe", <netherex:frosted_amedian_axe>,[
-    [rime, obsidian],
-    [rime, frostedwitherbone],
-    [null, frostedwitherbone]
-]);
-
-recipes.addShapedMirrored("Frosted Amedian Hoe", <netherex:frosted_amedian_hoe>,[
-    [rime, obsidian],
-    [null, frostedwitherbone],
-    [null, frostedwitherbone]
-]);

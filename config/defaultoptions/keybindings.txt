@@ -60,7 +60,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_keybind.hammercorerenderstack:0
 key_cos.key.opencosarmorinventory:0
 key_Toggle Magnetism Suppressor:0
 key_neat.keybind.toggle:0

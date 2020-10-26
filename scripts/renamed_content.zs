@@ -328,11 +328,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:reeds_gate>.displayName = "Reeds Fence Gate";
 
 // NetherEX
-<netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";
-<netherex:frosted_amedian_pickaxe>.displayName = "Frosted Rime Pickaxe";
-<netherex:frosted_amedian_axe>.displayName = "Frosted Rime Axe";
-<netherex:frosted_amedian_shovel>.displayName = "Frosted Rime Shovel";
-<netherex:frosted_amedian_hoe>.displayName = "Frosted Rime Hoe";
 <netherex:basalt>.displayName = "Black Basalt";
 <netherex:smooth_basalt>.displayName = "Smooth Black Basalt";
 <netherex:basalt_brick>.displayName = "Black Basalt Bricks";
