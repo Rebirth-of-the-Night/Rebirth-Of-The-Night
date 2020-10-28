@@ -20,6 +20,7 @@ var dragonScaleWhiteArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:ar
 var dragonScaleSapphireArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:armor_sapphire_(helmet|chestplate|leggings|boots)") as IItemStack[];
 var dragonScaleSilverArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:armor_silver_(helmet|chestplate|leggings|boots)") as IItemStack[];
 var soulforgedSteelArmor = itemUtils.getItemsByRegexRegistryName("betterwithmods:steel_(helmet|chest|pants|boots)") as IItemStack[];
+var meteorArmor = itemUtils.getItemsByRegexRegistryName("nyx:meteor_(helm|chest|pants|boots") as IItemStack[];
 
 var anvilArmorMap = {
     <ore:ingotMythril> : mythrilArmor,
@@ -36,6 +37,7 @@ var anvilArmorMap = {
     <iceandfire:dragonscales_sapphire> : dragonScaleSapphireArmor,
     <iceandfire:dragonscales_silver> : dragonScaleSilverArmor,
     <betterwithmods:material:14> : soulforgedSteelArmor,
+    <nyx:meteor_ingot> : meteorArmor
 } as IItemStack[][IIngredient];
 
 var plateArmor = <betterwithmods:material:42>;
@@ -386,12 +388,14 @@ var dragonsteelFireTool = itemUtils.getItemsByRegexRegistryName("iceandfire:drag
 var dragonsteelIceTool = itemUtils.getItemsByRegexRegistryName("iceandfire:dragonsteel_ice_(axe|hoe|pickaxe|shovel|sword)") as IItemStack[];
 var dragonBoneTool = itemUtils.getItemsByRegexRegistryName("iceandfire:dragonbone_(axe|hoe|pickaxe|shovel|sword)") as IItemStack[];
 var soulforgedSteelTool = itemUtils.getItemsByRegexRegistryName("betterwithmods:steel_(axe|hoe|pickaxe|shovel)");
+var meteorTool = itemUtils.getItemsByRegexRegistryName("nyx:meteor_(axe|hoe|pickaxe|shovel|sword") as IItemStack[];
 
 var anvilToolMap = {
     [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:witherbone>] : dragonsteelFireTool,
     [<iceandfire:dragonsteel_ice_ingot>, <iceandfire:witherbone>] : dragonsteelIceTool,
     [<iceandfire:dragonbone>, <iceandfire:witherbone>] : dragonBoneTool,
-    [<betterwithmods:material:14>, <betterwithmods:material:36>] : soulforgedSteelTool
+    [<betterwithmods:material:14>, <betterwithmods:material:36>] : soulforgedSteelTool,
+    [<nyx:meteor_ingot>, <betterwithmods:material:36>] : meteorTool
 } as IItemStack[][IItemStack[]];
 
 for mat, tool in anvilToolMap{
