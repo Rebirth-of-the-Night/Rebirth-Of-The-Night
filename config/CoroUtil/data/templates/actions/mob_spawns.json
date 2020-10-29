@@ -377,7 +377,7 @@
         },
         {
           "entities": [
-            "specialmobs:jumping_creeper"
+            "specialmobs:jumpingcreeper"
           ],
           "count": 5,
           "cmods": [
