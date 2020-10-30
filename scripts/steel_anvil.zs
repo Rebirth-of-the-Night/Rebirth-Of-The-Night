@@ -388,7 +388,7 @@ var dragonsteelFireTool = itemUtils.getItemsByRegexRegistryName("iceandfire:drag
 var dragonsteelIceTool = itemUtils.getItemsByRegexRegistryName("iceandfire:dragonsteel_ice_(axe|hoe|pickaxe|shovel|sword)") as IItemStack[];
 var dragonBoneTool = itemUtils.getItemsByRegexRegistryName("iceandfire:dragonbone_(axe|hoe|pickaxe|shovel|sword)") as IItemStack[];
 var soulforgedSteelTool = itemUtils.getItemsByRegexRegistryName("betterwithmods:steel_(axe|hoe|pickaxe|shovel)");
-var meteorTool = itemUtils.getItemsByRegexRegistryName("nyx:meteor_(axe|hoe|pickaxe|shovel|sword") as IItemStack[];
+var meteorTool = itemUtils.getItemsByRegexRegistryName("nyx:meteor_(axe|hoe|pickaxe|shovel|sword)") as IItemStack[];
 
 var anvilToolMap = {
     [<iceandfire:dragonsteel_fire_ingot>, <iceandfire:witherbone>] : dragonsteelFireTool,
