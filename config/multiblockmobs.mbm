@@ -29,7 +29,7 @@ minecraft:lit_pumpkin = "p"
 
 !startCustom
 particals = "true"
-particaltype = "modid:partical"
+particaltype = "modid:particle"
 music = "true"
 musicFile = "music"
 soundEffect = "true"
