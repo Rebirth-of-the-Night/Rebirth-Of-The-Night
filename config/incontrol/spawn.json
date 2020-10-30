@@ -1686,7 +1686,7 @@
     "mob": "specialmobs:fishingzombie",
     "gamestage": "minedMythril",
 	"armorhelmet": "rats:fisherman_hat",
-	"armorchest": "harvestcraft:hardenedleatherchestitem",
+	"armorchest": "minecraft:leather_chestplate",
     "maxcount": {
         "amount": 5,
         "perplayer": true

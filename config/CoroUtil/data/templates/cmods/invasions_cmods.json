@@ -97,7 +97,7 @@
         {
           "cmod": "inventory",
 
-          "inv_head": "betterwithmods:leather_tanned_helmet",
+          "inv_head": "minecraft:leather_helmet",
           "inv_chest": "minecraft:leather_chestplate"
         }
       ]

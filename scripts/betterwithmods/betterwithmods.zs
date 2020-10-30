@@ -18,6 +18,13 @@ recipes.removeByRecipeName("betterwithmods:items/patchouli_manual");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
+
+mods.jei.JEI.removeAndHide(<betterwithmods:leather_tanned_boots>);
+mods.jei.JEI.removeAndHide(<betterwithmods:leather_tanned_chest>);
+mods.jei.JEI.removeAndHide(<betterwithmods:leather_tanned_helmet>);
+mods.jei.JEI.removeAndHide(<betterwithmods:leather_tanned_pants>);
+
+
 mods.jei.JEI.removeAndHide(<betterwithmods:shaft>);
 mods.jei.JEI.removeAndHide(<betterwithmods:material:44>);
 

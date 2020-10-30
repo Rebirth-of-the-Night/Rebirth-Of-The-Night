@@ -24,6 +24,12 @@ mods.jei.JEI.removeAndHide(<harvestcraft:chilipepperseeditem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:oliveitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:olive_sapling>);
 
+mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherhelmitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherchestitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherleggingsitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherbootsitem>);
+
+
 
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[
