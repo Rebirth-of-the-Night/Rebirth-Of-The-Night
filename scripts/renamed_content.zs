@@ -2,7 +2,12 @@ import crafttweaker.game.IGame;
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 
+// Ambience
+<ambience:ocarina>.displayName = "Flute";
+<contenttweaker:slayers_tattered_journal>.addTooltip("Playing songs may give you special buffs...");
 
+
+// Butterflies
 <butterflies:butterfly_case>.displayName = "Butterfly Display Case";
 
 // Progression

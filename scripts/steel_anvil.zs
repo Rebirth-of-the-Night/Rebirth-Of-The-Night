@@ -20,7 +20,7 @@ var dragonScaleWhiteArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:ar
 var dragonScaleSapphireArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:armor_sapphire_(helmet|chestplate|leggings|boots)") as IItemStack[];
 var dragonScaleSilverArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:armor_silver_(helmet|chestplate|leggings|boots)") as IItemStack[];
 var soulforgedSteelArmor = itemUtils.getItemsByRegexRegistryName("betterwithmods:steel_(helmet|chest|pants|boots)") as IItemStack[];
-var meteorArmor = itemUtils.getItemsByRegexRegistryName("nyx:meteor_(helm|chest|pants|boots") as IItemStack[];
+var meteorArmor = itemUtils.getItemsByRegexRegistryName("nyx:meteor_(helm|chest|pants|boots)") as IItemStack[];
 
 var anvilArmorMap = {
     <ore:ingotMythril> : mythrilArmor,
