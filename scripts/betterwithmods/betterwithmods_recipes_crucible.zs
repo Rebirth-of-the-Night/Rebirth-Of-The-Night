@@ -291,6 +291,19 @@ mods.betterwithmods.Crucible.addStoked(
         <dungeontactics:magic_powder>*24
     ]
 );
+//Stoked Volatile Magic
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <contenttweaker:volatile_powder>,
+        <betterwithmods:material:29>,
+        <dungeontactics:magic_powder>,
+        <nyx:fallen_star>,
+        <netherex:frost_powder>
+    ],
+    [
+        <contenttweaker:volatile_magic>
+    ]
+);
 
 // Salvaging
 furnace.remove(<minecraft:iron_nugget>);

@@ -1,4 +1,8 @@
 itemGroup.Dunamis=Dunamis
+item.contenttweaker.volatile_magic.name=Volatile Magic
+item.contenttweaker.volatile_core.name=Volatile Core
+item.contenttweaker.volatile_powder.name=Volatile Powder
+item.contenttweaker.magic_bomb.name=Magic Bomb
 item.contenttweaker.magic_blend.name=Magic Blend
 item.contenttweaker.draconium.name=Draconium
 item.contenttweaker.electrified_zanite.name=Electrified Zanite

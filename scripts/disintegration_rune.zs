@@ -2,6 +2,21 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+#################
+# Special Items #
+#################
+
+// Volatile Powder
+
+RecipeBuilder.get("mage")
+  .setShapeless([<contenttweaker:volatile_core>])
+  .addOutput(<contenttweaker:volatile_powder>*8)
+  .addTool(<contenttweaker:disint_rune>, 1)
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 ###########
 # BAUBLES #
 ###########
