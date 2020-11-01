@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 recipes.removeByRecipeName("iceandfire:dragonmeal_alternate");
+recipes.removeByRecipeName("iceandfire:dragon_skull_bonemeal");
 
 JEI.removeAndHide(<iceandfire:sapphire_ore>);
 JEI.removeAndHide(<iceandfire:sapphire_block>);
@@ -135,4 +136,8 @@ recipes.addShaped("dragonforge_ice_input", <iceandfire:dragonforge_ice_input>,[
   [<iceandfire:dragonforge_ice_brick>, <ore:ingotSteel>, <iceandfire:dragonforge_ice_brick>],
   [<ore:ingotSteel>, null, <ore:ingotSteel>],
   [<iceandfire:dragonforge_ice_brick>, <ore:ingotSteel>, <iceandfire:dragonforge_ice_brick>]
+]);
+
+recipes.addShapeless("dragon_skull_bonemeal",<minecraft:dye:15>*6,[
+    <iceandfire:dragon_skull:*>, <minecraft:dye:15>
 ]);
