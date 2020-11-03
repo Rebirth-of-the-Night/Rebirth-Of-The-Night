@@ -1,0 +1,6 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"Lorem imspum et...", "color":"yellow"}
+title @p title {"text":"The End", "bold":false, "italic":false, "color":"white"}
+gamestage silentadd @a killedHarvester

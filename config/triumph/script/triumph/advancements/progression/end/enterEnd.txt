@@ -3,6 +3,7 @@ setTitle("The End?")
 setDescription("Enter The End.")
 
 addParent("triumph:advancements/progression/beneath/killidolofradiance")
+addRewardFunction("triumph:enteredEnd")
 
 
 criteria = addCriteria("entered_end", "triumph:changed_dimension")
