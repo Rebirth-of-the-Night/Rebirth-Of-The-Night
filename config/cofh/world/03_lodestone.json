@@ -1,0 +1,37 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts"
+		]
+	"populate": 
+	{
+		"lodestone": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": "dungeontactics:mithril_block",
+				"material": [
+					"air",
+					"tallgrass"
+				],
+				"surface": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 2,
+				"see-sky": false
+				},
+			"cluster-count": 8,
+			"ground-level": 60,
+			"chunk-chance": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"COLD"
+				]
+			}
+		}
+	}
+}

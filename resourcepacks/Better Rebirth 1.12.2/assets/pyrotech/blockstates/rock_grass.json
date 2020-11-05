@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "pyrotech:blocks/rock_electrum",
-      "particle": "pyrotech:blocks/rock_electrum"
+      "all": "pyrotech:blocks/rock_moss",
+      "particle": "pyrotech:blocks/rock_moss"
     }
   },
   "variants": {

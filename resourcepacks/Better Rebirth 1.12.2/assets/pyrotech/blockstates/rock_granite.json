@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "minecraft:blocks/stone_granite",
-      "particle": "minecraft:blocks/stone_granite"
+      "all": "pyrotech:blocks/rock_bronze",
+      "particle": "pyrotech:blocks/rock_bronze"
     }
   },
   "variants": {

@@ -23,11 +23,28 @@ recipe: {
   quantity: 1
 }
 gen: [
+#deserts
   {
-	height: [ 50, 150 ]
+    height: [ 30, 54 ]
+    size: 12
+    count: 10
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+		}
+  }
+#not-deserts
+  {
+	height: [ 40, 150 ]
     size: 10
-    count: 23
-	chance: 1.0
+    count: 40
 	blacklistBiomes: true
 	biomes: {
 		names: [
@@ -39,20 +56,11 @@ gen: [
 			biomesoplenty:outback
 			biomesoplenty:brushland	
 			]
-	}
+		}
   }
-#Copper ore
+#volcano
   {
-    height: [ 30, 56 ]
-    size: 12
-    count: 5
-	chance: 0.6
-	biomes: {
-		types: ["SANDY"]
-	}
-  }
-  {
-    height: [ 32, 120 ]
+    height: [ 40, 120 ]
     size: 4
     count: 15
 	chance: 0.6
@@ -62,10 +70,12 @@ gen: [
 		  ]
 	}
   }
+#beneath
   {
 	height : [200, 255]
 	size: 5
 	count: 10 
+	chance: 0.6
 	dimensions: [10]
   }
 ]

@@ -5,6 +5,7 @@ import crafttweaker.item.IItemTransformer;
 import crafttweaker.oredict.IOreDictEntry;
 
 recipes.removeByMod("pyrotech");
+recipes.removeByMod("pyrotech_compat");
 recipes.remove(<pyrotech:stone_hammer>);
 recipes.remove(<pyrotech:crude_hammer>);
 recipes.remove(<pyrotech:bone_hammer>);
@@ -103,7 +104,7 @@ val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
 val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<betternether:quartz_glass_framed:*>|<netherex:soul_glass>;
 
-recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>,<pyrotech:rock:0>|<pyrotech:rock:1>|<pyrotech:rock:2>|<pyrotech:rock:3>]);
+recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>,<pyrotech:rock:0>,<pyrotech:rock:0>,<pyrotech:rock:0>]);
 recipes.addShapeless("sandrock_conversion",<minecraft:sandstone>,[<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);

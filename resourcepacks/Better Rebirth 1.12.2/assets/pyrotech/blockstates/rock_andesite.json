@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "all": "pyrotech:blocks/rock_zinc",
-      "particle": "minecraft:blocks/stone_andesite"
+      "particle": "pyrotech:blocks/rock_zinc"
     }
   },
   "variants": {

@@ -15,8 +15,8 @@ var ingotCopp = <simpleores:copper_ingot>;
 var nuggetCopp = <contenttweaker:material_part:4>;
 var anyBlockCopp = <ore:blockCopper>;
 var blockCopp = <ore:blockCopper>.firstItem;
-var ingotTin = <simpleores:copper_ingot>;
-var nuggetTin = <contenttweaker:material_part:4>;
+var ingotTin = <simpleores:tin_ingot>;
+var nuggetTin = <contenttweaker:material_part:6>;
 
 
 //Extra Parts
