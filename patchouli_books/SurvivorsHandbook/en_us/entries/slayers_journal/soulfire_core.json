@@ -2,7 +2,7 @@
   "name": "Soulfire Chassis",
   "icon": "multiblockmobs:soul chassis",
   "category": "slayers_journal_summoning",
-  "advancement": "triumph:advancements/main/slayersjournal",
+  "advancement": "triumph:advancements/progression/slayersjournal",
 
   "pages": [
     {

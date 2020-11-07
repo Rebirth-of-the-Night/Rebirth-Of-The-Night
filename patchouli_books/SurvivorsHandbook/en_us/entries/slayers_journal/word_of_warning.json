@@ -2,7 +2,7 @@
   "name": "A Word of Warning",
   "icon": "minecraft:paper",
   "category": "slayers_journal",
-  "advancement": "triumph:advancements/main/slayersjournal",
+  "advancement": "triumph:advancements/progression/slayersjournal",
   "priority": true,
   "pages": [
     {

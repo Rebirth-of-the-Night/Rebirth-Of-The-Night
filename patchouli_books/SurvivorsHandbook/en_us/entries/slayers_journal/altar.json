@@ -2,7 +2,7 @@
   "name": "Altar of Summoning",
   "icon": "pyrotech:anvil_iron_plated",
   "category": "slayers_journal_summoning",
-  "advancement": "triumph:advancements/main/WIP_ACHIEVEMENT",
+  "advancement": "triumph:advancements/progression/WIP_ACHIEVEMENT",
 
   "pages": [
     {

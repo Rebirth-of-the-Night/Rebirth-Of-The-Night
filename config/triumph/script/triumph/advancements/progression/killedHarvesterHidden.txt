@@ -5,7 +5,7 @@ setDescription("Kill The Harvester.")
 addRewardFunction("triumph:killedHarvesterHidden")
 
 
-addParent("triumph:advancements/main/slayersjournal")
+addParent("triumph:advancements/progression/earlyArmor")
 
 
 addCriteria("impossible", "minecraft:impossible")

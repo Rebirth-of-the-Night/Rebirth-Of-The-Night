@@ -4,8 +4,6 @@ setDescription("Complete The Ferrous Giant set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Helmet", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/helmet")
 

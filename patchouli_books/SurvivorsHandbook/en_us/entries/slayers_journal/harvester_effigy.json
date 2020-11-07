@@ -2,7 +2,7 @@
   "name": "The Harvester",
   "icon": "minecraft:lit_pumpkin",
   "category": "slayers_journal",
-  "advancement": "triumph:advancements/main/slayersjournal",
+  "advancement": "triumph:advancements/progression/slayersjournal",
 
   "sortnum": 1,
   "pages": [

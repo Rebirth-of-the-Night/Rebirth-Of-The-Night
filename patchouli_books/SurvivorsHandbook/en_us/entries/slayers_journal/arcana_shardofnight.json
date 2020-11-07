@@ -2,7 +2,7 @@
   "name": "Shard of Night",
   "icon": "contenttweaker:shard_of_night",
   "category": "slayers_journal_arcana",
-  "advancement": "triumph:advancements/main/killedHarvester",
+  "advancement": "triumph:advancements/progression/killedharvester",
 
   "pages": [
   	{

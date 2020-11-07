@@ -1,6 +1,6 @@
 setIcon("atop:mud_chestplate")
 setTitle("Gearing Up!")
-setDescription("Acquire a set of Early Armor.")
+setDescription("Acquire a set of low-tier armor.")
 
 addParent("triumph:advancements/progression/slayersjournal")
 

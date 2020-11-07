@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 
 // Ambience
 <ambience:ocarina>.displayName = "Flute";
-<contenttweaker:slayers_tattered_journal>.addTooltip("Playing songs may give you special buffs...");
+<contenttweaker:ocarina>.addTooltip("Playing songs may give you special buffs...");
 
 
 // Butterflies
