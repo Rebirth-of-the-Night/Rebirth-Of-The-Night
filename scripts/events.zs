@@ -330,7 +330,7 @@ events.onPlayerAnvilUpdate(function(event as crafttweaker.event.PlayerAnvilUpdat
 	if (event.outputItem.isDamageable) {
 		if (left.isEnchanted) {
 			var enchs = left.enchantments as IEnchantment[];
-			if (enchs has curseFinalStand && event.outputItem.definition == left.definition) {
+			if (enchs has curseFinalStand && event.outputItem.definition.id == left.definition.id) {
 				if (left.isDamageable && event.outputItem.damage > left.damage) {
 					event.cancel();
 					return;
