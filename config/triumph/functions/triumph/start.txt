@@ -1,4 +1,3 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p start
-say test
