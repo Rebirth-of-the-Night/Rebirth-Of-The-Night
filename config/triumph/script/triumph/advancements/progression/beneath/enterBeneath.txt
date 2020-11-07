@@ -1,0 +1,22 @@
+setIcon(<dimstack:portal>)
+setTitle("Where The Lost Tread")
+setDescription("Enter The Beneath.")
+
+addParent("triumph:advancements/progression/nether/killquazar")
+addParent("triumph:advancements/progression/aether/enterAether")
+
+addRewardFunction("triumph:enteredBeneath")
+
+criteria = addCriteria("entered_beneath", "triumph:changed_dimension")
+criteria.setDimensionDestination(10)
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("GOAL")
+setUncompletedIconColor(217,255,92)
+
+
+visibleIf("triumph:advancements/progression/nether/killquazar")
+visibleIf("triumph:advancements/progression/aether/enterAether")
+drawDirectLines()
+setPos(245,0)

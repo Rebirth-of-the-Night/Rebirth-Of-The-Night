@@ -1,0 +1,20 @@
+setIcon(<minecraft:dirt>)
+setTitle("Stagnant Signal")
+setDescription("Slay The Stagnant Signal.")
+
+addParent("triumph:advancements/progression/beneath/killidolofradiance")
+addParent("triumph:advancements/progression/end/killenddragon")
+
+
+criteria = addCriteria("Stagnant Signal", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:dirt")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
+drawDirectLines()
+setPos(365,40)

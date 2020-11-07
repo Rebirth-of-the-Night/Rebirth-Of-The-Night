@@ -1,0 +1,19 @@
+setIcon(<minecraft:dirt>)
+setTitle("Sanguine Champion")
+setDescription("Slay The Sanguine Champion.")
+
+addParent("triumph:advancements/progression/twilight/killbossensemble")
+
+
+criteria = addCriteria("Sanguine Champion", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:dirt")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+hiddenUnless("triumph:advancements/progression/twilight/killbossensemble")
+drawDirectLines()
+setPos(665,-40)

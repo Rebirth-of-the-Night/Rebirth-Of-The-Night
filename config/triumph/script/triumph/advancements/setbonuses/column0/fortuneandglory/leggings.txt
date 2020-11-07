@@ -10,6 +10,12 @@ setAnnounceToChat(false)
 criteria = addCriteria("Leather leggings", "minecraft:inventory_changed")
 criteria.addItem("minecraft:leather_leggings")
 
+criteria = addCriteria("Tanned leather leggings", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:leather_tanned_pants")
+
+criteria = addCriteria("Hardened leather leggings", "minecraft:inventory_changed")
+criteria.addItem("harvestcraft:hardenedleatherleggingsitem")
+
 setRequirements("any")
 
 alwaysHidden()

@@ -1,0 +1,12 @@
+setIcon(<betterwithmods:material:14>)
+setTitle("Soul Imbued!")
+setDescription("Obtain Soul Forged steel")
+
+addParent("triumph:advancements/progression/nether/enterNether")
+
+criteria = addCriteria("Soul Forged Steel", "minecraft:inventory_changed")
+criteria.addItem(<betterwithmods:material:14>)
+
+hiddenUnless("triumph:advancements/progression/killharvester")
+drawDirectLines()
+setPos(95,30)
