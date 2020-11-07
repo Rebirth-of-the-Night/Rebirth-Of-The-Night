@@ -97,27 +97,27 @@
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["iceandfire:armor_silver_metal_helmet", "minecraft:iron_helmet"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["iceandfire:armor_silver_metal_chestplate", "minecraft:iron_chestplate"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["iceandfire:armor_silver_metal_leggings", "minecraft:iron_leggings"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["iceandfire:armor_silver_metal_boots", "minecraft:iron_boots"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 },
 
 
@@ -194,7 +194,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 },
 
 
@@ -1330,7 +1330,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:jumpingcreeper",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1444,7 +1444,7 @@
   {
     "dimension": [0,7],
     "mob": "specialmobs:wildswitch",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"random": 0.12,
     "maxcount": {
         "amount": 3,
@@ -1537,7 +1537,7 @@
   {
     "dimension": [0,10],
     "mob": "specialmobs:flyingsilverfish",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"maxlight": 5,
     "minlight": 0,
 	"random": 0.3,
@@ -1931,7 +1931,7 @@
     "dimension": 0,
     "mob": "specialmobs:desertspider",
     "biome": "Desert",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1947,7 +1947,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:witchspider",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -2149,7 +2149,7 @@
     "random": 0.003,
     "seesky": true,
     "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -2404,7 +2404,7 @@
     "dimension": 0,
     "mob": "betteranimalsplus:feralwolf",
 	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Taiga M", "Ice Plains Spikes", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Ominous Woods", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "AlpsFoothills"],
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"maxlight": 7,
     "minlight": 0,
 	"random": 0.2,
@@ -2677,7 +2677,7 @@
 {
     "dimension": 4,
     "mob": "netherex:wight",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"random": 0.30,
 	"maxlight": 7,
     "minlight": 0,
@@ -2952,7 +2952,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:vespa",
 	"biome": ["jungle", "JungleHills", "jungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa","Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Volcanic Island", "Flower Island", "Xeric Shrubland"],  
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:sandstone", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "aether_legacy:aether_grass"],
 	"random": 0.125,
 	"seesky": true,

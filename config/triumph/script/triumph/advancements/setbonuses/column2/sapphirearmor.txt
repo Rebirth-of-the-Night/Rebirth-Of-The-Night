@@ -4,8 +4,6 @@ setDescription("Complete The Deep Blue Sea set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Sapphire Helmet", "minecraft:inventory_changed")
 criteria.addItem("atop:sapphire_helmet")
 

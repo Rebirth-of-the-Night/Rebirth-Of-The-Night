@@ -1,11 +1,13 @@
 setIcon(<minecraft:dirt>)
-setTitle("Quazar ???")
+setTitle("Quazar")
 setDescription("#PLACEHOLDER#")
 
 addParent("triumph:advancements/progression/nether/enterNether")
 
-criteria = addCriteria("Idol of Radiance", "minecraft:player_killed_entity")
-criteria.setEntityType("minecraft:dirt")
+addRewardFunction("triumph:killedQuazar")
+
+criteria = addCriteria("Quazar", "minecraft:player_killed_entity")
+criteria.setEntityType("betterslimes:king_slime")
 
 setShowToast(true)
 setFrameType("CHALLENGE")

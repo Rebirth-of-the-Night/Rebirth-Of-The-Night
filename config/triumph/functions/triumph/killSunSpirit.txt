@@ -6,7 +6,7 @@ title @a title {"text":"The Dead of Winter", "bold":false, "italic":true, "color
 playsound dsurround:wind ambient @p ~ ~ ~ 0.8 0.5   
 gamestage silentadd @a fullDiamondArmor
 gamestage silentadd @a killedHarvester
-gamestage silentadd @a fullMidArmor
+gamestage silentadd @a killedQuazar
 gamestage silentadd @a killedSunSpirit
 sereneseasons setseason_early_winter
 effect @p netherex:frostbitten 180 1

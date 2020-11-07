@@ -245,13 +245,13 @@
 
 
     {
-      "comment": "///////////////////////////////////////////// Full Mid Armor Invasions",
+      "comment": "///////////////////////////////////////////// Killed Quazar Invasions",
       "name": "invasion_pirates",
       "wave_message": "§cThe pirates are invading!",
       "conditions": [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {
@@ -311,7 +311,7 @@
       "conditions": [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {
@@ -399,7 +399,7 @@
       "conditions": [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {
@@ -513,7 +513,7 @@
       "conditions": [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {
@@ -578,7 +578,7 @@
       "conditions": [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {
@@ -621,7 +621,7 @@
       "conditions": [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {
@@ -657,7 +657,7 @@
       [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {
@@ -709,7 +709,7 @@
       [
         {
           "condition": "game_stages",
-          "game_stages": ["fullMidArmor"],
+          "game_stages": ["killedQuazar"],
           "match_mode": "all_of"
         },
         {

@@ -4,8 +4,6 @@ setDescription("Complete the Apocalypse Now set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Valkyrie Helmet", "minecraft:inventory_changed")
 criteria.addItem("aether_legacy:valkyrie_helmet")
 
