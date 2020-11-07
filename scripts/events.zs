@@ -319,7 +319,7 @@ events.onPlayerAnvilUpdate(function(event as crafttweaker.event.PlayerAnvilUpdat
 
 	val curseFinalStand = <enchantment:contenttweaker:curse_finalstand>.makeEnchantment(1) as IEnchantment;
 
-	if (isNull(left) || isNull(right)) {
+	if (isNull(left) || isNull(right) || isNull(event.outputItem)) {
 		return;
 	}
 
