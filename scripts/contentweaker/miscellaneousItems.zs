@@ -108,3 +108,8 @@ cutcarminite.register();
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
 //rat.healAmount = 9;
 //rat.register();
+
+val sprinkles = mods.contenttweaker.VanillaFactory.createItem("sprinkles");
+sprinkles.setCreativeTab(<creativetab:harvestCraft>);
+sprinkles.register();
+
