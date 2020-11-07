@@ -22,7 +22,7 @@
 					[" B ", " S "]
 				],
         "mapping": {
-          "0": "betternether:bone_block",
+          "0": "minecraft:bone_block",
           "J": "minecraft:lit_pumpkin[facing=east]",
           "H": "minecraft:hay_block",
 		  "B": "betternether:bone_block",
