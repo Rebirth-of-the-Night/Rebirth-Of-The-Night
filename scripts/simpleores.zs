@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
+recipes.removeByMod("aesthetics");
 mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
 mods.jei.JEI.removeAndHide(<simpleores:copper_block>);
 
@@ -13,11 +14,14 @@ var ingotMyth = <simpleores:mythril_ingot>;
 var nuggetMyth = <contenttweaker:material_part:8>;
 var ingotCopp = <simpleores:copper_ingot>;
 var nuggetCopp = <contenttweaker:material_part:4>;
+var barCopp = <aesthetics:copper_bars>;
+var doorCopp = <aesthetics:copper_door>;
 var anyBlockCopp = <ore:blockCopper>;
 var blockCopp = <ore:blockCopper>.firstItem;
 var ingotTin = <simpleores:tin_ingot>;
 var nuggetTin = <contenttweaker:material_part:6>;
-
+var barTin = <aesthetics:tin_bars>;
+var doorTin = <aesthetics:tin_door>;
 
 //Extra Parts
 recipes.addShaped("viridium_nugget_to_ingot",ingotViri, [
@@ -40,11 +44,25 @@ recipes.addShaped("copper_ingot_to_block",blockCopp, [
 [ingotCopp,ingotCopp,ingotCopp],
 [ingotCopp,ingotCopp,ingotCopp]]);
 recipes.addShapeless("copper_block_to_ingot",ingotCopp*9, [anyBlockCopp]);
+recipes.addShaped("copper_bars",barCopp*16, [
+[ingotCopp, ingotCopp, ingotCopp],
+[ingotCopp, ingotCopp, ingotCopp]]);
+recipes.addShaped("copper_door",doorCopp*3, [
+[ingotCopp,ingotCopp],
+[ingotCopp,ingotCopp],
+[ingotCopp,ingotCopp]]);
 recipes.addShaped("tin_ingot_to_nugget",ingotTin, [
 [nuggetTin,nuggetTin,nuggetTin],
 [nuggetTin,nuggetTin,nuggetTin],
 [nuggetTin,nuggetTin,nuggetTin]]);
 recipes.addShapeless("tin_nugget_to_ingot",nuggetTin*9, [ingotTin]);
+recipes.addShaped("tin_bars",barTin*16, [
+[ingotTin, ingotTin, ingotTin],
+[ingotTin, ingotTin, ingotTin]]);
+recipes.addShaped("tin_door",doorTin*3, [
+[ingotTin,ingotTin],
+[ingotTin,ingotTin],
+[ingotTin,ingotTin]]);
 // Copper Blocks
 var blockCoppA = <caves_and_cliffs:copper_block>;
 var blockCoppB = <caves_and_cliffs:copper_block_stage_1>;

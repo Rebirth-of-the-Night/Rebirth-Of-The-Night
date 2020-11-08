@@ -289,22 +289,27 @@
     "result": "deny"
  },
  
- // no wraith in OW, aether, end
+// no wraith in OW, aether, end
  {
     "mob": "quark:wraith",
     "dimension": [0, 1, 4],
     "onjoin": true,
     "result": "deny"
  },
-
+// no slime
  {
     "mob": ["null:black_slime","null:iron_slime","null:blue_slime","null:red_slime","null:purple_slime","null:yellow_slime","null:jungle_slime","null:ice_slime","null:sand_slime","null:spectral_slime","null:haunted_slime","null:gold_slime","null:knight_slime"],
     "result": "deny",
     "onjoin": true
-  },
-
-
- // no weird fugitives
+ },
+// no MCreator axolotl
+ {
+    "mob": "caves_and_cliffs:axolotl",
+    "dimension": 0,
+    "onjoin": true,
+    "result": "deny"
+ },
+// no weird fugitives
  {
     "mob": "toroquest:toroquest_fugitive",
     "dimension": [1, 4, 7, 10, -1],
@@ -312,7 +317,7 @@
     "result": "deny"
  }, 
  
- // no endermen here
+// no endermen here
  {
     "mob": "minecraft:enderman",
     "dimension": 7,
@@ -341,14 +346,14 @@
     "result": "default"
  },
  
-  // Disable unneeded fish's mobs
+// Disable unneeded fish's mobs
  {
     "mob": "mod_lavacow:lavacow",
     "onjoin": true,
     "result": "deny"
  },
 
- // Remove enderman spawning in the Nether
+// Remove enderman spawning in the Nether
  {
     "mob": "minecraft:enderman",
     "dimension": -1,
@@ -356,7 +361,7 @@
     "result": "deny"
  },
  
- // Remove zomb spawning in Aether
+// Remove zomb spawning in Aether
  {
     "mob": "minecraft:zombie",
     "dimension": 4,
@@ -364,7 +369,7 @@
     "result": "deny"
  },
  
- // Remove skele spawning in Aether
+// Remove skele spawning in Aether
  {
     "mob": "minecraft:skeleton",
     "dimension": 4,
@@ -373,7 +378,7 @@
  },
  
  
- // remove piper spawning in Aether
+// remove piper spawning in Aether
  {
     "mob": "rats:illager_piper",
     "dimension": 4,
@@ -381,7 +386,7 @@
     "result": "deny"
  },
 
-  // Remove Zombie Players spawning in the Nether
+// Remove Zombie Players spawning in the Nether
  {
     "mob": "zombie_players:zombie_player",
     "dimension": -1,
@@ -389,7 +394,7 @@
     "result": "deny"
  },
 
- // Remove Baby Zombies spawning in the Nether
+// Remove Baby Zombies spawning in the Nether
  {
     "mob": "minecraft:zombie",
     "dimension": -1,
@@ -397,7 +402,7 @@
     "result": "deny"
  },
 
- // Trumpet Skelly
+// Trumpet Skelly
  {
     "dimension": 0,
     "mob": "trumpetskeleton:trumpet_skeleton",

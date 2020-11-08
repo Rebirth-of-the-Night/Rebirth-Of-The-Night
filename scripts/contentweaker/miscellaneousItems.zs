@@ -69,6 +69,10 @@ ender_slag.flowingLocation = "contenttweaker:fluids/ender_slag_flow";
 ender_slag.colorize= true;
 ender_slag.register();
 
+var milk = VanillaFactory.createFluid("milk", Color.fromHex("ffffff"));
+milk.colorize= true;
+milk.register();
+
 // Cut Gems
 
 val cutdiamond = mods.contenttweaker.VanillaFactory.createItem("pristine_diamond");

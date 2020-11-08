@@ -222,5 +222,7 @@ item.contenttweaker.spear_mold.name=Spear Mold
 item.contenttweaker.rapier_mold.name=Rapier Mold
 item.contenttweaker.battleaxe_mold.name=Battleaxe Mold
 item.contenttweaker.saber_mold.name=Saber Mold
+item.contenttweaker.sprinkles.name=Sprinkles
 fluid.lifeblood=Lifeblood
 fluid.ender_slag=Distilled Ender Slag
+fluid.milk=Milk
