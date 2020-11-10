@@ -219,7 +219,8 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
 	var betrayers = [
 		"019f24eb-6f40-45b7-8b48-8ba6a4d640d5",
-		"18d968ff-c123-4853-b576-24db66113d07"
+		"18d968ff-c123-4853-b576-24db66113d07",
+		"e50c578f-317d-4f60-9a2e-5056a7809937"
 	] as string[];
 	
 	if (betrayers has event.player.uuid && !isNull(event.player.world)) {
