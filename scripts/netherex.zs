@@ -103,7 +103,7 @@ brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:aw
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "netherex:freezing"}), <minecraft:dragon_breath>);
 
-
+furnace.remove(<netherex:congealed_magma_cream>, <minecraft:magma_cream>);
 
 recipes.remove(<netherex:frosted_amedian_sword>);
 recipes.remove(<netherex:frosted_amedian_pickaxe>);

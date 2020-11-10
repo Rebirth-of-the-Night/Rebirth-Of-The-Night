@@ -31,10 +31,8 @@ var latch = <ore:latchRedstone>;
 var electrum = <contenttweaker:material_part:12>;
 
 //small
-recipes.addShaped("glare_small", small,[
-	[ncoal], 
-	[latch]
-]);
+recipes.addShaped(<glaretorch:itemglaretorchsmall>, [[null, <betterwithmods:material:1>, null],[<betterwithaddons:wheatmat>, <betterwithmods:material:34>, <betterwithaddons:wheatmat>], [null, <betterwithaddons:wheatmat>, null]]);
+
 //large2
 recipes.addShaped("glare_large", large2,[
 	[electrum,null,electrum],
