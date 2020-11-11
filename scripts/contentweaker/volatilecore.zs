@@ -1,5 +1,4 @@
 #loader contenttweaker
-#debug
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ActionResult;
