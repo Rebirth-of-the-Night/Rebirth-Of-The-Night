@@ -44,7 +44,7 @@
 				]
 			}
 		},
-		"blazing_fiery_block_onyx": {
+		"ardicite_block_onyx": {
 			"distribution": "uniform",
 			"generator": {
 				"type": "stalagmite",
