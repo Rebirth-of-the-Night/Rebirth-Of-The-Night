@@ -487,16 +487,8 @@ recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
     [<spartanweaponry:material>]
 ]);
 
-recipes.remove(<dungeontactics:tunnelling_device>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:tunnelling_device");
-recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
-	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],
-    [<dungeontactics:steel_ingot>, <betterwithmods:material:17>, <betterwithmods:material:31>],
-    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
-]);
-mods.jei.JEI.addDescription(<dungeontactics:tunnelling_device>,"Creates concentrated blasts of explosive energy. Useful for terraforming large areas of dirt, sand, and other soft blocks, but the smaller concentration of energy has no effect on harder stone blocks.");
-
-
+mods.jei.JEI.removeAndHide(<dungeontactics:tunnelling_device>);
 mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove>);
 mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove_sticky>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:piston_glove");
