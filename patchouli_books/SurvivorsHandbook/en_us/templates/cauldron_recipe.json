@@ -1,0 +1,46 @@
+{
+	"components": [
+		{
+			"type": "item",
+			"item": "#input_item", 
+			"x": 33, "y": 17
+		},
+		{
+			"type": "tooltip",
+			"tooltip": [
+				"#tip1",
+				"#tip2"
+		],
+			"x": 30, "y": 38,
+			"height": 16, "width": 16
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"x": 65, "y": 17,
+			"link_recipe": true
+		},
+		{
+			"type": "tooltip",
+			"tooltip": [
+				"Cauldron Recipe"
+			],
+			"x": 50, "y": 17,
+			"u": 65, "v": 27,
+			"width": 9, "height": 9
+		},
+		{
+			"type": "text",
+			"text": "#text",
+			"x": 0,
+			"y": 69
+		},
+		{
+		"type": "image",
+		"image": "book:template_recipes.png",
+		"x": 20, "y": 14,
+		"u": 0, "v": 22,
+		"width": 65, "height": 52
+		}
+	]
+}
