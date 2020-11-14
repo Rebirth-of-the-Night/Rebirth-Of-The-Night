@@ -1077,6 +1077,9 @@ recipes.addShapeless("dirtbucket_return", <pyrotech:bucket_stone>,
 	[<dynamictrees:dirtbucket>]
 );
 
+// Fragile Glass And Thin Ice
+recipes.removeByMod("fragileglassft");
+
 // Charset Materials
 mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
 mods.charset.MaterialRegistry.registerTypes(<betternether:stalagnate_planks>, "block", "wood", "plank");

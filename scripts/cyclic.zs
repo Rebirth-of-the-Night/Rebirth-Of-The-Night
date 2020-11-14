@@ -79,7 +79,7 @@ recipes.remove(<cyclicmagic:horse_upgrade_variant>);
 recipes.remove(<cyclicmagic:horse_upgrade_health>);
 recipes.remove(<cyclicmagic:horse_upgrade_speed>);
 recipes.remove(<cyclicmagic:horse_upgrade_jump>);
-//recipes.remove(<cyclicmagic:tool_mount>);
+recipes.remove(<cyclicmagic:tool_mount>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 //apple recipes on betterwithmods.zs
 

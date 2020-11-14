@@ -1,7 +1,21 @@
 
 
-<dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it");
+<dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
+<contenttweaker:sprinkles>.addTooltip("Zero nutritional value, but it gets you going.");
+<contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:teaitem>.addTooltip("Calming, but it gets you going.");
+<harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:raspberryicedteaitem>.addTooltip("sweet, refreshing and it gets you going.");
+<harvestcraft:raspberryicedteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:chaiteaitem>.addTooltip("So aromatic it gets you going.");
+<harvestcraft:chaiteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:coffeeitem>.addTooltip("Some good coffee, the one that gets you going.");
+<harvestcraft:coffeeitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
+<harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:material:12>.addTooltip("Just a crafting material.");
+<betterwithmods:material:12>.addShiftTooltip('Can be consumed, but if it had a label, it would read "DO NOT CONSUME."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <golems:golem_head>.addTooltip("Used for summoning Golems");
 
