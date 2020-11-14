@@ -20,6 +20,19 @@ import crafttweaker.potions.IPotionEffect;
 
 import mods.ctutils.utils.Math;
 
+import mods.hungertweaker.events.HungerEvents;
+
+HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEvent) {
+	if (event.player.world.isRemote()) {
+		return;
+	}
+	
+	// Mushroom stew bowl fix
+	if (event.food.definition.id == <minecraft:mushroom_stew>.definition.id) {
+		event.player.give(<minecraft:bowl>);
+	}
+});
+
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
 		if (event.player.world.isRemote()) {
@@ -28,25 +41,20 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 	}
 
 	// Ironberry potion effect fix
-	if (event.isPlayer & event.item.definition.id == <rustic:ironberries>.definition.id) {
+	if (event.isPlayer && event.item.definition.id == <rustic:ironberries>.definition.id) {
 		event.player.removePotionEffect(<potion:minecraft:jump_boost>);
 		var weight = <potion:potioncore:weight>.makePotionEffect(200, 49, false, false) as IPotionEffect;
 		event.player.addPotionEffect(weight);
 	}
 
-	// Mushroom stew bowl fix
-	if (event.isPlayer & event.item.definition.id == <minecraft:mushroom_stew>.definition.id) {
-		event.player.give(<minecraft:bowl>);
-	}
-
 	// Give hunger when eating raw venison
-	if (event.isPlayer & <ore:listAllvenisonraw> has event.item & Math.random() >= 0.25) {
+	if (event.isPlayer && <ore:listAllvenisonraw> has event.item & Math.random() >= 0.25) {
 		var hunger = <potion:minecraft:hunger>.makePotionEffect(100, 0, false, true);
 		event.player.addPotionEffect(hunger);
 	}
 	
 	// Give player gamestage/achievement when eating Hydra Chops
-	if (event.isPlayer & event.item.definition.id == <twilightforest:hydra_chop>.definition.id) {
+	if (event.isPlayer && event.item.definition.id == <twilightforest:hydra_chop>.definition.id) {
 		print("Eaten hydra chop");
 		print("Player has food level"~event.player.foodStats.foodLevel);
 		
