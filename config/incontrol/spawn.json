@@ -298,7 +298,7 @@
  },
 // no slime
  {
-    "mob": ["null:black_slime","null:iron_slime","null:blue_slime","null:red_slime","null:purple_slime","null:yellow_slime","null:jungle_slime","null:ice_slime","null:sand_slime","null:spectral_slime","null:haunted_slime","null:gold_slime","null:knight_slime"],
+    "mob": ["betterslimes:black_slime","betterslimes:iron_slime","betterslimes:blue_slime","betterslimes:red_slime","betterslimes:purple_slime","betterslimes:yellow_slime","betterslimes:jungle_slime","betterslimes:ice_slime","betterslimes:sand_slime","betterslimes:spectral_slime","betterslimes:haunted_slime","betterslimes:gold_slime","betterslimes:knight_slime"],
     "result": "deny",
     "onjoin": true
  },
