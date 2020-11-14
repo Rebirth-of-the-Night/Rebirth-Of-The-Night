@@ -313,6 +313,14 @@ planarspsp2.setToolClass("pickaxe");
 planarspsp2.setToolLevel(6);
 planarspsp2.register();
 
+var salty_crust = VanillaFactory.createBlock("salty_crust", <blockmaterial:Ground>);
+salty_crust.setCreativeTab(<creativetab:buildingBlocks>);
+salty_crust.setBlockSoundType(<soundtype:ground>);
+salty_crust.setToolClass("shovel");
+salty_crust.setBlockHardness(1.0);
+salty_crust.setBlockResistance(5.0);
+salty_crust.register();
+
 //sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);
 n_copper_sandstone.setCreativeTab(<creativetab:buildingBlocks>);

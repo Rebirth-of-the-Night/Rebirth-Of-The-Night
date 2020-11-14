@@ -108,6 +108,40 @@ cutamethyst.register();
 val cutcarminite = mods.contenttweaker.VanillaFactory.createItem("draconium");
 cutcarminite.register();
 
+// Peculiar items
+val heartofthefallen = mods.contenttweaker.VanillaFactory.createItem("heartofthefallen");
+heartofthefallen.register();
+
+val heavensheart = mods.contenttweaker.VanillaFactory.createItem("heavensheart");
+heavensheart.register();
+
+val heart_of_fire = mods.contenttweaker.VanillaFactory.createItem("heart_of_fire");
+heart_of_fire.register();
+
+val adhesive_shadow = mods.contenttweaker.VanillaFactory.createItem("adhesive_shadow");
+adhesive_shadow.register();
+
+val shard_of_night = mods.contenttweaker.VanillaFactory.createItem("shard_of_night");
+shard_of_night.register();
+
+val brain = mods.contenttweaker.VanillaFactory.createItem("brain");
+brain.register();
+
+val slayers_tattered_journal = mods.contenttweaker.VanillaFactory.createItem("slayers_tattered_journal");
+slayers_tattered_journal.register();
+
+val grove_tear = mods.contenttweaker.VanillaFactory.createItem("grove_tear");
+grove_tear.register();
+
+val purifying_signet = mods.contenttweaker.VanillaFactory.createItem("purifying_signet");
+purifying_signet.register();
+
+val stormcloud = mods.contenttweaker.VanillaFactory.createItem("stormcloud");
+stormcloud.register();
+
+val mercurial_ooze = mods.contenttweaker.VanillaFactory.createItem("mercurial_ooze");
+mercurial_ooze.register();
+
 //food
 //val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
 //rat.healAmount = 9;

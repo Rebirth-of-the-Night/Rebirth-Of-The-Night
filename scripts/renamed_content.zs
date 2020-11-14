@@ -15,6 +15,8 @@ import crafttweaker.item.IItemStack;
 <contenttweaker:volatile_core>.displayName = "§5Volatile Core";
 <contenttweaker:mercurial_ooze>.displayName = "§5Mercurial Ooze";
 <contenttweaker:heart_of_fire>.displayName = "§5Heart of Fire";
+<contenttweaker:adhesive_shadow>.displayName = "§5Adhesive Shadow";
+<minecraft:nether_star>.displayName = "§6Nether Star";
 
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
@@ -515,6 +517,10 @@ for potion in potionMap{
 <betteranimalsplus:wolfhead_5>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_6>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:fried_egg>.displayName = "Cooked Monster Egg";
+
+
+<contenttweaker:grove_tear>.displayName = "§bGrove Tear...";
+<contenttweaker:purifying_signet>.displayName = "§ePurifying Signet";
 
 #Rare
 <dungeontactics:high_striker>.displayName = "§2High Striker";
