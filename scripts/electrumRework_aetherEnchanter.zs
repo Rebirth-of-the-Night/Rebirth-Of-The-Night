@@ -58,6 +58,64 @@ mods.aether_legacy.Enchanter.removeEnchantment(<aether_legacy:holystone>);
 mods.aether_legacy.Enchanter.registerEnchanterFuel(elec,2400);
 mods.aether_legacy.Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);
 
+//Aether
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_pickaxe>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_axe>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_shovel>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_lance>, 8800);
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_helmet>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_chestplate>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_leggings>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:valkyrie_boots>, 8800);
+
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_sword>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_pickaxe>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_axe>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_shovel>, 8800);
+
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_helmet>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_chestplate>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_leggings>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:gravitite_boots>, 8800);
+
+
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_sword>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_pickaxe>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_axe>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_shovel>, 8800);
+
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_helmet>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_chestplate>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_leggings>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:zanite_boots>, 8800);
+
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:neptune_helmet>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:neptune_chestplate>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:neptune_leggings>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:neptune_boots>, 8800);
+
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:phoenix_helmet>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:phoenix_chestplate>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:phoenix_leggings>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:phoenix_boots>, 8800);
+
+
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:flaming_sword>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:lightning_sword>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:holy_sword>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:vampire_blade>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:pig_slayer>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:notch_hammer>, 8800);
+mods.aether_legacy.Enchanter.registerEnchantment(<aether_legacy:phoenix_bow>, 8800);
+
+
 //Stone
 mods.aether_legacy.Enchanter.registerEnchantment(<pyrotech:stone_hammer>, 500);
 
@@ -508,7 +566,7 @@ mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.column
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.hammer>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<iceandfire:troll_weapon.trunk_frost>, 32200);
-mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:aethers_guard>, 32200);
+mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:aethers_guard>, 12000);
 mods.aether_legacy.Enchanter.registerEnchantment(<rats:plague_scythe>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:wither_bane>, 32200);
 mods.aether_legacy.Enchanter.registerEnchantment(<msmlegacy:crystaline_blade>, 32200);
