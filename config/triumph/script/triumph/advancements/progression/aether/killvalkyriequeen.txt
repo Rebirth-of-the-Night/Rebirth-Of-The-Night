@@ -1,4 +1,4 @@
-setIcon(<minecraft:dirt>)
+setIcon(<aether_legacy:valkyrie_lance>)
 setTitle("kill Valkyrie Queen")
 setDescription("#PLACEHOLDER#")
 
