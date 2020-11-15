@@ -14,4 +14,4 @@ setFrameType("CHALLENGE")
 
 hiddenUnless("triumph:advancements/progression/killharvester")
 drawDirectLines()
-setPos(185,40)
+setPos(185,0)

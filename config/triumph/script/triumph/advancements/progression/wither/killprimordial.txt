@@ -1,11 +1,11 @@
-setIcon(<netherex:ghast_queen_tear>)
-setTitle("Queen of the Nether")
-setDescription("Slay The Ghast Queen.")
+setIcon(<minecraft:dirt>)
+setTitle("The Primordial")
+setDescription("Kill The Primordial.")
 
 addParent("triumph:advancements/progression/wither/killwither")
 
 
-criteria = addCriteria("Ghast Queen", "minecraft:player_killed_entity")
+criteria = addCriteria("The Primordial", "minecraft:player_killed_entity")
 criteria.setEntityType("netherex:ghast_queen")
 
 
@@ -16,4 +16,4 @@ setUncompletedIconColor(255,71,71)
 
 hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
 drawDirectLines()
-setPos(552,13)
+setPos(552,-16)

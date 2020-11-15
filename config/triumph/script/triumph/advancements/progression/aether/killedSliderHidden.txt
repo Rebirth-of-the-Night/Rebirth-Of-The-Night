@@ -14,5 +14,5 @@ addCriteria("impossible", "minecraft:impossible")
 
 setShowToast(false)
 setAnnounceToChat(false)
+alwaysHidden()
 setHidden(true)
-setPos(-521,34)

@@ -11,4 +11,4 @@ criteria.setBlock(<ore:oreAmethyst>)
 
 hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
 drawDirectLines()
-setPos(365,0)
+setPos(395,-30)
