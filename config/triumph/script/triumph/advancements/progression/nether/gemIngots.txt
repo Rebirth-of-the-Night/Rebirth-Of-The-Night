@@ -9,4 +9,4 @@ criteria.addItem(<ore:gemIngot>)
 
 hiddenUnless("triumph:advancements/progression/killharvester")
 drawDirectLines()
-setPos(165,0)
+setPos(155,30)

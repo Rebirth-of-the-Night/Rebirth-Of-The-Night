@@ -17,4 +17,4 @@ setUncompletedIconColor(255,71,71)
 
 hiddenUnless("triumph:advancements/progression/aether/killsunspirit")
 drawDirectLines()
-setPos(185,-82)
+setPos(185,-107)

@@ -15,4 +15,4 @@ setUncompletedIconColor(255,71,71)
 
 hiddenUnless("triumph:advancements/progression/beneath/killblackdeath")
 drawDirectLines()
-setPos(208,0)
+setPos(245,-40)
