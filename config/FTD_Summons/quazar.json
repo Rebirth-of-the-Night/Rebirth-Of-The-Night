@@ -5,31 +5,37 @@
     "domain": "betterslimes",
     "name": "king_slime",
     "displayName": "Quazar",
-    "maxHealth": 300,
+    "maxHealth": 500,
     "attackDamage": 10.5,
     "alwaysShowDisplayName": false,
     "additionalDrops": [{
-        "item": "minecraft:diamond",
-        "minDrops": 1,
-        "maxDrops": 4,
-        "dropChance": 20
-      },
-      {
-        "item": "minecraft:gold_chestplate",
+        "item": "contenttweaker:volatile_core",
         "minDrops": 1,
         "maxDrops": 1,
-        "dropChance": 15
+        "dropChance": 100
       },
       {
-        "item": "minecraft:diamond_sword",
+        "item": "nyx:meteor_shard",
         "minDrops": 1,
-        "maxDrops": 1,
-        "dropChance": 5
+        "maxDrops": 3,
+        "dropChance": 100
+      },
+      {
+        "item": "minecraft:fire_charge",
+        "minDrops": 1,
+        "maxDrops": 5,
+        "dropChance": 100
+      },
+      {
+        "item": "contenttweaker:mercurial_ooze",
+        "minDrops": 2,
+        "maxDrops": 5,
+        "dropChance": 100
       }
     ]
   },
   "bossAddInfo": [{
-      "_comment": "Spawns a bunch of meteors, after that is done. Wait 10 (200 ticks) seconds and spawn a big slime.",
+      "_comment": "Spawns a bunch of meteors, after that is done. Wait 10 (200 ticks) seconds and spawn magma cube minions",
       "domain": "nyx",
       "name": "falling_meteor",
       "minSpawns": 7,
@@ -41,8 +47,8 @@
       "nextWaveOfAdds": {
         "domain": "specialmobs",
         "name": "hardenedlavaslime",
-        "minSpawns": 3,
-        "maxSpawns": 5,
+        "minSpawns": 2,
+        "maxSpawns": 2,
 		"timeBetweenSpawns": 200,
         "timeToWaitBeforeSpawn": 80,
         "maxHealth": 30,
