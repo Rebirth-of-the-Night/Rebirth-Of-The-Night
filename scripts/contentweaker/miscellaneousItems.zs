@@ -6,6 +6,10 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 
 //misc.
+val four_gems = mods.contenttweaker.VanillaFactory.createItem("four_gems");
+four_gems.register();
+val four_gem_ingots = mods.contenttweaker.VanillaFactory.createItem("four_gem_ingots");
+four_gem_ingots.register();
 val phos = mods.contenttweaker.VanillaFactory.createItem("phosphophyllite");
 phos.register();
 val coin1 = mods.contenttweaker.VanillaFactory.createItem("coinT1");

@@ -26,4 +26,4 @@ setRequirements("any", ["Diamond Helmet", "Onyx Chestplate",  "Viridium Leggings
 
 hideLines()
 alwaysVisible()
-setPos(270,75)
+setPos(269,60)

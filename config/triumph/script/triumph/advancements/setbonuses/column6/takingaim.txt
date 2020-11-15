@@ -19,4 +19,4 @@ criteria.addItem("iceandfire:armor_silver_metal_boots")
 
 hideLines()
 alwaysVisible()
-setPos(270,-45)
+setPos(269,-30)

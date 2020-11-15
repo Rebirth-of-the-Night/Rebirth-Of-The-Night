@@ -1,4 +1,4 @@
-setIcon(<betterwithmods:material, meta:45, count:1>)
+setIcon(<contenttweaker:four_gem_ingots>)
 setTitle("Gem Ingot")
 setDescription("Craft a gem ingot")
 

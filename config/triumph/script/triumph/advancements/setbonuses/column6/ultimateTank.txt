@@ -29,4 +29,4 @@ setRequirements("any", ["Onyx Helmet", "Onyx Chestplate", "Onyx Leggings", "Onyx
 
 hideLines()
 alwaysVisible()
-setPos(270,105)
+setPos(269,90)

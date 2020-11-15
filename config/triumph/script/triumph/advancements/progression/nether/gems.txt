@@ -1,4 +1,4 @@
-setIcon(<minecraft:diamond>)
+setIcon(<contenttweaker:four_gems>)
 setTitle("Bling! Bling!")
 setDescription("Obtain your first gem that can be made into an ingot")
 

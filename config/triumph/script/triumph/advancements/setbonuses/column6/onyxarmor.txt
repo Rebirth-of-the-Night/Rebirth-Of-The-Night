@@ -18,4 +18,4 @@ criteria.addItem("simpleores:onyx_boots")
 
 hideLines()
 alwaysVisible()
-setPos(270,15)
+setPos(269,30)
