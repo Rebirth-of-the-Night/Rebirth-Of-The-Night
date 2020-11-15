@@ -4,6 +4,9 @@ setDescription("Kill the Slider")
 
 addParent("triumph:advancements/progression/aether/enterAether")
 
+addRewardFunction("triumph:killedSlider")
+
+
 criteria = addCriteria("Kill Slider", "minecraft:player_killed_entity")
 criteria.setEntityType("aether_legacy:slider")
 
@@ -14,6 +17,6 @@ setUncompletedIconColor(255,71,71)
 
 
 
-hiddenUnless("triumph:advancements/progression/aether/killedSlider")
+hiddenUnless("triumph:advancements/progression/aether/enterAether")
 drawDirectLines()
 setPos(215,-90)

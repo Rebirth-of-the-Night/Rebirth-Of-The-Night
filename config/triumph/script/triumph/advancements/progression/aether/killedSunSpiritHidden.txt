@@ -1,0 +1,17 @@
+setIcon(<contenttweaker:heart_of_fire>)
+setTitle("Eclipse")
+setDescription("Extinguish a solar guardian.")
+
+addRewardFunction("triumph:killedSunSpiritHidden")
+
+addParent("triumph:advancements/progression/aether/enterAether")
+
+
+addCriteria("impossible", "minecraft:impossible")
+
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()
+setHidden(true)

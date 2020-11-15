@@ -1,0 +1,18 @@
+setIcon(<aether_legacy:valkyrie_lance>)
+setTitle("kill Valkyrie Queen")
+setDescription("kill Valkyrie Queen.")
+
+addRewardFunction("triumph:killedValkyrieQueenHidden")
+
+
+addParent("triumph:advancements/progression/aether/enterAether")
+
+
+addCriteria("impossible", "minecraft:impossible")
+
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()
+setHidden(true)
