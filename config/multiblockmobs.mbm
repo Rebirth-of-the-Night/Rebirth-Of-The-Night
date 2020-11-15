@@ -10,7 +10,7 @@ Dimensions:[x = 3, y = 3, z = 2]
 
 !startInit
 minecraft:hay_block = "h"
-minecraft:bone_block = "b"
+betternether:bone_block = "b"
 multiblockmobs:soul_chassis = "s"
 minecraft:air = "~"
 minecraft:lit_pumpkin = "p"
