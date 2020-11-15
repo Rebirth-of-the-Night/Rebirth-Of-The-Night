@@ -8,4 +8,4 @@ criteria = addCriteria("gain_sun_blessing", "minecraft:effects_changed")
 criteria.addEffect("mowziesmobs:suns_blessing")
 
 alwaysVisible()
-setPos(-250,180)
+setPos(-219,148)

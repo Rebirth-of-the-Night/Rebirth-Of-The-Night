@@ -1,0 +1,20 @@
+setIcon(<contenttweaker:info>)
+setTitle("Hidden Achievement")
+setDescription("")
+
+addParent("triumph:advancements/bosskills/root")
+
+
+criteria = addCriteria("The Primordial", "minecraft:player_killed_entity")
+criteria.setEntityType("netherex:ghast_queen")
+
+setUncompletedIconColor(150,150,150)
+setUncompletedTitleColor(110,110,110)
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+
+hideLines()
+hiddenIf("triumph:advancements/progression/wither/killedPrimordial")
+setPos(-57,148)

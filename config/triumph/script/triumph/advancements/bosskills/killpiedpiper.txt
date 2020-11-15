@@ -9,4 +9,4 @@ criteria.setEntityType("rats:illager_piper")
 
 hideLines()
 alwaysVisible()
-setPos(-219,149)
+setPos(-281,179)

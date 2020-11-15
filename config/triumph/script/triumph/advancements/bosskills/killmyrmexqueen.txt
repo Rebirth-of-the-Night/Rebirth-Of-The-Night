@@ -9,4 +9,4 @@ criteria.setEntityType("iceandfire:myrmex_queen")
 
 hideLines()
 alwaysVisible()
-setPos(-188,87)
+setPos(-250,54)

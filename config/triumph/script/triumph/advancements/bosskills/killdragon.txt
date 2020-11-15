@@ -15,4 +15,4 @@ addRequirements(["firedragon", "icedragon"])
 
 hideLines()
 alwaysVisible()
-setPos(-64,87)
+setPos(-250,179)

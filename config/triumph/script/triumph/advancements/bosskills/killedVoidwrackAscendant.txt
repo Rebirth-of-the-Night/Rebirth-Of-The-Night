@@ -1,0 +1,17 @@
+setIcon(<minecraft:dirt>)
+setTitle("Voidwracked Ascendant")
+setDescription("Kill the Voidwracked Ascendant.")
+
+addParent("triumph:advancements/bosskills/root")
+
+
+criteria = addCriteria("Voidwracked Ascendant", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:dirt")
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+hiddenUnless("triumph:advancements/progression/end/hiddenKilledVoidwrackAscendant")
+setPos(-119,148)

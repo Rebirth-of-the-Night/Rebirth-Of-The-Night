@@ -1,0 +1,16 @@
+setIcon(<aether_legacy:valkyrie_lance>)
+setTitle("kill Valkyrie Queen")
+setDescription("#PLACEHOLDER#")
+
+addParent("triumph:advancements/bosskills/root")
+
+
+criteria = addCriteria("valkyrie_queen", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:valkyrie_queen")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hiddenUnless("triumph:advancements/progression/aether/hiddenKilledValkyrieQueen")
+hideLines()
+setPos(-57,54)

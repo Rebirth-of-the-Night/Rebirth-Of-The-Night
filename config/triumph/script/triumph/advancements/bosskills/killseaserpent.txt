@@ -10,4 +10,4 @@ criteria.setEntityType("iceandfire:seaserpent")
 hideLines()
 alwaysVisible()
 
-setPos(-250,118)
+setPos(-250,117)

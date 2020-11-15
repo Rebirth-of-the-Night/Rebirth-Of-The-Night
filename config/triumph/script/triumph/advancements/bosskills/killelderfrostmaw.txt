@@ -9,4 +9,4 @@ criteria.setEntityType("mowziesmobs:frostmaw")
 
 hideLines()
 alwaysVisible()
-setPos(-281,87)
+setPos(-281,86)
