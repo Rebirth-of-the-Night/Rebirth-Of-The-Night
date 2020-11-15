@@ -18,5 +18,6 @@ setUncompletedIconColor(255,71,71)
 
 
 hiddenUnless("triumph:advancements/progression/aether/enterAether")
+hiddenUnless("triumph:advancements/progression/aether/hiddenKilledSlider")
 drawDirectLines()
 setPos(215,-90)
