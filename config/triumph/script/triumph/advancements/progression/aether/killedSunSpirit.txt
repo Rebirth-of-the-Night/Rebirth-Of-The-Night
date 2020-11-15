@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:heart_of_fire>)
+setIcon(<mowziesmobs:grant_suns_blessing>)
 setTitle("Eclipse")
 setDescription("Extinguish a solar guardian.")
 
@@ -15,6 +15,6 @@ setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
 
-hiddenUnless("triumph:advancements/progression/aether/killsunspirit")
+hiddenUnless("triumph:advancements/progression/aether/killedsunspirit")
 drawDirectLines()
 setPos(185,-107)

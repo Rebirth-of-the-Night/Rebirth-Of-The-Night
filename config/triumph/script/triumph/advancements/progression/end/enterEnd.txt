@@ -2,7 +2,7 @@ setIcon(<minecraft:end_portal_frame>)
 setTitle("The End?")
 setDescription("Enter The End.")
 
-addParent("triumph:advancements/progression/beneath/killidolofradiance")
+addParent("triumph:advancements/progression/beneath/killedidolofradiance")
 addRewardFunction("triumph:enteredEnd")
 
 
@@ -16,6 +16,6 @@ setFrameType("GOAL")
 setUncompletedIconColor(217,255,92)
 
 
-hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
+hiddenUnless("triumph:advancements/progression/beneath/killedidolofradiance")
 drawDirectLines()
 setPos(365,0)

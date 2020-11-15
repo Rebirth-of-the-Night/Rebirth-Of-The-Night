@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:info>)
+setTitle("Hidden Achievement")
+setDescription("")
+
+addParent("triumph:advancements/progression/aether/enterAether")
+addRewardFunction("triumph:killedSliderHidden")
+
+criteria = addCriteria("Sun Spirit", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:valkyrie_queen")
+
+setUncompletedIconColor(150,150,150)
+setUncompletedTitleColor(110,110,110)
+
+
+hiddenUnless("triumph:advancements/progression/aether/enterAether")
+hiddenIf("triumph:advancements/progression/aether/killedValkyrieQueen")
+drawDirectLines()
+setPos(155,-90)

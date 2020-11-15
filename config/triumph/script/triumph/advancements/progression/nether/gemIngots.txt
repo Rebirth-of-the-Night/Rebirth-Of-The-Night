@@ -7,6 +7,6 @@ addParent("triumph:advancements/progression/nether/enterNether")
 criteria = addCriteria("Gem Ingot", "minecraft:inventory_changed")
 criteria.addItem(<ore:gemIngot>)
 
-hiddenUnless("triumph:advancements/progression/killharvester")
+hiddenUnless("triumph:advancements/progression/killedHarvester")
 drawDirectLines()
 setPos(155,30)

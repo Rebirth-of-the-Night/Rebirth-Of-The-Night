@@ -14,6 +14,6 @@ setUncompletedIconColor(255,71,71)
 
 
 
-hiddenUnless("triumph:advancements/progression/aether/killvalkyriequeen")
+hiddenUnless("triumph:advancements/progression/aether/killedvalkyriequeen")
 drawDirectLines()
 setPos(155,-90)
