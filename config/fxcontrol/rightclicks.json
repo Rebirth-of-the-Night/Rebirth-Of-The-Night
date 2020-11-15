@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "playerhelditem": "from_the_depths:item_totem_of_summoning_quazar",
+        "block": "from_the_depths:block_altar_of_summoning",
+        "message": "The skies roar as the scourge of the galaxy approaches..."
+    }
+]

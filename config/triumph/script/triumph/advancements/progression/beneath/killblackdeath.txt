@@ -13,6 +13,6 @@ setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
 
-hiddenUnless("triumph:advancements/progression/killblackdeath")
+hiddenUnless("triumph:advancements/progression/beneath/killblackdeath")
 drawDirectLines()
 setPos(208,0)

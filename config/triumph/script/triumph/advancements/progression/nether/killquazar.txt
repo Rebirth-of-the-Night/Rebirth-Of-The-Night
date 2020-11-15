@@ -1,6 +1,6 @@
-setIcon(<minecraft:dirt>)
+setIcon(<contenttweaker:volatile_core>)
 setTitle("Quazar")
-setDescription("#PLACEHOLDER#")
+setDescription("Kill Quazar")
 
 addParent("triumph:advancements/progression/nether/enterNether")
 

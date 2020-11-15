@@ -1,11 +1,11 @@
-setIcon(<biomesoplenty:gem:6>)
+setIcon(<minecraft:diamond>)
 setTitle("Bling! Bling!")
-setDescription("Obtain some gems.")
+setDescription("Obtain your first gem that can be made into an ingot")
 
 addParent("triumph:advancements/progression/nether/enterNether")
 
 criteria = addCriteria("Gems", "minecraft:inventory_changed")
-criteria.addItem("minecraft:dirt")
+criteria.addItem(<ore:ingotableGem>)
 
 hiddenUnless("triumph:advancements/progression/killharvester")
 drawDirectLines()

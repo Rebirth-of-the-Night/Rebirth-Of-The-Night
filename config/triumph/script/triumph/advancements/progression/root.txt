@@ -16,3 +16,4 @@ addCriteria("location", "minecraft:location")
 
 alwaysHidden()
 setHidden(true)
+setPos(-111,0)

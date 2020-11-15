@@ -1,0 +1,18 @@
+setIcon(<minecraft:dirt>)
+setTitle("Slider Hidden")
+setDescription("Slider Hidden.")
+
+addRewardFunction("triumph:killedSliderHidden")
+
+
+addParent("triumph:advancements/progression/aether/enterAether")
+
+
+addCriteria("impossible", "minecraft:impossible")
+
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+setHidden(true)
+setPos(-521,34)

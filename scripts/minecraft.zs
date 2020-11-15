@@ -624,6 +624,23 @@ recipes.addShaped("scrapped_leather", <betterwithmods:material:31>,
 
 //Ore Dictionary Entries
 
+val ingotableGem = <ore:ingotableGem>;
+ingotableGem.add(
+  <minecraft:diamond>,
+  <biomesoplenty:gem:2>,
+  <biomesoplenty:gem:6>,
+  <biomesoplenty:gem:1>
+);
+
+val gemIngot = <ore:gemIngot>;
+gemIngot.add(
+  <betterwithmods:material:45>,
+  <contenttweaker:sapphire_ingot>,
+  <contenttweaker:ruby_ingot>,
+  <contenttweaker:peridot_ingot>
+);
+
+
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 <ore:ingotCrucibleSteel>.add(<dungeontactics:steel_ingot>);
@@ -722,10 +739,8 @@ val carbon = <ore:dustRichCarbon>;
 carbon.add(<pyrotech:material:32>);
 
 val qualityGem = <ore:Gem_highQuality>;
-qualityGem.addItems([<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
+qualityGem.addItems([<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 qualityGem.addAll(<ore:gemOnyx>);
-qualityGem.addAll(<ore:gemDiamond>);
-qualityGem.addAll(<ore:gemEmerald>);
 qualityGem.addAll(<ore:gemAmethyst>);
 
 val gemAmethyst = <ore:gemAmethyst>;

@@ -1,10 +1,10 @@
-setIcon(<minecraft:dirt>)
-setTitle("kill Slider")
-setDescription("#PLACEHOLDER#")
+setIcon(<aether_legacy:dungeon_block>)
+setTitle("Slider")
+setDescription("Kill the Slider")
 
 addParent("triumph:advancements/progression/aether/enterAether")
 
-criteria = addCriteria("kill_slider", "minecraft:player_killed_entity")
+criteria = addCriteria("Kill Slider", "minecraft:player_killed_entity")
 criteria.setEntityType("aether_legacy:slider")
 
 setShowToast(true)
@@ -14,6 +14,6 @@ setUncompletedIconColor(255,71,71)
 
 
 
-hiddenUnless("triumph:advancements/progression/aether/killslider")
+hiddenUnless("triumph:advancements/progression/aether/killedSlider")
 drawDirectLines()
 setPos(213,-68)
