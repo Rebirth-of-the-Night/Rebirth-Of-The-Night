@@ -1,20 +1,18 @@
-setIcon(<contenttweaker:heart_of_fire>)
-setTitle("Eclipse")
-setDescription("Extinguish a solar guardian.")
+setIcon(<contenttweaker:info>)
+setTitle("Hidden Achievement")
+setDescription("")
 
 addParent("triumph:advancements/progression/aether/enterAether")
-
-addRewardFunction("triumph:killedSunSpirit")
+addRewardFunction("triumph:killedSliderHidden")
 
 criteria = addCriteria("Sun Spirit", "minecraft:player_killed_entity")
 criteria.setEntityType("aether_legacy:sun_spirit")
 
-setShowToast(true)
-setAnnounceToChat(true)
-setFrameType("CHALLENGE")
-setUncompletedIconColor(255,71,71)
+setUncompletedIconColor(150,150,150)
+setUncompletedTitleColor(110,110,110)
 
 
 hiddenUnless("triumph:advancements/progression/aether/enterAether")
+hiddenIf("triumph:advancements/progression/aether/killedSunSpirit")
 drawDirectLines()
 setPos(185,-107)

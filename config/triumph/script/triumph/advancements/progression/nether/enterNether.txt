@@ -2,7 +2,7 @@ setIcon(<minecraft:obsidian>)
 setTitle("We Must Go Deeper")
 setDescription("Enter the Nether.")
 
-addParent("triumph:advancements/progression/killharvester")
+addParent("triumph:advancements/progression/killedharvester")
 
 addRewardFunction("triumph:enteredNether")
 

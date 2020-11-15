@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:info>)
+setTitle("Hidden Achievement")
+setDescription("")
+
+addParent("triumph:advancements/progression/end/enterEnd")
+
+
+criteria = addCriteria("Voidwracked Ascendant", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:dirt")
+
+setUncompletedIconColor(150,150,150)
+setUncompletedTitleColor(110,110,110)
+
+
+hiddenUnless("triumph:advancements/beneath/killedidolofradiance")
+hiddenIf("triumph:advancements/progression/end/killedVoidwrackAscendant")
+drawDirectLines()
+setPos(365,-40)

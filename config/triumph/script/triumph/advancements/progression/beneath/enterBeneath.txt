@@ -2,7 +2,7 @@ setIcon(<dimstack:portal>)
 setTitle("Where The Lost Tread")
 setDescription("Enter The Beneath.")
 
-addParent("triumph:advancements/progression/nether/killquazar")
+addParent("triumph:advancements/progression/nether/killedQuazar")
 addParent("triumph:advancements/progression/aether/enterAether")
 
 addRewardFunction("triumph:enteredBeneath")
@@ -16,6 +16,6 @@ setFrameType("GOAL")
 setUncompletedIconColor(217,255,92)
 
 
-hiddenUnless("triumph:advancements/progression/nether/killquazar")
+hiddenUnless("triumph:advancements/progression/nether/killedQuazar")
 drawDirectLines()
 setPos(245,0)

@@ -5,13 +5,13 @@ setDescription("Kill The End Mage.")
 addParent("triumph:advancements/progression/end/enterEnd")
 
 criteria = addCriteria("End Mage", "minecraft:player_killed_entity")
-criteria.setEntityType("minecraft:dirt")
+criteria.setEntityType("minecraft:impossible")
 
 setShowToast(true)
 setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
+hiddenUnless("triumph:advancements/progression/end/killedendmage")
 drawDirectLines()
 setPos(365,38)

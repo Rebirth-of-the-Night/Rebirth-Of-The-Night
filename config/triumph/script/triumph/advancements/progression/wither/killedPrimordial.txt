@@ -2,7 +2,7 @@ setIcon(<minecraft:dirt>)
 setTitle("The Primordial")
 setDescription("Kill The Primordial.")
 
-addParent("triumph:advancements/progression/wither/killwither")
+addParent("triumph:advancements/progression/wither/killedwither")
 
 
 criteria = addCriteria("The Primordial", "minecraft:player_killed_entity")
@@ -14,6 +14,6 @@ setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
+hiddenUnless("triumph:advancements/progression/beneath/killedidolofradiance")
 drawDirectLines()
 setPos(552,-16)

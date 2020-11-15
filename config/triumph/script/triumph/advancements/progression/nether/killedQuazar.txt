@@ -12,6 +12,6 @@ criteria.setEntityType("betterslimes:king_slime")
 setShowToast(true)
 setFrameType("CHALLENGE")
 
-hiddenUnless("triumph:advancements/progression/killharvester")
+hiddenUnless("triumph:advancements/progression/killedHarvester")
 drawDirectLines()
 setPos(185,0)
