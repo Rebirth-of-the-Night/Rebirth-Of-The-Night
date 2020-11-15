@@ -1,13 +1,49 @@
 setIcon(<minecraft:skull, meta:4>)
-setTitle("Aww Man")
-setDescription("Die by a Creeper one time.")
+setTitle("So We Back In The Mine")
+setDescription("Die by a Creeper two times.")
 
-addParent("triumph:advancements/deaths/root")
-
+addParent("triumph:advancements/deaths/creeper")
 
 criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
-criteria.setEntityType("creeper")
+criteria.setEntityType("minecraft:creeper")
 
-// hideLines()
+criteria = addCriteria("Rocket Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("primitivemobs:rocket_creeper")
+
+criteria = addCriteria("Festive Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("primitivemobs:festive_creeper")
+
+criteria = addCriteria("Spore Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("netherex:spore_creeper")
+
+criteria = addCriteria("Dark Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:darkcreeper")
+
+criteria = addCriteria("Death Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:deathcreeper")
+
+criteria = addCriteria("Doom Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:doomcreeper")
+
+criteria = addCriteria("Ender Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:endercreeper")
+
+criteria = addCriteria("Fire Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:firecreeper")
+
+criteria = addCriteria("Jumping Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:jumpingcreeper")
+
+criteria = addCriteria("Lightning Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:lightningcreeper")
+
+criteria = addCriteria("Mini Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:minicreeper")
+
+criteria = addCriteria("Splitting Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:splittingcreeper")
+
+setRequirements("any")
+criteria.setCount(2)
+setPos(104,113)
 setHidden(true)
-setPos(64,113)
