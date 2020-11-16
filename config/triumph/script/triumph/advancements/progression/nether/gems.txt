@@ -7,5 +7,6 @@ addParent("triumph:advancements/progression/killedHarvester")
 criteria = addCriteria("Gems", "minecraft:inventory_changed")
 criteria.addItem(<ore:ingotableGem>)
 
+alwaysVisible()
 drawDirectLines()
 setPos(95,-30)
