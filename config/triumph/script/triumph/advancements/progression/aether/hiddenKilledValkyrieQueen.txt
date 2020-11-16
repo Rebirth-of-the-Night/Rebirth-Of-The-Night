@@ -5,8 +5,7 @@ setDescription("")
 addParent("triumph:advancements/progression/aether/enterAether")
 addRewardFunction("triumph:killedSliderHidden")
 
-criteria = addCriteria("Sun Spirit", "minecraft:player_killed_entity")
-criteria.setEntityType("aether_legacy:valkyrie_queen")
+criteria = addCriteria("impossible", "minecraft:impossible")
 
 setUncompletedIconColor(150,150,150)
 setUncompletedTitleColor(110,110,110)

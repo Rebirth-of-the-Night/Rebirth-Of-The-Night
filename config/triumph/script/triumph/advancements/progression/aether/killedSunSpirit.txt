@@ -15,8 +15,6 @@ setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
 
-hiddenUnless("triumph:advancements/progression/aether/enterAether")
-hiddenUnless("triumph:advancements/progression/aether/hiddenKilledSunSpirit")
-
+hiddenUnless("triumph:advancements/progression/aether/killedSunSpirit")
 drawDirectLines()
 setPos(185,-107)
