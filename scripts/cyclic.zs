@@ -28,6 +28,7 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:builder_block>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:target>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:tool_mount>);
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_med_angle>);//add back
@@ -40,7 +41,6 @@ mods.jei.JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:password_block>);//add back
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
 mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
-mods.jei.JEI.removeAndHide(<cyclicmagic:moon_sensor>);//add back
 //mods.jei.JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back in future update
 
 
@@ -79,7 +79,7 @@ recipes.remove(<cyclicmagic:horse_upgrade_variant>);
 recipes.remove(<cyclicmagic:horse_upgrade_health>);
 recipes.remove(<cyclicmagic:horse_upgrade_speed>);
 recipes.remove(<cyclicmagic:horse_upgrade_jump>);
-recipes.remove(<cyclicmagic:tool_mount>);
+recipes.remove(<cyclicmagic:moon_sensor>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 //apple recipes on betterwithmods.zs
 

@@ -6,7 +6,7 @@
 <contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:teaitem>.addTooltip("Calming, but it gets you going.");
 <harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:raspberryicedteaitem>.addTooltip("sweet, refreshing and it gets you going.");
+<harvestcraft:raspberryicedteaitem>.addTooltip("Sweet, refreshing and it gets you going.");
 <harvestcraft:raspberryicedteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:chaiteaitem>.addTooltip("So aromatic it gets you going.");
 <harvestcraft:chaiteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
