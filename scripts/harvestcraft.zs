@@ -30,6 +30,8 @@ mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherleggingsitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherbootsitem>);
 
 
+recipes.remove(<harvestcraft:minerstewitem>);
+recipes.addShapeless("miners_stew",<harvestcraft:minerstewitem>,[<ore:toolPot>,<minecraft:iron_ingot>,<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:dye:4>,<ore:ingotableGem>,<minecraft:coal:0>,<minecraft:flint>,<minecraft:rotten_flesh>]);
 
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[

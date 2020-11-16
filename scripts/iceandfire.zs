@@ -17,6 +17,16 @@ recipes.addShaped("dragon_horn",<iceandfire:dragon_horn>,[
   [<ore:stickWood>,<iceandfire:dragonbone>,null]
 ]);
 
+recipes.remove(<iceandfire:tide_trident>);
+recipes.addShaped("tide_trident",<iceandfire:tide_trident>,[
+  [<iceandfire:sea_serpent_fang>,<iceandfire:sea_serpent_fang>,<iceandfire:sea_serpent_fang>],
+  [<ore:seaSerpentScale>,<ore:ingotableGem>,<ore:seaSerpentScale>],
+  [null,<iceandfire:dragonbone>,null]
+]);
+
+recipes.removeByRecipeName("iceandfire:summoning_crystal_fire");
+recipes.addShapeless("fire_dragon_summoning_crystal",<iceandfire:summoning_crystal_fire>,[<iceandfire:fire_dragon_blood>,<minecraft:ender_pearl>,<minecraft:diamond>,<biomesoplenty:gem:1>]);
+
 // Pixie Wand
 recipes.remove(<iceandfire:pixie_wand>);
 

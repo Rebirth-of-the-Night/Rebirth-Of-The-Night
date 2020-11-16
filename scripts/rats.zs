@@ -109,6 +109,9 @@ recipes.remove(<rats:rat_upgrade_armor>);
 recipes.remove(<rats:rat_upgrade_enchanter>);
 recipes.remove(<rats:rat_upgrade_replanter>);
 recipes.remove(<rats:rat_upgrade_jury_rigged>);
+recipes.removeByRecipeName("rats:rat_upgrade_basic");
+recipes.remove(<rats:rat_upgrade_gemcutter>);
+recipes.remove(<rats:rat_upgrade_warrior>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.removeChefRatRecipe(<rats:potato_kinishes>);
 mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
@@ -190,10 +193,28 @@ recipes.addShaped("rats_juryrigged_upgrade",<rats:rat_upgrade_jury_rigged>,[
     [<betterwithmods:steel_block:0>,<ore:glue>,<betterwithmods:aesthetic:3>]
 ]);
 
+recipes.addShaped("rats_basic_upgrade",<rats:rat_upgrade_basic>,[
+    [<ore:ingotableGem>,<ore:foodCheese>,<ore:ingotableGem>],
+    [<ore:foodCheese>,null,<ore:foodCheese>],
+    [<ore:ingotableGem>,<ore:foodCheese>,<ore:ingotableGem>]
+]);
+
+recipes.addShaped("rats_gemcutter_upgrade",<rats:rat_upgrade_gemcutter>,[
+    [<minecraft:flint>,<minecraft:emerald>,<minecraft:flint>],
+    [<ore:ingotableGem>,<rats:rat_upgrade_basic>,<ore:ingotableGem>],
+    [<minecraft:flint>,<minecraft:emerald>,<minecraft:flint>]
+]);
+
+recipes.addShaped("rats_warrior_upgrade",<rats:rat_upgrade_warrior>,[
+    [<biomesoplenty:gem:1>,<minecraft:diamond_sword>,<biomesoplenty:gem:1>],
+    [<rats:rat_upgrade_health>,<rats:rat_upgrade_strength>,<rats:rat_upgrade_armor>],
+    [<biomesoplenty:gem:1>,<minecraft:diamond_block>,<biomesoplenty:gem:1>]
+]);
+
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;
 orecheese.remove(<rats:cheese>);
-recipes.removeByRecipeName("rats:block_of_cheese"); //Compacted in a compacting bin, pirotech_other.zs
+recipes.removeByRecipeName("rats:block_of_cheese"); //Compacted in a compacting bin, pyrotech_other.zs
 
 <rats:cheese>.displayName = "Cheese Chunk";
 <rats:cheese>.addTooltip("For you, it's hardly worth the effort to eat. For a rat, it's a perfect treat!");
