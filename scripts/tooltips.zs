@@ -21,8 +21,11 @@
 
 
 
+# BWA
+<betterwithaddons:ancestry_bottle>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
+
 #Nyx
-<nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
+<nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects");
 <nyx:scythe>.addTooltip("Destroys crops and plants in a 9x9x9 area");
 <nyx:scythe>.addTooltip("Has a chance to double, triple, or quadruple crop and plant drops");
 <nyx:meteor_finder>.addTooltip("Points to the closest meteor impact zone (if any)");
@@ -39,7 +42,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 
 #Eplus
-<eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");
+<eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table");
 
 #Boat tooltips
 <minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");
