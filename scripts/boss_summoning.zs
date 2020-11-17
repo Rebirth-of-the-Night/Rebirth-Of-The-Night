@@ -29,8 +29,4 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-  
-recipes.addShaped(<netherex:congealed_magma_cream>, [
-[<nyx:meteor_shard>, <netherex:fiery_netherrack>, <minecraft:blaze_powder>],
-[<minecraft:magma_cream>, <contenttweaker:shard_of_night>, <minecraft:magma_cream>], 
-[<minecraft:blaze_powder>, <netherex:fiery_netherrack>, <nyx:meteor_shard>]]);
+ 
