@@ -42,7 +42,7 @@
       "maxSpawns": 7,
       "timeBetweenSpawns": 60,
       "spawnBeforeBoss": true,
-	  "nbt":{size:1,disable_message:2b,homing:2b,spawn_no_blocks:2b,speed:0.41},
+	  "nbt":{size:1,disable_message:2b,spawn_no_blocks:2b,speed:0.41},
       "_comment2": "The next wave of adds will start spawning after these adds have been spawned",
       "nextWaveOfAdds": {
         "domain": "specialmobs",
@@ -58,7 +58,8 @@
           "minSpawns": 6,
           "maxSpawns": 6,
           "timeBetweenSpawns": 80,
-          "timeToWaitBeforeSpawn": 100
+          "timeToWaitBeforeSpawn": 100,
+		  "nbt":{Size:1}
         }
       }
     }
