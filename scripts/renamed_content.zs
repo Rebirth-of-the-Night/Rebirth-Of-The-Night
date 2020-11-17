@@ -4,8 +4,11 @@ import crafttweaker.item.IItemStack;
 
 // Ambience
 <ambience:ocarina>.displayName = "Flute";
-<ambience:ocarina>.addTooltip("Playing songs may give you special buffs...");
+<ambience:ocarina>.addTooltip("Specific songs that are played on this flute empowers those playing");
+<ambience:ocarina>.removeTooltip("A Ocarina that was left forgoten on this world by a man in green clothes.");
 
+<ambience:horn>.removeTooltip("A very powerful item that causes fear in the hearts of your enemies and encourges your allies in the battle field.")
+<ambience:horn>.addTooltip("Causes fear in the hearts of enemies and encourges allies in the battlefield")
 
 // Butterflies
 <butterflies:butterfly_case>.displayName = "Butterfly Display Case";
