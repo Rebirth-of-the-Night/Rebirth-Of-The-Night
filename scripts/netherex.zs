@@ -19,6 +19,13 @@ mods.ltt.LootTable.removeGlobalItem("netherex:wither_bone");
 mods.jei.JEI.removeAndHide(<netherex:wither_bone>);
 mods.jei.JEI.removeAndHide(<netherex:wither_dust>);
 
+mods.ltt.LootTable.removeGlobalItem("netherex:rime_crystal");
+furnace.remove(<netherex:rime_crystal>);
+furnace.remove(<netherex:rime_ore>);
+mods.jei.JEI.removeAndHide(<netherex:rime_ore>);
+mods.jei.JEI.removeAndHide(<netherex:rime_crystal>);
+mods.jei.JEI.removeAndHide(<netherex:rime_block>);
+
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_sword>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_pickaxe>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_shovel>);
@@ -49,7 +56,7 @@ mods.jei.JEI.removeAndHide(<netherex:gloomy_netherbrick>);
 mods.jei.JEI.removeAndHide(<netherex:lively_netherbrick>);
 mods.jei.JEI.removeAndHide(<netherex:fiery_netherbrick>);
 mods.jei.JEI.removeAndHide(<netherex:icy_netherbrick>);
-mods.jei.JEI.removeAndHide(<netherex:amethyst_crystal>);
+recipes.remove(<netherex:amethyst_crystal>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_block>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_ore>);
 
