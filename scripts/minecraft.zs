@@ -324,12 +324,16 @@ recipes.addShaped("tinrail",<minecraft:rail>*8,[
     [<ore:ingotTin>,<ore:stickWood>,<ore:ingotTin>],
     [<ore:ingotTin>,null,<ore:ingotTin>]
 ]);
-recipes.addShaped("steelrail",<minecraft:rail>*32,[
+recipes.addShaped("steelrail",<minecraft:rail>*64,[
     [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>],
     [<dungeontactics:steel_ingot>,<ore:stickWood>,<dungeontactics:steel_ingot>],
     [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>]
 ]);
-
+recipes.addShaped("silverboosterrail",<minecraft:golden_rail>*4,[
+    [<iceandfire:silver_ingot>,null,<iceandfire:silver_ingot>],
+    [<iceandfire:silver_ingot>,<ore:stickWood>,<iceandfire:silver_ingot>],
+    [<iceandfire:silver_ingot>,<minecraft:redstone>,<iceandfire:silver_ingot>]
+]);
 
 
 // other tin uses
