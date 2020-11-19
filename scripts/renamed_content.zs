@@ -135,6 +135,8 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <twilightforest:stone_twist>.displayName = "Twisted Stone Pillar";
 <twilightforest:stone_twist_thin>.displayName = "Thin Twisted Stone Pillar";
 <twilightforest:boss_spawner:9>.displayName = "Final Boss Spawner";
+<twilightforest:raw_venison>.displayName = "Raw Prime Venison"; 
+<twilightforest:cooked_venison>.displayName = "Roast Prime Venison"; 
 
 // Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
