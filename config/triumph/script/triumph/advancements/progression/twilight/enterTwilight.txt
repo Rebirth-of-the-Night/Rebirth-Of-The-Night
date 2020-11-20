@@ -2,8 +2,8 @@ setIcon(<twilightforest:miniature_structure>)
 setTitle("The True Final Frontier")
 setDescription("Enter The Twilight Forest.")
 
-addParent("triumph:advancements/progression/wither/killghastqueen")
-addParent("triumph:advancements/progression/wither/killprimordial")
+addParent("triumph:advancements/progression/wither/killedGhastQueen")
+addParent("triumph:advancements/progression/wither/killedPrimordial")
 
 addRewardFunction("triumph:enteredTwilightForest")
 
