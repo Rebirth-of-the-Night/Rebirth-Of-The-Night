@@ -115,7 +115,7 @@
         "patreon":
         {
             "text" : "Donate via Patreon",
-            "normalTextColor" : 12303291,
+            "normalTextColor" : 66418231,
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
             "posX" : -100,
