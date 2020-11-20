@@ -5,8 +5,8 @@ import crafttweaker.item.IItemStack;
 mods.jei.JEI.removeAndHide(<malisisdoors:hitechdoor>);
 mods.jei.JEI.removeAndHide(<malisisdoors:forcefielditem>);
 mods.jei.JEI.removeAndHide(<malisisdoors:door_factory>);
-mods.jei.JEI.removeAndHide(<malisisdoors:carriage_door>);
-#mods.jei.JEI.removeAndHide(<malisisdoors:medieval_door>);
+#mods.jei.JEI.removeAndHide(<malisisdoors:carriage_door>);
+mods.jei.JEI.removeAndHide(<malisisdoors:medieval_door>);
 mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_acacia>);
 mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_birch>);
 mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_dark_oak>);
@@ -23,6 +23,7 @@ recipes.remove(<malisisdoors:sliding_trapdoor>);
 recipes.remove(<malisisdoors:garage_door>);
 recipes.remove(<malisisdoors:jail_door>);
 recipes.remove(<malisisdoors:laboratory_door>);
+recipes.remove(<malisisdoors:carriage_door>);
 
 #Rusty
 recipes.addShaped("Bunker Handle", <malisisdoors:rustyhandle>,[
