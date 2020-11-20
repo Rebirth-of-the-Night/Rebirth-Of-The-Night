@@ -283,7 +283,15 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <mcwbridges:oak_rail_bridge>.displayName = "Wooden Rail Bridge";
 <mcwbridges:oak_rail_bridge_powered>.displayName = "Powered Wooden Rail Bridge";
 
-// Mowzie's Mobs
+# Malisis Doors
+<malisisdoors:garage_door>.displayName = "Portcullis Door";
+<malisisdoors:jail_door>.displayName = "Reinforced Door";
+<malisisdoors:verticalhatch>.displayName = "Vault Door";
+<malisisdoors:laboratory_door>.displayName = "Rampart Door";
+<malisisdoors:sliding_trapdoor>.displayName = "Rampart Trapdoor";
+<malisisdoors:carriage_door>.displayName = "Castle Gate";
+
+// Mowzies Mobs
 <mowziesmobs:naga_fang>.displayName = "Skydrake Fang";
 
 // BOP
@@ -315,7 +323,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <eplus:advanced_table>.displayName = "§6True Enchanting Table";
 
 
-// Lavacow / Fish's Undead Rising
+// Lavacow / Fishs Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 <mod_lavacow:green_bacon_and_eggs>.displayName = "Green Eggs and Bacon";
 <mod_lavacow:poisonstinger>.displayName = "Vespa Stinger";
@@ -447,7 +455,7 @@ for potion in potionMap{
 // Rats
 <rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
 
-// Pam's Harvestcraft
+// Pams Harvestcraft
 <harvestcraft:maplesyrupitem>.displayName = "Sweet Syrup";
 <harvestcraft:wovencottonitem>.displayName = "Woven Cloth";
 <harvestcraft:hamsweetpicklesandwichitem>.displayName = "Sweet Pickle and Ham Sandwich";

@@ -173,6 +173,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 # Weapons
 
+#Doors
+<malisisdoors:jail_door>.addTooltip("slidin into ur DMs");
+
 #Misc.
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));

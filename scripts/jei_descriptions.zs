@@ -326,6 +326,9 @@ mods.jei.JEI.addDescription(<dungeontactics:fan_block>,"Pushes §lall entities a
 mods.jei.JEI.addDescription(<dungeontactics:flamer_block>,"Deals fire damage relative to distance to entities within range. Can light fires, heat furnaces, brewing stands, and cauldrons, and ignite explosives.");
 mods.jei.JEI.addDescription(<advancedliftingmethods:blowing_elevator>,"Thanks to reverse-flow filter logic from stone pressure plates, it pushes only entities. Use the blowing elevator along with chutes to make chute elevators.");
 
+mods.jei.JEI.addDescription(<malisisdoors:garage_door>, "Apply a redstone signal to lift the gate. All connected gates move as one block.");
+mods.jei.JEI.addDescription(<malisisdoors:jail_door>, "Apply a redstone signal to open and close.");
+
 /* Stars */
 mods.jei.JEI.addDescription(<nyx:fallen_star>,"A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower.");
 
