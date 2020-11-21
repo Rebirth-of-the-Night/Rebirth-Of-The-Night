@@ -252,6 +252,13 @@ Dropt.list("sludge")
       .matchBlocks(["mod_lavacow:pileofsludge"])
       .addDrop(Dropt.drop())
   );
+  
+Dropt.list("non-resource_drops")
+
+  .add(Dropt.rule()
+      .matchBlocks(["caves_and_cliffs:stalactite","contenttweaker:dolomite_straws"])
+      .addDrop(Dropt.drop())
+  );
 
 Dropt.list("clovers")
 

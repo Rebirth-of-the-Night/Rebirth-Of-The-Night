@@ -47,6 +47,21 @@ halite.setTranslucent(true);
 halite.setLightOpacity(0);
 halite.register();
 
+//Speleothems
+var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
+dolomite_straws.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     2.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    16.0 / 16.0,
+    12.0 / 16.0
+	);
+dolomite_straws.setFullBlock(false);
+dolomite_straws.setLightOpacity(0);
+dolomite_straws.setBlockSoundType(<soundtype:stone>);
+dolomite_straws.register();
+
 //block_electrum
 var blockElectrum = VanillaFactory.createBlock("block_electrum", <blockmaterial:Iron>);
 blockElectrum.setCreativeTab(<creativetab:buildingBlocks>);
