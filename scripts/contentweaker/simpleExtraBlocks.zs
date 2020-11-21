@@ -9,6 +9,27 @@ import mods.contenttweaker.AxisAlignedBB;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script*/
 
+//Dormant Ardicite Onyx
+var dormant_ardicite_onyx = VanillaFactory.createBlock("dormant_ardicite_onyx", <blockmaterial:Rock>);
+dormant_ardicite_onyx.setCreativeTab(<creativetab:buildingBlocks>);
+dormant_ardicite_onyx.setBlockSoundType(<soundtype:stone>);
+dormant_ardicite_onyx.setToolLevel(99);
+dormant_ardicite_onyx.setBlockHardness(999.0);
+dormant_ardicite_onyx.setBlockResistance(999.0);
+dormant_ardicite_onyx.setBeaconBase(false);
+dormant_ardicite_onyx.register();
+
+//Dormant Onyx
+var dormant_onyx = VanillaFactory.createBlock("dormant_onyx", <blockmaterial:Rock>);
+dormant_onyx.setCreativeTab(<creativetab:buildingBlocks>);
+dormant_onyx.setBlockSoundType(<soundtype:stone>);
+dormant_onyx.setToolLevel(99);
+dormant_onyx.setBlockHardness(999.0);
+dormant_onyx.setBlockResistance(999.0);
+dormant_onyx.setBeaconBase(false);
+dormant_onyx.register();
+
+
 //Charcoal pile
 var charlog = VanillaFactory.createBlock("charcoal_pile", <blockmaterial:Wood>);
 charlog.setCreativeTab(<creativetab:buildingBlocks>);

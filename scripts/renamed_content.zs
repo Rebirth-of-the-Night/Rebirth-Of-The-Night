@@ -22,6 +22,7 @@ import crafttweaker.item.IItemStack;
 <minecraft:nether_star>.displayName = "§6Nether Star";
 
 <contenttweaker:dormant_onyx>.displayName = "Dormant Onyx";
+<contenttweaker:dormant_ardicite_onyx>.displayName = "Dormant Ardicite Onyx";
 
 
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
