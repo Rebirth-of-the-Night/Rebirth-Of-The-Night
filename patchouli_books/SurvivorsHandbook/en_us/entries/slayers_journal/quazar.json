@@ -15,9 +15,6 @@
       "recipe": "from_the_depths:quazar",
       "text": "$(#734608) You’re unlikely to find one of these things by chance. Better off trying to lure the $(thing)Quazar$() $(#734608)right where you want it. Craft a $(item)Meteoric Sigil$() $(#734608)and then break it apart over the candles of an $(item)Altar of Summoning.$()"
   },
-{
-      "type": "text",
-    },
   	{
 			"type": "spotlight",
 			"title": "Fire from the Skies",
