@@ -1,4 +1,4 @@
-setIcon(<mowziesmobs:grant_suns_blessing>)
+setIcon(<contenttweaker:heart_of_fire>)
 setTitle("Eclipse")
 setDescription("Extinguish a solar guardian.")
 

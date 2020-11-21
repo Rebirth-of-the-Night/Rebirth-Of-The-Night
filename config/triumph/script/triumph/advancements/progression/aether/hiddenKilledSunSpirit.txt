@@ -3,7 +3,7 @@ setTitle("Hidden Achievement")
 setDescription("")
 
 addParent("triumph:advancements/progression/aether/enterAether")
-addRewardFunction("triumph:killedSliderHidden")
+addRewardFunction("triumph:killedSunSpiritHidden")
 
 criteria = addCriteria("impossible", "minecraft:impossible")
 
