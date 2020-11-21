@@ -21,6 +21,9 @@ import crafttweaker.item.IItemStack;
 <contenttweaker:adhesive_shadow>.displayName = "§5Adhesive Shadow";
 <minecraft:nether_star>.displayName = "§6Nether Star";
 
+<contenttweaker:dormant_onyx>.displayName = "Dormant Onyx";
+
+
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
 <multiblockmobs:soul_chassis>.displayName = "Soulfire Chassis";
