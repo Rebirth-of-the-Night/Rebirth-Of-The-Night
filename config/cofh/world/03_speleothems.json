@@ -6,7 +6,7 @@
 		]
 	"populate": 
 	{
-"dolomite_straws1": {
+		"dolomite_straws1": {
 			"distribution": "cave",
 			"generator": {
 				"type": "stalactite",

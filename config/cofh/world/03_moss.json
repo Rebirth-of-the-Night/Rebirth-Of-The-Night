@@ -53,7 +53,7 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "decoration",
-				"block": "twilightforest:twilight_plant",
+				"block": "contenttweaker:moss_patch",
 				"material": [
 					"air",
 					"tallgrass",
@@ -257,8 +257,12 @@
 				"type": "decoration",
 				"block": [
 					{
-						"name": "biomesoplenty:plant_1",
-						"variant": "rafflesia"
+						"name": "contenttweaker:cave_rafflesia",
+						"weight": 40
+					},
+					{
+						"name": "contenttweaker:cave_grass",
+						"weight": 100
 					}
 				],
 				"surface": [
@@ -271,9 +275,9 @@
 				"cluster-size": 32,
 				"see-sky": false
 				},
-			"cluster-count": 18,
+			"cluster-count": 4,
 			"ground-level": 60,
-			"chunk-chance": 4,
+			"chunk-chance": 2,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -299,6 +303,6 @@
 					"biomesoplenty:woodland"
 				]
 			}
-		},
+		}
 	}
 }
