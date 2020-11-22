@@ -251,6 +251,58 @@
 				]
 			}
 		},
+		"skewered_crassula": {
+			"distribution": "cave",
+			"generator": {
+				"type": "stalagmite",
+				"block": "contenttweaker:perforata",
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 2,
+				"height-mod": 2,
+				"gen-size": 1,
+				"size-variance": 0
+			},
+			"cluster-count": 2,
+			"chunk-chance": 8,
+			"ground-level":54,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
 		"flowers": {
 			"distribution": "cave",
 			"generator": {
@@ -258,6 +310,10 @@
 				"block": [
 					{
 						"name": "contenttweaker:cave_rafflesia",
+						"weight": 40
+					},
+					{
+						"name": "contenttweaker:perforata",
 						"weight": 40
 					},
 					{

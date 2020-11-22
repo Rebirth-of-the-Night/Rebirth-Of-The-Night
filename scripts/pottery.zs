@@ -79,7 +79,7 @@ RecipeBuilder.get("potter")
  
 // Pot to Vase
 RecipeBuilder.get("potter")
- .setShapeless([<rustic:vase>])
+ .setShapeless([<contenttweaker:pot_unfired>])
  .addTool(<artisanworktables:artisans_carver_gold>, 1)
  .addOutput(<betterwithmods:unfired_pottery:3>)
  .setExtraOutputOne(<minecraft:clay_ball>, 0.4)

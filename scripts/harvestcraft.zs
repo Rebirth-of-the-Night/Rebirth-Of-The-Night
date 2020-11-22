@@ -226,14 +226,6 @@ mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
 
-recipes.remove(<harvestcraft:stockitem>);
-recipes.addShapeless("harvestcraft_bonestock", <harvestcraft:stockitem>, [<ore:toolPot>, <minecraft:bone>]);
-
-recipes.addShapeless("harvestcraft_vegstock", <harvestcraft:stockitem> * 2, [<ore:toolPot>, <ore:listAllveggie>]);
-
-recipes.addShapeless("harvestcraft_meatstock", <harvestcraft:stockitem> * 3, [<ore:toolPot>, <ore:listAllmeatraw>]);
-
-
 recipes.remove(<harvestcraft:hardenedleatheritem>);
 recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<harvestcraft:beeswaxitem>,<betterwithmods:material:6>]);
 

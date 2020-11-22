@@ -329,6 +329,20 @@ Dropt.list("decayed_scaffolding")
 Dropt.list("plants_basic")
 
   .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cave_grass"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(30))
+          .items([<harvestcraft:ediblerootitem>])
+      )
+  );
+
+Dropt.list("plants_basic")
+
+  .add(Dropt.rule()
       .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()

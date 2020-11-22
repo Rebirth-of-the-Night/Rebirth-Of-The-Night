@@ -22,6 +22,7 @@ moss_patch.setBlockResistance(2.0);
 moss_patch.setFullBlock(false);
 moss_patch.setPassable(true);
 moss_patch.setReplaceable(true);
+moss_patch.setSlipperiness(0.89f);
 moss_patch.setLightOpacity(0);
 moss_patch.setBlockLayer("CUTOUT");
 moss_patch.setBlockSoundType(<soundtype:plant>);
@@ -64,3 +65,22 @@ cave_grass.setLightOpacity(0);
 cave_grass.setBlockLayer("CUTOUT");
 cave_grass.setBlockSoundType(<soundtype:plant>);
 cave_grass.register();
+
+var perforata = VanillaFactory.createBlock("perforata", <blockmaterial:Vine>);
+perforata.axisAlignedBB = AxisAlignedBB.create(
+     3.0 / 16.0,
+     0.0 / 16.0,
+     3.0 / 16.0,
+	13.0 / 16.0,
+    16.0 / 16.0,
+    13.0 / 16.0
+	);
+perforata.setBlockHardness(0.0);
+perforata.setBlockResistance(2.0);
+perforata.setFullBlock(false);
+perforata.setPassable(true);
+perforata.setReplaceable(false);
+perforata.setLightOpacity(0);
+perforata.setBlockLayer("CUTOUT");
+perforata.setBlockSoundType(<soundtype:plant>);
+perforata.register();
