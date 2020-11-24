@@ -585,8 +585,10 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
 <msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
 <msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
-<msmlegacy:draconic_blade>.displayName = "§2Draconic Sword";
+<msmlegacy:draconic_blade>.displayName = "§2Drakeish Blade";
 <msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
+<pyrotech:redstone_sword>.displayName = "§2Draconic Blade";
+<pyrotech:redstone_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 
 <mod_lavacow:famine>.displayName = "§2Blade of Devouring Greed";
 <mod_lavacow:famine>.addTooltip(format.darkGreen("Rare Weapon"));

@@ -63,6 +63,7 @@ mods.jei.JEI.removeAndHide(<dungeontactics:alchemical_cauldron>);
 
 
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
+recipes.removeByRecipeName("dungeontactics:weapons/potshot_left");
 mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 ///////////////////// SILVER ///////////////////
 
@@ -127,8 +128,14 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:wither_web");
 recipes.remove(<dungeontactics:magic_scroll>);
 #mods.jei.JEI.removeAndHide(<dungeontactics:magic_scroll>);
 
+val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+recipes.addShaped("potshot",<dungeontactics:potshot>,[
+    [<dungpipe:sewer_pipe>,null,null],
+    [null,<minecraft:piston>,<pyrotech:material:36>],
+    [null,<minecraft:tripwire_hook>,woodMoulding]
+]);
 recipes.remove(<dungeontactics:potshot_ammo>);
-recipes.addShapeless("potshot",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
+recipes.addShapeless("potshot_ammo",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
 
 
 <ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);

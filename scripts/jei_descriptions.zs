@@ -126,6 +126,7 @@ val millstone = <betterwithmods:single_machine>;
 val woodChips = <pyrotech:rock:7>;
 val pulp = <pyrotech:material:25>;
 val bark = <ore:barkWood>;
+val denseRedstone = <pyrotech:material:36>;
 // val fiber = <betterwithmods:material:3>;
 val plantFiber = <pyrotech:material:12>;
 val driedPlantFiber = <pyrotech:material:13>;
@@ -154,13 +155,14 @@ mods.jei.JEI.addDescription(twine, "A twine with roughly the same resistance as 
 mods.jei.JEI.addDescription(durableTwine, "By soaking twine in wood tar, it can achieve roughly the same durability and strength of higher quality hemp fibers.");
 mods.jei.JEI.addDescription(pulp, "Obtained either by macerating wood and sugar cane or by beating the pulp out of bark, this is an efficient resource for making paper.");
 mods.jei.JEI.addDescription(coade, "An homogenous magma of varied stone that is easy to manipulate. Its name comes from its association with a certain earthenware material that was said to be truly easily moldable into any shape; although not clay, that name stuck with it over time.");
+mods.jei.JEI.addDescription(denseRedstone, "The purest variety of redstone, it pulsates frantically and shines with fiery energy when it is moved around too much. I would seem as if countless restless souls were trapped inside a mineral cage for all eternity... is this source of power really without a cost?");
 mods.jei.JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow. Used with Crop Stakes. Refer to your Almanac for details.");
 mods.jei.JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow. Used with Agricultural Rope. Refer to your Almanac for details.");
 
 mods.jei.JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 mods.jei.JEI.removeAndHide(<base:wrench>);
 
-/* Multiblock Kilns, Refractory Structures, and Pit Burning */
+/* Multiblock Kilns, Refractory Structures, Pit Burning and Camping */
 val refractoryClayBall = <pyrotech:material:4>;
 val refractoryBrick = <pyrotech:material:5>;
 val slag = <pyrotech:material:8>;
@@ -173,6 +175,7 @@ mods.jei.JEI.addDescription(slag, "Leftovers of certain materials containing pre
 mods.jei.JEI.addDescription([<pyrotech:refractory_brick_block>,refractoryBrick], "Refractory materials enable the construction of structures for burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
 mods.jei.JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure works by burning without actually starting a fire, thus, it is of tremendous importance than no air gap is present between the walls of the structure and the material being burned; that includes the door...");
 // mods.jei.JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
+mods.jei.JEI.addDescription(<pyrotech:tinder>, "Placing it on the ground and directly adding some logs, then lighting it up, will create a functional campfire for primitive cooking and outdoors camping.");
 
 /* Plants */
 mods.jei.JEI.addDescription(<rustic:wildberries>,"A strong-flavored pome-like fruit that can be prepared or distilled. Carminberries have a highly staining red pigment which make them a perfect red dye.");

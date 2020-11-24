@@ -52,6 +52,18 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers")
 recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
 [<betterwithmods:rope>]);
 
+//powerful hibachi
+recipes.removeByRecipeName("betterwithmods:blocks/redstone/hibachi");
+
+val hellfire = <betterwithmods:material:17>;
+val stone = <ore:stone>;
+val heating = <betterwithmods:material:27>;
+val crstone = <pyrotech:material:36>;
+recipes.addShaped("blocks/redstone/hibachi", <betterwithmods:hibachi>,
+  [[hellfire,hellfire,hellfire],
+  [stone,heating,stone],
+  [stone,crstone,stone]]);
+  
 //Dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
 

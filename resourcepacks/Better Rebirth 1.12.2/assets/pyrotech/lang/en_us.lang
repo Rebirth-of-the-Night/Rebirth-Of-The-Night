@@ -22,6 +22,8 @@ item.pyrotech.iron.hammer.name=Iron Sledgehammer
 item.pyrotech.diamond.hammer.name=Refined Sledgehammer
 item.pyrotech.obsidian.hammer.name=Onyx Sledgehammer
 
+item.pyrotech.redstone.sword.name=Draconic Blade
+
 item.pyrotech.glass.shard.name=Coal Coke Dust
 item.pyrotech.slaked.lime.name=Rich Slag
 tile.pyrotech.limestone.name=Desert Varnish

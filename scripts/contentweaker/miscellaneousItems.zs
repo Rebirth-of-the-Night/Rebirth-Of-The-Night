@@ -28,6 +28,8 @@ val clover4 = mods.contenttweaker.VanillaFactory.createItem("4leaf_clover");
 clover4.register();
 val clover5 = mods.contenttweaker.VanillaFactory.createItem("5leaf_clover");
 clover5.register();
+val spider_silk = mods.contenttweaker.VanillaFactory.createItem("spider_silk");
+spider_silk.register();
 
 val sfs1 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact");
 sfs1.register();
@@ -72,6 +74,14 @@ ender_slag.stillLocation = "contenttweaker:fluids/ender_slag_still";
 ender_slag.flowingLocation = "contenttweaker:fluids/ender_slag_flow";
 ender_slag.colorize= true;
 ender_slag.register();
+
+var tannin = VanillaFactory.createFluid("tannin", Color.fromHex("df9232"));
+tannin.density = 1000;
+tannin.temperature = 310;
+tannin.viscosity = 1050;
+tannin.colorize= true;
+tannin.vaporize= true;
+tannin.register();
 
 var milk = VanillaFactory.createFluid("milk", Color.fromHex("ffffff"));
 milk.colorize= true;

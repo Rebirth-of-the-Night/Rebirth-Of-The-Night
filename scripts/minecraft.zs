@@ -29,6 +29,8 @@ recipes.addShaped("jukebox",<minecraft:jukebox>,[
 recipes.remove(<dynamictrees:dirtbucket>);
 recipes.addShapeless("dirt_bucket",<dynamictrees:dirtbucket>,[<minecraft:bucket>,<ore:dirt>]);
 
+recipes.addShapeless("spider_silk_to_string",<minecraft:string>,[<contenttweaker:spider_silk>,<contenttweaker:spider_silk>,<contenttweaker:spider_silk>]);
+
 recipes.remove(<sereneseasons:season_sensor_spring>);
 recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
     [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
@@ -676,6 +678,9 @@ dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aeth
 
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
+
+val brown = <ore:dyeBrown>;
+brown.remove(<betterwithmods:material:5>);
 
 <ore:listAllSeed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>]);
 <ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>,<charm:bookshelf_chest>]);

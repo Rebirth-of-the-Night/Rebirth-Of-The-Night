@@ -326,7 +326,17 @@ Dropt.list("decayed_scaffolding")
       .addDrop(Dropt.drop())	
   );
 
-Dropt.list("plants_basic")
+Dropt.list("cobweb_silt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:web"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+	  .items([<contenttweaker:spider_silk>])
+      )
+  );
+
+Dropt.list("cave_grass")
 
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:cave_grass"])

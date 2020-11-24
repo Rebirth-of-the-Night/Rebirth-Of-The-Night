@@ -5,6 +5,9 @@ import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
 import mods.jei.JEI;
 
+mods.inspirations.Cauldron.addFluidTransform(<liquid:tannin>, <ore:dung>, <liquid:water>, 4, true);
+mods.inspirations.Cauldron.addFluidTransform(<liquid:tannin>, <ore:barkWood>, <liquid:water>, 1, true);
+mods.inspirations.Cauldron.addFluidTransform(<liquid:tannin>, <biomesoplenty:persimmon>|<harvestcraft:persimmonitem>, <liquid:water>, 2, true);
 // Lunar Water: Obtainable from cauldrons using bottles / Placeable in cauldrons
 mods.inspirations.Cauldron.addFluidRecipe(<nyx:lunar_water_bottle>, <minecraft:glass_bottle>, <liquid:lunar_water>, 1);
 mods.inspirations.Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar_water>, 1, <minecraft:glass_bottle>);
