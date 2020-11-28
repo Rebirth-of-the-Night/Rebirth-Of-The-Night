@@ -160,13 +160,13 @@ tile.ceramics.porcelain_barrel_extension.white.name=White Porcelain Barrel Exten
 
 # Items
 
-item.ceramics.unfired.bucket.name=Unfired Refractory Bucket
-item.ceramics.clay_bucket.name=%s Refractory Bucket
-item.ceramics.clay_bucket.empty.name=Refractory Bucket
-item.ceramics.clay_bucket.milk.name=Milk Refractory Bucket
-item.ceramics.clay_bucket.gravel.name=Gravel Refractory Bucket
-item.ceramics.clay_bucket.sand.name=Sand Refractory Bucket
-item.ceramics.clay_bucket.red_sand.name=Red Sand Refractory Bucket
+item.ceramics.unfired.bucket.name=Unfired Clay Bucket
+item.ceramics.clay_bucket.name=%s Clay Bucket
+item.ceramics.clay_bucket.empty.name=Clay Bucket
+item.ceramics.clay_bucket.milk.name=Milk Clay Bucket
+item.ceramics.clay_bucket.gravel.name=Gravel Clay Bucket
+item.ceramics.clay_bucket.sand.name=Sand Clay Bucket
+item.ceramics.clay_bucket.red_sand.name=Red Sand Clay Bucket
 
 item.ceramics.unfired.shears.name=Unfired Clay Shears
 item.ceramics.clay_shears.name=Clay Shears
@@ -203,7 +203,7 @@ ceramics.channel.connected_down.allow=Allowed flowing down
 ceramics.channel.connected_down.disallow=Disallowed flowing down
 
 # JEI Descriptions
-ceramics.jei.bucket=Refractory buckets are an early game alternative to the standard iron bucket. Like their iron counterparts, they can be used to transport liquids, but will break after pouring out a hot liquid.
+ceramics.jei.bucket=Clay buckets are an early game alternative to the standard iron bucket. Like their iron counterparts, they can be used to transport liquids, but will break after pouring out a hot liquid.
 ceramics.jei.barrel.base=Barrels are a simple fluid storage block, storing up to %s buckets. If broken, the barrel will lose its fluid.
 ceramics.jei.barrel.extension=Barrel extensions can be placed above barrels to extend the capacity. An extension adds %s buckets to the capacity, and can be additionally placed on an extension for nearly unlimited height.
 ceramics.jei.barrel.porcelain.base=Porcelain barrels are an upgraded version of the Refractory barrel with a capacity of %s buckets. Like its Refractory counterpart, it will lose its fluid when broken.

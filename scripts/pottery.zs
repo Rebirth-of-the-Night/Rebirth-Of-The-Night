@@ -21,6 +21,8 @@ recipes.remove(<ceramics:clay_barrel_unfired>);
 recipes.remove(<ceramics:clay_barrel_unfired:1>);
 recipes.remove(<rustic:evaporating_basin>);
 recipes.remove(<rustic:vase>);
+recipes.remove(<ceramics:unfired_clay>);
+mods.jei.JEI.removeAndHide(<ceramics:clay_bucket>);
 recipes.removeByRecipeName("ceramics:uncrafting/unfired_clay_barrel");
 recipes.removeByRecipeName("ceramics:uncrafting/unfired_clay_extension");
 mods.jei.JEI.hideCategory("artisanworktables_mage_worktable");

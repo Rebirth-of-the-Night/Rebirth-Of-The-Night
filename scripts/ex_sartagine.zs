@@ -5,6 +5,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.block.IBlockState;
 import mods.exsartagine.ExSartagine;
+import mods.advancedmortars.Mortar;
 
 mods.jei.JEI.removeAndHide(<exsartagine:flour>);
 mods.jei.JEI.removeAndHide(<exsartagine:breadfine>);
@@ -20,6 +21,7 @@ mods.jei.JEI.removeAndHide(<exsartagine:breadveggieraw>);
 mods.jei.JEI.removeAndHide(<exsartagine:breadveggie>);
 mods.jei.JEI.removeAndHide(<exsartagine:breadmeatraw>);
 mods.jei.JEI.removeAndHide(<exsartagine:breadmeat>);
+
 
 //NOTES: Furnace recipes are switched over to the smoker and kettle; kettle recipes take 80 ticks to complete compared to the smoker's 100 due to its superiority
 //Complex baking recipes are always with a kettle
@@ -83,6 +85,10 @@ var griledCheese = <harvestcraft:grilledcheeseitem>;
 var appleSauce = <harvestcraft:applesauceitem>; 
 var bread = <minecraft:bread>;
 var butter = <harvestcraft:butteritem>;
+var cheese = <ore:foodCheese>;
+var apple = <ore:cropApple>;
+var teaLeaf = <ore:cropTea>;
+var coffeeBean = <harvestcraft:coffeebeanitem>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
@@ -140,6 +146,30 @@ mods.exsartagine.ExSartagine.addPanRecipe(<harvestcraft:eggplantitem>,<harvestcr
 //Buttered Toast
 recipes.removeByRecipeName("harvestcraft:toastitem");
 mods.exsartagine.ExSartagine.addKettleRecipe([bread,butter],null,null,[<harvestcraft:toastitem>],80);
+//Ice cream
+Mortar.addRecipe(["stone"], <harvestcraft:icecreamitem>, 6, [<pyrotech:bucket_wood:1>.giveBack(<pyrotech:bucket_wood>),<minecraft:snowball>,<ore:listAllsalt>]);
+/* "MIXING BOWL" (MORTAR) RECIPES ON HOLD UNTIL ADVANCED MORTARS ADDS EITHER SUPPORT FOR MORE METHODS OR FOR LIQUIDS
+
+//var BucketMilk = <pyrotech:bucket_wood:1>.giveBack(<pyrotech:bucket_wood>)| <pyrotech:bucket_stone:1>.giveBack(<pyrotech:bucket_stone>)| <pyrotech:bucket_clay:1>.giveBack(<pyrotech:bucket_clay>)| <minecraft:milk_bucket>.giveBack(<minecraft:bucket>)| <aether_legacy:skyroot_bucket:4>.giveBack(<aether_legacy:skyroot_bucket>);
+*/
+//Grilled Cheese
+recipes.removeByRecipeName("harvestcraft:grilledcheeseitem");
+mods.exsartagine.ExSartagine.addKettleRecipe([bread,butter,butter],cheese,null,[<harvestcraft:grilledcheeseitem>],80);
+//Apple Sauce
+recipes.removeByRecipeName("harvestcraft:applesauceitem");
+Mortar.addRecipe(["stone"], <harvestcraft:applesauceitem>, 6, [apple]);
+//Pumpkin Bread
+recipes.removeByRecipeName("harvestcraft:pumpkinbreaditem");
+mods.exsartagine.ExSartagine.addKettleRecipe([dough,sugar],pumpkin,null,[<harvestcraft:pumpkinbreaditem>],80);
+//Apple Pie
+recipes.removeByRecipeName("harvestcraft:pumpkinbreaditem");
+mods.exsartagine.ExSartagine.addKettleRecipe([dough,sugar],apple,null,[<harvestcraft:applepieitem>],80);
+//Tea 
+recipes.removeByRecipeName("harvestcraft:teaitem");
+mods.exsartagine.ExSartagine.addPotRecipe(teaLeaf, <harvestcraft:teaitem>);
+//Covfefe 
+recipes.removeByRecipeName("harvestcraft:coffeeitem");
+mods.exsartagine.ExSartagine.addPotRecipe(coffeeBean, <harvestcraft:coffeeitem>);
 
 
 //!!!!!!!! Concept idea: "ye olde stew"; an item that can be crafted by throwing an assortment of raw ingredients to the pot which will result in a variable amount of said item. Intended for players who don't want to fiddle with different recipes and just want to use their random ingredients without thinking much. This item has absolutely no other use or buff other than just its saturation and food level; insipid due to lack of ability in its preparation
