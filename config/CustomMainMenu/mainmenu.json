@@ -309,8 +309,8 @@
     {
         "splash-text":
         {
-            "posX" : 275,
-            "posY" : 110,
+            "posX" : 245,
+            "posY" : 95,
             "color" : -256,
             "alignment" : "top_left",
             "color" : "16737380",
