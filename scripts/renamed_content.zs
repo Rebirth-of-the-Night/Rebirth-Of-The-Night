@@ -464,6 +464,7 @@ for potion in potionMap{
 <harvestcraft:wovencottonitem>.displayName = "Woven Cloth";
 <harvestcraft:hamsweetpicklesandwichitem>.displayName = "Sweet Pickle and Ham Sandwich";
 <harvestcraft:pbandjitem>.displayName = "PBJ Sandwich"; 
+<harvestcraft:ricecakeitem>.displayName = "Puffed Rice"; 
 
 // Better with Addons
 <betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";

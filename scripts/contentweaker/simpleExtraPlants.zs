@@ -66,6 +66,25 @@ cave_grass.setBlockLayer("CUTOUT");
 cave_grass.setBlockSoundType(<soundtype:plant>);
 cave_grass.register();
 
+var cave_bramble = VanillaFactory.createBlock("cave_bramble", <blockmaterial:Grass>);
+cave_bramble.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    3.0 / 16.0,
+    12.0 / 16.0
+	);
+cave_bramble.setBlockHardness(0.0);
+cave_bramble.setBlockResistance(2.0);
+cave_bramble.setFullBlock(false);
+cave_bramble.setPassable(true);
+cave_bramble.setReplaceable(true);
+cave_bramble.setLightOpacity(0);
+cave_bramble.setBlockLayer("CUTOUT");
+cave_bramble.setBlockSoundType(<soundtype:plant>);
+cave_bramble.register();
+
 var perforata = VanillaFactory.createBlock("perforata", <blockmaterial:Vine>);
 perforata.axisAlignedBB = AxisAlignedBB.create(
      3.0 / 16.0,
