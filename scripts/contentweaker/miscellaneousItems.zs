@@ -165,3 +165,18 @@ val sprinkles = mods.contenttweaker.VanillaFactory.createItem("sprinkles");
 sprinkles.setCreativeTab(<creativetab:harvestCraft>);
 sprinkles.register();
 
+val raw_fries = mods.contenttweaker.VanillaFactory.createItem("raw_fries");
+raw_fries.setCreativeTab(<creativetab:harvestCraft>);
+raw_fries.register();
+
+val wiener = mods.contenttweaker.VanillaFactory.createItem("wiener");
+wiener.setCreativeTab(<creativetab:harvestCraft>);
+wiener.register();
+
+val sheep_intestines = mods.contenttweaker.VanillaFactory.createItem("sheep_intestines");
+sheep_intestines.setCreativeTab(<creativetab:harvestCraft>);
+sheep_intestines.register();
+
+val patty = mods.contenttweaker.VanillaFactory.createItem("patty");
+patty.setCreativeTab(<creativetab:harvestCraft>);
+patty.register();

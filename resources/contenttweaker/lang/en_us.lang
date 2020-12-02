@@ -231,8 +231,13 @@ item.contenttweaker.spear_mold.name=Spear Mold
 item.contenttweaker.rapier_mold.name=Rapier Mold
 item.contenttweaker.battleaxe_mold.name=Battleaxe Mold
 item.contenttweaker.saber_mold.name=Saber Mold
-item.contenttweaker.sprinkles.name=Sprinkles
 item.contenttweaker.spider_silk.name=Spider Silk
+item.contenttweaker.sprinkles.name=Sprinkles
+item.contenttweaker.raw_fries.name=Raw Fries
+item.contenttweaker.sheep_intestines.name=Sheep Intestines
+item.contenttweaker.wiener.name=Wiener
+item.contenttweaker.patty.name=Patty
+
 fluid.lifeblood=Lifeblood
 fluid.ender_slag=Distilled Ender Slag
 fluid.milk=Milk

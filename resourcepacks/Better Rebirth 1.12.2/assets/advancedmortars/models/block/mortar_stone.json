@@ -1,0 +1,7 @@
+{
+  "parent": "advancedmortars:block/mortar",
+  "textures": {
+    "mortar": "malisisdoors:blocks/saloon_door",
+    "particle": "malisisdoors:blocks/saloon_door"
+  }
+}
