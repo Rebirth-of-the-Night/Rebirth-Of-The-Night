@@ -666,6 +666,8 @@ gemIngot.add(
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
 <ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>]);
 <ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>,<ceramics:clay_bucket:1>]);
+<ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
+<ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 
 <ore:blockGlass>.addItems([<iceandfire:myrmex_desert_resin_glass>,<iceandfire:myrmex_jungle_resin_glass>,<betternether:quartz_glass>,<betternether:quartz_glass_framed>,<betternether:quartz_stained_glass:*>,<betternether:quartz_stained_glass_framed:*>,<dungeontactics:dungeon_glass>,<quark:framed_glass>,<sereneseasons:greenhouse_glass>,<twilightforest:auroralized_glass>]);
 
