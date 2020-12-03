@@ -302,7 +302,23 @@
                 "type" : "openLink",
                 "link" : "https://docs.google.com/document/d/1DGgt4OBx-Vyy3vyT_wgUjjxrXDPFhBpkS9M11shZKAE/edit?usp=sharing"
             }
+        },
+
+        "label": { 
+            "text": 
+            { 
+                "type": "web", 
+                "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/master/MOTD.txt", 
+                "refreshInterval": 60 
+            }, 
+            "fontSize": 0.6,
+            "posX": -65,
+            "posY": 2,
+            "color": 16777215,
+            "alignment": "top_center"
         }
+
+
     },
 
     "other":
