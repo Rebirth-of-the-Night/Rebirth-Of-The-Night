@@ -1,6 +1,0 @@
-{
-    "parent":"spartanweaponry:item/mace_wood",
-    "textures": {
-        "layer0":"spartanweaponry:items/mace_bronze"
-    }
-}

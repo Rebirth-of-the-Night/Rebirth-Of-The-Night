@@ -1,0 +1,32 @@
+//Blocks
+tile.adamantium_ore.name=Viridium Ore
+tile.adamantium_block.name=Block of Viridium
+
+//Items
+item.adamantium_ingot.name=Viridium Ingot
+
+//Tools
+item.adamantium_pickaxe.name=Viridium Pickaxe
+item.adamantium_axe.name=Viridium Axe
+item.adamantium_shovel.name=Viridium Shovel
+item.adamantium_sword.name=Viridium Sword
+item.adamantium_hoe.name=Viridium Hoe
+item.adamantium_shears.name=Viridium Shears
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_axe.name=Copper Axe
+item.copper_shovel.name=Copper Shovel
+item.copper_sword.name=Copper Sword
+item.copper_hoe.name=Copper Hoe
+item.copper_shears.name=Copper Shears
+
+
+
+//Armor
+item.adamantium_helmet.name=Viridium Helmet
+item.adamantium_chestplate.name=Viridium Cuirass
+item.adamantium_leggings.name=Viridium Leggings
+item.adamantium_boots.name=Viridium Boots
+item.copper_helmet.name=Copper Helmet
+item.copper_chestplate.name=Copper Cuirass
+item.copper_leggings.name=Copper Leggings
+item.copper_boots.name=Copper Boots
