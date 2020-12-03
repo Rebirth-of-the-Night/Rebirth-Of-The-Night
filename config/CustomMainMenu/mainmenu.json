@@ -308,8 +308,8 @@
             "text": 
             { 
                 "type": "web", 
-                "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/master/MOTD.txt", 
-                "refreshInterval": 60 
+                "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/master/MOTD.txt",
+                "refreshInterval": 60
             }, 
             "fontSize": 0.6,
             "posX": -65,
