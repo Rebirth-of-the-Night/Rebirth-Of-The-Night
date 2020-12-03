@@ -3,6 +3,12 @@
     "dimension": 7,
     "damagemultiply": 2
  },
+
+ {
+    "mob": "aether_legacy:sentry",
+    "onjoin": true,
+    "healthmultiply": 0.9
+},
   
   // Zombies
 
