@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+sereneseasons setseason EARLY_WINTER
+playsound dsurround:wind ambient @p ~ ~ ~ 0.8 0.5   

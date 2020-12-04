@@ -1,0 +1,21 @@
+setIcon(<contenttweaker:heart_of_fire>)
+setTitle("Eclipse")
+setDescription("Enter the overworld after killing the sun spirit.")
+
+addParent("triumph:advancements/progression/aether/killedSunSpirit")
+
+addRewardFunction("triumph:enteredOverworld")
+
+criteria = addCriteria("entered_overworld", "triumph:changed_dimension")
+criteria.setDimensionDestination(0)
+
+criteria = addCriteria("Sun Spirit", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/progression/aether/killedSunSpiritHidden")
+
+setRequirements("all")
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()
+setHidden(true)
