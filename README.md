@@ -17,4 +17,4 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 
 [OUTDATED! ~~Server Pack GitHub~~](https://github.com/Rebirth-Of-The-Night/Rebirth-of-the-Night-Server)
 
-[Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329)
+[Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329) 
