@@ -4,7 +4,6 @@ tile.anvil.slightlyDamaged.name=Slightly Damaged Iron Anvil
 tile.anvil.veryDamaged.name=Crumbling Iron Anvil
 
 screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to paste.
-tile.bed.noSleep=You can't sleep during the day, bloodmoons, invasions, and thunderstorms.
 
 entity.Slime.name=Lime Slime
 entity.EnderCrystal.name=Ender Crystal
