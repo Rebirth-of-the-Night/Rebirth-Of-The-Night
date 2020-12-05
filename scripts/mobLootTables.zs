@@ -425,5 +425,11 @@ lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 100, 0, [Functions.
 lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
 lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
+//Sheep Intestines
+val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
+val sheepPrimeMeat = sheepPrimeTable.getPool("meat");
+sheepPrimeMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
 
-
+val sheepTable = LootTweaker.getTable("animania:sheep_regular");
+val sheepMeat = sheepTable.getPool("meat");
+sheepMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);

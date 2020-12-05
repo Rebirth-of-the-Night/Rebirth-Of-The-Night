@@ -207,8 +207,8 @@ mods.jei.JEI.removeAndHide(<qualitytools:emerald_ring>);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<rustic:chain>, <rustic:chain>, <rustic:chain>],
-    [<rustic:chain>, <contenttweaker:vis_speck>, <rustic:chain>],
+    [<iceandfire:chain_link>, <iceandfire:chain_link>, <iceandfire:chain_link>],
+    [<iceandfire:chain_link>, <contenttweaker:vis_speck>, <iceandfire:chain_link>],
     [<iceandfire:silver_nugget>, <iceandfire:silver_ingot>, <iceandfire:silver_nugget>]])
   .addOutput(<bountifulbaubles:amuletsinempty>)
   .setMinimumTier(1)

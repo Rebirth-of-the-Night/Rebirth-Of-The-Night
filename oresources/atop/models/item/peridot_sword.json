@@ -1,7 +1,7 @@
 {
-    "parent":"item/handheld",
+    "parent": "item/generated",
     "textures": {
-        "layer0":"atop:items/peridot_sword"
+        "layer0": "atop:items/peridot_sword"
     },
     "display": {
         "thirdperson_righthand": {
@@ -28,11 +28,6 @@
 			"rotation": [ 0, 0, 0 ],
 			"translation": [ 0.00, 4.25, 0.00 ],
 			"scale": [ 0.9375, 0.9375, 0.9375 ]
-		},
-		"gui": {
-			"rotation": [ 0, 0, 0 ],
-			"translation": [ 0.00, 0.00, 0.00 ],
-			"scale": [ 1.33, 1.33, 1.33 ]
 		}
     }
 }

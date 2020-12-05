@@ -83,9 +83,9 @@ tannin.colorize= true;
 tannin.vaporize= true;
 tannin.register();
 
-var milk = VanillaFactory.createFluid("milk", Color.fromHex("ffffff"));
-milk.colorize= true;
-milk.register();
+var soyMilk = VanillaFactory.createFluid("soyMilk", Color.fromHex("ffffff"));
+soyMilk.colorize= true;
+soyMilk.register();
 
 // Cut Gems
 
@@ -157,15 +157,16 @@ val mercurial_ooze = mods.contenttweaker.VanillaFactory.createItem("mercurial_oo
 mercurial_ooze.register();
 
 //food
-//val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
-//rat.healAmount = 9;
-//rat.register();
+var rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
+rat.setSaturation(9.5);
+rat.register();
 
 val sprinkles = mods.contenttweaker.VanillaFactory.createItem("sprinkles");
 sprinkles.setCreativeTab(<creativetab:harvestCraft>);
 sprinkles.register();
 
-val raw_fries = mods.contenttweaker.VanillaFactory.createItem("raw_fries");
+val raw_fries = mods.contenttweaker.VanillaFactory.createItemFood("raw_fries", 1);
+raw_fries.setSaturation(2.5);
 raw_fries.setCreativeTab(<creativetab:harvestCraft>);
 raw_fries.register();
 
