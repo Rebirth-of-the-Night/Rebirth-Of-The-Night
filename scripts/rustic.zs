@@ -9,6 +9,9 @@ for branch in branchArray{
     mods.jei.JEI.hide(branch);
 }
 
+
+
+
 mods.jei.JEI.removeAndHide(<rustic:lantern_wood>);
 
 
@@ -23,6 +26,17 @@ mods.jei.JEI.removeAndHide(<rustic:tomato>);
 mods.jei.JEI.removeAndHide(<dynamictreesphc:grapefruitseed>);
 
 mods.jei.JEI.removeAndHide(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
+
+
+
+recipes.remove(<rustic:liquid_barrel>);
+recipes.addShaped("Liquid Barrel", <rustic:liquid_barrel>,[
+	[<ore:plankWood>, null, <ore:plankWood>],
+    [<ore:genericMetal>, null, <ore:genericMetal>],
+    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
+]);
+
+
 
 # Iron and Gold Lanterns
 
