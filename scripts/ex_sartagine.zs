@@ -58,7 +58,7 @@ var skillet = <harvestcraft:skilletitem>;
 var saucepan = <harvestcraft:saucepanitem>;
 var bakeware = <harvestcraft:bakewareitem>;
 var mortar_pestle = <harvestcraft:mortarandpestleitem>;
-var mixingbowl = <harvestcraft:mixingbowlitem>;
+var mixing = <artisanworktables:artisans_mortar_gold>;
 var juicer = <harvestcraft:juiceritem>;
 var cutBad = <animania:carving_knife>.anyDamage().transformDamage(3);
 var cut = <animania:carving_knife>;
@@ -84,6 +84,7 @@ var rawBeef = <ore:listAllbeefraw>;
 var rawFish = <ore:listAllfishraw>;
 var rawMutton = <ore:listAllmuttonraw>;
 var rawVenison = <ore:foodVenisonraw>;
+var veggie = <ore:listAllveggie>;
 var carrot = <minecraft:carrot>;
 var batter = <harvestcraft:batteritem>;
 var heavyCream = <ore:listAllheavycream>;
@@ -151,11 +152,12 @@ var anyMeat = <ore:foodMeats>;
 var anyRawMeat = <ore:listAllmeatraw>;
 var cocoa = <minecraft:dye:3>;
 var tomato = <ore:cropTomato>;
+var lettuce = <harvestcraft:lettuceitem>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
-ExSartagine.addPotRecipe(<ore:listAllveggie>, stock*2);
+ExSartagine.addPotRecipe(veggie, stock*2);
 ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
 
 
@@ -217,7 +219,7 @@ recipes.removeByRecipeName("harvestcraft:icecreamitem");
 recipes.removeByRecipeName("harvestcraft:icecreamitem_dustsalt");
 RecipeBuilder.get("chef")
   .setShapeless([milkBottle, snowball, salt])
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:icecreamitem>*3)
   .create();
 //Grilled Cheese
@@ -266,14 +268,14 @@ recipes.removeByRecipeName("harvestcraft:doughitem_dustsalt");
 RecipeBuilder.get("chef")
   .setShapeless([flour,salt])
   .setFluid(waterBucket)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:doughitem>)
   .create();
 //Pasta
 recipes.removeByRecipeName("harvestcraft:pastaitem");
 RecipeBuilder.get("chef")
   .setShapeless([dough,butter])
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:pastaitem>*5)
   .create();
 //Heavy Cream
@@ -290,175 +292,175 @@ recipes.removeByRecipeName("harvestcraft:applejuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([apple])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:applejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:melonjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([melon])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:melonjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:carrotjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([carrot])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:carrotjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:strawberryjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([strawberry])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:strawberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:grapejuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([grape])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:grapejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:blueberryjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([blueberry])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:blueberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cherryjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([cherry])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:cherryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:papayajuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([papaya])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:papayajuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:starfruitjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([starfruit])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:starfruitjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:orangejuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([orange])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:orangejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:peachjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([peach])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:peachjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:limejuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([lime])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:limejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:mangojuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([mango])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:mangojuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:pomegranatejuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([pomegranate])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:pomegranatejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:blackberryjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([blackberry])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:blackberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:raspberryjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([raspberry])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:raspberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:kiwijuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([kiwi])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:kiwijuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cranberryjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([cranberry])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:cranberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cactusfruitjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([cactusFruit])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:cactusfruitjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:plumjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([plum])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:plumjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:pearjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([pear])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:pearjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:apricotjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([apricot])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:apricotjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:figjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([fig])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:figjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:grapefruitjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([grapeFruit])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:grapefruitjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:persimmonjuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([persimmon])
   .setFluid(waterBottle2)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:persimmonjuiceitem>*2)
   .create();
 
@@ -471,7 +473,7 @@ RecipeBuilder.get("chef")
   .setName("melon_smoothie")
   .setShapeless([melon,sugar,snowball])
   .setFluid(waterBottle)
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:melonsmoothieitem>)
   .create();
 //Carrot soup
@@ -584,7 +586,7 @@ recipes.removeByRecipeName("harvestcraft:mayoitem");
 RecipeBuilder.get("chef")
   .setName("mayonnaise")
   .setShapeless([egg])
-  .addTool(<artisanworktables:artisans_mortar_gold>, 3)
+  .addTool(mixing, 3)
   .addOutput(<harvestcraft:mayoitem>)
   .create();
 //Fried egg
@@ -625,7 +627,7 @@ recipes.removeByRecipeName("harvestcraft:chocolateicecreamitem");
 RecipeBuilder.get("chef")
   .setName("chocolate_icecream")
   .setShapeless([iceCream,<harvestcraft:cocoapowderitem>])
-  .addTool(<artisanworktables:artisans_mortar_gold>, 1)
+  .addTool(mixing, 1)
   .addOutput(<harvestcraft:chocolateicecreamitem>)
   .create();
 //Vegetable soup
@@ -643,6 +645,44 @@ RecipeBuilder.get("chef")
 //Spaghetti 
 recipes.removeByRecipeName("harvestcraft:spagettiitem");
 ExSartagine.addKettleRecipe([tomato,pasta,pasta,spice],null,null,[<harvestcraft:spagettiitem>],80);
+//Spaghetti and steak
+recipes.removeByRecipeName("harvestcraft:spagettiandmeatballsitem");
+recipes.addShapeless("spagetti_meatballs",<harvestcraft:spagettiandmeatballsitem>,[<harvestcraft:spagettiitem>,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("spagetti_meatballs")
+  .setShapeless([<harvestcraft:spagettiitem>])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:spagettiandmeatballsitem>)
+  .create();
+//Tomato soup
+recipes.removeByRecipeName("harvestcraft:tomatosoupitem");
+RecipeBuilder.get("chef")
+  .setName("tomato_soup")
+  .setShapeless([stock,tomato])
+  .addTool(mixing, 1)
+  .addOutput(<harvestcraft:tomatosoupitem>)
+  .create();
+//Ketchup
+recipes.removeByRecipeName("harvestcraft:ketchupitem");
+RecipeBuilder.get("chef")
+  .setName("ketchup")
+  .setShapeless([tomato])
+  .addTool(mixing, 1)
+  .addOutput(<harvestcraft:ketchupitem>)
+  .create();
+//Chicken parmesan
+recipes.removeByRecipeName("harvestcraft:chickenparmasanitem");
+ExSartagine.addKettleRecipe([rawChicken,tomato,cheese],null,null,[<harvestcraft:chickenparmasanitem>],80);
+//Spring salad 
+recipes.removeByRecipeName("harvestcraft:springsaladitem");
+recipes.addShapeless("spring_salad",<harvestcraft:springsaladitem>,[lettuce,veggie,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("spring_salad")
+  .setShapeless([lettuce,veggie])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:spagettiandmeatballsitem>)
+  .create();
+
 
 
 
