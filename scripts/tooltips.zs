@@ -20,6 +20,9 @@
 <golems:golem_head>.addTooltip("Used for summoning Golems");
 
 
+<simpleores:mythril_bow>.removeTooltip("+Efficiency");
+
+
 
 # BWA
 <betterwithaddons:ancestry_bottle>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
@@ -133,6 +136,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <simpleores:mythril_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 <simpleores:adamantium_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 <simpleores:onyx_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
+
+
 
 #Pyrotech
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
