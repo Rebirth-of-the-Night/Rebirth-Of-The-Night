@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Discord
-    url: https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night
-    about: Feedback is greatly appreciated! If you have a suggestion or a comment for the pack, please put it in the discord! - NOTE: URL has been temporarily taken down due to the threat of raids. Refer to the curseforge for a link.
+    url: https://discord.gg/rotn
+    about: Feedback is greatly appreciated! If you have a suggestion, comment, or question for the pack, please put it in the discord!
   - name: GitHub Issues
     url: https://github.com/CalaMariGold/Rebirth-Of-The-Night/issues
     about: Please check the existing issues here before submitting a bug report.
