@@ -20,9 +20,6 @@
 <golems:golem_head>.addTooltip("Used for summoning Golems");
 
 
-<simpleores:mythril_bow>.removeTooltip("+Efficiency");
-
-
 
 # BWA
 <betterwithaddons:ancestry_bottle>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");

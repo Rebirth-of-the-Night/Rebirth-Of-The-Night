@@ -30,3 +30,6 @@ item.copper_helmet.name=Copper Helmet
 item.copper_chestplate.name=Copper Cuirass
 item.copper_leggings.name=Copper Leggings
 item.copper_boots.name=Copper Boots
+
+
+tips.efficiencyTooltip=
