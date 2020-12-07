@@ -1,6 +1,6 @@
 name = intro_animation
 loop = false
-fps = 60
+fps = 25
 width = 1920
 height = 1080
 x = 0
