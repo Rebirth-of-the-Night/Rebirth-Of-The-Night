@@ -1,0 +1,12 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMultiplayer
+  renderorder = foreground
+}
+
+customization {
+  name = test_panorama
+  action = setbackgroundpanorama
+}
+

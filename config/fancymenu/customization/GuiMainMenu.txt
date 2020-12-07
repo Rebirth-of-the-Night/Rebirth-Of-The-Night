@@ -1,0 +1,213 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  renderorder = foreground
+}
+
+customization {
+  path = resources/rotn/textures/menustill.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -10
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-right
+  x = -170
+  action = movebutton
+  y = 15
+}
+
+customization {
+  identifier = %id=400382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = resources/rotn/textures/button_hover.png
+  backgroundnormal = resources/rotn/textures/button.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-right
+  x = -149
+  action = movebutton
+  y = 41
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = resources/rotn/textures/button_hover.png
+  backgroundnormal = resources/rotn/textures/button.png
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-right
+  x = -190
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = resources/rotn/textures/button_hover.png
+  backgroundnormal = resources/rotn/textures/button.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-right
+  x = -200
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = resources/rotn/textures/button_hover.png
+  backgroundnormal = resources/rotn/textures/button.png
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 0
+  width = 246
+  action = addbutton
+  y = -1
+  backgroundhovered = resources/rotn/textures/rotn_hover.png
+  description = Curseforge Page
+  label = 
+  backgroundnormal = resources/rotn/textures/rotn.png
+  value = https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night
+  height = 139
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = openlink
+  x = 0
+  width = 58
+  action = addbutton
+  y = -10
+  backgroundhovered = resources/rotn/textures/overlay_red.png
+  description = Changelog
+  label = §cVersion 3.0
+  backgroundnormal = resources/rotn/textures/transparent.png
+  value = https://docs.google.com/document/d/1DGgt4OBx-Vyy3vyT_wgUjjxrXDPFhBpkS9M11shZKAE/edit?usp=sharing
+  height = 10
+}
+
+customization {
+  path = resources/rotn/textures/wooden_board.png
+  orientation = bottom-right
+  x = -214
+  width = 214
+  action = addtexture
+  y = -17
+  height = 17
+}
+
+customization {
+  orientation = bottom-right
+  buttonaction = openlink
+  x = -107
+  width = 107
+  action = addbutton
+  y = -50
+  backgroundhovered = resources/rotn/textures/aklizbadge_hover.png
+  description = §eGet a Server!
+  label = 
+  backgroundnormal = resources/rotn/textures/aklizbadge.png
+  value = https://www.akliz.net/rebirthofthenight
+  height = 50
+}
+
+customization {
+  orientation = mid-right
+  hoverlabel = :(
+  buttonaction = quitgame
+  x = -130
+  width = 200
+  action = addbutton
+  y = 67
+  backgroundhovered = resources/rotn/textures/button_hover.png
+  label = 	§cQuit Game
+  backgroundnormal = resources/rotn/textures/button.png
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -35
+  width = 100
+  action = addbutton
+  y = 84
+  description = idk where this should be tbh
+  label = Tips
+  value = rotn.tips
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = true
+  centered = false
+  x = -110
+  action = addtext
+  y = -14
+  scale = 2.0
+  value = PROTOTYPE, §cNOT FINAL
+}
+
+customization {
+  orientation = bottom-right
+  buttonaction = openlink
+  x = -147
+  width = 31
+  action = addbutton
+  y = -40
+  backgroundhovered = resources/rotn/textures/blm_hover.png
+  description = Support Black Lives Matter
+  label = 
+  backgroundnormal = resources/rotn/textures/blm.png
+  value = https://blacklivesmatters.carrd.co/
+  height = 31
+}
+

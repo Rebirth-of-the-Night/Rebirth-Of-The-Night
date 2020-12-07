@@ -1,0 +1,18 @@
+type = menu
+
+customization-meta {
+  identifier = rotn.tips
+  renderorder = foreground
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  centered = false
+  x = -84
+  action = addtext
+  y = -7
+  scale = 2.0
+  value = Placeholder text
+}
+
