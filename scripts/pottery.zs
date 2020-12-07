@@ -32,7 +32,6 @@ mods.jei.JEI.hideCategory("artisanworktables_mage_workshop");
 mods.jei.JEI.hideCategory("artisanworktables_potter_workshop");
 mods.jei.JEI.hideCategory("artisanworkstumps_mage");
 
-game.setLocalization("tile.artisanworkstumps.workstump_potter.name","Ware Crafting Station");
 recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
  [[null,<minecraft:stone_pressure_plate>,null],
   [<pyrotech:material:16>,<ore:workbench>,<pyrotech:material:16>],
