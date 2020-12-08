@@ -81,7 +81,6 @@ mods.jei.JEI.hideCategory("pyrotech.stone.crucible");
 mods.jei.JEI.hideCategory("pyrotech.brick.mill");
 mods.jei.JEI.hideCategory("pyrotech.brick.oven");
 mods.jei.JEI.hideCategory("pyrotech.brick.crucible");
-mods.jei.JEI.hideCategory("pyrotech.mechanical.compacting.bin");
 mods.jei.JEI.hideCategory("pyrotech.chopping");
 mods.jei.JEI.hideCategory("pyrotech.stone.mill");
 furnace.remove(<pyrotech:mushroom_red_roasted>);
@@ -150,6 +149,10 @@ recipes.addShaped("compacting_bin", <pyrotech:compacting_bin>,
  [[null,<pyrotech:compost_bin>,null],
   [<ore:stoneSlab>,<pyrotech:compost_bin>,<ore:stoneSlab>],
   [<ore:stoneSlab>,<ore:slabWood>,<ore:stoneSlab>]]);
+recipes.addShaped("mechanical_compacting_bin", <pyrotech:mechanical_compacting_bin>,
+ [[null,null,null],
+  [<pyrotech:compacting_bin>,<pyrotech:compacting_bin>,<ore:stoneSlab>],
+  [<pyrotech:material:36>,<minecraft:piston>,<minecraft:piston>]]);
 recipes.addShaped("potash_mulch1", <pyrotech:mulch>*4,
  [[<pyrotech:rock:7>,<biomesoplenty:ash>,<pyrotech:rock:7>],
   [<biomesoplenty:ash>,<ore:mulchNitrogen>,<biomesoplenty:ash>],
