@@ -237,6 +237,9 @@ item.contenttweaker.raw_fries.name=Raw Fries
 item.contenttweaker.sheep_intestines.name=Sheep Intestines
 item.contenttweaker.wiener.name=Wiener
 item.contenttweaker.patty.name=Patty
+item.contenttweaker.ratatouille.name=Ratatouille
+item.contenttweaker.hydraco.name=Hydra Taco
+item.contenttweaker.ground_beef.name=Ground Beef
 
 fluid.lifeblood=Lifeblood
 fluid.ender_slag=Distilled Ender Slag

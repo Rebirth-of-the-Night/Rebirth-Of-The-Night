@@ -170,6 +170,11 @@ raw_fries.setSaturation(2.5);
 raw_fries.setCreativeTab(<creativetab:harvestCraft>);
 raw_fries.register();
 
+val ground_beef = mods.contenttweaker.VanillaFactory.createItemFood("ground_beef", 2);
+ground_beef.setSaturation(2.5);
+ground_beef.setCreativeTab(<creativetab:harvestCraft>);
+ground_beef.register();
+
 val wiener = mods.contenttweaker.VanillaFactory.createItem("wiener");
 wiener.setCreativeTab(<creativetab:harvestCraft>);
 wiener.register();
@@ -181,3 +186,8 @@ sheep_intestines.register();
 val patty = mods.contenttweaker.VanillaFactory.createItem("patty");
 patty.setCreativeTab(<creativetab:harvestCraft>);
 patty.register();
+
+val hydraco = mods.contenttweaker.VanillaFactory.createItemFood("hydraco", 22);
+hydraco.setSaturation(44.0);
+hydraco.setCreativeTab(<creativetab:harvestCraft>);
+hydraco.register();

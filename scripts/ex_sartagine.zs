@@ -78,10 +78,14 @@ var mayo = <ore:foodMayo>;
 var snowball = <minecraft:snowball>;
 var rawChicken = <ore:listAllchickenraw>;
 var cookedChicken = <ore:listAllchickencooked>;
-var rawPork = <animania:raw_prime_pork>|<minecraft:porkchop>;
+var rawPorkPig = <animania:raw_prime_pork>|<minecraft:porkchop>;
+var rawPork = <ore:listAllporkraw>;
+var cookedPork = <ore:listAllporkcooked>;
 var rawBacon = <animania:raw_prime_bacon>;
 var rawBeef = <ore:listAllbeefraw>;
+var cookedBeef = <ore:listAllbeefcooked>;
 var rawFish = <ore:listAllfishraw>;
+var cookedFish = <ore:listAllfishcooked>;
 var rawMutton = <ore:listAllmuttonraw>;
 var rawVenison = <ore:foodVenisonraw>;
 var veggie = <ore:listAllveggie>;
@@ -150,9 +154,18 @@ var wiener = <contenttweaker:wiener>;
 var patty = <contenttweaker:patty>;
 var anyMeat = <ore:foodMeats>;
 var anyRawMeat = <ore:listAllmeatraw>;
+var hydraMeat = <twilightforest:hydra_chop>;
 var cocoa = <minecraft:dye:3>;
 var tomato = <ore:cropTomato>;
 var lettuce = <harvestcraft:lettuceitem>;
+var onion = <harvestcraft:onionitem>;
+var cornmeal = <harvestcraft:cornmealitem>;
+var tortilla = <harvestcraft:tortillaitem>;
+var cookingOil = <harvestcraft:oliveoilitem>;
+var peanut = <harvestcraft:peanutitem>;
+var seed = <ore:listAllseed>;
+var nut = <ore:listAllnut>;
+var nutButter = <ore:listAllnutbutter>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
@@ -464,10 +477,7 @@ RecipeBuilder.get("chef")
   .addOutput(<harvestcraft:persimmonjuiceitem>*2)
   .create();
 
-//Pumpkin soup
-recipes.removeByRecipeName("harvestcraft:pumpkinsoupitem");
-ExSartagine.addKettleRecipe([stock,heavyCream],pumpkin,null,[<harvestcraft:pumpkinsoupitem>],80);
-//melon smoothie
+//Smoothies
 recipes.removeByRecipeName("harvestcraft:melonsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("melon_smoothie")
@@ -476,6 +486,18 @@ RecipeBuilder.get("chef")
   .addTool(mixing, 1)
   .addOutput(<harvestcraft:melonsmoothieitem>)
   .create();
+recipes.removeByRecipeName("harvestcraft:strawberrysmoothieitem");
+RecipeBuilder.get("chef")
+  .setName("strawberry_smoothie")
+  .setShapeless([strawberry,sugar,snowball])
+  .setFluid(waterBottle)
+  .addTool(mixing, 1)
+  .addOutput(<harvestcraft:strawberrysmoothieitem>)
+  .create();
+
+//Pumpkin soup
+recipes.removeByRecipeName("harvestcraft:pumpkinsoupitem");
+ExSartagine.addKettleRecipe([stock,heavyCream],pumpkin,null,[<harvestcraft:pumpkinsoupitem>],80);
 //Carrot soup
 recipes.removeByRecipeName("harvestcraft:carrotsoupitem");
 ExSartagine.addKettleRecipe([stock,heavyCream],carrot,null,[<harvestcraft:carrotsoupitem>],80);
@@ -530,14 +552,22 @@ recipes.removeByRecipeName("harvestcraft:chickenpotpieitem");
 ExSartagine.addKettleRecipe([rawChicken,potato,carrot,dough],null,null,[<harvestcraft:chickenpotpieitem>],80);
 //Breaded porkshop
 recipes.removeByRecipeName("harvestcraft:breadedporkchopitem");
-ExSartagine.addKettleRecipe([rawPork,batter],null,null,[<harvestcraft:breadedporkchopitem>],80);
+ExSartagine.addKettleRecipe([rawPorkPig,batter],null,null,[<harvestcraft:breadedporkchopitem>],80);
 //Minced meat -&C
-recipes.addShapeless("minced_meat",<mod_lavacow:mousse>,[rawPork,cutBad]);
+recipes.addShapeless("minced_meat",<mod_lavacow:mousse>,[rawPorkPig,cutBad]);
 RecipeBuilder.get("chef")
   .setName("minced_meat")
-  .setShapeless([rawPork])
+  .setShapeless([rawPorkPig])
   .addTool(cut, 1)
   .addOutput(<mod_lavacow:mousse>)
+  .create();
+//Ground beef
+recipes.addShapeless("ground_beef",<mod_lavacow:mousse>,[rawBeef,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("ground_beef")
+  .setShapeless([rawBeef])
+  .addTool(cut, 1)
+  .addOutput(<contenttweaker:ground_beef>)
   .create();
 //Wiener
 RecipeBuilder.get("chef")
@@ -645,15 +675,9 @@ RecipeBuilder.get("chef")
 //Spaghetti 
 recipes.removeByRecipeName("harvestcraft:spagettiitem");
 ExSartagine.addKettleRecipe([tomato,pasta,pasta,spice],null,null,[<harvestcraft:spagettiitem>],80);
-//Spaghetti and steak
+//Spaghetti and meatballs
 recipes.removeByRecipeName("harvestcraft:spagettiandmeatballsitem");
-recipes.addShapeless("spagetti_meatballs",<harvestcraft:spagettiandmeatballsitem>,[<harvestcraft:spagettiitem>,cutBad]);
-RecipeBuilder.get("chef")
-  .setName("spagetti_meatballs")
-  .setShapeless([<harvestcraft:spagettiitem>])
-  .addTool(cut, 1)
-  .addOutput(<harvestcraft:spagettiandmeatballsitem>)
-  .create();
+ExSartagine.addKettleRecipe([tomato,pasta,pasta,spice],<contenttweaker:ground_beef>,null,[<harvestcraft:spagettiitem>],80);
 //Tomato soup
 recipes.removeByRecipeName("harvestcraft:tomatosoupitem");
 RecipeBuilder.get("chef")
@@ -673,15 +697,165 @@ RecipeBuilder.get("chef")
 //Chicken parmesan
 recipes.removeByRecipeName("harvestcraft:chickenparmasanitem");
 ExSartagine.addKettleRecipe([rawChicken,tomato,cheese],null,null,[<harvestcraft:chickenparmasanitem>],80);
-//Spring salad 
+//Spring salad -&C
 recipes.removeByRecipeName("harvestcraft:springsaladitem");
 recipes.addShapeless("spring_salad",<harvestcraft:springsaladitem>,[lettuce,veggie,cutBad]);
 RecipeBuilder.get("chef")
   .setName("spring_salad")
   .setShapeless([lettuce,veggie])
   .addTool(cut, 1)
-  .addOutput(<harvestcraft:spagettiandmeatballsitem>)
+  .addOutput(<harvestcraft:springsaladitem>)
   .create();
+//Pork Lettuce Wrap -&C
+recipes.removeByRecipeName("harvestcraft:porklettucewrapitem");
+recipes.addShapeless("pork_lettuce_wrap",<harvestcraft:porklettucewrapitem>,[lettuce,cookedPork,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("pork_lettuce_wrap")
+  .setShapeless([lettuce,cookedPork])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:porklettucewrapitem>)
+  .create();
+//Fish Lettuce Wrap -&C
+recipes.removeByRecipeName("harvestcraft:fishlettucewrapitem");
+recipes.addShapeless("fish_lettuce_wrap",<harvestcraft:fishlettucewrapitem>,[lettuce,cookedFish,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("fish_lettuce_wrap")
+  .setShapeless([lettuce,cookedFish])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:fishlettucewrapitem>)
+  .create();
+//BLT -&C
+recipes.removeByRecipeName("harvestcraft:bltitem");
+recipes.addShapeless("blt",<harvestcraft:bltitem>,[lettuce,tomato,cookedPork,toast,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("blt")
+  .setShapeless([lettuce,tomato,cookedPork,toast])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:bltitem>)
+  .create();
+//Leafy Chicken Sandwich
+RecipeBuilder.get("chef")
+  .setName("leafy_sandwich_chicken")
+  .setShapeless([<harvestcraft:chickensandwichitem>,lettuce])
+  .addOutput(<harvestcraft:leafychickensandwichitem>)
+  .create();
+//Leafy Fish Sandwich
+RecipeBuilder.get("chef")
+  .setName("leafy_sandwich_fish")
+  .setShapeless([<harvestcraft:fishsandwichitem>,lettuce])
+  .addOutput(<harvestcraft:leafyfishsandwichitem>)
+  .create();
+//Potato Cakes
+recipes.removeByRecipeName("harvestcraft:potatocakesitem");
+ExSartagine.addKettleRecipe([onion,potato,butter],null,null,[<harvestcraft:potatocakesitem>],80);
+//Hash
+recipes.removeByRecipeName("harvestcraft:potatocakesitem");
+ExSartagine.addKettleRecipe([onion,potato,<contenttweaker:ground_beef>|<mod_lavacow:mousse>],null,null,[<harvestcraft:hashitem>],80);
+//Braised onions
+recipes.removeByRecipeName("harvestcraft:braisedonionsitem");
+ExSartagine.addKettleRecipe([onion,butter,stock],null,null,[<harvestcraft:braisedonionsitem>],80);
+//Corn on the cob
+RecipeBuilder.get("chef")
+  .setName("corn_on_the_cob")
+  .setShapeless([corn,butter])
+  .addOutput(<harvestcraft:cornonthecobitem>)
+  .create();
+//Cornmeal
+recipes.removeByRecipeName("harvestcraft:cornmealitem");
+Mortar.addRecipe(["stone"], cornmeal, 4, [corn]);
+//Corn bread
+recipes.removeByRecipeName("harvestcraft:cornbreaditem");
+ExSartagine.addKettleRecipe([cornmeal,egg,milkBottle],null,null,[<harvestcraft:cornbreaditem>],80); //also millstone recipe
+//Tortilla
+recipes.removeByRecipeName("harvestcraft:tortillaitem");
+ExSartagine.addKettleRecipe([cornmeal],null,waterBottle,[tortilla],80);
+//Nachos -&C
+recipes.removeByRecipeName("harvestcraft:nachoesitem");
+recipes.addShapeless("nachos",<harvestcraft:nachoesitem>,[tortilla,cheese,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("nachos")
+  .setShapeless([tortilla,cheese])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:nachoesitem>)
+  .create();
+//Beef taco -&C
+recipes.removeByRecipeName("harvestcraft:tacoitem");
+recipes.addShapeless("beef_taco",<harvestcraft:tacoitem>,[cookedBeef,lettuce,cheese,tortilla,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("beef_taco")
+  .setShapeless([cookedBeef,lettuce,cheese,tortilla])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:tacoitem>)
+  .create();
+//Fish taco -&C
+recipes.removeByRecipeName("harvestcraft:fishtacoitem");
+recipes.addShapeless("fish_taco",<harvestcraft:fishtacoitem>,[cookedFish,lettuce,cheese,tortilla,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("fish_taco")
+  .setShapeless([cookedFish,lettuce,cheese,tortilla])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:fishtacoitem>)
+  .create();
+//Hydra taco 
+recipes.addShapeless("hydraco",<contenttweaker:hydraco>,[hydraMeat,lettuce,cheese,tortilla,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("hydraco")
+  .setShapeless([hydraMeat,lettuce,cheese,tortilla])
+  .addTool(cut, 1)
+  .addOutput(<contenttweaker:hydraco>)
+  .create();
+//Creamed corn
+recipes.removeByRecipeName("harvestcraft:creamedcornitem");
+ExSartagine.addKettleRecipe([corn,onion,heavyCream],null,null,[<harvestcraft:creamedcornitem>],80);
+//Strawberry cake 
+recipes.removeByRecipeName("harvestcraft:strawberrypieitem");
+ExSartagine.addKettleRecipe([dough,sugar],strawberry,waterBottle,[<harvestcraft:strawberrypieitem>],80);
+//Strawberry salad -&C
+RecipeBuilder.get("chef")
+  .setName("strawberry_salad")
+  .setShapeless([<harvestcraft:fruitsaladitem>,strawberry])
+  .addOutput(<harvestcraft:strawberrysaladitem>)
+  .create();
+//Chocolate strawberry
+recipes.removeByRecipeName("harvestcraft:chocolatestrawberryitem");
+ExSartagine.addKettleRecipe([strawberry],chocolateBar,null,[<harvestcraft:chocolatestrawberryitem>],20);
+//Peanut butter
+recipes.removeByRecipeName("harvestcraft:peanutbutteritem");
+Mortar.addRecipe(["stone"], <harvestcraft:peanutbutteritem>, 4, [cookingOil,peanut]);
+//Trail mix -&C 
+RecipeBuilder.get("chef")
+  .setName("trail_mix")
+  .setShapeless([<harvestcraft:chocolatebaritem>,<harvestcraft:raisinsitem>,seed])
+  .addOutput(<harvestcraft:trailmixitem>)
+  .create();
+RecipeBuilder.get("chef")
+  .setName("trail_mix_1")
+  .setShapeless([<harvestcraft:chocolatebaritem>,<harvestcraft:raisinsitem>,nut])
+  .addOutput(<harvestcraft:trailmixitem>)
+  .create();
+RecipeBuilder.get("chef")
+  .setName("trail_mix_2")
+  .setShapeless([<harvestcraft:chocolatebaritem>,<harvestcraft:raisinsitem>,<harvestcraft:roastedpumpkinseedsitem>])
+  .addOutput(<harvestcraft:trailmixitem>)
+  .create();
+RecipeBuilder.get("chef")
+  .setName("trail_mix_3")
+  .setShapeless([<harvestcraft:chocolatebaritem>,<harvestcraft:raisinsitem>,<harvestcraft:sunflowerseedsitem>])
+  .addOutput(<harvestcraft:trailmixitem>)
+  .create();
+//Peanut butter and jam sandwich
+recipes.removeByRecipeName("harvestcraft:pbandjitem");
+recipes.addShapeless("pbj_sandwich",<harvestcraft:pbandjitem>,[nutButter,<harvestcraft:grapejellyitem>,bread,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("pbj_sandwich")
+  .setShapeless([nutButter,<harvestcraft:grapejellyitem>,bread])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:pbandjitem>)
+  .create();
+//peanut butter cookies
+recipes.removeByRecipeName("harvestcraft:peanutbuttercookiesitem");
+ExSartagine.addKettleRecipe([nutButter,batter,sugar,sugar],null,null,[<harvestcraft:peanutbuttercookiesitem>*2],80);
+
 
 
 
