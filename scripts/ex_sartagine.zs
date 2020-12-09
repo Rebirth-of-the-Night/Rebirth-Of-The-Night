@@ -69,6 +69,7 @@ var waterBottle = <liquid:water>*333;
 var waterBottle2 = <liquid:water>*666;
 var waterBucket = <liquid:water>*1000;
 var milkBottle = <animania:milk_bottle>.giveBack(<minecraft:glass_bottle>);
+var coconutMilk = <harvestcraft:coconutmilkitem>;
 var stock = <harvestcraft:stockitem>;
 var dough = <ore:foodDough>;
 var salt = <ore:dustSalt>;
@@ -78,10 +79,10 @@ var mayo = <ore:foodMayo>;
 var snowball = <minecraft:snowball>;
 var rawChicken = <ore:listAllchickenraw>;
 var cookedChicken = <ore:listAllchickencooked>;
-var rawPorkPig = <animania:raw_prime_pork>|<minecraft:porkchop>;
-var rawPork = <ore:listAllporkraw>;
-var cookedPork = <ore:listAllporkcooked>;
-var rawBacon = <animania:raw_prime_bacon>;
+var rawPork = <animania:raw_prime_pork>|<minecraft:porkchop>;
+var cookedPork = <animania:cooked_prime_pork>|<minecraft:cooked_porkchop>|<harvestcraft:bbqjackfruititem>;
+var rawBacon = <animania:raw_prime_bacon>|<harvestcraft:rawtofaconitem>;
+var cookedBacon = <animania:cooked_prime_bacon>|<harvestcraft:cookedtofaconitem>;
 var rawBeef = <ore:listAllbeefraw>;
 var cookedBeef = <ore:listAllbeefcooked>;
 var rawFish = <ore:listAllfishraw>;
@@ -166,6 +167,13 @@ var peanut = <harvestcraft:peanutitem>;
 var seed = <ore:listAllseed>;
 var nut = <ore:listAllnut>;
 var nutButter = <ore:listAllnutbutter>;
+var vinegar = <harvestcraft:vinegaritem>;
+var cucumber = <ore:cropCucumber>;
+var springSalad = <harvestcraft:springsaladitem>;
+var chili = <rustic:chili_pepper>;
+var bellpepper = <harvestcraft:bellpepperitem>;
+var stewCondiment = <ore:listAllStewcondiment>;
+var beans = <harvestcraft:beanitem>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
@@ -552,12 +560,12 @@ recipes.removeByRecipeName("harvestcraft:chickenpotpieitem");
 ExSartagine.addKettleRecipe([rawChicken,potato,carrot,dough],null,null,[<harvestcraft:chickenpotpieitem>],80);
 //Breaded porkshop
 recipes.removeByRecipeName("harvestcraft:breadedporkchopitem");
-ExSartagine.addKettleRecipe([rawPorkPig,batter],null,null,[<harvestcraft:breadedporkchopitem>],80);
+ExSartagine.addKettleRecipe([rawPork,batter],null,null,[<harvestcraft:breadedporkchopitem>],80);
 //Minced meat -&C
-recipes.addShapeless("minced_meat",<mod_lavacow:mousse>,[rawPorkPig,cutBad]);
+recipes.addShapeless("minced_meat",<mod_lavacow:mousse>,[rawPork,cutBad]);
 RecipeBuilder.get("chef")
   .setName("minced_meat")
-  .setShapeless([rawPorkPig])
+  .setShapeless([rawPork])
   .addTool(cut, 1)
   .addOutput(<mod_lavacow:mousse>)
   .create();
@@ -699,12 +707,12 @@ recipes.removeByRecipeName("harvestcraft:chickenparmasanitem");
 ExSartagine.addKettleRecipe([rawChicken,tomato,cheese],null,null,[<harvestcraft:chickenparmasanitem>],80);
 //Spring salad -&C
 recipes.removeByRecipeName("harvestcraft:springsaladitem");
-recipes.addShapeless("spring_salad",<harvestcraft:springsaladitem>,[lettuce,veggie,cutBad]);
+recipes.addShapeless("spring_salad",springSalad,[lettuce,veggie,cutBad]);
 RecipeBuilder.get("chef")
   .setName("spring_salad")
   .setShapeless([lettuce,veggie])
   .addTool(cut, 1)
-  .addOutput(<harvestcraft:springsaladitem>)
+  .addOutput(springSalad)
   .create();
 //Pork Lettuce Wrap -&C
 recipes.removeByRecipeName("harvestcraft:porklettucewrapitem");
@@ -852,17 +860,97 @@ RecipeBuilder.get("chef")
   .addTool(cut, 1)
   .addOutput(<harvestcraft:pbandjitem>)
   .create();
-//peanut butter cookies
+//Peanut butter cookies
 recipes.removeByRecipeName("harvestcraft:peanutbuttercookiesitem");
 ExSartagine.addKettleRecipe([nutButter,batter,sugar,sugar],null,null,[<harvestcraft:peanutbuttercookiesitem>*2],80);
+//Vinegar
+//Made in cauldron using wine; inspirations.zs
 
+//Jelly
+recipes.removeByRecipeName("harvestcraft:grapejellyitem");
+ExSartagine.addKettleRecipe([grape,sugar],null,null,[<harvestcraft:grapejellyitem>],80);
 
-
-
-
-
-
-
+//Grape salad -&C
+RecipeBuilder.get("chef")
+  .setName("grape_salad")
+  .setShapeless([<harvestcraft:fruitsaladitem>,grape])
+  .addOutput(<harvestcraft:grapesaladitem>)
+  .create();
+//Raisin cookies 
+recipes.removeByRecipeName("harvestcraft:raisincookiesitem");
+ExSartagine.addKettleRecipe([batter,sugar,<harvestcraft:raisinsitem>],null,null,[<harvestcraft:raisincookiesitem>],80);
+//Pickles
+recipes.removeByRecipeName("harvestcraft:picklesitem_dustsalt");
+ExSartagine.addKettleRecipe([cucumber,salt,vinegar],null,null,[<harvestcraft:picklesitem>],80);
+//Cucumber salad -&C
+recipes.removeByRecipeName("harvestcraft:cucumbersaladitem");
+recipes.addShapeless("cucumber_salad",<harvestcraft:cucumbersaladitem>,[springSalad,cucumber,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("cucumber_salad")
+  .setShapeless([springSalad,cucumber])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:cucumbersaladitem>)
+  .create();
+//Cucumber soup
+recipes.removeByRecipeName("harvestcraft:cucumbersoupitem");
+ExSartagine.addKettleRecipe([cucumber,stock,heavyCream],null,null,[<harvestcraft:cucumbersoupitem>],80);
+//Vegetarian lettuce wrap
+recipes.removeByRecipeName("harvestcraft:vegetarianlettucewrapitem");
+recipes.addShapeless("v_lettuce_wrap",<harvestcraft:vegetarianlettucewrapitem>,[cucumber,lettuce,tomato,cutBad]);
+RecipeBuilder.get("chef")
+  .setName("v_lettuce_wrap")
+  .setShapeless([cucumber,lettuce,tomato])
+  .addTool(cut, 1)
+  .addOutput(<harvestcraft:vegetarianlettucewrapitem>)
+  .create();
+//Marinated cucumbers 
+recipes.removeByRecipeName("harvestcraft:marinatedcucumbersitem");
+ExSartagine.addKettleRecipe([cucumber,onion,sugar,vinegar],null,null,[<harvestcraft:marinatedcucumbersitem>],80);
+//Rice soup 
+recipes.removeByRecipeName("harvestcraft:ricesoupitem");
+ExSartagine.addKettleRecipe([rice,stock],null,null,[<harvestcraft:ricesoupitem>],80);
+//Fried rice
+recipes.removeByRecipeName("harvestcraft:friedriceitem");
+ExSartagine.addKettleRecipe([rice,carrot,egg,onion],null,null,[<harvestcraft:friedriceitem>],80);
+//Mushroom risotto 
+recipes.removeByRecipeName("harvestcraft:mushroomrisottoitem");
+ExSartagine.addKettleRecipe([rice,mushroom,onion,cheese],null,null,[<harvestcraft:mushroomrisottoitem>],80);
+//Curry rice 
+recipes.removeByRecipeName("harvestcraft:curryitem_dustsalt");
+ExSartagine.addKettleRecipe([rice,salt,chili,coconutMilk,spice],null,null,[<harvestcraft:curryitem>],80);
+//Refried beans 
+recipes.removeByRecipeName("harvestcraft:refriedbeansitem");
+ExSartagine.addKettleRecipe([beans,onion,butter],null,null,[<harvestcraft:refriedbeansitem>],80);
+//Baked beans
+recipes.removeByRecipeName("harvestcraft:bakedbeansitem");
+ExSartagine.addKettleRecipe([beans,rawPork,sugar],null,null,[<harvestcraft:bakedbeansitem>],80);
+RecipeBuilder.get("chef")
+  .setName("baked_beans")
+  .setShapeless([beans,cookedPork,sugar])
+  .addOutput(<harvestcraft:bakedbeansitem>)
+  .create();
+ExSartagine.addKettleRecipe([beans,rawBacon,rawBacon,sugar],null,null,[<harvestcraft:bakedbeansitem>],80);
+RecipeBuilder.get("chef")
+  .setName("baked_beans_1")
+  .setShapeless([beans,cookedBacon,cookedBacon,sugar])
+  .addOutput(<harvestcraft:bakedbeansitem>)
+  .create();
+//Beans and rice 
+recipes.removeByRecipeName("harvestcraft:bakedbeansitem_croponion");
+recipes.removeByRecipeName("harvestcraft:bakedbeansitem_cropchilipepper");
+recipes.removeByRecipeName("harvestcraft:bakedbeansitem_cropbellpepper");
+ExSartagine.addKettleRecipe([beans,rice,onion,rawPork],null,null,[<harvestcraft:beansandriceitem>],80);
+RecipeBuilder.get("chef")
+  .setName("beans_and_rice")
+  .setShapeless([beans,rice,stewCondiment,cookedPork])
+  .addOutput(<harvestcraft:bakedbeansitem>)
+  .create();
+ExSartagine.addKettleRecipe([beans,rice,onion,rawBacon],null,null,[<harvestcraft:beansandriceitem>],80);
+RecipeBuilder.get("chef")
+  .setName("beans_and_rice_1")
+  .setShapeless([beans,rice,stewCondiment,cookedBacon])
+  .addOutput(<harvestcraft:bakedbeansitem>)
+  .create();
 
 
 //!!!!!!!! Concept idea: "ye olde stew"; an item that can be crafted by throwing an assortment of raw ingredients to the pot which will result in a variable amount of said item. Intended for players who don't want to fiddle with different recipes and just want to use their random ingredients without thinking much. This item has absolutely no other use or buff other than just its saturation and food level; insipid due to lack of ability in its preparation

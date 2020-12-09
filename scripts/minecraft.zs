@@ -812,6 +812,9 @@ for item in mushroom.items{
     }
 }
 
+val stewCondiment = <ore:listAllStewcondiment>;
+stewCondiment.add(<harvestcraft:onionitem>,<harvestcraft:bellpepperitem>,<minecraft:carrot>,<harvestcraft:cornitem>);
+
 val rawBeef = <ore:listAllbeefraw>;
 rawBeef.add(<twilightforest:raw_meef>);
 rawBeef.remove(<harvestcraft:groundbeefitem>);

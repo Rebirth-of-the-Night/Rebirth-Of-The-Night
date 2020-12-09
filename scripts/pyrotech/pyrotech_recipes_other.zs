@@ -30,6 +30,8 @@ SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
+SoakingPot.addRecipe("vinegar", <harvestcraft:vinegaritem>, <liquid:wine>*100, <mod_lavacow:intestine>, 5 * 60 * 20);
+SoakingPot.addRecipe("vinegar_fast", <harvestcraft:vinegaritem>, <liquid:wine>*100, <ore:agedMold>, 15 * 20);
 SoakingPot.addRecipe("tarred_tar_hay", <pyrotech:wood_tar_block>*5, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
 SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20);
 SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*2, <liquid:wood_tar>*50, <pyrotech:material:32>, 6 * 60 * 20);
