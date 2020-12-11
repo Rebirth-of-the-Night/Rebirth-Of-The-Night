@@ -15,13 +15,13 @@
 		"result": "deny"
 	},
 	{
-		"playerhelditem": "contenttweaker:info",
-		"block": "rftools:elevator",
-		"result": "allow"
+		"playerhelditem": "betterwithmods:steel_mattock",
+		"block": "minecraft:cobblestone",
+		"setblock":  { 'block': 'contenttweaker:cobblestone_path_coade'}
 	},
 	{
-		"block": "rftools:elevator",
-		"message": "Maybe with a redstone signal?",
-		"result": "deny"
+		"playerhelditem": "betterwithmods:steel_mattock",
+		"block": "undergroundbiomes:igneous_cobble",
+		"setblock":  { 'block': 'contenttweaker:cobblestone_path_red_granite'}
 	}
 ]

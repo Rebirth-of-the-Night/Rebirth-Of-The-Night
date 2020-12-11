@@ -570,3 +570,22 @@ Dropt.list("lodestone")
        	   .items([<minecraft:stonebrick:3>])
       )
   ); 
+//Cobbled Path blocks
+Dropt.list("cobbled_coade")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_coade"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<minecraft:cobblestone>])
+      )
+  ); 
+Dropt.list("cobbled_red_granite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_red_granite"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble>])
+      )
+  ); 

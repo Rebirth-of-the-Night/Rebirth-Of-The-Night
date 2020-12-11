@@ -187,7 +187,12 @@ val patty = mods.contenttweaker.VanillaFactory.createItem("patty");
 patty.setCreativeTab(<creativetab:harvestCraft>);
 patty.register();
 
-val hydraco = mods.contenttweaker.VanillaFactory.createItemFood("hydraco", 22);
+val hydraco = mods.contenttweaker.VanillaFactory.createItemFood("hydraco", 24);
 hydraco.setSaturation(44.0);
 hydraco.setCreativeTab(<creativetab:harvestCraft>);
 hydraco.register();
+
+val abyss_pizza = mods.contenttweaker.VanillaFactory.createItemFood("abyss_pizza", 1);
+abyss_pizza.setSaturation(120.0);
+abyss_pizza.setCreativeTab(<creativetab:harvestCraft>);
+abyss_pizza.register();

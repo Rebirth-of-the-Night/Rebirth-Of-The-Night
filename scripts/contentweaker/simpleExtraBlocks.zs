@@ -59,6 +59,7 @@ dolomite_straws.axisAlignedBB = AxisAlignedBB.create(
 	);
 dolomite_straws.setFullBlock(false);
 dolomite_straws.setLightOpacity(0);
+dolomite_straws.setCreativeTab(<creativetab:decorations>);
 dolomite_straws.setBlockSoundType(<soundtype:stone>);
 dolomite_straws.register();
 
@@ -317,7 +318,7 @@ refracotta_white.setToolClass("pickaxe");
 refracotta_white.register();
 
 var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Dragon_Egg>);
-egg_block.setCreativeTab(<creativetab:buildingBlocks>);
+egg_block.setCreativeTab(<creativetab:decorations>);
 egg_block.setBlockSoundType(<soundtype:stone>);
 egg_block.setToolClass("pickaxe");
 egg_block.setFullBlock(false);
@@ -338,6 +339,7 @@ fire_block.setBlockSoundType(<soundtype:cloth>);
 fire_block.setLightValue(15);
 fire_block.setBlockLayer("CUTOUT");
 fire_block.setPassable(true);
+fire_block.setCreativeTab(<creativetab:decorations>);
 fire_block.register();
 
 var planarspsp2 = VanillaFactory.createBlock("planarspsp2", <blockmaterial:Rock>);
@@ -374,3 +376,49 @@ n_copper_sandstone_red.setBlockResistance(15.0);
 n_copper_sandstone_red.setBeaconBase(true);
 n_copper_sandstone_red.register();
 
+//cobblestone paths
+var cobblestone_path_coade = VanillaFactory.createBlock("cobblestone_path_coade", <blockmaterial:Rock>);
+cobblestone_path_coade.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    15.0 / 16.0,
+    16.0 / 16.0
+	);
+cobblestone_path_coade.setFullBlock(false);
+cobblestone_path_coade.setLightOpacity(254);
+cobblestone_path_coade.setSlipperiness(0.75f);
+cobblestone_path_coade.setCreativeTab(<creativetab:decorations>);
+cobblestone_path_coade.register();
+
+var cobblestone_path_red_granite = VanillaFactory.createBlock("cobblestone_path_red_granite", <blockmaterial:Rock>);
+cobblestone_path_red_granite.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    15.0 / 16.0,
+    16.0 / 16.0
+	);
+cobblestone_path_red_granite.setFullBlock(false);
+cobblestone_path_red_granite.setLightOpacity(254);
+cobblestone_path_red_granite.setSlipperiness(0.75f);
+cobblestone_path_red_granite.setCreativeTab(<creativetab:decorations>);
+cobblestone_path_red_granite.register();
+
+//torch posts / vanilla torch post is BWM's shaft
+var glareshaft = VanillaFactory.createBlock("glareshaft_small", <blockmaterial:Rock>);
+glareshaft.axisAlignedBB = AxisAlignedBB.create(
+     7.0 / 16.0,
+     0.0 / 16.0,
+     7.0 / 16.0,
+	9.0 / 16.0,
+    14.0 / 16.0,
+    9.0 / 16.0
+	);
+glareshaft.setFullBlock(false);
+glareshaft.setLightOpacity(0);
+glareshaft.setBlockLayer("CUTOUT");
+glareshaft.setCreativeTab(<creativetab:buildingBlocks>);
+glareshaft.register();
