@@ -422,3 +422,20 @@ glareshaft.setLightOpacity(0);
 glareshaft.setBlockLayer("CUTOUT");
 glareshaft.setCreativeTab(<creativetab:buildingBlocks>);
 glareshaft.register();
+
+//Yeast flour
+var yeast_flour = VanillaFactory.createBlock("yeast_flour", <blockmaterial:Cloth>);
+yeast_flour.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+yeast_flour.setFullBlock(false);
+yeast_flour.setLightOpacity(0);
+yeast_flour.setBlockLayer("TRANSLUCENT");
+yeast_flour.setCreativeTab(<creativetab:harvestCraft>);
+yeast_flour.setBlockSoundType(<soundtype:cloth>);
+yeast_flour.register();
