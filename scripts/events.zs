@@ -234,7 +234,7 @@ events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketE
 		return;
 	}
 
-	if (event.block.fluid == <liquid:honey>.definition) {
+	if (!isNull(event.block.fluid) && event.block.fluid.name == <liquid:honey>.definition.name) {
 		event.cancel();
 		return;
 	}

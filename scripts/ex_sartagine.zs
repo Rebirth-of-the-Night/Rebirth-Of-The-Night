@@ -1437,7 +1437,7 @@ ExSartagine.addKettleRecipe([garlic,garlic,garlic,cookingOil,rawChicken],null,nu
 recipes.removeByRecipeName("harvestcraft:summerradishsaladitem");
 recipes.addShapeless("summer_radish_salad",<harvestcraft:summerradishsaladitem>,[radish,onion,cucumber,vinegar,cutBad]);
 RecipeBuilder.get("chef")
-  .setName("garlic_mashed_potatoes")
+  .setName("summer_radish_salad")
   .setShapeless([radish,onion,cucumber,vinegar])
   .addTool(cut, 1)
   .addOutput(<harvestcraft:summerradishsaladitem>)
