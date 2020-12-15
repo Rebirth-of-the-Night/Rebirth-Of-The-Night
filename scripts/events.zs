@@ -4,6 +4,8 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
+import crafttweaker.event.PlayerAnvilUpdateEvent;
+import crafttweaker.event.PlayerFillBucketEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerSleepInBedEvent;
@@ -17,6 +19,8 @@ import crafttweaker.player.IPlayer;
 
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
+
+import crafttweaker.util.Position3f;
 
 import mods.ctutils.utils.Math;
 
@@ -85,11 +89,32 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		if (!isNull(mhItem) && mhItem.definition.id == "pyrotech:bucket_stone") {
 			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount <= 1 ? null : mhItem.withAmount(mhItem.amount - 1));
 			event.player.give(mhItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+			event.cancel();
 		} else {
 			if (!isNull(ohItem) && ohItem.definition.id == "pyrotech:bucket_stone") {
 				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount <= 1 ? null : ohItem.withAmount(ohItem.amount - 1));
 				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+				event.cancel();
 			}
+		}
+	}
+
+	// Wet pastry
+	if (event.block.definition.id == "betterwithmods:raw_pastry" && event.block.meta == 3) {
+		if (!isNull(event.item) && event.item.matches(<minecraft:potion>.withTag({Potion: "minecraft:water"}))) {
+			event.world.setBlockState(<blockstate:contenttweaker:yeast_flour>, Position3f.create(event.x, event.y, event.z).asBlockPos());
+
+			var mhItem = event.player.getItemInSlot(IEntityEquipmentSlot.mainHand());
+			var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
+
+			if (!isNull(mhItem) && mhItem.matches(event.item)) {
+				event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount <= 1 ? null : mhItem.withAmount(mhItem.amount - 1));
+			} else {
+				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount <= 1 ? null : ohItem.withAmount(ohItem.amount - 1));
+			}
+			
+			event.player.give(<minecraft:glass_bottle>);
+			event.cancel();
 		}
 	}
 });
@@ -181,7 +206,7 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 });
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
-	if (isNull(event.player) | event.phase == "END" | event.phase == "End" | event.phase == "end") {
+	if (isNull(event.player) || event.phase == "END" || event.phase == "End" || event.phase == "end" || isNull(event.player.world)) {
 		return;
 	}
 
@@ -221,6 +246,18 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 				server.commandManager.executeCommand(event.player, "summon betterwithaddons:spirit ~"~x~" ~"~y~" ~"~z~" {Health:100,Age:0,Value:"~spiritCount~"}");
 			}
 		}
+	}
+});
+
+
+events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketEvent) {
+	if (event.world.isRemote()) {
+		return;
+	}
+
+	if (!isNull(event.block.fluid) && event.block.fluid.name == <liquid:honey>.definition.name) {
+		event.cancel();
+		return;
 	}
 });
 
