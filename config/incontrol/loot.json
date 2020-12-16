@@ -99,6 +99,13 @@
       "item": "contenttweaker:mercurial_ooze",
       "itemcount": "1"
    },
+   {
+      "mob": "betterslimes:king_slime",
+      "player": true,
+      "item": "nyx:meteor_shard",
+      "itemcount": "5-10"
+   },
+
 
 
 
