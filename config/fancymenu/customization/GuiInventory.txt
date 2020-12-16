@@ -1,0 +1,15 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.inventory.GuiInventory
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=22%
+  orientation = top-centered
+  x = -10
+  action = movebutton
+  y = 0
+}
+
