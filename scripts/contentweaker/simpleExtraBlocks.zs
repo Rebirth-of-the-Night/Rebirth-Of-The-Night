@@ -120,6 +120,20 @@ elevator.setBlockSoundType(<soundtype:stone>);
 elevator.setFullBlock(false);
 elevator.register();
 
+//Broken Healing Pad
+var healing = VanillaFactory.createBlock("healing", <blockmaterial:Ground>);
+healing.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    8.0 / 16.0,
+    16.0 / 16.0
+	);
+healing.setBlockSoundType(<soundtype:stone>);
+healing.setFullBlock(false);
+healing.register();
+
 //Lunarin blocks
 //Silver
 var silverlunarin = VanillaFactory.createBlock("lunarinsilverbrick", <blockmaterial:Iron>);
@@ -439,3 +453,20 @@ yeast_flour.setBlockLayer("TRANSLUCENT");
 yeast_flour.setCreativeTab(<creativetab:harvestCraft>);
 yeast_flour.setBlockSoundType(<soundtype:cloth>);
 yeast_flour.register();
+
+//Yeast
+var yeast = VanillaFactory.createBlock("yeast", <blockmaterial:Cloth>);
+yeast.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+yeast.setFullBlock(false);
+yeast.setLightOpacity(0);
+yeast.setBlockLayer("TRANSLUCENT");
+yeast.setCreativeTab(<creativetab:harvestCraft>);
+yeast.setBlockSoundType(<soundtype:cloth>);
+yeast.register();

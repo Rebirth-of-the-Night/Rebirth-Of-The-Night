@@ -236,7 +236,23 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-    
+
+//Phytoprostasia amulet
+
+recipes.remove(<defiledlands:phytoprostasia_amulet>);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <contenttweaker:spider_silk>, null],
+    [<contenttweaker:spider_silk>, null, <contenttweaker:spider_silk>],
+    [<defiledlands:vilespine>, <defiledlands:scuttler_eye>, <defiledlands:vilespine>]])
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addTool(<contenttweaker:balance_rune>, 1)
+  .addOutput(<defiledlands:phytoprostasia_amulet>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+  
 // Wrath Pendant
 
 recipes.remove(<bountifulbaubles:amuletsinwrath>);

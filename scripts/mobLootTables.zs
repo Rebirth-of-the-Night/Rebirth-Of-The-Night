@@ -61,6 +61,8 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 // aether
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
 
+// defiled lands
+mods.ltt.LootTable.removeGlobalItem("defiledlands:umbrium_ingot");
 
 // SpecialMobs
 val lemonSlime = LootTweaker.getTable("specialmobs:entities/slime/lemon");

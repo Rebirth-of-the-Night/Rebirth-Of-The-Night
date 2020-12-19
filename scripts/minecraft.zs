@@ -13,6 +13,13 @@ import mods.rockytweaks.Merchant;
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
 
+recipes.removeByRecipeName("minecraft:hopper");
+recipes.addShaped("metal_hopper",<minecraft:hopper>,[
+    [<ore:genericMetal>,null,<ore:genericMetal>],
+    [<ore:genericMetal>,<ore:chest>,<ore:genericMetal>],
+    [null,<ore:genericMetal>,null]
+]);
+
 recipes.removeByRecipeName("minecraft:furnace");
 recipes.addShaped("furnace",<minecraft:furnace>,[
     [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>],

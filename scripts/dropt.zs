@@ -589,3 +589,22 @@ Dropt.list("cobbled_red_granite")
        	   .items([<undergroundbiomes:igneous_cobble>])
       )
   ); 
+Dropt.list("yeast_flour")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:yeast_flour"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<betterwithmods:raw_pastry:3>])
+      )
+  );  
+Dropt.list("yeast")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:yeast"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<exsartagine:yeast>])
+      )
+  );  
+ 

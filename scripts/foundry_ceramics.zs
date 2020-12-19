@@ -430,6 +430,15 @@ mods.foundry.MoldStation.addRecipe(<contenttweaker:staff_mold>, 6, 6, [
 2,1,0,0,0,0
 ]);
 
+mods.foundry.MoldStation.addRecipe(<foundry:mold:21>, 6, 6, [
+0,0,0,0,0,0,
+0,0,2,0,0,0,
+0,2,3,2,0,0,
+0,0,2,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+]);
+
 //Casted IItemStacks //mods.foundry.Casting.addRecipe(IItemStack output, ILiquidStack input, IItemStack mold, @Optional IIngredient extra, @Optional int speed)
 //casting weapons is -2 nugget per ingot cheaper than crafting them in a crafting table / steel anvil
 //casting doesn't accept oredict entries for optional ingredient

@@ -1,0 +1,40 @@
+{
+	"populate": 
+	{
+		"defiled_stalactites": {
+			"distribution": "cave",
+			"generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "undergroundbiomes:sedimentary_speleothem",
+					"properties": {
+						"type" : "dolomite"
+						}
+					},
+				"material":"minecraft:dirt",
+				"gen-body":"minecraft:air",
+				"smooth": false,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 1,
+				"gen-size": 1,
+				"size-variance": 1
+			},
+			"cluster-count": 12,
+			"ground-level":80,
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"defiledlands:desert_defiled",
+					"defiledlands:forest_tenebra",
+					"defiledlands:forest_vilespine",
+					"defiledlands:hills_defiled",
+					"defiledlands:ice_plains_defiled",
+					"defiledlands:plains_defiled",
+					"defiledlands:swamp_defiled"
+				]
+			}
+		}
+	}
+}

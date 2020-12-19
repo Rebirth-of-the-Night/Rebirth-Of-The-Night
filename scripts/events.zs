@@ -70,6 +70,21 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 });
 
 events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
+	var stopDefiledBlocks as string[] = [
+        "minecraft:coal_ore",
+		"minecraft:coal_ore",
+		"minecraft:coal_block",
+		"minecraft:iron_ore",
+		"minecraft:iron_block",
+		"minecraft:diamond_ore",
+		"minecraft:diamond_block"
+    ] as string[];
+
+    if (!isNull(event.item) && event.item.matches(<defiledlands:defilement_powder>) && 
+        stopDefiledBlocks has event.block.definition.id) {
+        event.cancel();
+    }
+	
 	if (event.world.isRemote()) {
 		return;
 	}

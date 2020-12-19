@@ -83,9 +83,10 @@ tannin.colorize= true;
 tannin.vaporize= true;
 tannin.register();
 
-var soyMilk = VanillaFactory.createFluid("soyMilk", Color.fromHex("ffffff"));
-soyMilk.colorize= true;
-soyMilk.register();
+val cooking_kit = mods.contenttweaker.VanillaFactory.createItem("cooking_kit");
+cooking_kit.maxDamage = 420;
+cooking_kit.maxStackSize = 1;
+cooking_kit.register();
 
 // Cut Gems
 
