@@ -120,13 +120,14 @@ customization {
 customization {
   orientation = bottom-left
   buttonaction = openlink
+  backgroundhovered = resources/rotn/textures/transparent.png
+  description = Changelog
+  label = §cVersion 3.0 SNAPSHOT 5
+  hoverlabel = §fVersion 3.0 SNAPSHOT 5
   x = 0
-  width = 58
+  width = 105
   action = addbutton
   y = -10
-  backgroundhovered = resources/rotn/textures/overlay_red.png
-  description = Changelog
-  label = §cVersion 3.0
   backgroundnormal = resources/rotn/textures/transparent.png
   value = https://docs.google.com/document/d/1DGgt4OBx-Vyy3vyT_wgUjjxrXDPFhBpkS9M11shZKAE/edit?usp=sharing
   height = 10
@@ -173,16 +174,18 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
+  orientation = bottom-left
   buttonaction = opencustomgui
-  x = -35
-  width = 100
+  x = 23
+  width = 207
   action = addbutton
-  y = 84
-  description = idk where this should be tbh
-  label = Tips
+  y = -141
+  backgroundhovered = resources/rotn/textures/transparent.png
+  description = Tips
+  label = 
+  backgroundnormal = resources/rotn/textures/transparent.png
   value = rotn.tips
-  height = 20
+  height = 122
 }
 
 customization {

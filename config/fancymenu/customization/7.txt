@@ -1,24 +1,24 @@
 type = menu
 
 customization-meta {
-  identifier = rotn.tips
+  identifier = rotn.tips.7
   renderorder = foreground
 }
 
 customization {
-  name = tips_one
+  name = tips_seven
   action = animatebackground
 }
 
 customization {
-  orientation = mid-right
+  orientation = mid-left
   buttonaction = opencustomgui
-  x = -20
+  x = 0
   width = 20
   action = addbutton
   y = -10
-  label = → 
-  value = rotn.tips.2
+  label = ←
+  value = rotn.tips.6
   height = 20
 }
 

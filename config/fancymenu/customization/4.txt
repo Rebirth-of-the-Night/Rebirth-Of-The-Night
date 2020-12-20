@@ -1,12 +1,12 @@
 type = menu
 
 customization-meta {
-  identifier = rotn.tips
+  identifier = rotn.tips.4
   renderorder = foreground
 }
 
 customization {
-  name = tips_one
+  name = tips_four
   action = animatebackground
 }
 
@@ -17,8 +17,20 @@ customization {
   width = 20
   action = addbutton
   y = -10
-  label = → 
-  value = rotn.tips.2
+  label = →
+  value = rotn.tips.5
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opencustomgui
+  x = 0
+  width = 20
+  action = addbutton
+  y = -10
+  label = ←
+  value = rotn.tips.3
   height = 20
 }
 
@@ -33,4 +45,3 @@ customization {
   value = net.minecraft.client.gui.GuiMainMenu
   height = 20
 }
-
