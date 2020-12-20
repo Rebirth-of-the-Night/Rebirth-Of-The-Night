@@ -1,20 +1,27 @@
 {
+  blankSlate: false
   biomes: {
       names: [
-		biomesoplenty:xeric_shrubland
-		biomesoplenty:wasteland
-		biomesoplenty:tundra
-		biomesoplenty:steppe
-		minecraft:mutated_mesa
-		minecraft:mutated_mesa_rock
-		minecraft:mutated_mesa_clear_rock
-		biomesoplenty:prairie
-		biomesoplenty:brushland
+		minecraft:desert
+		minecraft:desert_hills
+		minecraft:mutated_desert
+		biomesoplenty:oasis
   	  ]
 	}
-  stoneLayers: [
-
+  wallDecorators: [
+     # Spawns desert varnish underground.
     {
+      states: pyrotech:limestone
+      chance: 0.25
+      minHeight: 26
+      maxHeight: 90
+      matchers: ["sandstone"]
+      directions: all
+    }
+  ]
+  stoneLayers: [
+    {
+	  #andesite bedrock
       state: undergroundbiomes:igneous_stone:3
       maxHeight: 26
 	  noise2D: {
@@ -25,18 +32,19 @@
         }
     }
 	{
-      state: undergroundbiomes:metamorphic_stone:1
-      maxHeight: 43
+	  #underground sandstone
+      state: minecraft:sandstone
+      maxHeight: 90
 	  noise2D: {
          scale: 0.9
          frequency: 0.015
-         minVal: -3
-		 maxVal: 3
+         minVal: -4
+		 maxVal: 4
         }
     }
 	{
       state: undergroundbiomes:sedimentary_stone:6
-      maxHeight: 70
+      maxHeight: 110
 	  noise2D: {
          scale: 0.9
          frequency: 0.015
@@ -46,7 +54,7 @@
     }
 	{
       state: undergroundbiomes:sedimentary_sandstone:6
-      maxHeight: 120
+      maxHeight: 150
 	  noise2D: {
          scale: 0.9
          frequency: 0.015

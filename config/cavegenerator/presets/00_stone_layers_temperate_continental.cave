@@ -1,5 +1,6 @@
 # temperate forest-like biomes like what can be found in national parks in the US
 {
+  blankSlate: false
   biomes: {
 	  names: [
 		biomesoplenty:grassland

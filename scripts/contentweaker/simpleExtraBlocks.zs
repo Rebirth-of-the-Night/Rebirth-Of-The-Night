@@ -373,6 +373,14 @@ salty_crust.setBlockHardness(1.0);
 salty_crust.setBlockResistance(5.0);
 salty_crust.register();
 
+var rocky_dirt = VanillaFactory.createBlock("rocky_dirt", <blockmaterial:Ground>);
+rocky_dirt.setCreativeTab(<creativetab:buildingBlocks>);
+rocky_dirt.setBlockSoundType(<soundtype:ground>);
+rocky_dirt.setToolClass("shovel");
+rocky_dirt.setBlockHardness(4.0);
+rocky_dirt.setBlockResistance(5.0);
+rocky_dirt.register();
+
 //sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);
 n_copper_sandstone.setCreativeTab(<creativetab:buildingBlocks>);

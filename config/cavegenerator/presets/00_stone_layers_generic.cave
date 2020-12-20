@@ -29,6 +29,7 @@
 #	Greywacke is a hard sandstone (wasteland, dead, spooky)
 #	Chert occurs in limestone, chalk, and dolomite (pockets)
 {
+  blankSlate: false
   biomes: {
 	  names: [
 	    biomesoplenty:lush_desert

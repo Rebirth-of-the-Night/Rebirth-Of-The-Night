@@ -1,4 +1,5 @@
 {
+  blankSlate: false
   biomes: {
       names: [
 		minecraft:stone_beach
