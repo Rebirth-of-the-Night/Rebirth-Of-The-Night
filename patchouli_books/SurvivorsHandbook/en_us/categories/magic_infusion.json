@@ -1,7 +1,0 @@
-{
-  "name": "Spirit Infusion",
-  "description": "fix the infuser bord",
-  "icon": "minecraft:ghast_tear",
-  "sortnum": 2,
-  "parent": "magic"
-}

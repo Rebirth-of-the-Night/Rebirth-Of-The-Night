@@ -1,7 +1,7 @@
 {
   "name": "Infusion Entry",
   "icon": "minecraft:soulsand",
-  "category": "magic_infusion",
+  "category": "magic_artifacts",
   "pages": [
  {
       "type": "text",

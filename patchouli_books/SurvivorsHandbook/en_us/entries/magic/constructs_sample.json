@@ -1,7 +1,7 @@
 {
-  "name": "Vis and Runes Entry",
-  "icon": "minecraft:slimeball",
-  "category": "magic_visrunes",
+  "name": "Rituals Entry",
+  "icon": "minecraft:diamond",
+  "category": "magic_magicconstructs",
   "pages": [
  {
       "type": "text",

@@ -1,7 +1,7 @@
 {
-  "name": "Rituals Entry",
-  "icon": "minecraft:diamond",
-  "category": "magic_rituals",
+  "name": "Enchanting Entry",
+  "icon": "minecraft:bookshelf",
+  "category": "magic_magiccrafting",
   "pages": [
  {
       "type": "text",

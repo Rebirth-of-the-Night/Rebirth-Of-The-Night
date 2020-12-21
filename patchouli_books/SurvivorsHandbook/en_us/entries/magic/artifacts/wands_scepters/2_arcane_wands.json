@@ -1,0 +1,128 @@
+{
+  "name": "Arcane Wands",
+  "icon": "contenttweaker:wand_base_arcane",
+  "category": "magic_artifacts_wandssceptersstaves",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Made with slightly complex magicks, these wands can perform quite useful magical tasks. I can fashion a wand by creating an arcane wand base, and then combining it with some materials and runic magic within the runic table."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:wand_base_arcane",
+      "text": "The Arcane Wand Base is the primary component for all arcane wands. Unlike the mundane wand base, I can not simply use mundane woods. I must seek out wood that's slightly magical and craft it with a vis sliver in the runic table."
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandArcane"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_pm",
+      "text": "Imbued with the magic of air and aether, this wand can release a barrage of arrows in front of me."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(3)Arcane$()$(br2)$(l)Primary Effect: $()Fires 5 arrows in a cone shape.$(br2)$(l)Secondary Effect: $()None.$(br2)$(l)Cost: $()40 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandPM",
+      "text_left": "1x Arcane Wand Base $(br)1x Golden Feather $(br)1x Greatarrow $(br)2x Electrum Ingot",
+      "text_right": "Air Rune $(br)Aether Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_disorient",
+      "text": "Imbued with the magic of solar and lunar, this wand blinds and disorients nearby foes."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(3)Arcane$()$(br2)$(l)Primary Effect: $()Applies $(4)blindness $() to nearby entities for 8 seconds.$(br2)$(l)Secondary Effect: $()Ignores players.$(br2)$(l)Cost: $()16 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandDisorient",
+      "text_left": "1x Arcane Wand Base $(br)1x Obsidian $(br)1x Glaretorch $(br)2x Fallen Star",
+      "text_right": "Sol Rune $(br)Luna Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_wither",
+      "text": "Imbued with the magic of death and nether, this wand inflicts a nasty withering decay onto foes. I can choose to cast this on all nearby beings, or ignore allies while casting."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(3)Arcane$()$(br2)$(l)Primary Effect: $()Applies $(4)wither $()to nearby entities for 5 seconds.$(br2)$(l)Secondary Effect: $()Same as primary, but ignores players.$(br2)$(l)Cost: $()14 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandWither",
+      "text_left": "1x Arcane Wand Base $(br)2x Witherbone $(br)2x Wither Ash",
+      "text_right": "Death Rune $(br)Nether Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_resto",
+      "text": "Imbued with the magic of life and aether, this wand is capable of restoring the very life essence of nearby lifeforms. I can choose to heal only those I consider allies, or heal any living entity for about half as much."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(3)Arcane$()$(br2)$(l)Primary Effect: $()Heals self and nearby friendlies for 8.$(br2)$(l)Secondary Effect: $()Heals everything in range for 4.$(br2)$(l)Cost: $()32 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandRestoration",
+      "text_left": "1x Arcane Wand Base $(br)1x Golden Amber $(br)1x Holy Zanite $(br)2x Golden Feather",
+      "text_right": "Life Rune $(br)Aether Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_companion",
+      "text": "Imbued with the magic of creation and death, this wand can summon a ghastly yet friendly ally."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(3)Arcane$()$(br2)$(l)Primary Effect: $()Summons a tamed bone wolf.$(br2)$(l)Secondary Effect: $()None.$(br2)$(l)Cost: $()60 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandCompanion",
+      "text_left": "1x Arcane Wand Base $(br)1x Beast Head $(br)1x Bottled Spirits $(br)2x Bones",
+      "text_right": "Creation Rune $(br)Death Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

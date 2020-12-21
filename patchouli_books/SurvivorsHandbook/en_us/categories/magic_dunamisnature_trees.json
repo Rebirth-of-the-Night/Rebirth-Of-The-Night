@@ -1,0 +1,7 @@
+{
+  "name": "Magical Trees",
+  "description": "The world is filled with all sorts of magical trees. Each serves a unique function, and provides magical materials. Perhaps I can locate and replant some of them for my own personal use and magical studies.",
+  "icon": "biomesoplenty:sapling_0:3",
+  "sortnum": 1,
+  "parent": "magic_dunamisnature"
+}

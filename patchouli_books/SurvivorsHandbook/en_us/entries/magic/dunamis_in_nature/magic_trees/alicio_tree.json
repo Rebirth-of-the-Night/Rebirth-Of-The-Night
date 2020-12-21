@@ -1,0 +1,18 @@
+{
+  "name": "Alicio Tree",
+  "icon": "betterwithaddons:sapling_luretree",
+  "category": "magic_dunamisnature_trees",
+  "pages": [
+    {
+      "type": "text",
+      "text": "placeholder text"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}
