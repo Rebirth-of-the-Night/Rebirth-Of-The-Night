@@ -1,3 +1,0 @@
-identifier = rotn.tips.2
-title = 
-allowesc = true

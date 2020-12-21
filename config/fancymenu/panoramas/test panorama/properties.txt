@@ -1,5 +1,0 @@
-type = panorama
-
-panorama-meta {
-  name = test_panorama
-}
