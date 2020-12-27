@@ -1894,5 +1894,11 @@ ExSartagine.addKettleRecipe([mint,sugar],null,null,[<harvestcraft:peppermintitem
 //Black pepper
 recipes.removeByRecipeName("harvestcraft:blackpepperitem");
 Mortar.addRecipe(["stone"], <harvestcraft:blackpepperitem>, 4, [<harvestcraft:peppercornitem>]);
+//Ground Cinnamon
+recipes.removeByRecipeName("harvestcraft:groundcinnamonitem");
+Mortar.addRecipe(["stone"], <harvestcraft:groundcinnamonitem>, 4 [<harvestcraft:cinnamonitem>]);
+//Ground Nutmeg
+recipes.removeByRecipeName("harvestcraft:groundnutmegitem");
+Mortar.addRecipe(["stone"], <harvestcraft:groundnutmegitem>, 4 [<harvestcraft:nutmegitem>]);
 
 //!!!!!!!! Concept idea: "ye olde stew"; an item that can be crafted by throwing an assortment of raw ingredients to the pot which will result in a variable amount of said item. Intended for players who don't want to fiddle with different recipes and just want to use their random ingredients without thinking much. This item has absolutely no other use or buff other than just its saturation and food level; insipid due to lack of ability in its preparation
