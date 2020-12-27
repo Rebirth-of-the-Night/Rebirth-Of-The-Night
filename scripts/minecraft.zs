@@ -87,6 +87,9 @@ recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("minecraft:bone_meal_from_block");
+recipes.removeByRecipeName("minecraft:granite");
+recipes.removeByRecipeName("minecraft:diorite");
+recipes.removeByRecipeName("minecraft:andesite");
 
 recipes.remove(<minecraft:tnt>);
 recipes.addShaped("tnt",<minecraft:tnt>,[
