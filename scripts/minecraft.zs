@@ -13,6 +13,11 @@ import mods.rockytweaks.Merchant;
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
 
+
+// remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
+mods.ltt.LootTable.removeGlobalItem("minecraft:bucket");
+
+
 recipes.removeByRecipeName("minecraft:hopper");
 recipes.addShaped("metal_hopper",<minecraft:hopper>,[
     [<ore:genericMetal>,null,<ore:genericMetal>],

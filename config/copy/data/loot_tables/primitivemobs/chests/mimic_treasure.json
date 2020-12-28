@@ -213,7 +213,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:book",
-                    "weight": 5,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"

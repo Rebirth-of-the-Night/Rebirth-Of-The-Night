@@ -26,4 +26,6 @@ mods.jei.JEI.removeAndHide(<ambience:songswitcher_lit>);
 // add as loot
 // unique boss drop?
 recipes.remove(<ambience:horn>);
+mods.ltt.LootTable.removeGlobalItem("ambience:horn");
+
 
