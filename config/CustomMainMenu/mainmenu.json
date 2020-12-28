@@ -312,10 +312,10 @@
                 "refreshInterval": 60
             }, 
             "fontSize": 0.6,
-            "posX": -65,
+            "posX": 115,
             "posY": 2,
             "color": 16777215,
-            "alignment": "top_center"
+            "alignment": "top_left"
         }
 
 
