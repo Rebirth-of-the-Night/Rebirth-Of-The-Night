@@ -7,7 +7,7 @@ addParent("triumph:advancements/progression/nether/enterNether")
 addRewardFunction("triumph:killedQuazar")
 
 criteria = addCriteria("Quazar", "minecraft:player_killed_entity")
-criteria.setEntityType("betterslimes:king_slime")
+criteria.setEntityType("betterslimes:quazar")
 
 setShowToast(true)
 setFrameType("CHALLENGE")

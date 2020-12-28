@@ -88,19 +88,19 @@
 
    // Quazar
    {
-      "mob": "betterslimes:king_slime",
+      "mob": "betterslimes:quazar",
       "player": true,
       "item": "contenttweaker:volatile_core",
       "itemcount": "1"
    },
    {
-      "mob": "betterslimes:king_slime",
+      "mob": "betterslimes:quazar",
       "player": true,
       "item": "contenttweaker:mercurial_ooze",
       "itemcount": "1"
    },
    {
-      "mob": "betterslimes:king_slime",
+      "mob": "betterslimes:quazar",
       "player": true,
       "item": "nyx:meteor_shard",
       "itemcount": "5-10"
