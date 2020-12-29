@@ -15,7 +15,6 @@ setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-
-hiddenUnless("triumph:advancements/progression/aether/killedSlider")
+hiddenUnless("triumph:advancements/progression/aether/enterAether")
 drawDirectLines()
 setPos(215,-90)

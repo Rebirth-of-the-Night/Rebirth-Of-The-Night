@@ -9,7 +9,5 @@ addRewardFunction("triumph:minedMythril")
 criteria = addCriteria("Mythril Ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreMythril>)
 
-hiddenUnless("triumph:advancements/progression/nether/enterNether")
-hiddenUnless("triumph:advancements/progression/aether/enterAether")
 drawDirectLines()
 setPos(275,-30)

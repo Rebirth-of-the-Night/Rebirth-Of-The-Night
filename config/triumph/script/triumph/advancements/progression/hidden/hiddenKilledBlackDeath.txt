@@ -5,14 +5,13 @@ setDescription("")
 addParent("triumph:advancements/progression/beneath/enterBeneath")
 
 
-criteria = addCriteria("black_death", "minecraft:player_killed_entity")
-criteria.setEntityType("rats:black_death")
+criteria = addCriteria("impossible", "minecraft:impossible")
+
 
 setUncompletedIconColor(150,150,150)
 setUncompletedTitleColor(110,110,110)
 
 
-hiddenUnless("triumph:advancements/progression/beneath/enterBeneath")
-hiddenIf("triumph:advancements/progression/aether/killedblackdeath")
+hiddenIf("triumph:advancements/progression/beneath/killedBlackDeath")
 drawDirectLines()
 setPos(245,-40)

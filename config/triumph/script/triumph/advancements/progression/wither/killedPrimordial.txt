@@ -2,11 +2,9 @@ setIcon(<minecraft:dirt>)
 setTitle("The Primordial")
 setDescription("Kill The Primordial.")
 
-addParent("triumph:advancements/progression/wither/killedwither")
+addParent("triumph:advancements/progression/wither/killedWither")
 
-
-criteria = addCriteria("The Primordial", "minecraft:player_killed_entity")
-criteria.setEntityType("netherex:ghast_queen")
+criteria = addCriteria("impossible", "minecraft:impossible")
 
 
 setShowToast(true)
@@ -14,6 +12,6 @@ setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-hiddenUnless("triumph:advancements/progression/beneath/killedidolofradiance")
+setHidden(true)
 drawDirectLines()
 setPos(552,-16)

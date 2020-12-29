@@ -15,6 +15,5 @@ setFrameType("GOAL")
 setUncompletedIconColor(217,255,92)
 
 
-hiddenUnless("triumph:advancements/progression/killedharvester")
 drawDirectLines()
 setPos(185,-60)

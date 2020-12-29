@@ -3,7 +3,7 @@ setTitle("The True Final Frontier")
 setDescription("Enter The Twilight Forest.")
 
 addParent("triumph:advancements/progression/wither/killedGhastQueen")
-addParent("triumph:advancements/progression/wither/killedPrimordial")
+addParent("triumph:advancements/progression/hidden/hiddenKilledPrimordial")
 
 addRewardFunction("triumph:enteredTwilightForest")
 
@@ -18,7 +18,6 @@ setFrameType("GOAL")
 setUncompletedIconColor(217,255,92)
 
 
-visibleIf("triumph:advancements/progression/wither/killghastqueen")
-visibleIf("triumph:advancements/progression/wither/killprimordial")
+alwaysVisible()
 drawDirectLines()
 setPos(616,0)

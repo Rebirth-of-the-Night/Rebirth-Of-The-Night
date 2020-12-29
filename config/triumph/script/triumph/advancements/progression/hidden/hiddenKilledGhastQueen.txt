@@ -2,7 +2,8 @@ setIcon(<contenttweaker:info>)
 setTitle("Hidden Achievement")
 setDescription("")
 
-addParent("triumph:advancements/progression/end/enterEnd")
+addParent("triumph:advancements/progression/hidden/hiddenKilledWither")
+addParent("triumph:advancements/progression/wither/killedWither")
 
 
 criteria = addCriteria("impossible", "minecraft:impossible")
@@ -11,8 +12,6 @@ criteria = addCriteria("impossible", "minecraft:impossible")
 setUncompletedIconColor(150,150,150)
 setUncompletedTitleColor(110,110,110)
 
-
-hiddenUnless("triumph:advancements/beneath/killedidolofradiance")
-hiddenIf("triumph:advancements/progression/end/killedVoidwrackAscendant")
+hiddenIf("triumph:advancements/progression/wither/killedGhastQueen")
 drawDirectLines()
-setPos(365,-40)
+setPos(552,13)

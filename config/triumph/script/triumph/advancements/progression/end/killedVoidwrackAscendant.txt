@@ -1,6 +1,6 @@
 setIcon(<minecraft:dirt>)
 setTitle("Voidwracked Ascendant")
-setDescription("Kill The Harvester.")
+setDescription("PLACEHOLDER")
 
 addParent("triumph:advancements/progression/end/enterEnd")
 
@@ -14,6 +14,6 @@ setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-hiddenUnless("triumph:advancements/progression/end/killedVoidwrackAscendant")
+setHidden(true)
 drawDirectLines()
 setPos(365,-40)

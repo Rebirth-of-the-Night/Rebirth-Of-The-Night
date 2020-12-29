@@ -2,7 +2,7 @@ setIcon(<minecraft:skull, meta:1, count:1>)
 setTitle("Soul Catch And Release")
 setDescription("Slay The Wither and set the lost souls free.")
 
-addParent("triumph:advancements/progression/end/killedenddragon")
+addParent("triumph:advancements/progression/end/killedEndDragon")
 
 addRewardFunction("triumph:killWither")
 
@@ -16,6 +16,6 @@ setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-hiddenUnless("triumph:advancements/progression/beneath/killedidolofradiance")
+setHidden(true)
 drawDirectLines()
 setPos(485,0)
