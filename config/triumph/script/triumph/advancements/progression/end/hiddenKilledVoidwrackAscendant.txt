@@ -5,8 +5,8 @@ setDescription("")
 addParent("triumph:advancements/progression/end/enterEnd")
 
 
-criteria = addCriteria("Voidwracked Ascendant", "minecraft:player_killed_entity")
-criteria.setEntityType("minecraft:dirt")
+criteria = addCriteria("impossible", "minecraft:impossible")
+
 
 setUncompletedIconColor(150,150,150)
 setUncompletedTitleColor(110,110,110)

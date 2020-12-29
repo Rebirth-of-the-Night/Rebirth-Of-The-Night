@@ -5,8 +5,8 @@ setDescription("Slay the Twilight Forest Boss Ensemble.")
 addParent("triumph:advancements/progression/twilight/enterTwilight")
 
 
-criteria = addCriteria("Boss Ensemble", "minecraft:player_killed_entity")
-criteria.setEntityType("minecraft:dirt")
+criteria = addCriteria("impossible", "minecraft:impossible")
+
 
 
 setShowToast(true)
