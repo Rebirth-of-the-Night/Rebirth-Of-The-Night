@@ -1,4 +1,4 @@
-setIcon(<pyrotech:tank>)
+setIcon(<pyrotech:stone_tank>)
 setTitle("Stone Tank")
 setDescription("Craft a stone tank.")
 
@@ -12,7 +12,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 criteria = addCriteria("Craft Stone Tank", "minecraft:inventory_changed")
-criteria.addItem("pyrotech:tank")
+criteria.addItem("pyrotech:stone_tank")
 
 // hideLines()
 // setHidden(true)
