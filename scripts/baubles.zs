@@ -197,6 +197,8 @@ val inertRing = itemUtils.getItemsByRegexRegistryName("behgameon:ring_.*$(?<!53|
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <quark:arrow_ender>, <bountifulbaubles:potionwormhole>);
+recipes.addShapeless("Wormhole to Return", <bountifulbaubles:potionrecall>,
+   	[<bountifulbaubles:potionwormhole>, <contenttweaker:material_part:8>]);
 
 // Rings, amulets, oh my
 
