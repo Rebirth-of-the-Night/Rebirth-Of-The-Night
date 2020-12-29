@@ -4,12 +4,6 @@ setDescription("Enter The Aether.")
 
 addParent("triumph:advancements/progression/nether/enterNether")
 
-// <--- These are hidden advancements that do nothing. This is for the connecting lines ---> 
-addParent("triumph:advancements/progression/hidden/aether/killedSlider")
-addParent("triumph:advancements/progression/hidden/aether/killedValkyrieQueen")
-addParent("triumph:advancements/progression/hidden/aether/killedSunSpirit")
-// <--- --->
-
 addRewardFunction("triumph:enteredAether")
 
 criteria = addCriteria("entered_aether", "triumph:changed_dimension")
