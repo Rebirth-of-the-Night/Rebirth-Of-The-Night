@@ -14,7 +14,6 @@ mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_gold>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_steel>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_mithril>);
 
-
 mods.jei.JEI.removeAndHide(<dungeontactics:wooden_club>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_club>);
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_club>);
@@ -62,6 +61,7 @@ mods.jei.JEI.removeAndHide(<dungeontactics:osmium_dust>);
 mods.jei.JEI.removeAndHide(<dungeontactics:alchemical_cauldron>);
 
 
+recipes.removeByRecipeName("dungeontactics:misc/materials/gunpowder");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_left");
 mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);

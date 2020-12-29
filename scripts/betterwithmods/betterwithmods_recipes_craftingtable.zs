@@ -67,7 +67,7 @@ recipes.addShaped("blocks/redstone/hibachi", <betterwithmods:hibachi>,
 //Dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
 
-recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>, 
+recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>*64, 
 [<ore:paper>, <ore:paper>, <ore:paper>, 
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
 
