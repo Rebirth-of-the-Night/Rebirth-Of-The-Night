@@ -59,5 +59,7 @@ Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<hitwithaxe
 Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*4,<minecraft:redstone>,<pyrotech:rock:7>*2]);
 
-Saw.remove(MiniBlocks.getMiniBlock("corner", <ore:plankWood>));
-Saw.add(MiniBlocks.getMiniBlock("corner", <ore:plankWood>),[<pyrotech:rock:7>*2,<minecraft:stick>.weight(0.4)]);
+for corner in MiniBlocks.getMiniBlock("corner", <ore:plankWood>) {
+    Saw.remove(corner);
+}
+Saw.add(MiniBlocks.getMiniBlock("corner", <ore:plankWood>),[<pyrotech:rock:7>*2,<minecraft:stick>]);
