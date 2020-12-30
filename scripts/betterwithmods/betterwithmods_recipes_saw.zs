@@ -60,6 +60,8 @@ Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<hitwithaxe
 Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*4,<minecraft:redstone>,<pyrotech:rock:7>*2]);
 
 for corner in MiniBlocks.getMiniBlock("corner", <ore:plankWood>).items {
-    Saw.remove(corner);
+    if (!corner.matches(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}))) {
+        Saw.remove(corner);
+    }
 }
 Saw.add(MiniBlocks.getMiniBlock("corner", <ore:plankWood>),[<pyrotech:rock:7>*2,<minecraft:stick>]);
