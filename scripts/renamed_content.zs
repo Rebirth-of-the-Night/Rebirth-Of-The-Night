@@ -616,9 +616,13 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 #Epic
 
 <nyx:meteor_hammer>.displayName = "§5Cataclysm";
+<nyx:meteor_hammer>.addTooltip(format.darkPurple("Epic Weapon"));
 <nyx:scythe>.displayName = "§5Celeste";
+<nyx:scythe>.addTooltip(format.darkPurple("Epic Weapon"));
 <nyx:meteor_sword>.displayName = "§5Sanguine";
+<nyx:meteor_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 <nyx:meteor_bow>.displayName = "§5Meteorite-Reinforced Bow";
+<nyx:meteor_bow>.addTooltip(format.darkPurple("Epic Weapon"));
 
 
 <nyx:meteor_shard>.displayName = "§5Meteor Shard";
