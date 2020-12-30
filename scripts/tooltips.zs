@@ -16,8 +16,11 @@
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
 <betterwithmods:material:12>.addShiftTooltip('Can be consumed, but if it had a label, it would read "DO NOT CONSUME."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:hibachi>.addTooltip("Powered by redstone");
 
 <golems:golem_head>.addTooltip("Used for summoning Golems");
+
+
 
 
 
