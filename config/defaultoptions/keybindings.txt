@@ -18,7 +18,7 @@ key_key.togglePerspective:63
 key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
-key_key.swapHands:33
+key_key.swapHands:0
 key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:0
 key_key.advancements:38

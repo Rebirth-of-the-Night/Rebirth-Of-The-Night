@@ -36,8 +36,10 @@
 <nyx:meteor_hammer>.addTooltip("Hold right-click then let go while looking towards the sky to leap");
 <nyx:meteor_hammer>.addTooltip("Creatures near the impact zone takes damage");
 <nyx:meteor_sword>.addTooltip("Stuns creatures when hit by a critical hit");
-<nyx:meteor_sword>.addTooltip("Has slightly slower attack speed than other arming swords");
 <nyx:crystal>.addTooltip("Passively boosts crop growth when placed near crops");
+<nyx:meteor_bow>.addTooltip("x1.75 arrow damage");
+<nyx:meteor_bow>.addTooltip("x1.3 arrow speed");
+<nyx:meteor_bow>.addTooltip("Slightly slower draw speed");
 
 mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
 

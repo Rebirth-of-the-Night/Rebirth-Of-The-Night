@@ -615,11 +615,14 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 #Epic
 
+<nyx:meteor_hammer>.displayName = "§5Cataclysm";
+<nyx:scythe>.displayName = "§5Celeste";
+<nyx:meteor_sword>.displayName = "§5Sanguine";
+<nyx:meteor_bow>.displayName = "§5Meteorite-Reinforced Bow";
 
 
-
+<nyx:meteor_shard>.displayName = "§5Meteor Shard";
 <nyx:fallen_star>.displayName = "§5Fallen Star";
-<nyx:fallen_star>.addTooltip("Crafting Material");
 
 <endreborn:tool_magnifier>.displayName = "§5Magnitifus";
 <endreborn:tool_magnifier>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -682,8 +685,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 #Legendary
 
-<nyx:meteor_shard>.displayName = "§6Meteor Shard";
-<nyx:meteor_shard>.addTooltip("Crafting Material");
+
 
 
 
