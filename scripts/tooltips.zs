@@ -193,8 +193,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
-<mowziesmobs:wrought_axe>.removeTooltip("Never breaks");
-<mowziesmobs:wrought_axe>.addTooltip("Only damaged by dying");
+<mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
+<mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
 
 <minecraft:enchanting_table>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");

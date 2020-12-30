@@ -673,8 +673,8 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <iceandfire:dragonbone_sword>.displayName = "§5Dragonbone Sword";
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
-<mowziesmobs:wrought_axe>.addTooltip(format.darkPurple("Epic Weapon"));
+<mowziesmobs:wrought_axe:*>.displayName = "§5Wrought Axe";
+<mowziesmobs:wrought_axe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
 <mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
