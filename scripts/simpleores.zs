@@ -64,11 +64,11 @@ recipes.addShaped("tin_door",doorTin*3, [
 [ingotTin,ingotTin],
 [ingotTin,ingotTin]]);
 // Copper Blocks
-var blockCoppA = <caves_and_cliffs:copper_block>;
-var blockCoppB = <caves_and_cliffs:copper_block_stage_1>;
-var blockCoppC = <caves_and_cliffs:copper_block_stage_2>;
-var blockCoppD = <caves_and_cliffs:copper_block_stage_2>;
-var stairsCoppA = <caves_and_cliffs:copper_stairs>;
+var blockCoppA = <rotn_blocks:copper_block>;
+var blockCoppB = <rotn_blocks:slightly_weathered_copper_block>;
+var blockCoppC = <rotn_blocks:semi_wheatered_copper_block>;
+var blockCoppD = <rotn_blocks:weathered_copper_block>;
+/*var stairsCoppA = <caves_and_cliffs:copper_stairs>;
 var stairsCoppB = <caves_and_cliffs:copper_stairs_stage_1>;
 var stairsCoppC = <caves_and_cliffs:copper_stairs_stage_2>;
 var stairsCoppD = <caves_and_cliffs:copper_stairs_stage_3>;
@@ -117,6 +117,7 @@ recipes.addShaped("slabCoppD",slabCoppD*6, [
 [blockCoppD,blockCoppD,blockCoppD]]);
 recipes.addShapeless("slabCoppD_to_block",blockCoppD, [
 slabCoppD,slabCoppD]);
+*/
 
 //info
 
