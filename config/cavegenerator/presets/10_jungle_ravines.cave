@@ -9,17 +9,8 @@
 {
   blankSlate: false
   biomes: {
-      names: [
-		minecraft:smaller_extreme_hills
-		minecraft:jungle
-		minecraft:jungle_hills
-		minecraft:jungle_edge
-		minecraft:mutated_jungle
-		minecraft:mutated_jungle_edge
-		biomesoplenty:eucalyptus_forest
-		biomesoplenty:tropical_rainforest
-		biomesoplenty:rainforest
-		biomesoplenty:overgrown_cliffs
+      types: [
+		JUNGLE
   	  ]
   }
   replaceableBlocks: [ 
@@ -53,24 +44,25 @@
 	undergroundbiomes:sedimentary_sandstone:2
 	undergroundbiomes:sedimentary_sand:6
 	undergroundbiomes:sedimentary_sandstone:6
+	biomesoplenty:grass
 	biomesoplenty:hard_ice
 	iceandfire:chared_stone
 	defiledlands:stone_defiled
-	]
-  replaceDecorators: true
+  ]
+  replaceDecorators: false
   ravines: {
      # Increase ravine frequency.
     chance: 0.1
-    minHeight: 20
-    maxHeight: 38
-    distance: 110
+    minHeight: 10
+    maxHeight: 12
+    distance: 90
     twistXZ: { randFactor: 6 }
-    scaleY: { startVal: 4 }
+    scaleY: { startVal: 2 }
     angleXZ: { startValRandFactor: 1.5 }
-    angleY: { startValRandFactor: 0.75 }
+    angleY: { startValRandFactor: 1.11 }
     scale: {
       startVal: 2
-      startValRandFactor: 4
+      startValRandFactor: 2
     }
     noiseYFactor: 0.9
      # Use a noise generator to handle wall shape.
@@ -78,11 +70,8 @@
       noise2D: {
         frequency: 0.05
         minVal: 0
-        maxVal: 6
+        maxVal: 7
       }
     }
   }
-  caveBlocks: [
-    { states: "lava", maxHeight: 15 }
-  ]
 }

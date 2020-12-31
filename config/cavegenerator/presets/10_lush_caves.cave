@@ -26,8 +26,8 @@
   wallDecorators: [
      # Moss walls and surfaces.
     {
-      states: caves_and_cliffs:moss
-	  chance: 0.65
+      states: rotn_blocks:cave_moss
+	  chance: 0.55
       minHeight: 16
 	  maxHeight: 64
       matchers: [ 

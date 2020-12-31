@@ -1,5 +1,7 @@
 {
-  blankSlate: false
+  minHeight: 20
+  maxHeight: 58
+  blankSlate: true
   replaceDecorators: true
   caverns: {
 	enabled: true
@@ -20,6 +22,13 @@
   }
   rooms: {
     scale: 7
-    scaleY: 0.6
+    scaleY: 0.8
   }
+  caveBlocks: [
+     # Simulates vanilla lava placement
+    {
+      states: minecraft:lava
+      maxHeight: 13
+    }
+  ]
 }

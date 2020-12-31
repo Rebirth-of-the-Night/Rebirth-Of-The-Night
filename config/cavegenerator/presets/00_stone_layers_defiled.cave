@@ -22,7 +22,7 @@
         }
     }
 	{
-      state: caves_and_cliffs:sculk_block
+      state: rotn_blocks:scuttling_block
       maxHeight: 255
 	  noise2D: {
          scale: 0.9

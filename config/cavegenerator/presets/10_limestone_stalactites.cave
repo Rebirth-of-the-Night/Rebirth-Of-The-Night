@@ -1,0 +1,58 @@
+{
+  blankSlate: false
+  structures: [
+     # Stalactites
+	{
+      name: stalactite1
+      offset: [ 0, -3, 0 ] # Structures are 3 blocks tall
+      matchers: [ 
+		"stone"
+		"undergroundbiomes:sedimentary_stone:0"
+	  ]
+      airMatchers: [
+        [ 0, -1, 0 ] # Require air 2 blocks below the source.
+      ]
+      directions: up
+      chance: 0.2
+    }
+	{
+      name: stalactite2
+      offset: [ 0, -3, 0 ] # Structures are 3 blocks tall
+      matchers: [ 
+		"stone"
+		"undergroundbiomes:sedimentary_stone:0"
+	  ]
+      airMatchers: [
+        [ 0, -1, 0 ] # Require air 2 blocks below the source.
+      ]
+      directions: up
+      chance: 0.2
+    }
+    {
+      name: stalactite3
+      offset: [ 0, -3, 0 ] # Structures are 3 blocks tall
+      matchers: [ 
+		"stone"
+		"undergroundbiomes:sedimentary_stone:0"
+	  ]
+      airMatchers: [
+        [ 0, -1, 0 ] # Require air 2 blocks below the source.
+      ]
+      directions: up
+      chance: 0.2
+    }
+	{
+      name: stalactite4
+      offset: [ 0, -4, 0 ] # Structures are 4 blocks tall
+      matchers: [ 
+		"stone"
+		"undergroundbiomes:sedimentary_stone:0"
+	  ]
+      airMatchers: [
+        [ 0, -1, 0 ] # Require air 1 blocks below the source.
+      ]
+      directions: up
+      chance: 0.2
+    }
+  ]
+}

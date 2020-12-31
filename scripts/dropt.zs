@@ -256,7 +256,7 @@ Dropt.list("sludge")
 Dropt.list("non-resource_drops")
 
   .add(Dropt.rule()
-      .matchBlocks(["caves_and_cliffs:stalactite","contenttweaker:dolomite_straws"])
+      .matchBlocks(["contenttweaker:dolomite_straws","rotn_blocks:verribyne_0","rotn_blocks:verribyne_1"])
       .addDrop(Dropt.drop())
   );
 
@@ -507,7 +507,7 @@ Dropt.list("desert_varnish")
 Dropt.list("wonder_geode")
 
   .add(Dropt.rule()
-      .matchBlocks(["caves_and_cliffs:copper_ore"])
+      .matchBlocks(["rotn_blocks:wonder_geode"])
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(60))
 		  .items([<minecraft:gold_nugget>])

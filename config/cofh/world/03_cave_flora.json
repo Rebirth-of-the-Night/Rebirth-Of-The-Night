@@ -10,7 +10,7 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "cluster",
-				"block": "caves_and_cliffs:moss",
+				"block": "rotn_blocks:cave_moss",
 				"material": [
 					"grass",
 					"leaves",
@@ -57,13 +57,13 @@
 				"material": [
 					"air",
 					"tallgrass",
-					"caves_and_cliffs:moss"
+					"rotn_blocks:cave_moss"
 				],
 				"surface": [
 					"grass",
 					"mossy_cobblestone",
 					"dirt",
-					"caves_and_cliffs:moss",
+					"rotn_blocks:cave_moss",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
@@ -104,14 +104,14 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "decoration",
-				"block": "caves_and_cliffs:moss",
+				"block": "rotn_blocks:cave_moss",
 				"surface": [
 					"grass",
 					"leaves",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone",
-					"caves_and_cliffs:moss"
+					"rotn_blocks:cave_moss"
 					]
 				"material": "air",
 				"cluster-size": 2,
@@ -160,7 +160,7 @@
 					}
 				],
 				"surface": [
-					"caves_and_cliffs:moss",
+					"rotn_blocks:cave_moss",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
@@ -202,11 +202,12 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "stalactite",
-				"block": "caves_and_cliffs:glow_berry_vines",
+				"block": "rotn_blocks:verribyne_0",
 				"material": [
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
-					"undergroundbiomes:igneous_stone"
+					"undergroundbiomes:igneous_stone",
+					"rotn_blocks:cave_moss"
 				],
 				"gen-body": [
 					{ 
@@ -217,7 +218,7 @@
 				"fat": false,
 				"min-height": 3,
 				"height-variance": 2,
-				"height-mod": 2,
+				"height-mod": 1,
 				"gen-size": 1,
 				"size-variance": 0
 			},
@@ -259,7 +260,8 @@
 				"material": [
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
-					"undergroundbiomes:igneous_stone"
+					"undergroundbiomes:igneous_stone",
+					"rotn_blocks:cave_moss"
 				],
 				"gen-body": [
 					{ 
@@ -319,10 +321,19 @@
 					{
 						"name": "contenttweaker:cave_grass",
 						"weight": 100
-					}
+					},
+					{
+						"name": "contenttweaker:cave_bramble",
+						"weight": 60
+					},
+					{
+						"name": "contenttweaker:cave_grass",
+						"weight": 100
+					},
+					
 				],
 				"surface": [
-					"caves_and_cliffs:moss",
+					"rotn_blocks:cave_moss",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
@@ -331,7 +342,7 @@
 				"cluster-size": 32,
 				"see-sky": false
 				},
-			"cluster-count": 4,
+			"cluster-count": 5,
 			"ground-level": 60,
 			"chunk-chance": 2,
 			"retrogen": "true",
