@@ -24,13 +24,10 @@ recipe: {
 }
 gen: [
   {
-	height : [1, 80]
+	height : [35, 80]
 	size: 5
-	count: 12 
-	chance: 0.4
-	biomes: {
-		names: ["biomesoplenty:tropical_island","biomesoplenty:flower_island","minecraft:mushroom_island","biomesoplenty:land_of_lakes"]
-	}
+	count: 7 
+	chance: 0.8
   },
   {
 	height : [20, 150]
