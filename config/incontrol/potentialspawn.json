@@ -110,7 +110,7 @@
   },
   
   {
-    "dimension": [0, 7],
+    "dimension": 0,
     "mobs": [
       {
         "mob": "primitivemobs:goblin",
