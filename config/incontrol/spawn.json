@@ -297,13 +297,6 @@
     "onjoin": true,
     "result": "deny"
  },
-// no MCreator axolotl
- {
-    "mob": "caves_and_cliffs:axolotl",
-    "dimension": 0,
-    "onjoin": true,
-    "result": "deny"
- },
 // no weird fugitives
  {
     "mob": "toroquest:toroquest_fugitive",
