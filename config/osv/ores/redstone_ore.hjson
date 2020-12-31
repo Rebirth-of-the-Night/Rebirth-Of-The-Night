@@ -8,7 +8,7 @@ block: {
 loot: [
   {
     item: redstone
-    count: [ 4, 5 ]
+    count: [ 3, 4 ]
     xp: [ 1, 5 ]
     chance: 1
   }
@@ -26,12 +26,12 @@ gen: [
   {
     height: [ 0, 32 ]
     size: 8
-    count: 8
+    count: 6
   }
   {
     height: [ 0, 32 ]
     size: 9
-    count: 12
+    count: 9
 	chance: 0.6
     biomes: {
 		names: ["minecraft:mesa","minecraft:mesa_clear_rock","minecraft:mesa_rock"]
@@ -40,14 +40,14 @@ gen: [
   {
 	height : [130, 255]
 	size: 11
-	count: 6 
+	count: 5 
 	chance: 0.8
 	dimensions: [10]
   }
   {
 	height : [120, 130]
 	size: 11
-	count: 9
+	count: 7
 	chance: 0.8
 	dimensions: [10]
   }
