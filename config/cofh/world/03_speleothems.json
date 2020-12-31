@@ -61,35 +61,6 @@
 			"ground-level":120,
 			"ceiling": true, 
 			"retrogen": false
-		},
-		"limestone_stalactites": {
-			"distribution": "cave",
-			"generator": {
-				"type": "stalactite",
-				"block": "caves_and_cliffs:stalactite",
-				"material": {
-					"name": "undergroundbiomes:sedimentary_stone",
-					"properties": {
-						"type" : "limestone"
-						}
-					}
-				"gen-body": [
-					{ 
-						"name": "minecraft:air"
-					}
-				],
-				"smooth": false,
-				"fat": false,
-				"min-height": 1,
-				"height-variance": 1,
-				"gen-size": 3,
-				"size-variance": 1
-			},
-			"cluster-count": 6,
-			"chunk-chance": 9,
-			"ground-level":80,
-			"ceiling": true, 
-			"retrogen": false
 		}
 	}
 }
