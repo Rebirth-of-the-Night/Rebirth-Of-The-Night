@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_healing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "entryName": "minecraft:splash_potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_healing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "minecraft:experience_bottle",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "entryName": "minecraft:lingering_potion",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_healing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "artifacts:add_random_effect"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 24.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        }
+      ],
+      "rolls": {
+        "min": 6.0,
+        "max": 12.0
+      }
+    }
+  ]
+}

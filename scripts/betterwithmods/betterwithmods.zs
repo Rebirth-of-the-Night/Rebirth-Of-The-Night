@@ -74,7 +74,6 @@ furnace.remove(<betterwithmods:cooking_pot>);
 recipes.remove(<betterwithmods:donut>);
 mods.jei.JEI.removeAndHide(<betterwithmods:donut>);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:donut>]);
-mods.betterwithmods.Cauldron.remove([<minecraft:leather>]);
 
 mods.jei.JEI.removeAndHide(<betterwithmods:dirt_pile>);
 mods.jei.JEI.removeAndHide(<betterwithmods:gravel_pile>);
@@ -225,10 +224,10 @@ furnace.remove(<minecraft:stone:5>);
 
 // better mining charge
 recipes.remove(<betterwithmods:mining_charge>);
-recipes.addShaped("betterminingcharge",<betterwithmods:mining_charge>*64,[
-    [<betterwithmods:rope>,<ore:slimeball>,<betterwithmods:rope>],
-    [<betterwithmods:dynamite>,<betterwithmods:dynamite>,<betterwithmods:dynamite>],
-    [<betterwithmods:dynamite>,<betterwithmods:dynamite>,<betterwithmods:dynamite>]
+recipes.addShaped("betterminingcharge",<betterwithmods:mining_charge>*4,[
+    [null,<betterwithmods:rope>,<ore:slimeball>],
+    [null,<betterwithmods:dynamite_bundle>,null],
+    [null,<betterwithmods:dynamite_bundle>,null]
 ]);
 
 //Descriptions

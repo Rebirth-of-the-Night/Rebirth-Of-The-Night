@@ -1,10 +1,5 @@
 [
  {
-    "dimension": 7,
-    "damagemultiply": 2
- },
-
- {
     "mob": "aether_legacy:sentry",
     "onjoin": true,
     "healthmultiply": 0.9
@@ -301,12 +296,6 @@
     "dimension": [0, 1, 4],
     "onjoin": true,
     "result": "deny"
- },
-// no slime
- {
-    "mob": ["betterslimes:black_slime","betterslimes:iron_slime","betterslimes:blue_slime","betterslimes:red_slime","betterslimes:purple_slime","betterslimes:yellow_slime","betterslimes:jungle_slime","betterslimes:ice_slime","betterslimes:sand_slime","betterslimes:spectral_slime","betterslimes:haunted_slime","betterslimes:gold_slime","betterslimes:knight_slime"],
-    "result": "deny",
-    "onjoin": true
  },
 // no MCreator axolotl
  {

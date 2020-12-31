@@ -16,6 +16,6 @@ setAnnounceToChat(true)
 setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
-hiddenUnless("triumph:advancements/progression/beneath/killedidolofradiance")
+setHidden(true)
 drawDirectLines()
 setPos(425,0)

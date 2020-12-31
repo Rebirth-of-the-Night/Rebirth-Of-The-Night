@@ -8,7 +8,6 @@ addParent("triumph:advancements/progression/wither/killedwither")
 criteria = addCriteria("Onyx Ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreOnyx>)
 
-
-hiddenUnless("triumph:advancements/progression/beneath/killedidolofradiance")
+alwaysVisible()
 drawDirectLines()
 setPos(515,-30)

@@ -615,11 +615,18 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 #Epic
 
+<nyx:meteor_hammer>.displayName = "§5Cataclysm";
+<nyx:meteor_hammer>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:scythe>.displayName = "§5Celeste";
+<nyx:scythe>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:meteor_sword>.displayName = "§5Sanguine";
+<nyx:meteor_sword>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:meteor_bow>.displayName = "§5Meteorite-Reinforced Bow";
+<nyx:meteor_bow>.addTooltip(format.darkPurple("Epic Weapon"));
 
 
-
+<nyx:meteor_shard>.displayName = "§5Meteor Shard";
 <nyx:fallen_star>.displayName = "§5Fallen Star";
-<nyx:fallen_star>.addTooltip("Crafting Material");
 
 <endreborn:tool_magnifier>.displayName = "§5Magnitifus";
 <endreborn:tool_magnifier>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -666,8 +673,8 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <iceandfire:dragonbone_sword>.displayName = "§5Dragonbone Sword";
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
-<mowziesmobs:wrought_axe>.addTooltip(format.darkPurple("Epic Weapon"));
+<mowziesmobs:wrought_axe:*>.displayName = "§5Wrought Axe";
+<mowziesmobs:wrought_axe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
 <mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
@@ -682,8 +689,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 #Legendary
 
-<nyx:meteor_shard>.displayName = "§6Meteor Shard";
-<nyx:meteor_shard>.addTooltip("Crafting Material");
+
 
 
 

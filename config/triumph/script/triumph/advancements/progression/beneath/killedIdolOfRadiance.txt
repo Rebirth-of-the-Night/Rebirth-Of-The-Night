@@ -4,8 +4,8 @@ setDescription("Kill the Idol of Radiance.")
 
 addParent("triumph:advancements/progression/beneath/enterBeneath")
 
-criteria = addCriteria("Idol of Radiance", "minecraft:player_killed_entity")
-criteria.setEntityType("rats:black_death")
+criteria = addCriteria("impossible", "minecraft:impossible")
+
 
 setShowToast(true)
 setAnnounceToChat(true)
@@ -13,6 +13,6 @@ setFrameType("CHALLENGE")
 setUncompletedIconColor(255,71,71)
 
 
-hiddenUnless("triumph:advancements/progression/beneath/enterBeneath")
+setHidden(true)
 drawDirectLines()
 setPos(305,0)

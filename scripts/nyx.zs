@@ -36,3 +36,22 @@ nyx:lunar_water_bottle
 
 
 recipes.remove(<nyx:star_block>);
+
+
+recipes.remove(<nyx:meteor_hammer>);
+mods.betterwithmods.Anvil.addShaped(<nyx:meteor_hammer>,
+[
+   [<nyx:meteor_block>, <nyx:meteor_block>, null, null],
+   [<nyx:meteor_block>, <nyx:meteor_block>, <minecraft:blaze_rod>, <minecraft:blaze_rod>],
+   [<nyx:meteor_block>, <nyx:meteor_block>, <minecraft:blaze_rod>, <minecraft:blaze_rod>],
+   [<nyx:meteor_block>, <nyx:meteor_block>, null, null]
+]);
+
+recipes.remove(<nyx:scythe>);
+mods.betterwithmods.Anvil.addShaped(<nyx:scythe>,
+[
+   [null, <nyx:crystal>, null, null],
+   [<nyx:crystal>, null, null, null],
+   [<nyx:meteor_ingot>, null, <nyx:meteor_ingot>, <spartanfire:witherbone_handle>],
+   [<nyx:crystal>, <nyx:meteor_ingot>, null, null]
+]);

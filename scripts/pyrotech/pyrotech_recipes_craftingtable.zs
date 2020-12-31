@@ -184,10 +184,14 @@ recipes.addShaped("pyro_stone_tank", <pyrotech:stone_tank>,
  [[<pyrotech:material:16>,<minecraft:glass>,<pyrotech:material:16>],
   [<minecraft:glass>,<ore:slimeball>,<minecraft:glass>],
   [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]]);
+recipes.addShapeless("pyro_stone_tank_clean", <pyrotech:stone_tank>,
+ [<pyrotech:stone_tank>]);
 recipes.addShaped("pyro_refractory_tank", <pyrotech:brick_tank>,
  [[<pyrotech:material:5>,hotglass,<pyrotech:material:5>],
   [hotglass,<ore:slimeball>,hotglass],
   [<pyrotech:material:5>,hotglass,<pyrotech:material:5>]]);
+recipes.addShapeless("pyro_refractory_tank_clean", <pyrotech:brick_tank>,
+ [<pyrotech:brick_tank>]);
 recipes.addShaped("pyro_refractory_glass", <pyrotech:refractory_glass>*8 ,
  [[hotglass,hotglass,hotglass],
   [hotglass,<pyrotech:material:5>,hotglass],

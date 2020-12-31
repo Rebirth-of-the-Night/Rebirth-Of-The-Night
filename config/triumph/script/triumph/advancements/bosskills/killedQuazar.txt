@@ -6,7 +6,7 @@ addParent("triumph:advancements/bosskills/root")
 
 
 criteria = addCriteria("Quazar", "minecraft:player_killed_entity")
-criteria.setEntityType("betterslimes:king_slime")
+criteria.setEntityType("betterslimes:quazar")
 
 setShowToast(false)
 setAnnounceToChat(false)

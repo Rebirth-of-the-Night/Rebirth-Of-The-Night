@@ -8,7 +8,7 @@ recipes.removeByRecipeName("primitivemobs:camouflage_leggings_toggle");
 
 //Wonderful Glue Recipes
 recipes.addShapeless("sap_drool_2", <ore:glue>.firstItem,[<primitivemobs:wonder_sap>,<doggytalents:throw_stick_wet>]);
-recipes.addShapeless("sap_mysterious_stew", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<futuremc:suspicious_stew>]);
+recipes.addShapeless("sap_mysterious_stew", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<futuremc:suspicious_stew>.transformReplace(<minecraft:bowl>)]);
 recipes.addShapeless("sap_biochar", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<doggytalents:throw_bone_wet>]);
 recipes.addShapeless("sap_honey_low", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<forge:bucketfilled>.withTag({FluidName: "honey", Amount: 1000})]);
 recipes.addShapeless("sap_sludge_low", <ore:glue>.firstItem*2,[<primitivemobs:wonder_sap>,<mod_lavacow:silky_sludge>]);
