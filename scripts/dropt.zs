@@ -354,6 +354,20 @@ Dropt.list("cave_grass")
       )
   );
 
+Dropt.list("nether_grass")
+
+  .add(Dropt.rule()
+      .matchBlocks(["betternether:nether_grass"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180))
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+          .items([<pyrotech:material:13>])
+      )
+  );
+
 Dropt.list("plants_basic")
 
   .add(Dropt.rule()
@@ -378,12 +392,12 @@ Dropt.list("plants_basic_dry")
           .selector(Dropt.weight(180)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(30))
-          .items([<pyrotech:material:12>])
+          .selector(Dropt.weight(25))
+          .items([<pyrotech:material:13>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20))
-          .items([<pyrotech:material:13>])
+          .selector(Dropt.weight(5))
+          .items([<pyrotech:material:11>])
       )
   );
   
