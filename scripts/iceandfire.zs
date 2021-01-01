@@ -26,7 +26,7 @@ recipes.remove(<iceandfire:tide_trident>);
 recipes.addShaped("tide_trident",<iceandfire:tide_trident>,[
   [<iceandfire:sea_serpent_fang>,<iceandfire:sea_serpent_fang>,<iceandfire:sea_serpent_fang>],
   [<ore:seaSerpentScale>,<ore:ingotableGem>,<ore:seaSerpentScale>],
-  [null,<iceandfire:dragonbone>,null]
+  [null,<iceandfire:witherbone>,null]
 ]);
 
 recipes.removeByRecipeName("iceandfire:summoning_crystal_fire");
