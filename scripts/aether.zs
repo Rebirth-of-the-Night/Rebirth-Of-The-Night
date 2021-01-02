@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_pickaxe>);
@@ -31,12 +32,18 @@ mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_feather");
 mods.jei.JEI.removeAndHide(<aether_legacy:swetty_ball>);
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:swetty_ball");
 
-mods.jei.JEI.removeAndHide(<aether_legacy:aetherium_core>);
-recipes.addShaped("aetherium core", <aether_legacy:aetherium_core>,[
-	[<aether_legacy:golden_amber>, <betterslimes:yellow_slime>, null],
-    [<aether_legacy:zanite_gemstone>, null, null],
-    [null, null, null]
-]);
+recipes.remove(<aether_legacy:aetherium_core>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <aether_legacy:golden_amber>, <contenttweaker:vis_sliver>],
+    [<aether_legacy:golden_amber>, <aether_legacy:zanite_gemstone>, <aether_legacy:golden_amber>],
+    [<contenttweaker:vis_sliver>, <aether_legacy:golden_amber>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addTool(<contenttweaker:air_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<aether_legacy:aetherium_core>)
+  .create();
 
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_chestplate>);
 mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_helmet>);

@@ -5,6 +5,10 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 
+// Magicked Lens
+val magicked_lens = mods.contenttweaker.VanillaFactory.createItem("magicked_lens");
+magicked_lens.register();
+
 // Add new tab for all-things-magic
 val dunamisTab = VanillaFactory.createCreativeTab("Dunamis", <item:contenttweaker:blank_rune>);
 dunamisTab.register();

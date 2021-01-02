@@ -16,7 +16,20 @@
    },
 
 
-      
+   {
+      "mob": ["specialmobs:witchspider", "specialmobs:witchcavespider"],
+      "player": true,
+      "item": "quark:witch_hat",
+      "itemcount": "1",
+      "random": "0.02"
+   },
+   {
+      "mob": ["specialmobs:windwitch", "specialmobs:wildswitch", "specialmobs:undeadwitch", "specialmobs:shadowswitch", "specialmobs:dominationwitch"],
+      "player": true,
+      "item": "quark:witch_hat",
+      "itemcount": "1",
+      "random": "0.4"
+   },
 
    // Harvester
    {
