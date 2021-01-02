@@ -3,7 +3,7 @@ mod: iceandfire
 block: {
   location: iceandfire:silver_ore
   hardness: 3
-  level: 2
+  level: 1
 }
 loot: [
   {
