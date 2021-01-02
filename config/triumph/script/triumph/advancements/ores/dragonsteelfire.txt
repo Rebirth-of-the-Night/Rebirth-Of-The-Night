@@ -9,5 +9,5 @@ criteria.addItem("iceandfire:dragonsteel_fire_ingot")
 
 
 alwaysVisible()
-setFrameType("CHALLENGE")
-setPos(78,23)
+setPos(-86,83)
+hideLines()

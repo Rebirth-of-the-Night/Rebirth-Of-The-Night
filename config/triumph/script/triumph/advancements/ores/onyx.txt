@@ -8,7 +8,9 @@ addParent("triumph:advancements/ores/soulforgedsteel")
 criteria = addCriteria("Onyx Ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreOnyx>)
 
+setShowToast(false)
+setAnnounceToChat(false)
 
 alwaysVisible()
-setFrameType("CHALLENGE")
-setPos(40,47)
+setPos(-20,17)
+hideLines()

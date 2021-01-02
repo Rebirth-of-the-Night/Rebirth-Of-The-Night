@@ -10,7 +10,8 @@ criteria = addCriteria("impossible", "minecraft:impossible")
 setUncompletedIconColor(150,150,150)
 setUncompletedTitleColor(110,110,110)
 
-
+setShowToast(false)
+setAnnounceToChat(false)
 hiddenIf("triumph:advancements/progression/aether/enterAether")
 drawDirectLines()
 setPos(215,-90)

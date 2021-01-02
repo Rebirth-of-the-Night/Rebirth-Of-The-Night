@@ -10,4 +10,5 @@ criteria.addItem("dungeontactics:steel_ingot")
 
 setAnnounceToChat(false)
 alwaysVisible()
-setPos(-70,47)
+setPos(-86,17)
+hideLines()

@@ -7,5 +7,9 @@ addParent("triumph:advancements/ores/diamond")
 criteria = addCriteria("Viridium Ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreViridium>)
 
+setShowToast(false)
+setAnnounceToChat(false)
+
 alwaysVisible()
-setPos(2,-36)
+setPos(-20,-48)
+hideLines()

@@ -2,7 +2,7 @@
   "name": "{!}Boss Template{!}",
   "icon": "minecraft:skull",
   "category": "slayers_journal",
-  "advancement": "triumph:advancements/progression/WIP_ACHIEVEMENT",
+  "advancement": "triumph:advancements/progression/NA",
 
   "sortnum": 4,
   "pages": [

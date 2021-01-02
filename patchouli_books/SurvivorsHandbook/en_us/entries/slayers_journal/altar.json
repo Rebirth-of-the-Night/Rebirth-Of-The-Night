@@ -2,7 +2,7 @@
   "name": "Altar of Summoning",
   "icon": "from_the_depths:block_altar_of_summoning",
   "category": "slayers_journal_summoning",
-  "advancement": "triumph:advancements/progression/slayersjournal",
+  "advancement": "triumph:advancements/progression/killedHarvester",
 
   "pages": [
     {

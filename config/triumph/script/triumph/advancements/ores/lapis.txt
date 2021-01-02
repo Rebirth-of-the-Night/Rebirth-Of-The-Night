@@ -8,4 +8,5 @@ criteria = addCriteria("Lapis", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreLapis>)
 
 alwaysVisible()
-setPos(-135,-106)
+setPos(-119,-49)
+hideLines()

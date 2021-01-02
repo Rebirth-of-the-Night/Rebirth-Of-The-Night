@@ -1,0 +1,27 @@
+{
+  "name": "The Beneath",
+  "icon": "dimstack:portal",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+
+  "sortnum": 1,
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Breaking the Arcane Barrier",
+			"item": "contenttweaker:magic_bomb",
+			"text": "$(#734608)To break the Arcane Barrier, you must explode it with magic. A $(item)Magic Bomb$()$(#734608), created by breaking down a Volatile Core, is one way to explode the barrier.  $()"
+	},
+	{
+		"type": "text",
+		"text": "$(#734608)Be warned, breaking the Arcane Barrier will let out all the evil that has been trapped in there for centuries. $()"
+	  },
+	
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/arcana_volatile_core"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Slider",
+  "icon": "contenttweaker:slider_eye",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/aether/enterAether",
+
+  "sortnum": 3,
+  "pages": [
+{
+      "type": "text",
+      "text": "$(#734608)A $(thing)Slider$()$(#734608) is an arcane being known to only be damaged by a specific type of tool. It has the power to control gravity around it as well as cause its enemies to be confused. It's arcane energy is so powerful that, if refined, it may be enough to destroy the Arcane Barrier at the bottom of the world. $()."
+    },
+    {
+      "type": "relations",
+      "entries": [
+		    "slayers_journal/arcana_slider_eye"
+      ]
+    }
+  ]
+}

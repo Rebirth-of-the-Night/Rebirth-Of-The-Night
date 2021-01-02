@@ -2,7 +2,7 @@
   "name": "Quazar",
   "icon": "minecraft:magma",
   "category": "slayers_journal",
-  "advancement": "triumph:advancements/progression/slayersjournal",
+  "advancement": "triumph:advancements/progression/killedHarvester",
 
   "sortnum": 3,
   "pages": [

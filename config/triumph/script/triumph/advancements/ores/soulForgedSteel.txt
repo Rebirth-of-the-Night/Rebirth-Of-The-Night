@@ -9,5 +9,5 @@ criteria.addItem(<betterwithmods:material:14>)
 
 
 alwaysVisible()
-setFrameType("CHALLENGE")
-setPos(-16,47)
+setPos(-53,17)
+hideLines()

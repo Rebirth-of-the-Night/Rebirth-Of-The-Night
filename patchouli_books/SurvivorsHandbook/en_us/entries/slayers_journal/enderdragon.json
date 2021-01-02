@@ -2,7 +2,7 @@
   "name": "The Ender Dragon",
   "icon": "endreborn:dragon_scales",
   "category": "slayers_journal",
-  "advancement": "triumph:advancements/progression/WIP_ACHIEVEMENT",
+  "advancement": "triumph:advancements/progression/beneath/killedIdolOfRadiance",
 
   "sortnum": 3,
   "pages": [
