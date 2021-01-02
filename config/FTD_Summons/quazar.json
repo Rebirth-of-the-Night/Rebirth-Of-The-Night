@@ -3,7 +3,7 @@
   "key": "Quazar",
   "bossInfo": {
     "domain": "betterslimes",
-    "name": "king_slime",
+    "name": "quazar",
     "displayName": "Quazar",
     "maxHealth": 500,
     "attackDamage": 10.5,
