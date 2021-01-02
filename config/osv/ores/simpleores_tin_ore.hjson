@@ -3,7 +3,7 @@ mod: simpleores
 block: {
   location: simpleores:tin_ore
   hardness: 3
-  level: 1
+  level: 0
 }
 loot: [
   {
