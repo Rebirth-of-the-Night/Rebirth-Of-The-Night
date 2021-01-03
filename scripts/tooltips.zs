@@ -21,6 +21,7 @@
 <golems:golem_head>.addTooltip("Used for summoning Golems");
 
 
+<antiqueatlas:empty_antique_atlas>.addTooltip("Map");
 
 
 

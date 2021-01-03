@@ -87,6 +87,9 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
 
 // Guidebook
+<solcarrot:food_book>.addTooltip(format.aqua("Guidebook"));
+<solcarrot:food_book>.addTooltip("Max health improvement via food information");
+
 <animania:animania_manual>.displayName = "§bAnimania Manual";
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
