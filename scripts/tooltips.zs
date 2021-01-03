@@ -30,17 +30,20 @@
 
 #Nyx
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects");
-<nyx:scythe>.addTooltip("Destroys crops and plants in a 9x9x9 area");
-<nyx:scythe>.addTooltip("Has a chance to double, triple, or quadruple crop and plant drops");
+<nyx:scythe:*>.addTooltip("Destroys crops and plants in a 9x9x9 area");
+<nyx:scythe:*>.addTooltip("Has a chance to double, triple, or quadruple crop and plant drops");
 <nyx:meteor_finder>.addTooltip("Points to the closest meteor impact zone (if any)");
-<nyx:meteor_hammer>.addTooltip("Mines in a 3x3 area (disable by sneaking)");
-<nyx:meteor_hammer>.addTooltip("Hold right-click then let go while looking towards the sky to leap");
-<nyx:meteor_hammer>.addTooltip("Creatures near the impact zone takes damage");
-<nyx:meteor_sword>.addTooltip("Stuns creatures when hit by a critical hit");
-<nyx:crystal>.addTooltip("Passively boosts crop growth when placed near crops");
-<nyx:meteor_bow>.addTooltip("x1.75 arrow damage");
-<nyx:meteor_bow>.addTooltip("x1.3 arrow speed");
-<nyx:meteor_bow>.addTooltip("Slightly slower draw speed");
+<nyx:meteor_hammer:*>.addTooltip("Mines in a 3x3 area (disable by sneaking)");
+<nyx:meteor_hammer:*>.addTooltip("Hold right-click then let go while looking towards the sky to leap");
+<nyx:meteor_hammer:*>.addTooltip("Creatures near the impact zone takes damage");
+<nyx:meteor_sword:*>.addTooltip("Stuns creatures when hit by a critical hit");
+<nyx:crystal:*>.addTooltip("Passively boosts crop growth when placed near crops");
+<nyx:meteor_bow:*>.addTooltip("x1.75 arrow damage");
+<nyx:meteor_bow:*>.addTooltip("x1.3 arrow speed");
+<nyx:meteor_bow:*>.addTooltip("Slightly slower draw speed");
+<nyx:meteor_pickaxe:*>.addTooltip("Mines obsidian and meteoric rock much faster");
+<nyx:meteor_axe:*>.addTooltip("Deals extra damage to shields");
+
 
 mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
 
