@@ -2390,6 +2390,11 @@
     "mob": "mowziesmobs:naga",
     "result": "deny"
  },
+ {
+    "dimension": 0,
+    "mob": "mowziesmobs:naga",
+    "result": "deny"
+ },
  
  
  // Direwolves
