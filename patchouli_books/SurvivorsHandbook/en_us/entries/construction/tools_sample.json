@@ -2,6 +2,7 @@
   "name": "Tools of the Trade Entry",
   "icon": "minecraft:shears",
   "category": "construction_tools",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

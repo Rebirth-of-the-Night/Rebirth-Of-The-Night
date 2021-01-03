@@ -2,6 +2,7 @@
   "name": "Infusion Entry",
   "icon": "minecraft:soulsand",
   "category": "magic_artifacts",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

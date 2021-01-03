@@ -2,6 +2,7 @@
   "name": "Technological Trinkets Entry",
   "icon": "minecraft:piston",
   "category": "innovation_tech",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

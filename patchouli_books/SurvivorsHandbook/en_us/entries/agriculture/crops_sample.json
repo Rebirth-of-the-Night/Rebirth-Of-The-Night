@@ -2,6 +2,7 @@
   "name": "Crops Entry",
   "icon": "minecraft:wheat_seeds",
   "category": "agriculture_crops",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

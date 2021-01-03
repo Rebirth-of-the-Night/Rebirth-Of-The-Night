@@ -1,7 +1,9 @@
 {
   "name": "Rebirth of the Night",
-  "icon": "minecraft:ender_pearl",
+  "icon": "contenttweaker:shard_of_night",
   "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedHarvester",
+
   "pages": [
  	{
       "type": "text",

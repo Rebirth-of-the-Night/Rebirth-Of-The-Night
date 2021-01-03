@@ -2,6 +2,7 @@
   "name": "Mechanical Power Entry",
   "icon": "minecraft:lever",
   "category": "innovation_mechpower",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

@@ -2,6 +2,7 @@
   "name": "Magic Items Entry",
   "icon": "minecraft:ender_pearl",
   "category": "equipment_magicitems",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

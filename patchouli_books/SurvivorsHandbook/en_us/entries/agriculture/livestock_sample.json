@@ -2,6 +2,7 @@
   "name": "Livestock Entry",
   "icon": "minecraft:egg",
   "category": "agriculture_livestock",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

@@ -2,6 +2,7 @@
   "name": "Dimensions Entry",
   "icon": "minecraft:netherrack",
   "category": "environment_dimensions",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

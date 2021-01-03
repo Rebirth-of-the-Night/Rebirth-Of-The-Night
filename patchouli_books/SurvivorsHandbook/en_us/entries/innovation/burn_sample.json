@@ -2,6 +2,7 @@
   "name": "Burn Entry",
   "icon": "minecraft:fire",
   "category": "innovation_burn",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

@@ -2,6 +2,7 @@
   "name": "Getting Around Entry",
   "icon": "minecraft:leather_boots",
   "category": "exploration_gettingaround",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

@@ -2,6 +2,7 @@
   "name": "Cooking Entry",
   "icon": "minecraft:furnace",
   "category": "agriculture_cooking",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

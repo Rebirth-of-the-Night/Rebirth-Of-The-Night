@@ -2,6 +2,7 @@
   "name": "Decoration Entry",
   "icon": "minecraft:flower",
   "category": "construction_decoration",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

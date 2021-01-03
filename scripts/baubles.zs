@@ -60,6 +60,7 @@ mods.jei.JEI.removeAndHide(<artifacts:everlasting_salmon>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_clownfish>);
 
+mods.jei.JEI.removeAndHide(<artifacts:ultimate_pendant>);
 
 
 // Remove baubles

@@ -2,6 +2,7 @@
   "name": "Sample Entry",
   "icon": "pyrotech:obsidian_pickaxe",
   "category": "exploration",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
     {
       "type": "crafting",

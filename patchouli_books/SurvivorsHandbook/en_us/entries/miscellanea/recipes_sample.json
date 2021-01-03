@@ -2,6 +2,7 @@
   "name": "Recipes Entry",
   "icon": "minecraft:paper",
   "category": "miscellanea_recipes",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

@@ -2,6 +2,7 @@
   "name": "A Dangerous World",
   "icon": "pyrotech:obsidian_pickaxe",
   "category": "survival_danger",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
 	{
       "type": "text",

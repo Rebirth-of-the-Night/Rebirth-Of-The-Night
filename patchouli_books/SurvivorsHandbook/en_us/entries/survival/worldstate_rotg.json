@@ -1,0 +1,17 @@
+{
+  "name": "Rebirth of the Galaxy",
+  "icon": "nyx:meteor_shard",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "After killing a Quazar, I noticed the ground under me shuddered. It felt like it came from deep below the world... almost too deep. I've also noticed a few new creatures I haven't seen until now. Again, I don't know if I brought them to life or if they were always here... Lurking..."
+    },
+    {
+      "type": "text",
+      "text": "I feel weary about continuing my adventure and following the Slayer's journal, but I've come too far now. I want to see what else is in store for me."
+    }
+  ]
+}

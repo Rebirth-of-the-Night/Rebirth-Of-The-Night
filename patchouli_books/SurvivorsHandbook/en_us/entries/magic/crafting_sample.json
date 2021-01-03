@@ -2,6 +2,7 @@
   "name": "Enchanting Entry",
   "icon": "minecraft:bookshelf",
   "category": "magic_magiccrafting",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

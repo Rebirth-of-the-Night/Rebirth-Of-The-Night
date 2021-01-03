@@ -2,6 +2,7 @@
   "name": "Rituals Entry",
   "icon": "minecraft:diamond",
   "category": "magic_magicconstructs",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

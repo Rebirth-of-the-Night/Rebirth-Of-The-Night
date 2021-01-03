@@ -2,6 +2,7 @@
   "name": "Brewing Entry",
   "icon": "minecraft:potion",
   "category": "agriculture_brewing",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

@@ -2,6 +2,7 @@
   "name": "Environment Entry",
   "icon": "minecraft:cactus",
   "category": "exploration_environment",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

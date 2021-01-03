@@ -2,6 +2,7 @@
   "name": "Trinkets Entry",
   "icon": "minecraft:spawn_egg",
   "category": "equipment_trinkets",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

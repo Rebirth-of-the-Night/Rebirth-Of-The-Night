@@ -2,6 +2,7 @@
   "name": "Materials Entry",
   "icon": "minecraft:clay",
   "category": "construction_materials",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

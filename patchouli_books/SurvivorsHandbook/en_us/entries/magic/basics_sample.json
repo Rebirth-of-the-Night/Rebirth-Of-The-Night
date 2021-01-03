@@ -2,6 +2,7 @@
   "name": "Vis and Runes Entry",
   "icon": "minecraft:slimeball",
   "category": "magic_dunamisbasics",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
  {
       "type": "text",

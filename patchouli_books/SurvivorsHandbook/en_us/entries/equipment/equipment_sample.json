@@ -2,6 +2,7 @@
   "name": "Equipment Entry",
   "icon": "minecraft:iron_boots",
   "category": "equipment",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

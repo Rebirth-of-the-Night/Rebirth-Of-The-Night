@@ -2,6 +2,7 @@
   "name": "Agriculture Sample Entry",
   "icon": "pyrotech:obsidian_pickaxe",
   "category": "agriculture",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
     {
       "type": "crafting",

@@ -2,6 +2,7 @@
   "name": "Armory Entry",
   "icon": "minecraft:iron_sword",
   "category": "equipment_armory",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

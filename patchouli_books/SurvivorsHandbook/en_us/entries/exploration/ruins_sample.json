@@ -2,6 +2,7 @@
   "name": "Ruins Entry",
   "icon": "minecraft:sandstone",
   "category": "exploration_ruins",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

@@ -2,6 +2,7 @@
   "name": "Metallurgy Entry",
   "icon": "minecraft:anvil",
   "category": "innovation_metallurgy",
+  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",
