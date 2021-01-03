@@ -8,4 +8,5 @@ criteria = addCriteria("Cincinnasite", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreCincinnasite>)
 
 alwaysVisible()
-setPos(-135,108)
+setPos(-20,50)
+hideLines()

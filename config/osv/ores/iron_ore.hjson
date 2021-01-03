@@ -3,7 +3,7 @@ mod: minecraft
 block: {
   location: iron_ore
   hardness: 3
-  level: 1
+  level: 0
 }
 loot: [
   {

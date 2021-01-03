@@ -9,4 +9,4 @@ criteria.setBlock(<ore:oreRuby>)
 
 hideLines()
 alwaysVisible()
-setPos(-84,-49)
+setPos(-86,-49)

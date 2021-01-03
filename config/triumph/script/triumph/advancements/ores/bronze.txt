@@ -9,4 +9,5 @@ criteria = addCriteria("Bronze", "minecraft:inventory_changed")
 criteria.addItem(<ore:ingotBronze>)
 
 alwaysVisible()
-setPos(-174,4)
+setPos(-86,50)
+hideLines()

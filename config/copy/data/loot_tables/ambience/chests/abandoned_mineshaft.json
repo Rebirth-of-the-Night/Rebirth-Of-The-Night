@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "abandonedMineshaft",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 40,
+          "name": "ambience:ocarina"
+        }
+      ]
+    }    
+  ]
+}

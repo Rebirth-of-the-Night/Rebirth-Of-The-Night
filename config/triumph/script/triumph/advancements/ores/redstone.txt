@@ -8,4 +8,5 @@ criteria = addCriteria("Redstone", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreRedstone>)
 
 alwaysVisible()
-setPos(-135,-70)
+setPos(-119,-82)
+hideLines()

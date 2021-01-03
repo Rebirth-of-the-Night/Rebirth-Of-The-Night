@@ -4,11 +4,12 @@ setDescription("Mine mythril ore")
 
 addParent("triumph:advancements/ores/diamond")
 
-addRewardFunction("triumph:minedMythril")
-
+setShowToast(false)
+setAnnounceToChat(false)
 
 criteria = addCriteria("Mythril Ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreMythril>)
 
 alwaysVisible()
-setPos(2,4)
+setPos(-20,-16)
+hideLines()

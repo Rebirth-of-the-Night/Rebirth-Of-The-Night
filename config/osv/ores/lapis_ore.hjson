@@ -3,7 +3,7 @@ mod: minecraft
 block: {
   location: lapis_ore
   hardness: 3
-  level: 2
+  level: 1
 }
 loot: [
   {

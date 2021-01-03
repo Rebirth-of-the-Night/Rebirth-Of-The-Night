@@ -7,6 +7,6 @@ addParent("triumph:advancements/ores/root")
 criteria = addCriteria("Copper ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreCopper>)
 
-hideLines()
 alwaysVisible()
-setPos(-218,35)
+setPos(-53,50)
+hideLines()

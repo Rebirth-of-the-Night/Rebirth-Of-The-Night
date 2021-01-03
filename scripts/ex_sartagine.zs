@@ -11,6 +11,9 @@ import mods.pyrotech.DryingRack;
 
 import mods.artisanworktables.builder.RecipeBuilder;
 
+recipes.remove(<solcarrot:food_book>);
+recipes.addShapeless("food_book",<solcarrot:food_book>,[<minecraft:book>,<ore:listAllveggie>]);
+
 JEI.removeAndHide(<exsartagine:flour>);
 JEI.removeAndHide(<exsartagine:breadfine>);
 JEI.removeAndHide(<exsartagine:doughbread>);

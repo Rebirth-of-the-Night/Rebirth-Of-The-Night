@@ -1,6 +1,9 @@
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+
+recipes.removeByRecipeName("aether_legacy:furnace_from_holystone");
+
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_pickaxe>);
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_axe>);

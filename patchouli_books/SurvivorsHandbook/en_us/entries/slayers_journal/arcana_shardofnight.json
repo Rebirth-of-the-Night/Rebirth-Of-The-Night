@@ -2,14 +2,14 @@
   "name": "Shard of Night",
   "icon": "contenttweaker:shard_of_night",
   "category": "slayers_journal_arcana",
-  "advancement": "triumph:advancements/progression/killedharvester",
+  "advancement": "triumph:advancements/progression/killedHarvester",
 
   "pages": [
   	{
 			"type": "spotlight",
 			"title": "Shard of Night",
-			"item": "minecraft:flint",
-			"text": "$(l)$(#734608)The $(l)$(item)Shard of Night$() $(l)$(#734608)is spooky uwu$()"
+			"item": "contenttweaker:shard_of_night",
+			"text": "$(#734608)The $(item)Shard of Night$() $(#734608)is spooky uwu$()"
     }
   ]
 }

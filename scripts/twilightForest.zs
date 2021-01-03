@@ -5,6 +5,10 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+mods.jei.JEI.removeAndHide(<twilightforest:cinder_furnace>);
+furnace.remove(<twilightforest:cinder_furnace>);
+
+
 mods.ltt.LootTable.removeGlobalItem("twilightforest:transformation_powder");
 mods.ltt.LootTable.removeGlobalItem("twilightforest:uncrafting_table");
 mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table>);

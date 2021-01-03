@@ -18,6 +18,8 @@ furnace.remove(<minecraft:leather>);
 // remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
 mods.ltt.LootTable.removeGlobalItem("minecraft:bucket");
 
+val stone = <ore:stone>;
+stone.add(<aether_legacy:holystone>);
 
 recipes.removeByRecipeName("minecraft:hopper");
 recipes.addShaped("metal_hopper",<minecraft:hopper>,[

@@ -5,6 +5,19 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+//Magicked Lens
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<hitwithaxe:bark:41>, <contenttweaker:pristine_diamond>, <hitwithaxe:bark:41>],
+    [<contenttweaker:material_part:38>, <betternether:quartz_glass_framed_pane>, <contenttweaker:material_part:38>],
+    [<hitwithaxe:bark:41>, <contenttweaker:pristine_diamond>, <hitwithaxe:bark:41>]])
+  .addTool(<contenttweaker:order_rune>, 1)
+  .addTool(<contenttweaker:balance_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<contenttweaker:magicked_lens>)
+  .create();
+
 // runes
 
 # inert

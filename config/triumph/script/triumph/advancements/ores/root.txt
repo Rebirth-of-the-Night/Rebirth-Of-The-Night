@@ -24,3 +24,4 @@ addCriteria("impossible", "minecraft:impossible")
 
 setHidden(true)
 setPos(-183,-70)
+hideLines()
