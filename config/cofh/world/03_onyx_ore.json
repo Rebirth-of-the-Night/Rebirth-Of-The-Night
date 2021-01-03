@@ -48,7 +48,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"type": "stalagmite",
-				"block": "osv:simpleores_onyx_ore_contenttweaker_starblock",
+				"block": "contenttweaker:dormant_ardicite_onyx",
 				"material": "contenttweaker:starblock",
 				"gen-body": [
 					{ 
