@@ -5,6 +5,7 @@ mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_axe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
 mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
+mods.jei.JEI.removeAndHide(<endreborn:dragon_scales>);
 mods.jei.JEI.removeAndHide(<endreborn:entropy_user>);
 mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_seeds>);
 mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_tea>);
@@ -41,7 +42,7 @@ mods.ltt.LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_axe_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_sword_wolframium");
 mods.ltt.LootTable.removeGlobalItem("endreborn:tool_hoe_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:dragon_scales"); // Re-added in loot.json
+mods.ltt.LootTable.removeGlobalItem("endreborn:dragon_scales");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_angel_feather");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_dragonite_seeds");
 mods.ltt.LootTable.removeGlobalItem("endreborn:item_dragonite_tea");
