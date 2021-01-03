@@ -1,32 +1,21 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.rustic.CrushingTub;
+import mods.rustic.Condenser;
+
+JEI.removeAndHide(<rustic:lantern_wood>);
 
 
-var branchArray = [<dynamictrees:oakbranch>,<dynamictrees:oakbranchx>,<dynamictrees:sprucebranch>,<dynamictrees:sprucebranchx>,<dynamictrees:birchbranch>,<dynamictrees:junglebranch>,<dynamictrees:acaciabranch>,<dynamictrees:darkoakbranch>,<dynamictrees:darkoakbranchx>,<dynamictreesbop:magicbranch>,<dynamictreesbop:umbranbranch>,<dynamictreesbop:umbranbranchx>,<dynamictreesbop:firbranch>,<dynamictreesbop:firbranchx>,<dynamictreesbop:cherrybranch>,<dynamictreesbop:deadbranch>,<dynamictreesbop:jacarandabranch>,<dynamictreesbop:redwoodbranch>,<dynamictreesbop:redwoodbranchx>,<dynamictreesbop:willowbranch>,<dynamictreesbop:hellbarkbranch>,<dynamictreesbop:pinebranch>,<dynamictreesbop:palmbranch>,<dynamictreesbop:mahoganybranch>,<dynamictreesbop:ebonybranch>,<dynamictreesbop:bamboobranch>,<dynamictreesbop:eucalyptusbranch>,<dynamictreesphc:cinnamonbranch>,<dynamictreesphc:maplebranch>,<dynamictreesphc:paperbarkbranch>,<rustic:olivebranch>,<rustic:ironwoodbranch>,<rustic:ironwoodbranchx>,<dynamictrees:cactusbranch>,<dynamictreesquark:blossomingbranch>,<dynamictreesquark:swampoakbranch>,<dynamictreestheaether:skyrootbranch>,<dynamictreestheaether:goldenoakbranch>,<dynamictreestheaether:crystalbranch>,<dynamictreestheaether:holidaybranch>,<dynamictreesttf:canopybranch>,<dynamictreesttf:mangrovebranch>,<dynamictreesttf:darkwoodbranch>,<dynamictreesttf:treeoftimecorebranch>,<dynamictreesttf:treeoftimebranch>,<dynamictreesttf:treeoftimebranchx>,<dynamictreesttf:treeoftransformationcorebranch>,<dynamictreesttf:treeoftransformationbranch>,<dynamictreesttf:minerstreecorebranch>,<dynamictreesttf:minerstreebranch>,<dynamictreesttf:sortingtreecorebranch>,<dynamictreesttf:sortingtreebranch>,<dynamictreesttf:rainbowoakbranch>,<dynamictrees:junglebranchx>,<dynamictreesttf:twilightoakbranch>,<dynamictreesttf:twilightoakbranchx>] as IItemStack[];
+JEI.removeAndHide(<rustic:tomato_seeds>);
+JEI.removeAndHide(<rustic:tomato>);
 
-for branch in branchArray{
-    mods.jei.JEI.hide(branch);
-}
+JEI.removeAndHide(<rustic:grape_stem>);
+JEI.removeAndHide(<rustic:grapes>);
+JEI.removeAndHide(<rustic:sapling>);
+JEI.removeAndHide(<rustic:tomato>);
 
-
-
-
-mods.jei.JEI.removeAndHide(<rustic:lantern_wood>);
-
-
-mods.jei.JEI.removeAndHide(<rustic:tomato_seeds>);
-mods.jei.JEI.removeAndHide(<rustic:tomato>);
-
-mods.jei.JEI.removeAndHide(<rustic:grape_stem>);
-mods.jei.JEI.removeAndHide(<rustic:grapes>);
-mods.jei.JEI.removeAndHide(<rustic:sapling>);
-mods.jei.JEI.removeAndHide(<rustic:tomato>);
-
-mods.jei.JEI.removeAndHide(<dynamictreesphc:grapefruitseed>);
-
-mods.jei.JEI.removeAndHide(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
-
+JEI.removeAndHide(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
 
 
 recipes.remove(<rustic:liquid_barrel>);
@@ -104,8 +93,8 @@ recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
 # recipes.addShapeless("grape_seed_compat", <rustic:grape_stem>, [<harvestcraft:grapeseeditem>]);
 
 # Crushing tub recipes
-mods.rustic.CrushingTub.addRecipe(<liquid:honey> * 250, null, <harvestcraft:honeyitem> * 1);
-mods.rustic.CrushingTub.addRecipe(<liquid:grapejuice> * 250, null, <harvestcraft:grapeitem> * 1);
+CrushingTub.addRecipe(<liquid:honey> * 250, null, <harvestcraft:honeyitem> * 1);
+CrushingTub.addRecipe(<liquid:grapejuice> * 250, null, <harvestcraft:grapeitem> * 1);
 
 # Misc
 furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);
@@ -140,35 +129,35 @@ var wheatmat = <betterwithaddons:wheatmat>;
 var glowjelly = <mowziesmobs:glowing_jelly>;
 var radiantdust = <arcanearchives:radiant_dust>;
 
-mods.rustic.Condenser.removeRecipe(regenerationElixir);
-mods.rustic.Condenser.removeRecipe(regenerationElixirLong);
-mods.rustic.Condenser.removeRecipe(regenerationElixirStrong);
-mods.rustic.Condenser.removeRecipe(healthElixir);
-mods.rustic.Condenser.removeRecipe(healthElixirStrong);
+Condenser.removeRecipe(regenerationElixir);
+Condenser.removeRecipe(regenerationElixirLong);
+Condenser.removeRecipe(regenerationElixirStrong);
+Condenser.removeRecipe(healthElixir);
+Condenser.removeRecipe(healthElixirStrong);
 
-// mods.rustic.Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
-mods.rustic.Condenser.addRecipe(luckElixir, fourclover, amanita);
-mods.rustic.Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
-mods.rustic.Condenser.addRecipe(regenerationElixirLong, [cohosh, honeycomb], horsetail);
-mods.rustic.Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);
-mods.rustic.Condenser.addRecipe(butterElixir, butter, gnugg);	
-mods.rustic.Condenser.addRecipe(bouncyElixir, slime, endpearl);	
-mods.rustic.Condenser.addRecipe(bouncyElixirLong, [slime, endpearl, butter], horsetail);
+// Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
+Condenser.addRecipe(luckElixir, fourclover, amanita);
+Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
+Condenser.addRecipe(regenerationElixirLong, [cohosh, honeycomb], horsetail);
+Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);
+Condenser.addRecipe(butterElixir, butter, gnugg);	
+Condenser.addRecipe(bouncyElixir, slime, endpearl);	
+Condenser.addRecipe(bouncyElixirLong, [slime, endpearl, butter], horsetail);
 
 //val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
-mods.rustic.Condenser.addRecipe(healthElixir, chamomile, <animania:raw_prime_beef>);
-mods.rustic.Condenser.addRecipe(healthElixirStrong, [chamomile, <animania:raw_prime_beef>], root);
+Condenser.addRecipe(healthElixir, chamomile, <animania:raw_prime_beef>);
+Condenser.addRecipe(healthElixirStrong, [chamomile, <animania:raw_prime_beef>], root);
 
 // Removed Default Rustic Nightvision Elixirs
 //val slownessElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 1800, Amplifier: 0}]});
 //val slownessExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:slowness", Duration: 4800, Amplifier: 0}]});
 
-mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}));
-mods.rustic.Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}));
+Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}));
+Condenser.removeRecipe(<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]}));
 
-mods.rustic.Condenser.addRecipe(nightvisionElixir, [wheatmat, glowjelly, radiantdust]);
-mods.rustic.Condenser.addRecipe(nightvisionExtendedElixir, [wheatmat, glowjelly, radiantdust], <minecraft:golden_carrot>);
-mods.rustic.Condenser.addRecipe(nightvisionObsceneExtendedElixir, [wheatmat, glowjelly, radiantdust], <twilightforest:moonworm>);
+Condenser.addRecipe(nightvisionElixir, [wheatmat, glowjelly, radiantdust]);
+Condenser.addRecipe(nightvisionExtendedElixir, [wheatmat, glowjelly, radiantdust], <minecraft:golden_carrot>);
+Condenser.addRecipe(nightvisionObsceneExtendedElixir, [wheatmat, glowjelly, radiantdust], <twilightforest:moonworm>);
 
 // Rework rustic furniture to use BWM miniblocks
 

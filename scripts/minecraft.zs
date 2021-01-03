@@ -42,9 +42,6 @@ recipes.addShaped("jukebox",<minecraft:jukebox>,[
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
 ]);
 
-recipes.remove(<dynamictrees:dirtbucket>);
-recipes.addShapeless("dirt_bucket",<dynamictrees:dirtbucket>,[<minecraft:bucket>,<ore:dirt>]);
-
 recipes.addShapeless("spider_silk_to_string",<minecraft:string>,[<contenttweaker:spider_silk>,<contenttweaker:spider_silk>,<contenttweaker:spider_silk>]);
 
 recipes.remove(<sereneseasons:season_sensor_spring>);
@@ -1132,15 +1129,6 @@ recipes.remove(<minecraft:enchanting_table>);
 
 recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],[<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 
-// Dynamic Trees
-
-recipes.remove(<dynamictrees:dirtbucket>);
-recipes.addShapeless("dirtbucket", <dynamictrees:dirtbucket>,
-	[<pyrotech:bucket_stone>, <ore:dirt>]
-);
-recipes.addShapeless("dirtbucket_return", <pyrotech:bucket_stone>,
-	[<dynamictrees:dirtbucket>]
-);
 
 // Fragile Glass And Thin Ice
 recipes.removeByMod("fragileglassft");
