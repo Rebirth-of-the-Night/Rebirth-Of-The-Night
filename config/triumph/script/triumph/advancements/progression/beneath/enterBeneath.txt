@@ -2,8 +2,9 @@ setIcon(<dimstack:portal>)
 setTitle("Where The Lost Tread")
 setDescription("Enter The Beneath.")
 
-addParent("triumph:advancements/progression/nether/killedQuazar")
 addParent("triumph:advancements/progression/aether/enterAether")
+addParent("triumph:advancements/progression/nether/killedQuazar")
+addParent("triumph:advancements/progression/hidden/hiddenKilledQuazar")
 
 addRewardFunction("triumph:enteredBeneath")
 
