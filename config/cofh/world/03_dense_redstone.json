@@ -58,7 +58,7 @@
 				"see-sky": false
 				},
 			"cluster-count": 6,
-			"ground-level": 60,
+			"ground-level": 28,
 			"chunk-chance": 1,
 			"retrogen": "true"
 		}

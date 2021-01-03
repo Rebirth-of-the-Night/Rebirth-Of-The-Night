@@ -1,16 +1,60 @@
 {
-  minHeight: 20
-  maxHeight: 58
   blankSlate: true
   replaceDecorators: true
+  wallDecorators: [
+     # Sporadic gravel.
+    {
+      states: gravel
+      chance: 0.075
+      minHeight: 9
+      directions: down
+      matchers: [ 
+		stone
+		dirt
+		sandstone
+		undergroundbiomes:sedimentary_stone
+		undergroundbiomes:sedimentary_stone:1
+		undergroundbiomes:sedimentary_stone:2
+		undergroundbiomes:sedimentary_stone:3
+		undergroundbiomes:sedimentary_stone:4
+		undergroundbiomes:sedimentary_stone:5
+		undergroundbiomes:sedimentary_stone:6
+		undergroundbiomes:sedimentary_stone:7
+		undergroundbiomes:metamorphic_stone
+		undergroundbiomes:metamorphic_stone:1
+		undergroundbiomes:metamorphic_stone:2
+		undergroundbiomes:metamorphic_stone:3
+		undergroundbiomes:metamorphic_stone:4
+		undergroundbiomes:metamorphic_stone:5
+		undergroundbiomes:metamorphic_stone:6
+		undergroundbiomes:metamorphic_stone:7
+		undergroundbiomes:igneous_stone
+		undergroundbiomes:igneous_stone:1
+		undergroundbiomes:igneous_stone:2
+		undergroundbiomes:igneous_stone:3
+		undergroundbiomes:igneous_stone:4
+		undergroundbiomes:igneous_stone:5
+		undergroundbiomes:igneous_stone:6
+		undergroundbiomes:igneous_stone:7
+		undergroundbiomes:sedimentary_sandstone:2
+		undergroundbiomes:sedimentary_sand:6
+		undergroundbiomes:sedimentary_sandstone:6
+		biomesoplenty:grass
+		biomesoplenty:hard_ice
+		iceandfire:chared_stone
+		defiledlands:stone_defiled
+	  ]
+      preference: replace_match
+    }
+  ]
   caverns: {
 	enabled: true
-    minHeight: 5
-    maxHeight: 75
+    minHeight: 16
+    maxHeight: 58
     noise3D: {
       frequency: 0.02
       scale: 0.4
-      scaleY: 0.75
+      scaleY: 0.58
       type: Cellular
       returnType: Distance3Div
       jitter: 1
@@ -24,11 +68,4 @@
     scale: 7
     scaleY: 0.8
   }
-  caveBlocks: [
-     # Simulates vanilla lava placement
-    {
-      states: minecraft:lava
-      maxHeight: 13
-    }
-  ]
 }
