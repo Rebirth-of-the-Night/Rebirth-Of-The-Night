@@ -151,6 +151,13 @@ twilightforest:dark_forest_center
 twilightforest:highlands_center
 twilightforest:thornlands
 twilightforest:spooky_forest
+defiledlands:desert_defiled
+defiledlands:plains_defiled
+defiledlands:forest_tenebra
+defiledlands:forest_vilespine
+defiledlands:hills_defiled
+defiledlands:swamp_defiled
+defiledlands:ice_plains_defiled
 iceandfire:glacier
 netherex:ruthless_sands
 netherex:fungi_forest
@@ -161,5 +168,6 @@ arcaneworld:arcane_void
 arcaneworld:arcane_dungeon
 aether_legacy:aether_highlands
 beneath:the_beneath
+biometweaker:atacamian_desert
 stygian:stygian_growth
 stygian:acidic_plains
