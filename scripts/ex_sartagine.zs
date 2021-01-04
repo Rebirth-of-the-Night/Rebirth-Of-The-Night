@@ -48,7 +48,7 @@ ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=south,lit=tru
 
 
 /*
-Here goes every reworked recipe for every single food item, RIP Foreck. 
+Here goes every reworked recipe for every single food item, RIP Foreck.
 
 =============================NOTES=============================
 -Furnace recipes are switched over to the smoker and kettle; kettle recipes take 80 ticks to complete compared to the smoker's 100 due to its superiority.
@@ -58,170 +58,188 @@ Here goes every reworked recipe for every single food item, RIP Foreck.
 -"Stock" is the main use of the basic pot, but it can also be used for recipes that are water + a catalyst, e.g. tea or coffee.
 =============================SYMBOLS=============================
 	-&C = Recipe also available in the normal crafting table/grid and or not removed
-	-&R = Item should use a container (bottle, bowl, etc) AND return one when eaten, consumed or used in a recipe 
-	
+	-&R = Item should use a container (bottle, bowl, etc) AND return one when eaten, consumed or used in a recipe
+
 */
 
 var cookKitBad = <contenttweaker:cooking_kit>.anyDamage().transformDamage(3);
 var cookKit = <contenttweaker:cooking_kit>;
 var cookKitKettle = <contenttweaker:cooking_kit>.anyDamage().transformDamage();
 
-var redRose = <minecraft:dye:1>;
+val redRose = <minecraft:dye:1>;
 
 var waterBottle = <liquid:water>*333;
 var waterBottle2 = <liquid:water>*666;
 var waterBucket = <liquid:water>*1000;
 var milkBottle = <animania:milk_bottle>.giveBack(<minecraft:glass_bottle>);
-var coconutMilk = <harvestcraft:coconutmilkitem>;
-var stock = <harvestcraft:stockitem>;
-var dough = <ore:foodDough>;
-var salt = <ore:dustSalt>;
-var flour = <ore:foodFlour>;
-var sugar = <ore:listAllsugar>;
-var mayo = <ore:foodMayo>;
-var snowball = <minecraft:snowball>;
-var rawChicken = <ore:listAllchickenraw>;
-var cookedChicken = <ore:listAllchickencooked>;
-var rawPork = <animania:raw_prime_pork>|<minecraft:porkchop>;
-var cookedPork = <animania:cooked_prime_pork>|<minecraft:cooked_porkchop>|<harvestcraft:bbqjackfruititem>;
-var rawBacon = <animania:raw_prime_bacon>|<harvestcraft:rawtofaconitem>;
-var cookedBacon = <animania:cooked_prime_bacon>|<harvestcraft:cookedtofaconitem>;
-var rawBeef = <ore:listAllbeefraw>;
-var cookedBeef = <ore:listAllbeefcooked>;
-var rawFish = <ore:listAllfishraw>;
-var cookedFish = <ore:listAllfishcooked>;
-var rawMutton = <ore:listAllmuttonraw>;
-var rawVenison = <ore:foodVenisonraw>;
-var cookedMeat = <ore:listAllmeatcooked>;
-var rawShrimp = <ore:foodShrimpraw>;
-var veggie = <ore:listAllveggie>;
-var carrot = <minecraft:carrot>;
-var batter = <harvestcraft:batteritem>;
-var heavyCream = <ore:listAllheavycream>;
-var egg = <ore:listAllegg>;
-var cherry = <harvestcraft:cherryitem>;
-var cocoaPowder = <ore:foodCocoapowder>;
-var sprinkles = <contenttweaker:sprinkles>;
-var spice = <ore:listAllspice>;
-var chocolateBar = <ore:foodChocolatebar>;
-var toastedCoconut = <ore:foodToastedcoconut>;
-var lemon = <ore:cropLemon>;
-var strawberry = <ore:cropStrawberry>;
-var walnut = <ore:cropWalnut>;
-var pineapple = <ore:cropPineapple>;
-var meringue = <ore:foodMeringue>;
-var pumpkin = <ore:cropPumpkin>;
-var calamari = <ore:foodCalamariraw>;
-var cookedCalamari = <harvestcraft:calamaricookeditem>;
-var sweetPotato = <harvestcraft:sweetpotatoitem>;
-var bakedsweetpotato = <harvestcraft:bakedsweetpotatoitem>;
-var eggplant = <harvestcraft:eggplantitem>;
-var grilledEggplant = <harvestcraft:grilledeggplantitem>;
-var toast = <harvestcraft:toastitem>;
-var iceCream = <ore:listAllicecream>;
-var griledCheese = <harvestcraft:grilledcheeseitem>;
-var appleSauce = <harvestcraft:applesauceitem>; 
-var bread = <minecraft:bread>;
-var butter = <harvestcraft:butteritem>;
-var cheese = <ore:foodCheese>;
-var apple = <ore:cropApple>;
-var teaLeaf = <ore:cropTea>;
-var coffeeBean = <harvestcraft:coffeebeanitem>;
-var corn = <ore:cropCorn>;
-var grape = <ore:cropGrape>;
-var rice = <ore:cropRice>;
-var coconut = <ore:cropCoconut>;
-var pumpkinSeeds = <minecraft:pumpkin_seeds>;
-var vanillaBean = <ore:cropVanillabean>;
-var sesame = <ore:cropSesame>;
-var melon = <minecraft:melon>;
-var blueberry = <ore:cropBlueberry>;
-var papaya = <ore:cropPapaya>;
-var starfruit = <ore:cropStarfruit>;
-var orange = <ore:cropOrange>;
-var peach = <ore:cropPeach>;
-var lime = <ore:cropLime>;
-var mango = <ore:cropMango>;
-var pomegranate = <ore:cropPomegranate>;
-var blackberry = <ore:cropBlackberry>;
-var raspberry = <ore:cropRaspberry>;
-var kiwi = <ore:cropKiwi>;
-var cranberry = <ore:cropCranberry>;
-var cactusFruit = <ore:cropCactusfruit>;
-var plum = <ore:cropPlum>;
-var pear = <ore:cropPear>;
-var apricot = <ore:cropApricot>;
-var fig = <ore:cropFig>;
-var grapeFruit = <ore:cropGrapefruit>;
-var persimmon = <ore:cropPersimmon>;
-var banana = <harvestcraft:bananaitem>;
-var gooseberry = <harvestcraft:gooseberryitem>;
-var potato = <ore:cropPotato>;
-var cookedPotato = <ore:cookedPotato>;
-var mushroom = <ore:listAllmushroom>;
-var pasta = <harvestcraft:pastaitem>;
-var wiener = <contenttweaker:wiener>;
-var patty = <contenttweaker:patty>;
-var anyMeat = <ore:foodMeats>;
-var anyRawMeat = <ore:listAllmeatraw>;
-var hydraMeat = <twilightforest:hydra_chop>;
-var cocoa = <minecraft:dye:3>;
-var tomato = <ore:cropTomato>;
-var lettuce = <harvestcraft:lettuceitem>;
-var onion = <harvestcraft:onionitem>;
-var cornmeal = <harvestcraft:cornmealitem>;
-var tortilla = <harvestcraft:tortillaitem>;
-var cookingOil = <harvestcraft:oliveoilitem>;
-var peanut = <harvestcraft:peanutitem>;
-var seed = <ore:listAllseed>;
-var nut = <ore:listAllnut>;
-var nutButter = <ore:listAllnutbutter>;
-var vinegar = <harvestcraft:vinegaritem>;
-var cucumber = <ore:cropCucumber>;
-var springSalad = <harvestcraft:springsaladitem>;
-var chili = <rustic:chili_pepper>;
-var bellpepper = <harvestcraft:bellpepperitem>;
-var stewCondiment = <ore:listAllStewcondiment>;
-var beans = <harvestcraft:beanitem>;
-var hotSauce = <harvestcraft:hotsauceitem>;
-var cinnamon = <harvestcraft:cinnamonitem>;
-var groundCinnamon = <harvestcraft:groundcinnamonitem>;
-var nutmeg = <harvestcraft:nutmegitem>;
-var groundNutmeg = <harvestcraft:groundnutmegitem>;
-var blackPepper = <harvestcraft:blackpepperitem>;
-var beet = <ore:cropBeet>;
-var broccoli = <harvestcraft:broccoliitem>;
-var marshmellows = <harvestcraft:marshmellowsitem>;
-var peas = <ore:cropPeas>;
-var yogurt = <harvestcraft:plainyogurtitem>;
-var turnip = <ore:cropTurnip>;
-var tuber = <ore:listAllTuber>;
-var ginger = <harvestcraft:gingeritem>;
-var mustardSeed = <harvestcraft:mustardseedsitem>;
-var mustard = <harvestcraft:mustarditem>;
-var veggieGreen = <ore:listAllgreenveggie>;
-var garlic = <ore:cropGarlic>;
-var radish = <harvestcraft:radishitem>;
-var zucchini = <ore:cropZucchini>;
-var celery = <ore:cropCelery>;
-var aSparagus = <ore:cropAsparagus>;
-var avocado = <harvestcraft:avocadoitem>;
-var fruit = <ore:listAllfruit>;
-var donut = <harvestcraft:donutitem>;
-var syrup = <harvestcraft:maplesyrupitem>;
-var sunflowerSeed = <harvestcraft:sunflowerseedsitem>;
-var mint = <harvestcraft:spiceleafitem>;
-var dyeGreen = <ore:dyeGreen>;
-var dyeRed = <ore:dyeRed>;
-var saladDressing = <ore:foodSaladdressing>;
-var seaweed = <ore:cropSeaweed>;
+val coconutMilk = <harvestcraft:coconutmilkitem>;
+val stock = <harvestcraft:stockitem>;
+val dough = <ore:foodDough>;
+val salt = <ore:dustSalt>;
+val flour = <ore:foodFlour>;
+val sugar = <ore:listAllsugar>;
+val mayo = <ore:foodMayo>;
+val snowball = <minecraft:snowball>;
+val rawChicken = <ore:listAllchickenraw>;
+val cookedChicken = <ore:listAllchickencooked>;
+val rawPork = <animania:raw_prime_pork>|<minecraft:porkchop>;
+val cookedPork = <animania:cooked_prime_pork>|<minecraft:cooked_porkchop>|<harvestcraft:bbqjackfruititem>;
+val rawBacon = <animania:raw_prime_bacon>|<harvestcraft:rawtofaconitem>;
+val cookedBacon = <animania:cooked_prime_bacon>|<harvestcraft:cookedtofaconitem>;
+val rawBeef = <ore:listAllbeefraw>;
+val cookedBeef = <ore:listAllbeefcooked>;
+val rawFish = <ore:listAllfishraw>;
+val cookedFish = <ore:listAllfishcooked>;
+val rawMutton = <ore:listAllmuttonraw>;
+val rawVenison = <ore:foodVenisonraw>;
+val cookedMeat = <ore:listAllmeatcooked>;
+val rawShrimp = <ore:foodShrimpraw>;
+val veggie = <ore:listAllveggie>;
+val carrot = <minecraft:carrot>;
+val batter = <harvestcraft:batteritem>;
+val heavyCream = <ore:listAllheavycream>;
+val egg = <ore:listAllegg>;
+val cherry = <harvestcraft:cherryitem>;
+val cocoaPowder = <ore:foodCocoapowder>;
+val sprinkles = <contenttweaker:sprinkles>;
+val spice = <ore:listAllspice>;
+val chocolateBar = <ore:foodChocolatebar>;
+val toastedCoconut = <ore:foodToastedcoconut>;
+val lemon = <ore:cropLemon>;
+val strawberry = <ore:cropStrawberry>;
+val walnut = <ore:cropWalnut>;
+val pineapple = <ore:cropPineapple>;
+val meringue = <ore:foodMeringue>;
+val pumpkin = <ore:cropPumpkin>;
+val calamari = <ore:foodCalamariraw>;
+val cookedCalamari = <harvestcraft:calamaricookeditem>;
+val sweetPotato = <harvestcraft:sweetpotatoitem>;
+val bakedsweetpotato = <harvestcraft:bakedsweetpotatoitem>;
+val eggplant = <harvestcraft:eggplantitem>;
+val grilledEggplant = <harvestcraft:grilledeggplantitem>;
+val toast = <harvestcraft:toastitem>;
+val iceCream = <ore:listAllicecream>;
+val griledCheese = <harvestcraft:grilledcheeseitem>;
+val appleSauce = <harvestcraft:applesauceitem>;
+val bread = <minecraft:bread>;
+val butter = <harvestcraft:butteritem>;
+val cheese = <ore:foodCheese>;
+val apple = <ore:cropApple>;
+val teaLeaf = <ore:cropTea>;
+val coffeeBean = <harvestcraft:coffeebeanitem>;
+val corn = <ore:cropCorn>;
+val grape = <ore:cropGrape>;
+val rice = <ore:cropRice>;
+val coconut = <ore:cropCoconut>;
+val pumpkinSeeds = <minecraft:pumpkin_seeds>;
+val vanillaBean = <ore:cropVanillabean>;
+val sesame = <ore:cropSesame>;
+val melon = <minecraft:melon>;
+val blueberry = <ore:cropBlueberry>;
+val papaya = <ore:cropPapaya>;
+val starfruit = <ore:cropStarfruit>;
+val orange = <ore:cropOrange>;
+val peach = <ore:cropPeach>;
+val lime = <ore:cropLime>;
+val mango = <ore:cropMango>;
+val pomegranate = <ore:cropPomegranate>;
+val blackberry = <ore:cropBlackberry>;
+val raspberry = <ore:cropRaspberry>;
+val kiwi = <ore:cropKiwi>;
+val cranberry = <ore:cropCranberry>;
+val cactusFruit = <ore:cropCactusfruit>;
+val plum = <ore:cropPlum>;
+val pear = <ore:cropPear>;
+val apricot = <ore:cropApricot>;
+val fig = <ore:cropFig>;
+val grapeFruit = <ore:cropGrapefruit>;
+val persimmon = <ore:cropPersimmon>;
+val banana = <harvestcraft:bananaitem>;
+val gooseberry = <harvestcraft:gooseberryitem>;
+val potato = <ore:cropPotato>;
+val cookedPotato = <ore:cookedPotato>;
+val mushroom = <ore:listAllmushroom>;
+val pasta = <harvestcraft:pastaitem>;
+val wiener = <contenttweaker:wiener>;
+val patty = <contenttweaker:patty>;
+val anyMeat = <ore:foodMeats>;
+val anyRawMeat = <ore:listAllmeatraw>;
+val hydraMeat = <twilightforest:hydra_chop>;
+val cocoa = <minecraft:dye:3>;
+val tomato = <ore:cropTomato>;
+val lettuce = <harvestcraft:lettuceitem>;
+val onion = <harvestcraft:onionitem>;
+val cornmeal = <harvestcraft:cornmealitem>;
+val tortilla = <harvestcraft:tortillaitem>;
+val cookingOil = <harvestcraft:oliveoilitem>;
+val peanut = <harvestcraft:peanutitem>;
+val seed = <ore:listAllseed>;
+val nut = <ore:listAllnut>;
+val nutButter = <ore:listAllnutbutter>;
+val vinegar = <harvestcraft:vinegaritem>;
+val cucumber = <ore:cropCucumber>;
+val springSalad = <harvestcraft:springsaladitem>;
+val chili = <rustic:chili_pepper>;
+val bellpepper = <harvestcraft:bellpepperitem>;
+val stewCondiment = <ore:listAllStewcondiment>;
+val beans = <harvestcraft:beanitem>;
+val hotSauce = <harvestcraft:hotsauceitem>;
+val cinnamon = <harvestcraft:cinnamonitem>;
+val groundCinnamon = <harvestcraft:groundcinnamonitem>;
+val nutmeg = <harvestcraft:nutmegitem>;
+val groundNutmeg = <harvestcraft:groundnutmegitem>;
+val blackPepper = <harvestcraft:blackpepperitem>;
+val beet = <ore:cropBeet>;
+val broccoli = <harvestcraft:broccoliitem>;
+val marshmellows = <harvestcraft:marshmellowsitem>;
+val peas = <ore:cropPeas>;
+val yogurt = <harvestcraft:plainyogurtitem>;
+val turnip = <ore:cropTurnip>;
+val tuber = <ore:listAllTuber>;
+val ginger = <harvestcraft:gingeritem>;
+val mustardSeed = <harvestcraft:mustardseedsitem>;
+val mustard = <harvestcraft:mustarditem>;
+val veggieGreen = <ore:listAllgreenveggie>;
+val garlic = <ore:cropGarlic>;
+val radish = <harvestcraft:radishitem>;
+val zucchini = <ore:cropZucchini>;
+val celery = <ore:cropCelery>;
+val aSparagus = <ore:cropAsparagus>;
+val avocado = <harvestcraft:avocadoitem>;
+val fruit = <ore:listAllfruit>;
+val donut = <harvestcraft:donutitem>;
+val syrup = <harvestcraft:maplesyrupitem>;
+val sunflowerSeed = <harvestcraft:sunflowerseedsitem>;
+val mint = <harvestcraft:spiceleafitem>;
+val dyeGreen = <ore:dyeGreen>;
+val dyeRed = <ore:dyeRed>;
+val saladDressing = <ore:foodSaladdressing>;
+val seaweed = <ore:cropSeaweed>;
+val bubblyWater = <harvestcraft:bubblywateritem>;
+val caramel = <harvestcraft:caramelitem>;
+val honey = <ore:foodHoneyDrop>;
+val scallion = <harvestcraft:scallionitem>;
+val barley = <harvestcraft:barleyitem>;
+val rhubarb = <harvestcraft:rhubarbitem>;
+val oats = <ore:cropOats>;
+val cauliflower = <ore:cropCauliflower>;
+val leek = <ore:cropLeek>;
+val parsnip = <ore:cropParsnip>;
+val firmTofu = <harvestcraft:firmtofuitem>;
+val silkenTofu = <harvestcraft:silkentofuitem>;
+val soybean = <harvestcraft:soybeanitem>;
+val bambooShoot = <dynamictreesbop:bambooseed>;
+val chestnut = <harvestcraft:chestnutitem>;
+val pecan = <ore:cropPecan>;
+val cashew = <ore:cropCashew>;
+val pepper = <ore:listAllpepper>;
+val citrus = <ore:listAllcitrus>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
 ExSartagine.addPotRecipe(veggie, stock*2);
 ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
-
 
 //Carrot Cake
 recipes.removeByRecipeName("harvestcraft:carrotcakeitem");
@@ -234,7 +252,7 @@ recipes.removeByRecipeName("harvestcraft:cherrycheesecakeitem");
 ExSartagine.addKettleRecipe([batter,heavyCream,sugar,cherry],null,waterBottle,[<harvestcraft:cherrycheesecakeitem>],200);
 //Sprinkles / Chocolate Sprinkles Cake
 recipes.addShapeless("sprinkles", sprinkles*4,
-    [sugar,redRose,<minecraft:dye:2>,<minecraft:dye:11>]);	
+    [sugar,redRose,<minecraft:dye:2>,<minecraft:dye:11>]);
 RecipeBuilder.get("chef")
   .setShapeless([sugar,redRose,<minecraft:dye:2>,<minecraft:dye:11>])
   .addOutput(sprinkles*6)
@@ -296,7 +314,7 @@ ExSartagine.addKettleRecipe([dough,sugar,pumpkin],null,null,[<harvestcraft:pumpk
 //Apple Pie
 recipes.removeByRecipeName("harvestcraft:pumpkinbreaditem");
 ExSartagine.addKettleRecipe([dough,sugar,apple],null,null,[<harvestcraft:applepieitem>],80);
-//Tea 
+//Tea
 recipes.removeByRecipeName("harvestcraft:teaitem");
 ExSartagine.addPotRecipe(teaLeaf, <harvestcraft:teaitem>);
 //Coffee
@@ -343,7 +361,7 @@ RecipeBuilder.get("chef")
 //Heavy Cream
 recipes.removeByRecipeName("harvestcraft:heavycreamitem");
 recipes.addShapeless("heavy_cream", <harvestcraft:heavycreamitem>*2,
-    [milkBottle]);	
+    [milkBottle]);
 
 //Butter
 recipes.removeByRecipeName("harvestcraft:toastedsesameseedsitem");
@@ -877,42 +895,42 @@ RecipeBuilder.get("chef")
   .setShapeless([yogurt,grape])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:grapeyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:chocolateyogurtitem");
 RecipeBuilder.get("chef")
   .setName("chocolate_yogurt")
   .setShapeless([yogurt,cocoaPowder])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:chocolateyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:blackberryyogurtitem");
 RecipeBuilder.get("chef")
   .setName("blackberry_yogurt")
   .setShapeless([yogurt,blackberry])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:blackberryyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:pumpkinyogurtitem");
 RecipeBuilder.get("chef")
   .setName("pumpkin_yogurt")
   .setShapeless([yogurt,pumpkin])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:pumpkinyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:raspberryyogurtitem");
 RecipeBuilder.get("chef")
   .setName("raspberry_yogurt")
   .setShapeless([yogurt,raspberry])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:raspberryyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:melonyogurtitem");
 RecipeBuilder.get("chef")
   .setName("melon_yogurt")
   .setShapeless([yogurt,melon])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:melonyogurtitem>)
-  .create(); 
+  .create();
 recipes.removeByRecipeName("harvestcraft:kiwiyogurtitem");
 RecipeBuilder.get("chef")
   .setName("kiwi_yogurt")
@@ -933,43 +951,43 @@ RecipeBuilder.get("chef")
   .setShapeless([yogurt,apricot])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:apricotyogurtitem>)
-  .create(); 
+  .create();
 recipes.removeByRecipeName("harvestcraft:figyogurtitem");
 RecipeBuilder.get("chef")
   .setName("fig_yogurt")
   .setShapeless([yogurt,fig])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:figyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:grapefruityogurtitem");
 RecipeBuilder.get("chef")
   .setName("grapefruit_yogurt")
   .setShapeless([yogurt,grapeFruit])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:grapefruityogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:persimmonyogurtitem");
 RecipeBuilder.get("chef")
   .setName("persimmon_yogurt")
   .setShapeless([yogurt,persimmon])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:persimmonyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:gooseberryyogurtitem");
 RecipeBuilder.get("chef")
   .setName("gooseberry_yogurt")
   .setShapeless([yogurt,gooseberry])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:gooseberryyogurtitem>)
-  .create();  
+  .create();
 recipes.removeByRecipeName("harvestcraft:cranberryyogurtitem");
 RecipeBuilder.get("chef")
   .setName("cranberry_yogurt")
   .setShapeless([yogurt,cranberry])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:cranberryyogurtitem>)
-  .create();  
-  
+  .create();
+
 //Pumpkin soup
 recipes.removeByRecipeName("harvestcraft:pumpkinsoupitem");
 ExSartagine.addKettleRecipe([stock,heavyCream,pumpkin],cookKitKettle,null,[<harvestcraft:pumpkinsoupitem>],80);
@@ -1013,7 +1031,7 @@ ExSartagine.addKettleRecipe([toast,mushroom],cheese,null,[<harvestcraft:stuffedm
 //Chicken sandwich -&C
 recipes.removeByRecipeName("harvestcraft:chickensandwichitem");
 recipes.addShapeless("chicken_sandwich", <harvestcraft:chickensandwichitem>,
-    [bread,cookedChicken,mayo]);	
+    [bread,cookedChicken,mayo]);
 RecipeBuilder.get("chef")
   .setName("chicken_sandwich")
   .setShapeless([bread,cookedChicken,mayo])
@@ -1077,7 +1095,7 @@ ExSartagine.addKettleRecipe([rawBeef,potato,carrot,stock],cookKitKettle,null,[<h
 //Fish sandwich
 recipes.removeByRecipeName("harvestcraft:fishsandwichitem");
 ExSartagine.addKettleRecipe([rawFish,bread],mayo,null,[<harvestcraft:fishsandwichitem>],80);
-//Fish sticks 
+//Fish sticks
 recipes.removeByRecipeName("harvestcraft:fishsticksitem");
 ExSartagine.addKettleRecipe([rawFish,batter],null,null,[<harvestcraft:fishsticksitem>],80);
 //Fish & chips -&C
@@ -1100,7 +1118,7 @@ ExSartagine.addPanRecipe(egg, <harvestcraft:friedeggitem>);
 //Scrambled egg
 recipes.removeByRecipeName("harvestcraft:scrambledeggitem");
 ExSartagine.addKettleRecipe([egg,egg,egg],null,null,[<harvestcraft:scrambledeggitem>],40);
-//Boiled egg 
+//Boiled egg
 JEI.removeAndHide(<harvestcraft:boiledeggitem>);
 furnace.remove(<betteranimalsplus:fried_egg>, <harvestcraft:boiledeggitem>);
 //Egg Salad -&C
@@ -1128,7 +1146,7 @@ ExSartagine.addKettleRecipe([<harvestcraft:cocoapowderitem>,butter,milkBottle],n
 //Hot chocolate
 recipes.removeByRecipeName("harvestcraft:hotchocolateitem");
 ExSartagine.addKettleRecipe([<harvestcraft:cocoapowderitem>,milkBottle],null,waterBottle,[<harvestcraft:hotchocolateitem>*2],80);
-//Chocolate ice cream 
+//Chocolate ice cream
 recipes.removeByRecipeName("harvestcraft:chocolateicecreamitem");
 RecipeBuilder.get("chef")
   .setName("chocolate_icecream")
@@ -1148,7 +1166,7 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:fruitsaladitem>)
   .create();
-//Spaghetti 
+//Spaghetti
 recipes.removeByRecipeName("harvestcraft:spagettiitem");
 ExSartagine.addKettleRecipe([tomato,pasta,pasta,spice],null,null,[<harvestcraft:spagettiitem>],80);
 //Spaghetti and meatballs
@@ -1272,7 +1290,7 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:fishtacoitem>)
   .create();
-//Hydra taco 
+//Hydra taco
 recipes.addShapeless("hydraco",<contenttweaker:hydraco>,[hydraMeat,lettuce,cheese,tortilla,cookKitBad]);
 RecipeBuilder.get("chef")
   .setName("hydraco")
@@ -1283,7 +1301,7 @@ RecipeBuilder.get("chef")
 //Creamed corn
 recipes.removeByRecipeName("harvestcraft:creamedcornitem");
 ExSartagine.addKettleRecipe([corn,onion,heavyCream],cookKitKettle,null,[<harvestcraft:creamedcornitem>],80);
-//Strawberry cake 
+//Strawberry cake
 recipes.removeByRecipeName("harvestcraft:strawberrypieitem");
 ExSartagine.addKettleRecipe([dough,sugar],strawberry,waterBottle,[<harvestcraft:strawberrypieitem>],80);
 //Strawberry salad -&C
@@ -1298,7 +1316,7 @@ ExSartagine.addKettleRecipe([strawberry],chocolateBar,null,[<harvestcraft:chocol
 //Peanut butter
 recipes.removeByRecipeName("harvestcraft:peanutbutteritem");
 Mortar.addRecipe(["stone"], <harvestcraft:peanutbutteritem>, 4, [cookingOil,peanut]);
-//Trail mix -&C 
+//Trail mix -&C
 RecipeBuilder.get("chef")
   .setName("trail_mix")
   .setShapeless([<harvestcraft:chocolatebaritem>,<harvestcraft:raisinsitem>,seed])
@@ -1344,7 +1362,7 @@ RecipeBuilder.get("chef")
   .setShapeless([<harvestcraft:fruitsaladitem>,grape])
   .addOutput(<harvestcraft:grapesaladitem>)
   .create();
-//Raisin cookies 
+//Raisin cookies
 recipes.removeByRecipeName("harvestcraft:raisincookiesitem");
 ExSartagine.addKettleRecipe([batter,sugar,<harvestcraft:raisinsitem>],null,null,[<harvestcraft:raisincookiesitem>],80);
 //Pickles
@@ -1371,29 +1389,29 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:vegetarianlettucewrapitem>)
   .create();
-//Marinated cucumbers 
+//Marinated cucumbers
 recipes.removeByRecipeName("harvestcraft:marinatedcucumbersitem");
 ExSartagine.addKettleRecipe([cucumber,onion,sugar,vinegar],cookKitKettle,null,[<harvestcraft:marinatedcucumbersitem>],80);
-//Rice soup 
+//Rice soup
 recipes.removeByRecipeName("harvestcraft:ricesoupitem");
 ExSartagine.addKettleRecipe([rice,stock],null,null,[<harvestcraft:ricesoupitem>],80);
 //Fried rice
 recipes.removeByRecipeName("harvestcraft:friedriceitem");
 ExSartagine.addKettleRecipe([rice,carrot,egg,onion],cookKitKettle,null,[<harvestcraft:friedriceitem>],80);
-//Mushroom risotto 
+//Mushroom risotto
 recipes.removeByRecipeName("harvestcraft:mushroomrisottoitem");
 ExSartagine.addKettleRecipe([rice,mushroom,onion,cheese],cookKitKettle,null,[<harvestcraft:mushroomrisottoitem>],80);
-//Curry rice 
+//Curry rice
 recipes.removeByRecipeName("harvestcraft:curryitem_dustsalt");
 ExSartagine.addKettleRecipe([rice,salt,chili,coconutMilk,spice],null,null,[<harvestcraft:curryitem>],80);
-//Refried beans 
+//Refried beans
 recipes.removeByRecipeName("harvestcraft:refriedbeansitem");
 ExSartagine.addKettleRecipe([beans,onion,butter],cookKitKettle,null,[<harvestcraft:refriedbeansitem>],80);
 //Baked beans
 recipes.removeByRecipeName("harvestcraft:bakedbeansitem");
 ExSartagine.addKettleRecipe([beans,rawPork,sugar],null,null,[<harvestcraft:bakedbeansitem>],80);
 ExSartagine.addKettleRecipe([beans,rawBacon,rawBacon,sugar],null,null,[<harvestcraft:bakedbeansitem>],80);
-//Beans and rice 
+//Beans and rice
 recipes.removeByRecipeName("harvestcraft:beansandriceitem_croponion");
 recipes.removeByRecipeName("harvestcraft:beansandriceitem_cropchilipepper");
 recipes.removeByRecipeName("harvestcraft:beansandriceitem_cropbellpepper");
@@ -1442,7 +1460,7 @@ ExSartagine.addKettleRecipe([bellpepper,onion,carrot],cookKitKettle,null,[<harve
 //Omelet
 recipes.removeByRecipeName("harvestcraft:omeletitem");
 ExSartagine.addKettleRecipe([egg,bellpepper,onion],cookKitKettle,null,[<harvestcraft:omeletitem>],80);
-//Hot wings -&C 
+//Hot wings -&C
 recipes.removeByRecipeName("harvestcraft:hotwingsitem");
 recipes.addShapeless("hot_one",<harvestcraft:hotwingsitem>*2,[cookedChicken,hotSauce]);
 RecipeBuilder.get("chef")
@@ -1474,16 +1492,16 @@ ExSartagine.addKettleRecipe([lemon,dough,sugar],cookKitKettle,null,[<harvestcraf
 //Fish dinner
 recipes.removeByRecipeName("harvestcraft:fishdinneritem");
 ExSartagine.addKettleRecipe([lemon,batter,rawFish,mayo],cookKitKettle,null,[<harvestcraft:fishdinneritem>],80);
-//Lemon meringue 
+//Lemon meringue
 recipes.removeByRecipeName("harvestcraft:lemonmeringueitem");
 ExSartagine.addKettleRecipe([lemon,sugar,dough,meringue],cookKitKettle,null,[<harvestcraft:lemonmeringueitem>],80);
-//Candied lemon 
+//Candied lemon
 recipes.removeByRecipeName("harvestcraft:candiedlemonitem");
 ExSartagine.addKettleRecipe([lemon,sugar],cookKitKettle,null,[<harvestcraft:candiedlemonitem>],80);
 //Lemon chicken
 recipes.removeByRecipeName("harvestcraft:lemonchickenitem");
 ExSartagine.addKettleRecipe([lemon,rawChicken,butter],cookKitKettle,null,[<harvestcraft:lemonchickenitem>],80);
-//Blueberry pie 
+//Blueberry pie
 recipes.removeByRecipeName("harvestcraft:blueberrypieitem");
 ExSartagine.addKettleRecipe([blueberry,dough,sugar],null,waterBottle,[<harvestcraft:blueberrypieitem>],80);
 //Blueberry muffin
@@ -1504,13 +1522,13 @@ ExSartagine.addKettleRecipe([cherry,dough,sugar],null,waterBottle,[<harvestcraft
 //Chocolate cherry
 recipes.removeByRecipeName("harvestcraft:chocolatecherryitem");
 ExSartagine.addKettleRecipe([chocolateBar,cherry],null,null,[<harvestcraft:chocolatecherryitem>],80);
-//Stuffed eggplant 
+//Stuffed eggplant
 recipes.removeByRecipeName("harvestcraft:stuffedeggplantitem");
 ExSartagine.addKettleRecipe([eggplant,onion,bellpepper,butter,egg],null,null,[<harvestcraft:stuffedeggplantitem>],80);
-//Eggplant parm 
+//Eggplant parm
 recipes.removeByRecipeName("harvestcraft:eggplantparmitem");
 ExSartagine.addKettleRecipe([eggplant,tomato,pasta,cheese],null,null,[<harvestcraft:eggplantparmitem>],80);
-//Eggplant parm 
+//Eggplant parm
 recipes.removeByRecipeName("harvestcraft:eggplantparmitem");
 ExSartagine.addKettleRecipe([eggplant,tomato,pasta,cheese],null,null,[<harvestcraft:eggplantparmitem>],80);
 //Raspberry iced tea
@@ -1521,7 +1539,7 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:raspberryicedteaitem>)
   .create();
-//Chai tea 
+//Chai tea
 recipes.removeByRecipeName("harvestcraft:chaiteaitem");
 RecipeBuilder.get("chef")
   .setName("chai_tea")
@@ -1535,7 +1553,7 @@ ExSartagine.addKettleRecipe([<harvestcraft:coffeebeanitem>,<harvestcraft:coffeeb
 //Café con leche
 recipes.removeByRecipeName("harvestcraft:espressoitem");
 ExSartagine.addKettleRecipe([<harvestcraft:espressoitem>,milkBottle,groundCinnamon],cookKit,waterBottle2,[<harvestcraft:coffeeconlecheitem>],80);
-//Mocha ice cream 
+//Mocha ice cream
 recipes.removeByRecipeName("harvestcraft:mochaicecreamitem");
 RecipeBuilder.get("chef")
   .setName("mocha_ice_cream")
@@ -1546,7 +1564,7 @@ RecipeBuilder.get("chef")
 //Pickled beets
 recipes.removeByRecipeName("harvestcraft:pickledbeetsitem_dustsalt");
 ExSartagine.addKettleRecipe([beet,vinegar,salt],cookKitKettle,waterBottle,[<harvestcraft:pickledbeetsitem>],80);
-//Beet salad 
+//Beet salad
 recipes.removeByRecipeName("harvestcraft:beetsaladitem");
 RecipeBuilder.get("chef")
   .setName("beet_salad")
@@ -1554,7 +1572,7 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:beetsaladitem>)
   .create();
-//Beet soup 
+//Beet soup
 recipes.removeByRecipeName("harvestcraft:beetsoupitem");
 ExSartagine.addKettleRecipe([beet,onion,blackPepper,milkBottle],cookKitKettle,null,[<harvestcraft:beetsoupitem>],80);
 //Baked beets
@@ -1571,7 +1589,7 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:broccolindipitem>)
   .create();
-//Creamed broccoli soup 
+//Creamed broccoli soup
 recipes.removeByRecipeName("harvestcraft:creamedbroccolisoupitem");
 ExSartagine.addKettleRecipe([broccoli,carrot,flour,blackPepper,stock],cookKitKettle,null,[<harvestcraft:creamedbroccolisoupitem>],80);
 //Sweet potato pie
@@ -1583,16 +1601,16 @@ ExSartagine.addKettleRecipe([sweetPotato,sugar,groundCinnamon],cookKitKettle,wat
 //Mashed sweet potatoes
 recipes.removeByRecipeName("harvestcraft:mashedsweetpotatoesitem");
 ExSartagine.addKettleRecipe([sweetPotato,butter],cookKitKettle,null,[<harvestcraft:mashedsweetpotatoesitem>],80);
-//Steamed peas 
+//Steamed peas
 recipes.removeByRecipeName("harvestcraft:steamedpeasitem_dustsalt");
 ExSartagine.addKettleRecipe([peas,salt],null,waterBucket,[<harvestcraft:steamedpeasitem>],80);
 //Split pea soup
 recipes.removeByRecipeName("harvestcraft:splitpeasoupitem");
 ExSartagine.addKettleRecipe([peas,rawPork,blackPepper,stock],null,null,[<harvestcraft:splitpeasoupitem>],80);
-//Pineapple ham 
+//Pineapple ham
 recipes.removeByRecipeName("harvestcraft:pineapplehamitem");
 ExSartagine.addKettleRecipe([pineapple,rawPork,cherry,sugar],cookKitKettle,null,[<harvestcraft:pineapplehamitem>],80);
-//Turnip soup 
+//Turnip soup
 recipes.removeByRecipeName("harvestcraft:turnipsoupitem");
 ExSartagine.addKettleRecipe([turnip,pumpkin,butter,stock],cookKitKettle,null,[<harvestcraft:turnipsoupitem>],80);
 //Roasted root veggie medley
@@ -1606,7 +1624,7 @@ recipes.removeByRecipeName("harvestcraft:roastedrootveggiemedleyitem_croppotato"
 recipes.removeByRecipeName("harvestcraft:roastedrootveggiemedleyitem_cropparsnip");
 recipes.removeByRecipeName("harvestcraft:roastedrootveggiemedleyitem_cropbeet");
 ExSartagine.addKettleRecipe([tuber,tuber,stewCondiment,spice],cookKitKettle,null,[<harvestcraft:roastedrootveggiemedleyitem>],80);
-//Baked turnips 
+//Baked turnips
 recipes.removeByRecipeName("harvestcraft:bakedturnipsitem_dustsalt");
 ExSartagine.addKettleRecipe([turnip,butter,salt,blackPepper],cookKitKettle,null,[<harvestcraft:bakedturnipsitem>],80);
 //Ginger bread
@@ -1653,7 +1671,7 @@ RecipeBuilder.get("chef")
   .setShapeless([garlic,toast,butter])
   .addOutput(<harvestcraft:garlicbreaditem>)
   .create();
-//Garlic mashed potatoes -&C 
+//Garlic mashed potatoes -&C
 recipes.removeByRecipeName("harvestcraft:garlicmashedpotatoesitem");
 recipes.addShapeless("garlic_mashed_potatoes",<harvestcraft:garlicmashedpotatoesitem>,[garlic,<harvestcraft:mashedpotatoesitem>,cookKitBad]);
 RecipeBuilder.get("chef")
@@ -1662,7 +1680,7 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:garlicmashedpotatoesitem>)
   .create();
-//Garlic chicken 
+//Garlic chicken
 recipes.removeByRecipeName("harvestcraft:garlicchickenitem");
 ExSartagine.addKettleRecipe([garlic,garlic,garlic,cookingOil,rawChicken],null,null,[<harvestcraft:garlicchickenitem>],80);
 //Summer radish salad -&C
@@ -1747,7 +1765,7 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:avocadoburritoitem>)
   .create();
-//Poached pear 
+//Poached pear
 recipes.removeByRecipeName("harvestcraft:poachedpearitem");
 ExSartagine.addKettleRecipe([pear,<harvestcraft:vanillaitem>,sugar],null,waterBottle,[<harvestcraft:poachedpearitem>],80);
 //Fruit crumble
@@ -1761,13 +1779,13 @@ RecipeBuilder.get("chef")
   .setShapeless([banana,cocoaPowder,cherry,iceCream,strawberry])
   .addOutput(<harvestcraft:bananasplititem>)
   .create();
-//Banana nut bread 
+//Banana nut bread
 recipes.removeByRecipeName("harvestcraft:banananutbreaditem_dustsalt");
 ExSartagine.addKettleRecipe([banana,flour,walnut,milkBottle,salt],null,null,[<harvestcraft:banananutbreaditem>],80);
 //Coconut milk
 recipes.removeByRecipeName("harvestcraft:coconutmilkitem");
 Mortar.addRecipe(["stone"], coconutMilk, 4, [coconut]);
-//Chicken curry 
+//Chicken curry
 recipes.removeByRecipeName("harvestcraft:chickencurryitem");
 ExSartagine.addKettleRecipe([coconut,yogurt,rawChicken,spice,chili,rice,groundCinnamon,garlic],cookKitKettle,waterBottle2,[<harvestcraft:chickencurryitem>],80);
 //Coconut shrimp
@@ -1779,7 +1797,7 @@ ExSartagine.addKettleRecipe([orange,rawChicken,sugar,rice,broccoli],cookKitKettl
 //Peach cobbler
 recipes.removeByRecipeName("harvestcraft:peachcobbleritem");
 ExSartagine.addKettleRecipe([peach,sugar,dough],cookKitKettle,null,[<harvestcraft:peachcobbleritem>],80);
-//Keylime pie 
+//Keylime pie
 recipes.removeByRecipeName("harvestcraft:keylimepieitem");
 ExSartagine.addKettleRecipe([lime,meringue,sugar,dough],cookKitKettle,null,[<harvestcraft:keylimepieitem>],80);
 //Cinnamon rolls
@@ -1788,7 +1806,7 @@ ExSartagine.addKettleRecipe([groundCinnamon,sugar,dough],cookKitKettle,null,[<ha
 //Yolk bread
 recipes.removeByRecipeName("harvestcraft:frenchtoastitem");
 ExSartagine.addKettleRecipe([groundCinnamon,toast,sugar,egg],null,null,[<harvestcraft:frenchtoastitem>],80);
-//Marshmallows and Traditional Marshmallow 
+//Marshmallows and Traditional Marshmallow
 recipes.removeByRecipeName("harvestcraft:marshmellowsitem");
 ExSartagine.addKettleRecipe([sugar,egg],null,waterBottle,[<harvestcraft:marshmellowsitem>*2],80);
 Mortar.addRecipe(["stone"], <pyrotech:marshmallow>*2, 4, [<harvestcraft:marshmellowsitem>*2,<contenttweaker:perforata>]);
@@ -1813,7 +1831,7 @@ RecipeBuilder.get("chef")
   .setShapeless([donut,<harvestcraft:grapejellyitem>])
   .addOutput(<harvestcraft:jellydonutitem>)
   .create();
-//Frosted donut 
+//Frosted donut
 recipes.removeByRecipeName("harvestcraft:frosteddonutitem");
 recipes.addShapeless("frosted_donut",<harvestcraft:frosteddonutitem>,[donut,sugar,sprinkles]);
 RecipeBuilder.get("chef")
@@ -1827,13 +1845,13 @@ ExSartagine.addKettleRecipe([<ore:blockCactus>|<biomesoplenty:plant_1:6>,stock],
 //Waffles
 recipes.removeByRecipeName("harvestcraft:wafflesitem");
 ExSartagine.addKettleRecipe([batter,milkBottle,butter],null,null,[<harvestcraft:wafflesitem>],80);
-//Seed soup 
+//Seed soup
 recipes.removeByRecipeName("harvestcraft:seedsoupitem");
 ExSartagine.addKettleRecipe([seed,seed,seed,stock],null,null,[<harvestcraft:seedsoupitem>],80);
 //Soft pretzel
 recipes.removeByRecipeName("harvestcraft:softpretzelitem");
 ExSartagine.addKettleRecipe([dough,butter,salt],cookKitKettle,waterBottle,[<harvestcraft:softpretzelitem>],80);
-//Jellybeans 
+//Jellybeans
 recipes.removeByRecipeName("harvestcraft:jellybeansitem");
 ExSartagine.addKettleRecipe([sugar,sugar,sugar,syrup],cookKitKettle,null,[<harvestcraft:jellybeansitem>*4],80);
 //Biscuit
@@ -1856,10 +1874,10 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:footlongitem>)
   .create();
-//Blackberry cobbler 
+//Blackberry cobbler
 recipes.removeByRecipeName("harvestcraft:blackberrycobbleritem");
 ExSartagine.addKettleRecipe([blackberry,sugar,dough],cookKitKettle,null,[<harvestcraft:blackberrycobbleritem>],80);
-//Chocolate milk -&C 
+//Chocolate milk -&C
 recipes.removeByRecipeName("harvestcraft:chocolatemilkitem");
 recipes.addShapeless("chocolate_milk",<harvestcraft:chocolatemilkitem>,[milkBottle,cocoaPowder]);
 RecipeBuilder.get("chef")
@@ -1870,13 +1888,13 @@ RecipeBuilder.get("chef")
 //Raspberry pie
 recipes.removeByRecipeName("harvestcraft:raspberrypieitem");
 ExSartagine.addKettleRecipe([raspberry,sugar,dough],cookKitKettle,null,[<harvestcraft:raspberrypieitem>],80);
-//Cinnamon sugar donut -&C 
+//Cinnamon sugar donut -&C
 RecipeBuilder.get("chef")
   .setName("cinnamon_sugar_donut")
   .setShapeless([donut,sugar,groundCinnamon])
   .addOutput(<harvestcraft:cinnamonsugardonutitem>)
   .create();
-//Salted sunflower seeds -&C 
+//Salted sunflower seeds -&C
 RecipeBuilder.get("chef")
   .setName("salted_sunflower_seeds")
   .setShapeless([sunflowerSeed,salt])
@@ -1898,7 +1916,7 @@ ExSartagine.addKettleRecipe([sunflowerSeed,broccoli,mayo,sugar,rawPork],cookKitK
 //Cranberry sauce
 recipes.removeByRecipeName("harvestcraft:cranberrysauceitem");
 Mortar.addRecipe(["stone"], <harvestcraft:cranberrysauceitem>, 4, [cranberry,sugar]);
-//Cranberry bar 
+//Cranberry bar
 recipes.removeByRecipeName("harvestcraft:cranberrybaritem");
 ExSartagine.addKettleRecipe([cranberry,sugar,dough],cookKitKettle,null,[<harvestcraft:cranberrybaritem>],80);
 //Peppermint
@@ -2134,4 +2152,148 @@ for key, value in jellyFruitAndSandwich {
   .create();
 }
 
+//Bubbly water
+recipes.remove(bubblyWater);
+recipes.addShapeless("bubbly_water",bubblyWater,[cookKitBad]);
+
+//Carbonated Sparkling Drinks
+var sodas as IItemStack[IItemStack] = {
+  <harvestcraft:cherrysodaitem> : <harvestcraft:cherryjuiceitem>,
+  <harvestcraft:colasodaitem> : <harvestcraft:spiceleafitem>,
+  <harvestcraft:gingersodaitem> : <harvestcraft:gingeritem>,
+  <harvestcraft:grapesodaitem> : <harvestcraft:grapejuiceitem>,
+  <harvestcraft:orangesodaitem> : <harvestcraft:orangejuiceitem>,
+  <harvestcraft:rootbeersodaitem> : <harvestcraft:ediblerootitem>,
+  <harvestcraft:strawberrysodaitem> : <harvestcraft:strawberryjuiceitem>,
+  <harvestcraft:grapefruitsodaitem> : <harvestcraft:grapefruitjuiceitem>
+};
+
+for key, value in sodas {
+  recipes.remove(key);
+  ExSartagine.addKettleRecipe([bubblyWater,sugar,value],cookKitKettle,null,[key],80);
+}
+
+//lemon-lime soda
+recipes.remove(<harvestcraft:lemonlimesodaitem>);
+ExSartagine.addKettleRecipe([bubblyWater,sugar,lemon,lime],cookKitKettle,null,[<harvestcraft:lemonlimesodaitem>],80);
+
+//root bear (do later)
+
+//caramel ice cream
+RecipeBuilder.get("chef")
+  .setName("caramel_ice_cream")
+  .setShapeless([milkBottle, snowball, salt, caramel])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:caramelicecreamitem>*3)
+  .create();
+//mint chocolate chip ice cream
+RecipeBuilder.get("chef")
+  .setName("mint_chocolate_ice_cream")
+  .setShapeless([milkBottle, snowball, salt, mint, chocolateBar])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:mintchocolatechipicecreamitem>*3)
+  .create();
+//strawberry ice cream
+RecipeBuilder.get("chef")
+  .setName("strawberry_ice_cream")
+  .setShapeless([milkBottle, snowball, salt, strawberry])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:strawberryicecreamitem>*3)
+  .create();
+//vanilla ice cream
+RecipeBuilder.get("chef")
+  .setName("vanilla_ice_cream")
+  .setShapeless([milkBottle, snowball, salt, vanillaBean])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:vanillaicecreamitem>*3)
+  .create();
+//Ginger Chicken
+recipes.remove(<harvestcraft:gingerchickenitem>);
+ExSartagine.addKettleRecipe([rawChicken,ginger,scallion,honey],cookKitKettle,null,[<harvestcraft:gingerchickenitem>],80);
+//Old World Veggie Soup -&R
+recipes.remove(<harvestcraft:oldworldveggiesoupitem>);
+ExSartagine.addKettleRecipe([stewCondiment,stewCondiment,stock,barley],cookKitKettle,null,[<harvestcraft:oldworldveggiesoupitem>],80);
+//Spice Bun
+recipes.remove(<harvestcraft:spicebunitem>);
+ExSartagine.addKettleRecipe([dough,milkBottle,groundNutmeg,groundCinnamon,<harvestcraft:raisinsitem>],cookKitKettle,null,[<harvestcraft:spicebunitem>],80);
+//Gingered Rhubarb Tart
+recipes.remove(<harvestcraft:gingeredrhubarbtartitem>);
+ExSartagine.addKettleRecipe([dough,rhubarb,ginger,sugar,egg],cookKitKettle,null,[<harvestcraft:gingeredrhubarbtartitem>],80);
+//Lamb Barely Stew
+recipes.remove(<harvestcraft:lambbarleysoupitem>);
+ExSartagine.addKettleRecipe([stock,rawMutton,barley,stewCondiment,stewCondiment],cookKitKettle,null,[<harvestcraft:lambbarleysoupitem>],80);
+//Honey Lemon Lamb
+recipes.remove(<harvestcraft:honeylemonlambitem>);
+ExSartagine.addKettleRecipe([honey,lemon,rawMutton,mustard],cookKitKettle,null,[<harvestcraft:honeylemonlambitem>],80);
+//Pumpkin Oat Scones
+recipes.remove(<harvestcraft:pumpkinoatsconesitem>);
+ExSartagine.addKettleRecipe([dough,pumpkin,oats,sugar],cookKitKettle,null,[<harvestcraft:pumpkinoatsconesitem>],80);
+//Beef Jerky
+/* (needs salted meat for drying rack)
+DryingRack.addRecipe("beef_jerky", <harvestcraft:beefjerkyitem>, meatSalted, 120 * 30);
+*/
+//Oven Roasted Cauliflower -&R
+recipes.remove(<harvestcraft:ovenroastedcaulifloweritem>);
+ExSartagine.addKettleRecipe([cauliflower,cookingOil,garlic,lemon],cookKitKettle,null,[<harvestcraft:ovenroastedcaulifloweritem>],80);
+//Leek Bacon Soup -&R
+recipes.remove(<harvestcraft:leekbaconsoupitem>);
+ExSartagine.addKettleRecipe([leek,rawPork,stewCondiment,heavyCream],cookKitKettle,null,[<harvestcraft:leekbaconsoupitem>],80);
+//Herb Butter Parsnips -&R
+recipes.remove(<harvestcraft:herbbutterparsnipsitem>);
+ExSartagine.addKettleRecipe([spice,butter,parsnip],cookKitKettle,null,[<harvestcraft:herbbutterparsnipsitem>],80);
+//Scalion Baked Potato
+recipes.remove(<harvestcraft:scallionbakedpotatoitem>);
+ExSartagine.addKettleRecipe([scallion,potato,heavyCream],cookKitKettle,null,[<harvestcraft:scallionbakedpotatoitem>],80);
+//Soy Milk - do we keep in or not? if so, we have to do a lore-friendly way of adding it
+JEI.removeAndHide(<harvestcraft:soymilkitem>);
+////////////////////////////////////////////////////
+//Firm Tofu
+recipes.remove(firmTofu);
+RecipeBuilder.get("chef")
+  .setName("firm_tofu")
+  .setShapeless([silkenTofu])
+  .addTool(cookKit, 1)
+  .addOutput(firmTofu)
+  .create();
+//Silken Tofu
+recipes.remove(silkenTofu);
+RecipeBuilder.get("chef")
+  .setName("silken_tofu")
+  .setShapeless([soybean])
+  .addTool(cookKit, 3)
+  .addOutput(silkenTofu)
+  .create();
+//Bamboo Steamed Rice -&R
+recipes.remove(<harvestcraft:bamboosteamedriceitem>);
+ExSartagine.addKettleRecipe([bambooShoot, rice],cookKitKettle,waterBottle2,[<harvestcraft:bamboosteamedriceitem>],80);
+//Roasted Chestnut
+recipes.remove(<harvestcraft:roastedchestnutitem>);
+ExSartagine.addPanRecipe(chestnut,<harvestcraft:roastedchestnutitem>);
+//Sweet Potato Souffle
+recipes.remove(<harvestcraft:sweetpotatosouffleitem>);
+ExSartagine.addKettleRecipe([sweetPotato,pecan,dough,butter],cookKitKettle,null,[<harvestcraft:sweetpotatosouffleitem>],80);
+//Cashew Chicken -&R
+recipes.remove(<harvestcraft:cashewchickenitem>);
+ExSartagine.addKettleRecipe([rawChicken,cashew,rice,pepper],cookKitKettle,null,[<harvestcraft:cashewchickenitem>],80);
+//Apricot Glazed Pork
+recipes.remove(<harvestcraft:apricotglazedporkitem>);
+recipes.addShapeless("apricot_glazed_pork",<harvestcraft:apricotglazedporkitem>,[cookedPork,<harvestcraft:apricotjellyitem>,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("apricot_glazed_pork")
+  .setShapeless([cookedPork,<harvestcraft:apricotjellyitem>])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:apricotglazedporkitem>)
+  .create();
+//Fig bar
+recipes.remove(<harvestcraft:figbaritem>);
+ExSartagine.addKettleRecipe([fig,sugar,dough],cookKitKettle,null,[<harvestcraft:figbaritem>],80);
+//Citrus Salad
+recipes.remove(<harvestcraft:citrussaladitem>);
+recipes.addShapeless("citrus_salad",<harvestcraft:citrussaladitem>,[citrus,lettuce,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("citrus_salad")
+  .setShapeless([citrus,lettuce])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:citrussaladitem>)
+  .create();
 //!!!!!!!! Concept idea: "ye olde stew"; an item that can be crafted by throwing an assortment of raw ingredients to the pot which will result in a variable amount of said item. Intended for players who don't want to fiddle with different recipes and just want to use their random ingredients without thinking much. This item has absolutely no other use or buff other than just its saturation and food level; insipid due to lack of ability in its preparation

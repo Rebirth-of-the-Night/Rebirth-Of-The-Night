@@ -76,3 +76,8 @@ recipes.addShapeless("dirt_bucket_stone", <dynamictrees:dirtbucket>,
 recipes.addShapeless("dirt_bucket_return", <pyrotech:bucket_stone>,
 	[<dynamictrees:dirtbucket>]
 );
+//bamboo to bamboo shoot for greater yield
+recipes.addShaped("bamboo_to_bamboo_shoot", <dynamictreesbop:bambooseed>,
+ [[null,null,null],
+  [null,<ore:shears>,null],
+  [<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>]]);

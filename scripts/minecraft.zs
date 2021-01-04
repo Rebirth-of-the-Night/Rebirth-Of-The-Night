@@ -829,7 +829,7 @@ for item in mushroom.items{
 }
 
 val stewCondiment = <ore:listAllStewcondiment>;
-stewCondiment.add(<harvestcraft:onionitem>,<harvestcraft:bellpepperitem>,<minecraft:carrot>,<harvestcraft:cornitem>);
+stewCondiment.add(<harvestcraft:onionitem>,<harvestcraft:bellpepperitem>,<minecraft:carrot>,<harvestcraft:cornitem>,<harvestcraft:scallionitem>,<harvestcraft:leekitem>);
 
 val tuber = <ore:listAllTuber>;
 tuber.addAll(<ore:listAllrootveggie>);
