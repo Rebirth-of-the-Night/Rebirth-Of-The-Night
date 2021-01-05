@@ -48,4 +48,4 @@ ArcaneWorld.createRitualSummon("pixie", "Pixie Calling", "iceandfire:if_pixie", 
 //ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
 ArcaneWorld.createRitualCreateItem("undying_heart", "Heart Curse", <mod_lavacow:undyingheart>, [<contenttweaker:plague_rune>.anyDamage().transformDamage(),<defiledlands:black_heart>]);
 ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledlands:black_heart>, [<defiledlands:defilement_powder>,<mod_lavacow:undyingheart>]);
-
+ArcaneWorld.createRitualCreateItem("arcane_focus_unattuned", "Arcanic Intent", <contenttweaker:arcane_focus_unattuned>.withDamage(16), [<contenttweaker:slider_eye>,<aether_legacy:aetherium_core>,<contenttweaker:magicked_lens>]);
