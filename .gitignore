@@ -86,3 +86,13 @@ config/fantasticlib/reference/blockstates.txt
 config/fantasticlib/reference/blocks.txt
 config/fantasticlib/reference/biomes.txt
 shaderpacks/Tea_V1.5.0.zip
+config/fantasticlib/reference/blocks.txt
+config/fantasticlib/reference/blockstates.txt
+config/fantasticlib/reference/enchantments.txt
+config/fantasticlib/reference/entities.txt
+config/fantasticlib/reference/items.txt
+config/fantasticlib/reference/oredict.txt
+config/fantasticlib/reference/players.txt
+config/fantasticlib/reference/potion_types.txt
+config/fantasticlib/reference/recipes.txt
+config/InvTweaks.cfg
