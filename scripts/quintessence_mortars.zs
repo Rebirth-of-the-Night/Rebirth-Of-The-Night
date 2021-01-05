@@ -299,14 +299,22 @@ illusionQuintessenceA.add(
     <ceramics:clay_wall:7>,
     <ceramics:clay_slab:6>,
     <ceramics:rainbow_clay:*>,
-    <inspirations:enlightened_bush:4>
+    <inspirations:enlightened_bush:4>,
+    <cyclicmagic:horse_upgrade_variant>
 );
 
 // Illusion B - Invisibility - things that go invisible, transparent
 val illusionQuintessenceB = <ore:illusionQuintessenceB>;
 
 illusionQuintessenceB.add(
-    <endreborn:block_phantom>
+    <endreborn:block_phantom>,
+    <minecraft:potion>.withTag({Potion: "minecraft:invisibility"}),
+    <minecraft:potion>.withTag({Potion: "minecraft:long_invisibility"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:invisibility"}),
+    <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_invisibility"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:invisibility"}),
+    <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"}),
+    <aether_legacy:invisibility_cape>
 );
 
 // Transformation A - Things that tranform other things
@@ -317,7 +325,9 @@ transformationQuintessenceA.add(
     <twilightforest:twilight_sapling:6>,
     <twilightforest:magic_leaves:1>,
     <twilightforest:magic_log_core:1>,
-    <rats:plague_doctorate>
+    <rats:plague_doctorate>,
+    <cyclicmagic:horse_upgrade_variant>,
+    <dynamictrees:dendropotion:2>
 );
 
 // Transformation B - Things that transform themselves
@@ -325,7 +335,9 @@ val transformationQuintessenceB = <ore:transformationQuintessenceB>;
 
 transformationQuintessenceB.add(
     <aether_legacy:chest_mimic>,
-    <mod_lavacow:mimic_claw>
+    <mod_lavacow:mimic_claw>,
+    <butterflies:butterfly>,
+    <exsartagine:yeast>
 );
 
 // Knowledge A - Ancient knowledge (lore books, enchants, etc)
