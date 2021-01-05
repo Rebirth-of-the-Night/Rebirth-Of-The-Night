@@ -1,18 +1,21 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.ltt.LootTable;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-mods.jei.JEI.removeAndHide(<twilightforest:cinder_furnace>);
+JEI.removeAndHide(<twilightforest:cinder_furnace>);
 furnace.remove(<twilightforest:cinder_furnace>);
 
+JEI.removeAndHide(<twilightforest:ore_magnet>);
+LootTable.removeGlobalItem("twilightforest:ore_magnet");
 
-mods.ltt.LootTable.removeGlobalItem("twilightforest:transformation_powder");
-mods.ltt.LootTable.removeGlobalItem("twilightforest:uncrafting_table");
-mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table>);
-mods.jei.JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "twilightforest:guide"}));
+LootTable.removeGlobalItem("twilightforest:transformation_powder");
+LootTable.removeGlobalItem("twilightforest:uncrafting_table");
+JEI.removeAndHide(<twilightforest:uncrafting_table>);
+JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "twilightforest:guide"}));
 
 recipes.remove(<twilightforest:castle_pillar:1>);
 recipes.addShaped("encased_castle_brick_tile",<twilightforest:castle_pillar:1>,[
@@ -81,12 +84,12 @@ recipes.remove(<twilightforest:charm_of_keeping_1>);
 recipes.remove(<twilightforest:charm_of_life_2>);
 recipes.remove(<twilightforest:charm_of_life_1>);
 
-mods.jei.JEI.removeAndHide(<twilightforest:charm_of_keeping_2>);
+JEI.removeAndHide(<twilightforest:charm_of_keeping_2>);
 
-mods.jei.JEI.addDescription([<twilightforest:charm_of_keeping_1>],["With this charm in your inventory, your armor will be kept on death."]);
-mods.jei.JEI.addDescription([<twilightforest:charm_of_life_1>],["With this charm in your inventory, you will restore 5 hearts and gain Regeneration I for 5 seconds on a fatal blow to you."]);
-mods.jei.JEI.addDescription([<twilightforest:charm_of_keeping_3>],["With this charm in your inventory, your entire inventory will be kept on death."]);
-mods.jei.JEI.addDescription([<twilightforest:charm_of_life_2>],["With this charm in your inventory, you will restore 10 hearts and gain Regeneration IV, Fire Resistance I, and Resistance I for 30 seconds on a fatal blow to you."]);
+JEI.addDescription([<twilightforest:charm_of_keeping_1>],["With this charm in your inventory, your armor will be kept on death."]);
+JEI.addDescription([<twilightforest:charm_of_life_1>],["With this charm in your inventory, you will restore 5 hearts and gain Regeneration I for 5 seconds on a fatal blow to you."]);
+JEI.addDescription([<twilightforest:charm_of_keeping_3>],["With this charm in your inventory, your entire inventory will be kept on death."]);
+JEI.addDescription([<twilightforest:charm_of_life_2>],["With this charm in your inventory, you will restore 10 hearts and gain Regeneration IV, Fire Resistance I, and Resistance I for 30 seconds on a fatal blow to you."]);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -151,24 +154,50 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-  
-recipes.addShaped(<twilightforest:ore_map_empty>, [
-   [<bountifulbaubles:spectralsilt>, <contenttweaker:earth_rune>.anyDamage().transformDamage(), <bountifulbaubles:spectralsilt>],
-   [<wards:enchanted_paper>, <twilightforest:maze_map_focus>, null], 
-   [<dungeontactics:magic_powder>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage(), <dungeontactics:magic_powder>]]);
 
-recipes.addShaped(<twilightforest:maze_map_empty>, [
-   [null, null, null],
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<dungeontactics:magic_powder>, <contenttweaker:material_part:16>, <dungeontactics:magic_powder>],
+    [<contenttweaker:material_part:16>, <minecraft:compass>, <contenttweaker:material_part:16>], 
+    [<bountifulbaubles:spectralsilt>, <contenttweaker:material_part:16>, <bountifulbaubles:spectralsilt>]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addOutput(<twilightforest:maze_map_focus>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+   [null, <ore:blockDiamond>, null],
+   [<wards:enchanted_paper>, <twilightforest:maze_map_empty>, <minecraft:map>], 
+   [null, <ore:oreDiamond>, null]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addOutput(<twilightforest:ore_map_empty>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+   [null, <contenttweaker:brain>, null],
    [<wards:enchanted_paper>, <twilightforest:maze_map_focus>, <minecraft:map>], 
-   [null, <contenttweaker:knowledge_rune>.anyDamage().transformDamage(), null]]);
+   [null, <endreborn:block_phantom>, null]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addTool(<contenttweaker:mind_rune>, 1)
+  .addOutput(<twilightforest:maze_map_empty>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
-recipes.addShaped(<twilightforest:magic_map_empty>, [
-   [null, null, null],
+RecipeBuilder.get("mage")
+  .setShaped([
+   [null, <ore:arcaneWood>, null],
    [<wards:enchanted_paper>, <twilightforest:magic_map_focus>, <minecraft:map>], 
-   [null, <contenttweaker:knowledge_rune>.anyDamage().transformDamage(), null]]);
-
-mods.betterwithaddons.Infuser.addShaped(<twilightforest:maze_map_focus>, [
-   [<dungeontactics:magic_powder>, <contenttweaker:material_part:16>, <dungeontactics:magic_powder>],
-   [<contenttweaker:material_part:16>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage(), <contenttweaker:material_part:16>], 
-   [<bountifulbaubles:spectralsilt>, <contenttweaker:material_part:16>, <bountifulbaubles:spectralsilt>]],
-   16);
+   [null, <contenttweaker:magicked_lens>, null]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addTool(<contenttweaker:arcane_rune>, 1)
+  .addOutput(<twilightforest:magic_map_empty>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();

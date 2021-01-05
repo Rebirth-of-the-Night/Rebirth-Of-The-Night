@@ -78,12 +78,11 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <betterwithaddons:ancestry_bottle>.displayName = "Bottled Spirits";
 <betterwithaddons:lattice:0>.displayName = "Iron Lattice Block";
 
-// Biomes o Plenty
-<biomesoplenty:honeycomb>.displayName = "Giant Honeycomb Chunk";
-<biomesoplenty:hive>.displayName = "Giant Hive Block";
-<biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
-<biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
-<biomesoplenty:hive>.displayName = "Giant Filled Honeycomb";
+//Biomes o Plenty
+//<biomesoplenty:hive>.displayName = "Giant Hive Block";
+//<biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
+//<biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
+//<biomesoplenty:hive:3>.displayName = "Giant Filled Honeycomb";
 <biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
 
 // Guidebook
@@ -273,7 +272,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // <minecraft:fence_gate>.displayName = "Wooden Fence Gate";
 // <minecraft:wooden_pressure_plate>.displayName = "Wooden Pressure Plate";
 
-// Minecraft Future
+// FutureMC
 <futuremc:andesite_wall>.displayName = "Gray Andesite Wall";
 
 
@@ -395,7 +394,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
-<animania:bee_hive>.displayName = "Wooden Beehive";
 <animania:salt>.displayName = "Crystal Salt";
 
 // Bountiful Baubles
@@ -467,7 +465,7 @@ for potion in potionMap{
 <harvestcraft:wovencottonitem>.displayName = "Woven Cloth";
 <harvestcraft:hamsweetpicklesandwichitem>.displayName = "Sweet Pickle and Ham Sandwich";
 <harvestcraft:pbandjitem>.displayName = "PBJ Sandwich"; 
-<harvestcraft:ricecakeitem>.displayName = "Puffed Rice"; 
+<harvestcraft:ricecakeitem>.displayName = "Puffed Rice";
 
 // Better with Addons
 <betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";

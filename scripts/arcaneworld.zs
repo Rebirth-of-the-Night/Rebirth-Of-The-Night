@@ -5,21 +5,26 @@ import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
 import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.ArcaneWorld;
+import mods.ltt.LootTable;
 
-mods.jei.JEI.removeAndHide(<arcaneworld:sapphire>);
-mods.jei.JEI.removeAndHide(<arcaneworld:block_sapphire>);
-mods.jei.JEI.removeAndHide(<arcaneworld:amethyst>);
-mods.jei.JEI.removeAndHide(<arcaneworld:block_amethyst>);
-mods.jei.JEI.removeAndHide(<arcaneworld:ore_sapphire>);
-mods.jei.JEI.removeAndHide(<arcaneworld:ore_amethyst>);
-mods.jei.JEI.removeAndHide(<arcaneworld:ore_amethyst_nether>);
+JEI.removeAndHide(<arcaneworld:sapphire>);
+JEI.removeAndHide(<arcaneworld:block_sapphire>);
+JEI.removeAndHide(<arcaneworld:amethyst>);
+JEI.removeAndHide(<arcaneworld:block_amethyst>);
+JEI.removeAndHide(<arcaneworld:ore_sapphire>);
+JEI.removeAndHide(<arcaneworld:ore_amethyst>);
+JEI.removeAndHide(<arcaneworld:ore_amethyst_nether>);
+JEI.removeAndHide(<arcaneworld:biome_crystal>);
+JEI.removeAndHide(<arcaneworld:potion_orb>);
 
-mods.ltt.LootTable.removeGlobalItem("arcaneworld:sapphire");
-mods.ltt.LootTable.removeGlobalItem("arcaneworld:amethyst");
-mods.ltt.LootTable.removeGlobalItem("arcaneworld:block_sapphire");
-mods.ltt.LootTable.removeGlobalItem("arcaneworld:block_amethyst");
+LootTable.removeGlobalItem("arcaneworld:sapphire");
+LootTable.removeGlobalItem("arcaneworld:amethyst");
+LootTable.removeGlobalItem("arcaneworld:block_sapphire");
+LootTable.removeGlobalItem("arcaneworld:block_amethyst");
+LootTable.removeGlobalItem("arcaneworld:biome_crystal");
 
-mods.ArcaneWorld.removeAll();
+ArcaneWorld.removeAll();
 recipes.remove(<arcaneworld:levitator>);
 recipes.remove(<arcaneworld:ritual_table>);
 
@@ -37,10 +42,10 @@ RecipeBuilder.get("mage")
   .create();
 
 //Mob summoning
-//mods.ArcaneWorld.createRitualSummon(String name, String displayName, String entity, IIngredient... inputs)
-mods.ArcaneWorld.createRitualSummon("pixie", "Pixie Calling", "iceandfire:if_pixie", [<contenttweaker:fae_rune>.anyDamage().transformDamage(),<ore:Gem_highQuality>]);
+//ArcaneWorld.createRitualSummon(String name, String displayName, String entity, IIngredient... inputs)
+ArcaneWorld.createRitualSummon("pixie", "Pixie Calling", "iceandfire:if_pixie", [<contenttweaker:fae_rune>.anyDamage().transformDamage(),<ore:Gem_highQuality>]);
 //Item summoning
-//mods.ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
-mods.ArcaneWorld.createRitualCreateItem("undying_heart", "Heart Curse", <mod_lavacow:undyingheart>, [<contenttweaker:plague_rune>.anyDamage().transformDamage(),<defiledlands:black_heart>]);
-mods.ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledlands:black_heart>, [<defiledlands:defilement_powder>,<mod_lavacow:undyingheart>]);
+//ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
+ArcaneWorld.createRitualCreateItem("undying_heart", "Heart Curse", <mod_lavacow:undyingheart>, [<contenttweaker:plague_rune>.anyDamage().transformDamage(),<defiledlands:black_heart>]);
+ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledlands:black_heart>, [<defiledlands:defilement_powder>,<mod_lavacow:undyingheart>]);
 

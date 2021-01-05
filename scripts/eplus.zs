@@ -3,60 +3,68 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 import mods.jei.JEI;
+import mods.rockytweaks.Anvil;
+import mods.eplus.Eplus;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 
-//mods.eplus.Eplus.blacklistItem(<msmlegacy:wither_bane>);
-//mods.eplus.Eplus.blacklistItem(<atop:amethyst_sword>);
+// Eplus.blacklistItem(<msmlegacy:wither_bane>);
+// Eplus.blacklistItem(<atop:amethyst_sword>);
 
-mods.jei.JEI.removeAndHide(<eplus:decorative_book:1>);
-mods.jei.JEI.removeAndHide(<eplus:decorative_book:2>);
-mods.jei.JEI.removeAndHide(<eplus:decorative_book:3>);
-mods.jei.JEI.removeAndHide(<eplus:decorative_book:4>);
-mods.jei.JEI.removeAndHide(<eplus:decorative_book:5>);
-mods.jei.JEI.removeAndHide(<eplus:decorative_book:6>);
+JEI.removeAndHide(<eplus:decorative_book:1>);
+JEI.removeAndHide(<eplus:decorative_book:2>);
+JEI.removeAndHide(<eplus:decorative_book:3>);
+JEI.removeAndHide(<eplus:decorative_book:4>);
+JEI.removeAndHide(<eplus:decorative_book:5>);
+JEI.removeAndHide(<eplus:decorative_book:6>);
 
 
 
 recipes.remove(<eplus:advanced_table>);
 recipes.remove(<eplus:table_upgrade>);
 
-recipes.addShaped("Table Upgrade", <eplus:table_upgrade>,[
-[<minecraft:gold_block>, <eplus:decorative_book>, <minecraft:gold_block>],
-[<minecraft:obsidian>, <ore:ingotMythril>, <minecraft:obsidian>], 
-[<minecraft:gold_block>, <contenttweaker:knowledge_orb>, <minecraft:gold_block>]]);
-      
+RecipeBuilder.get("mage")
+  .setShaped([
+	[<minecraft:gold_block>, <eplus:decorative_book>, <minecraft:gold_block>],
+	[<minecraft:obsidian>, <ore:ingotMythril>, <minecraft:obsidian>], 
+	[<minecraft:gold_block>, <wards:enchanted_paper>, <minecraft:gold_block>]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<eplus:table_upgrade>)
+  .create();
 
 
-mods.jei.JEI.hideCategory("minecraft.anvil");
-mods.jei.JEI.hideCategory("endreborn.user");
+JEI.hideCategory("minecraft.anvil");
+JEI.hideCategory("endreborn.user");
 
 
-mods.rockytweaks.Anvil.remove([<dungeontactics:silver_sword>]); // true darks edge
-mods.rockytweaks.Anvil.remove([<msmlegacy:dawn_star:*>]); // true lights edge
-mods.rockytweaks.Anvil.remove([<msmlegacy:eye_end_blade:*>]); // interdim blade
-mods.rockytweaks.Anvil.remove([<msmlegacy:glacial_blade:*>]); // dragons bane
-mods.rockytweaks.Anvil.remove([<msmlegacy:crystaline_blade:*>]); // lights edge
-mods.rockytweaks.Anvil.remove([<msmlegacy:wither_bane:*>]); // darks edge
-mods.rockytweaks.Anvil.remove([<atop:amber_sword>]); // mari
-mods.rockytweaks.Anvil.remove([<msmlegacy:relic_aqueous:*>]);
-mods.rockytweaks.Anvil.remove([<msmlegacy:relic_candy:*>]);
+Anvil.remove([<dungeontactics:silver_sword>]); // true darks edge
+Anvil.remove([<msmlegacy:dawn_star:*>]); // true lights edge
+Anvil.remove([<msmlegacy:eye_end_blade:*>]); // interdim blade
+Anvil.remove([<msmlegacy:glacial_blade:*>]); // dragons bane
+Anvil.remove([<msmlegacy:crystaline_blade:*>]); // lights edge
+Anvil.remove([<msmlegacy:wither_bane:*>]); // darks edge
+Anvil.remove([<atop:amber_sword>]); // mari
+Anvil.remove([<msmlegacy:relic_aqueous:*>]);
+Anvil.remove([<msmlegacy:relic_candy:*>]);
 
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_pickaxe>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_axe>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_shovel>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_hoe>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_mattock>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_hacksaw>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_helmet>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_chest>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_pants>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_boots>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_spade>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_matchpick>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_machete>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_kukri>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_carpentersaw>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_masonpick>]);
+Anvil.remove([<betterwithmods:steel_pickaxe>]);
+Anvil.remove([<betterwithmods:steel_axe>]);
+Anvil.remove([<betterwithmods:steel_shovel>]);
+Anvil.remove([<betterwithmods:steel_hoe>]);
+Anvil.remove([<betterwithmods:steel_mattock>]);
+Anvil.remove([<betterwithmods:steel_hacksaw>]);
+Anvil.remove([<betterwithmods:steel_helmet>]);
+Anvil.remove([<betterwithmods:steel_chest>]);
+Anvil.remove([<betterwithmods:steel_pants>]);
+Anvil.remove([<betterwithmods:steel_boots>]);
+Anvil.remove([<betterwithaddons:steel_spade>]);
+Anvil.remove([<betterwithaddons:steel_matchpick>]);
+Anvil.remove([<betterwithaddons:steel_machete>]);
+Anvil.remove([<betterwithaddons:steel_kukri>]);
+Anvil.remove([<betterwithaddons:steel_carpentersaw>]);
+Anvil.remove([<betterwithaddons:steel_masonpick>]);
 
 
 
@@ -78,7 +86,7 @@ mods.ltt.LootTable.removeModTable("msmlegacy");
 mods.ltt.LootTable.removeModTable("livingenchantment");
 
 
-mods.jei.JEI.hide(<minecraft:enchanted_book>);
+JEI.hide(<minecraft:enchanted_book>);
 
 /*
 
@@ -101,7 +109,7 @@ for enchant in disabledEnchantments {
 
 		enchantMap = {StoredEnchantments: [enchantTag]};
 
-		mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag(enchantMap));
+		JEI.removeAndHide(<minecraft:enchanted_book>.withTag(enchantMap));
 
 	} 
 

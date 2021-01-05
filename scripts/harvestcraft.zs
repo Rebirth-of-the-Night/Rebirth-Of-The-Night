@@ -1,8 +1,32 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.betterwithmods.Mill;
 
-mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
+JEI.removeAndHide(<harvestcraft:honey>);
+JEI.removeAndHide(<harvestcraft:honeycomb>);
+JEI.removeAndHide(<harvestcraft:honeycombitem>);
+JEI.removeAndHide(<harvestcraft:honeyitem>);
+JEI.removeAndHide(<harvestcraft:waxcomb>);
+JEI.removeAndHide(<harvestcraft:waxcombitem>);
+JEI.removeAndHide(<harvestcraft:beeswaxitem>);
+JEI.removeAndHide(<harvestcraft:beehive>);
+JEI.removeAndHide(<harvestcraft:queenbeeitem>);
+JEI.removeAndHide(<harvestcraft:grubitem>);
+JEI.removeAndHide(<harvestcraft:cookedgrubitem>);
+JEI.removeAndHide(<harvestcraft:royaljellyitem>);
+JEI.removeAndHide(<harvestcraft:apiary>);
+
+<ore:foodHoneydrop>.remove(<harvestcraft:honeyitem>);
+<ore:dropHoney>.remove(<harvestcraft:honeyitem>);
+<ore:listAllsugar>.remove(<harvestcraft:honeyitem>);
+<ore:materialPressedwax>.remove(<harvestcraft:beeswaxitem>);
+<ore:listAllmeatraw>.remove(<harvestcraft:grubitem>);
+<ore:mulchNitrogen>.remove(<harvestcraft:grubitem>);
+furnace.setFuel(<harvestcraft:beeswaxitem>, 0);
+furnace.setFuel(<harvestcraft:pressedwax>, 2400);
+
+JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<minecraft:bread>);
 recipes.remove(<harvestcraft:well>);
 recipes.remove(<harvestcraft:zombiejerkyitem>);
@@ -12,22 +36,22 @@ recipes.remove(<harvestcraft:epicbltitem>);
 recipes.remove(<harvestcraft:sausageinbreaditem>);
 recipes.remove(<harvestcraft:spidereyesoupitem>);
 recipes.remove(<harvestcraft:spidereyepieitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:slimepieitem>);
+JEI.removeAndHide(<harvestcraft:slimepieitem>);
 recipes.remove(<harvestcraft:mobsoupitem>);
 recipes.remove(<harvestcraft:presser>);
 recipes.remove(<harvestcraft:saltitem>);
 
 # replaced these with Rustic's 
-mods.jei.JEI.removeAndHide(<harvestcraft:apple_sapling>);
-mods.jei.JEI.removeAndHide(<harvestcraft:chilipepperitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:chilipepperseeditem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:oliveitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:olive_sapling>);
+JEI.removeAndHide(<harvestcraft:apple_sapling>);
+JEI.removeAndHide(<harvestcraft:chilipepperitem>);
+JEI.removeAndHide(<harvestcraft:chilipepperseeditem>);
+JEI.removeAndHide(<harvestcraft:oliveitem>);
+JEI.removeAndHide(<harvestcraft:olive_sapling>);
 
-mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherhelmitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherchestitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherleggingsitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherbootsitem>);
+JEI.removeAndHide(<harvestcraft:hardenedleatherhelmitem>);
+JEI.removeAndHide(<harvestcraft:hardenedleatherchestitem>);
+JEI.removeAndHide(<harvestcraft:hardenedleatherleggingsitem>);
+JEI.removeAndHide(<harvestcraft:hardenedleatherbootsitem>);
 
 
 recipes.remove(<harvestcraft:minerstewitem>);
@@ -183,51 +207,52 @@ recipes.removeByRecipeName("harvestcraft:minecraft_leather_boots");
 recipes.remove(<harvestcraft:lavendershortbreaditem>);
 recipes.addShapeless("lavender_shortbread",<harvestcraft:lavendershortbreaditem>,[<ore:toolBakeware>,<ore:dyePurple>,<harvestcraft:doughitem>]);
 
-mods.jei.JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:venisonrawitem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:venisoncookeditem>);
+JEI.removeAndHide(<harvestcraft:rainbowcurryitem>);
+JEI.removeAndHide(<harvestcraft:venisonrawitem>);
+JEI.removeAndHide(<harvestcraft:venisoncookeditem>);
 
 
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco1>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco2>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco3>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco4>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco5>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco6>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco7>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco8>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco9>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco10>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco11>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco12>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco13>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco14>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco15>);
-mods.jei.JEI.removeAndHide(<harvestcraft:candledeco16>);
+JEI.removeAndHide(<harvestcraft:candledeco1>);
+JEI.removeAndHide(<harvestcraft:candledeco2>);
+JEI.removeAndHide(<harvestcraft:candledeco3>);
+JEI.removeAndHide(<harvestcraft:candledeco4>);
+JEI.removeAndHide(<harvestcraft:candledeco5>);
+JEI.removeAndHide(<harvestcraft:candledeco6>);
+JEI.removeAndHide(<harvestcraft:candledeco7>);
+JEI.removeAndHide(<harvestcraft:candledeco8>);
+JEI.removeAndHide(<harvestcraft:candledeco9>);
+JEI.removeAndHide(<harvestcraft:candledeco10>);
+JEI.removeAndHide(<harvestcraft:candledeco11>);
+JEI.removeAndHide(<harvestcraft:candledeco12>);
+JEI.removeAndHide(<harvestcraft:candledeco13>);
+JEI.removeAndHide(<harvestcraft:candledeco14>);
+JEI.removeAndHide(<harvestcraft:candledeco15>);
+JEI.removeAndHide(<harvestcraft:candledeco16>);
 
 
 //hideCategory(Grinder and Traps)
-mods.jei.JEI.hideCategory("jehc.ground_trap");
-mods.jei.JEI.hideCategory("jehc.water_trap");
-mods.jei.JEI.hideCategory("jehc.grinder");
+JEI.hideCategory("jehc.ground_trap");
+JEI.hideCategory("jehc.water_trap");
+JEI.hideCategory("jehc.grinder");
+JEI.hideCategory("jehc.apiary");
 
-mods.jei.JEI.removeAndHide(<harvestcraft:groundtrap>);
-mods.jei.JEI.removeAndHide(<harvestcraft:watertrap>);
-mods.jei.JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
+JEI.removeAndHide(<harvestcraft:groundtrap>);
+JEI.removeAndHide(<harvestcraft:watertrap>);
+JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
+JEI.removeAndHide(<harvestcraft:fruitbaititem>);
+JEI.removeAndHide(<harvestcraft:grainbaititem>);
+JEI.removeAndHide(<harvestcraft:veggiebaititem>);
 
-mods.jei.JEI.removeAndHide(<harvestcraft:groundtrap>);
-mods.jei.JEI.removeAndHide(<harvestcraft:watertrap>);
-mods.jei.JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
-mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
+JEI.removeAndHide(<harvestcraft:groundtrap>);
+JEI.removeAndHide(<harvestcraft:watertrap>);
+JEI.removeAndHide(<harvestcraft:fishtrapbaititem>);
+JEI.removeAndHide(<harvestcraft:fruitbaititem>);
+JEI.removeAndHide(<harvestcraft:grainbaititem>);
+JEI.removeAndHide(<harvestcraft:veggiebaititem>);
+JEI.removeAndHide(<harvestcraft:grinder>);
 
 recipes.remove(<harvestcraft:hardenedleatheritem>);
-recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<harvestcraft:beeswaxitem>,<betterwithmods:material:6>]);
+recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<ore:wax>,<betterwithmods:material:6>]);
 
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_x8_cropcandle");
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_cropcandle");
@@ -278,25 +303,30 @@ recipes.addShaped("food_presser", <harvestcraft:presser>, [
 [<minecraft:piston>, <betterwithmods:single_machine>, <minecraft:piston>], 
 [<betterwithmods:material:24>, <betterwithmods:material:34>, <betterwithmods:material:24>]]);
 
-//Honey production
-//recipes.addShapeless("harvestcraft_grub_crowning", <harvestcraft:queenbeeitem>, [<harvestcraft:grubitem>,<bountifulbaubles:crowngold>.giveBack(),<dungeontactics:magic_powder>]);
-recipes.remove(<harvestcraft:royaljellyitem>);
-mods.betterwithmods.Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);
-mods.betterwithmods.Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*6]);
+// Honey production
+// recipes.addShapeless("harvestcraft_grub_crowning", <harvestcraft:queenbeeitem>, [<harvestcraft:grubitem>,<bountifulbaubles:crowngold>.giveBack(),<dungeontactics:magic_powder>]);
+// Mill.addRecipe([<harvestcraft:honeycombitem>],[<harvestcraft:honeyitem>*6,<harvestcraft:beeswaxitem>]);
+// Mill.addRecipe([<harvestcraft:waxcombitem>],[<harvestcraft:beeswaxitem>*6]);
+recipes.remove(<harvestcraft:pressedwax>);
+recipes.addShaped("beeswax_block", <harvestcraft:pressedwax>, [
+	[<rustic:beeswax>, <rustic:beeswax>],
+	[<rustic:beeswax>, <rustic:beeswax>]
+]);
+recipes.addShapeless("beeswax_block_back", <rustic:beeswax> * 4, [<harvestcraft:pressedwax>]);
 
 // Palm seed -> cooking oil
 recipes.addShapeless("palmseed_cookingoil", <harvestcraft:oliveoilitem>*2, [<harvestcraft:juiceritem>, <dynamictreesbop:palmseed>, <dynamictreesbop:palmseed>]);
 
 // Ground meat
-mods.betterwithmods.Mill.addRecipe([<ore:listAllbeefraw>],[<harvestcraft:groundbeefitem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllchickenraw>],[<harvestcraft:groundchickenitem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllduckraw>],[<harvestcraft:groundduckitem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllfishraw>],[<harvestcraft:groundfishitem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllmuttonraw>],[<harvestcraft:groundmuttonitem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllporkraw>],[<harvestcraft:groundporkitem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllrabbitraw>],[<harvestcraft:groundrabbititem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllturkeyraw>],[<harvestcraft:groundturkeyitem>*2]);
-mods.betterwithmods.Mill.addRecipe([<ore:listAllvenisonraw>],[<harvestcraft:groundvenisonitem>*2]);
+Mill.addRecipe([<ore:listAllbeefraw>],[<harvestcraft:groundbeefitem>*2]);
+Mill.addRecipe([<ore:listAllchickenraw>],[<harvestcraft:groundchickenitem>*2]);
+Mill.addRecipe([<ore:listAllduckraw>],[<harvestcraft:groundduckitem>*2]);
+Mill.addRecipe([<ore:listAllfishraw>],[<harvestcraft:groundfishitem>*2]);
+Mill.addRecipe([<ore:listAllmuttonraw>],[<harvestcraft:groundmuttonitem>*2]);
+Mill.addRecipe([<ore:listAllporkraw>],[<harvestcraft:groundporkitem>*2]);
+Mill.addRecipe([<ore:listAllrabbitraw>],[<harvestcraft:groundrabbititem>*2]);
+Mill.addRecipe([<ore:listAllturkeyraw>],[<harvestcraft:groundturkeyitem>*2]);
+Mill.addRecipe([<ore:listAllvenisonraw>],[<harvestcraft:groundvenisonitem>*2]);
 
 // Food block forms (still dunno why we can harvest them but might as well put them to use)
 val affectedBlocks = ["tamarind","lychee","guava","breadfruit","rambutan","jackfruit","passionfruit","soursop","pawpaw","hazelnut"] as string[];

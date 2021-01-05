@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 for i in 0 to 16 {
 	JEI.removeAndHide(<quark:candle>.definition.makeStack(i));
@@ -129,11 +130,16 @@ recipes.addShaped("sfs_rod", <quark:iron_rod>,[
 ]);
 
 // Soul Bead
-mods.betterwithaddons.Infuser.addShaped(<quark:soul_bead>, [
+RecipeBuilder.get("mage")
+  .setShaped([
 	[<quark:soul_powder>, <bountifulbaubles:spectralsilt>, <quark:soul_powder>],
-	[<bountifulbaubles:spectralsilt>, <contenttweaker:soul_orb>, <bountifulbaubles:spectralsilt>], 
-	[<quark:soul_powder>, <bountifulbaubles:spectralsilt>, <quark:soul_powder>]
-], 16);
+	[<bountifulbaubles:spectralsilt>, <betterwithmods:material:38>, <bountifulbaubles:spectralsilt>], 
+	[<quark:soul_powder>, <bountifulbaubles:spectralsilt>, <quark:soul_powder>]])
+  .addTool(<contenttweaker:soul_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:soul_bead>)
+  .create();
 
 // Slime Blocks
 recipes.removeByRecipeName("quark:color_slime_4");

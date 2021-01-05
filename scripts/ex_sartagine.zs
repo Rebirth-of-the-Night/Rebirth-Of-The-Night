@@ -11,6 +11,48 @@ import mods.pyrotech.DryingRack;
 
 import mods.artisanworktables.builder.RecipeBuilder;
 
+val genericMetal = <ore:genericMetal>;
+val genericBars = <ore:genericMetalBars>;
+val bucket = <ore:bucket>;
+val brick = <minecraft:brick>;
+val cobble = <ore:cobblestone>;
+val bowl = <minecraft:bowl>;
+val charcoalBlock = <quark:charcoal_block>;
+val ironBlock = <ore:blockIron>;
+
+// recipes.remove(<exsartagine:kettle>); // no built-in recipe yet
+recipes.addShaped("exsar_kettle", <exsartagine:kettle>, [
+    [genericMetal, genericMetal, genericMetal],
+    [genericMetal, genericBars, genericMetal],
+    [genericMetal, bucket, genericMetal]
+]);
+
+recipes.remove(<exsartagine:pan>);
+recipes.addShaped("exsar_pan", <exsartagine:pan>, [
+    [genericMetal | brick, null, <minecraft:stick>],
+    [genericMetal | brick, genericMetal | brick, genericMetal | brick]
+]);
+
+recipes.remove(<exsartagine:pot>);
+recipes.addShaped("exsar_pot", <exsartagine:pot>, [
+    [genericMetal, bowl, genericMetal],
+    [cobble, bucket, cobble],
+    [cobble, cobble, cobble]
+]);
+
+recipes.remove(<exsartagine:range>);
+recipes.addShaped("exsar_range", <exsartagine:range>, [
+    [genericMetal | brick, genericMetal | brick, genericMetal | brick],
+    [genericMetal | brick, charcoalBlock, <minecraft:furnace>],
+    [ironBlock, ironBlock, ironBlock] // At least make it expensive enough so it isn't easily crafted
+]);
+
+recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
+    <animania:carving_knife>,
+    <minecraft:glass_bottle>,
+    <harvestcraft:mixingbowlitem>,
+    <ore:smallKnife>
+]);
 
 //accepts any veggie for crafting of food book
 recipes.remove(<solcarrot:food_book>);
@@ -31,7 +73,6 @@ JEI.removeAndHide(<exsartagine:breadveggie>);
 JEI.removeAndHide(<exsartagine:breadmeatraw>);
 JEI.removeAndHide(<exsartagine:breadmeat>);
 JEI.hideCategory("artisanworktables_chef_worktable");
-JEI.hideCategory("artisanworktables_chef_workshop");
 JEI.hideCategory("artisanworkstumps_chef");
 
 ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame>);
@@ -217,7 +258,7 @@ val saladDressing = <ore:foodSaladdressing>;
 val seaweed = <ore:cropSeaweed>;
 val bubblyWater = <harvestcraft:bubblywateritem>;
 val caramel = <harvestcraft:caramelitem>;
-val honey = <ore:foodHoneyDrop>;
+val honey = <ore:foodHoneydrop>;
 val scallion = <harvestcraft:scallionitem>;
 val barley = <harvestcraft:barleyitem>;
 val rhubarb = <harvestcraft:rhubarbitem>;

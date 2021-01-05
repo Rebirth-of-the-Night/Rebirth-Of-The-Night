@@ -6,64 +6,64 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-#REMOVE copper and tin
+//REMOVE copper and tin
 //copper
-mods.jei.JEI.removeAndHide(<simpleores:copper_sword>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_pickaxe>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_shovel>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_hoe>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_shears>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_helmet>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_leggings>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_chestplate>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_boots>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:katana_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:saber_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:staff_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:lance_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_copper>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_copper>);
+JEI.removeAndHide(<simpleores:copper_sword>);
+JEI.removeAndHide(<simpleores:copper_pickaxe>);
+JEI.removeAndHide(<simpleores:copper_shovel>);
+JEI.removeAndHide(<simpleores:copper_hoe>);
+JEI.removeAndHide(<simpleores:copper_shears>);
+JEI.removeAndHide(<simpleores:copper_helmet>);
+JEI.removeAndHide(<simpleores:copper_leggings>);
+JEI.removeAndHide(<simpleores:copper_chestplate>);
+JEI.removeAndHide(<simpleores:copper_boots>);
+JEI.removeAndHide(<spartanweaponry:longsword_copper>);
+JEI.removeAndHide(<spartanweaponry:katana_copper>);
+JEI.removeAndHide(<spartanweaponry:saber_copper>);
+JEI.removeAndHide(<spartanweaponry:rapier_copper>);
+JEI.removeAndHide(<spartanweaponry:greatsword_copper>);
+JEI.removeAndHide(<spartanweaponry:warhammer_copper>);
+JEI.removeAndHide(<spartanweaponry:boomerang_copper>);
+JEI.removeAndHide(<spartanweaponry:battleaxe_copper>);
+JEI.removeAndHide(<spartanweaponry:glaive_copper>);
+JEI.removeAndHide(<spartanweaponry:staff_copper>);
+JEI.removeAndHide(<spartanweaponry:halberd_copper>);
+JEI.removeAndHide(<spartanweaponry:lance_copper>);
+JEI.removeAndHide(<spartanweaponry:longbow_copper>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_copper>);
 //tin
-mods.jei.JEI.removeAndHide(<simpleores:tin_sword>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_pickaxe>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_axe>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_shovel>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_hoe>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_shears>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_helmet>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_leggings>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_chestplate>);
-mods.jei.JEI.removeAndHide(<simpleores:tin_boots>);
-mods.jei.JEI.removeAndHide(<spartanshields:shield_basic_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:katana_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:saber_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:hammer_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:mace_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:staff_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:spear_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:halberd_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:pike_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:lance_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_tin>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_tin>);
+JEI.removeAndHide(<simpleores:tin_sword>);
+JEI.removeAndHide(<simpleores:tin_pickaxe>);
+JEI.removeAndHide(<simpleores:tin_axe>);
+JEI.removeAndHide(<simpleores:tin_shovel>);
+JEI.removeAndHide(<simpleores:tin_hoe>);
+JEI.removeAndHide(<simpleores:tin_shears>);
+JEI.removeAndHide(<simpleores:tin_helmet>);
+JEI.removeAndHide(<simpleores:tin_leggings>);
+JEI.removeAndHide(<simpleores:tin_chestplate>);
+JEI.removeAndHide(<simpleores:tin_boots>);
+JEI.removeAndHide(<spartanshields:shield_basic_tin>);
+JEI.removeAndHide(<spartanweaponry:dagger_tin>);
+JEI.removeAndHide(<spartanweaponry:longsword_tin>);
+JEI.removeAndHide(<spartanweaponry:katana_tin>);
+JEI.removeAndHide(<spartanweaponry:saber_tin>);
+JEI.removeAndHide(<spartanweaponry:rapier_tin>);
+JEI.removeAndHide(<spartanweaponry:greatsword_tin>);
+JEI.removeAndHide(<spartanweaponry:hammer_tin>);
+JEI.removeAndHide(<spartanweaponry:warhammer_tin>);
+JEI.removeAndHide(<spartanweaponry:boomerang_tin>);
+JEI.removeAndHide(<spartanweaponry:battleaxe_tin>);
+JEI.removeAndHide(<spartanweaponry:mace_tin>);
+JEI.removeAndHide(<spartanweaponry:glaive_tin>);
+JEI.removeAndHide(<spartanweaponry:staff_tin>);
+JEI.removeAndHide(<spartanweaponry:spear_tin>);
+JEI.removeAndHide(<spartanweaponry:halberd_tin>);
+JEI.removeAndHide(<spartanweaponry:pike_tin>);
+JEI.removeAndHide(<spartanweaponry:lance_tin>);
+JEI.removeAndHide(<spartanweaponry:longbow_tin>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_tin>);
+JEI.removeAndHide(<spartanweaponry:throwing_axe_tin>);
+JEI.removeAndHide(<spartanweaponry:javelin_tin>);
 //mud
 recipes.remove(<atop:mud_boots>);
 recipes.remove(<atop:mud_chestplate>);
@@ -151,21 +151,21 @@ recipes.addShapeless("bronze to nugget", nugget*9,
  [bronze]);
  
 //BRONZE RECIPES
-recipes.addShapeless("bronze_dust", <contenttweaker:material_part:20>*4,
+recipes.addShapeless("bronze_dust", <ore:dustBronze>.firstItem*4,
  [<ore:dustTin>,<ore:dustCopper>,<ore:dustCopper>,
   <ore:dustCopper>]
 		);
-  #Additional recipes on pyrotech scripts 
+  //Additional recipes on pyrotech scripts 
 
 		
 //info
-mods.jei.JEI.addDescription(<contenttweaker:material_part>,"Definitely better than iron, not quite as good as steel.");
-mods.jei.JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
-mods.jei.JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
-mods.jei.JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
-mods.jei.JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
-mods.jei.JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
-mods.jei.JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also know as hoplon. Provides excellent cover without sacrificing offensive capacity.");
+JEI.addDescription(<contenttweaker:material_part>,"Definitely better than iron, not quite as good as steel.");
+JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
+JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
+JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
+JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
+JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
+JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also know as hoplon. Provides excellent cover without sacrificing offensive capacity.");
 
 //repair recipes
 var bronzeItems = <atop:mud_helmet> | <atop:mud_chestplate> | <atop:mud_leggings> | <atop:mud_boots> | <atop:mud_sword> | <atop:mud_shovel> | <atop:mud_pickaxe> | <atop:mud_axe> | <atop:mud_hoe>;

@@ -429,7 +429,6 @@ contenttweaker:sfs_artifact4
 contenttweaker:sfs_artifact3
 contenttweaker:chaos_rune
 contenttweaker:sfs_artifact2
-contenttweaker:strength_orb
 contenttweaker:sfs_artifact1
 contenttweaker:sfs_artifact8
 contenttweaker:lunarinsteelbrick

@@ -21,6 +21,30 @@ mods.ltt.LootTable.removeGlobalItem("minecraft:bucket");
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
 
+val gbars = <ore:genericMetalBars>;
+gbars.add(<minecraft:iron_bars>);
+gbars.add(<aesthetics:copper_bars>);
+gbars.add(<aesthetics:tin_bars>);
+gbars.add(<betterwithaddons:wrought_bars:0>);
+
+val bars = <ore:bars>;
+bars.addAll(<ore:genericMetalBars>);
+bars.add(<aesthetics:mythril_bars>);
+bars.add(<aesthetics:adamantium_bars>);
+bars.add(<aesthetics:onyx_bars>);
+bars.add(<aether_legacy:zanite_bars>);
+bars.add(<betternether:cincinnasite_bars>);
+
+val buckets = <ore:bucket>;
+buckets.add(<minecraft:bucket>);
+buckets.add(<pyrotech:bucket_wood>);
+buckets.add(<pyrotech:bucket_stone>);
+buckets.add(<pyrotech:bucket_clay>);
+buckets.add(<aether_legacy:skyroot_bucket:0>);
+
+JEI.removeAndHide(<redstoneplusplus:dummy_compass>);
+JEI.removeAndHide(<redstoneplusplus:dummy_compass_hover>);
+
 recipes.removeByRecipeName("minecraft:hopper");
 recipes.addShaped("metal_hopper",<minecraft:hopper>,[
     [<ore:genericMetal>,null,<ore:genericMetal>],
@@ -62,16 +86,6 @@ recipes.addShaped("minecraft_rabbit_stew_from_mushroom", <minecraft:rabbit_stew>
   [[null,<minecraft:cooked_rabbit>,null],
   [<minecraft:carrot>,<minecraft:baked_potato>,<ore:listAllmushroom>],
   [null,<minecraft:bowl>,null]]);
-
-recipes.remove(<futuremc:suspicious_stew>);
-recipes.addShapeless("futuremc_stew/sustew", <futuremc:suspicious_stew>, 
-[<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
-
-recipes.remove(<wards:ward>);
-recipes.addShaped("wards_ward", <wards:ward>,
-  [[null,<minecraft:obsidian>,null],
-  [<ore:gemDiamond>,<minecraft:obsidian>,<ore:gemDiamond>],
-  [<ore:stoneSlab>,<ore:cobblestone>,<ore:stoneSlab>]]);
 
 recipes.removeByRecipeName("minecraft:cake");
 recipes.removeByRecipeName("minecraft:painting");
@@ -681,7 +695,7 @@ gemIngot.add(
 <ore:ingotCrucibleSteel>.add(<dungeontactics:steel_ingot>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
 <ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>]);
-<ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>,<ceramics:clay_bucket:1>]);
+<ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>]);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 

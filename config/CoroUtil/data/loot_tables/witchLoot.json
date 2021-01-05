@@ -26,11 +26,6 @@
                     "type": "item",
                     "name": "bountifulbaubles:spectralsilt",
                     "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "contenttweaker:magic_orb",
-                    "weight": 1
                 }
             ]
         }

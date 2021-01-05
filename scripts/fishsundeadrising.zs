@@ -90,7 +90,7 @@ recipes.addShaped("canerotten", <mod_lavacow:canerottenmeat>,[
     [<harvestcraft:zombiejerkyitem>, <rats:herb_bundle>, null],
 ]);
 
-recipes.addShapeless("greeneggsham", <mod_lavacow:green_bacon_and_eggs>,[<mod_lavacow:plagued_porkchop>, <harvestcraft:friedeggitem>, <harvestcraft:friedeggitem>, <rats:herb_bundle>, <harvestcraft:honeyitem>]);
+recipes.addShapeless("greeneggsham", <mod_lavacow:green_bacon_and_eggs>,[<mod_lavacow:plagued_porkchop>, <harvestcraft:friedeggitem>, <harvestcraft:friedeggitem>, <rats:herb_bundle>, <ore:listAllsugar>]);
 
 //new weapon recipes
 recipes.addShaped(<mod_lavacow:war>,[

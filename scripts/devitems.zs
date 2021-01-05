@@ -57,16 +57,16 @@ recipes.addHiddenShapeless("CalaMariGold", <atop:amber_sword>.withTag(({"Quark:R
 <contenttweaker:kompy_kantrip>.addTooltip(format.darkBlue("Developer Relic 4/6"));
 
 mods.jei.JEI.addDescription([<contenttweaker:kompy_kantrip>],["Kompy's Kantrip can be used to kraft gardens full of her favorite flower!"]);
-mods.jei.JEI.addDescription([<contenttweaker:kompy_essence>],["Krafted with Kompy's favorite flower, favorite blue Gem, her wife's favorite green Gem, their favorite afternoon spiced tea, an orb of nature, and Kompy's two favorite colors."]);
-mods.jei.JEI.addDescription([<contenttweaker:kompy_kott>],["Kompy's favorite Whimsical doll is krafted with 3 tufts of cotten, the Whimsical doll's primary and secondary type items, and an orb of air =3"]);
+mods.jei.JEI.addDescription([<contenttweaker:kompy_essence>],["Krafted with Kompy's favorite flower, favorite blue Gem, her wife's favorite green Gem, their favorite afternoon spiced tea, quintessence of nature, and Kompy's two favorite colors."]);
+mods.jei.JEI.addDescription([<contenttweaker:kompy_kott>],["Kompy's favorite Whimsical doll is krafted with 3 tufts of cotten, the Whimsical doll's primary and secondary type items, and quintessence of air =3"]);
 
 #Essence
 recipes.addHiddenShapeless("Kompy's Essence", <contenttweaker:kompy_essence>,
-    [<biomesoplenty:flower_0:13>, <biomesoplenty:gem:6>, <harvestcraft:chaiteaitem>, <contenttweaker:nature_orb>, <ore:dyePink>, <ore:dyeLime>, <biomesoplenty:gem:2>]);
+    [<biomesoplenty:flower_0:13>, <biomesoplenty:gem:6>, <harvestcraft:chaiteaitem>, <contenttweaker:nature_quintessence>, <ore:dyePink>, <ore:dyeLime>, <biomesoplenty:gem:2>]);
 	
 #Precursor
 recipes.addHiddenShapeless("Kompy's Precursor", <contenttweaker:kompy_kott>,
-    [<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <iceandfire:pixie_dust>, <minecraft:tallgrass:1>, <contenttweaker:air_orb>]);
+    [<harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <harvestcraft:cottonitem>, <iceandfire:pixie_dust>, <minecraft:tallgrass:1>, <contenttweaker:air_quintessence>]);
 	
 #Kantrip
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:kompy_kantrip>,[

@@ -10,7 +10,7 @@ tile.presser.name=Presser
 
 tile.honey.name=Honey Block
 tile.honeycomb.name=Honeycomb Block
-tile.pressedwax.name=Pressed Wax Block
+tile.pressedwax.name=Beeswax Block
 tile.waxcomb.name=Waxcomb Block
 
 tile.groundtrap.name=Ground Trap

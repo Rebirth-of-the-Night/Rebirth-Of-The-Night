@@ -274,12 +274,12 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
 
 events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketEvent) {
-	if (event.world.isRemote()) {
+	if (!isNull(event.block) && !isNull(event.block.fluid) && event.block.fluid.name == <liquid:honey>.definition.name) {
+		event.cancel();
 		return;
 	}
 
-	if (!isNull(event.block.fluid) && event.block.fluid.name == <liquid:honey>.definition.name) {
-		event.cancel();
+	if (event.world.isRemote()) {
 		return;
 	}
 });

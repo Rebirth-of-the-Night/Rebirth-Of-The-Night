@@ -762,14 +762,13 @@ arcanaQuintessenceB.add(
     <aether_legacy:enchanted_gravitite>,
     <twilightforest:steeleaf_ingot>,
     <twilightforest:naga_scale>,
-    <contenttweaker:silver_gold_mixture> //note, I added this because gold and ambrosium seems too cheap for this quintessence
+    <ore:dustElectrum>.firstItem //note, I added this because gold and ambrosium seems too cheap for this quintessence
 );
 
 // Arcana C - Magic powders, essences, dusts, etc. May also include man-made materials such as AA quartz
 val arcanaQuintessenceC = <ore:arcanaQuintessenceC>;
 arcanaQuintessenceC.add(
     <arcanearchives:radiant_dust>,
-    <contenttweaker:magic_orb>,
     <biomesoplenty:biome_essence>,
     <dungeontactics:magic_powder>,
     <arcanearchives:raw_quartz>,

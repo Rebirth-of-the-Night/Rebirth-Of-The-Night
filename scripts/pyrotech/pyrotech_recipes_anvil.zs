@@ -7,6 +7,9 @@ import mods.pyrotech.IroncladAnvil;
 GraniteAnvil.removeAllRecipes();
 recipes.removeByRecipeName("betterwithmods:decompress/flint_decompress");
 
+JEI.removeAndHide(<pyrotech_compat:anvil_andesite>);
+JEI.removeAndHide(<pyrotech_compat:anvil_diorite>);
+
 //recipes
 /*
 Each tier of hammer has double the "first advantage" from the previous, if a recipe that requires 64 hits is hit with a 16 power level hammer: 64 - 16 = 48 hits remaining and so on. This data is stored in pyrotech/core.cfg and pyrotech/module.tech.Basic.cfg
@@ -66,8 +69,8 @@ GraniteAnvil.addRecipe("electrum_to_dust", <ore:dustElectrum>.firstItem, <ore:in
 GraniteAnvil.addRecipe("steel_to_dust", <ore:dustCrucibleSteel>.firstItem, <ore:ingotCrucibleSteel>, 32, "hammer", true);
 GraniteAnvil.addRecipe("viridium_to_dust", <ore:dustViridium>.firstItem, <ore:ingotViridium>, 12, "hammer", true);
 GraniteAnvil.addRecipe("viridium_ore_to_dust", <ore:dustViridium>.firstItem, <ore:oreViridium>, 8, "hammer", true);
-GraniteAnvil.addRecipe("mythril_to_dust", <ore:dustMythril>.firstItem, <ore:ingotMyhtril>, 48, "hammer", true);
-GraniteAnvil.addRecipe("mythril_ore_to_dust", <ore:dustMythril>.firstItem, <ore:oreMyhtril>, 16, "hammer", true);
+GraniteAnvil.addRecipe("mythril_to_dust", <ore:dustMythril>.firstItem, <ore:ingotMythril>, 48, "hammer", true);
+GraniteAnvil.addRecipe("mythril_ore_to_dust", <ore:dustMythril>.firstItem, <ore:oreMythril>, 16, "hammer", true);
 GraniteAnvil.addRecipe("sfs_to_dust", <ore:dustSoulforgedSteel>.firstItem, <ore:ingotSoulforgedSteel>, 64, "hammer", true);
 GraniteAnvil.addRecipe("endorium_to_dust", <ore:dustEndorium>.firstItem, <ore:ingotEndorium>, 12, "hammer", true);
 GraniteAnvil.addRecipe("charcoal_pile_to_charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);

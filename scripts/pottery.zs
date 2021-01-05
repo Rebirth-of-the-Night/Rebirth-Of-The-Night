@@ -1,5 +1,6 @@
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.jei.JEI;
 
 furnace.setFuel(<artisanworkstumps:workstump_tailor>, 0);
 furnace.setFuel(<artisanworkstumps:workstump_carpenter>, 0);
@@ -22,15 +23,13 @@ recipes.remove(<ceramics:clay_barrel_unfired:1>);
 recipes.remove(<rustic:evaporating_basin>);
 recipes.remove(<rustic:vase>);
 recipes.remove(<ceramics:unfired_clay>);
-mods.jei.JEI.removeAndHide(<ceramics:clay_bucket>);
+JEI.removeAndHide(<ceramics:clay_bucket>);
 recipes.removeByRecipeName("ceramics:uncrafting/unfired_clay_barrel");
 recipes.removeByRecipeName("ceramics:uncrafting/unfired_clay_extension");
-mods.jei.JEI.hideCategory("artisanworktables_mage_worktable");
-mods.jei.JEI.hideCategory("artisanworktables_potter_worktable");
-mods.jei.JEI.hideCategory("artisanworktables_potter_workstation");
-mods.jei.JEI.hideCategory("artisanworktables_mage_workshop");
-mods.jei.JEI.hideCategory("artisanworktables_potter_workshop");
-mods.jei.JEI.hideCategory("artisanworkstumps_mage");
+JEI.hideCategory("artisanworktables_mage_worktable");
+JEI.hideCategory("artisanworktables_potter_worktable");
+JEI.hideCategory("artisanworktables_potter_workstation");
+JEI.hideCategory("artisanworkstumps_mage");
 
 recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
  [[null,<minecraft:stone_pressure_plate>,null],

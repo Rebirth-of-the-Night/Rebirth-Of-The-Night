@@ -6,7 +6,6 @@ import mods.rustic.Condenser;
 
 JEI.removeAndHide(<rustic:lantern_wood>);
 
-
 JEI.removeAndHide(<rustic:tomato_seeds>);
 JEI.removeAndHide(<rustic:tomato>);
 
@@ -15,7 +14,17 @@ JEI.removeAndHide(<rustic:grapes>);
 JEI.removeAndHide(<rustic:sapling>);
 JEI.removeAndHide(<rustic:tomato>);
 
-JEI.removeAndHide(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}));
+JEI.hide(<rustic:honey>); // Weird honey item that places fluid
+<ore:materialPressedwax>.add(<rustic:beeswax>);
+var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});
+
+<ore:foodHoneydrop>.add(honeyBottle);
+<ore:dropHoney>.add(honeyBottle);
+<ore:foodHoney>.add(honeyBottle);
+<ore:listAllsugar>.add(<rustic:honeycomb>);
+<ore:listAllsugar>.add(honeyBottle);
+
+furnace.setFuel(<rustic:beeswax>, 400);
 
 
 recipes.remove(<rustic:liquid_barrel>);
@@ -93,7 +102,7 @@ recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
 # recipes.addShapeless("grape_seed_compat", <rustic:grape_stem>, [<harvestcraft:grapeseeditem>]);
 
 # Crushing tub recipes
-CrushingTub.addRecipe(<liquid:honey> * 250, null, <harvestcraft:honeyitem> * 1);
+CrushingTub.addRecipe(<liquid:honey> * 250, null, <biomesoplenty:hive:3> * 1);
 CrushingTub.addRecipe(<liquid:grapejuice> * 250, null, <harvestcraft:grapeitem> * 1);
 
 # Misc
@@ -115,7 +124,7 @@ val nightvisionExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect
 val nightvisionObsceneExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 14400, Amplifier: 0}]});
 
 var cohosh = <rustic:cohosh>;
-var honeycomb = <harvestcraft:honeycombitem>;
+var honeycomb = <rustic:honeycomb>;
 var chamomile = <rustic:chamomile>;
 var root = <rustic:marsh_mallow>;
 var horsetail = <rustic:horsetail>;

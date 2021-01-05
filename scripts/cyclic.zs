@@ -1,47 +1,50 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.betterwithmods.Anvil;
+import mods.betterwithaddons.Infuser;
+import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 
 //Removed items
-mods.jei.JEI.removeAndHide(<cyclicmagic:tool_trade>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:block_fragile_auto>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:item_pipe_sort>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:item_pipe>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:energy_pipe>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:item_pump>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:energy_pump>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:bundled_pipe>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:block_library>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:block_library_ctrl>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:magic_net>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:melter>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:laser>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:imbuer>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:builder_block>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:target>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:tool_mount>);
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_med_angle>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_fast>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_fast_corner>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:plate_push_fast_angle>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:wand_hypno>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:password_block>);//add back
-mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
-mods.jei.JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
-//mods.jei.JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back in future update
+JEI.removeAndHide(<cyclicmagic:tool_trade>);
+JEI.removeAndHide(<cyclicmagic:block_fragile_auto>);
+JEI.removeAndHide(<cyclicmagic:item_pipe_sort>);
+JEI.removeAndHide(<cyclicmagic:item_pipe>);
+JEI.removeAndHide(<cyclicmagic:energy_pipe>);
+JEI.removeAndHide(<cyclicmagic:item_pump>);
+JEI.removeAndHide(<cyclicmagic:energy_pump>);
+JEI.removeAndHide(<cyclicmagic:bundled_pipe>);
+JEI.removeAndHide(<cyclicmagic:block_library>);
+JEI.removeAndHide(<cyclicmagic:block_library_ctrl>);
+JEI.removeAndHide(<cyclicmagic:magic_net>);
+JEI.removeAndHide(<cyclicmagic:melter>);
+JEI.removeAndHide(<cyclicmagic:laser>);
+JEI.removeAndHide(<cyclicmagic:imbuer>);
+JEI.removeAndHide(<cyclicmagic:plate_push_slow>);
+JEI.removeAndHide(<cyclicmagic:plate_push_slow_corner>);
+JEI.removeAndHide(<cyclicmagic:plate_push_slow_angle>);
+JEI.removeAndHide(<cyclicmagic:builder_block>);
+JEI.removeAndHide(<cyclicmagic:target>);
+JEI.removeAndHide(<cyclicmagic:horse_upgrade_type>);
+JEI.removeAndHide(<cyclicmagic:horse_upgrade_health>);
+JEI.removeAndHide(<cyclicmagic:tool_mount>);
+JEI.removeAndHide(<cyclicmagic:plate_push>);//add back
+JEI.removeAndHide(<cyclicmagic:plate_push_corner>);//add back
+JEI.removeAndHide(<cyclicmagic:plate_push_med_angle>);//add back
+JEI.removeAndHide(<cyclicmagic:plate_push_fast>);//add back
+JEI.removeAndHide(<cyclicmagic:plate_push_fast_corner>);//add back
+JEI.removeAndHide(<cyclicmagic:plate_push_fast_angle>);//add back
+JEI.removeAndHide(<cyclicmagic:wand_hypno>);//add back
+JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
+JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
+JEI.removeAndHide(<cyclicmagic:password_block>);//add back
+JEI.removeAndHide(<cyclicmagic:fluid_placer>); //Requires RF
+JEI.removeAndHide(<cyclicmagic:fluid_drain>); //Requires RF
+//JEI.removeAndHide(<cyclicmagic:corrupted_chorus>);//add back in future update
 
 
 recipes.remove(<cyclicmagic:fluid_pipe>);
@@ -100,8 +103,6 @@ var gps = <cyclicmagic:card_location>;
 var book = <ore:book>;
 var endscale = <endreborn:dragon_scales>;
 var bead = <quark:soul_bead>;
-var en_orb = <contenttweaker:energy_orb>;
-var arc_orb = <contenttweaker:arcane_orb>;
 var ord_run = <contenttweaker:order_rune>;
 var cha_run = <contenttweaker:chaos_rune>;
 var spirits = <betterwithaddons:ancestry_bottle>;
@@ -122,17 +123,29 @@ var ore_locator = <cyclicmagic:tool_prospector>;
 var blazerod = <minecraft:blaze_rod>;
 var st_conveyor = <cyclicmagic:plate_push_slowest>;
 
-mods.betterwithaddons.Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
+Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
-mods.betterwithaddons.Infuser.addShaped(<cyclicmagic:ender_lightning>,[
-[null,lightarrow,arc_orb],
-[null, destarrow,lightarrow],
-[ironrod,null,null]], 50);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, lightarrow, <artifacts:shock_pendant>],
+    [null, destarrow, lightarrow],
+    [ironrod, null, null]])
+  .addTool(<contenttweaker:arcane_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<cyclicmagic:ender_lightning>)
+  .create();
 
-mods.betterwithaddons.Infuser.addShaped(<cyclicmagic:wand_missile>,[
-[null,spirits,en_orb],
-[null,bead,spirits],
-[ironrod,null,null]], 30);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, spirits, <dungeontactics:magic_scroll>.withTag(<enchantment:dungeontactics:magicmissile>.makeEnchantment(0).makeTag())],
+    [null, bead, spirits],
+    [ironrod, null, null]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<cyclicmagic:wand_missile>)
+  .create();
 
 recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>,[
 	[vnugg, vnugg, tanned],
@@ -177,7 +190,7 @@ recipes.addShaped("ore_locator", ore_locator,[
 
 //Spelunker potions with prospecting kit in rustic.zs
 
-mods.betterwithmods.Anvil.addShaped(pipepump, 
+Anvil.addShaped(pipepump, 
 [
 	[reframat, pipe, reframat, null],
 	[glue, screw, glue, null],
@@ -190,7 +203,7 @@ val paneGlass = <ore:paneGlass>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
 for item in paneGlass.items{
-mods.betterwithmods.Anvil.addShaped(pipeliquid * 12, 
+Anvil.addShaped(pipeliquid * 12, 
 [
 	[null, reframat, reframat, null],
 	[glue, item, item, glue],
@@ -200,7 +213,7 @@ mods.betterwithmods.Anvil.addShaped(pipeliquid * 12,
 }
 
 /* //Requires RF
-mods.betterwithmods.Anvil.addShaped(<cyclicmagic:fluid_drain>,[
+Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 	[steel, screwpump , steel],
     [refratank, screwpump, pipepump],
     [steel, screwpump, steel]

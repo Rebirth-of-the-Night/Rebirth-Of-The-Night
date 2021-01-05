@@ -232,7 +232,7 @@ mods.betterwithmods.Crucible.addStoked(
 		<aether_legacy:ambrosium_block>
     ],
     [
-        <contenttweaker:block_electrum>*4
+        <contenttweaker:block_electrum>*2
     ]
 );
 mods.betterwithmods.Crucible.addStoked(
@@ -248,7 +248,7 @@ mods.betterwithmods.Crucible.addStoked(
 		<ore:gemAmbrosium>
     ],
     [
-        <ore:ingotElectrum>.firstItem*4
+        <ore:ingotElectrum>.firstItem*2
     ]
 );
 //Unstoked Magic Wood & Star Piece

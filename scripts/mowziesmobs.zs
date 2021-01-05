@@ -59,7 +59,6 @@ recipes.addShapeless("uncommonglowpowder", <betterwithaddons:wheatmat>*2, [<ore:
 
 recipes.addShapeless("rareglowpowder", <betterwithaddons:wheatmat>*5, [<ore:rareGlowSource>]);
 
-recipes.addShapeless(<harvestcraft:royaljellyitem>*3, [<harvestcraft:queenbeeitem>.transformReplace(<harvestcraft:queenbeeitem>), <betterwithaddons:wheatmat>]);
 recipes.addShapeless(<twilightforest:moonworm>, [<twilightforest:moonworm_queen>.anyDamage().transformDamage(1), <betterwithaddons:wheatmat>]);
 
 // WAITING FOR MOWZIE'S MOBS AUTHOR TO ADD LOOT TABLES SO I CAN ENTIRELY REPLACE GLOWING JELLY DROP WITH THIS

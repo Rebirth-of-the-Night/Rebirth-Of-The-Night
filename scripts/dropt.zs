@@ -78,6 +78,34 @@ Dropt.list("blood_tainted_gold")
       )	  
   );
 */ 
+
+Dropt.list("bop_honey_block")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:honey_block"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:honeycomb>])
+      )
+  );
+
+Dropt.list("bop_honeycomb_block")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:hive:1", "biomesoplenty:hive:2"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:honeycomb>], Dropt.range(1, 3))
+      )
+  );
+
+Dropt.list("bop_filled_honeycomb_block")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:hive:3"])
+      .addDrop(Dropt.drop()
+          .items([<rustic:honeycomb>], Dropt.range(4, 6))
+      )
+  );
+
 Dropt.list("wither_skull")
 
   .add(Dropt.rule()
@@ -277,30 +305,29 @@ Dropt.list("clovers")
        	   .items([<contenttweaker:5leaf_clover>])
       )
   );
-/*
-Dropt.list("nest_grubs")
+
+Dropt.list("bee_nest")
 
   .add(Dropt.rule()
       .matchBlocks(["futuremc:bee_nest"])
-      .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(200)) // drops nothing if selected
       )
   	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(80)) // grub
-       	   .items([<harvestcraft:grubitem>])
+          .selector(Dropt.weight(80)) // bee
+       	   .items([<rustic:bee>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(80)) // wax
-       	   .items([<harvestcraft:waxcombitem>])
+          .selector(Dropt.weight(80)) // honeycomb
+       	   .items([<rustic:honeycomb>])
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(80)) // grub and wax
-       	   .items([<harvestcraft:grubitem>, <harvestcraft:waxcombitem>])
+          .selector(Dropt.weight(80)) // bee and honeycomb
+       	   .items([<rustic:bee>, <rustic:honeycomb>])
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(50)) // alright double prizes
-       	   .items([<harvestcraft:grubitem>*2])
+       	   .items([<rustic:bee>, <rustic:bee>])
       )
   	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(5)) // spoils of war 1
@@ -315,7 +342,7 @@ Dropt.list("nest_grubs")
        	   .items([<aether_legacy:ambrosium_shard>])
       )
   );   
-*/
+
   
 Dropt.list("decayed_scaffolding")	
 

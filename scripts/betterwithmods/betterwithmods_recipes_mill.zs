@@ -1,28 +1,29 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.betterwithmods.Mill;
 
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*6]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_nugget>*3]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*3]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*6]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
-mods.betterwithmods.Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
-mods.betterwithmods.Mill.remove([<betterwithmods:material:44>]);
+Mill.remove([<minecraft:gold_ingot>]);
+Mill.remove([<minecraft:gold_nugget>*6]);
+Mill.remove([<minecraft:gold_nugget>*3]);
+Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*3]);
+Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*6]);
+Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
+Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
+Mill.remove([<betterwithmods:material:44>]);
 
 //Cattail Flour
-mods.betterwithmods.Mill.addRecipe([<biomesoplenty:plant_1:4>],[<betterwithmods:raw_pastry:3>]);
+Mill.addRecipe([<biomesoplenty:plant_1:4>],[<betterwithmods:raw_pastry:3>]);
 //Coke Powder
-mods.betterwithmods.Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
+Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
 //Magic Powder
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<bountifulbaubles:spectralsilt>], [<dungeontactics:magic_powder>*2])
 .setPriority(4)
 .setGrindType("disenchanter:block.disenchantment_table.use")
 .build();
 
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<nyx:fallen_star>], [<bountifulbaubles:spectralsilt>*1])
 .setPriority(20)
 .setGrindType("iceandfire:mermaid_idle")
@@ -30,59 +31,65 @@ mods.betterwithmods.Mill.builder()
 
 //Myrmex Resin
 //Desert Myrmex
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<iceandfire:myrmex_resin:0>], [<iceandfire:myrmex_desert_resin>*2])
 .setPriority(6)
 .setGrindType("fairylights:cord.stretch")
 .build();
 
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<iceandfire:myrmex_resin_sticky:0>], [<iceandfire:myrmex_desert_resin>*3])
 .setPriority(8)
 .setGrindType("fairylights:cord.stretch")
 .build();
 
 //Jungle Myrmex
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<iceandfire:myrmex_resin:1>], [<iceandfire:myrmex_jungle_resin>*2])
 .setPriority(6)
 .setGrindType("fairylights:cord.stretch")
 .build();
 
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<iceandfire:myrmex_resin_sticky:1>], [<iceandfire:myrmex_jungle_resin>*3])
 .setPriority(8)
 .setGrindType("fairylights:cord.stretch")
 .build();
 
 // Mushroom powder
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<biomesoplenty:mushroom>], [<biomesoplenty:shroompowder>*3])
 .setPriority(3)
 .setGrindType("quark:entity.stoneling.purr")
 .build();
 
 // QoL guaranteed 4x Glowstone
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<minecraft:glowstone>], [<minecraft:glowstone_dust>*4])
 .setPriority(3)
 .build();
 
 // nether sugar
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<betternether:nether_reed>], [<minecraft:sugar>*2])
 .setPriority(7)
 .build();
 
 // Rotten Flesh Refinement
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<minecraft:rotten_flesh>], [<contenttweaker:monster_hide>*2])
 .setPriority(3)
 .setGrindType("fairylights:cord.stretch")
 .build();
 
 // Extra bonemeal from fossils
-mods.betterwithmods.Mill.builder()
+Mill.builder()
 .buildRecipe([<undergroundbiomes:fossil_piece:*>], [<minecraft:dye:15>*6])
+.setPriority(3)
+.build();
+
+// QoL return of honeycombs
+Mill.builder()
+.buildRecipe([<futuremc:honeycomb_block>], [<rustic:honeycomb>*4])
 .setPriority(3)
 .build();

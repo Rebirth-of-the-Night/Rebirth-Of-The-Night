@@ -63,7 +63,8 @@ var branchArray = [
 ] as IItemStack[];
 
 for branch in branchArray {
-    JEI.hide(branch);
+    JEI.removeAndHide(branch);
+    furnace.setFuel(branch, 0);
 }
 
 JEI.removeAndHide(<dynamictreesphc:grapefruitseed>);

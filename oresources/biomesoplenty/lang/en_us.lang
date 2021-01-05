@@ -7,3 +7,5 @@ item.jar_filled_blue_fire.name=Cursed Fire
 potion.curse=Pandemonium
 
 entity.wasp.name=Helwasp
+
+tile.honey_block.name=Honey Residue

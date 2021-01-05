@@ -12,6 +12,10 @@ JEI.removeAndHide(<futuremc:lantern>);
 JEI.removeAndHide(<futuremc:barrel>);
 JEI.removeAndHide(<futuremc:composter>);
 
+JEI.removeAndHide(<futuremc:honeycomb>);
+JEI.removeAndHide(<futuremc:honey_bottle>);
+JEI.removeAndHide(<futuremc:beehive>);
+
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
 recipes.removeByRecipeName("futuremc:else/stone_slabs_from_smooth_stone");
@@ -20,11 +24,38 @@ recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6
 ]);
 
 recipes.remove(<futuremc:stonecutter>);
-recipes.addShaped("Stone Cutter", <futuremc:stonecutter>,[
+recipes.addShaped("stone_cutter", <futuremc:stonecutter>,[
 	[null, null, null],
     [null, <ore:ingotSilver>, null],
     [<ore:stone>, <ore:stone>, <ore:stone>]
 ]);
+
+recipes.remove(<futuremc:suspicious_stew>);
+recipes.addShapeless("futuremc_stew/sustew", <futuremc:suspicious_stew>, 
+[<ore:mushroomAny>, <ore:mushroomAny>, <minecraft:bowl>, <ore:flower>]);
+
+recipes.addShaped("bamboo_to_stick", <minecraft:stick>, [
+	[<futuremc:bamboo>],
+	[<futuremc:bamboo>]
+]);
+
+var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});
+var honeyBottleTR = honeyBottle.transformReplace(<minecraft:glass_bottle>);
+var honeyComb = <rustic:honeycomb>;
+
+recipes.remove(<futuremc:honey_block>);
+recipes.addShaped("rustic_honey_to_honey_block", <futuremc:honey_block>, [
+	[honeyBottleTR, honeyBottleTR],
+	[honeyBottleTR, honeyBottleTR]
+]);
+recipes.addShapeless("honey_block_to_rustic_honey", honeyBottle * 4, [<futuremc:honey_block>]);
+
+recipes.remove(<futuremc:honeycomb_block>);
+recipes.addShaped("rustic_honeycomb_to_honeycomb_block", <futuremc:honeycomb_block>, [
+	[honeyComb, honeyComb],
+	[honeyComb, honeyComb]
+]);
+recipes.addShapeless("honeycomb_block_to_rustic_honeycomb", honeyComb * 3, [<futuremc:honeycomb_block>]);
 
 // ********* Composter Recipes ********* //
 
@@ -305,7 +336,6 @@ var smokerRecipes as IItemStack[IItemStack] = {
 	/****** Harvestcraft ******/
 
 	<harvestcraft:musselrawitem> : <harvestcraft:musselcookeditem>,
-	<harvestcraft:grubitem> : <harvestcraft:cookedgrubitem>,
 	<harvestcraft:calamarirawitem> : <harvestcraft:calamaricookeditem>,
 	<harvestcraft:clamrawitem> : <harvestcraft:clamcookeditem>,
 	<harvestcraft:crabrawitem> : <harvestcraft:crabcookeditem>,
@@ -421,7 +451,6 @@ var campfireRecipes600 as IItemStack[IItemStack] = {
 	/****** Harvestcraft ******/
 
 	<harvestcraft:musselrawitem> : <harvestcraft:musselcookeditem>,
-	<harvestcraft:grubitem> : <harvestcraft:cookedgrubitem>,
 	<harvestcraft:calamarirawitem> : <harvestcraft:calamaricookeditem>,
 	<harvestcraft:clamrawitem> : <harvestcraft:clamcookeditem>,
 	<harvestcraft:crabrawitem> : <harvestcraft:crabcookeditem>,

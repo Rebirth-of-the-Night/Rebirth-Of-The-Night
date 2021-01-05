@@ -1,20 +1,23 @@
 import crafttweaker.item.IIngredient;
 import mods.vanillaanvilrepair.addRepairEntry;
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.jei.JEI;
+import mods.ltt.LootTable;
 
-mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_axe_endorium>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
-mods.jei.JEI.removeAndHide(<endreborn:entropy_user>);
-mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_seeds>);
-mods.jei.JEI.removeAndHide(<endreborn:item_dragonite_tea>);
-mods.jei.JEI.removeAndHide(<endreborn:food_dragonite_berries>);
-mods.jei.JEI.removeAndHide(<endreborn:food_chorus_soup>);
-mods.jei.JEI.removeAndHide(<endreborn:block_end_forge>);
-mods.jei.JEI.removeAndHide(<endreborn:block_rune>);
-mods.jei.JEI.removeAndHide(<endreborn:item_world_mirror>);
-mods.jei.JEI.removeAndHide(<endreborn:entropy_wand>);
-mods.jei.JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}));
+JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
+JEI.removeAndHide(<endreborn:tool_axe_endorium>);
+JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
+JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
+JEI.removeAndHide(<endreborn:entropy_user>);
+JEI.removeAndHide(<endreborn:item_dragonite_seeds>);
+JEI.removeAndHide(<endreborn:item_dragonite_tea>);
+JEI.removeAndHide(<endreborn:food_dragonite_berries>);
+JEI.removeAndHide(<endreborn:food_chorus_soup>);
+JEI.removeAndHide(<endreborn:block_end_forge>);
+JEI.removeAndHide(<endreborn:block_rune>);
+JEI.removeAndHide(<endreborn:item_world_mirror>);
+JEI.removeAndHide(<endreborn:entropy_wand>);
+JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}));
 recipes.removeByRecipeName("endreborn:book");
 
 <endreborn:sword_shard>.addTooltip("Rare drop from End Guards");
@@ -27,26 +30,26 @@ mods.vanillaanvilrepair.addRepairEntry(endoriumItems, <endreborn:item_ingot_endo
 var obsidianArmor = <endreborn:armour_chestplate_obsidian> | <endreborn:armour_leggings_obsidian> | <endreborn:armour_boots_obsidian> | <endreborn:armour_helmet_helmet>;
 mods.vanillaanvilrepair.addRepairEntry(obsidianArmor, <endreborn:item_shard_obsidian>);
 
-mods.jei.JEI.removeAndHide(<endreborn:armour_helmet_dragon>);
-mods.jei.JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
-mods.jei.JEI.removeAndHide(<endreborn:armour_leggings_dragon>);
-mods.jei.JEI.removeAndHide(<endreborn:armour_boots_dragon>);
+JEI.removeAndHide(<endreborn:armour_helmet_dragon>);
+JEI.removeAndHide(<endreborn:armour_chestplate_dragon>);
+JEI.removeAndHide(<endreborn:armour_leggings_dragon>);
+JEI.removeAndHide(<endreborn:armour_boots_dragon>);
 
-mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:block_wolframium_ore");
-mods.ltt.LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:wolframium_nugget");
-mods.ltt.LootTable.removeGlobalItem("endreborn:tool_shovel_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:tool_axe_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:tool_sword_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:tool_hoe_wolframium");
-mods.ltt.LootTable.removeGlobalItem("endreborn:dragon_scales"); // Re-added in loot.json
-mods.ltt.LootTable.removeGlobalItem("endreborn:item_angel_feather");
-mods.ltt.LootTable.removeGlobalItem("endreborn:item_dragonite_seeds");
-mods.ltt.LootTable.removeGlobalItem("endreborn:item_dragonite_tea");
-mods.ltt.LootTable.removeGlobalItem("endreborn:food_dragonite_berries");
-mods.ltt.LootTable.removeGlobalItem("endreborn:entropy_user");
+LootTable.removeGlobalItem("endreborn:block_wolframium");
+LootTable.removeGlobalItem("endreborn:block_wolframium_ore");
+LootTable.removeGlobalItem("endreborn:item_ingot_wolframium");
+LootTable.removeGlobalItem("endreborn:wolframium_nugget");
+LootTable.removeGlobalItem("endreborn:tool_shovel_wolframium");
+LootTable.removeGlobalItem("endreborn:tool_pickaxe_wolframium");
+LootTable.removeGlobalItem("endreborn:tool_axe_wolframium");
+LootTable.removeGlobalItem("endreborn:tool_sword_wolframium");
+LootTable.removeGlobalItem("endreborn:tool_hoe_wolframium");
+LootTable.removeGlobalItem("endreborn:dragon_scales"); // Re-added in loot.json
+LootTable.removeGlobalItem("endreborn:item_angel_feather");
+LootTable.removeGlobalItem("endreborn:item_dragonite_seeds");
+LootTable.removeGlobalItem("endreborn:item_dragonite_tea");
+LootTable.removeGlobalItem("endreborn:food_dragonite_berries");
+LootTable.removeGlobalItem("endreborn:entropy_user");
 
 
 //sledgehammer recipes are in pyrotech_recipes_anvil.zs these are just removals
@@ -72,31 +75,35 @@ recipes.removeByRecipeName("endreborn:items/food_ender_flesh");
 
 recipes.remove(<endreborn:tool_magnifier>);
 
-mods.betterwithaddons.Infuser.addShaped(<endreborn:tool_magnifier>, [
-   [null, <endreborn:item_ingot_endorium>, <contenttweaker:end_orb>],
-   [null, <minecraft:end_rod>, <dungeontactics:steel_ingot>], 
-   [<minecraft:end_rod>, null, null]],
-16);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <endreborn:item_ingot_endorium>, <aether_legacy:enchanted_gravitite>],
+    [null, <minecraft:end_rod>, <dungeontactics:steel_ingot>], 
+    [<minecraft:end_rod>, null, null]])
+  .addTool(<endreborn:item_end_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<endreborn:tool_magnifier>)
+  .create();
 
 
-
-mods.jei.JEI.removeAndHide(<endreborn:item_ingot_wolframium>);
-mods.jei.JEI.removeAndHide(<endreborn:wolframium_nugget>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_pickaxe_wolframium>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_sword_wolframium>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_hoe_wolframium>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_axe_wolframium>);
-mods.jei.JEI.removeAndHide(<endreborn:tool_shovel_wolframium>);
-mods.jei.JEI.removeAndHide(<endreborn:block_wolframium>);
-mods.jei.JEI.removeAndHide(<endreborn:block_wolframium_ore>);
+JEI.removeAndHide(<endreborn:item_ingot_wolframium>);
+JEI.removeAndHide(<endreborn:wolframium_nugget>);
+JEI.removeAndHide(<endreborn:tool_pickaxe_wolframium>);
+JEI.removeAndHide(<endreborn:tool_sword_wolframium>);
+JEI.removeAndHide(<endreborn:tool_hoe_wolframium>);
+JEI.removeAndHide(<endreborn:tool_axe_wolframium>);
+JEI.removeAndHide(<endreborn:tool_shovel_wolframium>);
+JEI.removeAndHide(<endreborn:block_wolframium>);
+JEI.removeAndHide(<endreborn:block_wolframium_ore>);
 
 
 var crystal = <endreborn:item_lormyte_crystal>;
 var obsidianshard = <endreborn:item_shard_obsidian>;
 
-mods.jei.JEI.removeAndHide(<endreborn:e_end_bricks_wall>);
-mods.jei.JEI.removeAndHide(<quark:end_bricks_wall>);
-mods.jei.JEI.removeAndHide(<quark:end_bricks_stairs>);
+JEI.removeAndHide(<endreborn:e_end_bricks_wall>);
+JEI.removeAndHide(<quark:end_bricks_wall>);
+JEI.removeAndHide(<quark:end_bricks_stairs>);
 
 var smoothendstone = <endreborn:block_end_stone_smooth>;
 var endstone = <minecraft:end_stone>;

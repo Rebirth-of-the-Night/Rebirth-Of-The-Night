@@ -1,39 +1,44 @@
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.jei. JEI;
+import mods.ltt. LootTable;
 
 
 recipes.removeByRecipeName("aether_legacy:furnace_from_holystone");
+recipes.removeShaped(<minecraft:stone_pressure_plate>, [
+    [<aether_legacy:holystone>, <aether_legacy:holystone>]
+]);
 
-mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
-mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_pickaxe>);
-mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_axe>);
-mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_shovel>);
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:skyroot_pickaxe");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:skyroot_axe");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:skyroot_shovel");
+JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
+JEI.removeAndHide(<aether_legacy:skyroot_pickaxe>);
+JEI.removeAndHide(<aether_legacy:skyroot_axe>);
+JEI.removeAndHide(<aether_legacy:skyroot_shovel>);
+LootTable.removeGlobalItem("aether_legacy:skyroot_pickaxe");
+LootTable.removeGlobalItem("aether_legacy:skyroot_axe");
+LootTable.removeGlobalItem("aether_legacy:skyroot_shovel");
 
-mods.jei.JEI.removeAndHide(<aeble:obsidian_ring>);
-mods.jei.JEI.removeAndHide(<aeble:zanite_ring>);
-mods.jei.JEI.removeAndHide(<aeble:ice_ring>);
-mods.ltt.LootTable.removeGlobalItem("aeble:obsidian_ring");
-mods.ltt.LootTable.removeGlobalItem("aeble:zanite_ring");
-mods.ltt.LootTable.removeGlobalItem("aeble:ice_ring");
-mods.ltt.LootTable.removeModEntry("aeble");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:sun_altar");
+JEI.removeAndHide(<aeble:obsidian_ring>);
+JEI.removeAndHide(<aeble:zanite_ring>);
+JEI.removeAndHide(<aeble:ice_ring>);
+LootTable.removeGlobalItem("aeble:obsidian_ring");
+LootTable.removeGlobalItem("aeble:zanite_ring");
+LootTable.removeGlobalItem("aeble:ice_ring");
+LootTable.removeModEntry("aeble");
+LootTable.removeGlobalItem("aether_legacy:sun_altar");
 
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:holystone_sword");
-mods.jei.JEI.removeAndHide(<aether_legacy:holystone_sword>);
-
-
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_helmet");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_boots");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_leggings");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_feather");
+LootTable.removeGlobalItem("aether_legacy:holystone_sword");
+JEI.removeAndHide(<aether_legacy:holystone_sword>);
 
 
-mods.jei.JEI.removeAndHide(<aether_legacy:swetty_ball>);
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:swetty_ball");
+LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");
+LootTable.removeGlobalItem("aether_legacy:obsidian_helmet");
+LootTable.removeGlobalItem("aether_legacy:obsidian_boots");
+LootTable.removeGlobalItem("aether_legacy:obsidian_leggings");
+LootTable.removeGlobalItem("aether_legacy:golden_feather");
+
+
+JEI.removeAndHide(<aether_legacy:swetty_ball>);
+LootTable.removeGlobalItem("aether_legacy:swetty_ball");
 
 recipes.remove(<aether_legacy:aetherium_core>);
 RecipeBuilder.get("mage")
@@ -48,55 +53,55 @@ RecipeBuilder.get("mage")
   .addOutput(<aether_legacy:aetherium_core>)
   .create();
 
-mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_chestplate>);
-mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_helmet>);
-mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_boots>);
-mods.jei.JEI.removeAndHide(<aether_legacy:obsidian_leggings>);
+JEI.removeAndHide(<aether_legacy:obsidian_chestplate>);
+JEI.removeAndHide(<aether_legacy:obsidian_helmet>);
+JEI.removeAndHide(<aether_legacy:obsidian_boots>);
+JEI.removeAndHide(<aether_legacy:obsidian_leggings>);
 
-mods.jei.JEI.removeAndHide(<aether_legacy:repulsion_shield>);
-mods.jei.JEI.removeAndHide(<aether_legacy:iron_ring>);
-mods.jei.JEI.removeAndHide(<aether_legacy:golden_ring>);
-mods.jei.JEI.removeAndHide(<aether_legacy:zanite_ring>);
-mods.jei.JEI.removeAndHide(<aether_legacy:ice_ring>);
-mods.jei.JEI.removeAndHide(<aether_legacy:iron_pendant>);
-mods.jei.JEI.removeAndHide(<aether_legacy:golden_pendant>);
-mods.jei.JEI.removeAndHide(<aether_legacy:zanite_pendant>);
-mods.jei.JEI.removeAndHide(<aether_legacy:ice_pendant>);
-mods.jei.JEI.removeAndHide(<aether_legacy:zanite_gloves>);
-mods.jei.JEI.removeAndHide(<aether_legacy:phoenix_gloves>);
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:iron_ring");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_ring");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:zanite_ring");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:ice_ring");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:iron_pendant");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_pendant");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:zanite_pendant");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:ice_pendant");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:zanite_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:phoenix_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:leather_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:iron_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:golden_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:chain_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:diamond_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:gravitite_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:neptune_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:valkyrie_gloves");
+JEI.removeAndHide(<aether_legacy:repulsion_shield>);
+JEI.removeAndHide(<aether_legacy:iron_ring>);
+JEI.removeAndHide(<aether_legacy:golden_ring>);
+JEI.removeAndHide(<aether_legacy:zanite_ring>);
+JEI.removeAndHide(<aether_legacy:ice_ring>);
+JEI.removeAndHide(<aether_legacy:iron_pendant>);
+JEI.removeAndHide(<aether_legacy:golden_pendant>);
+JEI.removeAndHide(<aether_legacy:zanite_pendant>);
+JEI.removeAndHide(<aether_legacy:ice_pendant>);
+JEI.removeAndHide(<aether_legacy:zanite_gloves>);
+JEI.removeAndHide(<aether_legacy:phoenix_gloves>);
+LootTable.removeGlobalItem("aether_legacy:iron_ring");
+LootTable.removeGlobalItem("aether_legacy:golden_ring");
+LootTable.removeGlobalItem("aether_legacy:zanite_ring");
+LootTable.removeGlobalItem("aether_legacy:ice_ring");
+LootTable.removeGlobalItem("aether_legacy:iron_pendant");
+LootTable.removeGlobalItem("aether_legacy:golden_pendant");
+LootTable.removeGlobalItem("aether_legacy:zanite_pendant");
+LootTable.removeGlobalItem("aether_legacy:ice_pendant");
+LootTable.removeGlobalItem("aether_legacy:zanite_gloves");
+LootTable.removeGlobalItem("aether_legacy:phoenix_gloves");
+LootTable.removeGlobalItem("aether_legacy:leather_gloves");
+LootTable.removeGlobalItem("aether_legacy:iron_gloves");
+LootTable.removeGlobalItem("aether_legacy:golden_gloves");
+LootTable.removeGlobalItem("aether_legacy:chain_gloves");
+LootTable.removeGlobalItem("aether_legacy:diamond_gloves");
+LootTable.removeGlobalItem("aether_legacy:gravitite_gloves");
+LootTable.removeGlobalItem("aether_legacy:neptune_gloves");
+LootTable.removeGlobalItem("aether_legacy:obsidian_gloves");
+LootTable.removeGlobalItem("aether_legacy:valkyrie_gloves");
 
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:red_cape");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:blue_cape");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:yellow_cape");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:white_cape");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:swet_cape");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:invisibility_cape");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:agility_cape");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_gloves");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:valkyrie_cape");
+LootTable.removeGlobalItem("aether_legacy:red_cape");
+LootTable.removeGlobalItem("aether_legacy:blue_cape");
+LootTable.removeGlobalItem("aether_legacy:yellow_cape");
+LootTable.removeGlobalItem("aether_legacy:white_cape");
+LootTable.removeGlobalItem("aether_legacy:swet_cape");
+LootTable.removeGlobalItem("aether_legacy:invisibility_cape");
+LootTable.removeGlobalItem("aether_legacy:agility_cape");
+LootTable.removeGlobalItem("aether_legacy:obsidian_gloves");
+LootTable.removeGlobalItem("aether_legacy:valkyrie_cape");
 
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:iron_bubble");
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
+LootTable.removeGlobalItem("aether_legacy:regeneration_stone");
+LootTable.removeGlobalItem("aether_legacy:iron_bubble");
+LootTable.removeGlobalItem("aether_legacy:repulsion_shield");
 
 //Fix trapdoor recipes
 val skyplank = <aether_legacy:skyroot_plank>;
@@ -137,10 +142,10 @@ recipes.addShaped("quickgravisand", <quark:gravisand>*8,[
     [quicks, quicks, quicks]
 ]);
 
-mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_pickaxe>);
-mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_axe>);
-mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
-mods.jei.JEI.removeAndHide(<aether_legacy:lore_book>);
+JEI.removeAndHide(<aether_legacy:gravitite_pickaxe>);
+JEI.removeAndHide(<aether_legacy:gravitite_axe>);
+JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
+JEI.removeAndHide(<aether_legacy:lore_book>);
 
 
 var egrav = <aether_legacy:enchanted_gravitite>;

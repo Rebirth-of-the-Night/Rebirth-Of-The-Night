@@ -8,10 +8,10 @@ import mods.contenttweaker.Item;
 //Values
 val color = Color.fromHex("FFFF8C") as Color;
 val electrum = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(color).build();
-val sivgoldMixture = mods.contenttweaker.VanillaFactory.createItem("silver_gold_mixture");
-sivgoldMixture.register();
-val sivgoldPebbles = mods.contenttweaker.VanillaFactory.createItem("silver_gold_pebbles");
-sivgoldPebbles.register();
+// val sivgoldMixture = mods.contenttweaker.VanillaFactory.createItem("silver_gold_mixture");
+// sivgoldMixture.register();
+// val sivgoldPebbles = mods.contenttweaker.VanillaFactory.createItem("silver_gold_pebbles");
+// sivgoldPebbles.register();
 
 //MISC PARTS
 var edata = electrum.registerParts(["ingot","nugget","molten","dense_plate","dust"] as string[])[2].getData();

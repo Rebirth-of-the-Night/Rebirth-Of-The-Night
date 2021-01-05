@@ -1,47 +1,51 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import mods.jei.JEI;
+import mods.jei. JEI;
 import crafttweaker.item.IItemTransformer;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-mods.jei.JEI.removeAndHide(<biomesoplenty:peach>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:plant_1:3>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:ricebowl>);
+JEI.removeAndHide(<biomesoplenty:peach>);
+JEI.removeAndHide(<biomesoplenty:plant_1:3>);
+JEI.removeAndHide(<biomesoplenty:ricebowl>);
 
-mods.jei.JEI.removeAndHide(<biomesoplenty:jar_filled:0>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:hive:1>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:hive:2>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:hive:3>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:honey_block>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:honeycomb>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:filled_honeycomb>);
-mods.jei.JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: "honey"}));
+JEI.removeAndHide(<biomesoplenty:terrestrial_artifact>);
+JEI.removeAndHide(<biomesoplenty:biome_finder>);
 
-mods.jei.JEI.removeAndHide(<biomesoplenty:terrestrial_artifact>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:biome_finder>);
+JEI.removeAndHide(<biomesoplenty:gem:7>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
+JEI.removeAndHide(<biomesoplenty:gem_block:7>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
 
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem:7>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:7>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:7>);
+JEI.removeAndHide(<biomesoplenty:gem:3>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
+JEI.removeAndHide(<biomesoplenty:gem_block:3>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
 
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem:3>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:3>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:3>);
+JEI.removeAndHide(<biomesoplenty:gem:4>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
+JEI.removeAndHide(<biomesoplenty:gem_block:4>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
 
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem:4>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:4>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:4>);
+JEI.removeAndHide(<biomesoplenty:gem:5>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
+JEI.removeAndHide(<biomesoplenty:gem_block:5>);
+JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
 
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem:5>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_block:5>);
-mods.jei.JEI.removeAndHide(<biomesoplenty:gem_ore:5>);
+JEI.removeAndHide(<biomesoplenty:honey_block>);
+JEI.removeAndHide(<biomesoplenty:honeycomb>);
+JEI.removeAndHide(<biomesoplenty:filled_honeycomb>);
+JEI.removeAndHide(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "honey", Amount: 1000}}));
+JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: "honey", Amount: 1000}));
+JEI.removeAndHide(<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "honey", Amount: 1000}}));
+JEI.removeAndHide(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "honey", Amount: 1000}}));
+JEI.removeAndHide(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "honey", Amount: 1000}}));
 
+<ore:foodFilledhoneycomb>.remove(<biomesoplenty:filled_honeycomb>);
+
+recipes.remove(<biomesoplenty:hive:1>);
+recipes.remove(<biomesoplenty:hive:3>);
 
 recipes.remove(<biomesoplenty:flesh>);
 
