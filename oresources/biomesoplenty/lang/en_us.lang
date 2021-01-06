@@ -9,3 +9,6 @@ potion.curse=Pandemonium
 entity.wasp.name=Helwasp
 
 tile.honey_block.name=Honey Residue
+
+tile.gem_block.amethyst_block.name=Block of Exorite
+tile.gem_ore.amethyst_ore.name=Exorite Ore
