@@ -5,34 +5,10 @@
     "domain": "betterslimes",
     "name": "quazar",
     "displayName": "Quazar",
-    "maxHealth": 500,
+    "maxHealth": 700,
     "attackDamage": 10.5,
     "alwaysShowDisplayName": false,
-    "additionalDrops": [{
-      "item": "contenttweaker:volatile_core",
-      "minDrops": 1,
-      "maxDrops": 1,
-      "dropChance": 100
-    },
-    {
-      "item": "nyx:meteor_shard",
-      "minDrops": 1,
-      "maxDrops": 3,
-      "dropChance": 100
-    },
-    {
-      "item": "minecraft:fire_charge",
-      "minDrops": 1,
-      "maxDrops": 5,
-      "dropChance": 100
-    },
-    {
-      "item": "contenttweaker:mercurial_ooze",
-      "minDrops": 2,
-      "maxDrops": 5,
-      "dropChance": 100
-    }
-    ]
+    "additionalDrops": []
   },
   "bossAddInfo": [{
       "_comment": "Spawns a bunch of meteors, after that is done. Wait 10 (200 ticks) seconds and spawn magma cube minions",

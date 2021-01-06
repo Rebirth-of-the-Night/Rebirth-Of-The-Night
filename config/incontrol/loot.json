@@ -118,6 +118,12 @@
       "item": "nyx:meteor_shard",
       "itemcount": "5-10"
    },
+   {
+      "mob": "betterslimes:quazar",
+      "player": true,
+      "item": "minecraft:fire_charge",
+      "itemcount": "1-5"
+    },
 
 
 
