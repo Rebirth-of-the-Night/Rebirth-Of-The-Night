@@ -109,7 +109,7 @@ Dropt.list("bop_filled_honeycomb_block")
 Dropt.list("exorite")
 
   .add(Dropt.rule()
-      .matchBlocks(["osv:biomesoplenty_amethyst_ore_end_stone"])
+      .matchBlocks(["osv:biomesoplenty_amethyst_ore_end_stone","osv:biomesoplenty_amethyst_ore_obsidian","biomesoplenty:gem_block[variant=amethyst]"])
       .addDrop(Dropt.drop()
           .items([<rotn_blocks:exorite_crystal>])
       )
