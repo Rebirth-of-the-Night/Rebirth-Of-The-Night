@@ -2,7 +2,6 @@
 .curseclient
 minecraftinstance.json
 crafttweaker.log
-optionsof.txt
 knownkeys.txt
 .mixin.out/
 llibrary/debug/
@@ -22,8 +21,6 @@ screenshots/
 crash-reports/
 servers.dat
 shaderpacks/Sildurs Enhanced Default *.zip
-optionsshaders.txt
-config/jei/worldSettings.cfg
 mods/blockdrops-1.12.2-*.jar
 config/BlockDrops/
 modlist.html
@@ -35,11 +32,11 @@ mods/JEIHider-*.jar
 mods/Mapmaker's+Gadgets-*_for_1.12.x.jar
 mods/Mineshot-*-1.12.jar
 mods/themidnight-*.jar
-options.txt
+/options.txt
+/optionsof.txt
+/optionsshaders.txt
 config/TwitchSpawn/
 
-config/jei/bookmarks.ini
-config/multimob/modInformation/*.txt
 config/pyrotech/*-Generated.json
 patchouli_data.json
 
@@ -51,7 +48,7 @@ config/ultimate_unicorn_download/*.txt
 shaderpacks/SEUS*.zip
 shaderpacks/BBVanillaReborn_*.zip
 mods/twitchspawn_1.12.2-*.jar
-icon.png
+./icon.png
 config/tellme.cfg
 config/tellme/
 mods/tellme-*.jar
@@ -72,6 +69,13 @@ config/mineshot.cfg
 dropt.log
 
 resourcepacks/Better Rebirth 1.12.2/assets/malisisdoors/textures/16xtextures/
-config/fantasticlib/reference/
+config/fantasticlib/reference/biomes.txt
+config/fantasticlib/reference/blocks.txt
+config/fantasticlib/reference/blockstates.txt
+config/fantasticlib/reference/entities.txt
+config/fantasticlib/reference/items.txt
+config/fantasticlib/reference/players.txt
+config/fantasticlib/reference/potions.txt
+config/fantasticlib/reference/recipes.txt
 shaderpacks/Tea_V1.5.0.zip
 config/customloadingscreen_timings.nbt
