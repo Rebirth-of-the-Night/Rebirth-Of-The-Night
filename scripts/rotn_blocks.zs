@@ -8,4 +8,4 @@ recipes.addShapeless("moss_block", <rotn_blocks:cave_moss>, [<pyrotech:rock_gras
 recipes.addShaped("mushroom_lamp", <rotn_blocks:mushroom_lamp_0>*8, 
 [[<minecraft:red_mushroom>,<minecraft:red_mushroom>,<minecraft:red_mushroom>],
 [<minecraft:red_mushroom>, <minecraft:redstone_lamp>, <minecraft:red_mushroom>], 
-[<minecraft:red_mushroom>,<minecraft:red_mushroom>,<minecraft:red_mushroom>]);
+[<minecraft:red_mushroom>,<minecraft:red_mushroom>,<minecraft:red_mushroom>]]);
