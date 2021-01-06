@@ -7,7 +7,7 @@ block: {
 }
 loot: [
   {
-    item: biomesoplenty:gem
+    item: rotn_blocks:exorite_crystal
     count: [ 1, 1 ]
     xp: [ 3, 7 ]
     chance: 1
@@ -17,7 +17,7 @@ texture: {
   original: biomesoplenty:blocks/amethyst_ore
 }
 recipe: {
-  result: biomesoplenty:gem
+  result: rotn_blocks:exorite_crystal
   xp: 1.2000000476837158
   quantity: 1
 }

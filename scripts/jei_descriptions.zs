@@ -115,7 +115,7 @@ JEI.addDescription(<ore:ingotIron>,"Although bronze is tougher and more durable 
 JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
 JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
 
-JEI.addDescription(<biomesoplenty:gem:0>,"A beautiful gem common to the lands of the Ender folk, as the deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods.");
+JEI.addDescription(<rotn_blocks:exorite_crystal>,"A beautiful gem common to the lands of the Ender folk, sometimes confused with amethyst.");
 JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
 JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
@@ -279,7 +279,7 @@ JEI.addDescription(<minecraft:torch>, "An adventurer's best friend. Most will ra
 JEI.addDescription(<arcanearchives:quartz_sliver>, "A cheap alternative to torches obtained by punching blocks with radiant quartz.");
 
 
-/* Redstone and Automation */
+/* Redstone, Automation and Functional Blocks */
 JEI.addDescription(<quark:ender_watcher>, "Redstone technology combined with the unblinking will of an Eye of Ender. Emits a redstone signal when looked at.");
 JEI.addDescription(<quark:gravisand>, "A peculiar substance with properties not even heard in tales of the fabled Aether. Will only fall when activated with redstone. If it is already in contact with the ground, the sand will instead float as if falling up.");
 JEI.addDescription(<quark:gold_button>, "Emits a signal for 2 ticks.");
@@ -322,6 +322,7 @@ JEI.addDescription(<projectred-transmission:wire:0>, "A simple wire made out of 
 JEI.addDescription(<projectred-transmission:framed_wire:0>, "A framed wire that does not require a wall to adhere to. Similar to its unframed counterpart, it connects between all framed wires and holds up to 256 power. It can be connected to normal wires by placing a red alloy wire in the same block as the framed wire.");
 JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:iron_block"}), "Covers allow for blocking between redstone signals that should not intersect. They are also used for creating one-block high bridges over other redstone.");
 JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:diamond_block"}), "Covers allow for blocking between redstone signals that should not intersect. They are also used for creating one-block high bridges over other redstone.");
+JEI.addDescription(<sereneseasons:greenhouse_glass>, "Reinforced glass that has been blessed or enchanted to allow any crops to grow under its veil as long as there is light and water nearby.");
 
 /* Mechanical, Defense, and Item Movement */
 JEI.addDescription(<quark:rope>, "A useful tool for traversal. Right click on a rope with more rope to descend downward. It will also pull itself and blocks underneath it upwards if right-clicked while sneaking.");

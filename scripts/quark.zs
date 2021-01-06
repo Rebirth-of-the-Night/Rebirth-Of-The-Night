@@ -97,7 +97,7 @@ val crystalMats as IIngredient[][] = [
 	[<iceandfire:myrmex_jungle_resin>, <ore:gemPeridot>, <ore:gemEmerald>],
 	[<minecraft:dye:4>, <ore:gemSapphire>],
 	[<endreborn:item_advanced_ender_pearl>, <aether_legacy:zanite_gemstone>],
-	[<ore:gemAmethyst>],
+	[<rotn_blocks:exorite_crystal>],
 	[<ore:gemOnyx>, <endreborn:dragon_scales>]
 ] as IIngredient[][];
 
