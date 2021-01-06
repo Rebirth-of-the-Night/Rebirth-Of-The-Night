@@ -1005,7 +1005,7 @@ Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttwe
 
 // Arcane Quintessence
 
-
+Mortar.addRecipe(["iron"], <contenttweaker:arcane_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:arcanaQuintessenceA>, <ore:arcanaQuintessenceB>]);
 
 ##########################
 # Mystical Mortar (gold) #
@@ -1111,6 +1111,11 @@ Mortar.addRecipe(["gold"], <contenttweaker:balance_quintessence>, 2, <contenttwe
 
 Mortar.addRecipe(["gold"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:balanceYingQuintessenceD>, <ore:balanceYangQuintessenceD>]);
 
+// Arcana Quintessence
+
+Mortar.addRecipe(["gold"], <contenttweaker:arcane_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.15, [<ore:arcanaQuintessenceA>, <ore:arcanaQuintessenceB>]);
+
+
 ## Mystical Qs - 3 speck per chance craft ##
 
 // Fae Quintessence
@@ -1136,10 +1141,6 @@ Mortar.addRecipe(["gold"], <contenttweaker:aether_quintessence>, 2, <contenttwea
 // Nether Quintessence
 
 Mortar.addRecipe(["gold"], <contenttweaker:nether_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:netherQuintessenceA>, <ore:netherQuintessenceB>, <ore:netherQuintessenceC>]);
-
-// Arcana Quintessence
-
-Mortar.addRecipe(["gold"], <contenttweaker:arcane_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:arcanaQuintessenceA>, <ore:arcanaQuintessenceB>, <ore:arcanaQuintessenceC>]);
 
 // End Quintessence
 
