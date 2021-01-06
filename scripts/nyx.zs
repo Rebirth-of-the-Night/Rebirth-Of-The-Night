@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.jei.JEI;
 
 /*
 nyx:meteor_hammer
@@ -55,3 +56,14 @@ mods.betterwithmods.Anvil.addShaped(<nyx:scythe>,
    [<nyx:meteor_ingot>, null, <nyx:meteor_ingot>, <spartanfire:witherbone_handle>],
    [<nyx:crystal>, <nyx:meteor_ingot>, null, null]
 ]);
+
+furnace.remove(<nyx:meteor_ingot>);
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <nyx:meteor_shard>*12,
+        <contenttweaker:volatile_powder>
+    ],
+    [
+        <nyx:meteor_ingot>*12
+    ]
+);
