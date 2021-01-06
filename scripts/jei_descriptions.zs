@@ -470,3 +470,6 @@ JEI.addItem(<contenttweaker:aether_rune>);
 JEI.addItem(<contenttweaker:arcane_rune>);
 JEI.addItem(<contenttweaker:draconic_rune>);
 JEI.addItem(<contenttweaker:fae_rune>);
+
+/* Hit with Axe */
+JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic wood log with an axe.");
