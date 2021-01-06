@@ -47,7 +47,8 @@ import mods.jei.JEI;
  */
 
 /* KNOWN BUGS */
-JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in any way, including checking recipes for items in JEI while you have an emerald in the payment slot."]);
+
+
 
 /* Tools, Weapons, and Armor */
 
