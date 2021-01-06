@@ -188,8 +188,7 @@ gemAny.add(
   <minecraft:emerald>,
   <biomesoplenty:gem:6>,
   <aether_legacy:zanite_gemstone>,
-  <biomesoplenty:gem:1>,
-  <rotn_blocks:exorite_crystal>
+  <biomesoplenty:gem:1>
 );
 
 val inertRing = itemUtils.getItemsByRegexRegistryName("behgameon:ring_.*$(?<!53|61)") as IItemStack[];
@@ -346,7 +345,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <iceandfire:silver_ingot>, <contenttweaker:vis_shard>],
     [<iceandfire:silver_ingot>, <bountifulbaubles:potionrecall>, <iceandfire:silver_ingot>],
-    [<contenttweaker:vis_shard>, <contenttweaker:voidseen_exorite>, <contenttweaker:vis_shard>]])
+    [<contenttweaker:vis_shard>, <contenttweaker:voidseen_amethyst>, <contenttweaker:vis_shard>]])
   .addTool(<endreborn:item_end_rune>, 1)
   .addOutput(<bountifulbaubles:magicmirror>)
   .setMinimumTier(1)
@@ -459,7 +458,7 @@ recipes.remove(<bountifulbaubles:trinketshulkerheart>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <scalinghealth:heartcontainer>, <contenttweaker:vis_shard>],
-    [<aether_legacy:enchanted_gravitite>, <contenttweaker:voidseen_exorite>, <minecraft:shulker_shell>],
+    [<aether_legacy:enchanted_gravitite>, <contenttweaker:voidseen_amethyst>, <minecraft:shulker_shell>],
     [<contenttweaker:vis_shard>, <betterwithmods:anchor>, <contenttweaker:vis_shard>]])
   .addTool(<endreborn:item_end_rune>, 1)
   .addTool(<contenttweaker:earth_rune>, 1)

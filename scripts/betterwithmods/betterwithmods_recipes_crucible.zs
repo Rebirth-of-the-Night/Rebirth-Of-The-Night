@@ -40,7 +40,7 @@ mods.betterwithmods.Crucible.addStoked(
     ]
 );
 
-//Overworld gems are alloyed with steel, while Exorite is alloyed with Endorium
+//Overworld gems are alloyed with steel, while Amethyst is alloyed with Endorium
 //Stoked Gem Ingots
 mods.betterwithmods.Crucible.addStoked(
     [
@@ -81,10 +81,10 @@ mods.betterwithmods.Crucible.addStoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <endreborn:item_ingot_endorium>,
-        <rotn_blocks:exorite_crystal>
+        <ore:gemAmethyst>
     ],
     [
-        <contenttweaker:exorite_ingot>
+        <contenttweaker:amethyst_ingot>
     ]
 );
 

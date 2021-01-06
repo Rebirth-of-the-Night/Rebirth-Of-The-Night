@@ -226,7 +226,7 @@ val filch37 = stealFilch.addPool("filch_lizard_037", 1, 1, 0, 0);
 filch37.addItemEntry(<minecraft:gold_nugget>, 1);
 
 val filch38 = stealFilch.addPool("filch_lizard_038", 1, 1, 0, 0);
-filch38.addItemEntry(<rotn_blocks:exorite_crystal>, 1);
+filch38.addItemEntry(<biomesoplenty:gem>, 1);
 
 val filch39 = stealFilch.addPool("filch_lizard_039", 1, 1, 0, 0);
 filch39.addItemEntry(<minecraft:golden_apple:1>, 1);

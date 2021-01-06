@@ -105,15 +105,6 @@ Dropt.list("bop_filled_honeycomb_block")
           .items([<rustic:honeycomb>], Dropt.range(4, 6))
       )
   );
-  
-Dropt.list("exorite")
-
-  .add(Dropt.rule()
-      .matchBlocks(["osv:biomesoplenty_amethyst_ore_end_stone"])
-      .addDrop(Dropt.drop()
-          .items([<rotn_blocks:exorite_crystal>])
-      )
-  );
 
 Dropt.list("wither_skull")
 

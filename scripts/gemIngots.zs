@@ -10,7 +10,7 @@ val diamond = <betterwithmods:material:45>;
 val ruby = <contenttweaker:ruby_ingot>;
 val sapphire = <contenttweaker:sapphire_ingot>;
 val peridot = <contenttweaker:peridot_ingot>;
-val exorite =<contenttweaker:exorite_ingot>;
+val amethyst =<contenttweaker:amethyst_ingot>;
 val dheart = <quark:diamond_heart>;
 val stick = <ore:stickWood>;
 val handle = <spartanweaponry:material>;
@@ -355,14 +355,14 @@ recipes.addShaped("peridot_boots", <atop:peridot_boots>,
   [peridot,null,peridot]]);
   
   
-//exorite
+//amethyst
 
 recipes.remove(<atop:amethyst_sword>);
 mods.betterwithmods.Anvil.addShaped(<atop:amethyst_sword>,
 [
-   [null, exorite, exorite, exorite],
-   [exorite, exorite, <contenttweaker:voidseen_exorite>, <endreborn:sword_shard>],
-   [null, exorite, exorite, exorite],
+   [null, amethyst, amethyst, amethyst],
+   [amethyst, amethyst, <contenttweaker:voidseen_amethyst>, <endreborn:sword_shard>],
+   [null, amethyst, amethyst, amethyst],
    [null, null, null, null]
 ]);
 
@@ -370,55 +370,55 @@ mods.betterwithmods.Anvil.addShaped(<atop:amethyst_sword>,
 recipes.remove(<atop:topaz_sword>);
 mods.betterwithmods.Anvil.addShaped(<atop:topaz_sword>,
 [
-   [<contenttweaker:voidseen_exorite>, exorite, exorite, <spartanweaponry:material:1>],
-   [exorite, null, null, null],
-   [exorite, null, null, null],
-   [null, exorite, null, null]
+   [<contenttweaker:voidseen_amethyst>, amethyst, amethyst, <spartanweaponry:material:1>],
+   [amethyst, null, null, null],
+   [amethyst, null, null, null],
+   [null, amethyst, null, null]
 ]);
 
 recipes.remove(<atop:amethyst_hoe>);
-recipes.addShapedMirrored("exorite_hoe", <atop:amethyst_hoe>,
- [[exorite,exorite,null],
+recipes.addShapedMirrored("amethyst_hoe", <atop:amethyst_hoe>,
+ [[amethyst,amethyst,null],
   [null,stick,null],
   [null,stick,null]]); 
 
   recipes.remove(<atop:amethyst_shovel>);
-recipes.addShapedMirrored("exorite_shovel", <atop:amethyst_shovel>,
- [[null,exorite,null],
+recipes.addShapedMirrored("amethyst_shovel", <atop:amethyst_shovel>,
+ [[null,amethyst,null],
   [null,stick,null],
   [null,stick,null]]); 
 
 recipes.remove(<atop:amethyst_axe>);
-recipes.addShapedMirrored("exorite_axe", <atop:amethyst_axe>,
- [[exorite,exorite],
-  [exorite,stick],
+recipes.addShapedMirrored("amethyst_axe", <atop:amethyst_axe>,
+ [[amethyst,amethyst],
+  [amethyst,stick],
   [null,stick]]); 
 
 recipes.remove(<atop:amethyst_pickaxe>);
-recipes.addShaped("exorite_pickaxe", <atop:amethyst_pickaxe>,
- [[exorite,exorite,exorite],
+recipes.addShaped("amethyst_pickaxe", <atop:amethyst_pickaxe>,
+ [[amethyst,amethyst,amethyst],
   [null,stick,null],
   [null,stick,null]]);
 
   
 recipes.remove(<atop:amethyst_helmet>);
-recipes.addShaped("exorite_helmet", <atop:amethyst_helmet>,
- [[exorite,exorite,exorite],
-  [exorite,null,exorite]]);  
+recipes.addShaped("amethyst_helmet", <atop:amethyst_helmet>,
+ [[amethyst,amethyst,amethyst],
+  [amethyst,null,amethyst]]);  
 
 recipes.remove(<atop:amethyst_chestplate>);
-recipes.addShaped("exorite_chestplate", <atop:amethyst_chestplate>,
- [[exorite,null,exorite],
-  [exorite,exorite,exorite],
-  [exorite,exorite,exorite]]);  
+recipes.addShaped("amethyst_chestplate", <atop:amethyst_chestplate>,
+ [[amethyst,null,amethyst],
+  [amethyst,amethyst,amethyst],
+  [amethyst,amethyst,amethyst]]);  
 
 recipes.remove(<atop:amethyst_leggings>); 
-recipes.addShaped("exorite_leggings", <atop:amethyst_leggings>,
- [[exorite,exorite,exorite],
-  [exorite,null,exorite],
-  [exorite,null,exorite]]);   
+recipes.addShaped("amethyst_leggings", <atop:amethyst_leggings>,
+ [[amethyst,amethyst,amethyst],
+  [amethyst,null,amethyst],
+  [amethyst,null,amethyst]]);   
 
 recipes.remove(<atop:amethyst_boots>); 
-recipes.addShaped("exorite_boots", <atop:amethyst_boots>,
- [[exorite,null,exorite],
-  [exorite,null,exorite]]);
+recipes.addShaped("amethyst_boots", <atop:amethyst_boots>,
+ [[amethyst,null,amethyst],
+  [amethyst,null,amethyst]]);

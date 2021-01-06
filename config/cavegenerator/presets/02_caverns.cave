@@ -6,13 +6,13 @@
     minHeight: 16
     maxHeight: 58
     noise3D: {
-      frequency: 0.015
-      scale: 0.3
+      frequency: 0.005
+      scale: 0.6
       scaleY: 0.58
 	  gain: 0.4
       type: Cellular
       returnType: Distance3Div
-      jitter: 0.75
+      jitter: 1
       perturb: true
       perturbAmp: 10
       perturbFreq: 0.025
@@ -22,26 +22,6 @@
   rooms: {
     scale: 7
     scaleY: 0.8
-  }
-  tunnels: {
-     # Spawn rate roughly in half.
-    frequency: 7
-     # Most tunnels will spawn alone.
-    systemChance: 0.0005
-    noiseYReduction: false
-    resizeBranches: false
-    twistY: {
-      factor: 0.5
-    }
-    scale: {
-      randFactor: 0
-      startVal: 4.5
-      startValRandFactor: 0
-    }
-    scaleY: {
-      randFactor: 0
-      startVal: 0.6
-    }
   }
   wallDecorators: [
      # Sporadic gravel.

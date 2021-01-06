@@ -1072,7 +1072,7 @@ RecipeBuilder.get("mage")
   .setName("wandMM")
   .setShaped([
     [null, <aether_legacy:enchanted_gravitite>, <minecraft:shulker_shell>],
-    [null, <contenttweaker:voidseen_exorite>, <aether_legacy:enchanted_gravitite>],
+    [null, <contenttweaker:voidseen_amethyst>, <aether_legacy:enchanted_gravitite>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<endreborn:item_end_rune>, 1)

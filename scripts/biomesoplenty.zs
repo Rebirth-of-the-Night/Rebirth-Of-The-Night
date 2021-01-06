@@ -71,14 +71,11 @@ recipes.addShaped("mudblock", <biomesoplenty:mud>, [
 recipes.removeByRecipeName("biomesoplenty:biome_finder");
 
 recipes.remove(<biomesoplenty:gem_block:0>);
-recipes.addShaped("exorite_to_block", <biomesoplenty:gem_block:0>, [
-    [<rotn_blocks:exorite_crystal>,<rotn_blocks:exorite_crystal>,<rotn_blocks:exorite_crystal>],
-    [<rotn_blocks:exorite_crystal>,<rotn_blocks:exorite_crystal>,<rotn_blocks:exorite_crystal>],
-    [<rotn_blocks:exorite_crystal>,<rotn_blocks:exorite_crystal>,<rotn_blocks:exorite_crystal>]
+recipes.addShaped("amethyst_to_block", <biomesoplenty:gem_block:0>, [
+    [<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>],
+    [<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>],
+    [<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>]
 ]);
-
-recipes.removeByRecipeName("biomesoplenty:amethyst");
-recipes.addShapeless("block_to_exorite",<rotn_blocks:exorite_crystal>*9,[<biomesoplenty:gem_block:0>]);
 
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>, 0.3);
 

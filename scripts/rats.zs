@@ -321,5 +321,7 @@ mods.rats.recipes.addChefRatRecipe(<nyx:fallen_star>, <harvestcraft:starfruitite
 
 //gem cutter rat recipes
 mods.rats.recipes.addGemcutterRatRecipe(<contenttweaker:phosphophyllite>,<bountifulbaubles:spectralsilt>);
+mods.rats.recipes.addGemcutterRatRecipe(<biomesoplenty:gem>, <netherex:amethyst_crystal>);
+mods.rats.recipes.addGemcutterRatRecipe(<netherex:amethyst_crystal>, <biomesoplenty:gem>);
 mods.rats.recipes.addGemcutterRatRecipe(<nyx:fallen_star>, <minecraft:glowstone_dust>*2);
 mods.rats.recipes.addGemcutterRatRecipe(<minecraft:nether_star>, <nyx:fallen_star>*16);

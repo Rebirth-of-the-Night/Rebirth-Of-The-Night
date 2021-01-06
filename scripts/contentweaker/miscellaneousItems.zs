@@ -57,8 +57,8 @@ val ruby = mods.contenttweaker.VanillaFactory.createItem("ruby_ingot");
 ruby.register();
 val peridot = mods.contenttweaker.VanillaFactory.createItem("peridot_ingot");
 peridot.register();
-val exorite = mods.contenttweaker.VanillaFactory.createItem("exorite_ingot");
-exorite.register();
+val amethyst = mods.contenttweaker.VanillaFactory.createItem("amethyst_ingot");
+amethyst.register();
 
 //Balancing ingredients
 val rags_l = mods.contenttweaker.VanillaFactory.createItem("tattered_hide");
@@ -117,8 +117,8 @@ cutzanite1.register();
 val cutzanite2 = mods.contenttweaker.VanillaFactory.createItem("electrified_zanite");
 cutzanite2.register();
 
-val cutexorite = mods.contenttweaker.VanillaFactory.createItem("voidseen_exorite");
-cutexorite.register();
+val cutamethyst = mods.contenttweaker.VanillaFactory.createItem("voidseen_amethyst");
+cutamethyst.register();
 
 val cutcarminite = mods.contenttweaker.VanillaFactory.createItem("draconium");
 cutcarminite.register();

@@ -2,8 +2,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.vanillaanvilrepair.addRepairEntry;
 
-var exoriteItems = <atop:amethyst_helmet> | <atop:amethyst_chestplate> | <atop:amethyst_leggings> | <atop:amethyst_sword> | <atop:amethyst_boots> | <atop:amethyst_hoe> | <atop:amethyst_pickaxe> | <atop:amethyst_shovel> | <atop:amethyst_axe> | <atop:topaz_sword>;
-addRepairEntry(exoriteItems, <contenttweaker:exorite_ingot>);
+var amethystItems = <atop:amethyst_helmet> | <atop:amethyst_chestplate> | <atop:amethyst_leggings> | <atop:amethyst_sword> | <atop:amethyst_boots> | <atop:amethyst_hoe> | <atop:amethyst_pickaxe> | <atop:amethyst_shovel> | <atop:amethyst_axe> | <atop:topaz_sword>;
+addRepairEntry(amethystItems, <ore:gemAmethyst>);
 
 var rubyItems = <atop:ruby_helmet> | <atop:ruby_chestplate> | <atop:ruby_leggings> | <atop:ruby_boots> | <atop:ruby_pickaxe> | <atop:ruby_sword> | <atop:ruby_shovel> | <atop:ruby_axe> | <atop:ruby_hoe>;
 addRepairEntry(rubyItems, <ore:gemRuby>);
