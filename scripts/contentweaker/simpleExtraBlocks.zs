@@ -185,11 +185,11 @@ BBlunarin.setCreativeTab(<creativetab:buildingBlocks>);
 BBlunarin.register();
 
 //Farlander Style
-//amethyst
-var amethystfarlander = VanillaFactory.createBlock("farlanderamethystbrick", <blockmaterial:Iron>);
-amethystfarlander.setCreativeTab(<creativetab:buildingBlocks>);
-amethystfarlander.setBlockSoundType(<soundtype:glass>);
-amethystfarlander.register();
+//exorite
+var exoritefarlander = VanillaFactory.createBlock("farlanderexoritebrick", <blockmaterial:Iron>);
+exoritefarlander.setCreativeTab(<creativetab:buildingBlocks>);
+exoritefarlander.setBlockSoundType(<soundtype:glass>);
+exoritefarlander.register();
 //zanite
 var zanitefarlander = VanillaFactory.createBlock("farlanderzanitebrick", <blockmaterial:Iron>);
 zanitefarlander.setCreativeTab(<creativetab:buildingBlocks>);

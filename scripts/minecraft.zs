@@ -6,6 +6,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.rockytweaks.Anvil;
 import mods.rockytweaks.Merchant;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 //brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
@@ -68,6 +69,10 @@ recipes.addShaped("jukebox",<minecraft:jukebox>,[
 
 recipes.addShapeless("spider_silk_to_string",<minecraft:string>,[<contenttweaker:spider_silk>,<contenttweaker:spider_silk>,<contenttweaker:spider_silk>]);
 
+recipes.remove(<minecraft:tipped_arrow>);
+mods.jei.JEI.hide(<minecraft:tipped_arrow>);
+
+// Serene Seasons
 recipes.remove(<sereneseasons:season_sensor_spring>);
 recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
     [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
@@ -75,8 +80,38 @@ recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
     [<ore:stoneSlab>,<ore:stoneSlab>,<ore:stoneSlab>]
 ]);
 
-recipes.remove(<minecraft:tipped_arrow>);
-mods.jei.JEI.hide(<minecraft:tipped_arrow>);
+recipes.remove(<sereneseasons:greenhouse_glass>);
+RecipeBuilder.get("mage")
+  .setName("botanic_glass")
+  .setShapeless([<quark:framed_glass>])
+  .addOutput(<sereneseasons:greenhouse_glass>)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+RecipeBuilder.get("mage")
+  .setName("botanic_glass_x4")
+  .setShaped([
+    [null,<quark:framed_glass>,null],
+	[<quark:framed_glass>,<contenttweaker:vis_speck>,<quark:framed_glass>],
+	[null,<quark:framed_glass>,null],])
+  .addOutput(<sereneseasons:greenhouse_glass>*4)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+RecipeBuilder.get("mage")
+  .setName("botanic_glass_x8")
+  .setShaped([
+    [<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>],
+	[<quark:framed_glass>,<contenttweaker:vis_sliver>,<quark:framed_glass>],
+	[<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>],])
+  .addOutput(<sereneseasons:greenhouse_glass>*8)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
 
@@ -795,7 +830,7 @@ carbon.add(<pyrotech:material:32>);
 val qualityGem = <ore:Gem_highQuality>;
 qualityGem.addItems([<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 qualityGem.addAll(<ore:gemOnyx>);
-qualityGem.addAll(<ore:gemAmethyst>);
+qualityGem.add(<rotn_blocks:exorite_crystal>);
 
 val gemAmethyst = <ore:gemAmethyst>;
 gemAmethyst.add(<netherex:amethyst_crystal>);
@@ -1104,8 +1139,8 @@ recipes.addShapeless("lunarin_fiery", <contenttweaker:lunarinfierybrick>*24,
 	[<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
 );
 //Farlander
-recipes.addShapeless("farlander_amethyst", <contenttweaker:farlanderamethystbrick>*24,
-	[<ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>, <ore:gemAmethyst>]
+recipes.addShapeless("farlander_exorite", <contenttweaker:farlanderexoritebrick>*24,
+	[<rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>]
 );
 recipes.addShapeless("farlander_zanite", <contenttweaker:farlanderzanitebrick>*24,
 	[<ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>]

@@ -111,6 +111,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:trickortreat_bag>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on candy.");
 <dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
 <sereneseasons:greenhouse_glass>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
+//<harvestcraft:well>.addShiftTooltip("Can be created by directly right-clicking Framed Glass with a Nature Rune.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info.")); NON-FUNCTIONAL UNTIL KOMPY USES HER MAGIC
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
 
 #Charm

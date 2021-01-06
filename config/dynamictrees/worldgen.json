@@ -1,1 +1,10 @@
-[]
+[
+	{
+		"__comment" : "Arid Desert has a chance to generate dead trees. But dead trees don't grow in white sand or salty crust so occurence is very rare",
+		"select": { "name": "biometweaker:atacamian_desert" },
+		"apply": {
+			"species" : "dead",
+			"chance": 0.2
+		} 
+	}
+]

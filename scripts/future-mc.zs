@@ -289,7 +289,6 @@ for meta in 0 .. 8 {
 /******** Modded Ores *********/
 
 var moddedBlastFurnaceRecipes as IItemStack[IItemStack] = {
-	<biomesoplenty:gem_ore:0> : <biomesoplenty:gem:0>,		// Ender Amethyst
 	<biomesoplenty:gem_ore:1> : <biomesoplenty:gem:1>,		// Ruby
 	<biomesoplenty:gem_ore:2> : <biomesoplenty:gem:2>,		// Peridot
 	<biomesoplenty:gem_ore:6> : <biomesoplenty:gem:6>,		// Sapphire

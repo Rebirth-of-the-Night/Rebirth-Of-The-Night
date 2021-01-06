@@ -118,7 +118,7 @@ GCT.addRecipe("holy_zanite", <contenttweaker:holy_zanite>, [<aether_legacy:zanit
 
 GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:ambrosium_shard>*6, <contenttweaker:material_part:16>*8, <minecraft:glowstone_dust>*12]);
 
-GCT.addRecipe("voidseen_amethyst", <contenttweaker:voidseen_amethyst>, [<biomesoplenty:gem:0>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>, <endreborn:item_end_essence>*12]);
+GCT.addRecipe("voidseen_exorite", <contenttweaker:voidseen_exorite>, [<rotn_blocks:exorite_crystal>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>, <endreborn:item_end_essence>*12]);
 
 GCT.addRecipe("draconium", <contenttweaker:draconium>, [<twilightforest:carminite>*8, <iceandfire:fire_dragon_blood>*4, <twilightforest:fiery_blood>*4, <twilightforest:borer_essence>*12]);
 

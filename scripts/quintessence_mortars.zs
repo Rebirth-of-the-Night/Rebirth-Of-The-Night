@@ -647,7 +647,7 @@ holdingQuintessenceB.add(
 
 // Holding C - Ender gems or Arcane Archives gems
 val holdingQuintessenceC = <ore:holdingQuintessenceC>;
-holdingQuintessenceC.addAll(<ore:gemAmethyst>);
+holdingQuintessenceC.add(<rotn_blocks:exorite_crystal>);
 
 holdingQuintessenceC.add(
     <arcanearchives:shaped_quartz>,
@@ -793,7 +793,7 @@ endQuintessenceA.add(
     <stygian:endgrass>,
     <stygian:endobsidian>,
     <stygian:endmagma>,
-    <biomesoplenty:gem:0>
+    <rotn_blocks:exorite_crystal>
 );
 
 // End B - End flora
