@@ -14,7 +14,13 @@ addRewardFunction("triumph:transitionWarning")
 
 criteria = addCriteria("break_barrier", "triumph:right_click_block")
 criteria.setItem(<contenttweaker:magic_bomb>)
+
+criteria2 = addCriteria("break_barrier", "triumph:right_click_block")
+criteria2.setItem(<contenttweaker:arcane_focus_unattuned>)
 criteria.setBlock(<dimstack:bedrock, meta:0>)
+criteria2.setBlock(<dimstack:bedrock, meta:0>)
+
+setRequirements("any")
 
 alwaysHidden()
 setHidden(true)

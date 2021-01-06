@@ -386,7 +386,7 @@ JEI.addDescription(<rats:rat_cage>,"Used to contain rats for breeding or keeping
 
 
 /* Bees */
-JEI.addDescription(<rustic:bee>, "Found by breaking Bumble Bee Nests and Beehives.");
+JEI.addDescription(<rustic:bee>, "Found by breaking Bumble Bee Nests and Beehives. Placing one in an apiary produces honeycombs and occasionally another bee.");
 JEI.addDescription(<rustic:beeswax>, "An efficient, effective, and environmentally friendly fuel source - even better when compressed.");
 JEI.addDescription(<rustic:honeycomb>, "Obtained by breaking Bumble Bee Nests and Beehives - also obtained through Apiaries.");
 JEI.addDescription(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "honey", Amount: 1000}}), "If you have obtained this item, DO NOT place it down; it cannot be picked back up.");
@@ -394,11 +394,12 @@ JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "honey", Amount: 100
 JEI.addDescription(<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "honey", Amount: 1000}}), "If you have obtained this item, DO NOT place it down; it cannot be picked back up.");
 JEI.addDescription(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "honey", Amount: 1000}}), "If you have obtained this item, DO NOT place it down; it cannot be picked back up.");
 JEI.addDescription(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "honey", Amount: 1000}}), "If you have obtained this item, DO NOT place it down; it cannot be picked back up.");
+JEI.addDescription(<rustic:apiary>, "Place bees inside to produce honeycombs! The apiary also boosts crops around it in a cross shape - 4 blocks horizontally in each direction, as well as 1 block in each vertical direction.");
 
 
 /* Relics */
-JEI.addDescription(<msmlegacy:relic_aqueous>,"Relic idea by DonMartn. Thanks for becoming a Dragonsteel supporter on our Patreon!");
-JEI.addDescription(<msmlegacy:relic_candy>,"Relic idea by Just A BLU Toon. Thanks for becoming a Dragonsteel supporter on our Patreon!");
+JEI.addDescription(<msmlegacy:relic_aqueous>, "Relic idea by DonMartn. Thanks for becoming a Dragonsteel supporter on our Patreon!");
+JEI.addDescription(<msmlegacy:relic_candy>, "Relic idea by Just A BLU Toon. Thanks for becoming a Dragonsteel supporter on our Patreon!");
 
 
 /* Lore */
