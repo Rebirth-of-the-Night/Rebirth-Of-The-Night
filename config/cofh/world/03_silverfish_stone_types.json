@@ -16,9 +16,9 @@
 						"type" : "red_granite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -27,7 +27,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"black_granite_egg": {
@@ -40,9 +40,9 @@
 						"type" : "black_granite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -51,7 +51,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"rhyolite": {
@@ -64,9 +64,9 @@
 						"type" : "rhyolite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -75,7 +75,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"andesite_egg": {
@@ -88,9 +88,9 @@
 						"type" : "andesite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -99,7 +99,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"gabbro_egg": {
@@ -112,9 +112,9 @@
 						"type" : "gabbro"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -123,7 +123,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"basalt_egg": {
@@ -136,9 +136,9 @@
 						"type" : "basalt"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -147,7 +147,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"komatiite_egg": {
@@ -160,9 +160,9 @@
 						"type" : "komatiite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -171,7 +171,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"dacite_egg": {
@@ -184,9 +184,9 @@
 						"type" : "dacite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -195,7 +195,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"red_granite_egg": {
@@ -208,9 +208,9 @@
 						"type" : "red_granite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:igneous_stone",
 				"properties": {
@@ -219,7 +219,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"gneiss_egg": {
@@ -232,9 +232,9 @@
 						"type" : "gneiss"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -243,7 +243,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"eclogite_egg": {
@@ -256,9 +256,9 @@
 						"type" : "eclogite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -267,7 +267,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"marble_egg": {
@@ -280,9 +280,9 @@
 						"type" : "marble"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -291,7 +291,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"quartzite_egg": {
@@ -304,9 +304,9 @@
 						"type" : "quartzite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -315,7 +315,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"blueschist_egg": {
@@ -328,9 +328,9 @@
 						"type" : "blueschist"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -339,7 +339,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"greenschist_egg": {
@@ -352,9 +352,9 @@
 						"type" : "greenschist"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -363,7 +363,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"soapstone_egg": {
@@ -376,9 +376,9 @@
 						"type" : "soapstone"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -387,7 +387,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"migmatite_egg": {
@@ -400,9 +400,9 @@
 						"type" : "migmatite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:metamorphic_stone",
 				"properties": {
@@ -411,7 +411,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"limestone_egg": {
@@ -424,9 +424,9 @@
 						"type" : "limestone"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:sedimentary_stone",
 				"properties": {
@@ -435,7 +435,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"chalk_egg": {
@@ -448,9 +448,9 @@
 						"type" : "chalk"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:sedimentary_stone",
 				"properties": {
@@ -459,7 +459,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"shale_egg": {
@@ -472,9 +472,9 @@
 						"type" : "shale"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:sedimentary_stone",
 				"properties": {
@@ -483,7 +483,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"siltstone_egg": {
@@ -496,9 +496,9 @@
 						"type" : "siltstone"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:sedimentary_stone",
 				"properties": {
@@ -507,7 +507,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"dolomite_egg": {
@@ -520,9 +520,9 @@
 						"type" : "dolomite"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:sedimentary_stone",
 				"properties": {
@@ -531,7 +531,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"greywacke_egg": {
@@ -544,9 +544,9 @@
 						"type" : "greywacke"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:sedimentary_stone",
 				"properties": {
@@ -555,7 +555,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		},
 		"chert_egg": {
@@ -568,9 +568,9 @@
 						"type" : "chert"
 					}
 				},
-				"cluster-size": 5,
+				"cluster-size": 1,
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": {
 				"name": "undergroundbiomes:sedimentary_stone",
 				"properties": {
@@ -579,7 +579,7 @@
 			},
 			"max-height": 48,
 			"min-height": 10,
-			"chunk-chance": 3,
+			"chunk-chance": 2,
 			"retrogen": "true"
 		}
 	}
