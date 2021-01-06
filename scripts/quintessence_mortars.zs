@@ -559,6 +559,40 @@ val balanceYangQuintessenceD = <ore:balanceYangQuintessenceD>; // chaos items
 balanceYangQuintessenceD.addAll(<ore:chaosQuintessenceA>);
 balanceYangQuintessenceD.addAll(<ore:chaosQuintessenceB>);
 
+// Arcana A - Magical natural resources, including enchantable materials.
+val arcanaQuintessenceA = <ore:arcanaQuintessenceA>;
+arcanaQuintessenceA.add(
+    <simpleores:mythril_ingot>,
+    <betterwithmods:material:20>,
+    <twilightforest:fiery_ingot>,
+    <aether_legacy:enchanted_gravitite>,
+    <twilightforest:steeleaf_ingot>,
+    <twilightforest:naga_scale>,
+    <biomesoplenty:sapling_0:3>,
+    <dynamictreesbop:magicseed:0>,
+    <twilightforest:twilight_sapling:4>,
+    <twilightforest:twilight_sapling:5>,
+    <twilightforest:twilight_sapling:6>,
+    <twilightforest:twilight_sapling:7>,
+    <twilightforest:twilight_sapling:8>,
+    <twilightforest:twilight_sapling:9>,
+    <aether_legacy:enchanted_blueberry>,
+    <minecraft:golden_apple:*>
+);
+
+// Arcana B - Magic powders, essences, dusts, etc. May also include man-made materials such as AA quartz
+val arcanaQuintessenceB = <ore:arcanaQuintessenceB>;
+arcanaQuintessenceB.add(
+    <arcanearchives:radiant_dust>,
+    <biomesoplenty:biome_essence>,
+    <dungeontactics:magic_powder>,
+    <arcanearchives:raw_quartz>,
+    <arcanearchives:quartz_sliver>,
+    <arcanearchives:shaped_quartz>,
+    <arcaneworld:biome_crystal>,
+    <ore:dustElectrum>.firstItem //note, I added this because gold and ambrosium seems too cheap for this quintessence
+);
+
 /* val balanceYangQuintessenceB = <ore:balanceYangQuintessenceB>; // night/dark items
 balanceYangQuintessenceB.add(
     <>
@@ -750,45 +784,6 @@ netherQuintessenceC.add(
     <betterwithmods:material:35>
 );
 
-// Arcana A - Magical plants and plant-foods
-val arcanaQuintessenceA = <ore:arcanaQuintessenceA>;
-arcanaQuintessenceA.add(
-    <biomesoplenty:sapling_0:3>,
-    <dynamictreesbop:magicseed:0>,
-    <twilightforest:twilight_sapling:4>,
-    <twilightforest:twilight_sapling:5>,
-    <twilightforest:twilight_sapling:6>,
-    <twilightforest:twilight_sapling:7>,
-    <twilightforest:twilight_sapling:8>,
-    <twilightforest:twilight_sapling:9>,
-    <aether_legacy:enchanted_blueberry>,
-    <minecraft:golden_apple:*>
-);
-
-// Arcana B - Magical ore resources, including enchantable materials. Naturally occurring and non-organic
-val arcanaQuintessenceB = <ore:arcanaQuintessenceB>;
-arcanaQuintessenceB.add(
-    <simpleores:mythril_ingot>,
-    <betterwithmods:material:20>,
-    <twilightforest:fiery_ingot>,
-    <aether_legacy:enchanted_gravitite>,
-    <twilightforest:steeleaf_ingot>,
-    <twilightforest:naga_scale>,
-    <ore:dustElectrum>.firstItem //note, I added this because gold and ambrosium seems too cheap for this quintessence
-);
-
-// Arcana C - Magic powders, essences, dusts, etc. May also include man-made materials such as AA quartz
-val arcanaQuintessenceC = <ore:arcanaQuintessenceC>;
-arcanaQuintessenceC.add(
-    <arcanearchives:radiant_dust>,
-    <biomesoplenty:biome_essence>,
-    <dungeontactics:magic_powder>,
-    <arcanearchives:raw_quartz>,
-    <arcanearchives:quartz_sliver>,
-    <arcanearchives:shaped_quartz>,
-    <arcaneworld:biome_crystal>
-);
-
 
 // End A - End natural resource
 val endQuintessenceA = <ore:endQuintessenceA>;
@@ -853,6 +848,7 @@ anyArcaneQuintessence.add(<contenttweaker:illusion_quintessence>);
 anyArcaneQuintessence.add(<contenttweaker:trans_quintessence>);
 anyArcaneQuintessence.add(<contenttweaker:disint_quintessence>);
 anyArcaneQuintessence.add(<contenttweaker:creation_quintessence>);
+anyArcaneQuintessence.add(<contenttweaker:arcane_quintessence>);
 
 // Mystical Quintessence
 val anyMysticalQuintessence = <ore:anyMysticalQuintessence>;
@@ -862,7 +858,6 @@ anyMysticalQuintessence.add(<contenttweaker:fae_quintessence>);
 anyMysticalQuintessence.add(<contenttweaker:holding_quintessence>);
 anyMysticalQuintessence.add(<contenttweaker:plague_quintessence>);
 anyMysticalQuintessence.add(<contenttweaker:end_quintessence>);
-anyMysticalQuintessence.add(<contenttweaker:arcane_quintessence>);
 anyMysticalQuintessence.add(<contenttweaker:nether_quintessence>);
 
 //ALL the quintessences!
@@ -1007,6 +1002,10 @@ Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttwe
 Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:balanceYingQuintessenceC>, <ore:balanceYangQuintessenceC>]);
 
 Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.10, [<ore:balanceYingQuintessenceD>, <ore:balanceYangQuintessenceD>]);
+
+// Arcane Quintessence
+
+
 
 ##########################
 # Mystical Mortar (gold) #
