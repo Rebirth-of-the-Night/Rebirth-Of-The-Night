@@ -62,7 +62,6 @@ mods.jei.JEI.removeAndHide(<artifacts:everlasting_clownfish>);
 
 mods.jei.JEI.removeAndHide(<artifacts:ultimate_pendant>);
 
-
 // Remove baubles
 mods.ltt.LootTable.removeGlobalItem("artifacts:tiny_shirt");
 mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
@@ -79,7 +78,7 @@ mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
 mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
 mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
 mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
-
+mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 
 
 
@@ -142,6 +141,7 @@ mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
 <totemexpansion:totem_repair>.displayName = "§bTotem of Repairing";
 <totemexpansion:totem_spelunking>.displayName = "§bTotem of Spelunking";
 <totemexpansion:totem_recalling>.displayName = "§bTotem of Recalling";
+<defiledlands:phytoprostasia_amulet>.displayName = "§bPhytoprostasia Amulet";
 
 
 
