@@ -261,6 +261,12 @@ disintRune.maxDamage = 6;
 disintRune.maxStackSize = 1;
 disintRune.register();
 
+val arcaneRune = VanillaFactory.createItem("arcane_rune");
+arcaneRune.setCreativeTab(<creativetab:Dunamis>);
+arcaneRune.maxDamage = 6;
+arcaneRune.maxStackSize = 1;
+arcaneRune.register();
+
 // orbs
 // val balanceOrb = VanillaFactory.createItem("balance_orb");
 // balanceOrb.setCreativeTab(<creativetab:Dunamis>);
@@ -423,12 +429,6 @@ aetherRune.setCreativeTab(<creativetab:Dunamis>);
 aetherRune.maxDamage = 8;
 aetherRune.maxStackSize = 1;
 aetherRune.register();
-
-val arcaneRune = VanillaFactory.createItem("arcane_rune");
-arcaneRune.setCreativeTab(<creativetab:Dunamis>);
-arcaneRune.maxDamage = 8;
-arcaneRune.maxStackSize = 1;
-arcaneRune.register();
 
 val draconicRune = VanillaFactory.createItem("draconic_rune");
 draconicRune.setCreativeTab(<creativetab:Dunamis>);
