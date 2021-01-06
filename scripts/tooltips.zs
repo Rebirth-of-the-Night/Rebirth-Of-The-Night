@@ -181,8 +181,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 #Rustic
 <rustic:vase>.addTooltip("Storage container. While in hand, sneak and scroll with mouse wheel to cycle between patterns.");
-<rustic:apiary>.addTooltip("Place bees inside to produce honeycomb overtime.");
-<rustic:bee>.addTooltip("Place inside an apiary to produce honeycomb.");
+<rustic:apiary>.addTooltip("Place bees inside to produce honeycombs overtime.");
+<rustic:bee>.addTooltip("Place inside an apiary to produce honeycombs.");
 
 # Weapons
 
