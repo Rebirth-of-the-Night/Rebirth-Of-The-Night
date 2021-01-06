@@ -253,6 +253,16 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>],
+    [<contenttweaker:blank_rune>],
+    [<contenttweaker:arcane_quintessence>*6]])
+  .addOutput(<contenttweaker:arcane_rune>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 # mystical
 
 RecipeBuilder.get("mage")
@@ -311,16 +321,6 @@ RecipeBuilder.get("mage")
     [<contenttweaker:blank_rune>],
     [<contenttweaker:nether_quintessence>*8]])
   .addOutput(<contenttweaker:nether_rune>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:arcane_quintessence>*8]])
-  .addOutput(<contenttweaker:arcane_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
