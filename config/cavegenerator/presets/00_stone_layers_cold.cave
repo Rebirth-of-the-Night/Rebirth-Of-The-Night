@@ -1,0 +1,63 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+		minecraft:taiga
+		minecraft:taiga_hills
+		minecraft:taiga_cold
+		minecraft:taiga_cold_hills
+		minecraft:redwood_taiga
+		minecraft:redwood_taiga_hills
+		minecraft:mutated_taiga
+		minecraft:mutated_taiga_cold
+		minecraft:mutated_redwood_taiga
+		minecraft:mutated_redwood_taiga_hills
+		biomesoplenty:alps
+		biomesoplenty:coniferous_forest
+		biomesoplenty:snowy_coniferous_forest
+		biomesoplenty:snowy_forest
+		biomesoplenty:dead_forest
+		biomesoplenty:steppe
+		biomesoplenty:boreal_forest
+		]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone:7
+      maxHeight: 18
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         maxVal: 4
+        }
+    }
+	{
+	  state: undergroundbiomes:metamorphic_stone:6
+	  maxHeight: 61
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+		}
+	}
+	{
+	  state: undergroundbiomes:sedimentary_stone:1
+      maxHeight: 128
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 8 
+		}
+	}
+	{
+      state: undergroundbiomes:igneous_stone:7
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.3
+         frequency: 0.015
+         maxVal: 9
+        }
+    }
+  ]
+}

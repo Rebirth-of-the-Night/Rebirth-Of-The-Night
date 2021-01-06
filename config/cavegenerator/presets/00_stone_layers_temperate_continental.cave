@@ -1,0 +1,55 @@
+# temperate forest-like biomes like what can be found in national parks in the US
+{
+  blankSlate: false
+  biomes: {
+	  names: [
+		biomesoplenty:grassland
+		biomesoplenty:temperate_rainforest
+		biomesoplenty:redwood_forest
+		biomesoplenty:seasonal_forest
+	  ]
+	}
+  stoneLayers: [
+
+    {
+	  #red granite
+      state: undergroundbiomes:igneous_stone
+      maxHeight: 32
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         maxVal: 4
+        }
+    }
+	{
+	  state: undergroundbiomes:metamorphic_stone
+	  maxHeight: 128
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+		}
+	}
+	{
+	  #green schist
+	  state: undergroundbiomes:metamorphic_stone:5
+      maxHeight: 204
+	  noise2D: {
+         scale: 0.3
+         frequency: 0.3
+         minVal: 0
+		 maxVal: 8 
+		}
+	}
+	{
+	  #blue schist
+	  state: undergroundbiomes:metamorphic_stone:4
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.3
+         frequency: 0.2
+		 minVal: 0
+         maxVal: 8 
+        }
+	}
+  ]
+}

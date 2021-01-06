@@ -2,32 +2,32 @@ import crafttweaker.item.IIngredient;
 recipes.remove(<scalinghealth:healingitem:1>);
 
 recipes.addShaped("scalinghealth medkit", <scalinghealth:healingitem:1>, 
-[[null, <ore:ingotIron>, null], 
+[[null, <ore:genericMetal>, null], 
 [<scalinghealth:healingitem>, <minecraft:speckled_melon>, <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 
 recipes.addShaped("scalinghealth medkit 2", <scalinghealth:healingitem:1>, 
-[[null, <ore:ingotIron>, null], 
+[[null, <ore:genericMetal>, null], 
 [<scalinghealth:healingitem>, <minecraft:potion>.withTag({Potion: "minecraft:healing"}), <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 
 recipes.addShaped("scalinghealth medkit 3", <scalinghealth:healingitem:1>, 
-[[null, <ore:ingotIron>, null], 
+[[null, <ore:genericMetal>, null], 
 [<scalinghealth:healingitem>, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health"}]}), <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 
 recipes.addShaped("scalinghealth medkit 4", <scalinghealth:healingitem:1>, 
-[[null, <ore:ingotIron>, null], 
+[[null, <ore:genericMetal>, null], 
 [<scalinghealth:healingitem>, <scalinghealth:heartdust>, <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 
 recipes.addShaped("scalinghealth medkit 5", <scalinghealth:healingitem:1>, 
-[[null, <ore:ingotIron>, null], 
+[[null, <ore:genericMetal>, null], 
 [<scalinghealth:healingitem>, <scalinghealth:healingitem>, <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 
 recipes.addShaped("scalinghealth medkit 6", <scalinghealth:healingitem:1>, 
-[[null, <ore:ingotIron>, null], 
+[[null, <ore:genericMetal>, null], 
 [<scalinghealth:healingitem>, <aether_legacy:healing_stone>, <scalinghealth:healingitem>], 
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 

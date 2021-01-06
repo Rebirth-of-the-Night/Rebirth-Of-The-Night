@@ -1,0 +1,51 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+		biomesoplenty:ominous_woods
+  	  ]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone:3
+      maxHeight: 26
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:metamorphic_stone:1
+      maxHeight: 40
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -3
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone:1
+      maxHeight: 50
+	  noise2D: {
+         scale: 0.001
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: iceandfire:chared_stone
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.2
+         frequency: 0.01
+         minVal: -1
+		 maxVal: 1
+        }
+    }
+  ]
+}

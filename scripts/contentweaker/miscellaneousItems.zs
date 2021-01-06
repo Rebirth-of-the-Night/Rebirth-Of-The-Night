@@ -6,6 +6,10 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 
 //misc.
+val four_gems = mods.contenttweaker.VanillaFactory.createItem("four_gems");
+four_gems.register();
+val four_gem_ingots = mods.contenttweaker.VanillaFactory.createItem("four_gem_ingots");
+four_gem_ingots.register();
 val phos = mods.contenttweaker.VanillaFactory.createItem("phosphophyllite");
 phos.register();
 val coin1 = mods.contenttweaker.VanillaFactory.createItem("coinT1");
@@ -24,6 +28,8 @@ val clover4 = mods.contenttweaker.VanillaFactory.createItem("4leaf_clover");
 clover4.register();
 val clover5 = mods.contenttweaker.VanillaFactory.createItem("5leaf_clover");
 clover5.register();
+val spider_silk = mods.contenttweaker.VanillaFactory.createItem("spider_silk");
+spider_silk.register();
 
 val sfs1 = mods.contenttweaker.VanillaFactory.createItem("sfs_artifact");
 sfs1.register();
@@ -69,6 +75,19 @@ ender_slag.flowingLocation = "contenttweaker:fluids/ender_slag_flow";
 ender_slag.colorize= true;
 ender_slag.register();
 
+var tannin = VanillaFactory.createFluid("tannin", Color.fromHex("df9232"));
+tannin.density = 1000;
+tannin.temperature = 310;
+tannin.viscosity = 1050;
+tannin.colorize= true;
+tannin.vaporize= true;
+tannin.register();
+
+val cooking_kit = mods.contenttweaker.VanillaFactory.createItem("cooking_kit");
+cooking_kit.maxDamage = 420;
+cooking_kit.maxStackSize = 1;
+cooking_kit.register();
+
 // Cut Gems
 
 val cutdiamond = mods.contenttweaker.VanillaFactory.createItem("pristine_diamond");
@@ -104,7 +123,77 @@ cutamethyst.register();
 val cutcarminite = mods.contenttweaker.VanillaFactory.createItem("draconium");
 cutcarminite.register();
 
+// Peculiar items
+val heartofthefallen = mods.contenttweaker.VanillaFactory.createItem("heartofthefallen");
+heartofthefallen.register();
+
+val heavensheart = mods.contenttweaker.VanillaFactory.createItem("heavensheart");
+heavensheart.register();
+
+val heart_of_fire = mods.contenttweaker.VanillaFactory.createItem("heart_of_fire");
+heart_of_fire.register();
+
+val adhesive_shadow = mods.contenttweaker.VanillaFactory.createItem("adhesive_shadow");
+adhesive_shadow.register();
+
+val shard_of_night = mods.contenttweaker.VanillaFactory.createItem("shard_of_night");
+shard_of_night.register();
+
+val brain = mods.contenttweaker.VanillaFactory.createItem("brain");
+brain.register();
+
+val slayers_tattered_journal = mods.contenttweaker.VanillaFactory.createItem("slayers_tattered_journal");
+slayers_tattered_journal.register();
+
+val grove_tear = mods.contenttweaker.VanillaFactory.createItem("grove_tear");
+grove_tear.register();
+
+val purifying_signet = mods.contenttweaker.VanillaFactory.createItem("purifying_signet");
+purifying_signet.register();
+
+val stormcloud = mods.contenttweaker.VanillaFactory.createItem("stormcloud");
+stormcloud.register();
+
+val mercurial_ooze = mods.contenttweaker.VanillaFactory.createItem("mercurial_ooze");
+mercurial_ooze.register();
+
 //food
-//val rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
-//rat.healAmount = 9;
-//rat.register();
+var rat = mods.contenttweaker.VanillaFactory.createItemFood("ratatouille", 10);
+rat.setSaturation(9.5);
+rat.register();
+
+val sprinkles = mods.contenttweaker.VanillaFactory.createItem("sprinkles");
+sprinkles.setCreativeTab(<creativetab:harvestCraft>);
+sprinkles.register();
+
+val raw_fries = mods.contenttweaker.VanillaFactory.createItemFood("raw_fries", 1);
+raw_fries.setSaturation(2.5);
+raw_fries.setCreativeTab(<creativetab:harvestCraft>);
+raw_fries.register();
+
+val ground_beef = mods.contenttweaker.VanillaFactory.createItemFood("ground_beef", 2);
+ground_beef.setSaturation(2.5);
+ground_beef.setCreativeTab(<creativetab:harvestCraft>);
+ground_beef.register();
+
+val wiener = mods.contenttweaker.VanillaFactory.createItem("wiener");
+wiener.setCreativeTab(<creativetab:harvestCraft>);
+wiener.register();
+
+val sheep_intestines = mods.contenttweaker.VanillaFactory.createItem("sheep_intestines");
+sheep_intestines.setCreativeTab(<creativetab:harvestCraft>);
+sheep_intestines.register();
+
+val patty = mods.contenttweaker.VanillaFactory.createItem("patty");
+patty.setCreativeTab(<creativetab:harvestCraft>);
+patty.register();
+
+val hydraco = mods.contenttweaker.VanillaFactory.createItemFood("hydraco", 24);
+hydraco.setSaturation(44.0);
+hydraco.setCreativeTab(<creativetab:harvestCraft>);
+hydraco.register();
+
+val abyss_pizza = mods.contenttweaker.VanillaFactory.createItemFood("abyss_pizza", 1);
+abyss_pizza.setSaturation(120.0);
+abyss_pizza.setCreativeTab(<creativetab:harvestCraft>);
+abyss_pizza.register();

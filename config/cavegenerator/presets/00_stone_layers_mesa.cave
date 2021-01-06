@@ -1,0 +1,63 @@
+{
+  blankSlate: false
+  biomes: {
+	  names: [
+	    minecraft:mesa
+		minecraft:mesa_rock
+		minecraft:mesa_clear_rock
+	  ]
+	}
+  stoneLayers: [
+    {
+	  #red granite
+      state: undergroundbiomes:igneous_stone
+      maxHeight: 16
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         maxVal: 4
+        }
+    }
+	{
+	  state: undergroundbiomes:metamorphic_stone
+	  maxHeight: 48
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+		}
+	}
+	{
+	  #limestone
+      state: undergroundbiomes:sedimentary_stone
+      maxHeight: 58
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 4
+		}
+    }
+	{
+	  #shale
+	  state: undergroundbiomes:sedimentary_stone:2
+      maxHeight: 204
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.9
+         minVal: -16
+		 maxVal: 16 
+		}
+	}
+	{
+	  #shale sandstone
+	  state: undergroundbiomes:sedimentary_sandstone:2
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.8
+         frequency: 0.9
+         minVal: 2
+		 maxVal: 16 
+        }
+	}
+  ]
+}

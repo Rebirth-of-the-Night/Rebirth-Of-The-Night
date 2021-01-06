@@ -23,13 +23,27 @@ recipe: {
   quantity: 1
 }
 gen: [
+#everywhere Except Beneath and Deserts
   {
     height: [ 0, 128 ]
     size: 8
     count: 17
+	blacklistBiomes: true
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+		}
 	blacklistDimensions : true
 	dimensions: [10]
   }
+#jungle frenzy
   {
     height: [ 0, 155 ]
     size: 16
@@ -42,6 +56,24 @@ gen: [
 	  ]
 	}
   }
+#deserts
+  {
+    height: [ 0, 40 ]
+    size: 8
+    count: 28
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+		}
+  }
+#swamp
   {
     height: [ 59, 64 ]
     size: 2

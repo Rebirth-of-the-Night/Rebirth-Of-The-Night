@@ -2,17 +2,17 @@
   "name": "Soulfire Chassis",
   "icon": "multiblockmobs:soul chassis",
   "category": "slayers_journal_summoning",
-  "advancement": "triumph:advancements/main/slayersjournal",
+  "advancement": "triumph:advancements/progression/slayersjournal",
 
   "pages": [
     {
       "type": "crafting",
       "recipe": "crafttweaker:",
-      "text": "$(l)$(#734608)The$() $(l)$(item)Soulfire Chassis$(), $(l)$(#734608)a cage of wrought iron around a magic-infused flame, is used to conjure mysterious beings to this world.$()$()" 
+      "text": "$(#734608)The$() $(item)Soulfire Chassis$(), $(#734608)a cage of wrought iron around a magic-infused flame, is used to conjure mysterious beings to this world.$()" 
     },
 	 {
       "type": "text",
-      "text": "$(l)$(#734608)The$() $(l)$(item)Soulfire Chassis$() $(l)$(#734608)doesn't do much on its own, but is empowered when placed in the center of specific structures. Anything summoned this way tends to be fickle. $(#ff0000)The design of the summoning structure needs to be completely accurate$()$(l)$(#734608) or nothing will happen. Note: don't breathe in the soulfire smoke. $()$()" 
+      "text": "$(#734608)The$() $(item)Soulfire Chassis$() $(#734608)doesn't do much on its own, but is empowered when placed in the center of specific structures. Anything summoned this way tends to be fickle. $(#ff0000)The design of the summoning structure needs to be completely accurate$()$(#734608) or nothing will happen. Note: don't breathe in the soulfire smoke. $()" 
     },
     {
       "type": "relations",

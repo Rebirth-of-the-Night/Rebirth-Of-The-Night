@@ -1,14 +1,34 @@
 
 
-<dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it");
+<dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
+<contenttweaker:sprinkles>.addTooltip("Zero nutritional value, but it gets you going.");
+<contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:teaitem>.addTooltip("Calming, but it gets you going.");
+<harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:raspberryicedteaitem>.addTooltip("Sweet, refreshing and it gets you going.");
+<harvestcraft:raspberryicedteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:chaiteaitem>.addTooltip("So aromatic it gets you going.");
+<harvestcraft:chaiteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:coffeeitem>.addTooltip("Some good coffee, the one that gets you going.");
+<harvestcraft:coffeeitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
+<harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:material:12>.addTooltip("Just a crafting material.");
+<betterwithmods:material:12>.addShiftTooltip('Can be consumed, but if it had a label, it would read "DO NOT CONSUME."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:hibachi>.addTooltip("Powered by redstone");
 
 <golems:golem_head>.addTooltip("Used for summoning Golems");
 
 
 
+
+
+# BWA
+<betterwithaddons:ancestry_bottle>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
+
 #Nyx
-<nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects.");
+<nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects");
 <nyx:scythe>.addTooltip("Destroys crops and plants in a 9x9x9 area");
 <nyx:scythe>.addTooltip("Has a chance to double, triple, or quadruple crop and plant drops");
 <nyx:meteor_finder>.addTooltip("Points to the closest meteor impact zone (if any)");
@@ -16,8 +36,10 @@
 <nyx:meteor_hammer>.addTooltip("Hold right-click then let go while looking towards the sky to leap");
 <nyx:meteor_hammer>.addTooltip("Creatures near the impact zone takes damage");
 <nyx:meteor_sword>.addTooltip("Stuns creatures when hit by a critical hit");
-<nyx:meteor_sword>.addTooltip("Has slightly slower attack speed than other arming swords");
 <nyx:crystal>.addTooltip("Passively boosts crop growth when placed near crops");
+<nyx:meteor_bow>.addTooltip("x1.75 arrow damage");
+<nyx:meteor_bow>.addTooltip("x1.3 arrow speed");
+<nyx:meteor_bow>.addTooltip("Slightly slower draw speed");
 
 mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
 
@@ -25,7 +47,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 
 #Eplus
-<eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table.");
+<eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table");
 
 #Boat tooltips
 <minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");
@@ -117,6 +139,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <simpleores:adamantium_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 <simpleores:onyx_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 
+
+
 #Pyrotech
 <pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
 <pyrotech:flint_and_tinder>.addTooltip("Not as convenient as a flint and steel.");
@@ -156,6 +180,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 # Weapons
 
+#Doors
+<malisisdoors:jail_door>.addTooltip("slidin into ur DMs");
+
 #Misc.
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
@@ -166,8 +193,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
-<mowziesmobs:wrought_axe>.removeTooltip("Never breaks");
-<mowziesmobs:wrought_axe>.addTooltip("Only damaged by dying");
+<mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
+<mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
 
 <minecraft:enchanting_table>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");

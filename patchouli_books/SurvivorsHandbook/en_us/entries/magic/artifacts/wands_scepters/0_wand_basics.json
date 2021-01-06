@@ -1,0 +1,57 @@
+{
+  "name": "Wand Basics",
+  "icon": "dungeontactics:magic_powder",
+  "category": "magic_artifacts_wandssceptersstaves",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Wands are simple to operate. Many, but not all, have two functions. The primary function is cast upon right-clicking while holding the wand. The secondary function is cast upon shift-right-clicking while holding the wand."
+    },
+    {
+      "type": "text",
+      "text": "Wands have a chance to fail. I seem to have no control over the failure rate, but I do seem to be able to cast the wand a few times before it fails. Upon failing, the wand breaks completely, vanishing from existence."
+    },
+    {
+      "type": "spotlight",
+      "item": "dungeontactics:magic_powder",
+      "text": "$(item)Wand Powder $()is the primary fuel required for casting wands. Wand powder can be crafted using some natural and magical components. I simply need to have the powder in my inventory, or in a $(item)Wand Powder Pouch $() when casting a wand."
+    },
+    {
+      "type": "text",
+      "text": "$(item)Wand Powder $()is the primary fuel for casting wands. I must have sufficient powder in my inventory or in a $(item)Wand Powder Pouch $()when casting a wand. Powder is crafted by tossing a $(item)Magic Blend $(), made from magical components, into a cauldron of $(item)Lunar Water$(). "
+    },
+    {
+    "type": "mortar_recipe",
+	  "item1": "ore:anyQuintessence",
+	  "item2": "ore:blendPowder",
+	  "item3": "ore:mushroomAny",
+	  "item4": "contenttweaker:vis_speck",
+	  "output": "contenttweaker:magic_blend",
+    "extra": "contenttweaker:magic_blend",
+    "tip1": "&6Extra Output:",
+    "tip2": "5% Chance",
+	  "text": "By combining quintessence, mushrooms, luminescent dusts, and vis specks, I can create a magic blend, capable of being imbued with moonlight."
+    },
+    {
+    "type": "cauldron_recipe",
+	  "input_item": "contenttweaker:magic_blend",
+	  "tip1": "Lunar water",
+	  "tip2": "1 Bottle",
+	  "output": "dungeontactics:magic_powder",
+	  "text": "By immersing this mixture in lunar water, I can create powders imbued with the power of the moon; enough to fuel magic wands."
+    },
+    {
+      "type": "spotlight",
+      "item": "dungeontactics:magic_pouch",
+      "text": "A $(item)Wand Powder Pouch $() can hold $(item)Wand Powder. $()This should make it easier to carry around fuel needed to cast my wands. To store powder, I just need to right-click the pouch while I have powder in my inventory. Shift-right-clicking will remove powder from the pouch."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+setIcon(<harvestersnight:harvester_scythe>)
+setTitle("A Bountiful Harvest")
+setDescription("Kill The Harvester.")
+
+addRewardFunction("triumph:killedHarvester")
+
+
+addParent("triumph:advancements/progression/earlyArmor")
+
+
+criteria = addCriteria("Harvester", "minecraft:player_killed_entity")
+criteria.setEntityType("harvestersnight:harvester")
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+alwaysVisible()
+drawDirectLines()
+setPos(65,0)

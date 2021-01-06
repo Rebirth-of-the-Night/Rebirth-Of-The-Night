@@ -9,4 +9,4 @@ criteria.setEntityType("mowziesmobs:ferrous_wroughtnaut")
 
 hideLines()
 alwaysVisible()
-setPos(-281,118)
+setPos(-281,117)

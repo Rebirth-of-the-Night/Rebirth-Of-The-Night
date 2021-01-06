@@ -1,0 +1,42 @@
+item.pyrotech.bucket.stone.name=%s Flimsy Bucket
+item.pyrotech.bucket.stone.empty.name=Flimsy Bucket
+item.pyrotech.bucket.stone.milk.name=Flimsy Milk Bucket
+
+tile.bwm:anvil_granite.name=Multipurpose Stone Anvil
+item.bwm:anvil_granite.name=Multipurpose Stone Anvil
+container.anvil_granite=Multipurpose Stone Anvil
+inv.anvil_granite.name=Multipurpose Stone Anvil
+
+tile.bwm:anvil_iron_plated.name=Refined Plating Anvil
+item.bwm:anvil_iron_plated.name=Refined Plating Anvil
+container.anvil_iron_plated=Refined Plating Anvil
+inv.anvil_iron_plated.name=Refined Plating Anvil
+
+gui.pyrotech.jei.category.anvil.granite=Multipurpose Stone Anvil
+gui.pyrotech.jei.category.anvil.ironclad=Refined Plating Anvil
+
+item.pyrotech.stone.hammer.name=Stone Sledgehammer
+item.pyrotech.flint.hammer.name=Steel Sledgehammer
+item.pyrotech.bone.hammer.name=Mythril Sledgehammer
+item.pyrotech.iron.hammer.name=Iron Sledgehammer
+item.pyrotech.diamond.hammer.name=Refined Sledgehammer
+item.pyrotech.obsidian.hammer.name=Onyx Sledgehammer
+
+item.pyrotech.redstone.sword.name=Draconic Blade
+
+item.pyrotech.glass.shard.name=Coal Coke Dust
+item.pyrotech.slaked.lime.name=Rich Slag
+tile.pyrotech.limestone.name=Desert Varnish
+
+tile.pyrotech.rock_andesite.name=Zinc Bits
+tile.pyrotech.rock_diorite.name=Au'Ag Pebbles
+tile.pyrotech.rock_granite.name=Copperons 
+tile.pyrotech.rock_grass.name=Moss Clumps
+
+item.pyrotech.marshmallow.name=Traditional Marshmallow
+item.pyrotech.marshmallow.roasted.name=Roasted Traditional Marshmallow
+item.pyrotech.marshmallow.burned.name=Burned Traditional Marshmallow
+item.pyrotech.marshmallow.stick.name=Traditional Marshmallow Stick
+item.pyrotech.marshmallow.on.stick.name=Traditional Marshmallow on Stick
+item.pyrotech.marshmallow.on.stick.roasted.name=Roasted Traditional Marshmallow on Stick
+item.pyrotech.marshmallow.on.stick.burned.name=Burned Traditional Marshmallow on Stick

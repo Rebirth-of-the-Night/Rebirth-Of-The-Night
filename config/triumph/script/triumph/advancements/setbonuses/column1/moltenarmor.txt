@@ -4,8 +4,6 @@ setDescription("Complete the Hellwalker set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Molten Helmet", "minecraft:inventory_changed")
 criteria.addItem(<mod_lavacow:felarmor_helmet>)
 

@@ -1,0 +1,63 @@
+{
+  blankSlate: false
+  biomes:{
+	names:[
+	  "minecraft:forest",
+	  "minecraft:forest_hills",
+	  "twilightforest:twilight_glacier",
+	  "minecraft:birch_forest",
+	  "minecraft:birch_forest_hills",
+	  "minecraft:roofed_forest",
+	  "minecraft:redwood_taiga",
+	  "minecraft:redwood_taiga_hills",
+	  "minecraft:mutated_forest",
+	  "minecraft:mutated_birch_forest",
+	  "minecraft:mutated_birch_forest_hills",
+	  "minecraft:mutated_roofed_forest",
+	  "biomesoplenty:eucalyptus_forest",
+	  "biomesoplenty:grove",
+	  "biomesoplenty:maple_woods",
+	  "biomesoplenty:mystic_grove",
+	  "biomesoplenty:orchard",
+	  "biomesoplenty:seasonal_forest",
+	  "biomesoplenty:woodland"
+    ]
+  }
+  wallDecorators: [
+     # Moss walls and surfaces.
+    {
+      states: rotn_blocks:cave_moss
+	  chance: 0.55
+      minHeight: 16
+	  maxHeight: 64
+      matchers: [ 
+		"stone"
+		"undergroundbiomes:sedimentary_stone"
+		"undergroundbiomes:sedimentary_stone:1"
+		"undergroundbiomes:sedimentary_stone:2"
+		"undergroundbiomes:sedimentary_stone:3"
+		"undergroundbiomes:sedimentary_stone:4"
+		"undergroundbiomes:sedimentary_stone:5"
+		"undergroundbiomes:sedimentary_stone:6"
+		"undergroundbiomes:sedimentary_stone:7"
+		"undergroundbiomes:metamorphic_stone"
+		"undergroundbiomes:metamorphic_stone:1"
+		"undergroundbiomes:metamorphic_stone:2"
+		"undergroundbiomes:metamorphic_stone:3"
+		"undergroundbiomes:metamorphic_stone:4"
+		"undergroundbiomes:metamorphic_stone:5"
+		"undergroundbiomes:metamorphic_stone:6"
+		"undergroundbiomes:metamorphic_stone:7"
+		"undergroundbiomes:igneous_stone"
+		"undergroundbiomes:igneous_stone:1"
+		"undergroundbiomes:igneous_stone:2"
+		"undergroundbiomes:igneous_stone:3"
+		"undergroundbiomes:igneous_stone:4"
+		"undergroundbiomes:igneous_stone:5"
+		"undergroundbiomes:igneous_stone:6"
+		"undergroundbiomes:igneous_stone:7"
+	  ]
+      directions: all
+    }
+  ]
+}

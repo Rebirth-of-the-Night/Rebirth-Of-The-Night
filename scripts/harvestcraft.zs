@@ -30,6 +30,8 @@ mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherleggingsitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherbootsitem>);
 
 
+recipes.remove(<harvestcraft:minerstewitem>);
+recipes.addShapeless("miners_stew",<harvestcraft:minerstewitem>,[<ore:toolPot>,<minecraft:iron_ingot>,<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:dye:4>,<ore:ingotableGem>,<minecraft:coal:0>,<minecraft:flint>,<minecraft:rotten_flesh>]);
 
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.addShaped("shipping_bin",<harvestcraft:shippingbin>,[
@@ -223,14 +225,6 @@ mods.jei.JEI.removeAndHide(<harvestcraft:fruitbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grainbaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:veggiebaititem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:grinder>);
-
-recipes.remove(<harvestcraft:stockitem>);
-recipes.addShapeless("harvestcraft_bonestock", <harvestcraft:stockitem>, [<ore:toolPot>, <minecraft:bone>]);
-
-recipes.addShapeless("harvestcraft_vegstock", <harvestcraft:stockitem> * 2, [<ore:toolPot>, <ore:listAllveggie>]);
-
-recipes.addShapeless("harvestcraft_meatstock", <harvestcraft:stockitem> * 3, [<ore:toolPot>, <ore:listAllmeatraw>]);
-
 
 recipes.remove(<harvestcraft:hardenedleatheritem>);
 recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<harvestcraft:beeswaxitem>,<betterwithmods:material:6>]);

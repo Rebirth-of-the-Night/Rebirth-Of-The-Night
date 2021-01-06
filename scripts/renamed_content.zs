@@ -4,8 +4,11 @@ import crafttweaker.item.IItemStack;
 
 // Ambience
 <ambience:ocarina>.displayName = "Flute";
-<contenttweaker:slayers_tattered_journal>.addTooltip("Playing songs may give you special buffs...");
+<ambience:ocarina>.addTooltip("Specific songs that are played on this flute empowers those playing");
+<ambience:ocarina>.removeTooltip("A Ocarina that was left forgoten on this world by a man in green clothes.");
 
+<ambience:horn>.removeTooltip("A very powerful item that causes fear in the hearts of your enemies and encourges your allies in the battle field.");
+<ambience:horn>.addTooltip("Causes fear in the hearts of enemies and encourges allies in the battlefield");
 
 // Butterflies
 <butterflies:butterfly_case>.displayName = "Butterfly Display Case";
@@ -15,6 +18,12 @@ import crafttweaker.item.IItemStack;
 <contenttweaker:volatile_core>.displayName = "§5Volatile Core";
 <contenttweaker:mercurial_ooze>.displayName = "§5Mercurial Ooze";
 <contenttweaker:heart_of_fire>.displayName = "§5Heart of Fire";
+<contenttweaker:adhesive_shadow>.displayName = "§5Adhesive Shadow";
+<minecraft:nether_star>.displayName = "§6Nether Star";
+
+<contenttweaker:dormant_onyx>.displayName = "Dormant Onyx";
+<contenttweaker:dormant_ardicite_onyx>.displayName = "Dormant Ardicite Onyx";
+
 
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
@@ -130,6 +139,8 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <twilightforest:stone_twist>.displayName = "Twisted Stone Pillar";
 <twilightforest:stone_twist_thin>.displayName = "Thin Twisted Stone Pillar";
 <twilightforest:boss_spawner:9>.displayName = "Final Boss Spawner";
+<twilightforest:raw_venison>.displayName = "Raw Prime Venison"; 
+<twilightforest:cooked_venison>.displayName = "Roast Prime Venison"; 
 
 // Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
@@ -276,7 +287,15 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <mcwbridges:oak_rail_bridge>.displayName = "Wooden Rail Bridge";
 <mcwbridges:oak_rail_bridge_powered>.displayName = "Powered Wooden Rail Bridge";
 
-// Mowzie's Mobs
+# Malisis Doors
+<malisisdoors:garage_door>.displayName = "Portcullis Door";
+<malisisdoors:jail_door>.displayName = "Reinforced Door";
+<malisisdoors:verticalhatch>.displayName = "Vault Door";
+<malisisdoors:laboratory_door>.displayName = "Rampart Door";
+<malisisdoors:sliding_trapdoor>.displayName = "Rampart Trapdoor";
+<malisisdoors:carriage_door>.displayName = "Castle Gate";
+
+// Mowzies Mobs
 <mowziesmobs:naga_fang>.displayName = "Skydrake Fang";
 
 // BOP
@@ -308,7 +327,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <eplus:advanced_table>.displayName = "§6True Enchanting Table";
 
 
-// Lavacow / Fish's Undead Rising
+// Lavacow / Fishs Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 <mod_lavacow:green_bacon_and_eggs>.displayName = "Green Eggs and Bacon";
 <mod_lavacow:poisonstinger>.displayName = "Vespa Stinger";
@@ -440,11 +459,12 @@ for potion in potionMap{
 // Rats
 <rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
 
-// Pam's Harvestcraft
+// Pams Harvestcraft
 <harvestcraft:maplesyrupitem>.displayName = "Sweet Syrup";
 <harvestcraft:wovencottonitem>.displayName = "Woven Cloth";
 <harvestcraft:hamsweetpicklesandwichitem>.displayName = "Sweet Pickle and Ham Sandwich";
 <harvestcraft:pbandjitem>.displayName = "PBJ Sandwich"; 
+<harvestcraft:ricecakeitem>.displayName = "Puffed Rice"; 
 
 // Better with Addons
 <betterwithaddons:extra_grass:0>.displayName = "Farmland Grass Block";
@@ -516,6 +536,10 @@ for potion in potionMap{
 <betteranimalsplus:wolfhead_6>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:fried_egg>.displayName = "Cooked Monster Egg";
 
+
+<contenttweaker:grove_tear>.displayName = "§bGrove Tear...";
+<contenttweaker:purifying_signet>.displayName = "§ePurifying Signet";
+
 #Rare
 <dungeontactics:high_striker>.displayName = "§2High Striker";
 <dungeontactics:high_striker>.addTooltip(format.darkGreen("Rare Weapon"));
@@ -562,8 +586,10 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
 <msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
 <msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
-<msmlegacy:draconic_blade>.displayName = "§2Draconic Sword";
+<msmlegacy:draconic_blade>.displayName = "§2Drakeish Blade";
 <msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
+<pyrotech:redstone_sword>.displayName = "§2Draconic Blade";
+<pyrotech:redstone_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 
 <mod_lavacow:famine>.displayName = "§2Blade of Devouring Greed";
 <mod_lavacow:famine>.addTooltip(format.darkGreen("Rare Weapon"));
@@ -589,11 +615,18 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 #Epic
 
+<nyx:meteor_hammer>.displayName = "§5Cataclysm";
+<nyx:meteor_hammer>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:scythe>.displayName = "§5Celeste";
+<nyx:scythe>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:meteor_sword>.displayName = "§5Sanguine";
+<nyx:meteor_sword>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:meteor_bow>.displayName = "§5Meteorite-Reinforced Bow";
+<nyx:meteor_bow>.addTooltip(format.darkPurple("Epic Weapon"));
 
 
-
+<nyx:meteor_shard>.displayName = "§5Meteor Shard";
 <nyx:fallen_star>.displayName = "§5Fallen Star";
-<nyx:fallen_star>.addTooltip("Crafting Material");
 
 <endreborn:tool_magnifier>.displayName = "§5Magnitifus";
 <endreborn:tool_magnifier>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -640,8 +673,8 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 <iceandfire:dragonbone_sword>.displayName = "§5Dragonbone Sword";
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<mowziesmobs:wrought_axe>.displayName = "§5Wrought Axe";
-<mowziesmobs:wrought_axe>.addTooltip(format.darkPurple("Epic Weapon"));
+<mowziesmobs:wrought_axe:*>.displayName = "§5Wrought Axe";
+<mowziesmobs:wrought_axe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
 <mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
@@ -656,8 +689,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 #Legendary
 
-<nyx:meteor_shard>.displayName = "§6Meteor Shard";
-<nyx:meteor_shard>.addTooltip("Crafting Material");
+
 
 
 

@@ -1,7 +1,0 @@
-{
-  "name": "Enchanting",
-  "description": "Imbuing equipment with fantastic properties through scrolls, tomes, and the wisdom of the ages.",
-  "icon": "minecraft:enchanting_table",
-  "sortnum": 1,
-  "parent": "magic"
-}

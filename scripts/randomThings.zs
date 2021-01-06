@@ -234,3 +234,11 @@ recipes.addShaped(<randomthings:dyeingmachine>, [[<arcanearchives:shaped_quartz>
 //redstone activator
 recipes.remove(<randomthings:redstoneactivator>);
 recipes.addShaped(<randomthings:redstoneactivator>, [[<dungeontactics:steel_ingot>, <minecraft:redstone_torch>, <dungeontactics:steel_ingot>],[<dungeontactics:steel_ingot>, <quark:redstone_inductor>, <dungeontactics:steel_ingot>], [<dungeontactics:steel_ingot>, <dungeontactics:steel_ingot>, <dungeontactics:steel_ingot>]]);
+
+//spectre lens
+recipes.remove(<randomthings:spectrelens>);
+recipes.addShaped("spectre_lens",<randomthings:spectrelens>,[
+  [<randomthings:ingredient:3>,<minecraft:emerald>,<randomthings:ingredient:3>],
+  [<ore:ingotableGem>,<ore:blockGlass>,<ore:ingotableGem>],
+  [<randomthings:ingredient:3>,<minecraft:emerald>,<randomthings:ingredient:3>]
+]);

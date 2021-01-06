@@ -14,10 +14,10 @@
 		"logo":
         {
             "image" : "rotn:textures/rotn.png",
-            "posX" : 20,
+            "posX" : 45,
             "posY" : -25,
-            "width" : 320,
-            "height" : 180,
+            "width" : 270,
+            "height" : 152,
             "alignment" : "top_left"
         },
         "akliz":
@@ -137,13 +137,13 @@
             "normalTextColor" : 6710886,
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
-            "posX" : 100,
-            "posY" : 125,
+            "posX": 100,
+            "posY": -25,
             "width" : 153,
             "height" : 20,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
-            "alignment" : "left_center",
+            "alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openLink",
@@ -216,14 +216,14 @@
         {
             "text" : "Language",
 			"texture" : "rotn:textures/btn.png",
-            "posX" : 100,
-            "posY" : 105,
+            "posX": 100,
+            "posY": -65,
             "width" : 153,
             "height" : 20,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"normalTextColor" : 6710886,			
-			"alignment" : "left_center",
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -257,15 +257,15 @@
 			"normalTextColor" : 6710886,
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
-            "posX" : 100,
-            "posY" : 85,
+            "posX": 100,
+            "posY": -45,
             "width" : 153,
             "height" : 20,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
-			"alignment" : "left_center",
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -302,15 +302,31 @@
                 "type" : "openLink",
                 "link" : "https://docs.google.com/document/d/1DGgt4OBx-Vyy3vyT_wgUjjxrXDPFhBpkS9M11shZKAE/edit?usp=sharing"
             }
+        },
+
+        "label": { 
+            "text": 
+            { 
+                "type": "web", 
+                "url": "https://raw.githubusercontent.com/Rebirth-of-the-Night/Rebirth-Of-The-Night/master/MOTD.txt",
+                "refreshInterval": 60
+            }, 
+            "fontSize": 0.6,
+            "posX": 260,
+            "posY": 2,
+            "color": 16777215,
+            "alignment": "top_left"
         }
+
+
     },
 
     "other":
     {
         "splash-text":
         {
-            "posX" : 275,
-            "posY" : 110,
+            "posX" : 245,
+            "posY" : 95,
             "color" : -256,
             "alignment" : "top_left",
             "color" : "16737380",

@@ -13,4 +13,4 @@ criteria.setEntityType("wither")
 
 hideLines()
 alwaysVisible()
-setPos(-126,87)
+setPos(-88,148)

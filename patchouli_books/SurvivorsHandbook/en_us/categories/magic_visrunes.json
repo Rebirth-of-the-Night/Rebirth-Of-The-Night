@@ -1,7 +1,0 @@
-{
-  "name": "Vis and Runes",
-  "description": "The fundamentals of magic and the stone glyphs that channel them.",
-  "icon": "minecraft:glowstone_dust",
-  "sortnum": 0,
-  "parent": "magic"
-}

@@ -4,8 +4,6 @@ setDescription("Unlock the Full Mid Armor gamestage.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Diamond Armor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/diamondarmor")
 

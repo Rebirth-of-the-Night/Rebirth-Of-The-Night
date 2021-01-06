@@ -9,4 +9,4 @@ criteria.setEntityType("mowziesmobs:naga")
 
 hideLines()
 alwaysVisible()
-setPos(-126,56)
+setPos(-281,54)

@@ -1,0 +1,127 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "artisanworktables:workstation",
+    "textures": {
+      "bottom": "artisanworktables:blocks/workstation_bottom",
+      "base": "artisanworktables:blocks/workstation_base"
+    }
+  },
+  "variants": {
+    "variant": {
+      "blacksmith": {
+        "textures": {
+          "side": "artisanworktables:blocks/blacksmith_side",
+          "top": "artisanworktables:blocks/blacksmith_top",
+          "particle": "artisanworktables:blocks/blacksmith_top"
+        }
+      },
+      "carpenter": {
+        "textures": {
+          "side": "artisanworktables:blocks/carpenter_side",
+          "top": "artisanworktables:blocks/carpenter_top",
+          "particle": "artisanworktables:blocks/carpenter_top"
+        }
+      },
+      "jeweler": {
+        "textures": {
+          "side": "artisanworktables:blocks/jeweler_side",
+          "top": "artisanworktables:blocks/jeweler_top",
+          "particle": "artisanworktables:blocks/jeweler_top"
+        }
+      },
+      "mason": {
+        "textures": {
+          "side": "artisanworktables:blocks/mason_side",
+          "top": "artisanworktables:blocks/mason_top",
+          "particle": "artisanworktables:blocks/mason_top"
+        }
+      },
+      "tailor": {
+        "textures": {
+          "side": "artisanworktables:blocks/tailor_side",
+          "top": "artisanworktables:blocks/tailor_top",
+          "particle": "artisanworktables:blocks/tailor_top"
+        }
+      },
+      "basic": {
+        "textures": {
+          "side": "artisanworktables:blocks/basic_side",
+          "top": "artisanworktables:blocks/basic_top",
+          "particle": "artisanworktables:blocks/basic_top"
+        }
+      },
+      "engineer": {
+        "textures": {
+          "side": "artisanworktables:blocks/engineer_side",
+          "top": "artisanworktables:blocks/engineer_top",
+          "particle": "artisanworktables:blocks/engineer_top"
+        }
+      },
+      "mage": {
+        "textures": {
+          "side": "artisanworktables:blocks/mage_side_inactive",
+          "top": "artisanworktables:blocks/mage_top_inactive",
+          "particle": "artisanworktables:blocks/mage_top_inactive"
+        }
+      },
+      "mage_active": {
+        "textures": {
+          "side": "artisanworktables:blocks/mage_side",
+          "top": "artisanworktables:blocks/mage_top",
+          "particle": "artisanworktables:blocks/mage_top"
+        }
+      },
+      "scribe": {
+        "textures": {
+          "side": "artisanworktables:blocks/scribe_side",
+          "top": "artisanworktables:blocks/scribe_top",
+          "particle": "artisanworktables:blocks/scribe_top"
+        }
+      },
+      "chemist": {
+        "textures": {
+          "side": "artisanworktables:blocks/chemist_side",
+          "top": "artisanworktables:blocks/chemist_top",
+          "particle": "artisanworktables:blocks/chemist_top"
+        }
+      },
+      "farmer": {
+        "textures": {
+          "side": "artisanworktables:blocks/farmer_side",
+          "top": "artisanworktables:blocks/farmer_top",
+          "particle": "artisanworktables:blocks/farmer_top"
+        }
+      },
+      "chef": {
+		"model": "artisanworktables:cheff_workstation",
+        "textures": {
+          "side": "artisanworktables:blocks/chef_side",
+          "top": "artisanworktables:blocks/chef_top",
+          "particle": "artisanworktables:blocks/chef_top"
+        }
+      },
+      "designer": {
+        "textures": {
+          "side": "artisanworktables:blocks/designer_side",
+          "top": "artisanworktables:blocks/designer_top",
+          "particle": "artisanworktables:blocks/designer_top"
+        }
+      },
+      "tanner": {
+        "textures": {
+          "side": "artisanworktables:blocks/tanner_side",
+          "top": "artisanworktables:blocks/tanner_top",
+          "particle": "artisanworktables:blocks/tanner_top"
+        }
+      },
+      "potter": {
+        "textures": {
+          "side": "artisanworktables:blocks/potter_side",
+          "top": "artisanworktables:blocks/potter_top",
+          "particle": "artisanworktables:blocks/potter_top"
+        }
+      }
+    }
+  }
+}

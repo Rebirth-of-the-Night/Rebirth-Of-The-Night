@@ -1,4 +1,4 @@
-setIcon(<pyrotech:tank, meta:1>)
+setIcon(<pyrotech:brick_tank>)
 setTitle("Refractory Tank")
 setDescription("Craft a refractory tank.")
 
@@ -12,7 +12,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 criteria = addCriteria("Craft Refractory Tank", "minecraft:inventory_changed")
-criteria.addItem(<pyrotech:tank:1>)
+criteria.addItem(<pyrotech:brick_tank>)
 
 // fix somehow item data = <pyrotech:tank:1>
 // addCriteria("impossible", "minecraft:impossible")

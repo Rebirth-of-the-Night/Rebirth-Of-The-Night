@@ -13,8 +13,37 @@ import mods.rockytweaks.Merchant;
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
 
+furnace.remove(<minecraft:leather>);
+
+// remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
+mods.ltt.LootTable.removeGlobalItem("minecraft:bucket");
+
+
+recipes.removeByRecipeName("minecraft:hopper");
+recipes.addShaped("metal_hopper",<minecraft:hopper>,[
+    [<ore:genericMetal>,null,<ore:genericMetal>],
+    [<ore:genericMetal>,<ore:chest>,<ore:genericMetal>],
+    [null,<ore:genericMetal>,null]
+]);
+
+recipes.removeByRecipeName("minecraft:furnace");
+recipes.addShaped("furnace",<minecraft:furnace>,[
+    [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>],
+    [<pyrotech:material:16>,null,<pyrotech:material:16>],
+    [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]
+]);
+
+recipes.remove(<minecraft:jukebox>);
+recipes.addShaped("jukebox",<minecraft:jukebox>,[
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:ingotableGem>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
+]);
+
 recipes.remove(<dynamictrees:dirtbucket>);
 recipes.addShapeless("dirt_bucket",<dynamictrees:dirtbucket>,[<minecraft:bucket>,<ore:dirt>]);
+
+recipes.addShapeless("spider_silk_to_string",<minecraft:string>,[<contenttweaker:spider_silk>,<contenttweaker:spider_silk>,<contenttweaker:spider_silk>]);
 
 recipes.remove(<sereneseasons:season_sensor_spring>);
 recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
@@ -64,6 +93,9 @@ recipes.removeByRecipeName("minecraft:brown_wool");
 recipes.removeByRecipeName("minecraft:blue_wool");
 recipes.removeByRecipeName("minecraft:black_wool");
 recipes.removeByRecipeName("minecraft:bone_meal_from_block");
+recipes.removeByRecipeName("minecraft:granite");
+recipes.removeByRecipeName("minecraft:diorite");
+recipes.removeByRecipeName("minecraft:andesite");
 
 recipes.remove(<minecraft:tnt>);
 recipes.addShaped("tnt",<minecraft:tnt>,[
@@ -311,12 +343,16 @@ recipes.addShaped("tinrail",<minecraft:rail>*8,[
     [<ore:ingotTin>,<ore:stickWood>,<ore:ingotTin>],
     [<ore:ingotTin>,null,<ore:ingotTin>]
 ]);
-recipes.addShaped("steelrail",<minecraft:rail>*32,[
+recipes.addShaped("steelrail",<minecraft:rail>*64,[
     [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>],
     [<dungeontactics:steel_ingot>,<ore:stickWood>,<dungeontactics:steel_ingot>],
     [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>]
 ]);
-
+recipes.addShaped("silverboosterrail",<minecraft:golden_rail>*4,[
+    [<iceandfire:silver_ingot>,null,<iceandfire:silver_ingot>],
+    [<iceandfire:silver_ingot>,<ore:stickWood>,<iceandfire:silver_ingot>],
+    [<iceandfire:silver_ingot>,<minecraft:redstone>,<iceandfire:silver_ingot>]
+]);
 
 
 // other tin uses
@@ -624,12 +660,31 @@ recipes.addShaped("scrapped_leather", <betterwithmods:material:31>,
 
 //Ore Dictionary Entries
 
+val ingotableGem = <ore:ingotableGem>;
+ingotableGem.add(
+  <minecraft:diamond>,
+  <biomesoplenty:gem:2>,
+  <biomesoplenty:gem:6>,
+  <biomesoplenty:gem:1>
+);
+
+val gemIngot = <ore:gemIngot>;
+gemIngot.add(
+  <betterwithmods:material:45>,
+  <contenttweaker:sapphire_ingot>,
+  <contenttweaker:ruby_ingot>,
+  <contenttweaker:peridot_ingot>
+);
+
+
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
 <ore:ingotCrucibleSteel>.add(<dungeontactics:steel_ingot>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
 <ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>]);
 <ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>,<ceramics:clay_bucket:1>]);
+<ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
+<ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 
 <ore:blockGlass>.addItems([<iceandfire:myrmex_desert_resin_glass>,<iceandfire:myrmex_jungle_resin_glass>,<betternether:quartz_glass>,<betternether:quartz_glass_framed>,<betternether:quartz_stained_glass:*>,<betternether:quartz_stained_glass_framed:*>,<dungeontactics:dungeon_glass>,<quark:framed_glass>,<sereneseasons:greenhouse_glass>,<twilightforest:auroralized_glass>]);
 
@@ -642,6 +697,9 @@ dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aeth
 
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
+
+val brown = <ore:dyeBrown>;
+brown.remove(<betterwithmods:material:5>);
 
 <ore:listAllSeed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>]);
 <ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>,<charm:bookshelf_chest>]);
@@ -722,10 +780,8 @@ val carbon = <ore:dustRichCarbon>;
 carbon.add(<pyrotech:material:32>);
 
 val qualityGem = <ore:Gem_highQuality>;
-qualityGem.addItems([<biomesoplenty:gem>,<aether_legacy:zanite_gemstone>,<quark:biotite>]);
+qualityGem.addItems([<aether_legacy:zanite_gemstone>,<quark:biotite>]);
 qualityGem.addAll(<ore:gemOnyx>);
-qualityGem.addAll(<ore:gemDiamond>);
-qualityGem.addAll(<ore:gemEmerald>);
 qualityGem.addAll(<ore:gemAmethyst>);
 
 val gemAmethyst = <ore:gemAmethyst>;
@@ -772,6 +828,13 @@ for item in mushroom.items{
         <ore:listAllmushroom>.add(item);
     }
 }
+
+val stewCondiment = <ore:listAllStewcondiment>;
+stewCondiment.add(<harvestcraft:onionitem>,<harvestcraft:bellpepperitem>,<minecraft:carrot>,<harvestcraft:cornitem>);
+
+val tuber = <ore:listAllTuber>;
+tuber.addAll(<ore:listAllrootveggie>);
+tuber.add(<minecraft:potato>,<harvestcraft:beetitem>,<minecraft:beetroot>,<inspirations:edibles>,<pyrotech:strange_tuber>,<quark:root>,<rustic:marsh_mallow>,<rustic:ginseng>,<rustic:core_root>,<twilightforest:liveroot>);
 
 val rawBeef = <ore:listAllbeefraw>;
 rawBeef.add(<twilightforest:raw_meef>);
@@ -886,7 +949,7 @@ val refracotta = <ore:refracotta>;
 refracotta.addItems([<contenttweaker:refracotta>,<contenttweaker:refracotta_gray>,<contenttweaker:refracotta_yellow>,<contenttweaker:refracotta_cyan>,<contenttweaker:refracotta_magenta>,<contenttweaker:refracotta_lime>,<contenttweaker:refracotta_white>,<contenttweaker:refracotta_pink>,<contenttweaker:refracotta_brown>,<contenttweaker:refracotta_light_blue>,<contenttweaker:refracotta_red>,<contenttweaker:refracotta_green>,<contenttweaker:refracotta_blue>,<contenttweaker:refracotta_black>,<contenttweaker:refracotta_purple>,<contenttweaker:refracotta_light_gray>,<contenttweaker:refracotta_orange>]);
 
 val copperBlock = <ore:blockCopper>;
-copperBlock.addItems([<caves_and_cliffs:copper_block>,<caves_and_cliffs:copper_block_stage_1>,<caves_and_cliffs:copper_block_stage_2>,<caves_and_cliffs:copper_block_stage_3>]);
+copperBlock.addItems([<rotn_blocks:copper_block>,<rotn_blocks:slightly_weathered_copper_block>,<rotn_blocks:semi_wheatered_copper_block>,<rotn_blocks:weathered_copper_block>]);
 
 val bronzeBlock = <ore:blockBronze>;
 bronzeBlock.add(<contenttweaker:block_bronze>);
@@ -1076,6 +1139,9 @@ recipes.addShapeless("dirtbucket", <dynamictrees:dirtbucket>,
 recipes.addShapeless("dirtbucket_return", <pyrotech:bucket_stone>,
 	[<dynamictrees:dirtbucket>]
 );
+
+// Fragile Glass And Thin Ice
+recipes.removeByMod("fragileglassft");
 
 // Charset Materials
 mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");

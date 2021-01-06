@@ -1,0 +1,75 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+		minecraft:swampland
+		minecraft:mutated_swampland
+		minecraft:river
+		biomesoplenty:bayou
+		biomesoplenty:bog
+		biomesoplenty:lush_swamp
+		biomesoplenty:mangrove
+		biomesoplenty:chaparral
+		biomesoplenty:wetland
+		biomesoplenty:dead_swamp
+		biomesoplenty:fen
+		biomesoplenty:quagmire
+		biomesoplenty:land_of_lakes
+		biomesoplenty:marsh
+		biomesoplenty:moor
+  	  ]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone:2
+      maxHeight: 16
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:metamorphic_stone:6
+      maxHeight: 44
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -3
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone:2
+      maxHeight: 60
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -3
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone:3
+      maxHeight: 86
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:igneous_stone:5
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.017
+         minVal: -4
+		 maxVal: 3
+        }
+    }
+  ]
+}

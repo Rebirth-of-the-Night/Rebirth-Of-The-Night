@@ -1,7 +1,0 @@
-{
-  "name": "Rituals",
-  "description": "Elaborate offerings plus particular circumstances can result in something incredible.",
-  "icon": "minecraft:enchanting_table",
-  "sortnum": 3,
-  "parent": "magic"
-}

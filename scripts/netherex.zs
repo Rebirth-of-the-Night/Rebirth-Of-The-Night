@@ -19,6 +19,13 @@ mods.ltt.LootTable.removeGlobalItem("netherex:wither_bone");
 mods.jei.JEI.removeAndHide(<netherex:wither_bone>);
 mods.jei.JEI.removeAndHide(<netherex:wither_dust>);
 
+mods.ltt.LootTable.removeGlobalItem("netherex:rime_crystal");
+furnace.remove(<netherex:rime_crystal>);
+furnace.remove(<netherex:rime_ore>);
+mods.jei.JEI.removeAndHide(<netherex:rime_ore>);
+mods.jei.JEI.removeAndHide(<netherex:rime_crystal>);
+mods.jei.JEI.removeAndHide(<netherex:rime_block>);
+
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_sword>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_pickaxe>);
 mods.jei.JEI.removeAndHide(<netherex:withered_amedian_shovel>);
@@ -49,7 +56,7 @@ mods.jei.JEI.removeAndHide(<netherex:gloomy_netherbrick>);
 mods.jei.JEI.removeAndHide(<netherex:lively_netherbrick>);
 mods.jei.JEI.removeAndHide(<netherex:fiery_netherbrick>);
 mods.jei.JEI.removeAndHide(<netherex:icy_netherbrick>);
-mods.jei.JEI.removeAndHide(<netherex:amethyst_crystal>);
+recipes.remove(<netherex:amethyst_crystal>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_block>);
 mods.jei.JEI.removeAndHide(<netherex:amethyst_ore>);
 
@@ -103,7 +110,7 @@ brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:aw
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "netherex:freezing"}), <minecraft:dragon_breath>);
 
-
+furnace.remove(<netherex:congealed_magma_cream>, <minecraft:magma_cream>);
 
 recipes.remove(<netherex:frosted_amedian_sword>);
 recipes.remove(<netherex:frosted_amedian_pickaxe>);

@@ -1,11 +1,16 @@
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
+import loottweaker.LootTweaker;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
 
 recipes.removeByRecipeName("iceandfire:dragonmeal_alternate");
 
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_block>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);
+
+LootTweaker.getTable("iceandfire:mausoleum_chest").getPool("mausoleum_chest").removeEntry("iceandfire:sapphire_gem");
 
 recipes.remove(<iceandfire:earplugs>);
 recipes.addShapeless("earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
@@ -16,6 +21,16 @@ recipes.addShaped("dragon_horn",<iceandfire:dragon_horn>,[
   [null,<iceandfire:dragonbone>,<iceandfire:dragonbone>],
   [<ore:stickWood>,<iceandfire:dragonbone>,null]
 ]);
+
+recipes.remove(<iceandfire:tide_trident>);
+recipes.addShaped("tide_trident",<iceandfire:tide_trident>,[
+  [<iceandfire:sea_serpent_fang>,<iceandfire:sea_serpent_fang>,<iceandfire:sea_serpent_fang>],
+  [<ore:seaSerpentScale>,<ore:ingotableGem>,<ore:seaSerpentScale>],
+  [null,<iceandfire:dragonbone>,null]
+]);
+
+recipes.removeByRecipeName("iceandfire:summoning_crystal_fire");
+recipes.addShapeless("fire_dragon_summoning_crystal",<iceandfire:summoning_crystal_fire>,[<iceandfire:fire_dragon_blood>,<minecraft:ender_pearl>,<minecraft:diamond>,<biomesoplenty:gem:1>]);
 
 // Pixie Wand
 recipes.remove(<iceandfire:pixie_wand>);

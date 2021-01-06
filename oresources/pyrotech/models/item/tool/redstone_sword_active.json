@@ -1,0 +1,32 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pyrotech:items/redstone_sword_active"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [6.75, -90, 55],
+			"translation": [0, 13.5, 0.75],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [6.75, 90, -55],
+			"translation": [0, 13, 0.75],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-5, -90, 30],
+			"translation": [1, 5.5, 1.25],
+			"scale": [0.95, 0.95, 0.95]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-5, 90, -30],
+			"translation": [1, 5.5, 1.25],
+			"scale": [0.95, 0.95, 0.95]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.9375, 0.9375, 0.9375]
+		}
+	}
+}

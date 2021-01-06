@@ -1,11 +1,8 @@
 setIcon(<netherex:ghast_queen_tear>)
 setTitle("Queen of the Nether")
-setDescription("Slay The Ghast Queen that rarely shows up in Nether Cities. NOTE: DISABLED UNTIL 2.78")
+setDescription("Slay The Ghast Queen.")
 
-addParent("triumph:advancements/bosskills/killenddragon")
-addParent("triumph:advancements/bosskills/killwither")
-
-addRewardFunction("triumph:killGhastQueen")
+addParent("triumph:advancements/bosskills/root")
 
 //criteria = addCriteria("Ghast Queen", "minecraft:player_killed_entity")
 //criteria.setEntityType("netherex:ghast_queen")
@@ -13,5 +10,5 @@ addRewardFunction("triumph:killGhastQueen")
 criteria = addCriteria("Ghast Queen Tear", "minecraft:inventory_changed")
 criteria.addItem("netherex:ghast_queen_tear")
 
-alwaysVisible()
-setPos(-95,118)
+hideLines()
+setPos(-119,179)

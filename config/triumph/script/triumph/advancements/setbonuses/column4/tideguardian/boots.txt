@@ -2,7 +2,7 @@ setIcon("iceandfire:tide_blue_chestplate")
 setTitle("Ebb And Flow")
 setDescription("Complete the Ebb And Flow set.")
 
-addParent("triumph:advancements/setbonuses/diamondarmor")
+addParent("triumph:advancements/setbonuses/column2/diamondarmor")
 
 setShowToast(false)
 setAnnounceToChat(false)

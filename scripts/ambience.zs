@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+mods.jei.JEI.removeAndHide(<ambience:soundnizer>);
 mods.jei.JEI.removeAndHide(<ambience:songswitcher>);
 mods.jei.JEI.removeAndHide(<ambience:speaker>);
 mods.jei.JEI.removeAndHide(<ambience:alarm_white>);
@@ -20,8 +21,11 @@ mods.jei.JEI.removeAndHide(<ambience:alarm_magenta>);
 mods.jei.JEI.removeAndHide(<ambience:alarm_pink>);
 mods.jei.JEI.removeAndHide(<ambience:alarm_brown>);
 mods.jei.JEI.removeAndHide(<ambience:bell>);
+mods.jei.JEI.removeAndHide(<ambience:songswitcher_lit>);
 
 // add as loot
 // unique boss drop?
 recipes.remove(<ambience:horn>);
+mods.ltt.LootTable.removeGlobalItem("ambience:horn");
+
 

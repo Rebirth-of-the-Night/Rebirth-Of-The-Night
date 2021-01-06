@@ -16,7 +16,20 @@
    },
 
 
-      
+   {
+      "mob": ["specialmobs:witchspider", "specialmobs:witchcavespider"],
+      "player": true,
+      "item": "quark:witch_hat",
+      "itemcount": "1",
+      "random": "0.02"
+   },
+   {
+      "mob": ["specialmobs:windwitch", "specialmobs:wildswitch", "specialmobs:undeadwitch", "specialmobs:shadowswitch", "specialmobs:dominationwitch"],
+      "player": true,
+      "item": "quark:witch_hat",
+      "itemcount": "1",
+      "random": "0.4"
+   },
 
    // Harvester
    {
@@ -33,19 +46,79 @@
       "random": "0.4"
    },
 
+   // Sun Spirit
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "contenttweaker:heart_of_fire",
+      "itemcount": "1"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "contenttweaker:fire_quintessence",
+      "itemcount": "1-3"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "contenttweaker:sol_quintessence",
+      "itemcount": "1-3"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "aether_legacy:flaming_sword",
+      "itemcount": "1",
+      "random": "0.5"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "aether_legacy:phoenix_bow",
+      "itemcount": "1",
+      "random": "0.5"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "aether_legacy:pheonix_helmet",
+      "itemcount": "1",
+      "random": "0.25"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "aether_legacy:pheonix_chestplate",
+      "itemcount": "1",
+      "random": "0.25"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "aether_legacy:pheonix_leggings",
+      "itemcount": "1",
+      "random": "0.25"
+   },
+   {
+      "mob": "aether_legacy:sun_spirit",
+      "item": "aether_legacy:pheonix_boots",
+      "itemcount": "1",
+      "random": "0.25"
+   },
+
    // Quazar
    {
-      "mob": "betterslimes:king_slime",
+      "mob": "betterslimes:quazar",
       "player": true,
       "item": "contenttweaker:volatile_core",
       "itemcount": "1"
    },
    {
-      "mob": "betterslimes:king_slime",
+      "mob": "betterslimes:quazar",
       "player": true,
       "item": "contenttweaker:mercurial_ooze",
       "itemcount": "1"
    },
+   {
+      "mob": "betterslimes:quazar",
+      "player": true,
+      "item": "nyx:meteor_shard",
+      "itemcount": "5-10"
+   },
+
 
 
 
@@ -645,121 +718,14 @@
    
  //// total eclipse of the heart
    {
-      "mob": "minecraft:elder_guardian",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "1-2"
-   },
-   {
       "mob": "primitivemobs:trollager",
       "player": true,
       "item": "scalinghealth:crystalshard",
       "itemcount": "1"
    },
 
-   {
-      "mob": "betteranimalsplus:hirschgeist",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "3-4"
-   },
-   
-    {
-      "mob": "rats:black_death",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "3-6"
-   },
 
-    {
-      "mob": "aether_legacy:slider",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "3"
-   },
-   
-    {
-      "mob": "aether_legacy:valkyrie_queen",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "3-5"
-   },
-   
-    {
-      "mob": "aether_legacy:sun_spirit",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "3-5"
-   },
 
-    {
-      "mob": "minecraft:ender_dragon",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "8-10"
-   },
-    {
-      "mob": "minecraft:wither",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "8-10"
-   },
-
-    {
-      "mob": "netherex:ghast_queen",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "9-10"
-   },
-
-    {
-      "mob": "twilightforest:naga",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "3-5"
-   },
-
-    {
-      "mob": "twilightforest:lich",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "5-7"
-   },
-
-    {
-      "mob": "twilightforest:minoshroom",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "2-3"
-   },
-   
-    {
-      "mob": "twilightforest:ur_ghast",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "12-18"
-   },
-
-    {
-      "mob": "twilightforest:yeti_alpha",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "9-10"
-   },
-   
-     {
-      "mob": "twilightforest:snow_queen",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "12-18"
-   },
-
-     {
-      "mob": "twilightforest:hydra",
-      "player": true,
-      "item": "scalinghealth:crystalshard",
-      "itemcount": "7-10"
-   },
 
 
    // Ender Creeper
@@ -776,5 +742,31 @@
       "item": "mod_lavacow:undyingheart",
       "itemcount": "1",
       "random": "0.1"
+   },
+   
+   // Chronologist
+   {
+	  "mob": "endreborn:chronologist",
+	  "player": false,
+	  "item": "villagenames:codex",
+	  "random": "0.1",
+	  "nbt": {
+		"display":{
+			"Lore":	["Wᒷ'⍊ᒷ ᒲᔑ↸ᒷ ℸ ̣ ∷ᒷᒲᒷリ↸𝙹⚍ᓭ ʖ∷ᒷᔑꖌℸ ̣ ⍑∷𝙹⚍⊣⍑ ↸╎ᓭᓵ𝙹⍊ᒷ∷╎ᒷᓭ ╎リ ᓵ𝙹リ↸ᒷ∷⊣ᒷℸ ̣ ╎ᓵ ᒲᔑリ╎!¡⚍ꖎᔑℸ ̣ ╎𝙹リ ⚍ᓭ╎リ⊣ ℸ ̣ ⍑ᒷ ⎓ᒷ╎∷ᔑ ᔑリ↸ ᒷ╎ᓭ∷ᔑ ᓵ⚍ꖎℸ ̣ ╎⍊ᔑℸ ̣ 𝙹∷ᓭ, ᓭ⚍ʖᓭℸ ̣ ᔑリᓵᒷ ╎ᓭ ᒷ ̇/ℸ ̣ ∷ᒷᒲᒷꖎ|| ᔑ⊣⊣∷ᒷᓭᓭ╎⍊ᒷ ʖ⚍ℸ ̣  ᒷᔑᓭ╎ꖎ|| ᒲᔑリ╎!¡⚍ꖎᔑℸ ̣ ᒷ↸. Rᒷᓭᒷᔑ∷ᓵ⍑ ⍑ᔑᓭ リ𝙹∴ ʖᒷᒷリ ∷ᒷ↸╎∷ᒷᓵℸ ̣ ᒷ↸ ℸ ̣ 𝙹∴ᔑ∷↸ᓭ ℸ ̣ ⍑ᒷ ᓵ⚍ꖎℸ ̣ ╎⍊ᔑℸ ̣ ╎𝙹リ 𝙹⎓ ʖ╎⊣⊣ᒷ∷ ᓭᔑᒲ!¡ꖎᒷᓭ ᔑʖꖎᒷ ℸ ̣ 𝙹 ᓭ⚍ᓭℸ ̣ ᔑ╎リ ℸ ̣ ⍑ᒷᒲᓭᒷꖎ⍊ᒷᓭ 𝙹リ ℸ ̣ ⍑ᒷ \"!¡╎⊣ᓭ\" ∴⍑╎ꖎᒷ ᔑ ᓭᒷᓵ𝙹リ↸ ℸ ̣ ᒷᔑᒲ ⎓𝙹ᓵ⚍ᓭᒷᓭ 𝙹リ ℸ ̣ ⍑ᒷ ╎ᒲ!¡ꖎᒷᒲᒷリℸ ̣ ᔑℸ ̣ ╎𝙹リ 𝙹⎓ ʖ╎𝙹 ꖌᒷ||ᓭ; ℸ ̣ ⍑ᒷ d∴ᔑꖎ⋮ᔑリąʖ╎ᓭᓭ⚍ᓭ !¡⍑||ᓭ╎𝙹ꖎ𝙹⊣|| ᓵᔑリ ∴╎ℸ ̣ ⍑ᓭℸ ̣ ᔑリ↸ ᒲ𝙹ᓭℸ ̣  ↸╎ᓭᒷᔑᓭᒷᓭ ∴╎ℸ ̣ ⍑𝙹⚍ℸ ̣  ᔑリ|| !¡∷𝙹ʖꖎᒷᒲ, ᔑリ↸ i ⍑ᔑ⍊ᒷ リ𝙹 ↸𝙹⚍ʖℸ ̣  𝙹⚍∷ ⊣ꖎ𝙹∷╎𝙹⚍ᓭ ∷⚍ꖎᒷ∷ ∴𝙹⚍ꖎ↸ ʖᒷ ⚍リᒲ𝙹⍊ᒷ↸ ʖ|| ᓭ⚍ᓵ⍑ ᒲ╎ᓵ∷𝙹ᓭᓵ𝙹!¡╎ᓵ ℸ ̣ ∷╎ᓵꖌᒷ∷╎ᒷᓭ, ⍑𝙹∴ᒷ⍊ᒷ∷, ∴╎ℸ ̣ ⍑ ℸ ̣ ⍑╎ᓭ ⎓ᔑ╎ꖎᓭᔑ⎓ᒷ ᒲᒷℸ ̣ ⍑𝙹↸ ∴ᒷ ⊣⚍ᔑ∷ᔑリℸ ̣ ᒷᒷ ℸ ̣ ⍑ᒷ ᓭᔑ⎓ᒷℸ ̣ || 𝙹⎓ ᔑリ|| ⎓⚍∷ℸ ̣ ⍑ᒷ∷ !¡∷𝙹ᓵᒷ↸⚍∷ᒷᓭ, ᔑᓭ ᔑリ|| !¡∷𝙹!¡ᒷ∷ a∷ᓵᔑリ⚍ᓭ 𝙹∷ sᔑ⊣ᒷ 𝙹⎓ ℸ ̣ ⍑ᒷ ᒷᒲ!¡╎∷ᒷ ᔑꖎ∴ᔑ||ᓭ ᓭ⍑𝙹⚍ꖎ↸. F𝙹∷ c𝙹リᑑ⚍ᒷᓭℸ ̣ !"
+			]
+		}
+      }
+   },
+   {
+	  "mob": "endreborn:chronologist",
+	  "player": false,
+	  "item": "villagenames:codex",
+	  "random": "0.1",
+	  "nbt": {
+		"display":{
+			"Lore":	["⊣╎⍊ᒷリ ℸ ̣ ⍑ᒷ ⍊𝙹ꖎᔑℸ ̣ ╎ꖎ╎ℸ ̣ || 𝙹⎓ ℸ ̣ ⍑ᒷ ╎リℸ ̣ ᒷ∷!¡ꖎᔑ|| ʖᒷℸ ̣ ∴ᒷᒷリ ℸ ̣ ⍑ᒷ∷ᒲ𝙹↸||リᔑᒲ╎ᓵ ᔑリ↸ ᒷꖎᒷᒲᒷリℸ ̣ ᔑꖎ ᒷリᒷ∷⊣╎ᒷᓭ, ᔑリ↸ ℸ ̣ ⍑ᒷ ∷ᒷᓵᒷリℸ ̣  ╎リ⋮⚍∷╎ᒷᓭ ᓭ⚍ᓭℸ ̣ ᔑ╎リᒷ↸ ╎リ ᔑ ᒲ╎ᓭ⍑ᔑ!¡ ᒷ⍊ᒷリ ∴╎ℸ ̣ ⍑ ᔑꖎꖎ ᓭᔑ⎓ᒷℸ ̣ || !¡∷𝙹ᓵᒷ↸⚍∷ᒷᓭ ⎓𝙹ꖎꖎ𝙹∴ᒷ↸, ╎ℸ ̣  ⍑ᔑᓭ ʖᒷᓵ𝙹ᒲᒷ ᓵꖎᒷᔑ∷ ℸ ̣ ⍑ᔑℸ ̣  ∷𝙹↸-ʖᔑᓭᒷ↸ ᓭℸ ̣ ᔑʖ╎ꖎ╎ℸ ̣ || ᓭ𝙹ꖎ⚍ℸ ̣ ╎𝙹リᓭ ⎓𝙹∷ ᓵ𝙹リᓭℸ ̣ ∷⚍ᓵℸ ̣  ᓵꖎᔑᓭᓭ╎⎓╎ᓵᔑℸ ̣ ╎𝙹リᓭ ⊣-ᑑ ᔑ∷ᒷ ⚍リᔑᓵᓵᒷ!¡ℸ ̣ ᔑʖꖎᒷ ⎓𝙹∷ ꖎ𝙹リ⊣-ℸ ̣ ᒷ∷ᒲ ᓭℸ ̣ 𝙹∷ᔑ⊣ᒷ ᔑリ↸ ⚍ᓭᔑ⊣ᒷ. ᓭ𝙹 ꖎ𝙹リ⊣ ᔑᓭ ∴ᒷ ∷ᒷᒲᔑ╎リ ᓵ𝙹ᒲ!¡ᔑ∷ᔑℸ ̣ ╎⍊ᒷꖎ|| ╎ᓭ𝙹ꖎᔑℸ ̣ ᒷ↸ 𝙹リ ℸ ̣ ⍑ᒷ ⎓∷𝙹リℸ ̣ ╎ᒷ∷, `⊣ᒷリᒷᓭ╎ᓭ-ᒷリ⊣╎リᒷᓭ` ᔑ∷ᒷ ᔑꖎᓭ𝙹 ╎リᒷ⎓⎓╎ᓵ╎ᒷリℸ ̣  ᔑリ↸ ꖎᔑ∷⊣ᒷꖎ|| ⚍リリᒷᓵᒷᓭᓭᔑ∷|| ⎓𝙹∷ ᓭᒲᔑꖎꖎᒷ∷-ᓭᓵᔑꖎᒷ 𝙹!¡ᒷ∷ᔑℸ ̣ ╎𝙹リᓭ. ℸ ̣ ⍑ᒷ∷ᒷ⎓𝙹∷ᒷ, ╎ !¡∷𝙹!¡𝙹ᓭᒷ ∴ᒷ !¡⚍ᓭ⍑ ⎓𝙹∷ ∴╎↸ᒷ∷ ᔑ↸𝙹!¡ℸ ̣ ╎𝙹リ 𝙹⎓ ℸ ̣ ⍑ᒷ ꖎ╎ᑑ⚍ᒷ⎓ᔑᓵℸ ̣ ╎𝙹リ 𝙹⎓ ᓵ𝙹リᓭℸ ̣ ∷⚍ᓵℸ ̣  ᔑᓭᓭᒷℸ ̣ ᓭ, ᒷリᓭ⚍∷╎リ⊣ ᒲ╎リ╎ᒲᔑꖎ ∷╎ᓭꖌ ↸⚍∷╎リ⊣ ∷𝙹⚍ℸ ̣ ╎リᒷ !¡∷𝙹ᓵᒷ↸⚍∷ᒷᓭ ᔑリ↸ ᒷリᓭ⚍∷╎リ⊣ リ𝙹 ⍊ᔑリ⊣⚍ᔑ∷↸ ⎓𝙹∷ᓵᒷ ╎ᓭ ∴╎ℸ ̣ ⍑𝙹⚍ℸ ̣  ᔑ⚍ℸ ̣ 𝙹ᒲᔑℸ ̣ ᒷ↸ ↸ᒷ⎓ᒷリᓭᒷ."
+			]
+		}
+      }
    }
 ]

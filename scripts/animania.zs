@@ -29,9 +29,34 @@ for i in 0 to 16 {
 }
 
 // Milk oredict
+var bovid_milk =
+<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "milk_goat", Amount: 1000}})|
+<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "milk_sheep", Amount: 1000}})|
+<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "milk_goat", Amount: 1000}})|
+<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "milk_sheep", Amount: 1000}})|
+<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "milk_goat", Amount: 1000}})|
+<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "milk_sheep", Amount: 1000}})|
+<forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000})|
+<forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000});
+
+var deluxeMilk = 
+<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}})|
+<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "milk_friesian", Amount: 1000}})|
+<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "milk_jersey", Amount: 1000}})|
+<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}})|
+<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "milk_friesian", Amount: 1000}})|
+<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "milk_jersey", Amount: 1000}})|
+<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}})|
+<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "milk_friesian", Amount: 1000}})|
+<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "milk_jersey", Amount: 1000}})|
+<forge:bucketfilled>.withTag({FluidName: "milk_holstein", Amount: 1000})|
+<forge:bucketfilled>.withTag({FluidName: "milk_friesian", Amount: 1000})|
+<forge:bucketfilled>.withTag({FluidName: "milk_jersey", Amount: 1000});
 
 recipes.remove(<animania:milk_bottle>);
-recipes.addShapeless("bottle_of_milk",<animania:milk_bottle>*4,[<ore:listAllmilk>,<minecraft:glass_bottle>,<minecraft:glass_bottle>,<minecraft:glass_bottle>]);
+recipes.addShapeless("bottle_of_milk",<animania:milk_bottle>,[<ore:listAllmilk>,<minecraft:glass_bottle>]);
+recipes.addShapeless("bottle_of_bovid_milk",<animania:milk_bottle>,[bovid_milk,<minecraft:glass_bottle>]);
+recipes.addShapeless("bottle_of_deluxe_milk",<animania:milk_bottle>*2,[deluxeMilk,<minecraft:glass_bottle>,<minecraft:glass_bottle>]);
 
 // Omelette recipes
 

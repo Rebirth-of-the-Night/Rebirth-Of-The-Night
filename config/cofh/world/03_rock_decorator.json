@@ -1,0 +1,102 @@
+{
+	"populate": 
+	{
+		"sandstone_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					}
+				],
+				"surface": "sand",
+				"cluster-size": 16
+				},
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": "all"
+		},
+		"surface_coade_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"properties": {
+							"variant" : "rock_stone"
+						}
+					}
+				],
+				"surface": [
+					{
+						"name": "grass"
+					},
+					{
+						"name": "dirt"
+					},
+					{
+						"name": "gravel"
+					},
+					{
+						"name": "cobblestone"
+					},
+					{
+						"name": "stone"
+					},
+					{
+						"name": "biomesoplenty:grass"
+					},
+					{
+						"name": "biomesoplenty:dirt"
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+					},
+					{
+						"name": "undergroundbiomes:igneous_overgrown"
+					},
+					{
+						"name": "undergroundbiomes:igneous_overgrown_snowed"
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_stone"
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_overgrown"
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_overgrown_snowed"
+					},
+					{
+						"name": "undergroundbiomes:sedimentary_stone"
+					},
+					{
+						"name": "undergroundbiomes:sedimentary_overgrown"
+					},
+					{
+						"name": "undergroundbiomes:sedimentary_overgrown_snowed"
+					}
+				],
+				"see-sky": true,
+				"cluster-size": 32
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8.3,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		}
+	}
+}

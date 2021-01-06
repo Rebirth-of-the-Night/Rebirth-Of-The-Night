@@ -2,7 +2,7 @@
   "name": "The Wither",
   "icon": "minecraft:skull:1",
   "category": "slayers_journal",
-  "advancement": "triumph:advancements/main/WIP_ACHIEVEMENT",
+  "advancement": "triumph:advancements/progression/WIP_ACHIEVEMENT",
 
   "sortnum": 2,
   "pages": [

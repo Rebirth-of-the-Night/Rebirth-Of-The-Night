@@ -9,4 +9,4 @@ criteria.setEntityType("iceandfire:cyclops")
 
 hideLines()
 alwaysVisible()
-setPos(-281,149)
+setPos(-281,148)

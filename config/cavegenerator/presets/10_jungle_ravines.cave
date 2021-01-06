@@ -1,0 +1,77 @@
+ # ----------------------------------------------------------- #
+ # ########################################################### #
+ #                 ### ravines.cave Info ###                   #
+ # ########################################################### #
+ #   This preset is designed to demonstrate a basic use case   #
+ # for Cave Generator which increases the frequency and shape  #
+ # of ravines, while disabling other cave-related features.    #
+ # ----------------------------------------------------------- #
+{
+  blankSlate: false
+  biomes: {
+      types: [
+		JUNGLE
+  	  ]
+  }
+  replaceableBlocks: [ 
+	stone
+	dirt
+	sandstone
+	undergroundbiomes:sedimentary_stone
+	undergroundbiomes:sedimentary_stone:1
+	undergroundbiomes:sedimentary_stone:2
+	undergroundbiomes:sedimentary_stone:3
+	undergroundbiomes:sedimentary_stone:4
+	undergroundbiomes:sedimentary_stone:5
+	undergroundbiomes:sedimentary_stone:6
+	undergroundbiomes:sedimentary_stone:7
+	undergroundbiomes:metamorphic_stone
+	undergroundbiomes:metamorphic_stone:1
+	undergroundbiomes:metamorphic_stone:2
+	undergroundbiomes:metamorphic_stone:3
+	undergroundbiomes:metamorphic_stone:4
+	undergroundbiomes:metamorphic_stone:5
+	undergroundbiomes:metamorphic_stone:6
+	undergroundbiomes:metamorphic_stone:7
+	undergroundbiomes:igneous_stone
+	undergroundbiomes:igneous_stone:1
+	undergroundbiomes:igneous_stone:2
+	undergroundbiomes:igneous_stone:3
+	undergroundbiomes:igneous_stone:4
+	undergroundbiomes:igneous_stone:5
+	undergroundbiomes:igneous_stone:6
+	undergroundbiomes:igneous_stone:7
+	undergroundbiomes:sedimentary_sandstone:2
+	undergroundbiomes:sedimentary_sand:6
+	undergroundbiomes:sedimentary_sandstone:6
+	biomesoplenty:grass
+	biomesoplenty:hard_ice
+	iceandfire:chared_stone
+	defiledlands:stone_defiled
+  ]
+  replaceDecorators: false
+  ravines: {
+     # Increase ravine frequency.
+    chance: 0.1
+    minHeight: 10
+    maxHeight: 12
+    distance: 90
+    twistXZ: { randFactor: 6 }
+    scaleY: { startVal: 2 }
+    angleXZ: { startValRandFactor: 1.5 }
+    angleY: { startValRandFactor: 1.11 }
+    scale: {
+      startVal: 2
+      startValRandFactor: 2
+    }
+    noiseYFactor: 0.9
+     # Use a noise generator to handle wall shape.
+    wallNoise: {
+      noise2D: {
+        frequency: 0.05
+        minVal: 0
+        maxVal: 7
+      }
+    }
+  }
+}

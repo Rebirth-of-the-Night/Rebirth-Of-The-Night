@@ -1,0 +1,46 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+  	    minecraft:ocean
+		minecraft:deep_ocean
+		biomesoplenty:gravel_beach
+		biomesoplenty:white_beach
+		biomesoplenty:coral_reef
+		biomesoplenty:kelp_forest
+  	  ] 
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone
+      maxHeight: 26
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:igneous_stone:4
+      maxHeight: 58
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+  ]
+}

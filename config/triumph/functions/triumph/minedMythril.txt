@@ -5,6 +5,6 @@ playsound mowziesmobs:geomancy.breaklarge2 ambient @p ~ ~ ~ 0.8 1.0
 playsound mod_lavacow:entity.wendigo.attack ambient @p ~ ~ ~ 0.5 0.9
 gamestage silentadd @a minedMythril
 gamestage silentadd @a fullDiamondArmor
-gamestage silentadd @a fullMidArmor
+gamestage silentadd @a killedQuazar
 gamestage silentadd @a killedHarvester
 gamestage silentremove @a start

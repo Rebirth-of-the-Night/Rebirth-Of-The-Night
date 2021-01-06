@@ -1,0 +1,35 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+		defiledlands:forest_tenebra
+	    defiledlands:forest_vilespine
+	    defiledlands:hills_defiled
+	    defiledlands:swamp_defiled
+	    defiledlands:ice_plains_defiled
+	  ]
+	}
+  stoneLayers: [
+
+    {
+      state: defiledlands:stone_defiled
+      maxHeight: 70
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.019
+         minVal: -8
+		 maxVal: 8
+        }
+    }
+	{
+      state: rotn_blocks:scuttling_block
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.1
+         minVal: -2
+		 maxVal: 2
+        }
+    }
+  ]
+}

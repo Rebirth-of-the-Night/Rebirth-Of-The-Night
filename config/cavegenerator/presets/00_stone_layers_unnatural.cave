@@ -1,0 +1,31 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+	  biomesoplenty:mystic_grove
+	  ]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone:6
+      maxHeight: 65
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.019
+         minVal: -8
+		 maxVal: 8
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone:6
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.1
+         minVal: -2
+		 maxVal: 2
+        }
+    }
+  ]
+}

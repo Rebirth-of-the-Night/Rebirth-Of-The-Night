@@ -36,35 +36,35 @@ recipes.addShapeless("Nail Trap", <minetraps:nail_trap>,[<minetraps:nails>,<mine
 // yes this is sloppy using 2 methods idgaf
 
 //cobweb nerf
-<item:minecraft:web>.asBlock().definition.resistance = 3;
+<minecraft:web>.asBlock().definition.resistance = 3;
 
 // barbed wire
 val barbwire as IItemStack = <minetraps:barbed_wire>;
 barbwire.hardness = 6;
-<item:minetraps:barbed_wire>.asBlock().definition.resistance = 9;
+<minetraps:barbed_wire>.asBlock().definition.resistance = 9;
 
 // spikes
 val spikes as IItemStack = <minetraps:spikes>;
 spikes.hardness = 10;
-<item:minetraps:spikes>.asBlock().definition.resistance = 5;
+<minetraps:spikes>.asBlock().definition.resistance = 5;
 val toxicspikes as IItemStack = <minetraps:spikes_toxic>;
 toxicspikes.hardness = 10;
-<item:minetraps:spikes_toxic>.asBlock().definition.resistance = 5;
+<minetraps:spikes_toxic>.asBlock().definition.resistance = 5;
 
 // razor wire
 val razorwire as IItemStack = <minetraps:razor_wire>;
 razorwire.hardness = 10;
-<item:minetraps:razor_wire>.asBlock().definition.resistance = 9;
+<minetraps:razor_wire>.asBlock().definition.resistance = 9;
 
 // barbed wire fence
 val barbfence as IItemStack = <minetraps:barbed_wire_fence>;
 barbfence.hardness = 10;
-<item:minetraps:barbed_wire_fence>.asBlock().definition.resistance = 20;
+<minetraps:barbed_wire_fence>.asBlock().definition.resistance = 20;
 
 // bear trap
 val beartrap as IItemStack = <minetraps:bear_trap>;
 beartrap.hardness = 8;
-<item:minetraps:bear_trap>.asBlock().definition.resistance = 8;
+<minetraps:bear_trap>.asBlock().definition.resistance = 8;
 
 // caltrops buff
 val caltrop as IItemStack = <dungeontactics:caltrops>;

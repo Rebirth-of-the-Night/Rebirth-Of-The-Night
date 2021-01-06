@@ -1,0 +1,140 @@
+ # ----------------------------------------------------------- #
+ # ########################################################### #
+ #               ### stone_layers.cave Info ###                #
+ # ########################################################### #
+ #   This preset is designed to demonstrate the use of the     #
+ # included StoneLayer objects. Make sure to list these in     #
+ # from bottom to top.                                         #
+ # ----------------------------------------------------------- #
+# This file is for base rocks 
+# the most common igneous, intrusive rock in the continents' crest is Granite; red for OW and black for Beneath (bedrock)
+#	Dacite is most common in old Rome, Romania, apart from a terrain of hills and plains, they have dense forests. We're going off the terrain there (hills, coniferous)
+#	Andesite is one of several igneous stones (bedrock pockets)
+#	Rhyolite is an extrusive equivalent to granite (warm and tropical bedrock)
+#	Gabbro is common in the ocean crust and it's found at higher formations (higher ocean)
+#	Basalt is the most common volcanic stone, rich in iron and magnesium a big deal of islands are composed of it, either tropical or Icelandic (full islands, mushroom, magic)
+#	Komatiite is rare a volcanic nowadays more common to the tropics and warm places (rare, magical, sparse)
+# the most common metamorphic stone, mostly derived from clay and mud, is Gneiss (middle and swamps)
+#	Schist forms part of Mount Everest's peak (top layer)
+# 	Eclogite is formed at high pressures and only comes up in xenoliths, which means enveloped in larger rocks. It's more common at somewhat lower temperatures (middle height pockets, beneath) 
+#	Marble occurs within dolomite and limestone (sedimentary pockets)
+#	Quartzite derives from sandstone (desert)
+#	Migmatite (gneiss and granite pockets)
+#	Soapstone (middle level water and river)
+# the most common sedimentary stone fond in hills, downland, caves and eroded landscapes is limestone (plains, grassland, gravel beach)
+# 	Dolomite is similarly common, but used here for higher altitudes based on resistance to erosion (plains, grassland, gravel beach)
+#	Chalk is a common rock to Europe (pockets in limestone)
+#	Shale is a kind of sedimentary mud-stone (swamp, water)
+#	Siltstone is a kind of sedimentary mud-stone (swamp, water)
+#	Greywacke is a hard sandstone (wasteland, dead, spooky)
+#	Chert occurs in limestone, chalk, and dolomite (pockets)
+{
+  blankSlate: false
+  biomes: {
+	  names: [
+	    biomesoplenty:lush_desert
+		minecraft:plains
+		minecraft:extreme_hills
+		minecraft:extreme_hills_with_trees
+		minecraft:savanna
+		minecraft:savanna_rock
+		minecraft:mutated_savanna_rock
+		biomesoplenty:xeric_shrubland
+		biomesoplenty:shrubland
+		biomesoplenty:alps_foothills
+		biomesoplenty:mountain_foothills
+		biomesoplenty:redwood_forest_edge
+		biomesoplenty:pasture
+		minecraft:beaches
+		minecraft:mutated_plains
+		biomesoplenty:lavender_fields
+		biomesoplenty:crag
+		biomesoplenty:flower_field
+		biomesoplenty:grassland
+		biomesoplenty:grove
+		minecraft:forest
+		minecraft:forest_hills
+		minecraft:birch_forest
+		minecraft:birch_forest_hills
+		minecraft:roofed_forest
+		minecraft:mutated_extreme_hills
+		minecraft:mutated_forest
+		minecraft:mutated_birch_forest
+		minecraft:mutated_birch_forest_hills
+		minecraft:mutated_roofed_forest
+		minecraft:mutated_extreme_hills_with_trees
+		biomesoplenty:bamboo_forest
+		biomesoplenty:cherry_blossom_grove
+		biomesoplenty:maple_woods
+		biomesoplenty:meadow
+		biomesoplenty:mountain
+		biomesoplenty:orchard
+		biomesoplenty:woodland
+	  ]
+	}
+  stoneLayers: [
+
+    {
+	  #red granite
+      state: undergroundbiomes:igneous_stone
+      maxHeight: 16
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         maxVal: 4
+        }
+    }
+	{
+	  state: undergroundbiomes:metamorphic_stone
+	  maxHeight: 52
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+		}
+	}
+	{
+	  #limestone
+      state: undergroundbiomes:sedimentary_stone
+      maxHeight: 100
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 4
+		}
+    }
+	{
+	  #dolomite
+	  state: undergroundbiomes:sedimentary_stone:5
+      maxHeight: 128
+	  noise2D: {
+         scale: 0.2
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 8 
+		}
+	}
+	{
+	  #green schist
+	  state: undergroundbiomes:metamorphic_stone:5
+      maxHeight: 204
+	  noise2D: {
+         scale: 0.3
+         frequency: 0.3
+         minVal: 0
+		 maxVal: 8 
+		}
+	}
+	{
+	  #blue schist
+	  state: undergroundbiomes:metamorphic_stone:4
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.3
+         frequency: 0.2
+		 minVal: 0
+         maxVal: 8 
+        }
+	}
+  ]
+}

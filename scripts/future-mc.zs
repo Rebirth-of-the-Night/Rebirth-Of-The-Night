@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 
 mods.jei.JEI.removeAndHide(<futuremc:lantern>);
 mods.jei.JEI.removeAndHide(<futuremc:barrel>);
+mods.jei.JEI.removeAndHide(<futuremc:composter>);
 
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");

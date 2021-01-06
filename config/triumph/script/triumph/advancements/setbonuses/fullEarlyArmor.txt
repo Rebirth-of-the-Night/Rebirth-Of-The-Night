@@ -4,22 +4,23 @@ setDescription("Unlock the Full Early Armor gamestage.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-addRewardFunction("triumph:fullEarlyArmor")
-
 criteria = addCriteria("Bronze Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/bronzearmor")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/bronzearmor")
 
 criteria = addCriteria("Chain Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/chainarmor")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/chainarmor")
 
 criteria = addCriteria("Iron Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/ironarmor")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/ferrousgiant")
 
 criteria = addCriteria("Silver Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/silverarmor")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/silverarmor")
 
 criteria = addCriteria("Gold Armor", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/goldarmor")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/goldarmor")
+
+criteria = addCriteria("Leather Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/leatherarmor")
 
 setRequirements("any")
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.

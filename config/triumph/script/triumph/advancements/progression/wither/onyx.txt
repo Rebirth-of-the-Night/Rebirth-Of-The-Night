@@ -2,13 +2,12 @@ setIcon("simpleores:onyx_gem")
 setTitle("Unimaginable Strength")
 setDescription("Mine onyx ore")
 
-addParent("triumph:advancements/progression/wither/killwither")
+addParent("triumph:advancements/progression/wither/killedwither")
 
 
 criteria = addCriteria("Onyx Ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreOnyx>)
 
-
-hiddenUnless("triumph:advancements/progression/beneath/killidolofradiance")
+alwaysVisible()
 drawDirectLines()
-setPos(525,0)
+setPos(515,-30)

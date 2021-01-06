@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/hammer_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/hammer_bronze"
+    }
+}

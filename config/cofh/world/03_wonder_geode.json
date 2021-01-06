@@ -1,0 +1,27 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts",
+		"rotn_blocks"
+		]
+	"populate": 
+	{
+		"wonder_geode": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": "rotn_blocks:wonder_geode",
+				"cluster-size": 1,
+				},
+			"cluster-count": 18,
+			"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+			"ground-level": 60,
+			"chunk-chance": 3,
+			"retrogen": "true"
+		}
+	}
+}

@@ -10,4 +10,4 @@ criteria.setEntityType("zombie_players:zombie_player")
 
 hideLines()
 setHidden(true)
-setPos(52,8)
+setPos(21,27)

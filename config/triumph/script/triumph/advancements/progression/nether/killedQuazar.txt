@@ -1,0 +1,20 @@
+setIcon(<contenttweaker:volatile_core>)
+setTitle("Quazar")
+setDescription("Kill Quazar")
+
+addParent("triumph:advancements/progression/nether/enterNether")
+
+addRewardFunction("triumph:killedQuazar")
+
+criteria = addCriteria("Quazar", "minecraft:player_killed_entity")
+criteria.setEntityType("betterslimes:quazar")
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+
+hiddenUnless("triumph:advancements/progression/nether/enterNether")
+drawDirectLines()
+setPos(185,0)

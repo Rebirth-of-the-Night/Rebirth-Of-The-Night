@@ -1,0 +1,34 @@
+{
+  minHeight: 20
+  maxHeight: 58
+  blankSlate: true
+  replaceDecorators: true
+  caverns: {
+	enabled: true
+    minHeight: 5
+    maxHeight: 75
+    noise3D: {
+      frequency: 0.02
+      scale: 0.4
+      scaleY: 0.75
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 1
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+    }
+  }
+  rooms: {
+    scale: 7
+    scaleY: 0.8
+  }
+  caveBlocks: [
+     # Simulates vanilla lava placement
+    {
+      states: minecraft:lava
+      maxHeight: 13
+    }
+  ]
+}

@@ -29,12 +29,18 @@ var large2 = <glaretorch:itemglaretorchlarge2>;
 var filament = <betterwithmods:material:19>;
 var latch = <ore:latchRedstone>;
 var electrum = <contenttweaker:material_part:12>;
+var metal = <ore:genericMetal>;
 
 //small
-recipes.addShaped("glare_small", small,[
-	[ncoal], 
-	[latch]
-]);
+recipes.addShaped("glare_small", small, 
+	[[null, <betterwithmods:material:1>, null],
+	[<betterwithaddons:wheatmat>, <betterwithmods:material:34>, <betterwithaddons:wheatmat>], 
+	[null, metal, null]]);
+recipes.addShaped("glareshaft_small",<contenttweaker:glareshaft_small>*8,
+	[[metal,metal,metal],
+	[metal,small.reuse(),metal],
+	[metal,metal,metal]]);
+
 //large2
 recipes.addShaped("glare_large", large2,[
 	[electrum,null,electrum],

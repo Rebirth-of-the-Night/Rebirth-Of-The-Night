@@ -4,8 +4,6 @@ setDescription("Complete the Cover Me With Blood set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Ruby Helmet", "minecraft:inventory_changed")
 criteria.addItem("atop:ruby_helmet")
 

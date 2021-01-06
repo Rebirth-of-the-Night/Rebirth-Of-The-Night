@@ -25,9 +25,9 @@ recipe: {
 gen: [
 #deserts
   {
-    height: [ 30, 54 ]
-    size: 12
-    count: 10
+    height: [ 0, 40 ]
+    size: 8
+    count: 28
 	biomes: {
 		names: [
 			minecraft:desert
@@ -42,9 +42,9 @@ gen: [
   }
 #not-deserts
   {
-	height: [ 40, 150 ]
-    size: 10
-    count: 40
+	height: [ 20, 150 ]
+    size: 8
+    count: 12
 	blacklistBiomes: true
 	biomes: {
 		names: [

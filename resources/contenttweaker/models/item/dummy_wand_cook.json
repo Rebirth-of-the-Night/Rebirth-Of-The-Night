@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/wands/dt_wands/wand_dt_cook"
+  }
+}

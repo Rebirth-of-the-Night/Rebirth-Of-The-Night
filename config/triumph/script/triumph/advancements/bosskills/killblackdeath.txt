@@ -9,4 +9,4 @@ criteria.setEntityType("rats:black_death")
 
 hideLines()
 alwaysVisible()
-setPos(-188,149)
+setPos(-119,117)

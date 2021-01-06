@@ -1,0 +1,47 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+		minecraft:stone_beach
+		]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone:7
+      maxHeight: 18
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         maxVal: 4
+        }
+    }
+	{
+	  state: undergroundbiomes:metamorphic_stone:6
+	  maxHeight: 48
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+		}
+	}
+	{
+	  state: undergroundbiomes:sedimentary_stone:1
+      maxHeight: 164
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 8 
+		}
+	}
+	{
+      state: undergroundbiomes:igneous_stone:7
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.3
+         frequency: 0.015
+         maxVal: 9
+        }
+    }
+  ]
+}

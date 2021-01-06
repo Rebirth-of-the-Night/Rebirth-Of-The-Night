@@ -1,0 +1,6 @@
+foundry.rsmode.0=Mode: Ignoring Redstone
+foundry.rsmode.1=Mode: Accepting Redstone
+foundry.rsmode.2=Mode: OFF
+foundry.rsmode.3=Mode: Redstone pulse
+
+item.foundry.mold.grindingball.name=Sphere Mold

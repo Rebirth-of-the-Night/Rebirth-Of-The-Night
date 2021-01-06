@@ -1,10 +1,12 @@
 import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
 
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerAnvilUpdateEvent;
+import crafttweaker.event.PlayerFillBucketEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerSleepInBedEvent;
@@ -24,7 +26,23 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 
+import crafttweaker.util.Position3f;
+
 import mods.ctutils.utils.Math;
+
+import mods.hungertweaker.events.HungerEvents;
+
+HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEvent) {
+	if (event.player.world.isRemote()) {
+		return;
+	}
+	
+	// Mushroom stew bowl fix
+	if (event.food.definition.id == <minecraft:mushroom_stew>.definition.id) {
+		event.player.give(<minecraft:bowl>);
+		return;
+	}
+});
 
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
@@ -34,25 +52,20 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 	}
 
 	// Ironberry potion effect fix
-	if (event.isPlayer & event.item.definition.id == <rustic:ironberries>.definition.id) {
+	if (event.isPlayer && event.item.definition.id == <rustic:ironberries>.definition.id) {
 		event.player.removePotionEffect(<potion:minecraft:jump_boost>);
 		var weight = <potion:potioncore:weight>.makePotionEffect(200, 49, false, false) as IPotionEffect;
 		event.player.addPotionEffect(weight);
 	}
 
-	// Mushroom stew bowl fix
-	if (event.isPlayer & event.item.definition.id == <minecraft:mushroom_stew>.definition.id) {
-		event.player.give(<minecraft:bowl>);
-	}
-
 	// Give hunger when eating raw venison
-	if (event.isPlayer & <ore:listAllvenisonraw> has event.item & Math.random() >= 0.25) {
+	if (event.isPlayer && <ore:listAllvenisonraw> has event.item & Math.random() >= 0.25) {
 		var hunger = <potion:minecraft:hunger>.makePotionEffect(100, 0, false, true);
 		event.player.addPotionEffect(hunger);
 	}
 	
 	// Give player gamestage/achievement when eating Hydra Chops
-	if (event.isPlayer & event.item.definition.id == <twilightforest:hydra_chop>.definition.id) {
+	if (event.isPlayer && event.item.definition.id == <twilightforest:hydra_chop>.definition.id) {
 		print("Eaten hydra chop");
 		print("Player has food level"~event.player.foodStats.foodLevel);
 		
@@ -64,6 +77,21 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 });
 
 events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
+	var stopDefiledBlocks as string[] = [
+        "minecraft:coal_ore",
+		"minecraft:coal_ore",
+		"minecraft:coal_block",
+		"minecraft:iron_ore",
+		"minecraft:iron_block",
+		"minecraft:diamond_ore",
+		"minecraft:diamond_block"
+    ] as string[];
+
+    if (!isNull(event.item) && event.item.matches(<defiledlands:defilement_powder>) && 
+        stopDefiledBlocks has event.block.definition.id) {
+        event.cancel();
+    }
+	
 	if (event.world.isRemote()) {
 		return;
 	}
@@ -73,21 +101,46 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		var poisonEffect = <potion:minecraft:poison>.makePotionEffect(40, 1) as IPotionEffect;
 		event.player.addPotionEffect(poisonEffect);
 		event.player.attackEntityFrom(<damageSource:CACTUS>, 4);
+		return;
 	}
 	
 	// Fix flimsy bucket on hc well
 	if (event.block.definition.id == "harvestcraft:well") {
-		var mhItem = event.player.getItemInSlot(IEntityEquipmentSlot.mainHand());
-		var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
+		var mhItem = event.player.mainHandHeldItem;
+		var ohItem = event.player.offHandHeldItem;
 		
-		if (!isNull(mhItem) && mhItem.definition.id == "pyrotech:bucket_stone") {
-			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount <= 1 ? null : mhItem.withAmount(mhItem.amount - 1));
+		if (!isNull(mhItem) && <pyrotech:bucket_stone>.matches(mhItem)) {
+			mhItem.splitStack(1);
+			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem);
 			event.player.give(mhItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+			event.cancel();
 		} else {
-			if (!isNull(ohItem) && ohItem.definition.id == "pyrotech:bucket_stone") {
-				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount <= 1 ? null : ohItem.withAmount(ohItem.amount - 1));
+			if (!isNull(ohItem) && <pyrotech:bucket_stone>.matches(ohItem)) {
+				ohItem.splitStack(1);
+				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem);
 				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
+				event.cancel();
 			}
+		}
+		return;
+	}
+
+	// Wet pastry
+	if (event.block.definition.id == "betterwithmods:raw_pastry" && event.block.meta == 3) {
+		if (!isNull(event.item) && event.item.matches(<minecraft:potion>.withTag({Potion: "minecraft:water"}))) {
+			event.world.setBlockState(<blockstate:contenttweaker:yeast_flour>, Position3f.create(event.x, event.y, event.z).asBlockPos());
+
+			var mhItem = event.player.getItemInSlot(IEntityEquipmentSlot.mainHand());
+			var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
+
+			if (!isNull(mhItem) && mhItem.matches(event.item)) {
+				event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount <= 1 ? null : mhItem.withAmount(mhItem.amount - 1));
+			} else {
+				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount <= 1 ? null : ohItem.withAmount(ohItem.amount - 1));
+			}
+			
+			event.player.give(<minecraft:glass_bottle>);
+			event.cancel();
 		}
 	}
 });
@@ -179,7 +232,7 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 });
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
-	if (isNull(event.player) | event.phase == "END" | event.phase == "End" | event.phase == "end") {
+	if (isNull(event.player) || event.phase == "END" || event.phase == "End" || event.phase == "end" || isNull(event.player.world)) {
 		return;
 	}
 
@@ -222,10 +275,23 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 	}
 });
 
+
+events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketEvent) {
+	if (event.world.isRemote()) {
+		return;
+	}
+
+	if (!isNull(event.block.fluid) && event.block.fluid.name == <liquid:honey>.definition.name) {
+		event.cancel();
+		return;
+	}
+});
+
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
 	var betrayers = [
 		"019f24eb-6f40-45b7-8b48-8ba6a4d640d5",
-		"18d968ff-c123-4853-b576-24db66113d07"
+		"18d968ff-c123-4853-b576-24db66113d07",
+		"e50c578f-317d-4f60-9a2e-5056a7809937"
 	] as string[];
 	
 	if (betrayers has event.player.uuid && !isNull(event.player.world)) {
@@ -235,7 +301,6 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 	}
 	
 	if ("490a8ee7-ae3e-40b0-a9c7-653024832c67" == event.player.uuid) {
-		event.player.sendChat("you have to be ready for it");
 		event.player.sendChat("you have to be ready for it");
 	}
 });

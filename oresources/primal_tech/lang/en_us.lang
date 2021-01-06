@@ -1,0 +1,11 @@
+#Blocks
+tile.primal_tech.clay_kiln.name=Simple Clay Kiln
+
+#Items
+item.primal_tech.stone_mallet.name=Stone Mallet
+
+#Tool Tips
+tooltip.mallet_1=Bash on the Stone Anvil.
+tooltip.clay_kiln=
+tooltip.charcoal_block=
+tooltip.stone_anvil=

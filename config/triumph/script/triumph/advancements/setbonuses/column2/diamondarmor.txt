@@ -4,8 +4,6 @@ setDescription("Complete the Cover Me With Diamonds set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Diamond Helmet", "minecraft:inventory_changed")
 criteria.addItem("minecraft:diamond_helmet")
 

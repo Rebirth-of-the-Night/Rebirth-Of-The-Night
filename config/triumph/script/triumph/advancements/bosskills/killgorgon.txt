@@ -9,4 +9,4 @@ criteria.setEntityType("iceandfire:gorgon")
 
 hideLines()
 alwaysVisible()
-setPos(-219,87)
+setPos(-219,86)

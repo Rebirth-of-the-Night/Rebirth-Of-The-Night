@@ -1,0 +1,63 @@
+{
+	"components": [
+		{
+			"type": "item",
+			"item": "#item1",
+			"x": 17,
+			"y": 12
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"x": 38,
+			"y": 8
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"x": 61,
+			"y": 8
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"x": 82,
+			"y": 12
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"x": 50,
+			"y": 47
+		},
+		{
+			"type": "item",
+			"item": "#extra",
+			"x": 84,
+			"y": 46,
+			"framed": true
+		},
+		{
+			"type": "tooltip",
+			"tooltip": [
+				"#tip1",
+				"#tip2"
+		],
+			"x": 94, "y": 46,
+			"height": 16, "width": 16
+		},
+		{
+			"type": "text",
+			"text": "#text",
+			"x": 0,
+			"y": 69
+		},
+		{
+		"type": "image",
+		"image": "book:template_recipes.png",
+		"x": 14, "y": 5,
+		"u": 0, "v": 74,
+		"width": 98, "height": 60
+		}
+	]
+}

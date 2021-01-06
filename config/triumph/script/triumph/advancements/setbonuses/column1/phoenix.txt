@@ -4,8 +4,6 @@ setDescription("Complete the From The Ashes set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Pheonix Helmet", "minecraft:inventory_changed")
 criteria.addItem("aether_legacy:phoenix_helmet")
 

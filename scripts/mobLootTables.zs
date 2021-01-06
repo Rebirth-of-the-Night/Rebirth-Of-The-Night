@@ -61,6 +61,8 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 // aether
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
 
+// defiled lands
+mods.ltt.LootTable.removeGlobalItem("defiledlands:umbrium_ingot");
 
 // SpecialMobs
 val lemonSlime = LootTweaker.getTable("specialmobs:entities/slime/lemon");
@@ -417,7 +419,19 @@ LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hau
 LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:glaive_diamond>, 1, 0, "spartanweaponry:glaive_diamond");
 LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(<spartanweaponry:staff_diamond>, 1, 0, "spartanweaponry:staff_diamond");
 
+//spider silk
+val lootSpider = LootTweaker.getTable("minecraft:entities/spider");
+val lspiderMain = lootSpider.getPool("main");
+lspiderMain.removeEntry("minecraft:string");
+lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
+lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
+lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
+//Sheep Intestines
+val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
+val sheepPrimeMeat = sheepPrimeTable.getPool("meat");
+sheepPrimeMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
 
-
-
+val sheepTable = LootTweaker.getTable("animania:sheep_regular");
+val sheepMeat = sheepTable.getPool("meat");
+sheepMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);

@@ -5,13 +5,11 @@ mods.jei.JEI.removeAndHide(<doggytalents:radar>);
 mods.jei.JEI.removeAndHide(<doggytalents:radio_collar>);
 
 
-recipes.remove(<doggytalents:training_treat>);
-
 var sugar = <minecraft:sugar>;
 var wheat = <minecraft:wheat>;
 var bone = <minecraft:bone>;
 
-
+recipes.remove(<doggytalents:training_treat>);
 recipes.addShaped("Training Treat", <doggytalents:training_treat>,[
 	[sugar, sugar, sugar],
     [wheat, bone, wheat],
@@ -65,3 +63,6 @@ recipes.addShaped("dog_sunglasses",<doggytalents:sunglasses>,[
     [<ore:stickWood>,null,<ore:stickWood>],
     [<minecraft:stained_glass_pane:15>,<ore:stickWood>,<minecraft:stained_glass_pane:15>]
 ]);
+
+recipes.remove(<doggytalents:master_treat>);
+recipes.addShapeless("master_treat",<doggytalents:master_treat>,[<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<ore:ingotableGem>]);

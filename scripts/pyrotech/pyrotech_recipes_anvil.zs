@@ -41,6 +41,9 @@ GraniteAnvil.addRecipe("white_stone_recycling",<betterwithmods:material:39>, <be
 GraniteAnvil.addRecipe("prismarine_to_prismshard",<minecraft:prismarine_shard>*3, <minecraft:prismarine>, 18,"pickaxe", true);
 GraniteAnvil.addRecipe("prism_brick_to_prismshard_to",<minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 18,"pickaxe", true);
 GraniteAnvil.addRecipe("flintblock_to_flint",<minecraft:flint>*4,<betterwithmods:aesthetic:5>, 8,"hammer", true);
+GraniteAnvil.addRecipe("halite_to_salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
+GraniteAnvil.addRecipe("dense_redstone",<minecraft:redstone>*2,<pyrotech:material:36>, 2,"hammer", true);
+GraniteAnvil.addRecipe("dense_quartz",<minecraft:quartz>*2,<pyrotech:material:37>, 2,"pickaxe", true);
 GraniteAnvil.addRecipe("ambrosium_to_magic_dust", <contenttweaker:magic_blend>*3, <aether_legacy:ambrosium_block>, 16,"hammer", true);
 GraniteAnvil.addRecipe("raw_endorium", <endreborn:item_raw_endorium>, <ore:enderpearl>, 16, "hammer", true);
 GraniteAnvil.addRecipe("lormyte_crystal", <endreborn:item_lormyte_crystal>*2, <endreborn:block_lormyte_crystal>, 8, "hammer", true);
@@ -77,7 +80,6 @@ GraniteAnvil.addRecipe("smash_heart_2",<scalinghealth:crystalshard>*3, <bountifu
 GraniteAnvil.addRecipe("smash_heart_3",<scalinghealth:crystalshard>*6, <iceandfire:fire_dragon_heart>, 32,"hammer", true);
 GraniteAnvil.addRecipe("smash_heart_4",<scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>, 32,"hammer", true);
 GraniteAnvil.addRecipe("smash_heart_5",<scalinghealth:crystalshard>*1, <quark:diamond_heart>, 64,"hammer", true);
-GraniteAnvil.addRecipe("halite_to_salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
 GraniteAnvil.addRecipe("star_to_magic_dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>, 48,"hammer", true);
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>, 64,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_fossil",<pyrotech:material:8>, <undergroundbiomes:fossil_piece:*>, 4,"hammer", true);

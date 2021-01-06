@@ -1,0 +1,67 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+  	  minecraft:mushroom_island
+	  minecraft:mushroom_island_shore
+	  biomesoplenty:land_of_lakes
+	  biomesoplenty:shield
+	  biomesoplenty:tropical_island
+	  biomesoplenty:volcanic_island
+	  biomesoplenty:flower_island
+  	  ]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone:2
+      maxHeight: 32
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.019
+         minVal: -8
+		 maxVal: 8
+        }
+    }
+	{
+      state: undergroundbiomes:igneous_stone:6
+      maxHeight: 58
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.019
+         minVal: -8
+		 maxVal: 8
+        }
+    }
+	{
+      state: undergroundbiomes:igneous_stone:5
+      maxHeight: 64
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -3
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone:5
+      maxHeight: 84
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:igneous_stone:5
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.017
+         minVal: -4
+		 maxVal: 3
+        }
+    }
+  ]
+}

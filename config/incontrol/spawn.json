@@ -1,8 +1,9 @@
 [
  {
-    "dimension": 7,
-    "damagemultiply": 2
- },
+    "mob": "aether_legacy:sentry",
+    "onjoin": true,
+    "healthmultiply": 0.9
+},
   
   // Zombies
 
@@ -97,27 +98,27 @@
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["iceandfire:armor_silver_metal_helmet", "minecraft:iron_helmet"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["iceandfire:armor_silver_metal_chestplate", "minecraft:iron_chestplate"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["iceandfire:armor_silver_metal_leggings", "minecraft:iron_leggings"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["iceandfire:armor_silver_metal_boots", "minecraft:iron_boots"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 },
 
 
@@ -194,7 +195,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
-    "gamestage": "fullMidArmor"
+    "gamestage": "killedQuazar"
 },
 
 
@@ -289,22 +290,14 @@
     "result": "deny"
  },
  
- // no wraith in OW, aether, end
+// no wraith in OW, aether, end
  {
     "mob": "quark:wraith",
     "dimension": [0, 1, 4],
     "onjoin": true,
     "result": "deny"
  },
-
- {
-    "mob": ["null:black_slime","null:iron_slime","null:blue_slime","null:red_slime","null:purple_slime","null:yellow_slime","null:jungle_slime","null:ice_slime","null:sand_slime","null:spectral_slime","null:haunted_slime","null:gold_slime","null:knight_slime"],
-    "result": "deny",
-    "onjoin": true
-  },
-
-
- // no weird fugitives
+// no weird fugitives
  {
     "mob": "toroquest:toroquest_fugitive",
     "dimension": [1, 4, 7, 10, -1],
@@ -312,7 +305,7 @@
     "result": "deny"
  }, 
  
- // no endermen here
+// no endermen here
  {
     "mob": "minecraft:enderman",
     "dimension": 7,
@@ -341,14 +334,14 @@
     "result": "default"
  },
  
-  // Disable unneeded fish's mobs
+// Disable unneeded fish's mobs
  {
     "mob": "mod_lavacow:lavacow",
     "onjoin": true,
     "result": "deny"
  },
 
- // Remove enderman spawning in the Nether
+// Remove enderman spawning in the Nether
  {
     "mob": "minecraft:enderman",
     "dimension": -1,
@@ -356,7 +349,7 @@
     "result": "deny"
  },
  
- // Remove zomb spawning in Aether
+// Remove zomb spawning in Aether
  {
     "mob": "minecraft:zombie",
     "dimension": 4,
@@ -364,7 +357,7 @@
     "result": "deny"
  },
  
- // Remove skele spawning in Aether
+// Remove skele spawning in Aether
  {
     "mob": "minecraft:skeleton",
     "dimension": 4,
@@ -373,7 +366,7 @@
  },
  
  
- // remove piper spawning in Aether
+// remove piper spawning in Aether
  {
     "mob": "rats:illager_piper",
     "dimension": 4,
@@ -381,7 +374,7 @@
     "result": "deny"
  },
 
-  // Remove Zombie Players spawning in the Nether
+// Remove Zombie Players spawning in the Nether
  {
     "mob": "zombie_players:zombie_player",
     "dimension": -1,
@@ -389,7 +382,7 @@
     "result": "deny"
  },
 
- // Remove Baby Zombies spawning in the Nether
+// Remove Baby Zombies spawning in the Nether
  {
     "mob": "minecraft:zombie",
     "dimension": -1,
@@ -397,7 +390,7 @@
     "result": "deny"
  },
 
- // Trumpet Skelly
+// Trumpet Skelly
  {
     "dimension": 0,
     "mob": "trumpetskeleton:trumpet_skeleton",
@@ -1330,7 +1323,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:jumpingcreeper",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1444,7 +1437,7 @@
   {
     "dimension": [0,7],
     "mob": "specialmobs:wildswitch",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"random": 0.12,
     "maxcount": {
         "amount": 3,
@@ -1537,7 +1530,7 @@
   {
     "dimension": [0,10],
     "mob": "specialmobs:flyingsilverfish",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"maxlight": 5,
     "minlight": 0,
 	"random": 0.3,
@@ -1931,7 +1924,7 @@
     "dimension": 0,
     "mob": "specialmobs:desertspider",
     "biome": "Desert",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1947,7 +1940,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:witchspider",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -2149,7 +2142,7 @@
     "random": 0.003,
     "seesky": true,
     "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -2404,7 +2397,7 @@
     "dimension": 0,
     "mob": "betteranimalsplus:feralwolf",
 	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Taiga M", "Ice Plains Spikes", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Ominous Woods", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "AlpsFoothills"],
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"maxlight": 7,
     "minlight": 0,
 	"random": 0.2,
@@ -2677,7 +2670,7 @@
 {
     "dimension": 4,
     "mob": "netherex:wight",
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"random": 0.30,
 	"maxlight": 7,
     "minlight": 0,
@@ -2952,7 +2945,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:vespa",
 	"biome": ["jungle", "JungleHills", "jungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa","Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Volcanic Island", "Flower Island", "Xeric Shrubland"],  
-    "gamestage": "fullMidArmor",
+    "gamestage": "killedQuazar",
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:sandstone", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "aether_legacy:aether_grass"],
 	"random": 0.125,
 	"seesky": true,

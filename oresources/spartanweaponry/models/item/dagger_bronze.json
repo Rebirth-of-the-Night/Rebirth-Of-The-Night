@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/dagger_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/dagger_bronze"
+    }
+}

@@ -21,6 +21,8 @@ recipes.remove(<ceramics:clay_barrel_unfired>);
 recipes.remove(<ceramics:clay_barrel_unfired:1>);
 recipes.remove(<rustic:evaporating_basin>);
 recipes.remove(<rustic:vase>);
+recipes.remove(<ceramics:unfired_clay>);
+mods.jei.JEI.removeAndHide(<ceramics:clay_bucket>);
 recipes.removeByRecipeName("ceramics:uncrafting/unfired_clay_barrel");
 recipes.removeByRecipeName("ceramics:uncrafting/unfired_clay_extension");
 mods.jei.JEI.hideCategory("artisanworktables_mage_worktable");
@@ -30,7 +32,6 @@ mods.jei.JEI.hideCategory("artisanworktables_mage_workshop");
 mods.jei.JEI.hideCategory("artisanworktables_potter_workshop");
 mods.jei.JEI.hideCategory("artisanworkstumps_mage");
 
-game.setLocalization("tile.artisanworkstumps.workstump_potter.name","Ware Crafting Station");
 recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
  [[null,<minecraft:stone_pressure_plate>,null],
   [<pyrotech:material:16>,<ore:workbench>,<pyrotech:material:16>],
@@ -79,7 +80,7 @@ RecipeBuilder.get("potter")
  
 // Pot to Vase
 RecipeBuilder.get("potter")
- .setShapeless([<rustic:vase>])
+ .setShapeless([<contenttweaker:pot_unfired>])
  .addTool(<artisanworktables:artisans_carver_gold>, 1)
  .addOutput(<betterwithmods:unfired_pottery:3>)
  .setExtraOutputOne(<minecraft:clay_ball>, 0.4)

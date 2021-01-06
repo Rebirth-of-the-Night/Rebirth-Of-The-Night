@@ -457,3 +457,13 @@ betternether:gray_mold
 betternether:block_eyeball
 betternether:block_eyeball_small
 betternether:eye_seed
+contenttweaker:volatile_core
+contenttweaker:mercurial_ooze
+nyx:meteor_shard
+minecraft:fire_charge
+contenttweaker:heart_of_fire
+aether_legacy:phoenix_bow
+aether_legacy:pheonix_helmet
+aether_legacy:pheonix_chestplate
+aether_legacy:pheonix_leggings
+aether_legacy:pheonix_boots

@@ -9,6 +9,27 @@ import mods.contenttweaker.AxisAlignedBB;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script*/
 
+//Dormant Ardicite Onyx
+var dormant_ardicite_onyx = VanillaFactory.createBlock("dormant_ardicite_onyx", <blockmaterial:Rock>);
+dormant_ardicite_onyx.setCreativeTab(<creativetab:buildingBlocks>);
+dormant_ardicite_onyx.setBlockSoundType(<soundtype:stone>);
+dormant_ardicite_onyx.setToolLevel(99);
+dormant_ardicite_onyx.setBlockHardness(999.0);
+dormant_ardicite_onyx.setBlockResistance(999.0);
+dormant_ardicite_onyx.setBeaconBase(false);
+dormant_ardicite_onyx.register();
+
+//Dormant Onyx
+var dormant_onyx = VanillaFactory.createBlock("dormant_onyx", <blockmaterial:Rock>);
+dormant_onyx.setCreativeTab(<creativetab:buildingBlocks>);
+dormant_onyx.setBlockSoundType(<soundtype:stone>);
+dormant_onyx.setToolLevel(99);
+dormant_onyx.setBlockHardness(999.0);
+dormant_onyx.setBlockResistance(999.0);
+dormant_onyx.setBeaconBase(false);
+dormant_onyx.register();
+
+
 //Charcoal pile
 var charlog = VanillaFactory.createBlock("charcoal_pile", <blockmaterial:Wood>);
 charlog.setCreativeTab(<creativetab:buildingBlocks>);
@@ -25,6 +46,22 @@ halite.setBlockLayer("TRANSLUCENT");
 halite.setTranslucent(true);
 halite.setLightOpacity(0);
 halite.register();
+
+//Speleothems
+var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
+dolomite_straws.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     2.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    16.0 / 16.0,
+    12.0 / 16.0
+	);
+dolomite_straws.setFullBlock(false);
+dolomite_straws.setLightOpacity(0);
+dolomite_straws.setCreativeTab(<creativetab:decorations>);
+dolomite_straws.setBlockSoundType(<soundtype:stone>);
+dolomite_straws.register();
 
 //block_electrum
 var blockElectrum = VanillaFactory.createBlock("block_electrum", <blockmaterial:Iron>);
@@ -82,6 +119,20 @@ elevator.setCreativeTab(<creativetab:redstone>);
 elevator.setBlockSoundType(<soundtype:stone>);
 elevator.setFullBlock(false);
 elevator.register();
+
+//Broken Healing Pad
+var healing = VanillaFactory.createBlock("healing", <blockmaterial:Ground>);
+healing.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    8.0 / 16.0,
+    16.0 / 16.0
+	);
+healing.setBlockSoundType(<soundtype:stone>);
+healing.setFullBlock(false);
+healing.register();
 
 //Lunarin blocks
 //Silver
@@ -281,7 +332,7 @@ refracotta_white.setToolClass("pickaxe");
 refracotta_white.register();
 
 var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Dragon_Egg>);
-egg_block.setCreativeTab(<creativetab:buildingBlocks>);
+egg_block.setCreativeTab(<creativetab:decorations>);
 egg_block.setBlockSoundType(<soundtype:stone>);
 egg_block.setToolClass("pickaxe");
 egg_block.setFullBlock(false);
@@ -302,6 +353,7 @@ fire_block.setBlockSoundType(<soundtype:cloth>);
 fire_block.setLightValue(15);
 fire_block.setBlockLayer("CUTOUT");
 fire_block.setPassable(true);
+fire_block.setCreativeTab(<creativetab:decorations>);
 fire_block.register();
 
 var planarspsp2 = VanillaFactory.createBlock("planarspsp2", <blockmaterial:Rock>);
@@ -312,6 +364,22 @@ planarspsp2.setBlockSoundType(<soundtype:stone>);
 planarspsp2.setToolClass("pickaxe");
 planarspsp2.setToolLevel(6);
 planarspsp2.register();
+
+var salty_crust = VanillaFactory.createBlock("salty_crust", <blockmaterial:Ground>);
+salty_crust.setCreativeTab(<creativetab:buildingBlocks>);
+salty_crust.setBlockSoundType(<soundtype:ground>);
+salty_crust.setToolClass("shovel");
+salty_crust.setBlockHardness(1.0);
+salty_crust.setBlockResistance(5.0);
+salty_crust.register();
+
+var rocky_dirt = VanillaFactory.createBlock("rocky_dirt", <blockmaterial:Ground>);
+rocky_dirt.setCreativeTab(<creativetab:buildingBlocks>);
+rocky_dirt.setBlockSoundType(<soundtype:ground>);
+rocky_dirt.setToolClass("shovel");
+rocky_dirt.setBlockHardness(4.0);
+rocky_dirt.setBlockResistance(5.0);
+rocky_dirt.register();
 
 //sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);
@@ -330,3 +398,83 @@ n_copper_sandstone_red.setBlockResistance(15.0);
 n_copper_sandstone_red.setBeaconBase(true);
 n_copper_sandstone_red.register();
 
+//cobblestone paths
+var cobblestone_path_coade = VanillaFactory.createBlock("cobblestone_path_coade", <blockmaterial:Rock>);
+cobblestone_path_coade.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    15.0 / 16.0,
+    16.0 / 16.0
+	);
+cobblestone_path_coade.setFullBlock(false);
+cobblestone_path_coade.setLightOpacity(254);
+cobblestone_path_coade.setSlipperiness(0.75f);
+cobblestone_path_coade.setCreativeTab(<creativetab:decorations>);
+cobblestone_path_coade.register();
+
+var cobblestone_path_red_granite = VanillaFactory.createBlock("cobblestone_path_red_granite", <blockmaterial:Rock>);
+cobblestone_path_red_granite.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    15.0 / 16.0,
+    16.0 / 16.0
+	);
+cobblestone_path_red_granite.setFullBlock(false);
+cobblestone_path_red_granite.setLightOpacity(254);
+cobblestone_path_red_granite.setSlipperiness(0.75f);
+cobblestone_path_red_granite.setCreativeTab(<creativetab:decorations>);
+cobblestone_path_red_granite.register();
+
+//torch posts / vanilla torch post is BWM's shaft
+var glareshaft = VanillaFactory.createBlock("glareshaft_small", <blockmaterial:Rock>);
+glareshaft.axisAlignedBB = AxisAlignedBB.create(
+     7.0 / 16.0,
+     0.0 / 16.0,
+     7.0 / 16.0,
+	9.0 / 16.0,
+    14.0 / 16.0,
+    9.0 / 16.0
+	);
+glareshaft.setFullBlock(false);
+glareshaft.setLightOpacity(0);
+glareshaft.setBlockLayer("CUTOUT");
+glareshaft.setCreativeTab(<creativetab:buildingBlocks>);
+glareshaft.register();
+
+//Yeast flour
+var yeast_flour = VanillaFactory.createBlock("yeast_flour", <blockmaterial:Cloth>);
+yeast_flour.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+yeast_flour.setFullBlock(false);
+yeast_flour.setLightOpacity(0);
+yeast_flour.setBlockLayer("TRANSLUCENT");
+yeast_flour.setCreativeTab(<creativetab:harvestCraft>);
+yeast_flour.setBlockSoundType(<soundtype:cloth>);
+yeast_flour.register();
+
+//Yeast
+var yeast = VanillaFactory.createBlock("yeast", <blockmaterial:Cloth>);
+yeast.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+yeast.setFullBlock(false);
+yeast.setLightOpacity(0);
+yeast.setBlockLayer("TRANSLUCENT");
+yeast.setCreativeTab(<creativetab:harvestCraft>);
+yeast.setBlockSoundType(<soundtype:cloth>);
+yeast.register();

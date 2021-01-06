@@ -12,4 +12,4 @@ criteria.setEntityType("ender_dragon")
 
 hideLines()
 alwaysVisible()
-setPos(-126,149)
+setPos(-88,117)

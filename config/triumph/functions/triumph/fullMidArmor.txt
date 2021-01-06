@@ -1,6 +1,0 @@
-gamerule commandBlockOutput false
-gamerule sendCommandFeedback false
-tellraw @p ["",{"text":"The ground shudders as you sense something stir deep beneath the world...","color":"dark_red","italic":true}]
-gamestage silentadd @p fullMidArmor
-gamestage silentadd @p killedHarvester
-gamestage silentremove @a start

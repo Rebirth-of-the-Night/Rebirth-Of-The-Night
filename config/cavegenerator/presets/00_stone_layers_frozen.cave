@@ -1,0 +1,61 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+  	    minecraft:ice_flats
+		minecraft:ice_mountains
+		iceandfire:glacier
+		minecraft:frozen_ocean
+		minecraft:frozen_river
+		minecraft:cold_beach
+		minecraft:mutated_ice_flats
+		biomesoplenty:snowy_tundra
+		biomesoplenty:glacier
+		biomesoplenty:tundra
+		biomesoplenty:cold_desert
+  	  ]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone
+      maxHeight: 12
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:igneous_stone:3
+      maxHeight: 48
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: biomesoplenty:hard_ice
+      maxHeight: 64
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -4
+		 maxVal: 4
+		}
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+  ]
+}

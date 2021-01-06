@@ -4,8 +4,6 @@ setDescription("Complete the Neptune's Gift set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-// addRewardFunction("triumph:fullMidArmor")
-
 criteria = addCriteria("Neptune Helmet", "minecraft:inventory_changed")
 criteria.addItem("aether_legacy:neptune_helmet")
 

@@ -7,9 +7,6 @@ criteria.setAdvancement("triumph:advancements/setbonuses/column6/afirecombo")
 criteria = addCriteria("deathisnotanoption", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column6/deathisnotanoption")
 
-criteria = addCriteria("iwillnotwither", "triumph:completed_advancement")
-criteria.setAdvancement("triumph:advancements/setbonuses/column6/iwillnotwither")
-
 criteria = addCriteria("onyxarmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column6/onyxarmor")
 

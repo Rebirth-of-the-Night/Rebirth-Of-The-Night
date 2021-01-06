@@ -197,6 +197,8 @@ val inertRing = itemUtils.getItemsByRegexRegistryName("behgameon:ring_.*$(?<!53|
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <quark:arrow_ender>, <bountifulbaubles:potionwormhole>);
+recipes.addShapeless("Wormhole to Return", <bountifulbaubles:potionrecall>,
+   	[<bountifulbaubles:potionwormhole>, <contenttweaker:material_part:8>]);
 
 // Rings, amulets, oh my
 
@@ -207,8 +209,8 @@ mods.jei.JEI.removeAndHide(<qualitytools:emerald_ring>);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<rustic:chain>, <rustic:chain>, <rustic:chain>],
-    [<rustic:chain>, <contenttweaker:vis_speck>, <rustic:chain>],
+    [<iceandfire:chain_link>, <iceandfire:chain_link>, <iceandfire:chain_link>],
+    [<iceandfire:chain_link>, <contenttweaker:vis_speck>, <iceandfire:chain_link>],
     [<iceandfire:silver_nugget>, <iceandfire:silver_ingot>, <iceandfire:silver_nugget>]])
   .addOutput(<bountifulbaubles:amuletsinempty>)
   .setMinimumTier(1)
@@ -236,7 +238,23 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-    
+
+//Phytoprostasia amulet
+
+recipes.remove(<defiledlands:phytoprostasia_amulet>);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <contenttweaker:spider_silk>, null],
+    [<contenttweaker:spider_silk>, null, <contenttweaker:spider_silk>],
+    [<defiledlands:vilespine>, <defiledlands:scuttler_eye>, <defiledlands:vilespine>]])
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addTool(<contenttweaker:balance_rune>, 1)
+  .addOutput(<defiledlands:phytoprostasia_amulet>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+  
 // Wrath Pendant
 
 recipes.remove(<bountifulbaubles:amuletsinwrath>);

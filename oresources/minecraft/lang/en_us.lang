@@ -1,0 +1,16 @@
+tile.anvil.name=Iron Anvil
+tile.anvil.intact.name=Iron Anvil
+tile.anvil.slightlyDamaged.name=Slightly Damaged Iron Anvil
+tile.anvil.veryDamaged.name=Crumbling Iron Anvil
+
+screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to paste.
+
+entity.Slime.name=Lime Slime
+entity.EnderCrystal.name=Ender Crystal
+
+item.bucket.name=Quality Bucket
+item.bucketWater.name=Quality Water Bucket
+item.bucketLava.name=Quality Lava Bucket
+
+menu.singleplayer=Start Your Journey
+menu.multiplayer=Play With Friends

@@ -1,13 +1,51 @@
 setIcon(<minecraft:skull, meta:4>)
-setTitle("Total Shock Fills Your Body")
-setDescription("Die by a Creeper 80 times.")
+setTitle("Oh no, It's You Again")
+setDescription("Die by a Creeper 25 times.")
 
 addParent("triumph:advancements/deaths/creeper10")
 
 
 criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
-criteria.setEntityType("creeper")
+criteria.setEntityType("minecraft:creeper")
 
-criteria.setCount(80)
-setPos(424,113)
+criteria = addCriteria("Rocket Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("primitivemobs:rocket_creeper")
+
+criteria = addCriteria("Festive Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("primitivemobs:festive_creeper")
+
+criteria = addCriteria("Spore Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("netherex:spore_creeper")
+
+criteria = addCriteria("Dark Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:darkcreeper")
+
+criteria = addCriteria("Death Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:deathcreeper")
+
+criteria = addCriteria("Doom Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:doomcreeper")
+
+criteria = addCriteria("Ender Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:endercreeper")
+
+criteria = addCriteria("Fire Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:firecreeper")
+
+criteria = addCriteria("Jumping Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:jumpingcreeper")
+
+criteria = addCriteria("Lightning Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:lightningcreeper")
+
+criteria = addCriteria("Mini Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:minicreeper")
+
+criteria = addCriteria("Splitting Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:splittingcreeper")
+
+setRequirements("any")
+
+criteria.setCount(25)
+setPos(464,113)
 setHidden(true)

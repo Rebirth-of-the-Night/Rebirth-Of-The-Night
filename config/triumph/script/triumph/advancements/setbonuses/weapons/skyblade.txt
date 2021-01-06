@@ -9,4 +9,4 @@ criteria.addItem("msmlegacy:aethers_guard")
 
 hideLines()
 alwaysVisible()
-setPos(60,235)
+setPos(45,235)

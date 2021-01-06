@@ -1,0 +1,6 @@
+//SimpleOres Blocks
+tile.adamantium_bricks.name=Viridium Bricks
+tile.adamantium_bricks_brick_stairs.name=Viridium Brick Stairs
+tile.adamantium_bricks_bars.name=Viridium Bars
+item.adamantium_bricks_door.name=Viridium Door
+

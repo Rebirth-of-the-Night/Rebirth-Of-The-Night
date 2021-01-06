@@ -9,4 +9,4 @@ criteria.setEntityType("mod_lavacow:sludgelord")
 
 hideLines()
 alwaysVisible()
-setPos(-219,118)
+setPos(-219,117)

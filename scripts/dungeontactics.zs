@@ -14,7 +14,6 @@ mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_gold>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_steel>);
 mods.jei.JEI.removeAndHide(<dungeontactics:mushroom_mithril>);
 
-
 mods.jei.JEI.removeAndHide(<dungeontactics:wooden_club>);
 mods.jei.JEI.removeAndHide(<dungeontactics:bone_club>);
 mods.jei.JEI.removeAndHide(<dungeontactics:stone_club>);
@@ -62,7 +61,9 @@ mods.jei.JEI.removeAndHide(<dungeontactics:osmium_dust>);
 mods.jei.JEI.removeAndHide(<dungeontactics:alchemical_cauldron>);
 
 
+recipes.removeByRecipeName("dungeontactics:misc/materials/gunpowder");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
+recipes.removeByRecipeName("dungeontactics:weapons/potshot_left");
 mods.jei.JEI.removeAndHide(<dungeontactics:fire_starter>);
 ///////////////////// SILVER ///////////////////
 
@@ -127,8 +128,14 @@ mods.ltt.LootTable.removeGlobalItem("dungeontactics:wither_web");
 recipes.remove(<dungeontactics:magic_scroll>);
 #mods.jei.JEI.removeAndHide(<dungeontactics:magic_scroll>);
 
+val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+recipes.addShaped("potshot",<dungeontactics:potshot>,[
+    [<dungpipe:sewer_pipe>,null,null],
+    [null,<minecraft:piston>,<pyrotech:material:36>],
+    [null,<minecraft:tripwire_hook>,woodMoulding]
+]);
 recipes.remove(<dungeontactics:potshot_ammo>);
-recipes.addShapeless("potshot",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
+recipes.addShapeless("potshot_ammo",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
 
 
 <ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);
@@ -487,16 +494,8 @@ recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
     [<spartanweaponry:material>]
 ]);
 
-recipes.remove(<dungeontactics:tunnelling_device>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:tunnelling_device");
-recipes.addShaped("Portable Tunneling Device", <dungeontactics:tunnelling_device>,[
-	[<betterwithmods:dynamite>, <dungeontactics:steel_ingot>, null],
-    [<dungeontactics:steel_ingot>, <betterwithmods:material:17>, <betterwithmods:material:31>],
-    [null, <betterwithmods:material:31>, <minecraft:heavy_weighted_pressure_plate>]
-]);
-mods.jei.JEI.addDescription(<dungeontactics:tunnelling_device>,"Creates concentrated blasts of explosive energy. Useful for terraforming large areas of dirt, sand, and other soft blocks, but the smaller concentration of energy has no effect on harder stone blocks.");
-
-
+mods.jei.JEI.removeAndHide(<dungeontactics:tunnelling_device>);
 mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove>);
 mods.jei.JEI.removeAndHide(<dungeontactics:piston_glove_sticky>);
 mods.ltt.LootTable.removeGlobalItem("dungeontactics:piston_glove");
@@ -685,6 +684,7 @@ mysticalWood.add(
 # Base wand recipes
 
 RecipeBuilder.get("mage")
+  .setName("wandMundane")
   .setShaped([
     [null, null, <contenttweaker:vis_speck>],
     [null, <ore:mundaneWood>, null],
@@ -695,6 +695,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("wandArcane")
   .setShaped([
     [null, null, <contenttweaker:vis_sliver>],
     [null, <ore:arcaneWood>, null],
@@ -705,6 +706,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("wandMystical")
   .setShaped([
     [null, null, <contenttweaker:vis_shard>],
     [null, <ore:mysticalWood>, null],
@@ -870,6 +872,7 @@ wand.maxStackSize = 1;
 
 # cook
 RecipeBuilder.get("mage")
+  .setName("wandCook")
   .setShaped([
     [null, <minecraft:iron_ingot>, <minecraft:fire_charge>],
     [null, <minecraft:flint_and_steel>, <minecraft:iron_ingot>],
@@ -882,6 +885,7 @@ RecipeBuilder.get("mage")
 
 # freeze
 RecipeBuilder.get("mage")
+  .setName("wandFreeze")
   .setShaped([
     [null, <minecraft:ice>, <mowziesmobs:ice_crystal>.transformDamage(600)],
     [null, <contenttweaker:waterlogged_sapphire>, <minecraft:ice>],
@@ -895,6 +899,7 @@ RecipeBuilder.get("mage")
 
 # punish
 RecipeBuilder.get("mage")
+  .setName("wandPunish")
   .setShaped([
     [null, <minecraft:bone>, <minecraft:skull>],
     [null, <minecraft:bone_block>, <minecraft:bone>],
@@ -907,6 +912,7 @@ RecipeBuilder.get("mage")
 
 # satiate
 RecipeBuilder.get("mage")
+  .setName("wandSatiate")
   .setShaped([
     [null, null, <minecraft:apple>],
     [null, <dungeontactics:charm_famine>, <ore:treeLeaves>],
@@ -922,6 +928,7 @@ RecipeBuilder.get("mage")
 
 # disorient
 RecipeBuilder.get("mage")
+  .setName("wandDisorient")
   .setShaped([
     [null, <nyx:fallen_star>, <glaretorch:itemglaretorchsmall>],
     [null, <minecraft:obsidian>, <nyx:fallen_star>],
@@ -935,6 +942,7 @@ RecipeBuilder.get("mage")
 
 # restoration
 RecipeBuilder.get("mage")
+  .setName("wandRestoration")
   .setShaped([
     [null, <aether_legacy:golden_feather>, <aether_legacy:golden_amber>],
     [null, <contenttweaker:holy_zanite>, <aether_legacy:golden_feather>],
@@ -948,6 +956,7 @@ RecipeBuilder.get("mage")
 
 # wither
 RecipeBuilder.get("mage")
+  .setName("wandWither")
   .setShaped([
     [null, <quark:black_ash>, <iceandfire:witherbone>],
     [null, <iceandfire:witherbone>, <quark:black_ash>],
@@ -961,6 +970,7 @@ RecipeBuilder.get("mage")
 
 # companion
 RecipeBuilder.get("mage")
+  .setName("wandCompanion")
   .setShaped([
     [null, <minecraft:bone>, <ore:fierceBeastHead>],
     [null, <betterwithaddons:ancestry_bottle>, <minecraft:bone>],
@@ -974,6 +984,7 @@ RecipeBuilder.get("mage")
 
 # pin missile
 RecipeBuilder.get("mage")
+  .setName("wandPM")
   .setShaped([
     [null, <contenttweaker:material_part:12>, <betterwithaddons:greatarrow>],
     [null, <aether_legacy:golden_feather>, <contenttweaker:material_part:12>],
@@ -1034,6 +1045,7 @@ RecipeBuilder.get("mage")
 
 # smite
 RecipeBuilder.get("mage")
+  .setName("wandSmite")
   .setShaped([
     [null, <minecraft:iron_ingot>, <contenttweaker:material_part:12>],
     [null, <contenttweaker:electrified_zanite>, <minecraft:iron_ingot>],
@@ -1047,6 +1059,7 @@ RecipeBuilder.get("mage")
 
 # magic missile
 RecipeBuilder.get("mage")
+  .setName("wandMM")
   .setShaped([
     [null, <aether_legacy:enchanted_gravitite>, <minecraft:shulker_shell>],
     [null, <contenttweaker:voidseen_amethyst>, <aether_legacy:enchanted_gravitite>],
@@ -1060,6 +1073,7 @@ RecipeBuilder.get("mage")
 
 # rage
 RecipeBuilder.get("mage")
+  .setName("wandRage")
   .setShaped([
     [null, <minecraft:gold_ingot>, <mowziesmobs:barakoa_mask_rage>],
     [null, <contenttweaker:fortified_ruby>, <minecraft:gold_ingot>],
@@ -1071,12 +1085,13 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-/*
+
 # transport
 RecipeBuilder.get("mage")
+  .setName("wandTransport")
   .setShaped([
-    [null, <ultimate_unicorn_mod:ice_horseshoes>, <cyclicmagic:water_candle>],
-    [null, <ultimate_unicorn_mod:obsidian_horse_armor>, <ultimate_unicorn_mod:ice_horseshoes>],
+    [null, <netherex:frosted_wither_bone>, <cyclicmagic:water_candle>],
+    [null, <animania:raw_horse>, <netherex:frosted_wither_bone>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<contenttweaker:creation_rune>, 1)
@@ -1084,7 +1099,6 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-*/
 
 // tier tooltips
 

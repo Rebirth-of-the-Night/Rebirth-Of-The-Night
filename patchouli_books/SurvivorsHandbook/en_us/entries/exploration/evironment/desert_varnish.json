@@ -1,0 +1,11 @@
+{
+  "name": "Desert Varnish",
+  "icon": "pyrotech:limestone",
+  "category": "exploration_environment",
+  "pages": [
+  {
+      "type": "text",
+      "text": "$(item)Desert Varnish$(), also known as Rock Varnish, is the coating that forms on exposed rock in arid environments were precipitation is uncommon. It consists primarily of rock that has been wet by dew and coated in $(item)clay$() carried by the wind during prolonged periods of time; as such, I can extract both $(item)clay$() and $(item)sandstone$() from it."
+    }
+  ]
+}

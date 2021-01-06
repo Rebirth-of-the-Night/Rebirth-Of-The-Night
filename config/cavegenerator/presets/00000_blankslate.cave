@@ -1,0 +1,9 @@
+{
+   # When this field is set to true, the absence of any object
+   # in this file will result in missing features. In other
+   # words: if it is not listed here, it does not exist in-game.
+   # Setting this field to false means that absent fields will
+   # produce vanilla functionality. Think of this as a sort of
+   # "blank slate" mode vs. "override" mode.
+  blankSlate: true
+}

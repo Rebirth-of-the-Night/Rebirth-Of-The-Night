@@ -1,0 +1,69 @@
+{
+  blankSlate: false
+  biomes: {
+      names: [
+		biomesoplenty:xeric_shrubland
+		biomesoplenty:wasteland
+		biomesoplenty:tundra
+		biomesoplenty:steppe
+		minecraft:mutated_mesa
+		minecraft:mutated_mesa_rock
+		minecraft:mutated_mesa_clear_rock
+		biomesoplenty:prairie
+		biomesoplenty:brushland
+  	  ]
+	}
+  stoneLayers: [
+
+    {
+      state: undergroundbiomes:igneous_stone:3
+      maxHeight: 26
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:metamorphic_stone:1
+      maxHeight: 43
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -3
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_stone:6
+      maxHeight: 70
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: 0
+		 maxVal: 3
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_sandstone:6
+      maxHeight: 120
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -1
+		 maxVal: 1
+        }
+    }
+	{
+      state: undergroundbiomes:sedimentary_sand:6
+      maxHeight: 255
+	  noise2D: {
+         scale: 0.9
+         frequency: 0.015
+         minVal: -1
+		 maxVal: 1
+        }
+    }
+  ]
+}

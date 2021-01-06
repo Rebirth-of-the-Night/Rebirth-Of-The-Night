@@ -1,0 +1,53 @@
+{
+  blankSlate: false
+  biomes:{
+	names:[
+	  "minecraft:forest_hills",
+	  "minecraft:birch_forest_hills",
+	  "minecraft:redwood_taiga_hills",
+	  "minecraft:mutated_forest",
+	  "minecraft:mutated_birch_forest",
+	  "minecraft:mutated_birch_forest_hills",
+	  "minecraft:mutated_roofed_forest"
+    ]
+  }
+  wallDecorators: [
+     # Transition between dirt and stone.
+    {
+      states: contenttweaker:rocky_dirt
+	  chance: 0.65
+	  minHeight: 60
+	  maxHeight: 255
+      directions: all
+      matchers: [ 
+		stone
+		dirt
+		undergroundbiomes:sedimentary_stone
+		undergroundbiomes:sedimentary_stone:1
+		undergroundbiomes:sedimentary_stone:2
+		undergroundbiomes:sedimentary_stone:3
+		undergroundbiomes:sedimentary_stone:4
+		undergroundbiomes:sedimentary_stone:5
+		undergroundbiomes:sedimentary_stone:6
+		undergroundbiomes:sedimentary_stone:7
+		undergroundbiomes:metamorphic_stone
+		undergroundbiomes:metamorphic_stone:1
+		undergroundbiomes:metamorphic_stone:2
+		undergroundbiomes:metamorphic_stone:3
+		undergroundbiomes:metamorphic_stone:4
+		undergroundbiomes:metamorphic_stone:5
+		undergroundbiomes:metamorphic_stone:6
+		undergroundbiomes:metamorphic_stone:7
+		undergroundbiomes:igneous_stone
+		undergroundbiomes:igneous_stone:1
+		undergroundbiomes:igneous_stone:2
+		undergroundbiomes:igneous_stone:3
+		undergroundbiomes:igneous_stone:4
+		undergroundbiomes:igneous_stone:5
+		undergroundbiomes:igneous_stone:6
+		undergroundbiomes:igneous_stone:7
+		]
+      preference: replace_original
+    }
+  ]
+}

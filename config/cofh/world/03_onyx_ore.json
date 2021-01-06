@@ -44,12 +44,17 @@
 				]
 			}
 		},
-		"blazing_fiery_block_onyx": {
+		"ardicite_block_onyx": {
 			"distribution": "uniform",
 			"generator": {
 				"type": "stalagmite",
 				"block": "osv:simpleores_onyx_ore_contenttweaker_starblock",
 				"material": "contenttweaker:starblock",
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
 				"min-height": 1,
 				"height-variance": 2,
 				"stack-height": 2,

@@ -3,7 +3,7 @@ A modpack aimed to bring the survival back in Minecraft and improve many other a
 
 Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, bravery is vital... and arrogance is lethal.
 
-**GitHub builds are experimental and will not be given ANY SUPPORT. Please only use releases from the Curse page.**
+**Please only use releases from the Curse page - Downloads from other sources will NOT be supported!**
 
 **Links:**
 
@@ -13,8 +13,8 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 
 [Wiki](https://rebirth-of-the-night-mod-pack.fandom.com/wiki/Rebirth_of_the_Night_Mod_Pack_Wiki) 
 
-[Discord](https://discord.gg/MvNZ5QZ)
+[Discord](https://discord.gg/rotn)
 
-[Server Pack GitHub](https://github.com/CalaMariGold/Rebirth-of-the-Night-Server)
+[OUTDATED! ~~Server Pack GitHub~~](https://github.com/Rebirth-Of-The-Night/Rebirth-of-the-Night-Server)
 
-[Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329)
+[Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329) 

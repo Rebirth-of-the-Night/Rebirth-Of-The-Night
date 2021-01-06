@@ -44,4 +44,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/weaponsChallenge/weapon
 setFrameType("CHALLENGE")
 hideLines()
 alwaysVisible()
-setPos(120,168)
+setPos(416,137)
