@@ -50,7 +50,7 @@ recipes.addShaped("exsar_range", <exsartagine:range>, [
 recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
     <animania:carving_knife>,
     <minecraft:glass_bottle>,
-    <harvestcraft:mixingbowlitem>,
+    <minecraft:bowl>,
     <ore:smallKnife>
 ]);
 
@@ -85,7 +85,32 @@ ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=east,lit=true
 ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=west,lit=true>);
 ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=north,lit=true>);
 ExSartagine.addPlaceable(<blockstate:futuremc:blast_furnace:facing=south,lit=true>);
-
+ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=north,lit=true>);
+ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=south,lit=true>);
+ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=west,lit=true>);
+ExSartagine.addHeatSource(<blockstate:futuremc:smoker:facing=east,lit=true>);
+ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=north,lit=true>);
+ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=south,lit=true>);
+ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=west,lit=true>);
+ExSartagine.addPlaceable(<blockstate:futuremc:smoker:facing=east,lit=true>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=0,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=1,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=2,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=3,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=4,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=5,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=6,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=7,variant=lit>);
+ExSartagine.addHeatSource(<blockstate:pyrotech:campfire:ash=8,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=0,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=1,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=2,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=3,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=4,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=5,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=6,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=7,variant=lit>);
+ExSartagine.addPlaceable(<blockstate:pyrotech:campfire:ash=8,variant=lit>);
 
 
 /*

@@ -219,12 +219,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <foundry:machine:3>.removeTooltip("Requires RF, FE, or Tesla to operate.");
 <foundry:machine:3>.addTooltip("Requires a Redstone signal to operate.");
 
-<harvestcraft:well>.addTooltip("Infinite water source");
+<harvestcraft:well>.addTooltip("Infinite water source.");
 <harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <minecraft:furnace>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" 64; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:furnace>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" 64; 1 at a time."));
 <minecraft:furnace>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%"));
+
+<exsartagine:pan>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range>.addTooltip("Efficiently heats cooking appliances for fuel.");
+<exsartagine:range>.addShiftTooltip("Turns up to three furnaces to its right into part of the cooking range, offering 4 surfaces on which to place pans, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));

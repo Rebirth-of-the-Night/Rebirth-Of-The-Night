@@ -168,7 +168,7 @@ JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks
 JEI.removeAndHide(<base:wrench>);
 
 
-/* Multiblock Kilns, Refractory Structures, Pit Burning and Camping */
+/* Multiblock Kilns, Refractory Structures, Pit Burning, Camping and Cooking */
 val refractoryClayBall = <pyrotech:material:4>;
 val refractoryBrick = <pyrotech:material:5>;
 val slag = <pyrotech:material:8>;
@@ -180,8 +180,13 @@ JEI.addDescription(refractoryClayBall, "This muddy, limy ball contains a great c
 JEI.addDescription(slag, "Leftovers of certain materials containing precious components such as silica, aluminum, calcium and magnesium.");
 JEI.addDescription([<pyrotech:refractory_brick_block>,refractoryBrick], "Refractory materials enable the construction of structures for burning certain materials at high temperatures. Build a room made entirely of refractory materials, place the resource to be burned inside (filling any spaces), ignite it, then quickly cover or enclose the space. If done correctly, the material will burn and output the refined material, as well as depositing any resulting liquid if a collector is present.");
 JEI.addDescription(<pyrotech:refractory_door>, "A refractory burning structure works by burning without actually starting a fire, thus, it is of tremendous importance than no air gap is present between the walls of the structure and the material being burned; that includes the door...");
-// JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
+JEI.addDescription(<pyrotech:living_tar>, 'Burning slowly, this tarry meat substance is in the words of its inventor, "A strong candidate for the most loathsome of fuels."');
 JEI.addDescription(<pyrotech:tinder>, "Placing it on the ground and directly adding some logs, then lighting it up, will create a functional campfire for primitive cooking and outdoors camping.");
+JEI.addDescription(<exsartagine:range>, "The most efficient way to power up a kitchen. Adding fuel to it will power a Pot, Pan or Kettle above it; additionally, up to three furnaces to the right of this block will turn into part of the range and power appliances above them for the same fuel cost.");
+JEI.addDescription(<exsartagine:pan>, "Excellent for frying singular ingredients.");
+JEI.addDescription(<exsartagine:pot>, "Excellent for boiling singular ingredients.");
+JEI.addDescription(<exsartagine:kettle>, "Excellent for all types of cooking. The most versatile cooking appliance you will ever need!");
+JEI.addDescription(<minecraft:furnace>, "A versatile machine for smelting ores and certain other substances; not as specialized as a kiln or powerful as a crucible. It's not quite an oven either, but the heat it emanates can be taken advantage of by Pans, Pots and Kettles placed above it.");
 
 
 /* Plants */
