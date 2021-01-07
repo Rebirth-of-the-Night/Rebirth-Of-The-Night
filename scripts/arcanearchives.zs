@@ -12,15 +12,14 @@ recipes.removeByRecipeName("arcanearchives:diorite");
 recipes.remove(<arcanearchives:radiant_resonator>);
 // Note: arcanewood oredict list is in dungeontactics.zs
 val mythrilBucket = <forge:bucketfilled>.withTag({FluidName: "mythril", Amount: 1000});
-for arcaneWood in <ore:arcaneWood>.items{
-   mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
-   [
+for arcaneWood in <ore:arcaneWood>.items {
+   mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, [
       [<ore:ingotElectrum>, <ore:ingotElectrum>, arcaneWood, arcaneWood],
       [<minecraft:iron_bars>, mythrilBucket, <ore:ingotMythril>, null],
       [<minecraft:iron_bars>, mythrilBucket, <ore:ingotMythril>, null],
       [<ore:ingotElectrum>, <ore:ingotElectrum>, arcaneWood, arcaneWood]
    ]);   
-}}
+}
 
 //Gemcutter's Table
 val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	
