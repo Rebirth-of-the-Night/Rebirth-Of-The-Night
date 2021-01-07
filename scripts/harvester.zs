@@ -30,10 +30,3 @@ val harvesterMain = harvester.getPool("scythe");
 harvesterMain.removeEntry("harvestersnight:harvester_scythe");
 
 <entity:harvestersnight:harvester>.addDrop(<harvestersnight:harvester_scythe>.withTag(enchantmentMap1) % 100, 1, 1);
-
-
-recipes.addShaped("Soul Chassis", <multiblockmobs:soul_chassis>,[
-	[<simpleores:tin_ingot>, null, <simpleores:tin_ingot>],
-    [<simpleores:tin_ingot>, lapis, <simpleores:tin_ingot>],
-    [null, <simpleores:tin_ingot>, null]
-]);

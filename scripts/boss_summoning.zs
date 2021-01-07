@@ -9,7 +9,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 RecipeBuilder.get("mage")
   .setShaped([
 	[<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
-	[<betterwithaddons:wrought_bars>, <betterwithaddons:ancestry_bottle>, <betterwithaddons:wrought_bars>], 
+	[<betterwithaddons:wrought_bars>, <minecraft:dye:4>, <betterwithaddons:wrought_bars>], 
 	[<betterwithaddons:wrought_bars>, <betterwithaddons:wrought_bars>, <betterwithaddons:wrought_bars>]])
   .addOutput(<multiblockmobs:soul_chassis>)
   .setMinimumTier(1)
