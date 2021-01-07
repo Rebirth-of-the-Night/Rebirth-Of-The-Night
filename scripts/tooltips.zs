@@ -230,7 +230,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range>.addTooltip("Efficiently heats cooking appliances for fuel.");
-<exsartagine:range>.addShiftTooltip("Turns up to three furnaces to its right into part of the cooking range, offering 4 surfaces on which to place pans, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<exsartagine:range>.addShiftTooltip("Turns up to four furnaces to its right into part of the cooking range, offering 4 surfaces on which to place pans, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
