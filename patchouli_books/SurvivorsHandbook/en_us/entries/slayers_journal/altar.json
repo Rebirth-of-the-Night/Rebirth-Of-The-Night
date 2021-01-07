@@ -6,11 +6,9 @@
 
   "pages": [
     {
-      "type": "artisanintegrations:workstation",
-	  "header": "Crafting an Altar",
-      "recipe": "mage:-1925881921",
-      "text_left": "$(#734608)Burning$() $(thing)magic-imbued totems$() $(#734608)on an $(item)Altar of Summoning$()$(#734608) calls monsters from beyond.$()$()", 
-	  "text_right": "$(#734608)Magic begets magic. The altar cannot be created without the power of a $(item)Mage Table$() $(#734608)and the dark potency of a $(item)Shard of Night.$()"
+      "type": "spotlight",
+      "item": "from_the_depths:block_altar_of_summoning",
+      "text": "$(#734608)Burning$() $(thing)magic-imbued totems$() $(#734608)on an $(item)Altar of Summoning$()$(#734608) calls monsters from beyond. Magic begets magic. The altar cannot be created without the power of a $(item)Mage Table$() $(#734608)and the dark potency of a $(item)Shard of Night.$()$()$()"
     },
 	 {
       "type": "text",

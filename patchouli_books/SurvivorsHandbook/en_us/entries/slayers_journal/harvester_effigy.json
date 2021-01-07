@@ -32,7 +32,7 @@
 				"offset"     : [0, 0, 0],
 				"view_offset": [0, 0, 0]
    		},
-			"text": "$(#734608)A lit pumpkin, bales of hay, and hardened bone form the body around the core.$()",
+			"text": "$(#734608)A lit pumpkin, bales of hay, and hardened bone form the body.$()",
 			"enable_visualize": true
 },
     {
