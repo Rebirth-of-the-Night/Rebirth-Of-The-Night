@@ -47,7 +47,7 @@ recipes.addShaped("exsar_range", <exsartagine:range>, [
     [ironBlock, ironBlock, ironBlock] // At least make it expensive enough so it isn't easily crafted
 ]);
 
-recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
+recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>*64, [
     <animania:carving_knife>,
     <minecraft:glass_bottle>,
     <minecraft:bowl>,
