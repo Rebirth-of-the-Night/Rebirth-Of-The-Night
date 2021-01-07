@@ -99,6 +99,14 @@
       "random": "0.25"
    },
 
+   // Slider
+   {
+      "mob": "aether_legacy:slider",
+      "player": true,
+      "item": "contenttweaker:slider_eye",
+      "itemcount": "1"
+   },
+
    // Quazar
    {
       "mob": "betterslimes:quazar",
