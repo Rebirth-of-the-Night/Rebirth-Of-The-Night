@@ -9,11 +9,7 @@
         "type": "minecraft:uniform"
       },
       "entries": [
-        {
-          "type": "item",
-          "weight": 30,
-          "name": "ambience:ocarina"
-        }    
+           
       ]
     }    
   ]

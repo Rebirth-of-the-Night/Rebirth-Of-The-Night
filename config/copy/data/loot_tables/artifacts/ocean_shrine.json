@@ -118,18 +118,6 @@
             }
           ],
           "name": "minecraft:emerald"
-        },
-        {
-          "entryName": "minecraft:book",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
         }
       ],
       "rolls": {

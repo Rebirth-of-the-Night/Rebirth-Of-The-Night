@@ -73,18 +73,6 @@
             "name": "minecraft:diamond_horse_armor"
           },
           {
-            "entryName": "minecraft:book",
-            "weight": 3,
-            "quality": 0,
-            "type": "item",
-            "functions": [
-              {
-                "function": "minecraft:enchant_randomly"
-              }
-            ],
-            "name": "minecraft:book"
-          },
-          {
             "entryName": "quark:rune",
             "weight": 20,
             "quality": 0,
@@ -99,18 +87,6 @@
               }
             ],
             "name": "quark:rune"
-          },
-          {
-            "entryName": "quark:ancient_tome",
-            "weight": 8,
-            "quality": 2,
-            "type": "item",
-            "functions": [
-              {
-                "function": "quark:enchant_tome"
-              }
-            ],
-            "name": "quark:ancient_tome"
           }
         ],
         "rolls": {
@@ -342,20 +318,7 @@
       {
         "name": "simpleDungeon",
         "entries": [
-          {
-            "entryName": "ambience:ocarina",
-            "weight": 80,
-            "quality": 0,
-            "type": "item",
-            "name": "ambience:ocarina"
-          },
-          {
-            "entryName": "ambience:horn",
-            "weight": 95,
-            "quality": 0,
-            "type": "item",
-            "name": "ambience:horn"
-          }
+          
         ],
         "rolls": {
           "min": 0.0,

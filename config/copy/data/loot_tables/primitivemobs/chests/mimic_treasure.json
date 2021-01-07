@@ -135,7 +135,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:bucket",
+                    "name": "pyrotech:bucket_stone",
                     "weight": 10
                 },
                 {
@@ -210,16 +210,6 @@
                 "max": 2
             },
             "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "enchant_randomly"
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "name": "minecraft:golden_apple",
