@@ -80,10 +80,10 @@ game.setLocalization("tile.aether_legacy:enchanter.name","Aetherium Capacitor");
 <betterwithaddons:lattice:0>.displayName = "Iron Lattice Block";
 
 //Biomes o Plenty
-//<biomesoplenty:hive>.displayName = "Giant Hive Block";
-//<biomesoplenty:hive:1>.displayName = "Giant Honeycomb";
-//<biomesoplenty:hive:2>.displayName = "Giant Empty Honeycomb";
-//<biomesoplenty:hive:3>.displayName = "Giant Filled Honeycomb";
+<biomesoplenty:hive>.displayName = "Giant Hive Block";
+<biomesoplenty:hive:1>.displayName = "Giant Honeycomb Block";
+<biomesoplenty:hive:2>.displayName = "Giant Infested Honeycomb Block";
+<biomesoplenty:hive:3>.displayName = "Giant Filled Honeycomb Block";
 <biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
 
 // Guidebook
