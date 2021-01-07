@@ -58,6 +58,8 @@ recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>*64, [
 recipes.remove(<solcarrot:food_book>);
 recipes.addShapeless("food_book",<solcarrot:food_book>,[<minecraft:book>,<ore:listAllveggie>]);
 
+ExSartagine.removePanRecipe(<minecraft:leather>);
+
 JEI.removeAndHide(<exsartagine:flour>);
 JEI.removeAndHide(<exsartagine:breadfine>);
 JEI.removeAndHide(<exsartagine:doughbread>);
