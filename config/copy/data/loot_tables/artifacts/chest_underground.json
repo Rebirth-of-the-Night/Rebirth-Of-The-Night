@@ -16,11 +16,6 @@
         },
         {
           "type": "loot_table",
-          "name": "minecraft:chests/stronghold_library",
-          "weight": 10
-        },
-        {
-          "type": "loot_table",
           "name": "artifacts:underground_chest/potions",
           "weight": 10
         },

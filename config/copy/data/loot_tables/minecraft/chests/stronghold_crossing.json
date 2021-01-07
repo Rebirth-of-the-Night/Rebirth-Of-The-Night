@@ -1,0 +1,165 @@
+{
+  "pools": [
+    {
+      "name": "behgameon_inject_pool",
+      "entries": [
+        {
+          "entryName": "behgameon_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "behgameon:inject/stronghold_crossing"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "manuscript",
+      "entries": [
+        {
+          "entryName": "iceandfire:manuscript",
+          "weight": 20,
+          "quality": 5,
+          "type": "item",
+          "name": "iceandfire:manuscript"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0
+      }
+    }
+  ]
+}
