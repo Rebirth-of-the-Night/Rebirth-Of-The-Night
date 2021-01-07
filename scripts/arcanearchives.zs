@@ -9,17 +9,16 @@ import crafttweaker.item.IItemTransformer;
 recipes.removeByRecipeName("arcanearchives:diorite");
 
 // Radiant Resonator
-// Replace mythril and water buckets with Molten Mythril buckets once that is implemented in the Beneath
 recipes.remove(<arcanearchives:radiant_resonator>);
-//val arcaneWood = <ore:arcaneWood>; // Note: arcanewood oredict list is in dungeontactics.zs
-for item1 in <ore:listAllwater>.items{
-   for item2 in <ore:arcaneWood>.items{
-      mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
+// Note: arcanewood oredict list is in dungeontactics.zs
+val mythrilBucket = <forge:bucketfilled>.withTag({FluidName: "mythril", Amount: 1000});
+for arcaneWood in <ore:arcaneWood>.items{
+   mods.betterwithmods.Anvil.addShaped(<arcanearchives:radiant_resonator>, 
    [
-      [<ore:ingotElectrum>, <ore:ingotElectrum>, item2, item2],
-      [<minecraft:iron_bars>, item1, <ore:ingotMythril>, null],
-      [<minecraft:iron_bars>, item1, <ore:ingotMythril>, null],
-      [<ore:ingotElectrum>, <ore:ingotElectrum>, item2, item2]
+      [<ore:ingotElectrum>, <ore:ingotElectrum>, arcaneWood, arcaneWood],
+      [<minecraft:iron_bars>, mythrilBucket, <ore:ingotMythril>, null],
+      [<minecraft:iron_bars>, mythrilBucket, <ore:ingotMythril>, null],
+      [<ore:ingotElectrum>, <ore:ingotElectrum>, arcaneWood, arcaneWood]
    ]);   
 }}
 
