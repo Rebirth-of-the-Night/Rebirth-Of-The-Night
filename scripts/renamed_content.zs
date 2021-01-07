@@ -13,7 +13,7 @@ import crafttweaker.item.IItemStack;
 // Butterflies
 <butterflies:butterfly_case>.displayName = "Butterfly Display Case";
 
-// Progression
+// Progression and CoT
 <contenttweaker:shard_of_night>.displayName = "§5Shard of Night";
 <contenttweaker:volatile_core>.displayName = "§5Volatile Core";
 <contenttweaker:mercurial_ooze>.displayName = "§5Mercurial Ooze";
@@ -24,6 +24,7 @@ import crafttweaker.item.IItemStack;
 <contenttweaker:dormant_onyx>.displayName = "Dormant Onyx";
 <contenttweaker:dormant_ardicite_onyx>.displayName = "Dormant Ardicite Onyx";
 
+<contenttweaker:cooking_kit>.displayName = "Cooking Kit";
 
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
