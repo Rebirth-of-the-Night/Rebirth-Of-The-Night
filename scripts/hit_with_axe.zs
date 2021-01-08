@@ -555,3 +555,187 @@ Chopping.addRecipe("natura:overworld_planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("rustic:planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("naturesaura:ancient_planks", 32767, <minecraft:stick> * 2);
 Chopping.addRecipe("biomesoplenty:planks_0", 32767, <minecraft:stick> * 2);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////// WOOD VARIANTS HERE REQUIRE COMPATIBILITY WITH HIT WITH AXE //////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Tenebra planks
+recipes.removeByRecipeName("defiledlands:material/tenebra_planks");
+recipes.addShaped("tenebra_planks", <defiledlands:tenebra_planks>*3,[
+	[null],
+	[<defiledlands:tenebra_log>],
+	[null]
+]);
+recipes.addHiddenShaped("tenebra_planks1", <defiledlands:tenebra_planks>*3,[
+	[<defiledlands:tenebra_log>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("tenebra_planks2", <defiledlands:tenebra_planks>*3,[
+	[null],
+	[null],
+	[<defiledlands:tenebra_log>]
+]);
+
+// Dreadwood planks
+recipes.removeByRecipeName("iceandfire:dread_wood_planks");
+recipes.addShaped("dreadwood_planks", <iceandfire:dreadwood_planks>*3,[
+	[null],
+	[<iceandfire:dreadwood_log>],
+	[null]
+]);
+recipes.addHiddenShaped("dreadwood_planks1", <iceandfire:dreadwood_planks>*3,[
+	[<iceandfire:dreadwood_log>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("dreadwood_planks2", <iceandfire:dreadwood_planks>*3,[
+	[null],
+	[null],
+	[<iceandfire:dreadwood_log>]
+]);
+
+// Skyroot planks
+recipes.removeByRecipeName("aether_legacy:skyroot_planks");
+recipes.addShaped("skyroot_planks", <aether_legacy:skyroot_plank>*3,[
+	[null],
+	[<aether_legacy:aether_log>],
+	[null]
+]);
+recipes.addHiddenShaped("skyroot_planks1", <aether_legacy:skyroot_plank>*3,[
+	[<aether_legacy:aether_log>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("skyroot_planks2", <aether_legacy:skyroot_plank>*3,[
+	[null],
+	[null],
+	[<aether_legacy:aether_log>]
+]);
+
+// Canopy planks
+recipes.removeByRecipeName("twilightforest:wood/canopy_planks");
+recipes.addShaped("canopy_planks", <twilightforest:canopy_planks>*3,[
+	[null],
+	[<twilightforest:twilight_log:1>],
+	[null]
+]);
+recipes.addHiddenShaped("canopy_planks1", <twilightforest:canopy_planks>*3,[
+	[<twilightforest:twilight_log:1>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("canopy_planks2", <twilightforest:canopy_planks>*3,[
+	[null],
+	[null],
+	[<twilightforest:twilight_log:1>]
+]);
+
+// Mangrove planks
+recipes.removeByRecipeName("twilightforest:wood/mangrove_planks");
+recipes.addShaped("mangrove_planks", <twilightforest:mangrove_planks>*3,[
+	[null],
+	[<twilightforest:twilight_log:2>],
+	[null]
+]);
+recipes.addHiddenShaped("mangrove_planks1", <twilightforest:mangrove_planks>*3,[
+	[<twilightforest:twilight_log:2>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("mangrove_planks2", <twilightforest:mangrove_planks>*3,[
+	[null],
+	[null],
+	[<twilightforest:twilight_log:2>]
+]);
+
+// Darkwood planks
+recipes.removeByRecipeName("twilightforest:wood/darkwood_planks");
+recipes.addShaped("darkwood_planks", <twilightforest:dark_planks>*3,[
+	[null],
+	[<twilightforest:twilight_log:3>],
+	[null]
+]);
+recipes.addHiddenShaped("darkwood_planks1", <twilightforest:dark_planks>*3,[
+	[<twilightforest:twilight_log:3>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("darkwood_planks2", <twilightforest:dark_planks>*3,[
+	[null],
+	[null],
+	[<twilightforest:twilight_log:3>]
+]);
+
+// Timewood planks
+recipes.removeByRecipeName("twilightforest:wood/time_planks");
+recipes.addShaped("time_planks", <twilightforest:time_planks>*3,[
+	[null],
+	[<twilightforest:magic_log>],
+	[null]
+]);
+recipes.addHiddenShaped("time_planks1", <twilightforest:time_planks>*3,[
+	[<twilightforest:magic_log>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("time_planks2", <twilightforest:time_planks>*3,[
+	[null],
+	[null],
+	[<twilightforest:magic_log>]
+]);
+
+// Transwood planks
+recipes.removeByRecipeName("twilightforest:wood/trans_planks");
+recipes.addShaped("trans_planks", <twilightforest:trans_planks>*3,[
+	[null],
+	[<twilightforest:magic_log:1>],
+	[null]
+]);
+recipes.addHiddenShaped("trans_planks1", <twilightforest:trans_planks>*3,[
+	[<twilightforest:magic_log:1>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("trans_planks2", <twilightforest:trans_planks>*3,[
+	[null],
+	[null],
+	[<twilightforest:magic_log:1>]
+]);
+
+// Minewood planks
+recipes.removeByRecipeName("twilightforest:wood/mine_planks");
+recipes.addShaped("mine_planks", <twilightforest:mine_planks>*3,[
+	[null],
+	[<twilightforest:magic_log:2>],
+	[null]
+]);
+recipes.addHiddenShaped("mine_planks1", <twilightforest:mine_planks>*3,[
+	[<twilightforest:magic_log:2>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("mine_planks2", <twilightforest:mine_planks>*3,[
+	[null],
+	[null],
+	[<twilightforest:magic_log:2>]
+]);
+
+// Sortingwood planks
+recipes.removeByRecipeName("twilightforest:wood/sort_planks");
+recipes.addShaped("sort_planks", <twilightforest:sort_planks>*3,[
+	[null],
+	[<twilightforest:magic_log:3>],
+	[null]
+]);
+recipes.addHiddenShaped("sort_planks1", <twilightforest:sort_planks>*3,[
+	[<twilightforest:magic_log:3>],
+	[null],
+	[null]
+]);
+recipes.addHiddenShaped("sort_planks2", <twilightforest:sort_planks>*3,[
+	[null],
+	[null],
+	[<twilightforest:magic_log:3>]
+]);

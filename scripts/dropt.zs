@@ -216,21 +216,12 @@ Dropt.list("Well_Worth")
       )	
   );
 
-Dropt.list("Crate_Job")
+Dropt.list("crate_job")
 
   .add(Dropt.rule()
-  	.matchBlocks(["charm:crate:*"])
-     	.addDrop(Dropt.drop()
-	.selector(Dropt.weight(1))
-		  .items("ALL", [<betterwithmods:material:22>*2,<betterwithmods:material:22>*5])
-      )
+	  .matchBlocks(["charm:crate:*"])
       .addDrop(Dropt.drop()
-        .selector(Dropt.weight(2))
-	.items("ALL", [<betterwithmods:material:22>*1,<betterwithmods:material:22>*2])
-	  )
-      .addDrop(Dropt.drop()
-        .selector(Dropt.weight(5))
-       	.items("ALL", [<betterwithmods:material:22>*3,<betterwithmods:material:22>*2])
+		  .items("ALL", [<betterwithmods:material:22>], Dropt.range(3, 7))
       )
   );  
   

@@ -14,11 +14,16 @@
 			"max-height": 80,
 			"cluster-size": 4,
             "retrogen": true,
-            "biome": "all",
-            "dimensions": {
-                "restriction": "whitelist",
-                "value": [1]
-            }
-        }
+            "biome": {
+				"restriction": "whitelist",
+				"value": "minecraft:sky"
+			}
+            "dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
 	}
 }
