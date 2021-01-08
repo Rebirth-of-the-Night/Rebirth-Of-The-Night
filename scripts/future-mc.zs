@@ -16,6 +16,9 @@ JEI.removeAndHide(<futuremc:honeycomb>);
 JEI.removeAndHide(<futuremc:honey_bottle>);
 JEI.removeAndHide(<futuremc:beehive>);
 
+JEI.removeAndHide(<futuremc:campfire>);
+
+
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
 recipes.removeByRecipeName("futuremc:else/stone_slabs_from_smooth_stone");
