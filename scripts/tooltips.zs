@@ -1,5 +1,8 @@
 
 
+<ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+
+
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
 <contenttweaker:sprinkles>.addTooltip("Zero nutritional value, but it gets you going.");
