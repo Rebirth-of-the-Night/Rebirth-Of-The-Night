@@ -53,7 +53,7 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:0.705298
-soundCategory_music:0.1056338
+soundCategory_music:0.80
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
