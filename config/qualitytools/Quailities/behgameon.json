@@ -8,6 +8,14 @@
         "slot": "baubles_trinket"
       }
     ],
+    "blacklist": [
+      {
+        "item": "behgameon:accessory_1"
+      },
+      {
+        "item": "behgameon:accessory_4"
+      }
+    ],
     "qualities": [
     {
     "name": "Bear's Might",
