@@ -314,9 +314,6 @@ recipes.addShaped("beeswax_block", <harvestcraft:pressedwax>, [
 ]);
 recipes.addShapeless("beeswax_block_back", <rustic:beeswax> * 4, [<harvestcraft:pressedwax>]);
 
-// Palm seed -> cooking oil
-recipes.addShapeless("palmseed_cookingoil", <harvestcraft:oliveoilitem>*2, [<harvestcraft:juiceritem>, <dynamictreesbop:palmseed>, <dynamictreesbop:palmseed>]);
-
 // Ground meat
 Mill.addRecipe([<ore:listAllbeefraw>],[<harvestcraft:groundbeefitem>*2]);
 Mill.addRecipe([<ore:listAllchickenraw>],[<harvestcraft:groundchickenitem>*2]);

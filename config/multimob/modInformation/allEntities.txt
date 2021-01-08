@@ -260,7 +260,6 @@ quark:arrow_explosive
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:gravisand
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -270,6 +269,7 @@ quark:pirate
 quark:crab
 quark:wraith
 quark:seat
+quark:gravisand
 quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot

@@ -47,6 +47,16 @@ recipes.addShaped("exsar_range", <exsartagine:range>, [
     [ironBlock, ironBlock, ironBlock] // At least make it expensive enough so it isn't easily crafted
 ]);
 
+val basicWorktable = <artisanworktables:worktable:5> | <minecraft:crafting_table>;
+val chefToque = <rats:chef_toque>;
+val ckit_temp = <contenttweaker:cooking_kit>.transformDamage();
+
+recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
+    [cobble, chefToque, cobble],
+    [genericMetal, basicWorktable, genericMetal],
+    [cobble, ckit_temp, cobble]
+]);
+
 recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>*64, [
     <animania:carving_knife>,
     <minecraft:glass_bottle>,
