@@ -426,11 +426,12 @@ JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of infor
 val arcaneBarrier = <dimstack:bedrock:0>;
 val arcanePortal = <dimstack:portal>;
 val dummy_fire = <contenttweaker:fire_block>;
+val lodestone = <dungeontactics:mithril_block>;
 
 JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
 JEI.addDescription(dummy_fire,"Fire! Once common knowledge, now there is no certainty that humanity was the first civilization to conquer this force of nature, but they are still as good making the most out of it. Ignite a surface using a bow drill, a flint and stone, a flint and steel, a firecharge or using more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
-
+JEI.addDescription(lodestone, "Mysterious stones with magnetic properties buried in cold long ago. Mining it makes you feel funny...");
 
 /* Runes and Magic */
 JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item to change the item's glow color.");
