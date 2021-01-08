@@ -1,6 +1,6 @@
 setIcon(<minecraft:skull, meta:4>)
 setTitle("Aww Man")
-setDescription("Die by a Creeper one time.")
+setDescription("Die by a Creeper.")
 
 addParent("triumph:advancements/deaths/root")
 
