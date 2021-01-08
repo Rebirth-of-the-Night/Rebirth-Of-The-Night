@@ -23,7 +23,7 @@ command.solcarrot.foodlist.clear.success=Food list reset!
 command.solcarrot.foodlist.sync.success=Food list synchronized!
 
 # Messages
-message.solcarrot.chat_wrapper=[SoL: Carrot] %s
+message.solcarrot.chat_wrapper=%s
 message.solcarrot.hearts.singular=a heart
 message.solcarrot.hearts.plural=%s hearts
 message.solcarrot.milestone_achieved=What a unique flavor! You've gained %s!
