@@ -366,8 +366,8 @@ Dropt.list("cobweb_silt")
 
   .add(Dropt.rule()
       .matchBlocks(["minecraft:web"])
-      .replaceStrategy("REPLACE_ITEMS")
       .addDrop(Dropt.drop()
+      	  .selector(Dropt.weight(1))
 	  .items([<contenttweaker:spider_silk>])
       )
   );
@@ -594,10 +594,6 @@ Dropt.list("wonder_geode")
           .selector(Dropt.weight(20))
 		  .items([<contenttweaker:vis_speck>])
       )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(2))
-		  .items([<netherex:amethyst_crystal>])
-      )
   );
 Dropt.list("ardicite")
 
@@ -616,7 +612,7 @@ Dropt.list("lodestone")
   .add(Dropt.rule()
       .matchBlocks(["dungeontactics:mithril_block"])
   	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(1)) // ground netherrack
+          .selector(Dropt.weight(1))
        	   .items([<minecraft:stonebrick:3>])
       )
   ); 
