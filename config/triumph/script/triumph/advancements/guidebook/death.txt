@@ -1,0 +1,10 @@
+setIcon(<minecraft:dirt>)
+setTitle("Death")
+setDescription("Death")
+
+addParent("triumph:advancements/guidebook/root")
+
+criteria = addCriteria("Death", "triumph:player_death")
+
+hideLines()
+alwaysHidden()
