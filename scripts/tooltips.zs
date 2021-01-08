@@ -251,6 +251,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:lantern_magic>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 
+<dungeontactics:mithril_block>.addTooltip("Mysterious stones with magnetic properties buried in cold long ago. Mining it makes you feel funny...");
+
 <extraalchemy:potion_ring>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
 <dungeontactics:magic_pouch>.addTooltip("Right-click to open.");
 
