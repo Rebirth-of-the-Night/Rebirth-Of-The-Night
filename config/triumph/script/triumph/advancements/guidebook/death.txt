@@ -6,5 +6,8 @@ addParent("triumph:advancements/guidebook/root")
 
 criteria = addCriteria("Death", "triumph:player_death")
 
+
+setShowToast(false)
+setAnnounceToChat(false)
 hideLines()
 alwaysHidden()
