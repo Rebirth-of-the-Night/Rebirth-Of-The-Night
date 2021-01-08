@@ -72,8 +72,10 @@ resourcepacks/Better Rebirth 1.12.2/assets/malisisdoors/textures/16xtextures/
 config/fantasticlib/reference/biomes.txt
 config/fantasticlib/reference/blocks.txt
 config/fantasticlib/reference/blockstates.txt
+config/fantasticlib/reference/enchantments.txt
 config/fantasticlib/reference/entities.txt
 config/fantasticlib/reference/items.txt
+config/fantasticlib/reference/oredict.txt
 config/fantasticlib/reference/players.txt
 config/fantasticlib/reference/potions.txt
 config/fantasticlib/reference/recipes.txt
