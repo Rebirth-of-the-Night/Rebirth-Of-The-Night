@@ -8,11 +8,9 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 
 //#########randomthings:endermailbox -> need new recipe
-//#########randomthings:quartzlamp   -> need new recipe
 //#########randomthings:blockofsticks
 //#########randomthings:diaphanousblock   -> FOR RECURRENT COMPLEX USE ONLY
 //#########randomthings:spectresapling   -> need to remove vanilla saplings from loot
-//#########randomthings:itemcollector -> new recipe
 //#########randomthings:dungeonchestgenerator
 //#########randomthings:weatheregg
 //#########randomthings:spectreanchor-> for expert
@@ -85,6 +83,7 @@ JEI.removeAndHide(<randomthings:spectresapling>);
 JEI.removeAndHide(<randomthings:spectrelog>);
 JEI.removeAndHide(<randomthings:spectreleaf>);
 JEI.removeAndHide(<randomthings:advanceditemcollector>);
+JEI.removeAndHide(<randomthings:itemcollector>);
 JEI.removeAndHide(<randomthings:naturecore>);
 JEI.removeAndHide(<randomthings:biomeglass>);
 JEI.removeAndHide(<randomthings:spectrecore>);
