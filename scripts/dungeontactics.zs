@@ -138,8 +138,9 @@ recipes.addShaped("potshot",<dungeontactics:potshot>,[
     [null,<minecraft:piston>,<pyrotech:material:36>],
     [null,<minecraft:tripwire_hook>,woodMoulding]
 ]);
+val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
 recipes.remove(<dungeontactics:potshot_ammo>);
-recipes.addShapeless("potshot_ammo",<dungeontactics:potshot_ammo>*4,[<pyrotech:rock>,<minecraft:paper>]);
+recipes.addShapeless("potshot_ammo",<dungeontactics:potshot_ammo>*4,[rock,<minecraft:paper>]);
 
 
 <ore:buttonStone>.addItems([<minecraft:stone_button>,<undergroundbiomes:igneous_stone_button:*>,<undergroundbiomes:metamorphic_stone_button:*>,<undergroundbiomes:sedimentary_stone_button:*>]);

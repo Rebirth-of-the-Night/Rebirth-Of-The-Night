@@ -102,12 +102,14 @@ val dry = <pyrotech:material:13>;
 val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
 val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<betternether:quartz_glass_framed:*>|<netherex:soul_glass>;
+val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
 
 recipes.addShapeless("pyro_tinder_sticks",<pyrotech:tinder>,[<pyrotech:material:13>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]);
 recipes.addShapeless("pyro_tinder_fiber",<pyrotech:tinder>,[<pyrotech:material:13>,<pyrotech:material:13>]);
 recipes.addShapeless("pyro_bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
 recipes.addShapeless("pyro_flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<pyrotech:tinder>,<minecraft:flint>]);
 recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>,<pyrotech:rock:0>,<pyrotech:rock:0>,<pyrotech:rock:0>]);
+recipes.addShapeless("rock_basalt_conversion",<undergroundbiomes:igneous_cobble:5>,[<pyrotech_compat:rock_igneous:5>,<pyrotech_compat:rock_igneous:5>,<pyrotech_compat:rock_igneous:5>,<pyrotech_compat:rock_igneous:5>]);
 recipes.addShapeless("sandrock_conversion",<minecraft:sandstone>,[<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
@@ -119,8 +121,8 @@ recipes.addShaped("pyro_stone_brick", stoneBrick*8,
 [[<ore:stone>],
 [<ore:stone>]]);
 recipes.addShaped("pyrorock_stone_brick", stoneBrick*2,
-[[<pyrotech:rock:0>],
-[<pyrotech:rock:0>]]);
+[[rock],
+[rock]]);
 recipes.addShaped("pyro_stone_kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,stoneBrick,stoneBrick],
   [stoneBrick,<minecraft:furnace>,stoneBrick],
@@ -229,7 +231,7 @@ recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
   [<ore:twine>,stoneBrick,<ore:twine>],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
 recipes.addShaped("pyro_crude_axe", <pyrotech:crude_axe>,
- [[<pyrotech:rock>|<minecraft:flint>,<ore:stickWood>],
+ [[rock|<minecraft:flint>,<ore:stickWood>],
   [<ore:stickWood>,null]]);  
 recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
  [[null,<ore:stickWood>],

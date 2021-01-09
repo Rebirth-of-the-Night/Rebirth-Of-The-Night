@@ -84,10 +84,10 @@
 					}
 				],
 				"see-sky": true,
-				"cluster-size": 32
+				"cluster-size": 16
 			},
-			"cluster-count": 1,
-			"chunk-chance": 8.3,
+			"cluster-count": 6,
+			"chunk-chance": 3,
 			"retrogen": "true",
 			"biome": "all"
 			"dimension": {
@@ -96,6 +96,30 @@
 					0,
 					7
 				]
+			}
+		},
+		"volcano_granite_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					}
+				],
+				"surface": "biomesoplenty:ash_block",
+				"see-sky": true,
+				"cluster-size": 18,
+				"y-variance": 10,
+			},
+			"cluster-count": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biomesoplenty:volcanic_island"
 			}
 		}
 	}
