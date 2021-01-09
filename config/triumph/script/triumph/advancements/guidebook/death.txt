@@ -1,6 +1,3 @@
-setIcon(<minecraft:dirt>)
-setTitle("Death")
-setDescription("Death")
 
 addParent("triumph:advancements/guidebook/root")
 

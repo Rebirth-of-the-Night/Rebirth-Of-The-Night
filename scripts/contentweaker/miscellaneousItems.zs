@@ -6,6 +6,8 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 
 //misc.
+val spawn_scroll = mods.contenttweaker.VanillaFactory.createItem("spawn_scroll");
+spawn_scroll.register();
 val four_gems = mods.contenttweaker.VanillaFactory.createItem("four_gems");
 four_gems.register();
 val four_gem_ingots = mods.contenttweaker.VanillaFactory.createItem("four_gem_ingots");

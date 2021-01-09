@@ -61,6 +61,7 @@ mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_clownfish>);
 
 mods.jei.JEI.removeAndHide(<artifacts:ultimate_pendant>);
+mods.jei.JEI.removeAndHide(<bountifulbaubles:amuletcross>);
 
 // Remove baubles
 mods.ltt.LootTable.removeGlobalItem("artifacts:tiny_shirt");
@@ -499,21 +500,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-   
-// Cross Necklace
-
-recipes.remove(<bountifulbaubles:amuletcross>);
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>, <ore:inertAmulet>, <contenttweaker:vis_speck>],
-    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
-    [<contenttweaker:vis_speck>, <minecraft:gold_nugget>, <contenttweaker:vis_speck>]])
-  .addTool(<contenttweaker:air_rune>, 1)
-  .addOutput(<bountifulbaubles:amuletcross>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
+  
 
 // Lucky Horseshoe
 
