@@ -95,7 +95,7 @@ spawn_scroll.itemRightClick = function(stack, world, player, hand) {
     Commands.call("spawnpoint @p ~ ~ ~", player, world, false, true);
     stack.shrink(1);
     if (world.isRemote()) {
-        Commands.call("tellraw @p ["",{"text":"Your destiny has been written....","color":"gray","italic":true}]", player, world);
+        Commands.call('tellraw @p ["",{"text":"Your destiny has been written....","color":"gray","italic":true}]', player, world);
     }
     return "SUCCESS";
 };
