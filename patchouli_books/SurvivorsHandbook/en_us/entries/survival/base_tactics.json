@@ -1,0 +1,23 @@
+{
+  "name": "Early Base Tactics",
+  "icon": "minecraft:iron_bars",
+  "category": "survival_shelter",
+  "advancement": "triumph:advancements/guidebook/improvingShelter",
+
+  "pages": [
+    {
+      "type": "text",
+      "text": "Early on, placing any light source near the outside of the base seems like a bad idea since it will attract monsters. Monsters hate any sort of light source and they will usually try to investigate the area and destroy the light source. Because of this, I may be leading monsters straight to my doorstep unknowingly."
+    },
+	  {
+      "type": "text",
+      "text": "I should make sure I have a very defendable base before lighting up the area. I’ve noticed that monsters aren’t willing to break through fortifications to get to my light sources. It seems like protecting them with stone and iron bars is a foolproof way of making sure I can keep an area lit up."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "gather/sticks"
+      ]
+    }
+  ]
+}

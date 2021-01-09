@@ -1,0 +1,16 @@
+{
+  "name": "Water Moat",
+  "icon": "minecraft:water_bucket",
+  "category": "survival_shelter",
+  "advancement": "triumph:advancements/progression/nether/enterNether",
+  "pages": [
+	  {
+      "type": "text",
+      "text": "After I made a portal to the Nether, I noticed quite a few fire-based monsters around. Based on my research, I've determined that they are immune to lava and fire, therefore any base defenses that include either of those will be useless against them."
+    },
+    {
+      "type": "text",
+      "text": "However, they do suffer from water. Setting up a secondary or tertiary moat with water, or even just covering the outter walls of my base with water would be a good idea."
+    }
+  ]
+}

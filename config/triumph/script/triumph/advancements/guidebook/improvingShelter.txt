@@ -1,0 +1,18 @@
+setIcon(<minecraft:dirt>)
+setTitle("Improving Shelter")
+setDescription("Improving Shelter")
+
+
+addParent("triumph:advancements/guidebook/root")
+
+
+criteria = addCriteria("caltrops", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:caltrops")
+
+criteria = addCriteria("stone brick", "minecraft:inventory_changed")
+criteria.addItem(<ore:StoneHugeBrick>)
+
+setRequirements("all")
+
+setShowToast(true)
+setAnnounceToChat(false)
