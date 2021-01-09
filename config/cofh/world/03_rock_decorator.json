@@ -113,9 +113,8 @@
 				"surface": "biomesoplenty:ash_block",
 				"see-sky": true,
 				"cluster-size": 18,
-				"y-variance": 10,
 			},
-			"cluster-count": 1,
+			"cluster-count": 3,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
