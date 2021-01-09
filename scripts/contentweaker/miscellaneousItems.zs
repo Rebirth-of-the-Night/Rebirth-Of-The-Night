@@ -94,6 +94,9 @@ spawn_scroll.maxStackSize = 1;
 spawn_scroll.itemRightClick = function(stack, world, player, hand) {
     Commands.call("spawnpoint @p ~ ~ ~", player, world, false, true);
     stack.shrink(1);
+    if (world.isRemote()) {
+        player.sendChat(format.italic(format.gray("Your destiny has been written...")));
+    }
     return "SUCCESS";
 };
 spawn_scroll.register();
