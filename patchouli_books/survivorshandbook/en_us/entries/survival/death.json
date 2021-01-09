@@ -2,6 +2,7 @@
   "name": "Death",
   "icon": "minecraft:skull:0",
   "category": "survival",
+  "advancement": "triumph:advancements/progression/guidebook/death",
   "pages": [
 	{
     "type": "text",

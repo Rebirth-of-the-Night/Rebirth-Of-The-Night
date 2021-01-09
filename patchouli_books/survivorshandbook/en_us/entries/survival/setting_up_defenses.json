@@ -2,7 +2,7 @@
   "name": "Setting Up Defenses",
   "icon": "minecraft:stonebrick",
   "category": "survival_shelter",
-  "advancement": "triumph:advancements/guidebook/improvingShelter",
+  "advancement": "triumph:advancements/progression/guidebook/improvingShelter",
   "pages": [
 	  {
       "type": "text",
