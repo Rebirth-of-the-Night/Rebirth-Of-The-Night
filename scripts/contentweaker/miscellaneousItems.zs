@@ -92,7 +92,7 @@ cooking_kit.register();
 val spawn_scroll = VanillaFactory.createItem("spawn_scroll");
 spawn_scroll.maxStackSize = 1;
 spawn_scroll.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("spawnpoint", player, world, false, true);
+    Commands.call("spawnpoint @p ~ ~ ~", player, world, false, true);
     stack.shrink(1);
     return "SUCCESS";
 };
