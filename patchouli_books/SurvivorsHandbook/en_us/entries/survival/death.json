@@ -5,7 +5,7 @@
   "pages": [
 	{
     "type": "text",
-    "text": "Oh, this cursed destiny! All I know is that after taking fatal damage, I will always wake up only with what I had equipped, but permanently damaged.$(br)$(#158B1D)You keep your main-hand item, armor and baubles on death but they lose 10% durability.$()"
+    "text": "Oh, this cursed destiny! All I know is that after taking fatal damage, I will always wake up only with what I had equipped, but permanently damaged.$(br2)$(#158B1D)You keep your main-hand item, armor and baubles on death but they lose 5% durability.$()"
   },
   {
     "type": "text",
