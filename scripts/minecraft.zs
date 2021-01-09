@@ -175,11 +175,11 @@ recipes.addShaped("black slime block",<quark:color_slime:2>,[
 val coarseMatArray = [<minecraft:dirt:0>,<biomesoplenty:dirt:2>,<biomesoplenty:dirt:1>,<biomesoplenty:dirt:0>] as IItemStack[];
 val coarseDirtArray = [<minecraft:dirt:1>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>,<biomesoplenty:dirt:8>] as IItemStack[];
 
-for i,dirt in coarseDirtArray{
+for i, dirt in coarseDirtArray {
     recipes.remove(dirt);
-    recipes.addShaped(dirt,[
-        [coarseMatArray[i],<ore:gravel>],
-        [<ore:gravel>,coarseMatArray[i]]
+    recipes.addShaped(dirt * 4, [
+        [coarseMatArray[i], <ore:gravel>],
+        [<ore:gravel>, coarseMatArray[i]]
     ]);
 }
 
@@ -1181,44 +1181,3 @@ recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[<contenttw
 
 // Fragile Glass And Thin Ice
 recipes.removeByMod("fragileglassft");
-
-// Charset Materials
-mods.charset.MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<betternether:stalagnate_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_mulberry>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<betterwithaddons:planks_sakura>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:tower_wood>, "block", "wood", "plank");
-// Default variants have to be added due to Charset not detecting wood that doesn't have a log to plank recipe 
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:1>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:2>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:3>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:4>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:5>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:6>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:7>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:8>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:9>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:10>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:11>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:12>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:13>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:14>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<biomesoplenty:planks_0:15>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<defiledlands:tenebra_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<iceandfire:dreadwood_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<pyrotech:planks_tarred>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<rustic:planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<rustic:planks:1>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<aether_legacy:skyroot_plank>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:twilight_oak_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:canopy_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:mangrove_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:dark_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:time_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:trans_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:mine_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:sort_planks>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<twilightforest:huge_stalk>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<pyrotech:pile_wood_chips>, "block", "wood", "plank");
-mods.charset.MaterialRegistry.registerTypes(<mowziesmobs:painted_acacia>, "block", "wood", "plank");
