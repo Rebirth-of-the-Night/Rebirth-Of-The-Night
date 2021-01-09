@@ -29,10 +29,13 @@ import mods.contenttweaker.IItemRightClick;
 val slider_eye = mods.contenttweaker.VanillaFactory.createItem("slider_eye");
 slider_eye.register();
 
-val arcane_focus_u = VanillaFactory.createItem("arcane_focus_unattuned");
-arcane_focus_u.maxStackSize = 1;
-arcane_focus_u.maxDamage = 16;
-arcane_focus_u.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+val unattuned_focus = mods.contenttweaker.VanillaFactory.createItem("unattuned_focus");
+unattuned_focus.register();
+
+val arcane_focus = VanillaFactory.createItem("arcane_focus");
+arcane_focus.maxStackSize = 1;
+arcane_focus.maxDamage = 16;
+arcane_focus.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     if (world.getBlockState(pos) == <block:dimstack:bedrock:0>) {
         if (!world.remote) {
             world.setBlockState(<block:minecraft:air>, pos);
@@ -42,7 +45,7 @@ arcane_focus_u.onItemUse = function(player, world, pos, hand, facing, blockHit) 
     }
     return ActionResult.pass();
 };
-arcane_focus_u.register();
+arcane_focus.register();
 
 /* WIP FANCY ANIMATION VERSION
 val arcane_eye_u = VanillaFactory.createItem("arcane_eye_unattuned");
