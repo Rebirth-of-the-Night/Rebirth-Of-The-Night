@@ -14,8 +14,8 @@ import crafttweaker.item.IItemStack;
 <butterflies:butterfly_case>.displayName = "Butterfly Display Case";
 
 // Progression and CoT
-<contenttweaker:spawn_scroll>.displayName = "Scroll of New Life";
-<contenttweaker:spawn_scroll>.addTooltip("ONE TIME USE! Right-click to set your spawn point to where you are standing.");
+<contenttweaker:spawn_scroll>.displayName = "§6Scroll of New Life";
+<contenttweaker:spawn_scroll>.addTooltip("One time use. Right-click to set your spawn point to where you are standing.");
 
 <contenttweaker:shard_of_night>.displayName = "§5Shard of Night";
 <contenttweaker:volatile_core>.displayName = "§5Volatile Core";
