@@ -18,6 +18,19 @@ RecipeBuilder.get("mage")
   .addOutput(<contenttweaker:magicked_lens>)
   .create();
 
+//Unattuned Focus
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<biomesoplenty:log_1:5>, <contenttweaker:slider_eye>, <biomesoplenty:log_1:5>],
+    [<biomesoplenty:log_1:5>, null, <biomesoplenty:log_1:5>],
+    [<biomesoplenty:log_1:5>, <contenttweaker:magicked_lens>, <biomesoplenty:log_1:5>]])
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addTool(<contenttweaker:mind_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<contenttweaker:unattuned_focus>)
+  .create();
+
 // runes
 
 # inert
@@ -253,7 +266,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-RecipeBuilder.get("mage")
+  RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>],

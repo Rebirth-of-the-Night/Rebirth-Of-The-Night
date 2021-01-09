@@ -31,7 +31,7 @@ recipes.remove(<arcaneworld:ritual_table>);
 //Ritual Table
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:material_part:12>, <contenttweaker:vis_shard>, <contenttweaker:material_part:12>],
+    [<microblockcbe:microblock:1>.withTag({mat: "contenttweaker:block_electrum"}), <contenttweaker:vis_shard>, <microblockcbe:microblock:1>.withTag({mat: "contenttweaker:block_electrum"})],
     [<contenttweaker:vis_shard>, <minecraft:carpet:10>, <contenttweaker:vis_shard>],
     [<betterwithmods:material:20>, <hitwithaxe:debarked_magic>, <betterwithmods:material:20>]])
   .addTool(<contenttweaker:knowledge_rune>, 1)
@@ -48,4 +48,4 @@ ArcaneWorld.createRitualSummon("pixie", "Pixie Calling", "iceandfire:if_pixie", 
 //ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
 ArcaneWorld.createRitualCreateItem("undying_heart", "Heart Curse", <mod_lavacow:undyingheart>, [<contenttweaker:plague_rune>.anyDamage().transformDamage(),<defiledlands:black_heart>]);
 ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledlands:black_heart>, [<defiledlands:defilement_powder>,<mod_lavacow:undyingheart>]);
-ArcaneWorld.createRitualCreateItem("arcane_focus_unattuned", "Arcanic Intent", <contenttweaker:arcane_focus_unattuned>.withDamage(16), [<contenttweaker:slider_eye>,<aether_legacy:aetherium_core>,<contenttweaker:magicked_lens>]);
+ArcaneWorld.createRitualCreateItem("arcane_focus", "Arcanic Intent", <contenttweaker:arcane_focus>.withDamage(16), [<contenttweaker:unattuned_focus>,<contenttweaker:arcane_rune>,<contenttweaker:vis_shard>]);
