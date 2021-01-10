@@ -57,7 +57,7 @@ max_leveling=2
 leveling_buffer=0
 #
 # do not rotate template randomly when built (1 = no rotation)
-preventRotation=0
+preventRotation=1
 #
 # treat water/lava blocks as air and protect them from rule0 (1 = yes)
 preserve_water=0
