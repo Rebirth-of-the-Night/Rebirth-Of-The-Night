@@ -132,9 +132,9 @@ recipes.addShaped("sfs_rod", <quark:iron_rod>,[
 // Soul Bead
 RecipeBuilder.get("mage")
   .setShaped([
-	[<quark:soul_powder>, <bountifulbaubles:spectralsilt>, <quark:soul_powder>],
-	[<bountifulbaubles:spectralsilt>, <betterwithmods:material:38>, <bountifulbaubles:spectralsilt>], 
-	[<quark:soul_powder>, <bountifulbaubles:spectralsilt>, <quark:soul_powder>]])
+    [<quark:soul_powder>, <contenttweaker:vis_sliver>, <quark:soul_powder>],
+    [<contenttweaker:vis_sliver>, <betterwithmods:material:38>, <contenttweaker:vis_sliver>],
+    [<quark:soul_powder>, <contenttweaker:vis_sliver>, <quark:soul_powder>]])
   .addTool(<contenttweaker:soul_rune>, 1)
   .setMinimumTier(1)
   .setMaximumTier(1)
