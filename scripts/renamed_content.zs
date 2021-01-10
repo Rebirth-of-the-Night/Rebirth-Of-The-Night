@@ -28,6 +28,8 @@ import crafttweaker.item.IItemStack;
 <contenttweaker:dormant_ardicite_onyx>.displayName = "Dormant Ardicite Onyx";
 
 <contenttweaker:cooking_kit>.displayName = "Cooking Kit";
+<contenttweaker:rocky_dirt>.displayName = "Rocky Dirt";
+
 
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
