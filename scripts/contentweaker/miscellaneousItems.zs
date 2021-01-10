@@ -91,14 +91,6 @@ cooking_kit.register();
 
 val spawn_scroll = VanillaFactory.createItem("spawn_scroll");
 spawn_scroll.maxStackSize = 1;
-spawn_scroll.itemRightClick = function(stack, world, player, hand) {
-    Commands.call("spawnpoint @p ~ ~ ~", player, world, false, true);
-    stack.shrink(1);
-    if (world.isRemote()) {
-        Commands.call('tellraw @p ["",{"text":"Your destiny has been written....","color":"gray","italic":true}]', player, world);
-    }
-    return "SUCCESS";
-};
 spawn_scroll.register();
 
 // Cut Gems

@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+spawnpoint @p ~ ~ ~
+tellraw @p ["",{"text":"Your destiny has been written...","color":"dark_red","italic":true}]

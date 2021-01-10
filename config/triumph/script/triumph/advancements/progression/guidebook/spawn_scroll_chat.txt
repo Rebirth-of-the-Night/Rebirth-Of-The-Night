@@ -1,0 +1,16 @@
+setIcon(<minecraft:dirt>)
+setTitle("spawn scroll")
+setDescription("spawn scroll")
+
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:spawn_scroll_chat")
+
+
+criteria = addCriteria("right click", "triumph:right_click_item")
+criteria.setItem(<contenttweaker:spawn_scroll>)
+
+setShowToast(false)
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()
