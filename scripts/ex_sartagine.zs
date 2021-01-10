@@ -57,7 +57,7 @@ recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
     [cobble, ckit_temp, cobble]
 ]);
 
-recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>*64, [
+recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
     <animania:carving_knife>,
     <minecraft:glass_bottle>,
     <minecraft:bowl>,

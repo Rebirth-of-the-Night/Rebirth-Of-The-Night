@@ -1,3 +1,4 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p start
+give @p contenttweaker:spawn_scroll
