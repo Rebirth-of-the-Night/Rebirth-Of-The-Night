@@ -76,25 +76,25 @@
    },
    {
       "mob": "aether_legacy:sun_spirit",
-      "item": "aether_legacy:pheonix_helmet",
+      "item": "aether_legacy:phoenix_helmet",
       "itemcount": "1",
       "random": "0.25"
    },
    {
       "mob": "aether_legacy:sun_spirit",
-      "item": "aether_legacy:pheonix_chestplate",
+      "item": "aether_legacy:phoenix_chestplate",
       "itemcount": "1",
       "random": "0.25"
    },
    {
       "mob": "aether_legacy:sun_spirit",
-      "item": "aether_legacy:pheonix_leggings",
+      "item": "aether_legacy:phoenix_leggings",
       "itemcount": "1",
       "random": "0.25"
    },
    {
       "mob": "aether_legacy:sun_spirit",
-      "item": "aether_legacy:pheonix_boots",
+      "item": "aether_legacy:phoenix_boots",
       "itemcount": "1",
       "random": "0.25"
    },
