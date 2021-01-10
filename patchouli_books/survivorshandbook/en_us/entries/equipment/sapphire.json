@@ -6,11 +6,11 @@
   "pages": [
     {
       "type": "text",
-      "text": "Studying the $(item)sapphire$() gem was rather strange. I can't determine whether this material is a solid or a liquid. It maintains it form, but it texture is liquid, almost as if something is holding the liquid together. I felt a sense of longing within this material, like it wanted to leave it solid state and explore the world freely."
+      "text": "An ocean of infinite possibilities lies within $(item)sapphire$(), literally. Holding it in my hands feels unlike any mineral I’ve held before, seeming to be a solid in form but a liquid in sensation. I felt a sense of longing within this material, like it wanted to leave it solid state and explore the world freely."
     },
     {
       "type": "text",
-      "text": "Being aquatic in nature, the gem provides $(thing)water breathing$() and other assorted $(thing)water-based abilities$(). The utility applications for this particular gem seems plentiful. The tools crafted allow you to $(thing)explore land much easier$(), like you're flowing across the terrain. I feel free when using sapphire. It makes me want to explore this world and see what else it has to offer."
+      "text": "Being aquatic in nature, I was able to hold my breath for extended periods of time underwater and other assorted $(thing)water-based abilities$(). The utility applications for this particular gem seems plentiful. The tools crafted allow you to $(thing)explore land much easier$(), like you're flowing across the terrain. I feel free when using sapphire. It makes me want to explore this world and see what else it has to offer."
     },
     {
       "type": "relations",
