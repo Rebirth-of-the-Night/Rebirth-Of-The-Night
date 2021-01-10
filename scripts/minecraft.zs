@@ -11,6 +11,9 @@ import mods.artisanworktables.builder.RecipeBuilder;
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 //brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
+recipes.remove(<minecraft:mushroom_stew>);
+
+
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
 

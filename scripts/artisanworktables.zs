@@ -8,6 +8,20 @@ JEI.removeAndHide(<artisanworktables:design_pattern>);
 JEI.removeAndHide(<artisanworkstumps:log_basin>);
 JEI.removeAndHide(<artisanworkstumps:stone_basin>);
 
+recipes.remove(<artisanworktables:artisans_lens_gold>);
+recipes.addShaped("artisans_lens_gold", <artisanworktables:artisans_lens_gold>, [
+    [null, null, null],
+    [<minecraft:gold_ingot>, <minecraft:glass_pane>, <minecraft:gold_ingot>], 
+    [<ore:stickWood>, null, null]
+]);
+
+recipes.remove(<artisanworktables:artisans_carver_gold>);
+recipes.addShaped("artisans_carver_gold", <artisanworktables:artisans_carver_gold>, [
+    [null, null, <minecraft:gold_ingot>],
+    [<minecraft:string>, <ore:stickWood>, <minecraft:string>], 
+    [<minecraft:gold_ingot>, null, null]
+]);
+
 var disabledStumps as string[] = [
     "tailor",
     "carpenter",
