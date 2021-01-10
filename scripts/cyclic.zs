@@ -127,10 +127,11 @@ Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, lightarrow, <artifacts:shock_pendant>],
-    [null, destarrow, lightarrow],
-    [ironrod, null, null]])
-  .addTool(<contenttweaker:arcane_rune>, 1)
+    [null, <biomesoplenty:log_1:5>, <contenttweaker:electrified_zanite>],
+    [null, <spartanfire:witherbone_pole>, <biomesoplenty:log_1:5>],
+    [<contenttweaker:vis_shard>, null, null]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .addOutput(<cyclicmagic:ender_lightning>)
