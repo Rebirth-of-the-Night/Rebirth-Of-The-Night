@@ -61,6 +61,19 @@ mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_clownfish>);
 
 mods.jei.JEI.removeAndHide(<artifacts:ultimate_pendant>);
+mods.ltt.LootTable.removeGlobalItem("artifacts:ultimate_pendant");
+
+mods.jei.JEI.removeAndHide(<artifacts:flame_pendant>);
+mods.ltt.LootTable.removeGlobalItem("artifacts:flame_pendant");
+
+mods.jei.JEI.removeAndHide(<artifacts:shock_pendant>);
+mods.ltt.LootTable.removeGlobalItem("artifacts:shock_pendant");
+
+mods.jei.JEI.removeAndHide(<artifacts:thorn_pendant>);
+mods.ltt.LootTable.removeGlobalItem("artifacts:thorn_pendant");
+
+
+
 mods.jei.JEI.removeAndHide(<bountifulbaubles:amuletcross>);
 
 // Remove baubles
@@ -69,6 +82,7 @@ mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
 
 mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketankhcharm");
 mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketankhcharm>);
+
 
 
 mods.jei.JEI.removeAndHide(<bountifulbaubles:flaregun>);
@@ -115,11 +129,8 @@ mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 <bountifulbaubles:amuletsinpride>.displayName = "§bPride Amulet";
 <bountifulbaubles:amuletsinwrath>.displayName = "§bWrath Amulet";
 <bountifulbaubles:amuletcross>.displayName = "§bCross Amulet";
-<artifacts:flame_pendant>.displayName = "§bFlame Amulet";
-<artifacts:shock_pendant>.displayName = "§bShock Amulet";
-<artifacts:thorn_pendant>.displayName = "§bThorn Amulet";
+
 <artifacts:panic_necklace>.displayName = "§bPanic Amulet";
-<artifacts:ultimate_pendant>.displayName = "§bAmulet of Ultimate Wrath";
 <behgameon:accessory_5>.displayName = "§bAmulet";
 <behgameon:accessory_6>.displayName = "§bAmulet";
 <behgameon:accessory_7>.displayName = "§bAmulet";
