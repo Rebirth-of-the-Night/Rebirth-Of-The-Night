@@ -216,7 +216,7 @@
 	"maxlight": 7,
 	"helditem": ["2=spartanweaponry:club_wood", "4=spartanweaponry:saber_iron", "3=spartanweaponry:saber_bronze", "3=primitivemobs:goblin_mace", "4=minecraft:iron_pickaxe", "2=mod_lavacow:tooth_dagger", "4=spartanweaponry:hammer_iron", "4=spartanweaponry:mace_iron", "4=mod_lavacow:vespa_dagger", "1=mod_lavacow:bonesword"],
 	"maxcount": {
-        "amount": 30,
+        "amount": 23,
         "perplayer": true
     },
 	"result": "allow"
