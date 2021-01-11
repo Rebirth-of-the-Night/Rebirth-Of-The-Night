@@ -45,6 +45,7 @@ halite.setBlockSoundType(<soundtype:glass>);
 halite.setBlockLayer("TRANSLUCENT");
 halite.setTranslucent(true);
 halite.setLightOpacity(0);
+halite.setToolLevel(0);
 halite.register();
 
 //Speleothems
@@ -61,6 +62,7 @@ dolomite_straws.setFullBlock(false);
 dolomite_straws.setLightOpacity(0);
 dolomite_straws.setCreativeTab(<creativetab:decorations>);
 dolomite_straws.setBlockSoundType(<soundtype:stone>);
+dolomite_straws.setToolLevel(0);
 dolomite_straws.register();
 
 //block_electrum
@@ -95,6 +97,8 @@ var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Iron>);
 crucible.setCreativeTab(<creativetab:buildingBlocks>);
 crucible.setBlockSoundType(<soundtype:ground>);
 crucible.setFullBlock(false);
+crucible.setToolLevel(0);
+crucible.setToolClass("shovel");
 crucible.register();
 
 //Unfired Rustic Vase
@@ -111,6 +115,8 @@ pot_unfired.setFullBlock(false);
 pot_unfired.setLightOpacity(0);
 pot_unfired.setCreativeTab(<creativetab:buildingBlocks>);
 pot_unfired.setBlockSoundType(<soundtype:ground>);
+pot_unfired.setToolLevel(0);
+pot_unfired.setToolClass("shovel");
 pot_unfired.register();
 
 //Broken Elevator
@@ -206,6 +212,8 @@ var witheredblock = VanillaFactory.createBlock("witheredblock", <blockmaterial:S
 witheredblock.setCreativeTab(<creativetab:buildingBlocks>);
 witheredblock.setBlockSoundType(<soundtype:sand>);
 witheredblock.setGravity(true);
+witheredblock.setToolLevel(1);
+witheredblock.setToolClass("shovel");
 witheredblock.register();
 
 var starblock = VanillaFactory.createBlock("starblock", <blockmaterial:Glass>);
@@ -220,6 +228,7 @@ var unfiredrefractory = VanillaFactory.createBlock("unfiredrefractory", <blockma
 unfiredrefractory.setCreativeTab(<creativetab:buildingBlocks>);
 unfiredrefractory.setBlockSoundType(<soundtype:ground>);
 unfiredrefractory.setToolClass("shovel");
+unfiredrefractory.setToolLevel(0);
 unfiredrefractory.register();
 
 var modelingrefractory = VanillaFactory.createBlock("modelingrefractory", <blockmaterial:Ground>);
@@ -227,6 +236,7 @@ modelingrefractory.setCreativeTab(<creativetab:buildingBlocks>);
 modelingrefractory.setBlockSoundType(<soundtype:ground>);
 modelingrefractory.setGravity(true);
 modelingrefractory.setToolClass("shovel");
+modelingrefractory.setToolLevel(0);
 modelingrefractory.register();
 
 var refracotta = VanillaFactory.createBlock("refracotta", <blockmaterial:Rock>);
@@ -331,6 +341,14 @@ refracotta_white.setBlockSoundType(<soundtype:stone>);
 refracotta_white.setToolClass("pickaxe");
 refracotta_white.register();
 
+//Wood Boards
+var oak_boards = VanillaFactory.createBlock("oak_boards", <blockmaterial:Wood>);
+oak_boards.setCreativeTab(<creativetab:buildingBlocks>);
+oak_boards.setToolClass("pickaxe");
+oak_boards.setBlockHardness(4.0);
+oak_boards.setToolLevel(1);
+oak_boards.register();
+
 var egg_block = VanillaFactory.createBlock("egg_block", <blockmaterial:Dragon_Egg>);
 egg_block.setCreativeTab(<creativetab:decorations>);
 egg_block.setBlockSoundType(<soundtype:stone>);
@@ -339,13 +357,15 @@ egg_block.setFullBlock(false);
 egg_block.setGravity(true);
 egg_block.setLightOpacity(0);
 egg_block.setBlockLayer("CUTOUT");
+egg_block.setToolLevel(0);
 egg_block.register();
 
 var micomi_foundation = VanillaFactory.createBlock("micomi_foundation", <blockmaterial:Rock>);
 micomi_foundation.setCreativeTab(<creativetab:buildingBlocks>);
 micomi_foundation.setBlockSoundType(<soundtype:stone>);
-micomi_foundation.setBlockHardness(3.0);
+micomi_foundation.setBlockHardness(4.0);
 micomi_foundation.setBlockResistance(20.0);
+micomi_foundation.setToolLevel(0);
 micomi_foundation.register();
 
 var fire_block = VanillaFactory.createBlock("fire_block", <blockmaterial:Fire>);
@@ -362,7 +382,7 @@ planarspsp2.setBlockHardness(350.0);
 planarspsp2.setBlockResistance(3600000.0);
 planarspsp2.setBlockSoundType(<soundtype:stone>);
 planarspsp2.setToolClass("pickaxe");
-planarspsp2.setToolLevel(6);
+planarspsp2.setToolLevel(99);
 planarspsp2.register();
 
 var salty_crust = VanillaFactory.createBlock("salty_crust", <blockmaterial:Ground>);
@@ -371,6 +391,7 @@ salty_crust.setBlockSoundType(<soundtype:ground>);
 salty_crust.setToolClass("shovel");
 salty_crust.setBlockHardness(1.0);
 salty_crust.setBlockResistance(5.0);
+salty_crust.setToolLevel(0);
 salty_crust.register();
 
 var rocky_dirt = VanillaFactory.createBlock("rocky_dirt", <blockmaterial:Ground>);
@@ -379,6 +400,7 @@ rocky_dirt.setBlockSoundType(<soundtype:ground>);
 rocky_dirt.setToolClass("shovel");
 rocky_dirt.setBlockHardness(4.0);
 rocky_dirt.setBlockResistance(5.0);
+rocky_dirt.setToolLevel(1);
 rocky_dirt.register();
 
 //sandstone native copper
@@ -388,6 +410,7 @@ n_copper_sandstone.setBlockSoundType(<soundtype:stone>);
 n_copper_sandstone.setBlockHardness(4.0);
 n_copper_sandstone.setBlockResistance(15.0);
 n_copper_sandstone.setBeaconBase(true);
+n_copper_sandstone.setToolLevel(0);
 n_copper_sandstone.register();
 
 var n_copper_sandstone_red = VanillaFactory.createBlock("n_copper_sandstone_red", <blockmaterial:Rock>);
@@ -396,6 +419,7 @@ n_copper_sandstone_red.setBlockSoundType(<soundtype:stone>);
 n_copper_sandstone_red.setBlockHardness(4.0);
 n_copper_sandstone_red.setBlockResistance(15.0);
 n_copper_sandstone_red.setBeaconBase(true);
+n_copper_sandstone_red.setToolLevel(0);
 n_copper_sandstone_red.register();
 
 //cobblestone paths
@@ -412,6 +436,7 @@ cobblestone_path_coade.setFullBlock(false);
 cobblestone_path_coade.setLightOpacity(254);
 cobblestone_path_coade.setSlipperiness(0.75f);
 cobblestone_path_coade.setCreativeTab(<creativetab:decorations>);
+cobblestone_path_coade.setToolLevel(0);
 cobblestone_path_coade.register();
 
 var cobblestone_path_red_granite = VanillaFactory.createBlock("cobblestone_path_red_granite", <blockmaterial:Rock>);
@@ -427,6 +452,7 @@ cobblestone_path_red_granite.setFullBlock(false);
 cobblestone_path_red_granite.setLightOpacity(254);
 cobblestone_path_red_granite.setSlipperiness(0.75f);
 cobblestone_path_red_granite.setCreativeTab(<creativetab:decorations>);
+cobblestone_path_red_granite.setToolLevel(0);
 cobblestone_path_red_granite.register();
 
 //torch posts / vanilla torch post is BWM's shaft
@@ -443,6 +469,7 @@ glareshaft.setFullBlock(false);
 glareshaft.setLightOpacity(0);
 glareshaft.setBlockLayer("CUTOUT");
 glareshaft.setCreativeTab(<creativetab:buildingBlocks>);
+glareshaft.setToolLevel(0);
 glareshaft.register();
 
 //Yeast flour
@@ -460,6 +487,7 @@ yeast_flour.setLightOpacity(0);
 yeast_flour.setBlockLayer("TRANSLUCENT");
 yeast_flour.setCreativeTab(<creativetab:harvestCraft>);
 yeast_flour.setBlockSoundType(<soundtype:cloth>);
+yeast_flour.setToolLevel(0);
 yeast_flour.register();
 
 //Yeast
@@ -477,4 +505,5 @@ yeast.setLightOpacity(0);
 yeast.setBlockLayer("TRANSLUCENT");
 yeast.setCreativeTab(<creativetab:harvestCraft>);
 yeast.setBlockSoundType(<soundtype:cloth>);
+yeast.setToolLevel(0);
 yeast.register();

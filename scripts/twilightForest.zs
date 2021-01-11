@@ -157,9 +157,9 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<dungeontactics:magic_powder>, <contenttweaker:material_part:16>, <dungeontactics:magic_powder>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:material_part:16>, <contenttweaker:vis_sliver>],
     [<contenttweaker:material_part:16>, <minecraft:compass>, <contenttweaker:material_part:16>], 
-    [<bountifulbaubles:spectralsilt>, <contenttweaker:material_part:16>, <bountifulbaubles:spectralsilt>]])
+    [<contenttweaker:vis_sliver>, <contenttweaker:material_part:16>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:knowledge_rune>, 1)
   .addOutput(<twilightforest:maze_map_focus>)
   .setMinimumTier(1)

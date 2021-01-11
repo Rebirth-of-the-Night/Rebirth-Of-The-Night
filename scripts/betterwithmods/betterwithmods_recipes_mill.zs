@@ -16,18 +16,6 @@ Mill.remove([<betterwithmods:material:44>]);
 Mill.addRecipe([<biomesoplenty:plant_1:4>],[<betterwithmods:raw_pastry:3>]);
 //Coke Powder
 Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
-//Magic Powder
-Mill.builder()
-.buildRecipe([<bountifulbaubles:spectralsilt>], [<dungeontactics:magic_powder>*2])
-.setPriority(4)
-.setGrindType("disenchanter:block.disenchantment_table.use")
-.build();
-
-Mill.builder()
-.buildRecipe([<nyx:fallen_star>], [<bountifulbaubles:spectralsilt>*1])
-.setPriority(20)
-.setGrindType("iceandfire:mermaid_idle")
-.build();
 
 //Myrmex Resin
 //Desert Myrmex

@@ -239,7 +239,7 @@ recipes.addShaped(<betterwithaddons:wrought_bars> * 6, [[null, null, null],[<min
 
 // Spirit potion. This is TEMPORARY until we can find a way to spawn spirits at night.
 
-recipes.addShaped(<betterwithaddons:ancestry_bottle>, [[null, null, null],[null, <minecraft:glass_bottle>, null], [<nyx:fallen_star>, <quark:soul_powder>, <bountifulbaubles:spectralsilt>]]);
+recipes.addShaped(<betterwithaddons:ancestry_bottle>, [[null, null, null],[null, <minecraft:glass_bottle>, null], [<nyx:fallen_star>, <quark:soul_powder>, <contenttweaker:vis_sliver>]]);
 
 //INFUSER
 recipes.addShaped(<betterwithaddons:ancestry_infuser>, [

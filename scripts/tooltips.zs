@@ -150,8 +150,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 
 #Pyrotech
-<pyrotech:flint_and_tinder>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
-<pyrotech:flint_and_tinder>.addTooltip("Not as convenient as a flint and steel.");
+<pyrotech:flint_and_tinder:*>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
+<pyrotech:flint_and_tinder:*>.addTooltip("Not as convenient as a flint and steel.");
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
 <contenttweaker:refracotta>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 <contenttweaker:modelingrefractory>.addTooltip("Malleable and Homogeneous, ready for modeling.");

@@ -41,6 +41,7 @@ mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_salmon");
 mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_salmon");
 mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_clownfish");
 mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
+mods.jei.JEI.removeAndHide(<bountifulbaubles:spectralsilt>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_porkchop>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_porkchop>);
 mods.jei.JEI.removeAndHide(<artifacts:everlasting_beef>);
