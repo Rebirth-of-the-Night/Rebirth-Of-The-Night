@@ -5,7 +5,7 @@
     ],
     "whitelist": [
       {
-        "slot": "baubles_trinket"
+        "class": "IBauble"
       }
     ],
     "blacklist": [
