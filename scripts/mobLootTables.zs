@@ -1,43 +1,41 @@
 import loottweaker.LootTweaker;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.data.IData;
 import crafttweaker.item.WeightedItemStack;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
+import mods.ltt.LootTable;
 
 //vanilla
 val irongolem = LootTweaker.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
-mods.ltt.LootTable.removeGlobalItem("minecraft:spawn_egg");
-mods.ltt.LootTable.removeGlobalItem("minecraft:shield");
-mods.ltt.LootTable.removeGlobalItem("minecraft:glowstone_dust");
+LootTable.removeGlobalItem("minecraft:spawn_egg");
+LootTable.removeGlobalItem("minecraft:shield");
+LootTable.removeGlobalItem("minecraft:glowstone_dust");
 
 <entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3);
 <entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,3);
 
 // double security for godswords... you know... I have trust issues after those rough few patches
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:dawn_star");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:vampiric_blade");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:gladiolus");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:draconic_blade");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:eye_end_blade");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:crystaline_blade");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:glacial_blade");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:aethers_guard");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:wither_bane");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:adminium_ark");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_aqueous");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_candy");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_infinity");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_keyblade");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_master");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_molten");
-mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
+LootTable.removeGlobalItem("msmlegacy:dawn_star");
+LootTable.removeGlobalItem("msmlegacy:vampiric_blade");
+LootTable.removeGlobalItem("msmlegacy:gladiolus");
+LootTable.removeGlobalItem("msmlegacy:draconic_blade");
+LootTable.removeGlobalItem("msmlegacy:eye_end_blade");
+LootTable.removeGlobalItem("msmlegacy:crystaline_blade");
+LootTable.removeGlobalItem("msmlegacy:glacial_blade");
+LootTable.removeGlobalItem("msmlegacy:aethers_guard");
+LootTable.removeGlobalItem("msmlegacy:wither_bane");
+LootTable.removeGlobalItem("msmlegacy:adminium_ark");
+LootTable.removeGlobalItem("msmlegacy:relic_aqueous");
+LootTable.removeGlobalItem("msmlegacy:relic_candy");
+LootTable.removeGlobalItem("msmlegacy:relic_infinity");
+LootTable.removeGlobalItem("msmlegacy:relic_keyblade");
+LootTable.removeGlobalItem("msmlegacy:relic_master");
+LootTable.removeGlobalItem("msmlegacy:relic_master");
+LootTable.removeGlobalItem("msmlegacy:relic_molten");
+LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
 
 <entity:iceandfire:if_troll>.addPlayerOnlyDrop(<behgameon:accessory_1> % 35, 1, 1);
@@ -59,10 +57,10 @@ mods.ltt.LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
 
 // aether
-mods.ltt.LootTable.removeGlobalItem("aether_legacy:life_shard");
+LootTable.removeGlobalItem("aether_legacy:life_shard");
 
 // defiled lands
-mods.ltt.LootTable.removeGlobalItem("defiledlands:umbrium_ingot");
+LootTable.removeGlobalItem("defiledlands:umbrium_ingot");
 
 // SpecialMobs
 val lemonSlime = LootTweaker.getTable("specialmobs:entities/slime/lemon");
@@ -83,11 +81,11 @@ grapeSlime.clear();
 <entity:betteranimalsplus:zotzpyre>.addDrop(<contenttweaker:monster_hide>,1,2);
 
 //DungeonTactics
-mods.ltt.LootTable.removeGlobalItem("dungeontactics:phylactery");
+LootTable.removeGlobalItem("dungeontactics:phylactery");
 
 
 //Fish's Undead Rising
-mods.ltt.LootTable.removeGlobalItem("mod_lavacow:hyphae");
+LootTable.removeGlobalItem("mod_lavacow:hyphae");
 
 //PrimitiveMobs ######################
 <entity:primitivemobs:harpy>.removeDrop(<minecraft:gold_nugget>);
@@ -136,7 +134,6 @@ filchMain.addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setCount(1, 1)]
 filchMain.addItemEntryHelper(<harvestcraft:pizzasliceitem>, 1, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_egg>, 1, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<dungeontactics:bag_food>, 1, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<bountifulbaubles:spectralsilt>, 1, 0, [Functions.setCount(1, 1)], []);
 
 //Filch Lizard Steal Items
 val stealFilch = LootTweaker.getTable("primitivemobs:entities/special/filch_lizard_steal");
@@ -164,9 +161,6 @@ filch14.addItemEntry(<simpleores:adamantium_ingot>, 1);
 
 val filch15 = stealFilch.addPool("filch_lizard_015", 1, 1, 0, 0);
 filch15.addItemEntry(<simpleores:onyx_gem>, 1);
-
-val filch16 = stealFilch.addPool("filch_lizard_016", 1, 1, 0, 0);
-filch16.addItemEntry(<bountifulbaubles:spectralsilt>, 1);
 
 val filch17 = stealFilch.addPool("filch_lizard_017", 1, 1, 0, 0);
 filch17.addItemEntry(<iceandfire:myrmex_desert_egg>, 1);

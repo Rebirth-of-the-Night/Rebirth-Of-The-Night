@@ -1172,8 +1172,8 @@ recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
 
 recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
 	[<ore:hideTanned>,<ore:durableFiber>, <ore:hideTanned>],
-    	[<ore:hideTanned>, <contenttweaker:vis_speck>, <ore:hideTanned>],
-    	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
+    [<ore:hideTanned>, <contenttweaker:vis_speck>, <ore:hideTanned>],
+	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
 ]);
 
 
@@ -1181,10 +1181,15 @@ recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
 
 recipes.remove(<minecraft:enchanting_table>);
 
-recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],[<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [
+    [<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],
+    [<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], 
+    [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+]);
 
 
 // Fragile Glass And Thin Ice
 recipes.removeByMod("fragileglassft");
 
 recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecraft:stick>]);
+recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweaker:broken_stick>, <contenttweaker:broken_stick>, <ore:glue> | <ore:slimeball>]);

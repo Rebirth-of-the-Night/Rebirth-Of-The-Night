@@ -22,7 +22,7 @@
   {
     "content": "scalinghealth:heartdust",
     "unitWorth": 2000,
-   "amount": {
+    "amount": {
       "min": 16,
       "max": 25
     }
@@ -110,8 +110,8 @@
     }
   },
   {
-    "content": "bountifulbaubles:spectralsilt",
-    "unitWorth": 4000,
+    "content": "contenttweaker:vis_shard",
+    "unitWorth": 5500,
     "weight": 5,
     "amount": {
       "min": 1,

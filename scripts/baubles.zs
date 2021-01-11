@@ -5,6 +5,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.ltt.LootTable;
+import mods.betterwithaddons.Infuser;
+import mods.jei.JEI;
 
 
 /////////// Repurposed Behgameon Baubles ////////////
@@ -21,80 +24,80 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 
 // Remove everlasting food
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_porkchop");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_beef");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_beef");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_chicken");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_chicken");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_rotten_flesh");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_spider_eye");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_rabbit");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_rabbit");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_mutton");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_mutton");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_rabbit_stew");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cod");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_cod");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_salmon");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_cooked_salmon");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_clownfish");
-mods.ltt.LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
-mods.jei.JEI.removeAndHide(<bountifulbaubles:spectralsilt>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_porkchop>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_porkchop>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_beef>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_beef>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_chicken>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_chicken>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_rotten_flesh>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_spider_eye>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_rabbit>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_rabbit>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_mutton>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_mutton>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_rabbit_stew>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cod>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_cod>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_salmon>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
-mods.jei.JEI.removeAndHide(<artifacts:everlasting_clownfish>);
+LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
+LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
+LootTable.removeGlobalItem("artifacts:everlasting_cooked_porkchop");
+LootTable.removeGlobalItem("artifacts:everlasting_beef");
+LootTable.removeGlobalItem("artifacts:everlasting_cooked_beef");
+LootTable.removeGlobalItem("artifacts:everlasting_chicken");
+LootTable.removeGlobalItem("artifacts:everlasting_cooked_chicken");
+LootTable.removeGlobalItem("artifacts:everlasting_rotten_flesh");
+LootTable.removeGlobalItem("artifacts:everlasting_spider_eye");
+LootTable.removeGlobalItem("artifacts:everlasting_rabbit");
+LootTable.removeGlobalItem("artifacts:everlasting_cooked_rabbit");
+LootTable.removeGlobalItem("artifacts:everlasting_mutton");
+LootTable.removeGlobalItem("artifacts:everlasting_cooked_mutton");
+LootTable.removeGlobalItem("artifacts:everlasting_rabbit_stew");
+LootTable.removeGlobalItem("artifacts:everlasting_cod");
+LootTable.removeGlobalItem("artifacts:everlasting_cooked_cod");
+LootTable.removeGlobalItem("artifacts:everlasting_salmon");
+LootTable.removeGlobalItem("artifacts:everlasting_cooked_salmon");
+LootTable.removeGlobalItem("artifacts:everlasting_clownfish");
+LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
+JEI.removeAndHide(<bountifulbaubles:spectralsilt>);
+JEI.removeAndHide(<artifacts:everlasting_porkchop>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_porkchop>);
+JEI.removeAndHide(<artifacts:everlasting_beef>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_beef>);
+JEI.removeAndHide(<artifacts:everlasting_chicken>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_chicken>);
+JEI.removeAndHide(<artifacts:everlasting_rotten_flesh>);
+JEI.removeAndHide(<artifacts:everlasting_spider_eye>);
+JEI.removeAndHide(<artifacts:everlasting_rabbit>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_rabbit>);
+JEI.removeAndHide(<artifacts:everlasting_mutton>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_mutton>);
+JEI.removeAndHide(<artifacts:everlasting_rabbit_stew>);
+JEI.removeAndHide(<artifacts:everlasting_cod>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_cod>);
+JEI.removeAndHide(<artifacts:everlasting_salmon>);
+JEI.removeAndHide(<artifacts:everlasting_cooked_salmon>);
+JEI.removeAndHide(<artifacts:everlasting_clownfish>);
 
-mods.jei.JEI.removeAndHide(<artifacts:ultimate_pendant>);
-mods.ltt.LootTable.removeGlobalItem("artifacts:ultimate_pendant");
+JEI.removeAndHide(<artifacts:ultimate_pendant>);
+LootTable.removeGlobalItem("artifacts:ultimate_pendant");
 
-mods.jei.JEI.removeAndHide(<artifacts:flame_pendant>);
-mods.ltt.LootTable.removeGlobalItem("artifacts:flame_pendant");
+JEI.removeAndHide(<artifacts:flame_pendant>);
+LootTable.removeGlobalItem("artifacts:flame_pendant");
 
-mods.jei.JEI.removeAndHide(<artifacts:shock_pendant>);
-mods.ltt.LootTable.removeGlobalItem("artifacts:shock_pendant");
+JEI.removeAndHide(<artifacts:shock_pendant>);
+LootTable.removeGlobalItem("artifacts:shock_pendant");
 
-mods.jei.JEI.removeAndHide(<artifacts:thorn_pendant>);
-mods.ltt.LootTable.removeGlobalItem("artifacts:thorn_pendant");
+JEI.removeAndHide(<artifacts:thorn_pendant>);
+LootTable.removeGlobalItem("artifacts:thorn_pendant");
 
 
 
-mods.jei.JEI.removeAndHide(<bountifulbaubles:amuletcross>);
+JEI.removeAndHide(<bountifulbaubles:amuletcross>);
 
 // Remove baubles
-mods.ltt.LootTable.removeGlobalItem("artifacts:tiny_shirt");
-mods.jei.JEI.removeAndHide(<artifacts:tiny_shirt>);
+LootTable.removeGlobalItem("artifacts:tiny_shirt");
+JEI.removeAndHide(<artifacts:tiny_shirt>);
 
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketankhcharm");
-mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketankhcharm>);
+LootTable.removeGlobalItem("bountifulbaubles:trinketankhcharm");
+JEI.removeAndHide(<bountifulbaubles:trinketankhcharm>);
 
 
 
-mods.jei.JEI.removeAndHide(<bountifulbaubles:flaregun>);
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flaregun");
-mods.jei.JEI.removeAndHide(<bountifulbaubles:flare_red>);
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:flare_red");
+JEI.removeAndHide(<bountifulbaubles:flaregun>);
+LootTable.removeGlobalItem("bountifulbaubles:flaregun");
+JEI.removeAndHide(<bountifulbaubles:flare_red>);
+LootTable.removeGlobalItem("bountifulbaubles:flare_red");
 
-mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
-mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
-mods.jei.JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
-mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
+JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
+JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
+JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
+JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 
 
 
@@ -159,25 +162,25 @@ mods.jei.JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 
 
 // Remove loot table for Bountiful Baubles
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketluckyhorseshoe");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:magicmirror");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketobsidianskull");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:shieldobsidian");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:enderdragonscale");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:brokenblackdragonscale");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringiron");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketshulkerheart");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:amuletsinwrath");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:amuletsinpride");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:amuletsingluttony");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringfreeaction");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketmagiclenses");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketbezoar");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:ringoverclocking");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketapple");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketbrokenheart");
-mods.ltt.LootTable.removeGlobalItem("bountifulbaubles:trinketvitamins");
+LootTable.removeGlobalItem("bountifulbaubles:trinketluckyhorseshoe");
+LootTable.removeGlobalItem("bountifulbaubles:magicmirror");
+LootTable.removeGlobalItem("bountifulbaubles:trinketobsidianskull");
+LootTable.removeGlobalItem("bountifulbaubles:shieldobsidian");
+LootTable.removeGlobalItem("bountifulbaubles:enderdragonscale");
+LootTable.removeGlobalItem("bountifulbaubles:brokenblackdragonscale");
+LootTable.removeGlobalItem("bountifulbaubles:ringiron");
+LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
+LootTable.removeGlobalItem("bountifulbaubles:trinketshulkerheart");
+LootTable.removeGlobalItem("bountifulbaubles:amuletsinwrath");
+LootTable.removeGlobalItem("bountifulbaubles:amuletsinpride");
+LootTable.removeGlobalItem("bountifulbaubles:amuletsingluttony");
+LootTable.removeGlobalItem("bountifulbaubles:ringfreeaction");
+LootTable.removeGlobalItem("bountifulbaubles:trinketmagiclenses");
+LootTable.removeGlobalItem("bountifulbaubles:trinketbezoar");
+LootTable.removeGlobalItem("bountifulbaubles:ringoverclocking");
+LootTable.removeGlobalItem("bountifulbaubles:trinketapple");
+LootTable.removeGlobalItem("bountifulbaubles:trinketbrokenheart");
+LootTable.removeGlobalItem("bountifulbaubles:trinketvitamins");
 
 
 
@@ -218,8 +221,8 @@ recipes.addShapeless("Wormhole to Return", <bountifulbaubles:potionrecall>,
 // Rings, amulets, oh my
 
 recipes.remove(<bountifulbaubles:amuletsinempty>);
-mods.jei.JEI.removeAndHide(<qualitytools:emerald_amulet>);
-mods.jei.JEI.removeAndHide(<qualitytools:emerald_ring>);
+JEI.removeAndHide(<qualitytools:emerald_amulet>);
+JEI.removeAndHide(<qualitytools:emerald_ring>);
 
 
 RecipeBuilder.get("mage")
@@ -401,7 +404,7 @@ RecipeBuilder.get("mage")
 
 recipes.remove(<bountifulbaubles:trinketmixeddragonscale>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketmixeddragonscale>,[
+Infuser.addShaped(<bountifulbaubles:trinketmixeddragonscale>,[
 [null, <endreborn:dragon_scales>, null],
 [<bountifulbaubles:trinketbezoar>, <minecraft:fermented_spider_eye>, <bountifulbaubles:trinketblackdragonscale>], 
 [<dungeontactics:charm_toxic>, <contenttweaker:spectral_shard>, <dungeontactics:charm_barren>]], 64);
@@ -410,7 +413,7 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketmixeddragonscal
 
 recipes.remove(<bountifulbaubles:ringfreeaction>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringfreeaction>,[
+Infuser.addShaped(<bountifulbaubles:ringfreeaction>,[
 [null, <ore:ingotMythril>, null],
 [<minecraft:web>, <bountifulbaubles:ringoverclocking>, <minecraft:web>], 
 [<dungeontactics:charm_heavy>, <contenttweaker:spectral_shard>, <bountifulbaubles:trinketshulkerheart>]], 64);
@@ -419,7 +422,7 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:ringfreeaction>,[
 
 recipes.remove(<bountifulbaubles:trinketvitamins>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketvitamins>,[
+Infuser.addShaped(<bountifulbaubles:trinketvitamins>,[
 [<endreborn:catalyst>, <arcanearchives:radiant_dust>, <endreborn:catalyst>],
 [<twilightforest:giant_sword>, <minecraft:glass_bottle>, <twilightforest:giant_pickaxe>], 
 [<dungeontactics:charm_emaciated>, <contenttweaker:spectral_shard>, <dungeontactics:charm_sapping>]], 64);
@@ -428,7 +431,7 @@ mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketvitamins>,[
 
 recipes.remove(<bountifulbaubles:trinketapple>);
 
-mods.betterwithaddons.Infuser.addShaped(<bountifulbaubles:trinketapple>,[
+Infuser.addShaped(<bountifulbaubles:trinketapple>,[
 [null, <aether_legacy:healing_stone>, null],
 [<twilightforest:hydra_chop>, <minecraft:golden_apple:1>, <twilightforest:moonworm_queen>], 
 [<dungeontactics:charm_famine>, <contenttweaker:spectral_shard>, <dungeontactics:charm_unintelligible>]], 64);
@@ -531,13 +534,13 @@ RecipeBuilder.get("mage")
   .create();
 
 //remove and hide original BB disint tablet
-mods.jei.JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
+JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
 
 /////// non-baubles (is this legal? I will make it legal.)
 
 recipes.remove(<rats:plague_doctorate>);
 
-mods.betterwithaddons.Infuser.addShaped(<rats:plague_doctorate>,[
+Infuser.addShaped(<rats:plague_doctorate>,[
 [<rats:plague_essence>, null, <rats:contaminated_food>],
 [<contenttweaker:plague_rune>.anyDamage().transformDamage(), <wards:enchanted_paper>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage()], 
 [<rats:contaminated_food>, null, <rats:plague_essence>]], 8);
