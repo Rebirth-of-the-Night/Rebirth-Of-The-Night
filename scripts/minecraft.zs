@@ -281,7 +281,7 @@ recipes.remove(<minecraft:fishing_rod>);
 recipes.addShaped("fishing_rod",<minecraft:fishing_rod>,[
     [null,null,<ore:stickWood>],
     [null,<ore:stickWood>,<minecraft:string>],
-    [<ore:stickWood>,<ore:nuggetIron>|<contenttweaker:material_part:6>,<minecraft:string>]
+    [<ore:stickWood>,<ore:nuggetIron>|<ore:nuggetTin>.firstItem,<minecraft:string>]
 ]);
 
 recipes.remove(<chutes:chute_wood>);

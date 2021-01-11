@@ -221,13 +221,13 @@ Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:StoneHugeBrick>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4*8), <quark:sturdy_stone>, 1373);
 Melting.addRecipe(<liquid:electrum>*144, <ore:ingotElectrum>, 1400);//electrum
 Melting.addRecipe(<liquid:electrum>*(144*9), <ore:blockElectrum>, 1400);
-Melting.addRecipe(<liquid:electrum>*16, <contenttweaker:material_part:16>, 1400);
+Melting.addRecipe(<liquid:electrum>*16, <ore:nuggetElectrum>, 1400);
 Melting.addRecipe(<liquid:mythril>*144, <simpleores:mythril_ingot>, 2500);//mythril
 Melting.addRecipe(<liquid:mythril>*(144*9), <simpleores:mythril_block>, 2500);
-Melting.addRecipe(<liquid:mythril>*16, <contenttweaker:material_part:8>, 2500);
+Melting.addRecipe(<liquid:mythril>*16, <ore:nuggetMythril>, 2500);
 Melting.addRecipe(<liquid:viridium>*144, <simpleores:adamantium_ingot>, 2500);//viridium
 Melting.addRecipe(<liquid:viridium>*(144*9), <contenttweaker:lunarinviridiumbrick>, 2500);
-Melting.addRecipe(<liquid:viridium>*16, <contenttweaker:material_part:10>, 2500);
+Melting.addRecipe(<liquid:viridium>*16, <ore:nuggetViridium>, 2500);
 
 Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450);//miscellaneous melting
 Melting.addRecipe(<liquid:ender_slag>*1000, <ore:endstone>, 1200);
@@ -754,7 +754,7 @@ CastingTable.addBlockRecipe(<endreborn:block_end_stone_smooth>, <liquid:ender_sl
 //addIngotRecipe(IItemStack output, ILiquidStack input)
 CastingTable.addIngotRecipe(<simpleores:adamantium_ingot>, <liquid:viridium>*144);
 CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:mythril>*144);
-CastingTable.addIngotRecipe(<contenttweaker:material_part:12>, <liquid:electrum>*144);
+CastingTable.addIngotRecipe(<ore:ingotElectrum>.firstItem, <liquid:electrum>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soulforged_steel>*144);
 CastingTable.addIngotRecipe(<pyrotech:material:16>, <liquid:coade_stone>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:39>, <liquid:ender_slag>*250);

@@ -216,7 +216,7 @@ val inertRing = itemUtils.getItemsByRegexRegistryName("behgameon:ring_.*$(?<!53|
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <quark:arrow_ender>, <bountifulbaubles:potionwormhole>);
 recipes.addShapeless("Wormhole to Return", <bountifulbaubles:potionrecall>,
-   	[<bountifulbaubles:potionwormhole>, <contenttweaker:material_part:8>]);
+   	[<bountifulbaubles:potionwormhole>, <ore:nuggetMythril>.firstItem]);
 
 // Rings, amulets, oh my
 
@@ -525,7 +525,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <contenttweaker:vis_shard>, <contenttweaker:vis_shard>],
     [<endreborn:item_end_shard>, <contenttweaker:vis_shard>, <endreborn:item_end_shard>],
-    [<contenttweaker:material_part:12>, <aether_legacy:enchanted_gravitite>, <contenttweaker:material_part:12>]])
+    [<ore:ingotElectrum>.firstItem, <aether_legacy:enchanted_gravitite>, <ore:ingotElectrum>.firstItem]])
   .addTool(<contenttweaker:aether_rune>, 1)
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<artifacts:lucky_horseshoe>)

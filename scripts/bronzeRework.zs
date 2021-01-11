@@ -83,7 +83,7 @@ val stick =  <ore:stickWood>;
 val handle = <spartanweaponry:material:0>;
 val block = <contenttweaker:block_bronze>; 
 val plate = <contenttweaker:bronze_plate>;
-val nugget = <contenttweaker:material_part:1>;
+val nugget = <ore:nuggetBronze>.firstItem;
 val wShield = <spartanshields:shield_basic_wood>;
 
 //ARMOR
@@ -157,7 +157,7 @@ Mortar.addRecipe(["diamond"], <ore:dustBronze>.firstItem * 4, 6, [<ore:dustTin> 
 
 		
 //info
-JEI.addDescription(<contenttweaker:material_part>,"Definitely better than iron, not quite as good as steel.");
+JEI.addDescription(<ore:ingotBronze>,"Definitely better than iron, not quite as good as steel.");
 JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
 JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
 JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
@@ -167,4 +167,4 @@ JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also know as hoplon. P
 
 //repair recipes
 var bronzeItems = <atop:mud_helmet> | <atop:mud_chestplate> | <atop:mud_leggings> | <atop:mud_boots> | <atop:mud_sword> | <atop:mud_shovel> | <atop:mud_pickaxe> | <atop:mud_axe> | <atop:mud_hoe>;
-addRepairEntry(bronzeItems, <contenttweaker:material_part>);
+addRepairEntry(bronzeItems, <ore:ingotBronze>.firstItem);

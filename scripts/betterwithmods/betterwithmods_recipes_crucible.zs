@@ -334,19 +334,19 @@ furnace.remove(<minecraft:gold_nugget>);
 // 2/3 * 9 = 6
 val iron = <minecraft:iron_nugget>;
 val gold = <minecraft:gold_nugget>;
-val copper = <contenttweaker:material_part:4>;
+val copper = <ore:nuggetCopper>.firstItem;
 val silver = <iceandfire:silver_nugget>;
-val bronze = <contenttweaker:material_part:1>;
+val bronze = <ore:nuggetBronze>.firstItem;
 val steel = <dungeontactics:steel_nugget>;
 val knightmetal = <twilightforest:armor_shard>; 
 // Irregulars
 val chain = <minecraft:iron_nugget>; // 2/3 * 4 = 8/3
 val endorium = <endreborn:item_raw_endorium>; // 2/3 * 4 = 8/3
 val ironwood = <twilightforest:ironwood_raw>; // 2/3 * 1/2 = 1/3
-val viridium = <contenttweaker:material_part:10>; // Steel Anvil
+val viridium = <ore:nuggetViridium>.firstItem; // Steel Anvil
 // 100%
 val soulforgedSteel = <betterwithmods:material:30>; // Steel Anvil
-val mythril = <contenttweaker:material_part:8>; // Steel Anvil
+val mythril = <ore:nuggetMythril>.firstItem; // Steel Anvil
 
 
 val sixMap = {

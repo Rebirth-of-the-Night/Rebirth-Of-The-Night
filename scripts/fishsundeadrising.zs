@@ -198,7 +198,7 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_shard>],
-    [<contenttweaker:material_part:12>, <contenttweaker:holy_zanite>, <contenttweaker:material_part:12>],
+    [<ore:ingotElectrum>.firstItem, <contenttweaker:holy_zanite>, <ore:ingotElectrum>.firstItem],
     [<mod_lavacow:scythe_claw>, <contenttweaker:fortified_ruby>, <mod_lavacow:scythe_claw>]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addOutput(<mod_lavacow:halo_necklace>)

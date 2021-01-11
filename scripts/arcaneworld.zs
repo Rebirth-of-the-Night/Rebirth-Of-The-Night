@@ -31,7 +31,7 @@ recipes.remove(<arcaneworld:ritual_table>);
 //Ritual Table
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:material_part:12>, <contenttweaker:vis_shard>, <contenttweaker:material_part:12>],
+    [<ore:ingotElectrum>.firstItem, <contenttweaker:vis_shard>, <ore:ingotElectrum>.firstItem],
     [<contenttweaker:vis_shard>, <minecraft:carpet:10>, <contenttweaker:vis_shard>],
     [<betterwithmods:material:20>, <hitwithaxe:debarked_magic>, <betterwithmods:material:20>]])
   .addTool(<contenttweaker:knowledge_rune>, 1)

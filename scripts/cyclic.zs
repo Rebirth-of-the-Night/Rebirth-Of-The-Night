@@ -86,7 +86,7 @@ recipes.remove(<cyclicmagic:moon_sensor>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 //apple recipes on betterwithmods.zs
 
-var vnugg = <contenttweaker:material_part:10>;
+var vnugg = <ore:nuggetViridium>.firstItem;
 var duracloth = <betterwithmods:material:4>;
 var glue = <ore:glue>;
 var tanned = <ore:hideTanned>;

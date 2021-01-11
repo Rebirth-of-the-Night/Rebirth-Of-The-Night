@@ -28,7 +28,7 @@ var small = <glaretorch:itemglaretorchsmall>;
 var large2 = <glaretorch:itemglaretorchlarge2>;
 var filament = <betterwithmods:material:19>;
 var latch = <ore:latchRedstone>;
-var electrum = <contenttweaker:material_part:12>;
+var electrum = <ore:ingotElectrum>.firstItem;
 var metal = <ore:genericMetal>;
 
 //small

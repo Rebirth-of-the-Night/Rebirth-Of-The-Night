@@ -9,17 +9,17 @@ mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
 mods.jei.JEI.removeAndHide(<simpleores:copper_block>);
 
 var ingotViri = <simpleores:adamantium_ingot>;
-var nuggetViri = <contenttweaker:material_part:10>;
+var nuggetViri = <ore:nuggetViridium>.firstItem;
 var ingotMyth = <simpleores:mythril_ingot>;
-var nuggetMyth = <contenttweaker:material_part:8>;
+var nuggetMyth = <ore:nuggetMythril>.firstItem;
 var ingotCopp = <simpleores:copper_ingot>;
-var nuggetCopp = <contenttweaker:material_part:4>;
+var nuggetCopp = <ore:nuggetCopper>.firstItem;
 var barCopp = <aesthetics:copper_bars>;
 var doorCopp = <aesthetics:copper_door>;
 var anyBlockCopp = <ore:blockCopper>;
 var blockCopp = <ore:blockCopper>.firstItem;
 var ingotTin = <simpleores:tin_ingot>;
-var nuggetTin = <contenttweaker:material_part:6>;
+var nuggetTin = <ore:nuggetTin>.firstItem;
 var barTin = <aesthetics:tin_bars>;
 var doorTin = <aesthetics:tin_door>;
 

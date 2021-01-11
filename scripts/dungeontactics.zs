@@ -997,8 +997,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandPM")
   .setShaped([
-    [null, <contenttweaker:material_part:12>, <betterwithaddons:greatarrow>],
-    [null, <aether_legacy:golden_feather>, <contenttweaker:material_part:12>],
+    [null, <ore:ingotElectrum>.firstItem, <betterwithaddons:greatarrow>],
+    [null, <aether_legacy:golden_feather>, <ore:ingotElectrum>.firstItem],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
@@ -1058,7 +1058,7 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandSmite")
   .setShaped([
-    [null, <minecraft:iron_ingot>, <contenttweaker:material_part:12>],
+    [null, <minecraft:iron_ingot>, <ore:ingotElectrum>.firstItem],
     [null, <contenttweaker:electrified_zanite>, <minecraft:iron_ingot>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:energy_rune>, 1)

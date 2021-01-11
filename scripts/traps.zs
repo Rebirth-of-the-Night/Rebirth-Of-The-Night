@@ -9,7 +9,7 @@ mods.jei.JEI.removeAndHide(<minetraps:fall_trap>);
 
 recipes.remove(<minetraps:nails>);
 
-var tinnugget = <contenttweaker:material_part:6>;
+var tinnugget = <ore:nuggetTin>;
 
 recipes.addShapeless("Nails", <minetraps:nails>,[tinnugget, tinnugget, tinnugget, tinnugget]);
 

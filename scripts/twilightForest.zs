@@ -93,8 +93,8 @@ JEI.addDescription([<twilightforest:charm_of_life_2>],["With this charm in your 
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_speck>, <contenttweaker:material_part:1>, <contenttweaker:vis_speck>],
-    [<contenttweaker:material_part:1>, <contenttweaker:blank_charm>, <contenttweaker:material_part:1>],
+    [<contenttweaker:vis_speck>, <ore:nuggetBronze>.firstItem, <contenttweaker:vis_speck>],
+    [<ore:nuggetBronze>.firstItem, <contenttweaker:blank_charm>, <ore:nuggetBronze>.firstItem],
     [<contenttweaker:vis_speck>, <minecraft:ghast_tear>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:soul_rune>, 1)
   .addOutput(<twilightforest:charm_of_keeping_1>)
@@ -116,9 +116,9 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_shard>, <contenttweaker:material_part:16>, <contenttweaker:vis_shard>],
-    [<contenttweaker:material_part:16>, <twilightforest:charm_of_keeping_1>, <contenttweaker:material_part:16>],
-    [<contenttweaker:vis_shard>, <contenttweaker:material_part:16>, <contenttweaker:vis_shard>]])
+    [<contenttweaker:vis_shard>, <ore:nuggetElectrum>.firstItem, <contenttweaker:vis_shard>],
+    [<ore:nuggetElectrum>.firstItem, <twilightforest:charm_of_keeping_1>, <ore:nuggetElectrum>.firstItem],
+    [<contenttweaker:vis_shard>, <ore:nuggetElectrum>.firstItem, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:holding_rune>, 1)
   .addOutput(<twilightforest:charm_of_keeping_3>)
   .setMinimumTier(1)
@@ -157,9 +157,9 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_sliver>, <contenttweaker:material_part:16>, <contenttweaker:vis_sliver>],
-    [<contenttweaker:material_part:16>, <minecraft:compass>, <contenttweaker:material_part:16>], 
-    [<contenttweaker:vis_sliver>, <contenttweaker:material_part:16>, <contenttweaker:vis_sliver>]])
+    [<contenttweaker:vis_sliver>, <ore:nuggetElectrum>.firstItem, <contenttweaker:vis_sliver>],
+    [<ore:nuggetElectrum>.firstItem, <minecraft:compass>, <ore:nuggetElectrum>.firstItem], 
+    [<contenttweaker:vis_sliver>, <ore:nuggetElectrum>.firstItem, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:knowledge_rune>, 1)
   .addOutput(<twilightforest:maze_map_focus>)
   .setMinimumTier(1)
