@@ -163,12 +163,6 @@ recipes.addShaped("rats_tnt_expert", <rats:rat_upgrade_tnt_survivor>,[
     [<rats:charged_creeper_chunk>, <betterwithmods:mining_charge>, <rats:charged_creeper_chunk>]
 ]);
 
-/* recipes.addShaped("rats_disenchanter_upgrade", <rats:rat_upgrade_disenchanter>,[
-	[<bountifulbaubles:disintegrationtablet>, <disenchanter:disenchantmenttable>, <bountifulbaubles:disintegrationtablet>],
-    [<dungeontactics:mithril_ingot>, <rats:rat_upgrade_enchanter>, <dungeontactics:mithril_ingot>],
-    [<bountifulbaubles:disintegrationtablet>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:disintegrationtablet>]
-]); */
-
 recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
     [<ore:ingotIron>, <spartanshields:shield_basic_iron>, <ore:ingotIron>],
     [<ore:ingotIron>, <rats:rat_upgrade_basic>, <ore:ingotIron>],
@@ -320,6 +314,5 @@ mods.rats.recipes.addChefRatRecipe(<rats:tiny_coin>, <harvestcraft:chocolatespri
 mods.rats.recipes.addChefRatRecipe(<nyx:fallen_star>, <harvestcraft:starfruititem>);
 
 //gem cutter rat recipes
-mods.rats.recipes.addGemcutterRatRecipe(<contenttweaker:phosphophyllite>,<bountifulbaubles:spectralsilt>);
 mods.rats.recipes.addGemcutterRatRecipe(<nyx:fallen_star>, <minecraft:glowstone_dust>*2);
 mods.rats.recipes.addGemcutterRatRecipe(<minecraft:nether_star>, <nyx:fallen_star>*16);
