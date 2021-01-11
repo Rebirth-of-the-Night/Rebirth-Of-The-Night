@@ -1145,20 +1145,3 @@ Mortar.addRecipe(["gold"], <contenttweaker:nether_quintessence>, 2, <contenttwea
 // End Quintessence
 
 Mortar.addRecipe(["gold"], <contenttweaker:end_quintessence>, 2, <contenttweaker:vis_speck> * 3, 0.15, [<ore:endQuintessenceA>, <ore:endQuintessenceB>, <ore:endQuintessenceC>]);
-
-
-##################
-# Mortar Recipes #
-##################
-
-// Mundane Mortar
-recipes.remove(<advancedmortars:mortar:0>);
-recipes.addShaped("mundane mortar", <advancedmortars:mortar:0>, [[null, <spartanweaponry:material:0>, null],[<minecraft:gold_ingot>, <minecraft:flint>, <minecraft:gold_ingot>], [<minecraft:dye:4>, <minecraft:gold_ingot>, <minecraft:dye:4>]]);
-
-// Arcane Mortar
-recipes.remove(<advancedmortars:mortar:2>);
-recipes.addShaped("arcane mortar", <advancedmortars:mortar:2>, [[<contenttweaker:vis_speck>, <aether_legacy:skyroot_stick>, <contenttweaker:vis_speck>],[<aether_legacy:enchanted_gravitite>, <minecraft:diamond>, <aether_legacy:enchanted_gravitite>], [<betternether:cincinnasite>, <aether_legacy:enchanted_gravitite>, <betternether:cincinnasite>]]);
-
-// Mystical Mortar
-recipes.remove(<advancedmortars:mortar:4>);
-recipes.addShaped("mystical mortar", <advancedmortars:mortar:4>, [[<contenttweaker:vis_sliver>, <simpleores:mythril_rod>, <contenttweaker:vis_sliver>],[<simpleores:mythril_ingot>, <nyx:meteor_shard>, <simpleores:mythril_ingot>], [<nyx:fallen_star>, <simpleores:mythril_ingot>, <nyx:fallen_star>]]);

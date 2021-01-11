@@ -64,4 +64,4 @@ for corner in MiniBlocks.getMiniBlock("corner", <ore:plankWood>).items {
         Saw.remove(corner);
     }
 }
-Saw.add(MiniBlocks.getMiniBlock("corner", <ore:plankWood>),[<pyrotech:rock:7>*2,<minecraft:stick>]);
+Saw.add(MiniBlocks.getMiniBlock("corner", <ore:plankWood>),[<pyrotech:rock:7>*2,<contenttweaker:broken_stick>]);

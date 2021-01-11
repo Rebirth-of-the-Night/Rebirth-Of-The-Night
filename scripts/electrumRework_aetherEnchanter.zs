@@ -5,6 +5,7 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.aether_legacy.Enchanter;
+import mods.advancedmortars.Mortar;
 
 //Name Tweaks
 <contenttweaker:material_part:12>.displayName = "Aetherial Electrum";
@@ -37,18 +38,13 @@ recipes.addShaped("electrum_nugget_to_ingot",elec, [
     [elecnugget, elecnugget, elecnugget], 
     [elecnugget, elecnugget, elecnugget]
 ]);
-recipes.addShapeless("ingot_to_electrum_nugget",elecnugget* 9,
-[elec]
-);
+recipes.addShapeless("ingot_to_electrum_nugget",elecnugget* 9, [elec]);
 
-recipes.addShapeless("aetherial_electrum_dust", <ore:dustElectrum>.firstItem*2, [
-    <ore:dustGold>,<ore:dustGold>,<ore:dustGold>,<ore:dustGold>,<ore:dustSilver>,<ore:dustSilver>,<ore:dustSilver>,<aether_legacy:ambrosium_shard>,<aether_legacy:ambrosium_shard>
-]);
-
-  #Additional recipes on pyrotech scripts 
+Mortar.addRecipe(["diamond"], <ore:dustElectrum>.firstItem * 4, 12, [<ore:dustGold> * 4, <ore:dustSilver> * 3, <aether_legacy:ambrosium_shard> * 2]);
+  // Additional recipes on pyrotech scripts 
  
 //JEI decriptions
-mods.jei.JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
+JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
 
 //healing stone
 Enchanter.removeEnchantment(<aether_legacy:holystone>);

@@ -330,6 +330,11 @@ JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:iron_bl
 JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:diamond_block"}), "Covers allow for blocking between redstone signals that should not intersect. They are also used for creating one-block high bridges over other redstone.");
 JEI.addDescription(<sereneseasons:greenhouse_glass>, "Reinforced glass that has been blessed or enchanted to allow any crops to grow under its veil as long as there is light and water nearby.");
 
+JEI.addDescription([<advancedmortars:mortar:0>, <advancedmortars:mortar:2>, <advancedmortars:mortar:4>, <advancedmortars:mortar:6>], "Magic mortars... [description WIP]");
+JEI.addDescription(<advancedmortars:mortar:1>, "Made of durable stone and totally kitchen-safe.");
+JEI.addDescription(<advancedmortars:mortar:3>, 'A conglomerate of leftover materials. Although less durable than its other mortar counterparts, it still "mortars" properly.');
+
+
 /* Mechanical, Defense, and Item Movement */
 JEI.addDescription(<quark:rope>, "A useful tool for traversal. Right click on a rope with more rope to descend downward. It will also pull itself and blocks underneath it upwards if right-clicked while sneaking.");
 JEI.addDescription(<quark:chain>, "A small chain such as this can be used to link a series of minecarts or boats, allowing for far more organized journeys.");

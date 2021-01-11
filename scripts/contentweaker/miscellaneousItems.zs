@@ -166,6 +166,9 @@ stormcloud.register();
 val mercurial_ooze = VanillaFactory.createItem("mercurial_ooze");
 mercurial_ooze.register();
 
+val broken_stick = VanillaFactory.createItem("broken_stick");
+broken_stick.register();
+
 //food
 var rat = VanillaFactory.createItemFood("ratatouille", 10);
 rat.setSaturation(9.5);

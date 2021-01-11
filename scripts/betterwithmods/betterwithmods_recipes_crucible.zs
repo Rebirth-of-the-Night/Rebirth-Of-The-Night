@@ -4,19 +4,41 @@ import crafttweaker.data.IData;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-mods.betterwithmods.Crucible.removeAll();
+import mods.betterwithmods.Crucible;
 
+Crucible.removeAll();
+
+Crucible.addUnstoked([<ore:cobblestone>],[<minecraft:stone>]);
+Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<betterwithmods:aesthetic:6>]);
+
+// Automation for stick
+Crucible.addUnstoked(
+    [
+        <contenttweaker:broken_stick>,
+        <ore:glue> | <ore:slimeball>,
+        <contenttweaker:broken_stick>
+    ],
+    [
+        <minecraft:stick>
+    ]
+);
+Crucible.addStoked(
+    [
+        <contenttweaker:broken_stick>,
+        <contenttweaker:broken_stick>
+    ],
+    [
+        <minecraft:stick>
+    ]
+);
 
 // nugget > sfs
 // block > sfs
 // sfs rail > 6iron 2sfs
 // urn:8 steel dustCarbon soul flux > sfs urn:0
 
-mods.betterwithmods.Crucible.addUnstoked([<ore:cobblestone>],[<minecraft:stone>]);
-mods.betterwithmods.Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<betterwithmods:aesthetic:6>]);
-
 //Normal Steel
-mods.betterwithmods.Crucible.addUnstoked(
+Crucible.addUnstoked(
     [
         <ore:ingotIron>|<ore:dustIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
@@ -28,7 +50,7 @@ mods.betterwithmods.Crucible.addUnstoked(
     ]
 );
 //Stoked Normal Steel
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <ore:ingotIron>|<ore:dustIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
@@ -42,7 +64,7 @@ mods.betterwithmods.Crucible.addStoked(
 
 //Overworld gems are alloyed with steel, while Exorite is alloyed with Endorium
 //Stoked Gem Ingots
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
         <ore:gemDiamond>
@@ -51,7 +73,7 @@ mods.betterwithmods.Crucible.addStoked(
         <betterwithmods:material:45>
     ]
 );
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
         <ore:gemRuby>
@@ -60,7 +82,7 @@ mods.betterwithmods.Crucible.addStoked(
         <contenttweaker:ruby_ingot>
     ]
 );
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
         <ore:gemSapphire>
@@ -69,7 +91,7 @@ mods.betterwithmods.Crucible.addStoked(
         <contenttweaker:sapphire_ingot>
     ]
 );
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
         <ore:gemPeridot>
@@ -78,7 +100,7 @@ mods.betterwithmods.Crucible.addStoked(
         <contenttweaker:peridot_ingot>
     ]
 );
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <endreborn:item_ingot_endorium>,
         <rotn_blocks:exorite_crystal>
@@ -90,7 +112,7 @@ mods.betterwithmods.Crucible.addStoked(
 
 
 //Soul Forged Steel
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <ore:ingotSteel>,
         <betterwithmods:material:38>,
@@ -103,7 +125,7 @@ mods.betterwithmods.Crucible.addStoked(
     ]
 );
 //Charbiotite sfs
-// mods.betterwithmods.Crucible.addStoked(
+// Crucible.addStoked(
 //     [
 //         <ore:ingotSteel>,
 //         <betterwithmods:material:38>,
@@ -117,7 +139,7 @@ mods.betterwithmods.Crucible.addStoked(
 // );
 
 // Anvil > Steel
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <betterwithmods:steel_anvil>
     ],
@@ -128,7 +150,7 @@ mods.betterwithmods.Crucible.addStoked(
 
 
 //Soul Flux
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <betterwithmods:material:39>,
     ],
@@ -139,7 +161,7 @@ mods.betterwithmods.Crucible.addStoked(
 );
 
 //Bronze Production
-mods.betterwithmods.Crucible.addUnstoked(
+Crucible.addUnstoked(
     [
         <ore:blockTin>,
         <ore:blockCopper>,
@@ -150,19 +172,19 @@ mods.betterwithmods.Crucible.addUnstoked(
         <contenttweaker:block_bronze>*4
     ]
 );
-mods.betterwithmods.Crucible.addUnstoked(
+Crucible.addUnstoked(
     [
-        <ore:ingotTin>,
-        <ore:ingotCopper>,
-        <ore:ingotCopper>,
-        <ore:ingotCopper>
+        <ore:ingotTin>|<ore:dustTin>,
+        <ore:ingotCopper>|<ore:dustCopper>,
+        <ore:ingotCopper>|<ore:dustCopper>,
+        <ore:ingotCopper>|<ore:dustCopper>
     ],
     [
         <ore:ingotBronze>.firstItem*4
     ]
 );
 //Stoked Bronze Production
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <ore:blockTin>,
         <ore:blockCopper>,
@@ -173,12 +195,12 @@ mods.betterwithmods.Crucible.addStoked(
         <contenttweaker:block_bronze>*4
     ]
 );
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
-        <ore:ingotTin>,
-        <ore:ingotCopper>,
-        <ore:ingotCopper>,
-        <ore:ingotCopper>
+        <ore:ingotTin>|<ore:dustTin>,
+        <ore:ingotCopper>|<ore:dustCopper>,
+        <ore:ingotCopper>|<ore:dustCopper>,
+        <ore:ingotCopper>|<ore:dustCopper>
     ],
     [
         <ore:ingotBronze>.firstItem*4
@@ -186,7 +208,7 @@ mods.betterwithmods.Crucible.addStoked(
 );
 
 //Electrum Production
-mods.betterwithmods.Crucible.addUnstoked(
+Crucible.addUnstoked(
     [
         <ore:blockGold>,
         <ore:blockGold>,
@@ -202,15 +224,15 @@ mods.betterwithmods.Crucible.addUnstoked(
         <contenttweaker:block_electrum>*4
     ]
 );
-mods.betterwithmods.Crucible.addUnstoked(
+Crucible.addUnstoked(
     [
-        <ore:ingotGold>,
-        <ore:ingotGold>,
-		<ore:ingotGold>,
-		<ore:ingotGold>,
-		<ore:ingotSilver>,
-		<ore:ingotSilver>,
-		<ore:ingotSilver>,
+        <ore:ingotGold>|<ore:dustGold>,
+        <ore:ingotGold>|<ore:dustGold>,
+		<ore:ingotGold>|<ore:dustGold>,
+		<ore:ingotGold>|<ore:dustGold>,
+		<ore:ingotSilver>|<ore:dustSilver>,
+		<ore:ingotSilver>|<ore:dustSilver>,
+		<ore:ingotSilver>|<ore:dustSilver>,
         <ore:gemAmbrosium>,
 		<ore:gemAmbrosium>
     ],
@@ -219,7 +241,7 @@ mods.betterwithmods.Crucible.addUnstoked(
     ]
 );
 //Stoked Electrum Production
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <ore:blockGold>,
         <ore:blockGold>,
@@ -232,27 +254,27 @@ mods.betterwithmods.Crucible.addStoked(
 		<aether_legacy:ambrosium_block>
     ],
     [
-        <contenttweaker:block_electrum>*2
+        <contenttweaker:block_electrum>*4
     ]
 );
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
-        <ore:ingotGold>,
-        <ore:ingotGold>,
-		<ore:ingotGold>,
-		<ore:ingotGold>,
-		<ore:ingotSilver>,
-		<ore:ingotSilver>,
-		<ore:ingotSilver>,
+        <ore:ingotGold>|<ore:dustGold>,
+        <ore:ingotGold>|<ore:dustGold>,
+		<ore:ingotGold>|<ore:dustGold>,
+		<ore:ingotGold>|<ore:dustGold>,
+		<ore:ingotSilver>|<ore:dustSilver>,
+		<ore:ingotSilver>|<ore:dustSilver>,
+		<ore:ingotSilver>|<ore:dustSilver>,
         <ore:gemAmbrosium>,
 		<ore:gemAmbrosium>
     ],
     [
-        <ore:ingotElectrum>.firstItem*2
+        <ore:ingotElectrum>.firstItem*4
     ]
 );
 //Unstoked Magic Wood & Star Piece
-mods.betterwithmods.Crucible.addUnstoked(
+Crucible.addUnstoked(
     [
         <biomesoplenty:log_1:5>*4,
 		<nyx:fallen_star>
@@ -262,7 +284,7 @@ mods.betterwithmods.Crucible.addUnstoked(
     ]
 );
 //Unstoked Magic Wood & Comet Shard
-mods.betterwithmods.Crucible.addUnstoked(
+Crucible.addUnstoked(
     [
         <biomesoplenty:log_1:5>*4,
 		<nyx:meteor_shard>
@@ -272,7 +294,7 @@ mods.betterwithmods.Crucible.addUnstoked(
     ]
 );
 //Stoked Magic Wood & Star Piece
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <biomesoplenty:log_1:5>*4,
 		<nyx:fallen_star>
@@ -282,7 +304,7 @@ mods.betterwithmods.Crucible.addStoked(
     ]
 );
 //Stoked Magic Wood & Comet Shard
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <biomesoplenty:log_1:5>*4,
 		<nyx:meteor_shard>
@@ -292,7 +314,7 @@ mods.betterwithmods.Crucible.addStoked(
     ]
 );
 //Stoked Volatile Magic
-mods.betterwithmods.Crucible.addStoked(
+Crucible.addStoked(
     [
         <contenttweaker:volatile_powder>,
         <betterwithmods:material:29>,
@@ -376,7 +398,7 @@ val sixMap = {
 } as IItemStack[IItemStack];
 
 for input, output in sixMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*6]);
+    Crucible.addStoked([input],[output*6]);
 }
 
 
@@ -409,7 +431,7 @@ val twelveMap = {
 } as IItemStack[IItemStack];
 
 for input, output in twelveMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*12]);
+    Crucible.addStoked([input],[output*12]);
 }
 
 
@@ -452,7 +474,7 @@ val eighteenMap = {
 } as IItemStack[IItemStack];
 
 for input, output in eighteenMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*18]);
+    Crucible.addStoked([input],[output*18]);
 }
 
 
@@ -486,7 +508,7 @@ val twentyFourMap = {
 } as IItemStack[IItemStack];
 
 for input, output in twentyFourMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*24]);
+    Crucible.addStoked([input],[output*24]);
 }
 
 
@@ -505,7 +527,7 @@ val thirtyMap = {
 } as IItemStack[IItemStack];
 
 for input, output in thirtyMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*30]);
+    Crucible.addStoked([input],[output*30]);
 }
 
 
@@ -532,7 +554,7 @@ val thirtySixMap = {
 } as IItemStack[IItemStack];
 
 for input, output in thirtySixMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*30]);
+    Crucible.addStoked([input],[output*30]);
 }
 
 
@@ -549,7 +571,7 @@ val fortyTwoMap = {
 } as IItemStack[IItemStack];
 
 for input, output in fortyTwoMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*42]);
+    Crucible.addStoked([input],[output*42]);
 }
 
 
@@ -563,59 +585,59 @@ val fortyEightMap = {
 } as IItemStack[IItemStack];
 
 for input, output in fortyEightMap{
-    mods.betterwithmods.Crucible.addStoked([input],[output*48]);
+    Crucible.addStoked([input],[output*48]);
 }
 
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_iron:3>],[iron*162]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_gold:3>],[gold*162]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_silver:3>],[silver*162]);
+Crucible.addStoked([<iceandfire:dragonarmor_iron:3>],[iron*162]);
+Crucible.addStoked([<iceandfire:dragonarmor_gold:3>],[gold*162]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:3>],[silver*162]);
 
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_iron:0>],[iron*270]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_iron:1>],[iron*270]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_gold:0>],[gold*270]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_gold:1>],[gold*270]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_silver:0>],[silver*270]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_silver:1>],[silver*270]);
+Crucible.addStoked([<iceandfire:dragonarmor_iron:0>],[iron*270]);
+Crucible.addStoked([<iceandfire:dragonarmor_iron:1>],[iron*270]);
+Crucible.addStoked([<iceandfire:dragonarmor_gold:0>],[gold*270]);
+Crucible.addStoked([<iceandfire:dragonarmor_gold:1>],[gold*270]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:0>],[silver*270]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:1>],[silver*270]);
 
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_iron:2>],[iron*432]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_gold:2>],[gold*432]);
-mods.betterwithmods.Crucible.addStoked([<iceandfire:dragonarmor_silver:2>],[silver*432]);
+Crucible.addStoked([<iceandfire:dragonarmor_iron:2>],[iron*432]);
+Crucible.addStoked([<iceandfire:dragonarmor_gold:2>],[gold*432]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:2>],[silver*432]);
 
-mods.betterwithmods.Crucible.addStoked([<twilightforest:knightmetal_shield:*>],[knightmetal*45]);
-mods.betterwithmods.Crucible.addStoked([<twilightforest:block_and_chain:*>],[knightmetal*99]);
-mods.betterwithmods.Crucible.addStoked([<minecraft:chainmail_helmet:*>],[chain*14]);
-mods.betterwithmods.Crucible.addStoked([<minecraft:chainmail_chestplate:*>],[chain*22]);
-mods.betterwithmods.Crucible.addStoked([<minecraft:chainmail_leggings:*>],[chain*19]);
-mods.betterwithmods.Crucible.addStoked([<minecraft:chainmail_boots:*>],[chain*11]);
-mods.betterwithmods.Crucible.addStoked([<endreborn:ender_bow:*>],[endorium*3]);
-mods.betterwithmods.Crucible.addStoked([<twilightforest:ironwood_chestplate:*>],[ironwood*3]);
-mods.betterwithmods.Crucible.addStoked([<twilightforest:ironwood_helmet:*>],[ironwood*2]);
-mods.betterwithmods.Crucible.addStoked([<twilightforest:ironwood_leggings:*>],[ironwood*2]);
-mods.betterwithmods.Crucible.addStoked([<twilightforest:ironwood_boots:*>],[ironwood*1]);
-mods.betterwithmods.Crucible.addStoked([<twilightforest:ironwood_axe:*>],[ironwood*1]);
-mods.betterwithmods.Crucible.addStoked([<twilightforest:ironwood_pickaxe:*>],[ironwood*1]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:adamantium_chestplate:*>],[viridium*72]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_helmet:*>],[soulforgedSteel*72]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_chest:*>],[soulforgedSteel*108]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_pants:*>],[soulforgedSteel*54]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_boots:*>],[soulforgedSteel*54]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_pickaxe:*>],[soulforgedSteel*45]);
-mods.betterwithmods.Crucible.addStoked([<betterwithmods:steel_hacksaw:*>],[soulforgedSteel*4]);
-mods.betterwithmods.Crucible.addStoked([<betterwithaddons:steel_matchpick:*>],[soulforgedSteel*27]);
-mods.betterwithmods.Crucible.addStoked([<betterwithaddons:steel_machete:*>],[soulforgedSteel*27]);
-mods.betterwithmods.Crucible.addStoked([<betterwithaddons:steel_kukri:*>],[soulforgedSteel*45]);
-mods.betterwithmods.Crucible.addStoked([<betterwithaddons:steel_carpentersaw:*>],[soulforgedSteel*45]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_helmet:*>],[mythril*72]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_chestplate:*>],[mythril*108]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_leggings:*>],[mythril*54]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_boots:*>],[mythril*54]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_bow:*>],[mythril*54]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_pickaxe:*>],[mythril*45]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_axe:*>],[mythril*45]);
-mods.betterwithmods.Crucible.addStoked([<simpleores:mythril_shovel:*>],[mythril*27]);
-mods.betterwithmods.Crucible.addStoked([<spartancompat:lance_mythril:*>],[mythril*27]);
-mods.betterwithmods.Crucible.addStoked([<spartancompat:longsword_mythril:*>],[mythril*45]);
-mods.betterwithmods.Crucible.addStoked([<spartancompat:rapier_mythril:*>],[mythril*45]);
-mods.betterwithmods.Crucible.addStoked([<spartancompat:boomerang_mythril:*>],[mythril*9]);
-mods.betterwithmods.Crucible.addStoked([<spartancompat:mace_mythril:*>],[mythril*63]);
-mods.betterwithmods.Crucible.addStoked([<spartanshields:shield_basic_lead:*>],[mythril*90]);
+Crucible.addStoked([<twilightforest:knightmetal_shield:*>],[knightmetal*45]);
+Crucible.addStoked([<twilightforest:block_and_chain:*>],[knightmetal*99]);
+Crucible.addStoked([<minecraft:chainmail_helmet:*>],[chain*14]);
+Crucible.addStoked([<minecraft:chainmail_chestplate:*>],[chain*22]);
+Crucible.addStoked([<minecraft:chainmail_leggings:*>],[chain*19]);
+Crucible.addStoked([<minecraft:chainmail_boots:*>],[chain*11]);
+Crucible.addStoked([<endreborn:ender_bow:*>],[endorium*3]);
+Crucible.addStoked([<twilightforest:ironwood_chestplate:*>],[ironwood*3]);
+Crucible.addStoked([<twilightforest:ironwood_helmet:*>],[ironwood*2]);
+Crucible.addStoked([<twilightforest:ironwood_leggings:*>],[ironwood*2]);
+Crucible.addStoked([<twilightforest:ironwood_boots:*>],[ironwood*1]);
+Crucible.addStoked([<twilightforest:ironwood_axe:*>],[ironwood*1]);
+Crucible.addStoked([<twilightforest:ironwood_pickaxe:*>],[ironwood*1]);
+Crucible.addStoked([<simpleores:adamantium_chestplate:*>],[viridium*72]);
+Crucible.addStoked([<betterwithmods:steel_helmet:*>],[soulforgedSteel*72]);
+Crucible.addStoked([<betterwithmods:steel_chest:*>],[soulforgedSteel*108]);
+Crucible.addStoked([<betterwithmods:steel_pants:*>],[soulforgedSteel*54]);
+Crucible.addStoked([<betterwithmods:steel_boots:*>],[soulforgedSteel*54]);
+Crucible.addStoked([<betterwithmods:steel_pickaxe:*>],[soulforgedSteel*45]);
+Crucible.addStoked([<betterwithmods:steel_hacksaw:*>],[soulforgedSteel*4]);
+Crucible.addStoked([<betterwithaddons:steel_matchpick:*>],[soulforgedSteel*27]);
+Crucible.addStoked([<betterwithaddons:steel_machete:*>],[soulforgedSteel*27]);
+Crucible.addStoked([<betterwithaddons:steel_kukri:*>],[soulforgedSteel*45]);
+Crucible.addStoked([<betterwithaddons:steel_carpentersaw:*>],[soulforgedSteel*45]);
+Crucible.addStoked([<simpleores:mythril_helmet:*>],[mythril*72]);
+Crucible.addStoked([<simpleores:mythril_chestplate:*>],[mythril*108]);
+Crucible.addStoked([<simpleores:mythril_leggings:*>],[mythril*54]);
+Crucible.addStoked([<simpleores:mythril_boots:*>],[mythril*54]);
+Crucible.addStoked([<simpleores:mythril_bow:*>],[mythril*54]);
+Crucible.addStoked([<simpleores:mythril_pickaxe:*>],[mythril*45]);
+Crucible.addStoked([<simpleores:mythril_axe:*>],[mythril*45]);
+Crucible.addStoked([<simpleores:mythril_shovel:*>],[mythril*27]);
+Crucible.addStoked([<spartancompat:lance_mythril:*>],[mythril*27]);
+Crucible.addStoked([<spartancompat:longsword_mythril:*>],[mythril*45]);
+Crucible.addStoked([<spartancompat:rapier_mythril:*>],[mythril*45]);
+Crucible.addStoked([<spartancompat:boomerang_mythril:*>],[mythril*9]);
+Crucible.addStoked([<spartancompat:mace_mythril:*>],[mythril*63]);
+Crucible.addStoked([<spartanshields:shield_basic_lead:*>],[mythril*90]);

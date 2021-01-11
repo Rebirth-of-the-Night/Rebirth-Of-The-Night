@@ -5,8 +5,8 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.rockytweaks.Anvil;
-import mods.rockytweaks.Merchant;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.ltt.LootTable;
 
 //brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 //brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
@@ -20,7 +20,7 @@ furnace.remove(<minecraft:coal:1>);
 furnace.remove(<minecraft:leather>);
 
 // remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
-mods.ltt.LootTable.removeGlobalItem("minecraft:bucket");
+LootTable.removeGlobalItem("minecraft:bucket");
 
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
@@ -73,7 +73,7 @@ recipes.addShaped("jukebox",<minecraft:jukebox>,[
 recipes.addShapeless("spider_silk_to_string",<minecraft:string>,[<contenttweaker:spider_silk>,<contenttweaker:spider_silk>,<contenttweaker:spider_silk>]);
 
 recipes.remove(<minecraft:tipped_arrow>);
-mods.jei.JEI.hide(<minecraft:tipped_arrow>);
+JEI.hide(<minecraft:tipped_arrow>);
 
 // Serene Seasons
 recipes.remove(<sereneseasons:season_sensor_spring>);
@@ -466,9 +466,9 @@ recipes.addShapeless("red_concrete_powder",<minecraft:concrete_powder:14>*8,[<or
 recipes.addShapeless("black_concrete_powder",<minecraft:concrete_powder:15>*8,[<ore:dyeBlack>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:sand>,<ore:gravel>,<ore:gravel>,<ore:gravel>,<ore:gravel>]);
 
 
-mods.rockytweaks.Anvil.remove(<minecraft:wooden_sword>);
+Anvil.remove(<minecraft:wooden_sword>);
 
-mods.ltt.LootTable.removeGlobalItem("minecraft:barrier");
+LootTable.removeGlobalItem("minecraft:barrier");
 
 //Chain Recipes
 var chainlink = <iceandfire:chain_link>;
@@ -558,18 +558,18 @@ recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
     [null, stick, null]
 ]);
 
-mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_chest>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest:0>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest:1>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest:2>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest:3>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest:4>);
+JEI.removeAndHide(<aether_legacy:skyroot_chest>);
+JEI.removeAndHide(<quark:custom_chest:0>);
+JEI.removeAndHide(<quark:custom_chest:1>);
+JEI.removeAndHide(<quark:custom_chest:2>);
+JEI.removeAndHide(<quark:custom_chest:3>);
+JEI.removeAndHide(<quark:custom_chest:4>);
 
-mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:0>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:1>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:2>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:3>);
-mods.jei.JEI.removeAndHide(<quark:custom_chest_trap:4>);
+JEI.removeAndHide(<quark:custom_chest_trap:0>);
+JEI.removeAndHide(<quark:custom_chest_trap:1>);
+JEI.removeAndHide(<quark:custom_chest_trap:2>);
+JEI.removeAndHide(<quark:custom_chest_trap:3>);
+JEI.removeAndHide(<quark:custom_chest_trap:4>);
 
 var chestMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
 
@@ -623,17 +623,17 @@ recipes.addShaped("crafting_table",<minecraft:crafting_table>,[
     [<ore:stickMat>,<ore:stickMat>]
 ]);
 
-mods.jei.JEI.removeAndHide(<minecraft:wooden_shovel>);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_pickaxe>);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_axe>);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_hoe>);
-mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_pickaxe");
-mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_axe");
-mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_hoe");
-mods.ltt.LootTable.removeGlobalItem("minecraft:wooden_shovel");
+JEI.removeAndHide(<minecraft:wooden_shovel>);
+JEI.removeAndHide(<minecraft:wooden_pickaxe>);
+JEI.removeAndHide(<minecraft:wooden_axe>);
+JEI.removeAndHide(<minecraft:wooden_hoe>);
+LootTable.removeGlobalItem("minecraft:wooden_pickaxe");
+LootTable.removeGlobalItem("minecraft:wooden_axe");
+LootTable.removeGlobalItem("minecraft:wooden_hoe");
+LootTable.removeGlobalItem("minecraft:wooden_shovel");
 
 recipes.remove(<dungeontactics:sharp_stick>);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>);
+JEI.removeAndHide(<minecraft:wooden_sword>);
 recipes.addShaped("sharp_stick", <dungeontactics:sharp_stick>,[
     [<ore:stickMat>],
     [<ore:stickMat>],
@@ -681,8 +681,8 @@ recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
 recipes.removeByRecipeName("dungeontactics:misc/convenience/books_from_shelves");
 recipes.addShapeless("book_from_bookshelf",<minecraft:book>,[<ore:bookshelf>]);
 
-mods.jei.JEI.removeAndHide(<minecraft:shield>);
-mods.ltt.LootTable.removeGlobalItem("minecraft:shield");
+JEI.removeAndHide(<minecraft:shield>);
+LootTable.removeGlobalItem("minecraft:shield");
 
 
 var potions = <minecraft:potion>;
@@ -1186,3 +1186,5 @@ recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [[<contenttw
 
 // Fragile Glass And Thin Ice
 recipes.removeByMod("fragileglassft");
+
+recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecraft:stick>]);

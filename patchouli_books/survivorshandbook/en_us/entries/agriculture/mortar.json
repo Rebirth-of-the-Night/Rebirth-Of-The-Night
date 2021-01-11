@@ -5,7 +5,7 @@
   "pages": [
 	{
       "type": "crafting",
-      "recipe": "crafttweaker:mundane mortar",
+      "recipe": "crafttweaker:mundane_mortar",
 	  "text": "I can crush and pulverize several materials with a pestle in a mortar, including separating the magical essence of things. Different mortar materials seem to affect what the output may be, so I need to look out for that."
     },
 	{

@@ -5,6 +5,7 @@ import mods.vanillaanvilrepair.addRepairEntry;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.advancedmortars.Mortar;
 
 //REMOVE copper and tin
 //copper
@@ -142,7 +143,7 @@ recipes.addShaped("bronze plate", plate*24,
   [bronze,bronze,bronze]]);
   
   //PARTS
-recipes.addShaped("bronze to ingot", <contenttweaker:material_part>,
+recipes.addShaped("bronze to ingot", bronze.firstItem,
  [[nugget,nugget,nugget],
   [nugget,nugget,nugget],
   [nugget,nugget,nugget]]);
@@ -150,12 +151,9 @@ recipes.addShaped("bronze to ingot", <contenttweaker:material_part>,
 recipes.addShapeless("bronze to nugget", nugget*9,
  [bronze]);
  
-//BRONZE RECIPES
-recipes.addShapeless("bronze_dust", <ore:dustBronze>.firstItem*4,
- [<ore:dustTin>,<ore:dustCopper>,<ore:dustCopper>,
-  <ore:dustCopper>]
-		);
-  //Additional recipes on pyrotech scripts 
+// BRONZE RECIPES
+Mortar.addRecipe(["diamond"], <ore:dustBronze>.firstItem * 4, 6, [<ore:dustTin> * 1, <ore:dustCopper> * 3]);
+  // Additional recipes on pyrotech scripts 
 
 		
 //info

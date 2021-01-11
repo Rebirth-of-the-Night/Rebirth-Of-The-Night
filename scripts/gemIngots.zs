@@ -4,7 +4,9 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-//This file adds recipes for all objects that require a gem ingot to make (except for the diamond sword which is in spartan_cohesion.zs)
+// This file adds recipes for all objects that require a gem ingot to make 
+//  Exceptions:
+//    Diamond Sword - spartan_cohesion.zs
 
 val diamond = <betterwithmods:material:45>;
 val ruby = <contenttweaker:ruby_ingot>;
@@ -52,7 +54,6 @@ val gemAll = [
 	<spartanweaponry:staff_diamond>,
 	<spartanweaponry:quiver_arrow_heavy>,
 	<spartanweaponry:quiver_bolt_heavy>,
-	<advancedmortars:mortar:3>,
 	<minecraft:diamond_helmet>,
 	<minecraft:diamond_chestplate>,
 	<minecraft:diamond_leggings>,
@@ -98,11 +99,7 @@ recipes.addShapedMirrored("diamond_hoe", <minecraft:diamond_hoe>,
 recipes.addShapedMirrored("diamond_axe", <minecraft:diamond_axe>,
  [[diamond,diamond],
   [diamond,stick],
-  [null,stick]]); 
-recipes.addShapedMirrored("diamond_mortar", <advancedmortars:mortar:3>,
- [[null,null,stick],
-  [diamond,flint,diamond],
-  [null,diamond,null]]);
+  [null,stick]]);
 
 
 //Diamond Armor  
