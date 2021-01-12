@@ -97,7 +97,7 @@ GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<a
 
 GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
 
-//Cut gems
+// Cut gems
 GCT.addRecipe("pristine_diamond", <contenttweaker:pristine_diamond>, [<minecraft:diamond>, <minecraft:gold_nugget>*6, <minecraft:redstone>*12]);
 
 GCT.addRecipe("poisonetched_emerald", <contenttweaker:poisonetched_emerald>, [<minecraft:emerald>, <betterwithmods:material:54>*6, <betterwithmods:material:37>*12]);
@@ -127,7 +127,7 @@ GCT.addRecipe("magicinfused_wood2", <biomesoplenty:log_1:5>*64, [<arcanearchives
 // Misc
 
 //ender spectacles
-//actually turns out, this thing is OP as shit. endermen and variants don't even retaliate when attacked. I don't like that. until we can fix that or make a workaround, away it goes.
+// actually turns out, this thing is OP as shit. endermen and variants don't even retaliate when attacked. I don't like that. until we can fix that or make a workaround, away it goes.
 recipes.remove(<betterwithmods:ender_spectacles>);
 //GCT.addRecipe("ender_spectacles", <betterwithmods:ender_spectacles>, [<arcanearchives:matrix_brace>*2, <arcanearchives:monitoring_crystal>*2, <betterwithmods:material:40>*2, <arcanearchives:scintillating_inlay>, <betterwithmods:material:8>*1]);
 //<betterwithmods:ender_spectacles>.displayName = "§5Ender Spectacles";

@@ -319,7 +319,7 @@
     "result": "deny"
   },
 
-//aether spawns
+// aether spawns
  {
     "dimension": 4,
     "mob": "aether_legacy:aechor_plant",
@@ -565,7 +565,7 @@
     "result": "allow"
  },
 
-//aether attempt to make fireballs explode
+// aether attempt to make fireballs explode
   {
     "mob": "aether_legacy:fire_ball",
     "dimension": 4,

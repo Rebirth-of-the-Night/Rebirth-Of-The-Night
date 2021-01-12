@@ -8,7 +8,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.advancedmortars.Mortar;
 
 //REMOVE copper and tin
-//copper
+// copper
 JEI.removeAndHide(<simpleores:copper_sword>);
 JEI.removeAndHide(<simpleores:copper_pickaxe>);
 JEI.removeAndHide(<simpleores:copper_shovel>);
@@ -152,7 +152,8 @@ recipes.addShapeless("bronze to nugget", nugget*9,
  [bronze]);
  
 // BRONZE RECIPES
-Mortar.addRecipe(["diamond"], <ore:dustBronze>.firstItem * 4, 6, [<ore:dustTin> * 1, <ore:dustCopper> * 3]);
+Mortar.addRecipe(["diamond"], <ore:dustBronze>.firstItem * 4, 8, [<ore:ingotTin> * 1, <ore:ingotCopper> * 3]);
+recipes.addShapeless("bronze_dust", <ore:dustBronze>.firstItem * 4, [<ore:dustTin>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]);
   // Additional recipes on pyrotech scripts 
 
 		
@@ -163,7 +164,7 @@ JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a l
 JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
 JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
 JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
-JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also know as hoplon. Provides excellent cover without sacrificing offensive capacity.");
+JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also known as hoplon. Provides excellent cover without sacrificing offensive capacity.");
 
 //repair recipes
 var bronzeItems = <atop:mud_helmet> | <atop:mud_chestplate> | <atop:mud_leggings> | <atop:mud_boots> | <atop:mud_sword> | <atop:mud_shovel> | <atop:mud_pickaxe> | <atop:mud_axe> | <atop:mud_hoe>;

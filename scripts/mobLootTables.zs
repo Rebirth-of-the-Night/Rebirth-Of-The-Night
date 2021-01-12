@@ -220,7 +220,7 @@ var hauntedTools as int[string] = {
     "spartanweaponry:staff_stone" : 8,
     "spartanshields:shield_basic_stone" : 7,
 
-//copper
+// copper
     "simpleores:copper_axe" : 6,
     "spartanweaponry:dagger_copper" : 6,
     "spartanweaponry:hammer_copper" : 6,

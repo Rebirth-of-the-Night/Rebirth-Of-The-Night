@@ -85,7 +85,7 @@ val knightsword = <twilightforest:knightmetal_sword>;
 val giantsword = <twilightforest:giant_sword>;
 val fiber = <ore:durableFiber>;
 
-//Crossbow Tweaks
+// Crossbow Tweaks
 recipes.remove(<spartanweaponry:crossbow_wood>);
 recipes.addShaped("SteelCrossbow", <spartanweaponry:crossbow_wood>.withTag({display: {Name: "§5Steel Crossbow"}}),
  [[bow,fiber,wheel],

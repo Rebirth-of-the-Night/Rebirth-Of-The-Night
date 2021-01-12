@@ -25,7 +25,7 @@ mods.betterwithmods.Kiln.add(
 	]
 
 );
-//Cosmetic
+// Cosmetic
 mods.betterwithmods.Kiln.add(
 	<iceandfire:ash>,
 	[

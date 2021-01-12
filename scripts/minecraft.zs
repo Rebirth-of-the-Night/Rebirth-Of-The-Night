@@ -8,8 +8,8 @@ import mods.rockytweaks.Anvil;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.ltt.LootTable;
 
-//brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
-//brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
+// brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
+// brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
 recipes.remove(<minecraft:mushroom_stew>);
 
@@ -470,7 +470,7 @@ Anvil.remove(<minecraft:wooden_sword>);
 
 LootTable.removeGlobalItem("minecraft:barrier");
 
-//Chain Recipes
+// Chain Recipes
 var chainlink = <iceandfire:chain_link>;
 var chain = <quark:chain>;
 var bigchain = <iceandfire:chain>;
@@ -1098,7 +1098,7 @@ runes.addItems([<contenttweaker:fae_rune>,<contenttweaker:chaos_rune>,<contenttw
 );
 
 
-//ContentTweaker extra blocks recipes
+// ContentTweaker extra blocks recipes
 //All Lunarin bricks
 recipes.remove(<villagenames:lunaringoldbrick>);
 recipes.remove(<villagenames:lunarinironbrick>);

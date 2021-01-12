@@ -163,7 +163,7 @@ recipes.addShaped("plagueboots", <mod_lavacow:swinearmor_boots>,[
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <mod_lavacow:hyphae>);
 brewing.removeRecipe(<mod_lavacow:fissionpotion>, <mod_lavacow:mootenheart>);
 
-//chef rat recipes
+// chef rat recipes
 mods.rats.recipes.addChefRatRecipe(<mod_lavacow:parasite_item>, <mod_lavacow:sausage_roll>);
 
 // Oozemancer Staff

@@ -35,7 +35,7 @@ recipes.addShapeless("Nail Trap", <minetraps:nail_trap>,[<minetraps:nails>,<mine
 // trap hardness/resistance tweaks
 // yes this is sloppy using 2 methods idgaf
 
-//cobweb nerf
+// cobweb nerf
 <minecraft:web>.asBlock().definition.resistance = 3;
 
 // barbed wire

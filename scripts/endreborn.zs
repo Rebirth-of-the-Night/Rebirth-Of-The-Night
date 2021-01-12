@@ -160,7 +160,7 @@ recipes.addShaped("endorium_bow",<endreborn:ender_bow>,[
     [<minecraft:string>,<ore:stickWood>,null]
 ]);
 
-//changes to end rune behavior
+// changes to end rune behavior
 recipes.remove(<endreborn:item_end_rune>);
 val endrune = <endreborn:item_end_rune>;
 endrune.maxStackSize = 1;

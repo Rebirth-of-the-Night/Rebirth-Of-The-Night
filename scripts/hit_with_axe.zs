@@ -133,10 +133,10 @@ Chopping.addRecipe("minecraft:log2", 8, "hitwithaxe:debarked_acacia", 2, <hitwit
 Chopping.addRecipe("hitwithaxe:debarked_acacia", 32767, <minecraft:planks:4>);
 
 //Spectre
-//Chopping.addRecipe("randomthings:spectrelog", 1, "hitwithaxe:debarked_spectre", 1, <hitwithaxe:bark:19>); //Y Axis
-//Chopping.addRecipe("randomthings:spectrelog", 0, "hitwithaxe:debarked_spectre", 0, <hitwithaxe:bark:19>); //X Axis
-//Chopping.addRecipe("randomthings:spectrelog", 2, "hitwithaxe:debarked_spectre", 2, <hitwithaxe:bark:19>); //Z Axis
-//Chopping.addRecipe("hitwithaxe:debarked_spectre", 32767, <randomthings:spectreplank>);
+// Chopping.addRecipe("randomthings:spectrelog", 1, "hitwithaxe:debarked_spectre", 1, <hitwithaxe:bark:19>); //Y Axis
+// Chopping.addRecipe("randomthings:spectrelog", 0, "hitwithaxe:debarked_spectre", 0, <hitwithaxe:bark:19>); //X Axis
+// Chopping.addRecipe("randomthings:spectrelog", 2, "hitwithaxe:debarked_spectre", 2, <hitwithaxe:bark:19>); //Z Axis
+// Chopping.addRecipe("hitwithaxe:debarked_spectre", 32767, <randomthings:spectreplank>);
 
 // Olive
 recipes.removeByRecipeName("rustic:olive_planks");

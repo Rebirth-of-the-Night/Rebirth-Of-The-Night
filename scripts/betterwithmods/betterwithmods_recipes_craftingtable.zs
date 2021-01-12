@@ -89,7 +89,7 @@ recipes.addShaped("Wind Sail Siding", <betterwithmods:material:11>,
   [cloth,cloth,cloth],
   [siding,siding,siding]]); 
 
-//Cauldron
+// Cauldron
 recipes.remove(<betterwithmods:cooking_pot:1>);
 
 val cooking_cauldron = <betterwithmods:cooking_pot:1>;

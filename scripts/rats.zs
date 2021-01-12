@@ -132,7 +132,7 @@ mods.ltt.LootTable.removeGlobalItem("rats:ratlantean_flame");
 <entity:rats:feral_ratlantean>.removeDrop(<rats:marbled_cheese_rat_head>);
 <entity:rats:feral_ratlantean>.removeDrop(<rats:rat_toga>);
 
-//addPlayerOnlyDrop(weightedItem, min, max);
+// addPlayerOnlyDrop(weightedItem, min, max);
 
 
 mods.jei.JEI.addDescription(<rats:plague_leech>,"A disgusting critter typically found on plagued-infested beasts. Some species are hardy enough to survive in the guts of living creatures.");
@@ -281,7 +281,7 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:thick"}), <rats:c
 brewing.addBrew(<minecraft:lingering_potion>.withTag({Potion: "minecraft:thick"}), <minecraft:skull:4>, <minecraft:lingering_potion>.withTag({Potion: "potioncore:explode"}));
 brewing.addBrew(<minecraft:lingering_potion>.withTag({Potion: "minecraft:thick"}), <rats:charged_creeper_chunk>, <minecraft:lingering_potion>.withTag({Potion: "potioncore:strong_explode"}));
 
-//chef rat recipes
+// chef rat recipes
 mods.rats.recipes.addChefRatRecipe(<minecraft:golden_apple:1>, <rats:confit_byaldi>);
 mods.rats.recipes.addChefRatRecipe(<minecraft:skull>, <harvestcraft:spaghettidinneritem>);
 mods.rats.recipes.addChefRatRecipe(<minecraft:rotten_flesh>, <harvestcraft:zombiejerkyitem>);

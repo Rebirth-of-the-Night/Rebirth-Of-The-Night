@@ -586,7 +586,7 @@
     "itemcount": "40-59"
     },
 	
-//mowzie lantern
+// mowzie lantern
   {
     "mob": "mowziesmobs:lantern",
     "remove": "mowziesmobs:glowing_jelly"

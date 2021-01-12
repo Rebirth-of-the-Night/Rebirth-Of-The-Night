@@ -101,7 +101,7 @@ val waterQ = mods.contenttweaker.VanillaFactory.createItem("water_quintessence")
 waterQ.setCreativeTab(<creativetab:materials.base>);
 waterQ.register();
 
-//arcane
+// arcane
 val spectralShard = mods.contenttweaker.VanillaFactory.createItem("spectral_shard");
 spectralShard.setCreativeTab(<creativetab:materials.base>);
 spectralShard.register();

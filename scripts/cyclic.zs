@@ -84,7 +84,7 @@ recipes.remove(<cyclicmagic:horse_upgrade_speed>);
 recipes.remove(<cyclicmagic:horse_upgrade_jump>);
 recipes.remove(<cyclicmagic:moon_sensor>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
-//apple recipes on betterwithmods.zs
+// apple recipes on betterwithmods.zs
 
 var vnugg = <ore:nuggetViridium>.firstItem;
 var duracloth = <betterwithmods:material:4>;

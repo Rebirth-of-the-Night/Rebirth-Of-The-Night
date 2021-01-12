@@ -11,7 +11,7 @@ JEI.removeAndHide(<horsepower:chopper>);
 furnace.setFuel(<horsepower:chopper>, 0);
 JEI.removeAndHide(<horsepower:hand_grindstone>);
 
-//Crafting table recipes
+// Crafting table recipes
 recipes.remove(<horsepower:press>);
 recipes.addShaped("horse_press",<horsepower:press>,[
     [<minecraft:lead>,<ore:stickWood>,<minecraft:lead>],

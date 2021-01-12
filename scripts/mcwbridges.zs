@@ -59,7 +59,7 @@ recipes.addShaped("bridgeStack_dark_oak", <mcwbridges:rope_dark_oak_bridge>*32,[
 	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]
 ]);
 
-//actual bamboo bridge
+// actual bamboo bridge
 recipes.addShaped("bridge_bamboo", <mcwbridges:bamboo_bridge>*2,[
 	[<biomesoplenty:bamboo>, <ore:durableFiber>, <biomesoplenty:bamboo>],
 	[<biomesoplenty:bamboo>, <biomesoplenty:bamboo>, <biomesoplenty:bamboo>]

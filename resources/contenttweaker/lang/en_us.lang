@@ -266,6 +266,7 @@ item.contenttweaker.patty.name=Patty
 item.contenttweaker.ratatouille.name=Ratatouille
 item.contenttweaker.hydraco.name=Hydra Taco
 item.contenttweaker.ground_beef.name=Ground Beef
+item.contenttweaker.broken_stick.name=Broken Stick
 
 fluid.lifeblood=Lifeblood
 fluid.ender_slag=Distilled Ender Slag

@@ -9,7 +9,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 RecipeBuilder.get("mage")
   .setShaped([
     [<hitwithaxe:bark:41>, <contenttweaker:pristine_diamond>, <hitwithaxe:bark:41>],
-    [<contenttweaker:material_part:38>, <betternether:quartz_glass_framed_pane>, <contenttweaker:material_part:38>],
+    [<ore:dustElectrum>.firstItem, <betternether:quartz_glass_framed_pane>, <ore:dustElectrum>.firstItem],
     [<hitwithaxe:bark:41>, <contenttweaker:pristine_diamond>, <hitwithaxe:bark:41>]])
   .addTool(<contenttweaker:order_rune>, 1)
   .addTool(<contenttweaker:balance_rune>, 1)

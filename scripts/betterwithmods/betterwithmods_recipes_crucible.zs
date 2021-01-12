@@ -124,7 +124,7 @@ Crucible.addStoked(
         <betterwithmods:urn>
     ]
 );
-//Charbiotite sfs
+// Charbiotite sfs
 // Crucible.addStoked(
 //     [
 //         <ore:ingotSteel>,
@@ -163,21 +163,10 @@ Crucible.addStoked(
 //Bronze Production
 Crucible.addUnstoked(
     [
-        <ore:blockTin>,
-        <ore:blockCopper>,
-        <ore:blockCopper>,
-        <ore:blockCopper>
-    ],
-    [
-        <contenttweaker:block_bronze>*4
-    ]
-);
-Crucible.addUnstoked(
-    [
-        <ore:ingotTin>|<ore:dustTin>,
-        <ore:ingotCopper>|<ore:dustCopper>,
-        <ore:ingotCopper>|<ore:dustCopper>,
-        <ore:ingotCopper>|<ore:dustCopper>
+        <ore:dustTin>,
+        <ore:dustCopper>,
+        <ore:dustCopper>,
+        <ore:dustCopper>
     ],
     [
         <ore:ingotBronze>.firstItem*4
@@ -210,31 +199,15 @@ Crucible.addStoked(
 //Electrum Production
 Crucible.addUnstoked(
     [
-        <ore:blockGold>,
-        <ore:blockGold>,
-		<ore:blockGold>,
-        <ore:blockGold>,
-		<ore:blockSilver>,
-		<ore:blockSilver>,
-		<ore:blockSilver>,
-        <aether_legacy:ambrosium_block>,
-		<aether_legacy:ambrosium_block>
-    ],
-    [
-        <contenttweaker:block_electrum>*4
-    ]
-);
-Crucible.addUnstoked(
-    [
-        <ore:ingotGold>|<ore:dustGold>,
-        <ore:ingotGold>|<ore:dustGold>,
-		<ore:ingotGold>|<ore:dustGold>,
-		<ore:ingotGold>|<ore:dustGold>,
-		<ore:ingotSilver>|<ore:dustSilver>,
-		<ore:ingotSilver>|<ore:dustSilver>,
-		<ore:ingotSilver>|<ore:dustSilver>,
-        <ore:gemAmbrosium>,
-		<ore:gemAmbrosium>
+        <ore:dustGold>,
+        <ore:dustGold>,
+		<ore:dustGold>,
+		<ore:dustGold>,
+		<ore:dustSilver>,
+		<ore:dustSilver>,
+		<ore:dustSilver>,
+        <ore:dustAmbrosium>,
+		<ore:dustAmbrosium>
     ],
     [
         <ore:ingotElectrum>.firstItem*4
@@ -266,8 +239,8 @@ Crucible.addStoked(
 		<ore:ingotSilver>|<ore:dustSilver>,
 		<ore:ingotSilver>|<ore:dustSilver>,
 		<ore:ingotSilver>|<ore:dustSilver>,
-        <ore:gemAmbrosium>,
-		<ore:gemAmbrosium>
+        <ore:gemAmbrosium>|<ore:dustAmbrosium>,
+		<ore:gemAmbrosium>|<ore:dustAmbrosium>
     ],
     [
         <ore:ingotElectrum>.firstItem*4

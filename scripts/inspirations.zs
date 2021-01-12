@@ -16,11 +16,11 @@ Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar_water>, 1, <minec
 // Magic powder 
 Cauldron.addFluidRecipe(<dungeontactics:magic_powder>, <contenttweaker:magic_blend>, <liquid:lunar_water>, 1, false);
 
-//Cauldron.addFluidRecipe(<dungeontactics:magic_powder>*2, <contenttweaker:magic_blend>, <liquid:mythril>, 1, true);
+// Cauldron.addFluidRecipe(<dungeontactics:magic_powder>*2, <contenttweaker:magic_blend>, <liquid:mythril>, 1, true);
 
 // Cyclic Corrupted Chorus Fruit
 ////The Chorus Bead can be enabled in a future update as part of a late-game magic recipe.
-//Cauldron.addPotionRecipe(<cyclicmagic:corrupted_chorus>, <quark:soul_bead>, "extraalchemy:dislocation_normal", 4, true); 
+// Cauldron.addPotionRecipe(<cyclicmagic:corrupted_chorus>, <quark:soul_bead>, "extraalchemy:dislocation_normal", 4, true); 
 
 // Cyclic Moon Phase Detector
 Cauldron.addFluidRecipe(<cyclicmagic:moon_sensor>, <minecraft:daylight_detector>, <liquid:lunar_water>, 1);
@@ -33,10 +33,10 @@ Cauldron.addPotionRecipe(<contenttweaker:egg_block>, <ore:listAllegg>, "potionco
 
 
 ###Potion Recipes###
-//Cauldron.addBrewingRecipe(String output, String input, IIngredient reagent);
+// Cauldron.addBrewingRecipe(String output, String input, IIngredient reagent);
 Cauldron.addBrewingRecipe("potioncore:solid_core", "minecraft:slowness", <contenttweaker:holding_quintessence>);
 
-//Cauldron.removeBrewingRecipe(String output, @Optional String input, @Optional IIngredient reagent);
+// Cauldron.removeBrewingRecipe(String output, @Optional String input, @Optional IIngredient reagent);
 val potionRemoval as string[] = [
     "extraalchemy:learning_long",
     "extraalchemy:learning_normal",

@@ -185,7 +185,7 @@ JEI.removeAndHide(<randomthings:ingredient:13>);
 recipes.remove(<randomthings:potionvaporizer>);
 recipes.addShaped(<randomthings:potionvaporizer>, [[<ore:Stone>, <cyclicmagic:fluid_pump>, <ore:Stone>],[<rustic:retort_advanced>, <pyrotech:igniter:1>, <rustic:retort_advanced>], [<dungeontactics:fan_block>, <minecraft:dispenser>, <dungeontactics:fan_block>]]);
 
-//contact blocks
+// contact blocks
 recipes.remove(<randomthings:contactlever>);
 recipes.remove(<randomthings:contactbutton>);
 recipes.addShaped(<randomthings:contactlever>, [[<ore:Stone>, <minecraft:iron_bars>, <ore:Stone>],[<ore:Stone>, <minecraft:lever>, <ore:Stone>], [<ore:Stone>, <betterwithmods:detector>, <ore:Stone>]]);

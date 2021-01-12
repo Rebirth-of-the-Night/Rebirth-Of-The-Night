@@ -182,12 +182,12 @@ Cauldron.builder()
 Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
 Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
 
-//Cyclic Apple
+// Cyclic Apple
 FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
 FilteredHopper.addFilter("modtweaker:soulsand", <minecraft:soul_sand>);
 
 // Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
-//Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); // netherrack and sawdust
+// Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); // netherrack and sawdust
 Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); // chips to potash
 FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); // sawdust from soul dust
 FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);

@@ -159,7 +159,7 @@ val waterQ = VanillaFactory.createItem("water_quintessence");
 waterQ.setCreativeTab(<creativetab:Dunamis>);
 waterQ.register();
 
-//arcane
+// arcane
 val spectralShard = VanillaFactory.createItem("spectral_shard");
 spectralShard.setCreativeTab(<creativetab:Dunamis>);
 spectralShard.register();

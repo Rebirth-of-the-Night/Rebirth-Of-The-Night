@@ -30,7 +30,7 @@ dormant_onyx.setBeaconBase(false);
 dormant_onyx.register();
 
 
-//Charcoal pile
+// Charcoal pile
 var charlog = VanillaFactory.createBlock("charcoal_pile", <blockmaterial:Wood>);
 charlog.setCreativeTab(<creativetab:buildingBlocks>);
 charlog.setBlockSoundType(<soundtype:Ground>);
@@ -65,7 +65,7 @@ dolomite_straws.setBlockSoundType(<soundtype:stone>);
 dolomite_straws.setToolLevel(0);
 dolomite_straws.register();
 
-//block_electrum
+// block_electrum
 var blockElectrum = VanillaFactory.createBlock("block_electrum", <blockmaterial:Iron>);
 blockElectrum.setCreativeTab(<creativetab:buildingBlocks>);
 blockElectrum.setBlockHardness(3.0);
@@ -73,7 +73,7 @@ blockElectrum.setBlockResistance(12.0);
 blockElectrum.setBeaconBase(true);
 blockElectrum.register();
 
-//block_bronze
+// block_bronze
 var blockBronze = VanillaFactory.createBlock("block_bronze", <blockmaterial:Iron>);
 blockBronze.setCreativeTab(<creativetab:buildingBlocks>);
 blockBronze.setBlockHardness(4.0);
@@ -81,12 +81,12 @@ blockBronze.setBlockResistance(15.0);
 blockBronze.setBeaconBase(true);
 blockBronze.register();
 
-//copper_plate
+// copper_plate
 var copper_plate = VanillaFactory.createBlock("copper_plate", <blockmaterial:Iron>);
 copper_plate.setCreativeTab(<creativetab:buildingBlocks>);
 copper_plate.register();
 
-//copper_patined
+// copper_patined
 var copper_patined = VanillaFactory.createBlock("copper_patined", <blockmaterial:Iron>);
 copper_patined.setCreativeTab(<creativetab:buildingBlocks>);
 copper_plate.setBeaconBase(true);
@@ -422,7 +422,7 @@ n_copper_sandstone_red.setBeaconBase(true);
 n_copper_sandstone_red.setToolLevel(0);
 n_copper_sandstone_red.register();
 
-//cobblestone paths
+// cobblestone paths
 var cobblestone_path_coade = VanillaFactory.createBlock("cobblestone_path_coade", <blockmaterial:Rock>);
 cobblestone_path_coade.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,

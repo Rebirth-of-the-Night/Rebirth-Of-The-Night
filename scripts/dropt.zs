@@ -607,7 +607,7 @@ Dropt.list("lodestone")
        	   .items([<minecraft:stonebrick:3>])
       )
   ); 
-//Cobbled Path blocks
+// Cobbled Path blocks
 Dropt.list("cobbled_coade")
 
   .add(Dropt.rule()

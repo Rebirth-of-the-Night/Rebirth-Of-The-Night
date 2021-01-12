@@ -34,6 +34,8 @@ val sicolor = Color.fromHex("D2DCE8") as Color;
 val silver = MaterialSystem.getMaterialBuilder().setName("Silver").setColor(sicolor).build();
 val zcolor = Color.fromHex("E3EAE8") as Color;
 val zinc = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(zcolor).build();
+val ambcolor = Color.fromHex("FFE666") as Color;
+val ambrosium = MaterialSystem.getMaterialBuilder().setName("Ambrosium").setColor(ambcolor).build();
 
 //MISC PARTS
 var cdata = copper.registerParts(["nugget","molten","dust"] as string[])[1].getData();
@@ -49,6 +51,7 @@ var idata = iron.registerParts(["dust"] as string[]);
 var gdata = gold.registerParts(["dust"] as string[]);
 var sidata = silver.registerParts(["dust"] as string[]);
 var zdata = zinc.registerParts(["ore","ingot","block","nugget","molten","dust"] as string[])[4].getData();
+var ambdata = ambrosium.registerParts(["molten", "dust"] as string[])[0].getData();
 
 cdata.addDataValue("temperature", 1350);
 cdata.addDataValue("density", 8000);
@@ -89,3 +92,8 @@ zdata.addDataValue("temperature", 500);
 zdata.addDataValue("density", 3100);
 zdata.addDataValue("luminosity", 7);
 zdata.addDataValue("viscosity", 1900);
+
+ambdata.addDataValue("temperature", 195);
+ambdata.addDataValue("density", 1125);
+ambdata.addDataValue("luminosity", 12);
+ambdata.addDataValue("viscosity", 6050);

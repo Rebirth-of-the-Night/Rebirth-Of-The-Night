@@ -2,10 +2,10 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
-//antler -> bonemeal
+// antler -> bonemeal
 recipes.addShapeless("antlerBonemeal", <minecraft:dye:15>*2,[<betteranimalsplus:antler>]);
 
-//alternative throwbone recipe
+// alternative throwbone recipe
 recipes.addShaped("antlerThrowbone", <doggytalents:throw_bone>,[
 	[<betteranimalsplus:antler>, null, <betteranimalsplus:antler>],
 	[null, <ore:slimeball>, null],

@@ -21,7 +21,7 @@ mods.ltt.LootTable.removeGlobalItem("mowziesmobs:glowing_jelly");
 <mowziesmobs:spear>.displayName = "Barakoa Hunting Spear";
 mods.jei.JEI.addDescription(<mowziesmobs:spear>,"Carefully carved along the handle is an inscription: 'Hunt with the glory of the Sun, for under Its great radiance we remain pure and strong.'");
 
-//craftable Mask of Fear - for pacifism purposes and a more reliable way to summon followers while wearing the Sol Visage
+// craftable Mask of Fear - for pacifism purposes and a more reliable way to summon followers while wearing the Sol Visage
 
 recipes.addShaped("Mask of Fear", <mowziesmobs:barakoa_mask_fear>,[
 	[<ore:feather>, <ore:feather>, <ore:feather>],

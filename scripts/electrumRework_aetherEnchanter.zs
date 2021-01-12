@@ -38,11 +38,12 @@ recipes.addShaped("electrum_nugget_to_ingot",elec, [
     [elecnugget, elecnugget, elecnugget], 
     [elecnugget, elecnugget, elecnugget]
 ]);
-recipes.addShapeless("ingot_to_electrum_nugget",elecnugget* 9, [elec]);
+recipes.addShapeless("ingot_to_electrum_nugget",elecnugget * 9, [elec]);
 
-Mortar.addRecipe(["diamond"], <ore:dustElectrum>.firstItem * 4, 12, [<ore:dustGold> * 4, <ore:dustSilver> * 3, <aether_legacy:ambrosium_shard> * 2]);
+Mortar.addRecipe(["diamond"], <ore:dustElectrum>.firstItem * 4, 12, [<ore:ingotGold> * 4, <ore:ingotSilver> * 3, <aether_legacy:ambrosium_shard> * 2]);
+recipes.addShapeless("electrum_dust", <ore:dustElectrum>.firstItem * 4, [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>, <ore:dustGold>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustAmbrosium>, <ore:dustAmbrosium>]);
   // Additional recipes on pyrotech scripts 
- 
+
 //JEI decriptions
 JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
 
