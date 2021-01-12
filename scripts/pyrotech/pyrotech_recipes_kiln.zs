@@ -11,43 +11,40 @@ furnace.remove(<minecraft:netherbrick>, <betterwithmods:material:35>);
 furnace.remove(<pyrotech:material:15>);
 furnace.remove(<betterwithmods:cooking_pot>);
 
-var bronzeDust = <ore:dustBronze>;
-var electrumDust = <ore:dustElectrum>;
-
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
-StoneKiln.addRecipe("bronze_from_dust",<ore:ingotBronze>.firstItem, bronzeDust, 20*300, true);
-StoneKiln.addRecipe("electrum_from_dust",<ore:ingotElectrum>.firstItem, electrumDust, 20*300, true);
-StoneKiln.addRecipe("bwmpottery_a",<betterwithmods:cooking_pot>, <contenttweaker:crucible>, 20*210, true);
-StoneKiln.addRecipe("bwmpottery1",<betterwithmods:planter>, <betterwithmods:unfired_pottery:1>, 20*210, true);
-StoneKiln.addRecipe("bwmpottery2",<rustic:vase>, <contenttweaker:pot_unfired>, 20*210, true);
-StoneKiln.addRecipe("bwmpottery3",<betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 20*210, true);
-StoneKiln.addRecipe("bwmpottery4",<betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 20*210, true);
-StoneKiln.addRecipe("bwmclaybrick",<minecraft:brick:0>, <minecraft:clay_ball:0>, 20*210, true);
+StoneKiln.addRecipe("bronze_from_dust", <ore:ingotBronze>.firstItem, <ore:dustBronze>, 20*300, true);
+StoneKiln.addRecipe("electrum_from_dust", <ore:ingotElectrum>.firstItem, <ore:dustElectrum>, 20*300, true);
+StoneKiln.addRecipe("bwmpottery_a", <betterwithmods:cooking_pot>, <contenttweaker:crucible>, 20*210, true);
+StoneKiln.addRecipe("bwmpottery1", <betterwithmods:planter>, <betterwithmods:unfired_pottery:1>, 20*210, true);
+StoneKiln.addRecipe("bwmpottery2", <rustic:vase>, <contenttweaker:pot_unfired>, 20*210, true);
+StoneKiln.addRecipe("bwmpottery3", <betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 20*210, true);
+StoneKiln.addRecipe("bwmpottery4", <betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 20*210, true);
+StoneKiln.addRecipe("bwmclaybrick", <minecraft:brick:0>, <minecraft:clay_ball:0>, 20*210, true);
 StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 20*240, true);
-StoneKiln.addRecipe("bwmnetherbrick_efficient",<minecraft:netherbrick>*4, <minecraft:netherrack>, 20*240, true);
-StoneKiln.addRecipe("bwmclaybrick_efficient ",<minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*240, true);
+StoneKiln.addRecipe("bwmnetherbrick_efficient", <minecraft:netherbrick>*4, <minecraft:netherrack>, 20*240, true);
+StoneKiln.addRecipe("bwmclaybrick_efficient ", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*240, true);
 StoneKiln.addRecipe("refractorybrick", <pyrotech:material:5>, <pyrotech:material:9>, 20*280, true);
-StoneKiln.addRecipe("bwmcobble_to_stone",<minecraft:stone:0>, <minecraft:cobblestone:0>, 20*210, true);
-StoneKiln.addRecipe("bwmcobble_to_stone1",<minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*210, true);
-StoneKiln.addRecipe("bwmcobble_to_stone2",<minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*210, true);
-StoneKiln.addRecipe("bwmcobble_to_stone3",<minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*210, true);
-StoneKiln.addRecipe("charge_to_burnt_goo",<betterslimes:black_slime>, <minecraft:fire_charge>, 20*300, true);
-StoneKiln.addRecipe("bwmmudbrick_efficient",<biomesoplenty:mud_brick>, <ore:ballMud>, 20*210, true);
-StoneKiln.addRecipe("charcoal_pile",<contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*290, true);
-StoneKiln.addRecipe("charcoal_flakes",<pyrotech:material:15>, <pyrotech:rock:7>, 20*290, 0.25, [<biomesoplenty:ash>*2], true);
-StoneKiln.addRecipe("bwmflint_block",<betterwithmods:aesthetic:5>, <ore:gravel>, 20*290, true);
-StoneKiln.addRecipe("whitecobble_to_stone",<betterwithmods:aesthetic:6>, <betterwithmods:aesthetic:7>, 20*280, true);
-BrickKiln.addRecipe("endstone_to_enderslag",<betterwithmods:aesthetic:7>, <minecraft:end_stone>, 20*300, 0.3, [<betterwithmods:material:39>]);
+StoneKiln.addRecipe("bwmcobble_to_stone", <minecraft:stone:0>, <minecraft:cobblestone:0>, 20*210, true);
+StoneKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*210, true);
+StoneKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*210, true);
+StoneKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*210, true);
+StoneKiln.addRecipe("charge_to_burnt_goo", <betterslimes:black_slime>, <minecraft:fire_charge>, 20*300, true);
+StoneKiln.addRecipe("bwmmudbrick_efficient", <biomesoplenty:mud_brick>, <ore:ballMud>, 20*210, true);
+StoneKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*290, true);
+StoneKiln.addRecipe("charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 20*290, 0.25, [<biomesoplenty:ash>*2], true);
+StoneKiln.addRecipe("bwmflint_block", <betterwithmods:aesthetic:5>, <ore:gravel>, 20*290, true);
+StoneKiln.addRecipe("whitecobble_to_stone", <betterwithmods:aesthetic:6>, <betterwithmods:aesthetic:7>, 20*280, true);
+BrickKiln.addRecipe("endstone_to_enderslag", <betterwithmods:aesthetic:7>, <minecraft:end_stone>, 20*300, 0.3, [<betterwithmods:material:39>]);
 //food recipes
-StoneKiln.addRecipe("bwmcake",<minecraft:cake>, <betterwithmods:raw_pastry>, 20*60, true);
-StoneKiln.addRecipe("bwmpumpkinpie",<minecraft:pumpkin_pie>, <betterwithmods:raw_pastry:1>, 20*60, true);
-StoneKiln.addRecipe("bwmcookie",<minecraft:cookie>*8, <betterwithmods:raw_pastry:2>, 20*60, true);
-StoneKiln.addRecipe("bwmbread",<minecraft:bread>, <betterwithmods:raw_pastry:3>,20*60, true);
-//StoneKiln.addRecipe("bwmapplepie",<betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
-StoneKiln.addRecipe("raw_salt_from_sandstone",<contenttweaker:halite>, <ore:sandstone>,20*210, true);
+StoneKiln.addRecipe("bwmcake", <minecraft:cake>, <betterwithmods:raw_pastry>, 20*60, true);
+StoneKiln.addRecipe("bwmpumpkinpie", <minecraft:pumpkin_pie>, <betterwithmods:raw_pastry:1>, 20*60, true);
+StoneKiln.addRecipe("bwmcookie", <minecraft:cookie>*8, <betterwithmods:raw_pastry:2>, 20*60, true);
+StoneKiln.addRecipe("bwmbread", <minecraft:bread>, <betterwithmods:raw_pastry:3>,20*60, true);
+//StoneKiln.addRecipe("bwmapplepie", <betterwithmods:apple_pie>, <betterwithmods:raw_pastry:4>,200, true);
+StoneKiln.addRecipe("raw_salt_from_sandstone", <contenttweaker:halite>, <ore:sandstone>, 20*210, true);
 //Misc
-//StoneKiln.addRecipe("coral_lime",<pyrotech:material:35>*5, <coralreef:reef>,20*210, true);
+//StoneKiln.addRecipe("coral_lime", <pyrotech:material:35>*5, <coralreef:reef>,20*210, true);
 //note:add BOP coral here for slightly less return (easily harvestable item versus thick block of reef)
 
 // Modded cobble to stone recipes
@@ -74,10 +71,11 @@ var stringMat as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridiu
 for mat in stringMat {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["ingot"~mat], oreDict["ore"~mat]);
     StoneKiln.addRecipe("stonekiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 20*250, true);
+    StoneKiln.addRecipe("stonekiln_dust"~mat, oreDict["ingot"~mat].firstItem, oreDict["dust"~mat], 20*300, true);
 }
 
 //gem
-var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "EnderBiotite", "Onyx"];
+var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "EnderBiotite", "Onyx", "Ambrosium", "Zanite"];
 for mat1 in stringMat1 {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["gem"~mat1], oreDict["ore"~mat1]);
     StoneKiln.addRecipe("stonekiln"~mat1, oreDict["gem"~mat1].firstItem, oreDict["ore"~mat1], 20*270, true);
