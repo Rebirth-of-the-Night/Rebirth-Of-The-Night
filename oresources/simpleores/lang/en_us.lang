@@ -1,6 +1,7 @@
 //Blocks
 tile.adamantium_ore.name=Viridium Ore
 tile.adamantium_block.name=Block of Viridium
+tile.copper_block.name=Waxed Block of Copper
 
 //Items
 item.adamantium_ingot.name=Viridium Ingot

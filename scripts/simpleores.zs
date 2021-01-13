@@ -8,20 +8,21 @@ recipes.removeByMod("aesthetics");
 mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
 mods.jei.JEI.removeAndHide(<simpleores:copper_block>);
 
-var ingotViri = <simpleores:adamantium_ingot>;
-var nuggetViri = <ore:nuggetViridium>.firstItem;
-var ingotMyth = <simpleores:mythril_ingot>;
-var nuggetMyth = <ore:nuggetMythril>.firstItem;
-var ingotCopp = <simpleores:copper_ingot>;
-var nuggetCopp = <ore:nuggetCopper>.firstItem;
-var barCopp = <aesthetics:copper_bars>;
-var doorCopp = <aesthetics:copper_door>;
-var anyBlockCopp = <ore:blockCopper>;
-var blockCopp = <ore:blockCopper>.firstItem;
-var ingotTin = <simpleores:tin_ingot>;
-var nuggetTin = <ore:nuggetTin>.firstItem;
-var barTin = <aesthetics:tin_bars>;
-var doorTin = <aesthetics:tin_door>;
+val ingotViri = <simpleores:adamantium_ingot>;
+val nuggetViri = <ore:nuggetViridium>.firstItem;
+val ingotMyth = <simpleores:mythril_ingot>;
+val nuggetMyth = <ore:nuggetMythril>.firstItem;
+val ingotCopp = <simpleores:copper_ingot>;
+val nuggetCopp = <ore:nuggetCopper>.firstItem;
+val barCopp = <aesthetics:copper_bars>;
+val doorCopp = <aesthetics:copper_door>;
+val anyBlockCopp = <ore:blockCopper>;
+val blockCopp = <rotn_blocks:copper_block>;
+val waxBlockCopp = <simpleores:copper_block>;
+val ingotTin = <simpleores:tin_ingot>;
+val nuggetTin = <ore:nuggetTin>.firstItem;
+val barTin = <aesthetics:tin_bars>;
+val doorTin = <aesthetics:tin_door>;
 
 //Extra Parts
 recipes.addShaped("viridium_nugget_to_ingot",ingotViri, [
@@ -43,6 +44,10 @@ recipes.addShaped("copper_ingot_to_block",blockCopp, [
 [ingotCopp,ingotCopp,ingotCopp],
 [ingotCopp,ingotCopp,ingotCopp],
 [ingotCopp,ingotCopp,ingotCopp]]);
+recipes.addShaped("waxed_copper_block",waxBlockCopp*8, [
+[blockCopp,blockCopp,blockCopp],
+[blockCopp,<ore:wax>,blockCopp],
+[blockCopp,blockCopp,blockCopp]]);
 recipes.addShapeless("copper_block_to_ingot",ingotCopp*9, [anyBlockCopp]);
 recipes.addShaped("copper_bars",barCopp*16, [
 [ingotCopp, ingotCopp, ingotCopp],
