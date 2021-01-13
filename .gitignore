@@ -78,5 +78,6 @@ config/fantasticlib/reference/items.txt
 config/fantasticlib/reference/oredict.txt
 config/fantasticlib/reference/players.txt
 config/fantasticlib/reference/potions.txt
+config/fantasticlib/reference/potion_types.txt
 config/fantasticlib/reference/recipes.txt
 config/customloadingscreen_timings.nbt
