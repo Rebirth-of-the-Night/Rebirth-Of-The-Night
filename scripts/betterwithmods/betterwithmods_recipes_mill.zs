@@ -16,6 +16,8 @@ Mill.remove([<betterwithmods:material:44>]);
 Mill.addRecipe([<biomesoplenty:plant_1:4>],[<betterwithmods:raw_pastry:3>]);
 // Coke Powder
 Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
+//Soul Powder
+Mill.addRecipe([<minecraft:soul_sand>],[<quark:soul_powder>*2]);
 
 //Myrmex Resin
 //Desert Myrmex

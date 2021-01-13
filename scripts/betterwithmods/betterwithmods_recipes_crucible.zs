@@ -246,52 +246,13 @@ Crucible.addStoked(
         <ore:ingotElectrum>.firstItem*4
     ]
 );
-//Unstoked Magic Wood & Star Piece
-Crucible.addUnstoked(
-    [
-        <biomesoplenty:log_1:5>*4,
-		<nyx:fallen_star>
-    ],
-    [
-        <dungeontactics:magic_powder>*8
-    ]
-);
-//Unstoked Magic Wood & Comet Shard
-Crucible.addUnstoked(
-    [
-        <biomesoplenty:log_1:5>*4,
-		<nyx:meteor_shard>
-    ],
-    [
-        <dungeontactics:magic_powder>*16
-    ]
-);
-//Stoked Magic Wood & Star Piece
-Crucible.addStoked(
-    [
-        <biomesoplenty:log_1:5>*4,
-		<nyx:fallen_star>
-    ],
-    [
-        <dungeontactics:magic_powder>*12
-    ]
-);
-//Stoked Magic Wood & Comet Shard
-Crucible.addStoked(
-    [
-        <biomesoplenty:log_1:5>*4,
-		<nyx:meteor_shard>
-    ],
-    [
-        <dungeontactics:magic_powder>*24
-    ]
-);
+
 //Stoked Volatile Magic
 Crucible.addStoked(
     [
         <contenttweaker:volatile_powder>,
         <betterwithmods:material:29>,
-        <dungeontactics:magic_powder>,
+        <contenttweaker:vis_shard>,
         <nyx:fallen_star>,
         <netherex:frost_powder>
     ],

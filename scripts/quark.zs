@@ -110,17 +110,6 @@ for i, crystalArr in crystalMats {
 	}
 }
 
-// Soul Powder
-recipes.remove(<quark:soul_powder>);
-recipes.addShaped("Soul_Bead_to_Soul_Powder", <quark:soul_powder>*9, [
-	[<quark:soul_bead>, <minecraft:soul_sand>],
-	[<minecraft:soul_sand>, <minecraft:soul_sand>]
-]);
-
-recipes.addShapeless("Soul_sand_and_magic_dust", <quark:soul_powder>, 
-	[<dungeontactics:magic_powder>, <minecraft:soul_sand>]
-);
-
 // SFS ROD
 recipes.remove(<quark:iron_rod>);
 
@@ -191,3 +180,189 @@ recipes.remove(<quark:rune:*>);
 # make quark runes non stackable
 val quarkrune = (<quark:rune:*>);
 quarkrune.maxStackSize = 1;
+
+# recipes for quark runes
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeWhite>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:0>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeOrange>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:1>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeMagenta>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:2>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeLightBlue>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:3>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeYellow>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:4>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeLime>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:5>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyePink>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:6>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeGray>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:7>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeLightGray>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:8>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeCyan>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:9>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyePurple>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:10>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeBlue>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:11>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeBrown>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:12>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeGreen>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:13>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeRed>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:14>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<contenttweaker:blank_rune>],
+    [<ore:dyeBlack>]])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:15>)
+  .create();
+
+  RecipeBuilder.get("mage")
+  .setShapeless([<minecraft:dye:12>, <minecraft:dye:1>, <minecraft:dye:10>, <minecraft:dye:11>, <contenttweaker:blank_rune>, <biomesoplenty:blue_dye>, <minecraft:dye:13>, <minecraft:dye:14>, <biomesoplenty:white_dye>])
+  .addTool(<contenttweaker:illusion_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<quark:rune:16>)
+  .create();

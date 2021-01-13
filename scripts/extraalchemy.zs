@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 mods.jei.JEI.removeAndHide(<minecraft:splash_potion>.withTag({Potion: "extraalchemy:return_normal"}));
 mods.jei.JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: "extraalchemy:return_normal"}));
@@ -25,8 +26,13 @@ recipes.removeByRecipeName("extraalchemy:minecraft_regeneration");
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:harming"}), <minecraft:speckled_melon>);
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:harming"}), <minecraft:gunpowder>);
 
-
-recipes.addShaped("Potion Ring Base", <extraalchemy:empty_ring>, [
-[null, <dungeontactics:magic_powder>, null],
-[null, <minecraft:glass_bottle>, null], 
-[null, <ore:inertRing>, null]]);
+//Empty Potion Ring
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>],
+    [<minecraft:glass_bottle>],
+    [<ore:inertRing>]])
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<extraalchemy:empty_ring>)
+  .create();

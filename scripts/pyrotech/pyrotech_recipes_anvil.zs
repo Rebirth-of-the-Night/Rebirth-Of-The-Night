@@ -85,7 +85,6 @@ GraniteAnvil.addRecipe("smash_heart_2",<scalinghealth:crystalshard>*3, <bountifu
 GraniteAnvil.addRecipe("smash_heart_3",<scalinghealth:crystalshard>*6, <iceandfire:fire_dragon_heart>, 32,"hammer", true);
 GraniteAnvil.addRecipe("smash_heart_4",<scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>, 32,"hammer", true);
 GraniteAnvil.addRecipe("smash_heart_5",<scalinghealth:crystalshard>*1, <quark:diamond_heart>, 64,"hammer", true);
-GraniteAnvil.addRecipe("star_to_magic_dust",<dungeontactics:magic_powder>*5, <nyx:fallen_star>, 48,"hammer", true);
 GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>, 64,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_fossil",<pyrotech:material:8>, <undergroundbiomes:fossil_piece:*>, 4,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_ruby",<pyrotech:material:8>*3, <ore:gemRuby>, 64,"hammer", true);
