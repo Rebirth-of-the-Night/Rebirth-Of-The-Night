@@ -14,6 +14,8 @@ JEI.removeAndHide(<rustic:grapes>);
 JEI.removeAndHide(<rustic:sapling>);
 JEI.removeAndHide(<rustic:tomato>);
 
+JEI.removeAndHide(<rustic:dust_tiny_iron>);
+
 JEI.hide(<rustic:honey>); // Weird honey item that places fluid
 <ore:materialPressedwax>.add(<rustic:beeswax>);
 var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});

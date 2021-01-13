@@ -18,6 +18,7 @@ recipes.remove(<minecraft:mushroom_stew>);
 furnace.remove(<minecraft:coal:1>);
 
 furnace.remove(<minecraft:leather>);
+furnace.remove(<ore:nuggetIron>);
 
 // remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
 LootTable.removeGlobalItem("minecraft:bucket");
