@@ -120,6 +120,9 @@ recipes.addShaped("sfs_rod", <quark:iron_rod>,[
     [<minecraft:end_rod>]
 ]);
 
+// Soul Powder
+recipes.remove(<quark:soul_powder>);
+
 // Soul Bead
 RecipeBuilder.get("mage")
   .setShaped([
