@@ -4,16 +4,16 @@ setDescription("Complete The Ferrous Giant set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria = addCriteria("Iron/Steel Helmet", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/helmet")
 
-criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+criteria = addCriteria("Iron/Steel Chestplate", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/chestplate")
 
-criteria = addCriteria("Leggings", "triumph:completed_advancement")
+criteria = addCriteria("Iron/Steel Leggings", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/leggings")
 
-criteria = addCriteria("Boots", "triumph:completed_advancement")
+criteria = addCriteria("Iron/Steel Boots", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/boots")
 
 hideLines()

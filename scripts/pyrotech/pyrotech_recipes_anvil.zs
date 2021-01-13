@@ -75,6 +75,7 @@ GraniteAnvil.addRecipe("sfs_to_dust", <ore:dustSoulforgedSteel>.firstItem, <ore:
 GraniteAnvil.addRecipe("endorium_to_dust", <ore:dustEndorium>.firstItem, <ore:ingotEndorium>, 12, "hammer", true);
 GraniteAnvil.addRecipe("ambrosium_to_dust", <ore:dustAmbrosium>.firstItem, <ore:gemAmbrosium>, 6, "hammer", true);
 GraniteAnvil.addRecipe("ambrosium_ore_to_dust", <ore:dustAmbrosium>.firstItem, <ore:oreAmbrosium>, 4, "hammer", true);
+GraniteAnvil.addRecipe("meteor_shard_to_dust", <nyx:meteor_dust>, <nyx:meteor_shard>, 24, "hammer", true);
 GraniteAnvil.addRecipe("charcoal_pile_to_charcoal", <minecraft:coal:1>*6, <contenttweaker:charcoal_pile>, 4,"hammer", true);
 GraniteAnvil.addRecipe("log_to_pulp",<pyrotech:material:25>*6, <ore:barkWood>, 32,"hammer", true);
 GraniteAnvil.addRecipe("kenaf_to_pulp",<pyrotech:material:25>*4, <ore:cropKenaf>, 8, "hammer", true);

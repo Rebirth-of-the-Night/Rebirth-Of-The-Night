@@ -13,8 +13,6 @@ furnace.remove(<betterwithmods:cooking_pot>);
 
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
-StoneKiln.addRecipe("bronze_from_dust", <ore:ingotBronze>.firstItem, <ore:dustBronze>, 20*300, true);
-StoneKiln.addRecipe("electrum_from_dust", <ore:ingotElectrum>.firstItem, <ore:dustElectrum>, 20*300, true);
 StoneKiln.addRecipe("bwmpottery_a", <betterwithmods:cooking_pot>, <contenttweaker:crucible>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery1", <betterwithmods:planter>, <betterwithmods:unfired_pottery:1>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery2", <rustic:vase>, <contenttweaker:pot_unfired>, 20*210, true);
@@ -71,6 +69,10 @@ var stringMat as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridiu
 for mat in stringMat {
 //optional furnace ore recipes removal  ==>  furnace.remove(oreDict["ingot"~mat], oreDict["ore"~mat]);
     StoneKiln.addRecipe("stonekiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 20*250, true);
+}
+
+var dustMat as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum"];
+for mat in dustMat {
     StoneKiln.addRecipe("stonekiln_dust"~mat, oreDict["ingot"~mat].firstItem, oreDict["dust"~mat], 20*300, true);
 }
 

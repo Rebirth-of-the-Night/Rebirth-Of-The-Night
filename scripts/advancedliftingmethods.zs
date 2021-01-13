@@ -3,30 +3,30 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:ender_elevator>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:advanced_ender_elevator>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:advanced_blowing_elevator>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:ultimate_blowing_elevator>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:advanced_rotor>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:ultimate_rotor>);
+JEI.removeAndHide(<advancedliftingmethods:ender_elevator>);
+JEI.removeAndHide(<advancedliftingmethods:advanced_ender_elevator>);
+JEI.removeAndHide(<advancedliftingmethods:advanced_blowing_elevator>);
+JEI.removeAndHide(<advancedliftingmethods:ultimate_blowing_elevator>);
+JEI.removeAndHide(<advancedliftingmethods:advanced_rotor>);
+JEI.removeAndHide(<advancedliftingmethods:ultimate_rotor>);
 recipes.remove(<advancedliftingmethods:blowing_elevator>);
 recipes.remove(<advancedliftingmethods:ultimate_ender_elevator>);
 recipes.remove(<advancedliftingmethods:powered_ladder>);
 
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_oak_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_cobblestone_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_brick_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_stone_brick_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_nether_brick_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_sandstone_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_spruce_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_birch_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_jungle_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_quartz_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_acacia_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_dark_oak_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_red_sandstone_stairs>);
-mods.jei.JEI.removeAndHide(<advancedliftingmethods:double_purpur_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_oak_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_cobblestone_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_brick_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_stone_brick_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_nether_brick_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_sandstone_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_spruce_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_birch_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_jungle_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_quartz_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_acacia_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_dark_oak_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_red_sandstone_stairs>);
+JEI.removeAndHide(<advancedliftingmethods:double_purpur_stairs>);
 
 recipes.addShaped("auto_ladder_iron", <advancedliftingmethods:powered_ladder>*4, 
 [[<ore:ingotIron>,<ore:dustRedstone>,<ore:ingotIron>],

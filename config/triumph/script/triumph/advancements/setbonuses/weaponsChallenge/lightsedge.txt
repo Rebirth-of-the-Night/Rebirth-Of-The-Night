@@ -6,7 +6,7 @@ addParent("triumph:advancements/setbonuses/root")
 
 addRewardFunction("triumph:lightsedge")
 
-criteria = addCriteria("Lights's Edge", "minecraft:inventory_changed")
+criteria = addCriteria("Light's Edge", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:crystaline_blade")
 
 setFrameType("CHALLENGE")

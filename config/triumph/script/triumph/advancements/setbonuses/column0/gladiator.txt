@@ -17,19 +17,19 @@ criteria.addItem("atop:mud_leggings")
 criteria = addCriteria("Bronze Boots", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_boots")
 
-criteria = addCriteria("Sword", "minecraft:inventory_changed")
+criteria = addCriteria("Bronze Sword", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_sword")
 
-criteria = addCriteria("Javelin", "minecraft:inventory_changed")
+criteria = addCriteria("Bronze Javelin", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:javelin_bronze>)
 
-criteria = addCriteria("Spear", "minecraft:inventory_changed")
+criteria = addCriteria("Bronze Spear", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:spear_bronze>)
 
-criteria = addCriteria("Shield", "minecraft:inventory_changed")
+criteria = addCriteria("Bronze Shield", "minecraft:inventory_changed")
 criteria.addItem(<spartanshields:shield_basic_bronze>)
 
-setRequirements("any", ["Shield", "Bronze Boots", "Bronze Leggings", "Bronze Chestplate", "Bronze Helmet"])
+setRequirements("any", ["Bronze Shield", "Bronze Boots", "Bronze Leggings", "Bronze Chestplate", "Bronze Helmet"])
 
 hideLines()
 alwaysVisible()

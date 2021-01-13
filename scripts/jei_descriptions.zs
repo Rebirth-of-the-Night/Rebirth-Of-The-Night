@@ -332,7 +332,7 @@ JEI.addDescription(<microblockcbe:microblock:1>.withTag({mat: "minecraft:diamond
 JEI.addDescription(<sereneseasons:greenhouse_glass>, "Reinforced glass that has been blessed or enchanted to allow any crops to grow under its veil as long as there is light and water nearby.");
 
 JEI.addDescription([<advancedmortars:mortar:0>, <advancedmortars:mortar:2>, <advancedmortars:mortar:4>, <advancedmortars:mortar:6>], "Magic mortars... [description WIP]");
-JEI.addDescription(<advancedmortars:mortar:1>, "Made of durable stone and totally kitchen-safe.");
+JEI.addDescription(<advancedmortars:mortar:1>, "Made of durable metals and totally kitchen-safe.");
 JEI.addDescription(<advancedmortars:mortar:3>, 'A conglomerate of leftover materials. Although less durable than its other mortar counterparts, it still "mortars" properly.');
 
 

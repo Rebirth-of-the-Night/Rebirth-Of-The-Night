@@ -4,16 +4,16 @@ setDescription("Complete the Soul Steel set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-criteria = addCriteria("Soul Steel Armor Helmet", "minecraft:inventory_changed")
+criteria = addCriteria("Soul Steel Helmet", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:steel_helmet")
 
-criteria = addCriteria("Soul Steel Armor Chestplate", "minecraft:inventory_changed")
+criteria = addCriteria("Soul Steel Chestplate", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:steel_chest")
 
-criteria = addCriteria("Soul Steel Armor Leggings", "minecraft:inventory_changed")
+criteria = addCriteria("Soul Steel Leggings", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:steel_pants")
 
-criteria = addCriteria("Soul Steel Armor Boots", "minecraft:inventory_changed")
+criteria = addCriteria("Soul Steel Boots", "minecraft:inventory_changed")
 criteria.addItem("betterwithmods:steel_boots")
 
 hideLines()

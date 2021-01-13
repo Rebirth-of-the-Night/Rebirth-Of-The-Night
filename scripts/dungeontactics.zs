@@ -9,6 +9,7 @@ import mods.jei.JEI;
 import mods.ltt.LootTable;
 
 JEI.removeAndHide(<dungeontactics:brazier>);
+JEI.removeAndHide(<dungeontactics:iron_dust>);
 
 JEI.removeAndHide(<dungeontactics:mushroom_iron>);
 JEI.removeAndHide(<dungeontactics:mushroom_coal>);

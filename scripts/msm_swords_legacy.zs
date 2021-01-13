@@ -169,7 +169,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(({"Quark:Run
 
 
 
-/////////////////////        Lights's Edge        /////////////////////
+/////////////////////        Light's Edge        /////////////////////
 
 var lightessence = <biomesoplenty:biome_essence>;
 
@@ -243,7 +243,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag(({"Qua
 
 
 
-/////////////////////        True Lights's Edge        /////////////////////
+/////////////////////        True Light's Edge        /////////////////////
 
 var shapedquartz = <arcanearchives:shaped_quartz>;
 var cross = <bountifulbaubles:amuletcross>;

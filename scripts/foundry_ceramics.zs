@@ -7,12 +7,14 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 import mods.advancedmortars.Mortar; //to make porcelain
 import mods.jei.JEI;
-import mods.foundry.Heating;
-import mods.foundry.Melting;
+import mods.foundry.AlloyMixer;
+import mods.foundry.BurnerHeater;
 import mods.foundry.Casting;
 import mods.foundry.CastingTable;
+import mods.foundry.Heating;
+import mods.foundry.Infuser;
+import mods.foundry.Melting;
 import mods.foundry.MoldStation;
-import mods.foundry.BurnerHeater;
 import mods.betterwithmods.Anvil;
 
 /*
@@ -41,6 +43,8 @@ JEI.removeAndHide(<foundry:componentblock:2>);
 JEI.removeAndHide(<foundry:machine>);
 JEI.removeAndHide(<foundry:machine:4>);
 JEI.removeAndHide(<foundry:bronze_cauldron>);
+JEI.removeAndHide(<foundry:mold:2>);
+JEI.removeAndHide(<foundry:mold:3>);
 JEI.removeAndHide(<foundry:mold:5>);
 JEI.removeAndHide(<foundry:mold:6>);
 JEI.removeAndHide(<foundry:mold:18>);
@@ -50,13 +54,16 @@ JEI.removeAndHide(<foundry:mold:21>);
 JEI.removeAndHide(<foundry:casting_table:1>);
 JEI.removeAndHide(<foundry:casting_table:2>);
 JEI.removeAndHide(<foundry:small_clay>);
+JEI.removeAndHide(<foundry:machine:5>); // Induction Heater
+JEI.removeAndHide(<foundry:machine:8>); // Alloying Crucible
+JEI.removeAndHide(<foundry:machine:9>); // Fluid Heater
 JEI.hideCategory("foundry.alloyingcrucible");
 JEI.hideCategory("foundry.fluidheater");
+recipes.removeByRecipeName("foundry:clay");
 
 recipes.remove(<ceramics:clay_barrel_unfired>);
 recipes.remove(<ceramics:clay_barrel_unfired:1>);//Recipes for these are found in pottery.zs and betterwithmods.zs
 
-recipes.remove(<foundry:machine:8>);
 recipes.remove(<foundry:mold_station>);
 recipes.remove(<foundry:burner_heater>);
 
@@ -98,6 +105,9 @@ Anvil.addShaped(<foundry:machine:2>, //Alloy Mixer
 //Porcelain Recipe
 recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_quartz");
 recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_bone_meal");
+
+Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4> * 9, 5, [<ore:dustSilver>, <pyrotech:material:4> * 8]);
+Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4>, 5, [<ore:dustSilver>, <minecraft:clay_ball> * 8]);
 
 
 //Refracotta colors
@@ -199,9 +209,14 @@ recipes.addShaped("white_refracotta", reWhite*8,[
     [refracotta,<ore:dyeWhite>,refracotta],
     [refracotta,refracotta,refracotta]
 ]);
-//Melting //Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int melting_point, @Optional int speed)
 
-Melting.addRecipe(<liquid:soulforged_steel>*144, <betterwithmods:material:14>, 2350);//SFS and SFS artifacts
+// Infuser // Infuser.addRecipe(ILiquidStack output, ILiquidStack input, IIngredient substance, int energy);
+
+// Alloy Mixer // AlloyMixer.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
+AlloyMixer.addRecipe(<liquid:electrum>*4, [<liquid:gold>*4, <liquid:silver>*3, <liquid:ambrosium>*2]);
+
+// Melting // Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int melting_point, @Optional int speed)
+Melting.addRecipe(<liquid:soulforged_steel>*144, <betterwithmods:material:14>, 2350); // SFS and SFS artifacts
 Melting.addRecipe(<liquid:soulforged_steel>*(144*16), <betterwithmods:steel_block>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <ore:nuggetSoulforgedSteel>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact>, 2350);
@@ -213,26 +228,39 @@ Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact5>, 
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact6>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact7>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact8>, 2350);
-Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:material:16>, 1373);//stone
+Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:material:16>, 1373); // stone
 Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:rock>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:stone>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:cobblestone>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:StoneHugeBrick>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4*8), <quark:sturdy_stone>, 1373);
-Melting.addRecipe(<liquid:electrum>*144, <ore:ingotElectrum>, 1400);//electrum
+Melting.addRecipe(<liquid:electrum>*144, <ore:ingotElectrum>, 1400); // electrum
 Melting.addRecipe(<liquid:electrum>*(144*9), <ore:blockElectrum>, 1400);
 Melting.addRecipe(<liquid:electrum>*16, <ore:nuggetElectrum>, 1400);
-Melting.addRecipe(<liquid:mythril>*144, <simpleores:mythril_ingot>, 2500);//mythril
+Melting.addRecipe(<liquid:mythril>*144, <simpleores:mythril_ingot>, 2500); // mythril
 Melting.addRecipe(<liquid:mythril>*(144*9), <simpleores:mythril_block>, 2500);
 Melting.addRecipe(<liquid:mythril>*16, <ore:nuggetMythril>, 2500);
-Melting.addRecipe(<liquid:viridium>*144, <simpleores:adamantium_ingot>, 2500);//viridium
+Melting.addRecipe(<liquid:viridium>*144, <simpleores:adamantium_ingot>, 2500); // iridium
 Melting.addRecipe(<liquid:viridium>*(144*9), <contenttweaker:lunarinviridiumbrick>, 2500);
 Melting.addRecipe(<liquid:viridium>*16, <ore:nuggetViridium>, 2500);
 Melting.addRecipe(<liquid:ambrosium>*144, <ore:gemAmbrosium>, 300);
 Melting.addRecipe(<liquid:ambrosium>*(144*9), <aether_legacy:ambrosium_block>, 300);
 
-Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450);//miscellaneous melting
+Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450); // miscellaneous melting
 Melting.addRecipe(<liquid:ender_slag>*1000, <ore:endstone>, 1200);
+
+Melting.addRecipe(<liquid:soulforged_steel>*144, <ore:dustSoulforgedSteel>, 2350); // dusts
+Melting.addRecipe(<liquid:steel>*144, <ore:dustCrucibleSteel>, 1800);
+Melting.addRecipe(<liquid:mythril>*144, <ore:dustMythril>, 2500);
+Melting.addRecipe(<liquid:viridium>*144, <ore:dustViridium>, 2500);
+Melting.addRecipe(<liquid:ambrosium>*144, <ore:dustAmbrosium>, 300);
+
+Melting.removeRecipe(<dungeontactics:steel_dust>);
+Melting.removeRecipe(<dungeontactics:steel_tinydust>);
+Melting.removeRecipe(<dungeontactics:copper_tinydust>);
+Melting.removeRecipe(<dungeontactics:tin_tinydust>);
+Melting.removeRecipe(<dungeontactics:gold_tinydust>);
+Melting.removeRecipe(<dungeontactics:silver_tinydust>);
 
 //Removed molds
 MoldStation.removeRecipe([//Gear

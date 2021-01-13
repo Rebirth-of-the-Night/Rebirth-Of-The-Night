@@ -6,7 +6,7 @@ addParent("triumph:advancements/setbonuses/root")
 
 addRewardFunction("triumph:truelightsedge")
 
-criteria = addCriteria("True Lights's Edge", "minecraft:inventory_changed")
+criteria = addCriteria("True Light's Edge", "minecraft:inventory_changed")
 criteria.addItem("msmlegacy:dawn_star")
 
 setFrameType("CHALLENGE")

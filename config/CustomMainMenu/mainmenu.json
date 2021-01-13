@@ -263,8 +263,6 @@
             "height" : 20,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
 			"alignment" : "bottom_left",
             "action" : 
             {
@@ -327,7 +325,6 @@
         {
             "posX" : 245,
             "posY" : 95,
-            "color" : -256,
             "alignment" : "top_left",
             "color" : "16737380",
             "texts" : "file:minecraft:texts/splashes.txt"

@@ -72,6 +72,8 @@ recipes.addShaped("Tin Ladder", <quark:iron_ladder>*12,[
     [<ore:ingotTin>, null, <ore:ingotTin>]
 ]);
 
+recipes.addShapeless("sugar_block_return", <minecraft:sugar> * 7, [<quark:sugar_block>]);
+
 val durableFiber = <ore:durableFiber>;
 
 recipes.addShaped("iDidItImACTUALLYFiberNow", <quark:rope>*6,[

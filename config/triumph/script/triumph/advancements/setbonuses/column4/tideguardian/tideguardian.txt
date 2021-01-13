@@ -4,13 +4,16 @@ setDescription("Complete the Ebb And Flow set.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-criteria = addCriteria("Helmet", "triumph:completed_advancement")
+criteria = addCriteria("Tide Guardian Helmet", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column4/tideguardian/helmet")
-criteria = addCriteria("Chestplate", "triumph:completed_advancement")
+
+criteria = addCriteria("Tide Guardian Chestplate", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column4/tideguardian/chestplate")
-criteria = addCriteria("Leggings", "triumph:completed_advancement")
+
+criteria = addCriteria("Tide Guardian Leggings", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column4/tideguardian/leggings")
-criteria = addCriteria("Boots", "triumph:completed_advancement")
+
+criteria = addCriteria("Tide Guardian Boots", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column4/tideguardian/boots")
 
 hideLines()

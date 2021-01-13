@@ -1,3 +1,10 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import mods.jei.JEI;
+import mods.ltt.LootTable;
+
+JEI.removeAndHide(<mowziesmobs:logo>);
+
 //Mob Loot Tweaks
 <entity:mowziesmobs:ferrous_wroughtnaut>.addDrop(<minecraft:iron_ingot>,3,9);
 <entity:mowziesmobs:ferrous_wroughtnaut>.addDrop(<minecraft:iron_block>,1,2);
@@ -9,7 +16,7 @@
 //
 <entity:mowziesmobs:naga>.addDrop(<mod_lavacow:sharptooth>,2,6);
 
-mods.ltt.LootTable.removeGlobalItem("mowziesmobs:glowing_jelly");
+LootTable.removeGlobalItem("mowziesmobs:glowing_jelly");
 
 <entity:mowziesmobs:lantern>.removeDrop(<mowziesmobs:glowing_jelly>);
 //<entity:mowziesmobs:lantern>.addDrop(<betterwithaddons:congealed:4>,1,2);
@@ -19,7 +26,7 @@ mods.ltt.LootTable.removeGlobalItem("mowziesmobs:glowing_jelly");
 
 
 <mowziesmobs:spear>.displayName = "Barakoa Hunting Spear";
-mods.jei.JEI.addDescription(<mowziesmobs:spear>,"Carefully carved along the handle is an inscription: 'Hunt with the glory of the Sun, for under Its great radiance we remain pure and strong.'");
+JEI.addDescription(<mowziesmobs:spear>,"Carefully carved along the handle is an inscription: 'Hunt with the glory of the Sun, for under Its great radiance we remain pure and strong.'");
 
 // craftable Mask of Fear - for pacifism purposes and a more reliable way to summon followers while wearing the Sol Visage
 

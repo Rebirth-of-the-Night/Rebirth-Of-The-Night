@@ -49,6 +49,9 @@ recipes.remove(<biomesoplenty:hive:3>);
 
 recipes.remove(<biomesoplenty:flesh>);
 
+furnace.setFuel(<biomesoplenty:ash>, 15);
+furnace.setFuel(<biomesoplenty:ash_block>, 150);
+
 RecipeBuilder.get("mage")
   .setShaped([
     [<biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8],

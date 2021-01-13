@@ -17,7 +17,7 @@ criteria.addItem("atop:mud_leggings")
 criteria = addCriteria("Bronze Boots", "minecraft:inventory_changed")
 criteria.addItem("atop:mud_boots")
 
-criteria = addCriteria("Mainhand", "minecraft:inventory_changed")
+criteria = addCriteria("Studded Caestus", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:caestus_studded, count:2>)
 
 hideLines()

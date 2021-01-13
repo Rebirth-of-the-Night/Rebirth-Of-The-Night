@@ -83,3 +83,9 @@ Mill.builder()
 .buildRecipe([<futuremc:honeycomb_block>], [<rustic:honeycomb>*4])
 .setPriority(3)
 .build();
+
+// QoL return of sugar block
+Mill.builder()
+.buildRecipe([<quark:sugar_block>], [<minecraft:sugar>*9])
+.setPriority(3)
+.build();

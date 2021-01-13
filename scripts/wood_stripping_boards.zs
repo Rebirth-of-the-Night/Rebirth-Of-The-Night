@@ -318,7 +318,7 @@ Chopping.addRecipe("biomesoplenty:log_1", 1, "hitwithaxe:debarked_magic", 0, <hi
 Chopping.addRecipe("biomesoplenty:log_1", 5, "hitwithaxe:debarked_magic", 1, <hitwithaxe:bark:41>); // Y Axis
 Chopping.addRecipe("biomesoplenty:log_1", 9, "hitwithaxe:debarked_magic", 2, <hitwithaxe:bark:41>); // Z Axis
 Chopping.addRecipe("hitwithaxe:debarked_magic", 32767, <biomesoplenty:planks_0:5>);
-recipes.addShaped("oak_boards", <contenttweaker:magic_boards>*8,[
+recipes.addShaped("magic_boards", <contenttweaker:magic_boards>*8,[
 	[<biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>],
     [<biomesoplenty:planks_0:5>, <minetraps:nails>, <biomesoplenty:planks_0:5>],
     [<biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>]

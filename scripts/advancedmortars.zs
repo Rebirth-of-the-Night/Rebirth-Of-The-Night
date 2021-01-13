@@ -8,7 +8,7 @@ import mods.jei.JEI;
 //  Original Material | Name        | New Material | Usages
 //  -------------------------------------------------------
 //    Wood            | Mundane     | Gold         | Magic
-//    Stone           | Stone       | Wood         | Cooking
+//    Stone           | Stone       | Copper       | Cooking
 //    Iron            | Arcane      | Gravitite    | Magic
 //    Diamond         | Rudimentary | Eucalyptus   | Dusts and Dyes
 //    Gold            | Mystical    | Mythril      | Magic
@@ -31,10 +31,10 @@ recipes.addShaped("mundane_mortar", <advancedmortars:mortar:0>, [
     [<minecraft:dye:4>, <minecraft:gold_ingot>, <minecraft:dye:4>]
 ]);
 
-recipes.addShaped("stone_mortar", <advancedmortars:mortar:1>, [
-    [null, <minecraft:stick>, null],
-    [<ore:stone>, <minecraft:flint>, <ore:stone>],
-    [null, <ore:stone>, null]
+recipes.addShaped("cooking_mortar", <advancedmortars:mortar:1>, [
+    [null, <doggytalents:chew_stick>, null],
+    [<ore:genericMetal>, <minecraft:flint>, <ore:genericMetal>],
+    [null, <ore:genericMetal>, null]
 ]);
 
 recipes.addShaped("arcane_mortar", <advancedmortars:mortar:2>, [

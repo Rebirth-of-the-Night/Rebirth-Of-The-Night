@@ -8,6 +8,8 @@ import mods.pyrotech.DryingRack;
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
 
+JEI.removeAndHide(<pyrotech:crate>);
+
 CompactingBin.removeAllRecipes();
 CompactingBin.addRecipe("chips_pile_from_chips", <pyrotech:pile_wood_chips>, <pyrotech:rock:7>, 8);
 CompactingBin.addRecipe("ash_pile_from_ash", <biomesoplenty:ash_block>, <biomesoplenty:ash>, 9);
@@ -18,7 +20,6 @@ CompactingBin.addRecipe("rat_cheese_block", <rats:block_of_cheese>, <ore:foodChe
 CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <betterwithaddons:congealed>, 3);
 CompactingBin.addRecipe("modeling_refractory", <contenttweaker:modelingrefractory>, <contenttweaker:unfiredrefractory>, 4);
 CompactingBin.addRecipe("modeling_refractory1", <contenttweaker:modelingrefractory>, <pyrotech:material:4>, 16);
-
 
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 120 * 20);

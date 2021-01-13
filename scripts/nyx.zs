@@ -37,7 +37,7 @@ nyx:lunar_water_bottle
 
 
 recipes.remove(<nyx:star_block>);
-
+recipes.remove(<nyx:meteor_dust>);
 
 recipes.remove(<nyx:meteor_hammer>);
 mods.betterwithmods.Anvil.addShaped(<nyx:meteor_hammer>,

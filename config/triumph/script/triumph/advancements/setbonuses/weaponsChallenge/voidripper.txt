@@ -4,8 +4,6 @@ setDescription("Craft a Void Ripper.")
 
 addParent("triumph:advancements/setbonuses/root")
 
-
-
 criteria = addCriteria("Void Ripper", "minecraft:inventory_changed")
 criteria.addItem("endreborn:ender_sword")
 
