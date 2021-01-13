@@ -419,6 +419,13 @@ fir_boards.setToolClass("pickaxe");
 fir_boards.setBlockHardness(7.0);
 fir_boards.setToolLevel(1);
 fir_boards.register();
+//magic
+var magic_boards = VanillaFactory.createBlock("magic_boards", <blockmaterial:Wood>);
+magic_boards.setCreativeTab(<creativetab:buildingBlocks>);
+magic_boards.setToolClass("pickaxe");
+magic_boards.setBlockHardness(7.0);
+magic_boards.setToolLevel(1);
+magic_boards.register();
 //mangrove
 var mangrove_boards = VanillaFactory.createBlock("mangrove_boards", <blockmaterial:Wood>);
 mangrove_boards.setCreativeTab(<creativetab:buildingBlocks>);

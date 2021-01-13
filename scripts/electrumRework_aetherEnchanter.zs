@@ -8,7 +8,7 @@ import mods.aether_legacy.Enchanter;
 import mods.advancedmortars.Mortar;
 
 //Name Tweaks
-<ore:ingotElectrum>.displayName = "Aetherial Electrum";
+<ore:ingotElectrum>.firstItem.displayName = "Aetherial Electrum";
 <contenttweaker:block_electrum>.displayName = "Block of Aetherial Electrum";
 <contenttweaker:electrum_plate>.displayName = "Aetherial Electrum Plate";
 
