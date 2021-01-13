@@ -4,6 +4,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.WeightedItemStack;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IItemStack;
 import mods.ltt.LootTable;
 
 //vanilla
@@ -328,7 +329,7 @@ var hauntedTools as int[string] = {
 } as int[string];
 
 for itemString, weight in hauntedTools {
-    LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(itemUtils.getItem(itemString), weight, itemString);
+    LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(itemUtils.getItem(itemString), weight as int, itemString);
 }
 
 
