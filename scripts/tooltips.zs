@@ -290,20 +290,20 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 // Wands
 
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Satiate( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Forge( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Cook( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Freeze( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Uncover( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Disarm( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Disorient( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Punish( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Wither( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Smite( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Satiating( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Forging( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Cooking( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Freezing( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Uncovering( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Disarming( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Disorienting( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Punishment( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Withering( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Smiting( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Magic Missile( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Pin Missile( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Transport( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Transportation( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Companion( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Sunder( \\d+)?");
-<dungeontactics:magic_scroll>.removeTooltip("^Rage( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Sundering( \\d+)?");
+<dungeontactics:magic_scroll>.removeTooltip("^Enrage( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Hold LSHIFT to see enchantments description");

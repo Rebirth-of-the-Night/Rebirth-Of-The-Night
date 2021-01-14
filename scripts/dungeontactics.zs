@@ -130,8 +130,8 @@ LootTable.removeGlobalItem("dungeontactics:wither_web");
 
 
 // this removes the regular magic scroll recipe, and hides it from JEI. Added back as wands further down
-recipes.remove(<dungeontactics:magic_scroll>);
-// JEI.removeAndHide(<dungeontactics:magic_scroll>);
+//recipes.remove(<dungeontactics:magic_scroll>);
+JEI.removeAndHide(<dungeontactics:magic_scroll>);
 
 val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 recipes.addShaped("potshot",<dungeontactics:potshot>,[
@@ -655,7 +655,7 @@ RecipeBuilder.get("mage")
 // Spell rework (wands!)
 
 //  Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
-game.setLocalization("item.dungeontactics:scroll_of.name","Wand of");
+game.setLocalization("item.dungeontactics:scroll_of.name","§bWand of");
 game.setLocalization("item.dungeontactics:magic_scroll.name","Magic Wand");
 game.setLocalization("item.dungeontactics:magic_powder.name","Wand Powder");
 game.setLocalization("item.dungeontactics:magic_pouch.name","Wand Powder Pouch");
@@ -841,39 +841,39 @@ val wandSoulSteel = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap18);
 
 //  Force wands to show in JEI
 
-JEI.addItem(wandRestoration);
+//JEI.addItem(wandRestoration);
 
-JEI.addItem(wandSatiate);
+//JEI.addItem(wandSatiate);
 
 // JEI.addItem(wandForging);
 
-JEI.addItem(wandCooking);
+//JEI.addItem(wandCooking);
 
-JEI.addItem(wandFreezing);
+//JEI.addItem(wandFreezing);
 
 // JEI.addItem(wandUncover);
 
 // JEI.addItem(wandDisarm);
 
-JEI.addItem(wandDisorient);
+//JEI.addItem(wandDisorient);
 
-JEI.addItem(wandPunish);
+//JEI.addItem(wandPunish);
 
-JEI.addItem(wandWither);
+//JEI.addItem(wandWither);
 
-JEI.addItem(wandSmite);
+//JEI.addItem(wandSmite);
 
-JEI.addItem(wandMagicMissile);
+//JEI.addItem(wandMagicMissile);
 
-JEI.addItem(wandPinMissile);
+//JEI.addItem(wandPinMissile);
 
-JEI.addItem(wandTransport);
+//JEI.addItem(wandTransport);
 
-JEI.addItem(wandCompanion);
+//JEI.addItem(wandCompanion);
 
 // JEI.addItem(wandSunder);
 
-JEI.addItem(wandRage);
+//JEI.addItem(wandRage);
 
 //  make wands unstackable
 
@@ -883,6 +883,19 @@ wand.maxStackSize = 1;
 // // //  MUNDANE // // // 
 
 //  cook
+
+RecipeBuilder.get("mage")
+  .setName("wandCookJEI")
+  .setShaped([
+    [null, <minecraft:iron_ingot>, <minecraft:fire_charge>],
+    [null, <minecraft:flint_and_steel>, <minecraft:iron_ingot>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_cook>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandCook")
   .setShaped([
@@ -893,9 +906,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandCooking)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  freeze
+RecipeBuilder.get("mage")
+  .setName("wandFreezeJEI")
+  .setShaped([
+    [null, <minecraft:ice>, <mowziesmobs:ice_crystal>.transformDamage(600)],
+    [null, <contenttweaker:waterlogged_sapphire>, <minecraft:ice>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:water_rune>, 1)
+  .addTool(<contenttweaker:order_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_freeze>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandFreeze")
   .setShaped([
@@ -907,9 +934,22 @@ RecipeBuilder.get("mage")
   .addOutput(wandFreezing)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  punish
+RecipeBuilder.get("mage")
+  .setName("wandPunishJEI")
+  .setShaped([
+    [null, <minecraft:bone>, <minecraft:skull>],
+    [null, <minecraft:bone_block>, <minecraft:bone>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_punish>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandPunish")
   .setShaped([
@@ -920,9 +960,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandPunish)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  satiate
+RecipeBuilder.get("mage")
+  .setName("wandSatiateJEI")
+  .setShaped([
+    [null, <solcarrot:food_book>, <minecraft:apple>],
+    [null, <dungeontactics:charm_famine>, <ore:treeLeaves>],
+    [<contenttweaker:wand_base_mundane>, null, null]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_satiate>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandSatiate")
   .setShaped([
@@ -934,11 +988,25 @@ RecipeBuilder.get("mage")
   .addOutput(wandSatiate)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 // // //  ARCANE // // // 
 
 //  disorient
+RecipeBuilder.get("mage")
+  .setName("wandDisorientJEI")
+  .setShaped([
+    [null, <nyx:fallen_star>, <glaretorch:itemglaretorchsmall>],
+    [null, <minecraft:obsidian>, <nyx:fallen_star>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:sol_rune>, 1)
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_disorient>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandDisorient")
   .setShaped([
@@ -950,9 +1018,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandDisorient)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  restoration
+RecipeBuilder.get("mage")
+  .setName("wandRestorationJEI")
+  .setShaped([
+    [null, <aether_legacy:golden_feather>, <aether_legacy:golden_amber>],
+    [null, <contenttweaker:holy_zanite>, <aether_legacy:golden_feather>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:life_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_resto>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandRestoration")
   .setShaped([
@@ -964,9 +1046,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandRestoration)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  wither
+RecipeBuilder.get("mage")
+  .setName("wandWitherJEI")
+  .setShaped([
+    [null, <quark:black_ash>, <iceandfire:witherbone>],
+    [null, <iceandfire:witherbone>, <quark:black_ash>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_wither>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandWither")
   .setShaped([
@@ -978,9 +1074,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandWither)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  companion
+RecipeBuilder.get("mage")
+  .setName("wandCompanionJEI")
+  .setShaped([
+    [null, <minecraft:bone>, <ore:fierceBeastHead>],
+    [null, <betterwithaddons:ancestry_bottle>, <minecraft:bone>],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_companion>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandCompanion")
   .setShaped([
@@ -992,9 +1102,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandCompanion)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  pin missile
+RecipeBuilder.get("mage")
+  .setName("wandPMJEI")
+  .setShaped([
+    [null, <ore:ingotElectrum>.firstItem, <betterwithaddons:greatarrow>],
+    [null, <aether_legacy:golden_feather>, <ore:ingotElectrum>.firstItem],
+    [<contenttweaker:wand_base_arcane>, null, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_pm>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandPM")
   .setShaped([
@@ -1006,6 +1130,7 @@ RecipeBuilder.get("mage")
   .addOutput(wandPinMissile)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 /*
@@ -1057,6 +1182,19 @@ RecipeBuilder.get("mage")
 
 //  smite
 RecipeBuilder.get("mage")
+  .setName("wandSmiteJEI")
+  .setShaped([
+    [null, <minecraft:iron_ingot>, <ore:ingotElectrum>.firstItem],
+    [null, <contenttweaker:electrified_zanite>, <minecraft:iron_ingot>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_smite>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
   .setName("wandSmite")
   .setShaped([
     [null, <minecraft:iron_ingot>, <ore:ingotElectrum>.firstItem],
@@ -1067,9 +1205,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandSmite)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  magic missile
+RecipeBuilder.get("mage")
+  .setName("wandMMJEI")
+  .setShaped([
+    [null, <aether_legacy:enchanted_gravitite>, <minecraft:shulker_shell>],
+    [null, <contenttweaker:voidseen_exorite>, <aether_legacy:enchanted_gravitite>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<endreborn:item_end_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_mm>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandMM")
   .setShaped([
@@ -1081,9 +1233,23 @@ RecipeBuilder.get("mage")
   .addOutput(wandMagicMissile)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 //  rage
+RecipeBuilder.get("mage")
+  .setName("wandRageJEI")
+  .setShaped([
+    [null, <minecraft:gold_ingot>, <mowziesmobs:barakoa_mask_rage>],
+    [null, <contenttweaker:fortified_ruby>, <minecraft:gold_ingot>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addTool(<contenttweaker:draconic_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_rage>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandRage")
   .setShaped([
@@ -1095,10 +1261,24 @@ RecipeBuilder.get("mage")
   .addOutput(wandRage)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
 
 //  transport
+RecipeBuilder.get("mage")
+  .setName("wandTransportJEI")
+  .setShaped([
+    [null, <netherex:frosted_wither_bone>, <cyclicmagic:water_candle>],
+    [null, <animania:raw_horse>, <netherex:frosted_wither_bone>],
+    [<contenttweaker:wand_base_mystical>, null, null]])
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addOutput(<contenttweaker:dummy_wand_transport>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 RecipeBuilder.get("mage")
   .setName("wandTransport")
   .setShaped([
@@ -1110,10 +1290,37 @@ RecipeBuilder.get("mage")
   .addOutput(wandTransport)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .setHidden()
   .create();
 
-// tier tooltips
+// wand removals
+JEI.removeAndHide(<contenttweaker:dummy_wand_forge>);
+JEI.removeAndHide(<contenttweaker:dummy_wand_uncover>);
+JEI.removeAndHide(<contenttweaker:dummy_wand_disarm>);
 
+## Wand Tooltips ##
+
+// Actual wands.
+//Make names aqua
+/*
+enchantmentsDTMap4.displayName = "§bWand of Cooking";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap5).displayName = "§bWand of Freezing";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap9).displayName = "§bWand of Punishment";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap2).displayName = "§bWand of Satiating";
+
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap8).displayName = "§bWand of Disorienting";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap1).displayName = "§bWand of Restoration";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10).displayName = "§bWand of Withering";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap15).displayName = "§bWand of Companion";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13).displayName = "§bWand of Pin Missile";
+
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11).displayName = "§bWand of Smiting";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12).displayName = "§bWand of Magic Missile";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap17).displayName = "§bWand of Enrage";
+<dungeontactics:magic_scroll>.withTag(enchantmentsDTMap14).displayName = "§bWand of Transportation";
+*/
+
+//tier
 wandCooking.addTooltip(format.green("Mundane"));
 wandFreezing.addTooltip(format.green("Mundane"));
 wandPunish.addTooltip(format.green("Mundane"));
@@ -1129,5 +1336,57 @@ wandSmite.addTooltip(format.darkPurple("Mystical"));
 wandMagicMissile.addTooltip(format.darkPurple("Mystical"));
 wandRage.addTooltip(format.darkPurple("Mystical"));
 wandTransport.addTooltip(format.darkPurple("Mystical"));
+
+// Dummy wands. Adds tooltips to match real wand tooltips for JEI purposes
+// make dummy wand names aqua
+<contenttweaker:dummy_wand_cook>.displayName = "§bWand of Cooking";
+<contenttweaker:dummy_wand_freeze>.displayName = "§bWand of Freezing";
+<contenttweaker:dummy_wand_punish>.displayName = "§bWand of Punishment";
+<contenttweaker:dummy_wand_satiate>.displayName = "§bWand of Satiating";
+
+<contenttweaker:dummy_wand_disorient>.displayName = "§bWand of Disorienting";
+<contenttweaker:dummy_wand_resto>.displayName = "§bWand of Restoration";
+<contenttweaker:dummy_wand_wither>.displayName = "§bWand of Withering";
+<contenttweaker:dummy_wand_companion>.displayName = "§bWand of Companion";
+<contenttweaker:dummy_wand_pm>.displayName = "§bWand of Pin Missile";
+
+<contenttweaker:dummy_wand_smite>.displayName = "§bWand of Smiting";
+<contenttweaker:dummy_wand_mm>.displayName = "§bWand of Magic Missile";
+<contenttweaker:dummy_wand_rage>.displayName = "§bWand of Enrage";
+<contenttweaker:dummy_wand_transport>.displayName = "§bWand of Transportation";
+
+// costs
+<contenttweaker:dummy_wand_cook>.addTooltip(format.gray("Cast Cost = 144"));
+<contenttweaker:dummy_wand_freeze>.addTooltip(format.gray("Cast Cost = 12"));
+<contenttweaker:dummy_wand_punish>.addTooltip(format.gray("Cast Cost = 6"));
+<contenttweaker:dummy_wand_satiate>.addTooltip(format.gray("Cast Cost = 8"));
+
+<contenttweaker:dummy_wand_disorient>.addTooltip(format.gray("Cast Cost = 16"));
+<contenttweaker:dummy_wand_resto>.addTooltip(format.gray("Cast Cost = 32"));
+<contenttweaker:dummy_wand_wither>.addTooltip(format.gray("Cast Cost = 14"));
+<contenttweaker:dummy_wand_companion>.addTooltip(format.gray("Cast Cost = 60"));
+<contenttweaker:dummy_wand_pm>.addTooltip(format.gray("Cast Cost = 40"));
+
+<contenttweaker:dummy_wand_smite>.addTooltip(format.gray("Cast Cost = 72"));
+<contenttweaker:dummy_wand_mm>.addTooltip(format.gray("Cast Cost = 42"));
+<contenttweaker:dummy_wand_rage>.addTooltip(format.gray("Cast Cost = 48"));
+<contenttweaker:dummy_wand_transport>.addTooltip(format.gray("Cast Cost = 90"));
+
+// tier
+<contenttweaker:dummy_wand_cook>.addTooltip(format.green("Mundane"));
+<contenttweaker:dummy_wand_freeze>.addTooltip(format.green("Mundane"));
+<contenttweaker:dummy_wand_punish>.addTooltip(format.green("Mundane"));
+<contenttweaker:dummy_wand_satiate>.addTooltip(format.green("Mundane"));
+
+<contenttweaker:dummy_wand_disorient>.addTooltip(format.aqua("Arcane"));
+<contenttweaker:dummy_wand_resto>.addTooltip(format.aqua("Arcane"));
+<contenttweaker:dummy_wand_wither>.addTooltip(format.aqua("Arcane"));
+<contenttweaker:dummy_wand_companion>.addTooltip(format.aqua("Arcane"));
+<contenttweaker:dummy_wand_pm>.addTooltip(format.aqua("Arcane"));
+
+<contenttweaker:dummy_wand_smite>.addTooltip(format.darkPurple("Mystical"));
+<contenttweaker:dummy_wand_mm>.addTooltip(format.darkPurple("Mystical"));
+<contenttweaker:dummy_wand_rage>.addTooltip(format.darkPurple("Mystical"));
+<contenttweaker:dummy_wand_transport>.addTooltip(format.darkPurple("Mystical"));
 
 // wandCooking.addTooltip(format.gold("Ascended"));
