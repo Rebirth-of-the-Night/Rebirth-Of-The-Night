@@ -103,11 +103,13 @@ Anvil.addShaped(<foundry:machine:2>, //Alloy Mixer
 ]);
 
 //Porcelain Recipe
+val kaolin_quartz = <pyrotech:material:37>;
+
 recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_quartz");
 recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_bone_meal");
 
-Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4> * 9, 5, [<ore:dustSilver>, <pyrotech:material:4> * 8]);
-Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4>, 5, [<ore:dustSilver>, <minecraft:clay_ball> * 8]);
+Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4> * 9, 5, [kaolin_quartz, <pyrotech:material:4> * 8]);
+Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4>, 5, [kaolin_quartz, <minecraft:clay_ball> * 8]);
 
 
 //Refracotta colors

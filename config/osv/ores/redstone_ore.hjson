@@ -3,7 +3,7 @@ mod: minecraft
 block: {
   location: redstone_ore
   hardness: 3
-  level: 1
+  level: 2
 }
 loot: [
   {
