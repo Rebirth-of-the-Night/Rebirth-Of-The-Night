@@ -114,7 +114,7 @@
     "mobs": [
       {
         "mob": "primitivemobs:goblin",
-        "weight": 2,
+        "weight": 0.2,
         "groupcountmin": 1,
         "groupcountmax": 4
       }

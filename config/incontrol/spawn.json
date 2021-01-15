@@ -181,10 +181,10 @@
     "gamestage": "killedEnderDragon"
 },
 
-	////////////////// TOOL GAME STAGES //////////////////////////
+////////////////// TOOL GAME STAGES //////////////////////////
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
-    "helditem": ["1=simpleores:mythril_pickaxe","2=simpleores:onyx_pickaxe"],
+    "helditem": ["2=simpleores:mythril_pickaxe","3=simpleores:onyx_pickaxe","2=primitivemobs:goblin_mace"],
     "gamestage": "killedEnderDragon"
 },
 {
@@ -214,7 +214,7 @@
 	"onjoin": true,
 	"seesky": false,
 	"maxlight": 7,
-	"helditem": ["2=spartanweaponry:club_wood", "4=spartanweaponry:saber_iron", "3=spartanweaponry:saber_bronze", "3=primitivemobs:goblin_mace", "4=minecraft:iron_pickaxe", "2=mod_lavacow:tooth_dagger", "4=spartanweaponry:hammer_iron", "4=spartanweaponry:mace_iron", "4=mod_lavacow:vespa_dagger", "1=mod_lavacow:bonesword"],
+	"helditem": ["2=spartanweaponry:club_wood", "4=spartanweaponry:saber_iron", "3=spartanweaponry:saber_bronze", "4=minecraft:iron_pickaxe", "2=mod_lavacow:tooth_dagger", "4=spartanweaponry:hammer_iron", "4=spartanweaponry:mace_iron", "4=mod_lavacow:vespa_dagger", "1=mod_lavacow:bonesword"],
 	"maxcount": {
         "amount": 23,
         "perplayer": true
@@ -224,7 +224,7 @@
 {
 	"dimension" : [0, 7, 10],
 	"mob": "primitivemobs:goblin",
-	"helditem": "primitivemobs:goblin_mace",
+	"onjoin": true,
 	"result": "deny"
   },
  

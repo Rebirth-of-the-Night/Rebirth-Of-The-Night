@@ -1,5 +1,5 @@
 item.craftingcraft:inventory_crafting_table.name=Portable Crafting Mat
-item.craftingcraft:portable_crafting_table.name=Portable Crafting Table
+item.craftingcraft:portable_crafting_table.name=Portable Crafting Mat
 
 craftingcraft:container.inventory_crafting_table=Inventory Mat Crafting
 
