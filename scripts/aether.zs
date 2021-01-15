@@ -1,8 +1,13 @@
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
-import mods.jei. JEI;
-import mods.ltt. LootTable;
+import mods.jei.JEI;
+import mods.ltt.LootTable;
 
+// make aether grass/dirt have same hardness as OW dirt/grass
+val aether_dirt as IItemStack = <aether_legacy:aether_dirt>;
+aether_dirt.hardness = 0.6;
+val aether_grass as IItemStack = <aether_legacy:aether_grass>;
+aether_grass.hardness = 0.5;
 
 recipes.removeByRecipeName("aether_legacy:furnace_from_holystone");
 recipes.removeShaped(<minecraft:stone_pressure_plate>, [
