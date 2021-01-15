@@ -7,6 +7,32 @@ mods.jei.JEI.hide(<spartanweaponry:arrow_wood_tipped>);
 mods.jei.JEI.hide(<spartanweaponry:arrow_iron_tipped>);
 mods.jei.JEI.hide(<spartanweaponry:arrow_diamond_tipped>);
 
+
+//Remove diamond spartan weaponry temporarily until we split them with the other gems
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:longsword_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:saber_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:rapier_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:greatsword_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:warhammer_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:spear_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:halberd_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:pike_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:lance_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_knife_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:throwing_axe_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:battleaxe_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:glaive_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:dagger_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:longbow_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:crossbow_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:boomerang_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:mace_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:javelin_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:hammer_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:katana_diamond>);
+mods.jei.JEI.removeAndHide(<spartancompat:staff_diamond>);
+
 //Remove soulforged/refined weapoons (sfs is only used for tools and armor, a defensive material)
 mods.jei.JEI.removeAndHide(<spartancompat:dagger_soulforged_steel>);
 mods.jei.JEI.removeAndHide(<spartancompat:longsword_soulforged_steel>);
