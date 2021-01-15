@@ -172,9 +172,9 @@ recipes.addShaped("obsidian_shears", obsi_shear,[
 ]);
 
 recipes.addShaped("powered_conveyor", st_conveyor*6,[
-	[<betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>],
+	[<minecraft:stick>,<minecraft:stick>,<minecraft:stick>],
     [<advancedliftingmethods:powered_ladder>, <advancedliftingmethods:powered_ladder>, <advancedliftingmethods:powered_ladder>],
-    [<betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>]
+    [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>]
 ]);
 
 recipes.addShaped("ore_locator", ore_locator,[

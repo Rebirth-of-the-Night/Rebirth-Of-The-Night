@@ -135,6 +135,21 @@ recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[
     [<betterwithmods:material:0>,<quark:chute>,<betterwithmods:material:0>]
 ]);
 
+val haft = <betterwithmods:material:36>;
+val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+
+recipes.remove(haft);
+recipes.addShaped("glued_haft",haft*2,[
+    [<betterwithmods:material:8>],
+    [<ore:slimeball>],
+	[woodMoulding]
+]);
+recipes.addShaped("sewed_haft",haft*2,[
+    [<betterwithmods:material:8>],
+    [<ore:durableFiber>],
+	[woodMoulding]
+]);
+
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 Cauldron.remove([<minecraft:mushroom_stew>]);

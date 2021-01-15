@@ -103,11 +103,12 @@ recipes.addShaped("cooking_cauldron", cooking_cauldron,
   [cauldron]]);
 
 //Turntable uses Moulding
-//recipes.remove(<betterwithmods:single_machine:3>);
-//recipes.addShaped("turntable", <betterwithmods:single_machine:3>,
-//  [[<betterwithmods:moulding_wood>,<betterwithmods:moulding_wood>,<betterwithmods:moulding_wood>],
-//  [<ore:stone>,<minecraft:clock>,<ore:stone>],
-//  [<ore:stone>,<ore:gearWood>,<ore:stone>]]);
+val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+recipes.remove(<betterwithmods:single_machine:3>);
+recipes.addShaped("turntable", <betterwithmods:single_machine:3>,
+  [[woodMoulding,woodMoulding,woodMoulding],
+  [<ore:stone>,<minecraft:clock>,<ore:stone>],
+  [<ore:stone>,<ore:gearWood>,<ore:stone>]]);
 
 //Vine Trap + Mossy
 recipes.remove(<betterwithmods:vine_trap>);
