@@ -4,8 +4,6 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-JEI.removeAndHide(<charm:crate:*>);
-JEI.removeAndHide(<charm:crate_sealed:*>);
 JEI.removeAndHide(<charm:rune_portal_frame:*>);
 
 recipes.remove(<charm:bookshelf_chest>);

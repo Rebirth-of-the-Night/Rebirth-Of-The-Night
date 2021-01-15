@@ -215,15 +215,6 @@ Dropt.list("Well_Worth")
 		  .items("ALL", [<dungeontactics:steel_ingot>*3,<pyrotech:rock:7>*4,<minecraft:bucket>,<betterwithmods:material:24>])
       )	
   );
-
-Dropt.list("crate_job")
-
-  .add(Dropt.rule()
-	  .matchBlocks(["charm:crate:*"])
-      .addDrop(Dropt.drop()
-		  .items("ALL", [<betterwithmods:material:22>], Dropt.range(3, 7))
-      )
-  );  
   
   
 Dropt.list("Berry_Good")
