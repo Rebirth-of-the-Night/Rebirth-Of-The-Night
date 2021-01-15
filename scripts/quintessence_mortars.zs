@@ -344,9 +344,12 @@ transformationQuintessenceB.add(
 val knowledgeQuintessenceA = <ore:knowledgeQuintessenceA>;
 
 knowledgeQuintessenceA.add(
+    <villagenames:codex>,
+    <iceandfire:manuscript>,
     <aether_legacy:lore_book>,
     <minecraft:enchanted_book>,
     <quark:ancient_tome>,
+    <randomthings:enderletter>,
     <contenttweaker:brain>
 );
 
@@ -355,7 +358,10 @@ val knowledgeQuintessenceB = <ore:knowledgeQuintessenceB>;
 
 knowledgeQuintessenceB.add(
     <minecraft:written_book>,
+    <harvestcraft:fortunecookieitem>,
+    <arcanearchives:manifest>,
     <animania:animania_manual>,
+    <rustic:book>,
     <patchouli:guide_book>,
     <minecraft:map>
 );
