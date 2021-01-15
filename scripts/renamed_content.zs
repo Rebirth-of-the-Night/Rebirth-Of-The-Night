@@ -29,12 +29,14 @@ import crafttweaker.item.IItemStack;
 
 <contenttweaker:cooking_kit>.displayName = "Cooking Kit";
 <contenttweaker:rocky_dirt>.displayName = "Rocky Dirt";
-
+<contenttweaker:cave_bramble>.displayName = "Cave Bramble";
 
 <contenttweaker:slayers_tattered_journal>.displayName = "Slayer's Tattered Journal";
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
 <multiblockmobs:soul_chassis>.displayName = "Soulfire Chassis";
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
+
+
 
 
 
