@@ -9,12 +9,6 @@
       }
     ],
     "blacklist": [
-      {
-        "item": "behgameon:accessory_1"
-      },
-      {
-        "item": "behgameon:accessory_4"
-      }
     ],
     "qualities": [
     {
