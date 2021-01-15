@@ -615,16 +615,16 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
 
 val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
 
-recipes.addShapeless("crafting_tools",<contenttweaker:crafting_tools>,[<pyrotech:crude_axe:*>,rock|<minecraft:flint>,<ore:stickWood>]]);
+recipes.addShapeless("crafting_tools",<contenttweaker:crafting_tools>,[<pyrotech:crude_axe:*>,rock|<minecraft:flint>,<ore:stickWood>]);
 recipes.removeByMod("craftingcraft");
 JEI.removeAndHide(<craftingcraft:portable_crafting_table:0>);
 recipes.remove(<minecraft:crafting_table>);
-recipes.addShapeless("crafting_table",<minecraft:crafting_table>,[<ore:stickMat>,<contenttweaker:crafting_tools>]]);
-recipes.addShapeless("crafting_mat",<craftingcraft:portable_crafting_table:1>,[<ore:mat>,<contenttweaker:crafting_tools>]]);
+recipes.addShapeless("crafting_table",<minecraft:crafting_table>,[<ore:stickMat>,<contenttweaker:crafting_tools>]);
+recipes.addShapeless("crafting_mat",<craftingcraft:portable_crafting_table:1>,[<ore:mat>,<contenttweaker:crafting_tools>]);
 recipes.remove(<aether_legacy:skyroot_crafting_table>);
-recipes.addShapeless("skyroot_crafting_table",<aether_legacy:skyroot_crafting_table>,[<aether_legacy:skyroot_plank>,<contenttweaker:crafting_tools>]]);
+recipes.addShapeless("skyroot_crafting_table",<aether_legacy:skyroot_crafting_table>,[<aether_legacy:skyroot_plank>,<contenttweaker:crafting_tools>]);
 recipes.remove(<arcanearchives:radiant_crafting_table>);
-recipes.addShapeless("radiant_crafting_table",<arcanearchives:radiant_crafting_table>,[<arcanearchives:raw_quartz>,<contenttweaker:crafting_tools>]]);
+recipes.addShapeless("radiant_crafting_table",<arcanearchives:radiant_crafting_table>,[<arcanearchives:raw_quartz>,<contenttweaker:crafting_tools>]);
 
 JEI.removeAndHide(<minecraft:wooden_shovel>);
 JEI.removeAndHide(<minecraft:wooden_pickaxe>);
