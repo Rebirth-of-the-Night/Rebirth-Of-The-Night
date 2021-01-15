@@ -574,12 +574,6 @@ JEI.removeAndHide(<quark:custom_chest_trap:4>);
 
 var chestMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
 
-recipes.addShaped("chest_leftover", <minecraft:chest>, [
-    [chestMat, chestMat, chestMat],
-    [chestMat, null, chestMat],
-    [chestMat, chestMat, chestMat]
-]);
-
 recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>,[<ore:chestWood>]);
 
 var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
