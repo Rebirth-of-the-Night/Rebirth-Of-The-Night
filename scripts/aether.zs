@@ -2,6 +2,9 @@ import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.jei.JEI;
 import mods.ltt.LootTable;
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.item.IItemStack;
+
 
 // make aether grass/dirt have same hardness as OW dirt/grass
 val aether_dirt as IItemStack = <aether_legacy:aether_dirt>;
