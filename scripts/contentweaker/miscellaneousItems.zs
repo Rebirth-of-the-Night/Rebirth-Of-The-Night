@@ -31,6 +31,8 @@ val clover5 = VanillaFactory.createItem("5leaf_clover");
 clover5.register();
 val spider_silk = VanillaFactory.createItem("spider_silk");
 spider_silk.register();
+val crafting_tools = VanillaFactory.createItem("crafting_tools");
+crafting_tools.register();
 
 val sfs1 = VanillaFactory.createItem("sfs_artifact");
 sfs1.register();

@@ -612,11 +612,19 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [null,<ore:stickMat>,null]
 ]);
 
+
+val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
+
+recipes.addShapeless("crafting_tools",<contenttweaker:crafting_tools>,[<pyrotech:crude_axe:*>,rock|<minecraft:flint>,<ore:stickWood>]]);
+recipes.removeByMod("craftingcraft");
+JEI.removeAndHide(<craftingcraft:portable_crafting_table:0>);
 recipes.remove(<minecraft:crafting_table>);
-recipes.addShaped("crafting_table",<minecraft:crafting_table>,[
-    [<ore:stickMat>,<ore:stickMat>],
-    [<ore:stickMat>,<ore:stickMat>]
-]);
+recipes.addShapeless("crafting_table",<minecraft:crafting_table>,[<ore:stickMat>,<contenttweaker:crafting_tools>]]);
+recipes.addShapeless("crafting_mat",<craftingcraft:portable_crafting_table:1>,[<ore:mat>,<contenttweaker:crafting_tools>]]);
+recipes.remove(<aether_legacy:skyroot_crafting_table>);
+recipes.addShapeless("skyroot_crafting_table",<aether_legacy:skyroot_crafting_table>,[<aether_legacy:skyroot_plank>,<contenttweaker:crafting_tools>]]);
+recipes.remove(<arcanearchives:radiant_crafting_table>);
+recipes.addShapeless("radiant_crafting_table",<arcanearchives:radiant_crafting_table>,[<arcanearchives:raw_quartz>,<contenttweaker:crafting_tools>]]);
 
 JEI.removeAndHide(<minecraft:wooden_shovel>);
 JEI.removeAndHide(<minecraft:wooden_pickaxe>);
@@ -737,6 +745,10 @@ gemIngot.add(
 <ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
 
 <ore:bed>.add(<aether_legacy:skyroot_bed_item>);
+
+<ore:mat>.addItems([<harvestcraft:wovencottonitem>,]);
+<ore:mat>.addAll(<ore:wool>);
+<ore:mat>.addAll(<ore:leather>);
 
 <ore:refractoryBlock>.addItems([<pyrotech:refractory_brick_block>,<ceramics:clay_barrel:*>,<ceramics:clay_barrel_stained:*>,<ceramics:clay_barrel_stained_extension:*>,<contenttweaker:refracotta>,<contenttweaker:refracotta_green>,<contenttweaker:refracotta_light_gray>,<contenttweaker:refracotta_light_blue>,<contenttweaker:refracotta_yellow>,<contenttweaker:refracotta_cyan>,<contenttweaker:refracotta_purple>,<contenttweaker:refracotta_pink>,<contenttweaker:refracotta_brown>,<contenttweaker:refracotta_magenta>,<contenttweaker:refracotta_lime>,<contenttweaker:refracotta_white>,<contenttweaker:refracotta_black>,<contenttweaker:refracotta_red>,<contenttweaker:refracotta_orange>,<contenttweaker:refracotta_blue>,<contenttweaker:refracotta_gray>,<pyrotech:refractory_door>,<pyrotech:refractory_glass>,<pyrotech:igniter:1>,<pyrotech:brick_tank>,<pyrotech:faucet_brick>,<pyrotech:tar_collector:1>,<pyrotech:tar_drain:1>]);
 
