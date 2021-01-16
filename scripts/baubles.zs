@@ -1,3 +1,4 @@
+#modloaded betterwithaddons
 // This script encompasses all baubles mods, including Baubles, Bountiful Baubles, Behagamon, and Artifacts
 
 import crafttweaker.item.IIngredient;
@@ -21,7 +22,8 @@ import mods.jei.JEI;
 /////////////////////////////////////////////////////
 
 
-
+JEI.removeAndHide(<bountifulbaubles:reforger>);
+LootTable.removeGlobalItem("bountifulbaubles:reforger");
 
 // Remove everlasting food
 LootTable.removeGlobalItem("artifacts:everlasting_porkchop");
@@ -76,9 +78,18 @@ LootTable.removeGlobalItem("artifacts:shock_pendant");
 JEI.removeAndHide(<artifacts:thorn_pendant>);
 LootTable.removeGlobalItem("artifacts:thorn_pendant");
 
+JEI.removeAndHide(<artifacts:obsidian_skull>);
+LootTable.removeGlobalItem("artifacts:obsidian_skull");
 
+JEI.removeAndHide(<bountifulbaubles:enderdragonscale>);
+LootTable.removeGlobalItem("bountifulbaubles:enderdragonscale");
 
 JEI.removeAndHide(<bountifulbaubles:amuletcross>);
+
+JEI.removeAndHide(<bountifulbaubles:ringflywheel>);
+JEI.removeAndHide(<bountifulbaubles:ringflywheeladvanced>);
+LootTable.removeGlobalItem("bountifulbaubles:ringflywheel");
+LootTable.removeGlobalItem("bountifulbaubles:ringflywheeladvanced");
 
 // Remove baubles
 LootTable.removeGlobalItem("artifacts:tiny_shirt");
@@ -86,8 +97,6 @@ JEI.removeAndHide(<artifacts:tiny_shirt>);
 
 LootTable.removeGlobalItem("bountifulbaubles:trinketankhcharm");
 JEI.removeAndHide(<bountifulbaubles:trinketankhcharm>);
-
-
 
 JEI.removeAndHide(<bountifulbaubles:flaregun>);
 LootTable.removeGlobalItem("bountifulbaubles:flaregun");
@@ -98,8 +107,6 @@ JEI.removeAndHide(<bountifulbaubles:shieldcobalt>);
 JEI.removeAndHide(<bountifulbaubles:trinketballoon>);
 JEI.removeAndHide(<bountifulbaubles:shieldobsidian>);
 JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
-
-
 
 
 // Remove tooltips
@@ -117,7 +124,6 @@ JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 
 
 // Unify name colors of all baubles and some renaming
-<minecraft:totem_of_undying>.displayName = "§bTotem of Undying";
 <bountifulbaubles:trinketobsidianskull>.displayName = "§bObsidian Skull";
 <bountifulbaubles:trinketmagiclenses>.displayName = "§bSunglasses";
 <bountifulbaubles:trinketapple>.displayName = "§bForbidden Fruit";
@@ -221,8 +227,6 @@ recipes.addShapeless("Wormhole to Return", <bountifulbaubles:potionrecall>,
 // Rings, amulets, oh my
 
 recipes.remove(<bountifulbaubles:amuletsinempty>);
-JEI.removeAndHide(<qualitytools:emerald_amulet>);
-JEI.removeAndHide(<qualitytools:emerald_ring>);
 
 
 RecipeBuilder.get("mage")

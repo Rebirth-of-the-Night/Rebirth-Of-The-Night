@@ -46,11 +46,7 @@ import mods.jei.JEI;
  * Please follow it. - democat, the god
  */
 
-/* KNOWN BUGS */
-JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has a known issue where it will steal your emeralds if you leave the GUI in any way, including checking recipes for items in JEI while you have an emerald in the payment slot."]);
-
 /* Tools, Weapons, and Armor */
-
 val handle = <spartanweaponry:material>;
 val pole = <spartanweaponry:material:1>;
 
@@ -62,6 +58,7 @@ JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainab
 JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_hoe>,"Provides the best durability, but can only be enchanted in the True Enchanting Table.");
+JEI.addDescription(<betterwithmods:steel_hacksaw>,"Right-click with this on a block of soulforged steel to cut down the block!");
 
 JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like shears. When right-clicked, places vines from your inventory. Can only be enchanted in the True Enchanting Table."]);
 JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Can only be enchanted in the True Enchanting Table."]);
@@ -241,6 +238,7 @@ JEI.addDescription(<mowziesmobs:glowing_jelly>,"Puffbulbs are particularly fragi
 JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken.");
 JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material produced by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong glue.");
 JEI.addDescription(<biomesoplenty:flesh>, "It's surprisingly warm to the touch.");
+JEI.addDescription(<primitivemobs:camouflage_dye>, "Now you see me, now you you don't... This substance found in chameleons can dye most things into camouflaging colors.");
 
 JEI.addDescription(<betteranimalsplus:wolfhead_1>,"Direwolves would only ever submit to something they considered an apex predator. They accept no meat from strangers, but may accept the bones of terrifying creatures as treats.");
 JEI.addDescription(<betteranimalsplus:wolfhead_1>,"To even attempt to tame a direwolf, one must need the head of a very powerful beast. One may be very obvious (it is a vanilla head) and the other is much less obvious.");
@@ -363,8 +361,12 @@ JEI.addDescription(<malisisdoors:garage_door>, "Apply a redstone signal to lift 
 JEI.addDescription(<malisisdoors:jail_door>, "Apply a redstone signal to open and close.");
 
 
-/* Stars */
+/* Nyx Stars and Meteors */
 JEI.addDescription(<nyx:fallen_star>,"A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower.");
+JEI.addDescription(<nyx:meteor_shard>, "Obtained by breaking meteoric rock found from meteors.");
+JEI.addDescription(<nyx:meteor_rock>, "Found from meteors scattered across the world.");
+JEI.addDescription(<nyx:unrefined_crystal>, "Obtained by breaking gleaning meteor clusters.");
+JEI.addDescription(<nyx:gleaning_meteor_rock>, "Found from meteors that spawned during harvest moons.");
 
 
 /* Hearts */
@@ -375,7 +377,7 @@ JEI.addDescription(<quark:diamond_heart>,"A rare heart of living mineral ripped 
 
 /* Stat Modifiers (Enchanting, Reforging) */
 JEI.addDescription(<quark:ancient_tome>,"Filled with arcane secrets from a long-dead civilization. Combine an Ancient Tome and a matching enchanted book in an anvil to increase the enchantment one level higher than its normal maximum level.");
-JEI.addDescription(<qualitytools:reforging_station>,"Placing an item in the Reforging Station along with one piece of its primary material, such as an ingot, will change the item's quality. Many magical items can be reforged with Spectral Silt.");
+JEI.addDescription(<qualitytools:reforging_station>,"Placing a bauble in the Reforging Station along with a vis sliver will change the bauble's quality.");
 JEI.addDescription(<minecraft:enchanting_table>,"Can be upgraded with an Enchanting Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!");
 JEI.addDescription(<aether_legacy:enchanter>,"With a generous amount of time and fuel, it can infuse or repair rarer weapons and tools, changing the item's quality in the process. Using electrum instead of ambrosium proves to be much more efficient. A gravitite block underneath the capacitor allows it to infuse energy much quicker.");
 
@@ -429,6 +431,7 @@ JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the P
 JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
 JEI.addDescription(<quark:soul_bead>,"Warped bead formed from the cursed core of a wraith. Ingesting it releases the trapped spirits within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
 JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of information used long time ago by advanced civilizations. Using it while holding a book in the off-hand will register data of the structure its holder is inside.");
+JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with a fraction of the night. Can be obtained from the harvester.");
 
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
@@ -454,7 +457,7 @@ JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtai
 JEI.addItem(<contenttweaker:blank_rune>);
 JEI.addDescription(<contenttweaker:blank_rune>,"Stone imbued with magic powder. Used as a base for all runes.");
 JEI.addItem(<contenttweaker:disint_rune>);
-JEI.addDescription(<contenttweaker:disint_rune>,"Craft with magical items to disintegrate them into Spectral Silt. Spectral Silt is used for creating more powerful magical items.");
+JEI.addDescription(<contenttweaker:disint_rune>,"Craft with magical items to disintegrate them into vis.");
 
 JEI.addItem(<contenttweaker:sol_rune>);
 JEI.addItem(<contenttweaker:luna_rune>);
@@ -481,6 +484,7 @@ JEI.addItem(<contenttweaker:holding_rune>);
 JEI.addItem(<contenttweaker:nether_rune>);
 JEI.addItem(<contenttweaker:plague_rune>);
 // JEI.addItem(<contenttweaker:time_rune>);
+JEI.hide(<contenttweaker:time_rune>);
 JEI.addItem(<contenttweaker:aether_rune>);
 JEI.addItem(<contenttweaker:arcane_rune>);
 JEI.addItem(<contenttweaker:draconic_rune>);

@@ -232,9 +232,7 @@ JEI.removeAndHide(<dungeontactics:wooden_table>);
 JEI.removeAndHide(<dungeontactics:radio>);
 JEI.removeAndHide(<dungeontactics:peg_hammer>);
 
-
-
-
+JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 53 as short}]}));
 
 JEI.removeAndHide(<dungeontactics:climbing_rope>);
 
@@ -653,12 +651,6 @@ RecipeBuilder.get("mage")
   .create();
   
 // Spell rework (wands!)
-
-//  Rename scrolls to wands. This replaces "Scroll of" with "Wand of"
-game.setLocalization("item.dungeontactics:scroll_of.name","§bWand of");
-game.setLocalization("item.dungeontactics:magic_scroll.name","Magic Wand");
-game.setLocalization("item.dungeontactics:magic_powder.name","Wand Powder");
-game.setLocalization("item.dungeontactics:magic_pouch.name","Wand Powder Pouch");
 
 //  Base wands oredicts for woods
 val mundaneWood = <ore:mundaneWood>;
@@ -1338,23 +1330,6 @@ wandRage.addTooltip(format.darkPurple("Mystical"));
 wandTransport.addTooltip(format.darkPurple("Mystical"));
 
 // Dummy wands. Adds tooltips to match real wand tooltips for JEI purposes
-// make dummy wand names aqua
-<contenttweaker:dummy_wand_cook>.displayName = "§bWand of Cooking";
-<contenttweaker:dummy_wand_freeze>.displayName = "§bWand of Freezing";
-<contenttweaker:dummy_wand_punish>.displayName = "§bWand of Punishment";
-<contenttweaker:dummy_wand_satiate>.displayName = "§bWand of Satiating";
-
-<contenttweaker:dummy_wand_disorient>.displayName = "§bWand of Disorienting";
-<contenttweaker:dummy_wand_resto>.displayName = "§bWand of Restoration";
-<contenttweaker:dummy_wand_wither>.displayName = "§bWand of Withering";
-<contenttweaker:dummy_wand_companion>.displayName = "§bWand of Companion";
-<contenttweaker:dummy_wand_pm>.displayName = "§bWand of Pin Missile";
-
-<contenttweaker:dummy_wand_smite>.displayName = "§bWand of Smiting";
-<contenttweaker:dummy_wand_mm>.displayName = "§bWand of Magic Missile";
-<contenttweaker:dummy_wand_rage>.displayName = "§bWand of Enrage";
-<contenttweaker:dummy_wand_transport>.displayName = "§bWand of Transportation";
-
 // costs
 <contenttweaker:dummy_wand_cook>.addTooltip(format.gray("Cast Cost = 144"));
 <contenttweaker:dummy_wand_freeze>.addTooltip(format.gray("Cast Cost = 12"));

@@ -5,8 +5,9 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
 recipes.removeByMod("aesthetics");
-mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
-mods.jei.JEI.removeAndHide(<simpleores:copper_block>);
+recipes.removeByRecipeName("simpleores:copper_ingot");
+JEI.removeAndHide(<simpleores:copper_bucket>);
+JEI.removeAndHide(<simpleores:copper_block>);
 
 val ingotViri = <simpleores:adamantium_ingot>;
 val nuggetViri = <ore:nuggetViridium>.firstItem;

@@ -4,30 +4,37 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.foundry.Casting;
+import mods.betterwithaddons.Infuser;
+import mods.betterwithmods.MiniBlocks;
 
-mods.jei.JEI.removeAndHide(<defiledlands:hephaestite_ore>);
-mods.jei.JEI.removeAndHide(<defiledlands:hephaestite_block>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_ore>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_block>);
-mods.jei.JEI.removeAndHide(<defiledlands:scarlite_ore>);
-mods.jei.JEI.removeAndHide(<defiledlands:scarlite_block>);
-mods.jei.JEI.removeAndHide(<defiledlands:hephaestite>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_ingot>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_nugget>);
-mods.jei.JEI.removeAndHide(<defiledlands:scarlite>);
-mods.jei.JEI.removeAndHide(<defiledlands:ravaging_ingot>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_axe>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_hoe>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_pickaxe>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_shovel>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_sword>);
-mods.jei.JEI.removeAndHide(<defiledlands:scarlite_reaver>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_helmet>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_chestplate>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_leggings>);
-mods.jei.JEI.removeAndHide(<defiledlands:umbrium_boots>);
-mods.jei.JEI.removeAndHide(<defiledlands:remorseful_gem>);
-mods.jei.JEI.hideCategory("dldefilement");
+JEI.removeAndHide(<defiledlands:hephaestite_ore>);
+JEI.removeAndHide(<defiledlands:hephaestite_block>);
+JEI.removeAndHide(<defiledlands:umbrium_ore>);
+JEI.removeAndHide(<defiledlands:umbrium_block>);
+JEI.removeAndHide(<defiledlands:scarlite_ore>);
+JEI.removeAndHide(<defiledlands:scarlite_block>);
+JEI.removeAndHide(<defiledlands:hephaestite>);
+JEI.removeAndHide(<defiledlands:umbrium_ingot>);
+JEI.removeAndHide(<defiledlands:umbrium_nugget>);
+JEI.removeAndHide(<defiledlands:scarlite>);
+JEI.removeAndHide(<defiledlands:scarlite_ring>);
+JEI.removeAndHide(<defiledlands:ravaging_ingot>);
+JEI.removeAndHide(<defiledlands:umbrium_axe>);
+JEI.removeAndHide(<defiledlands:umbrium_hoe>);
+JEI.removeAndHide(<defiledlands:umbrium_pickaxe>);
+JEI.removeAndHide(<defiledlands:umbrium_shovel>);
+JEI.removeAndHide(<defiledlands:umbrium_sword>);
+JEI.removeAndHide(<defiledlands:scarlite_reaver>);
+JEI.removeAndHide(<defiledlands:umbrium_helmet>);
+JEI.removeAndHide(<defiledlands:umbrium_chestplate>);
+JEI.removeAndHide(<defiledlands:umbrium_leggings>);
+JEI.removeAndHide(<defiledlands:umbrium_boots>);
+JEI.removeAndHide(<defiledlands:essence_mourner>);
+JEI.removeAndHide(<defiledlands:remorseful_gem>);
+JEI.removeAndHide(<defiledlands:tears_flame>);
+JEI.removeAndHide(<defiledlands:tears_shulker>);
+JEI.hideCategory("dldefilement");
 
 recipes.remove(<defiledlands:healing_pad>);
 recipes.addShaped("healing_pad",<defiledlands:healing_pad>,[
@@ -39,12 +46,12 @@ recipes.addShapeless("blastem_fruit_blazing",<defiledlands:blastem_fruit_blazing
     [<defiledlands:blastem_fruit>,<defiledlands:blastem_fruit>,<defiledlands:blastem_fruit>,<defiledlands:blastem_fruit>,<minecraft:fire_charge>]);
 //Scarlite Razor
 recipes.remove(<defiledlands:scarlite_razor>);
-mods.betterwithaddons.Infuser.addShaped(<defiledlands:scarlite_razor>,[
+Infuser.addShaped(<defiledlands:scarlite_razor>,[
 [null,null,<aether_legacy:zanite_gemstone>],
 [null,<aether_legacy:skyroot_stick>,null],
 [<biomesoplenty:gem:1>,null,null]], 31);
 
-val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+val woodMoulding = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 recipes.remove(<defiledlands:umbra_blaster>);
 recipes.addShaped("umbra_blaster",<defiledlands:umbra_blaster>,[
     [<dungpipe:sewer_pipe>,<ore:genericMetal>,<defiledlands:scuttler_eye>],
@@ -108,13 +115,16 @@ recipes.addShaped("the_ravager",<defiledlands:the_ravager>,[
 ]);
 
 recipes.remove(<defiledlands:pellet_umbrium>);
-mods.foundry.Casting.addRecipe(<defiledlands:pellet_umbrium>*4, <liquid:soulforged_steel>*((144*8)-(16*2*8)), <foundry:mold:21>, <aether_legacy:enchanted_gravitite>);
+Casting.addRecipe(<defiledlands:pellet_umbrium>*4, <liquid:soulforged_steel>*((144*8)-(16*2*8)), <foundry:mold:21>, <aether_legacy:enchanted_gravitite>);
 
 recipes.removeByRecipeName("defiledlands:misc/pellet_ravaging");
 
 recipes.remove(<defiledlands:idol_sorrow>);
 recipes.addShapeless("idol_sorrow",<defiledlands:idol_sorrow>,
     [<totemexpansion:totem_base>,<defiledlands:essence_destroyer>,<defiledlands:black_heart>]);
-	
-recipes.remove(<defiledlands:tears_flame>);
-recipes.remove(<defiledlands:tears_shulker>);
+
+recipes.addShapeless("seed_to_sapling_dlands", <defiledlands:tenebra_sapling>, [<dynamictreesdefiledlands:tenebraseed>, <dynamictrees:dirtbucket>.reuse()]);
+recipes.addShapeless("sapling_to_seed_dlands", <dynamictreesdefiledlands:tenebraseed>, [<defiledlands:tenebra_sapling>, <dynamictrees:dirtbucket>.reuse()]);
+
+// recipes.remove(<defiledlands:tears_flame>);
+// recipes.remove(<defiledlands:tears_shulker>);

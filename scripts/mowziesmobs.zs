@@ -4,6 +4,8 @@ import mods.jei.JEI;
 import mods.ltt.LootTable;
 
 JEI.removeAndHide(<mowziesmobs:logo>);
+JEI.removeAndHide(<mowziesmobs:grant_suns_blessing>);
+JEI.removeAndHide(<mowziesmobs:mob_remover>);
 
 //Mob Loot Tweaks
 <entity:mowziesmobs:ferrous_wroughtnaut>.addDrop(<minecraft:iron_ingot>,3,9);

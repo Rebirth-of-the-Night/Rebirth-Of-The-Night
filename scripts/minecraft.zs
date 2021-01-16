@@ -12,7 +12,26 @@ import mods.ltt.LootTable;
 // brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
 recipes.remove(<minecraft:mushroom_stew>);
+JEI.removeAndHide(<minecraft:knowledge_book>);
+JEI.removeAndHide(<gbook_snapshot:guidebook>);
+JEI.removeAndHide(<toolprogression:magic_mushroom>);
+JEI.removeAndHide(<hw_inv:block_sacrifice>);
+JEI.removeAndHide(<cd4017be_lib:energy_supp>);
+JEI.removeAndHide(<cd4017be_lib:item_supp>);
+JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
+JEI.removeAndHide(<cd4017be_lib:m>);
+JEI.removeAndHide(<cd4017be_lib:rrwi>);
+JEI.removeAndHide(<betterslimes:null_item>);
+JEI.removeAndHide(<inspirations:materials:0>);
+JEI.removeAndHide(<rotm:debug_damages>);
+JEI.removeAndHide(<rotm:debug_entities>);
+JEI.removeAndHide(<rotm:debug_potions>);
+JEI.removeAndHide(<redstoneplusplus:dummy_clock_hover>);
 
+// Contenttweaker icons
+JEI.removeAndHide(<contenttweaker:info>);
+JEI.removeAndHide(<contenttweaker:four_gem_ingots>);
+JEI.removeAndHide(<contenttweaker:four_gems>);
 
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
@@ -22,6 +41,8 @@ furnace.remove(<ore:nuggetIron>);
 
 // remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
 LootTable.removeGlobalItem("minecraft:bucket");
+
+recipes.addShapeless("gravel_to_flint", <minecraft:flint>*2, [<ore:gravel>, <ore:gravel>]);
 
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
@@ -98,7 +119,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [null,<quark:framed_glass>,null],
 	[<quark:framed_glass>,<contenttweaker:vis_speck>,<quark:framed_glass>],
-	[null,<quark:framed_glass>,null],])
+	[null,<quark:framed_glass>,null]])
   .addOutput(<sereneseasons:greenhouse_glass>*4)
   .addTool(<contenttweaker:nature_rune>, 1)
   .setMinimumTier(1)
@@ -109,7 +130,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>],
 	[<quark:framed_glass>,<contenttweaker:vis_sliver>,<quark:framed_glass>],
-	[<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>],])
+	[<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>]])
   .addOutput(<sereneseasons:greenhouse_glass>*8)
   .addTool(<contenttweaker:nature_rune>, 1)
   .setMinimumTier(1)
@@ -150,11 +171,7 @@ recipes.removeByRecipeName("minecraft:diorite");
 recipes.removeByRecipeName("minecraft:andesite");
 
 recipes.remove(<minecraft:tnt>);
-recipes.addShaped("tnt",<minecraft:tnt>,[
-    [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>],
-    [<ore:sand>,<minecraft:gunpowder>,<ore:sand>],
-    [<minecraft:gunpowder>,<ore:sand>,<minecraft:gunpowder>]
-]);
+recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <ore:glue> ]);
 
 recipes.removeByRecipeName("quark:color_slime_1");
 recipes.removeByRecipeName("quark:color_slime");
@@ -170,7 +187,7 @@ recipes.addShaped("green_slime_block",<minecraft:slime>,[
 
 
 recipes.remove(<quark:color_slime:2>);
-recipes.addShaped("black slime block",<quark:color_slime:2>,[
+recipes.addShaped("black_slime_block",<quark:color_slime:2>,[
     [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>],
     [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>],
     [<betterslimes:black_slime>,<betterslimes:black_slime>,<betterslimes:black_slime>]
@@ -696,11 +713,17 @@ potions_splash.maxStackSize = 8;
 potions_lingering.maxStackSize = 8;
 elixir.maxStackSize = 8;
 
-<dungeontactics:bone_cestus>.displayName = "Holy Stake";
-recipes.addShaped("Holy Stake", <dungeontactics:bone_cestus>, 
-[[null, <iceandfire:silver_nugget>, <contenttweaker:aether_rune>.anyDamage().transformDamage()],
-[<iceandfire:silver_nugget>, <betterwithmods:stake>, <iceandfire:silver_nugget>], 
-[<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]]);
+RecipeBuilder.get("mage")
+  .setName("holy_stake")
+  .setShaped([
+    [null, <iceandfire:silver_nugget>, <iceandfire:silverpile>],
+    [<iceandfire:silver_nugget>, <betterwithmods:stake>, <iceandfire:silver_nugget>], 
+    [<iceandfire:silver_nugget>, <iceandfire:silver_nugget>, null]])
+  .addOutput(<dungeontactics:bone_cestus>)
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 recipes.addShaped("monster_leather", <betterwithmods:material:31>, 
 [[<contenttweaker:monster_hide>, <contenttweaker:monster_hide>, <contenttweaker:monster_hide>],
@@ -1191,10 +1214,6 @@ recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [
     [<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], 
     [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
 ]);
-
-
-// Fragile Glass And Thin Ice
-recipes.removeByMod("fragileglassft");
 
 recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecraft:stick>]);
 recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweaker:broken_stick>, <contenttweaker:broken_stick>, <ore:glue> | <ore:slimeball>]);

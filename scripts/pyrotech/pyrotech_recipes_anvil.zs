@@ -44,6 +44,7 @@ GraniteAnvil.addRecipe("white_stone_recycling",<betterwithmods:material:39>, <be
 GraniteAnvil.addRecipe("prismarine_to_prismshard",<minecraft:prismarine_shard>*3, <minecraft:prismarine>, 18,"pickaxe", true);
 GraniteAnvil.addRecipe("prism_brick_to_prismshard_to",<minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 18,"pickaxe", true);
 GraniteAnvil.addRecipe("flintblock_to_flint",<minecraft:flint>*4,<betterwithmods:aesthetic:5>, 8,"hammer", true);
+GraniteAnvil.addRecipe("purpur_to_popped_chorus",<minecraft:chorus_fruit_popped>*3, <minecraft:purpur_block>, 8,"hammer", true);
 GraniteAnvil.addRecipe("halite_to_salt",<animania:salt>*3, <contenttweaker:halite>,6,"pickaxe", true);
 GraniteAnvil.addRecipe("dense_redstone",<minecraft:redstone>*2,<pyrotech:material:36>, 2,"hammer", true);
 GraniteAnvil.addRecipe("dense_quartz",<minecraft:quartz>*2,<pyrotech:material:37>, 2,"pickaxe", true);
@@ -52,8 +53,12 @@ GraniteAnvil.addRecipe("raw_endorium", <endreborn:item_raw_endorium>, <ore:ender
 GraniteAnvil.addRecipe("lormyte_crystal", <endreborn:item_lormyte_crystal>*2, <endreborn:block_lormyte_crystal>, 8, "hammer", true);
 GraniteAnvil.addRecipe("obsidian_dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);
 GraniteAnvil.addRecipe("obsidian_shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 64, "pickaxe", true);
-GraniteAnvil.addRecipe("cobblestone_any_cobblestone", <minecraft:cobblestone>, <ore:cobblestone>, 1, "hammer", true);
+<ore:cobblestone_except_cobblestone>.addAll(<ore:cobblestone>);
+<ore:cobblestone_except_cobblestone>.remove(<minecraft:cobblestone>);
+GraniteAnvil.addRecipe("cobblestone_any_cobblestone", <minecraft:cobblestone>, <ore:cobblestone_except_cobblestone>, 1, "hammer", true);
+GraniteAnvil.addRecipe("cobblestone_to_rocks", <pyrotech:rock:0> * 4, <minecraft:cobblestone>, 3, "hammer", true);
 GraniteAnvil.addRecipe("entropy_cobblestone", <endreborn:block_entropy_end_stone>, <minecraft:end_stone>, 4,"hammer", true);
+GraniteAnvil.addRecipe("cracked_astral_block", <nyx:cracked_star_block>, <nyx:star_block>, 64, "hammer", true);
 GraniteAnvil.addRecipe("copper_to_dust", <ore:dustCopper>.firstItem, <ore:ingotCopper>, 8, "hammer", true);
 GraniteAnvil.addRecipe("copper_ore_to_dust", <ore:dustCopper>.firstItem, <ore:oreCopper>, 4, "hammer", true);
 GraniteAnvil.addRecipe("tin_to_dust", <ore:dustTin>.firstItem, <ore:ingotTin>, 8, "hammer", true);
@@ -86,7 +91,7 @@ GraniteAnvil.addRecipe("smash_heart_2",<scalinghealth:crystalshard>*3, <bountifu
 GraniteAnvil.addRecipe("smash_heart_3",<scalinghealth:crystalshard>*6, <iceandfire:fire_dragon_heart>, 32,"hammer", true);
 GraniteAnvil.addRecipe("smash_heart_4",<scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>, 32,"hammer", true);
 GraniteAnvil.addRecipe("smash_heart_5",<scalinghealth:crystalshard>*1, <quark:diamond_heart>, 64,"hammer", true);
-GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*9, <betterwithmods:steel_block>, 64,"hammer", true);
+GraniteAnvil.addRecipe("sfs_plating",<betterwithmods:material:51>*16, <betterwithmods:steel_block>, 64,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_fossil",<pyrotech:material:8>, <undergroundbiomes:fossil_piece:*>, 4,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_ruby",<pyrotech:material:8>*3, <ore:gemRuby>, 64,"hammer", true);
 GraniteAnvil.addRecipe("refractorylump_sapphire",<pyrotech:material:8>*3, <ore:gemSapphire>, 64,"hammer", true);

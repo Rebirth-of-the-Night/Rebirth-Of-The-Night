@@ -327,7 +327,9 @@ transformationQuintessenceA.add(
     <twilightforest:magic_log_core:1>,
     <rats:plague_doctorate>,
     <cyclicmagic:horse_upgrade_variant>,
-    <dynamictrees:dendropotion:2>
+    <dynamictrees:dendropotion:2>,
+    <dungeontactics:steel_sword>,
+    <defiledlands:defilement_powder>
 );
 
 // Transformation B - Things that transform themselves
@@ -337,7 +339,8 @@ transformationQuintessenceB.add(
     <aether_legacy:chest_mimic>,
     <mod_lavacow:mimic_claw>,
     <butterflies:butterfly>,
-    <exsartagine:yeast>
+    <exsartagine:yeast>,
+    <twilightforest:tower_device:12>
 );
 
 // Knowledge A - Ancient knowledge (lore books, enchants, etc)
@@ -349,6 +352,7 @@ knowledgeQuintessenceA.add(
     <aether_legacy:lore_book>,
     <minecraft:enchanted_book>,
     <quark:ancient_tome>,
+    <antiqueatlas:empty_antique_atlas>,
     <randomthings:enderletter>,
     <contenttweaker:brain>
 );
@@ -361,9 +365,15 @@ knowledgeQuintessenceB.add(
     <harvestcraft:fortunecookieitem>,
     <arcanearchives:manifest>,
     <animania:animania_manual>,
+    <minecraft:map>,
+    <twilightforest:magic_map_empty>,
+    <twilightforest:maze_map_empty>,
+    <twilightforest:ore_map_empty>,
+    <defiledlands:book_wyrm_analyzer>,
     <rustic:book>,
-    <patchouli:guide_book>,
-    <minecraft:map>
+    <arcanearchives:tome_arcana>,
+    <betterwithmods:manual>,
+    <contenttweaker:slayers_tattered_journal>
 );
 // Disintegration A - Catalysts of disintegration (fire, acid, etc)
 val disintegrationQuintessenceA = <ore:disintegrationQuintessenceA>;
@@ -776,8 +786,11 @@ netherQuintessenceB.add(
     <minecraft:nether_wart>,
     <betternether:nether_reed>,
     <betternether:red_mold>,
-    <betternether:smoker>,
-    <betternether:gray_mold>
+    <betternether:gray_mold>,
+    <biomesoplenty:double_plant:2>,
+    <betternether:nether_grass>,
+    <betternether:nether_cactus>,
+    <biomesoplenty:flower_0:15>
 );
 
 // Nether C - Natural Resources
@@ -787,7 +800,8 @@ netherQuintessenceC.add(
     <minecraft:quartz>,
     <betterwithmods:material:1>,
     <betterwithmods:material:15>,
-    <betterwithmods:material:35>
+    <betterwithmods:material:35>,
+    <netherex:amethyst_crystal>
 );
 
 

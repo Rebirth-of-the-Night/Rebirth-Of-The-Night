@@ -310,6 +310,8 @@ for ore, result in moddedBlastFurnaceRecipes {
 	BlastFurnace.addRecipe(ore, result);
 }
 
+BlastFurnace.removeRecipe(<rustic:dust_tiny_iron>);
+
 
 /*********************************************************************************
 

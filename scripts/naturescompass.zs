@@ -12,6 +12,7 @@ RecipeBuilder.get("mage")
     [<ore:treeLeaves>, <minecraft:compass>, <ore:treeLeaves>],
     [<ore:durableFiber>, <ore:logWood>, <ore:durableFiber>]])
   .addTool(<contenttweaker:earth_rune>, 1)
+  .addTool(<contenttweaker:knowledge_rune>, 1)
   .addOutput(<naturescompass:naturescompass>)
   .setMinimumTier(1)
   .setMaximumTier(1)

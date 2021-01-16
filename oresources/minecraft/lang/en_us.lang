@@ -18,3 +18,34 @@ item.bucketLava.name=Quality Lava Bucket
 
 menu.singleplayer=Start Your Journey
 menu.multiplayer=Play With Friends
+
+tile.blockLapis.name=Block of Lapis Lazuli
+tile.blockGold.name=Block of Gold
+tile.blockIron.name=Block of Iron
+tile.blockCoal.name=Block of Coal
+tile.blockDiamond.name=Block of Diamond
+tile.blockEmerald.name=Block of Emerald
+tile.blockRedstone.name=Block of Redstone
+tile.quartzBlock.name=Block of Quartz
+tile.quartzBlock.default.name=Block of Quartz
+tile.netherWartBlock.name=Block of Nether Wart
+tile.purpurBlock.name=Block of Purpur
+tile.brick.name=Block of Bricks
+tile.netherBrick.name=Block of Nether Bricks
+
+item.totem.name=§bTotem of Undying
+tile.flower1.dandelion.name=Marigold
+item.dyePowder.yellow.name=Yellow Dye
+item.netherStar.name=§6Nether Star
+item.slimeball.name=Green Slimeball
+
+item.swordIron.name=Iron Arming Sword
+item.swordStone.name=Stone Arming Sword
+item.swordGold.name=Gold Arming Sword
+item.swordDiamond.name=Diamond Arming Sword
+
+tile.stone.andesite.name=Gray Andesite
+tile.stone.andesiteSmooth.name=Polished Gray Andesite
+
+tile.stoneMoss.name=Mossy Cobblestone
+tile.cobbleWall.mossy.name=Mossy Cobblestone Wall

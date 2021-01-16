@@ -8,6 +8,7 @@ JEI.removeAndHide(<endreborn:tool_pickaxe_endorium>);
 JEI.removeAndHide(<endreborn:tool_axe_endorium>);
 JEI.removeAndHide(<endreborn:tool_hoe_endorium>);
 JEI.removeAndHide(<endreborn:tool_shovel_endorium>);
+JEI.removeAndHide(<endreborn:tool_hammer_iron>);
 JEI.removeAndHide(<endreborn:entropy_user>);
 JEI.removeAndHide(<endreborn:item_dragonite_seeds>);
 JEI.removeAndHide(<endreborn:item_dragonite_tea>);
@@ -17,6 +18,7 @@ JEI.removeAndHide(<endreborn:block_end_forge>);
 JEI.removeAndHide(<endreborn:block_rune>);
 JEI.removeAndHide(<endreborn:item_world_mirror>);
 JEI.removeAndHide(<endreborn:entropy_wand>);
+JEI.removeAndHide(<endreborn:broken_ender_flower>);
 JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}));
 recipes.removeByRecipeName("endreborn:book");
 

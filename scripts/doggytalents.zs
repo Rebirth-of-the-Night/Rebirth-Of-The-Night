@@ -1,9 +1,10 @@
 import crafttweaker.item.IIngredient;
+import mods.jei.JEI;
 
-
-mods.jei.JEI.removeAndHide(<doggytalents:radar>);
-mods.jei.JEI.removeAndHide(<doggytalents:radio_collar>);
-
+JEI.removeAndHide(<doggytalents:radar>);
+JEI.removeAndHide(<doggytalents:radio_collar>);
+JEI.removeAndHide(<doggytalents:doggy_charm>);
+JEI.removeAndHide(<doggytalents:owner_change>);
 
 var sugar = <minecraft:sugar>;
 var wheat = <minecraft:wheat>;

@@ -1,1 +1,4 @@
 arcanearchives.tooltip.device.radiant_chest=Storage. Used to contain items. Multiplies maximum stack size of stored items by 4.
+
+tile.storage_raw_quartz.name=Block of Raw Radiant Quartz
+tile.storage_shaped_quartz.name=Block of Shaped Radiant Quartz

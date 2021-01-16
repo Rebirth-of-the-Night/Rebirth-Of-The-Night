@@ -9,6 +9,8 @@ import mods.betterwithmods.Anvil;
 import mods.betterwithmods.HeatRegistry;
 
 furnace.setFuel(<betterwithmods:aesthetic:13>, 28800);
+<ore:cobblestone>.add(<betterwithmods:aesthetic:7>);
+<ore:stone>.add(<betterwithmods:aesthetic:6>);
 
 recipes.removeByRecipeName("betterwithmods:quark/spruce_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/birch_trapdoor");
@@ -106,6 +108,11 @@ Turntable.add(<betterwithmods:unfired_pottery:3>, <betterwithmods:unfired_potter
 Turntable.add(<contenttweaker:modelingrefractory>, <contenttweaker:crucible>, [<pyrotech:material:4>*4]);
 Turntable.add(<contenttweaker:crucible>, <ceramics:clay_barrel_unfired>, [<pyrotech:material:4>*4]);
 Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, [<pyrotech:material:4>*4]);
+
+recipes.addShaped("hardened_nether_sludge", <betterwithmods:aesthetic:2>, [
+    [<betterwithmods:nether_clay>, <betterwithmods:nether_clay>],
+    [<betterwithmods:nether_clay>, <betterwithmods:nether_clay>]
+]);
 
 val arrayMoulding = [<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}})] as IItemStack[];
 

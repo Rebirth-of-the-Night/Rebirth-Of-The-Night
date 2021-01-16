@@ -17,12 +17,24 @@ JEI.removeAndHide(<arcaneworld:ore_amethyst>);
 JEI.removeAndHide(<arcaneworld:ore_amethyst_nether>);
 JEI.removeAndHide(<arcaneworld:biome_crystal>);
 JEI.removeAndHide(<arcaneworld:potion_orb>);
+JEI.removeAndHide(<arcaneworld:ritual_scroll>);
+JEI.removeAndHide(<arcaneworld:levitator>);
+JEI.removeAndHide(<arcaneworld:arcane_hoe>);
+JEI.removeAndHide(<arcaneworld:fang_wand>);
+JEI.removeAndHide(<arcaneworld:recaller>);
+JEI.removeAndHide(<arcaneworld:ethereal_sword>);
+JEI.removeAndHide(<arcaneworld:growth_powder>);
+JEI.removeAndHide(<arcaneworld:glowing_chorus>);
+
+furnace.setFuel(<arcaneworld:levitator>, 0);
 
 LootTable.removeGlobalItem("arcaneworld:sapphire");
 LootTable.removeGlobalItem("arcaneworld:amethyst");
 LootTable.removeGlobalItem("arcaneworld:block_sapphire");
 LootTable.removeGlobalItem("arcaneworld:block_amethyst");
 LootTable.removeGlobalItem("arcaneworld:biome_crystal");
+LootTable.removeGlobalItem("arcaneworld:ritual_scroll");
+LootTable.removeGlobalItem("arcaneworld:levitator");
 
 ArcaneWorld.removeAll();
 recipes.remove(<arcaneworld:levitator>);

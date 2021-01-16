@@ -22,6 +22,7 @@ JEI.removeAndHide(<quark:red_nether_brick_slab>);
 JEI.removeAndHide(<quark:purpur_block_wall>);
 JEI.removeAndHide(<quark:red_nether_brick_stairs>);
 JEI.removeAndHide(<quark:nether_brick_fence_gate>);
+JEI.removeAndHide(<quark:smoker>);
 
 <quark:rune:*>.addTooltip("Colors enchanted items in an anvil."); // Because so many people dunno its use.
 

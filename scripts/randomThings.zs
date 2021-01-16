@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.ltt.LootTable;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -149,8 +150,8 @@ JEI.removeAndHide(<randomthings:spectreblock>);
 JEI.removeAndHide(<randomthings:lavawader>);
 JEI.removeAndHide(<randomthings:waterwalkingboots>);
 JEI.removeAndHide(<randomthings:obsidianwaterwalkingboots>);
-mods.ltt.LootTable.removeGlobalItem("randomthings:lavacharm");
-mods.ltt.LootTable.removeGlobalItem("randomthings:waterwalkingboots");
+LootTable.removeGlobalItem("randomthings:lavacharm");
+LootTable.removeGlobalItem("randomthings:waterwalkingboots");
 
 
 
@@ -183,7 +184,11 @@ JEI.removeAndHide(<randomthings:ingredient:13>);
 
 //vaporizer
 recipes.remove(<randomthings:potionvaporizer>);
-recipes.addShaped(<randomthings:potionvaporizer>, [[<ore:Stone>, <cyclicmagic:fluid_pump>, <ore:Stone>],[<rustic:retort_advanced>, <pyrotech:igniter:1>, <rustic:retort_advanced>], [<dungeontactics:fan_block>, <minecraft:dispenser>, <dungeontactics:fan_block>]]);
+recipes.addShaped("potion_vaporizer", <randomthings:potionvaporizer>, [
+    [<ore:Stone>, <cyclicmagic:fluid_pump>, <ore:Stone>],
+    [<rustic:retort_advanced>, <pyrotech:igniter:1>, <rustic:retort_advanced>], 
+    [<dungeontactics:fan_block>, <minecraft:dispenser>, <dungeontactics:fan_block>]
+]);
 
 // contact blocks
 recipes.remove(<randomthings:contactlever>);

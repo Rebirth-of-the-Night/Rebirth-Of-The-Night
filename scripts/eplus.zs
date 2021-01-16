@@ -1,3 +1,5 @@
+#modloaded defiledlands
+
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.enchantments.IEnchantmentDefinition;
@@ -6,6 +8,7 @@ import mods.jei.JEI;
 import mods.rockytweaks.Anvil;
 import mods.eplus.Eplus;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.ltt.LootTable;
 
 
 // Eplus.blacklistItem(<msmlegacy:wither_bane>);
@@ -29,6 +32,7 @@ RecipeBuilder.get("mage")
 	[<minecraft:obsidian>, <ore:ingotMythril>, <minecraft:obsidian>], 
 	[<minecraft:gold_block>, <wards:enchanted_paper>, <minecraft:gold_block>]])
   .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addTool(<contenttweaker:trans_rune>, 1)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .addOutput(<eplus:table_upgrade>)
@@ -73,17 +77,17 @@ Anvil.remove([<betterwithaddons:steel_masonpick>]);
 //                                             REMOVING ENCHANTMENT BOOKS FROM JEI AND LOOT TABLES
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-mods.ltt.LootTable.removeModItem("randomenchantments");
-mods.ltt.LootTable.removeModItem("msmlegacy");
-mods.ltt.LootTable.removeModItem("livingenchantment");
+LootTable.removeModItem("randomenchantments");
+LootTable.removeModItem("msmlegacy");
+LootTable.removeModItem("livingenchantment");
 
-mods.ltt.LootTable.removeModEntry("randomenchantments");
-mods.ltt.LootTable.removeModEntry("msmlegacy");
-mods.ltt.LootTable.removeModEntry("livingenchantment");
+LootTable.removeModEntry("randomenchantments");
+LootTable.removeModEntry("msmlegacy");
+LootTable.removeModEntry("livingenchantment");
 
-mods.ltt.LootTable.removeModTable("randomenchantments");
-mods.ltt.LootTable.removeModTable("msmlegacy");
-mods.ltt.LootTable.removeModTable("livingenchantment");
+LootTable.removeModTable("randomenchantments");
+LootTable.removeModTable("msmlegacy");
+LootTable.removeModTable("livingenchantment");
 
 
 JEI.hide(<minecraft:enchanted_book>);

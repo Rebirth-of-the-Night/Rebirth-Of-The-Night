@@ -3,9 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-
-mods.jei.JEI.removeAndHide(<golems:info_book>);
-
+JEI.removeAndHide(<golems:info_book>);
 
 recipes.remove(<golems:golem_paper>);
 

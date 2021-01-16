@@ -235,7 +235,6 @@ eyeOredict.add(<iceandfire:cyclops_eye>);
 eyeOredict.add(<iceandfire:cockatrice_eye>);
 
 //new eye pie
-<harvestcraft:spidereyepieitem>.displayName = "Eye Pie";
 recipes.addShapeless(<harvestcraft:spidereyepieitem>, [<harvestcraft:bakewareitem>.transformReplace(<harvestcraft:bakewareitem>), <ore:foodDough>, <ore:eyeball>, <ore:listAllsugar>, <rats:herb_bundle>]);
 
 

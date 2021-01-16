@@ -79,9 +79,6 @@ item.aether_legacy:cockatrice.name=Kelenk Meat
 item.aether_legacy:burnt_cockatrice.name=Burnt Kelenk Meat
 item.aether_legacy:enchanted_cockatrice.name=Enchanted Kelenk Meat
 item.aether_legacy:cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
-item.cockatrice.name=Kelenk Meat
-item.burnt_cockatrice.name=Burnt Kelenk Meat
-item.cooked_enchanted_cockatrice.name=Cooked Enchanted Kelenk Meat
 
 entity.aether_legacy.cockatrice.name=Kelenk
 entity.cockatrice.name=Kelenk
@@ -120,6 +117,8 @@ tile.mossy_holystone_slab.name=Mossy Holystone Slab
 tile.holystone_brick_slab.name=Holystone Brick Slab
 tile.aerogel_slab.name=Aerogel Slab
 
+tile.aether_legacy:enchanter.name=Aetherium Capacitor
+tile.aether_legacy:altar.name=Aetherium Capacitor
 tile.enchanter.name=Aetherium Capacitor
 tile.altar.name=Aetherium Capacitor
 container.aether_legacy.enchanter=Aetherium Capacitor
@@ -130,3 +129,22 @@ subtitles.aemob.cockatrice.flap=Kelenk flaps
 subtitles.aemob.cockatrice.attack=Kelenk shoots
 
 entity.sentry.name=Sentry
+tile.zanite_block.name=Block of Zanite
+
+item.obsidian_helmet.name=Extinguished Flame Helmet
+item.obsidian_chestplate.name=Extinguished Flame Chestplate
+item.obsidian_leggings.name=Extinguished Flame Leggings
+item.obsidian_boots.name=Extinguished Flame Boots
+item.skyroot_sword.name=Skyroot Arming Sword
+item.holystone_sword.name=Holystone Arming Sword
+item.zanite_sword.name=Zanite Arming Sword
+item.gravitite_sword.name=Gravitite Arming Sword
+item.flaming_sword.name=Flaming Sword
+item.lightning_sword.name=Lightning Sword
+item.holy_sword.name=Holy Sword
+item.lightning_knife.name=Lightning Knife
+item.candy_cane_sword.name=Candy Cane Sword
+item.vampire_blade.name=Vampire Blade
+item.pig_slayer.name=Pig Slayer
+item.valkyrie_lance.name=Valkyrie Lance
+item.notch_hammer.name=§6Hammer of Miku

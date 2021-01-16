@@ -10,6 +10,7 @@ Crucible.removeAll();
 
 Crucible.addUnstoked([<ore:cobblestone>],[<minecraft:stone>]);
 Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<betterwithmods:aesthetic:6>]);
+Crucible.addUnstoked([<betterwithmods:material:16>, <ore:stone>],[<aether_legacy:dungeon_block:4>]);
 
 // Automation for stick
 Crucible.addUnstoked(

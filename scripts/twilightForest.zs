@@ -6,6 +6,10 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+JEI.removeAndHide(<twilightforest:miniature_structure:*>);
+JEI.removeAndHide(<twilightforest:ore_meter>);
+JEI.removeAndHide(<twilightforest:twilight_plant>);
+
 JEI.removeAndHide(<twilightforest:cinder_furnace>);
 furnace.remove(<twilightforest:cinder_furnace>);
 

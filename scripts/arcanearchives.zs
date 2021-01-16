@@ -128,8 +128,8 @@ GCT.addRecipe("magicinfused_wood2", <biomesoplenty:log_1:5>*64, [<arcanearchives
 
 //ender spectacles
 // actually turns out, this thing is OP as shit. endermen and variants don't even retaliate when attacked. I don't like that. until we can fix that or make a workaround, away it goes.
-recipes.remove(<betterwithmods:ender_spectacles>);
-//GCT.addRecipe("ender_spectacles", <betterwithmods:ender_spectacles>, [<arcanearchives:matrix_brace>*2, <arcanearchives:monitoring_crystal>*2, <betterwithmods:material:40>*2, <arcanearchives:scintillating_inlay>, <betterwithmods:material:8>*1]);
-//<betterwithmods:ender_spectacles>.displayName = "§5Ender Spectacles";
-//<betterwithmods:ender_spectacles>.addTooltip(format.darkPurple("Epic Headgear"));
-//<betterwithmods:ender_spectacles>.addTooltip("Equip to gain unnatural insight into where monsters can spawn. Highly reduces your chance of being teleported by End creatures.");
+JEI.removeAndHide(<betterwithmods:ender_spectacles>);
+// recipes.remove(<betterwithmods:ender_spectacles>);
+// GCT.addRecipe("ender_spectacles", <betterwithmods:ender_spectacles>, [<arcanearchives:matrix_brace>*2, <arcanearchives:monitoring_crystal>*2, <betterwithmods:material:40>*2, <arcanearchives:scintillating_inlay>, <betterwithmods:material:8>*1]);
+// <betterwithmods:ender_spectacles>.addTooltip(format.darkPurple("Epic Headgear"));
+// <betterwithmods:ender_spectacles>.addTooltip("Equip to gain unnatural insight into where monsters can spawn. Highly reduces your chance of being teleported by End creatures.");

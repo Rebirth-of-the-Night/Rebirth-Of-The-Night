@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 
-mods.jei.JEI.removeAndHide(<fairylights:ladder>);
+JEI.removeAndHide(<fairylights:ladder>);
 
 // Replaces fairy light recipes to use oredicts
 

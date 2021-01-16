@@ -1,36 +1,21 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.block.IBlockDefinition;
+import mods.jei.JEI;
 
-mods.jei.JEI.removeAndHide(<minetraps:mud>);
-mods.jei.JEI.removeAndHide(<minetraps:quicksand>);
-mods.jei.JEI.removeAndHide(<minetraps:obstacle>);
-mods.jei.JEI.removeAndHide(<minetraps:fall_trap>);
+JEI.removeAndHide(<minetraps:mud>);
+JEI.removeAndHide(<minetraps:quicksand>);
+JEI.removeAndHide(<minetraps:obstacle>);
+JEI.removeAndHide(<minetraps:fall_trap>);
+JEI.removeAndHide(<minetraps:wall_spikes>);
 
 recipes.remove(<minetraps:nails>);
 
-var tinnugget = <ore:nuggetTin>;
-
-recipes.addShapeless("Nails", <minetraps:nails>,[tinnugget, tinnugget, tinnugget, tinnugget]);
-
-
-var silvernugget = <iceandfire:silver_nugget>;
-
-recipes.addShapeless("Nails 2", <minetraps:nails>,[silvernugget, silvernugget, silvernugget, silvernugget]);
-
-var ironnugget = <ore:nuggetIron>;
-
-recipes.addShapeless("Nails 3", <minetraps:nails>,[ironnugget, ironnugget, ironnugget, ironnugget]);
-
-
+var nugs = <ore:nuggetTin> | <ore:nuggetSilver> | <ore:nuggetIron>;
+recipes.addShapeless("nails", <minetraps:nails>,[nugs, nugs, nugs, nugs]);
 
 recipes.remove(<minetraps:nail_trap>);
-recipes.addShapeless("Nail Trap", <minetraps:nail_trap>,[<minetraps:nails>,<minetraps:nails>]);
-
-
-
-
-
+recipes.addShapeless("nail_trap", <minetraps:nail_trap>,[<minetraps:nails>,<minetraps:nails>]);
 
 // trap hardness/resistance tweaks
 // yes this is sloppy using 2 methods idgaf
@@ -47,6 +32,7 @@ barbwire.hardness = 6;
 val spikes as IItemStack = <minetraps:spikes>;
 spikes.hardness = 10;
 <minetraps:spikes>.asBlock().definition.resistance = 5;
+
 val toxicspikes as IItemStack = <minetraps:spikes_toxic>;
 toxicspikes.hardness = 10;
 <minetraps:spikes_toxic>.asBlock().definition.resistance = 5;

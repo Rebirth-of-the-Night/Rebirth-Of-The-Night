@@ -4,37 +4,38 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.betterwithmods.Anvil;
+import mods.ltt.LootTable;
 
 //removed loot
-mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
-mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
-mods.ltt.LootTable.removeGlobalItem("mod_lavacow:poisonspore");
-mods.ltt.LootTable.removeGlobalItem("mod_lavacow:shattered_ice");
+JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
+LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
+LootTable.removeGlobalItem("mod_lavacow:poisonspore");
+LootTable.removeGlobalItem("mod_lavacow:shattered_ice");
 
 <mod_lavacow:glowshroom>.displayName = "Teal Glowshroom";
-<quark:glowshroom>.displayName = "Blue Glowshroom";
 <biomesoplenty:mushroom:3>.displayName = "Green Glowshroom";
 
 <mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";
 
 //removed netherex salamander armor
-mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
-mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_chestplate>);
-mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_leggings>);
-mods.jei.JEI.removeAndHide(<netherex:orange_salamander_hide_boots>);
-mods.jei.JEI.removeAndHide(<netherex:black_salamander_hide_helmet>);
-mods.jei.JEI.removeAndHide(<netherex:black_salamander_hide_chestplate>);
-mods.jei.JEI.removeAndHide(<netherex:black_salamander_hide_leggings>);
-mods.jei.JEI.removeAndHide(<netherex:black_salamander_hide_boots>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_chestplate>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_leggings>);
+JEI.removeAndHide(<netherex:orange_salamander_hide_boots>);
+JEI.removeAndHide(<netherex:black_salamander_hide_helmet>);
+JEI.removeAndHide(<netherex:black_salamander_hide_chestplate>);
+JEI.removeAndHide(<netherex:black_salamander_hide_leggings>);
+JEI.removeAndHide(<netherex:black_salamander_hide_boots>);
 
 
 //removed or modified food
-mods.jei.JEI.removeAndHide(<mod_lavacow:netherstew>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:canepork>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:parasite_item_cooked>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:mousse>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:meatball>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:moltenpan>);
+JEI.removeAndHide(<mod_lavacow:netherstew>);
+JEI.removeAndHide(<mod_lavacow:canepork>);
+JEI.removeAndHide(<mod_lavacow:parasite_item_cooked>);
+JEI.removeAndHide(<mod_lavacow:mousse>);
+JEI.removeAndHide(<mod_lavacow:meatball>);
+JEI.removeAndHide(<mod_lavacow:moltenpan>);
 recipes.remove(<mod_lavacow:canebeef>);
 recipes.remove(<mod_lavacow:sausage_roll>);
 recipes.remove(<mod_lavacow:canerottenmeat>);
@@ -42,22 +43,22 @@ recipes.remove(<mod_lavacow:green_bacon_and_eggs>);
 recipes.removeByRecipeName("mod_lavacow:mushroomstew");
 
 //removed or modified weapons
-mods.jei.JEI.removeAndHide(<mod_lavacow:moltenaxe>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:moltenhammer>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:reapers_scythe>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:holy_grenade>);
+JEI.removeAndHide(<mod_lavacow:moltenaxe>);
+JEI.removeAndHide(<mod_lavacow:moltenhammer>);
+JEI.removeAndHide(<mod_lavacow:reapers_scythe>);
+JEI.removeAndHide(<mod_lavacow:holy_grenade>);
 recipes.remove(<mod_lavacow:war>);
 recipes.remove(<mod_lavacow:bonesword>);
 recipes.remove(<mod_lavacow:tooth_dagger>);
 
 //misc
-mods.jei.JEI.removeAndHide(<mod_lavacow:holy_sludge>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:potion_of_mooten_lava>);
-mods.jei.JEI.removeAndHide(<mod_lavacow:fissionpotion>);
+JEI.removeAndHide(<mod_lavacow:holy_sludge>);
+JEI.removeAndHide(<mod_lavacow:potion_of_mooten_lava>);
+JEI.removeAndHide(<mod_lavacow:fissionpotion>);
 recipes.remove(<mod_lavacow:halo_necklace>);
 recipes.remove(<mod_lavacow:dreamcatcher>);
 // THIS WOULD MAKE COOL ENDGAME LOOT OK I DON'T WANT TO JUST TRASH IT COMPLETELY
-mods.jei.JEI.removeAndHide(<mod_lavacow:goldenheart>);
+JEI.removeAndHide(<mod_lavacow:goldenheart>);
 
 //tweaked armor
 recipes.remove(<mod_lavacow:felarmor_helmet>);
@@ -105,7 +106,7 @@ recipes.addShaped("bonedagger", <mod_lavacow:tooth_dagger>,[
 ]);
 
 for item in oreMonsterTooth.items{
-	mods.betterwithmods.Anvil.addShaped(<mod_lavacow:bonesword>, [
+	Anvil.addShaped(<mod_lavacow:bonesword>, [
 		[null, null, item, <spartanfire:witherbone_handle>],
 		[null, item, <minecraft:bone>, item],
 		[item, <minecraft:bone>, item, null],

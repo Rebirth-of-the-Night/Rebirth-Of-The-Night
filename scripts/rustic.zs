@@ -3,6 +3,8 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.rustic.CrushingTub;
 import mods.rustic.Condenser;
+import mods.rustic.EvaporatingBasin;
+import mods.betterwithmods.MiniBlocks;
 
 JEI.removeAndHide(<rustic:lantern_wood>);
 
@@ -15,6 +17,7 @@ JEI.removeAndHide(<rustic:sapling>);
 JEI.removeAndHide(<rustic:tomato>);
 
 JEI.removeAndHide(<rustic:dust_tiny_iron>);
+EvaporatingBasin.removeRecipe(<rustic:dust_tiny_iron>);
 
 JEI.hide(<rustic:honey>); // Weird honey item that places fluid
 <ore:materialPressedwax>.add(<rustic:beeswax>);
@@ -30,15 +33,20 @@ furnace.setFuel(<rustic:beeswax>, 400);
 
 
 recipes.remove(<rustic:liquid_barrel>);
-recipes.addShaped("Liquid Barrel", <rustic:liquid_barrel>,[
+recipes.addShaped("liquid_barrel", <rustic:liquid_barrel>, [
 	[<ore:plankWood>, null, <ore:plankWood>],
     [<ore:genericMetal>, null, <ore:genericMetal>],
     [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
 ]);
 
+recipes.remove(<rustic:crop_stake>);
+recipes.addShaped("crop_stake", <rustic:crop_stake>, [
+    [MiniBlocks.getMiniBlock("moulding", <ore:plankWood>)],
+    [MiniBlocks.getMiniBlock("moulding", <ore:plankWood>)],
+    [MiniBlocks.getMiniBlock("moulding", <ore:plankWood>)]
+]);
 
-
-# Iron and Gold Lanterns
+// Iron and Gold Lanterns
 
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
@@ -72,7 +80,7 @@ recipes.addShaped("Silver Lantern", <rustic:silver_lantern>,[
 
 
 
-# Iron and Gold Candles
+// Iron and Gold Candles
 
 recipes.remove(<rustic:candle>);
 recipes.remove(<rustic:candle_gold>);
@@ -99,19 +107,19 @@ recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
 ]);
 
 
-# Grape seed compat (in case you want to grow rustic grapes using rope/crop stakes)
+// Grape seed compat (in case you want to grow rustic grapes using rope/crop stakes)
 
-# recipes.addShapeless("grape_seed_compat", <rustic:grape_stem>, [<harvestcraft:grapeseeditem>]);
+// recipes.addShapeless("grape_seed_compat", <rustic:grape_stem>, [<harvestcraft:grapeseeditem>]);
 
-# Crushing tub recipes
+// Crushing tub recipes
 CrushingTub.addRecipe(<liquid:honey> * 250, null, <biomesoplenty:hive:3> * 1);
 CrushingTub.addRecipe(<liquid:grapejuice> * 250, null, <harvestcraft:grapeitem> * 1);
 
-# Misc
+// Misc
 furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);
 
 
-# fixed unbrewable potion recipes
+// fixed unbrewable potion recipes
 val regenerationElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]});
 val regenerationElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 1800, Amplifier: 0}]});
 val regenerationElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 450, Amplifier: 1}]});
@@ -171,46 +179,58 @@ Condenser.addRecipe(nightvisionExtendedElixir, [wheatmat, glowjelly, radiantdust
 Condenser.addRecipe(nightvisionObsceneExtendedElixir, [wheatmat, glowjelly, radiantdust], <twilightforest:moonworm>);
 
 // Rework rustic furniture to use BWM miniblocks
+var furnitureWood as IIngredient[string] = {
+    "oak" : <minecraft:planks:0>,
+    "big_oak" : <minecraft:planks:5>,
+    "birch" : <minecraft:planks:2>,
+    "spruce" : <minecraft:planks:1>,
+    "acacia" : <minecraft:planks:4>,
+    "jungle" : <minecraft:planks:3>,
+    "olive" : <rustic:planks:0>,
+    "ironwood" : <rustic:planks:1>
+} as IIngredient[string];
 
-var furnitureMap = {
-    [<rustic:chair_oak>, <rustic:table_oak>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}})],
-    [<rustic:chair_big_oak>, <rustic:table_big_oak>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}})],
-    [<rustic:chair_birch>, <rustic:table_birch>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}})],
-    [<rustic:chair_spruce>, <rustic:table_spruce>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}})],
-    [<rustic:chair_acacia>, <rustic:table_acacia>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}})],
-    [<rustic:chair_jungle>, <rustic:table_jungle>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}})],
-    [<rustic:chair_olive>, <rustic:table_olive>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "olive"}, Name: "rustic:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "olive"}, Name: "rustic:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "olive"}, Name: "rustic:planks"}})],
-    [<rustic:chair_ironwood>, <rustic:table_ironwood>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "ironwood"}, Name: "rustic:planks"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "ironwood"}, Name: "rustic:planks"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "ironwood"}, Name: "rustic:planks"}})],
-    [<rusticbopwoods:chair_sacred_oak>, <rusticbopwoods:table_sacred_oak>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "sacred_oak"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "sacred_oak"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "sacred_oak"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_cherry>, <rusticbopwoods:table_cherry>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "cherry"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "cherry"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "cherry"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_umbran>, <rusticbopwoods:table_umbran>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "umbran"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "umbran"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "umbran"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_fir>, <rusticbopwoods:table_fir>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "fir"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "fir"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "fir"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_ethereal>, <rusticbopwoods:table_ethereal>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "ethereal"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "ethereal"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "ethereal"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_magic>, <rusticbopwoods:table_magic>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "magic"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "magic"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "magic"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_mangrove>, <rusticbopwoods:table_mangrove>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "mangrove"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "mangrove"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "mangrove"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_palm>, <rusticbopwoods:table_palm>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "palm"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "palm"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "palm"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_redwood>, <rusticbopwoods:table_redwood>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "redwood"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "redwood"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "redwood"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_willow>, <rusticbopwoods:table_willow>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "willow"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "willow"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "willow"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_pine>, <rusticbopwoods:table_pine>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "pine"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "pine"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "pine"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_hellbark>, <rusticbopwoods:table_hellbark>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "hellbark"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "hellbark"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "hellbark"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_jacaranda>, <rusticbopwoods:table_jacaranda>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "jacaranda"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jacaranda"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "jacaranda"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_mahogany>, <rusticbopwoods:table_mahogany>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "mahogany"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "mahogany"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "mahogany"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_ebony>, <rusticbopwoods:table_ebony>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "ebony"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "ebony"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "ebony"}, Name: "biomesoplenty:planks_0"}})],
-    [<rusticbopwoods:chair_eucalyptus>, <rusticbopwoods:table_eucalyptus>] : [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "eucalyptus"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "eucalyptus"}, Name: "biomesoplenty:planks_0"}}), <betterwithmods:corner_wood>.withTag({texture: {Properties: {variant: "eucalyptus"}, Name: "biomesoplenty:planks_0"}})]
-} as IItemStack[][IItemStack[]];
+var bopFurnitureWood as IIngredient[string] = {
+    "sacred_oak" : <biomesoplenty:planks_0:0>,
+    "cherry" : <biomesoplenty:planks_0:1>,
+    "umbran" : <biomesoplenty:planks_0:2>,
+    "fir" : <biomesoplenty:planks_0:3>,
+    "ethereal" : <biomesoplenty:planks_0:4>,
+    "magic" : <biomesoplenty:planks_0:5>,
+    "mangrove" : <biomesoplenty:planks_0:6>,
+    "palm" : <biomesoplenty:planks_0:7>,
+    "redwood" : <biomesoplenty:planks_0:8>,
+    "willow" : <biomesoplenty:planks_0:9>,
+    "pine" : <biomesoplenty:planks_0:10>,
+    "hellbark" : <biomesoplenty:planks_0:11>,
+    "jacaranda" : <biomesoplenty:planks_0:12>,
+    "mahogany" : <biomesoplenty:planks_0:13>,
+    "ebony" : <biomesoplenty:planks_0:14>,
+    "eucalyptus" : <biomesoplenty:planks_0:15>
+} as IIngredient[string];
 
+var furnitureMap = { } as IIngredient[][IItemStack[]];
+for wood, item in furnitureWood {
+    furnitureMap[[itemUtils.getItem("rustic:chair_"~wood), itemUtils.getItem("rustic:table_"~wood)] as IItemStack[]] = [MiniBlocks.getMiniBlock("siding", item), MiniBlocks.getMiniBlock("moulding", item), MiniBlocks.getMiniBlock("corner", item)] as IIngredient[];
+}
+for wood, item in bopFurnitureWood {
+    furnitureMap[[itemUtils.getItem("rusticbopwoods:chair_"~wood), itemUtils.getItem("rusticbopwoods:table_"~wood)] as IItemStack[]] = [MiniBlocks.getMiniBlock("siding", item), MiniBlocks.getMiniBlock("moulding", item), MiniBlocks.getMiniBlock("corner", item)] as IIngredient[];
+}
+
+var count as int = 0 as int;
 for furnitureList, materialList in furnitureMap{
     recipes.remove(furnitureList[0]);
-    recipes.addShaped(furnitureList[0],[
+    recipes.addShapedMirrored("rustic_chair_"~count, furnitureList[0],[
         [materialList[1], null, null],
         [materialList[0], materialList[0], materialList[0]],
         [materialList[2], null, materialList[2]]
     ]);
 
     recipes.remove(furnitureList[1]);
-    recipes.addShaped(furnitureList[1],[
+    recipes.addShaped("rustic_table_"~count, furnitureList[1],[
         [materialList[0], materialList[0], materialList[0]],
         [materialList[2], null, materialList[2]],
         [materialList[2], null, materialList[2]]
     ]);
+    count += 1;
 }

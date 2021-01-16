@@ -4,7 +4,18 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-mods.jei.JEI.removeAndHide(<betternether:netherrack_furnace>);
+JEI.removeAndHide(<betternether:netherrack_furnace>);
+JEI.removeAndHide(<betternether:block_eyeball_small>);
+JEI.removeAndHide(<betternether:block_eyeball>);
+JEI.removeAndHide(<betternether:eye_seed>);
+<ore:eyeball>.remove(<betternether:eye_seed>);
+JEI.removeAndHide(<betternether:bone_mushroom>);
+JEI.removeAndHide(<betternether:wart_seed>);
+JEI.removeAndHide(<betternether:egg_plant>);
+
+furnace.setFuel(<betternether:wart_seed>, 0);
+furnace.setFuel(<betternether:block_eyeball>, 0);
+furnace.setFuel(<betternether:block_eyeball_small>, 0);
 
 recipes.removeByRecipeName("betternether:stalagnate_workbench");
 recipes.removeByRecipeName("betternether:stalagnate_stick");

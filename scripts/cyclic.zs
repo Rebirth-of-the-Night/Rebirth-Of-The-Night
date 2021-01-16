@@ -83,6 +83,7 @@ recipes.remove(<cyclicmagic:horse_upgrade_health>);
 recipes.remove(<cyclicmagic:horse_upgrade_speed>);
 recipes.remove(<cyclicmagic:horse_upgrade_jump>);
 recipes.remove(<cyclicmagic:moon_sensor>);
+recipes.remove(<cyclicmagic:button_large>);
 recipes.removeByRecipeName("cyclicmagic:item.carbon_paper_1_2");
 // apple recipes on betterwithmods.zs
 
@@ -122,6 +123,9 @@ var obsi_shear = <cyclicmagic:shears_obsidian>;
 var ore_locator = <cyclicmagic:tool_prospector>;
 var blazerod = <minecraft:blaze_rod>;
 var st_conveyor = <cyclicmagic:plate_push_slowest>;
+var masonry_brick = <pyrotech:material:16>;
+var button_wood = <ore:buttonWood>;
+var white_metal_nugget = <ore:nuggetIron> | <ore:nuggetSilver> | <ore:nuggetTin>;
 
 Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
@@ -148,19 +152,25 @@ RecipeBuilder.get("mage")
   .addOutput(<cyclicmagic:wand_missile>)
   .create();
 
-recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>,[
+recipes.addShaped("cyclic_large_button", <cyclicmagic:button_large>, [
+    [masonry_brick, white_metal_nugget, masonry_brick],
+    [white_metal_nugget, button_wood, white_metal_nugget],
+    [masonry_brick, white_metal_nugget, masonry_brick]
+]);
+
+recipes.addShaped("climbing_gloves", <cyclicmagic:glove_climb>, [
 	[vnugg, vnugg, tanned],
     [vnugg, glue, tanned],
     [tanned, tanned, duracloth]
 ]);
 
-recipes.addShaped("immersive_carbon_paper", carpaper*6,[
+recipes.addShaped("immersive_carbon_paper", carpaper*6, [
 	[paper, paper, paper],
     [wax, carbond, wax],
     [paper, paper, paper]
 ]);
 
-recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>,[
+recipes.addShaped("immersive_prospector", <cyclicmagic:tool_spelunker>, [
 	[carpaper, <minecraft:stone_pickaxe>],
     [<minecraft:writable_book>, <artisanworktables:artisans_lens_gold>, <antiqueatlas:empty_antique_atlas>]
 ]);

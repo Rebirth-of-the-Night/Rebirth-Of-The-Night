@@ -2,6 +2,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
+JEI.removeAndHide(<mcwbridges:iron_rod>);
+
 //Removed iron recipes
 recipes.remove(<mcwbridges:iron_rod>);
 recipes.remove(<mcwbridges:iron_armrest>);
