@@ -263,6 +263,7 @@ events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDrop
 				print("Replacing wither skull block drop");
 			}
 		}
+		event.drops = drops;
 	}*/
 });
 
