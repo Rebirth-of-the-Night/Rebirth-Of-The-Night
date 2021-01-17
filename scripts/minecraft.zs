@@ -11,6 +11,8 @@ import mods.ltt.LootTable;
 // brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 // brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
+<minecraft:mushroom_stew>.maxStackSize = 4;
+
 recipes.remove(<minecraft:mushroom_stew>);
 JEI.removeAndHide(<minecraft:knowledge_book>);
 JEI.removeAndHide(<gbook_snapshot:guidebook>);
