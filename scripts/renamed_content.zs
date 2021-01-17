@@ -333,9 +333,7 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 <iceandfire:myrmex_desert_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
 <iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
-<msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
 <msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
-<msmlegacy:draconic_blade>.displayName = "§2Drakeish Blade";
 <msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
 <pyrotech:redstone_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 
@@ -358,7 +356,6 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 <endreborn:tool_magnifier>.addTooltip(format.darkPurple("Epic Weapon"));
 
-<msmlegacy:aethers_guard>.displayName = "§5Sky Blade";
 <msmlegacy:aethers_guard>.addTooltip(format.darkPurple("Epic Weapon"));
 
 <simpleores:mythril_bow>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -395,11 +392,9 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 
 // Legendary
 
-<msmlegacy:wither_bane>.displayName = "§6Dark's Edge";
 <msmlegacy:wither_bane>.addTooltip(format.gold("Legendary Weapon"));
 <msmlegacy:wither_bane>.addTooltip("Darkness consumes the fallen.");
 
-<msmlegacy:crystaline_blade>.displayName = "§6Light's Edge";
 <msmlegacy:crystaline_blade>.addTooltip(format.gold("Legendary Weapon"));
 <msmlegacy:crystaline_blade>.addTooltip("Light purifies all.");
 
@@ -443,7 +438,6 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 
 //  Godly
 
-<msmlegacy:dawn_star>.displayName = "§cTrue Light's Edge";
 <msmlegacy:dawn_star>.addTooltip(format.red("Godly Weapon"));
 <msmlegacy:dawn_star>.addTooltip("I am truth. I am majesty. I am justice.");
 
@@ -454,36 +448,19 @@ JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's Edge is a
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
 <betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
 
-
-<msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
 <msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
 
-
-
-
-<msmlegacy:glacial_blade>.displayName = "§cDragon's Bane";
 <msmlegacy:glacial_blade>.addTooltip(format.red("Godly Weapon"));
 
 
 <mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman";
 <mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Artifact"));
 
-<msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
-
 <msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
 
-
-
 <msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
-
-
 
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
 <msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may wield this weapon.");
 
-
-
-//  Relics
-<msmlegacy:relic_aqueous>.displayName = "§4Red Hot Chili Pepper Sword";
-<msmlegacy:relic_candy>.displayName = "§4Burning Super Death Sword";
 

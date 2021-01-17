@@ -1,9 +1,40 @@
-# Relic Names
-item.msmlegacy.relic.aqueous.name=Red Hot Chili Pepper Sword
-jei.item.msmlegacy.relic.aqueous=Take it on the Other Side.
+# Misc
+itemGroup.msmlegacy=More Swords: Legacy
+msmlegacy.relic.count=Relic %d of %d.
 
-item.msmlegacy.relic.candy.name=Burning Super Death Sword
-jei.item.msmlegacy.relic.candy=You'll have a grand ol' time with this sword.
+# Item Names
+item.msmlegacy.dawn.star.name=§cTrue Light's Edge
+item.msmlegacy.vampiric.blade.name=§2Vampiric Sword
+item.msmlegacy.gladiolus.name=§2Gladiolus
+item.msmlegacy.draconic.blade.name=§2Drakeish Blade
+item.msmlegacy.eye.end.blade.name=§cInterdimensional Blade
+item.msmlegacy.crystaline.blade.name=§6Light's Edge
+item.msmlegacy.glacial.blade.name=§cDragon's Bane
+item.msmlegacy.aethers.guard.name=§5Sky Blade
+item.msmlegacy.wither.bane.name=§6Dark's Edge
+item.msmlegacy.adminium.ark.name=§4Ender of Worlds
+
+# Enchantment Names
+enchantment.msmlegacy.ignite=Ignite
+enchantment.msmlegacy.sparks=Sparks
+enchantment.msmlegacy.feast=Feast
+enchantment.msmlegacy.vitality=Vitality
+enchantment.msmlegacy.venomous_aspect=Venomous Aspect
+enchantment.msmlegacy.absorb=Absorb
+enchantment.msmlegacy.keen_edge=Keen Edge
+enchantment.msmlegacy.scorn=Scorn
+enchantment.msmlegacy.ender_pulse=Ender Pulse
+enchantment.msmlegacy.ender_aura=Ender Aura
+enchantment.msmlegacy.greed=Greed
+enchantment.msmlegacy.wisdom=Wisdom
+enchantment.msmlegacy.frozen_aspect=Frozen Aspect
+enchantment.msmlegacy.frost_wave=Frost Wave
+enchantment.msmlegacy.ascension=Ascension
+enchantment.msmlegacy.descension=Descension
+enchantment.msmlegacy.decay=Decay
+enchantment.msmlegacy.consuming_shadows=Consuming Shadows
+enchantment.msmlegacy.stealth=Stealth
+enchantment.msmlegacy.extinction=Extinction
 
 # Enchantment Descriptions
 enchantment.msmlegacy.ignite.desc=Attacks will deal additional fire damage. (only applicable on the True Light's Edge)
@@ -27,8 +58,8 @@ enchantment.msmlegacy.consuming_shadows.desc=Attacks will inflict nearby enemies
 enchantment.msmlegacy.stealth.desc=Right clicking will make you invisible. Right click again to disable. (only applicable on the Ender of Worlds)
 enchantment.msmlegacy.extinction.desc=Attacking a mob will cause all mobs of that type in the world to die. (only applicable on the Ender of Worlds)
 
-
 # JEI Descriptions
+jei.item.msmlegacy.dawn.star=The True's Light's Edge is a living blade infused with the eternal power of the heavens, which grants it nearly unlimited uses. Although death will damage the weapon as it accompanies its wielder reborn into a new body, a single Light Essence will easily repair this holy weapon. The True Light's Edge will never be satisfied until all it deems as inferior are purged.
 jei.item.msmlegacy.vampiric.blade=A blade with a taste for blood. Unique enchantments are Feast and Vitality.
 jei.item.msmlegacy.gladiolus=A blade embued with the force of nature. Unique enchantments are Venomous Aspect and Absorb.
 jei.item.msmlegacy.draconic.blade=A blade forged with the arcane energy of the elements. Unique enchantments are Keen Edge and Scorn.
@@ -38,4 +69,21 @@ jei.item.msmlegacy.glacial.blade=None match the power of the most fearsome beast
 jei.item.msmlegacy.aethers.guard=A blade that commands the wind and skies. Unique enchantments are Ascension and Descension.
 jei.item.msmlegacy.wither.bane=The energy from the Dark's Edge derives from darkness, although it has the potential to obtain true power from the fallen...
 jei.item.msmlegacy.adminium.ark=Rumored to be wielded by the Creator of all things, this weapon can wipe out an entire species with one swing. Although, the blade alone can not accomplish that power. It must be accompanied with an enchantment.
-jei.item.msmlegacy.dawn.star=The True's Light's Edge is a living blade infused with the eternal power of the heavens, which grants it nearly unlimited uses. Although death will damage the weapon as it accompanies its wielder reborn into a new body, a single Light Essence will easily repair this holy weapon. The True Light's Edge will never be satisfied until all it deems as inferior are purged.
+
+# Relic Names
+item.msmlegacy.relic.aqueous.name=§4Red Hot Chili Pepper Sword
+item.msmlegacy.relic.candy.name=§4Burning Super Death Sword
+item.msmlegacy.relic.infinity.name=Infinity Blade
+item.msmlegacy.relic.keyblade.name=Keyblade
+item.msmlegacy.relic.master.name=Master Sword
+item.msmlegacy.relic.molten.name=Molten Blade
+item.msmlegacy.relic.pie.name=Pieblade
+
+# Relic Descriptions
+jei.item.msmlegacy.relic.aqueous=Take it on the Other Side.
+jei.item.msmlegacy.relic.candy=You'll have a grand ol' time with this sword.
+jei.item.msmlegacy.relic.infinity=A sword based on a game with the same name.
+jei.item.msmlegacy.relic.keyblade=A blade based on the Kingdom Heart's keyblade. It's made with Lapis Lazuli.
+jei.item.msmlegacy.relic.master=A sword based on the Master Sword from the Legend of Zelda series.
+jei.item.msmlegacy.relic.molten=A sword based on lava. It was later replaced by the Dawn Star.
+jei.item.msmlegacy.relic.pie=A blade that was part of a long forgtten holiday event.
