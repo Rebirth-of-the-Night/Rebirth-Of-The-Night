@@ -19,7 +19,7 @@ for i in removeArray{
     Saw.remove(i);
 }
 
-Saw.add(<betterwithmods:blood_log>,[<betterwithmods:bark:6>*5,<pyrotech:rock:7>*2]);
+// Saw.add(<betterwithmods:blood_log>,[<betterwithmods:bark:6>*5,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:log:0>,[<minecraft:planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:log:1>,[<minecraft:planks:1>*5,<hitwithaxe:bark:20>*3,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:log:2>,[<minecraft:planks:2>*5,<hitwithaxe:bark:2>*8,<pyrotech:rock:7>*2]);

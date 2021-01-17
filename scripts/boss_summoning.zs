@@ -21,7 +21,7 @@ recipes.remove(<from_the_depths:block_altar_of_summoning>);
 RecipeBuilder.get("mage")
   .setShaped([
 	[<betterwithmods:candle:14>, <contenttweaker:shard_of_night>, <betterwithmods:candle:14>],
-	[<endreborn:item_shard_obsidian>, <ore:Stone>, <endreborn:item_shard_obsidian>], 
+	[<endreborn:item_shard_obsidian>, <ore:stone>, <endreborn:item_shard_obsidian>], 
 	[<betterwithmods:material:17>, <betterwithmods:material:17>, <betterwithmods:material:17>]])
   .addTool(<contenttweaker:creation_rune>, 1)
   .addTool(<contenttweaker:trans_rune>, 1)

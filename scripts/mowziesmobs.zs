@@ -34,8 +34,8 @@ JEI.addDescription(<mowziesmobs:spear>,"Carefully carved along the handle is an 
 
 recipes.addShaped("Mask of Fear", <mowziesmobs:barakoa_mask_fear>,[
 	[<ore:feather>, <ore:feather>, <ore:feather>],
-	[<quark:soul_bead>, <betterwithmods:bark:4>, <quark:soul_bead>],
-	[<betterwithmods:bark:4>, <arcanearchives:devouring_charm>, <betterwithmods:bark:4>]
+	[<quark:soul_bead>, <hitwithaxe:bark:0>, <quark:soul_bead>],
+	[<hitwithaxe:bark:0>, <arcanearchives:devouring_charm>, <hitwithaxe:bark:0>]
 ]);
 
 // Lantern / Puffbulb Night Vision Rework

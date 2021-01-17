@@ -1,4 +1,10 @@
 import mods.hitwithaxe.Chopping;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+for i in 0 to 7 {
+	<ore:barkWood>.remove(<betterwithmods:bark>.definition.makeStack(i));
+}
 
 //Oak
 recipes.removeByRecipeName("minecraft:oak_planks");
