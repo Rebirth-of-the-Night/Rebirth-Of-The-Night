@@ -608,7 +608,6 @@ tile.bed.tooRestless=You are too restless to sleep
 
 tooltip.bwm_book.name=The Book of Single
 
-
 bwm.manual.message=You have been given a Better With Mods Manual. This mod might be different than what you are expecting. Please read the Crash Course section.
 bwm.manual.warning.missing.block=Image is missing: %s
 

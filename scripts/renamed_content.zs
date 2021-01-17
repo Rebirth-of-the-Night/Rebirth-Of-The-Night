@@ -3,30 +3,11 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-// Ambience
-<ambience:ocarina>.displayName = "Flute";
-<ambience:ocarina>.addTooltip("Specific songs that are played on this flute empowers those playing");
-<ambience:ocarina>.removeTooltip("A Ocarina that was left forgoten on this world by a man in green clothes.");
-
-<ambience:horn>.addTooltip("Causes fear in the hearts of enemies and encourges allies in the battlefield");
-<ambience:horn>.removeTooltip("very powerful item");
-
-// Butterflies
-<butterflies:butterfly_case>.displayName = "Butterfly Display Case";
-
 // Progression and CoT
 <contenttweaker:spawn_scroll>.addTooltip("One time use. Right-click to set your spawn point to where you are standing.");
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
 
-<multiblockmobs:soul_chassis>.displayName = "Soulfire Chassis";
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
-
-// Advanced Lifting Methods
-<advancedliftingmethods:ultimate_ender_elevator>.displayName = "Ender Elevator";
-
-// Atlas
-<antiqueatlas:empty_antique_atlas>.displayName = "Empty Atlas";
-<antiqueatlas:antique_atlas>.displayName = "Atlas";
 
 //Biomes o Plenty
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
@@ -39,7 +20,6 @@ import mods.jei.JEI;
 <solcarrot:food_book>.addTooltip(format.aqua("Guidebook"));
 <solcarrot:food_book>.addTooltip("Max health improvement via food information");
 
-<animania:animania_manual>.displayName = "§bAnimania Manual";
 <animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
 <animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
 
@@ -93,10 +73,6 @@ import mods.jei.JEI;
 <twilightforest:boss_spawner:9>.displayName = "Final Boss Spawner";
 <twilightforest:raw_venison>.displayName = "Raw Prime Venison"; 
 <twilightforest:cooked_venison>.displayName = "Roast Prime Venison"; 
-
-// Dimstack
-<dimstack:portal>.displayName = "Arcane Barrier";
-<dimstack:bedrock>.displayName = "Arcane Barrier";
 
 // Quark
 <quark:chain>.addTooltip("Can be used to link minecarts or boats");
@@ -198,11 +174,6 @@ import mods.jei.JEI;
 <netherex:smooth_basalt_fence_gate>.displayName = "Smooth Black Basalt Fence Gate";
 <netherex:basalt_brick_fence_gate>.displayName = "Black Basalt Brick Fence Gate";
 <netherex:basalt_pillar_fence_gate>.displayName = "Black Basalt Pillar Fence Gate";
-
-// Animania
-<animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
-<animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
-<animania:salt>.displayName = "Crystal Salt";
 
 // Bountiful Baubles
 <bountifulbaubles:potionrecall>.displayName = "Return Potion";
