@@ -10,27 +10,16 @@ recipes.remove(<rats:marbled_cheese_grass>);
 recipes.addShapeless("marbled_cheese_grass",<rats:marbled_cheese_grass>,[<rats:marbled_cheese>,<ore:grass>]);
 
 // renamed
-<rats:tiny_coin>.displayName = "§aInsignia of the Giant Rat";
-<rats:vial_of_sentience>.displayName = "§cGod-Essence";
-<rats:ratlantean_flame>.displayName = "Soulfire";
-<rats:psionic_rat_brain>.displayName = "§cAscendant Brain";
-<rats:feral_bagh_nakhs>.displayName = "Feral Bagh Nakh";
-
-<rats:confit_byaldi>.displayName = "§cConfit Byaldi";
-<rats:black_death_mask>.displayName = "§5Black Death Mask";
 <rats:black_death_mask>.addTooltip(format.darkPurple("Epic Armor"));
-<rats:plague_scythe>.displayName = "§6Plague Scythe";
 <rats:plague_scythe>.addTooltip(format.gold("Legendary Weapon"));
 
 
 // tooltips
-<rats:plague_essence>.removeTooltip("Rare drop from Plague Rats");
-<rats:plague_essence>.addTooltip("§7Rare drop from plagued beasts and corrupted monsters");
 <rats:tiny_coin>.addTooltip("§7The Giant Rat makes all of the rules.");
 
-<rats:contaminated_food>.removeTooltip("Nourishing morsel");
-<rats:rat_fez>.removeTooltip("Definitely not throwing shade at another mod");
-<rats:vial_of_sentience>.removeTooltip("A serum that can, §lin theory§r§7, reverse the de-evolution of a Ratlantean.");
+<rats:contaminated_food>.removeTooltip("morsel");
+<rats:rat_fez>.removeTooltip("shade");
+<rats:vial_of_sentience>.removeTooltip("serum");
 
 ///////////////completely hidden upgrades. we can add some of these later
 //will never add these ones due to mod incompatibility or just not in spirit of the pack
@@ -210,7 +199,6 @@ val orecheese = <ore:foodCheese>;
 orecheese.remove(<rats:cheese>);
 recipes.removeByRecipeName("rats:block_of_cheese"); //Compacted in a compacting bin, pyrotech_other.zs
 
-<rats:cheese>.displayName = "Cheese Chunk";
 <rats:cheese>.addTooltip("For you, it's hardly worth the effort to eat. For a rat, it's a perfect treat!");
 recipes.addShapeless("cheeseChunk", <rats:cheese>*4, [<ore:foodCheese>]);
 

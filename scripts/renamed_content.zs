@@ -168,11 +168,6 @@ import mods.jei.JEI;
 <atop:amethyst_sword>.displayName = "§dConvergence";
 
 
-// EPlus
-<eplus:table_upgrade>.displayName = "Enchanting Table Upgrade";
-<eplus:advanced_table>.displayName = "§6True Enchanting Table";
-
-
 // Lavacow / Fishs Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 <mod_lavacow:green_bacon_and_eggs>.displayName = "Green Eggs and Bacon";
@@ -258,9 +253,6 @@ for potion in potionMap{
         arrowMap[arrow].withTag({"Potion" : potionMap[potion]} as IData).displayName = arrow ~ potion;
     }
 }
-
-// Rats
-<rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
 
 // Runes and Magic Items
 <bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));

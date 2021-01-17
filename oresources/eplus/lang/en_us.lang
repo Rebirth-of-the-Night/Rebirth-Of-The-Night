@@ -1,7 +1,7 @@
 #Enchanting Plus English Language File
 
 #Blocks
-tile.eplus.advanced.table.name=True Enchanting Table
+tile.eplus.advanced.table.name=§6True Enchanting Table
 tile.eplus.decorative.book.eplus.name=True Enchanting Book
 tile.eplus.decorative.book.vanilla.name=Enchanting Book
 tile.eplus.decorative.book.prismarine.name=Prismarine Book
@@ -11,7 +11,7 @@ tile.eplus.decorative.book.white.name=Pale Book
 tile.eplus.decorative.book.metal.name=Metal Book
 
 #Items
-item.eplus.table.upgrade.name=Table Upgrade
+item.eplus.table.upgrade.name=Enchanting Table Upgrade
 
 #Misc
 itemGroup.eplus=Enchanting Plus
@@ -89,6 +89,6 @@ enchantment.extrautils2.xu.boomereaperang=The boomerang will harvest crops.
 enchantment.randomthings.magnetic.desc=Moves mined items a bit closer to you.
 
 #JEI
-jei.eplus.advancedtable=Unlike the regular Enchanting Table, this table is fused with the power of mythril instead of lunar energy. You can use this table during the day and you can choose specific enchantments that you want. Treasure enchantments require a floor (9 blocks) of precious blocks (gold, iron, etc), and daylight. Curses can only be modified near midnight on nights with a full moon.
+jei.eplus.advancedtable=Unlike the regular Enchanting Table, this table is fused with the power of mythril instead of lunar energy. You can use this table during the day and you can choose specific enchantments that you want. Treasure enchantments require a floor (9 blocks) of precious blocks (gold, iron, etc.), and daylight. Curses can only be modified near midnight on nights with a full moon.
 jei.eplus.upgrade=Upgrades an existing enchanting table to the True Enchanting table, bolstered by the magic of mythril. Shift-right-click on an enchanting table to upgrade it.
 jei.eplus.decorative=True Enchanting Books output double the power of bookshelves for the True Enchanting Table. 15 of these surrounding a True Enchanting Table will give you the max discount of 30%. They can also interact with comparators under the right circumstances.
