@@ -21,6 +21,7 @@ val bwaArray = [
     <betterwithaddons:diamond_machete>,
     <betterwithaddons:diamond_carpentersaw>,
     <betterwithaddons:diamond_masonpick>,
+    <betterwithaddons:material:4>,
     <betterwithaddons:material:5>,
     <betterwithaddons:food_mushroom_baked>,
     <betterwithaddons:iron_kukri>,

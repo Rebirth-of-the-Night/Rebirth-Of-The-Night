@@ -56,6 +56,14 @@ gbars.add(<aesthetics:copper_bars>);
 gbars.add(<aesthetics:tin_bars>);
 gbars.add(<betterwithaddons:wrought_bars:0>);
 
+val gnugs = <ore:genericMetalNuggets>;
+gnugs.addAll(<ore:nuggetCopper>);
+gnugs.addAll(<ore:nuggetTin>);
+gnugs.addAll(<ore:nuggetIron>);
+gnugs.addAll(<ore:nuggetBronze>);
+gnugs.addAll(<ore:nuggetSilver>);
+gnugs.addAll(<ore:nuggetSteel>);
+
 val bars = <ore:bars>;
 bars.addAll(<ore:genericMetalBars>);
 bars.add(<aesthetics:mythril_bars>);
@@ -747,7 +755,7 @@ gemIngot.add(
 <ore:sand>.add(<minecraft:sand:1>);
 <ore:ingotCrucibleSteel>.add(<dungeontactics:steel_ingot>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
-<ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>]);
+<ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>,<futuremc:bamboo>]);
 <ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>]);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);

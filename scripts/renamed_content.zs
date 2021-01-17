@@ -210,18 +210,6 @@ import mods.jei.JEI;
 <netherex:basalt_brick_fence_gate>.displayName = "Black Basalt Brick Fence Gate";
 <netherex:basalt_pillar_fence_gate>.displayName = "Black Basalt Pillar Fence Gate";
 
-// Pyrotech
-<pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
-<pyrotech:iron_hammer>.displayName = "Iron Sledgehammer";
-<pyrotech:diamond_hammer>.displayName = "Refined Sledgehammer";
-<pyrotech:bone_hammer>.displayName = "§6Mythril Sledgehammer";
-<pyrotech:obsidian_hammer>.displayName = "§6Onyx Sledgehammer";
-<pyrotech:material:2>.displayName = "Dried Jute";
-<pyrotech:material>.displayName = "Big Pile of Ash Remains";
-<pyrotech:brick_kiln>.displayName = "Brick Kiln";
-<pyrotech:material:35>.displayName = "Lump of Refractory Material";
-<pyrotech:material:4>.displayName = "Refractory Material";
-
 // Animania
 <animania:raw_frog_legs>.displayName = "Raw Prime Frog Legs";
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
@@ -360,7 +348,6 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
 <msmlegacy:draconic_blade>.displayName = "§2Drakeish Blade";
 <msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
-<pyrotech:redstone_sword>.displayName = "§2Draconic Blade";
 <pyrotech:redstone_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 
 <mod_lavacow:famine>.displayName = "§2Blade of Devouring Greed";

@@ -20,15 +20,15 @@ recipes.remove(<pyrotech:mechanical_compacting_bin>);
 recipes.remove(<pyrotech:mechanical_mulch_spreader>);
 recipes.remove(<pyrotech:bellows>);
 recipes.remove(<pyrotech:rock:*>);
-recipes.remove(<pyrotech:sawmill_blade_stone>);
-recipes.remove(<pyrotech:sawmill_blade_flint>);
-recipes.remove(<pyrotech:sawmill_blade_bone>);
+JEI.removeAndHide(<pyrotech:sawmill_blade_stone>);
+JEI.removeAndHide(<pyrotech:sawmill_blade_flint>);
+JEI.removeandHide(<pyrotech:sawmill_blade_bone>);
 recipes.remove(<pyrotech:sawmill_blade_iron>);
-recipes.remove(<pyrotech:sawmill_blade_gold>);
-recipes.remove(<pyrotech:sawmill_blade_diamond>);
-recipes.remove(<pyrotech:sawmill_blade_obsidian>);
-recipes.remove(<pyrotech:cog_wood>);
-recipes.remove(<pyrotech:cog_stone>);
+JEI.removeAndHide(<pyrotech:sawmill_blade_gold>);
+JEI.removeAndHide(<pyrotech:sawmill_blade_diamond>);
+JEI.removeAndHide(<pyrotech:sawmill_blade_obsidian>);
+JEI.removeAndHide(<pyrotech:cog_wood>);
+JEI.removeAndHide(<pyrotech:cog_stone>);
 recipes.remove(<pyrotech:wood_tar_block>);
 recipes.remove(<pyrotech:living_tar>);
 recipes.remove(<pyrotech:mushroom_brown_roasted>);
@@ -67,22 +67,22 @@ recipes.remove(<pyrotech:rock_grass>);
 recipes.remove(<pyrotech:brick_kiln>);
 recipes.remove(<pyrotech:stone_kiln>);
 recipes.remove(<pyrotech:stone_crucible>);
-recipes.remove(<pyrotech:stone_sawmill>);
+JEI.removeAndHide(<pyrotech:stone_sawmill>);
 recipes.remove(<pyrotech:brick_crucible>);
-recipes.remove(<pyrotech:brick_sawmill>);
+JEI.removeAndHide(<pyrotech:brick_sawmill>);
 recipes.remove(<pyrotech:compacting_bin>);
 recipes.remove(<pyrotech:brick_oven>);
 recipes.remove(<pyrotech:drying_rack:1>);
-mods.jei.JEI.hideCategory("pyrotech.campfire");
-mods.jei.JEI.hideCategory("pyrotech.pit.kiln");
-mods.jei.JEI.hideCategory("pyrotech.worktable");
-mods.jei.JEI.hideCategory("pyrotech.stone.oven");
-mods.jei.JEI.hideCategory("pyrotech.stone.crucible");
-mods.jei.JEI.hideCategory("pyrotech.brick.mill");
-mods.jei.JEI.hideCategory("pyrotech.brick.oven");
-mods.jei.JEI.hideCategory("pyrotech.brick.crucible");
-mods.jei.JEI.hideCategory("pyrotech.chopping");
-mods.jei.JEI.hideCategory("pyrotech.stone.mill");
+JEI.hideCategory("pyrotech.campfire");
+JEI.hideCategory("pyrotech.pit.kiln");
+JEI.hideCategory("pyrotech.worktable");
+JEI.hideCategory("pyrotech.stone.oven");
+JEI.hideCategory("pyrotech.stone.crucible");
+JEI.hideCategory("pyrotech.brick.mill");
+JEI.hideCategory("pyrotech.brick.oven");
+JEI.hideCategory("pyrotech.brick.crucible");
+JEI.hideCategory("pyrotech.chopping");
+JEI.hideCategory("pyrotech.stone.mill");
 furnace.remove(<pyrotech:mushroom_red_roasted>);
 furnace.remove(<pyrotech:mushroom_brown_roasted>);
 furnace.remove(<pyrotech:apple_baked>);
@@ -130,11 +130,9 @@ recipes.addShaped("pyro_stone_kiln", <pyrotech:stone_kiln>,
 recipes.addShaped("pyro_stone_anvil", <pyrotech:anvil_granite>,
  [[<ore:stoneSlab>],
   [<ore:stone>]]);
-<pyrotech:anvil_granite>.displayName = "Multipurpose Stone Anvil";
 recipes.addShaped("pyro_steel_anvil", <pyrotech:anvil_iron_plated>,
  [[<ore:plateSoulforgedSteel>],
   [<pyrotech:anvil_granite>]]);
-<pyrotech:anvil_iron_plated>.displayName = "Refined Plating Anvil";
 recipes.addShaped("pyro_refractory_brick_kiln", <pyrotech:brick_kiln>,
  [[<pyrotech:material:5>,<pyrotech:material:5>,<pyrotech:material:5>],
   [<pyrotech:material:5>,<minecraft:furnace> | <pyrotech:stone_kiln>,<pyrotech:material:5>],
@@ -240,10 +238,10 @@ recipes.addShaped("quilting_sail", <betterwithmods:material:4>,
  [[<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>],
   [<minecraft:carpet:*>,<pyrotech:material:26>,<minecraft:carpet:*>],
   [<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>]]);
-recipes.addShaped("iron_sawblade", <pyrotech:sawmill_blade_iron>,
- [[<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>],
-  [<ore:ingotIron>,null,<ore:ingotIron>],
-  [<ore:nuggetIron>,<ore:ingotIron>,<ore:nuggetIron>]]);
+recipes.addShaped("metal_sawblade", <pyrotech:sawmill_blade_iron>,
+ [[<ore:genericMetalNugget>,<ore:genericMetal>,<ore:nuggenericMetalNuggetgetIron>],
+  [<ore:genericMetal>,null,<ore:genericMetal>],
+  [<ore:genericMetalNugget>,<ore:genericMetal>,<ore:genericMetalNugget>]]);
 recipes.addShaped("stonetar_collector", <pyrotech:tar_collector>,
  [[stoneBrick,null,stoneBrick],
   [stoneBrick,null,stoneBrick],

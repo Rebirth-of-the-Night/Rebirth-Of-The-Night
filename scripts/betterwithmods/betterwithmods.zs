@@ -30,6 +30,8 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
 
 JEI.removeAndHide(<betterwithmods:bark:*>);
+JEI.removeAndHide(<betterwithmods:nether_growth>);
+JEI.removeAndHide(<betterwithmods:steel_saw>);
 
 JEI.removeAndHide(<betterwithmods:leather_tanned_boots>);
 JEI.removeAndHide(<betterwithmods:leather_tanned_chest>);

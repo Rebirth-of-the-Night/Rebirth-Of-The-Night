@@ -266,7 +266,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-  RecipeBuilder.get("mage")
+RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>],
