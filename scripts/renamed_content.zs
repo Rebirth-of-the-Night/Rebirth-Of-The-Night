@@ -101,12 +101,6 @@ import mods.jei.JEI;
 // Quark
 <quark:chain>.addTooltip("Can be used to link minecarts or boats");
 
-// Ice And Fire
-<iceandfire:chain>.displayName = "Refined Chain";
-<iceandfire:ash>.displayName = "Fiery Ash";
-<iceandfire:podium:0>.displayName = "Wooden Podium";
-<iceandfire:stymphalian_bird_dagger>.displayName = "Stymphalian Knife";
-
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
 <cyclicmagic:horse_upgrade_variant>.displayName = "Variable Haw";
@@ -338,11 +332,7 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <spartanshields:shield_basic_diamond>.displayName = "§2Gem Forged Shield";
 <spartanshields:shield_basic_diamond>.addTooltip(format.darkGreen("Rare Shield"));
 
-
-
-<iceandfire:myrmex_desert_sword_venom>.displayName = "§2Desert Myrmex Stinger Sword";
 <iceandfire:myrmex_desert_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
-<iceandfire:myrmex_jungle_sword_venom>.displayName = "§2Jungle Myrmex Stinger Sword";
 <iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
 <msmlegacy:vampiric_blade>.displayName = "§2Vampiric Sword";
 <msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
@@ -417,9 +407,6 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <simpleores:mythril_boots>.displayName = "§5Mythril Boots";
 <simpleores:mythril_ingot>.displayName = "§5Mythril Ingot";
 
-
-
-<iceandfire:dragonbone_sword>.displayName = "§5Dragonbone Sword";
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:wrought_axe:*>.displayName = "§5Wrought Axe";
 <mowziesmobs:wrought_axe:*>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -427,9 +414,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
 <mowziesmobs:ice_crystal>.addTooltip(format.darkPurple("Epic Weapon"));
-<iceandfire:myrmex_desert_staff>.displayName = "§5Desert Myrmex Staff";
 <iceandfire:myrmex_desert_staff>.addTooltip(format.darkPurple("Epic Weapon"));
-<iceandfire:myrmex_jungle_staff>.displayName = "§5Jungle Myrmex Staff";
 <iceandfire:myrmex_jungle_staff>.addTooltip(format.darkPurple("Epic Weapon"));
 
 // Legendary
@@ -476,72 +461,16 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
 <endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
 
-<iceandfire:dragonsteel_ice_sword>.displayName = "§6Ice Dragonsteel Sword";
+<iceandfire:dragonsteel_fire_sword>.addTooltip(format.gold("Legendary Weapon"));
 <iceandfire:dragonsteel_ice_sword>.addTooltip(format.gold("Legendary Weapon"));
-
-<iceandfire:dragonsteel_ice_pickaxe>.displayName = "§6Ice Dragonsteel Pickaxe";
-
-<iceandfire:dragonsteel_ice_axe>.displayName = "§6Ice Dragonsteel Axe";
-
-<iceandfire:dragonsteel_ice_shovel>.displayName = "§6Ice Dragonsteel Shovel";
-
-<iceandfire:dragonsteel_ice_hoe>.displayName = "§6Ice Dragonsteel Hoe";
-
-<iceandfire:dragonsteel_fire_sword>.displayName = "§6Fire Dragonsteel Sword";
-
-<iceandfire:dragonsteel_fire_pickaxe>.displayName = "§6Fire Dragonsteel Pickaxe";
-
-<iceandfire:dragonsteel_fire_axe>.displayName = "§6Fire Dragonsteel Axe";
-
-<iceandfire:dragonsteel_fire_shovel>.displayName = "§6Fire Dragonsteel Shovel";
-
-<iceandfire:dragonsteel_fire_hoe>.displayName = "§6Fire Dragonsteel Hoe";
-
-<iceandfire:dragonsteel_fire_chestplate>.displayName = "§6Fire Dragonsteel Chestplate";
 <iceandfire:dragonsteel_fire_chestplate>.addTooltip(format.gold("Legendary Armor"));
-
-<iceandfire:dragonsteel_fire_helmet>.displayName = "§6Fire Dragonsteel Helmet";
 <iceandfire:dragonsteel_fire_helmet>.addTooltip(format.gold("Legendary Armor"));
-
-<iceandfire:dragonsteel_fire_leggings>.displayName = "§6Fire Dragonsteel Leggings";
 <iceandfire:dragonsteel_fire_leggings>.addTooltip(format.gold("Legendary Armor"));
-
-<iceandfire:dragonsteel_fire_boots>.displayName = "§6Fire Dragonsteel Boots";
 <iceandfire:dragonsteel_fire_boots>.addTooltip(format.gold("Legendary Armor"));
-
-<iceandfire:dragonsteel_ice_chestplate>.displayName = "§6Ice Dragonsteel Chestplate";
 <iceandfire:dragonsteel_ice_chestplate>.addTooltip(format.gold("Legendary Armor"));
-
-<iceandfire:dragonsteel_ice_helmet>.displayName = "§6Ice Dragonsteel Helmet";
 <iceandfire:dragonsteel_ice_helmet>.addTooltip(format.gold("Legendary Armor"));
-
-<iceandfire:dragonsteel_ice_leggings>.displayName = "§6Ice Dragonsteel Leggings";
 <iceandfire:dragonsteel_ice_leggings>.addTooltip(format.gold("Legendary Armor"));
-
-<iceandfire:dragonsteel_ice_boots>.displayName = "§6Ice Dragonsteel Boots";
 <iceandfire:dragonsteel_ice_boots>.addTooltip(format.gold("Legendary Armor"));
-
-
-
-
-<iceandfire:gorgon_head>.displayName = "§6Gorgon Head";
-<iceandfire:dragonbone_sword_fire>.displayName = "§6Flamed Dragonbone Sword";
-<iceandfire:dragonbone_sword_ice>.displayName = "§6Iced Dragonbone Sword";
-<iceandfire:hippogryph_sword>.displayName = "§6Hippogryph Talon Sword";
-<iceandfire:deathworm_gauntlet_yellow>.displayName = "§6Yellow Deathworm Gauntlet";
-<iceandfire:deathworm_gauntlet_white>.displayName = "§6White Deathworm Gauntlet";
-<iceandfire:deathworm_gauntlet_red>.displayName = "§6Red Deathworm Gauntlet";
-<iceandfire:cockatrice_scepter>.displayName = "§6Cockatrice Scepter";
-<iceandfire:pixie_wand>.displayName = "§6Pixie Wand";
-<iceandfire:siren_flute>.displayName = "§6Siren Flute";
-<iceandfire:hippocampus_slapper>.displayName = "§6Hippocampus Slapper";
-<iceandfire:cyclops_eye>.displayName = "§6Cyclops Eye";
-<iceandfire:stymphalian_bird_dagger>.displayName = "§6Stymphalian Bird Dagger";
-<iceandfire:stymphalian_feather_bundle>.displayName = "§6Stymphalian Feather Bundle";
-<iceandfire:myrmex_desert_swarm>.displayName = "§6Desert Myrmex Swarm";
-<iceandfire:myrmex_jungle_swarm>.displayName = "§6Jungle Myrmex Swarm";
-<iceandfire:tide_trident>.displayName = "§6Tide Trident";
-<iceandfire:amphithere_macuahuitl>.displayName = "§6Amphithere Macuahuitl";
 
 <mod_lavacow:piranhalauncher>.displayName = "§6Frenzy Launcher";
 <mod_lavacow:piranhalauncher>.addTooltip(format.gold("Legendary Weapon"));
