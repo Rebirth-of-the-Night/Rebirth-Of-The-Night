@@ -320,7 +320,6 @@ for potion in potionMap{
 <dungeontactics:coin_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
 <dungeontactics:backfire_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
 
-<simpleores:adamantium_sword>.displayName = "§2Viridium Sword";
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <spartancompat:saber_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
@@ -343,21 +342,10 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <mod_lavacow:famine>.displayName = "§2Blade of Devouring Greed";
 <mod_lavacow:famine>.addTooltip(format.darkGreen("Rare Weapon"));
 
-
-
-<simpleores:adamantium_pickaxe>.displayName = "§2Viridium Pickaxe";
-<simpleores:adamantium_shovel>.displayName = "§2Viridium Shovel";
-<simpleores:adamantium_hoe>.displayName = "§2Viridium Hoe";
-<simpleores:adamantium_axe>.displayName = "§2Viridium Axe";
-<simpleores:adamantium_chestplate>.displayName = "§2Viridium Chestplate";
 <simpleores:adamantium_chestplate>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_leggings>.displayName = "§2Viridium Leggings";
 <simpleores:adamantium_leggings>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_helmet>.displayName = "§2Viridium Helmet";
 <simpleores:adamantium_helmet>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_boots>.displayName = "§2Viridium Boots";
 <simpleores:adamantium_boots>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_ingot>.displayName = "§2Viridium Ingot";
 <simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Material"));
 
 
@@ -373,11 +361,8 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <msmlegacy:aethers_guard>.displayName = "§5Sky Blade";
 <msmlegacy:aethers_guard>.addTooltip(format.darkPurple("Epic Weapon"));
 
-<simpleores:mythril_bow>.displayName = "§5Mythril Bow";
 <simpleores:mythril_bow>.addTooltip(format.darkPurple("Epic Weapon"));
-<simpleores:mythril_sword>.displayName = "§5Mythril Sword";
 <simpleores:mythril_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<simpleores:mythril_pickaxe>.displayName = "§5Mythril Pickaxe";
 game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <spartancompat:rapier_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:longsword_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -397,15 +382,6 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <mod_lavacow:bonesword>.displayName = "§5Bonetooth Sword";
 <mod_lavacow:bonesword>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartanweaponry:crossbow_wood>.addTooltip(format.darkPurple("Epic Weapon"));
-
-<simpleores:mythril_shovel>.displayName = "§5Mythril Shovel";
-<simpleores:mythril_axe>.displayName = "§5Mythril Axe";
-<simpleores:mythril_hoe>.displayName = "§5Mythril Hoe";
-<simpleores:mythril_chestplate>.displayName = "§5Mythril Chestplate";
-<simpleores:mythril_leggings>.displayName = "§5Mythril Leggings";
-<simpleores:mythril_helmet>.displayName = "§5Mythril Helmet";
-<simpleores:mythril_boots>.displayName = "§5Mythril Boots";
-<simpleores:mythril_ingot>.displayName = "§5Mythril Ingot";
 
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:wrought_axe:*>.displayName = "§5Wrought Axe";
@@ -427,9 +403,7 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <msmlegacy:crystaline_blade>.addTooltip(format.gold("Legendary Weapon"));
 <msmlegacy:crystaline_blade>.addTooltip("Light purifies all.");
 
-<simpleores:onyx_sword>.displayName = "§6Onyx Sword";
 <simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
-<simpleores:onyx_pickaxe>.displayName = "§6Onyx Pickaxe";
 game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <spartancompat:halberd_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:greatsword_onyx>.addTooltip(format.gold("Legendary Weapon"));
@@ -439,19 +413,10 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <spartancompat:hammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:throwing_axe_onyx>.addTooltip(format.gold("Legendary Weapon"));
 
-
-<simpleores:onyx_shovel>.displayName = "§6Onyx Shovel";
-<simpleores:onyx_hoe>.displayName = "§6Onyx Hoe";
-<simpleores:onyx_axe>.displayName = "§6Onyx Axe";
-<simpleores:onyx_chestplate>.displayName = "§6Onyx Chestplate";
 <simpleores:onyx_chestplate>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_leggings>.displayName = "§6Onyx Leggings";
 <simpleores:onyx_leggings>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_helmet>.displayName = "§6Onyx Helmet";
 <simpleores:onyx_helmet>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_boots>.displayName = "§6Onyx Boots";
 <simpleores:onyx_boots>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_gem>.displayName = "§6Onyx";
 <simpleores:onyx_gem>.addTooltip(format.gold("Legendary Material"));
 <contenttweaker:phosphophyllite>.addTooltip(format.gold("Legendary Material"));
 <contenttweaker:phosphophyllite>.addTooltip("Extremely rare gem. Valuable to the Nether natives.");
