@@ -150,7 +150,7 @@ Anvil.addShaped(<spartanshields:shield_basic_lead>,
 ]);
 
 mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_lead>, <ore:ingotMythril>);
-JEI.addDescription([<spartanshields:shield_basic_lead>.withTag({RepairCost: 0, display: {Name: "Mythril Shield"}})],["It's on the edge of the abyss that this shield truly shines."]);
+JEI.addDescription(<spartanshields:shield_basic_lead>, "It's on the edge of the abyss that this shield truly shines.");
 
 //Gem forged shield
 val qualityGem = <ore:Gem_highQuality>;

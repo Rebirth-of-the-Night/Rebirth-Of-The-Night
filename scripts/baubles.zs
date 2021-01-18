@@ -138,17 +138,6 @@ JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 <spartanweaponry:quiver_bolt>.displayName = "§bLight Bolt Quiver";
 <spartanweaponry:quiver_bolt_moderate>.displayName = "§bModerate Bolt Quiver";
 <spartanweaponry:quiver_bolt_heavy>.displayName = "§bHeavy Bolt Quiver";
-<toolbelt:belt>.displayName = "§bTool Belt";
-<totemexpansion:totem_falling>.displayName = "§bTotem of Ascending";
-<totemexpansion:totem_lava>.displayName = "§bTotem of Smouldering";
-<totemexpansion:totem_breathing>.displayName = "§bTotem of Breathing";
-<totemexpansion:totem_explode>.displayName = "§bTotem of Defusing";
-<totemexpansion:totem_repair>.displayName = "§bTotem of Repairing";
-<totemexpansion:totem_spelunking>.displayName = "§bTotem of Spelunking";
-<totemexpansion:totem_recalling>.displayName = "§bTotem of Recalling";
-<defiledlands:phytoprostasia_amulet>.displayName = "§bPhytoprostasia Amulet";
-
-
 
 // Remove loot table for Bountiful Baubles
 LootTable.removeGlobalItem("bountifulbaubles:trinketluckyhorseshoe");

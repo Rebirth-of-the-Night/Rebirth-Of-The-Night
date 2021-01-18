@@ -35,7 +35,6 @@ import mods.jei.JEI;
 <rustic:book>.addTooltip("How to farm, brew elixirs, and decorate your home.");
 
 // removed these, leaving the following for now
-// <golems:info_book>.displayName = "§bTome of Golemancy";
 // <golems:info_book>.addTooltip(format.aqua("Guidebook"));
 // <golems:info_book>.addTooltip("Fantastic golems and how to build them.");
 
@@ -220,14 +219,12 @@ for potion in potionMap{
 <dungeontactics:backfire_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
 
 <simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
-game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 <spartancompat:saber_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:katana_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:staff_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:spear_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:dagger_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
 <spartancompat:throwing_knife_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartanshields:shield_basic_diamond>.displayName = "§2Gem Forged Shield";
 <spartanshields:shield_basic_diamond>.addTooltip(format.darkGreen("Rare Shield"));
 
 <iceandfire:myrmex_desert_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
@@ -259,7 +256,6 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 <simpleores:mythril_bow>.addTooltip(format.darkPurple("Epic Weapon"));
 <simpleores:mythril_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <spartancompat:rapier_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:longsword_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:glaive_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
@@ -267,7 +263,6 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <spartancompat:mace_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:boomerang_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartancompat:javelin_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartanshields:shield_basic_lead>.displayName = "§5Mythril Shield";
 <spartanshields:shield_basic_lead>.addTooltip(format.darkPurple("Epic Shield"));
 
 
@@ -298,7 +293,6 @@ game.setLocalization("material.spartanweaponry:mythril","§5Mythril");
 <msmlegacy:crystaline_blade>.addTooltip("Light purifies all.");
 
 <simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
-game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <spartancompat:halberd_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:greatsword_onyx>.addTooltip(format.gold("Legendary Weapon"));
 <spartancompat:warhammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
