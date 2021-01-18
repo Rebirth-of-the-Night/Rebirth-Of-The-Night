@@ -130,8 +130,6 @@ JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 <behgameon:accessory_7>.displayName = "§bAmulet";
 <behgameon:accessory_8>.displayName = "§bAmulet";
 <cyclicmagic:glove_climb>.displayName = "§bClimbing Gloves";
-<mod_lavacow:halo_necklace>.displayName = "§bRadiant Amulet";
-<mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";
 <spartanweaponry:quiver_arrow>.displayName = "§bLight Arrrow Quiver";
 <spartanweaponry:quiver_arrow_moderate>.displayName = "§bModerate Arrrow Quiver";
 <spartanweaponry:quiver_arrow_heavy>.displayName = "§bHeavy Arrrow Quiver";

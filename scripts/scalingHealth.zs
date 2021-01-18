@@ -38,7 +38,6 @@ recipes.addShaped("scalinghealth medkit 6", <scalinghealth:healingitem:1>,
 [<minecraft:string>, <ore:durableFiber>, <minecraft:string>]]);
 
 recipes.addShapeless(<mod_lavacow:cursed_bandage>*5, [<scalinghealth:healingitem:1>]);
-<mod_lavacow:cursed_bandage>.displayName = "Pet Bandage";
 
 recipes.remove(<mod_lavacow:cursed_bandage>);
 recipes.addShaped("pet_bandage", <mod_lavacow:cursed_bandage>*20, 

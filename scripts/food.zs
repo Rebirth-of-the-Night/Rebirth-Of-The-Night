@@ -26,6 +26,8 @@
 <rats:cheese>.foodValues.saturationModifier = 0;
 <mod_lavacow:canebeef>.foodValues.hunger = 20;
 <mod_lavacow:canebeef>.foodValues.saturationModifier = 0.4;
+<mod_lavacow:shattered_ice>.foodValues.hunger = 0;
+<mod_lavacow:shattered_ice>.foodValues.saturationModifier = 0;
 <animania:plain_omelette>.foodValues.hunger = 2;
 <animania:plain_omelette>.foodValues.saturationModifier = 0.2;
 <animania:cheese_omelette>.foodValues.hunger = 4;

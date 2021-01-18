@@ -97,7 +97,6 @@ JEI.addDescription(<mod_lavacow:canebeef>,"Ten percent greens,", "Twenty percent
 // JEI.hide(<mod_lavacow:canebeef>);
 
 <mod_lavacow:canebeef>.clearTooltip();
-<mod_lavacow:canebeef>.displayName = "§4The Sandwich Horror";
 <mod_lavacow:canebeef>.addTooltip(format.darkRed("The Sandwich Horror"));
 <mod_lavacow:canebeef>.addTooltip(format.darkBlue("Developer Relic 3/6"));
 

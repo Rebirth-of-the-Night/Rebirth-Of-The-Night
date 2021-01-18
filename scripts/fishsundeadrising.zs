@@ -13,10 +13,7 @@ LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantment
 LootTable.removeGlobalItem("mod_lavacow:poisonspore");
 LootTable.removeGlobalItem("mod_lavacow:shattered_ice");
 
-<mod_lavacow:glowshroom>.displayName = "Teal Glowshroom";
 <biomesoplenty:mushroom:3>.displayName = "Green Glowshroom";
-
-<mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";
 
 //removed netherex salamander armor
 JEI.removeAndHide(<netherex:orange_salamander_hide_helmet>);

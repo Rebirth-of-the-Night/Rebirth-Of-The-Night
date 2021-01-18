@@ -110,11 +110,6 @@ import mods.jei.JEI;
 <biomesoplenty:mud_brick_stairs:0>.displayName = "Mud Brick Stairs";
 <biomesoplenty:other_slab:0>.displayName = "Mud Brick Slab";
 
-// Lavacow / Fishs Undead Rising
-<mod_lavacow:moltenbeef>.displayName = "Molten Scale";
-<mod_lavacow:green_bacon_and_eggs>.displayName = "Green Eggs and Bacon";
-<mod_lavacow:poisonstinger>.displayName = "Vespa Stinger";
-
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
 
@@ -233,7 +228,6 @@ for potion in potionMap{
 <msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
 <pyrotech:redstone_sword>.addTooltip(format.darkGreen("Rare Weapon"));
 
-<mod_lavacow:famine>.displayName = "§2Blade of Devouring Greed";
 <mod_lavacow:famine>.addTooltip(format.darkGreen("Rare Weapon"));
 
 <simpleores:adamantium_chestplate>.addTooltip(format.darkGreen("Rare Armor"));
@@ -266,11 +260,8 @@ for potion in potionMap{
 <spartanshields:shield_basic_lead>.addTooltip(format.darkPurple("Epic Shield"));
 
 
-<mod_lavacow:war>.displayName = "§5Nether Cannon";
 <mod_lavacow:war>.addTooltip(format.darkPurple("Epic Weapon"));
-<mod_lavacow:sludge_wand>.displayName = "§5Oozemancer's Staff";
 <mod_lavacow:sludge_wand>.addTooltip(format.darkPurple("Epic Weapon"));
-<mod_lavacow:bonesword>.displayName = "§5Bonetooth Sword";
 <mod_lavacow:bonesword>.addTooltip(format.darkPurple("Epic Weapon"));
 <spartanweaponry:crossbow_wood>.addTooltip(format.darkPurple("Epic Weapon"));
 
@@ -325,7 +316,6 @@ for potion in potionMap{
 <iceandfire:dragonsteel_ice_leggings>.addTooltip(format.gold("Legendary Armor"));
 <iceandfire:dragonsteel_ice_boots>.addTooltip(format.gold("Legendary Armor"));
 
-<mod_lavacow:piranhalauncher>.displayName = "§6Frenzy Launcher";
 <mod_lavacow:piranhalauncher>.addTooltip(format.gold("Legendary Weapon"));
 
 
