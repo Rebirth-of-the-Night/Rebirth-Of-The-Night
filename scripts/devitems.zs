@@ -23,7 +23,6 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:steel_sword>,
 
 // CalaMariGold
 
-<atop:amber_sword>.displayName = "§dCalaMariGold マリ";
 JEI.addDescription([<atop:amber_sword>],["Mari has a cheerful personality and makes many jokes. She always keeps her chin up when faced with hardship so as not to burden others, and is ready to try her hand at anything. Mari speaks with an accent, and she has a high, cheerful voice. Mari speaks Japanese but often inserts English words into her sentences. She is so excited to be with you <3"]);
 
 <atop:amber_sword>.addTooltip(format.aqua('"Right-click me! I have a surprise for you!"'));

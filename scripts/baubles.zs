@@ -124,28 +124,11 @@ JEI.removeAndHide(<bountifulbaubles:trinketluckyhorseshoe>);
 
 
 // Unify name colors of all baubles and some renaming
-<bountifulbaubles:trinketobsidianskull>.displayName = "§bObsidian Skull";
-<bountifulbaubles:trinketmagiclenses>.displayName = "§bSunglasses";
-<bountifulbaubles:trinketapple>.displayName = "§bForbidden Fruit";
-<bountifulbaubles:trinketvitamins>.displayName = "§bVitamins";
-<bountifulbaubles:ringoverclocking>.displayName = "§bRing of Overclocking";
-<bountifulbaubles:trinketshulkerheart>.displayName = "§bShulker Heart";
-<bountifulbaubles:ringfreeaction>.displayName = "§bRing of Free Action";
-<bountifulbaubles:trinketbezoar>.displayName = "§bBezoar";
-<bountifulbaubles:trinketblackdragonscale>.displayName = "§bBlack Dragon Scale";
-<bountifulbaubles:trinketmixeddragonscale>.displayName = "§bMixed Color Dragon Scale";
-<bountifulbaubles:amuletsinempty>.displayName = "§bSin Amulet (Empty)";
-<bountifulbaubles:amuletsingluttony>.displayName = "§bGluttony Amulet";
-<bountifulbaubles:amuletsinpride>.displayName = "§bPride Amulet";
-<bountifulbaubles:amuletsinwrath>.displayName = "§bWrath Amulet";
-<bountifulbaubles:amuletcross>.displayName = "§bCross Amulet";
-
 <artifacts:panic_necklace>.displayName = "§bPanic Amulet";
 <behgameon:accessory_5>.displayName = "§bAmulet";
 <behgameon:accessory_6>.displayName = "§bAmulet";
 <behgameon:accessory_7>.displayName = "§bAmulet";
 <behgameon:accessory_8>.displayName = "§bAmulet";
-<bountifulbaubles:trinketbrokenheart>.displayName = "§bBroken Heart";
 <cyclicmagic:glove_climb>.displayName = "§bClimbing Gloves";
 <mod_lavacow:halo_necklace>.displayName = "§bRadiant Amulet";
 <mod_lavacow:dreamcatcher>.displayName = "§bDreamcatcher";

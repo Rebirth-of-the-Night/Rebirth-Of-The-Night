@@ -80,6 +80,7 @@ JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes you feel a 
 JEI.addDescription(<mod_lavacow:bonesword>,"You'll really bone your enemies with this sword - thanks to all those teeth from slain predators. Remember: the bigger they are, the harder they fall.");
 JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword, it's mostly useful to newly-stranded survivors in unfamiliar lands. Very low durability, but these can be stacked.");
 JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power.");
+JEI.addDescription(<dungeontactics:silver_sword>,"The True Dark's Edge is a living blade fused with the endless power of the fallen. Its abilities allow you to draw strength from other's suffering, empower yourself by siphoning power from the blade itself, and strike at your enemies' souls, bypassing some of their armor.");
 
 JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
 JEI.addDescription(<pyrotech:flint_and_tinder:*>,"Made with common materials. Can light a kiln if held down, but it is rather fragile. Not as convenient as a flint and steel.");

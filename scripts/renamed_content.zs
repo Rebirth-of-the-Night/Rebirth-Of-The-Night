@@ -129,54 +129,10 @@ import mods.jei.JEI;
 <biomesoplenty:mud_brick_stairs:0>.displayName = "Mud Brick Stairs";
 <biomesoplenty:other_slab:0>.displayName = "Mud Brick Slab";
 
-// ATOP
-<atop:mud_axe>.displayName = "Bronze Axe";
-<atop:mud_boots>.displayName = "Bronze Boots";
-<atop:mud_chestplate>.displayName = "Bronze Cuirass";
-<atop:mud_helmet>.displayName = "Bronze Helmet";
-<atop:mud_hoe>.displayName = "Bronze Hoe";
-<atop:mud_leggings>.displayName = "Bronze Leggings";
-<atop:mud_pickaxe>.displayName = "Bronze Pickaxe";
-<atop:mud_shovel>.displayName = "Bronze Shovel";
-<atop:mud_sword>.displayName = "Bronze Gladius";
-
-<atop:topaz_sword>.displayName = "§dCovenant";
-<atop:amethyst_sword>.displayName = "§dConvergence";
-
-
 // Lavacow / Fishs Undead Rising
 <mod_lavacow:moltenbeef>.displayName = "Molten Scale";
 <mod_lavacow:green_bacon_and_eggs>.displayName = "Green Eggs and Bacon";
 <mod_lavacow:poisonstinger>.displayName = "Vespa Stinger";
-
-// NetherEX
-<netherex:basalt>.displayName = "Black Basalt";
-<netherex:smooth_basalt>.displayName = "Smooth Black Basalt";
-<netherex:basalt_brick>.displayName = "Black Basalt Bricks";
-<netherex:basalt_pillar>.displayName = "Black Basalt Pillar";
-<netherex:basalt_slab>.displayName = "Black Basalt Slab";
-<netherex:smooth_basalt_slab>.displayName = "Smooth Black Basalt Slab";
-<netherex:basalt_brick_slab>.displayName = "Black Basalt Brick Slab";
-<netherex:basalt_pillar_slab>.displayName = "Black Basalt Pillar Slab";
-<netherex:basalt_stairs>.displayName = "Black Basalt Stairs";
-<netherex:smooth_basalt_stairs>.displayName = "Smooth Black Basalt Stairs";
-<netherex:basalt_brick_stairs>.displayName = "Black Basalt Brick Stairs";
-<netherex:basalt_pillar_stairs>.displayName = "Black Basalt Pillar Stairs";
-<netherex:basalt_wall>.displayName = "Black Basalt Wall";
-<netherex:smooth_basalt_wall>.displayName = "Smooth Black Basalt Wall";
-<netherex:basalt_brick_wall>.displayName = "Black Basalt Brick Wall";
-<netherex:basalt_pillar_wall>.displayName = "Black Basalt Pillar Wall";
-<netherex:basalt_fence>.displayName = "Black Basalt Fence";
-<netherex:smooth_basalt_fence>.displayName = "Smooth Black Basalt Fence";
-<netherex:basalt_brick_fence>.displayName = "Black Basalt Brick Fence";
-<netherex:basalt_pillar_fence>.displayName = "Black Basalt Pillar Fence";
-<netherex:basalt_fence_gate>.displayName = "Black Basalt Fence Gate";
-<netherex:smooth_basalt_fence_gate>.displayName = "Smooth Black Basalt Fence Gate";
-<netherex:basalt_brick_fence_gate>.displayName = "Black Basalt Brick Fence Gate";
-<netherex:basalt_pillar_fence_gate>.displayName = "Black Basalt Pillar Fence Gate";
-
-// Bountiful Baubles
-<bountifulbaubles:potionrecall>.displayName = "Return Potion";
 
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
@@ -404,9 +360,8 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <msmlegacy:dawn_star>.addTooltip(format.red("Godly Weapon"));
 <msmlegacy:dawn_star>.addTooltip("I am truth. I am majesty. I am justice.");
 
-<dungeontactics:silver_sword:*>.addTooltip(format.red("Godly Weapon"));
-<dungeontactics:silver_sword:*>.addTooltip("They will suffer as we have.");
-JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. Its abilities allow you to draw strength from other's suffering, empower yourself by siphoning power from the blade itself, and strike at your enemies' souls, bypassing some of their armor."]);
+<dungeontactics:silver_sword>.addTooltip(format.red("Godly Weapon"));
+<dungeontactics:silver_sword>.addTooltip("They will suffer as we have.");
 
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
 <betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
