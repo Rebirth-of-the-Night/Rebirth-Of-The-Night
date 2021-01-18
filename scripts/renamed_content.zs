@@ -27,12 +27,10 @@ import mods.jei.JEI;
 <betterwithmods:manual>.addTooltip(format.aqua("Guidebook"));
 <betterwithmods:manual>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
 
-<arcanearchives:tome_arcana>.removeTooltip("(Provides documentation for Arcane Archives.)");
-<arcanearchives:tome_arcana:*>.displayName = "§bTome of Radiant Arcana";
+<arcanearchives:tome_arcana>.removeTooltip("documentation");
 <arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
 <arcanearchives:tome_arcana>.addTooltip("How to store your items efficiently.");
 
-<rustic:book>.displayName = "§bAlmanac of the Farmer";
 <rustic:book>.addTooltip(format.aqua("Guidebook"));
 <rustic:book>.addTooltip("How to farm, brew elixirs, and decorate your home.");
 
@@ -100,22 +98,6 @@ import mods.jei.JEI;
 <projectred-integration:gate:20>.displayName = "Running Timer";
 <projectred-integration:gate:33>.displayName = "Selective Enhanced Randomizer";
 <projectred-integration:gate:31>.displayName = "Stacking Latch";
-
-// Rustic
-<rustic:iron_lantern>.displayName = "Tin Lantern";
-<rustic:barrel>.displayName = "Vertical Barrel";
-<rustic:chain>.displayName = "Iron Chandelier Chain";
-<rustic:andesite_pillar>.displayName = "Gray Andesite Pillar";
-<rustic:crop_stake>.displayName = "Crop Stake";
-<rustic:rope>.displayName = "Agricultural Rope";
-
-//  Malisis Doors
-<malisisdoors:garage_door>.displayName = "Portcullis Door";
-<malisisdoors:jail_door>.displayName = "Reinforced Door";
-<malisisdoors:verticalhatch>.displayName = "Vault Door";
-<malisisdoors:laboratory_door>.displayName = "Rampart Door";
-<malisisdoors:sliding_trapdoor>.displayName = "Rampart Trapdoor";
-<malisisdoors:carriage_door>.displayName = "Castle Gate";
 
 // Mowzies Mobs
 <mowziesmobs:naga_fang>.displayName = "Skydrake Fang";
@@ -222,13 +204,11 @@ for potion in potionMap{
 
 
 // Better Animals Plus
-<betteranimalsplus:wolfhead_1>.displayName = "§2Direwolf Head";
 <betteranimalsplus:wolfhead_2>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_3>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_4>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_5>.addTooltip(format.darkGreen("Rare Trophy"));
 <betteranimalsplus:wolfhead_6>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:fried_egg>.displayName = "Cooked Monster Egg";
 
 // Rare
 <dungeontactics:high_striker>.addTooltip(format.darkGreen("Rare Weapon"));
