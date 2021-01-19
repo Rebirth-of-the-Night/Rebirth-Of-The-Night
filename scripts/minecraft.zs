@@ -17,7 +17,6 @@ recipes.remove(<minecraft:mushroom_stew>);
 JEI.removeAndHide(<minecraft:knowledge_book>);
 JEI.removeAndHide(<gbook_snapshot:guidebook>);
 JEI.removeAndHide(<toolprogression:magic_mushroom>);
-JEI.removeAndHide(<hw_inv:block_sacrifice>);
 JEI.removeAndHide(<cd4017be_lib:energy_supp>);
 JEI.removeAndHide(<cd4017be_lib:item_supp>);
 JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
