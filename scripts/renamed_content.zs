@@ -239,6 +239,9 @@ for potion in potionMap{
 
 
 // Epic
+<nyx:meteor_bow:*>.addTooltip("x1.75 arrow damage");
+<nyx:meteor_bow:*>.addTooltip("x1.3 arrow speed");
+<nyx:meteor_bow:*>.addTooltip("Slightly slower draw speed");
 <nyx:meteor_hammer>.addTooltip(format.darkPurple("Epic Weapon"));
 <nyx:scythe>.addTooltip(format.darkPurple("Epic Weapon"));
 <nyx:meteor_sword>.addTooltip(format.darkPurple("Epic Weapon"));

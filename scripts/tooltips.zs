@@ -127,9 +127,6 @@
 <nyx:meteor_hammer:*>.addTooltip("Creatures near the impact zone takes damage");
 <nyx:meteor_sword:*>.addTooltip("Stuns creatures when hit by a critical hit");
 <nyx:crystal:*>.addTooltip("Passively boosts crop growth when placed near crops");
-<nyx:meteor_bow:*>.addTooltip("x1.75 arrow damage");
-<nyx:meteor_bow:*>.addTooltip("x1.3 arrow speed");
-<nyx:meteor_bow:*>.addTooltip("Slightly slower draw speed");
 <nyx:meteor_pickaxe:*>.addTooltip("Mines obsidian and meteoric rock much faster");
 <nyx:meteor_axe:*>.addTooltip("Deals extra damage to shields");
 
