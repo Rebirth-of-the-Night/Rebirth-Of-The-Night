@@ -1043,7 +1043,7 @@ val anyAsh = <ore:dustAsh>;
 anyAsh.add(<biomesoplenty:ash>);
 
 val componentWheel = <ore:componentWheel>;
-componentWheel.addItems([<animania:wheel>,<betterwithmods:material>,<betterwithmods:material:48>]);
+componentWheel.addItems([<animania:wheel>,<betterwithmods:material:0>,<betterwithmods:material:48>,<pyrotech:cog_bone>]);
 
 val scaleChestplate = <ore:scaleChestplate>;
 scaleChestplate.addItems([<iceandfire:armor_red_chestplate>,<iceandfire:armor_green_chestplate>,<iceandfire:armor_bronze_chestplate>,<iceandfire:armor_gray_chestplate>]);

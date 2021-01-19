@@ -209,6 +209,7 @@ val creationQuintessenceA = <ore:creationQuintessenceA>;
 creationQuintessenceA.add(
     <betterwithmods:material:0>,
     <betterwithmods:material:48>,
+    <pyrotech:cog_bone>,
     <minecraft:blaze_powder>,
     <minecraft:fire_charge>,
     <contenttweaker:heartofthefallen>,
