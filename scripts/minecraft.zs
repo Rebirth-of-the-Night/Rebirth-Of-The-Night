@@ -34,6 +34,7 @@ JEI.removeAndHide(<redstoneplusplus:dummy_clock_hover>);
 JEI.removeAndHide(<contenttweaker:info>);
 JEI.removeAndHide(<contenttweaker:four_gem_ingots>);
 JEI.removeAndHide(<contenttweaker:four_gems>);
+JEI.removeAndHide(<contenttweaker:scaffolding>);
 
 //for charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);

@@ -1,6 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 import mods.futuremc.Composter;
 import mods.futuremc.Stonecutter;
@@ -25,6 +26,22 @@ recipes.removeByRecipeName("futuremc:else/stone_slabs_from_smooth_stone");
 recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6, [
   [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>]
 ]);
+
+// Banner patterns
+recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:0>, [<minecraft:paper>, <ore:flower>]);
+recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:1>, [<minecraft:paper>, <minecraft:skull:4> | <harvestcraft:creepercookieitem> | <rats:charged_creeper_chunk>]);
+recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:2>, [<minecraft:paper>, <ore:mythicalSkull>]);
+recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:3>, [<minecraft:paper>, <minecraft:golden_apple:1>]);
+recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:4>, [<minecraft:paper>, <ore:flower>]);
+
+RecipeBuilder.get("mage")
+  .setShapeless([<minecraft:paper>, <minecraft:stone>, <minecraft:dirt>, <minecraft:sand>])
+  .addTool(<artisanworktables:artisans_quill_gold>, 1)
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addOutput(<futuremc:banner_pattern:4>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 recipes.remove(<futuremc:stonecutter>);
 recipes.addShaped("stone_cutter", <futuremc:stonecutter>,[

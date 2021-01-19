@@ -37,11 +37,11 @@ advancement.betterwithmods.corner_wood.desc=Cutting Corners
 tile.bwm:stokedFire.name=Stoked Fire
 tile.bwm:hand_crank.name=Hand Crank
 tile.bwm:wooden_axle.name=Wooden Axle
-tile.bwm:steel_axle.name=Steel Axle
+tile.bwm:steel_axle.name=Soulforged Steel Axle
 tile.bwm:wooden_gearbox.name=Wooden Gearbox
-tile.bwm:steel_gearbox.name=Steel Gearbox
+tile.bwm:steel_gearbox.name=Soulforged Steel Gearbox
 tile.bwm:wooden_broken_gearbox.name=Broken Wooden Gearbox
-tile.bwm:steel_broken_gearbox.name=Broken Steel Gearbox
+tile.bwm:steel_broken_gearbox.name=Broken Soulforged Steel Gearbox
 
 
 
@@ -159,7 +159,7 @@ tile.bwm:unfired_pottery.4.name=Unfired Brick
 tile.bwm:unfired_pottery.5.name=Unfired Netherbrick
 
 tile.bwm:anchor.name=Anchor
-tile.bwm:rope.name=Hemp Cord
+tile.bwm:rope.name=Rope Cord
 tile.bwm:hibachi.name=Hibachi
 tile.bwm:hemp.name=Hemp Seeds
 tile.bwm:detector.name=Detector Block

@@ -1,10 +1,12 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.ltt.LootTable;
 import mods.betterwithaddons.Infuser;
 import mods.betterwithmods.Mill;
 import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Saw;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.removeByMod("betterwithaddons");
 Infuser.removeAll();
@@ -125,7 +127,33 @@ val bwaArray = [
     <betterwithaddons:worldshard>,
     <betterwithaddons:world_scale:*>,
     <betterwithaddons:world_scale_active:*>,
-    <betterwithaddons:leafpile_sakura>
+    <betterwithaddons:leafpile_sakura>,
+    <betterwithaddons:bag:*>,
+    <betterwithaddons:legendarium>,
+    <betterwithaddons:ancestry_sand>,
+    <betterwithaddons:adobe:*>,
+    <betterwithaddons:bricks_stained:*>,
+    <betterwithaddons:rail_rusted>,
+    <betterwithaddons:log_termite:*>,
+    <betterwithaddons:inverted_gearbox>,
+    <betterwithaddons:monument>,
+    <betterwithaddons:artifact_frame>,
+    <betterwithaddons:poisoned_ya>,
+    <betterwithaddons:crate:*>,
+    <betterwithaddons:congealed:2>,
+    <betterwithaddons:congealed:3>,
+    <betterwithaddons:congealed:5>,
+    <betterwithaddons:bolt:*>,
+    <betterwithaddons:bundle:*>,
+    <betterwithaddons:ink_and_quill>,
+    <betterwithaddons:aqueduct:2>,
+    <betterwithaddons:aqueduct:3>,
+    <betterwithaddons:aqueduct:5>,
+    <betterwithaddons:aqueduct:6>,
+    <betterwithaddons:aqueduct:7>,
+    <betterwithaddons:aqueduct:8>,
+    <betterwithaddons:aqueduct:9>,
+    <betterwithaddons:aqueduct:10>
 ] as IItemStack[];
 
 for item in bwaArray {
@@ -161,7 +189,7 @@ JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "tencha"}));
 JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "gyokuro"}));
 JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"}));
 JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
-mods.ltt.LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
+LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 recipes.remove(<betterwithaddons:material:3>);
 recipes.remove(<betterwithaddons:thorn_rose:0>);
@@ -212,6 +240,31 @@ recipes.addShaped(<betterwithaddons:tatami> * 4, [
     [cloth, cloth, cloth],
     [wicker, wicker, wicker]
 ]);
+
+var hollowReed = <ore:hollowReed>;
+
+recipes.addShaped("bwa_scaffold", <betterwithaddons:scaffold> * 6, [
+    [hollowReed, wicker, hollowReed],
+    [hollowReed, null, hollowReed],
+    [hollowReed, <randomthings:blockofsticks:0>, hollowReed]
+]);
+
+recipes.addShaped("bwa_banner_detector", <betterwithaddons:banner_detector>, [
+    [<ore:stone>, <ore:stone>, <ore:stone>],
+    [<minecraft:item_frame>, <betterwithaddons:block_matcher>, <minecraft:ender_eye>],
+    [<ore:stone>, <minecraft:banner:*>, <ore:stone>]
+]);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:stone>, <ore:stone>, <ore:stone>],
+    [<minecraft:comparator>, <minecraft:redstone>, <minecraft:comparator>],
+    [<ore:stone>, <ore:stone>, <ore:stone>]])
+  .addTool(<contenttweaker:balance_rune>, 1)
+  .addOutput(<betterwithaddons:block_matcher>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 //Reed slat
 recipes.addShaped(<betterwithaddons:slat> * 8, [

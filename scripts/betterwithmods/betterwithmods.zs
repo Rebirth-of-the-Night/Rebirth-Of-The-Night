@@ -32,6 +32,9 @@ recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwi
 JEI.removeAndHide(<betterwithmods:bark:*>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
 JEI.removeAndHide(<betterwithmods:steel_saw>);
+JEI.removeAndHide(<betterwithmods:material:52>);
+JEI.removeAndHide(<betterwithmods:material:53>);
+JEI.removeAndHide(<betterwithmods:fertile_farmland>);
 
 JEI.removeAndHide(<betterwithmods:leather_tanned_boots>);
 JEI.removeAndHide(<betterwithmods:leather_tanned_chest>);
@@ -139,6 +142,13 @@ for i, output in arrayBambooChime{
         [<ore:hollowReed>,arrayMoulding[i],<ore:hollowReed>]
     ]);
 }
+
+recipes.remove(<betterwithmods:broadhead_arrow>);
+recipes.addShaped("broadhead_arrow", <betterwithmods:broadhead_arrow>, [
+    [<betterwithmods:material:43>],
+    [<ore:stickWood>],
+    [<ore:feather>]
+]);
 
 recipes.remove(<betterwithmods:single_machine:2>);
 recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[

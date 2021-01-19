@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityDefinition;
 import mods.betterwithmods.MiniBlocks;
+import mods.jei.JEI;
 
 recipes.remove(<rats:marbled_cheese_dirt>);
 recipes.addShapeless("marbled_cheese_dirt",<rats:marbled_cheese_dirt>,[<rats:marbled_cheese>,<ore:dirt>]);
@@ -23,68 +24,70 @@ recipes.addShapeless("marbled_cheese_grass",<rats:marbled_cheese_grass>,[<rats:m
 
 ///////////////completely hidden upgrades. we can add some of these later
 //will never add these ones due to mod incompatibility or just not in spirit of the pack
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_energy>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_advanced_energy>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_elite_energy>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_extreme_energy>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_milker>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_breeder>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_disenchanter>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_enchanter>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_fisherman>);
+JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
+JEI.removeAndHide(<rats:rat_upgrade_basic_energy>);
+JEI.removeAndHide(<rats:rat_upgrade_advanced_energy>);
+JEI.removeAndHide(<rats:rat_upgrade_elite_energy>);
+JEI.removeAndHide(<rats:rat_upgrade_extreme_energy>);
+JEI.removeAndHide(<rats:rat_upgrade_milker>);
+JEI.removeAndHide(<rats:rat_upgrade_breeder>);
+JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
+JEI.removeAndHide(<rats:rat_upgrade_disenchanter>);
+JEI.removeAndHide(<rats:rat_upgrade_enchanter>);
+JEI.removeAndHide(<rats:rat_upgrade_fisherman>);
 
 // maybe add these later with magic mods and/or Twilight Forest progression
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_basic_ratlantean>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_feral_bite>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ratinator>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_psychic>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_nonbeliever>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_combined>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_combined_creative>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_god>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_archeologist>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_crafting>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_buccaneer>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_aristocrat>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_bucket>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_big_bucket>);
-mods.jei.JEI.removeAndHide(<rats:rat_upgrade_miner>);
+JEI.removeAndHide(<rats:rat_upgrade_basic_ratlantean>);
+JEI.removeAndHide(<rats:rat_upgrade_feral_bite>);
+JEI.removeAndHide(<rats:rat_upgrade_ratinator>);
+JEI.removeAndHide(<rats:rat_upgrade_psychic>);
+JEI.removeAndHide(<rats:rat_upgrade_nonbeliever>);
+JEI.removeAndHide(<rats:rat_upgrade_combined>);
+JEI.removeAndHide(<rats:rat_upgrade_combined_creative>);
+JEI.removeAndHide(<rats:rat_upgrade_god>);
+JEI.removeAndHide(<rats:rat_upgrade_archeologist>);
+JEI.removeAndHide(<rats:rat_upgrade_crafting>);
+JEI.removeAndHide(<rats:rat_upgrade_buccaneer>);
+JEI.removeAndHide(<rats:rat_upgrade_aristocrat>);
+JEI.removeAndHide(<rats:rat_upgrade_bucket>);
+JEI.removeAndHide(<rats:rat_upgrade_big_bucket>);
+JEI.removeAndHide(<rats:rat_upgrade_miner>);
 
 //more removed items
-mods.jei.JEI.removeAndHide(<rats:gem_of_ratlantis>);
-mods.jei.JEI.removeAndHide(<rats:idol_of_ratlantis>);
-mods.jei.JEI.removeAndHide(<rats:upgrade_combiner>);
-mods.jei.JEI.removeAndHide(<rats:upgrade_separator>);
-mods.jei.JEI.removeAndHide(<rats:little_black_squash_balls>);
-mods.jei.JEI.removeAndHide(<rats:little_black_worm>);
-mods.jei.JEI.removeAndHide(<rats:arcane_technology>);
-mods.jei.JEI.removeAndHide(<rats:vial_of_sentience>);
-mods.jei.JEI.removeAndHide(<rats:marbled_cheese_golem_core>);
-mods.jei.JEI.removeAndHide(<rats:marbled_cheese_rat_head>);
-mods.jei.JEI.removeAndHide(<rats:compressed_rat>);
-mods.jei.JEI.removeAndHide(<rats:brain_block>);
-mods.jei.JEI.removeAndHide(<rats:ratglove_flower>);
-mods.jei.JEI.removeAndHide(<rats:chunky_cheese_token>);
-mods.jei.JEI.removeAndHide(<rats:token_fragment>);
-mods.jei.JEI.removeAndHide(<rats:token_piece>);
-mods.jei.JEI.removeAndHide(<rats:auto_curdler>);
-mods.jei.JEI.removeAndHide(<rats:rat_crafting_table>);
-mods.jei.JEI.removeAndHide(<rats:marbled_cheese_raw>);
-mods.jei.JEI.removeAndHide(<rats:ratglove_petals>);
-mods.jei.JEI.removeAndHide(<rats:psionic_rat_brain>);
-mods.jei.JEI.removeAndHide(<rats:pirat_hat>);
-mods.jei.JEI.removeAndHide(<rats:pirat_cutlass>);
-mods.jei.JEI.removeAndHide(<rats:rat_nugget>);
-mods.jei.JEI.removeAndHide(<rats:rat_nugget_ore>);
-mods.jei.JEI.removeAndHide(<rats:ratlantean_flame>);
-mods.jei.JEI.removeAndHide(<rats:cheese_cannonball>);
-mods.jei.JEI.removeAndHide(<rats:feral_rat_claw>);
-mods.jei.JEI.removeAndHide(<rats:centipede>);
-mods.jei.JEI.removeAndHide(<rats:garbage_pile>);
+JEI.hide(<rats:rat_cage_decorated>);
+JEI.hide(<rats:rat_cage_breeding_lantern>);
+JEI.removeAndHide(<rats:gem_of_ratlantis>);
+JEI.removeAndHide(<rats:idol_of_ratlantis>);
+JEI.removeAndHide(<rats:upgrade_combiner>);
+JEI.removeAndHide(<rats:upgrade_separator>);
+JEI.removeAndHide(<rats:little_black_squash_balls>);
+JEI.removeAndHide(<rats:little_black_worm>);
+JEI.removeAndHide(<rats:arcane_technology>);
+JEI.removeAndHide(<rats:vial_of_sentience>);
+JEI.removeAndHide(<rats:marbled_cheese_golem_core>);
+JEI.removeAndHide(<rats:marbled_cheese_rat_head>);
+JEI.removeAndHide(<rats:compressed_rat>);
+JEI.removeAndHide(<rats:brain_block>);
+JEI.removeAndHide(<rats:ratglove_flower>);
+JEI.removeAndHide(<rats:chunky_cheese_token>);
+JEI.removeAndHide(<rats:token_fragment>);
+JEI.removeAndHide(<rats:token_piece>);
+JEI.removeAndHide(<rats:auto_curdler>);
+JEI.removeAndHide(<rats:rat_crafting_table>);
+JEI.removeAndHide(<rats:marbled_cheese_raw>);
+JEI.removeAndHide(<rats:ratglove_petals>);
+JEI.removeAndHide(<rats:psionic_rat_brain>);
+JEI.removeAndHide(<rats:pirat_hat>);
+JEI.removeAndHide(<rats:pirat_cutlass>);
+JEI.removeAndHide(<rats:rat_nugget>);
+JEI.removeAndHide(<rats:rat_nugget_ore>);
+JEI.removeAndHide(<rats:ratlantean_flame>);
+JEI.removeAndHide(<rats:cheese_cannonball>);
+JEI.removeAndHide(<rats:feral_rat_claw>);
+JEI.removeAndHide(<rats:centipede>);
+JEI.removeAndHide(<rats:garbage_pile>);
 
-mods.jei.JEI.removeAndHide(<rats:rat_burger>); // Dunno what we want to do with it, but removing it from jei since no recipe.
+JEI.removeAndHide(<rats:rat_burger>); // Dunno what we want to do with it, but removing it from jei since no recipe.
 
 // other removed recipes
 recipes.remove(<rats:rat_upgrade_voodoo>);
@@ -124,7 +127,7 @@ mods.ltt.LootTable.removeGlobalItem("rats:ratlantean_flame");
 // addPlayerOnlyDrop(weightedItem, min, max);
 
 
-mods.jei.JEI.addDescription(<rats:plague_leech>,"A disgusting critter typically found on plagued-infested beasts. Some species are hardy enough to survive in the guts of living creatures.");
+JEI.addDescription(<rats:plague_leech>,"A disgusting critter typically found on plagued-infested beasts. Some species are hardy enough to survive in the guts of living creatures.");
 
 // New Rat Item Recipes
 
@@ -210,7 +213,7 @@ recipes.addShapeless("cheeseChunks", <rats:cheese>*16, [<ore:foodCheeseWheel>]);
 recipes.addShapeless("blocktocheeseChunks", <rats:cheese>*16, [<rats:block_of_cheese>]);
 
 // remove archeologist rat recipes
-mods.jei.JEI.hideCategory("rats.archeologist_rat");
+JEI.hideCategory("rats.archeologist_rat");
 
 // new pam's recipes
 

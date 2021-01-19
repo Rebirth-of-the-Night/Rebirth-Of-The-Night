@@ -7,6 +7,7 @@ tile.rats.rat_hole.name=Rat Hole
 tile.rats.rat_trap.name=Rat Trap
 tile.rats.rat_cage.name=Rat Cage
 tile.rats.rat_cage_decorated.name=Rat Cage
+tile.rats.rat_cage_breeding_lantern.name=Rat Cage
 tile.rats.auto_curdler.name=Curdling Station
 tile.rats.auto_curdler.desc0=Automatic cheese production
 tile.rats.auto_curdler.desc1=§o"Milk goes in, cheese comes out"
