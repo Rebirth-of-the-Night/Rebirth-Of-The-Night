@@ -2270,6 +2270,7 @@ ExSartagine.addKettleRecipe([bubblyWater,sugar,lemon,lime],cookKitKettle,null,[<
 //root bear (do later)
 
 // caramel ice cream
+recipes.remove(<harvestcraft:caramelicecreamitem>);
 RecipeBuilder.get("chef")
   .setName("caramel_ice_cream")
   .setShapeless([milkBottle, snowball, salt, caramel])
@@ -2277,6 +2278,7 @@ RecipeBuilder.get("chef")
   .addOutput(<harvestcraft:caramelicecreamitem>*3)
   .create();
 //mint chocolate chip ice cream
+recipes.remove(<harvestcraft:mintchocolatechipicecreamitem>);
 RecipeBuilder.get("chef")
   .setName("mint_chocolate_ice_cream")
   .setShapeless([milkBottle, snowball, salt, mint, chocolateBar])
@@ -2284,6 +2286,7 @@ RecipeBuilder.get("chef")
   .addOutput(<harvestcraft:mintchocolatechipicecreamitem>*3)
   .create();
 //strawberry ice cream
+recipes.remove(<harvestcraft:strawberryicecreamitem>);
 RecipeBuilder.get("chef")
   .setName("strawberry_ice_cream")
   .setShapeless([milkBottle, snowball, salt, strawberry])
@@ -2291,6 +2294,7 @@ RecipeBuilder.get("chef")
   .addOutput(<harvestcraft:strawberryicecreamitem>*3)
   .create();
 //vanilla ice cream
+recipes.remove(<harvestcraft:vanillaicecreamitem>);
 RecipeBuilder.get("chef")
   .setName("vanilla_ice_cream")
   .setShapeless([milkBottle, snowball, salt, vanillaBean])
@@ -2602,8 +2606,6 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:porksausageitem>)
   .create();
-//Raspberry trifle
-JEI.removeAndHide(<harvestcraft:raspberrytrifleitem>);
 
 //Milkshakes
 var milkshakeIngredients as IItemStack[IItemStack] = {
@@ -2615,6 +2617,7 @@ var milkshakeIngredients as IItemStack[IItemStack] = {
 };
 
 for key, value in milkshakeIngredients {
+  recipes.remove(key);
   RecipeBuilder.get("chef")
   .setShapeless([milkBottle,value])
   .setFluid(waterBottle)
@@ -2622,6 +2625,97 @@ for key, value in milkshakeIngredients {
   .addOutput(key)
   .create();
 }
+
+//Pumpkin Muffin
+recipes.remove(<harvestcraft:pumpkinmuffinitem>);
+ExSartagine.addKettleRecipe([pumpkin,batter],cookKitKettle,null,[<harvestcraft:pumpkinmuffinitem>],80);
+//Suadero
+recipes.remove(<harvestcraft:suaderoitem>);
+ExSartagine.addKettleRecipe([cookedBeef,cookingOil],cookKitKettle,null,[<harvestcraft:suaderoitem>],80);
+//Cooked Turkey
+recipes.remove(<harvestcraft:turkeycookeditem>);
+//Cornflakes -&R
+recipes.remove(<harvestcraft:cornflakesitem>);
+recipes.addShapeless("cornflakes", <harvestcraft:cornflakesitem>,[milkBottle,corn,corn]);
+RecipeBuilder.get("chef")
+  .setName("cornflakes")
+  .setShapeless([milkBottle,corn,corn])
+  .addOutput(<harvestcraft:cornflakesitem>)
+  .create();
+//Roast Chicken
+recipes.remove(<harvestcraft:roastchickenitem>);
+ExSartagine.addKettleRecipe([rawChicken,salt,blackPepper],cookKitKettle,null,[<harvestcraft:roastchickenitem>],80);
+//Roast Potatoes
+recipes.remove(<harvestcraft:roastpotatoesitem>);
+ExSartagine.addKettleRecipe([potato,salt,blackPepper],cookKitKettle,null,[<harvestcraft:roastpotatoesitem>],80);
+//Sunday Roast
+recipes.remove(<harvestcraft:sundayroastitem>);
+ExSartagine.addKettleRecipe([<harvestcraft:roastchickenitem>,<harvestcraft:roastpotatoesitem>,veggie],cookKitKettle,null,[<harvestcraft:sundayroastitem>],80);
+//BBQ Pulled Pork
+recipes.remove(<harvestcraft:bbqpulledporkitem>);
+recipes.addShapeless("bbqpulledpork", <harvestcraft:bbqpulledporkitem>,[cookedPork,toast,bellpepper,spice,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("bbqpulledpork")
+  .setShapeless([cookedPork,toast,bellpepper,spice])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:bbqpulledporkitem>)
+  .create();
+//Lamb With Mint Sauce
+recipes.remove(<harvestcraft:lambwithmintsauceitem>);
+ExSartagine.addKettleRecipe([rawMutton,spice,vinegar,sugar],cookKitKettle,null,[<harvestcraft:lambwithmintsauceitem>],80);
+//Steak and Chips
+recipes.remove(<harvestcraft:steakandchipsitem>);
+ExSartagine.addKettleRecipe([rawBeef,<harvestcraft:friesitem>],cookKitKettle,null,[<harvestcraft:steakandchipsitem>],80);
+//Cherry Ice Cream -&R
+recipes.remove(<harvestcraft:cherryicecreamitem>);
+RecipeBuilder.get("chef")
+  .setName("cherryicecream")
+  .setShapeless([milkBottle, snowball, salt, cherry])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:cherryicecreamitem>*3)
+  .create();
+//Pistachio Ice Cream -&R
+recipes.remove(<harvestcraft:pistachioicecreamitem>);
+RecipeBuilder.get("chef")
+  .setName("pistachioicecream")
+  .setShapeless([milkBottle, snowball, salt, pistachio])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:pistachioicecreamitem>*3)
+  .create();
+//Neapolitan Ice Cream -&R
+recipes.remove(<harvestcraft:neapolitanicecreamitem>);
+recipes.addShapeless("neapolitanicecream", <harvestcraft:neapolitanicecreamitem> * 3,[<harvestcraft:chocolateicecreamitem>,<harvestcraft:strawberryicecreamitem>,<harvestcraft:vanillaicecreamitem>,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("neapolitanicecream")
+  .setShapeless([<harvestcraft:chocolateicecreamitem>,<harvestcraft:strawberryicecreamitem>,<harvestcraft:vanillaicecreamitem>])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:neapolitanicecreamitem> * 3)
+  .create();
+//Spumoni Ice Cream -&R
+recipes.remove(<harvestcraft:spumoniicecreamitem>);
+recipes.addShapeless("spumoniicecream", <harvestcraft:spumoniicecreamitem> * 3,[<harvestcraft:cherryicecreamitem>,<harvestcraft:pistachioicecreamitem>,<harvestcraft:vanillaicecreamitem>,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("spumoniicecream")
+  .setShapeless([<harvestcraft:cherryicecreamitem>,<harvestcraft:pistachioicecreamitem>,<harvestcraft:vanillaicecreamitem>])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:spumoniicecreamitem> * 3)
+  .create();
+//Butters
+var butterIngredients as IItemStack[IItemStack] = {
+  <harvestcraft:almondbutteritem> : <harvestcraft:almonditem>,
+  <harvestcraft:cashewbutteritem> : <harvestcraft:cashewitem>,
+  <harvestcraft:chestnutbutteritem> : <harvestcraft:chestnutitem>,
+  <harvestcraft:pistachiobutteritem> : <harvestcraft:pistachioitem>
+};
+
+for key, value in butterIngredients {
+  recipes.remove(key);
+  Mortar.addRecipe(["stone"], key * 2, 4, [value,cookingOil]);
+}
+//Curry Powder
+recipes.remove(<harvestcraft:currypowderitem>);
+Mortar.addRecipe(["stone"], <harvestcraft:currypowderitem>, 4, [<harvestcraft:curryleafitem>]);
+
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
   <harvestcraft:raspberrymilkshakeitem>,
@@ -2630,7 +2724,13 @@ val hiddenFoods as IItemStack[] = [
   <harvestcraft:croissantitem>,
   <harvestcraft:chocolaterollitem>,
   <harvestcraft:jamrollitem>,
-  <harvestcraft:cheeseontoastitem>
+  <harvestcraft:cheeseontoastitem>,
+  <harvestcraft:raspberrytrifleitem>,
+  <harvestcraft:cornishpastyitem>,
+  <harvestcraft:cottagepieitem>,
+  <harvestcraft:hushpuppiesitem>,
+  <harvestcraft:kimchiitem>,
+  <harvestcraft:okracreoleitem>
 ];
 
 for item in hiddenFoods {
