@@ -5,8 +5,7 @@ setDescription("Kill the Voidwracked Ascendant.")
 addParent("triumph:advancements/bosskills/root")
 
 
-criteria = addCriteria("Voidwracked Ascendant", "minecraft:player_killed_entity")
-criteria.setEntityType("minecraft:dirt")
+criteria = addCriteria("impossible", "minecraft:impossible")
 
 
 setShowToast(false)
