@@ -29,10 +29,9 @@ recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6
 
 // Banner patterns
 recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:0>, [<minecraft:paper>, <ore:flower>]);
-recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:1>, [<minecraft:paper>, <minecraft:skull:4> | <harvestcraft:creepercookieitem> | <rats:charged_creeper_chunk>]);
-recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:2>, [<minecraft:paper>, <ore:mythicalSkull>]);
-recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:3>, [<minecraft:paper>, <minecraft:golden_apple:1>]);
-recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:4>, [<minecraft:paper>, <ore:flower>]);
+recipes.addShapeless("banner_pattern_creeper", <futuremc:banner_pattern:1>, [<minecraft:paper>, <minecraft:skull:4> | <harvestcraft:creepercookieitem> | <rats:charged_creeper_chunk>]);
+recipes.addShapeless("banner_pattern_skull", <futuremc:banner_pattern:2>, [<minecraft:paper>, <ore:mythicalSkull>]);
+recipes.addShapeless("banner_pattern_thing", <futuremc:banner_pattern:3>, [<minecraft:paper>, <minecraft:golden_apple:1>]);
 
 RecipeBuilder.get("mage")
   .setShapeless([<minecraft:paper>, <minecraft:stone>, <minecraft:dirt>, <minecraft:sand>])

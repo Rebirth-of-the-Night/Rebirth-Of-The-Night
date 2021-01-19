@@ -20,13 +20,7 @@ recipes.removeShaped(<minecraft:stone_pressure_plate>, [
 ]);
 
 JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
-JEI.removeAndHide(<aether_legacy:skyroot_pickaxe>);
-JEI.removeAndHide(<aether_legacy:skyroot_axe>);
-JEI.removeAndHide(<aether_legacy:skyroot_shovel>);
 LootTable.removeGlobalItem("aether_legacy:skyroot_double_slab");
-LootTable.removeGlobalItem("aether_legacy:skyroot_pickaxe");
-LootTable.removeGlobalItem("aether_legacy:skyroot_axe");
-LootTable.removeGlobalItem("aether_legacy:skyroot_shovel");
 
 JEI.removeAndHide(<aeble:obsidian_ring>);
 JEI.removeAndHide(<aeble:zanite_ring>);

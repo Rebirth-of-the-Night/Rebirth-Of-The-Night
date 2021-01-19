@@ -3,7 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-
+import mods.betterwithmods.Anvil;
 
 //Steel Anvil
 recipes.remove(<betterwithmods:steel_anvil>);
@@ -17,9 +17,38 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 	[steel, steel, steel]
 ]);
 
+var leatherBelt = <betterwithmods:material:9>;
+var cSteelNugget = <dungeontactics:steel_nugget>;
+var cSteelIngot = <dungeontactics:steel_ingot>;
+var redstoneLatch = <betterwithmods:material:34>;
+var steelGear = <betterwithmods:material:48>;
+
+Anvil.removeShaped(<betterwithmods:steel_axle>);
+Anvil.addShaped(<betterwithmods:steel_axle>, [
+   [null, null, cSteelNugget, steelGear],
+   [null, cSteelNugget, leatherBelt, cSteelNugget],
+   [cSteelNugget, leatherBelt, cSteelNugget, null],
+   [steelGear, cSteelNugget, null, null]
+]);
+
+Anvil.removeShaped(<betterwithmods:steel_gearbox>);
+Anvil.addShaped(<betterwithmods:steel_gearbox>, [
+   [cSteelIngot, cSteelIngot, steelGear, cSteelIngot],
+   [steelGear, steelGear, redstoneLatch, cSteelIngot],
+   [cSteelIngot, redstoneLatch, steelGear, steelGear],
+   [cSteelIngot, steelGear, cSteelIngot, cSteelIngot]
+]);
+
+Anvil.removeShaped(steelGear);
+Anvil.addShaped(steelGear, [
+   [null, cSteelNugget, cSteelNugget, null],
+   [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
+   [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
+   [null, cSteelNugget, cSteelNugget, null]
+]);
 
 // Heart of diamond
-mods.betterwithmods.Anvil.addShaped(<quark:diamond_heart>, 
+Anvil.addShaped(<quark:diamond_heart>, 
 [
    [<contenttweaker:vis_shard>, <arcanearchives:shaped_quartz>, <contenttweaker:vis_shard>, <arcanearchives:shaped_quartz>],
    [<arcanearchives:shaped_quartz>, <ore:gemDiamond>, <ore:gemDiamond>, <contenttweaker:vis_shard>],
@@ -32,7 +61,7 @@ val paneGlass = <ore:paneGlass>;
 paneGlass.addItems([<betternether:quartz_glass_pane>, <betternether:quartz_glass_framed_pane>,<netherex:soul_glass_pane>,<quark:framed_glass_pane>]);
 
 for item in paneGlass.items{
-   mods.betterwithmods.Anvil.addShaped(<quark:pipe> * 12, 
+   Anvil.addShaped(<quark:pipe> * 12, 
    [
       [null, <ore:ingotIron>, <ore:ingotIron>, null],
       [<ore:ingotCopper>, item, item, <ore:ingotCopper>],
@@ -43,7 +72,7 @@ for item in paneGlass.items{
 
 // Sledgehammer
 recipes.remove(<pyrotech:diamond_hammer>);
-mods.betterwithmods.Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgehammer
+Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgehammer
 [
    [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, null, null],
    [<betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>, <betterwithmods:material:36>],
@@ -52,8 +81,8 @@ mods.betterwithmods.Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgeha
 ]);
 
 // Broadhead
-mods.betterwithmods.Anvil.removeShaped(<betterwithmods:material:43>);
-mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:43>,
+Anvil.removeShaped(<betterwithmods:material:43>);
+Anvil.addShaped(<betterwithmods:material:43>,
 [
    [null, null, <dungeontactics:steel_nugget>, null],
    [<dungeontactics:steel_nugget>, <dungeontactics:steel_nugget>, <dungeontactics:steel_nugget>, <dungeontactics:steel_nugget>],
@@ -61,8 +90,8 @@ mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:43>,
 ]);
 
 // Greatarrow Head
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:material:0>);
-mods.betterwithmods.Anvil.addShaped(<betterwithaddons:material:0>, 
+Anvil.removeShaped(<betterwithaddons:material:0>);
+Anvil.addShaped(<betterwithaddons:material:0>, 
 [
    [null, <ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
    [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>, null],
@@ -70,22 +99,22 @@ mods.betterwithmods.Anvil.addShaped(<betterwithaddons:material:0>,
 ]);
 
 // Arrows
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow>);
-mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow>, #Greatarrow
+Anvil.removeShaped(<betterwithaddons:greatarrow>);
+Anvil.addShaped(<betterwithaddons:greatarrow>, #Greatarrow
 [
    [<ore:nuggetSteel>, <ore:nuggetSteel>, null],
    [<ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],
    [<ore:nuggetSteel>, <ore:nuggetSteel>, null]
 ]);
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow_destruction>);
-mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_destruction>, #Destructive Greatarrow
+Anvil.removeShaped(<betterwithaddons:greatarrow_destruction>);
+Anvil.addShaped(<betterwithaddons:greatarrow_destruction>, #Destructive Greatarrow
 [
    [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null],
    [null, <ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],
    [<ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, <ore:nuggetSoulforgedSteel>, null]
 ]);
-mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatarrow_lightning>);
-mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatarrow_lightning>, #Lightning Greatarrow
+Anvil.removeShaped(<betterwithaddons:greatarrow_lightning>);
+Anvil.addShaped(<betterwithaddons:greatarrow_lightning>, #Lightning Greatarrow
 [
    [<ore:latchRedstone>, <ore:latchRedstone>, <ore:nuggetSoulforgedSteel>, null],
    [null, <ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],

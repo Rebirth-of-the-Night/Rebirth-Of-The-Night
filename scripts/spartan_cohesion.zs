@@ -11,7 +11,6 @@ recipes.remove(<minecraft:golden_sword>);
 recipes.remove(<minecraft:stone_sword>);
 recipes.remove(<minecraft:iron_sword>);
 recipes.remove(<minecraft:diamond_sword>);
-recipes.remove(<aether_legacy:skyroot_sword>);
 recipes.remove(<aether_legacy:holystone_sword>);
 recipes.remove(<aether_legacy:zanite_sword>);
 recipes.remove(<aether_legacy:gravitite_sword>);
@@ -121,10 +120,10 @@ recipes.addShaped("Diamond_Sword", diamondsword,
  [[null,diamond,null],
   [null,diamond,null],
   [null,handle,null]]);
-recipes.addShaped("Skyroot_Sword", skyrootsword,
- [[null,skyroot,null],
-  [null,skyroot,null],
-  [null,handle,null]]);
+// recipes.addShaped("Skyroot_Sword", skyrootsword,
+//  [[null,skyroot,null],
+//   [null,skyroot,null],
+//   [null,handle,null]]);
 recipes.addShaped("Holystone_Sword", holystonesword,
  [[null,holystone,null],
   [null,holystone,null],

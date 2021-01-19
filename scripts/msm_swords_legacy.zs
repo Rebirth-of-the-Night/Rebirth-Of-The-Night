@@ -322,7 +322,8 @@ var flaming_sword = <aether_legacy:flaming_sword>;
 var lightning_sword = <aether_legacy:lightning_sword>;
 var holy_sword = <aether_legacy:holy_sword>;
 var gravitite_sword = <aether_legacy:gravitite_sword>;
-var skyroot_sword = <aether_legacy:skyroot_sword>;
+// var skyroot_sword = <aether_legacy:skyroot_sword>;
+var skyroot_sword = <aether_legacy:skyroot_stick>; // Temp
 var holystone_sword = <aether_legacy:holystone_sword>;
 
 recipes.remove(<msmlegacy:aethers_guard>);

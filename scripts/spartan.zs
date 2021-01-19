@@ -191,9 +191,9 @@ JEI.removeAndHide(<spartanweaponry:hammer_electrum>);
 JEI.removeAndHide(<spartanweaponry:katana_electrum>);
 JEI.removeAndHide(<spartanweaponry:staff_electrum>);
 
-JEI.removeAndHide(<spartancompat:handle_skyroot>);
-JEI.removeAndHide(<spartancompat:pole_skyroot>);
-JEI.removeAndHide(<spartancompat:crossbow_skyroot>);
+// JEI.removeAndHide(<spartancompat:handle_skyroot>); skyroot_replacement.zs
+// JEI.removeAndHide(<spartancompat:pole_skyroot>);
+// JEI.removeAndHide(<spartancompat:crossbow_skyroot>);
 JEI.removeAndHide(<spartancompat:crossbow_holystone>);
 JEI.removeAndHide(<spartancompat:crossbow_zanite>);
 JEI.removeAndHide(<spartancompat:crossbow_gravitite>);
@@ -238,7 +238,7 @@ JEI.removeAndHide(<spartanweaponry:throwing_knife_electrum>);
 JEI.removeAndHide(<spartancompat:throwing_knife_adamantium>);
 JEI.removeAndHide(<spartancompat:throwing_knife_mythril>);
 JEI.removeAndHide(<spartancompat:throwing_knife_onyx>);
-JEI.removeAndHide(<spartancompat:throwing_knife_skyroot>);
+// JEI.removeAndHide(<spartancompat:throwing_knife_skyroot>); skyroot_replacement.zs
 JEI.removeAndHide(<spartancompat:throwing_knife_zanite>);
 JEI.removeAndHide(<spartancompat:throwing_knife_gravitite>);
 JEI.removeAndHide(<spartancompat:throwing_knife_soulforged_steel>);
@@ -267,7 +267,7 @@ JEI.removeAndHide(<spartanweaponry:throwing_axe_electrum>);
 JEI.removeAndHide(<spartancompat:throwing_axe_adamantium>);
 JEI.removeAndHide(<spartancompat:throwing_axe_mythril>);
 JEI.removeAndHide(<spartancompat:throwing_axe_onyx>);
-JEI.removeAndHide(<spartancompat:throwing_axe_skyroot>);
+// JEI.removeAndHide(<spartancompat:throwing_axe_skyroot>); skyroot_replacement.zs
 JEI.removeAndHide(<spartancompat:throwing_axe_zanite>);
 JEI.removeAndHide(<spartancompat:throwing_axe_gravitite>);
 JEI.removeAndHide(<spartancompat:throwing_axe_soulforged_steel>);
