@@ -33,7 +33,7 @@ var hiddenItemsSpartan as string[] = [
     "staff"
 ] as string[];
 
-for s ini hiddenItemsSpartan {
+for s in hiddenItemsSpartan {
     hiddenItems += "spartancompat:"~s~"_skyroot";
 }
 

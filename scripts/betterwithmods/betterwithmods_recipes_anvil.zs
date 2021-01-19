@@ -47,7 +47,7 @@ Anvil.addShaped(<betterwithmods:steel_gearbox>, [
 ]);
 
 Anvil.removeShaped(steelGear.firstItem);
-Anvil.addShaped(steelGear.firstitem, [
+Anvil.addShaped(steelGear.firstItem, [
    [null, cSteelNugget, cSteelNugget, null],
    [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
    [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
