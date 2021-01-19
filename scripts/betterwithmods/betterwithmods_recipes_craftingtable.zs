@@ -34,7 +34,7 @@ val rice = <harvestcraft:riceitem>;
 recipes.remove(<betterwithmods:bucket>);
 recipes.addShaped("well_bucket", <betterwithmods:bucket>,
   [[<betterwithmods:rope>],
-  [<pyrotech:bucket_stone>|<minecraft:bucket>]]);
+  [<minecraft:bucket>]]);
 
 recipes.addShaped("wicker1", wicker*2,
   [[cattail,cattail],

@@ -47,8 +47,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:luna_quintessence>*4]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:luna_quintessence>*4])
   .addOutput(<contenttweaker:luna_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -57,8 +57,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:sol_quintessence>*4]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:sol_quintessence>*4])
   .addOutput(<contenttweaker:sol_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -67,8 +67,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:water_quintessence>*4]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:water_quintessence>*4])
   .addOutput(<contenttweaker:water_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -77,8 +77,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:air_quintessence>*4]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:air_quintessence>*4])
   .addOutput(<contenttweaker:air_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -87,8 +87,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:fire_quintessence>*4]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:fire_quintessence>*4])
   .addOutput(<contenttweaker:fire_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -97,8 +97,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:earth_quintessence>*4]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:earth_quintessence>*4])
   .addOutput(<contenttweaker:earth_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -109,8 +109,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:disint_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:disint_quintessence>*6])
   .addOutput(<contenttweaker:disint_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -119,8 +119,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:strength_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:strength_quintessence>*6])
   .addOutput(<contenttweaker:strength_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -129,8 +129,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:poison_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:poison_quintessence>*6])
   .addOutput(<contenttweaker:poison_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -139,8 +139,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:energy_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:energy_quintessence>*6])
   .addOutput(<contenttweaker:energy_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -149,8 +149,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:life_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:life_quintessence>*6])
   .addOutput(<contenttweaker:life_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -159,8 +159,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:soul_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:soul_quintessence>*6])
   .addOutput(<contenttweaker:soul_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -169,8 +169,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:death_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:death_quintessence>*6])
   .addOutput(<contenttweaker:death_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -179,8 +179,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:chaos_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:chaos_quintessence>*6])
   .addOutput(<contenttweaker:chaos_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -189,8 +189,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:knowledge_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:knowledge_quintessence>*6])
   .addOutput(<contenttweaker:knowledge_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -199,8 +199,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:mind_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:mind_quintessence>*6])
   .addOutput(<contenttweaker:mind_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -209,8 +209,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:balance_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:balance_quintessence>*6])
   .addOutput(<contenttweaker:balance_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -219,8 +219,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:creation_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:creation_quintessence>*6])
   .addOutput(<contenttweaker:creation_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -229,8 +229,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:order_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:order_quintessence>*6])
   .addOutput(<contenttweaker:order_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -239,8 +239,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:nature_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:nature_quintessence>*6])
   .addOutput(<contenttweaker:nature_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -249,8 +249,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:illusion_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:illusion_quintessence>*6])
   .addOutput(<contenttweaker:illusion_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -259,8 +259,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:trans_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:trans_quintessence>*6])
   .addOutput(<contenttweaker:trans_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -269,8 +269,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:arcane_quintessence>*6]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:arcane_quintessence>*6])
   .addOutput(<contenttweaker:arcane_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -281,8 +281,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:fae_quintessence>*8]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:fae_quintessence>*8])
   .addOutput(<contenttweaker:fae_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -291,8 +291,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:holding_quintessence>*8]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:holding_quintessence>*8])
   .addOutput(<contenttweaker:holding_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -301,8 +301,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:plague_quintessence>*8]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:plague_quintessence>*8])
   .addOutput(<contenttweaker:plague_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -311,8 +311,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:draconic_quintessence>*8]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:draconic_quintessence>*8])
   .addOutput(<contenttweaker:draconic_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -321,8 +321,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:aether_quintessence>*8]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:aether_quintessence>*8])
   .addOutput(<contenttweaker:aether_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -331,8 +331,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:nether_quintessence>*8]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:nether_quintessence>*8])
   .addOutput(<contenttweaker:nether_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -341,8 +341,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>],
-    [<contenttweaker:blank_rune>],
-    [<contenttweaker:end_quintessence>*8]])
+    [<contenttweaker:blank_rune>]])
+  .setSecondaryIngredients([<contenttweaker:end_quintessence>*8])
   .addOutput(<endreborn:item_end_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)

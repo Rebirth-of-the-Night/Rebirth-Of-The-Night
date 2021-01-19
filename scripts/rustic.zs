@@ -47,7 +47,6 @@ recipes.addShaped("crop_stake", <rustic:crop_stake>, [
 ]);
 
 // Iron and Gold Lanterns
-
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
 recipes.remove(<rustic:silver_lantern>);
@@ -58,7 +57,6 @@ var silver = <ore:ingotSilver>;
 var gold = <ore:ingotGold>;
 var torch = <minecraft:torch>;
 var glass = <minecraft:glass_pane>;
-
 
 recipes.addShaped("Gold Lantern", <rustic:golden_lantern>,[
 	[null, gold, null],
@@ -78,10 +76,7 @@ recipes.addShaped("Silver Lantern", <rustic:silver_lantern>,[
     [null, silver, null]
 ]);
 
-
-
 // Iron and Gold Candles
-
 recipes.remove(<rustic:candle>);
 recipes.remove(<rustic:candle_gold>);
 recipes.remove(<rustic:candle_silver>);
@@ -106,14 +101,22 @@ recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
     [null, silver, null]
 ]);
 
-
 // Grape seed compat (in case you want to grow rustic grapes using rope/crop stakes)
-
 // recipes.addShapeless("grape_seed_compat", <rustic:grape_stem>, [<harvestcraft:grapeseeditem>]);
 
-// Crushing tub recipes
+// CrushingTub recipes
 CrushingTub.addRecipe(<liquid:honey> * 250, null, <biomesoplenty:hive:3> * 1);
-CrushingTub.addRecipe(<liquid:grapejuice> * 250, null, <harvestcraft:grapeitem> * 1);
+
+CrushingTub.removeRecipe(<rustic:grapes>);
+CrushingTub.addRecipe(<liquid:grapejuice> * 250, <harvestcraft:grapeseeditem>, <rustic:grapes>);
+CrushingTub.addRecipe(<liquid:grapejuice> * 250, <harvestcraft:grapeseeditem>, <harvestcraft:grapeitem>);
+
+CrushingTub.removeRecipe(<rustic:ironberries>);
+CrushingTub.addRecipe(<liquid:ironberryjuice> * 250, <rustic:ironwoodseed>, <rustic:ironberries>);
+
+CrushingTub.removeRecipe(<rustic:olives>);
+CrushingTub.addRecipe(<liquid:oliveoil> * 250, <dynamictreesphc:oliveseed>, <rustic:olives>);
+CrushingTub.addRecipe(<liquid:oliveoil> * 250, <dynamictreesphc:oliveseed>, <harvestcraft:oliveitem>);
 
 // Misc
 furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);

@@ -27,13 +27,14 @@ StoneKiln.addRecipe("bwmcobble_to_stone", <minecraft:stone:0>, <minecraft:cobble
 StoneKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*210, true);
 StoneKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*210, true);
 StoneKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*210, true);
+StoneKiln.addRecipe("mudbrick_to_clay", <minecraft:clay_ball>, <biomesoplenty:mud_brick>, 20*210, true);
 StoneKiln.addRecipe("charge_to_burnt_goo", <betterslimes:black_slime>, <minecraft:fire_charge>, 20*300, true);
 StoneKiln.addRecipe("bwmmudbrick_efficient", <biomesoplenty:mud_brick>, <ore:ballMud>, 20*210, true);
 StoneKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*290, true);
 StoneKiln.addRecipe("charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 20*290, 0.25, [<biomesoplenty:ash>*2], true);
 StoneKiln.addRecipe("bwmflint_block", <betterwithmods:aesthetic:5>, <ore:gravel>, 20*290, true);
 StoneKiln.addRecipe("whitecobble_to_stone", <betterwithmods:aesthetic:6>, <betterwithmods:aesthetic:7>, 20*280, true);
-BrickKiln.addRecipe("endstone_to_enderslag", <betterwithmods:aesthetic:7>, <minecraft:end_stone>, 20*300, 0.3, [<betterwithmods:material:39>]);
+BrickKiln.addRecipe("endstone_to_enderslag", <betterwithmods:material:39>, <minecraft:end_stone>, 20*300, 0.7, [<betterwithmods:aesthetic:7>]);
 //food recipes
 StoneKiln.addRecipe("bwmcake", <minecraft:cake>, <betterwithmods:raw_pastry>, 20*60, true);
 StoneKiln.addRecipe("bwmpumpkinpie", <minecraft:pumpkin_pie>, <betterwithmods:raw_pastry:1>, 20*60, true);

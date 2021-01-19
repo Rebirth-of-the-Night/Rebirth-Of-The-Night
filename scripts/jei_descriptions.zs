@@ -433,6 +433,7 @@ JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed as
 JEI.addDescription(<quark:soul_bead>,"Warped bead formed from the cursed core of a wraith. Ingesting it releases the trapped spirits within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
 JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of information used long time ago by advanced civilizations. Using it while holding a book in the off-hand will register data of the structure its holder is inside.");
 JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with a fraction of the night. Can be obtained from the harvester.");
+JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an extraterrestrial being. Contains the unstable powder used to concentrate and refine meteorite.");
 
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */

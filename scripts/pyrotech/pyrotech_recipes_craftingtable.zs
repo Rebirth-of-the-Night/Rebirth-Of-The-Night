@@ -22,7 +22,7 @@ recipes.remove(<pyrotech:bellows>);
 recipes.remove(<pyrotech:rock:*>);
 JEI.removeAndHide(<pyrotech:sawmill_blade_stone>);
 JEI.removeAndHide(<pyrotech:sawmill_blade_flint>);
-JEI.removeandHide(<pyrotech:sawmill_blade_bone>);
+JEI.removeAndHide(<pyrotech:sawmill_blade_bone>);
 recipes.remove(<pyrotech:sawmill_blade_iron>);
 JEI.removeAndHide(<pyrotech:sawmill_blade_gold>);
 JEI.removeAndHide(<pyrotech:sawmill_blade_diamond>);

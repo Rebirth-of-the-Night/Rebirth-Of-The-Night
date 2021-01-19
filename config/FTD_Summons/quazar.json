@@ -35,7 +35,7 @@
           "maxSpawns": 6,
           "timeBetweenSpawns": 80,
           "timeToWaitBeforeSpawn": 100,
-		  "nbt":{Size:1}
+		      "nbt":{Size:1}
         }
       }
     }
@@ -48,7 +48,7 @@
       "m": {
         "item": "nyx:meteor_shard"
       },
-		"f": {
+		  "f": {
         "item": "netherex:fiery_netherrack"
       },
 	  	"b": {

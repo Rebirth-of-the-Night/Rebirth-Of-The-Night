@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.betterwithmods.Anvil;
 import mods.betterwithmods.Crucible;
+import mods.vanillaanvilrepair.addRepairEntry;
 
 /*
 nyx:meteor_hammer
@@ -36,6 +37,8 @@ nyx:meteor_helm
 nyx:lunar_water_bottle
 */
 
+val meteorItems = <nyx:meteor_axe> | <nyx:meteor_boots> | <nyx:meteor_bow> | <nyx:meteor_chest> | <nyx:meteor_hammer> | <nyx:meteor_helm> | <nyx:meteor_hoe> | <nyx:meteor_pants> | <nyx:meteor_pickaxe> | <nyx:meteor_shovel> | <nyx:meteor_sword>;
+addRepairEntry(meteorItems, <nyx:meteor_ingot>);
 
 recipes.remove(<nyx:meteor_dust>);
 
