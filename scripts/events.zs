@@ -9,6 +9,7 @@ import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.event.PlayerAnvilUpdateEvent;
 import crafttweaker.event.PlayerFillBucketEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerInteractEntityEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerSleepInBedEvent;
 import crafttweaker.event.PlayerTickEvent;
@@ -68,7 +69,7 @@ events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLi
 		print("Eaten hydra chop");
 		print("Player has food level"~event.player.foodStats.foodLevel);
 		
-		// Extra if statement to ensure event.player isn't called accidentally
+		// Extra if statement to ensure event.player isnt called accidentally
 		if (!(event.player.hasGameStage("eatenHydraChop")) & event.player.foodStats.foodLevel <= 9) {
 			event.player.addGameStage("eatenHydraChop");
 		}
@@ -141,6 +142,18 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 			event.player.give(<minecraft:glass_bottle>);
 			event.cancel();
 		}
+	}
+});
+
+events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent) {
+	if (event.player.world.isRemote() || isNull(event.target) || event.target instanceof IPlayer) {
+		return;
+	}
+
+	if (event.target.definition.id has <entity:minecraft:villager>.id || event.target.definition.id has <entity:toroquest:toroquest_toro_villager>.id) {
+		server.commandManager.executeCommand(event.player, "command goes here");
+	} else if (event.target.definition.id has <entity:rats:plague_doctor>.id) {
+		server.commandManager.executeCommand(event.player, "plague doctor command");
 	}
 });
 
