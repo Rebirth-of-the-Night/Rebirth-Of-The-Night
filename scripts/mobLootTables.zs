@@ -85,7 +85,7 @@ grapeSlime.clear();
 LootTable.removeGlobalItem("dungeontactics:phylactery");
 
 
-//Fish's Undead Rising
+//Fishs Undead Rising
 LootTable.removeGlobalItem("mod_lavacow:hyphae");
 
 //PrimitiveMobs ######################
@@ -340,6 +340,13 @@ lspiderMain.removeEntry("minecraft:string");
 lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
 lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
 lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
+
+val lootCaveSpider = LootTweaker.getTable("minecraft:entities/cave_spider");
+val lcavespiderMain = lootCaveSpider.getPool("main");
+lcavespiderMain.removeEntry("minecraft:string");
+lcavespiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
+lcavespiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
+lcavespiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
 //Sheep Intestines
 val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
