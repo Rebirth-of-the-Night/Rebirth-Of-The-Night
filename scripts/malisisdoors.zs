@@ -76,9 +76,14 @@ Anvil.addShaped(<malisisdoors:garage_door> * 9, [
    [<ore:ingotSteel>, <rustic:iron_lattice>,<rustic:iron_lattice>, <ore:latchRedstone>],
    [<ore:ingotSteel>, <rustic:iron_lattice>,<rustic:iron_lattice>, <ore:latchRedstone>]
 ]);
-Anvil.addShaped(<malisisdoors:carriage_door>, [
-   [<ore:StoneHugeBrick>, <ore:StoneHugeBrick>,<ore:StoneHugeBrick>, <ore:StoneHugeBrick>],
-   [<ore:StoneHugeBrick>, <ore:latchRedstone>,<ore:plankWood>, <ore:plankWood>],
-   [<ore:StoneHugeBrick>, <ore:latchRedstone>,<ore:plankWood>, <ore:plankWood>],
-   [<ore:StoneHugeBrick>, <ore:StoneHugeBrick>,<ore:StoneHugeBrick>, <ore:StoneHugeBrick>]
-]);
+
+for brick in <ore:StoneHugeBrick>.items {
+    for plank in <ore:plankWood>.items {
+        Anvil.addShaped(<malisisdoors:carriage_door>, [
+            [brick, brick, brick, brick],
+            [brick, <ore:latchRedstone>, plank, plank],
+            [brick, <ore:latchRedstone>, plank, plank],
+            [brick, brick, brick, brick]
+        ]);
+    }
+}

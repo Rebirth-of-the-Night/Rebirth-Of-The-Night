@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityDefinition;
 import mods.betterwithmods.MiniBlocks;
 import mods.jei.JEI;
+import mods.ltt.LootTable;
 
 recipes.remove(<rats:marbled_cheese_dirt>);
 recipes.addShapeless("marbled_cheese_dirt",<rats:marbled_cheese_dirt>,[<rats:marbled_cheese>,<ore:dirt>]);
@@ -110,12 +111,18 @@ mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
 
 
 // loot - b - gone
-mods.ltt.LootTable.removeGlobalItem("rats:chunky_cheese_token");
-mods.ltt.LootTable.removeGlobalItem("rats:token_fragment");
-mods.ltt.LootTable.removeGlobalItem("rats:token_piece");
-mods.ltt.LootTable.removeGlobalItem("rats:marbled_cheese_rat_head");
-mods.ltt.LootTable.removeGlobalItem("rats:rat_toga");
-mods.ltt.LootTable.removeGlobalItem("rats:ratlantean_flame");
+LootTable.removeGlobalItem("rats:chunky_cheese_token");
+LootTable.removeGlobalItem("rats:token_fragment");
+LootTable.removeGlobalItem("rats:token_piece");
+LootTable.removeGlobalItem("rats:marbled_cheese_rat_head");
+LootTable.removeGlobalItem("rats:rat_toga");
+LootTable.removeGlobalItem("rats:ratlantean_flame");
+
+// Duplicate discs
+JEI.removeAndHide(<rats:music_disc_mice_on_venus>);
+JEI.removeAndHide(<rats:music_disc_living_mice>);
+LootTable.removeGlobalItem("rats:music_disc_mice_on_venus");
+LootTable.removeGlobalItem("rats:music_disc_living_mice");
 
 //Mob Loot Tweaks
 <entity:rats:ratlantean_spirit>.removeDrop(<rats:ratlantean_flame>);
