@@ -1,1 +1,42 @@
-{}
+{
+  "aceltictale": {
+    "sounds": [
+      {
+        "name": "customdisc:aceltictale",
+        "preload": true,
+        "stream": true
+      }
+    ],
+    "subtitle": "customdisc.subtitle.aceltictale"
+  },
+  "alpha": {
+    "sounds": [
+      {
+        "name": "customdisc:alpha",
+        "preload": true,
+        "stream": true
+      }
+    ],
+    "subtitle": "customdisc.subtitle.alpha"
+  },
+  "alvae": {
+    "sounds": [
+      {
+        "name": "customdisc:alvae",
+        "preload": true,
+        "stream": true
+      }
+    ],
+    "subtitle": "customdisc.subtitle.alvae"
+  },
+  "dunockstreet_titleedit": {
+    "sounds": [
+      {
+        "name": "customdisc:dunockstreet_titleedit",
+        "preload": true,
+        "stream": true
+      }
+    ],
+    "subtitle": "customdisc.subtitle.dunockstreet_titleedit"
+  }
+}
