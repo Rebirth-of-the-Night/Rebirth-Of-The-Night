@@ -133,12 +133,11 @@ recipes.addShaped("wooden_longbow",<spartanweaponry:longbow_wood>,[
 
 // Shapeless handle and pole recipes
 recipes.removeByRecipeName("spartanweaponry:handle_string");
-recipes.addShapeless("string_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<minecraft:string>]);
+recipes.addShapeless("string_twine_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<minecraft:string>|<pyrotech:material:14>]);
 
 recipes.remove(<spartanweaponry:material:1>);
-recipes.addShapeless("wool_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:wool>]);
-recipes.addShapeless("string_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:string>]);
-recipes.addShapeless("leather_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:leather>]);
+recipes.addShapeless("wool_leather_pole",<spartanweaponry:material:1>*4,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<ore:wool>|<ore:leather>]);
+recipes.addShapeless("string_twine_pole",<spartanweaponry:material:1>,[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>,<minecraft:string>|<pyrotech:material:14>]);
 
 //Mythril
 Anvil.addShaped(<spartanshields:shield_basic_lead>, 
@@ -198,7 +197,7 @@ JEI.removeAndHide(<spartancompat:crossbow_holystone>);
 JEI.removeAndHide(<spartancompat:crossbow_zanite>);
 JEI.removeAndHide(<spartancompat:crossbow_gravitite>);
 
-// I'm sorry, little one.
+// Im sorry, little one.
 JEI.removeAndHide(<spartancompat:dagger_holystone>);
 JEI.removeAndHide(<spartancompat:longsword_holystone>);
 JEI.removeAndHide(<spartancompat:halberd_holystone>);

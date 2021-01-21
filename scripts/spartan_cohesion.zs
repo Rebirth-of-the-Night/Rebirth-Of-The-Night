@@ -24,14 +24,6 @@ recipes.remove(<twilightforest:steeleaf_sword>);
 recipes.remove(<twilightforest:knightmetal_sword>);
 recipes.remove(<twilightforest:giant_sword>);
 
-
-recipes.addShapeless("twine_handle", <spartanweaponry:material:0>,[<ore:stickWood>,<pyrotech:material:14>]);
-recipes.addShaped("twine_pole", <spartanweaponry:material:1>,[
-  [<ore:stickWood>,null],
-  [<ore:stickWood>,<pyrotech:material:14>],
-  [<ore:stickWood>,null]
-]);
-
 //Addition of weapon recipes that involve stick > handle + crossbow
 
 val wood = <ore:plankWood>;
