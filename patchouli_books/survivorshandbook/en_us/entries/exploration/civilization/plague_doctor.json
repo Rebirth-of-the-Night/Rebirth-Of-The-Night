@@ -2,7 +2,6 @@
   "name": "Plague Doctor",
   "icon": "rats:plague_doctor_mask",
   "category": "exploration_civilization",
-  "advancement": "triumph:advancements/progression/guidebook/plague_doctor",
   "pages": [
 	{
       "type": "text",

@@ -7,7 +7,6 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanintegrations.requirement.GameStages;
 
 
-
 RecipeBuilder.get("mage")
   .setShaped([
 	[<contenttweaker:vis_speck>, null, <contenttweaker:vis_speck>],
@@ -16,7 +15,7 @@ RecipeBuilder.get("mage")
   .addOutput(<multiblockmobs:soul_chassis>)
   .setMinimumTier(1)
   .setMaximumTier(1)
-  .addRequirement(GameStages.anyOf(["slayersjournal"]))
+  //.addRequirement(GameStages.anyOf(["slayersjournal"]))
   .create();
 
 recipes.remove(<from_the_depths:block_altar_of_summoning>);
@@ -31,6 +30,6 @@ RecipeBuilder.get("mage")
   .addOutput(<from_the_depths:block_altar_of_summoning>)
   .setMinimumTier(1)
   .setMaximumTier(1)
-  .addRequirement(GameStages.anyOf(["killedHarvester"]))
+  //.addRequirement(GameStages.anyOf(["killedHarvester"]))
   .create();
  

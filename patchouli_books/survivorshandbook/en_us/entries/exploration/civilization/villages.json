@@ -2,7 +2,6 @@
   "name": "Villages",
   "icon": "minecraft:iron_hoe",
   "category": "exploration_civilization",
-  "advancement": "triumph:advancements/progression/guidebook/village",
   "pages": [
 	{
       "type": "text",
