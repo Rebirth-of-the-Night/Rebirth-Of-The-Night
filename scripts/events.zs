@@ -115,7 +115,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 			event.cancel();
 		} else {
 			if (!isNull(ohItem) && <pyrotech:bucket_stone>.matches(ohItem)) {
-				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null ? ohItem.withAmount(ohItem.amount - 1));
+				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
 				event.player.give(ohItem.withAmount(1).updateTag({fluids: {FluidName: "water", Amount: 1000}}));
 				event.cancel();
 			}
