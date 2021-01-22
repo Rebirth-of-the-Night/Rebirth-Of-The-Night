@@ -144,13 +144,13 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 });
 
 events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent) {
-	if (event.player.world.isRemote() || isNull(event.target) || event.target instanceof IPlayer) {
+	if (event.player.world.isRemote() || isNull(event.target) || event.target instanceof IPlayer || isNull(event.target.definition)) {
 		return;
 	}
 
-	if (event.target.definition.id has <entity:minecraft:villager>.id || event.target.definition.id has <entity:toroquest:toroquest_toro_villager>.id) {
+	if (event.target.definition.id == "minecraft:villager" || event.target.definition.id == "toroquest:toroquest_toro_villager") {
 		server.commandManager.executeCommand(event.player, "command goes here");
-	} else if (event.target.definition.id has <entity:rats:plague_doctor>.id) {
+	} else if (event.target.definition.id == "rats:plague_doctor") {
 		server.commandManager.executeCommand(event.player, "plague doctor command");
 	}
 });
