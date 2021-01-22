@@ -142,7 +142,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		}
 	}
 });
-
+/*
 events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInteractEntityEvent) {
 	if (event.player.world.isRemote() || isNull(event.target) || event.target instanceof IPlayer || isNull(event.target.definition)) {
 		return;
@@ -153,7 +153,7 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 	} else if (event.target.definition.id == "rats:plague_doctor") {
 		server.commandManager.executeCommand(event.player, "advancement grant @p only triumph:advancements/progression/guidebook/plague_doctor");
 	}
-});
+});*/
 
 events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeathEvent) {
 	if (event.entityLivingBase.world.isRemote()) {
