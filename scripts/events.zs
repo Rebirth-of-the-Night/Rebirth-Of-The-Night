@@ -149,9 +149,9 @@ events.onPlayerInteractEntity(function(event as crafttweaker.event.PlayerInterac
 	}
 
 	if (event.target.definition.id == "minecraft:villager" || event.target.definition.id == "toroquest:toroquest_toro_villager") {
-		server.commandManager.executeCommand(event.player, "command goes here");
+		server.commandManager.executeCommand(event.player, "advancement grant @p only triumph:advancements/progression/guidebook/village");
 	} else if (event.target.definition.id == "rats:plague_doctor") {
-		server.commandManager.executeCommand(event.player, "plague doctor command");
+		server.commandManager.executeCommand(event.player, "advancement grant @p only triumph:advancements/progression/guidebook/plague_doctor");
 	}
 });
 
