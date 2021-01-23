@@ -4,9 +4,22 @@
   "category": "agriculture_crops",
   "pages": [
 	{
-      "type": "text",
-      "text": "Fiber crops are useful for their fiber rather than their grain or fruit, used mostly to make $(item)Paper$(), $(item)String$(), $(item)Cloth$() and other useful textiles."
-    },
+	  "type": "item_list_spotlight",
+	  "title": "Fiber Crops",
+	  "text": "Fiber crops are useful for their fiber rather than their grain or fruit, used mostly to make $(item)Paper$(), $(item)String$(), $(item)Cloth$() and other useful textiles.",
+	  "a":"betterwithmods:material:2",
+	  "a_t":"hemp!",
+	  "b":"harvestcraft:cottonitem",
+	  "b_t":"cotton!",
+	  "c":"harvestcraft:sisalitem",
+	  "c_t":"sisal!",
+	  "d":"harvestcraft:juteitem",
+	  "d_t":"jute!",
+	  "e":"harvestcraft:flaxitem",
+	  "e_t":"flax!",
+	  "f":"harvestcraft:kenafitem",
+	  "f_t":"kenaf!"
+	},
     {
       "type": "relations",
       "entries": [
