@@ -1,0 +1,17 @@
+{
+  "name": "Fiber Crops",
+  "icon": "pyrotech:material:2",
+  "category": "agriculture_crops",
+  "pages": [
+	{
+      "type": "text",
+      "text": "Fiber crops are useful for their fiber rather than their grain or fruit, used mostly to make $(item)Paper$(), $(item)String$(), $(item)Cloth$() and other useful textiles."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "survival/string"
+      ]
+    }
+  ]
+}

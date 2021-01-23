@@ -10,8 +10,7 @@
     {
       "type": "relations",
       "entries": [
-        "adapt/twine",
-        "gather/sticks"
+        "survival/string"
       ]
     }
   ]
