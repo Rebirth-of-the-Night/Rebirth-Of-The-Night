@@ -114,8 +114,8 @@ recipes.addShapeless("sandrock_conversion",<minecraft:sandstone>,[<pyrotech:rock
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
-[<pyrotech:material>,]);
-recipes.addShapeless(("twineToString", <minecraft:string>,[twine,twine,twine]);
+[<pyrotech:material>]);
+recipes.addShapeless("twineToString", <minecraft:string>,[twine,twine,twine]);
 recipes.addShaped("pyro_stone_brick", stoneBrick*8,
 [[<ore:stone>],
 [<ore:stone>]]);
