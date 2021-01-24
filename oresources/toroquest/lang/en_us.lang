@@ -16,6 +16,9 @@ entity.toroquest.mage.name=Voidwracked Ascendant
 entity.mage.name=Voidwracked Ascendant
 entity.toroquest_mage.name=Voidwracked Ascendant
 
+entity.toroquest.orc.name=Pigman
+entity.toroquest_orc.name=Pigman
+
 
 
 entity.toroquest.bas.name=Skeleton Overlord

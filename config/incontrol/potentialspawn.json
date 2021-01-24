@@ -299,6 +299,19 @@
     ]
   },
 
+// Regular Pigmen
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "toroquest:toroquest_orc",
+        "weight": 0.05,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+
   // Magma Monster Grunt Overworld
   {
     "dimension": [0,10],

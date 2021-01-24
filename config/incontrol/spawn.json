@@ -185,7 +185,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["2=simpleores:mythril_pickaxe","3=simpleores:onyx_pickaxe","2=primitivemobs:goblin_mace"],
-    "gamestage": "killedEnderDragon"
+    "gamestage": "enteredBeneath"
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
@@ -227,6 +227,26 @@
 	"onjoin": true,
 	"result": "deny"
   },
+  
+// Neutral Pigmen (orc)
+{
+   "dimension": -1,
+  "mob": "toroquest:toroquest_orc",
+  "maxlight": 2,
+  "minlight": 0,
+  "minheight": 40,
+  "random": 0.1,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+  "result": "allow"
+},
+{
+  "dimension": -1,
+  "mob": "toroquest:toroquest_orc",
+  "result": "deny"
+},
  
 // boss buff time!
 {
