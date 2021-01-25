@@ -1,0 +1,107 @@
+{
+    "zombie": {
+      "id": "minecraft:zombie",
+      "effects": [
+        {
+          "id": "minecraft:glowing",
+          "duration": 99999,
+          "amplifier": 0,
+          "showParticles": true
+        }
+      ]
+    },
+    "zombie_reinforcement_00": {
+      "id": "minecraft:husk",
+      "effects": [
+        {
+          "id": "minecraft:glowing",
+          "duration": 99999,
+          "amplifier": 0,
+          "showParticles": true
+        }
+      ],
+      "nbt": {
+        "HandItems": [
+          { "Count": 1, "id": "minecraft:wooden_sword" },
+          { "Count": 1, "id": "minecraft:shield" }
+        ],
+        "HandDropChances": [0.0, 0.0],
+        "ForgeData": {
+          "Onslaught": {
+            "CustomAI": {
+              "CounterAttack": { "Chance": 0.2 }
+            }
+          }
+        }
+      }
+    },
+    "zombie_reinforcement_01": {
+      "effects": [
+        {
+          "id": "minecraft:glowing",
+          "duration": 99999,
+          "amplifier": 0,
+          "showParticles": true
+        }
+      ],
+      "id": "minecraft:zombie",
+      "nbt": {
+        "ArmorItems": [
+          { "Count": 1, "id": "minecraft:leather_boots" },
+          { "Count": 1, "id": "minecraft:leather_leggings" },
+          { "Count": 1, "id": "minecraft:leather_chestplate" },
+          { "Count": 1, "id": "minecraft:leather_helmet" }
+        ],
+        "ArmorDropChances": [0.0, 0.0, 0.0, 0.0],
+        "ForgeData": {
+          "Onslaught": {
+            "CustomAI": {
+              "Lunge": { "Range": 6, "SpeedModifier": 0.3 }
+            }
+          }
+        }
+      }
+    },
+    "zombie_boss": {
+      "id": "minecraft:husk",
+      "effects": [
+        {
+          "id": "minecraft:strength",
+          "duration": 4800,
+          "amplifier": 0,
+          "showParticles": true
+        },
+        {
+          "id": "minecraft:glowing",
+          "duration": 99999,
+          "amplifier": 0,
+          "showParticles": true
+        }
+      ],
+      "extraLootTables": ["onslaught:zombie_boss"],
+      "nbt": {
+        "CustomName": "Bob Zombie",
+        "HandItems": [
+          { "Count": 1, "id": "minecraft:iron_sword" },
+          { "Count": 1, "id": "minecraft:shield" }
+        ],
+        "HandDropChances": [0.0, 0.0],
+        "ArmorItems": [
+          { "Count": 1, "id": "minecraft:iron_boots" },
+          { "Count": 1, "id": "minecraft:iron_leggings" },
+          { "Count": 1, "id": "minecraft:iron_chestplate" },
+          { "Count": 1, "id": "minecraft:iron_helmet" }
+        ],
+        "ArmorDropChances": [0.0, 0.0, 0.0, 0.0],
+        "ForgeData": {
+          "Onslaught": {
+            "CustomAI": {
+              "CounterAttack": { "Chance": 0.2 },
+              "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
+              "Mining": { "Range": 4, "SpeedModifier": 1 }
+            }
+          }
+        }
+      }
+    }
+  }
