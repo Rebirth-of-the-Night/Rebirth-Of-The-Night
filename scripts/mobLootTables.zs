@@ -305,7 +305,7 @@ var hauntedTools as int[string] = {
     "spartanweaponry:mace_silver" : 2,
     "spartanweaponry:glaive_silver" : 2,
     "spartanweaponry:staff_silver" : 2,
-    "spartanshields:shield_basic_silver" : 1,
+    "spartanshields:shield_basic_silver" : 1
 
     /*
     "spartanweaponry:dagger_diamond" : 1,
