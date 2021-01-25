@@ -118,7 +118,7 @@ recipes.addShaped("diamond_boots", <minecraft:diamond_boots>,
  [[diamond,null,diamond],
   [diamond,null,diamond]]);  
 
-
+/*
 //Diamond Spartan Weapons
 recipes.addShaped("diamond_dagger", <spartanweaponry:dagger_diamond>,
  [[diamond],
@@ -204,7 +204,7 @@ recipes.addShaped("diamond_bolt_quiver", <spartanweaponry:quiver_bolt_heavy>,
  [[leather,twine,leather],
   [leather,bolt,leather],
   [twine,diamond,twine]]);
-  
+  */
   
 //ruby
 recipes.remove(<atop:ruby_sword>);
