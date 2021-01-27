@@ -29,6 +29,22 @@
 				}
 			},
 			{
+				action:"add", CareerLevel:4,
+				buy:{
+					id:"betterwithaddons:japanmat",
+					Damage:[17],
+					Count:8
+				},
+				buyB:{
+					id:"minecraft:emerald",
+					Count:{min:3,max:5}
+				},
+				sell:{
+					id:"spartanweaponry:arrow_diamond",
+					Count:8
+				}
+			},
+			{
 				action:"add", CareerLevel:5,
 				buy:{
 					id:"minecraft:emerald",

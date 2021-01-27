@@ -51,7 +51,7 @@
 		},
 		{
 			action:"add", CareerLevel:2, maxUses:16, rewardExp:true, chance:0.75,
-				buy:{id:"nyx:comet_shard",
+				buy:{id:"nyx:meteor_shard",
 				Count:{min:2,max:4}},
 				sell:{id:"contenttweaker:nethercoin",
 				Count:{min:1,max:4}}

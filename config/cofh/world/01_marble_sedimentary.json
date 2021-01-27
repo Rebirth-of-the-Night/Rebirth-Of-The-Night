@@ -31,12 +31,12 @@
 						}
 					}
 				],
-				"radius": 11,
+				"radius": 18,
 				"height": 8,
 				"slim": true
 			},
 			"cluster-count": 1,
-			"chunk-chance": 55,
+			"chunk-chance": 35,
 			"min-height": 50,
 			"max-height": 200,
 			"retrogen": true,

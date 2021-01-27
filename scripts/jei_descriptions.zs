@@ -138,6 +138,7 @@ val twine = <pyrotech:material:14>;
 val durableTwine = <pyrotech:material:26>;
 val coade = <liquid:coade_stone>;
 val kaolin_quartz = <pyrotech:material:37>;
+val expertly_crafted_arrow_head = <betterwithaddons:japanmat:17>;
 
 JEI.addDescription(windmillBlade, "Can be crafted using any wooden slab, or cheaper using wooden siding once you build a Saw!");
 JEI.addDescription(millstone,"A necessary machine for every starting mechanist! Needs mechanical power from the top or bottom.");
@@ -164,6 +165,7 @@ JEI.addDescription(denseRedstone, "The purest variety of redstone, it pulsates f
 JEI.addDescription(kaolin_quartz, "A valuable cluster of high quality quartz obtained from the Nether; it contains a good amount of kaolin, the most important component in the elaboration of porcelain.");
 JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow. Used with Crop Stakes. Refer to your Almanac for details.");
 JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow. Used with Agricultural Rope. Refer to your Almanac for details.");
+JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquisite quality and was clearly made by the hand of someone who has dedicated their whole life to their profession. It may be used by an equally talented fletcher to make high grade arrows.");
 
 JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 JEI.removeAndHide(<base:wrench>);

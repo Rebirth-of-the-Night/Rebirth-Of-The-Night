@@ -131,6 +131,14 @@ recipes.addShaped("wooden_longbow",<spartanweaponry:longbow_wood>,[
     [bowMat,<minecraft:string>,<minecraft:string>]
 ]);
 
+// Diamond/High Grade Arrow
+recipes.remove(<spartanweaponry:arrow_diamond>);
+recipes.addShaped("high_grade_arrow",<spartanweaponry:arrow_diamond>*4,[
+    [<ore:ingotableGem>],
+    [<ore:stickWood>],
+    [<ore:feather>]
+]);
+
 // Shapeless handle and pole recipes
 recipes.removeByRecipeName("spartanweaponry:handle_string");
 recipes.addShapeless("string_twine_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<minecraft:string>|<pyrotech:material:14>]);
