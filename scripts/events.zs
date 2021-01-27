@@ -324,8 +324,20 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
 
 events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketEvent) {
-	if (!isNull(event.block) && !isNull(event.block.fluid) && event.block.fluid.name == <liquid:honey>.definition.name) {
+	if (isNull(event.block) || isNull(event.block.fluid)) {
+		return;
+	}
+	
+	if (event.block.fluid.name == <liquid:honey>.definition.name) {
 		event.cancel();
+		return;
+	}
+	
+	if (event.block.fluid.name == <liquid:hot_spring_water>.definition.name) {
+		event.result = event.emptyBucket.definition.id == "minecraft:bucket" ? <minecraft:water_bucket> : event.emptyBucket.updateTag({fluids: {FluidName: "water", Amount: 1000}});
+		if (event.emptyBucket.isDamageable) {
+			event.result.damageItem(1, event.player);
+		}
 		return;
 	}
 
