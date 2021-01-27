@@ -50,7 +50,8 @@
 				action:"add", CareerLevel:3,
 					buy:{id:"minecraft:emerald",
 					Count:{min:2,max:3}},
-					sell:{id:"betterwithmods:shaft",
+					sell:{id:"betterwithmods:material",
+					Damage:[36],
 					Count:{min:1,max:2}}
 			},
 			{
