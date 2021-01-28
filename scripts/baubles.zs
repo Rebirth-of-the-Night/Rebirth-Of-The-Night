@@ -312,10 +312,23 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-// Obsidian Skull
+// Obsidian Skull (Artifacts)
 
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <minecraft:skull>, <contenttweaker:vis_speck>],
+    [<endreborn:item_shard_obsidian>, <dungeontactics:charm_searing>, <endreborn:item_shard_obsidian>],
+    [<contenttweaker:vis_speck>, <contenttweaker:volatile_powder>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addOutput(<artifacts:obsidian_skull>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Obsidian Skull (BB)
+# temp disabled until Ascended items are added
 recipes.remove(<bountifulbaubles:trinketobsidianskull>);
-
+/*
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <contenttweaker:draconium>, <contenttweaker:vis_shard>],
@@ -327,6 +340,7 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+*/
 
 // Magic Mirror
 
