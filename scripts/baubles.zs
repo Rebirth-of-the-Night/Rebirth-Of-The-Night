@@ -209,6 +209,76 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+// Panic Amulet
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <contenttweaker:fortified_ruby>, <contenttweaker:vis_sliver>],
+    [<minecraft:potion>.withTag({Potion: "minecraft:swiftness"}), <bountifulbaubles:amuletsinempty>, <minecraft:potion>.withTag({Potion: "minecraft:swiftness"})],
+    [<contenttweaker:vis_sliver>, <dungeontactics:charm_heavy>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addTool(<contenttweaker:energy_rune>, 1)
+  .addOutput(<artifacts:panic_necklace>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Flame Amulet
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <contenttweaker:fortified_ruby>, <contenttweaker:vis_sliver>],
+    [<minecraft:magma>, <bountifulbaubles:amuletsinempty>, <minecraft:magma>],
+    [<contenttweaker:vis_sliver>, <dungeontactics:charm_searing>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addTool(<contenttweaker:chaos_rune>, 1)
+  .addOutput(<artifacts:flame_pendant>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Thorn Amulet
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <contenttweaker:pristine_diamond>, <contenttweaker:vis_sliver>],
+    [<minetraps:nails>, <bountifulbaubles:amuletsinempty>, <minetraps:nails>],
+    [<contenttweaker:vis_sliver>, <minetraps:barbed_wire>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addOutput(<artifacts:thorn_pendant>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Ultimate Wrath Amulet
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <contenttweaker:pristine_diamond>, <contenttweaker:vis_shard>],
+    [<contenttweaker:electrified_zanite>, <bountifulbaubles:amuletsinempty>, <contenttweaker:fireetched_onyx>],
+    [<contenttweaker:vis_shard>, <defiledlands:pellet_spiked>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:aether_rune>, 1)
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addOutput(<artifacts:ultimate_pendant>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Snorkel
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <cyclicmagic:fluid_pipe>, <contenttweaker:vis_sliver>],
+    [<contenttweaker:magicked_lens>, <betterwithmods:material:3>, <contenttweaker:magicked_lens>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:waterlogged_sapphire>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:water_rune>, 1)
+  .addTool(<contenttweaker:order_rune>, 1)
+  .addOutput(<artifacts:snorkel>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 // Ender dragon drops cracked scales AND scale fragments. Use fragments to craft into cracked scales. Use cracked scales to craft into the scale bauble.
 
 // Cracked Ender Dragon Scale
