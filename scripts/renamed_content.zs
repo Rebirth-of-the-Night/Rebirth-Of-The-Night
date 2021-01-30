@@ -165,7 +165,6 @@ for potion in potionMap{
 <artifacts:drinking_hat>.addTooltip(format.darkGreen("Mundane"));
 <artifacts:obsidian_skull>.addTooltip(format.darkGreen("Mundane"));
 
-<bountifulbaubles:trinketobsidianskull>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsingluttony>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinpride>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinwrath>.addTooltip(format.aqua("Arcane"));
@@ -182,6 +181,7 @@ for potion in potionMap{
 <artifacts:panic_necklace>.addTooltip(format.aqua("Arcane"));
 <deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));
 
+<bountifulbaubles:trinketobsidianskull>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:cobalt_shield>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:trinketmagiclenses>.addTooltip(format.darkPurple("Mystical"));
 <bountifulbaubles:ringoverclocking>.addTooltip(format.darkPurple("Mystical"));

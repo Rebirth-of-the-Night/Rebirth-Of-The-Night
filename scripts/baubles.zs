@@ -396,21 +396,19 @@ RecipeBuilder.get("mage")
   .create();
 
 // Obsidian Skull (BB)
-# temp disabled until Ascended items are added
+
 recipes.remove(<bountifulbaubles:trinketobsidianskull>);
-/*
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <contenttweaker:draconium>, <contenttweaker:vis_shard>],
-    [<endreborn:item_shard_obsidian>, <ore:dragonSkull>, <endreborn:item_shard_obsidian>],
-    [<contenttweaker:vis_shard>, <endreborn:item_shard_obsidian>, <contenttweaker:vis_shard>]])
-  .addTool(<contenttweaker:nether_rune>, 1)
+    [<iceandfire:dread_shard>, <ore:dragonSkull>, <iceandfire:dread_shard>],
+    [<contenttweaker:vis_shard>, <contenttweaker:fireetched_onyx>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:draconic_rune>, 1)
+  .addTool(<contenttweaker:nether_rune>, 1)
   .addOutput(<bountifulbaubles:trinketobsidianskull>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-*/
 
 // Magic Mirror
 
