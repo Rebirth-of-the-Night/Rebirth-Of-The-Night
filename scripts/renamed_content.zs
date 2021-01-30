@@ -198,6 +198,7 @@ for potion in potionMap{
 <bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
 <artifacts:night_vision_goggles>.addTooltip(format.gold("Ascended"));
 
+<bountifulbaubles:trinketobsidianskull>.displayName = "§bDraconic Skull";
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead_2>.addTooltip(format.darkGreen("Rare Trophy"));
