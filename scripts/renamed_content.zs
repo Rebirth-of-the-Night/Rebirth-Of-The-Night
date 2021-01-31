@@ -157,7 +157,7 @@ for potion in potionMap{
     }
 }
 
-// Runes and Magic Items
+// Magic items
 <bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
 <artifacts:whoopie_cushion>.addTooltip(format.gray("Inert"));
 
@@ -174,12 +174,15 @@ for potion in potionMap{
 <artifacts:flame_pendant>.addTooltip(format.aqua("Arcane"));
 <artifacts:thorn_pendant>.addTooltip(format.aqua("Arcane"));
 <artifacts:bottled_cloud>.addTooltip(format.aqua("Arcane"));
+<artifacts:bottled_fart>.addTooltip(format.aqua("Arcane"));
 <artifacts:feral_claws>.addTooltip(format.aqua("Arcane"));
 <artifacts:power_glove>.addTooltip(format.aqua("Arcane"));
 <artifacts:star_cloak>.addTooltip(format.aqua("Arcane"));
 <artifacts:pocket_piston>.addTooltip(format.aqua("Arcane"));
 <artifacts:panic_necklace>.addTooltip(format.aqua("Arcane"));
 <deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));
+<artifacts:magma_stone>.addTooltip(format.aqua("Arcane"));
+<randomthings:obsidianskullring>.addTooltip(format.aqua("Arcane"));
 
 <bountifulbaubles:trinketobsidianskull>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:cobalt_shield>.addTooltip(format.darkPurple("Mystical"));
@@ -192,6 +195,7 @@ for potion in potionMap{
 <bountifulbaubles:trinketbrokenheart>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:ultimate_pendant>.addTooltip(format.darkPurple("Mystical"));
 <artifacts:fire_gauntlet>.addTooltip(format.darkPurple("Mystical"));
+<randomthings:lavacharm>.addTooltip(format.darkPurple("Mystical"));
 
 <bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));
 <bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
@@ -199,6 +203,9 @@ for potion in potionMap{
 <artifacts:night_vision_goggles>.addTooltip(format.gold("Ascended"));
 
 <bountifulbaubles:trinketobsidianskull>.displayName = "§bDraconic Skull";
+<randomthings:lavacharm>.displayName = "§bLava Ring";
+<randomthings:obsidianskullring>.displayName = "§bObsidian Ring";
+
 
 // Better Animals Plus
 <betteranimalsplus:wolfhead_2>.addTooltip(format.darkGreen("Rare Trophy"));

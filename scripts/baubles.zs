@@ -286,6 +286,15 @@ recipes.remove(<bountifulbaubles:brokenblackdragonscale>);
 recipes.addShapeless("Cracked Scale", <bountifulbaubles:brokenblackdragonscale>,
    	[<endreborn:dragon_scales>, <endreborn:dragon_scales>, <endreborn:dragon_scales>]);
 
+
+// Whoopie Cushion
+
+recipes.addShaped(<artifacts:whoopie_cushion>, 
+[[null, <harvestcraft:hardenedleatheritem>, null],
+[<harvestcraft:hardenedleatheritem>, <betterwithmods:material:8>, <harvestcraft:hardenedleatheritem>], 
+[null, <harvestcraft:hardenedleatheritem>, null]]);
+
+
 // Balloon
 
 recipes.remove(<artifacts:shiny_red_balloon>);
@@ -382,6 +391,36 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+// Magma Stone
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <nyx:meteor_shard>, <contenttweaker:vis_sliver>],
+    [<nyx:meteor_shard>, <contenttweaker:heart_of_fire>, <nyx:meteor_shard>],
+    [<contenttweaker:vis_sliver>, <nyx:meteor_shard>, <contenttweaker:vis_sliver>]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addTool(<contenttweaker:chaos_rune>, 1)
+  .addOutput(<artifacts:magma_stone>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Fire Gauntlet
+
+recipes.remove(<artifacts:fire_gauntlet>);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <artifacts:magma_stone>, <contenttweaker:vis_shard>],
+    [<dungeontactics:steel_ingot>, <artifacts:feral_claws>, <dungeontactics:steel_ingot>],
+    [<contenttweaker:vis_shard>, <artifacts:power_glove>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:draconic_rune>, 1)
+  .addTool(<contenttweaker:nether_rune>, 1)
+  .addOutput(<artifacts:fire_gauntlet>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 // Obsidian Skull (Artifacts)
 
 RecipeBuilder.get("mage")
@@ -431,9 +470,10 @@ recipes.remove(<artifacts:cobalt_shield>);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_sliver>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_sliver>],
-    [<betterwithmods:material:20>, <spartanshields:shield_basic_iron>, <betterwithmods:material:20>],
-    [<contenttweaker:vis_sliver>, <betterwithmods:material:20>, <contenttweaker:vis_sliver>]])
+    [<contenttweaker:vis_shard>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_shard>],
+    [<betterwithmods:material:20>, <spartanshields:shield_basic_lead>, <betterwithmods:material:20>],
+    [<contenttweaker:vis_shard>, <betterwithmods:material:20>, <contenttweaker:vis_shard>]])
+  .addTool(<contenttweaker:draconic_rune>, 1)
   .addTool(<contenttweaker:strength_rune>, 1)
   .addOutput(<artifacts:cobalt_shield>)
   .setMinimumTier(1)
