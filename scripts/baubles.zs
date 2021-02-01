@@ -470,9 +470,9 @@ recipes.remove(<artifacts:cobalt_shield>);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_shard>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_shard>],
+    [<contenttweaker:vis_shard>, <contenttweaker:fortified_ruby>, <contenttweaker:vis_shard>],
     [<betterwithmods:material:20>, <spartanshields:shield_basic_lead>, <betterwithmods:material:20>],
-    [<contenttweaker:vis_shard>, <betterwithmods:material:20>, <contenttweaker:vis_shard>]])
+    [<contenttweaker:vis_shard>, <twilightforest:knightmetal_ingot>, <contenttweaker:vis_shard>]])
   .addTool(<contenttweaker:draconic_rune>, 1)
   .addTool(<contenttweaker:strength_rune>, 1)
   .addOutput(<artifacts:cobalt_shield>)
