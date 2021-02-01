@@ -28,6 +28,15 @@
     }
   },
   {
+    "content": "contenttweaker:blank_charm",
+    "unitWorth": 100,
+    "weight": 15,
+    "amount": {
+      "min": 4,
+      "max": 16
+    }
+  },
+  {
     "content": "minecraft:iron_sword",
     "unitWorth": 750,
     "weight": 15,

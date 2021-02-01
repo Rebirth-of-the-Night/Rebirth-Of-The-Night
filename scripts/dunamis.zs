@@ -5,6 +5,18 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+// Inert Charm
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <minecraft:clay_ball>, <contenttweaker:vis_speck>],
+    [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
+    [<contenttweaker:vis_speck>, <minecraft:clay_ball>, <contenttweaker:vis_speck>]])
+  .addOutput(<contenttweaker:blank_charm>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 //Magicked Lens
 RecipeBuilder.get("mage")
   .setShaped([
