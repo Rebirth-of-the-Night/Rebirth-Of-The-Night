@@ -327,7 +327,9 @@ val grain = <ore:listAllgrain>;
 val curryPowder = <harvestcraft:currypowderitem>;
 val lemonaide = <harvestcraft:lemonaideitem>;
 val almond = <ore:cropAlmond>;
-
+val cookie = <minecraft:cookie>;
+val durian = <ore:cropDurian>;
+val dye = <ore:dye>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
@@ -2511,7 +2513,7 @@ RecipeBuilder.get("chef")
   .create();
 // Chaos Cookie
 recipes.remove(<harvestcraft:chaoscookieitem>);
-ExSartagine.addKettleRecipe([batter,chocolateBar,<ore:dyePurple>],cookKitKettle,null,[<harvestcraft:chaoscookieitem>],80);
+ExSartagine.addKettleRecipe([batter,chocolateBar,<primitivemobs:camouflage_dye>],cookKitKettle,null,[<harvestcraft:chaoscookieitem>],80);
 // Chocolate Bacon
 recipes.remove(<harvestcraft:chocolatebaconitem>);
 ExSartagine.addKettleRecipe([cookedPork,chocolateBar],cookKitKettle,null,[<harvestcraft:chocolatebaconitem>],80);
@@ -2849,6 +2851,100 @@ Mortar.addRecipe(["stone"], <harvestcraft:fivespiceitem> * 5, 4, [<harvestcraft:
 //Char Siu
 recipes.remove(<harvestcraft:charsiuitem>);
 ExSartagine.addKettleRecipe([cookedPork,<harvestcraft:hoisinsauceitem>,<harvestcraft:fivespiceitem>,honey,<harvestcraft:soysauceitem>],cookKitKettle,null,[<harvestcraft:charsiuitem>],80);
+//Sweet and Sour Sauce
+recipes.remove(<harvestcraft:sweetandsoursauceitem>);
+ExSartagine.addKettleRecipe([<harvestcraft:ketchupitem>,honey,vinegar,<harvestcraft:soysauceitem>,ginger],cookKitKettle,null,[<harvestcraft:sweetandsoursauceitem>],80);
+//Sweet and Sour Chicken -&R
+recipes.remove(<harvestcraft:sweetandsourchickenitem>);
+ExSartagine.addKettleRecipe([rawChicken,pineapple,veggie,veggie,<harvestcraft:sweetandsourchickenitem>,<harvestcraft:ketchupitem>],cookKitKettle,null,[<harvestcraft:sweetandsoursauceitem>],80);
+//Bacon and Eggs
+recipes.remove(<harvestcraft:baconandeggsitem>);
+ExSartagine.addKettleRecipe([rawPork,egg],cookKitKettle,null,[<harvestcraft:baconandeggsitem>],80);
+//Biscuits and Gravy
+recipes.remove(<harvestcraft:biscuitsandgravyitem>);
+recipes.addShapeless("biscuitsandgravy", <harvestcraft:biscuitsandgravyitem>,[<harvestcraft:biscuititem>, <harvestcraft:gravyitem>,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("biscuitsandgravy")
+  .setShapeless([<harvestcraft:biscuititem>, <harvestcraft:gravyitem>])
+  .addOutput(<harvestcraft:biscuitsandgravyitem>)
+  .create();
+//Apple Fritter
+recipes.remove(<harvestcraft:applefritteritem>);
+ExSartagine.addKettleRecipe([apple,dough,honey,cookingOil],cookKitKettle,null,[<harvestcraft:applefritteritem>],80);
+//Sweet Tea
+recipes.remove(<harvestcraft:sweetteaitem>);
+recipes.addShapeless("sweettea", <harvestcraft:sweetteaitem>,[<harvestcraft:teaitem>,sugar,lemon,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("sweettea")
+  .setShapeless([<harvestcraft:teaitem>,sugar,lemon])
+  .addOutput(<harvestcraft:sweetteaitem>)
+  .create();
+//Creeper Cookie
+recipes.remove(<harvestcraft:creepercookieitem>);
+ExSartagine.addKettleRecipe([<rats:charged_creeper_chunk>,batter,sugar],cookKitKettle,null,[<harvestcraft:creepercookieitem>],80);
+//Honey Bread
+recipes.remove(<harvestcraft:honeybreaditem>);
+recipes.addShapeless("honeybread", <harvestcraft:honeybreaditem>,[bread,honey,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("honeybread")
+  .setShapeless([bread,honey])
+  .addOutput(<harvestcraft:honeybreaditem>)
+  .create();
+//Honey Bun
+recipes.remove(<harvestcraft:honeybunitem>);
+ExSartagine.addKettleRecipe([butter,egg,honey,dough],cookKitKettle,null,[<harvestcraft:honeybunitem>],80);
+//Honey Glazed Carrots
+recipes.remove(<harvestcraft:honeyglazedcarrotsitem>);
+ExSartagine.addKettleRecipe([carrot,honey,butter,lemon],cookKitKettle,null,[<harvestcraft:honeyglazedcarrotsitem>],80);
+//Honey Glazed Ham
+recipes.remove(<harvestcraft:honeyglazedhamitem>);
+ExSartagine.addKettleRecipe([rawPork,honey,blackPepper],cookKitKettle,null,[<harvestcraft:honeyglazedhamitem>],80);
+//Honey Soy Ribs
+recipes.remove(<harvestcraft:honeysoyribsitem>);
+ExSartagine.addKettleRecipe([rawPork,honey,<harvestcraft:soysauceitem>,garlic,vinegar],cookKitKettle,null,[<harvestcraft:honeysoyribsitem>],80);
+//Choco Voxels Cereal -&R
+recipes.remove(<harvestcraft:chocovoxelsitem>);
+recipes.addShapeless("chocovoxels", <harvestcraft:chocovoxelsitem>,[milkBottle,cookie,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("chocovoxels")
+  .setShapeless([milkBottle,cookie])
+  .addOutput(<harvestcraft:chocovoxelsitem>)
+  .create();
+//Cinnamon Toast
+recipes.remove(<harvestcraft:cinnamontoastitem>);
+ExSartagine.addKettleRecipe([bread,groundCinnamon,butter,sugar],cookKitKettle,null,[<harvestcraft:cinnamontoastitem>],80);
+//Corned Beef
+recipes.remove(<harvestcraft:cornedbeefitem>);
+ExSartagine.addKettleRecipe([rawBeef,salt,sugar,cinnamon,mustardSeed,<harvestcraft:peppercornitem>,spice,ginger],cookKitKettle,null,[<harvestcraft:cornedbeefitem>],80);
+//Cotton Candy
+recipes.remove(<harvestcraft:cottoncandyitem>);
+recipes.addShapeless("cottoncandy", <harvestcraft:cottoncandyitem>,[sugar,dye,<minecraft:paper>,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("cottoncandy")
+  .setFluid(waterBottle2)
+  .setShapeless([sugar,dye,<minecraft:paper>])
+  .addOutput(<harvestcraft:cottoncandyitem>)
+  .create();
+//Crackers
+recipes.remove(<harvestcraft:crackersitem>);
+ExSartagine.addKettleRecipe([dough,butter,salt],cookKitKettle,null,[<harvestcraft:crackersitem>],80);
+//Creeper Wings
+recipes.remove(<harvestcraft:creeperwingsitem>);
+ExSartagine.addKettleRecipe([cookedChicken,hotSauce,<minecraft:gunpowder>],cookKitKettle,null,[<harvestcraft:creeperwingsitem>],80);
+//Dhal
+recipes.remove(<harvestcraft:dhalitem>);
+ExSartagine.addKettleRecipe([peas,<harvestcraft:garammasalaitem>,<harvestcraft:curryleafitem>,mustardSeed,veggie,veggie,veggie],cookKitKettle,null,[<harvestcraft:dhalitem>],80);
+//Durian Muffin
+recipes.remove(<harvestcraft:durianmuffinitem>);
+ExSartagine.addKettleRecipe([durian,batter],cookKitKettle,null,[<harvestcraft:durianmuffinitem>],80);
+//Hummus
+recipes.remove(<harvestcraft:hummusitem>);
+recipes.addShapeless("hummus", <harvestcraft:hummusitem>,[beans,garlic,lemon,cookingOil,<harvestcraft:sesameseedsitem>,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("hummus")
+  .setShapeless([beans,garlic,lemon,cookingOil,<harvestcraft:sesameseedsitem>])
+  .addOutput(<harvestcraft:hummusitem>)
+  .create();
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
   <harvestcraft:raspberrymilkshakeitem>,
