@@ -111,7 +111,7 @@ Turntable.add(<minecraft:clay>, <betterwithmods:unfired_pottery:1>, [<minecraft:
 Turntable.add(<betterwithmods:unfired_pottery:1>, <contenttweaker:pot_unfired>, []);
 Turntable.add(<contenttweaker:pot_unfired>, <betterwithmods:unfired_pottery:3>, [<minecraft:clay_ball>]);
 Turntable.add(<betterwithmods:unfired_pottery:3>, <betterwithmods:unfired_pottery:2>, [<minecraft:clay_ball>]);
-Turntable.add(<betterwithmods:unfired_pottery:2>, <minecraft:air>, [<minecraft:clay_ball>]);
+Turntable.add(<betterwithmods:unfired_pottery:2>, [<minecraft:clay_ball>]);
 
 Turntable.add(<contenttweaker:modelingrefractory>, <contenttweaker:crucible>, [<pyrotech:material:4>*4]);
 Turntable.add(<contenttweaker:crucible>, <ceramics:clay_barrel_unfired>, [<pyrotech:material:4>*4]);
