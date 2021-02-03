@@ -306,26 +306,6 @@ var hauntedTools as int[string] = {
     "spartanweaponry:glaive_silver" : 2,
     "spartanweaponry:staff_silver" : 2,
     "spartanshields:shield_basic_silver" : 1
-
-    /*
-    "spartanweaponry:dagger_diamond" : 1,
-    "spartanweaponry:longsword_diamond" : 1,
-    "spartanweaponry:katana_diamond" : 1,
-    "spartanweaponry:saber_diamond" : 1,
-    "spartanweaponry:rapier_diamond" : 1,
-    "spartanweaponry:hammer_diamond" : 1,
-    "spartanweaponry:warhammer_diamond" : 1,
-    "spartanweaponry:spear_diamond" : 1,
-    "spartanweaponry:halberd_diamond" : 1,
-    "spartanweaponry:pike_diamond" : 1,
-    "spartanweaponry:lance_diamond" : 1,
-//  "spartanweaponry:throwing_knife_diamond" : 1,
-//  "spartanweaponry:throwing_axe_diamond" : 1,
-    "spartanweaponry:javelin_diamond" : 1,
-    "spartanweaponry:battleaxe_diamond" : 1,
-    "spartanweaponry:mace_diamond" : 1,
-    "spartanweaponry:glaive_diamond" : 1,
-    "spartanweaponry:staff_diamond" : 1*/
 } as int[string];
 
 for itemString, weight in hauntedTools {
