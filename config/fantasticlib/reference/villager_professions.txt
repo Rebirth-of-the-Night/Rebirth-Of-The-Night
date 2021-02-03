@@ -4,6 +4,7 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
+vtt:builder
 vtt:shady
 primitivemobs:miner
 primitivemobs:merchant
