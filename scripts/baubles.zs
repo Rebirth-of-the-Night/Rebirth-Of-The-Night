@@ -496,42 +496,6 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
    
-// Mixed Color Dragon Scale
-
-recipes.remove(<bountifulbaubles:trinketmixeddragonscale>);
-
-Infuser.addShaped(<bountifulbaubles:trinketmixeddragonscale>,[
-[null, <endreborn:dragon_scales>, null],
-[<bountifulbaubles:trinketbezoar>, <minecraft:fermented_spider_eye>, <bountifulbaubles:trinketblackdragonscale>], 
-[<dungeontactics:charm_toxic>, <contenttweaker:spectral_shard>, <dungeontactics:charm_barren>]], 64);
-   
-// Ring of Free Action
-
-recipes.remove(<bountifulbaubles:ringfreeaction>);
-
-Infuser.addShaped(<bountifulbaubles:ringfreeaction>,[
-[null, <ore:ingotMythril>, null],
-[<minecraft:web>, <bountifulbaubles:ringoverclocking>, <minecraft:web>], 
-[<dungeontactics:charm_heavy>, <contenttweaker:spectral_shard>, <bountifulbaubles:trinketshulkerheart>]], 64);
-   
-// Vitamins
-
-recipes.remove(<bountifulbaubles:trinketvitamins>);
-
-Infuser.addShaped(<bountifulbaubles:trinketvitamins>,[
-[<endreborn:catalyst>, <arcanearchives:radiant_dust>, <endreborn:catalyst>],
-[<twilightforest:giant_sword>, <minecraft:glass_bottle>, <twilightforest:giant_pickaxe>], 
-[<dungeontactics:charm_emaciated>, <contenttweaker:spectral_shard>, <dungeontactics:charm_sapping>]], 64);
-   
-// Forbidden Fruit
-
-recipes.remove(<bountifulbaubles:trinketapple>);
-
-Infuser.addShaped(<bountifulbaubles:trinketapple>,[
-[null, <aether_legacy:healing_stone>, null],
-[<twilightforest:hydra_chop>, <minecraft:golden_apple:1>, <twilightforest:moonworm_queen>], 
-[<dungeontactics:charm_famine>, <contenttweaker:spectral_shard>, <dungeontactics:charm_unintelligible>]], 64);
-   
 // Broken Heart
 
 recipes.remove(<bountifulbaubles:trinketbrokenheart>);
@@ -603,10 +567,10 @@ recipes.remove(<bountifulbaubles:trinketmagiclenses>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <glaretorch:itemglaretorchlarge2>, <contenttweaker:vis_shard>],
-    [<nyx:fallen_star>, <doggytalents:sunglasses>, <nyx:fallen_star>],
+    [<contenttweaker:magicked_lens>, <nyx:fallen_star>, <contenttweaker:magicked_lens>],
     [<contenttweaker:vis_shard>, <mowziesmobs:glowing_jelly>, <contenttweaker:vis_shard>]])
-  .addTool(<contenttweaker:luna_rune>, 1)
   .addTool(<contenttweaker:sol_rune>, 1)
+  .addTool(<contenttweaker:illusion_rune>, 1)
   .addOutput(<bountifulbaubles:trinketmagiclenses>)
   .setMinimumTier(1)
   .setMaximumTier(1)
@@ -631,17 +595,3 @@ RecipeBuilder.get("mage")
 
 //remove and hide original BB disint tablet
 JEI.removeAndHide(<bountifulbaubles:disintegrationtablet>);
-
-/////// non-baubles (is this legal? I will make it legal.)
-
-recipes.remove(<rats:plague_doctorate>);
-
-Infuser.addShaped(<rats:plague_doctorate>,[
-[<rats:plague_essence>, null, <rats:contaminated_food>],
-[<contenttweaker:plague_rune>.anyDamage().transformDamage(), <wards:enchanted_paper>, <contenttweaker:knowledge_rune>.anyDamage().transformDamage()], 
-[<rats:contaminated_food>, null, <rats:plague_essence>]], 8);
-
-
-
-
-

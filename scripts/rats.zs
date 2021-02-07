@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityDefinition;
 import mods.betterwithmods.MiniBlocks;
+import mods.artisanworktables.builder.RecipeBuilder;
 import mods.jei.JEI;
 import mods.ltt.LootTable;
 
@@ -203,6 +204,22 @@ recipes.addShaped("rats_warrior_upgrade",<rats:rat_upgrade_warrior>,[
     [<rats:rat_upgrade_health>,<rats:rat_upgrade_strength>,<rats:rat_upgrade_armor>],
     [<biomesoplenty:gem:1>,<minecraft:diamond_block>,<biomesoplenty:gem:1>]
 ]);
+
+// Plague Doctorate 
+
+recipes.remove(<rats:plague_doctorate>);
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>],
+    [<rats:plague_essence>],
+    [<wards:enchanted_paper>]])
+  .addTool(<contenttweaker:plague_rune>, 1)
+  .addTool(<contenttweaker:knowledge_rune>, 1)
+  .addOutput(<rats:plague_doctorate>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;
