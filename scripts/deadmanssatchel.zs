@@ -14,3 +14,5 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+
+Anvil.remove([<dungeontactics:magic_pouch>]);
