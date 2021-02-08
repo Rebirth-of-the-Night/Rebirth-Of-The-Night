@@ -390,3 +390,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:magic_scroll>.removeTooltip("^Sundering( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Enrage( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Hold LSHIFT to see enchantments description");
+
+// Satchel
+
+<deadmanssatchel:deadmanssatchel>.removeTooltip("^Owner( \\d+)?");

@@ -1197,15 +1197,6 @@ recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
 ]);
 //L'egg recipe is in inspirations.zs
 
-// Dead man satchel (Dust Bag)
-
-recipes.addShaped("dust_bag", <deadmanssatchel:deadmanssatchel>,[
-	[<ore:hideTanned>,<ore:durableFiber>, <ore:hideTanned>],
-    [<ore:hideTanned>, <contenttweaker:vis_speck>, <ore:hideTanned>],
-	[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>]
-]);
-
-
 // Enchanting Table change
 
 recipes.remove(<minecraft:enchanting_table>);
