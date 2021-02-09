@@ -660,7 +660,21 @@ mundaneWood.add(
     <minecraft:log:2>,
     <minecraft:log:3>,
     <minecraft:log2>,
-    <minecraft:log2:1>
+    <minecraft:log2:1>,
+    <biomesoplenty:log_1:6>,
+    <biomesoplenty:log_1:7>,
+    <biomesoplenty:log_2:4>,
+    <biomesoplenty:log_2:6>,
+    <biomesoplenty:log_0:5>,
+    <biomesoplenty:log_3:4>,
+    <biomesoplenty:log_3:5>,
+    <biomesoplenty:log_3:6>,
+    <biomesoplenty:log_2:5>,
+    <biomesoplenty:log_0:7>,
+    <rustic:log:0>,
+    <biomesoplenty:log_4:5>,
+    <biomesoplenty:log_3:7>,
+    <defiledlands:tenebra_log>
     );
 
 val arcaneWood = <ore:arcaneWood>;
@@ -673,7 +687,15 @@ arcaneWood.add(
     <twilightforest:giant_log>,
     <betternether:stalagnate_bark>,
     <betternether:reeds_block>,
-    <netherex:elder_mushroom_stem>
+    <netherex:elder_mushroom_stem>,
+    <biomesoplenty:log_1:4>,
+    <biomesoplenty:log_0:6>,
+    <biomesoplenty:log_2:7>,
+    <rustic:log:1>,
+    <betterwithmods:blood_log>,
+    <stygian:endlog>,
+    <twilightforest:root>,
+    <twilightforest:root:1>
     );
 
 val mysticalWood = <ore:mysticalWood>;
