@@ -124,4 +124,4 @@ key_Profile GUI:210
 key_TP Keybind:0
 key_key.fullscreenwindowed.unused:0
 key_Eye changing GUI:0
-key_key.elenaidodge.dodge:33
+key_key.elenaidodge.dodge:56

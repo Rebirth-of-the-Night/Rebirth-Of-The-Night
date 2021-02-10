@@ -332,14 +332,6 @@ events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketE
 		event.cancel();
 		return;
 	}
-	
-	if (event.block.fluid.name == <liquid:hot_spring_water>.definition.name) {
-		event.result = event.emptyBucket.definition.id == "minecraft:bucket" ? <minecraft:water_bucket> : event.emptyBucket.updateTag({fluids: {FluidName: "water", Amount: 1000}});
-		if (event.emptyBucket.isDamageable) {
-			event.result.damageItem(1, event.player);
-		}
-		return;
-	}
 
 	if (event.world.isRemote()) {
 		return;
