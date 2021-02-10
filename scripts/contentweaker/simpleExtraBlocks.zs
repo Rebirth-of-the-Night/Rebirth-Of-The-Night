@@ -704,6 +704,5 @@ yeast.setCreativeTab(<creativetab:harvestCraft>);
 yeast.setBlockSoundType(<soundtype:cloth>);
 yeast.dropHandler = function(drops, world, pos, state, fortune) {
 	drops.clear();
-	drops.add(<exsartagine:yeast>);
 };
 yeast.register();
