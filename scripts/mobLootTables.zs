@@ -12,20 +12,6 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 
 
-// harvester
-val enchantments1 as IEnchantmentDefinition[] = [<enchantment:nyx:lunar_edge>, <enchantment:minecraft:smite>, <enchantment:dungeontactics:runed
->];
-var enchantmentMap1 as IData = {};
-enchantmentMap1 += enchantments1[0].makeEnchantment(2).makeTag();
-enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
-enchantmentMap1 += enchantments1[2].makeEnchantment(1).makeTag();
-recipes.remove(<harvestersnight:harvester_scythe>);
-val harvester = LootTweaker.getTable("harvestersnight:entities/harvester");
-val harvesterMain = harvester.getPool("scythe");
-harvesterMain.removeEntry("harvestersnight:harvester_scythe");
-<entity:harvestersnight:harvester>.addDrop(<harvestersnight:harvester_scythe>.withTag(enchantmentMap1) % 100, 1, 1);
-
-
 //vanilla
 val irongolem = LootTweaker.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
