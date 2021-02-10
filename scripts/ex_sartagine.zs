@@ -59,7 +59,7 @@ recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
 ]);
 
 recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
-    <animania:carving_knife:*>,
+    <animania:carving_knife:*>.anyDamage(),
     <minecraft:glass_bottle>,
     <minecraft:bowl>,
     <ore:smallKnife>
