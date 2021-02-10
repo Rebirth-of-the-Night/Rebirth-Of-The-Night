@@ -1,6 +1,14 @@
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
 
+import crafttweaker.data.IData;
+
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.IEntityItem;
+
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.event.EntityLivingDeathEvent;
@@ -13,10 +21,6 @@ import crafttweaker.event.PlayerInteractEntityEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerSleepInBedEvent;
 import crafttweaker.event.PlayerTickEvent;
-
-import crafttweaker.entity.IEntity;
-import crafttweaker.entity.IEntityEquipmentSlot;
-import crafttweaker.entity.IEntityItem;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.WeightedItemStack;
@@ -238,6 +242,28 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 			drops += <behgameon:accessory_1>.createEntityItem(event.entityLivingBase.world, event.entityLivingBase.position);
 		}
 		event.drops = drops as IEntityItem[];
+	}
+	
+	// Harvester scythe enchantment
+	if (event.entityLivingBase.definition.id == "harvestersnight:harvester") {
+		var drops = event.drops as IEntityItem[];
+		if (drops.length == 0) {
+			return;
+		}
+		for i in 0 to drops.length {
+			if (drops[i].item.definition.id == <harvestersnight:harvester_scythe>.definition.id) {
+				val enchantments1 as IEnchantmentDefinition[] = [<enchantment:nyx:lunar_edge>, <enchantment:minecraft:smite>, <enchantment:dungeontactics:runed>];
+				
+				var enchantmentMap1 as IData = {};
+				
+				enchantmentMap1 += enchantments1[0].makeEnchantment(2).makeTag();
+				enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
+				enchantmentMap1 += enchantments1[2].makeEnchantment(1).makeTag();
+				
+				drops[i] = <harvestersnight:harvester_scythe>.withTag(enchantmentMap1).createEntityItem(drops[i].world, drops[i].position);
+			}
+		}
+		event.drops = drops;
 	}
 
 	// Wither skull replacement
