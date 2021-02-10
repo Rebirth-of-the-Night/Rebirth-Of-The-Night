@@ -681,7 +681,7 @@ yeast_flour.dropHandler = function(drops, world, pos, state, fortune) {
 	drops.clear();
 };
 yeast_flour.onRandomTick = function(world, pos, state) {
-	if ((world.getWorldTime() % 1) < 20) {
+	if ((world.getWorldTime() % 20) < 1) {
 		world.setBlockState(<block:contenttweaker:yeast>, pos);
 	}
 };
@@ -690,13 +690,13 @@ yeast_flour.register();
 //Yeast
 var yeast = VanillaFactory.createBlock("yeast", <blockmaterial:Cloth>);
 yeast.axisAlignedBB = AxisAlignedBB.create(
-     4.0 / 16.0,
-     0.0 / 16.0,
-     1.0 / 16.0,
+	4.0 / 16.0,
+	0.0 / 16.0,
+	1.0 / 16.0,
 	12.0 / 16.0,
-    6.0 / 16.0,
-    15.0 / 16.0
-	);
+	6.0 / 16.0,
+	15.0 / 16.0
+);
 yeast.setFullBlock(false);
 yeast.setLightOpacity(0);
 yeast.setBlockLayer("TRANSLUCENT");
