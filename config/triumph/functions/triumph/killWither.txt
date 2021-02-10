@@ -5,6 +5,3 @@ title @a subtitle {"text":"Voices of lost souls scream in fury...", "color":"yel
 title @a title {"text":"Rebirth of the Nether", "bold":false, "italic":true, "color":"red"}
 playsound minecraft:entity.wither.hurt ambient @p ~ ~ ~ 0.8 0.5
 gamestage silentadd @a killedWither
-gamestage silentadd @a killedHarvester
-gamestage silentadd @a killedQuazar
-gamestage silentadd @a minedMythril
