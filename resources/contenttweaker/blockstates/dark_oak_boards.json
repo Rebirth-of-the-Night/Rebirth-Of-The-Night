@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/dark_oak_boards",
-      "particle": "contenttweaker:blocks/dark_oak_boards"
+      "texture": "contenttweaker:blocks/boards/dark_oak_boards",
+      "particle": "contenttweaker:blocks/boards/dark_oak_boards"
     },
     "model": "base:storage",
     "uvlock": true,

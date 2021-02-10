@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/redwood_boards",
-      "particle": "contenttweaker:blocks/redwood_boards"
+      "texture": "contenttweaker:blocks/boards/redwood_boards",
+      "particle": "contenttweaker:blocks/boards/redwood_boards"
     },
     "model": "base:storage",
     "uvlock": true,

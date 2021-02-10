@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/umbran_boards",
-      "particle": "contenttweaker:blocks/umbran_boards"
+      "texture": "contenttweaker:blocks/boards/umbran_boards",
+      "particle": "contenttweaker:blocks/boards/umbran_boards"
     },
     "model": "base:storage",
     "uvlock": true,

@@ -1,0 +1,25 @@
+{
+  "comment": "",
+  "data": [
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "minecraft",
+        "name": "red_flower",
+        "meta": 32767
+      }
+    },
+    {
+      "comment": "",
+      "entry_type": "generic",
+      "block": {
+        "comment": "Flower",
+        "mod_id": "minecraft",
+        "name": "yellow_flower",
+        "meta": 32767
+      }
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/acacia_boards",
-      "particle": "contenttweaker:blocks/acacia_boards"
+      "texture": "contenttweaker:blocks/boards/acacia_boards",
+      "particle": "contenttweaker:blocks/boards/acacia_boards"
     },
     "model": "base:storage",
     "uvlock": true,

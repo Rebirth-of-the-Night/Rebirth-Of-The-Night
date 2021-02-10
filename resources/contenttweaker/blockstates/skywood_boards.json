@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/skywood_boards",
-      "particle": "contenttweaker:blocks/skywood_boards"
+      "texture": "contenttweaker:blocks/boards/skywood_boards",
+      "particle": "contenttweaker:blocks/boards/skywood_boards"
     },
     "model": "base:storage",
     "uvlock": true,

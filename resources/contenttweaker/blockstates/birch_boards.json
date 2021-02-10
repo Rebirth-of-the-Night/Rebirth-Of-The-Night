@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/birch_boards",
-      "particle": "contenttweaker:blocks/birch_boards"
+      "texture": "contenttweaker:blocks/boards/birch_boards",
+      "particle": "contenttweaker:blocks/boards/birch_boards"
     },
     "model": "base:storage",
     "uvlock": true,

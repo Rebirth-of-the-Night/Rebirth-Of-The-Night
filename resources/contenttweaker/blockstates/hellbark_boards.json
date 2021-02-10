@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/hellbark_boards",
-      "particle": "contenttweaker:blocks/hellbark_boards"
+      "texture": "contenttweaker:blocks/boards/hellbark_boards",
+      "particle": "contenttweaker:blocks/boards/hellbark_boards"
     },
     "model": "base:storage",
     "uvlock": true,

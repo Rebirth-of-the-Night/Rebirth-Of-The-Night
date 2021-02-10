@@ -3,9 +3,8 @@
 
 weight=3
 embed_into_distance=1
-acceptable_target_blocks=
 
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,end_stone,obsidian,purpur_block,iron_bars,purpur_slab,purpur_pillar,netherrack,soul_sand,quartz_ore
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,end_stone,obsidian,purpur_block,iron_bars,purpur_slab,purpur_pillar,netherrack,soul_sand,quartz_ore,aether_legacy:aercloud
 
 dimensions=3,4,4
 allowable_overhang=0
@@ -16,9 +15,9 @@ preserve_lava=0
 preserve_plants=1
 
 rule1=0,100,minecraft:dirt-0
-rule2=0,100,minecraft:stone-0
-rule3=0,100,minecraft:emerald_ore-0
-rule4=0,100,minecraft:clay-0
+rule2=0,100,undergroundbiomes:metamorphic_stone-5
+rule3=0,100,osv:emerald_ore_undergroundbiomes_metamorphic_stone_5-1
+rule4=0,100,undergroundbiomes:metamorphic_clay-5
 
 layer
 0,2,1,0

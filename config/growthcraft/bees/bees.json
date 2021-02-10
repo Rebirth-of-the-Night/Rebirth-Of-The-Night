@@ -1,0 +1,16 @@
+{
+  "comment": "",
+  "data": [
+    {
+      "comment": "Growthcraft\u0027s default bee",
+      "item": {
+        "ore": null,
+        "comment": "Bee",
+        "mod_id": "growthcraft_bees",
+        "name": "bee",
+        "amount": 1,
+        "meta": 0
+      }
+    }
+  ]
+}

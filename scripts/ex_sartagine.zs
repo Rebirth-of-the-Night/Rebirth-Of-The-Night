@@ -59,7 +59,7 @@ recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
 ]);
 
 recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
-    <animania:carving_knife>,
+    <animania:carving_knife:*>,
     <minecraft:glass_bottle>,
     <minecraft:bowl>,
     <ore:smallKnife>
@@ -3110,7 +3110,7 @@ RecipeBuilder.get("chef")
   .create();
 //Fortune Cookie
 recipes.remove(<harvestcraft:fortunecookieitem>);
-ExSartagine.addKettleRecipe([dough,sugar,<minecraft:paper>],cookKitKettle,null,[<harvestcraft:fortunecookieitem>],80);
+ExSartagine.addKettleRecipe([dough,sugar],<minecraft:paper>,null,[<harvestcraft:fortunecookieitem>],80);
 //Deviled egg
 recipes.remove(<harvestcraft:deviledeggitem>);
 ArcaneWorld.createRitualCreateItem("deviled_egg", "Deviled Egg", <harvestcraft:deviledeggitem>, [egg,mayo,mustard,salt,blackPepper]);
@@ -3144,10 +3144,41 @@ val hiddenFoods as IItemStack[] = [
   <harvestcraft:ironbrewitem>,
   <harvestcraft:turkishdelightitem>,
   <harvestcraft:greeneggsandhamitem>,
-  <harvestcraft:theatreboxitem>
+  <harvestcraft:theatreboxitem>,
+  <harvestcraft:riceitem>
 ];
 
 for item in hiddenFoods {
   JEI.removeAndHide(item);
 }
 //!!!!!!!! Concept idea: "ye olde stew"; an item that can be crafted by throwing an assortment of raw ingredients to the pot which will result in a variable amount of said item. Intended for players who don't want to fiddle with different recipes and just want to use their random ingredients without thinking much. This item has absolutely no other use or buff other than just its saturation and food level; insipid due to lack of ability in its preparation
+
+
+//Growthcraft
+/*
+Here goes every reworked brewing kettle recipe from Growthcraft translated to Ex_sartagine's kettle.
+
+=============================NOTES=============================
+-Recipes are placeholders until proper liquid handling is added to Ex Sartagine.
+-Brewing recipes take much longer than normal cooking
+=============================SYMBOLS=============================
+
+*/
+//Rennet
+ExSartagine.addKettleRecipe([<rustic:wind_thistle>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
+ExSartagine.addKettleRecipe([<rustic:wind_thistle>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([<growthcraft_milk:thistle>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
+ExSartagine.addKettleRecipe([<growthcraft_milk:thistle>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([<growthcraft_milk:stomach>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
+ExSartagine.addKettleRecipe([<growthcraft_milk:stomach>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([fig],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
+ExSartagine.addKettleRecipe([fig],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([<ore:agedMold>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
+ExSartagine.addKettleRecipe([<ore:agedMold>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+//Skim Milk
+ExSartagine.addKettleRecipe([sugar],null,<liquid:fluid_skim_milk>*250,<liquid:fluid_condensed_milk>*250,[null],600);//liquid
+ExSartagine.addKettleRecipe([sugar],<growthcraft_milk:bottlefluid_skim_milk>,null,[<growthcraft_milk:bottlefluid_condensed_milk>],600);//item
+//Rice Water
+ExSartagine.addKettleRecipe([rice],null,waterBottle,<liquid:fluid_booze_sake_water>*250,[<growthcraft_rice:rice_cooked>],600);//liquid
+ExSartagine.addKettleRecipe([rice],waterBottleItem,null,[<growthcraft_rice:rice_cooked>,<growthcraft_rice:sakebottle>],600);//item
+

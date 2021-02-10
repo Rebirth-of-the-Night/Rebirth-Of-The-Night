@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/tenebra_boards",
-      "particle": "contenttweaker:blocks/tenebra_boards"
+      "texture": "contenttweaker:blocks/boards/tenebra_boards",
+      "particle": "contenttweaker:blocks/boards/tenebra_boards"
     },
     "model": "base:storage",
     "uvlock": true,

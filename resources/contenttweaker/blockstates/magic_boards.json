@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/magic_boards",
-      "particle": "contenttweaker:blocks/magic_boards"
+      "texture": "contenttweaker:blocks/boards/magic_boards",
+      "particle": "contenttweaker:blocks/boards/magic_boards"
     },
     "model": "base:storage",
     "uvlock": true,

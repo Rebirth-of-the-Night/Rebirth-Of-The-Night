@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/fir_boards",
-      "particle": "contenttweaker:blocks/fir_boards"
+      "texture": "contenttweaker:blocks/boards/fir_boards",
+      "particle": "contenttweaker:blocks/boards/fir_boards"
     },
     "model": "base:storage",
     "uvlock": true,

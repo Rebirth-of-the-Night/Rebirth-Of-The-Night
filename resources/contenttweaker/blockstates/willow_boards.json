@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/willow_boards",
-      "particle": "contenttweaker:blocks/willow_boards"
+      "texture": "contenttweaker:blocks/boards/willow_boards",
+      "particle": "contenttweaker:blocks/boards/willow_boards"
     },
     "model": "base:storage",
     "uvlock": true,

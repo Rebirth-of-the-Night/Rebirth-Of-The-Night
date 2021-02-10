@@ -19,6 +19,9 @@ JEI.removeAndHide(<rustic:tomato>);
 JEI.removeAndHide(<rustic:dust_tiny_iron>);
 EvaporatingBasin.removeRecipe(<rustic:dust_tiny_iron>);
 
+JEI.removeAndHide(<rustic:brewing_barrel>);
+JEI.hideCategory("rustic.brewing");
+
 JEI.hide(<rustic:honey>); // Weird honey item that places fluid
 <ore:materialPressedwax>.add(<rustic:beeswax>);
 var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});
@@ -108,15 +111,15 @@ recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
 CrushingTub.addRecipe(<liquid:honey> * 250, null, <biomesoplenty:hive:3> * 1);
 
 CrushingTub.removeRecipe(<rustic:grapes>);
-CrushingTub.addRecipe(<liquid:grapejuice> * 250, <harvestcraft:grapeseeditem>, <rustic:grapes>);
-CrushingTub.addRecipe(<liquid:grapejuice> * 250, <harvestcraft:grapeseeditem>, <harvestcraft:grapeitem>);
-
 CrushingTub.removeRecipe(<rustic:ironberries>);
-CrushingTub.addRecipe(<liquid:ironberryjuice> * 250, <rustic:ironwoodseed>, <rustic:ironberries>);
-
 CrushingTub.removeRecipe(<rustic:olives>);
-CrushingTub.addRecipe(<liquid:oliveoil> * 250, <dynamictreesphc:oliveseed>, <rustic:olives>);
-CrushingTub.addRecipe(<liquid:oliveoil> * 250, <dynamictreesphc:oliveseed>, <harvestcraft:oliveitem>);
+CrushingTub.removeRecipe(<minecraft:apple>);
+
+// CrushingTub growthcraft compat
+CrushingTub.addRecipe(<liquid:fluid_booze_apple_juice>*160, <dynamictrees:appleseed>, <minecraft:apple>*1);
+CrushingTub.addRecipe(<liquid:fluid_booze_purple_juice>*160, null, <growthcraft_grapes:grape:10>*1);
+CrushingTub.addRecipe(<liquid:fluid_booze_red_juice>*160, null, <growthcraft_grapes:grape:14>*1);
+CrushingTub.addRecipe(<liquid:fluid_booze_green_juice>*160, null, <growthcraft_grapes:grape:13>*1);
 
 // Misc
 furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);

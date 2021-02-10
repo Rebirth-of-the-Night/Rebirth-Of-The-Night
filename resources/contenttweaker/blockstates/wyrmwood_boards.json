@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/wyrmwood_boards",
-      "particle": "contenttweaker:blocks/wyrmwood_boards"
+      "texture": "contenttweaker:blocks/boards/wyrmwood_boards",
+      "particle": "contenttweaker:blocks/boards/wyrmwood_boards"
     },
     "model": "base:storage",
     "uvlock": true,

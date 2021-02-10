@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/mahogany_boards",
-      "particle": "contenttweaker:blocks/mahogany_boards"
+      "texture": "contenttweaker:blocks/boards/mahogany_boards",
+      "particle": "contenttweaker:blocks/boards/mahogany_boards"
     },
     "model": "base:storage",
     "uvlock": true,

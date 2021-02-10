@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/pine_boards",
-      "particle": "contenttweaker:blocks/pine_boards"
+      "texture": "contenttweaker:blocks/boards/pine_boards",
+      "particle": "contenttweaker:blocks/boards/pine_boards"
     },
     "model": "base:storage",
     "uvlock": true,
