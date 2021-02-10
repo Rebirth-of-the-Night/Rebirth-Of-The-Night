@@ -10,23 +10,4 @@ import crafttweaker.item.WeightedItemStack;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
 
-var scythe = <harvestersnight:harvester_scythe>;
-var lapis = <minecraft:dye:4>;
-
-
-val enchantments1 as IEnchantmentDefinition[] = [<enchantment:nyx:lunar_edge>, <enchantment:minecraft:smite>, <enchantment:dungeontactics:runed
->];
-
-var enchantmentMap1 as IData = {};
-
-enchantmentMap1 += enchantments1[0].makeEnchantment(1).makeTag();
-enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
-enchantmentMap1 += enchantments1[2].makeEnchantment(1).makeTag();
-
 recipes.remove(<harvestersnight:harvester_scythe>);
-
-val harvester = LootTweaker.getTable("harvestersnight:entities/harvester");
-val harvesterMain = harvester.getPool("scythe");
-harvesterMain.removeEntry("harvestersnight:harvester_scythe");
-
-<entity:harvestersnight:harvester>.addDrop(<harvestersnight:harvester_scythe>.withTag(enchantmentMap1) % 100, 1, 1);
