@@ -26,9 +26,7 @@ JEI.hide(<rustic:honey>); // Weird honey item that places fluid
 <ore:materialPressedwax>.add(<rustic:beeswax>);
 var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});
 
-<ore:foodHoneydropNoTransform>.addAll(<ore:foodHoneydrop>);
-<ore:foodHoneydrop>.add(honeyBottle.transformReplace(<minecraft:glass_bottle>));
-<ore:foodHoneydropNoTransform>.add(honeyBottle);
+<ore:foodHoneydrop>.add(honeyBottle);
 <ore:dropHoney>.add(honeyBottle);
 <ore:foodHoney>.add(honeyBottle);
 <ore:listAllsugar>.add(<rustic:honeycomb>);
