@@ -226,7 +226,7 @@ var hauntedTools as int[string] = {
     "spartanweaponry:staff_stone" : 8,
     "spartanshields:shield_basic_stone" : 7,
 
-// copper
+    // copper
     "simpleores:copper_axe" : 6,
     "spartanweaponry:dagger_copper" : 6,
     "spartanweaponry:hammer_copper" : 6,
@@ -242,8 +242,8 @@ var hauntedTools as int[string] = {
     "spartanweaponry:longsword_iron" : 5,
     "spartanweaponry:katana_iron" : 5,
     "spartanweaponry:caestus_studded" : 5,
-    "spartanweaponry:saber_iron" : 5,
-    "spartanweaponry:rapier_iron" : 5,
+    "spartanweaponry:saber_iron" : 4,
+    "spartanweaponry:rapier_iron" : 4,
     "spartanweaponry:greatsword_iron" : 4,
     "spartanweaponry:hammer_iron" : 5,
     "spartanweaponry:warhammer_iron" : 5,
@@ -267,8 +267,8 @@ var hauntedTools as int[string] = {
     "spartanweaponry:dagger_gold" : 3,
     "spartanweaponry:longsword_gold" : 3,
     "spartanweaponry:katana_gold" : 3,
-    "spartanweaponry:saber_gold" : 3,
-    "spartanweaponry:rapier_gold" : 3,
+    "spartanweaponry:saber_gold" : 2,
+    "spartanweaponry:rapier_gold" : 2,
     "spartanweaponry:greatsword_gold" : 2,
     "spartanweaponry:hammer_gold" : 3,
     "spartanweaponry:warhammer_gold" : 3,
@@ -294,8 +294,8 @@ var hauntedTools as int[string] = {
     "spartanweaponry:dagger_silver" : 2,
     "spartanweaponry:longsword_silver" : 2,
     "spartanweaponry:katana_silver" : 2,
-    "spartanweaponry:saber_silver" : 2,
-    "spartanweaponry:rapier_silver" : 2,
+    "spartanweaponry:saber_silver" : 1,
+    "spartanweaponry:rapier_silver" : 1,
     "spartanweaponry:greatsword_silver" : 1,
     "spartanweaponry:hammer_silver" : 2,
     "spartanweaponry:warhammer_silver" : 2,
@@ -315,6 +315,17 @@ var hauntedTools as int[string] = {
 
 for itemString, weight in hauntedTools {
     LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(itemUtils.getItem(itemString), weight as int, itemString);
+}
+
+var hauntedToolsRemove as string[] = {
+    "minecraft:diamond_sword",
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_hoe"
+} as string[];
+
+for i in hauntedToolsRemove {
+    LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").removeEntry(i);
 }
 
 
