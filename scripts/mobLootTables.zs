@@ -317,12 +317,12 @@ for itemString, weight in hauntedTools {
     LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").addItemEntry(itemUtils.getItem(itemString), weight as int, itemString);
 }
 
-var hauntedToolsRemove as string[] = {
+var hauntedToolsRemove as string[] = [
     "minecraft:diamond_sword",
     "minecraft:diamond_pickaxe",
     "minecraft:diamond_axe",
     "minecraft:diamond_hoe"
-} as string[];
+] as string[];
 
 for i in hauntedToolsRemove {
     LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").removeEntry(i);
