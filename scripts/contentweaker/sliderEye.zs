@@ -36,7 +36,7 @@ val arcane_focus = VanillaFactory.createItem("arcane_focus");
 arcane_focus.maxStackSize = 1;
 arcane_focus.maxDamage = 16;
 arcane_focus.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    if (world.getBlockState(pos) == <block:dimstack:bedrock:0> && player.getHeldItem(hand).damage < player.getHeldItem(hand).maxDamage) {
+    if (world.getBlockState(pos).getBlock().definition.id == "dimstack:bedrock" && player.getHeldItem(hand).damage > 0) {
         if (!world.remote) {
             world.setBlockState(<block:minecraft:air>, pos);
             player.getHeldItem(hand).damage(-1, player);
