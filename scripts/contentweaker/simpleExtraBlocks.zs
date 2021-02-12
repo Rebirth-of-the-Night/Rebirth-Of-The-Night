@@ -677,11 +677,13 @@ yeast_flour.setLightOpacity(0);
 yeast_flour.setBlockLayer("TRANSLUCENT");
 yeast_flour.setCreativeTab(<creativetab:harvestCraft>);
 yeast_flour.setBlockSoundType(<soundtype:cloth>);
+yeast_flour.setBlockHardness(1.0);
+yeast_flour.setToolClass("shovel");
 yeast_flour.dropHandler = function(drops, world, pos, state, fortune) {
 	drops.clear();
 };
 yeast_flour.onRandomTick = function(world, pos, state) {
-	if ((world.getWorldTime() % 20) < 1) {
+	if ((world.getWorldTime() % 20) == 0) {
 		world.setBlockState(<block:contenttweaker:yeast>, pos);
 	}
 };
@@ -702,6 +704,8 @@ yeast.setLightOpacity(0);
 yeast.setBlockLayer("TRANSLUCENT");
 yeast.setCreativeTab(<creativetab:harvestCraft>);
 yeast.setBlockSoundType(<soundtype:cloth>);
+yeast.setBlockHardness(1.0);
+yeast.setToolClass("shovel");
 yeast.dropHandler = function(drops, world, pos, state, fortune) {
 	drops.clear();
 };
