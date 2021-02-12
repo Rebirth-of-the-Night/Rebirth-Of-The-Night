@@ -1,8 +1,11 @@
 itemGroup.Dunamis=Dunamis
-item.contenttweaker.arcane_focus.name=Arcane Focus
-item.contenttweaker.unattuned_focus.name=Unattuned Focus
-item.contenttweaker.magicked_lens.name=Magicked Lens
-item.contenttweaker.slider_eye.name=Slider Eye
+item.contenttweaker.scepter_base_mundane.name=§bMundane Scepter Base
+item.contenttweaker.scepter_base_arcane.name=§bArcane Scepter Base
+item.contenttweaker.scepter_base_mystical.name=§bMystical Scepter Base
+item.contenttweaker.arcane_focus.name=§bArcane Focus
+item.contenttweaker.unattuned_focus.name=§bUnattuned Focus
+item.contenttweaker.magicked_lens.name=§bMagicked Lens
+item.contenttweaker.slider_eye.name=§bSlider Eye
 item.contenttweaker.dummy_wand_companion.name=§bWand of Companion
 item.contenttweaker.dummy_wand_cook.name=§bWand of Cooking
 item.contenttweaker.dummy_wand_disarm.name=§bWand of Disarming

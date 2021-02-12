@@ -61,6 +61,20 @@ val wandMystical = VanillaFactory.createItem("wand_base_mystical");
 wandMystical.setCreativeTab(<creativetab:Dunamis>);
 wandMystical.register();
 
+// Scepter bases
+
+val scepterMundane = VanillaFactory.createItem("scepter_base_mundane");
+scepterMundane.setCreativeTab(<creativetab:Dunamis>);
+scepterMundane.register();
+
+val scepterArcane = VanillaFactory.createItem("scepter_base_arcane");
+scepterArcane.setCreativeTab(<creativetab:Dunamis>);
+scepterArcane.register();
+
+val scepterMystical = VanillaFactory.createItem("scepter_base_mystical");
+scepterMystical.setCreativeTab(<creativetab:Dunamis>);
+scepterMystical.register();
+
 //inert
 val blankRune = VanillaFactory.createItem("blank_rune");
 blankRune.setCreativeTab(<creativetab:Dunamis>);

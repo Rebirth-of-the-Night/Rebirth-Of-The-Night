@@ -5,6 +5,39 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+// Scepters
+#bases
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <minecraft:dye:4>, <ore:ingotGold>],
+    [<contenttweaker:vis_speck>, <ore:mundaneWood>, <minecraft:dye:4>],
+    [<ore:ingotGold>, <contenttweaker:vis_speck>, <contenttweaker:vis_speck>]])
+  .addOutput(<contenttweaker:scepter_base_mundane>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_sliver>, <betternether:cincinnasite>, <aether_legacy:enchanted_gravitite>],
+    [<contenttweaker:vis_sliver>, <ore:arcaneWood>, <betternether:cincinnasite>],
+    [<aether_legacy:enchanted_gravitite>, <contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>]])
+  .addOutput(<contenttweaker:scepter_base_arcane>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_shard>, <nyx:meteor_shard>, <simpleores:mythril_ingot>],
+    [<contenttweaker:vis_shard>, <ore:mysticalWood>, <nyx:meteor_shard>],
+    [<simpleores:mythril_ingot>, <contenttweaker:vis_shard>, <contenttweaker:vis_shard>]])
+  .addOutput(<contenttweaker:scepter_base_mystical>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 // Inert Charm
 
 RecipeBuilder.get("mage")
