@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
+import crafttweaker.liquid.ILiquidStack;
 import mods.jei.JEI;
 import mods.inspirations.Cauldron;
 
@@ -55,3 +56,18 @@ for potion in potionRemoval {
     JEI.removeAndHide(<minecraft:lingering_potion>.withTag({Potion: potion}), true);
     JEI.removeAndHide(<minecraft:tipped_arrow>.withTag({Potion: potion}), true);
 }
+###Bottling and vice versa of fluids###
+
+//function taken lovingly from my own pack, don't worry, not stolen because i allow it! -Landie
+function CauldronBottling(fluid as ILiquidStack, item as IItemStack, leftover as IItemStack, levels as int) as void {
+    Cauldron.addFillRecipe(item, fluid, levels, leftover);
+    Cauldron.addFluidRecipe(item, leftover, fluid, levels);
+}
+//Rennet
+CauldronBottling(<liquid:fluid_rennet>, <growthcraft_milk:bottlefluid_rennet>, <minecraft:glass_bottle>, 1);
+//Skim Milk
+CauldronBottling(<liquid:fluid_skim_milk>, <growthcraft_milk:bottlefluid_skim_milk>, <minecraft:glass_bottle>, 1);
+//Condensed Milk
+CauldronBottling(<liquid:fluid_condensed_milk>, <growthcraft_milk:bottlefluid_condensed_milk>, <minecraft:glass_bottle>, 1);
+//Rice Water
+CauldronBottling(<liquid:fluid_booze_sake_water>, <growthcraft_rice:sakebottle>, <minecraft:glass_bottle>, 1);
