@@ -1,4 +1,3 @@
-tile.dungeontactics:mithril_block.name=Mysterious Lodestone
 enchantment.dungeontactics:restoration=Restoration
 enchantment.dungeontactics:satiate=Satiating
 enchantment.dungeontactics:forging=Forging
@@ -411,7 +410,7 @@ tile.dungeontactics:powered_bars.name=Powered Bars
 tile.dungeontactics:wither_web.name=Wither Web
 tile.dungeontactics:silver_block.name=Silver Block
 tile.dungeontactics:steel_block.name=Block of Crucible Steel
-tile.dungeontactics:mithril_block.name=Mithril Block
+tile.dungeontactics:mithril_block.name=Mysterious Lodestone
 tile.dungeontactics:obsidianbrick.name=Decorative Obsidian
 tile.dungeontactics:dungeon_glass.name=Dungeon Glass
 tile.dungeontactics:silver_ore.name=Silver Ore
