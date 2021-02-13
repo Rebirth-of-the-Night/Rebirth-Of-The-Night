@@ -6,5 +6,21 @@
 			"species" : "dead",
 			"chance": 0.2
 		} 
+	},
+	{
+		"__comment" : "Vanilla swamps now have actual willows in them",
+		"select": { "name": "minecraft:swampland" },
+		"apply": {
+			"species": {
+				"random": {
+					"willow": 30,
+					"oakswamp": 3,
+					"mushroombrn": 1,
+					"dead": 2,
+				},
+				"method": "replace"
+			},
+			"chance": 0.85
+		}
 	}
 ]
