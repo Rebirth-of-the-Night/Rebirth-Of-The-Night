@@ -104,17 +104,38 @@ spawn_scroll.register();
 val cutdiamond = VanillaFactory.createItem("pristine_diamond");
 cutdiamond.register();
 
+val cutdiamond2 = VanillaFactory.createItem("suntouched_diamond");
+cutdiamond2.register();
+
 val cutemerald = VanillaFactory.createItem("poisonetched_emerald");
 cutemerald.register();
+
+val cutemerald2 = VanillaFactory.createItem("overgrown_emerald");
+cutemerald2.register();
 
 val cutruby = VanillaFactory.createItem("fortified_ruby");
 cutruby.register();
 
+val cutruby2 = VanillaFactory.createItem("earthen_ruby");
+cutruby2.register();
+
 val cutsapphire = VanillaFactory.createItem("waterlogged_sapphire");
 cutsapphire.register();
 
+val cutsapphire2 = VanillaFactory.createItem("abyssal_sapphire");
+cutsapphire2.register();
+
 val cutperidot = VanillaFactory.createItem("lucky_peridot");
 cutperidot.register();
+
+val cutperidot2 = VanillaFactory.createItem("parity_peridot");
+cutperidot2.register();
+
+val cutcin = VanillaFactory.createItem("flashfired_cincinnasite");
+cutcin.register();
+
+val cutcin2 = VanillaFactory.createItem("corrupted_cincinnasite");
+cutcin2.register();
 
 val cutonyx1 = VanillaFactory.createItem("fireetched_onyx");
 cutonyx1.register();
@@ -131,8 +152,14 @@ cutzanite2.register();
 val cutexorite = VanillaFactory.createItem("voidseen_exorite");
 cutexorite.register();
 
+val cutexorite2 = VanillaFactory.createItem("animated_exorite");
+cutexorite2.register();
+
 val cutcarminite = VanillaFactory.createItem("draconium");
 cutcarminite.register();
+
+val cutcarminite2 = VanillaFactory.createItem("faerite");
+cutcarminite2.register();
 
 // Peculiar items
 val heartofthefallen = VanillaFactory.createItem("heartofthefallen");
