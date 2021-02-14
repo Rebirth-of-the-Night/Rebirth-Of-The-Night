@@ -1,5 +1,5 @@
 setIcon("contenttweaker:kompy_kantrip")
-setTitle("Talk is Cheep")
+setTitle("Kompy's Kantrip")
 setDescription("Craft Dev Relic 4 of 6 by crafting Whimsicott.")
 
 addParent("triumph:advancements/eastereggs/root")
