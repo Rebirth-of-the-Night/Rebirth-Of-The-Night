@@ -36,10 +36,10 @@ lvl 9 = 108
 lvl 10(9) = 108
 	dragonsteel
 */
-GraniteAnvil.addRecipe("break_clay_brick",<minecraft:brick>*4, <minecraft:brick_block>, 4,"hammer", true);
-GraniteAnvil.addRecipe("break_stone_brick",<pyrotech:material:16>*4, <minecraft:stonebrick>, 4,"hammer", true);
-GraniteAnvil.addRecipe("break_nether_brick",<minecraft:netherbrick>*4, <minecraft:nether_brick>, 4,"hammer", true);
-GraniteAnvil.addRecipe("break_mud_brick",<biomesoplenty:mud_brick>*4, <biomesoplenty:mud_brick_block>, 4,"hammer", true);
+GraniteAnvil.addRecipe("break_clay_brick",<minecraft:brick>*4, <minecraft:brick_block>, 4,"pickaxe", true);
+GraniteAnvil.addRecipe("break_stone_brick",<pyrotech:material:16>*4, <minecraft:stonebrick>, 4,"pickaxe", true);
+GraniteAnvil.addRecipe("break_nether_brick",<minecraft:netherbrick>*4, <minecraft:nether_brick>, 4,"pickaxe", true);
+GraniteAnvil.addRecipe("break_mud_brick",<biomesoplenty:mud_brick>*4, <biomesoplenty:mud_brick_block>, 4,"pickaxe", true);
 GraniteAnvil.addRecipe("white_stone_recycling",<betterwithmods:material:39>, <betterwithaddons:whitebrick:2>,4,"hammer", true);
 GraniteAnvil.addRecipe("prismarine_to_prismshard",<minecraft:prismarine_shard>*3, <minecraft:prismarine>, 18,"pickaxe", true);
 GraniteAnvil.addRecipe("prism_brick_to_prismshard_to",<minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 18,"pickaxe", true);
@@ -49,6 +49,7 @@ GraniteAnvil.addRecipe("halite_to_salt",<animania:salt>*3, <contenttweaker:halit
 GraniteAnvil.addRecipe("dense_redstone",<minecraft:redstone>*2,<pyrotech:material:36>, 2,"hammer", true);
 GraniteAnvil.addRecipe("dense_quartz",<minecraft:quartz>*2,<pyrotech:material:37>, 2,"pickaxe", true);
 GraniteAnvil.addRecipe("ambrosium_to_magic_dust", <contenttweaker:magic_blend>*3, <aether_legacy:ambrosium_block>, 16,"hammer", true);
+GraniteAnvil.addRecipe("lignite_to_coal_dust", <betterwithmods:material:18>, <undergroundbiomes:sedimentary_stone:4>, 16,"hammer", true);
 GraniteAnvil.addRecipe("raw_endorium", <endreborn:item_raw_endorium>, <ore:enderpearl>, 16, "hammer", true);
 GraniteAnvil.addRecipe("lormyte_crystal", <endreborn:item_lormyte_crystal>*2, <endreborn:block_lormyte_crystal>, 8, "hammer", true);
 GraniteAnvil.addRecipe("obsidian_dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);
