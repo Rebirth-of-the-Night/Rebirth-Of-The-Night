@@ -98,27 +98,45 @@ GCT.replaceRecipe("monitoring_crystal", <arcanearchives:monitoring_crystal>, [<a
 GCT.replaceRecipe("radiant_trove", <arcanearchives:radiant_trove>*12, [<arcanearchives:shaped_quartz>*4, <arcanearchives:material_interface>, <arcanearchives:radiant_chest>, <endreborn:item_end_essence>*4]);
 
 // Cut gems
-GCT.addRecipe("pristine_diamond", <contenttweaker:pristine_diamond>, [<minecraft:diamond>, <minecraft:gold_nugget>*6, <minecraft:redstone>*12]);
+GCT.addRecipe("pristine_diamond", <contenttweaker:pristine_diamond>, [<minecraft:diamond>, <minecraft:gold_nugget>*6, <minecraft:redstone>*8, <rustic:cloudsbluff>*4]);
 
-GCT.addRecipe("poisonetched_emerald", <contenttweaker:poisonetched_emerald>, [<minecraft:emerald>, <betterwithmods:material:54>*6, <betterwithmods:material:37>*12]);
+GCT.addRecipe("suntouched_diamond", <contenttweaker:suntouched_diamond>, [<minecraft:diamond>, <contenttweaker:material_part:29>*6, <minecraft:gold_nugget>*4, <dungeontactics:diamond_nugget>*8]);
 
-GCT.addRecipe("waterlogged_sapphire", <contenttweaker:waterlogged_sapphire>, [<biomesoplenty:gem:6>, <nyx:lunar_water_bottle>, <betterwithaddons:wheatmat>*12]);
+GCT.addRecipe("poisonetched_emerald", <contenttweaker:poisonetched_emerald>, [<minecraft:emerald>, <betterwithmods:material:54>*6, <betterwithmods:material:37>*8, <mowziesmobs:naga_fang>*4]);
 
-GCT.addRecipe("lucky_peridot", <contenttweaker:lucky_peridot>, [<biomesoplenty:gem:2>, <contenttweaker:4leaf_clover>, <minecraft:dye:4>*12]);
+GCT.addRecipe("overgrown_emerald", <contenttweaker:overgrown_emerald>, [<minecraft:emerald>, <ore:treeLeaves>*4, <ore:treeSapling>*6, <betterwithmods:fertilizer>*8]);
 
-GCT.addRecipe("fortified_ruby", <contenttweaker:fortified_ruby>, [<biomesoplenty:gem:1>, <endreborn:item_shard_obsidian>*6, <endreborn:catalyst>*12]);
+GCT.addRecipe("waterlogged_sapphire", <contenttweaker:waterlogged_sapphire>, [<biomesoplenty:gem:6>, <minecraft:snowball>*8, <pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <mod_lavacow:shattered_ice>*6]);
 
-GCT.addRecipe("fireetched_onyx", <contenttweaker:fireetched_onyx>, [<simpleores:onyx_gem>, <minecraft:magma_cream>*6, <minecraft:blaze_powder>*8, <betterwithmods:material:16>*12]);
+GCT.addRecipe("abyssal_sapphire", <contenttweaker:abyssal_sapphire>, [<biomesoplenty:gem:6>, <betterwithaddons:wheatmat>*8, <betterslimes:black_slime>*6, <pyrotech:bucket_clay>.withTag({fluids: {FluidName: "lunar_water", Amount: 1000}})]);
 
-GCT.addRecipe("soulinfused_onyx", <contenttweaker:soulinfused_onyx>, [<simpleores:onyx_gem>, <quark:soul_bead>*6, <quark:soul_powder>*8, <betterwithmods:material:38>*12]);
+GCT.addRecipe("lucky_peridot", <contenttweaker:lucky_peridot>, [<biomesoplenty:gem:2>, <contenttweaker:4leaf_clover>*4, <minecraft:dye:4>*8, <minecraft:rabbit_foot>*6]);
 
-GCT.addRecipe("holy_zanite", <contenttweaker:holy_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:golden_amber>*6, <aether_legacy:healing_stone>*8, <randomthings:ingredient:5>*12]);
+GCT.addRecipe("parity_peridot", <contenttweaker:parity_peridot>, [<biomesoplenty:gem:2>, <randomthings:runedust:15>*8, <randomthings:runedust>*8, <contenttweaker:balance_quintessence>*4]);
 
-GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:ambrosium_shard>*6, <ore:nuggetElectrum>.firstItem*8, <minecraft:glowstone_dust>*12]);
+GCT.addRecipe("fortified_ruby", <contenttweaker:fortified_ruby>, [<biomesoplenty:gem:1>, <endreborn:item_shard_obsidian>*4, <endreborn:catalyst>*8, <minecraft:iron_nugget>*6]);
 
-GCT.addRecipe("voidseen_exorite", <contenttweaker:voidseen_exorite>, [<rotn_blocks:exorite_crystal>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>, <endreborn:item_end_essence>*12]);
+GCT.addRecipe("earthen_ruby", <contenttweaker:earthen_ruby>, [<contenttweaker:earthen_ruby>, <pyrotech:rock>*4, <animania:salt>*8, <pyrotech:material:8>*6]);
 
-GCT.addRecipe("draconium", <contenttweaker:draconium>, [<twilightforest:carminite>*8, <iceandfire:fire_dragon_blood>*4, <twilightforest:fiery_blood>*4, <twilightforest:borer_essence>*12]);
+GCT.addRecipe("flashfired_cincinnasite", <contenttweaker:flashfired_cincinnasite>, [<betternether:cincinnasite>, <minecraft:fire_charge>*4, <minecraft:blaze_powder>*6, <minecraft:gunpowder>*8]);
+
+GCT.addRecipe("corrupted_cincinnasite", <contenttweaker:corrupted_cincinnasite>, [<betternether:cincinnasite>, <quark:black_ash>*6, <netherex:spore>*4, <betterwithmods:material:37>*8]);
+
+GCT.addRecipe("fireetched_onyx", <contenttweaker:fireetched_onyx>, [<simpleores:onyx_gem>, <minecraft:magma_cream>*6, <minecraft:blaze_powder>*4, <betterwithmods:material:16>*8]);
+
+GCT.addRecipe("soulinfused_onyx", <contenttweaker:soulinfused_onyx>, [<simpleores:onyx_gem>, <quark:soul_bead>*6, <quark:soul_powder>*8, <betterwithmods:material:38>*4]);
+
+GCT.addRecipe("holy_zanite", <contenttweaker:holy_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:golden_amber>*6, <aether_legacy:healing_stone>*8, <randomthings:ingredient:5>*4]);
+
+GCT.addRecipe("electrified_zanite", <contenttweaker:electrified_zanite>, [<aether_legacy:zanite_gemstone>, <aether_legacy:ambrosium_shard>*6, <ore:nuggetElectrum>.firstItem*8, <minecraft:glowstone_dust>*4]);
+
+GCT.addRecipe("voidseen_exorite", <contenttweaker:voidseen_exorite>, [<rotn_blocks:exorite_crystal>, <minecraft:ender_eye>*6, <minecraft:dragon_breath>*4, <endreborn:item_end_essence>*8]);
+
+GCT.addRecipe("animated_exorite", <contenttweaker:animated_exorite>, [<rotn_blocks:exorite_crystal>, <biomesoplenty:fleshchunk>*6, <minecraft:clay_ball>*8, <minecraft:blaze_powder>*4]);
+
+GCT.addRecipe("draconium", <contenttweaker:draconium>, [<twilightforest:carminite>, <iceandfire:fire_dragon_blood>*4, <twilightforest:fiery_blood>*6, <twilightforest:borer_essence>*8]);
+
+GCT.addRecipe("faerite", <contenttweaker:faerite>, [<twilightforest:carminite>, <twilightforest:liveroot>*6, <twilightforest:steeleaf_ingot>*4, <iceandfire:pixie_dust>*8]);
 
 GCT.addRecipe("magicinfused_wood1", <biomesoplenty:log_1:5>*16, [<arcanearchives:radiant_dust>, <contenttweaker:magic_blend>, <ore:mundaneWood>*16]);
 
