@@ -75,8 +75,8 @@
 				]
 			},
 			"cluster-count": 2,
-			"chunk-chance": 19,
-			"min-height": 3,
+			"chunk-chance": 16,
+			"min-height": 8,
 			"max-height": 48,
 			"biome": "all",
 			"retrogen": true,
@@ -132,6 +132,56 @@
 				"restriction": "whitelist",
 				"value": [
 					0
+				]
+			}
+		},
+		"coal_gases": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "lake",
+				"block": [
+					{
+					"name": "adpother:carbon",
+					"properties": {
+						"density" : "heavy"
+						}
+					}
+				],
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"use-material": true,
+				"solid-outline": true,
+				"total-outline": true,
+				"outline-block":{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "lignite"
+						},
+					"weight": 12
+					},
+				"gap-block": [
+					{
+					"name": "adpother:carbon",
+					"properties": {
+						"density" : "heavy"
+						}
+					}
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8,
+			"center-height": 20,
+			"spread": 20,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					10
 				]
 			}
 		}

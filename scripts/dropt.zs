@@ -658,6 +658,15 @@ Dropt.list("lodestone")
        	   .items([<minecraft:stonebrick:3>])
       )
   ); 
+Dropt.list("lignite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:4"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:sedimentary_stone:4>])
+      )
+  ); 
 // Cobbled Path blocks
 Dropt.list("cobbled_coade")
 

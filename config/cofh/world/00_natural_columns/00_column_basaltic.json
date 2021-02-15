@@ -1,0 +1,108 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"quark",
+		"bettermineshafts"
+		],
+	"populate": 
+	{
+		"basaltic_rhyolite_column": {
+            "distribution": "custom",
+            "generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "rhyolite"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "rhyolite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": true,
+				"fat": false,
+				"alt-sinc": true,
+				"min-height": 30,
+				"height-variance": 1,
+				"gen-size": 8,
+				"size-variance": 1
+			},
+			"cluster-count": 1,
+			"x-offset": 0,
+			"y-offset": 32,
+			"z-offset": 0,
+			"chunk-chance": 5,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+        "basaltic_komatiite_column": {
+            "distribution": "custom",
+            "generator": {
+				"type": "stalactite",
+				"block": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "komatiite"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "komatiite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": true,
+				"fat": false,
+				"alt-sinc": true,
+				"min-height": 26,
+				"height-variance": 1,
+				"gen-size": 8,
+				"size-variance": 1
+			},
+			"cluster-count": 1,
+			"x-offset": 0,
+			"y-offset": 58,
+			"z-offset": 0,
+			"chunk-chance": 6,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		}
+	}
+}

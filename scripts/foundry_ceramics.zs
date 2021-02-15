@@ -773,6 +773,13 @@ Casting.addRecipe(<minecraft:light_weighted_pressure_plate>, <liquid:gold>*((144
 Casting.addRecipe(<minecraft:heavy_weighted_pressure_plate>, <liquid:iron>*((144*2)-(16*2*2)), <foundry:mold:1>);
 Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_steel>*((144*4)-(16*2*4)), <foundry:mold:1>, <minecraft:redstone>*2);
 
+// MISC //
+val lava_bricks = <ceramics:clay_hard:5>;
+recipes.removeByRecipeName("ceramics:decoration/lava_bricks/block");
+Casting.addRecipe(lava_bricks*10, <liquid:lava>*1000, null,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>*10);
+Casting.addRecipe(lava_bricks*10, <liquid:coade_stone>*(144*10), null,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>*10);
+
+
 //Missing Block Casting Recipes
 // addBlockRecipe(IItemStack output, ILiquidStack input)
 CastingTable.addBlockRecipe(<simpleores:adamantium_block>, <liquid:viridium>*1296);

@@ -17,7 +17,7 @@
   stoneLayers: [
 
     {
-      state: undergroundbiomes:igneous_stone:2
+      state: undergroundbiomes:igneous_stone:2 //rhyolite
       maxHeight: 32
 	  noise2D: {
          scale: 0.9
@@ -27,7 +27,7 @@
         }
     }
 	{
-      state: undergroundbiomes:igneous_stone:6
+      state: undergroundbiomes:igneous_stone:6 //komatiite
       maxHeight: 58
 	  noise2D: {
          scale: 0.9
@@ -37,7 +37,7 @@
         }
     }
 	{
-      state: undergroundbiomes:igneous_stone:5
+      state: undergroundbiomes:igneous_stone:5 //basalt
       maxHeight: 64
 	  noise2D: {
          scale: 0.9
@@ -47,7 +47,7 @@
         }
     }
 	{
-      state: undergroundbiomes:sedimentary_stone:5
+      state: undergroundbiomes:sedimentary_stone:5 //dolomite
       maxHeight: 84
 	  noise2D: {
          scale: 0.9
@@ -57,7 +57,7 @@
         }
     }
 	{
-      state: undergroundbiomes:sedimentary_stone:2
+      state: undergroundbiomes:sedimentary_stone:2 //shale
       maxHeight: 88
 	  noise2D: {
          scale: 0.9
@@ -67,7 +67,7 @@
         }
     }
 	{
-      state: undergroundbiomes:sedimentary_stone:5
+      state: undergroundbiomes:sedimentary_stone:5 //dolomite
       maxHeight: 92
 	  noise2D: {
          scale: 0.9
@@ -77,7 +77,7 @@
         }
     }
 	{
-      state: undergroundbiomes:igneous_stone:5
+      state: undergroundbiomes:igneous_stone:5 //basalt
       maxHeight: 255
 	  noise2D: {
          scale: 0.9
