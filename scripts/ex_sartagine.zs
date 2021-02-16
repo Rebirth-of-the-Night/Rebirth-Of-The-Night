@@ -1654,7 +1654,7 @@ recipes.removeByRecipeName("harvestcraft:espressoitem");
 ExSartagine.addKettleRecipe([<harvestcraft:coffeebeanitem>,<harvestcraft:coffeebeanitem>,<harvestcraft:coffeebeanitem>,sugar],cookKit,waterBottle2,[<harvestcraft:espressoitem>*2],80);
 // Café con leche
 recipes.removeByRecipeName("harvestcraft:espressoitem");
-ExSartagine.addKettleRecipe([<harvestcraft:espressoitem>,milkBottle,groundCinnamon],cookKit,waterBottle2,[<harvestcraft:coffeeconlecheitem>],80);
+ExSartagine.addKettleRecipe([<harvestcraft:espressoitem>,milkBottle,groundCinnamon],cookKit,waterBottle2,[<harvestcraft:coffeeconlecheitem>*2],80);
 //Mocha ice cream
 recipes.removeByRecipeName("harvestcraft:mochaicecreamitem");
 RecipeBuilder.get("chef")
