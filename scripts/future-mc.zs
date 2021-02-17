@@ -249,6 +249,10 @@ Stonecutter.addOutputs(<betterwithmods:aesthetic:6>,
 Stonecutter.addOutputs(<betterwithaddons:whitebrick>,
 							<betterwithaddons:whitebrick:3>);
 
+Stonecutter.addOutputs(<minecraft:quartz_block>,
+							<quark:quartz_wall>,
+							<netherex:quartz_wall>);
+
 
 /*********************************************************************************
 

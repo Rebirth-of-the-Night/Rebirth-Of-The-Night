@@ -52,22 +52,9 @@ SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>
 SoakingPot.addRecipe("wet_soap", <betterwithaddons:wet_soap>, <liquid:water>*250, <betterwithmods:aesthetic:10>, 20 * 20);
 
 // concrete
-SoakingPot.addRecipe("white_concrete", <minecraft:concrete:0>, <liquid:water>*100, <minecraft:concrete_powder:0>, 1 * 60 * 20);
-SoakingPot.addRecipe("orange_concrete", <minecraft:concrete:1>, <liquid:water>*100, <minecraft:concrete_powder:1>, 1 * 60 * 20);
-SoakingPot.addRecipe("magenta_concrete", <minecraft:concrete:2>, <liquid:water>*100, <minecraft:concrete_powder:2>, 1 * 60 * 20);
-SoakingPot.addRecipe("light_blue_concrete", <minecraft:concrete:3>, <liquid:water>*100, <minecraft:concrete_powder:3>, 1 * 60 * 20);
-SoakingPot.addRecipe("yellow_concrete", <minecraft:concrete:4>, <liquid:water>*100, <minecraft:concrete_powder:4>, 1 * 60 * 20);
-SoakingPot.addRecipe("lime_concrete", <minecraft:concrete:5>, <liquid:water>*100, <minecraft:concrete_powder:5>, 1 * 60 * 20);
-SoakingPot.addRecipe("pink_concrete", <minecraft:concrete:6>, <liquid:water>*100, <minecraft:concrete_powder:6>, 1 * 60 * 20);
-SoakingPot.addRecipe("gray_concrete", <minecraft:concrete:7>, <liquid:water>*100, <minecraft:concrete_powder:7>, 1 * 60 * 20);
-SoakingPot.addRecipe("light_gray_concrete", <minecraft:concrete:8>, <liquid:water>*100, <minecraft:concrete_powder:8>, 1 * 60 * 20);
-SoakingPot.addRecipe("cyan_concrete", <minecraft:concrete:9>, <liquid:water>*100, <minecraft:concrete_powder:9>, 1 * 60 * 20);
-SoakingPot.addRecipe("purple_concrete", <minecraft:concrete:10>, <liquid:water>*100, <minecraft:concrete_powder:10>, 1 * 60 * 20);
-SoakingPot.addRecipe("blue_concrete", <minecraft:concrete:11>, <liquid:water>*100, <minecraft:concrete_powder:11>, 1 * 60 * 20);
-SoakingPot.addRecipe("brown_concrete", <minecraft:concrete:12>, <liquid:water>*100, <minecraft:concrete_powder:12>, 1 * 60 * 20);
-SoakingPot.addRecipe("green_concrete", <minecraft:concrete:13>, <liquid:water>*100, <minecraft:concrete_powder:13>, 1 * 60 * 20);
-SoakingPot.addRecipe("red_concrete", <minecraft:concrete:14>, <liquid:water>*100, <minecraft:concrete_powder:14>, 1 * 60 * 20);
-SoakingPot.addRecipe("black_concrete", <minecraft:concrete:15>, <liquid:water>*100, <minecraft:concrete_powder:15>, 1 * 60 * 20);
+for i in 0 to 16 {
+    SoakingPot.addRecipe("concrete_"~i, itemUtils.getItem("minecraft:concrete", i), <liquid:water>*50, itemUtils.getItem("minecraft:concrete_powder", i), 1 * 60 * 20);
+}
 
 // Mossy stone recipes
 val ignMossyDef = <undergroundbiomes:igneous_cobble_mossy>.definition;

@@ -1,3 +1,4 @@
+#priority 400
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
@@ -10,6 +11,13 @@ import mods.ltt.LootTable;
 
 // brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 // brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
+
+recipes.remove(<minecraft:minecart>);
+recipes.addShaped("minecart", <minecraft:minecart>, [
+    [null, null, null],
+    [<ore:genericMetal>, null, <ore:genericMetal>],
+    [<ore:genericMetal>, <ore:genericMetal>, <ore:genericMetal>]
+]);
 
 <minecraft:mushroom_stew>.maxStackSize = 4;
 
@@ -604,6 +612,7 @@ JEI.removeAndHide(<quark:custom_chest_trap:4>);
 
 var chestMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
 
+recipes.remove(<minecraft:chest>);
 recipes.addShapeless("charset_chest_to_vanilla", <minecraft:chest>, [<ore:chestWood>]);
 
 var woodenDoorMat = <betternether:stalagnate_planks>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
@@ -622,7 +631,7 @@ recipes.addShaped("wooden_boat",<minecraft:boat>,[
 ]);
 
 var woodenButtonMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|
-<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
+<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
 
 recipes.addShapeless("wooden_button",<minecraft:wooden_button>,[woodenButtonMat]);
 
@@ -689,6 +698,13 @@ recipes.addShaped("wooden_pressure_plate",<minecraft:wooden_pressure_plate>,[
     [woodenPressurePlateMat,woodenPressurePlateMat]
 ]);
 
+recipes.remove(<minecraft:bookshelf>);
+recipes.addShaped("bookshelf", <minecraft:bookshelf>,[
+    [woodenPressurePlateMat, woodenPressurePlateMat, woodenPressurePlateMat],
+    [<ore:book>, <ore:book>, <ore:book>],
+    [woodenPressurePlateMat, woodenPressurePlateMat, woodenPressurePlateMat]
+]);
+
 var woodenPodiumMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
 
 recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
@@ -752,6 +768,8 @@ gemIngot.add(
   <contenttweaker:peridot_ingot>
 );
 
+<ore:stoneWithoutHolystone>.mirror(<ore:stone>);
+<ore:stoneWithoutHolystone>.remove(<aether_legacy:holystone>);
 
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);
@@ -1015,6 +1033,9 @@ cookedMeat.addAll(cookedFrog);
 cookedMeat.addAll(cookedFish);
 cookedMeat.addAll(cookedVenison);
 
+val glassShards = <ore:shardGlass>;
+glassShards.add(<quark:glass_shards:*>);
+
 val water = <ore:listAllwater>;
 water.addItems([<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water", Amount: 1000}}),<aether_legacy:skyroot_bucket:1>]);
 
@@ -1202,12 +1223,17 @@ recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
 // Enchanting Table change
 
 recipes.remove(<minecraft:enchanting_table>);
-
-recipes.addShaped("enchanting_table", <minecraft:enchanting_table>, [
+RecipeBuilder.get("mage")
+  .setName("enchanting_table")
+  .setShaped([
     [<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],
-    [<ore:gemDiamond>, <contenttweaker:luna_quintessence>*4, <ore:gemDiamond>], 
-    [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
-]);
+    [<ore:gemDiamond>, <nyx:fallen_star>, <ore:gemDiamond>], 
+    [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]])
+  .addOutput(<minecraft:enchanting_table>)
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecraft:stick>]);
 recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweaker:broken_stick>, <contenttweaker:broken_stick>, <ore:glue> | <ore:slimeball>]);

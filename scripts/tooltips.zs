@@ -114,10 +114,10 @@
 
 
 
-# BWA
+// BWA
 <betterwithaddons:ancestry_bottle>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
 
-#Nyx
+// Nyx
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects");
 <nyx:scythe:*>.addTooltip("Destroys crops and plants in a 9x9x9 area");
 <nyx:scythe:*>.addTooltip("Has a chance to double, triple, or quadruple crop and plant drops");
@@ -136,10 +136,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 
 
-#Eplus
+// Eplus
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table");
 
-#Boat tooltips
+// Boat tooltips
 <minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");
 <minecraft:spruce_boat>.addTooltip("Place a banner on the boat to increase speed");
 <minecraft:birch_boat>.addTooltip("Place a banner on the boat to increase speed");
@@ -165,7 +165,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <netherex:obsidian_boat>.addTooltip("Place a banner on the boat to increase speed");
 
 
-# bed
+// bed
 <minecraft:bed>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 <minecraft:bed:1>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 <minecraft:bed:2>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
@@ -184,7 +184,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <minecraft:bed:15>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 <aether_legacy:skyroot_bed_item>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 
-#lootbags
+// lootbags
 <dungeontactics:bag_food>.addTooltip("Some of the food inside still looks edible.");
 <dungeontactics:bag_arbour>.addTooltip("Seems to contain a few assorted plants.");
 <dungeontactics:bag_ore>.addTooltip("Looks like there's a chunk of ore inside.");
@@ -200,17 +200,17 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 //<harvestcraft:well>.addShiftTooltip("Can be created by directly right-clicking Framed Glass with a Nature Rune.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info.")); NON-FUNCTIONAL UNTIL KOMPY USES HER MAGIC
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
 
-#Charm
+// Charm
 //<charm:totem_of_returning>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
 //<charm:totem_of_shielding>.addTooltip("§5Absorbs all incoming damage when held in your offhand.");
 
 
-#Quark
+// Quark
 <quark:soul_bead>.addTooltip("Holding this softly shimmering bead makes you feel uneasy.");
 <quark:horse_whistle>.addTooltip("Summons your trusty steed, even from a great distance away.");
 <quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
 <quark:iron_ladder>.addTooltip("Right click on a tin ladder to place another ladder below which doesn't require a standing block.");
-#Quark Hoes
+// Quark Hoes
 <minecraft:stone_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 <minecraft:iron_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 <minecraft:diamond_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
@@ -232,7 +232,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 
 
-#Pyrotech
+// Pyrotech
 <pyrotech:flint_and_tinder:*>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
 <pyrotech:flint_and_tinder:*>.addTooltip("Not as convenient as a flint and steel.");
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
@@ -247,16 +247,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <pyrotech:coal_coke_block>.removeTooltip("Wither Forge:");
 <pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
 
-#End Reborn
+<pyrotech:sawmill_blade_iron>.addTooltip("Can be used in Mechanical Compactor");
+
+// End Reborn
 <endreborn:catalyst>.removeTooltip("Materializer");
 <endreborn:catalyst>.removeTooltip("catalyst");
 <endreborn:catalyst>.addTooltip("§8endreborn:catalyst");
 <endreborn:block_essence_ore>.removeTooltip("Substance");
 
-#Progression
+// Progression
 <netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
 
-#Doggy Talents
+// Doggy Talents
 <doggytalents:training_treat>.addTooltip("Feed to a tamed wolf to begin training it. Used to advance a dog's initial training.");
 <doggytalents:cape>.addTooltip("Dog accessory");
 <doggytalents:cape_coloured>.addTooltip("Dog accessory");
@@ -266,17 +268,17 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 <mod_lavacow:ptera_wing_cooked>.addTooltip("Has a rough, leathery texture. Extraordinarily chewy.");
 
-#Rustic
+// Rustic
 <rustic:vase>.addTooltip("Storage container. While in hand, sneak and scroll with mouse wheel to cycle between patterns.");
 <rustic:apiary>.addTooltip("Place bees inside to produce honeycombs overtime.");
 <rustic:bee>.addTooltip("Place inside an apiary to produce honeycombs.");
 
-# Weapons
+// Weapons
 
-#Doors
+// Doors
 <malisisdoors:jail_door>.addTooltip("slidin into ur DMs");
 
-#Misc.
+// Misc.
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
 <betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
@@ -285,7 +287,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <betterwithaddons:tatami>.addShiftTooltip('Tatami should not be arranged forming a "+" shape at the junctions, lest it bring an inauspicious future.');
 
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
-<aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
+<aether_legacy:notch_hammer:*>.addTooltip("From the // 1 princess in the world.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
 

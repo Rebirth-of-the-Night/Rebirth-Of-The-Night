@@ -366,9 +366,25 @@ RecipeBuilder.get("mage")
   .create();
 
   RecipeBuilder.get("mage")
-  .setShapeless([<minecraft:dye:12>, <minecraft:dye:1>, <minecraft:dye:10>, <minecraft:dye:11>, <contenttweaker:blank_rune>, <biomesoplenty:blue_dye>, <minecraft:dye:13>, <minecraft:dye:14>, <biomesoplenty:white_dye>])
+  .setShapeless([
+    <ore:dyeLightBlue>, 
+    <ore:dyeRed>, 
+    <ore:dyeLime>, 
+    <ore:dyeYellow>, 
+    <contenttweaker:blank_rune>, 
+    <ore:dyeBlue>, 
+    <ore:dyeMagenta>, 
+    <ore:dyeOrange>, 
+    <ore:dyeWhite>])
   .addTool(<contenttweaker:illusion_rune>, 1)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .addOutput(<quark:rune:16>)
   .create();
+
+recipes.remove(<quark:quartz_wall>);
+recipes.addShaped("dark_quartz_wall", <quark:quartz_wall> * 6, [
+  [null, <ore:dyeBlack>|<ore:dyeGray>|<ore:dyeLightGray>, null],
+  [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>],
+  [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>]
+]);

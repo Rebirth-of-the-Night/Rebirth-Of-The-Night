@@ -7,6 +7,21 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.jei.JEI;
 import mods.inspirations.Cauldron;
 
+var removeDyeRecipes as string[] = [
+    "orange",
+    "magenta_pp",
+    "lime",
+    "light_gray_gw",
+    "light_blue",
+    "brown_yp",
+    "brown_rg",
+    "brown_rby"
+] as string[];
+
+for r in removeDyeRecipes {
+    recipes.removeByRecipeName("inspirations:recipes/dye/"~r);
+}
+
 Cauldron.addFluidTransform(<liquid:tannin>, <ore:dung>, <liquid:water>, 4, true);
 Cauldron.addFluidTransform(<liquid:tannin>, <ore:barkWood>, <liquid:water>, 1, true);
 Cauldron.addFluidTransform(<liquid:tannin>, <biomesoplenty:persimmon>|<harvestcraft:persimmonitem>, <liquid:water>, 2, true);

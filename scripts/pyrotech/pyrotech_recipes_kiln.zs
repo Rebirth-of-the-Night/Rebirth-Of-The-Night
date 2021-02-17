@@ -4,6 +4,8 @@ import mods.jei.JEI;
 import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
 
+JEI.removeAndHide(<pyrotech:material:35>);
+
 BrickKiln.removeAllRecipes();
 StoneKiln.removeAllRecipes();
 furnace.remove(<minecraft:brick>, <minecraft:clay_ball>);

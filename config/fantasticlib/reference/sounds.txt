@@ -948,6 +948,13 @@ mod_lavacow:entity_weta_death
 mod_lavacow:entity_avaton_ambient
 mod_lavacow:entity_avaton_spell
 mod_lavacow:entity_avaton_death
+iceologer:iceologer_ambient
+iceologer:iceologer_hurt
+iceologer:iceologer_death
+iceologer:iceologer_prepare_spell
+iceologer:iceologer_cast_spell
+iceologer:ice_cube_hit
+iceologer:ice_cube_ambient
 futuremc:trident_throw
 futuremc:trident_pierce
 futuremc:trident_impact
@@ -1074,6 +1081,7 @@ harvestersnight:harvester.spell
 harvestersnight:harvester.spawn
 harvestersnight:harvester.hurt
 harvestersnight:harvester.die
+hunterillager:mob.hunterillager.laugh
 iceandfire:bestiary_page
 iceandfire:dragon_hatch
 iceandfire:firedragon_breath

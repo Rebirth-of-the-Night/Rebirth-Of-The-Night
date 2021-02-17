@@ -8,6 +8,7 @@ import crafttweaker.data.IData;
 import mods.jei.JEI;
 import mods.ltt.LootTable;
 
+JEI.removeAndHide(<dungeontactics:cherry_bomb>);
 JEI.removeAndHide(<dungeontactics:brazier>);
 JEI.removeAndHide(<dungeontactics:iron_dust>);
 
