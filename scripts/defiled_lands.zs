@@ -134,7 +134,7 @@ recipes.addShapeless("sapling_to_seed_dlands", <dynamictreesdefiledlands:tenebra
 recipes.remove(<defiledlands:tears_flame>);
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <minecraft:fire_charge>, <contenttweaker:heart_of_fire>],
+    [null, <minecraft:fire_charge>, <contenttweaker:volatile_core>],
     [<contenttweaker:vis_speck>, <contenttweaker:scepter_base_mundane>, <minecraft:fire_charge>],
     [<contenttweaker:flashfired_cincinnasite>, <contenttweaker:vis_speck>, null]])
   .addTool(<contenttweaker:fire_rune>, 1)
