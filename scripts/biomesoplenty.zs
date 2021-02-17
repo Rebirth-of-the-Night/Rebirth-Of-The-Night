@@ -54,12 +54,12 @@ furnace.setFuel(<biomesoplenty:ash_block>, 150);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8],
-    [<biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8],
-    [<biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8, <biomesoplenty:fleshchunk>*8]])
+    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>],
+    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>],
+    [<biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:creation_rune>, 1)
-  .addOutput(<biomesoplenty:flesh>*8)
+  .addOutput(<biomesoplenty:flesh>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();

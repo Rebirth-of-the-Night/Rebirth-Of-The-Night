@@ -506,9 +506,9 @@ val plagueQ = VanillaFactory.createItem("plague_quintessence");
 plagueQ.setCreativeTab(<creativetab:Dunamis>);
 plagueQ.register();
 
-val timeQ = VanillaFactory.createItem("time_quintessence");
-timeQ.setCreativeTab(<creativetab:Dunamis>);
-timeQ.register();
+// val timeQ = VanillaFactory.createItem("time_quintessence");
+// timeQ.setCreativeTab(<creativetab:Dunamis>);
+// timeQ.register();
 
 val aetherQ = VanillaFactory.createItem("aether_quintessence");
 aetherQ.setCreativeTab(<creativetab:Dunamis>);

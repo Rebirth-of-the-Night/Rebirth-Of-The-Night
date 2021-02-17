@@ -99,6 +99,9 @@ spawn_scroll.itemRightClick = function(stack, world, player, hand) {
 };
 spawn_scroll.register();
 
+val redstuff = VanillaFactory.createItem("redstuff");
+redstuff.register();
+
 // Cut Gems
 
 val cutdiamond = VanillaFactory.createItem("pristine_diamond");

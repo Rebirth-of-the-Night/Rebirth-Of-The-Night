@@ -198,6 +198,7 @@ recipes.removeByRecipeName("harvestcraft:grilledmushroomitem_minecraft_brown_mus
 recipes.removeByRecipeName("harvestcraft:deluxenachoesitem_foodtortillachips_foodsalsa");
 
 recipes.removeByRecipeName("harvestcraft:wovencottonitem_x3");
+recipes.removeByRecipeName("harvestcraft:cottonitem");
 recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_helmet");
 recipes.removeByRecipeName("harvestcraft:minecraft_leather_chestplate");

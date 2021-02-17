@@ -5,7 +5,7 @@ import mods.jei.JEI;
 
 // Progression and CoT
 <contenttweaker:spawn_scroll>.addTooltip("One time use. Right-click to set your spawn point to where you are standing.");
-<contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook. No need to keep this item anymore.");
+<contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook.");
 
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
 
@@ -89,15 +89,6 @@ import mods.jei.JEI;
 <cyclicmagic:apple_lapis>.displayName = "Deadhorse Delight";
 <cyclicmagic:tool_prospector>.displayName = "Ore Prospector Rod";
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
-
-// ProjectRed
-<projectred-core:resource_item:251>.displayName = "Red Alloy Compound";
-<projectred-integration:gate:10>.displayName = "Enhanced Redstone Repeater";
-<projectred-integration:gate:11>.displayName = "Enhanced Randomizer";
-<projectred-integration:gate:26>.displayName = "Enhanced Comparator";
-<projectred-integration:gate:20>.displayName = "Running Timer";
-<projectred-integration:gate:33>.displayName = "Selective Enhanced Randomizer";
-<projectred-integration:gate:31>.displayName = "Stacking Latch";
 
 // Mowzies Mobs
 <mowziesmobs:naga_fang>.displayName = "Skydrake Fang";

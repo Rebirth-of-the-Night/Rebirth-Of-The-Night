@@ -1,6 +1,20 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import mods.charset. MaterialRegistry;
+import mods.jei.JEI;
+import mods.charset.MaterialRegistry;
+import mods.betterwithmods.Anvil;
+
+JEI.removeAndHide(<charset:icon>);
+
+recipes.remove(<charset:stopwatch>);
+recipes.addShapeless("charset_stopwatch", <charset:stopwatch>, [<minecraft:clock>, <minecraft:tripwire_hook>]);
+
+recipes.remove(<charset:signal_meter>);
+recipes.addShaped("signal_meter", <charset:signal_meter>, [
+    [null, <minecraft:redstone>, null],
+    [<minecraft:comparator>, <dungeontactics:flight_goggles>, <minecraft:comparator>],
+    [null, <minecraft:redstone>, null]
+]);
 
 // Charset Materials
 MaterialRegistry.registerTypes(<betternether:reeds_block>, "block", "wood", "plank");
@@ -9,7 +23,7 @@ MaterialRegistry.registerTypes(<betterwithaddons:planks_mulberry>, "block", "woo
 MaterialRegistry.registerTypes(<betterwithaddons:planks_sakura>, "block", "wood", "plank");
 MaterialRegistry.registerTypes(<twilightforest:tower_wood>, "block", "wood", "plank");
 
-// Default variants have to be added due to Charset not detecting wood that doesn't have a log to plank recipe 
+// Default variants have to be added due to Charset not detecting wood that doesnt have a log to plank recipe 
 MaterialRegistry.registerTypes(<biomesoplenty:planks_0>, "block", "wood", "plank");
 MaterialRegistry.registerTypes(<biomesoplenty:planks_0:1>, "block", "wood", "plank");
 MaterialRegistry.registerTypes(<biomesoplenty:planks_0:2>, "block", "wood", "plank");

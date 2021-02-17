@@ -1,0 +1,6 @@
+tile.simplelogic.gate.randomizer.name=Enhanced Randomizer
+tile.simplelogic.gate.repeater.name=Enhanced Redstone Repeater
+tile.simplelogic.gate.comparator.name=Enhanced Comparator
+
+tile.simplelogic.wire.name=Cable
+tile.simplelogic.wire.freestanding.name=Free-Standing Cable

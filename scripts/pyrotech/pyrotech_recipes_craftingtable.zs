@@ -238,9 +238,9 @@ recipes.addShaped("quilting_sail", <betterwithmods:material:4>,
   [<minecraft:carpet:*>,<pyrotech:material:26>,<minecraft:carpet:*>],
   [<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>]]);
 recipes.addShaped("metal_sawblade", <pyrotech:sawmill_blade_iron>,
- [[<ore:genericMetalNugget>,<ore:genericMetal>,<ore:genericMetalNugget>],
+ [[<ore:genericMetalNuggets>,<ore:genericMetal>,<ore:genericMetalNuggets>],
   [<ore:genericMetal>,null,<ore:genericMetal>],
-  [<ore:genericMetalNugget>,<ore:genericMetal>,<ore:genericMetalNugget>]]);
+  [<ore:genericMetalNuggets>,<ore:genericMetal>,<ore:genericMetalNuggets>]]);
 recipes.addShaped("stonetar_collector", <pyrotech:tar_collector>,
  [[stoneBrick,null,stoneBrick],
   [stoneBrick,null,stoneBrick],

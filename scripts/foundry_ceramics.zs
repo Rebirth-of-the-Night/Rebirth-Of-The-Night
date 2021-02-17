@@ -94,6 +94,16 @@ recipes.addShaped("mold_station", <foundry:mold_station>,[ //Mold Station
     [<pyrotech:brick_kiln>]
 ]); 
 
+for i in 0 to 6 {
+    Anvil.addShaped(<foundry:machine:1>, // Metal Caster
+    [
+        [null, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
+        [<ceramics:unfired_clay:5>, <pyrotech:bucket_stone>, <betterwithmods:grate>.definition.makeStack(i), <ceramics:faucet>],
+        [<ceramics:unfired_clay:5>, <pyrotech:bucket_stone>, <betterwithmods:grate>.definition.makeStack(i), <ceramics:faucet>],
+        [null, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]
+    ]);
+}
+
 Anvil.addShaped(<foundry:machine:2>, //Alloy Mixer
 [
    [null, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
@@ -249,6 +259,10 @@ Melting.addRecipe(<liquid:ambrosium>*144, <ore:gemAmbrosium>, 300);
 Melting.addRecipe(<liquid:ambrosium>*(144*9), <aether_legacy:ambrosium_block>, 300);
 
 Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450); // miscellaneous melting
+Melting.addRecipe(<liquid:blood>*48, <charm:rotten_flesh_block>, 1300);
+Melting.addRecipe(<liquid:blood>*1, <biomesoplenty:fleshchunk>, 600);
+Melting.addRecipe(<liquid:blood>*10, <biomesoplenty:flesh>, 600);
+Melting.addRecipe(<liquid:blood>*16, <betterwithmods:blood_log>, 800);
 Melting.addRecipe(<liquid:ender_slag>*1000, <ore:endstone>, 1200);
 
 Melting.addRecipe(<liquid:soulforged_steel>*144, <ore:dustSoulforgedSteel>, 2350); // dusts
@@ -771,7 +785,7 @@ Casting.addRecipe(<simpleores:onyx_shears>, <liquid:onyx_alloy>*((144*2)-(16*2*2
 // PLATES //
 Casting.addRecipe(<minecraft:light_weighted_pressure_plate>, <liquid:gold>*((144*2)-(16*2*2)), <foundry:mold:1>);
 Casting.addRecipe(<minecraft:heavy_weighted_pressure_plate>, <liquid:iron>*((144*2)-(16*2*2)), <foundry:mold:1>);
-Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_steel>*((144*4)-(16*2*4)), <foundry:mold:1>, <minecraft:redstone>*2);
+Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_steel>*((144*2)-(16*2*2)), <foundry:mold:1>, <minecraft:redstone>);
 
 // MISC //
 val lava_bricks = <ceramics:clay_hard:5>;

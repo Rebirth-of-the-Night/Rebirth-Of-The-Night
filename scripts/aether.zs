@@ -9,6 +9,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 
+JEI.removeAndHide(<aether_legacy:life_shard>);
+LootTable.removeGlobalItem("aether_legacy:life_shard");
 
 // make aether grass/dirt have same hardness as OW dirt/grass
 val aether_dirt as IItemStack = <aether_legacy:aether_dirt>;
@@ -17,8 +19,9 @@ val aether_grass as IItemStack = <aether_legacy:aether_grass>;
 aether_grass.hardness = 0.5;
 
 recipes.removeByRecipeName("aether_legacy:furnace_from_holystone");
-recipes.removeShaped(<minecraft:stone_pressure_plate>, [
-    [<aether_legacy:holystone>, <aether_legacy:holystone>]
+recipes.removeShaped(<minecraft:stone_pressure_plate>);
+recipes.addShaped("stone_pressure_plate_fixed", <minecraft:stone_pressure_plate>, [
+    [<ore:stoneWithoutHolystone>, <ore:stoneWithoutHolystone>]
 ]);
 
 JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
