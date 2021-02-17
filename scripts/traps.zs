@@ -12,10 +12,11 @@ JEI.removeAndHide(<minetraps:wall_spikes>);
 recipes.remove(<minetraps:nails>);
 
 var nugs = <ore:nuggetTin> | <ore:nuggetSilver> | <ore:nuggetIron>;
-recipes.addShapeless("nails", <minetraps:nails>,[nugs, nugs, nugs, nugs]);
+recipes.addShapeless("nails", <minetraps:nails:*>,[nugs, nugs, nugs, nugs]);
+<minetraps:nails>.maxDamage = 7;
 
 recipes.remove(<minetraps:nail_trap>);
-recipes.addShapeless("nail_trap", <minetraps:nail_trap>,[<minetraps:nails>,<minetraps:nails>]);
+recipes.addShapeless("nail_trap", <minetraps:nail_trap>,[<minetraps:nails:*>,<minetraps:nails:*>]);
 
 // trap hardness/resistance tweaks
 // yes this is sloppy using 2 methods idgaf

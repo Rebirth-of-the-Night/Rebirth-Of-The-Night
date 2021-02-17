@@ -1,0 +1,254 @@
+[
+  {
+    "targetBlock": "biomesoplenty:planks_0:11",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:hellbark_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "minecraft:planks:0",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:oak_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:2",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:umbran_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "minecraft:planks:4",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:acacia_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "iceandfire:dreadwood_planks",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:dreadwood_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "rustic:planks:1",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:ironwood_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "minecraft:planks:3",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:jungle_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "stygian:endplanks:0",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:wyrmwood_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "betternether:stalagnate_planks:0",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:stalagnate_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:0",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:sacred_oak_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:1",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:cherry_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "minecraft:planks:1",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:spruce_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "rustic:planks:0",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:olive_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:7",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:palm_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:14",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:ebony_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "defiledlands:tenebra_planks:0",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:tenebra_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:10",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:pine_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:6",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:mangrove_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "minecraft:planks:5",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:dark_oak_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "minecraft:planks:2",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:birch_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:5",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:magic_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:3",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:fir_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:15",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:eucalyptus_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:12",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:jacaranda_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:13",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:mahogany_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:8",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:redwood_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "biomesoplenty:planks_0:9",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:willow_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  },
+  {
+    "targetBlock": "aether_legacy:skyroot_plank:0",
+    "heldItem": "minetraps:nails",
+    "replacementBlock": "contenttweaker:skywood_boards",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "8"
+  }
+]

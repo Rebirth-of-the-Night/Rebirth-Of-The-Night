@@ -1,0 +1,19 @@
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:guidebook_reminder")
+
+criteria = addCriteria("obtain logs", "minecraft:inventory_changed")
+criteria.addItem(<ore:cropApple>)
+criteria.addItem(<ore:materialHoneycomb>)
+criteria.addItem(<ore:bottleHoney>)
+criteria.addItem(<ore:foodGrapesPurple>)
+criteria.addItem(<ore:foodGrapesGreen>)
+criteria.addItem(<ore:foodGrapesRed>)
+criteria.addItem(<ore:cropHops>)
+criteria.addItem(<ore:cropRice>)
+criteria.addItem(<ore:bottleMilk>)
+
+setShowToast(false)
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()

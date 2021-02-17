@@ -242,7 +242,7 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>, <contenttweaker:pristine_diamond>, <contenttweaker:vis_sliver>],
-    [<minetraps:nails>, <bountifulbaubles:amuletsinempty>, <minetraps:nails>],
+    [<minetraps:nails:*>, <bountifulbaubles:amuletsinempty>, <minetraps:nails:*>],
     [<contenttweaker:vis_sliver>, <minetraps:barbed_wire>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:earth_rune>, 1)
   .addTool(<contenttweaker:nature_rune>, 1)

@@ -58,7 +58,7 @@ recipes.addShaped("paper_wall",<quark:paper_wall>,[
 //Immersive plating
 recipes.addShaped("iron plate", <quark:iron_plate>*24,
  [[<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
-  [<ore:ingotIron>,<minetraps:nails>,<ore:ingotIron>],
+  [<ore:ingotIron>,<minetraps:nails:*>,<ore:ingotIron>],
   [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]]);
 
 recipes.addShaped("Quark Backpack", <quark:backpack>.withTag({Quality: {}}),[

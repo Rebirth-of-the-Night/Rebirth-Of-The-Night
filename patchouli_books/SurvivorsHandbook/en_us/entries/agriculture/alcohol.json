@@ -3,6 +3,7 @@
   "icon": "growthcraft_grapes:grapewine",
   "priority": true,
   "category": "agriculture_brewing",
+  "advancement": "triumph:advancements/progression/guidebook/make_alcohol",
   "pages": [
 	{
 	  "type": "item_list_spotlight",
