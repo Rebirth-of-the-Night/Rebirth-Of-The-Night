@@ -7,6 +7,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.foundry.Casting;
 import mods.betterwithaddons.Infuser;
 import mods.betterwithmods.MiniBlocks;
+import crafttweaker.item.IItemCondition;
 
 JEI.removeAndHide(<defiledlands:hephaestite_ore>);
 JEI.removeAndHide(<defiledlands:hephaestite_block>);
@@ -32,8 +33,6 @@ JEI.removeAndHide(<defiledlands:umbrium_leggings>);
 JEI.removeAndHide(<defiledlands:umbrium_boots>);
 JEI.removeAndHide(<defiledlands:essence_mourner>);
 JEI.removeAndHide(<defiledlands:remorseful_gem>);
-JEI.removeAndHide(<defiledlands:tears_flame>);
-JEI.removeAndHide(<defiledlands:tears_shulker>);
 JEI.hideCategory("dldefilement");
 
 recipes.remove(<defiledlands:healing_pad>);
@@ -126,5 +125,24 @@ recipes.addShapeless("idol_sorrow",<defiledlands:idol_sorrow>,
 recipes.addShapeless("seed_to_sapling_dlands", <defiledlands:tenebra_sapling>, [<dynamictreesdefiledlands:tenebraseed>, <dynamictrees:dirtbucket>.reuse()]);
 recipes.addShapeless("sapling_to_seed_dlands", <dynamictreesdefiledlands:tenebraseed>, [<defiledlands:tenebra_sapling>, <dynamictrees:dirtbucket>.reuse()]);
 
-// recipes.remove(<defiledlands:tears_flame>);
-// recipes.remove(<defiledlands:tears_shulker>);
+// Tears of Penance
+
+# Change durability
+<defiledlands:tears_flame>.maxDamage = 32;
+
+# Recipe
+recipes.remove(<defiledlands:tears_flame>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:fire_charge>, <contenttweaker:heart_of_fire>],
+    [<contenttweaker:vis_speck>, <contenttweaker:scepter_base_mundane>, <minecraft:fire_charge>],
+    [<contenttweaker:flashfired_cincinnasite>, <contenttweaker:vis_speck>, null]])
+  .addTool(<contenttweaker:fire_rune>, 1)
+  .addOutput(<defiledlands:tears_flame:32>)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<defiledlands:tears_flame>,
+[<defiledlands:tears_flame>.anyDamage(),<contenttweaker:vis_speck>], 32);
+
+JEI.removeAndHide(<defiledlands:tears_shulker>);

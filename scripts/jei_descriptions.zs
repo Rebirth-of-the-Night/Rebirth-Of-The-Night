@@ -457,6 +457,7 @@ JEI.addItem(<contenttweaker:spectral_shard>);
 
 JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This magical material is needed cast powerful spells from wands.");
 
+#Runes
 //JEI.addDescription(<ore:runeItem>,"Runes are symbols carved into stones and imbued with aspects of nature that grant them a specific and strong magic affinity for an element. Their primary use is to act as a catalyst for other magical items or creating single-use orbs.");
 JEI.addItem(<contenttweaker:blank_rune>);
 JEI.addDescription(<contenttweaker:blank_rune>,"Stone imbued with magic powder. Used as a base for all runes.");
@@ -493,6 +494,10 @@ JEI.addItem(<contenttweaker:aether_rune>);
 JEI.addItem(<contenttweaker:arcane_rune>);
 JEI.addItem(<contenttweaker:draconic_rune>);
 JEI.addItem(<contenttweaker:fae_rune>);
+#Scepters
+JEI.addDescription(<iceandfire:lich_staff>,"Summons spirits that seek out foes, draining their life. Can be recharged using spirits in the Ancestral Infuser.");
+JEI.addDescription(<aether_legacy:cloud_staff>,"Summons a pair of cloud sentries which will shoot ice balls at your targets. Can be recharged using spirits in the Ancestral Infuser.");
+JEI.addDescription(<defiledlands:tears_flame>,"Charge to shoot 5 fire balls at your target. Can be recharged using spirits in the Ancestral Infuser.");
 
 /* Hit with Axe */
 JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic wood log with an axe.");

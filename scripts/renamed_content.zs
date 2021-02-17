@@ -164,6 +164,9 @@ for potion in potionMap{
 <artifacts:shiny_red_balloon>.addTooltip(format.darkGreen("Mundane"));
 <artifacts:drinking_hat>.addTooltip(format.darkGreen("Mundane"));
 <artifacts:obsidian_skull>.addTooltip(format.darkGreen("Mundane"));
+<iceandfire:lich_staff>.addTooltip(format.darkGreen("Mundane"));
+<aether_legacy:cloud_staff>.addTooltip(format.darkGreen("Mundane"));
+<defiledlands:tears_flame>.addTooltip(format.darkGreen("Mundane"));
 
 <bountifulbaubles:amuletsingluttony>.addTooltip(format.aqua("Arcane"));
 <bountifulbaubles:amuletsinpride>.addTooltip(format.aqua("Arcane"));

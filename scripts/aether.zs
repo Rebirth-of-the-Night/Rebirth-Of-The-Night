@@ -6,6 +6,8 @@ import mods.jei.JEI;
 import mods.ltt.LootTable;
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemCondition;
+import mods.betterwithaddons.Infuser;
 
 
 // make aether grass/dirt have same hardness as OW dirt/grass
@@ -114,6 +116,7 @@ LootTable.removeGlobalItem("aether_legacy:gravitite_gloves");
 LootTable.removeGlobalItem("aether_legacy:neptune_gloves");
 LootTable.removeGlobalItem("aether_legacy:obsidian_gloves");
 LootTable.removeGlobalItem("aether_legacy:valkyrie_gloves");
+LootTable.removeGlobalItem("aether_legacy:cloud_staff");
 
 JEI.removeAndHide(<aether_legacy:red_cape>);
 JEI.removeAndHide(<aether_legacy:blue_cape>);

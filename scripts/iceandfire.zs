@@ -3,6 +3,9 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
+import crafttweaker.item.IItemCondition;
+import mods.betterwithaddons.Infuser;
+import crafttweaker.item.IItemStack;
 
 recipes.removeByRecipeName("iceandfire:dragonmeal_alternate");
 
@@ -87,3 +90,24 @@ recipes.addShaped("jungle_myrmex_swarm",<iceandfire:myrmex_jungle_swarm>*6,[
     [<iceandfire:myrmex_jungle_resin>,<iceandfire:myrmex_jungle_egg:4>,<iceandfire:myrmex_jungle_resin>],
     [<iceandfire:myrmex_jungle_resin>,<ore:stick>,<iceandfire:myrmex_jungle_resin>]
 ]);
+
+// Dread Lich Staff
+
+# Change durability
+<iceandfire:lich_staff>.maxDamage = 32;
+
+# Recipe
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <minecraft:ice>, <contenttweaker:shard_of_night>],
+    [<contenttweaker:vis_speck>, <contenttweaker:scepter_base_mundane>, <minecraft:skull>],
+    [<contenttweaker:abyssal_sapphire>, <contenttweaker:vis_speck>, null]])
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addOutput(<iceandfire:lich_staff:32>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<iceandfire:lich_staff>,
+[<iceandfire:lich_staff>.anyDamage(),<contenttweaker:vis_speck>], 32);

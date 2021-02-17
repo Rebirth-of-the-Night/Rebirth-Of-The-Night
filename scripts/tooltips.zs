@@ -394,3 +394,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 // Satchel
 
 <deadmanssatchel:deadmanssatchel>.removeTooltip("^Owner( \\d+)?");
+
+// Scepters
+<defiledlands:tears_flame>.removeTooltip("Fires fireballs");

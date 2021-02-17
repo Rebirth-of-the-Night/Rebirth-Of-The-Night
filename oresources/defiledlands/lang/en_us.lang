@@ -134,9 +134,9 @@ item.defiledlands.idol_sorrow.name=Idol of Sorrow
 item.defiledlands.idol_sorrow.tooltip=Right click an active Conjuring Altar\nto summon The Mourner
 item.defiledlands.essence_mourner.name=Remorseful Essence
 item.defiledlands.remorseful_gem.name=Remorseful Gem
-item.defiledlands.tears_flame.name=Tears of Penance
+item.defiledlands.tears_flame.name=§bFlame Scepter
 item.defiledlands.tears_flame.tooltip=Fires fireballs
-item.defiledlands.tears_shulker.name=Tears of Retribution
+item.defiledlands.tears_shulker.name=§bTears of Retribution
 item.defiledlands.tears_shulker.tooltip=Fires Shulker projectiles at nearby mobs
 
 #Baubles

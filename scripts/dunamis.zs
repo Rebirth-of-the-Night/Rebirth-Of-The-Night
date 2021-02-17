@@ -4,6 +4,8 @@ import crafttweaker.item.IItemTransformer;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
+import crafttweaker.item.IItemCondition;
+import mods.betterwithaddons.Infuser;
 
 // Scepters
 #bases
@@ -37,6 +39,28 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+
+// Cloud Staff
+
+# Change durability
+<aether_legacy:cloud_staff>.maxDamage = 32;
+
+# Recipe
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <rustic:cloudsbluff>, <contenttweaker:slider_eye>],
+    [<contenttweaker:vis_speck>, <contenttweaker:scepter_base_mundane>, <rustic:cloudsbluff>],
+    [<contenttweaker:pristine_diamond>, <contenttweaker:vis_speck>, null]])
+  .addTool(<contenttweaker:air_rune>, 1)
+  .addOutput(<aether_legacy:cloud_staff:32>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<aether_legacy:cloud_staff>,
+[<aether_legacy:cloud_staff>.anyDamage(),<contenttweaker:vis_speck>], 32);
 
 // Inert Charm
 
