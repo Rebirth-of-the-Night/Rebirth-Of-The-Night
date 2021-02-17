@@ -727,6 +727,7 @@ draconicQuintessenceB.add(
 val draconicQuintessenceC = <ore:draconicQuintessenceC>;
 draconicQuintessenceC.add(
     <iceandfire:dragonegg_red>,
+    <iceandfire:dragonegg_green>,
     <iceandfire:dragonegg_bronze>,
     <iceandfire:dragonegg_gray>,
     <iceandfire:dragonegg_blue>,
