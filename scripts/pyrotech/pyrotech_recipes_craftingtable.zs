@@ -56,7 +56,8 @@ JEI.removeAndHide(<pyrotech:cog_diamond>);
 JEI.removeAndHide(<pyrotech:cog_obsidian>);
 recipes.remove(<pyrotech:thatch>);
 recipes.remove(<pyrotech:limestone>);
-recipes.remove(<pyrotech:charcoal_block>);
+JEI.removeAndHide(<pyrotech:charcoal_block>);
+recipes.remove(<pyrotech:coal_coke_block>);
 recipes.remove(<pyrotech:worktable_stone>);
 recipes.remove(<pyrotech:beetroot_roasted>);
 recipes.remove(<pyrotech:egg_roasted>);
@@ -260,11 +261,11 @@ recipes.addShaped("refractory_drain", <pyrotech:tar_drain:1>,
 recipes.addShaped("Standing_dryingrack", <pyrotech:drying_rack:1>,
  [[null,ladder,null],
   [ladder,null,ladder]]);
-recipes.addShaped("coalcoke_block", <pyrotech:charcoal_block>,
+recipes.addShaped("coalcoke_block", <pyrotech:coal_coke_block>,
 [[<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>],
 [<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>],
 [<pyrotech:material:1>,<pyrotech:material:1>,<pyrotech:material:1>]]);
-recipes.addShapeless("coalcoke_from_block", <pyrotech:material:1>*9,[<pyrotech:charcoal_block>]);
+recipes.addShapeless("coalcoke_from_block", <pyrotech:material:1>*9,[<pyrotech:coal_coke_block>]);
   
 //hammers
 recipes.addShaped("stone_sledgehammer", <pyrotech:stone_hammer>,
