@@ -221,7 +221,7 @@ Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmod
 
 // Cyclic Apple
 FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
-FilteredHopper.addFilter("modtweaker:soulsand", <minecraft:soul_sand>);
+// FilteredHopper.addFilter("modtweaker:soulsand", <minecraft:soul_sand>);
 
 // Removal of sawdust, changed in recipes_saw.zs for wood chips from Pyrotech instead
 // Cauldron.remove([<minecraft:netherrack>,<betterwithmods:material:22>]); // netherrack and sawdust
@@ -229,7 +229,7 @@ Cauldron.addStoked([<pyrotech:rock:7>*16],[<betterwithmods:material:21>]); // ch
 FilteredHopper.removeRecipeByInput(<betterwithmods:material:23>); // sawdust from soul dust
 FilteredHopper.addSoulUrnRecipe(<betterwithmods:material:23>*8,[<pyrotech:rock:7>*8],[]);
 FilteredHopper.addSoulUrnRecipe(<quark:soul_bead>*1,[<betterwithmods:material:38>*1],[<betterwithaddons:congealed>*5]);
-FilteredHopper.addFilterRecipe("modtweaker:soulsand",<contenttweaker:starblock>,[<betterwithmods:material:16>*3],[<betterwithmods:material:15>]); 
+FilteredHopper.addFilterRecipe("betterwithmods:soul_sand",<contenttweaker:starblock>,[<betterwithmods:material:16>*3],[<betterwithmods:material:15>]); 
 
 Cauldron.remove([<betterwithmods:material:6>]); // remove default BWM bark-tanned leather recipe as well as dung variants
 Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:7>],[<betterwithmods:material:6>]); // tanned leather
