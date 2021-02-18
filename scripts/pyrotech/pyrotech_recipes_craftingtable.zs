@@ -56,7 +56,7 @@ JEI.removeAndHide(<pyrotech:cog_diamond>);
 JEI.removeAndHide(<pyrotech:cog_obsidian>);
 recipes.remove(<pyrotech:thatch>);
 recipes.remove(<pyrotech:limestone>);
-JEI.removeAndHide(<pyrotech:charcoal_block>);
+recipes.remove(<pyrotech:charcoal_block>);
 recipes.remove(<pyrotech:coal_coke_block>);
 recipes.remove(<pyrotech:worktable_stone>);
 recipes.remove(<pyrotech:beetroot_roasted>);
@@ -284,3 +284,9 @@ recipes.addShaped("mythril_sledgehammer", <pyrotech:bone_hammer>,
  [[<simpleores:mythril_rod>,<pyrotech:diamond_hammer>,<simpleores:mythril_rod>]]);
 recipes.addShaped("onyx_sledgehammer", <pyrotech:obsidian_hammer>,
  [[<simpleores:onyx_rod>,<pyrotech:diamond_hammer>,<simpleores:onyx_rod>]]);
+recipes.addShaped("pyro_charcoal_block", <pyrotech:charcoal_block>, [
+  [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+  [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+  [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]
+]);
+recipes.addShapeless("pyro_charcoal", <minecraft:coal:1>*9, [<ore:blockCharcoal>]);

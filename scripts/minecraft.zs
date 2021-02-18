@@ -803,6 +803,8 @@ wool.remove(<minecraft:wool>);
 val brown = <ore:dyeBrown>;
 brown.remove(<betterwithmods:material:5>);
 
+<ore:blockCharcoal>.add(<pyrotech:charcoal_block>);
+
 <ore:listAllSeed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>, <dynamictreesbop:palmseed>]);
 <ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>,<inspirations:bookshelf:*>]);
 

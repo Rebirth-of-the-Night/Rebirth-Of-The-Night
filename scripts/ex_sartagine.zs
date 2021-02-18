@@ -18,7 +18,7 @@ val bucket = <ore:bucket>;
 val brick = <minecraft:brick>;
 val cobble = <ore:cobblestone>;
 val bowl = <minecraft:bowl>;
-val charcoalBlock = <quark:charcoal_block>;
+val charcoalBlock = <pyrotech:charcoal_block>;
 val ironBlock = <ore:blockIron>;
 
 // recipes.remove(<exsartagine:kettle>); // no built-in recipe yet
