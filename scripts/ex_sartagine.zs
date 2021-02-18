@@ -337,6 +337,8 @@ val ketchup = <harvestcraft:ketchupitem>;
 val crackers = <harvestcraft:crackersitem>;
 val noodles = <harvestcraft:noodlesitem>;
 val sesameSeeds = <harvestcraft:sesameseedsitem>;
+val juice = <ore:listAlljuice>;
+val jelly = <ore:foodJelly>;
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
@@ -3162,6 +3164,86 @@ RecipeBuilder.get("chef")
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:grilledcheesevegemitetoastitem>)
   .create();
+//Monster Fried Dumplings
+recipes.remove(<harvestcraft:monsterfrieddumplingsitem>);
+ExSartagine.addKettleRecipe([<minecraft:rotten_flesh>,garlic,onion,batter],null,null,[<harvestcraft:monsterfrieddumplingsitem>],80);
+//Crispy Rice Puff Cereal -&R
+recipes.remove(<harvestcraft:crispyricepuffcerealitem>);
+recipes.addShapeless("crispyricepuffcereal", <harvestcraft:crispyricepuffcerealitem>,[rice,milkBottle]);
+RecipeBuilder.get("chef")
+  .setName("crispyricepuffcereal")
+  .setShapeless([rice,milkBottle])
+  .addOutput(<harvestcraft:crispyricepuffcerealitem>)
+  .create();
+//Crispy Rice Puff Bar
+recipes.remove(<harvestcraft:crispyricepuffbarsitem>);
+ExSartagine.addKettleRecipe([rice,marshmellows],cookKitKettle,null,[<harvestcraft:crispyricepuffbarsitem>],80);
+//Baba Ganoush -&R
+recipes.remove(<harvestcraft:babaganoushitem>);
+ExSartagine.addKettleRecipe([eggplant,garlic,lemon,cookingOil,spice],cookKitKettle,null,[<harvestcraft:babaganoushitem>],80);
+//Berry Vinaigrette Salad -&R
+recipes.remove(<harvestcraft:berryvinaigrettesaladitem>);
+recipes.addShapeless("berryvinaigrettesalad", <harvestcraft:berryvinaigrettesaladitem>,[lettuce,vinegar,veggie,juice,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("berryvinaigrettesalad")
+  .setShapeless([lettuce,vinegar,veggie,juice])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:berryvinaigrettesaladitem>)
+  .create();
+//Tomato Herb Chicken
+recipes.remove(<harvestcraft:tomatoherbchickenitem>);
+ExSartagine.addKettleRecipe([rawChicken,tomato,spice],cookKitKettle,null,[<harvestcraft:tomatoherbchickenitem>],80);
+//Pasta Gardenia -&R
+recipes.remove(<harvestcraft:pastagardeniaitem>);
+recipes.addShapeless("pastagardenia", <harvestcraft:pastagardeniaitem>,[pasta,cookingOil,tomato,spice,cheese,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("pastagardenia")
+  .setShapeless([pasta,cookingOil,tomato,spice,cheese])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:pastagardeniaitem>)
+  .create();
+//Fiesta Corn Salad -&R
+recipes.remove(<harvestcraft:fiestacornsaladitem>);
+recipes.addShapeless("fiestacornsalad", <harvestcraft:fiestacornsaladitem>,[corn,veggie,onion,lime,garlic,chili,tomato,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("fiestacornsalad")
+  .setShapeless([corn,veggie,onion,lime,garlic,chili,tomato])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:fiestacornsaladitem>)
+  .create();
+//Three Bean Salad -&R
+recipes.remove(<harvestcraft:threebeansaladitem>);
+recipes.addShapeless("threebeansalad", <harvestcraft:threebeansaladitem>,[beans,beans,beans,spice,onion,cookingOil,blackPepper,vinegar,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("threebeansalad")
+  .setShapeless([beans,beans,beans,spice,onion,cookingOil,blackPepper,vinegar])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:threebeansaladitem>)
+  .create();
+//Sweet and Sour Meatballs
+recipes.remove(<harvestcraft:sweetandsourmeatballsitem>);
+ExSartagine.addKettleRecipe([cookedBeef,jelly,jelly],cookKitKettle,null,[<harvestcraft:sweetandsourmeatballsitem>],80);
+//Pepper Jelly
+recipes.remove(<harvestcraft:pepperjellyitem>);
+ExSartagine.addKettleRecipe([chili,sugar],cookKitKettle,null,[<harvestcraft:pepperjellyitem>],80);
+//Pepper Jelly and Crackers
+recipes.remove(<harvestcraft:pepperjellyandcrackersitem>);
+recipes.addShapeless("pepperjellyandcrackers", <harvestcraft:pepperjellyandcrackersitem>,[<harvestcraft:pepperjellyitem>,crackers,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("pepperjellyandcrackers")
+  .setShapeless([<harvestcraft:pepperjellyitem>,crackers])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:pepperjellyandcrackersitem>)
+  .create();
+//Salted Caramel
+recipes.remove(<harvestcraft:saltedcaramelitem>);
+recipes.addShapeless("saltedcaramel", <harvestcraft:saltedcaramelitem>,[caramel,salt,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("saltedcaramel")
+  .setShapeless([caramel,salt])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:saltedcaramelitem>)
+  .create();
 
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
@@ -3193,7 +3275,7 @@ val hiddenFoods as IItemStack[] = [
   <harvestcraft:turkishdelightitem>,
   <harvestcraft:greeneggsandhamitem>,
   <harvestcraft:theatreboxitem>,
-  <harvestcraft:riceitem>
+  <harvestcraft:spidereyepieitem>
 ];
 
 for item in hiddenFoods {

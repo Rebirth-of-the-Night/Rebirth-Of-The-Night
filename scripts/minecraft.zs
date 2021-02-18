@@ -936,6 +936,9 @@ for item in mushroom.items{
 val stewCondiment = <ore:listAllStewcondiment>;
 stewCondiment.add(<harvestcraft:onionitem>,<harvestcraft:bellpepperitem>,<minecraft:carrot>,<harvestcraft:cornitem>,<harvestcraft:scallionitem>,<harvestcraft:leekitem>);
 
+val foodJelly = <ore:foodJelly>;
+foodJelly.addItems([<harvestcraft:grapejellyitem>,<harvestcraft:applejellyitem>,<harvestcraft:blackberryjellyitem>,<harvestcraft:blueberryjellyitem>,<harvestcraft:cherryjellyitem>,<harvestcraft:cranberryjellyitem>,<harvestcraft:kiwijellyitem>,<harvestcraft:lemonjellyitem>,<harvestcraft:limejellyitem>,<harvestcraft:mangojellyitem>,<harvestcraft:orangejellyitem>,<harvestcraft:papayajellyitem>,<harvestcraft:peachjellyitem>,<harvestcraft:pomegranatejellyitem>,<harvestcraft:raspberryjellyitem>,<harvestcraft:starfruitjellyitem>,<harvestcraft:strawberryjellyitem>,<harvestcraft:watermelonjellyitem>,<harvestcraft:apricotjellyitem>,<harvestcraft:figjellyitem>,<harvestcraft:grapefruitjellyitem>,<harvestcraft:persimmonjellyitem>,<harvestcraft:gooseberryjellyitem>,<harvestcraft:pearjellyitem>,<harvestcraft:plumjellyitem>,<harvestcraft:pepperjellyitem>]);
+
 val tuber = <ore:listAllTuber>;
 tuber.addAll(<ore:listAllrootveggie>);
 tuber.add(<minecraft:potato>,<harvestcraft:beetitem>,<minecraft:beetroot>,<inspirations:edibles>,<pyrotech:strange_tuber>,<quark:root>,<rustic:marsh_mallow>,<rustic:ginseng>,<rustic:core_root>,<twilightforest:liveroot>);
