@@ -3275,7 +3275,8 @@ val hiddenFoods as IItemStack[] = [
   <harvestcraft:turkishdelightitem>,
   <harvestcraft:greeneggsandhamitem>,
   <harvestcraft:theatreboxitem>,
-  <harvestcraft:spidereyepieitem>
+  <harvestcraft:spidereyepieitem>,
+  <harvestcraft:riceitem>
 ];
 
 for item in hiddenFoods {
