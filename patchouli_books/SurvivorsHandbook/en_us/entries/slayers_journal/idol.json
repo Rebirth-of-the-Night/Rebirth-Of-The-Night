@@ -1,0 +1,23 @@
+{
+  "name": "Idol of Radiance",
+  "icon": "contenttweaker:suntouched_diamond",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/WIP",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(#734608)Over the years, I’ve seen at least a dozen different $(thing)goblin$() $(#734608)cultures. Most of them have different traditions and even worship different gods, but all of them have one thing in common - they hate the sun. But thousands of years ago when the $(thing)arcane barrier$() $(#734608)appeared deep underground, many goblins were trapped in the dark below,$()"
+	},
+	{
+	  "type": "spotlight",
+	  "title": "Summoning Totem",
+      "item": "bountifulbaubles:crowngold",
+      "text": "$(#734608)in a place where the shadows “breed” and “live”, with no way to return. The goblins I met told me that in such dire circumstances, even the least devout survivor would have sought aid from  “Uyalokura”, $(thing)the prince of the sun.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)Goblin shamans$() $(#734608)imbue magic into the $(thing)idols$() $(#734608)of their gods, just like villagers create golems in their own image. The shamans claim these idols inherit some of the powers of the deities they’re meant to represent and venerate. I wish I had that kind of faith in myself!$()"
+    }
+  ]
+}

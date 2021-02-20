@@ -1,0 +1,17 @@
+{
+  "name": "Fallen Skies",
+  "icon": "nyx:meteor_shard",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "After killing a $(thing)Quazar$(), I noticed the ground beneath me shudder. It felt like it came from deep below the world... I've also noticed a few new creatures lurking in the shadows."
+    },
+    {
+      "type": "text",
+      "text": "I'm wary about continuing my adventures and following the Slayer's journal, but I've come too far now. I'm curious to see what else I can discover and what else lies in wait to challenge me."
+    }
+  ]
+}

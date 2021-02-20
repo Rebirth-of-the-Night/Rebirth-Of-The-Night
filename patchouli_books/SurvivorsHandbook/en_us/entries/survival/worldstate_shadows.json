@@ -1,0 +1,20 @@
+{
+  "name": "Shadows Gather",
+  "icon": "contenttweaker:adhesive_shadow",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedIdolofRadiance",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "Ever since I shattered that radiant idol, it seems the darkness in the Beneath has only grown stronger."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}
