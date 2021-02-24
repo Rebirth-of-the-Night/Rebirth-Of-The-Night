@@ -28,7 +28,22 @@ mB means miniBucket, forge's liquid metric unit
 */
 
 //heat source
-Heating.addStateSource(<blockstate:betterwithmods:stoked_flame>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:0>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:1>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:2>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:3>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:4>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:5>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:6>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:7>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:8>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:9>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:10>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:11>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:12>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:13>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:14>, 1500);
+Heating.addStateSource(<blockstate:betterwithmods:stoked_flame:15>, 1500);
 Heating.addStateSource(<blockstate:betterwithmods:creative_generator>, 2500);
 
 // burner heater fuel
