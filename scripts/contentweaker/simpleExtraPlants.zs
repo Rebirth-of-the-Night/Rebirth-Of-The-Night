@@ -1,12 +1,7 @@
 #loader contenttweaker
 
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Item;
-import mods.contenttweaker.BlockMaterial;
-import mods.contenttweaker.Block;
-
 import mods.contenttweaker.AxisAlignedBB;
-
+import mods.contenttweaker.VanillaFactory;
 
 var moss_patch = VanillaFactory.createBlock("moss_patch", <blockmaterial:Grass>);
 moss_patch.axisAlignedBB = AxisAlignedBB.create(
