@@ -86,8 +86,7 @@
 <atop:amethyst_sword:*>.addTooltip("+5% Attack Speed");
 
 
-<ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
+// Unsorted
 
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
@@ -103,19 +102,22 @@
 <harvestcraft:coffeeitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+
+
+// Arcane Archives
+<arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
+
+// BWM BWA
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
 <betterwithmods:material:12>.addShiftTooltip('Can be consumed, but if it had a label, it would read "DO NOT CONSUME."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:hibachi>.addTooltip("Powered by redstone");
-
-<golems:golem_head>.addTooltip("Used for summoning Golems");
-
-
-<antiqueatlas:empty_antique_atlas>.addTooltip("Antique Map");
-
-
-
-// BWA
 <betterwithaddons:ancestry_bottle>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
+<betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
+<betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
+<betterwithaddons:slat>.addTooltip("Perfect for being covered with tatami mats!");
+<betterwithaddons:slat>.addShiftTooltip("Place a tatami mat on top, then use a hoe to fit it perfectly to floor level.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithaddons:tatami>.addShiftTooltip('Tatami should not be arranged forming a "+" shape at the junctions, lest it bring an inauspicious future.');
+<betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Nyx
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects");
@@ -129,8 +131,6 @@
 <nyx:crystal:*>.addTooltip("Passively boosts crop growth when placed near crops");
 <nyx:meteor_pickaxe:*>.addTooltip("Mines obsidian and meteoric rock much faster");
 <nyx:meteor_axe:*>.addTooltip("Deals extra damage to shields");
-
-
 mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
 
 
@@ -210,6 +210,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <quark:horse_whistle>.addTooltip("Summons your trusty steed, even from a great distance away.");
 <quark:grate>.addTooltip("Most animals are afraid of walking on metal grates.");
 <quark:iron_ladder>.addTooltip("Right click on a tin ladder to place another ladder below which doesn't require a standing block.");
+
 // Quark Hoes
 <minecraft:stone_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 <minecraft:iron_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
@@ -279,57 +280,44 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <malisisdoors:jail_door>.addTooltip("slidin into ur DMs");
 
 // Misc.
+<antiqueatlas:empty_antique_atlas>.addTooltip("Antique Map");
+<golems:golem_head>.addTooltip("Used for summoning Golems");
+<ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
-<betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
-<betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
-<betterwithaddons:slat>.addTooltip("Perfect for being covered with tatami mats!");
-<betterwithaddons:slat>.addShiftTooltip("Place a tatami mat on top, then use a hoe to fit it perfectly to floor level.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<betterwithaddons:tatami>.addShiftTooltip('Tatami should not be arranged forming a "+" shape at the junctions, lest it bring an inauspicious future.');
-
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer:*>.addTooltip("From the // 1 princess in the world.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
-
 <minecraft:enchanting_table>.addTooltip("Only usable at night.");
 <minecraft:enchanting_table>.addTooltip("Untapped power lies within this table...");
 <eplus:advanced_table>.addTooltip("Requires placing an Enchanting Table Upgrade on a regular Enchanting Table.");
 <eplus:table_upgrade>.addTooltip("Shift + right-click on an Enchanting Table to upgrade.");
-
 <scalinghealth:healingitem>.removeTooltip("Use for 5 seconds to apply.");
 <scalinghealth:healingitem>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
 <scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
 <scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
 <foundry:machine:2>.removeTooltip("Requires RF, FE, or Tesla to operate.");
 <foundry:machine:2>.addTooltip("Requires a Redstone signal to operate.");
 <foundry:machine:3>.removeTooltip("Requires RF, FE, or Tesla to operate.");
 <foundry:machine:3>.addTooltip("Requires a Redstone signal to operate.");
-
 <harvestcraft:well>.addTooltip("Infinite water source.");
 <harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
 <minecraft:furnace>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" 64; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:furnace>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" 64; 1 at a time."));
 <minecraft:furnace>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 100%"));
-
 <exsartagine:pan>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:kettle>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:range>.addTooltip("Efficiently heats cooking appliances for fuel.");
 <exsartagine:range>.addShiftTooltip("Turns up to four furnaces to its right into part of the cooking range, offering 4 surfaces on which to place pans, pots and kettles.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Living entities."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Chute Compat.:") + format.green(" YES."));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
 <advancedliftingmethods:blowing_elevator>.addShiftTooltip("Can't be rotated; Can descend by crouching.");
-
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Pushes:") + "" + format.yellow(" Any entity or item."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Chute Compat.:") + format.red(" NO."));
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
 <dungeontactics:fan_block>.addShiftTooltip("Can be rotated.");
-
 <netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
 <dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");
@@ -338,20 +326,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <iceandfire:dragonbone_bow>.addTooltip("Only shoots Dragonbone Arrows.");
 <dungeontactics:lantern_magic>.addTooltip("Light with a Flint and Steel to activate.");
 <dungeontactics:lantern_magic>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
-
 <extraalchemy:potion_ring>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
 <dungeontactics:magic_pouch>.addTooltip("Right-click to open.");
-
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
-<betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-
 <artisanworkstumps:workstump_potter>.addTooltip("Enables hand-building pottery.");
 
-//Bombs
+// Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <dungeontactics:bomb_frag_cluster>.addTooltip("Explodes in an area");
