@@ -1,35 +1,16 @@
 #loader contenttweaker
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IRayTraceResult;
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ActionResult;
-import mods.contenttweaker.BlockState;
-import mods.contenttweaker.IItemDestroyedBlock;
-import mods.contenttweaker.Color;
-import mods.contenttweaker.MaterialSystem;
-import mods.contenttweaker.Item;
-import mods.contenttweaker.Facing;
-import mods.contenttweaker.MutableItemStack;
-import mods.contenttweaker.Commands;
-import mods.contenttweaker.IItemUse;
-import mods.contenttweaker.World;
-import crafttweaker.world.IWorld;
-import mods.contenttweaker.Player;
-import mods.contenttweaker.Random;
-import mods.contenttweaker.Hand;
-import crafttweaker.block.IBlock;
-import crafttweaker.player.IPlayer;
-import mods.contenttweaker.DropHandler;
-import crafttweaker.item.IItemStack;
-import mods.contenttweaker.IItemUseFinish;
-import crafttweaker.world.IRayTraceResult;
-import crafttweaker.entity.IEntityLivingBase;
-import crafttweaker.block.IBlockState;
-import mods.contenttweaker.IItemRightClick;
 
-val slider_eye = mods.contenttweaker.VanillaFactory.createItem("slider_eye");
+val slider_eye = VanillaFactory.createItem("slider_eye");
 slider_eye.register();
 
-val unattuned_focus = mods.contenttweaker.VanillaFactory.createItem("unattuned_focus");
+val unattuned_focus = VanillaFactory.createItem("unattuned_focus");
 unattuned_focus.register();
 
 val arcane_focus = VanillaFactory.createItem("arcane_focus");
@@ -67,80 +48,6 @@ arcane_eye_u.onItemUseFinish = function(stack, notWorld, entity) {
         print("rayget");
     }
     return stack;
-};
-arcane_eye_u.register();
-*/
-
-/*
-val arcane_eye_u = VanillaFactory.createItem("arcane_eye_unattuned");
-arcane_eye_u.maxStackSize = 8;
-arcane_eye_u.maxDamage = 64;
-arcane_eye_u.itemUseAction = "BOW";
-arcane_eye_u.onItemUseFinish = function(stack, world, player) {
-    var p as IPlayer;
-    p = player;
-    val rayget = player.getRayTrace(1, 1).isBlock();
-    if (rayget has <block:dimstack:bedrock:0>) {
-    Commands.call("setblock ~ ~ ~1 minecraft:dirt", p, world);
-    return "Pass";
-    }
-    return ActionResult.pass();
-};
-arcane_eye_u.register();
-*/
-
-/*
-val arcane_eye_u = VanillaFactory.createItem("arcane_eye_unattuned");
-arcane_eye_u.maxStackSize = 8;
-arcane_eye_u.maxDamage = 64;
-arcane_eye_u.itemUseAction = "BOW";
-arcane_eye_u.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    if (world.getBlockState(pos) == <block:dimstack:bedrock:0>) {
-        if (!world.remote) {
-        }
-        return ActionResult.success();
-    }
-    return ActionResult.pass();
-};
-arcane_eye_u.onItemUseFinish = function(stack, world, player) {
-    var p as IPlayer;
-    p = player;
-    Commands.call("setblock ~ ~ ~1 minecraft:dirt", p, world);
-    return "Pass";
-};
-arcane_eye_u.register();
-*/
-
-/*
-val arcane_eye_u = VanillaFactory.createItem("arcane_eye_unattuned");
-arcane_eye_u.maxStackSize = 8;
-arcane_eye_u.maxDamage = 64;
-arcane_eye_u.itemUseAction = "BOW";
-arcane_eye_u.onItemUseFinish = function(player, world, pos, hand, facing, blockHit) {
-    if (world.getBlockState(pos) == <block:dimstack:bedrock:0>) {
-        if (!world.remote) {
-            Commands.call("destroy <direction: forward>", player, world);
-        }
-        return ActionResult.success();
-    }
-    return ActionResult.pass();
-};
-arcane_eye_u.register();
-*/
-
-/*
-val arcane_eye_u = VanillaFactory.createItem("arcane_eye_unattuned");
-arcane_eye_u.maxStackSize = 8;
-arcane_eye_u.maxDamage = 64;
-arcane_eye_u.itemUseAction = "BOW";
-arcane_eye_u.itemRightClick = function(stack, world, player, hand) {
-    if (world.getBlockState(pos) == <block:dimstack:bedrock:0>) {
-        if (!world.remote) {
-            world.setBlockState(<block:minecraft:air>, pos);
-            }
-        return ActionResult.success();
-    }
-    return ActionResult.pass();
 };
 arcane_eye_u.register();
 */
