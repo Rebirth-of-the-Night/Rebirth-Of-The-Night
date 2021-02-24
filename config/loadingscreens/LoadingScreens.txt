@@ -2,7 +2,6 @@ background = addStretchedTexture("top_left", "rotn:textures/load.png")
 background.setRelRender(1, 1)
 
 tips = addRandomText("top_center")
-tips.setAbsXOffset(5)
 tips.setAbsYOffset(5)
 
 tips.addTip("Press the Teams button on the top left of the inventory screen to team with your friends!")
