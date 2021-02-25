@@ -124,6 +124,13 @@ CrushingTub.addRecipe(<liquid:fluid_booze_green_juice>*160, null, <growthcraft_g
 // Misc
 furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);
 
+// Beginnings of Potion Revamp (ping Kilo, there's a trello card)
+
+recipes.remove(<rustic:condenser>);
+recipes.remove(<rustic:retort>);
+recipes.addShaped(<rustic:condenser>, [[null, <minecraft:brick>, null],[<minecraft:brick>, <pyrotech:bucket_stone>, <minecraft:brick>], [<minecraft:brick>, <minecraft:stained_hardened_clay>, <minecraft:brick>]]);
+recipes.addShaped(<rustic:retort>, [[null, <minecraft:brick>, null],[<minecraft:iron_ingot>, <minecraft:iron_ingot>, null], [null, <minecraft:brick>, null]]);
+
 
 // fixed unbrewable potion recipes
 val regenerationElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 900, Amplifier: 0}]});
