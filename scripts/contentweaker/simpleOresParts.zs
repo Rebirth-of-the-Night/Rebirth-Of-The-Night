@@ -18,7 +18,7 @@ addMaterial("Coade Stone", "301807", ["molten"], [1375, 3100, 8, 4900]);
 addMaterial("Endorium", "219484", ["dust"], [0]);
 addMaterial("Crucible Steel", "3E3E3E", ["dust"], [0]);
 addMaterial("Iron", "E5DADA", ["dust"], [0]);
-addMaterial("Gold", "F0CA2F", ["gold"], [0]);
+addMaterial("Gold", "F0CA2F", ["dust"], [0]);
 addMaterial("Silver", "D2DCE8", ["dust"], [0]);
 addMaterial("Zinc", "E3EAE8", ["ore", "ingot", "block", "nugget", "molten", "dust"], [500, 3100, 7, 1900]);
 addMaterial("Ambrosium", "FFE666", ["molten", "dust"], [195, 1125, 12, 6050]);
