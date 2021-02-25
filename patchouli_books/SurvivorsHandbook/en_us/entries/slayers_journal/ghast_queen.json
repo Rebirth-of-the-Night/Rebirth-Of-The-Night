@@ -2,7 +2,7 @@
   "name": "Ghast Queen",
   "icon": "netherex:ghast_queen_tear",
   "category": "slayers_journal",
-  "advancement": "triumph:advancements/WIP",
+  "advancement": "triumph:advancements/progression/wither/killedGhastQueen",
 
   "sortnum": 3,
   "pages": [

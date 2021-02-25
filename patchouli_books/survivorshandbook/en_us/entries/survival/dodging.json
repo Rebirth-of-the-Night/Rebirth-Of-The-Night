@@ -5,7 +5,7 @@
   "pages": [
 	{
     "type": "text",
-	  "text": "I'll need to be light on my feet if I want to avoid getting hurt from monsters. Dodging at the right time can be the difference between life and death.$(br2)$(#158B1D)Double-tap the directional keys to dodge in a direction. Press F to dodge forward."
+	  "text": "I'll need to be light on my feet if I want to avoid getting hurt from monsters. Dodging at the right time can be the difference between life and death.$(br2)$(#158B1D)Double-tap the directional keys to dodge in a direction. Press left-ALT to dodge forward."
   },
   {
     "type": "text",

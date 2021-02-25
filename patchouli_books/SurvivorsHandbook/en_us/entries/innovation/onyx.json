@@ -2,7 +2,7 @@
   "name": "Onyx",
   "icon": "simpleores:onyx_gem",
   "category": "innovation_minerals",
-  "advancement": "triumph:advancements/WIP",
+  "advancement": "triumph:advancements/progression/wither/onyx",
   "pages": [
  {
       "type": "text",

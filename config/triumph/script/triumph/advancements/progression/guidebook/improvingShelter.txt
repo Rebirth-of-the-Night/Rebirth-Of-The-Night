@@ -9,6 +9,6 @@ criteria.addItem(<ore:StoneHugeBrick>)
 
 setRequirements("all")
 
-setShowToast(true)
-setAnnounceToChat(true)
+setShowToast(false)
+setAnnounceToChat(false)
 alwaysHidden()
