@@ -1,4 +1,7 @@
 
+
+<aether_legacy:healing_stone>.addTooltip("Restores max HP lost from dying from the plague");
+
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+25% Attack Speed"));
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+2 Armor Toughness"));
