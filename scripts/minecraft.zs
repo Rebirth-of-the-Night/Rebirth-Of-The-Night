@@ -30,7 +30,6 @@ JEI.removeAndHide(<cd4017be_lib:item_supp>);
 JEI.removeAndHide(<cd4017be_lib:fluid_supp>);
 JEI.removeAndHide(<cd4017be_lib:m>);
 JEI.removeAndHide(<cd4017be_lib:rrwi>);
-JEI.removeAndHide(<betterslimes:null_item>);
 JEI.removeAndHide(<inspirations:materials:0>);
 JEI.removeAndHide(<rotm:debug_damages>);
 JEI.removeAndHide(<rotm:debug_entities>);
