@@ -47,7 +47,7 @@ JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when 
 
 //healing stone
 Enchanter.removeEnchantment(<aether_legacy:holystone>);
-//Enchanter.registerEnchantment(<minecraft:potato>, <aether_legacy:healing_stone>, 200);
+Enchanter.registerEnchantment(<aether_legacy:dungeon_block:2>, <aether_legacy:healing_stone>, 200);
  
 //Aether Enchanter
 Enchanter.registerEnchanterFuel(elec,2400);
