@@ -58,11 +58,11 @@
         "discord":
         {
             "text" : "Join The Discord",
-			"normalTextColor" : 12303291,
+			"normalTextColor" : 4146687,
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 0,
+            "posX" : -105,
+            "posY" : 60,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -80,8 +80,8 @@
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 20,
+            "posX" : -105,
+            "posY" : 0,
             "width" : 100,
             "height" : 20,
 			"imageWidth" : 100,
@@ -99,8 +99,8 @@
             "normalTextColor" : 12303291,
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 40,
+            "posX" : -105,
+            "posY" : 20,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
@@ -114,12 +114,12 @@
         },
         "patreon":
         {
-            "text" : "Donate via Patreon",
-            "normalTextColor" : 12303291,
+            "text" : "Donate Via Patreon",
+            "normalTextColor" : 16756257,
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
-            "posX" : -100,
-            "posY" : 60,
+            "posX" : -105,
+            "posY" : 80,
             "width" : 100,
             "height" : 20,
             "imageWidth" : 100,
@@ -129,6 +129,44 @@
             {
                 "type" : "openLink",
                 "link" : "https://www.patreon.com/rebirthofthenight"
+            }
+        },
+        "merch":
+        {
+            "text" : "Buy Our Merch",
+            "normalTextColor" : 16737894,
+            "hoverTextColor" : 3125670,
+            "texture" : "rotn:textures/btn.png",
+            "posX" : -105,
+            "posY" : 100,
+            "width" : 100,
+            "height" : 20,
+            "imageWidth" : 100,
+            "imageHeight" : 50,
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://calamarigold.live/merch"
+            }
+        },
+        "twitch":
+        {
+            "text" : "Watch Development Live",
+            "normalTextColor" : 11691775,
+            "hoverTextColor" : 3125670,
+            "texture" : "rotn:textures/btn.png",
+            "posX" : -105,
+            "posY" : 120,
+            "width" : 100,
+            "height" : 20,
+            "imageWidth" : 100,
+            "imageHeight" : 50,
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://twitch.tv/calamarigold"
             }
         },
         "blm":
@@ -290,7 +328,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 3.0 BETA 3",
+            "text": "Version 3.0 BETA 4",
             "posX": 2,
             "posY": -10,
             "color": 16737380,
