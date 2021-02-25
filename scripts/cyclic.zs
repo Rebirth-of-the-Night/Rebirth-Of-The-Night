@@ -10,6 +10,9 @@ import crafttweaker.oredict.IOreDictEntry;
 
 
 //Removed items
+JEI.removeAndHide(<cyclicmagic:block_fragile>);
+JEI.removeAndHide(<cyclicmagic:block_fragile_weak>);
+
 JEI.removeAndHide(<cyclicmagic:tool_trade>);
 JEI.removeAndHide(<cyclicmagic:block_fragile_auto>);
 JEI.removeAndHide(<cyclicmagic:item_pipe_sort>);
