@@ -1,0 +1,8 @@
+[
+  {
+    "targetBlock": "minecraft:farmland",
+    "heldItem": "ore:pileDirt",
+    "replacementBlock": "growthcraft_rice:ricepaddy",
+    "damage": "1"
+  }
+]

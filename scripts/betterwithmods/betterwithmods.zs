@@ -92,7 +92,6 @@ recipes.remove(<betterwithmods:donut>);
 JEI.removeAndHide(<betterwithmods:donut>);
 Cauldron.remove([<betterwithmods:donut>]);
 
-JEI.removeAndHide(<betterwithmods:dirt_pile>);
 JEI.removeAndHide(<betterwithmods:gravel_pile>);
 JEI.removeAndHide(<betterwithmods:sand_pile>);
 JEI.removeAndHide(<betterwithmods:red_sand_pile>);
@@ -173,6 +172,7 @@ recipes.addShaped("sewed_haft",haft*2,[
 ]);
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
+recipes.removeShapeless(<betterwithmods:dirt_pile>*4,[<ore:DirtBlock>]);
 
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
