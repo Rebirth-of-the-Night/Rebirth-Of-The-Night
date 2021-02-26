@@ -56,7 +56,7 @@
 			"z": 0,
 			"useTopSolidY": false
 		},
-		"coordinateMultiplier": 8.0,
+		"coordinateMultiplier": 1.0,
 		"teleportToPortal": true,
 		"oneWay": false,
 		"ensureReturnToSameDimension": false,
