@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-        "0": "contenttweaker:blocks/modelingrefractory",
+        "texture": "contenttweaker:blocks/modelingrefractory",
 		"particle": "contenttweaker:blocks/modelingrefractory"
     },
     "model": "contenttweaker:yeast",

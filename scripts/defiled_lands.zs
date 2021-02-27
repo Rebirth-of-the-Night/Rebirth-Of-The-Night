@@ -114,7 +114,7 @@ recipes.addShaped("the_ravager",<defiledlands:the_ravager>,[
 ]);
 
 recipes.remove(<defiledlands:pellet_umbrium>);
-Casting.addRecipe(<defiledlands:pellet_umbrium>*4, <liquid:soulforged_steel>*((144*8)-(16*2*8)), <foundry:mold:21>, <aether_legacy:enchanted_gravitite>);
+Casting.addRecipe(<defiledlands:pellet_umbrium>*4, <liquid:soulforged_steel>*((144*8)-(16*2*8)), <foundry:mold:21>, <ore:ingotGravitite>);
 
 recipes.removeByRecipeName("defiledlands:misc/pellet_ravaging");
 

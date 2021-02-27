@@ -83,6 +83,8 @@ recipes.addShaped("exorite_to_block", <biomesoplenty:gem_block:0>, [
 recipes.removeByRecipeName("biomesoplenty:amethyst");
 recipes.addShapeless("block_to_exorite",<rotn_blocks:exorite_crystal>*9,[<biomesoplenty:gem_block:0>]);
 
+recipes.addShapeless("unfired_mud_bricks",<contenttweaker:unfired_mud_brick>,[<biomesoplenty:mudball>]);
+
 furnace.addRecipe(<minecraft:clay_ball>, <biomesoplenty:mud_brick>, 0.3);
 
 recipes.addShaped("overgrown_stone",<biomesoplenty:grass:1>*8,[

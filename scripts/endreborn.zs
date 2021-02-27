@@ -79,7 +79,7 @@ recipes.remove(<endreborn:tool_magnifier>);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, <endreborn:item_ingot_endorium>, <aether_legacy:enchanted_gravitite>],
+    [null, <endreborn:item_ingot_endorium>, <ore:ingotGravitite>],
     [null, <minecraft:end_rod>, <dungeontactics:steel_ingot>], 
     [<minecraft:end_rod>, null, null]])
   .addTool(<endreborn:item_end_rune>, 1)

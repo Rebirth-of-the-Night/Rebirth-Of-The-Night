@@ -22,9 +22,9 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_sliver>, <betternether:cincinnasite>, <aether_legacy:enchanted_gravitite>],
+    [<contenttweaker:vis_sliver>, <betternether:cincinnasite>, <ore:ingotGravitite>],
     [<contenttweaker:vis_sliver>, <ore:arcaneWood>, <betternether:cincinnasite>],
-    [<aether_legacy:enchanted_gravitite>, <contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>]])
+    [<ore:ingotGravitite>, <contenttweaker:vis_sliver>, <contenttweaker:vis_sliver>]])
   .addOutput(<contenttweaker:scepter_base_arcane>)
   .setMinimumTier(1)
   .setMaximumTier(1)

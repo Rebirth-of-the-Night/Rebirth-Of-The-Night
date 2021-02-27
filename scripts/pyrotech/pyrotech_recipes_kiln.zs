@@ -20,10 +20,9 @@ StoneKiln.addRecipe("bwmpottery1", <betterwithmods:planter>, <betterwithmods:unf
 StoneKiln.addRecipe("bwmpottery2", <rustic:vase>, <contenttweaker:pot_unfired>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery3", <betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery4", <betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 20*210, true);
-StoneKiln.addRecipe("bwmclaybrick", <minecraft:brick:0>, <minecraft:clay_ball:0>, 20*210, true);
 StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 20*240, true);
-StoneKiln.addRecipe("bwmnetherbrick_efficient", <minecraft:netherbrick>*4, <minecraft:netherrack>, 20*240, true);
-StoneKiln.addRecipe("bwmclaybrick_efficient ", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*240, true);
+StoneKiln.addRecipe("bwmclaybrick", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*240, true);
+StoneKiln.addRecipe("bwmmudbrick", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 20*240, true);
 StoneKiln.addRecipe("refractorybrick", <pyrotech:material:5>, <pyrotech:material:9>, 20*280, true);
 StoneKiln.addRecipe("bwmcobble_to_stone", <minecraft:stone:0>, <minecraft:cobblestone:0>, 20*210, true);
 StoneKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*210, true);
@@ -31,7 +30,6 @@ StoneKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:
 StoneKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*210, true);
 StoneKiln.addRecipe("mudbrick_to_clay", <minecraft:clay_ball>, <biomesoplenty:mud_brick>, 20*210, true);
 StoneKiln.addRecipe("charge_to_burnt_goo", <betterslimes:black_slime>, <minecraft:fire_charge>, 20*300, true);
-StoneKiln.addRecipe("bwmmudbrick_efficient", <biomesoplenty:mud_brick>, <ore:ballMud>, 20*210, true);
 StoneKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*290, true);
 StoneKiln.addRecipe("charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 20*290, 0.25, [<biomesoplenty:ash>*2], true);
 StoneKiln.addRecipe("bwmflint_block", <betterwithmods:aesthetic:5>, <ore:gravel>, 20*290, true);

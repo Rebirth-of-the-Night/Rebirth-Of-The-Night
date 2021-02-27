@@ -93,18 +93,6 @@
 
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
-<contenttweaker:sprinkles>.addTooltip("Zero nutritional value, but it gets you going.");
-<contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:teaitem>.addTooltip("Calming, but it gets you going.");
-<harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:raspberryicedteaitem>.addTooltip("Sweet, refreshing and it gets you going.");
-<harvestcraft:raspberryicedteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:chaiteaitem>.addTooltip("So aromatic it gets you going.");
-<harvestcraft:chaiteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:coffeeitem>.addTooltip("Some good coffee, the one that gets you going.");
-<harvestcraft:coffeeitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
-<harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 
 // Arcane Archives
@@ -282,6 +270,22 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 // Doors
 <malisisdoors:jail_door>.addTooltip("slidin into ur DMs");
 
+// Particular Eatables (Wildly Eat)
+<contenttweaker:sprinkles>.addTooltip("Zero nutritional value, but it gets you going.");
+<contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:teaitem>.addTooltip("Calming, but it gets you going.");
+<harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:raspberryicedteaitem>.addTooltip("Sweet, refreshing and it gets you going.");
+<harvestcraft:raspberryicedteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:chaiteaitem>.addTooltip("So aromatic it gets you going.");
+<harvestcraft:chaiteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:coffeeitem>.addTooltip("Some good coffee, the one that gets you going.");
+<harvestcraft:coffeeitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
+<harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<growthcraft_rice:rice>.addTooltip("Staple of civilization, should cook first.");
+<growthcraft_rice:rice>.addShiftTooltip("Raw rice grains is particularly full of harmful bacteria.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+
 // Misc.
 <antiqueatlas:empty_antique_atlas>.addTooltip("Antique Map");
 <golems:golem_head>.addTooltip("Used for summoning Golems");
@@ -334,6 +338,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:dirt_pile>.addTooltip("Additive.");
+<betterwithmods:dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <artisanworkstumps:workstump_potter>.addTooltip("Enables hand-building pottery.");
 
 // Bombs

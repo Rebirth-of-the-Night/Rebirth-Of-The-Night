@@ -582,7 +582,7 @@ arcanaQuintessenceA.add(
     <simpleores:mythril_ingot>,
     <betterwithmods:material:20>,
     <twilightforest:fiery_ingot>,
-    <aether_legacy:enchanted_gravitite>,
+    <ore:ingotGravitite>.firstItem,
     <twilightforest:steeleaf_ingot>,
     <twilightforest:naga_scale>,
     <biomesoplenty:sapling_0:3>,
@@ -745,7 +745,7 @@ aetherQuintessenceA.add(
     <aether_legacy:mossy_holystone>,
     <aether_legacy:ambrosium_shard>,
     <aether_legacy:zanite_gemstone>,
-    <aether_legacy:enchanted_gravitite>,
+    <ore:ingotGravitite>.firstItem,
     <aether_legacy:aercloud:*>
 );
 

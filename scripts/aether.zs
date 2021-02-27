@@ -163,6 +163,37 @@ recipes.addShaped("quicksoil", quicks*8,[
     [sand, sand, sand]
 ]);
 
+// Gravitite ingot rework
+
+var gravitite_ingot = <ore:ingotGravitite>;
+var gravitite_block = <ore:blockEnchantedGravitite>;
+
+recipes.remove(<aether_legacy:gravitite_leggings>);
+recipes.remove(<aether_legacy:gravitite_helmet>);
+recipes.remove(<aether_legacy:gravitite_chestplate>);
+recipes.remove(<aether_legacy:gravitite_boots>);
+recipes.addShaped("gravitite_ingot_helmet", <aether_legacy:gravitite_helmet>,
+[[gravitite_ingot,gravitite_ingot,gravitite_ingot],
+  [gravitite_ingot,null,gravitite_ingot]]);
+recipes.addShaped("gravitite_ingot_chestplate", <aether_legacy:gravitite_chestplate>,
+ [[gravitite_ingot,null,gravitite_ingot],
+  [gravitite_ingot,gravitite_ingot,gravitite_ingot],
+  [gravitite_ingot,gravitite_ingot,gravitite_ingot]]);
+recipes.addShaped("gravitite_ingot_leggings", <aether_legacy:gravitite_leggings>,
+ [[gravitite_ingot,gravitite_ingot,gravitite_ingot],
+  [gravitite_ingot,null,gravitite_ingot],
+  [gravitite_ingot,null,gravitite_ingot]]);
+recipes.addShaped("gravitite_ingot_boots", <aether_legacy:gravitite_boots>,
+ [[gravitite_ingot,null,gravitite_ingot],
+  [gravitite_ingot,null,gravitite_ingot]]);
+
+recipes.addShaped("gravitite_block", gravitite_block.firstItem,
+ [[gravitite_ingot,gravitite_ingot,gravitite_ingot],
+  [gravitite_ingot,gravitite_ingot,gravitite_ingot],
+  [gravitite_ingot,gravitite_ingot,gravitite_ingot]]);
+recipes.addShapeless("block_to_gravitite", gravitite_ingot.firstItem*9,
+ [gravitite_block]);
+
 // Rebirth of the Bed AETHER EDITION
 
 recipes.remove(<aether_legacy:skyroot_bed_item>);
@@ -188,7 +219,7 @@ JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
 JEI.removeAndHide(<aether_legacy:lore_book>);
 
 
-var egrav = <aether_legacy:enchanted_gravitite>;
+var egrav = <ore:ingotGravitite>;
 var stick = <aether_legacy:skyroot_stick>;
 
 recipes.remove(<atop:amber_pickaxe>);
