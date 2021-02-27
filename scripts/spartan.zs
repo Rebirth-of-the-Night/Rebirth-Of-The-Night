@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
-import mods.betterwithmods. Anvil;
+import mods.betterwithmods.Anvil;
 
 JEI.hide(<spartanweaponry:arrow_wood_tipped>);
 JEI.hide(<spartanweaponry:arrow_iron_tipped>);
@@ -300,7 +300,7 @@ var holystoneWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<
 var zaniteWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)zanite") as IItemStack[];
 var gravititeWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)gravitite") as IItemStack[];
 var aetherWeapon = [skyrootWeapon,holystoneWeapon,zaniteWeapon,gravititeWeapon] as IItemStack[][];
-var aetherMat = [<aether_legacy:skyroot_plank>,<aether_legacy:holystone>,<aether_legacy:zanite_gemstone>,<ore:ingotGravitite>] as IItemStack[];
+var aetherMat = [<aether_legacy:skyroot_plank>,<aether_legacy:holystone>,<aether_legacy:zanite_gemstone>,<ore:ingotGravitite>] as IIngredient[];
 var counter = 0;
 var handle = <spartanweaponry:material:0>;
 var pole = <spartanweaponry:material:1>;
