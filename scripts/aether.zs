@@ -219,7 +219,7 @@ JEI.removeAndHide(<aether_legacy:gravitite_shovel>);
 JEI.removeAndHide(<aether_legacy:lore_book>);
 
 
-var egrav = <contenttweaker:material_part:40>;
+var egrav = <ore:ingotGravitite>;
 var stick = <aether_legacy:skyroot_stick>;
 
 recipes.remove(<atop:amber_pickaxe>);
