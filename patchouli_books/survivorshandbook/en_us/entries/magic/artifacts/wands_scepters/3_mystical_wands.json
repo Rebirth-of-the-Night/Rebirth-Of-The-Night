@@ -33,7 +33,7 @@
     {
       "type": "artisanintegrations:workstation",
       "recipe": "mage:wandMM",
-      "text_left": "1x Mystical Wand Base $(br)1x Shulker Shell $(br)1x Voidseen Amethyst $(br)2x Enchanted Gravitite",
+      "text_left": "1x Mystical Wand Base $(br)1x Shulker Shell $(br)1x Voidseen Amethyst $(br)2x Gravitite Ingot",
       "text_right": "Air Rune $(br)End Rune"
     },
     {
