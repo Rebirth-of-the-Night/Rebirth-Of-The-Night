@@ -224,6 +224,7 @@
 {
 	"dimension" : [0, 7, 10],
 	"mob": "primitivemobs:goblin",
+    "onjoin": "true",
 	"result": "deny"
   },
   
