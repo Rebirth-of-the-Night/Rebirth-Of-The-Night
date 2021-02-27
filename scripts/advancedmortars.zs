@@ -39,8 +39,8 @@ recipes.addShaped("cooking_mortar", <advancedmortars:mortar:1>, [
 
 recipes.addShaped("arcane_mortar", <advancedmortars:mortar:2>, [
     [<contenttweaker:vis_speck>, <aether_legacy:skyroot_stick>, <contenttweaker:vis_speck>],
-    [<ore:ingotGravitite>, <minecraft:diamond>, <ore:ingotGravitite>], 
-    [<betternether:cincinnasite>, <ore:ingotGravitite>, <betternether:cincinnasite>]
+    [<contenttweaker:material_part:40>, <minecraft:diamond>, <contenttweaker:material_part:40>], 
+    [<betternether:cincinnasite>, <contenttweaker:material_part:40>, <betternether:cincinnasite>]
 ]);
 
 recipes.addShaped("rudimentary_mortar", <advancedmortars:mortar:3>, [

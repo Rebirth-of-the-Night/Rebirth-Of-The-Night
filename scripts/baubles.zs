@@ -535,7 +535,7 @@ recipes.remove(<bountifulbaubles:trinketshulkerheart>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <scalinghealth:heartcontainer>, <contenttweaker:vis_shard>],
-    [<ore:ingotGravitite>, <contenttweaker:voidseen_exorite>, <minecraft:shulker_shell>],
+    [<contenttweaker:material_part:40>, <contenttweaker:voidseen_exorite>, <minecraft:shulker_shell>],
     [<contenttweaker:vis_shard>, <betterwithmods:anchor>, <contenttweaker:vis_shard>]])
   .addTool(<endreborn:item_end_rune>, 1)
   .addTool(<contenttweaker:earth_rune>, 1)
@@ -585,7 +585,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <contenttweaker:vis_shard>, <contenttweaker:vis_shard>],
     [<endreborn:item_end_shard>, <contenttweaker:vis_shard>, <endreborn:item_end_shard>],
-    [<ore:ingotElectrum>.firstItem, <ore:ingotGravitite>, <ore:ingotElectrum>.firstItem]])
+    [<ore:ingotElectrum>.firstItem, <contenttweaker:material_part:40>, <ore:ingotElectrum>.firstItem]])
   .addTool(<contenttweaker:aether_rune>, 1)
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<artifacts:lucky_horseshoe>)

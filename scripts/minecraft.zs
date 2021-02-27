@@ -890,9 +890,6 @@ qualityGem.add(<rotn_blocks:exorite_crystal>);
 val gemAmethyst = <ore:gemAmethyst>;
 gemAmethyst.add(<netherex:amethyst_crystal>);
 
-val blockGravitite = <ore:blockGravitite>;
-blockGravitite.addAll(<ore:blockEnchantedGravitite>);
-
 val heartCrystalOre = <ore:oreHeartCrystal>;
 heartCrystalOre.add(<scalinghealth:crystalore>);
 
