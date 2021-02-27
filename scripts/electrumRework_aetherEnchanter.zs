@@ -48,7 +48,11 @@ JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when 
 //healing stone
 Enchanter.removeEnchantment(<aether_legacy:holystone>);
 Enchanter.registerEnchantment(<aether_legacy:dungeon_block:2>, <aether_legacy:healing_stone>, 200);
- 
+
+//Gravitite Ingots
+Enchanter.removeEnchantment(<aether_legacy:gravitite_ore>);
+Enchanter.registerEnchantment(<aether_legacy:gravitite_ore>, <contenttweaker:material_part:40>, 600);
+  
 //Aether Enchanter
 Enchanter.registerEnchanterFuel(elec,2400);
 Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);

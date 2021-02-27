@@ -140,6 +140,24 @@ healing.setBlockSoundType(<soundtype:stone>);
 healing.setFullBlock(false);
 healing.register();
 
+//Placeable bricks
+//unfired mud brick
+var unfired_mud_brick = VanillaFactory.createBlock("unfired_mud_brick", <blockmaterial:Ground>);
+unfired_mud_brick.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+unfired_mud_brick.setFullBlock(false);
+unfired_mud_brick.setLightOpacity(0);
+unfired_mud_brick.setBlockLayer("TRANSLUCENT");
+unfired_mud_brick.setBlockHardness(1.0);
+unfired_mud_brick.setToolClass("shovel");
+unfired_mud_brick.register();
+
 //Lunarin blocks
 //Silver
 var silverlunarin = VanillaFactory.createBlock("lunarinsilverbrick", <blockmaterial:Iron>);

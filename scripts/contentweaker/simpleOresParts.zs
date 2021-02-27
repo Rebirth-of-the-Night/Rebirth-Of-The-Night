@@ -22,6 +22,7 @@ addMaterial("Gold", "F0CA2F", ["dust"], [0], [""]);
 addMaterial("Silver", "D2DCE8", ["dust"], [0], [""]);
 addMaterial("Zinc", "E3EAE8", ["ore", "ingot", "block", "nugget", "molten", "dust"], [500, 3100, 7, 1900], [""]);
 addMaterial("Ambrosium", "FFE666", ["molten", "dust"], [195, 1125, 12, 6050], [""]);
+addMaterial("Gravitite", "F468D6", ["ingot","nugget","molten", "dust"], [20, 1000, 0, 20], ["ingot"]);
 
 // Add new materials using this function!
 // New materials are automatically oredicted.

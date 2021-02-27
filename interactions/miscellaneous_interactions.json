@@ -8,7 +8,7 @@
     "particleCount": "20"
   },
   {
-    "targetBlock": "ore:sand",
+    "targetBlock": "minecraft:sand",
     "heldItem": "contenttweaker:soul_rune",
     "replacementBlock": "minecraft:soul_sand",
     "damage": "1",
@@ -17,19 +17,19 @@
     "particleCount": "8:80"
   },
   {
-    "targetBlock": "cyclicmagic:block_fragile_weak",
-    "heldItem": "ore:cropWheat",
+    "targetBlock": "betterwithaddons:scaffold",
+    "heldItem": "minecraft:wheat",
     "replacementBlock": "quark:thatch",
     "damage": "1"
   },
   {
-    "targetBlock": "cyclicmagic:block_fragile_weak",
+    "targetBlock": "betterwithaddons:scaffold",
     "heldItem": "minecraft:tallgrass:1",
     "replacementBlock": "quark:turf",
     "damage": "1"
   },
   {
-    "targetBlock": "cyclicmagic:block_fragile_weak",
+    "targetBlock": "betterwithaddons:scaffold",
     "heldItem": "minecraft:clay_ball",
     "replacementBlock": "rustic:clay_wall_cross",
     "damage": "1"
@@ -43,7 +43,7 @@
     "particleCount": "5"
   },
   {
-    "targetBlock": "cyclicmagic:block_fragile_weak",
+    "targetBlock": "betterwithaddons:scaffold",
     "heldItem": "pyrotech:material:16",
 	"offhandItem": "artisanworktables:artisans_carver_gold",
     "replacementBlock": "minecraft:stonebrick:2",

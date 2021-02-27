@@ -1227,8 +1227,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandMMJEI")
   .setShaped([
-    [null, <aether_legacy:enchanted_gravitite>, <minecraft:shulker_shell>],
-    [null, <contenttweaker:voidseen_exorite>, <aether_legacy:enchanted_gravitite>],
+    [null, <contenttweaker:material_part:40>, <minecraft:shulker_shell>],
+    [null, <contenttweaker:voidseen_exorite>, <contenttweaker:material_part:40>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<endreborn:item_end_rune>, 1)
@@ -1240,8 +1240,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandMM")
   .setShaped([
-    [null, <aether_legacy:enchanted_gravitite>, <minecraft:shulker_shell>],
-    [null, <contenttweaker:voidseen_exorite>, <aether_legacy:enchanted_gravitite>],
+    [null, <contenttweaker:material_part:40>, <minecraft:shulker_shell>],
+    [null, <contenttweaker:voidseen_exorite>, <contenttweaker:material_part:40>],
     [<contenttweaker:wand_base_mystical>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<endreborn:item_end_rune>, 1)

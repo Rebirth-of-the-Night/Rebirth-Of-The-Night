@@ -172,7 +172,7 @@ recipes.addShaped("sewed_haft",haft*2,[
 ]);
 
 recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
-recipes.removeShapeless(<betterwithmods:dirt_pile>*4,[<ore:DirtBlock>]);
+recipes.addShapeless("dirt_pile",<betterwithmods:dirt_pile>*4,[<ore:DirtBlock>]);
 
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
