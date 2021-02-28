@@ -277,9 +277,9 @@ Chopping.addRecipe("biomesoplenty:log_0", 5, "hitwithaxe:debarked_cherry", 1, <h
 Chopping.addRecipe("biomesoplenty:log_0", 9, "hitwithaxe:debarked_cherry", 2, <hitwithaxe:bark:33>); // Z Axis
 Chopping.addRecipe("hitwithaxe:debarked_cherry", 32767, <biomesoplenty:planks_0:1>);
 recipes.addShaped("cherry_boards", <contenttweaker:cherry_boards>*8,[
-	[<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:0>, <biomesoplenty:planks_0:1>],
+	[<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>],
     [<biomesoplenty:planks_0:1>, <minetraps:nails>,  		 <biomesoplenty:planks_0:1>],
-    [<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:0>, <biomesoplenty:planks_0:1>]
+    [<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>]
 ]);
 
 // Umbran
