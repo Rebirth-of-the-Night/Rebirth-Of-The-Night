@@ -116,7 +116,7 @@ GCT.addRecipe("parity_peridot", <contenttweaker:parity_peridot>, [<biomesoplenty
 
 GCT.addRecipe("fortified_ruby", <contenttweaker:fortified_ruby>, [<biomesoplenty:gem:1>, <endreborn:item_shard_obsidian>*4, <endreborn:catalyst>*8, <minecraft:iron_nugget>*6]);
 
-GCT.addRecipe("earthen_ruby", <contenttweaker:earthen_ruby>, [<contenttweaker:earthen_ruby>, <pyrotech:rock>*4, <animania:salt>*8, <pyrotech:material:8>*6]);
+GCT.addRecipe("earthen_ruby", <contenttweaker:earthen_ruby>, [<biomesoplenty:gem:1>, <pyrotech:rock>*4, <animania:salt>*8, <pyrotech:material:8>*6]);
 
 GCT.addRecipe("flashfired_cincinnasite", <contenttweaker:flashfired_cincinnasite>, [<betternether:cincinnasite>, <minecraft:fire_charge>*4, <minecraft:blaze_powder>*6, <minecraft:gunpowder>*8]);
 
