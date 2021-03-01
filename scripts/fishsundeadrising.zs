@@ -12,6 +12,7 @@ JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl:
 LootTable.removeGlobalItem("minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]})");
 LootTable.removeGlobalItem("mod_lavacow:poisonspore");
 LootTable.removeGlobalItem("mod_lavacow:shattered_ice");
+LootTable.removeGlobalItem("mod_lavacow:undertaker_shovel");
 
 <biomesoplenty:mushroom:3>.displayName = "Green Glowshroom";
 
@@ -72,6 +73,7 @@ recipes.remove(<mod_lavacow:swinearmor_boots>);
 <entity:mod_lavacow:zombiemushroom>.addPlayerOnlyDrop(<rustic:deathstalk_mushroom> %30, 1, 2);
 <entity:mod_lavacow:zombiemushroom>.addPlayerOnlyDrop(<rustic:mooncap_mushroom> %50, 1, 2);
 <entity:mod_lavacow:zombiemushroom>.addPlayerOnlyDrop(<mod_lavacow:glowshroom> %70, 1, 2);
+<entity:mod_lavacow:undertaker>.addPlayerOnlyDrop(<contenttweaker:necromantic_brain> %100, 1);
 
 // new oredict
 val salahideOredict = <ore:salamanderhide>;
