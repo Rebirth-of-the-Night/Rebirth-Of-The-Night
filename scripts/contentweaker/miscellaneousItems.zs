@@ -204,6 +204,9 @@ broken_stick.register();
 val necrobrain = VanillaFactory.createItem("necromantic_brain");
 necrobrain.register();
 
+val wroughtcore = VanillaFactory.createItem("wrought_animation_core");
+wroughtcore.register();
+
 //food
 var rat = VanillaFactory.createItemFood("ratatouille", 10);
 rat.setSaturation(9.5);
