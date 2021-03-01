@@ -979,13 +979,14 @@ val cookedCrab = <ore:foodCrabcooked>;
 cookedCrab.addItems([<betteranimalsplus:crab_meat_cooked>,<mod_lavacow:mimic_claw_cooked>,<quark:cooked_crab_leg>]);
 
 val rawFish = <ore:listAllfishraw>;
-rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:piranha>,<mod_lavacow:zombiepiranha_item>,<mod_lavacow:cheirolepis>,<betteranimalsplus:eel_meat_raw>]);
+rawFish.addItems([<harvestcraft:crabrawitem>,<mod_lavacow:piranha>,<mod_lavacow:cheirolepis>,<betteranimalsplus:eel_meat_raw>]);
 rawFish.addAll(<ore:rawCrab>);
 rawFish.remove(<harvestcraft:groundfishitem>);
 
 val cookedFish = <ore:listAllfishcooked>;
-cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:piranha_cooked>,<mod_lavacow:zombiepiranha_item_cooked>,<mod_lavacow:cheirolepis_cooked>,<betteranimalsplus:eel_meat_cooked>]);
+cookedFish.addItems([<harvestcraft:crabcookeditem>,<mod_lavacow:piranha_cooked>,<mod_lavacow:cheirolepis_cooked>,<betteranimalsplus:eel_meat_cooked>]);
 cookedFish.addAll(<ore:cookedCrab>);
+cookedFish.remove(<mod_lavacow:zombiepiranha_item_cooked>);
 
 val fish = <ore:fish>;
 fish.addAll(<ore:listAllfishraw>);
@@ -1023,13 +1024,14 @@ val egg = <ore:listAllegg>;
 egg.addItems([<betterwithmods:raw_egg>,<aether_legacy:moa_egg>]);
 
 val rawMeat = <ore:listAllmeatraw>;
-rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<mod_lavacow:frozenthigh>,<betterwithmods:wolf_chop>,<betteranimalsplus:eel_meat_raw>]);
+rawMeat.addItems([<betterwithmods:mystery_meat>,<betterwithmods:bat_wing>,<mod_lavacow:mousse>,<mod_lavacow:canepork>,<betterwithmods:wolf_chop>,<betteranimalsplus:eel_meat_raw>]);
 rawMeat.addAll(rawBeef);
 rawMeat.addAll(rawChicken);
 rawMeat.addAll(rawMutton);
 rawMeat.addAll(rawFrog);
 rawMeat.addAll(rawFish);
 rawMeat.addAll(rawVenison);
+rawMeat.remove([<mod_lavacow:ptera_wing>,<mod_lavacow:plagued_porkchop>]);
 
 val cookedMeat = <ore:listAllmeatcooked>;
 cookedMeat.addItems([<betterwithmods:cooked_mystery_meat>,<betterwithmods:cooked_bat_wing>,<mod_lavacow:meatball>,<betterwithmods:cooked_wolf_chop>,<betteranimalsplus:eel_meat_cooked>]);
@@ -1039,6 +1041,13 @@ cookedMeat.addAll(cookedMutton);
 cookedMeat.addAll(cookedFrog);
 cookedMeat.addAll(cookedFish);
 cookedMeat.addAll(cookedVenison);
+cookedMeat.remove([<mod_lavacow:moltenbeef>,<mod_lavacow:ptera_wing_cooked>]);
+
+val BaconEggs = <ore:foodBaconandeggs>;
+BaconEggs.remove(<mod_lavacow:green_bacon_and_eggs>);
+
+val Mushroom = <ore:listAllmushroom>;
+Mushroom.remove([<mod_lavacow:glowshroom>,<mod_lavacow:bloodtooth_shroom>,<mod_lavacow:cordy_shroom>,<mod_lavacow:veil_shroom>,<mod_lavacow:glowshroom_block_stem>,<mod_lavacow:glowshroom_block_cap>]);
 
 val glassShards = <ore:shardGlass>;
 glassShards.add(<quark:glass_shards:*>);
