@@ -345,6 +345,7 @@ val hoisinSauce = <ore:foodHoisinsauce>;
 val rawDuck = <ore:listAllduckraw>;
 val fiveSpice = <harvestcraft:fivespiceitem>;
 val sesameOil = <harvestcraft:sesameoilitem>;
+val berry = <ore:listAllberry>;
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
@@ -1130,7 +1131,7 @@ RecipeBuilder.get("chef")
   .addOutput(<contenttweaker:raw_fries>)
   .create();
 //Potato Soup
-recipes.removeByRecipeName("harvestcraft:potatosoupitem");
+recipes.removeByRecipeName("harvestcraft:potatosoupitem_dustsalt");
 ExSartagine.addKettleRecipe([stock,heavyCream,potato],cookKitKettle,null,[<harvestcraft:potatosoupitem>],80);
 //Grilled mushroom
 recipes.removeByRecipeName("harvestcraft:grilledmushroomitem");
@@ -3311,7 +3312,7 @@ recipes.remove(<harvestcraft:wontonsoupitem>);
 ExSartagine.addKettleRecipe([stock,dough,scallion,ginger,soySauce],null,null,[<harvestcraft:wontonsoupitem>],80);
 //Spring Rolls
 recipes.remove(<harvestcraft:springrollitem>);
-recipes.addShapeless("springroll", <harvestcraft:springrollitem>,[rice,hoisinSauce,veggie,garlic,lime,spice,lettuce,cookKitBad]);
+recipes.addShapeless("springroll", <harvestcraft:springrollitem>,[rice,hoisinSauce,peanut,veggie,lime,spice,lettuce,cookKitBad]);
 RecipeBuilder.get("chef")
   .setName("springroll")
   .setShapeless([rice,hoisinSauce,peanut,veggie,lime,spice,lettuce])
@@ -3333,6 +3334,66 @@ ExSartagine.addKettleRecipe([rawDuck,fiveSpice,soySauce,sesameOil],null,null,[<h
 //Stuffed Duck
 recipes.remove(<harvestcraft:stuffedduckitem>);
 ExSartagine.addKettleRecipe([rawDuck,onion,garlic,rice,apple,veggie],null,null,[<harvestcraft:stuffedduckitem>],80);
+//Candied Pecans
+recipes.remove(<harvestcraft:candiedpecansitem>);
+ExSartagine.addKettleRecipe([pecan,sugar,groundCinnamon],null,null,[<harvestcraft:candiedpecansitem>],80);
+//Stuffing -&R
+recipes.remove(<harvestcraft:stuffingitem>);
+ExSartagine.addKettleRecipe([toast,spice,celery,veggie,stock],null,null,[<harvestcraft:stuffingitem>],80);
+//Green bean casserole
+recipes.remove(<harvestcraft:greenbeancasseroleitem>);
+ExSartagine.addKettleRecipe([beans,mushroom,onion,heavyCream,flour,salt],null,null,[<harvestcraft:greenbeancasseroleitem>],80);
+//Ham and pineapple pizza
+recipes.remove(<harvestcraft:hamandpineapplepizzaitem>);
+ExSartagine.addKettleRecipe([dough,tomato,cookedPork,pineapple,cheese],cookKitKettle,null,[<harvestcraft:hamandpineapplepizzaitem>],80);
+//Crayfish Salad -&R
+recipes.remove(<harvestcraft:crayfishsaladitem>);
+recipes.addShapeless("crayfishsalad", <harvestcraft:crayfishsaladitem>,[<harvestcraft:crayfishcookeditem>,lettuce,tomato,cookingOil,spice,cheese,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("crayfishsalad")
+  .setShapeless([<harvestcraft:crayfishcookeditem>,lettuce,tomato,cookingOil,spice,cheese])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:crayfishsaladitem>)
+  .create();
+//Ceviche
+recipes.remove(<harvestcraft:cevicheitem>);
+ExSartagine.addKettleRecipe([rawFish,salt,lemon,onion,sweetPotato,spice],cookKitKettle,null,[<harvestcraft:cevicheitem>],80);
+//Baked Cactus
+recipes.remove(<harvestcraft:bakedcactusitem>);
+ExSartagine.addKettleRecipe([<minecraft:cactus>|<betternether:nether_cactus>|<biomesoplenty:plant_1:6>|<betternether:barrel_cactus>],null,null,[<harvestcraft:bakedcactusitem>],80);
+//Mushroom Steak
+recipes.remove(<harvestcraft:mushroomsteakitem>);
+ExSartagine.addKettleRecipe([rawBeef,mushroom,butter,blackPepper],cookKitKettle,null,[<harvestcraft:mushroomsteakitem>],80);
+//Hot Dish Casserole
+recipes.remove(<harvestcraft:hotdishcasseroleitem>);
+ExSartagine.addKettleRecipe([cookedMeat,veggie,veggie,cheese,potato],cookKitKettle,null,[<harvestcraft:hotdishcasseroleitem>],80);
+//Sausage Bean Melt
+recipes.remove(<harvestcraft:sausagebeanmeltitem>);
+ExSartagine.addKettleRecipe([dough,<harvestcraft:sausageitem>,beans,cheese],cookKitKettle,null,[<harvestcraft:sausagebeanmeltitem>],80);
+//Mettbrotchen
+recipes.remove(<harvestcraft:mettbrotchenitem>);
+recipes.addShapeless("mettbrotchen", <harvestcraft:mettbrotchenitem>,[rawBeef,bread,onion,blackPepper,salt,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("mettbrotchen")
+  .setShapeless([rawBeef,bread,onion,blackPepper,salt])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:mettbrotchenitem>)
+  .create();
+//Chorus Fruit Soup
+recipes.remove(<harvestcraft:chorusfruitsoupitem>);
+ExSartagine.addKettleRecipe([<minecraft:chorus_fruit>],null,null,[<harvestcraft:chorusfruitsoupitem>],80);
+//Akutuq -&R
+recipes.remove(<harvestcraft:akutuqitem>);
+recipes.addShapeless("akutuq", <harvestcraft:akutuqitem>,[rawVenison,cookingOil,<minecraft:snowball>,berry,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("akutuq")
+  .setShapeless([rawVenison,cookingOil,<minecraft:snowball>,berry])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:akutuqitem>)
+  .create();
+//Cantonese Greens
+recipes.remove(<harvestcraft:cantonesegreensitem>);
+ExSartagine.addKettleRecipe([veggie,<harvestcraft:oystersauceitem>],null,null,[<harvestcraft:cantonesegreensitem>],80);
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
   <harvestcraft:raspberrymilkshakeitem>,
@@ -3366,7 +3427,12 @@ val hiddenFoods as IItemStack[] = [
   <harvestcraft:spidereyepieitem>,
   <harvestcraft:riceitem>,
   <harvestcraft:cheesyshrimpquinoaitem>,
-  <harvestcraft:driedsoupitem>
+  <harvestcraft:driedsoupitem>,
+  <harvestcraft:rouxitem>,
+  <harvestcraft:cobblestonecobbleritem>,
+  <harvestcraft:garlicsteakitem>,
+  <harvestcraft:porkrindsitem>,
+  <harvestcraft:cracklinsitem>
 ];
 
 for item in hiddenFoods {
