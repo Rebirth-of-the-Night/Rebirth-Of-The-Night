@@ -201,6 +201,9 @@ mercurial_ooze.register();
 val broken_stick = VanillaFactory.createItem("broken_stick");
 broken_stick.register();
 
+val necrobrain = VanillaFactory.createItem("necromantic_brain");
+necrobrain.register();
+
 //food
 var rat = VanillaFactory.createItemFood("ratatouille", 10);
 rat.setSaturation(9.5);
