@@ -25,7 +25,7 @@
 			{
 				"registryName": "minecraft:glowstone",
 				"meta": 32767,
-				"minimumAmount": 0
+				"minimumAmount": 10
 			}
 		],
 		"requiredCorner": "ANY",
@@ -42,7 +42,9 @@
 		],
 		"activatorConsumeBehavior": "DO_NOTHING",
 		"spawnFireBeforeActivating": false,
-		"activationSounds": []
+		"activationSounds": [
+			"minecraft.entity.lightning_bolt.thunder"
+		]
 	},
 	"color": {
 		"colors": [
