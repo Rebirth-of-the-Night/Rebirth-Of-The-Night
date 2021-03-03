@@ -207,6 +207,9 @@ necrobrain.register();
 val wroughtcore = VanillaFactory.createItem("wrought_animation_core");
 wroughtcore.register();
 
+val voidscall = VanillaFactory.createItem("voids_call");
+voidscall.register();
+
 //food
 var rat = VanillaFactory.createItemFood("ratatouille", 10);
 rat.setSaturation(9.5);
