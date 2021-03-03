@@ -139,6 +139,8 @@ RecipeBuilder.get("mage")
     [<contenttweaker:flashfired_cincinnasite>, <contenttweaker:vis_speck>, null]])
   .addTool(<contenttweaker:fire_rune>, 1)
   .addOutput(<defiledlands:tears_flame:32>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
   .create();
 
 # Spirit charging

@@ -41,7 +41,6 @@ JEI.removeAndHide(<cyclicmagic:plate_push_med_angle>);//add back
 JEI.removeAndHide(<cyclicmagic:plate_push_fast>);//add back
 JEI.removeAndHide(<cyclicmagic:plate_push_fast_corner>);//add back
 JEI.removeAndHide(<cyclicmagic:plate_push_fast_angle>);//add back
-JEI.removeAndHide(<cyclicmagic:wand_hypno>);//add back
 JEI.removeAndHide(<cyclicmagic:block_fishing>);//add back
 JEI.removeAndHide(<cyclicmagic:water_spreader>);//add back
 JEI.removeAndHide(<cyclicmagic:password_block>);//add back
@@ -56,7 +55,6 @@ recipes.remove(<cyclicmagic:card_location>);
 recipes.remove(<cyclicmagic:evoker_fang>);
 recipes.remove(<cyclicmagic:ender_lightning>);
 recipes.remove(<cyclicmagic:tool_spelunker>);
-recipes.remove(<cyclicmagic:wand_hypno>);
 //recipes.remove(<cyclicmagic:corrupted_chorus>);//add back in future update
 recipes.remove(<cyclicmagic:wand_missile>);
 recipes.remove(<cyclicmagic:glove_climb>);
@@ -130,6 +128,29 @@ var masonry_brick = <pyrotech:material:16>;
 var button_wood = <ore:buttonWood>;
 var white_metal_nugget = <ore:nuggetIron> | <ore:nuggetSilver> | <ore:nuggetTin>;
 
+// Chaos Scepter
+# Change durability
+<cyclicmagic:wand_hypno>.maxDamage = 64;
+
+# Recipe
+recipes.remove(<cyclicmagic:wand_hypno>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <defiledlands:defilement_powder>, <defiledlands:essence_destroyer>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <dynamictreesdefiledlands:tenebraseed>],
+    [<contenttweaker:parity_peridot>, <contenttweaker:vis_sliver>, null]])
+  .addTool(<contenttweaker:chaos_rune>, 1)
+  .addTool(<contenttweaker:mind_rune>, 1)
+  .addOutput(<cyclicmagic:wand_hypno:64>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<cyclicmagic:wand_hypno>,
+[<cyclicmagic:wand_hypno>.anyDamage(),<contenttweaker:vis_sliver>], 64);
+
+// Water Candle
 Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
 RecipeBuilder.get("mage")

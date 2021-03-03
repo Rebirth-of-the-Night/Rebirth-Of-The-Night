@@ -6,6 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.betterwithmods.Anvil;
 import mods.ltt.LootTable;
+import mods.betterwithaddons.Infuser;
 
 //removed loot
 JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 77 as short}]}));
@@ -167,6 +168,27 @@ brewing.removeRecipe(<mod_lavacow:fissionpotion>, <mod_lavacow:mootenheart>);
 mods.rats.recipes.addChefRatRecipe(<mod_lavacow:parasite_item>, <mod_lavacow:sausage_roll>);
 
 // Oozemancer Staff
+# Change durability
+<mod_lavacow:sludge_wand>.maxDamage = 64;
+
+# Recipe
+recipes.remove(<mod_lavacow:sludge_wand>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <mod_lavacow:mossy_stick>, <mod_lavacow:silky_sludge>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <mod_lavacow:mossy_stick>],
+    [<contenttweaker:overgrown_emerald>, <contenttweaker:vis_sliver>, null]])
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addOutput(<mod_lavacow:sludge_wand:64>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<mod_lavacow:sludge_wand>,
+[<mod_lavacow:sludge_wand>.anyDamage(),<contenttweaker:vis_sliver>], 64);
+
 recipes.remove(<mod_lavacow:sludge_wand>);
 
 RecipeBuilder.get("mage")

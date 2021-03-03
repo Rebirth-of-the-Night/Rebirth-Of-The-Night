@@ -5,6 +5,7 @@ import mods.ltt.LootTable;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.betterwithaddons.Infuser;
 
 JEI.removeAndHide(<twilightforest:miniature_structure:*>);
 JEI.removeAndHide(<twilightforest:ore_meter>);
@@ -79,6 +80,74 @@ recipes.addShapedMirrored("steeleaf_hoe",<twilightforest:steeleaf_hoe>.withTag(e
   [null,<ore:stickWood>],
   [null,<ore:stickWood>]
 ]);
+
+// Scepters
+
+// Zombie Scepter
+# Change durability
+<twilightforest:zombie_scepter>.maxDamage = 64;
+
+# Recipe
+recipes.remove(<twilightforest:zombie_scepter>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <mod_lavacow:undyingheart>, <contenttweaker:necromantic_brain>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <minecraft:rotten_flesh>],
+    [<contenttweaker:soulinfused_onyx>, <contenttweaker:vis_sliver>, null]])
+  .addTool(<contenttweaker:death_rune>, 1)
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addOutput(<twilightforest:zombie_scepter:64>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<twilightforest:zombie_scepter>,
+[<twilightforest:zombie_scepter>.anyDamage(),<contenttweaker:vis_sliver>], 64);
+
+// Fortification Scepter
+# Change durability
+<twilightforest:shield_scepter>.maxDamage = 64;
+
+# Recipe
+recipes.remove(<twilightforest:shield_scepter>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <contenttweaker:material_part:22>, <contenttweaker:wrought_animation_core>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <contenttweaker:material_part:22>],
+    [<contenttweaker:fortified_ruby>, <contenttweaker:vis_sliver>, null]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addTool(<contenttweaker:earth_rune>, 1)
+  .addOutput(<twilightforest:shield_scepter:64>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<twilightforest:shield_scepter>,
+[<twilightforest:shield_scepter>.anyDamage(),<contenttweaker:vis_sliver>], 64);
+
+// Twilight Scepter
+# Change durability
+<twilightforest:twilight_scepter>.maxDamage = 64;
+
+# Recipe
+recipes.remove(<twilightforest:twilight_scepter>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <nyx:fallen_star>, <contenttweaker:adhesive_shadow>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <nyx:fallen_star>],
+    [<contenttweaker:abyssal_sapphire>, <contenttweaker:vis_sliver>, null]])
+  .addTool(<contenttweaker:luna_rune>, 1)
+  .addTool(<contenttweaker:chaos_rune>, 1)
+  .addOutput(<twilightforest:twilight_scepter:64>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<twilightforest:twilight_scepter>,
+[<twilightforest:twilight_scepter>.anyDamage(),<contenttweaker:vis_sliver>], 64);
 
 // Charms
 

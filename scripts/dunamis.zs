@@ -62,6 +62,28 @@ RecipeBuilder.get("mage")
 Infuser.addShapeless(<aether_legacy:cloud_staff>,
 [<aether_legacy:cloud_staff>.anyDamage(),<contenttweaker:vis_speck>], 32);
 
+// Evocation Scepter
+# Change durability
+<arcaneworld:fang_wand>.maxDamage = 64;
+
+# Recipe
+recipes.remove(<arcaneworld:fang_wand>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <endreborn:item_end_essence>, <contenttweaker:voids_call>],
+    [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <endreborn:item_end_essence>],
+    [<contenttweaker:voidseen_exorite>, <contenttweaker:vis_sliver>, null]])
+  .addTool(<endreborn:item_end_rune>, 1)
+  .addTool(<contenttweaker:mind_rune>, 1)
+  .addOutput(<arcaneworld:fang_wand:64>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+# Spirit charging
+Infuser.addShapeless(<arcaneworld:fang_wand>,
+[<arcaneworld:fang_wand>.anyDamage(),<contenttweaker:vis_sliver>], 64);
+
 // Inert Charm
 
 RecipeBuilder.get("mage")

@@ -7,6 +7,7 @@ import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.ArcaneWorld;
 import mods.ltt.LootTable;
+import mods.betterwithaddons.Infuser;
 
 JEI.removeAndHide(<arcaneworld:sapphire>);
 JEI.removeAndHide(<arcaneworld:block_sapphire>);
@@ -20,7 +21,6 @@ JEI.removeAndHide(<arcaneworld:potion_orb>);
 JEI.removeAndHide(<arcaneworld:ritual_scroll>);
 JEI.removeAndHide(<arcaneworld:levitator>);
 JEI.removeAndHide(<arcaneworld:arcane_hoe>);
-JEI.removeAndHide(<arcaneworld:fang_wand>);
 JEI.removeAndHide(<arcaneworld:recaller>);
 JEI.removeAndHide(<arcaneworld:ethereal_sword>);
 JEI.removeAndHide(<arcaneworld:growth_powder>);
