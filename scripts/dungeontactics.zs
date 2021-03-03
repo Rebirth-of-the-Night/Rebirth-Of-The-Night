@@ -470,8 +470,6 @@ recipes.addShaped("Fan", <dungeontactics:fan_block>,[
 ]);
 
 recipes.remove(<dungeontactics:lantern_magic>);
-recipes.remove(<dungeontactics:iron_ring>);
-LootTable.removeGlobalItem("dungeontactics:iron_ring");
 
 //  Magic Lantern
 
@@ -493,11 +491,6 @@ RecipeBuilder.get("mage")
 
 
 var ironnugget = <ore:nuggetIron>;
-
-recipes.addShaped("Iron Ring", <dungeontactics:iron_ring>,[
-    [ironnugget, ironnugget],
-    [ironnugget, ironnugget]
-]);
 
 recipes.addShaped("steel_sword", <dungeontactics:steel_cutlass>,[
 	[<ore:ingotSteel>],
