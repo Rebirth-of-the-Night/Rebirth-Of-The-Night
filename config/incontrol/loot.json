@@ -729,6 +729,41 @@
       "item": "endreborn:dragon_scales",
       "itemcount": "9-15"
    },
+
+   // Voidwracked Ascendant
+   {
+      "mob": "toroquest:toroquest_mage",
+      "player": true,
+      "item": "contenttweaker:voids_call",
+      "itemcount": "1"
+   },
+
+   // Wroughnaut
+   {
+      "mob": "mowziesmobs:ferrous_wroughtnaut",
+      "player": true,
+      "item": "contenttweaker:wrought_animation_core",
+      "itemcount": "1"
+   },
+   {
+      "mob": "mowziesmobs:ferrous_wroughtnaut",
+      "player": true,
+      "item": "contenttweaker:sfs_artifact4",
+      "itemcount": "1",
+      "random": "0.01"
+   },
+   {
+      "mob": "mowziesmobs:ferrous_wroughtnaut",
+      "player": true,
+      "item": "minecraft:iron_ingot",
+      "itemcount": "1-5/3-10/5-15/7-20"
+   },
+   {
+      "mob": "mowziesmobs:ferrous_wroughtnaut",
+      "player": true,
+      "item": "minecraft:iron_block",
+      "itemcount": "1-2/2-5/5-7/7-10"
+   },
    
  //// total eclipse of the heart
    {
