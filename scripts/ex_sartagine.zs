@@ -346,6 +346,10 @@ val rawDuck = <ore:listAllduckraw>;
 val fiveSpice = <harvestcraft:fivespiceitem>;
 val sesameOil = <harvestcraft:sesameoilitem>;
 val berry = <ore:listAllberry>;
+val kale = <ore:cropKale>;
+val tofu = <ore:listAlltofu>;
+val wheat = <minecraft:wheat>;
+val peanutButter = <harvestcraft:peanutbutteritem>;
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
@@ -3394,6 +3398,155 @@ RecipeBuilder.get("chef")
 //Cantonese Greens
 recipes.remove(<harvestcraft:cantonesegreensitem>);
 ExSartagine.addKettleRecipe([veggie,<harvestcraft:oystersauceitem>],null,null,[<harvestcraft:cantonesegreensitem>],80);
+//Earl Grey Tea
+recipes.remove(<harvestcraft:earlgreyteaitem>);
+ExSartagine.addKettleRecipe([teaLeaf,fruit],null,waterBottle,[<harvestcraft:earlgreyteaitem>],80);
+//Egg Roll
+recipes.remove(<harvestcraft:eggrollitem>);
+ExSartagine.addKettleRecipe([dough,cabbage,cookedMeat],null,null,[<harvestcraft:eggrollitem>],80);
+//Egg Tart
+recipes.remove(<harvestcraft:eggtartitem>);
+ExSartagine.addKettleRecipe([dough,egg,sugar,milkBottle],null,waterBottle,[<harvestcraft:eggtartitem>],80);
+//Green Tea
+recipes.remove(<harvestcraft:greenteaitem>);
+ExSartagine.addKettleRecipe([teaLeaf,spice],null,waterBottle,[<harvestcraft:greenteaitem>],80);
+//Mee Sua
+recipes.remove(<harvestcraft:meesuaitem>);
+ExSartagine.addKettleRecipe([noodles,cookedPork,corn,veggie,scallion,<harvestcraft:oystersauceitem>,<harvestcraft:coconutmilkitem>],null,null,[<harvestcraft:meesuaitem>],80);
+//Oyster Sauce
+recipes.remove(<harvestcraft:meesuaitem>);
+ExSartagine.addKettleRecipe([<harvestcraft:oysterrawitem>,sugar,salt],null,waterBottle,[<harvestcraft:meesuaitem>],80);
+//Squid Ink Spaghetti -add an effect to this later dummy -landie
+recipes.remove(<harvestcraft:squidinkspaghettiitem>);
+ExSartagine.addKettleRecipe([noodles,<minecraft:dye:0>],null,null,[<harvestcraft:squidinkspaghettiitem>],80);
+//Steak Tartare
+recipes.remove(<harvestcraft:steaktartareitem>);
+recipes.addShapeless("steaktartare", <harvestcraft:steaktartareitem>,[rawBeef,egg,onion,blackPepper,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("steaktartare")
+  .setShapeless([rawBeef,egg,onion,blackPepper])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:steaktartareitem>)
+  .create();
+//Szechuan Eggplant
+recipes.remove(<harvestcraft:szechuaneggplantitem>);
+ExSartagine.addKettleRecipe([cookingOil,eggplant,firmTofu,rice,garlic,ginger,veggie,vinegar],null,null,[<harvestcraft:szechuaneggplantitem>],80);
+//Bacon Pancakes
+recipes.remove(<harvestcraft:baconpancakesitem>);
+ExSartagine.addKettleRecipe([batter,milkBottle,cookedPork],null,null,[<harvestcraft:baconpancakesitem>],80);
+//Black Paella
+recipes.remove(<harvestcraft:blackpaellaitem>);
+ExSartagine.addKettleRecipe([calamari/*gold*/,<minecraft:dye:0>,rice,stock,garlic,chili],null,null,[<harvestcraft:blackpaellaitem>],80);
+//Blazing Soup
+recipes.remove(<harvestcraft:blazingsoupitem>);
+ExSartagine.addKettleRecipe([stock,<minecraft:blaze_powder>,<minecraft:nether_wart>],null,null,[<harvestcraft:blazingsoupitem>],80);
+//Brioche Bun
+recipes.remove(<harvestcraft:briochebunitem>);
+ExSartagine.addKettleRecipe([flour,egg,butter,milkBottle,heavyCream,sugar],cookKitKettle,waterBottle,[<harvestcraft:briochebunitem>],80);
+//Chicken Paella
+recipes.remove(<harvestcraft:chickenpaellaitem>);
+ExSartagine.addKettleRecipe([rawChicken,rawShrimp,rice,stock,onion,spice],null,null,[<harvestcraft:chickenpaellaitem>],80);
+//Escargot -&R
+recipes.remove(<harvestcraft:escargotitem>);
+ExSartagine.addKettleRecipe([<harvestcraft:snailrawitem>,rawShrimp,garlic,butter],cookKitKettle,null,[<harvestcraft:escargotitem>],80);
+//Gourmet Patties
+var gourmetItems as IItemStack[IItemStack] = {
+  <harvestcraft:groundbeefitem>:<harvestcraft:gourmetbeefpattyitem>,
+  <harvestcraft:groundmuttonitem>:<harvestcraft:gourmetmuttonpattyitem>,
+  <harvestcraft:groundporkitem>:<harvestcraft:gourmetporkpattyitem>,
+  <harvestcraft:groundvenisonitem>:<harvestcraft:gourmetvenisonpattyitem>
+};
+
+for key, value in gourmetItems {
+   recipes.remove(value);
+    RecipeBuilder.get("chef")
+    .setShapeless([key,blackPepper,spice,mustardSeed,salt])
+    .addOutput(value)
+    .create();
+}
+//Guiso -&R
+recipes.remove(<harvestcraft:guisoitem>);
+ExSartagine.addKettleRecipe([rawBeef,tomato,noodles,potato,sweetPotato,spice],null,waterBottle,[<harvestcraft:guisoitem>],80);
+//Jellied Eel
+recipes.remove(<harvestcraft:jelliedeelitem>);
+ExSartagine.addKettleRecipe([<harvestcraft:eelrawitem>,rawShrimp,vinegar,groundNutmeg],null,waterBottle2,[<harvestcraft:jelliedeelitem>],80);
+//Kale Chips
+recipes.remove(<harvestcraft:kalechipsitem>);
+ExSartagine.addKettleRecipe([kale],cookKitKettle,null,[<harvestcraft:kalechipsitem>],80);
+//Pad Thai
+recipes.remove(<harvestcraft:padthaiitem>);
+ExSartagine.addKettleRecipe([noodles,peanut,egg,tofu,chili,lime],cookKitKettle,null,[<harvestcraft:padthaiitem>],80);
+//Peanut butter banana sandwich
+recipes.remove(<harvestcraft:peanutbutterbananasandwichitem>);
+recipes.addShapeless("peanutbutterbananasandwich", <harvestcraft:peanutbutterbananasandwichitem>,[bread,peanutButter,banana,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("peanutbutterbananasandwich")
+  .setShapeless([bread,peanutButter,banana])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:peanutbutterbananasandwichitem>)
+  .create();
+//Peanut Butter Cup
+recipes.remove(<harvestcraft:peanutbuttercupitem>);
+ExSartagine.addKettleRecipe([chocolateBar,peanutButter,sugar],cookKitKettle,null,[<harvestcraft:peanutbuttercupitem>],80);
+//Pinkel
+recipes.remove(<harvestcraft:pinkelitem>);
+recipes.addShapeless("pinkel", <harvestcraft:pinkelitem>,[rawPork,wheat,onion,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("pinkel")
+  .setShapeless([rawPork,wheat,onion])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:pinkelitem>)
+  .create();
+//Pitepalt
+recipes.remove(<harvestcraft:pitepaltitem>);
+ExSartagine.addKettleRecipe([flour,barley,potato,cookedPork,salt],cookKitKettle,null,[<harvestcraft:pitepaltitem>],80);
+//Sauerbraten
+recipes.remove(<harvestcraft:sauerbratenitem>);
+ExSartagine.addKettleRecipe([anyRawMeat,vinegar,spice,potato],cookKitKettle,waterBottle2,[<harvestcraft:sauerbratenitem>],80);
+//Strawberry Rhubarb Pie
+recipes.remove(<harvestcraft:strawberryrhubarbpieitem>);
+recipes.addShapeless("strawberryrhubarbpie", <harvestcraft:strawberryrhubarbpieitem>,[dough,sugar,strawberry,rhubarb,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("strawberryrhubarbpie")
+  .setShapeless([dough,sugar,strawberry,rhubarb])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:strawberryrhubarbpieitem>)
+  .create();
+//Tiropita
+recipes.remove(<harvestcraft:tiropitaitem>);
+ExSartagine.addKettleRecipe([dough,cookingOil,egg,cheese],cookKitKettle,null,[<harvestcraft:tiropitaitem>],80);
+//Rose Petal Tea
+recipes.remove(<harvestcraft:rosepetalteaitem>);
+ExSartagine.addKettleRecipe([teaLeaf,<twilightforest:thorn_rose>|<biomesoplenty:flower_1:5>|<dungeontactics:flower_sanguine>|<minecraft:double_plant:4>|<betterwithaddons:material:3>],null,waterBottle,[<harvestcraft:rosepetalteaitem>],80);
+//Potato Skins
+recipes.remove(<harvestcraft:potatoskinsitem>);
+ExSartagine.addKettleRecipe([potato,cookedPork,cheese,heavyCream],cookKitKettle,null,[<harvestcraft:potatoskinsitem>],80);
+//Chili Donut
+recipes.remove(<harvestcraft:chilidonutitem>);
+ExSartagine.addKettleRecipe([dough,cookingOil,cocoaPowder,hotSauce],null,null,[<harvestcraft:chilidonutitem>],80);
+//BBQ Sauce
+recipes.remove(<harvestcraft:bbqsauceitem>);
+ExSartagine.addKettleRecipe([sugar,tomato,blackPepper,vinegar,mustardSeed],null,null,[<harvestcraft:bbqsauceitem>],80);
+//Cupcakes
+var cupcakeItems as IItemStack[IItemStack] = {
+  <harvestcraft:vanillacupcakeitem>:<harvestcraft:vanillaitem>,
+  <harvestcraft:chocolatecupcakeitem>:<harvestcraft:cocoapowderitem>,
+  <harvestcraft:carrotcupcakeitem>:<minecraft:carrot>,
+  <harvestcraft:redvelvetcupcakeitem>:<minecraft:dye:1>,
+  <harvestcraft:chilicupcakeitem>:<harvestcraft:chiliitem>,
+  <harvestcraft:peanutbuttercupcakeitem>:<harvestcraft:peanutbutteritem>,
+  <harvestcraft:lemoncupcakeitem>:<harvestcraft:lemonitem>,
+  <harvestcraft:strawberrycupcakeitem>:<harvestcraft:strawberryitem>,
+  <harvestcraft:mintcupcakeitem>:<harvestcraft:spiceleafitem>,
+  <harvestcraft:coffeecupcakeitem>:<harvestcraft:coffeebeanitem>,
+  <harvestcraft:sprinklescupcakeitem>:<minecraft:sugar>,
+  <harvestcraft:caramelcupcakeitem>:<harvestcraft:caramelitem>
+};
+
+for key, value in cupcakeItems {
+  recipes.remove(key);
+  ExSartagine.addKettleRecipe([batter,sugar,heavyCream,butter,value],cookKitKettle,null,[key],80);
+}
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
   <harvestcraft:raspberrymilkshakeitem>,
