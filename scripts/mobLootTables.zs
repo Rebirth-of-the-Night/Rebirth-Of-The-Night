@@ -11,7 +11,6 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 
-
 //vanilla
 val irongolem = LootTweaker.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
@@ -202,6 +201,18 @@ for i, item in filchStealItems {
         .addPool("filch_lizard_"~(i + 8), 1, 1, 0, 0)
         .addItemEntry(item, 1);
 }
+
+//Mowzie
+//Wrought
+val lootWrought = LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut");
+//Core, always drop
+val lWroughtCore = lootWrought.addPool("core", 1, 1, 0, 0);
+lWroughtCore.addItemEntry(<contenttweaker:wrought_animation_core>, 1, 0);
+//Extra drops
+val lWroughtExtra = lootWrought.addPool("extra", 1, 1, 0, 0);
+lWroughtExtra.addItemEntryHelper(<minecraft:iron_ingot>, 100, 0, [Functions.setCount(3, 10)], []);
+lWroughtExtra.addItemEntryHelper(<minecraft:iron_block>, 100, 0, [Functions.setCount(1, 2)], []);
+lWroughtExtra.addItemEntry(<contenttweaker:sfs_artifact4>, 1, 0);
 
 //New Haunted Tools
 var hauntedTools as int[string] = {
