@@ -1,4 +1,6 @@
 
+// Random Things
+<randomthings:magichood>.addTooltip(format.gold("Soft to the touch with a pleasant smell!"));
 
 <aether_legacy:healing_stone>.addTooltip("Restores max HP lost from dying from the plague");
 
