@@ -105,6 +105,9 @@ import mods.jei.JEI;
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
 
+// Random Things
+<randomthings:magichood>.addTooltip(format.gold("Soft to the touch, and has a pleasant smell!"));
+
 var potionMap = {
     "Collapse" : "randomthings:collapse",
     "Collapse" : "randomthings:long_collapse",
