@@ -1033,8 +1033,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandRestorationJEI")
   .setShaped([
-    [null, <aether_legacy:golden_feather>, <aether_legacy:golden_amber>],
-    [null, <contenttweaker:holy_zanite>, <aether_legacy:golden_feather>],
+    [null, <ore:feather>, <aether_legacy:golden_amber>],
+    [null, <contenttweaker:holy_zanite>, <ore:feather>],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
@@ -1046,8 +1046,8 @@ RecipeBuilder.get("mage")
 RecipeBuilder.get("mage")
   .setName("wandRestoration")
   .setShaped([
-    [null, <aether_legacy:golden_feather>, <aether_legacy:golden_amber>],
-    [null, <contenttweaker:holy_zanite>, <aether_legacy:golden_feather>],
+    [null, <ore:feather>, <aether_legacy:golden_amber>],
+    [null, <contenttweaker:holy_zanite>, <ore:feather>],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:life_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
@@ -1118,7 +1118,7 @@ RecipeBuilder.get("mage")
   .setName("wandPMJEI")
   .setShaped([
     [null, <ore:ingotElectrum>.firstItem, <betterwithaddons:greatarrow>],
-    [null, <aether_legacy:golden_feather>, <ore:ingotElectrum>.firstItem],
+    [null, <ore:feather>, <ore:ingotElectrum>.firstItem],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)
@@ -1131,7 +1131,7 @@ RecipeBuilder.get("mage")
   .setName("wandPM")
   .setShaped([
     [null, <ore:ingotElectrum>.firstItem, <betterwithaddons:greatarrow>],
-    [null, <aether_legacy:golden_feather>, <ore:ingotElectrum>.firstItem],
+    [null, <ore:feather>, <ore:ingotElectrum>.firstItem],
     [<contenttweaker:wand_base_arcane>, null, null]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addTool(<contenttweaker:aether_rune>, 1)

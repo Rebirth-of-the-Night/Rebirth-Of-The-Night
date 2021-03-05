@@ -759,6 +759,7 @@ aetherQuintessenceB.add(
     <aether_legacy:aether_leaves:*>,
     <aether_legacy:aether_log>,
     <aether_legacy:berry_bush_stem>,
+    <rustic:cloudsbluff>,
     <dynamictreestheaether:skyrootseed>,
     <dynamictreestheaether:goldenoakseed>
 );
@@ -768,7 +769,6 @@ val aetherQuintessenceC = <ore:aetherQuintessenceC>;
 aetherQuintessenceC.add(
     <aether_legacy:aechor_petal>,
     <aether_legacy:cockatrice>,
-    <aether_legacy:golden_feather>,
     <betterslimes:yellow_slime>    
 );
 
