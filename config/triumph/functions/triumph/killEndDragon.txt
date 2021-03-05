@@ -1,9 +1,9 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-title @p times 40 120 60
-title @p subtitle {"text":"Fragments of a lost empire echo around you...", "color":"yellow"}
-title @p title {"text":"Rebirth of the World", "bold":false, "italic":true, "color":"red"}
-gamestage silentadd @p killedEnderDragon
-gamestage silentadd @p killedHarvester
-gamestage silentadd @p killedQuazar
-gamestage silentadd @p minedMythril
+title @a[r=50] times 40 120 60
+title @a[r=50] subtitle {"text":"Fragments of a lost empire echo around you...", "color":"yellow"}
+title @a[r=50] title {"text":"Rebirth of the World", "bold":false, "italic":true, "color":"red"}
+gamestage silentadd @a[r=50] killedEnderDragon
+gamestage silentadd @a[r=50] killedHarvester
+gamestage silentadd @a[r=50] killedQuazar
+gamestage silentadd @a[r=50] minedMythril
