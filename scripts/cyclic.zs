@@ -261,10 +261,13 @@ recipes.addShaped("Codex anchor", gps,[
     [ord_run.anyDamage().transformDamage()]
 ]);
 
-recipes.addShapeless("dice", dice,[
-    stone,
-    cha_run.anyDamage().transformDamage()
-]);
+RecipeBuilder.get("mage")
+  .setShapeless([<ore:stoneWithoutHolystone>])
+  .addTool(<contenttweaker:chaos_rune>, 1)
+  .addOutput(dice)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "cyclicmagic:ender"}),<minecraft:slime_ball>);
 brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "cyclicmagic:ender"}),<minecraft:slime_ball>);
