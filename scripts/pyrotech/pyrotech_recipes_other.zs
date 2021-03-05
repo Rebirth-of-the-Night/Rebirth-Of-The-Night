@@ -21,6 +21,7 @@ CompactingBin.addRecipe("rat_cheese_block", <rats:block_of_cheese>, <ore:foodChe
 CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <betterwithaddons:congealed>, 3);
 CompactingBin.addRecipe("modeling_refractory", <contenttweaker:modelingrefractory>, <contenttweaker:unfiredrefractory>, 4);
 CompactingBin.addRecipe("modeling_refractory1", <contenttweaker:modelingrefractory>, <pyrotech:material:4>, 16);
+CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>, 4);
 
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 2 * 60 * 20);
