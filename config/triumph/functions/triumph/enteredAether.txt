@@ -3,4 +3,4 @@ gamerule sendCommandFeedback false
 title @p times 40 120 60
 title @p subtitle {"text":"A cool breeze fills the air...", "color":"yellow"}
 title @p title {"text":"The Aether", "bold":false, "italic":false, "color":"white"}
-gamestage silentadd @p enteredAether
+gamestage silentadd @a enteredAether
