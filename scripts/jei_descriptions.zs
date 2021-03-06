@@ -448,7 +448,7 @@ JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combi
 JEI.addDescription(<dungeontactics:magic_scroll>,"Wands contain potent magic, ready to be released on a mage's command. A magical powder is required to power the wand. Scholars can find more knowledge in the 'Magic' section of the guidebook.");
 JEI.addItem(<contenttweaker:spectral_shard>);
 
-JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This magical material is needed cast powerful spells from wands.");
+JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This magical material is needed to cast powerful spells from wands.");
 
 #Runes
 //JEI.addDescription(<ore:runeItem>,"Runes are symbols carved into stones and imbued with aspects of nature that grant them a specific and strong magic affinity for an element. Their primary use is to act as a catalyst for other magical items or creating single-use orbs.");
