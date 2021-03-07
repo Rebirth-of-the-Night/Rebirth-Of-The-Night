@@ -24,6 +24,13 @@ val earthQuintessence = <ore:earthQuintessence>;
 earthQuintessence.addAll(<ore:dirt>);
 earthQuintessence.addAll(<ore:stone>);
 earthQuintessence.addAll(<ore:sand>);
+earthQuintessence.add(
+    <defiledlands:dirt_defiled>,
+    <defiledlands:sand_defiled>,
+    <defiledlands:stone_defiled>,
+    <defiledlands:sandstone_defiled>,
+    <defiledlands:gravel_defiled>
+);
 
 // Water
 val waterQuintessence = <ore:waterQuintessence>;
@@ -55,7 +62,11 @@ airQuintessence.add(
     <minecraft:glass_bottle>,
     <rustic:cloudsbluff>,
     <aether_legacy:aercloud:*>,
-    <rustic:wind_thistle>
+    <rustic:wind_thistle>,
+    <aether_legacy:white_flower>,
+    <aether_legacy:aether_leaves>,
+    <aether_legacy:skyroot_sapling>,
+    <dynamictreestheaether:skyrootseed>
 );
 
 // Fire
@@ -79,7 +90,11 @@ fireQuintessence.add(
     <iceandfire:fire_lily>,
     <iceandfire:fire_dragon_flesh>,
     <iceandfire:fire_dragon_heart>,
-    <iceandfire:fire_dragon_blood>
+    <iceandfire:fire_dragon_blood>,
+    <defiledlands:blastem_fruit_blazing>,
+    <defiledlands:blastem_fruit>,
+    <defiledlands:hephaestite>,
+    <defiledlands:blastem_seed>
 );
 
 // Lunar
@@ -93,7 +108,13 @@ lunarQuintessence.add(
     <biomesoplenty:flower_0:3>,
     <biomesoplenty:coral:3>,
     <mowziesmobs:glowing_jelly>,
-    <dungeontactics:fish_tunnel>
+    <dungeontactics:fish_tunnel>,
+    <dynamictreesdefiledlands:tenebraseed>,
+    <defiledlands:tenebra_sapling>,
+    <defiledlands:tenebra_leaves>,
+    <aether_legacy:purple_flower>,
+    <defiledlands:scuttler_eye>,
+    <defiledlands:scuronotte>
 );
 
 // Solar
@@ -102,7 +123,13 @@ val solarQuintessence = <ore:solarQuintessence>;
 solarQuintessence.add(
     <minecraft:double_plant:0>,
     <minecraft:yellow_flower:0>,
-    <mowziesmobs:barako_mask>
+    <mowziesmobs:barako_mask>,
+    <contenttweaker:material_part:29>,
+    <dynamictreestheaether:goldenoakseed>,
+    <aether_legacy:golden_oak_sapling>,
+    <aether_legacy:aether_leaves:1>,
+    <aether_legacy:golden_amber>,
+    <aether_legacy:aether_log:1>
 );
 
 ## ARCANE ##
@@ -116,7 +143,10 @@ chaosQuintessenceA.add(
     <betterwithmods:material:25>,
     <betterwithmods:material:37>,
     <betterwithmods:material:18>,
-    <minecraft:skull:4>
+    <minecraft:skull:4>,
+    <defiledlands:blastem_fruit>,
+    <defiledlands:defilement_powder>,
+    <defiledlands:blastem_seed>
 );
 
 // Chaos B - Volatile chaotic items (the resulting item made from inert chaotic items, such as TNT)
@@ -134,7 +164,8 @@ chaosQuintessenceB.add(
     <dungeontactics:bomb_cryo>,
     <dungeontactics:bomb_cryo_cluster>,
     <minecraft:fire_charge>,
-    <rats:charged_creeper_chunk>
+    <rats:charged_creeper_chunk>,
+    <defiledlands:blastem_fruit_blazing>
 );
 
 // Mind A - Products of creativity. Anything artistic or abstract and man-made
@@ -219,7 +250,8 @@ creationQuintessenceA.add(
     <mod_lavacow:acidicheart>,
     <iceandfire:fire_dragon_heart>,
     <iceandfire:ice_dragon_heart>,
-    <iceandfire:hydra_heart>
+    <iceandfire:hydra_heart>,
+    <defiledlands:black_heart>
 );
 
 // Creation B - The vessel that carries life (straw, clay, mud, etc)
@@ -241,7 +273,8 @@ orderQuintessenceA.add(
     <undergroundbiomes:fossil_piece:6>,
     <undergroundbiomes:fossil_piece:0>,
     <undergroundbiomes:fossil_piece:1>,
-    <biomesoplenty:gem:*>
+    <biomesoplenty:gem:*>,
+    <defiledlands:scuronotte>
 );
 
 
@@ -265,12 +298,20 @@ val natureQuintessenceA = <ore:natureQuintessenceA>;
 natureQuintessenceA.addAll(<ore:treeSapling>);
 natureQuintessenceA.addAll(<ore:flower>);
 natureQuintessenceA.addAll(<ore:treeLeaves>);
+natureQuintessenceA.addAll(<ore:listAllseed>);
+natureQuintessenceA.addAll(<ore:listAllmushroom>);
 
 natureQuintessenceA.add(
     <biomesoplenty:plant_0:*>,
     <biomesoplenty:plant_1:*>,
     <minecraft:tallgrass:*>,
-    <minecraft:double_plant:*>
+    <minecraft:double_plant:*>,
+    <dynamictreesdefiledlands:tenebraseed>,
+    <nyx:unrefined_crystal>,
+    <defiledlands:blastem_fruit>,
+    <defiledlands:blastem_fruit_blazing>,
+    <defiledlands:vilespine>,
+    <defiledlands:blastem_seed>
 );
 
 // Nature B - Fauna
@@ -330,14 +371,16 @@ transformationQuintessenceA.add(
     <cyclicmagic:horse_upgrade_variant>,
     <dynamictrees:dendropotion:2>,
     <dungeontactics:steel_sword>,
-    <defiledlands:defilement_powder>
+    <defiledlands:defilement_powder>,
+    <nyx:unrefined_crystal>,
+    <defiledlands:scuronotte>
 );
 
 // Transformation B - Things that transform themselves
 val transformationQuintessenceB = <ore:transformationQuintessenceB>;
+transformationQuintessenceB.addAll(<ore:listAllseed>);
 
 transformationQuintessenceB.add(
-    <aether_legacy:chest_mimic>,
     <mod_lavacow:mimic_claw>,
     <butterflies:butterfly>,
     <exsartagine:yeast>,
@@ -355,7 +398,8 @@ knowledgeQuintessenceA.add(
     <quark:ancient_tome>,
     <antiqueatlas:empty_antique_atlas>,
     <randomthings:enderletter>,
-    <contenttweaker:brain>
+    <contenttweaker:brain>,
+    <defiledlands:book_wyrm_raw>
 );
 
 // Knowledge B - Modern knowledge (player-made books, paper, journals, etc)
@@ -382,7 +426,8 @@ val disintegrationQuintessenceA = <ore:disintegrationQuintessenceA>;
 disintegrationQuintessenceA.add(
     <minecraft:blaze_powder>,
     <mod_lavacow:poisonspore>,
-    <mod_lavacow:acidicheart>
+    <mod_lavacow:acidicheart>,
+    <defiledlands:defilement_powder>
 );
 
 // Disintegration B - Results of disintegration (ash, powders, dust etc)
@@ -430,7 +475,8 @@ poisonQuintessenceA.add(
     <minecraft:poisonous_potato>,
     <harvestcraft:whitemushroomseeditem>,
     <netherex:spore>,
-    <mod_lavacow:poisonspore>
+    <mod_lavacow:poisonspore>,
+    <defiledlands:vilespine>
 );
 
 // Poison B - Animal poisons
@@ -439,7 +485,8 @@ val poisonQuintessenceB = <ore:poisonQuintessenceB>;
 poisonQuintessenceB.add(
     <betterwithmods:material:54>,
     <mowziesmobs:naga_fang>,
-    <minecraft:spider_eye>
+    <minecraft:spider_eye>,
+    <defiledlands:foul_slime>
 );
 
 // Energy A - Life energy (sugar, etc)
@@ -459,7 +506,8 @@ energyQuintessenceB.add(
 val lifeQuintessenceA = <ore:lifeQuintessenceA>;
 
 lifeQuintessenceA.add(
-    <scalinghealth:crystalshard>
+    <scalinghealth:crystalshard>,
+    <defiledlands:black_heart>
 );
 
 // Life B - Blood
@@ -512,7 +560,8 @@ deathQuintessenceB.add(
     <betterwithaddons:congealed:1>,
     <mod_lavacow:canerottenmeat>,
 	<mod_lavacow:parasite_item>,
-	<mod_lavacow:frozenthigh>
+	<mod_lavacow:frozenthigh>,
+    <defiledlands:black_heart>
 );
 
 // Balance A - Ying - For every ore value in Ying, there must be a thematically-opposite ore value in Yang. Example, YingCold and YangHot
@@ -534,21 +583,6 @@ balanceYingQuintessenceC.addAll(
 val balanceYingQuintessenceD = <ore:balanceYingQuintessenceD>; //order items
 balanceYingQuintessenceD.addAll(<ore:orderQuintessenceA>);
 balanceYingQuintessenceD.addAll(<ore:orderQuintessenceB>);
-
-
-/* val balanceYingQuintessenceB = <ore:balanceYingQuintessenceB>; //light items
-balanceYingQuintessenceB.add(
-    <minecraft:torch>,
-    <aether_legacy:ambrosium_torch>,
-    <arcanearchives:quartz_sliver>,
-    <glaretorch:itemglaretorchsmall>,
-    <glaretorch:itemglaretorch>,
-    <glaretorch:itemglaretorchlarge>,
-    <glaretorch:itemglaretorchlarge2>,
-    <twilightforest:Torchberries>,
-    <minecraft:glowstone_dust>,
-    <betterwithaddons:wheatmat:0>
-) */
 
 
 // Balance B - Yang
@@ -607,6 +641,7 @@ arcanaQuintessenceB.add(
     <arcanearchives:quartz_sliver>,
     <arcanearchives:shaped_quartz>,
     <arcaneworld:biome_crystal>,
+    <defiledlands:defilement_powder>,
     <ore:dustElectrum>.firstItem //note, I added this because gold and ambrosium seems too cheap for this quintessence
 );
 
@@ -779,7 +814,8 @@ netherQuintessenceA.add(
     <minecraft:blaze_rod>,
     <netherex:orange_salamander_hide>,
     <netherex:black_salamander_hide>,
-    <netherex:ghast_meat_raw>
+    <netherex:ghast_meat_raw>,
+    <defiledlands:black_heart>
 );
 
 // Nether B - Flora
