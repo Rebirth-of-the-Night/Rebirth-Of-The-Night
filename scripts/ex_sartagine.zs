@@ -350,6 +350,7 @@ val kale = <ore:cropKale>;
 val tofu = <ore:listAlltofu>;
 val wheat = <minecraft:wheat>;
 val peanutButter = <harvestcraft:peanutbutteritem>;
+val hops = <ore:cropHops>;
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
@@ -3621,4 +3622,9 @@ ExSartagine.addKettleRecipe([sugar],<growthcraft_milk:bottlefluid_skim_milk>,nul
 //Rice Water
 ExSartagine.addKettleRecipe([rice],null,waterBottle,<liquid:fluid_booze_sake_water>*250,[<growthcraft_rice:rice_cooked>],600);//liquid
 ExSartagine.addKettleRecipe([rice],waterBottleItem,null,[<growthcraft_rice:rice_cooked>,<growthcraft_rice:sakebottle>],600);//item
-
+//Ale Wort Young
+ExSartagine.addKettleRecipe([<ore:listAllgrain>],null,waterBottle,<liquid:fluid_booze_hopale_young>*250,[<contenttweaker:draff>],600);//liquid
+ExSartagine.addKettleRecipe([<ore:listAllgrain>],waterBottleItem,null,[<growthcraft_hops:hopale:4>,<contenttweaker:draff>],600);//item
+//Ale Wort Hopped
+ExSartagine.addKettleRecipe([hops],null,<liquid:fluid_booze_hopale_young>*250,<liquid:fluid_booze_hopale_young>*250,[sugar.firstItem],600);//liquid
+ExSartagine.addKettleRecipe([hops],<growthcraft_hops:hopale:4>,null,[<growthcraft_hops:hopale:0>,sugar.firstItem],600);//item
