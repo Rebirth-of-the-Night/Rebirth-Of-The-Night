@@ -19,7 +19,7 @@
 				]
 			},
 			"cluster-count": 2,
-			"chunk-chance": 18,
+			"chunk-chance": 26,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

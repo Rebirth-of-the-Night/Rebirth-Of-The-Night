@@ -141,7 +141,7 @@
 				"type": "lake",
 				"block": [
 					{
-					"name": "adpother:carbon",
+					"name": "adpother:coalbed_methane",
 					"properties": {
 						"density" : "heavy"
 						}
@@ -164,7 +164,7 @@
 					},
 				"gap-block": [
 					{
-					"name": "adpother:carbon",
+					"name": "adpother:coalbed_methane",
 					"properties": {
 						"density" : "heavy"
 						}
