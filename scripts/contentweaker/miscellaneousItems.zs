@@ -102,6 +102,9 @@ spawn_scroll.register();
 val redstuff = VanillaFactory.createItem("redstuff");
 redstuff.register();
 
+val draff = VanillaFactory.createItem("draff");
+draff.register();
+
 // Cut Gems
 
 val cutdiamond = VanillaFactory.createItem("pristine_diamond");
