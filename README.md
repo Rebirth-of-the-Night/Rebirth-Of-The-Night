@@ -6,13 +6,13 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 
 ## Community
 
-Join the community on the [Official RotN Discord](https://discord.gg/rotn). Discuss base ideas, pitch ideas and lore, and keep dabs on recent events and developments.
+Join the community on the [Official RotN Discord](https://discord.gg/rotn). Discuss base ideas, pitch suggestions and lore, and keep tabs on recent events and developments.
 
 If you wish to support Rebirth of the Night, consider donating to the [Rebirth of the Night Patreon](https://www.patreon.com/rebirthofthenight).
 
 ## Installation
 
-Client and server files are available through [Curse Forge](https://www.curseforge.com/). See [RotN Modpack on CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) for all options.
+Client and server files are available through [CurseForge](https://www.curseforge.com/). See the [RotN Modpack on CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) for all options.
 
 ### Version 2
 
@@ -24,11 +24,11 @@ Rebirth of the Night is best with the atmosphere provided by **Optifine Shaders*
 
 ### Version 3 (Latest Beta)
 
-As of Version 3, Optifine and SoundTrack are automatically included and **Do not** need to be installed separately.
+As of Version 3, OptiFine and the Soundtrack are automatically included and **do not** need to be installed separately.
 
-[v3.0.Beta-4 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3219146)
+[v3.0 BETA 4 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3219146)
 
-[v3.0.Beta-4 Server Pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3219159)
+[v3.0 BETA 4 Server Pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3219159)
 
 ## Development Resources and Links
 
