@@ -10,6 +10,7 @@ BrickKiln.removeAllRecipes();
 StoneKiln.removeAllRecipes();
 furnace.remove(<minecraft:brick>, <minecraft:clay_ball>);
 furnace.remove(<minecraft:netherbrick>, <betterwithmods:material:35>);
+furnace.remove(<biomesoplenty:mud_brick>, <biomesoplenty:mudball>);
 furnace.remove(<pyrotech:material:15>);
 furnace.remove(<betterwithmods:cooking_pot>);
 
