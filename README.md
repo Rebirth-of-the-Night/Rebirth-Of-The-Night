@@ -16,7 +16,7 @@ Client and server files are available through [Curse Forge](https://www.cursefor
 
 ### Version 2
 
-Rebirth of the Night is best with the atmosphere provided by **Optifine Shaders** and **Soundtrack.** These mods needs to be installed separately. Follow the [RotN Music and Visuals guide](https://discord.com/channels/620840315498004480/648014490390233124/752685477945016451) to install.
+Rebirth of the Night is best with the atmosphere provided by **Optifine Shaders** and **Soundtrack.** These mods needs to be installed separately. Follow the [Installation guide here](https://wiki.rebirthofthenight.com/wiki/Installation).
 
 [v2.77.5 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/2974800)
 
@@ -35,3 +35,5 @@ As of Version 3, Optifine and SoundTrack are automatically included and **Do not
 [Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329)
 
 [Development Board](https://trello.com/b/PZyYdW4A/rebirth-of-the-night)
+
+[Wiki](https://wiki.rebirthofthenight.com)
