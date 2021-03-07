@@ -110,7 +110,7 @@
   },
   
   {
-    "dimension": [0, 7],
+    "dimension": [0],
     "mobs": [
       {
         "mob": "primitivemobs:goblin",
@@ -1186,7 +1186,7 @@
  // Witches
 
   {
-    "dimension": [0,7],
+    "dimension": [0],
     "mobs": [
       {
         "mob": "specialmobs:windwitch",
@@ -1198,7 +1198,7 @@
   },
   
     {
-    "dimension": [0,7],
+    "dimension": [0],
     "mobs": [
       {
         "mob": "specialmobs:wildswitch",
@@ -1283,7 +1283,7 @@
   },
 
   {
-    "dimension": [0,10,7],
+    "dimension": [0,10],
     "mobs": [
       {
         "mob": "specialmobs:poisonsilverfish",
