@@ -27,9 +27,9 @@
 				}
 			},
 			"cluster-count": 1,
-			"chunk-chance": 8,
-			"min-height": 120,
-			"max-height": 200,
+			"chunk-chance": 10,
+			"min-height": 155,
+			"max-height": 250,
 			"biome": {
 				"restriction": "whitelist",
 				"value": "biomesoplenty:overgrown_cliffs"
