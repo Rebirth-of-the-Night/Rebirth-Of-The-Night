@@ -2664,7 +2664,7 @@
 	"maxlight": 11,
     "minlight": 0,
     "maxcount": {
-        "amount": 7,
+        "amount": 5,
         "perplayer": true
     },
     "result": "allow"
