@@ -142,7 +142,17 @@ Dropt.list("sun_altar")
           .force() // Disabled, drop nothing
       )
   );
-  
+
+Dropt.list("botanic_glass")
+
+  .add(Dropt.rule()
+      .matchBlocks(["sereneseasons:greenhouse_glass"])
+      .addDrop(Dropt.drop()
+          .items([<sereneseasons:greenhouse_glass>])
+      )
+  );
+
+
 Dropt.list("exorite")
 
   .add(Dropt.rule()

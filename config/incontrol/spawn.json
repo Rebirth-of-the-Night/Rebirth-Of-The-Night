@@ -209,7 +209,7 @@
   
 // goblin mace nerf
 {
-	"dimension" : [0, 7, 10],
+	"dimension" : [0, 10],
 	"mob": "primitivemobs:goblin",
 	"onjoin": true,
 	"seesky": false,
@@ -222,7 +222,7 @@
 	"result": "allow"
   },
 {
-	"dimension" : [0, 7, 10],
+	"dimension" : [0, 10],
 	"mob": "primitivemobs:goblin",
     "onjoin": "true",
 	"result": "deny"
@@ -1439,7 +1439,7 @@
 // Witch Witch 
 
  {
-    "dimension": [0,7],
+    "dimension": [0],
     "mob": "specialmobs:windwitch",
     "gamestage": "killedHarvester",
 	"random": 0.12,
@@ -1450,12 +1450,12 @@
     "result": "default"
  },
   {
-    "dimension": [0,7],
+    "dimension": [0],
     "mob": "specialmobs:windwitch",
     "result": "deny"
  },
   {
-    "dimension": [0,7],
+    "dimension": [0],
     "mob": "specialmobs:wildswitch",
     "gamestage": "killedQuazar",
 	"random": 0.12,
@@ -1466,7 +1466,7 @@
     "result": "default"
  },
    {
-    "dimension": [0,7],
+    "dimension": [0],
     "mob": "specialmobs:wildswitch",
     "result": "deny"
  },
@@ -1594,7 +1594,7 @@
  },
  
   {
-    "dimension": [0,7,10],
+    "dimension": [0,10],
     "mob": "specialmobs:poisonsilverfish",
     "gamestage": "enteredBeneath",
 	"maxlight": 5,
@@ -1610,7 +1610,7 @@
     "result": "allow"
  },
     {
-    "dimension": [0,7,10],
+    "dimension": [0,10],
     "mob": "specialmobs:poisonsilverfish",
     "result": "deny"
  },
