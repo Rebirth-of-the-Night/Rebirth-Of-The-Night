@@ -27,8 +27,8 @@ recipes.removeByRecipeName("betterwithmods:piles/dirt_0");
 recipes.removeByRecipeName("betterwithmods:items/patchouli_manual");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
-recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
-recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:wool>,<betterwithmods:material:4>]);
+recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
+recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:wool>,<betterwithmods:material:4>]);
 
 JEI.removeAndHide(<betterwithmods:bark:*>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
