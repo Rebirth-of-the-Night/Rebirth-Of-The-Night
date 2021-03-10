@@ -54,6 +54,9 @@ SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
 SoakingPot.addRecipe("wet_soap", <betterwithaddons:wet_soap>, <liquid:water>*250, <betterwithmods:aesthetic:10>, 20 * 20);
 
+MechanicalCompactor.removeRecipes(<minecraft:bone_block>)
+MechanicalCompactor.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9);
+
 // concrete
 for i in 0 to 16 {
     SoakingPot.addRecipe("concrete_"~i, itemUtils.getItem("minecraft:concrete", i), <liquid:water>*50, itemUtils.getItem("minecraft:concrete_powder", i), 1 * 60 * 20);
