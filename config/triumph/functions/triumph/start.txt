@@ -1,5 +1,5 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p start
-give @p minecraft:bread
-give @p contenttweaker:spawn_scroll
+give @p minecraft:bread 1 0 {ench:[{id:10,lvl:1}]}
+give @p contenttweaker:spawn_scroll 1 0 {ench:[{id:10,lvl:1}]}
