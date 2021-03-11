@@ -887,7 +887,7 @@ recipes.addShaped("wyrmwood_boards", <contenttweaker:wyrmwood_boards>*8,[
 
 val PlanksList = [<minecraft:planks:4>, <minecraft:planks:2>, <minecraft:planks:5>, <minecraft:planks:3>, <minecraft:planks>, <minecraft:planks:1>, <rustic:planks:1>, <rustic:planks>, <biomesoplenty:planks_0:13>, <biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:11>, <biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:4>, <biomesoplenty:planks_0:14>, <biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:9>, <biomesoplenty:planks_0:2>, <biomesoplenty:planks_0>, <biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:7>, <biomesoplenty:planks_0:6>] as IItemStack[];
 val DebarkedLogsList = [<hitwithaxe:debarked_acacia>, <hitwithaxe:debarked_birch>, <hitwithaxe:debarked_dark_oak>, <hitwithaxe:debarked_jungle>, <hitwithaxe:debarked_oak>, <hitwithaxe:debarked_spruce>, <hitwithaxe:debarked_ironwood>, <hitwithaxe:debarked_olive>, <hitwithaxe:debarked_mahogany>, <hitwithaxe:debarked_magic>, <hitwithaxe:debarked_jacaranda>, <hitwithaxe:debarked_hellbark>, <hitwithaxe:debarked_fir_bop>, <hitwithaxe:debarked_eucalyptus_bop>, <hitwithaxe:debarked_ethereal>, <hitwithaxe:debarked_ebony>, <hitwithaxe:debarked_cherry>, <hitwithaxe:debarked_willow_bop>, <hitwithaxe:debarked_umbran>, <hitwithaxe:debarked_sacred_oak>, <hitwithaxe:debarked_redwood>,<hitwithaxe:debarked_pine>, <hitwithaxe:debarked_palm>, <hitwithaxe:debarked_mangrove>] as IItemStack[];
-val PlanksNameList = ["minecraft:planks:4", "minecraft:planks:2", "minecraft:planks:5", "minecraft:planks:3", "minecraft:planks", "minecraft:planks:1", "rustic:planks:1", "rustic:planks", "biomesoplenty:planks_0:13", "biomesoplenty:planks_0:5", "biomesoplenty:planks_0:12", "biomesoplenty:planks_0:11", "biomesoplenty:planks_0:3", "biomesoplenty:planks_0:15", "biomesoplenty:planks_0:4", "biomesoplenty:planks_0:14", "biomesoplenty:planks_0:1", "biomesoplenty:planks_0:9", "biomesoplenty:planks_0:2", "biomesoplenty:planks_0", "biomesoplenty:planks_0:8", "biomesoplenty:planks_0:10", "biomesoplenty:planks_0:7", "biomesoplenty:planks_0:6"] as string[];
+val PlanksNameList = ["minecraft_planks_4", "minecraft_planks_2", "minecraft_planks_5", "minecraft_planks_3", "minecraft_planks", "minecraft_planks_1", "rustic_planks_1", "rustic_planks", "biomesoplenty_planks_0_13", "biomesoplenty_planks_0_5", "biomesoplenty_planks_0_12", "biomesoplenty_planks_0_11", "biomesoplenty_planks_0_3", "biomesoplenty_planks_0_15", "biomesoplenty_planks_0_4", "biomesoplenty_planks_0_14", "biomesoplenty_planks_0_1", "biomesoplenty_planks_0_9", "biomesoplenty_planks_0_2", "biomesoplenty_planks_0", "biomesoplenty_planks_0_8", "biomesoplenty_planks_0_10", "biomesoplenty_planks_0_7", "biomesoplenty_planks_0_6"] as string[];
 
 for i, plank in PlanksList {
     var recipeName = PlanksNameList[i] + "_debarked" as string;
@@ -903,7 +903,7 @@ for i, plank in PlanksList {
         [null]
     ]);
     var recipeName2 = PlanksNameList[i] + "_debarked2" as string;
-    recipes.addHiddenShaped(recipeName1, PlanksList[i] * 3, [
+    recipes.addHiddenShaped(recipeName2, PlanksList[i] * 3, [
         [null],
         [null],
         [DebarkedLogsList[i]]
