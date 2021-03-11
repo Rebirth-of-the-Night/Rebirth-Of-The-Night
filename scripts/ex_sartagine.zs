@@ -351,6 +351,8 @@ val tofu = <ore:listAlltofu>;
 val wheat = <minecraft:wheat>;
 val peanutButter = <harvestcraft:peanutbutteritem>;
 val hops = <ore:cropHops>;
+val slimeball = <ore:slimeball>;
+
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
 ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:7>, stock);
@@ -3548,6 +3550,35 @@ for key, value in cupcakeItems {
   recipes.remove(key);
   ExSartagine.addKettleRecipe([batter,sugar,heavyCream,butter,value],cookKitKettle,null,[key],80);
 }
+//Cherry Slushie
+recipes.remove(<harvestcraft:cherryslushieitem>);
+recipes.addShapeless("cherryslushie", <harvestcraft:cherryslushieitem>,[<harvestcraft:cherryjuiceitem>,snowball,cookKitBad]);
+RecipeBuilder.get("chef")
+  .setName("cherryslushie")
+  .setShapeless([<harvestcraft:cherryjuiceitem>,snowball])
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:cherryslushieitem>)
+  .create();
+//Stuffed chili peppers
+recipes.remove(<harvestcraft:stuffedchilipeppersitem>);
+ExSartagine.addKettleRecipe([chili,cheese,anyRawMeat,onion,spice],cookKitKettle,null,[<harvestcraft:stuffedchilipeppersitem>],80);
+//Slime Gummies
+recipes.remove(<harvestcraft:slimegummiesitem>);
+recipes.addShapeless("slimegummies", <harvestcraft:slimegummiesitem>,[rawVenison,cookingOil,snowball,slimeball,slimeball,slimeball]);
+RecipeBuilder.get("chef")
+  .setName("slimegummies")
+  .setShapeless([rawVenison,cookingOil,snowball,slimeball,slimeball,slimeball])
+  .addOutput(<harvestcraft:slimegummiesitem>)
+  .create();
+//Chocolate Pudding
+recipes.remove(<harvestcraft:chocolatepuddingitem>);
+ExSartagine.addKettleRecipe([heavyCream,cocoaPowder,sugar],null,null,[<harvestcraft:chocolatepuddingitem>],80);
+//BBQ Chicken Pizza
+recipes.remove(<harvestcraft:bbqchickenpizzaitem>);
+ExSartagine.addKettleRecipe([rawChicken,<harvestcraft:bbqsauceitem>,veggie,cheese,dough],cookKitKettle,null,[<harvestcraft:bbqchickenpizzaitem>],80);
+//Quesadilla
+recipes.remove(<harvestcraft:quesadillaitem>);
+ExSartagine.addKettleRecipe([<harvestcraft:tortillaitem>,cheese],cookKitKettle,null,[<harvestcraft:quesadillaitem>],80);
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
   <harvestcraft:raspberrymilkshakeitem>,
@@ -3586,7 +3617,8 @@ val hiddenFoods as IItemStack[] = [
   <harvestcraft:cobblestonecobbleritem>,
   <harvestcraft:garlicsteakitem>,
   <harvestcraft:porkrindsitem>,
-  <harvestcraft:cracklinsitem>
+  <harvestcraft:cracklinsitem>,
+  <harvestcraft:pambitsboxitem>
 ];
 
 for item in hiddenFoods {
