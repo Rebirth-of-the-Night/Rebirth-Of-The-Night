@@ -125,6 +125,39 @@ Enchanter.registerEnchantment(<dungeontactics:potshot>, 2000);
 Enchanter.registerEnchantment(<dungeontactics:coin_cannon>, 2000);
 Enchanter.registerEnchantment(<dungeontactics:backfire_cannon>, 2000);
 
+//Ruby
+Enchanter.registerEnchantment(<atop:ruby_helmet>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_chestplate>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_leggings>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_boots>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_sword>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_pickaxe>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_axe>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_shovel>, 8800);
+Enchanter.registerEnchantment(<atop:ruby_hoe>, 8800);
+
+//Sapphire
+Enchanter.registerEnchantment(<atop:sapphire_helmet>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_chestplate>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_leggings>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_boots>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_sword>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_pickaxe>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_axe>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_shovel>, 8800);
+Enchanter.registerEnchantment(<atop:sapphire_hoe>, 8800);
+
+//Peridot
+Enchanter.registerEnchantment(<atop:peridot_helmet>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_chestplate>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_leggings>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_boots>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_sword>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_pickaxe>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_axe>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_shovel>, 8800);
+Enchanter.registerEnchantment(<atop:peridot_hoe>, 8800);
+
 //Onyx
 Enchanter.registerEnchantment(<simpleores:onyx_helmet>, 15600);
 Enchanter.registerEnchantment(<simpleores:onyx_chestplate>, 15600);
