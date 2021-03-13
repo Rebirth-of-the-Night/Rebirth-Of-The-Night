@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="resourcepacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Better Default 1.12.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Refreshed Aether.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/AntiqueAtlasExtra-v1.2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

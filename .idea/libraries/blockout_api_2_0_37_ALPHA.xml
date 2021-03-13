@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="blockout-api-2.0.37-ALPHA">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mods/memory_repo/com/ldtteam/blockout/blockout-api/2.0.37-ALPHA/blockout-api-2.0.37-ALPHA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

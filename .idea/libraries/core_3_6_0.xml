@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="core-3.6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mods/memory_repo/com/electronwill/night-config/core/3.6.0/core-3.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
