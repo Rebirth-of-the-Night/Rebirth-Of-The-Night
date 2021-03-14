@@ -1,3 +1,5 @@
+betterwithmods:cooking_pot
+betterwithmods:cooking_pot:1
 minecraft:blaze_powder
 minecraft:magma_cream
 simpleores:onyx_gem
