@@ -87,6 +87,7 @@ Composter.addValidItem(<pyrotech:material:25>, 40); // Pulp
 Composter.addValidItem(<pyrotech:material:13>, 33); // Dried plant fiber
 Composter.addValidItem(<pyrotech:rock:7>, 30); // Wood chips
 Composter.addValidItem(<minecraft:paper>, 10); // Paper
+Composter.addValidItem(<betterwithmods:hemp>, 35); // Hemp seeds
 
 
 //misc
