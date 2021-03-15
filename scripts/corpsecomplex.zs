@@ -11,7 +11,7 @@ var paper = <minecraft:paper>;
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_sliver>, <minecraft:stick>, <contenttweaker:vis_sliver>],
-    [<wards:enchanted_paper>, <bountifulbaubles:magicmirror>.reuse(), <wards:enchanted_paper>],
+    [<wards:enchanted_paper>, <wards:enchanted_paper>, <wards:enchanted_paper>],
     [<contenttweaker:vis_sliver>, <minecraft:stick>, <contenttweaker:vis_sliver>]])
   .addTool(<contenttweaker:death_rune>, 1)
   .addTool(<artisanworktables:artisans_quill_gold>, 1)
