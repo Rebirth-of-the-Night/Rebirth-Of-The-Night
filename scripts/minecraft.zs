@@ -158,7 +158,7 @@ RecipeBuilder.get("mage")
   .create();
 
 recipes.removeShapeless(<antiqueatlas:empty_antique_atlas>, [ <minecraft:book>, <minecraft:compass>]);
-recipes.addShapeless(<antiqueatlas:empty_antique_atlas>, [<minecraft:writable_book>,<minecraft:filled_map> | <minecraft:map>,<minecraft:compass>]);
+recipes.addShapeless(<antiqueatlas:empty_antique_atlas>, [<minecraft:writable_book>,<minecraft:compass>]);
 
 recipes.removeByRecipeName("aether_legacy:saddle");
 recipes.removeByRecipeName("animania:saddle");
