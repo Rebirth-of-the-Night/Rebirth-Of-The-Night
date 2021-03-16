@@ -23,7 +23,7 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": -1,
@@ -35,13 +35,13 @@
             "x": 0,
             "y": 2,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 1,
             "y": 2,
             "z": 1,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
@@ -53,19 +53,19 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": -1,
             "y": 0,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 1,
             "y": 2,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 1,
@@ -83,13 +83,13 @@
             "x": 1,
             "y": 0,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 1,
             "y": -1,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
@@ -101,25 +101,25 @@
             "x": -1,
             "y": 1,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": -1,
             "y": -1,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
             "y": 1,
             "z": 0,
-            "elements": "genericMetalBars"
+            "elements": "bars"
         },
         {
             "x": -1,
             "y": 1,
             "z": 1,
-            "elements": "genericMetalBars"
+            "elements": "bars"
         },
         {
             "x": 0,
@@ -134,25 +134,25 @@
             "x": 1,
             "y": 1,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": -1,
             "y": 1,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
             "y": 1,
             "z": 2,
-            "elements": "genericMetalBars"
+            "elements": "bars"
         },
         {
             "x": 1,
             "y": 1,
             "z": 1,
-            "elements": "genericMetalBars"
+            "elements": "bars"
         },
         {
             "x": -1,
@@ -164,7 +164,7 @@
             "x": 1,
             "y": 1,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
@@ -176,7 +176,7 @@
             "x": -1,
             "y": -1,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
@@ -194,31 +194,31 @@
             "x": 1,
             "y": -1,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": -1,
             "y": 2,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": -1,
             "y": 2,
             "z": 1,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
             "y": 2,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": -1,
             "y": 2,
             "z": 2,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         },
         {
             "x": 0,
@@ -230,7 +230,7 @@
             "x": 1,
             "y": 2,
             "z": 0,
-            "elements": "StoneHugeBrick"
+            "elements": "brickBlocks"
         }
     ]
 }
