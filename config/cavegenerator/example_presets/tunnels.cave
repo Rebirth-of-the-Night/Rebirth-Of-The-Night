@@ -7,8 +7,8 @@
  # long, straight tunnels with some decorations.               #
  # ----------------------------------------------------------- #
 {
+  $VANILLA: "ALL" # Default ravines and lava settings.
   enabled: false
-  blankSlate: false # Default ravines and lava settings.
   wallDecorators: [
     {
       states: dirt
@@ -39,12 +39,12 @@
      # Most tunnels spawn alone.
     systemChance: 0.001
     noiseYReduction: false
-    twistXZ: {
+    dYaw: {
       factor: 0.9
       randFactor: 0.3
       startVal: 0
     }
-    twistY: {
+    dPitch: {
       factor: 0.9
       randFactor: 0.1
       startVal: 0
@@ -58,7 +58,7 @@
       randFactor: 0.1
       startVal: 0.5
     }
-    angleY: {
+    pitch: {
       startValRandFactor: 0.05
     }
   }

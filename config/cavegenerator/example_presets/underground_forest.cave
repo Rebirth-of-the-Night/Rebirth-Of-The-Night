@@ -1,24 +1,24 @@
- # ----------------------------------------------------------- #
- # ########################################################### #
- #            ### underground_forest.cave Info ###             #
- # ########################################################### #
- #   This preset demonstrates a more fleshed-out use case of   #
- # this mod. It applies a variety of decorations to caves.     #
- # ----------------------------------------------------------- #
+# ----------------------------------------------------------- #
+# ########################################################### #
+#            ### underground_forest.cave Info ###             #
+# ########################################################### #
+#   This preset demonstrates a more fleshed-out use case of   #
+# this mod. It applies a variety of decorations to caves.     #
+# ----------------------------------------------------------- #
 {
   enabled: false
   giantPillars: [
-     # Quartz columns
+    # Quartz columns
     {
       state: quartz_block:2
       stairBlock: quartz_stairs
       minLength: 6
     }
   ]
-   # Showcasing how structures can be used to provide new kinds
-   # of decorations.
+  # Showcasing how structures can be used to provide new kinds
+  # of decorations.
   structures: [
-     # Extra fossils
+    # Extra fossils
     {
       name: fossils/fossil_spine_03
       offset: [ 0, -4, 0 ]
@@ -27,7 +27,7 @@
       integrity: 0.7
       chance: 0.03
     }
-     # Hanging spawners from cave ceilings.
+    # Hanging spawners from cave ceilings.
     {
       name: hanging_spawner
       offset: [ 0, -5, 0 ]
@@ -38,7 +38,7 @@
       directions: up
       chance: 0.15
     }
-     # Giant red mushrooms
+    # Giant red mushrooms
     {
       name: red_mushroom
       offset: [ 0, 1, 0 ]
@@ -49,9 +49,9 @@
       minHeight: 18
     }
   ]
-   # Some variety in terms of the stone that spawns underground.
-  stoneClusters: [
-     # Giant andesite veins.
+  # Some variety in terms of the stone that spawns underground.
+  clusters: [
+    # Giant andesite veins.
     {
       states: "stone:5" # andesite
       chance: 0.15
@@ -63,7 +63,7 @@
       heightVariance: 12
     }
   ]
-   # Relatively small and short caverns.
+  # Relatively small and short caverns.
   caverns: {
     enabled: true
     minHeight: 6
@@ -73,13 +73,13 @@
       scaleY: 0.3
     }
   }
-   # Imitates standard lava placement, 2 blocks lower.
+  # Imitates standard lava placement, 2 blocks lower.
   caveBlocks: [
     { states: "water", maxHeight: 8 }
   ]
-   # A variety of blocks on the ground and ceiling.
+  # A variety of blocks on the ground and ceiling.
   wallDecorators: [
-     # Patches of grass.
+    # Patches of grass.
     {
       states: grass
       minHeight: 9 # maxHeight defaults to 50.
@@ -88,7 +88,7 @@
       preference: replace_match
       noise3D: {}
     }
-     # Sporadic gravel.
+    # Sporadic gravel.
     {
       states: gravel
       chance: 0.75
@@ -97,7 +97,7 @@
       matchers: [ "stone", "stone:5" ]
       preference: replace_match
     }
-     # Sporadic coarse dirt.
+    # Sporadic coarse dirt.
     {
       states: "dirt:1" # Coarse dirt
       chance: 0.3
@@ -106,7 +106,7 @@
       matchers: [ "stone", "stone:5" ]
       preference: replace_match
     }
-     # Lights on the ceiling.
+    # Lights on the ceiling.
     {
       states: sea_lantern
       chance: 0.003
@@ -115,7 +115,7 @@
       matchers: [ "stone", "stone:5" ]
       preference: replace_match
     }
-     # Cobwebs on the ceiling.
+    # Cobwebs on the ceiling.
     {
       states: web
       chance: 0.001
@@ -124,9 +124,9 @@
       matchers: [ "stone", "stone:5" ]
       preference: replace_original
     }
-     # Grass can be matched in this case because the original
-     # block was never replaced, i.e. replace_match was used.
-     # Spawns extra ferns on the ground.
+    # Grass can be matched in this case because the original
+    # block was never replaced, i.e. replace_match was used.
+    # Spawns extra ferns on the ground.
     {
       states: tallgrass:2
       chance: 0.05
@@ -135,7 +135,7 @@
       matchers: grass
       preference: replace_original
     }
-     # Extra tall grass on the ground.
+    # Extra tall grass on the ground.
     {
       states: tallgrass:1
       chance: 0.2
@@ -144,7 +144,7 @@
       matchers: grass
       preference: replace_original
     }
-     # Poppies
+    # Poppies
     {
       states: red_flower
       chance: 0.02
@@ -154,7 +154,7 @@
       matchers: grass
       preference: replace_original
     }
-     # Dandelions
+    # Dandelions
     {
       states: yellow_flower
       chance: 0.01
@@ -163,7 +163,7 @@
       matchers: grass
       preference: replace_original
     }
-     # Mushrooms
+    # Mushrooms
     {
       states: [ "red_mushroom", "brown_mushroom" ]
       chance: 0.02
@@ -173,9 +173,9 @@
       preference: replace_original
     }
   ]
-   # Some hanging features.
+  # Some hanging features.
   largeStalactites: [
-     # Rare glowstone in the ceiling.
+    # Rare glowstone in the ceiling.
     {
       state: glowstone
       wide: false
@@ -189,7 +189,7 @@
         scale: 0.4
       }
     }
-     # Hanging leaves
+    # Hanging leaves
     {
       state: leaves:1
       wide: false
@@ -199,7 +199,7 @@
       matchers: [ "stone", "stone:5" ]
       noise2D: { frequency: 0.2 }
     }
-     # Actual stalactites
+    # Actual stalactites
     {
       state: stone
       maxLength: 8
@@ -210,7 +210,7 @@
     }
   ]
   largeStalagmites: [
-     # Small stone boulders
+    # Small stone boulders
     {
       state: stone
       maxLength: 3

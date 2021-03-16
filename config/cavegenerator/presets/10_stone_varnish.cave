@@ -1,13 +1,13 @@
 {
-  blankSlate: false
+  $VANILLA: "ALL" # Default ravines and lava settings.
   wallDecorators: [
-     # Spawns desert varnish on sandstone surfaces.
+    # Spawns desert varnish on sandstone surfaces.
     {
       states: pyrotech:limestone
       chance: 0.99
       minHeight: 0
       maxHeight: 124
-      matchers: "sandstone"
+      matchers: sandstone
       directions: all
     }
   ]

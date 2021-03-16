@@ -1,11 +1,11 @@
- # ----------------------------------------------------------- #
- # ########################################################### #
- #               ### stone_layers.cave Info ###                #
- # ########################################################### #
- #   This preset is designed to demonstrate the use of the     #
- # included StoneLayer objects. Make sure to list these in     #
- # from bottom to top.                                         #
- # ----------------------------------------------------------- #
+# ----------------------------------------------------------- #
+# ########################################################### #
+#               ### stone_layers.cave Info ###                #
+# ########################################################### #
+#   This preset is designed to demonstrate the use of the     #
+# included StoneLayer objects. Make sure to list these in     #
+# from bottom to top.                                         #
+# ----------------------------------------------------------- #
 # This file is for base rocks 
 # the most common igneous, intrusive rock in the continents' crest is Granite; red for OW and black for Beneath (bedrock)
 #	Dacite is most common in old Rome, Romania, apart from a terrain of hills and plains, they have dense forests. We're going off the terrain there (hills, coniferous)
@@ -29,112 +29,111 @@
 #	Greywacke is a hard sandstone (wasteland, dead, spooky)
 #	Chert occurs in limestone, chalk, and dolomite (pockets)
 {
-  blankSlate: false
+  $VANILLA: "ALL" # Default ravines and lava settings.
   biomes: {
-	  names: [
-	    biomesoplenty:lush_desert
-		minecraft:plains
-		minecraft:extreme_hills
-		minecraft:extreme_hills_with_trees
-		minecraft:savanna
-		minecraft:savanna_rock
-		minecraft:mutated_savanna_rock
-		biomesoplenty:xeric_shrubland
-		biomesoplenty:shrubland
-		biomesoplenty:alps_foothills
-		biomesoplenty:mountain_foothills
-		biomesoplenty:redwood_forest_edge
-		biomesoplenty:pasture
-		minecraft:beaches
-		minecraft:mutated_plains
-		biomesoplenty:lavender_fields
-		biomesoplenty:crag
-		biomesoplenty:flower_field
-		biomesoplenty:grassland
-		biomesoplenty:grove
-		minecraft:forest
-		minecraft:forest_hills
-		minecraft:birch_forest
-		minecraft:birch_forest_hills
-		minecraft:roofed_forest
-		minecraft:mutated_extreme_hills
-		minecraft:mutated_forest
-		minecraft:mutated_birch_forest
-		minecraft:mutated_birch_forest_hills
-		minecraft:mutated_roofed_forest
-		minecraft:mutated_extreme_hills_with_trees
-		biomesoplenty:bamboo_forest
-		biomesoplenty:cherry_blossom_grove
-		biomesoplenty:maple_woods
-		biomesoplenty:meadow
-		biomesoplenty:mountain
-		biomesoplenty:orchard
-		biomesoplenty:woodland
-	  ]
-	}
+    names: [
+      biomesoplenty:lush_desert
+      minecraft:plains
+      minecraft:extreme_hills
+      minecraft:extreme_hills_with_trees
+      minecraft:savanna
+      minecraft:savanna_rock
+      minecraft:mutated_savanna_rock
+      biomesoplenty:xeric_shrubland
+      biomesoplenty:shrubland
+      biomesoplenty:alps_foothills
+      biomesoplenty:mountain_foothills
+      biomesoplenty:redwood_forest_edge
+      biomesoplenty:pasture
+      minecraft:beaches
+      minecraft:mutated_plains
+      biomesoplenty:lavender_fields
+      biomesoplenty:crag
+      biomesoplenty:flower_field
+      biomesoplenty:grassland
+      biomesoplenty:grove
+      minecraft:forest
+      minecraft:forest_hills
+      minecraft:birch_forest
+      minecraft:birch_forest_hills
+      minecraft:roofed_forest
+      minecraft:mutated_extreme_hills
+      minecraft:mutated_forest
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+      minecraft:mutated_extreme_hills_with_trees
+      biomesoplenty:bamboo_forest
+      biomesoplenty:cherry_blossom_grove
+      biomesoplenty:maple_woods
+      biomesoplenty:meadow
+      biomesoplenty:mountain
+      biomesoplenty:orchard
+      biomesoplenty:woodland
+    ]
+  }
   stoneLayers: [
-
     {
-	  #red granite
+      #red granite
       state: undergroundbiomes:igneous_stone
       maxHeight: 16
-	  noise2D: {
-         scale: 0.9
-         frequency: 0.015
-         maxVal: 4
-        }
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        maxVal: 4
+      }
     }
-	{
-	  state: undergroundbiomes:metamorphic_stone
-	  maxHeight: 52
-	  noise2D: {
-         scale: 0.9
-         frequency: 0.015
-		}
-	}
-	{
-	  #limestone
+    {
+      state: undergroundbiomes:metamorphic_stone
+      maxHeight: 52
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+      }
+    }
+    {
+      #limestone
       state: undergroundbiomes:sedimentary_stone
       maxHeight: 100
-	  noise2D: {
-         scale: 0.9
-         frequency: 0.015
-         minVal: 0
-		 maxVal: 4
-		}
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: 0
+        maxVal: 4
+      }
     }
-	{
-	  #dolomite
-	  state: undergroundbiomes:sedimentary_stone:5
+    {
+      #dolomite
+      state: undergroundbiomes:sedimentary_stone:5
       maxHeight: 128
-	  noise2D: {
-         scale: 0.2
-         frequency: 0.015
-         minVal: 0
-		 maxVal: 8 
-		}
-	}
-	{
-	  #green schist
-	  state: undergroundbiomes:metamorphic_stone:5
+      noise2D: {
+        scale: 0.2
+        frequency: 0.015
+        minVal: 0
+        maxVal: 8
+      }
+    }
+    {
+      #green schist
+      state: undergroundbiomes:metamorphic_stone:5
       maxHeight: 204
-	  noise2D: {
-         scale: 0.3
-         frequency: 0.3
-         minVal: 0
-		 maxVal: 8 
-		}
-	}
-	{
-	  #blue schist
-	  state: undergroundbiomes:metamorphic_stone:4
+      noise2D: {
+        scale: 0.3
+        frequency: 0.3
+        minVal: 0
+        maxVal: 8
+      }
+    }
+    {
+      #blue schist
+      state: undergroundbiomes:metamorphic_stone:4
       maxHeight: 255
-	  noise2D: {
-         scale: 0.3
-         frequency: 0.2
-		 minVal: 0
-         maxVal: 8 
-        }
-	}
+      noise2D: {
+        scale: 0.3
+        frequency: 0.2
+        minVal: 0
+        maxVal: 8
+      }
+    }
   ]
 }

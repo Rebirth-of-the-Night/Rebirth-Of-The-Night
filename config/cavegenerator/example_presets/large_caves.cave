@@ -1,20 +1,20 @@
- # ----------------------------------------------------------- #
- # ########################################################### #
- #               ### large_caves.cave Info ###                 #
- # ########################################################### #
- #   This preset is designed to demonstrate a basic use case   #
- # for Cave Generator. Its only effect is to increase the      #
- # overall scale of tunnels and rooms.                         #
- # ----------------------------------------------------------- #
+# ----------------------------------------------------------- #
+# ########################################################### #
+#               ### large_caves.cave Info ###                 #
+# ########################################################### #
+#   This preset is designed to demonstrate a basic use case   #
+# for Cave Generator. Its only effect is to increase the      #
+# overall scale of tunnels and rooms.                         #
+# ----------------------------------------------------------- #
 {
+  $VANILLA: "ALL" # Default ravines and lava settings.
   enabled: false
-  blankSlate: false # Default ravines and lava settings.
   rooms: {
     scale: 7
     scaleY: 0.6
   }
   tunnels: {
-     # Use consistent scale values.
+    # Use consistent scale values.
     resizeBranches: false
     scale: {
       startVal: 2.5

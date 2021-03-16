@@ -1,17 +1,17 @@
- # ----------------------------------------------------------- #
- # ########################################################### #
- #              ### stone_clusters.cave Info ###               #
- # ########################################################### #
- #   This preset is designed to demonstrate the use of the     #
- # StoneCluster objects included with this mod. I highly       #
- # recommend disabling vanilla stone clusters in the config    #
- # file when using this feature. It will look and perform      #
- # better without it.                                          #
- # ----------------------------------------------------------- #
+# ----------------------------------------------------------- #
+# ########################################################### #
+#              ### stone_clusters.cave Info ###               #
+# ########################################################### #
+#   This preset is designed to demonstrate the use of the     #
+# Cluster objects included with this mod. I highly recommend  #
+# disabling vanilla stone clusters in the config file when    #
+# using this feature. It will look and perform better without #
+# it.                                                         #
+# ----------------------------------------------------------- #
 {
+  $VANILLA: "ALL" # Default ravines and lava settings.
   enabled: false
-  blankSlate: false # Default tunnels, ravines, etc.
-  stoneClusters: [
+  clusters: [
     {
       states: "stone:5" # anesite
       chance: 0.15
@@ -36,7 +36,7 @@
       radiusY: 14
       radiusZ: 19
       radiusVariance: 7
-       # Center height can be negative.
+      # Center height can be negative.
       startHeight: 0
       heightVariance: 6
     }

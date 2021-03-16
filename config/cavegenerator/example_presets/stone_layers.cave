@@ -7,8 +7,8 @@
  # from bottom to top.                                         #
  # ----------------------------------------------------------- #
 {
+  $VANILLA: "ALL" # Default tunnels, ravines, etc.
   enabled: false
-  blankSlate: false # Default tunnels, ravines, etc.
   stoneLayers: [
     {
       state: "stone:1" # granite

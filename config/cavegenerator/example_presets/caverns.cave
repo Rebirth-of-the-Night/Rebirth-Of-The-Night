@@ -1,14 +1,14 @@
- # ----------------------------------------------------------- #
- # ########################################################### #
- #                 ### caverns.cave Info ###                   #
- # ########################################################### #
- #   This preset demonstrates a basic use case of the caverns  #
- # feature. For more information on using noise3D blocks, see  #
- # vanilla.cave.                                               #
- # ----------------------------------------------------------- #
+# ----------------------------------------------------------- #
+# ########################################################### #
+#                 ### caverns.cave Info ###                   #
+# ########################################################### #
+#   This preset demonstrates a basic use case of the caverns  #
+# feature. For more information on using noise3D blocks, see  #
+# vanilla.cave.                                               #
+# ----------------------------------------------------------- #
 {
+  $VANILLA: "ALL" # Default ravines and lava settings.
   enabled: false
-  blankSlate: false # Default ravines and lava settings.
   caverns: {
     enabled: true
     minHeight: 7
@@ -20,13 +20,13 @@
     }
   }
   tunnels: {
-     # Spawn rate roughly in half.
+    # Spawn rate roughly in half.
     frequency: 7
-     # Most tunnels will spawn alone.
+    # Most tunnels will spawn alone.
     systemChance: 0.0005
     noiseYReduction: false
     resizeBranches: false
-    twistY: {
+    dPitch: {
       factor: 0.5
     }
     scale: {
