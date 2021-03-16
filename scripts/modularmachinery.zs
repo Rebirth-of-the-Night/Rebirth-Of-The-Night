@@ -33,23 +33,29 @@ function dryer(recipeName as string, input as IIngredient, output as IIngredient
 function addMachineRecipe(machine as string, recipeName as string, input as IIngredient, output as IIngredient, ticks as int) {
     var rec = RecipeBuilder.newBuilder(recipeName, machine, ticks);
     if (input instanceof IItemStack) {
-        rec.addItemInput(input as IItemStack);
+        var t1 as IItemStack = input;
+        rec.addItemInput(t1);
     } else if (input instanceof ILiquidStack) {
-        rec.addFluidInput(input as ILiquidStack);
+        var t2 as ILiquidStack = input;
+        rec.addFluidInput(t2);
     } else if (input instanceof IOreDictEntry) {
         logger.logWarning("Machine " + machine + " with recipe \"" + recipeName + "\" uses an ore dictionary as input, which may not work as intended!");
-        rec.addItemInput(input as IOreDictEntry, input.amount);
+        var t3 as IOreDictEntry = input;
+        rec.addItemInput(t3, input.amount);
     } else {
         logger.logError("Machine " + machine + " with recipe \"" + recipeName + "\" uses an invalid item input!");
     }
 
     if (output instanceof IItemStack) {
-        rec.addItemOutput(output as IItemStack);
+        var t4 as IItemStack = output;
+        rec.addItemOutput(t4);
     } else if (output instanceof ILiquidStack) {
-        rec.addFluidOutput(output as ILiquidStack);
+        var t5 as ILiquidStack = output;
+        rec.addFluidOutput(t5);
     } else if (output instanceof IOreDictEntry) {
         logger.logWarning("Machine " + machine + " with recipe \"" + recipeName + "\" uses an ore dictionary as output, which may not work as intended!");
-        rec.addItemOutput(output as IOreDictEntry, output.amount);
+        var t6 as IOreDictEntry = output;
+        rec.addItemOutput(t6, output.amount);
     } else {
         logger.logError("Machine " + machine + " with recipe \"" + recipeName + "\" uses an invalid item output!");
     }
@@ -60,17 +66,70 @@ function addMachineRecipe(machine as string, recipeName as string, input as IIng
 recipes.removeByMod("modularmachinery");
 recipes.removeByMod("modulardiversity");
 
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [[null, <inspirations:pipe>, null],[<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], [null, <quark:chute>, null]]);
-recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [[null, <inspirations:pipe>, null],[<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], [null, <quark:chute>, null]]);
-recipes.addShaped(<modularmachinery:blockcontroller>, [[<ore:ingotBronze>, <minecraft:redstone_torch>, <ore:ingotBronze>],[<minecraft:lever>, <minecraft:repeater>, <minecraft:lever>], [<ore:ingotBronze>, <minecraft:redstone>, <ore:ingotBronze>]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:2>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockoutputbus:1>, <ore:ingotBronze>], [null, <ore:chestWood>, null]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:1>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockoutputbus>, <ore:ingotBronze>], [null, <ore:chestWood>, null]]);
-recipes.addShaped(<modularmachinery:blockoutputbus>, [[null, <quark:chute>, null],[<ore:ingotBronze>, <ore:chestWood>, <ore:ingotBronze>], [null, <inspirations:pipe>, null]]);
-recipes.addShaped(<modularmachinery:blockinputbus:2>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockinputbus:1>, <ore:ingotBronze>], [null, <ore:chestWood>, null]]);
-recipes.addShaped(<modularmachinery:blockinputbus:1>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockinputbus>, <ore:ingotBronze>], [null, <ore:chestWood>, null]]);
-recipes.addShaped(<modularmachinery:blockinputbus>, [[null, <inspirations:pipe>, null],[<ore:ingotBronze>, <ore:chestWood>, <ore:ingotBronze>], [null, <quark:chute>, null]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dryer"}), [[null, <ore:genericMetalBars>, null],[<ore:StoneHugeBrick>, <minecraft:writable_book>, <contenttweaker:oak_boards>], [null, <pyrotech:drying_rack:1>, null]]);
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockfluidoutputhatch:1>, <ore:ingotBronze>], [null, <rustic:liquid_barrel>, null]]);
-recipes.addShaped(<modularmachinery:blockfluidoutputhatch:1>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockfluidoutputhatch>, <ore:ingotBronze>], [null, <rustic:liquid_barrel>, null]]);
-recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockfluidinputhatch:1>, <ore:ingotBronze>], [null, <rustic:liquid_barrel>, null]]);
-recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [[null, null, null],[<ore:ingotBronze>, <modularmachinery:blockfluidinputhatch>, <ore:ingotBronze>], [null, <rustic:liquid_barrel>, null]]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [
+    [null, <inspirations:pipe>, null],
+    [<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], 
+    [null, <quark:chute>, null]
+]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [
+    [null, <inspirations:pipe>, null],
+    [<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], 
+    [null, <quark:chute>, null]
+]);
+recipes.addShaped(<modularmachinery:blockcontroller>, [
+    [<ore:ingotBronze>, <minecraft:redstone_torch>, <ore:ingotBronze>],
+    [<minecraft:lever>, <minecraft:repeater>, <minecraft:lever>], 
+    [<ore:ingotBronze>, <minecraft:redstone>, <ore:ingotBronze>]
+]);
+recipes.addShaped(<modularmachinery:blockoutputbus:2>, [
+    [<ore:ingotBronze>, <modularmachinery:blockoutputbus:1>, <ore:ingotBronze>], 
+    [null, <ore:chestWood>, null]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:1>, [
+    [<ore:ingotBronze>, <modularmachinery:blockoutputbus>, <ore:ingotBronze>], 
+    [null, <ore:chestWood>, null]
+]);
+recipes.addShaped(<modularmachinery:blockoutputbus>, [
+    [null, <quark:chute>, null],
+    [<ore:ingotBronze>, <ore:chestWood>, <ore:ingotBronze>], 
+    [null, <inspirations:pipe>, null]
+]);
+recipes.addShaped(<modularmachinery:blockinputbus:2>, [
+    [<ore:ingotBronze>, <modularmachinery:blockinputbus:1>, <ore:ingotBronze>], 
+    [null, <ore:chestWood>, null]
+]);
+recipes.addShaped(<modularmachinery:blockinputbus:1>, [
+    [<ore:ingotBronze>, <modularmachinery:blockinputbus>, <ore:ingotBronze>], 
+    [null, <ore:chestWood>, null]
+]);
+recipes.addShaped(<modularmachinery:blockinputbus>, [
+    [null, <inspirations:pipe>, null],
+    [<ore:ingotBronze>, <ore:chestWood>, <ore:ingotBronze>], 
+    [null, <quark:chute>, null]
+]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dryer"}), [
+    [null, <ore:genericMetalBars>, null],
+    [<ore:StoneHugeBrick>, <minecraft:writable_book>, <contenttweaker:oak_boards>], 
+    [null, <pyrotech:drying_rack:1>, null]
+]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pizzaoven"}), [
+    [null, <ore:genericMetalBars>, null],
+    [<minecraft:brick_block>, <minecraft:writable_book>, <minecraft:brick_block>], 
+    [null, <ore:netherrack>, null]
+]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [
+    [null, null, null],
+    [<ore:ingotBronze>, <modularmachinery:blockfluidoutputhatch:1>, <ore:ingotBronze>], 
+    [null, <rustic:liquid_barrel>, null]
+]);
+recipes.addShaped(<modularmachinery:blockfluidoutputhatch:1>, [
+    [<ore:ingotBronze>, <modularmachinery:blockfluidoutputhatch>, <ore:ingotBronze>], 
+    [null, <rustic:liquid_barrel>, null]
+]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [
+    [<ore:ingotBronze>, <modularmachinery:blockfluidinputhatch:1>, <ore:ingotBronze>], 
+    [null, <rustic:liquid_barrel>, null]
+]);
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
+    [<ore:ingotBronze>, <modularmachinery:blockfluidinputhatch>, <ore:ingotBronze>], 
+    [null, <rustic:liquid_barrel>, null]
+]);
