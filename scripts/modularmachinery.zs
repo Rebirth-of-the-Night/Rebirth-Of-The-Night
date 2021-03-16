@@ -26,7 +26,7 @@ dryerrecipe3.addItemOutput(<harvestcraft:raisinsitem>);
 dryerrecipe3.build();
 
 recipes.removeByMod("modularmachinery");
-recipes.removeByMod("modulardiversity")
+recipes.removeByMod("modulardiversity");
 
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [[null, <inspirations:pipe>, null],[<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], [null, <quark:chute>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [[null, <inspirations:pipe>, null],[<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], [null, <quark:chute>, null]]);
