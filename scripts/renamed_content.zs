@@ -4,7 +4,6 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 // Progression and CoT
-<contenttweaker:spawn_scroll>.addTooltip("One time use. Right-click to set your spawn point to where you are standing.");
 <contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook.");
 
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
