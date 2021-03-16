@@ -91,14 +91,6 @@ cooking_kit.maxDamage = 420;
 cooking_kit.maxStackSize = 1;
 cooking_kit.register();
 
-val spawn_scroll = VanillaFactory.createItem("spawn_scroll");
-spawn_scroll.maxStackSize = 1;
-spawn_scroll.itemRightClick = function(stack, world, player, hand) {
-    stack.shrink(1);
-    return "SUCCESS";
-};
-spawn_scroll.register();
-
 val redstuff = VanillaFactory.createItem("redstuff");
 redstuff.register();
 
