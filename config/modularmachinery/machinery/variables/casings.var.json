@@ -87,11 +87,7 @@
         "aesthetics:copper_bars",
         "aesthetics:tin_bars",
         "betterwithaddons:wrought_bars",
-        "aether_legacy:zanite_bars",
-        "dungeontactics:powered_bars",
-        "aesthetics:mythril_bars",
-        "aesthetics:onyx_bars",
-        "aesthetics:adamantium_bars"
+        "aether_legacy:zanite_bars"
     ],
     "netherrack": [
         "minecraft:netherrack",
