@@ -2567,6 +2567,33 @@
       "time": 24000
     },
     {
+      "comment": "temporary recipe",
+      "item": {
+        "ore": "yeastBrewers",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "name": null,
+        "names": [
+          "honey"
+        ],
+        "inclusion_tags": [],
+        "exclusion_tags": [],
+        "comment": "",
+        "amount": 250
+      },
+      "output_fluid": {
+        "comment": "Mead Must",
+        "name": "fluid_booze_mead_young",
+        "amount": 250
+      },
+      "time": 24000
+    },
+    {
       "comment": "",
       "item": {
         "ore": "yeastBrewers",
