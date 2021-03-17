@@ -384,6 +384,7 @@ transformationQuintessenceB.add(
     <mod_lavacow:mimic_claw>,
     <butterflies:butterfly>,
     <exsartagine:yeast>,
+	<growthcraft_cellar:yeast:*>,
     <twilightforest:tower_device:12>
 );
 

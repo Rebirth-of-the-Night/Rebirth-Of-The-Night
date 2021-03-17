@@ -853,6 +853,8 @@ quark:item.horse_whistle.blow
 quark:block.tiny_potato.shia_labeouf
 bettercombatmod:player.swordslash
 bettercombatmod:player.criticalstrike
+betterslimes:entity.quazar.hurt
+betterslimes:entity.quazar.death
 customdisc:dunockstreet_titleedit
 customdisc:alvae
 customdisc:alpha

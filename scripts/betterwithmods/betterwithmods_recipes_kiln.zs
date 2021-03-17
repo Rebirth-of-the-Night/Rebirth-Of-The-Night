@@ -25,6 +25,22 @@ mods.betterwithmods.Kiln.add(
 	]
 
 );
+//Plain Pizza
+mods.betterwithmods.Kiln.add(
+	<contenttweaker:plain_pizza_block>,
+	[
+	<harvestcraft:pizzaitem>
+	]
+
+);
+//Abyss Pizza
+mods.betterwithmods.Kiln.add(
+	<contenttweaker:abyss_pizza_block>,
+	[
+	<contenttweaker:abyss_pizza>
+	]
+
+);
 // Cosmetic
 mods.betterwithmods.Kiln.add(
 	<iceandfire:ash>,

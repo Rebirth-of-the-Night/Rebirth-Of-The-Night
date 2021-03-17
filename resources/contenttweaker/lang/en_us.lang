@@ -157,6 +157,8 @@ tile.contenttweaker.dolomite_straws.name=Dolomite Straws
 tile.contenttweaker.cave_bramble.name=Cave Bramble
 tile.contenttweaker.electrum_plate.name=Aetherial Electrum Plate
 tile.contenttweaker.copper_plate.name=Copper Plate
+tile.contenttweaker.abyss_pizza_block.name=Raw Abyss Pizza
+tile.contenttweaker.plain_pizza_block.name=Raw Plain Pizza
 
 item.contenttweaker.abyss_pizza.name=Abyss Pizza
 item.contenttweaker.four_gem_ingots.name=Four Gem Ingots Icon

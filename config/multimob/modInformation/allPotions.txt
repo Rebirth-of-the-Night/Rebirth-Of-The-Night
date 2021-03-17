@@ -28,11 +28,11 @@ minecraft:unluck
 adpother:respirator_effect
 biomesoplenty:curse
 dungeontactics:cryo_effect
-elenaidodge:feathers
-elenaidodge:weight
-elenaidodge:endurance
-elenaidodge:forceful
-elenaidodge:feeble
+elenaidodge:can_dodge
+elenaidodge:can_dodge_airborne
+elenaidodge:cannot_dodge
+elenaidodge:can_walljump
+elenaidodge:can_ledgegrab
 rustic:ironskin
 rustic:feather
 rustic:blazing_trail

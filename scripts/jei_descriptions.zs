@@ -103,7 +103,6 @@ JEI.addDescription(<defiledlands:pellet_umbrium>, "A pellet made of heavy Soul F
 val crudeSteelIngot = <dungeontactics:steel_ingot>;
 val sfsSteelIngot = <betterwithmods:material:14>;
 val charcoal = <minecraft:coal:1>;
-// val enderCharbiotite = <undergroundbiomes:lignite_coal>;
 
 JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
 JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
@@ -119,7 +118,6 @@ JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in 
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
 
 JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon.");
-// JEI.addDescription(enderCharbiotite,"An almost otherworldly amalgamation of tough organic matter. Just powerful enough to act as a catalyst for steel to contain souls.");
 
 
 /* Manufacturing */
@@ -224,7 +222,7 @@ JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount:
 JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}),"Sheep Milk is obtained from sheep.");
 
 JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through an infectious disease. If fed to certain baby animals, their growth will be stunted forever.");
-
+JEI.addDescription(<exsartagine:yeast>, "This kind of yeast can be obtained by placing down flour on a surface, interacting with it using a water bottle and waiting unti it changes appearence.");
 
 /* Mobs and Drops */
 val dung = <betterwithmods:material:5>;

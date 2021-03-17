@@ -2,7 +2,6 @@
 // Random Things
 <randomthings:magichood>.addTooltip(format.gold("Soft to the touch with a pleasant smell!"));
 
-<aether_legacy:healing_stone>.addTooltip("Restores max HP lost from dying from the plague");
 
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+25% Attack Speed"));
@@ -295,6 +294,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
 <wards:enchanted_paper>.addTooltip("Used to power Wards");
 <aether_legacy:notch_hammer:*>.addTooltip("From the // 1 princess in the world.");
+<aether_legacy:healing_stone>.addTooltip("Restores max HP lost from dying from the plague");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
 <minecraft:enchanting_table>.addTooltip("Only usable at night.");
@@ -343,6 +343,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <betterwithmods:dirt_pile>.addTooltip("Additive. Can create a rice paddy");
 <betterwithmods:dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <artisanworkstumps:workstump_potter>.addTooltip("Enables hand-building pottery.");
+<exsartagine:yeast>.addTooltip("Can be used as Brewer's Yeast.");
 
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
