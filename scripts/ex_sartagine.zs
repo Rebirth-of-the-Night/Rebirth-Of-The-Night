@@ -3655,8 +3655,11 @@ ExSartagine.addKettleRecipe([sugar],<growthcraft_milk:bottlefluid_skim_milk>,nul
 ExSartagine.addKettleRecipe([rice],null,waterBottle,<liquid:fluid_booze_sake_water>*250,[<growthcraft_rice:rice_cooked>],600);//liquid
 ExSartagine.addKettleRecipe([rice],waterBottleItem,null,[<growthcraft_rice:rice_cooked>,<growthcraft_rice:sakebottle>],600);//item
 //Ale Wort Young
-ExSartagine.addKettleRecipe([<ore:listAllgrain>],null,waterBottle,<liquid:fluid_booze_hopale_young>*250,[<contenttweaker:draff>],600);//liquid
+ExSartagine.addKettleRecipe([<ore:listAllgrain>],null,waterBottle,<liquid:fluid_booze_hopale_unhopped>*250,[<contenttweaker:draff>],600);//liquid
 ExSartagine.addKettleRecipe([<ore:listAllgrain>],waterBottleItem,null,[<growthcraft_hops:hopale:4>,<contenttweaker:draff>],600);//item
 //Ale Wort Hopped
-ExSartagine.addKettleRecipe([hops],null,<liquid:fluid_booze_hopale_young>*250,<liquid:fluid_booze_hopale_young>*250,[sugar.firstItem],600);//liquid
+ExSartagine.addKettleRecipe([hops],null,<liquid:fluid_booze_hopale_unhopped>*250,<liquid:fluid_booze_hopale_young>*250,[sugar.firstItem],600);//liquid
 ExSartagine.addKettleRecipe([hops],<growthcraft_hops:hopale:4>,null,[<growthcraft_hops:hopale:0>,sugar.firstItem],600);//item
+// Lager Ale
+ExSartagine.addKettleRecipe([<growthcraft_cellar:yeast:1>],null,<liquid:fluid_booze_hopale_young>*1000,<liquid:fluid_booze_lager_young>*1000,[null],600);//liquid
+ExSartagine.addKettleRecipe([<growthcraft_cellar:yeast:1>],<growthcraft_hops:hopale:0>,null,[<growthcraft_hops:lager>],600);//item
