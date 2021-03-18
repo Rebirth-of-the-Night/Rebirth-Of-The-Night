@@ -1,0 +1,15 @@
+task clean(type: Delete) {
+    delete 'build'
+    group 'build'
+}
+
+task copyMods(type: Copy) {
+    from '.'
+    into 'build/target'
+    exclude '.*'
+    // because we don't want infinite loops now do we
+    exclude 'build'
+    exclude 'build.gradle'
+
+    group 'build'
+}
