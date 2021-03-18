@@ -10,11 +10,11 @@ usercache.json
 usernamecache.json
 config/splash.properties
 mods/OptiFine_1.12.2_*.jar
-config/splash.properties
+
 config/BiomeTweaker/output/
 config/netherex/biomes/
 logs/
-llibrary/debug/
+
 saves/
 config/biomesoplenty/biomes/defaults/
 screenshots/
@@ -82,3 +82,23 @@ config/fantasticlib/reference/potions.txt
 config/fantasticlib/reference/potion_types.txt
 config/fantasticlib/reference/recipes.txt
 config/customloadingscreen_timings.nbt
+
+.idea
+
+### Gradle template
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
