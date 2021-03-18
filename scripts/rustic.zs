@@ -108,7 +108,7 @@ recipes.addShaped("Silver Candle", <rustic:candle_silver>,[
 // recipes.addShapeless("grape_seed_compat", <rustic:grape_stem>, [<harvestcraft:grapeseeditem>]);
 
 // CrushingTub recipes
-CrushingTub.addRecipe(<liquid:honey> * 250, null, <biomesoplenty:hive:3> * 1);
+CrushingTub.addRecipe(<liquid:fluid_honey> * 50, null, <biomesoplenty:hive:3> * 1);
 
 CrushingTub.removeRecipe(<rustic:grapes>);
 CrushingTub.removeRecipe(<rustic:ironberries>);
