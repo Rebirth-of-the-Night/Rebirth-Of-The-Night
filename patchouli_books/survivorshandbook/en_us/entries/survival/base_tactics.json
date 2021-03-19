@@ -2,7 +2,7 @@
   "name": "Early Base Tactics",
   "icon": "minecraft:iron_bars",
   "category": "survival_shelter",
-  "advancement": "triumph:advancements/guidebook/improvingShelter",
+  "advancement": "triumph:advancements/progression/guidebook/improvingShelter",
 
   "pages": [
     {
