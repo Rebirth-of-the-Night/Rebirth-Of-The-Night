@@ -10,7 +10,7 @@ block: {
 loot: [
   {
     item: contenttweaker:material_part:10
-    count: [ 1, 4 ]
+    count: [ 1, 3 ]
     xp: [ 1, 3 ]
     chance: 1
   }
@@ -26,17 +26,17 @@ recipe: {
 }
 gen: [
   {
-    height: [ 0, 120 ]
-    size: 20
-    count: 6
-	chance: 0.4
+    height: [ 90, 120 ]
+    size: 18
+    count: 3
+	chance: 0.25
 	dimensions: [10]
   },
   {
-    height: [ 121, 254 ]
-    size: 28
-    count: 10
-	chance: 0.6
+    height: [ 121, 190 ]
+    size: 36
+    count: 7
+	chance: 0.5
 	dimensions: [10]
   }
 ]
