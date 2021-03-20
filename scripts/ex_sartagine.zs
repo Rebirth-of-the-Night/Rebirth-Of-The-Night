@@ -58,11 +58,14 @@ recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
     [cobble, ckit_temp, cobble]
 ]);
 
+var tempKnives = <harvestcraft:cuttingboarditem>.anyDamage(); // Forget if this can take damage, so just in case
+for knife in <ore:smallKnife>.items { tempKnives |= knife.anyDamage(); }
+
 recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
     <animania:carving_knife:*>.anyDamage(),
     <minecraft:glass_bottle>,
     <minecraft:bowl>,
-    <ore:smallKnife>
+    tempKnives
 ]);
 
 // accepts any veggie for crafting of food book
@@ -142,7 +145,7 @@ Here goes every reworked recipe for every single food item, RIP Foreck.
 */
 
 var cookKitBad = <contenttweaker:cooking_kit>.anyDamage().transformDamage(3);
-var cookKit = <contenttweaker:cooking_kit>;
+var cookKit = <contenttweaker:cooking_kit>.anyDamage();
 var cookKitKettle = <contenttweaker:cooking_kit>.anyDamage().transformDamage();
 
 val redRose = <minecraft:dye:1>;
