@@ -8,16 +8,10 @@ import mods.contenttweaker.Item;
 //Values
 val bronze_color = Color.fromHex("F2E2CD") as Color;
 val bronze = MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(bronze_color).build();
-val coptinPebbles = mods.contenttweaker.VanillaFactory.createItem("copper_tin_pebbles");
-coptinPebbles.register();
 val electrum_color = Color.fromHex("FFFF8C") as Color;
 val electrum = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(electrum_color).build();
 val brass_color = Color.fromHex("DED797") as Color;
 val brass = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(brass_color).build();
-// val sivgoldMixture = mods.contenttweaker.VanillaFactory.createItem("silver_gold_mixture");
-// sivgoldMixture.register();
-// val sivgoldPebbles = mods.contenttweaker.VanillaFactory.createItem("silver_gold_pebbles");
-// sivgoldPebbles.register();
 
 //MISC BRONZE PARTS
 var bronze_data = bronze.registerParts(["ingot","nugget","molten","dust"] as string[])[2].getData();
