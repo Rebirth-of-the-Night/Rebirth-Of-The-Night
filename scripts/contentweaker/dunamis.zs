@@ -36,17 +36,6 @@ val visShard = VanillaFactory.createItem("vis_shard");
 visShard.setCreativeTab(<creativetab:Dunamis>);
 visShard.register();
 
-var lifeblood = VanillaFactory.createFluid("lifeblood", Color.fromHex("1b1e23"));
-lifeblood.density = 1500;
-lifeblood.gaseous = true;
-lifeblood.luminosity = 15;
-lifeblood.temperature = 400;
-lifeblood.viscosity = 800;
-lifeblood.stillLocation = "contenttweaker:fluids/dunamis_still";
-lifeblood.flowingLocation = "contenttweaker:fluids/dunamis_flow";
-lifeblood.colorize= false;
-lifeblood.register();
-
 // Wand bases
 
 val wandMundane = VanillaFactory.createItem("wand_base_mundane");

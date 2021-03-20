@@ -807,12 +807,14 @@ val lava_bricks = <ceramics:clay_hard:5>;
 recipes.removeByRecipeName("ceramics:decoration/lava_bricks/block");
 Casting.addRecipe(lava_bricks*10, <liquid:lava>*1000, <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>*10);
 Casting.addRecipe(lava_bricks*10, <liquid:coade_stone>*(144*10), <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>*10);
-
+Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:mythril>*16, <foundry:mold:7>);
+Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:residual_mythril>*1000, <foundry:mold:7>);
 
 //Missing Block Casting Recipes
 // addBlockRecipe(IItemStack output, ILiquidStack input)
 CastingTable.addBlockRecipe(<simpleores:adamantium_block>, <liquid:viridium>*1296);
 CastingTable.addBlockRecipe(<simpleores:mythril_block>, <liquid:mythril>*1296);
+CastingTable.addBlockRecipe(<simpleores:mythril_block>, <liquid:residual_mythril>*(9000*9));
 CastingTable.addBlockRecipe(<simpleores:onyx_block>, <liquid:onyx_alloy>*1296);
 CastingTable.addBlockRecipe(<contenttweaker:block_electrum>, <liquid:electrum>*1296);
 CastingTable.addBlockRecipe(<betterwithmods:steel_block>, <liquid:soulforged_steel>*(144*16));
@@ -824,6 +826,7 @@ CastingTable.addBlockRecipe(<aether_legacy:ambrosium_block>, <liquid:ambrosium>*
 // addIngotRecipe(IItemStack output, ILiquidStack input)
 CastingTable.addIngotRecipe(<simpleores:adamantium_ingot>, <liquid:viridium>*144);
 CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:mythril>*144);
+CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:residual_mythril>*9000);
 CastingTable.addIngotRecipe(<ore:ingotElectrum>.firstItem, <liquid:electrum>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soulforged_steel>*144);
 CastingTable.addIngotRecipe(<pyrotech:material:16>, <liquid:coade_stone>*144);

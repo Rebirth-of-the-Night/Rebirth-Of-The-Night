@@ -116,6 +116,25 @@ plain_pizza_block.setBlockHardness(1.0);
 plain_pizza_block.setToolClass("shovel");
 plain_pizza_block.register();
 
+//Chicken Pizza
+var chicken_pizza_block = VanillaFactory.createBlock("chicken_pizza_block", <blockmaterial:Cloth>);
+chicken_pizza_block.axisAlignedBB = AxisAlignedBB.create(
+	2.0 / 16.0,
+	0.0 / 16.0,
+	2.0 / 16.0,
+	14.0 / 16.0,
+	1.0 / 16.0,
+	14.0 / 16.0
+);
+chicken_pizza_block.setFullBlock(false);
+chicken_pizza_block.setLightOpacity(0);
+chicken_pizza_block.setBlockLayer("TRANSLUCENT");
+chicken_pizza_block.setCreativeTab(<creativetab:harvestCraft>);
+chicken_pizza_block.setBlockSoundType(<soundtype:cloth>);
+chicken_pizza_block.setBlockHardness(1.0);
+chicken_pizza_block.setToolClass("shovel");
+chicken_pizza_block.register();
+
 //Abyss Pizza
 var abyss_pizza_block = VanillaFactory.createBlock("abyss_pizza_block", <blockmaterial:Cloth>);
 abyss_pizza_block.axisAlignedBB = AxisAlignedBB.create(
