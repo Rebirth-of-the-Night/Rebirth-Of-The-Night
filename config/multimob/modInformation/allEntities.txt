@@ -268,13 +268,13 @@ quark:ashen
 quark:pirate
 quark:crab
 quark:wraith
-quark:seat
 quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
 quark:gravisand
+quark:seat
 betterwithaddons:greatarrow
 betterwithaddons:ya
 betterwithaddons:artifactframe
