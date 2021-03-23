@@ -3,6 +3,7 @@
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import mods.contenttweaker.enchantments.EnchantmentBuilder;
 
+/*
 val finalStand = EnchantmentBuilder.create("curse_finalstand");
 
 finalStand.allowedOnBooks = true;
@@ -28,3 +29,4 @@ finalStand.calcTranslatedName = function(thisEnchantment, level) {
 	return "Curse of the Final Stand";
 };
 finalStand.register();
+*/
