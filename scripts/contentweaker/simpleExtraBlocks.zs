@@ -14,8 +14,8 @@ var dormant_ardicite_onyx = VanillaFactory.createBlock("dormant_ardicite_onyx", 
 dormant_ardicite_onyx.setCreativeTab(<creativetab:buildingBlocks>);
 dormant_ardicite_onyx.setBlockSoundType(<soundtype:stone>);
 dormant_ardicite_onyx.setToolLevel(99);
-dormant_ardicite_onyx.setBlockHardness(999.0);
-dormant_ardicite_onyx.setBlockResistance(999.0);
+dormant_ardicite_onyx.setBlockHardness(9999999999999999.0);
+dormant_ardicite_onyx.setBlockResistance(9999999999999999.0);
 dormant_ardicite_onyx.setBeaconBase(false);
 dormant_ardicite_onyx.register();
 
@@ -24,8 +24,8 @@ var dormant_onyx = VanillaFactory.createBlock("dormant_onyx", <blockmaterial:Roc
 dormant_onyx.setCreativeTab(<creativetab:buildingBlocks>);
 dormant_onyx.setBlockSoundType(<soundtype:stone>);
 dormant_onyx.setToolLevel(99);
-dormant_onyx.setBlockHardness(999.0);
-dormant_onyx.setBlockResistance(999.0);
+dormant_onyx.setBlockHardness(9999999999999999.0);
+dormant_onyx.setBlockResistance(9999999999999999.0);
 dormant_onyx.setBeaconBase(false);
 dormant_onyx.register();
 

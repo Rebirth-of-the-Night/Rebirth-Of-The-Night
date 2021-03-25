@@ -3,7 +3,7 @@
 		"roguelike",
 		"bettercaves",
 		"cavegenerator"
-		]
+		],
 	"populate": {
 		"nether_hellfire_lakes": {
 			"distribution": "uniform",
@@ -15,7 +15,7 @@
 					"weight": 10
 					},
 					{
-					"name": "contenttweaker:dormant_ardicite_onyx",
+					"name": "osv:simpleores_onyx_ore_contenttweaker_starblock",
 					"weight": 1
 					}
 				],

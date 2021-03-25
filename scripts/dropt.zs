@@ -143,6 +143,24 @@ Dropt.list("sun_altar")
       )
   );
 
+Dropt.list("dormant_onyx")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:dormant_onyx"])
+      .addDrop(Dropt.drop()
+          .force() // Disabled, drop nothing
+      )
+  );
+
+Dropt.list("dormant_arcidite_onyx")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:dormant_ardicite_onyx"])
+      .addDrop(Dropt.drop()
+          .force() // Disabled, drop nothing
+      )
+  );
+
 Dropt.list("botanic_glass")
 
   .add(Dropt.rule()
