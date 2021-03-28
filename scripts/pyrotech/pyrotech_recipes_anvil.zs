@@ -102,7 +102,7 @@ GraniteAnvil.addRecipe("refractorylump_chalk", <pyrotech:material:8>*2, <undergr
 GraniteAnvil.addRecipe("refractorylump_quartzite", <pyrotech:material:8>*2, <undergroundbiomes:metamorphic_stone:3>, 8, "pickaxe", true);
 GraniteAnvil.addRecipe("refractorylump_marble", <pyrotech:material:8>*2, <undergroundbiomes:metamorphic_stone:2>, 8, "pickaxe", true);
 GraniteAnvil.addRecipe("refractorylump_dolomite", <pyrotech:material:8>*2, <undergroundbiomes:sedimentary_stone:5>, 8, "pickaxe", true);
-GraniteAnvil.addRecipe("refractorylump_limestpme", <pyrotech:material:8>*3, <undergroundbiomes:sedimentary_stone>, 8, "pickaxe", true);
+GraniteAnvil.addRecipe("refractorylump_limestone", <pyrotech:material:8>*3, <undergroundbiomes:sedimentary_stone:0>, 8, "pickaxe", true);
 GraniteAnvil.addRecipe("blaze_lantern_to_powder", <minecraft:blaze_powder>*3, <quark:blaze_lantern>, 16, "hammer", true);
 GraniteAnvil.addRecipe("dwarven_measures", <minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}), <extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}), 1, "hammer", true);
 GraniteAnvil.addRecipe("glass_shards", <quark:glass_shards:0>*4, <minecraft:glass>, 1, "hammer", true);
