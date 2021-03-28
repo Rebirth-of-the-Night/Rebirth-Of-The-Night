@@ -1259,5 +1259,5 @@ RecipeBuilder.get("mage")
 
 recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecraft:stick>]);
 recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweaker:broken_stick>, <contenttweaker:broken_stick>, <ore:glue> | <ore:slimeball>]);
-recipes.addShapeless("crassula_stem", <contenttweaker:greasy:stem>,[<contenttweaker:perforata>]);
-recipes.addShapeless("crassula_stem_to_stick", <minecraft:stick> * 2,[<contenttweaker:greasy:stem>]);
+recipes.addShapeless("crassula_stem", <contenttweaker:greasy_stem>,[<contenttweaker:perforata>]);
+recipes.addShapeless("crassula_stem_to_stick", <minecraft:stick> * 2,[<contenttweaker:greasy_stem>]);
