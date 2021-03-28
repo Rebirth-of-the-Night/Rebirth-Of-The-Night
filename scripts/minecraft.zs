@@ -1182,6 +1182,19 @@ recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 recipes.addShapeless("lunarin iron", <villagenames:lunarinironbrick>*24,
 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>,<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 );
+recipes.addShapeless("lunarin iron to bricks", <aesthetics:iron_bricks>, 
+    [<villagenames:lunarinironbrick>]
+);
+recipes.addShapedMirrored("iron brick stairs", <aesthetics:iron_brick_stairs> * 8, 
+    [[<aesthetics:iron_bricks>, null, null],
+    [<aesthetics:iron_bricks>, <aesthetics:iron_bricks>, null], 
+    [<aesthetics:iron_bricks>, <aesthetics:iron_bricks>, <aesthetics:iron_bricks>]]
+);
+recipes.addShapedMirrored("iron brick stairs to bricks", <aesthetics:iron_bricks> * 3, 
+    [[<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>, null],
+    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>, null], 
+    [null, null, null]]
+);
 recipes.addShapeless("lunarin bronze", <contenttweaker:lunarinbronzebrick>*24,
  [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
 );
