@@ -1179,41 +1179,40 @@ recipes.remove(<villagenames:lunarinironbrick>);
 recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
 recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 
-recipes.addShapeless("lunarin iron", <villagenames:lunarinironbrick>*24,
+recipes.addShapeless("lunarin_iron", <villagenames:lunarinironbrick>*24,
 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>,<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 );
-recipes.addShapeless("lunarin iron to bricks", <aesthetics:iron_bricks>, 
+recipes.addShapeless("iron_bricks", <aesthetics:iron_bricks>, 
     [<villagenames:lunarinironbrick>]
 );
-recipes.addShapedMirrored("iron brick stairs", <aesthetics:iron_brick_stairs> * 8, 
-    [[<aesthetics:iron_bricks>, null, null],
+recipes.addShapedMirrored("iron_brick_stairs", <aesthetics:iron_brick_stairs>*8, [
+    [<aesthetics:iron_bricks>, null, null],
     [<aesthetics:iron_bricks>, <aesthetics:iron_bricks>, null], 
-    [<aesthetics:iron_bricks>, <aesthetics:iron_bricks>, <aesthetics:iron_bricks>]]
+    [<aesthetics:iron_bricks>, <aesthetics:iron_bricks>, <aesthetics:iron_bricks>]
+]);
+recipes.addShaped("iron_brick_stairs_back", <aesthetics:iron_bricks>*3, [
+    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>],
+    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>]
+]);
+recipes.addShapeless("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*24,
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
 );
-recipes.addShapedMirrored("iron brick stairs to bricks", <aesthetics:iron_bricks> * 3, 
-    [[<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>, null],
-    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>, null], 
-    [null, null, null]]
-);
-recipes.addShapeless("lunarin bronze", <contenttweaker:lunarinbronzebrick>*24,
- [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
-);
-recipes.addShapeless("lunarin silver", <contenttweaker:lunarinsilverbrick>*24,
+recipes.addShapeless("lunarin_silver", <contenttweaker:lunarinsilverbrick>*24,
 	[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]
 );
-recipes.addShapeless("lunarin gold", <villagenames:lunaringoldbrick>*24,
+recipes.addShapeless("lunarin_gold", <villagenames:lunaringoldbrick>*24,
 	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 );
-recipes.addShapeless("lunarin viridium", <contenttweaker:lunarinviridiumbrick>*24,
+recipes.addShapeless("lunarin_viridium", <contenttweaker:lunarinviridiumbrick>*24,
 	[<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>,<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>]
 );
-recipes.addShapeless("lunarin mythril", <contenttweaker:lunarinmythrilbrick>*24,
+recipes.addShapeless("lunarin_mythril", <contenttweaker:lunarinmythrilbrick>*24,
 	[<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>]
 );
-recipes.addShapeless("lunarin endorium", <contenttweaker:lunarinendoriumbrick>*24,
-	[<endreborn:item_ingot_endorium>, <endreborn:item_ingot_endorium>, <endreborn:item_ingot_endorium>, <endreborn:item_ingot_endorium>, <endreborn:item_ingot_endorium>, <endreborn:item_ingot_endorium>]
+recipes.addShapeless("lunarin_endorium", <contenttweaker:lunarinendoriumbrick>*24,
+	[<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>]
 );
-recipes.addShapeless("lunarin steel", <contenttweaker:lunarinsteelbrick>*24,
+recipes.addShapeless("lunarin_steel", <contenttweaker:lunarinsteelbrick>*24,
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 );
 /*recipes.addShapeless("lunarin_SFS", <contenttweaker:lunarinsfsbrick>*24,
