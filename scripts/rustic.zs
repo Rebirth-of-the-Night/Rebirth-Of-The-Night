@@ -128,8 +128,25 @@ furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);
 
 recipes.remove(<rustic:condenser>);
 recipes.remove(<rustic:retort>);
-recipes.addShaped(<rustic:condenser>, [[null, <minecraft:brick>, null],[<minecraft:brick>, <pyrotech:bucket_stone>, <minecraft:brick>], [<minecraft:brick>, <minecraft:stained_hardened_clay>, <minecraft:brick>]]);
-recipes.addShaped(<rustic:retort>, [[null, <minecraft:brick>, null],[<minecraft:iron_ingot>, <minecraft:iron_ingot>, null], [null, <minecraft:brick>, null]]);
+recipes.addShaped(<rustic:condenser>, 
+[[null, <minecraft:brick>, null],
+[<minecraft:brick>, <pyrotech:bucket_stone>, <minecraft:brick>],
+[<minecraft:brick>, <minecraft:stained_hardened_clay>, <minecraft:brick>]]);
+recipes.addShaped(<rustic:retort>, [
+[null, <minecraft:brick>, null],
+[<ore:genericMetal>, <ore:genericMetal>, null],
+[null, <minecraft:brick>, null]]);
+
+recipes.remove(<rustic:condenser_advanced>);
+recipes.remove(<rustic:retort_advanced>);
+recipes.addShaped(<rustic:condenser_advanced>, 
+[[null, <ore:ingotBrickNether>, null],
+[<ore:ingotBrickNether>, <pyrotech:bucket_stone>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <ore:blockSteel>, <ore:ingotBrickNether>]]);
+recipes.addShaped(<rustic:retort_advanced>, [
+[null, <ore:ingotBrickNether>, null],
+[<ore:ingotSteel>, <pyrotech:bucket_stone>, null],
+[null, <ore:ingotBrickNether>, null]]);
 
 
 // fixed unbrewable potion recipes

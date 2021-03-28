@@ -33,6 +33,8 @@ val spider_silk = VanillaFactory.createItem("spider_silk");
 spider_silk.register();
 val crafting_tools = VanillaFactory.createItem("crafting_tools");
 crafting_tools.register();
+val greasy_steam = VanillaFactory.createItem("greasy_steam");
+greasy_steam.register();
 
 val sfs1 = VanillaFactory.createItem("sfs_artifact");
 sfs1.register();

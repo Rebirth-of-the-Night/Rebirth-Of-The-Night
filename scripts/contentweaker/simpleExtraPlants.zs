@@ -44,12 +44,12 @@ cave_rafflesia.register();
 
 var cave_grass = VanillaFactory.createBlock("cave_grass", <blockmaterial:Grass>);
 cave_grass.axisAlignedBB = AxisAlignedBB.create(
-     3.0 / 16.0,
+     4.0 / 16.0,
      0.0 / 16.0,
-     3.0 / 16.0,
-	13.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
     10.0 / 16.0,
-    13.0 / 16.0
+    12.0 / 16.0
 	);
 cave_grass.setBlockHardness(0.0);
 cave_grass.setBlockResistance(2.0);
@@ -63,12 +63,12 @@ cave_grass.register();
 
 var cave_bramble = VanillaFactory.createBlock("cave_bramble", <blockmaterial:Grass>);
 cave_bramble.axisAlignedBB = AxisAlignedBB.create(
-     4.0 / 16.0,
+     5.0 / 16.0,
      0.0 / 16.0,
-     4.0 / 16.0,
-	12.0 / 16.0,
-    3.0 / 16.0,
-    12.0 / 16.0
+     5.0 / 16.0,
+	11.0 / 16.0,
+    2.0 / 16.0,
+    11.0 / 16.0
 	);
 cave_bramble.setBlockHardness(0.0);
 cave_bramble.setBlockResistance(2.0);
@@ -80,14 +80,14 @@ cave_bramble.setBlockLayer("CUTOUT");
 cave_bramble.setBlockSoundType(<soundtype:plant>);
 cave_bramble.register();
 
-var perforata = VanillaFactory.createBlock("perforata", <blockmaterial:Vine>);
+var perforata = VanillaFactory.createBlock("perforata", <blockmaterial:Plants>);
 perforata.axisAlignedBB = AxisAlignedBB.create(
-     3.0 / 16.0,
+     5.0 / 16.0,
      0.0 / 16.0,
-     3.0 / 16.0,
-	13.0 / 16.0,
+     5.0 / 16.0,
+	11.0 / 16.0,
     16.0 / 16.0,
-    13.0 / 16.0
+    11.0 / 16.0
 	);
 perforata.setBlockHardness(0.0);
 perforata.setBlockResistance(2.0);

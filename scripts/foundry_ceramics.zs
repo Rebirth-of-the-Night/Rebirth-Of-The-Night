@@ -805,8 +805,8 @@ Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_stee
 // MISC //
 val lava_bricks = <ceramics:clay_hard:5>;
 recipes.removeByRecipeName("ceramics:decoration/lava_bricks/block");
-Casting.addRecipe(lava_bricks*10, <liquid:lava>*1000, <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>*10);
-Casting.addRecipe(lava_bricks*10, <liquid:coade_stone>*(144*10), <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>*10);
+Casting.addRecipe(lava_bricks*1, <liquid:lava>*100, <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>);
+Casting.addRecipe(lava_bricks*1, <liquid:coade_stone>*144, <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>);
 Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:mythril>*16, <foundry:mold:7>);
 Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:residual_mythril>*1000, <foundry:mold:7>);
 
