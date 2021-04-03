@@ -200,7 +200,6 @@ wards:effect_luck_of_the_sea
 wards:effect_lure
 wards:effect_mending
 wards:effect_vanishing_curse
-wards:effect_curse_finalstand
 wards:effect_ducttaped
 wards:effect_sonicboom
 wards:effect_clustered
