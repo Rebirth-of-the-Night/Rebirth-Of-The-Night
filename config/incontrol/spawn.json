@@ -511,13 +511,6 @@
     "result": "deny"
  },
 
-// Remove Toros from spawning
- {
-    "mob": "toroquest:toroquest_toro",
-    "onjoin": true,
-    "result": "deny"
- },
-
 // Saltwater Eel
    {
     "dimension": 0,
