@@ -219,7 +219,6 @@ mindQuintessenceB.add(
     <minecraft:written_book>,
     <aether_legacy:lore_book>,
     <animania:animania_manual>,
-    <arcanearchives:tome_arcana>,
     <betterwithmods:manual>,
     <patchouli:guide_book>,
     <dungeontactics:dungeonpedia_volume_8>,
@@ -417,7 +416,6 @@ knowledgeQuintessenceB.add(
     <twilightforest:ore_map_empty>,
     <defiledlands:book_wyrm_analyzer>,
     <rustic:book>,
-    <arcanearchives:tome_arcana>,
     <betterwithmods:manual>,
     <contenttweaker:slayers_tattered_journal>
 );
