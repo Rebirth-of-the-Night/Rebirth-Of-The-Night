@@ -1,17 +1,19 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
+import mods.jei.JEI;
+import mods.ltt.LootTable;
 
 
-//mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 99 as short}]})");
+// LootTable.removeGlobalItem("minecraft:enchanted_book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 99 as short}]})");
 recipes.remove(<msmlegacy:adminium_ark>);
 
 
-mods.jei.JEI.removeAndHide(<msmlegacy:relic_infinity>);
-mods.jei.JEI.removeAndHide(<msmlegacy:relic_keyblade>);
-mods.jei.JEI.removeAndHide(<msmlegacy:relic_master>);
-mods.jei.JEI.removeAndHide(<msmlegacy:relic_molten>);
-mods.jei.JEI.removeAndHide(<msmlegacy:relic_pie>);
+JEI.removeAndHide(<msmlegacy:relic_infinity>);
+JEI.removeAndHide(<msmlegacy:relic_keyblade>);
+JEI.removeAndHide(<msmlegacy:relic_master>);
+JEI.removeAndHide(<msmlegacy:relic_molten>);
+JEI.removeAndHide(<msmlegacy:relic_pie>);
 
 /////////////////////        Vampire Blade        /////////////////////
 
@@ -50,26 +52,26 @@ recipes.addShaped("Draconic Blade", <pyrotech:redstone_sword>.withTag({}),[
 
 
 /////////////////////        Heaven's Halberd        /////////////////////
-mods.jei.JEI.removeAndHide(<spartanweaponry:dagger_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:longsword_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:katana_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:saber_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:rapier_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:greatsword_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:hammer_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:spear_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:pike_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:lance_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:longbow_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:javelin_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:boomerang_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:mace_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:glaive_invar>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:staff_invar>);
+JEI.removeAndHide(<spartanweaponry:dagger_invar>);
+JEI.removeAndHide(<spartanweaponry:longsword_invar>);
+JEI.removeAndHide(<spartanweaponry:katana_invar>);
+JEI.removeAndHide(<spartanweaponry:saber_invar>);
+JEI.removeAndHide(<spartanweaponry:rapier_invar>);
+JEI.removeAndHide(<spartanweaponry:greatsword_invar>);
+JEI.removeAndHide(<spartanweaponry:hammer_invar>);
+JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
+JEI.removeAndHide(<spartanweaponry:spear_invar>);
+JEI.removeAndHide(<spartanweaponry:pike_invar>);
+JEI.removeAndHide(<spartanweaponry:lance_invar>);
+JEI.removeAndHide(<spartanweaponry:longbow_invar>);
+JEI.removeAndHide(<spartanweaponry:throwing_knife_invar>);
+JEI.removeAndHide(<spartanweaponry:throwing_axe_invar>);
+JEI.removeAndHide(<spartanweaponry:javelin_invar>);
+JEI.removeAndHide(<spartanweaponry:boomerang_invar>);
+JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
+JEI.removeAndHide(<spartanweaponry:mace_invar>);
+JEI.removeAndHide(<spartanweaponry:glaive_invar>);
+JEI.removeAndHide(<spartanweaponry:staff_invar>);
 
 
 

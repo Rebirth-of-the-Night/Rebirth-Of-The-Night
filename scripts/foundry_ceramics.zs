@@ -510,7 +510,7 @@ MoldStation.addRecipe(<foundry:mold:21>, 6, 6, [
 
 // Casted IItemStacks //Casting.addRecipe(IItemStack output, ILiquidStack input, IItemStack mold, @Optional IIngredient extra, @Optional int speed)
 // casting weapons is -2 nugget per ingot cheaper than crafting them in a crafting table / steel anvil
-// casting doesn't accept oredict entries for optional ingredient
+// casting doesnt accept oredict entries for optional ingredient
 
 // HELMET //
 Casting.removeRecipe(<liquid:iron>*720, <foundry:mold:14>);
