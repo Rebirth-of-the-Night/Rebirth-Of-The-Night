@@ -84,6 +84,8 @@ config/fantasticlib/reference/recipes.txt
 config/customloadingscreen_timings.nbt
 
 .idea
+.project
+.settings
 
 ### Gradle template
 .gradle
