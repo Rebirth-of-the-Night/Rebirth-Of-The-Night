@@ -5,8 +5,8 @@ setDescription("Mine onyx ore")
 addParent("triumph:advancements/progression/wither/killedwither")
 
 
-criteria = addCriteria("Onyx Ore", "triumph:player_harvest_block")
-criteria.setBlock(<ore:oreOnyx>)
+criteria = addCriteria("Onyx Gem", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_gem")
 
 alwaysVisible()
 drawDirectLines()
