@@ -1,5 +1,4 @@
 {
-  $VANILLA: "ALL" # Default ravines and lava settings.
   biomes: {
     names: [
       minecraft:forest

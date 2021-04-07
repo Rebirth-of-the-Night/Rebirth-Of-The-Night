@@ -7,7 +7,6 @@
 # of ravines, while disabling other cave-related features.    #
 # ----------------------------------------------------------- #
 {
-  $VANILLA: "ALL" # Default ravines and lava settings.
   biomes: {
     types: [
       JUNGLE
