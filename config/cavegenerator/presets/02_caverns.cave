@@ -42,4 +42,10 @@
       factor: 0.5
     }
   }
+  caveBlocks: {
+    states: lava
+    maxHeight: 10
+  }
+  # Whether the preset is enabled globally.
+  enabled: true
 }

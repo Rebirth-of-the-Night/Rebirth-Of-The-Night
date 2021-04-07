@@ -1,6 +1,5 @@
 # temperate forest-like biomes like what can be found in national parks in the US
 {
-  $VANILLA: "ALL" # Default ravines and lava settings.
   biomes: {
     names: [
       biomesoplenty:grassland
