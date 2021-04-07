@@ -1,4 +1,6 @@
 {
+  imports: common_values.cave::NATURAL_STONE
+  replaceableBlocks: $NATURAL_STONE
   replaceDecorators: true
   caverns: {
     enabled: true
