@@ -48,7 +48,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.betterwithmods.Saw.remove(item);
     mods.betterwithmods.Saw.remove([item]);
     mods.betterwithmods.Turntable.remove(item);
-    mods.betterwithmods.Turntable.remove([item]);
 
     // FutureMC
     mods.futuremc.BlastFurnace.removeRecipe(item);
@@ -117,7 +116,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.pyrotech.MechanicalCompactor.removeRecipes(item);
     mods.pyrotech.PitKiln.removeRecipes(item);
     mods.pyrotech.SoakingPot.removeRecipes(item);
-    mods.pyrotech.StoneCrucible.removeRecipes(item);
     mods.pyrotech.StoneKiln.removeRecipes(item);
     mods.pyrotech.StoneOven.removeRecipes(item);
     mods.pyrotech.StoneSawmill.removeRecipes(item);
