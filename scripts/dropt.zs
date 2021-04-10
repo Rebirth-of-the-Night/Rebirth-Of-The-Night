@@ -194,15 +194,20 @@ Dropt.list("wither_skull")
 Dropt.list("bed")
   .add(Dropt.rule()
       .matchBlocks(["minecraft:bed:*"])
+      .matchDrops(["ore:bed"])
+      .replaceStrategy("REPLACE_ITEMS_IF_SELECTED")
       .addDrop(Dropt.drop()
-        .force()
-        .items([<minecraft:planks:0>], Dropt.range(2)) // always drop a couple planks
+        .selector(Dropt.weight(1), "EXCLUDED")
+        .items([<minecraft:planks:0>], Dropt.range(2)) // drop a couple planks without silk touch always
+      )
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:bed:*"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+        .selector(Dropt.weight(50), "EXCLUDED") // drop nothing else 50% of time  
       )
       .addDrop(Dropt.drop()
-        .selector(Dropt.weight(50)) // drop nothing else 50% of time  
-      )
-      .addDrop(Dropt.drop()
-        .selector(Dropt.weight(50))
+        .selector(Dropt.weight(50), "EXCLUDED")
         .items([<minecraft:wool:0>], Dropt.range(2)) // drop 2 wool 50% of the time
       )
   );
