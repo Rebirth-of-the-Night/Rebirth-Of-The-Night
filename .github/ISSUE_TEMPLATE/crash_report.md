@@ -21,6 +21,7 @@ Steps to reproduce the behavior:
 <!-- Click "Get Link" from the crash and paste it here. Or post the log if it's a server. -->
 
 **Info (please complete the following information):**
+<!-- Replace the space between the [ ] with an x for the information below (i.e., [x]) -->
  - Modpack Version:
    - [ ] 2.77.5
    - [ ] 3.0 BETA 4
