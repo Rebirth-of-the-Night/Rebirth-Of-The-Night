@@ -1,0 +1,231 @@
+{
+  "skel": {
+    "id": "minecraft:skeleton"
+  },
+  "zed": {
+    "id": "minecraft:zombie",
+    "nbt": {
+      "CustomName": "zed",
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "OffscreenTeleport": { }
+          }
+        }
+      }
+    }
+  },
+  "zed.loot": {
+    "id": "minecraft:zombie",
+    "nbt": {
+      "ArmorItems": [
+        { },
+        { },
+        { },
+        { "Count": 1, "id": "rustic:barrel" }
+      ],
+      "CustomName": "Loot zed"
+    }
+  },
+  "zed.miner": {
+    "id": "minecraft:zombie",
+    "nbt": {
+      "CustomName": "undead miner",
+      "HandItems": [
+        { "Count": 1, "id": "minecraft:stone_pickaxe" },
+        { "Count": 1, "id": "minecraft:torch" }
+      ],
+      "ArmorItems": [
+        { },
+        { "Count": 1, "id": "minecraft:leather_leggings" },
+        { },
+        { "Count": 1, "id": "minecraft:leather_helmet", "tag": { "display": { "color": 16776960 } } }
+      ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 4,
+              "SpeedModifier": 1.5
+            }
+          }
+        }
+      }
+    }
+  },
+  "zed.bomber": {
+    "id": "minecraft:zombie",
+    "nbt": {
+      "CustomName": "violent death",
+      "HandItems": [
+        { "Count": 1, "id": "minecraft:tnt" }
+      ],
+      "ArmorItems": [
+        { },
+        { },
+        { },
+        { "Count": 1, "id": "harvestcraft:candledeco15" }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.2 },
+            "ExplodeWhenStuck": { }
+          }
+        }
+      }
+    }
+  },
+  "zed.stalker": {
+    "id": "minecraft:zombie",
+    "nbt": {
+      "CustomName": "zed stalker",
+      "ArmorItems": [
+        { "Count": 1, "id": "minecraft:leather_boots", "tag": { "display": { "color": 0 } } },
+        { "Count": 1, "id": "minecraft:leather_leggings", "tag": { "display": { "color": 0 } } }
+      ],
+      "ArmorDropChances": [ 0.1, 0.05, 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "OffscreenTeleport": {
+              "TeleportDistance": 16,
+              "TeleportFactor": 1.5,
+              "DimensionHopping": true
+            }
+          },
+          "Lunge": { }
+        }
+      }
+    }
+  },
+  "zed.boss.huntsman": {
+    "id": "minecraft:husk",
+    "effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 4800,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 500,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
+    "nbt": {
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 100 },
+        { "Name": "generic.movementSpeed", "Base": 0.45 }
+      ],
+      "Health": 100,
+      "CustomName": "\u00A74The Huntsman",
+      "CustomNameVisible": 1,
+      "HandItems": [
+        { "Count": 1, "id": "simpleores:copper_axe" },
+        { "Count": 1, "id": "minecraft:skull", "tag": { "Damage": 3 } }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorItems": [
+        { "Count": 1, "id": "minecraft:leather_boots" },
+        { "Count": 1, "id": "minecraft:leather_leggings" },
+        { "Count": 1, "id": "dungeontactics:studded_chestplate" },
+        { "Count": 1, "id": "atop:mud_helmet" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "OffscreenTeleport": { },
+            "CounterAttack": { "Chance": 0.2 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 }
+          }
+        }
+      }
+    }
+  },
+  "zed.boss.wasman": {
+    "id": "minecraft:zombie_villager",
+    "effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 4800,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 500,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
+    "nbt": {
+      "ArmorItems": [
+        { "Count": 1, "id": "atop:mud_boots" }
+      ],
+      "Attributes": [ { "Name": "generic.maxHealth", "Base": 100 } ],
+      "Health": 100,
+      "CustomName": "\u00A74The Was Man",
+      "CustomNameVisible": 1,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "OffscreenTeleport": { },
+            "CounterAttack": { "Chance": 0.3 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
+            "Mining": { "Range": 4, "SpeedModifier": 2 }
+          }
+        }
+      }
+    }
+  },
+  "zed.boss.cook": {
+    "id": "minecraft:zombie",
+    "effects": [
+      {
+        "id": "wards:effect_knockback",
+        "duration": 4800,
+        "amplifier": 1,
+        "showParticles": true
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 500,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
+    "nbt": {
+      "HandItems": [
+        { },
+        {
+          "Count": 1, "id": "harvestcraft:saucepanitem"
+        }
+      ],
+      "HandDropChances": [ 1.0, 1.0 ],
+      "ArmorItems": [
+        { },
+        { },
+        { },
+        { "Count": 1, "id": "rats:chef_toque" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+      "Attributes": [ { "Name": "generic.maxHealth", "Base": 100 } ],
+      "Health": 100,
+      "CustomName": "\u00A74The Cook",
+      "CustomNameVisible": 127,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.1 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.5 }
+          }
+        }
+      }
+    }
+  }
+}
