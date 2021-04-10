@@ -10,6 +10,10 @@ Join the community on the [Official RotN Discord](https://discord.gg/rotn). Disc
 
 If you wish to support Rebirth of the Night, consider donating to the [Rebirth of the Night Patreon](https://www.patreon.com/rebirthofthenight).
 
+## Website
+
+[Official website for Rebirth of the Night](https://rebirthofthenight.com/), which includes the modpack, standalone Unity game, and merchandise.
+
 ## Installation
 
 Client and server files are available through [CurseForge](https://www.curseforge.com/). See the [RotN Modpack on CurseForge](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night) for all options.
@@ -32,7 +36,7 @@ As of Version 3, OptiFine and the Soundtrack are automatically included and **do
 
 ## Development Resources and Links
 
-[Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329)
+[Conceptual Locations Map](https://rebirthofthenight.com/map/)
 
 [Development Board](https://trello.com/b/PZyYdW4A/rebirth-of-the-night)
 
