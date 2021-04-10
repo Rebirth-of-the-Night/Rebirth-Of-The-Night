@@ -17,11 +17,11 @@
       }
     },
     "messages": {
-      "start": "A horde of undead appear!",
-      "end": "The horde has been stopped . . . for now",
+      "start": "§cA horde of undead appear!",
+      "end": "§aThe horde has been stopped . . . for now",
       "warn": {
         "ticks": 12000,
-        "message": "The faint smell of flesh hangs in the air..."
+        "message": "§eThe faint smell of flesh hangs in the air..."
       }
     },
     "waves": [
