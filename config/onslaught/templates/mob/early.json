@@ -126,7 +126,7 @@
       "CustomNameVisible": 1,
       "HandItems": [
         { "Count": 1, "id": "simpleores:copper_axe" },
-        { "Count": 1, "id": "minecraft:player_head" }
+        { "Count": 1, "id": "minecraft:skull", "tag": { "Damage": 3 } }
       ],
       "HandDropChances": [ 0.0, 0.0 ],
       "ArmorItems": [
