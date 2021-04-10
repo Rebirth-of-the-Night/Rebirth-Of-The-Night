@@ -24,6 +24,7 @@ Steps to reproduce the behavior:
 <!-- If applicable, add screenshots to help explain your problem. -->
 
 **Info (please complete the following information):**
+<!-- Replace the space between the [ ] with an x for the information below (i.e., [x]) -->
  - Modpack Version:
    - [ ] 2.77.5
    - [ ] 3.0 BETA 4
