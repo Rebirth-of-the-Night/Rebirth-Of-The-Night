@@ -1,6 +1,6 @@
 # Rebirth of the Night
 
-A modpack aimed to bring the survival back in Minecraft and improve many other aspects.
+Inspired by Terraria, 7 Days to Die, and more, Rebirth of the Night is a Minecraft 1.12.2 modpack with its own progression system, lore, mechanics, and art. It's built with the idea of remembering the central themes of what made Minecraft enjoyable and expanding them in every way, increasing the overall risk and reward as you progress.
 
 Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, bravery is vital... and arrogance is lethal.
 
