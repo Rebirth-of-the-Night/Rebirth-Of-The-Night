@@ -1,0 +1,51 @@
+{
+  "test": {
+    "commands": {
+      "start": [
+        "/weather rain"
+      ],
+      "end": [
+        "/weather clear"
+      ]
+    },
+    "name": "A test",
+    "selector": {
+      "weight": 0,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "messages": {
+      "start": "A test!",
+      "end": "Test ended",
+      "warn": {
+        "ticks": 12000,
+        "message": "We begin"
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "boar.sick",
+                "count": [ 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
