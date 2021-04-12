@@ -21,6 +21,8 @@ for arcaneWood in <ore:arcaneWood>.items {
    ]);   
 }
 
+<arcanearchives:monitoring_crystal>.addTooltip(format.gold("Right-click on any chest to convert it to a Radiant Chest"));
+
 //Gemcutter's Table
 val magicgoldPaneOredict = <ore:otherworldlyGoldPane>;	
 magicgoldPaneOredict.addItems([<betternether:quartz_glass_framed_pane>,<aether_legacy:quicksoil_glass_pane>]);	
