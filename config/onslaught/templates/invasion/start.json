@@ -20,11 +20,11 @@
     },
     "name": "The Beasts",
     "messages": {
-      "start": "Creatures from the woods stampede",
-      "end": "The horde has been stopped . . . for now",
+      "start": "\u00A7cCreatures from the woods stampede",
+      "end": "\u00A7aThe horde has been stopped . . . for now",
       "warn": {
         "ticks": 12000,
-        "message": "The air is still . . . something is wrong"
+        "message": "\u00A7eThe air is still . . . something is wrong"
       }
     },
     "waves": [
@@ -97,7 +97,7 @@
             "mobs": [
               {
                 "id": "zed",
-                "count": [ 4, 8 ]
+                "count": [ 2, 3 ]
               },
               {
                 "id": "zed.miner",
@@ -109,7 +109,7 @@
             "mobs": [
               {
                 "id": "skel",
-                "count": [ 3, 6 ]
+                "count": [ 1, 3 ]
               },
               {
                 "id": "zed.miner",

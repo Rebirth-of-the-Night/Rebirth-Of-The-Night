@@ -20,11 +20,11 @@
     },
     "name": "Deadly Horde",
     "messages": {
-      "start": "§cA horde of undead appear!",
-      "end": "§aThe horde has been stopped . . . for now",
+      "start": "\u00A7cA horde of undead appear!",
+      "end": "\u00A7aThe horde has been stopped . . . for now",
       "warn": {
         "ticks": 12000,
-        "message": "§eThe faint smell of flesh hangs in the air..."
+        "message": "\u00A7eThe faint smell of flesh hangs in the air..."
       }
     },
     "waves": [
