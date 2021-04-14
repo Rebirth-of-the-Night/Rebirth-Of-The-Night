@@ -1,12 +1,28 @@
 {
   "skel": {
     "id": "minecraft:skeleton",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Skeleton"
     }
   },
   "skel.boss.slimed": {
     "id": "primitivemobs:skeleton_warrior",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A74Dissolved Bandit",
       "Attributes": [
@@ -43,6 +59,14 @@
   },
   "zed": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Zombie",
       "ForgeData": {
@@ -56,6 +80,14 @@
   },
   "zed.farmer": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Farmer",
       "HandItems": [
@@ -78,6 +110,14 @@
   },
   "zed.loot": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "ArmorItems": [
         { },
@@ -90,6 +130,14 @@
   },
   "zed.miner": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Miner",
       "HandItems": [
@@ -116,6 +164,14 @@
   },
   "zed.bomber": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Bomber",
       "HandItems": [
@@ -140,6 +196,14 @@
   },
   "zed.stalker": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Stalker",
       "ArmorItems": [
@@ -172,7 +236,7 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 500,
+        "duration": 50000,
         "amplifier": 0,
         "showParticles": true
       }
@@ -219,7 +283,7 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 500,
+        "duration": 50000,
         "amplifier": 0,
         "showParticles": true
       }
@@ -255,7 +319,7 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 500,
+        "duration": 50000,
         "amplifier": 0,
         "showParticles": true
       }
@@ -291,6 +355,14 @@
   },
   "zed.boss.unweller": {
     "id": "specialmobs:fishingzombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A74The Unwellerman",
       "Attributes": [

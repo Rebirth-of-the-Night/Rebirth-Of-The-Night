@@ -13,6 +13,12 @@
         "duration": 9999,
         "amplifier": 0,
         "showParticles": true
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
       }
     ],
     "nbt": {
@@ -36,6 +42,14 @@
   },
   "worm": {
     "id": "mod_lavacow:parasite",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Invading Parasite",
       "Attributes": [
@@ -58,6 +72,12 @@
         "id": "minecraft:slowness",
         "duration": 9999,
         "amplifier": 1,
+        "showParticles": true
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
         "showParticles": true
       }
     ],
@@ -89,6 +109,12 @@
         "duration": 9999,
         "amplifier": 1,
         "showParticles": true
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
       }
     ],
     "nbt": {
@@ -118,6 +144,12 @@
         "id": "minecraft:slowness",
         "duration": 9999,
         "amplifier": 1,
+        "showParticles": true
+      },
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
         "showParticles": true
       }
     ],

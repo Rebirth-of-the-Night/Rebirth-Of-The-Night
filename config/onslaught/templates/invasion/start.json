@@ -20,16 +20,16 @@
     },
     "name": "The Beasts",
     "messages": {
-      "start": "\u00A7cCreatures from the woods stampede",
-      "end": "\u00A7aThe horde has been stopped . . . for now",
+      "start": "\u00A7cA pack of sickly creatures are stampeding!",
+      "end": "\u00A7aThe horde has been stopped... for now",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eThe air is still . . . something is wrong"
+        "message": "\u00A7eA pack of wild animals make disturbing noises in the distance..."
       }
     },
     "waves": [
       {
-        "delayTicks": [ 100 ],
+        "delayTicks": [ 300 ],
         "groups": [
           {
             "mobs": [
