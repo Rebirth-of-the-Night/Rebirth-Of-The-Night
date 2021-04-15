@@ -31,7 +31,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.betterwithaddons.FireNet.remove(item);
     mods.betterwithaddons.SandNet.remove(item);
     mods.betterwithaddons.Spindle.remove(item);
-    mods.betterwithaddons.LureTree.remove(item);
     mods.betterwithaddons.Packing.remove(item);
     mods.betterwithaddons.Infuser.remove(item);
     mods.betterwithaddons.Infuser.removeTransmutation(item);

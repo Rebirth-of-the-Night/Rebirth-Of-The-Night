@@ -698,7 +698,11 @@ animania:kidhurt1
 animania:kidhurt2
 animania:hitch
 animania:unhitch
-betternether:bn_fly
+betternether:mob.firefly.fly
+betternether:mob.firefly.hurt_one
+betternether:mob.firefly.hurt_two
+betternether:mob.firefly.death
+betternether:mob.firefly.sitambient
 epicsiegemod:cena_creeper.start
 epicsiegemod:cena_creeper.end
 randomthings:time
