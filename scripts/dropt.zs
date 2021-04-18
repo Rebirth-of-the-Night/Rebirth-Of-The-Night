@@ -480,7 +480,7 @@ Dropt.list("cave_grass")
 
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:cave_grass"])
-      .replaceStrategy("REPLACE_ITEMS")
+      .replaceStrategy("REPLACE_ALL")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
       )

@@ -448,6 +448,8 @@ for raw, cooked in smokerRecipes {
 	Smoker.addRecipe(raw, cooked);
 }
 
+Smoker.removeRecipe(<minecraft:apple>);
+
 
 /*********************************************************************************
 

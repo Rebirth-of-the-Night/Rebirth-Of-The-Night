@@ -1,0 +1,186 @@
+{
+  "beasts": {
+    "selector": {
+      "gamestages": {
+        "not": "slayersjournal"
+      },
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather rain"
+      ],
+      "end": [
+        "/weather clear"
+      ]
+    },
+    "name": "The Beasts",
+    "messages": {
+      "start": "\u00A7cA pack of sickly creatures are stampeding!",
+      "end": "\u00A7aThe horde has been stopped... for now",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eA pack of wild animals make disturbing noises in the distance..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "boar.sick",
+                "count": [ 3, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "boar.sick",
+                "count": [ 3, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "wolf.sick",
+                "count": [ 3, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              },
+              {
+                "id": "zed",
+                "count": [ 1, 3 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 2, 3 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "skel",
+                "count": [ 1, 3 ]
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 1, 2 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "bear.boss.sick",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [ 0, 15 ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "zed.boss.unweller",
+                "count": [ 1 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "skel.boss.slimed",
+                "count": [ 1 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 2, 4 ]
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 1, 2 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "bug.locust",
+                "count": [ 8, 14 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

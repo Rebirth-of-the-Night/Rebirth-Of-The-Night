@@ -31,7 +31,7 @@ recipes.remove(<pyrotech:wood_tar_block>);
 recipes.remove(<pyrotech:living_tar>);
 recipes.remove(<pyrotech:mushroom_brown_roasted>);
 recipes.remove(<pyrotech:mushroom_red_roasted>);
-recipes.remove(<pyrotech:apple_baked>);
+/* JEI.removeAndHide(<pyrotech:apple_baked>); */
 recipes.remove(<pyrotech:burned_food>);
 recipes.remove(<pyrotech:iron_hammer>);
 recipes.remove(<pyrotech:shelf_stone>);
@@ -86,7 +86,7 @@ JEI.hideCategory("pyrotech.chopping");
 JEI.hideCategory("pyrotech.stone.mill");
 furnace.remove(<pyrotech:mushroom_red_roasted>);
 furnace.remove(<pyrotech:mushroom_brown_roasted>);
-furnace.remove(<pyrotech:apple_baked>);
+/* furnace.remove(<pyrotech:apple_baked>); */
 furnace.remove(<pyrotech:carrot_roasted>);
 furnace.remove(<pyrotech:egg_roasted>);
 furnace.remove(<pyrotech:material:24>);
@@ -95,6 +95,8 @@ furnace.remove(<pyrotech:cobblestone:1>);
 furnace.remove(<pyrotech:cobblestone:0>);
 furnace.remove(<pyrotech:beetroot_roasted>);
 furnace.remove(<pyrotech:material:15>);
+
+// disableItem(<pyrotech:apple_baked>);
 
 //Simplified recipes
 val stone = <ore:stone>;

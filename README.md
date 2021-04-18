@@ -1,6 +1,6 @@
 # Rebirth of the Night
 
-A modpack aimed to bring the survival back in Minecraft and improve many other aspects.
+Inspired by Terraria, 7 Days to Die, and more, Rebirth of the Night is a Minecraft 1.12.2 modpack with its own progression system, lore, mechanics, and art. It's built with the idea of remembering the central themes of what made Minecraft enjoyable and expanding them in every way, increasing the overall risk and reward as you progress.
 
 Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, bravery is vital... and arrogance is lethal.
 
@@ -9,6 +9,10 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 Join the community on the [Official RotN Discord](https://discord.gg/rotn). Discuss base ideas, pitch suggestions and lore, and keep tabs on recent events and developments.
 
 If you wish to support Rebirth of the Night, consider donating to the [Rebirth of the Night Patreon](https://www.patreon.com/rebirthofthenight).
+
+## Website
+
+[Official website for Rebirth of the Night](https://rebirthofthenight.com/), which includes the modpack, standalone Unity game, and merchandise.
 
 ## Installation
 
@@ -32,7 +36,7 @@ As of Version 3, OptiFine and the Soundtrack are automatically included and **do
 
 ## Development Resources and Links
 
-[Conceptual Locations Map](https://easyzoom.com/image/204042/album/3329)
+[Conceptual Locations Map](https://rebirthofthenight.com/map/)
 
 [Development Board](https://trello.com/b/PZyYdW4A/rebirth-of-the-night)
 

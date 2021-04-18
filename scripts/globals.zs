@@ -1,4 +1,5 @@
 #priority 1000
+#nowarn
 
 import crafttweaker.item.IItemStack;
 
@@ -31,7 +32,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.betterwithaddons.FireNet.remove(item);
     mods.betterwithaddons.SandNet.remove(item);
     mods.betterwithaddons.Spindle.remove(item);
-    mods.betterwithaddons.LureTree.remove(item);
     mods.betterwithaddons.Packing.remove(item);
     mods.betterwithaddons.Infuser.remove(item);
     mods.betterwithaddons.Infuser.removeTransmutation(item);
@@ -48,7 +48,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.betterwithmods.Saw.remove(item);
     mods.betterwithmods.Saw.remove([item]);
     mods.betterwithmods.Turntable.remove(item);
-    mods.betterwithmods.Turntable.remove([item]);
 
     // FutureMC
     mods.futuremc.BlastFurnace.removeRecipe(item);
@@ -65,17 +64,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.harvestcrafttweaker.HarvestCraftTweaker.removeWaterTrapByInput(item);
     mods.harvestcrafttweaker.HarvestCraftTweaker.removeMarketByOutput(item);
     mods.harvestcrafttweaker.HarvestCraftTweaker.removeShippingByOutput(item);
-
-    // Inspirations
-    mods.inspirations.Cauldron.removeFluidRecipe(item);
-    mods.inspirations.Cauldron.removeFluidRecipe(<*>, item);
-    mods.inspirations.Cauldron.removeFluidTransform(<*>, item);
-    mods.inspirations.Cauldron.removeFillRecipe(item);
-    mods.inspirations.Cauldron.removeBrewingRecipe(null, null, item);
-    mods.inspirations.Cauldron.removePotionRecipe(item, null, null);
-    mods.inspirations.Cauldron.removePotionRecipe(null, item, null);
-    mods.inspirations.Cauldron.removeDyeRecipe(item, <*>);
-    mods.inspirations.Cauldron.removeDyeRecipe(<*>, item);
 
     // Enchanting and Magicky Stuff
     mods.aether_legacy.Enchanter.removeEnchantment(item);
@@ -98,6 +86,17 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.iceandfire.recipes.removeFireDragonForgeRecipe(item);
     mods.iceandfire.recipes.removeIceDragonForgeRecipe(item);
 
+    // Inspirations
+    mods.inspirations.Cauldron.removeFluidRecipe(item);
+    mods.inspirations.Cauldron.removeFluidRecipe(<*>, item);
+    mods.inspirations.Cauldron.removeFluidTransform(<*>, item);
+    mods.inspirations.Cauldron.removeFillRecipe(item);
+    mods.inspirations.Cauldron.removeBrewingRecipe(null, null, item);
+    mods.inspirations.Cauldron.removePotionRecipe(item, null, null);
+    mods.inspirations.Cauldron.removePotionRecipe(<*>, item, null);
+    mods.inspirations.Cauldron.removeDyeRecipe(item, <*>);
+    mods.inspirations.Cauldron.removeDyeRecipe(<*>, item);
+
     // Pyrotech
     mods.pyrotech.Bloomery.removeBloomeryRecipes(item);
     mods.pyrotech.Bloomery.removeWitherForgeRecipes(item);
@@ -117,7 +116,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.pyrotech.MechanicalCompactor.removeRecipes(item);
     mods.pyrotech.PitKiln.removeRecipes(item);
     mods.pyrotech.SoakingPot.removeRecipes(item);
-    mods.pyrotech.StoneCrucible.removeRecipes(item);
     mods.pyrotech.StoneKiln.removeRecipes(item);
     mods.pyrotech.StoneOven.removeRecipes(item);
     mods.pyrotech.StoneSawmill.removeRecipes(item);

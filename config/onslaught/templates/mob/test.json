@@ -1,0 +1,32 @@
+{
+  "zed.head": {
+    "id": "minecraft:vex",
+    "effects": [
+      {
+        "id": "minecraft:glowing",
+        "duration": 4800,
+        "amplifier": 0,
+        "showParticles": true
+      },
+      {
+        "id": "minecraft:invisibility",
+        "duration": 9999,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Lost soul",
+      "ArmorItems": [
+        { },
+        { },
+        { },
+        { "Count": 1, "id": "minecraft:skull", "tag": { "Damage": 4 } }
+      ],
+      "HandItems": [
+        {"id":"minecraft:stick", "Count" :1},
+        {"id":"minecraft:stick", "Count" :1}
+      ]
+    }
+  }
+}
