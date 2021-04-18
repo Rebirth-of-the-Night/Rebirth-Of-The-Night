@@ -96,7 +96,7 @@ furnace.remove(<pyrotech:cobblestone:0>);
 furnace.remove(<pyrotech:beetroot_roasted>);
 furnace.remove(<pyrotech:material:15>);
 
-disableItem(<pyrotech:apple_baked>);
+// disableItem(<pyrotech:apple_baked>);
 
 //Simplified recipes
 val stone = <ore:stone>;
