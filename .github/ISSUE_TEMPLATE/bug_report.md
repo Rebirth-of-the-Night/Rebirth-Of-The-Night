@@ -27,14 +27,14 @@ Steps to reproduce the behavior:
 <!-- Replace the space between the [ ] with an x for the information below (i.e., [x]) -->
  - Modpack Version:
    - [ ] 2.77.5
-   - [ ] 3.0 BETA 4
+   - [ ] 3.0 BETA 5
    - [ ] Other: 
  - Server or Singleplayer:
    - [ ] Server
    - [ ] Singleplayer
  - Version the world was created on:
    - [ ] 2.77.5
-   - [ ] 3.0 BETA 4
+   - [ ] 3.0 BETA 5
    - [ ] Other: 
 
 **Additional context**
