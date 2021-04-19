@@ -110,6 +110,8 @@
 <betterwithaddons:slat>.addShiftTooltip("Place a tatami mat on top, then use a hoe to fit it perfectly to floor level.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithaddons:tatami>.addShiftTooltip('Tatami should not be arranged forming a "+" shape at the junctions, lest it bring an inauspicious future.');
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:steel_gearbox>.addTooltip("Won't break from weather!");
+<betterwithmods:steel_axle>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3.");
 
 // Nyx
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects");
