@@ -43,7 +43,6 @@ Crucible.addUnstoked(
     [
         <ore:ingotIron>|<ore:dustIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
-        <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>
     ],
     [
@@ -54,7 +53,6 @@ Crucible.addUnstoked(
 Crucible.addStoked(
     [
         <ore:ingotIron>|<ore:dustIron>,
-        <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>
     ],
