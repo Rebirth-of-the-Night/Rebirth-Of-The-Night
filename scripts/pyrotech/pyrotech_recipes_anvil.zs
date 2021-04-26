@@ -91,7 +91,6 @@ GraniteAnvil.addRecipe("smash_heart_1", <scalinghealth:crystalshard>*4, <bountif
 GraniteAnvil.addRecipe("smash_heart_2", <scalinghealth:crystalshard>*3, <bountifulbaubles:trinketshulkerheart>, 16, "hammer", true);
 GraniteAnvil.addRecipe("smash_heart_3", <scalinghealth:crystalshard>*6, <iceandfire:fire_dragon_heart>, 32, "hammer", true);
 GraniteAnvil.addRecipe("smash_heart_4", <scalinghealth:crystalshard>*6, <iceandfire:ice_dragon_heart>, 32, "hammer", true);
-GraniteAnvil.addRecipe("smash_heart_5", <scalinghealth:crystalshard>*1, <quark:diamond_heart>, 64, "hammer", true);
 GraniteAnvil.addRecipe("sfs_plating", <betterwithmods:material:51>*16, <betterwithmods:steel_block>, 64, "hammer", true);
 GraniteAnvil.addRecipe("refractorylump_fossil", <pyrotech:material:8>*3, <undergroundbiomes:fossil_piece:*>, 4, "hammer", true);
 GraniteAnvil.addRecipe("refractorylump_ruby", <pyrotech:material:8>*4, <ore:gemRuby>, 64, "hammer", true);
