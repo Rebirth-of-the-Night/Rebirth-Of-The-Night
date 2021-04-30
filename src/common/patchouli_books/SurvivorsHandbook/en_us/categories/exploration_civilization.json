@@ -1,0 +1,7 @@
+{
+  "name": "Civilization",
+  "description": "I'm not the only sentient creature in this world. It's up to me to find out if the others are friends or foes.",
+  "icon": "minecraft:emerald",
+  "sortnum": 3,
+  "parent": "exploration"
+}

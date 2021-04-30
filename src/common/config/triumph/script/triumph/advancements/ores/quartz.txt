@@ -1,0 +1,12 @@
+setIcon("minecraft:quartz")
+setTitle("Quartz")
+setDescription("Mine quartz ore")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Quartz", "triumph:player_harvest_block")
+criteria.setBlock("minecraft:quartz_ore")
+
+alwaysVisible()
+setPos(-53,-16)
+hideLines()

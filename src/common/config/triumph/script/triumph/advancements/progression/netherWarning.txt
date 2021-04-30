@@ -1,0 +1,19 @@
+setIcon(<minecraft:crafting_table>)
+setTitle("Nether Warning")
+setDescription("Nether Warning")
+
+addParent("triumph:advancements/progression/root")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+addRewardFunction("triumph:netherWarning")
+
+criteria = addCriteria("entered", "minecraft:enter_block")
+criteria.setBlock(<minecraft:portal>)
+
+alwaysHidden()
+setHidden(true)

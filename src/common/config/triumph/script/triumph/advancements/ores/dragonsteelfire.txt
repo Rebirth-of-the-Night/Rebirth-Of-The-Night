@@ -1,0 +1,13 @@
+setIcon("iceandfire:dragonsteel_fire_ingot")
+setTitle("Through The Fire And Flames")
+setDescription("Obtain fire dragonsteel")
+
+addParent("triumph:advancements/ores/onyx")
+
+criteria = addCriteria("Fire Dragonsteel Ingot", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_ingot")
+
+
+alwaysVisible()
+setPos(-86,83)
+hideLines()

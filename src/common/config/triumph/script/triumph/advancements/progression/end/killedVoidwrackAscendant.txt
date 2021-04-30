@@ -1,0 +1,19 @@
+setIcon(<minecraft:dirt>)
+setTitle("Voidwracked Ascendant")
+setDescription("PLACEHOLDER")
+
+addParent("triumph:advancements/progression/end/enterEnd")
+
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+setHidden(true)
+drawDirectLines()
+setPos(365,-40)

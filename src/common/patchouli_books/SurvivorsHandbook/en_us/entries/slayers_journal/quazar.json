@@ -1,0 +1,44 @@
+{
+  "name": "Quazar",
+  "icon": "minecraft:magma",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/killedHarvester",
+
+  "sortnum": 3,
+  "pages": [
+{
+      "type": "text",
+      "text": "$(thing)Quazar:$()$(#734608) a very strange, very ugly bunch of molten, interstellar goop. First time I saw one, it was oozing out of the remains of a meteorite crater. But this is no normal slime. It’s extremely unstable, can combust almost at will, and it has some control over the gravity of matter around it.$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "from_the_depths:quazar",
+      "text": "$(#734608) You’re unlikely to find one of these things by chance. Better off trying to lure the $(thing)Quazar$() $(#734608)right where you want it. Craft a $(item)Meteoric Sigil$() $(#734608)and then break it apart over the candles of an $(item)Altar of Summoning.$()"
+  },
+  	{
+			"type": "spotlight",
+			"title": "Fire from the Skies",
+			"item": "minecraft:magma",
+			"text": "$(#734608)Sigil used to divert the course of passing meteors, hopefully bringing a Quazar down with them. Watch your head.$()"
+		},
+{
+      "type": "text",
+      "text": "$(#734608)If you manage to kill a Quazar and still have all your skin and limbs intact, I'd recommend you scoop out its $(item)Volatile Core$() $(#734608)- that thing’s like a magnet for destructive $(thing)Vis$() $(#734608)to condense around. Extremely valuable if you often have a need to blow things up.$()."
+    },	
+	{
+	"type": "entity",
+      "entity": "specialmobs:hardenedlavaslime",
+      "scale": 0.8,
+      "offset": -0.4,
+      "rotate": "false",
+	  "default_rotation": -45,
+	  "name": "Quazarian Ooze"
+},
+    {
+      "type": "relations",
+      "entries": [
+		"slayers_journal/altar"
+      ]
+    }
+  ]
+}

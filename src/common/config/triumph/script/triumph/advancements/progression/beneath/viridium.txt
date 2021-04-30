@@ -1,0 +1,11 @@
+setIcon("simpleores:adamantium_ingot")
+setTitle("Light and Powerful")
+setDescription("Mine viridum ore")
+
+addParent("triumph:advancements/progression/beneath/enterBeneath")
+
+criteria = addCriteria("Viridium Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreViridium>)
+
+drawDirectLines()
+setPos(275,30)

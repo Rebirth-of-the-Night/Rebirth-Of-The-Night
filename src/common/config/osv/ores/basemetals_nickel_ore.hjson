@@ -1,0 +1,31 @@
+name: basemetals_nickel_ore
+mod: basemetals
+block: {
+  location: basemetals:nickel_ore
+  hardness: 4
+  level: 1
+}
+loot: [
+  {
+    item: basemetals:nickel_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/nickel_ore
+}
+recipe: {
+  result: basemetals:nickel_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 32, 96 ]
+    size: 8
+    count: 1
+  }
+]

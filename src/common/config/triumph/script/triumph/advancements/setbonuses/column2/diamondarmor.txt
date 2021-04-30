@@ -1,0 +1,21 @@
+setIcon("minecraft:diamond_chestplate")
+setTitle("Cover Me With Diamonds")
+setDescription("Complete the Cover Me With Diamonds set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Diamond Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_helmet")
+
+criteria = addCriteria("Diamond Chestplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_chestplate")
+
+criteria = addCriteria("Diamond Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_leggings")
+
+criteria = addCriteria("Diamond Boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_boots")
+
+hideLines()
+alwaysVisible()
+setPos(90,0)

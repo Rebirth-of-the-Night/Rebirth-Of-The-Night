@@ -1,0 +1,12 @@
+setIcon("msmlegacy:relic_aqueous")
+setTitle("Take it on the Other Side")
+setDescription("Craft Patreon Relic 1 of 3")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Relic 1", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:relic_aqueous")
+
+alwaysVisible()
+hideLines()
+setPos(-402,94)

@@ -1,0 +1,15 @@
+setIcon("simpleores:mythril_ingot")
+setTitle("Mystical Power")
+setDescription("Mine mythril ore")
+
+addParent("triumph:advancements/ores/diamond")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Mythril Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreMythril>)
+
+alwaysVisible()
+setPos(-20,-16)
+hideLines()

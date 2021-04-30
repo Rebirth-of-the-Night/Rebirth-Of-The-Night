@@ -1,3 +1,0 @@
-gamerule commandBlockOutput false
-gamerule sendCommandFeedback false
-tellraw @p ["",{"text":"You feel a slight sensation of pain as you grip the handle of this sword.","color":"dark_red","italic":true}]

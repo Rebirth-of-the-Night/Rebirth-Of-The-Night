@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "dartcraftreloaded:orepower",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/dartcraftreloaded/orepower",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

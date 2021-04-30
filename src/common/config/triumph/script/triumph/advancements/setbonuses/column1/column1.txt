@@ -1,0 +1,34 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("dedicatedWorker", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/dedicatedWorker")
+
+criteria = addCriteria("savagery", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/savagery")
+
+criteria = addCriteria("smashing", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/smashing/smashing")
+
+criteria = addCriteria("gravitite", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/gravitite")
+
+criteria = addCriteria("moltenarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/moltenarmor")
+
+criteria = addCriteria("neptune", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/neptune")
+
+criteria = addCriteria("phoenix", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/phoenix")
+
+criteria = addCriteria("steelarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/steelarmor")
+
+criteria = addCriteria("valkyrie", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/valkyrie")
+
+criteria = addCriteria("witherbonearmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/witherbonearmor")
+
+alwaysHidden()

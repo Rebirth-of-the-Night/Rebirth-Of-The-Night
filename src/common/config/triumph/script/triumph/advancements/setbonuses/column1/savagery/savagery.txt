@@ -1,0 +1,24 @@
+setIcon("iceandfire:deathworm_red_chestplate")
+setTitle("Savagery")
+setDescription("Complete the Savagery set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Deathworm Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/helmet")
+
+criteria = addCriteria("Deathworm Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/chestplate")
+
+criteria = addCriteria("Deathworm Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/leggings")
+
+criteria = addCriteria("Deathworm Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/boots")
+
+criteria = addCriteria("Deathworm Gauntlet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/savagery/offhand")
+
+hideLines()
+alwaysVisible()
+setPos(45,105)

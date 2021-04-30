@@ -1,0 +1,21 @@
+setIcon("endreborn:armour_chestplate_obsidian")
+setTitle("Heavy Steps")
+setDescription("Complete the Heavy Steps set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Obsidian Helmet", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_helmet_helmet")
+
+criteria = addCriteria("Obsidian Chestplate", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_chestplate_obsidian")
+
+criteria = addCriteria("Obsidian Leggings", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_leggings_obsidian")
+
+criteria = addCriteria("Obsidian Boots", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_boots_obsidian")
+
+hideLines()
+alwaysVisible()
+setPos(90,90)

@@ -1,0 +1,23 @@
+{
+  "name": "Villages",
+  "icon": "minecraft:iron_hoe",
+  "category": "exploration_civilization",
+  "pages": [
+	{
+      "type": "text",
+      "text": "Most settlements in my surroundings are seemingly ruins or dilapidated villages raided by $(thing)bandits$() or attacked by monsters, if I want to encounter a healthier or at least more decent place, I will have to venture further into the unknown. Although I might be able to scavenge something useful in these rundown places."
+    },
+	{
+      "type": "text",
+      "text": "I've come across my first significant settlement... judging by what I've seen until now, they would appear to be the cuspid of civilization in these parts of the world. The people living here I believe to be my kin, $(thing)humans$(), along with other sentient people which I've learned to simply call $(thing)villagers$()."
+    },
+	{
+      "type": "text",
+      "text": "$(thing)Humans$() and $(thing)villagers$() appear to maintain a complex and functional hierarchy. A human $(thing)Lord$() guides the village in economic and politic matters along with a small group of humans acting as $(thing)Guards$() who have settled here in exchange for protecting villagers in their day to day lives working on the land and other labors such as smithing or recording what little history is known."
+    },
+	{
+      "type": "text",
+      "text": "Common sense dictates that if I want to use their services and become another member of the community, I will have to earn the trust of this village; for this purpose, I should talk to the Lord here and improve my reputation by doing quests for them."
+    }
+  ]
+}

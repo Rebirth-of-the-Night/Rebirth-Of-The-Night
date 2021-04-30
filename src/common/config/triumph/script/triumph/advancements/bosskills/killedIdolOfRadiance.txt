@@ -1,0 +1,15 @@
+setIcon(<minecraft:dirt>)
+setTitle("Idol of Radiance")
+setDescription("Kill the Idol of Radiance.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("Idol of Radiance", "minecraft:player_killed_entity")
+criteria.setEntityType("rats:black_death")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+hiddenUnless("triumph:advancements/progression/beneath/hiddenKilledIdolOfRadiance")
+setPos(-57,86)

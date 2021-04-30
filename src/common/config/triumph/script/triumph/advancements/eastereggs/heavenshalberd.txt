@@ -1,0 +1,12 @@
+setIcon("spartanweaponry:halberd_invar")
+setTitle("Heaven's Halberd")
+setDescription("Craft Patreon Relic 3 of 3")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Relic 3", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:halberd_invar")
+
+alwaysVisible()
+hideLines()
+setPos(-333,94)

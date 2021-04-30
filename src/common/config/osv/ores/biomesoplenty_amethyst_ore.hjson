@@ -1,0 +1,31 @@
+  name: biomesoplenty_amethyst_ore
+mod: biomesoplenty
+block: {
+  location: biomesoplenty:gem_ore
+  hardness: 3
+  level: 4
+}
+loot: [
+  {
+    item: biomesoplenty:gem:0
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  original: biomesoplenty:blocks/amethyst_ore
+}
+recipe: {
+  result: biomesoplenty:gem:0
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 30, 120 ]
+    size: 4
+    count: 16
+	dimensions: [1]
+  }
+]

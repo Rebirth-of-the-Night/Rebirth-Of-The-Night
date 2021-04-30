@@ -1,0 +1,32 @@
+name: metallurgy_meutoite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:meutoite_ore
+  level: 4
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/meutoite_ore
+  background: blocks/end_stone
+  threshold: 1.75
+}
+recipe: {
+  result: metallurgy:meutoite_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:meutoite_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 7
+    count: 10
+  }
+]

@@ -1,0 +1,12 @@
+setIcon("simpleores:copper_ingot")
+setTitle("Flimsy But Plentiful")
+setDescription("Mine copper ore")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Copper ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreCopper>)
+
+alwaysVisible()
+setPos(-53,50)
+hideLines()

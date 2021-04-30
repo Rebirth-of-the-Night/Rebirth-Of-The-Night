@@ -1,0 +1,19 @@
+setIcon(<contenttweaker:info>)
+setTitle("Hidden Achievement")
+setDescription("")
+
+addRewardFunction("triumph:killedQuazarHidden")
+
+addParent("triumph:advancements/progression/nether/enterNether")
+
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+setUncompletedIconColor(150,150,150)
+setUncompletedTitleColor(110,110,110)
+
+setShowToast(false)
+setAnnounceToChat(false)
+hiddenIf("triumph:advancements/progression/nether/enterNether")
+drawDirectLines()
+setPos(185,0)

@@ -1,0 +1,19 @@
+setIcon(<minecraft:purple_shulker_box>)
+setTitle("Shulker Box")
+setDescription("Craft a Shulker Box.")
+
+addParent("triumph:advancements/storage/enderchest")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Shulker Box", "minecraft:inventory_changed")
+criteria.addItem("minecraft:purple_shulker_box")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-479,-97)

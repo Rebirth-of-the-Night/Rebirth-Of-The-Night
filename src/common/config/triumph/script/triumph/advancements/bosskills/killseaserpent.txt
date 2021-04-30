@@ -1,0 +1,13 @@
+setIcon(<iceandfire:sea_serpent_scales_deepblue>)
+setTitle("Call Me Ishmael")
+setDescription("Destroy a leviathan of the depths.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("sea_serpent", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:seaserpent")
+
+hideLines()
+alwaysVisible()
+
+setPos(-250,117)

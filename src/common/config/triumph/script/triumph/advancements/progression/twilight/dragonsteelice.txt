@@ -1,0 +1,15 @@
+setIcon("iceandfire:dragonsteel_ice_ingot")
+setTitle("Inside The Winter Storm")
+setDescription("Obtain ice dragonsteel")
+
+addParent("triumph:advancements/progression/twilight/enterTwilight")
+
+
+criteria = addCriteria("Ice Dragonsteel Ingot", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_ice_ingot")
+
+
+visibleIf("triumph:advancements/progression/wither/killghastqueen")
+visibleIf("triumph:advancements/progression/wither/killprimordial")
+drawDirectLines()
+setPos(647,31)

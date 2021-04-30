@@ -1,7 +1,0 @@
-{
-  "parent": "advancedmortars:block/mortar",
-  "textures": {
-    "mortar": "biomesoplenty:blocks/eucalyptus_planks",
-    "particle": "biomesoplenty:blocks/eucalyptus_planks"
-  }
-}

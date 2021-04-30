@@ -1,0 +1,22 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("tideguardian", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column4/tideguardian/tideguardian")
+
+criteria = addCriteria("blueMagician", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column4/blueMagician")
+
+criteria = addCriteria("faminearmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column4/faminearmor")
+
+criteria = addCriteria("harbingerofruin", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column4/harbingerofruin")
+
+criteria = addCriteria("mythril", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column4/mythril")
+
+criteria = addCriteria("plaguearmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column4/plaguearmor")
+
+alwaysHidden()

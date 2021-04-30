@@ -1,0 +1,24 @@
+{"textures": {"layer0": "spartanfire:items/katana_dragonsteel_fire"}, "parent": "spartanweaponry:item/katana_wood",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, -90, 55 ],
+            "translation": [ 0, 5.00, 0.5 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, -55 ],
+            "translation": [ 0, 5.00, 0.5 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 35 ],
+            "translation": [ 1.13, 4.45, 1.13 ],
+            "scale": [ 0.80, 0.80, 0.80 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -35 ],
+            "translation": [ 1.13, 4.45, 1.13 ],
+            "scale": [ 0.80, 0.80, 0.80 ]
+        }
+    }
+}

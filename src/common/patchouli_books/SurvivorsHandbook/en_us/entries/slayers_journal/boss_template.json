@@ -1,0 +1,52 @@
+﻿{
+  "name": "{!}Boss Template{!}",
+  "icon": "minecraft:skull",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/NA",
+
+  "sortnum": 4,
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Boss Info Screen",
+			"item": "minecraft:skull:1",
+			"text": "$(l)$(#734608)Tensha, kopeng! To na sefesowng xiya!$()$()"
+		},
+	{
+	"type": "multiblock",
+      "name": "Summoning Structure",
+      "multiblock": {
+        "pattern": [
+					[" J "],
+					["H0H"],
+					[" B "],
+					[" B "]
+				],
+        "mapping": {
+          "0": "multiblockmobs:soul_chassis",
+          "J": "minecraft:lit_pumpkin[facing=east]",
+          "H": "minecraft:hay_block",
+		  "B": "betternether:bone_block"
+		},
+				"symmetrical": true,
+				"offset"     : [0, 0, 0],
+				"view_offset": [0, 0, 0]
+   		},
+			"text": "$(l)$(#734608)Kowltim vedi fong bap unte kuwang. Depelésh imim ge to.$()$()",
+			"enable_visualize": true
+},
+    {
+      "type": "crafting",
+      "recipe": "minecraft:golden_apple",
+	  "title": "Boss Summon Item",
+      "text": "$(l)$(#734608)To gonya leta-kom im wit da $(item)Boss Summon Item$()$()."
+    },
+    {
+      "type": "relations",
+      "entries": [
+		"slayers_journal/soulfire_core",
+		"slayers_journal/altar"
+      ]
+    }
+  ]
+}

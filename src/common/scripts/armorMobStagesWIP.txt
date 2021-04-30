@@ -1,0 +1,37 @@
+/*
+import mods.armoreablemobs.ArmorHandler;
+import mods.armoreablemobs.ArmorEntity;
+import mods.armoreablemobs.ArmorSlot; 
+import mods.armoreablemobs.ArmorGroup; 
+
+var default = ArmorHandler.createArmorGroup("default", 0.1);
+
+// Killed Harvester
+var killedHarvesterHelmet = ArmorHandler.createArmorGroup("killedHarvesterHelmet", 0.2);
+var killedHarvesterChestplate = ArmorHandler.createArmorGroup("killedHarvesterChestplate", 0.2);
+var killedHarvesterLeggings = ArmorHandler.createArmorGroup("killedHarvesterLeggings", 0.2);
+var killedHarvesterBoots = ArmorHandler.createArmorGroup("killedHarvesterBoots", 0.2);
+
+
+
+
+
+
+var mobs = ArmorHandler.createArmorEntity("minecraft:zombie","minecraft:skeleton");
+
+
+killedHarvesterHelmet.addEntity(mobs); 
+killedHarvesterChestplate.addEntity(mobs); 
+killedHarvesterLeggings.addEntity(mobs); 
+killedHarvesterBoots.addEntity(mobs); 
+
+
+killedHarvesterHelmet.addArmor(ArmorHandler.createArmorSlot("head", <atop:mud_helmet>, 1, 0.25)); 
+killedHarvesterChestplate.addArmor(ArmorHandler.createArmorSlot("chest", <atop:mud_chestplate>, 1, 0.25)); 
+killedHarvesterLeggings.addArmor(ArmorHandler.createArmorSlot("legs", <atop:mud_leggings>, 1, 0.25)); 
+killedHarvesterBoots.addArmor(ArmorHandler.createArmorSlot("feet", <atop:mud_boots>, 1, 0.25)); 
+
+killedHarvesterHelmet.addGameStage("killedHarvester");
+killedHarvesterChestplate.addGameStage("killedHarvester");
+killedHarvesterLeggings.addGameStage("killedHarvester");
+killedHarvesterBoots.addGameStage("killedHarvester");

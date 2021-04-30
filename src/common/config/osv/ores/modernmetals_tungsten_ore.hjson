@@ -1,0 +1,31 @@
+name: modernmetals_tungsten_ore
+mod: modernmetals
+block: {
+  location: modernmetals:tungsten_ore
+  hardness: 12.5
+  level: 4
+}
+loot: [
+  {
+    item: modernmetals:tungsten_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/tungsten_ore
+}
+recipe: {
+  result: modernmetals:tungsten_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 4
+    count: 6
+  }
+]

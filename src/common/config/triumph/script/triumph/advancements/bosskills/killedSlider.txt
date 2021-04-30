@@ -1,0 +1,15 @@
+setIcon(<aether_legacy:dungeon_block>)
+setTitle("Slider")
+setDescription("Kill the Slider")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("Kill Slider", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:slider")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hiddenUnless("triumph:advancements/progression/aether/hiddenKilledSlider")
+hideLines()
+setPos(-89,54)

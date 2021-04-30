@@ -1,0 +1,30 @@
+name: metallurgy_rubracium_ore
+mod: metallurgy
+block: {
+  location: metallurgy:rubracium_ore
+  level: 4
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/rubracium_ore
+}
+recipe: {
+  result: metallurgy:rubracium_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:rubracium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 10, 40 ]
+    size: 6
+    count: 7
+  }
+]

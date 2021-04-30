@@ -1,0 +1,820 @@
+{
+    "pools": [
+        {
+            "name": "main",
+			"rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "dungeontactics:silver_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_1"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_2"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_3"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_4"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_5"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_6"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_7"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_8"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_9"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_10"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_11"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_12"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_13"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_14"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_15"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_16"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_17"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_18"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_19"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_20"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_21"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_22"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_23"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_24"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_25"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_26"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_27"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_28"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_29"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_30"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_31"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_32"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_33"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_34"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_35"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_36"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_37"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_38"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_39"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_40"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_41"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_42"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_43"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_44"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_45"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_46"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_47"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_48"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_50"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_51"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_52"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_53"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_54"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_55"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:accessory_56"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_1"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_2"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_3"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_4"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_5"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_6"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_7"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_8"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_9"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_10"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_11"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_12"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_13"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_14"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_15"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_16"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_17"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_18"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_19"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_20"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_21"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_22"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_23"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_24"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_25"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_26"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_27"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_28"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_29"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_30"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_31"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_32"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_33"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_34"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_35"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_36"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_37"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_38"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_39"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_40"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_41"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_42"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_43"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_44"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_45"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_46"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_47"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_48"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_49"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_50"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_51"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_52"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_53"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_54"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_55"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_56"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_57"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_58"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_59"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_60"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_61"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_62"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_63"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_64"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_65"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_66"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_67"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_68"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_69"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_70"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_71"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_72"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_73"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_74"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_75"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_76"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_77"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_78"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_79"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_80"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_81"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_82"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_83"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_84"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_85"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_86"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_87"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_88"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_89"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_90"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_91"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_92"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_93"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_94"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_95"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_96"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_97"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_98"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_99"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_100"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_101"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_102"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_103"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_104"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_105"
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "behgameon:ring_106"
+                }
+            ]
+        }
+    ]
+}

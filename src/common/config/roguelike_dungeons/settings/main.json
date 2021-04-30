@@ -1,0 +1,19 @@
+{
+	"name" : "beneath:main",
+	"exclusive" : true,
+	"criteria" : {
+		"biomeTypes" : [
+			"DEAD"
+		]
+	},
+	"inherit" : [
+		"builtin:forest",
+		"builtin:rooms",
+		"builtin:secrets",
+		"builtin:segments",
+		"builtin:layout",
+		"builtin:loot",
+		"builtin:base",
+		"beneath:spawners"
+	]
+}

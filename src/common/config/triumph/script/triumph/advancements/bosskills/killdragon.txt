@@ -1,0 +1,18 @@
+setIcon(<iceandfire:dragonarmor_dragonsteel_ice>)
+setTitle("Fire Made Flesh")
+setDescription("Slay the ultimate predator.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("firedragon", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:firedragon")
+criteria = addCriteria("icedragon", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:icedragon")
+
+
+// To make it so the player will get the advancement by slaying either a fire dragon or an ice dragon
+addRequirements(["firedragon", "icedragon"])
+
+hideLines()
+alwaysVisible()
+setPos(-250,179)

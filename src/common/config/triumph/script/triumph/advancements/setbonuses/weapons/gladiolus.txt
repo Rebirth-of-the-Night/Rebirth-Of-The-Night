@@ -1,0 +1,12 @@
+setIcon("msmlegacy:gladiolus")
+setTitle("Force of Nature")
+setDescription("Craft a Gladiolus")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Gladiolus", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:gladiolus")
+
+hideLines()
+alwaysVisible()
+setPos(0,235)

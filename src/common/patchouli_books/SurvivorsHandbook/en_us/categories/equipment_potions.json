@@ -1,0 +1,7 @@
+{
+  "name": "Alchemy and Potions",
+  "description": "Brewing supernatural ingredients to create empowering or debilitating cocktails.",
+  "icon": "minecraft:potion",
+  "sortnum": 3,
+  "parent": "equipment"
+}

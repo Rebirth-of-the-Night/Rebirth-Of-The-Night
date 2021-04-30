@@ -1,0 +1,30 @@
+name: glasshearts_agate_ore
+mod: glasshearts
+block: {
+  location: glasshearts:ore:7
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: glasshearts:gem:7
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: glasshearts:blocks/agate_ore
+}
+recipe: {
+  result: glasshearts:gem:7
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 3
+    count: 2
+  }
+]

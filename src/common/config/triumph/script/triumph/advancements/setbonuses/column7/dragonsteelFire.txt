@@ -1,0 +1,23 @@
+setIcon("iceandfire:dragonsteel_fire_chestplate")
+setTitle("Everflame")
+setDescription("Complete the Everflame set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Fire Dragonsteel Helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_helmet")
+
+criteria = addCriteria("Fire Dragonsteel Chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_chestplate")
+
+criteria = addCriteria("Fire Dragonsteel Leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_leggings")
+
+criteria = addCriteria("Fire Dragonsteel Boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_boots")
+
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(360,15)

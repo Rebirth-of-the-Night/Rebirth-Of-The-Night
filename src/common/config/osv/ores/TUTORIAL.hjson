@@ -1,0 +1,157 @@
+# This file contains all of the information needed for creating
+# new ore property presets. For any questions not answered here,
+# feel free to open a new thread on GitHub or join us on Discord
+# at https://discord.gg/UNsXfvA.
+{
+  # This is the actual name of the ore that you are creating or
+  # modifying. It will be what you type in the block regsitry.
+  name: tutorial_ore
+
+  # This is the name of the mod to which the ore belongs. If you
+  # are creating creating your own ore using OSV, it may be
+  # easier to omit this field altogether. It will technically
+  # default to "minecraft," but when using resource locations in
+  # the config file, "minecraft" is already the default namespace.
+  # Because it is implicit, you never need to type it.
+  mod: custom
+
+  # This category contains all of the information regarding this
+  # block's basic information. See Block.Properties in-code.
+  block: {
+    
+    # This ore's resource location, i.e. technically
+    # "minecraft:coal_ore."
+    location: coal_ore
+
+    # The tool level required for harvesting this block.
+    level: 0
+
+    # This ore's material. These are standard vanilla materials
+    # with support for 2 or 3 of them being excluded.
+    # Ignored when background imitation is enabled.
+    material: rock
+
+    # The type of sound produced by this block.
+    # Ignored when background imitation is enabled.
+    soundtype: stone
+
+    # The amount of light produced by this block. 0-15.
+    light: 0
+
+    # This block's explosion resistance value.
+    resistance: 15.0
+
+    # This block's hardness value. Affects break time.
+    hardness: 3.0
+
+    # Whether this block should have guaranteed random block
+    # updates.
+    ticksRandomly: false
+
+    # This block's slipperiness. 0.6 is normal. Lower -> faster
+    # movement.
+    slipperiness: 0.6
+
+    # The type of tool used for mining this block.
+    # Ignored when background imitation is enabled.
+    tool: pickaxe
+
+    # The condensed path of this ore's advancement. This is typed
+    # as a resource location, so "simpleores:main/adamantium_ore"
+    # becomes "assets/simpleores/advancements/main/adamantium_ore."
+    advancement: null
+  }
+
+  # This category contains all of the properties regarding this
+  # block's textures.
+  texture: {
+
+    # The condensed path of the orignal texture. This is typed
+    # as a resource location, so technically "blocks/coal_ore"
+    # translates to "assets/minecraft/textures/blocks/coal_ore."
+    original: blocks/coal_ore
+
+    # The background texture used for extracting an overlay from
+    # "original." It is also typed as a resource location.
+    background: blocks/stone
+
+    # Whether to use the fancier, "shaded" texture variants.
+    # Pick whichever you like most for this block.
+    shade: true
+    
+    # A decimal value representing the threshold of difference
+    # between background and foreground accepted as an ore pixel.
+    # Usually 0-3. If the standard algorithm does not work, you
+    # can define this field and a different algoritm will be used.
+    # *You do not need to use this field in most cases*
+    threshold: null
+  }
+
+  # All of the properties pertaining to furnace recipes.
+  # If this field is absent, the ore should still generate
+  # According to its Ore Dictionary values.
+  recipe: {
+
+    # The item produced when smelting these ores.
+    result: coal
+
+    # The amount of experience yielded.
+    xp: 0.1
+
+    # The number of items yielded.
+    quantity: 1
+  }
+
+  # This is a list of properties which override the item
+  # drops for this ore type. If the field is absent,
+  # nothing will be overridden. 
+  loot: [
+    {
+      # The item to be dropped. Supports meta values,
+      # e.g. minecraft:dye:4.
+      item: coal
+
+      # The range of items to drop.
+      count: [0, 1] # or just [1]
+
+      # The range of experience to drop.
+      xp: [0, 1]
+
+      # The 0-1 chance for this override to be selected.
+      chance: 1.0
+    }
+  ]
+
+  # An array of conditions under which this block can generate.
+  gen: [
+    {
+      # A range of heights, i.e. 0 to 128.
+      height: [0, 128] # or just [128]
+
+      # The size of the ore vein spawned.
+      size: 20
+
+      # The number of tries per chunk to spawn clusters.
+      count: 17
+
+      # The 0-1 chance that any try will succeed.
+      chance: 1.0
+
+      # A list of numeric dimension IDs in which this ore can
+      # spawn under these conditions. Leave this list empty
+      # for the properties to apply anywhere.
+      dimensions: []
+
+      # All of the biomes in which these conditions can be met.
+      biomes: {
+        
+        # An array of biome types from which to retrive biome
+        # names.
+        types: []
+
+        # Raw biome registry names to be used.
+        names: []
+      }
+    }
+  ]
+}

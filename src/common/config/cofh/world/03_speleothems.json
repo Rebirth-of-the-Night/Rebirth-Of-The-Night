@@ -1,0 +1,66 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"quark",
+		"bettermineshafts"
+		],
+	"populate": 
+	{
+		"dolomite_straws1": {
+			"distribution": "cave",
+			"generator": {
+				"type": "stalactite",
+				"block": "contenttweaker:dolomite_straws",
+				"material": {
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "dolomite"
+						}
+					}
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 1,
+				"height-variance": 1,
+				"gen-size": 3,
+				"size-variance": 1
+			},
+			"cluster-count": 5,
+			"ground-level":120,
+			"ceiling": true, 
+			"retrogen": false
+		},
+		"dolomite_straws2": {
+			"distribution": "cave",
+			"generator": {
+				"type": "stalactite",
+				"block": "contenttweaker:dolomite_straws",
+				"material": {
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "dolomite"
+						}
+					}
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 1,
+				"height-variance": 1,
+				"gen-size": 3,
+				"size-variance": 1
+			},
+			"cluster-count": 5,
+			"ground-level":120,
+			"ceiling": true, 
+			"retrogen": false
+		}
+	}
+}

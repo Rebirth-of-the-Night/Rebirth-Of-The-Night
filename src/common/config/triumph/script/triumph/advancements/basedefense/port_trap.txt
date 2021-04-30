@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:trap_port>)
+setTitle("Port Trap")
+setDescription("Teleports mobs away that walk on it. Needs to be reset after each use.")
+
+addParent("triumph:advancements/basedefense/wrench")
+
+criteria = addCriteria("Port Trap", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_port>)
+
+alwaysVisible()
+setPos(-221,84)

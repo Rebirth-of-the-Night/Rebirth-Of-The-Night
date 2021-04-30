@@ -1,0 +1,32 @@
+name: betternether_cincinnasite_ore
+mod: betternether
+block: {
+  location: betternether:cincinnasite_ore
+  hardness: 5
+  level: 3
+}
+loot: [
+  {
+    item: betternether:cincinnasite
+    count: [ 1, 2 ]
+    xp: [ 2, 3 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: betternether:blocks/cincinnasite_ore
+}
+recipe: {
+  result: betternether:cincinnasite
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+	height : [0, 255]
+	size: 10
+	count: 45
+	dimensions: [-1]
+  }
+] 

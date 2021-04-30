@@ -1,0 +1,26 @@
+1. Port forward the port 25565.
+Here are some links to help you port forward:
+https://www.noip.com/support/knowledgebase/how-to-host-and-configure-a-minecraft-server-with-no-ip/
+http://www.portchecktool.com/
+
+2. Open "Start Server.bat". (don't open as Admin) If it brings up an issue about Java, edit the .bat file with a text editor and replace "Java" with the location to your Java installation (usually "C:\Program Files (x86)\Java\jre8\bin\javaw.exe").
+
+3. "Unloading dimension 7" should be one of the last lines in the console before the server is up.
+
+4. Connect to the server.
+
+
+If you get an error about invalid maximum heap size, it's likely because of your java version. Download "Java 64bit Offline" on the java website. 
+
+If you are having trouble, read https://wiki.rebirthofthenight.com/wiki/Installation
+If you are still having trouble, ask in our Discord: https://discord.gg/rotn
+
+
+
+Only increase RAM if you plan to play with many people!
+If you want to increase the server RAM, edit "Start Server.bat" with a text editor and replace the entire thing with:
+@ECHO OFF
+java -Xmx6048M -Xms6048M -jar forge-1.12.2-14.23.5.2838-universal.jar nogui
+pause
+
+The server has 4GB by default, which should be plenty, but if you plan to have more than 4-5 people play, change it to 6GB+

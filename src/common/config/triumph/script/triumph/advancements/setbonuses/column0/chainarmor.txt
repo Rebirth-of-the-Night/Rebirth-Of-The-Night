@@ -1,0 +1,23 @@
+setIcon("minecraft:chainmail_chestplate")
+setTitle("Chivalry Is Not Dead")
+setDescription("Complete the Chivalry Is Not Dead set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+// addRewardFunction("triumph:fullEarlyArmor")
+
+criteria = addCriteria("Chainmail Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:chainmail_helmet")
+
+criteria = addCriteria("Chainmail Chestplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:chainmail_chestplate")
+
+criteria = addCriteria("Chainmail Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:chainmail_leggings")
+
+criteria = addCriteria("Chainmail Boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:chainmail_boots")
+
+hideLines()
+alwaysVisible()
+setPos(0,-60)

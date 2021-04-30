@@ -1,0 +1,20 @@
+setIcon(<minecraft:obsidian>)
+setTitle("We Must Go Deeper")
+setDescription("Enter the Nether.")
+
+addParent("triumph:advancements/progression/killedHarvester")
+
+addRewardFunction("triumph:enteredNether")
+
+criteria = addCriteria("entered_nether", "triumph:changed_dimension")
+criteria.setDimensionDestination(-1)
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("GOAL")
+setUncompletedIconColor(217,255,92)
+
+
+alwaysVisible()
+drawDirectLines()
+setPos(125,0)

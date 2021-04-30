@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 3,
+    "description": "Custom block overlay textures. You can replace the textures in this file or create a separate resourcepack. This does not have to go in the resourcepack folder."
+  }
+}

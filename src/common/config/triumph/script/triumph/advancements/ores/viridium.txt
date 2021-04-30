@@ -1,0 +1,15 @@
+setIcon("simpleores:adamantium_ingot")
+setTitle("Light and Powerful")
+setDescription("Mine viridum ore")
+
+addParent("triumph:advancements/ores/diamond")
+
+criteria = addCriteria("Viridium Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreViridium>)
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+alwaysVisible()
+setPos(-20,-48)
+hideLines()

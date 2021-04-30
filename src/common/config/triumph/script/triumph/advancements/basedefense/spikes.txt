@@ -1,0 +1,11 @@
+setIcon(<minetraps:spikes>)
+setTitle("Spikes")
+setDescription("Kills mobs significantly faster than Nail Traps. Needs redstone power.")
+
+addParent("triumph:advancements/basedefense/nail_trap")
+
+criteria = addCriteria("Spikes", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:spikes>)
+
+alwaysVisible()
+setPos(-183,0)

@@ -1,0 +1,52 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+        "limestone-dolomite-chalk-embedded_marble": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "marble"
+						}
+				},
+				"material": [
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "limestone"
+						}
+					},
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "chalk"
+						}
+					},
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "dolomite"
+						}
+					}
+				],
+				"radius": 18,
+				"height": 8,
+				"slim": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 35,
+			"min-height": 50,
+			"max-height": 200,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

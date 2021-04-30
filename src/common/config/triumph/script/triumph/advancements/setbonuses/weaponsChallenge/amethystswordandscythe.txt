@@ -1,0 +1,16 @@
+setIcon("atop:topaz_sword")
+setTitle("Scourge of the Void")
+setDescription("Complete the Scourge of the Void set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Amethyst Sword", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_sword")
+
+criteria = addCriteria("Amethyst Scythe", "minecraft:inventory_changed")
+criteria.addItem("atop:topaz_sword")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(225,190)

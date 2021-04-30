@@ -1,0 +1,81 @@
+name: simpleores_copper_ore
+mod: simpleores
+block: {
+  location: simpleores:copper_ore
+  hardness: 1.7000000476837158
+  level: 0
+}
+loot: [
+  {
+    item: simpleores:copper_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: simpleores:blocks/copper_ore
+}
+recipe: {
+  result: simpleores:copper_ingot
+  xp: 0.4000000059604645
+  quantity: 1
+}
+gen: [
+#deserts
+  {
+    height: [ 0, 40 ]
+    size: 8
+    count: 28
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+		}
+  }
+#not-deserts
+  {
+	height: [ 20, 150 ]
+    size: 8
+    count: 12
+	blacklistBiomes: true
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+		}
+  }
+#volcano
+  {
+    height: [ 40, 120 ]
+    size: 4
+    count: 15
+	chance: 0.6
+	biomes: {
+		names: [
+		  biomesoplenty:volcanic_island
+		  ]
+	}
+  }
+#beneath
+  {
+	height : [200, 255]
+	size: 5
+	count: 10 
+	chance: 0.6
+	dimensions: [10]
+  }
+]

@@ -1,0 +1,40 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts"
+		]
+	"populate": 
+	{
+		"lodestone": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": "dungeontactics:mithril_block",
+				"cluster-size": 1,
+				},
+			"cluster-count": 3,
+			"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+
+			"ground-level": 80,
+			"chunk-chance": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					}
+				]
+			}
+		}
+	}
+}

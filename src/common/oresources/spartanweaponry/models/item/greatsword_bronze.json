@@ -1,0 +1,6 @@
+{
+    "parent":"spartanweaponry:item/greatsword_wood",
+    "textures": {
+        "layer0":"spartanweaponry:items/greatsword_bronze"
+    }
+}

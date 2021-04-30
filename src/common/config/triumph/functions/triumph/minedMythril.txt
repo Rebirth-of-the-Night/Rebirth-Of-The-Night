@@ -1,0 +1,6 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @a ["",{"text":"The darkness erupts with distant screeches as the last magic barrier shatters...","color":"dark_red","italic":true}]
+playsound mowziesmobs:geomancy.breaklarge2 ambient @p ~ ~ ~ 0.8 1.0
+playsound mod_lavacow:entity.wendigo.attack ambient @p ~ ~ ~ 0.5 0.9
+gamestage silentadd @a minedMythril

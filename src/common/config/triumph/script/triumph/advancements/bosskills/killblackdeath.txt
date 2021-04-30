@@ -1,0 +1,12 @@
+setIcon(<rats:plague_scythe>)
+setTitle("The Black Death")
+setDescription("Purge the incarnation of corruption.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("black_death", "minecraft:player_killed_entity")
+criteria.setEntityType("rats:black_death")
+
+hideLines()
+alwaysVisible()
+setPos(-119,117)

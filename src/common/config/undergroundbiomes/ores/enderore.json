@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "enderore:ore_ender",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/enderore/ender",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

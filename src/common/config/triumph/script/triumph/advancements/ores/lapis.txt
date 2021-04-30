@@ -1,0 +1,12 @@
+setIcon(<minecraft:dye, meta:4>)
+setTitle("We Can Enchant!")
+setDescription("Mine lapis ore")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Lapis", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreLapis>)
+
+alwaysVisible()
+setPos(-119,-49)
+hideLines()

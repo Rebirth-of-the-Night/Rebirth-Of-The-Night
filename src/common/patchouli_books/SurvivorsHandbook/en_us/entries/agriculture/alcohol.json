@@ -1,0 +1,48 @@
+{
+  "name": "Alcohol",
+  "icon": "growthcraft_grapes:grapewine",
+  "priority": true,
+  "category": "agriculture_brewing",
+  "advancement": "triumph:advancements/progression/guidebook/make_alcohol",
+  "pages": [
+	{
+	  "type": "item_list_spotlight",
+	  "title": "Alcohol",
+	  "text": "By action of brewing and fermenting certain ingredients, I can gain access to some strong beverages.",
+	  "a":"growthcraft_apples:applecider",
+	  "a_t":"Cider made from Apples",
+	  "a_i":"book:hover_icon.png",
+	  "b":"growthcraft_grapes:grapewine",
+	  "b_t":"Wine made from Grapes!",
+	  "b_i":"book:hover_icon.png",
+	  "c":"growthcraft_bees:mead",
+	  "c_t":"Mead made from Honey!",
+	  "c_i":"book:hover_icon.png",
+	  "d":"growthcraft_rice:sakebottle",
+	  "d_t":"Sake made from Rice!",
+	  "d_i":"book:hover_icon.png",
+	  "e":"growthcraft_hops:hopale",
+	  "e_t":"Ale made from Hops!",
+	  "e_i":"book:hover_icon.png",
+	  "f":"growthcraft_milk:kumisbottle",
+	  "f_t":"Kumis made from Milk!",
+	  "f_i":"book:hover_icon.png",
+	  "g_i":"book:empty.png",
+	  "text2": "these aren't only exquisite and euphoria inducing; they will keep me $(thing)fed$() but $(l)decrease$() my $(thing)saturation$() and also grant me with some powerful $(thing)effects$(), if not a little $(t:Continued drinking will raise the level of Tipsy, after level III nausea and blindness will appear)$(thing)tipsiness$() too..."
+	},
+	{
+      "type": "text",
+      "text": "The gist of it is simple, it seems few others have knowledge of this process; I can either $(thing)brew$() an ingredient in a $(item)kettle$(), or I can extract its $(t:Apples and Grapes)$(thing)juice$() in a $(item)crushing tub$() or $(item)fruit press$(). Then, I let the result ferment in a barrel."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "agriculture_brewing/boozes"
+      ]
+    },
+	{
+      "type": "text",
+      "text": "$(9)$(l:https://docs.google.com/spreadsheets/d/1ykz1iqWUkarnZC76FGyjKs2wExdOgLJ7XHt3haNOV30/edit#gid=1739283064)External recipe spreadsheet."
+    }
+  ]
+}

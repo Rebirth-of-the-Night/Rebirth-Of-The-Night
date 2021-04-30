@@ -1,0 +1,15 @@
+{
+  "name": "Slider Eye",
+  "icon": "contenttweaker:slider_eye",
+  "category": "slayers_journal_arcana",
+  "advancement": "triumph:advancements/progression/aether/killedSlider",
+
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Slider Eye",
+			"item": "contenttweaker:slider_eye",
+			"text": "$(#734608)The $(item)Slider Eye$() $(#734608)is dropped by Sliders. It can be crafted into an $(item)Arcane Focus$()$(#734608), which is able to siphon the energy from the $(thing)Arcane Barrier$()$(#734608) and store it inside, destroying the barrier in the process.$()"
+    }
+  ]
+}

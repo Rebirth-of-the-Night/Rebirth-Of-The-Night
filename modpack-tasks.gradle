@@ -1,0 +1,163 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
+task clean(type: Delete) {
+    group 'build'
+
+    delete buildDir
+}
+
+task build(type: Copy) {
+    group 'build'
+    description 'build the mod pack so it can be run'
+
+    dependsOn 'buildTest'
+}
+
+// ------------------------------- //
+
+task buildTest(type: Copy) {
+    description 'copy the test run version of the client'
+    group 'modpack'
+
+    String dest = "${buildDir}/test"
+
+    // this is a fusion of common, client, and test resources
+    logger.info("copying common resources to ${dest}")
+    from 'src/common/'
+    into dest
+
+    logger.info("copying client-only resources to ${dest}")
+    from 'src/client-only/'
+    into dest
+
+    logger.info("copying test resources to ${dest}")
+    from 'src/test/'
+    into dest
+
+    logger.info("copying local resources to ${dest}")
+    from 'src/local/'
+    exclude 'README.md'
+    into dest
+
+    doLast{
+        println "your run is avaible at ${dest}"
+    }
+}
+
+task packageClient(type: Copy) {
+    description 'Assemble the client files for the modpack. If you run this file, you will mutate it. Clean and rebuild before release.'
+    group 'build'
+
+    String dest = "${buildDir}/client"
+
+    // this is a fusion of common, client, and test resources
+    logger.info("copying common resources to ${dest}")
+    from 'src/common/'
+    into dest
+
+    logger.info("copying client-only resources to ${dest}")
+    from 'src/client-only/'
+    into dest
+
+    doLast{
+        println "your run is avaible at ${dest}"
+    }
+}
+
+task packageServer(type: Copy) {
+    description 'Assemble the server files for the modpack. If you run this file, you will mutate it. Clean and rebuild before release.'
+    group 'build'
+
+    String dest = "${buildDir}/server"
+
+    // this is a fusion of common, client, and test resources
+    logger.info("copying common resources to ${dest}")
+    from 'src/common/'
+    into dest
+
+    logger.info("copying server resources to ${dest}")
+    from 'src/server-only/'
+    into dest
+
+    doLast{
+        println "your run is avaible at ${dest}"
+    }
+}
+
+//---- these aren't used currently
+
+
+task packageManifest() {
+    description "WIP build manifest file for CurseForge Client"
+    group "modpack"
+
+    doLast {
+        def text = JsonOutput.prettyPrint(
+                JsonOutput.toJson([
+                        "minecraft"      : [
+                                "version"   : "1.12.2",
+                                "modLoaders": [
+                                        [
+                                                "id"     : "forge-14.23.5.2854",
+                                                "primary": true
+                                        ]
+                                ]
+                        ],
+                        "manifestType"   : "minecraftModpack",
+                        "manifestVersion": 1,
+                        "name"           : "Rebirth of the Night",
+                        "version"        : project.ext.name,
+                        "author"         : project.ext.author,
+                ]))
+
+        new File("${buildDir}", "manifest.json").text = text
+    }
+}
+
+task buildUncursedModMeta() {
+    group "modpack"
+    description "produces a listing of modids from the jars- or at least as best as it can"
+
+    doLast {
+        def results = []
+
+        fileTree("src/main/mods").matching {
+            include "*.jar"
+        }.sort().each {
+            jar ->
+                def name = jar.name.take(jar.name.lastIndexOf("."))
+                def modid = ""
+
+                // look for info files
+                def tree = zipTree(jar).matching {
+                    include "**/*.info"
+                }
+                // warn if no info file found
+                if (tree.size() == 0) {
+                    logger.warn("No .info file found for ${jar.name}")
+                }
+                tree.each {
+                    mcmeta ->
+                        // should be an array, but people don"t follow th rules
+                        try {
+                            def data = new JsonSlurper().parse(mcmeta)
+                            if (data.size() != 1) {
+                                logger.warn("More than one entry found in .info of ${jar.name}")
+                            }
+                            modid = data[0].modid
+                        } catch (e) {
+                            logger.warn("unable to parse file ${mcmeta}")
+                        }
+                }
+                results += [
+                        name : name,
+                        modid: modid
+                ]
+        }
+
+        new File("${buildDir}/tmp", "mods.json").text =
+                JsonOutput.prettyPrint(
+                        JsonOutput.toJson(results))
+    }
+}

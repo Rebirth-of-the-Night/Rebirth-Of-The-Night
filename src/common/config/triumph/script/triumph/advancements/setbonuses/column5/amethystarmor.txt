@@ -1,0 +1,21 @@
+setIcon("atop:amethyst_chestplate")
+setTitle("Otherworldly Power")
+setDescription("Complete the Otherworldly Power set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Amethyst Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_helmet")
+
+criteria = addCriteria("Amethyst Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_chestplate")
+
+criteria = addCriteria("Amethyst Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_leggings")
+
+criteria = addCriteria("Amethyst Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:amethyst_boots")
+
+hideLines()
+alwaysVisible()
+setPos(225,30)

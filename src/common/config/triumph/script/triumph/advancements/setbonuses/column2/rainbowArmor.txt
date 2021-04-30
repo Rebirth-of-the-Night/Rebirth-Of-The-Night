@@ -1,0 +1,21 @@
+setIcon("atop:amethyst_helmet")
+setTitle("Taste the Rainbow!")
+setDescription("Complete the Taste The Rainbow set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Diamond Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_helmet")
+
+criteria = addCriteria("Ruby Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:ruby_chestplate")
+
+criteria = addCriteria("Peridot Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_leggings")
+
+criteria = addCriteria("Sapphire Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:sapphire_boots")
+
+hideLines()
+alwaysVisible()
+setPos(90,-60)

@@ -1,0 +1,49 @@
+{
+	"populate": 
+	{
+		"end_spikes": {
+			"distribution": "surface",
+			"generator": {
+				"type": "spike",
+				"block": [
+					{
+						"name": "minecraft:end_stone",
+						"weight": 100
+					},
+					{
+						"name": "minecraft:end_bricks",
+						"weight": 30
+					},
+					{
+						"name": "biomesoplenty:biome_block",
+						"weight": 2
+					}
+				],
+				"material": [
+					"minecraft:end_stone",
+					"stygian:endobsidian",
+					"air"
+				],
+				"min-height": 36,
+				"size-variance": 9,
+				"height-variance": 8,
+				"large-spikes": true,
+				"large-spike-chance": 1,
+				"large-spike-filler-size": 8
+			},
+			"material": [
+					"minecraft:end_stone",
+					"stygian:endobsidian",
+					"air"
+				],
+			"cluster-count": 1,
+			"cluster-size": 1,
+			"chunk-chance": 16,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "stygian:acidic_plains"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+setIcon(<contenttweaker:volatile_core>)
+setTitle("Quazar")
+setDescription("Kill Quazar")
+
+addParent("triumph:advancements/bosskills/root")
+
+
+criteria = addCriteria("Quazar", "minecraft:player_killed_entity")
+criteria.setEntityType("betterslimes:quazar")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+hiddenUnless("triumph:advancements/progression/hiddenKilledQuazar")
+setPos(-89,86)

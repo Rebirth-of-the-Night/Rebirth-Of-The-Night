@@ -1,0 +1,21 @@
+setIcon(<quark:backpack>)
+setTitle("Backpack")
+setDescription("Craft a backpack.")
+
+
+addParent("triumph:advancements/storage/chest")
+addParent("triumph:advancements/storage/quarkchest")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Backpack", "minecraft:inventory_changed")
+criteria.addItem("quark:backpack")
+
+// hideLines()
+// setHidden(true)
+alwaysVisible()
+setPos(-552,-97)

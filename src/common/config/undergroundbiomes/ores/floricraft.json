@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "floricraft:ore_salt",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/floricraft/ore_salt",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

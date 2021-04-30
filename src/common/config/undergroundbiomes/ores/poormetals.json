@@ -1,0 +1,234 @@
+[
+  {
+    "internalOreName": "poormetals:poor_aluminum_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_aluminum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_antimony_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_antimony_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_beryllium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_beryllium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_bismuth_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_bismuth_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_boron_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_boron_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_cadmium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_cadmium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_chromium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_chromium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_copper_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_copper_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_gold_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_gold_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_iridium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_iridium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_iron_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_iron_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_lead_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_lead_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_maganese_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_maganese_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_magnesium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_magnesium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_mercury_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_mercury_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_nickel_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_nickel_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_osmium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_osmium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_platinum_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_platinum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_plutonium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_plutonium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_rutile_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_rutile_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_silver_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_silver_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_tantalum_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_tantalum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_thorium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_thorium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_tin_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_tin_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_titanium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_titanium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_tungsten_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_tungsten_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_uranium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_uranium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_zinc_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_zinc_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "poormetals:poor_zirconium_ore",
+    "meta": 0,
+    "overlay": "poormetals:blocks/overworld/poor_zirconium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

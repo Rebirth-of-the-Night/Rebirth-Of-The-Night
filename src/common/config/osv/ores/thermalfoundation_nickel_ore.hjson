@@ -1,0 +1,31 @@
+name: thermalfoundation_nickel_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore:5
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: thermalfoundation:ore:5
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_nickel
+}
+recipe: {
+  result: thermalfoundation:material:133
+  xp: 0
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 5, 20 ]
+    size: 4
+    count: 2
+  }
+]

@@ -1,0 +1,29 @@
+name: metallurgy_copper_ore
+mod: metallurgy
+block: {
+  location: metallurgy:copper_ore
+  resistance: 18
+}
+texture: {
+  original: metallurgy:blocks/copper_ore
+}
+recipe: {
+  result: metallurgy:copper_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:copper_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 35, 120 ]
+    size: 8
+    count: 10
+  }
+]

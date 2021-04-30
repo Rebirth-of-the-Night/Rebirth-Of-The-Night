@@ -1,0 +1,7 @@
+{
+  "name": "Burning and Heating",
+  "description": "Mastering the use of fire is one of the simplest but most significant steps in learning to thrive.",
+  "icon": "minecraft:magma",
+  "sortnum": 2,
+  "parent": "innovation"
+}

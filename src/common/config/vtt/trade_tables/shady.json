@@ -1,0 +1,140 @@
+{ 
+	Profession:"vtt:shady", 
+	Career:"collector",
+
+	Offers:
+	{Recipes:
+		[{
+			action:"add", CareerLevel:1,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:1,max:5}},
+				sell:{id:"spartanweaponry:katana_wood",
+				Count:1,
+				tag:{display: {Name: "Wrapped Stick"}}}
+		},
+		{
+			action:"add", CareerLevel:1, chance:0.5,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:1,max:2}},
+				sell:{id:"eplus:decorative_book",
+				Damage:[0,1,4],
+				Count:{min:4,max:12}}
+		},
+		{
+			action:"add", CareerLevel:1,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:1},
+				sell:{id:"undergroundbiomes:fossil_piece",
+				Damage:[0,1,2,3,4,5,6,7],
+				Count:{min:12,max:28}}
+		},
+		{
+			action:"add", CareerLevel:2, maxUses:8, rewardExp:true,
+				buy:{id:"minecraft:emerald",
+				Count:{min:26,max:48}},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:{min:2,max:3}}
+		},
+		{
+			action:"add", CareerLevel:2, chance:0.4,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:1,max:2}},
+				sell:{id:"cyclicmagic:card_location",
+				Count:1}
+		},
+		{
+			action:"add", CareerLevel:2, maxUses:2, rewardExp:true,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:10,max:20}},
+				sell:{id:"behgameon:accessory_4",
+				Count:1}
+		},
+		{
+			action:"add", CareerLevel:2, maxUses:16, rewardExp:true, chance:0.75,
+				buy:{id:"nyx:meteor_shard",
+				Count:{min:2,max:4}},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:{min:1,max:4}}
+		},
+		{
+			action:"add", CareerLevel:2, chance:0.80,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:1,max:2}},
+				sell:{id:"iceandfire:manuscript",
+				Count:{min:1,max:3}}
+		},
+		{
+			action:"add", CareerLevel:2,
+				buy:{id:"minecraft:emerald",
+				Count:{min:1,max:4}},
+				sell:{id:"betterwithaddons:shinai",
+				Count:1}
+		},
+		{
+			action:"add", CareerLevel:2, chance:0.37,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:1,max:2}},
+				sell:{id:"betterwithmods:material",
+				Damage:[24,50],
+				Count:{min:4,max:8}}
+		},
+		{
+			action:"add", CareerLevel:3, chance:0.35,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:1},
+				sell:{id:"betterwithaddons:wood_lamp",
+				Count:{min:16,max:32}}
+		},
+		{
+			action:"add", CareerLevel:3, chance:0.35,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:1},
+				sell:{id:"betterwithaddons:wrought_lamp",
+				Count:{min:8,max:16}}
+		},
+		{
+			action:"add", CareerLevel:3, maxUses:3, rewardExp:true, chance:0.35,
+				buy:{id:"mowziesmobs:barakoa_mask_fury",
+				Count:1},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:{min:4,max:6}}
+		},
+		{
+			action:"add", CareerLevel:3, maxUses:4, rewardExp:true, chance:0.35,
+				buy:{id:"mowziesmobs:wrought_helmet",
+				Count:1},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:{min:3,max:5}}
+		},
+		{
+			action:"add", CareerLevel:3, maxUses:1, rewardExp:true, chance:0.35,
+				buy:{id:"mowziesmobs:barako_mask",
+				Count:1},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:{min:8,max:10}}
+		},
+		{
+			action:"add", CareerLevel:4, maxUses:2, rewardExp:true,
+				buy:{id:"atop:amber_sword",
+				Count:1},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:{min:5,max:8}}
+		},
+		{
+			action:"add", CareerLevel:4, maxUses:1, rewardExp:true, chance:0.25,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:48,max:56}},
+				sell:{id:"betterwithaddons:thorn_rose",
+				Count:1}
+		},
+		{
+			action:"add", CareerLevel:5, maxUses:2, rewardExp:true,
+				buy:{id:"contenttweaker:elevator",
+				Count:1},
+				sell:{id:"contenttweaker:nethercoin",
+				Count:5}
+		}
+		]
+		
+	}
+}

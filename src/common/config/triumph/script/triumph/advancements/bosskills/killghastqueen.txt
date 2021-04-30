@@ -1,0 +1,14 @@
+setIcon(<netherex:ghast_queen_tear>)
+setTitle("Queen of the Nether")
+setDescription("Slay The Ghast Queen.")
+
+addParent("triumph:advancements/bosskills/root")
+
+// criteria = addCriteria("Ghast Queen", "minecraft:player_killed_entity")
+// criteria.setEntityType("netherex:ghast_queen")
+
+criteria = addCriteria("Ghast Queen Tear", "minecraft:inventory_changed")
+criteria.addItem("netherex:ghast_queen_tear")
+
+hideLines()
+setPos(-119,179)

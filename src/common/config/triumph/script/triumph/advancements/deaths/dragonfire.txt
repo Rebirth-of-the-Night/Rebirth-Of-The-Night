@@ -1,0 +1,12 @@
+setIcon(<iceandfire:dragon_skull>)
+setTitle("Dracarys")
+setDescription("Die by dragon fire.")
+
+addParent("triumph:advancements/deaths/root")
+
+criteria = addCriteria("Fire", "triumph:player_death")
+criteria.damageType("dragon_fire")
+
+hideLines()
+setHidden(true)
+setPos(185,-13)

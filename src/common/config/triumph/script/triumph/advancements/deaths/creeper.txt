@@ -1,0 +1,63 @@
+setIcon(<minecraft:skull, meta:4>)
+setTitle("Aww Man")
+setDescription("Die by a Creeper.")
+
+addParent("triumph:advancements/deaths/root")
+
+
+criteria = addCriteria("Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("minecraft:creeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Rocket Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("primitivemobs:rocket_creeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Festive Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("primitivemobs:festive_creeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Spore Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("netherex:spore_creeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Dark Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:darkcreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Death Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:deathcreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Doom Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:doomcreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Ender Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:endercreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Fire Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:firecreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Jumping Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:jumpingcreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Lightning Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:lightningcreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Mini Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:minicreeper")
+criteria.setCount(1)
+
+criteria = addCriteria("Splitting Creeper", "minecraft:entity_killed_player")
+criteria.setEntityType("specialmobs:splittingcreeper")
+criteria.setCount(1)
+
+setRequirements("any")
+hideLines()
+setHidden(true)
+setPos(64,113)

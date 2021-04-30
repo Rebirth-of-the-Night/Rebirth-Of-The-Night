@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"True Dark's Edge: Brought back... no hope of rest... eternity inflicted.","color":"dark_red"}]

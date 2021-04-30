@@ -1,0 +1,9 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @a times 40 120 60
+title @a subtitle {"text":"A terrible chill seeps into your bones...", "color":"white"}
+title @a title {"text":"The Dead of Winter", "bold":false, "italic":true, "color":"black"}
+playsound dsurround:wind ambient @p ~ ~ ~ 0.8 0.5
+gamestage silentadd @a killedSunSpirit
+effect @p netherex:frostbitten 180 1
+give @p scalinghealth:crystalshard 5

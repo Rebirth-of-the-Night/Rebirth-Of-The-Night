@@ -1,0 +1,12 @@
+setIcon("dungeontactics:steel_sword")
+setTitle("You Are Valid")
+setDescription("Craft Dev Relic 5 of 6 with colors from the transgender flag.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 5", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_sword")
+
+alwaysVisible()
+hideLines()
+setPos(-262,138)

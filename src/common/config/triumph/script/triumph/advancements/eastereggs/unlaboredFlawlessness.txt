@@ -1,0 +1,12 @@
+setIcon("contenttweaker:phosphophyllite")
+setTitle("Gem Cutters and Ancient Sticks")
+setDescription("Craft Dev Relic 2 of 6 by placing a wrapped stick and an Onyx rod in an infuser.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 2", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:katana_onyx")
+
+alwaysVisible()
+hideLines()
+setPos(-368,138)

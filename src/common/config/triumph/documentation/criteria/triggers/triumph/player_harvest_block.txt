@@ -1,0 +1,77 @@
+These are the functions which can be called on a triumph:player_harvest_block criteria 
+trigger. This criteria is triggered by a player harvesting a block.
+
+
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
+setDimID:
+    Arguments:
+        int
+    Usage:
+        dimension id
+    Notes:
+        Sets the dimension id.
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
+
+setFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id. Used for things like structures.
+
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
+
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the required item.
+
+setBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        block data
+    Notes:
+        Sets the required block.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+setCount:
+    Arguments:
+        int
+    Usage:
+        count
+    Notes:
+        Sets the number of times this criteria must be completed before it counts towards advancement progress.
+
+getPlayerData:
+    Notes:
+        Gets the PlayerData for the criteria. Can set many things to test against the player themselves.
+

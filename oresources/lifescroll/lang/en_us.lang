@@ -1,7 +1,0 @@
-item.lifescroll.spawnscroll.name=§6Scroll of New Life
-
-tooltips.lifescroll.spawnscroll.usable=One time use. Right-click to set your spawn point to where you are standing.
-tooltips.lifescroll.spawnscroll.unusable=The scroll looks like a regular sheet of paper. It doesn't seem it will function here.
-
-messages.lifescroll.spawnscroll.success=§cYour destiny has been written.
-messages.lifescroll.spawnscroll.fail=The scroll appears to do nothing.

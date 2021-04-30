@@ -1,0 +1,102 @@
+[
+  {
+    "ore": "iceandfire:silver_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 5,
+    "size": 24,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:iron_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 24,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:lapis_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 18,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:redstone_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 22,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:gold_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 18,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:diamond_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 16,
+    "miny": 10,
+    "maxy": 100
+  },
+  {
+    "ore": "simpleores:adamantium_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 5,
+    "size": 18,
+    "miny": 85,
+    "maxy": 200
+  },
+  {
+    "ore": "simpleores:mythril_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 1,
+    "size": 14,
+    "miny": 10,
+    "maxy": 53
+  },
+  {
+    "ore": "dungeontactics:stonequartz_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 7,
+    "size": 10,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "scalinghealth:crystalore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 3,
+    "size": 8,
+    "miny": 5,
+    "maxy": 22
+  }
+]

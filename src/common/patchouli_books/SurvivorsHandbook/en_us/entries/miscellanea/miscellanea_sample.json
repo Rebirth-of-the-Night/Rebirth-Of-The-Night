@@ -1,0 +1,20 @@
+{
+  "name": "Sample Entry",
+  "icon": "pyrotech:obsidian_pickaxe",
+  "category": "miscellanea",
+  "advancement": "triumph:advancements/WIP",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "pyrotech:tool/obsidian_pickaxe",
+      "recipe2": "pyrotech:tool/obsidian_axe"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

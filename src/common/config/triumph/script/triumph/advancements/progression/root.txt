@@ -1,0 +1,19 @@
+
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon(<biomesoplenty:earth>)
+setTitle("Rebirth of the Night")
+setDescription("Welcome to Rebirth of the Night!")
+
+addRewardFunction("triumph:start")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+
+alwaysHidden()
+setHidden(true)
+setPos(-111,0)

@@ -1,0 +1,105 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+		"desert_native_copper_sand": {
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+				"block": [
+					{
+					"name": "contenttweaker:n_copper_sandstone"
+					},
+					{
+					"name": "minecraft:sandstone"
+					}
+				],
+				"material":[
+					{
+					"name": "minecraft:sandstone"
+					},
+					{
+					"name": "minecraft:sand",
+					"properties": {
+							"variant" : "sand"
+						}
+					}
+				],
+				"diameter": 1,
+				"count": 1
+			},
+			"chunk-chance": 40,
+			"in-village": false,
+			"cluster-count": 1,
+			"size-variance": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:desert", 
+					"minecraft:desert_hills",
+					"minecraft:mutated_desert",
+					"biomesoplenty:xeric_shrubland",
+					"biomesoplenty:oasis",
+					"biomesoplenty:outback",
+					"biomesoplenty:brushland"
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"desert_native_copper_redsand": {
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+				"block": [
+					{
+					"name": "contenttweaker:n_copper_sandstone_red"
+					},
+					{
+					"name": "minecraft:red_sandstone"
+					}
+				],
+				"material":[
+					{
+					"name": "minecraft:red_sandstone"
+					},
+					{
+					"name": "minecraft:sand",
+					"properties": {
+							"variant" : "red_sand"
+						}
+					}
+				],
+				"diameter": 1,
+				"count": 1
+			},
+			"chunk-chance": 28,
+			"in-village": false,
+			"cluster-count": 1,
+			"size-variance": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:desert", 
+					"minecraft:desert_hills",
+					"minecraft:mutated_desert",
+					"biomesoplenty:xeric_shrubland",
+					"biomesoplenty:oasis",
+					"biomesoplenty:outback",
+					"biomesoplenty:brushland"
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

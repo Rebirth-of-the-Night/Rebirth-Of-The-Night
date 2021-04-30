@@ -1,0 +1,26 @@
+{
+  "name": "Getting Wood",
+  "icon": "pyrotech:crude_axe",
+  "category": "survival",
+  "pages": [
+	{
+      "type": "crafting",
+      "recipe": "crafttweaker:pyro_crude_axe",
+	  "text": "I will eventually need to build a workshop. I need a crafting table, to work smarter and not harder; until then, I can make a crude axe to get some planks. After that, I can easily saw wood using my crafting table."
+    },
+	{
+      "type": "chop_recipe",
+	  "item1": "minecraft:log",
+	  "item2": "hitwithaxe:debarked_oak",
+	  "item3": "minecraft:planks",
+	  "text": "Debarking comes first; with stripped logs, I can make planks, and with planks, I can make sticks if I need to. Perfect!"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+setIcon("simpleores:onyx_chestplate")
+setTitle("Armor Of The Titans")
+setDescription("Complete the Armor Of The Titans set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Onyx Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_helmet")
+
+criteria = addCriteria("Onyx Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_chestplate")
+
+criteria = addCriteria("Onyx Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_leggings")
+
+criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_boots")
+
+hideLines()
+alwaysVisible()
+setPos(269,30)

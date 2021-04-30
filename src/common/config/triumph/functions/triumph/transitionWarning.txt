@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":" The barrier trembles. You sense a foul presence yearning to break free...","color":"gold","italic":true}]
+playsound zombieawareness:investigate ambient @p ~ ~ ~ 0.8 0.1
+gamestage silentadd @a enteredBeneath

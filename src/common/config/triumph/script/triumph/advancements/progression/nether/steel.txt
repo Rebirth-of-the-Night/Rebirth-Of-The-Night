@@ -1,0 +1,12 @@
+setIcon("dungeontactics:steel_ingot")
+setTitle("Refined!")
+setDescription("Obtain crude steel")
+
+addParent("triumph:advancements/progression/killedHarvester")
+
+criteria = addCriteria("Crude Steel", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_ingot")
+
+alwaysVisible()
+drawDirectLines()
+setPos(95,30)

@@ -1,0 +1,149 @@
+[
+  {
+    "content": "minecraft:gold_ingot",
+    "unitWorth": 200,
+    "weight": 30
+  },
+  {
+    "content": "minecraft:coal",
+    "unitWorth": 30,
+    "weight": 35
+  },
+  {
+    "content": "minecraft:bread",
+    "unitWorth": 350,
+    "weight": 20
+  },
+  {
+    "content": "minecraft:diamond",
+    "unitWorth": 2500,
+    "weight": 20
+  },
+  {
+    "content": "scalinghealth:heartdust",
+    "unitWorth": 2000,
+    "amount": {
+      "min": 16,
+      "max": 25
+    }
+  },
+  {
+    "content": "contenttweaker:blank_charm",
+    "unitWorth": 100,
+    "weight": 15,
+    "amount": {
+      "min": 4,
+      "max": 16
+    }
+  },
+  {
+    "content": "minecraft:iron_sword",
+    "unitWorth": 750,
+    "weight": 15,
+    "nbt_data": "{display:{Lore:[\"Sharper than Usual.\"]},ench:[{id:16,lvl:1}]}",
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:leather_helmet",
+    "unitWorth": 100,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:leather_boots",
+    "unitWorth": 100,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:iron_chestplate",
+    "unitWorth": 1800,
+    "weight": 15,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:golden_chestplate",
+    "unitWorth": 750,
+    "weight": 15,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "bountifulbaubles:trinketballoon",
+    "unitWorth": 5000,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "contenttweaker:strength_rune",
+    "unitWorth": 5000,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "totemexpansion:totem_repair",
+    "unitWorth": 5000,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "contenttweaker:poison_rune",
+    "unitWorth": 5000,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "contenttweaker:vis_shard",
+    "unitWorth": 5500,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "bountifulbaubles:crowngold",
+    "unitWorth": 3000,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:bow",
+    "unitWorth": 1300,
+    "weight": 15,
+    "nbt_data": "{ench:[{id:48,lvl:2}]}",
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  }
+]

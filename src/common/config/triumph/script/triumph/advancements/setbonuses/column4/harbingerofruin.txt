@@ -1,0 +1,24 @@
+setIcon("rats:plague_scythe")
+setTitle("Harbinger of Ruin")
+setDescription("Complete the Harbinger of Ruin set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Black Death Mask", "minecraft:inventory_changed")
+criteria.addItem(<rats:black_death_mask>)
+
+criteria = addCriteria("Plague Scythe", "minecraft:inventory_changed")
+criteria.addItem(<rats:plague_scythe>)
+
+criteria = addCriteria("Plagued Chestplate", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:swinearmor_chestplate>)
+
+criteria = addCriteria("Plagued Leggings", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:swinearmor_leggings>)
+
+criteria = addCriteria("Plagued Boots", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:swinearmor_boots>)
+
+hideLines()
+alwaysVisible()
+setPos(180,-30)

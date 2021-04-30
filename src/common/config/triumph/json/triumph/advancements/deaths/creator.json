@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "atop:amber_sword"
+    },
+    "frame": "challenge",
+    "title": "She Made You, She Will Unmake You",
+    "description": "Die to zombie CalaMariGold."
+  },
+  "parent": "triumph:advancements/deaths/zombiePlayer",
+  "criteria": {
+    "ZombieCalaMariGold": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "zombie_players:zombie_player",
+          "nbt": "{playerName:CalaMariGold}"
+        }
+      }
+    }
+  }
+}

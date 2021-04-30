@@ -1,0 +1,20 @@
+setIcon(<minecraft:dirt>)
+setTitle("TF Boss Ensemble")
+setDescription("Slay the Twilight Forest Boss Ensemble.")
+
+addParent("triumph:advancements/progression/twilight/enterTwilight")
+
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+visibleIf("triumph:advancements/progression/wither/killghastqueen")
+visibleIf("triumph:advancements/progression/wither/killprimordial")
+drawDirectLines()
+setPos(672,0)

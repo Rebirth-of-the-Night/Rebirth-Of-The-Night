@@ -1,0 +1,36 @@
+{
+  "name": "The Ender Dragon",
+  "icon": "endreborn:dragon_scales",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/beneath/killedIdolOfRadiance",
+
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "In the End",
+      "item": "endreborn:dragon_scales",
+      "text": "$(#734608)'Endless does the dragon, last of her kind, fly in vain / bearing the weight of all her world.' Translated this phrase within the log of a codex. A poem, or some kind of prayer?$()$()"
+    },
+    {
+      "type": "text",
+      "text": "$(#734608) Runes inscribed on some of the $(thing)crystals$() $(#734608)I've seen in Ender outposts seem to reference 'restoring' or 'sustaining' some kind of ancient ruined beast - that same dragon? Crystals are extremely volatile (great as remote detonation triggers!), but I haven't been able to detect any kind of healing energy or life quintessence inside them, no matter what I try.$()."
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:ender_crystal",
+      "scale": 0.8,
+      "offset": -0.9,
+      "rotate": "false",
+      "default_rotation": -45,
+      "name": "End Crystal"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/soulfire_core",
+        "slayers_journal/altar"
+      ]
+    }
+  ]
+}

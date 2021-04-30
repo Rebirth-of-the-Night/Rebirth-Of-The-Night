@@ -1,0 +1,14 @@
+addParent("triumph:advancements/progression/root")
+
+
+criteria = addCriteria("caltrops", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:caltrops")
+
+criteria = addCriteria("stone brick", "minecraft:inventory_changed")
+criteria.addItem(<ore:StoneHugeBrick>)
+
+setRequirements("all")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()

@@ -1,6 +1,0 @@
-gamerule commandBlockOutput false
-gamerule sendCommandFeedback false
-title @p times 40 120 60
-title @p subtitle {"text":"You feel empty. You hear nothing. You want to leave.", "color":"yellow"}
-title @p title {"text":"The End", "bold":false, "italic":false, "color":"white"}
-gamestage silentadd @a enteredEnd

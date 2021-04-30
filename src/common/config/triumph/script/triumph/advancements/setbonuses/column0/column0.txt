@@ -1,0 +1,31 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("fortuneandglory", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/fortuneandglory/fortuneandglory")
+
+criteria = addCriteria("bronzearmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/bronzearmor")
+
+criteria = addCriteria("chainarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/chainarmor")
+
+criteria = addCriteria("gladiator", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/gladiator")
+
+criteria = addCriteria("goldarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/goldarmor")
+
+criteria = addCriteria("ironarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/ironarmor")
+
+criteria = addCriteria("leatherarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/leatherarmor")
+
+criteria = addCriteria("powerfulPunches", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/powerfulPunches")
+
+criteria = addCriteria("silverarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/silverarmor")
+
+alwaysHidden()

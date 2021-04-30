@@ -1,0 +1,21 @@
+setIcon("quark:archaeologist_hat")
+setTitle("Fortune and Glory")
+setDescription("Complete the Fortune and Glory set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Archaeologist Hat", "minecraft:inventory_changed")
+criteria.addItem("quark:archaeologist_hat")
+
+criteria = addCriteria("Backpack", "minecraft:inventory_changed")
+criteria.addItem("quark:backpack")
+
+criteria = addCriteria("Any Leather Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/fortuneandglory/leggings")
+
+criteria = addCriteria("Any Leather Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/fortuneandglory/boots")
+
+hideLines()
+alwaysVisible()
+setPos(0,150)

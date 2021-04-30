@@ -1,0 +1,12 @@
+setIcon("msmlegacy:aethers_guard")
+setTitle("Commander of the Skies")
+setDescription("Craft a Sky Blade")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Sky Blade", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:aethers_guard")
+
+hideLines()
+alwaysVisible()
+setPos(45,235)

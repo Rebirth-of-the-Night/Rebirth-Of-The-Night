@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "undergroundbiomes:blocks/dolomite",
+      "particle": "undergroundbiomes:blocks/dolomite"
+    },
+    "model": "contenttweaker:dolomite_straws",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

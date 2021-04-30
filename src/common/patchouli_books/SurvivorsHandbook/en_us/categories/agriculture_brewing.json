@@ -1,0 +1,7 @@
+{
+  "name": "Brewing",
+  "description": "Brewing alcohol from plant products can grant me unique benefits... among other things.",
+  "icon": "growthcraft_cellar:ferment_barrel",
+  "sortnum": 3,
+  "parent": "agriculture"
+}

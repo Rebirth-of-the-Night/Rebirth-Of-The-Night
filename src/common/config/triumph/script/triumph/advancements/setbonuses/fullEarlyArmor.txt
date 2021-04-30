@@ -1,0 +1,32 @@
+setIcon("minecraft:iron_sword")
+setTitle("Full Early Armor")
+setDescription("Unlock the Full Early Armor gamestage.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Bronze Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/bronzearmor")
+
+criteria = addCriteria("Chain Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/chainarmor")
+
+criteria = addCriteria("Iron Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/ferrousgiant")
+
+criteria = addCriteria("Silver Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/silverarmor")
+
+criteria = addCriteria("Gold Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/goldarmor")
+
+criteria = addCriteria("Leather Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/leatherarmor")
+
+setRequirements("any")
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+alwaysHidden()
+setPos(-430,14)

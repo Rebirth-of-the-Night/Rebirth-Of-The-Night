@@ -1,0 +1,21 @@
+setIcon("aether_legacy:phoenix_chestplate")
+setTitle("From The Ashes")
+setDescription("Complete the From The Ashes set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Pheonix Helmet", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:phoenix_helmet")
+
+criteria = addCriteria("Pheonix Chestplate", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:phoenix_chestplate")
+
+criteria = addCriteria("Pheonix Leggings", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:phoenix_leggings")
+
+criteria = addCriteria("Pheonix Boots", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:phoenix_boots")
+
+hideLines()
+alwaysVisible()
+setPos(45,-15)

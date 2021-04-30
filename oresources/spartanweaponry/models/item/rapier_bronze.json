@@ -1,6 +1,0 @@
-{
-    "parent":"spartanweaponry:item/rapier_wood",
-    "textures": {
-        "layer0":"spartanweaponry:items/rapier_bronze"
-    }
-}

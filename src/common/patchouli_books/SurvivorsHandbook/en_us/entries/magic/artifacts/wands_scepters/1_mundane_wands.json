@@ -1,0 +1,108 @@
+{
+  "name": "Mundane Wands",
+  "icon": "contenttweaker:wand_base_mundane",
+  "category": "magic_artifacts_wandssceptersstaves",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Made with mundane and simple magicks, these wands can perform simple and weak magical tasks. I can fashion a wand by creating a mundane wand base, and then combining it with some materials and runic magic within the runic table."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:wand_base_mundane",
+      "text": "The Mundane Wand Base is the primary component for all mundane wands. One can be fashioned out of any wood log and some vis specks in the runic table."
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandMundane"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_cook",
+      "text": "Imbued with the magic of fire, this wand is capable of cooking raw foods that I'm holding. I can choose to cook all food I'm holding, or cook a single handful of food while doubling its yield."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(2)Mundane$()$(br2)$(l)Primary Effect: $()Cooks all food in inventory.$(br2)$(l)Secondary Effect: $()Cooks a single stack of food, doubling the result.$(br2)$(l)Cost: $()144 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandCook",
+      "text_left": "1x Mundane Wand Base $(br)1x Flint & Steel/Tinder $(br)1x Fire Charge $(br)2x Iron Ingot",
+      "text_right": "Fire Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {      
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_freeze",
+      "text": "Imbued with the magic of water and order, this wand is capable of freezing my foes, slowing them down. Casting this wand normally will freeze all nearby living beings, but I can also choose to ignore those I consider allies while casting."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(2)Mundane$()$(br2)$(l)Primary Effect: $()Applies $(4)slowness $()to nearby entities for 10 seconds, and deals 2 damage.$(br2)$(l)Secondary Effect: $()Same as primary, but ignores players.$(br2)$(l)Cost: $()12 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandFreeze",
+      "text_left": "1x Mundane Wand Base $(br)1x Waterlogged Sapphire $(br)1x Ice Crystal $(br)2x Ice",
+      "text_right": "Water Rune $(br)Order Rune $(br)Note: Ice Crystal is not consumed"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_satiate",
+      "text": "Imbued with the magic of life and energy, this wand is can fill the stomachs of self and others. I can choose to fill my own stomach, or those around me while casting."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(2)Mundane$()$(br2)$(l)Primary Effect: $()Restores 4 shanks of hunger to self.$(br2)$(l)Secondary Effect: $()Restores 2 shanks of hunger to nearby entities.$(br2)$(l)Cost: $()8 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandSatiate",
+      "text_left": "1x Mundane Wand Base $(br)1x Famine Charm $(br)1x Apple $(br)1x Leaves",
+      "text_right": "Life Rune $(br)Energy Rune $(br2)"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_punish",
+      "text": "Imbued with the magic of earth, this wand inflicts damage onto nearby beings. Casting the wand normally inflicts damage on everything near me, or I can choose to ignore allies."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(2)Mundane$()$(br2)$(l)Primary Effect: $()Inflicts 3 damage to nearby entities.$(br2)$(l)Secondary Effect: $()Same as primary, but ignores players.$(br2)$(l)Cost: $()6 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandPunish",
+      "text_left": "1x Mundane Wand Base $(br)1x Bone Block $(br)1x Skull $(br)2x Bones",
+      "text_right": "Earth Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

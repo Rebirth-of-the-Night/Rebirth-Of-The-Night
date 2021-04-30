@@ -1,0 +1,389 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "minecraft:iron_sword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "entryName": "minecraft:iron_chestplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "entryName": "minecraft:iron_helmet",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "entryName": "minecraft:iron_leggings",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "entryName": "minecraft:iron_boots",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "quark:treasure_map",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:set_treasure"
+            }
+          ],
+          "name": "minecraft:filled_map"
+        },
+        {
+          "entryName": "DT:IronClub",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "dungeontactics:iron_club"
+        },
+        {
+          "entryName": "DT:HighStriker",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:high_striker"
+        },
+        {
+          "entryName": "DT:GnomeStick",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:gnome_stick"
+        },
+        {
+          "entryName": "DT:Wackerjab",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:wackerjab"
+        },
+        {
+          "entryName": "DT:Taser",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:taser"
+        },
+        {
+          "entryName": "DT:Claws",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:claws"
+        },
+        {
+          "entryName": "DT:LithenScythe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:lithen_scythe"
+        },
+        {
+          "entryName": "DT:CoinCannon",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:coin_cannon"
+        },
+        {
+          "entryName": "DT:HotPotatoe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.25
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "dungeontactics:hot_potatoe"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "manuscript",
+      "entries": [
+        {
+          "entryName": "iceandfire:manuscript",
+          "weight": 20,
+          "quality": 5,
+          "type": "item",
+          "name": "iceandfire:manuscript"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "behgameon_inject_pool",
+      "entries": [
+        {
+          "entryName": "behgameon_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "behgameon:inject/stronghold_corridor"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

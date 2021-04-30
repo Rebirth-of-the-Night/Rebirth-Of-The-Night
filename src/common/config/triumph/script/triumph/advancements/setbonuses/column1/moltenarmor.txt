@@ -1,0 +1,21 @@
+setIcon("mod_lavacow:felarmor_chestplate")
+setTitle("Hellwalker")
+setDescription("Complete the Hellwalker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Molten Helmet", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:felarmor_helmet>)
+
+criteria = addCriteria("Molten Chestplate", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:felarmor_chestplate>)
+
+criteria = addCriteria("Molten Leggings", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:felarmor_leggings>)
+
+criteria = addCriteria("Molten Boots", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:felarmor_boots>)
+
+hideLines()
+alwaysVisible()
+setPos(45,135)

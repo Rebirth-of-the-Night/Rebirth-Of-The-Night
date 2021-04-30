@@ -1,0 +1,27 @@
+[
+    {
+        "playerhelditem": "from_the_depths:item_totem_of_summoning",
+        "block": "from_the_depths:block_altar_of_summoning",
+        "message": "The skies roar as the scourge of the galaxy approaches..."
+    },
+	{
+		"playerhelditem": "contenttweaker:info",
+		"block": "randomthings:voxelprojector",
+		"result": "allow"
+	},
+	{
+		"block": "randomthings:voxelprojector",
+		"message": "I have no idea how to operate this thing...",
+		"result": "deny"
+	},
+	{
+		"playerhelditem": "betterwithmods:steel_mattock",
+		"block": "minecraft:cobblestone",
+		"setblock":  { 'block': 'contenttweaker:cobblestone_path_coade'}
+	},
+	{
+		"playerhelditem": "betterwithmods:steel_mattock",
+		"block": "undergroundbiomes:igneous_cobble",
+		"setblock":  { 'block': 'contenttweaker:cobblestone_path_red_granite'}
+	}
+]

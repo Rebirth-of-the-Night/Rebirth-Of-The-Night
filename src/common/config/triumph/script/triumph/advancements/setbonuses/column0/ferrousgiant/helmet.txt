@@ -1,0 +1,19 @@
+setIcon("minecraft:iron_chestplate")
+setTitle("The Ferrous Giant")
+setDescription("Complete The Ferrous Giant set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Iron Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_helmet")
+
+criteria = addCriteria("Steel Helmet", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_helmet")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(0,0)

@@ -1,0 +1,108 @@
+{
+  "name": "Mystical Wands",
+  "icon": "contenttweaker:wand_base_mystical",
+  "category": "magic_artifacts_wandssceptersstaves",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Made with complex magicks, these wands can perform very useful magical tasks. I can fashion a wand by creating a mystical wand base, and then combining it with some materials and runic magic within the runic table."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:wand_base_mystical",
+      "text": "The Mystical Wand Base is the primary component for all mystical wands. This powerful wand requires high-magic woods. I must seek out wood that's highly magical and craft it with a vis shard in the runic table."
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandMystical"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_mm",
+      "text": "Imbued with the magic of air and ender, this wand casts a homing projectile that finds and hits nearby foes."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(6)Mystical$()$(br2)$(l)Primary Effect: $()Casts a homing projectile that deals 4 damage and applies $(4)levitate $()to target for 10 seconds.$(br2)$(l)Secondary Effect: $()Ignores players.$(br2)$(l)Cost: $()42 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandMM",
+      "text_left": "1x Mystical Wand Base $(br)1x Shulker Shell $(br)1x Voidseen Amethyst $(br)2x Gravitite Ingot",
+      "text_right": "Air Rune $(br)End Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_smite",
+      "text": "Imbued with the magic of energy and aether, this wand calls down lightning where I aim."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(6)Mystical$()$(br2)$(l)Primary Effect: $()Calls lightning down at target, dealing 4 damage and applying $(4)burning $()to target for 8 seconds.$(br2)$(l)Secondary Effect: $()Ignores players.$(br2)$(l)Cost: $()72 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandSmite",
+      "text_left": "1x Mystical Wand Base $(br)1x Electrum Ingot $(br)1x Electrified Zanite $(br)2x Iron Ingot",
+      "text_right": "Energy Rune $(br)Aether Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_rage",
+      "text": "Imbued with the magic of strength and dragons, this wand can strengthen and fortify nearby allies."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(6)Mystical$()$(br2)$(l)Primary Effect: $()Applies $(4)strength $()and $(4)resistance $()to self and nearby allies for 8 seconds.$(br2)$(l)Secondary Effect: $()Applies same effect for half duration to all nearby entities.$(br2)$(l)Cost: $()48 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandRage",
+      "text_left": "1x Mystical Wand Base $(br)1x Mask of Rage $(br)1x Fortified Ruby $(br)2x Gold Ingot",
+      "text_right": "Strength Rune $(br)Draconic Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:dummy_wand_transport",
+      "text": "Imbued with the magic of death and creation, this wand can summon a horse from hell."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Tier: $()$(6)Mystical$()$(br2)$(l)Primary Effect: $()Summons a skeleton horse.$(br2)$(l)Secondary Effect: $()Applies same effect for half duration to all nearby entities.$(br2)$(l)Cost: $()48 $(item)Wand Powder"
+    },
+    {
+      "type": "artisanintegrations:workstation",
+      "recipe": "mage:wandTransport",
+      "text_left": "1x Mystical Wand Base $(br)1x Water Candle $(br)1x Raw Horse $(br)2x Frosted Wither Bone",
+      "text_right": "Death Rune $(br)Creation Rune"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

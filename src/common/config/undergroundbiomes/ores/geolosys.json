@@ -1,0 +1,146 @@
+[
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/hematite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/limonite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/malachite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 3,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/azurite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 4,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/cassiterite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 5,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/teallite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 6,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/galena",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 7,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/bauxite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 8,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/platinum",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 9,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/autunite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore",
+    "meta": 10,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/sphalerite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore_vanilla",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/coal",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore_vanilla",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/cinnabar",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore_vanilla",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/gold",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore_vanilla",
+    "meta": 3,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/lapis",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore_vanilla",
+    "meta": 4,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/quartz",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore_vanilla",
+    "meta": 5,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/kimberlite",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "geolosys:ore_vanilla",
+    "meta": 6,
+    "overlay": "undergroundbiomes:blocks/overlays/geolosys/beryl",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

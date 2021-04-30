@@ -1,0 +1,45 @@
+{
+  "name": "The Harvester",
+  "icon": "minecraft:lit_pumpkin",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/slayersjournal",
+
+  "sortnum": 1,
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Lighting the Wickerman",
+			"item": "minecraft:lit_pumpkin",
+			"text": "$(#734608)The Harvester is less a monster and more a force of nature. Learned this dark ritual from a witch: building one of these scarecrows around a $(l:slayers_journal/soulfire_core)$(item)Soulfire Chassis$() $(#734608)will summon an echo of the Harvester's spirit.$()"
+		},
+	{
+	"type": "multiblock",
+      "name": "Harvester Effigy",
+      "multiblock": {
+        "pattern": [
+					[" J ", "   "],
+					["H0H", "   "],
+					[" B ", " S "]
+				],
+        "mapping": {
+          "0": "betternether:bone_block",
+          "J": "minecraft:lit_pumpkin[facing=east]",
+          "H": "minecraft:hay_block",
+		  "B": "betternether:bone_block",
+		  "S": "multiblockmobs:soul_chassis[facing=east]"
+		},
+				"symmetrical": true,
+				"offset"     : [0, 0, 0],
+				"view_offset": [0, 0, 0]
+   		},
+			"text": "$(#734608)A lit pumpkin, bales of hay, and hardened bone form the body.$()",
+			"enable_visualize": true
+},
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/soulfire_core"
+      ]
+    }
+  ]
+}

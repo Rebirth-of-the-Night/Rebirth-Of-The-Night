@@ -1,15 +1,16 @@
-task clean(type: Delete) {
-    delete 'build'
-    group 'build'
+apply plugin: 'idea'
+
+ext {
+    archiveBaseName = 'RebirthOfTheNight'
+
+    name = "Rebirth of the Night"
+    author = "Sandwich Horror"
+    description = "..."
+
+    version = "3.0b5"
+    mcVersion = "1.12.2"
+    forgeVersion = "forge-14.23.5.2854"
 }
 
-task copyMods(type: Copy) {
-    from '.'
-    into 'build/target'
-    exclude '.*'
-    // because we don't want infinite loops now do we
-    exclude 'build'
-    exclude 'build.gradle'
+apply from: 'modpack-tasks.gradle'
 
-    group 'build'
-}

@@ -1,0 +1,293 @@
+{
+	"biome": "biomesoplenty:fungi_forest",
+	"generationWeight": 0,
+	"useDefaultDecorations": true,
+	"isSubBiome": false,
+	"blocks": {},
+	"entities": [
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4,
+			"entity": "minecraft:ghast"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4,
+			"entity": "minecraft:zombie_pigman"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4,
+			"entity": "minecraft:magma_cube"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4,
+			"entity": "minecraft:enderman"
+		}, 
+		{
+			"spawnWeight": 30,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 8,
+			"entity": "mod_lavacow:salamander"
+		}, 
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "minecraft:blaze"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "quark:foxhound"
+		}, 
+		{
+			"spawnWeight": 60,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 6,
+			"entity": "quark:wraith"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "zombie_players:zombie_player"
+		}, 
+		{
+			"spawnWeight": 13,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 2,
+			"entity": "animania:sow_large_black"
+		}, 
+		{
+			"spawnWeight": 13,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 2,
+			"entity": "animania:cow_mooshroom"
+		}, 
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "quark:wraith"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "netherex:brute"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:void_eye"
+		}, 
+		{
+			"spawnWeight": 30,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:support_creeper"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "primitivemobs:goblin"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:festive_creeper"
+		}, 
+		{
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "minecraft:ghast"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "minecraft:wither_skeleton"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:haunted_tool"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "multimob:dummy"
+		}, 
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:trollager"
+		}, 
+		{
+			"spawnWeight": 25,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:trollager"
+		}, 
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 5,
+			"entity": "mod_lavacow:salamander"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:festive_creeper"
+		}, 
+		{
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "netherex:salamander"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "netherex:ghastling"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:blazing_juggernaut"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:treasure_slime"
+		}, 
+		{
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "netherex:spinout"
+		}, 
+		{
+			"spawnWeight": 20,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "quark:foxhound"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "primitivemobs:skeleton_warrior"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "primitivemobs:harpy"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:rocket_creeper"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 6,
+			"entity": "minecraft:zombie_pigman"
+		}, 
+		{
+			"spawnWeight": 6,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 7,
+			"entity": "netherex:nethermite"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 3,
+			"maximumGroupCount": 5,
+			"entity": "netherex:mogus"
+		}, 
+		{
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "primitivemobs:goblin"
+		}, 
+		{
+			"spawnWeight": 40,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "primitivemobs:sheepman"
+		}, 
+		{
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:traveling_merchant"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "multimob:dummy"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2,
+			"entity": "primitivemobs:dodo"
+		}, 
+		{
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:lost_miner"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "multimob:dummy"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:flame_spewer"
+		}, 
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "multimob:dummy"
+		}, 
+		{
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:flame_spewer"
+		}
+	],
+	"traits": [],
+	"subBiomes": []
+}

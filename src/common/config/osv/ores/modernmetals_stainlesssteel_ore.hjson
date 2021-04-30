@@ -1,0 +1,19 @@
+name: modernmetals_stainlesssteel_ore
+mod: modernmetals
+block: {
+  location: modernmetals:stainlesssteel_ore
+  hardness: 16
+  level: 5
+}
+loot: [
+  {
+    item: modernmetals:stainlesssteel_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/stainlesssteel_ore
+}

@@ -1,0 +1,14 @@
+setIcon(<minecraft:dirt>)
+setTitle("End Mage")
+setDescription("Kill The End Mage.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+hiddenUnless("triumph:advancements/progression/end/hiddenKilledEndMage")
+setPos(-57,117)

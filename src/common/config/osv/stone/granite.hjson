@@ -1,0 +1,10 @@
+block: {
+  location: stone:1
+}
+gen: [
+  {
+    height: [0, 80]
+    size: 0
+    count: 0
+  }
+]

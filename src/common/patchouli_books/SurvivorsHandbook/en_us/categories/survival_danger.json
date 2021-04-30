@@ -1,0 +1,7 @@
+{
+  "name": "Danger",
+  "description": "When it comes to surviving, I have far more to worry about than starving to death. Natural hazards, hostile wildlife, and monsters are just a few of the threats I'll face. When it comes to these dangers, I should be confident without being foolhardy",
+  "icon": "minecraft:skull",
+  "sortnum": 5,
+  "parent": "survival"
+}

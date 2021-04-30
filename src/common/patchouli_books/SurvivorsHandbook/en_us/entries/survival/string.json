@@ -1,0 +1,32 @@
+{
+  "sortnum": 1,
+  "name": "Fibers, Strings and Twines",
+  "icon": "minecraft:string",
+  "category": "survival_gathering",
+  "pages": [
+	{
+      "type": "text",
+      "text": "Strings are twisted chords made of several natural resources such as dried fibers, wool, spider silk, sisal, cotton, hemp, flax, jute uncording some durable fibers or found as loot. To start with, I can get plant fibers from breaking tall grass, and get some already dried fibers if I'm lucky, or I could try to venture out hunting for spiders and treasure chests."
+    },
+	{
+      "type": "text",
+      "text": "
+	  $(l)Raw Material/$
+	  $(li)$(t:Dropped from spiders, used to make string)$(item)Spider silk/$
+	  $(li)$(t:Obtained from tall grass)$(item)Plant Fibers/$
+	  $(li)$(t:Obtained from drying plant fibers or rarely dropped directly from tall grass, used to make twine)$(item)Dried Plant Fibers/$$(br)
+	  $(l)Basic Quality/$
+	  $(li)$(t:Made from Hemp, Flax, Sisal, Cotton or Dried Plant Fibers. Can be turned into string if needed, but some recipes can be made with just twines)$(item)Twine/$
+	  $(li)$(t:A more durable chord made from Twines, Spider Silk, Wool or as a byproduct of processing Hemp, Cotton, Sisal and Jute)$(item)String/$$(br)
+	  $(l)Industrial Quality/$
+	  $(li)$(t:A direct upgrade from natural fiber twines, being tarred it serves the same purposes as Durable Fibers)$(item)Durable Twine/$
+	  $(li)$(t:Obtained from carefully twinning more plant fibers by hand or processing in a millstone, it serves the same purposes as Durable Twines)$(item)Durable Fibers/$"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "agriculture/fiber_crops"
+      ]
+    }
+  ]
+}

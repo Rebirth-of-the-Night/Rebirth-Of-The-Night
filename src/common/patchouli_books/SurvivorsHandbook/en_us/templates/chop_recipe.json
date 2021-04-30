@@ -1,0 +1,35 @@
+{
+	"components": [
+		{
+			"type": "item",
+			"item": "#item1",
+			"x": 10,
+			"y": 28
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"x": 50,
+			"y": 28
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"x": 90,
+			"y": 28
+		},
+		{
+			"type": "text",
+			"text": "#text",
+			"x": 0,
+			"y": 69
+		},
+		{
+		"type": "image",
+		"image": "book:template_recipes.png",
+		"width": 112, "height": 22,
+		"x": 1,
+		"y": 25
+		}
+	]
+}

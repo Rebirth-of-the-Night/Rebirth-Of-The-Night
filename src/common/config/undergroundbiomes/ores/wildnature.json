@@ -1,0 +1,42 @@
+[
+  {
+    "internalOreName": "wildnature:amethyst_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/wildnature/amethyst_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "wildnature:malachite_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/wildnature/malachite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "wildnature:ruby_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/wildnature/ruby_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "wildnature:sapphire_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/wildnature/sapphire_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "wildnature:silver_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/wildnature/silver_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

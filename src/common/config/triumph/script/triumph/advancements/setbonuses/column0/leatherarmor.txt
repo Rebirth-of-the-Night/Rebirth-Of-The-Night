@@ -1,0 +1,24 @@
+setIcon("minecraft:leather_chestplate")
+setTitle("The Hunter")
+setDescription("Complete The Hunter set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Leather Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_helmet")
+
+criteria = addCriteria("Leather Chesplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_chestplate")
+
+criteria = addCriteria("Leather Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_leggings")
+
+criteria = addCriteria("Leather Boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_boots")
+
+criteria = addCriteria("Bronze Axe", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_axe")
+
+hideLines()
+alwaysVisible()
+setPos(0,-30)

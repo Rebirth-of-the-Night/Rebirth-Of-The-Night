@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "starwars:ore_crystal",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/starwars/ore_crystal",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

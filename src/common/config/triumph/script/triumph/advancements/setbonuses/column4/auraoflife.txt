@@ -1,0 +1,21 @@
+setIcon("simpleores:adamantium_chestplate")
+setTitle("Aura of Life")
+setDescription("Complete the Aura of Life set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Viridium Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_helmet")
+
+criteria = addCriteria("Mythril Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_chestplate")
+
+criteria = addCriteria("Viridium Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_leggings")
+
+criteria = addCriteria("Mythril Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_boots")
+
+hideLines()
+alwaysVisible()
+setPos(180,90)

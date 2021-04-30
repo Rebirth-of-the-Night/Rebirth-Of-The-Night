@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "artifacts:snorkel",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:snorkel"
+        },
+        {
+          "entryName": "artifacts:drinking_hat",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:drinking_hat"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "clutter",
+      "entries": [
+        {
+          "entryName": "minecraft:sponge",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sponge"
+        },
+        {
+          "entryName": "minecraft:prismarine_shard",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 20.0,
+                "max": 40.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:prismarine_shard"
+        },
+        {
+          "entryName": "minecraft:prismarine_crystals",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 20.0,
+                "max": 40.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "entryName": "minecraft:sea_lantern",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sea_lantern"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 6.0
+      }
+    }
+  ]
+}

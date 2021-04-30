@@ -1,0 +1,176 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#title",
+			"centered": true,
+			"x": -1,"y": -1
+		},
+		{
+			"type": "text",
+			"text": "#text",
+			"x": 0,
+			"y": 13
+		},
+		{
+			"type": "item",
+			"item": "#a",
+			"x": 0,
+			"y": 68
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#a_t"],
+			"width": 16,
+			"height": 16,
+			"x": 0,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#a_i",
+			"width": 16, "height": 16,
+			"texture_width": 16, "texture_height": 16,
+			"x": 1,
+			"y": 56
+		},
+		{
+			"type": "item",
+			"item": "#b",
+			"x": 16,
+			"y": 68
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#b_t"],
+			"width": 16,
+			"height": 16,
+			"x": 16,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#b_i",
+			"width": 16, "height": 16,
+			"texture_width": 16, "texture_height": 16,
+			"x": 17,
+			"y": 56
+		},
+		{
+			"type": "item",
+			"item": "#c",
+			"x": 32,
+			"y": 68
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#c_t"],
+			"width": 16,
+			"height": 16,
+			"x": 32,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#c_i",
+			"width": 16, "height": 16,
+			"texture_width": 16, "texture_height": 16,
+			"x": 33,
+			"y": 56
+		},
+		{
+			"type": "item",
+			"item": "#d",
+			"x": 48,
+			"y": 68
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#d_t"],
+			"width": 16,
+			"height": 16,
+			"x": 48,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#d_i",
+			"width": 16, "height": 16,
+			"texture_width": 16, "texture_height": 16,
+			"x": 49,
+			"y": 56
+		},
+		{
+			"type": "item",
+			"item": "#e",
+			"x": 64,
+			"y": 68
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#e_t"],
+			"width": 16,
+			"height": 16,
+			"x": 64,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#e_i",
+			"width": 16, "height": 16,
+			"texture_width": 16, "texture_height": 16,
+			"x": 65,
+			"y": 56
+		},
+		{
+			"type": "item",
+			"item": "#f",
+			"x": 80,
+			"y": 68
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#f_t"],
+			"width": 16,
+			"height": 16,
+			"x": 80,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#f_i",
+			"width": 16, "height": 16,
+			"texture_width": 16, "texture_height": 16,
+			"x": 81,
+			"y": 56
+		},
+		{
+			"type": "item",
+			"item": "#g",
+			"x": 96,
+			"y": 68
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#g_t"],
+			"width": 16,
+			"height": 16,
+			"x": 96,
+			"y": 60
+		},
+		{
+			"type": "image",
+			"image": "#g_i",
+			"width": 16, "height": 16,
+			"texture_width": 16, "texture_height": 16,
+			"x": 97,
+			"y": 56
+		},
+		{
+			"type": "text",
+			"text": "#text2",
+			"x": 0,
+			"y": 88
+		}
+	]
+}

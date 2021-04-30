@@ -1,0 +1,77 @@
+[
+  {
+    "targetBlock": "quark:framed_glass",
+    "heldItem": "contenttweaker:nature_rune",
+    "replacementBlock": "sereneseasons:greenhouse_glass",
+    "damage": "1",
+    "particleType": "happyVillager",
+    "particleCount": "20"
+  },
+  {
+    "targetBlock": "minecraft:sand",
+    "heldItem": "contenttweaker:soul_rune",
+    "replacementBlock": "minecraft:soul_sand",
+    "damage": "1",
+    "particleType": "soulFlame",
+	"particleArea": "out",
+    "particleCount": "8:80"
+  },
+  {
+    "targetBlock": "betterwithaddons:scaffold",
+    "heldItem": "minecraft:wheat",
+    "replacementBlock": "quark:thatch",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "betterwithaddons:scaffold",
+    "heldItem": "minecraft:tallgrass:1",
+    "replacementBlock": "quark:turf",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "betterwithaddons:scaffold",
+    "heldItem": "minecraft:clay_ball",
+    "replacementBlock": "rustic:clay_wall_cross",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "pyrotech:refractory_brick_block",
+    "heldItem": "minecraft:magma_cream",
+    "replacementBlock": "ceramics:clay_hard:5",
+    "damage": "1",
+    "particleType": "lava",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "betterwithaddons:scaffold",
+    "heldItem": "pyrotech:material:16",
+	"offhandItem": "artisanworktables:artisans_carver_gold",
+    "replacementBlock": "minecraft:stonebrick:2",
+    "damage": "4",
+	"damageOffhand": "1"
+  },
+  {
+    "targetBlock": "contenttweaker:rocky_dirt",
+    "dropItem": "iceandfire:silver_nugget",
+    "heldItem": "artisanworktables:artisans_lens_gold",
+	"dropOnlyOnSuccess": true,
+	"dropChance": "1:5",
+    "replacementBlock": "minecraft:dirt",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "5:10"
+  },
+  {
+    "targetBlock": "contenttweaker:rocky_dirt",
+    "dropItem": "pyrotech:material:37",
+    "heldItem": "cyclicmagic:tool_spelunker",
+	"dropOnlyOnSuccess": true,
+	"dropChance": "1:5",
+    "replacementBlock": "minecraft:dirt",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "25"
+  }
+]

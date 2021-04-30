@@ -1,0 +1,44 @@
+﻿{
+  "name": "The Wither",
+  "icon": "minecraft:skull:1",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/end/killedEndDragon",
+
+  "sortnum": 2,
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Withered and Broken",
+			"item": "minecraft:skull:1",
+			"text": "$(#734608)An extremely dangerous abomination formed from the remains of wither skeletons. Withers can wield magic, but the skeletons they're made out of never could... is that due to the soul energy, or a sign of something else?$()$()"
+		},
+	{
+	"type": "multiblock",
+      "name": "Wither Soulmould",
+      "multiblock": {
+        "pattern": [
+					["HHH"],
+					["S0S"],
+					[" S "]
+				],
+        "mapping": {
+          "0": "minecraft:soul_sand",
+          "H": "minecraft:skull[facing=up,nodrop=false]:1",
+		  "S": "minecraft:soul_sand"
+		},
+				"symmetrical": true,
+				"offset"     : [0, 0, 0],
+				"view_offset": [0, 0, 0]
+   		},
+			"text": "$(#734608)The soul sand triggers a foul necromantic reaction in the wither skeleton skulls.$()$()",
+			"enable_visualize": true
+},
+    {
+      "type": "relations",
+      "entries": [
+		"slayers_journal/soulfire_core",
+		"slayers_journal/altar"
+      ]
+    }
+  ]
+}

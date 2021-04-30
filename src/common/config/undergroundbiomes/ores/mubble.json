@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "mubble:vanadium_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/mubble/vanadium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

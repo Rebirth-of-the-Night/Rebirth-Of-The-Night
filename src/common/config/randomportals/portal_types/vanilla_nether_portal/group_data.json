@@ -1,0 +1,16 @@
+{
+	"blacklistAllUndefinedDimensions": true,
+	"activationDimensionIDBlacklist": [],
+	"defaultDimensionID": 0,
+	"entitySpawns": {
+		"0": {
+			"rate": 2000,
+			"entities": {
+				"minecraft:zombie_pigman": {
+					"nbt": "{}",
+					"weight": 100.0
+				}
+			}
+		}
+	}
+}

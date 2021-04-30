@@ -1,0 +1,255 @@
+{
+	"biome": "minecraft:hell",
+	"generationWeight": 10,
+	"useDefaultDecorations": true,
+	"isSubBiome": false,
+	"blocks": {
+		"surface": {
+			"block": "minecraft:netherrack"
+		},
+		"liquid": {
+			"block": "minecraft:lava"
+		},
+		"subsurface": {
+			"block": "minecraft:netherrack"
+		}
+	},
+	"entities": [
+		{
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4,
+			"entity": "minecraft:ghast"
+		}, 
+		{
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4,
+			"entity": "minecraft:zombie_pigman"
+		}, 
+		{
+			"spawnWeight": 30,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "minecraft:magma_cube"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4,
+			"entity": "quark:foxhound"
+		}, 
+		{
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "minecraft:ghast"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "netherex:ghastling"
+		}, 
+		{
+			"spawnWeight": 10,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 6,
+			"entity": "minecraft:zombie_pigman"
+		}, 
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 5,
+			"entity": "mod_lavacow:salamander"
+		}, 
+		{
+			"spawnWeight": 12,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "netherex:salamander"
+		}, 
+		{
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3,
+			"entity": "netherex:nethermite"
+		}, 
+		{
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "netherex:brute"
+		}, 
+		{
+			"spawnWeight": 30,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1,
+			"entity": "primitivemobs:flame_spewer"
+		}
+	],
+	"traits": [
+		{
+			"generationAttempts": 8,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToTarget": {
+				"block": "minecraft:netherrack"
+			},
+			"blockToSpawn": {
+				"block": "minecraft:flowing_lava"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:fluid",
+			"maximumGenerationHeight": 124,
+			"generateFalling": false
+		}, 
+		{
+			"generationAttempts": 10,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToSpawn": {
+				"block": "minecraft:fire"
+			},
+			"blockToTarget": {
+				"block": "minecraft:netherrack"
+			},
+			"randomizeGenerationAttempts": true,
+			"trait": "libraryex:scatter",
+			"maximumGenerationHeight": 124,
+			"placement": "on_ground"
+		}, 
+		{
+			"generationAttempts": 10,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 4,
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"randomizeGenerationAttempts": true,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 124,
+			"blockToAttachTo": {
+				"block": "minecraft:netherrack"
+			},
+			"direction": "down"
+		}, 
+		{
+			"generationAttempts": 10,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 1,
+			"blockToSpawn": {
+				"block": "minecraft:glowstone"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:cluster",
+			"maximumGenerationHeight": 128,
+			"blockToAttachTo": {
+				"block": "minecraft:netherrack"
+			},
+			"direction": "down"
+		}, 
+		{
+			"generationAttempts": 16,
+			"generationStage": "decoration",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"blockToTarget": {
+				"block": "minecraft:netherrack"
+			},
+			"blockToSpawn": {
+				"block": "minecraft:flowing_lava"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:fluid",
+			"maximumGenerationHeight": 118,
+			"generateFalling": true
+		}, 
+		{
+			"generationAttempts": 1,
+			"generationStage": "plant_decoration",
+			"generationProbability": 0.25,
+			"minimumGenerationHeight": 1,
+			"blockToSpawn": {
+				"block": "minecraft:brown_mushroom"
+			},
+			"blockToTarget": {
+				"block": "minecraft:netherrack"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:scatter",
+			"maximumGenerationHeight": 128,
+			"placement": "on_ground"
+		}, 
+		{
+			"generationAttempts": 1,
+			"generationStage": "plant_decoration",
+			"generationProbability": 0.25,
+			"minimumGenerationHeight": 1,
+			"blockToSpawn": {
+				"block": "minecraft:red_mushroom"
+			},
+			"blockToTarget": {
+				"block": "minecraft:netherrack"
+			},
+			"randomizeGenerationAttempts": false,
+			"trait": "libraryex:scatter",
+			"maximumGenerationHeight": 128,
+			"placement": "on_ground"
+		}, 
+		{
+			"generationAttempts": 16,
+			"generationStage": "ore",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"veinSize": 14,
+			"blockToSpawn": {
+				"block": "minecraft:quartz_ore"
+			},
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "minecraft:netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 108
+		}, 
+		{
+			"generationAttempts": 4,
+			"generationStage": "ore",
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 28,
+			"veinSize": 32,
+			"blockToSpawn": {
+				"block": "minecraft:magma"
+			},
+			"randomizeGenerationAttempts": false,
+			"blockToReplace": {
+				"block": "minecraft:netherrack"
+			},
+			"trait": "libraryex:ore",
+			"maximumGenerationHeight": 38
+		}, 
+		{
+			"generationAttempts": 1,
+			"generationStage": "structure",
+			"generationProbability": 0.25,
+			"structureType": "ground",
+			"minimumGenerationHeight": 32,
+			"clearancePercentage": 0.75,
+			"randomizeGenerationAttempts": false,
+			"structures": [
+				"netherex:pigtificate_village/tiny_pigtificate_village"
+			],
+			"trait": "libraryex:structure",
+			"maximumGenerationHeight": 118,
+			"ignoredBlock": {
+				"block": "minecraft:structure_void"
+			}
+		}
+	],
+	"subBiomes": []
+}

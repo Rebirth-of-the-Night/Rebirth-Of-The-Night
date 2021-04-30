@@ -1,0 +1,7 @@
+{
+  "name": "The Environment",
+  "description": "If I have any hope of surviving here, I need to understand the environment and natural world around me.",
+  "icon": "minecraft:grass",
+  "sortnum": 0,
+  "parent": "exploration"
+}

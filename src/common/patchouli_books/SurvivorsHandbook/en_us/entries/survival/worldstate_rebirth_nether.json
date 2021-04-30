@@ -1,0 +1,20 @@
+{
+  "name": "Rebirth of the Nether",
+  "icon": "minecraft:nether_star",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedWither",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "The destruction of the Wither has awoken many fearsome creatures throughout the Nether. I fear some of them have crossed over into the Beneath... perhaps to the surface as well."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Magic Constructs",
+  "description": "Infusing magic into blocks and constructs should prove useful. I can perhaps create helpful auras, defenses, or even other strange effects.",
+  "icon": "wards:ward",
+  "sortnum": 3,
+  "parent": "magic"
+}

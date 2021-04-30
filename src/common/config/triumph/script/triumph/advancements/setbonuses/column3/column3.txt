@@ -1,0 +1,16 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("aworthycompromise", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column3/aworthycompromise")
+
+criteria = addCriteria("heartoftheworld", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column3/heartoftheworld")
+
+criteria = addCriteria("soulSteelArmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column3/soulSteelArmor")
+
+criteria = addCriteria("walkingfortress", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column3/walkingfortress")
+
+alwaysHidden()

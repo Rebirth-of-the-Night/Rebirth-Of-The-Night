@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:gem, ore:gemPeridot, meta:2, count:1>)
+setTitle("A Lucky Find")
+setDescription("Mine peridot ore")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Peridot", "triumph:player_harvest_block")
+criteria.setBlock(<ore:orePeridot>)
+
+hideLines()
+alwaysVisible()
+setPos(-53,-49)

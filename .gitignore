@@ -4,41 +4,41 @@ minecraftinstance.json
 crafttweaker.log
 knownkeys.txt
 .mixin.out/
-llibrary/debug/
-config/jei/worldSettings.cfg
+src/common/llibrary/debug/
+src/common/config/jei/worldSettings.cfg
 usercache.json
 usernamecache.json
-config/splash.properties
-mods/OptiFine_1.12.2_*.jar
+src/common/config/splash.properties
+src/common/mods/OptiFine_1.12.2_*.jar
 
-config/BiomeTweaker/output/
-config/netherex/biomes/
+src/common/config/BiomeTweaker/output/
+src/common/config/netherex/biomes/
 logs/
 
 saves/
-config/biomesoplenty/biomes/defaults/
+src/common/config/biomesoplenty/biomes/defaults/
 screenshots/
 crash-reports/
 servers.dat
 shaderpacks/Sildurs Enhanced Default *.zip
-mods/blockdrops-1.12.2-*.jar
-config/BlockDrops/
+src/common/mods/blockdrops-1.12.2-*.jar
+src/common/config/BlockDrops/
 modlist.html
 manifest.json
-mods/JustEnoughResources-1.12.2-*.jar
-config/jeresources/jeresources.cfg
-mods/effortlessbuilding-1.12.2-*.jar
-mods/JEIHider-*.jar
-mods/Mapmaker's+Gadgets-*_for_1.12.x.jar
-mods/Mineshot-*-1.12.jar
-mods/themidnight-*.jar
-mods/Caliper-1.12.2-*.jar
+src/common/mods/JustEnoughResources-1.12.2-*.jar
+src/common/config/jeresources/jeresources.cfg
+src/common/mods/effortlessbuilding-1.12.2-*.jar
+src/common/mods/JEIHider-*.jar
+src/common/mods/Mapmaker's+Gadgets-*_for_1.12.x.jar
+src/common/mods/Mineshot-*-1.12.jar
+src/common/mods/themidnight-*.jar
+src/common/mods/Caliper-1.12.2-*.jar
 /options.txt
 /optionsof.txt
 /optionsshaders.txt
-config/TwitchSpawn/
+src/common/config/TwitchSpawn/
 
-config/pyrotech/*-Generated.json
+src/common/config/pyrotech/*-Generated.json
 patchouli_data.json
 
 .DS_Store
@@ -48,40 +48,43 @@ config/ultimate_unicorn_download/*.txt
 .gamelaunched
 shaderpacks/SEUS*.zip
 shaderpacks/BBVanillaReborn_*.zip
-mods/twitchspawn_1.12.2-*.jar
-./icon.png
-config/tellme.cfg
-config/tellme/
-mods/tellme-*.jar
-config/codechicken/supporters.marker
+src/common/mods/twitchspawn_1.12.2-*.jar
+src/common/icon.png
+src/common/config/tellme.cfg
+src/common/config/tellme/
+src/common/mods/tellme-*.jar
+src/common/config/codechicken/supporters.marker
 backups/
 
-config/qualitytools/problems.txt
+src/common/config/qualitytools/problems.txt
 
 local/ftbutilities/backups.json
 
 local/ftbutilities/uploaded_crash_reports/
-mods/Sound-Physics-1.12.2-*.jar
+src/common/mods/Sound-Physics-1.12.2-*.jar
 
 shaderpacks/BBVanillaReborn_V1.0.2.zip.txt
-mods/World-Stripper-1.6.0-1.12.2.jar
-config/worldstripper.cfg
-config/mineshot.cfg
+src/common/mods/World-Stripper-1.6.0-1.12.2.jar
+src/common/config/worldstripper.cfg
+src/common/config/mineshot.cfg
 dropt.log
 
-resourcepacks/Better Rebirth 1.12.2/assets/malisisdoors/textures/16xtextures/
-config/fantasticlib/reference/biomes.txt
-config/fantasticlib/reference/blocks.txt
-config/fantasticlib/reference/blockstates.txt
-config/fantasticlib/reference/enchantments.txt
-config/fantasticlib/reference/entities.txt
-config/fantasticlib/reference/items.txt
-config/fantasticlib/reference/oredict.txt
-config/fantasticlib/reference/players.txt
-config/fantasticlib/reference/potions.txt
-config/fantasticlib/reference/potion_types.txt
-config/fantasticlib/reference/recipes.txt
-config/customloadingscreen_timings.nbt
+src/main/resources/resourcepacks/Better Rebirth 1.12.2/assets/malisisdoors/textures/16xtextures/
+src/common/config/fantasticlib/reference/biomes.txt
+src/common/config/fantasticlib/reference/blocks.txt
+src/common/config/fantasticlib/reference/blockstates.txt
+src/common/config/fantasticlib/reference/enchantments.txt
+src/common/config/fantasticlib/reference/entities.txt
+src/common/config/fantasticlib/reference/items.txt
+src/common/config/fantasticlib/reference/oredict.txt
+src/common/config/fantasticlib/reference/players.txt
+src/common/config/fantasticlib/reference/potions.txt
+src/common/config/fantasticlib/reference/potion_types.txt
+src/common/config/fantasticlib/reference/recipes.txt
+src/common/config/customloadingscreen_timings.nbt
+
+!src/local/README.md
+src/local/*
 
 .idea
 .project
@@ -90,7 +93,7 @@ config/customloadingscreen_timings.nbt
 ### Gradle template
 .gradle
 **/build/
-!src/**/build/
+!src/main/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -100,6 +103,7 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties

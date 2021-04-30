@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:fan_block>)
+setTitle("Fan")
+setDescription("Pushes mobs away when powered by redstone. More fans behind it increase the push power.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Fan", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:fan_block>)
+
+alwaysVisible()
+setPos(-296,118)
+hideLines()

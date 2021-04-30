@@ -1,2 +1,0 @@
-#Format is modId:biomeRegistryName=biomeWeight
-#Example being minecraft:forest=100

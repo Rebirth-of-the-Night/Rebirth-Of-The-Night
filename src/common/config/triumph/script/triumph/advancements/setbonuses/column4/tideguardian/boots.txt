@@ -1,0 +1,34 @@
+setIcon("iceandfire:tide_blue_chestplate")
+setTitle("Ebb And Flow")
+setDescription("Complete the Ebb And Flow set.")
+
+addParent("triumph:advancements/setbonuses/column2/diamondarmor")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Teal boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_teal_boots")
+
+criteria = addCriteria("Purple boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_purple_boots")
+
+criteria = addCriteria("Green boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_green_boots")
+
+criteria = addCriteria("Bronze boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_bronze_boots")
+
+criteria = addCriteria("Deepblue boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_deepblue_boots")
+
+criteria = addCriteria("Blue boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_blue_boots")
+
+criteria = addCriteria("Red boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_red_boots")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,156)

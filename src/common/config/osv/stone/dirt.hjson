@@ -1,0 +1,10 @@
+block: {
+  location: dirt
+}
+gen: [
+  {
+    height: [0, 256]
+    size: 33
+    count: 10
+  }
+]

@@ -1,0 +1,48 @@
+{
+	"populate": 
+	{
+		"sandstone_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					}
+				],
+				"surface": "sand",
+				"cluster-size": 16
+				},
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"retrogen": "true",
+			"biome": "all"
+		},
+		"volcano_granite_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					}
+				],
+				"surface": "biomesoplenty:ash_block",
+				"see-sky": true,
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biomesoplenty:volcanic_island"
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+[
+ {
+   "block": "dungeontactics:flower_sanguine",
+   "explosion": "15, true, true"
+ },
+ {
+   "block": "dungeontactics:mithril_block",
+   "potion": ["cyclicmagic:potion.magnet,200,3","betterwithaddons:electrified,20,2"]
+ }
+]

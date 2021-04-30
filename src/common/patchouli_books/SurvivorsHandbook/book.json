@@ -1,0 +1,23 @@
+﻿{
+  "name": "Survivor's Handbook",
+  "landing_text": "A place to record all my plans and discoveries. I'll keep writing new entries here as I learn more.",
+  "subtitle": "Knowledge is power.",
+  "version": 0,
+  "show_progress": false,
+  "model": "pyrotech:book",
+  "dont_generate_book": false,
+  "book_texture": "book:book_texture.png",
+  "filler_texture": "pyrotech:textures/gui/book/filler_texture.png",
+  "crafting_texture": "pyrotech:textures/gui/book/crafting_texture.png",
+  "macros": {
+    "$(info)": "$(thing)$(bold)$(t:Vital and Fundamental Details)[!]$()",
+    "$(warning)": "$(#ff6600)$(bold)$(t:Important)[!]$()",
+    "$(severe)": "$(#f00)$(bold)$(t:Warning!)[!]$()",
+    "$(info_cn)": "$(thing)$(bold)$(t:重要细节)[!]$()",
+    "$(warning_cn)": "$(#f00)$(bold)$(t:警告！)[!]$()",
+    "$(severe_cn)": "$(#f00)$(bold)$(t:严重警告！！)[!!]$()",
+    "$(todo)": "$(#f00)$(bold)TODO: $()",
+    "$(sneak)": "$(thing)$(bold)[$(k:sneak)]$()",
+    "$(use)": "$(thing)$(bold)[$(k:use)]$()"
+  }
+}

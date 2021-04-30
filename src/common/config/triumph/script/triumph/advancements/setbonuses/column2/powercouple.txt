@@ -1,0 +1,21 @@
+setIcon("endreborn:armour_helmet_helmet")
+setTitle("Power Couple")
+setDescription("Complete the Power Couple set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Obsidian Helmet", "minecraft:inventory_changed")
+criteria.addItem("endreborn:armour_helmet_helmet")
+
+criteria = addCriteria("Diamond Chestplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_chestplate")
+
+criteria = addCriteria("Diamond Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_leggings")
+
+criteria = addCriteria("Diamond Boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_boots")
+
+hideLines()
+alwaysVisible()
+setPos(90,120)

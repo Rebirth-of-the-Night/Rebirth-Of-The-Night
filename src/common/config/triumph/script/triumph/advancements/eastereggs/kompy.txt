@@ -1,0 +1,12 @@
+setIcon("contenttweaker:kompy_kantrip")
+setTitle("Kompy's Kantrip")
+setDescription("Craft Dev Relic 4 of 6 by crafting Whimsicott.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 4", "minecraft:inventory_changed")
+criteria.addItem("contenttweaker:kompy_kantrip")
+
+alwaysVisible()
+hideLines()
+setPos(-298,138)

@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "curio:blockmysticore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/curio/mystic_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

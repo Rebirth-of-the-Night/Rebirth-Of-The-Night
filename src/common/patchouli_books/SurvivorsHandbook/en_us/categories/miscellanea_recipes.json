@@ -1,0 +1,7 @@
+{
+  "name": "Recipes",
+  "description": "These are important for me to remember.",
+  "icon": "minecraft:diamond",
+  "sortnum": 0,
+  "parent": "miscellanea"
+}

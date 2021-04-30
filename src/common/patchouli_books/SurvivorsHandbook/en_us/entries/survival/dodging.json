@@ -1,0 +1,15 @@
+{
+  "name": "Dodging",
+  "icon": "simpleores:adamantium_boots",
+  "category": "survival",
+  "pages": [
+	{
+    "type": "text",
+	  "text": "I'll need to be light on my feet if I want to avoid getting hurt from monsters. Dodging at the right time can be the difference between life and death.$(br2)$(#158B1D)Double-tap the directional keys to dodge in a direction. Press left-ALT to dodge forward."
+  },
+  {
+    "type": "text",
+	  "text": "I do have to keep in mind that wearing heavier armor will significantly impact my ability to dodge. Some armor are too heavy to even dodge at all. I'll have to be smart about which armor I choose and weigh the pros and cons."
+  }
+  ]
+}

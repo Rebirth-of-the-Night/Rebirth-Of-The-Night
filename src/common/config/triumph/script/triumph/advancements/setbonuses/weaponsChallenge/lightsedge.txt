@@ -1,0 +1,15 @@
+setIcon("msmlegacy:crystaline_blade")
+setTitle("There Will Be Light")
+setDescription("Craft a Light's Edge")
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:lightsedge")
+
+criteria = addCriteria("Light's Edge", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:crystaline_blade")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(226,280)

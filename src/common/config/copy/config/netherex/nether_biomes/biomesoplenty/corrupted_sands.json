@@ -1,0 +1,90 @@
+{
+	"biome": "biomesoplenty:corrupted_sands",
+	"generationWeight": 2,
+	"useDefaultDecorations": true,
+	"isSubBiome": false,
+	"isEnabled": true,
+	"blocks": {},
+	"entities": [
+		{
+			"entity": "minecraft:ghast",
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:zombie_pigman",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:magma_cube",
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "quark:foxhound",
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "quark:wraith",
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "minecraft:zombie_pigman",
+			"spawnWeight": 20,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "netherex:nethermite",
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "netherex:brute",
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		},
+		{
+			"entity": "netherex:ghastling",
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "netherex:salamander",
+			"spawnWeight": 12,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "minecraft:ghast",
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "primitivemobs:flame_spewer",
+			"spawnWeight": 30,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		},
+		{
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 5,
+			"entity": "mod_lavacow:salamander"
+		}
+	],
+	"traits": [],
+	"subBiomes": []
+}

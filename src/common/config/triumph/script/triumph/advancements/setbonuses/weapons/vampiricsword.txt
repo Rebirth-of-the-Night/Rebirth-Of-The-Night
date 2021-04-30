@@ -1,0 +1,12 @@
+setIcon("msmlegacy:vampiric_blade")
+setTitle("Out For Blood")
+setDescription("Craft a Vampiric Sword")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Vampiric Sword", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:vampiric_blade")
+
+hideLines()
+alwaysVisible()
+setPos(90,250)

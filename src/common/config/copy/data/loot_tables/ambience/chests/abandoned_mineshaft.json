@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "abandonedMineshaft",
+      "rolls": 1,
+      "entries": [
+        
+      ]
+    }    
+  ]
+}

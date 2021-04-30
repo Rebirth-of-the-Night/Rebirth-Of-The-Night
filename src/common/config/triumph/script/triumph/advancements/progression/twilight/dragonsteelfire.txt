@@ -1,0 +1,15 @@
+setIcon("iceandfire:dragonsteel_fire_ingot")
+setTitle("Through The Fire And Flames")
+setDescription("Obtain fire dragonsteel")
+
+addParent("triumph:advancements/progression/twilight/enterTwilight")
+
+
+criteria = addCriteria("Fire Dragonsteel Ingot", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_fire_ingot")
+
+
+visibleIf("triumph:advancements/progression/wither/killghastqueen")
+visibleIf("triumph:advancements/progression/wither/killprimordial")
+drawDirectLines()
+setPos(646,-30)

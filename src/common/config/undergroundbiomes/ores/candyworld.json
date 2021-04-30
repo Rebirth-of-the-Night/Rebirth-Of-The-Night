@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "candymod:cookie_ore_block",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/candyworld/cookie_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

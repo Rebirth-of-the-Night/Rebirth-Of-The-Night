@@ -1,0 +1,34 @@
+setIcon("iceandfire:tide_blue_chestplate")
+setTitle("Ebb And Flow")
+setDescription("Complete the Ebb And Flow set.")
+
+addParent("triumph:advancements/setbonuses/column2/diamondarmor")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Teal leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_teal_leggings")
+
+criteria = addCriteria("Purple leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_purple_leggings")
+
+criteria = addCriteria("Green leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_green_leggings")
+
+criteria = addCriteria("Bronze leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_bronze_leggings")
+
+criteria = addCriteria("Deepblue leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_deepblue_leggings")
+
+criteria = addCriteria("Blue leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_blue_leggings")
+
+criteria = addCriteria("Red leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:tide_red_leggings")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,156)

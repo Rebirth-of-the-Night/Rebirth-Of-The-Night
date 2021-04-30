@@ -1,0 +1,28 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("ahellofaduo", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/ahellofaduo")
+
+criteria = addCriteria("amethystswordandscythe", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/amethystswordandscythe")
+
+criteria = addCriteria("darksedge", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/darksedge")
+
+criteria = addCriteria("dragonsbane", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/dragonsbane")
+
+criteria = addCriteria("interdimensionalblade", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/interdimensionalblade")
+
+criteria = addCriteria("lightsedge", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/lightsedge")
+
+criteria = addCriteria("truedarksedge", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/truedarksedge")
+
+criteria = addCriteria("truelightsedge", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/truelightsedge")
+
+alwaysHidden()

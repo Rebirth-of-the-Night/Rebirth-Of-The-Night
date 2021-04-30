@@ -1,0 +1,12 @@
+setIcon("dungeontactics:terrible_feather")
+setTitle("Talk is Cheep")
+setDescription("Craft Dev Relic 6 of 6 by combining angel feathers with runes of life and soul.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 6", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:terrible_feather")
+
+alwaysVisible()
+hideLines()
+setPos(-226,138)

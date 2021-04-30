@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"True Light's Edge: I am a beacon of righteousness. You are the flame. Together, we will sear the corruption from this world.","color":"yellow"}]

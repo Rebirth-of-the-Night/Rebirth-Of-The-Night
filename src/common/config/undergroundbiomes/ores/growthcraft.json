@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "growthcraft:salt_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/growthcraft/salt_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

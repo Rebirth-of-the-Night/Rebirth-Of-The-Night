@@ -1,0 +1,26 @@
+[
+  {
+    "internalOreName": "mysticalworld:amethyst_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:undergroundbiomes:blocks/overlays/mysticalWorld/amethyst",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "mysticalworld:copper_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:undergroundbiomes:blocks/overlays/mysticalWorld/copper",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "mysticalworld:silver_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:undergroundbiomes:blocks/overlays/mysticalWorld/silver",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

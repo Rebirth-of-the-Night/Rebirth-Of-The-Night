@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "spartanweaponry:items/quarterstaff_electrum"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, -2.25, 1],
+			"scale": [1.5, 1.5, 1.275]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, -2.25, 1],
+			"scale": [1.5, 1.5, 1.275]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.02, 1.02, 1.02]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.02, 1.02, 1.02]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [1.125, 1.125, 1.125]
+		}
+	}
+}
