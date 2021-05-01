@@ -56,6 +56,7 @@ JEI.removeAndHide(<mod_lavacow:potion_of_mooten_lava>);
 JEI.removeAndHide(<mod_lavacow:fissionpotion>);
 recipes.remove(<mod_lavacow:halo_necklace>);
 recipes.remove(<mod_lavacow:dreamcatcher>);
+recipes.removeByRecipeName("mod_lavacow:leather");
 // THIS WOULD MAKE COOL ENDGAME LOOT OK I DON'T WANT TO JUST TRASH IT COMPLETELY
 JEI.removeAndHide(<mod_lavacow:goldenheart>);
 
