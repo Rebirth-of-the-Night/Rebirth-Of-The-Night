@@ -1,0 +1,12 @@
+setIcon(<mod_lavacow:silky_sludge>)
+setTitle("Sticky Situation")
+setDescription("Squash a slimy monstrosity.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("sludgelord", "minecraft:player_killed_entity")
+criteria.setEntityType("mod_lavacow:sludgelord")
+
+hideLines()
+alwaysVisible()
+setPos(-219,117)

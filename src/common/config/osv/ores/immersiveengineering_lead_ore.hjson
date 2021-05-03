@@ -1,0 +1,30 @@
+name: immersiveengineering_lead_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore:2
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: immersiveengineering:ore:2
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_lead
+}
+recipe: {
+  result: immersiveengineering:metal:2
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 8, 36 ]
+    size: 6
+    count: 4
+  }
+]

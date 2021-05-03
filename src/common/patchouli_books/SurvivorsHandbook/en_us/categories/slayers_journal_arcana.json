@@ -1,0 +1,7 @@
+{
+  "name": "Curious Arcana",
+  "description": "$(#734608)These $(thing)strange items$() $(#734608)seem to be associated with powerful monsters.",
+  "icon": "minecraft:diamond",
+  "sortnum": 2,
+  "parent": "slayers_journal"
+}

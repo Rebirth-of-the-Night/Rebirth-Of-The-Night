@@ -1,0 +1,7 @@
+{
+  "name": "Beyond These Lands",
+  "description": "It's a vast world, and I'm just one survivor. Who knows what's waiting out there?",
+  "icon": "minecraft:netherrack",
+  "sortnum": 1,
+  "parent": "exploration_environment"
+}

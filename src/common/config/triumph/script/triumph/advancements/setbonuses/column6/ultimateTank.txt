@@ -1,0 +1,32 @@
+setIcon("spartancompat:battleaxe_onyx")
+setTitle("Ultimate Tank")
+setDescription("Complete the Ultimate Tank set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Onyx Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_helmet")
+
+criteria = addCriteria("Onyx Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_chestplate")
+
+criteria = addCriteria("Onyx Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_leggings")
+
+criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_boots")
+
+criteria = addCriteria("Greatsword", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:greatsword_onyx")
+criteria = addCriteria("Halberd", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:halberd_onyx")
+criteria = addCriteria("Battleaxe", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:battleaxe_onyx")
+criteria = addCriteria("Warhammer", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:warhammer_onyx")
+
+setRequirements("any", ["Onyx Helmet", "Onyx Chestplate", "Onyx Leggings", "Onyx Boots"])
+
+hideLines()
+alwaysVisible()
+setPos(269,90)

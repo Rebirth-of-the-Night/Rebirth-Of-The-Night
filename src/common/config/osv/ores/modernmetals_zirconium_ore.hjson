@@ -1,0 +1,31 @@
+name: modernmetals_zirconium_ore
+mod: modernmetals
+block: {
+  location: modernmetals:zirconium_ore
+  hardness: 3.5
+  level: 1
+}
+loot: [
+  {
+    item: modernmetals:zirconium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/zirconium_ore
+}
+recipe: {
+  result: modernmetals:zirconium_ingot
+  xp: 0.44999998807907104
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 8
+    count: 6
+  }
+]

@@ -1,0 +1,31 @@
+name: modernmetals_aluminum_ore
+mod: modernmetals
+block: {
+  location: modernmetals:aluminum_ore
+  hardness: 3.75
+  level: 1
+}
+loot: [
+  {
+    item: modernmetals:aluminum_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/aluminum_ore
+}
+recipe: {
+  result: modernmetals:aluminum_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 96 ]
+    size: 10
+    count: 8
+  }
+]

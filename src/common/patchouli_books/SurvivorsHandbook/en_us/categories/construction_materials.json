@@ -1,0 +1,7 @@
+{
+  "name": "Building Materials",
+  "description": "All materials and substances are not equal, but they may be useful in different ways. I'll keep track of whatever materials I find here.",
+  "icon": "minecraft:brick",
+  "sortnum": 1,
+  "parent": "construction"
+}

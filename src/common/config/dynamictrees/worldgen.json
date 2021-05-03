@@ -1,0 +1,26 @@
+[
+	{
+		"__comment" : "Arid Desert has a chance to generate dead trees. But dead trees don't grow in white sand or salty crust so occurence is very rare",
+		"select": { "name": "biometweaker:atacamian_desert" },
+		"apply": {
+			"species" : "dead",
+			"chance": 0.2
+		} 
+	},
+	{
+		"__comment" : "Vanilla swamps now have actual willows in them",
+		"select": { "name": "minecraft:swampland" },
+		"apply": {
+			"species": {
+				"random": {
+					"willow": 30,
+					"oakswamp": 3,
+					"mushroombrn": 1,
+					"dead": 2,
+				},
+				"method": "replace"
+			},
+			"chance": 0.85
+		}
+	}
+]

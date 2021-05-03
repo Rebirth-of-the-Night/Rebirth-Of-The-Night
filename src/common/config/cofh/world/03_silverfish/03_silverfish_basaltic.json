@@ -1,0 +1,262 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts",
+		"rotn_blocks"
+		]
+	"populate": 
+	{
+		"basaltic_rhyolite_egg": {
+            "distribution": "uniform",
+            "generator": {
+				"block": {
+					"name": "undergroundbiomes:igneous_monster_stone",
+					"properties": {
+						"type" : "rhyolite"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "rhyolite"
+					}
+				},
+				"cluster-size": 12
+				},
+			"cluster-count": 20,
+			"max-height": 30,
+			"min-height": 2,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+        "basaltic_komatiite_egg": {
+            "distribution": "uniform",
+            "generator": {
+				"block": {
+					"name": "undergroundbiomes:igneous_monster_stone",
+					"properties": {
+						"type" : "komatiite"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "komatiite"
+					}
+				},
+				"cluster-size": 12
+				},
+			"cluster-count": 20,
+			"max-height": 56,
+			"min-height": 34,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+        "basaltic_basalt_egg_a": {
+            "distribution": "uniform",
+            "generator": {
+				"block": {
+					"name": "undergroundbiomes:igneous_monster_stone",
+					"properties": {
+						"type" : "basalt"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "basalt"
+					}
+				},
+				"cluster-size": 12
+				},
+			"cluster-count": 20,
+			"max-height": 62,
+			"min-height": 60,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+        "basaltic_dolomite_egg_a": {
+            "distribution": "uniform",
+            "generator": {
+				"block": {
+					"name": "undergroundbiomes:sedimentary_monster_stone",
+					"properties": {
+						"type" : "dolomite"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "dolomite"
+					}
+				},
+				"cluster-size": 12
+				},
+			"cluster-count": 20,
+			"max-height": 82,
+			"min-height": 66,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+        "basaltic_shale": {
+            "distribution": "uniform",
+            "generator": {
+				"block": {
+					"name": "undergroundbiomes:sedimentary_monster_stone",
+					"properties": {
+						"type" : "shale"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "shale"
+					}
+				},
+				"cluster-size": 12
+				},
+			"cluster-count": 20,
+			"max-height": 87,
+			"min-height": 85,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+        "basaltic_dolomite_egg_b": {
+            "distribution": "uniform",
+            "generator": {
+				"block": {
+					"name": "undergroundbiomes:sedimentary_monster_stone",
+					"properties": {
+						"type" : "dolomite"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "dolomite"
+					}
+				},
+				"cluster-size": 12
+				},
+			"cluster-count": 20,
+			"max-height": 91,
+			"min-height": 89,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+		"basaltic_basalt_egg_b": {
+            "distribution": "uniform",
+            "generator": {
+				"block": {
+					"name": "undergroundbiomes:igneous_monster_stone",
+					"properties": {
+						"type" : "basalt"
+					}
+				},
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "basalt"
+					}
+				},
+				"cluster-size": 12
+				},
+			"cluster-count": 20,
+			"max-height": 255,
+			"min-height": 94,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest",
+					"biomesoplenty:rainforest"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+[
+	/*
+	{
+		"summer": "true",
+		"message": "§4it summer!",
+		"timeout": 432000
+	},
+	{
+		"autumn": "true",
+		"message": "§6it fall!",
+		"timeout": 432000
+	},
+	{
+		"winter": "true",
+		"message": "§bit winter!!",
+		"timeout": 432000
+	},
+	{
+		"spring": "true",
+		"message": "§2it spring!!",
+		"timeout": 432000
+	}*/
+  {
+    "timeout": 10,
+    "block": {
+      "block": "contenttweaker:starblock"
+    },
+    "damage": "hotFloor=3"
+  },
+  {
+    "timeout": 10,
+    "block": {
+      "block": "osv:simpleores_onyx_ore_contenttweaker_starblock"
+    },
+    "damage": "hotFloor=3"
+  }
+]
+
+  

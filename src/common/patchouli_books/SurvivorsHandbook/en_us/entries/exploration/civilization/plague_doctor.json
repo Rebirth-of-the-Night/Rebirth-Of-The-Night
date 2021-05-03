@@ -1,0 +1,15 @@
+{
+  "name": "Plague Doctor",
+  "icon": "rats:plague_doctor_mask",
+  "category": "exploration_civilization",
+  "pages": [
+	{
+      "type": "text",
+      "text": "The $(thing)plague doctor$() is one of the more… unusual professions held by the villagers. They wear markedly distinct attire from the other villagers, wearing a large black hat, black robes, and an unusual mask that makes them resemble a large bird."
+    },
+	{
+      "type": "text",
+      "text": "They reside within huts which tend to differ from the other dwellings within villages. Monsters seem to avoid attacking plague doctors for reasons I can’t quite discern. They like to trade unusual items, such as $(item)leeches$() and $(item)old syrup$(). I’ve yet to figure out what their purpose is and why they sell the things they do, as there doesn’t seem to be any sort of sickness inflicting the residents of the village."
+    }
+  ]
+}

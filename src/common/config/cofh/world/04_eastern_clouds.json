@@ -1,0 +1,43 @@
+{
+	"populate": 
+	{
+		"eastern_clouds": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": {
+					"name":"aether_legacy:aercloud",
+					"properties": {
+							"aether_aercloud" : "golden_aercloud"
+						}
+				},
+				"material": "minecraft:air",
+				"hollow": true,
+				"filler": {
+					"name":"aether_legacy:aercloud",
+					"properties": {
+							"aether_aercloud" : "golden_aercloud"
+						}
+				},
+				"crust": {
+					"name":"aether_legacy:aercloud",
+					"properties": {
+							"aether_aercloud" : "golden_aercloud"
+						}
+				}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"min-height": 155,
+			"max-height": 250,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biomesoplenty:overgrown_cliffs"
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+setIcon("simpleores:onyx_gem")
+setTitle("Unimaginable Strength")
+setDescription("Mine onyx ore")
+
+addParent("triumph:advancements/progression/wither/killedwither")
+
+
+criteria = addCriteria("Onyx Gem", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_gem")
+
+alwaysVisible()
+drawDirectLines()
+setPos(515,-30)

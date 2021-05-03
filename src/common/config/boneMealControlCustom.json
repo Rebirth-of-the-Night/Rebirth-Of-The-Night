@@ -1,0 +1,44 @@
+{
+	"list":
+	[
+		{
+			"description": "Turn yeast flour into yeast",
+			"targetBlockName": "contenttweaker:yeast_flour",
+			"targetBlockState": "",
+			"fillBlockName": "contenttweaker:yeast",
+			"fillBlockState": "",
+			"radius": 1.0,
+			"chance": 1.0,
+			"centerIsAlwaysFill": true,
+			"surfaceIsFill": false,
+			"aboveIsRequireTransparent": true,
+			"aboveIsRequireAir": false
+		},
+		{
+			"description": "Grow moss patch on moss block",
+			"targetBlockName": "rotn_blocks:cave_moss",
+			"targetBlockState": "",
+			"fillBlockName": "contenttweaker:moss_patch",
+			"fillBlockState": "",
+			"radius": 5.0,
+			"chance": 0.3,
+			"centerIsAlwaysFill": false,
+			"surfaceIsFill": true,
+			"aboveIsRequireTransparent": false,
+			"aboveIsRequireAir": false
+		},
+		{
+			"description": "Grow skewered crassula",
+			"targetBlockName": "contenttweaker:perforata",
+			"targetBlockState": "",
+			"fillBlockName": "contenttweaker:perforata",
+			"fillBlockState": "",
+			"radius": 1.0,
+			"chance": 0.6,
+			"centerIsAlwaysFill": false,
+			"surfaceIsFill": true,
+			"aboveIsRequireTransparent": false,
+			"aboveIsRequireAir": false
+		}
+	]
+}

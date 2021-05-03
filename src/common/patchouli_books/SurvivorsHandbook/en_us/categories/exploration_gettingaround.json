@@ -1,0 +1,7 @@
+{
+  "name": "Getting Around",
+  "description": "There are many ways to travel. Some are better suited for particular environments, and many of them are far more convenient than walking everywhere.",
+  "icon": "minecraft:saddle",
+  "sortnum": 1,
+  "parent": "exploration"
+}

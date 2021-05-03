@@ -1,0 +1,17 @@
+setIcon(<minecraft:dirt>)
+setTitle("The Primordial")
+setDescription("Kill The Primordial.")
+
+addParent("triumph:advancements/progression/wither/killedWither")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+setHidden(true)
+drawDirectLines()
+setPos(552,-16)

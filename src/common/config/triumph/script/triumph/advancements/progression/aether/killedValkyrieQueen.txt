@@ -1,0 +1,20 @@
+setIcon(<aether_legacy:valkyrie_lance>)
+setTitle("Kill Valkyrie Queen")
+setDescription("#PLACEHOLDER#")
+
+addParent("triumph:advancements/progression/aether/enterAether")
+
+addRewardFunction("triumph:killedValkyrieQueen")
+
+criteria = addCriteria("valkyrie_queen", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:valkyrie_queen")
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+
+hiddenUnless("triumph:advancements/progression/aether/enterAether")
+drawDirectLines()
+setPos(155,-90)

@@ -1,0 +1,21 @@
+setIcon("minecraft:iron_chestplate")
+setTitle("The Ferrous Giant")
+setDescription("Complete The Ferrous Giant set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Iron/Steel Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/helmet")
+
+criteria = addCriteria("Iron/Steel Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/chestplate")
+
+criteria = addCriteria("Iron/Steel Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/leggings")
+
+criteria = addCriteria("Iron/Steel Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/boots")
+
+hideLines()
+alwaysVisible()
+setPos(0,0)

@@ -1,0 +1,138 @@
+[
+  {
+    "internalOreName": "densemetals:dense_antimony_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_antimony_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_bismuth_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_bismuth_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_coal_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_coal_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_copper_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_copper_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_diamond_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_diamond_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_emerald_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_emerald_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_gold_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_gold_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_iron_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_iron_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_lapis_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_lapis_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_lead_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_lead_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_mercury_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_mercury_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_nickel_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_nickel_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_platinum_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_platinum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_redstone_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_redstone_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_silver_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_silver_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_tin_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_tin_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "densemetals:dense_zinc_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/densemetals/dense_zinc_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

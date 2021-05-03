@@ -1,0 +1,25 @@
+name: thermalfoundation_mithril_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore:8
+  hardness: 3
+  level: 1
+  light: 8
+}
+loot: [
+  {
+    item: thermalfoundation:ore:8
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_mithril
+}
+recipe: {
+  result: thermalfoundation:material:136
+  xp: 0
+  quantity: 1
+}

@@ -1,0 +1,7 @@
+{
+  "name": "The State of the World",
+  "description": "For better or for worse, I've caused permanent changes to this world. I need to know what to expect.",
+  "icon": "biomesoplenty:earth",
+  "sortnum": 4,
+  "parent": "survival"
+}

@@ -1,0 +1,12 @@
+setIcon("simpleores:tin_ingot")
+setTitle("Not Quite Iron")
+setDescription("Mine tin ore")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Tin ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreTin>)
+
+alwaysVisible()
+setPos(-119,50)
+hideLines()

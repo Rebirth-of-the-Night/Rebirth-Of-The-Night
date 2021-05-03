@@ -1,0 +1,7 @@
+{
+  "name": "Summoning",
+  "description": "$(#734608)Some of the most dangerous foes cannot be found by chance. They must be $(thing)summoned.",
+  "icon": "multiblockmobs:soul_chassis",
+  "sortnum": 1,
+  "parent": "slayers_journal"
+}

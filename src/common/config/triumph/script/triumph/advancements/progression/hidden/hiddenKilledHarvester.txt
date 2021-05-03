@@ -1,0 +1,20 @@
+setIcon(<contenttweaker:info>)
+setTitle("Hidden Achievement")
+setDescription("")
+
+addRewardFunction("triumph:killedHarvesterHidden")
+
+
+addParent("triumph:advancements/progression/earlyArmor")
+setUncompletedIconColor(150,150,150)
+setUncompletedTitleColor(110,110,110)
+
+
+addCriteria("impossible", "minecraft:impossible")
+
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()
+setHidden(true)

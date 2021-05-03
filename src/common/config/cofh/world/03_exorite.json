@@ -1,0 +1,29 @@
+{
+	"populate": 
+	{
+		"end_exorite": {
+			"distribution": "surface",
+			"generator": {
+				"type": "structure",
+				"structure": "/structures/exorite_crystal.nbt",
+			},
+			"material": ["minecraft:end_stone"],
+			"chunk-chance": 4,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 80,
+			"cluster-size": 4,
+            "retrogen": true,
+            "biome": {
+				"restriction": "whitelist",
+				"value": "minecraft:sky"
+			}
+            "dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		}
+	}
+}

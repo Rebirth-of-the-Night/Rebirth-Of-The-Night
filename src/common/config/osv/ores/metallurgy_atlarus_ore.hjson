@@ -1,0 +1,31 @@
+name: metallurgy_atlarus_ore
+mod: metallurgy
+block: {
+  location: metallurgy:atlarus_ore
+  level: 6
+  lightLevel: 5
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/atlarus_ore
+}
+recipe: {
+  result: metallurgy:atlarus_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:atlarus_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 3
+    count: 3
+  }
+]

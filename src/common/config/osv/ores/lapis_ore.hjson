@@ -1,0 +1,49 @@
+name: lapis_ore
+mod: minecraft
+block: {
+  location: lapis_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: dye:4
+    count: [ 4, 8 ]
+    xp: [ 2, 5 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/lapis_ore
+}
+recipe: {
+  result: dye:4
+  xp: 0.20000000298023224
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 7
+    count: 2
+  }
+  {
+	height : [250, 255]
+	size: 4
+	count: 5 
+	dimensions: [10]
+  }
+  {
+	height : [150, 155]
+	size: 4
+	count: 5 
+	dimensions: [10]
+  }
+  {
+	height : [50, 55]
+	size: 4
+	count: 5 
+	dimensions: [10]
+  }
+]

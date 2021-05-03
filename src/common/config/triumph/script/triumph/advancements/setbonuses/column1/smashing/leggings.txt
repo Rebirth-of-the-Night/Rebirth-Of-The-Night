@@ -1,0 +1,22 @@
+setIcon("iceandfire:mountain_troll_leather_chestplate")
+setTitle("Smashing")
+setDescription("Complete the Smashing set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Frost leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:frost_troll_leather_leggings")
+
+criteria = addCriteria("Forest leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:forest_troll_leather_leggings")
+
+criteria = addCriteria("Mountain leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:mountain_troll_leather_leggings")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,156)

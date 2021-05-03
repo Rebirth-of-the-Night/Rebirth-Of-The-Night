@@ -1,0 +1,7 @@
+{
+  "name": "Decoration",
+  "description": "What good is a place to live if it doesn't feel like home?",
+  "icon": "quark:framed_glass_pane",
+  "sortnum": 3,
+  "parent": "construction"
+}

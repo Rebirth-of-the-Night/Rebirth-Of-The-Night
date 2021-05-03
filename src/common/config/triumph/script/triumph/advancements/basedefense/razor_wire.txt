@@ -1,0 +1,11 @@
+setIcon(<minetraps:razor_wire>)
+setTitle("Razor Wire")
+setDescription("Does more damage than Barbed Wire.")
+
+addParent("triumph:advancements/basedefense/barbed_wire_fence")
+
+criteria = addCriteria("Razor Wire", "minecraft:inventory_changed")
+criteria.addItem(<minetraps:razor_wire>)
+
+alwaysVisible()
+setPos(-61,0)

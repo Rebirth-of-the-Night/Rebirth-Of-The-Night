@@ -1,0 +1,20 @@
+{
+  "name": "Rebirth of the Night",
+  "icon": "contenttweaker:shard_of_night",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedHarvester",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "Whether through the destruction of a powerful spirit or through journeying deeper into the earth, it seems all sorts of new creatures have awakened across the land. Were they brought to life by my actions, or were they only lying in wait for this moment?"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

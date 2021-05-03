@@ -1,0 +1,24 @@
+setIcon(<contenttweaker:slayers_tattered_journal>)
+setTitle("Slayer's Tattered Journal")
+setDescription("Find the Slayer's Tattered Journal.")
+
+
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:slayersjournal")
+
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Slayer's Tattered Journal", "minecraft:inventory_changed")
+criteria.addItem("contenttweaker:slayers_tattered_journal")
+
+hideLines()
+
+alwaysVisible()
+setPos(-55, 0)

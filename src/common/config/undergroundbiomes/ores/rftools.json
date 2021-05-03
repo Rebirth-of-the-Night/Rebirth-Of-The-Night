@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "rftools:dimensional_shard_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/rftools/dimensionalshard",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "Early Shelter",
+  "icon": "minecraft:cobblestone",
+  "category": "survival_shelter",
+  "pages": [
+	{
+      "type": "text",
+      "text": "A fortress can't be made in a day. For now, I should focus on something that will keep me safe during my first few days. I could find a naturally defensible area, like a mountainside or a cave, or try to build up a walled shelter. If I try to shelter somewhere that's too small or too bright, I'm sure to end up as something's dinner."
+    },
+    {
+      "type": "text",
+      "text": "A structure or wall made of cobblestone from all sides should be enough to get me through the first few nights. I have noticed creatures that hold pickaxes can break hard materials like stone. Those seem to be pretty rare, so I should be mostly safe. If I want to be extra safe, I could smelt the cobblestone and then craft it into $(item)stone bricks$() for increased protection."
+    },
+    {
+      "type": "text",
+      "text": "By making bricks out of the stone I mined from my recent spelunking trips, I can create an exceptionally durable building composition that can withstand heavy punishment from pickaxes and explosions."
+    },
+    {
+      "type": "text",
+      "text": "After I have a foundation and walls for my base, I can start by placing some traps around it like $(item)caltrops$()."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "gather/sticks"
+      ]
+    }
+  ]
+}

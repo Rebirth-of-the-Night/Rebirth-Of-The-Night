@@ -1,0 +1,24 @@
+setIcon("aether_legacy:valkyrie_chestplate")
+setTitle("Apocalypse Now")
+setDescription("Complete the Apocalypse Now set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Valkyrie Helmet", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:valkyrie_helmet")
+
+criteria = addCriteria("Valkyrie Chestplate", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:valkyrie_chestplate")
+
+criteria = addCriteria("Valkyrie Leggings", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:valkyrie_leggings")
+
+criteria = addCriteria("Valkyrie Boots", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:valkyrie_boots")
+
+criteria = addCriteria("Valkyrie Lance", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:valkyrie_lance")
+
+hideLines()
+alwaysVisible()
+setPos(45,-105)

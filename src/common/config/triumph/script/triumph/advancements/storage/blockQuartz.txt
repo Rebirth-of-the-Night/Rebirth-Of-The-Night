@@ -1,0 +1,20 @@
+setIcon(<arcanearchives:storage_shaped_quartz>)
+setTitle("Even More Room?!")
+setDescription("Craft a block of quartz.")
+
+addParent("triumph:advancements/storage/containmentField")
+addParent("triumph:advancements/storage/materialInterface")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+criteria = addCriteria("Craft Block of Quartz", "minecraft:inventory_changed")
+criteria.addItem("arcanearchives:storage_shaped_quartz")
+
+// hideLines()
+// setHidden()
+alwaysVisible()
+setPos(-322,-86)

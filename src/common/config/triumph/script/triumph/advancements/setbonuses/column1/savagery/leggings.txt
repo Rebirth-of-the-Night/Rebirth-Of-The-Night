@@ -1,0 +1,22 @@
+setIcon("iceandfire:deathworm_red_chestplate")
+setTitle("Savagery")
+setDescription("Complete the Savagery set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Yellow leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:deathworm_yellow_leggings")
+
+criteria = addCriteria("White leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:deathworm_white_leggings")
+
+criteria = addCriteria("Red leggings", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:deathworm_red_leggings")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-265,69)

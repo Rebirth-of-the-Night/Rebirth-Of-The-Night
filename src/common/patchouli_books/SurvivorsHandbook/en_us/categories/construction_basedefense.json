@@ -1,0 +1,7 @@
+{
+  "name": "Base Defense",
+  "description": "I want to make sure the things I build stay intact... and I want to send a message to those who would destroy them.",
+  "icon": "dungeontactics:trap_clamp",
+  "sortnum": 0,
+  "parent": "construction"
+}

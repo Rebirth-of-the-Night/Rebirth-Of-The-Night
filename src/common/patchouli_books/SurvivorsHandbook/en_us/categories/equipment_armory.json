@@ -1,0 +1,7 @@
+{
+  "name": "Armor and Weaponry",
+  "description": "Armor to keep me safe and weapons to guarantee I stay that way.",
+  "icon": "minecraft:iron_sword",
+  "sortnum": 0,
+  "parent": "equipment"
+}

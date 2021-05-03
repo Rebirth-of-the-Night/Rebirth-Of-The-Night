@@ -1,0 +1,25 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("diamondarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/diamondarmor")
+
+criteria = addCriteria("obsidianarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/obsidianarmor")
+
+criteria = addCriteria("peridotarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/peridotarmor")
+
+criteria = addCriteria("powercouple", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/powercouple")
+
+criteria = addCriteria("rainbowArmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/rainbowArmor")
+
+criteria = addCriteria("rubyarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/rubyarmor")
+
+criteria = addCriteria("sapphirearmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/sapphirearmor")
+
+alwaysHidden()

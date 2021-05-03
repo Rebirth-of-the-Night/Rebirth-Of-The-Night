@@ -1,0 +1,113 @@
+VANILLA: {
+  dimensions: [0]
+  biomes: {}
+  replaceableBlocks: $REPLACE_DIRT_STONE
+  rooms: $VANILLA_ROOM
+  caveBlocks: [
+    $LAVA_CAVE_BLOCK
+  ]
+  tunnels: [
+    $VANILLA_TUNNELS
+  ]
+  ravines: [
+    $VANILLA_RAVINES
+  ]
+}
+
+REPLACE_DIRT_STONE: [ "stone", "dirt" ]
+
+VANILLA_ROOM: {
+  scale: 6
+  scaleY: 0.5
+}
+
+LAVA_CAVE_BLOCK: {
+  states: lava
+  maxHeight: 10
+}
+
+VANILLA_TUNNELS: {
+  frequency: 15
+  minHeight: 8
+  maxHeight: 128
+  distance: 0
+  systemChance: 0.25
+  isolatedChance: 0.142
+  systemDensity: 4
+  noiseYReduction: true
+  resizeBranches: true
+  dYaw: {
+    startVal: 0
+    factor: 0.75
+    randFactor: 4
+    exponent: 1
+  }
+  dPitch: {
+    startVal: 0
+    factor: 0.9
+    randFactor: 2
+    exponent: 1
+  }
+  scale: {
+    startVal: 0
+    startValRandFactor: 1
+    factor: 1
+    randFactor: 0
+    exponent: 1
+  }
+  scaleY: {
+    startVal: 1
+    factor: 1
+    randFactor: 0
+    exponent: 1
+  }
+  yaw: {
+    startVal: 0
+    startValRandFactor: 1
+  }
+  pitch: {
+    startVal: 0
+    startValRandFactor: 0.25
+  }
+}
+
+VANILLA_RAVINES: {
+  chance: 0.02
+  minHeight: 20
+  maxHeight: 66
+  distance: 0
+  dYaw: {
+    startVal: 0
+    factor: 0.5
+    randFactor: 4
+    exponent: 1
+  }
+  dPitch: {
+    startVal: 0
+    factor: 0.8
+    randFactor: 2
+    exponent: 1
+  }
+  scale: {
+    startVal: 0
+    startValRandFactor: 2
+    factor: 1
+    randFactor: 0
+    exponent: 1
+  }
+  scaleY: {
+    startVal: 3
+    factor: 1
+    randFactor: 0
+    exponent: 1
+  }
+  yaw: {
+    startVal: 0
+    startValRandFactor: 1
+  }
+  pitch: {
+    startVal: 0
+    startValRandFactor: 0.25
+  }
+  noiseYFactor: 0.7
+}

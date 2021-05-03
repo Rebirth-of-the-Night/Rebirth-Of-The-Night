@@ -1,0 +1,30 @@
+{
+  "name": "Ruby",
+  "icon": "biomesoplenty:gem:1",
+  "category": "equipment_armory",
+  "advancement": "triumph:advancements/ores/ruby",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The effects of $(item)ruby$() immediately manifested themselves through my physical being. The armor that I forged from it filled my veins with a seizing anger, and compels me to $(thing)kill$(). I felt myself become stronger and more constituted in combat, like I myself could $(thing)sustain more attacks$() and keep fighting."
+    },
+    {
+      "type": "text",
+      "text": "However, the rage that emboldened me couldn’t distract from the dread that resided in the back of my mind while I wore the ruby. I don’t like how it feels, but I want to wear it again..."
+    },
+    {
+      "type": "text",
+      "advancement": "triumph:advancements/ores/diamond",
+      "text": "Whereas diamond preserved itself by slowly mending its own wounds, ruby seemed to have a desire to preserve me above itself, slowly healing my own wounds."
+    },
+    {
+
+      "type": "relations",
+      "entries": [
+        "equipment/peridot",
+        "equipment/diamond",
+        "equipment/sapphire"
+      ]
+    }
+  ]
+}

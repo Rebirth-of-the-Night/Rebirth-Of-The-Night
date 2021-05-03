@@ -1,0 +1,20 @@
+setIcon(<minecraft:end_portal_frame>)
+setTitle("The End?")
+setDescription("Enter The End.")
+
+addParent("triumph:advancements/progression/beneath/killedidolofradiance")
+addRewardFunction("triumph:enteredEnd")
+
+
+criteria = addCriteria("entered_end", "triumph:changed_dimension")
+criteria.setDimensionDestination(1)
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("GOAL")
+setUncompletedIconColor(217,255,92)
+
+alwaysVisible()
+drawDirectLines()
+setPos(365,0)

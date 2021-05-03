@@ -1,0 +1,74 @@
+[
+  {
+    "internalOreName": "bluepower:teslatite_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/teslatite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:ruby_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/ruby_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:sapphire_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/sapphire_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:amethyst_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/amethyst_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:malachite_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/malachite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:copper_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/copper_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:silver_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/silver_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:zinc_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/zinc_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "bluepower:tungsten_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/bluepower/tungsten_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

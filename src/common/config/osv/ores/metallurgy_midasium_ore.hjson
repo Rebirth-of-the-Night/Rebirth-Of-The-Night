@@ -1,0 +1,31 @@
+name: metallurgy_midasium_ore
+mod: metallurgy
+block: {
+  location: metallurgy:midasium_ore
+  level: 3
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/midasium_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:midasium_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:midasium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 32, 255 ]
+    size: 6
+    count: 7
+  }
+]

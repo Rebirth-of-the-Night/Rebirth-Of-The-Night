@@ -1,0 +1,7 @@
+{
+  "name": "Tools of the Trade",
+  "description": "I should work smarter, not harder. Some items can greatly aid my ability to build new things.",
+  "icon": "minecraft:iron_shovel",
+  "sortnum": 2,
+  "parent": "construction"
+}

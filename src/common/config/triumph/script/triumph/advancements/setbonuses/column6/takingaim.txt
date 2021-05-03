@@ -1,0 +1,22 @@
+setIcon("iceandfire:armor_silver_metal_helmet")
+setTitle("Taking Aim")
+setDescription("Complete the Taking Aim set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+
+criteria = addCriteria("Silver Helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_silver_metal_helmet")
+
+criteria = addCriteria("Onyx Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_chestplate")
+
+criteria = addCriteria("Onyx Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_leggings")
+
+criteria = addCriteria("Silver Boots", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_silver_metal_boots")
+
+hideLines()
+alwaysVisible()
+setPos(269,-30)

@@ -1,0 +1,17 @@
+setIcon(<contenttweaker:info>)
+setTitle("Hidden Achievement")
+setDescription("")
+
+addParent("triumph:advancements/progression/aether/enterAether")
+addRewardFunction("triumph:killedSunSpiritHidden")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+setUncompletedIconColor(150,150,150)
+setUncompletedTitleColor(110,110,110)
+
+setShowToast(false)
+setAnnounceToChat(false)
+hiddenIf("triumph:advancements/progression/aether/enterAether")
+drawDirectLines()
+setPos(185,-107)

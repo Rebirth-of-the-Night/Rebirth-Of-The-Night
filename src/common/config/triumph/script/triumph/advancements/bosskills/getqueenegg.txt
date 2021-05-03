@@ -1,0 +1,11 @@
+setIcon(<iceandfire:myrmex_desert_egg:4>)
+setTitle("Getting Antsy")
+setDescription("Gain the complete trust of a colony of powerful insects.")
+
+addParent("triumph:advancements/bosskills/killmyrmexqueen")
+
+criteria = addCriteria("queen_egg", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:myrmex_desert_egg", 4)
+
+alwaysVisible()
+setPos(-219,54)

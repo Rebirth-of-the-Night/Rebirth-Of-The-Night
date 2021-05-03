@@ -1,0 +1,73 @@
+{
+  "name": "Wares and Pottery",
+  "icon": "rustic:vase",
+  "category": "innovation",
+  "pages": [
+	{
+      "type": "crafting",
+      "recipe": "crafttweaker:wares_table",
+      "text": "A staple of early civilizations. $(thing)Earthenware, stoneware and ceramics$() have a variety of uses such as enabling advanced manufacturing, strong materials, storage and decoration."
+    },
+	{
+      "type": "text",
+      "text": "The ware crafting station is a simple workshop, using an $(item)Artisan Carver$(), it will aid me in working with soft materials, molding and sculpting; however, if I ever want to $(thing)automate$() any of these processes, I should look into a $(item)Turntable$().$(br2)The basic premise of sculpting starts with a full block of material, by carving and smoothing out different segments I can create quality recipients or intricate shapes."
+    },
+	{
+      "type": "text",
+      "text": "After acquiring the material block, I just have to sculpt it directly with my $(item)carver$() until I get the desired shape, the resulting product should be able to be $(thing)fired$() in a $(l:innovation/kiln)kiln$(). What follows is a list of the different devices I believe I'm able to craft, most of which are made by continuing to work on the previous one."
+    },
+	{
+      "type": "kiln_spotlight",
+	  "title": "Planter",
+      "input": "betterwithmods:unfired_pottery:1",
+	  "output": "betterwithmods:planter",
+	  "time": "3:30min",
+      "text": "Made from a single block of clay, the $(item)planter$() is a powerful device which lets me plant crops safely indoors without needing a water source nearby. Although it would be a bit tedious to create a large scale farm using only these."
+    },
+	{
+      "type": "kiln_spotlight",
+	  "title": "Pot",
+      "input": "contenttweaker:pot_unfired",
+	  "output": "rustic:vase",
+	  "time": "3:30min",
+      "text": "Made from an unfired $(item)planter$() as a base, a $(item)pot$() is a simple ware, useful for storing items, as well as aesthetically pleasing, I can come up with a small variety of designs for these."
+    },
+	{
+      "type": "kiln_spotlight",
+	  "title": "Vase",
+	  "input": "betterwithmods:unfired_pottery:3",
+	  "output": "betterwithmods:vase",
+	  "time": "3:30min",
+      "text": "Made from an unfired $(item)pot$() as a base, a $(item)vase$() is a small container with a thin neck; it can hold $(thing)one$() item at a time, although I will not be able to retrieve said item without breaking the vase... I should be careful with stuff like $(item)Blasting oil$() slipping into one..."
+    },
+	{
+      "type": "kiln_spotlight",
+	  "title": "Urn",
+      "input": "betterwithmods:unfired_pottery:2",
+	  "output": "betterwithmods:urn",
+	  "time": "3:30min",
+      "text": "Made from an unfired $(item)vase$() as a base, the $(item)urn$() is one specific ware usually reserved for funerary purposes (or holding tea!). Nonetheless, I may have come with a more obscure utility for it... further research is needed."
+    },
+	{
+      "type": "text",
+      "text": "Of course, there are several items, blocks and such which do not require so much as a specialized workbench to be manufactured, but may be just as useful. After all, such malleable materials can be manipulated in more than one way."
+    },
+	{
+      "type": "crafting",
+      "recipe": "ceramics:armor/unfired_clay_plate",
+      "text": "Rather rudimentary, yet effective. If I can put several of these together and harden them, I may be able to create a set of clay plate armor. It would be rather heavy, but certainly tougher than average armors."
+    },
+	{
+      "type": "crafting",
+      "recipe": "crafttweaker:pyro_clay_bucket",
+      "text": "More durable than a wooden bucket, it will still break if carrying hot fluids."
+    },
+	{
+      "type": "relations",
+      "entries": [
+        "innovation/kiln",
+		"innovation/turntable"
+      ]
+    }
+  ]
+}

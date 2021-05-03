@@ -1,0 +1,24 @@
+{
+  "name": "Soulfire Chassis",
+  "icon": "multiblockmobs:soul_chassis",
+  "category": "slayers_journal_summoning",
+  "advancement": "triumph:advancements/progression/slayersjournal",
+
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "multiblockmobs:soul_chassis",
+      "text": "$(#734608)The$() $(item)Soulfire Chassis$(), $(#734608)a cage of wrought iron around a magic-infused flame, is used to conjure mysterious beings to this world.$()" 
+    },
+	 {
+      "type": "text",
+      "text": "$(#734608)The$() $(item)Soulfire Chassis$() $(#734608)doesn't do much on its own, but is empowered when placed near specific structures. Anything summoned this way tends to be fickle. $(#ff0000)The design of the summoning structure needs to be completely accurate$()$(#734608) or nothing will happen. Note: don't breathe in the soulfire smoke. $()" 
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/altar"
+      ]
+    }
+  ]
+}

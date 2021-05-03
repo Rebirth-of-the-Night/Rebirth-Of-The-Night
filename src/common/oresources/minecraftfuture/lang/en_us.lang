@@ -1,0 +1,8 @@
+#Enchantments
+enchantment.futuremc.channeling.desc=When thrown, strikes target with ligtning if there is a current thunderstorm.
+enchantment.futuremc.impaling.desc=Deals extra damage to aquatic mobs.
+enchantment.futuremc.loyalty.desc=Returns weapon after thrown.
+enchantment.futuremc.riptide.desc=Allows player to ride thrown weapon on water or snow.
+
+#Subtitles
+futuremc.subtitles.bee_passive=Bee buzzes

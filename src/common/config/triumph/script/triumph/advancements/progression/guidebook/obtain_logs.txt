@@ -1,0 +1,11 @@
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:guidebook_reminder")
+
+criteria = addCriteria("obtain logs", "minecraft:inventory_changed")
+criteria.addItem(<ore:logWood>)
+
+setShowToast(false)
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()

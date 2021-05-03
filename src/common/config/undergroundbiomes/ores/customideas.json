@@ -1,0 +1,10 @@
+[
+  {
+    "internalOreName": "custom:silversteel_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/customideas/silversteel_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

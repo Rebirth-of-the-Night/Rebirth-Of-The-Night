@@ -1,0 +1,18 @@
+[
+  {
+    "internalOreName": "matteroverdrive:dilithium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/matteroverdrivelegacy/dilithium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "matteroverdrive:tritanium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/matteroverdrivelegacy/tritanium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

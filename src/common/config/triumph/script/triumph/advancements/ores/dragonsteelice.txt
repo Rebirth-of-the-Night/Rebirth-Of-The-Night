@@ -1,0 +1,13 @@
+setIcon("iceandfire:dragonsteel_ice_ingot")
+setTitle("Inside The Winter Storm")
+setDescription("Obtain ice dragonsteel")
+
+addParent("triumph:advancements/ores/onyx")
+
+criteria = addCriteria("Ice Dragonsteel Ingot", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:dragonsteel_ice_ingot")
+
+
+alwaysVisible()
+setPos(-53,83)
+hideLines()

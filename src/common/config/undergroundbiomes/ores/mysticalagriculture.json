@@ -1,0 +1,18 @@
+[
+  {
+    "internalOreName": "mysticalagriculture:inferium_ore",
+    "meta": -1,
+    "overlay": "mysticalagriculture:blocks/inferium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "mysticalagriculture:prosperity_ore",
+    "meta": -1,
+    "overlay": "mysticalagriculture:blocks/prosperity_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

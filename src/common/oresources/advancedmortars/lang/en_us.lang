@@ -1,0 +1,23 @@
+itemGroup.advancedmortars=Advanced Mortars
+
+text.advancedmortars.jei.category.mortar.wood=Mundane Mortar
+text.advancedmortars.jei.category.mortar.stone=Cooking Mortar
+text.advancedmortars.jei.category.mortar.iron=Arcane Mortar
+text.advancedmortars.jei.category.mortar.diamond=Rudimentary Mortar
+text.advancedmortars.jei.category.mortar.gold=Mystical Mortar
+text.advancedmortars.jei.category.mortar.obsidian=Obsidian Mortar
+text.advancedmortars.jei.category.mortar.emerald=Ascended Mortar
+
+tile.advancedmortars.mortar.mortar_wood.name=Mundane Mortar
+tile.advancedmortars.mortar.mortar_stone.name=Cooking Mortar
+tile.advancedmortars.mortar.mortar_iron.name=Arcane Mortar
+tile.advancedmortars.mortar.mortar_diamond.name=Rudimentary Mortar
+tile.advancedmortars.mortar.mortar_gold.name=Mystical Mortar
+tile.advancedmortars.mortar.mortar_obsidian.name=Obsidian Mortar
+tile.advancedmortars.mortar.mortar_emerald.name=Ascended Mortar
+
+tooltip.advancedmortars.durability=Durability: %s
+tooltip.advancedmortars.durability.unbreakable=Unbreakable
+tooltip.advancedmortars.extended=Hold %sSHIFT%s for more info.
+tooltip.advancedmortars.extended.pickup=%sSHIFT%s + %sLEFT-CLICK%s to pick up mortar.
+tooltip.advancedmortars.extended.retrieve=%sSHIFT%s + %sRIGHT-CLICK%s to retrieve ingredients.

@@ -1,0 +1,15 @@
+setIcon(<minecraft:skull, meta:5, count:1>)
+setTitle("End of an Age")
+setDescription("Slay The Ender Dragon and witness the end of the beginning.")
+
+addParent("triumph:advancements/bosskills/root")
+
+addRewardFunction("triumph:killEndDragon")
+
+
+criteria = addCriteria("ender_dragon", "minecraft:player_killed_entity")
+criteria.setEntityType("ender_dragon")
+
+hideLines()
+alwaysVisible()
+setPos(-88,117)

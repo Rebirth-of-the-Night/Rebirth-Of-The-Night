@@ -1,0 +1,202 @@
+[
+  {
+    "internalOreName": "metallurgy:adamantine_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/adamantine_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:astral_silver_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/astral_silver_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:atlarus_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/atlarus_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:bitumen_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/bitumen_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:carmot_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/carmot_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:copper_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/copper_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:deep_iron_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/deep_iron_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:infuscolium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/infuscolium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:lutetium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/lutetium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:magnesium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/magnesium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:manganese_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/manganese_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:mithril_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/mithril_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:orichalcum_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/orichalcum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:osmium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/osmium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:oureclase_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/oureclase_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:phosphorite_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/phosphorite_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:platinum_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/platinum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:potash_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/potash_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:prometheum_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/prometheum_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:rubracium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/rubracium_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:salpeter_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/salpeter_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:silver_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/silver_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:sulfur_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/sulfur_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:tin_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/tin_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "metallurgy:zinc_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/metallurgy4/zinc_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

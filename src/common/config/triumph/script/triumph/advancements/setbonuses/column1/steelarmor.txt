@@ -1,0 +1,38 @@
+setIcon("dungeontactics:steel_chestplate")
+setTitle("Howling Beast")
+setDescription("Complete the Howling Beast set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+
+criteria = addCriteria("Steel Helmet", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_helmet")
+
+criteria = addCriteria("Steel Chestplate", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_chestplate")
+
+criteria = addCriteria("Steel Leggings", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_leggings")
+
+criteria = addCriteria("Steel Boots", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_boots")
+
+// Weapons
+criteria = addCriteria("Steel Greatsword", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:greatsword_steel")
+
+criteria = addCriteria("Steel Longsword", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:longsword_steel")
+
+criteria = addCriteria("Steel Warhammer", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:warhammer_steel")
+
+criteria = addCriteria("Steel Battleaxe", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:battleaxe_steel")
+
+setRequirements("any", ["Steel Helmet", "Steel Chestplate", "Steel Leggings", "Steel Boots"])
+
+
+hideLines()
+alwaysVisible()
+setPos(45,15)

@@ -1,0 +1,26 @@
+[
+  {
+    "internalOreName": "astralsorcery:blockcustomsandore",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/astralsorcery/aquamarine",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "astralsorcery:blockcustomore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/astralsorcery/rockcrystal",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "astralsorcery:blockcustomore",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/astralsorcery/starmetal",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

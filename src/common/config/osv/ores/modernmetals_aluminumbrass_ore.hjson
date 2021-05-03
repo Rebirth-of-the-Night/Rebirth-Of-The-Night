@@ -1,0 +1,19 @@
+name: modernmetals_aluminumbrass_ore
+mod: modernmetals
+block: {
+  location: modernmetals:aluminumbrass_ore
+  hardness: 7.5
+  level: 2
+}
+loot: [
+  {
+    item: modernmetals:aluminumbrass_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/aluminumbrass_ore
+}

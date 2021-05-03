@@ -1,0 +1,418 @@
+{
+    "pools": [
+      {
+        "name": "main",
+        "entries": [
+          {
+            "entryName": "minecraft:saddle",
+            "weight": 20,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:saddle"
+          },
+          {
+            "entryName": "minecraft:golden_apple",
+            "weight": 15,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:golden_apple"
+          },
+          {
+            "entryName": "minecraft:golden_apple#0",
+            "weight": 2,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "data": 1.0,
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "minecraft:golden_apple"
+          },
+          {
+            "entryName": "minecraft:record_13",
+            "weight": 15,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:record_13"
+          },
+          {
+            "entryName": "minecraft:record_cat",
+            "weight": 15,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:record_cat"
+          },
+          {
+            "entryName": "minecraft:name_tag",
+            "weight": 20,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:name_tag"
+          },
+          {
+            "entryName": "minecraft:golden_horse_armor",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:golden_horse_armor"
+          },
+          {
+            "entryName": "minecraft:iron_horse_armor",
+            "weight": 15,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:iron_horse_armor"
+          },
+          {
+            "entryName": "minecraft:diamond_horse_armor",
+            "weight": 5,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:diamond_horse_armor"
+          },
+          {
+            "entryName": "quark:rune",
+            "weight": 20,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "data": {
+                  "min": 0.0,
+                  "max": 15.0
+                },
+                "function": "minecraft:set_data"
+              }
+            ],
+            "name": "quark:rune"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 3.0
+        }
+      },
+      {
+        "name": "pool1",
+        "entries": [
+          {
+            "entryName": "minecraft:iron_ingot",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "entryName": "minecraft:gold_ingot",
+            "weight": 5,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "entryName": "minecraft:bread",
+            "weight": 20,
+            "quality": 0,
+            "type": "item",
+            "name": "minecraft:bread"
+          },
+          {
+            "entryName": "minecraft:wheat",
+            "weight": 20,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:wheat"
+          },
+          {
+            "entryName": "pyrotech:bucket_stone",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "name": "pyrotech:bucket_stone"
+          },
+          {
+            "entryName": "minecraft:redstone",
+            "weight": 15,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:redstone"
+          },
+          {
+            "entryName": "minecraft:coal",
+            "weight": 15,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:coal"
+          },
+          {
+            "entryName": "minecraft:melon_seeds",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 2.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:melon_seeds"
+          },
+          {
+            "entryName": "minecraft:pumpkin_seeds",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 2.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:pumpkin_seeds"
+          },
+          {
+            "entryName": "minecraft:beetroot_seeds",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 2.0,
+                  "max": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:beetroot_seeds"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 4.0
+        }
+      },
+      {
+        "name": "pool2",
+        "entries": [
+          {
+            "entryName": "minecraft:bone",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 8.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone"
+          },
+          {
+            "entryName": "minecraft:gunpowder",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 8.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:gunpowder"
+          },
+          {
+            "entryName": "minecraft:rotten_flesh",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 8.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:rotten_flesh"
+          },
+          {
+            "entryName": "minecraft:string",
+            "weight": 10,
+            "quality": 0,
+            "type": "item",
+            "functions": [
+              {
+                "count": {
+                  "min": 1.0,
+                  "max": 8.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:string"
+          }
+        ],
+        "rolls": 3.0
+      },
+      {
+        "name": "simpleDungeon",
+        "entries": [
+          
+        ],
+        "rolls": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "bountifulbaubles_dungeon_potions",
+        "entries": [
+          {
+            "entryName": "bountifulbaubles:potionrecall",
+            "weight": 50,
+            "quality": 0,
+            "type": "item",
+            "name": "bountifulbaubles:potionrecall"
+          },
+          {
+            "entryName": "bountifulbaubles:potionwormhole",
+            "weight": 25,
+            "quality": 0,
+            "type": "item",
+            "name": "bountifulbaubles:potionwormhole"
+          },
+          {
+            "entryName": "empty",
+            "weight": 25,
+            "quality": 0,
+            "type": "empty"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 6.0
+        },
+        "conditions": [
+          {
+            "chance": 0.25,
+            "condition": "minecraft:random_chance"
+          }
+        ]
+      },
+      {
+        "name": "magichood",
+        "entries": [
+          {
+            "entryName": "item",
+            "weight": 5,
+            "quality": 0,
+            "type": "item",
+            "name": "randomthings:magichood"
+          },
+          {
+            "entryName": "empty",
+            "weight": 95,
+            "quality": 0,
+            "type": "empty"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "name": "manuscript",
+        "entries": [
+          {
+            "entryName": "iceandfire:manuscript",
+            "weight": 20,
+            "quality": 5,
+            "type": "item",
+            "name": "iceandfire:manuscript"
+          }
+        ],
+        "rolls": {
+          "min": 1.0,
+          "max": 5.0
+        },
+        "conditions": [
+          {
+            "chance": 0.4,
+            "condition": "minecraft:random_chance"
+          }
+        ]
+      },
+      {
+        "name": "behgameon_inject_pool",
+        "entries": [
+          {
+            "entryName": "behgameon_inject_entry",
+            "weight": 1,
+            "quality": 0,
+            "type": "loot_table",
+            "name": "behgameon:inject/simple_dungeon"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }

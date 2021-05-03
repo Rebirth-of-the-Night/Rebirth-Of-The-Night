@@ -1,0 +1,16 @@
+﻿item.nagaFang.name=Skydrake Fang
+item.nagaFang.text.0=Used to brew a Potion of Poison Resistance or craft a Skydrake Shiv
+
+item.nagaFangDagger.name=Skydrake Shiv
+item.nagaFangDagger.text.0=Poisons targets
+item.nagaFangDagger.text.1=Deals +3 damage from behind
+
+entity.mowziesmobs.mowziesmobs.naga.name=Skydrake
+entity.mowziesmobs:naga.name=Skydrake
+entity.naga.name=Skydrake
+entity.mowziesmobs.mowziesmobs:naga.name=Skydrake
+
+entity.mowziesmobs.mowziesmobs.lantern.name=Puffbulb
+entity.mowziesmobs:lantern.name=Puffbulb
+entity.lantern.name=Puffbulb
+entity.mowziesmobs.mowziesmobs:lantern.name=Puffbulb

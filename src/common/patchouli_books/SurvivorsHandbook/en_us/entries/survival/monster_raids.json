@@ -1,0 +1,12 @@
+{
+  "name": "Monster Raids",
+  "icon": "iceandfire:troll_skull",
+  "category": "survival_danger",
+  "advancement": "triumph:advancements/WIP",
+  "pages": [
+	{
+      "type": "text",
+      "text": "I’ve successfully fought off a raid of angry monsters. It seems they were able to track me with ease, and were more coordinated than normal creatures. I should take special steps to prepare for any future attacks… but I expect it will be several days before I face the next one. $(thing)Traps$() and a $(thing)secure base$() should do well to protect me."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Minerals",
+  "description": "Natural resources that can be refined and manufactured.",
+  "icon": "minecraft:diamond",
+  "sortnum": 0,
+  "parent": "innovation"
+}

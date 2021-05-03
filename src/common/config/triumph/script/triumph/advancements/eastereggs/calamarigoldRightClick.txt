@@ -1,0 +1,20 @@
+setIcon("atop:amber_sword")
+setTitle("When will you learn??")
+setDescription("That your actions have consequences!!")
+
+addParent("triumph:advancements/eastereggs/root")
+
+addRewardFunction("triumph:calamarigoldRightClick")
+
+criteria = addCriteria("Dev Relic 1", "triumph:right_click_item")
+criteria.setItem(<atop:amber_sword>)
+
+
+alwaysHidden()
+setHidden(true)
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+hideLines()

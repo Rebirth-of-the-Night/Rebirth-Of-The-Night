@@ -1,0 +1,7 @@
+{
+  "name": "Livestock",
+  "description": "Although they require more time and effort to maintain compared to crops, raising animals can be useful in many ways.",
+  "icon": "minecraft:egg",
+  "sortnum": 2,
+  "parent": "agriculture"
+}

@@ -1,0 +1,12 @@
+setIcon("minecraft:gold_ingot")
+setTitle("The Golden Age")
+setDescription("Mine gold ore")
+
+addParent("triumph:advancements/ores/bronze")
+
+criteria = addCriteria("Gold ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreGold>)
+
+alwaysVisible()
+setPos(-119,-16)
+hideLines()

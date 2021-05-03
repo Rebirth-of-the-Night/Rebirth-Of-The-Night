@@ -1,0 +1,11 @@
+setIcon(<contenttweaker:four_gem_ingots>)
+setTitle("Gem Ingot")
+setDescription("Craft a gem ingot")
+
+addParent("triumph:advancements/progression/nether/enterNether")
+
+criteria = addCriteria("Gem Ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:gemIngot>)
+
+drawDirectLines()
+setPos(155,30)

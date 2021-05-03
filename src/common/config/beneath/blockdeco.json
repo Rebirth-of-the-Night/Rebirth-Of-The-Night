@@ -1,0 +1,12 @@
+[
+  {
+    "ore": "minecraft:lava",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 1,
+    "size": 256,
+    "miny": 5,
+    "maxy": 50
+  }
+]

@@ -1,0 +1,236 @@
+{
+    "registryname": "dryer",
+    "localizedname": "Dryer",
+    "requires-blueprint": false,
+    "modifiers": [
+        {
+            "elements": "betternether:cincinnasite_bars",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Replace the metal bars with cincinnasite bars\nfor 50% faster processing!",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.667
+            }
+        }
+    ],
+
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "nailedWood"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "pyrotech:drying_rack@4"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": "nailedWood"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "nailedWood"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": "nailedWood"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "bars"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "bars"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "nbt": {"id":"quark:chute"},
+            "elements": [
+                "quark:chute"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "bars"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "bars"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": "nailedWood"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": "modularmachinery:blockoutputbus"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": "nailedWood"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": "nailedWood"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": "brickBlocks"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": "modularmachinery:blockinputbus"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": "brickBlocks"
+        }
+    ]
+}

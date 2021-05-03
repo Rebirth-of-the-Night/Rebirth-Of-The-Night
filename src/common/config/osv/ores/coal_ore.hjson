@@ -1,0 +1,89 @@
+name: coal_ore
+mod: minecraft
+block: {
+  location: coal_ore
+  hardness: 3
+  level: 0
+}
+loot: [
+  {
+    item: coal
+    count: [ 1, 1 ]
+    xp: [ 2 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/coal_ore
+}
+recipe: {
+  result: coal
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+#everywhere Except Beneath and Deserts
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 17
+	blacklistBiomes: true
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+		}
+	blacklistDimensions : true
+	dimensions: [10]
+  }
+#jungle frenzy
+  {
+    height: [ 0, 155 ]
+    size: 16
+    count: 20
+	chance: 0.6
+	dimensions: [0, 7]
+	biomes: {
+	  types: [
+		JUNGLE
+	  ]
+	}
+  }
+#deserts
+  {
+    height: [ 0, 40 ]
+    size: 8
+    count: 28
+	biomes: {
+		names: [
+			minecraft:desert
+			minecraft:desert_hills
+			minecraft:mutated_desert
+			biomesoplenty:xeric_shrubland
+			biomesoplenty:oasis
+			biomesoplenty:outback
+			biomesoplenty:brushland	
+			]
+		}
+  }
+#swamp
+  {
+    height: [ 59, 64 ]
+    size: 2
+    count: 20
+	chance: 0.6
+	dimensions: [0, 7]
+	biomes: {
+	  types: [
+		SWAMP
+	  ]
+	}
+  }
+]

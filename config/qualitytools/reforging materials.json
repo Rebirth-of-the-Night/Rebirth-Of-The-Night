@@ -1,9 +1,0 @@
-[
-  {
-    "comment": "Reforging materials. For more info about how to add materials, visit: https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    "tool": "any",
-    "material": {
-        "item": "contenttweaker:vis_sliver"
-    }
-  }
-]

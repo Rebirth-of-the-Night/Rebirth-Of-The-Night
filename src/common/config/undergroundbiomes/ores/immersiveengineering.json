@@ -1,0 +1,50 @@
+[
+  {
+    "internalOreName": "immersiveengineering:ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/copper",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "immersiveengineering:ore",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/aluminum",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "immersiveengineering:ore",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/lead",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "immersiveengineering:ore",
+    "meta": 3,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/silver",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "immersiveengineering:ore",
+    "meta": 4,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/nickel",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "immersiveengineering:ore",
+    "meta": 5,
+    "overlay": "undergroundbiomes:blocks/overlays/custom/uranium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

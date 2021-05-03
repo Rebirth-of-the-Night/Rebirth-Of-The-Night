@@ -1,0 +1,29 @@
+setIcon("spartanshields:shield_basic_diamond")
+setTitle("Death Is Not An Option")
+setDescription("Complete the Death Is Not An Option set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Diamond Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_helmet")
+
+criteria = addCriteria("Onyx Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_chestplate")
+
+criteria = addCriteria("Viridium Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:adamantium_leggings")
+
+criteria = addCriteria("Mythril Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_boots")
+
+criteria = addCriteria("Gem Forged Shield", "minecraft:inventory_changed")
+criteria.addItem("spartanshields:shield_basic_diamond")
+
+criteria = addCriteria("Ankh Shield", "minecraft:inventory_changed")
+criteria.addItem("bountifulbaubles:shieldankh")
+
+setRequirements("any", ["Diamond Helmet", "Onyx Chestplate",  "Viridium Leggings", "Mythril Boots"])
+
+hideLines()
+alwaysVisible()
+setPos(269,60)

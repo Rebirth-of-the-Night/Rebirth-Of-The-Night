@@ -1,0 +1,53 @@
+{
+  imports: common_values.cave::NATURAL_STONE
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: true
+  caverns: {
+    enabled: true
+    minHeight: 16
+    maxHeight: 58
+    noise3D: {
+      frequency: 0.015
+      scale: 0.3
+      scaleY: 0.58
+      gain: 0.4
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 0.75
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+    }
+  }
+  rooms: {
+    scale: 7
+    scaleY: 0.8
+  }
+  tunnels: {
+    # Spawn rate roughly in half.
+    frequency: 7
+    # Most tunnels will spawn alone.
+    systemChance: 0.00050
+    noiseYReduction: false
+    resizeBranches: false
+    scale: {
+      randFactor: 0
+      startVal: 4.5
+      startValRandFactor: 0
+    }
+    scaleY: {
+      randFactor: 0
+      startVal: 0.6
+    }
+    dPitch: {
+      factor: 0.5
+    }
+  }
+  caveBlocks: {
+    states: lava
+    maxHeight: 10
+  }
+  # Whether the preset is enabled globally.
+  enabled: true
+}

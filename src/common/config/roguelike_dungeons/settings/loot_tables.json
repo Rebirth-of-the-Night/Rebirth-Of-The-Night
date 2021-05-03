@@ -1,0 +1,9 @@
+{
+	"name" : "demo:loot_tables",
+	"loot_tables" : [
+		{"level" : [0, 1, 2], "table" : "minecraft:chests/simple_dungeon"},
+		{"type" : "STARTER", "table" : "minecraft:chests/spawn_bonus_chest"},
+		{"level" : 3, "table" : "minecraft:chests/jungle_temple"},
+		{"level" : 4, "table" : "minecraft:chests/nether_bridge"}
+	]
+}

@@ -1,0 +1,31 @@
+name: basemetals_bismuth_ore
+mod: basemetals
+block: {
+  location: basemetals:bismuth_ore
+  hardness: 1
+  level: 0
+}
+loot: [
+  {
+    item: basemetals:bismuth_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/bismuth_ore
+}
+recipe: {
+  result: basemetals:bismuth_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 0 ]
+    size: 0
+    count: 0
+  }
+]

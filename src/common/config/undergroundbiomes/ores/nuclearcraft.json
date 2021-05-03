@@ -1,0 +1,66 @@
+[
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_copper",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_tin",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_lead",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 3,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_thorium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 4,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_uranium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 5,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_boron",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 6,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_lithium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "nuclearcraft:ore",
+    "meta": 7,
+    "overlay": "undergroundbiomes:blocks/overlays/nuclearcraft/ore_magnesium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

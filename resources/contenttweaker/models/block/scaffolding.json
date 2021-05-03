@@ -1,8 +1,0 @@
-{
-	"parent": "contenttweaker:block/scaffolding_parent",
-
-	"textures": {
-		"all": "contenttweaker:blocks/scaffolding",
-		"particle": "contenttweaker:blocks/scaffolding"
-	}
-}

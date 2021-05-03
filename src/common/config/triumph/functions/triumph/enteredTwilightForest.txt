@@ -1,0 +1,7 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"You hear a terrifying roar in the distance...", "color":"yellow"}
+title @p title {"text":"The Twilight Forest", "bold":false, "italic":false, "color":"blue"}
+playsound iceandfire:firedragon_adult_roar ambient @p ~ ~ ~ 0.5 0.7
+gamestage silentadd @a enteredTwilightForest

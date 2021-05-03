@@ -1,0 +1,13 @@
+setIcon("simpleores:mythril_ingot")
+setTitle("Mystical Power")
+setDescription("Mine mythril ore")
+
+addParent("triumph:advancements/progression/beneath/enterBeneath")
+
+addRewardFunction("triumph:minedMythril")
+
+criteria = addCriteria("Mythril Ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreMythril>)
+
+drawDirectLines()
+setPos(275,-30)

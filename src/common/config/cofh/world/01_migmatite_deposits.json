@@ -1,0 +1,52 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+		"gneiss-granite-embedded_migmatite": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "migmatite"
+						}
+				},
+				"material": [
+					{
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "gneiss"
+						}
+					},
+					{
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "red_granite"
+						}
+					},
+					{
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "black_granite"
+						}
+					}
+				],
+				"radius": 5,
+				"height": 2,
+				"slim": true
+			},
+			"cluster-count": 4,
+			"chunk-chance": 28,
+			"min-height": 50,
+			"max-height": 200,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

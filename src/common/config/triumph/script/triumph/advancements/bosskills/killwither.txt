@@ -1,0 +1,16 @@
+setIcon(<minecraft:skull, meta:1, count:1>)
+setTitle("Soul Catch And Release")
+setDescription("Slay The Wither and set the lost souls free.")
+
+addParent("triumph:advancements/bosskills/root")
+
+addRewardFunction("triumph:killWither")
+
+
+criteria = addCriteria("wither", "minecraft:player_killed_entity")
+criteria.setEntityType("wither")
+
+
+hideLines()
+alwaysVisible()
+setPos(-88,148)

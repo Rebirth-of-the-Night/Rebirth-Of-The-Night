@@ -1,0 +1,65 @@
+name: gold_ore
+mod: minecraft
+block: {
+  location: gold_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: gold_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/gold_ore
+}
+recipe: {
+  result: gold_ingot
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 4, 32 ]
+    size: 8
+    count: 2
+  },
+  {
+    height: [ 4, 64 ]
+    size: 2
+    count: 44
+	chance: 0.4
+	biomes: {
+	  types: [
+	    RIVER
+	  ]
+	}
+  },
+  {
+    height: [ 4, 124 ]
+    size: 9
+    count: 30
+	chance: 0.6
+    biomes: {
+		names: ["minecraft:mesa","minecraft:mesa_clear_rock","minecraft:mesa_rock"]
+	}
+  }
+  {
+	height : [130, 255]
+	size: 11
+	count: 6 
+	chance: 0.8
+	dimensions: [10]
+  }
+  {
+	height : [120, 130]
+	size: 11
+	count: 9
+	chance: 0.8
+	dimensions: [10]
+  }
+]

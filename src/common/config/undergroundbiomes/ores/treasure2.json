@@ -1,0 +1,18 @@
+[
+  {
+    "internalOreName": "tresure2:ruby_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/tresure2/ruby_nugget",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "tresure2:sapphire_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/tresure2/sapphire_nugget",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

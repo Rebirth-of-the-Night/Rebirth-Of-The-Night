@@ -1,0 +1,15 @@
+setIcon("dungeontactics:silver_sword")
+setTitle("Embrace The Pain")
+setDescription("Craft a True Dark's Edge")
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:truedarksedge")
+
+criteria = addCriteria("True Dark's Edge", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:silver_sword")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(360,250)

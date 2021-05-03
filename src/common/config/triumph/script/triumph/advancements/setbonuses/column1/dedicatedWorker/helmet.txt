@@ -1,0 +1,19 @@
+setIcon("iceandfire:myrmex_desert_chestplate")
+setTitle("Dedicated Worker")
+setDescription("Complete the Dedicated Worker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Desert helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:myrmex_desert_helmet")
+
+criteria = addCriteria("Jungle helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:myrmex_jungle_helmet")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-189,69)

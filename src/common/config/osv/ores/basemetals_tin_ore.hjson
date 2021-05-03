@@ -1,0 +1,31 @@
+name: basemetals_tin_ore
+mod: basemetals
+block: {
+  location: basemetals:tin_ore
+  hardness: 1
+  level: 1
+}
+loot: [
+  {
+    item: basemetals:tin_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: basemetals:blocks/tin_ore
+}
+recipe: {
+  result: basemetals:tin_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 10
+  }
+]

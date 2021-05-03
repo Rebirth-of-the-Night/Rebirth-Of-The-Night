@@ -1,0 +1,9 @@
+{
+	"name" : "demo:filters",
+	"filters" : [
+		{"level" : [0,1,2,3,4], "name" : "cobweb"}
+	],
+	"filters" : [
+		{"level" : 3, "name" : "vine"}
+	]
+}

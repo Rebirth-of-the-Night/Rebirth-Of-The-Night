@@ -1,0 +1,146 @@
+[
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone:1",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble:1",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone:2",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble:2",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone:3",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble:3",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone:4",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble:4",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone:5",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble:5",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone:6",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble:6",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_stone:7",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:igneous_cobble:7",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone:1",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble:1",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone:2",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble:2",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone:3",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble:3",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone:4",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble:4",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone:5",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble:5",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone:6",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble:6",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_stone:7",
+    "heldItem": "contenttweaker:disint_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_cobble:7",
+    "damage": "1",
+    "particleType": "iconcrack",
+    "particleArea": "out",
+    "particleCount": "30"
+  }
+]

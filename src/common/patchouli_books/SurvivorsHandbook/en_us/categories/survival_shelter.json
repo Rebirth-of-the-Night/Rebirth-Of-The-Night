@@ -1,0 +1,7 @@
+{
+  "name": "Making a Shelter",
+  "description": "I'm only as safe as my surroundings allow. It's up to me to construct a secure place to live.",
+  "icon": "minecraft:wooden_door",
+  "sortnum": 0,
+  "parent": "survival"
+}

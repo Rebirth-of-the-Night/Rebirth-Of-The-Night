@@ -1,0 +1,16 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("draconicsword", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/draconicsword")
+
+criteria = addCriteria("gladiolus", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/gladiolus")
+
+criteria = addCriteria("skyblade", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/skyblade")
+
+criteria = addCriteria("vampiricsword", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/vampiricsword")
+
+alwaysHidden()

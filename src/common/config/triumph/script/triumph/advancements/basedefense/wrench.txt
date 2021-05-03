@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:engineers_wrench_iron>)
+setTitle("Iron Engineer's Wrench")
+setDescription("Used to repair and reset many traps.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Iron Engineer's Wrench", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:engineers_wrench_iron>)
+
+alwaysVisible()
+hideLines()
+setPos(-296,51)

@@ -1,0 +1,48 @@
+entity.Villager.witch_doctor=Witch Doctor
+itemGroup.totemexpansion=Totem Expansion
+
+commands.totem.usage=/totem [player] [item]
+commands.totemeffect.useage=/totem [player] [item]
+commands.totem.success=Gave player effect
+commands.totemeffect.success=Gave player effect
+command.totem.nototem=Invalid totem
+
+effects.totemexpansion.spelunking=Spelunking
+
+item.totemexpansion.totem_base.name=Totem Base
+
+item.totemexpansion.totem_head_undying.name=Totem of Undying Head
+item.totem.desc=§7Prevents you from dying. One time use.
+
+item.totemexpansion.totem_falling.name=§bTotem of Ascending
+item.totemexpansion.totem_head_plummeting.name=Totem of Ascending Head
+item.totemexpansion.totem_falling.desc=§7Saves you from a lethal fall and the void. One time use.
+
+item.totemexpansion.totem_lava.name=§bTotem of Smouldering
+item.totemexpansion.totem_head_lava.name=Totem of Smouldering Head
+item.totemexpansion.totem_lava.desc=§7Saves you from accidental trips into lava. One time use.
+
+item.totemexpansion.totem_breathing.name=§bTotem of Breathing
+item.totemexpansion.totem_head_breathing.name=Totem of Breathing Head
+item.totemexpansion.totem_breathing.desc=§7Saves you from drowning. One time use.
+
+item.totemexpansion.totem_explode.name=§bTotem of Defusing
+item.totemexpansion.totem_head_explode.name=Totem of Defusing Head
+item.totemexpansion.totem_explode.desc=§7Defuses any explosions you are involved with. One time use.
+
+item.totemexpansion.totem_repair.name=§bTotem of Repairing
+item.totemexpansion.totem_head_repair.name=Totem of Repairing Head
+item.totemexpansion.totem_repair.desc=§7Repairs a broken tool after it breaks. One time use.
+
+item.totemexpansion.totem_spelunking.name=§bTotem of Spelunking
+item.totemexpansion.totem_head_spelunking.name=Totem of Spelunking Head
+item.totemexpansion.totem_spelunking.desc=§7Right-click to detect ores around you. One time use.
+
+item.totemexpansion.totem_time.name=§bTotem of Advancing
+item.totemexpansion.totem_head_time.name=Totem of Advancing Head
+item.totemexpansion.totem_time.desc=Advances time forward
+
+item.totemexpansion.totem_recalling.name=§bTotem of Recalling
+item.totemexpansion.totem_head_recalling.name=Totem of Recalling Head
+item.totemexpansion.totem_recalling.desc=§7Sends you to your spawn point. One time use.
+item.totemexpansion.totem_recalling.error=§c§oThe totem shakes, but can not find your home.

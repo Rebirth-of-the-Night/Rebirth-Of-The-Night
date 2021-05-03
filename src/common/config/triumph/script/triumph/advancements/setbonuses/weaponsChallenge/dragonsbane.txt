@@ -1,0 +1,15 @@
+setIcon("msmlegacy:glacial_blade")
+setTitle("Dragonborn")
+setDescription("Craft a Dragon's Bane")
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:dragonsbane")
+
+criteria = addCriteria("Dragon's Bane", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:glacial_blade")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(360,190)

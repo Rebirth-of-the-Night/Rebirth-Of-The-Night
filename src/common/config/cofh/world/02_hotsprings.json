@@ -1,0 +1,34 @@
+{
+	"dependencies": [
+		"biomesoplenty"
+		],
+	"populate": {
+		"hot spring lakes": {
+			"distribution": "surface",
+			"generator": {
+				"type": "lake",
+				"block": "simplyhotsprings:hot_spring_water",
+				"solid-outline": true,
+				"outline-block": [
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "limestone"
+						}
+					}
+				]
+			},
+			"cluster-count": 2,
+			"chunk-chance": 26,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:alps",
+					"biomesoplenty:volcanic_island",
+					"biomesoplenty:shield"
+				]
+			},
+			"retrogen": true
+		}
+	}
+}

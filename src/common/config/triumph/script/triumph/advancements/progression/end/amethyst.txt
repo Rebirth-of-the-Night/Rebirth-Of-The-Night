@@ -1,0 +1,13 @@
+setIcon(<biomesoplenty:gem, ore:gemAmethyst, meta:0, count:1>)
+setTitle("Taking Back What's Yours")
+setDescription("Mine amethyst ore")
+
+addParent("triumph:advancements/progression/end/enterEnd")
+
+
+criteria = addCriteria("Amethyst", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreAmethyst>)
+
+
+drawDirectLines()
+setPos(395,-30)

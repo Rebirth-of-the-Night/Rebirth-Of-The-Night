@@ -1,0 +1,31 @@
+{
+	"populate": 
+	{
+		"flower_bumblebee_hive": {
+			"distribution": "surface",
+			"generator": {
+				"type": "structure",
+				"structure": "/structures/bumblebee_red_flower.nbt",
+				"ignored-block": "air"
+			},
+			"material": [
+				"biomesoplenty:grass",
+				"minecraft:grass"
+			],
+			"cluster-count": 1,
+			"chunk-chance": 80,
+			"min-height": 64,
+			"max-height": 120,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "id","entry": ["minecraft:plains"]},
+					{"type": "id","entry": ["minecraft:forest"]},
+					{"type": "id","entry": ["minecraft:jungle"]},
+					{"type": "id","entry": ["minecraft:desert"]}
+				]
+			}
+		}
+	}
+}

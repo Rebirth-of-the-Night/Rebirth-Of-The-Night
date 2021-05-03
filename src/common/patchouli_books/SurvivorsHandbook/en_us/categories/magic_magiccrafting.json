@@ -1,0 +1,7 @@
+{
+  "name": "The Magic of Crafting",
+  "description": "Now that I have learned the basics of Dunamis, I should be able to craft quintessence and vis into useful magical items.",
+  "icon": "artisanworktables:workstation:7",
+  "sortnum": 1,
+  "parent": "magic"
+}

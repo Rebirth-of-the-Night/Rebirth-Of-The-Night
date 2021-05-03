@@ -1,0 +1,13 @@
+setIcon("endreborn:ender_sword")
+setTitle("Void Ripper")
+setDescription("Craft a Void Ripper.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Void Ripper", "minecraft:inventory_changed")
+criteria.addItem("endreborn:ender_sword")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(225,220)

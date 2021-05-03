@@ -1,0 +1,13 @@
+{
+    "renders": [
+        "rotn/bg",
+        "rotn/loading_bar_bg",
+        "rotn/loading_bar",
+        "rotn/tips"
+    ],
+    "variables": {},
+    "functions": [],
+    "factories": [
+    ],
+    "actions": []
+}

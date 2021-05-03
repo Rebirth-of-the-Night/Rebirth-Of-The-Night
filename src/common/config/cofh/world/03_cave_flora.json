@@ -1,0 +1,375 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"quark",
+		"bettermineshafts"
+		]
+	"populate": 
+	{
+		"moss_block_layer": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": "rotn_blocks:cave_moss",
+				"material": [
+					"grass",
+					"leaves",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+					]
+				"cluster-size": 3,
+				},
+			"cluster-count": {"min": 10, "max": 30},
+			"ground-level": 60,
+			"chunk-chance": 4,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
+		"moss_layer": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:moss_patch",
+				"material": [
+					"air",
+					"tallgrass",
+					"rotn_blocks:cave_moss"
+				],
+				"surface": [
+					"grass",
+					"mossy_cobblestone",
+					"dirt",
+					"rotn_blocks:cave_moss",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 40,
+				"see-sky": false
+				},
+			"cluster-count": 30,
+			"ground-level": 60,
+			"chunk-chance": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
+		"moss_block_stacked": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": "rotn_blocks:cave_moss",
+				"surface": [
+					"grass",
+					"leaves",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"rotn_blocks:cave_moss"
+					]
+				"material": "air",
+				"cluster-size": 2,
+				"see-sky": false,
+				"stack-height": {
+					"min":1,
+					"max":3
+					}
+				},
+			"cluster-count": 10,
+			"ground-level": 60,
+			"chunk-chance": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
+		"moss_pebbles": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock_grass"
+					}
+				],
+				"surface": [
+					"rotn_blocks:cave_moss",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"material": "air",
+				"cluster-size": 32,
+				"see-sky": false
+				},
+			"cluster-count": 18,
+			"ground-level": 60,
+			"chunk-chance": 4,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
+		"glowy_vines": {
+			"distribution": "cave",
+			"generator": {
+				"type": "stalactite",
+				"block": "rotn_blocks:verribyne_0",
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"rotn_blocks:cave_moss"
+				],
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 2,
+				"height-mod": 1,
+				"gen-size": 1,
+				"size-variance": 0
+			},
+			"cluster-count": 2,
+			"chunk-chance": 3,
+			"ground-level":54,
+			"ceiling": true, 
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
+		"skewered_crassula": {
+			"distribution": "cave",
+			"generator": {
+				"type": "stalagmite",
+				"block": "contenttweaker:perforata",
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"rotn_blocks:cave_moss"
+				],
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 3,
+				"height-variance": 2,
+				"height-mod": 2,
+				"gen-size": 1,
+				"size-variance": 0
+			},
+			"cluster-count": 2,
+			"chunk-chance": 8,
+			"ground-level":54,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
+		"flowers": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:cave_rafflesia",
+						"weight": 40
+					},
+					{
+						"name": "contenttweaker:perforata",
+						"weight": 40
+					},
+					{
+						"name": "contenttweaker:cave_grass",
+						"weight": 100
+					},
+					{
+						"name": "contenttweaker:cave_bramble",
+						"weight": 60
+					},
+					{
+						"name": "contenttweaker:cave_grass",
+						"weight": 100
+					},
+					
+				],
+				"surface": [
+					"rotn_blocks:cave_moss",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"material": "air",
+				"cluster-size": 32,
+				"see-sky": false
+				},
+			"cluster-count": 5,
+			"ground-level": 60,
+			"chunk-chance": 2,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"twilightforest:twilight_glacier",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:orchard",
+					"biomesoplenty:seasonal_forest",
+					"biomesoplenty:woodland"
+				]
+			}
+		}
+	}
+}

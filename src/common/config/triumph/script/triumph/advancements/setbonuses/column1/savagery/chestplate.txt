@@ -1,0 +1,22 @@
+setIcon("iceandfire:deathworm_red_chestplate")
+setTitle("Savagery")
+setDescription("Complete the Savagery set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Yellow chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:deathworm_yellow_chestplate")
+
+criteria = addCriteria("White chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:deathworm_white_chestplate")
+
+criteria = addCriteria("Red chestplate", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:deathworm_red_chestplate")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-265,69)

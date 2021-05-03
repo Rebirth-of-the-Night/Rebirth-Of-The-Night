@@ -1,0 +1,30 @@
+name: metallurgy_phosphorite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:phosphorite_ore
+  level: 2
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/phosphorite_ore
+}
+recipe: {
+  result: metallurgy:phosphorus
+  xp: 0.5
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:phosphorus
+    count: [ 1, 3 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 100 ]
+    size: 5
+    count: 7
+  }
+]

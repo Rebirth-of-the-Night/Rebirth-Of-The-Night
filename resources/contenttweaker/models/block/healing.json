@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "minecraft:blocks/end_bricks",
-        "top": "contenttweaker:blocks/healing_top",
-        "side": "defiledlands:blocks/healing_pad_side"
-    }
-}

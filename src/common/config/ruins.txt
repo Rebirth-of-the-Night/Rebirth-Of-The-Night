@@ -1,0 +1,135 @@
+# Global Options for the Ruins mod
+#
+# tries_per_chunk is the number of times, per chunk, that the generator will
+#     attempt to create a ruin.
+#
+# chance_to_spawn is the chance, out of 100, that a ruin will be generated per
+#     try in this chunk.  This may still fail if the ruin does not have a
+#     suitable place to generate.
+#
+# specific_<biome name> is the chance, out of 100, that a ruin spawning in the
+#     specified biome will be chosen from the biome specific folder.  If not,
+#     it will choose a generic ruin from the folder of the same name.
+#
+tries_per_chunk_normal=5
+chance_to_spawn_normal=6
+tries_per_chunk_nether=0
+chance_to_spawn_nether=0
+#
+# prevent a message from being logged every time a ruin is built
+disableRuinSpawnCoordsLogging=false
+#
+# minimum distance a template must have from instances of itself
+templateInstancesMinDistance=256
+#
+# minimum distance a template must have from any other template
+anyRuinsMinDistance=156
+#
+# min/max distances overworld templates can have from world spawn (0 = no limit)
+anySpawnMinDistance=124
+anySpawnMaxDistance=0
+#
+# allow displaying a block's data by hitting it with a stick
+enableStick=false
+#
+# dimension IDs whitelisted for ruins spawning, add custom dimensions IDs here as needed
+allowedDimensions=0
+#
+# make /parseruin rule IDs line up nicely in template files
+# note: overworld (i.e., dimension 0) setting applies to all dimensions
+enableFixedWidthRuleIds=false
+#
+# tileentity blocks, those (nonvanilla)blocks which cannot function without storing their nbt data, full name as stick dictates, seperated by commata
+teblocks=
+
+specific_frozen_ocean=0
+specific_enchanted_forest=0
+specific_mutated_mesa=0
+specific_twilight_clearing=0
+specific_mushroom_forest=0
+specific_void=0
+specific_extreme_hills_with_trees=0
+specific_desert_hills=0
+specific_beaches=0
+specific_mutated_mesa_clear_rock=0
+specific_twilight_highlands=0
+specific_jungle_hills=0
+specific_mushroom_island_shore=0
+specific_frozen_river=0
+specific_mutated_extreme_hills=0
+specific_deep_ocean=0
+specific_mutated_savanna_rock=0
+specific_river=0
+specific_mutated_redwood_taiga=0
+specific_cold_beach=0
+specific_fungi_forest=0
+specific_ice_mountains=0
+specific_mutated_forest=0
+specific_mutated_extreme_hills_with_trees=0
+specific_mutated_roofed_forest=0
+specific_sky=0
+specific_mushroom_island=0
+specific_mutated_swampland=0
+specific_plains=0
+specific_mutated_savanna=0
+specific_mutated_redwood_taiga_hills=0
+specific_thornlands=0
+specific_birch_forest_hills=0
+specific_mutated_desert=0
+specific_mesa=0
+specific_ice_flats=0
+specific_glacier=0
+specific_jungle=0
+specific_ocean=0
+specific_taiga_cold=0
+specific_dark_forest=0
+specific_oak_savannah=0
+specific_mutated_ice_flats=0
+specific_snowy_coniferous_forest=0
+specific_temperate_rainforest=0
+specific_redwood_taiga_hills=0
+specific_taiga=0
+specific_taiga_hills=0
+specific_jungle_edge=0
+specific_savanna=0
+specific_redwood_taiga=0
+specific_ruthless_sands=0
+specific_mesa_clear_rock=0
+specific_torrid_wasteland=0
+specific_savanna_rock=0
+specific_twilight_lake=0
+specific_arctic_abyss=0
+specific_fire_swamp=0
+specific_forest=0
+specific_extreme_hills=0
+specific_twilight_stream=0
+specific_smaller_extreme_hills=0
+specific_twilight_forest=0
+specific_desert=0
+specific_hell=0
+specific_stone_beach=0
+specific_twilight_swamp=0
+specific_roofed_forest=0
+specific_mesa_rock=0
+specific_firefly_forest=0
+specific_highlands_center=0
+specific_deep_mushroom_forest=0
+specific_mutated_jungle=0
+specific_dense_twilight_forest=0
+specific_mutated_birch_forest_hills=0
+specific_meadow=0
+specific_forest_hills=0
+specific_mutated_mesa_rock=0
+specific_taiga_cold_hills=0
+specific_mutated_taiga_cold=0
+specific_mutated_jungle_edge=0
+specific_dark_forest_center=0
+specific_birch_forest=0
+specific_swampland=0
+specific_mutated_plains=0
+specific_snowy_forest=0
+specific_aether_highlands=0
+specific_twilight_glacier=0
+specific_mutated_taiga=0
+specific_mutated_birch_forest=0
+specific_the_beneath=0

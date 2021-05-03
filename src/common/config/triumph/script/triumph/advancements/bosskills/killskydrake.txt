@@ -1,0 +1,12 @@
+setIcon(<mowziesmobs:naga_fang>)
+setTitle("Grounded")
+setDescription("Bring down a fearsome aerial predator.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("skydrake", "minecraft:player_killed_entity")
+criteria.setEntityType("mowziesmobs:naga")
+
+hideLines()
+alwaysVisible()
+setPos(-281,54)

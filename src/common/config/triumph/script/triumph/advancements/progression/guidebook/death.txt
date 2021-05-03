@@ -1,0 +1,10 @@
+
+addParent("triumph:advancements/progression/root")
+
+criteria = addCriteria("Death", "triumph:player_death")
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()

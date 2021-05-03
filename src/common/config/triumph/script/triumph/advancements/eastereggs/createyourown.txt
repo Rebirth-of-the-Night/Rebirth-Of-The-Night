@@ -1,0 +1,13 @@
+setIcon("minecraft:crafting_table")
+setTitle("Create Your Own!")
+setDescription("Create your own Relic by donating to our Patreon!")
+
+addParent("triumph:advancements/eastereggs/root")
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+addCriteria("impossible", "minecraft:impossible")
+
+
+alwaysVisible()
+hideLines()
+setPos(-298,94)

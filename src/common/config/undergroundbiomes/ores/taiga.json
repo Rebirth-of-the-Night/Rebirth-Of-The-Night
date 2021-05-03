@@ -1,0 +1,18 @@
+[
+  {
+    "internalOreName": "taiga:dilithium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/taiga/dilithium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "taiga:vibranium_ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/taiga/vibranium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

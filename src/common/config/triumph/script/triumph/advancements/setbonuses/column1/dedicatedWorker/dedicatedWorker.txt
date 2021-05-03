@@ -1,0 +1,21 @@
+setIcon("iceandfire:myrmex_desert_chestplate")
+setTitle("Dedicated Worker")
+setDescription("Complete the Dedicated Worker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Myrmex Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/helmet")
+
+criteria = addCriteria("Myrmex Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/chestplate")
+
+criteria = addCriteria("Myrmex Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/leggings")
+
+criteria = addCriteria("Myrmex Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/dedicatedWorker/boots")
+
+hideLines()
+alwaysVisible()
+setPos(45,45)

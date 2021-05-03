@@ -1,0 +1,18 @@
+{
+  "sortnum": 2,
+  "name": "Hawthorne Berries",
+  "icon": "biomesoplenty:berries",
+  "category": "survival_gathering",
+  "pages": [
+	{
+      "type": "text",
+      "text": "These small berries are bland, but juicy. They only grow in extremely prickly bushes, which makes harvesting them a pain. Literally. Still, they grow back quickly, and the bushes don’t seem to be picky about their environment or season."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "agriculture/fiber_crops"
+      ]
+    }
+  ]
+}

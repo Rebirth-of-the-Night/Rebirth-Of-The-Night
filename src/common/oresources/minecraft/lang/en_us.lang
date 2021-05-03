@@ -1,0 +1,77 @@
+tile.anvil.name=Iron Anvil
+tile.anvil.intact.name=Iron Anvil
+tile.anvil.slightlyDamaged.name=Slightly Damaged Iron Anvil
+tile.anvil.veryDamaged.name=Crumbling Iron Anvil
+
+entity.MinecartRideable.name=Minecart
+
+tile.chest.name=Varnished Chest
+
+screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to paste.
+
+item.seeds.name=Wheat Seeds
+
+entity.Slime.name=Lime Slime
+entity.EnderCrystal.name=Ender Crystal
+
+item.bucket.name=Quality Bucket
+item.bucketWater.name=Quality Water Bucket
+item.bucketLava.name=Quality Lava Bucket
+
+menu.singleplayer=Start Your Journey
+menu.multiplayer=Play With Friends
+
+tile.blockLapis.name=Block of Lapis Lazuli
+tile.blockGold.name=Block of Gold
+tile.blockIron.name=Block of Iron
+tile.blockCoal.name=Block of Coal
+tile.blockDiamond.name=Block of Diamond
+tile.blockEmerald.name=Block of Emerald
+tile.blockRedstone.name=Block of Redstone
+tile.quartzBlock.name=Block of Quartz
+tile.quartzBlock.default.name=Block of Quartz
+tile.netherWartBlock.name=Block of Nether Wart
+tile.purpurBlock.name=Block of Purpur
+tile.brick.name=Block of Bricks
+tile.netherBrick.name=Block of Nether Bricks
+
+item.totem.name=§bTotem of Undying
+tile.flower1.dandelion.name=Marigold
+item.dyePowder.yellow.name=Yellow Dye
+item.netherStar.name=§6Nether Star
+item.slimeball.name=Green Slimeball
+
+item.swordIron.name=Iron Arming Sword
+item.swordStone.name=Stone Arming Sword
+item.swordGold.name=Gold Arming Sword
+item.swordDiamond.name=Diamond Arming Sword
+
+tile.stone.andesite.name=Gray Andesite
+tile.stone.andesiteSmooth.name=Polished Gray Andesite
+
+tile.stoneMoss.name=Mossy Coade Cobblestone
+tile.cobbleWall.mossy.name=Mossy Coade Cobblestone Wall
+tile.stone.stone.name=Coade Stone
+tile.stonebrick.name=Coade Cobblestone
+tile.stoneSlab.name=Coade Stone Slab
+tile.stoneSlab.stone.name=Coade Stone Slab
+tile.stoneSlab.cobble.name=Coade Cobblestone Slab
+tile.stoneSlab.smoothStoneBrick.name=Coade Stone Bricks Slab
+tile.stoneMoss.name=Coade Moss Stone
+tile.stairsStone.name=Coade Cobblestone Stairs
+
+tile.pressurePlateStone.name=Entity Pressure Plate
+
+tile.stonebricksmooth.name=Coade Stone Bricks
+tile.stonebricksmooth.default.name=Coade Stone Bricks
+tile.stonebricksmooth.mossy.name=Coade Mossy Stone Bricks
+tile.stonebricksmooth.cracked.name=Coade Cracked Stone Bricks
+tile.stonebricksmooth.chiseled.name=Coade Chiseled Stone Bricks
+tile.monsterStoneEgg.name=Coade Stone Monster Egg
+tile.monsterStoneEgg.stone.name=Coade Stone Monster Egg
+tile.monsterStoneEgg.cobble.name=Coade Cobblestone Monster Egg
+tile.monsterStoneEgg.brick.name=Coade Stone Brick Monster Egg
+tile.monsterStoneEgg.mossybrick.name=Coade Mossy Stone Brick Monster Egg
+tile.monsterStoneEgg.crackedbrick.name=Coade Cracked Stone Brick Monster Egg
+tile.monsterStoneEgg.chiseledbrick.name=Coade Chiseled Stone Brick Monster Egg
+tile.stairsStoneBrickSmooth.name=Coade Stone Brick Stairs

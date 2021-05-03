@@ -1,0 +1,61 @@
+/////////////// use this if you just want 1 enchantment /////////////////
+
+// declare enchantment you want
+val sparks as IEnchantmentDefinition = <enchantment:msmlegacy:sparks>;
+
+// declare the tag variable
+var enchantmentSparksTag as IData = {};
+
+// convert it into a tag, replace LEVEL_YOU_WANT
+enchantmentSparksTag += sparks.makeEnchantment(LEVEL_YOU_WANT).makeTag();
+
+
+
+
+
+/////////////// use this if you want MORE than 1 enchantment (like putting multiple enchantments on a weapon) /////////////////
+
+// put all enchantments you want to use in this array
+val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:sparks>, <enchantment:msmlegacy:ignite>];
+
+// declare the enchantmentMap variable
+var enchantmentMap1 as IData = {};
+
+// convert it into a tag, replace LEVEL_YOU_WANT
+enchantmentMap1 += enchantments1[0].makeEnchantment(LEVEL_YOU_WANT).makeTag(); // the [0] means the first location in the array, which is sparks
+enchantmentMap1 += enchantments1[1].makeEnchantment(LEVEL_YOU_WANT).makeTag(); // the [1] means the 2nd location in the array, which is ignite
+
+
+
+
+
+/////////////// use this if you want to edit the tag inside an enchantment (like for Living personalities) /////////////////
+
+// put all enchantments you want to use in this array
+val enchantments2 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:sparks>];
+
+// declare the enchantmentMap variable
+var enchantmentMap2 as IData = {};
+
+// refers to the tag of the enchantment
+var enchTag = enchantments6[0].makeEnchantment(1).makeTag().ench[0];
+
+// this is the tag that will go inside "ench: {}", so replace the personality, etc... LIVING MUST HAVE XP IN IT FOR IT TO WORK, DONT PUT 0 XP
+enchTag += {personalityName: "Divine", personality: 0.9898941 as float, kills: 0, effectiveness: 1.00 as float, xp: 1};
+
+
+// replace LEVEL_YOU_WANT
+enchantmentMap2 += {ench: [enchTag]}; 
+enchantmentMap2 += enchantments2[1].makeEnchantment(LEVEL_YOU_WANT).makeTag(); // the [1] means the 2nd location in the array, which is sparks
+
+
+
+
+/////////////// applying to item /////////////////
+
+// then just do this to apply it to a item, or you can get the book with <minecraft:enchanted_book>.withtag...
+mods.betterwithmods.Anvil.addShaped(<msmlegacy:dawn_star>.withTag(enchantmentMap6));
+
+
+// if you want to add non-enchantment tag data to the item, put this in withTag, replace in {} with your tag
+{"Quark:RuneColor": 4, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap6

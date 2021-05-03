@@ -1,0 +1,7 @@
+{
+  "name": "Gathering Resources",
+  "description": "This world is teeming with natural resources, and I can find a use for every one of them.",
+  "icon": "minecraft:wheat",
+  "sortnum": 1,
+  "parent": "survival"
+}

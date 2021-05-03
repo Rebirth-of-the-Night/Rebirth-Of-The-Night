@@ -1,0 +1,36 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+		"chalk_coastal_formations": {
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+				"block": {
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "chalk"
+						}
+				},
+				"diameter": 3,
+				"count": 7
+			},
+			"chunk-chance": 12,
+			"cluster-count": 2,
+			"size-variance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:stone_beach",
+					"biomesoplenty:white_beach"
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

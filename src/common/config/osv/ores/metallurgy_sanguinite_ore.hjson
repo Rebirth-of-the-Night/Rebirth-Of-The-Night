@@ -1,0 +1,32 @@
+name: metallurgy_sanguinite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:sanguinite_ore
+  level: 6
+  lightLevel: 5
+  resistance: 60
+}
+texture: {
+  original: metallurgy:blocks/sanguinite_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:sanguinite_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:sanguinite_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 4
+    count: 3
+  }
+]

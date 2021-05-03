@@ -1,0 +1,20 @@
+{
+  "name": "Dead of Winter",
+  "icon": "iceandfire:dread_portal",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedSunSpirit",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "When I destroyed Sun Spirit, some kind of chilling presence made its way into my world. I imagine it's strongest during the coldest time of year..."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

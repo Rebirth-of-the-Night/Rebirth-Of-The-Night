@@ -1,0 +1,21 @@
+setIcon("simpleores:onyx_boots")
+setTitle("A Fire Combo")
+setDescription("Complete the A Fire Combo set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Mythril Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_helmet")
+
+criteria = addCriteria("Mythril Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_chestplate")
+
+criteria = addCriteria("Mythril Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_leggings")
+
+criteria = addCriteria("Onyx Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_boots")
+
+hideLines()
+alwaysVisible()
+setPos(269,0)

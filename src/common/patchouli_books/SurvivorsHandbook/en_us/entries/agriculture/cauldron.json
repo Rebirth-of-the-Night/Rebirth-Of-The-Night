@@ -1,0 +1,26 @@
+{
+  "name": "Cauldron",
+  "icon": "minecraft:cauldron",
+  "category": "agriculture",
+  "pages": [
+	{
+      "type": "crafting",
+      "recipe": "minecraft:cauldron",
+	  "text": "A basic iron cauldron is the gate to plenty of different soups, brews and all around peculiar mixtures."
+    },
+	{
+      "type": "cauldron_recipe",
+	  "input_item": "contenttweaker:magic_blend",
+	  "tip1": "Lunar water",
+	  "tip2": "1 Bottle",
+	  "output": "dungeontactics:magic_powder",
+	  "text": "By immersing this mixture in lunar water, I can create powders imbued with the power of the moon; enough to fuel magic wands."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "magic/vis_sample"
+      ]
+    }
+  ]
+}

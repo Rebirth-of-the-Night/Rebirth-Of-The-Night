@@ -1,0 +1,146 @@
+VERSION = 18;
+
+!for more documentation see: https://github.com/CD4017BE/VerticallyStackedDimensions/wiki
+
+!Time in seconds to keep a chunk loaded after it was requested by a portal (set to 0 to disable chunk persistence).
+!This is to avoid lagg by chunks being frequently loaded and unloaded again.
+chunk_load_time = 30.0;
+!maximum time in seconds a chunk can be kept continously loaded via portal requests without a player, spawnarea or modded chunkloader nearby.
+!This is to prevent players from buiding exploit contraptions to keep chunks loaded indefinitely
+cont_load_time = 300.0;
+
+!set to true to disable creation of nether portals (through obsidian ignition)
+disable_nether_portal = false;
+
+!Whether the "Dimension Stack" button should be enabled during world creation. (disable for modpacks where you don't want players messing with the configuration)
+dimstack_editor = false;
+
+!set these to true to disable vanilla ore-generation in overworld and nether. 
+disable_coal = false;
+disable_diamond = false;
+disable_emerald = false;
+disable_gold = false;
+disable_iron = false;
+disable_lapis = false;
+disable_redstone = false;
+disable_quartz = false;
+
+{	
+	!nubers of octaves for global noise generators, used for add("noiseField" ...)
+	custom_noise_octaves = [4]#;
+}
+
+ceil_on_demand = true; !whether to generate ceiling portals in open sky dimensions only when & where needed. (It's highly recommended to leave this at default true)
+
+dim_ceiling = 255; !default height at which ceiling portals are generated
+
+
+PRE_INIT() {
+	!stacking dimensions on top of each other so they get connected via portals (order bottom to top):
+	!add("dimstack", [<dimId>...]#);
+	add("dimstack", [10, 0]#); !overworld on top of beneath
+	
+	!dimension data for automatic transition layer generation:
+	!dim_transitions:<dimId> = [<botMaterial>, <botLayerSize>, <topMaterial>, <topLayerSize>];
+	dim_transitions:0 = ["minecraft:stone", 4, "minecraft:air", 0]; !Overworld has stone at floor and air at ceiling
+	
+	!lower the portal ceiling height in the nether
+	!dim_ceiling:-1 = 127;
+	
+	!prevent bedrock from being generated in ...
+	rem_block_gen:0 = "minecraft:bedrock"; !the Overworld
+	rem_block_gen:10 = "minecraft:bedrock"; !the Beneath
+	!rem_block_gen:-1 = "minecraft:bedrock"; !the Nether
+	!rem_block_gen:-1 = "minecraft:bedrock"; !the Nether
+	
+	!register a new noise field
+	!add("noiseField", <name>, <genIdx>, <horGrid>, <vertGrid>, <horScale>, <vertScale>);
+	add("noiseField", "main", 0, 4, 4, 1.0, 1.0); !"main" is used internally for dimension transition layers
+	
+}
+
+INIT() {
+	!shaped crafting recipes
+	!add("shaped", <result>, <pattern>, <ingredients>...);
+	add("shaped", it("tile.dim_pipe", 1), "010/020/010", "obsidian", "gemQuartz", it("minecraft:hopper"));
+	
+	!custom barrier block properties (block id is "dimstack:bedrock@<id>")
+	!there are 16 (ids 0 ... 15) different blocks available for use in progression barrier layers
+	!barrier_block:<id> = [[<breakingTools>...], <harvestLvl>, <hardness>, <expResistance>, <WhitherProof>];
+	!barrier_block:0 = [[it("minecraft:dragon_egg"), it("minecraft:nether_star")], "pickaxe:3", 8.0, /0, true]; !example
+	barrier_block:0 = [[it("minecraft:bedrock")], /0, /0, /0, true];
+	
+	!custom block layers
+	!add("basicLayer", <dimId>, <blockstate>, [<startY>, <minY>, <maxY>, <endY>]#);
+	add("basicLayer", 0, "dimstack:bedrock@0", [1, 1, 2, 2]#);
+	add("basicLayer", 10, "minecraft:bedrock", [0, 0, 2, 2]#);
+
+	!remove the '!' in the following line to enable top half nether generation
+	!netherTop();
+}
+
+netherTop() {
+	!Quick configuration options:
+	Loc stoneNether = false, !should the top nether be out of stone instead of netherrack
+		fullSolid = false, !should the top nether be completely filled instead of giant cave terrain
+		stoneVariants = false, !should veins of dirt, gravel and stone variants be generated
+		overworldOres = true, !should overworld ores be generated
+		netherOres = false, !should nether ores be generated
+		ceil = 256; !the ceiling height
+	
+	dim_ceiling:-1 = ceil - 1;
+	
+	Loc rock, liquid, sand1Bot, sand1Top, sand2Bot, sand2Top; !the materials to generate the nether out of
+	if (stoneNether) {
+		dim_transitions:-1 = ["minecraft:netherrack", 4, "minecraft:stone", 4]; !we have stone on top now
+		rock = "minecraft:stone";
+		liquid = "minecraft:water";
+		sand1Top = "minecraft:sand";
+		sand1Bot = "minecraft:sandstone";
+	} else {
+		rock = "minecraft:netherrack";
+		liquid = "minecraft:lava";
+		sand1Bot = "minecraft:soul_sand";
+		sand1Top = sand1Bot;
+	}
+	sand2Bot = rock;
+	sand2Top = "minecraft:gravel";
+	
+	!terrain generation:
+	if (fullSolid) {
+		!fill everything with base material
+		!add("basicLayer", <dimId>, <blockstate>, [<minY>, <maxY>]#);
+		add("basicLayer", -1, rock, [128, ceil]#);
+	} else {
+		!generate nether terrain
+		!add("nether", <dimId>, [<materials>...], [minY, lakeY, sandFormY, maxY]#, <borderSize>);
+		add("nether", -1, [rock, liquid, sand1Bot, sand1Top, sand2Bot, sand2Top], [128, 160, 192, ceil]#, 32);
+	}
+	!obsidian layer between top and bottom nether
+	!add("basicLayer", <dimId>, <blockstate>, [<startY>, <minY>, <maxY>, <endY>]#);
+	!add("basicLayer", -1, "minecraft:obsidian", [123, 127, 129, 133]#);
+	
+	!ore vein generation:
+	if (stoneVariants) {
+		add("oregen", -1, rock, 10, 33, "minecraft:dirt", "even", [128, 256]#);
+		add("oregen", -1, rock, 8, 33, "minecraft:gravel", "even", [128, 256]#);
+		add("oregen", -1, rock, 10, 33, "minecraft:stone@1", "even", [128, 256]#);
+		add("oregen", -1, rock, 10, 33, "minecraft:stone@3", "even", [128, 256]#);
+		add("oregen", -1, rock, 10, 33, "minecraft:stone@5", "even", [128, 256]#);
+	}
+	if (overworldOres) {
+		!ore generation
+		!add("oregen", <dimId>, <repBlocks>, <veinsPerChunk>, <blocksPerVein> * it(<oreBlock>), <mode>, <heights>...);
+		!The "even" mode takes a minimum and a maximum height and distributes ore veins evenly between them.
+		!The "centered" mode takes a minimum, a center and a maximum height and distributes ore veins between minimum and maximum but with higher concentration towards the center height.
+		!The "gaussian" mode takes a center height and a deviation distance and spreads ore veins with a Gaussian distribution.
+		add("oregen", -1, rock, 24,  8, "minecraft:redstone_ore", "center", [144, 160, 256]#);
+		add("oregen", -1, rock,  4,  7, "minecraft:lapis_ore",    "center", [144, 240, 256]#);
+		add("oregen", -1, rock,  6,  9, "minecraft:gold_ore",     "center", [128, 176, 256]#);
+		add("oregen", -1, rock, 40,  9, "minecraft:iron_ore",     "even", [128, 256]#);
+		add("oregen", -1, rock, 50, 17, "minecraft:coal_ore",     "even", [128, 256]#);
+	}
+	if (netherOres) {
+		add("oregen", -1, rock, 40,  9, "minecraft:quartz_ore", "even", [128, 256]#);
+	}
+}
