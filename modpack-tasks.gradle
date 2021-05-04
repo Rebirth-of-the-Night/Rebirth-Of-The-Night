@@ -9,7 +9,7 @@ task clean(type: Delete) {
 
 task build(type: Copy) {
     group 'build'
-    description 'build the mod pack so it can be run'
+    description 'build the modpack so it can be run'
 
     dependsOn 'buildTest'
 }
@@ -61,7 +61,7 @@ task packageClient(type: Copy) {
     into dest
 
     doLast{
-        println "your run is avaible at ${dest}"
+        println "your run is available at ${dest}"
     }
 }
 
@@ -81,7 +81,7 @@ task packageServer(type: Copy) {
     into dest
 
     doLast{
-        println "your run is avaible at ${dest}"
+        println "your run is available at ${dest}"
     }
 }
 
