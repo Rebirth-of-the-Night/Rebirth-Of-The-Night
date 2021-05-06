@@ -54,15 +54,20 @@ working directly with gradle.
 # cleans the build directory. Use this to blank slate
 gradlew clean
 
-# assembles the test client at ./build/test. You can launch this with minecraft launcher or import into a curse forge profile
+# assembles the test client at ./build/test. You can launch this with minecraft launcher or import
+# into a curse forge profile
 gradlew build
 
-# assembles the client files. At this time, you'll still need to import into curseforge and export to get the curseForge client meta file.
+# assembles the client files. At this time, you'll still need to import into curseforge and export
+# to get the curseForge client meta file.
+
 # Due to config backwashing, clean and rebuild before final packaging.
 gradlew packageClient
 
-# assembles the server files (exploded). Zip it up and you should have a server. 
-# You can also test the server/client boundary by running the start server bat file, and connecting with a client or development profile.
+# assembles the server files (exploded). Zip it up and you should have a server. You can also test
+# the server/client boundary by running the start server bat file, and connecting with a client or
+# development profile.
+# 
 # Due to config backwashing, clean and rebuild before final packaging.
 gradlew packageServer
 ```
@@ -96,20 +101,18 @@ Create a minecraft instance to run the files located in your project's `build/te
 3. Choose 1.12.2
 4. Edit instance
 5. Select `Install Forge`
-6. Select Open `.minecraft`
-7. Move up one folder
-8. delete `.minecraft`
-9. Create
+6. Select `Instance Folder`
+7. delete `.minecraft`
+8. Create
    a [symbolic link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)
    to your build output directory by open a command window here in **ADMIN MODE** and running:
     ```sh
-    mklink /d .minecraft "<path-to-your-/build/test>"
+    mklink /d "<path-to-your-instance>/.minecraft"" "<path-to-your-repo>/build/test"
     ```
-   
-    ❗ Be sure to put quotes around the target directory if there are spaces.
-   
-10. in explorer, you should see the `.minecraft` with a little shortcut arrow. Confirm it linked
-    properly by opening.
+
+   ❗ Be sure to put quotes around the target directory if there are spaces.
+9. in explorer, you should see the `.minecraft` with a little shortcut arrow. Confirm it linked
+   properly by opening.
 
 # Contributing
 
