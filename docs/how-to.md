@@ -74,9 +74,11 @@ Create a minecraft instance to run the files located in your project's `build/te
 ### Vanilla Minecraft Launcher
 
 **Prerequisites**
-1. Download Forge [1.12.2](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)
+
+1. Download
+   Forge [1.12.2](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)
 2. Install
-   
+
 **Steps**
 
 1. Open the minecraft launcher
@@ -89,20 +91,36 @@ Create a minecraft instance to run the files located in your project's `build/te
 
 ### MultiMC
 
-`WIP`
+1. Open MMC
+2. Click Add Instance in the top left
+3. Choose 1.12.2
+4. Edit instance
+5. Select `Install Forge`
+6. Select Open `.minecraft`
+7. Move up one folder
+8. delete `.minecraft`
+9. Create
+   a [symbolic link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)
+   to your build output directory by open a command window here in **ADMIN MODE** and running:
+    ```sh
+    mklink /d .minecraft <path-to-your-/build/test>
+    ```
+10. in explorer, you should see the `.minecraft` with a little shortcut arrow. Confirm it linked
+    properly by opening.
 
 # Contributing
 
-The built instances are now output.
+The built instances are now output. This prevents inadvertent commits of generated files.
 
-Contribute by altering the source in the `src` directory.
+Contribute by altering the source in the `src` directory. Depending on which subdirectory you put it
+in, that content will be included or excluded from certain builds.
 
 ```yaml
 src:
   # available on all versions
   common:
-     - most mods and configuration
-     - when in doubt, it goes here
+    - most mods and configuration
+    - when in doubt, it goes here
 
   # only on the final client and development
   client-only: ...
