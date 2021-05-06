@@ -48,8 +48,8 @@
 			"distribution": "uniform",
 			"generator": {
 				"type": "stalagmite",
-				"block": "osv:simpleores_onyx_ore_contenttweaker_starblock",
-				"material": "contenttweaker:starblock",
+				"block": "osv:simpleores_onyx_ore_contenttweaker_ardicite",
+				"material": "contenttweaker:ardicite",
 				"gen-body": [
 					{ 
 						"name": "minecraft:air"

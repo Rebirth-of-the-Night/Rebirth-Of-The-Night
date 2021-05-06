@@ -89,3 +89,37 @@ Mill.builder()
 .buildRecipe([<quark:sugar_block>], [<minecraft:sugar>*9])
 .setPriority(3)
 .build();
+
+// Rich Slag recipes
+Mill.builder()
+.buildRecipe([<undergroundbiomes:fossil_piece:*>], [<pyrotech:material:8>*3])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<minecraft:quartz>], [<pyrotech:material:8>])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<arcanearchives:raw_quartz>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<undergroundbiomes:sedimentary_stone:1>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<undergroundbiomes:metamorphic_stone:3>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<undergroundbiomes:metamorphic_stone:2>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<undergroundbiomes:sedimentary_stone:5>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<undergroundbiomes:sedimentary_stone:0>], [<pyrotech:material:8>*3])
+.setPriority(3)
+.build();

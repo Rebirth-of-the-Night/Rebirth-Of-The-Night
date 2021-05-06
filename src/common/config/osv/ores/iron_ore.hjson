@@ -7,9 +7,9 @@ block: {
 }
 loot: [
   {
-    item: iron_ore
-    count: [ 1, 1 ]
-    xp: [ 0, 0 ]
+    item: contenttweaker:raw_iron
+    count: [ 1, 2 ]
+    xp: [ 0, 3 ]
     chance: 1
   }
 ]

@@ -78,6 +78,11 @@ for mat in dustMat {
     StoneKiln.addRecipe("stonekiln_dust"~mat, oreDict["ingot"~mat].firstItem, oreDict["dust"~mat], 20*300, true);
 }
 
+var rawOre as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
+for mat in rawOre {
+    StoneKiln.addRecipe("stonekiln_rawOre"~mat, oreDict["ingot"~mat].firstItem, oreDict["rawOre"~mat], 20*300, true);
+}
+
 //gem
 var stringMat1 as string[] = ["Coal", "Redstone", "Lapis", "Diamond", "Ruby", "Sapphire", "Peridot", "Emerald", "Quartz", "Amethyst", "EnderBiotite", "Onyx", "Ambrosium", "Zanite"];
 for mat1 in stringMat1 {

@@ -7,9 +7,9 @@ block: {
 }
 loot: [
   {
-    item: simpleores:tin_ore
-    count: [ 1, 1 ]
-    xp: [ 0, 0 ]
+    item: contenttweaker:raw_tin
+    count: [ 1, 2 ]
+    xp: [ 0, 1 ]
     chance: 1
   }
 ]

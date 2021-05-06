@@ -91,7 +91,7 @@ Composter.addValidItem(<betterwithmods:hemp>, 35); // Hemp seeds
 
 
 //misc
-val foundation = <contenttweaker:micomi_foundation>;
+val foundation = <contenttweaker:foundation_micomi>;
 
 //igneous stone blocks
 val igStone = <undergroundbiomes:igneous_stone>.definition;

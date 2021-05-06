@@ -8,9 +8,9 @@ block: {
 }
 loot: [
   {
-    item: simpleores:mythril_ore
-    count: [ 1, 1 ]
-    xp: [ 0, 0 ]
+    item: contenttweaker:raw_mythril
+    count: [ 1, 2 ]
+    xp: [ 3, 5 ]
     chance: 1
   }
 ]

@@ -705,7 +705,7 @@ Dropt.list("wonder_geode")
 Dropt.list("ardicite")
 
   .add(Dropt.rule()
-      .matchBlocks(["contenttweaker:starblock"])
+      .matchBlocks(["contenttweaker:ardicite"])
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(10)) // drops nothing if selected
       )
@@ -733,7 +733,7 @@ Dropt.list("lignite")
       )
   ); 
 // Cobbled Path blocks
-Dropt.list("cobbled_coade")
+Dropt.list("cobblestone_path_coade")
 
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:cobblestone_path_coade"])
@@ -742,7 +742,7 @@ Dropt.list("cobbled_coade")
        	   .items([<minecraft:cobblestone>])
       )
   ); 
-Dropt.list("cobbled_red_granite")
+Dropt.list("cobblestone_path_red_granite")
 
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:cobblestone_path_red_granite"])
@@ -751,6 +751,62 @@ Dropt.list("cobbled_red_granite")
        	   .items([<undergroundbiomes:igneous_cobble>])
       )
   ); 
+Dropt.list("cobblestone_path_black_granite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_black_granite"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble:1>])
+      )
+  ); 
+Dropt.list("cobblestone_path_rhyolite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_rhyolite"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble:2>])
+      )
+  ); 
+Dropt.list("cobblestone_path_andesite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_andesite"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble:3>])
+      )
+  ); 
+Dropt.list("cobblestone_path_gabbro")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_gabbro"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble:4>])
+      )
+  ); 
+Dropt.list("cobblestone_path_basalt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_basalt"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble:5>])
+      )
+  ); 
+Dropt.list("cobblestone_path_komatiite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cobblestone_path_komatiite"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<undergroundbiomes:igneous_cobble:6>])
+      )
+  ); 
+
+//Yeast
 Dropt.list("yeast_flour")
 
   .add(Dropt.rule()

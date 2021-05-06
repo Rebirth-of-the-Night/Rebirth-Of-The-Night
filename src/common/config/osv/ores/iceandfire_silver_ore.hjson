@@ -7,7 +7,7 @@ block: {
 }
 loot: [
   {
-    item: iceandfire:silver_ore
+    item: contenttweaker:raw_silver
     count: [ 1, 1 ]
     xp: [ 0, 0 ]
     chance: 1

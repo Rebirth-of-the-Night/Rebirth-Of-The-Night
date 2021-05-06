@@ -42,7 +42,7 @@ JEI.removeAndHide(<contenttweaker:four_gem_ingots>);
 JEI.removeAndHide(<contenttweaker:four_gems>);
 JEI.removeAndHide(<contenttweaker:scaffolding>);
 
-//for charcoal see pyrotech_recipes_kiln.zs
+// For charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);
 
 furnace.remove(<minecraft:leather>);
@@ -50,6 +50,73 @@ furnace.remove(<ore:nuggetIron>);
 furnace.remove(<minecraft:brick>);
 
 furnace.setFuel(<ore:barkWood>, 100);
+
+// raw ores
+furnace.addRecipe(<simpleores:tin_ingot>, <contenttweaker:raw_tin>);
+furnace.addRecipe(<simpleores:copper_ingot>, <contenttweaker:raw_copper>);
+furnace.addRecipe(<minecraft:iron_ingot>, <contenttweaker:raw_iron>);
+furnace.addRecipe(<iceandfire:silver_ingot>, <contenttweaker:raw_silver>);
+furnace.addRecipe(<minecraft:gold_ingot>, <contenttweaker:raw_gold>);
+furnace.addRecipe(<simpleores:adamantium_ingot>, <contenttweaker:raw_viridium>);
+furnace.addRecipe(<simpleores:mythril_ingot>, <contenttweaker:raw_mythril>);
+var rtb as IItemStack[IItemStack] = {
+  <contenttweaker:raw_tin_block> : <contenttweaker:raw_tin>,
+  <contenttweaker:raw_copper_block> : <contenttweaker:raw_copper>,
+  <contenttweaker:raw_iron_block> : <contenttweaker:raw_iron>,
+  <contenttweaker:raw_silver_block> : <contenttweaker:raw_silver>,
+  <contenttweaker:raw_gold_block> : <contenttweaker:raw_gold>,
+  <contenttweaker:raw_viridium_block> : <contenttweaker:raw_viridium>,
+  <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>
+} as IItemStack[IItemStack];
+
+for rawOre, rawOreBlock in rtb {
+  recipes.addShaped(rawOreBlock, [
+	[rawOre,rawOre,rawOre],
+	[rawOre,rawOre,rawOre],
+	[rawOre,rawOre,rawOre]]);
+  recipes.addShapeless(rawOre*9, [rawOreBlock]);
+}
+
+
+// rocks/piles to cobble/blocks and viceversa 
+var ctr as IItemStack[IItemStack] = {
+  <minecraft:dirt> : <betterwithmods:dirt_pile>,
+  <minecraft:sand> : <betterwithmods:sand_pile>,
+  <minecraft:sand:1> : <betterwithmods:red_sand_pile>,
+  <minecraft:gravel> : <betterwithmods:gravel_pile>,
+  <minecraft:cobblestone> : <pyrotech:rock>,
+  <minecraft:sandstone> : <pyrotech:rock:6>,
+  <minecraft:red_sandstone> : <pyrotech:rock:10>,
+  <undergroundbiomes:igneous_cobble> : <pyrotech_compat:rock_igneous>,
+  <undergroundbiomes:igneous_cobble:1> : <pyrotech_compat:rock_igneous:1>,
+  <undergroundbiomes:igneous_cobble:2> : <pyrotech_compat:rock_igneous:2>,
+  <undergroundbiomes:igneous_cobble:3> : <pyrotech_compat:rock_igneous:3>,
+  <undergroundbiomes:igneous_cobble:4> : <pyrotech_compat:rock_igneous:4>,
+  <undergroundbiomes:igneous_cobble:5> : <pyrotech_compat:rock_igneous:5>,
+  <undergroundbiomes:igneous_cobble:6> : <pyrotech_compat:rock_igneous:6>,
+  <undergroundbiomes:igneous_cobble:7> : <pyrotech_compat:rock_igneous:7>,
+  <undergroundbiomes:metamorphic_cobble> : <pyrotech_compat:rock_metamorphic>,
+  <undergroundbiomes:metamorphic_cobble:1> : <pyrotech_compat:rock_metamorphic:1>,
+  <undergroundbiomes:metamorphic_cobble:2> : <pyrotech_compat:rock_metamorphic:2>,
+  <undergroundbiomes:metamorphic_cobble:3> : <pyrotech_compat:rock_metamorphic:3>,
+  <undergroundbiomes:metamorphic_cobble:4> : <pyrotech_compat:rock_metamorphic:4>,
+  <undergroundbiomes:metamorphic_cobble:5> : <pyrotech_compat:rock_metamorphic:5>,
+  <undergroundbiomes:metamorphic_cobble:6> : <pyrotech_compat:rock_metamorphic:6>,
+  <undergroundbiomes:metamorphic_cobble:7> : <pyrotech_compat:rock_metamorphic:7>,
+  <contenttweaker:limestone_cobble> : <pyrotech:rock:8>,
+  <contenttweaker:chalk_cobble> : <pyrotech_compat:rock_sedimentary>,
+  <contenttweaker:shale_cobble> : <pyrotech_compat:rock_sedimentary:1>,
+  <contenttweaker:siltstone_cobble> : <pyrotech_compat:rock_sedimentary:2>,
+  <contenttweaker:lignite_cobble> : <pyrotech_compat:rock_igneous_sand:9>,
+  <contenttweaker:dolomite_cobble> : <pyrotech_compat:rock_sedimentary:3>,
+  <contenttweaker:greywacke_cobble> : <pyrotech_compat:rock_sedimentary:4>,
+  <contenttweaker:chert_cobble> : <pyrotech_compat:rock_sedimentary:5>
+} as IItemStack[IItemStack];
+
+for cobble, rock in ctr {
+  recipes.addShapeless(cobble, [rock,rock,rock,rock]);
+  recipes.addShapeless(rock*4, [cobble]);
+}
 
 // remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
 LootTable.removeGlobalItem("minecraft:bucket");
@@ -80,6 +147,30 @@ bars.add(<aesthetics:adamantium_bars>);
 bars.add(<aesthetics:onyx_bars>);
 bars.add(<aether_legacy:zanite_bars>);
 bars.add(<betternether:cincinnasite_bars>);
+
+val rawOreTin = <ore:rawOreTin>;
+rawOreTin.add(<contenttweaker:raw_tin>);
+
+val rawOreCopper = <ore:rawOreCopper>;
+rawOreCopper.add(<contenttweaker:raw_copper>);
+
+val rawOreIron = <ore:rawOreIron>;
+rawOreIron.add(<contenttweaker:raw_iron>);
+
+val rawOreSilver = <ore:rawOreSilver>;
+rawOreSilver.add(<contenttweaker:raw_silver>);
+
+val rawOreGold = <ore:rawOreGold>;
+rawOreGold.add(<contenttweaker:raw_gold>);
+
+val rawOreGravitite = <ore:rawOreGravitite>;
+rawOreGravitite.add(<contenttweaker:raw_gravitite>);
+
+val rawOreViridium = <ore:rawOreViridium>;
+rawOreViridium.add(<contenttweaker:raw_viridium>);
+
+val rawOreMythril = <ore:rawOreMythril>;
+rawOreMythril.add(<contenttweaker:raw_mythril>);
 
 val buckets = <ore:bucket>;
 buckets.add(<minecraft:bucket>);

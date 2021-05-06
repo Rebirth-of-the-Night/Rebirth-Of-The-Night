@@ -23,14 +23,14 @@
   {
     "timeout": 10,
     "block": {
-      "block": "contenttweaker:starblock"
+      "block": "contenttweaker:ardicite"
     },
     "damage": "hotFloor=3"
   },
   {
     "timeout": 10,
     "block": {
-      "block": "osv:simpleores_onyx_ore_contenttweaker_starblock"
+      "block": "osv:simpleores_onyx_ore_contenttweaker_ardicite"
     },
     "damage": "hotFloor=3"
   }
