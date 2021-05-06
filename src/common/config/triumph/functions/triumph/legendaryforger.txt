@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+give @p msmlegacy:adminium_ark
+tellraw @p ["",{"text":"My, how far you've come. I watched you from the very beginning and knew you would become this powerful. Here, you may have my blade. I no longer have any use for it. Fight well, adventurer. I will talk to you again when the time comes.","color":"dark_red","italic":true}]

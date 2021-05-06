@@ -1,0 +1,22 @@
+setIcon("quark:archaeologist_hat")
+setTitle("Fortune and Glory")
+setDescription("Complete the Fortune and Glory set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Leather boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_boots")
+
+criteria = addCriteria("Tanned leather boots", "minecraft:inventory_changed")
+criteria.addItem("betterwithmods:leather_tanned_boots")
+
+criteria = addCriteria("Hardened leather boots", "minecraft:inventory_changed")
+criteria.addItem("harvestcraft:hardenedleatherbootsitem")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,190)

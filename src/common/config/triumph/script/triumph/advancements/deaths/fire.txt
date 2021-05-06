@@ -1,0 +1,13 @@
+setIcon(<futuremc:campfire>)
+setTitle("Hot Stuff")
+setDescription("Die from fire.")
+
+addParent("triumph:advancements/deaths/root")
+
+
+criteria = addCriteria("Fire", "triumph:player_death")
+criteria.isFire(true)
+
+hideLines()
+setHidden(true)
+setPos(115,-13)

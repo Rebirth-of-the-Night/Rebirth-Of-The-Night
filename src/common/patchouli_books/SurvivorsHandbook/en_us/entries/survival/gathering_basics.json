@@ -1,0 +1,17 @@
+{
+  "name": "The Basics of Gathering",
+  "icon": "minecraft:wheat",
+  "category": "survival_gathering",
+  "pages": [
+	{
+      "type": "text",
+      "text": "I don't need any special equipment to gather plants and stones, so I can start by grabbing those. If I want to do any mining, I'll need to make a pickaxe first. I'm sure more valuable resources can be found deep underground, but I should be well-prepared before venturing there."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "survival/string"
+      ]
+    }
+  ]
+}

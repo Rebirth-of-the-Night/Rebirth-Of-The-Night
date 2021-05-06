@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": [ { "model": "adamantium_ore" },
+			{ "model": "adamantium_ore_0" } ]
+    }
+}

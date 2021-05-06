@@ -1,0 +1,19 @@
+name: modernmetals_galvanizedsteel_ore
+mod: modernmetals
+block: {
+  location: modernmetals:galvanizedsteel_ore
+  hardness: 15.25
+  level: 5
+}
+loot: [
+  {
+    item: modernmetals:galvanizedsteel_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/galvanizedsteel_ore
+}

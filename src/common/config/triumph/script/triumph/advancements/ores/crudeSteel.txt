@@ -1,0 +1,14 @@
+setIcon("dungeontactics:steel_ingot")
+setTitle("Refined!")
+setDescription("Obtain crude steel")
+
+
+addParent("triumph:advancements/ores/iron")
+
+criteria = addCriteria("Crude Steel", "minecraft:inventory_changed")
+criteria.addItem("dungeontactics:steel_ingot")
+
+setAnnounceToChat(false)
+alwaysVisible()
+setPos(-86,17)
+hideLines()

@@ -1,0 +1,13 @@
+setIcon(<minecraft:skull:3>)
+setTitle("Anything You Can Do, I Can Do Better")
+setDescription("Die to a zombie player.")
+
+addParent("triumph:advancements/deaths/root")
+
+
+criteria = addCriteria("PlayerZombie", "minecraft:entity_killed_player")
+criteria.setEntityType("zombie_players:zombie_player")
+
+hideLines()
+setHidden(true)
+setPos(21,27)

@@ -1,0 +1,49 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+		"limestone-dolomite-chalk-embedded_chert": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "chert"
+						}
+				},
+				"material": [
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "limestone"
+						}
+					},
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "chalk"
+						}
+					},
+					{
+					"name": "undergroundbiomes:sedimentary_stone",
+					"properties": {
+						"type" : "dolomite"
+						}
+					}
+				],
+				"cluster-size": 60
+			},
+			"chunk-chance": 20,
+			"cluster-count": 12,
+			"min-height": 40,
+			"max-height": 88,
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

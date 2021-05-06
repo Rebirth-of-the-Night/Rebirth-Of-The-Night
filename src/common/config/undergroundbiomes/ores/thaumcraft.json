@@ -1,0 +1,26 @@
+[
+  {
+    "internalOreName": "thaumcraft:ore_cinnabar",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/thaumcraft/ore_cinnabar",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thaumcraft:ore_amber",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/thaumcraft/ore_amber",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thaumcraft:ore_quartz",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/thaumcraft/ore_quartz",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

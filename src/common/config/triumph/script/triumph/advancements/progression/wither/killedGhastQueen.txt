@@ -1,0 +1,19 @@
+setIcon(<netherex:ghast_queen_tear>)
+setTitle("Queen of the Nether")
+setDescription("Slay The Ghast Queen.")
+
+addParent("triumph:advancements/progression/wither/killedWither")
+
+
+criteria = addCriteria("Ghast Queen", "minecraft:player_killed_entity")
+criteria.setEntityType("netherex:ghast_queen")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+setHidden(true)
+drawDirectLines()
+setPos(552,13)

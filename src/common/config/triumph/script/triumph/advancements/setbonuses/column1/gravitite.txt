@@ -1,0 +1,21 @@
+setIcon("aether_legacy:gravitite_chestplate")
+setTitle("Moonwalker")
+setDescription("Complete the Moonwalker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Gravitite Helmet", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:gravitite_helmet")
+
+criteria = addCriteria("Gravitite Chestplate", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:gravitite_chestplate")
+
+criteria = addCriteria("Gravitite Leggings", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:gravitite_leggings")
+
+criteria = addCriteria("Gravitite Boots", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:gravitite_boots")
+
+hideLines()
+alwaysVisible()
+setPos(45,-45)

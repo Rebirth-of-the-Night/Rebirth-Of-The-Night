@@ -1,0 +1,12 @@
+{
+  "name": "The Nether",
+  "icon": "minecraft:netherrack",
+  "category": "environment_dimensions",
+  "advancement": "triumph:advancements/progression/nether/enteredNether",
+  "pages": [
+  {
+      "type": "text",
+      "text": "This place is an intimidating, fire-blasted landscape of scorched rock and lava, but it still boasts its own unusual forms of life. I can’t underestimate the threat of being burned alive if I hope to navigate here."
+    }
+  ]
+}

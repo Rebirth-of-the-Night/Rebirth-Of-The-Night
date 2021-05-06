@@ -1,0 +1,36 @@
+addParent("triumph:advancements/progression/root")
+
+criteria = addCriteria("obtain cropApple", "minecraft:inventory_changed")
+criteria.addItem(<ore:cropApple>)
+
+criteria = addCriteria("obtain materialHoneycomb", "minecraft:inventory_changed")
+criteria.addItem(<ore:materialHoneycomb>)
+
+criteria = addCriteria("obtain bottleHoney", "minecraft:inventory_changed")
+criteria.addItem(<ore:bottleHoney>)
+
+criteria = addCriteria("obtain foodGrapesPurple", "minecraft:inventory_changed")
+criteria.addItem(<ore:foodGrapesPurple>)
+
+criteria = addCriteria("obtain foodGrapesGreen", "minecraft:inventory_changed")
+criteria.addItem(<ore:foodGrapesGreen>)
+
+criteria = addCriteria("obtain foodGrapesRed", "minecraft:inventory_changed")
+criteria.addItem(<ore:foodGrapesRed>)
+
+criteria = addCriteria("obtain cropHops", "minecraft:inventory_changed")
+criteria.addItem(<ore:cropHops>)
+
+criteria = addCriteria("obtain cropRice", "minecraft:inventory_changed")
+criteria.addItem(<ore:cropRice>)
+
+criteria = addCriteria("obtain bottleMilk", "minecraft:inventory_changed")
+criteria.addItem(<ore:bottleMilk>)
+
+
+setRequirements("any")
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()

@@ -1,0 +1,31 @@
+name: metallurgy_ceruclase_ore
+mod: metallurgy
+block: {
+  location: metallurgy:ceruclase_ore
+  level: 3
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/ceruclase_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:ceruclase_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:ceruclase_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 5
+    count: 3
+  }
+]

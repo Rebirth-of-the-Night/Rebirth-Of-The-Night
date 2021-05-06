@@ -1,0 +1,58 @@
+[
+  {
+    "internalOreName": "baseminerals:lithium_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/lithium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "baseminerals:niter_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/niter",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "baseminerals:phosphorus_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/phosphorus",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "baseminerals:potash_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/potash",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "baseminerals:salt_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/salt",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "baseminerals:saltpeter_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/saltpeter",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "baseminerals:sulfur_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/baseminerals/sulfur",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

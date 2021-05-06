@@ -1,0 +1,73 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "pyrotech:blocks/rock_moss",
+      "particle": "pyrotech:blocks/rock_moss"
+    }
+  },
+  "variants": {
+    "normal": [
+      {
+        "model": "pyrotech:rock_small_a"
+      },
+      {
+        "model": "pyrotech:rock_small_a",
+        "y": 90
+      },
+      {
+        "model": "pyrotech:rock_small_a",
+        "y": 180
+      },
+      {
+        "model": "pyrotech:rock_small_a",
+        "y": 270
+      },
+      {
+        "model": "pyrotech:rock_small_b"
+      },
+      {
+        "model": "pyrotech:rock_small_b",
+        "y": 90
+      },
+      {
+        "model": "pyrotech:rock_small_b",
+        "y": 180
+      },
+      {
+        "model": "pyrotech:rock_small_b",
+        "y": 270
+      },
+      {
+        "model": "pyrotech:rock_small_c"
+      },
+      {
+        "model": "pyrotech:rock_small_c",
+        "y": 90
+      },
+      {
+        "model": "pyrotech:rock_small_c",
+        "y": 180
+      },
+      {
+        "model": "pyrotech:rock_small_c",
+        "y": 270
+      },
+      {
+        "model": "pyrotech:rock_small_d"
+      },
+      {
+        "model": "pyrotech:rock_small_d",
+        "y": 90
+      },
+      {
+        "model": "pyrotech:rock_small_d",
+        "y": 180
+      },
+      {
+        "model": "pyrotech:rock_small_d",
+        "y": 270
+      }
+    ]
+  }
+}

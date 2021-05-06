@@ -1,0 +1,33 @@
+setIcon("simpleores:mythril_chestplate")
+setTitle("A Myth No More")
+setDescription("Complete the A Myth No More set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Mythril Helmet", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_helmet")
+
+criteria = addCriteria("Mythril Chestplate", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_chestplate")
+
+criteria = addCriteria("Mythril Leggings", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_leggings")
+
+criteria = addCriteria("Mythril Boots", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_boots")
+
+criteria = addCriteria("Mythril Shield", "minecraft:inventory_changed")
+criteria.addItem("spartanshields:shield_basic_lead")
+
+criteria = addCriteria("Mythril Sword", "minecraft:inventory_changed")
+criteria.addItem("simpleores:mythril_sword")
+criteria = addCriteria("Mythril Rapier", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:rapier_mythril")
+criteria = addCriteria("Mythril Mace", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:mace_mythril")
+
+setRequirements("any", ["Mythril Helmet", "Mythril Chestplate", "Mythril Leggings", "Mythril Boots", "Mythril Shield"])
+
+hideLines()
+alwaysVisible()
+setPos(180,60)

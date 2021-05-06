@@ -1,0 +1,21 @@
+setIcon("atop:peridot_chestplate")
+setTitle("Going Green")
+setDescription("Complete the Going Green set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Peridot Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_helmet")
+
+criteria = addCriteria("Peridot Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_chestplate")
+
+criteria = addCriteria("Peridot Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_leggings")
+
+criteria = addCriteria("Peridot Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:peridot_boots")
+
+hideLines()
+alwaysVisible()
+setPos(90,60)

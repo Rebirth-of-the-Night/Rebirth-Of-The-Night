@@ -1,0 +1,21 @@
+setIcon("atop:sapphire_chestplate")
+setTitle("The Deep Blue Sea")
+setDescription("Complete The Deep Blue Sea set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Sapphire Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:sapphire_helmet")
+
+criteria = addCriteria("Sapphire Chestplate", "minecraft:inventory_changed")
+criteria.addItem("atop:sapphire_chestplate")
+
+criteria = addCriteria("Sapphire Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:sapphire_leggings")
+
+criteria = addCriteria("Sapphire Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:sapphire_boots")
+
+hideLines()
+alwaysVisible()
+setPos(90,30)

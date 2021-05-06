@@ -1,0 +1,7 @@
+{
+  "name": "Trinkets",
+  "description": "Magically-imbued trinkets and baubles that grant unique powers and resistances.",
+  "icon": "qualitytools:emerald_amulet",
+  "sortnum": 1,
+  "parent": "equipment"
+}

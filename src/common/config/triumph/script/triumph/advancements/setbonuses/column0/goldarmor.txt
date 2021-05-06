@@ -1,0 +1,23 @@
+setIcon("minecraft:golden_chestplate")
+setTitle("Not Entirely Useless")
+setDescription("Complete the Not Entirely Useless set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+// addRewardFunction("triumph:fullEarlyArmor")
+
+criteria = addCriteria("Gold Helmet", "minecraft:inventory_changed")
+criteria.addItem("minecraft:golden_helmet")
+
+criteria = addCriteria("Gold Chestplate", "minecraft:inventory_changed")
+criteria.addItem("minecraft:golden_chestplate")
+
+criteria = addCriteria("Gold Leggings", "minecraft:inventory_changed")
+criteria.addItem("minecraft:golden_leggings")
+
+criteria = addCriteria("Gold Boots", "minecraft:inventory_changed")
+criteria.addItem("minecraft:golden_boots")
+
+hideLines()
+alwaysVisible()
+setPos(0,-90)

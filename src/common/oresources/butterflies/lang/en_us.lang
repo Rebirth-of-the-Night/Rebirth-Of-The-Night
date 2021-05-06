@@ -1,0 +1,9 @@
+item.lepidopterology_book.name=Lepidopterology Book
+item.butterfly.name=Butterfly
+item.butterfly_net.name=Butterfly Net
+
+tile.butterfly_case.name=Butterfly Display Case
+
+entity.butterflies.butterfly.name=Butterfly
+
+config.butterfly.name=Butterfly Config

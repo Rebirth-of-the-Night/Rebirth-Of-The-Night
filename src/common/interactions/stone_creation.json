@@ -1,0 +1,146 @@
+[
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:1",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone:1",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:2",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone:2",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:3",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone:3",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:4",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone:4",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:5",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone:5",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:6",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone:6",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:7",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:igneous_stone:7",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble:1",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone:1",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble:2",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone:2",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble:3",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone:3",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble:4",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone:4",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble:5",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone:5",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble:6",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone:6",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  },
+  {
+    "targetBlock": "undergroundbiomes:metamorphic_cobble:7",
+    "heldItem": "contenttweaker:creation_rune",
+    "replacementBlock": "undergroundbiomes:metamorphic_stone:7",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "30"
+  }
+]

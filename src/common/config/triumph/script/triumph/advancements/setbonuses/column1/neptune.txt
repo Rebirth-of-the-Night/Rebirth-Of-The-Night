@@ -1,0 +1,21 @@
+setIcon("aether_legacy:neptune_chestplate")
+setTitle("Neptune's Gift")
+setDescription("Complete the Neptune's Gift set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Neptune Helmet", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:neptune_helmet")
+
+criteria = addCriteria("Neptune Chestplate", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:neptune_chestplate")
+
+criteria = addCriteria("Neptune Leggings", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:neptune_leggings")
+
+criteria = addCriteria("Neptune Boots", "minecraft:inventory_changed")
+criteria.addItem("aether_legacy:neptune_boots")
+
+hideLines()
+alwaysVisible()
+setPos(45,-75)

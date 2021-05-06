@@ -1,0 +1,21 @@
+setIcon("mod_lavacow:faminearmor_chestplate")
+setTitle("[WIP] Famine")
+setDescription("Complete the [WIP] Famine set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Famine Helmet", "minecraft:inventory_changed")
+criteria.addItem("mod_lavacow:faminearmor_helmet")
+
+criteria = addCriteria("Famine Chestplate", "minecraft:inventory_changed")
+criteria.addItem("mod_lavacow:faminearmor_chestplate")
+
+criteria = addCriteria("Famine Leggings", "minecraft:inventory_changed")
+criteria.addItem("mod_lavacow:faminearmor_leggings")
+
+criteria = addCriteria("Famine Boots", "minecraft:inventory_changed")
+criteria.addItem("mod_lavacow:faminearmor_boots")
+
+hideLines()
+alwaysVisible()
+setPos(180,30)

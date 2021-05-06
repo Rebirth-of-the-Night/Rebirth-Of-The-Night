@@ -1,0 +1,18 @@
+setIcon("betterwithaddons:greatbow")
+setTitle("A Hell Of A Duo")
+setDescription("Complete the A Hell Of A Duo set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:ahellofaduo")
+
+criteria = addCriteria("Onyx Sword", "minecraft:inventory_changed")
+criteria.addItem("simpleores:onyx_sword")
+
+criteria = addCriteria("Onyx Slayer Greatbow", "minecraft:inventory_changed")
+criteria.addItem("betterwithaddons:greatbow")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(270,235)

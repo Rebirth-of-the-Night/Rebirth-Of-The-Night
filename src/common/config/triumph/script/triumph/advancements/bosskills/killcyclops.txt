@@ -1,0 +1,12 @@
+setIcon(<iceandfire:cyclops_eye>)
+setTitle("One-Eyed Monster")
+setDescription("Outsmart a sheep-tending giant.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("cyclops", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:cyclops")
+
+hideLines()
+alwaysVisible()
+setPos(-281,148)

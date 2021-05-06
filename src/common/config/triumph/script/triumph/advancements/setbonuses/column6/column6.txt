@@ -1,0 +1,19 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("afirecombo", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column6/afirecombo")
+
+criteria = addCriteria("deathisnotanoption", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column6/deathisnotanoption")
+
+criteria = addCriteria("onyxarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column6/onyxarmor")
+
+criteria = addCriteria("takingaim", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column6/takingaim")
+
+criteria = addCriteria("ultimatetank", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column6/ultimatetank")
+
+alwaysHidden()

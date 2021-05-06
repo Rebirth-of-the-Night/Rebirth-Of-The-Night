@@ -1,0 +1,7 @@
+{
+  "name": "Metallurgy",
+  "description": "Creating and refining metals.",
+  "icon": "minecraft:iron_ingot",
+  "sortnum": 2,
+  "parent": "innovation"
+}

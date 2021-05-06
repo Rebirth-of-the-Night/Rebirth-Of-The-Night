@@ -1,0 +1,16 @@
+item.berries.name=Hawthorn Berry
+tile.plant_0.berrybush.name=Hawthorn Bush
+
+tile.blue_fire.name=Cursed Fire
+item.jar_filled_blue_fire.name=Cursed Fire
+
+potion.curse=Pandemonium
+
+entity.wasp.name=Helwasp
+
+tile.honey_block.name=Honey Residue
+
+tile.gem_block.amethyst_block.name=Block of Exorite
+tile.gem_ore.amethyst_ore.name=Exorite Ore
+
+tile.ash_block.name=Block of Ashes

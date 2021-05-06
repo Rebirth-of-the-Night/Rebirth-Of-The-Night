@@ -1,0 +1,24 @@
+{
+  "name": "Peridot",
+  "icon": "biomesoplenty:gem:2",
+  "category": "equipment_armory",
+  "advancement": "triumph:advancements/ores/peridot",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Peridot$() is an intensely curious gem, one whose properties continue to elude me. While wearing a set of peridot armor, any sort of violence afflicted upon me seems to $(thing)mellow the attacker$(), giving me an opportunity to get out of harm’s way. It also seems to improve my prospecting skills, allowing me to $(thing)extract more precious material$() from the ores I mine."
+    },
+    {
+      "type": "text",
+      "text": "I can't seem to grasp what could be providing this power of fortune, but this material seems.... friendly. Reluctant to harm others but willing to give instead. It almost feels less like a mineral from the depths, and more like an entity watching over me and ensuring my well being."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "equipment/ruby",
+        "equipment/diamond",
+        "equipment/sapphire"
+      ]
+    }
+  ]
+}

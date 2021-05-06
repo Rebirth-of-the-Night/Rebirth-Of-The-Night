@@ -1,0 +1,26 @@
+######This template is used to display up to 7 items in a row with unique tooltips and space for text above and below. "_i" fields can't be empty, but an example of how to achieve the effect can be seen in "g_i"
+	{
+	  "type": "item_list_spotlight",
+	  "title": "your title here",
+	  "text": "This is reserved for introductory text. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+	  "a":"mod:item_a",
+	  "a_t":"tool tip a",
+	  "a_i":"book:hover_icon.png",
+	  "b":"mod:item_b",
+	  "b_t":"tool tip b",
+	  "b_i":"book:hover_icon.png",
+	  "c":"mod:item_c",
+	  "c_t":"tool tip c",
+	  "c_i":"book:hover_icon.png",
+	  "d":"mod:item_d",
+	  "d_t":"tool tip d",
+	  "d_i":"book:hover_icon.png",
+	  "e":"mod:item_e",
+	  "e_t":"too ltip e",
+	  "e_i":"book:hover_icon.png",
+	  "f":"mod:item_f",
+	  "f_t":"tool tip f",
+	  "f_i":"book:hover_icon.png",
+	  "g_i":"book:empty.png",
+	  "text2": "This is reserved for conclusive text. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+	}

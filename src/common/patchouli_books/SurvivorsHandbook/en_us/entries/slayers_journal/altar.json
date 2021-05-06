@@ -1,0 +1,28 @@
+{
+  "name": "Altar of Summoning",
+  "icon": "from_the_depths:block_altar_of_summoning",
+  "category": "slayers_journal_summoning",
+  "advancement": "triumph:advancements/progression/killedHarvester",
+
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "from_the_depths:block_altar_of_summoning",
+      "text": "$(#734608)Burning$() $(thing)magic-imbued totems$() $(#734608)on an $(item)Altar of Summoning$()$(#734608) calls monsters from beyond. Magic begets magic. The altar cannot be created without the power of a $(item)Mage Table$() $(#734608)and the dark potency of a $(item)Shard of Night.$()$()$()"
+    },
+	 {
+      "type": "text",
+      "text": "$(#734608)The$() $(item)Altar of Summoning$() $(#734608)can be built anywhere, but requires delicate setup and is $(#ff0000)not easily transportable.$() $(#734608)It's finnicky and needs a clear, wide space all around it so nothing interferes with the summoning. I wouldn't recommend building one of these cursed things in your house, anyway.$()" 
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "slayers_journal/soulfire_core"
+      ]
+    }
+  ]
+}
+
+
+
+

@@ -1,0 +1,12 @@
+setIcon("msmlegacy:relic_candy")
+setTitle("Grand Ol' Time")
+setDescription("Craft Patreon Relic 2 of 3")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Relic 2", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:relic_candy")
+
+alwaysVisible()
+hideLines()
+setPos(-368,94)

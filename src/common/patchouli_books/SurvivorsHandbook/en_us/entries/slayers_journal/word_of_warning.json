@@ -1,0 +1,25 @@
+{
+  "name": "A Word of Warning",
+  "icon": "minecraft:paper",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/slayersjournal",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(br)$(#734608)This ugly little book may not seem like much, but it is my life's work. If you're reading this, it's not a good sign for me... but I suspect you don't really care about that. What I offer you now is a warning. $()"
+    },
+    {
+      "type": "text",
+      "text": "$(#734608) The research, the sketches, the speculation - everything I have recorded here - were never meant for an audience. They were never intended to be instructions. Understanding the horrors of this world, seeking them out, and then killing them was how I kept my sanity. It was how I kept myself from slipping away. I can't guarantee you'll feel the same. $()"
+    },
+	{
+      "type": "text",
+      "text": "$(#734608) Sometimes I saw and did things I didn't want to remember, and sealed my writings away to keep them out of my mind. $(br2) Well, this book and all its findings are bound to you now. Congratulations. $(br2)Chances are, you won't be able to read most of my writing until you've followed in my footsteps.$()"
+    },	
+    {
+      "type": "text",
+      "text": "$(#734608) If you truly wish to continue along this path, you will put yourself in great danger, facing unreasonable odds. The further you go, the worse the consequences will be, and the more likely you will meet a gruesome end. $(br)You might see that as just another challenge to be conquered. $(br)I thought that way too, once.$() $()"
+    }
+  ]
+}

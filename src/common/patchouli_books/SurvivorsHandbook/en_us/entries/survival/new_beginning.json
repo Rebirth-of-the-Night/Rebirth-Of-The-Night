@@ -1,0 +1,18 @@
+{
+  "name": "A New Beginning",
+  "icon": "minecraft:log:0",
+  "category": "survival",
+  "pages": [
+	{
+      "type": "text",
+      "text": "I know I can survive in this world, but it won't be easy. My first priority should be to find some wood to make tools and a weapon. Next, I should gather whatever resources I can and prepare to make a shelter before the sun sets. Whatever the night brings, it won't be pleasant."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

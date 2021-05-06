@@ -1,0 +1,52 @@
+setIcon("minecraft:iron_sword")
+setTitle("Full Mid Armor")
+setDescription("Unlock the Full Mid Armor gamestage.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Diamond Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/diamondarmor")
+
+criteria = addCriteria("Gravitite Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/gravitite")
+
+criteria = addCriteria("Molten Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/moltenarmor")
+
+criteria = addCriteria("Neptune Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/neptune")
+
+criteria = addCriteria("Obsidian Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/obsidianarmor")
+
+criteria = addCriteria("Peridot Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/peridotarmor")
+
+criteria = addCriteria("Phoenix Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/phoenix")
+
+criteria = addCriteria("Powercouple Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/powercouple")
+
+criteria = addCriteria("Ruby Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/rubyarmor")
+
+criteria = addCriteria("Sapphire Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/sapphirearmor")
+
+criteria = addCriteria("Valkyrie Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/valkyrie")
+
+criteria = addCriteria("Dedicated Worker Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/dedicatedWorker/dedicatedWorker")
+
+setRequirements("any")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+alwaysHidden()
+setPos(0,0)

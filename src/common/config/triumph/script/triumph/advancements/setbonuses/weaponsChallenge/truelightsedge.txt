@@ -1,0 +1,15 @@
+setIcon("msmlegacy:dawn_star")
+setTitle("The Righteous Flame")
+setDescription("Craft a True Light's Edge")
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:truelightsedge")
+
+criteria = addCriteria("True Light's Edge", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:dawn_star")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(360,280)

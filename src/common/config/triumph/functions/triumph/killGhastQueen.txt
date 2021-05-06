@@ -1,0 +1,6 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @a[r=50] times 40 120 60
+title @a[r=50] subtitle {"text":"Visions of mythical beings flash through your mind...", "color":"yellow"}
+title @a[r=50] title {"text":"Rebirth of the Forest", "bold":false, "italic":true, "color":"red"}
+gamestage silentadd @a[r=50] killedGhastQueen

@@ -1,0 +1,13 @@
+{
+  "name": "Onyx",
+  "icon": "simpleores:onyx_gem",
+  "category": "innovation_minerals",
+  "advancement": "triumph:advancements/progression/wither/onyx",
+  "pages": [
+ {
+      "type": "text",
+      "text": "This mineral is extremely tough and can be used to create highly durable tools and armor. Seems like it can only be found in $(thing)obsidian geodes$() or lakes of brimstone and sulfur. $(thing)The Wither’s$() death must have had something to do with weakening the onyx, making it susceptible to being broken." 
+
+    }
+  ]
+}

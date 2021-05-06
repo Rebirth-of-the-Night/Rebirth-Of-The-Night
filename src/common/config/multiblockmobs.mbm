@@ -1,0 +1,50 @@
+#Dimension
+#Hashtags are comments
+#X goes across, Y goes down
+#Spacing is important
+#Mob 1
+!startMultiblockMob
+!startDim
+Dimensions:[x = 3, y = 3, z = 2]
+!endDim
+
+!startInit
+minecraft:hay_block = "h"
+betternether:bone_block = "b"
+multiblockmobs:soul_chassis = "s"
+minecraft:air = "~"
+minecraft:lit_pumpkin = "p"
+!endInit
+
+!startLoc
+#z=0
+["~~~"]
+["~~~"]
+["~s~"]
+#z=1
+["~p~"]
+["hbh"]
+["~b~"]
+!endLoc
+
+!startCustom
+particals = "true"
+particaltype = "modid:particle"
+music = "true"
+musicFile = "music"
+soundEffect = "true"
+soundEffectFile = "sound_effect"
+customChat = "true"
+customChat = ""
+
+customCommand = "effect @p potioncore:lightning"
+customCommand = "summon harvestersnight:harvester ~ ~ ~ {HandItems:[{id:"harvestersnight:harvester_scythe",Count:1},{}],ActiveEffects:[{Id:12,Amplifier:0,Duration:2147483647}]}"
+customCommand = "playsound harvestersnight:harvester.spawn ambient @a"
+customCommand = "tellraw @a ["",{"text":"The Harvester has been summoned!","color":"dark_red","italic":true}]"
+!stopCustom
+
+!entityStart
+entity = "zombieawareness:entityscent"
+!entityStop
+
+!endMultiblockMob

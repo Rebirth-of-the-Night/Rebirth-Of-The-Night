@@ -1,0 +1,47 @@
+setIcon(<msmlegacy:adminium_ark>)
+setTitle("Legendary Forger")
+setDescription("Become a Legendary Forger by completing all other Perfectly Ready achievements!")
+
+setUncompletedIconColor(51, 234, 203)
+setUncompletedTitleColor(253, 245, 95)
+
+setCompletedIconColor(255, 255, 0)
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:legendaryforger")
+
+criteria = addCriteria("column0", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/column0")
+
+criteria = addCriteria("column1", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column1/column1")
+
+criteria = addCriteria("column2", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column2/column2")
+
+criteria = addCriteria("column3", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column3/column3")
+
+criteria = addCriteria("column4", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column4/column4")
+
+criteria = addCriteria("column5", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column5/column5")
+
+criteria = addCriteria("column6", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column6/column6")
+
+criteria = addCriteria("column7", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/column7")
+
+criteria = addCriteria("weapons", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/weapons")
+
+criteria = addCriteria("weaponsChallenge", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weaponsChallenge/weaponsChallenge")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(416,137)

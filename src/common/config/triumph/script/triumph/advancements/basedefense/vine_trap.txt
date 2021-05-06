@@ -1,0 +1,12 @@
+setIcon(<betterwithmods:vine_trap>)
+setTitle("Vine Trap")
+setDescription("Mobs will think this is walkable, but will fall right through it! Great for moats.")
+
+addParent("triumph:advancements/basedefense/root")
+
+criteria = addCriteria("Vine Trap", "minecraft:inventory_changed")
+criteria.addItem(<betterwithmods:vine_trap>)
+
+alwaysVisible()
+hideLines()
+setPos(-296,164)

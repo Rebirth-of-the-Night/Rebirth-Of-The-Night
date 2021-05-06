@@ -1,0 +1,61 @@
+{
+	"name" : "demo:loot4",
+	"loot_rules" : [
+		{
+			"level" : 4,
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"type" : "tool", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "WEAPONS",
+			"loot" : [
+				{"data" : {"type" : "weapon", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "ARMOUR",
+			"loot" : [
+				{"data" : {"type" : "armour", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "ORE",
+			"loot" : [
+				{"data" : {"name" : "minecraft:iron_ingot"}, "weight" : 5},
+				{"data" : {"name" : "minecraft:gold_ingot"}, "weight" : 2},
+				{"data" : {"name" : "minecraft:diamond"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:iron_nugget", "min" : 1, "max" : 4}, "weight" : 1},
+				{"data" : {"name" : "minecraft:coal", "min" : 3, "max" : 7}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 8
+		},
+		{
+			"level" : 4,
+			"loot" : [
+				{"data" : {"type" : "enchanted_book", "ench" : 30}, "weight" : 1}
+			],
+			"each" : false,
+			"quantity" : 6
+		},
+		{
+			"level" : 4,
+			"loot" : [
+				{"data" : {"type" : "specialty", "level" : 4}, "weight" : 1}
+			],
+			"each" : false,
+			"quantity" : 6
+		}
+	]
+}

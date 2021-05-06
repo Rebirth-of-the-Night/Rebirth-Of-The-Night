@@ -1,0 +1,26 @@
+setIcon(<dimstack:portal>)
+setTitle("Do You Hear Them Calling?")
+setDescription("Harm the Arcane Barrier between worlds.")
+
+addParent("triumph:advancements/progression/root")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+addRewardFunction("triumph:transitionWarning")
+
+criteria = addCriteria("break_barrier", "triumph:right_click_block")
+criteria.setItem(<contenttweaker:magic_bomb>)
+
+criteria2 = addCriteria("break_barrier 2", "triumph:right_click_block")
+criteria2.setItem(<contenttweaker:arcane_focus>)
+criteria.setBlock(<dimstack:bedrock, meta:0>)
+criteria2.setBlock(<dimstack:bedrock, meta:0>)
+
+setRequirements("any")
+
+alwaysHidden()
+setHidden(true)

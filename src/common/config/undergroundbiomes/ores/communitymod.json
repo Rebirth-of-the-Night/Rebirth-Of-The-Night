@@ -1,0 +1,18 @@
+[
+  {
+    "internalOreName": "community_mod:squirrel_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/community_mod/squirrel_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "community_mod:poke_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/community_mod/poke_ore",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

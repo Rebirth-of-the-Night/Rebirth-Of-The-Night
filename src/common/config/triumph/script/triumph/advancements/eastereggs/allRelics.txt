@@ -1,0 +1,44 @@
+setIcon(<trumpetskeleton:trumpet>)
+setTitle("Veteran Player")
+setDescription("Become a Veteran Player by completing all other Relic achievements!")
+
+setUncompletedIconColor(51, 234, 203)
+setUncompletedTitleColor(253, 245, 95)
+
+setCompletedIconColor(255, 255, 0)
+
+addParent("triumph:advancements/eastereggs/root")
+
+addRewardFunction("triumph:eastereggs")
+
+criteria = addCriteria("burningsuperdeathsword", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/burningsuperdeathsword")
+
+criteria = addCriteria("calamarigold", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/calamarigold")
+
+criteria = addCriteria("kilo", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/kilo")
+
+criteria = addCriteria("kompy", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/kompy")
+
+criteria = addCriteria("redhotchilipeppersword", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/redhotchilipeppersword")
+
+criteria = addCriteria("sandwichhorror", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/sandwichhorror")
+
+criteria = addCriteria("transsword", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/transsword")
+
+criteria = addCriteria("unlaboredFlawlessness", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/unlaboredFlawlessness")
+
+criteria = addCriteria("heavenshalberd", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/eastereggs/heavenshalberd")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(-315,34)

@@ -1,0 +1,28 @@
+{
+  "name": "Mortar",
+  "icon": "artisanworktables:artisans_mortar_gold",
+  "category": "agriculture",
+  "pages": [
+	{
+      "type": "crafting",
+      "recipe": "crafttweaker:mundane_mortar",
+	  "text": "I can crush and pulverize several materials with a pestle in a mortar, including separating the magical essence of things. Different mortar materials seem to affect what the output may be, so I need to look out for that."
+    },
+	{
+      "type": "mortar_recipe",
+	  "item1": "ore:earthQuintessence",
+	  "item2": "",
+	  "item3": "",
+	  "item4": "",
+	  "output": "contenttweaker:earth_quintessence",
+	  "extra": "contenttweaker:vis_speck",
+	  "text": "The simplest way of accessing the natural magic present in the world is probably grinding down the elements into their most primitive form so that I can access the primordial essence that lies within, pure $(thing)vis."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "magic/vis_sample"
+      ]
+    }
+  ]
+}

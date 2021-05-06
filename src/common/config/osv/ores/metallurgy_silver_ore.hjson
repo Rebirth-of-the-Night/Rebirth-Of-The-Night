@@ -1,0 +1,29 @@
+name: metallurgy_silver_ore
+mod: metallurgy
+block: {
+  location: metallurgy:silver_ore
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/silver_ore
+}
+recipe: {
+  result: metallurgy:silver_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:silver_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 7
+  }
+]

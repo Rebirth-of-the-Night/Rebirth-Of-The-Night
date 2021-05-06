@@ -1,0 +1,31 @@
+name: metallurgy_alduorite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:alduorite_ore
+  level: 3
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/alduorite_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:alduorite_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:alduorite_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 4
+    count: 7
+  }
+]

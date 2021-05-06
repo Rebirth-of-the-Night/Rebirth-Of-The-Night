@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:gem, ore:gemRuby, meta:1, count:1>)
+setTitle("Ravaging Ruby")
+setDescription("Mine ruby ore")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Ruby", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreRuby>)
+
+hideLines()
+alwaysVisible()
+setPos(-86,-49)

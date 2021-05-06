@@ -1,0 +1,18 @@
+setIcon(<minecraft:dirt>)
+setTitle("Idol of Radiance")
+setDescription("Kill the Idol of Radiance.")
+
+addParent("triumph:advancements/progression/beneath/enterBeneath")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+
+setHidden(true)
+drawDirectLines()
+setPos(305,0)

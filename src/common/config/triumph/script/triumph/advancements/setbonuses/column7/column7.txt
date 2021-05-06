@@ -1,0 +1,16 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("flamesofpride", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/flamesofpride/flamesofpride")
+
+criteria = addCriteria("glacialfortitude", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/glacialfortitude/glacialfortitude")
+
+criteria = addCriteria("dragonsteelFire", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/dragonsteelFire")
+
+criteria = addCriteria("dragonsteelIce", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/dragonsteelIce")
+
+alwaysHidden()

@@ -1,0 +1,7 @@
+{
+  "name": "Ruins",
+  "description": "Many structures are all that remain of past cultures and civilizations. I'm sure they hold useful treasure and knowledge.",
+  "icon": "minecraft:stonebrick:1",
+  "sortnum": 2,
+  "parent": "exploration"
+}

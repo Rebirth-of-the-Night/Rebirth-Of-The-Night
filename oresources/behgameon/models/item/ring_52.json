@@ -1,7 +1,0 @@
-{
-  "_comment": "Generated using MiningMark48's JSON Generator.",
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "behgameon:items/ring_052"
-  }
-}

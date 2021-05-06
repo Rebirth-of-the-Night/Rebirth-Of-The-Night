@@ -1,0 +1,13 @@
+setIcon("atop:mud_chestplate")
+setTitle("Gearing Up!")
+setDescription("Acquire a set of low-tier armor.")
+
+addParent("triumph:advancements/progression/slayersjournal")
+
+criteria = addCriteria("Early Armor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/fullEarlyArmor")
+
+
+alwaysVisible()
+drawDirectLines()
+setPos(5,0)

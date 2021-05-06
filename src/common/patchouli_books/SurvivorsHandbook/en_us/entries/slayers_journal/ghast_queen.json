@@ -1,0 +1,28 @@
+{
+  "name": "Ghast Queen",
+  "icon": "netherex:ghast_queen_tear",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/wither/killedGhastQueen",
+
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "A Forgotten Queen",
+      "item": "netherex:urn_of_sorrow",
+      "text": "$(#734608)Most of the $(thing)cities$() $(#734608)I’ve seen within the Nether have a $(thing)shrine$() $(#734608)dedicated to something that looks like… well, a giant ghast. The $(item)urns$() $(#734608)around these shrines imply these were places of great religious significance. So I did what any curious scholar would do in my situation and, over the course of a week, $()"
+    },
+    {
+      "type": "text",
+      "text": "$(#734608) gathered $(item)sacred incense$(), $(#734608)repaired the shrine, and attempted to $(thing)summon$() $(#734608)the thing. I was hoping for a challenge, and this “ghast queen” didn’t disappoint. She was massive, intimidating, more of a living airship than a creature... and she was pissed. If I didn’t have warding magic ready, her $(thing)fireballs$() $(#734608)would have ground me into dust.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(#734608) By the end of our fight, the city was reduced to rubble. When the queen wailed her last breath, her body split into countless smaller $(thing)ghasts$() $(#734608)that floated off into the wastes, set adrift on currents of hot air. I didn’t fight the queen just to decimate ancient architecture.  I hope you know I’m better than that, future reader… at least I like to think I am. $()"
+    },
+  {
+      "type": "text",
+      "text": "$(#734608)No, with her death I was able to harvest a unique type of $(item)ghast tear$()$(#734608), a viscous, almost crystalline fluid that stings the skin and smells like smoke. Looking into its reflective surface makes me feel more than a little uncomfortable. But what I see there only reassures me that I’m on the right path. And now I know exactly where I need to go next.$()"
+    }
+  ]
+}

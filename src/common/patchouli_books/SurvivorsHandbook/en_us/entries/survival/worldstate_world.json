@@ -1,0 +1,20 @@
+{
+  "name": "Rebirth of the World",
+  "icon": "minecraft:skull:5",
+  "category": "survival_worldstate",
+  "advancement": "triumph:advancements/progression/killedEnderDragon",
+
+  "pages": [
+ 	{
+      "type": "text",
+      "text": "The cursed Dragon's explosive death has sent a cascade of magic across dimensions. I should expect to encounter some of the most challenging monsters yet... but are all of them guaranteed to be my enemies?"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+setIcon(<rats:piper_hat>)
+setTitle("Piping Hot")
+setDescription("Destroy an amateur musician and their rodent followers.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("pied_piper", "minecraft:player_killed_entity")
+criteria.setEntityType("rats:illager_piper")
+
+hideLines()
+alwaysVisible()
+setPos(-281,179)

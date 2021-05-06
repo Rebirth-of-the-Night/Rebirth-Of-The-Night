@@ -1,0 +1,25 @@
+name: thermalfoundation_platinum_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore:6
+  hardness: 3
+  level: 1
+  light: 4
+}
+loot: [
+  {
+    item: thermalfoundation:ore:6
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_platinum
+}
+recipe: {
+  result: thermalfoundation:material:134
+  xp: 0
+  quantity: 1
+}

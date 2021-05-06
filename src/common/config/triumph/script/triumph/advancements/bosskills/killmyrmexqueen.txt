@@ -1,0 +1,12 @@
+setIcon(<iceandfire:myrmex_desert_egg:0>)
+setTitle("It's... Afraid!")
+setDescription("Exterminate a hive matriarch.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("myrmex_queen", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:myrmex_queen")
+
+hideLines()
+alwaysVisible()
+setPos(-250,54)

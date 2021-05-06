@@ -1,0 +1,82 @@
+[
+  {
+    "internalOreName": "basemetals:antimony_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/antimony",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:bismuth_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/bismuth",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:copper_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/copper",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:lead_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/lead",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:mercury_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/mercury",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:nickel_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/nickel",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:platinum_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/platinum",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:silver_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/silver",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:tin_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/tin",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "basemetals:zinc_ore",
+    "meta": -1,
+    "overlay": "undergroundbiomes:blocks/overlays/basemetals/zinc",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

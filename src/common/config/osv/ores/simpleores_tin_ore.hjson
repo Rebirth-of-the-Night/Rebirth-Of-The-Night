@@ -1,0 +1,66 @@
+name: simpleores_tin_ore
+mod: simpleores
+block: {
+  location: simpleores:tin_ore
+  hardness: 3
+  level: 0
+}
+loot: [
+  {
+    item: simpleores:tin_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: true
+  original: simpleores:blocks/tin_ore
+}
+recipe: {
+  result: simpleores:tin_ingot
+  xp: 0.4000000059604645
+  quantity: 1
+}
+gen: [
+  {
+	height : [35, 80]
+	size: 5
+	count: 7 
+	chance: 0.8
+  },
+  {
+	height : [20, 150]
+	size: 30
+	count: 20 
+	chance: 0.42
+	biomes: {
+		names: ["biomesoplenty:tropical_island","biomesoplenty:flower_island","minecraft:mushroom_island","biomesoplenty:land_of_lakes"]
+	}
+  },
+  {
+	height : [1, 230]
+	size: 22
+	count: 50 
+	chance: 0.8
+	biomes: {
+		names: ["biomesoplenty:crag","biomesoplenty:overgrown_cliffs"]
+	}
+  },
+  {
+	height : [32, 64]
+	size: 4
+	count: 36 
+	chance: 0.7
+	biomes: {
+		types: ["SWAMP"]
+	}
+  },
+  {
+	height : [200, 255]
+	size: 10
+	count: 24 
+	chance: 0.22
+	dimensions: [10]
+  }
+]

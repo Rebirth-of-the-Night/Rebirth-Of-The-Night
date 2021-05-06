@@ -1,0 +1,15 @@
+{
+  "name": "Volatile Core",
+  "icon": "contenttweaker:volatile_core",
+  "category": "slayers_journal_arcana",
+  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Volatile Core",
+			"item": "contenttweaker:volatile_core",
+			"text": "$(#734608)The $(item)Volatile Core$() $(#734608)is dropped by Quazar. It contains such intense energy within, one would be able to refine it into a $(item)Magic Bomb$()$(#734608), capable of tearing through the $(thing)Arcane Barrier$()$(#734608).$()"
+    }
+  ]
+}

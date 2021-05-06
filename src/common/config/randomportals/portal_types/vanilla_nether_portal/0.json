@@ -1,0 +1,93 @@
+{
+	"frame": {
+		"type": "LATERAL_OR_VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 4,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 4,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 4,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "minecraft:obsidian",
+				"meta": 32767,
+				"minimumAmount": 10
+			}
+		],
+		"requiredCorner": "ANY",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": true,
+		"activators": [],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": true,
+		"activationSounds": [
+			"minecraft:entity.wither.death"
+		]
+	},
+	"color": {
+		"colors": [
+			"PURPLE"
+		],
+		"dyeBehavior": "ENABLE"
+	},
+	"destination": {
+		"dimensionID": -1,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"useTopSolidY": false
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": false,
+		"ensureReturnToSameDimension": false,
+		"generatePortalIfNotFound": true,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "SAME",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalZ": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}

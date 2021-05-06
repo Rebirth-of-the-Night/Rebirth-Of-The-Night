@@ -1,0 +1,790 @@
+{
+	"populate": 
+	{
+		"beneath_red_granite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "red_granite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "red_granite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "red_granite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 55,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+        "beneath_black_granite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "black_granite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "black_granite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "black_granite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+        "beneath_red_granite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "red_granite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "red_granite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "red_granite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+        "beneath_andesite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "andesite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "andesite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "andesite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+        "beneath_gabbro_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "gabbro"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "gabbro"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "gabbro"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+        "beneath_basalt_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "basalt"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "basalt"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "basalt"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+        "beneath_komatiite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "komatiite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "komatiite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "komatiite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+        "beneath_dacite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:igneous_stone",
+						"properties": {
+							"type" : "dacite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_clay",
+						"properties": {
+							"type" : "dacite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:igneous_stone",
+					"properties": {
+						"type" : "dacite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_gneiss_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "gneiss"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "gneiss"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "gneiss"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_eclogite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "eclogite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "eclogite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "eclogite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_marble_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "marble"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "marble"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "marble"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_quartzite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "quartzite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "quartzite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "quartzite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_blueschist_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "blueschist"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "blueschist"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "blueschist"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_greenschist_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "greenschist"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "greenschist"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "greenschist"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_soapstone_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "soapstone"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "soapstone"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "soapstone"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"beneath_migmatite_column": {
+            "distribution": "cave",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "undergroundbiomes:metamorphic_stone",
+						"properties": {
+							"type" : "migmatite"
+						},
+						"weight": 3
+					},
+					{
+						"name": "undergroundbiomes:metamorphic_clay",
+						"properties": {
+							"type" : "migmatite"
+						},
+						"weight": 1
+					}
+				],
+				"material": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "migmatite"
+					}
+				},
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"fat": true,
+				"alt-sinc": false,
+				"min-height": 30,
+				"height-variance": 15,
+				"gen-size": 0,
+				"size-variance": 3
+			},
+			"cluster-count": 1,
+			"ground-level": 60,
+			"chunk-chance": 6,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		}
+	}
+}
+        

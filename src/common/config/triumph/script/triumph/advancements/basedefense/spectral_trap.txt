@@ -1,0 +1,11 @@
+setIcon(<dungeontactics:trap_spectral>)
+setTitle("Spectral Trap")
+setDescription("Highlights mobs through walls that walk on it. Needs to be reset after each use.")
+
+addParent("triumph:advancements/basedefense/wrench")
+
+criteria = addCriteria("Spectral Trap", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:trap_spectral>)
+
+alwaysVisible()
+setPos(-183,84)

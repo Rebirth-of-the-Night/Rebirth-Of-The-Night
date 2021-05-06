@@ -1,0 +1,69 @@
+setIcon(<bountifulbaubles:crowngold>)
+setTitle("Legendary Conqueror")
+setDescription("Become a Legendary Conqueror by completing all other Bane of Humanity achievements!")
+
+setUncompletedIconColor(51, 234, 203)
+setUncompletedTitleColor(253, 245, 95)
+
+setCompletedIconColor(255, 255, 0)
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("queen_egg", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/getqueenegg")
+
+criteria = addCriteria("black_death", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killblackdeath")
+
+criteria = addCriteria("cyclops", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killcyclops")
+
+criteria = addCriteria("dragon", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killdragon")
+
+criteria = addCriteria("frostmaw", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killelderfrostmaw")
+
+criteria = addCriteria("enderdragon", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killenddragon")
+
+criteria = addCriteria("ferrous_wroughtnaut", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killferrouswroughtnaut")
+
+criteria = addCriteria("ghast_queen", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killghastqueen")
+
+criteria = addCriteria("gorgon", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killgorgon")
+
+criteria = addCriteria("myrmex_queen", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killmyrmexqueen")
+
+criteria = addCriteria("pied_piper", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killpiedpiper")
+
+criteria = addCriteria("sea_serpent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killseaserpent")
+
+criteria = addCriteria("siren", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killsiren")
+
+criteria = addCriteria("skydrake", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killskydrake")
+
+criteria = addCriteria("sludge_lord", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killsludgelord")
+
+criteria = addCriteria("wither", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killwither")
+
+criteria = addCriteria("sunblessing", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/sunblessing")
+
+criteria = addCriteria("sun_chief", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killsunchief")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(-165,118)

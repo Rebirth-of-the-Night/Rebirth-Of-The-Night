@@ -1,0 +1,64 @@
+{
+	"populate": {
+		"eclogite_geode": {
+			"distribution": "cave",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{
+						"name": "osv:lapis_ore_undergroundbiomes_metamorphic_stone_1",
+						"properties": {
+							"dense" : "true"
+						}
+					},
+					{
+						"name": "osv:diamond_ore_undergroundbiomes_metamorphic_stone_1",
+						"properties": {
+							"dense" : "true"
+							}
+					},
+					{
+						"name": "osv:emerald_ore_undergroundbiomes_metamorphic_stone_1",
+						"properties": {
+							"dense" : "true"
+							},
+						"name": "osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_1",
+						"properties": {
+							"dense" : "true"
+							}
+					},
+					{
+						"name": "osv:biomesoplenty_peridot_ore_undergroundbiomes_metamorphic_stone_1",
+						"properties": {
+							"dense" : "true"
+							}
+					},
+					{
+						"name": "osv:biomesoplenty_sapphire_ore_undergroundbiomes_metamorphic_stone_1",
+						"properties": {
+							"dense" : "true"
+							}
+					}
+				],
+				"material": "minecraft:air",
+				"hollow": true,
+				"filler": "minecraft:air",
+				"crust": {
+					"name": "undergroundbiomes:metamorphic_stone",
+					"properties": {
+						"type" : "eclogite"
+						}
+					}
+				},
+			"cluster-count": 2,
+			"chunk-chance": 13,
+			"ground-level":80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [ 10 ]
+			}
+		}
+	}
+}

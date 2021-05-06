@@ -1,0 +1,17 @@
+setIcon(<minecraft:dirt>)
+setTitle("The Primordial")
+setDescription("Kill The Primordial.")
+
+addParent("triumph:advancements/bosskills/root")
+
+
+criteria = addCriteria("The Primordial", "minecraft:player_killed_entity")
+criteria.setEntityType("netherex:ghast_queen")
+
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hideLines()
+hiddenUnless("triumph:advancements/progression/wither/hiddenKilledPrimordial")
+setPos(-57,148)

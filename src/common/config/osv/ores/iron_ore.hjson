@@ -1,0 +1,76 @@
+name: iron_ore
+mod: minecraft
+block: {
+  location: iron_ore
+  hardness: 3
+  level: 0
+}
+loot: [
+  {
+    item: iron_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/iron_ore
+}
+recipe: {
+  result: iron_ingot
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 10, 48 ]
+    size: 6
+    count: 11
+  },
+  {
+    height: [ 10, 155 ]
+    size: 4
+    count: 45
+	chance: 0.9
+	biomes: {
+		names: 
+			biomesoplenty:tropical_island
+			biomesoplenty:temperate_rainforest
+			biomesoplenty:tropical_rainforest
+			minecraft:mutated_jungle
+			minecraft:mutated_jungle_edge
+			minecraft:jungle
+			minecraft:jungle_hills
+			minecraft:jungle_edge
+	}
+  },
+  {
+    height: [ 10, 255 ]
+    size: 1
+    count: 110
+	biomes: {
+		names: biomesoplenty:lush_desert
+	}
+  },
+  {
+    height: [ 10, 255 ]
+    size: 4
+    count: 70
+	biomes: {
+		names: biomesoplenty:outback
+	}
+  },
+  {
+	height : [120, 255]
+	size: 5
+	count: 13 
+	dimensions: [10]
+  }
+  {
+	height : [0, 120]
+	size: 18
+	count: 19 
+	dimensions: [10]
+  }
+]

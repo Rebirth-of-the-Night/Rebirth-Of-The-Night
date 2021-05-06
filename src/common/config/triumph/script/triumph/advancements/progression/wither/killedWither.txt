@@ -1,0 +1,21 @@
+setIcon(<minecraft:skull, meta:1, count:1>)
+setTitle("Soul Catch And Release")
+setDescription("Slay The Wither and set the lost souls free.")
+
+addParent("triumph:advancements/progression/end/killedEndDragon")
+
+addRewardFunction("triumph:killWither")
+
+
+criteria = addCriteria("wither", "minecraft:player_killed_entity")
+criteria.setEntityType("wither")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+setHidden(true)
+drawDirectLines()
+setPos(485,0)

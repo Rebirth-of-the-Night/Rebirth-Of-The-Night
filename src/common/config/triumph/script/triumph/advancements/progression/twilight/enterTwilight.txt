@@ -1,0 +1,23 @@
+setIcon(<twilightforest:miniature_structure>)
+setTitle("The True Final Frontier")
+setDescription("Enter The Twilight Forest.")
+
+addParent("triumph:advancements/progression/wither/killedGhastQueen")
+addParent("triumph:advancements/progression/hidden/hiddenKilledPrimordial")
+
+addRewardFunction("triumph:enteredTwilightForest")
+
+
+criteria = addCriteria("entered_twilight_forest", "triumph:changed_dimension")
+criteria.setDimensionDestination(7)
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("GOAL")
+setUncompletedIconColor(217,255,92)
+
+
+alwaysVisible()
+drawDirectLines()
+setPos(616,0)

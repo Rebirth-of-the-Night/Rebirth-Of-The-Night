@@ -1,0 +1,12 @@
+setIcon(<mowziesmobs:wrought_axe>)
+setTitle("Broken Vanguard")
+setDescription("Defeat a forgotten iron titan.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("ferrous_wroughtnaut", "minecraft:player_killed_entity")
+criteria.setEntityType("mowziesmobs:ferrous_wroughtnaut")
+
+hideLines()
+alwaysVisible()
+setPos(-281,117)

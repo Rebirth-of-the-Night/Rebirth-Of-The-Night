@@ -1,0 +1,12 @@
+setIcon(<minecraft:dirt>)
+setTitle("plague doctor")
+setDescription("plague doctor")
+
+addParent("triumph:advancements/progression/root")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+setShowToast(false)
+setAnnounceToChat(false)
+hideLines()
+alwaysHidden()

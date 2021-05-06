@@ -1,0 +1,98 @@
+[
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/copper",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/tin",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 4,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/aluminum",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 3,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/lead",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/silver",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 5,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/nickel",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 6,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/platinum",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 7,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/iridium",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore",
+    "meta": 8,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/mana_infused",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore_fluid",
+    "meta": 2,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/destabilized_redstone",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore_fluid",
+    "meta": 1,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/oil",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  },
+  {
+    "internalOreName": "thermalfoundation:ore_fluid",
+    "meta": 0,
+    "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/oil",
+    "lightValue": -1,
+    "alphaOverlay": false,
+    "oreDirectories": []
+  }
+]

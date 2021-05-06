@@ -1,0 +1,24 @@
+{
+  "name": "Slider",
+  "icon": "contenttweaker:slider_eye",
+  "category": "slayers_journal",
+  "advancement": "triumph:advancements/progression/aether/enterAether",
+
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(#734608)A $(thing)Slider$()$(#734608) is an arcane being known to only be damaged by pickaxes. It has the power to control gravity around it as well as summon minions that cause its enemies to be confused. This is no easy fight. Be ready to be tossed all over the place.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(#734608)If you manage to kill one, you'll be rewarded with arcane energy powerful enough to destroy a barrier that has existed for centuries.$()"
+    },
+    {
+      "type": "relations",
+      "entries": [
+		    "slayers_journal/arcana_slider_eye"
+      ]
+    }
+  ]
+}

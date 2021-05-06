@@ -1,0 +1,12 @@
+setIcon(<mowziesmobs:barako_mask>)
+setTitle("Deposed")
+setDescription("Unseat a tribal chieftain.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("barako", "minecraft:player_killed_entity")
+criteria.setEntityType("mowziesmobs:barako")
+
+hideLines()
+alwaysVisible()
+setPos(-250,148)

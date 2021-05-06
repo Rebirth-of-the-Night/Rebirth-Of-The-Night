@@ -1,0 +1,15 @@
+setIcon("msmlegacy:wither_bane")
+setTitle("Darkness Consumes All")
+setDescription("Craft a Dark's Edge")
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:darksedge")
+
+criteria = addCriteria("Dark's Edge", "minecraft:inventory_changed")
+criteria.addItem("msmlegacy:wither_bane")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(225,250)

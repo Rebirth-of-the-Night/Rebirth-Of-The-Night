@@ -1,0 +1,7 @@
+{
+  "name": "Magical Trees",
+  "description": "Flowers and flora scatter this world, some of them containing unique magic properties. I should be able to use these as ingredients for teas, brews, and as sources of magical effects.",
+  "icon": "biomesoplenty:sapling_0:3",
+  "sortnum": 0,
+  "parent": "magic_dunamisnature"
+}

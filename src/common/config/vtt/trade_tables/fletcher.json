@@ -1,0 +1,61 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fletcher",
+
+	Offers:{
+		Recipes:[
+			{
+				action:"remove", CareerLevel:1,
+				buy:{
+					id:"minecraft:stick"
+				},
+				sell:{
+					id:"minecraft:emerald"
+				}
+			},
+			{
+				action:"add", CareerLevel:4,
+				buy:{
+					id:"minecraft:bow",
+					Count:1
+				},
+				buyB:{
+					id:"minecraft:emerald",
+					Count:{min:10,max:12}
+				},
+				sell:{
+					id:"spartanweaponry:crossbow_wood",
+					Count:1
+				}
+			},
+			{
+				action:"add", CareerLevel:4,
+				buy:{
+					id:"betterwithaddons:japanmat",
+					Damage:[17],
+					Count:8
+				},
+				buyB:{
+					id:"minecraft:emerald",
+					Count:{min:3,max:5}
+				},
+				sell:{
+					id:"spartanweaponry:arrow_diamond",
+					Count:8
+				}
+			},
+			{
+				action:"add", CareerLevel:5,
+				buy:{
+					id:"minecraft:emerald",
+					Count:{min:16,max:20}
+				},
+				sell:{
+					id:"betterwithaddons:greatarrow",
+					Count:16
+				}
+			}
+		
+		]
+	}
+}

@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+give @p trumpetskeleton:trumpet
+gamestage silentadd @a collectedAllRelics
+tellraw @p ["",{"text":"Hey! Mari here, I'm the lead developer of the pack. Just want to say thank you for being such a dedicated player. Well, hopefully you didn't cheat to get this achievement! If you didn't, congratuations :) And thank you again. Have a trumpet <3","color":"gold"}]

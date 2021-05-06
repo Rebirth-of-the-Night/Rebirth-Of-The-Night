@@ -1,0 +1,13 @@
+setIcon("minecraft:iron_ingot")
+setTitle("The Most Versatile Ore")
+setDescription("Mine iron ore")
+
+addParent("triumph:advancements/ores/tin")
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Iron ore", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreIron>)
+
+alwaysVisible()
+setPos(-119,17)
+hideLines()

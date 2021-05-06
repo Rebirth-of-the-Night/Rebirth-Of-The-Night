@@ -1,0 +1,7 @@
+{
+  "name": "Crops",
+  "description": "Growing crops is one of the best ways for me to enjoy a reliable food source. I can use crops to feed animals, or turn their byproducts into other useful items.",
+  "icon": "minecraft:farmland",
+  "sortnum": 0,
+  "parent": "agriculture"
+}

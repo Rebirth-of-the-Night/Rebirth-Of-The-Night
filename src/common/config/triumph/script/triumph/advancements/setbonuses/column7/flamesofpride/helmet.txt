@@ -1,0 +1,25 @@
+setIcon("iceandfire:armor_red_chestplate")
+setTitle("Flames Of Pride")
+setDescription("Complete the Flames Of Pride set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Red helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_red_helmet")
+
+criteria = addCriteria("Bronze helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_bronze_helmet")
+
+criteria = addCriteria("Green helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_green_helmet")
+
+criteria = addCriteria("Gray helmet", "minecraft:inventory_changed")
+criteria.addItem("iceandfire:armor_gray_helmet")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-189,69)

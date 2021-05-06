@@ -1,0 +1,13 @@
+setIcon("minecraft:diamond")
+setTitle("Diamonds!")
+setDescription("Mine diamond ore")
+
+addParent("triumph:advancements/ores/silver")
+
+
+criteria = addCriteria("Diamond", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreDiamond>)
+
+alwaysVisible()
+setPos(-86,-82)
+hideLines()

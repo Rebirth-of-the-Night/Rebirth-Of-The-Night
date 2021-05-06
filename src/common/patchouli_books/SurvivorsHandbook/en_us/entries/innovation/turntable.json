@@ -1,0 +1,21 @@
+{
+  "name": "Turntable",
+  "icon": "betterwithmods:single_machine:3",
+  "category": "innovation_mechpower",
+  "pages": [
+  {
+      "type": "text",
+      "text": "You spin me right round, baby$(br)Right round like a record, baby$(br)Right round, round, round."
+    },
+    {
+      "type": "crafting",
+      "recipe": "betterwithmods:blocks/mech/single:machine_3"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "innovation/pottery"
+      ]
+    }
+  ]
+}

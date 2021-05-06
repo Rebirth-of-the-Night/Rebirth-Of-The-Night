@@ -1,0 +1,31 @@
+name: modernmetals_plutonium_ore
+mod: modernmetals
+block: {
+  location: modernmetals:plutonium_ore
+  hardness: 7.5
+  level: 2
+}
+loot: [
+  {
+    item: modernmetals:plutonium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: modernmetals:blocks/plutonium_ore
+}
+recipe: {
+  result: modernmetals:plutonium_ingot
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 32 ]
+    size: 2
+    count: 4
+  }
+]

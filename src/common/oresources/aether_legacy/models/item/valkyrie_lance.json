@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "aether_legacy:items/weapons/valkyrie_lance"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-55, -90, 0],
+			"translation": [0, 8, 0.75],
+			"scale": [4.5, 4.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-55, 90, 0],
+			"translation": [0, 8, 0.75],
+			"scale": [4.5, 4.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-70, -90, 30],
+			"translation": [1.38, 3.2, 0.5],
+			"scale": [2, 2, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-70, 90, -30],
+			"translation": [1.38, 3.2, 0.5],
+			"scale": [2, 2, 1.2]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [1.33, 1.33, 1.33]
+		},
+		"gui": {
+			"scale": [1.33, 1.33, 1]
+		}
+	}
+}

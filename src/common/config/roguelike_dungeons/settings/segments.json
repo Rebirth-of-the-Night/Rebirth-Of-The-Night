@@ -1,0 +1,32 @@
+{
+	"name" : "demo:segments",
+	"segments" : [
+		{"level": [0,1,2,3,4], "type" : "CHEST", "weight" : 1},
+		{"level": [0,1,2,3], "type" : "SHELF", "weight" : 3},
+		{"level": [0,1,2,3], "type" : "INSET", "weight" : 3},
+		{"level": [1,2,3,4], "type" : "SPAWNER", "weight" : 2},
+		{"level": 0, "type" : "DOOR", "weight" : 10},
+		{"level": 0, "type" : "WHEAT", "weight" : 2},
+		{"level": 0, "type" : "LAMP", "weight" : 2},
+		{"level": 0, "type" : "FLOWERS", "weight" : 1},
+		{"level": 0, "type" : "FIREARCH", "weight" : 2},
+		
+		{"level": 1, "type" : "WALL", "weight" : 5},
+		{"level": 1, "type" : "BOOKS", "weight" : 2},
+		{"level": 1, "type" : "PLANT", "weight" : 1},
+		
+		{"level": [2,3], "type" : "CELL", "weight" : 2},
+		{"level": [2,3], "type" : "TOMB", "weight" : 2},
+		{"level": [2,3], "type" : "SKULL", "weight" : 2},
+		
+		{"level": 3, "type" : "MOSSYARCH", "arch" : true},
+		{"level": 3, "type" : "SILVERFISH", "weight" : 1},
+		{"level": 3, "type" : "MUSHROOM", "weight" : 2},
+		{"level": 3, "type" : "ARROW", "weight" : 1},
+		
+		{"level": 4, "type" : "NETHERARCH", "arch" : true},
+		{"level": 4, "type" : "NETHERWART", "weight" : 1},
+		{"level": 4, "type" : "NETHERSTRIPE", "weight" : 2},
+		{"level": 4, "type" : "NETHERLAVA", "weight" : 2}
+	]
+}

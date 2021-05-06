@@ -1,0 +1,7 @@
+{
+  "name": "Wands, Scepters and Staves",
+  "description": "By infusing quintessence and vis into items, I should be able to create objects that, when held, grant me magical effects and protections.",
+  "icon": "contenttweaker:wand_base_mundane",
+  "sortnum": 3,
+  "parent": "magic_artifacts"
+}

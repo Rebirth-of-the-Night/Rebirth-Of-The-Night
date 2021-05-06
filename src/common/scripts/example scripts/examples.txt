@@ -1,0 +1,68 @@
+#########CRAFTING TABLE FUNCTIONS#########
+
+
+#####Import packages#####
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+
+###Removing Crafting Table Recipes####
+
+
+recipes.remove(<mod_ID:item_id>);
+
+/* Removes all crafting table recipes with <mod_ID:output> as output.
+An item's ID can be found by hovering over it with developer mode (F3 + H) on or more easily by typing |/ct hand| in the chat.
+Useful for removing all of an item's recipes to add your own. */
+
+
+recipes.removeByRecipeName("mod_ID:recipename");
+
+/* Removes a specific crafting table recipe by its recipe name.
+A recipe's name can be found hovering over the recipe's output in JEI.
+Useful for removing specific unwanted or duplicate recipes. */
+
+mods.jei.JEI.removeAndHide(<mod_ID:item_id>);
+
+/*Removes the item from being craftable at all and hides it in JEI */
+
+
+###Adding Crafting Table Recipes###
+
+
+recipes.addShaped("recipename", <mod_ID:output>,
+  [[null,<mod_ID:input_1>,null],
+  [null,<mod_ID:input_1>,null],
+  [null,<mod_ID:input_2>,null]
+]);
+
+/* Adds a shaped crafting table recipe like a crafting grid.
+"null" refers to an empty crafting grid spot.*/
+
+
+recipes.addShapeless("recipename", <mod_ID:output>,
+	[<mod_ID:input_1>, <mod_ID:input_2>]
+);
+
+/* Adds a shapeless crafting table recipe (inputs can be placed anywhere on the crafting grid). */
+
+
+//Example
+
+recipes.remove(<aether_legacy:skyroot_trapdoor>);
+val skyplank = <aether_legacy:skyroot_plank>;
+recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapdoor>*6,
+    [[null,null,null],
+    [skyplank,skyplank,skyplank],
+    [skyplank,skyplank,skyplank]
+]);
+
+/* Replaces the original Skyroot Trapdoor recipe with a shaped recipe which outputs 6 Skyroot Trapdoors. */
+
+
+#########JEI FUNCTIONS#########
+
+#########OREDICT FUNCTIONS#########
+
+#########OTHER MOD FUNCTIONS#########

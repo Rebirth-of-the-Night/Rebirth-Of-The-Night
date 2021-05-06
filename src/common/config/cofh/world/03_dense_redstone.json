@@ -1,0 +1,68 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts"
+		]
+	"populate": 
+	{
+		"dense_redstone": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					"pyrotech:dense_redstone_ore_large_inactive",
+					"pyrotech:dense_redstone_ore_small_inactive",
+					"pyrotech:dense_redstone_ore_rocks_inactive"
+				],
+				"material": [
+					"air",
+					"tallgrass",
+					"contenttweaker:moss_patch"
+				],
+				"surface": [
+					"osv:redstone_ore_undergroundbiomes_igneous_stone_2",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone_4",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone_6",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone_3",
+					"osv:redstone_ore_undergroundbiomes_igneous_stone",
+					"osv:redstone_ore_quark_elder_prismarine",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone_2",
+					"osv:redstone_ore_undergroundbiomes_igneous_stone_7",
+					"osv:redstone_ore_hardened_clay",
+					"osv:redstone_ore_undergroundbiomes_igneous_stone_1",
+					"osv:redstone_ore_pyrotech_limestone",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone_5",
+					"osv:redstone_ore_stained_hardened_clay",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone_7",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone_3",
+					"osv:redstone_ore_undergroundbiomes_igneous_stone_4",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone_5",
+					"osv:redstone_ore_quark_biome_cobblestone",
+					"osv:redstone_ore_sandstone",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone_1",
+					"osv:redstone_ore_quark_biome_cobblestone_1",
+					"osv:redstone_ore_undergroundbiomes_igneous_stone_3",
+					"osv:redstone_ore_red_sandstone",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone_1",
+					"osv:redstone_ore_undergroundbiomes_igneous_stone_5",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone_4",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone_2",
+					"osv:redstone_ore_undergroundbiomes_sedimentary_stone_7",
+					"osv:redstone_ore_quark_biome_cobblestone_2",
+					"osv:redstone_ore_undergroundbiomes_igneous_stone_6",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone_6",
+					"osv:redstone_ore_undergroundbiomes_metamorphic_stone"
+				],
+				"cluster-size": 1,
+				"see-sky": false
+				},
+			"cluster-count": 6,
+			"ground-level": 28,
+			"chunk-chance": 1,
+			"retrogen": "true"
+		}
+	}
+}
+
+

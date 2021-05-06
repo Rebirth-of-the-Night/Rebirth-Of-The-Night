@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"You shiver as your body becomes one with the dragons.","color":"red","italic":true}]

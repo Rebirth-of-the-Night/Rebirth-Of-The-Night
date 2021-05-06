@@ -1,0 +1,12 @@
+setIcon(<iceandfire:shiny_scales>)
+setTitle("Maybe She's Born With It")
+setDescription("Reject the embrace of an alluring seaside monster.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("siren", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:siren")
+
+hideLines()
+alwaysVisible()
+setPos(-250,86)

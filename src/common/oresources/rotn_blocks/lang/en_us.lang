@@ -1,0 +1,7 @@
+tile.rotn_blocks:copper_block.name=Block of Copper
+tile.slightly_weathered_copper_block.name=Lightly Weathered Block of Copper
+tile.semi_wheatered_copper_block.name=Semi-Weathered Block of Copper
+tile.weathered_copper_block.name=Weathered Block of Copper
+
+tile.mushroom_lamp_0.name=Unlit Mushroom Lamp
+tile.mushroom_lamp_1.name=Lit Mushroom Lamp

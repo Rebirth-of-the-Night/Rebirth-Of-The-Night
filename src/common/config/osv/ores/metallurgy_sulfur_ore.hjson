@@ -1,0 +1,30 @@
+name: metallurgy_sulfur_ore
+mod: metallurgy
+block: {
+  location: metallurgy:sulfur_ore
+  level: 2
+  resistance: 30
+}
+texture: {
+  original: metallurgy:blocks/sulfur_ore
+}
+recipe: {
+  result: metallurgy:sulfur_dust
+  xp: 0.5
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:sulfur_dust
+    count: [ 1, 4 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 15 ]
+    size: 6
+    count: 7
+  }
+]

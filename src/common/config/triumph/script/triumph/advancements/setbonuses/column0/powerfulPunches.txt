@@ -1,0 +1,25 @@
+setIcon("spartanweaponry:caestus_studded")
+setTitle("Powerful Punches")
+setDescription("Complete The Powerful Punches set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+
+criteria = addCriteria("Bronze Helmet", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_helmet")
+
+criteria = addCriteria("Bronze Chesplate", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_chestplate")
+
+criteria = addCriteria("Bronze Leggings", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_leggings")
+
+criteria = addCriteria("Bronze Boots", "minecraft:inventory_changed")
+criteria.addItem("atop:mud_boots")
+
+criteria = addCriteria("Studded Caestus", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:caestus_studded, count:2>)
+
+hideLines()
+alwaysVisible()
+setPos(0,60)

@@ -1,0 +1,37 @@
+{
+  "name": "Fiber Crops",
+  "icon": "pyrotech:material:2",
+  "category": "agriculture_crops",
+  "pages": [
+	{
+	  "type": "item_list_spotlight",
+	  "title": "Fiber Crops",
+	  "text": "Useful for their fiber rather than their grain or fruit, used mostly to make $(item)Paper$(), $(item)String$(), $(item)Cloth$() and other textiles.",
+	  "a":"betterwithmods:material:2",
+	  "a_t":"hemp!",
+	  "a_i":"book:hover_icon.png",
+	  "b":"harvestcraft:cottonitem",
+	  "b_t":"cotton!",
+	  "b_i":"book:hover_icon.png",
+	  "c":"harvestcraft:sisalitem",
+	  "c_t":"sisal!",
+	  "c_i":"book:hover_icon.png",
+	  "d":"harvestcraft:juteitem",
+	  "d_t":"jute!",
+	  "d_i":"book:hover_icon.png",
+	  "e":"harvestcraft:flaxitem",
+	  "e_t":"flax!",
+	  "e_i":"book:hover_icon.png",
+	  "f":"harvestcraft:kenafitem",
+	  "f_t":"kenaf!",
+	  "f_i":"book:hover_icon.png",
+	  "g_i":"book:empty.png"
+	},
+    {
+      "type": "relations",
+      "entries": [
+        "survival/string"
+      ]
+    }
+  ]
+}

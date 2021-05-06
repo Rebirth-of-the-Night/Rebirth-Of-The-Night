@@ -1,0 +1,12 @@
+setIcon("mod_lavacow:canebeef")
+setTitle("Eldritch Eatin'")
+setDescription("Craft Dev Relic 3 of 6 with sandwiches and horrible ingredients.")
+
+addParent("triumph:advancements/eastereggs/root")
+
+criteria = addCriteria("Dev Relic 3", "minecraft:inventory_changed")
+criteria.addItem("mod_lavacow:canebeef")
+
+alwaysVisible()
+hideLines()
+setPos(-333,138)

@@ -1,0 +1,24 @@
+{
+  "name": "Recipes Entry",
+  "icon": "minecraft:paper",
+  "category": "miscellanea_recipes",
+  "advancement": "triumph:advancements/WIP",
+  "pages": [
+  {
+      "type": "text",
+      "text": "$(item)Tongs$() will allow you to safely handle $(item)Blooms$().$(p)$(info) To pick up a $(item)Bloom$(), $(use) the $(item)Bloom$() with $(item)Tongs$().$(p)$(info) $(item)Tongs$() held in either hand will pick up a $(item)Bloom$() when it enters your inventory.$(p)$(info) $(item)Tongs$() can be used with the $(item)Bloomery$() and $(item)Wither Forge$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pyrotech:tool/obsidian_pickaxe",
+      "recipe2": "pyrotech:tool/obsidian_axe"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "deadmanssatchel:deadmanssatchel": {
+    "re_open_timer": 0,
+    "death_drop_timer": 0,
+    "random_bag_drop_chance": 0.0,
+    "random_bag_items_drop_chance": {
+      "minecraft:example_thing": 0.5,
+      "minecraft:example_item": 0.3
+    },
+    "only_owner_open": true
+  }
+}

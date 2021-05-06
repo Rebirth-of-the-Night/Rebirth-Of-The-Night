@@ -1,0 +1,17 @@
+setIcon(<minecraft:dirt>)
+setTitle("End Mage")
+setDescription("Kill The End Mage.")
+
+addParent("triumph:advancements/progression/end/enterEnd")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+
+setShowToast(true)
+setAnnounceToChat(true)
+setFrameType("CHALLENGE")
+setUncompletedIconColor(255,71,71)
+
+setHidden(true)
+drawDirectLines()
+setPos(365,38)

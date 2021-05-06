@@ -1,0 +1,12 @@
+setIcon(<iceandfire:gorgon_head>)
+setTitle("Stone Cold")
+setDescription("Decapitate a monster with looks that could kill.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("gorgon", "minecraft:player_killed_entity")
+criteria.setEntityType("iceandfire:gorgon")
+
+hideLines()
+alwaysVisible()
+setPos(-219,86)

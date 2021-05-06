@@ -1,0 +1,31 @@
+name: thermalfoundation_lead_ore
+mod: thermalfoundation
+block: {
+  location: thermalfoundation:ore:3
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: thermalfoundation:ore:3
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: thermalfoundation:blocks/ore/ore_lead
+}
+recipe: {
+  result: thermalfoundation:material:131
+  xp: 0
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 5, 30 ]
+    size: 8
+    count: 1
+  }
+]

@@ -1,0 +1,1 @@
+tellraw @p ["",{"text":"The air around you begins to burn.","color":"dark_red","italic":true},{"text":" (The Nether takes a very long time to load for the first time. Do NOT quit the game while it is loading. It may take 1-5 minutes.)"}]

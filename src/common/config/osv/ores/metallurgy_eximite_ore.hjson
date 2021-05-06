@@ -1,0 +1,31 @@
+name: metallurgy_eximite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:eximite_ore
+  level: 3
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/eximite_ore
+  background: blocks/end_stone
+}
+recipe: {
+  result: metallurgy:eximite_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:eximite_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 7
+    count: 10
+  }
+]

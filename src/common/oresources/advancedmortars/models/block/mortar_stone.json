@@ -1,0 +1,7 @@
+{
+  "parent": "advancedmortars:block/mortar",
+  "textures": {
+    "mortar": "rotn_blocks:blocks/copper_block",
+    "particle": "rotn_blocks:blocks/copper_block"
+  }
+}

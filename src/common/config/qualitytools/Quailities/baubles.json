@@ -1,0 +1,1544 @@
+{
+    "comment": "Complete and Revised modifiers for RotN",
+    "slot": [
+        "baubles_trinket"
+    ],
+    "whitelist": [
+      {
+        "class": "IBauble"
+      }
+    ],
+    "blacklist": [
+    ],
+    "qualities": [
+    {
+    "name": "Bear's Might",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Wind's Grace",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Mammoth's Trunk",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Wasp's Sting",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Fire's Burn",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Crab's Shell",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Moose's Hide",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Earth's Fortitude",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Bull's Tenacity",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Whale's Bulk",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Sprite's Trick",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Monkey's Climb",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Rabbit's Fortune",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Frog's Leap",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Badger's Burrow",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Deer's Bound",
+    "color": "green",
+    "weight": 50,
+    "attributes": [
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Tiger's Ferocity",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Kraken's Grip",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Slayer's Prowess",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Battlemage's Focus",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Hydra's Reach",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Stymphalian Barrage",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Blaze's Pulse",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Sniper's Boast",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Ghast's Volley",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Illusioner's Assault",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Grottol's Carapace",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Undertaker's Wrappings",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Barakoa's Perserverence",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Cyclops's Fortitude",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Frostmaw's Hide",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Frigid's Crust",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Knight's Persistence",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Myrmex's Exoskeleton",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Evoker's Ward",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Juggernaut's Bulk",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Ogre's Paunch",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Elemental's Integrity",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Charger's Refusal",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Horde's Inevitability",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Witch's Bolster",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Glimmer's Form",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Weta's Claw",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Miner's Grind",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Kobold's Agility",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Aerbunny's Bound",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Filcher's Escape",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Zephyr's Breeze",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Sheepuff's Frolic",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Slime's Bounce",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Deathworm's Vigor",
+    "color": "aqua",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Harvester's Reap",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Quazar's Pulse",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Slider's Gaze",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Valkyrie's Victory",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Sun Spirit's Heat",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Barako's Beam",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Wroughtnaught's Vigilance",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Overlord's Tower",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Wither's Decay",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Ender Dragon's Breath",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Light's Blessing",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Naga's Swiftness",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Lich's Bane",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Hydra's Persistence",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Snow Queen's Glacier",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Ur-Ghast's Fury",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Alpha Yeti's Tantrum",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Ghast Queen's Cry",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Seelie's Legacy",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Prophet's Creed",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Champion's Dominance",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.damageResistance",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "potioncore.stepHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Void's Call",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicShielding",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Phantom's Illusion",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.maxHealth",
+        "amount": 2,
+        "operation": 0
+      },
+      {
+        "name": "generic.luck",
+        "amount": 0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Mino's Charge",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.knockbackResistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "generic.movementSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Frostmaw's Chill",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.magicDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.armorToughness",
+        "amount": 1,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Sword's Rust",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": -0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Slime's Sluggishness",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.attackSpeed",
+        "amount": -0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Coward's Retreat",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.reachDistance",
+        "amount": -0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Arrow's Splinter",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.projectileDamage",
+        "amount": -0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Wizard's Fizzle",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.magicDamage",
+        "amount": -0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Ooze's Corrosion",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armorToughness",
+        "amount": -1,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Mace's Dent",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.armor",
+        "amount": -0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Tempter's Masochism",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.damageResistance",
+        "amount": -0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Featherweight's Frailty",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.knockbackResistance",
+        "amount": -0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Plague's Malignance",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.maxHealth",
+        "amount": -2,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Occultist's Hex",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.magicShielding",
+        "amount": -0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Climber's Plummet",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.stepHeight",
+        "amount": -0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Mirror's Shatter",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.luck",
+        "amount": -0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Gravity's Hold",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.jumpHeight",
+        "amount": -0.5,
+        "operation": 0
+      }
+    ]
+  },
+  {
+    "name": "Miner's Fatigue",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "potioncore.digSpeed",
+        "amount": -0.05,
+        "operation": 2
+      }
+    ]
+  },
+  {
+    "name": "Quicksand's Binding",
+    "color": "red",
+    "weight": 25,
+    "attributes": [
+      {
+        "name": "generic.movementSpeed",
+        "amount": -0.05,
+        "operation": 2
+      }
+    ]
+}
+]
+}

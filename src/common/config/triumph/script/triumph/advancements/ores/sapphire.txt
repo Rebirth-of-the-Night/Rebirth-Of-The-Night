@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:gem, ore:gemSapphire, meta:6, count:1>)
+setTitle("An Ocean Inside")
+setDescription("Mine sapphire ore")
+
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Sapphire", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreSapphire>)
+
+hideLines()
+alwaysVisible()
+setPos(-53,-82)

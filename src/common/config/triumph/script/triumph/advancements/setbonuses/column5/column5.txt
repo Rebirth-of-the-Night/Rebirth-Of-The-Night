@@ -1,0 +1,8 @@
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("amethystarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column5/amethystarmor")
+
+
+alwaysHidden()

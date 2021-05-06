@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+advancement grant @a[r=50] only triumph:advancements/progression/hidden/hiddenKilledHarvester

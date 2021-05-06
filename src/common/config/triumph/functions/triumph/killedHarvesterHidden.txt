@@ -1,0 +1,10 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"Deadlier mobs now roam the world at night", "color":"yellow"}
+title @p title {"text":"The Rebirth of the Night", "bold":false, "italic":false, "color":"red"}
+playsound roughmobsrevamped:entity.boss.boss_idle ambient @p ~+25 ~+50 ~ 5 0.2
+gamestage silentadd @p killedHarvester
+nyxforce harvest_moon
+tellraw @p ["",{"text":"The next night will bring a bountiful harvest.","color":"blue","italic":true}]
+give @p scalinghealth:crystalshard 2

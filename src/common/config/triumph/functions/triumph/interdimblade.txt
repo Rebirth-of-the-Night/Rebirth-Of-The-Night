@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"You feel everywhere at once, yet nowhere at all while holding this blade...","color":"dark_green","italic":true}]

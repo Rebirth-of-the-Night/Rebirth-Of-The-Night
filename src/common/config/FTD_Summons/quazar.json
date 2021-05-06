@@ -1,0 +1,73 @@
+{
+  "_comment": "Spawn some meteors, then the boss, then some extra magma cube minions.",
+  "key": "Quazar",
+  "bossInfo": {
+    "domain": "betterslimes",
+    "name": "quazar",
+    "displayName": "Quazar",
+    "maxHealth": 700,
+    "attackDamage": 10.5,
+    "alwaysShowDisplayName": false,
+    "additionalDrops": []
+  },
+  "bossAddInfo": [{
+      "_comment": "Spawns a bunch of meteors, after that is done. Wait 10 (200 ticks) seconds and spawn magma cube minions",
+      "domain": "nyx",
+      "name": "falling_meteor",
+      "minSpawns": 7,
+      "maxSpawns": 7,
+      "timeBetweenSpawns": 60,
+      "spawnBeforeBoss": true,
+	  "nbt":{size:1,disable_message:2b,spawn_no_blocks:2b,speed:0.41},
+      "_comment2": "The next wave of adds will start spawning after these adds have been spawned",
+      "nextWaveOfAdds": {
+        "domain": "specialmobs",
+        "name": "hardenedlavaslime",
+        "minSpawns": 2,
+        "maxSpawns": 2,
+		"timeBetweenSpawns": 200,
+        "timeToWaitBeforeSpawn": 80,
+        "maxHealth": 30,
+        "nextWaveOfAdds": {
+          "domain": "specialmobs",
+          "name": "flyinglavaslime",
+          "minSpawns": 6,
+          "maxSpawns": 6,
+          "timeBetweenSpawns": 80,
+          "timeToWaitBeforeSpawn": 100,
+		      "nbt":{Size:1}
+        }
+      }
+    }
+  ],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "group": "Summon",
+    "pattern": ["mfb", "csc", "bfm"],
+    "key": {
+      "m": {
+        "item": "nyx:meteor_shard"
+      },
+		  "f": {
+        "item": "netherex:fiery_netherrack"
+      },
+	  	"b": {
+        "item": "minecraft:blaze_powder"
+      },
+	  	"c": {
+        "item": "minecraft:magma_cream"
+      },
+	  	"s": {
+        "item": "contenttweaker:shard_of_night"
+      }
+    },
+    "result": {
+      "item": "from_the_depths:item_totem_of_summoning",
+      "data": 0,
+      "nbt": {
+        "spawn_info": "Quazar"
+      },
+      "count": 1
+    }
+  }
+}

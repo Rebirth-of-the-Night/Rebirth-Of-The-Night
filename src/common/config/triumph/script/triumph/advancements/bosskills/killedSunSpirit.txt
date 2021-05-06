@@ -1,0 +1,17 @@
+setIcon(<mowziesmobs:grant_suns_blessing>)
+setTitle("Eclipse")
+setDescription("Extinguish a solar guardian.")
+
+addParent("triumph:advancements/bosskills/root")
+
+
+criteria = addCriteria("Sun Spirit", "minecraft:player_killed_entity")
+criteria.setEntityType("aether_legacy:sun_spirit")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+hiddenUnless("triumph:advancements/progression/aether/hiddenKilledSunSpirit")
+
+hideLines()
+setPos(-119,86)

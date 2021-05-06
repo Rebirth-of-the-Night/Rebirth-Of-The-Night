@@ -1,0 +1,44 @@
+{
+	"dependencies": "roguelike",
+	"populate": {
+		"earthspine": {
+			"distribution": "sequential",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "contenttweaker:planarspsp2"
+					}
+				],
+				"material": [],
+				"radius": 8,
+				"height": 64
+			},
+			"features": [
+				{
+					"distribution": "custom",
+					"generator": ${populate.earthspine.generator},
+					"cluster-count": 1,
+					"x-offset": 0,
+					"y-offset": 64,
+					"z-offset": 0,
+				},
+				{
+					"distribution": "custom",
+					"generator": ${populate.earthspine.generator},
+					"cluster-count": 1,
+					"x-offset": 0,
+					"y-offset": 192,
+					"z-offset": 0
+				}
+			]	
+			"chunk-chance": 70,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10	
+				]	
+			}
+		}
+	}
+}

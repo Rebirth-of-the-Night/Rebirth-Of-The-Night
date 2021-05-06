@@ -1,0 +1,16 @@
+{
+  "name": "Death",
+  "icon": "minecraft:skull:0",
+  "category": "survival",
+  "advancement": "triumph:advancements/progression/guidebook/death",
+  "pages": [
+	{
+    "type": "text",
+    "text": "Oh, this cursed destiny! All I know is that after taking fatal damage, I will always wake up only with what I had equipped, but permanently damaged.$(br2)$(#158B1D)You keep your main-hand item, armor and baubles on death but they lose 5% durability.$()"
+  },
+  {
+    "type": "text",
+    "text": "If I go back to where I was, I may be able to pick up what I lost, but I'll have to face with a rotten reminder of my demise."
+  }
+  ]
+}

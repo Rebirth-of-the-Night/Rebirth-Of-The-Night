@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "jungleTemple",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "ambience:ocarina"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "ambience:horn"
+        }
+      ]
+    }    
+  ]
+}

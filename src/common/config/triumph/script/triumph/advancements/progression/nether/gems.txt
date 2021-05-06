@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:four_gems>)
+setTitle("Bling! Bling!")
+setDescription("Obtain your first gem that can be made into an ingot")
+
+addParent("triumph:advancements/progression/killedHarvester")
+
+criteria = addCriteria("Gems", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotableGem>)
+
+alwaysVisible()
+drawDirectLines()
+setPos(95,-30)

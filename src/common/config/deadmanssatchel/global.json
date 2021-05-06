@@ -1,0 +1,47 @@
+{
+  "deadmanssatchel:deadmanssatchel": {
+    "slot_count": 27,
+    "item_list": [
+      "contenttweaker:creation_quintessence",
+      "contenttweaker:disint_quintessence",
+      "contenttweaker:fire_quintessence",
+      "contenttweaker:sol_quintessence",
+      "contenttweaker:chaos_quintessence",
+      "contenttweaker:aether_quintessence",
+      "contenttweaker:life_quintessence",
+      "contenttweaker:draconic_quintessence",
+      "contenttweaker:death_quintessence",
+      "contenttweaker:earth_quintessence",
+      "contenttweaker:soul_quintessence",
+      "contenttweaker:nether_quintessence",
+      "contenttweaker:nature_quintessence",
+      "contenttweaker:mind_quintessence",
+      "contenttweaker:water_quintessence",
+      "contenttweaker:strength_quintessence",
+      "contenttweaker:air_quintessence",
+      "contenttweaker:knowledge_quintessence",
+      "contenttweaker:balance_quintessence",
+      "contenttweaker:fae_quintessence",
+      "contenttweaker:holding_quintessence",
+      "contenttweaker:plague_quintessence",
+      "contenttweaker:energy_quintessence",
+      "contenttweaker:poison_quintessence",
+      "contenttweaker:luna_quintessence",
+      "contenttweaker:end_quintessence",
+      "contenttweaker:time_quintessence",
+      "contenttweaker:arcane_quintessence",
+      "contenttweaker:order_quintessence",
+      "contenttweaker:trans_quintessence",
+      "contenttweaker:illusion_quintessence"
+    ],
+    "is_blacklist": false,
+    "re_open_timer": 0,
+    "death_drop_timer": 0,
+    "random_bag_drop_chance": 0.0,
+    "random_bag_items_drop_chance": {
+      "minecraft:example_thing": 0,
+      "minecraft:example_item": 0
+    },
+    "only_owner_open": false
+  }
+}

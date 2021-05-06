@@ -1,0 +1,28 @@
+{
+  "name": "Sapphire",
+  "icon": "biomesoplenty:gem:6",
+  "category": "equipment_armory",
+  "advancement": "triumph:advancements/ores/sapphire",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An ocean of infinite possibilities lies within $(item)sapphire$(), literally. It is found underground at around the same depths as the other gems. Holding it in my hands feels unlike any mineral I’ve held before, seeming to be a solid in form but a liquid in sensation. "
+    },
+    {
+      "type": "text",
+      "text": "That may explain why it seems to be more concentrated in caves with close proximity to large bodies of water. Armor forged from this material seems to give me almost amphibious qualities, as I was able to $(thing)hold my breath$() for extended periods of time underwater, and $(thing)extract materials without the weight of the ocean holding me back$()."
+    },
+    {
+      "type": "text",
+      "text": "Even merely traveling across water seems to be easier, with the gem $(thing)increasing my navigational skills$() while I sail through the seas. An infinite world is out there, and this gem gives infinite possibilities to explore it."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "equipment/peridot",
+        "equipment/ruby",
+        "equipment/diamond"
+      ]
+    }
+  ]
+}

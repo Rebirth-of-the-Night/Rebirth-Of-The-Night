@@ -1,0 +1,3 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"A faint memory of your weaker self occurs. You've completely forgotten the feeling of death.","color":"dark_red","italic":true}]

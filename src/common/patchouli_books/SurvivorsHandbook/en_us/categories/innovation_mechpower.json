@@ -1,0 +1,7 @@
+{
+  "name": "Mechanical Power",
+  "description": "Everyone has their limit. There are many useful things that can't be made with sweat and manual labor alone, and for those I'll need mechanical power.",
+  "icon": "minecraft:coal",
+  "sortnum": 1,
+  "parent": "innovation"
+}

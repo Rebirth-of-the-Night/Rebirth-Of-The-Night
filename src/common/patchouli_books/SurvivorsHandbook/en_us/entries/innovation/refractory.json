@@ -1,0 +1,26 @@
+{
+  "name": "Refractory Materials",
+  "icon": "pyrotech:material:5",
+  "category": "innovation_burn",
+  "pages": [
+	{
+      "type": "crafting",
+      "recipe": "pyro_refracotrymaterial_slag",
+      "recipe2": "pyro_unfiredlime_lime"
+    },
+	{
+      "type": "text",
+      "text": "There are several materials with heat-resistance capabilities, provided the relevant components are extracted from them; I will simply call this set of materials slag to make things easier for me. I came up with several sources: I can get it from soaking certain materials, like limestone in water or coal coke in wooden tar for a bigger yield; I can also bash or grind down shells and gems."
+    },
+	{
+	  "type": "text",
+      "text": "Whichever the case, adding a binding agent like clay to this slag and heating it in a kiln will make refractory bricks, useful to make a Refractory, a better Kiln and other useful items."
+    },
+	{
+      "type": "relations",
+      "entries": [
+        "innovation/kiln"
+      ]
+    }
+  ]
+}

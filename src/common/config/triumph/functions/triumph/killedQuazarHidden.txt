@@ -1,0 +1,9 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+title @p times 40 120 60
+title @p subtitle {"text":"The ground shudders deep beneath the planet", "color":"yellow"}
+title @p title {"text":"The Rebirth of the Galaxy", "bold":false, "italic":false, "color":"red"}
+gamestage silentadd @p killedQuazar
+gamestage silentremove @a start
+give @p scalinghealth:crystalshard 4
+playsound minecraft:ambient.cave ambient @p ~ ~ ~ 100 0.5
