@@ -103,8 +103,11 @@ Create a minecraft instance to run the files located in your project's `build/te
    a [symbolic link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)
    to your build output directory by open a command window here in **ADMIN MODE** and running:
     ```sh
-    mklink /d .minecraft <path-to-your-/build/test>
+    mklink /d .minecraft "<path-to-your-/build/test>"
     ```
+   
+    ❗ Be sure to put quotes around the target directory if there are spaces.
+   
 10. in explorer, you should see the `.minecraft` with a little shortcut arrow. Confirm it linked
     properly by opening.
 
