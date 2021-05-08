@@ -121,8 +121,40 @@ residual_mythril.flowingLocation = "contenttweaker:fluids/residual_mythril_flow"
 residual_mythril.colorize= true;
 residual_mythril.register();
 
-// Cut Gems
+// Raw Ores
+// raw_tin
+var raw_tin = VanillaFactory.createItem("raw_tin");
+raw_tin.register();
 
+// raw_copper
+var raw_copper = VanillaFactory.createItem("raw_copper");
+raw_copper.register();
+
+// raw_iron
+var raw_iron = VanillaFactory.createItem("raw_iron");
+raw_iron.register();
+
+// raw_silver
+var raw_silver = VanillaFactory.createItem("raw_silver");
+raw_silver.register();
+
+// raw_gold
+var raw_gold = VanillaFactory.createItem("raw_gold");
+raw_gold.register();
+
+// raw_gravitite
+var raw_gravitite = VanillaFactory.createItem("raw_gravitite");
+raw_gravitite.register();
+
+// raw_viridium
+var raw_viridium = VanillaFactory.createItem("raw_viridium");
+raw_viridium.register();
+
+// raw_mythril
+var raw_mythril = VanillaFactory.createItem("raw_mythril");
+raw_mythril.register();
+
+// Cut Gems
 val cutdiamond = VanillaFactory.createItem("pristine_diamond");
 cutdiamond.register();
 
