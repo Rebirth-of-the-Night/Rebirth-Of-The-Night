@@ -285,7 +285,7 @@ HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=south,lit=true>,
 HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=west,lit=true>, 1);
 HeatRegistry.addHeatSource(<futuremc:campfire>, 1);
 */
-HeatRegistry.addHeatSource(<betternether:cincinnasite_fire_bowl>, 1);
+//HeatRegistry.addHeatSource(<betternether:cincinnasite_fire_bowl>, 1);
 HeatRegistry.addHeatSource(<arcanearchives:brazier_of_hoarding>, 1);
 HeatRegistry.addHeatSource(<contenttweaker:fire_block>, 1);
 HeatRegistry.addHeatSource(<blockstate:minecraft:fire>, 1);
