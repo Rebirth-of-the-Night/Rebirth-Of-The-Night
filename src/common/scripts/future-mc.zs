@@ -9,6 +9,7 @@ import mods.futuremc.BlastFurnace;
 import mods.futuremc.Smoker;
 import mods.futuremc.Campfire;
 
+JEI.removeAndHide(<futuremc:brick_wall>);
 JEI.removeAndHide(<futuremc:lantern>);
 JEI.removeAndHide(<futuremc:barrel>);
 JEI.removeAndHide(<futuremc:composter>);
@@ -254,6 +255,13 @@ Stonecutter.addOutputs(<minecraft:quartz_block>,
 							<quark:quartz_wall>,
 							<netherex:quartz_wall>);
 
+// Misc wall recipes
+
+Stonecutter.addOutput(<minecraft:brick_block>,
+							<ceramics:clay_wall>);
+
+Stonecutter.removeOutputs(<minecraft:brick_block>,
+							<futuremc:brick_wall>);
 
 /*********************************************************************************
 
