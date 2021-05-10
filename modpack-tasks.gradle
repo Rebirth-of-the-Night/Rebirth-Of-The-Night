@@ -23,6 +23,8 @@ task buildTest {
     String dest = "${buildDir}/test"
 
     dependsOn 'buildCommonMods'
+    dependsOn 'buildCommonScripts'
+    dependsOn 'buildCommonConfig'
     dependsOn 'buildCommonOther'
 
     dependsOn 'buildClientMods'
@@ -44,11 +46,23 @@ task buildCommonMods(type: Copy) {
     into "${buildDir}/test/mods"
 }
 
+task buildCommonScripts(type: Copy) {
+    group 'modpack'
+    from 'src/common/scripts'
+    into "${buildDir}/test/scripts"
+}
+
+task buildCommonConfig(type: Copy) {
+    group 'modpack'
+    from 'src/common/config'
+    into "${buildDir}/test/config"
+}
+
 task buildCommonOther(type: Copy) {
     group 'modpack'
 
     from 'src/common'
-    exclude 'mods/*'
+    exclude ('mods/**', 'scripts/**', 'config/**')
     into "${buildDir}/test"
 }
 
@@ -69,7 +83,7 @@ task buildClientOther(type: Copy) {
     group 'modpack'
 
     from 'src/client-only'
-    exclude ('mods/*', 'ambience_music')
+    exclude ('mods/**', 'ambience_music/**')
     into "${buildDir}/test"
 }
 
