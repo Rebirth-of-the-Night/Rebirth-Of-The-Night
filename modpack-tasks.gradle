@@ -16,33 +16,75 @@ task build(type: Copy) {
 
 // ------------------------------- //
 
-task buildTest(type: Copy) {
+task buildTest {
     description 'copy the test run version of the client'
     group 'modpack'
 
     String dest = "${buildDir}/test"
 
-    // this is a fusion of common, client, and test resources
-    logger.info("copying common resources to ${dest}")
-    from 'src/common/'
-    into dest
+    dependsOn 'buildCommonMods'
+    dependsOn 'buildCommonOther'
 
-    logger.info("copying client-only resources to ${dest}")
-    from 'src/client-only/'
-    into dest
+    dependsOn 'buildClientMods'
+    dependsOn 'buildClientMusic'
+    dependsOn 'buildClientOther'
 
-    logger.info("copying test resources to ${dest}")
-    from 'src/test/'
-    into dest
+    dependsOn 'buildTestAll'
 
-    logger.info("copying local resources to ${dest}")
-    from 'src/local/'
-    exclude 'README.md'
-    into dest
+    dependsOn 'buildLocalAll'
 
     doLast{
-        println "your run is avaible at ${dest}"
+        println "your run is available at ${dest}"
     }
+}
+
+task buildCommonMods(type: Copy) {
+    group 'modpack'
+    from 'src/common/mods'
+    into "${buildDir}/test/mods"
+}
+
+task buildCommonOther(type: Copy) {
+    group 'modpack'
+
+    from 'src/common'
+    exclude 'mods/*'
+    into "${buildDir}/test"
+}
+
+task buildClientMods(type: Copy) {
+    group 'modpack'
+    from 'src/client-only/mods'
+    into "${buildDir}/test/mods"
+}
+
+task buildClientMusic(type: Copy) {
+    group 'modpack'
+
+    from 'src/client-only/ambience_music'
+    into "${buildDir}/test/ambience_music"
+}
+
+task buildClientOther(type: Copy) {
+    group 'modpack'
+
+    from 'src/client-only'
+    exclude ('mods/*', 'ambience_music')
+    into "${buildDir}/test"
+}
+
+task buildTestAll(type: Copy) {
+    group 'modpack'
+
+    from 'src/test/'
+    into "${buildDir}/test"
+}
+
+task buildLocalAll(type: Copy) {
+    group 'modpack'
+
+    from 'src/local/'
+    into "${buildDir}/test"
 }
 
 task packageClient(type: Copy) {
