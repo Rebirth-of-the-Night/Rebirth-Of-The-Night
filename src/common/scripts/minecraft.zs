@@ -118,6 +118,58 @@ for cobble, rock in ctr {
   recipes.addShapeless(rock*4, [cobble]);
 }
 
+val hammerList as int[IItemStack] = {
+  <endreborn:tool_hammer_iron> : 6,
+  <spartancompat:hammer_holystone> : 6,
+  <spartancompat:hammer_skyroot> : 6,
+  <pyrotech:stone_hammer> : 5,
+  <pyrotech:iron_hammer> : 4,
+  <pyrotech:flint_hammer> : 4,
+  <pyrotech:diamond_hammer> : 4,
+  <mod_lavacow:moltenhammer> : 4,
+  <spartancompat:warhammer_onyx> : 4,
+  <pyrotech:bone_hammer> : 4,
+  <spartanfire:warhammer_fire_dragonbone> : 4,
+  <spartanfire:warhammer_ice_dragonbone> : 4,
+  <pyrotech:obsidian_hammer> : 4,
+  <iceandfire:troll_weapon.hammer> : 4,
+  <aether_legacy:notch_hammer> : 4,
+  <spartanfire:hammer_fire_dragonbone> : 4,
+  <spartanfire:hammer_ice_dragonbone> : 4,
+  <spartanfire:warhammer_dragonbone> : 4,
+  <spartancompat:hammer_onyx> : 4,
+  <spartanfire:hammer_dragonbone> : 4,
+  <spartanfire:hammer_fire_dragonsteel> : 4,
+  <spartanfire:hammer_ice_dragonsteel> : 4
+} as int[IItemStack];
+
+var hammerItems = hammerList.entrySet[0].key.transformDamage(hammerList.entrySet[0].value);
+
+for i, entry in hammerList.entrySet {
+  if (i != 0) {
+    hammerItems |= entry.key.transformDamage(entry.value);
+  }
+}
+
+val oreHammering as IItemStack[IIngredient] = {
+  <ore:sourceCopper>			:	<ore:dustCopper>.firstItem,
+  <ore:sourceZinc>				:	<ore:dustZinc>.firstItem,
+  <ore:sourceTin>				:	<ore:dustTin>.firstItem,
+  <ore:sourceBronze>			:	<ore:dustBronze>.firstItem,
+  <ore:sourceIron>				:	<ore:dustIron>.firstItem,
+  <ore:sourceGold>				:	<ore:dustGold>.firstItem,
+  <ore:sourceSilver>			:	<ore:dustSilver>.firstItem,
+  <ore:sourceGravitite>			:	<ore:dustGravitite>.firstItem,
+  <ore:sourceEndorium>			:	<ore:dustEndorium>.firstItem
+} as IItemStack[IIngredient];
+
+for i, entry in oreHammering.entrySet {
+  recipes.addShapeless("hammerSmashing"~i, entry.value, [
+    entry.key,
+    hammerItems
+  ]);
+}
+
 // remove post-nether bucket from chests (couldnt find the specific loot table it was spawning in)
 LootTable.removeGlobalItem("minecraft:bucket");
 

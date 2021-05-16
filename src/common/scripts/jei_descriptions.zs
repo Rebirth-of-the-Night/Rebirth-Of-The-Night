@@ -111,14 +111,20 @@ JEI.addDescription(<ore:ingotSilver>,"A material known to be effectively used ag
 JEI.addDescription(<ore:ingotIron>,"Although bronze is tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
 JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
-
 JEI.addDescription(<rotn_blocks:exorite_crystal>,"A beautiful gem common to the lands of the Ender folk, sometimes confused with amethyst.");
 JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
 JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
-
 JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon.");
-
+JEI.addDescription(<ore:dustCopper>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustZinc>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustTin>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustBronze>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustIron>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustGold>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustSilver>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustGravitite>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustEndorium>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
 
 /* Manufacturing */
 val hempFiber = <betterwithmods:material:3>;
@@ -427,7 +433,7 @@ JEI.addDescription(<quark:soul_bead>,"Warped bead formed from the cursed core of
 JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of information used long time ago by advanced civilizations. Using it while holding a book in the off-hand will register data of the structure its holder is inside.");
 JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with a fraction of the night. Can be obtained from the harvester.");
 JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an extraterrestrial being. Contains the unstable powder used to concentrate and refine meteorite.");
-
+JEI.addDescription(<contenttweaker:ardicite>,"A naturally occurring form of pure hellfire that can host Onyx formations. It is a fiery material that can be found in the Nether in pockets of flammable sulfur.");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;

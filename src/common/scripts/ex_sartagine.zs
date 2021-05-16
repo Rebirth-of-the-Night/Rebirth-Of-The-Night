@@ -60,10 +60,10 @@ recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
 ]);
 
 var tempKnives = <harvestcraft:cuttingboarditem>.anyDamage(); // Forget if this can take damage, so just in case
-for knife in <ore:smallKnife>.items { tempKnives |= knife.anyDamage(); }
+for knife in <ore:smallKnife>.items { tempKnives |= knife.anyDamage().noReturn(); }
 
 recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
-    <animania:carving_knife:*>.anyDamage(),
+    <animania:carving_knife:*>.anyDamage().noReturn(),
     <minecraft:glass_bottle>,
     <minecraft:bowl>,
     tempKnives

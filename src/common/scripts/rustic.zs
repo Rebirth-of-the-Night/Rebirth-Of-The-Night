@@ -130,8 +130,8 @@ recipes.remove(<rustic:condenser>);
 recipes.remove(<rustic:retort>);
 recipes.addShaped(<rustic:condenser>, 
 [[null, <minecraft:brick>, null],
-[<minecraft:brick>, <pyrotech:bucket_stone>, <minecraft:brick>],
-[<minecraft:brick>, <minecraft:stained_hardened_clay>, <minecraft:brick>]]);
+[<minecraft:brick>, <pyrotech:bucket_stone>.noReturn(), <minecraft:brick>],
+[<minecraft:brick>, <minecraft:hardened_clay>, <minecraft:brick>]]);
 recipes.addShaped(<rustic:retort>, [
 [null, <minecraft:brick>, null],
 [<ore:genericMetal>, <ore:genericMetal>, null],
@@ -141,11 +141,11 @@ recipes.remove(<rustic:condenser_advanced>);
 recipes.remove(<rustic:retort_advanced>);
 recipes.addShaped(<rustic:condenser_advanced>, 
 [[null, <ore:ingotBrickNether>, null],
-[<ore:ingotBrickNether>, <pyrotech:bucket_stone>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <pyrotech:bucket_stone>.noReturn(), <ore:ingotBrickNether>],
 [<ore:ingotBrickNether>, <ore:blockSteel>, <ore:ingotBrickNether>]]);
 recipes.addShaped(<rustic:retort_advanced>, [
 [null, <ore:ingotBrickNether>, null],
-[<ore:ingotSteel>, <pyrotech:bucket_stone>, null],
+[<ore:ingotSteel>, <pyrotech:bucket_stone>.noReturn(), null],
 [null, <ore:ingotBrickNether>, null]]);
 
 
