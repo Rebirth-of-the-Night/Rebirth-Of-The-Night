@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/loose_big_blueschist_bricks",
-      "particle": "contenttweaker:blocks/loose_big_blueschist_bricks"
+      "texture": "contenttweaker:blocks/loose_bricks/loose_big_blueschist_bricks",
+      "particle": "contenttweaker:blocks/loose_bricks/loose_big_blueschist_bricks"
     },
     "model": "base:storage",
     "uvlock": true,
