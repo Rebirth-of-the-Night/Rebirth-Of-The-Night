@@ -255,13 +255,20 @@ Stonecutter.addOutputs(<minecraft:quartz_block>,
 							<quark:quartz_wall>,
 							<netherex:quartz_wall>);
 
-// Misc wall recipes
+// Unifying vanilla recipes
 
 Stonecutter.addOutput(<minecraft:brick_block>,
 							<ceramics:clay_wall>);
 
 Stonecutter.removeOutputs(<minecraft:brick_block>,
 							<futuremc:brick_wall>);
+
+Stonecutter.addOutputs(<minecraft:stone>,
+							<quark:stone_stairs>,
+							<quark:stone_wall>);
+
+Stonecutter.addOutput(<minecraft:stonebrick>,
+							<minecraft:stone_slab:5>*2);
 
 /*********************************************************************************
 
