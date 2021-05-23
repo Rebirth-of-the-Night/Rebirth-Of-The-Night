@@ -51,7 +51,7 @@ tile.stone.andesiteSmooth.name=Polished Gray Andesite
 
 tile.stoneMoss.name=Mossy Coade Cobblestone
 tile.cobbleWall.mossy.name=Mossy Coade Cobblestone Wall
-tile.cobbleWall.name=Coade Cobblestone Wall
+tile.cobbleWall.normal.name=Coade Cobblestone Wall
 tile.stone.stone.name=Coade Stone
 tile.stonebrick.name=Coade Cobblestone
 tile.stoneSlab.name=Coade Stone Slab
