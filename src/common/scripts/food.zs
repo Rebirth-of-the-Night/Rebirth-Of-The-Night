@@ -24,6 +24,8 @@
 <harvestcraft:vegemiteontoastitem>.foodValues.saturationModifier = 0.6;
 <harvestcraft:grilledcheesevegemitetoastitem>.foodValues.hunger = 11;
 <harvestcraft:grilledcheesevegemitetoastitem>.foodValues.saturationModifier = 0.7;
+<harvestcraft:beetburgeritem>.foodValues.hunger = 12;
+<harvestcraft:beetburgeritem>.foodValues.saturationModifier = 0.8;
 <rats:raw_rat>.foodValues.hunger = 1;
 <rats:raw_rat>.foodValues.saturationModifier = 0.2;
 <rats:cooked_rat>.foodValues.hunger = 2;
