@@ -16,6 +16,14 @@
 <harvestcraft:liverandonionsitem>.foodValues.saturationModifier = 0.4;
 <harvestcraft:haggisitem>.foodValues.hunger = 5;
 <harvestcraft:haggisitem>.foodValues.saturationModifier = 0.4;
+<harvestcraft:surfandturfitem>.foodValues.hunger = 5;
+<harvestcraft:surfandturfitem>.foodValues.saturationModifier = 0.4;
+<harvestcraft:vegemiteitem>.foodValues.hunger = 4;
+<harvestcraft:vegemiteitem>.foodValues.saturationModifier = 0.6;
+<harvestcraft:vegemiteontoastitem>.foodValues.hunger = 8;
+<harvestcraft:vegemiteontoastitem>.foodValues.saturationModifier = 0.6;
+<harvestcraft:grilledcheesevegemitetoastitem>.foodValues.hunger = 11;
+<harvestcraft:grilledcheesevegemitetoastitem>.foodValues.saturationModifier = 0.7;
 <rats:raw_rat>.foodValues.hunger = 1;
 <rats:raw_rat>.foodValues.saturationModifier = 0.2;
 <rats:cooked_rat>.foodValues.hunger = 2;
