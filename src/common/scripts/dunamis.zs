@@ -438,3 +438,47 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
+
+// OreDicts
+
+val mundaneRune = <ore:mundaneRune>;
+mundaneRune.add(
+    <contenttweaker:air_rune>,
+    <contenttweaker:water_rune>,
+    <contenttweaker:fire_rune>,
+    <contenttweaker:earth_rune>,
+    <contenttweaker:luna_rune>,
+    <contenttweaker:sol_rune>
+);
+
+val arcaneRune = <ore:arcaneRune>;
+arcaneRune.add(
+    <contenttweaker:balance_rune>,
+    <contenttweaker:chaos_rune>,
+    <contenttweaker:creation_rune>,
+    <contenttweaker:death_rune>,
+    <contenttweaker:energy_rune>,
+    <contenttweaker:illusion_rune>,
+    <contenttweaker:knowledge_rune>,
+    <contenttweaker:life_rune>,
+    <contenttweaker:mind_rune>,
+    <contenttweaker:nature_rune>,
+    <contenttweaker:order_rune>,
+    <contenttweaker:poison_rune>,
+    <contenttweaker:soul_rune>,
+    <contenttweaker:strength_rune>,
+    <contenttweaker:trans_rune>,
+    <contenttweaker:disint_rune>,
+    <contenttweaker:arcane_rune>
+);
+
+val mysticalRune = <ore:mysticalRune>;
+mysticalRune.add(
+    <contenttweaker:holding_rune>,
+    <contenttweaker:nether_rune>,
+    <contenttweaker:plague_rune>,
+    <contenttweaker:time_rune>,
+    <contenttweaker:aether_rune>,
+    <contenttweaker:draconic_rune>,
+    <contenttweaker:fae_rune>
+);
