@@ -144,6 +144,8 @@
 <harvestcraft:saucedlambkebabitem>.foodValues.saturationModifier = 0.5;
 <harvestcraft:hamsweetpicklesandwichitem>.foodValues.hunger = 9;
 <harvestcraft:hamsweetpicklesandwichitem>.foodValues.saturationModifier = 0.4;
+<harvestcraft:suaderoitem>.foodValues.hunger = 5;
+<harvestcraft:suaderoitem>.foodValues.saturationModifier = 0.4;
 <rats:raw_rat>.foodValues.hunger = 1;
 <rats:raw_rat>.foodValues.saturationModifier = 0.2;
 <rats:cooked_rat>.foodValues.hunger = 2;
