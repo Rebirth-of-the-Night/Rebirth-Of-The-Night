@@ -176,6 +176,8 @@
 <betteranimalsplus:venisoncooked>.foodValues.saturationModifier = 0.3;
 <growthcraft_rice:rice_cooked>.foodValues.hunger = 2;
 <growthcraft_rice:rice_cooked>.foodValues.saturationModifier = 0.2;
+<minecraft:pumpkin_pie>.foodValues.hunger = 5;
+<minecraft:pumpkin_pie>.foodValues.saturationModifier = 0.3;
 
 <mod_lavacow:parasite_item>.foodValues.hunger = 0.5;
 <mod_lavacow:parasite_item>.foodValues.saturationModifier = 0.2;
