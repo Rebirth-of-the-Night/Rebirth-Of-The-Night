@@ -45,7 +45,7 @@ recipes.remove(<exsartagine:range>);
 recipes.addShaped("exsar_range", <exsartagine:range>, [
     [genericMetal | brick, genericMetal | brick, genericMetal | brick],
     [genericMetal | brick, charcoalBlock, <minecraft:furnace>],
-    [ironBlock, ironBlock, ironBlock] // At least make it expensive enough so it isn't easily crafted
+    [ironBlock, ironBlock, ironBlock] // At least make it expensive enough so it isnt easily crafted
 ]);
 
 val basicWorktable = <artisanworktables:worktable:5> | <minecraft:crafting_table>;
@@ -2487,7 +2487,7 @@ ExSartagine.addKettleRecipe([sugar,rice,beans],cookKitKettle,null,[<harvestcraft
 // Chicken Gumbo -&R
 recipes.remove(<harvestcraft:chickengumboitem>);
 ExSartagine.addKettleRecipe([rawChicken,bellpepper,stock,spice,veggie,veggie,veggie],cookKitKettle,null,[<harvestcraft:chickengumboitem>],80);
-//General Tso's Chicken -&R
+//General Tso Chicken -&R
 recipes.remove(<harvestcraft:generaltsochickenitem>);
 ExSartagine.addKettleRecipe([rawChicken,veggie,veggie,flour,rice],cookKitKettle,waterBottle,[<harvestcraft:generaltsochickenitem>],80);
 // California Roll
@@ -3145,7 +3145,7 @@ ExSartagine.addKettleRecipe([beans,corn,onion,spice,tomato,butter],null,null,[<h
 //Fried Green Potatoes
 recipes.remove(<harvestcraft:friedgreentomatoesitem>);
 ExSartagine.addKettleRecipe([tomato,cookingOil,batter],null,null,[<harvestcraft:friedgreentomatoesitem>],80);
-//Potatoes O'Brien
+//Potatoes O Brien
 recipes.remove(<harvestcraft:potatoesobrienitem>);
 ExSartagine.addKettleRecipe([potato,onion,bellpepper,cookingOil],cookKitKettle,null,[<harvestcraft:potatoesobrienitem>],80);
 //Tater tots
