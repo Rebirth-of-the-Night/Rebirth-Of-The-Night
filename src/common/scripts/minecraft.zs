@@ -69,7 +69,7 @@ var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>
 } as IItemStack[IItemStack];
 
-for rawOre, rawOreBlock in rtb {
+for rawOreBlock, rawOre in rtb {
   recipes.addShaped(rawOreBlock, [
 	[rawOre,rawOre,rawOre],
 	[rawOre,rawOre,rawOre],
