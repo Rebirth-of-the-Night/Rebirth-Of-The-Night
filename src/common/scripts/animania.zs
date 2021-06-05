@@ -22,6 +22,7 @@ JEI.removeAndHide(<animania:wild_hive>);
 <ore:foodHoneydrop>.remove(<animania:honey_bottle>);
 <ore:dropHoney>.remove(<animania:honey_bottle>);
 <ore:foodHoney>.remove(<animania:honey_bottle>);
+<ore:listAllrabbitraw>.add(<animania:raw_prime_rabbit>);
 
 
 recipes.removeByRecipeName("animania:straw");
