@@ -176,8 +176,7 @@ recipes.removeShapeless(<betterwithmods:candle:*>,[<quark:candle:*>]);
 
 Cauldron.remove([<minecraft:mushroom_stew>]);
 Cauldron.remove([<minecraft:rabbit_stew>]);
-Cauldron.addUnstoked([<minecraft:cooked_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
-Cauldron.addUnstoked([<animania:cooked_prime_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
+Cauldron.addUnstoked([<minecraft:cooked_rabbit>|<animania:cooked_prime_rabbit>,<ore:cookedCarrot>,<ore:cookedPotato>,<ore:foodFlour>,<ore:listAllmushroom>*3,<minecraft:bowl>*5],[<minecraft:rabbit_stew>*5]);
 
 Cauldron.addUnstoked([<quark:crab_leg>],[<quark:cooked_crab_leg>]);
 Cauldron.addUnstoked([<primitivemobs:dodo>],[<primitivemobs:cooked_dodo>]);
