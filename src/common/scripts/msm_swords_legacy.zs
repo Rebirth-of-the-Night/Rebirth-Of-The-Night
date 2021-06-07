@@ -51,7 +51,7 @@ recipes.addShaped("Draconic Blade", <pyrotech:redstone_sword>.withTag({}),[
 
 
 
-/////////////////////        Heaven's Halberd        /////////////////////
+/////////////////////        Heavens Halberd        /////////////////////
 JEI.removeAndHide(<spartanweaponry:dagger_invar>);
 JEI.removeAndHide(<spartanweaponry:longsword_invar>);
 JEI.removeAndHide(<spartanweaponry:katana_invar>);
@@ -143,7 +143,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:relic_candy>.withTag(enchantmentR
 ]);
 
 ////////////////////////////////////////        Legendaries        ///////////////////////////////////
-/////////////////////        Dark's Edge        /////////////////////
+/////////////////////        Darks Edge        /////////////////////
 
 var covenant = <atop:topaz_sword>;
 var convergence = <atop:amethyst_sword>;
@@ -171,7 +171,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:wither_bane>.withTag(({"Quark:Run
 
 
 
-/////////////////////        Light's Edge        /////////////////////
+/////////////////////        Lights Edge        /////////////////////
 
 var lightessence = <biomesoplenty:biome_essence>;
 
@@ -195,7 +195,7 @@ mods.betterwithmods.Anvil.addShaped(<msmlegacy:crystaline_blade>.withTag(({"Quar
 
 
 ////////////////////////////////////////        Godly        ///////////////////////////////////
-/////////////////////        True Dark's Edge        /////////////////////
+/////////////////////        True Darks Edge        /////////////////////
 
 var undyingheart = <mod_lavacow:undyingheart>;
 var witherrose = <futuremc:wither_rose>;
@@ -245,7 +245,7 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag(({"Qua
 
 
 
-/////////////////////        True Light's Edge        /////////////////////
+/////////////////////        True Lights Edge        /////////////////////
 
 var shapedquartz = <arcanearchives:shaped_quartz>;
 var cross = <bountifulbaubles:amuletcross>;

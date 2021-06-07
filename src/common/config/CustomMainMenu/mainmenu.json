@@ -112,63 +112,6 @@
                 "link" : "https://wiki.rebirthofthenight.com/wiki/Tips"
             }
         },
-        "patreon":
-        {
-            "text" : "Donate Via Patreon",
-            "normalTextColor" : 16756257,
-            "hoverTextColor" : 3125670,
-            "texture" : "rotn:textures/btn.png",
-            "posX" : -105,
-            "posY" : 80,
-            "width" : 100,
-            "height" : 20,
-            "imageWidth" : 100,
-            "imageHeight" : 50,
-            "alignment" : "top_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://www.patreon.com/rebirthofthenight"
-            }
-        },
-        "merch":
-        {
-            "text" : "Buy Our Merch",
-            "normalTextColor" : 16737894,
-            "hoverTextColor" : 3125670,
-            "texture" : "rotn:textures/btn.png",
-            "posX" : -105,
-            "posY" : 100,
-            "width" : 100,
-            "height" : 20,
-            "imageWidth" : 100,
-            "imageHeight" : 50,
-            "alignment" : "top_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://rebirthofthenight.com/merch-store/"
-            }
-        },
-        "twitch":
-        {
-            "text" : "Watch Development Live",
-            "normalTextColor" : 11691775,
-            "hoverTextColor" : 3125670,
-            "texture" : "rotn:textures/btn.png",
-            "posX" : -105,
-            "posY" : 120,
-            "width" : 100,
-            "height" : 20,
-            "imageWidth" : 100,
-            "imageHeight" : 50,
-            "alignment" : "top_right",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://twitch.tv/calamarigold"
-            }
-        },
         "blm":
         {
             "text" : "Support Black Lives Matter",

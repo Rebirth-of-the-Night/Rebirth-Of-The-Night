@@ -16,7 +16,7 @@ Join the community on the [Official RotN Discord](https://discord.gg/rotn). Disc
 lore, and keep tabs on recent events and developments.
 
 If you wish to support Rebirth of the Night, consider donating to
-the [Rebirth of the Night Patreon](https://www.patreon.com/rebirthofthenight).
+the Rebirth of the Night team (link soon).
 
 ## Website
 

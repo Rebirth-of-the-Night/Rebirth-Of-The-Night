@@ -1,6 +1,6 @@
 setIcon("minecraft:crafting_table")
 setTitle("Create Your Own!")
-setDescription("Create your own Relic by donating to our Patreon!")
+setDescription("Create your own Relic by donating to us [platform coming soon]!")
 
 addParent("triumph:advancements/eastereggs/root")
 

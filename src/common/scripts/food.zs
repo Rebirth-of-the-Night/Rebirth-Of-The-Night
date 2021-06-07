@@ -34,8 +34,8 @@
 <harvestcraft:toastsandwichitem>.foodValues.saturationModifier = 0.6;
 <harvestcraft:garlicbreaditem>.foodValues.hunger = 7;
 <harvestcraft:garlicbreaditem>.foodValues.saturationModifier = 0.4;
-<harvestcraft:caesarsaladitem>.foodValues.hunger = 9;
-<harvestcraft:caesarsaladitem>.foodValues.saturationModifier = 0.3;
+<harvestcraft:ceasarsaladitem>.foodValues.hunger = 9;
+<harvestcraft:ceasarsaladitem>.foodValues.saturationModifier = 0.3;
 <harvestcraft:stuffedmushroomitem>.foodValues.hunger = 7;
 <harvestcraft:stuffedmushroomitem>.foodValues.saturationModifier = 0.4;
 <harvestcraft:salmonpattiesitem>.foodValues.hunger = 9;
@@ -68,8 +68,8 @@
 <harvestcraft:bananamilkshakeitem>.foodValues.saturationModifier = 0.2;
 <harvestcraft:gooseberrymilkshakeitem>.foodValues.hunger = 4;
 <harvestcraft:gooseberrymilkshakeitem>.foodValues.saturationModifier = 0.2;
-<harvestcraft:naanshakeitem>.foodValues.hunger = 4;
-<harvestcraft:naanshakeitem>.foodValues.saturationModifier = 0.3;
+<harvestcraft:durianmilkshakeitem>.foodValues.hunger = 4;
+<harvestcraft:durianmilkshakeitem>.foodValues.saturationModifier = 0.3;
 <harvestcraft:paneertikkamasalaitem>.foodValues.hunger = 9;
 <harvestcraft:paneertikkamasalaitem>.foodValues.saturationModifier = 0.3;
 <harvestcraft:hotandsoursoupitem>.foodValues.hunger = 8;
