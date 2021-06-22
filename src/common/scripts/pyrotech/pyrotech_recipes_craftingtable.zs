@@ -112,9 +112,6 @@ recipes.addShapeless("pyro_tinder_sticks",<pyrotech:tinder>,[<pyrotech:material:
 recipes.addShapeless("pyro_tinder_fiber",<pyrotech:tinder>,[<pyrotech:material:13>,<pyrotech:material:13>]);
 recipes.addShapeless("pyro_bow_drill", <pyrotech:bow_drill>,[<minecraft:bow>,<ore:stickWood>]);
 recipes.addShapeless("pyro_flint_and_tinder", <pyrotech:flint_and_tinder>,[<ore:cobblestone>,<pyrotech:tinder>,<minecraft:flint>]);
-recipes.addShapeless("rock_conversion",<minecraft:cobblestone>,[<pyrotech:rock:0>,<pyrotech:rock:0>,<pyrotech:rock:0>,<pyrotech:rock:0>]);
-recipes.addShapeless("rock_basalt_conversion",<undergroundbiomes:igneous_cobble:5>,[<pyrotech_compat:rock_igneous:5>,<pyrotech_compat:rock_igneous:5>,<pyrotech_compat:rock_igneous:5>,<pyrotech_compat:rock_igneous:5>]);
-recipes.addShapeless("sandrock_conversion",<minecraft:sandstone>,[<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>,<pyrotech:rock:6>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,

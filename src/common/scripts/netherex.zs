@@ -63,6 +63,7 @@ JEI.removeAndHide(<netherex:amethyst_ore>);
 
 JEI.removeAndHide(<netherex:nether_brick_wall>);
 JEI.removeAndHide(<netherex:red_nether_brick_wall>);
+recipes.removeByRecipeName("netherex:nether_brick");
 recipes.removeByRecipeName("netherex:quartz_block");
 recipes.removeByRecipeName("netherex:gloomy_nether_brick_2");
 recipes.removeByRecipeName("netherex:lively_nether_brick_2");

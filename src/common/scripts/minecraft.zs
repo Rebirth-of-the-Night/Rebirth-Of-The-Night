@@ -796,6 +796,17 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
     [null,<ore:stickMat>,null]
 ]);
 
+val ladderMats = <ore:ladderMat>;
+ladderMats.mirror(<ore:plankWood>);
+ladderMats.removeItems([<aether_legacy:skyroot_stick>,<betternether:nether_reed>]);
+
+recipes.remove(<minecraft:ladder>);
+recipes.addShaped("wooden_ladder",<minecraft:ladder>*3,[
+    [<ore:ladderMat>,null,<ore:ladderMat>],
+    [<ore:ladderMat>,<ore:ladderMat>,<ore:ladderMat>],
+    [<ore:ladderMat>,null,<ore:ladderMat>]
+]);
+
 JEI.removeAndHide(<minecraft:wooden_shovel>);
 JEI.removeAndHide(<minecraft:wooden_pickaxe>);
 JEI.removeAndHide(<minecraft:wooden_axe>);
