@@ -49,6 +49,27 @@ recipes.addShaped("crop_stake", <rustic:crop_stake>, [
     [MiniBlocks.getMiniBlock("moulding", <ore:plankWood>)]
 ]);
 
+// oredict herbs
+val alcHerb = <ore:alcHerb>;
+alcHerb.add(
+    <rustic:aloe_vera>,
+    <rustic:blood_orchid>,
+    <rustic:chamomile>,
+    <rustic:cohosh>,
+    <rustic:deathstalk_mushroom>,
+    <rustic:horsetail>,
+    <rustic:mooncap_mushroom>,
+    <rustic:wind_thistle>,
+    <rustic:cloudsbluff>,
+    <rustic:core_root>,
+    <rustic:ginseng>,
+    <rustic:marsh_mallow>,
+    <rustic:honeycomb>,
+    <rustic:olives>,
+    <rustic:ironberries>,
+    <rustic:chili_pepper>
+);
+
 // Iron and Gold Lanterns
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
