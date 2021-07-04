@@ -535,6 +535,22 @@ var backpack = <quark:backpack>;
 recipes.remove(<dungeontactics:bagofhoarding>);
 recipes.addShapeless("bag_of_hoarding",<dungeontactics:bagofhoarding>,[backpack,<minecraft:ender_chest>]);
 
+// Charm oredict
+
+val charm = <ore:charm>;
+charm.add(
+  <dungeontactics:charm_toxic>,
+  <dungeontactics:charm_sapping>,
+  <dungeontactics:charm_heavy>,
+  <dungeontactics:charm_emaciated>,
+  <dungeontactics:charm_unintelligible>,
+  <dungeontactics:charm_darkened>,
+  <dungeontactics:charm_famine>,
+  <dungeontactics:charm_barren>,
+  <dungeontactics:charm_searing>,
+  <dungeontactics:charm_bleak>
+);
+
 // Charm recipes
 
 RecipeBuilder.get("mage")
