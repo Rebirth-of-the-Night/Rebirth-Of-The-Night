@@ -187,6 +187,324 @@ gemAny.add(
 val inertRing = itemUtils.getItemsByRegexRegistryName("behgameon:ring_.*$(?<!53|61)") as IItemStack[];
 <ore:inertRing>.addItems(inertRing);
 
+######################################
+# An oredict definition for          #
+# rare modifiers for the purpose     #
+# of the Rarity! advancement         #
+######################################
+// This section may be expanded upon for other modifier types
+
+# First we define oredicts for all baubles, categorized by slot
+val baubleCurio = <ore:baubleCurio>;
+baubleCurio.add(
+  <minecraft:totem_of_undying>,
+  <artifacts:shiny_red_balloon>,
+  <artifacts:lucky_horseshoe>,
+  <artifacts:cobalt_shield>,
+  <behgameon:accessory_33>,
+  <behgameon:accessory_34>,
+  <behgameon:accessory_35>,
+  <behgameon:accessory_36>,
+  <behgameon:accessory_37>,
+  <behgameon:accessory_38>,
+  <behgameon:accessory_39>,
+  <behgameon:accessory_40>,
+  <behgameon:accessory_41>,
+  <behgameon:accessory_42>,
+  <behgameon:accessory_43>,
+  <behgameon:accessory_44>,
+  <behgameon:accessory_45>,
+  <behgameon:accessory_46>,
+  <behgameon:accessory_47>,
+  <behgameon:accessory_48>,
+  <behgameon:accessory_55>,
+  <behgameon:accessory_56>,
+  <totemexpansion:totem_falling>,
+  <totemexpansion:totem_lava>,
+  <totemexpansion:totem_breathing>,
+  <totemexpansion:totem_explode>,
+  <totemexpansion:totem_repair>,
+  <totemexpansion:totem_spelunking>,
+  <totemexpansion:totem_time>,
+  <totemexpansion:totem_recalling>
+);
+
+val baubleHead = <ore:baubleHead>;
+baubleHead.add(
+  <artifacts:snorkel>,
+  <artifacts:drinking_hat>,
+  <artifacts:night_vision_goggles>,
+  <bountifulbaubles:trinketmagiclenses>
+);
+
+val baubleBelt = <ore:baubleBelt>;
+baubleBelt.add(
+  <aeble:repulsion_belt>,
+  <aeble:luck_belt>,
+  <aeble:valkyrie_belt>,
+  <artifacts:whoopie_cushion>,
+  <artifacts:bottled_cloud>,
+  <artifacts:bottled_fart>,
+  <behgameon:accessory_1>,
+  <behgameon:accessory_2>,
+  <behgameon:accessory_3>,
+  <behgameon:accessory_9>,
+  <behgameon:accessory_10>,
+  <behgameon:accessory_11>,
+  <behgameon:accessory_12>,
+  <behgameon:accessory_13>,
+  <behgameon:accessory_14>,
+  <behgameon:accessory_15>,
+  <behgameon:accessory_16>,
+  <behgameon:accessory_17>,
+  <behgameon:accessory_18>,
+  <behgameon:accessory_19>,
+  <behgameon:accessory_20>,
+  <toolbelt:belt>
+);
+
+val baubleBody = <ore:baubleBody>;
+baubleBody.add(
+  <arcanearchives:gemsocket>,
+  <artifacts:star_cloak>,
+  <betteranimalsplus:wolf_cape_classic>,
+  <betteranimalsplus:wolf_cape_timber>,
+  <betteranimalsplus:wolf_cape_black>,
+  <betteranimalsplus:wolf_cape_arctic>,
+  <betteranimalsplus:wolf_cape_brown>,
+  <betteranimalsplus:wolf_cape_red>,
+  <betteranimalsplus:bear_cape_brown>,
+  <betteranimalsplus:bear_cape_black>,
+  <betteranimalsplus:bear_cape_kermode>,
+  <quark:backpack>,
+  <spartanweaponry:quiver_arrow>,
+  <spartanweaponry:quiver_arrow_moderate>,
+  <spartanweaponry:quiver_arrow_heavy>,
+  <spartanweaponry:quiver_bolt>,
+  <spartanweaponry:quiver_bolt_moderate>,
+  <spartanweaponry:quiver_bolt_heavy>
+);
+
+val baubleRing = <ore:baubleRing>;
+baubleRing.add(
+  <aeble:air_ring>,
+  <aeble:regeneration_ring>,
+  <aeble:bubble_ring>,
+  <artifacts:magma_stone>,
+  <artifacts:magma_stone>,
+  <artifacts:feral_claws>,
+  <artifacts:power_glove>,
+  <artifacts:mechanical_glove>,
+  <artifacts:fire_gauntlet>,
+  <artifacts:pocket_piston>,
+  <baubles:ring>,
+  <behgameon:ring_1>,
+  <behgameon:ring_2>,
+  <behgameon:ring_3>,
+  <behgameon:ring_4>,
+  <behgameon:ring_5>,
+  <behgameon:ring_6>,
+  <behgameon:ring_7>,
+  <behgameon:ring_8>,
+  <behgameon:ring_9>,
+  <behgameon:ring_10>,
+  <behgameon:ring_11>,
+  <behgameon:ring_12>,
+  <behgameon:ring_13>,
+  <behgameon:ring_14>,
+  <behgameon:ring_15>,
+  <behgameon:ring_16>,
+  <behgameon:ring_17>,
+  <behgameon:ring_18>,
+  <behgameon:ring_19>,
+  <behgameon:ring_20>,
+  <behgameon:ring_21>,
+  <behgameon:ring_22>,
+  <behgameon:ring_23>,
+  <behgameon:ring_24>,
+  <behgameon:ring_25>,
+  <behgameon:ring_26>,
+  <behgameon:ring_27>,
+  <behgameon:ring_28>,
+  <behgameon:ring_29>,
+  <behgameon:ring_30>,
+  <behgameon:ring_31>,
+  <behgameon:ring_32>,
+  <behgameon:ring_33>,
+  <behgameon:ring_34>,
+  <behgameon:ring_35>,
+  <behgameon:ring_36>,
+  <behgameon:ring_37>,
+  <behgameon:ring_38>,
+  <behgameon:ring_39>,
+  <behgameon:ring_40>,
+  <behgameon:ring_41>,
+  <behgameon:ring_42>,
+  <behgameon:ring_43>,
+  <behgameon:ring_44>,
+  <behgameon:ring_45>,
+  <behgameon:ring_46>,
+  <behgameon:ring_47>,
+  <behgameon:ring_48>,
+  <behgameon:ring_49>,
+  <behgameon:ring_50>,
+  <behgameon:ring_51>,
+  <behgameon:ring_52>,
+  <behgameon:ring_53>,
+  <behgameon:ring_54>,
+  <behgameon:ring_55>,
+  <behgameon:ring_56>,
+  <behgameon:ring_57>,
+  <behgameon:ring_58>,
+  <behgameon:ring_59>,
+  <behgameon:ring_60>,
+  <behgameon:ring_61>,
+  <behgameon:ring_62>,
+  <behgameon:ring_63>,
+  <behgameon:ring_64>,
+  <behgameon:ring_65>,
+  <behgameon:ring_66>,
+  <behgameon:ring_67>,
+  <behgameon:ring_68>,
+  <behgameon:ring_69>,
+  <behgameon:ring_70>,
+  <behgameon:ring_71>,
+  <behgameon:ring_72>,
+  <behgameon:ring_73>,
+  <behgameon:ring_74>,
+  <behgameon:ring_75>,
+  <behgameon:ring_76>,
+  <behgameon:ring_77>,
+  <behgameon:ring_78>,
+  <behgameon:ring_79>,
+  <behgameon:ring_80>,
+  <behgameon:ring_81>,
+  <behgameon:ring_82>,
+  <behgameon:ring_83>,
+  <behgameon:ring_84>,
+  <behgameon:ring_85>,
+  <behgameon:ring_86>,
+  <behgameon:ring_87>,
+  <behgameon:ring_88>,
+  <behgameon:ring_89>,
+  <behgameon:ring_90>,
+  <behgameon:ring_91>,
+  <behgameon:ring_92>,
+  <behgameon:ring_93>,
+  <behgameon:ring_94>,
+  <behgameon:ring_95>,
+  <behgameon:ring_96>,
+  <behgameon:ring_97>,
+  <behgameon:ring_98>,
+  <behgameon:ring_99>,
+  <behgameon:ring_100>,
+  <behgameon:ring_101>,
+  <behgameon:ring_102>,
+  <behgameon:ring_103>,
+  <behgameon:ring_104>,
+  <behgameon:ring_105>,
+  <behgameon:ring_106>,
+  <bountifulbaubles:ringoverclocking>,
+  <bountifulbaubles:ringfreeaction>,
+  <randomthings:lavacharm>,
+  <randomthings:obsidianskullring>,
+  <extraalchemy:potion_ring>
+);
+
+val baubleAmulet = <ore:baubleAmulet>;
+baubleAmulet.add(
+  <artifacts:panic_necklace>,
+  <behgameon:accessory_4>,
+  <behgameon:accessory_5>,
+  <behgameon:accessory_6>,
+  <behgameon:accessory_7>,
+  <behgameon:accessory_8>,
+  <behgameon:accessory_21>,
+  <behgameon:accessory_22>,
+  <behgameon:accessory_23>,
+  <behgameon:accessory_24>,
+  <behgameon:accessory_25>,
+  <behgameon:accessory_26>,
+  <behgameon:accessory_27>,
+  <behgameon:accessory_28>,
+  <behgameon:accessory_29>,
+  <behgameon:accessory_30>,
+  <behgameon:accessory_31>,
+  <behgameon:accessory_32>,
+  <behgameon:accessory_49>,
+  <behgameon:accessory_50>,
+  <behgameon:accessory_51>,
+  <behgameon:accessory_52>,
+  <behgameon:accessory_53>,
+  <behgameon:accessory_54>,
+  <bountifulbaubles:amuletsinempty>,
+  <bountifulbaubles:amuletsingluttony>,
+  <bountifulbaubles:amuletsinpride>,
+  <bountifulbaubles:amuletsinwrath>,
+  <defiledlands:phytoprostasia_amulet>,
+  <mod_lavacow:halo_necklace>
+);
+
+val baubleAny = <ore:baubleAny>;
+baubleAny.add(
+  <bountifulbaubles:trinketobsidianskull>,
+  <bountifulbaubles:trinketapple>,
+  <bountifulbaubles:trinketvitamins>,
+  <bountifulbaubles:trinketshulkerheart>,
+  <bountifulbaubles:trinketbezoar>,
+  <bountifulbaubles:trinketblackdragonscale>,
+  <bountifulbaubles:trinketmixeddragonscale>,
+  <bountifulbaubles:shieldankh>,
+  <bountifulbaubles:trinketbrokenheart>,
+  <cyclicmagic:glove_climb>,
+  <mod_lavacow:mootenheart>,
+  <mod_lavacow:dreamcatcher>
+);
+
+val baubleAll = <ore:baubleAll>;
+baubleAll.addAll(
+  <ore:baubleCurio>,
+  <ore:baubleHead>,
+  <ore:baubleBelt>,
+  <ore:baubleBody>,
+  <ore:baubleRing>,
+  <ore:baubleAmulet>,
+  <ore:baubleAny>
+);
+
+# Second, we define the rare modifiers
+/*
+val harvestersReap = {
+    "name": "Harvester's Reap",
+    "color": "dark_purple",
+    "weight": 10,
+    "attributes": [
+      {
+        "name": "generic.attackDamage",
+        "amount": 0.05,
+        "operation": 2
+      },
+      {
+        "name": "generic.reachDistance",
+        "amount": 0.5,
+        "operation": 0
+      },
+      {
+        "name": "potioncore.digSpeed",
+        "amount": 0.05,
+        "operation": 2
+      }
+    ]
+  } as IData;
+*/
+# Third, we oredict the rare modifier baubles
+/*
+val rareModifier = <ore:rareModifier>;
+rareModifier.addAll(
+  <ore:baubleAll>.withTag(harvestersReap)
+);
+*/
+
 // Potions
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <ore:ingotMythril>, <bountifulbaubles:potionrecall>);
