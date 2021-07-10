@@ -12,8 +12,6 @@ Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
 Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
 Mill.remove([<betterwithmods:material:44>]);
 
-// Cattail Flour
-Mill.addRecipe([<biomesoplenty:plant_1:4>],[<betterwithmods:raw_pastry:3>]);
 // Coke Powder
 Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
 //Soul Powder
