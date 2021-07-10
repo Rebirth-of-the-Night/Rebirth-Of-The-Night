@@ -676,3 +676,20 @@ mysticalSapling.add(
     <dynamictreesttf:treeoftimeseed>,
     <dynamictreesttf:treeoftransformationseed>
 );
+
+val mundaneScepter = <ore:mundaneScepter>;
+mundaneScepter.add(
+  <aether_legacy:cloud_staff>,
+  <iceandfire:lich_staff>,
+  <defiledlands:tears_flame>
+);
+
+val arcaneScepter = <ore:arcaneScepter>;
+arcaneScepter.add(
+  <mod_lavacow:sludge_wand>
+);
+
+val mysticalScepter = <ore:mysticalScepter>;
+mysticalScepter.add(
+  <twilightforest:lifedrain_scepter>
+);
