@@ -1,0 +1,16 @@
+setIcon(<arcaneworld:ritual_scroll>)
+setTitle("Incantation")
+setDescription("Words are magical.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysVisible()
+hideLines()
+setFrameType("GOAL")
+setCompletedIconColor(140,240,50)
+// (horizontal, vertical)
+setPos(-400,-400)

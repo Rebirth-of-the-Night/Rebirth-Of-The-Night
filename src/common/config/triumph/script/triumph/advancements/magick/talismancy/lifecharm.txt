@@ -1,0 +1,13 @@
+setIcon(<twilightforest:charm_of_life_2>)
+setTitle("Life Is Precious")
+setDescription("Craft a Charm of Life II.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria = addCriteria("charmLifeCraft", "triumph:player_crafted_item")
+criteria.setItem(<twilightforest:charm_of_life_2>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-260,400)

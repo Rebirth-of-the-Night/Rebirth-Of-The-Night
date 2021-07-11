@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:scepter_base_mundane>)
+setTitle("Mundane Scepter")
+setDescription("Craft a Mundane Scepter")
+
+addParent("triumph:advancements/magick/evocation/evocation")
+
+criteria = addCriteria("mundaneScepterCraft", "triumph:player_crafted_item")
+criteria.setItem(<ore:mundaneScepter>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,-235)

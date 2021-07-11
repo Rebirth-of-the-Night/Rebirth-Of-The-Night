@@ -1,0 +1,26 @@
+setIcon(<contenttweaker:wand_base_arcane>)
+setTitle("Arcane Wand")
+setDescription("Craft an arcane wand.")
+
+addParent("triumph:advancements/magick/wandlore/wandlore")
+
+criteria1 = addCriteria("disorientWandCraft", "triumph:player_crafted_item")
+criteria1.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:disorient:0, nbt:{ench:[{lvl:0s,id:38s}]}>)
+
+criteria2 = addCriteria("restoWandCraft", "triumph:player_crafted_item")
+criteria2.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:restoration:0, nbt:{ench:[{lvl:0s,id:27s}]}>)
+
+criteria3 = addCriteria("witherWandCraft", "triumph:player_crafted_item")
+criteria3.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:wither:0, nbt:{ench:[{lvl:0s,id:40s}]}>)
+
+criteria4 = addCriteria("companionWandCraft", "triumph:player_crafted_item")
+criteria4.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:companion:0, nbt:{ench:[{lvl:0s,id:45s}]}>)
+
+criteria5 = addCriteria("pmWandCraft", "triumph:player_crafted_item")
+criteria5.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:pinmissile:0, nbt:{ench:[{lvl:0s,id:43s}]}>)
+
+setRequirements("any")
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(45,0)

@@ -1,0 +1,25 @@
+setIcon(<contenttweaker:dummy_wand_satiate>)
+setTitle("Mundane Wand Collection")
+setDescription("Obtain all mundane wands.")
+
+addParent("triumph:advancements/magick/wandlore/mundanewand")
+
+criteria1 = addCriteria("cookWand", "minecraft:inventory_changed")
+criteria1.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:cooking:0, nbt:{ench:[{lvl:0s,id:30s}]}>)
+
+criteria2 = addCriteria("freezeWand", "minecraft:inventory_changed")
+criteria2.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:freezing:0, nbt:{ench:[{lvl:0s,id:31s}]}>)
+
+criteria3 = addCriteria("punishWand", "minecraft:inventory_changed")
+criteria3.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:punish:0, nbt:{ench:[{lvl:0s,id:39s}]}>)
+
+criteria4 = addCriteria("satiateWand", "minecraft:inventory_changed")
+criteria4.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:satiate:0, nbt:{ench:[{lvl:0s,id:28s}]}>)
+
+setRequirements("all")
+
+setFrameType("CHALLENGE")
+drawDirectLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,-35)

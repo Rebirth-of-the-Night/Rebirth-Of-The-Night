@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:vis_speck>)
+setTitle("Vis Specks")
+setDescription("Obtain a vis speck")
+
+addParent("triumph:advancements/magick/alchemy/alchemy")
+
+criteria = addCriteria("Vis Speck", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:vis_speck>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,200)

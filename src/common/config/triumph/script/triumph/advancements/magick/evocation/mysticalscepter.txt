@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:scepter_base_mystical>)
+setTitle("Mystical Scepter")
+setDescription("Craft a Mystical Scepter")
+
+addParent("triumph:advancements/magick/evocation/evocation")
+
+criteria = addCriteria("mysticalScepterCraft", "triumph:player_crafted_item")
+criteria.setItem(<ore:mysticalScepter>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(80,-235)

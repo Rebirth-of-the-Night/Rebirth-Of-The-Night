@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:sapling_2:3>)
+setTitle("The Roots of Magick")
+setDescription("Entwined deep in the crust, the roots of trees draw upon the leylines of our star. Plant a sapling and investigate its properties.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with planting any mundane sapling
+criteria = addCriteria("Mundane Sapling", "minecraft:placed_block")
+criteria.setBlock(<ore:mundaneSapling>)
+
+alwaysVisible()
+setShowToast(false)
+setAnnounceToChat(false)
+// (horizontal, vertical)
+setPos(-365,-35)

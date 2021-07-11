@@ -1,0 +1,13 @@
+setIcon(<minecraft:beacon>)
+setTitle("Bask in the Light.")
+setDescription("Craft a beacon.")
+
+
+addParent("triumph:advancements/magick/warding/warding")
+
+criteria = addCriteria("beaconCraft", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:beacon>)
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(10,-365)

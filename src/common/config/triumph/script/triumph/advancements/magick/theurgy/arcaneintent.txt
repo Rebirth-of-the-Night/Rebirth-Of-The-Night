@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:arcane_focus>)
+setTitle("Arcane Awakening")
+setDescription("Awaken an Arcane Focus")
+
+addParent("triumph:advancements/magick/theurgy/theurgy")
+
+criteria = addCriteria("arcaneFocusAwaken", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:arcane_focus>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(45,200)

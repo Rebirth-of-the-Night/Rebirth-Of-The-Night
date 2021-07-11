@@ -1,0 +1,13 @@
+setIcon(<minecraft:enchanting_table>)
+setTitle("Enchanted!")
+setDescription("Craft an enchanting table.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("Enchanting Table", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:enchanting_table>)
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(-365,-400)

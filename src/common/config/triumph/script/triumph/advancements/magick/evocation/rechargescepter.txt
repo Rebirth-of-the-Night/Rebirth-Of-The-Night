@@ -1,0 +1,12 @@
+setIcon(<betterwithaddons:ancestry_bottle>)
+setTitle("Recharge")
+setDescription("Recharge a Scepter with Spirits.")
+
+addParent("triumph:advancements/magick/evocation/evocation")
+
+criteria = addCriteria("rechargeScepter", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:info>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(45,-200)

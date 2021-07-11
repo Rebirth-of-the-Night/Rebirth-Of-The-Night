@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:scepter_base_arcane>)
+setTitle("Arcane Scepter")
+setDescription("Craft an Arcane Scepter")
+
+addParent("triumph:advancements/magick/evocation/evocation")
+
+criteria = addCriteria("arcaneScepterCraft", "triumph:player_crafted_item")
+criteria.setItem(<ore:arcaneScepter>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(45,-235)

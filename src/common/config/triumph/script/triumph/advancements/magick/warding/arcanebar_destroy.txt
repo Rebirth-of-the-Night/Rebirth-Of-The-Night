@@ -1,0 +1,20 @@
+setIcon(<dimstack:bedrock>)
+setTitle("Arcane Danger.")
+setDescription("Destroy an Arcane Barrier.")
+
+
+addParent("triumph:advancements/magick/warding/warding")
+
+criteria1 = addCriteria("arcaneBarrierFocus", "triumph:right_click_block")
+criteria1.setBlock(<dimstack:bedrock>)
+criteria1.setItem(<contenttweaker:arcane_focus>)
+
+criteria2 = addCriteria("arcaneBarrierBomb", "triumph:right_click_block")
+criteria2.setBlock(<dimstack:bedrock>)
+criteria2.setItem(<contenttweaker:magic_bomb>)
+
+setRequirements("any")
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(10,-435)

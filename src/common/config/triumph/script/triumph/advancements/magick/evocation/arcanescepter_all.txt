@@ -1,0 +1,14 @@
+setIcon(<mod_lavacow:sludge_wand>)
+setTitle("Arcane Scepter All")
+setDescription("Craft All Arcane Scepters")
+
+addParent("triumph:advancements/magick/evocation/arcanescepter")
+
+criteria = addCriteria("arcaneScepterAll", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:info>)
+
+setFrameType("CHALLENGE")
+drawDirectLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(45,-270)

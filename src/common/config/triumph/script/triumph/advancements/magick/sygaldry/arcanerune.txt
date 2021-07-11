@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:strength_rune>)
+setTitle("Arcane Rune")
+setDescription("Craft an arcane rune.")
+
+
+addParent("triumph:advancements/magick/sygaldry/mundanerune")
+
+criteria = addCriteria("Arcane Rune", "triumph:player_crafted_item")
+criteria.setItem(<ore:arcaneRune>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-295,-200)

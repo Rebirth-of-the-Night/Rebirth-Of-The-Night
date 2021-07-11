@@ -1,0 +1,12 @@
+setIcon(<qualitytools:reforging_station>)
+setTitle("Forging Fates")
+setDescription("Craft a reforging station.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria = addCriteria("reforgeStationCraft", "triumph:player_crafted_item")
+criteria.setItem(<qualitytools:reforging_station>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,435)

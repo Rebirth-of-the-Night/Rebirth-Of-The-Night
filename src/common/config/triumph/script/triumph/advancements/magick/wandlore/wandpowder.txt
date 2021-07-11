@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:magic_powder>)
+setTitle("Wand powder")
+setDescription("Obtain wand powder.")
+
+addParent("triumph:advancements/magick/wandlore/wandlore")
+
+criteria = addCriteria("powderGet", "minecraft:inventory_changed")
+criteria.addItem(<dungeontactics:magic_powder>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,35)

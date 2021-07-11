@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:nether_rune>)
+setTitle("Mystical Rune")
+setDescription("Craft a mystical rune.")
+
+
+addParent("triumph:advancements/magick/sygaldry/arcanerune")
+
+criteria = addCriteria("Mystical Rune", "triumph:player_crafted_item")
+criteria.setItem(<ore:mysticalRune>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-260,-200)

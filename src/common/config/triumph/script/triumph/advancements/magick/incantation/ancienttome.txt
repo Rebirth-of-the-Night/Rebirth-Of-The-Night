@@ -1,0 +1,13 @@
+setIcon(<quark:ancient_tome>)
+setTitle("Words of Awakening")
+setDescription("Obtain an ancient tome.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("Ancient Tome", "minecraft:inventory_changed")
+criteria.addItem(<quark:ancient_tome>)
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(-330,-435)

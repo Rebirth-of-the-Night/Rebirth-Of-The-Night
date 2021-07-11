@@ -1,0 +1,12 @@
+setIcon(<minecraft:cauldron>)
+setTitle("Toil and Trouble")
+setDescription("Craft a cauldron.")
+
+addParent("triumph:advancements/magick/alchemy/alchemy")
+
+criteria = addCriteria("Cauldron", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:cauldron>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,165)

@@ -1,0 +1,12 @@
+setIcon(<rustic:condenser_advanced>)
+setTitle("Retort-acle!")
+setDescription("Craft an alchemical condenser.")
+
+addParent("triumph:advancements/magick/alchemy/alchemy")
+
+criteria = addCriteria("Alc Condenser", "triumph:player_crafted_item")
+criteria.setItem(<rustic:condenser>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,235)

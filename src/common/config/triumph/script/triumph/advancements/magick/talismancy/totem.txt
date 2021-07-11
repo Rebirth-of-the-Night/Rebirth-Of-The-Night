@@ -1,0 +1,12 @@
+setIcon(<minecraft:totem_of_undying>)
+setTitle("Anchor State")
+setDescription("Craft a totem.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria = addCriteria("Totem", "triumph:player_crafted_item")
+criteria.setItem(<ore:totem>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,365)

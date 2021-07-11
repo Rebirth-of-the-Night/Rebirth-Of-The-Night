@@ -1,0 +1,12 @@
+setIcon(<arcaneworld:ritual_table>)
+setTitle("The Rituals of the World")
+setDescription("Craft a Ritual Table")
+
+addParent("triumph:advancements/magick/theurgy/theurgy")
+
+criteria = addCriteria("ritualTableCraft", "triumph:player_crafted_item")
+criteria.setItem(<arcaneworld:ritual_table>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,200)

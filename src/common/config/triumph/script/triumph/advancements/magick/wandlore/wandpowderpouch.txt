@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:magic_pouch>)
+setTitle("Wand powder pouch")
+setDescription("Craft a wand powder pouch.")
+
+addParent("triumph:advancements/magick/wandlore/wandlore")
+
+criteria = addCriteria("pouchCraft", "triumph:player_crafted_item")
+criteria.setItem(<dungeontactics:magic_pouch>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(45,35)

@@ -1,0 +1,14 @@
+setIcon(<lifescroll:spawnscroll>)
+setTitle("Ancestral Recall")
+setDescription("Anchor your soul to your current location.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("Newlife Scroll", "triumph:right_click_item")
+criteria.setItem(<lifescroll:spawnscroll>)
+
+hideLines()
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(-330,-365)

@@ -1,0 +1,23 @@
+setIcon(<contenttweaker:wand_base_mundane>)
+setTitle("Mundane Wand")
+setDescription("Craft a mundane wand.")
+
+addParent("triumph:advancements/magick/wandlore/wandlore")
+
+criteria1 = addCriteria("cookWandCraft", "triumph:player_crafted_item")
+criteria1.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:cooking:0, nbt:{ench:[{lvl:0s,id:30s}]}>)
+
+criteria2 = addCriteria("freezeWandCraft", "triumph:player_crafted_item")
+criteria2.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:freezing:0, nbt:{ench:[{lvl:0s,id:31s}]}>)
+
+criteria3 = addCriteria("punishWandCraft", "triumph:player_crafted_item")
+criteria3.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:punish:0, nbt:{ench:[{lvl:0s,id:39s}]}>)
+
+criteria4 = addCriteria("satiateWandCraft", "triumph:player_crafted_item")
+criteria4.setItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:satiate:0, nbt:{ench:[{lvl:0s,id:28s}]}>)
+
+setRequirements("any")
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,0)

@@ -1,0 +1,16 @@
+setIcon(<golems:golem_head>)
+setTitle("Golemancy")
+setDescription("Animating things to life.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysVisible()
+hideLines()
+setFrameType("GOAL")
+setCompletedIconColor(255,165,30)
+// (horizontal, vertical)
+setPos(-25,400)

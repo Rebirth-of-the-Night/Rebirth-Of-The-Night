@@ -1,0 +1,15 @@
+setIcon(<minecraft:enchanted_book>)
+setTitle("Saving for Later")
+setDescription("Obtain an enchanted book.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("Enchanted Book", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:enchanted_book>)
+
+alwaysVisible(true)
+setShowToast(false)
+setAnnounceToChat(false)
+// (horizontal, vertical)
+setPos(-365,-435)

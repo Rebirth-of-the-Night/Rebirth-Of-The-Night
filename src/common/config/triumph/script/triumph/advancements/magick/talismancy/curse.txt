@@ -1,0 +1,60 @@
+setIcon(<fairylights:light:112>)
+setTitle("Cursed")
+setDescription("Obtain a talisman with a cursed modifier.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria1 = addCriteria("Curse1", "minecraft:inventory_changed")
+criteria1.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Sword's Rust"}}>)
+
+criteria2 = addCriteria("Curse2", "minecraft:inventory_changed")
+criteria2.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Slime's Sluggishness"}}>)
+
+criteria3 = addCriteria("Curse3", "minecraft:inventory_changed")
+criteria3.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Coward's Retreat"}}>)
+
+criteria4 = addCriteria("Curse4", "minecraft:inventory_changed")
+criteria4.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Arrow's Splinter"}}>)
+
+criteria5 = addCriteria("Curse5", "minecraft:inventory_changed")
+criteria5.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Wizard's Fizzle"}}>)
+
+criteria6 = addCriteria("Curse6", "minecraft:inventory_changed")
+criteria6.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Ooze's Corrosion"}}>)
+
+criteria7 = addCriteria("Curse7", "minecraft:inventory_changed")
+criteria7.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Mace's Dent"}}>)
+
+criteria8 = addCriteria("Curse8", "minecraft:inventory_changed")
+criteria8.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Tempter's Masochism"}}>)
+
+criteria9 = addCriteria("Curse9", "minecraft:inventory_changed")
+criteria9.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Featherweight's Frailty"}}>)
+
+criteria10 = addCriteria("Curse10", "minecraft:inventory_changed")
+criteria10.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Plague's Malignance"}}>)
+
+criteria11 = addCriteria("Curse11", "minecraft:inventory_changed")
+criteria11.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Occultist's Hex"}}>)
+
+criteria12 = addCriteria("Curse12", "minecraft:inventory_changed")
+criteria12.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Climber's Plummet"}}>)
+
+criteria13 = addCriteria("Curse13", "minecraft:inventory_changed")
+criteria13.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Mirror's Shatter"}}>)
+
+criteria14 = addCriteria("Curse14", "minecraft:inventory_changed")
+criteria14.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Gravity's Hold"}}>)
+
+criteria15 = addCriteria("Curse15", "minecraft:inventory_changed")
+criteria15.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Miner's Fatigue"}}>)
+
+criteria16 = addCriteria("Curse16", "minecraft:inventory_changed")
+criteria16.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Quicksand's Binding"}}>)
+
+setRequirements("any")
+
+alwaysVisible()
+hideLines()
+// (horizontal, vertical)
+setPos(-260,435)

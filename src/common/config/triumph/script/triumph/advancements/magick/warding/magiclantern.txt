@@ -1,0 +1,13 @@
+setIcon(<dungeontactics:lantern_magic>)
+setTitle("Interdiction Lantern.")
+setDescription("Craft a Magic Lantern.")
+
+
+addParent("triumph:advancements/magick/warding/warding")
+
+criteria = addCriteria("magiclanternCraft", "triumph:player_crafted_item")
+criteria.setItem(<dungeontactics:lantern_magic>)
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(10,-330)

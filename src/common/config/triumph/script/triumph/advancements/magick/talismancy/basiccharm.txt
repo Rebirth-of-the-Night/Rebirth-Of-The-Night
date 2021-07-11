@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:charm_toxic>)
+setTitle("Charming")
+setDescription("Use a charm to ward off a status ailment.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria = addCriteria("Charm Use", "triumph:right_click_item")
+criteria.setItem(<ore:charm>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,400)

@@ -1,0 +1,17 @@
+setIcon(<rustic:elixir>)
+setTitle("Alchemy")
+setDescription("The brewing of tinctures and potions.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+setFrameType("GOAL")
+alwaysVisible()
+hideLines()
+setCompletedIconColor(115,215,240)
+// (horizontal, vertical)
+setPos(-400,200)

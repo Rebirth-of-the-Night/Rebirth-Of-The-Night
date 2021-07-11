@@ -1,0 +1,14 @@
+setIcon(<contenttweaker:blank_rune>)
+setTitle("Empowerment")
+setDescription("Recharge a rune.")
+
+
+addParent("triumph:advancements/magick/sygaldry/runicworkbench")
+
+criteria = addCriteria("Recharge", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:info>)
+
+hideLines()
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(-330,-235)

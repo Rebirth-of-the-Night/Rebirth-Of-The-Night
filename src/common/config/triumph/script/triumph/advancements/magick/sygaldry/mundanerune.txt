@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:air_rune>)
+setTitle("Mundane Rune")
+setDescription("Craft a mundane rune.")
+
+
+addParent("triumph:advancements/magick/sygaldry/runicworkbench")
+
+criteria = addCriteria("Mundane Rune", "triumph:player_crafted_item")
+criteria.setItem(<ore:mundaneRune>)
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(-330,-200)

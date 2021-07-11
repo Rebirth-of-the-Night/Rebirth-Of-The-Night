@@ -1,0 +1,14 @@
+setIcon(<corpsecomplex:scroll>)
+setTitle("Grave Mistake")
+setDescription("Return to your corpse using a Grave Scroll.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("Enchanting Table", "triumph:right_click_item")
+criteria.setItem(<corpsecomplex:scroll>)
+
+hideLines()
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(-295,-365)

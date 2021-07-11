@@ -1,0 +1,15 @@
+setIcon(<toroquest:scroll_wind>)
+setTitle("The Power of Parchments")
+setDescription("Imbue a scroll.")
+
+
+addParent("triumph:advancements/magick/incantation/incantation")
+
+criteria = addCriteria("Imbue Scroll", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:info>)
+
+alwaysVisible(true)
+setShowToast(false)
+setAnnounceToChat(false)
+// (horizontal, vertical)
+setPos(-365,-365)

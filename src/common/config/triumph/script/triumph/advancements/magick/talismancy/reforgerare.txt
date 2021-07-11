@@ -1,0 +1,86 @@
+setIcon(<arcaneworld:amethyst>)
+setTitle("A Rarity")
+setDescription("Obtain a talisman with a rare modifier.")
+
+addParent("triumph:advancements/magick/talismancy/reforgingstation")
+
+criteria1 = addCriteria("RareMod1", "minecraft:inventory_changed")
+criteria1.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Hydra's Persistence"}}>)
+
+criteria2 = addCriteria("RareMod2", "minecraft:inventory_changed")
+criteria2.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Ghast Queen's Cry"}}>)
+
+criteria3 = addCriteria("RareMod3", "minecraft:inventory_changed")
+criteria3.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Alpha Yeti's Tantrum"}}>)
+
+criteria4 = addCriteria("RareMod4", "minecraft:inventory_changed")
+criteria4.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Ur-Ghast's Fury"}}>)
+
+criteria5 = addCriteria("RareMod5", "minecraft:inventory_changed")
+criteria5.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Light's Blessing"}}>)
+
+criteria6 = addCriteria("RareMod6", "minecraft:inventory_changed")
+criteria6.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Naga's Swiftness"}}>)
+
+criteria7 = addCriteria("RareMod7", "minecraft:inventory_changed")
+criteria7.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Lich's Bane"}}>)
+
+criteria8 = addCriteria("RareMod8", "minecraft:inventory_changed")
+criteria8.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Sun Spirit's Heat"}}>)
+
+criteria9 = addCriteria("RareMod9", "minecraft:inventory_changed")
+criteria9.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Valkyrie's Victory"}}>)
+
+criteria10 = addCriteria("RareMod10", "minecraft:inventory_changed")
+criteria10.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Slider's Gaze"}}>)
+
+criteria11 = addCriteria("RareMod11", "minecraft:inventory_changed")
+criteria11.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Quazar's Pulse"}}>)
+
+criteria12 = addCriteria("RareMod12", "minecraft:inventory_changed")
+criteria12.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Harvester's Reap"}}>)
+
+criteria13 = addCriteria("RareMod13", "minecraft:inventory_changed")
+criteria13.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Barako's Beam"}}>)
+
+criteria14 = addCriteria("RareMod14", "minecraft:inventory_changed")
+criteria14.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Wroughtnaught's Vigilance"}}>)
+
+criteria15 = addCriteria("RareMod15", "minecraft:inventory_changed")
+criteria15.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Overlord's Tower"}}>)
+
+criteria16 = addCriteria("RareMod16", "minecraft:inventory_changed")
+criteria16.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Wither's Decay"}}>)
+
+criteria17 = addCriteria("RareMod17", "minecraft:inventory_changed")
+criteria17.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Snow Queen's Glacier"}}>)
+
+criteria18 = addCriteria("RareMod18", "minecraft:inventory_changed")
+criteria18.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Champion's Dominance"}}>)
+
+criteria19 = addCriteria("RareMod19", "minecraft:inventory_changed")
+criteria19.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Void's Call"}}>)
+
+criteria20 = addCriteria("RareMod20", "minecraft:inventory_changed")
+criteria20.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Phantom's Illusion"}}>)
+
+criteria21 = addCriteria("RareMod21", "minecraft:inventory_changed")
+criteria21.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Mino's Charge"}}>)
+
+criteria22 = addCriteria("RareMod22", "minecraft:inventory_changed")
+criteria22.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Frostmaw's Chill"}}>)
+
+criteria23 = addCriteria("RareMod23", "minecraft:inventory_changed")
+criteria23.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Prophet's Creed"}}>)
+
+criteria24 = addCriteria("RareMod24", "minecraft:inventory_changed")
+criteria24.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Seelie's Legacy"}}>)
+
+criteria25 = addCriteria("RareMod25", "minecraft:inventory_changed")
+criteria25.addItem(<ore:baubleAll, nbt:{Quality:{Name:"Ender Dragon's Breath"}}>)
+
+setRequirements("any")
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,435)

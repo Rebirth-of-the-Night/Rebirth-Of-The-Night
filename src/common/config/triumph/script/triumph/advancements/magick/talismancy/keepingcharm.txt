@@ -1,0 +1,13 @@
+setIcon(<twilightforest:charm_of_keeping_3>)
+setTitle("Keepsakes")
+setDescription("Craft a Charm of Keeping II.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria = addCriteria("charmKeepCraft", "triumph:player_crafted_item")
+criteria.setItem(<twilightforest:charm_of_keeping_3>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-295,400)

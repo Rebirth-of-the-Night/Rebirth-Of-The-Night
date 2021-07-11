@@ -1,0 +1,13 @@
+setIcon(<wards:ward>)
+setTitle("Wards of Advice.")
+setDescription("Craft a ward.")
+
+
+addParent("triumph:advancements/magick/warding/warding")
+
+criteria = addCriteria("wardCraft", "triumph:player_crafted_item")
+criteria.setItem(<wards:ward>)
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(10,-400)

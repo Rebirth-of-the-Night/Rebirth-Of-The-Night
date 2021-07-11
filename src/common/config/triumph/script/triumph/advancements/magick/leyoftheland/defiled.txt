@@ -1,0 +1,40 @@
+setIcon(<defiledlands:foul_slime>)
+setTitle("Defilement")
+setDescription("Investigate the growing defilement in the world.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+
+criteria = addCriteria("DefiledLands1", "minecraft:location")
+criteria.setBiome("defiledlands:ice_plains_defiled")
+
+criteria = addCriteria("DefiledLands2", "minecraft:location")
+criteria.setBiome("defiledlands:swamp_defiled")
+
+criteria = addCriteria("DefiledLands3", "minecraft:location")
+criteria.setBiome("defiledlands:hills_defiled")
+
+criteria = addCriteria("DefiledLands4", "minecraft:location")
+criteria.setBiome("defiledlands:forest_vilespine")
+
+criteria = addCriteria("DefiledLands5", "minecraft:location")
+criteria.setBiome("defiledlands:forest_tenebra")
+
+criteria = addCriteria("DefiledLands6", "minecraft:location")
+criteria.setBiome("defiledlands:plains_defiled")
+
+criteria = addCriteria("DefiledLands7", "minecraft:location")
+criteria.setBiome("defiledlands:desert_defiled")
+
+addRequirements(["DefiledLands1"])
+addRequirements(["DefiledLands2"])
+addRequirements(["DefiledLands3"])
+addRequirements(["DefiledLands4"])
+addRequirements(["DefiledLands5"])
+addRequirements(["DefiledLands6"])
+addRequirements(["DefiledLands7"])
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-295,70)

@@ -1,0 +1,12 @@
+setIcon(<nyx:lunar_water_bottle>)
+setTitle("In The Name Of The Moon!")
+setDescription("Imbue water with lunar radiance.")
+
+addParent("triumph:advancements/magick/alchemy/cauldron")
+
+criteria = addCriteria("Lunar Water", "minecraft:inventory_changed")
+criteria.addItem(<nyx:lunar_water_bottle>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,165)

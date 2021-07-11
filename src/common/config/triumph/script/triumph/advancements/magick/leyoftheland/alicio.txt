@@ -1,0 +1,14 @@
+setIcon(<betterwithaddons:sapling_luretree>)
+setTitle("Blood Letter")
+setDescription("Tales tell of a tree that cries blood and lures animals to itself. Discover, plant and feed one.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with feeding an alicio
+criteria = addCriteria("Alicio Planted", "minecraft:placed_block")
+criteria.setBlock(<betterwithaddons:sapling_luretree>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-260,-35)

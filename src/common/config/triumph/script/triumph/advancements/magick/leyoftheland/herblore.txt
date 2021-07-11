@@ -1,0 +1,12 @@
+setIcon(<rustic:marsh_mallow>)
+setTitle("Herblore")
+setDescription("Herbs are useful resources of the land. Obtain some herbs for further study.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+criteria = addCriteria("Herb", "minecraft:inventory_changed")
+criteria.addItem(<ore:alcHerb>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,0)

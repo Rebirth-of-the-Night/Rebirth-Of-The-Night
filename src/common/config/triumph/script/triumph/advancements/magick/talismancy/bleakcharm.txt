@@ -1,0 +1,12 @@
+setIcon(<dungeontactics:charm_bleak>)
+setTitle("A Bleak Outlook")
+setDescription("Craft a bleak charm.")
+
+addParent("triumph:advancements/magick/talismancy/talismancy")
+
+criteria = addCriteria("Bleak Charm", "triumph:player_crafted_item")
+criteria.setItem(<dungeontactics:charm_bleak>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,400)

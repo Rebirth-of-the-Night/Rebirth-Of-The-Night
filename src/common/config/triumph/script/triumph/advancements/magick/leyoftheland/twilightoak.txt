@@ -1,0 +1,14 @@
+setIcon(<twilightforest:twilight_sapling:4>)
+setTitle("The Leaves Have Secrets")
+setDescription("Druids of old used to stash reagents in tall twilight oaks. Find, plant, and explore one.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with feeding an alicio
+criteria = addCriteria("Twilight Planted", "minecraft:placed_block")
+criteria.setBlock(<twilightforest:twilight_sapling:4>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-225,-35)

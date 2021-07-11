@@ -1,0 +1,12 @@
+setIcon(<naturescompass:naturescompass>)
+setTitle("Nature's Call")
+setDescription("Craft a Nature's Compass.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+criteria = addCriteria("Nature Compass", "triumph:player_crafted_item")
+criteria.setItem(<naturescompass:naturescompass>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-365,70)

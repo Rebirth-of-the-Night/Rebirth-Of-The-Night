@@ -1,0 +1,14 @@
+setIcon(<quark:rune:16>)
+setTitle("Prideful")
+setDescription("Craft a rainbow rune.")
+
+
+addParent("triumph:advancements/magick/sygaldry/mundanerune")
+
+criteria = addCriteria("Rainbow Rune", "triumph:player_crafted_item")
+criteria.setItem(<quark:rune:16>)
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-295,-235)

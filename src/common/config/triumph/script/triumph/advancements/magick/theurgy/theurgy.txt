@@ -1,0 +1,16 @@
+setIcon(<arcaneworld:glowing_chorus>)
+setTitle("Theurgy")
+setDescription("Rituals to change the world around you.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysVisible()
+hideLines()
+setFrameType("GOAL")
+setCompletedIconColor(215,30,255)
+// (horizontal, vertical)
+setPos(-25,200)

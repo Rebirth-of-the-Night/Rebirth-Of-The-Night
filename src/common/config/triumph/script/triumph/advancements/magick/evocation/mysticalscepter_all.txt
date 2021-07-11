@@ -1,0 +1,14 @@
+setIcon(<iceandfire:cockatrice_scepter>)
+setTitle("Mystical Scepter All")
+setDescription("Craft All Mystical Scepters")
+
+addParent("triumph:advancements/magick/evocation/mysticalscepter")
+
+criteria = addCriteria("mysticalScepterAll", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:info>)
+
+setFrameType("CHALLENGE")
+drawDirectLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(80,-270)

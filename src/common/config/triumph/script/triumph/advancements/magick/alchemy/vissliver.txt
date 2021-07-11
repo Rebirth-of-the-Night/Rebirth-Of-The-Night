@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:vis_sliver>)
+setTitle("Vis Slivers")
+setDescription("Obtain a vis sliver")
+
+addParent("triumph:advancements/magick/alchemy/visspeck")
+
+criteria = addCriteria("Vis Sliver", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:vis_sliver>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-295,200)

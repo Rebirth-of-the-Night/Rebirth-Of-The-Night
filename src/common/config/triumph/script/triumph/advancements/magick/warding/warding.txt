@@ -1,0 +1,16 @@
+setIcon(<twilightforest:block_storage:4>)
+setTitle("Warding")
+setDescription("Magick barriers and effects to ward off trespassers or protect allies.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysVisible()
+hideLines()
+setFrameType("GOAL")
+setCompletedIconColor(245,235,50)
+// (horizontal, vertical)
+setPos(-25,-400)

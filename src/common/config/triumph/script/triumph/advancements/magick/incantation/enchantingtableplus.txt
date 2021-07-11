@@ -1,0 +1,14 @@
+setIcon(<eplus:advanced_table>)
+setTitle("The Truth of Word")
+setDescription("Upgrade an enchanting table.")
+
+
+addParent("triumph:advancements/magick/incantation/enchantingtable")
+
+criteria = addCriteria("Enchanting Table Plus", "triumph:right_click_block")
+criteria.setBlock(<minecraft:enchanting_table>)
+criteria.setItem(<eplus:table_upgrade>)
+
+alwaysVisible(true)
+// (horizontal, vertical)
+setPos(-330,-400)

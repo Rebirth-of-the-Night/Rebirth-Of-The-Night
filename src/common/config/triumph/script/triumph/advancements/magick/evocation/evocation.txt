@@ -1,0 +1,16 @@
+setIcon(<iceandfire:lich_staff>)
+setTitle("Evocation")
+setDescription("Call upon the spirits of the world to awaken latent powers.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysVisible()
+hideLines()
+setFrameType("GOAL")
+setCompletedIconColor(30,215,200)
+// (horizontal, vertical)
+setPos(-25,-200)

@@ -1,0 +1,13 @@
+setIcon(<dynamictreesbop:umbranseed>)
+setTitle("Gloom and Doom")
+setDescription("Investigate the ominous woods.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+criteria = addCriteria("Ominous Woods", "minecraft:location")
+criteria.setBiome("biomesoplenty:ominous_woods")
+
+hideLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-260,70)

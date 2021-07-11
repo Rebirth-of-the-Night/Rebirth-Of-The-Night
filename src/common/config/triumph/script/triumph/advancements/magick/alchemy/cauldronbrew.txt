@@ -1,0 +1,14 @@
+setIcon(<minecraft:potion>)
+setTitle("Splish Splash")
+setDescription("Make something by tossing it into a cauldron.")
+
+addParent("triumph:advancements/magick/alchemy/cauldron")
+
+criteria = addCriteria("Cauldron Brew", "triumph:right_click_block")
+criteria.setBlock(<minecraft:cauldron>)
+criteria.setItem(<minecraft:water_bucket>)
+
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,130)

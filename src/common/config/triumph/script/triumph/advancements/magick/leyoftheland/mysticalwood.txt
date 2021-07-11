@@ -1,0 +1,13 @@
+setIcon(<twilightforest:twilight_sapling:6>)
+setTitle("The Ancients Of Arcturus")
+setDescription("Find and plant a mystical sapling. They say the latent magick within are tapped directly from the witches of ancient.")
+
+addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
+
+// make this unlock with planting any mystical sapling
+criteria = addCriteria("Mystical Sapling", "minecraft:placed_block")
+criteria.setBlock(<ore:mysticalSapling>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-295,-35)

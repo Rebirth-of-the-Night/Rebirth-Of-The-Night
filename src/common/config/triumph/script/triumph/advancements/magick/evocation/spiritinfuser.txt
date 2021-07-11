@@ -1,0 +1,12 @@
+setIcon(<betterwithaddons:ancestry_infuser>)
+setTitle("Spirit Infuser")
+setDescription("Craft a Spirit Infuser")
+
+addParent("triumph:advancements/magick/evocation/evocation")
+
+criteria = addCriteria("spiritinfuserCraft", "triumph:player_crafted_item")
+criteria.setItem(<betterwithaddons:ancestry_infuser>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,-200)

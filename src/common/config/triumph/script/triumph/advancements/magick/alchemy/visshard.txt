@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:vis_shard>)
+setTitle("Vis Shards")
+setDescription("Obtain a vis shard")
+
+addParent("triumph:advancements/magick/alchemy/vissliver")
+
+criteria = addCriteria("Vis Shard", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:vis_shard>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-260,200)

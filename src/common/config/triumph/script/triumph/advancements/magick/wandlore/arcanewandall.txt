@@ -1,0 +1,28 @@
+setIcon(<contenttweaker:dummy_wand_resto>)
+setTitle("Arcane Wand Collection")
+setDescription("Obtain all arcane wands.")
+
+addParent("triumph:advancements/magick/wandlore/arcanewand")
+
+criteria1 = addCriteria("disorientWand", "minecraft:inventory_changed")
+criteria1.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:disorient:0, nbt:{ench:[{lvl:0s,id:38s}]}>)
+
+criteria2 = addCriteria("restoWand", "minecraft:inventory_changed")
+criteria2.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:restoration:0, nbt:{ench:[{lvl:0s,id:27s}]}>)
+
+criteria3 = addCriteria("witherWand", "minecraft:inventory_changed")
+criteria3.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:wither:0, nbt:{ench:[{lvl:0s,id:40s}]}>)
+
+criteria4 = addCriteria("companionWand", "minecraft:inventory_changed")
+criteria4.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:companion:0, nbt:{ench:[{lvl:0s,id:45s}]}>)
+
+criteria5 = addCriteria("pmWand", "minecraft:inventory_changed")
+criteria5.addItem(<dungeontactics:magic_scroll, meta:0, count:1, enchant:dungeontactics:pinmissile:0, nbt:{ench:[{lvl:0s,id:43s}]}>)
+
+setRequirements("all")
+
+setFrameType("CHALLENGE")
+drawDirectLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(45,-35)

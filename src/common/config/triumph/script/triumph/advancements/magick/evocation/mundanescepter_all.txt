@@ -1,0 +1,14 @@
+setIcon(<aether_legacy:cloud_staff>)
+setTitle("Mundane Scepter")
+setDescription("Craft All Mundane Scepters")
+
+addParent("triumph:advancements/magick/evocation/mundanescepter")
+
+criteria = addCriteria("mundaneScepterAll", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:info>)
+
+setFrameType("CHALLENGE")
+drawDirectLines()
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,-270)

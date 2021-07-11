@@ -1,0 +1,12 @@
+setIcon(<advancedmortars:mortar:0>)
+setTitle("Mundane Mortar")
+setDescription("Craft a mundane mortar")
+
+addParent("triumph:advancements/magick/sygaldry/sygaldry")
+
+criteria = addCriteria("Mundane Mortar", "triumph:player_crafted_item")
+criteria.setItem(<advancedmortars:mortar:0>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-330,-165)

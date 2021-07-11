@@ -1,0 +1,12 @@
+setIcon(<advancedmortars:mortar:2>)
+setTitle("Mystical Mortar")
+setDescription("Craft a mystical mortar")
+
+addParent("triumph:advancements/magick/sygaldry/arcanemortar")
+
+criteria = addCriteria("Mystical Mortar", "triumph:player_crafted_item")
+criteria.setItem(<advancedmortars:mortar:2>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(-260,-165)

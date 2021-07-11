@@ -1,0 +1,16 @@
+setIcon(<iceandfire:pixie_wand>)
+setTitle("Wandlore")
+setDescription("Imbue the secrets of the world into castable spells.")
+
+addParent("triumph:advancements/magick/root")
+
+addCriteria("location", "minecraft:location")
+
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysVisible()
+hideLines()
+setFrameType("GOAL")
+setCompletedIconColor(90,30,170)
+// (horizontal, vertical)
+setPos(-25,0)

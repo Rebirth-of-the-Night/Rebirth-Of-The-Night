@@ -1,0 +1,12 @@
+setIcon(<golems:golem_paper>)
+setTitle("I Made a Friend")
+setDescription("Craft a golem spell.")
+
+addParent("triumph:advancements/magick/golemancy/golemancy")
+
+criteria = addCriteria("goleSpellCraft", "triumph:player_crafted_item")
+criteria.setItem(<golems:golem_paper>)
+
+alwaysVisible()
+// (horizontal, vertical)
+setPos(10,400)
