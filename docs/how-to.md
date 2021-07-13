@@ -112,7 +112,7 @@ Create a minecraft instance to run the files located in your project's `build/te
 
    ❗ Be sure to put quotes around the target directory if there are spaces.
    
-   ❗ Be sure to use normal slashes (/) and not backslashes (\) for pointing your path.
+   ❗ Be sure to use normal slashes (/) and not backslashes (\\) for pointing your path.
 9. in explorer, you should see the `.minecraft` with a little shortcut arrow. Confirm it linked
    properly by opening.
 
