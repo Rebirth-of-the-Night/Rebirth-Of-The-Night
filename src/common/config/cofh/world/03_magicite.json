@@ -1,0 +1,649 @@
+{
+    "dependencies": [
+        "cavegenerator",
+        "quark",
+        "bettermineshafts"
+        ],
+    "populate":{
+        "white_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 0
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "minecraft:plains",
+                "minecraft:extreme_hills",
+                "minecraft:extreme_hills_with_trees",
+                "biomesoplenty:pasture",
+                "minecraft:beaches",
+                "minecraft:mutated_plains",
+                "biomesoplenty:crag",
+                "biomesoplenty:flower_field",
+                "biomesoplenty:grassland",
+                "biomesoplenty:grove",
+                "minecraft:birch_forest",
+                "minecraft:mutated_extreme_hills",
+                "minecraft:mutated_birch_forest",
+                "biomesoplenty:cherry_blossom_grove",
+                "biomesoplenty:meadow",
+                "biometweaker:atacamian_desert",
+                "minecraft:ice_flats",
+                "iceandfire:glacier",
+                "minecraft:frozen_river",
+                "minecraft:mutated_ice_flats",
+                "biomesoplenty:snowy_tundra",
+                "biomesoplenty:glacier",
+                "biomesoplenty:tundra",
+                "minecraft:mesa_clear_rock",
+                "biomesoplenty:chaparral",
+                "biomesoplenty:white_beach",
+                "biomesoplenty:seasonal_forest",
+                "biomesoplenty:mystic_grove",
+                "minecraft:mutated_mesa_clear_rock",
+                "biomesoplenty:prairie",
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_cold",
+                "minecraft:taiga_cold_hills",
+                "minecraft:mutated_taiga_cold",
+                "biomesoplenty:alps",
+                "biomesoplenty:snowy_forest",
+                "defiledlands:ice_plains_defiled"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "red_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 1
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "minecraft:mutated_savanna_rock",
+                "biomesoplenty:xeric_shrubland",
+                "biomesoplenty:redwood_forest_edge",
+                "biomesoplenty:flower_field",
+                "biomesoplenty:cherry_blossom_grove",
+                "biomesoplenty:maple_woods",
+                "biomesoplenty:orchard",
+                "minecraft:desert",
+                "minecraft:desert_hills",
+                "minecraft:mutated_desert",
+                "minecraft:mesa",
+                "minecraft:mesa_rock",
+                "minecraft:mesa_clear_rock",
+                "biomesoplenty:redwood_forest",
+                "minecraft:mushroom_island",
+                "minecraft:mushroom_island_shore",
+                "biomesoplenty:volcanic_island",
+                "biomesoplenty:flower_island",
+                "biomesoplenty:wasteland",
+                "biomesoplenty:steppe",
+                "minecraft:mutated_mesa",
+                "minecraft:mutated_mesa_rock",
+                "minecraft:mutated_mesa_clear_rock",
+                "minecraft:smaller_extreme_hills",
+                "minecraft:redwood_taiga",
+                "minecraft:redwood_taiga_hills",
+                "minecraft:mutated_redwood_taiga",
+                "minecraft:mutated_redwood_taiga_hills",
+                "biomesoplenty:alps",
+                "biomesoplenty:dead_forest",
+                "defiledlands:forest_tenebra",
+                "defiledlands:forest_vilespine",
+                "defiledlands:hills_defiled",
+                "defiledlands:swamp_defiled",
+                "defiledlands:ice_plains_defiled"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "orange_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 2
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "minecraft:savanna",
+                "minecraft:savanna_rock",
+                "minecraft:mutated_savanna_rock",
+                "biomesoplenty:xeric_shrubland",
+                "biomesoplenty:mountain_foothills",
+                "biomesoplenty:redwood_forest_edge",
+                "biomesoplenty:pasture",
+                "biomesoplenty:flower_field",
+                "biomesoplenty:grove",
+                "minecraft:forest",
+                "minecraft:forest_hills",
+                "minecraft:mutated_forest",
+                "biomesoplenty:bamboo_forest",
+                "biomesoplenty:woodland",
+                "minecraft:desert",
+                "minecraft:desert_hills",
+                "minecraft:mutated_desert",
+                "biomesoplenty:oasis",
+                "biometweaker:atacamian_desert",
+                "minecraft:mesa",
+                "minecraft:mesa_rock",
+                "minecraft:mesa_clear_rock",
+                "minecraft:swampland",
+                "minecraft:mutated_swampland",
+                "biomesoplenty:bayou",
+                "biomesoplenty:bog",
+                "biomesoplenty:mangrove",
+                "biomesoplenty:dead_swamp",
+                "biomesoplenty:fen",
+                "biomesoplenty:quagmire",
+                "biomesoplenty:marsh",
+                "biomesoplenty:outback",
+                "biomesoplenty:brushland",
+                "biomesoplenty:redwood_forest",
+                "biomesoplenty:seasonal_forest",
+                "biomesoplenty:tropical_island",
+                "biomesoplenty:wasteland",
+                "biomesoplenty:steppe",
+                "biomesoplenty:dead_forest",
+                "defiledlands:swamp_defiled"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "yellow_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 3
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "minecraft:savanna",
+                "minecraft:savanna_rock",
+                "biomesoplenty:xeric_shrubland",
+                "biomesoplenty:shrubland",
+                "biomesoplenty:pasture",
+                "minecraft:beaches",
+                "minecraft:mutated_plains",
+                "minecraft:forest",
+                "minecraft:mutated_extreme_hills",
+                "minecraft:mutated_forest",
+                "biomesoplenty:bamboo_forest",
+                "biomesoplenty:meadow",
+                "biomesoplenty:orchard",
+                "minecraft:desert",
+                "minecraft:desert_hills",
+                "minecraft:mutated_desert",
+                "biomesoplenty:oasis",
+                "biometweaker:atacamian_desert",
+                "minecraft:cold_beach",
+                "biomesoplenty:snowy_tundra",
+                "biomesoplenty:tundra",
+                "biomesoplenty:cold_desert",
+                "minecraft:mesa",
+                "biomesoplenty:chaparral",
+                "biomesoplenty:outback",
+                "biomesoplenty:brushland",
+                "minecraft:stone_beach",
+                "minecraft:mutated_mesa",
+                "minecraft:mutated_mesa_rock",
+                "minecraft:mutated_mesa_clear_rock",
+                "biomesoplenty:prairie",
+                "minecraft:jungle_edge",
+                "minecraft:mutated_jungle",
+                "minecraft:mutated_jungle_edge",
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:redwood_taiga",
+                "minecraft:redwood_taiga_hills",
+                "minecraft:mutated_taiga",
+                "biomesoplenty:coniferous_forest",
+                "biomesoplenty:snowy_coniferous_forest",
+                "biomesoplenty:snowy_forest",
+                "biomesoplenty:boreal_forest",
+                "defiledlands:forest_tenebra",
+                "defiledlands:forest_vilespine",
+                "defiledlands:hills_defiled"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "green_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 4
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "minecraft:savanna",
+                "biomesoplenty:shrubland",
+                "biomesoplenty:alps_foothills",
+                "biomesoplenty:mountain_foothills",
+                "biomesoplenty:redwood_forest_edge",
+                "minecraft:mutated_plains",
+                "biomesoplenty:lavender_fields",
+                "biomesoplenty:grassland",
+                "biomesoplenty:grove",
+                "minecraft:forest",
+                "minecraft:forest_hills",
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:roofed_forest",
+                "minecraft:mutated_forest",
+                "minecraft:mutated_birch_forest",
+                "minecraft:mutated_birch_forest_hills",
+                "minecraft:mutated_roofed_forest",
+                "minecraft:mutated_extreme_hills_with_trees",
+                "biomesoplenty:bamboo_forest",
+                "biomesoplenty:maple_woods",
+                "biomesoplenty:meadow",
+                "biomesoplenty:orchard",
+                "biomesoplenty:woodland",
+                "biomesoplenty:oasis",
+                "biomesoplenty:overgrown_cliffs",
+                "biomesoplenty:bayou",
+                "biomesoplenty:bog",
+                "biomesoplenty:lush_swamp",
+                "biomesoplenty:mangrove",
+                "biomesoplenty:land_of_lakes",
+                "biomesoplenty:moor",
+                "biomesoplenty:kelp_forest",
+                "biomesoplenty:temperate_rainforest",
+                "biomesoplenty:seasonal_forest",
+                "biomesoplenty:shield",
+                "biomesoplenty:tropical_island",
+                "minecraft:jungle",
+                "minecraft:jungle_hills",
+                "minecraft:jungle_edge",
+                "biomesoplenty:eucalyptus_forest",
+                "biomesoplenty:tropical_rainforest",
+                "biomesoplenty:rainforest"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "blue_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 5
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "biomesoplenty:alps_foothills",
+                "minecraft:beaches",
+                "biomesoplenty:lavender_fields",
+                "biomesoplenty:crag",
+                "biomesoplenty:grassland",
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:mutated_extreme_hills",
+                "minecraft:mutated_birch_forest",
+                "minecraft:mutated_birch_forest_hills",
+                "minecraft:mutated_extreme_hills_with_trees",
+                "minecraft:ice_flats",
+                "minecraft:ice_mountains",
+                "iceandfire:glacier",
+                "minecraft:frozen_ocean",
+                "minecraft:frozen_river",
+                "minecraft:cold_beach",
+                "minecraft:mutated_ice_flats",
+                "biomesoplenty:snowy_tundra",
+                "biomesoplenty:glacier",
+                "biomesoplenty:tundra",
+                "biomesoplenty:cold_desert",
+                "biomesoplenty:highland",
+                "minecraft:river",
+                "biomesoplenty:lush_swamp",
+                "biomesoplenty:land_of_lakes",
+                "biomesoplenty:marsh",
+                "biomesoplenty:moor",
+                "minecraft:ocean",
+                "minecraft:deep_ocean",
+                "biomesoplenty:gravel_beach",
+                "biomesoplenty:white_beach",
+                "biomesoplenty:coral_reef",
+                "biomesoplenty:kelp_forest",
+                "minecraft:stone_beach",
+                "biomesoplenty:temperate_rainforest",
+                "biomesoplenty:mystic_grove",
+                "minecraft:mushroom_island_shore",
+                "minecraft:smaller_extreme_hills",
+                "minecraft:jungle",
+                "biomesoplenty:tropical_rainforest",
+                "biomesoplenty:rainforest",
+                "minecraft:taiga_cold",
+                "minecraft:taiga_cold_hills"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "indigo_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 6
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "minecraft:roofed_forest",
+                "minecraft:mutated_roofed_forest",
+                "biomesoplenty:maple_woods",
+                "biomesoplenty:mountain",
+                "minecraft:ice_flats",
+                "minecraft:ice_mountains",
+                "iceandfire:glacier",
+                "minecraft:frozen_ocean",
+                "minecraft:frozen_river",
+                "minecraft:cold_beach",
+                "minecraft:mutated_ice_flats",
+                "biomesoplenty:glacier",
+                "minecraft:river",
+                "biomesoplenty:lush_swamp",
+                "biomesoplenty:wetland",
+                "biomesoplenty:dead_swamp",
+                "biomesoplenty:land_of_lakes",
+                "minecraft:ocean",
+                "minecraft:deep_ocean",
+                "biomesoplenty:gravel_beach",
+                "biomesoplenty:white_beach",
+                "biomesoplenty:coral_reef",
+                "biomesoplenty:kelp_forest",
+                "biomesoplenty:ominous_woods",
+                "biomesoplenty:tropical_island",
+                "biomesoplenty:flower_island",
+                "minecraft:jungle",
+                "minecraft:mutated_jungle",
+                "minecraft:mutated_jungle_edge",
+                "biomesoplenty:eucalyptus_forest",
+                "biomesoplenty:rainforest",
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_cold",
+                "minecraft:taiga_cold_hills",
+                "minecraft:redwood_taiga_hills",
+                "minecraft:mutated_taiga",
+                "minecraft:mutated_taiga_cold",
+                "biomesoplenty:coniferous_forest",
+                "biomesoplenty:snowy_coniferous_forest",
+                "biomesoplenty:snowy_forest",
+                "biomesoplenty:boreal_forest",
+                "defiledlands:swamp_defiled",
+                "defiledlands:ice_plains_defiled"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "violet_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 7
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "biomesoplenty:cherry_blossom_grove",
+                "biomesoplenty:mountain",
+                "biomesoplenty:cold_desert",
+                "biomesoplenty:highland",
+                "biomesoplenty:overgrown_cliffs",
+                "minecraft:swampland",
+                "minecraft:mutated_swampland",
+                "minecraft:river",
+                "biomesoplenty:bayou",
+                "biomesoplenty:bog",
+                "biomesoplenty:wetland",
+                "biomesoplenty:fen",
+                "biomesoplenty:quagmire",
+                "biomesoplenty:moor",
+                "minecraft:ocean",
+                "biomesoplenty:coral_reef",
+                "biomesoplenty:outback",
+                "biomesoplenty:brushland",
+                "biomesoplenty:ominous_woods",
+                "biomesoplenty:temperate_rainforest",
+                "biomesoplenty:redwood_forest",
+                "biomesoplenty:mystic_grove",
+                "minecraft:mushroom_island",
+                "minecraft:mushroom_island_shore",
+                "biomesoplenty:shield",
+                "biomesoplenty:volcanic_island",
+                "biomesoplenty:flower_island",
+                "biomesoplenty:wasteland",
+                "biomesoplenty:steppe",
+                "minecraft:mutated_mesa",
+                "biomesoplenty:eucalyptus_forest",
+                "biomesoplenty:tropical_rainforest",
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:mutated_taiga",
+                "minecraft:mutated_taiga_cold",
+                "biomesoplenty:coniferous_forest",
+                "biomesoplenty:snowy_coniferous_forest",
+                "biomesoplenty:boreal_forest",
+                "defiledlands:forest_tenebra",
+                "defiledlands:forest_vilespine",
+                "defiledlands:hills_defiled"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "black_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 8
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 50,        
+        "biome": {
+            "restriction": "whitelist",
+            "value": [
+                "biomesoplenty:mountain",
+                "biomesoplenty:woodland",
+                "minecraft:ice_mountains",
+                "minecraft:frozen_ocean",
+                "biomesoplenty:highland",
+                "biomesoplenty:overgrown_cliffs",
+                "minecraft:mesa_rock",
+                "minecraft:swampland",
+                "minecraft:mutated_swampland",
+                "biomesoplenty:mangrove",
+                "biomesoplenty:chaparral",
+                "biomesoplenty:wetland",
+                "biomesoplenty:dead_swamp",
+                "biomesoplenty:fen",
+                "biomesoplenty:quagmire",
+                "biomesoplenty:marsh",
+                "minecraft:deep_ocean",
+                "biomesoplenty:gravel_beach",
+                "biomesoplenty:ominous_woods",
+                "minecraft:stone_beach",
+                "minecraft:mushroom_island",
+                "biomesoplenty:shield",
+                "biomesoplenty:volcanic_island",
+                "minecraft:mutated_mesa_rock",
+                "minecraft:smaller_extreme_hills",
+                "minecraft:mutated_jungle",
+                "minecraft:mutated_jungle_edge",
+                "biomesoplenty:alps",
+                "biomesoplenty:dead_forest"
+            ]
+        },
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                0
+            ],
+        "retrogen": "true"
+        }            
+        }
+    }
+}
