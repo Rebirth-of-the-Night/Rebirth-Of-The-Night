@@ -92,6 +92,7 @@ for i, log in logs {
 	);
 }
 
+/*
 val crystalMats as IIngredient[][] = [
 	[<contenttweaker:phosphophyllite>, <ore:gemDiamond>],
 	[<scalinghealth:crystalshard>, <ore:gemRuby>],
@@ -112,6 +113,7 @@ for i, crystalArr in crystalMats {
 		);
 	}
 }
+*/
 
 // SFS ROD
 recipes.remove(<quark:iron_rod>);
