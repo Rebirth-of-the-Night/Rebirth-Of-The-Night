@@ -1,0 +1,3 @@
+Item Name // Texture Location // Texture Name // Credit
+
+Magicked Stone // resources\contenttweaker\textures\blocks // magicked_stone.png // Vazkii - Botania - Livingrock

@@ -519,3 +519,10 @@ val endQ = VanillaFactory.createItem("end_quintessence");
 endQ.setCreativeTab(<creativetab:Dunamis>);
 endQ.register();
 
+// magicite replicas aka magicked stone
+
+var magickedStone = VanillaFactory.createBlock("magicked_stone", <blockmaterial:Rock>);
+magickedStone.setCreativeTab(<creativetab:Dunamis>);
+magickedStone.setBlockSoundType(<soundtype:stone>);
+magickedStone.setToolClass("pickaxe");
+magickedStone.register();
