@@ -516,6 +516,7 @@ var campfireRecipes600 as IItemStack[IItemStack] = {
 	<harvestcraft:rawtofurkeyitem> : <harvestcraft:cookedtofurkeyitem>,
 	<harvestcraft:rawtofenisonitem> : <harvestcraft:cookedtofenisonitem>,
 	<harvestcraft:rawtofuduckitem> : <harvestcraft:cookedtofuduckitem>,
+	<harvestcraft:sweetpotatoitem> : <harvestcraft:bakedsweetpotatoitem>,
 
 	/****** DT Potion Fish ******/
 
