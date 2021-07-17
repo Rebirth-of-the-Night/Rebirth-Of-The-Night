@@ -138,3 +138,11 @@ Anvil.addShaped(<betterwithaddons:greatarrow_lightning>, #Lightning Greatarrow
    [<ore:latchRedstone>, <ore:latchRedstone>, <ore:nuggetSoulforgedSteel>, null],
    [null, null, null, null]
 ]);
+
+// Brazier
+Anvil.addShaped(<futuremc:campfire>*4,
+[
+   [<ore:genericMetalNuggets>, <ore:genericMetalNuggets>, null, null],
+   [<ore:genericMetal>, <ore:dustNetherrack>, <minecraft:fire_charge> | <minecraft:flint_and_steel>.transformDamage() | <pyrotech:flint_and_tinder>.transformDamage() | <pyrotech:bow_drill>.transformDamage(), null],
+   [<ore:genericMetalNuggets>, <ore:genericMetalNuggets>, null, null]
+]);

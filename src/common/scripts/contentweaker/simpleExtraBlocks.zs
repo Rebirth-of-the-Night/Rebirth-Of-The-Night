@@ -93,6 +93,35 @@ block_bronze.setBlockResistance(15.0);
 block_bronze.setBeaconBase(true);
 block_bronze.register();
 
+// voided_rock
+var voided_rock = VanillaFactory.createBlock("voided_rock", <blockmaterial:Rock>);
+voided_rock.setCreativeTab(<creativetab:rotn_blocks>);
+//void_block.setBlockSoundType(<soundtype:slime>);
+voided_rock.setBlockHardness(7.0);
+voided_rock.setBlockResistance(3.5);
+voided_rock.setSlipperiness(0.7f);
+voided_rock.setToolLevel(4);
+voided_rock.register();
+
+// void_block
+var void_block = VanillaFactory.createBlock("void_block", <blockmaterial:Fire>);
+void_block.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    16.0 / 16.0,
+    12.0 / 16.0
+	);
+void_block.setBlockSoundType(<soundtype:sand>);
+void_block.setFullBlock(false);
+void_block.setLightOpacity(0);
+void_block.setLightValue(2);
+void_block.setBlockLayer("CUTOUT");
+void_block.setPassable(true);
+void_block.setCreativeTab(<creativetab:rotn_blocks>);
+void_block.register();
+
 // Raw Ores
 // raw_tin
 var raw_tin = VanillaFactory.createBlock("raw_tin_block", <blockmaterial:Iron>);

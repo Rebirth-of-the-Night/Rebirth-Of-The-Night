@@ -2,7 +2,7 @@ name: simpleores_mythril_ore
 mod: simpleores
 block: {
   location: simpleores:mythril_ore
-  light: 6
+  light: 7
   hardness: 4
   level: 3
 }
@@ -26,9 +26,9 @@ recipe: {
 gen: [
   {
     height: [ 0, 60 ]
-    size: 14
+    size: 16
     count: 1
-	chance: 0.1
+	chance: 0.25
 	dimensions: [10]
   }
 ]

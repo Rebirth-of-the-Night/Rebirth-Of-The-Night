@@ -1,0 +1,65 @@
+{
+  biomes: {
+    names: [
+      beneath:the_beneath
+    ]
+  }
+  wallDecorators: [
+    # void flames
+    {
+      states: contenttweaker:void_block
+      height: [ 20, 75 ]
+      directions: down
+      matchers: stone
+      placement: overlay
+      integrity: 1
+    }
+  ]
+  replaceableBlocks: [
+    stone
+    dirt
+    sandstone
+    undergroundbiomes:sedimentary_stone
+    undergroundbiomes:sedimentary_stone:1
+    undergroundbiomes:sedimentary_stone:2
+    undergroundbiomes:sedimentary_stone:3
+    undergroundbiomes:sedimentary_stone:4
+    undergroundbiomes:sedimentary_stone:5
+    undergroundbiomes:sedimentary_stone:6
+    undergroundbiomes:sedimentary_stone:7
+    undergroundbiomes:metamorphic_stone
+    undergroundbiomes:metamorphic_stone:1
+    undergroundbiomes:metamorphic_stone:2
+    undergroundbiomes:metamorphic_stone:3
+    undergroundbiomes:metamorphic_stone:4
+    undergroundbiomes:metamorphic_stone:5
+    undergroundbiomes:metamorphic_stone:6
+    undergroundbiomes:metamorphic_stone:7
+    undergroundbiomes:igneous_stone
+    undergroundbiomes:igneous_stone:1
+    undergroundbiomes:igneous_stone:2
+    undergroundbiomes:igneous_stone:3
+    undergroundbiomes:igneous_stone:4
+    undergroundbiomes:igneous_stone:5
+    undergroundbiomes:igneous_stone:6
+    undergroundbiomes:igneous_stone:7
+    undergroundbiomes:sedimentary_sandstone:2
+    undergroundbiomes:sedimentary_sand:6
+    undergroundbiomes:sedimentary_sandstone:6
+    biomesoplenty:grass
+    biomesoplenty:hard_ice
+    iceandfire:chared_stone
+    defiledlands:stone_defiled
+  ]
+  replaceDecorators: false
+  clusters: [
+    {
+      states: contenttweaker:voided_rock
+      chance: 0.005
+      radiusX: [ 50, 95 ]
+      radiusY: [ 35, 40 ]
+      radiusZ: [ 50, 95 ]
+      centerHeight: [ 27, 43 ]
+    }
+  ]
+}
