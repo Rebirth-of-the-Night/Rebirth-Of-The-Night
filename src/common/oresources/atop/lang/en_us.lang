@@ -26,7 +26,7 @@ item.malachite_shovel.name=Malachite Shovel
 item.malachite_pickaxe.name=Malachite Pickaxe
 item.malachite_axe.name=Malachite Axe
 item.malachite_hoe.name=Malachite Hoe
-item.malachite_sword.name=Malachite Sword
+item.malachite_sword.name=Malachite Arming Sword
 
 item.mud_helmet.name=Bronze Helmet
 item.mud_chestplate.name=Bronze Cuirass
@@ -46,7 +46,7 @@ item.peridot_shovel.name=Peridot Shovel
 item.peridot_pickaxe.name=Peridot Pickaxe
 item.peridot_axe.name=Peridot Axe
 item.peridot_hoe.name=Peridot Hoe
-item.peridot_sword.name=Peridot Sword
+item.peridot_sword.name=Peridot Arming Sword
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
@@ -56,7 +56,7 @@ item.ruby_shovel.name=Ruby Shovel
 item.ruby_pickaxe.name=Ruby Pickaxe
 item.ruby_axe.name=Ruby Axe
 item.ruby_hoe.name=Ruby Hoe
-item.ruby_sword.name=Ruby Sword
+item.ruby_sword.name=Ruby Zhanmajian
 
 item.sapphire_helmet.name=Sapphire Helmet
 item.sapphire_chestplate.name=Sapphire Chestplate
@@ -66,7 +66,7 @@ item.sapphire_shovel.name=Sapphire Shovel
 item.sapphire_pickaxe.name=Sapphire Pickaxe
 item.sapphire_axe.name=Sapphire Axe
 item.sapphire_hoe.name=Sapphire Hoe
-item.sapphire_sword.name=Sapphire Sword
+item.sapphire_sword.name=Sapphire Longsword
 
 item.tanzanite_helmet.name=Tanzanite Helmet
 item.tanzanite_chestplate.name=Tanzanite Chestplate
