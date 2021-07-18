@@ -139,6 +139,7 @@ Anvil.addShaped(<betterwithaddons:greatarrow_lightning>, #Lightning Greatarrow
    [null, null, null, null]
 ]);
 
+/* On hold until BWM can accept more methods for recipes
 // Brazier
 Anvil.addShaped(<futuremc:campfire>*4,
 [
@@ -146,3 +147,4 @@ Anvil.addShaped(<futuremc:campfire>*4,
    [<ore:genericMetal>, <ore:dustNetherrack>, <minecraft:fire_charge> | <minecraft:flint_and_steel>.transformDamage() | <pyrotech:flint_and_tinder>.transformDamage() | <pyrotech:bow_drill>.transformDamage(), null],
    [<ore:genericMetalNuggets>, <ore:genericMetalNuggets>, null, null]
 ]);
+*/

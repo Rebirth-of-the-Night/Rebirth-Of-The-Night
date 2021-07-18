@@ -18,8 +18,6 @@ JEI.removeAndHide(<futuremc:honeycomb>);
 JEI.removeAndHide(<futuremc:honey_bottle>);
 JEI.removeAndHide(<futuremc:beehive>);
 
-JEI.removeAndHide(<futuremc:campfire>);
-
 
 recipes.removeByRecipeName("futuremc:nether_brick_fence");
 recipes.removeByRecipeName("futuremc:else/smooth_stonerecipe");
@@ -48,6 +46,14 @@ recipes.addShaped("stone_cutter", <futuremc:stonecutter>,[
 	[null, null, null],
     [null, <ore:ingotSilver>, null],
     [<ore:stone>, <ore:stone>, <ore:stone>]
+]);
+
+// Brazier
+recipes.remove(<futuremc:campfire>);
+recipes.addShaped("brazier", <futuremc:campfire>*4,[
+   [null, <minecraft:fire_charge> | <minecraft:flint_and_steel>.transformDamage() | <pyrotech:flint_and_tinder>.transformDamage() | <pyrotech:bow_drill>.transformDamage(), null],
+   [<ore:genericMetalNuggets>, <ore:dustNetherrack>, <ore:genericMetalNuggets>],
+   [<ore:genericMetalNuggets>,<ore:genericMetal>, <ore:genericMetalNuggets>]
 ]);
 
 recipes.remove(<futuremc:suspicious_stew>);
