@@ -121,9 +121,6 @@ Enchanter.registerEnchantment(<pyrotech:stone_hammer>, 500);
 //Iron
 Enchanter.registerEnchantment(<pyrotech:iron_hammer>, 2000);
 Enchanter.registerEnchantment(<minecraft:shears>, 2000);
-Enchanter.registerEnchantment(<dungeontactics:potshot>, 2000);
-Enchanter.registerEnchantment(<dungeontactics:coin_cannon>, 2000);
-Enchanter.registerEnchantment(<dungeontactics:backfire_cannon>, 2000);
 
 //Ruby
 Enchanter.registerEnchantment(<atop:ruby_helmet>, 8800);
@@ -157,6 +154,17 @@ Enchanter.registerEnchantment(<atop:peridot_pickaxe>, 8800);
 Enchanter.registerEnchantment(<atop:peridot_axe>, 8800);
 Enchanter.registerEnchantment(<atop:peridot_shovel>, 8800);
 Enchanter.registerEnchantment(<atop:peridot_hoe>, 8800);
+
+//Diamond
+Enchanter.registerEnchantment(<minecraft:diamond_helmet>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_chestplate>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_leggings>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_boots>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_sword>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_pickaxe>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_axe>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_shovel>, 8800);
+Enchanter.registerEnchantment(<minecraft:diamond_hoe>, 8800);
 
 //Onyx
 Enchanter.registerEnchantment(<simpleores:onyx_helmet>, 15600);
@@ -565,6 +573,24 @@ Enchanter.registerEnchantment(<twilightforest:fiery_boots>, 7700);
 Enchanter.registerEnchantment(<twilightforest:fiery_pickaxe>, 9600);
 Enchanter.registerEnchantment(<twilightforest:fiery_sword>, 9600);
 
+//Rare Quality
+Enchanter.registerEnchantment(<msmlegacy:vampiric_blade>, 7700);
+Enchanter.registerEnchantment(<spartanshields:shield_basic_diamond>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:potshot>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:coin_cannon>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:backfire_cannon>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:mithril_sword>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:high_striker>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:wackerjab>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:taser>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:claws>, 7700);
+Enchanter.registerEnchantment(<dungeontactics:silver_axe>, 7700);
+Enchanter.registerEnchantment(<mod_lavacow:famine>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_sword_venom>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_sword_venom>, 7700);
+Enchanter.registerEnchantment(<msmlegacy:draconic_blade>, 7700);
+Enchanter.registerEnchantment(<pyrotech:redstone_sword>, 7700);
+
 //Epic Quality
 Enchanter.registerEnchantment(<mod_lavacow:sludge_wand>, 12000);
 Enchanter.registerEnchantment(<mod_lavacow:bonesword>, 12000);
@@ -573,6 +599,10 @@ Enchanter.registerEnchantment(<iceandfire:myrmex_desert_staff>, 12000);
 Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_staff>, 12000);
 Enchanter.registerEnchantment(<spartanweaponry:crossbow_wood>, 12000);
 Enchanter.registerEnchantment(<rats:black_death_mask>, 12000);
+Enchanter.registerEnchantment(<nyx:scythe>, 12000);
+Enchanter.registerEnchantment(<nyx:meteor_sword>, 12000);
+Enchanter.registerEnchantment(<nyx:meteor_bow>, 12000);
+Enchanter.registerEnchantment(<nyx:meteor_hammer>, 12000);
 
 //Legendary Quality
 Enchanter.registerEnchantment(<betteranimalsplus:hirschgeistskullwearable>, 32200);
@@ -614,7 +644,3 @@ Enchanter.registerEnchantment(<msmlegacy:dawn_star>, 32200);
 Enchanter.registerEnchantment(<dungeontactics:silver_sword>, 32200);
 Enchanter.registerEnchantment(<msmlegacy:eye_end_blade>, 32200);
 Enchanter.registerEnchantment(<msmlegacy:glacial_blade>, 32200);
-
-
-//Special
-Enchanter.registerEnchantment(<spartanshields:shield_basic_diamond>, 7700);
