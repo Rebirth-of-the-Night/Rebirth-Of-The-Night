@@ -1,0 +1,12 @@
+setIcon(<defiledlands:idol_sorrow>)
+setTitle("Ravaged")
+setDescription("Destroy the destroyer.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("destroyer", "minecraft:player_killed_entity")
+criteria.setEntityType("defiledlands:the_destroyer")
+
+hideLines()
+alwaysVisible()
+setPos(-281,210)

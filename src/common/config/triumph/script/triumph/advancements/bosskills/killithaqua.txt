@@ -1,0 +1,12 @@
+setIcon(<mod_lavacow:foul_bristle>)
+setTitle("When You Go")
+setDescription("Slay the humanoid beast that roams the forests.")
+
+addParent("triumph:advancements/bosskills/root")
+
+criteria = addCriteria("ithaqua", "minecraft:player_killed_entity")
+criteria.setEntityType("mod_lavacow:ithaqua")
+
+hideLines()
+alwaysVisible()
+setPos(-250,210)

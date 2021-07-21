@@ -63,6 +63,18 @@ criteria.setAdvancement("triumph:advancements/bosskills/sunblessing")
 criteria = addCriteria("sun_chief", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/bosskills/killsunchief")
 
+criteria = addCriteria("undertaker", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killundertaker")
+
+criteria = addCriteria("destroyer", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killdestroyer")
+
+criteria = addCriteria("ithaqua", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killithaqua")
+
+criteria = addCriteria("lordbastion", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/bosskills/killlordbastion")
+
 setFrameType("CHALLENGE")
 hideLines()
 alwaysVisible()
