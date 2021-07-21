@@ -5,7 +5,7 @@
         "bettermineshafts"
         ],
     "populate":{
-        "white_magicite": {
+        "overworld_white_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -74,7 +74,7 @@
         "retrogen": "true"
         }            
         },
-        "red_magicite": {
+        "overworld_red_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -140,7 +140,7 @@
         "retrogen": "true"
         }            
         },
-        "orange_magicite": {
+        "overworld_orange_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -211,7 +211,7 @@
         "retrogen": "true"
         }            
         },
-        "yellow_magicite": {
+        "overworld_yellow_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -288,7 +288,7 @@
         "retrogen": "true"
         }            
         },
-        "green_magicite": {
+        "overworld_green_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -362,7 +362,7 @@
         "retrogen": "true"
         }            
         },
-        "blue_magicite": {
+        "overworld_blue_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -437,7 +437,7 @@
         "retrogen": "true"
         }            
         },
-        "indigo_magicite": {
+        "overworld_indigo_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -512,7 +512,7 @@
         "retrogen": "true"
         }            
         },
-        "violet_magicite": {
+        "overworld_violet_magicite": {
             "distribution": "cave",
             "generator": [
                 {
@@ -585,7 +585,7 @@
         "retrogen": "true"
         }            
         },
-        "black_magicite": {
+        "overworld_black_magicite": {
             "distribution": "cave",
             "generator": [
                 {

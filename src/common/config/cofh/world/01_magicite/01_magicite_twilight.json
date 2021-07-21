@@ -1,0 +1,122 @@
+{
+    "dependencies": [
+        "quark"
+        ],
+        "populate":{
+            "tf_white_magicite": {
+            "distribution": "uniform",
+            "generator": {
+                    "block": 
+                            {
+                            "name": "quark:crystal",
+                            "metadata": 0
+                            },
+                    "material": "minecraft:stone",
+                    "cluster-size": 6           
+            },
+            "cluster-count": 4,
+            "min-height": 0,
+            "max-height": 256,
+            "retrogen": "true",
+            "biome": "all",       
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    7
+                ]
+            }            
+            },
+            "tf_red_magicite": {
+                "distribution": "uniform",
+                "generator": {
+                        "block": 
+                                {
+                                "name": "quark:crystal",
+                                "metadata": 1
+                                },
+                        "material": "minecraft:stone",
+                        "cluster-size": 6           
+                },
+                "cluster-count": 4,
+                "min-height": 0,
+                "max-height": 256,
+                "retrogen": "true",
+                "biome": "all",       
+                "dimension": {
+                    "restriction": "whitelist",
+                    "value": [
+                        7
+                    ]
+                }            
+                },
+            "tf_violet_magicite": {
+                "distribution": "uniform",
+                "generator": {
+                        "block": 
+                                {
+                                "name": "quark:crystal",
+                                "metadata": 7
+                                },
+                        "material": "minecraft:stone",
+                        "cluster-size": 6           
+                },
+                "cluster-count": 4,
+                "min-height": 0,
+                "max-height": 256,
+                "retrogen": "true",
+                "biome": "all",       
+                "dimension": {
+                    "restriction": "whitelist",
+                    "value": [
+                        7
+                    ]
+                }            
+                },       
+            "tf_blue_magicite": {
+                "distribution": "uniform",
+                "generator": {
+                        "block": 
+                                {
+                                "name": "quark:crystal",
+                                "metadata": 5
+                                },
+                        "material": "minecraft:stone",
+                        "cluster-size": 6           
+                },
+                "cluster-count": 4,
+                "min-height": 0,
+                "max-height": 256,
+                "retrogen": "true",
+                "biome": "all",       
+                "dimension": {
+                    "restriction": "whitelist",
+                    "value": [
+                        7
+                    ]
+                }            
+                },
+            "tf_black_magicite": {
+                "distribution": "uniform",
+                "generator": {
+                        "block": 
+                                {
+                                "name": "quark:crystal",
+                                "metadata": 8
+                                },
+                        "material": "minecraft:stone",
+                        "cluster-size": 6           
+                },
+                "cluster-count": 4,
+                "min-height": 0,
+                "max-height": 256,
+                "retrogen": "true",
+                "biome": "all",       
+                "dimension": {
+                    "restriction": "whitelist",
+                    "value": [
+                        7
+                    ]
+                }            
+                }
+        }
+    }

@@ -1,0 +1,99 @@
+{
+    "dependencies": [
+        "quark"
+        ],
+    "populate":{
+        "aether_white_magicite": {
+        "distribution": "uniform",
+        "generator": {
+                "block": 
+                        {
+                        "name": "quark:crystal",
+                        "metadata": 0
+                        },
+                "material": "aether_legacy:holystone",
+                "cluster-size": 5           
+        },
+        "cluster-count": 2,
+        "min-height": 0,
+		"max-height": 256,
+        "retrogen": "true",
+        "biome": "all",       
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                4
+            ]
+        }            
+        },
+        "aether_yellow_magicite": {
+            "distribution": "uniform",
+            "generator": {
+                    "block": 
+                            {
+                            "name": "quark:crystal",
+                            "metadata": 3
+                            },
+                    "material": "aether_legacy:holystone",
+                    "cluster-size": 8           
+            },
+            "cluster-count": 4,
+            "min-height": 0,
+            "max-height": 256,
+            "retrogen": "true",
+            "biome": "all",       
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    4
+                ]
+            }            
+            },
+        "aether_violet_magicite": {
+            "distribution": "uniform",
+            "generator": {
+                    "block": 
+                            {
+                            "name": "quark:crystal",
+                            "metadata": 7
+                            },
+                    "material": "aether_legacy:holystone",
+                    "cluster-size": 8           
+            },
+            "cluster-count": 4,
+            "min-height": 0,
+            "max-height": 256,
+            "retrogen": "true",
+            "biome": "all",       
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    4
+                ]
+            }            
+            },       
+        "aether_blue_magicite": {
+            "distribution": "uniform",
+            "generator": {
+                    "block": 
+                            {
+                            "name": "quark:crystal",
+                            "metadata": 5
+                            },
+                    "material": "aether_legacy:holystone",
+                    "cluster-size": 8           
+            },
+            "cluster-count": 4,
+            "min-height": 0,
+            "max-height": 256,
+            "retrogen": "true",
+            "biome": "all",       
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    4
+                ]
+            }            
+            }
+    }
+}

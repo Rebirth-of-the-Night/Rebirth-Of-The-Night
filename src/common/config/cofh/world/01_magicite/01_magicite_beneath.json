@@ -1,0 +1,144 @@
+{
+    "dependencies": [
+        "cavegenerator",
+        "quark",
+        "bettermineshafts"
+        ],
+    "populate":{        
+        "beneath_orange_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 2
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 256,        
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                10
+            ],
+        "retrogen": "true"
+        }            
+        },        
+        "beneath_green_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 4
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 256,        
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                10
+            ],
+        "retrogen": "true"
+        }            
+        },        
+        "beneath_indigo_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 6
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 256,        
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                10
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "beneath_violet_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 7
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 256,        
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                10
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "beneath_black_magicite": {
+            "distribution": "cave",
+            "generator": [
+                {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 8
+                    }
+                ],
+                "cluster-size": 50,
+                "spindly": true              
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "ground-level": 256,        
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                10
+            ],
+        "retrogen": "true"
+        }            
+        }
+    }
+}

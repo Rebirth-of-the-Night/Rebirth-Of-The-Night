@@ -1,0 +1,135 @@
+{
+    "dependencies": [
+        "quark"
+        ],
+    "populate":{
+            "nether_red_magicite": {
+            "distribution": "uniform",
+            "generator": [
+                {
+                "type": "stalactite",
+                "block": [
+                        {
+                        "name": "quark:crystal",
+                        "metadata": 1
+                        }
+                ],
+                "material": ["netherex:fiery_netherrack", "minecraft:netherrack"],
+                "gen-body": ["netherex:fiery_netherrack", "minecraft:netherrack", "minecraft:air"],
+                "min-height": 2,
+                "height-variance": 3,
+                "gen-size": 4,
+                "alt-sinc": true            
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "min-height": 50,
+		"max-height": 150,
+        "biome": "all",       
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                -1
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "nether_orange_magicite": {
+            "distribution": "uniform",
+            "generator": [
+                {
+                "type": "stalactite",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 2
+                    }
+                ],
+                "material": ["netherex:fiery_netherrack", "minecraft:netherrack"],
+                "gen-body": ["netherex:fiery_netherrack", "minecraft:netherrack", "minecraft:air"],
+                "min-height": 2,
+                "height-variance": 3,
+                "gen-size": 4,
+                "alt-sinc": true                
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "min-height": 50,
+		"max-height": 150,
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                -1
+            ],
+        "retrogen": "true"
+        }            
+        },
+        "nether_yellow_magicite": {
+            "distribution": "uniform",
+            "generator": [
+                {
+                "type": "stalactite",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 3
+                    }
+                ],
+                "material": ["netherex:fiery_netherrack", "minecraft:netherrack"],
+                "gen-body": ["netherex:fiery_netherrack", "minecraft:netherrack", "minecraft:air"],
+                "min-height": 2,
+                "height-variance": 3,
+                "gen-size": 4,
+                "alt-sinc": true                 
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "min-height": 50,
+		"max-height": 150,
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                -1
+            ],
+        "retrogen": "true"
+        }            
+        },        
+        "nether_black_magicite": {
+            "distribution": "uniform",
+            "generator": [
+                {
+                "type": "stalactite",
+                "block": [
+                    {
+                        "name": "quark:crystal",
+                        "metadata": 8
+                    }
+                ],
+                "material": ["netherex:fiery_netherrack", "minecraft:netherrack"],
+                "gen-body": ["netherex:fiery_netherrack", "minecraft:netherrack", "minecraft:air"],
+                "min-height": 2,
+                "height-variance": 3,
+                "gen-size": 4,
+                "alt-sinc": true                 
+            }
+        ],
+        "chunk-chance": 24,
+        "cluster-count": 1,
+        "min-height": 50,
+		"max-height": 150,
+        "biome": "all",
+        "dimension": {
+            "restriction": "whitelist",
+            "value": [
+                -1
+            ],
+        "retrogen": "true"
+        }            
+        }
+    }
+}
