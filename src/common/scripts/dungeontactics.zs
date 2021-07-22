@@ -71,6 +71,7 @@ recipes.removeByRecipeName("dungeontactics:misc/materials/gunpowder");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_left");
 JEI.removeAndHide(<dungeontactics:fire_starter>);
+recipes.addShapeless("flint_and_steel_relic",<minecraft:flint_and_steel>,[<contenttweaker:steel_artifact>,<minecraft:flint>]);
 ///////////////////// SILVER ///////////////////
 
 //JEI.removeAndHide(<dungeontactics:silver_sword>);

@@ -36,6 +36,7 @@ crafting_tools.register();
 val greasy_stem = VanillaFactory.createItem("greasy_stem");
 greasy_stem.register();
 
+// Soul Forged Steel artifacts
 val sfs1 = VanillaFactory.createItem("sfs_artifact");
 sfs1.register();
 val sfs2 = VanillaFactory.createItem("sfs_artifact1");
@@ -54,6 +55,10 @@ val sfs8 = VanillaFactory.createItem("sfs_artifact7");
 sfs8.register();
 val sfs9 = VanillaFactory.createItem("sfs_artifact8");
 sfs9.register();
+
+// Steel artifacts
+val sa1 = VanillaFactory.createItem("steel_artifact");
+sa1.register();
 
 //non-ingot ingots
 val sapphire = VanillaFactory.createItem("sapphire_ingot");

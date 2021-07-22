@@ -14,7 +14,7 @@ tile.futuremc.lily_of_the_valley.name=Lily of the Valley
 tile.futuremc.wither_rose.name=Wither Rose
 tile.futuremc.cornflower.name=Cornflower
 tile.futuremc.sweet_berry_bush.name=Sweet Berry Bush
-tile.futuremc.campfire.name=Campfire
+tile.futuremc.campfire.name=Brazier
 tile.futuremc.stripped_oak_log.name=Stripped Oak Log
 tile.futuremc.stripped_spruce_log.name=Stripped Spruce Log
 tile.futuremc.stripped_birch_log.name=Stripped Birch Log
@@ -191,7 +191,7 @@ enchantment.futuremc.quick_charge.desc=Decreases charging time.
 itemGroup.futuremc=Future MC
 
 # JEI
-container.jei.futuremc.campfire.name=Campfire
+container.jei.futuremc.campfire.name=Brazier
 container.jei.futuremc.blast_furnace.name=Blasting
 container.jei.futuremc.smoker.name=Smoking
 container.jei.futuremc.stonecutter.name=Stonecutting
@@ -230,7 +230,7 @@ futuremc.subtitles.panda_pre_sneeze=Panda's nose tickles
 futuremc.subtitles.panda_sneeze=Panda sneezes
 futuremc.subtitles.panda_step=Panda steps
 futuremc.subtitles.panda_worried_ambient=Panda whimpers
-futuremc.subtitles.campfire_crackle=Campfire crackles
+futuremc.subtitles.campfire_crackle=Brazier crackles
 futuremc.subtitles.bell_ring=Bell rings
 futuremc.subtitles.bell_resonate=Bell resonates
 futuremc.subtitles.bee_enter_hive=Bumble Bee enters hive

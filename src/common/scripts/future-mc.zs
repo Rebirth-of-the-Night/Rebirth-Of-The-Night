@@ -51,7 +51,7 @@ recipes.addShaped("stone_cutter", <futuremc:stonecutter>,[
 // Brazier
 recipes.remove(<futuremc:campfire>);
 recipes.addShaped("brazier", <futuremc:campfire>*4,[
-   [null, <minecraft:fire_charge> | <minecraft:flint_and_steel>.transformDamage() | <pyrotech:flint_and_tinder>.transformDamage() | <pyrotech:bow_drill>.transformDamage(), null],
+   [null, <minecraft:fire_charge> | <minecraft:flint_and_steel>.transformDamage() | <pyrotech:matchstick>, null],
    [<ore:genericMetalNuggets>, <ore:dustNetherrack>, <ore:genericMetalNuggets>],
    [<ore:genericMetalNuggets>,<ore:genericMetal>, <ore:genericMetalNuggets>]
 ]);

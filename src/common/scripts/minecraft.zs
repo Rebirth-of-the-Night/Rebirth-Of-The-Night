@@ -430,6 +430,9 @@ recipes.addShapeless("ale_wort_1",<forge:bucketfilled>.withTag({FluidName: "alew
     qualitybucket,<ore:foodFlour>,<ore:listAllsugar>
 ]);
 
+recipes.addShapeless("cheap_firecharge",<minecraft:fire_charge>,[
+    <minecraft:coal>|<minecraft:coal:1>, <ore:dustSaltpeter>
+]);
 
 recipes.remove(<minecraft:name_tag>);
 recipes.addShapeless("name_tag",<minecraft:name_tag>,[

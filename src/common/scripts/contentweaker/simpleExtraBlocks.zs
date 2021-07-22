@@ -41,6 +41,13 @@ charlog.setBlockSoundType(<soundtype:Ground>);
 charlog.setToolClass("axe");
 charlog.register();
 
+//  Mothane
+var charmpeat = VanillaFactory.createBlock("charmpeat", <blockmaterial:Ground>);
+charmpeat.setCreativeTab(<creativetab:rotn_blocks>);
+charmpeat.setBlockSoundType(<soundtype:Ground>);
+charmpeat.setToolClass("shovel");
+charmpeat.register();
+
 //Halite /salt ore/
 var halite = VanillaFactory.createBlock("halite", <blockmaterial:Rock>);
 halite.setCreativeTab(<creativetab:rotn_blocks>);

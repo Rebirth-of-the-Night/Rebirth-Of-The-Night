@@ -94,7 +94,8 @@
 
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
-
+<minecraft:crafting_table>.addTooltip("Static version.");
+<minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + (" Mat is better for long journeys"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
@@ -127,9 +128,6 @@
 <nyx:meteor_axe:*>.addTooltip("Deals extra damage to shields");
 mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
 
-
-
-
 // Eplus
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table");
 
@@ -157,7 +155,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <biomesoplenty:boat_ebony>.addTooltip("Place a banner on the boat to increase speed");
 <biomesoplenty:boat_eucalyptus>.addTooltip("Place a banner on the boat to increase speed");
 <netherex:obsidian_boat>.addTooltip("Place a banner on the boat to increase speed");
-
 
 // bed
 <minecraft:bed>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
@@ -191,13 +188,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:trickortreat_bag>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on candy.");
 <dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
 <sereneseasons:greenhouse_glass>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
-//<harvestcraft:well>.addShiftTooltip("Can be created by directly right-clicking Framed Glass with a Nature Rune.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info.")); NON-FUNCTIONAL UNTIL KOMPY USES HER MAGIC
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
 
 // Charm
 //<charm:totem_of_returning>.addTooltip("§5Right-click a block while holding the totem to bind yourself to that point. Right click again to return to that point.");
 //<charm:totem_of_shielding>.addTooltip("§5Absorbs all incoming damage when held in your offhand.");
-
 
 // Quark
 <quark:soul_bead>.addTooltip("Holding this softly shimmering bead makes you feel uneasy.");
@@ -225,7 +220,56 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <simpleores:adamantium_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 <simpleores:onyx_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
 
-
+// Underground Biomes Construct (and other stone types). Based on the tooltips of the modpack Homestead for 1.10.2
+// Igneous
+<undergroundbiomes:igneous_stone:*>.addTooltip("Igneous rock formed from cooled magma.");
+<undergroundbiomes:igneous_stone:*>.addTooltip("Very slow to break.");
+<undergroundbiomes:igneous_cobble:*>.addTooltip("Igneous rock formed from cooled magma.");
+<undergroundbiomes:igneous_cobble:*>.addTooltip("Very slow to break.");
+<minecraft:stone:0>.addTooltip("Igneous rock formed from the interaction of water and lava."); //vanilla (coade) stone
+<minecraft:stone:0>.addTooltip("Slow to break.");
+<minecraft:cobblestone>.addTooltip("Igneous rock formed from the interaction of water and lava."); //vanilla (coade) cobblestone
+<minecraft:cobblestone>.addTooltip("Slow to break.");
+// Metamorphic
+<undergroundbiomes:metamorphic_stone:*>.addTooltip("Metamorphic rock formed under high pressures.");
+<undergroundbiomes:metamorphic_stone:*>.addTooltip("Slow to break.");
+<undergroundbiomes:metamorphic_cobble:*>.addTooltip("Metamorphic rock formed under high pressures.");
+<undergroundbiomes:metamorphic_cobble:*>.addTooltip("Slow to break.");
+<betterwithmods:aesthetic:6>.addTooltip("Metamorphic rock formed from heated endstone."); //white stone
+<betterwithmods:aesthetic:6>.addTooltip("Slow to break.");
+<betterwithmods:aesthetic:7>.addTooltip("Metamorphic rock formed from heated endstone."); //white cobblestone
+<betterwithmods:aesthetic:7>.addTooltip("Slow to break.");
+<defiledlands:stone_defiled>.addTooltip("Metamorphic rock formed by defilement.");
+<defiledlands:stone_defiled>.addTooltip("Slow to break.");
+<iceandfire:chared_stone>.addTooltip("Metamorphic rock formed by sustained heat.");
+<iceandfire:chared_stone>.addTooltip("Slow to break.");
+<iceandfire:chared_cobblestone>.addTooltip("Metamorphic rock formed by sustained heat.");
+<iceandfire:chared_cobblestone>.addTooltip("Slow to break.");
+<iceandfire:frozen_stone>.addTooltip("Metamorphic rock formed by sustained cold.");
+<iceandfire:frozen_stone>.addTooltip("Slow to break.");
+<iceandfire:frozen_cobblestone>.addTooltip("Metamorphic rock formed by sustained cold.");
+<iceandfire:frozen_cobblestone>.addTooltip("Slow to break.");
+// Sedimentary
+<undergroundbiomes:sedimentary_stone:*>.addTooltip("Sedimentary rock formed by erosion.");
+<undergroundbiomes:sedimentary_stone:*>.addTooltip("Quick to break.");
+<contenttweaker:dolomite_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:dolomite_cobble>.addTooltip("Quick to break.");
+<contenttweaker:greywacke_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:greywacke_cobble>.addTooltip("Quick to break.");
+<contenttweaker:chalk_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:chalk_cobble>.addTooltip("Quick to break.");
+<contenttweaker:shale_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:shale_cobble>.addTooltip("Quick to break.");
+<contenttweaker:chert_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:chert_cobble>.addTooltip("Quick to break.");
+<contenttweaker:siltstone_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:siltstone_cobble>.addTooltip("Quick to break.");
+<contenttweaker:lignite_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:lignite_cobble>.addTooltip("Quick to break.");
+<contenttweaker:limestone_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:limestone_cobble>.addTooltip("Quick to break.");
+<minecraft:end_stone>.addTooltip("Sedimentary rock formed by end particles.");
+<minecraft:end_stone>.addTooltip("Quick to break.");
 
 // Pyrotech
 <pyrotech:flint_and_tinder:*>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
@@ -236,7 +280,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
-<pyrotech:coal_coke_block>.removeTooltip("Hold %s<SHIFT>%s for info.");
+<pyrotech:coal_coke_block>.addTooltip("Valid fuel for Burner Heater");
 <pyrotech:coal_coke_block>.removeTooltip("Efficiency:");
 <pyrotech:coal_coke_block>.removeTooltip("Bloomery:");
 <pyrotech:coal_coke_block>.removeTooltip("Wither Forge:");
@@ -346,7 +390,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <betterwithmods:dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <artisanworkstumps:workstump_potter>.addTooltip("Enables hand-building pottery.");
 <exsartagine:yeast>.addTooltip("Can be used as Brewer's Yeast.");
-
+<contenttweaker:steel_artifact>.addTooltip("Can be used to craft flint & steel");
+<contenttweaker:steel_artifact>.addShiftTooltip('A relic of the old days. Can be rarely dropped from "older" undead."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

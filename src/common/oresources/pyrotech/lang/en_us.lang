@@ -23,7 +23,7 @@ item.pyrotech.bucket.wood.milk.name=Milk Wooden Bucket
 
 item.pyrotech.bow.drill.name=Bow Drill
 item.pyrotech.flint.and.tinder.name=Flint and Tinder
-item.pyrotech.matchstick.name=Matchstick
+item.pyrotech.matchstick.name=Hand Drill
 
 tile.pyrotech.igniter.stone.name=Stone Igniter
 tile.pyrotech.igniter.brick.name=Refractory Igniter
