@@ -95,7 +95,7 @@
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
 <minecraft:crafting_table>.addTooltip("Static version.");
-<minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + (" Mat is better for long journeys"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + format.gray(" Mat is better for long journeys."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
@@ -272,7 +272,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <minecraft:end_stone>.addTooltip("Quick to break.");
 
 // Pyrotech
-<pyrotech:flint_and_tinder:*>.addTooltip("Hold right-click for several seconds to light. Can't light a kiln without fuel.");
+<pyrotech:tinder>.addTooltip("Place on the ground and add logs to create a campfire.");
+<pyrotech:flint_and_tinder:*>.addTooltip("Hold right-click for a second to light. Can't light a kiln without fuel.");
 <pyrotech:flint_and_tinder:*>.addTooltip("Not as convenient as a flint and steel.");
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
 <contenttweaker:refracotta>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");

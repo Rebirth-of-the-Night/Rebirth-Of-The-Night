@@ -28,7 +28,7 @@ recipes.addShaped("benign_rope", rope*2,
   
 val cattail = <biomesoplenty:plant_1:4>; 
 val wicker = <betterwithmods:wicker>;
-val driedf = <pyrotech:material:13>;
+val driedf = <pyrotech:tinder>;
 val rice = <harvestcraft:riceitem>;
 
 recipes.remove(<betterwithmods:bucket>);

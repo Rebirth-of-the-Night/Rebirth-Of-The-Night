@@ -6,7 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
 val DryerItemInputs = [<pyrotech:material:12>, <minecraft:sponge:1>, <pyrotech:material:25>, <harvestcraft:vanillabeanitem>, <harvestcraft:juteitem>, <betterwithaddons:wet_soap>] as IItemStack[];
-val DryerItemOutputs = [<pyrotech:material:13>, <minecraft:sponge>, <minecraft:paper>, <harvestcraft:vanillaitem>, <pyrotech:material:2>, <betterwithmods:aesthetic:10>]  as IItemStack[];
+val DryerItemOutputs = [<pyrotech:tinder>, <minecraft:sponge>, <minecraft:paper>, <harvestcraft:vanillaitem>, <pyrotech:material:2>, <betterwithmods:aesthetic:10>]  as IItemStack[];
 val DryerRecipeNames = ["dryer_fibers", "dryer_sponge", "dryer_paper", "dryer_vanilla", "dryer_jute", "dryer_soap"] as string[];
 
 for i, input in DryerItemInputs {
@@ -18,7 +18,7 @@ for i, input in DryerItemInputs {
 
 var dryerrecipe2 = RecipeBuilder.newBuilder("dryer_fibers_sapling", "dryer", 600);
 dryerrecipe2.addItemInput(<ore:treeSapling>);
-dryerrecipe2.addItemOutput(<pyrotech:material:13>);
+dryerrecipe2.addItemOutput(<pyrotech:tinder>);
 dryerrecipe2.build();
 
 var dryerrecipe3 = RecipeBuilder.newBuilder("dryer_raisins", "dryer", 600);

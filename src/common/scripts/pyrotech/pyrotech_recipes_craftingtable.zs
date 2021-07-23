@@ -100,16 +100,16 @@ furnace.remove(<pyrotech:material:15>);
 val stone = <ore:stone>;
 val stoneBrick = <pyrotech:material:16>;
 val refractoryBrick = <pyrotech:material:5>;
-val dry = <pyrotech:material:13>;
+val dry = <pyrotech:tinder>;
 val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
 val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<betternether:quartz_glass_framed:*>|<netherex:soul_glass>;
 val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
 
 recipes.addShapeless("pyro_matchstick_broken_stick",<pyrotech:matchstick>,
-[<pyrotech:material:13>,<contenttweaker:broken_stick>,<contenttweaker:broken_stick>]);
+[<pyrotech:tinder>,<contenttweaker:broken_stick>,<contenttweaker:broken_stick>]);
 recipes.addShapeless("pyro_matchstick_sticks",<pyrotech:matchstick>,
-[<pyrotech:material:13>,<ore:stickWood>,<ore:stickWood>]);
+[<pyrotech:tinder>,<ore:stickWood>,<ore:stickWood>]);
 recipes.addShaped("dryToTwine", twine*3,
 [[dry,dry,dry]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
