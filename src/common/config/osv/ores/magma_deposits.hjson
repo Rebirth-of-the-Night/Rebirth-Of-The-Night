@@ -1,0 +1,24 @@
+name: magma_deposits
+mod: minecraft
+block: {
+  location: minecraft:magma
+  lightLevel: 1
+  hardness: 3.2
+  level: 1
+}
+texture: {
+  shade: false
+  original: minecraft:blocks/magma,
+}
+recipe: {
+  result: minecraft:magma
+  xp: 0.0
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 20 ]
+    size: 8
+    count: 5
+  }
+]
