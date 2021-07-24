@@ -1,0 +1,37 @@
+name: clay_deposits
+mod: minecraft
+block: {
+  location: minecraft:clay
+  level: 0
+  material: CLAY
+  soundType: GROUND
+  lightLevel: 0
+  resistance: 3
+  hardness: 3.2
+  tool: shovel
+}
+loot: [
+  {
+    item: minecraft:clay_ball
+    count: [4, 4]
+    xp: [0, 0]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: minecraft:blocks/clay
+}
+recipe: {
+  result: minecraft:hardened_clay
+  xp: 0.3499999940395355
+  quantity: 1
+}
+gen: [
+  {
+  height: [ 1, 58 ]
+  size: 25
+  count: 2
+  chance: 0.50
+  }
+]
