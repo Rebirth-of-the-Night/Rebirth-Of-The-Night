@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedDestroyer
+tellraw @p ["",{"text":"A font of chaotic magick releases from the destroyer.","color":"blue","italic":true}]

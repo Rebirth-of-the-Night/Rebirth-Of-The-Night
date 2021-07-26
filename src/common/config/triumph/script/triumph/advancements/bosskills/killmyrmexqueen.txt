@@ -2,6 +2,8 @@ setIcon(<iceandfire:myrmex_desert_egg:0>)
 setTitle("It's... Afraid!")
 setDescription("Exterminate a hive matriarch.")
 
+addRewardFunction("triumph:killedmyrmexqueen")
+
 addParent("triumph:advancements/bosskills/root")
 
 criteria = addCriteria("myrmex_queen", "minecraft:player_killed_entity")

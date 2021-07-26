@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedPiedPiper
+tellraw @p ["",{"text":"A font of knowledgable magick releases from the pied piper.","color":"blue","italic":true}]

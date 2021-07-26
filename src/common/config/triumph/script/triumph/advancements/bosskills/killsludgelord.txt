@@ -2,6 +2,8 @@ setIcon(<mod_lavacow:silky_sludge>)
 setTitle("Sticky Situation")
 setDescription("Squash a slimy monstrosity.")
 
+addRewardFunction("triumph:killedsludgelord")
+
 addParent("triumph:advancements/bosskills/root")
 
 criteria = addCriteria("sludgelord", "minecraft:player_killed_entity")

@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedLordBastion
+tellraw @p ["",{"text":"A font of deathly magick releases from the bastion lord.","color":"blue","italic":true}]

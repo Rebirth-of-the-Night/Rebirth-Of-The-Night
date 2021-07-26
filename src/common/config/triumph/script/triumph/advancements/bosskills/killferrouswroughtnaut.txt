@@ -2,6 +2,8 @@ setIcon(<mowziesmobs:wrought_axe>)
 setTitle("Broken Vanguard")
 setDescription("Defeat a forgotten iron titan.")
 
+addRewardFunction("triumph:killedwraughtnaut")
+
 addParent("triumph:advancements/bosskills/root")
 
 criteria = addCriteria("ferrous_wroughtnaut", "minecraft:player_killed_entity")

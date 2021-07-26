@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSunChief
+tellraw @p ["",{"text":"A font of disintegrating magick releases from the sun chief.","color":"blue","italic":true}]

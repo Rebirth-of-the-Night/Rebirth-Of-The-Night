@@ -2,6 +2,8 @@ setIcon(<doggytalents:throw_bone>)
 setTitle("BONESTORM")
 setDescription("Defeat the Lord of the Bastion.")
 
+addRewardFunction("triumph:killedlordbastion")
+
 addParent("triumph:advancements/bosskills/root")
 
 criteria = addCriteria("lordbastion", "minecraft:player_killed_entity")

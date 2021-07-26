@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedGorgon
+tellraw @p ["",{"text":"A font of transformative magick releases from the gorgon.","color":"blue","italic":true}]

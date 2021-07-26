@@ -2,6 +2,8 @@ setIcon(<mowziesmobs:naga_fang>)
 setTitle("Grounded")
 setDescription("Bring down a fearsome aerial predator.")
 
+addRewardFunction("triumph:killedskydrake")
+
 addParent("triumph:advancements/bosskills/root")
 
 criteria = addCriteria("skydrake", "minecraft:player_killed_entity")

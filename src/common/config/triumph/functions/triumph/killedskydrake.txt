@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSkydrake
+tellraw @p ["",{"text":"A font of poisonous magick releases from the skydrake.","color":"blue","italic":true}]

@@ -2,6 +2,8 @@ setIcon(<mod_lavacow:undertaker_shovel>)
 setTitle("Graverobbed")
 setDescription("Bury the graverobber.")
 
+addRewardFunction("triumph:killedundertaker")
+
 addParent("triumph:advancements/bosskills/root")
 
 criteria = addCriteria("undertaker", "minecraft:player_killed_entity")

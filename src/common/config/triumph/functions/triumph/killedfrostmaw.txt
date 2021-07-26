@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedFrostmaw
+tellraw @p ["",{"text":"A font of energetic magick releases from the frostmaw.","color":"blue","italic":true}]

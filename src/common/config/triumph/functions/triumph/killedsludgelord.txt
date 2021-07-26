@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedSludgeLord
+tellraw @p ["",{"text":"A font of creative magick releases from the sludge lord.","color":"blue","italic":true}]

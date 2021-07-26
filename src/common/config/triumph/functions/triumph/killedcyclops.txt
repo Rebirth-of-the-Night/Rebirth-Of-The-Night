@@ -1,0 +1,4 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamestage silentadd @p killedCyclops
+tellraw @p ["",{"text":"A font of strong magick releases from the cyclops.","color":"blue","italic":true}]

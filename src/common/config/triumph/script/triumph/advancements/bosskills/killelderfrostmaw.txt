@@ -2,6 +2,8 @@ setIcon(<fairylights:light:207>)
 setTitle("Abominable")
 setDescription("Slay a rare behemoth of winter.")
 
+addRewardFunction("triumph:killedfrostmaw")
+
 addParent("triumph:advancements/bosskills/root")
 
 criteria = addCriteria("frostmaw", "minecraft:player_killed_entity")
