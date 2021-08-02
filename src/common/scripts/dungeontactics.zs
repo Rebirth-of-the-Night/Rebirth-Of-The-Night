@@ -64,6 +64,16 @@ JEI.removeAndHide(<dungeontactics:tungsten_dust>);
 JEI.removeAndHide(<dungeontactics:titanium_dust>);
 JEI.removeAndHide(<dungeontactics:osmium_dust>);
 
+JEI.removeAndHide(<dungeontactics:aluminium_cluster>);
+JEI.removeAndHide(<dungeontactics:nickel_cluster>);
+JEI.removeAndHide(<dungeontactics:lead_cluster>);
+JEI.removeAndHide(<dungeontactics:platinum_cluster>);
+JEI.removeAndHide(<dungeontactics:tungsten_cluster>);
+JEI.removeAndHide(<dungeontactics:titanium_cluster>);
+JEI.removeAndHide(<dungeontactics:osmium_cluster>);
+
+
+JEI.removeAndHide(<dungeontactics:guardian_alter>);
 JEI.removeAndHide(<dungeontactics:alchemical_cauldron>);
 
 

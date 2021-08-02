@@ -62,7 +62,7 @@ task buildCommonOther(type: Copy) {
     group 'modpack'
 
     from 'src/common'
-    exclude ('mods/**', 'scripts/**', 'config/**')
+    exclude ('mods/**', 'scripts/**', 'config/**', 'README.md')
     into "${buildDir}/test"
 }
 
@@ -83,7 +83,7 @@ task buildClientOther(type: Copy) {
     group 'modpack'
 
     from 'src/client-only'
-    exclude ('mods/**', 'ambience_music/**')
+    exclude ('mods/**', 'ambience_music/**', 'src/client-only/README.md')
     into "${buildDir}/test"
 }
 
@@ -91,6 +91,7 @@ task buildTestAll(type: Copy) {
     group 'modpack'
 
     from 'src/test/'
+    exclude ('README.md')
     into "${buildDir}/test"
 }
 
@@ -98,6 +99,7 @@ task buildLocalAll(type: Copy) {
     group 'modpack'
 
     from 'src/local/'
+    exclude ('README.md')
     into "${buildDir}/test"
 }
 
@@ -109,11 +111,13 @@ task packageClient(type: Copy) {
 
     // this is a fusion of common, client, and test resources
     logger.info("copying common resources to ${dest}")
-    from 'src/common/'
+    from 'src/common/', 'README.md'
+    exclude ('src/common/README.md')
     into dest
 
     logger.info("copying client-only resources to ${dest}")
     from 'src/client-only/'
+    exclude ('README.md')
     into dest
 
     doLast{
@@ -129,11 +133,13 @@ task packageServer(type: Copy) {
 
     // this is a fusion of common, client, and test resources
     logger.info("copying common resources to ${dest}")
-    from 'src/common/'
+    from 'src/common/', 'README.md'
+    exclude ('src/common/README.md')
     into dest
 
     logger.info("copying server resources to ${dest}")
     from 'src/server-only/'
+    exclude ('README.md')
     into dest
 
     doLast{

@@ -516,7 +516,7 @@ Dropt.list("raw_silver")
 Dropt.list("raw_gravitite")
 
   .add(Dropt.rule()
-      .matchBlocks(["simpleores:tin_ore"])
+      .matchBlocks(["aether_legacy:gravitite_ore"])
   	  .addDrop(Dropt.drop()
        	  .items([<contenttweaker:raw_gravitite>], Dropt.range(1,2))
 		  .xp("REPLACE", Dropt.range(1,1))

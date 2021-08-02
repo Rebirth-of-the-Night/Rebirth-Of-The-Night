@@ -67,9 +67,9 @@ recipes.removeByMod("modularmachinery");
 recipes.removeByMod("modulardiversity");
 
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [
-    [null, <inspirations:pipe>, null],
+    [null, <quark:chute>, null],
     [<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], 
-    [null, <quark:chute>, null]
+    [null, <inspirations:pipe>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [
     [null, <inspirations:pipe>, null],

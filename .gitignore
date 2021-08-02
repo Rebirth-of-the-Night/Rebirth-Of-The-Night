@@ -71,6 +71,7 @@ src/local/*
 .idea
 .project
 .settings
+.vscode
 
 ### Gradle template
 .gradle

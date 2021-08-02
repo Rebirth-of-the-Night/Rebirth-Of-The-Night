@@ -6,6 +6,7 @@ JEI.removeAndHide(<vials:vial_16>);
 JEI.removeAndHide(<vials:vial_144>);
 JEI.removeAndHide(<vials:vial_432>);
 JEI.removeAndHide(<vials:vial_576>);
+JEI.removeAndHide(<vials:vial_1296>);
 
 recipes.remove(<vials:vial_288>);
 recipes.addShaped(<vials:vial_288>, [

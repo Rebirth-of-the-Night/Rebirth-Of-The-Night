@@ -2,40 +2,24 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
-JEI.removeAndHide(<mcwbridges:iron_rod>);
-
-//Removed iron recipes
-recipes.remove(<mcwbridges:iron_rod>);
-recipes.remove(<mcwbridges:iron_armrest>);
-recipes.remove(<mcwbridges:iron_platform>);
-recipes.remove(<ore:durableFiber>);
-
-//Added material recipes
-recipes.addShaped("tin_bridge_armrest", <mcwbridges:iron_armrest>*3,[
-	[<ore:ingotTin>],
-  [<ore:ingotTin>]
+// Metal bridge recipes
+recipes.addShaped("tin_bridge", <mcwbridges:most1>,[
+	[<ore:nuggetTin>, null, <ore:nuggetTin>],
+	[<ore:nuggetTin>, null, <ore:nuggetTin>],
+	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]
 ]);
-recipes.addShaped("tin_bridge_platform", <mcwbridges:iron_platform>*1,[
-	[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+recipes.addShaped("iron_bridge", <mcwbridges:most1>*3,[
+	[<ore:nuggetIron>, null, <ore:nuggetIron>],
+	[<ore:nuggetIron>, null, <ore:nuggetIron>],
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
-
-recipes.addShaped("iron_bridge_armrest", <mcwbridges:iron_armrest>*6,[
-	[<ore:ingotIron>],
-  [<ore:ingotIron>]
-]);
-recipes.addShaped("iron_bridge_platform", <mcwbridges:iron_platform>*2,[
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+recipes.addShaped("steel_bridge", <mcwbridges:most1>*8,[
+	[<ore:nuggetSteel>, null, <ore:nuggetSteel>],
+	[<ore:nuggetSteel>, null, <ore:nuggetSteel>],
+	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 
-recipes.addShaped("steel_bridge_armrest", <mcwbridges:iron_armrest>*12,[
-	[<ore:ingotSteel>],
-  [<ore:ingotSteel>]
-]);
-recipes.addShaped("steel_bridge_platform", <mcwbridges:iron_platform>*4,[
-	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-]);
-
-//rope bridges
+// rope bridges
 recipes.addShaped("bridgeStack_oak", <mcwbridges:rope_oak_bridge>*32,[
 	[<quark:rope>, null, <quark:rope>],
 	[<minecraft:log>, <minecraft:log>, <minecraft:log>]

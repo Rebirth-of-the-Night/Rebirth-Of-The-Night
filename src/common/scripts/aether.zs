@@ -18,6 +18,9 @@ aether_dirt.hardness = 0.6;
 val aether_grass as IItemStack = <aether_legacy:aether_grass>;
 aether_grass.hardness = 0.5;
 
+JEI.removeAndHide(<aether_legacy:skyroot_sign>);
+LootTable.removeGlobalItem("aether_legacy:skyroot_sign");
+
 recipes.removeByRecipeName("aether_legacy:furnace_from_holystone");
 recipes.removeShaped(<minecraft:stone_pressure_plate>);
 recipes.addShaped("stone_pressure_plate_fixed", <minecraft:stone_pressure_plate>, [
