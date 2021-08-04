@@ -1,0 +1,74 @@
+# Credits for this preset to teksturepako, who provided the orignal 30___volcanic_tunnels.hjson preset modified to make this one
+{
+  replaceableBlocks: contenttweaker:voided_rock
+  enabled: true
+  tunnels: [
+    {
+      shell: {
+        radius: 2
+        decorators: [
+          {
+            states: stygian:endmagma
+            height: [ 0, 100 ]
+            matchers: contenttweaker:voided_rock
+            integrity: 0.2
+          }
+          {
+            states: earthworks:block_slate_purple
+            height: [ 0, 100 ]
+            matchers: contenttweaker:voided_rock
+            integrity: 0.8
+          }
+        ]
+      }
+      caveBlocks: [
+        {
+          states: adpother:vilemist:2
+          height: [ 0, 20 ]
+        }
+      ]
+      systemChance: 1
+      systemDensity: 1
+      noiseYReduction: false
+      distance: 100
+      resizeBranches: true
+      scale: {
+        startVal: 60
+        startValRandFactor: 0.005
+        factor: 1
+        randFactor: 0.005
+        exponent: 0.02
+      }
+      yaw: {
+        startVal: 0.5
+        startValRandFactor: 0.5
+      }
+      pitch: {
+        startVal: 3
+        startValRandFactor: 1
+      }
+      dYaw: {
+        startVal: 1
+        factor: 1
+        randFactor: 0.1
+        exponent: 1
+      }
+      dPitch: {
+        startVal: 0.05
+        factor: 1
+        randFactor: 0.5
+        exponent: 0.05
+      }
+      originHeight: [ 26, 150 ]
+      chance: 0.3
+      count: 8
+      stretch: {
+        startVal: 60
+        startValRandFactor: 0.005
+        factor: 1
+        randFactor: 0.005
+        exponent: 1
+      }
+    }
+  ]
+}
