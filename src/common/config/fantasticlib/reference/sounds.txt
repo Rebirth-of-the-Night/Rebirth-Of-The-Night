@@ -1588,3 +1588,10 @@ trumpetskeleton:entity.trumpet_skeleton.ambient
 trumpetskeleton:item.trumpet.use
 trumpetskeleton:entity.parrot.imitate.trumpet_skeleton
 dynamictreesphc:blocks.fruit.bonk
+toroquest:entity.steam_0
+toroquest:entity.steam_1
+toroquest:entity.steam_2
+toroquest:entity.steam_3
+toroquest:entity.steam_step_0
+toroquest:entity.steam_step_1
+toroquest:entity.steam_ambient
