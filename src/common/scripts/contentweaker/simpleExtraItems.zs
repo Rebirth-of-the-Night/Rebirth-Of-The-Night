@@ -220,6 +220,47 @@ cutcarminite.register();
 val cutcarminite2 = VanillaFactory.createItem("faerite");
 cutcarminite2.register();
 
+// Bricks
+VanillaFactory.createItem("brick_coade").register();
+VanillaFactory.createItem("brick_end").register();
+VanillaFactory.createItem("brick_white").register();
+VanillaFactory.createItem("brick_red_granite").register();
+VanillaFactory.createItem("brick_black_granite").register();
+VanillaFactory.createItem("brick_rhyolite").register();
+VanillaFactory.createItem("brick_andesite").register();
+VanillaFactory.createItem("brick_gabbro").register();
+VanillaFactory.createItem("brick_basalt").register();
+VanillaFactory.createItem("brick_komatiite").register();
+VanillaFactory.createItem("brick_dacite").register();
+VanillaFactory.createItem("brick_gneiss").register();
+VanillaFactory.createItem("brick_eclogite").register();
+VanillaFactory.createItem("brick_marble").register();
+VanillaFactory.createItem("brick_quartzite").register();
+VanillaFactory.createItem("brick_blue_schist").register();
+VanillaFactory.createItem("brick_green_schist").register();
+VanillaFactory.createItem("brick_soapstone").register();
+VanillaFactory.createItem("brick_migmatite").register();
+VanillaFactory.createItem("brick_blue_slate").register();
+VanillaFactory.createItem("brick_green_slate").register();
+VanillaFactory.createItem("brick_purple_slate").register();
+VanillaFactory.createItem("brick_serpentinite").register();
+VanillaFactory.createItem("brick_limestone").register();
+VanillaFactory.createItem("brick_chalk").register();
+VanillaFactory.createItem("brick_shale").register();
+VanillaFactory.createItem("brick_siltstone").register();
+VanillaFactory.createItem("brick_lignite").register();
+VanillaFactory.createItem("brick_dolomite").register();
+VanillaFactory.createItem("brick_greywacke").register();
+VanillaFactory.createItem("brick_chert").register();
+VanillaFactory.createItem("brick_brimstone").register();
+VanillaFactory.createItem("brick_permafrost").register();
+VanillaFactory.createItem("brick_dreadstone").register();
+VanillaFactory.createItem("brick_holystone").register();
+VanillaFactory.createItem("brick_sandstone").register();
+VanillaFactory.createItem("brick_red_sandstone").register();
+VanillaFactory.createItem("brick_soul_sandstone").register();
+VanillaFactory.createItem("brick_black_basalt").register();
+
 // Peculiar items
 val heartofthefallen = VanillaFactory.createItem("heartofthefallen");
 heartofthefallen.register();

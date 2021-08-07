@@ -13,7 +13,7 @@ import mods.contenttweaker.AxisAlignedBB;
 val rotn_b = VanillaFactory.createCreativeTab("rotn_blocks", <item:minecraft:stick>);
 rotn_b.register();
 
-//Dormant Ardicite Onyx
+// Dormant Ardicite Onyx
 var dormant_ardicite_onyx = VanillaFactory.createBlock("dormant_ardicite_onyx", <blockmaterial:Rock>);
 dormant_ardicite_onyx.setCreativeTab(<creativetab:rotn_blocks>);
 dormant_ardicite_onyx.setBlockSoundType(<soundtype:stone>);
@@ -23,7 +23,7 @@ dormant_ardicite_onyx.setBlockResistance(9999999999999999.0);
 dormant_ardicite_onyx.setBeaconBase(false);
 dormant_ardicite_onyx.register();
 
-//Dormant Onyx
+// Dormant Onyx
 var dormant_onyx = VanillaFactory.createBlock("dormant_onyx", <blockmaterial:Rock>);
 dormant_onyx.setCreativeTab(<creativetab:rotn_blocks>);
 dormant_onyx.setBlockSoundType(<soundtype:stone>);
@@ -48,7 +48,7 @@ charmpeat.setBlockSoundType(<soundtype:Ground>);
 charmpeat.setToolClass("shovel");
 charmpeat.register();
 
-//Halite /salt ore/
+// Halite /salt ore/
 var halite = VanillaFactory.createBlock("halite", <blockmaterial:Rock>);
 halite.setCreativeTab(<creativetab:rotn_blocks>);
 halite.setFullBlock(false);
@@ -59,7 +59,7 @@ halite.setLightOpacity(0);
 halite.setToolLevel(0);
 halite.register();
 
-//Speleothems
+// Speleothems
 var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
 dolomite_straws.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
@@ -103,7 +103,7 @@ block_bronze.register();
 // voided_rock
 var voided_rock = VanillaFactory.createBlock("voided_rock", <blockmaterial:Rock>);
 voided_rock.setCreativeTab(<creativetab:rotn_blocks>);
-//void_block.setBlockSoundType(<soundtype:slime>);
+// void_block.setBlockSoundType(<soundtype:slime>);
 voided_rock.setBlockHardness(7.0);
 voided_rock.setBlockResistance(3.5);
 voided_rock.setSlipperiness(0.7f);
@@ -122,8 +122,9 @@ void_block.axisAlignedBB = AxisAlignedBB.create(
 	);
 void_block.setBlockSoundType(<soundtype:sand>);
 void_block.setFullBlock(false);
+void_block.setBlockHardness(0.7);
 void_block.setLightOpacity(0);
-void_block.setLightValue(2);
+void_block.setLightValue(1);
 void_block.setBlockLayer("CUTOUT");
 void_block.setPassable(true);
 void_block.setCreativeTab(<creativetab:rotn_blocks>);
@@ -170,7 +171,7 @@ var raw_mythril = VanillaFactory.createBlock("raw_mythril_block", <blockmaterial
 raw_mythril.setCreativeTab(<creativetab:rotn_blocks>);
 raw_mythril.register();
 
-//Unfired Refractory Crucible
+// Unfired Refractory Crucible
 var crucible = VanillaFactory.createBlock("crucible", <blockmaterial:Iron>);
 crucible.setCreativeTab(<creativetab:rotn_blocks>);
 crucible.setBlockSoundType(<soundtype:ground>);
@@ -179,7 +180,7 @@ crucible.setToolLevel(0);
 crucible.setToolClass("shovel");
 crucible.register();
 
-//Unfired Rustic Vase
+// Unfired Rustic Vase
 var pot_unfired = VanillaFactory.createBlock("pot_unfired", <blockmaterial:Clay>);
 pot_unfired.axisAlignedBB = AxisAlignedBB.create(
      2.0 / 16.0,
@@ -197,14 +198,14 @@ pot_unfired.setToolLevel(0);
 pot_unfired.setToolClass("shovel");
 pot_unfired.register();
 
-//Broken Elevator
+// Broken Elevator
 var elevator = VanillaFactory.createBlock("elevator", <blockmaterial:Ground>);
 elevator.setCreativeTab(<creativetab:redstone>);
 elevator.setBlockSoundType(<soundtype:stone>);
 elevator.setFullBlock(false);
 elevator.register();
 
-//Broken Healing Pad
+// Broken Healing Pad
 var healing = VanillaFactory.createBlock("healing", <blockmaterial:Ground>);
 healing.setCreativeTab(<creativetab:redstone>);
 healing.axisAlignedBB = AxisAlignedBB.create(
@@ -219,8 +220,8 @@ healing.setBlockSoundType(<soundtype:stone>);
 healing.setFullBlock(false);
 healing.register();
 
-//Placeable bricks
-//unfired mud brick
+// Placeable bricks
+// unfired mud brick
 var unfired_mud_brick = VanillaFactory.createBlock("unfired_mud_brick", <blockmaterial:Ground>);
 unfired_mud_brick.setCreativeTab(<creativetab:decorations>);
 unfired_mud_brick.axisAlignedBB = AxisAlignedBB.create(
@@ -238,74 +239,128 @@ unfired_mud_brick.setBlockHardness(1.0);
 unfired_mud_brick.setToolClass("shovel");
 unfired_mud_brick.register();
 
-//Lunarin blocks
-//Silver
+// unfired porcelain brick
+var unfired_porcelain_brick = VanillaFactory.createBlock("unfired_porcelain_brick", <blockmaterial:Ground>);
+unfired_porcelain_brick.setCreativeTab(<creativetab:decorations>);
+unfired_porcelain_brick.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+unfired_porcelain_brick.setFullBlock(false);
+unfired_porcelain_brick.setLightOpacity(0);
+unfired_porcelain_brick.setBlockLayer("TRANSLUCENT");
+unfired_porcelain_brick.setBlockHardness(1.0);
+unfired_porcelain_brick.setToolClass("shovel");
+unfired_porcelain_brick.register();
+
+// unfired fiery brick
+var unfired_fiery_brick = VanillaFactory.createBlock("unfired_fiery_brick", <blockmaterial:Ground>);
+unfired_fiery_brick.setCreativeTab(<creativetab:decorations>);
+unfired_fiery_brick.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+unfired_fiery_brick.setFullBlock(false);
+unfired_fiery_brick.setLightOpacity(0);
+unfired_fiery_brick.setBlockLayer("TRANSLUCENT");
+unfired_fiery_brick.setBlockHardness(1.0);
+unfired_fiery_brick.setToolClass("shovel");
+unfired_fiery_brick.register();
+
+// unfired refractory brick
+var unfired_refractory_brick = VanillaFactory.createBlock("unfired_refractory_brick", <blockmaterial:Ground>);
+unfired_refractory_brick.setCreativeTab(<creativetab:decorations>);
+unfired_refractory_brick.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+unfired_refractory_brick.setFullBlock(false);
+unfired_refractory_brick.setLightOpacity(0);
+unfired_refractory_brick.setBlockLayer("TRANSLUCENT");
+unfired_refractory_brick.setBlockHardness(1.0);
+unfired_refractory_brick.setToolClass("shovel");
+unfired_refractory_brick.register();
+
+// Lunarin blocks
+// Silver
 var silverlunarin = VanillaFactory.createBlock("lunarinsilverbrick", <blockmaterial:Iron>);
 silverlunarin.setCreativeTab(<creativetab:rotn_blocks>);
 silverlunarin.register();
-//Viridium
+// Viridium
 var viridiumlunarin = VanillaFactory.createBlock("lunarinviridiumbrick", <blockmaterial:Iron>);
 viridiumlunarin.setCreativeTab(<creativetab:rotn_blocks>);
 viridiumlunarin.register();
-//Mythril
+// Mythril
 var mythrillunarin = VanillaFactory.createBlock("lunarinmythrilbrick", <blockmaterial:Iron>);
 mythrillunarin.setCreativeTab(<creativetab:rotn_blocks>);
 mythrillunarin.register();
-//Endorium
+// Endorium
 var endoriumlunarin = VanillaFactory.createBlock("lunarinendoriumbrick", <blockmaterial:Iron>);
 endoriumlunarin.setCreativeTab(<creativetab:rotn_blocks>);
 endoriumlunarin.register();
-//Hearth
+// Hearth
 var heartlunarin = VanillaFactory.createBlock("lunarinheartbrick", <blockmaterial:Iron>);
 heartlunarin.setCreativeTab(<creativetab:rotn_blocks>);
 heartlunarin.register();
-//Ice Dragon Steel
+// Ice Dragon Steel
 var icelunarin = VanillaFactory.createBlock("lunarinicebrick", <blockmaterial:Iron>);
 icelunarin.setCreativeTab(<creativetab:rotn_blocks>);
 icelunarin.register();
-//Fire Dragon Steel
+// Fire Dragon Steel
 var firelunarin = VanillaFactory.createBlock("lunarinfirebrick", <blockmaterial:Iron>);
 firelunarin.setCreativeTab(<creativetab:rotn_blocks>);
 firelunarin.register();
-//Fiery Metal
+// Fiery Metal
 var fierylunarin = VanillaFactory.createBlock("lunarinfierybrick", <blockmaterial:Iron>);
 fierylunarin.setCreativeTab(<creativetab:rotn_blocks>);
 fierylunarin.register();
-//Knight Metal
+// Knight Metal
 var knightlunarin = VanillaFactory.createBlock("lunarinknightbrick", <blockmaterial:Iron>);
 knightlunarin.setCreativeTab(<creativetab:rotn_blocks>);
 knightlunarin.register();
-//Steel
+// Steel
 var steellunarin = VanillaFactory.createBlock("lunarinsteelbrick", <blockmaterial:Iron>);
 steellunarin.setCreativeTab(<creativetab:rotn_blocks>);
 steellunarin.register();
-//Sfs
+// Sfs
 var sfslunarin = VanillaFactory.createBlock("lunarinsfsbrick", <blockmaterial:Iron>);
 sfslunarin.setCreativeTab(<creativetab:rotn_blocks>);
 sfslunarin.register();
-//Mediterranean lunarin mama mia brick block
+// Mediterranean lunarin mama mia brick block
 var BBlunarin = VanillaFactory.createBlock("baguettebrick", <blockmaterial:Rock>);
 BBlunarin.setCreativeTab(<creativetab:rotn_blocks>);
 BBlunarin.register();
 
-//Farlander Style
-//exorite
+// Farlander Style
+// exorite
 var exoritefarlander = VanillaFactory.createBlock("farlanderexoritebrick", <blockmaterial:Iron>);
 exoritefarlander.setCreativeTab(<creativetab:rotn_blocks>);
 exoritefarlander.setBlockSoundType(<soundtype:glass>);
 exoritefarlander.register();
-//zanite
+// zanite
 var zanitefarlander = VanillaFactory.createBlock("farlanderzanitebrick", <blockmaterial:Iron>);
 zanitefarlander.setCreativeTab(<creativetab:rotn_blocks>);
 zanitefarlander.setBlockSoundType(<soundtype:glass>);
 zanitefarlander.register();
-//diamond
+// diamond
 var diamondfarlander = VanillaFactory.createBlock("farlanderdiamondbrick", <blockmaterial:Iron>);
 diamondfarlander.setCreativeTab(<creativetab:rotn_blocks>);
 diamondfarlander.setBlockSoundType(<soundtype:glass>);
 diamondfarlander.register();
 
-//Storage blocks
+// Storage blocks
 var witheredblock = VanillaFactory.createBlock("witheredblock", <blockmaterial:Sand>);
 witheredblock.setCreativeTab(<creativetab:rotn_blocks>);
 witheredblock.setBlockSoundType(<soundtype:sand>);
@@ -439,197 +494,197 @@ refracotta_white.setBlockSoundType(<soundtype:stone>);
 refracotta_white.setToolClass("pickaxe");
 refracotta_white.register();
 
-//Wood Boards
-//oak
+// Wood Boards
+// oak
 var oak_boards = VanillaFactory.createBlock("oak_boards", <blockmaterial:Wood>);
 oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 oak_boards.setToolClass("pickaxe");
 oak_boards.setBlockHardness(7.0);
 oak_boards.setToolLevel(1);
 oak_boards.register();
-//spruce
+// spruce
 var spruce_boards = VanillaFactory.createBlock("spruce_boards", <blockmaterial:Wood>);
 spruce_boards.setCreativeTab(<creativetab:rotn_blocks>);
 spruce_boards.setToolClass("pickaxe");
 spruce_boards.setBlockHardness(7.0);
 spruce_boards.setToolLevel(1);
 spruce_boards.register();
-//birch
+// birch
 var birch_boards = VanillaFactory.createBlock("birch_boards", <blockmaterial:Wood>);
 birch_boards.setCreativeTab(<creativetab:rotn_blocks>);
 birch_boards.setToolClass("pickaxe");
 birch_boards.setBlockHardness(7.0);
 birch_boards.setToolLevel(1);
 birch_boards.register();
-//jungle
+// jungle
 var jungle_boards = VanillaFactory.createBlock("jungle_boards", <blockmaterial:Wood>);
 jungle_boards.setCreativeTab(<creativetab:rotn_blocks>);
 jungle_boards.setToolClass("pickaxe");
 jungle_boards.setBlockHardness(7.0);
 jungle_boards.setToolLevel(1);
 jungle_boards.register();
-//acacia
+// acacia
 var acacia_boards = VanillaFactory.createBlock("acacia_boards", <blockmaterial:Wood>);
 acacia_boards.setCreativeTab(<creativetab:rotn_blocks>);
 acacia_boards.setToolClass("pickaxe");
 acacia_boards.setBlockHardness(7.0);
 acacia_boards.setToolLevel(1);
 acacia_boards.register();
-//dark oak
+// dark oak
 var dark_oak_boards = VanillaFactory.createBlock("dark_oak_boards", <blockmaterial:Wood>);
 dark_oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 dark_oak_boards.setToolClass("pickaxe");
 dark_oak_boards.setBlockHardness(7.0);
 dark_oak_boards.setToolLevel(1);
 dark_oak_boards.register();
-//stalagnate
+// stalagnate
 var stalagnate_boards = VanillaFactory.createBlock("stalagnate_boards", <blockmaterial:Wood>);
 stalagnate_boards.setCreativeTab(<creativetab:rotn_blocks>);
 stalagnate_boards.setToolClass("pickaxe");
 stalagnate_boards.setBlockHardness(7.0);
 stalagnate_boards.setToolLevel(1);
 stalagnate_boards.register();
-//sacred oak
+// sacred oak
 var sacred_oak_boards = VanillaFactory.createBlock("sacred_oak_boards", <blockmaterial:Wood>);
 sacred_oak_boards.setCreativeTab(<creativetab:rotn_blocks>);
 sacred_oak_boards.setToolClass("pickaxe");
 sacred_oak_boards.setBlockHardness(7.0);
 sacred_oak_boards.setToolLevel(1);
 sacred_oak_boards.register();
-//cherry
+// cherry
 var cherry_boards = VanillaFactory.createBlock("cherry_boards", <blockmaterial:Wood>);
 cherry_boards.setCreativeTab(<creativetab:rotn_blocks>);
 cherry_boards.setToolClass("pickaxe");
 cherry_boards.setBlockHardness(7.0);
 cherry_boards.setToolLevel(1);
 cherry_boards.register();
-//umbran
+// umbran
 var umbran_boards = VanillaFactory.createBlock("umbran_boards", <blockmaterial:Wood>);
 umbran_boards.setCreativeTab(<creativetab:rotn_blocks>);
 umbran_boards.setToolClass("pickaxe");
 umbran_boards.setBlockHardness(7.0);
 umbran_boards.setToolLevel(1);
 umbran_boards.register();
-//fir
+// fir
 var fir_boards = VanillaFactory.createBlock("fir_boards", <blockmaterial:Wood>);
 fir_boards.setCreativeTab(<creativetab:rotn_blocks>);
 fir_boards.setToolClass("pickaxe");
 fir_boards.setBlockHardness(7.0);
 fir_boards.setToolLevel(1);
 fir_boards.register();
-//magic
+// magic
 var magic_boards = VanillaFactory.createBlock("magic_boards", <blockmaterial:Wood>);
 magic_boards.setCreativeTab(<creativetab:rotn_blocks>);
 magic_boards.setToolClass("pickaxe");
 magic_boards.setBlockHardness(7.0);
 magic_boards.setToolLevel(1);
 magic_boards.register();
-//mangrove
+// mangrove
 var mangrove_boards = VanillaFactory.createBlock("mangrove_boards", <blockmaterial:Wood>);
 mangrove_boards.setCreativeTab(<creativetab:rotn_blocks>);
 mangrove_boards.setToolClass("pickaxe");
 mangrove_boards.setBlockHardness(7.0);
 mangrove_boards.setToolLevel(1);
 mangrove_boards.register();
-//palm
+// palm
 var palm_boards = VanillaFactory.createBlock("palm_boards", <blockmaterial:Wood>);
 palm_boards.setCreativeTab(<creativetab:rotn_blocks>);
 palm_boards.setToolClass("pickaxe");
 palm_boards.setBlockHardness(7.0);
 palm_boards.setToolLevel(1);
 palm_boards.register();
-//redwood
+// redwood
 var redwood_boards = VanillaFactory.createBlock("redwood_boards", <blockmaterial:Wood>);
 redwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 redwood_boards.setToolClass("pickaxe");
 redwood_boards.setBlockHardness(7.0);
 redwood_boards.setToolLevel(1);
 redwood_boards.register();
-//willow
+// willow
 var willow_boards = VanillaFactory.createBlock("willow_boards", <blockmaterial:Wood>);
 willow_boards.setCreativeTab(<creativetab:rotn_blocks>);
 willow_boards.setToolClass("pickaxe");
 willow_boards.setBlockHardness(7.0);
 willow_boards.setToolLevel(1);
 willow_boards.register();
-//pine
+// pine
 var pine_boards = VanillaFactory.createBlock("pine_boards", <blockmaterial:Wood>);
 pine_boards.setCreativeTab(<creativetab:rotn_blocks>);
 pine_boards.setToolClass("pickaxe");
 pine_boards.setBlockHardness(7.0);
 pine_boards.setToolLevel(1);
 pine_boards.register();
-//hellbark
+// hellbark
 var hellbark_boards = VanillaFactory.createBlock("hellbark_boards", <blockmaterial:Wood>);
 hellbark_boards.setCreativeTab(<creativetab:rotn_blocks>);
 hellbark_boards.setToolClass("pickaxe");
 hellbark_boards.setBlockHardness(7.0);
 hellbark_boards.setToolLevel(1);
 hellbark_boards.register();
-//jacaranda
+// jacaranda
 var jacaranda_boards = VanillaFactory.createBlock("jacaranda_boards", <blockmaterial:Wood>);
 jacaranda_boards.setCreativeTab(<creativetab:rotn_blocks>);
 jacaranda_boards.setToolClass("pickaxe");
 jacaranda_boards.setBlockHardness(7.0);
 jacaranda_boards.setToolLevel(1);
 jacaranda_boards.register();
-//mahogany
+// mahogany
 var mahogany_boards = VanillaFactory.createBlock("mahogany_boards", <blockmaterial:Wood>);
 mahogany_boards.setCreativeTab(<creativetab:rotn_blocks>);
 mahogany_boards.setToolClass("pickaxe");
 mahogany_boards.setBlockHardness(7.0);
 mahogany_boards.setToolLevel(1);
 mahogany_boards.register();
-//ebony
+// ebony
 var ebony_boards = VanillaFactory.createBlock("ebony_boards", <blockmaterial:Wood>);
 ebony_boards.setCreativeTab(<creativetab:rotn_blocks>);
 ebony_boards.setToolClass("pickaxe");
 ebony_boards.setBlockHardness(7.0);
 ebony_boards.setToolLevel(1);
 ebony_boards.register();
-//eucalyptus
+// eucalyptus
 var eucalyptus_boards = VanillaFactory.createBlock("eucalyptus_boards", <blockmaterial:Wood>);
 eucalyptus_boards.setCreativeTab(<creativetab:rotn_blocks>);
 eucalyptus_boards.setToolClass("pickaxe");
 eucalyptus_boards.setBlockHardness(7.0);
 eucalyptus_boards.setToolLevel(1);
 eucalyptus_boards.register();
-//tenebra
+// tenebra
 var tenebra_boards = VanillaFactory.createBlock("tenebra_boards", <blockmaterial:Wood>);
 tenebra_boards.setCreativeTab(<creativetab:rotn_blocks>);
 tenebra_boards.setToolClass("pickaxe");
 tenebra_boards.setBlockHardness(7.0);
 tenebra_boards.setToolLevel(1);
 tenebra_boards.register();
-//dreadwood
+// dreadwood
 var dreadwood_boards = VanillaFactory.createBlock("dreadwood_boards", <blockmaterial:Wood>);
 dreadwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 dreadwood_boards.setToolClass("pickaxe");
 dreadwood_boards.setBlockHardness(7.0);
 dreadwood_boards.setToolLevel(1);
 dreadwood_boards.register();
-//olive
+// olive
 var olive_boards = VanillaFactory.createBlock("olive_boards", <blockmaterial:Wood>);
 olive_boards.setCreativeTab(<creativetab:rotn_blocks>);
 olive_boards.setToolClass("pickaxe");
 olive_boards.setBlockHardness(7.0);
 olive_boards.setToolLevel(1);
 olive_boards.register();
-//ironwood
+// ironwood
 var ironwood_boards = VanillaFactory.createBlock("ironwood_boards", <blockmaterial:Wood>);
 ironwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 ironwood_boards.setToolClass("pickaxe");
 ironwood_boards.setBlockHardness(7.0);
 ironwood_boards.setToolLevel(1);
 ironwood_boards.register();
-//wyrmwood
+// wyrmwood
 var wyrmwood_boards = VanillaFactory.createBlock("wyrmwood_boards", <blockmaterial:Wood>);
 wyrmwood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 wyrmwood_boards.setToolClass("pickaxe");
 wyrmwood_boards.setBlockHardness(7.0);
 wyrmwood_boards.setToolLevel(1);
 wyrmwood_boards.register();
-//skywood
+// skywood
 var skywood_boards = VanillaFactory.createBlock("skywood_boards", <blockmaterial:Wood>);
 skywood_boards.setCreativeTab(<creativetab:rotn_blocks>);
 skywood_boards.setToolClass("pickaxe");
@@ -637,196 +692,361 @@ skywood_boards.setBlockHardness(7.0);
 skywood_boards.setToolLevel(1);
 skywood_boards.register();
 
-//Loose Bricks
-//Mud
-var loose_mud_bricks = VanillaFactory.createBlock("loose_mud_bricks", <blockmaterial:Ground>);
+// Loose Bricks
+// Mud
+var loose_mud_bricks = VanillaFactory.createBlock("loose_mud_bricks", <blockmaterial:Rock>);
 loose_mud_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_mud_bricks.setGravity(true);
 loose_mud_bricks.setToolLevel(1);
 loose_mud_bricks.register();
-//Clay
-var loose_clay_bricks = VanillaFactory.createBlock("loose_clay_bricks", <blockmaterial:Ground>);
+// Clay
+var loose_clay_bricks = VanillaFactory.createBlock("loose_clay_bricks", <blockmaterial:Rock>);
 loose_clay_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_clay_bricks.setGravity(true);
 loose_clay_bricks.setToolLevel(1);
 loose_clay_bricks.register();
-//Refractory
-var loose_refractory_bricks = VanillaFactory.createBlock("loose_refractory_bricks", <blockmaterial:Ground>);
+// Masonry
+var loose_stone_bricks = VanillaFactory.createBlock("loose_stone_bricks", <blockmaterial:Rock>);
+loose_stone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_stone_bricks.setGravity(true);
+loose_stone_bricks.setToolLevel(1);
+loose_stone_bricks.setBlockLayer("TRANSLUCENT");
+loose_stone_bricks.register();
+// Holystone
+var loose_holystone_bricks = VanillaFactory.createBlock("loose_holystone_bricks", <blockmaterial:Rock>);
+loose_holystone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_holystone_bricks.setGravity(true);
+loose_holystone_bricks.setToolLevel(1);
+loose_holystone_bricks.setBlockLayer("TRANSLUCENT");
+loose_holystone_bricks.register();
+// Sandstone
+var loose_sandstone_bricks = VanillaFactory.createBlock("loose_sandstone_bricks", <blockmaterial:Rock>);
+loose_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_sandstone_bricks.setGravity(true);
+loose_sandstone_bricks.setToolLevel(1);
+loose_sandstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_sandstone_bricks.register();
+// Red Sandstone
+var loose_red_sandstone_bricks = VanillaFactory.createBlock("loose_red_sandstone_bricks", <blockmaterial:Rock>);
+loose_red_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_red_sandstone_bricks.setGravity(true);
+loose_red_sandstone_bricks.setToolLevel(1);
+loose_red_sandstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_red_sandstone_bricks.register();
+// Soulsandstone
+var loose_soulsandstone_bricks = VanillaFactory.createBlock("loose_soulsandstone_bricks", <blockmaterial:Rock>);
+loose_soulsandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_soulsandstone_bricks.setGravity(true);
+loose_soulsandstone_bricks.setToolLevel(1);
+loose_soulsandstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_soulsandstone_bricks.register();
+// Nether
+var loose_nether_bricks = VanillaFactory.createBlock("loose_nether_bricks", <blockmaterial:Rock>);
+loose_nether_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_nether_bricks.setGravity(true);
+loose_nether_bricks.setToolLevel(1);
+loose_nether_bricks.register();
+// Red Nether
+var loose_red_nether_bricks = VanillaFactory.createBlock("loose_red_nether_bricks", <blockmaterial:Rock>);
+loose_red_nether_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_red_nether_bricks.setGravity(true);
+loose_red_nether_bricks.setToolLevel(1);
+loose_red_nether_bricks.register();
+// Fiery Nether
+var loose_fiery_nether_bricks = VanillaFactory.createBlock("loose_fiery_nether_bricks", <blockmaterial:Rock>);
+loose_fiery_nether_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_fiery_nether_bricks.setGravity(true);
+loose_fiery_nether_bricks.setToolLevel(1);
+loose_fiery_nether_bricks.setBlockLayer("TRANSLUCENT");
+loose_fiery_nether_bricks.register();
+// Basalt Nether
+var loose_basalt_nether_bricks = VanillaFactory.createBlock("loose_basalt_nether_bricks", <blockmaterial:Rock>);
+loose_basalt_nether_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_basalt_nether_bricks.setGravity(true);
+loose_basalt_nether_bricks.setToolLevel(1);
+loose_basalt_nether_bricks.setBlockLayer("TRANSLUCENT");
+loose_basalt_nether_bricks.register();
+// Refractory
+var loose_refractory_bricks = VanillaFactory.createBlock("loose_refractory_bricks", <blockmaterial:Rock>);
 loose_refractory_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_refractory_bricks.setGravity(true);
 loose_refractory_bricks.setToolLevel(1);
 loose_refractory_bricks.register();
-//Coade
-var loose_big_coade_bricks = VanillaFactory.createBlock("loose_big_coade_bricks", <blockmaterial:Ground>);
+// Porcelain
+var loose_porcelain_bricks = VanillaFactory.createBlock("loose_porcelain_bricks", <blockmaterial:Rock>);
+loose_porcelain_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_porcelain_bricks.setGravity(true);
+loose_porcelain_bricks.setToolLevel(1);
+loose_porcelain_bricks.setBlockLayer("TRANSLUCENT");
+loose_porcelain_bricks.register();
+// Coade
+var loose_big_coade_bricks = VanillaFactory.createBlock("loose_big_coade_bricks", <blockmaterial:Rock>);
 loose_big_coade_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_coade_bricks.setGravity(true);
 loose_big_coade_bricks.setToolLevel(1);
 loose_big_coade_bricks.register();
-//Red Granite
-var loose_big_red_granite_bricks = VanillaFactory.createBlock("loose_big_red_granite_bricks", <blockmaterial:Ground>);
+// End
+var loose_big_end_bricks = VanillaFactory.createBlock("loose_big_end_bricks", <blockmaterial:Rock>);
+loose_big_end_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_end_bricks.setGravity(true);
+loose_big_end_bricks.setToolLevel(1);
+loose_big_end_bricks.register();
+// White
+var loose_big_white_bricks = VanillaFactory.createBlock("loose_big_white_bricks", <blockmaterial:Rock>);
+loose_big_white_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_white_bricks.setGravity(true);
+loose_big_white_bricks.setToolLevel(1);
+loose_big_white_bricks.register();
+// Dreadstone
+var loose_big_dreadstone_bricks = VanillaFactory.createBlock("loose_big_dreadstone_bricks", <blockmaterial:Rock>);
+loose_big_dreadstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_dreadstone_bricks.setGravity(true);
+loose_big_dreadstone_bricks.setToolLevel(1);
+loose_big_dreadstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_big_dreadstone_bricks.register();
+// Red Granite
+var loose_big_red_granite_bricks = VanillaFactory.createBlock("loose_big_red_granite_bricks", <blockmaterial:Rock>);
 loose_big_red_granite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_red_granite_bricks.setGravity(true);
 loose_big_red_granite_bricks.setToolLevel(1);
 loose_big_red_granite_bricks.register();
-//Black Granite
-var loose_big_black_granite_bricks = VanillaFactory.createBlock("loose_big_black_granite_bricks", <blockmaterial:Ground>);
+// Black Granite
+var loose_big_black_granite_bricks = VanillaFactory.createBlock("loose_big_black_granite_bricks", <blockmaterial:Rock>);
 loose_big_black_granite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_black_granite_bricks.setGravity(true);
 loose_big_black_granite_bricks.setToolLevel(1);
 loose_big_black_granite_bricks.register();
-//Rhyolite
-var loose_big_rhyolite_bricks = VanillaFactory.createBlock("loose_big_rhyolite_bricks", <blockmaterial:Ground>);
+// Rhyolite
+var loose_big_rhyolite_bricks = VanillaFactory.createBlock("loose_big_rhyolite_bricks", <blockmaterial:Rock>);
 loose_big_rhyolite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_rhyolite_bricks.setGravity(true);
 loose_big_rhyolite_bricks.setToolLevel(1);
 loose_big_rhyolite_bricks.register();
-//Andesite
-var loose_big_andesite_bricks = VanillaFactory.createBlock("loose_big_andesite_bricks", <blockmaterial:Ground>);
+// Andesite
+var loose_big_andesite_bricks = VanillaFactory.createBlock("loose_big_andesite_bricks", <blockmaterial:Rock>);
 loose_big_andesite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_andesite_bricks.setGravity(true);
 loose_big_andesite_bricks.setToolLevel(1);
 loose_big_andesite_bricks.register();
-//Gabbro
-var loose_big_gabbro_bricks = VanillaFactory.createBlock("loose_big_gabbro_bricks", <blockmaterial:Ground>);
+// Gabbro
+var loose_big_gabbro_bricks = VanillaFactory.createBlock("loose_big_gabbro_bricks", <blockmaterial:Rock>);
 loose_big_gabbro_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_gabbro_bricks.setGravity(true);
 loose_big_gabbro_bricks.setToolLevel(1);
 loose_big_gabbro_bricks.register();
-//Basalt
-var loose_big_basalt_bricks = VanillaFactory.createBlock("loose_big_basalt_bricks", <blockmaterial:Ground>);
+// Basalt
+var loose_big_basalt_bricks = VanillaFactory.createBlock("loose_big_basalt_bricks", <blockmaterial:Rock>);
 loose_big_basalt_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_basalt_bricks.setGravity(true);
 loose_big_basalt_bricks.setToolLevel(1);
 loose_big_basalt_bricks.register();
-//Komatiite
-var loose_big_komatiite_bricks = VanillaFactory.createBlock("loose_big_komatiite_bricks", <blockmaterial:Ground>);
+// Komatiite
+var loose_big_komatiite_bricks = VanillaFactory.createBlock("loose_big_komatiite_bricks", <blockmaterial:Rock>);
 loose_big_komatiite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_komatiite_bricks.setGravity(true);
 loose_big_komatiite_bricks.setToolLevel(1);
 loose_big_komatiite_bricks.register();
-//Dacite
-var loose_big_dacite_bricks = VanillaFactory.createBlock("loose_big_dacite_bricks", <blockmaterial:Ground>);
+// Dacite
+var loose_big_dacite_bricks = VanillaFactory.createBlock("loose_big_dacite_bricks", <blockmaterial:Rock>);
 loose_big_dacite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_dacite_bricks.setGravity(true);
 loose_big_dacite_bricks.setToolLevel(1);
 loose_big_dacite_bricks.register();
-//Gneiss
-var loose_big_gneiss_bricks = VanillaFactory.createBlock("loose_big_gneiss_bricks", <blockmaterial:Ground>);
+// Gneiss
+var loose_big_gneiss_bricks = VanillaFactory.createBlock("loose_big_gneiss_bricks", <blockmaterial:Rock>);
 loose_big_gneiss_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_gneiss_bricks.setGravity(true);
 loose_big_gneiss_bricks.setToolLevel(1);
 loose_big_gneiss_bricks.register();
-//Eclogite
-var loose_big_eclogite_bricks = VanillaFactory.createBlock("loose_big_eclogite_bricks", <blockmaterial:Ground>);
+// Eclogite
+var loose_big_eclogite_bricks = VanillaFactory.createBlock("loose_big_eclogite_bricks", <blockmaterial:Rock>);
 loose_big_eclogite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_eclogite_bricks.setGravity(true);
 loose_big_eclogite_bricks.setToolLevel(1);
 loose_big_eclogite_bricks.register();
-//Marble
-var loose_big_marble_bricks = VanillaFactory.createBlock("loose_big_marble_bricks", <blockmaterial:Ground>);
+// Marble
+var loose_big_marble_bricks = VanillaFactory.createBlock("loose_big_marble_bricks", <blockmaterial:Rock>);
 loose_big_marble_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_marble_bricks.setGravity(true);
 loose_big_marble_bricks.setToolLevel(1);
 loose_big_marble_bricks.register();
-//Quartzite
-var loose_big_quartzite_bricks = VanillaFactory.createBlock("loose_big_quartzite_bricks", <blockmaterial:Ground>);
+// Quartzite
+var loose_big_quartzite_bricks = VanillaFactory.createBlock("loose_big_quartzite_bricks", <blockmaterial:Rock>);
 loose_big_quartzite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_quartzite_bricks.setGravity(true);
 loose_big_quartzite_bricks.setToolLevel(1);
 loose_big_quartzite_bricks.register();
-//Blueschist
-var loose_big_blueschist_bricks = VanillaFactory.createBlock("loose_big_blueschist_bricks", <blockmaterial:Ground>);
+// Blueschist
+var loose_big_blueschist_bricks = VanillaFactory.createBlock("loose_big_blueschist_bricks", <blockmaterial:Rock>);
 loose_big_blueschist_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_blueschist_bricks.setGravity(true);
 loose_big_blueschist_bricks.setToolLevel(1);
 loose_big_blueschist_bricks.register();
-//Greenschist
-var loose_big_greenschist_bricks = VanillaFactory.createBlock("loose_big_greenschist_bricks", <blockmaterial:Ground>);
+// Greenschist
+var loose_big_greenschist_bricks = VanillaFactory.createBlock("loose_big_greenschist_bricks", <blockmaterial:Rock>);
 loose_big_greenschist_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_greenschist_bricks.setGravity(true);
 loose_big_greenschist_bricks.setToolLevel(1);
 loose_big_greenschist_bricks.register();
-//Soapstone
-var loose_big_soapstone_bricks = VanillaFactory.createBlock("loose_big_soapstone_bricks", <blockmaterial:Ground>);
+// Soapstone
+var loose_big_soapstone_bricks = VanillaFactory.createBlock("loose_big_soapstone_bricks", <blockmaterial:Rock>);
 loose_big_soapstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_soapstone_bricks.setGravity(true);
 loose_big_soapstone_bricks.setToolLevel(1);
 loose_big_soapstone_bricks.register();
-//Migmatite
-var loose_big_migmatite_bricks = VanillaFactory.createBlock("loose_big_migmatite_bricks", <blockmaterial:Ground>);
+// Migmatite
+var loose_big_migmatite_bricks = VanillaFactory.createBlock("loose_big_migmatite_bricks", <blockmaterial:Rock>);
 loose_big_migmatite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_migmatite_bricks.setGravity(true);
 loose_big_migmatite_bricks.setToolLevel(1);
 loose_big_migmatite_bricks.register();
-//Serpentinite
-var loose_big_serpentinite_bricks = VanillaFactory.createBlock("loose_big_serpentinite_bricks", <blockmaterial:Ground>);
+// Serpentinite
+var loose_big_serpentinite_bricks = VanillaFactory.createBlock("loose_big_serpentinite_bricks", <blockmaterial:Rock>);
 loose_big_serpentinite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_serpentinite_bricks.setGravity(true);
 loose_big_serpentinite_bricks.setToolLevel(1);
 loose_big_serpentinite_bricks.register();
-//Limestone
-var loose_big_limestone_bricks = VanillaFactory.createBlock("loose_big_limestone_bricks", <blockmaterial:Ground>);
+// Limestone
+var loose_big_limestone_bricks = VanillaFactory.createBlock("loose_big_limestone_bricks", <blockmaterial:Rock>);
 loose_big_limestone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_limestone_bricks.setGravity(true);
 loose_big_limestone_bricks.setToolLevel(1);
 loose_big_limestone_bricks.register();
-//Chalk
-var loose_big_chalk_bricks = VanillaFactory.createBlock("loose_big_chalk_bricks", <blockmaterial:Ground>);
+// Chalk
+var loose_big_chalk_bricks = VanillaFactory.createBlock("loose_big_chalk_bricks", <blockmaterial:Rock>);
 loose_big_chalk_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_chalk_bricks.setGravity(true);
 loose_big_chalk_bricks.setToolLevel(1);
 loose_big_chalk_bricks.register();
-//Shale
-var loose_big_shale_bricks = VanillaFactory.createBlock("loose_big_shale_bricks", <blockmaterial:Ground>);
+// Shale
+var loose_big_shale_bricks = VanillaFactory.createBlock("loose_big_shale_bricks", <blockmaterial:Rock>);
 loose_big_shale_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_shale_bricks.setGravity(true);
 loose_big_shale_bricks.setToolLevel(1);
 loose_big_shale_bricks.register();
-//Siltstone
-var loose_big_siltstone_bricks = VanillaFactory.createBlock("loose_big_siltstone_bricks", <blockmaterial:Ground>);
+// Siltstone
+var loose_big_siltstone_bricks = VanillaFactory.createBlock("loose_big_siltstone_bricks", <blockmaterial:Rock>);
 loose_big_siltstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_siltstone_bricks.setGravity(true);
 loose_big_siltstone_bricks.setToolLevel(1);
 loose_big_siltstone_bricks.register();
-//Lignite
-var loose_big_lignite_bricks = VanillaFactory.createBlock("loose_big_lignite_bricks", <blockmaterial:Ground>);
+// Lignite
+var loose_big_lignite_bricks = VanillaFactory.createBlock("loose_big_lignite_bricks", <blockmaterial:Rock>);
 loose_big_lignite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_lignite_bricks.setGravity(true);
 loose_big_lignite_bricks.setToolLevel(1);
 loose_big_lignite_bricks.register();
-//Dolomite
-var loose_big_dolomite_bricks = VanillaFactory.createBlock("loose_big_dolomite_bricks", <blockmaterial:Ground>);
+// Dolomite
+var loose_big_dolomite_bricks = VanillaFactory.createBlock("loose_big_dolomite_bricks", <blockmaterial:Rock>);
 loose_big_dolomite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_dolomite_bricks.setGravity(true);
 loose_big_dolomite_bricks.setToolLevel(1);
 loose_big_dolomite_bricks.register();
-//Greywacke
-var loose_big_greywacke_bricks = VanillaFactory.createBlock("loose_big_greywacke_bricks", <blockmaterial:Ground>);
+// Greywacke
+var loose_big_greywacke_bricks = VanillaFactory.createBlock("loose_big_greywacke_bricks", <blockmaterial:Rock>);
 loose_big_greywacke_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_greywacke_bricks.setGravity(true);
 loose_big_greywacke_bricks.setToolLevel(1);
 loose_big_greywacke_bricks.register();
-//Chert
-var loose_big_chert_bricks = VanillaFactory.createBlock("loose_big_chert_bricks", <blockmaterial:Ground>);
+// Chert
+var loose_big_chert_bricks = VanillaFactory.createBlock("loose_big_chert_bricks", <blockmaterial:Rock>);
 loose_big_chert_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_chert_bricks.setGravity(true);
 loose_big_chert_bricks.setToolLevel(1);
 loose_big_chert_bricks.register();
-//Slate
-var loose_big_slate_bricks = VanillaFactory.createBlock("loose_big_slate_bricks", <blockmaterial:Ground>);
-loose_big_slate_bricks.setCreativeTab(<creativetab:rotn_blocks>);
-loose_big_slate_bricks.setGravity(true);
-loose_big_slate_bricks.setToolLevel(1);
-loose_big_slate_bricks.register();
+// Purple Slate
+var loose_big_purple_slate_bricks = VanillaFactory.createBlock("loose_big_purple_slate_bricks", <blockmaterial:Rock>);
+loose_big_purple_slate_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_purple_slate_bricks.setGravity(true);
+loose_big_purple_slate_bricks.setToolLevel(1);
+loose_big_purple_slate_bricks.register();
+// Blue Slate
+var loose_big_blue_slate_bricks = VanillaFactory.createBlock("loose_big_blue_slate_bricks", <blockmaterial:Rock>);
+loose_big_blue_slate_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_blue_slate_bricks.setGravity(true);
+loose_big_blue_slate_bricks.setToolLevel(1);
+loose_big_blue_slate_bricks.register();
+// Green Slate
+var loose_big_green_slate_bricks = VanillaFactory.createBlock("loose_big_green_slate_bricks", <blockmaterial:Rock>);
+loose_big_green_slate_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_green_slate_bricks.setGravity(true);
+loose_big_green_slate_bricks.setToolLevel(1);
+loose_big_green_slate_bricks.register();
+// Brimstone
+var loose_big_brimstone_bricks = VanillaFactory.createBlock("loose_big_brimstone_bricks", <blockmaterial:Rock>);
+loose_big_brimstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_brimstone_bricks.setGravity(true);
+loose_big_brimstone_bricks.setToolLevel(1);
+loose_big_brimstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_big_brimstone_bricks.register();
+// Permafrost
+var loose_big_permafrost_bricks = VanillaFactory.createBlock("loose_big_permafrost_bricks", <blockmaterial:Rock>);
+loose_big_permafrost_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_big_permafrost_bricks.setGravity(true);
+loose_big_permafrost_bricks.setToolLevel(1);
+loose_big_permafrost_bricks.setBlockLayer("TRANSLUCENT");
+loose_big_permafrost_bricks.register();
 
-//Tapestry Wool
+// Sedimentary Bricks
+// Limestone
+var big_limestone_bricks = VanillaFactory.createBlock("big_limestone_bricks", <blockmaterial:Rock>);
+big_limestone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_limestone_bricks.setToolLevel(1);
+big_limestone_bricks.setBlockHardness(14.5);
+big_limestone_bricks.register();
+// Chalk
+var big_chalk_bricks = VanillaFactory.createBlock("big_chalk_bricks", <blockmaterial:Rock>);
+big_chalk_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_chalk_bricks.setToolLevel(1);
+big_chalk_bricks.setBlockHardness(14.5);
+big_chalk_bricks.register();
+// Shale
+var big_shale_bricks = VanillaFactory.createBlock("big_shale_bricks", <blockmaterial:Rock>);
+big_shale_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_shale_bricks.setToolLevel(1);
+big_shale_bricks.setBlockHardness(14.5);
+big_shale_bricks.register();
+// Siltstone
+var big_siltstone_bricks = VanillaFactory.createBlock("big_siltstone_bricks", <blockmaterial:Rock>);
+big_siltstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_siltstone_bricks.setToolLevel(1);
+big_siltstone_bricks.setBlockHardness(14.5);
+big_siltstone_bricks.register();
+// Lignite
+var big_lignite_bricks = VanillaFactory.createBlock("big_lignite_bricks", <blockmaterial:Rock>);
+big_lignite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_lignite_bricks.setToolLevel(1);
+big_lignite_bricks.setBlockHardness(14.5);
+big_lignite_bricks.register();
+// Dolomite
+var big_dolomite_bricks = VanillaFactory.createBlock("big_dolomite_bricks", <blockmaterial:Rock>);
+big_dolomite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_dolomite_bricks.setToolLevel(1);
+big_dolomite_bricks.setBlockHardness(14.5);
+big_dolomite_bricks.register();
+// Greywacke
+var big_greywacke_bricks = VanillaFactory.createBlock("big_greywacke_bricks", <blockmaterial:Rock>);
+big_greywacke_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_greywacke_bricks.setToolLevel(1);
+big_greywacke_bricks.setBlockHardness(14.5);
+big_greywacke_bricks.register();
+// Chert
+var big_chert_bricks = VanillaFactory.createBlock("big_chert_bricks", <blockmaterial:Rock>);
+big_chert_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_chert_bricks.setToolLevel(1);
+big_chert_bricks.setBlockHardness(14.5);
+big_chert_bricks.register();
+
+// Tapestry Wool
 var tapestry_purple = VanillaFactory.createBlock("tapestry_purple", <blockmaterial:Ground>);
 tapestry_purple.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_purple.setBlockSoundType(<soundtype:cloth>);
 tapestry_purple.setBlockHardness(0.8);
 tapestry_purple.setBlockResistance(0.8);
 tapestry_purple.register();
 var tapestry_red = VanillaFactory.createBlock("tapestry_red", <blockmaterial:Ground>);
 tapestry_red.setCreativeTab(<creativetab:rotn_blocks>);
+tapestry_red.setBlockSoundType(<soundtype:cloth>);
 tapestry_red.setBlockHardness(0.8);
 tapestry_red.setBlockResistance(0.8);
 tapestry_red.register();
@@ -885,7 +1105,7 @@ rocky_dirt.setBlockResistance(5.0);
 rocky_dirt.setToolLevel(1);
 rocky_dirt.register();
 
-//sandstone native copper
+// sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);
 n_copper_sandstone.setCreativeTab(<creativetab:rotn_blocks>);
 n_copper_sandstone.setBlockSoundType(<soundtype:stone>);
@@ -905,7 +1125,7 @@ n_copper_sandstone_red.setToolLevel(0);
 n_copper_sandstone_red.register();
 
 // cobblestone paths
-//Coade
+// Coade
 var cobblestone_path_coade = VanillaFactory.createBlock("cobblestone_path_coade", <blockmaterial:Rock>);
 cobblestone_path_coade.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -921,7 +1141,7 @@ cobblestone_path_coade.setSlipperiness(0.75f);
 cobblestone_path_coade.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_coade.setToolLevel(0);
 cobblestone_path_coade.register();
-//Red Granite
+// Red Granite
 var cobblestone_path_red_granite = VanillaFactory.createBlock("cobblestone_path_red_granite", <blockmaterial:Rock>);
 cobblestone_path_red_granite.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -937,7 +1157,7 @@ cobblestone_path_red_granite.setSlipperiness(0.75f);
 cobblestone_path_red_granite.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_red_granite.setToolLevel(0);
 cobblestone_path_red_granite.register();
-//Black Granite
+// Black Granite
 var cobblestone_path_black_granite = VanillaFactory.createBlock("cobblestone_path_black_granite", <blockmaterial:Rock>);
 cobblestone_path_black_granite.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -953,7 +1173,7 @@ cobblestone_path_black_granite.setSlipperiness(0.75f);
 cobblestone_path_black_granite.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_black_granite.setToolLevel(0);
 cobblestone_path_black_granite.register();
-//Rhyolite
+// Rhyolite
 var cobblestone_path_rhyolite = VanillaFactory.createBlock("cobblestone_path_rhyolite", <blockmaterial:Rock>);
 cobblestone_path_rhyolite.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -969,7 +1189,7 @@ cobblestone_path_rhyolite.setSlipperiness(0.75f);
 cobblestone_path_rhyolite.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_rhyolite.setToolLevel(0);
 cobblestone_path_rhyolite.register();
-//Andesite
+// Andesite
 var cobblestone_path_andesite = VanillaFactory.createBlock("cobblestone_path_andesite", <blockmaterial:Rock>);
 cobblestone_path_andesite.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -985,7 +1205,7 @@ cobblestone_path_andesite.setSlipperiness(0.75f);
 cobblestone_path_andesite.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_andesite.setToolLevel(0);
 cobblestone_path_andesite.register();
-//Gabbro
+// Gabbro
 var cobblestone_path_gabbro = VanillaFactory.createBlock("cobblestone_path_gabbro", <blockmaterial:Rock>);
 cobblestone_path_gabbro.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -1001,7 +1221,7 @@ cobblestone_path_gabbro.setSlipperiness(0.75f);
 cobblestone_path_gabbro.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_gabbro.setToolLevel(0);
 cobblestone_path_gabbro.register();
-//Basalt
+// Basalt
 var cobblestone_path_basalt = VanillaFactory.createBlock("cobblestone_path_basalt", <blockmaterial:Rock>);
 cobblestone_path_basalt.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -1017,7 +1237,7 @@ cobblestone_path_basalt.setSlipperiness(0.75f);
 cobblestone_path_basalt.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_basalt.setToolLevel(0);
 cobblestone_path_basalt.register();
-//Komatiite
+// Komatiite
 var cobblestone_path_komatiite = VanillaFactory.createBlock("cobblestone_path_komatiite", <blockmaterial:Rock>);
 cobblestone_path_komatiite.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -1033,7 +1253,7 @@ cobblestone_path_komatiite.setSlipperiness(0.75f);
 cobblestone_path_komatiite.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_komatiite.setToolLevel(0);
 cobblestone_path_komatiite.register();
-//Dacite
+// Dacite
 var cobblestone_path_dacite = VanillaFactory.createBlock("cobblestone_path_dacite", <blockmaterial:Rock>);
 cobblestone_path_dacite.axisAlignedBB = AxisAlignedBB.create(
      0.0 / 16.0,
@@ -1050,7 +1270,7 @@ cobblestone_path_dacite.setCreativeTab(<creativetab:rotn_blocks>);
 cobblestone_path_dacite.setToolLevel(0);
 cobblestone_path_dacite.register();
 
-//torch posts / vanilla torch post is BWM's shaft
+// torch posts / vanilla torch post is BWM's shaft
 var glareshaft = VanillaFactory.createBlock("glareshaft_small", <blockmaterial:Rock>);
 glareshaft.axisAlignedBB = AxisAlignedBB.create(
      7.0 / 16.0,

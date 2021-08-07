@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "brick": "iceandfire:blocks/dread_stone_bricks",
+	  "overlay": "contenttweaker:blocks/loose_bricks/big_brick_overlay_purplish"
+    },
+    "model": "contenttweaker:loose_bricks",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

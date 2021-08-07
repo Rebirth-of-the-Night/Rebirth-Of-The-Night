@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "brick": "pyrotech:blocks/stone_bricks",
+	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_blackish"
+    },
+    "model": "contenttweaker:loose_bricks",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

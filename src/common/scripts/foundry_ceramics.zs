@@ -52,6 +52,8 @@ BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1800*100);
 BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2500*100);
 
 //recipes
+val porcelain_bricks = <ceramics:clay_hard>;
+
 recipes.removeByRecipeName("ceramics:tools/cake");
 JEI.removeAndHide(<foundry:componentblock>);
 JEI.removeAndHide(<foundry:componentblock:1>);
@@ -90,8 +92,8 @@ recipes.addShaped("melting_crucible_standard", <foundry:machine:7>,[ //Melting C
 ]);
 recipes.addShaped("melting_crucible_advanced", <foundry:machine:6>,[ //Melting Crucible Porcelain
 	[<betterwithmods:aesthetic:7>, <ceramics:unfired_clay:5>, <betterwithmods:aesthetic:7>],
-    [<ceramics:clay_hard>, <foundry:machine:7> | <betterwithmods:cooking_pot>, <ceramics:clay_hard>],
-    [<betterwithmods:aesthetic:7>, <ceramics:clay_hard>, <betterwithmods:aesthetic:7>]
+    [porcelain_bricks, <foundry:machine:7> | <betterwithmods:cooking_pot>, porcelain_bricks],
+    [<betterwithmods:aesthetic:7>, porcelain_bricks, <betterwithmods:aesthetic:7>]
 ]);
 
 recipes.addShaped("metal_infuser", <foundry:machine:3>,[ //metal_infuser
@@ -100,9 +102,9 @@ recipes.addShaped("metal_infuser", <foundry:machine:3>,[ //metal_infuser
 ]);
 
 recipes.addShaped("burner_heater", <foundry:burner_heater>,[ //Burner Heater (solid fuel)
-	[<ceramics:clay_hard>, <betterwithmods:aesthetic:3>, <ceramics:clay_hard>],
-    [<ceramics:clay_hard>, <betternether:cincinnasite_forge>, <ceramics:clay_hard>],
-    [<ceramics:clay_hard>, <ceramics:clay_hard>, <ceramics:clay_hard>]
+	[porcelain_bricks, <betterwithmods:aesthetic:3>, porcelain_bricks],
+    [porcelain_bricks, <betternether:cincinnasite_forge>, porcelain_bricks],
+    [porcelain_bricks, porcelain_bricks, porcelain_bricks]
 ]);
 
 recipes.addShaped("mold_station", <foundry:mold_station>,[ //Mold Station
@@ -137,6 +139,7 @@ recipes.removeByRecipeName("ceramics:decoration/unfired_porcelain_bone_meal");
 Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4> * 9, 5, [kaolin_quartz, <pyrotech:material:4> * 8]);
 Mortar.addRecipe(["diamond"], <ceramics:unfired_clay:4>, 5, [kaolin_quartz, <minecraft:clay_ball> * 8]);
 
+recipes.addShapeless("unfired_porcelain_bricks",<contenttweaker:unfired_porcelain_brick>,[<ceramics:unfired_clay:4>]);
 
 //Refracotta colors
 val refracotta = <contenttweaker:refracotta>;
@@ -806,10 +809,27 @@ Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_stee
 // MISC //
 val lava_bricks = <ceramics:clay_hard:5>;
 recipes.removeByRecipeName("ceramics:decoration/lava_bricks/block");
-Casting.addRecipe(lava_bricks*1, <liquid:lava>*100, <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>);
-Casting.addRecipe(lava_bricks*1, <liquid:coade_stone>*144, <foundry:mold:4>,<pyrotech:refractory_brick_block>|<ceramics:clay_hard>);
+Casting.addRecipe(lava_bricks*1, <liquid:lava>*100, <foundry:mold:4>,<pyrotech:refractory_brick_block>|porcelain_bricks);
+Casting.addRecipe(lava_bricks*1, <liquid:coade_stone>*144, <foundry:mold:4>,<pyrotech:refractory_brick_block>|porcelain_bricks);
 Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:mythril>*16, <foundry:mold:7>);
 Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:residual_mythril>*1000, <foundry:mold:7>);
+
+val marine_bricks = <ceramics:clay_hard:2>;
+recipes.removeByRecipeName("ceramics:decoration/marine_bricks/block");
+recipes.addShaped("marine_bricks", marine_bricks*8,[
+   [porcelain_bricks, porcelain_bricks, porcelain_bricks],
+   [porcelain_bricks, <ore:dyeBlue>, porcelain_bricks],
+   [porcelain_bricks,porcelain_bricks, porcelain_bricks]
+]);
+
+val mono_bricks = <ceramics:clay_hard:7>;
+recipes.removeByRecipeName("ceramics:decoration/monochrome_bricks/block");
+recipes.addShaped("monochrome_bricks", mono_bricks*8,[
+   [porcelain_bricks, porcelain_bricks, porcelain_bricks],
+   [porcelain_bricks, <ore:dyeBlack>, porcelain_bricks],
+   [porcelain_bricks,porcelain_bricks, porcelain_bricks]
+]);
+
 
 //Missing Block Casting Recipes
 // addBlockRecipe(IItemStack output, ILiquidStack input)

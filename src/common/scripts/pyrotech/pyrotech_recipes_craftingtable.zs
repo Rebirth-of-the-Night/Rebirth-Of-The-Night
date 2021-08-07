@@ -208,7 +208,7 @@ recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
   [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro_refracotrymaterial_slag", <pyrotech:material:4>, [<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
-recipes.addShapeless("pyro_unfiredlime_lime", <pyrotech:material:9>,[<pyrotech:material:4>]);
+recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[<pyrotech:material:4>]);
 furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
 recipes.addShaped("masonry_stoneBricks", <minecraft:stonebrick:2>, 
 [[<pyrotech:material:16>, <pyrotech:material:16>],

@@ -1328,6 +1328,73 @@ val runes = <ore:runeItem>;
 runes.addItems([<contenttweaker:fae_rune>,<contenttweaker:chaos_rune>,<contenttweaker:mind_rune>,<contenttweaker:balance_rune>,<contenttweaker:water_rune>,<contenttweaker:creation_rune>,<contenttweaker:holding_rune>,<contenttweaker:order_rune>,<contenttweaker:nature_rune>,<contenttweaker:plague_rune>,<contenttweaker:illusion_rune>,<contenttweaker:trans_rune>,<contenttweaker:air_rune>,<contenttweaker:knowledge_rune>,<contenttweaker:disint_rune>,<contenttweaker:draconic_rune>,<contenttweaker:blank_rune>,<contenttweaker:strength_rune>,<contenttweaker:aether_rune>,<contenttweaker:luna_rune>,<contenttweaker:poison_rune>,<contenttweaker:energy_rune>,<contenttweaker:sol_rune>,<contenttweaker:nether_rune>,<contenttweaker:life_rune>,<contenttweaker:time_rune>,<contenttweaker:fire_rune>,<contenttweaker:soul_rune>,<contenttweaker:death_rune>,<contenttweaker:earth_rune>,<contenttweaker:arcane_rune>,<endreborn:item_end_rune>,<quark:rune>]
 );
 
+val mortarCommon = <ore:mortarCommon>;
+mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:item_cob>,<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>]);
+
+// Brick Rework
+// Stones
+
+val stoneBrickBlockMap = {
+	<minecraft:brick> : [<minecraft:brick_block>,<contenttweaker:loose_clay_bricks>],
+	<biomesoplenty:mud_brick> : [<biomesoplenty:mud_brick_block>,<contenttweaker:loose_mud_bricks>],
+	<minecraft:netherbrick> : [<minecraft:nether_brick>,<contenttweaker:loose_nether_bricks>],
+	<pyrotech:material:5> : [<pyrotech:refractory_brick_block>,<contenttweaker:loose_refractory_bricks>],
+	<ceramics:unfired_clay:5> : [<ceramics:clay_hard>,<contenttweaker:loose_porcelain_bricks>],
+	<netherex:fiery_netherbrick> : [<netherex:fiery_nether_brick>,<contenttweaker:loose_fiery_nether_bricks>],
+	<contenttweaker:brick_end> : [<minecraft:end_bricks>,<contenttweaker:loose_big_end_bricks>],
+	<contenttweaker:brick_white> : [<betterwithaddons:whitebrick>,<contenttweaker:loose_big_white_bricks>],
+	<contenttweaker:brick_dreadstone> : [<iceandfire:dread_stone_bricks>,<contenttweaker:loose_big_dreadstone_bricks>],
+	<contenttweaker:brick_black_basalt> : [<netherex:basalt_brick>,<contenttweaker:loose_basalt_nether_bricks>],
+	<contenttweaker:brick_brimstone> : [<quark:biome_brick>,<contenttweaker:loose_big_brimstone_bricks>],
+	<contenttweaker:brick_permafrost> : [<quark:biome_brick:1>,<contenttweaker:loose_big_permafrost_bricks>],
+	<contenttweaker:brick_sandstone> : [<quark:sandstone_new:1>,<contenttweaker:loose_sandstone_bricks>],
+	<contenttweaker:brick_red_sandstone> : [<quark:sandstone_new:3>,<contenttweaker:loose_red_sandstone_bricks>],
+	<contenttweaker:brick_soul_sandstone> : [<quark:sandstone_new:5>,<contenttweaker:loose_soulsandstone_bricks>],
+	<contenttweaker:brick_holystone> : [<aether_legacy:holystone_brick>,<contenttweaker:loose_holystone_bricks>],
+	<contenttweaker:brick_coade> : [<minecraft:stonebrick>,<contenttweaker:loose_big_coade_bricks>],
+	<contenttweaker:brick_red_granite> : [<undergroundbiomes:igneous_brick>,<contenttweaker:loose_big_red_granite_bricks>],
+	<contenttweaker:brick_black_granite> : [<undergroundbiomes:igneous_brick:1>,<contenttweaker:loose_big_black_granite_bricks>],
+	<contenttweaker:brick_rhyolite> : [<undergroundbiomes:igneous_brick:2>,<contenttweaker:loose_big_rhyolite_bricks>],
+	<contenttweaker:brick_andesite> : [<undergroundbiomes:igneous_brick:3>,<contenttweaker:loose_big_andesite_bricks>],
+	<contenttweaker:brick_gabbro> : [<undergroundbiomes:igneous_brick:4>,<contenttweaker:loose_big_gabbro_bricks>],
+	<contenttweaker:brick_basalt> : [<undergroundbiomes:igneous_brick:5>,<contenttweaker:loose_big_basalt_bricks>],
+	<contenttweaker:brick_komatiite> : [<undergroundbiomes:igneous_brick:6>,<contenttweaker:loose_big_komatiite_bricks>],
+	<contenttweaker:brick_dacite> : [<undergroundbiomes:igneous_brick:7>,<contenttweaker:loose_big_dacite_bricks>],
+	<contenttweaker:brick_gneiss> : [<undergroundbiomes:metamorphic_brick>,<contenttweaker:loose_big_gneiss_bricks>],
+	<contenttweaker:brick_eclogite> : [<undergroundbiomes:metamorphic_brick:1>,<contenttweaker:loose_big_eclogite_bricks>],
+	<contenttweaker:brick_marble> : [<undergroundbiomes:metamorphic_brick:2>,<contenttweaker:loose_big_marble_bricks>],
+	<contenttweaker:brick_quartzite> : [<undergroundbiomes:metamorphic_brick:3>,<contenttweaker:loose_big_quartzite_bricks>],
+	<contenttweaker:brick_blue_schist> : [<undergroundbiomes:metamorphic_brick:4>,<contenttweaker:loose_big_blueschist_bricks>],
+	<contenttweaker:brick_green_schist> : [<undergroundbiomes:metamorphic_brick:5>,<contenttweaker:loose_big_greenschist_bricks>],
+	<contenttweaker:brick_soapstone> : [<undergroundbiomes:metamorphic_brick:6>,<contenttweaker:loose_big_soapstone_bricks>],
+	<contenttweaker:brick_migmatite> : [<undergroundbiomes:metamorphic_brick:7>,<contenttweaker:loose_big_migmatite_bricks>],
+	<contenttweaker:brick_limestone> : [<contenttweaker:big_limestone_bricks>,<contenttweaker:loose_big_limestone_bricks>],
+	<contenttweaker:brick_chalk> : [<contenttweaker:big_chalk_bricks>,<contenttweaker:loose_big_chalk_bricks>],
+	<contenttweaker:brick_shale> : [<contenttweaker:big_shale_bricks>,<contenttweaker:loose_big_shale_bricks>],
+	<contenttweaker:brick_siltstone> : [<contenttweaker:big_siltstone_bricks>,<contenttweaker:loose_big_siltstone_bricks>],
+	<contenttweaker:brick_lignite> : [<contenttweaker:big_lignite_bricks>,<contenttweaker:loose_big_lignite_bricks>],
+	<contenttweaker:brick_dolomite> : [<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
+	<contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
+	<contenttweaker:brick_chert> : [<undergroundbiomes:sedimentary_stone:7>,<contenttweaker:loose_big_chert_bricks>],
+	<pyrotech:material:16> : [<pyrotech:stone_bricks>,<contenttweaker:loose_stone_bricks>]
+//	serpentinite : [,],
+//	<contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
+//	<contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
+//	<contenttweaker:brick_green_slate> : [<contenttweaker:loose_big_green_slate_bricks>,]
+} as IItemStack[][IItemStack];
+
+for brickItem, brickBlock in stoneBrickBlockMap{
+    recipes.remove(brickBlock[0]);
+    recipes.addShaped(brickBlock[1],[
+        [brickItem,brickItem],
+        [brickItem,brickItem]
+    ]);
+	recipes.addShaped(brickBlock[0]*8,[
+        [brickBlock[1],brickBlock[1],brickBlock[1]],
+		[brickBlock[1],mortarCommon,brickBlock[1]],
+        [brickBlock[1],brickBlock[1],brickBlock[1]]
+    ]);
+}
 
 // ContentTweaker extra blocks recipes
 //All Lunarin bricks

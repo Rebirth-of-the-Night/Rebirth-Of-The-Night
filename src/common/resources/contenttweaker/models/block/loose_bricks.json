@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"brick": "contenttweaker:blocks/big_chalk_bricks",
+		"overlay": "contenttweaker:blocks/loose_bricks/big_brick_overlay_purplish"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#brick"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#brick"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#brick"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#brick"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#brick"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#brick"}
+			}
+		},
+		{
+			"name": "groove",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#overlay"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#overlay"}
+			}
+		}
+	]
+}
