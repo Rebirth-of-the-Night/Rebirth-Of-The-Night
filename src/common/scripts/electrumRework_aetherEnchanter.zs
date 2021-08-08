@@ -590,6 +590,7 @@ Enchanter.registerEnchantment(<iceandfire:myrmex_desert_sword_venom>, 7700);
 Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_sword_venom>, 7700);
 Enchanter.registerEnchantment(<msmlegacy:draconic_blade>, 7700);
 Enchanter.registerEnchantment(<pyrotech:redstone_sword>, 7700);
+Enchanter.registerEnchantment(<quark:pickarang>, 7700);
 
 //Epic Quality
 Enchanter.registerEnchantment(<mod_lavacow:sludge_wand>, 12000);
