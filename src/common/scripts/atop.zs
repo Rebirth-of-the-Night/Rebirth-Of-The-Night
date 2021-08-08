@@ -7,13 +7,13 @@ var exoriteItems = <atop:amethyst_helmet> | <atop:amethyst_chestplate> | <atop:a
 addRepairEntry(exoriteItems, <contenttweaker:exorite_ingot>);
 
 var rubyItems = <atop:ruby_helmet> | <atop:ruby_chestplate> | <atop:ruby_leggings> | <atop:ruby_boots> | <atop:ruby_pickaxe> | <atop:ruby_sword> | <atop:ruby_shovel> | <atop:ruby_axe> | <atop:ruby_hoe>;
-addRepairEntry(rubyItems, <ore:gemRuby>);
+addRepairEntry(rubyItems, <contenttweaker:ruby_ingot>);
 
 var peridotItems = <atop:peridot_helmet> | <atop:peridot_chestplate> | <atop:peridot_leggings> | <atop:peridot_boots> | <atop:peridot_sword> | <atop:peridot_pickaxe> | <atop:peridot_axe> | <atop:peridot_shovel> | <atop:peridot_hoe>;
-addRepairEntry(peridotItems, <ore:gemPeridot>);
+addRepairEntry(peridotItems, <contenttweaker:peridot_ingot>);
 
 var sapphireItems = <atop:sapphire_helmet> | <atop:sapphire_chestplate> | <atop:sapphire_leggings> | <atop:sapphire_boots> | <atop:sapphire_sword> | <atop:sapphire_pickaxe> | <atop:sapphire_axe> | <atop:sapphire_shovel> | <atop:sapphire_hoe>;
-addRepairEntry(sapphireItems, <ore:gemSapphire>);
+addRepairEntry(sapphireItems, <contenttweaker:sapphire_ingot>);
 
 
 

@@ -340,5 +340,4 @@ mods.rats.recipes.addChefRatRecipe(<rats:tiny_coin>, <harvestcraft:chocolatespri
 mods.rats.recipes.addChefRatRecipe(<nyx:fallen_star>, <harvestcraft:starfruititem>);
 
 //gem cutter rat recipes
-mods.rats.recipes.addGemcutterRatRecipe(<nyx:fallen_star>, <minecraft:glowstone_dust>*2);
 mods.rats.recipes.addGemcutterRatRecipe(<minecraft:nether_star>, <nyx:fallen_star>*16);

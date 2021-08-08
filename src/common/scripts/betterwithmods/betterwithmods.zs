@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.ltt.LootTable;
+import mods.advancedmortars.Mortar;
 import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Turntable;
 import mods.betterwithmods.FilteredHopper;
@@ -265,9 +266,9 @@ recipes.addShaped("betterminingcharge",<betterwithmods:mining_charge>*4,[
     [null,<betterwithmods:dynamite_bundle>,null]
 ]);
 
-//Descriptions
-
-
+// Dusts
+Mortar.addRecipe(["diamond"], <betterwithmods:material:18>, 12, [<minecraft:coal:0>]);
+Mortar.addRecipe(["diamond"], <betterwithmods:material:37>, 12, [<minecraft:coal:1>]);
 
 // Remove unused refined weapons
 JEI.removeAndHide(<betterwithmods:steel_battleaxe>);
