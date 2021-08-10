@@ -1,4 +1,4 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-gamestage silentadd @p killedWraughtnaut
+gamestage silentadd @p killedWroughtnaut
 tellraw @p ["",{"text":"A font of mind-touching magick releases from the wraughtnaut.","color":"blue","italic":true}]
