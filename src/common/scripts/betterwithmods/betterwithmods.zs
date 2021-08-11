@@ -279,14 +279,31 @@ Anvil.removeShaped(<betterwithmods:steel_sword>);
 
 
 // Heat sources
-/*
-HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=north,lit=true>, 1);
-HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=east,lit=true>, 1);
-HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=south,lit=true>, 1);
-HeatRegistry.addHeatSource(<blockstate:futuremc:campfire:facing=west,lit=true>, 1);
-HeatRegistry.addHeatSource(<futuremc:campfire>, 1);
-*/
-//HeatRegistry.addHeatSource(<betternether:cincinnasite_fire_bowl>, 1);
+// HeatRegistry.addHeatSource([blockstates], displayStack, heatLevel);
+HeatRegistry.addHeatSource([
+    <blockstate:pyrotech:campfire:ash=0,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=1,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=2,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=3,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=4,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=5,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=6,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=7,variant=lit>,
+    <blockstate:pyrotech:campfire:ash=8,variant=lit>
+], <pyrotech:campfire>, 1);
+
+HeatRegistry.addHeatSource([
+    <blockstate:futuremc:campfire:facing=north,lit=true>,
+    <blockstate:futuremc:campfire:facing=east,lit=true>,
+    <blockstate:futuremc:campfire:facing=south,lit=true>,
+    <blockstate:futuremc:campfire:facing=west,lit=true>
+], <futuremc:campfire>, 1);
+
+HeatRegistry.addHeatSource([
+    <blockstate:betternether:cincinnasite_fire_bowl:state=true>
+], <betternether:cincinnasite_fire_bowl>, 1);
 HeatRegistry.addHeatSource(<arcanearchives:brazier_of_hoarding>, 1);
-HeatRegistry.addHeatSource(<contenttweaker:fire_block>, 1);
-HeatRegistry.addHeatSource(<blockstate:minecraft:fire>, 1);
+HeatRegistry.addHeatSource([
+    <blockstate:minecraft:fire>,
+    <blockstate:contenttweaker:fire_block>
+], <contenttweaker:fire_block>, 1);
