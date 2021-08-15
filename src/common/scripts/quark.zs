@@ -23,6 +23,7 @@ JEI.removeAndHide(<quark:purpur_block_wall>);
 JEI.removeAndHide(<quark:red_nether_brick_stairs>);
 JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 JEI.removeAndHide(<quark:smoker>);
+JEI.removeAndHide(<quark:polished_stone>);
 
 <quark:rune:*>.addTooltip("Colors enchanted items in an anvil."); // Because so many people dunno its use.
 
@@ -36,6 +37,7 @@ recipes.removeByRecipeName("quark:gold_button");
 recipes.removeByRecipeName("quark:iron_plate_1");
 recipes.removeByRecipeName("quark:iron_ladder");
 recipes.removeByRecipeName("quark:hopper");
+recipes.removeByRecipeName("quark:stone_slab");
 recipes.removeByRecipeName("quark:sandy_bricks");
 recipes.addShapeless("sandy_bricks",<quark:sandy_bricks>,[<minecraft:brick_block>,<ore:sand>]);
 

@@ -24,7 +24,7 @@ JEI.removeAndHide(<harvestcraft:apiary>);
 <ore:listAllmeatraw>.remove(<harvestcraft:grubitem>);
 <ore:mulchNitrogen>.remove(<harvestcraft:grubitem>);
 furnace.setFuel(<harvestcraft:beeswaxitem>, 0);
-furnace.setFuel(<harvestcraft:pressedwax>, 2400);
+furnace.setFuel(<harvestcraft:pressedwax>, 600);
 
 JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<minecraft:bread>);

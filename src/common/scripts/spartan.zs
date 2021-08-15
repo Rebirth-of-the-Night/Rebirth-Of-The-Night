@@ -161,11 +161,11 @@ JEI.addDescription(<spartanshields:shield_basic_lead>, "It's on the edge of the 
 
 //Gem forged shield
 val qualityGem = <ore:Gem_highQuality>;
-val polishedPapiz = <betterwithmods:material:20>;
+val polishedLapiz = <betterwithmods:material:20>;
 recipes.addShaped("gem_forged_shield", <spartanshields:shield_basic_diamond>,
 [
 	[qualityGem, null, qualityGem],
-    [<ore:gemDiamond>, polishedPapiz, <ore:gemDiamond>],
+    [<ore:gemDiamond>, polishedLapiz, <ore:gemDiamond>],
     [null, <ore:gemDiamond>, null]
 ]);
 mods.vanillaanvilrepair.addRepairEntry(<spartanshields:shield_basic_diamond>, qualityGem);

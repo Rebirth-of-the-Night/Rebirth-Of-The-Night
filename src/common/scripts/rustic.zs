@@ -32,7 +32,7 @@ var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amo
 <ore:listAllsugar>.add(<rustic:honeycomb>);
 <ore:listAllsugar>.add(honeyBottle);
 
-furnace.setFuel(<rustic:beeswax>, 400);
+furnace.setFuel(<rustic:beeswax>, 100);
 
 
 recipes.remove(<rustic:liquid_barrel>);
