@@ -5,7 +5,7 @@ setDescription("Mine magicite.")
 addParent("triumph:advancements/magick/leyoftheland/leyoftheland")
 
 criteria = addCriteria("Magicite Harvest", "triumph:player_harvest_block")
-criteria.setItem(<quark:crystal>)
+criteria.setBlock(<ore:magicite>)
 
 alwaysVisible()
 // (horizontal, vertical)

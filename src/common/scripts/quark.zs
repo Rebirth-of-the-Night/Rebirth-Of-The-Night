@@ -392,3 +392,18 @@ recipes.addShaped("dark_quartz_wall", <quark:quartz_wall> * 6, [
   [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>],
   [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>]
 ]);
+
+// oredict magicite
+
+val oreMagicite = <ore:magicite>;
+oreMagicite.add(
+  <quark:crystal:0>,
+  <quark:crystal:1>,
+  <quark:crystal:2>,
+  <quark:crystal:3>,
+  <quark:crystal:4>,
+  <quark:crystal:5>,
+  <quark:crystal:6>,
+  <quark:crystal:7>,
+  <quark:crystal:8>
+);
