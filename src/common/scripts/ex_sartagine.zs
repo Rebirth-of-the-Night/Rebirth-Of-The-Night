@@ -20,12 +20,14 @@ val cobble = <ore:cobblestone>;
 val bowl = <minecraft:bowl>;
 val charcoalBlock = <pyrotech:charcoal_block>;
 val ironBlock = <ore:blockIron>;
+val ejectionPipe = <dungpipe:sewer_pipe>;
+val masonryBrick = <pyrotech:material:16>;
 
 // recipes.remove(<exsartagine:kettle>); // no built-in recipe yet
 recipes.addShaped("exsar_kettle", <exsartagine:kettle>, [
-    [genericMetal, genericMetal, genericMetal],
+    [null, genericMetal, null],
     [genericMetal, genericBars, genericMetal],
-    [genericMetal, bucket, genericMetal]
+    [null, genericMetal, null]
 ]);
 
 recipes.remove(<exsartagine:pan>);
@@ -36,27 +38,28 @@ recipes.addShaped("exsar_pan", <exsartagine:pan>, [
 
 recipes.remove(<exsartagine:pot>);
 recipes.addShaped("exsar_pot", <exsartagine:pot>, [
-    [genericMetal, bowl, genericMetal],
+    [genericMetal, null, genericMetal],
     [cobble, bucket, cobble],
     [cobble, cobble, cobble]
 ]);
 
 recipes.remove(<exsartagine:range>);
 recipes.addShaped("exsar_range", <exsartagine:range>, [
-    [genericMetal | brick, genericMetal | brick, genericMetal | brick],
-    [genericMetal | brick, charcoalBlock, <minecraft:furnace>],
-    [ironBlock, ironBlock, ironBlock] // At least make it expensive enough so it isnt easily crafted
+    [ejectionPipe, genericMetal | brick, genericMetal | brick],
+    [masonryBrick, <minecraft:furnace>, <ore:bars>],
+    [masonryBrick, masonryBrick, masonryBrick]
 ]);
 
 val basicWorktable = <artisanworktables:worktable:5> | <minecraft:crafting_table>;
-val chefToque = <rats:chef_toque>;
+val chefToque = <rats:chef_toque>.anyDamage().transformDamage();
 val ckit_temp = <contenttweaker:cooking_kit>.anyDamage();
 var cookKitKettle = <contenttweaker:cooking_kit>.anyDamage().transformDamage();
+var stone_slab = <ore:stoneSlab>;
 
 recipes.addShaped("chef_workstation", <artisanworktables:workstation:11>, [
+    [cobble, stone_slab, cobble],
     [cobble, chefToque, cobble],
-    [genericMetal, basicWorktable, genericMetal],
-    [cobble, cookKitKettle, cobble]
+    [cobble, cobble, cobble]
 ]);
 
 var tempKnives = <harvestcraft:cuttingboarditem>.anyDamage(); // Forget if this can take damage, so just in case

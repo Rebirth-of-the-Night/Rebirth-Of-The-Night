@@ -374,6 +374,20 @@ for i, dirt in coarseDirtArray {
 var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
 var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
 
+recipes.removeByRecipeName("minecraft:cauldron");
+recipes.addShaped("cauldron",<minecraft:cauldron>,[
+    [<ore:genericMetal>, null, <ore:genericMetal>],
+	[<ore:genericMetal>,null,<ore:genericMetal>],
+	[<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
+]);
+
+recipes.removeByRecipeName("rustic:crushing_tub");
+recipes.addShaped("crushing_tub",<rustic:crushing_tub>,[
+    [<ore:plankWood>, null, <ore:plankWood>],
+	[<ore:genericMetal>,null,<ore:genericMetal>],
+	[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]
+]);
+
 recipes.removeByRecipeName("biomesoplenty:sand_from_dried_sand");
 recipes.addShapeless("sand_from_dried_sand_quality",<minecraft:sand>,[
     <biomesoplenty:dried_sand>, flimsywaterbucket

@@ -14,7 +14,7 @@ import mods.betterwithmods.MiniBlocks;
 Chopping.removeAllRecipes();
 StoneSawmill.removeAllRecipes();
 
-var removeArray = [<minecraft:pumpkin>, <minecraft:vine>, <minecraft:yellow_flower:0>, <minecraft:brown_mushroom>, <minecraft:red_mushroom>, <betterwithmods:rope>, <minecraft:red_flower:0>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>, <minecraft:red_flower:8>] as IItemStack[];
+var removeArray = [<minecraft:pumpkin>, <minecraft:vine>, <minecraft:yellow_flower:0>, <minecraft:brown_mushroom>, <minecraft:red_mushroom>, <betterwithmods:rope>, <minecraft:red_flower:0>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>, <minecraft:red_flower:8>,<minecraft:noteblock>] as IItemStack[];
 for i in removeArray{
     Saw.remove(i);
 }

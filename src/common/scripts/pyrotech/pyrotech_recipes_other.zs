@@ -13,6 +13,7 @@ JEI.removeAndHide(<pyrotech:crate>);
 
 CompactingBin.removeAllRecipes();
 CompactingBin.addRecipe("dirt_from_pile", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4);
+CompactingBin.addRecipe("rammed_from_dirt", <earthworks:block_rammed_earth>, <minecraft:dirt>, 3);
 CompactingBin.addRecipe("chips_pile_from_chips", <pyrotech:pile_wood_chips>, <pyrotech:rock:7>, 8);
 CompactingBin.addRecipe("ash_pile_from_ash", <biomesoplenty:ash_block>, <biomesoplenty:ash>, 9);
 CompactingBin.addRecipe("ash_pile_from_big_ash", <biomesoplenty:ash_block>, <pyrotech:material>, 3);
