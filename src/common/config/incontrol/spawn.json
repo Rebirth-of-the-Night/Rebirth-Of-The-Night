@@ -3000,5 +3000,16 @@
     "dimension": 0,
     "mob": "mod_lavacow:scarecrow",
     "result": "deny"
- }
+ },
+/////// Attach loot tables for use with loot tweaker here
+	//only make onjoin true when testing /summon or spawn eggs 
+	
+	//badger
+	{
+	"mob": "betteranimalsplus:badger",
+	"dimension": 0,
+	"onjoin": false,
+	"result": "default",
+	"nbt": {"DeathLootTable": "rotn:bap_badger"},
+	}
 ]

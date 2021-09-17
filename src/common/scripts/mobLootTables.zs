@@ -1,4 +1,5 @@
 import loottweaker.LootTweaker;
+import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.data.IData;
 import crafttweaker.item.WeightedItemStack;
@@ -109,14 +110,15 @@ val lslimeMain = lootSlime.getPool("treasureslime_spawnitem");
 lslimeMain.removeEntry("minecraft:diamond");
 lslimeMain.removeEntry("minecraft:ender_eye");
 lslimeMain.removeEntry("minecraft:blaze_powder");
-lslimeMain.addItemEntryHelper(<betterwithmods:material:26>, 4, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<dungeontactics:diamond_nugget>, 1, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<iceandfire:silver_nugget>, 5, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<simpleores:copper_ingot>, 6, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<simpleores:tin_ingot>, 5, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<harvestcraft:dragonfruititem>, 6, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<harvestcraft:limeitem>, 7, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<dungeontactics:magic_powder>, 1, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<betterwithmods:material:26>, 16, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<dungeontactics:diamond_nugget>, 4, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<iceandfire:silver_nugget>, 20, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<simpleores:copper_ingot>, 24, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<simpleores:tin_ingot>, 20, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<harvestcraft:dragonfruititem>, 24, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<harvestcraft:limeitem>, 28, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<dungeontactics:magic_powder>, 4, 10, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntryHelper(<contenttweaker:4leaf_clover>, 1, 20, [Functions.setCount(1, 1)], []);
 
 
 //Filch Lizard Spawn Items
@@ -130,15 +132,15 @@ filchMain.addItemEntryHelper(<harvestcraft:agaveseeditem>, 6, 0, [Functions.setC
 filchMain.addItemEntryHelper(<harvestcraft:cactusfruitseeditem>, 5, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:bone>, 5, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_resin>, 3, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<minecraft:poisonous_potato>, 3, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntryHelper(<minecraft:poisonous_potato>, 3, -10, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<iceandfire:silver_ingot>, 3, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<minecraft:rabbit_foot>, 2, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntryHelper(<minecraft:rabbit_foot>, 2, 3, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:torch>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<totemexpansion:totem_base>, 2, 0, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<harvestcraft:pizzasliceitem>, 1, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_egg>, 1, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<dungeontactics:bag_food>, 1, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntryHelper(<harvestcraft:pizzasliceitem>, 1, 5, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_egg>, 1, 5, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntryHelper(<dungeontactics:bag_food>, 1, 5, [Functions.setCount(1, 1)], []);
 
 //Filch Lizard Steal Items
 val stealFilch = LootTweaker.getTable("primitivemobs:entities/special/filch_lizard_steal");
@@ -327,7 +329,6 @@ for i in hauntedToolsRemove {
     LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").removeEntry(i);
 }
 
-
 //spider silk
 val lootSpider = LootTweaker.getTable("minecraft:entities/spider");
 val lspiderMain = lootSpider.getPool("main");
@@ -351,3 +352,19 @@ sheepPrimeMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Func
 val sheepTable = LootTweaker.getTable("animania:sheep_regular");
 val sheepMeat = sheepTable.getPool("meat");
 sheepMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
+
+//new loot tables must be assigned to entities via spawn.json, within Incontrol's config folder 
+
+//Badger Loot
+val badgerTable = LootTweaker.newTable("rotn:bap_badger");
+val badgerPool1 = badgerTable.addPool("pool1",1,1,0,0);
+badgerPool1.addEmptyEntry(250, 0, "no_drops");
+badgerPool1.addItemEntry(<primitivemobs:wonder_sap>, 85, 0, [Functions.setCount(1, 2)], []);
+badgerPool1.addItemEntry(<rats:little_black_worm>, 80, 0, [Functions.setCount(1, 4)], []);
+badgerPool1.addItemEntry(<contenttweaker:steel_artifact>, 35, 0, [Functions.setCount(1, 1)], []);
+
+badgerPool1.addItemEntry(<primitivemobs:wonder_sap>, 1, 1000, [Functions.setCount(2, 3)], []); //luck
+badgerPool1.addItemEntry(<rats:little_black_worm>, 1, 1000, [Functions.setCount(2, 4)], []); //luck
+badgerPool1.addItemEntry(<contenttweaker:steel_artifact>, 2, 1000, [Functions.setCount(1, 2)], []); //luck
+
+badgerPool1.addItemEntry(<primitivemobs:wonder_sap>, 1, 0, [Functions.setCount(2, 5)], [Conditions.randomChanceWithLooting(0.925, 60.0)]); //looting
