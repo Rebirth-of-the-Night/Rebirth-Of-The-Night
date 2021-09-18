@@ -108,6 +108,8 @@ val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
 val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<betternether:quartz_glass_framed:*>|<netherex:soul_glass>;
 val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
+val timber = <earthworks:item_timber>;
+val fiber = <pyrotech:material:12>;
 
 recipes.addShapeless("pyro_matchstick_broken_stick",<pyrotech:matchstick>,
 [<pyrotech:tinder>,<contenttweaker:broken_stick>,<contenttweaker:broken_stick>]);
@@ -259,7 +261,9 @@ recipes.addShaped("refractory_drain", <pyrotech:tar_drain:1>,
  [[refractoryBrick,refractoryBrick,refractoryBrick],
   [null, null, null],
   [refractoryBrick,refractoryBrick,refractoryBrick]]);
-recipes.addShaped("Standing_dryingrack", <pyrotech:drying_rack:1>,
+recipes.addShaped("hanging_dryingrack", <pyrotech:drying_rack:0>,
+ [[fiber,timber,fiber]]);
+recipes.addShaped("standing_dryingrack", <pyrotech:drying_rack:1>,
  [[null,ladder,null],
   [ladder,null,ladder]]);
 recipes.addShaped("coalcoke_block", <pyrotech:coal_coke_block>,
