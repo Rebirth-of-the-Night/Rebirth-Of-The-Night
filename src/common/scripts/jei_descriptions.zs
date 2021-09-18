@@ -81,8 +81,7 @@ JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword, it's
 JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power.");
 JEI.addDescription(<dungeontactics:silver_sword>,"The True Dark's Edge is a living blade fused with the endless power of the fallen. Its abilities allow you to draw strength from other's suffering, empower yourself by siphoning power from the blade itself, and strike at your enemies' souls, bypassing some of their armor.");
 
-JEI.addDescription(<pyrotech:bow_drill>,"More durable than a simple flint and tinder. Can light a kiln if held down for enough time.");
-JEI.addDescription(<pyrotech:flint_and_tinder:*>,"Made with common materials. Can light a kiln if held down, but it is rather fragile. Not as convenient as a flint and steel.");
+JEI.addDescription(<pyrotech:matchstick>,"Of a single use and made with common materials. It Can light a kiln if held down but it is not as convenient as a flint and steel.");
 
 JEI.addDescription(<toolbelt:belt>,"A rudimentary belt crafted using leather straps and durable fibers. A convenient way of holding many tools for quick access on one's person. Once you put on the belt, hold ` (by default, can be rebound) to access the pouches and add or remove items. Holds two tools by default, and every Belt Pouch you attach in an Iron Anvil allows it to hold one more, up to nine.");
 JEI.addDescription(<toolbelt:pouch>,"Attach these to a Tool Belt in an Iron Anvil to allow your Tool Belt to hold more tools. Every Belt Pouch you attach allows it to hold one more tool, up to nine.");
