@@ -3010,6 +3010,6 @@
 	"dimension": 0,
 	"onjoin": false,
 	"result": "default",
-	"nbt": {"DeathLootTable": "rotn:bap_badger"},
+	"nbt": {"DeathLootTable": "rotn:bap_badger"}
 	}
 ]
