@@ -109,6 +109,7 @@ Create a minecraft instance to run the files located in your project's `build/te
     ```sh
     mklink /d "<path-to-your-instance>/.minecraft" "<path-to-your-repo>/build/test"
     ```
+   ❗ If you're not building a test instance, but a client instead, be sure to change it in the path above.
 
    ❗ Be sure to put quotes around the target directory if there are spaces.
    
