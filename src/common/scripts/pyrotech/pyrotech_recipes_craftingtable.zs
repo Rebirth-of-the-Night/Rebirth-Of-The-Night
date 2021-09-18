@@ -102,6 +102,7 @@ furnace.remove(<pyrotech:material:15>);
 //Simplified recipes
 val stone = <ore:stone>;
 val stoneBrick = <pyrotech:material:16>;
+val refractoryMaterial = <pyrotech:material:4>;
 val refractoryBrick = <pyrotech:material:5>;
 val dry = <pyrotech:tinder>;
 val twine = <pyrotech:material:14>;
@@ -127,9 +128,9 @@ recipes.addShaped("pyrorock_stone_brick", stoneBrick*2,
 [[rock],
 [rock]]);
 recipes.addShaped("pyro_stone_kiln", <pyrotech:stone_kiln>,
- [[stoneBrick,stoneBrick,stoneBrick],
-  [stoneBrick,<minecraft:furnace>,stoneBrick],
-  [stoneBrick,<ore:StoneHugeBrick>,stoneBrick]]);
+ [[stoneBrick,null,stoneBrick],
+  [<ore:mortarCommon>|<biomesoplenty:mudball>,stoneBrick,<ore:mortarCommon>|<biomesoplenty:mudball>],
+  [stoneBrick,null,stoneBrick]]);
 recipes.addShaped("pyro_stone_anvil", <pyrotech:anvil_granite>,
  [[<ore:stoneSlab>],
   [<ore:stone>]]);
@@ -137,9 +138,9 @@ recipes.addShaped("pyro_steel_anvil", <pyrotech:anvil_iron_plated>,
  [[<ore:plateSoulforgedSteel>],
   [<pyrotech:anvil_granite>]]);
 recipes.addShaped("pyro_refractory_brick_kiln", <pyrotech:brick_kiln>,
- [[refractoryBrick,refractoryBrick,refractoryBrick],
-  [refractoryBrick,<minecraft:furnace> | <pyrotech:stone_kiln>,refractoryBrick],
-  [refractoryBrick,<pyrotech:refractory_brick_block>,refractoryBrick]]);
+ [[refractoryBrick,null,refractoryBrick],
+  [refractoryMaterial,refractoryBrick,refractoryMaterial],
+  [refractoryBrick,null,refractoryBrick]]);
 recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
  [[<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],
@@ -208,12 +209,12 @@ recipes.addShaped("pyro_stone_faucet", <pyrotech:faucet_stone>*2,
   [<ore:twine>,stoneBrick,<ore:twine>]]);
 recipes.addShaped("pyro_refractory_faucet", <pyrotech:faucet_brick>*2,
  [[refractoryBrick,null,refractoryBrick],
-  [<pyrotech:material:4>,refractoryBrick,<pyrotech:material:4>]]);
+  [refractoryMaterial,refractoryBrick,refractoryMaterial]]);
 recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
   [null,<minecraft:clay_ball>,null]]);
-recipes.addShapeless("pyro_refracotrymaterial_slag", <pyrotech:material:4>, [<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
-recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[<pyrotech:material:4>]);
+recipes.addShapeless("pyro_refracotrymaterial_slag", refractoryMaterial, [<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
+recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[refractoryMaterial]);
 furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
 recipes.addShaped("masonry_stoneBricks", <minecraft:stonebrick:2>, 
 [[<pyrotech:material:16>, <pyrotech:material:16>],
@@ -222,9 +223,9 @@ recipes.addShaped("masonry_refractoryBricks", <pyrotech:refractory_brick_block>,
 [[refractoryBrick, refractoryBrick],
 [refractoryBrick, refractoryBrick]]);
 recipes.addShaped("refractoryBlock", <contenttweaker:unfiredrefractory>, 
-[[<pyrotech:material:4>, <pyrotech:material:4>],
-[<pyrotech:material:4>, <pyrotech:material:4>]]);
-recipes.addShapeless("refractoryfromblock", <pyrotech:material:4>*4,[<contenttweaker:unfiredrefractory>]);
+[[refractoryMaterial, refractoryMaterial],
+[refractoryMaterial, refractoryMaterial]]);
+recipes.addShapeless("refractoryfromblock", refractoryMaterial*4,[<contenttweaker:unfiredrefractory>]);
 furnace.addRecipe(<contenttweaker:refracotta>, <contenttweaker:unfiredrefractory>);
 recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,

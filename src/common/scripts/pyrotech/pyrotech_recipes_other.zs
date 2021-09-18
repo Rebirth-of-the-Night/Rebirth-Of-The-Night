@@ -26,10 +26,11 @@ CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>
 
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.removeRecipes(<pyrotech:material:13>);
-DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 2 * 60 * 20);
-DryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 2 * 60 * 20);
-DryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <harvestcraft:juteitem>, 2 * 60 * 20);
-DryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 3 * 60 * 20);
+DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 3 * 60 * 20);
+DryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 3 * 60 * 20);
+DryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <harvestcraft:juteitem>, 3 * 60 * 20);
+DryingRack.addRecipe("dry_adobe", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 6 * 60 * 20 );
+DryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 4 * 60 * 20);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);

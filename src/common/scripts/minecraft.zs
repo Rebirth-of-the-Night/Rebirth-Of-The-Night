@@ -50,6 +50,7 @@ furnace.remove(<ore:nuggetIron>);
 furnace.remove(<minecraft:brick>);
 
 furnace.setFuel(<ore:barkWood>, 100);
+furnace.setFuel(<contenttweaker:charmpeat>, 3200);
 
 // raw ores
 furnace.addRecipe(<simpleores:tin_ingot>, <contenttweaker:raw_tin>);
@@ -1351,6 +1352,7 @@ mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:
 val stoneBrickBlockMap = {
 	<minecraft:brick> : [<minecraft:brick_block>,<contenttweaker:loose_clay_bricks>],
 	<biomesoplenty:mud_brick> : [<biomesoplenty:mud_brick_block>,<contenttweaker:loose_mud_bricks>],
+	<earthworks:item_adobe> : [<earthworks:block_adobe>,<contenttweaker:loose_adobe_bricks>],
 	<minecraft:netherbrick> : [<minecraft:nether_brick>,<contenttweaker:loose_nether_bricks>],
 	<pyrotech:material:5> : [<pyrotech:refractory_brick_block>,<contenttweaker:loose_refractory_bricks>],
 	<ceramics:unfired_clay:5> : [<ceramics:clay_hard>,<contenttweaker:loose_porcelain_bricks>],
@@ -1389,7 +1391,7 @@ val stoneBrickBlockMap = {
 	<contenttweaker:brick_lignite> : [<contenttweaker:big_lignite_bricks>,<contenttweaker:loose_big_lignite_bricks>],
 	<contenttweaker:brick_dolomite> : [<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
 	<contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
-	<contenttweaker:brick_chert> : [<undergroundbiomes:sedimentary_stone:7>,<contenttweaker:loose_big_chert_bricks>],
+	<contenttweaker:brick_chert> : [<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
 	<pyrotech:material:16> : [<pyrotech:stone_bricks>,<contenttweaker:loose_stone_bricks>]
 //	serpentinite : [,],
 //	<contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],

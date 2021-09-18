@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+		"top": "contenttweaker:blocks/unfired_adobe_brick",
+        "bottom": "contenttweaker:blocks/unfired_adobe_brick",
+		"side": "contenttweaker:blocks/unfired_adobe_brick",
+		"particle": "contenttweaker:blocks/unfired_adobe_brick"
+    },
+    "model": "betterwithmods:brick",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

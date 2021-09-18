@@ -23,18 +23,19 @@ StoneKiln.addRecipe("bwmpottery1", <betterwithmods:planter>, <betterwithmods:unf
 StoneKiln.addRecipe("bwmpottery2", <rustic:vase>, <contenttweaker:pot_unfired>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery3", <betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery4", <betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 20*210, true);
-StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 20*240, true);
-StoneKiln.addRecipe("bwmclaybrick", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*240, true);
-StoneKiln.addRecipe("bwmmudbrick", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 20*240, true);
-StoneKiln.addRecipe("bwmrefractorybrick", <pyrotech:material:5>, <contenttweaker:unfired_refractory_brick>, 20*280, true);
-StoneKiln.addRecipe("bwmporcelainbrick", <ceramics:unfired_clay:5>, <contenttweaker:unfired_porcelain_brick>, 20*300, true);
-StoneKiln.addRecipe("bwmcobble_to_stone", <minecraft:stone:0>, <minecraft:cobblestone:0>, 20*210, true);
-StoneKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*210, true);
-StoneKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*210, true);
-StoneKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*210, true);
-StoneKiln.addRecipe("mudbrick_to_clay", <minecraft:clay_ball>, <biomesoplenty:mud_brick>, 20*210, true);
+StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 20*360, true);
+StoneKiln.addRecipe("bwmclaybrick", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*400, true);
+StoneKiln.addRecipe("bwmadobebrick", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 20*290, true);
+StoneKiln.addRecipe("bwmmudbrick", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 20*400, true);
+StoneKiln.addRecipe("bwmrefractorybrick", <pyrotech:material:5>, <contenttweaker:unfired_refractory_brick>, 20*480, true);
+StoneKiln.addRecipe("bwmporcelainbrick", <ceramics:unfired_clay:5>, <contenttweaker:unfired_porcelain_brick>, 20*480, true);
+StoneKiln.addRecipe("bwmcobble_to_stone", <minecraft:stone:0>, <minecraft:cobblestone:0>, 20*400, true);
+StoneKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*400, true);
+StoneKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*400, true);
+StoneKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*400, true);
+StoneKiln.addRecipe("mudbrick_to_clay", <minecraft:clay_ball>, <biomesoplenty:mud_brick>, 20*360, true);
 StoneKiln.addRecipe("charge_to_burnt_goo", <betterslimes:black_slime>, <minecraft:fire_charge>, 20*300, true);
-StoneKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*290, true);
+StoneKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*360, true);
 StoneKiln.addRecipe("charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 20*290, 0.25, [<biomesoplenty:ash>*2], true);
 StoneKiln.addRecipe("bwmflint_block", <betterwithmods:aesthetic:5>, <ore:gravel>, 20*290, true);
 StoneKiln.addRecipe("whitecobble_to_stone", <betterwithmods:aesthetic:6>, <betterwithmods:aesthetic:7>, 20*280, true);
@@ -57,9 +58,18 @@ val metaStoneDef = <undergroundbiomes:metamorphic_stone>.definition;
 val metaCobbleDef = <undergroundbiomes:metamorphic_cobble>.definition;
 
 for i in 0 to 8 {
-    StoneKiln.addRecipe("igneous_cobble_to_stone_"~i, ignStoneDef.makeStack(i), ignCobbleDef.makeStack(i), 700, true);
-    StoneKiln.addRecipe("metamorphic_cobble_to_stone_"~i, metaStoneDef.makeStack(i), metaCobbleDef.makeStack(i), 700, true);
+    StoneKiln.addRecipe("igneous_cobble_to_stone_"~i, ignStoneDef.makeStack(i), ignCobbleDef.makeStack(i), 20*400, true);
+    StoneKiln.addRecipe("metamorphic_cobble_to_stone_"~i, metaStoneDef.makeStack(i), metaCobbleDef.makeStack(i), 20*400, true);
 }
+
+StoneKiln.addRecipe("sedimentary_cobble_to_stone0", <undergroundbiomes:sedimentary_stone:0>, <contenttweaker:limestone_cobble>, 20*400, true);
+StoneKiln.addRecipe("sedimentary_cobble_to_stone1", <undergroundbiomes:sedimentary_stone:1>, <contenttweaker:chalk_cobble>, 20*400, true);
+StoneKiln.addRecipe("sedimentary_cobble_to_stone2", <undergroundbiomes:sedimentary_stone:2>, <contenttweaker:shale_cobble>, 20*400, true);
+StoneKiln.addRecipe("sedimentary_cobble_to_stone3", <undergroundbiomes:sedimentary_stone:3>, <contenttweaker:siltstone_cobble>, 20*400, true);
+StoneKiln.addRecipe("sedimentary_cobble_to_stone4", <undergroundbiomes:sedimentary_stone:4>, <contenttweaker:lignite_cobble>, 20*400, true);
+StoneKiln.addRecipe("sedimentary_cobble_to_stone5", <undergroundbiomes:sedimentary_stone:5>, <contenttweaker:dolomite_cobble>, 20*400, true);
+StoneKiln.addRecipe("sedimentary_cobble_to_stone6", <undergroundbiomes:sedimentary_stone:6>, <contenttweaker:greywacke_cobble>, 20*400, true);
+StoneKiln.addRecipe("sedimentary_cobble_to_stone7", <undergroundbiomes:sedimentary_stone:7>, <contenttweaker:chert_cobble>, 20*400, true);
 
 StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 20*300, true);
 

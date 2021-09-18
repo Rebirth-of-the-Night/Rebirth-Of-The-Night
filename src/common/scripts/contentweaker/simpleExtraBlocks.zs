@@ -8,7 +8,22 @@ import mods.contenttweaker.Block;
 
 import mods.contenttweaker.AxisAlignedBB;
 
-/*Recipes for Extra Blocks are handled in the minecraft.zs script*/
+/*Recipes for Extra Blocks are handled in the minecraft.zs script
+/////////////////////////////////////////////////////////////////
+//////////////////////////IMPORTANT//////////////////////////////
+/////////////////////////////////////////////////////////////////
+When creating a simple block (opaque, same texture on all sides), 
+change its blockstate to use cube_all as its model, since the de-
+fault model does not cull faces and can decrease performance when
+used a lot. DO NOT FORGET to add a new texture key to the textu-
+res object like this:
+
+	"all": "contenttweaker:blocks/name_of_your_texture"
+	
+Otherwise, you will get missing texture blocks. special blocks
+(smaller, bigger, unique model, transparent, etc.)can ignore this
+rule.
+*/
 
 val rotn_b = VanillaFactory.createCreativeTab("rotn_blocks", <item:minecraft:stick>);
 rotn_b.register();
@@ -221,6 +236,24 @@ healing.setFullBlock(false);
 healing.register();
 
 // Placeable bricks
+// unfired adobe brick
+var unfired_adobe_brick = VanillaFactory.createBlock("unfired_adobe_brick", <blockmaterial:Ground>);
+unfired_adobe_brick.setCreativeTab(<creativetab:decorations>);
+unfired_adobe_brick.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    15.0 / 16.0
+	);
+unfired_adobe_brick.setFullBlock(false);
+unfired_adobe_brick.setLightOpacity(0);
+unfired_adobe_brick.setBlockLayer("TRANSLUCENT");
+unfired_adobe_brick.setBlockHardness(1.0);
+unfired_adobe_brick.setToolClass("shovel");
+unfired_adobe_brick.register();
+
 // unfired mud brick
 var unfired_mud_brick = VanillaFactory.createBlock("unfired_mud_brick", <blockmaterial:Ground>);
 unfired_mud_brick.setCreativeTab(<creativetab:decorations>);
@@ -705,40 +738,46 @@ loose_clay_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_clay_bricks.setGravity(true);
 loose_clay_bricks.setToolLevel(1);
 loose_clay_bricks.register();
+// Adobe
+var loose_adobe_bricks = VanillaFactory.createBlock("loose_adobe_bricks", <blockmaterial:Rock>);
+loose_adobe_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+loose_adobe_bricks.setGravity(true);
+loose_adobe_bricks.setToolLevel(1);
+loose_adobe_bricks.register();
 // Masonry
 var loose_stone_bricks = VanillaFactory.createBlock("loose_stone_bricks", <blockmaterial:Rock>);
 loose_stone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_stone_bricks.setGravity(true);
 loose_stone_bricks.setToolLevel(1);
-loose_stone_bricks.setBlockLayer("TRANSLUCENT");
+loose_stone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_stone_bricks.register();
 // Holystone
 var loose_holystone_bricks = VanillaFactory.createBlock("loose_holystone_bricks", <blockmaterial:Rock>);
 loose_holystone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_holystone_bricks.setGravity(true);
 loose_holystone_bricks.setToolLevel(1);
-loose_holystone_bricks.setBlockLayer("TRANSLUCENT");
+loose_holystone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_holystone_bricks.register();
 // Sandstone
 var loose_sandstone_bricks = VanillaFactory.createBlock("loose_sandstone_bricks", <blockmaterial:Rock>);
 loose_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_sandstone_bricks.setGravity(true);
 loose_sandstone_bricks.setToolLevel(1);
-loose_sandstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_sandstone_bricks.register();
 // Red Sandstone
 var loose_red_sandstone_bricks = VanillaFactory.createBlock("loose_red_sandstone_bricks", <blockmaterial:Rock>);
 loose_red_sandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_red_sandstone_bricks.setGravity(true);
 loose_red_sandstone_bricks.setToolLevel(1);
-loose_red_sandstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_red_sandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_red_sandstone_bricks.register();
 // Soulsandstone
 var loose_soulsandstone_bricks = VanillaFactory.createBlock("loose_soulsandstone_bricks", <blockmaterial:Rock>);
 loose_soulsandstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_soulsandstone_bricks.setGravity(true);
 loose_soulsandstone_bricks.setToolLevel(1);
-loose_soulsandstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_soulsandstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_soulsandstone_bricks.register();
 // Nether
 var loose_nether_bricks = VanillaFactory.createBlock("loose_nether_bricks", <blockmaterial:Rock>);
@@ -757,14 +796,14 @@ var loose_fiery_nether_bricks = VanillaFactory.createBlock("loose_fiery_nether_b
 loose_fiery_nether_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_fiery_nether_bricks.setGravity(true);
 loose_fiery_nether_bricks.setToolLevel(1);
-loose_fiery_nether_bricks.setBlockLayer("TRANSLUCENT");
+loose_fiery_nether_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_fiery_nether_bricks.register();
 // Basalt Nether
 var loose_basalt_nether_bricks = VanillaFactory.createBlock("loose_basalt_nether_bricks", <blockmaterial:Rock>);
 loose_basalt_nether_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_basalt_nether_bricks.setGravity(true);
 loose_basalt_nether_bricks.setToolLevel(1);
-loose_basalt_nether_bricks.setBlockLayer("TRANSLUCENT");
+loose_basalt_nether_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_basalt_nether_bricks.register();
 // Refractory
 var loose_refractory_bricks = VanillaFactory.createBlock("loose_refractory_bricks", <blockmaterial:Rock>);
@@ -777,7 +816,7 @@ var loose_porcelain_bricks = VanillaFactory.createBlock("loose_porcelain_bricks"
 loose_porcelain_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_porcelain_bricks.setGravity(true);
 loose_porcelain_bricks.setToolLevel(1);
-loose_porcelain_bricks.setBlockLayer("TRANSLUCENT");
+loose_porcelain_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_porcelain_bricks.register();
 // Coade
 var loose_big_coade_bricks = VanillaFactory.createBlock("loose_big_coade_bricks", <blockmaterial:Rock>);
@@ -802,7 +841,7 @@ var loose_big_dreadstone_bricks = VanillaFactory.createBlock("loose_big_dreadsto
 loose_big_dreadstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_dreadstone_bricks.setGravity(true);
 loose_big_dreadstone_bricks.setToolLevel(1);
-loose_big_dreadstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_big_dreadstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_big_dreadstone_bricks.register();
 // Red Granite
 var loose_big_red_granite_bricks = VanillaFactory.createBlock("loose_big_red_granite_bricks", <blockmaterial:Rock>);
@@ -977,14 +1016,14 @@ var loose_big_brimstone_bricks = VanillaFactory.createBlock("loose_big_brimstone
 loose_big_brimstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_brimstone_bricks.setGravity(true);
 loose_big_brimstone_bricks.setToolLevel(1);
-loose_big_brimstone_bricks.setBlockLayer("TRANSLUCENT");
+loose_big_brimstone_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_big_brimstone_bricks.register();
 // Permafrost
 var loose_big_permafrost_bricks = VanillaFactory.createBlock("loose_big_permafrost_bricks", <blockmaterial:Rock>);
 loose_big_permafrost_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 loose_big_permafrost_bricks.setGravity(true);
 loose_big_permafrost_bricks.setToolLevel(1);
-loose_big_permafrost_bricks.setBlockLayer("TRANSLUCENT");
+loose_big_permafrost_bricks.setBlockLayer("CUTOUT_MIPPED");
 loose_big_permafrost_bricks.register();
 
 // Sedimentary Bricks
