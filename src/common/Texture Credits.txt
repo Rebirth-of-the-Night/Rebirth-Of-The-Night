@@ -1,3 +1,6 @@
 Item Name // Texture Location // Texture Name // Credit
 
 Magicked Stone // resources\contenttweaker\textures\blocks // magicked_stone.png // Vazkii - Botania - Livingrock
+Loose Underground Biomes bricks // resources\contenttweaker\textures\blocks\loose_bricks // loose_big_X_bricks.png // Zeno410 - UndergroundBiomes
+    X = andesite/basalt/black_granite/blueschist/chalk/chert/dacite/dolomite/eclogite/gabbro/gneiss/greenschist/greywacke/komatiite
+Loose Adobe bricks // resources\contenttweaker\textures\blocks\loose_bricks // loose_adobe_bricks.png // Alsender  - Earthworks - adobe bricks
