@@ -65,7 +65,6 @@ val bwaArray = [
     <betterwithaddons:unbaked:1>,
     <betterwithaddons:unbaked:2>,
     <betterwithaddons:unbaked:3>,
-    <betterwithaddons:soulsand_pile>,
     <betterwithaddons:rotten_food>,
     <betterwithaddons:food_sashimi>,
     <betterwithaddons:food_mulberry>,

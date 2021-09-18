@@ -96,9 +96,6 @@ recipes.remove(<betterwithmods:donut>);
 JEI.removeAndHide(<betterwithmods:donut>);
 Cauldron.remove([<betterwithmods:donut>]);
 
-JEI.removeAndHide(<betterwithmods:gravel_pile>);
-JEI.removeAndHide(<betterwithmods:sand_pile>);
-JEI.removeAndHide(<betterwithmods:red_sand_pile>);
 recipes.removeByRecipeName("betterwithmods:piles/dirt_slab_0");
 JEI.removeAndHide(<betterwithmods:infernal_enchanter>);
 JEI.removeAndHide(<betterwithmods:arcane_scroll>);
