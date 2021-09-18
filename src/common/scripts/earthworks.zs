@@ -5,16 +5,22 @@ import mods.jei.JEI;
 JEI.removeAndHide(<craftingcraft:portable_crafting_table:1>);
 recipes.removeByMod("craftingcraft");
 
+val clay = <minecraft:clay_ball>;
 val cob = <earthworks:block_cob>;
 val cob_item = <earthworks:item_cob>;
 val log = <ore:logWood>;
 val rammed = <earthworks:block_rammed_earth>;
+val sandPile = <ore:pileSand>;
 val timber = <earthworks:item_timber>;
 val wattle = <earthworks:block_wattle>;
 val wicker = <betterwithmods:aesthetic:12>;
 val wicker_slab = <earthworks:itemslab_wicker>;
 val wicker_stair = <earthworks:stair_wicker>;
 val wicker_wall = <earthworks:wall_wicker>;
+val mud = <biomesoplenty:mudball>;
+val multilime = <pyrotech:material:8>;
+val binder = <ore:materialBinding>;
+val twine = <ore:twine>;
 
 // Replace wicker with BWM's
 recipes.remove(<earthworks:block_wicker>);
@@ -45,6 +51,7 @@ recipes.addShaped("wicker_wall",wicker_wall*6,[
 ]);
 
 recipes.removeByRecipeName("earthworks:block_wattle");
+recipes.removeByRecipeName("earthworks:block_wattle_alt");
 recipes.addShaped("wattle",wattle*8,[
     [cob,cob,cob],
 	[cob,wicker,cob],
@@ -59,12 +66,43 @@ recipes.addShaped("wattle_alt",wattle*2,[
 // Timber
 recipes.remove(timber);
 recipes.addShapedMirrored("timber",timber*12,[
-    [null,null,wicker],
-    [null,wicker,null],
-    [wicker,null,null]
+    [null,null,log],
+    [null,log,null],
+    [log,null,null]
 ]);
 
 // Rammed Earth
 recipes.remove(rammed);
 //Gets rammed using compactor in pyrotech_recipes_other.zs
 
+//Rich Slag acts as both quicklime and slaked lime
+//lime plaster
+recipes.remove(<earthworks:item_lime_plaster>);
+JEI.removeAndHide(<earthworks:item_slaked_lime>);
+JEI.removeAndHide(<earthworks:item_quicklime>);
+recipes.addShapeless("lime_plaster",<earthworks:item_lime_plaster>*4,[multilime, sandPile]);
+recipes.addShapeless("lime_plaster_binder",<earthworks:item_lime_plaster>*10,[multilime, multilime, multilime, multilime, twine, sandPile, sandPile, sandPile, sandPile]);
+
+//adove: reimplement with singe bricks and loose bricks block
+JEI.removeAndHide(<earthworks:item_adobe>);
+JEI.removeAndHide(<earthworks:wall_adobe>);
+JEI.removeAndHide(<earthworks:stair_adobe>);
+JEI.removeAndHide(<earthworks:itemslab_adobe>);
+JEI.removeAndHide(<earthworks:block_adobe>);
+
+//cob ball
+JEI.removeAndHide(<earthworks:item_mud>);
+JEI.removeAndHide(<earthworks:wall_mud>);
+JEI.removeAndHide(<earthworks:stair_mud>);
+JEI.removeAndHide(<earthworks:itemslab_mud>);
+JEI.removeAndHide(<earthworks:block_mud>);
+recipes.removeByRecipeName("earthworks:block_cob_alt_alt");
+recipes.remove(<earthworks:item_cob>);
+recipes.addShapeless("cob_ball",<earthworks:item_cob>*8,[clay, clay, clay, clay, binder, mud, mud, mud, mud]);
+
+//chalk: remove because ubc
+JEI.removeAndHide(<earthworks:item_chalk>);
+JEI.removeAndHide(<earthworks:block_chalk>);
+JEI.removeAndHide(<earthworks:itemslab_chalk>);
+JEI.removeAndHide(<earthworks:stair_chalk>);
+JEI.removeAndHide(<earthworks:wall_chalk>);
