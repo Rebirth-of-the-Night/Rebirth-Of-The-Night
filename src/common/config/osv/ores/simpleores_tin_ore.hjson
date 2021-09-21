@@ -30,9 +30,9 @@ gen: [
 	chance: 0.8
   },
   {
-	height : [20, 150]
-	size: 30
-	count: 20 
+	height : [50, 150]
+	size: 26
+	count: 10 
 	chance: 0.42
 	biomes: {
 		names: ["biomesoplenty:tropical_island","biomesoplenty:flower_island","minecraft:mushroom_island","biomesoplenty:land_of_lakes"]
@@ -40,7 +40,7 @@ gen: [
   },
   {
 	height : [1, 230]
-	size: 22
+	size: 18
 	count: 50 
 	chance: 0.8
 	biomes: {
