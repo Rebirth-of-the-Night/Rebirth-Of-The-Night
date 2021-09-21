@@ -56,6 +56,7 @@ Dropt.list("pile_red_sand")
 Dropt.list("pile_gravel")
 
   .add(Dropt.rule()
+	  .fallthrough()
       .matchBlocks(["minecraft:gravel"])
 	  .matchHarvester(Dropt.harvester()
           .type("PLAYER")
