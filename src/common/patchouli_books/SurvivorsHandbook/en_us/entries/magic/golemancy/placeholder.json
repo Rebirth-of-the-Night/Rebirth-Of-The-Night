@@ -1,7 +1,7 @@
 {
-  "name": "Magic Tree",
-  "icon": "biomesoplenty:sapling_0:3",
-  "category": "magic_dunamisnature_trees",
+  "name": "Placeholder",
+  "icon": "contenttweaker:info",
+  "category": "magic_golemancy",
   "pages": [
     {
       "type": "text",

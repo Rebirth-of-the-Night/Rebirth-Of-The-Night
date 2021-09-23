@@ -1,0 +1,7 @@
+{
+  "name": "Incantation",
+  "description": "The power of the word contains great magicks, ready to be tapped into with a single spoken word. It seems like I'm able to use languages of old to imbue magicks into parchments, books, paper and maybe even other objects.",
+  "icon": "arcaneworld:ritual_scroll",
+  "sortnum": 4,
+  "parent": "magic"
+}

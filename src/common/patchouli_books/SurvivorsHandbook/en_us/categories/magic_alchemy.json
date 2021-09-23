@@ -1,0 +1,7 @@
+{
+  "name": "Alchemy",
+  "description": "Magic seems to be found in plants, animal parts, and other natural sources in trace amounts. By distilling and cooking them up, I may be able to imbue myself with some of its magical properties for a short duration.",
+  "icon": "rustic:elixir",
+  "sortnum": 1,
+  "parent": "magic"
+}

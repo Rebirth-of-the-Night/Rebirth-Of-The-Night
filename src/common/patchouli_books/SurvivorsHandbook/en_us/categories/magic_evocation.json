@@ -1,0 +1,7 @@
+{
+  "name": "Evocation",
+  "description": "Seeped deep in the world, the spirits of old speak to us in cryptic whispers. They offer their secrets, knowledge and magick, but only to those willing to listen. There may be ways to harness these spirits and what they offer.",
+  "icon": "iceandfire:lich_staff",
+  "sortnum": 2,
+  "parent": "magic"
+}

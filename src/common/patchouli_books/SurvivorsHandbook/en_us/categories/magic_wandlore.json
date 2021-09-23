@@ -1,0 +1,7 @@
+{
+  "name": "Wandlore",
+  "description": "By harnessing the inate magic of wood and focusing magic through a carefully carved wand, I can channel magicks imbued into it with runes to cast powerful and helpful spells.",
+  "icon": "iceandfire:pixie_wand",
+  "sortnum": 9,
+  "parent": "magic"
+}

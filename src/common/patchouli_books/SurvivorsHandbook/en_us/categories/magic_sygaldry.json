@@ -1,0 +1,7 @@
+{
+  "name": "Sygaldry",
+  "description": "By representing the elements and raw magicks of the world with symbols, objects can be imbued with aspected magick. By combining runes, new magical effects can be produced and imbued into other things. ",
+  "icon": "contenttweaker:sol_rune",
+  "sortnum": 6,
+  "parent": "magic"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Warding",
+  "description": "Magick can be focused into condensed barriers or cast wide as auras, creating protective - and sometimes destructive - fields that offer me protection and ward off foes.",
+  "icon": "twilightforest:block_storage:4",
+  "sortnum": 10,
+  "parent": "magic"
+}

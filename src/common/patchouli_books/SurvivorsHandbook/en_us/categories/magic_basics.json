@@ -1,0 +1,7 @@
+{
+  "name": "The Basics of Dunamis",
+  "description": "The world around me is filled with exciting magical potential. However, there are some basics I must grasp first.",
+  "icon": "minecraft:writable_book",
+  "sortnum": 0,
+  "parent": "magic"
+}

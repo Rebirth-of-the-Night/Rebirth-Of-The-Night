@@ -1,0 +1,7 @@
+{
+  "name": "Theurgy",
+  "description": "Within the world of magick, there seems to exist some forces beyond our understanding. These forces hold knowledge of ancient powerful magicks. By performing rituals, it may be possible to invoke these magicks for my own use.",
+  "icon": "arcaneworld:glowing_chorus",
+  "sortnum": 8,
+  "parent": "magic"
+}

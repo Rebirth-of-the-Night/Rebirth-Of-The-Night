@@ -1,7 +1,7 @@
 {
-  "name": "Alicio Tree",
-  "icon": "betterwithaddons:sapling_luretree",
-  "category": "magic_dunamisnature_trees",
+  "name": "Placeholder",
+  "icon": "contenttweaker:info",
+  "category": "magic_theurgy",
   "pages": [
     {
       "type": "text",

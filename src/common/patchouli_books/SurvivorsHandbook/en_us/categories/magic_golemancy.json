@@ -1,0 +1,7 @@
+{
+  "name": "Golemancy",
+  "description": "To animate the inanimate. To control the uncontrollable. Some magicks are capable of imbuing artificial life into the lifeless, creating mobile and commandable objects out of ordinary things.",
+  "icon": "golems:golem_head",
+  "sortnum": 3,
+  "parent": "magic"
+}

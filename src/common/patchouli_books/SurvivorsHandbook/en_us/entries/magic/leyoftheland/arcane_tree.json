@@ -1,0 +1,44 @@
+{
+  "name": "Arcane Trees",
+  "icon": "aether_legacy:golden_oak_sapling",
+  "category": "magic_leyoftheland",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I seem to have stumbled upon wood with higher magical potency than the average tree. I also noticed trees with arcane magic have unique properties, serving atypical functions or yielding quite unusual... fruits. I may be able to use this wood for more complex magic."
+    },
+    {
+      "type": "text",
+      "text": "Due to the unique properties of some of these trees, I will record my findings on each tree here."
+    },
+    {
+      "type": "image",
+      "title": "Golden Oak",
+      "images": ["book:goldenoak.png"],
+      "border": "true",
+      "text": "A golden oak sits atop a floating Aether island."
+    },
+    {
+      "type": "text",
+      "text": "These trees, while not difficult to find, are uncommon variants of Skyroot trees in the Aether. Their shimmering leaves and gold-infused wood are a treasure to be desired. The amber from these trees seem to be gold-infused, giving it unique properties. Occassionally, I have spotted large clusters of these trees. I wonder what this signifies."
+    },
+    {
+      "type": "image",
+      "title": "Bloodwood Tree",
+      "images": ["book:goldenoak.png"],
+      "border": "true",
+      "text": "A golden oak sits atop a floating Aether island."
+    },
+    {
+      "type": "text",
+      "text": "A bloodthirsty tree!. It was only hapstance that I discovered this tree, as it doesn't seem to grow in the wild. Only through experimenting with combining saplings with souls was I able to create a sapling. Furthermore, they have an unquinchable thirst for blood and soul, growing exponentially so long as they are fed."
+    },    
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}
