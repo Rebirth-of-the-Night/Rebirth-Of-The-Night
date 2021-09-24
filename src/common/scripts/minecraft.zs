@@ -1412,8 +1412,12 @@ for brickItem, brickBlock in stoneBrickBlockMap{
     ]);
 }
 
+// removes block to brick furnace recipes:
+furnace.remove(<minecraft:netherbrick>);
+
+
 // ContentTweaker extra blocks recipes
-//All Lunarin bricks
+// All Lunarin bricks
 recipes.remove(<villagenames:lunaringoldbrick>);
 recipes.remove(<villagenames:lunarinironbrick>);
 recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
