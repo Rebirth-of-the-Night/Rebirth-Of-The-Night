@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "brick": "pyrotech:blocks/stone_bricks",
-	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_blackish"
+	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_grayish"
     },
     "model": "contenttweaker:loose_bricks",
     "uvlock": true,
