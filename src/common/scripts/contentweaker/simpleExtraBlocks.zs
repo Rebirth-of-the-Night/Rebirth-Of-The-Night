@@ -61,6 +61,8 @@ var charmpeat = VanillaFactory.createBlock("charmpeat", <blockmaterial:Ground>);
 charmpeat.setCreativeTab(<creativetab:rotn_blocks>);
 charmpeat.setBlockSoundType(<soundtype:Ground>);
 charmpeat.setToolClass("shovel");
+charmpeat.setToolLevel(0);
+charmpeat.setBlockHardness(3.7);
 charmpeat.register();
 
 // Halite /salt ore/
@@ -334,10 +336,12 @@ silverlunarin.register();
 // Viridium
 var viridiumlunarin = VanillaFactory.createBlock("lunarinviridiumbrick", <blockmaterial:Iron>);
 viridiumlunarin.setCreativeTab(<creativetab:rotn_blocks>);
+viridiumlunarin.setToolLevel(1);
 viridiumlunarin.register();
 // Mythril
 var mythrillunarin = VanillaFactory.createBlock("lunarinmythrilbrick", <blockmaterial:Iron>);
 mythrillunarin.setCreativeTab(<creativetab:rotn_blocks>);
+mythrillunarin.setToolLevel(2);
 mythrillunarin.register();
 // Endorium
 var endoriumlunarin = VanillaFactory.createBlock("lunarinendoriumbrick", <blockmaterial:Iron>);
@@ -366,11 +370,13 @@ knightlunarin.register();
 // Steel
 var steellunarin = VanillaFactory.createBlock("lunarinsteelbrick", <blockmaterial:Iron>);
 steellunarin.setCreativeTab(<creativetab:rotn_blocks>);
+steellunarin.setToolLevel(2);
 steellunarin.register();
 // Sfs
 var sfslunarin = VanillaFactory.createBlock("lunarinsfsbrick", <blockmaterial:Iron>);
 sfslunarin.setCreativeTab(<creativetab:rotn_blocks>);
 sfslunarin.register();
+sfslunarin.setToolLevel(3);
 // Mediterranean lunarin mama mia brick block
 var BBlunarin = VanillaFactory.createBlock("baguettebrick", <blockmaterial:Rock>);
 BBlunarin.setCreativeTab(<creativetab:rotn_blocks>);
