@@ -1,0 +1,26 @@
+{
+  "name": "Burning",
+  "icon": "minecraft:coal:1",
+  "category": "survival_newbeginning",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I found an effective way of generating charcoal with cheap materials. By compacting wood logs into log piles and enclosing the piles on all sides, if I start to burn one pile and quickly seal it off, ash piles of charcoal will be formed after letting it burn for some time."
+    },
+    {
+      "type": "text",
+      "text": "Placing tinder on the ground and filling it with logs makes for an easy campfire to cook with."
+    },
+    {
+      "type": "text",
+      "text": "A quick an easy way to make a fire starter is with some flint and tinder, though it doesn't last too long. However, I also found a bowdrill to be quite effective as well as durable."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}
