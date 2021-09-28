@@ -1,7 +1,7 @@
 {
-  "name": "Getting Around Entry",
-  "icon": "minecraft:leather_boots",
-  "category": "exploration_gettingaround",
+  "name": "Mounts/Rides",
+  "icon": "minecraft:saddle",
+  "category": "exploration",
   "advancement": "triumph:advancements/WIP",
   "pages": [
   {

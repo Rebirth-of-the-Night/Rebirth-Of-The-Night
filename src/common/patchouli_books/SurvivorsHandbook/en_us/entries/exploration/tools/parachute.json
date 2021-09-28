@@ -1,0 +1,18 @@
+{
+    "name": "Parachute",
+    "icon": "aether_legacy:golden_parachute",
+    "category": "exploration_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Though can only be effectively used once, parachutes made from aerclouds will be able to turn any lethal fall to a safe landing."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "adapt/twine",
+                "gather/sticks"
+            ]
+        }
+    ]
+}

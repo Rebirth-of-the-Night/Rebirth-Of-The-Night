@@ -1,0 +1,17 @@
+{
+    "name": "Carminberries",
+    "icon": "rustic:wildberries",
+    "category": "survival_gathering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "These bright red berries have a slight bit a sweetness to them. Though they aren't very filling, I can find them in almost any environment and season."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "agriculture/fiber_crops"
+            ]
+        }
+    ]
+}

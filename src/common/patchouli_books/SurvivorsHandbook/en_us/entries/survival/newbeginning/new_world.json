@@ -1,0 +1,27 @@
+{
+  "name": "A New World",
+  "icon": "minecraft:log:0",
+  "category": "survival_newbeginning",
+  "sortnum": -1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "I know I can survive in this world, but it won't be easy. My first priority should be to find some wood to make tools and a weapon. Next, I should gather whatever resources I can and prepare to make a shelter before the sun sets. Whatever the night brings, it won't be pleasant."
+    },
+    {
+      "type": "text",
+      "text": "Oddly enough, I feel like the daytime and nighttime lasts much longer than usual. How I came across this revelation is unbeknownst to me, but my intuition tells me the day and night cycle is 2 times longer than what it should be...$(br2)$(#158B1D)One day/night cycle in Rebirth of the Night lasts 40 minutes in real-time."
+    },
+    {
+      "type": "text",
+      "text": "Surviving in this world alone may prove to be a daunting task. I might try and look for others like me to take on this world together as a team.$(br2)$(#158B1D)You can find the Teams tab on the top left corner while accessing the inventory. Here you can create a team and invite other players to your team."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Dynamite",
+    "icon": "betterwithmods:dynamite_bundle",
+    "category": "exploration_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Mining out a large section of area or monsters might prove to be quite cumbersome, so I might resort to using dynamite and dynamite bundles to clear them."
+        },
+        {
+            "type": "text",
+            "text": "I can also make some mining charges with dynamite bundles to have a more controlled explosion specifically for mining."
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Tools",
+    "description": "In addition to my usual weapons and equipment, I'm going to need to bring handy tools and trinkets to handle longer adventures",
+    "icon": "earthworks:tool_compass",
+    "parent": "exploration"
+  }

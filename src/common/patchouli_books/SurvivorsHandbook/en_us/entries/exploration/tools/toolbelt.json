@@ -1,0 +1,18 @@
+{
+    "name": "Tool Belt",
+    "icon": "toolbelt:belt",
+    "category": "exploration_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Being prepared for all types of situations needs all types of tools, and the toolbelt is just what I need for quickly accessing my array of utilities at any time."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "adapt/twine",
+                "gather/sticks"
+            ]
+        }
+    ]
+}
