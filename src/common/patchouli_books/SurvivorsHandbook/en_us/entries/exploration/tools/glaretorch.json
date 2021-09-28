@@ -1,6 +1,6 @@
 {
     "name": "Glaretorch",
-    "icon": "quark:backpack",
+    "icon": "glaretorch:itemglaretorchlarge2",
     "category": "exploration_tools",
     "pages": [
         {

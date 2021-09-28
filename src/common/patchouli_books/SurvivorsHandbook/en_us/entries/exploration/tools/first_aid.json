@@ -1,6 +1,6 @@
 {
     "name": "First Aid",
-    "icon": "quark:backpack",
+    "icon": "scalinghealth:healingitem:1",
     "category": "exploration_tools",
     "pages": [
         {

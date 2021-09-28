@@ -1,6 +1,6 @@
 {
     "name": "Parachute",
-    "icon": "aether:cold_parachute",
+    "icon": "aether_legacy:golden_parachute",
     "category": "exploration_tools",
     "pages": [
         {
