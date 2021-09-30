@@ -22,5 +22,13 @@
 			},
 			"chance": 0.85
 		}
+	},
+	{
+		"__comment" : "Frozen aether trees",
+		"select": { "name": "biometweaker:aether_cliffs" },
+		"apply": {
+			"species": "skyroot",
+			"chance": 0.3
+		}
 	}
 ]

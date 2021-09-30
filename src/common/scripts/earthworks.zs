@@ -73,24 +73,21 @@ recipes.addShapedMirrored("timber",timber*12,[
 
 // Rammed Earth
 recipes.remove(rammed);
-//Gets rammed using compactor in pyrotech_recipes_other.zs
+// Gets rammed using compactor in pyrotech_recipes_other.zs
 
-//Rich Slag acts as both quicklime and slaked lime
-//lime plaster
+// Rich Slag acts as both quicklime and slaked lime
+// lime plaster
 recipes.remove(<earthworks:item_lime_plaster>);
 JEI.removeAndHide(<earthworks:item_slaked_lime>);
 JEI.removeAndHide(<earthworks:item_quicklime>);
 recipes.addShapeless("lime_plaster",<earthworks:item_lime_plaster>*4,[multilime, sandPile]);
 recipes.addShapeless("lime_plaster_binder",<earthworks:item_lime_plaster>*10,[multilime, multilime, multilime, multilime, twine, sandPile, sandPile, sandPile, sandPile]);
 
-//adove: reimplement with singe bricks and loose bricks block
-JEI.removeAndHide(<earthworks:item_adobe>);
-JEI.removeAndHide(<earthworks:wall_adobe>);
-JEI.removeAndHide(<earthworks:stair_adobe>);
-JEI.removeAndHide(<earthworks:itemslab_adobe>);
-JEI.removeAndHide(<earthworks:block_adobe>);
+// adove
+recipes.remove(<earthworks:item_adobe>);
+recipes.remove(<earthworks:block_adobe>);
 
-//cob ball
+// cob ball
 JEI.removeAndHide(<earthworks:item_mud>);
 JEI.removeAndHide(<earthworks:wall_mud>);
 JEI.removeAndHide(<earthworks:stair_mud>);
@@ -100,9 +97,17 @@ recipes.removeByRecipeName("earthworks:block_cob_alt_alt");
 recipes.remove(<earthworks:item_cob>);
 recipes.addShapeless("cob_ball",<earthworks:item_cob>*8,[clay, clay, clay, clay, binder, mud, mud, mud, mud]);
 
-//chalk: remove because ubc
+// chalk: remove because ubc
 JEI.removeAndHide(<earthworks:item_chalk>);
 JEI.removeAndHide(<earthworks:block_chalk>);
 JEI.removeAndHide(<earthworks:itemslab_chalk>);
 JEI.removeAndHide(<earthworks:stair_chalk>);
 JEI.removeAndHide(<earthworks:wall_chalk>);
+
+// dry fitted stone
+recipes.remove(<earthworks:block_dry_stone>);
+recipes.addShaped("dry_fit_stone",<earthworks:block_dry_stone>,[
+    [<ore:rock>,<ore:rock>,<ore:rock>],
+	[<ore:rock>,<ore:rock>,<ore:rock>],
+	[<ore:rock>,<ore:rock>,<ore:rock>]
+]);

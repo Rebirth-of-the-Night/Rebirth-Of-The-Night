@@ -1,2 +1,4 @@
 #Format is modId:biomeRegistryName=biomeWeight
 #Example being minecraft:forest=100
+aether_legacy:aether_highlands=100
+biometweaker:aether_cliffs=15

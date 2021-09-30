@@ -5,6 +5,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.CompactingBin;
 import mods.pyrotech.MechanicalCompactor;
+import mods.pyrotech.CrudeDryingRack;
 import mods.pyrotech.DryingRack;
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
@@ -24,13 +25,17 @@ CompactingBin.addRecipe("modeling_refractory", <contenttweaker:modelingrefractor
 CompactingBin.addRecipe("modeling_refractory1", <contenttweaker:modelingrefractory>, <pyrotech:material:4>, 16);
 CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>, 4);
 
+CrudeDryingRack.removeRecipes(<pyrotech:material:2>);
+CrudeDryingRack.removeRecipes(<pyrotech:material:13>);
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.removeRecipes(<pyrotech:material:13>);
-DryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 3 * 60 * 20);
-DryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 3 * 60 * 20);
-DryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <harvestcraft:juteitem>, 3 * 60 * 20);
-DryingRack.addRecipe("dry_adobe", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 6 * 60 * 20 );
-DryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 4 * 60 * 20);
+
+
+CrudeDryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 3 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 3 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <harvestcraft:juteitem>, 3 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dry_adobe", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 6 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 4 * 60 * 20, true);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);
