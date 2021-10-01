@@ -51,7 +51,7 @@ Enchanter.registerEnchantment(<aether_legacy:dungeon_block:2>, <aether_legacy:he
 
 //Gravitite Ingots
 Enchanter.removeEnchantment(<aether_legacy:gravitite_ore>);
-Enchanter.registerEnchantment(<ore:rawOreGravitite>.firstItem, <ore:ingotGravitite>, 200);
+Enchanter.registerEnchantment(<ore:rawOreGravitite>.firstItem, <ore:ingotGravitite>.firstItem, 200);
 
 //Aether Enchanter
 Enchanter.registerEnchanterFuel(elec,2400);
