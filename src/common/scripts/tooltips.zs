@@ -118,6 +118,8 @@
 <betterwithmods:steel_gearbox>.addTooltip("Won't break from weather!");
 <betterwithmods:steel_axle>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3.");
 
+<ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
+
 // Nyx
 <nyx:lunar_water_bottle>.addTooltip("Removes most negative potion effects");
 <nyx:scythe:*>.addTooltip("Destroys crops and plants in a 9x9x9 area");
