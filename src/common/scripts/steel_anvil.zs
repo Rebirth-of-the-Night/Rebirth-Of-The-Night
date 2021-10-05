@@ -222,87 +222,107 @@ var anvilSpartMap = {
 } as IItemStack[][IIngredient[]];
 
 for mat, spart in anvilSpartMap{
-    recipes.remove(spart[counter]);// battleaxe 0
-    Anvil.addShaped(spart[counter],[
-        [mat[0], mat[0], mat[0], null],
-        [null, mat[0], mat[1], mat[1]],
-        [null, mat[0], null, null],
-        [mat[0], mat[0], mat[0], null]
-    ]);
+    if(mat has <ore:gemOnyx> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// battleaxe 0
+        Anvil.addShaped(spart[counter],[
+            [mat[0], mat[0], mat[0], null],
+            [null, mat[0], mat[1], mat[1]],
+            [null, mat[0], null, null],
+            [mat[0], mat[0], mat[0], null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// boomerang 1
-    Anvil.addShaped(spart[counter],[
-        [mat[0], mat[1], mat[1]],
-        [mat[1], null, null],
-        [mat[1], null, null]
-    ]);
+    if(mat has <ore:ingotMythril> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// boomerang 1
+        Anvil.addShaped(spart[counter],[
+            [mat[0], mat[1], mat[1]],
+            [mat[1], null, null],
+            [mat[1], null, null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// dagger 2
-    Anvil.addShaped(spart[counter],[
-        [mat[0], mat[1]]
-    ]);
+    if(mat has <ore:ingotViridium> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// dagger 2
+        Anvil.addShaped(spart[counter],[
+            [mat[0], mat[1]]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// glaive 3
-    Anvil.addShaped(spart[counter],[
-        [null, mat[0], null, mat[1]],
-        [null, null, mat[1], null],
-        [mat[0], mat[1], null, null],
-        [mat[0], mat[0], null, null]
-    ]);
+    if(mat has <ore:ingotMythril> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// glaive 3
+        Anvil.addShaped(spart[counter],[
+            [null, mat[0], null, mat[1]],
+            [null, null, mat[1], null],
+            [mat[0], mat[1], null, null],
+            [mat[0], mat[0], null, null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// greatsword 4
-    Anvil.addShaped(spart[counter],[
-        [null, mat[0], mat[0], mat[0]],
-        [mat[0], mat[0], mat[0], mat[1]],
-        [null, mat[0], mat[0], mat[0]]
-    ]);
+    if(mat has <ore:gemOnyx> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// greatsword 4
+        Anvil.addShaped(spart[counter],[
+            [null, mat[0], mat[0], mat[0]],
+            [mat[0], mat[0], mat[0], mat[1]],
+            [null, mat[0], mat[0], mat[0]]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// halberd 5
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, mat[0]],
-        [null, mat[0], mat[1], null],
-        [mat[0], mat[1], null, null],
-        [mat[0], null, null, null]
-    ]);
+    if(mat has <ore:gemOnyx> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// halberd 5
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, mat[0]],
+            [null, mat[0], mat[1], null],
+            [mat[0], mat[1], null, null],
+            [mat[0], null, null, null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// hammer 6
-    Anvil.addShaped(spart[counter],[
-        [mat[0], mat[0], null, null],
-        [mat[0], mat[0], mat[1], mat[1]],
-        [mat[0], mat[0], mat[1], mat[1]],
-        [mat[0], mat[0], null, null]
-    ]);
+    if(mat has <ore:gemOnyx> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// hammer 6
+        Anvil.addShaped(spart[counter],[
+            [mat[0], mat[0], null, null],
+            [mat[0], mat[0], mat[1], mat[1]],
+            [mat[0], mat[0], mat[1], mat[1]],
+            [mat[0], mat[0], null, null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// javelin 7
-    Anvil.addShaped(spart[counter],[
-        [mat[0], mat[0], mat[1]],
-    ]);
+    if(mat has <ore:ingotMythril> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// javelin 7
+        Anvil.addShaped(spart[counter],[
+            [mat[0], mat[0], mat[1]],
+        ]);
+    }
 
 
     counter += 1;
-    recipes.remove(spart[counter]);// katana 8
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, mat[1]],
-        [null, null, mat[0], null],
-        [null, mat[0], null, null],
-        [mat[0], null, null, null]
-    ]);
+    if(mat has <ore:ingotViridium> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// katana 8
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, mat[1]],
+            [null, null, mat[0], null],
+            [null, mat[0], null, null],
+            [mat[0], null, null, null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// lance 9
-    Anvil.addShaped(spart[counter],[
-        [null, null, mat[0], mat[1]],
-        [null, null, mat[1], mat[0]],
-        [null, mat[1], null, null],
-        [mat[0], null, null, null]
-    ]);
+    if(mat has <ore:ingotMythril> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// lance 9
+        Anvil.addShaped(spart[counter],[
+            [null, null, mat[0], mat[1]],
+            [null, null, mat[1], mat[0]],
+            [null, mat[1], null, null],
+            [mat[0], null, null, null]
+        ]);
+    }
 
     counter += 1;
     if(!(mat has <minecraft:blaze_rod>)){
@@ -318,67 +338,83 @@ for mat, spart in anvilSpartMap{
     }
 
     counter += 1;
-    recipes.remove(spart[counter]);//longsword 11
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, mat[0]],
-        [mat[0], mat[0], mat[0], mat[1]],
-        [null, null, null, mat[0]]
-    ]);
+    if(mat has <ore:ingotMythril> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);//longsword 11
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, mat[0]],
+            [mat[0], mat[0], mat[0], mat[1]],
+            [null, null, null, mat[0]]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// mace 12
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, mat[1]],
-        [mat[0], mat[0], mat[1], null],
-        [mat[0], mat[1], mat[0], null],
-        [mat[0], mat[0], mat[0], null]
-    ]);
+    if(mat has <ore:ingotMythril> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// mace 12
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, mat[1]],
+            [mat[0], mat[0], mat[1], null],
+            [mat[0], mat[1], mat[0], null],
+            [mat[0], mat[0], mat[0], null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// pike 13
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, null],
-        [null, null, null, null],
-        [mat[0], mat[0], mat[1], mat[1]]
-    ]);
+    if(mat has <ore:gemOnyx> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// pike 13
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, null],
+            [null, null, null, null],
+            [mat[0], mat[0], mat[1], mat[1]]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// rapier 14
-    Anvil.addShaped(spart[counter],[
-        [null, null, mat[0], mat[1]],
-        [null, null, mat[0], mat[0]],
-        [null, mat[0], null, null],
-        [mat[0], null, null, null]
-    ]);
+    if(mat has <ore:ingotMythril> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// rapier 14
+        Anvil.addShaped(spart[counter],[
+            [null, null, mat[0], mat[1]],
+            [null, null, mat[0], mat[0]],
+            [null, mat[0], null, null],
+            [mat[0], null, null, null]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// saber 15
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, mat[0]],
-        [mat[0], mat[0], mat[0], mat[1]]
-    ]);
+    if(mat has <ore:ingotViridium> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// saber 15
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, mat[0]],
+            [mat[0], mat[0], mat[0], mat[1]]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// spear 16
-    Anvil.addShaped(spart[counter],[
-        [mat[0], mat[0], mat[1]]
-    ]);
+    if(mat has <ore:ingotViridium> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// spear 16
+        Anvil.addShaped(spart[counter],[
+            [mat[0], mat[0], mat[1]]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// staff 17
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, null],
-        [mat[0], mat[1], mat[1], mat[0]]
-    ]);
+    if(mat has <ore:ingotViridium> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// staff 17
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, null],
+            [mat[0], mat[1], mat[1], mat[0]]
+        ]);
+    }
 
     counter += 1;
-    recipes.remove(spart[counter]);// warhammer 18
-    Anvil.addShaped(spart[counter],[
-        [null, null, null, null],
-        [mat[0], mat[0], null, null],
-        [mat[0], mat[0], mat[1], mat[0]],
-        [mat[0], mat[0], null, null]
-    ]);
+    if(mat has <ore:gemOnyx> || mat has <spartanfire:witherbone_handle>){
+        recipes.remove(spart[counter]);// warhammer 18
+        Anvil.addShaped(spart[counter],[
+            [null, null, null, null],
+            [mat[0], mat[0], null, null],
+            [mat[0], mat[0], mat[1], mat[0]],
+            [mat[0], mat[0], null, null]
+        ]);
+    }
 
     counter = 0;
 }
