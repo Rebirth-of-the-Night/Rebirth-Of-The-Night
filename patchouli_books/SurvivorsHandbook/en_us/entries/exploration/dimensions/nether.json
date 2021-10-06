@@ -2,7 +2,7 @@
   "name": "The Nether",
   "icon": "minecraft:netherrack",
   "category": "exploration_dimensions",
-  "advancement": "triumph:advancements/progression/nether/enteredNether",
+  "advancement": "triumph:advancements/progression/nether/enterNether",
   "pages": [
   {
       "type": "text",

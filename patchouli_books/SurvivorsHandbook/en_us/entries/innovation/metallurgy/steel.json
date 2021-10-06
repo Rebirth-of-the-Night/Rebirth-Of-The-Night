@@ -1,0 +1,21 @@
+{
+    "name": "Crucible Steel",
+    "icon": "dungeontactics:steel_ingot",
+    "category": "innovation_metallurgy",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are many different variations of steel, but the variation I should use is a composition of 75% carbon from coal and 25% iron. I can give this distribution into a $(thing)crucible$() over a fire to yield 1 crucible steel ingot."
+        },
+        {
+            "type": "text",
+            "text": "Crucible steel is still steel after all, so I can use it for much more stronger tools and parts. I do hope that I'll be able to make a much stronger steel in the future."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/burn/crucible"
+            ]
+        }
+    ]
+}

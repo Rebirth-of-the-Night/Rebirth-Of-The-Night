@@ -1,7 +1,7 @@
 {
   "name": "Ruby",
   "icon": "biomesoplenty:gem:1",
-  "category": "equipment_armory",
+  "category": "innovation/metallurgy",
   "advancement": "triumph:advancements/ores/ruby",
   "pages": [
     {
@@ -21,9 +21,10 @@
 
       "type": "relations",
       "entries": [
-        "equipment/peridot",
-        "equipment/diamond",
-        "equipment/sapphire"
+        "equipment/gem_ingots",
+        "innovation/metallurgy/peridot",
+        "innovation/metallurgy/diamond",
+        "innovation/metallurgy/sapphire"
       ]
     }
   ]

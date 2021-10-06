@@ -2,6 +2,7 @@
   "name": "Plague",
   "icon": "contenttweaker:info",
   "category": "survival",
+  "advancement": "triumph:advancements/progression/beneath/enterBeneath",
   "pages": [
     {
       "type": "text",
