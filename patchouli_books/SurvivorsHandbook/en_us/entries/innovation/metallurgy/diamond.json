@@ -1,7 +1,7 @@
 {
   "name": "Diamond",
   "icon": "minecraft:diamond",
-  "category": "equipment_armory",
+  "category": "innovation/metallurgy",
   "advancement": "triumph:advancements/ores/diamond",
   "pages": [
     {
@@ -15,9 +15,10 @@
     {
       "type": "relations",
       "entries": [
-        "equipment/peridot",
-        "equipment/ruby",
-        "equipment/sapphire"
+        "equipment/gem_ingots",
+        "innovation/metallurgy/peridot",
+        "innovation/metallurgy/ruby",
+        "innovation/metallurgy/sapphire"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "name": "Sapphire",
   "icon": "biomesoplenty:gem:6",
-  "category": "equipment_armory",
+  "category": "innovation/metallurgy",
   "advancement": "triumph:advancements/ores/sapphire",
   "pages": [
     {
@@ -19,9 +19,10 @@
     {
       "type": "relations",
       "entries": [
-        "equipment/peridot",
-        "equipment/ruby",
-        "equipment/diamond"
+        "equipment/gem_ingots",
+        "innovation/metallurgy/peridot",
+        "innovation/metallurgy/ruby",
+        "innovation/metallurgy/diamond"
       ]
     }
   ]

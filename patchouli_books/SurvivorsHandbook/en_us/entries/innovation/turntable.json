@@ -1,7 +1,7 @@
 {
   "name": "Turntable",
   "icon": "betterwithmods:single_machine:3",
-  "category": "innovation_mechpower",
+  "category": "innovation/light_machines",
   "pages": [
   {
       "type": "text",

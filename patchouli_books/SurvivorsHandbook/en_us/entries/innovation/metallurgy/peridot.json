@@ -1,7 +1,7 @@
 {
   "name": "Peridot",
   "icon": "biomesoplenty:gem:2",
-  "category": "equipment_armory",
+  "category": "innovation/metallurgy",
   "advancement": "triumph:advancements/ores/peridot",
   "pages": [
     {
@@ -15,9 +15,10 @@
     {
       "type": "relations",
       "entries": [
-        "equipment/ruby",
-        "equipment/diamond",
-        "equipment/sapphire"
+        "equipment/gem_ingots",
+        "innovation/metallurgy/ruby",
+        "innovation/metallurgy/diamond",
+        "innovation/metallurgy/sapphire"
       ]
     }
   ]
