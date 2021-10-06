@@ -11,6 +11,7 @@ import mods.betterwithaddons.Infuser;
 #bases
 
 RecipeBuilder.get("mage")
+  .setName("scepter_base_mundane")
   .setShaped([
     [<contenttweaker:vis_speck>, <minecraft:dye:4>, <ore:ingotGold>],
     [<contenttweaker:vis_speck>, <ore:mundaneWood>, <minecraft:dye:4>],
@@ -21,6 +22,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("scepter_base_arcane")
   .setShaped([
     [<contenttweaker:vis_sliver>, <betternether:cincinnasite>, <ore:ingotGravitite>],
     [<contenttweaker:vis_sliver>, <ore:arcaneWood>, <betternether:cincinnasite>],
@@ -31,6 +33,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("scepter_base_mystical")
   .setShaped([
     [<contenttweaker:vis_shard>, <nyx:meteor_shard>, <simpleores:mythril_ingot>],
     [<contenttweaker:vis_shard>, <ore:mysticalWood>, <nyx:meteor_shard>],
@@ -48,6 +51,7 @@ RecipeBuilder.get("mage")
 # Recipe
 
 RecipeBuilder.get("mage")
+  .setName("cloud_staff")
   .setShaped([
     [null, <rustic:cloudsbluff>, <contenttweaker:slider_eye>],
     [<contenttweaker:vis_speck>, <contenttweaker:scepter_base_mundane>, <rustic:cloudsbluff>],
@@ -69,6 +73,7 @@ Infuser.addShapeless(<aether_legacy:cloud_staff>,
 # Recipe
 recipes.remove(<arcaneworld:fang_wand>);
 RecipeBuilder.get("mage")
+  .setName("fang_wand")
   .setShaped([
     [null, <endreborn:item_end_essence>, <contenttweaker:voids_call>],
     [<contenttweaker:vis_sliver>, <contenttweaker:scepter_base_arcane>, <endreborn:item_end_essence>],
@@ -87,6 +92,7 @@ Infuser.addShapeless(<arcaneworld:fang_wand>,
 // Inert Charm
 
 RecipeBuilder.get("mage")
+  .setName("blank_charm")
   .setShaped([
     [<contenttweaker:vis_speck>, <minecraft:clay_ball>, <contenttweaker:vis_speck>],
     [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
@@ -98,6 +104,7 @@ RecipeBuilder.get("mage")
 
 //Magicked Lens
 RecipeBuilder.get("mage")
+  .setName("magicked_lens")
   .setShaped([
     [<hitwithaxe:bark:41>, <contenttweaker:pristine_diamond>, <hitwithaxe:bark:41>],
     [<ore:dustElectrum>.firstItem, <betternether:quartz_glass_framed_pane>, <ore:dustElectrum>.firstItem],
@@ -111,6 +118,7 @@ RecipeBuilder.get("mage")
 
 //Unattuned Focus
 RecipeBuilder.get("mage")
+  .setName("unattuned_focus")
   .setShaped([
     [<biomesoplenty:log_1:5>, <contenttweaker:slider_eye>, <biomesoplenty:log_1:5>],
     [<biomesoplenty:log_1:5>, null, <biomesoplenty:log_1:5>],
@@ -127,6 +135,7 @@ RecipeBuilder.get("mage")
 # inert
 
 RecipeBuilder.get("mage")
+  .setName("blank_rune")
   .setShapeless([<contenttweaker:vis_speck>, <ore:stone>])
   .addOutput(<contenttweaker:blank_rune>)
   .setMinimumTier(1)
@@ -136,6 +145,7 @@ RecipeBuilder.get("mage")
 # mundane
 
 RecipeBuilder.get("mage")
+  .setName("luna_rune")
   .setShaped([
     [<contenttweaker:vis_speck>],
     [<contenttweaker:blank_rune>]])
@@ -146,6 +156,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("sol_rune")
   .setShaped([
     [<contenttweaker:vis_speck>],
     [<contenttweaker:blank_rune>]])
@@ -156,6 +167,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("water_rune")
   .setShaped([
     [<contenttweaker:vis_speck>],
     [<contenttweaker:blank_rune>]])
@@ -166,6 +178,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("air_rune")
   .setShaped([
     [<contenttweaker:vis_speck>],
     [<contenttweaker:blank_rune>]])
@@ -176,6 +189,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("fire_rune")
   .setShaped([
     [<contenttweaker:vis_speck>],
     [<contenttweaker:blank_rune>]])
@@ -186,6 +200,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("earth_rune")
   .setShaped([
     [<contenttweaker:vis_speck>],
     [<contenttweaker:blank_rune>]])
@@ -198,6 +213,7 @@ RecipeBuilder.get("mage")
 # arcane
 
 RecipeBuilder.get("mage")
+  .setName("disint_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -208,6 +224,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("strength_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -218,6 +235,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("poison_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -228,6 +246,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("energy_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -238,6 +257,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("life_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -248,6 +268,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("soul_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -258,6 +279,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("death_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -268,6 +290,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("chaos_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -278,6 +301,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("knowledge_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -288,6 +312,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("mind_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -298,6 +323,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("balance_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -308,6 +334,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("creation_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -318,6 +345,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("order_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -328,6 +356,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("nature_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -338,6 +367,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("illusion_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -348,6 +378,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("trans_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -358,6 +389,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("arcane_rune")
   .setShaped([
     [<contenttweaker:vis_sliver>],
     [<contenttweaker:blank_rune>]])
@@ -370,6 +402,7 @@ RecipeBuilder.get("mage")
 # mystical
 
 RecipeBuilder.get("mage")
+  .setName("fae_rune")
   .setShaped([
     [<contenttweaker:vis_shard>],
     [<contenttweaker:blank_rune>]])
@@ -380,6 +413,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("holding_rune")
   .setShaped([
     [<contenttweaker:vis_shard>],
     [<contenttweaker:blank_rune>]])
@@ -390,6 +424,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("plague_rune")
   .setShaped([
     [<contenttweaker:vis_shard>],
     [<contenttweaker:blank_rune>]])
@@ -400,6 +435,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("draconic_rune")
   .setShaped([
     [<contenttweaker:vis_shard>],
     [<contenttweaker:blank_rune>]])
@@ -410,6 +446,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("aether_rune")
   .setShaped([
     [<contenttweaker:vis_shard>],
     [<contenttweaker:blank_rune>]])
@@ -420,6 +457,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("nether_rune")
   .setShaped([
     [<contenttweaker:vis_shard>],
     [<contenttweaker:blank_rune>]])
@@ -430,6 +468,7 @@ RecipeBuilder.get("mage")
   .create();
 
 RecipeBuilder.get("mage")
+  .setName("end_rune")
   .setShaped([
     [<contenttweaker:vis_shard>],
     [<contenttweaker:blank_rune>]])
