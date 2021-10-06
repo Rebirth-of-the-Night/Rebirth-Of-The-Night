@@ -7,6 +7,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.remove(<naturescompass:naturescompass>);
 RecipeBuilder.get("mage")
+  .setName("naturescompass")
   .setShaped([
     [<ore:durableFiber>, <ore:logWood>, <ore:durableFiber>],
     [<ore:treeLeaves>, <minecraft:compass>, <ore:treeLeaves>],
