@@ -1,0 +1,92 @@
+{
+  "processor": "com.codetaylor.mc.artisanintegrations.modules.patchouli.processor.WorkstationProcessor",
+  "components": [
+    {
+      "group": "header",
+      "type": "header",
+      "text": "#output->iname",
+      "x": -1,
+      "guard": "#header->exists->inv"
+    },
+    {
+      "group": "header",
+      "type": "header",
+      "text": "#header",
+      "x": -1,
+      "guard": "#header->exists"
+    },
+    {
+      "y": 10, "x": 0,
+      "type": "image",
+      "image": "book:runic_slim.png",
+      "width": 122, "height": 122,
+      "u": 0, "v": 0,
+      "texture_width": 122, "texture_height": 122
+    },
+    {"type": "item", "item": "#item1", "x": 3, "y": 14},
+    {"type": "item", "item": "#item2", "x": 21, "y": 14},
+    {"type": "item", "item": "#item3", "x": 37, "y": 14},
+    {"type": "item", "item": "#item4", "x": 3, "y": 31},
+    {"type": "item", "item": "#item5", "x": 21, "y": 31},
+    {"type": "item", "item": "#item6", "x": 37, "y": 31},
+    {"type": "item", "item": "#item7", "x": 3, "y": 48},
+    {"type": "item", "item": "#item8", "x": 21, "y": 48},
+    {"type": "item", "item": "#item9", "x": 37, "y": 48},
+    {"type": "item", "item": "#output", "x": 82, "y": 31},
+    {"type": "item", "item": "#tool1", "guard": "#tool1->exists", "x": 11, "y": 67},
+    {
+      "type": "custom",
+      "class": "com.codetaylor.mc.artisanintegrations.modules.patchouli.component.TextComponent",
+      "text": "-#tool_damage1#", "guard": "#tool1->exists", "x": 11, "y": 67
+    },
+    {"type": "item", "item": "#tool2", "guard": "#tool2->exists", "x": 30, "y": 67},
+    {
+      "type": "custom",
+      "class": "com.codetaylor.mc.artisanintegrations.modules.patchouli.component.TextComponent",
+      "text": "-#tool_damage2#", "guard": "#tool2->exists", "x": 30, "y": 67
+    },
+    {"type": "item", "item": "#extra_item1", "x": 64, "y": 67, "guard": "#extra_item1->exists"},
+    {
+      "type": "custom",
+      "class": "com.codetaylor.mc.artisanintegrations.modules.patchouli.component.TextComponent",
+      "text": "#extra_item_chance1#%", "guard": "#extra_item1->exists", "x": 64, "y": 67
+    },
+    {"type": "item", "item": "#extra_item2", "x": 82, "y": 67, "guard": "#extra_item2->exists"},
+    {
+      "type": "custom",
+      "class": "com.codetaylor.mc.artisanintegrations.modules.patchouli.component.TextComponent",
+      "text": "#extra_item_chance2#%", "guard": "#extra_item2->exists", "x": 82, "y": 67
+    },
+    {"type": "item", "item": "#extra_item3", "x": 99, "y": 67, "guard": "#extra_item3->exists"},
+    {
+      "type": "custom",
+      "class": "com.codetaylor.mc.artisanintegrations.modules.patchouli.component.TextComponent",
+      "text": "#extra_item_chance3#%", "guard": "#extra_item3->exists", "x": 99, "y": 67
+    },
+    {
+      "type": "custom",
+      "class": "com.codetaylor.mc.artisanintegrations.modules.patchouli.component.FluidComponent",
+      "fluid": "#input_fluid", "guard": "#input_fluid->exists", "x": 8, "y": 40, "width": 6, "height": 39
+    },
+    {
+      "type": "tooltip", "tooltip": ["#input_fluid_name#: #input_fluid_amount# mB"],
+      "x": 7, "y": 26, "width": 6, "height": 53
+    },
+    {
+      "type": "text",
+      "guard": "#text_left->exists",
+      "text": "#text_left",
+      "y": 114
+    },
+    {
+      "type": "text",
+      "guard": "#text_right->exists",
+      "text": "#text_right",
+      "x": 125,
+      "y": 0
+    },
+    {"type": "item", "item": "#secondary_item1", "x": 3, "y": 89},
+    {"type": "item", "item": "#secondary_item2", "x": 21, "y": 89},
+    {"type": "item", "item": "#secondary_item3", "x": 37, "y": 89}
+  ]
+}
