@@ -63,6 +63,15 @@ config/fantasticlib/reference/players.txt
 config/fantasticlib/reference/potions.txt
 config/fantasticlib/reference/potion_types.txt
 config/fantasticlib/reference/recipes.txt
+config/multimob/modInformation/allBiomes.txt
+config/multimob/modInformation/allBiomeTypes.txt
+config/multimob/modInformation/allBlocks.txt
+config/multimob/modInformation/allBlockStates.txt
+config/multimob/modInformation/allEnchantments.txt
+config/multimob/modInformation/allEntities.txt
+config/multimob/modInformation/allItems.txt
+config/multimob/modInformation/allPotionTypes.txt
+config/InvTweaks.cfg
 config/customloadingscreen_timings.nbt
 
 README.md
@@ -80,3 +89,18 @@ mods/Mapmaker's+Gadgets-1.2_for_1.12.x.jar
 mods/Mineshot-v1.81-1.12.jar
 mods/tellme-1.12.2-0.7.0-dev.20200919.184303.jar
 mods/World-Stripper-1.6.0-1.12.2.jar
+
+config/multimob/modInformation/*
+.ReAuth.cfg
+config/acronym/saved/
+config/antiqueatlas/markers.json
+config/cavegenerator/REFERENCE.cave
+config/cavegenerator/TUTORIAL.cave
+config/deadmanssatchel/DIM#.example.json
+config/growthcraft/*/*.default
+config/randomportals/
+mods/memory_repo/
+mods/OptiFine*
+mods/Sound-Physics*
+config/cd4017be/compiled.dat
+mods/1.12.2/Guidebook-1.12.2-2.9.1.s5.jar
