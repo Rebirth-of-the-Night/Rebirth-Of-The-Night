@@ -695,7 +695,10 @@ mundaneWood.add(
     <rustic:log:0>,
     <biomesoplenty:log_4:5>,
     <biomesoplenty:log_3:7>,
-    <defiledlands:tenebra_log>
+    <defiledlands:tenebra_log>,
+    <aether_legacy:aether_log>,
+    <betternether:stalagnate_bark>,
+    <betternether:reeds_block>
     );
 
 val arcaneWood = <ore:arcaneWood>;
@@ -703,12 +706,8 @@ arcaneWood.add(
     <biomesoplenty:log_1:5>,
     <biomesoplenty:log_1:4>,
     <biomesoplenty:log_0:4>,
-    <aether_legacy:aether_log>,
     <aether_legacy:aether_log:1>,
     <twilightforest:giant_log>,
-    <betternether:stalagnate_bark>,
-    <betternether:reeds_block>,
-    <netherex:elder_mushroom_stem>,
     <biomesoplenty:log_1:4>,
     <biomesoplenty:log_0:6>,
     <biomesoplenty:log_2:7>,
@@ -725,7 +724,9 @@ mysticalWood.add(
     <twilightforest:magic_log:1>,
     <twilightforest:magic_log:2>,
     <twilightforest:magic_log:3>,
-    <twilightforest:huge_stalk>
+    <twilightforest:huge_stalk>,
+    <betterwithaddons:log_luretree>,
+    <betterwithaddons:log_luretree_face>
     );
 
 //  Base wand recipes

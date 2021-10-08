@@ -677,31 +677,36 @@ mundaneSapling.add(
     <twilightforest:twilight_sapling>,
     <twilightforest:twilight_sapling:1>,
     <twilightforest:twilight_sapling:2>,
-    <twilightforest:twilight_sapling:3>
+    <twilightforest:twilight_sapling:3>,
+    <aether_legacy:skyroot_sapling>,
+    <dynamictreestheaether:skyrootseed>,
+    <defiledlands:tenebra_sapling>,
+    <dynamictreesdefiledlands:tenebraseed>
 );
 
 val arcaneSapling = <ore:arcaneSapling>;
 arcaneSapling.add(
-    <netherex:red_elder_mushroom>,
-    <aether_legacy:skyroot_sapling>,
-    <dynamictreestheaether:skyrootseed>,
+    <dynamictreestheaether:crystalseed>,
     <aether_legacy:golden_oak_sapling>,
     <dynamictreestheaether:goldenoakseed>,
     <rustic:sapling:1>,
     <stygian:endcanopysapling>,
-    <betternether:nether_reed>,
     <biomesoplenty:sapling_1:4>,
-    <netherex:brown_elder_mushroom>,
     <biomesoplenty:sapling_1:7>,
     <biomesoplenty:sapling_0:7>,
     <biomesoplenty:sapling_0:4>,
     <biomesoplenty:sapling_0:3>,
     <betterwithmods:blood_sapling>,
     <dynamictreesbop:magicseed>,
-    <betternether:stalagnate_seed>,
     <dynamictreesbop:umbranseed>,
     <twilightforest:twilight_sapling:9>,
-    <dynamictreesttf:rainbowoakseed>
+    <dynamictreesttf:rainbowoakseed>,
+    <dynamictreesbop:hellbarkseed>,
+    <rustic:ironwoodseed>,
+    <dynamictreesbop:umbranseed>,
+    <dynamictreesbop:umbranconiferseed>,
+    <twilightforest:twilight_sapling:4>,
+    <dynamictreesttf:robusttwilightoakseed>
 );
 
 val mysticalSapling = <ore:mysticalSapling>;
@@ -713,7 +718,8 @@ mysticalSapling.add(
     <twilightforest:twilight_sapling:5>,
     <twilightforest:twilight_sapling:6>,
     <dynamictreesttf:treeoftimeseed>,
-    <dynamictreesttf:treeoftransformationseed>
+    <dynamictreesttf:treeoftransformationseed>,
+    <betterwithaddons:sapling_luretree>
 );
 
 val mundaneScepter = <ore:mundaneScepter>;
