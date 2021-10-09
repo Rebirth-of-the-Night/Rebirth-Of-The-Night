@@ -64,6 +64,13 @@ recipes.addShaped("blocks/redstone/hibachi", <betterwithmods:hibachi>,
   [[hellfire,hellfire,hellfire],
   [stone,heating,stone],
   [stone,crstone,stone]]);
+ 
+//Archimedes screw
+val archimedes = <betterwithmods:material:24>;
+recipes.addShaped("archimedes_screw", archimedes*3,
+  [[<ore:genericMetal>,<ore:genericMetal>,null],
+  [null,<ore:genericMetal>,<ore:genericMetal>],
+  [<ore:genericMetal>,<ore:genericMetal>,null]]);
   
 //Dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);

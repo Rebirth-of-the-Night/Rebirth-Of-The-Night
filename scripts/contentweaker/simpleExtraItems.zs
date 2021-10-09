@@ -87,6 +87,9 @@ redstuff.register();
 val draff = VanillaFactory.createItem("draff");
 draff.register();
 
+VanillaFactory.createItem("fiery_sludge").register();
+VanillaFactory.createItem("ground_fiery_netherrack").register();
+
 //Liquids
 var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
 ender_slag.density = 1900;

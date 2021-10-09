@@ -15,6 +15,7 @@ furnace.remove(<pyrotech:material:5>, <pyrotech:material:9>);
 furnace.remove(<ceramics:unfired_clay:5>, <ceramics:unfired_clay:4>);
 furnace.remove(<pyrotech:material:15>);
 furnace.remove(<betterwithmods:cooking_pot>);
+furnace.remove(<netherex:fiery_netherbrick>);
 
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
@@ -24,6 +25,7 @@ StoneKiln.addRecipe("bwmpottery2", <rustic:vase>, <contenttweaker:pot_unfired>, 
 StoneKiln.addRecipe("bwmpottery3", <betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery4", <betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 20*210, true);
 StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 20*320, true);
+StoneKiln.addRecipe("bwmfierynetherbrick", <netherex:fiery_netherbrick>, <contenttweaker:unfired_fiery_brick>, 20*320, true);
 StoneKiln.addRecipe("bwmclaybrick", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*320, true);
 StoneKiln.addRecipe("bwmadobebrick", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 20*290, true);
 StoneKiln.addRecipe("bwmmudbrick", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 20*320, true);

@@ -5,8 +5,6 @@ tile.anvil.veryDamaged.name=Crumbling Iron Anvil
 
 entity.MinecartRideable.name=Minecart
 
-tile.chest.name=Varnished Chest
-
 screenshot.success=Saved screenshot and copied to clipboard. Press CTRL + V to paste.
 
 item.seeds.name=Wheat Seeds

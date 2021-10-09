@@ -17,9 +17,8 @@ recipes.addShaped("artisans_lens_gold", <artisanworktables:artisans_lens_gold>, 
 
 recipes.remove(<artisanworktables:artisans_carver_gold>);
 recipes.addShaped("artisans_carver_gold", <artisanworktables:artisans_carver_gold>, [
-    [null, null, <minecraft:gold_ingot>],
-    [<minecraft:string>, <ore:stickWood>, <minecraft:string>], 
-    [<minecraft:gold_ingot>, null, null]
+    [null,<ore:genericMetalNuggets>],
+    [<ore:stickWood>,null]
 ]);
 
 var disabledStumps as string[] = [

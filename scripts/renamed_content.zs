@@ -37,6 +37,9 @@ import mods.jei.JEI;
 // <golems:info_book>.addTooltip(format.aqua("Guidebook"));
 // <golems:info_book>.addTooltip("Fantastic golems and how to build them.");
 
+// Minecraft
+<minecraft:chest>.displayName = "Varnished Chest";
+
 // Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironroot Arming Sword";
 <twilightforest:ironwood_hoe>.displayName = "§bIronroot Hoe";
@@ -239,6 +242,8 @@ for potion in potionMap{
 <simpleores:adamantium_helmet>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_boots>.addTooltip(format.darkGreen("Rare Armor"));
 <simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Material"));
+
+<naturescompass:naturescompass>.displayName = "§aBiome Compass";
 
 
 

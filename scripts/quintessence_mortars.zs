@@ -838,6 +838,8 @@ netherQuintessenceC.add(
     <betterwithmods:material:1>,
     <betterwithmods:material:15>,
     <betterwithmods:material:35>,
+	<contenttweaker:fiery_sludge>,
+	<contenttweaker:ground_fiery_netherrack>,
     <netherex:amethyst_crystal>
 );
 

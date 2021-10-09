@@ -9,8 +9,7 @@ JEI.removeAndHide(<vials:vial_576>);
 JEI.removeAndHide(<vials:vial_1296>);
 
 recipes.remove(<vials:vial_288>);
-recipes.addShaped(<vials:vial_288>, [
-    [null, <ore:paneGlass>, <ore:slimeball>],
-    [<ore:paneGlass>, null, <ore:paneGlass>],
-    [<ore:shardGlass>, <ore:paneGlass>, null]
+recipes.addShapedMirrored(<vials:vial_288>, [
+    [null, <ore:slimeball>],
+    [<ore:paneGlass>, null]
 ]);

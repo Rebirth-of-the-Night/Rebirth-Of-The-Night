@@ -103,6 +103,9 @@
 
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
+<arcanearchives:radiant_resonator>.addTooltip("Grows raw radiant quartz from natural quintessence in the air.");
+<arcanearchives:radiant_resonator>.addShiftTooltip("Takes 5 minutes per quartz, can have up to 3.");
+<arcanearchives:radiant_resonator>.addShiftTooltip("Recipe consumes bucket.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // BWM BWA
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
@@ -400,6 +403,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <exsartagine:yeast>.addTooltip("Can be used as Brewer's Yeast.");
 <contenttweaker:steel_artifact>.addTooltip("Can be used to craft flint & steel");
 <contenttweaker:steel_artifact>.addShiftTooltip('A relic of the old days. Can be rarely dropped from "older" undead."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

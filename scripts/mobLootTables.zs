@@ -102,7 +102,7 @@ val gob = LootTweaker.getTable("primitivemobs:entities/goblin");
 val gobMain = gob.getPool("goblin_drops");
 gobMain.removeEntry("minecraft:iron_ingot");
 val gob1 = gob.addPool("gob1", 1, 1, 1, 2);
-gob1.addItemEntryHelper(<contenttweaker:tattered_hide>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
+gob1.addItemEntry(<contenttweaker:tattered_hide>, 1, 1, [Functions.setCount(0, 1), Functions.lootingEnchantBonus(0, 1, 64)], []);
 
 // Treasure Slime
 val lootSlime = LootTweaker.getTable("primitivemobs:entities/special/treasure_slime");
@@ -110,37 +110,37 @@ val lslimeMain = lootSlime.getPool("treasureslime_spawnitem");
 lslimeMain.removeEntry("minecraft:diamond");
 lslimeMain.removeEntry("minecraft:ender_eye");
 lslimeMain.removeEntry("minecraft:blaze_powder");
-lslimeMain.addItemEntryHelper(<betterwithmods:material:26>, 16, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<dungeontactics:diamond_nugget>, 4, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<iceandfire:silver_nugget>, 20, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<simpleores:copper_ingot>, 24, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<simpleores:tin_ingot>, 20, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<harvestcraft:dragonfruititem>, 24, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<harvestcraft:limeitem>, 28, 0, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<dungeontactics:magic_powder>, 4, 10, [Functions.setCount(1, 1)], []);
-lslimeMain.addItemEntryHelper(<contenttweaker:4leaf_clover>, 1, 20, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<betterwithmods:material:26>, 16, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<dungeontactics:diamond_nugget>, 4, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<iceandfire:silver_nugget>, 20, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<simpleores:copper_ingot>, 24, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<simpleores:tin_ingot>, 20, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<harvestcraft:dragonfruititem>, 24, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<harvestcraft:limeitem>, 28, 0, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<dungeontactics:magic_powder>, 4, 10, [Functions.setCount(1, 1)], []);
+lslimeMain.addItemEntry(<contenttweaker:4leaf_clover>, 1, 20, [Functions.setCount(1, 1)], []);
 
 
 //Filch Lizard Spawn Items
 val lootFilch = LootTweaker.getTable("primitivemobs:entities/special/filch_lizard_spawn");
 val filchMain = lootFilch.getPool("filchlizard_spawnitem");
-filchMain.addItemEntryHelper(<simpleores:copper_ingot>, 7, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<harvestcraft:cactusfruititem>, 7, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<harvestcraft:agaveitem>, 7, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<simpleores:tin_ingot>, 6, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<harvestcraft:agaveseeditem>, 6, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<harvestcraft:cactusfruitseeditem>, 5, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<minecraft:bone>, 5, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_resin>, 3, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<minecraft:poisonous_potato>, 3, -10, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<iceandfire:silver_ingot>, 3, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<minecraft:rabbit_foot>, 2, 3, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<minecraft:torch>, 2, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<totemexpansion:totem_base>, 2, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<minecraft:skull>, 1, 0, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<harvestcraft:pizzasliceitem>, 1, 5, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<iceandfire:myrmex_desert_egg>, 1, 5, [Functions.setCount(1, 1)], []);
-filchMain.addItemEntryHelper(<dungeontactics:bag_food>, 1, 5, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<simpleores:copper_ingot>, 7, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<harvestcraft:cactusfruititem>, 7, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<harvestcraft:agaveitem>, 7, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<simpleores:tin_ingot>, 6, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<harvestcraft:agaveseeditem>, 6, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<harvestcraft:cactusfruitseeditem>, 5, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<minecraft:bone>, 5, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<iceandfire:myrmex_desert_resin>, 3, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<minecraft:poisonous_potato>, 3, -10, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<iceandfire:silver_ingot>, 3, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<minecraft:rabbit_foot>, 2, 3, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<minecraft:torch>, 2, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<totemexpansion:totem_base>, 2, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<minecraft:skull>, 1, 0, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<harvestcraft:pizzasliceitem>, 1, 5, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<iceandfire:myrmex_desert_egg>, 1, 5, [Functions.setCount(1, 1)], []);
+filchMain.addItemEntry(<dungeontactics:bag_food>, 1, 5, [Functions.setCount(1, 1)], []);
 
 //Filch Lizard Steal Items
 val stealFilch = LootTweaker.getTable("primitivemobs:entities/special/filch_lizard_steal");
@@ -333,25 +333,25 @@ for i in hauntedToolsRemove {
 val lootSpider = LootTweaker.getTable("minecraft:entities/spider");
 val lspiderMain = lootSpider.getPool("main");
 lspiderMain.removeEntry("minecraft:string");
-lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
-lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
-lspiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
+lspiderMain.addItemEntry(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
+lspiderMain.addItemEntry(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
+lspiderMain.addItemEntry(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
 val lootCaveSpider = LootTweaker.getTable("minecraft:entities/cave_spider");
 val lcavespiderMain = lootCaveSpider.getPool("main");
 lcavespiderMain.removeEntry("minecraft:string");
-lcavespiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
-lcavespiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
-lcavespiderMain.addItemEntryHelper(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
+lcavespiderMain.addItemEntry(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
+lcavespiderMain.addItemEntry(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
+lcavespiderMain.addItemEntry(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
 //Sheep Intestines
 val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
 val sheepPrimeMeat = sheepPrimeTable.getPool("meat");
-sheepPrimeMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
+sheepPrimeMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
 
 val sheepTable = LootTweaker.getTable("animania:sheep_regular");
 val sheepMeat = sheepTable.getPool("meat");
-sheepMeat.addItemEntryHelper(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
+sheepMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
 
 //new loot tables must be assigned to entities via spawn.json, within Incontrol's config folder 
 

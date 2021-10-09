@@ -924,6 +924,8 @@ recipes.addShaped("scrapped_leather", <betterwithmods:material:31>,
 [[<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>],
 [<contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>, <contenttweaker:tattered_hide>]]);
 
+recipes.addShapeless("fiery_nether_brick_sludge",<contenttweaker:unfired_fiery_brick>,[<contenttweaker:fiery_sludge>]);
+
 //Ore Dictionary Entries
 
 val ingotableGem = <ore:ingotableGem>;
@@ -981,6 +983,7 @@ brown.remove(<betterwithmods:material:5>);
 
 <ore:listAllSeed>.addItems([<betterwithmods:hemp>,<rustic:ironwoodseed>, <dynamictreesbop:palmseed>]);
 <ore:bookshelf>.addItems([<aether_legacy:skyroot_bookshelf>,<inspirations:bookshelf:*>]);
+<ore:bookshelf>.remove([<inspirations:bookshelf>]);
 
 <ore:slabWood>.addItems([<quark:stained_planks_white_slab:*>,<quark:stained_planks_orange_slab:*>,<quark:stained_planks_magenta_slab:*>,<quark:stained_planks_light_blue_slab:*>,<quark:stained_planks_yellow_slab:*>,<quark:stained_planks_lime_slab:*>,<quark:stained_planks_pink_slab:*>,<quark:stained_planks_gray_slab:*>,<quark:stained_planks_silver_slab:*>,<quark:stained_planks_cyan_slab:*>,<quark:stained_planks_purple_slab:*>,<quark:stained_planks_blue_slab:*>,<quark:stained_planks_brown_slab:*>,<quark:stained_planks_green_slab:*>,<quark:stained_planks_red_slab:*>,<quark:stained_planks_black_slab:*>,<quark:bark_oak_slab:*>,<quark:bark_spruce_slab:*>,<quark:bark_birch_slab:*>,<quark:bark_jungle_slab:*>,<quark:bark_acacia_slab:*>,<quark:bark_dark_oak_slab:*>]);
 
@@ -1246,6 +1249,9 @@ foundryclay.add(<contenttweaker:unfiredrefractory>);
 
 val refracotta = <ore:refracotta>;
 refracotta.addItems([<contenttweaker:refracotta>,<contenttweaker:refracotta_gray>,<contenttweaker:refracotta_yellow>,<contenttweaker:refracotta_cyan>,<contenttweaker:refracotta_magenta>,<contenttweaker:refracotta_lime>,<contenttweaker:refracotta_white>,<contenttweaker:refracotta_pink>,<contenttweaker:refracotta_brown>,<contenttweaker:refracotta_light_blue>,<contenttweaker:refracotta_red>,<contenttweaker:refracotta_green>,<contenttweaker:refracotta_blue>,<contenttweaker:refracotta_black>,<contenttweaker:refracotta_purple>,<contenttweaker:refracotta_light_gray>,<contenttweaker:refracotta_orange>]);
+
+val netherrackSludge = <ore:dustNetherrack>;
+netherrackSludge.add(<contenttweaker:ground_fiery_netherrack>);
 
 val copperBlock = <ore:blockCopper>;
 copperBlock.addItems([<rotn_blocks:copper_block>,<rotn_blocks:slightly_weathered_copper_block>,<rotn_blocks:semi_wheatered_copper_block>,<rotn_blocks:weathered_copper_block>,<simpleores:copper_block>]);

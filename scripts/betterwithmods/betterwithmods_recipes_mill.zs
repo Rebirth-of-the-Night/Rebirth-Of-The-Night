@@ -11,6 +11,20 @@ Mill.remove([<minecraft:gold_ingot>,<minecraft:gold_nugget>*6]);
 Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
 Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
 Mill.remove([<betterwithmods:material:44>]);
+Mill.remove([<betterwithmods:material:15>]);
+
+// Extra ground netherrack
+Mill.builder()
+.buildRecipe([<minecraft:netherrack>], [<betterwithmods:material:15>*4])
+.setPriority(1)
+.setGrindType("minecraft:entity.ghast.death")
+.build();
+
+Mill.builder()
+.buildRecipe([<netherex:fiery_netherrack>], [<contenttweaker:ground_fiery_netherrack>*4])
+.setPriority(1)
+.setGrindType("minecraft:entity.ghast.death")
+.build();
 
 // Coke Powder
 Mill.addRecipe([<pyrotech:material:1>],[<pyrotech:material:32>]);
@@ -72,7 +86,7 @@ Mill.builder()
 
 // Extra bonemeal from fossils
 Mill.builder()
-.buildRecipe([<undergroundbiomes:fossil_piece:*>], [<minecraft:dye:15>*6])
+.buildRecipe([<undergroundbiomes:fossil_piece:*>], [<minecraft:dye:15>*5])
 .setPriority(3)
 .build();
 
@@ -89,10 +103,6 @@ Mill.builder()
 .build();
 
 // Rich Slag recipes
-Mill.builder()
-.buildRecipe([<undergroundbiomes:fossil_piece:*>], [<pyrotech:material:8>*3])
-.setPriority(3)
-.build();
 Mill.builder()
 .buildRecipe([<minecraft:quartz>], [<pyrotech:material:8>])
 .setPriority(3)

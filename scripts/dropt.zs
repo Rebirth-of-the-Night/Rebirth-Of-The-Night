@@ -598,10 +598,10 @@ Dropt.list("slaked_lime")
       .matchBlocks(["minecraft:clay","minecraft:gravel","undergroundbiomes:igneous_gravel:*","undergroundbiomes:sedimentary_gravel:*","undergroundbiomes:metamorphic_gravel:*"])
       .replaceStrategy("REPLACE_ALL_IF_SELECTED")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(11000)) // drops nothing if selected
+          .selector(Dropt.weight(16000)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(1200)) // slaked lime (rich slag)
+          .selector(Dropt.weight(1600)) // slaked lime (rich slag)
           .items([<pyrotech:material:8>], Dropt.range(4))
 	  )
       .addDrop(Dropt.drop()
@@ -707,11 +707,15 @@ Dropt.list("ardicite")
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:ardicite"])
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10)) // drops nothing if selected
+          .selector(Dropt.weight(9)) // drops nothing if selected
       )
   	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(1)) // ground netherrack
+          .selector(Dropt.weight(2)) // ground netherrack
        	   .items([<betterwithmods:material:15>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(3)) // ground fiery netherrack
+       	   .items([<contenttweaker:ground_fiery_netherrack>])
       )
   );
 Dropt.list("lodestone")
