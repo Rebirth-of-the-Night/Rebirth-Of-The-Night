@@ -2,6 +2,7 @@
     "name": "Crucible Steel",
     "icon": "dungeontactics:steel_ingot",
     "category": "innovation_metallurgy",
+    "advancement": "trumph:advancements/ores/iron",
     "pages": [
         {
             "type": "text",

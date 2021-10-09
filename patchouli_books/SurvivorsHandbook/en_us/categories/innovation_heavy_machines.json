@@ -1,0 +1,7 @@
+{
+    "name": "Heavy Machines",
+    "description": "placeholder",
+    "icon": "modularmachinery:blockcontroller",
+    "sortnum": 3,
+    "parent": "innovation"
+}

@@ -1,7 +1,7 @@
 {
   "name": "Diamond",
   "icon": "minecraft:diamond",
-  "category": "innovation/metallurgy",
+  "category": "innovation_metallurgy",
   "advancement": "triumph:advancements/ores/diamond",
   "pages": [
     {

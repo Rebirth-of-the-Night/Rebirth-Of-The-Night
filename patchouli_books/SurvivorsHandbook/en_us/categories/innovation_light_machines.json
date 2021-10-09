@@ -1,0 +1,7 @@
+{
+    "name": "Mechanical Machines",
+    "description": "placeholder",
+    "icon": "betterwithmods:single_machine:0",
+    "sortnum": 2,
+    "parent": "innovation"
+}

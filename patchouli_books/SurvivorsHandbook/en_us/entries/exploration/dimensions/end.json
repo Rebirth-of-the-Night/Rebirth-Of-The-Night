@@ -1,0 +1,12 @@
+{
+    "name": "The End",
+    "icon": "minecraft:end_stone",
+    "category": "exploration_dimensions",
+    "advancement": "triumph:advancements/progression/end/enterEnd",
+    "pages": [
+    {
+        "type": "text",
+        "text": "This is it. The End. The fabled dimension where the last Ender Dragon is sealed in. I can't turn back now, but I've prepared myself for the worst. Let's get through this."
+      }
+    ]
+  }
