@@ -1,7 +1,7 @@
 {
   "name": "Peridot",
   "icon": "biomesoplenty:gem:2",
-  "category": "innovation/metallurgy",
+  "category": "innovation_metallurgy",
   "advancement": "triumph:advancements/ores/peridot",
   "pages": [
     {

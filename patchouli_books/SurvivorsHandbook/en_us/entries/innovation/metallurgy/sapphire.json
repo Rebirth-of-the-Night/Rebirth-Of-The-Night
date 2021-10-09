@@ -1,7 +1,7 @@
 {
   "name": "Sapphire",
   "icon": "biomesoplenty:gem:6",
-  "category": "innovation/metallurgy",
+  "category": "innovation_metallurgy",
   "advancement": "triumph:advancements/ores/sapphire",
   "pages": [
     {

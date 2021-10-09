@@ -2,6 +2,6 @@
   "name": "Technological Trinkets",
   "description": "Redstone dust and redstone-based tools have almost limitless potential.",
   "icon": "minecraft:redstone",
-  "sortnum": 3,
+  "sortnum": 7,
   "parent": "innovation"
 }
