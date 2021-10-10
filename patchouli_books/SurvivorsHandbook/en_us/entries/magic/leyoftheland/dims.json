@@ -1,0 +1,74 @@
+{
+  "sortnum": 1,
+  "name": "Dimensions of Magick",
+  "icon": "aether_legacy:aether_portal_frame",
+  "category": "magic_leyoftheland",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I've happened upon a world beyond our origin. It's incredible to think that despite the overworld being vast and infinite, there are yet more worlds to explore.$(br2)I'm curious what magick these worlds have to offer."
+    },
+    {
+      "type": "text",
+      "text": "I will use this section of my journal to record my findings of each dimension I come across with unique magical properties."
+    },
+    {
+      "title": "Aether",
+      "type": "text",
+      "text": "Far above the world in a sea of clouds of $(thing)Water$(), this world where $(thing)Sun$() is eternal is filled with $(thing)Air$() and sparse of land.$(br2)$(thing)Arcane Energy$() permeates the air, bringing $(thing)Balance$() to the $(thing)Life$() that resides here."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/aether.png"],
+      "border": "true"
+    },
+    {
+      "title": "Nether",
+      "type": "text",
+      "text": "Deep beneath the $(thing)Earth$(), this hell of $(thing)Fire$() and $(thing)Death$() where $(thing)Souls$() rest is filled with $(thing)Chaos$() and $(thing)Disintegration$().$(br2)Noticeably, this world is set in an eternal $(thing)Night$()."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/nether.png"],
+      "border": "true"
+    },
+    {
+      "title": "Beneath",
+      "type": "text",
+      "text": "Just under the $(item)Arcane Barrier$() is a vast $(thing)Earthy$() world filled with $(thing)Poison$() and $(thing)Darkness$().$(br2)Prolonged exposure might drive one's $(thing)Mind$() insane.$(br2)The $(thing)Water$() seems to contain $(thing)Ordered$() traces of magick."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/beneath.png"],
+      "border": "true"
+    },
+    {
+      "title": "End",
+      "type": "text",
+      "text": "This open-$(thing)Air$() world lacks $(thing)Water$() and $(thing)Fire$(), filled with strange creatures capable of teleportation.$(br2)I've heard tales that this race of $(thing)Illusive$() creatures hold the $(thing)Knowledge$() of $(thing)Creation$() itself."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/end.png"],
+      "border": "true"
+    },
+    {
+      "title": "Twilight Forest",
+      "type": "text",
+      "text": "This ever-$(thing)Dusk$() world lacks $(thing)Day$() and is filled with all sorts of $(thing)Natural$() and intriguing life.$(br2)From the $(thing)Strength$() and $(thing)Fire$() of $(thing)Dragons$(), to the $(thing)Transformative Fae$(), there is much magick and mystery to learn about."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/twilightforest.png"],
+      "border": "true"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

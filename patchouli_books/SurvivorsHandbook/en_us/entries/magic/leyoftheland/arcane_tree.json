@@ -1,7 +1,9 @@
 {
+  "sortnum": 3,
   "name": "Arcane Trees",
   "icon": "aether_legacy:golden_oak_sapling",
   "category": "magic_leyoftheland",
+  "read_by_default": "true",
   "pages": [
     {
       "type": "text",
@@ -13,8 +15,30 @@
     },
     {
       "type": "image",
+      "title": "Bloodwood Tree",
+      "images": ["book:images/bloodwood.png"],
+      "border": "true",
+      "text": "A blood-soaked tree growing atop soul sand."
+    },
+    {
+      "type": "text",
+      "text": "A bloodthirsty tree!$(br)It was only hapstance that I discovered this tree, as it doesn't seem to grow in the wild. Only through experimenting with combining saplings with souls was I able to create a sapling.$(br)Furthermore, they have an unquinchable thirst for blood and soul, growing exponentially so long as they are fed."
+    },  
+    {
+      "type": "image",
+      "title": "Ethereal Tree",
+      "images": ["book:images/bloodwood.png"],
+      "border": "true",
+      "text": "A blood-soaked tree growing atop soul sand."
+    },
+    {
+      "type": "text",
+      "text": "(Placeholder)."
+    },  
+    {
+      "type": "image",
       "title": "Golden Oak",
-      "images": ["book:goldenoak.png"],
+      "images": ["book:images/goldenoak.png"],
       "border": "true",
       "text": "A golden oak sits atop a floating Aether island."
     },
@@ -24,15 +48,103 @@
     },
     {
       "type": "image",
-      "title": "Bloodwood Tree",
-      "images": ["book:goldenoak.png"],
+      "title": "Hellbark Tree",
+      "images": ["book:images/hellbark.png"],
       "border": "true",
-      "text": "A golden oak sits atop a floating Aether island."
+      "text": "A stout little tree taking on the heat."
     },
     {
       "type": "text",
-      "text": "A bloodthirsty tree!. It was only hapstance that I discovered this tree, as it doesn't seem to grow in the wild. Only through experimenting with combining saplings with souls was I able to create a sapling. Furthermore, they have an unquinchable thirst for blood and soul, growing exponentially so long as they are fed."
-    },    
+      "text": "These tiny little trees are almost mistaken for bushes. Being endemic to the Nether has allowed these tiny trees to completely resist fire, making it a nice fireproof material to work with."
+    },
+    {
+      "type": "image",
+      "title": "Ironwood",
+      "images": ["book:images/ironwood.png"],
+      "border": "true",
+      "text": "A mighty iron-wrought tree with a hefty trunk."
+    },
+    {
+      "type": "text",
+      "text": "These mighty trees get their coloration and toughness from ferous deposits in the soil.$(br2)The berries these trees produce are also incredibly tough, but still edible.$(br2)Eating one doesn't have desireable effects, but may have useful alchemical purposes."
+    },
+    {
+      "type": "image",
+      "title": "Magic Tree",
+      "images": ["book:images/magictree.png"],
+      "border": "true",
+      "text": "Magical blue sparkles falls of a shimmering tree."
+    },
+    {
+      "type": "text",
+      "text": "These magical trees seems to draw upon the surrounding leylines, saturating the wood with magick.$(br2)This seems to give the wood some unique magical properties... "
+    },
+    {
+      "type": "image",
+      "title": "Rainbow Oak",
+      "images": ["book:images/rainbowoak.png"],
+      "border": "true",
+      "text": "Colorful rainbow leaves shift in tones and color."
+    },
+    {
+      "type": "text",
+      "text": "This colorful tree is pretty to look at!$(br2)The leaves change colors on their own, shifting through the entire rainbow.$(br2)Otherwise, its wood is that of Twilight Oak."
+    },
+    {
+      "type": "image",
+      "title": "Robust Twilight Oak",
+      "images": ["book:images/robusttwilightoak.png"],
+      "border": "true",
+      "text": "An incredibly tall tree touching the sky."
+    },
+    {
+      "type": "text",
+      "text": "This majestic tree is capable of growing to incredible heights.$(br2)It seems to attract singing cicadas and bright fireflies.$(br2)Most interestingly, the leaves sometimes contain spider nests guarding treasure..."
+    }, 
+    {
+      "type": "image",
+      "title": "Sacred Oak",
+      "images": ["book:images/sacredoak.png"],
+      "border": "true",
+      "text": "A gigantic oak blotting out the sky."
+    },
+    {
+      "type": "text",
+      "text": "Such large trees seem impossible. Then again, obtaining a sapling seemed like a myth in of itself.$(br2)While their properties are not particularly unique, I suspect some form of magick allows for this tree's enormous size."
+    },
+    {
+      "type": "image",
+      "title": "Umbran Tree",
+      "images": ["book:images/umbrantree.png"],
+      "border": "true",
+      "text": "A dark ominous tree in a thick fog."
+    },
+    {
+      "type": "text",
+      "text": "Thriving in an eerie, umbral environment, these trees are as mysterious and odd as the biome they grow in.$(br2)Dark mysterious forces are strong in Umbral biomes, and this darkness has seeped into these trees."
+    },
+    {
+      "type": "image",
+      "title": "Crystal Tree",
+      "images": ["book:images/crystaltree.png"],
+      "border": "true",
+      "text": "A pastel crystalline tree sitting atop a floating rock."
+    },
+    {
+      "type": "text",
+      "text": "These lone trees sit atop floating islands in the Aether, making them a bit of a challenge to reach.$(br2)It's certainly worth the effort, as they bear a fruit capable of curing ailments."
+    },
+    {
+      "type": "image",
+      "title": "Wyrmwood",
+      "images": ["book:images/wyrmwood.png"],
+      "border": "true",
+      "text": "An enormous tree, thriving in an otherwise desolate land."
+    },
+    {
+      "type": "text",
+      "text": "In what was thought to be an empty, desolate land thrives the Wyrmwood. It's unknown where they get their nutrients to grow. Perhaps the infestation I found inside has something to do with it."
+    },                
     {
       "type": "relations",
       "entries": [

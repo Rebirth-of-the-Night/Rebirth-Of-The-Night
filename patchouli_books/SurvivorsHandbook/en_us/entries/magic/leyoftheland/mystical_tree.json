@@ -1,0 +1,79 @@
+{
+  "sortnum": 4,
+  "name": "Mystical Trees",
+  "icon": "twilightforest:twilight_sapling:6",
+  "category": "magic_leyoftheland",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Amazing! I have found a tree with incredible magical properties. These trees seem exceedingly rare, and their powerful auras seem to permeate the world around them. Their wood should serve as excellent magical conduits, too, allowing for even greater magical devices to be created."
+    },
+    {
+      "type": "text",
+      "text": "Due to the unique properties of some of these trees, I will record my findings on each tree here."
+    },
+    {
+      "type": "image",
+      "title": "Alicio Tree",
+      "images": ["book:images/alicio.png"],
+      "border": "true",
+      "text": "A horrific tree crying blood."
+    },
+    {
+      "type": "text",
+      "text": "This horrifying tree cries blood when fed. Its food of choice seems to be glowstone. After some time, animals will be lured to the tree. The wood seems soaked with blood, leaving it too wet to burn. Is it... alive?."
+    },
+    {
+      "type": "image",
+      "title": "Miner's Tree",
+      "images": ["book:images/miningtree.png"],
+      "border": "true",
+      "text": "A tree resembling the shape of a pickaxe."
+    },
+    {
+      "type": "text",
+      "text": "This tree attracts ores from deep underground, bringing them up to the surface near its roots.$(br2)Unlike most trees, this one is incapable of reproduction.$(br2)Its core is the source of its magic."
+    }, 
+    {
+      "type": "image",
+      "title": "Sorting Tree",
+      "images": ["book:images/sortingtree.png"],
+      "border": "true",
+      "text": "A tree with a watchful eye."
+    },
+    {
+      "type": "text",
+      "text": "Placing storage containers near this tree will cause the tree to sort their contents. However, it seems the tree has its own sorting parameters.$(br2)Unlike most trees, this one is incapable of reproduction.$(br2)Its core is the source of its magic."
+    }, 
+    {
+      "type": "image",
+      "title": "Tree of Time",
+      "images": ["book:images/treeoftime.png"],
+      "border": "true",
+      "text": "A tree with a ticking clock."
+    },
+    {
+      "type": "text",
+      "text": "This tree warps the very fabric of time around it, speeding it up. This should have a wide range of useful applications.$(br2)Unlike most trees, this one is incapable of reproduction.$(br2)Its core is the source of its magic."
+    }, 
+    {
+      "type": "image",
+      "title": "Tree of Transformation",
+      "images": ["book:images/treeoftrans.png"],
+      "border": "true",
+      "text": "Runes falling from a beautiful shimmering tree."
+    },
+    {
+      "type": "text",
+      "text": "A beautiful tree with shimmering leaves that drip runes. When planted, the tree transforms the surrounding area, enchanting it.$(br2)Unlike most trees, this one is incapable of reproduction.$(br2)Its core is the source of its magic."
+    },  
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

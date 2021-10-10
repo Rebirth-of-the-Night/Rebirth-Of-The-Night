@@ -1,0 +1,64 @@
+{
+  "sortnum": 0,
+  "name": "Biomes of Magick",
+  "icon": "naturescompass:naturescompass",
+  "category": "magic_leyoftheland",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "This world - vast and neverending - contains many'a'biome. Most biomes are what one might expect, ranging from flat to mountainous, from warm to frigid, from tall to deep.$(br2)Some biomes, however, are magical sights to be seen, explored, and tapped into."
+    },
+    {
+      "type": "text",
+      "text": "I will use this section of my journal to record my findings of each biomes I come across with unique magical properties."
+    },
+    {
+      "type": "runic_slim",
+      "recipe": "mage:naturescompass",
+      "text_left": "",
+      "text_right": "Lore tells of a compass capable of pointing towards specified biomes.$(br2)Making one of these should help me locate biomes of my choosing."
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "title": "Mystic Grove",
+      "type": "text",
+      "text": "These colorful pastel biomes are the home of the fae.$(br2)The mystical forests contain a plethora of magical trees and wonderous flora, useful for a variety of magical purposes."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/mystic_grove.png"],
+      "border": "true"
+    },
+    {
+      "title": "Defiled Lands",
+      "type": "text",
+      "text": "A foul magick has corrupted parts of the world, leading to a spreading decay and defilement of the area.$(br2)Curiously, though, new life has thrived here, albeit disturbing."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/defiled_lands.png"],
+      "border": "true"
+    },
+    {
+      "title": "Ominous Woods",
+      "type": "text",
+      "text": "A dark, mysterious aura precides over this biome.$(br2)Home to umbral trees and other eerie flora, ever clouded by a dark, creeping fog."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/ominous_woods.png"],
+      "border": "true"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

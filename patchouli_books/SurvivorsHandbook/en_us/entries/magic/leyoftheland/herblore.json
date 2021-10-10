@@ -1,0 +1,84 @@
+{
+  "sortnum": 5,
+  "name": "Herblore",
+  "icon": "rustic:marsh_mallow",
+  "category": "magic_leyoftheland",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I've obtained a unique herb. Herbs should be useful for survival.$(br2)Not only can some of them be eaten for basic hunger, but many of them possess unique properties, both alchemical and otherwise."
+    },
+    {
+      "type": "text",
+      "text": "I will use this section of my journal to record my findings of each herb I come across.$(br2)Only herbs with magical properties are recorded here.$(br2)For herbs' alchemical applications, I will record my findings under the Alchemy section."
+    },
+    {
+      "type": "spotlight",
+      "title": "Black Apple",
+      "item": "betternether:black_apple",
+      "text": "Native to the Nether, these deep black apples, while appearing poisonous, are actually deceptively helpful, capable of restoring one's health beyond what you may expect."
+    },
+    {
+      "type": "spotlight",
+      "title": "Blastem Fruit",
+      "item": "defiledlands:blastem_fruit",
+      "text": "Native to the Defiled Lands, this fruit can be tossed, exploding on impact. I should also be careful when handling matured blastem plants."
+    },
+    {
+      "type": "spotlight",
+      "title": "Brown Elder Mushroon",
+      "item": "netherex:brown_elder_mushroom",
+      "text": "This curious mushroom seems to grow on Brown Mogus, and are incapable of spreading. Consuming one seems to be detrimental to one's health, however, I am completely full after eating just one."
+    },
+    {
+      "type": "spotlight",
+      "title": "Cave Root Sprout",
+      "item": "quark:root_flower",
+      "text": "An otherwise normal root when consumed, having the usual cave root bitter taste. For some reason, though, my body is not a natural color after eating one..."
+    },
+    {
+      "type": "spotlight",
+      "title": "Chorus Fruit",
+      "item": "minecraft:chorus_fruit",
+      "text": "Native to the End, this fruit grows on chorus stalks. Upon eating one, my body is completely displaced from its original location. Odd."
+    },
+    {
+      "type": "spotlight",
+      "title": "Cloudsbluff",
+      "item": "rustic:cloudsbluff",
+      "text": "Found atop mountains, this herb is like a little cloud and lighter than air. Eating one is like eating air, including causing one to levitate off the ground for a short time."
+    },
+    {
+      "type": "spotlight",
+      "title": "Ironberry",
+      "item": "rustic:ironberries",
+      "text": "A displeasing berry with a metallic taste and heavy as iron. Eating one causes me to be unable to move for a short time."
+    },
+    {
+      "type": "spotlight",
+      "title": "Red Elder Mushroom",
+      "item": "netherex:red_elder_mushroom",
+      "text": "This curious mushroom seems to grow on Red Mogus, and are incapable of spreading. Consuming one leaves me feeling incredibly healthy and refreshed, although my stomach seems empty now."
+    },
+    {
+      "type": "spotlight",
+      "title": "Sanguine Rose",
+      "item": "dungeontactics:flower_sanguine",
+      "text": "A beautiful crimson rose that when stood nearby, revitalizes one's health."
+    },
+    {
+      "type": "spotlight",
+      "title": "White Apple",
+      "item": "aether_legacy:white_apple",
+      "text": "Native to the Aether, growing on Crystal Trees. These pale white apples leave one cured of all ailments."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

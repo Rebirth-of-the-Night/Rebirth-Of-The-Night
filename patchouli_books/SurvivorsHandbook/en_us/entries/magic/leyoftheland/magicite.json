@@ -1,0 +1,68 @@
+{
+  "sortnum": 6,
+  "name": "Magicite",
+  "icon": "quark:crystal:7",
+  "category": "magic_leyoftheland",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I've happened upon a type of stone that seems to be saturated with magic. Upon breaking it, it released its quintessence.$(br2)Perhaps by being exposed to leylines, these stones have soaked in magic, and solidified it, allowing for collection.$(br2)I'll use this section to record my findings."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/magicite.png"],
+      "border": "true"
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:vis_speck",
+      "text": "Magicite seems to occassionally contain vis specks upon breaking."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:magicked_stone",
+      "text": "This familiar looking stone is what is left after magicite has been depleted of its essence. Still, however, it has decorative uses that Botanical fans might enjoy."
+    },
+    {
+      "type": "text",
+      "title": "Mundane Quintessence",
+      "text": "Magicite seems to only contain basic quintessence. Due to its correlation with leylines, I wonder if there is a way to open the flow of additional leylines, allowing for a wider variety of quintessence.$(br2)Additionally, there seems to be a correlation between magicite color, biome, and the quintessence it contains."
+    },
+    {
+      "type": "spotlight",
+      "title": "Mundane Quintessence",
+      "item": "contenttweaker:air_quintessence",
+      "text": "A sample of mundane quintessence. There are more of these to discover."
+    },
+    {
+      "type": "text",
+      "title": "Arcane Quintessence",
+      "text": "Ah-ha! Defeating certain foes in the world unlocks the flow of additional leylines.$(br2)Mining magicite of the correct color and biome should reveal they contain more types of quintessence.$(br2)I wonder if there is yet more leylines to unlock..."
+    },
+    {
+      "type": "spotlight",
+      "title": "Arcane Quintessence",
+      "item": "contenttweaker:knowledge_quintessence",
+      "text": "A sample of mundane quintessence. There are more of these to discover."
+    },
+    {
+      "type": "text",
+      "title": "Mystical Quintessence",
+      "text": "Eureka! Opening portals and piercing the veil to other worlds causes a torrent of magick to flow into this world.$(br2)I'm willing to bet magicite has soaked up these leylines.$(br2)Additionally, these worlds themselves contain saturated magicite."
+    },
+    {
+      "type": "spotlight",
+      "title": "Mystical Quintessence",
+      "item": "contenttweaker:nether_quintessence",
+      "text": "A sample of mundane quintessence. There are more of these to discover."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}

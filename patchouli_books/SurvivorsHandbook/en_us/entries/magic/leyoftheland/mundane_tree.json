@@ -1,0 +1,20 @@
+{
+  "sortnum": 2,
+  "name": "Mundane Trees",
+  "icon": "biomesoplenty:sapling_2:3",
+  "category": "magic_leyoftheland",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Wood is a very versatile material. Not only can I shape it into tools and construction materials, but I can also fashion magical devices from it. Ableit weak, wood from trees seem to contain hint traces of the magic from surrounding leylines."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "adapt/twine",
+        "gather/sticks"
+      ]
+    }
+  ]
+}
