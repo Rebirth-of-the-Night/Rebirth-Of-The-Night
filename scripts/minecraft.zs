@@ -1350,7 +1350,7 @@ runes.addItems([<contenttweaker:fae_rune>,<contenttweaker:chaos_rune>,<contenttw
 );
 
 val mortarCommon = <ore:mortarCommon>;
-mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:item_cob>,<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>]);
+mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:item_cob>,<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:15>]);
 
 // Brick Rework
 // Stones
