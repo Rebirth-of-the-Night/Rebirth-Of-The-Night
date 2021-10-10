@@ -136,7 +136,7 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setName("blank_rune")
-  .setShapeless([<contenttweaker:vis_speck>, <ore:stone>])
+  .setShapeless([<contenttweaker:vis_speck>, <ore:rock>])
   .addOutput(<contenttweaker:blank_rune>)
   .setMinimumTier(1)
   .setMaximumTier(1)
