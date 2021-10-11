@@ -61,7 +61,10 @@ val potionRemoval as string[] = [
     "extraalchemy:recall_strong",
     "extraalchemy:recall_long",
     "extraalchemy:return_normal",
-    "extraalchemy:freezing"
+    "extraalchemy:freezing",
+    "extraalchemy:magnetism_normal",
+    "extraalchemy:magnetism_strong",
+    "extraalchemy:magnetism_long"
 ];
 
 for potion in potionRemoval {
