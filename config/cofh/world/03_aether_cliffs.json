@@ -1,0 +1,95 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+        "aether_cliffs_frostburn": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "netherex:frostburn_ice"
+				},
+				"material": [
+					{
+					"name": "aether_legacy:aether_grass"
+					},
+					{
+					"name": "minecraft:double_plant"
+					},
+					{
+					"name": "minecraft:tallgrass"
+					},
+					{
+					"name": "aether_legacy:purple_flower"
+					},
+					{
+					"name": "aether_legacy:berry_bush"
+					},
+					{
+					"name": "aether_legacy:holystone"
+					}
+				],
+				"radius": 25,
+				"height": 3,
+				"slim": true
+			},
+			"cluster-count": 9,
+			"chunk-chance": 15,
+			"min-height": 10,
+			"max-height": 255,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		},
+		"aether_cliffs_ice_pikes": {
+            "distribution": "surface",
+            "generator": {
+				"type": "stalagmite",
+				"block": [
+					{
+						"name": "aether_legacy:icestone"
+					}
+				],
+				"material": [
+					{
+					"name": "aether_legacy:aether_grass"
+					}
+				],
+				"gen-body": [
+					{ 
+					"name": "minecraft:air"
+					},
+					{
+					"name": "minecraft:double_plant"
+					},
+					{
+					"name": "minecraft:tallgrass"
+					},
+					{
+					"name": "aether_legacy:purple_flower"
+					},
+					{
+					"name": "aether_legacy:berry_bush"
+					}
+				],
+				"fat": false,
+				"alt-sinc": false,
+				"min-height": 40,
+				"height-variance": 15,
+				"gen-size": 2,
+				"size-variance": 3
+			},
+			"material": [
+					{
+					"name": "aether_legacy:aether_grass"
+					}
+				]
+			"cluster-count": 1,
+			"chunk-chance": 3,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		}
+	}
+}
