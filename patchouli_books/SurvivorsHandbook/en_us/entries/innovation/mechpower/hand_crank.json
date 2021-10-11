@@ -1,0 +1,19 @@
+{
+    "name": "Hand Crank",
+    "icon": "betterwithmods:hand_crank",
+    "category": "innovation_mechpower",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:hand_crank",
+            "text": "A rudimentary but straightforward solution. By placing it on top of my $(l:innovation/light_machines/millstone)millstone$(), I’m able to grind up materials in short bursts of effort, giving me useful dyes, fibers and hides. Attending the hand crank is a full time job however, and I always find myself a bit peckish by the time I'm done."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/mechpower/millstone"
+            ]
+        }
+    ]
+    
+}

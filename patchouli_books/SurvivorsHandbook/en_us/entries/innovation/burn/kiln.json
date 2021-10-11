@@ -14,7 +14,7 @@
 		},	
 		{
             "type": "text",
-            "text":	"ignite it and then I can estimate how much time it will take.$(br2)$(o)To operate the kiln, place fuel in the bottom slot and a valid material in the top slot, after that,  use an igniter(link) on the fuel and let it cook; Duration of the recipe displays on the bottom left corner/$"
+            "text":	"Ignite it and then I can estimate how much time it will take.$(br2)$(o)To operate the kiln, place fuel in the bottom slot and a valid material in the top slot, after that,  use an igniter(link) on the fuel and let it cook; Duration of the recipe displays on the bottom left corner/$"
         },
 		{
 			"type": "relations",

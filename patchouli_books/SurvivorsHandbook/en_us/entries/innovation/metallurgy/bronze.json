@@ -4,8 +4,16 @@
     "category": "innovation_metallurgy",
     "pages": [
         {
-            "type": "text",
-            "text": "Making bronze is rather easy. By combining about 3 parts copper to 1 part tin, melting them together in a $(thing)kiln$() at a relatively low melting point of around 2,000 degrees Fahrenheit will yield 4 bronze."
+            "type": "crafting",
+            "recipe": "crafttweaker:bronze_dust"
+        },
+        {
+            "type": "kiln_spotlight",
+            "title": "Bronze",
+            "input": "contenttweaker:material_part:37",
+            "output": "contenttweaker:material_part:0",
+            "time": "3:20min",
+            "text": "Making bronze is rather easy. By combining about 3 copper to 1 tin into a bronze compound dust, melting them together in a $(thing)kiln$() at a relatively low melting point of around 2,000 degrees Fahrenheit will yield 4 bronze."
         },
         {
             "type": "text",
@@ -14,7 +22,8 @@
         {
             "type": "relations",
             "entries": [
-                "innovation/burn/kiln"
+                "innovation/burn/kiln",
+                "innovation/metallurgy/copper"
             ]
         }
     ]

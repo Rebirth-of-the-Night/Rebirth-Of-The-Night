@@ -1,7 +1,7 @@
 {
   "name": "Turntable",
   "icon": "betterwithmods:single_machine:3",
-  "category": "innovation/light_machines",
+  "category": "innovation_light_machines",
   "pages": [
   {
       "type": "text",
@@ -9,7 +9,7 @@
     },
     {
       "type": "crafting",
-      "recipe": "betterwithmods:blocks/mech/single:machine_3"
+      "recipe": "betterwithmods:single_machine:3"
     },
     {
       "type": "relations",
