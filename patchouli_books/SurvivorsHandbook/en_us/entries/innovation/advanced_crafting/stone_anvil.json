@@ -1,0 +1,19 @@
+{
+    "name": "Multipurpose Stone Anvil",
+    "icon": "pyrotech:stone_anvil",
+    "category": "innovation_advanced_crafting",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pyro_stone_anvil",
+            "text": "By compressing some stone, I can create a sturdy and uniform surface in order to crudely further refine materials such as metals. It also allows for extracting deposits of material from certain kinds of stone that wouldn’t be possible by simply mining it. I can use many instruments to smash with, such as a sledgehammer or pickaxe."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                
+            ]
+        }
+    ]
+    
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Monsterpedia",
+    "description": "$(#734608)There are many different monsters that exist in this world. It may be best to make a log of all the ones that I encounter often.",
+    "icon": "minecraft:skull",
+    "sortnum": 3,
+    "parent": "slayers_journal"
+  }
