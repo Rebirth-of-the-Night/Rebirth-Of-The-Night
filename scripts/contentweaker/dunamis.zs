@@ -78,37 +78,37 @@ blankRune.register();
 // runes
 val solRune = VanillaFactory.createItem("sol_rune");
 solRune.setCreativeTab(<creativetab:Dunamis>);
-solRune.maxDamage = 4;
+solRune.maxDamage = 256;
 solRune.maxStackSize = 1;
 solRune.register();
 
 val lunaRune = VanillaFactory.createItem("luna_rune");
 lunaRune.setCreativeTab(<creativetab:Dunamis>);
-lunaRune.maxDamage = 4;
+lunaRune.maxDamage = 256;
 lunaRune.maxStackSize = 1;
 lunaRune.register();
 
 val airRune = VanillaFactory.createItem("air_rune");
 airRune.setCreativeTab(<creativetab:Dunamis>);
-airRune.maxDamage = 4;
+airRune.maxDamage = 256;
 airRune.maxStackSize = 1;
 airRune.register();
 
 val fireRune = VanillaFactory.createItem("fire_rune");
 fireRune.setCreativeTab(<creativetab:Dunamis>);
-fireRune.maxDamage = 4;
+fireRune.maxDamage = 256;
 fireRune.maxStackSize = 1;
 fireRune.register();
 
 val earthRune = VanillaFactory.createItem("earth_rune");
 earthRune.setCreativeTab(<creativetab:Dunamis>);
-earthRune.maxDamage = 4;
+earthRune.maxDamage = 256;
 earthRune.maxStackSize = 1;
 earthRune.register();
 
 val waterRune = VanillaFactory.createItem("water_rune");
 waterRune.setCreativeTab(<creativetab:Dunamis>);
-waterRune.maxDamage = 4;
+waterRune.maxDamage = 256;
 waterRune.maxStackSize = 1;
 waterRune.register();
 
@@ -170,103 +170,103 @@ spectralShard.register();
 // runes
 val balanceRune = VanillaFactory.createItem("balance_rune");
 balanceRune.setCreativeTab(<creativetab:Dunamis>);
-balanceRune.maxDamage = 6;
+balanceRune.maxDamage = 256;
 balanceRune.maxStackSize = 1;
 balanceRune.register();
 
 val chaosRune = VanillaFactory.createItem("chaos_rune");
 chaosRune.setCreativeTab(<creativetab:Dunamis>);
-chaosRune.maxDamage = 6;
+chaosRune.maxDamage = 256;
 chaosRune.maxStackSize = 1;
 chaosRune.register();
 
 val creationRune = VanillaFactory.createItem("creation_rune");
 creationRune.setCreativeTab(<creativetab:Dunamis>);
-creationRune.maxDamage = 6;
+creationRune.maxDamage = 256;
 creationRune.maxStackSize = 1;
 creationRune.register();
 
 val deathRune = VanillaFactory.createItem("death_rune");
 deathRune.setCreativeTab(<creativetab:Dunamis>);
-deathRune.maxDamage = 6;
+deathRune.maxDamage = 256;
 deathRune.maxStackSize = 1;
 deathRune.register();
 
 val energyRune = VanillaFactory.createItem("energy_rune");
 energyRune.setCreativeTab(<creativetab:Dunamis>);
-energyRune.maxDamage = 6;
+energyRune.maxDamage = 256;
 energyRune.maxStackSize = 1;
 energyRune.register();
 
 val illusionRune = VanillaFactory.createItem("illusion_rune");
 illusionRune.setCreativeTab(<creativetab:Dunamis>);
-illusionRune.maxDamage = 6;
+illusionRune.maxDamage = 256;
 illusionRune.maxStackSize = 1;
 illusionRune.register();
 
 val knowledgeRune = VanillaFactory.createItem("knowledge_rune");
 knowledgeRune.setCreativeTab(<creativetab:Dunamis>);
-knowledgeRune.maxDamage = 6;
+knowledgeRune.maxDamage = 256;
 knowledgeRune.maxStackSize = 1;
 knowledgeRune.register();
 
 val lifeRune = VanillaFactory.createItem("life_rune");
 lifeRune.setCreativeTab(<creativetab:Dunamis>);
-lifeRune.maxDamage = 6;
+lifeRune.maxDamage = 256;
 lifeRune.maxStackSize = 1;
 lifeRune.register();
 
 val mindRune = VanillaFactory.createItem("mind_rune");
 mindRune.setCreativeTab(<creativetab:Dunamis>);
-mindRune.maxDamage = 6;
+mindRune.maxDamage = 256;
 mindRune.maxStackSize = 1;
 mindRune.register();
 
 val natureRune = VanillaFactory.createItem("nature_rune");
 natureRune.setCreativeTab(<creativetab:Dunamis>);
-natureRune.maxDamage = 6;
+natureRune.maxDamage = 256;
 natureRune.maxStackSize = 1;
 natureRune.register();
 
 val orderRune = VanillaFactory.createItem("order_rune");
 orderRune.setCreativeTab(<creativetab:Dunamis>);
-orderRune.maxDamage = 6;
+orderRune.maxDamage = 256;
 orderRune.maxStackSize = 1;
 orderRune.register();
 
 val poisonRune = VanillaFactory.createItem("poison_rune");
 poisonRune.setCreativeTab(<creativetab:Dunamis>);
-poisonRune.maxDamage = 6;
+poisonRune.maxDamage = 256;
 poisonRune.maxStackSize = 1;
 poisonRune.register();
 
 val soulRune = VanillaFactory.createItem("soul_rune");
 soulRune.setCreativeTab(<creativetab:Dunamis>);
-soulRune.maxDamage = 6;
+soulRune.maxDamage = 256;
 soulRune.maxStackSize = 1;
 soulRune.register();
 
 val strengthRune = VanillaFactory.createItem("strength_rune");
 strengthRune.setCreativeTab(<creativetab:Dunamis>);
-strengthRune.maxDamage = 6;
+strengthRune.maxDamage = 256;
 strengthRune.maxStackSize = 1;
 strengthRune.register();
 
 val transRune = VanillaFactory.createItem("trans_rune");
 transRune.setCreativeTab(<creativetab:Dunamis>);
-transRune.maxDamage = 6;
+transRune.maxDamage = 256;
 transRune.maxStackSize = 1;
 transRune.register();
 
 val disintRune = VanillaFactory.createItem("disint_rune");
 disintRune.setCreativeTab(<creativetab:Dunamis>);
-disintRune.maxDamage = 6;
+disintRune.maxDamage = 256;
 disintRune.maxStackSize = 1;
 disintRune.register();
 
 val arcaneRune = VanillaFactory.createItem("arcane_rune");
 arcaneRune.setCreativeTab(<creativetab:Dunamis>);
-arcaneRune.maxDamage = 6;
+arcaneRune.maxDamage = 256;
 arcaneRune.maxStackSize = 1;
 arcaneRune.register();
 
@@ -405,43 +405,43 @@ disintQ.register();
 // runes
 val holdingRune = VanillaFactory.createItem("holding_rune");
 holdingRune.setCreativeTab(<creativetab:Dunamis>);
-holdingRune.maxDamage = 8;
+holdingRune.maxDamage = 256;
 holdingRune.maxStackSize = 1;
 holdingRune.register();
 
 val netherRune = VanillaFactory.createItem("nether_rune");
 netherRune.setCreativeTab(<creativetab:Dunamis>);
-netherRune.maxDamage = 8;
+netherRune.maxDamage = 256;
 netherRune.maxStackSize = 1;
 netherRune.register();
 
 val plagueRune = VanillaFactory.createItem("plague_rune");
 plagueRune.setCreativeTab(<creativetab:Dunamis>);
-plagueRune.maxDamage = 8;
+plagueRune.maxDamage = 256;
 plagueRune.maxStackSize = 1;
 plagueRune.register();
 
 val timeRune = VanillaFactory.createItem("time_rune");
 timeRune.setCreativeTab(<creativetab:Dunamis>);
-timeRune.maxDamage = 8;
+timeRune.maxDamage = 256;
 timeRune.maxStackSize = 1;
 timeRune.register();
 
 val aetherRune = VanillaFactory.createItem("aether_rune");
 aetherRune.setCreativeTab(<creativetab:Dunamis>);
-aetherRune.maxDamage = 8;
+aetherRune.maxDamage = 256;
 aetherRune.maxStackSize = 1;
 aetherRune.register();
 
 val draconicRune = VanillaFactory.createItem("draconic_rune");
 draconicRune.setCreativeTab(<creativetab:Dunamis>);
-draconicRune.maxDamage = 8;
+draconicRune.maxDamage = 256;
 draconicRune.maxStackSize = 1;
 draconicRune.register();
 
 val faeRune = VanillaFactory.createItem("fae_rune");
 faeRune.setCreativeTab(<creativetab:Dunamis>);
-faeRune.maxDamage = 8;
+faeRune.maxDamage = 256;
 faeRune.maxStackSize = 1;
 faeRune.register();
 
