@@ -26,7 +26,8 @@ var filament = <betterwithmods:material:19>;
 var latch = <ore:latchRedstone>;
 var electrum = <ore:ingotElectrum>;
 var lumres = <betterwithaddons:wheatmat:0>;
-var metal = <ore:genericMetal>;
+var gmetal = <ore:genericMetal>;
+var gnugget = <ore:genericMetalNuggets>;
 var lightEssence = <biomesoplenty:biome_essence>;
 var voidurn = <betterwithmods:urn:9>.transformReplace(<betterwithmods:urn:0>);
 var lightblock = <betterwithmods:light>;
@@ -53,12 +54,12 @@ RecipeBuilder.get("mage")
 recipes.addShaped("glare_small", small, [
 	[null, ncoal, null],
 	[lumres, latch, lumres], 
-	[null, metal, null]
+	[null, gmetal, null]
 ]);
 recipes.addShaped("glareshaft_small",gshaft*8, [
-	[metal, metal, metal],
-	[metal, small.reuse(), metal],
-	[metal, metal, metal]
+	[gnugget, gnugget, gnugget],
+	[gnugget, small.reuse(), gnugget],
+	[gnugget, gnugget, gnugget]
 ]);
 
 // ultimate

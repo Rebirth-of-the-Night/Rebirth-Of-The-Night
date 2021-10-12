@@ -268,10 +268,10 @@ recipes.addShaped("betterminingcharge",<betterwithmods:mining_charge>*4,[
 // Dusts
 Mortar.addRecipe(["diamond"], <betterwithmods:material:18>, 12, [<minecraft:coal:0>]);
 Mortar.addRecipe(["diamond"], <betterwithmods:material:37>, 12, [<minecraft:coal:1>]);
-Mortar.addRecipe(["diamond"], <betterwithmods:material:15>, 12, [<minecraft:netherrack>]); //netherrack sludge
-Mortar.addRecipe(["diamond"], <betterwithmods:material:15>*8, 12, [<minecraft:netherrack>*8]);
-Mortar.addRecipe(["diamond"], <contenttweaker:ground_fiery_netherrack>, 12, [<netherex:fiery_netherrack>]); //fiery sludge
-Mortar.addRecipe(["diamond"], <contenttweaker:ground_fiery_netherrack>*8, 12, [<netherex:fiery_netherrack>*8]);
+Mortar.addRecipe(["diamond"], <betterwithmods:material:15>*8, 12, [<minecraft:netherrack>*8]); //netherrack sludge
+Mortar.addRecipe(["diamond"], <betterwithmods:material:15>, 12, [<minecraft:netherrack>]); 
+Mortar.addRecipe(["diamond"], <contenttweaker:ground_fiery_netherrack>*8, 12, [<netherex:fiery_netherrack>*8]); //fiery sludge
+Mortar.addRecipe(["diamond"], <contenttweaker:ground_fiery_netherrack>, 12, [<netherex:fiery_netherrack>]);
 
 
 // Remove unused refined weapons

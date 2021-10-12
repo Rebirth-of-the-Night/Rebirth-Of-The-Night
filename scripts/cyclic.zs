@@ -127,6 +127,8 @@ var st_conveyor = <cyclicmagic:plate_push_slowest>;
 var masonry_brick = <pyrotech:material:16>;
 var button_wood = <ore:buttonWood>;
 var white_metal_nugget = <ore:nuggetIron> | <ore:nuggetSilver> | <ore:nuggetTin>;
+var dense_redstone = <pyrotech:material:36>;
+var timber_framing = <earthworks:item_timber>;
 
 // Chaos Scepter
 # Change durability
@@ -205,10 +207,9 @@ recipes.addShaped("obsidian_shears", obsi_shear,[
     [null, obsi_shard, null]
 ]);
 
-recipes.addShaped("powered_conveyor", st_conveyor*6,[
-	[<minecraft:stick>,<minecraft:stick>,<minecraft:stick>],
-    [<advancedliftingmethods:powered_ladder>, <advancedliftingmethods:powered_ladder>, <advancedliftingmethods:powered_ladder>],
-    [<minecraft:stick>,<minecraft:stick>,<minecraft:stick>]
+recipes.addShaped("powered_conveyor", st_conveyor*12,[
+	[timber_framing,timber_framing,timber_framing],
+    [masonry_brick, dense_redstone, masonry_brick]
 ]);
 
 recipes.addShaped("ore_locator", ore_locator,[

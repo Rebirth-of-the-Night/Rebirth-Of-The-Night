@@ -42,9 +42,6 @@ Mortar.addRecipe(["diamond"], <ore:dustElectrum>.firstItem * 4, 12, [<ore:ingotG
 recipes.addShapeless("electrum_dust", <ore:dustElectrum>.firstItem * 4, [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>, <ore:dustGold>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustAmbrosium>, <ore:dustAmbrosium>]);
   // Additional recipes on pyrotech scripts 
 
-//JEI decriptions
-JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
-
 //healing stone
 Enchanter.removeEnchantment(<aether_legacy:holystone>);
 Enchanter.registerEnchantment(<aether_legacy:dungeon_block:2>, <aether_legacy:healing_stone>, 200);
@@ -56,6 +53,9 @@ Enchanter.registerEnchantment(<ore:rawOreGravitite>.firstItem, <ore:ingotGraviti
 //Aether Enchanter
 Enchanter.registerEnchanterFuel(elec,2400);
 Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);
+
+//Misc.
+Enchanter.registerEnchantment(<harvestersnight:harvester_scythe>, 8800);
 
 //Aether
 Enchanter.registerEnchantment(<aether_legacy:valkyrie_pickaxe>, 8800);

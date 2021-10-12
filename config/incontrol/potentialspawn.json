@@ -743,7 +743,7 @@
     "mobs": [
       {
         "mob": "specialmobs:hungryzombie",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -755,7 +755,7 @@
     "mobs": [
       {
         "mob": "specialmobs:plaguezombie",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -767,7 +767,7 @@
     "mobs": [
       {
         "mob": "specialmobs:fishingzombie",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -779,7 +779,7 @@
     "mobs": [
       {
         "mob": "specialmobs:firezombie",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -791,7 +791,7 @@
     "mobs": [
       {
         "mob": "specialmobs:giantzombie",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -807,7 +807,7 @@
     "mobs": [
       {
         "mob": "specialmobs:sniperskeleton",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -819,7 +819,7 @@
     "mobs": [
       {
         "mob": "specialmobs:poisonskeleton",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -831,7 +831,7 @@
     "mobs": [
       {
         "mob": "specialmobs:ninjaskeleton",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -843,7 +843,7 @@
     "mobs": [
       {
         "mob": "specialmobs:fireskeleton",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -855,7 +855,7 @@
     "mobs": [
       {
         "mob": "specialmobs:giantskeleton",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -867,7 +867,7 @@
     "mobs": [
       {
         "mob": "specialmobs:spitfireskeleton",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -879,7 +879,7 @@
     "mobs": [
       {
         "mob": "specialmobs:gatlingskeleton",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

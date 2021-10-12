@@ -183,6 +183,9 @@ val butterElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "cyclicmagi
 val nightvisionElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]});
 val nightvisionExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 9600, Amplifier: 0}]});
 val nightvisionObsceneExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 14400, Amplifier: 0}]});
+val ironskinElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 3600, Amplifier: 0}]});
+val ironskinElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 9600, Amplifier: 0}]});
+val ironskinElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 1800, Amplifier: 1}]});
 
 var cohosh = <rustic:cohosh>;
 var honeycomb = <rustic:honeycomb>;
@@ -195,15 +198,21 @@ var slime = <minecraft:slime_ball>;
 var endpearl = <minecraft:ender_pearl>;
 var butter = <harvestcraft:butteritem>;
 var gnugg = <minecraft:gold_nugget>;
+var genericNugg = <ore:genericMetalNuggets>;
 var wheatmat = <betterwithaddons:wheatmat>;
 var glowjelly = <mowziesmobs:glowing_jelly>;
 var radiantdust = <arcanearchives:radiant_dust>;
+var cutLeather = <betterwithmods:material:31>;
+var ironBerry = <rustic:ironberries>;
 
 Condenser.removeRecipe(regenerationElixir);
 Condenser.removeRecipe(regenerationElixirLong);
 Condenser.removeRecipe(regenerationElixirStrong);
 Condenser.removeRecipe(healthElixir);
 Condenser.removeRecipe(healthElixirStrong);
+Condenser.removeRecipe(ironskinElixir);
+Condenser.removeRecipe(ironskinElixirLong);
+Condenser.removeRecipe(ironskinElixirStrong);
 
 // Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
 Condenser.addRecipe(luckElixir, fourclover, amanita);
@@ -213,6 +222,9 @@ Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);
 Condenser.addRecipe(butterElixir, butter, gnugg);	
 Condenser.addRecipe(bouncyElixir, slime, endpearl);	
 Condenser.addRecipe(bouncyElixirLong, [slime, endpearl, butter], horsetail);
+Condenser.addRecipe(ironskinElixir, genericNugg, cutLeather,ironBerry)
+Condenser.addRecipe(ironskinElixirLong, [genericNugg, cutLeather,ironBerry], horsetail);
+Condenser.addRecipe(ironskinElixirStrong, [genericNugg, cutLeather,ironBerry], root);
 
 //val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
 Condenser.addRecipe(healthElixir, chamomile, <animania:raw_prime_beef>);

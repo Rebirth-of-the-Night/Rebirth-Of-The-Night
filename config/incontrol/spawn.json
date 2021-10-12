@@ -1712,7 +1712,7 @@
     "mob": "specialmobs:firezombie",
     "gamestage": "enteredNether",
     "maxcount": {
-        "amount": 5,
+        "amount": 4,
         "perplayer": true
     },
     "result": "default"

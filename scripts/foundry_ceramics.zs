@@ -48,7 +48,8 @@ Heating.addStateSource(<blockstate:betterwithmods:creative_generator>, 2500);
 
 // burner heater fuel
 BurnerHeater.clear();
-BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1800*100);
+BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1600*100);
+BurnerHeater.addFuel(<betterwithmods:aesthetic:13>, 2800, 1800*100);
 BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2500*100);
 
 //recipes

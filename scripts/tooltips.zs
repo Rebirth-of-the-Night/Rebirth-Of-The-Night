@@ -405,6 +405,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <contenttweaker:steel_artifact>.addShiftTooltip('A relic of the old days. Can be rarely dropped from "older" undead."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
+<ore:dustNetherrack>.addTooltip("Turns into sludge if it touches water.");
+
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
