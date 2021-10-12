@@ -131,7 +131,7 @@ for gate in gates {
 }
 
 // Core
-Anvil.addShaped(circuitPlate * 4, [
+Anvil.addShapedFixed(circuitPlate * 4, [
     [holystoneBrick, holystoneBrick, holystoneBrick, holystoneBrick],
     [redstonePaste, hellfireDust, hellfireDust, redstonePaste],
     [holystoneBrick, holystoneBrick, holystoneBrick, holystoneBrick]
@@ -162,7 +162,7 @@ Crucible.addUnstoked(
 recipes.removeByRecipeName("charset:wire_conversion_from");
 recipes.removeByRecipeName("charset:wire_conversion_to");
 
-Anvil.addShaped(alloyWire * 12, [
+Anvil.addShapedFixed(alloyWire * 12, [
     [null, null, mrepeater, redStuff],
     [null, redstonePaste, redStuff, redstonePaste],
     [redstonePaste, redStuff, redstonePaste, null],
@@ -194,21 +194,21 @@ for i in 0 to 16 {
     var wireColored = <projectred-transmission:wire>.definition.makeStack(i+1);
     var framedWireColored = <projectred-transmission:framed_wire>.definition.makeStack(i+1);
 
-    Anvil.addShaped(wireColored * 4, [
+    Anvil.addShapedFixed(wireColored * 4, [
         [null, null, woolColored, alloyWire],
         [null, padding, alloyWire, woolColored],
         [woolColored, alloyWire, padding, null],
         [alloyWire, woolColored, null, null]
     ]);
 
-    Anvil.addShaped(framedWireColored * 4, [
+    Anvil.addShapedFixed(framedWireColored * 4, [
         [null, null, woolColored, framedAlloyWire],
         [null, padding, framedAlloyWire, woolColored],
         [woolColored, framedAlloyWire, padding, null],
         [framedAlloyWire, woolColored, null, null]
     ]);
 
-    Anvil.addShaped(framedWireColored * 4, [
+    Anvil.addShapedFixed(framedWireColored * 4, [
         [null, wireColored, wireColored, null],
         [wireColored, pipe, pipe, wireColored],
         [wireColored, pipe, pipe, wireColored],
@@ -234,7 +234,7 @@ recipes.addShapeless("insulated_framed_wire_stripping", framedAlloyWire, [
     framedInsulatedWire
 ]); */
 
-Anvil.addShaped(framedAlloyWire * 4, [
+Anvil.addShapedFixed(framedAlloyWire * 4, [
     [null, alloyWire, alloyWire, null],
     [alloyWire, pipe, pipe, alloyWire],
     [alloyWire, pipe, pipe, alloyWire],
@@ -242,21 +242,21 @@ Anvil.addShaped(framedAlloyWire * 4, [
 ]);
 
 /*
-Anvil.addShaped(platformedPlate * 2, [
+Anvil.addShapedFixed(platformedPlate * 2, [
     [null, alloyWire, alloyWire, null],
     [circuitPlate, circuitPlate, circuitPlate, circuitPlate],
     [lattice, null, null, lattice],
     [circuitPlate, circuitPlate, circuitPlate, circuitPlate]
 ]);
 
-Anvil.addShaped(<projectred-core:screwdriver>, [
+Anvil.addShapedFixed(<projectred-core:screwdriver>, [
     [screw, null, null, null],
     [null, crucibleSteelIngot, null, null],
     [null, null, hardenedLeather, blueCarpet],
     [null, null, blueCarpet, hardenedLeather]
 ]);
 
-Anvil.addShaped(<projectred-core:multimeter>, [
+Anvil.addShapedFixed(<projectred-core:multimeter>, [
     [alloyWire, null, null, alloyWire],
     [<projectred-transmission:wire:16>, clock, scomparator, <projectred-transmission:wire:15>],
     [<projectred-transmission:wire:16>, wool, wool, <projectred-transmission:wire:15>],
@@ -265,49 +265,49 @@ Anvil.addShaped(<projectred-core:multimeter>, [
 */
 
 // Combinatorial
-Anvil.addShaped(gateOR, [
+Anvil.addShapedFixed(gateOR, [
     [circuitPlate, torch, circuitPlate],
     [circuitPlate, srepeater, circuitPlate],
     [srepeater, torch, srepeater],
     [redstonePaste, srepeater, redstonePaste]
 ]);
 
-Anvil.addShaped(gateNOR, [
+Anvil.addShapedFixed(gateNOR, [
     [circuitPlate, redstonePaste, circuitPlate],
     [circuitPlate, redstonePaste, circuitPlate],
     [srepeater, torch, srepeater],
     [redstonePaste, srepeater, redstonePaste]
 ]);
 
-Anvil.addShaped(gateXOR, [
+Anvil.addShapedFixed(gateXOR, [
     [circuitPlate, redstonePaste, redstonePaste, circuitPlate],
     [circuitPlate, redstonePaste, redstonePaste, circuitPlate],
     [redstonePaste, scomparator, scomparator, redstonePaste],
     [srepeater, redstonePaste, redstonePaste, srepeater]
 ]);
 
-Anvil.addShaped(gateXNOR, [
+Anvil.addShapedFixed(gateXNOR, [
     [circuitPlate, torch, torch, circuitPlate],
     [circuitPlate, srepeater, srepeater, circuitPlate],
     [redstonePaste, scomparator, scomparator, redstonePaste],
     [srepeater, redstonePaste, redstonePaste, srepeater]
 ]);
 
-Anvil.addShaped(gateAND, [
+Anvil.addShapedFixed(gateAND, [
     [circuitPlate, torch, circuitPlate],
     [torch, redstonePaste, torch],
     [srepeater, torch, srepeater],
     [circuitPlate, srepeater, circuitPlate]
 ]);
 
-Anvil.addShaped(gateNAND, [
+Anvil.addShapedFixed(gateNAND, [
     [circuitPlate, redstonePaste, circuitPlate],
     [torch, redstonePaste, torch],
     [srepeater, torch, srepeater],
     [circuitPlate, srepeater, circuitPlate]
 ]);
 
-Anvil.addShaped(gateNOT * 2, [
+Anvil.addShapedFixed(gateNOT * 2, [
     [circuitPlate, redstonePaste, circuitPlate],
     [redstonePaste, torch, redstonePaste],
     [circuitPlate, srepeater, circuitPlate],
@@ -344,14 +344,14 @@ recipes.addShapeless(gateXOR, [
     torch
 ]);
 
-Anvil.addShaped(gateBuffer, [
+Anvil.addShapedFixed(gateBuffer, [
     [circuitPlate, torch, circuitPlate],
     [srepeater, srepeater, srepeater],
     [wool, torch, wool],
     [circuitPlate, srepeater, circuitPlate]
 ]);
 
-Anvil.addShaped(gateMultiplexer, [
+Anvil.addShapedFixed(gateMultiplexer, [
     [circuitPlate, torch, circuitPlate, circuitPlate],
     [torch, redstonePaste, torch, srepeater],
     [srepeater, torch, redstonePaste, circuitPlate],
@@ -359,21 +359,21 @@ Anvil.addShaped(gateMultiplexer, [
 ]);
 
 // Basic seq
-Anvil.addShaped(prepeater, [
+Anvil.addShapedFixed(prepeater, [
     [observer, srepeater, circuitPlate],
     [hopper, dropper, circuitPlate],
     [dropper, hopper, circuitPlate],
     [circuitPlate, srepeater, scomparator]
 ]);
 
-Anvil.addShaped(pcomparator, [
+Anvil.addShapedFixed(pcomparator, [
     [circuitPlate, srepeater, circuitPlate],
     [redstonePaste, redstonePaste, redstonePaste],
     [srepeater, mcomparator, srepeater],
     [circuitPlate, srepeater, circuitPlate]
 ]);
 
-Anvil.addShaped(prandomizer, [
+Anvil.addShapedFixed(prandomizer, [
     [circuitPlate, srepeater, wool, circuitPlate],
     [wool, qrandomizer, qrandomizer, srepeater],
     [srepeater, qrandomizer, dice, wool],
@@ -381,7 +381,7 @@ Anvil.addShaped(prandomizer, [
 ]);
 
 /*
-Anvil.addShaped(drandomizer, [
+Anvil.addShapedFixed(drandomizer, [
     [circuitPlate, srepeater, wool, circuitPlate],
     [wool, redstonePaste, redstonePaste, srepeater],
     [srepeater, mrepeater, prandomizer, wool],
@@ -390,14 +390,14 @@ Anvil.addShaped(drandomizer, [
 */
 
 // Sequential
-Anvil.addShaped(pulseFormer, [
+Anvil.addShapedFixed(pulseFormer, [
     [circuitPlate, redstonePaste, circuitPlate],
     [circuitPlate, concrete, circuitPlate],
     [redstonePaste, stickyPiston, redstonePaste],
     [redstonePaste, srepeater, redstonePaste]
 ]);
 
-Anvil.addShaped(synchronizer, [
+Anvil.addShapedFixed(synchronizer, [
     [circuitPlate, pulseFormer, circuitPlate],
     [latchRS, torch, latchRS],
     [srepeater, srepeater, srepeater],
@@ -405,7 +405,7 @@ Anvil.addShaped(synchronizer, [
 ]);
 
 // Latches
-Anvil.addShaped(latchRS, [
+Anvil.addShapedFixed(latchRS, [
     [redstonePaste, torch, concrete],
     [srepeater, circuitPlate, srepeater],
     [concrete, torch, redstonePaste],
@@ -413,7 +413,7 @@ Anvil.addShaped(latchRS, [
 ]);
 
 /*
-Anvil.addShaped(latchTransparent, [
+Anvil.addShapedFixed(latchTransparent, [
     [circuitPlate, torch, circuitPlate, circuitPlate],
     [torch, redstonePaste, redstonePaste, redstonePaste],
     [srepeater, torch, mrepeater, torch],
@@ -422,21 +422,21 @@ Anvil.addShaped(latchTransparent, [
 */
 
 // Pointer-based
-Anvil.addShaped(timer, [
+Anvil.addShapedFixed(timer, [
     [stickyPiston, redstoneBlock, null, stickyPiston],
     [mcomparator, hopper, hopper, mcomparator],
     [circuitPlate, circuitPlate, circuitPlate, circuitPlate]
 ]);
 
 /*
-Anvil.addShaped(counter, [
+Anvil.addShapedFixed(counter, [
     [circuitPlate, hopper, hopper, circuitPlate],
     [concrete, torch, torch, concrete],
     [pulseFormer, circuitPlate, scomparator, pulseFormer],
     [srepeater, circuitPlate, torch, srepeater]
 ]);
 
-Anvil.addShaped(runningTimer, [
+Anvil.addShapedFixed(runningTimer, [
     [circuitPlate, hellfireBlock, circuitPlate],
     [srepeater, srepeater, circuitPlate],
     [scomparator, timer, srepeater],
@@ -446,17 +446,17 @@ Anvil.addShaped(runningTimer, [
 
 /*
 // Cells
-Anvil.addShaped(cellNull, [
+Anvil.addShapedFixed(cellNull, [
     [circuitPlate, circuitPlate, platformedPlate, circuitPlate],
     [scomparator, redstonePaste, circuitPlate, scomparator]
 ]);
 
-Anvil.addShaped(cellInvert, [
+Anvil.addShapedFixed(cellInvert, [
     [circuitPlate, circuitPlate, platformedPlate, circuitPlate],
     [scomparator, torch, circuitPlate, scomparator]
 ]);
 
-Anvil.addShaped(latchStacking, [
+Anvil.addShapedFixed(latchStacking, [
     [circuitPlate, circuitPlate, platformedPlate, circuitPlate],
     [scomparator, latchTransparent, circuitPlate, scomparator]
 ]);

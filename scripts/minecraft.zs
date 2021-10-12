@@ -52,6 +52,22 @@ furnace.remove(<minecraft:brick>);
 furnace.setFuel(<ore:barkWood>, 100);
 furnace.setFuel(<contenttweaker:charmpeat>, 3200);
 
+<ore:sourceCopper>.addItems(<contenttweaker:raw_copper>,<simpleores:copper_ingot>);
+<ore:sourceCopper>.addAll(<ore:oreCopper>);
+<ore:sourceTin>.addItems(<contenttweaker:raw_tin>,<simpleores:tin_ingot>);
+<ore:sourceTin>.addAll(<ore:oreTin>);
+<ore:sourceIron>.addItems(<contenttweaker:raw_iron>,<minecraft:iron_ingot>);
+<ore:sourceIron>.addAll(<ore:oreIron>);
+<ore:sourceGold>.addItems(<contenttweaker:raw_gold>,<minecraft:gold_ingot>);
+<ore:sourceGold>.addAll(<ore:oreGold>);
+<ore:sourceSilver>.addItems(<contenttweaker:raw_silver>,<iceandfire:silver_ingot>);
+<ore:sourceSilver>.addAll(<ore:oreSilver>);
+<ore:sourceGravitite>.addItems(<contenttweaker:raw_gravitite>,<contenttweaker:material_part:40>);
+<ore:sourceGravitite>.addAll(<ore:oreGravitite>);
+<ore:sourceZinc>.addAll(<ore:ingotZinc>);
+<ore:sourceEndorium>.add(<endreborn:item_ingot_endorium>);
+<ore:sourceBronze>.addAll(<ore:ingotBronze>);
+
 // raw ores
 furnace.addRecipe(<simpleores:tin_ingot>, <contenttweaker:raw_tin>);
 furnace.addRecipe(<simpleores:copper_ingot>, <contenttweaker:raw_copper>);
@@ -224,22 +240,6 @@ rawOreViridium.add(<contenttweaker:raw_viridium>);
 
 val rawOreMythril = <ore:rawOreMythril>;
 rawOreMythril.add(<contenttweaker:raw_mythril>);
-
-<ore:sourceCopper>.addItems(<contenttweaker:raw_copper>,<simpleores:copper_ingot>);
-<ore:sourceCopper>.addAll(<ore:oreCopper>);
-<ore:sourceTin>.addItems(<contenttweaker:raw_tin>,<simpleores:tin_ingot>);
-<ore:sourceTin>.addAll(<ore:oreTin>);
-<ore:sourceIron>.addItems(<contenttweaker:raw_iron>,<minecraft:iron_ingot>);
-<ore:sourceIron>.addAll(<ore:oreIron>);
-<ore:sourceGold>.addItems(<contenttweaker:raw_gold>,<minecraft:gold_ingot>);
-<ore:sourceGold>.addAll(<ore:oreGold>);
-<ore:sourceSilver>.addItems(<contenttweaker:raw_silver>,<iceandfire:silver_ingot>);
-<ore:sourceSilver>.addAll(<ore:oreSilver>);
-<ore:sourceGravitite>.addItems(<contenttweaker:raw_gravitite>,<contenttweaker:material_part:40>);
-<ore:sourceGravitite>.addAll(<ore:oreGravitite>);
-<ore:sourceZinc>.add(<ore:ingotZinc>);
-<ore:sourceEndorium>.add(<endreborn:item_ingot_endorium>);
-<ore:sourceBronze>.add(<contenttweaker:material_part:0>);
 
 
 val buckets = <ore:bucket>;
