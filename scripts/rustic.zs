@@ -222,7 +222,7 @@ Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);
 Condenser.addRecipe(butterElixir, butter, gnugg);	
 Condenser.addRecipe(bouncyElixir, slime, endpearl);	
 Condenser.addRecipe(bouncyElixirLong, [slime, endpearl, butter], horsetail);
-Condenser.addRecipe(ironskinElixir, genericNugg, cutLeather,ironBerry)
+Condenser.addRecipe(ironskinElixir, genericNugg, cutLeather,ironBerry);
 Condenser.addRecipe(ironskinElixirLong, [genericNugg, cutLeather,ironBerry], horsetail);
 Condenser.addRecipe(ironskinElixirStrong, [genericNugg, cutLeather,ironBerry], root);
 
