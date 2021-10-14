@@ -51,7 +51,7 @@ The book was better!
 The comic was better!
 The manga was better!
 Incompatible with Tektopia!
-Journeymap: Press [J]
+Journeymap: Press [Alt+F4]
 ThE 1.12.2 VeRsioN IS NO lONgeR suPpoRTEd
 Featuring Dante from the Devil May Cry series
 Ice shards are gone!
