@@ -45,7 +45,7 @@
   }
   caveBlocks: {
     states: lava
-    height: [ 0, 10 ]
+    height: [ 0, 9 ]
   }
   # Whether the preset is enabled globally.
   enabled: true

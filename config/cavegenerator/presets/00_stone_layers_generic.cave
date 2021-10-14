@@ -77,7 +77,6 @@
       state: undergroundbiomes:igneous_stone
       height: [ 0, 16 ]
       ceiling: {
-        scale: 0.9 # Removed in 1.0. You can delete this field.
         frequency: 0.015
         range: [ -7, 4 ]
       }
@@ -86,7 +85,6 @@
       state: undergroundbiomes:metamorphic_stone
       height: [ 0, 52 ]
       ceiling: {
-        scale: 0.9 # Removed in 1.0. You can delete this field.
         frequency: 0.015
       }
     }
@@ -95,7 +93,6 @@
       state: undergroundbiomes:sedimentary_stone
       height: [ 0, 100 ]
       ceiling: {
-        scale: 0.9 # Removed in 1.0. You can delete this field.
         frequency: 0.015
         range: [ 0, 4 ]
       }
@@ -105,7 +102,6 @@
       state: undergroundbiomes:sedimentary_stone:5
       height: [ 0, 128 ]
       ceiling: {
-        scale: 0.2 # Removed in 1.0. You can delete this field.
         frequency: 0.015
         range: [ 0, 8 ]
       }
@@ -115,7 +111,6 @@
       state: undergroundbiomes:metamorphic_stone:5
       height: [ 0, 204 ]
       ceiling: {
-        scale: 0.3 # Removed in 1.0. You can delete this field.
         frequency: 0.3
         range: [ 0, 8 ]
       }
@@ -125,7 +120,6 @@
       state: undergroundbiomes:metamorphic_stone:4
       height: [ 0, 255 ]
       ceiling: {
-        scale: 0.3 # Removed in 1.0. You can delete this field.
         frequency: 0.2
         range: [ 0, 8 ]
       }

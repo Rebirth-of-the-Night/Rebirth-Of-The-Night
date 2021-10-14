@@ -1,0 +1,9 @@
+{
+  caverns: [
+    {
+      dummy: true
+      caveBlocks: { states: "undergroundbiomes:metamorphic_stone:3", height: [ 0, 255 ] }
+      replaceableBlocks: stone
+    }
+  ]
+}

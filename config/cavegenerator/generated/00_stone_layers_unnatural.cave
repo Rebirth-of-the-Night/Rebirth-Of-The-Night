@@ -9,7 +9,6 @@
       state: undergroundbiomes:igneous_stone:6
       height: [ 0, 65 ]
       ceiling: {
-        scale: 0.9 # Removed in 1.0. You can delete this field.
         frequency: 0.019
         range: [ -8, 8 ]
       }
@@ -18,7 +17,6 @@
       state: undergroundbiomes:sedimentary_stone:6
       height: [ 0, 255 ]
       ceiling: {
-        scale: 0.9 # Removed in 1.0. You can delete this field.
         frequency: 0.1
         range: [ -2, 2 ]
       }

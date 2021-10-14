@@ -105,12 +105,7 @@
 					"name": "undergroundbiomes:igneous_cobble",
 					"properties": {
 						"type" : "basalt"
-						},
-					"weight": 12
-					},
-					{
-					"name": "air",
-					"weight": 1
+						}
 					}
 				],
 				"gap-block": [
@@ -122,10 +117,10 @@
 					}
 				]
 			},
-			"cluster-count": 3,
-			"chunk-chance": 8,
-			"center-height": 38,
-			"spread": 4,
+			"cluster-count": 2,
+			"chunk-chance": 3,
+			"center-height": 6,
+			"spread": 1,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
