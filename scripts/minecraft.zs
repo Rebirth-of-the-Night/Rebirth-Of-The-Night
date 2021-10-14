@@ -1520,11 +1520,11 @@ recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
     [<dungeontactics:toast>, <dungeontactics:toast>]
 ]);
 
-/* recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
+recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
 	[null, <pyrotech:material:16>, null],
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
 	[null, <pyrotech:material:16>, null],
-]); */
+]);
 //L'egg recipe is in inspirations.zs
 
 // Enchanting Table change
