@@ -237,6 +237,23 @@ healing.setBlockSoundType(<soundtype:stone>);
 healing.setFullBlock(false);
 healing.register();
 
+// Grass paver
+var grass_paver = VanillaFactory.createBlock("grass_paver", <blockmaterial:Rock>);
+grass_paver.setCreativeTab(<creativetab:rotn_blocks>);
+grass_paver.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    1.0 / 16.0,
+    16.0 / 16.0
+	);
+grass_paver.setBlockSoundType(<soundtype:stone>);
+grass_paver.setFullBlock(false);
+grass_paver.setLightOpacity(0);
+grass_paver.setBlockHardness(2.0);
+grass_paver.register();
+
 // Placeable bricks
 // unfired adobe brick
 var unfired_adobe_brick = VanillaFactory.createBlock("unfired_adobe_brick", <blockmaterial:Ground>);
