@@ -322,8 +322,8 @@ Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
 Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 24);
 
 //White stone
-recipes.addShaped(<betterwithaddons:whitebrick> * 4, [
+/* recipes.addShaped(<betterwithaddons:whitebrick> * 4, [
     [<betterwithmods:aesthetic:6>,<betterwithmods:aesthetic:6>],
     [<betterwithmods:aesthetic:6>,<betterwithmods:aesthetic:6>]
-]);
+]); */
 furnace.addRecipe(<betterwithaddons:whitebrick>, <betterwithaddons:whitebrick:2>);

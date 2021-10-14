@@ -16,9 +16,9 @@ Example
   D(data).getInt("ench[0].lvl");
 */
 
+#priority -2020
 
 import crafttweaker.data.IData;
-#priority 2020
 
 zenClass D_zs {
   /*

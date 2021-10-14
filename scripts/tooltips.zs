@@ -384,7 +384,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Chute Compat.:") + format.red(" NO."));
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
 <dungeontactics:fan_block>.addShiftTooltip("Can be rotated.");
-<netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8.");
+<netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8, up to 1024.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
 <dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");
 <dungeontactics:bounce_boots>.addTooltip("Minimizes fall damage with bounciness!");

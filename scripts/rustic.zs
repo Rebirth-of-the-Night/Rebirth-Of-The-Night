@@ -145,7 +145,7 @@ CrushingTub.addRecipe(<liquid:fluid_booze_green_juice>*160, null, <growthcraft_g
 // Misc
 furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);
 
-// Beginnings of Potion Revamp (ping Kilo, there's a trello card)
+// Beginnings of Potion Revamp (ping Kilo, there is a trello card)
 
 recipes.remove(<rustic:condenser>);
 recipes.remove(<rustic:retort>);
@@ -222,9 +222,9 @@ Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);
 Condenser.addRecipe(butterElixir, butter, gnugg);	
 Condenser.addRecipe(bouncyElixir, slime, endpearl);	
 Condenser.addRecipe(bouncyElixirLong, [slime, endpearl, butter], horsetail);
-Condenser.addRecipe(ironskinElixir, [genericNugg, cutLeather,ironBerry]);
-Condenser.addRecipe(ironskinElixirLong, [genericNugg, cutLeather,ironBerry], horsetail);
-Condenser.addRecipe(ironskinElixirStrong, [genericNugg, cutLeather,ironBerry], root);
+Condenser.addRecipe(ironskinElixir, [genericNugg, cutLeather, ironBerry]);
+Condenser.addRecipe(ironskinElixirLong, [genericNugg, cutLeather, ironBerry], horsetail);
+Condenser.addRecipe(ironskinElixirStrong, [genericNugg, cutLeather, ironBerry], root);
 
 //val beef = [<minecraft:beef>, <animania:raw_prime_beef>, <animania:raw_prime_steak>] as IItemStack[];
 Condenser.addRecipe(healthElixir, chamomile, <animania:raw_prime_beef>);

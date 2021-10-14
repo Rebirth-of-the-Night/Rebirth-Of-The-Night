@@ -1,4 +1,4 @@
-#priority 400
+#priority -100
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
@@ -1520,11 +1520,11 @@ recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
     [<dungeontactics:toast>, <dungeontactics:toast>]
 ]);
 
-recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
+/* recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
 	[null, <pyrotech:material:16>, null],
     [<pyrotech:material:16>, null, <pyrotech:material:16>],
 	[null, <pyrotech:material:16>, null],
-]);
+]); */
 //L'egg recipe is in inspirations.zs
 
 // Enchanting Table change

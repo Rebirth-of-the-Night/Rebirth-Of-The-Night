@@ -56,6 +56,7 @@ BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2500*100);
 val porcelain_bricks = <ceramics:clay_hard>;
 
 recipes.removeByRecipeName("ceramics:tools/cake");
+recipes.removeByRecipeName("ceramics:decoration/bricks_slab");
 JEI.removeAndHide(<foundry:componentblock>);
 JEI.removeAndHide(<foundry:componentblock:1>);
 JEI.removeAndHide(<foundry:componentblock:2>);

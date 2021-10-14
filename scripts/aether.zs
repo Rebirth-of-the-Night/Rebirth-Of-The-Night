@@ -9,6 +9,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 
+JEI.removeAndHide(<aether_legacy:holystone_brick_double_slab>);
+
 JEI.removeAndHide(<aether_legacy:life_shard>);
 LootTable.removeGlobalItem("aether_legacy:life_shard");
 

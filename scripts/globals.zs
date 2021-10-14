@@ -1,4 +1,4 @@
-#priority 1000
+#priority -1000
 #nowarn
 
 import crafttweaker.item.IItemStack;

@@ -175,12 +175,12 @@ for i in 0 .. 8 {
 
 	Stonecutter.addOutputs(igStone.makeStack(i),
 								igStoneSlab.makeStack(i),
-								igBrick.makeStack(i),
-								igBrickSlab.makeStack(i),
+								/* igBrick.makeStack(i), */
+								/* igBrickSlab.makeStack(i), */
 								igStairs.makeStack(i),
-								igBrickStairs.makeStack(i),											
+								/* igBrickStairs.makeStack(i),											 */
 								igWall.makeStack(i),
-								igBrickWall.makeStack(i),
+								/* igBrickWall.makeStack(i), */
 								foundation);
 	
 	// Metamorphic stone recipes
@@ -196,12 +196,12 @@ for i in 0 .. 8 {
 
 	Stonecutter.addOutputs(metaStone.makeStack(i),
 								metaStoneSlab.makeStack(i),
-								metaBrick.makeStack(i),
-								metaBrickSlab.makeStack(i),
+								/* metaBrick.makeStack(i), */
+								/* metaBrickSlab.makeStack(i), */
 								metaStairs.makeStack(i),
-								metaBrickStairs.makeStack(i),									
+								/* metaBrickStairs.makeStack(i),									 */
 								metaWall.makeStack(i),
-								metaBrickWall.makeStack(i),
+								/* metaBrickWall.makeStack(i), */
 								foundation);
 
 	// Sedimentary stone recipes
@@ -253,9 +253,9 @@ Stonecutter.addOutputs(<biomesoplenty:white_sandstone:2>,			// Smooth White Sand
 																	
 // White stone recipes
 
-Stonecutter.addOutputs(<betterwithmods:aesthetic:6>,
+/* Stonecutter.addOutputs(<betterwithmods:aesthetic:6>,
 							<betterwithaddons:whitebrick>,
-							<betterwithaddons:whitebrick:3>);
+							<betterwithaddons:whitebrick:3>); */
 
 Stonecutter.addOutputs(<betterwithaddons:whitebrick>,
 							<betterwithaddons:whitebrick:3>);
@@ -276,8 +276,88 @@ Stonecutter.addOutputs(<minecraft:stone>,
 							<quark:stone_stairs>,
 							<quark:stone_wall>);
 
-Stonecutter.addOutput(<minecraft:stonebrick>,
-							<minecraft:stone_slab:5>*2);
+/* Stonecutter.addOutput(<minecraft:stonebrick>,
+							<minecraft:stone_slab:5>*2); */
+
+
+// BRICKS REWORK
+
+Stonecutter.removeOutputs(<minecraft:stone>, 
+							<minecraft:stonebrick>,
+							<minecraft:stone_brick_stairs>,
+							<minecraft:stone_slab:5>,
+							<futuremc:stone_brick_wall>,
+							<minecraft:stonebrick:3>);
+
+Stonecutter.removeOutputs(<minecraft:end_stone>,
+							<futuremc:end_stone_brick_wall>);
+
+// 	  item									| final brick 									| loose brick block										| source stone									| source rock
+var bricks as IItemStack[][] = [
+	[ <minecraft:brick> 					,	<minecraft:brick_block>						,	<contenttweaker:loose_clay_bricks>					,	null										,	null ],
+	[ <biomesoplenty:mud_brick>				,	<biomesoplenty:mud_brick_block>				,	<contenttweaker:loose_mud_bricks>					,	null										,	null ],
+	[ <minecraft:netherbrick>				,	<minecraft:nether_brick>					,	<contenttweaker:loose_nether_bricks>				,	null										,	null ],
+	[ <pyrotech:material:5>					,	<pyrotech:refractory_brick_block>			,	<contenttweaker:loose_refractory_bricks>			,	null										,	null ],
+	[ <ceramics:unfired_clay:5>				,	<ceramics:clay_hard> 						,	<contenttweaker:loose_porcelain_bricks> 			,	null										,	null ],
+	[ <netherex:fiery_netherbrick>			,	<netherex:fiery_nether_brick>				,	<contenttweaker:loose_fiery_nether_bricks>			,	null										,	null ],
+	[ <contenttweaker:brick_end>			,	<minecraft:end_bricks> 						,	<contenttweaker:loose_big_end_bricks>				,	<minecraft:end_stone>						,	null ],
+	[ <contenttweaker:brick_white>			,	<betterwithaddons:whitebrick>				,	<contenttweaker:loose_big_white_bricks> 			,	<betterwithmods:aesthetic:6>				,	null ],
+	[ <contenttweaker:brick_dreadstone>		,	<iceandfire:dread_stone_bricks>				,	<contenttweaker:loose_big_dreadstone_bricks>		,	<iceandfire:dread_stone>					,	null ],
+	[ <contenttweaker:brick_black_basalt>	,	<netherex:basalt_brick>						,	<contenttweaker:loose_basalt_nether_bricks> 		,	<netherex:basalt>							,	null ],
+	[ <contenttweaker:brick_brimstone>		,	<quark:biome_brick>							,	<contenttweaker:loose_big_brimstone_bricks> 		,	<quark:biome_cobblestone>					,	null ],
+	[ <contenttweaker:brick_permafrost>		,	<quark:biome_brick:1>						,	<contenttweaker:loose_big_permafrost_bricks>		,	<quark:biome_cobblestone:1> 				,	null ],
+	[ <contenttweaker:brick_sandstone>		,	<quark:sandstone_new:1>						,	<contenttweaker:loose_sandstone_bricks> 			,	<minecraft:sandstone>						,	<pyrotech:rock:6> ],
+	[ <contenttweaker:brick_red_sandstone>	,	<quark:sandstone_new:3>						,	<contenttweaker:loose_red_sandstone_bricks> 		,	<minecraft:red_sandstone>					,	<pyrotech:rock:10> ],
+	[ <contenttweaker:brick_soul_sandstone>	,	<quark:sandstone_new:5>						,	<contenttweaker:loose_soulsandstone_bricks> 		,	<quark:soul_sandstone>						,	null ],
+	[ <contenttweaker:brick_holystone>		,	<aether_legacy:holystone_brick>				,	<contenttweaker:loose_holystone_bricks> 			,	<aether_legacy:holystone>					,	null ],
+	[ <contenttweaker:brick_coade>			,	<minecraft:stonebrick> 						,	<contenttweaker:loose_big_coade_bricks> 			,	<minecraft:stone>							,	<pyrotech:rock> ],
+	[ <contenttweaker:brick_red_granite>	,	<undergroundbiomes:igneous_brick>			,	<contenttweaker:loose_big_red_granite_bricks>		,	<undergroundbiomes:igneous_stone>			,	<pyrotech_compat:rock_igneous> ],
+	[ <contenttweaker:brick_black_granite>	,	<undergroundbiomes:igneous_brick:1>			,	<contenttweaker:loose_big_black_granite_bricks> 	,	<undergroundbiomes:igneous_stone:1> 		,	<pyrotech_compat:rock_igneous:1> ], 
+	[ <contenttweaker:brick_rhyolite>		,	<undergroundbiomes:igneous_brick:2>			,	<contenttweaker:loose_big_rhyolite_bricks>			,	<undergroundbiomes:igneous_stone:2> 		,	<pyrotech_compat:rock_igneous:2> ], 
+	[ <contenttweaker:brick_andesite>		,	<undergroundbiomes:igneous_brick:3>			,	<contenttweaker:loose_big_andesite_bricks>			,	<undergroundbiomes:igneous_stone:3> 		,	<pyrotech_compat:rock_igneous:3> ], 
+	[ <contenttweaker:brick_gabbro>			,	<undergroundbiomes:igneous_brick:4>			,	<contenttweaker:loose_big_gabbro_bricks>			,	<undergroundbiomes:igneous_stone:4> 		,	<pyrotech_compat:rock_igneous:4> ], 
+	[ <contenttweaker:brick_basalt>			,	<undergroundbiomes:igneous_brick:5>			,	<contenttweaker:loose_big_basalt_bricks>			,	<undergroundbiomes:igneous_stone:5> 		,	<pyrotech_compat:rock_igneous:5> ], 
+	[ <contenttweaker:brick_komatiite>		,	<undergroundbiomes:igneous_brick:6>			,	<contenttweaker:loose_big_komatiite_bricks> 		,	<undergroundbiomes:igneous_stone:6> 		,	<pyrotech_compat:rock_igneous:6> ], 
+	[ <contenttweaker:brick_dacite>			,	<undergroundbiomes:igneous_brick:7>			,	<contenttweaker:loose_big_dacite_bricks>			,	<undergroundbiomes:igneous_stone:7> 		,	<pyrotech_compat:rock_igneous:7> ], 
+	[ <contenttweaker:brick_gneiss>			,	<undergroundbiomes:metamorphic_brick>		,	<contenttweaker:loose_big_gneiss_bricks>			,	<undergroundbiomes:metamorphic_stone>		,	<pyrotech_compat:rock_metamorphic> ],
+	[ <contenttweaker:brick_eclogite>		,	<undergroundbiomes:metamorphic_brick:1>		,	<contenttweaker:loose_big_eclogite_bricks>			,	<undergroundbiomes:metamorphic_stone:1> 	,	<pyrotech_compat:rock_metamorphic:1> ], 
+	[ <contenttweaker:brick_marble>			,	<undergroundbiomes:metamorphic_brick:2>		,	<contenttweaker:loose_big_marble_bricks>			,	<undergroundbiomes:metamorphic_stone:2> 	,	<pyrotech_compat:rock_metamorphic:2> ], 
+	[ <contenttweaker:brick_quartzite>		,	<undergroundbiomes:metamorphic_brick:3>		,	<contenttweaker:loose_big_quartzite_bricks> 		,	<undergroundbiomes:metamorphic_stone:3> 	,	<pyrotech_compat:rock_metamorphic:3> ], 
+	[ <contenttweaker:brick_blue_schist>	,	<undergroundbiomes:metamorphic_brick:4>		,	<contenttweaker:loose_big_blueschist_bricks>		,	<undergroundbiomes:metamorphic_stone:4> 	,	<pyrotech_compat:rock_metamorphic:4> ], 
+	[ <contenttweaker:brick_green_schist>	,	<undergroundbiomes:metamorphic_brick:5>		,	<contenttweaker:loose_big_greenschist_bricks>		,	<undergroundbiomes:metamorphic_stone:5> 	,	<pyrotech_compat:rock_metamorphic:5> ], 
+	[ <contenttweaker:brick_soapstone>		,	<undergroundbiomes:metamorphic_brick:6>		,	<contenttweaker:loose_big_soapstone_bricks> 		,	<undergroundbiomes:metamorphic_stone:6> 	,	<pyrotech_compat:rock_metamorphic:6> ], 
+	[ <contenttweaker:brick_migmatite>		,	<undergroundbiomes:metamorphic_brick:7>		,	<contenttweaker:loose_big_migmatite_bricks> 		,	<undergroundbiomes:metamorphic_stone:7> 	,	<pyrotech_compat:rock_metamorphic:7> ], 
+	[ <contenttweaker:brick_limestone>		,	<contenttweaker:big_limestone_bricks>		,	<contenttweaker:loose_big_limestone_bricks> 		,	<undergroundbiomes:sedimentary_stone>		,	<pyrotech:rock:8> ],
+	[ <contenttweaker:brick_chalk>			,	<contenttweaker:big_chalk_bricks>			,	<contenttweaker:loose_big_chalk_bricks> 			,	<undergroundbiomes:sedimentary_stone:1> 	,	<pyrotech_compat:rock_sedimentary> ],
+	[ <contenttweaker:brick_shale>			,	<contenttweaker:big_shale_bricks>			,	<contenttweaker:loose_big_shale_bricks> 			,	<undergroundbiomes:sedimentary_stone:2> 	,	<pyrotech_compat:rock_sedimentary:1> ],
+	[ <contenttweaker:brick_siltstone>		,	<contenttweaker:big_siltstone_bricks>		,	<contenttweaker:loose_big_siltstone_bricks> 		,	<undergroundbiomes:sedimentary_stone:3> 	,	<pyrotech_compat:rock_sedimentary:2> ],
+	[ <contenttweaker:brick_lignite>		,	<contenttweaker:big_lignite_bricks>			,	<contenttweaker:loose_big_lignite_bricks>			,	<undergroundbiomes:sedimentary_stone:4> 	,	<pyrotech_compat:rock_igneous_sand:9> ],
+	[ <contenttweaker:brick_dolomite>		,	<contenttweaker:big_dolomite_bricks>		,	<contenttweaker:loose_big_dolomite_bricks>			,	<undergroundbiomes:sedimentary_stone:5> 	,	<pyrotech_compat:rock_sedimentary:3> ],
+	[ <contenttweaker:brick_greywacke>		,	<contenttweaker:big_greywacke_bricks>		,	<contenttweaker:loose_big_greywacke_bricks> 		,	<undergroundbiomes:sedimentary_stone:6> 	,	<pyrotech_compat:rock_sedimentary:4> ],
+	[ <contenttweaker:brick_chert>			,	<undergroundbiomes:sedimentary_stone:7>		,	<contenttweaker:loose_big_chert_bricks> 			,	<undergroundbiomes:sedimentary_stone:7> 	,	<pyrotech_compat:rock_sedimentary:5> ]
+] as IItemStack[][];
+
+for brickArr in bricks {
+	val looseBrickItem = brickArr[0];
+	val brickBlock = brickArr[1];
+	val looseBrickBlock = brickArr[2];
+	val sourceStone = brickArr[3];
+	val sourceRock = brickArr[4];
+	
+	if (!isNull(sourceStone)) {
+		Stonecutter.addOutputs(sourceStone, looseBrickItem*4, looseBrickBlock*1);
+	}
+
+	if (!isNull(sourceRock)) {
+		Stonecutter.addOutputs(sourceRock, looseBrickItem*1);
+	}
+}
+
+// Masonry bricks use oredict, an exception
+// <pyrotech:material:16>, <pyrotech:stone_bricks>, <contenttweaker:loose_stone_bricks>, <ore:stone>, <ore:rock>
+Stonecutter.addOutputs(<ore:stone>, <pyrotech:material:16>*4, <contenttweaker:loose_stone_bricks>*1);
+Stonecutter.addOutputs(<ore:rock>, [<pyrotech:material:16>*1]);
+
 
 /*********************************************************************************
 

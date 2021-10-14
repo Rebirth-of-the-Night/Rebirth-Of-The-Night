@@ -18,8 +18,8 @@ item.totemexpansion.totem_falling.name=§bTotem of Ascending
 item.totemexpansion.totem_head_plummeting.name=Totem of Ascending Head
 item.totemexpansion.totem_falling.desc=§7Saves you from a lethal fall and the void. One time use.
 
-item.totemexpansion.totem_lava.name=§bTotem of Smouldering
-item.totemexpansion.totem_head_lava.name=Totem of Smouldering Head
+item.totemexpansion.totem_lava.name=§bTotem of Smoldering
+item.totemexpansion.totem_head_lava.name=Totem of Smoldering Head
 item.totemexpansion.totem_lava.desc=§7Saves you from accidental trips into lava. One time use.
 
 item.totemexpansion.totem_breathing.name=§bTotem of Breathing
