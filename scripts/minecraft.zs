@@ -160,11 +160,11 @@ val hammerList as int[IItemStack] = {
   <spartanfire:hammer_ice_dragonsteel> : 4
 } as int[IItemStack];
 
-var hammerItems = hammerList.entrySet[0].key.transformDamage(hammerList.entrySet[0].value);
+var hammerItems = hammerList.entrySet[0].key.anyDamage().transformDamage(hammerList.entrySet[0].value);
 
 for i, entry in hammerList.entrySet {
   if (i != 0) {
-    hammerItems |= entry.key.transformDamage(entry.value);
+    hammerItems |= entry.key.anyDamage().transformDamage(entry.value);
   }
 }
 
