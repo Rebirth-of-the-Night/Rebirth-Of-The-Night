@@ -68,6 +68,9 @@ furnace.setFuel(<contenttweaker:charmpeat>, 3200);
 <ore:sourceEndorium>.add(<endreborn:item_ingot_endorium>);
 <ore:sourceBronze>.addAll(<ore:ingotBronze>);
 
+val rock_dictionary = <ore:rock>;
+rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:8>, <pyrotech_compat:rock_sedimentary_sand:9>, <pyrotech_compat:rock_sedimentary_sand:10>, <pyrotech_compat:rock_sedimentary_sand:11>, <pyrotech_compat:rock_sedimentary_sand:12>, <pyrotech_compat:rock_sedimentary_sand:13>, <pyrotech_compat:rock_sedimentary_sand:14>, <pyrotech_compat:rock_sedimentary_sand:15>, <pyrotech_compat:rock_metamorphic_sand:15>, <pyrotech_compat:rock_metamorphic_sand:14>, <pyrotech_compat:rock_metamorphic_sand:13>, <pyrotech_compat:rock_metamorphic_sand:12>, <pyrotech_compat:rock_metamorphic_sand:11>, <pyrotech_compat:rock_metamorphic_sand:10>, <pyrotech_compat:rock_metamorphic_sand:9>, <pyrotech_compat:rock_metamorphic_sand:8>, <pyrotech_compat:rock_igneous_sand:15>, <pyrotech_compat:rock_igneous_sand:14>, <pyrotech_compat:rock_igneous_sand:13>, <pyrotech_compat:rock_igneous_sand:12>, <pyrotech_compat:rock_igneous_sand:11>, <pyrotech_compat:rock_igneous_sand:10>, <pyrotech_compat:rock_igneous_sand:8>,<pyrotech_compat:rock_netherrack>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>]);
+
 // raw ores
 furnace.addRecipe(<simpleores:tin_ingot>, <contenttweaker:raw_tin>);
 furnace.addRecipe(<simpleores:copper_ingot>, <contenttweaker:raw_copper>);
@@ -990,9 +993,6 @@ gemIngot.add(
 val dirt = <ore:dirt>;
 dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>]);
 
-val rock_dictionary = <ore:rock>;
-rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:8>, <pyrotech_compat:rock_sedimentary_sand:9>, <pyrotech_compat:rock_sedimentary_sand:10>, <pyrotech_compat:rock_sedimentary_sand:11>, <pyrotech_compat:rock_sedimentary_sand:12>, <pyrotech_compat:rock_sedimentary_sand:13>, <pyrotech_compat:rock_sedimentary_sand:14>, <pyrotech_compat:rock_sedimentary_sand:15>, <pyrotech_compat:rock_metamorphic_sand:15>, <pyrotech_compat:rock_metamorphic_sand:14>, <pyrotech_compat:rock_metamorphic_sand:13>, <pyrotech_compat:rock_metamorphic_sand:12>, <pyrotech_compat:rock_metamorphic_sand:11>, <pyrotech_compat:rock_metamorphic_sand:10>, <pyrotech_compat:rock_metamorphic_sand:9>, <pyrotech_compat:rock_metamorphic_sand:8>, <pyrotech_compat:rock_igneous_sand:15>, <pyrotech_compat:rock_igneous_sand:14>, <pyrotech_compat:rock_igneous_sand:13>, <pyrotech_compat:rock_igneous_sand:12>, <pyrotech_compat:rock_igneous_sand:11>, <pyrotech_compat:rock_igneous_sand:10>, <pyrotech_compat:rock_igneous_sand:8>,<pyrotech_compat:rock_netherrack>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>]);
-
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
 
@@ -1029,7 +1029,7 @@ val StoneHugeBrick = <ore:StoneHugeBrick>;
 StoneHugeBrick.addItems([<undergroundbiomes:igneous_brick:2>,<undergroundbiomes:igneous_brick:3>,<undergroundbiomes:igneous_brick:4>,<undergroundbiomes:igneous_brick:5>,<undergroundbiomes:igneous_brick:6>,<undergroundbiomes:igneous_brick:7>,<undergroundbiomes:metamorphic_brick>,<undergroundbiomes:metamorphic_brick:2>,<undergroundbiomes:metamorphic_brick:3>,<undergroundbiomes:metamorphic_brick:5>,<undergroundbiomes:metamorphic_brick:6>,<minecraft:stonebrick>,<quark:biome_brick>,<quark:world_stone_bricks>,<quark:world_stone_bricks:1>,<undergroundbiomes:metamorphic_brick:7>,<quark:biome_brick:1>,<quark:world_stone_bricks:2>,<undergroundbiomes:igneous_brick:1>,<undergroundbiomes:metamorphic_brick:1>,<undergroundbiomes:igneous_brick>,<undergroundbiomes:metamorphic_brick:4>]);
 
 val cobblestoneOre = <ore:cobblestone>;
-buttonWood.addItems([<contenttweaker:limestone_cobble>,<contenttweaker:siltstone_cobble>,<contenttweaker:chert_cobble>,<contenttweaker:shale_cobble>,<contenttweaker:chalk_cobble>,<contenttweaker:greywacke_cobble>,<contenttweaker:dolomite_cobble>,<contenttweaker:lignite_cobble>]);
+cobblestoneOre.addItems([<contenttweaker:limestone_cobble>,<contenttweaker:siltstone_cobble>,<contenttweaker:chert_cobble>,<contenttweaker:shale_cobble>,<contenttweaker:chalk_cobble>,<contenttweaker:greywacke_cobble>,<contenttweaker:dolomite_cobble>,<contenttweaker:lignite_cobble>]);
 
 val toolAxe = <ore:toolAxe>;
 toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:holystone_axe:*>,<aether_legacy:zanite_axe:*>,<aether_legacy:gravitite_axe:*>,<aether_legacy:valkyrie_axe:*>,<atop:mud_axe:*>,<betterwithmods:steel_axe:*>,<mowziesmobs:wrought_axe:*>,<netherex:frosted_amedian_axe:*>,<simpleores:copper_axe:*>,<simpleores:mythril_axe:*>,<simpleores:adamantium_axe:*>,<simpleores:onyx_axe:*>,<twilightforest:ironwood_axe:*>,<twilightforest:steeleaf_axe:*>,<twilightforest:minotaur_axe_gold:*>,<twilightforest:minotaur_axe:*>,<twilightforest:knightmetal_axe:*>,<spartancompat:battleaxe_onyx:*>,<spartancompat:battleaxe_holystone:*>,<spartancompat:battleaxe_zanite:*>,<spartancompat:battleaxe_gravitite:*>,<spartancompat:battleaxe_soulforged_steel:*>,<spartanfire:battleaxe_dragonbone:*>,<spartanfire:battleaxe_fire_dragonbone:*>,<spartanfire:battleaxe_ice_dragonbone:*>,<spartanfire:battleaxe_jungle:*>,<spartanfire:battleaxe_desert:*>,<spartanfire:battleaxe_jungle_venom:*>,<spartanfire:battleaxe_desert_venom:*>,<spartanfire:battleaxe_ice_dragonsteel:*>,<spartanfire:battleaxe_fire_dragonsteel:*>,<spartanweaponry:battleaxe_stone:*>,<spartanweaponry:battleaxe_iron:*>,<spartanweaponry:battleaxe_gold:*>,<spartanweaponry:battleaxe_diamond:*>,<spartanweaponry:battleaxe_bronze:*>,<spartanweaponry:battleaxe_silver:*>]);
