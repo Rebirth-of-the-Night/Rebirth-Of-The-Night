@@ -55,7 +55,7 @@ JEI.removeAndHide(<netherex:blazed_wither_bone>);
 
 JEI.removeAndHide(<netherex:gloomy_netherbrick>);
 JEI.removeAndHide(<netherex:lively_netherbrick>);
-JEI.removeAndHide(<netherex:fiery_netherbrick>);
+recipes.remove(<netherex:fiery_netherbrick>);
 JEI.removeAndHide(<netherex:icy_netherbrick>);
 recipes.remove(<netherex:amethyst_crystal>);
 JEI.removeAndHide(<netherex:amethyst_block>);

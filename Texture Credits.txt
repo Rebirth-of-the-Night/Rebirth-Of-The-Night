@@ -4,3 +4,4 @@ Magicked Stone // resources\contenttweaker\textures\blocks // magicked_stone.png
 Loose Underground Biomes bricks // resources\contenttweaker\textures\blocks\loose_bricks // loose_big_X_bricks.png // Zeno410 - UndergroundBiomes
     X = andesite/basalt/black_granite/blueschist/chalk/chert/dacite/dolomite/eclogite/gabbro/gneiss/greenschist/greywacke/komatiite
 Loose Adobe bricks // resources\contenttweaker\textures\blocks\loose_bricks // loose_adobe_bricks.png // Alsender  - Earthworks - adobe bricks
+Furnace // oresources\minecraft\textures\block // furnace_dry_fitted furnace_front_on furnace_front_off // Alsender  - Earthworks - dry fitted stone

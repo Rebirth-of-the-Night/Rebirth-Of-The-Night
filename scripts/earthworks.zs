@@ -52,12 +52,12 @@ recipes.addShaped("wicker_wall",wicker_wall*6,[
 
 recipes.removeByRecipeName("earthworks:block_wattle");
 recipes.removeByRecipeName("earthworks:block_wattle_alt");
-recipes.addShaped("wattle",wattle*8,[
+recipes.addShaped("wattle_a",wattle*8,[
     [cob,cob,cob],
 	[cob,wicker,cob],
 	[cob,cob,cob]
 ]);
-recipes.addShaped("wattle_alt",wattle*2,[
+recipes.addShaped("wattle_b",wattle*2,[
     [cob_item,cob_item,cob_item],
 	[cob_item,wicker,cob_item],
 	[cob_item,cob_item,cob_item]
@@ -86,6 +86,8 @@ recipes.addShapeless("lime_plaster_binder",<earthworks:item_lime_plaster>*10,[mu
 // adove
 recipes.remove(<earthworks:item_adobe>);
 recipes.remove(<earthworks:block_adobe>);
+recipes.addShapeless("adobe_unfired_a",<earthworks:item_lime_plaster>*2,[mud, binder]);
+recipes.addShapeless("adobe_unfired_b",<earthworks:item_lime_plaster>*2,[<contenttweaker:unfired_mud_brick>, binder]);
 
 // cob ball
 JEI.removeAndHide(<earthworks:item_mud>);

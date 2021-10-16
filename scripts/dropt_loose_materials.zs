@@ -392,6 +392,105 @@ Dropt.list("rock_chert")
        	   .items([<pyrotech_compat:rock_sedimentary:5>], Dropt.range(4))
       )
   );
+
+
+// Sedimentary stone drops cobblestone
+Dropt.list("cobblestone_limestone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:limestone_cobble>])
+      )
+  );
+Dropt.list("cobblestone_chalk")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:1"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:chalk_cobble>])
+      )
+  );
+Dropt.list("cobblestone_shale")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:2"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:shale_cobble>])
+      )
+  );
+Dropt.list("cobblestone_siltsone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:3"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:siltstone_cobble>])
+      )
+  );
+Dropt.list("cobblestone_lignite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:4"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:lignite_cobble>])
+      )
+  );
+Dropt.list("cobblestone_dolomite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:5"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:dolomite_cobble>])
+      )
+  );
+Dropt.list("cobblestone_greywacke")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:6"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:greywacke_cobble>])
+      )
+  );
+Dropt.list("cobblestone_chert")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:sedimentary_stone:7"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("WHITELIST", [], "pickaxe;1;6")
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:chert_cobble>])
+      )
+  );
   
 // Raw Ore 
 Dropt.list("raw_tin")

@@ -261,9 +261,9 @@ recipes.addShaped("metal_hopper",<minecraft:hopper>,[
 
 recipes.removeByRecipeName("minecraft:furnace");
 recipes.addShaped("furnace",<minecraft:furnace>,[
-    [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>],
-    [<pyrotech:material:16>,null,<pyrotech:material:16>],
-    [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]
+    [<ore:rock>,<ore:rock>,<ore:rock>],
+    [<ore:rock>,null,<ore:rock>],
+    [<ore:rock>,<ore:rock>,<ore:rock>]
 ]);
 
 recipes.remove(<minecraft:jukebox>);
@@ -990,6 +990,9 @@ gemIngot.add(
 val dirt = <ore:dirt>;
 dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>]);
 
+val rock_dictionary = <ore:rock>;
+rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:8>, <pyrotech_compat:rock_sedimentary_sand:9>, <pyrotech_compat:rock_sedimentary_sand:10>, <pyrotech_compat:rock_sedimentary_sand:11>, <pyrotech_compat:rock_sedimentary_sand:12>, <pyrotech_compat:rock_sedimentary_sand:13>, <pyrotech_compat:rock_sedimentary_sand:14>, <pyrotech_compat:rock_sedimentary_sand:15>, <pyrotech_compat:rock_metamorphic_sand:15>, <pyrotech_compat:rock_metamorphic_sand:14>, <pyrotech_compat:rock_metamorphic_sand:13>, <pyrotech_compat:rock_metamorphic_sand:12>, <pyrotech_compat:rock_metamorphic_sand:11>, <pyrotech_compat:rock_metamorphic_sand:10>, <pyrotech_compat:rock_metamorphic_sand:9>, <pyrotech_compat:rock_metamorphic_sand:8>, <pyrotech_compat:rock_igneous_sand:15>, <pyrotech_compat:rock_igneous_sand:14>, <pyrotech_compat:rock_igneous_sand:13>, <pyrotech_compat:rock_igneous_sand:12>, <pyrotech_compat:rock_igneous_sand:11>, <pyrotech_compat:rock_igneous_sand:10>, <pyrotech_compat:rock_igneous_sand:8>,<pyrotech_compat:rock_netherrack>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>]);
+
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
 
@@ -1024,6 +1027,9 @@ allStoneSlab.addItems([<minecraft:stone_slab:*>, <undergroundbiomes:igneous_ston
 
 val StoneHugeBrick = <ore:StoneHugeBrick>;
 StoneHugeBrick.addItems([<undergroundbiomes:igneous_brick:2>,<undergroundbiomes:igneous_brick:3>,<undergroundbiomes:igneous_brick:4>,<undergroundbiomes:igneous_brick:5>,<undergroundbiomes:igneous_brick:6>,<undergroundbiomes:igneous_brick:7>,<undergroundbiomes:metamorphic_brick>,<undergroundbiomes:metamorphic_brick:2>,<undergroundbiomes:metamorphic_brick:3>,<undergroundbiomes:metamorphic_brick:5>,<undergroundbiomes:metamorphic_brick:6>,<minecraft:stonebrick>,<quark:biome_brick>,<quark:world_stone_bricks>,<quark:world_stone_bricks:1>,<undergroundbiomes:metamorphic_brick:7>,<quark:biome_brick:1>,<quark:world_stone_bricks:2>,<undergroundbiomes:igneous_brick:1>,<undergroundbiomes:metamorphic_brick:1>,<undergroundbiomes:igneous_brick>,<undergroundbiomes:metamorphic_brick:4>]);
+
+val cobblestoneOre = <ore:cobblestone>;
+buttonWood.addItems([<contenttweaker:limestone_cobble>,<contenttweaker:siltstone_cobble>,<contenttweaker:chert_cobble>,<contenttweaker:shale_cobble>,<contenttweaker:chalk_cobble>,<contenttweaker:greywacke_cobble>,<contenttweaker:dolomite_cobble>,<contenttweaker:lignite_cobble>]);
 
 val toolAxe = <ore:toolAxe>;
 toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:holystone_axe:*>,<aether_legacy:zanite_axe:*>,<aether_legacy:gravitite_axe:*>,<aether_legacy:valkyrie_axe:*>,<atop:mud_axe:*>,<betterwithmods:steel_axe:*>,<mowziesmobs:wrought_axe:*>,<netherex:frosted_amedian_axe:*>,<simpleores:copper_axe:*>,<simpleores:mythril_axe:*>,<simpleores:adamantium_axe:*>,<simpleores:onyx_axe:*>,<twilightforest:ironwood_axe:*>,<twilightforest:steeleaf_axe:*>,<twilightforest:minotaur_axe_gold:*>,<twilightforest:minotaur_axe:*>,<twilightforest:knightmetal_axe:*>,<spartancompat:battleaxe_onyx:*>,<spartancompat:battleaxe_holystone:*>,<spartancompat:battleaxe_zanite:*>,<spartancompat:battleaxe_gravitite:*>,<spartancompat:battleaxe_soulforged_steel:*>,<spartanfire:battleaxe_dragonbone:*>,<spartanfire:battleaxe_fire_dragonbone:*>,<spartanfire:battleaxe_ice_dragonbone:*>,<spartanfire:battleaxe_jungle:*>,<spartanfire:battleaxe_desert:*>,<spartanfire:battleaxe_jungle_venom:*>,<spartanfire:battleaxe_desert_venom:*>,<spartanfire:battleaxe_ice_dragonsteel:*>,<spartanfire:battleaxe_fire_dragonsteel:*>,<spartanweaponry:battleaxe_stone:*>,<spartanweaponry:battleaxe_iron:*>,<spartanweaponry:battleaxe_gold:*>,<spartanweaponry:battleaxe_diamond:*>,<spartanweaponry:battleaxe_bronze:*>,<spartanweaponry:battleaxe_silver:*>]);
@@ -1366,20 +1372,38 @@ val runes = <ore:runeItem>;
 runes.addItems([<contenttweaker:fae_rune>,<contenttweaker:chaos_rune>,<contenttweaker:mind_rune>,<contenttweaker:balance_rune>,<contenttweaker:water_rune>,<contenttweaker:creation_rune>,<contenttweaker:holding_rune>,<contenttweaker:order_rune>,<contenttweaker:nature_rune>,<contenttweaker:plague_rune>,<contenttweaker:illusion_rune>,<contenttweaker:trans_rune>,<contenttweaker:air_rune>,<contenttweaker:knowledge_rune>,<contenttweaker:disint_rune>,<contenttweaker:draconic_rune>,<contenttweaker:blank_rune>,<contenttweaker:strength_rune>,<contenttweaker:aether_rune>,<contenttweaker:luna_rune>,<contenttweaker:poison_rune>,<contenttweaker:energy_rune>,<contenttweaker:sol_rune>,<contenttweaker:nether_rune>,<contenttweaker:life_rune>,<contenttweaker:time_rune>,<contenttweaker:fire_rune>,<contenttweaker:soul_rune>,<contenttweaker:death_rune>,<contenttweaker:earth_rune>,<contenttweaker:arcane_rune>,<endreborn:item_end_rune>,<quark:rune>]
 );
 
+val mortarPrimitive = <ore:mortarPrimitive>;
+mortarPrimitive.addItems([<biomesoplenty:mudball>]);
+
 val mortarCommon = <ore:mortarCommon>;
-mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:item_cob>,<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:15>]);
+mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:item_cob>]);
+
+val mortarRefractory = <ore:mortarRefractory>;
+mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:15>]);
 
 // Brick Rework
-// Stones
-
-val stoneBrickBlockMap = {
-	<minecraft:brick> : [<minecraft:brick_block>,<contenttweaker:loose_clay_bricks>],
+// Primitive Bricks
+val primitiveBrickBlockMap = {
 	<biomesoplenty:mud_brick> : [<biomesoplenty:mud_brick_block>,<contenttweaker:loose_mud_bricks>],
 	<earthworks:item_adobe> : [<earthworks:block_adobe>,<contenttweaker:loose_adobe_bricks>],
-	<minecraft:netherbrick> : [<minecraft:nether_brick>,<contenttweaker:loose_nether_bricks>],
-	<pyrotech:material:5> : [<pyrotech:refractory_brick_block>,<contenttweaker:loose_refractory_bricks>],
-	<ceramics:unfired_clay:5> : [<ceramics:clay_hard>,<contenttweaker:loose_porcelain_bricks>],
-	<netherex:fiery_netherbrick> : [<netherex:fiery_nether_brick>,<contenttweaker:loose_fiery_nether_bricks>],
+} as IItemStack[][IItemStack];
+
+for brickItemPrimitive, brickBlockPrimitive in primitiveBrickBlockMap{
+    recipes.remove(brickBlockPrimitive[0]);
+    recipes.addShaped(brickBlockPrimitive[1],[
+        [brickItemPrimitive,brickItemPrimitive],
+        [brickItemPrimitive,brickItemPrimitive]
+    ]);
+	recipes.addShaped(brickBlockPrimitive[0]*8,[
+        [brickBlockPrimitive[1],brickBlockPrimitive[1],brickBlockPrimitive[1]],
+		[brickBlockPrimitive[1],mortarPrimitive,brickBlockPrimitive[1]],
+        [brickBlockPrimitive[1],brickBlockPrimitive[1],brickBlockPrimitive[1]]
+    ]);
+}
+
+// Generic Bricks
+val stoneBrickBlockMap = {
+	<minecraft:brick> : [<minecraft:brick_block>,<contenttweaker:loose_clay_bricks>],
 	<contenttweaker:brick_end> : [<minecraft:end_bricks>,<contenttweaker:loose_big_end_bricks>],
 	<contenttweaker:brick_white> : [<betterwithaddons:whitebrick>,<contenttweaker:loose_big_white_bricks>],
 	<contenttweaker:brick_dreadstone> : [<iceandfire:dread_stone_bricks>,<contenttweaker:loose_big_dreadstone_bricks>],
@@ -1432,6 +1456,27 @@ for brickItem, brickBlock in stoneBrickBlockMap{
         [brickBlock[1],brickBlock[1],brickBlock[1]],
 		[brickBlock[1],mortarCommon,brickBlock[1]],
         [brickBlock[1],brickBlock[1],brickBlock[1]]
+    ]);
+}
+
+// Refractory Bricks
+val refractoryBrickBlockMap = {
+	<pyrotech:material:5> : [<pyrotech:refractory_brick_block>,<contenttweaker:loose_refractory_bricks>],
+	<ceramics:unfired_clay:5> : [<ceramics:clay_hard>,<contenttweaker:loose_porcelain_bricks>],
+	<minecraft:netherbrick> : [<minecraft:nether_brick>,<contenttweaker:loose_nether_bricks>],
+	<netherex:fiery_netherbrick> : [<netherex:fiery_nether_brick>,<contenttweaker:loose_fiery_nether_bricks>]
+} as IItemStack[][IItemStack];
+
+for brickItemRefractory, brickBlockRefractory in refractoryBrickBlockMap{
+    recipes.remove(brickBlockRefractory[0]);
+    recipes.addShaped(brickBlockRefractory[1],[
+        [brickItemRefractory,brickItemRefractory],
+        [brickItemRefractory,brickItemRefractory]
+    ]);
+	recipes.addShaped(brickBlockRefractory[0]*8,[
+        [brickBlockRefractory[1],brickBlockRefractory[1],brickBlockRefractory[1]],
+		[brickBlockRefractory[1],mortarRefractory,brickBlockRefractory[1]],
+        [brickBlockRefractory[1],brickBlockRefractory[1],brickBlockRefractory[1]]
     ]);
 }
 

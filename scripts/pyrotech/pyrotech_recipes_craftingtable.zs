@@ -108,7 +108,7 @@ val dry = <pyrotech:tinder>;
 val twine = <pyrotech:material:14>;
 val ladder = <minecraft:ladder>;
 val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<betternether:quartz_glass_framed:*>|<netherex:soul_glass>;
-val rock = <pyrotech:rock>|<pyrotech_compat:rock_igneous:5>;
+val rock = <ore:rock>;
 val timber = <earthworks:item_timber>;
 val fiber = <pyrotech:material:12>;
 
@@ -169,13 +169,13 @@ recipes.addShaped("pyro_wooden_bucket", <pyrotech:bucket_wood>,
  [[<ore:plankWood>,<ore:twine>,<ore:plankWood>],
   [null,<ore:logWood>,null]]);
 recipes.addShaped("pyro_stone_door", <pyrotech:stone_door>*3,
- [[<pyrotech:material:16>,<pyrotech:material:16>],
-  [<pyrotech:material:16>,<pyrotech:material:16>],
-  [<pyrotech:material:16>,<pyrotech:material:16>]]);
+ [[<pyrotech:stone_bricks>,<pyrotech:stone_bricks>],
+  [<pyrotech:stone_bricks>,<pyrotech:stone_bricks>],
+  [<pyrotech:stone_bricks>,<pyrotech:stone_bricks>]]);
 recipes.addShaped("pyro_refractory_door", <pyrotech:refractory_door>*3,
- [[refractoryBrick,refractoryBrick],
-  [refractoryBrick,refractoryBrick],
-  [refractoryBrick,refractoryBrick]]);  
+ [[<pyrotech:refractory_brick_block>,<pyrotech:refractory_brick_block>],
+  [<pyrotech:refractory_brick_block>,<pyrotech:refractory_brick_block>],
+  [<pyrotech:refractory_brick_block>,<pyrotech:refractory_brick_block>]]);  
 recipes.addShaped("pyro_shelf", <pyrotech:shelf>,
  [[<ore:plankWood>,<ore:slabWood>,<ore:plankWood>],
   [<ore:plankWood>,<ore:slabWood>,<ore:plankWood>],
@@ -185,9 +185,9 @@ recipes.addShaped("pyro_stash", <pyrotech:stash>,
   [<ore:plankWood>,null,<ore:plankWood>],
   [<ore:plankWood>,<ore:chestWood>,<ore:plankWood>]]);
 recipes.addShaped("pyro_stone_tank", <pyrotech:stone_tank>,
- [[<pyrotech:material:16>,<minecraft:glass>,<pyrotech:material:16>],
+ [[stoneBrick,<minecraft:glass>,stoneBrick],
   [<minecraft:glass>,<ore:slimeball>,<minecraft:glass>],
-  [<pyrotech:material:16>,<pyrotech:material:16>,<pyrotech:material:16>]]);
+  [stoneBrick,<pyrotech:material:16>,stoneBrick]]);
 recipes.addShapeless("pyro_stone_tank_clean", <pyrotech:stone_tank>,
  [<pyrotech:stone_tank>]);
 recipes.addShaped("pyro_refractory_tank", <pyrotech:brick_tank>,

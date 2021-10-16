@@ -345,7 +345,21 @@ unfired_refractory_brick.setBlockHardness(1.0);
 unfired_refractory_brick.setToolClass("shovel");
 unfired_refractory_brick.register();
 
+//Electrum Plate
+var electrum_plate = VanillaFactory.createBlock("electrum_plate", <blockmaterial:Iron>);
+electrum_plate.setCreativeTab(<creativetab:buildingBlocks>);
+electrum_plate.register();
+
+//Bronze Plate
+var bronze_plate = VanillaFactory.createBlock("bronze_plate", <blockmaterial:Iron>);
+bronze_plate.setCreativeTab(<creativetab:buildingBlocks>);
+bronze_plate.register();
+
 // Lunarin blocks
+// Bronze
+var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);
+lunarin.setCreativeTab(<creativetab:buildingBlocks>);
+lunarin.register();
 // Silver
 var silverlunarin = VanillaFactory.createBlock("lunarinsilverbrick", <blockmaterial:Iron>);
 silverlunarin.setCreativeTab(<creativetab:rotn_blocks>);
