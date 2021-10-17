@@ -1,9 +1,10 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
-import mods.artisanworktables.builder.RecipeBuilder;
 
+import mods.artisanworktables.builder.RecipeBuilder;
 import mods.dropt.Dropt;
+import mods.pyrotech.GraniteAnvil;
 
 import mods.futuremc.Composter;
 import mods.futuremc.Stonecutter;
@@ -349,7 +350,7 @@ for brickArr in bricks {
 	val sourceStone = brickArr[3];
 	val sourceRock = brickArr[4];
 	
-	val looseBrickBlock_str = looseBrickBlock.definition.id.split(":")[1];
+	val str_identifier = looseBrickBlock.definition.id.split(":")[1];
 	
 	if (!isNull(sourceStone)) {
 		Stonecutter.addOutputs(sourceStone, looseBrickItem*4, looseBrickBlock*1);
@@ -366,9 +367,11 @@ for brickArr in bricks {
 		)
 	);
 	
-	recipes.addShapeless("loose_brick_"~looseBrickBlock_str, looseBrickItem*4,
+	recipes.addShapeless("loose_brick_"~str_identifier, looseBrickItem*4,
 		[looseBrickBlock*1]
 	);
+	
+	GraniteAnvil.addRecipe("brick_to_loose_"~str_identifier, looseBrickItem*4, brickBlock, 10, "hammer", true);
 }
 
 // Masonry bricks use oredict, an exception
