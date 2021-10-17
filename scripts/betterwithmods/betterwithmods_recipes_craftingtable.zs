@@ -53,6 +53,17 @@ recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers")
 recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
 [<betterwithmods:rope>]);
 
+// fitting mill stone
+recipes.remove(<betterwithmods:single_machine>);
+
+val millstone = <betterwithmods:single_machine>;
+val cobblestone = <ore:cobblestone>;
+val gear = <betterwithmods:material>;
+recipes.addShaped("millstone", millstone,
+  [[cobblestone, <ore:stoneSlab>, cobblestone],
+  [<ore:rock>, gear, <ore:rock>],
+  [cobblestone, <ore:stoneSlab>, cobblestone]]);
+
 //powerful hibachi
 recipes.removeByRecipeName("betterwithmods:blocks/redstone/hibachi");
 

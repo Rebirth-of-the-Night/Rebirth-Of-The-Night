@@ -41,7 +41,7 @@ recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
 // Refractory block to Crucible
 RecipeBuilder.get("potter")
  .setShapeless([<contenttweaker:modelingrefractory>])
- .addTool(<ore:artisansCarver>, 1)
+ .addTool(<ore:artisansCarver>, 20)
  .addOutput(<contenttweaker:crucible>)
  .setExtraOutputOne(<pyrotech:material:4> * 4, 0.4)
  .create();
@@ -66,7 +66,7 @@ RecipeBuilder.get("potter")
 // Clay to planter
 RecipeBuilder.get("potter")
  .setShapeless([<minecraft:clay>])
- .addTool(<artisanworktables:artisans_carver_gold>, 1)
+ .addTool(<artisanworktables:artisans_carver_gold>, 5)
  .addOutput(<betterwithmods:unfired_pottery:1>)
  .setExtraOutputOne(<minecraft:clay_ball>, 0.4)
  .create();

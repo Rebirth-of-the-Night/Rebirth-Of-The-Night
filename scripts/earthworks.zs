@@ -86,8 +86,8 @@ recipes.addShapeless("lime_plaster_binder",<earthworks:item_lime_plaster>*10,[mu
 // adove
 recipes.remove(<earthworks:item_adobe>);
 recipes.remove(<earthworks:block_adobe>);
-recipes.addShapeless("adobe_unfired_a",<earthworks:item_lime_plaster>*2,[mud, binder]);
-recipes.addShapeless("adobe_unfired_b",<earthworks:item_lime_plaster>*2,[<contenttweaker:unfired_mud_brick>, binder]);
+recipes.addShapeless("adobe_unfired_a",<contenttweaker:unfired_adobe_brick>*2,[mud, binder]);
+recipes.addShapeless("adobe_unfired_b",<contenttweaker:unfired_adobe_brick>*2,[<contenttweaker:unfired_mud_brick>, binder]);
 
 // cob ball
 JEI.removeAndHide(<earthworks:item_mud>);

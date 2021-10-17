@@ -330,6 +330,13 @@
 						"name": "contenttweaker:cave_grass",
 						"weight": 100
 					},
+					{
+						"name": "biomesoplenty:mushroom",
+						"properties": {
+						"variant" : "glowshroom"
+						},
+						"weight": 50
+					}
 					
 				],
 				"surface": [

@@ -835,7 +835,7 @@ recipes.addShaped("bowl",<minecraft:bowl>*4,[
 ]);
 
 val ladderMats = <ore:ladderMat>;
-ladderMats.mirror(<ore:plankWood>);
+ladderMats.mirror(<ore:stickWood>);
 ladderMats.removeItems([<aether_legacy:skyroot_stick>,<betternether:nether_reed>]);
 
 recipes.remove(<minecraft:ladder>);
@@ -985,6 +985,7 @@ gemIngot.add(
 <ore:mat>.addItems([<harvestcraft:wovencottonitem>]);
 <ore:mat>.addAll(<ore:wool>);
 <ore:mat>.addAll(<ore:leather>);
+<ore:mat>.add(<pyrotech:material:26>);
 
 <ore:nailedWood>.addItems([<contenttweaker:hellbark_boards>,<contenttweaker:tenebra_boards>,<contenttweaker:pine_boards>,<contenttweaker:oak_boards>,<contenttweaker:mangrove_boards>,<contenttweaker:umbran_boards>,<contenttweaker:dark_oak_boards>,<contenttweaker:birch_boards>,<contenttweaker:acacia_boards>,<contenttweaker:magic_boards>,<contenttweaker:dreadwood_boards>,<contenttweaker:fir_boards>,<contenttweaker:ironwood_boards>,<contenttweaker:jungle_boards>,<contenttweaker:wyrmwood_boards>,<contenttweaker:stalagnate_boards>,<contenttweaker:sacred_oak_boards>,<contenttweaker:eucalyptus_boards>,<contenttweaker:cherry_boards>,<contenttweaker:spruce_boards>,<contenttweaker:olive_boards>,<contenttweaker:jacaranda_boards>,<contenttweaker:mahogany_boards>,<contenttweaker:redwood_boards>,<contenttweaker:palm_boards>,<contenttweaker:ebony_boards>,<contenttweaker:willow_boards>,<contenttweaker:skywood_boards>]);
 

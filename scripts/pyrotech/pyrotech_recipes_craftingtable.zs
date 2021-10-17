@@ -121,12 +121,6 @@ recipes.addShaped("dryToTwine", twine*3,
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 [<pyrotech:material>]);
 recipes.addShapeless("twineToString", <minecraft:string>,[twine,twine,twine]);
-recipes.addShaped("pyro_stone_brick", stoneBrick*8,
-[[<ore:stone>],
-[<ore:stone>]]);
-recipes.addShaped("pyrorock_stone_brick", stoneBrick*2,
-[[rock],
-[rock]]);
 recipes.addShaped("pyro_stone_kiln", <pyrotech:stone_kiln>,
  [[stoneBrick,null,stoneBrick],
   [<ore:mortarCommon>|<biomesoplenty:mudball>,stoneBrick,<ore:mortarCommon>|<biomesoplenty:mudball>],

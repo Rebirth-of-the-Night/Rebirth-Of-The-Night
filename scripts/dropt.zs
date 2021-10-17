@@ -508,25 +508,11 @@ Dropt.list("nether_grass")
       )
   );
 
-Dropt.list("plants_basic")
-
-  .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
-      .replaceStrategy("ADD")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(180)) // drops nothing if selected
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(30))
-          .items([<pyrotech:material:12>])
-      )
-  );
- 
 Dropt.list("plants_basic_dry")
 
   .add(Dropt.rule()
       .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
@@ -535,23 +521,37 @@ Dropt.list("plants_basic_dry")
           .selector(Dropt.weight(25))
           .items([<pyrotech:tinder>])
       )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-          .items([<pyrotech:material:11>])
-      )
   );
-  
+
 Dropt.list("plants_basic_dead")
 
   .add(Dropt.rule()
       .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(20))
+          .items([<pyrotech:tinder>])
+      )
+  );
+
+Dropt.list("plants_basic")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass","minecraft:tallgrass:1","minecraft:tallgrass:2"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(180)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(40))
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
           .items([<pyrotech:tinder>])
       )
   );
@@ -581,6 +581,10 @@ Dropt.list("tallplants_custom")
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(2500)) // drops nothing if selected
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(40))
+          .items([<pyrotech:material:12>])
       )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(35)) // Hemp crop
@@ -733,7 +737,7 @@ Dropt.list("lignite")
       .matchBlocks(["undergroundbiomes:sedimentary_stone:4"])
   	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(1))
-       	   .items([<undergroundbiomes:sedimentary_stone:4>])
+       	   .items([<contenttweaker:lignite_cobble>])
       )
   ); 
 // Cobbled Path blocks
