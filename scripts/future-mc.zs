@@ -3,6 +3,8 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+import mods.dropt.Dropt;
+
 import mods.futuremc.Composter;
 import mods.futuremc.Stonecutter;
 import mods.futuremc.BlastFurnace;
@@ -337,12 +339,17 @@ var bricks as IItemStack[][] = [
 	[ <contenttweaker:brick_chert>			,	<undergroundbiomes:sedimentary_stone:7>		,	<contenttweaker:loose_big_chert_bricks> 			,	<undergroundbiomes:sedimentary_stone:7> 	,	<pyrotech_compat:rock_sedimentary:5> ]
 ] as IItemStack[][];
 
+// Dropt list
+var brickDropList = Dropt.list("loose_brick_drops");
+
 for brickArr in bricks {
 	val looseBrickItem = brickArr[0];
 	val brickBlock = brickArr[1];
 	val looseBrickBlock = brickArr[2];
 	val sourceStone = brickArr[3];
 	val sourceRock = brickArr[4];
+	
+	val looseBrickBlock_str = looseBrickBlock.definition.id.split(":")[1];
 	
 	if (!isNull(sourceStone)) {
 		Stonecutter.addOutputs(sourceStone, looseBrickItem*4, looseBrickBlock*1);
@@ -351,6 +358,17 @@ for brickArr in bricks {
 	if (!isNull(sourceRock)) {
 		Stonecutter.addOutputs(sourceRock, looseBrickItem*1);
 	}
+	
+	brickDropList.add(Dropt.rule()
+		.matchBlocks([looseBrickItem.definition.id~":"~looseBrickItem.metadata])
+		.addDrop(Dropt.drop()
+			.items([looseBrickItem], Dropt.range(4))
+		)
+	);
+	
+	recipes.addShapeless("loose_brick_"~looseBrickBlock_str, looseBrickItem*4,
+		[looseBrickBlock*1]
+	);
 }
 
 // Masonry bricks use oredict, an exception
