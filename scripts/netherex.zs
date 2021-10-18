@@ -73,7 +73,7 @@ JEI.removeAndHide(<netherex:lively_nether_brick_fence_gate>);
 JEI.removeAndHide(<netherex:lively_nether_brick_fence>);
 recipes.remove(<netherex:fiery_netherbrick>);
 JEI.removeAndHide(<netherex:icy_netherbrick>);
-JEI.removeAndHide(<netherex:icy_netherrack>;
+JEI.removeAndHide(<netherex:icy_netherrack>);
 JEI.removeAndHide(<netherex:icy_netherrack_path>);
 JEI.removeAndHide(<netherex:icy_nether_brick>);
 JEI.removeAndHide(<netherex:icy_nether_brick_slab>);
