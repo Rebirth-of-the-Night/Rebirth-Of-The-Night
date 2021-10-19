@@ -5,13 +5,17 @@
     "pages": [
         {
             "type": "crafting",
-            "recipe": "betterwithmods:single_machine_0",
-            "text": "Some materials I’ve found in the wild need further processing that I’m unable to perform with my bare hands. I’ve created a millstone for that purpose. I can simply toss in things like flowers, wild plants, and rotten flesh to mill them into more readily usable materials. I still need to figure out how I can turn it, however…"
+            "recipe": "betterwithmods:blocks/mech/single_machine_0",
+            "text": "Some materials I’ve found in the wild need further processing that I’m unable to perform with my bare hands. I’ve created a millstone for that purpose."
+        },
+        {
+            "type": "text",
+            "text": "I can simply toss in things like flowers, wild plants, and rotten flesh to mill them into more readily usable materials. I still need to figure out how I can turn it, however…"
         },
         {
             "type": "relations",
             "entries": [
-                
+                "innovation/mechpower/hand_crank"
             ]
         }
     ]

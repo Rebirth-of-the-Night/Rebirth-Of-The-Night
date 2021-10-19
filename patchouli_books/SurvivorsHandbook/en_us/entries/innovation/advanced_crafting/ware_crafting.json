@@ -1,24 +1,24 @@
 {
     "name": "Ware Crafting Table",
-    "icon": "crafttweaker:wares_table",
+    "icon": "artisanworkstumps:workstump_potter",
     "category": "innovation_advanced_crafting",
     "pages": [
         {
             "type": "crafting",
             "recipe": "crafttweaker:wares_table",
-            "text": "A staple of early civilizations. $(thing)Earthenware, stoneware and ceramics$() have a variety of uses such as enabling advanced manufacturing, strong materials, storage and decoration."
+            "text": "The ware crafting station is a simple workshop; using an $(item)Artisan Carver$(), it will aid me in working with soft materials, molding and sculpting."
         },
         {
             "type": "text",
-            "text": "The ware crafting station is a simple workshop, using an $(item)Artisan Carver$(), it will aid me in working with soft materials, molding and sculpting; however, if I ever want to $(thing)automate$() any of these processes, I should look into a $(item)Turntable$().$(br2)The basic premise of sculpting starts with a full block of material, by carving and smoothing out different segments I can create quality recipients or intricate shapes."
-        },
-        {
-            "type": "text",
-            "text": "After acquiring the material block, I just have to sculpt it directly with my $(item)carver$() until I get the desired shape, the resulting product should be able to be $(thing)fired$() in a $(l:innovation/burn/kiln)kiln$(). What follows is a list of the different devices I believe I'm able to craft, most of which are made by continuing to work on the previous one."
+            "text": "The basic premise of sculpting starts with a full block of material, by carving and smoothing out different segments I can create quality recipients or intricate shapes. $(br2)If I ever want to $(thing)automate$() any of these processes, I should look into a $(l:innovation/light_machines/turntable)turntable$()."
         },
         {
             "type": "relations",
-            "text": "innovation/pottery"
+            "entries": [
+                "innovation/pottery",
+                "innovation/kiln",
+                "innovation/turntable"
+            ]
         }
     ]
 }

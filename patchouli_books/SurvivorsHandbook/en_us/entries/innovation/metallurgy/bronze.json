@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "Making bronze is rather easy. By combining about 3 parts copper to 1 part tin, melting them together in a $(thing)kiln$() at a relatively low melting point of around 2,000 degrees Fahrenheit will yield 4 bronze."
+            "text": "Making bronze is rather easy. By combining about 3 parts $(l:innovation/metallurgy/copper)copper$() to 1 part tin, melting them together in a $(l:innovation/kiln)kiln$() at a relatively low melting point of around 2,000 degrees Fahrenheit will yield 4 bronze."
         },
         {
             "type": "text",
-            "text": "This material is much more durable and ductile than the copper used to make it, making its use for tools that much better. I also might also be able to make better parts because of its toughness."
+            "text": "This material is much more durable and ductile than the $(thing)copper$() used to make it, making its use for tools that much better. I also might also be able to make better parts because of its toughness."
         },
         {
             "type": "relations",

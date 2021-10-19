@@ -4,9 +4,16 @@
     "category": "innovation_light_machines",
     "pages": [
         {
+            "type": "text",
+            "text": "A carpenter's best friend. Once mechanically powered with a spinning axle, either from the bottom or the sides, the saw can be used to process logs into planks much more efficiently than via crafting."
+        },
+        {
+            "type": "text",
+            "text": "Planks can also be further cut down, allowing me to create smaller and more precise pieces to use in crafting. The blade is quite sharp, though, and I shouldn't get too close to it while it's spinning. I have a feeling the monsters wouldn't like it very much either..."
+        },
+        {
             "type": "crafting",
-            "recipe": "betterwithmods:saw",
-            "text": "A carpenter's best friend. Once mechanically powered with a spinning axle, either from the bottom or the sides, the saw can be used to process logs into planks much more efficiently than via crafting. Planks can also be further cut down, allowing me to create smaller and more precise pieces to use in crafting. The blade is quite sharp, though, and I shouldn't get too close to it while it's spinning. I have a feeling the monsters wouldn't like it very much either..."
+            "recipe": "betterwithmods:blocks/mech/saw"
         },
         {
             "type": "relations",

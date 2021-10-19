@@ -1,19 +1,25 @@
 {
-  "name": "Burning",
+  "name": "Lighting fires",
   "icon": "minecraft:coal:1",
   "category": "survival_newbeginning",
   "pages": [
     {
       "type": "text",
-      "text": "I found an effective way of generating charcoal with cheap materials. By compacting wood logs into log piles and enclosing the piles on all sides, if I start to burn one pile and quickly seal it off, ash piles of charcoal will be formed after letting it burn for some time."
+      "text": "Fire, an essential part to the survival of civilization. There is no end to the number of uses fire can be used, so I must also have many ways to go about starting fires as well if I am to survive in any environment."
     },
     {
       "type": "text",
-      "text": "Placing tinder on the ground and filling it with logs makes for an easy campfire to cook with."
+      "text": "So far, I've found several useful ways to utilize fire: $(br2)(1) A quick, easy way to make a disposable fire starter $(thing)hand drill$() is with tinder and sticks. $(br2)(2) Placing tinder on the ground and filling it with logs makes for an easy campfire to cook with.$(br2)(3) And I can easily convert log piles to charcoal by pit burning"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:pyro_matchstick_broken_stick",
+      "recipe2": "crafttweaker:pyro_matchstick_sticks",
+      "text": "Tinder, 2 sticks = 1 fire flick"
     },
     {
       "type": "text",
-      "text": "A quick an easy way to make a fire starter is with a hand drill. All I need is a tinder and sticks and I've got myself a quick disposable igniter."
+      "text": "By compacting wood logs into log piles and enclosing the piles on all sides, if I start to burn one pile and quickly seal it off, ash piles of charcoal will be formed after letting it burn for some time."
     },
     {
       "type": "relations",
