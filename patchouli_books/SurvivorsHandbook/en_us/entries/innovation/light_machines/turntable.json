@@ -3,13 +3,14 @@
   "icon": "betterwithmods:single_machine:3",
   "category": "innovation_light_machines",
   "pages": [
-  {
-      "type": "text",
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:turntable",
       "text": "You spin me right round, baby$(br)Right round like a record, baby$(br)Right round, round, round."
     },
     {
-      "type": "crafting",
-      "recipe": "betterwithmods:single_machine:3"
+      "type": "text",
+      "text": "You spin me right round, baby$(br)Right round like a record, baby$(br)Right round, round, round."
     },
     {
       "type": "relations",

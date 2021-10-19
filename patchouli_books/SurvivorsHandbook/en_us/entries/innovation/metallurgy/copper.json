@@ -1,11 +1,15 @@
 {
     "name": "Copper",
-    "icon": "contenttweaker:material_part:0",
+    "icon": "simpleores:copper_ingot",
     "category": "innovation_metallurgy",
     "pages": [
         {
             "type": "text",
-            "text": "Flimsy but plentiful, found commonly on exposed stone surfaces like cliffs or in the shallower levels of caves. Not much can be done with it; some basic tools and weapons, possibly. Perhaps I can process it or refine it in some way? I'd need to set up a dependable area to work in, though.$(br)Regardless, I should collect all that I can find, in case it ends up being useful down the line."
+            "text": "Flimsy but plentiful, found commonly on exposed stone surfaces like cliffs or in the shallower levels of caves.$(br2)Not much can be done with it; some basic tools and weapons, possibly.$(br2)Perhaps I can process it or refine it in some way?"
+        },
+        {
+            "type": "text",
+            "text": "I'd need to set up a dependable area to work in, though.$(br2)Regardless, I should collect all that I can find, in case it ends up being useful down the line."
         },
         {
             "type": "relations",
