@@ -3,7 +3,6 @@ import mods.dropt.Dropt;
   
 /* 
 Dropt.list("fortune_essence")
-
   .add(Dropt.rule()
       .matchBlocks(["endreborn:block_essence_ore"])
       .addDrop(Dropt.drop()
@@ -35,9 +34,7 @@ Dropt.list("fortune_essence")
 			  .items([<quark:biotite>], Dropt.range(1, 2))
 		  )	 
   );
-
 Dropt.list("fortune_essence_biotite")
-
   .add(Dropt.rule()
       .matchBlocks(["endreborn:block_essence_ore"])
       .replaceStrategy("ADD")
@@ -55,9 +52,7 @@ Dropt.list("fortune_essence_biotite")
       )	  
   );
   
-
 Dropt.list("blood_tainted_gold")
-
   .add(Dropt.rule()
       .matchBlocks(["minecraft:redstone_ore","undergroundbiomes:igneous_stone_redstone_ore","undergroundbiomes:metamorphic_stone_redstone_ore","undergroundbiomes:sedimentary_stone_redstone_ore"])
       .replaceStrategy("ADD")
@@ -182,7 +177,6 @@ Dropt.list("exorite")
 
 /*
 Dropt.list("wither_skull")
-
   .add(Dropt.rule()
       .matchBlocks(["minecraft:skull:1"])
 	  .addDrop(Dropt.drop()
@@ -472,7 +466,7 @@ Dropt.list("cobweb_silt")
       .matchBlocks(["minecraft:web"])
       .addDrop(Dropt.drop()
       	  .selector(Dropt.weight(1))
-	  .items([<contenttweaker:spider_silk>])
+	  .items([<contenttweaker:spider_silk>], Dropt.range(2, 4))
       )
   );
 
@@ -507,12 +501,12 @@ Dropt.list("nether_grass")
           .items([<pyrotech:tinder>])
       )
   );
-
+ 
 Dropt.list("plants_basic_dry")
 
   .add(Dropt.rule()
       .matchBiomes(["minecraft:desert","minecraft:desert_hills","minecraft:mutated_desert","minecraft:savanna","minecraft:savanna_rock","minecraft:mesa","minecraft:mesa_rock","minecraft:mesa_clear_rock","biomesoplenty:steppe"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(180)) // drops nothing if selected
@@ -521,48 +515,42 @@ Dropt.list("plants_basic_dry")
           .selector(Dropt.weight(25))
           .items([<pyrotech:tinder>])
       )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(5))
+          .items([<pyrotech:material:11>])
+      )
   );
-
+  
 Dropt.list("plants_basic_dead")
 
   .add(Dropt.rule()
       .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2"])
-      .replaceStrategy("ADD")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(180)) // drops nothing if selected
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(20))
-          .items([<pyrotech:tinder>])
-      )
-  );
-
-Dropt.list("plants_basic")
-
-  .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass","minecraft:tallgrass:1","minecraft:tallgrass:2"])
-      .replaceStrategy("ADD")
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(180)) // drops nothing if selected
-      )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(40))
-          .items([<pyrotech:material:12>])
-      )
-	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(5))
-          .items([<pyrotech:tinder>])
-      )
-  );
- 
-Dropt.list("plants_custom")
-
-  .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(4200)) // drops nothing if selected
+      )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(480))
+          .items([<pyrotech:tinder>])
+      )
+  );
+
+Dropt.list("tall_grass_base_drops")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
+      .replaceStrategy("ADD")
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(4200)) // drops nothing if selected
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(840)) // plant fiber
+          .items([<pyrotech:material:12>])
+      )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(420))
+          .items([<pyrotech:tinder>]) // dried plant fiber
       )
 	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(15)) // Worm
@@ -574,22 +562,22 @@ Dropt.list("plants_custom")
       )
   );
   
-Dropt.list("tallplants_custom")
+Dropt.list("double_tall_grass_base_drops")
 
   .add(Dropt.rule()
-      .matchBlocks(["minecraft:double_plant:2"])
+      .matchBlocks(["minecraft:double_plant:2","minecraft:double_plant:3"])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(2500)) // drops nothing if selected
+          .selector(Dropt.weight(4200)) // drops nothing if selected
       )
 	  .addDrop(Dropt.drop()
-          .selector(Dropt.weight(40))
+          .selector(Dropt.weight(840)) // plant fiber
           .items([<pyrotech:material:12>])
       )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(35)) // Hemp crop
-          .items([<betterwithmods:material:2>])
-	  )
+	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(420))
+          .items([<pyrotech:tinder>]) // dried plant fiber
+      )
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
@@ -738,6 +726,15 @@ Dropt.list("lignite")
   	  .addDrop(Dropt.drop()
           .selector(Dropt.weight(1))
        	   .items([<contenttweaker:lignite_cobble>])
+      )
+  ); 
+Dropt.list("fuit_silk")
+
+  .add(Dropt.rule()
+      .matchBlocks(["dynamictreesphc:fruitspiderweb:3"])
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<contenttweaker:spider_silk>])
       )
   ); 
 // Cobbled Path blocks

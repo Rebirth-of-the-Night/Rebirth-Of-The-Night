@@ -188,6 +188,7 @@ JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "tencha"}));
 JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "gyokuro"}));
 JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"}));
 JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
+furnace.remove(<betterwithaddons:food_cooked_rice>);
 LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 recipes.remove(<betterwithaddons:material:3>);

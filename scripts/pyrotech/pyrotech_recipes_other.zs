@@ -7,6 +7,7 @@ import mods.pyrotech.CompactingBin;
 import mods.pyrotech.MechanicalCompactor;
 import mods.pyrotech.CrudeDryingRack;
 import mods.pyrotech.DryingRack;
+import mods.pyrotech.Campfire;
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
 
@@ -53,7 +54,7 @@ SoakingPot.addRecipe("grape_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:g
 SoakingPot.addRecipe("apple_vinegar", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <mod_lavacow:intestine>, 2 * 60 * 20);
 SoakingPot.addRecipe("apple_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <ore:agedMold>, 30 * 20);
 SoakingPot.addRecipe("tarred_tar_hay", <pyrotech:wood_tar_block>*5, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
-//SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20); To be added back along with sedimentary cobblestone types
+SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20);
 SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*4, <liquid:wood_tar>*50, <pyrotech:material:32>, 6 * 60 * 20);
 SoakingPot.addRecipe("vis_sliver", <contenttweaker:vis_sliver>, <liquid:lunar_water>*1000, <contenttweaker:vis_speck>, 5 * 60 * 20);
 SoakingPot.addRecipe("vis_shard", <contenttweaker:vis_shard>, <liquid:lunar_water>*2000, <contenttweaker:vis_sliver>, 10 * 60 * 20);
@@ -63,6 +64,37 @@ SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*
 SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
 SoakingPot.addRecipe("wet_soap", <betterwithaddons:wet_soap>, <liquid:water>*250, <betterwithmods:aesthetic:10>, 20 * 20);
+
+// Campfire recipes
+// remove non roasted recipes
+Campfire.blacklistSmeltingRecipes([<animania:plain_omelette>]);
+Campfire.blacklistSmeltingRecipes([<minecraft:cookie>]);
+Campfire.blacklistSmeltingRecipes([<minecraft:rotten_flesh>]);
+Campfire.blacklistSmeltingRecipes([<netherex:ghast_meat_cooked>]);
+Campfire.blacklistSmeltingRecipes([<pyrotech:book>]);
+
+Campfire.addRecipe("traditional_marshmallow", <pyrotech:marshmallow_roasted>.withTag({}), <pyrotech:marshmallow>);
+Campfire.addRecipe("burned_marshmallow", <pyrotech:marshmallow_burned>, <pyrotech:marshmallow_roasted>.withTag({}));
+Campfire.addRecipe("roasted_egg_a", <pyrotech:egg_roasted>, <minecraft:egg>);
+Campfire.addRecipe("roasted_egg_b", <pyrotech:egg_roasted>, <animania:brown_egg>);
+Campfire.addRecipe("roasted_egg_c", <pyrotech:egg_roasted>, <animania:peacock_egg_blue>);
+Campfire.addRecipe("roasted_egg_d", <pyrotech:egg_roasted>, <animania:peacock_egg_white>);
+Campfire.addRecipe("roasted_egg_e", <pyrotech:egg_roasted>, <betteranimalsplus:pheasant_egg>);
+Campfire.addRecipe("roasted_egg_f", <pyrotech:egg_roasted>, <betteranimalsplus:turkey_egg>);
+Campfire.addRecipe("roasted_egg_g", <pyrotech:egg_roasted>, <betteranimalsplus:goose_egg>);
+Campfire.addRecipe("roasted_egg_h", <pyrotech:egg_roasted>, <iceandfire:rotten_egg>);
+Campfire.addRecipe("roasted_egg_i", <pyrotech:egg_roasted>, <primitivemobs:dodo_egg>);
+Campfire.addRecipe("roasted_egg_j", <pyrotech:egg_roasted>, <quark:parrot_egg>);
+Campfire.addRecipe("roasted_egg_k", <pyrotech:egg_roasted>, <quark:parrot_egg:1>);
+Campfire.addRecipe("roasted_egg_l", <pyrotech:egg_roasted>, <quark:parrot_egg:2>);
+Campfire.addRecipe("roasted_egg_m", <pyrotech:egg_roasted>, <quark:parrot_egg:3>);
+Campfire.addRecipe("roasted_egg_n", <pyrotech:egg_roasted>, <quark:parrot_egg:4>);
+Campfire.addRecipe("roasted_egg_o", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 0}));
+Campfire.addRecipe("roasted_egg_p", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 1}));
+Campfire.addRecipe("roasted_egg_q", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 2}));
+Campfire.addRecipe("roasted_egg_r", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 3}));
+
+
 
 MechanicalCompactor.removeAllRecipes();
 MechanicalCompactor.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9);
