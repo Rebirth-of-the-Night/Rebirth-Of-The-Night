@@ -16,7 +16,7 @@ Example
   D(data).getInt("ench[0].lvl");
 */
 
-#priority -2020
+#priority 2020
 
 import crafttweaker.data.IData;
 

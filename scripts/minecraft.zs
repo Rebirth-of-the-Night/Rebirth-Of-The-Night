@@ -1,4 +1,4 @@
-#priority -100
+#priority 100
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;

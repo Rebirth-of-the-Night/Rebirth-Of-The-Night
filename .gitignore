@@ -55,22 +55,14 @@ resources/resourcepacks/Better Rebirth 1.12.2/assets/malisisdoors/textures/16xte
 config/fantasticlib/reference/biomes.txt
 config/fantasticlib/reference/blocks.txt
 config/fantasticlib/reference/blockstates.txt
-config/fantasticlib/reference/enchantments.txt
 config/fantasticlib/reference/entities.txt
 config/fantasticlib/reference/items.txt
-config/fantasticlib/reference/oredict.txt
 config/fantasticlib/reference/players.txt
 config/fantasticlib/reference/potions.txt
 config/fantasticlib/reference/potion_types.txt
-config/fantasticlib/reference/recipes.txt
-config/multimob/modInformation/allBiomes.txt
-config/multimob/modInformation/allBiomeTypes.txt
 config/multimob/modInformation/allBlocks.txt
 config/multimob/modInformation/allBlockStates.txt
-config/multimob/modInformation/allEnchantments.txt
-config/multimob/modInformation/allEntities.txt
 config/multimob/modInformation/allItems.txt
-config/multimob/modInformation/allPotionTypes.txt
 config/InvTweaks.cfg
 config/customloadingscreen_timings.nbt
 
@@ -81,16 +73,24 @@ README.md
 .settings
 .vscode
 
-mods/Caliper-1.12.2-1.1.46.jar
-mods/effortlessbuilding-1.12.2-2.16.jar
+mods/Caliper*.jar
+mods/effortlessbuilding*.jar
 mods/filenames.txt
-mods/JustEnoughResources-1.12.2-0.9.2.60.jar
-mods/Mapmaker's+Gadgets-1.2_for_1.12.x.jar
-mods/Mineshot-v1.81-1.12.jar
-mods/tellme-1.12.2-0.7.0-dev.20200919.184303.jar
-mods/World-Stripper-1.6.0-1.12.2.jar
+mods/JustEnoughResources*.jar
+mods/LoadingProfiler*.jar
+mods/Mapmaker's+Gadgets*.jar
+mods/Mineshot*.jar
+mods/spark-forge*.jar
+mods/tellme*.jar
+mods/world_generation_profiler*.jar
+mods/World-Stripper*.jar
+config/loadingprofiler.cfg
+config/mineshot.cfg
+config/tellme.cfg
+config/worldgeneration_profiler.cfg
+config/worldstripper.cfg
+loading-log.log
 
-config/multimob/modInformation/*
 .ReAuth.cfg
 config/acronym/saved/
 config/antiqueatlas/markers.json
@@ -102,5 +102,10 @@ config/randomportals/
 mods/memory_repo/
 mods/OptiFine*
 mods/Sound-Physics*
-config/cd4017be/compiled.dat
 mods/1.12.2/Guidebook-1.12.2-2.9.1.s5.jar
+
+config/requious/battery.json
+config/requious/fluid_cell.json
+config/requious/fluid_emitter.json
+config/requious/red_emitter.json
+

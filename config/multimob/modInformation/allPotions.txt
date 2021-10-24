@@ -96,6 +96,7 @@ extraalchemy:effect.pull
 mod_lavacow:corroded
 mod_lavacow:soiled
 mod_lavacow:infested
+mod_lavacow:fragile
 growthcraft_cellar:potion.tipsy
 mowziesmobs:suns_blessing
 mowziesmobs:geomancy

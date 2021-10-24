@@ -255,7 +255,6 @@ betterwithmods:bwm_jungle_spider
 arcanearchives:weight
 artifacts:mimic
 artifacts:hallow_star
-quark:totem_of_holding
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -264,11 +263,6 @@ quark:ashen
 quark:pirate
 quark:crab
 quark:wraith
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:gravisand
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -276,6 +270,12 @@ quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
 quark:chest_passenger
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
+quark:totem_of_holding
+quark:gravisand
 betterwithaddons:greatarrow
 betterwithaddons:ya
 betterwithaddons:artifactframe
@@ -566,6 +566,11 @@ mod_lavacow:weta
 mod_lavacow:avaton
 mod_lavacow:ghostbomb
 mod_lavacow:sonicbomb
+mod_lavacow:forsaken
+mod_lavacow:skeletonking
+mod_lavacow:sandburst
+mod_lavacow:deathcoil
+mod_lavacow:mummy
 futuremc:panda
 futuremc:bee
 futuremc:cod

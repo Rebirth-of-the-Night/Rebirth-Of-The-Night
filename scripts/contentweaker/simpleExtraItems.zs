@@ -6,7 +6,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Commands;
 
-//misc.
+// misc.
 val four_gems = VanillaFactory.createItem("four_gems");
 four_gems.register();
 val four_gem_ingots = VanillaFactory.createItem("four_gem_ingots");

@@ -1,7 +1,36 @@
-#priority -1000
+#priority 1000
 #nowarn
 
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+
+global mapCobbleToStone as IItemStack[IItemStack] = {
+    <contenttweaker:lignite_cobble> : <undergroundbiomes:sedimentary_stone:4>, 
+    <contenttweaker:dolomite_cobble> : <undergroundbiomes:sedimentary_stone:5>, 
+    <contenttweaker:greywacke_cobble> : <undergroundbiomes:sedimentary_stone:6>, 
+    <contenttweaker:chalk_cobble> : <undergroundbiomes:sedimentary_stone:1>, 
+    <contenttweaker:shale_cobble> : <undergroundbiomes:sedimentary_stone:2>, 
+    <contenttweaker:chert_cobble> : <undergroundbiomes:sedimentary_stone:7>, 
+    <contenttweaker:siltstone_cobble> : <undergroundbiomes:sedimentary_stone:3>, 
+    <contenttweaker:limestone_cobble> : <undergroundbiomes:sedimentary_stone>, 
+    <undergroundbiomes:igneous_cobble> : <undergroundbiomes:igneous_stone>, 
+    <undergroundbiomes:igneous_cobble:1> : <undergroundbiomes:igneous_stone:1>, 
+    <undergroundbiomes:igneous_cobble:2> : <undergroundbiomes:igneous_stone:2>, 
+    <undergroundbiomes:igneous_cobble:3> : <undergroundbiomes:igneous_stone:3>, 
+    <undergroundbiomes:igneous_cobble:4> : <undergroundbiomes:igneous_stone:4>, 
+    <undergroundbiomes:igneous_cobble:5> : <undergroundbiomes:igneous_stone:5>, 
+    <undergroundbiomes:igneous_cobble:6> : <undergroundbiomes:igneous_stone:6>, 
+    <undergroundbiomes:igneous_cobble:7> : <undergroundbiomes:igneous_stone:7>, 
+    <undergroundbiomes:metamorphic_cobble> : <undergroundbiomes:metamorphic_stone>, 
+    <undergroundbiomes:metamorphic_cobble:1> : <undergroundbiomes:metamorphic_stone:1>, 
+    <undergroundbiomes:metamorphic_cobble:2> : <undergroundbiomes:metamorphic_stone:2>, 
+    <undergroundbiomes:metamorphic_cobble:3> : <undergroundbiomes:metamorphic_stone:3>, 
+    <undergroundbiomes:metamorphic_cobble:4> : <undergroundbiomes:metamorphic_stone:4>, 
+    <undergroundbiomes:metamorphic_cobble:5> : <undergroundbiomes:metamorphic_stone:5>, 
+    <undergroundbiomes:metamorphic_cobble:6> : <undergroundbiomes:metamorphic_stone:6>, 
+    <undergroundbiomes:metamorphic_cobble:7> : <undergroundbiomes:metamorphic_stone:7>, 
+    <minecraft:cobblestone> : <minecraft:stone>
+} as IItemStack[IItemStack];
 
 global disableItem as function(IItemStack)void = function(item as IItemStack) as void {
     // Basics

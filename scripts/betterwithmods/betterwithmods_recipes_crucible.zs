@@ -9,6 +9,10 @@ import mods.betterwithmods.Crucible;
 Crucible.removeAll();
 
 Crucible.addStoked([<ore:cobblestone>],[<minecraft:stone>]);
+for cobble, stone in mapCobbleToStone {
+    Crucible.addUnstoked([cobble], [stone]);
+}
+
 Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<betterwithmods:aesthetic:6>]);
 Crucible.addUnstoked([<betterwithmods:material:16>, <ore:stone>],[<aether_legacy:dungeon_block:4>]);
 

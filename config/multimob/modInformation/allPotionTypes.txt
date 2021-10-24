@@ -121,8 +121,16 @@ extraalchemy:pull_long
 extraalchemy:pull_strong
 fireresistancetiers:strong_fire_resistance
 mod_lavacow:corrosive
+mod_lavacow:strong_corrosive
+mod_lavacow:long_corrosive
 mod_lavacow:foulodor
+mod_lavacow:long_foulodor
 mod_lavacow:infestation
+mod_lavacow:strong_infestation
+mod_lavacow:long_infestation
+mod_lavacow:fragile
+mod_lavacow:strong_fragile
+mod_lavacow:long_fragile
 mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
 netherex:freezing

@@ -954,6 +954,11 @@ mod_lavacow:entity_weta_death
 mod_lavacow:entity_avaton_ambient
 mod_lavacow:entity_avaton_spell
 mod_lavacow:entity_avaton_death
+mod_lavacow:entity_skeletonking_attack
+mod_lavacow:entity_skeletonking_death
+mod_lavacow:entity_skeletonking_spell_summon
+mod_lavacow:entity_skeletonking_spell_teleport
+mod_lavacow:entity_skeletonking_spell_toss
 iceologer:iceologer_ambient
 iceologer:iceologer_hurt
 iceologer:iceologer_death

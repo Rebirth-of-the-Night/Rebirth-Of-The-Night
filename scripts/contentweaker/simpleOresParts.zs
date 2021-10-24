@@ -1,4 +1,4 @@
-#priority -500
+#priority 500
 #loader contenttweaker
 
 import mods.contenttweaker.Color;
