@@ -4,8 +4,13 @@
     "category": "exploration",
     "pages": [
         {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shapeless1190775419",
+            "text": "Traveling with this in hand is a must for any adventurer.$(br2)As I travel, the map automatically fills up with markings telling me what biome is where."
+        },
+        {
             "type": "text",
-            "text": "Recording geographic locations couldn't be easier with the antique map. As I travel, the map automatically fills up with markings telling me what biome is where. I can even mark waypoints and markers to key locations like my base. Traveling with this in hand is a must for any adventurer."
+            "text": "I can even mark waypoints and markers to key locations like my base.$(br2)Recording geographic locations couldn't be easier with the antique map."
         }
     ]
 }

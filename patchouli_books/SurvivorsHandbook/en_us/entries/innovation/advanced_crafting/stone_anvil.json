@@ -4,13 +4,14 @@
     "category": "innovation_advanced_crafting",
     "pages": [
         {
-            "type": "crafting",
-            "recipe": "crafttweaker:pyro_stone_anvil",
-            "text": "By compressing some stone, I can create a sturdy and uniform surface in order to crudely further refine materials such as metals."
+            "type": "spotlight",
+            "item": "pyrotech:anvil_granite",
+            "text": "By compressing some stone, I can create a sturdy and uniform surface in order to crudely further refine materials such as metals.$(br2)It also allows for extracting deposits of material from certain kinds of stone that wouldn’t be possible by simply mining it."
         },
         {
-            "type": "text",
-            "text": "It also allows for extracting deposits of material from certain kinds of stone that wouldn’t be possible by simply mining it. I can use many instruments to smash with, such as a sledgehammer or pickaxe."
+            "type": "crafting",
+            "recipe": "crafttweaker:pyro_stone_anvil",
+            "text": "I can use many instruments to smash with, such as a sledgehammer or pickaxe."
         },
         {
             "type": "relations",

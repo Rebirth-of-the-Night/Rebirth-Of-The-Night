@@ -61,8 +61,8 @@
       "type": "relations",
       "entries": [
         "innovation/advanced_crafting/ware_crafting",
-        "innovation/kiln",
-        "innovation/turntable"
+        "innovation/burn/kiln",
+        "innovation/light_machines/turntable"
       ]
     }
   ]

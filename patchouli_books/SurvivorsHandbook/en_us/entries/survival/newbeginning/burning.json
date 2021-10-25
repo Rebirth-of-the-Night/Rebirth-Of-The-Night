@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "Fire, an essential part to the survival of civilization. There is no end to the number of uses fire can be used, so I must also have many ways to go about starting fires as well if I am to survive in any environment."
+      "text": "Fire, an essential part to the survival of civilization.$(br2)There is no end to the number of uses fire can be used, so I must also have many ways to go about starting fires as well if I am to survive in any environment."
     },
     {
       "type": "text",
@@ -15,7 +15,7 @@
       "type": "crafting",
       "recipe": "crafttweaker:pyro_matchstick_broken_stick",
       "recipe2": "crafttweaker:pyro_matchstick_sticks",
-      "text": "Tinder, 2 sticks = 1 fire flick"
+      "text": "Tinder, 2 sticks = 1 fire stick"
     },
     {
       "type": "text",

@@ -1,7 +1,7 @@
 {
   "name": "Metallurgy",
   "description": "Creating and refining metals.",
-  "icon": "minecraft:iron_ingot",
+  "icon": "betterwithmods:material:14",
   "sortnum": 6,
   "parent": "innovation"
 }

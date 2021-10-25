@@ -4,9 +4,14 @@
     "category": "innovation_light_machines",
     "pages": [
         {
+            "type": "spotlight",
+            "item": "horsepower:press",
+            "text": "This mechanical press is actually uniquely powered by $(l:innovation/mechpower/horsepower)horsepower.$()$(br2)The press itself needs a large area, 7x7, in order for the horse to have enough space to properly power the machine."
+        },
+        {
             "type": "crafting",
             "recipe": "crafttweaker:horse_press",
-            "text": ""
+            "text": "Once I have everything setup and a horse attached to the machine, I can start processing items once I put them at the top of the mechanical presser."
         },
         {
 			"type": "relations",
