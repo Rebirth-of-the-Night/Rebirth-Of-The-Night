@@ -1,0 +1,17 @@
+{
+    "name": "Crucible",
+    "icon": "betterwithmods:cooking_pot:0",
+    "category": "innovation_burn",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

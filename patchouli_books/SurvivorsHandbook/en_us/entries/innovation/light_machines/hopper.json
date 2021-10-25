@@ -1,0 +1,18 @@
+{
+    "name": "Filtered Hopper",
+    "icon": "betterwithmods:single_machine:2",
+    "category": "innovation_light_machines",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:filtered_hopper",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

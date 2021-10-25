@@ -2,6 +2,7 @@
     "name": "Copper",
     "icon": "simpleores:copper_ingot",
     "category": "innovation_metallurgy",
+    "advancement": "triumph:advancements/ores/copper",
     "pages": [
         {
             "type": "text",

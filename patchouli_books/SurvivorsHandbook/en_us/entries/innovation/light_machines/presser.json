@@ -1,0 +1,18 @@
+{
+    "name": "Mechanical Presser",
+    "icon": "horsepower:press",
+    "category": "innovation_light_machines",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:horse_press",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/mechpower/horsepower"
+			]
+		}
+    ]
+}

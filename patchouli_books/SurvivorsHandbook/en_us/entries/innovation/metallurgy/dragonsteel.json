@@ -1,0 +1,19 @@
+{
+    "name": "Dragonsteel",
+    "icon": "iceandfire:dragonsteel_fire_ingot",
+    "category": "innovation_metallurgy",
+    "advancement": "triumph:advancements/bosskills/killdragon",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:dragonforge_fire_core",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

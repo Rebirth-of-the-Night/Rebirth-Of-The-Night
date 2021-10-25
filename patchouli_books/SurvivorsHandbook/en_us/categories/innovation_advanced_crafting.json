@@ -1,7 +1,7 @@
 {
     "name": "Advanced Crafting",
     "description": "placeholder",
-    "icon": "",
+    "icon": "artisanworktables:worktable",
     "sortnum": 4,
     "parent": "innovation"
 }

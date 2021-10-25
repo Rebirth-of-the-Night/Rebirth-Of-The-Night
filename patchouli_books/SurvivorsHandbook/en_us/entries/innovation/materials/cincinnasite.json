@@ -2,6 +2,7 @@
     "name": "Cincinnasite",
     "icon": "betternether:cincinnasite",
     "category": "innovation_materials",
+    "advancement": "triumph:advancements/ores/cincinnasite",
     "pages": [
         {
             "type": "crafting",

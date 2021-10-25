@@ -1,0 +1,20 @@
+{
+    "name": "Soulforged Steel",
+    "icon": "betterwithmods:material:14",
+    "category": "innovation_metallurgy",
+    "advancement": "triumph:advancements/ores/crudeSteel",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/metallurgy/steel",
+                "innovation/materials/soul_urn",
+                "innovation/burn/stoked_flame"
+			]
+		}
+    ]
+}

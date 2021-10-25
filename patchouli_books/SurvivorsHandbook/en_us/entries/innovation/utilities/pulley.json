@@ -1,0 +1,18 @@
+{
+    "name": "Pulley & Anchor",
+    "icon": "betterwithmods:single_machine:1",
+    "category": "innovation_utilities",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/single_machine:1",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

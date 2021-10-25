@@ -1,0 +1,18 @@
+{
+    "name": "Hellfire Dust",
+    "icon": "betterwithmods:material:16",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

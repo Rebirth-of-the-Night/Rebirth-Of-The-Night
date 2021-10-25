@@ -1,0 +1,19 @@
+{
+    "name": "Hibachi",
+    "icon": "betterwithmods:hibachi",
+    "category": "innovation_burn",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:blocks/redstone/hibachi",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/burn/stoked_flame"
+			]
+		}
+    ]
+}
