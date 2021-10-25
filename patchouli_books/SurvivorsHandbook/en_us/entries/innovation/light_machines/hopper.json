@@ -6,12 +6,16 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:filtered_hopper",
-            "text": ""
+            "text": "The filtered hopper allows for specific filtering of materials such as gravel or sand with through specific filters."
+        },
+        {
+            "type": "text",
+            "text": "More importantly, I'm able to filter $(l:innovation/materials/hellfire_dust)hellfire dust$() from grounded up netherrack through a soul sand filter.$(br2)I should make sure that the filtered hopper is mechanically powered from the side when processing netherrack though to fully grind up the remnants of ghasts or else I may find myself in a hell of a mess to say the least..."
         },
         {
 			"type": "relations",
 			"entries": [
-				
+				"innovation/materials/hellfire_dust"
 			]
 		}
     ]

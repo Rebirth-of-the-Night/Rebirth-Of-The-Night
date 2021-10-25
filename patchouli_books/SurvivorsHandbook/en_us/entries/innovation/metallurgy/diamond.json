@@ -5,8 +5,9 @@
   "advancement": "triumph:advancements/ores/diamond",
   "pages": [
     {
-      "type": "text",
-      "text": "I've spent some time studying $(item)diamond$(). I've noticed this particular gem feels more pristine than the others. I've noticed it's magical ability derives from $(thing)knowledge$() and $(thing)arcane$() origins. In terms of combat, diamond offers much $(thing)lighter weapons and tools$(), allowing you to swing faster than the other gems."
+      "type": "spotlight",
+      "item": "minecraft:diamond",
+      "text": "I've spent some time studying $(item)diamond$().$(br)I've noticed this particular gem feels more pristine than the others; its magical ability derives from $(thing)knowledge$() and $(thing)arcane$() origins. In terms of combat, diamond offers much $(thing)lighter weapons and tools$(), allowing you to swing faster than the other gems."
     },
     {
       "type": "text",

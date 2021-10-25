@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Using the $(l:innovation/mechpower/hand_crank)hand crank$() to manually power my machines is incredibly exhausting and time-consuming. If I can tame horses out in the wild, they can produce much greater power for my machines. That would save me time to do other things as well."
+            "text": "Using the $(l:innovation/mechpower/hand_crank)hand crank$() to manually power my machines is incredibly exhausting and time-consuming.$(br2)If I can tame horses out in the wild, they can produce much greater power for my machines.$(br)That would save me time to do other things as well."
         },
         {
             "type": "text",

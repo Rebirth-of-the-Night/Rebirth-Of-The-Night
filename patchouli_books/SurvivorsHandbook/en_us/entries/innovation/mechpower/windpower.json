@@ -5,16 +5,12 @@
     "pages": [
         {
             "type": "text",
-            "text": "A very renewable way to generate power is with air currents through a windmill. As long as I am outside in the $(thing)Overworld$(), there's always a surplus of wind energy I can utilize to power my machines."
-        },
-        {
-            "type": "text",
-            "text": "I need to take care that I don't try to take power from the windmill while it is raining or storming in case one of the $(l:innovation/mechpower/gearbox)gearboxes$() it's connected to will break."
+            "text": "A very renewable way to generate power is with air currents through a windmill. $(br2)As long as I am outside in the $(thing)Overworld$(), there's always a surplus of wind energy I can utilize to power my machines.$(br2)The higher the elevation, the more power it can generate."
         },
         {
             "type": "crafting",
             "recipe": "betterwithmods:blocks/mech/windmill",
-            "text": "The classical windmill. More power is generated at higher elevations."
+            "text": "The classic windmill. $(br2)I need to take care that I don't try to take power from the windmill while it is raining or storming in case one of the $(l:innovation/mechpower/gearbox)gearboxes$() it's connected to will break."
         },
         {
             "type": "crafting",
@@ -23,7 +19,7 @@
         },
         {
             "type": "crafting",
-            "recipe": "betterwithmods:bamboo_chime:0",
+            "recipe": "crafttweaker:ct_shaped-826343553",
             "text": "This bamboo chime sends out a signal under stormy conditions"
         },
         {

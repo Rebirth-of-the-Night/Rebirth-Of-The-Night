@@ -5,8 +5,13 @@
     "advancement": "triumph:advancements/ores/crudeSteel",
     "pages": [
         {
+            "type": "spotlight",
+            "item": "betterwithmods:material:14",
+            "text": "A much stronger version of steel, I can use this to create even stronger versions of weapons, armor, and tools than ever before, even more so than crucible steel, though I'll need to use a much more refined steel anvil to craft these items."
+        },
+        {
             "type": "text",
-            "text": ""
+            "text": "Processing this requires much more preparation involving crucible steel itself, ender biotite, soul flux, and a soul urn.$(br2)Combining these items in a stoked crucible will get me a soulforged steel ingot along with the emptied soul urn back."
         },
         {
 			"type": "relations",

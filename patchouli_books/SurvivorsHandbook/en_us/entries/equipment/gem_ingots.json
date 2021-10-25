@@ -5,12 +5,13 @@
     "advancement": "triumph:advancements/progression/nether/gems",
     "pages": [
       {
-        "type": "text",
+        "type": "spotlight",
+        "item": "contenttweaker:four_gem_ingots",
         "text": "With these rare gems I've found, each one has its own unique properties. I would like to try them as equipment, but it seems they are unable to be melded on its own."
       },
       {
         "type": "text",
-        "text": "By using a $(item)stoked cauldron$(), it seems that I am able to combine the gems with $(thing)crucible steel$() to make a proper gem alloy capable of being formed into tools and armor for my needs."
+        "text": "By using a $(l:innovation/burn/stoked_flame)stoked cauldron$(), it seems that I am able to combine the gems with $(l:innovation/metallurgy/steel)crucible steel$() to make a proper gem alloy capable of being formed into tools and armor for my needs."
       },
       {
         "type": "relations",

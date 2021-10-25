@@ -6,7 +6,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:cooking_cauldron",
-            "text": ""
+            "text": "Not only can I use this cauldron for cooking various foods quickly and easily, but for a lot of different materials as well such as $(l:innovation/materials/leather)tanned leather$(), blasting oil, etc."
         },
         {
 			"type": "relations",
