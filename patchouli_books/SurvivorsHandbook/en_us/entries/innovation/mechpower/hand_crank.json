@@ -15,11 +15,7 @@
         {
             "type": "relations",
             "entries": [
-<<<<<<< HEAD
                 "innovation/light_machines/millstone"
-=======
-                "innovation/mechpower/millstone"
->>>>>>> 8bd9987b (Added entries given by Elite's descriptions)
             ]
         }
     ]
