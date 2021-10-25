@@ -15,11 +15,7 @@
         {
             "type": "relations",
             "entries": [
-<<<<<<< HEAD
                 "innovation/mechpower/hand_crank"
-=======
-                
->>>>>>> 8bd9987b (Added entries given by Elite's descriptions)
             ]
         }
     ]
