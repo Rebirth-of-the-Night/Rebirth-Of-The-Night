@@ -1,0 +1,20 @@
+{
+    "name": "Stoked Flame",
+    "icon": "biomesoplenty:blue_fire",
+    "category": "innovation_burn",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/bellows",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/burn/cauldron",
+                "innovation/burn/crucible"
+			]
+		}
+    ]
+}

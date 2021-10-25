@@ -1,0 +1,18 @@
+{
+    "name": "Coal Dust",
+    "icon": "betterwithmods:material:18",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/ores/iron",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/light_machines/millstone"
+			]
+		}
+    ]
+}

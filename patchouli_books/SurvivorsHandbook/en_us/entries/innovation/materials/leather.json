@@ -1,0 +1,18 @@
+{
+    "name": "Leather",
+    "icon": "minecraft:leather",
+    "category": "innovation_materials",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:items/material/leather_cut",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/light_machines/millstone"
+			]
+		}
+    ]
+}

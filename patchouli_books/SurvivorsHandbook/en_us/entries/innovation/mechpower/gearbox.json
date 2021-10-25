@@ -1,0 +1,24 @@
+{
+    "name": "Gearbox & Axles",
+    "icon": "betterwithmods:wooden_gearbox",
+    "category": "innovation_mechpower",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/gearbox",
+            "text": "Gearboxes"
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/axle",
+            "text": "Axles"
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/mechpower/windpower",
+                "innovation/mechpower/hydropower"
+			]
+		}
+    ]
+}

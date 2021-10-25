@@ -1,0 +1,17 @@
+{
+    "name": "Glue",
+    "icon": "betterwithmods:material:12",
+    "category": "innovation_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/burn/cauldron"
+			]
+		}
+    ]
+}

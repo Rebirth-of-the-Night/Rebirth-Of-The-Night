@@ -1,0 +1,24 @@
+{
+    "name": "Aether Machines",
+    "icon": "aether_legacy:zanite_gemstone",
+    "category": "innovation_utilities",
+    "advancement": "triumph:advancements/progression/aether/enterAether",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "aether_legacy:freezer",
+            "text": ""
+        },
+        {
+            "type": "crafting",
+            "recipe": "aether_legacy:enchanter",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

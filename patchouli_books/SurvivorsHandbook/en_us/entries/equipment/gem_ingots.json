@@ -2,6 +2,7 @@
     "name": "Gem Ingots",
     "icon": "contenttweaker:four_gem_ingots",
     "category": "equipment",
+    "advancement": "triumph:advancements/progression/nether/gems",
     "pages": [
       {
         "type": "text",

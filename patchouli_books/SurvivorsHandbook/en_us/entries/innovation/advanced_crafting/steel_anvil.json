@@ -1,0 +1,19 @@
+{
+    "name": "Steel Anvil",
+    "icon": "betterwithmods:steel_anvil",
+    "category": "innovation_advanced_crafting",
+    "advancement": "triumph:advancements/ores/crudeSteel",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:steel anvil",
+            "text": ""
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/metallurgy/steel"
+			]
+		}
+    ]
+}

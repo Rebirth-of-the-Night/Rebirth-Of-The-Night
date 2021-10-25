@@ -1,0 +1,36 @@
+{
+    "name": "Windpower",
+    "icon": "betterwithmods:axle_generator:0",
+    "category": "innovation_mechpower",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A very renewable way to generate power is with air currents through a windmill. As long as I am outside in the $(thing)Overworld$(), there's always a surplus of wind energy I can utilize to power my machines."
+        },
+        {
+            "type": "text",
+            "text": "I need to take care that I don't try to take power from the windmill while it is raining or storming in case one of the $(l:innovation/mechpower/gearbox)gearboxes$() it's connected to will break."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/windmill",
+            "text": "The classical windmill. More power is generated at higher elevations."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/waterwheel",
+            "text": "A vertical windmill variation. It is possible to use underground but higher elevations generate more power."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:bamboo_chime:0",
+            "text": "This bamboo chime sends out a signal under stormy conditions"
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/mechpower/gearbox"
+			]
+		}
+    ]
+}
