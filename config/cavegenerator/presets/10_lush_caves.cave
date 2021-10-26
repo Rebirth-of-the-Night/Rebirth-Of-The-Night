@@ -1,4 +1,7 @@
 {
+  imports: common_values.cave::NATURAL_STONE
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: true
   biomes: {
     names: [
       minecraft:forest
@@ -22,40 +25,91 @@
       biomesoplenty:woodland
     ]
   }
-  wallDecorators: [
-    # Moss walls and surfaces.
+  caverns: {
+    height: [ 16, 58 ]
+    generators: {
+      frequency: 0.015
+      gain: 0.4
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 0.75
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+      threshold: -0.4
+      stretch: 0.58
+    }
+  }
+  inner: [
     {
-      states: rotn_blocks:cave_moss
-      matchers: [
-        stone
-        undergroundbiomes:sedimentary_stone
-        undergroundbiomes:sedimentary_stone:1
-        undergroundbiomes:sedimentary_stone:2
-        undergroundbiomes:sedimentary_stone:3
-        undergroundbiomes:sedimentary_stone:4
-        undergroundbiomes:sedimentary_stone:5
-        undergroundbiomes:sedimentary_stone:6
-        undergroundbiomes:sedimentary_stone:7
-        undergroundbiomes:metamorphic_stone
-        undergroundbiomes:metamorphic_stone:1
-        undergroundbiomes:metamorphic_stone:2
-        undergroundbiomes:metamorphic_stone:3
-        undergroundbiomes:metamorphic_stone:4
-        undergroundbiomes:metamorphic_stone:5
-        undergroundbiomes:metamorphic_stone:6
-        undergroundbiomes:metamorphic_stone:7
-        undergroundbiomes:igneous_stone
-        undergroundbiomes:igneous_stone:1
-        undergroundbiomes:igneous_stone:2
-        undergroundbiomes:igneous_stone:3
-        undergroundbiomes:igneous_stone:4
-        undergroundbiomes:igneous_stone:5
-        undergroundbiomes:igneous_stone:6
-        undergroundbiomes:igneous_stone:7
+      wallDecorators: [
+        # Moss walls and surfaces.
+        {
+          states: rotn_blocks:cave_moss
+          matchers: [
+            stone
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:igneous_stone
+            undergroundbiomes:igneous_stone:1
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:4
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            rotn_blocks:cave_moss
+          ]
+          height: [ 16, 64 ]
+          directions: all
+          placement: EMBED
+          integrity: 0.8
+        }
       ]
-      directions: all
-      height: [ 16, 64 ]
-      integrity: 0.55
+    }
+    {
+      stalactites: [
+        # verrybines.
+        {
+          type: stalactite
+          state: rotn_blocks:verribyne_0
+          size: medium
+          length: [ 1, 7 ]
+          height: [ 8, 55 ]
+          matchers: rotn_blocks:cave_moss
+          chance: 0.9
+          region: {}
+        }
+        # Rare green magicite in the ceiling (what makes the underground be so populated).
+        {
+          type: stalactite
+          state: quark:crystal_pane:4
+          size: small
+          length: [ 1, 3 ]
+          height: [ 20, 40 ]
+		  matchers: rotn_blocks:cave_moss
+          chance: 0.1
+          region: {
+            frequency: 0.0125
+            threshold: -0.19999999999999996
+          }
+        }
+      ]
     }
   ]
 }

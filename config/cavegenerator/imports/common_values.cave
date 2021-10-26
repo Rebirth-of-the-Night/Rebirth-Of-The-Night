@@ -251,8 +251,10 @@
     iceandfire:chared_stone
     defiledlands:stone_defiled
     rotn_blocks:scuttling_block
+    rotn_blocks:cave_moss
     minecraft:stone
     minecraft:dirt
+    minecraft:dirt:2
     minecraft:grass
     biomesoplenty:dirt:0
     biomesoplenty:dirt:1

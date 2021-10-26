@@ -27,6 +27,19 @@ Dropt.list("pile_dirt_slab")
        	   .items([<betterwithmods:dirt_pile>], Dropt.range(2))
       )
   );
+Dropt.list("pile_rocky_dirt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:rocky_dirt"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "shovel;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<betterwithmods:dirt_pile>,<pyrotech_compat:rock_sedimentary:1>], Dropt.range(2))
+      )
+  );
 Dropt.list("pile_sand")
 
   .add(Dropt.rule()

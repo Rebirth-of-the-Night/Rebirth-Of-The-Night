@@ -1,9 +1,32 @@
 {
   imports: common_values.cave::NATURAL_STONE
+  biomes: {
+    names: [
+      minecraft:forest
+      minecraft:forest_hills
+      twilightforest:twilight_glacier
+      minecraft:birch_forest
+      minecraft:birch_forest_hills
+      minecraft:roofed_forest
+      minecraft:redwood_taiga
+      minecraft:redwood_taiga_hills
+      minecraft:mutated_forest
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+      biomesoplenty:eucalyptus_forest
+      biomesoplenty:grove
+      biomesoplenty:maple_woods
+      biomesoplenty:mystic_grove
+      biomesoplenty:orchard
+      biomesoplenty:seasonal_forest
+      biomesoplenty:woodland
+    ]
+  }
+  blacklistBiomes: true
   replaceableBlocks: $NATURAL_STONE
   replaceDecorators: true
   caverns: {
-    enabled: true # Removed in 1.0. You can delete this field.
     height: [ 16, 58 ]
     generators: {
       frequency: 0.015
