@@ -2,6 +2,7 @@
   "name": "Fiber Crops",
   "icon": "pyrotech:material:2",
   "category": "agriculture_crops",
+  "read_by_default": "true",
   "pages": [
 	{
 	  "type": "item_list_spotlight",

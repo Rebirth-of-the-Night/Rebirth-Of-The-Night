@@ -2,6 +2,7 @@
   "name": "Early Shelter",
   "icon": "minecraft:cobblestone",
   "category": "survival_shelter",
+  "read_by_default": "true",
   "pages": [
 	{
       "type": "text",

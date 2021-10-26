@@ -2,6 +2,7 @@
     "name": "Multipurpose Stone Anvil",
     "icon": "pyrotech:anvil_granite",
     "category": "innovation_advanced_crafting",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "spotlight",

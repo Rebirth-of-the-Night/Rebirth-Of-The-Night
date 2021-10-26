@@ -2,6 +2,7 @@
     "name": "Filtered Hopper",
     "icon": "betterwithmods:single_machine:2",
     "category": "innovation_light_machines",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "crafting",

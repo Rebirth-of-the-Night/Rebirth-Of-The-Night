@@ -2,6 +2,7 @@
   "name": "The Basics of Gathering",
   "icon": "minecraft:wheat",
   "category": "survival_gathering",
+  "read_by_default": "true",
   "pages": [
     {
       "type": "text",

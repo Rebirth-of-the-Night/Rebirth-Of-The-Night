@@ -2,6 +2,8 @@
     "name": "Leather",
     "icon": "minecraft:leather",
     "category": "innovation_materials",
+    "advancement": "triumph:advancements/WIP",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "crafting",

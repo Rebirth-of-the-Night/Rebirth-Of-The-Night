@@ -3,6 +3,7 @@
     "icon": "minecraft:rotten_flesh",
     "category": "slayers_journal_mobs",
     "sortnum": 1,
+    "read_by_default": "true",
     "pages": [
         {
             "type": "text",

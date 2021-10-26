@@ -2,6 +2,7 @@
     "name": "Screw Pump",
     "icon": "betterwithmods:screw_pump",
     "category": "innovation_burn",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "crafting",

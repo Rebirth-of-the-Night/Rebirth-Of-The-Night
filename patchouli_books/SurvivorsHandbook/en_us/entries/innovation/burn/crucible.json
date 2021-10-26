@@ -2,6 +2,7 @@
     "name": "Crucible",
     "icon": "betterwithmods:cooking_pot:0",
     "category": "innovation_burn",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "kiln_spotlight",

@@ -2,6 +2,7 @@
   "name": "Wares and Pottery",
   "icon": "rustic:vase",
   "category": "innovation",
+  "read_by_default": "true",
   "pages": [
     {
       "type": "text",

@@ -3,6 +3,7 @@
   "name": "Hawthorne Berries",
   "icon": "biomesoplenty:berries",
   "category": "survival_gathering",
+  "read_by_default": "true",
   "pages": [
 	{
       "type": "text",
