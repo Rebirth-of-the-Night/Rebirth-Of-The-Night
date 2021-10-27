@@ -1181,6 +1181,15 @@ rocky_dirt.setBlockResistance(5.0);
 rocky_dirt.setToolLevel(1);
 rocky_dirt.register();
 
+var weathered_dirt = VanillaFactory.createBlock("weathered_dirt", <blockmaterial:Ground>);
+weathered_dirt.setCreativeTab(<creativetab:rotn_blocks>);
+weathered_dirt.setBlockSoundType(<soundtype:ground>);
+weathered_dirt.setToolClass("shovel");
+weathered_dirt.setBlockHardness(4.0);
+weathered_dirt.setBlockResistance(5.0);
+weathered_dirt.setToolLevel(1);
+weathered_dirt.register();
+
 // sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);
 n_copper_sandstone.setCreativeTab(<creativetab:rotn_blocks>);

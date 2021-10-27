@@ -5,3 +5,4 @@ Loose Underground Biomes bricks // resources\contenttweaker\textures\blocks\loos
     X = andesite/basalt/black_granite/blueschist/chalk/chert/dacite/dolomite/eclogite/gabbro/gneiss/greenschist/greywacke/komatiite
 Loose Adobe bricks // resources\contenttweaker\textures\blocks\loose_bricks // loose_adobe_bricks.png // Alsender  - Earthworks - adobe bricks
 Furnace // oresources\minecraft\textures\block // furnace_dry_fitted furnace_front_on furnace_front_off // Alsender  - Earthworks - dry fitted stone
+Weathered Dirt // resources\contenttweaker\textures\blocks // weathered_dirt // https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis
