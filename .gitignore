@@ -98,7 +98,6 @@ config/cavegenerator/REFERENCE.cave
 config/cavegenerator/TUTORIAL.cave
 config/deadmanssatchel/DIM#.example.json
 config/growthcraft/*/*.default
-config/randomportals/
 mods/memory_repo/
 mods/OptiFine*
 mods/Sound-Physics*
