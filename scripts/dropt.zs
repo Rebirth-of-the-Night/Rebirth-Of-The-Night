@@ -540,6 +540,8 @@ Dropt.list("tall_grass_base_drops")
 
   .add(Dropt.rule()
       .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(4200)) // drops nothing if selected
