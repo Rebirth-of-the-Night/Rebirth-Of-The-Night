@@ -4,8 +4,9 @@
     "category": "exploration_tools",
     "pages": [
         {
-            "type": "text",
-            "text": "For any hard-to-reach places that I can't light up, I can use a glaretorch to shoot a torch like a projectile to place it on the wall. Or on someone's face."
+            "type": "crafting",
+            "recipe": "crafttweaker:glare_small",
+            "text": "For any hard-to-reach places that I can't light up, I can use a $(thing)glaretorch$() to shoot a torch like a projectile to plant on a wall.$(br2)Or on someone's face."
         },
         {
             "type": "relations",

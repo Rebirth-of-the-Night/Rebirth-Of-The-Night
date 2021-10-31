@@ -2,6 +2,7 @@
     "name": "Gearbox & Axles",
     "icon": "betterwithmods:wooden_gearbox",
     "category": "innovation_mechpower",
+    "sortnum": 3,
     "read_by_default": "true",
     "pages": [
         {

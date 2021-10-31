@@ -2,12 +2,26 @@
     "name": "Stoked Flame",
     "icon": "biomesoplenty:blue_fire",
     "category": "innovation_burn",
+    "sortnum": 5,
     "advancement": "triumph:advancements/progression/nether/enterNether",
     "pages": [
         {
+            "type": "text",
+            "text": "Some materials require a much stronger heat source in order to properly form it.$(br2)A normal fire source will not be able to reach such high temperatures so I must use a stoked flame by fueling a stronger fire.$(br2)A strong fire which won't easily go out can be generated from a $(thing)hibachi$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:blocks/redstone/hibachi",
+            "text": "A controlled fire source which I can toggle on and off by redstone activation.$(br2)Its main advantage is its ability to sustain much stronger fires capable of being stoked by a $(thing)bellows$()."
+        },
+        {
             "type": "crafting",
             "recipe": "betterwithmods:blocks/mech/bellows",
-            "text": ""
+            "text": "Now with a bellows, I can blow more oxygen into the $(thing)hibachi$() fire in order to have it grow stronger.$(br2)This process must be done continuously so I need to activate it on and off periodically."
+        },
+        {
+            "type": "text",
+            "text": "A fully flamed stoked flame set-up can be made by firing 9 hibachis in a 3x3 area below a cauldron/crucible with a single bellows aimed at the center of the 3x3 hibachi fires."
         },
         {
 			"type": "relations",

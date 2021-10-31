@@ -2,6 +2,7 @@
     "name": "Kiln",
     "icon": "pyrotech:brick_kiln",
     "category": "innovation_burn",
+	"sortnum": 1,
     "read_by_default": "true",
     "pages": [
 		{

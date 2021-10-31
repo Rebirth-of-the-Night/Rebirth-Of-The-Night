@@ -1,12 +1,17 @@
 {
-    "name": "Twilight Forest",
-    "icon": "twilightforest:firefly",
-    "category": "exploration_dimensions",
-    "advancement": "triumph:advancements/progression/twilight/enterTwilight",
-    "pages": [
+  "name": "Twilight Forest",
+  "icon": "twilightforest:firefly",
+  "category": "exploration_dimensions",
+  "sortnum": 5,
+  "advancement": "triumph:advancements/progression/twilight/enterTwilight",
+  "pages": [
     {
-        "type": "text",
-        "text": "Just when I thought I'd conquered everything this universe had to offer, it seems there was one more challenge: The Twilight Forest. Though the outside is relatively safe, the true danger of the Twilight Forest lies within its unimaginably lethal dungeons and mythical beings. Attempting to challenge any of them without significant preparation is simply maddening."
-      }
-    ]
-  }
+      "type": "text",
+      "text": "Just when I thought I'd conquered everything this universe had to offer, it seems there was but only one more challenge:$(br)The Twilight Forest.$(br2)Though the outside is relatively safe, the true danger of the Twilight Forest lies within its unimaginably lethal dungeons and mythical beings."
+    },
+    {
+      "type": "text",
+      "text": "Attempting to challenge any of them without significant preparation is simply maddening."
+    }
+  ]
+}

@@ -4,8 +4,14 @@
     "category": "exploration_tools",
     "pages": [
         {
-            "type": "text",
+            "type": "spotlight",
+            "item": "aether_legacy:golden_parachute",
             "text": "Though can only be effectively used once, parachutes made from aerclouds will be able to turn any lethal fall to a safe landing."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:cold_parachute",
+            "recipe2": "crafttweaker:golden_parachute"
         },
         {
             "type": "relations",

@@ -2,6 +2,7 @@
     "name": "Millstone",
     "icon": "betterwithmods:single_machine:0",
     "category": "innovation_light_machines",
+    "sortnum": 1,
     "read_by_default": "true",
     "pages": [
         {

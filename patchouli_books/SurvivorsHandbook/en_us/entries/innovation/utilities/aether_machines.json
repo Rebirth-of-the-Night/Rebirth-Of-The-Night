@@ -7,12 +7,12 @@
         {
             "type": "crafting",
             "recipe": "aether_legacy:freezer",
-            "text": ""
+            "text": "A freezing machine constructed out of materials from the aether which I could use to freeze water to create ice."
         },
         {
             "type": "crafting",
             "recipe": "aether_legacy:enchanter",
-            "text": ""
+            "text": "A magic repairer machine which can be used to repair my tools and armor with the power of ambrosium shards or electrum."
         },
         {
 			"type": "relations",

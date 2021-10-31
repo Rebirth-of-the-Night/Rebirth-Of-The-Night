@@ -2,6 +2,7 @@
     "name": "Steel Anvil",
     "icon": "betterwithmods:steel_anvil",
     "category": "innovation_advanced_crafting",
+    "sortnum": 3,
     "advancement": "triumph:advancements/ores/crudeSteel",
     "pages": [
         {

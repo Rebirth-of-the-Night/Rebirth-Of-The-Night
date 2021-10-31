@@ -4,14 +4,19 @@
     "category": "exploration_tools",
     "pages": [
         {
-            "type": "text",
-            "text": "Being prepared for all types of situations needs all types of tools, and the toolbelt is just what I need for quickly accessing my array of utilities at any time."
+            "type": "spotlight",
+            "item": "toolbelt:belt",
+            "text": "Being prepared for all types of situations needs every type of tools, and the toolbelt is just what I need for quickly accessing my array of utilities quickly.$(br2)$(o)By default, the tools can be accessed via the \"`\" key and can be combined with belt pouches in an anvil to hold up to 9 tools"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped108294730",
+            "recipe2": "crafttweaker:ct_shaped370654776"
         },
         {
             "type": "relations",
             "entries": [
-                "adapt/twine",
-                "gather/sticks"
+                "innovation/materials/leather"
             ]
         }
     ]

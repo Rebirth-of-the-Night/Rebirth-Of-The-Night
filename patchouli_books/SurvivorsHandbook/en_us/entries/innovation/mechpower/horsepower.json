@@ -2,6 +2,7 @@
     "name": "Horsepower",
     "icon": "minecraft:iron_horse_armor",
     "category": "innovation_mechpower",
+    "sortnum": 2,
     "read_by_default": "true",
     "pages": [
         {

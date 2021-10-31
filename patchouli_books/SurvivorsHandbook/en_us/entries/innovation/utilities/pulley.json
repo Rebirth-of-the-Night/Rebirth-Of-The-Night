@@ -6,8 +6,8 @@
     "pages": [
         {
             "type": "crafting",
-            "recipe": "betterwithmods:blocks/mech/single_machine:1",
-            "text": ""
+            "recipe": "betterwithmods:blocks/mech/single_machine_1",
+            "text": "A mechanical device which will place ropes directly downward for a safe vertical traversal into the abyss."
         },
         {
 			"type": "relations",

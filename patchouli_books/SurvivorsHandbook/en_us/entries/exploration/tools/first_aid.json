@@ -2,10 +2,17 @@
     "name": "First Aid",
     "icon": "scalinghealth:healingitem:1",
     "category": "exploration_tools",
+    "read_by_default": "true",
     "pages": [
         {
             "type": "text",
-            "text": "Carrying first-aid supplies will be handy in times of emergencies. They take some time to use so I need to make sure I'm in a safe area before applying."
+            "text": "Carrying first-aid supplies will be handy in times of emergencies.$(br2)They take some time to use, so I need to make sure I'm in a safe area before applying.$(br2)$(o)Only 1 method of crafting is shown after, but there are various ways to craft with moss, soap, glistering melon, etc."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:aloe_dressing",
+            "recipe2": "crafttweaker:scalinghealth_medkit_5",
+            "text": "Only 1 method of crafting is shown but there are many ways to craft"
         },
         {
             "type": "relations",

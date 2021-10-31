@@ -2,6 +2,7 @@
     "name": "Dryer",
     "icon": "pyrotech:tinder",
     "category": "innovation_heavy_machines",
+    "sortnum": 1,
     "read_by_default": "true",
     "pages": [
         {

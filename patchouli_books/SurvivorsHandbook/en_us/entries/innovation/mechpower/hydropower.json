@@ -2,6 +2,7 @@
     "name": "Hydropower",
     "icon": "betterwithmods:axle_generator:1",
     "category": "innovation_mechpower",
+    "sortnum": 5,
     "read_by_default": "true",
     "pages": [
         {

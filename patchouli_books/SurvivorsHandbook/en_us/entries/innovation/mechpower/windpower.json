@@ -2,6 +2,7 @@
     "name": "Windpower",
     "icon": "betterwithmods:axle_generator:0",
     "category": "innovation_mechpower",
+    "sortnum": 4,
     "read_by_default": "true",
     "pages": [
         {

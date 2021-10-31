@@ -2,6 +2,7 @@
     "name": "Ware Crafting Table",
     "icon": "artisanworkstumps:workstump_potter",
     "category": "innovation_advanced_crafting",
+    "sortnum": 1,
     "read_by_default": "true",
     "pages": [
         {

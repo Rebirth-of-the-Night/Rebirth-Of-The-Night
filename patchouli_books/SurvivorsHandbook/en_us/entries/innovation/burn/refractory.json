@@ -2,6 +2,7 @@
   "name": "Refractory Materials",
   "icon": "pyrotech:material:5",
   "category": "innovation_burn",
+  "sortnum": 2,
   "read_by_default": "true",
   "pages": [
     {
