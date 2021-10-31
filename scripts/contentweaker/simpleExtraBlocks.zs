@@ -1068,49 +1068,49 @@ loose_big_permafrost_bricks.register();
 var big_limestone_bricks = VanillaFactory.createBlock("big_limestone_bricks", <blockmaterial:Rock>);
 big_limestone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_limestone_bricks.setToolLevel(1);
-big_limestone_bricks.setBlockHardness(14.5);
+big_limestone_bricks.setBlockHardness(18);
 big_limestone_bricks.register();
 // Chalk
 var big_chalk_bricks = VanillaFactory.createBlock("big_chalk_bricks", <blockmaterial:Rock>);
 big_chalk_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_chalk_bricks.setToolLevel(1);
-big_chalk_bricks.setBlockHardness(14.5);
+big_chalk_bricks.setBlockHardness(18);
 big_chalk_bricks.register();
 // Shale
 var big_shale_bricks = VanillaFactory.createBlock("big_shale_bricks", <blockmaterial:Rock>);
 big_shale_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_shale_bricks.setToolLevel(1);
-big_shale_bricks.setBlockHardness(14.5);
+big_shale_bricks.setBlockHardness(18);
 big_shale_bricks.register();
 // Siltstone
 var big_siltstone_bricks = VanillaFactory.createBlock("big_siltstone_bricks", <blockmaterial:Rock>);
 big_siltstone_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_siltstone_bricks.setToolLevel(1);
-big_siltstone_bricks.setBlockHardness(14.5);
+big_siltstone_bricks.setBlockHardness(18);
 big_siltstone_bricks.register();
 // Lignite
 var big_lignite_bricks = VanillaFactory.createBlock("big_lignite_bricks", <blockmaterial:Rock>);
 big_lignite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_lignite_bricks.setToolLevel(1);
-big_lignite_bricks.setBlockHardness(14.5);
+big_lignite_bricks.setBlockHardness(18);
 big_lignite_bricks.register();
 // Dolomite
 var big_dolomite_bricks = VanillaFactory.createBlock("big_dolomite_bricks", <blockmaterial:Rock>);
 big_dolomite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_dolomite_bricks.setToolLevel(1);
-big_dolomite_bricks.setBlockHardness(14.5);
+big_dolomite_bricks.setBlockHardness(18);
 big_dolomite_bricks.register();
 // Greywacke
 var big_greywacke_bricks = VanillaFactory.createBlock("big_greywacke_bricks", <blockmaterial:Rock>);
 big_greywacke_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_greywacke_bricks.setToolLevel(1);
-big_greywacke_bricks.setBlockHardness(14.5);
+big_greywacke_bricks.setBlockHardness(18);
 big_greywacke_bricks.register();
 // Chert
 var big_chert_bricks = VanillaFactory.createBlock("big_chert_bricks", <blockmaterial:Rock>);
 big_chert_bricks.setCreativeTab(<creativetab:rotn_blocks>);
 big_chert_bricks.setToolLevel(1);
-big_chert_bricks.setBlockHardness(14.5);
+big_chert_bricks.setBlockHardness(18);
 big_chert_bricks.register();
 
 // Tapestry Wool

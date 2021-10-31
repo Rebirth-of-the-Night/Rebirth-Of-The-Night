@@ -48,6 +48,7 @@ JEI.removeAndHide(<betterwithmods:leather_tanned_pants>);
 
 JEI.removeAndHide(<betterwithmods:shaft>);
 JEI.removeAndHide(<betterwithmods:material>);
+JEI.removeAndHide(<betterwithmods:material:48>);
 JEI.removeAndHide(<betterwithmods:material:44>);
 
 JEI.removeAndHide(<betterwithmods:material:40>);

@@ -5,8 +5,6 @@ import mods.arcanearchives.GCT;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-JEI.removeAndHide(<craftingcraft:portable_crafting_table:1>);
-
 JEI.removeAndHide(<requious:red_emitter_basic>);
 JEI.removeAndHide(<requious:red_emitter_advanced>);
 JEI.removeAndHide(<requious:liquid_emitter>);
