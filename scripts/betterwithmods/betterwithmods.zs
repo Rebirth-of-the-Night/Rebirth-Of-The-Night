@@ -47,6 +47,7 @@ JEI.removeAndHide(<betterwithmods:leather_tanned_pants>);
 
 
 JEI.removeAndHide(<betterwithmods:shaft>);
+JEI.removeAndHide(<betterwithmods:material>);
 JEI.removeAndHide(<betterwithmods:material:44>);
 
 JEI.removeAndHide(<betterwithmods:material:40>);
@@ -122,6 +123,279 @@ recipes.addShaped("hardened_nether_sludge", <betterwithmods:aesthetic:2>, [
     [<betterwithmods:nether_clay>, <betterwithmods:nether_clay>]
 ]);
 
+var latch = <betterwithmods:material:34>;
+var copper = <ore:ingotCopper>;
+var gnugg = <minecraft:gold_nugget>;
+var rstone = <minecraft:redstone>;
+var plank_wood = <ore:plankWood>;
+var rope = <betterwithmods:rope>;
+var cattail = <biomesoplenty:plant_1:4>; 
+var wicker = <betterwithmods:wicker>;
+var driedf = <pyrotech:tinder>;
+var rice = <harvestcraft:riceitem>;
+var millstone = <betterwithmods:single_machine>;
+var hellfire = <betterwithmods:material:17>;
+var heating = <betterwithmods:material:27>;
+var crstone = <pyrotech:material:36>;
+var sail = <betterwithmods:material:11>;
+var cloth = <betterwithmods:material:4>;
+var slab_wood = <ore:slabWood>;
+var cooking_cauldron = <betterwithmods:cooking_pot:1>;
+var cauldron = <minecraft:cauldron>;
+var bone = <ore:bone>;
+var bucket = <pyrotech:bucket_wood>|<pyrotech:bucket_clay>|<pyrotech:bucket_stone>|<minecraft:bucket>;
+var moulding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+var siding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
+var gear_wood = <pyrotech:cog_wood>;
+var gear_steel = <pyrotech:cog_bone>;
+var generic_metal = <ore:genericMetal>;
+var archimedes = <betterwithmods:material:24>;
+var glue = <ore:glue>;
+var blade = <pyrotech:sawmill_blade_iron>;
+var belt = <ore:hideBelt>;
+var stone = <ore:stone>;
+var timber = <earthworks:item_timber>;
+var dense_redstone = <pyrotech:material:36>;
+var cobblestone = <ore:cobblestone>;
+var stick = <ore:stickWood>;
+var durable_fiber = <ore:durableFiber>;
+var tanned_hide = <ore:hideTanned>;
+var paper = <ore:paper>;
+var spring = <betterwithmods:material:49>;
+// guide
+recipes.remove(<betterwithmods:manual>);
+recipes.addShaped("the_book_of_single", <betterwithmods:manual>, [
+    [paper, paper],
+    [paper, gear_wood]
+]);
+// gear wood
+recipes.remove(gear_wood);
+recipes.addShaped("gear_wood_block", gear_wood*4, [
+    [stick, plank_wood, stick],
+    [plank_wood, null, plank_wood],
+	[stick, plank_wood, stick]
+]);
+recipes.addShaped("gear_wood_siding", gear_wood*4, [
+    [stick, siding_wood, stick],
+    [siding_wood, null, siding_wood],
+	[stick, siding_wood, stick]
+]);
+// pulley
+recipes.remove(<betterwithmods:single_machine:1>);
+recipes.addShaped("pulley_block", <betterwithmods:single_machine:1>, [
+    [plank_wood, generic_metal, plank_wood],
+    [gear_wood, latch, gear_wood],
+	[plank_wood, generic_metal, plank_wood]
+]);
+recipes.addShaped("pulley_siding", <betterwithmods:single_machine:1>, [
+    [siding_wood, generic_metal, siding_wood],
+    [gear_wood, latch, gear_wood],
+	[siding_wood, generic_metal, siding_wood]
+]);
+// pump
+recipes.remove(<betterwithmods:screw_pump>);
+recipes.addShaped("pump_block", <betterwithmods:screw_pump>, [
+    [plank_wood, null, plank_wood],
+    [glue, archimedes, glue],
+	[plank_wood, gear_wood, plank_wood]
+]);
+recipes.addShaped("pump_siding", <betterwithmods:screw_pump>, [
+    [siding_wood, null, siding_wood],
+    [glue, archimedes, glue],
+	[siding_wood, gear_wood, siding_wood]
+]);
+// saw
+recipes.remove(<betterwithmods:saw>);
+recipes.addShaped("saw_block", <betterwithmods:saw>, [
+    [null, blade, null],
+    [gear_wood, belt, gear_wood],
+	[plank_wood, gear_wood, plank_wood]
+]);
+recipes.addShaped("saw_siding", <betterwithmods:saw>, [
+    [null, blade, null],
+    [gear_wood, belt, gear_wood],
+	[siding_wood, gear_wood, siding_wood]
+]);
+// stone cutter
+recipes.remove(<futuremc:stonecutter>);
+recipes.addShaped("stone_cutter", <futuremc:stonecutter>,[
+	[timber, blade, timber],
+    [gear_wood, belt, gear_wood],
+	[stone, dense_redstone, stone]
+]);
+// hand crank
+recipes.remove(<betterwithmods:hand_crank>);
+recipes.addShaped("hand_crank", <betterwithmods:hand_crank>,[
+	[null, null, stick],
+    [null, stick, null],
+	[cobblestone, gear_wood, cobblestone]
+]);
+// gearboxes
+recipes.remove(<betterwithmods:wooden_gearbox>);
+recipes.addShaped("gearbox_wood_block", <betterwithmods:wooden_gearbox>, [
+    [plank_wood, gear_wood, plank_wood],
+    [gear_wood, latch, gear_wood],
+	[plank_wood, gear_wood, plank_wood]
+]);
+recipes.addShaped("gearbox_wood_siding", <betterwithmods:wooden_gearbox>, [
+    [siding_wood, gear_wood, siding_wood],
+    [gear_wood, latch, gear_wood],
+	[siding_wood, gear_wood, siding_wood]
+]);
+recipes.addShapeless("gearbox_wood_repair", <betterwithmods:wooden_gearbox>, [<betterwithmods:wooden_broken_gearbox>, gear_wood, gear_wood]);
+recipes.addShapeless("gearbox_steel_repair", <betterwithmods:steel_gearbox>, [<betterwithmods:steel_broken_gearbox>, gear_steel, gear_steel]);
+// mechanical booster rail
+recipes.remove(<betterwithmods:booster>);
+recipes.addShaped("mech_booster_rail_4", <betterwithmods:booster>*4, [
+    [<ore:ingotTin>, gear_wood, <ore:ingotTin>],
+    [<ore:ingotTin>, durable_fiber, <ore:ingotTin>],
+	[<ore:ingotTin>, gear_wood, <ore:ingotTin>]
+]);
+recipes.addShaped("mech_booster_rail_8", <betterwithmods:booster>*8, [
+    [<ore:ingotIron>, gear_wood, <ore:ingotIron>],
+    [<ore:ingotIron>, durable_fiber, <ore:ingotIron>],
+	[<ore:ingotIron>, gear_wood, <ore:ingotIron>]
+]);
+recipes.addShaped("mech_booster_rail_16", <betterwithmods:booster>*16, [
+    [<ore:ingotCrucibleSteel>, gear_wood, <ore:ingotCrucibleSteel>],
+    [<ore:ingotCrucibleSteel>, durable_fiber, <ore:ingotCrucibleSteel>],
+	[<ore:ingotCrucibleSteel>, gear_wood, <ore:ingotCrucibleSteel>]
+]);
+recipes.addShaped("mech_booster_rail_32", <betterwithmods:booster>*32, [
+    [<ore:ingotSoulforgedSteel>, gear_wood, <ore:ingotSoulforgedSteel>],
+    [<ore:ingotSoulforgedSteel>, durable_fiber, <ore:ingotSoulforgedSteel>],
+	[<ore:ingotSoulforgedSteel>, gear_wood, <ore:ingotSoulforgedSteel>]
+]);
+// bellows
+recipes.remove(<betterwithmods:bellows>);
+recipes.addShaped("bellows_block", <betterwithmods:bellows>, [
+    [plank_wood, plank_wood, plank_wood],
+    [tanned_hide, tanned_hide, tanned_hide],
+	[belt, gear_wood, belt]
+]);
+recipes.addShaped("bellows_siding", <betterwithmods:bellows>, [
+    [siding_wood, siding_wood, siding_wood],
+    [tanned_hide, tanned_hide, tanned_hide],
+	[belt, gear_wood, belt]
+]);
+recipes.remove(<betterwithmods:bellows:1>);
+recipes.addShaped("bellows_spring_block", <betterwithmods:bellows:1>, [
+    [null, <minecraft:clock>, null],
+    [spring, <betterwithmods:bellows>, spring],
+	[null, gear_steel, null]
+]);
+// redstone Latch
+recipes.remove(<betterwithmods:material:34>);
+recipes.addShaped("Latch", latch,
+  [[null,gnugg,null],
+  [gnugg,copper,gnugg],
+  [null,rstone,null]]);
+// funnier rope
+recipes.remove(<betterwithmods:rope>);
+recipes.addShaped("benign_rope", rope*2,
+  [[durable_fiber,durable_fiber],
+  [durable_fiber,durable_fiber],
+  [durable_fiber,durable_fiber]]);
+
+recipes.remove(<betterwithmods:bucket>);
+recipes.addShaped("well_bucket", <betterwithmods:bucket>,
+  [[<betterwithmods:rope>],
+  [<ore:genericMetal>,<pyrotech:bucket_stone>,<ore:genericMetal>],
+  [<ore:genericMetal>]]);
+
+recipes.addShaped("wicker1", wicker*2,
+  [[cattail,cattail],
+  [cattail,cattail]]);
+  
+recipes.addShaped("wicker2", wicker*2,
+  [[driedf,driedf,driedf],
+  [driedf,driedf,driedf]]);
+  
+recipes.addShaped("wicker3", wicker*3,
+  [[rice,rice,rice],
+  [rice,rice,rice]]);
+    	
+recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers");
+recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
+[<betterwithmods:rope>]);
+
+// fitting mill stone
+recipes.remove(<betterwithmods:single_machine>);
+recipes.addShaped("millstone", millstone,
+  [[cobblestone, <ore:stoneSlab>, cobblestone],
+  [<ore:rock>, gear_wood, <ore:rock>],
+  [cobblestone, <ore:stoneSlab>, cobblestone]]);
+
+// powerful hibachi
+recipes.removeByRecipeName("betterwithmods:blocks/redstone/hibachi");
+recipes.addShaped("blocks/redstone/hibachi", <betterwithmods:hibachi>,
+  [[hellfire,hellfire,hellfire],
+  [stone,heating,stone],
+  [stone,crstone,stone]]);
+ 
+// archimedes screw
+recipes.removeByRecipeName("betterwithmods:items/material/material.screw");
+recipes.addShaped("archimedes_screw", archimedes*3,
+  [[<ore:genericMetal>,<ore:genericMetal>,null],
+  [null,<ore:genericMetal>,<ore:genericMetal>],
+  [<ore:genericMetal>,<ore:genericMetal>,null]]);
+  
+// dynamite
+recipes.removeShapeless(<betterwithmods:dynamite>);
+
+recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>*64, 
+[<ore:paper>, <ore:paper>, <ore:paper>, 
+<betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);
+
+// put wind sail recipe using slabs above recipe using siding so noobs dont ask questions
+recipes.remove(<betterwithmods:material:11>);
+recipes.addShaped("Wind Sail Slab", <betterwithmods:material:11>,
+  [[cloth,cloth,cloth],
+  [cloth,cloth,cloth],
+  [slab_wood,slab_wood,slab_wood]]);
+
+recipes.addShaped("Wind Sail Siding", <betterwithmods:material:11>,
+  [[cloth,cloth,cloth],
+  [cloth,cloth,cloth],
+  [siding_wood,siding_wood,siding_wood]]); 
+
+// cauldron
+recipes.remove(<betterwithmods:cooking_pot:1>);
+recipes.addShaped("cooking_cauldron", cooking_cauldron,
+  [[bone],
+  [bucket],
+  [cauldron]]);
+
+// turntable uses Moulding
+recipes.remove(<betterwithmods:single_machine:3>);
+recipes.addShaped("turntable", <betterwithmods:single_machine:3>,
+  [[moulding_wood,moulding_wood,moulding_wood],
+  [<ore:stone>,<minecraft:clock>,<ore:stone>],
+  [<ore:stone>,gear_wood,<ore:stone>]]);
+
+// vine Trap + Mossy
+recipes.remove(<betterwithmods:vine_trap>);
+recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,
+  [[null,null,null],
+  [<ore:vine>,<ore:vine>,<ore:vine>],
+  [null,null,null]]);
+
+recipes.remove(<fairylights:garland>);
+recipes.addShaped("vine_garland", <fairylights:garland>,
+  [[null,null,null],
+  [<ore:ingotIron>,<ore:vine>,<ore:ingotIron>],
+  [null,null,null]]);
+
+recipes.remove(<betterwithmods:raw_pastry:0>);
+recipes.addShaped("cake_batter",<betterwithmods:raw_pastry:0>,[
+  [<ore:listAllsugar>,<ore:listAllsugar>,<ore:listAllsugar>],
+  [<ore:listAllmilk>,<ore:listAllegg>,<ore:listAllmilk>],
+  [<ore:foodFlour>,<ore:foodFlour>,<ore:foodFlour>]
+]);
+
+recipes.remove(<betterwithmods:raw_pastry:1>);
+recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<minecraft:pumpkin>,<ore:listAllsugar>,<ore:listAllegg>,<ore:foodFlour>]);
+
 val arrayMoulding = [<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}})] as IItemStack[];
 
 val arrayWindChime = [<betterwithmods:metal_chime:0>,<betterwithmods:metal_chime:1>,<betterwithmods:metal_chime:2>,<betterwithmods:metal_chime:3>,<betterwithmods:metal_chime:4>,<betterwithmods:metal_chime:5>] as IItemStack[];
@@ -154,7 +428,7 @@ recipes.addShaped("broadhead_arrow", <betterwithmods:broadhead_arrow>, [
 recipes.remove(<betterwithmods:single_machine:2>);
 recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[
     [null,<chutes:chute_wood>,null],
-    [<betterwithmods:material:0>,<quark:chute>,<betterwithmods:material:0>]
+    [gear_wood,<quark:chute>,gear_wood]
 ]);
 
 val haft = <betterwithmods:material:36>;
@@ -168,7 +442,7 @@ recipes.addShaped("glued_haft",haft*2,[
 ]);
 recipes.addShaped("sewed_haft",haft*2,[
     [<betterwithmods:material:8>],
-    [<ore:durableFiber>],
+    [durable_fiber],
 	[woodMoulding]
 ]);
 
@@ -184,11 +458,7 @@ Cauldron.addUnstoked([<betteranimalsplus:turkey_raw>],[<betteranimalsplus:turkey
 
 Cauldron.addStoked([<betterwithaddons:material:1>*8,<betterwithaddons:material:3>*2,<ore:dung>*8,<betterwithmods:urn:8>],[<betterwithaddons:thorn_rose>,<betterwithmods:urn>]);
 
-// fuckin book
-
-recipes.addShapeless("BWM Manual", <betterwithmods:manual>,[<betterwithmods:material>,<minecraft:book>]);
-
-//Horse Upgrades
+// horse Upgrades
 Cauldron.addUnstoked([<biomesoplenty:berries>*32,<primitivemobs:camouflage_dye>],[<cyclicmagic:horse_upgrade_variant>]);
 Cauldron.addUnstoked([<biomesoplenty:berries>*6,<ore:slimeball>*4],[<cyclicmagic:horse_upgrade_jump>]);
 Cauldron.addUnstoked([<biomesoplenty:berries>*4,<ore:listAllsugar>*4],[<cyclicmagic:horse_upgrade_speed>]);

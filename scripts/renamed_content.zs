@@ -40,6 +40,9 @@ import mods.jei.JEI;
 // Minecraft
 <minecraft:chest>.displayName = "Varnished Chest";
 
+// Requious Frakto
+<requious:dryer>.displayName = "Hell Dryer";
+
 // Twilight Forest
 <twilightforest:ironwood_sword>.displayName = "Ironroot Arming Sword";
 <twilightforest:ironwood_hoe>.displayName = "§bIronroot Hoe";

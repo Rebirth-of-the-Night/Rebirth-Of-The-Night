@@ -46,7 +46,6 @@ recipes.remove(<pyrotech:bucket_clay_unfired>);
 recipes.remove(<pyrotech:bucket_clay>);
 recipes.remove(<pyrotech:stash_stone>);
 recipes.remove(<pyrotech:wood_rack>);
-JEI.removeAndHide(<pyrotech:cog_wood>);
 JEI.removeAndHide(<pyrotech:cog_stone>);
 JEI.removeAndHide(<pyrotech:cog_flint>);
 recipes.remove(<pyrotech:cog_bone>); // SFS gear

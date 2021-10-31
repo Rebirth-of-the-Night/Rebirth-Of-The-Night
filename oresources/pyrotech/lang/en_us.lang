@@ -116,10 +116,10 @@ item.pyrotech.sawmill.blade.gold.name=Golden Sawmill Blade
 item.pyrotech.sawmill.blade.diamond.name=Diamond Sawmill Blade
 item.pyrotech.sawmill.blade.obsidian.name=Obsidian Sawmill Blade
 
-item.pyrotech.cog.wood.name=Wooden Cog
+item.pyrotech.cog.wood.name=Wooden Gear
 item.pyrotech.cog.stone.name=Stone Cog
 item.pyrotech.cog.flint.name=Flint Cog
-item.pyrotech.cog.bone.name=Soulforged Steel Gear
+item.pyrotech.cog.bone.name=Steel Gear
 item.pyrotech.cog.iron.name=Iron Cog
 item.pyrotech.cog.gold.name=Golden Cog
 item.pyrotech.cog.diamond.name=Diamond Cog

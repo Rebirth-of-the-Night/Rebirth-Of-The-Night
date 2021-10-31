@@ -79,8 +79,8 @@
   },
   {
     "resourceName": "dryer",
-    "model": "requious:assembly_block",
-    "placeType": "Horizontal",
+    "model": "requious:dryer",
+    "placeType": "Up",
     "hasGUI": true,
     "colorA": {
       "r": 255,

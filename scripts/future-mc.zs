@@ -44,15 +44,7 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-recipes.remove(<futuremc:stonecutter>);
-recipes.addShaped("iron_stone_cutter", <futuremc:stonecutter>,[
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-    [<ore:stone>, <pyrotech:material:36>, <ore:stone>]
-]);
-recipes.addShaped("bronze_stone_cutter", <futuremc:stonecutter>,[
-	[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-    [<ore:stone>, <pyrotech:material:36>, <ore:stone>]
-]);
+//stone cutter recipe in betterwithmods.zs
 
 // Brazier
 recipes.remove(<futuremc:campfire>);

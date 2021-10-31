@@ -84,6 +84,12 @@ Mill.builder()
 .setGrindType("fairylights:cord.stretch")
 .build();
 
+// Spring coiling
+Mill.builder()
+.buildRecipe([<dungeontactics:steel_block>], [<betterwithmods:material:49>])
+.setPriority(3)
+.build();
+
 // Extra bonemeal from fossils
 Mill.builder()
 .buildRecipe([<undergroundbiomes:fossil_piece:*>], [<minecraft:dye:15>*5])

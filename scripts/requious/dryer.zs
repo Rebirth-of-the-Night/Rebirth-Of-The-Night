@@ -52,3 +52,34 @@ var drySpongeJEI = AssemblyRecipe.create(function(container) {
 }).requireItem("input",<minecraft:sponge:1>).requireDuration("duration", 200);
 
 dryer.addJEIRecipe(drySpongeJEI);
+
+// pulp paper
+var pulpPaper1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<minecraft:paper>);
+}).requireItem("input1",<pyrotech:material:25>).requireDuration("input1", 180);
+dryer.addRecipe(pulpPaper1);
+
+var pulpPaper2 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output2",<minecraft:paper>);
+}).requireItem("input2",<pyrotech:material:25>) .requireDuration("input2", 180);
+dryer.addRecipe(pulpPaper2);
+
+var pulpPaper3 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output3",<minecraft:paper>);
+}).requireItem("input3",<pyrotech:material:25>) .requireDuration("input3", 180);
+dryer.addRecipe(pulpPaper3);
+
+var pulpPaper4 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output4",<minecraft:paper>);
+}).requireItem("input4",<pyrotech:material:25>) .requireDuration("input4", 180);
+dryer.addRecipe(pulpPaper4);
+
+dryer.setJEIItemSlot(3,2,"input");
+dryer.setJEIItemSlot(5,2,"output");
+dryer.setJEIDurationSlot(4,2,"duration", dryerProgress);
+ 
+var pulpPaperJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<minecraft:paper>);
+}).requireItem("input",<pyrotech:material:25>).requireDuration("duration", 180);
+
+dryer.addJEIRecipe(pulpPaperJEI);

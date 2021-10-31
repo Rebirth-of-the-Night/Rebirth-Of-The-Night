@@ -17,16 +17,13 @@ recipes.addShaped("Steel Anvil", <betterwithmods:steel_anvil>,[
 	[steel, steel, steel]
 ]);
 
-<ore:gearSteel>.add(<betterwithmods:material:48>);
-<ore:gearSoulforgedSteel>.remove(<betterwithmods:material:48>);
-<ore:gearSoulforgedSteel>.add(<pyrotech:cog_bone>);
+<ore:gearSteel>.add(<pyrotech:cog_bone>);
 
 var leatherBelt = <betterwithmods:material:9>;
 var cSteelNugget = <ore:nuggetSteel>;
 var cSteelIngot = <ore:ingotSteel>;
 var redstoneLatch = <ore:latchRedstone>;
-var steelGear = <ore:gearSteel>;
-var sfsGear = <ore:gearSoulforgedSteel>;
+var steelGear = <pyrotech:cog_bone>;
 var sfsNugget = <ore:nuggetSoulforgedSteel>;
 var sfsIngot = <ore:ingotSoulforgedSteel>;
 
@@ -46,19 +43,12 @@ Anvil.addShaped(<betterwithmods:steel_gearbox>, [
    [cSteelIngot, steelGear, cSteelIngot, cSteelIngot]
 ]);
 
-Anvil.removeShaped(steelGear.firstItem);
-Anvil.addShaped(steelGear.firstItem, [
+Anvil.removeShaped(<betterwithmods:material:48>);
+Anvil.addShaped(steelGear, [
    [null, cSteelNugget, cSteelNugget, null],
    [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
    [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
    [null, cSteelNugget, cSteelNugget, null]
-]);
-
-Anvil.addShaped(sfsGear.firstItem, [
-   [null, sfsNugget, sfsNugget, null],
-   [sfsNugget, sfsIngot, sfsIngot, sfsNugget],
-   [sfsNugget, sfsIngot, sfsIngot, sfsNugget],
-   [null, sfsNugget, sfsNugget, null]
 ]);
 
 recipes.removeByRecipeName("betterwithmods:blocks/mech/fix_steel_gearbox");

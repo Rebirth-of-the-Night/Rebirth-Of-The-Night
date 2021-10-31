@@ -299,6 +299,7 @@ Melting.removeRecipe(<dungeontactics:tin_tinydust>);
 Melting.removeRecipe(<dungeontactics:gold_tinydust>);
 Melting.removeRecipe(<dungeontactics:silver_tinydust>);
 Melting.removeRecipe(<dungeontactics:iron_tinydust>);
+Melting.removeRecipe(<betterwithmods:material:48>);
 
 //Removed molds
 MoldStation.removeRecipe([//Gear
@@ -809,6 +810,8 @@ Casting.addRecipe(<minecraft:heavy_weighted_pressure_plate>, <liquid:iron>*((144
 Casting.addRecipe(<betterwithmods:steel_pressure_plate>, <liquid:soulforged_steel>*((144*2)-(16*2*2)), <foundry:mold:1>, <minecraft:redstone>);
 
 // MISC //
+Casting.removeRecipe(<liquid:iron>*576, <foundry:mold:2>);
+
 val lava_bricks = <ceramics:clay_hard:5>;
 recipes.removeByRecipeName("ceramics:decoration/lava_bricks/block");
 Casting.addRecipe(lava_bricks*1, <liquid:lava>*100, <foundry:mold:4>,<pyrotech:refractory_brick_block>|porcelain_bricks);

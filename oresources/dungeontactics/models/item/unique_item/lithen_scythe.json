@@ -1,33 +1,40 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "dungeontactics:items/unique_items/lithen_reaper"
-    },
-    "display": {
-        "thirdperson_righthand": {
-			"rotation": [ -190, -90, 0 ],
-			"translation": [ 0.00, 8.00, 0.75 ],
-			"scale": [ 1.80, 1.80, 1.80 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ -190, 90, 0 ],
-            "translation": [ 0.00, 8.00, 0.75 ],
-            "scale": [ 1.80, 1.80, 1.80 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 0, -90, 30 ],
-            "translation": [ 1.13, 3.2, 1.13 ],
-            "scale": [ 1.50, 1.50, 1.50 ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [ 0, 90, -30 ],
-            "translation": [ 1.13, 3.2, 1.13 ],
-            "scale": [ 1.50, 1.50, 1.50 ]
-        },
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "dungeontactics:items/unique_items/lithen_reaper"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-40, -90, 0],
+			"translation": [0, 8, 0.75],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-40, 90, 0],
+			"translation": [0, 8, 0.75],
+			"scale": [1.8, 1.8, 1.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-60, -94, 16],
+			"translation": [1.5, 3.25, -2.75],
+			"scale": [1.5, 1.5, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-60, 94, -16],
+			"translation": [1.5, 3.25, -2.75],
+			"scale": [1.5, 1.5, 0.6]
+		},
 		"ground": {
-			"rotation": [ 0, 0, 0 ],
-			"translation": [ 0.00, 4.25, 0.00 ],
-			"scale": [ 1.33, 1.33, 1.33 ]
+			"translation": [0, 4.25, 0],
+			"scale": [1.33, 1.33, 1.33]
+		},
+		"head": {
+			"rotation": [0, -90, 56],
+			"translation": [0, -5.25, -2.25]
+		},
+		"fixed": {
+			"scale": [1.2, 1.2, 1.2]
 		}
-    }
+	}
 }

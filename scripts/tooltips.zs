@@ -287,17 +287,22 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
 <contenttweaker:refracotta>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 <contenttweaker:modelingrefractory>.addTooltip("Malleable and Homogeneous, ready for modeling.");
+<pyrotech:cog_wood>.removeTooltip("Indestructible");
+<pyrotech:cog_wood>.addTooltip("Can power a Mechanical Compactor");
+<pyrotech:cog_bone>.removeTooltip("Indestructible");
+<pyrotech:cog_bone>.addTooltip("Can power a Mechanical Compactor");
 
 <pyrotech:bucket_stone>.removeTooltip("Uses:");
 <pyrotech:bucket_stone>.removeTooltip("Can hold hot fluids.");
-<pyrotech:coal_coke_block>.addTooltip("Valid fuel for Burner Heater");
+<pyrotech:coal_coke_block>.addShiftTooltip("Valid fuel for Burner Heater");
 <contenttweaker:charmpeat>.addTooltip("Valid fuel for Burner Heater");
 <pyrotech:coal_coke_block>.removeTooltip("Efficiency:");
 <pyrotech:coal_coke_block>.removeTooltip("Bloomery:");
 <pyrotech:coal_coke_block>.removeTooltip("Wither Forge:");
 <pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
 
-<pyrotech:sawmill_blade_iron>.addTooltip("Can be used in Mechanical Compactor");
+<pyrotech:sawmill_blade_iron>.removeTooltip("Indestructible");
+<pyrotech:sawmill_blade_iron>.addTooltip("Can power a Mechanical Compactor");
 
 // End Reborn
 <endreborn:catalyst>.removeTooltip("Materializer");
