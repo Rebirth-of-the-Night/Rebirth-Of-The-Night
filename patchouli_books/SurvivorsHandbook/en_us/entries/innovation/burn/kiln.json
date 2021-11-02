@@ -21,7 +21,7 @@
 		},
 		{
             "type": "text",
-            "text":	"$(o)To operate the kiln, place fuel in the bottom slot and a valid material in the top slot, after that, use an igniter on the fuel and let it cook.$(br2)Duration of the recipe displays on the bottom left corner"
+            "text":	"$(o)To operate the kiln, place fuel in the bottom slot and a valid material in the top slot, after that, use an igniter on the fuel and let it cook.$(br2)The duration of the recipe displays in the bottom left corner."
         },
 		{
 			"type": "relations",

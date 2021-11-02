@@ -12,7 +12,7 @@
         {
             "type": "crafting",
             "recipe": "aether_legacy:enchanter",
-            "text": "A magic repairer machine which can be used to repair my tools and armor with the power of ambrosium shards or electrum."
+            "text": "A magic repairing machine which can be used to repair my tools and armor with the power of Ambrosium shards, or Electrum."
         },
         {
 			"type": "relations",

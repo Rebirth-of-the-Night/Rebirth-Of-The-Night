@@ -7,7 +7,7 @@
         {
             "type": "spotlight",
             "item": "betterwithmods:block_dispenser",
-            "text": "An auto-block dispenser which places whatever is in its first slot when powered by redstone and also puts it back when de-powered."
+            "text": "An auto-block dispenser which places whatever is in its first slot when powered by redstone, and also puts it back when de-powered."
         },
         {
 			"type": "relations",

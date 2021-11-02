@@ -7,7 +7,7 @@
         {
             "type": "spotlight",
             "item": "betterwithmods:material:6",
-            "text": "$(thing)Leather$() is an essential material for creating higher quality equipment and tools.$(br2)I'll need to properly process and tan it though for it to stand the test of time when I use it for crafting items from $(l:exploration/tools/backpack)backpacks$() to plate armor."
+            "text": "$(thing)Leather$() is an essential material for creating higher quality equipment and tools.$(br2)However, I'll need to properly process and tan it for it to stand the test of time when I use it for crafting. Oh, the possibilities! I dream of useful things, from $(l:exploration/tools/backpack)backpacks$() to plate armor..."
         },
         {
             "type": "text",

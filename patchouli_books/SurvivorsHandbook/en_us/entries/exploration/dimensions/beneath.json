@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "I've finally broken the $(thing)Arcane Barrier$() and dropped down into the Beneath.$(br2)But man is it darker than the abyss down here and I can feel that every monster in the Beneath is out to get me having only just entered."
+      "text": "I've finally broken the $(thing)Arcane Barrier$() and dropped down into the Beneath.$(br2)But it is darker than the abyss down here, and I can feel that every monster in the Beneath has their eyes on me as I enter."
     },
     {
       "type": "text",

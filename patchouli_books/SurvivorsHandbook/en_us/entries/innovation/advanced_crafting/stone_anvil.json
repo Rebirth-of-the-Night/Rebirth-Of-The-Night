@@ -13,7 +13,7 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:pyro_stone_anvil",
-            "text": "I can use many instruments to smash with, such as a sledgehammer or pickaxe."
+            "text": "I can use many instruments for this process, such as a sledgehammer or pickaxe."
         },
         {
             "type": "relations",

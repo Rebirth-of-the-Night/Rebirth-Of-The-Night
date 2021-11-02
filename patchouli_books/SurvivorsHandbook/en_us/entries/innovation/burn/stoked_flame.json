@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Some materials require a much stronger heat source in order to properly form it.$(br2)A normal fire source will not be able to reach such high temperatures so I must use a stoked flame by fueling a stronger fire.$(br2)A strong fire which won't easily go out can be generated from a $(thing)hibachi$()."
+            "text": "Some materials require a much stronger heat source in order to properly form it.$(br2)A normal fire source will not be able to reach such high temperatures, so I must use a stoked flame by creating a stronger fire.$(br2)A strong fire which won't easily go out can be generated from a $(thing)hibachi$()."
         },
         {
             "type": "crafting",

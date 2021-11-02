@@ -8,7 +8,7 @@
         {
             "type": "spotlight",
             "item": "betterwithmods:wooden_gearbox",
-            "text": "One of the most essential ways of transmitting mechanical power is through gears and axles.$(br2)Linear force from flowing water or wind currents is converted to rotational force by means of free-moving lever arms which can be seen in waterwheels and windmills."
+            "text": "One of the most essential ways of transmitting mechanical power is through gears and axles.$(br2)Linear force from flowing water or wind currents is converted to rotational force by means of free-moving lever arms, which can be seen in waterwheels and windmills."
         },
         {
             "type": "crafting",
@@ -22,7 +22,7 @@
         },
         {
             "type": "text",
-            "text": "$(o)Guidelines:$(br2)Gearbox have directional input; make sure its input face is facing the right side.$(br2)Aside from the input face, the rest of the gearbox faces can be used as outputs$(br2)You can rotate a gearbox by shift-right-clicking with an empty hand$(br2)Attach an axle on the side of a gearbox to attach a windmill/waterwheel"
+            "text": "$(o)Guidelines:$(br2)Gearbox have directional input; make sure its input face is facing the right side.$(br2)Aside from the input face, the rest of the gearbox faces can be used as outputs$(br2)You can rotate a gearbox by shift-right-clicking with an empty hand$(br2)Windmills and waterwheels can be placed on an axle and used to create rotational force for the rest of the network."
         },
         {
 			"type": "relations",

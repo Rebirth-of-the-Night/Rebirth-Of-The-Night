@@ -8,7 +8,7 @@
         {
             "type": "crafting",
             "recipe": "betterwithmods:blocks/mech/vertical_windmill",
-            "text": "Using the water flow as it crashes down is a good way to generate renewable energy."
+            "text": "Using the force of a water flow as it crashes down is a good way to generate renewable energy."
         },
         {
 			"type": "relations",

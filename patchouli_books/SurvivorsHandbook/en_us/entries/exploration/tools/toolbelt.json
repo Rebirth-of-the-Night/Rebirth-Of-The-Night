@@ -6,7 +6,7 @@
         {
             "type": "spotlight",
             "item": "toolbelt:belt",
-            "text": "Being prepared for all types of situations needs every type of tools, and the toolbelt is just what I need for quickly accessing my array of utilities quickly.$(br2)$(o)By default, the tools can be accessed via the \"`\" key and can be combined with belt pouches in an anvil to hold up to 9 tools"
+            "text": "Being prepared for all types of situations needs every type of tools, and the toolbelt is just what I need for quickly accessing my array of utilities quickly.$(br2)$(o)By default, the tools can be accessed via the \"`\" key, and the toolbelt can be upgraded with belt pouches in an anvil to hold up to 9 tools"
         },
         {
             "type": "crafting",
