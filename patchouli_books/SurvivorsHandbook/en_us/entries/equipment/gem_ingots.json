@@ -1,0 +1,28 @@
+{
+    "name": "Gem Ingots",
+    "icon": "contenttweaker:four_gem_ingots",
+    "category": "equipment",
+    "advancement": "triumph:advancements/progression/nether/gems",
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "contenttweaker:four_gem_ingots",
+        "text": "Each one of the gems I've found has its own unique properties. I would like to try to use them to create equipment, but it seems they are unable to be forged on their own."
+      },
+      {
+        "type": "text",
+        "text": "By using a $(l:innovation/burn/stoked_flame)stoked cauldron$(), it seems that I am able to combine the gems with $(l:innovation/metallurgy/steel)crucible steel$() to make a proper gem alloy capable of being formed into tools and armor for my needs."
+      },
+      {
+        "type": "relations",
+        "entries": [
+            "innovation/metallurgy/ruby",
+            "innovation/metallurgy/diamond",
+            "innovation/metallurgy/sapphire",
+            "innovation/metallurgy/peridot",
+            "innovation/burn/crucible",
+            "innovation/burn/stoked_flame"
+        ]
+      }
+    ]
+  }

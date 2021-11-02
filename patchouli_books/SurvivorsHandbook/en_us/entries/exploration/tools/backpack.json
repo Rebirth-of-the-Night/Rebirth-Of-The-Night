@@ -2,16 +2,17 @@
     "name": "Backpack",
     "icon": "quark:backpack",
     "category": "exploration_tools",
+    "read_by_default": "true",
     "pages": [
         {
-            "type": "text",
+            "type": "crafting",
+            "recipe": "crafttweaker:quark backpack",
             "text": "A backpack can help me carry twice the amount of items I can normally carry which means more valuables I can carry back home."
         },
         {
             "type": "relations",
             "entries": [
-                "adapt/twine",
-                "gather/sticks"
+                "innovation/materials/leather"
             ]
         }
     ]

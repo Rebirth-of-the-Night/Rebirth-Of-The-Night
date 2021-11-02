@@ -1,0 +1,17 @@
+{
+  "name": "The Beneath",
+  "icon": "minecraft:bedrock",
+  "category": "exploration_dimensions",
+  "sortnum": 2,
+  "advancement": "triumph:advancements/progression/beneath/enterBeneath",
+  "pages": [
+    {
+      "type": "text",
+      "text": "I've finally broken the $(thing)Arcane Barrier$() and dropped down into the Beneath.$(br2)But it is darker than the abyss down here, and I can feel that every monster in the Beneath has their eyes on me as I enter."
+    },
+    {
+      "type": "text",
+      "text": "I still need to gather valuable minerals like $(thing)mythril$() here but I can't be too greedy or else I'll be swamped by more monsters than I can handle."
+    }
+  ]
+}

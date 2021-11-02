@@ -1,0 +1,19 @@
+{
+    "name": "Block Dispenser",
+    "icon": "betterwithmods:block_dispenser",
+    "category": "innovation_utilities",
+    "advancement": "triumph:advancements/ores/crudeSteel",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:block_dispenser",
+            "text": "An auto-block dispenser which places whatever is in its first slot when powered by redstone, and also puts it back when de-powered."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

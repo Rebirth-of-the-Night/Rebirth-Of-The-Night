@@ -1,0 +1,21 @@
+{
+    "name": "Coal Dust",
+    "icon": "betterwithmods:material:18",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/ores/iron",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:material:18",
+            "text": "Finely ground coal dust.$(br2)While not terribly useful as itself, its current state allows it to be easily alloyed with iron to create $(l:innovation/metallurgy/steel)rough steel$() in a crucible or alternatively mixed with $(l:innovation/materials/hellfire_dust)hellfire dust$() to create $(l:innovation/materials/nether_coal)nether coal$(), which I have no doubt would be a powerful fuel source."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/light_machines/millstone",
+                "innovation/materials/hellfire_dust",
+                "innovation/materials/nether_coal"
+			]
+		}
+    ]
+}

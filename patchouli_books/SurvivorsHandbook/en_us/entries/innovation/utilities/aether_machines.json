@@ -1,0 +1,24 @@
+{
+    "name": "Aether Machines",
+    "icon": "aether_legacy:zanite_gemstone",
+    "category": "innovation_utilities",
+    "advancement": "triumph:advancements/progression/aether/enterAether",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "aether_legacy:freezer",
+            "text": "A freezing machine constructed out of materials from the aether which I could use to freeze water to create ice."
+        },
+        {
+            "type": "crafting",
+            "recipe": "aether_legacy:enchanter",
+            "text": "A magic repairing machine which can be used to repair my tools and armor with the power of Ambrosium shards, or Electrum."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Turntable",
+  "icon": "betterwithmods:single_machine:3",
+  "category": "innovation_light_machines",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:turntable",
+      "text": "A turntable is a great invention used for easily processing various $(l:innovation/pottery)wares and pottery$() with ease as long as I have mechanical power running through the bottom."
+    },
+    {
+      "type": "text",
+      "text": "You spin me right round, baby$(br)Right round like a record, baby$(br)Right round, round, round."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "innovation/pottery"
+      ]
+    }
+  ]
+}

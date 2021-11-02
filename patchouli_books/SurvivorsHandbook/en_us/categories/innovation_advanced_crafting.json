@@ -1,0 +1,7 @@
+{
+    "name": "Advanced Crafting",
+    "description": "Unique worktables with a unique space for its purpose in combining, smashing, and refining items.",
+    "icon": "betterwithmods:steel_anvil",
+    "sortnum": 4,
+    "parent": "innovation"
+}

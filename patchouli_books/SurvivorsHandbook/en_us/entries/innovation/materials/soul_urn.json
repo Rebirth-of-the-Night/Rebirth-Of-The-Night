@@ -1,0 +1,21 @@
+{
+    "name": "Soul Urn",
+    "icon": "betterwithmods:urn:8",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:urn:8",
+            "text": "An urn filled with souls of the damned.$(br2)I can fill this up by putting an empty urn under a $(l:innovation/light_machines/hopper)filtered hopper$(), then passing ground Netherrack through the hopper with a Soul Sand filter to collect the souls in the urn."
+        },
+        {
+			"type": "relations",
+			"entries": [
+                "innovation/pottery",
+                "innovation/light_machines/hopper",
+				"innovation/metallurgy/sfs"
+			]
+		}
+    ]
+}

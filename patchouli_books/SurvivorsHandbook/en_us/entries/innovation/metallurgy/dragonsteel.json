@@ -1,0 +1,28 @@
+{
+    "name": "Dragonsteel",
+    "icon": "iceandfire:dragonsteel_fire_ingot",
+    "category": "innovation_metallurgy",
+    "advancement": "triumph:advancements/bosskills/killdragon",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonsteel_fire_ingot",
+            "text": "An incredibly strong metal forged from the crude steel iron alloy, infused with dragon blood, and forged through the breath of an active, living dragon in an appropriately constructed dragon forge."
+        },
+        {
+            "type": "text",
+            "text": "There are 2 variants of this dragonsteel:$(br)fire dragonsteel and ice dragonsteel.$(br2)Each are appropriately made in their own unique dragon forges which also need to be powered by their corresponding dragon variant."
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:dragonforge_fire_core",
+            "recipe2": "iceandfire:dragonforge_ice_core"
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

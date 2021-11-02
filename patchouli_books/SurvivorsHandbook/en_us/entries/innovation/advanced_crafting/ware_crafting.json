@@ -1,0 +1,26 @@
+{
+    "name": "Ware Crafting Table",
+    "icon": "artisanworkstumps:workstump_potter",
+    "category": "innovation_advanced_crafting",
+    "sortnum": 1,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:wares_table",
+            "text": "The ware crafting station is a simple workshop; I can use an $(item)Artisan Carver$() to aid me in working with soft materials, molding, and sculpting."
+        },
+        {
+            "type": "text",
+            "text": "The basic premise of sculpting starts with a full block of material. By carving and smoothing out different segments I can create quality recipients or intricate shapes. $(br2)If I ever want to $(thing)automate$() any of these processes, I should look into a $(l:innovation/light_machines/turntable)turntable$()."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/pottery",
+                "innovation/kiln",
+                "innovation/turntable"
+            ]
+        }
+    ]
+}

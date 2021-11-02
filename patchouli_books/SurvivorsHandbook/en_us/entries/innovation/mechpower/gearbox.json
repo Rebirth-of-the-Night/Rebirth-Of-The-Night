@@ -1,0 +1,35 @@
+{
+    "name": "Gearbox & Axles",
+    "icon": "betterwithmods:wooden_gearbox",
+    "category": "innovation_mechpower",
+    "sortnum": 3,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:wooden_gearbox",
+            "text": "One of the most essential ways of transmitting mechanical power is through gears and axles.$(br2)Linear force from flowing water or wind currents is converted to rotational force by means of free-moving lever arms, which can be seen in waterwheels and windmills."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/gearbox",
+            "text": "The $(thing)gearbox$() is a simple mechanism which allows waterwheels and windmills to transfer its energy to a driving axle.$(br2)Input: Axle $(br)Output: Axle"
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/axle",
+            "text": "The axle is what allows power to be transferred from the gearbox to a mechanical machine or another gearbox.$(br2)Input: Gearbox$(br)Output: Mechanical machine/gearbox"
+        },
+        {
+            "type": "text",
+            "text": "$(o)Guidelines:$(br2)Gearbox have directional input; make sure its input face is facing the right side.$(br2)Aside from the input face, the rest of the gearbox faces can be used as outputs$(br2)You can rotate a gearbox by shift-right-clicking with an empty hand$(br2)Windmills and waterwheels can be placed on an axle and used to create rotational force for the rest of the network."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/mechpower/windpower",
+                "innovation/mechpower/hydropower"
+			]
+		}
+    ]
+}

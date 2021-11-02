@@ -1,0 +1,20 @@
+{
+    "name": "Hydropower",
+    "icon": "betterwithmods:axle_generator:1",
+    "category": "innovation_mechpower",
+    "sortnum": 5,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/vertical_windmill",
+            "text": "Using the force of a water flow as it crashes down is a good way to generate renewable energy."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/mechpower/gearbox"
+			]
+		}
+    ]
+}

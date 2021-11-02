@@ -1,0 +1,20 @@
+{
+    "name": "Dryer",
+    "icon": "pyrotech:tinder",
+    "category": "innovation_heavy_machines",
+    "sortnum": 1,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-1031363119",
+            "text": "A more much advanced drying rack. By building the dryer structure with the blueprint, I can more easily handle inputs and outputs from the top and bottom."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Horsepower",
+    "icon": "minecraft:iron_horse_armor",
+    "category": "innovation_mechpower",
+    "sortnum": 2,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Using the $(l:innovation/mechpower/hand_crank)hand crank$() to manually power my machines is incredibly exhausting and time-consuming.$(br2)If I can tame horses out in the wild, they can produce much greater power for my machines.$(br)That would save me time to do other things as well."
+        },
+        {
+            "type": "text",
+            "text": "Once I've tamed a horse, I can attach the horse to the presser or grindstone with a lead, and they'll start powering it while there are items to be processed."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/mechpower/hand_crank",
+                "innovation/light_machines/presser"
+            ]
+        }
+    ]
+}

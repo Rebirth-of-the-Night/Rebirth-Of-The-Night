@@ -2,6 +2,7 @@
   "name": "Cauldron",
   "icon": "minecraft:cauldron",
   "category": "agriculture",
+  "read_by_default": "true",
   "pages": [
 	{
       "type": "crafting",

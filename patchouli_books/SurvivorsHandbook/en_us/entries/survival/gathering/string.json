@@ -3,6 +3,7 @@
   "name": "Fibers, Strings and Twines",
   "icon": "minecraft:string",
   "category": "survival_gathering",
+  "read_by_default": "true",
   "pages": [
 	{
       "type": "text",

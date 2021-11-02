@@ -1,0 +1,19 @@
+{
+    "name": "Pulley & Anchor",
+    "icon": "betterwithmods:single_machine:1",
+    "category": "innovation_utilities",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/single_machine_1",
+            "text": "A mechanical device which will place ropes directly downward below it, and will reverse its behaviour when mechanically powered. This, in conjunction with an Anchor and some kind of lightweight platform, may be useful for creating rudimentary elevators for vertical traversal...if I can get the timings right."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

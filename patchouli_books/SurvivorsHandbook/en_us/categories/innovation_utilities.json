@@ -1,0 +1,7 @@
+{
+    "name": "Mechanical Utilities",
+    "description": "Redstone dust and redstone-based tools and utilities that have almost limitless potential",
+    "icon": "minecraft:redstone",
+    "sortnum": 8,
+    "parent": "innovation"
+  }

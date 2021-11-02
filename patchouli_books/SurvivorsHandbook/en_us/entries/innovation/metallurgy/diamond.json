@@ -1,0 +1,26 @@
+{
+  "name": "Diamond",
+  "icon": "minecraft:diamond",
+  "category": "innovation_metallurgy",
+  "advancement": "triumph:advancements/ores/diamond",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:diamond",
+      "text": "I've spent some time studying $(item)diamond$().$(br)I've noticed this particular gem feels more pristine than the others; its magical ability derives from $(thing)knowledge$() and $(thing)arcane$() origins. In terms of combat, diamond offers much $(thing)lighter weapons and tools$(), allowing you to swing faster than the other gems."
+    },
+    {
+      "type": "text",
+      "text": "The armor seems to have a will of $(thing)self-preservation$() when a full set of it is worn, slowly reforming nics and scratches that result from use. It also seems to have peculiar $(thing)anti-magic$() properties, partially shielding me from attacks that would otherwise bypass physical armor normally."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "equipment/gem_ingots",
+        "innovation/metallurgy/peridot",
+        "innovation/metallurgy/ruby",
+        "innovation/metallurgy/sapphire"
+      ]
+    }
+  ]
+}

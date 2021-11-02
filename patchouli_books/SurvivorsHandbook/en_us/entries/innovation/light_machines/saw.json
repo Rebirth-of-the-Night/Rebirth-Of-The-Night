@@ -1,0 +1,25 @@
+{
+    "name": "Sawmill",
+    "icon": "betterwithmods:saw",
+    "category": "innovation_light_machines",
+    "sortnum": 3,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/saw",
+            "text": "A carpenter's best friend.$(br2)Once mechanically powered with a spinning axle, either from the bottom or the sides, the saw can be used to process logs into planks much more efficiently than via crafting."
+        },
+        {
+            "type": "text",
+            "text": "Planks can also be further cut down, allowing me to create smaller and more precise pieces to use in crafting.$(br2)The blade is quite sharp, though, and I shouldn't get too close to it while it's spinning. I have a feeling the monsters wouldn't like it very much either..."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "survival/newbeginning/wood"
+            ]
+        }
+    ]
+    
+}

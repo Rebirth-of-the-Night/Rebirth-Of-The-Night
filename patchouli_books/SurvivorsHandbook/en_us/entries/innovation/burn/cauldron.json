@@ -1,0 +1,20 @@
+{
+    "name": "Cauldron",
+    "icon": "betterwithmods:cooking_pot:1",
+    "category": "innovation_burn",
+    "sortnum": 3,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:cooking_cauldron",
+            "text": "Not only can I use this cauldron for cooking various foods quickly and easily, but for a lot of different materials as well such as $(l:innovation/materials/leather)tanned leather$(), blasting oil, etc."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				
+			]
+		}
+    ]
+}

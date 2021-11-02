@@ -1,17 +1,22 @@
 {
   "name": "Plague",
-  "icon": "contenttweaker:info",
+  "icon": "rats:plague_stew",
   "category": "survival",
+  "advancement": "triumph:advancements/progression/beneath/enterBeneath",
   "pages": [
     {
       "type": "text",
-      "text": "After breaking through to the Beneath, I find more foul beasts afflicted with some putrid disease."
+      "text": "After breaking through to the Beneath, I find more foul beasts afflicted with some putrid disease.$(br2)I know that villages will typically have a plague doctor, so I may have to travel there if I am ever afflicted with this plague."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rats:plague_stew",
+      "text": "I can also craft my own cure which is a surefire way to remove it from my body, though it takes many components which may be difficult to obtain..."
     },
     {
       "type": "relations",
       "entries": [
-        "adapt/twine",
-        "gather/sticks"
+        "exploration/civilization/plague_doctor"
       ]
     }
   ]

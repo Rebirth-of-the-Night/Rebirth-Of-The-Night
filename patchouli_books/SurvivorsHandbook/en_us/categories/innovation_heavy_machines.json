@@ -1,0 +1,7 @@
+{
+    "name": "Heavy Machines",
+    "description": "Much larger machines requiring large amounts of space in order to process materials at a much faster rate, albeit with a much more streamlined manner akin to an assembly line.",
+    "icon": "modularmachinery:blockcontroller",
+    "sortnum": 3,
+    "parent": "innovation"
+}

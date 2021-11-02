@@ -1,0 +1,23 @@
+{
+    "name": "Meteorite Ingot",
+    "icon": "nyx:meteor_ingot",
+    "category": "innovation_metallurgy",
+    "advancements": "triumph:advancements/bosskills/killedQuazar",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "nyx:meteor_ingot",
+            "text": "A very unique alloy of iron, this meteorite-infused material seems to be much stronger than iron.$(br2)I can use this to create powerful tools and armor rivaling even $(thing)soulforged steel.$()"
+        },
+        {
+            "type": "text",
+            "text": "I'm able to create this by borrowing the power of the $(l:slayers_journal/quazar)Quazar$() from volatile powder and 12 meteor shards I've collected from meteor strikes, together in a stoked crucible to get 12 $(thing)meteorite ingots$()."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"slayers_journal/quazar"
+			]
+		}
+    ]
+}

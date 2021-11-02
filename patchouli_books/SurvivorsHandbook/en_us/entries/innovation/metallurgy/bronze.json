@@ -1,0 +1,29 @@
+{
+    "name": "Bronze",
+    "icon": "contenttweaker:material_part:0",
+    "category": "innovation_metallurgy",
+    "advancement": "triumph:advancements/ores/copper",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:material_part:0",
+            "text": "Making bronze is rather easy. By combining about 3 parts $(l:innovation/metallurgy/copper)copper$() to 1 part tin, melting them together in a $(l:innovation/burn/kiln)kiln$() at a relatively low melting point of around 2,000 degrees Fahrenheit will yield 4 bronze."
+        },
+        {
+            "type": "kiln_spotlight",
+            "title": "Bronze Ingot",
+            "input": "contenttweaker:material_part:37",
+            "output": "contenttweaker:material_part:0",
+            "time": "5:20min",
+            "text": "This material is much more durable and ductile than the $(thing)copper$() used to make it, making its use for tools that much better. I also might also be able to make better parts because of its toughness."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/burn/kiln",
+                "innovation/metallurgy/copper"
+            ]
+        }
+    ]
+    
+}

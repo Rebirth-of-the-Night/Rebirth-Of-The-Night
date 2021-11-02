@@ -2,6 +2,7 @@
   "name": "Mortar",
   "icon": "artisanworktables:artisans_mortar_gold",
   "category": "agriculture",
+  "read_by_default": "true",
   "pages": [
 	{
       "type": "crafting",

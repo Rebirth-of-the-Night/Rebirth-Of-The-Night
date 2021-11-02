@@ -2,14 +2,22 @@
     "name": "Dynamite",
     "icon": "betterwithmods:dynamite_bundle",
     "category": "exploration_tools",
+    "read_by_default": "true",
     "pages": [
         {
-            "type": "text",
-            "text": "Mining out a large section of area or monsters might prove to be quite cumbersome, so I might resort to using dynamite and dynamite bundles to clear them."
+            "type": "spotlight",
+            "item": "betterwithmods:dynamite_bundle",
+            "text": "Mining out a large section of area or monsters might prove to be quite cumbersome, so I might resort to using $(thing)dynamite and dynamite bundles$() to clear them.$(br2)I can also make $(thing)mining charges$() with $(thing)dynamite bundles$() to have a more controlled explosion."
         },
         {
-            "type": "text",
-            "text": "I can also make some mining charges with dynamite bundles to have a more controlled explosion specifically for mining."
+            "type": "crafting",
+            "recipe": "crafttweaker:betterwithmodsdynamite",
+            "recipe2": "betterwithmods:items/dynamite_bundle"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:betterminingcharge",
+            "recipe2": "crafttweaker:tnt_dynamite"
         }
     ]
 }

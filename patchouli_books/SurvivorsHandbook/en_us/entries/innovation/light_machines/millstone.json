@@ -1,0 +1,25 @@
+{
+    "name": "Millstone",
+    "icon": "betterwithmods:single_machine:0",
+    "category": "innovation_light_machines",
+    "sortnum": 1,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:millstone",
+            "text": "Some materials I’ve found in the wild need further processing that I’m unable to perform with my bare hands. I’ve created a millstone for that purpose."
+        },
+        {
+            "type": "text",
+            "text": "I can simply add things like flowers, wild plants, and rotten flesh into the shifting stones to mill them into more readily usable materials. I still need to figure out how I can turn it, however…"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "innovation/mechpower/hand_crank"
+            ]
+        }
+    ]
+    
+}

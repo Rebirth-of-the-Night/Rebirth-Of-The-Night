@@ -1,0 +1,24 @@
+{
+    "name": "Filtered Hopper",
+    "icon": "betterwithmods:single_machine:2",
+    "category": "innovation_light_machines",
+    "sortnum": 5,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:filtered_hopper",
+            "text": "The filtered hopper allows for selective separation of materials such as gravel or sand by using various filters."
+        },
+        {
+            "type": "text",
+            "text": "More importantly, I'm able to filter $(l:innovation/materials/hellfire_dust)hellfire dust$() from ground up Netherrack through a Soul Sand filter.$(br2)I should make sure that the filtered hopper is mechanically powered from the side when processing Netherrack however...grinding up the remnants of ghasts is a hellish business, and without the stability provided by the mechanical power, I may find myself with a mess on my hands..."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/materials/hellfire_dust"
+			]
+		}
+    ]
+}

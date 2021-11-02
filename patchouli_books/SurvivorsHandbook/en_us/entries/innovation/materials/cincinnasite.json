@@ -1,0 +1,33 @@
+{
+    "name": "Cincinnasite",
+    "icon": "betternether:cincinnasite",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/ores/cincinnasite",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "betternether:cincinnasite_block",
+            "text": "Some sort of halfway between a crystal and gold, cincinnasite is one of the more surprisingly pleasant materials I have found in the Nether."
+        },
+        {
+            "type": "text",
+            "text": "Its beauty can't be understated; amidst the crumbling rock, stinking flesh, and scorching lava, it is rather nice to come across something so easy on the senses.$(br2)On closer inspection, it forms highly detailed and intricate patterns on its surface, such patterns making it a surprisingly tough material when compounded together."
+        },
+        {
+            "type": "text",
+            "text": "Whoever built the cities in the seas of lava certainly figured that out already; the buildings are reinforced with cincinnasite pillars and supports, and the windows of quartz glass are framed with the material as well.$(br2)This will be a welcome fortification for my dwelling, and might even make it nicer to look at."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betternether:cincinnasite_forge",
+            "text": "Of course being from the Nether, I can take advantage of its toughness and resilience to make a Cincinnasite Forge which can be used for faster smelting."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                
+            ]
+        }
+    ]
+    
+}

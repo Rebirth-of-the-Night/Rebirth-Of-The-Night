@@ -1,0 +1,19 @@
+{
+    "name": "Glue",
+    "icon": "betterwithmods:material:12",
+    "category": "innovation_materials",
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:material:12",
+            "text": "The substance that holds everything together.$(br)($(thing)Silky sludge$() is also a good substitute)$(br)Obtained by melting leather in a $(l:innovation/burn/stoked_flame)stoked cauldron$().$(br2)Best used for assembling $(l:innovation/mechpower/windpower)windmill$() and $(l:innovation/mechpower/hydropower)waterwheel$() parts together.$(br2)Not edible."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/burn/stoked_flame"
+			]
+		}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Reagents & Products",
+    "description": "Various materials and intermediate products used for crafting various equipment, machines, etc.",
+    "icon": "betterwithmods:material:6",
+    "sortnum": 7,
+    "parent": "innovation"
+}

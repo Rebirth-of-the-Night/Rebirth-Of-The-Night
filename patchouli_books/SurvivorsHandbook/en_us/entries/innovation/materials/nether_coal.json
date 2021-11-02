@@ -1,0 +1,19 @@
+{
+    "name": "Nether Coal",
+    "icon": "betterwithmods:material:1",
+    "category": "innovation_materials",
+    "advancement": "triumph:advancements/progression/nether/enterNether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A much more powerful chunk of coal mixed with $(l:innovation/materials/hellfire_dust)hellfire dust$() in a $(l:innovation/burn/cauldron)cauldron$().$(br2)An essential ingredient in the crafting of a $(l:exploration/tools/glaretorch)glaretorch$() and a powerful Soulforged Steel pickaxe.$(br2)In my testing, this substance burns for twice as long as a normal piece of coal!"
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/burn/cauldron",
+                "innovation/materials/hellfire_dust"
+			]
+		}
+    ]
+}

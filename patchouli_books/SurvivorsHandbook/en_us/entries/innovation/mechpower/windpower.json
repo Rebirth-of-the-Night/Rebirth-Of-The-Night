@@ -1,0 +1,34 @@
+{
+    "name": "Windpower",
+    "icon": "betterwithmods:axle_generator:0",
+    "category": "innovation_mechpower",
+    "sortnum": 4,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "One of the most convenient ways to generate power is with air currents through a windmill. $(br2)As long as I am outside in the $(thing)Overworld$(), there's always a surplus of wind energy I can utilize to power my machines.$(br2)A single windmill is likely more than powerful enough to run all of my machines, if I can set up my axle network efficiently."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/windmill",
+            "text": "The standard windmill. $(br2)I need to take care that I don't try to take power from the windmill while it is raining or storming, as the higher wind speeds may cause the connected $(l:innovation/mechpower/gearbox)gearboxes$() to break. A simple lever on the first gearbox of the chain, manually actuated during a storm, would solve this...or a wind chime could also do the trick."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/waterwheel",
+            "text": "A vertical windmill variation. It is possible to use this type underground, which will prove useful in the depths of the Overworld, or in the Nether."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-826343553",
+            "text": "This bamboo chime sends out a Redstone signal in rain or stormy conditions."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/mechpower/gearbox"
+			]
+		}
+    ]
+}

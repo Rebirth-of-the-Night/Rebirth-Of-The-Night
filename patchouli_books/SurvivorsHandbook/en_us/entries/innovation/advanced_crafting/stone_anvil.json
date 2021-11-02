@@ -1,0 +1,26 @@
+{
+    "name": "Multipurpose Stone Anvil",
+    "icon": "pyrotech:anvil_granite",
+    "category": "innovation_advanced_crafting",
+    "sortnum": 2,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "pyrotech:anvil_granite",
+            "text": "By compressing some stone, I can create a sturdy and uniform surface in order to crudely further refine materials such as metals.$(br2)It also allows for extracting deposits of material from certain kinds of stone that wouldn’t be possible by simply mining it."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pyro_stone_anvil",
+            "text": "I can use many instruments for this process, such as a sledgehammer or pickaxe."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                
+            ]
+        }
+    ]
+    
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Steel Anvil",
+    "icon": "betterwithmods:steel_anvil",
+    "category": "innovation_advanced_crafting",
+    "sortnum": 3,
+    "advancement": "triumph:advancements/ores/crudeSteel",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "betterwithmods:steel_anvil",
+            "text": "The $(thing)steel anvil$() is a strong worktable fully capable of supporting crafting with extremely heavy and dense materials.$(br2)I can put together much more materials together at a time with this larger work area."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:steel anvil",
+            "text": "Though it requires a lot of crucible steel in order to make the anvil itself, I'll finally be able to sufficiently craft armor and tools from materials which requires much more space and support."
+        },
+        {
+			"type": "relations",
+			"entries": [
+				"innovation/metallurgy/steel"
+			]
+		}
+    ]
+}

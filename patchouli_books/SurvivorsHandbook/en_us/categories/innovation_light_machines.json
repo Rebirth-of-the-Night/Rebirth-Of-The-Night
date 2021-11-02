@@ -1,0 +1,7 @@
+{
+    "name": "Mechanical Machines",
+    "description": "Smaller, compact machines used for processing many types of materials through grinding, pressing, splitting, etc.",
+    "icon": "betterwithmods:single_machine:0",
+    "sortnum": 2,
+    "parent": "innovation"
+}

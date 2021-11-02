@@ -1,0 +1,33 @@
+{
+  "name": "Ruby",
+  "icon": "biomesoplenty:gem:1",
+  "category": "innovation_metallurgy",
+  "advancement": "triumph:advancements/ores/ruby",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "biomesoplenty:gem:1",
+      "text": "The effects of $(item)ruby$() immediately manifested themselves through my physical being.$(br2)The armor that I forged from it filled my veins with a seizing anger, and compels me to $(thing)kill$()."
+    },
+    {
+      "type": "text",
+      "text": "I felt myself become stronger and more constituted in combat, like I myself could $(thing)sustain more attacks$() and keep fighting.$(br2)However, the rage that emboldened me couldn’t distract from the dread that resided in the back of my mind while I wore the ruby.$(br2)I don’t like how it feels, but I want to wear it again..."
+    },
+    {
+      "type": "spotlight",
+      "item": "atop:ruby_chestplate",
+      "advancement": "triumph:advancements/ores/diamond",
+      "text": "Whereas $(l:innovation/metallurgy/diamond)diamond$() preserved itself by slowly mending its own wounds, $(item)ruby$() seemed to have a desire to preserve me above itself, slowly healing my own wounds."
+    },
+    {
+
+      "type": "relations",
+      "entries": [
+        "equipment/gem_ingots",
+        "innovation/metallurgy/peridot",
+        "innovation/metallurgy/diamond",
+        "innovation/metallurgy/sapphire"
+      ]
+    }
+  ]
+}
