@@ -14,6 +14,8 @@ import mods.pyrotech.Burn;
 JEI.removeAndHide(<pyrotech:crate>);
 
 CompactingBin.removeAllRecipes();
+MechanicalCompactor.removeAllRecipes();
+
 CompactingBin.addRecipe("dirt_from_pile", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4, true);
 CompactingBin.addRecipe("rammed_from_dirt", <earthworks:block_rammed_earth>, <minecraft:dirt>, 3, true);
 CompactingBin.addRecipe("chips_pile_from_chips", <pyrotech:pile_wood_chips>, <pyrotech:rock:7>, 8, true);
@@ -25,6 +27,7 @@ CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <bett
 CompactingBin.addRecipe("modeling_refractory", <contenttweaker:modelingrefractory>, <contenttweaker:unfiredrefractory>, 4, true);
 CompactingBin.addRecipe("modeling_refractory1", <contenttweaker:modelingrefractory>, <pyrotech:material:4>, 16, true);
 CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>, 4, true);
+CompactingBin.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9, true);
 
 CrudeDryingRack.removeRecipes(<pyrotech:material:2>);
 CrudeDryingRack.removeRecipes(<pyrotech:material:13>);
@@ -32,11 +35,11 @@ DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.removeRecipes(<pyrotech:material:13>);
 
 
-CrudeDryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 3 * 60 * 20, true);
-CrudeDryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 3 * 60 * 20, true);
-CrudeDryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <harvestcraft:juteitem>, 3 * 60 * 20, true);
-CrudeDryingRack.addRecipe("dry_adobe", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 6 * 60 * 20, true);
-CrudeDryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 4 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 5 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 5 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <ore:treeSapling>, 5 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dry_adobe", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 7 * 60 * 20, true);
+CrudeDryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 5 * 60 * 20, true);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);
@@ -93,11 +96,6 @@ Campfire.addRecipe("roasted_egg_o", <pyrotech:egg_roasted>, <aether_legacy:moa_e
 Campfire.addRecipe("roasted_egg_p", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 1}));
 Campfire.addRecipe("roasted_egg_q", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 2}));
 Campfire.addRecipe("roasted_egg_r", <pyrotech:egg_roasted>, <aether_legacy:moa_egg>.withTag({typeId: 3}));
-
-
-
-MechanicalCompactor.removeAllRecipes();
-MechanicalCompactor.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9);
 
 // concrete
 for i in 0 to 16 {

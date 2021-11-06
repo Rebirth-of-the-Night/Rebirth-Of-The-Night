@@ -80,7 +80,7 @@
   {
     "resourceName": "dryer",
     "model": "requious:dryer",
-    "placeType": "Up",
+    "placeType": "Horizontal",
     "hasGUI": true,
     "colorA": {
       "r": 255,
@@ -119,6 +119,24 @@
       "x2": 0.9,
       "y2": 0.9,
       "z2": 0.9
+    }
+  },
+  {
+    "resourceName": "interaction",
+    "model": "requious:interaction",
+    "placeType": "Any",
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
     }
   }
 ]

@@ -22,6 +22,7 @@ recipes.addShaped("minecart", <minecraft:minecart>, [
 <minecraft:mushroom_stew>.maxStackSize = 4;
 
 recipes.remove(<minecraft:mushroom_stew>);
+JEI.removeAndHide(<requious:interaction>);
 JEI.removeAndHide(<minecraft:knowledge_book>);
 JEI.removeAndHide(<gbook_snapshot:guidebook>);
 JEI.removeAndHide(<toolprogression:magic_mushroom>);

@@ -11,6 +11,8 @@ val four_gems = VanillaFactory.createItem("four_gems");
 four_gems.register();
 val four_gem_ingots = VanillaFactory.createItem("four_gem_ingots");
 four_gem_ingots.register();
+val rice_paddy_dummy = VanillaFactory.createItem("rice_paddy_dummy");
+rice_paddy_dummy.register();
 val phos = VanillaFactory.createItem("phosphophyllite");
 phos.register();
 val coin1 = VanillaFactory.createItem("coinT1");

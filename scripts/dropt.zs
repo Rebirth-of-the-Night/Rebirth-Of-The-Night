@@ -74,6 +74,15 @@ Dropt.list("blood_tainted_gold")
   );
 */ 
 
+Dropt.list("planarspsp2")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:planarspsp2"])
+      .addDrop(Dropt.drop()
+          .force() // Always drop nothing
+      )
+  );
+
 Dropt.list("bop_honey_block")
 
   .add(Dropt.rule()

@@ -29,12 +29,6 @@
     "damage": "1"
   },
   {
-    "targetBlock": "betterwithaddons:scaffold",
-    "heldItem": "minecraft:clay_ball",
-    "replacementBlock": "rustic:clay_wall_cross",
-    "damage": "1"
-  },
-  {
     "targetBlock": "pyrotech:refractory_brick_block",
     "heldItem": "minecraft:magma_cream",
     "replacementBlock": "ceramics:clay_hard:5",
@@ -73,15 +67,5 @@
     "particleType": "iconcrack",
     "particleArea": "out",
     "particleCount": "25"
-  },
-  {
-    "targetBlock": "minecraft:fire",
-    "dropItem": "minecraft:torch",
-    "heldItem": "minecraft:stick",
-	"dropOnlyOnSuccess": true,
-	"dropChance": "1:3",
-    "damage": "1",
-    "particleType": "lava",
-    "particleCount": "5"
   }
 ]
