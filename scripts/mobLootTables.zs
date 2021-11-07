@@ -344,6 +344,13 @@ lcavespiderMain.addItemEntry(<contenttweaker:spider_silk>, 100, 0, [Functions.se
 lcavespiderMain.addItemEntry(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
 lcavespiderMain.addItemEntry(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
+val lootScuttler = LootTweaker.getTable("defiledlands:entities/scuttler");
+val lscuttlerMain = lootScuttler.getPool("scuttler");
+lscuttlerMain.removeEntry("minecraft:string");
+lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 100, 0, [Functions.setCount(0, 2)], []);
+lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
+lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
+
 //Sheep Intestines
 val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
 val sheepPrimeMeat = sheepPrimeTable.getPool("meat");

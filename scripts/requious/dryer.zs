@@ -9,9 +9,9 @@ var dryer = <assembly:dryer>;
 static dryerProgress as SlotVisual = SlotVisual.createGauge("requious:textures/gui/assembly_slots.png",6,5,1,6,GaugeDirection.right(),false);
  
 dryer.setTextSlot(3,0).setVisual(SlotVisual.create(7,1)).setRenderText("Drying Unit");
-dryer.setItemSlot(3,1,ComponentFace.east(),1).setAccess(true,false).setGroup("input1");
-dryer.setItemSlot(4,1,ComponentFace.south(),1).setAccess(true,false).setGroup("input2");
-dryer.setItemSlot(5,1,ComponentFace.west(),1).setAccess(true,false).setGroup("input3");
+dryer.setItemSlot(3,1,ComponentFace.all(),1).setAccess(true,false).setGroup("input1");
+dryer.setItemSlot(4,1,ComponentFace.all(),1).setAccess(true,false).setGroup("input2");
+dryer.setItemSlot(5,1,ComponentFace.all(),1).setAccess(true,false).setGroup("input3");
 dryer.setDurationSlot(3,2).setGroup("input1").setVisual(dryerProgress);
 dryer.setDurationSlot(4,2).setGroup("input2").setVisual(dryerProgress);
 dryer.setDurationSlot(5,2).setGroup("input3").setVisual(dryerProgress);
