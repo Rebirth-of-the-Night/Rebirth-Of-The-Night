@@ -15,9 +15,9 @@ dryer.setItemSlot(5,1,ComponentFace.west(),1).setAccess(true,false).setGroup("in
 dryer.setDurationSlot(3,2).setGroup("input1").setVisual(dryerProgress);
 dryer.setDurationSlot(4,2).setGroup("input2").setVisual(dryerProgress);
 dryer.setDurationSlot(5,2).setGroup("input3").setVisual(dryerProgress);
-dryer.setItemSlot(3,3,ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output1");
-dryer.setItemSlot(4,3,ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output2");
-dryer.setItemSlot(5,3,ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output3");
+dryer.setItemSlot(3,3,ComponentFace.all(),1).setAccess(false,true).setHandAccess(false,true).allowOverfill().setGroup("output1");
+dryer.setItemSlot(4,3,ComponentFace.all(),1).setAccess(false,true).setHandAccess(false,true).allowOverfill().setGroup("output2");
+dryer.setItemSlot(5,3,ComponentFace.all(),1).setAccess(false,true).setHandAccess(false,true).allowOverfill().setGroup("output3");
 
 // dry sponge
 var drySponge1 = AssemblyRecipe.create(function(container) {
