@@ -172,17 +172,19 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 		return;
 	}
 
-	// Map of spirit spawning mobs.
-	// Format is:
-	// entity id : spirit count
-	val spiritSpawningMobs = {
-		"specialmobs:hungryzombie" : 4
-	} as int[string];
+	{ // INTERACTABLE
+		// Map of spirit spawning mobs.
+		// Format is:
+		// entity id : spirit count
+		val spiritSpawningMobs as int[string] = {
+			"specialmobs:hungryzombie" : 4
+		} as int[string];
 
-	// Spirit spawning
-	if (spiritSpawningMobs.keySet has event.entityLivingBase.definition.id) {
-		server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:"~spiritSpawningMobs[event.entityLivingBase.definition.id]~"}");
-		print("Spawned spirit");
+		// Spirit spawning
+		if (spiritSpawningMobs.keySet has event.entityLivingBase.definition.id) {
+			server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:"~spiritSpawningMobs[event.entityLivingBase.definition.id]~"}");
+			print("Spawned spirit");
+		}
 	}
 });
 
@@ -279,6 +281,27 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 	}
 	event.drops = drops as IEntityItem[];
 	
+});
+
+events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
+	if (isNull(event.world) || event.world.isRemote()) {
+		return;
+	}
+
+	{ // INTERACTABLE
+		// Map of blocks to be transformed upon breaking them
+		// Format is:
+		// broken state : replacing state
+		val blockBreakTransforms as IBlockState[IBlockState] = {
+			<blockstate:minecraft:dirt> : <blockstate:minecraft:lava:level=11>
+		} as IBlockState[IBlockState];
+
+		// Checking block
+		if (blockBreakTransforms.keySet has event.blockState) {
+			event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
+			print("Replaced block");
+		}
+	}
 });
 
 events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDropsEvent) {
