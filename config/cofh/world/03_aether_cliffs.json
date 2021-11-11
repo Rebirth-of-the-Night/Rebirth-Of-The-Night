@@ -1,12 +1,12 @@
 {
 	"dependencies": "cavegenerator",
 	"populate": {
-        "aether_cliffs_frostburn": {
+        "aether_cliffs_dirt": {
 			"distribution": "uniform",
 			"generator": {
 				"type": "plate",
 				"block": {
-					"name": "netherex:frostburn_ice"
+					"name": "aether_legacy:aether_dirt"
 				},
 				"material": [
 					{
@@ -26,6 +26,9 @@
 					},
 					{
 					"name": "aether_legacy:holystone"
+					},
+					{
+					"name": "netherex:frostburn_ice"
 					}
 				],
 				"radius": 25,
@@ -52,7 +55,7 @@
 				],
 				"material": [
 					{
-					"name": "aether_legacy:aether_grass"
+					"name": "netherex:frostburn_ice"
 					}
 				],
 				"gen-body": [
@@ -81,7 +84,7 @@
 			},
 			"material": [
 					{
-					"name": "aether_legacy:aether_grass"
+					"name": "netherex:frostburn_ice"
 					}
 				]
 			"cluster-count": 1,

@@ -22,7 +22,6 @@ recipes.addShaped("minecart", <minecraft:minecart>, [
 <minecraft:mushroom_stew>.maxStackSize = 4;
 
 recipes.remove(<minecraft:mushroom_stew>);
-JEI.removeAndHide(<requious:interaction>);
 JEI.removeAndHide(<minecraft:knowledge_book>);
 JEI.removeAndHide(<gbook_snapshot:guidebook>);
 JEI.removeAndHide(<toolprogression:magic_mushroom>);
@@ -51,6 +50,8 @@ furnace.remove(<ore:nuggetIron>);
 furnace.remove(<minecraft:brick>);
 
 furnace.setFuel(<ore:barkWood>, 100);
+furnace.setFuel(<chutes:chute_wood>, 25);
+furnace.setFuel(<chutes:chute_entry_wood>, 18.75);
 furnace.setFuel(<contenttweaker:charmpeat>, 3200);
 
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);

@@ -1,3 +1,9 @@
+// Dummy items
+// Removed any tooltip including ID to avoid confussion
+<requious:interaction>.clearTooltip();
+<requious:interaction>.addTooltip(format.white("In-World Interaction"));
+<contenttweaker:rice_paddy_dummy>.clearTooltip();
+<contenttweaker:rice_paddy_dummy>.addTooltip(format.white("Rice Paddy"));
 
 // Random Things
 <randomthings:magichood>.addTooltip(format.gold("Soft to the touch with a pleasant smell!"));

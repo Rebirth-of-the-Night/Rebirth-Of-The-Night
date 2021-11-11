@@ -2,8 +2,8 @@ name: magma_deposits
 mod: minecraft
 block: {
   location: minecraft:magma
-  lightLevel: 1
-  hardness: 3.2
+  lightLevel: 2
+  hardness: 4.2
   level: 1
 }
 texture: {
@@ -11,7 +11,7 @@ texture: {
   original: minecraft:blocks/magma,
 }
 recipe: {
-  result: minecraft:magma
+  result: netherex:congealed_magma_cream
   xp: 0.0
   quantity: 1
 }

@@ -1,0 +1,148 @@
+import mods.requious.SlotVisual;
+import mods.requious.Color;
+import mods.requious.ComponentFace;
+import mods.requious.AssemblyRecipe;
+import mods.requious.GaugeDirection;
+
+var dryer = <assembly:dryer>;
+ 
+static dryerProgress as SlotVisual = SlotVisual.createGauge("requious:textures/gui/assembly_slots.png",6,5,1,6,GaugeDirection.right(),false);
+ 
+dryer.setTextSlot(3,0).setVisual(SlotVisual.create(7,1)).setRenderText("Drying Unit");
+
+dryer.setItemSlot(3,1,ComponentFace.all(),1)
+					.setAccess(true,false)
+					.setGroup("input");
+dryer.setItemSlot(4,1,ComponentFace.all(),1)
+					.setAccess(true,false)
+					.setGroup("input");
+dryer.setItemSlot(5,1,ComponentFace.all(),1)
+					.setAccess(true,false)
+					.setGroup("input");
+dryer.setDurationSlot(3,2)
+					.setGroup("duration")
+					.setVisual(dryerProgress);
+dryer.setDurationSlot(4,2)
+					.setGroup("duration")
+					.setVisual(dryerProgress);
+dryer.setDurationSlot(5,2)
+					.setGroup("duration")
+					.setVisual(dryerProgress);
+dryer.setItemSlot(3,3,ComponentFace.all(),1)
+					.setAccess(false,true)
+					.setHandAccess(false,true)
+					.allowOverfill()
+					.setGroup("output");
+dryer.setItemSlot(4,3,ComponentFace.all(),1)
+					.setAccess(false,true)
+					.setHandAccess(false,true)
+					.allowOverfill()
+					.setGroup("output");
+dryer.setItemSlot(5,3,ComponentFace.all(),1)
+					.setAccess(false,true)
+					.setHandAccess(false,true)
+					.allowOverfill()
+					.setGroup("output");
+
+dryer.setJEIItemSlot(3,2,"input");
+dryer.setJEIItemSlot(5,2,"output");
+dryer.setJEIDurationSlot(4,2,"duration", dryerProgress);
+
+// dry sponge
+var drySponge1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<minecraft:sponge>);
+}).requireItem("input",<minecraft:sponge:1>).requireDuration("duration", 360);
+dryer.addRecipe(drySponge1);
+ 
+var drySpongeJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<minecraft:sponge>);
+}).requireItem("input",<minecraft:sponge:1>).requireDuration("duration", 360);
+dryer.addJEIRecipe(drySpongeJEI);
+
+// pulp paper
+var pulpPaper1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<minecraft:paper>);
+}).requireItem("input",<pyrotech:material:25>).requireDuration("duration", 220);
+dryer.addRecipe(pulpPaper1);
+ 
+var pulpPaperJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<minecraft:paper>);
+}).requireItem("input",<pyrotech:material:25>).requireDuration("duration", 220);
+dryer.addJEIRecipe(pulpPaperJEI);
+
+// raisins
+var grapeRaisins1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<harvestcraft:raisinsitem>);
+}).requireItem("input",<ore:cropGrape>).requireDuration("duration", 540);
+dryer.addRecipe(grapeRaisins1);
+ 
+var grapeRaisinsJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<harvestcraft:raisinsitem>);
+}).requireItem("input",<ore:cropGrape>).requireDuration("duration", 540);
+dryer.addJEIRecipe(grapeRaisinsJEI);
+
+// vanilla
+var vanillaVanilla1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<harvestcraft:vanillaitem>);
+}).requireItem("input",<harvestcraft:vanillabeanitem>).requireDuration("duration", 540);
+dryer.addRecipe(vanillaVanilla1);
+ 
+var vanillaVanillaJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<harvestcraft:vanillaitem>);
+}).requireItem("input",<harvestcraft:vanillabeanitem>).requireDuration("duration", 540);
+dryer.addJEIRecipe(vanillaVanillaJEI);
+
+// jute
+var dryJute1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<pyrotech:material:2>);
+}).requireItem("input",<harvestcraft:juteitem>).requireDuration("duration", 220);
+dryer.addRecipe(dryJute1);
+ 
+var dryJuteJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<pyrotech:material:2>);
+}).requireItem("input",<harvestcraft:juteitem>).requireDuration("duration", 220);
+dryer.addJEIRecipe(dryJuteJEI);
+
+// dried fiber
+var dryFiber1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<pyrotech:tinder>);
+}).requireItem("input",<pyrotech:material:12>).requireDuration("duration", 220);
+dryer.addRecipe(dryFiber1);
+ 
+var dryFiberJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<pyrotech:tinder>);
+}).requireItem("input",<pyrotech:material:12>).requireDuration("duration", 220);
+dryer.addJEIRecipe(dryFiberJEI);
+
+// dried sapling
+var drySapling1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<pyrotech:tinder>);
+}).requireItem("input",<ore:treeSapling>).requireDuration("duration", 220);
+dryer.addRecipe(drySapling1);
+ 
+var drySaplingJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<pyrotech:tinder>);
+}).requireItem("input",<ore:treeSapling>).requireDuration("duration", 220);
+dryer.addJEIRecipe(drySaplingJEI);
+
+// adobe
+var dryAdobe1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<earthworks:item_adobe>);
+}).requireItem("input",<contenttweaker:unfired_adobe_brick>).requireDuration("duration", 310);
+dryer.addRecipe(dryAdobe1);
+ 
+var dryAdobeJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<earthworks:item_adobe>);
+}).requireItem("input",<contenttweaker:unfired_adobe_brick>).requireDuration("duration", 310);
+dryer.addJEIRecipe(dryAdobeJEI);
+
+// muh soap
+var drySoap1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<betterwithmods:aesthetic:10>);
+}).requireItem("input",<betterwithaddons:wet_soap>).requireDuration("duration", 200);
+dryer.addRecipe(drySoap1);
+ 
+var drySoapJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<betterwithmods:aesthetic:10>);
+}).requireItem("input",<betterwithaddons:wet_soap>).requireDuration("duration", 200);
+dryer.addJEIRecipe(drySoapJEI);

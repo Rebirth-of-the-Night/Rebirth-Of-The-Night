@@ -3010,7 +3010,7 @@
 	{
 	"mob": "betteranimalsplus:badger",
 	"dimension": 0,
-	"onjoin": false,
+	"onjoin": true,
 	"result": "default",
 	"nbt": {"DeathLootTable": "rotn:bap_badger"}
 	}
