@@ -1,7 +1,5 @@
 #version 150 compatibility
 
-#define FOG_ENABLED
-
 uniform sampler2D texture;
 
 uniform float far;

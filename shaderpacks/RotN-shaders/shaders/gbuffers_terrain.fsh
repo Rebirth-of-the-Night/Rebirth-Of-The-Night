@@ -10,9 +10,7 @@ uniform float fogDensity;
 in vec2 lmcoord;
 in vec2 texcoord;
 in vec4 glcolor;
-
 in float hn_distance;
-flat in int isLifeblood;
 
 void main() {
 	vec4 color = texture2D(texture, texcoord) * glcolor;

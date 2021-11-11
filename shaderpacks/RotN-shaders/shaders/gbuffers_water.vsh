@@ -26,7 +26,7 @@ void main() {
 		isLifeblood = 0;
 	}
 
-	uv = frx_faceUv(gl_Vertex.xyz, gl_Normal.xyz);
+	uv = frx_faceUv(gl_Vertex.xyz, gl_Normal.xyz) * 4.0;
 
 	vec3 viewPos = (gl_ModelViewMatrix * gl_Vertex).xyz;
 	hn_distance = length(viewPos);
