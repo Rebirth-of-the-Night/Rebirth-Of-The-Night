@@ -1,6 +1,12 @@
 {
-  "parent" : "item/generated",
-  "textures" : {
-    "layer0" : "requious:items/interaction"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "requious:items/interaction"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [-180, 0, -180]
+		}
+	}
 }

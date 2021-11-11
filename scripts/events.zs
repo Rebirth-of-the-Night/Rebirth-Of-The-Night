@@ -173,17 +173,64 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 	}
 
 	{ // INTERACTABLE
-		// Map of spirit spawning mobs.
+		// Map of spirit spawning mobs. (These live for 10600 ticks)
 		// Format is:
 		// entity id : spirit count
 		val spiritSpawningMobs as int[string] = {
-			"specialmobs:hungryzombie" : 4
+			"quark:wraith" : 1,
+			"twilightforest:wraith" : 1,
+			"mod_lavacow:banshee" : 1,
+			"mod_lavacow:avaton" : 1
+			
 		} as int[string];
 
-		// Spirit spawning
+		// Strong spirit spawning
 		if (spiritSpawningMobs.keySet has event.entityLivingBase.definition.id) {
 			server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:0,Value:"~spiritSpawningMobs[event.entityLivingBase.definition.id]~"}");
-			print("Spawned spirit");
+			print("Spawned strong spirit");
+		}
+	}
+	
+	{ // INTERACTABLE
+		// Map of quickly-dissapearing-spirit spawning mobs. (These live for 200 ticks)
+		// Format is:
+		// entity id : spirit count
+		val flashSpiritSpawningMobs as int[string] = {
+			"minecraft:wither_skeleton" : 1,
+			"minecraft:skeleton" : 1,
+			"mod_lavacow:banshee" : 1,
+			"betterslimes:spectral_slime" : 1,
+			"mod_lavacow:mimic" : 4,
+			"primitivemobs:skeleton_warrior" : 1,
+			"twilightforest:skeleton_druid" : 1,
+			"mod_lavacow:skeletonking" : 1,
+			"mod_lavacow:scarecrow" : 1,
+			"trumpetskeleton:trumpet_skeleton" : 1,
+			"specialmobs:specialskeleton" : 1,
+			"specialmobs:bruteskeleton" : 1,
+			"specialmobs:fireskeleton" : 1,
+			"specialmobs:gatlingskeleton" : 1,
+			"specialmobs:giantskeleton" : 1,
+			"specialmobs:knightskeleton" : 1,
+			"specialmobs:ninjaskeleton" : 1,
+			"specialmobs:poisonskeleton" : 1,
+			"specialmobs:sniperskeleton" : 1,
+			"specialmobs:spitfireskeleton" : 1,
+			"specialmobs:strayskeleton" : 1,
+			"specialmobs:specialwitherskelet" : 1,
+			"specialmobs:brutewitherskeleton" : 1,
+			"specialmobs:gatlingwitherskeleton" : 1,
+			"specialmobs:giantwitherskeleton" : 1,
+			"specialmobs:knightwitherskeleton" : 1,
+			"specialmobs:ninjawitherskeleton" : 1,
+			"specialmobs:sniperwitherskeleton" : 1,
+			"specialmobs:spitfirewitherskeleton" : 1
+		} as int[string];
+
+		// Weak spirit spawning
+		if (flashSpiritSpawningMobs.keySet has event.entityLivingBase.definition.id) {
+			server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:10400,Value:"~flashSpiritSpawningMobs[event.entityLivingBase.definition.id]~"}");
+			print("Spawned weak spirit");
 		}
 	}
 });
@@ -293,7 +340,62 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
 		// Format is:
 		// broken state : replacing state
 		val blockBreakTransforms as IBlockState[IBlockState] = {
-			<blockstate:minecraft:dirt> : <blockstate:minecraft:lava:level=11>
+			<blockstate:osv:magma_deposits_hardened_clay:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_hardened_clay:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_pyrotech_limestone:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_pyrotech_limestone:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_red_sandstone:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_red_sandstone:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_sandstone:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_sandstone:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_stained_hardened_clay:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_stained_hardened_clay:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_1:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_1:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_2:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_2:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_3:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_3:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_4:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_4:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_5:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_5:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_6:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_6:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_7:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_7:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_1:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_1:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_2:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_2:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_3:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_3:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_4:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_4:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_5:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_5:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_6:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_6:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_7:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_7:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_1:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_1:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_2:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_2:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_3:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_3:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_5:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_5:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_6:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_6:1> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_7:0> : <blockstate:minecraft:lava:level=11>,
+			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_7:1	> : <blockstate:minecraft:lava:level=11>
 		} as IBlockState[IBlockState];
 
 		// Checking block

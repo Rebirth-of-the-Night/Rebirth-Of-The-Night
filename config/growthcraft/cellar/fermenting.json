@@ -327,26 +327,6 @@
     },
     {
       "comment": "",
-      "item": null,
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluid_booze_apple_cider_fermented"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
       "item": {
         "ore": "yeastPoison",
         "comment": "",
@@ -355,26 +335,6 @@
         "amount": 1,
         "meta": 32767
       },
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluid_booze_apple_cider_potent"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": null,
       "input_fluid": {
         "name": null,
         "names": [
@@ -421,26 +381,6 @@
     },
     {
       "comment": "",
-      "item": null,
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluid_booze_apple_cider_extended"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
       "item": {
         "ore": "yeastPoison",
         "comment": "",
@@ -449,26 +389,6 @@
         "amount": 1,
         "meta": 32767
       },
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluid_booze_apple_cider_ethereal"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": null,
       "input_fluid": {
         "name": null,
         "names": [
@@ -500,46 +420,6 @@
         "name": null,
         "names": [
           "fluid_booze_apple_cider_intoxicated"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluid_booze_apple_cider_intoxicated"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Apple Cider",
-        "name": "fluid_booze_apple_cider_poisoned",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": null,
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluid_booze_apple_cider_poisoned"
         ],
         "inclusion_tags": [],
         "exclusion_tags": [],
