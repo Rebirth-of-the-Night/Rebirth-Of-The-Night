@@ -4,7 +4,9 @@ This directory contains shaders used for RotN, which currently fixes vanilla fog
 
 Performance impact should be negligible, but if you do notice a performance decrease, feel free to disable the shaderpack. The shaderpack is not required for normal gameplay.
 
-# License & Important Info
+Credit goes to Builderb0y for creating a base shaderpack containing all shader files, which made it convenient to edit.
+
+## Source Credit & License
 
 The content of this directory is licensed under the MIT License, included within this shaderpack. However, this shaderpack bundles and uses library functions from the following repositories:
 
