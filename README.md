@@ -43,4 +43,4 @@ As of Version 3, OptiFine and the Soundtrack are automatically included and **do
 
 [v3.0 BETA 4 Client](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3219146)
 
-[v3.0 BETA 4 Server Pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3219159)
+[v3.0 BETA 4 Server Pack](https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night/files/3219159) 
