@@ -1,12 +1,12 @@
 {
     "name": "Screw Pump",
     "icon": "betterwithmods:screw_pump",
-    "category": "innovation_burn",
+    "category": "innovation_utilities",
     "read_by_default": "true",
     "pages": [
         {
             "type": "crafting",
-            "recipe": "betterwithmods:blocks/mech/screw_pump",
+            "recipe": "crafttweaker:pump_block",
             "text": "An interesting machine which pumps water upward to form a partial flow from the top. This only works when I provide water flow into its input mouth, and mechanical power from the bottom."
         },
         {

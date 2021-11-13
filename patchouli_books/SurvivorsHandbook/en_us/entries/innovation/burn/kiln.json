@@ -7,7 +7,7 @@
     "pages": [
 		{
 			"type": "spotlight",
-			"item": "pyrotech:brick_kiln",
+			"item": "pyrotech:stone_kiln",
 			"text": "After experimenting a bit with alternative furnace concepts, I came up with the idea of making a kiln that can slowly melt materials in bulk all at the same time for relatively low amounts of fuel."
 		},
 		{
@@ -17,7 +17,7 @@
 		},
 		{
             "type": "text",
-            "text": "With this device I can achieve the temperature needed to make bronze alloy as well as turning wood into charcoal without burning it up.$(br2)I just need to carefully ignite it and then I can estimate how much time it will take."
+            "text": "With this device I can achieve the temperature needed to make bronze alloy as well as turning wood into charcoal without burning it up, among other uses.$(br2)I just need to carefully ignite it, and then I can estimate how much time it will take."
 		},
 		{
             "type": "text",

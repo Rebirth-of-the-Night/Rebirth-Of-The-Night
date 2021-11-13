@@ -10,11 +10,11 @@
       "type": "spotlight",
       "title": "In the End",
       "item": "endreborn:dragon_scales",
-      "text": "$(#734608)'Endless does the dragon, last of her kind, fly in vain / bearing the weight of all her world.' Translated this phrase within the log of a codex. A poem, or some kind of prayer?$()$()"
+      "text": "$(#734608)'Endless does the dragon, last of her kind, fly in vain/bearing the weight of all her world' $(br2)Translated this phrase within the log of a codex. A poem, or some kind of prayer?$()$()"
     },
     {
       "type": "text",
-      "text": "$(#734608) Runes inscribed on some of the $(thing)crystals$() $(#734608)I've seen in Ender outposts seem to reference 'restoring' or 'sustaining' some kind of ancient ruined beast - that same dragon? Crystals are extremely volatile (great as remote detonation triggers!), but I haven't been able to detect any kind of healing energy or life quintessence inside them, no matter what I try.$()."
+      "text": "$(#734608)Runes inscribed on some of the $(thing)crystals$() $(#734608)I've seen in Ender outposts seem to reference 'restoring' or 'sustaining' some kind of ancient ruined beast - that same dragon? Crystals are extremely volatile (great as remote detonation triggers!), but I haven't been able to detect any kind of healing energy or life quintessence inside them, no matter what I try.$()."
     },
     {
       "type": "entity",
