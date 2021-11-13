@@ -3138,7 +3138,7 @@ recipes.remove(<harvestcraft:fortunecookieitem>);
 ExSartagine.addKettleRecipe([dough,sugar],<minecraft:paper>,null,[<harvestcraft:fortunecookieitem>],80);
 //Deviled egg
 recipes.remove(<harvestcraft:deviledeggitem>);
-ArcaneWorld.createRitualCreateItem("deviled_egg", "Deviled Egg", <harvestcraft:deviledeggitem>, [egg,mayo,mustard,salt,blackPepper]);
+ArcaneWorld.createRitualCreateItem("deviled_egg", "Deviled Egg", <harvestcraft:deviledeggitem>, [egg,mayo,mustard,salt,blackPepper]).build();
 //Mozzerella Sticks
 recipes.remove(<harvestcraft:mozzerellasticksitem>);
 ExSartagine.addKettleRecipe([cheese,cookingOil,batter],null,null,[<harvestcraft:mozzerellasticksitem>],80);
