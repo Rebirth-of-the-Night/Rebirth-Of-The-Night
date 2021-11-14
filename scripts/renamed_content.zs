@@ -315,6 +315,11 @@ for potion in potionMap{
 <contenttweaker:phosphophyllite>.addTooltip(format.gold("Legendary Material"));
 <contenttweaker:phosphophyllite>.addTooltip("Extremely rare gem. Valuable to the Nether natives.");
 
+<contenttweaker:material_part:12>.displayName = "Aetherial Electrum Ingot";
+<contenttweaker:material_part:16>.displayName = "Aetherial Electrum Nugget";
+<contenttweaker:material_part:38>.displayName = "Aetherial Electrum Dust";
+<forge:bucketfilled>.withTag({FluidName: "electrum", Amount: 1000}).displayName = "Molten Aetherial Electrum Bucket";
+
 <dungeontactics:lantern_magic>.addTooltip(format.gold("Legendary Artifact"));
 
 <aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));

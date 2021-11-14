@@ -141,7 +141,7 @@
   },
   {
     "resourceName": "growth_ferment",
-    "model": "requious:growth_ferment",
+    "model": "requious:fermentation",
     "placeType": "Any",
     "hasGUI": true,
     "colorA": {
