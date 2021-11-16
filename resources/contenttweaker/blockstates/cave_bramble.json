@@ -11,6 +11,11 @@
   },
   "variants": {
     "normal": [{}],
-    "inventory": [{}]
+    "inventory": [{
+      "model": "contenttweaker:items/cave_bramble",
+      "textures": {
+        "layer0": "contenttweaker:items/cave_bramble"
+      }
+    }]
   }
 }

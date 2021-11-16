@@ -48,6 +48,21 @@ dormant_onyx.setBlockResistance(9999999999999999.0);
 dormant_onyx.setBeaconBase(false);
 dormant_onyx.register();
 
+//  Fiery nether sludge
+var fiery_nether_sludge = VanillaFactory.createBlock("fiery_nether_sludge", <blockmaterial:Ground>);
+fiery_nether_sludge.setCreativeTab(<creativetab:rotn_blocks>);
+fiery_nether_sludge.setBlockSoundType(<soundtype:Ground>);
+fiery_nether_sludge.setToolClass("none");
+fiery_nether_sludge.setToolLevel(0);
+fiery_nether_sludge.setBlockHardness(2.0);
+fiery_nether_sludge.register();
+
+//  Hardened fiery nether sludge
+var hardened_fiery_nether_sludge = VanillaFactory.createBlock("hardened_fiery_nether_sludge", <blockmaterial:Rock>);
+hardened_fiery_nether_sludge.setCreativeTab(<creativetab:rotn_blocks>);
+hardened_fiery_nether_sludge.setToolLevel(0);
+hardened_fiery_nether_sludge.setBlockHardness(2.8);
+hardened_fiery_nether_sludge.register();
 
 // Charcoal pile
 var charlog = VanillaFactory.createBlock("charcoal_pile", <blockmaterial:Wood>);
@@ -56,7 +71,7 @@ charlog.setBlockSoundType(<soundtype:Ground>);
 charlog.setToolClass("axe");
 charlog.register();
 
-//  Mothane
+//  Mossthane
 var charmpeat = VanillaFactory.createBlock("charmpeat", <blockmaterial:Ground>);
 charmpeat.setCreativeTab(<creativetab:rotn_blocks>);
 charmpeat.setBlockSoundType(<soundtype:Ground>);

@@ -21,6 +21,7 @@ moss_patch.setSlipperiness(0.89f);
 moss_patch.setLightOpacity(0);
 moss_patch.setBlockLayer("CUTOUT");
 moss_patch.setBlockSoundType(<soundtype:plant>);
+moss_patch.setToolClass("none");
 moss_patch.register();
 
 var cave_rafflesia = VanillaFactory.createBlock("cave_rafflesia", <blockmaterial:Grass>);
@@ -40,6 +41,7 @@ cave_rafflesia.setReplaceable(true);
 cave_rafflesia.setLightOpacity(0);
 cave_rafflesia.setBlockLayer("CUTOUT");
 cave_rafflesia.setBlockSoundType(<soundtype:plant>);
+cave_rafflesia.setToolClass("none");
 cave_rafflesia.register();
 
 var cave_grass = VanillaFactory.createBlock("cave_grass", <blockmaterial:Grass>);
@@ -59,6 +61,7 @@ cave_grass.setReplaceable(true);
 cave_grass.setLightOpacity(0);
 cave_grass.setBlockLayer("CUTOUT");
 cave_grass.setBlockSoundType(<soundtype:plant>);
+cave_grass.setToolClass("none");
 cave_grass.register();
 
 var cave_bramble = VanillaFactory.createBlock("cave_bramble", <blockmaterial:Grass>);
@@ -78,16 +81,17 @@ cave_bramble.setReplaceable(true);
 cave_bramble.setLightOpacity(0);
 cave_bramble.setBlockLayer("CUTOUT");
 cave_bramble.setBlockSoundType(<soundtype:plant>);
+cave_bramble.setToolClass("none");
 cave_bramble.register();
 
 var perforata = VanillaFactory.createBlock("perforata", <blockmaterial:Plants>);
 perforata.axisAlignedBB = AxisAlignedBB.create(
-     5.0 / 16.0,
+     4.0 / 16.0,
      0.0 / 16.0,
-     5.0 / 16.0,
-	11.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
     16.0 / 16.0,
-    11.0 / 16.0
+    12.0 / 16.0
 	);
 perforata.setBlockHardness(0.0);
 perforata.setBlockResistance(2.0);
@@ -97,4 +101,5 @@ perforata.setReplaceable(false);
 perforata.setLightOpacity(0);
 perforata.setBlockLayer("CUTOUT");
 perforata.setBlockSoundType(<soundtype:plant>);
+perforata.setToolClass("none");
 perforata.register();

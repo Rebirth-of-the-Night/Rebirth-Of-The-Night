@@ -43,6 +43,110 @@
 				"restriction": "whitelist",
 				"value": "biomesoplenty:volcanic_island"
 			}
+		},
+		"generic": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 5,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_dolomite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_green_schist"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_blue_schist"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:lush_desert",
+					"minecraft:plains",
+					"minecraft:extreme_hills",
+					"minecraft:extreme_hills_with_trees",
+					"minecraft:savanna",
+					"minecraft:savanna_rock",
+					"minecraft:mutated_savanna_rock",
+					"biomesoplenty:xeric_shrubland",
+					"biomesoplenty:shrubland",
+					"biomesoplenty:alps_foothills",
+					"biomesoplenty:mountain_foothills",
+					"biomesoplenty:redwood_forest_edge",
+					"biomesoplenty:pasture",
+					"minecraft:beaches",
+					"minecraft:mutated_plains",
+					"biomesoplenty:lavender_fields",
+					"biomesoplenty:crag",
+					"biomesoplenty:flower_field",
+					"biomesoplenty:grassland",
+					"biomesoplenty:grove",
+					"minecraft:forest",
+					"minecraft:forest_hills",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:mutated_extreme_hills",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"minecraft:mutated_extreme_hills_with_trees",
+					"biomesoplenty:bamboo_forest",
+					"biomesoplenty:cherry_blossom_grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:meadow",
+					"biomesoplenty:mountain",
+					"biomesoplenty:orchard",
+					"biomesoplenty:woodland"
+				]
+			}
 		}
 	}
 }

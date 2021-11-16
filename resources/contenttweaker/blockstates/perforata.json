@@ -11,6 +11,11 @@
   },
   "variants": {
     "normal": [{}],
-    "inventory": [{}]
+    "inventory": [{
+      "model": "contenttweaker:items/perforata",
+      "textures": {
+        "layer0": "contenttweaker:items/perforata"
+      }
+    }]
   }
 }

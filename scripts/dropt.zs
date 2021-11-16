@@ -479,7 +479,43 @@ Dropt.list("cobweb_silt")
       )
   );
 
-Dropt.list("cave_grass")
+Dropt.list("cave_grass_shears")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cave_grass"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("WHITELIST", [<minecraft:shears:*>, <ceramics:clay_shears:*>, <cyclicmagic:shears_obsidian:*>, <simpleores:adamantium_shears:*>, <simpleores:mythril_shears:*>, <simpleores:onyx_shears:*>])
+	  )
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
+      .addDrop(Dropt.drop()
+          .items([<contenttweaker:cave_grass>])
+      )
+  );
+
+Dropt.list("cave_bramble_shears")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:cave_bramble"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("BLACKLIST", [<minecraft:shears:*>, <ceramics:clay_shears:*>, <cyclicmagic:shears_obsidian:*>, <simpleores:adamantium_shears:*>, <simpleores:mythril_shears:*>, <simpleores:onyx_shears:*>])
+      )
+      .addDrop(Dropt.drop())
+  );
+
+Dropt.list("cave_moss_carpet_shears")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:moss_patch"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("BLACKLIST", [<minecraft:shears:*>, <ceramics:clay_shears:*>, <cyclicmagic:shears_obsidian:*>, <simpleores:adamantium_shears:*>, <simpleores:mythril_shears:*>, <simpleores:onyx_shears:*>])
+      )
+      .addDrop(Dropt.drop())
+  );
+
+Dropt.list("cave_grass_drops")
 
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:cave_grass"])
@@ -510,7 +546,7 @@ Dropt.list("nether_grass")
           .items([<pyrotech:tinder>])
       )
   );
- 
+
 Dropt.list("plants_basic_dry")
 
   .add(Dropt.rule()
@@ -529,7 +565,7 @@ Dropt.list("plants_basic_dry")
           .items([<pyrotech:material:11>])
       )
   );
-  
+
 Dropt.list("plants_basic_dead")
 
   .add(Dropt.rule()
@@ -573,7 +609,7 @@ Dropt.list("tall_grass_base_drops")
           .items([<betterwithaddons:food_mulberry>])
       )
   );
-  
+
 Dropt.list("double_tall_grass_base_drops")
 
   .add(Dropt.rule()
@@ -595,7 +631,7 @@ Dropt.list("double_tall_grass_base_drops")
           .items([<dungeontactics:flower_ailment>])
 	  )
   );
-  
+
 Dropt.list("slaked_lime")
 	.add(Dropt.rule()
 	  .matchBiomes(["minecraft:ocean","minecraft:deep_ocean","minecraft:river","minecraft:frozen_ocean","biomesoplenty:coral_reef","biomesoplenty:kelp_forest"])
@@ -649,6 +685,7 @@ Dropt.list("slaked_lime")
           .items([<rats:ancient_sawblade>])
 	  )	 	
   );
+
 Dropt.list("desert_varnish")
 
   .add(Dropt.rule()
@@ -665,6 +702,7 @@ Dropt.list("desert_varnish")
 		  .items([<minecraft:clay_ball>])
       )	
   );
+
 Dropt.list("wonder_geode")
 
   .add(Dropt.rule()
@@ -706,6 +744,7 @@ Dropt.list("wonder_geode")
 		  .items([<contenttweaker:vis_speck>])
       )
   );
+
 Dropt.list("ardicite")
 
   .add(Dropt.rule()
@@ -722,6 +761,17 @@ Dropt.list("ardicite")
        	   .items([<contenttweaker:ground_fiery_netherrack>])
       )
   );
+
+Dropt.list("fiery_sludge_block")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:fiery_nether_sludge"])
+      .addDrop(Dropt.drop()
+      	  .selector(Dropt.weight(1))
+	  .items([<contenttweaker:fiery_sludge>], Dropt.range(4))
+      )
+  );
+
 Dropt.list("lodestone")
 
   .add(Dropt.rule()
@@ -731,6 +781,7 @@ Dropt.list("lodestone")
        	   .items([<minecraft:stonebrick:3>])
       )
   ); 
+
 Dropt.list("lignite")
 
   .add(Dropt.rule()
@@ -740,6 +791,7 @@ Dropt.list("lignite")
        	   .items([<contenttweaker:lignite_cobble>])
       )
   ); 
+
 Dropt.list("fuit_silk")
 
   .add(Dropt.rule()
@@ -749,6 +801,7 @@ Dropt.list("fuit_silk")
        	   .items([<contenttweaker:spider_silk>])
       )
   ); 
+
 // Cobbled Path blocks
 Dropt.list("cobblestone_path_coade")
 

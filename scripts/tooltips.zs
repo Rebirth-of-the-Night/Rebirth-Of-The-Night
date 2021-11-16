@@ -2,6 +2,8 @@
 // Removed any tooltip including ID to avoid confussion
 <requious:interaction>.clearTooltip();
 <requious:interaction>.addTooltip(format.white("In-World Interaction"));
+<requious:growth_ferment>.clearTooltip();
+<requious:growth_ferment>.addTooltip(format.white("Fermentation"));
 <contenttweaker:rice_paddy_dummy>.clearTooltip();
 <contenttweaker:rice_paddy_dummy>.addTooltip(format.white("Rice Paddy"));
 
@@ -416,7 +418,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <contenttweaker:steel_artifact>.addShiftTooltip('A relic of the old days. Can be rarely dropped from "older" undead."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
-<ore:dustNetherrack>.addTooltip("Turns into sludge if it touches water.");
+<contenttweaker:ground_fiery_netherrack>.addTooltip("Turns into sludge if it touches water.");
+<betterwithmods:material:15>.addTooltip("Turns into sludge if it touches water.");
 
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");

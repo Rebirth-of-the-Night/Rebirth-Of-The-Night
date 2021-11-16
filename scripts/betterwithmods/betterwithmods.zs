@@ -124,6 +124,16 @@ recipes.addShaped("hardened_nether_sludge", <betterwithmods:aesthetic:2>, [
     [<betterwithmods:nether_clay>, <betterwithmods:nether_clay>]
 ]);
 
+recipes.addShaped("fiery_nether_sludge", <contenttweaker:fiery_nether_sludge>, [
+    [<contenttweaker:fiery_sludge>, <contenttweaker:fiery_sludge>],
+    [<contenttweaker:fiery_sludge>, <contenttweaker:fiery_sludge>]
+]);
+
+recipes.addShaped("hardened_fiery_nether_block", <contenttweaker:hardened_fiery_nether_sludge>, [
+    [<contenttweaker:fiery_nether_sludge>, <contenttweaker:fiery_nether_sludge>],
+    [<contenttweaker:fiery_nether_sludge>, <contenttweaker:fiery_nether_sludge>]
+]);
+
 var latch = <betterwithmods:material:34>;
 var copper = <ore:ingotCopper>;
 var gnugg = <minecraft:gold_nugget>;
