@@ -255,6 +255,7 @@
     minecraft:stone
     minecraft:dirt
     minecraft:dirt:2
+    contenttweaker:weathered_dirt
     minecraft:grass
     biomesoplenty:dirt:0
     biomesoplenty:dirt:1

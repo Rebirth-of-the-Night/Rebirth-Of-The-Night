@@ -1,0 +1,21 @@
+{
+	"populate": 
+	{
+		"arid_desert_halite": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:halite",
+				"surface": "contenttweaker:salty_crust",
+				"see-sky": true,
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:atacamian_desert"
+			}
+		}
+	}
+}

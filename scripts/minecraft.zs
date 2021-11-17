@@ -1499,7 +1499,7 @@ val mortarCommon = <ore:mortarCommon>;
 mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:item_cob>]);
 
 val mortarRefractory = <ore:mortarRefractory>;
-mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:15>]);
+mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:35>]);
 
 // Brick Rework
 // Primitive Bricks
