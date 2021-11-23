@@ -1,0 +1,33 @@
+{
+	"dependencies":  [
+		{
+			"id": "earthworks"
+		},
+		{
+			"id": "netherex"
+		},
+		{
+			"id": "biomesoplenty"
+		}
+	],
+	"populate": {
+		"visceral_green_slate": {
+			"distribution": "cave",
+			"generator": {
+				"type": "boulder",
+				"block": "earthworks:block_slate_green",
+				"material": ["netherex:fiery_netherrack", "minecraft:netherrack", "biomesoplenty:flesh"],
+				"diameter": 7,
+				"size-variance": 4
+			},
+			"cluster-count": 1,
+			"chunk-chance": 17,
+			"ground-level": 90,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biomesoplenty:visceral_heap"
+			}
+		}
+	}
+}

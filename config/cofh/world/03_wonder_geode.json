@@ -11,9 +11,9 @@
 			"generator": {
 				"type": "cluster",
 				"block": "rotn_blocks:wonder_geode",
-				"cluster-size": 3,
+				"cluster-size": 7,
 				},
-			"cluster-count": 3,
+			"cluster-count": 2,
 			"material": [
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",

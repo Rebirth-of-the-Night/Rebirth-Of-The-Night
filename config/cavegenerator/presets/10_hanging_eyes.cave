@@ -1,0 +1,45 @@
+{
+  variables: {
+    #$HANGING("structureName", placementOffset, solidCheckOffset, "block", minHeight, maxHeight, chance, count, airChecks, biomes, blacklistBiomes)
+    HANGING: {
+      biomes: @10
+      blacklistBiomes: @11
+      name: @1
+      offset: [ 0, "@2", 0 ]
+      matchers: @4
+      airChecks: @9
+      solidChecks: [ [ 0, "@3", 0 ] ]
+      directions: up
+      chance: @7
+      count: @8
+      height: [ "@5", "@6" ]
+      checkSurface: false
+      integrity: 1
+    }
+  }
+  dimensions: [ -1 ]
+  structures: [
+    $HANGING("cave_structure_small_eye_vine_x5", -6, -17, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 21, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-6,0],[0,-10,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x6", -7, -18, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 22, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-7,0],[0,-11,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x7", -8, -19, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 23, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x8", -9, -20, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 24, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-9,0],[0,-13,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x9", -10, -21, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 25, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-10,0],[0,-14,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x10", -11, -22, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 26, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-11,0],[0,-15,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x11", -12, -23, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 27, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-16,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x12", -13, -24, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 28, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-13,0],[0,-17,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x13", -14, -25, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 29, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-14,0],[0,-18,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x14", -15, -26, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 30, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-15,0],[0,-19,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_small_eye_vine_x15", -16, -27, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 31, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-16,0],[0,-20,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x5", -6, -17, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 21, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-6,0],[0,-10,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x6", -7, -18, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 22, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-7,0],[0,-11,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x7", -8, -19, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 23, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x8", -9, -20, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 24, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-9,0],[0,-13,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x9", -10, -21, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 25, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-10,0],[0,-14,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x10", -11, -22, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 26, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-11,0],[0,-15,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x11", -12, -23, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 27, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-16,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x12", -13, -24, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 28, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-13,0],[0,-17,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x13", -14, -25, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 29, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-14,0],[0,-18,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x14", -15, -26, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 30, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-15,0],[0,-19,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+    $HANGING("cave_structure_big_eye_vine_x15", -16, -27, ["biomesoplenty:flesh", "netherex:fiery_netherrack:0", "minecraft:netherrack"], 31, 120, 0.7, 3, [[0,-1,0],[0,-4,0],[0,-8,0],[0,-12,0],[0,-16,0],[0,-20,0]], { names: [ "biomesoplenty:visceral_heap" ], types: [] }, false)
+  ]
+}

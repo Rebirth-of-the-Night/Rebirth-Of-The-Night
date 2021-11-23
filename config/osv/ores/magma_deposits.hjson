@@ -18,7 +18,7 @@ recipe: {
 gen: [
   {
     height: [ 0, 20 ]
-    size: 8
-    count: 5
+    size: 0
+    count: 0
   }
 ]
