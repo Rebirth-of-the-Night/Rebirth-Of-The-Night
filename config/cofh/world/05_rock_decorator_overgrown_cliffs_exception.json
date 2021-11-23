@@ -1,0 +1,78 @@
+{
+	"populate": {
+		"overgrown_cliffs": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_quartzite"
+						}
+
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"undergroundbiomes:sedimentary_sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:metamorphic_overgrown",
+					"undergroundbiomes:sedimentary_overgrown",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 25
+			},
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:overgrown_cliffs"
+				]
+			}
+		}
+	}
+}

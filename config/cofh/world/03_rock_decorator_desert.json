@@ -1,0 +1,48 @@
+{
+	"populate": {
+		"desert": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 7,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 25
+			},
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:desert",
+					"minecraft:desert_hills",
+					"minecraft:mutated_desert",
+					"biomesoplenty:oasis"
+				]
+			}
+		}
+	}
+}
