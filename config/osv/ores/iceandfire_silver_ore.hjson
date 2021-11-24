@@ -8,8 +8,8 @@ block: {
 loot: [
   {
     item: contenttweaker:raw_silver
-    count: [ 1, 1 ]
-    xp: [ 0, 0 ]
+    count: [ 1, 2 ]
+    xp: [ 1, 2 ]
     chance: 1
   }
 ]

@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "contenttweaker:blocks/ofuda",
+		"particle": "contenttweaker:blocks/ofuda"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 4],
+			"to": [8, 16, 12],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#0"}
+			}
+		}
+	]
+}

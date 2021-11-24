@@ -1,3 +1,4 @@
 isBlock, size=64 *=2
 isBlock, size=32 *=2
 isBlock, size=16 *=2
+id="growthcraft:rope" -> 128

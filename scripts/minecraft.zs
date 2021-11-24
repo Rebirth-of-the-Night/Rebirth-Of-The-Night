@@ -1263,7 +1263,12 @@ val foodJelly = <ore:foodJelly>;
 foodJelly.addItems([<harvestcraft:grapejellyitem>,<harvestcraft:applejellyitem>,<harvestcraft:blackberryjellyitem>,<harvestcraft:blueberryjellyitem>,<harvestcraft:cherryjellyitem>,<harvestcraft:cranberryjellyitem>,<harvestcraft:kiwijellyitem>,<harvestcraft:lemonjellyitem>,<harvestcraft:limejellyitem>,<harvestcraft:mangojellyitem>,<harvestcraft:orangejellyitem>,<harvestcraft:papayajellyitem>,<harvestcraft:peachjellyitem>,<harvestcraft:pomegranatejellyitem>,<harvestcraft:raspberryjellyitem>,<harvestcraft:starfruitjellyitem>,<harvestcraft:strawberryjellyitem>,<harvestcraft:watermelonjellyitem>,<harvestcraft:apricotjellyitem>,<harvestcraft:figjellyitem>,<harvestcraft:grapefruitjellyitem>,<harvestcraft:persimmonjellyitem>,<harvestcraft:gooseberryjellyitem>,<harvestcraft:pearjellyitem>,<harvestcraft:plumjellyitem>,<harvestcraft:pepperjellyitem>]);
 
 val allFruit = <ore:listAllfruit>;
-allFruit.remove(<rustic:olives>);
+allFruit.remove([<rustic:olives>,<harvestcraft:mulberryitem>]);
+allFruit.add(<betterwithaddons:food_mulberry>);
+
+val allBerry = <ore:listAllberry>;
+allBerry.remove(<harvestcraft:mulberryitem>);
+allBerry.add(<betterwithaddons:food_mulberry>);
 
 val tuber = <ore:listAllTuber>;
 tuber.addAll(<ore:listAllrootveggie>);

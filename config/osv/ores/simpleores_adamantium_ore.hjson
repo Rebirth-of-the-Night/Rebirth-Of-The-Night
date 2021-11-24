@@ -27,15 +27,15 @@ recipe: {
 gen: [
   {
     height: [ 90, 120 ]
-    size: 18
+    size: 14
     count: 3
 	chance: 0.25
 	dimensions: [10]
   },
   {
     height: [ 121, 190 ]
-    size: 36
-    count: 7
+    size: 34
+    count: 6
 	chance: 0.5
 	dimensions: [10]
   }

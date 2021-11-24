@@ -169,7 +169,7 @@ RecipeBuilder.get("mage")
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [null, spirits, <dungeontactics:magic_scroll>.withTag(<enchantment:dungeontactics:magicmissile>.makeEnchantment(0).makeTag())],
+    [null, spirits, <defiledlands:tears_shulker>],
     [null, bead, spirits],
     [ironrod, null, null]])
   .addTool(<contenttweaker:energy_rune>, 1)

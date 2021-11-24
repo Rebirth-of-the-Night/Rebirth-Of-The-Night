@@ -11,12 +11,10 @@
 						"type" : "chalk"
 						}
 				},
-				"diameter": 3,
-				"count": 7
+				"diameter": 1,
+				"count": 10
 			},
 			"chunk-chance": 12,
-			"cluster-count": 2,
-			"size-variance": 1,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",

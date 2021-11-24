@@ -30,8 +30,8 @@ recipes.removeByRecipeName("animania:bed");
 
 recipes.remove(<animania:block_hamster_wheel>);
 recipes.addShaped("hamster_wheel",<animania:block_hamster_wheel>,[
-	[null,<ore:ingotIron>,null],
-	[<ore:ingotIron>,null,<ore:ingotIron>],
+	[null,<ore:genericMetal>,null],
+	[<ore:genericMetal>,null,<ore:genericMetal>],
 	[<ore:stoneSlab>,<ore:ingotIron>,<ore:stoneSlab>]
 ]);
 

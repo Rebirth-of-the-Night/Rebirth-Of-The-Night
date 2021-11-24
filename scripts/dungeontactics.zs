@@ -161,7 +161,7 @@ recipes.remove(<dungeontactics:rocket_pants>);
 recipes.addShaped("rocket_pants",<dungeontactics:rocket_pants>,[
     [<minecraft:redstone>,<ore:buttonStone>,<minecraft:redstone>],
     [<minecraft:fireworks>,<minecraft:leather_leggings>,<minecraft:fireworks>],
-    [<minecraft:fireworks>,<ore:ingotIron>,<minecraft:fireworks>]
+    [<minecraft:fireworks>,<ore:genericMetal>,<minecraft:fireworks>]
 ]);
 
 recipes.remove(<dungeontactics:bounce_boots>);
@@ -808,11 +808,11 @@ enchantmentsDTMap10 += enchantmentsDT10[0].makeEnchantment(0).makeTag();
 val enchantmentsDT11 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:smite>];
 var enchantmentsDTMap11 as IData = {};
 enchantmentsDTMap11 += enchantmentsDT11[0].makeEnchantment(0).makeTag();
-
+/*
 val enchantmentsDT12 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:magicmissile>];
 var enchantmentsDTMap12 as IData = {};
 enchantmentsDTMap12 += enchantmentsDT12[0].makeEnchantment(0).makeTag();
-
+*/
 val enchantmentsDT13 as IEnchantmentDefinition[] = [<enchantment:dungeontactics:pinmissile>];
 var enchantmentsDTMap13 as IData = {};
 enchantmentsDTMap13 += enchantmentsDT13[0].makeEnchantment(0).makeTag();
@@ -861,7 +861,7 @@ val wandWither = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap10);
 
 val wandSmite = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap11);
 
-val wandMagicMissile = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap12);
+val wandMagicMissile = <defiledlands:tears_shulker>;
 
 val wandPinMissile = <dungeontactics:magic_scroll>.withTag(enchantmentsDTMap13);
 
@@ -1246,19 +1246,6 @@ RecipeBuilder.get("mage")
 
 //  magic missile
 RecipeBuilder.get("mage")
-  .setName("wandMMJEI")
-  .setShaped([
-    [null, <ore:ingotGravitite>, <minecraft:shulker_shell>],
-    [null, <contenttweaker:voidseen_exorite>, <ore:ingotGravitite>],
-    [<contenttweaker:wand_base_mystical>, null, null]])
-  .addTool(<contenttweaker:air_rune>, 1)
-  .addTool(<endreborn:item_end_rune>, 1)
-  .addOutput(<contenttweaker:dummy_wand_mm>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
-RecipeBuilder.get("mage")
   .setName("wandMM")
   .setShaped([
     [null, <ore:ingotGravitite>, <minecraft:shulker_shell>],
@@ -1269,7 +1256,6 @@ RecipeBuilder.get("mage")
   .addOutput(wandMagicMissile)
   .setMinimumTier(1)
   .setMaximumTier(1)
-  .setHidden()
   .create();
 
 //  rage

@@ -1205,6 +1205,27 @@ weathered_dirt.setBlockResistance(5.0);
 weathered_dirt.setToolLevel(1);
 weathered_dirt.register();
 
+var ofuda = VanillaFactory.createBlock("ofuda", <blockmaterial:Plants>);
+ofuda.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     4.0 / 16.0,
+	12.0 / 16.0,
+    16.0 / 16.0,
+    12.0 / 16.0
+	);
+ofuda.setBlockHardness(0.0);
+ofuda.setBlockResistance(2.0);
+ofuda.setFullBlock(false);
+ofuda.setPassable(true);
+ofuda.setReplaceable(false);
+ofuda.setLightOpacity(0);
+ofuda.setLightValue(1);
+ofuda.setBlockLayer("CUTOUT");
+ofuda.setBlockSoundType(<soundtype:plant>);
+ofuda.setToolClass("none");
+ofuda.register();
+
 // sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);
 n_copper_sandstone.setCreativeTab(<creativetab:rotn_blocks>);

@@ -456,6 +456,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:magic_scroll>.removeTooltip("^Withering( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Smiting( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Magic Missile( \\d+)?");
+<defiledlands:tears_shulker>.addTooltip("Cast Cost = NONE");
 <dungeontactics:magic_scroll>.removeTooltip("^Pin Missile( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Transportation( \\d+)?");
 <dungeontactics:magic_scroll>.removeTooltip("^Companion( \\d+)?");

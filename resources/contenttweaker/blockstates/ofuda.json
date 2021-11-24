@@ -1,0 +1,28 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/ofuda",
+      "particle": "contenttweaker:blocks/ofuda"
+    },
+    "model": "contenttweaker:ofuda",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [
+			{ "model": "contenttweaker:blocks/ofuda" },
+			{ "model": "contenttweaker:blocks/ofuda", "y": 90 },
+            { "model": "contenttweaker:blocks/ofuda1" },
+            { "model": "contenttweaker:blocks/ofuda1", "y": 90 },
+            { "model": "contenttweaker:blocks/ofuda2" }
+			{ "model": "contenttweaker:blocks/ofuda2", "y": 90 }
+			],
+    "inventory": [{
+      "model": "contenttweaker:items/ofuda",
+      "textures": {
+        "layer0": "contenttweaker:items/ofuda"
+      }
+    }]
+  }
+}

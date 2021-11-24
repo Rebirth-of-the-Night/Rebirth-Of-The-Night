@@ -303,7 +303,7 @@ recipes.addShaped("Latch", latch,
   [null,rstone,null]]);
 // funnier rope
 recipes.remove(<betterwithmods:rope>);
-recipes.addShaped("benign_rope", rope*2,
+recipes.addShaped("benign_rope", rope*6,
   [[durable_fiber,durable_fiber],
   [durable_fiber,durable_fiber],
   [durable_fiber,durable_fiber]]);
@@ -394,7 +394,7 @@ recipes.addShaped("vine_trap", <betterwithmods:vine_trap>,
 recipes.remove(<fairylights:garland>);
 recipes.addShaped("vine_garland", <fairylights:garland>,
   [[null,null,null],
-  [<ore:ingotIron>,<ore:vine>,<ore:ingotIron>],
+  [<ore:genericMetal>,<ore:vine>,<ore:genericMetal>],
   [null,null,null]]);
 
 recipes.remove(<betterwithmods:raw_pastry:0>);
