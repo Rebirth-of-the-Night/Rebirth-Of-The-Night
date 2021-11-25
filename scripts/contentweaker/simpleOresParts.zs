@@ -9,7 +9,7 @@ import mods.contenttweaker.Item;
 // addMaterial(name as string, color as string, parts as string[], moltenStats as int[], ignoreTint as string[]);
 
 addMaterial("Copper", "D98D3F", ["nugget", "molten", "dust"], [1350, 8000, 7, 4000], ["nugget"]);
-addMaterial("Tin", "D0D0D0", ["nugget", "molten", "dust"], [500, 6980, 5, 1900], ["nugget"]);
+addMaterial("Tin", "B6BDAF", ["nugget", "molten", "dust"], [500, 6980, 5, 1900], ["nugget"]);
 addMaterial("Mythril", "4390F5", ["nugget", "molten", "dust"], [2500, 4750, 10, 5500], ["nugget"]);
 addMaterial("Viridium", "4CEF5A", ["nugget", "molten", "dust"], [2500, 3860, 9, 3200], ["nugget"]);
 addMaterial("Soulforged Steel", "535052", ["molten", "dust"], [2350, 8050, 10, 1800], [""]);
