@@ -1,0 +1,66 @@
+{
+	"populate": {
+		"frozen": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 8,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:snow",
+					"minecraft:sand",
+					"minecraft:snow_layer",
+					"minecraft:packed_ice",
+					"biomesoplenty:grass",
+					"biomesoplenty:hard_ice",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 25
+			},
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:ice_flats",
+					"minecraft:ice_mountains",
+					"minecraft:frozen_ocean",
+					"minecraft:frozen_river",
+					"biomesoplenty:snowy_tundra",
+					"biomesoplenty:tundra",
+					"biomesoplenty:cold_desert",
+					"minecraft:mutated_ice_flats",
+					"biomesoplenty:glacier",
+					"iceandfire:glacier"
+				]
+			}
+		}
+	}
+}

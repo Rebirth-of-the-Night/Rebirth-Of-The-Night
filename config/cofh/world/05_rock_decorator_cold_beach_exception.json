@@ -1,0 +1,56 @@
+{
+	"populate": {
+		"cold_beach": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 8,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:snow",
+					"minecraft:sand",
+					"minecraft:snow_layer",
+					"biomesoplenty:grass",
+					"biomesoplenty:hard_ice",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 25
+			},
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:cold_beach"
+				]
+			}
+		}
+	}
+}

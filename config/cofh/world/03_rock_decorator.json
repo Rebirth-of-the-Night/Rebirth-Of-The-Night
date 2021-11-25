@@ -19,7 +19,10 @@
 			"cluster-count": 4,
 			"chunk-chance": 7,
 			"retrogen": "true",
-			"biome": "all"
+			"biome": {
+				"restriction":"blacklist",
+				"value": "minecraft:cold_beach"
+			}
 		},
 		"volcano_granite_rock": {
 			"distribution": "surface",
