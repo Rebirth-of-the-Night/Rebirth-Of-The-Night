@@ -1,6 +1,6 @@
 {
 	"populate": {
-		"overworld_highland": {
+		"basaltic_rainforest": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
@@ -13,33 +13,34 @@
 						}
 					},
 					{
-						"name": "pyrotech:rock",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_limestone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 6,
-						"properties": {
-							"variant" : "rock_gneiss"
-						}
-
-					},
-					{
 						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 1,
+						"weight": 5,
 						"properties": {
-							"variant" : "rock_siltstone"
+							"variant" : "rock_dolomite"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 2,
+						"weight": 3,
 						"properties": {
-							"variant" : "rock_red_granite"
+							"variant" : "rock_basalt"
 						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_rhyolite"
+						}
+
 					}
 				],
 				"surface": [
@@ -47,7 +48,6 @@
 					"minecraft:dirt",
 					"minecraft:gravel",
 					"biomesoplenty:grass",
-					"undergroundbiomes:sedimentary_sandstone",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
@@ -60,7 +60,7 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"biomesoplenty:highland"
+					"biomesoplenty:rainforest"
 				]
 			}
 		}

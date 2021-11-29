@@ -1,29 +1,36 @@
 {
 	"populate": {
-		"cold_beach": {
+		"mudstones": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech:rock",
+						"name": "pyrotech_compat:rock_sedimentary",
 						"weight": 2,
 						"properties": {
-							"variant" : "rock_sandstone"
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_soapstone"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 8,
+						"weight": 2,
 						"properties": {
-							"variant" : "rock_andesite"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_igneous",
-						"weight": 4,
-						"properties": {
-							"variant" : "rock_red_granite"
+							"variant" : "rock_rhyolite"
 						}
 					}
 				],
@@ -31,24 +38,26 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
-					"minecraft:snow",
-					"minecraft:sand",
-					"minecraft:snow_layer",
 					"biomesoplenty:grass",
-					"biomesoplenty:hard_ice",
+					"biomesoplenty:mud",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 25
+				"cluster-size": 19
 			},
-			"cluster-count": 5,
+			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"minecraft:cold_beach"
+					"minecraft:swampland",
+					"minecraft:mutated_swampland",
+					"biomesoplenty:bayou",
+					"biomesoplenty:lush_swamp",
+					"biomesoplenty:wetland",
+					"biomesoplenty:land_of_lakes"
 				]
 			}
 		}

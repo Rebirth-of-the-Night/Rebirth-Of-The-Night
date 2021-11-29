@@ -1,10 +1,24 @@
 {
 	"populate": {
-		"overworld_highland": {
+		"mudstones_chaparral": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
 						"weight": 3,
@@ -13,32 +27,17 @@
 						}
 					},
 					{
-						"name": "pyrotech:rock",
+						"name": "pyrotech_compat:rock_metamorphic",
 						"weight": 3,
 						"properties": {
-							"variant" : "rock_limestone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 6,
-						"properties": {
-							"variant" : "rock_gneiss"
-						}
-
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 1,
-						"properties": {
-							"variant" : "rock_siltstone"
+							"variant" : "rock_soapstone"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
 						"weight": 2,
 						"properties": {
-							"variant" : "rock_red_granite"
+							"variant" : "rock_rhyolite"
 						}
 					}
 				],
@@ -47,7 +46,7 @@
 					"minecraft:dirt",
 					"minecraft:gravel",
 					"biomesoplenty:grass",
-					"undergroundbiomes:sedimentary_sandstone",
+					"biomesoplenty:mud",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
@@ -60,7 +59,7 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"biomesoplenty:highland"
+					"biomesoplenty:chaparral"
 				]
 			}
 		}

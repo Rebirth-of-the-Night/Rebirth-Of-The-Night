@@ -38,9 +38,9 @@
 					"undergroundbiomes:igneous_stone",
 					"minecraft:snow"
 				],
-				"cluster-size": 25
+				"cluster-size": 19
 			},
-			"cluster-count": 5,
+			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -57,11 +57,6 @@
 					"minecraft:mutated_redwood_taiga",
 					"minecraft:mutated_redwood_taiga_hills",
 					"biomesoplenty:alps",
-					"biomesoplenty:coniferous_forest",
-					"biomesoplenty:snowy_coniferous_forest",
-					"biomesoplenty:snowy_forest",
-					"biomesoplenty:dead_forest",
-					"biomesoplenty:steppe",
 					"biomesoplenty:boreal_forest"
 				]
 			}

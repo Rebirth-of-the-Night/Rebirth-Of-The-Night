@@ -1,13 +1,13 @@
 {
 	"populate": {
-		"overworld_highland": {
+		"mesa": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
+						"weight": 2,
 						"properties": {
 							"variant" : "rock_shale"
 						}
@@ -21,17 +21,9 @@
 					},
 					{
 						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 6,
+						"weight": 5,
 						"properties": {
 							"variant" : "rock_gneiss"
-						}
-
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 1,
-						"properties": {
-							"variant" : "rock_siltstone"
 						}
 					},
 					{
@@ -46,8 +38,10 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
+					"minecraft:sand",
 					"biomesoplenty:grass",
-					"undergroundbiomes:sedimentary_sandstone",
+					"minecraft:hardened_clay",
+					"minecraft:stained_hardened_clay",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
@@ -60,7 +54,9 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"biomesoplenty:highland"
+					"minecraft:mesa",
+					"minecraft:mesa_rock",
+					"minecraft:mesa_clear_rock"
 				]
 			}
 		}

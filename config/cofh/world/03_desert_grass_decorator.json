@@ -1,0 +1,47 @@
+{
+	"populate": {
+		"desert_grass": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "biomesoplenty:plant_0",
+						"weight": 1,
+						"properties": {
+							"variant" : "deadgrass"
+						}
+					},
+					{
+						"name": "biomesoplenty:plant_0",
+						"weight": 1,
+						"properties": {
+							"variant" : "desertgrass"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:dirt",
+					"minecraft:hardened_clay",
+					"minecraft:stained_hardened_clay"
+				],
+				"cluster-size": 4
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:desert",
+					"minecraft:desert_hills",
+					"minecraft:mutated_desert",
+					"minecraft:mesa",
+					"minecraft:mesa_rock",
+					"minecraft:mesa_clear_rock"
+				]
+			}
+		}
+	}
+}

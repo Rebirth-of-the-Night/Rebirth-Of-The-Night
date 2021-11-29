@@ -1,37 +1,29 @@
 {
 	"populate": {
-		"overworld_highland": {
+		"frozen_cold_desert": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
+						"name": "pyrotech:rock",
+						"weight": 4,
 						"properties": {
-							"variant" : "rock_shale"
+							"variant" : "rock_stone"
 						}
 					},
 					{
 						"name": "pyrotech:rock",
-						"weight": 3,
+						"weight": 1,
 						"properties": {
 							"variant" : "rock_limestone"
 						}
 					},
 					{
-						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 6,
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 5,
 						"properties": {
-							"variant" : "rock_gneiss"
-						}
-
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 1,
-						"properties": {
-							"variant" : "rock_siltstone"
+							"variant" : "rock_andesite"
 						}
 					},
 					{
@@ -46,8 +38,11 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
+					"minecraft:snow",
+					"minecraft:sand",
+					"minecraft:packed_ice",
 					"biomesoplenty:grass",
-					"undergroundbiomes:sedimentary_sandstone",
+					"biomesoplenty:hard_ice",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
@@ -60,7 +55,7 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"biomesoplenty:highland"
+					"biomesoplenty:cold_desert"
 				]
 			}
 		}

@@ -1,66 +1,75 @@
 {
 	"populate": {
-		"rainforest": {
+		"oceanic_landmass_outback": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech_compat:rock_sedimentary",
+						"name": "pyrotech:rock",
 						"weight": 3,
+						"properties": {
+							"variant" : "rock_sandstone_red"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic_sand",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_gneiss_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 1,
 						"properties": {
 							"variant" : "rock_shale"
 						}
 					},
 					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 5,
+						"name": "pyrotech:rock",
+						"weight": 2,
 						"properties": {
-							"variant" : "rock_dolomite"
+							"variant" : "rock_limestone"
 						}
 					},
 					{
-						"name": "pyrotech_compat:rock_igneous",
-						"weight": 3,
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 2,
 						"properties": {
-							"variant" : "rock_basalt"
+							"variant" : "rock_gneiss"
 						}
-					},
-					{
-						"name": "pyrotech_compat:rock_igneous",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_komatiite"
-						}
-
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
 						"weight": 4,
 						"properties": {
-							"variant" : "rock_rhyolite"
+							"variant" : "rock_red_granite"
 						}
-
 					}
 				],
 				"surface": [
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:red_sandstone",
 					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
-					"undergroundbiomes:igneous_stone"
+					"undergroundbiomes:igneous_stone",
+					"contenttweaker:n_copper_sandstone_red"
 				],
-				"cluster-size": 25
+				"cluster-size": 19
 			},
-			"cluster-count": 5,
+			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"biomesoplenty:rainforest"
+					"biomesoplenty:outback"
 				]
 			}
 		}
