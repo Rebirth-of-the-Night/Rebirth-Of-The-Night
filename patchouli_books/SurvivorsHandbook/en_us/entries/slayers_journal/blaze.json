@@ -1,0 +1,21 @@
+{
+    "name": "Blaze",
+    "icon": "minecraft:blaze_rod",
+    "category": "slayers_journal_mobs",
+    "sortnum": 2,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The blaze is a... creature, if one can call them that - found in the fortresses of the nether. It is a floating, corporeal head with several rods rapidly orbiting its center of gravity, seeming to be stabilizers for its highly volatile form; so volatile, in fact, that it simply explodes when killed. $(br2)It lobs a volley of high"
+        },
+        {
+            "type": "text",
+            "text": "velocity fireballs against anything it perceives as a threat. I hestitate to call it a creature, because it certainly does not seem to be any naturally born thing; its strained mechanical breathing and highly unusual anatomy makes me suspect it may have been some sort of automaton, created for the purpose of defense. $(br2)Nonetheless, when killed they may sometimes drop one of their stabilizing"
+        },
+        {
+            "type": "text",
+            "text": "rods, useful for many other purposes."
+        }
+    ]
+}

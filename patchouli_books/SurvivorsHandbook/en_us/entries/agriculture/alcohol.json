@@ -28,11 +28,11 @@
 	  "f_t":"Kumis made from Milk!",
 	  "f_i":"book:hover_icon.png",
 	  "g_i":"book:empty.png",
-	  "text2": "these aren't only exquisite and euphoria inducing; they will keep me $(thing)fed$() but $(l)decrease$() my $(thing)saturation$() and also grant me with some powerful $(thing)effects$(), if not a little $(t:Continued drinking will raise the level of Tipsy, after level III nausea and blindness will appear)$(thing)tipsiness$() too..."
+	  "text2": "These aren't only exquisite and euphoria inducing; they will keep me $(thing)fed$() but $(l)decrease$() my $(thing)saturation$() and also grant me with some powerful $(thing)effects$(), if not a little $(t:Continued drinking will raise the level of Tipsy, after level III nausea and blindness will appear)$(thing)tipsiness$() too..."
 	},
 	{
       "type": "text",
-      "text": "The gist of it is simple, it seems few others have knowledge of this process; I can either $(thing)brew$() an ingredient in a $(item)kettle$(), or I can extract its $(t:Apples and Grapes)$(thing)juice$() in a $(item)crushing tub$() or $(item)fruit press$(). Then, I let the result ferment in a barrel."
+      "text": "The gist of it is simple, though it seems few others have knowledge of this process; I can either $(thing)brew$() an ingredient in a $(item)kettle$(), or I can extract its $(t:Apples and Grapes)$(thing)juice$() in a $(item)crushing tub$() or $(item)fruit press$(). Then, I let the result ferment in a barrel.$(br2)After I finish this process, I can kick back and enjoy the fruits of my labor. Or rather, the fermented fruits of my labor."
     },
     {
       "type": "relations",

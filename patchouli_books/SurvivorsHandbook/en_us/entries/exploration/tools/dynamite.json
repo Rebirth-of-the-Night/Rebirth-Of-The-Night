@@ -7,7 +7,7 @@
         {
             "type": "spotlight",
             "item": "betterwithmods:dynamite_bundle",
-            "text": "Mining out a large section of area or monsters might prove to be quite cumbersome, so I might resort to using $(thing)dynamite and dynamite bundles$() to clear them.$(br2)I can also make $(thing)mining charges$() with $(thing)dynamite bundles$() to have a more controlled explosion."
+            "text": "Mining out a large section of stone can prove to be quite cumbersome, so I might resort to using $(thing)dynamite$() and $(thing)dynamite bundles$() to clear it out.$(br2)I can also make $(thing)mining charges$() with $(thing)dynamite bundles$() to have a more controlled explosion."
         },
         {
             "type": "crafting",

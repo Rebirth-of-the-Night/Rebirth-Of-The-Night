@@ -1,0 +1,48 @@
+{
+  "name": "Fire",
+  "icon": "contenttweaker:fire_block",
+  "category": "survival_newbeginning",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:fire_block",
+      "text": "Fire, the jumpstarter of civilization.$(br2)There is no end to the utility of fire, so I must also have many ways to go about starting fires as well if I am to survive in any environment.$(br2)Here, I have noted a few methods of creating fire:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:broken_stick",
+      "text": "Snapping a stick in two."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:pyro_matchstick_broken_stick",
+      "text": "Combining the broken stick with $(thing)dried fibers$() gets me a hand drill, good for a quick and dirty fire. My arms get a bit tired after using one though, so it's not the most efficient thing in the world."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:cheap_firecharge",
+      "text": "A $(thing)fire charge$(), made with the powdery substance from a creeper and a hunk of $(thing)coal$(). A handy recipe for those moments when I'm deep underground without surface materials."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:flint_and_steel_relic",
+      "text": "The superior firestarter, made with a chunk of $(thing)flint$() from gravel and a old piece of $(thing)steel$() dropped from some undead. Unlike previous methods listed, this can be reused many times. The people of the past must have carried these around."
+    },
+    {
+      "type": "text",
+      "text": "As for its applications, I've so far thought of several ways to utilize fire:$(br2)1. Placing some $(thing)dried fibers$() on the ground and surrounding it with logs, then lighting it. Makes for an easy $(thing)campfire$() to cook with and relax by, though the logs burn out eventually.$(br2)2. Heating up a $(thing)cooking cauldron$(), $(thing)crucible$(), or $(thing)soaking pot$() by lighting a fire directly underneath."
+    },
+    {
+      "type": "text",
+      "text": "3. Lighting defensive fires around my dwelling as a monster deterrent. Some monsters may not be harmed by fire, so this shouldn't be relied upon all the time.$(br2)4. Starting a fire to clear out brush and foliage. I would have to be very careful however, as I can easily end up accidentally decimating the terrain and thus depriving myself of its natural resources."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "innovation/burn/cauldron",
+        "innovation/burn/crucible",
+        "innovation/burn/kiln"
+      ]
+    }
+  ]
+}

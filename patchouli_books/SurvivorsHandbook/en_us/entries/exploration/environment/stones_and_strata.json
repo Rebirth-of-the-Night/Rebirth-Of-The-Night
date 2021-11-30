@@ -1,0 +1,16 @@
+{
+  "name": "Stones & Strata",
+  "icon": "minecraft:stone",
+  "category": "exploration_environment",
+  "read_by_default": "false",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The world has a plethora of stones that comprise its features; ranging from the deepest caves to the tallest peaks, and all that lies in between.$(br2)Each biome seems to have its own unique set of stone, and the loose rocks that can be found on the surface of a biome reflect that. I should pay close attention to the surface if I'm trying"
+    },
+    {
+      "type": "text",
+      "text": "to find a certain stone. $(br2)Considering the usefulness of stone as both a building and a crafting material, I will make note of all the stones of this world.$(br2)Some stones are tougher than others; they will be listed from least to most tough. Some are also only found in special places or under special conditions; I will make note of that as well."
+    }
+  ]
+}

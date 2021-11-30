@@ -6,7 +6,16 @@
         {
             "type": "crafting",
             "recipe": "crafttweaker:glare_small",
-            "text": "For any hard-to-reach places that I can't light up, I can use a $(thing)glaretorch$() to shoot a torch like a projectile to plant on a wall.$(br2)Or on someone's face."
+            "text": "For any hard-to-reach places that I can't light up, I can use a $(thing)glaretorch$(); throwable and significantly brighter than the standard torch, albeit with a much more resource intensive and involved process."
+        },
+        {
+            "type": "text",
+            "text": "There also exist two other variants: the $(thing)Aetherial glaretorch$() and the $(thing)End glaretorch$(). I've no clue how to replicate these; the material they're made of seems to be beyond my knowledge. They seem to be fairly commonplace within chests from their respective realms, though, so I can always look for more that way.$(br2)However, I can make one of these bad boys:"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:glare_ultimate",
+            "text": "These are the ultimate in lighting, illuminating a massive area. However, these require even more advanced and hard-to-get materials than the standard glaretorch, so I shouldn't expect to be making too many of these."
         },
         {
             "type": "relations",
