@@ -1,6 +1,6 @@
 {
   "name": "Quazar",
-  "icon": "minecraft:magma",
+  "icon": "nyx:meteor_rock",
   "category": "slayers_journal",
   "advancement": "triumph:advancements/progression/killedHarvester",
 
@@ -30,7 +30,7 @@
       "entity": "specialmobs:hardenedlavaslime",
       "scale": 0.8,
       "offset": -0.4,
-      "rotate": "false",
+      "rotate": "true",
 	  "default_rotation": -45,
 	  "name": "Quazarian Ooze"
 },

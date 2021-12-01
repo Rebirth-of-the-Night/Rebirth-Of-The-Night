@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "crafting",
-            "recipe": "betterwithmods:blocks/mech/hand_crank",
+            "recipe": "crafttweaker:hand_crank",
             "text": "A rudimentary but straightforward solution.$(br2)By placing it next to my $(l:innovation/light_machines/millstone)millstone$(), I’m able to grind up materials in short bursts of effort, giving me useful dyes, fibers and hides."
         },
         {

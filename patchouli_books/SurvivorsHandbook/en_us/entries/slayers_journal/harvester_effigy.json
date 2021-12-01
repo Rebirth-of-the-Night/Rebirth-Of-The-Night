@@ -1,6 +1,6 @@
 {
   "name": "The Harvester",
-  "icon": "minecraft:lit_pumpkin",
+  "icon": "harvestersnight:harvester_scythe",
   "category": "slayers_journal",
   "advancement": "triumph:advancements/progression/slayersjournal",
 

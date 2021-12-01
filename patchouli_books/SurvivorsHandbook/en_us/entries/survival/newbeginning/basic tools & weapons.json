@@ -1,0 +1,85 @@
+{
+  "name": "3. Basic Tools & Weapons",
+  "icon": "minecraft:stone_pickaxe",
+  "category": "survival_newbeginning",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:stone_pickaxe",
+      "title": "Basic Tools",
+      "text": "Now that I've gotten a crafting station set up, it's time to get down to business.$(br2)First, I should gather up some more resources around me; the stuff I've already been picking up like sticks and stones, as well as whatever else I think could be of use."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ct_shapeless-1591466075",
+      "title": "Cobblestone",
+      "text": "Compressing some rocks together should yield me some nice, solid cobblestone to make tools with. I'm not able to mix & match rocks that I find, lest my tools end up with an inconsistent durability."
+    },
+    {
+      "type": "text",
+      "text": "Now, two simple stone tools I can make right now are an axe and a pickaxe. The pickaxe, while it can mine stone, isn't great at it - the stone I mine breaks up into little rocks, which I can simply compress back into cobblestone for now. $(br2)The axe will allow me to chop down some trees a bit faster for more wood, which I'll need for this next part."
+    },
+    {
+      "type": "crafting",
+      "recipe": "minecraft:stone_pickaxe",
+      "recipe2": "minecraft:stone_axe"
+    },
+    {
+      "type": "text",
+      "text": "A shield will be very helpful once I finish crafting and begin to explore. Holding a shield in my offhand and a tool in my main hand ensures that I'll never be fully caught off guard while I'm working. I can start off with a crude wooden shield, then reinforce it with some stone that I've already been mining for increased durability. I can also shield bash by hitting while blocking to launch my attacker back."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanshields:shield_vanilla_wood_2",
+      "recipe2": "spartanshields:shield_vanilla_stone"
+    },
+    {
+      "type": "text",
+      "text": "Now, for weapons. A weapon needs a nice, good grip, so I'll need a handle.$(br2)To get the twine for a handle, I'll have to make a drying rack, which I can fashion out of some ladders. The drying rack can hold four items at a time."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:wooden_ladder",
+      "recipe2": "crafttweaker:standing_dryingrack"
+    },
+    {
+      "type": "text",
+      "text": "After, I'll need to break the grass around me to get some plant fibers. I can then place the plant fibers on the drying rack to dry them out after a short time, making dried fibers, which I can then turn into some twine.$(br2)Combining one twine with a stick gets me a handle, ready to be fashioned into a weapon. On the next few pages are some of my choices for weapons."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:drytotwine",
+      "recipe2": "crafttweaker:string_twine_handle"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_sword",
+      "text": "A simple stone arming sword, nice and sharpened. Pairs great with the shield. Not too much on the heavy side, but still weighty enough to deal some damage. A good all rounder."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanweaponry:hammer_stone",
+      "text": "A blunt, heavy mallet. Fairly weighty and not the swiftest weapon, but it sure does pack a punch. Can knock back whatever enemies dare to mess with me."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanweaponry:mace_stone",
+      "text": "A good hearty mace to bludgeon monsters with. Comparable to the arming sword, but it swings slightly slower. The mace seems to hurt undead monsters a bit extra, however, which might come in handy."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanweaponry:dagger_stone",
+      "text": "Like the arming sword, but smaller. Not very deadly, but its ease of movement makes up for it. Can be very quickly swung for some cheap hits. Its lightness also makes it throwable, though I'll need to fetch it back myself."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanweaponry:warhammer_stone",
+      "text": "A weapon with a sharpened spike at the swinging end, great for piercing armor. It requires quite some force when swinging, so having something like a shield in my other hand might make it a lot slower to swing."
+    },
+    {
+      "type": "relations",
+      "entries": [
+      ]
+    }
+  ]
+}

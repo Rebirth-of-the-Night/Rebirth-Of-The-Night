@@ -1,5 +1,5 @@
 {
-  "name": "Fire",
+  "name": "4. Fire",
   "icon": "contenttweaker:fire_block",
   "category": "survival_newbeginning",
   "pages": [
@@ -21,7 +21,7 @@
     {
       "type": "crafting",
       "recipe": "crafttweaker:cheap_firecharge",
-      "text": "A $(thing)fire charge$(), made with the powdery substance from a creeper and a hunk of $(thing)coal$(). A handy recipe for those moments when I'm deep underground without surface materials."
+      "text": "A $(thing)fire charge$(), made with the powdery substance from a creeper and a hunk of $(thing)coal$(). A handy recipe for those moments when I'm deep underground without surface materials. They can be thrown, too! Just not the most accurately."
     },
     {
       "type": "crafting",

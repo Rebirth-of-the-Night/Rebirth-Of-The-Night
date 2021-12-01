@@ -1,7 +1,8 @@
 {
-  "name": "Getting Wood",
+  "name": "2. Wood and Crafting",
   "icon": "pyrotech:crude_axe",
   "category": "survival_newbeginning",
+  "sortnum": 0,
   "pages": [
     {
       "type": "crafting",
@@ -13,7 +14,27 @@
       "item1": "minecraft:log",
       "item2": "hitwithaxe:debarked_oak",
       "item3": "minecraft:planks",
-      "text": "Debarking comes first; with stripped logs, I can make planks, and with planks, I can make sticks if I need to. Perfect!"
+      "text": "Debarking comes first; with stripped logs, I can make planks, and with planks, I can make sticks if I need to. After, I should gather up loose rocks and sticks and combine it with my crude axe to make implements for my crafting table:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crafting_tools",
+      "text": "After, I can affix the crafting tools to the plank I just processed earlier, like so:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crafting_table",
+      "text": "Ta-da! A fully fledged crafting table. With this, I can now more efficiently saw up planks from logs, at a rate of three planks per wood log:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:oak_planks",
+      "text": "Additionally, I can create more complex items with my larger and more sturdy workspace. I should also look into making a $(thing)portable crafting mat$(), great for crafting on the go:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crafting_mat",
+      "text": "Now, I should look at making some basic tools. A $(thing)pickaxe$(), a weapon like an $(thing)arming sword$(), a $(thing)shield$() and a $(thing)drying rack$() sound like a good place to start."
     },
     {
       "type": "relations",

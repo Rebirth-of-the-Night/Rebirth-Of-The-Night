@@ -1,0 +1,36 @@
+{
+	"populate": 
+	{
+		"visceral_scabs": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_igneous_sand",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite_sandstone"
+						}
+					}
+				],
+				"surface": [
+					"biomesoplenty:flesh"
+				],
+				"material": "air",
+				"cluster-size": 19,
+				"see-sky": false
+				},
+			"cluster-count": 4,
+			"ground-level": 127,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:visceral_heap"
+				]
+			}
+		}
+	}
+}

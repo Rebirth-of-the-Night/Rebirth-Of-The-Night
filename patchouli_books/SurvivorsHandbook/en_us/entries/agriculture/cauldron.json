@@ -7,7 +7,7 @@
 	{
       "type": "crafting",
       "recipe": "minecraft:cauldron",
-	  "text": "A basic iron cauldron is the gate to plenty of different soups, brews and all around peculiar mixtures."
+	  "text": "A basic metal cauldron is the gate to plenty of different soups, brews and all around peculiar mixtures."
     },
 	{
       "type": "cauldron_recipe",
