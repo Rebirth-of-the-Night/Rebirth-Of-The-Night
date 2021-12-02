@@ -17,7 +17,7 @@
     },
     {
       "type": "text",
-      "text": "Now, two simple stone tools I can make right now are an axe and a pickaxe. The pickaxe, while it can mine stone, isn't great at it - the stone I mine breaks up into little rocks, which I can simply compress back into cobblestone for now. $(br2)The axe will allow me to chop down some trees a bit faster for more wood, which I'll need for this next part."
+      "text": "Two simple stone tools I can make right now are an axe and a pickaxe. The pickaxe, while it can mine stone, isn't great at it - the stone I mine breaks up into little rocks, which I can simply compress back into cobblestone for now. Pickaxes made with stronger material can mine stone without breaking it into pieces. The axe will allow me to chop down some trees a bit faster for more wood, which I'll need for this next part."
     },
     {
       "type": "crafting",
@@ -35,7 +35,7 @@
     },
     {
       "type": "text",
-      "text": "Now, for weapons. A weapon needs a nice, good grip, so I'll need a handle.$(br2)To get the twine for a handle, I'll have to make a drying rack, which I can fashion out of some ladders. The drying rack can hold four items at a time."
+      "text": "Now, for weapons. A weapon needs a nice, good grip, so I'll need a handle.$(br2)To get the twine for a handle, I'll have to make a drying rack, which I can fashion out of some ladders made with sticks. The drying rack can hold four items at a time. The environment I put it in can affect how fast it dries, as well as factors like the temperature of the biome I'm in."
     },
     {
       "type": "crafting",
@@ -74,7 +74,22 @@
     {
       "type": "crafting",
       "recipe": "spartanweaponry:warhammer_stone",
-      "text": "A weapon with a sharpened spike at the swinging end, great for piercing armor. It requires quite some force when swinging, so having something like a shield in my other hand might make it a lot slower to swing."
+      "text": "A weapon with a sharpened spike at one end, great for piercing armor. It requires quite some force when swinging, so having something like a shield in my other hand might make it a lot slower to swing."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:string_twine_pole",
+      "text": "For these next weapons, I'll need a pole. It's similar to how I can make a handle, but it uses a few more sticks for that extra reach."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanweaponry:spear_stone",
+      "text": "A nicely sharpened, pokey spear. The pole provides extra reach, pairing excellently with a shield for both good offense and defense."
+    },
+    {
+      "type": "crafting",
+      "recipe": "spartanweaponry:quarterstaff_stone",
+      "text": "A pole with blunt stone on both ends. Great against a group of monsters, with its wide seeping attack. Similar to the warhammer, I'll need both hands to swing at full speed."
     },
     {
       "type": "relations",

@@ -7,17 +7,18 @@
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech_compat:rock_netherrack"
+						"name": "pyrotech_compat:rock_netherrack",
+						"weight": 5
 					}
 				],
 				"surface": [
 					"minecraft:netherrack"
 				],
 				"material": "air",
-				"cluster-size": 19,
+				"cluster-size": 22,
 				"see-sky": false
 				},
-			"cluster-count": 4,
+			"cluster-count": 7,
 			"ground-level": 127,
 			"chunk-chance": 1,
 			"retrogen": "true",

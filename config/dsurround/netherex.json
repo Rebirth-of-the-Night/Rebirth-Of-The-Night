@@ -67,6 +67,21 @@
 		"netherex:gloomy_nether_brick_fence_gate": "brickstone",
 		"netherex:thornstalk": "NOT_EMITTER",
 		"netherex:thornstalk+foliage": "straw",
-		"netherex:tilled_soul_sand": "quicksand"
+		"netherex:tilled_soul_sand": "quicksand",
+		"stygian:endobsidian": "obsidian",
+		"stygian:endmagma": "sandstone",
+		"contenttweaker:voided_rock": "bedrock",
+		"stygian:endgrass": "grass,stone",
+		"stygian:endtallgrass": "straw",
+		"stygian:endglow": "straw",
+		"earthworks:block_slate_green": "brickstone",
+		"earthworks:block_slate_purple": "brickstone",
+		"earthworks:block_slate": "brickstone",
+		"defiledlands:gravel_defiled": "gravel",
+		"aether_legacy:icestone": "ice",
+		"betternether:nether_brick_tile_large": "brickstone",
+		"betternether:reeds_ladder": "ladder",
+		"minecraft:ladder": "ladder",
+		"aether_legacy:skyroot_ladder": "ladder"
 	}
 }

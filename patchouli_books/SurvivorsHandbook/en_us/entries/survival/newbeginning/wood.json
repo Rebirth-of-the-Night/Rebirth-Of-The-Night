@@ -5,16 +5,22 @@
   "sortnum": 0,
   "pages": [
     {
+      "type": "spotlight",
+      "item": "minecraft:log",
+      "title": "Getting Wood",
+      "text": "Well, no use in dillydallying about for too long. If I'm going to be prepared, I need to get to work now.$(br2)I'll start by finding the nearest tree and punching it at the very base until it falls. Then, I'll need to gather up some rocks and sticks for my next move."
+    },
+    {
       "type": "crafting",
       "recipe": "crafttweaker:pyro_crude_axe",
-      "text": "I will eventually need to build a workshop. I need a crafting table, to work smarter and not harder; until then, I can make a crude axe to get some planks. After that, I can easily saw wood using my crafting table."
+      "text": "I'll eventually need to build a workshop; for now, I need a crafting table, to work smarter and not harder. Until then, I can make a crude axe to get some planks."
     },
     {
       "type": "chop_recipe",
       "item1": "minecraft:log",
       "item2": "hitwithaxe:debarked_oak",
       "item3": "minecraft:planks",
-      "text": "Debarking comes first; with stripped logs, I can make planks, and with planks, I can make sticks if I need to. After, I should gather up loose rocks and sticks and combine it with my crude axe to make implements for my crafting table:"
+      "text": "Debarking comes first; with stripped logs, I can make planks, and planks, sticks, if I need to. After, I should gather up more loose rocks and sticks and combine it with my crude axe to make implements for a crafting table:"
     },
     {
       "type": "crafting",
@@ -41,6 +47,7 @@
       "entries": [
         "adapt/twine",
         "gather/sticks",
+        "survival/newbeginning/basic_tools_weapons",
         "innovation/light_machines/saw"
       ]
     }
