@@ -23,9 +23,6 @@ dummyWandForge.register();
 val dummyWandFreeze = mods.contenttweaker.VanillaFactory.createItem("dummy_wand_freeze");
 dummyWandFreeze.register();
 
-val dummyWandMM = mods.contenttweaker.VanillaFactory.createItem("dummy_wand_mm");
-dummyWandMM.register();
-
 val dummyWandPM = mods.contenttweaker.VanillaFactory.createItem("dummy_wand_pm");
 dummyWandPM.register();
 

@@ -2,6 +2,7 @@
 	"dependencies": "cavegenerator",
 	"populate": {
 		"chalk_coastal_formations": {
+			"cluster-count": 1,
 			"distribution": "surface",
 			"generator": {
 				"type": "boulder",

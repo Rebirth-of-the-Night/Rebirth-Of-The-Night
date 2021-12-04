@@ -147,4 +147,4 @@ RecipeBuilder.get("mage")
 Infuser.addShapeless(<defiledlands:tears_flame>,
 [<defiledlands:tears_flame>.anyDamage(),<contenttweaker:vis_speck>], 32);
 
-JEI.removeAndHide(<defiledlands:tears_shulker>);
+recipes.remove(<defiledlands:tears_shulker>);

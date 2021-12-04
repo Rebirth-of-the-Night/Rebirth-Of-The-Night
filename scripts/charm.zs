@@ -9,4 +9,10 @@ JEI.removeAndHide(<charm:rune_portal>);
 JEI.removeAndHide(<charm:bound_compass>);
 JEI.removeAndHide(<charm:totem_of_returning>);
 
+recipes.remove(<charm:iron_lantern>);
+recipes.addShaped("minecart", <charm:iron_lantern>, [
+    [<ore:genericMetalNuggets>, <ore:genericMetalNuggets>, <ore:genericMetalNuggets>],
+    [<ore:genericMetalNuggets>, <minecraft:torch>, <ore:genericMetalNuggets>],
+    [<ore:genericMetalNuggets>,<ore:genericMetalNuggets>,<ore:genericMetalNuggets>,]
+]);
 recipes.addShapeless("bound_compass_unbind", <minecraft:compass>, [<charm:bound_compass>]);

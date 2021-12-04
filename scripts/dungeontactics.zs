@@ -1373,7 +1373,6 @@ wandTransport.addTooltip(format.darkPurple("Mystical"));
 <contenttweaker:dummy_wand_pm>.addTooltip(format.gray("Cast Cost = 40"));
 
 <contenttweaker:dummy_wand_smite>.addTooltip(format.gray("Cast Cost = 72"));
-<contenttweaker:dummy_wand_mm>.addTooltip(format.gray("Cast Cost = 42"));
 <contenttweaker:dummy_wand_rage>.addTooltip(format.gray("Cast Cost = 48"));
 <contenttweaker:dummy_wand_transport>.addTooltip(format.gray("Cast Cost = 90"));
 
@@ -1390,7 +1389,6 @@ wandTransport.addTooltip(format.darkPurple("Mystical"));
 <contenttweaker:dummy_wand_pm>.addTooltip(format.aqua("Arcane"));
 
 <contenttweaker:dummy_wand_smite>.addTooltip(format.darkPurple("Mystical"));
-<contenttweaker:dummy_wand_mm>.addTooltip(format.darkPurple("Mystical"));
 <contenttweaker:dummy_wand_rage>.addTooltip(format.darkPurple("Mystical"));
 <contenttweaker:dummy_wand_transport>.addTooltip(format.darkPurple("Mystical"));
 

@@ -135,7 +135,14 @@ block_bronze.register();
 // voided_rock
 var voided_rock = VanillaFactory.createBlock("voided_rock", <blockmaterial:Rock>);
 voided_rock.setCreativeTab(<creativetab:rotn_blocks>);
-// void_block.setBlockSoundType(<soundtype:slime>);
+voided_rock.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    15.0 / 16.0,
+    16.0 / 16.0
+	);
 voided_rock.setBlockHardness(7.0);
 voided_rock.setBlockResistance(3.5);
 voided_rock.setSlipperiness(0.7f);
@@ -161,6 +168,25 @@ void_block.setBlockLayer("CUTOUT");
 void_block.setPassable(true);
 void_block.setCreativeTab(<creativetab:rotn_blocks>);
 void_block.register();
+
+// venerable_stump
+var venerable_stump = VanillaFactory.createBlock("venerable_stump", <blockmaterial:Wood>);
+venerable_stump.axisAlignedBB = AxisAlignedBB.create(
+     -16.0 / 16.0,
+     0.0 / 16.0,
+     -16.0 / 16.0,
+	32.0 / 16.0,
+    32.0 / 16.0,
+    32.0 / 16.0
+	);
+venerable_stump.setFullBlock(false);
+venerable_stump.setBlockHardness(12);
+venerable_stump.setLightOpacity(0);
+venerable_stump.setLightValue(1);
+venerable_stump.setBlockLayer("CUTOUT");
+venerable_stump.setToolClass("axe");
+venerable_stump.setCreativeTab(<creativetab:rotn_blocks>);
+venerable_stump.register();
 
 // Raw Ores
 // raw_tin

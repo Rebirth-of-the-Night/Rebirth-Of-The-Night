@@ -5,6 +5,6 @@
  },
  {
    "block": "dungeontactics:mithril_block",
-   "potion": ["cyclicmagic:potion.magnet,200,3","betterwithaddons:electrified,20,2"]
+   "potion": ["cyclicmagic:potion.magnet,1200,3","betterwithaddons:electrified,20,2"]
  }
 ]
