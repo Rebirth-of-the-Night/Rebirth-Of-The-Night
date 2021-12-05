@@ -10,7 +10,7 @@
 	  "title": "Alcohol",
 	  "text": "By action of brewing and fermenting certain ingredients, I can gain access to some strong beverages.",
 	  "a":"growthcraft_apples:applecider",
-	  "a_t":"Cider made from Apples",
+	  "a_t":"Cider made from Apples!",
 	  "a_i":"book:hover_icon.png",
 	  "b":"growthcraft_grapes:grapewine",
 	  "b_t":"Wine made from Grapes!",

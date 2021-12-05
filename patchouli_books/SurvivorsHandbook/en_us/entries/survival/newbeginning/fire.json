@@ -1,5 +1,5 @@
 {
-  "name": "4. Fire",
+  "name": "5. Fire",
   "icon": "contenttweaker:fire_block",
   "category": "survival_newbeginning",
   "pages": [
@@ -11,7 +11,7 @@
     {
       "type": "crafting",
       "recipe": "crafttweaker:broken_stick",
-      "text": "Snapping a stick in two."
+      "text": "Let's start off basic: snapping a stick in two will enable me to make some basic firestarters, as can be seen on the next page."
     },
     {
       "type": "crafting",
@@ -21,7 +21,7 @@
     {
       "type": "crafting",
       "recipe": "crafttweaker:cheap_firecharge",
-      "text": "A $(thing)fire charge$(), made with the powdery substance from a creeper and a hunk of $(thing)coal$(). A handy recipe for those moments when I'm deep underground without surface materials. They can be thrown, too! Just not the most accurately."
+      "text": "A $(thing)fire charge$(), made with the powdery substance from a creeper and a hunk of $(thing)coal$(). A handy recipe for those moments when I'm deep underground without surface materials. They can be thrown, too, at the risk of self-ignition."
     },
     {
       "type": "crafting",

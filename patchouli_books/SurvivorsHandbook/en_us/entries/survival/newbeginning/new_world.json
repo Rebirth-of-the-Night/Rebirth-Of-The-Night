@@ -10,11 +10,11 @@
     },
     {
       "type": "text",
-      "text": "Oddly enough, I feel like the daytime and nighttime lasts much longer than usual.$(br2)My intuition tells me the day and night cycle is 2 times longer than what it should be...$(br2)$(#158B1D)One day/night cycle in Rebirth of the Night lasts 40 minutes in real-time."
+      "text": "Oddly enough, I feel like the daytime and nighttime lasts much longer than usual.$(br2)My intuition tells me the day and night cycle is 2 times longer than what it should be...$(br2)$(italics)$(#a84b0f)One day/night cycle in Rebirth of the Night lasts 40 minutes in real-time.$()"
     },
     {
       "type": "text",
-      "text": "Surviving in this world alone may prove to be a daunting task. I might try and look for others like me to take on this world together as a team.$(br2)$(#158B1D)You can find the Teams tab on the top left corner while accessing the inventory.$(br2)Here you can create a team and invite other players to your team."
+      "text": "Surviving in this world alone may prove to be a daunting task. I might try and look for others like me to take on this world together as a team.$(br2)$(#a84b0f)$(italics)You can find the Teams tab on the top left corner while accessing the inventory. Here you can create a team and invite other players to your team. You can also do the /teams command and follow the prompts there.$()"
     },
     {
       "type": "relations",

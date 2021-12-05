@@ -1,0 +1,114 @@
+{
+  "name": "4. Getting Food",
+  "icon": "minecraft:apple",
+  "category": "survival_newbeginning",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:apple",
+      "title": "Getting Food",
+      "text": "Doing all that gathering and crafting sure has made me hungry. I'll need to rely on the land for now to provide me with a meal; I can worry about farming up my own grub later, once I've got a base of operations set up.$(br2)I should start moving about to see what's on the menu."
+    },
+    {
+      "type": "crafting",
+      "recipe": "minecraft:furnace",
+      "text": "First things first; I'll need something to cook with. Not everything edible I can find needs cooking, but for the things that do, I can fashion a quick and easy furnace out of rocks I got from before. Anything burnable will heat it."
+    },
+    {
+      "type": "item_list_spotlight",
+      "title": "Meat",
+      "text": "There seems to be some animals around. I wouldn't mind some protein to get me through the day! Here's some choices:",
+      "a":"minecraft:beef",
+      "a_t":"Beef from bulls and cows.",
+      "a_i":"book:hover_icon.png",
+      "b":"minecraft:porkchop",
+      "b_t":"Pork from swine.",
+      "b_i":"book:hover_icon.png",
+      "c":"minecraft:chicken",
+      "c_t":"Chicken from... well, chickens.",
+      "c_i":"book:hover_icon.png",
+      "d":"minecraft:rabbit",
+      "d_t":"Rabbit from does and bucks.",
+      "d_i":"book:hover_icon.png",
+      "e":"minecraft:mutton",
+      "e_t":"Mutton from rams and ewes.",
+      "e_i":"book:hover_icon.png",
+      "f":"betteranimalsplus:venisonraw",
+      "f_t":"Venison from deer.",
+      "f_i":"book:hover_icon.png",
+      "g":"animania:raw_chevon",
+      "g_t":"Chevon from does and bucks.",
+      "g_i":"book:hover_icon.png",
+      "text2": "Eating raw meat isn't very pleasant, and might even be hazardous in some cases. For now, any meat I harvest from animals should be popped into a furnace and cooked."
+    },
+    {
+      "type": "text",
+      "text": "This isn't the only meat I can find, of course; nearly every animal I might come across has something yummy on its bones, from the smallest frogs to the most hulking bulls. $(br2)That being said, don't expect them all to go down without a fight.$(br2)Killing animals also yields many useful byproducts like tallow, leather, wool and feathers, which all may come in handy later."
+    },
+    {
+      "type": "item_list_spotlight",
+      "title": "Seafood",
+      "text": "There's plenty of bodies of water around; if I'm feeling pescatarian, I could always go for something more aquatic:",
+      "a_i":"book:empty.png",
+      "b":"minecraft:fish",
+      "b_t":"Fish from fishing.",
+      "b_i":"book:hover_icon.png",
+      "c":"minecraft:fish:1",
+      "c_t":"Salmon from rivers.",
+      "c_i":"book:hover_icon.png",
+      "d":"betteranimalsplus:eel_meat_raw",
+      "d_t":"Eels from rivers. Like to bite.",
+      "d_i":"book:hover_icon.png",
+      "e":"quark:crab_leg",
+      "e_t":"Crab from beaches.",
+      "e_i":"book:hover_icon.png",
+      "f":"mod_lavacow:piranha",
+      "f_t":"Piranhas from ponds and lakes. Very feisty.",
+      "f_i":"book:hover_icon.png",
+      "g_i":"book:empty.png",
+      "text2": "Aside from getting the seafood myself and getting my hands dirty, I can also kick back and go fishing by making a crude fishing rod like so:"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:crude_fishing_pole",
+      "text": "After the fish bites the hook, I should reel in fast before it can escape.$(br2)I shouldn't expect something so hastily cobbled together to last; the fishing rod may unexpectedly break."
+    },
+    {
+      "type": "item_list_spotlight",
+      "title": "Gardens",
+      "text": "Aside from the various roots and seeds I can find and munch on, gardens can also be found on occasion throughout the surface:",
+      "a":"harvestcraft:aridgarden",
+      "a_t":"Found in deserts and hot climates.",
+      "a_i":"book:hover_icon.png",
+      "b":"harvestcraft:frostgarden",
+      "b_t":"Found in cold and snowy areas.",
+      "b_i":"book:hover_icon.png",
+      "c":"harvestcraft:shadedgarden",
+      "c_t":"Found in forested and dense biomes.",
+      "c_i":"book:hover_icon.png",
+      "d":"harvestcraft:soggygarden",
+      "d_t":"Found in swampy and wet biomes, like swamps.",
+      "d_i":"book:hover_icon.png",
+      "e":"harvestcraft:tropicalgarden",
+      "e_t":"Found in humid and tropical climates, like jungles.",
+      "e_i":"book:hover_icon.png",
+      "f":"harvestcraft:windygarden",
+      "f_t":"Found in sparser and more clear areas, like plains.",
+      "f_i":"book:hover_icon.png",
+      "g_i":"book:empty.png",
+      "text2": "Breaking these gardens give me a variety of fruits and vegetables, which can either be eaten right away or turned into seeds for planting later."
+    },
+    {
+      "type": "text",
+      "text": "Each garden has fruits and vegetables that are acclimated to the conditions of the region in which it is found; so something like $(thing)winter squash$() wound only be found in a frost garden. Something to keep in mind when setting up farms later.$(br2)$(italics)$(#a84b0f)Tip: Breaking a garden while sneaking drops the garden itself, which can be replanted and broken later. Great for preventing inventory clutter.$()"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "innovation/burn/cauldron",
+        "innovation/burn/crucible",
+        "innovation/burn/kiln"
+      ]
+    }
+  ]
+}
