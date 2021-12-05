@@ -175,9 +175,9 @@ venerable_stump.axisAlignedBB = AxisAlignedBB.create(
      -16.0 / 16.0,
      0.0 / 16.0,
      -16.0 / 16.0,
-	32.0 / 16.0,
-    32.0 / 16.0,
-    32.0 / 16.0
+	29.0 / 16.0,
+    16.0 / 16.0,
+    29.0 / 16.0
 	);
 venerable_stump.setFullBlock(false);
 venerable_stump.setBlockHardness(12);
