@@ -1,0 +1,8 @@
+{
+  "name": "Biomes",
+  "description": "A light, heavenly realm far above the clouds...",
+  "icon": "biomesoplenty:terrarium:14",
+  "sortnum": 1,
+  "read_by_default": "true",
+  "parent": "exploration_dimensions_nether"
+}

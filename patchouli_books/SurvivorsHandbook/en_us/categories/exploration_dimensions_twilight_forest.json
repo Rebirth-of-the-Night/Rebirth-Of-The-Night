@@ -1,8 +1,8 @@
 {
-  "name": "Beyond These Lands",
-  "description": "It's a vast world, and I'm just one survivor. Who knows what's waiting out there?",
-  "icon": "minecraft:netherrack",
-  "sortnum": 1,
+  "name": "The Twilight Forest",
+  "description": "A magical forest shrouded in permanent twilight, a mirror of the real world...",
+  "icon": "twilightforest:miniature_structure",
+  "sortnum": 7,
   "read_by_default": "true",
   "parent": "exploration_dimensions"
 }

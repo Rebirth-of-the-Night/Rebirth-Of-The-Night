@@ -4,5 +4,5 @@
   "icon": "aether_legacy:aether_grass",
   "sortnum": 4,
   "read_by_default": "true",
-  "parent": "exploration_dimensions"
+  "parent": "exploration_dimensions_aether"
 }

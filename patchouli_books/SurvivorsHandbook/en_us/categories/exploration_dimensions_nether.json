@@ -1,8 +1,8 @@
 {
-  "name": "Beyond These Lands",
-  "description": "It's a vast world, and I'm just one survivor. Who knows what's waiting out there?",
+  "name": "The Nether",
+  "description": "In the deepest layers of the earth lie a hellish heat-blasted landscape...",
   "icon": "minecraft:netherrack",
-  "sortnum": 1,
+  "sortnum": 3,
   "read_by_default": "true",
   "parent": "exploration_dimensions"
 }

@@ -1,0 +1,8 @@
+{
+  "name": "Dimensional Notes",
+  "description": "Some notes of precaution, for a journey to embark on that can never be taken back.",
+  "icon": "minecraft:writable_book",
+  "sortnum": 1,
+  "read_by_default": "true",
+  "parent": "exploration_dimensions"
+}

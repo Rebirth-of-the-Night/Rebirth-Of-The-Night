@@ -1,9 +1,7 @@
 {
-    "name": "The Aether",
-    "icon": "aether_legacy:aether_grass",
-    "category": "exploration_dimensions_aether",
-    "sortnum": 3,
-    "advancement": "triumph:advancements/progression/aether/enterAether",
+    "name": "Hell",
+    "icon": "minecraft:netherrack",
+    "category": "exploration_dimensions_nether_biomes",
     "pages": [
     {
         "type": "text",

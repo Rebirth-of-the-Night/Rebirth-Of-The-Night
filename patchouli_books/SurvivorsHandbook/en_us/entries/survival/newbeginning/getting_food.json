@@ -43,7 +43,7 @@
     },
     {
       "type": "text",
-      "text": "This isn't the only meat I can find, of course; nearly every animal I might come across has something yummy on its bones, from the smallest frogs to the most hulking bulls. $(br2)That being said, don't expect them all to go down without a fight.$(br2)Killing animals also yields many useful byproducts like tallow, leather, wool and feathers, which all may come in handy later."
+      "text": "This isn't the only meat I can find, of course; nearly every animal I might come across has something yummy on its bones, from the smallest frogs to the most hulking bulls. $(br2)That being said, I shouldn't expect all of them to go down without a fight.$(br2)Killing animals also yields many useful byproducts like tallow, leather, wool and feathers, which all may come in handy later."
     },
     {
       "type": "item_list_spotlight",
@@ -60,7 +60,7 @@
       "d_t":"Eels from rivers. Like to bite.",
       "d_i":"book:hover_icon.png",
       "e":"quark:crab_leg",
-      "e_t":"Crab from beaches.",
+      "e_t":"Crab from beaches. Don't get too close!",
       "e_i":"book:hover_icon.png",
       "f":"mod_lavacow:piranha",
       "f_t":"Piranhas from ponds and lakes. Very feisty.",
@@ -71,7 +71,7 @@
     {
       "type": "crafting",
       "recipe": "crafttweaker:crude_fishing_pole",
-      "text": "After the fish bites the hook, I should reel in fast before it can escape.$(br2)I shouldn't expect something so hastily cobbled together to last; the fishing rod may unexpectedly break."
+      "text": "After the fish bites the hook, I should reel in fast before it can escape.$(br2)I shouldn't expect something so hastily cobbled together to last; it may unexpectedly break after reeling something in."
     },
     {
       "type": "item_list_spotlight",

@@ -1,0 +1,37 @@
+{
+    "name": "Visceral Heap",
+    "icon": "biomesoplenty:flesh",
+    "category": "exploration_dimensions_nether_biomes",
+    "pages": [
+    {
+      "type": "text",
+      "text": "I could quite literally smell this place from afar. Up to now, the things I have encountered in this hellish land have been horrifying, dangerous, mysterious and ancient, but this place is downright putrid.$(br2)The landscape here is made out of flesh, faintly moving and pulsing, and worst of all, warm. Large hunks of bone stick out of the meaty"
+    },
+    {
+      "type": "text",
+      "text": "surfaces, and pools of blood sit stagnant in the abscesses of the ground. Scabs dot the fleshy floor, left by creatures with a less-than-light tread. I was in danger of throwing up.$(br2)Seeing this section of still-warm, still-moving organic matter making up a distressingly substantial portion of the Nether calls into question whether netherrack is truly some sort of rock at all."
+    },
+    {
+      "type": "spotlight",
+      "item": "biomesoplenty:flesh",
+      "text": "This flesh seems to be found specifically within this biome. The flesh seems to... pulse, as if the very landscape is alive. When I step into it, my feet sink somewhat, and my walking is slightly more labored than usual, the flesh suctioning my every step. Truly vile."
+    },
+    {
+      "type": "spotlight",
+      "item": "liquid:blood",
+      "text": "I'm a vampire. roar"
+    },
+    {
+      "type": "spotlight",
+      "item": "betternether:block_eyeball",
+      "title": "Hanging Eyes",
+      "text": "From the ceiling of the biome hang countless eyes, large and small, from their optic muscles. Not creepy at all.$(br2)Breaking these gives me some slime... and seeds to plant more of them! I can now fulfill my dream of feeling like I'm being watched in my own home."
+    },
+    {
+      "type": "spotlight",
+      "item": "pyrotech_compat:rock_igneous_sand",
+      "title": "Scabs",
+      "text": "The residents of the Nether seem like they could care less about where they step; the scabbing and scarring here are proof of that. As gross as this place may be, that's gotta hurt."
+    }
+    ]
+  }

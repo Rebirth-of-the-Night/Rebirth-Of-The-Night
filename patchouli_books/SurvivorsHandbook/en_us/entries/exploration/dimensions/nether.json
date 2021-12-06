@@ -1,7 +1,7 @@
 {
   "name": "The Nether",
   "icon": "minecraft:netherrack",
-  "category": "exploration_dimensions",
+  "category": "exploration_dimensions_nether",
   "sortnum": 1,
   "advancement": "triumph:advancements/progression/nether/enterNether",
   "pages": [
