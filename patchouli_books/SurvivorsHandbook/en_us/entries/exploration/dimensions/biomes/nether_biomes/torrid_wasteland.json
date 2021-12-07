@@ -1,7 +1,7 @@
 {
     "name": "Torrid Wasteland",
     "icon": "netherex:fiery_netherrack",
-    "category": "exploration_dimensions_nether_biomes",
+    "category": "dimensions_nether_biomes",
     "pages": [
     {
         "type": "text",

@@ -1,0 +1,8 @@
+{
+  "name": "Biomes",
+  "description": "The various regions of this hellish underworld.",
+  "icon": "biomesoplenty:terrarium:14",
+  "sortnum": 1,
+  "read_by_default": "true",
+  "parent": "dimensions_nether"
+}

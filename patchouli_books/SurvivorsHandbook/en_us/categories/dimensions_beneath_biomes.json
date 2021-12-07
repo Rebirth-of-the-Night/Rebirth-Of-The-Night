@@ -1,0 +1,8 @@
+{
+  "name": "Biomes",
+  "description": "The many chasms that reside in the darkness of the barrier's underbelly.",
+  "icon": "biomesoplenty:terrarium:11",
+  "sortnum": 1,
+  "read_by_default": "true",
+  "parent": "dimensions_beneath"
+}

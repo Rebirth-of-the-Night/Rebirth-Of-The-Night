@@ -1,0 +1,11 @@
+{
+    "name": "Placeholder",
+    "icon": "contenttweaker:info",
+    "category": "dimensions_twilight_forest_structures",
+    "pages": [
+    {
+        "type": "text",
+        "text": "This place is so full of fantastical creatures that I can't help but be in awe of it.$(br)The world has many floating islands to explore, but I need to take care not to fall off.$(br)I've heard rumors that the Aether is quite dangerous in the darkness, and there are many foes and challenges waiting in temples high above the world."
+      }
+    ]
+  }

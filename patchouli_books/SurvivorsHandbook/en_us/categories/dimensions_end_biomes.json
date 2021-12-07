@@ -1,0 +1,8 @@
+{
+  "name": "Biomes",
+  "description": "The eerie areas of the endless voidscape...",
+  "icon": "biomesoplenty:terrarium:15",
+  "sortnum": 1,
+  "read_by_default": "true",
+  "parent": "dimensions_end"
+}

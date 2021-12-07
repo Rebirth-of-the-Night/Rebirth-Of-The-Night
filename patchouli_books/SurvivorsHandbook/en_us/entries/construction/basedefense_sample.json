@@ -2,7 +2,6 @@
   "name": "Base Defense Entry",
   "icon": "minecraft:iron_door",
   "category": "construction_basedefense",
-  "advancement": "triumph:advancements/WIP",
   "pages": [
   {
       "type": "text",

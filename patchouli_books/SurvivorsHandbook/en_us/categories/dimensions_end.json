@@ -4,5 +4,5 @@
   "icon": "minecraft:end_stone",
   "sortnum": 6,
   "read_by_default": "true",
-  "parent": "exploration_dimensions"
+  "parent": "dimensions"
 }

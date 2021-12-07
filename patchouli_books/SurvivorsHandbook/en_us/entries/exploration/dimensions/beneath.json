@@ -1,7 +1,7 @@
 {
   "name": "The Beneath",
   "icon": "minecraft:bedrock",
-  "category": "exploration_dimensions_the_beneath",
+  "category": "dimensions_beneath",
   "sortnum": 2,
   "advancement": "triumph:advancements/progression/beneath/enterBeneath",
   "pages": [

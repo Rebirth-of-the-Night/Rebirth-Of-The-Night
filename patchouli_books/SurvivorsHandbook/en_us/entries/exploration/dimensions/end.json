@@ -1,7 +1,7 @@
 {
     "name": "The End",
     "icon": "minecraft:end_stone",
-    "category": "exploration_dimensions_the_end",
+    "category": "dimensions_end",
     "sortnum": 4,
     "advancement": "triumph:advancements/progression/end/enterEnd",
     "pages": [

@@ -8,6 +8,7 @@
 		{
 			"type": "spotlight",
 			"item": "pyrotech:stone_kiln",
+			"title": "Kilns",
 			"text": "After experimenting a bit with alternative furnace concepts, I came up with the idea of making a kiln that can slowly melt materials in bulk all at the same time for relatively low amounts of fuel."
 		},
 		{

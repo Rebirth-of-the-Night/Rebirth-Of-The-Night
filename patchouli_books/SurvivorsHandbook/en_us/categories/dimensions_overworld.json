@@ -4,5 +4,5 @@
   "icon": "minecraft:dirt",
   "sortnum": 2,
   "read_by_default": "true",
-  "parent": "exploration_dimensions"
+  "parent": "dimensions"
 }

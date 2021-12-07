@@ -1,7 +1,7 @@
 {
     "name": "Corrupted Sands",
     "icon": "minecraft:soul_sand",
-    "category": "exploration_dimensions_nether_biomes",
+    "category": "dimensions_nether_biomes",
     "pages": [
     {
         "type": "text",

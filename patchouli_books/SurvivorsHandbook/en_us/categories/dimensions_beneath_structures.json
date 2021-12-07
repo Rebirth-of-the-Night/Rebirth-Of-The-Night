@@ -1,0 +1,8 @@
+{
+  "name": "Structures",
+  "description": "The monoliths of the underbelly.",
+  "icon": "minecraft:stonebrick",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "parent": "dimensions_beneath"
+}

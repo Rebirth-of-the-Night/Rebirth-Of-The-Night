@@ -1,7 +1,6 @@
 {
     "name": "A New Beginning",
     "description": "I find myself in an unfamiliar place but for some reason I find myself eager to explore this open world.",
-    "icon": "minecraft:grass",
-    "sortnum": 0,
-    "parent": "survival"
+    "icon": "dynamictrees:oakseed",
+    "sortnum": 0
   }

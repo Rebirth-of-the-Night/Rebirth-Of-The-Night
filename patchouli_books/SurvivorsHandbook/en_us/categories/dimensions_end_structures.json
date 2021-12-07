@@ -1,0 +1,8 @@
+{
+  "name": "Structures",
+  "description": "The architecture of a lost civilization...",
+  "icon": "minecraft:purpur_block",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "parent": "dimensions_end"
+}

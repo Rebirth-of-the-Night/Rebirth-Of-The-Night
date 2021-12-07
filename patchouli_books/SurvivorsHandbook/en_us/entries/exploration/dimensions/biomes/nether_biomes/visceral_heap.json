@@ -1,7 +1,7 @@
 {
     "name": "Visceral Heap",
     "icon": "biomesoplenty:flesh",
-    "category": "exploration_dimensions_nether_biomes",
+    "category": "dimensions_nether_biomes",
     "pages": [
     {
       "type": "text",
@@ -14,7 +14,7 @@
     {
       "type": "spotlight",
       "item": "biomesoplenty:flesh",
-      "text": "This flesh seems to be found specifically within this biome. The flesh seems to... pulse, as if the very landscape is alive. When I step into it, my feet sink somewhat, and my walking is slightly more labored than usual, the flesh suctioning my every step. Truly vile."
+      "text": "This flesh seems to be found specifically within this biome. It seems to... pulse, as if the very landscape is alive. When I step into it, my feet sink somewhat, and my walking is slightly more labored than usual, the flesh suctioning my every step. Truly vile."
     },
     {
       "type": "spotlight",

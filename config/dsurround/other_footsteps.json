@@ -53,6 +53,7 @@
 		"twilightforest:aurora_pillar": "snow,brickstone",
 		"twilightforest:aurora_slab": "snow,brickstone",
 		"twilightforest:auroralized_glass": "snow,glass",
-		"futuremc:campfire": "fire,stone"
+		"futuremc:campfire": "fire,stone",
+		"dimstack:bedrock": "bedrock"
 	}
 }

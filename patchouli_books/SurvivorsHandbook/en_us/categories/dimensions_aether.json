@@ -1,8 +1,8 @@
 {
   "name": "The Aether",
   "description": "A light, heavenly realm far above the clouds...",
-  "icon": "aether_legacy:aether_grass",
+  "icon": "aether_legacy:aether_dirt",
   "sortnum": 4,
   "read_by_default": "true",
-  "parent": "exploration_dimensions_the_beneath"
+  "parent": "dimensions"
 }

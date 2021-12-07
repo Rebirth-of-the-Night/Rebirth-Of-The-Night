@@ -1,7 +1,7 @@
 {
     "name": "The Aether",
     "icon": "aether_legacy:aether_grass",
-    "category": "exploration_dimensions_aether",
+    "category": "dimensions_aether",
     "sortnum": 3,
     "advancement": "triumph:advancements/progression/aether/enterAether",
     "pages": [

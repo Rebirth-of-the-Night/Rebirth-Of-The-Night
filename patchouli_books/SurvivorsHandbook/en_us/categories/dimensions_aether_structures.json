@@ -1,0 +1,8 @@
+{
+  "name": "Structures",
+  "description": "The structures of the skies.",
+  "icon": "aether_legacy:holystone_brick",
+  "sortnum": 2,
+  "read_by_default": "true",
+  "parent": "dimensions_aether"
+}

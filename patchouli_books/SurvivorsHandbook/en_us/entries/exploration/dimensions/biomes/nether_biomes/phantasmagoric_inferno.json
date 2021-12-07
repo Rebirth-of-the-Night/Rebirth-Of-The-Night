@@ -1,7 +1,7 @@
 {
     "name": "Phantasmagoric Inferno",
     "icon": "biomesoplenty:ash_block",
-    "category": "exploration_dimensions_nether_biomes",
+    "category": "dimensions_nether_biomes",
     "pages": [
     {
         "type": "text",

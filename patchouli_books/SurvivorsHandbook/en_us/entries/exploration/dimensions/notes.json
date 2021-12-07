@@ -1,7 +1,7 @@
 {
   "name": "Twilight Forest",
   "icon": "twilightforest:firefly",
-  "category": "exploration_dimensions_notes",
+  "category": "dimensions_notes",
   "sortnum": 5,
   "advancement": "triumph:advancements/progression/twilight/enterTwilight",
   "pages": [

@@ -4,5 +4,5 @@
   "icon": "minecraft:netherrack",
   "sortnum": 3,
   "read_by_default": "true",
-  "parent": "exploration_dimensions"
+  "parent": "dimensions"
 }

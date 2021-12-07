@@ -1,8 +1,7 @@
 {
-  "name": "Sample Entry",
-  "icon": "pyrotech:obsidian_pickaxe",
+  "name": "Placeholder",
+  "icon": "contenttweaker:info",
   "category": "miscellanea",
-  "advancement": "triumph:advancements/WIP",
   "pages": [
     {
       "type": "crafting",

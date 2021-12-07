@@ -1,0 +1,8 @@
+{
+  "name": "Biomes",
+  "description": "The terrain of the sky-high islands.",
+  "icon": "biomesoplenty:terrarium:7",
+  "sortnum": 1,
+  "read_by_default": "true",
+  "parent": "dimensions_aether"
+}
