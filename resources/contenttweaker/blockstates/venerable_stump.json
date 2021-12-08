@@ -13,6 +13,11 @@
   },
   "variants": {
     "normal": [{}],
-    "inventory": [{}]
+    "inventory": [{
+      "model": "contenttweaker:item/venerable_stump",
+      "textures": {
+        "layer0": "contenttweaker:items/venerable_stump"
+      }
+    }]
   }
 }

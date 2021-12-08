@@ -188,6 +188,25 @@ venerable_stump.setToolClass("axe");
 venerable_stump.setCreativeTab(<creativetab:rotn_blocks>);
 venerable_stump.register();
 
+// seasoned_stump
+var seasoned_stump = VanillaFactory.createBlock("seasoned_stump", <blockmaterial:Wood>);
+seasoned_stump.axisAlignedBB = AxisAlignedBB.create(
+     -16.0 / 16.0,
+     0.0 / 16.0,
+     -16.0 / 16.0,
+	29.0 / 16.0,
+    16.0 / 16.0,
+    29.0 / 16.0
+	);
+seasoned_stump.setFullBlock(false);
+seasoned_stump.setBlockHardness(12);
+seasoned_stump.setLightOpacity(0);
+seasoned_stump.setLightValue(1);
+seasoned_stump.setBlockLayer("CUTOUT");
+seasoned_stump.setToolClass("axe");
+seasoned_stump.setCreativeTab(<creativetab:rotn_blocks>);
+seasoned_stump.register();
+
 // Raw Ores
 // raw_tin
 var raw_tin = VanillaFactory.createBlock("raw_tin_block", <blockmaterial:Iron>);

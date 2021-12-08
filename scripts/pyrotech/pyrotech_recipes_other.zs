@@ -18,6 +18,9 @@ MechanicalCompactor.removeAllRecipes();
 
 CompactingBin.addRecipe("dirt_from_pile", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4, true);
 CompactingBin.addRecipe("rammed_from_dirt", <earthworks:block_rammed_earth>, <minecraft:dirt>, 3, true);
+CompactingBin.addRecipe("rammed_from_loamy", <quark:world_stone_bricks:2>, <biomesoplenty:dirt:0>, 3, true);
+CompactingBin.addRecipe("rammed_from_sandy", <quark:world_stone_bricks:1>, <biomesoplenty:dirt:1>, 3, true);
+CompactingBin.addRecipe("rammed_from_silty", <quark:world_stone_bricks>, <biomesoplenty:dirt:2>, 3, true);
 CompactingBin.addRecipe("chips_pile_from_chips", <pyrotech:pile_wood_chips>, <pyrotech:rock:7>, 8, true);
 CompactingBin.addRecipe("ash_pile_from_ash", <biomesoplenty:ash_block>, <biomesoplenty:ash>, 9, true);
 CompactingBin.addRecipe("ash_pile_from_big_ash", <biomesoplenty:ash_block>, <pyrotech:material>, 3, true);

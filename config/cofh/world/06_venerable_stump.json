@@ -1,0 +1,40 @@
+{
+	"populate": 
+	{
+		"stumps": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:venerable_stump"
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 1
+			},
+			"material": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				]
+			"cluster-count": 1,
+			"chunk-chance": 20,
+			"retrogen": "true"
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:redwood_forest_edge",
+					"biomesoplenty:redwood_forest",
+					"minecraft:roofed_forest"
+				]
+			}
+		}
+	}
+}

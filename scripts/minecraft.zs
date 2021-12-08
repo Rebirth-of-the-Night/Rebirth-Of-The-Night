@@ -19,6 +19,8 @@ recipes.addShaped("minecart", <minecraft:minecart>, [
     [<ore:genericMetal>, <ore:genericMetal>, <ore:genericMetal>]
 ]);
 
+recipes.remove(<globalxp:xp_block>);
+
 <minecraft:mushroom_stew>.maxStackSize = 4;
 
 recipes.remove(<minecraft:mushroom_stew>);

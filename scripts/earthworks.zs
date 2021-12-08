@@ -88,6 +88,15 @@ val cob = <earthworks:block_cob>;
 val cob_item = <earthworks:item_cob>;
 val log = <ore:logWood>;
 val rammed = <earthworks:block_rammed_earth>;
+val rammed_loamy = <quark:world_stone_bricks:2>;
+val loamy_stairs = <quark:stone_andesite_bricks_stairs>;
+val loamy_slab = <quark:stone_andesite_bricks_slab>;
+val rammed_sandy = <quark:world_stone_bricks:1>;
+val sandy_stairs = <quark:stone_diorite_bricks_stairs>;
+val sandy_slab = <quark:stone_diorite_bricks_slab>;
+val rammed_silty = <quark:world_stone_bricks:0>;
+val silty_stairs = <quark:stone_granite_bricks_stairs>;
+val silty_slab = <quark:stone_granite_bricks_slab>;
 val sandPile = <ore:pileSand>;
 val timber = <earthworks:item_timber>;
 val wattle = <earthworks:block_wattle>;
@@ -150,8 +159,70 @@ recipes.addShapedMirrored("timber",timber*12,[
 ]);
 
 // Rammed Earth
-recipes.remove(rammed);
-// Gets rammed using compactor in pyrotech_recipes_other.zs
+recipes.remove(rammed); // Gets rammed using compactor in pyrotech_recipes_other.zs
+// Rammed Loamy
+recipes.addShaped("stairs_rammed_loamy",rammed_loamy*3,[
+    [loamy_stairs,loamy_stairs],
+	[loamy_stairs,loamy_stairs]
+]);
+recipes.addShaped("slabs_rammed_loamy",rammed_loamy*1,[
+    [loamy_slab,loamy_slab]
+]);
+recipes.addShaped("rammed_loamy_stairs1",loamy_stairs*8,[
+    [rammed_loamy, null, null],
+	[rammed_loamy, rammed_loamy, null],
+	[rammed_loamy, rammed_loamy, rammed_loamy]
+]);
+recipes.addShaped("rammed_loamy_stairs2",loamy_stairs*4,[
+    [loamy_slab, null, null],
+	[loamy_slab, loamy_slab, null],
+	[loamy_slab, loamy_slab, loamy_slab]
+]);
+recipes.addShaped("rammed_loamy_slab",loamy_slab*6,[
+	[rammed_loamy, rammed_loamy, rammed_loamy]
+]);
+// rammed sandy
+recipes.addShaped("stairs_rammed_sandy",rammed_sandy*3,[
+    [sandy_stairs,sandy_stairs],
+	[sandy_stairs,sandy_stairs]
+]);
+recipes.addShaped("slabs_rammed_sandy",rammed_sandy*1,[
+    [sandy_slab,sandy_slab]
+]);
+recipes.addShaped("rammed_sandy_stairs1",sandy_stairs*8,[
+    [rammed_sandy, null, null],
+	[rammed_sandy, rammed_sandy, null],
+	[rammed_sandy, rammed_sandy, rammed_sandy]
+]);
+recipes.addShaped("rammed_sandy_stairs2",sandy_stairs*4,[
+    [sandy_slab, null, null],
+	[sandy_slab, sandy_slab, null],
+	[sandy_slab, sandy_slab, sandy_slab]
+]);
+recipes.addShaped("rammed_sandy_slab",sandy_slab*6,[
+	[rammed_sandy, rammed_sandy, rammed_sandy]
+]);
+// rammed silty
+recipes.addShaped("stairs_rammed_silty",rammed_silty*3,[
+    [silty_stairs,silty_stairs],
+	[silty_stairs,silty_stairs]
+]);
+recipes.addShaped("slabs_rammed_silty",rammed_silty*1,[
+    [silty_slab,silty_slab]
+]);
+recipes.addShaped("rammed_silty_stairs1",silty_stairs*8,[
+    [rammed_silty, null, null],
+	[rammed_silty, rammed_silty, null],
+	[rammed_silty, rammed_silty, rammed_silty]
+]);
+recipes.addShaped("rammed_silty_stairs2",silty_stairs*4,[
+    [silty_slab, null, null],
+	[silty_slab, silty_slab, null],
+	[silty_slab, silty_slab, silty_slab]
+]);
+recipes.addShaped("rammed_silty_slab",silty_slab*6,[
+	[rammed_silty, rammed_silty, rammed_silty]
+]);
 
 // Rich Slag acts as both quicklime and slaked lime
 // lime plaster

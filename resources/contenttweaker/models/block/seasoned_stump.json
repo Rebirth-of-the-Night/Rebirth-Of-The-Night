@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
-		"0": "contenttweaker:blocks/redwood_mossy",
-		"1": "contenttweaker:blocks/redwood_mossy_top",
+		"0": "contenttweaker:blocks/jungle_mossy",
+		"1": "contenttweaker:blocks/jungle_mossy_top",
 		"2": "contenttweaker:blocks/redwood_mossy_bot",
-		"particle": "contenttweaker:blocks/redwood_mossy_top"
+		"particle": "contenttweaker:blocks/jungle_mossy_top"
 	},
 	"elements": [
 		{

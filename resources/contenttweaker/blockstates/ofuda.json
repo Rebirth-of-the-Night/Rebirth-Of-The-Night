@@ -1,24 +1,24 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/ofuda",
-      "particle": "contenttweaker:blocks/ofuda"
-    },
-    "model": "contenttweaker:block/ofuda",
-    "uvlock": false
-  },
-  "variants": {
-    "normal": [
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+		"texture": "contenttweaker:blocks/ofuda",
+		"particle": "contenttweaker:blocks/ofuda"
+		},
+		"model": "contenttweaker:block/ofuda",
+		"uvlock": false
+	},
+	"variants": {
+		"normal": [
 			{ "model": "contenttweaker:block/ofuda" },
-            { "model": "contenttweaker:block/ofuda1" },
-            { "model": "contenttweaker:block/ofuda2" }
-			],
-    "inventory": [{
-      "model": "contenttweaker:item/ofuda",
-      "textures": {
-        "layer0": "contenttweaker:items/ofuda"
-      }
-    }]
-  }
+			{ "model": "contenttweaker:block/ofuda_0" },
+			{ "model": "contenttweaker:block/ofuda_1" }
+		],
+		"inventory": [
+			{"model": "contenttweaker:item/ofuda", "textures": {
+				"layer0": "contenttweaker:items/ofuda"
+				}
+			}
+		]
+	}
 }
