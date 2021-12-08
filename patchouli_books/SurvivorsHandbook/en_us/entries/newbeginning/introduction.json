@@ -1,0 +1,103 @@
+{
+  "name": "Introduction",
+  "icon": "contenttweaker:info",
+  "category": "survival_newbeginning",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)Welcome to Rebirth of the Night, a hardcore survival modpack for Minecraft 1.12.2! This entry will serve as a tutorial introduction to the modpack.$(br2)Whether you found this modpack from the word of a friend, from scrolling through Curseforge, or by a mysterious note left under your pillow at 4:37 PM, we're glad you decided$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)to give this pack a spin!$(br2)The entry you're currently reading will likely be the only of its kind in this guidebook, as in, the only one written from a non 1st-person perspective. Our chief design philosophy is to make this pack feel less like a modpack and more like a cohesive, full game.$(br2)As such, most if not all guidebooks added by other mods have been disabled, or will be disabled.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)Everything you may need to know about the game of RotN can be found here in this guidebook, eventually.$(br2)For the sake of thouroughness, it will be assumed that everyone reading this entry for the first time has never touched modded Minecraft before, and has no idea what any mod does, or how to navigate the modpack whatsoever.$(br2)So, here are the basics:$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/1jei.png"],
+      "border": "true",
+      "title": "How To Use JEI",
+      "text": "$(italics)$(#a84b0f)This is JEI, found on the right after opening your inventory.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)JEI (Just Enough Items) is a mod that adds a recipe browser to the game. It lists nearly everything you may need to craft.$(br2)We've taken care to hide most things that either don't belong in the game, have many of the same type (such as enchanted books), or are creative mode only, like spawn eggs. Some stuff certainly has fallen through the cracks, but we try to get as much as we can.$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/2jei.png"],
+      "border": "true",
+      "title": "Searching In JEI",
+      "text": "$(italics)$(#a84b0f)To search for something, type the name of it in the search bar, bottom right.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)To see the crafting recipe of something, left click on it. To see what recipes it can be used in, right click on it.$(br2)Be sure to view all the tabs above (circled red), as stuff can be used in more than just the standard crafting table. To the top left of the recipe window, there will be an icon that will show the station(s) that recipe is done in (circled green). Clicking on the icon(s) will tell you how to craft the station itself.$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/4jei.png"],
+      "border": "true",
+      "title": "Tabs & Stations",
+      "text": "$(italics)$(#a84b0f)Arrows will help you navigate pages of recipes(circled brown).$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)If you already have an item or block in your inventory, you can hover your mouse over it and press 'R' on it to see the recipes. Pressing 'U' will show the recipes it's used in.$(br2)Make a habit of doing this whenever you come across new blocks or items! It will make your RotN experience a whole lot easier and more convenient, as well as your time in modded Minecraft generally!$()"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)$(#a84b0f)Tips for searching in JEI:$()$(italics)$(#a84b0f)$(br2)Search by tooltip: type '$' before your search term$(br2)Search by mod: type '@' before your search term$(br2)Search multiple terms: separate terms with a '|' (ex: wood|stone)$(br2)Bookmark: press 'A' while hovering over something with your mouse. The bookmark will appear on the left of the screen.$()"
+    },
+    {
+      "type": "text",
+      "title": "Multiplayer",
+      "text": "$(italics)$(#a84b0f)Playing with a group of people? Press 'T', then type '/teams' in the chat. A list of commands will pop up; follow the desired commands to make teams with the people you're playing with.$(br2)People in the same team can see each others' distance from one another, health, and hunger. They will also share all advancements.$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/1teams.png"],
+      "border": "true",
+      "title": "Teams",
+      "text": "$(italics)$(#a84b0f)Other people in a team. The player compass is on the top of the screen.$()"
+    },
+    {
+      "type": "text",
+      "title": "Achievements",
+      "text": "$(italics)$(#a84b0f)Not sure what to do next? Aside from this guidebook, the achievements can give you ideas for your next move.$(br2)To see them, pause the game (ESC) and click on the 'Achievements' button. Take a look through the tabs. Be sure to drag the screen with your mouse, as some achievement tabs don't fit all achievements on one frame.$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/2adv.png"],
+      "border": "true",
+      "text": "$(italics)$(#a84b0f)Pressing 'L' will also show achievements (note: this does not pause the game).$()"
+    },
+    {
+      "type": "text",
+      "title": "The Guidebook",
+      "text": "$(italics)$(#a84b0f)Lastly, we'll cover the guidebook. Hopefully you don't have to be told how to access it, seeing as you're in it right now.$(br2)As mentioned earlier, this guidebook is the only (intended) guidebook in the game; all others are gone, to follow our design principle. The guidebook will be written nearly entirely in the first person perspective, done so to$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)keep in line with the lore, which there is a LOT of. Keep an eye out and you'll slowly uncover RotN's backstory.$(br2)Any text that is italicized and a brownish color, like what you're currently reading, will be 'tutorial' perspective; this is done very rarely and only when first person cannot convey information adequately (like controls). Text in$()$(thing) green $()$(italics)$(#a84b0f)will be things that are searchable in JEI.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)That should be everything for now. To get started, go back to the 'A New World' category (press the arrow at the middle bottom of this book) and follow the entries after this one, in order.$(br2)After you finish those, you'll have enough knowledge to go out on your own. More entries will be unlocked in the rest of the guidebook over time, as you progress and play. Good luck!$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)Be sure to join our Discord server at$()$(#5662f6) discord.gg/rotn $()$(italics)$(#a84b0f) if you've not already! You can discuss the modpack, the lore, follow development, suggest new features, and get a chance to talk to us!$(br2)We hope you have fun playing Rebirth of the Night, and maybe even get to love Minecraft more than you already do.$(br2)-The RotN Dev Team$(br)12/8/2021"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "newbeginning/new_world"
+      ]
+    }
+  ]
+}

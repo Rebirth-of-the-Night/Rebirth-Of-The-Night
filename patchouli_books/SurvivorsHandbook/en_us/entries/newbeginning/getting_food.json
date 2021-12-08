@@ -1,7 +1,8 @@
 {
-  "name": "4. Getting Food",
+  "name": "Getting Food",
   "icon": "minecraft:apple",
   "category": "survival_newbeginning",
+  "sortnum": 5,
   "pages": [
     {
       "type": "spotlight",

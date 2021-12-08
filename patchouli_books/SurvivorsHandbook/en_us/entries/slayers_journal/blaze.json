@@ -2,6 +2,7 @@
     "name": "Blaze",
     "icon": "minecraft:blaze_rod",
     "category": "slayers_journal_mobs",
+    "advancement": "triumph:advancements/progression/slayersjournal",
     "sortnum": 2,
     "read_by_default": "true",
     "pages": [

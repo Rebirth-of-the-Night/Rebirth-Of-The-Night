@@ -1,7 +1,8 @@
 {
-  "name": "5. Fire",
+  "name": "Fire",
   "icon": "contenttweaker:fire_block",
   "category": "survival_newbeginning",
+  "sortnum": 6,
   "pages": [
     {
       "type": "spotlight",

@@ -3,7 +3,6 @@
   "icon": "twilightforest:firefly",
   "category": "dimensions_overworld",
   "sortnum": 5,
-  "advancement": "triumph:advancements/progression/twilight/enterTwilight",
   "pages": [
     {
       "type": "text",

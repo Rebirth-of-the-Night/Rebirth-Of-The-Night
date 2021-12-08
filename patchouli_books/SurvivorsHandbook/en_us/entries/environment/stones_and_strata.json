@@ -1,7 +1,7 @@
 {
   "name": "Stones & Strata",
   "icon": "minecraft:stone",
-  "category": "exploration_environment",
+  "category": "environment",
   "read_by_default": "false",
   "pages": [
     {

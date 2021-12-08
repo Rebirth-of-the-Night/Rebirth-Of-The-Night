@@ -1,8 +1,8 @@
 {
-  "name": "1. A New World",
+  "name": "A New World",
   "icon": "minecraft:log:0",
   "category": "survival_newbeginning",
-  "sortnum": -1,
+  "sortnum": 2,
   "pages": [
     {
       "type": "text",

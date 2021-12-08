@@ -1,7 +1,7 @@
 {
-  "name": "Dimensions Entry",
-  "icon": "minecraft:netherrack",
-  "category": "environment_dimensions",
+  "name": "Environment Entry",
+  "icon": "minecraft:cactus",
+  "category": "environment",
   "advancement": "triumph:advancements/WIP",
   "pages": [
   {

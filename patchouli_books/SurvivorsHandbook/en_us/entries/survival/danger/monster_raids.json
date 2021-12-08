@@ -2,7 +2,6 @@
   "name": "Monster Raids",
   "icon": "iceandfire:troll_skull",
   "category": "survival_danger",
-  "advancement": "triumph:advancements/WIP",
   "pages": [
 	{
       "type": "text",

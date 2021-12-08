@@ -2,6 +2,7 @@
     "name": "Zombie",
     "icon": "minecraft:rotten_flesh",
     "category": "slayers_journal_mobs",
+    "advancement": "triumph:advancements/progression/slayersjournal",
     "sortnum": 1,
     "read_by_default": "true",
     "pages": [

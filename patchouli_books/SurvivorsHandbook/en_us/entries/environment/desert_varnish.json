@@ -1,7 +1,7 @@
 {
   "name": "Desert Varnish",
   "icon": "pyrotech:limestone",
-  "category": "exploration_environment",
+  "category": "environment",
   "read_by_default": "true",
   "pages": [
   {

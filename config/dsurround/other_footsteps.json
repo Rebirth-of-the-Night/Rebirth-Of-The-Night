@@ -4,8 +4,8 @@
 		"stygian:endmagma": "sandstone",
 		"contenttweaker:voided_rock": "bedrock,metalbar",
 		"stygian:endgrass": "grass,stone",
-		"stygian:endtallgrass": "straw",
-		"stygian:endglow": "straw",
+		"stygian:endtallgrass+foliage": "straw",
+		"stygian:endglow+foliage": "straw",
 		"earthworks:block_slate_green": "brickstone,stone",
 		"earthworks:block_slate_purple": "brickstone,stone",
 		"earthworks:block_slate": "brickstone,stone",
@@ -54,6 +54,18 @@
 		"twilightforest:aurora_slab": "snow,brickstone",
 		"twilightforest:auroralized_glass": "snow,glass",
 		"futuremc:campfire": "fire,stone",
-		"dimstack:bedrock": "bedrock"
+		"dimstack:bedrock": "bedrock",
+		"iceandfire:chared_gravel": "gravel,sand",
+		"osv:clay_deposits_dirt": "dirt",
+		"osv:clay_deposits_sand": "dirt,sand",
+		"osv:clay_deposits_gravel": "dirt,gravel",
+		"osv:clay_deposits_biomesoplenty_dirt": "dirt",
+		"osv:clay_deposits_biomesoplenty_dirt_1": "dirt",
+		"osv:clay_deposits_biomesoplenty_dirt_2": "dirt",
+		"osv:clay_deposits_contenttweaker_rocky_dirt": "dirt,stone",
+		"undergroundbiomes:igneous_gravel": "gravel",
+		"undergroundbiomes:metamorphic_gravel": "gravel",
+		"undergroundbiomes:sedimentary_gravel": "gravel",
+		"contenttweaker:rocky_dirt": "dirt,stone"
 	}
 }
