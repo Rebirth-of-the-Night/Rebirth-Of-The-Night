@@ -99,7 +99,7 @@
 			"to": [3, 16, 13],
 			"faces": {
 				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
-				"east": {"uv": [3, 3, 13, 5], "texture": "#0"},
+				"east": {"uv": [2, 0, 12, 2], "texture": "#0"},
 				"south": {"uv": [14, 0, 16, 2], "texture": "#0"},
 				"west": {"uv": [3, 0, 13, 2], "texture": "#0"},
 				"up": {"uv": [3, 0, 13, 2], "rotation": 270, "texture": "#0"}

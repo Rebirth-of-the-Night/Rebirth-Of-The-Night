@@ -3,6 +3,9 @@ tile.plant_0.berrybush.name=Hawthorn Bush
 
 tile.blue_fire.name=Cursed Fire
 item.jar_filled_blue_fire.name=Cursed Fire
+item.gem_peridot.name=Alexandrite
+tile.gem_block.peridot_block.name=Block of Alexandrite
+tile.gem_ore.peridot_ore.name=Alexandrite Ore
 
 potion.curse=Pandemonium
 

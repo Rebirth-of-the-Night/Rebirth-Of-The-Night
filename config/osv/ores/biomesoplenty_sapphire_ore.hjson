@@ -40,6 +40,17 @@ gen: [
     }
   },
   {
+    height: [ 85, 110 ]
+    size: 4
+    count: 8
+    biomes: {
+      types: [
+        OCEAN
+        WATER
+      ]
+    }
+  },
+  {
 	height : [16, 255]
 	size: 9
 	count: 6 

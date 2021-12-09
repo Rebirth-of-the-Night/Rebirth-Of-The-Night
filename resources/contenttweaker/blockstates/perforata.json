@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "texture": "contenttweaker:items/perforata",
-      "particle": "contenttweaker:blocks/perforata_stem"
+      "particle": "contenttweaker:blocks/perforata"
     },
     "model": "contenttweaker:perforata",
     "uvlock": true,

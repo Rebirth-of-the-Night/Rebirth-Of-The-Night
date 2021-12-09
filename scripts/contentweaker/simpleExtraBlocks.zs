@@ -1265,7 +1265,7 @@ ofuda.setFullBlock(false);
 ofuda.setPassable(true);
 ofuda.setReplaceable(false);
 ofuda.setLightOpacity(0);
-ofuda.setLightValue(1);
+ofuda.setLightValue(0.2);
 ofuda.setBlockLayer("CUTOUT");
 ofuda.setBlockSoundType(<soundtype:plant>);
 ofuda.setToolClass("none");

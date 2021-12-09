@@ -1,0 +1,25 @@
+{
+  variables: {
+    #$HANGING("structureName", placementOffset, solidCheckOffset, "block", minHeight, maxHeight, chance, count, airChecks, biomes, blacklistBiomes)
+    HANGING: {
+      biomes: @10
+      blacklistBiomes: @11
+      name: @1
+      offset: [ 0, "@2", 0 ]
+      matchers: @4
+      airChecks: @9
+      solidChecks: @3
+      directions: up
+      chance: @7
+      count: @8
+      height: [ "@5", "@6" ]
+      checkSurface: false
+      integrity: 1
+    }
+  }
+  structures: [
+    $HANGING("cave_structure_ceiling_ofuda_x1", -2, [], ["biomesoplenty:dirt", "biomesoplenty:grass:2"], 56, 65, 1, 4, [[0,-1,0],[0,-2,0],[0,-4,0]], { names: [ "biomesoplenty:ominous_woods" ], mods: [], types: [] }, false)
+    $HANGING("cave_structure_ceiling_ofuda_x2", -3, [], ["biomesoplenty:dirt", "biomesoplenty:grass:2"], 57, 65, 1, 4, [[0,-1,0],[0,-3,0],[0,-5,0]], { names: [ "biomesoplenty:ominous_woods" ], mods: [], types: [] }, false)
+    $HANGING("cave_structure_ceiling_ofuda_x3", -4, [], ["biomesoplenty:dirt", "biomesoplenty:grass:2"], 58, 65, 1, 4, [[0,-1,0],[0,-3,0],[0,-4,0],[0,-6,0]], { names: [ "biomesoplenty:ominous_woods" ], mods: [], types: [] }, false)
+  ]
+}

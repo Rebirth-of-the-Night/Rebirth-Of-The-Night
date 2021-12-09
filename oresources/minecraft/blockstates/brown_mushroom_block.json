@@ -15,7 +15,7 @@
 			{ "model": "red_mushroom_block_stem_1", "weight": 7  },
 			{ "model": "red_mushroom_block_stem_2", "weight": 7  },
 			{ "model": "red_mushroom_block_stem_3", "weight": 9  },
-			{ "model": "red_mushroom_block_stem_4", "weight": 9  },
+			{ "model": "red_mushroom_block_stem_4", "weight": 9  }
 			],
         "variant=all_stem": { "model": "brown_mushroom_block_stem_all" },
         "variant=all_outside": { "model": "brown_mushroom_block_cap_all" },

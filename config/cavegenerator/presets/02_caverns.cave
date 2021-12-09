@@ -57,7 +57,7 @@
       startValRandFactor: 0
     }
     dPitch: {
-      factor: 0.5
+      factor: 0.6
     }
     # Spawn rate roughly in half.
     count: 7
