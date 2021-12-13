@@ -4,7 +4,7 @@
   replaceableBlocks: [ "air", "grass", "water", "undergroundbiomes:sedimentary_overgrown" ]
   blacklistBiomes: false
   biomes: {
-    names: biometweaker:overgrown_cliffs
+    names: biomesoplenty:overgrown_cliffs
     types: []
   }
   caverns: [ {
