@@ -38,15 +38,15 @@ item.mud_axe.name=Bronze Axe
 item.mud_hoe.name=Bronze Hoe
 item.mud_sword.name=Bronze Gladius
 
-item.peridot_helmet.name=AlexandriteHelmet
-item.peridot_chestplate.name=AlexandriteChestplate
-item.peridot_leggings.name=AlexandriteLeggings
-item.peridot_boots.name=AlexandriteBoots
-item.peridot_shovel.name=AlexandriteShovel
-item.peridot_pickaxe.name=AlexandritePickaxe
-item.peridot_axe.name=AlexandriteAxe
-item.peridot_hoe.name=AlexandriteHoe
-item.peridot_sword.name=AlexandriteArming Sword
+item.peridot_helmet.name=Alexandrite Helmet
+item.peridot_chestplate.name=Alexandrite Chestplate
+item.peridot_leggings.name=Alexandrite Leggings
+item.peridot_boots.name=Alexandrite Boots
+item.peridot_shovel.name=Alexandrite Shovel
+item.peridot_pickaxe.name=Alexandrite Pickaxe
+item.peridot_axe.name=Alexandrite Axe
+item.peridot_hoe.name=Alexandrite Hoe
+item.peridot_sword.name=Alexandrite Arming Sword
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
