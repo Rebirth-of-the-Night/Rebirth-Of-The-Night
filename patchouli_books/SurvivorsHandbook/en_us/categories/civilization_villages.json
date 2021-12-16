@@ -1,0 +1,7 @@
+{
+  "name": "Villages",
+  "description": "Common, small settlements populated by villagers and humans. They can be found throughout the surface, in all sorts of biomes and climates.",
+  "icon": "toroquest:recruitment_papers",
+  "sortnum": 1,
+  "parent": "civilization"
+}

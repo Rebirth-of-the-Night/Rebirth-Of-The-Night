@@ -1,0 +1,7 @@
+{
+  "name": "Bandits",
+  "description": "A managerie of masked humans, hostile and armed to the teeth. Often found ransacking villages.",
+  "icon": "toroquest:bandit_helmet",
+  "sortnum": 2,
+  "parent": "civilization"
+}

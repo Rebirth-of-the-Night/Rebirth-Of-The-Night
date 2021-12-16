@@ -1,0 +1,29 @@
+{
+	"footsteps": {
+		"contenttweaker:voided_rock": "bedrock,metalbar",
+		"contenttweaker:rocky_dirt": "dirt,stone",
+		"contenttweaker:n_copper_sandstone": "sandstone,ore",
+		"contenttweaker:n_copper_sandstone_red": "sandstone,ore",
+		"contenttweaker:limestone_cobble": "sandstone",
+		"contenttweaker:ardicite": "stone,fire",
+		"contenttweaker:dormant_ardicite_onyx": "stone,fire",
+		"contenttweaker:healing": "composite",
+		"defiledlands:healing_pad": "composite",
+		"contenttweaker:elevator": "brickstone",
+		"advancedliftingmethods:ultimate_ender_elevator": "brickstone",
+		"contenttweaker:charmpeat": "grass",
+		"contenttweaker:raw_mythril_block": "ore",
+		"contenttweaker:raw_silver_block": "ore",
+		"contenttweaker:raw_copper_block": "ore",
+		"contenttweaker:raw_viridium_block": "ore",
+		"contenttweaker:raw_iron_block": "ore",
+		"contenttweaker:raw_gold_block": "ore",
+		"contenttweaker:raw_tin_block": "ore",
+		"contenttweaker:raw_gravitite_block": "ore",
+		"contenttweaker:halite": "ice",
+		"contenttweaker:abyss_pizza_block": "organic",
+		"contenttweaker:plain_pizza_block": "organic",
+		"contenttweaker:yeast": "organic",
+		"contenttweaker:yeast_flour": "organic"
+	}
+}

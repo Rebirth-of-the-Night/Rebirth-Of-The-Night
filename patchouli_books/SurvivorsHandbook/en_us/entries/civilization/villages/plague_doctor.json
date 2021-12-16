@@ -1,7 +1,7 @@
 {
   "name": "Plague Doctor",
   "icon": "rats:plague_doctor_mask",
-  "category": "exploration_civilization",
+  "category": "civilization_villages",
   "read_by_default": "true",
   "pages": [
     {

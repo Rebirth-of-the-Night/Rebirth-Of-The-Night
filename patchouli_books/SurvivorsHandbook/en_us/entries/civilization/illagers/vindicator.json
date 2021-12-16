@@ -1,0 +1,21 @@
+{
+  "name": "Vindicator",
+  "icon": "minecraft:iron_axe",
+  "category": "civilization_illagers",
+  "read_by_default": "true",
+  "pages": [
+	{
+      "type": "text",
+      "text": "The vindicator is a brusque illager with a bad temper.$(br2)At ease, they amble around while grunting with their arms together; but when preparing to attack, they unlink their hands and brandish a fearsome looking $(thing)iron axe$().$(br2)Their swings pack a brutal punch; a shield won't help here as that axe simply"
+    },
+    {
+      "type": "entity",
+          "entity": "minecraft:vindication_illager",
+          "scale": 0.8,
+          "offset": 0.25,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "knocks it out of the way, preventing me from using it. If i'm not careful, they can cut me down in seconds."
+  }
+  ]
+}

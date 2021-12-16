@@ -1,0 +1,21 @@
+{
+	"footsteps": {
+		"twilightforest:underbrick": "brickstone",
+		"twilightforest:spiral_bricks": "brickstone",
+		"twilightforest:nagastone_stairs": "brickstone",
+		"twilightforest:nagastone_stairs_mossy": "brickstone",
+		"twilightforest:nagastone_stairs_weathered": "brickstone",
+		"twilightforest:etched_nagastone": "brickstone",
+		"twilightforest:etched_nagastone_mossy": "brickstone",
+		"twilightforest:etched_nagastone_weathered": "brickstone",
+		"twilightforest:naga_stone": "brickstone",
+		"twilightforest:nagastone_pillar": "brickstone",
+		"twilightforest:nagastone_pillar_mossy": "brickstone",
+		"twilightforest:nagastone_pillar_weathered": "brickstone",
+		"twilightforest:maze_stone": "brickstone",
+		"twilightforest:aurora_block": "snow,brickstone",
+		"twilightforest:aurora_pillar": "snow,brickstone",
+		"twilightforest:aurora_slab": "snow,brickstone",
+		"twilightforest:auroralized_glass": "snow,glass"
+	}
+}

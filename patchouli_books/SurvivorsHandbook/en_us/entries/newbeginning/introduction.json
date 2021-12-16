@@ -32,7 +32,7 @@
       "images": ["book:images/2jei.png"],
       "border": "true",
       "title": "Searching In JEI",
-      "text": "$(italics)$(#a84b0f)To search for something, type the name of it in the search bar, bottom right.$()"
+      "text": "$(italics)$(#a84b0f)To search for something, type the name of it in the search bar, circled red.$()"
     },
     {
       "type": "text",

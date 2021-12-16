@@ -1,0 +1,44 @@
+{
+  "name": "Pied Piper",
+  "icon": "rats:piper_hat",
+  "category": "civilization_illagers",
+  "read_by_default": "true",
+  "pages": [
+	{
+      "type": "text",
+      "text": "The pied piper is an unusual illager who has found a way to tame, control, and weaponize... rats?$(br2)Strangely, yes. But it's no joke. The pied piper's flute sends their rats into a vicious frenzy towards their target; the piper must die for the rats to disperse. Luckily, pipers don't make their flute very subtle."
+    },
+    {
+      "type": "entity",
+          "entity": "rats:illager_piper",
+          "scale": 0.8,
+          "offset": 0.42,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "If I hear that dreaded flute, I should turn tail and run, unless I'm prepared to be mauled by rodents."
+  },
+  {
+    "type": "item_list_spotlight",
+    "title": "Items & Drops",
+    "text": "Pied pipers drop a lot of strange items; most of those things don't really seem to be particularly useful or valuable:",
+    "a_i":"book:empty.png",
+    "b":"minecraft:dye:4",
+    "b_i":"book:empty.png",
+    "c":"minecraft:gold_nugget",
+    "c_i":"book:empty.png",
+    "d":"minecraft:feather",
+    "d_i":"book:empty.png",
+    "e":"rats:raw_rat",
+    "e_i":"book:empty.png",
+    "f":"rats:rat_pelt",
+    "f_i":"book:empty.png",
+    "g_i":"book:empty.png",
+    "text2": "However, pied pipers may occasionally drop something which can allow me to unlock the secrets of their rat taming abilities, and untilize them to my benefit... "
+  },
+  {
+    "type": "spotlight",
+    "item": "rats:piper_hat",
+    "text": "The piper's hat has a peculiar property. Normally, rats scurry away at my presence. But when this hat is worn, rats will no longer fear me and run.$(br2)This might allow me to get up close and personal with a rat, though I still need to feed it something to tame it..."
+  }
+  ]
+}

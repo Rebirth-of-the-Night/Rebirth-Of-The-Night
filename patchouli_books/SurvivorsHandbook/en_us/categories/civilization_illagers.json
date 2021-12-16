@@ -1,0 +1,7 @@
+{
+  "name": "Illagers",
+  "description": "The twisted and cruel traitors of the village system. They have a sickly gray complexion, mean scowl and are knowledgeable in many dark and unknown arts. Very hostile, especially towards villagers and their ilk.",
+  "icon": "totemexpansion:totem_repair",
+  "sortnum": 3,
+  "parent": "civilization"
+}

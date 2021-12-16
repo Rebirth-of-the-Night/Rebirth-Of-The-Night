@@ -1,0 +1,61 @@
+{
+  "name": "Witch",
+  "icon": "fairylights:light:176",
+  "category": "civilization_illagers",
+  "read_by_default": "true",
+  "pages": [
+	{
+      "type": "text",
+      "text": "The witch is an illager that specializes in knowledge of alchemy; so much so, in fact, that their preferred method of combat relies solely on throwing harmful potions at their enemy.$(br2)They can drink tonics that heal instantly, so quick slashes with a weapon is the ideal way to dispatch of them."
+  },
+  {
+      "type": "entity",
+          "entity": "minecraft:witch",
+          "scale": 0.8,
+          "offset": 0.25,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "Witches prefer to build reclusive huts where they experiment with brewing, found solely in swamps."
+  },
+  {
+    "type": "item_list_spotlight",
+    "title": "Items & Drops",
+    "text": "On death, witches drop a plethora of items related to brewing and alchemy. Pretty useful knowledge, if I want to try my making my own potions and brews:",
+    "a":"minecraft:glass_bottle",
+    "a_i":"book:empty.png",
+    "b":"minecraft:stick",
+    "b_i":"book:empty.png",
+    "c":"minecraft:spider_eye",
+    "c_i":"book:empty.png",
+    "d":"minecraft:sugar",
+    "d_i":"book:empty.png",
+    "e":"minecraft:redstone",
+    "e_i":"book:empty.png",
+    "f":"betterwithmods:material:26",
+    "f_i":"book:empty.png",
+    "g":"dungeontactics:magic_powder",
+    "g_i":"book:empty.png",
+    "text2": "Witches will also burst into a horde of vampiric bats after being struck down that'll constantly nip and bite until they're taken out. Nasty stuff, I shouldn't let my guard down."
+  },
+  {
+    "type": "item_list_spotlight",
+    "title": "Witch Hat",
+    "text": "Additionally, witches can very occasionally drop their hat. This hat is woven with some sort of special fabric; it seems to be resistant to curse magic.",
+    "a_i":"book:empty.png",
+    "b_i":"book:empty.png",
+    "c_i":"book:empty.png",
+    "d":"quark:witch_hat",
+    "d_i":"book:empty.png",
+    "e_i":"book:empty.png",
+    "f_i":"book:empty.png",
+    "g_i":"book:empty.png",
+    "text2": "This hat may also work in conjuction with an especially arcane kind of armor, theoretically. It can't be the one I'm thinking of, though; that material is nothing more than a myth..."
+  },
+  {
+    "type": "relations",
+    "entries": [
+      "agriculture/cauldron"
+    ]
+  }
+  ]
+}
