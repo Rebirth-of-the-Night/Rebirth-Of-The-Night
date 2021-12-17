@@ -38,18 +38,10 @@
     "text2": "Witches will also burst into a horde of vampiric bats after being struck down that'll constantly nip and bite until they're taken out. Nasty stuff, I shouldn't let my guard down."
   },
   {
-    "type": "item_list_spotlight",
+    "type": "spotlight",
+    "item": "quark:witch_hat",
     "title": "Witch Hat",
-    "text": "Additionally, witches can very occasionally drop their hat. This hat is woven with some sort of special fabric; it seems to be resistant to curse magic.",
-    "a_i":"book:empty.png",
-    "b_i":"book:empty.png",
-    "c_i":"book:empty.png",
-    "d":"quark:witch_hat",
-    "d_i":"book:empty.png",
-    "e_i":"book:empty.png",
-    "f_i":"book:empty.png",
-    "g_i":"book:empty.png",
-    "text2": "This hat may also work in conjuction with an especially arcane kind of armor, theoretically. It can't be the one I'm thinking of, though; that material is nothing more than a myth..."
+    "text": "Witches can also rarely drop their hat. It's woven with some sort of special fabric; it seems to be resistant to curse magic. This hat may also work in conjuction with an especially arcane kind of armor, theoretically. It can't be the one I'm thinking of, though; that material is nothing more than a myth..."
   },
   {
     "type": "relations",

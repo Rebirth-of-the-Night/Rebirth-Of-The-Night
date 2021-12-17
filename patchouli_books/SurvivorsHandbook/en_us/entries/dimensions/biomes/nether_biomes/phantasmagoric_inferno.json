@@ -3,9 +3,38 @@
     "icon": "biomesoplenty:ash_block",
     "category": "dimensions_nether_biomes",
     "pages": [
-    {
+      {
         "type": "text",
-        "text": "This place is so full of fantastical creatures that I can't help but be in awe of it.$(br)The world has many floating islands to explore, but I need to take care not to fall off.$(br)I've heard rumors that the Aether is quite dangerous in the darkness, and there are many foes and challenges waiting in temples high above the world."
+        "text": "An area of the Nether covered with a thick layer of hot, smoldering ashes. Strange blue flames are scattered around the landscape, broken up by small pools of lava. The $(thing)ash$() is a bit tready to walk in.$(br2)It can be reasonably assumed this place was the hotspot of ancient volcanic activity, or some sort of scorching which left ash."
+      },
+      {
+        "type": "text",
+        "text": "This biome is fairly devoid of life; not much is offered here for anything that's living, between the ash that's sluggish to walk around in and the fire that makes you move without any rhyme or reason.$(br2)There isn't much else to say about this place, although it does contain a few points of interest for materials that could come in handy down the line:"
+      },
+      {
+        "type": "spotlight",
+        "item": "biomesoplenty:blue_fire",
+        "title": "Cursed Fire",
+        "text": "This strange blue flame isn't hot enough to burn me; however, it takes control of my movement, causing me to flail about wildly. I should be quite careful or I may get thrown into lava against my will!$(br2)It can be picked up with a $(thing)jar$() and placed down elsewhere, crafted as so:"
+      },
+      {
+        "type": "crafting",
+        "title": " ",
+        "recipe": "biomesoplenty:empty_jar",
+        "text": "However, as hazardous as this fire might be, putting it strategically around traps near my base might cause monsters to fall right into them...$(br2)The monsters won't know what happened!"
+      },
+      {
+        "type": "spotlight",
+        "item": "biomesoplenty:ash",
+        "title": "Ashes",
+        "text": "Lots of ash can be found here. When dug up, I get a few $(thing)piles of ash$().$(br2)Compressing the piles of ash together by crafting yields the more substantial ash that is found here; compressing that even further will get me a nice piece of $(thing)coal$()."
+      },
+      {
+        "type": "crafting",
+        "title": " ",
+        "recipe": "crafttweaker:ashblock",
+        "title2": " ",
+        "recipe2": "crafttweaker:ashblock_compression"
       }
     ]
   }

@@ -1,0 +1,18 @@
+{
+	"footsteps": {
+		"betternether:reeds_ladder": "ladder",
+		"betternether:nether_brick_tile_large": "brickstone",
+		"betternether:nether_brick_tile_small": "brickstone",
+		"betternether:nether_brick_tile_slab_half": "brickstone",
+		"betternether:nether_brick_tile_stairs": "brickstone",
+		"betternether:nether_brick_wall+bigger": "brickstone",
+		"betternether:bone_block": "marble",
+		"betternether:bone_stairs": "marble",
+		"betternether:bone_slab_half": "marble",
+		"betternether:bone_wall+bigger": "marble",
+		"betternether:bone_tile": "marble",
+		"betternether:block_eyeball": "organic",
+		"betternether:block_eyeball_small": "organic",
+		"betternether:nether_mycelium": "stone,grass"
+	}
+}

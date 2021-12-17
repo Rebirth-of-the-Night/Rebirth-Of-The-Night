@@ -1,0 +1,24 @@
+{
+	"footsteps": {
+		"quark:world_stone_bricks[variant=stone_andesite_bricks]": "sandstone",
+		"quark:world_stone_bricks[variant=stone_granite_bricks]": "sandstone",
+		"quark:world_stone_bricks[variant=stone_diorite_bricks]": "sandstone",
+		"quark:stone_andesite_bricks_slab": "sandstone",
+		"quark:stone_granite_bricks_slab": "sandstone",
+		"quark:stone_diorite_bricks_slab": "sandstone",
+		"quark:stone_andesite_bricks_stairs": "sandstone",
+		"quark:stone_granite_bricks_stairs": "sandstone",
+		"quark:stone_diorite_bricks_stairs": "sandstone",
+		"quark:stone_andesite_bricks_wall+bigger": "sandstone",
+		"quark:stone_granite_bricks_wall+bigger": "sandstone",
+		"quark:stone_diorite_bricks_wall+bigger": "sandstone",
+		"earthworks:block_rammed_earth": "sandstone",
+		"earthworks:slab_rammed_earth": "sandstone",
+		"earthworks:stair_rammed_earth": "sandstone",
+		"earthworks:wall_rammed_earth+bigger": "sandstone",
+		"quark:polished_netherrack": "brickstone",
+		"quark:polished_netherrack_bricks_stairs": "brickstone",
+		"quark:polished_netherrack_bricks_slab": "brickstone",
+		"quark:polished_netherrack_bricks_wall+bigger": "brickstone"
+	}
+}
