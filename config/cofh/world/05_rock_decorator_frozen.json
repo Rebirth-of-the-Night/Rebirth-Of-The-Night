@@ -43,6 +43,20 @@
 				],
 				"cluster-size": 19
 			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:snow",
+				"minecraft:sand",
+				"minecraft:snow_layer",
+				"minecraft:packed_ice",
+				"biomesoplenty:grass",
+				"biomesoplenty:hard_ice",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",
@@ -51,11 +65,13 @@
 				"value": [
 					"minecraft:ice_flats",
 					"minecraft:ice_mountains",
+					"iceandfire:glacier",
 					"minecraft:frozen_ocean",
 					"minecraft:frozen_river",
+					"minecraft:mutated_ice_flats",
 					"biomesoplenty:snowy_tundra",
-					"biomesoplenty:tundra",
-					"minecraft:mutated_ice_flats"
+					"biomesoplenty:glacier",
+					"biomesoplenty:tundra"
 				]
 			}
 		}

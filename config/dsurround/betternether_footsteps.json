@@ -13,6 +13,15 @@
 		"betternether:bone_tile": "marble",
 		"betternether:block_eyeball": "organic",
 		"betternether:block_eyeball_small": "organic",
-		"betternether:nether_mycelium": "stone,grass"
+		"betternether:nether_mycelium": "stone,grass",
+		"betternether:cincinnasite_wall+bigger": "hardmetal",
+		"betternether:pig_statue_01+bigger": "hardmetal",
+		"betternether:cincinnasite_fire_bowl": "hardmetal,stone",
+		"betternether:cincinnasite_frame": "hardmetal,glass",
+		"betternether:bone_cincinnasite_door": "hardmetal,marble",
+		"betternether:cincinnasite_bricks": "hardmetal,brickstone",
+		"betternether:cincinnasite_bricks_pillar": "hardmetal,brickstone",
+		"betternether:cincinnasite_brick_plate": "hardmetal,brickstone",
+		"betternether:cincinnasite_pot": "hardmetal,organic_dry"
 	}
 }

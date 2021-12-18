@@ -7,14 +7,14 @@
 				"block": [
 					{
 						"name": "pyrotech:rock",
-						"weight": 7,
+						"weight": 4,
 						"properties": {
 							"variant" : "rock_sandstone"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 3,
+						"weight": 2,
 						"properties": {
 							"variant" : "rock_andesite"
 						}
@@ -29,9 +29,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 19
+				"cluster-size": 10
 			},
-			"cluster-count": 4,
+			"cluster-count": 2,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

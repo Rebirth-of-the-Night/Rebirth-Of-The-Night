@@ -47,6 +47,19 @@
 		"arcanearchives:storage_shaped_quartz": "marble",
 		"simpleores:onyx_block": "marble",
 		"netherex:nether_brick_fence_gate+bigger": "brickstone",
-		"futuremc:nether_brick_wall+bigger": "brickstone"
+		"futuremc:nether_brick_wall+bigger": "brickstone",
+		"simpleores:onyx_ore": "ore",
+		"osv:simpleores_onyx_ore_contenttweaker_ardicite": "fire,ore",
+		"dungeontactics:mithril_block": "brickstone",
+		"iceandfire:myrmex_resin_sticky": "dirt,organic",
+		"iceandfire:myrmex_desert_resin_block": "sandstone",
+		"iceandfire:myrmex_jungle_resin_block": "stone,dirt",
+		"minecraft:torch+foliage": "fire",
+		"glaretorch:blockglaretorchsmall+foliage": "fire,metalbar",
+		"glaretorch:blockglaretorch+foliage": "fire",
+		"glaretorch:blockglaretorchlarge+foliage": "fire",
+		"glaretorch:blockglaretorchlarge2+foliage": "fire",
+		"inspirations:torch_lever+foliage": "fire"
+
 	}
 }

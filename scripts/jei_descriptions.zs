@@ -68,7 +68,7 @@ JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts 
 JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as slabs, planks, or stairs from your inventory. Can only be enchanted in the True Enchanting Table."]);
 
 JEI.addDescription(<pyrotech:bucket_wood>,"This won't last long. Don't even think of putting hot fluids in it!");
-JEI.addDescription(<pyrotech:bucket_stone>,"It is important to know that a metal bucket may not melt but will surely get as hot as gunpowder inside a stoked cauldron! Lava is no joke, nor should it be treated like one.");
+JEI.addDescription(<pyrotech:bucket_stone>,"It is important to know that a metal bucket may not melt with lava inside, but will surely get hot enough to scorch off all the layers of your skin! Lava is no joke, nor should it be treated like one.");
 JEI.addDescription(<pyrotech:crude_fishing_rod>, "A less than ideal fishing rod. May break unexpectedly after each use!");
 
 JEI.addDescription(<quark:witch_hat>,"Enchanted thread is woven throughout the inside... and it's comfy, too! Protects your items from being cursed by spectres.");
@@ -81,10 +81,10 @@ JEI.addDescription(<dungeontactics:sharp_stick>,"Preferable to a toy sword, it's
 JEI.addDescription(<trumpetskeleton:trumpet>,"No human should hold this much power.");
 JEI.addDescription(<dungeontactics:silver_sword>,"The True Dark's Edge is a living blade fused with the endless power of the fallen. Its abilities allow you to draw strength from other's suffering, empower yourself by siphoning power from the blade itself, and strike at your enemies' souls, bypassing some of their armor.");
 
-JEI.addDescription(<pyrotech:matchstick>,"Of a single use and made with common materials. It Can light a kiln if held down but it is not as convenient as a flint and steel.");
+JEI.addDescription(<pyrotech:matchstick>,"Of a single use and made with common materials. It can light a kiln if held down but it is not as convenient as a flint and steel.");
 
-JEI.addDescription(<toolbelt:belt>,"A rudimentary belt crafted using leather straps and durable fibers. A convenient way of holding many tools for quick access on one's person. Once you put on the belt, hold ` (by default, can be rebound) to access the pouches and add or remove items. Holds two tools by default, and every Belt Pouch you attach in an Iron Anvil allows it to hold one more, up to nine.");
-JEI.addDescription(<toolbelt:pouch>,"Attach these to a Tool Belt in an Iron Anvil to allow your Tool Belt to hold more tools. Every Belt Pouch you attach allows it to hold one more tool, up to nine.");
+JEI.addDescription(<toolbelt:belt>,"A rudimentary belt crafted using leather straps and durable fibers. A convenient way of holding many tools for quick access on one's person. Once you put on the belt, hold ` (by default, can be rebound) to access the pouches and add or remove items. Holds two tools by default, and every belt pouch you attach in an Iron Anvil allows it to hold one more, up to nine.");
+JEI.addDescription(<toolbelt:pouch>,"Attach these to a tool belt in an Iron Anvil to allow your tool belt to hold more tools. Every belt pouch you attach allows it to hold one more tool, up to nine.");
 
 JEI.addDescription(<dungeontactics:high_striker>,"Seemingly possesed by a playful spirit. Launches targets high into the sky.");
 JEI.addDescription(<dungeontactics:wackerjab>,"Maybe made by a mad god or maybe by a force of pure entropy. The Wackerjab can turn the target into anything, at random.");
@@ -105,16 +105,16 @@ val charcoal = <minecraft:coal:1>;
 
 JEI.addDescription(<endreborn:block_essence_ore>, "A hard and somewhat hypnotizing rock some consider to be unnatural. It is the source of End essence.");
 JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapsed, the ensuing chaos leaked living entropy into the world.");
-JEI.addDescription(<biomesoplenty:biome_essence>,"Residual energy of that which was extinguished by Void. Can be found at the bottom of the Ender Dragon island.");
-JEI.addDescription(<ore:ingotSilver>,"A material known to be effectively used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
+JEI.addDescription(<biomesoplenty:biome_essence>,"Residual energy of that which was extinguished by the Void. Can be found at the bottom of the Ender Dragon island.");
+JEI.addDescription(<ore:ingotSilver>,"A material known to be effective when used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
 JEI.addDescription(<ore:ingotIron>,"Although bronze and steel are tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
 JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
 JEI.addDescription(<rotn_blocks:exorite_crystal>,"A beautiful gem common to the lands of the Ender folk, sometimes confused with amethyst.");
-JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
+JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since all known deposits in the Nether have been mined up. Some villagers in the coldest of places collect this gem through unknown methods.");
 JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
-JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the Ender Dragon island after killing the Ender Dragon.");
+JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the center island after killing the Ender Dragon.");
 JEI.addDescription(<ore:dustCopper>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustZinc>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustTin>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
@@ -166,7 +166,8 @@ JEI.addDescription(pulp, "Obtained either by macerating wood and sugar cane or b
 JEI.addDescription(coade, "An homogenous magma of varied stone that is easy to manipulate. Its name comes from its association with a certain earthenware material that was said to be truly easily moldable into any shape; although not clay, that name stuck with it over time.");
 JEI.addDescription(denseRedstone, "The purest variety of redstone, it pulsates frantically and shines with fiery energy when it is moved around too much. It would seem as if countless restless souls were trapped inside a mineral cage for all eternity... is this source of power really without a cost?");
 JEI.addDescription(kaolin_quartz, "A valuable cluster of high quality quartz obtained from the Nether; it contains a good amount of kaolin, the most important component in the elaboration of porcelain.");
-JEI.addDescription(ground_nether_dust, "Dust made of dried, flesh-like rock. It instantly becomes a viscuous substance when touching water; a conveyor belt could be another method of transport for this...");
+JEI.addDescription(<betterwithmods:material:15>, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
+JEI.addDescription(ground_nether_dust, "The dust of dried, flesh-like rock. It instantly becomes a viscuous substance when touching fluids; a conveyor belt could be another method of transport for this...");
 JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow. Used with Crop Stakes. Refer to your Almanac for details.");
 JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow. Used with Agricultural Rope. Refer to your Almanac for details.");
 JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquisite quality and was clearly made by the hand of someone who has dedicated their whole life to their profession. It may be used by an equally talented fletcher to make high grade arrows.");
@@ -198,7 +199,7 @@ JEI.addDescription(<minecraft:furnace>, "A versatile machine for smelting ores a
 
 /* Plants */
 JEI.addDescription(<rustic:wildberries>,"A strong-flavored pome-like fruit that can be prepared or distilled. Carminberries have a highly staining red pigment which make them a perfect red dye.");
-JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless source of food and they can be multiplied using bone meal. Carminberry bushes grow naturally in most warm and not dry biomes.");
+JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless source of food and they can be multiplied using bone meal. Carminberry bushes grow naturally in most warm and moderate biomes.");
 JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
 JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes.");
 JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
@@ -229,7 +230,7 @@ JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount:
 JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}),"Sheep Milk is obtained from sheep.");
 
 JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through an infectious disease. If fed to certain baby animals, their growth will be stunted forever.");
-JEI.addDescription(<exsartagine:yeast>, "This kind of yeast can be obtained by placing down flour on a surface, interacting with it using a water bottle and waiting unti it changes appearence.");
+JEI.addDescription(<exsartagine:yeast>, "This kind of yeast can be obtained by placing down flour on a surface, right-clicking it with a water bottle and waiting until it changes appearance. Breaking the changed block will yield this item.");
 
 /* Mobs and Drops */
 val dung = <betterwithmods:material:5>;
@@ -239,11 +240,11 @@ JEI.addDescription(<minecraft:gunpowder>, "The central ingredient of most explos
 JEI.addDescription(<minecraft:skull:3>, "An old village legend claims that a golem named after a specific person carries a sliver of that person's soul… and those who practice forbidden arts can bring forth an echo of that soul to the physical realm. Named Snow Golems equipped with a pumpkin will drop a copy of that person's head if killed by a witch.");
 JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the accursed beast, infused with the energy of a plane outside all else. Its lingering aura can even affect stone.");
 JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
-JEI.addDescription(<quark:tallow>,"Used for making candles or repairing gear in an iron anvil. Pigs are a good source of tallow, or you can melt down rotten flesh for a crude source.");
+JEI.addDescription(<quark:tallow>,"Used for making candles or repairing basic gear in an iron anvil. Pigs are a good source of tallow; or you can melt down rotten flesh in a cooking cauldron for a crude source.");
 JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
 JEI.addDescription(<mowziesmobs:glowing_jelly>,"Puffbulbs are particularly fragile creatures that sustain themselves by absorbing energy from a living mineral, surviving against all odds amidst the horrors of the Beneath.");
-JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken.");
-JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material produced by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong glue.");
+JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken...");
+JEI.addDescription(<primitivemobs:wonder_sap>,"A marvelous material produced by grove sprites. It can turn other species of wood into the type of wood the grove sprite originated from. Most interestingly, when combined with certain dense liquids, it makes for an extremely strong adhesive. It also has various agricultural uses.");
 JEI.addDescription(<biomesoplenty:flesh>, "It's surprisingly warm to the touch.");
 JEI.addDescription(<primitivemobs:camouflage_dye>, "Now you see me, now you you don't... This substance found in chameleons can dye most things into camouflaging colors.");
 
@@ -255,13 +256,13 @@ JEI.addDescription([<betteranimalsplus:hirschgeistskull>, <betteranimalsplus:hir
 JEI.addDescription(<betteranimalsplus:hirschgeistskullwearable>,"Cursed skull of a powerful forest spirit, prepared for use as ritual head armor. Wearing this artifact commands respect from even the fiercest woodland creatures.");
 
 JEI.addDescription(dung,"Gross? No, it's nature being useful! Obtained by feeding tamed wolves and waiting a fair amount of time. Triggers a fermentative process to make tanned leather.");
-JEI.addDescription(<betterwithmods:breeding_harness>, "...");
+JEI.addDescription(<betterwithmods:breeding_harness>, "All you need is submission; this harness will take care of the rest.");
 
 JEI.addDescription(<netherex:frost_rod>, "Stabilizing rod for a chilling elemental construct, favored as a guardian by users of ice magic.");
 JEI.addDescription(<netherex:frost_powder>, "The remains of crushed frost rods are still cold enough to cause frostbite if handled improperly.");
 JEI.addDescription(<netherex:coolmar_spider_fang>, "Coolmar scuttlers are not true spiders, but unholy constructs of bone and ice. Many folk legends claim that these monstrosities will emerge before the end times.");
 
-JEI.addDescription(<betterwithmods:material:54>, "Unlike most spiders, the notorious Jungle Spiders are cooperative hunters. Jungle spider venom can cause severe vomiting and loss of appetite, but their prey rarely lives long enough to experience these effects.");
+JEI.addDescription(<betterwithmods:material:54>, "Unlike most spiders, the notorious jungle spiders are cooperative hunters. Jungle spider venom can cause severe vomiting and loss of appetite, but their prey rarely lives long enough to experience these effects.");
 JEI.addDescription(<mod_lavacow:poisonstinger>, "Honeybees die after stinging once. Vespas keep stinging until you're dead.");
 
 JEI.addDescription(<mod_lavacow:scythe_claw>, "Dreadful claw of the Ithaqua, a fiend of visceral hunger and fury.");
@@ -274,7 +275,7 @@ JEI.addDescription(<mod_lavacow:undyingheart>, "A powerful heart. Fueled by a te
 /* Decorative Blocks */
 JEI.addDescription(<minecraft:bed:*>, ["With some bits of padding and a little carpentry, one can create a place to lay their head, finding peaceful sleep until the glorious dawn."]);
 
-JEI.addDescription(<minecraft:purpur_block>, ["One of the most distinctive types of Ender architecture, favored for endermites as burrows to pupate into shulkers.","Long ago, the shulkers were easily controlled… but now, what remains of the Ender empire cannot prevent the pests from infesting their cities."]);
+JEI.addDescription(<minecraft:purpur_block>, ["One of the most distinctive styles of Ender architecture, favored by endermites as burrows to pupate into shulkers.","Long ago, the shulkers were easily controlled… but now, what remains of the Ender Empire cannot prevent the pests from infesting their cities."]);
 JEI.addDescription(<betterwithaddons:elytra_magma>, "A mysterious block that creates a magical updrift if one flies over it with an elytra!");
 JEI.addDescription(<minecraft:end_stone>,"Some have seen this para-dimensional stone floating around in the Overworld. Legends claim this stone to be the most common soil in the home of the Enderpeople, although it was described as covered with vibrant purple grass and flora.");
 
@@ -425,7 +426,7 @@ JEI.addDescription(<msmlegacy:relic_candy>, "Relic idea by Just A BLU Toon. Than
 val steelPlate = <betterwithmods:material:51>;
 
 JEI.addDescription(<netherex:ghast_queen_tear>,"They say that every Ghast Queen weeps for their beloved in another dimension. Drop the tears into a 2x2 pool of water surrounded by flowers on top of grass to open the portal. DEV NOTE: Ghast Queen is currently disabled, so we provided a temporary recipe so you may still enter the Twilight Forest.");
-JEI.addDescription(steelPlate,"Are they still there? Is there any trace of what remains? Wide dead eyes like amethyst, behold.");
+JEI.addDescription(steelPlate,"Are they still there? Is there any trace of what remains? Wide dead eyes like exorite, behold.");
 JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
 JEI.addDescription(<minecraft:rotten_flesh>,"Also known as RotN Flesh.");
 JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the Pigfolk. The inscriptions around the rim of the brazier are carved in unfamiliar languages... all except for one. You can make out the words 'VARKAAL...', 'LIFE FROM LIGHT...', and 'DUST...'");
@@ -433,7 +434,7 @@ JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the P
 JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
 JEI.addDescription(<quark:soul_bead>,"Warped bead formed from the cursed core of a wraith. Ingesting it releases the trapped spirits within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
 JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of information used long time ago by advanced civilizations. Using it while holding a book in the off-hand will register data of the structure its holder is inside.");
-JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with a fraction of the night. Can be obtained from the harvester.");
+JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with the essence of the night. Can be obtained from the harvester.");
 JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an extraterrestrial being. Contains the unstable powder used to concentrate and refine meteorite.");
 JEI.addDescription(<contenttweaker:ardicite>,"A naturally occurring form of pure hellfire that can host Onyx formations. It is a fiery material that can be found in the Nether in pockets of flammable sulfur.");
 
@@ -445,7 +446,7 @@ val lodestone = <dungeontactics:mithril_block>;
 
 JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
-JEI.addDescription(dummy_fire,"Fire! Once common knowledge, now there is no certainty that humanity was the first civilization to conquer this force of nature, but they are still as good making the most out of it. Ignite a surface using a bow drill, a flint and stone, a flint and steel, a firecharge or using more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
+JEI.addDescription(dummy_fire,"Fire! Once common knowledge, now there is no certainty that humanity was the first civilization to conquer this force of nature, but they are still as good making the most out of it. Ignite a surface using a hand drill, a flint and steel, a firecharge or more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
 JEI.addDescription(lodestone, "Mysterious stones with magnetic properties buried in cold long ago. Mining it makes you feel funny...");
 
 /* Runes and Magic */

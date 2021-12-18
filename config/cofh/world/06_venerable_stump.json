@@ -5,7 +5,7 @@
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
-				"block": "contenttweaker:venerable_stump"
+				"block": "contenttweaker:venerable_stump",
 				"surface": [
 					"minecraft:grass",
 					"minecraft:dirt",
@@ -23,10 +23,10 @@
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
-				]
+				],
 			"cluster-count": 1,
 			"chunk-chance": 20,
-			"retrogen": "true"
+			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

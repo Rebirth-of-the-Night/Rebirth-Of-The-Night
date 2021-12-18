@@ -8,17 +8,21 @@
 				"block": [
 					{
 						"name": "pyrotech_compat:rock_netherrack",
-						"weight": 5
+						"weight": 8
 					}
 				],
 				"surface": [
-					"minecraft:netherrack"
+					"minecraft:netherrack",
+					"minecraft:soul_sand",
+					"minecraft:magma",
+					"minecraft:quartz_ore",
+					"betternether:cincinnasite_ore"
 				],
 				"material": "air",
-				"cluster-size": 22,
+				"cluster-size": 25,
 				"see-sky": false
 				},
-			"cluster-count": 7,
+			"cluster-count": 10,
 			"ground-level": 127,
 			"chunk-chance": 1,
 			"retrogen": "true",

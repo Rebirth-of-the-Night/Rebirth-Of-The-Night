@@ -1,0 +1,71 @@
+{
+	"populate": {
+		"atacamian_desert": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"biomesoplenty:white_sand",
+					"biomesoplenty:dirt",
+					"contenttweaker:salty_crust",
+					"contenttweaker:weathered_dirt",
+					"biomesoplenty:dried_sand"
+				],
+				"cluster-size": 10
+			},
+			"material": [
+				"minecraft:sand",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"biomesoplenty:white_sand",
+				"biomesoplenty:dirt",
+				"contenttweaker:salty_crust",
+				"contenttweaker:weathered_dirt",
+				"biomesoplenty:dried_sand"
+			],
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biometweaker:atacamian_desert"
+				]
+			}
+		}
+	}
+}

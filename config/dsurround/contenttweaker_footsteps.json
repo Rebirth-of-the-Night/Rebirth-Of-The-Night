@@ -70,7 +70,8 @@
 		"contenttweaker:big_greywacke_bricks": "brickstone",
 		"contenttweaker:big_chert_bricks": "brickstone",
 		"contenttweaker:foundation_micomi": "brickstone",
-		"contenttweaker:glareshaft_small": "metalbar"
-
+		"contenttweaker:glareshaft_small": "metalbar",
+		"contenttweaker:tapestry_red": "rug",
+		"contenttweaker:tapestry_purple": "rug"
 	}
 }

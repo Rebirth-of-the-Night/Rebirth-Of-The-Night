@@ -40,6 +40,17 @@
 				],
 				"cluster-size": 19
 			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:mossy_cobblestone",
+				"biomesoplenty:grass",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"minecraft:snow"
+			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",
@@ -57,7 +68,12 @@
 					"minecraft:mutated_redwood_taiga",
 					"minecraft:mutated_redwood_taiga_hills",
 					"biomesoplenty:alps",
-					"biomesoplenty:boreal_forest"
+					"biomesoplenty:boreal_forest",
+					"biomesoplenty:coniferous_forest",
+					"biomesoplenty:snowy_coniferous_forest",
+					"biomesoplenty:snowy_forest",
+					"biomesoplenty:dead_forest",
+					"biomesoplenty:steppe"
 				]
 			}
 		}

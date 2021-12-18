@@ -7,7 +7,7 @@
 				"block": [
 					{
 						"name": "pyrotech:rock",
-						"weight": 4,
+						"weight": 3,
 						"properties": {
 							"variant" : "rock_stone"
 						}
@@ -21,7 +21,7 @@
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 5,
+						"weight": 4,
 						"properties": {
 							"variant" : "rock_andesite"
 						}
