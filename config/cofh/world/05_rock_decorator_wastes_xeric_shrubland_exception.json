@@ -1,29 +1,36 @@
 {
 	"populate": {
-		"cold": {
+		"wastes_xeric_shrubland": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
+						"name": "pyrotech:rock",
+						"weight": 1,
 						"properties": {
-							"variant" : "rock_chalk"
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_greywacke"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 5,
+						"weight": 3,
 						"properties": {
-							"variant" : "rock_soapstone"
+							"variant" : "rock_eclogite"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
 						"weight": 2,
 						"properties": {
-							"variant" : "rock_dacite"
+							"variant" : "rock_andesite"
 						}
 					}
 				],
@@ -31,13 +38,15 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
-					"minecraft:mossy_cobblestone",
+					"minecraft:stone",
+					"minecraft:sand",
+					"minecraft:sandstone",
 					"biomesoplenty:grass",
 					"biomesoplenty:dirt",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone",
-					"minecraft:snow"
+					"contenttweaker:n_copper_sandstone"
 				],
 				"cluster-size": 19
 			},
@@ -45,13 +54,15 @@
 				"minecraft:grass",
 				"minecraft:dirt",
 				"minecraft:gravel",
-				"minecraft:mossy_cobblestone",
+				"minecraft:stone",
+				"minecraft:sand",
+				"minecraft:sandstone",
 				"biomesoplenty:grass",
 				"biomesoplenty:dirt",
 				"undergroundbiomes:sedimentary_stone",
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone",
-				"minecraft:snow"
+				"contenttweaker:n_copper_sandstone"
 			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
@@ -59,22 +70,7 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"minecraft:taiga",
-					"minecraft:taiga_hills",
-					"minecraft:taiga_cold",
-					"minecraft:taiga_cold_hills",
-					"minecraft:redwood_taiga",
-					"minecraft:redwood_taiga_hills",
-					"minecraft:mutated_taiga",
-					"minecraft:mutated_taiga_cold",
-					"minecraft:mutated_redwood_taiga",
-					"minecraft:mutated_redwood_taiga_hills",
-					"biomesoplenty:alps",
-					"biomesoplenty:coniferous_forest",
-					"biomesoplenty:snowy_coniferous_forest",
-					"biomesoplenty:snowy_forest",
-					"biomesoplenty:dead_forest",
-					"biomesoplenty:boreal_forest"
+					"biomesoplenty:xeric_shrubland"
 				]
 			}
 		}

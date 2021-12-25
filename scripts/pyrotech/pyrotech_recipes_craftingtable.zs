@@ -96,6 +96,9 @@ furnace.remove(<pyrotech:cobblestone:0>);
 furnace.remove(<pyrotech:beetroot_roasted>);
 furnace.remove(<pyrotech:material:15>);
 JEI.removeAndHide(<pyrotech:marshmallow_stick_empty>);
+JEI.removeAndHide(<pyrotech:chopping_block>);
+JEI.removeAndHide(<pyrotech:material:9>);
+JEI.removeAndHide(<pyrotech:igniter>);
 
 // disableItem(<pyrotech:apple_baked>);
 

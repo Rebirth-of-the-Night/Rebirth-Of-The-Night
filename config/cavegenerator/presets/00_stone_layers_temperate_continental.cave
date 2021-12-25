@@ -2,7 +2,6 @@
 {
   biomes: {
     names: [
-      biomesoplenty:grassland
       biomesoplenty:temperate_rainforest
       biomesoplenty:redwood_forest
       biomesoplenty:seasonal_forest

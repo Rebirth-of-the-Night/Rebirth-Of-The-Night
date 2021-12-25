@@ -1,43 +1,22 @@
 {
 	"populate": {
-		"mudstones_chaparral": {
+		"temperate_continental": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech_compat:rock_igneous",
-						"weight": 1,
-						"properties": {
-							"variant" : "rock_basalt"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 2,
-						"properties": {
-							"variant" : "rock_siltstone"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
-						"properties": {
-							"variant" : "rock_shale"
-						}
-					},
-					{
 						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 3,
+						"weight": 5,
 						"properties": {
-							"variant" : "rock_soapstone"
+							"variant" : "rock_gneiss"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 2,
+						"weight": 4,
 						"properties": {
-							"variant" : "rock_rhyolite"
+							"variant" : "rock_red_granite"
 						}
 					}
 				],
@@ -45,22 +24,37 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
 					"biomesoplenty:grass",
 					"biomesoplenty:dirt",
-					"biomesoplenty:mud",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 19
+				"cluster-size": 23
 			},
-			"cluster-count": 4,
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 6,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"biomesoplenty:chaparral"
+      				"biomesoplenty:temperate_rainforest",
+      				"biomesoplenty:redwood_forest",
+      				"biomesoplenty:seasonal_forest"
 				]
 			}
 		}

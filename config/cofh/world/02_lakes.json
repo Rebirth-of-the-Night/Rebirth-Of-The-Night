@@ -37,7 +37,7 @@
 						"density" : "heavy"
 						}
 					}
-				],
+				]
 			},
 			"cluster-count": 2,
 			"chunk-chance": 9,

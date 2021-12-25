@@ -21,13 +21,19 @@
 		"aether_legacy:holystone_brick_slab": "brickstone",
 		"aether_legacy:holystone_brick_stairs": "brickstone",
 		"aether_legacy:holystone_brick_wall+bigger": "brickstone",
-		"aether_legacy:holystone_wall+bigger": "brickstone",
-		"aether_legacy:mossy_holystone_wall+bigger": "brickstone",
+		"aether_legacy:holystone_wall+bigger": "stone",
+		"aether_legacy:mossy_holystone_wall+bigger": "stone",
 		"aether_legacy:zanite_bars": "marble",
 		"aether_legacy:zanite_trapdoor": "marble",
 		"aether_legacy:zanite_door": "marble",
 		"aether_legacy:pillar": "marble",
 		"aether_legacy:pillar_top": "marble",
-		"aether_legacy:zanite_block": "marble"
+		"aether_legacy:zanite_block": "marble",
+		"aether_legacy:aercloud": "rug",
+		"aether_legacy:aerogel": "rug,glass",
+		"aether_legacy:aerogel_slab": "rug,glass",
+		"aether_legacy:aerogel_stairs": "rug,glass",
+		"aether_legacy:aerogel_wall+bigger": "rug,glass",
+		"aether_legacy:aerogel_double_slab": "rug,glass"
 	}
 }

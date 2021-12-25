@@ -1,0 +1,43 @@
+{
+	"populate": 
+	{
+		"dense_quartz_nether": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:dense_quartz_ore_large",
+						"weight": 3
+					},
+					{
+						"name": "pyrotech:dense_quartz_ore_small",
+						"weight": 4
+					},
+					{
+						"name": "pyrotech:dense_quartz_ore_rocks",
+						"weight": 8
+					}
+				],
+				"surface": [
+					"minecraft:quartz_ore",
+					"netherex:quartz_ore"
+				],
+				"material": "air",
+				"cluster-size": 300,
+				"see-sky": false
+				},
+			"cluster-count": 175,
+			"ground-level": 250,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:hell",
+					"netherex:torrid_wasteland"
+				]
+			}
+		}
+	}
+}

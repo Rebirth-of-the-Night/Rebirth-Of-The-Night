@@ -3,7 +3,7 @@
 		"cavegenerator",
 		"quark",
 		"bettermineshafts"
-		]
+		],
 	"populate": 
 	{
 		"moss_block_layer": {
@@ -17,8 +17,8 @@
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
-					]
-				"cluster-size": 3,
+					],
+				"cluster-size": 3
 				},
 			"cluster-count": {"min": 10, "max": 30},
 			"ground-level": 60,
@@ -112,7 +112,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone",
 					"rotn_blocks:cave_moss"
-					]
+					],
 				"material": "air",
 				"cluster-size": 2,
 				"see-sky": false,

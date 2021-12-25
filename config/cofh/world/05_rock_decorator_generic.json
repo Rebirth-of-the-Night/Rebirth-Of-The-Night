@@ -23,7 +23,9 @@
 				"restriction":"blacklist",
 				"value": [
 				"minecraft:cold_beach",
-				"biomesoplenty:outback"
+				"biomesoplenty:outback",
+				"minecraft:stone_beach",
+				"biomesoplenty:xeric_shrubland"
 				]
 			}
 		},
@@ -120,7 +122,6 @@
 					"minecraft:savanna",
 					"minecraft:savanna_rock",
 					"minecraft:mutated_savanna_rock",
-					"biomesoplenty:xeric_shrubland",
 					"biomesoplenty:shrubland",
 					"biomesoplenty:alps_foothills",
 					"biomesoplenty:mountain_foothills",

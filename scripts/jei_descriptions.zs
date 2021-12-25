@@ -286,12 +286,13 @@ JEI.addDescription(<quark:sugar_block>, "Thoughtless farmers will lose their pre
 JEI.addDescription(<charm:gunpowder_block>, "Inert storage for an explosive element. Falls like sand and gravel. Like its item counterpart, it will dissolve in lava.");
 JEI.addDescription(<contenttweaker:halite>,"A huge chunk of raw sodium chloride... salty!");
 JEI.addDescription(<charm:rotten_flesh_block>, "Similar to the flesh found in the Nether, yet different - it twitches once in a while. If buried long enough, the rotten essence will seep out of the block...");
+JEI.addDescription(<aether_legacy:aerogel>, "Formed by attempting to pour lava by hand in the Aether. Extremely blast resistant. Can only be mined with Masterwork tier pickaxes and up.");
 
 JEI.addDescription(<quark:black_ash>, "Foul essence! Decay can be felt being constantly expelled from these remains. A single layer of this dust under a solid material will prevent any living creature from appearing on top of that surface.");
 JEI.addDescription(<ore:blockCandle>, "An aesthetic alternative to torches. Will fall if their support is removed.");
 JEI.addDescription(<minecraft:torch>, "An adventurer's best friend. Most will rather delve into caves looking for mineral coal than assemble a charcoal production operation, especially those in dire situations. Other more powerful light sources include Glaretorches, Hanging Lights or Lanterns.");
 JEI.addDescription(<arcanearchives:quartz_sliver>, "A cheap alternative to torches obtained by punching blocks with radiant quartz.");
-JEI.addDescription(<simpleores:copper_block>, "Blocks of copper have the particularity of developing a crust or patina of a beautiful color similar to diamond; this natura feature can be prevented by coating it in wax.");
+JEI.addDescription(<simpleores:copper_block>, "Blocks of copper have the particularity of developing a crust or patina of a beautiful color similar to diamond; this natural feature can be prevented by coating it in wax.");
 
 
 /* Redstone, Automation and Functional Blocks */
@@ -382,7 +383,7 @@ JEI.addDescription(<quark:ancient_tome>,"Filled with arcane secrets from a long-
 JEI.addDescription(<qualitytools:reforging_station>,"Placing a bauble in the Reforging Station along with a vis sliver will change the bauble's quality.");
 JEI.addDescription(<minecraft:enchanting_table>,"Can be upgraded with an Enchanting Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!");
 JEI.addDescription(<aether_legacy:enchanter>,"With a generous amount of time and fuel, it can infuse or repair rarer weapons and tools harvesting the power of the Sun. Using electrum instead of ambrosium proves to be much more efficient. A gravitite block underneath the capacitor allows it to infuse energy much quicker.");
-JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherian Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
+JEI.addDescription(<ore:ingotElectrum>,"Normal electrum holds little value when compared to Aetherial Electrum. Probably discovered by the valkyries, the value of this material is far greater than the sum of its parts.");
 
 
 /* Storage */
@@ -437,6 +438,7 @@ JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of infor
 JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with the essence of the night. Can be obtained from the harvester.");
 JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an extraterrestrial being. Contains the unstable powder used to concentrate and refine meteorite.");
 JEI.addDescription(<contenttweaker:ardicite>,"A naturally occurring form of pure hellfire that can host Onyx formations. It is a fiery material that can be found in the Nether in pockets of flammable sulfur.");
+JEI.addDescription(<contenttweaker:ofuda>,"An old sheet of paper with indecipherable writing on it. Often found hanging in places believed to have been highly dangerous or cursed, these were likely used as some sort of charm to ward off danger or ailment. Whoever made these are probably no longer around; these ofuda were probably a last ditch attempt at saving themselves from disaster... or a warning for whoever may stumble upon them in the future. It faintly glows by unknown methods.");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;

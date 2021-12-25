@@ -2,7 +2,7 @@
 	"dependencies": [
 		"cavegenerator",
 		"bettermineshafts"
-		]
+		],
 	"populate": 
 	{
 		"lodestone": {
@@ -10,7 +10,7 @@
 			"generator": {
 				"type": "cluster",
 				"block": "dungeontactics:mithril_block",
-				"cluster-size": 1,
+				"cluster-size": 1
 				},
 			"cluster-count": 3,
 			"material": [

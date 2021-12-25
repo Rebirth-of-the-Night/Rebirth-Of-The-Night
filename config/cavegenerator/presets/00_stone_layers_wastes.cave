@@ -3,13 +3,8 @@
     names: [
       biomesoplenty:xeric_shrubland
       biomesoplenty:wasteland
-      biomesoplenty:tundra
       biomesoplenty:steppe
-      minecraft:mutated_mesa
-      minecraft:mutated_mesa_rock
-      minecraft:mutated_mesa_clear_rock
       biomesoplenty:prairie
-      biomesoplenty:brushland
     ]
   }
   layers: [

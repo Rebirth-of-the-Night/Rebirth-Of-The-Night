@@ -7,6 +7,7 @@ import crafttweaker.data.IData;
 recipes.removeByMod("aesthetics");
 recipes.removeByRecipeName("simpleores:copper_ingot");
 JEI.removeAndHide(<simpleores:copper_bucket>);
+JEI.removeAndHide(<simpleores:copper_bucket_water>);
 JEI.removeAndHide(<simpleores:copper_block>);
 
 val ingotViri = <simpleores:adamantium_ingot>;

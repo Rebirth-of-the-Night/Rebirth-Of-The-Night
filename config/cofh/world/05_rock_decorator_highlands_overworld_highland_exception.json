@@ -47,6 +47,7 @@
 					"minecraft:dirt",
 					"minecraft:gravel",
 					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
 					"undergroundbiomes:sedimentary_sandstone",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
@@ -54,6 +55,17 @@
 				],
 				"cluster-size": 19
 			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",

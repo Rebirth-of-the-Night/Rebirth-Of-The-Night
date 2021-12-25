@@ -3,7 +3,7 @@
 		"cavegenerator",
 		"bettermineshafts",
 		"rotn_blocks"
-		]
+		],
 	"populate": 
 	{
 		"wonder_geode": {
@@ -11,7 +11,7 @@
 			"generator": {
 				"type": "cluster",
 				"block": "rotn_blocks:wonder_geode",
-				"cluster-size": 7,
+				"cluster-size": 7
 				},
 			"cluster-count": 2,
 			"material": [

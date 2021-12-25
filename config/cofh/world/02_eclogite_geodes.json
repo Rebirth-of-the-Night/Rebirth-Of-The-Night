@@ -21,7 +21,9 @@
 						"name": "osv:emerald_ore_undergroundbiomes_metamorphic_stone_1",
 						"properties": {
 							"dense" : "true"
-							},
+							}
+					},
+					{
 						"name": "osv:biomesoplenty_ruby_ore_undergroundbiomes_metamorphic_stone_1",
 						"properties": {
 							"dense" : "true"

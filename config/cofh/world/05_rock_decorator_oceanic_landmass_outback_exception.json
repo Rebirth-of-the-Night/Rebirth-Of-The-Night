@@ -59,10 +59,25 @@
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone",
+					"undergroundbiomes:metamorphic_sandstone",
 					"contenttweaker:n_copper_sandstone_red"
 				],
 				"cluster-size": 19
 			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"minecraft:red_sandstone",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"undergroundbiomes:metamorphic_sandstone",
+				"contenttweaker:n_copper_sandstone_red"
+			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",

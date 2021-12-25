@@ -5,7 +5,7 @@
 			"distribution": "surface",
 			"generator": {
 				"type": "structure",
-				"structure": "/structures/exorite_crystal.nbt",
+				"structure": "/structures/exorite_crystal.nbt"
 			},
 			"material": ["minecraft:end_stone"],
 			"chunk-chance": 4,
@@ -17,7 +17,7 @@
             "biome": {
 				"restriction": "whitelist",
 				"value": "minecraft:sky"
-			}
+			},
             "dimension": {
 				"restriction": "whitelist",
 				"value": [

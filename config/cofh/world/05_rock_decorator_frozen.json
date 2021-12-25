@@ -36,6 +36,7 @@
 					"minecraft:snow_layer",
 					"minecraft:packed_ice",
 					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
 					"biomesoplenty:hard_ice",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
@@ -52,6 +53,7 @@
 				"minecraft:snow_layer",
 				"minecraft:packed_ice",
 				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
 				"biomesoplenty:hard_ice",
 				"undergroundbiomes:sedimentary_stone",
 				"undergroundbiomes:metamorphic_stone",
@@ -65,12 +67,10 @@
 				"value": [
 					"minecraft:ice_flats",
 					"minecraft:ice_mountains",
-					"iceandfire:glacier",
 					"minecraft:frozen_ocean",
 					"minecraft:frozen_river",
 					"minecraft:mutated_ice_flats",
 					"biomesoplenty:snowy_tundra",
-					"biomesoplenty:glacier",
 					"biomesoplenty:tundra"
 				]
 			}

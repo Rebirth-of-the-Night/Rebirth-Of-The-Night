@@ -99,7 +99,7 @@
 				]
 			}
 		},
-        "beneath_red_granite_column": {
+        "beneath_red_granite_columns": {
             "distribution": "cave",
             "generator": {
 				"type": "stalagmite",

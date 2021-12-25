@@ -25,6 +25,7 @@
 					"minecraft:dirt",
 					"minecraft:gravel",
 					"minecraft:sandstone",
+					"biomesoplenty:dirt",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"

@@ -15,15 +15,14 @@
 					"minecraft:netherrack",
 					"minecraft:soul_sand",
 					"minecraft:magma",
-					"minecraft:quartz_ore",
 					"betternether:cincinnasite_ore"
 				],
 				"material": "air",
-				"cluster-size": 25,
+				"cluster-size": 30,
 				"see-sky": false
 				},
-			"cluster-count": 10,
-			"ground-level": 127,
+			"cluster-count": 15,
+			"ground-level": 250,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

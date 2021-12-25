@@ -19,6 +19,10 @@
 		"quark:polished_netherrack": "brickstone",
 		"quark:polished_netherrack_bricks_stairs": "brickstone",
 		"quark:polished_netherrack_bricks_slab": "brickstone",
-		"quark:polished_netherrack_bricks_wall+bigger": "brickstone"
+		"quark:polished_netherrack_bricks_wall+bigger": "brickstone",
+		"quark:magma_bricks": "brickstone,fire",
+		"quark:magma_bricks_stairs": "brickstone,fire",
+		"quark:magma_bricks_slab": "brickstone,fire",
+		"quark:iron_ladder": "hardmetal"
 	}
 }

@@ -16,7 +16,7 @@
 					"properties": {
 						"type" : "dolomite"
 						}
-					}
+					},
 				"gen-body": [
 					{ 
 						"name": "minecraft:air"
@@ -44,7 +44,7 @@
 					"properties": {
 						"type" : "dolomite"
 						}
-					}
+					},
 				"gen-body": [
 					{ 
 						"name": "minecraft:air"

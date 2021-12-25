@@ -4,21 +4,33 @@
   "category": "civilization_illagers",
   "read_by_default": "true",
   "pages": [
-	{
+	  {
       "type": "text",
-      "text": "Most settlements in my surroundings are seemingly ruins or dilapidated villages raided by $(thing)bandits$() or attacked by monsters, if I want to encounter a healthier or at least more decent place, I will have to venture further into the unknown. Although I might be able to scavenge something useful in these rundown places."
+      "text": "The Chillager is an illager that wields formiddable ice magic - manifesting itself as a giant boulder of ice that gets hurled on my head. The ice makes me cold and slows me down, and it hurts plenty, to be sure.$(br2)Other than that, the Chillager does not seem to posses any other methods of offense."
     },
-	{
-      "type": "text",
-      "text": "I've come across my first significant settlement... judging by what I've seen until now, they would appear to be the cuspid of civilization in these parts of the world. The people living here I believe to be my kin, $(thing)humans$(), along with other sentient people which I've learned to simply call $(thing)villagers$()."
+    {
+      "type": "entity",
+          "entity": "iceologer:iceologer",
+          "scale": 0.8,
+          "offset": 0.25,
+          "rotate": "true",
+        "default_rotation": -45,
+        "text": "Their distinctive attire: a cozy blue robe and cloak, with striking blue face markings."
     },
-	{
-      "type": "text",
-      "text": "$(thing)Humans$() and $(thing)villagers$() appear to maintain a complex and functional hierarchy. A human $(thing)Lord$() guides the village in economic and politic matters along with a small group of humans acting as $(thing)Guards$() who have settled here in exchange for protecting villagers in their day to day lives working on the land and other labors such as smithing or recording what little history is known."
+    {
+    "type": "spotlight",
+    "item": "iceologer:ice_wand",
+    "title": "Cryomancy",
+    "text": "It would seem that the Chillager's powers lie within this wand; using this, I can now gain my own mastery over the powers of cryomancy.$(br2)Using this wand will allow me to hurl my own ice boulders at whatever feels like having a bad time with me."
     },
-	{
-      "type": "text",
-      "text": "Common sense dictates that if I want to use their services and become another member of the community, I will have to earn the trust of this village; for this purpose, I should talk to the Lord here and improve my reputation by doing quests for them."
+    {
+    "type": "entity",
+        "entity": "iceologer:icecube",
+        "scale": 0.8,
+        "offset": -0.1,
+        "rotate": "true",
+      "default_rotation": -45,
+      "text": "These ice boulders will follow their target until it falls down and slows my foe. Frosty!"
     }
   ]
 }

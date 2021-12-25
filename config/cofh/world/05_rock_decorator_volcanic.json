@@ -1,29 +1,36 @@
 {
 	"populate": {
-		"cold": {
+		"volcanic": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
+						"weight": 1,
 						"properties": {
-							"variant" : "rock_chalk"
-						}
-					},
-					{
-						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 5,
-						"properties": {
-							"variant" : "rock_soapstone"
+							"variant" : "rock_dolomite"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
 						"weight": 2,
 						"properties": {
-							"variant" : "rock_dacite"
+							"variant" : "rock_basalt"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_rhyolite"
 						}
 					}
 				],
@@ -31,13 +38,15 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
-					"minecraft:mossy_cobblestone",
+					"minecraft:stone",
+					"minecraft:sand",
+					"minecraft:mycelium",
 					"biomesoplenty:grass",
 					"biomesoplenty:dirt",
+					"biomesoplenty:white_sand",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
-					"undergroundbiomes:igneous_stone",
-					"minecraft:snow"
+					"undergroundbiomes:igneous_stone"
 				],
 				"cluster-size": 19
 			},
@@ -45,13 +54,15 @@
 				"minecraft:grass",
 				"minecraft:dirt",
 				"minecraft:gravel",
-				"minecraft:mossy_cobblestone",
+				"minecraft:stone",
+				"minecraft:sand",
+				"minecraft:mycelium",
 				"biomesoplenty:grass",
 				"biomesoplenty:dirt",
+				"biomesoplenty:white_sand",
 				"undergroundbiomes:sedimentary_stone",
 				"undergroundbiomes:metamorphic_stone",
-				"undergroundbiomes:igneous_stone",
-				"minecraft:snow"
+				"undergroundbiomes:igneous_stone"
 			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
@@ -59,22 +70,11 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"minecraft:taiga",
-					"minecraft:taiga_hills",
-					"minecraft:taiga_cold",
-					"minecraft:taiga_cold_hills",
-					"minecraft:redwood_taiga",
-					"minecraft:redwood_taiga_hills",
-					"minecraft:mutated_taiga",
-					"minecraft:mutated_taiga_cold",
-					"minecraft:mutated_redwood_taiga",
-					"minecraft:mutated_redwood_taiga_hills",
-					"biomesoplenty:alps",
-					"biomesoplenty:coniferous_forest",
-					"biomesoplenty:snowy_coniferous_forest",
-					"biomesoplenty:snowy_forest",
-					"biomesoplenty:dead_forest",
-					"biomesoplenty:boreal_forest"
+					"minecraft:mushroom_island",
+					"minecraft:mushroom_island_shore",
+					"biomesoplenty:shield",
+					"biomesoplenty:tropical_island",
+					"biomesoplenty:flower_island"
 				]
 			}
 		}

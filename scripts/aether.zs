@@ -10,6 +10,12 @@ import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 
 JEI.removeAndHide(<aether_legacy:holystone_brick_double_slab>);
+JEI.removeAndHide(<aether_legacy:carved_double_slab>);
+JEI.removeAndHide(<aether_legacy:angelic_double_slab>);
+JEI.removeAndHide(<aether_legacy:hellfire_double_slab>);
+JEI.removeAndHide(<aether_legacy:holystone_double_slab>);
+JEI.removeAndHide(<aether_legacy:mossy_holystone_double_slab>);
+JEI.removeAndHide(<aether_legacy:aerogel_double_slab>);
 
 JEI.removeAndHide(<aether_legacy:life_shard>);
 LootTable.removeGlobalItem("aether_legacy:life_shard");
@@ -209,7 +215,7 @@ recipes.addShaped("Rebirth_of_the_Bed_Aether",<aether_legacy:skyroot_bed_item>,[
     [<ore:plankSkyroot>,<ore:plankSkyroot>,<ore:plankSkyroot>]
 ]);
 
-<aether_legacy:skyroot_bed_item>.addTooltip("Allows you to sleep in the Aether");
+<aether_legacy:skyroot_bed_item>.addTooltip("Allows you to sleep and set your spawn in the Aether.");
 
 recipes.removeByRecipeName("quark:gravisand");
 recipes.addShaped("quickgravisand", <quark:gravisand>*8,[

@@ -26,8 +26,14 @@
 					"minecraft:hardened_clay",
 					"minecraft:stained_hardened_clay"
 				],
-				"cluster-size": 4
+				"cluster-size": 3
 			},
+			"material": [
+				"minecraft:sand",
+				"minecraft:dirt",
+				"minecraft:hardened_clay",
+				"minecraft:stained_hardened_clay"
+			],
 			"cluster-count": 2,
 			"chunk-chance": 1,
 			"retrogen": "true",

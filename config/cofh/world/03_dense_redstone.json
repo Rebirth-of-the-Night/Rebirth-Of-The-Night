@@ -2,7 +2,7 @@
 	"dependencies": [
 		"cavegenerator",
 		"bettermineshafts"
-		]
+		],
 	"populate": 
 	{
 		"dense_redstone": {

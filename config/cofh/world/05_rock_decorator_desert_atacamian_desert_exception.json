@@ -21,7 +21,7 @@
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 3,
+						"weight": 4,
 						"properties": {
 							"variant" : "rock_komatiite"
 						}
@@ -41,7 +41,7 @@
 					"contenttweaker:weathered_dirt",
 					"biomesoplenty:dried_sand"
 				],
-				"cluster-size": 10
+				"cluster-size": 15
 			},
 			"material": [
 				"minecraft:sand",
@@ -57,7 +57,7 @@
 				"contenttweaker:weathered_dirt",
 				"biomesoplenty:dried_sand"
 			],
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

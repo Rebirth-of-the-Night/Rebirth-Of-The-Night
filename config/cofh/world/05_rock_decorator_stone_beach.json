@@ -1,27 +1,27 @@
 {
 	"populate": {
-		"cold": {
+		"stone_beach": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 3,
+						"weight": 8,
 						"properties": {
 							"variant" : "rock_chalk"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 5,
+						"weight": 2,
 						"properties": {
 							"variant" : "rock_soapstone"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 2,
+						"weight": 1,
 						"properties": {
 							"variant" : "rock_dacite"
 						}
@@ -31,50 +31,33 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
-					"minecraft:mossy_cobblestone",
+					"minecraft:stone",
 					"biomesoplenty:grass",
 					"biomesoplenty:dirt",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
-					"undergroundbiomes:igneous_stone",
-					"minecraft:snow"
+					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 19
+				"cluster-size": 32
 			},
 			"material": [
 				"minecraft:grass",
 				"minecraft:dirt",
 				"minecraft:gravel",
-				"minecraft:mossy_cobblestone",
+				"minecraft:stone",
 				"biomesoplenty:grass",
 				"biomesoplenty:dirt",
 				"undergroundbiomes:sedimentary_stone",
 				"undergroundbiomes:metamorphic_stone",
-				"undergroundbiomes:igneous_stone",
-				"minecraft:snow"
+				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 4,
+			"cluster-count": 7,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"minecraft:taiga",
-					"minecraft:taiga_hills",
-					"minecraft:taiga_cold",
-					"minecraft:taiga_cold_hills",
-					"minecraft:redwood_taiga",
-					"minecraft:redwood_taiga_hills",
-					"minecraft:mutated_taiga",
-					"minecraft:mutated_taiga_cold",
-					"minecraft:mutated_redwood_taiga",
-					"minecraft:mutated_redwood_taiga_hills",
-					"biomesoplenty:alps",
-					"biomesoplenty:coniferous_forest",
-					"biomesoplenty:snowy_coniferous_forest",
-					"biomesoplenty:snowy_forest",
-					"biomesoplenty:dead_forest",
-					"biomesoplenty:boreal_forest"
+					"minecraft:stone_beach"
 				]
 			}
 		}

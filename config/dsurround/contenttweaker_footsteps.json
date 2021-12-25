@@ -1,6 +1,6 @@
 {
 	"footsteps": {
-		"contenttweaker:voided_rock": "bedrock,metalbar",
+		"contenttweaker:voided_rock": "bedrock",
 		"contenttweaker:void_block+foliage": "fire",
 		"contenttweaker:rocky_dirt": "dirt,stone",
 		"contenttweaker:n_copper_sandstone": "ore",
@@ -62,7 +62,7 @@
 		"betterwithmods:unfired_pottery[potterytype=nether_brick]": "organic",
 		"contenttweaker:unfired_fiery_brick": "organic",
 		"contenttweaker:big_limestone_bricks": "sandstone",
-		"contenttweaker:big_chalk_bricks": "brickstone",
+		"contenttweaker:big_chalk_bricks": "sandstone",
 		"contenttweaker:big_shale_bricks": "brickstone",
 		"contenttweaker:big_siltstone_bricks": "brickstone",
 		"contenttweaker:big_lignite_bricks": "brickstone",

@@ -38,7 +38,9 @@
 					"minecraft:grass",
 					"minecraft:dirt",
 					"minecraft:gravel",
+					"minecraft:sand",
 					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
 					"biomesoplenty:mud",
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
@@ -46,6 +48,18 @@
 				],
 				"cluster-size": 19
 			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"biomesoplenty:mud",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",
@@ -54,10 +68,18 @@
 				"value": [
 					"minecraft:swampland",
 					"minecraft:mutated_swampland",
+					"minecraft:river",
 					"biomesoplenty:bayou",
+					"biomesoplenty:bog",
 					"biomesoplenty:lush_swamp",
+					"biomesoplenty:mangrove",
 					"biomesoplenty:wetland",
-					"biomesoplenty:land_of_lakes"
+					"biomesoplenty:dead_swamp",
+					"biomesoplenty:fen",
+					"biomesoplenty:quagmire",
+					"biomesoplenty:land_of_lakes",
+					"biomesoplenty:marsh",
+					"biomesoplenty:moor"
 				]
 			}
 		}

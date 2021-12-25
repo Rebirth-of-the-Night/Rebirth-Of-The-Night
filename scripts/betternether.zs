@@ -5,10 +5,6 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 JEI.removeAndHide(<betternether:netherrack_furnace>);
-JEI.removeAndHide(<betternether:block_eyeball_small>);
-JEI.removeAndHide(<betternether:block_eyeball>);
-JEI.removeAndHide(<betternether:eye_seed>);
-<ore:eyeball>.remove(<betternether:eye_seed>);
 JEI.removeAndHide(<betternether:bone_mushroom>);
 JEI.removeAndHide(<betternether:wart_seed>);
 JEI.removeAndHide(<betternether:egg_plant>);

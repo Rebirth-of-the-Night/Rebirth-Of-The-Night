@@ -29,7 +29,7 @@
 					},
 					{
 						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 6,
+						"weight": 5,
 						"properties": {
 							"variant" : "rock_gneiss"
 						}
@@ -64,6 +64,18 @@
 				],
 				"cluster-size": 19
 			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"biomesoplenty:grass",
+				"undergroundbiomes:sedimentary_sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:metamorphic_overgrown",
+				"undergroundbiomes:sedimentary_overgrown",
+				"undergroundbiomes:igneous_stone"
+			],
 			"cluster-count": 4,
 			"chunk-chance": 1,
 			"retrogen": "true",
