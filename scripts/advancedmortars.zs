@@ -8,7 +8,7 @@ import mods.jei.JEI;
 //  Original Material | Name        | New Material | Usages
 //  -------------------------------------------------------
 //    Wood            | Mundane     | Gold         | Magic
-//    Stone           | Stone       | Copper       | Cooking
+//    Stone           | Cooking     | Copper       | Cooking
 //    Iron            | Arcane      | Gravitite    | Magic
 //    Diamond         | Rudimentary | Eucalyptus   | Dusts and Dyes
 //    Gold            | Mystical    | Mythril      | Magic
