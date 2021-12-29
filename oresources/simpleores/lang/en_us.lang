@@ -2,7 +2,7 @@
 
 //Blocks
 tile.copper_ore.name=Copper Ore
-tile.copper_block.name=Block of Copper
+tile.copper_block.name=Waxed Block of Copper
 tile.tin_ore.name=Tin Ore
 tile.tin_block.name=Block of Tin
 tile.mythril_ore.name=Mythril Ore

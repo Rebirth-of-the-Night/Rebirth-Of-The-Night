@@ -19,6 +19,15 @@
 		"twilightforest:auroralized_glass": "snow,glass",
 		"twilightforest:giant_log": "log",
 		"twilightforest:giant_obsidian": "obsidian",
-		"twilightforest:iron_ladder": "hardmetal"
+		"twilightforest:iron_ladder": "hardmetal",
+		"twilightforest:castle_brick": "brickstone",
+		"twilightforest:castle_stairs_brick": "brickstone",
+		"twilightforest:castle_stairs_cracked": "brickstone",
+		"twilightforest:castle_stairs_worn": "brickstone",
+		"twilightforest:castle_door": "brickstone",
+		"twilightforest:castle_stairs_mossy": "brickstone",
+		"twilightforest:castle_rune_brick": "brickstone",
+		"twilightforest:castle_pillar": "brickstone",
+		"twilightforest:castle_stairs": "brickstone"
 	}
 }

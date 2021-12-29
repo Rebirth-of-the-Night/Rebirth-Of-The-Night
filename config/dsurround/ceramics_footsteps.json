@@ -1,0 +1,30 @@
+{
+	"footsteps": {
+		"ceramics:clay_hard": "brickstone",
+		"ceramics:clay_slab": "brickstone",
+		"ceramics:clay_wall+bigger": "brickstone",
+		"ceramics:clay_hard[type=lava_bricks]": "brickstone,fire",
+		"ceramics:clay_slab[type=lava_bricks]": "brickstone,fire",
+		"ceramics:clay_wall[type=lava_bricks]+bigger": "brickstone,fire",
+		"ceramics:lava_bricks_stairs": "brickstone,fire",
+		"ceramics:porcelain": "marble",
+		"ceramics:rainbow_clay": "marble",
+		"ceramics:clay_barrel": "sandstone",
+		"ceramics:clay_barrel_stained": "sandstone",
+		"ceramics:clay_barrel_stained_extension": "sandstone",
+		"ceramics:porcelain_barrel": "marble",
+		"ceramics:porcelain_barrel_extension": "marble",
+		"ceramics:faucet": "marble",
+		"ceramics:channel": "marble",
+		"ceramics:clay_hard[type=porcelain_bricks]": "marble",
+		"ceramics:clay_slab[type=porcelain_bricks]": "marble",
+		"ceramics:clay_wall[type=porcelain_bricks]+bigger": "marble",
+		"ceramics:porcelain_bricks_stairs": "marble",
+		"ceramics:rainbow_bricks_stairs": "brickstone",
+		"ceramics:dark_bricks_stairs": "brickstone",
+		"ceramics:golden_bricks_stairs": "brickstone",
+		"ceramics:marine_bricks_stairs": "brickstone",
+		"ceramics:dragon_bricks_stairs": "brickstone",
+		"ceramics:monochrome_bricks_stairs": "brickstone"
+	}
+}

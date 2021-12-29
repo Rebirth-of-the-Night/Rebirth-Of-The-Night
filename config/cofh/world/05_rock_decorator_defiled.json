@@ -1,0 +1,52 @@
+{
+	"populate": {
+		"defiled_rocks": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 8,
+						"properties": {
+							"variant" : "rock_dolomite_sandstone"
+						}
+					}
+				],
+				"surface": [
+					"defiledlands:stone_defiled",
+					"defiledlands:sandstone_defiled",
+					"defiledlands:sand_defiled",
+					"defiledlands:dirt_defiled",
+					"defiledlands:grass_defiled",
+					"defiledlands:gravel_defiled",
+					"rotn_blocks:scuttling_block"
+				],
+				"cluster-size": 19
+			},
+			"material": [
+				"defiledlands:stone_defiled",
+				"defiledlands:sandstone_defiled",
+				"defiledlands:sand_defiled",
+				"defiledlands:dirt_defiled",
+				"defiledlands:grass_defiled",
+				"defiledlands:gravel_defiled",
+				"rotn_blocks:scuttling_block"
+			],
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"defiledlands:forest_tenebra",
+					"defiledlands:forest_vilespine",
+					"defiledlands:hills_defiled",
+					"defiledlands:plains_defiled",
+					"defiledlands:swamp_defiled",
+					"defiledlands:ice_plains_defiled"
+				]
+			}
+		}
+	}
+}

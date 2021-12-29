@@ -11,7 +11,20 @@
 						"properties": {
 							"variant" : "rock_quartzite"
 						}
-
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_shale_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_limestone_sandstone"
+						}
 					},
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
@@ -33,7 +46,6 @@
 						"properties": {
 							"variant" : "rock_gneiss"
 						}
-
 					},
 					{
 						"name": "pyrotech_compat:rock_sedimentary",

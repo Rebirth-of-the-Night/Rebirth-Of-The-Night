@@ -29,29 +29,6 @@
 				]
 			}
 		},
-		"volcano_granite_rock": {
-			"distribution": "surface",
-			"generator": {
-				"type": "decoration",
-				"block": [
-					{
-						"name": "pyrotech_compat:rock_igneous",
-						"properties": {
-							"variant" : "rock_basalt"
-						}
-					}
-				],
-				"surface": "biomesoplenty:ash_block",
-				"see-sky": true,
-				"cluster-size": 18
-			},
-			"cluster-count": 3,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": "biomesoplenty:volcanic_island"
-			}
-		},
 		"generic": {
 			"distribution": "surface",
 			"generator": {
@@ -121,6 +98,7 @@
 					"minecraft:extreme_hills_with_trees",
 					"minecraft:savanna",
 					"minecraft:savanna_rock",
+					"minecraft:mutated_savanna",
 					"minecraft:mutated_savanna_rock",
 					"biomesoplenty:shrubland",
 					"biomesoplenty:alps_foothills",

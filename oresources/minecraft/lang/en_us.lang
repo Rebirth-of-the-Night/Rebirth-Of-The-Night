@@ -32,7 +32,7 @@ tile.netherWartBlock.name=Block of Nether Wart
 tile.purpurBlock.name=Block of Purpur
 tile.brick.name=Block of Bricks
 tile.netherBrick.name=Block of Nether Bricks
-tile.cauldron.name=Fluid Cauldron
+tile.Cauldron.name=Fluid Cauldron
 
 item.totem.name=§bTotem of Undying
 tile.flower1.dandelion.name=Marigold
@@ -58,21 +58,20 @@ tile.stoneSlab.name=Coade Stone Slab
 tile.stoneSlab.stone.name=Coade Stone Slab
 tile.stoneSlab.cobble.name=Coade Cobblestone Slab
 tile.stoneSlab.smoothStoneBrick.name=Coade Stone Bricks Slab
-tile.stoneMoss.name=Coade Moss Stone
 tile.stairsStone.name=Coade Cobblestone Stairs
 
 tile.pressurePlateStone.name=Entity Pressure Plate
 
 tile.stonebricksmooth.name=Coade Stone Bricks
 tile.stonebricksmooth.default.name=Coade Stone Bricks
-tile.stonebricksmooth.mossy.name=Coade Mossy Stone Bricks
-tile.stonebricksmooth.cracked.name=Coade Cracked Stone Bricks
-tile.stonebricksmooth.chiseled.name=Coade Chiseled Stone Bricks
+tile.stonebricksmooth.mossy.name=Mossy Coade Stone Bricks
+tile.stonebricksmooth.cracked.name=Cracked Coade Stone Bricks
+tile.stonebricksmooth.chiseled.name=Chiseled Coade Stone Bricks
 tile.monsterStoneEgg.name=Coade Stone Monster Egg
 tile.monsterStoneEgg.stone.name=Coade Stone Monster Egg
 tile.monsterStoneEgg.cobble.name=Coade Cobblestone Monster Egg
 tile.monsterStoneEgg.brick.name=Coade Stone Brick Monster Egg
-tile.monsterStoneEgg.mossybrick.name=Coade Mossy Stone Brick Monster Egg
-tile.monsterStoneEgg.crackedbrick.name=Coade Cracked Stone Brick Monster Egg
-tile.monsterStoneEgg.chiseledbrick.name=Coade Chiseled Stone Brick Monster Egg
+tile.monsterStoneEgg.mossybrick.name=Mossy Coade Stone Brick Monster Egg
+tile.monsterStoneEgg.crackedbrick.name=Cracked Coade Stone Brick Monster Egg
+tile.monsterStoneEgg.chiseledbrick.name=Chiseled Coade Stone Brick Monster Egg
 tile.stairsStoneBrickSmooth.name=Coade Stone Brick Stairs

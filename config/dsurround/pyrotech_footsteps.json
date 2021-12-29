@@ -1,0 +1,24 @@
+{
+	"footsteps": {
+		"pyrotech:anvil_granite": "brickstone",
+		"pyrotech:stone_tank": "brickstone,glass",
+		"pyrotech:brick_tank": "brickstone,glass",
+		"pyrotech:stone_bricks": "brickstone",
+		"pyrotech:refractory_brick_block": "brickstone",
+		"pyrotech:tar_drain": "brickstone",
+		"pyrotech:faucet_stone": "brickstone",
+		"pyrotech:faucet_brick": "brickstone",
+		"pyrotech:stone_door": "brickstone",
+		"pyrotech:refractory_door": "brickstone",
+		"pyrotech:tar_collector": "brickstone",
+		"pyrotech:stone_kiln": "brickstone",
+		"pyrotech:brick_kiln": "brickstone",
+		"pyrotech:dense_quartz_ore_large": "marble",
+		"pyrotech:dense_quartz_ore_small": "marble",
+		"pyrotech:dense_quartz_ore_rocks": "marble",
+		"pyrotech:dense_redstone_ore_large": "composite",
+		"pyrotech:dense_redstone_ore_small": "composite",
+		"pyrotech:dense_redstone_ore_rocks": "composite",
+		"pyrotech:log_pile": "log"
+	}
+}

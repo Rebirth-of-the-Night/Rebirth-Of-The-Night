@@ -7,22 +7,19 @@
 				"type": "decoration",
 				"block": [
 					{
-						"name": "pyrotech_compat:rock_igneous_sand",
-						"weight": 5,
-						"properties": {
-							"variant" : "rock_red_granite_sandstone"
-						}
+						"name": "contenttweaker:moss_patch",
+						"weight": 5
 					}
 				],
 				"surface": [
 					"biomesoplenty:flesh"
 				],
 				"material": "air",
-				"cluster-size": 22,
+				"cluster-size": 27,
 				"see-sky": false
 				},
-			"cluster-count": 7,
-			"ground-level": 127,
+			"cluster-count": 11,
+			"ground-level": 250,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

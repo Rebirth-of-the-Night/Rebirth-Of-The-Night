@@ -3,7 +3,7 @@
 		"biomesoplenty"
 		],
 	"populate": {
-		"hot spring lakes": {
+		"hot_spring_lakes": {
 			"distribution": "surface",
 			"generator": {
 				"type": "lake",

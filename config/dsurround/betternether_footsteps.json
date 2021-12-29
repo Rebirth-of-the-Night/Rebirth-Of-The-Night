@@ -22,6 +22,9 @@
 		"betternether:cincinnasite_bricks": "hardmetal,brickstone",
 		"betternether:cincinnasite_bricks_pillar": "hardmetal,brickstone",
 		"betternether:cincinnasite_brick_plate": "hardmetal,brickstone",
-		"betternether:cincinnasite_pot": "hardmetal,organic_dry"
+		"betternether:cincinnasite_pot": "hardmetal,organic_dry",
+		"betternether:quartz_glass_framed": "hardmetal,glass",
+		"betternether:quartz_glass_framed_pane": "hardmetal,glass",
+		"betternether:quartz_stained_glass_framed": "hardmetal,glass"
 	}
 }

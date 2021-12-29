@@ -1,25 +1,20 @@
 {
   biomes: {
     names: [
-      defiledlands:forest_tenebra
-      defiledlands:forest_vilespine
-      defiledlands:hills_defiled
-      defiledlands:plains_defiled
-      defiledlands:swamp_defiled
-      defiledlands:ice_plains_defiled
+      defiledlands:desert_defiled
     ]
   }
   layers: [
     {
       state: defiledlands:stone_defiled
-      height: [ 0, 70 ]
+      height: [ 0, 50 ]
       ceiling: {
         frequency: 0.019
         range: [ -8, 8 ]
       }
     }
     {
-      state: rotn_blocks:scuttling_block
+      state: defiledlands:sandstone_defiled
       height: [ 0, 255 ]
       ceiling: {
         frequency: 0.1

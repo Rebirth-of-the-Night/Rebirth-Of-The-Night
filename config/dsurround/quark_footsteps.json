@@ -23,6 +23,10 @@
 		"quark:magma_bricks": "brickstone,fire",
 		"quark:magma_bricks_stairs": "brickstone,fire",
 		"quark:magma_bricks_slab": "brickstone,fire",
-		"quark:iron_ladder": "hardmetal"
+		"quark:iron_ladder": "hardmetal",
+		"quark:stonebrick_mossy_stairs": "brickstone",
+		"quark:stonebrick_mossy_slab": "brickstone",
+		"futuremc:mossy_stone_brick_wall+bigger": "brickstone"
+
 	}
 }
