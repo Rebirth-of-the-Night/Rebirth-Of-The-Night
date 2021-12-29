@@ -20,8 +20,8 @@ LootTable.removeGlobalItem("minecraft:spawn_egg");
 LootTable.removeGlobalItem("minecraft:shield");
 LootTable.removeGlobalItem("minecraft:glowstone_dust");
 
-<entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3);
-<entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,3);
+<entity:minecraft:blaze>.addDrop(<minecraft:blaze_rod>,1,3,0.33);
+<entity:minecraft:horse>.addDrop(<animania:raw_horse>,1,2,0.7);
 
 // double security for godswords... you know... I have trust issues after those rough few patches
 LootTable.removeGlobalItem("msmlegacy:dawn_star");

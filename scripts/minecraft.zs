@@ -144,9 +144,9 @@ for cobble, rock in ctr {
 
 val hammerList as int[IItemStack] = {
   <endreborn:tool_hammer_iron> : 6,
-  <spartancompat:hammer_holystone> : 6,
+  // <spartancompat:hammer_holystone> : 6,
   <spartancompat:hammer_skyroot> : 6,
-  <pyrotech:stone_hammer> : 5,
+  <pyrotech:stone_hammer> : 3, // Lowered due to low stone hammer durability
   <pyrotech:iron_hammer> : 4,
   <pyrotech:flint_hammer> : 4,
   <pyrotech:diamond_hammer> : 4,

@@ -169,7 +169,7 @@ arcaneworld:arcane_void
 arcaneworld:arcane_dungeon
 aether_legacy:aether_highlands
 beneath:the_beneath
-biometweaker:aether_cliffs
 biometweaker:atacamian_desert
+biometweaker:aether_cliffs
 stygian:stygian_growth
 stygian:acidic_plains

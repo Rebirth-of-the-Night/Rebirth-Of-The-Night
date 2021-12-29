@@ -7,9 +7,9 @@ import mods.rockytweaks.Anvil;
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_sliver>, <betterwithmods:material:3>, <contenttweaker:vis_sliver>],
-    [<betterwithmods:material:6>, <minecraft:ender_pearl>, <betterwithmods:material:6>],
-    [<contenttweaker:vis_sliver>, <betterwithmods:material:6>, <contenttweaker:vis_sliver>]])
+    [<contenttweaker:vis_speck>, <betterwithmods:material:3>, <contenttweaker:vis_speck>],
+    [<betterwithmods:material:6>, <ore:anyQuintessence>, <betterwithmods:material:6>],
+    [<contenttweaker:vis_speck>, <betterwithmods:material:6>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<deadmanssatchel:deadmanssatchel>)
   .setMinimumTier(1)
