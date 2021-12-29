@@ -41,7 +41,7 @@ recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
 // Refractory block to Crucible
 RecipeBuilder.get("potter")
  .setShapeless([<contenttweaker:modelingrefractory>])
- .addTool(<ore:artisansCarver>, 20)
+ .addTool(<artisanworktables:artisans_carver_gold>, 16)
  .addOutput(<contenttweaker:crucible>)
  .setExtraOutputOne(<pyrotech:material:4> * 4, 0.4)
  .create();

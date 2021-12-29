@@ -1,3 +1,5 @@
+#priority 1
+
 import mods.advancedmortars.Mortar;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IIngredient;
@@ -114,7 +116,8 @@ lunarQuintessence.add(
     <defiledlands:tenebra_leaves>,
     <aether_legacy:purple_flower>,
     <defiledlands:scuttler_eye>,
-    <defiledlands:scuronotte>
+    <defiledlands:scuronotte>,
+    <rustic:mooncap_mushroom>
 );
 
 // Solar

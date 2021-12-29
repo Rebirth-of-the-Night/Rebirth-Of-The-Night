@@ -353,7 +353,7 @@ for brickArr in bricks {
 	}
 	
 	brickDropList.add(Dropt.rule()
-		.matchBlocks([looseBrickItem.definition.id~":"~looseBrickItem.metadata])
+		.matchBlocks([looseBrickBlock.definition.id])
 		.addDrop(Dropt.drop()
 			.items([looseBrickItem], Dropt.range(4))
 		)
