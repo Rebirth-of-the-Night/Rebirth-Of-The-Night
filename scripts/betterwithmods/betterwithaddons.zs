@@ -224,8 +224,8 @@ Cauldron.remove([<betterwithaddons:decomat:1>]);
 Cauldron.remove([<betterwithaddons:decomat:2>]);
 Cauldron.remove([<betterwithaddons:pavement:0>]);
 Saw.remove(<betterwithaddons:planks_sakura>);
-Saw.remove(MiniBlocks.getMiniBlock("moulding", <betterwithaddons:planks_sakura>));
-Saw.remove(MiniBlocks.getMiniBlock("siding", <betterwithaddons:planks_sakura>));
+Saw.remove(MiniBlocks.getMiniBlock("moulding", <betterwithaddons:planks_sakura>).items[0]);
+Saw.remove(MiniBlocks.getMiniBlock("siding", <betterwithaddons:planks_sakura>).items[0]);
 // Saw.remove(MiniBlocks.getMiniBlock("corner", <betterwithaddons:planks_sakura>)); // removed in betterwithmods_recipes_saw.zs
 
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);

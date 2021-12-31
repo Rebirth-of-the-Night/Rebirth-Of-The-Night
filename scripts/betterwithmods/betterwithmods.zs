@@ -415,7 +415,7 @@ val arrayMoulding = [
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:3>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:4>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:5>)
-] as IItemStack[];
+] as IIngredient[];
 
 val arrayWindChime = [
     <betterwithmods:metal_chime:0>,

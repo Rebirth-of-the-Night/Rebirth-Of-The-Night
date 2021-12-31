@@ -2,6 +2,17 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
+// Wood bridges (to be converted)
+// recipes.addShaped("bridge_bamboo", <mcwbridges:bamboo_bridge> * 2, [[<biomesoplenty:bamboo>, <ore:durableFiber>, <biomesoplenty:bamboo>], [<biomesoplenty:bamboo>, <biomesoplenty:bamboo>, <biomesoplenty:bamboo>]]);
+// recipes.addShaped("mcwbridges:bamboo_bridge", <mcwbridges:bamboo_bridge>, [[<minecraft:reeds>, <minecraft:string>, <minecraft:reeds>], [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
+// recipes.addShaped("mcwbridges:oak_rail_bridge", <mcwbridges:oak_rail_bridge> * 4, [[<minecraft:fence>, null, <minecraft:fence>], [<minecraft:fence>, <minecraft:wooden_slab>, <minecraft:fence>]]);
+// recipes.addShaped("mcwbridges:dry_bamboo_bridge", <mcwbridges:dry_bamboo_bridge>, [[<minecraft:stick>, <minecraft:string>, <minecraft:stick>], [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
+// recipes.addShaped("mcwbridges:oak_log_bridge_middle", <mcwbridges:oak_log_bridge_middle> * 4, [[<minecraft:fence>, null, <minecraft:fence>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
+// recipes.addShaped("mcwbridges:oak_rope", <mcwbridges:rope_oak_bridge> * 4, [[<minecraft:string>, null, <minecraft:string>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
+// recipes.addShaped("bridgestack_oak", <mcwbridges:rope_oak_bridge> * 32, [[<quark:rope>, null, <quark:rope>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
+// recipes.addShaped("mcwbridges:stone_brick_bridge", <mcwbridges:stone_brick_bridge> * 4, [[<minecraft:stone_slab:5>, null, <minecraft:stone_slab:5>], [<minecraft:stone_slab:5>, <minecraft:stone_slab:5>, <minecraft:stone_slab:5>]]);
+
+
 // Metal bridge recipes
 recipes.addShaped("tin_bridge", <mcwbridges:most1>,[
 	[<ore:nuggetTin>, null, <ore:nuggetTin>],
