@@ -4,6 +4,7 @@ import mods.jei.JEI;
 import mods.ltt.LootTable;
 import mods.betterwithaddons.Infuser;
 import mods.betterwithmods.Mill;
+import mods.betterwithmods.MiniBlocks;
 import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Saw;
 import mods.artisanworktables.builder.RecipeBuilder;
@@ -223,9 +224,9 @@ Cauldron.remove([<betterwithaddons:decomat:1>]);
 Cauldron.remove([<betterwithaddons:decomat:2>]);
 Cauldron.remove([<betterwithaddons:pavement:0>]);
 Saw.remove(<betterwithaddons:planks_sakura>);
-Saw.remove(<betterwithmods:moulding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
-Saw.remove(<betterwithmods:siding_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
-Saw.remove(<betterwithmods:corner_wood>.withTag({texture: {Name: "betterwithaddons:planks_sakura"}}));
+Saw.remove(MiniBlocks.getMiniBlock("moulding", <betterwithaddons:planks_sakura>));
+Saw.remove(MiniBlocks.getMiniBlock("siding", <betterwithaddons:planks_sakura>));
+// Saw.remove(MiniBlocks.getMiniBlock("corner", <betterwithaddons:planks_sakura>)); // removed in betterwithmods_recipes_saw.zs
 
 furnace.addRecipe(<betterwithaddons:food_clownfish_cooked>,<minecraft:fish:2>,0.1);
 furnace.addRecipe(<betterwithaddons:food_pufferfish_baked>,<minecraft:fish:3>,0.1);

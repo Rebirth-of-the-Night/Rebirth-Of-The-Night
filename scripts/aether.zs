@@ -212,7 +212,7 @@ recipes.remove(<aether_legacy:skyroot_bed_item>);
 recipes.addShaped("Rebirth_of_the_Bed_Aether",<aether_legacy:skyroot_bed_item>,[
     [null,null,null],
     [null,<ore:bed>,null],
-    [<ore:plankSkyroot>,<ore:plankSkyroot>,<ore:plankSkyroot>]
+    [skyplank,skyplank,skyplank]
 ]);
 
 <aether_legacy:skyroot_bed_item>.addTooltip("Allows you to sleep and set your spawn in the Aether.");

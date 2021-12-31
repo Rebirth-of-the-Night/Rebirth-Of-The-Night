@@ -8,6 +8,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.rockytweaks.Anvil;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.ltt.LootTable;
+import mods.betterwithmods.MiniBlocks;
 
 // brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 // brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
@@ -201,6 +202,16 @@ recipes.addShapeless("gravel_to_flint", <minecraft:flint>*2, [<ore:gravel>, <ore
 
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
+
+// the oredict for recipes where there are only vanilla variants
+// use this for oak, default other non-vanilla variants to this as well
+val genericPlanks = <ore:genericPlanks>;
+genericPlanks.addAll(<ore:plankWood>);
+genericPlanks.remove(<minecraft:planks:1>);
+genericPlanks.remove(<minecraft:planks:2>);
+genericPlanks.remove(<minecraft:planks:3>);
+genericPlanks.remove(<minecraft:planks:4>);
+genericPlanks.remove(<minecraft:planks:5>);
 
 val gbars = <ore:genericMetalBars>;
 gbars.add(<minecraft:iron_bars>);
@@ -576,7 +587,7 @@ for plank, fenceArray in fenceStickMap{
 
 recipes.remove(<minecraft:bed:*>);
 
-var moulding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+var moulding_wood = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 
 recipes.addShaped("Rebirth_of_the_Bed",<minecraft:bed>,[
     [<minecraft:carpet:*>,<minecraft:carpet:*>,<betterwithmods:material:41>],
@@ -1082,8 +1093,9 @@ gemIngot.add(
   <contenttweaker:peridot_ingot>
 );
 
-<ore:stoneWithoutHolystone>.mirror(<ore:stone>);
-<ore:stoneWithoutHolystone>.remove(<aether_legacy:holystone>);
+val stoneWOHolystone = <ore:stoneWithoutHolystone>;
+stoneWOHolystone.addAll(<ore:stone>);
+stoneWOHolystone.remove(<aether_legacy:holystone>);
 
 <ore:plankWood>.add(<aether_legacy:skyroot_plank>);
 <ore:sand>.add(<minecraft:sand:1>);

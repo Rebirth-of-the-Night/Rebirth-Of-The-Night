@@ -80,6 +80,7 @@ mods/JustEnoughResources*.jar
 mods/LoadingProfiler*.jar
 mods/Mapmaker's+Gadgets*.jar
 mods/Mineshot*.jar
+mods/probe-*.jar
 mods/spark-forge*.jar
 mods/tellme*.jar
 mods/world_generation_profiler*.jar

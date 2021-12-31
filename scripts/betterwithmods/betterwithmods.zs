@@ -10,6 +10,7 @@ import mods.betterwithmods.FilteredHopper;
 import mods.betterwithmods.Anvil;
 import mods.betterwithmods.HeatRegistry;
 import mods.betterwithmods.PulleyManager;
+import mods.betterwithmods.MiniBlocks;
 
 furnace.setFuel(<betterwithmods:aesthetic:13>, 28800);
 <ore:cobblestone>.add(<betterwithmods:aesthetic:7>);
@@ -155,8 +156,8 @@ var cooking_cauldron = <betterwithmods:cooking_pot:1>;
 var cauldron = <minecraft:cauldron>;
 var bone = <ore:bone>;
 var bucket = <pyrotech:bucket_wood>|<pyrotech:bucket_clay>|<pyrotech:bucket_stone>|<minecraft:bucket>;
-var moulding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
-var siding_wood = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
+var moulding_wood = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+var siding_wood = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
 var gear_wood = <pyrotech:cog_wood>;
 var gear_steel = <pyrotech:cog_bone>;
 var generic_metal = <ore:genericMetal>;
@@ -407,11 +408,32 @@ recipes.addShaped("cake_batter",<betterwithmods:raw_pastry:0>,[
 recipes.remove(<betterwithmods:raw_pastry:1>);
 recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<minecraft:pumpkin>,<ore:listAllsugar>,<ore:listAllegg>,<ore:foodFlour>]);
 
-val arrayMoulding = [<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}),<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}})] as IItemStack[];
+val arrayMoulding = [
+    MiniBlocks.getMiniBlock("moulding", <ore:genericPlanks>),
+    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:1>),
+    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:2>),
+    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:3>),
+    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:4>),
+    MiniBlocks.getMiniBlock("moulding", <minecraft:planks:5>)
+] as IItemStack[];
 
-val arrayWindChime = [<betterwithmods:metal_chime:0>,<betterwithmods:metal_chime:1>,<betterwithmods:metal_chime:2>,<betterwithmods:metal_chime:3>,<betterwithmods:metal_chime:4>,<betterwithmods:metal_chime:5>] as IItemStack[];
+val arrayWindChime = [
+    <betterwithmods:metal_chime:0>,
+    <betterwithmods:metal_chime:1>,
+    <betterwithmods:metal_chime:2>,
+    <betterwithmods:metal_chime:3>,
+    <betterwithmods:metal_chime:4>,
+    <betterwithmods:metal_chime:5>
+] as IItemStack[];
 
-val arrayBambooChime = [<betterwithmods:bamboo_chime:0>,<betterwithmods:bamboo_chime:1>,<betterwithmods:bamboo_chime:2>,<betterwithmods:bamboo_chime:3>,<betterwithmods:bamboo_chime:4>,<betterwithmods:bamboo_chime:5>,] as IItemStack[];
+val arrayBambooChime = [
+    <betterwithmods:bamboo_chime:0>,
+    <betterwithmods:bamboo_chime:1>,
+    <betterwithmods:bamboo_chime:2>,
+    <betterwithmods:bamboo_chime:3>,
+    <betterwithmods:bamboo_chime:4>,
+    <betterwithmods:bamboo_chime:5>
+] as IItemStack[];
 
 for i, output in arrayWindChime{
     recipes.addShaped(output,[
@@ -443,7 +465,7 @@ recipes.addShaped("filtered_hopper",<betterwithmods:single_machine:2>,[
 ]);
 
 val haft = <betterwithmods:material:36>;
-val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+val woodMoulding =MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 
 recipes.remove(haft);
 recipes.addShaped("glued_haft",haft*2,[
