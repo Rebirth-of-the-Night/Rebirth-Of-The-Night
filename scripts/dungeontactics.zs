@@ -1,5 +1,5 @@
 #modloaded dungeontactics
-#priority 1
+#priority 2
 
 import crafttweaker.item.IIngredient;
 import mods.artisanworktables.builder.RecipeBuilder;
