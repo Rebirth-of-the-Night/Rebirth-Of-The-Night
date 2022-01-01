@@ -93,6 +93,10 @@ config/worldgeneration_profiler.cfg
 config/worldstripper.cfg
 loading-log.log
 
+stall-reports/
+
+*.nps
+
 .ReAuth.cfg
 config/acronym/saved/
 config/antiqueatlas/markers.json
