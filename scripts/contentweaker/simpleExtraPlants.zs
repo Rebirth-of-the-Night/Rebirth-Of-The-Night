@@ -24,6 +24,27 @@ moss_patch.setBlockSoundType(<soundtype:plant>);
 moss_patch.setToolClass("none");
 moss_patch.register();
 
+var scab = VanillaFactory.createBlock("scab", <blockmaterial:Ground>);
+scab.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    0.1 / 16.0,
+    16.0 / 16.0
+	);
+scab.setBlockHardness(0.0);
+scab.setBlockResistance(2.0);
+scab.setFullBlock(false);
+scab.setPassable(true);
+scab.setReplaceable(true);
+scab.setSlipperiness(0.89f);
+scab.setLightOpacity(0);
+scab.setBlockLayer("CUTOUT");
+scab.setBlockSoundType(<soundtype:plant>);
+scab.setToolClass("none");
+scab.register();
+
 var cave_rafflesia = VanillaFactory.createBlock("cave_rafflesia", <blockmaterial:Grass>);
 cave_rafflesia.axisAlignedBB = AxisAlignedBB.create(
      3.0 / 16.0,

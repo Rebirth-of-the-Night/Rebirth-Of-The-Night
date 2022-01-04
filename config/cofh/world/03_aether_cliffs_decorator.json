@@ -1,6 +1,26 @@
 {
 	"populate": 
 	{
+		"blue_fire": {
+            "distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "netherex:blue_fire",
+				"surface": "netherex:frostburn_ice",
+				"cluster-size": 3
+				},
+			"material": [
+					{
+					"name": "netherex:frostburn_ice"
+					}
+				],
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
+		},
 		"ice_spikes": {
             "distribution": "surface",
 			"generator": {

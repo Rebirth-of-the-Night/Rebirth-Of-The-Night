@@ -81,6 +81,12 @@
 		"defiledlands:stone_defiled_slab[variant=sandstone]": "sandstone",
 		"defiledlands:stone_defiled_slab[variant=bricks]": "brickstone",
 		"defiledlands:ravaging_decoration[variant=bricks]": "brickstone",
-		"defiledlands:conjuring_altar": "composite"
+		"defiledlands:conjuring_altar": "composite",
+		"biomesoplenty:double_plant[variant=eyebulb]+foliage": "straw,mud",
+		"rustic:chandelier_silver": "metalbar",
+		"rustic:chandelier_gold": "metalbar",
+		"randomthings:ancientbrick": "brickstone",
+		"randomthings:ancientbrick[variant=full]": "brickstone,marble",
+		"randomthings:ancientbrick[variant=output]": "brickstone,fire"
 	}
 }

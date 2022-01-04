@@ -1,0 +1,55 @@
+{
+	"populate": {
+		"ocean_rocks": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_gabbro"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:white_sand",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 19
+			},
+			"material": [
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:white_sand",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:gravel_beach",
+					"biomesoplenty:white_beach"
+				]
+			}
+		}
+	}
+}

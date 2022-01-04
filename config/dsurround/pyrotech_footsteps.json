@@ -19,6 +19,7 @@
 		"pyrotech:dense_redstone_ore_large": "composite",
 		"pyrotech:dense_redstone_ore_small": "composite",
 		"pyrotech:dense_redstone_ore_rocks": "composite",
-		"pyrotech:log_pile": "log"
+		"pyrotech:log_pile": "log",
+		"pyrotech_compat:rock_netherrack": "stone"
 	}
 }

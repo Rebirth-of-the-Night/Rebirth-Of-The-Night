@@ -1,6 +1,6 @@
 tile.anvil.name=Iron Anvil
 tile.anvil.intact.name=Iron Anvil
-tile.anvil.slightlyDamaged.name=Slightly Damaged Iron Anvil
+tile.anvil.slightlyDamaged.name=Damaged Iron Anvil
 tile.anvil.veryDamaged.name=Crumbling Iron Anvil
 
 entity.MinecartRideable.name=Minecart

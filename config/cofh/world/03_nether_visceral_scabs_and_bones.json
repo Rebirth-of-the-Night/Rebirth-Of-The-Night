@@ -1,0 +1,137 @@
+{
+	"populate": 
+	{
+		"visceral_scabs": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:scab",
+						"weight": 5
+					}
+				],
+				"surface": [
+					"biomesoplenty:flesh"
+				],
+				"material": "air",
+				"cluster-size": 27,
+				"see-sky": false
+				},
+			"cluster-count": 11,
+			"ground-level": 250,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:visceral_heap"
+				]
+			}
+		},
+		"bone_pieces": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "netherex:bone_sliver",
+						"weight": 7,
+						"properties": {
+							"axis" : "y"
+						}
+					},
+					{
+						"name": "netherex:bone_chunk",
+						"weight": 5,
+						"properties": {
+							"facing" : "up"
+						}
+					}
+				],
+				"surface": [
+					"biomesoplenty:flesh",
+					"minecraft:bone_block"
+				],
+				"material": "air",
+				"cluster-size": 8,
+				"see-sky": false
+				},
+			"cluster-count": 4,
+			"ground-level": 250,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:visceral_heap"
+				]
+			}
+		},
+		"bone_structures": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": [
+					{
+						"structure": "/structures/bone_structure.nbt",
+						"weight": 4,
+						"ignored-block": "air"
+					},
+					{
+						"structure": "/structures/bone_structure_1.nbt",
+						"weight": 3,
+						"ignored-block": "air"
+					},
+					{
+						"structure": "/structures/bone_structure_2.nbt",
+						"weight": 2,
+						"ignored-block": "air"
+					},
+					{
+						"structure": "/structures/bone_structure_3.nbt",
+						"weight": 1,
+						"ignored-block": "air"
+					},
+					{
+						"structure": "/structures/slim_bone_structure.nbt",
+						"weight": 8,
+						"ignored-block": "air"
+					},
+					{
+						"structure": "/structures/slim_bone_structure_1.nbt",
+						"weight": 7,
+						"ignored-block": "air"
+					},
+					{
+						"structure": "/structures/slim_bone_structure_2.nbt",
+						"weight": 6,
+						"ignored-block": "air"
+					},
+					{
+						"structure": "/structures/slim_bone_structure_3.nbt",
+						"weight": 5,
+						"ignored-block": "air"
+					}
+				],
+				"surface": [
+					"biomesoplenty:flesh",
+					"minecraft:bone_block"
+				],
+				"material": "air",
+				"cluster-size": 3,
+				"see-sky": false
+				},
+			"cluster-count": 2,
+			"ground-level": 250,
+			"chunk-chance": 1,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "id","entry": ["biomesoplenty:visceral_heap"]}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"populate": {
+		"aether_highlands_decorator": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_chert_sandstone"
+						}
+					},
+					{
+						"name": "rustic:cloudsbluff",
+						"weight": 2,
+						"properties": {
+							"age" : "3"
+						}
+					}
+				],
+				"surface": [
+					"aether_legacy:aether_grass",
+					"aether_legacy:aether_dirt",
+					"aether_legacy:holystone"
+				],
+				"cluster-size": 20
+			},
+			"material": [
+				"aether_legacy:aether_grass",
+				"aether_legacy:aether_dirt",
+				"aether_legacy:holystone"
+			],
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"aether_legacy:aether_highlands"
+				]
+			}
+		}
+	}
+}
