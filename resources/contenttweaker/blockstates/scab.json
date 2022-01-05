@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/scab",
       "particle": "contenttweaker:blocks/scab"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:scab",
     "uvlock": true,
     "transform": "forge:default-block"
   },
