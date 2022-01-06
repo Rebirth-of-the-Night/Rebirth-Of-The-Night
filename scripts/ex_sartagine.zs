@@ -72,6 +72,12 @@ recipes.addShapeless("cooking_kit", <contenttweaker:cooking_kit>, [
     tempKnives
 ]);
 
+//Beet Soup --> Beetroot Soup conversion removal - Nyagi
+recipes.remove(<minecraft:beetroot_soup>);
+//Crafting for Potato Soup Removal for inspirations and pam's - Nyagi
+recipes.remove(<inspirations:potato_soup>);
+recipes.remove(<harvestcraft:potatosoupitem>);
+
 // accepts any veggie for crafting of food book
 recipes.remove(<solcarrot:food_book>);
 recipes.addShapeless("food_book",<solcarrot:food_book>,[<minecraft:book>,<ore:listAllveggie>]);
@@ -94,6 +100,7 @@ JEI.removeAndHide(<exsartagine:breadmeatraw>);
 JEI.removeAndHide(<exsartagine:breadmeat>);
 JEI.hideCategory("artisanworktables_chef_worktable");
 JEI.hideCategory("artisanworkstumps_chef");
+JEI.removeAndHide(<harvestcraft:potatosoupitem>);
 
 ExSartagine.addHeatSource(<blockstate:betterwithmods:stoked_flame>);
 ExSartagine.addPlaceable(<blockstate:betterwithmods:stoked_flame>);
