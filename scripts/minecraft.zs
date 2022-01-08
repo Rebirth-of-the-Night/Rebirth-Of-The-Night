@@ -212,6 +212,26 @@ genericPlanks.remove(<minecraft:planks:2>);
 genericPlanks.remove(<minecraft:planks:3>);
 genericPlanks.remove(<minecraft:planks:4>);
 genericPlanks.remove(<minecraft:planks:5>);
+val genericFences = <ore:genericFences>;
+genericPlanks.addAll(<ore:fenceWood>);
+genericPlanks.remove(<minecraft:birch_fence>);
+genericPlanks.remove(<minecraft:spruce_fence>);
+genericPlanks.remove(<minecraft:jungle_fence>);
+genericPlanks.remove(<minecraft:acacia_fence>);
+genericPlanks.remove(<minecraft:dark_oak_fence>);
+val genericWoodSlabs = <ore:genericWoodSlabs>;
+genericPlanks.addAll(<ore:slabWood>);
+genericPlanks.remove(<minecraft:wooden_slab:1>);
+genericPlanks.remove(<minecraft:wooden_slab:2>);
+genericPlanks.remove(<minecraft:wooden_slab:3>);
+genericPlanks.remove(<minecraft:wooden_slab:4>);
+genericPlanks.remove(<minecraft:wooden_slab:5>);
+
+val mossyStoneBricks = <ore:mossyStoneBricks>;
+mossyStoneBricks.add(<minecraft:stonebrick:1>);
+mossyStoneBricks.add(<betterwithaddons:whitebrick:1>);
+mossyStoneBricks.add(<defiledlands:stone_defiled_decoration:2>);
+mossyStoneBricks.add(<iceandfire:dread_stone_bricks_mossy>);
 
 val gbars = <ore:genericMetalBars>;
 gbars.add(<minecraft:iron_bars>);
@@ -1248,6 +1268,9 @@ hellfireIngot.addAll(<ore:ingotConcentratedHellfire>);
 val arrowSfS = <ore:arrowSoulforgedSteel>;
 arrowSfS.remove(<betterwithmods:material:43>);
 arrowSfS.add(<betterwithaddons:material:0>);
+
+val bamboo = <ore:cropBamboo>;
+bamboo.add(<biomesoplenty:bamboo>);
 
 val glue = <ore:glue>;
 glue.addItems([<mod_lavacow:silky_sludge>,<mod_lavacow:holy_sludge>]);

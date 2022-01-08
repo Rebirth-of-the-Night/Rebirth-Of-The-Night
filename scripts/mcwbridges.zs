@@ -3,15 +3,34 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 // Wood bridges (to be converted)
-// recipes.addShaped("bridge_bamboo", <mcwbridges:bamboo_bridge> * 2, [[<biomesoplenty:bamboo>, <ore:durableFiber>, <biomesoplenty:bamboo>], [<biomesoplenty:bamboo>, <biomesoplenty:bamboo>, <biomesoplenty:bamboo>]]);
-// recipes.addShaped("mcwbridges:bamboo_bridge", <mcwbridges:bamboo_bridge>, [[<minecraft:reeds>, <minecraft:string>, <minecraft:reeds>], [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
-// recipes.addShaped("mcwbridges:oak_rail_bridge", <mcwbridges:oak_rail_bridge> * 4, [[<minecraft:fence>, null, <minecraft:fence>], [<minecraft:fence>, <minecraft:wooden_slab>, <minecraft:fence>]]);
-// recipes.addShaped("mcwbridges:dry_bamboo_bridge", <mcwbridges:dry_bamboo_bridge>, [[<minecraft:stick>, <minecraft:string>, <minecraft:stick>], [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
-// recipes.addShaped("mcwbridges:oak_log_bridge_middle", <mcwbridges:oak_log_bridge_middle> * 4, [[<minecraft:fence>, null, <minecraft:fence>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
-// recipes.addShaped("mcwbridges:oak_rope", <mcwbridges:rope_oak_bridge> * 4, [[<minecraft:string>, null, <minecraft:string>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
-// recipes.addShaped("bridgestack_oak", <mcwbridges:rope_oak_bridge> * 32, [[<quark:rope>, null, <quark:rope>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
 // recipes.addShaped("mcwbridges:stone_brick_bridge", <mcwbridges:stone_brick_bridge> * 4, [[<minecraft:stone_slab:5>, null, <minecraft:stone_slab:5>], [<minecraft:stone_slab:5>, <minecraft:stone_slab:5>, <minecraft:stone_slab:5>]]);
 
+
+// oak bridge -> generic wood
+recipes.remove(<mcwbridges:oak_log_bridge_middle>);
+recipes.addShaped("genericWoodBridge", <mcwbridges:oak_log_bridge_middle>*4,[
+	[<ore:genericFences>, null, <ore:genericFences>],
+	[<ore:genericWoodSlabs>, <ore:genericWoodSlabs>, <ore:genericWoodSlabs>]
+]);
+
+recipes.remove(<mcwbridges:oak_rail_bridge>);
+recipes.addShaped("genericRailBridge", <mcwbridges:oak_rail_bridge>*4,[
+	[<ore:genericFences>, null, <ore:genericFences>],
+	[<ore:genericFences>, <ore:genericWoodSlabs>, <ore:genericFences>]
+]);
+
+// Stone bridge -> generic stone
+recipes.remove(<mcwbridges:mossy_stone_brick_bridge>*3);
+recipes.addShaped("mossyStoneBrick_Bridge", <mcwbridges:mossy_stone_brick_bridge>*4,[
+	[<ore:mossyStoneBricks>, null, <ore:mossyStoneBricks>],
+	[<ore:mossyStoneBricks>, <ore:mossyStoneBricks>, <ore:mossyStoneBricks>]
+]);
+
+recipes.remove(<mcwbridges:stone_brick_bridge>*4);
+recipes.addShaped("genericStoneSlabBridge", <mcwbridges:stone_brick_bridge>, [
+	[<ore:genericWoodSlabs>, null, <ore:genericWoodSlabs>],
+	[<ore:genericWoodSlabs>, <ore:genericWoodSlabs>, <ore:genericWoodSlabs>]
+]);
 
 // Metal bridge recipes
 recipes.addShaped("tin_bridge", <mcwbridges:most1>,[
@@ -31,10 +50,23 @@ recipes.addShaped("steel_bridge", <mcwbridges:most1>*8,[
 ]);
 
 // rope bridges
-recipes.addShaped("bridgeStack_oak", <mcwbridges:rope_oak_bridge>*32,[
-	[<quark:rope>, null, <quark:rope>],
-	[<minecraft:log>, <minecraft:log>, <minecraft:log>]
+recipes.remove(<mcwbridges:rope_oak_bridge>);
+recipes.addShaped("bridgeStack_generic_4", <mcwbridges:rope_oak_bridge>*4,[
+	[<minecraft:string>, null, <minecraft:string>],
+	[<ore:genericWoodSlabs>, <ore:genericWoodSlabs>, <ore:genericWoodSlabs>]
 ]);
+recipes.addShaped("bridgeStack_generic", <mcwbridges:rope_oak_bridge>*32,[
+	[<quark:rope>, null, <quark:rope>],
+	[<ore:genericPlanks>, <ore:genericPlanks>, <ore:genericPlanks>]
+]);
+
+recipes.remove(<mcwbridges:rope_oak_bridge_end>);
+recipes.addShaped("bridgeEnd_generic", <mcwbridges:rope_oak_bridge_end>*4,[
+	[<minecraft:string>, null, <minecraft:string>],
+	[<ore:genericFences>, null, <ore:genericFences>],
+	[<ore:genericWoodSlabs>, <ore:genericWoodSlabs>, <ore:genericWoodSlabs>]
+]);
+
 recipes.addShaped("bridgeStack_birch", <mcwbridges:rope_birch_bridge>*32,[
 	[<quark:rope>, null, <quark:rope>],
 	[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>]
@@ -56,8 +88,15 @@ recipes.addShaped("bridgeStack_dark_oak", <mcwbridges:rope_dark_oak_bridge>*32,[
 	[<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]
 ]);
 
-// actual bamboo bridge
+// actual bamboo bridges
+recipes.remove(<mcwbridges:bamboo_bridge>);
 recipes.addShaped("bridge_bamboo", <mcwbridges:bamboo_bridge>*2,[
-	[<biomesoplenty:bamboo>, <ore:durableFiber>, <biomesoplenty:bamboo>],
-	[<biomesoplenty:bamboo>, <biomesoplenty:bamboo>, <biomesoplenty:bamboo>]
+	[<ore:cropBamboo>, <ore:durableFiber>, <ore:cropBamboo>],
+	[<ore:cropBamboo>, <ore:cropBamboo>, <ore:cropBamboo>]
+]);
+
+recipes.remove(<mcwbridges:dry_bamboo_bridge>);
+recipes.addShaped("bridge_dry_bamboo", <mcwbridges:dry_bamboo_bridge>*2,[
+	[<minecraft:stick>, <ore:durableFiber>, <minecraft:stick>],
+	[<ore:cropBamboo>, <ore:cropBamboo>, <ore:cropBamboo>]
 ]);
