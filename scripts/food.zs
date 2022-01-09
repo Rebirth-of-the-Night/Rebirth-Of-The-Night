@@ -178,6 +178,143 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:cashewbutteritem>.foodValues.saturationModifier = 0.7;
             //(Cashew 0.6 + Cooking Oil)(1.05^2) = 0.6615
             //1x = 0.7, x = 0.7
+    //Juices
+        //Excemption to food rule, kept as is valuewise
+    //Smoothies
+        //Values are all the same, generic "fruit" listed for all
+        //Excemption to food rule, food set to 1.5 to be in line with upgrade from Juice
+
+        <harvestcraft:melonsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:melonsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:strawberrysmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:strawberrysmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:lemonsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:lemonsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:blueberrysmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:blueberrysmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:cherrysmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:cherrysmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:papayasmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:papayasmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:starfruitsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:starfruitsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:bananasmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:bananasmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:orangesmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:orangesmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:peachsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:peachsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:limesmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:limesmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:pomegranatesmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:pomegranatesmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:blackberrysmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:blackberrysmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:raspberrysmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:raspberrysmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:kiwismoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:kiwismoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53  
+
+        <harvestcraft:apricotsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:apricotsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:figsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:figsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:grapefruitsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:grapefruitsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:persimmonsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:persimmonsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:gooseberrysmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:gooseberrysmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:applesmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:applesmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:coconutsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:coconutsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:cranberrysmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:cranberrysmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:grapesmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:grapesmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:pearsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:pearsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+        <harvestcraft:plumsmoothieitem>.foodValues.hunger = 3;
+        <harvestcraft:plumsmoothieitem>.foodValues.saturationModifier = 0.53;
+            //(Fruit 0.6 + Fruit 0.6 + 2(sugar) + snow + water)(1.05^6) = 1.60811476
+            //3x = 1.6, x ~= 0.53 
+
+
 
     //Jellies
         <harvestcraft:grapejellyitem>.foodValues.hunger = 1;
