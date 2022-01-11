@@ -72,46 +72,39 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "structure",
+				"ignored-block": "air",
 				"structure": [
 					{
-						"structure": "/structures/bone_structure.nbt",
-						"weight": 4,
-						"ignored-block": "air"
+						"name": "/structures/bone_structure.nbt",
+						"weight": 4
 					},
 					{
-						"structure": "/structures/bone_structure_1.nbt",
-						"weight": 3,
-						"ignored-block": "air"
+						"name": "/structures/bone_structure_1.nbt",
+						"weight": 3
 					},
 					{
-						"structure": "/structures/bone_structure_2.nbt",
-						"weight": 2,
-						"ignored-block": "air"
+						"name": "/structures/bone_structure_2.nbt",
+						"weight": 2
 					},
 					{
-						"structure": "/structures/bone_structure_3.nbt",
-						"weight": 1,
-						"ignored-block": "air"
+						"name": "/structures/bone_structure_3.nbt",
+						"weight": 1
 					},
 					{
-						"structure": "/structures/slim_bone_structure.nbt",
-						"weight": 8,
-						"ignored-block": "air"
+						"name": "/structures/slim_bone_structure.nbt",
+						"weight": 8
 					},
 					{
-						"structure": "/structures/slim_bone_structure_1.nbt",
-						"weight": 7,
-						"ignored-block": "air"
+						"name": "/structures/slim_bone_structure_1.nbt",
+						"weight": 7
 					},
 					{
-						"structure": "/structures/slim_bone_structure_2.nbt",
-						"weight": 6,
-						"ignored-block": "air"
+						"name": "/structures/slim_bone_structure_2.nbt",
+						"weight": 6
 					},
 					{
-						"structure": "/structures/slim_bone_structure_3.nbt",
-						"weight": 5,
-						"ignored-block": "air"
+						"name": "/structures/slim_bone_structure_3.nbt",
+						"weight": 5
 					}
 				],
 				"surface": [
