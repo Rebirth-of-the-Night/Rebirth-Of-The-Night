@@ -1,7 +1,7 @@
 //Nyagi - The food items will be split by mod and by relatedness, i.e. Sandwiches, Burgers, Soups, ect...
 //Food values are determined by adding together input values. 
 //Saturation values are calculated by adding input values multiplied by 1.05^n, where n is number of input items with saturation values.
-//Higher tier foods contrubute less to the multiplication, 1.025^n, 1.0125^n, ect.. (Bread, Pasta, Dough, Cheese is counted as primary)
+//Higher tier foods contrubute less to the multiplication, 1.025^n, 1.0125^n, ect.. (Bread, Pasta, Dough, Batter, Cheese is counted as primary)
 //Stock increases saturation by 0.2, counts towards n, 0.5 on food
 //Pumpkin is treated as 0.5 food, 0.6 saturation
 //Rice is treated as 0.5 food, 0.6 saturation
@@ -10,6 +10,7 @@
 //Non edible mushrooms in recipes count for 0.5 on hunger and 0.6 on saturation and count towards n
 //Non hunger increasing ingredients also count towards n, i.e. Mayo, Cooking Oil, ect
 //Hunger value x2 to get a value the script understands
+//Raw Meats that go through cooking stations are to be treated as cooked meats value-wise
 /*
 Saturation value is x where; 
 [hunger value]x = desired saturation value, 
@@ -110,6 +111,7 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
 //Pam's Food Items
     
     //Meats
+    //Breaded Meats treat batter, as 1 hunger and 1n
 
         <betteranimalsplus:turkey_leg_cooked>.foodValues.hunger = 2;
         <betteranimalsplus:turkey_leg_cooked>.foodValues.saturationModifier = 0.2;
@@ -130,6 +132,12 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:meatloafitem>.foodValues.saturationModifier = 0.87;
             //(RawBeef 0.3 + Bread 0.6 + Onion 0.6 + Garlic 0.6)(1.05^4)= 2.55256312
             //3x = 2.6, x ~= 0.87
+ 
+        <harvestcraft:breadedporkchopitem>.foodValues.hunger = 4;
+            //(Pork 1 + Batter 1) = 2
+        <harvestcraft:breadedporkchopitem>.foodValues.saturationModifier = 0.18;
+            //(Pork 0.6 + Batter)(1.05^2) = 0.6615
+            //4x = 0.7, x ~= 0.18
 
     //Vegie-related
 
@@ -151,7 +159,14 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:firmtofuitem>.foodValues.hunger = 1;
         <harvestcraft:firmtofuitem>.foodValues.saturationModifier = 0.6;
                 <harvestcraft:silkentofuitem>.foodValues.hunger = 1;
-                <harvestcraft:silkentofuitem>.foodValues.saturationModifier = 0.3;  
+                <harvestcraft:silkentofuitem>.foodValues.saturationModifier = 0.3;
+
+    //Fruit-related
+
+        <harvestcraft:raisinsitem>.foodValues.hunger = 1;
+        <harvestcraft:raisinsitem>.foodValues.saturationModifier = 0.6;
+            //(Grape 0.6)(1.05)= 0.63
+            //1x = 0.6, x = 0.6
 
     //Butters
         <harvestcraft:peanutbutteritem>.foodValues.hunger = 1;
@@ -441,18 +456,114 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:plumjellyitem>.foodValues.saturationModifier = 0.7;
             //(Plum 0.6 + Sugar/Honey)(1.05^2) = 0.6615  
             //1x = 0.7, x = 0.7
+    //Breads
+        //Breads that use dough instead of bread have values treated as bread
+        //Batter is also to be treated as bread with 2n
+        //Cornmeal is treated as 1 hunger and 0.6 Saturation
+        //Milk is treated as 3n (Due to difficulty)
+        <harvestcraft:toastitem>.foodValues.hunger = 3;
+        <harvestcraft:toastitem>.foodValues.saturationModifier = 0.23;
+            //(Bread 0.6 + Butter)(1.05^2) = 0.6615
+            //3x = 0.7, x ~= 0.23
 
+        <harvestcraft:pumpkinbreaditem>.foodValues.hunger = 4;
+            //(Bread 1.5 + Pumpkin 0.5) = 2
+        <harvestcraft:pumpkinbreaditem>.foodValues.saturationModifier = 0.23;
+            //(Bread 0.6 + Pumpkin 0.2 + Sugar)(1.05^3) = 0.9261
+            //4x = 0.9, x ~= 0.23
+
+        <harvestcraft:cornbreaditem>.foodValues.hunger = 4;
+            //(CornMeal 1 + Milk 1) = 2
+        <harvestcraft:cornbreaditem>.foodValues.saturationModifier = 0.38;
+            //(CornMeal 0.6 + Egg + Milk 0.6)(1.05^5) = 1.53153787
+            //4x = 1.5, x ~= 0.38
+
+        <harvestcraft:gingerbreaditem>.foodValues.hunger = 4;
+            //(Ginger 0.5 + Batter 1.5) = 2
+        <harvestcraft:gingerbreaditem>.foodValues.saturationModifier = 0.38;
+            //(Ginger 0.6 + Batter 0.6 + Butter + Cinnamon)(1.05^5) = 1.53153787
+            //4x = 1.5, x ~= 0.38
+
+        <harvestcraft:garlicbreaditem>.foodValues.hunger = 4;
+            //(Toast 1.5 + Garlic 0.5) = 2
+        <harvestcraft:garlicbreaditem>.foodValues.saturationModifier = 0.33;
+            //(Garlic 0.6 + Butter)(1.05^2)+(Toast 0.6615)(1.025) = 1.3395375
+            //4x = 1.3, x ~= 0.33
+
+        <harvestcraft:zucchinibreaditem>.foodValues.hunger = 5;
+            //(Dough 1.5 + Zucchini 0.5 + Walnut 0.5) = 2.5
+        <harvestcraft:zucchinibreaditem>.foodValues.saturationModifier = 0.33;
+            //(Dough 0.6 + Zucchini 0.6 + Walnut 0.6 + Cinnamon)(1.05^4) = 2.18791125
+            //5x = 2.2, x ~= 0.44
+
+        <harvestcraft:walnutraisinbreaditem>.foodValues.hunger = 5;
+            //(Dough 1.5 + Raisin 0.5 + Walnut 0.5) = 2.5
+        <harvestcraft:walnutraisinbreaditem>.foodValues.saturationModifier = 0.4;
+            //(Dough 0.6 + Walnut 0.6 + Cinnamon)(1.05^3) + (Raisin 0.63)(1.025) = 2.0349
+            //5x = 2.0, x = 0.4
+
+        <harvestcraft:banananutbreaditem>.foodValues.hunger = 7;
+            //(Flour 1.5 + Banana 0.5 + Walnut 0.5 + Milk 1) = 3.5
+        <harvestcraft:banananutbreaditem>.foodValues.saturationModifier = 0.46;
+            //(Flour 0.6 + Banana 0.6 + Walnut 0.6 + Milk 0.6)(1.05^6) = 3.21622953
+            //7x = 3.2, x ~= 0.46
+
+        <harvestcraft:datenutbreaditem>.foodValues.hunger = 5;
+            //(Dough 1.5 + Date 0.5 + Nut 0.5) = 2.5
+        <harvestcraft:datenutbreaditem>.foodValues.saturationModifier = 0.42;
+            //(Dough 0.6 + Date 0.6 + Nut 0.6)(1.05^3) = 2.083725
+            //5x = 2.1, x = 0.42
+
+        <harvestcraft:lavendershortbreaditem>.foodValues.hunger = 3;
+            //(Dough 1.5) = 1.5
+        <harvestcraft:lavendershortbreaditem>.foodValues.saturationModifier = 0.22;
+            //(Dough 0.6 + Lavebder Dye)(1.05^2) = 0.6615
+            //3x = 0.67, x ~= 0.22
+
+        <harvestcraft:fairybreaditem>.foodValues.hunger = 11;
+            //(Bread 1.5 + 2(Pixie Dust 2)(rare item bonus)) = 5.5
+        <harvestcraft:fairybreaditem>.foodValues.saturationModifier = 0.35;
+            //(Bread 0.6 + 2(Pixie Dust 1.25)(rare item bonus) + Butter)(1.05^4) = 3.76806937
+            //11x = 3.8, x ~= 0.35
+
+        <harvestcraft:honeybreaditem>.foodValues.hunger = 3;
+            //(Bread 1.5) = 1.5
+        <harvestcraft:honeybreaditem>.foodValues.saturationModifier = 0.22;
+            //(Bread 0.6 + Honey)(1.05^2) = 0.6615
+            //3x = 0.67, x ~= 0.22
+
+        <harvestcraft:festivalbreaditem>.foodValues.hunger = 3;
+            //(Dough 1.5) = 1.5
+        <harvestcraft:festivalbreaditem>.foodValues.saturationModifier = 0.23;
+            //(Dough 0.6 + Sugar + Cooking Oil)(1.05^3) = 0.694575
+            //3x = 0.69, x = 0.23
+
+        <harvestcraft:fruitcreamfestivalbreaditem>.foodValues.hunger = 4;
+            //(FestivalBread 1.5 + Cherry 0.5) = 2
+        <harvestcraft:fruitcreamfestivalbreaditem>.foodValues.saturationModifier = 0.35;
+            //(Cherry 0.6 + Heavy Cream)(1.05^2) + (FestivalBread 0.694575)(1.025) = 1.37343937
+            //4x = 1.4, x = 0.35
+
+        <harvestcraft:vanillaconchasbreaditem>.foodValues.hunger = 3;
+            //(Dough 1.5) = 1.5
+        <harvestcraft:vanillaconchasbreaditem>.foodValues.saturationModifier = 0.24;
+            //(Dough 0.6 + Sugar + Egg + Vanilla)(1.05^4) = 0.72930375
+            //3x = 0.73, x ~= 0.24
+
+        <harvestcraft:cinnamonbreaditem>.foodValues.hunger = 3;
+            //(Dough 1.5) = 1.5
+        <harvestcraft:cinnamonbreaditem>.foodValues.saturationModifier = 0.23;
+            //(Dough 0.6 + Cinnamon + Butter)(1.05^3) = 0.694575
+            //3x = 0.69, x = 0.23
+
+             
     //Sandwiches
 
-        <harvestcraft:toastitem>.foodValues.hunger = 3;
-        <harvestcraft:toastitem>.foodValues.saturationModifier = 0.47;
-            //(Bread 0.6 + Butter)(1.05^2) = 0.6615
-            //1.5x = 0.7, x ~= 0.47
-            <harvestcraft:toastsandwichitem>.foodValues.hunger = 7;
-                //(Toast 1.5 + Toast 1.5 + pepper 0.5) = 3.5
-            <harvestcraft:toastsandwichitem>.foodValues.saturationModifier = 0.29;
-                //(Toast 0.6615 + Toast 0.6615)(1.025^2) + (Pepper 0.6)(1.05) = 2.01997687
-                //7x = 2, x ~= 0.29
+        <harvestcraft:toastsandwichitem>.foodValues.hunger = 7;
+            //(Toast 1.5 + Toast 1.5 + pepper 0.5) = 3.5
+        <harvestcraft:toastsandwichitem>.foodValues.saturationModifier = 0.29;
+            //(Toast 0.6615 + Toast 0.6615)(1.025^2) + (Pepper 0.6)(1.05) = 2.01997687
+            //7x = 2, x ~= 0.29
 
         <harvestcraft:chickensandwichitem>.foodValues.hunger = 5;
             //Bread 1.5 + Chicken (default) 1 = 2.5
@@ -721,11 +832,11 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Pumpkin 0.3 + Stock 0.2 + Cream)(1.05^3) = 0.5788125
             //2x = 0.6, x = 0.3
 
-        <harvestcraft:chickennoodlesoupitem>.foodValues.hunger = 3;
-            //RawChicken 0.5 + Stock 0.5 + Carrot 0.5= 1.5;
+        <harvestcraft:chickennoodlesoupitem>.foodValues.hunger = 4;
+            //Chicken 1 + Stock 0.5 + Carrot 0.5= 2;
         <harvestcraft:chickennoodlesoupitem>.foodValues.saturationModifier = 0.33;
-            //(Carrot 0.3 + RawChicken 0.3 + Stock 0.2 + Pasta)(1.05^4) = 0.972405
-            //3x = 1.0, x ~= 0.33
+            //(Carrot 0.3 + Chicken 0.6 + Stock 0.2 + Pasta)(1.05^4) = 1.33705687
+            //4x = 1.3, x ~= 0.33
 
         <harvestcraft:vegetablesoupitem>.foodValues.hunger = 4;
             //Stock 0.5 + RawPotato 0.5 + Carrot 0.5 + Mushroom 0.5 = 2;
@@ -751,11 +862,11 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Stock 0.2 + Rice 0.6)(1.05^2) = 0.882
             //2x = 0.9, x = 0.45
 
-        <harvestcraft:beetsoupitem>.foodValues.hunger = 2;
-            //Onion 0.5 + Beet 0.5 = 1;
-        <harvestcraft:beetsoupitem>.foodValues.saturationModifier = 0.75;
-            //(Onion 0.6 + Beet 0.6 + Milk + Pepper)(1.05^4) = 1.4586075
-            //2x = 1.5, x = 0.75
+        <harvestcraft:beetsoupitem>.foodValues.hunger = 4;
+            //Onion 0.5 + Beet 0.5 + Milk 1 = 2;
+        <harvestcraft:beetsoupitem>.foodValues.saturationModifier = 0.6;
+            //(Onion 0.6 + Beet 0.6 + Milk 0.6 + Pepper)(1.05^6) = 2.41217215
+            //4x = 2.4, x = 0.6
 
         <harvestcraft:creamedbroccolisoupitem>.foodValues.hunger = 3;
             //Carrot 0.5 + Broccoli 0.5 + Stock 0.5 = 1.5;
@@ -763,11 +874,11 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Carrot 0.3 + Broccoli 0.6 + Stock 0.2 + Pepper + Flour)(1.05^5) = 1.40390971
             //3x = 1.4, x ~= 0.47
 
-        <harvestcraft:splitpeasoupitem>.foodValues.hunger = 3;
-            //Peas 0.5 + RawPork 0.5 + Stock 0.5 = 1.5;
+        <harvestcraft:splitpeasoupitem>.foodValues.hunger = 4;
+            //Peas 0.5 + Pork 1 + Stock 0.5 = 2.0;
         <harvestcraft:splitpeasoupitem>.foodValues.saturationModifier = 0.43;
-            //(Peas 0.6 + RawPork 0.3 + Stock 0.2 + Pepper)(1.05^4) = 1.33705687
-            //3x = 1.3, x ~= 0.43
+            //(Peas 0.6 + Pork 0.6 + Stock 0.2 + Pepper)(1.05^4) = 1.70170875
+            //4x = 1.7, x ~= 0.43
 
         <harvestcraft:turnipsoupitem>.foodValues.hunger = 3;
             //Turnip 0.5 + Pumpkin 0.5 + Stock 0.5 = 1.5;
@@ -815,23 +926,23 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Veggie 0.6 + Veggie 0.6 + Barley 0.6 + Stock 0.2)(1.05^4) = 2.4310125
             //4x = 2.4, x = 0.6
 
-        <harvestcraft:lambbarleysoupitem>.foodValues.hunger = 5;
-            //Veggie 0.5 + Veggie 0.5 + Stock 0.5 + Barley 0.5 + RawMutton 0.5 = 2.5;
-        <harvestcraft:lambbarleysoupitem>.foodValues.saturationModifier = 0.58;
-            //(Veggie 0.6 + Veggie 0.6 + Barley 0.6 + Stock 0.2 + RawMutton 0.3)(1.05^5) = 2.93544759
-            //5x = 2.9, x = 0.58
+        <harvestcraft:lambbarleysoupitem>.foodValues.hunger = 6;
+            //Veggie 0.5 + Veggie 0.5 + Stock 0.5 + Barley 0.5 + Mutton 1 = 3;
+        <harvestcraft:lambbarleysoupitem>.foodValues.saturationModifier = 0.55;
+            //(Veggie 0.6 + Veggie 0.6 + Barley 0.6 + Stock 0.2 + Mutton 0.6)(1.05^5) = 3.31833206
+            //6x = 3.3, x = 0.55
 
-        <harvestcraft:leekbaconsoupitem>.foodValues.hunger = 3;
-            //Leek 0.5 + Veggie 0.5 + RawPork 0.5 = 1.5;
-        <harvestcraft:leekbaconsoupitem>.foodValues.saturationModifier = 0.6;
-            //(Leek 0.6 + Veggie 0.6 + RawPork 0.3 + Cream)(1.05^4) = 1.82325937
-            //3x = 1.8, x = 0.6
+        <harvestcraft:leekbaconsoupitem>.foodValues.hunger = 4;
+            //Leek 0.5 + Veggie 0.5 + Pork 1 = 2;
+        <harvestcraft:leekbaconsoupitem>.foodValues.saturationModifier = 0.55;
+            //(Leek 0.6 + Veggie 0.6 + Pork 0.6 + Cream)(1.05^4) = 2.18791125
+            //4x = 2.2, x = 0.55
 
-        <harvestcraft:peaandhamsoupitem>.foodValues.hunger = 6;
-            //Peas 0.5 + 4(Veggie 0.5) + RawPork 0.5 = 3;
-        <harvestcraft:peaandhamsoupitem>.foodValues.saturationModifier = 0.73;
-            //(Peas 0.6 + 4(Veggie 0.6) + RawPork 0.3)(1.05^6) = 4.42231561
-            //6x = 4.4, ~= 0.73
+        <harvestcraft:peaandhamsoupitem>.foodValues.hunger = 7;
+            //Peas 0.5 + 4(Veggie 0.5) + Pork 1 = 3.5;
+        <harvestcraft:peaandhamsoupitem>.foodValues.saturationModifier = 0.69; //nice
+            //(Peas 0.6 + 4(Veggie 0.6) + RawPork 0.6)(1.05^6) = 4.8243443
+            //7x = 4.8, ~= 0.69 
 
         <harvestcraft:potatoandleeksoupitem>.foodValues.hunger = 5;
             //RawPotato 0.5 + 2(Veggie 0.5) + Stock 0.5 + Ginger/Spice/Mustard 0.5 = 2.5;
