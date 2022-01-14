@@ -8,6 +8,6 @@ addParent("triumph:advancements/magick/warding/warding")
 criteria = addCriteria("wardCraft", "triumph:player_crafted_item")
 criteria.setItem(<wards:ward>)
 
-alwaysVisible(true)
+alwaysVisible()
 // (horizontal, vertical)
 setPos(10,-400)

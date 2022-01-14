@@ -50,7 +50,7 @@
   },
   {
     "targetBlock": "betterwithaddons:scaffold",
-    "heldItem": "pyrotech:material:16",
+    "heldItem": "contenttweaker:masonry_brick",
     "offhandItem": "artisanworktables:artisans_carver_gold",
     "replacementBlock": "minecraft:stonebrick:2",
     "damage": "4",
@@ -79,5 +79,11 @@
     "particleType": "iconcrack",
     "particleArea": "out",
     "particleCount": "25"
+  },
+  {
+    "targetBlock": "contenttweaker:masonry_brick",
+    "heldItem": "contenttweaker:masonry_brick",
+    "replacementBlock": "contenttweaker:masonry_brick",
+    "damage": "1"
   }
 ]

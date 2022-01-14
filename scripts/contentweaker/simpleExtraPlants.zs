@@ -124,3 +124,42 @@ perforata.setBlockLayer("CUTOUT");
 perforata.setBlockSoundType(<soundtype:plant>);
 perforata.setToolClass("none");
 perforata.register();
+
+var clover3 = VanillaFactory.createBlock("clover_3_block", <blockmaterial:Plants>);
+clover3.axisAlignedBB = AxisAlignedBB.create(
+     3.0 / 16.0,
+     15.0 / 16.0,
+     3.0 / 16.0,
+	13.0 / 16.0,
+    16.0 / 16.0,
+    13.0 / 16.0
+	);
+clover3.setBlockHardness(0.5);
+clover3.setBlockResistance(2.0);
+clover3.setFullBlock(false);
+clover3.setReplaceable(false);
+clover3.setLightOpacity(0);
+clover3.setBlockLayer("CUTOUT");
+clover3.setBlockSoundType(<soundtype:plant>);
+clover3.setToolClass("none");
+clover3.register();
+
+var clover4 = VanillaFactory.createBlock("clover_4_block", <blockmaterial:Plants>);
+clover4.axisAlignedBB = AxisAlignedBB.create(
+     3.0 / 16.0,
+     15.0 / 16.0,
+     3.0 / 16.0,
+	13.0 / 16.0,
+    16.0 / 16.0,
+    13.0 / 16.0
+	);
+clover4.setBlockHardness(0.5);
+clover4.setBlockResistance(6.0);
+clover4.setFullBlock(false);
+clover4.setReplaceable(false);
+clover4.setLightOpacity(0);
+clover4.setLightValue(0.1);
+clover4.setBlockLayer("CUTOUT");
+clover4.setBlockSoundType(<soundtype:plant>);
+clover4.setToolClass("none");
+clover4.register();

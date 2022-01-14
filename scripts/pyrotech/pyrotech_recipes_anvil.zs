@@ -38,7 +38,7 @@ lvl 10(9) = 108
 */
 GraniteAnvil.addRecipe("break_clay_brick", <minecraft:brick>*4, <minecraft:brick_block>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("break_coade_brick", <contenttweaker:brick_coade>*4, <minecraft:stonebrick>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("break_masonry_brick", <pyrotech:material:16>*4, <pyrotech:stone_bricks>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_masonry_brick", <contenttweaker:masonry_brick>*4, <pyrotech:stone_bricks>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("break_nether_brick", <minecraft:netherbrick>*4, <minecraft:nether_brick>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("break_fiery_nether_brick", <netherex:fiery_netherbrick>*4, <netherex:fiery_nether_brick>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("break_mud_brick", <biomesoplenty:mud_brick>*4, <biomesoplenty:mud_brick_block>, 4, "pickaxe", true);

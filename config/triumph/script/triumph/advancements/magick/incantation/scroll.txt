@@ -8,7 +8,7 @@ addParent("triumph:advancements/magick/incantation/incantation")
 criteria = addCriteria("Imbue Scroll", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:info>)
 
-alwaysVisible(true)
+alwaysVisible()
 setShowToast(false)
 setAnnounceToChat(false)
 // (horizontal, vertical)

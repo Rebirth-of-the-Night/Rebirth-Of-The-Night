@@ -8,6 +8,6 @@ addParent("triumph:advancements/magick/sygaldry/sygaldry")
 criteria = addCriteria("Runic Workbench", "triumph:player_crafted_item")
 criteria.setItem(<artisanworktables:workstation:7>)
 
-alwaysVisible(true)
+alwaysVisible()
 // (horizontal, vertical)
 setPos(-365,-200)

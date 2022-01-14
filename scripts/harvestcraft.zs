@@ -297,8 +297,8 @@ recipes.addShapeless ("harvestcraft_yogurt", <harvestcraft:plainyogurtitem>*4, [
 // Hyper hardcore well
 recipes.addShaped("water_well", <harvestcraft:well>,[
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<pyrotech:material:16>, <betterwithmods:bucket>, <pyrotech:material:16>],
-    [<pyrotech:material:16>, <betterwithmods:screw_pump>, <pyrotech:material:16>]
+    [<contenttweaker:masonry_brick>, <betterwithmods:bucket>, <contenttweaker:masonry_brick>],
+    [<contenttweaker:masonry_brick>, <betterwithmods:screw_pump>, <contenttweaker:masonry_brick>]
 ]);
 
 // Hyper hardcore presser

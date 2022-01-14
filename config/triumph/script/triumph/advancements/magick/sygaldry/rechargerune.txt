@@ -9,6 +9,6 @@ criteria = addCriteria("Recharge", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:info>)
 
 hideLines()
-alwaysVisible(true)
+alwaysVisible()
 // (horizontal, vertical)
 setPos(-330,-235)

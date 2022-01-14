@@ -76,7 +76,7 @@
       height: [ 11, 60 ]
       directions: all
       placement: EMBED
-      integrity: 0.8
+      integrity: 0.7
     }
     # Lit mushroom lamps
     {
@@ -89,7 +89,7 @@
     }
   ]
   stalactites: [
-    # verrybines.
+    # verribynes.
     {
       type: stalactite
       state: rotn_blocks:verribyne_0

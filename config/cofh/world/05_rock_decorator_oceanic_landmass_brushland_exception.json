@@ -51,7 +51,8 @@
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone",
-					"undergroundbiomes:metamorphic_sandstone"
+					"undergroundbiomes:metamorphic_sandstone",
+					"contenttweaker:salty_crust"
 				],
 				"cluster-size": 19
 			},
@@ -65,7 +66,8 @@
 				"undergroundbiomes:sedimentary_stone",
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone",
-				"undergroundbiomes:metamorphic_sandstone"
+				"undergroundbiomes:metamorphic_sandstone",
+				"contenttweaker:salty_crust"
 			],
 			"cluster-count": 4,
 			"chunk-chance": 1,

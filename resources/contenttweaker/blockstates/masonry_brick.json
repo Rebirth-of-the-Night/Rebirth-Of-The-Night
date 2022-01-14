@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "variants": {
+	"normal": [
+      {
+        "model": "contenttweaker:one_masonry_brick"
+      },
+      {
+        "model": "contenttweaker:one_masonry_brick",
+        "y": 90
+      },
+      {
+        "model": "contenttweaker:one_masonry_brick",
+        "y": 180
+      },
+      {
+        "model": "contenttweaker:one_masonry_brick",
+        "y": 270
+      },
+      {
+        "model": "contenttweaker:one_masonry_brick_1"
+      },
+      {
+        "model": "contenttweaker:one_masonry_brick_1",
+        "y": 90
+      },
+      {
+        "model": "contenttweaker:one_masonry_brick_1",
+        "y": 180
+      },
+      {
+        "model": "contenttweaker:one_masonry_brick_1",
+        "y": 270
+      }
+    ],
+	"inventory": [
+		{"model": "contenttweaker:item/one_masonry_brick", "textures": {
+			"layer0": "contenttweaker:items/one_masonry_brick"
+			}
+		}
+	]
+  }
+}

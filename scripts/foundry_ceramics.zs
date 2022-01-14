@@ -261,7 +261,7 @@ Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact5>, 
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact6>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact7>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact8>, 2350);
-Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:material:16>, 1373); // stone
+Melting.addRecipe(<liquid:coade_stone>*144, <contenttweaker:masonry_brick>, 1373); // stone
 Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:rock>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:stone>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:cobblestone>, 1373);
@@ -855,5 +855,5 @@ CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:mythril>*144);
 CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:residual_mythril>*9000);
 CastingTable.addIngotRecipe(<ore:ingotElectrum>.firstItem, <liquid:electrum>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soulforged_steel>*144);
-CastingTable.addIngotRecipe(<pyrotech:material:16>, <liquid:coade_stone>*144);
+CastingTable.addIngotRecipe(<contenttweaker:masonry_brick>, <liquid:coade_stone>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:39>, <liquid:ender_slag>*250);

@@ -179,6 +179,56 @@
 					10
 				]
 			}
+		},
+		"rich_clay_ponds": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "lake",
+				"block": [
+					{
+					"name": "osv:clay_deposits_biomesoplenty_dirt_2",
+					"properties": {
+						"dense" : "false"
+						}
+					}
+				],
+				"material": [
+					"minecraft:grass",
+					"minecraft:dirt"
+					]
+				"use-material": true,
+				"solid-outline": true,
+				"total-outline": true,
+				"outline-block":{
+					"name": "biomesoplenty:dirt",
+					"properties": {
+						"coarse" : "true",
+						"variant" : "silty"
+						},
+					"weight": 12
+					},
+				"gap-block": [
+					{
+					"name": "osv:clay_deposits_biomesoplenty_dirt_2",
+					"properties": {
+						"dense" : "true"
+						}
+					}
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"center-height": 70,
+			"spread": 10,
+			"biome": "all",
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:bamboo_forest",
+					"minecraft:forest"
+				]
+			}
 		}
 	}
 }

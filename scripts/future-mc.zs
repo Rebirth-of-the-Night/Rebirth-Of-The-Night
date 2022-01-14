@@ -368,8 +368,8 @@ for brickArr in bricks {
 
 // Masonry bricks use oredict, an exception
 // <pyrotech:material:16>, <pyrotech:stone_bricks>, <contenttweaker:loose_stone_bricks>, <ore:stone>, <ore:rock>
-Stonecutter.addOutputs(<ore:stone>, <pyrotech:material:16>*4, <contenttweaker:loose_stone_bricks>*1);
-Stonecutter.addOutputs(<ore:rock>, [<pyrotech:material:16>*1]);
+Stonecutter.addOutputs(<ore:stone>, <contenttweaker:masonry_brick>*4, <contenttweaker:loose_stone_bricks>*1);
+Stonecutter.addOutputs(<ore:rock>, [<contenttweaker:masonry_brick>*1]);
 
 
 /*********************************************************************************

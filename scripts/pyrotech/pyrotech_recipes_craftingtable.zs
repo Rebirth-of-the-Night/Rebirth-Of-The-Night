@@ -104,7 +104,8 @@ JEI.removeAndHide(<pyrotech:igniter>);
 
 //Simplified recipes
 val stone = <ore:stone>;
-val stoneBrick = <pyrotech:material:16>;
+val stoneBrick = <contenttweaker:masonry_brick>;
+val clayBrick = <minecraft:brick>;
 val refractoryMaterial = <pyrotech:material:4>;
 val refractoryBrick = <pyrotech:material:5>;
 val dry = <pyrotech:tinder>;
@@ -125,9 +126,9 @@ recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 [<pyrotech:material>]);
 recipes.addShapeless("twineToString", <minecraft:string>,[twine,twine,twine]);
 recipes.addShaped("pyro_stone_kiln", <pyrotech:stone_kiln>,
- [[stoneBrick,null,stoneBrick],
-  [<ore:mortarCommon>|<biomesoplenty:mudball>,stoneBrick,<ore:mortarCommon>|<biomesoplenty:mudball>],
-  [stoneBrick,null,stoneBrick]]);
+ [[clayBrick,null,clayBrick],
+  [<ore:mortarCommon>|<biomesoplenty:mudball>,clayBrick,<ore:mortarCommon>|<biomesoplenty:mudball>],
+  [clayBrick,null,clayBrick]]);
 recipes.addShaped("pyro_stone_anvil", <pyrotech:anvil_granite>,
  [[<ore:stoneSlab>],
   [<ore:stone>]]);
@@ -184,7 +185,7 @@ recipes.addShaped("pyro_stash", <pyrotech:stash>,
 recipes.addShaped("pyro_stone_tank", <pyrotech:stone_tank>,
  [[stoneBrick,<minecraft:glass>,stoneBrick],
   [<minecraft:glass>,<ore:slimeball>,<minecraft:glass>],
-  [stoneBrick,<pyrotech:material:16>,stoneBrick]]);
+  [stoneBrick,stoneBrick,stoneBrick]]);
 recipes.addShapeless("pyro_stone_tank_clean", <pyrotech:stone_tank>,
  [<pyrotech:stone_tank>]);
 recipes.addShaped("pyro_refractory_tank", <pyrotech:brick_tank>,

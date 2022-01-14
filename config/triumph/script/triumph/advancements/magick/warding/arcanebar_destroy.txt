@@ -15,6 +15,6 @@ criteria2.setItem(<contenttweaker:magic_bomb>)
 
 setRequirements("any")
 
-alwaysVisible(true)
+alwaysVisible()
 // (horizontal, vertical)
 setPos(10,-435)

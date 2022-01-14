@@ -21,7 +21,7 @@ val bowl = <minecraft:bowl>;
 val charcoalBlock = <pyrotech:charcoal_block>;
 val ironBlock = <ore:blockIron>;
 val ejectionPipe = <dungpipe:sewer_pipe>;
-val masonryBrick = <pyrotech:material:16>;
+val masonryBrick = <contenttweaker:masonry_brick>;
 
 // recipes.remove(<exsartagine:kettle>); // no built-in recipe yet
 recipes.addShaped("exsar_kettle", <exsartagine:kettle>, [

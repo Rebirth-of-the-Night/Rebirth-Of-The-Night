@@ -9,6 +9,6 @@ criteria = addCriteria("Newlife Scroll", "triumph:right_click_item")
 criteria.setItem(<lifescroll:spawnscroll>)
 
 hideLines()
-alwaysVisible(true)
+alwaysVisible()
 // (horizontal, vertical)
 setPos(-330,-365)

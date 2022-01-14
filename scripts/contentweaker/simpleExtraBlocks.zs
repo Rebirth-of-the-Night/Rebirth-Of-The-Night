@@ -91,6 +91,25 @@ halite.setLightOpacity(0);
 halite.setToolLevel(0);
 halite.register();
 
+// Salt pan
+var salt_pan = VanillaFactory.createBlock("salt_pan", <blockmaterial:Grass>);
+salt_pan.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    0.1 / 16.0,
+    16.0 / 16.0
+	);
+salt_pan.setBlockHardness(3.0);
+salt_pan.setBlockResistance(2.0);
+salt_pan.setFullBlock(false);
+salt_pan.setLightOpacity(0);
+salt_pan.setBlockLayer("CUTOUT");
+salt_pan.setBlockSoundType(<soundtype:ground>);
+salt_pan.setToolClass("shovel");
+salt_pan.register();
+
 // Speleothems
 var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
 dolomite_straws.axisAlignedBB = AxisAlignedBB.create(
@@ -405,6 +424,54 @@ unfired_refractory_brick.setBlockHardness(1.0);
 unfired_refractory_brick.setToolClass("shovel");
 unfired_refractory_brick.register();
 
+// ruined masonry brick x1
+var masonry_brick = VanillaFactory.createBlock("masonry_brick", <blockmaterial:Rock>);
+masonry_brick.setCreativeTab(<creativetab:decorations>);
+masonry_brick.axisAlignedBB = AxisAlignedBB.create(
+     1.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	15.0 / 16.0,
+    8.0 / 16.0,
+    15.0 / 16.0
+	);
+masonry_brick.setFullBlock(false);
+masonry_brick.setLightOpacity(0);
+masonry_brick.setBlockLayer("TRANSLUCENT");
+masonry_brick.setBlockHardness(1.0);
+masonry_brick.setToolClass("pickaxe");
+masonry_brick.register();
+
+// ruined masonry brick x1
+var masonry_brick_two = VanillaFactory.createBlock("masonry_brick_two", <blockmaterial:Rock>);
+masonry_brick_two.setDropHandler(function(drops, world, position, state, fortune) {
+    drops.clear();
+    drops.add(<item:minecraft:skull:0> % 70);
+    drops.add(<item:minecraft:skull:0> % 30);
+	drops.add(<item:minecraft:bone> % 10);
+	drops.add(<item:minecraft:bone> % 30);
+	drops.add(<item:minecraft:bone> % 50);
+	drops.add(<item:minecraft:bone> % 50);
+	drops.add(<item:minecraft:bone>);
+	drops.add(<item:minecraft:bone>);
+    return;
+});
+masonry_brick_two.setCreativeTab(<creativetab:decorations>);
+masonry_brick_two.axisAlignedBB = AxisAlignedBB.create(
+     1.0 / 16.0,
+     0.0 / 16.0,
+     1.0 / 16.0,
+	15.0 / 16.0,
+    8.0 / 16.0,
+    15.0 / 16.0
+	);
+masonry_brick_two.setFullBlock(false);
+masonry_brick_two.setLightOpacity(0);
+masonry_brick_two.setBlockLayer("TRANSLUCENT");
+masonry_brick_two.setBlockHardness(1.0);
+masonry_brick_two.setToolClass("pickaxe");
+masonry_brick_two.register();
+
 //Electrum Plate
 var electrum_plate = VanillaFactory.createBlock("electrum_plate", <blockmaterial:Iron>);
 electrum_plate.setCreativeTab(<creativetab:buildingBlocks>);
@@ -501,7 +568,7 @@ witheredblock.register();
 
 var ardicite = VanillaFactory.createBlock("ardicite", <blockmaterial:Glass>);
 ardicite.setCreativeTab(<creativetab:decorations>);
-ardicite.setLightValue(8);
+ardicite.setLightValue(0.8);
 ardicite.setBlockSoundType(<soundtype:stone>);
 ardicite.setBlockHardness(20);
 ardicite.setBlockMaterial(<blockmaterial:fire>);
@@ -1249,6 +1316,15 @@ weathered_dirt.setBlockHardness(4.0);
 weathered_dirt.setBlockResistance(5.0);
 weathered_dirt.setToolLevel(1);
 weathered_dirt.register();
+
+var diatomite = VanillaFactory.createBlock("diatomite", <blockmaterial:Ground>);
+diatomite.setCreativeTab(<creativetab:rotn_blocks>);
+diatomite.setBlockSoundType(<soundtype:ground>);
+diatomite.setToolClass("shovel");
+diatomite.setBlockHardness(5.5);
+diatomite.setBlockResistance(5.0);
+diatomite.setToolLevel(1);
+diatomite.register();
 
 var ofuda = VanillaFactory.createBlock("ofuda", <blockmaterial:Plants>);
 ofuda.axisAlignedBB = AxisAlignedBB.create(

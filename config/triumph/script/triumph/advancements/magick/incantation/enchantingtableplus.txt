@@ -9,6 +9,6 @@ criteria = addCriteria("Enchanting Table Plus", "triumph:right_click_block")
 criteria.setBlock(<minecraft:enchanting_table>)
 criteria.setItem(<eplus:table_upgrade>)
 
-alwaysVisible(true)
+alwaysVisible()
 // (horizontal, vertical)
 setPos(-330,-400)

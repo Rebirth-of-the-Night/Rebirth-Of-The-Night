@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "normal": [
+      {
+        "model": "contenttweaker:clover_3_block"
+      },
+      {
+        "model": "contenttweaker:clover_3_block",
+        "y": 90
+      },
+      {
+        "model": "contenttweaker:clover_3_block",
+        "y": 180
+      },
+      {
+        "model": "contenttweaker:clover_3_block",
+        "y": 270
+      }
+    ],
+    "inventory": [{}]
+  }
+}

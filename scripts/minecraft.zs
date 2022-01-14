@@ -1601,7 +1601,7 @@ val stoneBrickBlockMap = {
 	<contenttweaker:brick_dolomite> : [<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
 	<contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
 	<contenttweaker:brick_chert> : [<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
-	<pyrotech:material:16> : [<pyrotech:stone_bricks>,<contenttweaker:loose_stone_bricks>]
+	<contenttweaker:masonry_brick> : [<pyrotech:stone_bricks>,<contenttweaker:loose_stone_bricks>]
 //	serpentinite : [,],
 //	<contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
 //	<contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
@@ -1728,9 +1728,9 @@ recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
 ]);
 
 recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
-	[null, <pyrotech:material:16>, null],
-    [<pyrotech:material:16>, null, <pyrotech:material:16>],
-	[null, <pyrotech:material:16>, null],
+	[null, <contenttweaker:masonry_brick>, null],
+    [<contenttweaker:masonry_brick>, null, <contenttweaker:masonry_brick>],
+	[null, <contenttweaker:masonry_brick>, null],
 ]);
 //L'egg recipe is in inspirations.zs
 

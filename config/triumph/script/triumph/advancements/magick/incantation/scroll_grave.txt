@@ -9,6 +9,6 @@ criteria = addCriteria("Enchanting Table", "triumph:right_click_item")
 criteria.setItem(<corpsecomplex:scroll>)
 
 hideLines()
-alwaysVisible(true)
+alwaysVisible()
 // (horizontal, vertical)
 setPos(-295,-365)
