@@ -35,7 +35,7 @@ JEI.hideCategory("artisanworkstumps_mage");
 
 recipes.addShaped("wares_table", <artisanworkstumps:workstump_potter>,
  [[null,<minecraft:stone_pressure_plate>,null],
-  [<minecraft:clay>,<ore:workbench>,<minecraft:clay>],
+  [<minecraft:clay_ball>,<ore:workbench>,<minecraft:clay_ball>],
   [null,<ore:logWood>,null]]);
 
 // Refractory block to Crucible
