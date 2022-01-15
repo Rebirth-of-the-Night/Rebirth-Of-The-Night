@@ -28,7 +28,7 @@ tile.contenttweaker.cobblestone_path_black_granite.name=Cobbled Black Granite Pa
 tile.contenttweaker.cobblestone_path_coade.name=Cobbled Coade Path
 tile.contenttweaker.cobblestone_path_dacite.name=Cobbled Dacite Path
 tile.contenttweaker.cobblestone_path_gabbro.name=Cobbled Gabbro Path
-tile.contenttweaker.cobblestone_path_granite.name=Cobbled Granite Path
+tile.contenttweaker.cobblestone_path_red_granite.name=Cobbled Granite Path
 tile.contenttweaker.cobblestone_path_komatiite.name=Cobbled Komatiite Path
 tile.contenttweaker.cobblestone_path_rhyolite.name=Cobbled Rhyolite Path
 tile.contenttweaker.copper_patined.name=Patinated Copper
@@ -90,7 +90,7 @@ tile.contenttweaker.refracotta_yellow.name=Yellow Refracotta
 tile.contenttweaker.sacred_oak_boards.name=Sacred Oak Nailed Boards
 tile.contenttweaker.salt_pan.name=Salt Pan
 tile.contenttweaker.salty_crust.name=Arid Tuff
-item.contenttweaker.scab.name=Scab
+tile.contenttweaker.scab.name=Scab
 tile.contenttweaker.scaffolding.name=Decaying Scaffolding
 tile.contenttweaker.seasoned_stump.name=Seasoned Stump
 tile.contenttweaker.skywood_boards.name=Skyroot Nailed Boards
@@ -278,6 +278,8 @@ tile.contenttweaker.loose_refractory_bricks.name=Loose Refractory Bricks
 tile.contenttweaker.loose_sandstone_bricks.name=Loose Sandstone Bricks
 tile.contenttweaker.loose_soulsandstone_bricks.name=Loose Soul Sandstone Bricks
 tile.contenttweaker.loose_stone_bricks.name=Loose Masonry Bricks
+tile.contenttweaker.masonry_brick.name=Masonry Brick
+tile.contenttweaker.masonry_brick_two.name=Two Masonry Bricks!
 
 tile.contenttweaker.big_limestone_bricks.name=Limestone Bricks
 tile.contenttweaker.big_greywacke_bricks.name=Greywacke Bricks
@@ -327,8 +329,6 @@ item.contenttweaker.brick_soul_sandstone.name=Soul Sandstone Brick
 item.contenttweaker.brick_black_basalt.name=Black Basalt Brick   
 item.contenttweaker.brick_end.name=End Stone Brick   
 item.contenttweaker.brick_white.name=White Brick
-item.contenttweaker.masonry_brick.name=Masonry Brick
-item.contenttweaker.masonry_brick_two.name=Two Masonry Bricks!
 
 #------------------------------------------------------------------------------
 # Dunamis
