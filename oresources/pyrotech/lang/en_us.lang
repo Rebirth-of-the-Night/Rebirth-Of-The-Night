@@ -45,7 +45,7 @@ tile.pyrotech.stone_tank.name=Stone Tank
 tile.pyrotech.brick_tank.name=Refractory Tank
 tile.pyrotech.bag_simple.name=Rock Bag
 tile.pyrotech.bag_durable.name=Durable Rock Bag
-tile.pyrotech.faucet_stone.name=Stone Faucet
+tile.pyrotech.faucet_stone.name=Clay Faucet
 tile.pyrotech.faucet_brick.name=Refractory Faucet
 
 #------------------------------------------------------------------------------
@@ -150,9 +150,9 @@ tile.fluid.wood_tar.name=Wood Tar
 fluid.coal_tar=Coal Tar
 tile.fluid.coal_tar.name=Coal Tar
 
-tile.pyrotech.tar_collector.stone.name=Stone Collector
+tile.pyrotech.tar_collector.stone.name=Clay Collector
 tile.pyrotech.tar_collector.brick.name=Refractory Collector
-tile.pyrotech.tar_drain.stone.name=Stone Drain
+tile.pyrotech.tar_drain.stone.name=Clay Drain
 tile.pyrotech.tar_drain.brick.name=Refractory Drain
 
 #------------------------------------------------------------------------------
@@ -223,7 +223,7 @@ item.pyrotech.refractory.brick.name=Refractory Brick
 item.pyrotech.pottery.fragments.name=Pottery Fragments
 item.pyrotech.pottery.shard.name=Pottery Shard
 item.pyrotech.refractory.door.name=Refractory Door
-item.pyrotech.stone.door.name=Stone Door
+item.pyrotech.stone.door.name=Masonry Door
 item.pyrotech.quicklime.name=Quicklime
 item.pyrotech.slaked.lime.name=Rich Slag
 item.pyrotech.flint.shard.name=Flint Shard

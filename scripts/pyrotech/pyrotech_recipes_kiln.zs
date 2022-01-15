@@ -16,6 +16,10 @@ furnace.remove(<ceramics:unfired_clay:5>, <ceramics:unfired_clay:4>);
 furnace.remove(<pyrotech:material:15>);
 furnace.remove(<betterwithmods:cooking_pot>);
 furnace.remove(<netherex:fiery_netherbrick>);
+furnace.remove(<ceramics:clay_barrel>);
+furnace.remove(<ceramics:clay_barrel:1>);
+furnace.remove(<ceramics:porcelain_barrel>);
+furnace.remove(<ceramics:porcelain_barrel_extension>);
 
 //primary recipes
 //Template: BrickKiln.addRecipe("", ,100);
@@ -24,6 +28,13 @@ StoneKiln.addRecipe("bwmpottery1", <betterwithmods:planter>, <betterwithmods:unf
 StoneKiln.addRecipe("bwmpottery2", <rustic:vase>, <contenttweaker:pot_unfired>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery3", <betterwithmods:urn>, <betterwithmods:unfired_pottery:2>, 20*210, true);
 StoneKiln.addRecipe("bwmpottery4", <betterwithmods:vase>, <betterwithmods:unfired_pottery:3>, 20*210, true);
+StoneKiln.addRecipe("pyropotter1", <pyrotech:faucet_stone>, <contenttweaker:unfired_clay_faucet>, 20*210, true);
+StoneKiln.addRecipe("pyropotter2", <pyrotech:tar_collector>, <contenttweaker:unfired_clay_collector>, 20*210, true);
+StoneKiln.addRecipe("pyropotter3", <pyrotech:tar_drain>, <contenttweaker:unfired_clay_drain>, 20*210, true);
+StoneKiln.addRecipe("ceramicspotter1", <ceramics:clay_barrel>, <ceramics:clay_barrel_unfired>, 20*210, true);
+StoneKiln.addRecipe("ceramicspotter2", <ceramics:clay_barrel:1>, <ceramics:clay_barrel_unfired:1>, 20*210, true);
+StoneKiln.addRecipe("ceramicspotter3", <ceramics:porcelain_barrel>, <ceramics:clay_barrel_unfired:2>, 20*320, true);
+StoneKiln.addRecipe("ceramicspotter4", <ceramics:porcelain_barrel_extension>, <ceramics:clay_barrel_unfired:3>, 20*320, true);
 StoneKiln.addRecipe("bwmnetherbrick", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 20*320, true);
 StoneKiln.addRecipe("bwmfierynetherbrick", <netherex:fiery_netherbrick>, <contenttweaker:unfired_fiery_brick>, 20*320, true);
 StoneKiln.addRecipe("bwmclaybrick", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 20*320, true);
@@ -32,9 +43,9 @@ StoneKiln.addRecipe("bwmmudbrick", <biomesoplenty:mud_brick>, <contenttweaker:un
 StoneKiln.addRecipe("bwmrefractorybrick", <pyrotech:material:5>, <contenttweaker:unfired_refractory_brick>, 20*320, true);
 StoneKiln.addRecipe("bwmporcelainbrick", <ceramics:unfired_clay:5>, <contenttweaker:unfired_porcelain_brick>, 20*320, true);
 StoneKiln.addRecipe("bwmcobble_to_stone", <minecraft:stone:0>, <minecraft:cobblestone:0>, 20*320, true);
-StoneKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*320, true);
-StoneKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*320, true);
-StoneKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*320, true);
+//StoneKiln.addRecipe("bwmcobble_to_stone1", <minecraft:stone:1>, <betterwithmods:cobblestone:0>,20*320, true);
+//StoneKiln.addRecipe("bwmcobble_to_stone2", <minecraft:stone:3>, <betterwithmods:cobblestone:1>, 20*320, true);
+//StoneKiln.addRecipe("bwmcobble_to_stone3", <minecraft:stone:5>, <betterwithmods:cobblestone:2>, 20*320, true);
 StoneKiln.addRecipe("mudbrick_to_clay", <minecraft:clay_ball>, <biomesoplenty:mud_brick>, 20*360, true);
 StoneKiln.addRecipe("charge_to_burnt_goo", <betterslimes:black_slime>, <minecraft:fire_charge>, 20*320, true);
 StoneKiln.addRecipe("charcoal_pile", <contenttweaker:charcoal_pile>, <pyrotech:log_pile>, 20*210, true);

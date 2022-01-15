@@ -74,3 +74,31 @@ mods.betterwithmods.Kiln.builder()
 .buildRecipe(<betterwithmods:unfired_pottery:3>, [<betterwithmods:vase>])
 .setHeat(1)
 .build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<ceramics:clay_barrel_unfired>, [<ceramics:clay_barrel>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<ceramics:clay_barrel_unfired:1>, [<ceramics:clay_barrel:1>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<ceramics:clay_barrel_unfired:2>, [<ceramics:porcelain_barrel>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<ceramics:clay_barrel_unfired:3>, [<ceramics:porcelain_barrel_extension>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<contenttweaker:unfired_clay_faucet>, [<pyrotech:faucet_stone>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<contenttweaker:unfired_clay_collector>, [<pyrotech:tar_collector>])
+.setHeat(1)
+.build();
+mods.betterwithmods.Kiln.builder()
+.buildRecipe(<contenttweaker:unfired_clay_drain>, [<pyrotech:tar_drain>])
+.setHeat(1)
+.build();

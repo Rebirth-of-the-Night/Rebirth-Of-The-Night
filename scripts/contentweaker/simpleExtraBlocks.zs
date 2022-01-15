@@ -345,6 +345,7 @@ unfired_adobe_brick.axisAlignedBB = AxisAlignedBB.create(
     6.0 / 16.0,
     15.0 / 16.0
 	);
+unfired_adobe_brick.setBlockSoundType(<soundtype:ground>);
 unfired_adobe_brick.setFullBlock(false);
 unfired_adobe_brick.setLightOpacity(0);
 unfired_adobe_brick.setBlockLayer("TRANSLUCENT");
@@ -363,6 +364,7 @@ unfired_mud_brick.axisAlignedBB = AxisAlignedBB.create(
     6.0 / 16.0,
     15.0 / 16.0
 	);
+unfired_mud_brick.setBlockSoundType(<soundtype:ground>);
 unfired_mud_brick.setFullBlock(false);
 unfired_mud_brick.setLightOpacity(0);
 unfired_mud_brick.setBlockLayer("TRANSLUCENT");
@@ -381,6 +383,7 @@ unfired_porcelain_brick.axisAlignedBB = AxisAlignedBB.create(
     6.0 / 16.0,
     15.0 / 16.0
 	);
+unfired_porcelain_brick.setBlockSoundType(<soundtype:ground>);
 unfired_porcelain_brick.setFullBlock(false);
 unfired_porcelain_brick.setLightOpacity(0);
 unfired_porcelain_brick.setBlockLayer("TRANSLUCENT");
@@ -399,6 +402,7 @@ unfired_fiery_brick.axisAlignedBB = AxisAlignedBB.create(
     6.0 / 16.0,
     15.0 / 16.0
 	);
+unfired_fiery_brick.setBlockSoundType(<soundtype:ground>);
 unfired_fiery_brick.setFullBlock(false);
 unfired_fiery_brick.setLightOpacity(0);
 unfired_fiery_brick.setBlockLayer("TRANSLUCENT");
@@ -417,6 +421,7 @@ unfired_refractory_brick.axisAlignedBB = AxisAlignedBB.create(
     6.0 / 16.0,
     15.0 / 16.0
 	);
+unfired_refractory_brick.setBlockSoundType(<soundtype:ground>);
 unfired_refractory_brick.setFullBlock(false);
 unfired_refractory_brick.setLightOpacity(0);
 unfired_refractory_brick.setBlockLayer("TRANSLUCENT");
@@ -471,6 +476,39 @@ masonry_brick_two.setBlockLayer("TRANSLUCENT");
 masonry_brick_two.setBlockHardness(1.0);
 masonry_brick_two.setToolClass("pickaxe");
 masonry_brick_two.register();
+
+//Unfired clay faucet
+var unfired_clay_faucet = VanillaFactory.createBlock("unfired_clay_faucet", <blockmaterial:Ground>);
+unfired_clay_faucet.axisAlignedBB = AxisAlignedBB.create(
+     4.0 / 16.0,
+     0.0 / 16.0,
+     5.0 / 16.0,
+	12.0 / 16.0,
+    6.0 / 16.0,
+    11.0 / 16.0
+	);
+unfired_clay_faucet.setBlockSoundType(<soundtype:ground>);
+unfired_clay_faucet.setFullBlock(false);
+unfired_clay_faucet.setLightOpacity(0);
+unfired_clay_faucet.setBlockHardness(1.0);
+unfired_clay_faucet.setToolClass("shovel");
+unfired_clay_faucet.register();
+
+//Unfired clay collector
+var unfired_clay_collector = VanillaFactory.createBlock("unfired_clay_collector", <blockmaterial:Ground>);
+unfired_clay_collector.setBlockSoundType(<soundtype:ground>);
+unfired_clay_collector.setFullBlock(false);
+unfired_clay_collector.setLightOpacity(0);
+unfired_clay_collector.setBlockHardness(1.0);
+unfired_clay_collector.setToolClass("shovel");
+unfired_clay_collector.register();
+
+//Unfired clay drain
+var unfired_clay_drain = VanillaFactory.createBlock("unfired_clay_drain", <blockmaterial:Ground>);
+unfired_clay_drain.setBlockSoundType(<soundtype:ground>);
+unfired_clay_drain.setBlockHardness(1.0);
+unfired_clay_drain.setToolClass("shovel");
+unfired_clay_drain.register();
 
 //Electrum Plate
 var electrum_plate = VanillaFactory.createBlock("electrum_plate", <blockmaterial:Iron>);

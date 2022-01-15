@@ -66,7 +66,7 @@ RecipeBuilder.get("potter")
 // Clay to planter
 RecipeBuilder.get("potter")
  .setShapeless([<minecraft:clay>])
- .addTool(<artisanworktables:artisans_carver_gold>, 5)
+ .addTool(<artisanworktables:artisans_carver_gold>, 4)
  .addOutput(<betterwithmods:unfired_pottery:1>)
  .setExtraOutputOne(<minecraft:clay_ball>, 0.4)
  .create();
@@ -94,16 +94,16 @@ RecipeBuilder.get("potter")
  .addOutput(<betterwithmods:unfired_pottery:2>)
  .setExtraOutputOne(<minecraft:clay_ball>, 0.4)
  .create();
- 
- 
-// Totem Base
+
+
+// Clay to faucet
 RecipeBuilder.get("potter")
-  .setShaped([
-    [null, <minecraft:stick>, null],
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+ .setShaped([
+    [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
     [null, <minecraft:clay_ball>, null]])
-  .addOutput(<totemexpansion:totem_base>)
-  .create();
+ .addTool(<artisanworktables:artisans_carver_gold>, 1)
+ .addOutput(<contenttweaker:unfired_clay_faucet>)
+ .create();
 
 // Drying Basin
 RecipeBuilder.get("potter")
@@ -112,4 +112,33 @@ RecipeBuilder.get("potter")
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]])
   .addTool(<artisanworktables:artisans_carver_gold>, 1)
   .addOutput(<rustic:evaporating_basin>)
+  .create();
+
+// Clay to collector
+RecipeBuilder.get("potter")
+ .setShaped([
+	[<minecraft:clay_ball>, <minecraft:stick>, <minecraft:clay_ball>],
+    [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
+    [null, <minecraft:clay_ball>, null]])
+ .addTool(<artisanworktables:artisans_carver_gold>, 4)
+ .addOutput(<contenttweaker:unfired_clay_collector>)
+ .create();
+
+// Clay to drain
+RecipeBuilder.get("potter")
+ .setShaped([
+    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+	[null, null, <minecraft:clay_ball>],
+    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]])
+ .addTool(<artisanworktables:artisans_carver_gold>, 4)
+ .addOutput(<contenttweaker:unfired_clay_drain>)
+ .create();
+
+// Totem Base
+RecipeBuilder.get("potter")
+  .setShaped([
+    [null, <minecraft:stick>, null],
+    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+    [null, <minecraft:clay_ball>, null]])
+  .addOutput(<totemexpansion:totem_base>)
   .create();

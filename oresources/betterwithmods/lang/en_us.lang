@@ -70,7 +70,7 @@ tile.bwm:cooking_pot.0.name=Crucible
 tile.bwm:cooking_pot.1.name=Cooking Cauldron
 tile.bwm:cooking_pot.2.name=Mysterious Vessel
 
-tile.bwm:kiln.name=Kiln
+tile.bwm:kiln.name=Structural Kiln
 tile.bwm:bellows.0.name=Bellows
 tile.bwm:bellows.1.name=Spring Action Bellows
 tile.bwm:saw.name=Saw
@@ -498,8 +498,8 @@ inv.filtered_hopper.name=Filtered Hopper
 inv.mill.name=Mill Stone
 inv.bwm.dispenser.name=Block Dispenser
 inv.saw.name=Saw
-inv.kiln.name=Kiln
-inv.kiln.stoked.name=Stoked Kiln
+inv.kiln.name=Structural Kiln
+inv.kiln.stoked.name=Stoked Structural Kiln
 inv.pulley.name=Pulley
 inv.turntable.name=Turntable
 
