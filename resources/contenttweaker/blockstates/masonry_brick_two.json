@@ -32,12 +32,6 @@
         "model": "contenttweaker:two_masonry_brick_1",
         "y": 270
       }
-    ],
-	"inventory": [
-		{"model": "contenttweaker:item/one_masonry_brick", "textures": {
-			"layer0": "contenttweaker:items/one_masonry_brick"
-			}
-		}
-	]
+    ]
   }
 }
