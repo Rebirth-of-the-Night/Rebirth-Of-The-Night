@@ -1,0 +1,12 @@
+setIcon(<pyrotech:rock, meta:3, state:{"variant":"rock_andesite"}>)
+setTitle("Galvanization")
+setDescription("Mine zinc bits")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Zinc bits", "triumph:player_harvest_block")
+criteria.setBlock(<pyrotech:rock:3>)
+
+alwaysVisible()
+setPos(-409,-25)
+hideLines()

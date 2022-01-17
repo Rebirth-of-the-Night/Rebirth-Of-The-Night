@@ -1,0 +1,12 @@
+setIcon(<aether_legacy:ambrosium_shard>)
+setTitle("Ambrosia")
+setDescription("Mine ambrosium ore")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Ambrosium", "triumph:player_harvest_block")
+criteria.setBlock(<ore:gemAmbrosium>)
+
+alwaysVisible()
+setPos(-409,-129)
+hideLines()

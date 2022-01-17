@@ -250,6 +250,18 @@ Crucible.addStoked(
     ]
 );
 
+//Brass Production
+Crucible.addUnstoked(
+    [
+        <pyrotech:rock:3>,
+		<pyrotech:rock:3>,
+        <ore:sourceCopper>
+    ],
+    [
+        <ore:ingotBrass>.firstItem*2
+    ]
+);
+
 //Stoked Volatile Magic
 Crucible.addStoked(
     [

@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:material_part:12>)
+setTitle("Pale Gold")
+setDescription("Obtain Electrum")
+
+addParent("triumph:advancements/ores/gold")
+addParent("triumph:advancements/ores/silver")
+addParent("triumph:advancements/ores/ambrosium")
+
+criteria = addCriteria("Electrum", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotElectrum>)
+
+alwaysVisible()
+setPos(-314,-93)

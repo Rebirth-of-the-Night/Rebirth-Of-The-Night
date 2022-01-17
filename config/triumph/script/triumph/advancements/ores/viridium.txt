@@ -11,5 +11,5 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 alwaysVisible()
-setPos(-20,-48)
+setPos(-119,-52)
 hideLines()

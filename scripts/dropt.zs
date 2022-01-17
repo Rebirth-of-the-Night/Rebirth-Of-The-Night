@@ -408,7 +408,7 @@ Dropt.list("clovers")
 
   .add(Dropt.rule()
       .matchBlocks(["biomesoplenty:plant_0:10"])
-      .replaceStrategy("ADD")
+      .replaceStrategy("REPLACE_ALL_IF_SELECTED")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(20000)) // drops nothing if selected
       )
@@ -421,6 +421,21 @@ Dropt.list("clovers")
            .items([<contenttweaker:5leaf_clover>])
       )
   );
+  
+Dropt.list("radiant_extra_quartz")
+
+	.add(Dropt.rule()
+		.matchBlocks(["arcanearchives:raw_quartz_cluster"])
+		.replaceStrategy("ADD")
+		.addDrop(Dropt.drop()
+			.selector(Dropt.weight(1))
+			.items([<pyrotech_compat:rock_metamorphic:3>], Dropt.range(3, 5))
+		)
+		.addDrop(Dropt.drop()
+			.selector(Dropt.weight(1))
+			.items([<minecraft:quartz>], Dropt.range(3, 5))
+		)
+	);
 
 Dropt.list("bee_nest")
 

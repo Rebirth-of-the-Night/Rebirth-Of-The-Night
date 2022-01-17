@@ -4,11 +4,11 @@ setDescription("Obtain crude steel")
 
 
 addParent("triumph:advancements/ores/iron")
+addParent("triumph:advancements/ores/coal")
 
 criteria = addCriteria("Crude Steel", "minecraft:inventory_changed")
 criteria.addItem("dungeontactics:steel_ingot")
 
 setAnnounceToChat(false)
 alwaysVisible()
-setPos(-86,17)
-hideLines()
+setPos(-240,-6)

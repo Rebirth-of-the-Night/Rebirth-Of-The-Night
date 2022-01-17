@@ -1,0 +1,12 @@
+setIcon(<minecraft:coal>)
+setTitle("Being Naughty")
+setDescription("Mine coal ore")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Lapis", "triumph:player_harvest_block")
+criteria.setBlock(<ore:gemCoal>)
+
+alwaysVisible()
+setPos(-456,39)
+hideLines()

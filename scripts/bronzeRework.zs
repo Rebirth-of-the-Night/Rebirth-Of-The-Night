@@ -81,10 +81,12 @@ recipes.remove(<atop:mud_hoe>);
 val bronze = <ore:ingotBronze>;
 val stick =  <ore:stickWood>;
 val handle = <spartanweaponry:material:0>;
-val block = <contenttweaker:block_bronze>; 
+val bronzeBlock = <contenttweaker:block_bronze>; 
 val plate = <contenttweaker:bronze_plate>;
 val nugget = <ore:nuggetBronze>.firstItem;
 val wShield = <spartanshields:shield_basic_wood>;
+val brass = <ore:ingotBrass>;
+val brassBlock = <contenttweaker:block_brass>;
 
 //ARMOR
 recipes.addShaped("bronze helmet", <atop:mud_helmet>,
@@ -129,13 +131,21 @@ recipes.addShapedMirrored("bronze hoe", <atop:mud_hoe>,
   [null,stick]]);
   
   //BLOCKS
-recipes.addShaped("bronze block", block,
+recipes.addShaped("bronze_block", bronzeBlock,
  [[bronze,bronze,bronze],
   [bronze,bronze,bronze],
   [bronze,bronze,bronze]]);
   
-recipes.addShapeless("block to bronze", bronze.firstItem*9,
- [block]);
+recipes.addShaped("brass_block", brassBlock,
+ [[brass,brass,brass],
+  [brass,brass,brass],
+  [brass,brass,brass]]);
+  
+recipes.addShapeless("block_to_bronze", bronze.firstItem*9,
+ [bronzeBlock]);
+ 
+recipes.addShapeless("block_to_brass", brass.firstItem*9,
+ [brassBlock]);
   
 recipes.addShaped("bronze plate", plate*24,
  [[bronze,bronze,bronze],

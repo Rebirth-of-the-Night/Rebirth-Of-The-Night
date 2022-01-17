@@ -9,4 +9,4 @@ criteria.setBlock(<ore:oreSapphire>)
 
 hideLines()
 alwaysVisible()
-setPos(-53,-82)
+setPos(-198,-55)

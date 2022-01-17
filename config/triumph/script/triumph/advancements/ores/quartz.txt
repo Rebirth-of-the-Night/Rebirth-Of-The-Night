@@ -8,5 +8,5 @@ criteria = addCriteria("Quartz", "triumph:player_harvest_block")
 criteria.setBlock("minecraft:quartz_ore")
 
 alwaysVisible()
-setPos(-53,-16)
+setPos(-213,-104)
 hideLines()

@@ -8,5 +8,5 @@ criteria = addCriteria("Copper ore", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreCopper>)
 
 alwaysVisible()
-setPos(-53,50)
+setPos(-456,-59)
 hideLines()

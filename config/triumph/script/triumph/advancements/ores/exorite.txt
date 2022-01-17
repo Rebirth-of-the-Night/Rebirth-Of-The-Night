@@ -1,10 +1,10 @@
-setIcon(<biomesoplenty:gem, ore:gemAmethyst, meta:0, count:1>)
+setIcon(<rotn_blocks:exorite_crystal>)
 setTitle("Taking Back What's Yours")
-setDescription("Mine amethyst ore")
+setDescription("Mine exorite ore")
 
 addParent("triumph:advancements/ores/copper")
 
-criteria = addCriteria("Amethyst", "triumph:player_harvest_block")
+criteria = addCriteria("Exorite", "triumph:player_harvest_block")
 criteria.setBlock(<ore:oreAmethyst>)
 
 setShowToast(false)
@@ -12,4 +12,4 @@ setAnnounceToChat(false)
 
 hideLines()
 alwaysVisible()
-setPos(-20,-82)
+setPos(-30,-52)

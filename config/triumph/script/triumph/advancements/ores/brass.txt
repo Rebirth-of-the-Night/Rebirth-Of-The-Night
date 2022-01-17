@@ -1,0 +1,12 @@
+setIcon(<contenttweaker:material_part:45>)
+setTitle("Top Brass")
+setDescription("Obtain Brass")
+
+addParent("triumph:advancements/ores/zinc")
+addParent("triumph:advancements/ores/copper")
+
+criteria = addCriteria("Brass", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotBrass>)
+
+alwaysVisible()
+setPos(-314,-25)

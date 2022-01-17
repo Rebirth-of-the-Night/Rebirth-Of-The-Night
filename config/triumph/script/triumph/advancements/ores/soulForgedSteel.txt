@@ -9,5 +9,4 @@ criteria.addItem(<betterwithmods:material:14>)
 
 
 alwaysVisible()
-setPos(-53,17)
-hideLines()
+setPos(-74,-79)

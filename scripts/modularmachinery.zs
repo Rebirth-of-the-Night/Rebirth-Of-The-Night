@@ -63,47 +63,49 @@ function addMachineRecipe(machine as string, recipeName as string, input as IIng
     rec.build();
 }
 
+val brassIngot = <ore:ingotBrass>;
+
 recipes.removeByMod("modularmachinery");
 recipes.removeByMod("modulardiversity");
 
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [
     [null, <quark:chute>, null],
-    [<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], 
+    [brassIngot, <rustic:liquid_barrel>, brassIngot], 
     [null, <inspirations:pipe>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [
     [null, <inspirations:pipe>, null],
-    [<ore:ingotBronze>, <rustic:liquid_barrel>, <ore:ingotBronze>], 
+    [brassIngot, <rustic:liquid_barrel>, brassIngot], 
     [null, <quark:chute>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockcontroller>, [
-    [<ore:ingotBronze>, <minecraft:redstone_torch>, <ore:ingotBronze>],
+    [brassIngot, <minecraft:redstone_torch>, brassIngot],
     [<minecraft:lever>, <minecraft:repeater>, <minecraft:lever>], 
-    [<ore:ingotBronze>, <minecraft:redstone>, <ore:ingotBronze>]
+    [brassIngot, <minecraft:redstone>, brassIngot]
 ]);
 recipes.addShaped(<modularmachinery:blockoutputbus:2>, [
-    [<ore:ingotBronze>, <modularmachinery:blockoutputbus:1>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockoutputbus:1>, brassIngot], 
     [null, <ore:chestWood>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:1>, [
-    [<ore:ingotBronze>, <modularmachinery:blockoutputbus>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockoutputbus>, brassIngot], 
     [null, <ore:chestWood>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockoutputbus>, [
     [null, <quark:chute>, null],
-    [<ore:ingotBronze>, <ore:chestWood>, <ore:ingotBronze>], 
+    [brassIngot, <ore:chestWood>, brassIngot], 
     [null, <inspirations:pipe>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockinputbus:2>, [
-    [<ore:ingotBronze>, <modularmachinery:blockinputbus:1>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockinputbus:1>, brassIngot], 
     [null, <ore:chestWood>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockinputbus:1>, [
-    [<ore:ingotBronze>, <modularmachinery:blockinputbus>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockinputbus>, brassIngot], 
     [null, <ore:chestWood>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockinputbus>, [
     [null, <inspirations:pipe>, null],
-    [<ore:ingotBronze>, <ore:chestWood>, <ore:ingotBronze>], 
+    [brassIngot, <ore:chestWood>, brassIngot], 
     [null, <quark:chute>, null]
 ]);
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dryer"}), [
@@ -118,18 +120,18 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 ]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [
     [null, null, null],
-    [<ore:ingotBronze>, <modularmachinery:blockfluidoutputhatch:1>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockfluidoutputhatch:1>, brassIngot], 
     [null, <rustic:liquid_barrel>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:1>, [
-    [<ore:ingotBronze>, <modularmachinery:blockfluidoutputhatch>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockfluidoutputhatch>, brassIngot], 
     [null, <rustic:liquid_barrel>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [
-    [<ore:ingotBronze>, <modularmachinery:blockfluidinputhatch:1>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockfluidinputhatch:1>, brassIngot], 
     [null, <rustic:liquid_barrel>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
-    [<ore:ingotBronze>, <modularmachinery:blockfluidinputhatch>, <ore:ingotBronze>], 
+    [brassIngot, <modularmachinery:blockfluidinputhatch>, brassIngot], 
     [null, <rustic:liquid_barrel>, null]
 ]);
