@@ -8,8 +8,8 @@ import mods.rockytweaks.Anvil;
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_speck>, <betterwithmods:material:3>, <contenttweaker:vis_speck>],
-    [<betterwithmods:material:6>, <ore:anyQuintessence>, <betterwithmods:material:6>],
-    [<contenttweaker:vis_speck>, <betterwithmods:material:6>, <contenttweaker:vis_speck>]])
+    [<ore:hideTanned>, <ore:anyQuintessence>, <ore:hideTanned>],
+    [<contenttweaker:vis_speck>, <ore:hideTanned>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:air_rune>, 1)
   .addOutput(<deadmanssatchel:deadmanssatchel>)
   .setMinimumTier(1)

@@ -204,10 +204,7 @@ recipes.addShaped("pyro_refractory_glass", <pyrotech:refractory_glass>,
 recipes.addShaped("pyro_refractory_igniter", <pyrotech:igniter:1> ,
  [[refractoryBrick,refractoryBrick,refractoryBrick],
   [<pyrotech:material:36>,<betterwithmods:material:27>,<betterwithmods:material:17>],
-  [refractoryBrick,refractoryBrick,refractoryBrick]]); 
-recipes.addShaped("pyro_stone_faucet", <pyrotech:faucet_stone>*2,
- [[stoneBrick,null,stoneBrick],
-  [<ore:twine>,stoneBrick,<ore:twine>]]);
+  [refractoryBrick,refractoryBrick,refractoryBrick]]);
 recipes.addShaped("pyro_refractory_faucet", <pyrotech:faucet_brick>*2,
  [[refractoryBrick,null,refractoryBrick],
   [refractoryMaterial,refractoryBrick,refractoryMaterial]]);
@@ -244,14 +241,6 @@ recipes.addShaped("metal_sawblade", <pyrotech:sawmill_blade_iron>,
  [[<ore:genericMetalNuggets>,<ore:genericMetal>,<ore:genericMetalNuggets>],
   [<ore:genericMetal>,null,<ore:genericMetal>],
   [<ore:genericMetalNuggets>,<ore:genericMetal>,<ore:genericMetalNuggets>]]);
-recipes.addShaped("stonetar_collector", <pyrotech:tar_collector>,
- [[stoneBrick,null,stoneBrick],
-  [stoneBrick,null,stoneBrick],
-  [stoneBrick,stoneBrick,stoneBrick]]);
-recipes.addShaped("stonetar_drain", <pyrotech:tar_drain>,
- [[stoneBrick,stoneBrick,stoneBrick],
-  [null, null, null],
-  [stoneBrick,stoneBrick,stoneBrick]]);
 recipes.addShaped("refractory_collector", <pyrotech:tar_collector:1>,
  [[refractoryBrick,null,refractoryBrick],
   [refractoryBrick,null,refractoryBrick],

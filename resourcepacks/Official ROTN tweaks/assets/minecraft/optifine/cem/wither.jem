@@ -1,5 +1,5 @@
 {
-	"texture": "wither.png",
+	"texture": "textures/entity/wither/wither.png",
 	"textureSize": [128, 128],
 	"models": [
 		{
@@ -182,7 +182,9 @@
 							"mirrorTexture": "u",
 							"submodels": [
 								{
+									"id": "body1_sub_17",
 									"invertAxis": "xy",
+									"translate": [0, 0, 0],
 									"mirrorTexture": "u",
 									"boxes": [
 										{"coordinates": [-2.96758, -3.06994, -3.73893, 3, 7, 3], "textureOffset": [0, 46]}
@@ -203,7 +205,9 @@
 									"mirrorTexture": "u",
 									"submodels": [
 										{
+											"id": "body1_sub_20",
 											"invertAxis": "xy",
+											"translate": [0, 0, 0],
 											"mirrorTexture": "u",
 											"boxes": [
 												{"coordinates": [-3.39354, -3.22949, -0.04386, 2, 7, 2], "textureOffset": [12, 52]}
@@ -339,6 +343,14 @@
 							]
 						}
 					]
+				},
+				{
+					"id": "star",
+					"invertAxis": "xy",
+					"translate": [15, 0, -9],
+					"boxes": [
+						{"coordinates": [-3, 10, -3, 7, 7, 0], "textureOffset": [52, 0]}
+					]
 				}
 			]
 		},
@@ -416,7 +428,9 @@
 							"mirrorTexture": "u",
 							"submodels": [
 								{
+									"id": "body2_sub_7",
 									"invertAxis": "xy",
+									"translate": [0, 0, 0],
 									"mirrorTexture": "u",
 									"boxes": [
 										{"coordinates": [-2.1101, -1.28309, -3.62107, 6, 2, 2], "textureOffset": [50, 39]},
@@ -439,7 +453,9 @@
 									"mirrorTexture": "u",
 									"submodels": [
 										{
+											"id": "body2_sub_10",
 											"invertAxis": "xy",
+											"translate": [0, 0, 0],
 											"mirrorTexture": "u",
 											"boxes": [
 												{"coordinates": [-2.69092, 0.54862, -4.13965, 8, 2, 2], "textureOffset": [12, 37]}
@@ -462,7 +478,9 @@
 									"mirrorTexture": "u",
 									"submodels": [
 										{
+											"id": "body2_sub_13",
 											"invertAxis": "xy",
+											"translate": [0, 0, 0],
 											"mirrorTexture": "u",
 											"boxes": [
 												{"coordinates": [-4.80864, -2.12298, -2.09267, 5, 1, 1], "textureOffset": [59, 55]},
@@ -485,7 +503,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "body2_sub_16",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-2.5, -0.5, -0.5, 5, 1, 1], "textureOffset": [59, 31]}
@@ -600,7 +620,9 @@
 							"rotate": [-18.2644, -47.5423, 23.1079],
 							"submodels": [
 								{
+									"id": "body3_sub_6",
 									"invertAxis": "xy",
+									"translate": [0, 0, 0],
 									"mirrorTexture": "u",
 									"boxes": [
 										{"coordinates": [-2.1101, -0.28309, -3.62107, 6, 1, 1], "textureOffset": [57, 27]},
@@ -621,7 +643,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "body3_sub_9",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-3.24427, 1.71079, -3.99026, 5, 1, 1], "textureOffset": [0, 58]}
@@ -642,7 +666,9 @@
 													"mirrorTexture": "u",
 													"submodels": [
 														{
+															"id": "body3_sub_12",
 															"invertAxis": "xy",
+															"translate": [0, 0, 0],
 															"mirrorTexture": "u",
 															"boxes": [
 																{"coordinates": [-0.86321, -4.32727, -5.22931, 5, 1, 1], "textureOffset": [0, 56]}
@@ -667,7 +693,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "body3_sub_15",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-2.89181, -1.32746, -1.82586, 4, 1, 1], "textureOffset": [44, 60]},
@@ -813,7 +841,9 @@
 									"mirrorTexture": "u",
 									"submodels": [
 										{
+											"id": "head1_sub_12",
 											"invertAxis": "xy",
+											"translate": [0, 0, 0],
 											"mirrorTexture": "u",
 											"boxes": [
 												{"coordinates": [-4, -0.87533, -1.08388, 1, 4, 0], "textureOffset": [59, 63]},
@@ -838,7 +868,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "head1_sub_15",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-4, -0.8354, -2.50013, 1, 1, 0], "textureOffset": [36, 12]}
@@ -861,7 +893,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "head1_sub_18",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-6, 1.29808, -2.001, 1, 1, 0], "textureOffset": [17, 35]}
@@ -884,7 +918,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "head1_sub_21",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-6, 1.29808, -2.001, 1, 1, 0], "textureOffset": [9, 35]}
@@ -909,7 +945,9 @@
 									"mirrorTexture": "u",
 									"submodels": [
 										{
+											"id": "head1_sub_24",
 											"invertAxis": "xy",
+											"translate": [0, 0, 0],
 											"mirrorTexture": "u",
 											"boxes": [
 												{"coordinates": [-2.5, -0.87533, -1.08388, 1, 4, 0], "textureOffset": [12, 35]},
@@ -934,7 +972,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "head1_sub_27",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-2.5, -0.8359, -2.501, 1, 1, 0], "textureOffset": [20, 31]}
@@ -957,7 +997,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "head1_sub_30",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-4.5, 1.29808, -2.001, 1, 1, 0], "textureOffset": [18, 31]}
@@ -980,7 +1022,9 @@
 											"mirrorTexture": "u",
 											"submodels": [
 												{
+													"id": "head1_sub_33",
 													"invertAxis": "xy",
+													"translate": [0, 0, 0],
 													"mirrorTexture": "u",
 													"boxes": [
 														{"coordinates": [-4.5, 1.29808, -2.001, 1, 1, 0], "textureOffset": [22, 24]}
@@ -1112,15 +1156,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"part": "star",
-			"id": "star",
-			"invertAxis": "xy",
-			"translate": [15, 0, 9],
-			"boxes": [
-				{"coordinates": [12, 10, -12, 7, 7, 0], "textureOffset": [52, 0]}
 			]
 		}
 	]

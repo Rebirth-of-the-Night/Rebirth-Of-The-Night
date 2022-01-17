@@ -256,7 +256,7 @@ JEI.removeAndHide(<harvestcraft:veggiebaititem>);
 JEI.removeAndHide(<harvestcraft:grinder>);
 
 recipes.remove(<harvestcraft:hardenedleatheritem>);
-recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<ore:wax>,<betterwithmods:material:6>]);
+recipes.addShapeless("hardenedleatheritem", <harvestcraft:hardenedleatheritem>, [<ore:wax>,<ore:hideTanned>]);
 
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_x8_cropcandle");
 recipes.removeByRecipeName("harvestcraft:beeswaxitem_cropcandle");
