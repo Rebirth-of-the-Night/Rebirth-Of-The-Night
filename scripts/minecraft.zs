@@ -310,7 +310,7 @@ recipes.addShaped("furnace",<minecraft:furnace>,[
 recipes.remove(<minecraft:jukebox>);
 recipes.addShaped("jukebox",<minecraft:jukebox>,[
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
-    [<ore:plankWood>,<ore:ingotableGem>,<ore:plankWood>],
+    [<ore:plankWood>,<ore:ingotBrass>,<ore:plankWood>],
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
 ]);
 

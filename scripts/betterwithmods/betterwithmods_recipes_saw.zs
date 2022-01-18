@@ -14,7 +14,7 @@ import mods.betterwithmods.MiniBlocks;
 Chopping.removeAllRecipes();
 StoneSawmill.removeAllRecipes();
 
-var removeArray = [<minecraft:pumpkin>, <minecraft:vine>, <minecraft:yellow_flower:0>, <minecraft:brown_mushroom>, <minecraft:red_mushroom>, <betterwithmods:rope>, <minecraft:red_flower:0>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>, <minecraft:red_flower:8>,<minecraft:noteblock>] as IItemStack[];
+var removeArray = [<minecraft:pumpkin>, <minecraft:vine>, <minecraft:yellow_flower:0>, <minecraft:brown_mushroom>, <minecraft:red_mushroom>, <betterwithmods:rope>, <minecraft:red_flower:0>, <minecraft:red_flower:1>, <minecraft:red_flower:2>, <minecraft:red_flower:3>, <minecraft:red_flower:4>, <minecraft:red_flower:5>, <minecraft:red_flower:6>, <minecraft:red_flower:7>, <minecraft:red_flower:8>, <minecraft:noteblock>, <minecraft:jukebox>] as IItemStack[];
 for i in removeArray{
     Saw.remove(i);
 }
@@ -58,6 +58,7 @@ Saw.add(<twilightforest:magic_log:1>,[<twilightforest:trans_planks>*5,<hitwithax
 Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
 Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*4,<minecraft:redstone>,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:jukebox>,[<cyclicmagic:doorbell_simple>*4,<ore:ingotBrass>.firstItem,<pyrotech:rock:7>*2]);
 
 for corner in MiniBlocks.getMiniBlock("corner", <ore:plankWood>).items {
     Saw.remove(corner);
