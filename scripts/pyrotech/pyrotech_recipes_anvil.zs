@@ -68,10 +68,12 @@ GraniteAnvil.addRecipe("copper_raw_to_dust", <ore:dustCopper>.firstItem, <ore:ra
 GraniteAnvil.addRecipe("tin_to_dust", <ore:dustTin>.firstItem, <ore:ingotTin>, 8, "hammer", true);
 GraniteAnvil.addRecipe("tin_ore_to_dust", <ore:dustTin>.firstItem, <ore:oreTin>, 4, "hammer", true);
 GraniteAnvil.addRecipe("tin_raw_to_dust", <ore:dustTin>.firstItem, <ore:rawOreTin>, 4, "hammer", true);
+GraniteAnvil.addRecipe("zinc_bits_to_dust", <ore:dustZinc>.firstItem, <pyrotech:rock:3>, 4, "hammer", true);
 GraniteAnvil.addRecipe("iron_to_dust", <ore:dustIron>.firstItem, <ore:ingotIron>, 12, "hammer", true);
 GraniteAnvil.addRecipe("iron_ore_to_dust", <ore:dustIron>.firstItem, <ore:oreIron>, 8, "hammer", true);
 GraniteAnvil.addRecipe("iron_raw_to_dust", <ore:dustIron>.firstItem, <ore:rawOreIron>, 8, "hammer", true);
 GraniteAnvil.addRecipe("bronze_to_dust", <ore:dustBronze>.firstItem, <ore:ingotBronze>, 16, "hammer", true);
+GraniteAnvil.addRecipe("brass_to_dust", <ore:dustBrass>.firstItem, <ore:ingotBrass>, 16, "hammer", true);
 GraniteAnvil.addRecipe("gold_to_dust", <ore:dustGold>.firstItem, <ore:ingotGold>, 8, "hammer", true);
 GraniteAnvil.addRecipe("gold_ore_to_dust", <ore:dustGold>.firstItem, <ore:oreGold>, 4, "hammer", true);
 GraniteAnvil.addRecipe("gold_raw_to_dust", <ore:dustGold>.firstItem, <contenttweaker:raw_gold>, 4, "hammer", true);

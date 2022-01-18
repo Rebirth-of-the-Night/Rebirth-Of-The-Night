@@ -70,8 +70,10 @@ furnace.setFuel(<contenttweaker:charmpeat>, 3200);
 <ore:sourceGravitite>.addItems([<contenttweaker:raw_gravitite>,<contenttweaker:material_part:40>]);
 <ore:sourceGravitite>.addAll(<ore:oreGravitite>);
 <ore:sourceZinc>.addAll(<ore:ingotZinc>);
+<ore:sourceZinc>.add(<pyrotech:rock:3>);
 <ore:sourceEndorium>.add(<endreborn:item_ingot_endorium>);
 <ore:sourceBronze>.addAll(<ore:ingotBronze>);
+<ore:sourceBrass>.addAll(<ore:ingotBrass>);
 
 val rock_dictionary = <ore:rock>;
 rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:8>, <pyrotech_compat:rock_sedimentary_sand:9>, <pyrotech_compat:rock_sedimentary_sand:10>, <pyrotech_compat:rock_sedimentary_sand:11>, <pyrotech_compat:rock_sedimentary_sand:12>, <pyrotech_compat:rock_sedimentary_sand:13>, <pyrotech_compat:rock_sedimentary_sand:14>, <pyrotech_compat:rock_sedimentary_sand:15>, <pyrotech_compat:rock_metamorphic_sand:15>, <pyrotech_compat:rock_metamorphic_sand:14>, <pyrotech_compat:rock_metamorphic_sand:13>, <pyrotech_compat:rock_metamorphic_sand:12>, <pyrotech_compat:rock_metamorphic_sand:11>, <pyrotech_compat:rock_metamorphic_sand:10>, <pyrotech_compat:rock_metamorphic_sand:9>, <pyrotech_compat:rock_metamorphic_sand:8>, <pyrotech_compat:rock_igneous_sand:15>, <pyrotech_compat:rock_igneous_sand:14>, <pyrotech_compat:rock_igneous_sand:13>, <pyrotech_compat:rock_igneous_sand:12>, <pyrotech_compat:rock_igneous_sand:11>, <pyrotech_compat:rock_igneous_sand:10>, <pyrotech_compat:rock_igneous_sand:8>,<pyrotech_compat:rock_netherrack>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>]);
@@ -181,6 +183,7 @@ val oreHammering as IItemStack[IIngredient] = {
   <ore:sourceZinc>				:	<ore:dustZinc>.firstItem,
   <ore:sourceTin>				:	<ore:dustTin>.firstItem,
   <ore:sourceBronze>			:	<ore:dustBronze>.firstItem,
+  <ore:sourceBrass>				:	<ore:dustBrass>.firstItem,
   <ore:sourceIron>				:	<ore:dustIron>.firstItem,
   <ore:sourceGold>				:	<ore:dustGold>.firstItem,
   <ore:sourceSilver>			:	<ore:dustSilver>.firstItem,

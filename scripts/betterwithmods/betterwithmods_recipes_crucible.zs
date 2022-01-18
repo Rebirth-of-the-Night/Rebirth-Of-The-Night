@@ -42,7 +42,7 @@ Crucible.addStoked(
 // sfs rail > 6iron 2sfs
 // urn:8 steel dustCarbon soul flux > sfs urn:0
 
-//Normal Steel
+// Normal Steel
 Crucible.addUnstoked(
     [
         <ore:ingotIron>|<ore:dustIron>,
@@ -53,10 +53,10 @@ Crucible.addUnstoked(
         <dungeontactics:steel_ingot>
     ]
 );
-//Stoked Normal Steel
+// Stoked Normal Steel
 Crucible.addStoked(
     [
-        <ore:ingotIron>|<ore:dustIron>,
+        <ore:rawOreIron>|<ore:ingotIron>|<ore:dustIron>,
         <ore:dustCoal>|<ore:dustCharcoal>,
         <ore:dustCoal>|<ore:dustCharcoal>
     ],
@@ -65,8 +65,8 @@ Crucible.addStoked(
     ]
 );
 
-//Overworld gems are alloyed with steel, while Exorite is alloyed with Endorium
-//Stoked Gem Ingots
+// Overworld gems are alloyed with steel, while Exorite is alloyed with Endorium
+// Stoked Gem Ingots
 Crucible.addStoked(
     [
         <dungeontactics:steel_ingot>,
@@ -114,7 +114,7 @@ Crucible.addStoked(
 );
 
 
-//Soul Forged Steel
+// Soul Forged Steel
 Crucible.addStoked(
     [
         <ore:ingotSteel>,
@@ -127,19 +127,6 @@ Crucible.addStoked(
         <betterwithmods:urn>
     ]
 );
-// Charbiotite sfs
-// Crucible.addStoked(
-//     [
-//         <ore:ingotSteel>,
-//         <betterwithmods:material:38>,
-//         <undergroundbiomes:lignite_coal>,
-//         <ore:blockSoulUrn>
-//     ],
-//     [
-//         <betterwithmods:material:14>,
-//         <betterwithmods:urn>
-//     ]
-// );
 
 // Anvil > Steel
 Crucible.addStoked(
@@ -152,7 +139,7 @@ Crucible.addStoked(
 );
 
 
-//Soul Flux
+// Soul Flux
 Crucible.addStoked(
     [
         <betterwithmods:material:39>,
@@ -163,7 +150,7 @@ Crucible.addStoked(
     ]
 );
 
-//Bronze Production
+// Bronze Production
 Crucible.addUnstoked(
     [
         <ore:dustTin>,
@@ -175,7 +162,7 @@ Crucible.addUnstoked(
         <ore:ingotBronze>.firstItem*4
     ]
 );
-//Stoked Bronze Production
+// Stoked Bronze Production
 Crucible.addStoked(
     [
         <ore:blockTin>,
@@ -189,17 +176,17 @@ Crucible.addStoked(
 );
 Crucible.addStoked(
     [
-        <ore:ingotTin>|<ore:dustTin>,
-        <ore:ingotCopper>|<ore:dustCopper>,
-        <ore:ingotCopper>|<ore:dustCopper>,
-        <ore:ingotCopper>|<ore:dustCopper>
+        <ore:rawOreTin>|<ore:ingotTin>|<ore:dustTin>,
+        <ore:rawOreCopper>|<ore:ingotCopper>|<ore:dustCopper>,
+        <ore:rawOreCopper>|<ore:ingotCopper>|<ore:dustCopper>,
+        <ore:rawOreCopper>|<ore:ingotCopper>|<ore:dustCopper>
     ],
     [
         <ore:ingotBronze>.firstItem*4
     ]
 );
 
-//Electrum Production
+// Electrum Production
 Crucible.addUnstoked(
     [
         <ore:dustGold>,
@@ -216,7 +203,7 @@ Crucible.addUnstoked(
         <ore:ingotElectrum>.firstItem*4
     ]
 );
-//Stoked Electrum Production
+// Stoked Electrum Production
 Crucible.addStoked(
     [
         <ore:blockGold>,
@@ -235,13 +222,13 @@ Crucible.addStoked(
 );
 Crucible.addStoked(
     [
-        <ore:ingotGold>|<ore:dustGold>,
-        <ore:ingotGold>|<ore:dustGold>,
-		<ore:ingotGold>|<ore:dustGold>,
-		<ore:ingotGold>|<ore:dustGold>,
-		<ore:ingotSilver>|<ore:dustSilver>,
-		<ore:ingotSilver>|<ore:dustSilver>,
-		<ore:ingotSilver>|<ore:dustSilver>,
+        <ore:rawOreGold>|<ore:ingotGold>|<ore:dustGold>,
+        <ore:rawOreGold>|<ore:ingotGold>|<ore:dustGold>,
+		<ore:rawOreGold>|<ore:ingotGold>|<ore:dustGold>,
+		<ore:rawOreGold>|<ore:ingotGold>|<ore:dustGold>,
+		<ore:rawOreSilver>|<ore:ingotSilver>|<ore:dustSilver>,
+		<ore:rawOreSilver>|<ore:ingotSilver>|<ore:dustSilver>,
+		<ore:rawOreSilver>|<ore:ingotSilver>|<ore:dustSilver>,
         <ore:gemAmbrosium>|<ore:dustAmbrosium>,
 		<ore:gemAmbrosium>|<ore:dustAmbrosium>
     ],
@@ -250,19 +237,30 @@ Crucible.addStoked(
     ]
 );
 
-//Brass Production
+// Brass Production
 Crucible.addUnstoked(
     [
-        <pyrotech:rock:3>,
-		<pyrotech:rock:3>,
-        <ore:sourceCopper>
+        <pyrotech:rock:3>|<ore:dustZinc>,
+		<pyrotech:rock:3>|<ore:dustZinc>,
+        <ore:dustCopper>
+    ],
+    [
+        <ore:ingotBrass>.firstItem*2
+    ]
+);
+// Stoked Brass Production
+Crucible.addStoked(
+    [
+        <pyrotech:rock:3>|<ore:dustZinc>,
+		<pyrotech:rock:3>|<ore:dustZinc>,
+        <ore:rawOreCopper>|<ore:ingotCopper>|<ore:dustCopper>
     ],
     [
         <ore:ingotBrass>.firstItem*2
     ]
 );
 
-//Stoked Volatile Magic
+// Stoked Volatile Magic
 Crucible.addStoked(
     [
         <contenttweaker:volatile_powder>,

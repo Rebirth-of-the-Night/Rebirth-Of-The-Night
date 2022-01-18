@@ -83,49 +83,50 @@ val stick =  <ore:stickWood>;
 val handle = <spartanweaponry:material:0>;
 val bronzeBlock = <contenttweaker:block_bronze>; 
 val plate = <contenttweaker:bronze_plate>;
-val nugget = <ore:nuggetBronze>.firstItem;
+val bronzeNugget = <ore:nuggetBronze>.firstItem;
+val brassNugget = <ore:nuggetBrass>.firstItem;
 val wShield = <spartanshields:shield_basic_wood>;
 val brass = <ore:ingotBrass>;
 val brassBlock = <contenttweaker:block_brass>;
 
 //ARMOR
-recipes.addShaped("bronze helmet", <atop:mud_helmet>,
+recipes.addShaped("bronze_helmet", <atop:mud_helmet>,
 [[bronze,bronze,bronze],
   [bronze,null,bronze]]);
-recipes.addShaped("bronze chestplate", <atop:mud_chestplate>,
+recipes.addShaped("bronze_chestplate", <atop:mud_chestplate>,
  [[bronze,null,bronze],
   [bronze,bronze,bronze],
   [bronze,bronze,bronze]]);
-recipes.addShaped("bronze leggings", <atop:mud_leggings>,
+recipes.addShaped("bronze_leggings", <atop:mud_leggings>,
  [[bronze,bronze,bronze],
   [bronze,null,bronze],
   [bronze,null,bronze]]);
-recipes.addShaped("bronze boots", <atop:mud_boots>,
+recipes.addShaped("bronze_boots", <atop:mud_boots>,
  [[bronze,null,bronze],
   [bronze,null,bronze]]);
-recipes.addShaped("bronze shield", <spartanshields:shield_basic_bronze>, 
+recipes.addShaped("bronze_shield", <spartanshields:shield_basic_bronze>, 
  [[null,bronze,null],
   [bronze,wShield,bronze],
   [null,bronze,null]]);
   
 //TOOLS
-recipes.addShaped("bronze sword", <atop:mud_sword>,
+recipes.addShaped("bronze_sword", <atop:mud_sword>,
  [[bronze],
   [bronze],
   [handle]]);
-recipes.addShaped("bronze shovel", <atop:mud_shovel>,
+recipes.addShaped("bronze_shovel", <atop:mud_shovel>,
  [[bronze],
   [stick],
   [stick]]);
-recipes.addShaped("bronze pickaxe", <atop:mud_pickaxe>,
+recipes.addShaped("bronze_pickaxe", <atop:mud_pickaxe>,
  [[bronze,bronze,bronze],
   [null,stick,null],
   [null,stick,null]]);
-recipes.addShapedMirrored("bronze axe", <atop:mud_axe>,
+recipes.addShapedMirrored("bronze_axe", <atop:mud_axe>,
  [[bronze,bronze],
   [bronze,stick],
   [null,stick]]);
-recipes.addShapedMirrored("bronze hoe", <atop:mud_hoe>,
+recipes.addShapedMirrored("bronze_hoe", <atop:mud_hoe>,
  [[bronze,bronze],
   [null,stick],
   [null,stick]]);
@@ -147,35 +148,36 @@ recipes.addShapeless("block_to_bronze", bronze.firstItem*9,
 recipes.addShapeless("block_to_brass", brass.firstItem*9,
  [brassBlock]);
   
-recipes.addShaped("bronze plate", plate*24,
+recipes.addShaped("bronze_plate", plate*24,
  [[bronze,bronze,bronze],
   [bronze,<minetraps:nails:*>,bronze],
   [bronze,bronze,bronze]]);
   
-  //PARTS
-recipes.addShaped("bronze to ingot", bronze.firstItem,
- [[nugget,nugget,nugget],
-  [nugget,nugget,nugget],
-  [nugget,nugget,nugget]]);
+// parts
+recipes.addShaped("bronze_to_ingot", bronze.firstItem,
+ [[bronzeNugget,bronzeNugget,bronzeNugget],
+  [bronzeNugget,bronzeNugget,bronzeNugget],
+  [bronzeNugget,bronzeNugget,bronzeNugget]]);
   
-recipes.addShapeless("bronze to nugget", nugget*9,
+recipes.addShapeless("bronze_to_nugget", bronzeNugget*9,
  [bronze]);
  
-// BRONZE RECIPES
+recipes.addShaped("brass_to_ingot", brass.firstItem,
+ [[brassNugget,brassNugget,brassNugget],
+  [brassNugget,brassNugget,brassNugget],
+  [brassNugget,brassNugget,brassNugget]]);
+  
+recipes.addShapeless("brass_to_nugget", brassNugget*9,
+ [brass]);
+ 
+// bronze recipes
 Mortar.addRecipe(["diamond"], <ore:dustBronze>.firstItem * 4, 8, [<ore:ingotTin> * 1, <ore:ingotCopper> * 3]);
 recipes.addShapeless("bronze_dust", <ore:dustBronze>.firstItem * 4, [<ore:dustTin>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]);
-  // Additional recipes on pyrotech scripts 
 
-		
-//info
-JEI.addDescription(<ore:ingotBronze>,"Definitely better than iron, not quite as good as steel.");
-JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
-JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
-JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
-JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
-JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
-JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also known as hoplon. Provides excellent cover without sacrificing offensive capacity.");
+Mortar.addRecipe(["diamond"], <ore:dustBrass>.firstItem * 2, 6, [<pyrotech:rock:3> * 2, <ore:ingotCopper> * 1]);
+recipes.addShapeless("brass_dust", <ore:dustBrass>.firstItem * 2, [<ore:dustZinc>, <ore:dustZinc>, <ore:dustCopper>]);
+// Additional recipes on pyrotech scripts 
 
-//repair recipes
+//  repair recipes
 var bronzeItems = <atop:mud_helmet> | <atop:mud_chestplate> | <atop:mud_leggings> | <atop:mud_boots> | <atop:mud_sword> | <atop:mud_shovel> | <atop:mud_pickaxe> | <atop:mud_axe> | <atop:mud_hoe>;
 addRepairEntry(bronzeItems, <ore:ingotBronze>.firstItem);

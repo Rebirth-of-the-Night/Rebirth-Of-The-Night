@@ -53,6 +53,13 @@ val pole = <spartanweaponry:material:1>;
 JEI.addDescription(handle,"Provides a good grip for more advanced weapons.");
 JEI.addDescription(pole,"A long stick that provides good grip.");
 
+JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
+JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
+JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
+JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
+JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
+JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also known as hoplon. Provides excellent cover without sacrificing offensive capacity.");
+
 JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
@@ -111,7 +118,8 @@ JEI.addDescription(<ore:ingotSilver>,"A material known to be effective when used
 JEI.addDescription(<ore:ingotIron>,"Although bronze and steel are tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
 JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
 JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
-JEI.addDescription(<ore:ingotBrass>,"Used for machines that have lots of moving parts and require little frictiom. It also has several accoustic properties.");
+JEI.addDescription(<ore:ingotBronze>,"Definitely better than iron, not quite as good as steel.");
+JEI.addDescription(<ore:ingotBrass>,"Used for machines that have lots of moving parts and require little friction. It also has several accoustic properties.");
 JEI.addDescription(<rotn_blocks:exorite_crystal>,"A beautiful gem common to the lands of the Ender folk, sometimes confused with amethyst.");
 JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since all known deposits in the Nether have been mined up. Some villagers in the coldest of places collect this gem through unknown methods.");
 JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
