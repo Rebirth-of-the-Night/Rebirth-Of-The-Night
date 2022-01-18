@@ -10,15 +10,15 @@
     },
     {
       "type": "text",
-      "text": "A structure or wall made of cobblestone from all sides should be enough to get me through the first few nights. I have noticed creatures that hold pickaxes can break hard materials like stone. Those seem to be pretty rare, so I should be mostly safe. If I want to be extra safe, I could smelt the cobblestone and then craft it into $(item)stone bricks$() for increased protection."
-    },
-    {
-      "type": "text",
-      "text": "By making bricks out of the stone I mined from my recent spelunking trips, I can create an exceptionally durable building composition that can withstand heavy punishment from pickaxes and explosions."
+      "text": "A structure or wall made of cobblestone from all sides should be enough to get me through the first few nights. I have noticed creatures that hold pickaxes can break hard materials like stone. Those seem to be pretty rare, so I should be mostly safe. If I want to be extra safe, I could try building with $(item)dry stone$() for increased protection."
     },
     {
       "type": "text",
       "text": "After I have a foundation and walls for my base, I can start by placing some traps around it like $(item)caltrops$()."
+    },
+    {
+      "type": "text",
+      "text": "Once I get my hands on a stonecutter, I will be able to make bricks out of the stone I mined from my recent spelunking trips. Bricks make for a exceptionally durable building composition that can withstand heavy punishment from pickaxes and explosions."
     },
     {
       "type": "relations",
