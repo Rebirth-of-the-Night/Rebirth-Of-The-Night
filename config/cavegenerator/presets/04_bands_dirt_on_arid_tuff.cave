@@ -1,0 +1,35 @@
+{
+  biomes: {
+    names: [ "biometweaker:atacamian_desert" ]
+    IDs: []
+    types: []
+  }
+  enabled: true
+  replaceableBlocks: [ "contenttweaker:salty_crust" ]
+  replaceDecorators: true
+  caverns: {
+    ceiling: {
+      frequency: 0.02
+      range: [ 2, 2 ]
+    }
+    floor: {
+      dummy: true
+    }
+    height: [ 64, 128 ]
+    generators: [
+      {
+        seed: 99
+        threshold: [ -0.2, 0.2 ]
+        frequency: 0.015
+        warp: Simplex2
+        warpAmplitude: 2
+        warpFrequency: 0.07
+        fractal: FBM
+        stretch: 2
+      }
+    ]
+  }
+  caveBlocks: [
+    { states: "biomesoplenty:dirt:10", height: [ 0, 240 ] }
+  ]
+}
