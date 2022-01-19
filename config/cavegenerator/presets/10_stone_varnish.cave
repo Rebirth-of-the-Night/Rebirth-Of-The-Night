@@ -1,11 +1,98 @@
 {
+  imports: sand_cave_values.cave::NATURAL_STONE
+  biomes: {
+    names: [
+      minecraft:desert
+      minecraft:desert_hills
+    ]
+  }
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: true
+  ravines: [
+    {
+      chance: 0.01
+      height: [ 8, 128 ]
+      distance: 0
+      resolution: 4
+      checkWater: true
+      dYaw: {
+        startVal: 0
+        factor: 0.5
+        randFactor: 4
+        exponent: 1
+      }
+      dPitch: {
+        startVal: 0
+        factor: 0.8
+        randFactor: 2
+        exponent: 1
+      }
+      scale: {
+        startVal: 0
+        startValRandFactor: 2
+        factor: 1
+        randFactor: 0
+        exponent: 1
+      }
+      stretch: {
+        startVal: 3
+        factor: 1
+        randFactor: 0
+        exponent: 1
+      }
+      yaw: {
+        startVal: 0
+        startValRandFactor: 1
+      }
+      pitch: {
+        startVal: 0
+        startValRandFactor: 0.25
+      }
+      # The height at which these ravines can start. If this
+      # value is not set, it will default to the value of height.
+      originHeight: [ 53, 70 ]
+      # A ratio of how much to flatten the top and bottom of this feature.
+      cutoffStrength: 5
+      # Similar to noiseYReduction, but not as random.
+      noiseYFactor: 0.7
+      # ABSENT BY DEFAULT
+      walls: {
+        frequency: 0.1
+        range: [ 0, 4 ]
+      }
+    }
+  ]
+  rooms: {
+    scale: 7
+    stretch: 0.8
+  }
+  tunnels: {
+    # Most tunnels will spawn alone.
+    systemChance: 0.00050
+    noiseYReduction: false
+    resizeBranches: false
+    scale: {
+      randFactor: 0
+      startVal: 4.5
+      startValRandFactor: 0
+    }
+    dPitch: {
+      factor: 0.6
+    }
+    # Spawn rate roughly in half.
+    count: 7
+    stretch: {
+      randFactor: 0
+      startVal: 0.6
+    }
+  }
   wallDecorators: [
     # Spawns desert varnish on sandstone surfaces.
     {
       states: pyrotech:limestone
-      matchers: sandstone
+      matchers: $NATURAL_STONE
       directions: all
-      height: [ 0, 124 ]
+      height: [ 48, 124 ]
       integrity: 0.99
     }
   ]
