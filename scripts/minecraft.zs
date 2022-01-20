@@ -55,7 +55,8 @@ furnace.remove(<minecraft:brick>);
 furnace.setFuel(<ore:barkWood>, 100);
 furnace.setFuel(<chutes:chute_wood>, 25);
 furnace.setFuel(<chutes:chute_entry_wood>, 18.75);
-furnace.setFuel(<contenttweaker:charmpeat>, 3200);
+furnace.setFuel(<contenttweaker:peat>, 1600);
+furnace.setFuel(<contenttweaker:charmpeat>, 4800);
 
 <ore:sourceCopper>.addItems([<contenttweaker:raw_copper>,<simpleores:copper_ingot>]);
 <ore:sourceCopper>.addAll(<ore:oreCopper>);

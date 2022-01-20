@@ -71,7 +71,26 @@ charlog.setBlockSoundType(<soundtype:Ground>);
 charlog.setToolClass("axe");
 charlog.register();
 
-//  Mossthane
+// Peat
+var peat = VanillaFactory.createBlock("peat", <blockmaterial:Ground>);
+peat.setCreativeTab(<creativetab:rotn_blocks>);
+peat.setBlockSoundType(<soundtype:Ground>);
+peat.setToolClass("shovel");
+peat.setToolLevel(0);
+peat.setBlockHardness(2.7);
+peat.register();
+
+// Mossy Peat
+var mossy_peat = VanillaFactory.createBlock("mossy_peat", <blockmaterial:Ground>);
+mossy_peat.setCreativeTab(<creativetab:rotn_blocks>);
+mossy_peat.setBlockSoundType(<soundtype:Ground>);
+mossy_peat.setToolClass("shovel");
+mossy_peat.setToolLevel(0);
+mossy_peat.setBlockHardness(3.0);
+mossy_peat.setSlipperiness(0.7f);
+mossy_peat.register();
+
+// Mossthane
 var charmpeat = VanillaFactory.createBlock("charmpeat", <blockmaterial:Ground>);
 charmpeat.setCreativeTab(<creativetab:rotn_blocks>);
 charmpeat.setBlockSoundType(<soundtype:Ground>);

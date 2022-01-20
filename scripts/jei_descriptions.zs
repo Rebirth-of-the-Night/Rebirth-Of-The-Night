@@ -185,6 +185,9 @@ JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquis
 
 JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 JEI.removeAndHide(<base:wrench>);
+JEI.addDescription(<contenttweaker:peat>,"A mass of partially decomposed vegetal matter found in swamps, bogs and the like. It's a good fuel, but it can be improved further.");
+JEI.addDescription(<contenttweaker:mossy_peat>,"Peat overtaken by cave moss. This sponge-like mass can and will absorb coalbed methane like no other substance.");
+JEI.addDescription(<contenttweaker:charmpeat>,"The result of mossy peat absorbing coalbed methane. The gas contained within can burn hot enough to smelt any metal.");
 
 
 /* Multiblock Kilns, Refractory Structures, Pit Burning, Camping and Cooking */

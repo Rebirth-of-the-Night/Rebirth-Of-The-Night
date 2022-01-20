@@ -165,7 +165,8 @@ recipes.addShaped("potash_mulch1", <pyrotech:mulch>*4,
 recipes.addShaped("potash_mulch2", <pyrotech:mulch>*12,
  [[<ore:dustPotash>,<ore:dustPotash>,<ore:dustPotash>],
   [<ore:dustPotash>,<ore:mulchNitrogen>,<ore:dustPotash>],
-  [<ore:dustPotash>,<ore:dustPotash>,<ore:dustPotash>]]);  
+  [<ore:dustPotash>,<ore:dustPotash>,<ore:dustPotash>]]);
+recipes.addShapeless("potash_mulch3", <pyrotech:mulch>*2,[<contenttweaker:mossy_peat>]);
 recipes.addShaped("pyro_wooden_bucket", <pyrotech:bucket_wood>,
  [[<ore:plankWood>,<ore:twine>,<ore:plankWood>],
   [null,<ore:logWood>,null]]);

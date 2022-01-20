@@ -1,0 +1,47 @@
+{
+	"dependencies": "cavegenerator",
+	"populate": {
+		"peat_swamps": {
+			"distribution": "surface",
+			"generator": {
+				"type": "cluster",
+				"block": "contenttweaker:peat",
+				"material":[
+					{
+					"name": "minecraft:grass"
+					},
+					{
+					"name": "minecraft:dirt"
+					},
+					{
+					"name": "biomesoplenty:mud"
+					},
+					{
+					"name": "biomesoplenty:grass"
+					},
+					{
+					"name": "biomesoplenty:dirt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"chunk-chance": 6,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:swampland",
+					"minecraft:mutated_swampland",
+					"biomesoplenty:bayou",
+					"biomesoplenty:bog",
+					"biomesoplenty:marsh",
+					"biomesoplenty:quagmire",
+					"biomesoplenty:moor",
+					"biomesoplenty:lush_swamp",
+					"biomesoplenty:wetland"
+				]
+			},
+			"retrogen": true
+		}
+	}
+}
