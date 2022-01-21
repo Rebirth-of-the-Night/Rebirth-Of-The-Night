@@ -198,7 +198,6 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 		val flashSpiritSpawningMobs as int[string] = {
 			"minecraft:wither_skeleton" : 1,
 			"minecraft:skeleton" : 1,
-			"mod_lavacow:banshee" : 1,
 			"betterslimes:spectral_slime" : 1,
 			"mod_lavacow:mimic" : 4,
 			"primitivemobs:skeleton_warrior" : 1,
