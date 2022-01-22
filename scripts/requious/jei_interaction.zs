@@ -25,6 +25,11 @@ var botanicGlass = AssemblyRecipe.create(function(container) {
 }).requireItem("input",<quark:framed_glass>).requireItem("catalyst1",<contenttweaker:nature_rune>);
 interaction.addJEIRecipe(botanicGlass);
 
+var xpBlock = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<globalxp:xp_block>);
+}).requireItem("input",<iceandfire:venerable_stump>).requireItem("catalyst1",<betterwithmods:cooking_pot:2>);
+interaction.addJEIRecipe(xpBlock);
+
 var soulSand = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<minecraft:soul_sand>);
 }).requireItem("input",<minecraft:sand>).requireItem("catalyst1",<contenttweaker:soul_rune>);

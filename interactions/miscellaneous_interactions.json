@@ -81,9 +81,27 @@
     "particleCount": "25"
   },
   {
+    "targetBlock": "betterwithmods:cooking_pot:2",
+    "heldItem": "iceandfire:venerable_stump",
+    "replacementBlock": "globalxp:xp_block",
+    "damage": "1",
+    "particleType": "enchantmenttable",
+    "particleArea": "out",
+    "particleCount": "25"
+  },
+  {
+    "targetBlock": "iceandfire:venerable_stump",
+    "heldItem": "betterwithmods:cooking_pot:2",
+    "replacementBlock": "globalxp:xp_block",
+    "damage": "1",
+    "particleType": "enchantmenttable",
+    "particleArea": "out",
+    "particleCount": "25"
+  },
+  {
     "targetBlock": "contenttweaker:masonry_brick",
     "heldItem": "contenttweaker:masonry_brick",
-    "replacementBlock": "contenttweaker:masonry_brick",
+    "replacementBlock": "contenttweaker:masonry_brick_two",
     "damage": "1"
   }
 ]

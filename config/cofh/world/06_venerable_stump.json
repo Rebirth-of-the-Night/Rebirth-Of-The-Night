@@ -5,7 +5,7 @@
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
-				"block": "contenttweaker:venerable_stump",
+				"block": "contenttweaker:clover_3_block",
 				"surface": [
 					"minecraft:grass",
 					"minecraft:dirt",

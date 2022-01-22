@@ -421,6 +421,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack>.addTooltip("Turns into sludge if it touches water.");
 <betterwithmods:material:15>.addTooltip("Turns into sludge if it touches water.");
+<iceandfire:venerable_stump>.addTooltip("Can be used on a mysterious vessel.");
+<betterwithmods:cooking_pot:2>.addTooltip("Can be used on a venerable stump.");
+<globalxp:xp_block>.addTooltip("Shift + Right click to deposit all XP.");
+<globalxp:xp_block>.addTooltip("Right click to retrieve a level.");
+<aether_legacy:enchanted_blueberry>.addTooltip("Hippogryph treat.");
 
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");

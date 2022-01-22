@@ -356,6 +356,7 @@ grass_paver.register();
 // unfired adobe brick
 var unfired_adobe_brick = VanillaFactory.createBlock("unfired_adobe_brick", <blockmaterial:Ground>);
 unfired_adobe_brick.setCreativeTab(<creativetab:decorations>);
+unfired_adobe_brick.setGravity(true);
 unfired_adobe_brick.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
      0.0 / 16.0,
@@ -375,6 +376,7 @@ unfired_adobe_brick.register();
 // unfired mud brick
 var unfired_mud_brick = VanillaFactory.createBlock("unfired_mud_brick", <blockmaterial:Ground>);
 unfired_mud_brick.setCreativeTab(<creativetab:decorations>);
+unfired_mud_brick.setGravity(true);
 unfired_mud_brick.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
      0.0 / 16.0,
@@ -394,6 +396,7 @@ unfired_mud_brick.register();
 // unfired porcelain brick
 var unfired_porcelain_brick = VanillaFactory.createBlock("unfired_porcelain_brick", <blockmaterial:Ground>);
 unfired_porcelain_brick.setCreativeTab(<creativetab:decorations>);
+unfired_porcelain_brick.setGravity(true);
 unfired_porcelain_brick.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
      0.0 / 16.0,
@@ -413,6 +416,7 @@ unfired_porcelain_brick.register();
 // unfired fiery brick
 var unfired_fiery_brick = VanillaFactory.createBlock("unfired_fiery_brick", <blockmaterial:Ground>);
 unfired_fiery_brick.setCreativeTab(<creativetab:decorations>);
+unfired_fiery_brick.setGravity(true);
 unfired_fiery_brick.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
      0.0 / 16.0,
@@ -432,6 +436,7 @@ unfired_fiery_brick.register();
 // unfired refractory brick
 var unfired_refractory_brick = VanillaFactory.createBlock("unfired_refractory_brick", <blockmaterial:Ground>);
 unfired_refractory_brick.setCreativeTab(<creativetab:decorations>);
+unfired_refractory_brick.setGravity(true);
 unfired_refractory_brick.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
      0.0 / 16.0,
@@ -451,6 +456,7 @@ unfired_refractory_brick.register();
 // ruined masonry brick x1
 var masonry_brick = VanillaFactory.createBlock("masonry_brick", <blockmaterial:Rock>);
 masonry_brick.setCreativeTab(<creativetab:decorations>);
+masonry_brick.setGravity(true);
 masonry_brick.axisAlignedBB = AxisAlignedBB.create(
      1.0 / 16.0,
      0.0 / 16.0,
@@ -470,17 +476,11 @@ masonry_brick.register();
 var masonry_brick_two = VanillaFactory.createBlock("masonry_brick_two", <blockmaterial:Rock>);
 masonry_brick_two.setDropHandler(function(drops, world, position, state, fortune) {
     drops.clear();
-    drops.add(<item:minecraft:skull:0> % 70);
-    drops.add(<item:minecraft:skull:0> % 30);
-	drops.add(<item:minecraft:bone> % 10);
-	drops.add(<item:minecraft:bone> % 30);
-	drops.add(<item:minecraft:bone> % 50);
-	drops.add(<item:minecraft:bone> % 50);
-	drops.add(<item:minecraft:bone>);
-	drops.add(<item:minecraft:bone>);
+	drops.add(<contenttweaker:masonry_brick>*2);
     return;
 });
 masonry_brick_two.setCreativeTab(<creativetab:decorations>);
+masonry_brick_two.setGravity(true);
 masonry_brick_two.axisAlignedBB = AxisAlignedBB.create(
      1.0 / 16.0,
      0.0 / 16.0,
