@@ -316,7 +316,15 @@ Dropt.list("Well_Worth")
           .items([<dungeontactics:steel_ingot>])
       )
   );
-  
+
+Dropt.list("masonry_brick_two")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:masonry_brick_two"])
+      .addDrop(Dropt.drop()
+          .items([<contenttweaker:masonry_brick>])
+      )
+  );
   
 Dropt.list("Berry_Good")
 

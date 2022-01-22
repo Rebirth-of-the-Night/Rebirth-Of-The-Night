@@ -476,7 +476,6 @@ masonry_brick.register();
 var masonry_brick_two = VanillaFactory.createBlock("masonry_brick_two", <blockmaterial:Rock>);
 masonry_brick_two.setDropHandler(function(drops, world, position, state, fortune) {
     drops.clear();
-	drops.add(<contenttweaker:masonry_brick>*2);
     return;
 });
 masonry_brick_two.setCreativeTab(<creativetab:decorations>);
