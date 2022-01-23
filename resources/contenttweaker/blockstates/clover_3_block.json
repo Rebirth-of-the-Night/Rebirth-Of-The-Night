@@ -17,12 +17,11 @@
         "model": "contenttweaker:clover_3_block",
         "y": 270
       }
-    ]
-	"inventory": [{
-      "model": "contenttweaker:items/3leaf_clover",
-      "textures": {
-        "layer0": "contenttweaker:items/3leaf_clover"
-      }
-    }]
+    ],
+	"inventory": [
+	  {
+	    "model": "contenttweaker:clover_3_block"
+	  }
+	]
   }
 }

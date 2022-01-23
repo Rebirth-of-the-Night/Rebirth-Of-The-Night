@@ -86,6 +86,7 @@ mods/spark-forge*.jar
 mods/tellme*.jar
 mods/world_generation_profiler*.jar
 mods/World-Stripper*.jar
+mods/NoAISpawnEggs-*.jar
 config/activity.json
 config/loadingprofiler.cfg
 config/mineshot.cfg
@@ -114,4 +115,3 @@ config/requious/battery.json
 config/requious/fluid_cell.json
 config/requious/fluid_emitter.json
 config/requious/red_emitter.json
-

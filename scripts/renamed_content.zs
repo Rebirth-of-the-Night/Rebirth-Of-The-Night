@@ -318,7 +318,6 @@ for potion in potionMap{
 <contenttweaker:material_part:12>.displayName = "Aetherial Electrum Ingot";
 <contenttweaker:material_part:16>.displayName = "Aetherial Electrum Nugget";
 <contenttweaker:material_part:38>.displayName = "Aetherial Electrum Dust";
-<forge:bucketfilled>.withTag({FluidName: "electrum", Amount: 1000}).displayName = "Molten Aetherial Electrum Bucket";
 
 <dungeontactics:lantern_magic>.addTooltip(format.gold("Legendary Artifact"));
 
