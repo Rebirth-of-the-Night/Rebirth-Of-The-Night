@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/refracotta/refracotta_brown",
       "particle": "contenttweaker:blocks/refracotta/refracotta_brown"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

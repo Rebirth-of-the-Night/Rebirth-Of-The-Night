@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/rocky_dirt",
       "particle": "contenttweaker:blocks/rocky_dirt"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

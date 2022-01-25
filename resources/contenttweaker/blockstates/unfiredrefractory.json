@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/unfiredrefractory",
       "particle": "contenttweaker:blocks/unfiredrefractory"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

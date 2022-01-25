@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/loose_bricks/loose_big_blueschist_bricks",
       "particle": "contenttweaker:blocks/loose_bricks/loose_big_blueschist_bricks"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

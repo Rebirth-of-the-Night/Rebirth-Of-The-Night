@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/block_bronze",
       "particle": "contenttweaker:blocks/block_bronze"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

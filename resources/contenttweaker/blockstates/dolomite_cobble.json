@@ -5,7 +5,7 @@
       "texture": "undergroundbiomes:blocks/dolomite_cobble",
       "particle": "undergroundbiomes:blocks/dolomite_cobble"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

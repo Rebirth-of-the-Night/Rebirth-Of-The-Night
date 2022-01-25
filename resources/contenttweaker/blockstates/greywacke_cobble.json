@@ -5,7 +5,7 @@
       "texture": "undergroundbiomes:blocks/greywacke_cobble",
       "particle": "undergroundbiomes:blocks/greywacke_cobble"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

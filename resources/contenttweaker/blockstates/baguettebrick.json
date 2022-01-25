@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/baguettebrick",
       "particle": "contenttweaker:blocks/baguettebrick"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },
