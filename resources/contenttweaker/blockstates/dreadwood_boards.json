@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/boards/dreadwood_boards",
       "particle": "contenttweaker:blocks/boards/dreadwood_boards"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/big_limestone_bricks",
       "particle": "contenttweaker:blocks/big_limestone_bricks"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

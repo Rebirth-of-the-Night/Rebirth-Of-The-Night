@@ -5,7 +5,7 @@
       "texture": "base:blocks/block",
       "particle": "base:blocks/block"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

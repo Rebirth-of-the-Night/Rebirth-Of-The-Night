@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/lunarinicebrick",
       "particle": "contenttweaker:blocks/lunarinicebrick"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

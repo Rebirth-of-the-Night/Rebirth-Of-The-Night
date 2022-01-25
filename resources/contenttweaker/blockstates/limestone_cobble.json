@@ -5,7 +5,7 @@
       "texture": "undergroundbiomes:blocks/limestone_cobble",
       "particle": "undergroundbiomes:blocks/limestone_cobble"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

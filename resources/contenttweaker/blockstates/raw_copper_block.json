@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/raw_copper_block",
       "particle": "contenttweaker:blocks/raw_copper_block"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

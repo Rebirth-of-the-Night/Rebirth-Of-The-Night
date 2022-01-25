@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/foundation_micomi",
       "particle": "contenttweaker:blocks/foundation_micomi"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

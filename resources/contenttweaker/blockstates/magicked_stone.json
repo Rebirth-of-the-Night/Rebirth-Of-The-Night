@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/magicked_stone",
       "particle": "contenttweaker:blocks/magicked_stone"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

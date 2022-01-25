@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/cobblestone_path_gabbro",
       "particle": "contenttweaker:blocks/cobblestone_path_gabbro"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

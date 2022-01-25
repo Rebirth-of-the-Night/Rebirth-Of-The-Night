@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/chicken_pizza_block",
       "particle": "contenttweaker:blocks/chicken_pizza_block"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

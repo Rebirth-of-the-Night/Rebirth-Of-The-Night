@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/planarspsp2",
       "particle": "contenttweaker:blocks/planarspsp2"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/mossy_peat",
       "particle": "contenttweaker:blocks/mossy_peat"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

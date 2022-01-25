@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/cobblestone_path_rhyolite",
       "particle": "contenttweaker:blocks/cobblestone_path_rhyolite"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

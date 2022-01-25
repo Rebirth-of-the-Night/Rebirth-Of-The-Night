@@ -5,7 +5,7 @@
       "texture": "undergroundbiomes:blocks/shale_cobble",
       "particle": "undergroundbiomes:blocks/shale_cobble"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

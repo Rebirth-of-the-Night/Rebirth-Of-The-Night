@@ -5,7 +5,7 @@
       "texture": "undergroundbiomes:blocks/siltstone_cobble",
       "particle": "undergroundbiomes:blocks/siltstone_cobble"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

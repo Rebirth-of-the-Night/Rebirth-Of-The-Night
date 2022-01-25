@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/n_copper_sandstone",
       "particle": "contenttweaker:blocks/n_copper_sandstone"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

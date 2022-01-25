@@ -5,7 +5,7 @@
       "texture": "contenttweaker:blocks/loose_bricks/loose_big_siltstone_bricks",
       "particle": "contenttweaker:blocks/loose_bricks/loose_big_siltstone_bricks"
     },
-    "model": "contenttweaker:base_block",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },
