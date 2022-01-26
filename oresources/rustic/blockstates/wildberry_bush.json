@@ -13,8 +13,10 @@
 					"model": "biomesoplenty:berrybush",
 					"textures": {
 						"all": "rustic:blocks/berrybush"
+						"colored": "rustic:blocks/berrybush",
+						"greyscale": "rustic:blocks/berrybush",
+						"particle": "rustic:blocks/berrybush"
 						}
-					}
                 ] } },
             "false": {}
         },
