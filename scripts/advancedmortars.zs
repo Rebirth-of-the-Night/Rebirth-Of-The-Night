@@ -32,9 +32,9 @@ recipes.addShaped("mundane_mortar", <advancedmortars:mortar:0>, [
 ]);
 
 recipes.addShaped("cooking_mortar", <advancedmortars:mortar:1>, [
-    [null, <doggytalents:chew_stick>, null],
-    [<ore:genericMetal>, <minecraft:flint>, <ore:genericMetal>],
-    [null, <ore:genericMetal>, null]
+    [null, <contenttweaker:broken_stick>, null],
+    [<ore:plankWood>, <minecraft:flint>, <ore:plankWood>],
+    [null, <ore:plankWood>, null]
 ]);
 
 recipes.addShaped("arcane_mortar", <advancedmortars:mortar:2>, [
@@ -45,8 +45,8 @@ recipes.addShaped("arcane_mortar", <advancedmortars:mortar:2>, [
 
 recipes.addShaped("rudimentary_mortar", <advancedmortars:mortar:3>, [
     [null, <contenttweaker:broken_stick>, null],
-    [<ore:plankWood> | <ore:cobblestone> | <minecraft:brick>, <pyrotech:rock:0> | <minecraft:flint>, <ore:plankWood> | <ore:cobblestone> | <minecraft:brick>],
-    [null, <ore:plankWood> | <ore:cobblestone> | <minecraft:brick>, null]
+    [<ore:rock>, <minecraft:flint>, <ore:rock>],
+    [null, <ore:rock>, null]
 ]);
 
 recipes.addShaped("mystical_mortar", <advancedmortars:mortar:4>, [

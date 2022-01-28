@@ -1,7 +1,7 @@
 {
   "parent": "advancedmortars:block/mortar",
   "textures": {
-    "mortar": "biomesoplenty:blocks/eucalyptus_planks",
-    "particle": "biomesoplenty:blocks/eucalyptus_planks"
+    "mortar": "minecraft:blocks/furnace_dry_fitted",
+    "particle": "minecraft:blocks/furnace_dry_fitted"
   }
 }
