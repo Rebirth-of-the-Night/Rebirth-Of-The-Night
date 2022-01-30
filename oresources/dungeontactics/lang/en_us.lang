@@ -348,7 +348,7 @@ item.dungeontactics:solstice_gift.name=Solstice Gift
 item.dungeontactics:mince_pie.name=Mince Pie
 
 tile.dungeontactics:caltrops.name=Caltrops
-tile.dungeontactics:caltrops_poison.name=Posioned Caltrops
+tile.dungeontactics:caltrops_poison.name=Poisoned Caltrops
 tile.dungeontactics:trap_clamp.name=Clamp Trap
 tile.dungeontactics:trap_boom.name=Boom Trap
 tile.dungeontactics:trap_piston.name=Piston Trap
@@ -373,7 +373,7 @@ tile.dungeontactics:bush_cherrybomb.name=Cherry Bomb Bush
 tile.dungeontactics:bush_incindiberry.name=Incindiberry Bush
 tile.dungeontactics:bush_glowcurrent.name=Glowcurrent Bush
 
-tile.dungeontactics:guardian_alter.name=Guardian Alter
+tile.dungeontactics:guardian_alter.name=Guardian Altar
 
 tile.dungeontactics:fan_block.name=Fan
 tile.dungeontactics:fan_block.tile.name=Fan Tile

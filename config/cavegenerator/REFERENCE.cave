@@ -332,11 +332,12 @@
       state: null
       # **This value may not be null**.
       height: [ 0, 20 ]
+      matchers: [ "stone" ]
       ceiling: {
         frequency: 0.015
         range: [ -7, 7 ]
       }
-      
+
       biomes: {}
       blacklistBiomes: false
       dimensions: []
@@ -360,6 +361,7 @@
       radius: null
       centerHeight: [ 24, 40 ]
       matchers: []
+      spawnInAir: false
       
       biomes: {}
       blacklistBiomes: false

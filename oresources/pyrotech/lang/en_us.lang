@@ -111,7 +111,7 @@ tile.pyrotech.pile_slag.unique.name=%s Slag Heap
 item.pyrotech.sawmill.blade.stone.name=Stone Sawmill Blade
 item.pyrotech.sawmill.blade.flint.name=Flint Sawmill Blade
 item.pyrotech.sawmill.blade.bone.name=Bone Sawmill Blade
-item.pyrotech.sawmill.blade.iron.name=Metal Blade
+item.pyrotech.sawmill.blade.iron.name=Steel Blade
 item.pyrotech.sawmill.blade.gold.name=Golden Sawmill Blade
 item.pyrotech.sawmill.blade.diamond.name=Diamond Sawmill Blade
 item.pyrotech.sawmill.blade.obsidian.name=Obsidian Sawmill Blade
@@ -125,12 +125,12 @@ item.pyrotech.cog.gold.name=Golden Cog
 item.pyrotech.cog.diamond.name=Diamond Cog
 item.pyrotech.cog.obsidian.name=Obsidian Cog
 
-tile.pyrotech.stone_kiln.name=Stone Kiln
+tile.pyrotech.stone_kiln.name=Brick Kiln
 tile.pyrotech.stone_oven.name=Stone Oven
 tile.pyrotech.stone_sawmill.name=Stone Sawmill
 tile.pyrotech.stone_crucible.name=Stone Crucible
 
-tile.pyrotech.brick_kiln.name=Brick Kiln
+tile.pyrotech.brick_kiln.name=Refractory Kiln
 tile.pyrotech.brick_oven.name=Refractory Oven
 tile.pyrotech.brick_sawmill.name=Refractory Sawmill
 tile.pyrotech.brick_crucible.name=Refractory Crucible

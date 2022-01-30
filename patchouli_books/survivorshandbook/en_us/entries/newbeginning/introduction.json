@@ -14,14 +14,14 @@
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)Everything you may need to know about the game of RotN can be found here in this guidebook, eventually.$(br2)For the sake of thouroughness, it will be assumed that everyone reading this entry for the first time has never touched modded Minecraft before, and has no idea what any mod does, or how to navigate the modpack whatsoever.$(br2)So, here are the basics:$()"
+      "text": "$(italics)$(#a84b0f)Everything you may need to know about the game of RotN can be found here in this guidebook, eventually.$(br2)For the sake of thouroughness, it will be assumed that everyone reading this entry for the first time has minimal knowledge of modded Minecraft, or has little understanding of common utility mods. $(br2)So, here are the basics:$()"
     },
     {
       "type": "image",
       "images": ["book:images/1jei.png"],
       "border": "true",
       "title": "How To Use JEI",
-      "text": "$(italics)$(#a84b0f)This is JEI, found on the right after opening your inventory.$()"
+      "text": "$(italics)$(#a84b0f)This is JEI, found on the right after opening your inventory (by pressing E).$()"
     },
     {
       "type": "text",
@@ -52,6 +52,30 @@
     {
       "type": "text",
       "text": "$(bold)$(#a84b0f)Tips for searching in JEI:$()$(italics)$(#a84b0f)$(br2)Search by tooltip: type '$' before your search term$(br2)Search by mod: type '@' before your search term$(br2)Search multiple terms: separate terms with a '|' (ex: wood|stone)$(br2)Bookmark: press 'A' while hovering over something with your mouse. The bookmark will appear on the left of the screen.$()"
+    },
+    {
+      "type": "text",
+      "title": "What Am I Looking At",
+      "text": "$(italics)$(#a84b0f)You may have noticed a little display in the bottom left of your screen while looking at blocks. This is WAILA (short for 'What Am I Looking At'). This handy little mod will display the name of whatever block your crosshair is focused on, whether that block is harvestable (breakable) and what tool works best on it, as well as what tier of tool you might need. Pay attention to it!$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/1waila.png"],
+      "border": "true",
+      "title": "Example: Oak Log",
+      "text": "$(italics)$(#a84b0f)It can also display entity information, such as a villager's profession.$()"
+    },
+    {
+      "type": "text",
+      "title": "Neat",
+      "text": "$(italics)$(#a84b0f)Neat is a mod (by Vazkii) that adds compact, simple information plates above a mob. The plate displays the mob's name (purple), its current health (blue), total health (red), amount of armor (orange), and type, such as undead (gray). The plate only appears when your crosshair is focused on the mob. Keep in mind that specific mobs will not have Neat nameplates, like the ghostly Spectre.$()"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/1neatpic.png"],
+      "border": "true",
+      "title": "Example: Zombie",
+      "text": "$(italics)$(#a84b0f)Neat nameplates are good for keeping track of enemy health.$()"
     },
     {
       "type": "text",

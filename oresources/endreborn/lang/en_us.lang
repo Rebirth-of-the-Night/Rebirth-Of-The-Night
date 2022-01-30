@@ -34,7 +34,7 @@ item.wolframium_nugget.name=Tungsten Nugget
 # Blocks -
 tile.block_endorium.name=Block of Endorium
 tile.block_wolframium.name=Block of Tungsten
-tile.block_end_stone_pillar.name=End Stone Pillar
+tile.block_end_stone_pillar.name=Smooth End Stone Pillar
 tile.block_end_stone_smooth.name=Smooth End Stone 
 tile.block_purpur_lamp.name=Purpur Lamp
 tile.crop_dragonite.name=Dragonite
@@ -46,7 +46,7 @@ tile.block_decorative_lormyte.name=Polished Lormyte Stone
 tile.block_entropy_end_stone.name=Endtropy Stone
 tile.block_wolframium_ore.name=Tungsten Ore
 tile.block_rune.name=Runic Purpur Block
-tile.e_end_bricks_stairs.name=End Stone Stairs
+tile.e_end_bricks_stairs.name=End Stone Brick Stairs
 tile.smooth_end_stone_stairs.name=Smooth End Stone Stairs
 tile.e_end_bricks_wall.name=End Stone Wall
 tile.smooth_end_stone_wall.name=Smooth End Stone Wall
@@ -102,7 +102,7 @@ entity.Villager.endreborn.overworld_explorer.name=World Explorer
 modifier.endorium.name=Rage
 modifier.endorium.desc=§oWhere is physics!?§r\nCritical strike increases attack speed.
 modifier.wolframium.name=Moon Voice
-modifier.wolframium.desc=§oThe loneliness echo...§r\nGives strength on a full moon.
+modifier.wolframium.desc=§oThe loneliness echoes...§r\nGives strength on a full moon.
 material.endorium.name=Endorium
 material.wolframium.name=Tungsten
 

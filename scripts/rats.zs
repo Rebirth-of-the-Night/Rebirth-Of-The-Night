@@ -91,6 +91,8 @@ JEI.removeAndHide(<rats:garbage_pile>);
 JEI.removeAndHide(<rats:cauldron_cheese>);
 JEI.removeAndHide(<rats:cauldron_milk>);
 JEI.removeAndHide(<rats:rat_hole>);
+JEI.removeAndHide(<rats:ratlantis_portal>);
+JEI.removeAndHide(<rats:archeologist_hat>);
 
 JEI.removeAndHide(<rats:rat_burger>); // Dunno what we want to do with it, but removing it from jei since no recipe.
 

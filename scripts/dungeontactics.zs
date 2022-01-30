@@ -75,12 +75,18 @@ JEI.removeAndHide(<dungeontactics:osmium_cluster>);
 
 JEI.removeAndHide(<dungeontactics:guardian_alter>);
 JEI.removeAndHide(<dungeontactics:alchemical_cauldron>);
-
+JEI.removeAndHide(<dungeontactics:trickortreat_bag>);
+JEI.removeAndHide(<dungeontactics:fire_starter>);
+JEI.removeAndHide(<dungeontactics:solstice_gift>);
 
 recipes.removeByRecipeName("dungeontactics:misc/materials/gunpowder");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_right");
 recipes.removeByRecipeName("dungeontactics:weapons/potshot_left");
 recipes.removeByRecipeName("dungeontactics:misc/books/dungeonpedia_volume_8");
+recipes.removeByRecipeName("dungeontactics:tools/grinder_block");
+recipes.removeByRecipeName("dungeontactics:traps/trap_port");
+recipes.removeByRecipeName("dungeontactics:traps/trap_ambush");
+
 JEI.removeAndHide(<dungeontactics:fire_starter>);
 recipes.addShapeless("flint_and_steel_relic",<minecraft:flint_and_steel>,[<contenttweaker:steel_artifact>,<minecraft:flint>]);
 ///////////////////// SILVER ///////////////////
@@ -181,6 +187,7 @@ recipes.addShaped("flight_googles",<dungeontactics:flight_goggles>,[
 // broken item
 // https://www.curseforge.com/minecraft/mc-mods/dungeon-tactics/issues/156
 LootTable.removeGlobalItem("dungeontactics:alchemist_brew");
+JEI.removeAndHide(<dungeontactics:alchemist_brew>);
 
 
 
@@ -219,6 +226,11 @@ LootTable.removeGlobalItem("dungeontactics:heart_golden");
 JEI.removeAndHide(<dungeontactics:fire_water>);
 LootTable.removeGlobalItem("dungeontactics:fire_water");
 
+JEI.removeAndHide(<dungeontactics:trap_port>);
+LootTable.removeGlobalItem("dungeontactics:trap_port");
+
+JEI.removeAndHide(<dungeontactics:trap_ambush>);
+LootTable.removeGlobalItem("dungeontactics:trap_ambush");
 
 
 JEI.removeAndHide(<dungeontactics:iron_cluster>);
@@ -237,6 +249,7 @@ JEI.removeAndHide(<dungeontactics:jam>);
 JEI.removeAndHide(<dungeontactics:ration_standard>);
 JEI.removeAndHide(<dungeontactics:ration_iron>);
 JEI.removeAndHide(<dungeontactics:ration_gold>);
+JEI.removeAndHide(<dungeontactics:ration_silver>);
 JEI.removeAndHide(<dungeontactics:spidereye_soup>);
 JEI.removeAndHide(<dungeontactics:mince_pie>);
 JEI.removeAndHide(<dungeontactics:stonequartz_ore>);
@@ -264,7 +277,9 @@ JEI.removeAndHide(<dungeontactics:iron_plate_greaves>);
 JEI.removeAndHide(<dungeontactics:iron_plate_chestpiece>);
 JEI.removeAndHide(<dungeontactics:iron_plate_faceplate>);
 
-
+JEI.removeAndHide(<dungeontactics:bush_cherrybomb>);
+JEI.removeAndHide(<dungeontactics:bush_glowcurrent>);
+JEI.removeAndHide(<dungeontactics:bush_incindiberry>);
 
 JEI.removeAndHide(<dungeontactics:golden_plate_boots>);
 JEI.removeAndHide(<dungeontactics:golden_plate_greaves>);

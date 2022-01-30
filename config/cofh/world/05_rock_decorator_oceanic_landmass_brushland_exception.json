@@ -54,7 +54,7 @@
 					"undergroundbiomes:metamorphic_sandstone",
 					"contenttweaker:salty_crust"
 				],
-				"cluster-size": 19
+				"cluster-size": 18
 			},
 			"material": [
 				"minecraft:grass",
@@ -69,7 +69,7 @@
 				"undergroundbiomes:metamorphic_sandstone",
 				"contenttweaker:salty_crust"
 			],
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

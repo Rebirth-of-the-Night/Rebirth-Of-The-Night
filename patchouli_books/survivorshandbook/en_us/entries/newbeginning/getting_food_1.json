@@ -1,0 +1,24 @@
+{
+  "name": "Getting Food: Foraging",
+  "icon": "minecraft:apple",
+  "category": "survival_newbeginning",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:apple",
+      "title": "Getting Food",
+      "text": "Doing all that gathering and crafting sure has made me hungry. I'll need to rely on the land for now to provide me with a meal; I can worry about farming up my own grub later, once I've got a base of operations set up.$(br2)I should start moving about to see what's on the menu."
+    },
+    {
+      "type": "crafting",
+      "recipe": "minecraft:furnace",
+      "text": "First things first; I'll need something to cook with. Not everything edible I can find needs cooking, but for the things that do, I can fashion a quick and easy furnace out of rocks I got from before. Anything burnable will heat it."
+    },
+    {
+      "type": "relations",
+      "entries": [
+      ]
+    }
+  ]
+}

@@ -23,6 +23,8 @@ JEI.removeAndHide(<ambience:alarm_pink>);
 JEI.removeAndHide(<ambience:alarm_brown>);
 JEI.removeAndHide(<ambience:bell>);
 JEI.removeAndHide(<ambience:songswitcher_lit>);
+JEI.removeAndHide(<ambience:horn>);
+JEI.removeAndHide(<ambience:ocarina>);
 
 val alarmColors as string[] = [
     "white",
@@ -51,6 +53,7 @@ for color in alarmColors {
 // add as loot
 // unique boss drop?
 recipes.remove(<ambience:horn>);
-// LootTable.removeGlobalItem("ambience:horn");
+LootTable.removeGlobalItem("ambience:horn");
+LootTable.removeGlobalItem("ambience:ocarina");
 
 

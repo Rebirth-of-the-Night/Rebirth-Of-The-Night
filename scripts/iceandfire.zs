@@ -12,6 +12,13 @@ recipes.removeByRecipeName("iceandfire:dragonmeal_alternate");
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_block>);
 mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);
+mods.jei.JEI.removeAndHide(<iceandfire:egginice>);
+mods.jei.JEI.removeAndHide(<iceandfire:dread_portal>);
+mods.jei.JEI.removeAndHide(<iceandfire:dragonforge_ice_core>);
+mods.jei.JEI.removeAndHide(<iceandfire:dragonforge_fire_core>);
+mods.jei.JEI.removeAndHide(<iceandfire:dread_stone_slab_double>);
+mods.jei.JEI.removeAndHide(<iceandfire:dragon_debug_stick>);
+mods.jei.JEI.removeAndHide(<iceandfire:stone_statue>);
 
 LootTweaker.getTable("iceandfire:mausoleum_chest").getPool("mausoleum_chest").removeEntry("iceandfire:sapphire_gem");
 

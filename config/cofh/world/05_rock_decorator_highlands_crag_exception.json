@@ -1,0 +1,102 @@
+{
+	"populate": {
+		"crag": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_stone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_quartzite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_shale_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"undergroundbiomes:sedimentary_sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:metamorphic_overgrown",
+					"undergroundbiomes:sedimentary_overgrown",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 25
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"biomesoplenty:grass",
+				"undergroundbiomes:sedimentary_sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:metamorphic_overgrown",
+				"undergroundbiomes:sedimentary_overgrown",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 6,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:crag"
+				]
+			}
+		}
+	}
+}

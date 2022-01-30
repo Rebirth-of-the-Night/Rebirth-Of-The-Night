@@ -14,7 +14,7 @@
       "type": "crafting",
       "recipe": "ct_shapeless-1591466075",
       "title": "Cobblestone",
-      "text": "Compressing some rocks together should yield me some nice, solid cobblestone to make tools with. I'm not able to mix & match rocks that I find, lest my tools end up with an inconsistent durability."
+      "text": "Compressing some rocks together should yield me some nice, solid cobblestone to make tools with."
     },
     {
       "type": "text",

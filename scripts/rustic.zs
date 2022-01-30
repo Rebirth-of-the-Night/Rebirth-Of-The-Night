@@ -82,19 +82,19 @@ var gold = <ore:ingotGold>;
 var torch = <minecraft:torch>;
 var glass = <minecraft:glass_pane>;
 
-recipes.addShaped("Gold Lantern", <rustic:golden_lantern>,[
+recipes.addShaped("Gold_Lantern", <rustic:golden_lantern>,[
 	[null, gold, null],
     [glass, torch, glass],
     [null, gold, null]
 ]);
 
-recipes.addShaped("Tin Lantern", <rustic:iron_lantern>,[
-	[null, tin, null],
+recipes.addShaped("Metal_Lantern", <rustic:iron_lantern>,[
+	[null, <ore:genericMetal>, null],
     [glass, torch, glass],
-    [null, tin, null]
+    [null, <ore:genericMetal>, null]
 ]);
 
-recipes.addShaped("Silver Lantern", <rustic:silver_lantern>,[
+recipes.addShaped("Silver_Lantern", <rustic:silver_lantern>,[
 	[null, silver, null],
     [glass, torch, glass],
     [null, silver, null]

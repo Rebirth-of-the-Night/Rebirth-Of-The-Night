@@ -1,0 +1,7 @@
+{
+  "name": "Music",
+  "description": "Tunes, notes and sounds!",
+  "icon": "trumpetskeleton:trumpet",
+  "sortnum": 1,
+  "parent": "miscellanea"
+}

@@ -1,6 +1,6 @@
 {
   "name": "A Word of Warning",
-  "icon": "contenttweaker:slayers_tattered_journal",
+  "icon": "bountiful:bounty",
   "category": "slayers_journal",
   "advancement": "triumph:advancements/progression/slayersjournal",
   "priority": true,

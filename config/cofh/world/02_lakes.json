@@ -75,7 +75,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunk-chance": 9,
+			"chunk-chance": 12,
 			"min-height": 16,
 			"max-height": 48,
 			"biome": "all",
@@ -195,7 +195,7 @@
 				"material": [
 					"minecraft:grass",
 					"minecraft:dirt"
-					]
+					],
 				"use-material": true,
 				"solid-outline": true,
 				"total-outline": true,
@@ -220,7 +220,6 @@
 			"chunk-chance": 10,
 			"center-height": 70,
 			"spread": 10,
-			"biome": "all",
 			"retrogen": true,
 			"biome": {
 				"restriction": "whitelist",

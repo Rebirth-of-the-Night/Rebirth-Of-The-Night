@@ -38,7 +38,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 32
+				"cluster-size": 30
 			},
 			"material": [
 				"minecraft:grass",

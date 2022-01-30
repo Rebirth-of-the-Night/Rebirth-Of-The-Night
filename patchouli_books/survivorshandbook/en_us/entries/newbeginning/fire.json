@@ -2,7 +2,7 @@
   "name": "Fire",
   "icon": "contenttweaker:fire_block",
   "category": "survival_newbeginning",
-  "sortnum": 6,
+  "sortnum": 7,
   "pages": [
     {
       "type": "spotlight",

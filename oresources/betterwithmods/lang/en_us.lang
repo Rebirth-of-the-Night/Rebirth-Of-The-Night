@@ -5,7 +5,7 @@ item.bwm:steel_anvil.name=Steel Anvil
 container.steel_anvil=Steel Anvil
 inv.steel_anvil.name=Steel Anvil
 
-tile.bwm:bucket.name=Robust Well Bucket
+tile.bwm:bucket.name=Robust Fluid Container
 
 item.bwm:material.hemp_fibers.name=Durable Fibers
 item.bwm:material.hemp_cloth.name=Durable Cloth
@@ -88,7 +88,7 @@ tile.bwm:advanced_bellows.name=Spring-Action Bellows
 tile.bwm:steel_block.name=Block of Soulforged Steel
 tile.bwm:cut_steel_block.name=Cut Block of Soulforged Steel
 tile.cut_steel_block.name.name=Cut Block of Soulforged Steel
-tile.bwm:steel_pressure_plate.name=Soulforged Steel Steel Pressure Plate
+tile.bwm:steel_pressure_plate.name=Soulforged Steel Pressure Plate
 
 tile.bwm:windmill.windmill.name=Horizontal Windmill
 tile.bwm:windmill.waterwheel.name=Waterwheel
@@ -276,9 +276,9 @@ tile.bwm:platform.name=Platform
 tile.bwm:mining_charge.name=Mining Charge
 tile.bwm:fertile_farmland.name=Fertile Farmland
 tile.bwm:advanced_gearbox.name=Advanced Gearbox
-tile.bwm:raw_pastry.0.name=Cake Batter
+tile.bwm:raw_pastry.0.name=Raw Cake Batter
 tile.bwm:raw_pastry.1.name=Oven Ready Pumpkin Pie
-tile.bwm:raw_pastry.2.name=Raw Cookie Dough
+tile.bwm:raw_pastry.2.name=Raw Chocolate Chip Cookie Dough
 tile.bwm:raw_pastry.3.name=Flour
 tile.bwm:raw_pastry.4.name=Oven Ready Apple Pie
 tile.bwm:stump.0.name=Oak Stump
@@ -325,8 +325,8 @@ item.bwm:material.hemp.name=Hemp
 item.bwm:material.dung.name=Dung
 item.bwm:material.tanned_leather.name=Tanned Leather
 item.bwm:material.scoured_leather.name=Scoured Leather
-item.bwm:material.leather_strap.name=Leather Strap
-item.bwm:material.leather_belt.name=Leather Belt
+item.bwm:material.leather_strap.name=Tanned Leather Strap
+item.bwm:material.leather_belt.name=Tanned Leather Belt
 item.bwm:material.wood_blade.name=Wood Blade
 item.bwm:material.windmill_blade.name=Wind Sail
 item.bwm:material.glue.name=Glue
@@ -351,8 +351,8 @@ item.bwm:material.blasting_oil.name=Blasting Oil
 item.bwm:material.nugget_iron.name=Iron Nugget
 item.bwm:material.nugget_steel.name=Soulforged Steel Nugget
 item.bwm:material.leather_cut.name=Cut Leather
-item.bwm:material.tanned_leather_cut.name=Cut Leather (Tanned)
-item.bwm:material.scoured_leather_cut.name=Cut Leather (Scoured)
+item.bwm:material.tanned_leather_cut.name=Tanned Cut Leather
+item.bwm:material.scoured_leather_cut.name=Scoured Cut Leather
 item.bwm:material.redstone_latch.name=Redstone Latch
 item.bwm:material.nether_sludge.name=Nether Sludge
 item.bwm:material.flour.name=Flour
@@ -474,9 +474,9 @@ item.bwm:bop_piles.sandy_dirt_pile.name=Pile of Sandy Dirt
 enchantment.level.-1=
 bwm.infernalenchanter=Infernal Enchanter
 
-lore.bwm:dynamite=Dwarven Fishing Pole
-lore.bwm:dynamite_bundle=Dwarven Fishing Net
-lore.bwm:dynamite_blood=Hold to ignite, release to throw.
+lore.bwm:dynamite=Hold right-click to ignite, release to throw. Longer fuse, smaller explosion.
+lore.bwm:dynamite_bundle=Hold right-click to ignite, release to throw. Shorter fuse, bigger explosion.
+lore.bwm:dynamite_blood=Requires flint & steel in inventory. Don't get too attached! An unexpectedly great fishing tool.
 
 material.hellfire=Hellfire
 material.hellfire.ability=Molten
@@ -547,7 +547,7 @@ death.squid.attack=%s was eaten by a Squid.
 
 bwm.message.immersive.0=Only works to bridge mechanical power
 bwm.message.immersive.1=and Immersive Engineering Kinetic Dynamos
-bwm.message.exhaustion=You are too exhausted to turn it.
+bwm.message.exhaustion=You are too exhausted to turn the hand crank.
 
 bwm.message.needs_bait=The fish probably won't nibble, needs some bait.
 bwm.message.needs_open_sky=Didn't catch anything, should try a topside water source.
@@ -576,7 +576,7 @@ bwm.fat_penalty.chubby=Chubby
 bwm.fat_penalty.fat=Fat
 bwm.fat_penalty.obese=Obese
 bwm.gloom_penalty.none=
-bwm.gloom_penalty.gloom=Gloom
+bwm.gloom_penalty.gloom=Unease
 bwm.gloom_penalty.dread=Dread
 bwm.gloom_penalty.terror=Terror
 

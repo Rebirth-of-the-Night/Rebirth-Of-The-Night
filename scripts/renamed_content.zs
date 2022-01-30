@@ -4,16 +4,20 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 // Progression and CoT
-<contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this journal in my Guidebook.");
+<contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this in my book.");
+<contenttweaker:scab>.displayName = "Scab";
 
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
 
-//Biomes o Plenty
+// Biomes o Plenty
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
 <biomesoplenty:hive:1>.displayName = "Giant Honeycomb Block";
 <biomesoplenty:hive:2>.displayName = "Giant Infested Honeycomb Block";
 <biomesoplenty:hive:3>.displayName = "Giant Filled Honeycomb Block";
 <biomesoplenty:bamboo:0>.displayName = "Bamboo Stick";
+
+// Better With Mods
+<betterwithmods:axle_generator>.displayName = "Horizontal Windmill";
 
 // Guidebook
 <solcarrot:food_book>.addTooltip(format.aqua("Guidebook"));
@@ -39,6 +43,11 @@ import mods.jei.JEI;
 
 // Minecraft
 <minecraft:chest>.displayName = "Varnished Chest";
+<minecraft:trapped_chest>.displayName = "Varnished Trapped Chest";
+<minecraft:cauldron>.displayName = "Fluid Cauldron";
+<minecraft:cookie>.displayName = "Chocolate Chip Cookie";
+<minecraft:fish>.displayName = "Raw Cod";
+<minecraft:cooked_fish>.displayName = "Cooked Cod";
 
 // Requious Frakto
 <requious:dryer>.displayName = "Hell Dryer";

@@ -1,20 +1,9 @@
 {
-  "name": "Getting Food",
-  "icon": "minecraft:apple",
+  "name": "Getting Food: Meat & Veg",
+  "icon": "minecraft:cooked_chicken",
   "category": "survival_newbeginning",
-  "sortnum": 5,
+  "sortnum": 6,
   "pages": [
-    {
-      "type": "spotlight",
-      "item": "minecraft:apple",
-      "title": "Getting Food",
-      "text": "Doing all that gathering and crafting sure has made me hungry. I'll need to rely on the land for now to provide me with a meal; I can worry about farming up my own grub later, once I've got a base of operations set up.$(br2)I should start moving about to see what's on the menu."
-    },
-    {
-      "type": "crafting",
-      "recipe": "minecraft:furnace",
-      "text": "First things first; I'll need something to cook with. Not everything edible I can find needs cooking, but for the things that do, I can fashion a quick and easy furnace out of rocks I got from before. Anything burnable will heat it."
-    },
     {
       "type": "item_list_spotlight",
       "title": "Meat",
@@ -44,7 +33,7 @@
     },
     {
       "type": "text",
-      "text": "This isn't the only meat I can find, of course; nearly every animal I might come across has something yummy on its bones, from the smallest frogs to the most hulking bulls. $(br2)That being said, I shouldn't expect all of them to go down without a fight.$(br2)Killing animals also yields many useful byproducts like tallow, leather, wool and feathers, which all may come in handy later."
+      "text": "This isn't the only meat I can find, of course; nearly every animal I might come across has something yummy on its bones, from the smallest frogs to the most hulking bulls. $(br2)That being said, I shouldn't expect all of them to go down without a fight.$(br2)Killing animals also yields many useful byproducts like $(thing)tallow$(), $(thing)leather$(), $(thing)wool$() and $(thing)feathers$(), which all may come in handy later."
     },
     {
       "type": "item_list_spotlight",
@@ -79,7 +68,7 @@
       "title": "Gardens",
       "text": "Aside from the various roots and seeds I can find and munch on, gardens can also be found on occasion throughout the surface:",
       "a":"harvestcraft:aridgarden",
-      "a_t":"Found in deserts and hot climates.",
+      "a_t":"Found in arid and hot regions, like deserts.",
       "a_i":"book:hover_icon.png",
       "b":"harvestcraft:frostgarden",
       "b_t":"Found in cold and snowy areas.",
@@ -88,7 +77,7 @@
       "c_t":"Found in forested and dense biomes.",
       "c_i":"book:hover_icon.png",
       "d":"harvestcraft:soggygarden",
-      "d_t":"Found in swampy and wet biomes, like swamps.",
+      "d_t":"Found in swampy and wet biomes, like bogs.",
       "d_i":"book:hover_icon.png",
       "e":"harvestcraft:tropicalgarden",
       "e_t":"Found in humid and tropical climates, like jungles.",
@@ -106,9 +95,6 @@
     {
       "type": "relations",
       "entries": [
-        "innovation/burn/cauldron",
-        "innovation/burn/crucible",
-        "innovation/burn/kiln"
       ]
     }
   ]

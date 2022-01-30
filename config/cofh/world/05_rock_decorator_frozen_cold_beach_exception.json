@@ -41,9 +41,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 19
+				"cluster-size": 18
 			},
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

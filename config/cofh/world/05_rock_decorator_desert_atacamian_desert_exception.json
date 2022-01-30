@@ -41,7 +41,7 @@
 					"contenttweaker:weathered_dirt",
 					"biomesoplenty:dried_sand"
 				],
-				"cluster-size": 15
+				"cluster-size": 14
 			},
 			"material": [
 				"minecraft:sand",

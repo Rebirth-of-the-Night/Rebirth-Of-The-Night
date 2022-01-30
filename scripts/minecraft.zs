@@ -751,9 +751,9 @@ recipes.remove(<quark:chain>);
 recipes.remove(<iceandfire:chain_link>);
 
 recipes.addShaped("Chainlinks", chainlink*2,[
-	[null, <ore:nuggetIron>, null],
-    [<ore:nuggetIron>, null, <ore:nuggetIron>],
-    [null, <ore:nuggetIron>, null]
+	[null, <ore:genericMetalNuggets>, null],
+    [<ore:genericMetalNuggets>, null, <ore:genericMetalNuggets>],
+    [null, <ore:genericMetalNuggets>, null]
 ]);
 
 recipes.addShapeless("Quark_chain", <quark:chain>, 

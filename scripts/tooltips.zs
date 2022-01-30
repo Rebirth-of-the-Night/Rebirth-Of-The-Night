@@ -103,11 +103,16 @@
 
 
 // Unsorted
-
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
 <minecraft:crafting_table>.addTooltip("Static version.");
 <minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + format.gray(" Mat is better for long journeys."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<dungeontactics:trap_clamp>.addTooltip("Snaps and crushes its victim, inflicting great slowness. Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_piston>.addTooltip("Launches its victim into the air. Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_fire>.addTooltip("Lights its victim ablaze. Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_foul>.addTooltip("Nauseates its victim. Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_ailment>.addTooltip("Blinds its victim. Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_spectral>.addTooltip("Makes its victim glow, allowing it to be seen through walls. Must be reset with an Engineer's Wrench after use.");
 
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");

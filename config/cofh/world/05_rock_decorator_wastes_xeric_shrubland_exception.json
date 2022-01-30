@@ -48,7 +48,7 @@
 					"undergroundbiomes:igneous_stone",
 					"contenttweaker:n_copper_sandstone"
 				],
-				"cluster-size": 19
+				"cluster-size": 18
 			},
 			"material": [
 				"minecraft:grass",
@@ -64,7 +64,7 @@
 				"undergroundbiomes:igneous_stone",
 				"contenttweaker:n_copper_sandstone"
 			],
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

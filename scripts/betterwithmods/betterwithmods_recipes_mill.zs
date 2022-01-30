@@ -86,7 +86,7 @@ Mill.builder()
 
 // Spring coiling
 Mill.builder()
-.buildRecipe([<dungeontactics:steel_block>], [<betterwithmods:material:49>])
+.buildRecipe([<betterwithmods:steel_block>], [<betterwithmods:material:49>*12])
 .setPriority(3)
 .build();
 
@@ -135,5 +135,25 @@ Mill.builder()
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:sedimentary_stone:0>], [<pyrotech:material:8>*3])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<contenttweaker:chalk_cobble>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<undergroundbiomes:metamorphic_cobble:3>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<undergroundbiomes:metamorphic_cobble:2>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<contenttweaker:dolomite_cobble>], [<pyrotech:material:8>*2])
+.setPriority(3)
+.build();
+Mill.builder()
+.buildRecipe([<contenttweaker:limestone_cobble>], [<pyrotech:material:8>*3])
 .setPriority(3)
 .build();

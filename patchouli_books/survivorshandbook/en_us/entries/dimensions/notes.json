@@ -1,16 +1,25 @@
 {
-  "name": "Twilight Forest",
+  "name": "A Suspicion",
   "icon": "twilightforest:firefly",
   "category": "dimensions_notes",
-  "sortnum": 5,
+  "advancement": "triumph:advancements/progression/killedHarvester",
+  "sortnum": 1,
   "pages": [
     {
       "type": "text",
-      "text": "Just when I thought I'd conquered everything this universe had to offer, it seems there is one more challenge:$(br)The Twilight Forest.$(br2)Though the outside is relatively safe, the true danger of the Twilight Forest lies within its unimaginably lethal dungeons and mythical beings."
+      "text": "I've done quite a bit at this point - seen many of the biomes the world has to offer, plunged into the cavernous depths, discovered old structures and ruins, fought off countless monsters. I don't see myself stopping any time soon, either.$(br2)But something is bothering me. Having seen what I've been so far, and done the"
     },
     {
       "type": "text",
-      "text": "Attempting to challenge any of them without significant preparation is simply maddening."
+      "text": "things I've done so far, there's something that feels vaguely off. Quite a few things I've encountered can't really be explained easily; from a structure that had some weird markings, items that had unusual features to creatures that seemed... foreign. I try to shrug off this feeling, but my gut tells me that it can't be ignored. The tattered journal I picked up earlier - some pages in it seem to imply that other...places,"
+    },
+    {
+      "type": "text",
+      "text": "vastly far from my current reach are out there.$(br2)Somewhere.$(br2)If it's one thing I've learned, it's that I can't just ignore my intuition - it's helped me survive this long. I should pay close attention to whatever else I may find or see moving forward; there may be some sort of clue out there that can lead me down a new road entirely. Of course, I can't be too"
+    },
+    {
+      "type": "text",
+      "text": "hasty about this. If these other worlds exist, they may be even more dangerous than what I've already become tenuously accustomed to here. There will be great reward, I'm sure - that Harvester spirit I killed lent a hefty scythe, though it almost did its job on me - I suspect future prospects will be similar.$(br2)Always remember: $(bold)bravery is vital, but my arrogance may prove to be lethal."
     }
   ]
 }

@@ -19,8 +19,8 @@ container.rustic.brewing_barrel=Brewing Barrel
 
 #Blocks
 tile.rustic.chain.name=Iron Chandelier Chain
-tile.rustic.chain_gold.name=Golden Chain
-tile.rustic.chain_silver.name=Silver Chain
+tile.rustic.chain_gold.name=Golden Chandelier Chain
+tile.rustic.chain_silver.name=Silver Chandelier Chain
 tile.rustic.stone_pillar.name=Coade Stone Pillar
 tile.rustic.andesite_pillar.name=Gray Andesite Pillar
 tile.rustic.diorite_pillar.name=Diorite Pillar
@@ -62,9 +62,9 @@ tile.rustic.slate_brick.name=Slate Brick
 tile.rustic.slate_chiseled.name=Chiseled Slate
 tile.rustic.barrel.name=Vertical Barrel
 tile.rustic.iron_lattice.name=Iron Lattice
-tile.rustic.iron_lantern.name=Tin Lantern
-tile.rustic.golden_lantern.name=Golden Lantern
-tile.rustic.silver_lantern.name=Silver Lantern
+tile.rustic.iron_lantern.name=Metal Torch Lantern
+tile.rustic.golden_lantern.name=Golden Torch Lantern
+tile.rustic.silver_lantern.name=Silver Torch Lantern
 tile.rustic.painted_wood_white.name=White Painted Wood
 tile.rustic.painted_wood_orange.name=Orange Painted Wood
 tile.rustic.painted_wood_magenta.name=Magenta Painted Wood
@@ -138,8 +138,8 @@ tile.rustic.apple_seeds.name=Apple Seeds
 tile.rustic.sapling_apple.name=Apple Sapling
 tile.rustic.leaves_apple.name=Apple Leaves
 tile.rustic.lantern_wood.name=Wooden Lantern
-tile.rustic:olivebranch.name=Dynamic Olive Tree
-tile.rustic:ironwoodbranch.name=Dynamic Ironwood Tree
+tile.rustic:olivebranch.name=Olive Tree
+tile.rustic:ironwoodbranch.name=Ironwood Tree
 tile.rustic:leaves0.name=Dynamic Leaves
 
 #Items

@@ -32,7 +32,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 23
+				"cluster-size": 18
 			},
 			"material": [
 				"minecraft:grass",
@@ -46,7 +46,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 6,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
@@ -54,6 +54,7 @@
 				"value": [
       				"biomesoplenty:temperate_rainforest",
       				"biomesoplenty:redwood_forest",
+					"biomesoplenty:redwood_forest_edge",
       				"biomesoplenty:seasonal_forest"
 				]
 			}

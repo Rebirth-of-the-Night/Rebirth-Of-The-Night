@@ -25,6 +25,7 @@
 		"betternether:cincinnasite_pot": "hardmetal,organic_dry",
 		"betternether:quartz_glass_framed": "hardmetal,glass",
 		"betternether:quartz_glass_framed_pane": "hardmetal,glass",
-		"betternether:quartz_stained_glass_framed": "hardmetal,glass"
+		"betternether:quartz_stained_glass_framed": "hardmetal,glass",
+		"betternether:netherrack_moss": "grass,stone"
 	}
 }

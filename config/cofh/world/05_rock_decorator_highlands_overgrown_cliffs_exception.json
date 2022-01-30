@@ -28,28 +28,28 @@
 					},
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 4,
+						"weight": 3,
 						"properties": {
 							"variant" : "rock_shale"
 						}
 					},
 					{
 						"name": "pyrotech:rock",
-						"weight": 2,
+						"weight": 3,
 						"properties": {
 							"variant" : "rock_limestone"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 5,
+						"weight": 4,
 						"properties": {
 							"variant" : "rock_gneiss"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_sedimentary",
-						"weight": 1,
+						"weight": 3,
 						"properties": {
 							"variant" : "rock_siltstone"
 						}
@@ -74,7 +74,7 @@
 					"undergroundbiomes:sedimentary_overgrown",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 19
+				"cluster-size": 18
 			},
 			"material": [
 				"minecraft:grass",
@@ -88,7 +88,7 @@
 				"undergroundbiomes:sedimentary_overgrown",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

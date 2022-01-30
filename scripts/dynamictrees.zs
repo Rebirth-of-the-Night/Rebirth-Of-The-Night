@@ -68,7 +68,10 @@ for branch in branchArray {
 }
 
 JEI.removeAndHide(<dynamictreesphc:grapefruitseed>);
-
+JEI.removeAndHide(<dynamictreesbop:mangrovebranch>);
+JEI.removeAndHide(<dynamictreesphc:paperbarkcutbranch>);
+JEI.removeAndHide(<dynamictreesphc:palmbranch>);
+JEI.removeAndHide(<dynamictreesphc:dragonfruitbranch>);
 
 recipes.remove(<dynamictrees:dirtbucket>);
 recipes.addShapeless("dirt_bucket_stone", <dynamictrees:dirtbucket>,

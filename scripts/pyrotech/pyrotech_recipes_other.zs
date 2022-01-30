@@ -12,6 +12,12 @@ import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
 
 JEI.removeAndHide(<pyrotech:crate>);
+JEI.removeAndHide(<pyrotech:material:16>);
+JEI.removeAndHide(<pyrotech:quartz_axe>);
+JEI.removeAndHide(<pyrotech:quartz_hoe>);
+JEI.removeAndHide(<pyrotech:quartz_pickaxe>);
+JEI.removeAndHide(<pyrotech:quartz_shovel>);
+JEI.removeAndHide(<pyrotech:quartz_sword>);
 
 CompactingBin.removeAllRecipes();
 MechanicalCompactor.removeAllRecipes();

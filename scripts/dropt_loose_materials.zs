@@ -405,6 +405,46 @@ Dropt.list("rock_chert")
        	   .items([<pyrotech_compat:rock_sedimentary:5>], Dropt.range(4))
       )
   );
+Dropt.list("rock_netherrack")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:netherrack"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "pickaxe;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<pyrotech_compat:rock_netherrack>], Dropt.range(4))
+      )
+  );
+Dropt.list("loose_rock_holystone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["aether_legacy:holystone"])
+      .replaceStrategy("REPLACE_ALL")
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "pickaxe;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<pyrotech_compat:rock_sedimentary_sand:15>], Dropt.range(4))
+      )
+  );
+Dropt.list("rock_defiled")
+
+  .add(Dropt.rule()
+      .matchBlocks(["defiledlands:stone_defiled"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "pickaxe;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<pyrotech_compat:rock_sedimentary_sand:13>], Dropt.range(4))
+      )
+  );
 
 
 // Sedimentary stone drops cobblestone

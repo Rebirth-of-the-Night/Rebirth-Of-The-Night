@@ -501,182 +501,182 @@ ExSartagine.addKettleRecipe([salt,heavyCream],null,null,[<harvestcraft:butterite
 //Juices
 recipes.removeByRecipeName("harvestcraft:applejuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([apple, sugar*2])
+  .setShapeless([apple, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:applejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:melonjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([melon, sugar*2])
+  .setShapeless([melon, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:melonjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:carrotjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([carrot, sugar*2])
+  .setShapeless([carrot, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:carrotjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:strawberryjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([strawberry, sugar*2])
+  .setShapeless([strawberry, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:strawberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:grapejuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([grape, sugar*2])
+  .setShapeless([grape, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:grapejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:blueberryjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([blueberry, sugar*2])
+  .setShapeless([blueberry, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:blueberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cherryjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([cherry, sugar*2])
+  .setShapeless([cherry, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:cherryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:papayajuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([papaya, sugar*2])
+  .setShapeless([papaya, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:papayajuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:starfruitjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([starfruit, sugar*2])
+  .setShapeless([starfruit, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:starfruitjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:orangejuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([orange, sugar*2])
+  .setShapeless([orange, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:orangejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:peachjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([peach, sugar*2])
+  .setShapeless([peach, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:peachjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:limejuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([lime, sugar*2])
+  .setShapeless([lime, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:limejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:mangojuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([mango, sugar*2])
+  .setShapeless([mango, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:mangojuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:pomegranatejuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([pomegranate, sugar*2])
+  .setShapeless([pomegranate, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:pomegranatejuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:blackberryjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([blackberry, sugar*2])
+  .setShapeless([blackberry, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:blackberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:raspberryjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([raspberry, sugar*2])
+  .setShapeless([raspberry, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:raspberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:kiwijuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([kiwi, sugar*2])
+  .setShapeless([kiwi, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:kiwijuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cranberryjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([cranberry, sugar*2])
+  .setShapeless([cranberry, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:cranberryjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cactusfruitjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([cactusFruit, sugar*2])
+  .setShapeless([cactusFruit, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:cactusfruitjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:plumjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([plum, sugar*2])
+  .setShapeless([plum, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:plumjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:pearjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([pear, sugar*2])
+  .setShapeless([pear, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:pearjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:apricotjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([apricot, sugar*2])
+  .setShapeless([apricot, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:apricotjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:figjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([fig, sugar*2])
+  .setShapeless([fig, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:figjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:grapefruitjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([grapeFruit, sugar*2])
+  .setShapeless([grapeFruit, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:grapefruitjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:persimmonjuiceitem");
 RecipeBuilder.get("chef")
-  .setShapeless([persimmon, sugar*2])
+  .setShapeless([persimmon, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:persimmonjuiceitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:lemonaideitem");
 RecipeBuilder.get("chef")
-  .setShapeless([lemon, sugar*2])
+  .setShapeless([lemon, sugar])
   .setFluid(waterBottle2)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:lemonaideitem>*2)
@@ -686,218 +686,218 @@ RecipeBuilder.get("chef")
 recipes.removeByRecipeName("harvestcraft:melonsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("melon_smoothie")
-  .setShapeless([melon*2,sugar*2,snowball])
+  .setShapeless([melon,melon,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:melonsmoothieitem>)
+  .addOutput(<harvestcraft:melonsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:strawberrysmoothieitem");
 RecipeBuilder.get("chef")
   .setName("strawberry_smoothie")
-  .setShapeless([strawberry*2,sugar*2,snowball])
+  .setShapeless([strawberry,strawberry,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:strawberrysmoothieitem>)
+  .addOutput(<harvestcraft:strawberrysmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:lemonsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("lemon_smoothie")
-  .setShapeless([lemon*2,sugar*2,snowball])
+  .setShapeless([lemon,lemon,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:lemonsmoothieitem>)
+  .addOutput(<harvestcraft:lemonsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:blueberrysmoothieitem");
 RecipeBuilder.get("chef")
   .setName("blueberry_smoothie")
-  .setShapeless([blueberry*2,sugar*2,snowball])
+  .setShapeless([blueberry,blueberry,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:blueberrysmoothieitem>)
+  .addOutput(<harvestcraft:blueberrysmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cherrysmoothieitem");
 RecipeBuilder.get("chef")
   .setName("cherry_smoothie")
-  .setShapeless([cherry*2,sugar*2,snowball])
+  .setShapeless([cherry,cherry,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:cherrysmoothieitem>)
+  .addOutput(<harvestcraft:cherrysmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:papayasmoothieitem");
 RecipeBuilder.get("chef")
   .setName("papaya_smoothie")
-  .setShapeless([papaya*2,sugar*2,snowball])
+  .setShapeless([papaya,papaya,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:papayasmoothieitem>)
+  .addOutput(<harvestcraft:papayasmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:starfruitsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("starfruit_smoothie")
-  .setShapeless([starfruit*2,sugar*2,snowball])
+  .setShapeless([starfruit,starfruit,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:starfruitsmoothieitem>)
+  .addOutput(<harvestcraft:starfruitsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:bananasmoothieitem");
 RecipeBuilder.get("chef")
   .setName("banana_smoothie")
-  .setShapeless([banana*2,sugar*2,snowball])
+  .setShapeless([banana,banana,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:bananasmoothieitem>)
+  .addOutput(<harvestcraft:bananasmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:orangesmoothieitem");
 RecipeBuilder.get("chef")
   .setName("orange_smoothie")
-  .setShapeless([orange*2,sugar*2,snowball])
+  .setShapeless([orange,orange,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:orangesmoothieitem>)
+  .addOutput(<harvestcraft:orangesmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:peachsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("peach_smoothie")
-  .setShapeless([peach*2,sugar*2,snowball])
+  .setShapeless([peach,peach,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:peachsmoothieitem>)
+  .addOutput(<harvestcraft:peachsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:limesmoothieitem");
 RecipeBuilder.get("chef")
   .setName("lime_smoothie")
-  .setShapeless([lime*2,sugar*2,snowball])
+  .setShapeless([lime,lime,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:limesmoothieitem>)
+  .addOutput(<harvestcraft:limesmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:mangosmoothieitem");
 RecipeBuilder.get("chef")
   .setName("mango_smoothie")
-  .setShapeless([mango*2,sugar*2,snowball])
+  .setShapeless([mango,mango,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:mangosmoothieitem>)
+  .addOutput(<harvestcraft:mangosmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:pomegranatesmoothieitem");
 RecipeBuilder.get("chef")
   .setName("pomegranate_smoothie")
-  .setShapeless([pomegranate*2,sugar*2,snowball])
+  .setShapeless([pomegranate,pomegranate,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:pomegranatesmoothieitem>)
+  .addOutput(<harvestcraft:pomegranatesmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:blackberrysmoothieitem");
 RecipeBuilder.get("chef")
   .setName("blackberry_smoothie")
-  .setShapeless([blackberry*2,sugar*2,snowball])
+  .setShapeless([blackberry,blackberry,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:blackberrysmoothieitem>)
+  .addOutput(<harvestcraft:blackberrysmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:raspberrysmoothieitem");
 RecipeBuilder.get("chef")
   .setName("raspberry_smoothie")
-  .setShapeless([raspberry*2,sugar*2,snowball])
+  .setShapeless([raspberry,raspberry,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:raspberrysmoothieitem>)
+  .addOutput(<harvestcraft:raspberrysmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:kiwismoothieitem");
 RecipeBuilder.get("chef")
   .setName("kiwi_smoothie")
-  .setShapeless([kiwi*2,sugar*2,snowball])
+  .setShapeless([kiwi,kiwi,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:kiwismoothieitem>)
+  .addOutput(<harvestcraft:kiwismoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:apricotsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("apricot_smoothie")
-  .setShapeless([apricot*2,sugar*2,snowball])
+  .setShapeless([apricot,apricot,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:apricotsmoothieitem>)
+  .addOutput(<harvestcraft:apricotsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:figsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("fig_smoothie")
-  .setShapeless([fig*2,sugar*2,snowball])
+  .setShapeless([fig,fig,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:figsmoothieitem>)
+  .addOutput(<harvestcraft:figsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:grapefruitsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("grapefruit_smoothie")
-  .setShapeless([grapeFruit*2,sugar*2,snowball])
+  .setShapeless([grapeFruit,grapeFruit,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:grapefruitsmoothieitem>)
+  .addOutput(<harvestcraft:grapefruitsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:persimmonsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("persimmon_smoothie")
-  .setShapeless([persimmon*2,sugar*2,snowball])
+  .setShapeless([persimmon,persimmon,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:persimmonsmoothieitem>)
+  .addOutput(<harvestcraft:persimmonsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:gooseberrysmoothieitem");
 RecipeBuilder.get("chef")
   .setName("gooseberry_smoothie")
-  .setShapeless([gooseberry*2,sugar*2,snowball])
+  .setShapeless([gooseberry,gooseberry,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:gooseberrysmoothieitem>)
+  .addOutput(<harvestcraft:gooseberrysmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:applesmoothieitem");
 RecipeBuilder.get("chef")
   .setName("apple_smoothie")
-  .setShapeless([apple*2,sugar*2,snowball])
+  .setShapeless([apple,apple,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:applesmoothieitem>)
+  .addOutput(<harvestcraft:applesmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:coconutsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("coconut_smoothie")
-  .setShapeless([coconut*2,sugar*2,snowball])
+  .setShapeless([coconut,coconut,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:coconutsmoothieitem>)
+  .addOutput(<harvestcraft:coconutsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:cranberrysmoothieitem");
 RecipeBuilder.get("chef")
   .setName("cranberry_smoothie")
-  .setShapeless([cranberry*2,sugar*2,snowball])
+  .setShapeless([cranberry,cranberry,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:cranberrysmoothieitem>)
+  .addOutput(<harvestcraft:cranberrysmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:grapesmoothieitem");
 RecipeBuilder.get("chef")
   .setName("grape_smoothie")
-  .setShapeless([grape*2,sugar*2,snowball])
+  .setShapeless([grape,grape,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:grapesmoothieitem>)
+  .addOutput(<harvestcraft:grapesmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:pearsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("pear_smoothie")
-  .setShapeless([pear*2,sugar*2,snowball])
+  .setShapeless([pear,pear,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:pearsmoothieitem>)
+  .addOutput(<harvestcraft:pearsmoothieitem>*2)
   .create();
 recipes.removeByRecipeName("harvestcraft:plumsmoothieitem");
 RecipeBuilder.get("chef")
   .setName("plum_smoothie")
-  .setShapeless([plum*2,sugar*2,snowball])
+  .setShapeless([plum,plum,sugar,snowball])
   .setFluid(waterBottle)
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:plumsmoothieitem>)
+  .addOutput(<harvestcraft:plumsmoothieitem>*2)
   .create();
 
 //Yogurts

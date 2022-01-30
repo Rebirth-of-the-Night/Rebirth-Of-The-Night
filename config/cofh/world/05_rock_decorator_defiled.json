@@ -22,7 +22,7 @@
 					"defiledlands:gravel_defiled",
 					"rotn_blocks:scuttling_block"
 				],
-				"cluster-size": 19
+				"cluster-size": 18
 			},
 			"material": [
 				"defiledlands:stone_defiled",
@@ -33,7 +33,7 @@
 				"defiledlands:gravel_defiled",
 				"rotn_blocks:scuttling_block"
 			],
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

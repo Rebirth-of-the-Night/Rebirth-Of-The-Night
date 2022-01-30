@@ -191,6 +191,8 @@ JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
 furnace.remove(<betterwithaddons:food_cooked_rice>);
 LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
+JEI.removeAndHide(<betterwithaddons:wrought_lamp>);
+
 recipes.remove(<betterwithaddons:material:3>);
 recipes.remove(<betterwithaddons:thorn_rose:0>);
 

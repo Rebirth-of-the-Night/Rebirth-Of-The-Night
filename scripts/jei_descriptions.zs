@@ -125,15 +125,15 @@ JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the la
 JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in this world where you awakened. Its applications are countless, but apart of serving various purposes as a gem, like most other gems it can prove a powerful reinforcing material for steel alloy; diamond ingots can create "diamond" armor, tools and weapons.');
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
 JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the center island after killing the Ender Dragon.");
-JEI.addDescription(<ore:dustCopper>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustZinc>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustTin>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustBronze>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustIron>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustGold>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustSilver>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustGravitite>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustEndorium>,"crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustCopper>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustZinc>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustTin>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustBronze>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustIron>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustGold>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustSilver>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustGravitite>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustEndorium>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(zincOre, "Also known as calamine. It can be found underground in freezing biomes where lodestones also appear.");
 
 /* Manufacturing */
@@ -162,8 +162,8 @@ JEI.addDescription(<betterwithmods:wooden_gearbox>, ["One input and multiple out
 
 JEI.addDescription(<pyrotech:drying_rack:1>, "This device may hold 4 items at a time. Drying time is heavily reduced by nearby fire, but all the fire in the world won't dry something exposed to rain.");
 JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harvesting of both bark and wood chips, which can be used in the advanced crafting of tanned leather or tar and charcoal production.");
-JEI.addDescription(<pyrotech:stone_kiln>,"A primitive machine that can smelt certain items like clay, bronze alloy, and charcoal in batches of 12. Needs to be ignited with a flint and tinder or a better igniter with fuel placed inside. Use and hold the igniter until the kiln is lit.");
-JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the stone kiln that can smelt certain items like clay, bronze alloy, and charcoal in batches of 32, faster and more effectively! Ignited the same way as a stone kiln.");
+JEI.addDescription(<pyrotech:stone_kiln>,"A primitive machine that can smelt certain items like clay, bronze alloy, and charcoal in batches of 64. Needs to be ignited with a hand drill or a better igniter with fuel placed inside. Use and hold the igniter until the kiln is lit.");
+JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the brick kiln, the refractory kiln! Can smelt certain items like clay, bronze alloy, and charcoal in batches of 64 similar to the brick kiln, but faster and more effectively! Ignited the same way as a brick kiln.");
 JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
 
 JEI.addDescription(woodChips, "This byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");

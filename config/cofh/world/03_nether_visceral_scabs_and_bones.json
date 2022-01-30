@@ -15,10 +15,10 @@
 					"biomesoplenty:flesh"
 				],
 				"material": "air",
-				"cluster-size": 27,
+				"cluster-size": 30,
 				"see-sky": false
 				},
-			"cluster-count": 11,
+			"cluster-count": 5,
 			"ground-level": 250,
 			"chunk-chance": 1,
 			"retrogen": "true",
@@ -68,6 +68,43 @@
 				]
 			}
 		},
+		"rib_structures": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"ignored-block": "air",
+				"structure": [
+					{
+						"name": "/structures/ribcage_structure.nbt",
+						"weight": 1
+					},
+					{
+						"name": "/structures/ribcage_structure_1.nbt",
+						"weight": 1
+					},
+					{
+						"name": "/structures/ribcage_structure_2.nbt",
+						"weight": 1
+					}
+				],
+				"surface": [
+					"biomesoplenty:flesh"
+				],
+				"material": "biomesoplenty:flesh",
+				"cluster-size": 1,
+				"see-sky": false
+				},
+			"cluster-count": 1,
+			"ground-level": 250,
+			"chunk-chance": 9,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "id","entry": ["biomesoplenty:visceral_heap"]}
+				]
+			}
+		},
 		"bone_structures": {
 			"distribution": "cave",
 			"generator": {
@@ -76,15 +113,15 @@
 				"structure": [
 					{
 						"name": "/structures/bone_structure.nbt",
-						"weight": 4
+						"weight": 1
 					},
 					{
 						"name": "/structures/bone_structure_1.nbt",
-						"weight": 3
+						"weight": 1
 					},
 					{
 						"name": "/structures/bone_structure_2.nbt",
-						"weight": 2
+						"weight": 1
 					},
 					{
 						"name": "/structures/bone_structure_3.nbt",
@@ -92,30 +129,29 @@
 					},
 					{
 						"name": "/structures/slim_bone_structure.nbt",
-						"weight": 8
+						"weight": 2
 					},
 					{
 						"name": "/structures/slim_bone_structure_1.nbt",
-						"weight": 7
+						"weight": 2
 					},
 					{
 						"name": "/structures/slim_bone_structure_2.nbt",
-						"weight": 6
+						"weight": 2
 					},
 					{
 						"name": "/structures/slim_bone_structure_3.nbt",
-						"weight": 5
+						"weight": 2
 					}
 				],
 				"surface": [
-					"biomesoplenty:flesh",
-					"minecraft:bone_block"
+					"biomesoplenty:flesh"
 				],
-				"material": "air",
-				"cluster-size": 3,
+				"material": "biomesoplenty:flesh",
+				"cluster-size": 2,
 				"see-sky": false
 				},
-			"cluster-count": 2,
+			"cluster-count": 1,
 			"ground-level": 250,
 			"chunk-chance": 1,
 			"retrogen": true,

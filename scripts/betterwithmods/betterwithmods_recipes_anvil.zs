@@ -44,15 +44,15 @@ Anvil.addShaped(<betterwithmods:steel_gearbox>, [
 ]);
 
 Anvil.removeShaped(<betterwithmods:material:48>);
-Anvil.addShaped(steelGear, [
+Anvil.addShaped(steelGear * 2, 
+[
    [null, cSteelNugget, cSteelNugget, null],
-   [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
-   [cSteelNugget, cSteelIngot, cSteelIngot, cSteelNugget],
+   [cSteelNugget, cSteelNugget, cSteelNugget, cSteelNugget],
+   [cSteelNugget, cSteelNugget, cSteelNugget, cSteelNugget],
    [null, cSteelNugget, cSteelNugget, null]
 ]);
 
 recipes.removeByRecipeName("betterwithmods:blocks/mech/fix_steel_gearbox");
-recipes.addShapeless("steel_gearbox_fix", <betterwithmods:steel_gearbox>, [<betterwithmods:steel_broken_gearbox>, steelGear, steelGear, steelGear, steelGear]);
 
 // Heart of diamond
 Anvil.addShaped(<quark:diamond_heart>, 
@@ -109,9 +109,10 @@ Anvil.addShaped(<betterwithaddons:material:0>,
 Anvil.removeShaped(<betterwithaddons:greatarrow>);
 Anvil.addShaped(<betterwithaddons:greatarrow>, #Greatarrow
 [
-   [<ore:nuggetSteel>, <ore:nuggetSteel>, null],
-   [<ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <ore:feather>],
-   [<ore:nuggetSteel>, <ore:nuggetSteel>, null]
+   [null, <ore:nuggetSteel>, <ore:nuggetSteel>, null],
+   [<ore:arrowSoulforgedSteel>, <betterwithmods:material:36>, <betterwithmods:material:36>, <ore:feather>],
+   [null, <ore:nuggetSteel>, <ore:nuggetSteel>, null],
+   [null, null, null, null]
 ]);
 Anvil.removeShaped(<betterwithaddons:greatarrow_destruction>);
 Anvil.addShaped(<betterwithaddons:greatarrow_destruction>, #Destructive Greatarrow

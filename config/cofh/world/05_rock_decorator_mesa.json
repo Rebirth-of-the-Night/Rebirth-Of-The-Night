@@ -47,7 +47,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 16
+				"cluster-size": 15
 			},
 			"material": [
 				"minecraft:grass",
@@ -61,7 +61,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 2,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

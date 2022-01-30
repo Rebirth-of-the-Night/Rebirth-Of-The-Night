@@ -39,7 +39,7 @@
 					"undergroundbiomes:igneous_stone",
 					"minecraft:snow"
 				],
-				"cluster-size": 19
+				"cluster-size": 18
 			},
 			"material": [
 				"minecraft:grass",
@@ -53,7 +53,7 @@
 				"undergroundbiomes:igneous_stone",
 				"minecraft:snow"
 			],
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {

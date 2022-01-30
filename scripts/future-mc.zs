@@ -29,6 +29,20 @@ recipes.addShaped("futuremc_else/smooth_stonerecipe", <minecraft:stone_slab:0>*6
   [<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>]
 ]);
 
+recipes.remove(<futuremc:chain>);
+recipes.addShaped("lantern_chain", <futuremc:chain>, [
+    [null, <ore:genericMetalNuggets>, null],
+    [null, <iceandfire:chain_link>, null],
+    [null,<ore:genericMetalNuggets>,null,]
+]);
+
+recipes.remove(<futuremc:soul_fire_lantern>);
+recipes.addShaped("soul_oil_lantern", <futuremc:soul_fire_lantern>, [
+    [<dungeontactics:steel_nugget>, <iceandfire:chain_link>, <dungeontactics:steel_nugget>],
+    [<dungeontactics:steel_nugget>, <biomesoplenty:jar_filled:1>, <dungeontactics:steel_nugget>],
+    [<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>,<dungeontactics:steel_nugget>,]
+]);
+
 // Banner patterns
 recipes.addShapeless("banner_pattern_flower", <futuremc:banner_pattern:0>, [<minecraft:paper>, <ore:flower>]);
 recipes.addShapeless("banner_pattern_creeper", <futuremc:banner_pattern:1>, [<minecraft:paper>, <minecraft:skull:4> | <harvestcraft:creepercookieitem> | <rats:charged_creeper_chunk>]);

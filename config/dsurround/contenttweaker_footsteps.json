@@ -5,7 +5,6 @@
 		"contenttweaker:rocky_dirt": "dirt,stone",
 		"contenttweaker:n_copper_sandstone": "ore",
 		"contenttweaker:n_copper_sandstone_red": "ore",
-		"contenttweaker:limestone_cobble": "sandstone",
 		"contenttweaker:ardicite": "stone,fire",
 		"contenttweaker:dormant_ardicite_onyx": "ore,fire",
 		"contenttweaker:healing": "composite",
@@ -61,17 +60,15 @@
 		"contenttweaker:unfired_mud_brick": "organic",
 		"betterwithmods:unfired_pottery[potterytype=nether_brick]": "organic",
 		"contenttweaker:unfired_fiery_brick": "organic",
-		"contenttweaker:big_limestone_bricks": "sandstone",
-		"contenttweaker:big_chalk_bricks": "sandstone",
-		"contenttweaker:big_shale_bricks": "brickstone",
-		"contenttweaker:big_siltstone_bricks": "brickstone",
-		"contenttweaker:big_lignite_bricks": "brickstone",
-		"contenttweaker:big_dolomite_bricks": "brickstone",
-		"contenttweaker:big_greywacke_bricks": "brickstone",
-		"contenttweaker:big_chert_bricks": "brickstone",
 		"contenttweaker:foundation_micomi": "brickstone",
 		"contenttweaker:glareshaft_small": "metalbar",
 		"contenttweaker:tapestry_red": "rug",
-		"contenttweaker:tapestry_purple": "rug"
+		"contenttweaker:tapestry_purple": "rug",
+		"contenttweaker:cave_grass+foliage": "straw",
+		"contenttweaker:perforata+foliage": "straw",
+		"contenttweaker:cave_bramble+foliage": "straw",
+		"contenttweaker:cave_rafflesia+foliage": "straw",
+		"contenttweaker:seasoned_stump": "log",
+		"contenttweaker:venerable_stump": "log"
 	}
 }

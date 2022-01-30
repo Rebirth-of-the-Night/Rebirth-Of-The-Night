@@ -26,7 +26,25 @@
 		"quark:iron_ladder": "hardmetal",
 		"quark:stonebrick_mossy_stairs": "brickstone",
 		"quark:stonebrick_mossy_slab": "brickstone",
-		"futuremc:mossy_stone_brick_wall+bigger": "brickstone"
-
+		"futuremc:mossy_stone_brick_wall+bigger": "brickstone",
+		"quark:crystal": "ore",
+		"quark:crystal_pane": "ore",
+		"quark:thatch": "straw",
+		"quark:thatch_slab": "straw",
+		"quark:thatch_slab_double": "straw",
+		"quark:thatch_stairs": "straw",
+		"quark:reed_block": "bluntwood",
+		"quark:reed_block_slab": "bluntwood",
+		"quark:reed_block_slab_double": "bluntwood",
+		"quark:reed_block_stairs": "bluntwood",
+		"quark:reed_block_wall+bigger": "bluntwood",
+		"quark:midori_block": "brickstone",
+		"quark:midori_block_slab": "brickstone",
+		"quark:midori_block_slab_double": "brickstone",
+		"quark:midori_block_stairs": "brickstone",
+		"quark:midori_block_wall+bigger": "brickstone",
+		"quark:midori_pillar": "brickstone",
+		"quark:sturdy_stone": "stoneutility",
+		"quark:monster_box": "metalbar"
 	}
 }

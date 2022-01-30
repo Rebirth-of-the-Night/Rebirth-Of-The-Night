@@ -4,6 +4,7 @@
     names: [
       biomesoplenty:temperate_rainforest
       biomesoplenty:redwood_forest
+      biomesoplenty:redwood_forest_edge
       biomesoplenty:seasonal_forest
     ]
   }

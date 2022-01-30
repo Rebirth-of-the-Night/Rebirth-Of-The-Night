@@ -238,10 +238,10 @@ recipes.addShaped("quilting_sail", <betterwithmods:material:4>,
  [[<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>],
   [<minecraft:carpet:*>,<pyrotech:material:26>,<minecraft:carpet:*>],
   [<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>]]);
-recipes.addShaped("metal_sawblade", <pyrotech:sawmill_blade_iron>,
- [[<ore:genericMetalNuggets>,<ore:genericMetal>,<ore:genericMetalNuggets>],
-  [<ore:genericMetal>,null,<ore:genericMetal>],
-  [<ore:genericMetalNuggets>,<ore:genericMetal>,<ore:genericMetalNuggets>]]);
+recipes.addShaped("steel_sawblade", <pyrotech:sawmill_blade_iron>,
+ [[<dungeontactics:steel_nugget>,<dungeontactics:steel_ingot>,<dungeontactics:steel_nugget>],
+  [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>],
+  [<dungeontactics:steel_nugget>,<dungeontactics:steel_ingot>,<dungeontactics:steel_nugget>]]);
 recipes.addShaped("refractory_collector", <pyrotech:tar_collector:1>,
  [[refractoryBrick,null,refractoryBrick],
   [refractoryBrick,null,refractoryBrick],

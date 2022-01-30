@@ -871,6 +871,7 @@ layers: [
     # **This value may not be null**.
     state: null
     height: [ 0, 20 ]
+    matchers: [ "stone" ]
 
     ceiling: {
       scale: 0.5
@@ -890,13 +891,16 @@ clusters: [
     radiusZ: [ 13, 19 ]
     centerHeight: [ 24, 40 ]
 
-    # Can be used instead of radiusX, radiusY, and radiuZ to provide
+    # Can be used instead of radiusX, radiusY, and radiusZ to provide
     # default for each of those fields.
     radius: null
 
     # Optional blocks to compare against. Leave this empty
     # if you don't need it and all stone types will be matched.
     matchers: []
+
+    # Determines whether this feature is allowed to spawn in midair.
+    spawnInAir: false
   }
 ]
 

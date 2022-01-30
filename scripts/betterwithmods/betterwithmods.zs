@@ -156,6 +156,7 @@ var cooking_cauldron = <betterwithmods:cooking_pot:1>;
 var cauldron = <minecraft:cauldron>;
 var bone = <ore:bone>;
 var bucket = <pyrotech:bucket_wood>|<pyrotech:bucket_clay>|<pyrotech:bucket_stone>|<minecraft:bucket>;
+var corner_wood = MiniBlocks.getMiniBlock("corner", <ore:plankWood>);
 var moulding_wood = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 var siding_wood = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
 var gear_wood = <pyrotech:cog_wood>;
@@ -187,10 +188,10 @@ recipes.addShaped("gear_wood_block", gear_wood*4, [
     [plank_wood, null, plank_wood],
 	[stick, plank_wood, stick]
 ]);
-recipes.addShaped("gear_wood_siding", gear_wood*4, [
-    [stick, siding_wood, stick],
-    [siding_wood, null, siding_wood],
-	[stick, siding_wood, stick]
+recipes.addShaped("gear_wood_corner", gear_wood*4, [
+    [stick, corner_wood, stick],
+    [corner_wood, null, corner_wood],
+	[stick, corner_wood, stick]
 ]);
 // pulley
 recipes.remove(<betterwithmods:single_machine:1>);

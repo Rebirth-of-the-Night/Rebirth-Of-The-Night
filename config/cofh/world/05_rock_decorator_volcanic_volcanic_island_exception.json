@@ -38,13 +38,13 @@
 					"minecraft:stone",
 					"biomesoplenty:ash_block"
 				],
-				"cluster-size": 19
+				"cluster-size": 18
 			},
 			"material": [
 				"minecraft:stone",
 				"biomesoplenty:ash_block"
 			],
-			"cluster-count": 4,
+			"cluster-count": 3,
 			"chunk-chance": 1,
 			"retrogen": "true",
 			"biome": {
