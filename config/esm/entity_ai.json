@@ -26,6 +26,15 @@
     "Digging": false,
     "Digging Blacklist": [
       "iceandfire:venerable_stump"
+      "quark:glowcelium"
+      "quark:glowshroom"
+      "rotn_blocks:mushroom_lamp_1"
+      "quark:crystal"
+      "quark:crystal_pane"
+      "glaretorch:blocklight"
+      "iceandfire:myrmex_desert_biolight"
+      "iceandfire:myrmex_jungle_biolight"
+      "stygian:endglow"
     ],
     "Invert Blacklist": false,
     "Requires Tools": true,
