@@ -336,6 +336,35 @@ item.contenttweaker.brick_end.name=End Stone Brick
 item.contenttweaker.brick_white.name=White Brick
 
 #------------------------------------------------------------------------------
+# Temporary Bricks
+#------------------------------------------------------------------------------
+
+item.contenttweaker.brick_aether_legacy_holystone.name=Holystone Bricks
+item.contenttweaker.brick_betterwithaddons_whitebrick.name=White Bricks
+item.contenttweaker.brick_biomesoplenty_mud.name=Mud Bricks
+item.contenttweaker.brick_ceramics_porcelain.name=Porcelain Bricks
+item.contenttweaker.brick_earthworks_adobe.name=Adobe Bricks
+item.contenttweaker.brick_minecraft_clay.name=Clay Bricks
+item.contenttweaker.brick_minecraft_end.name=End Bricks
+item.contenttweaker.brick_minecraft_nether.name=Nether Bricks
+item.contenttweaker.brick_minecraft_stone.name=Coade Stone Bricks
+item.contenttweaker.brick_netherex_fiery.name=Fiery Nether Bricks
+item.contenttweaker.brick_pyrotech_masonry.name=Masonry Bricks
+item.contenttweaker.brick_pyrotech_refractory.name=Refractory Bricks
+item.contenttweaker.brick_quark_brimstone.name=Brimstone Bricks
+item.contenttweaker.brick_quark_permafrost.name=Permafrost Bricks
+item.contenttweaker.brick_quark_red_sandstone.name=Red Sandstone Bricks
+item.contenttweaker.brick_quark_sandstone.name=Sandstone Bricks
+item.contenttweaker.brick_quark_sandy.name=Sandy Bricks
+item.contenttweaker.brick_quark_soul_sandstone.name=Soul Sandstone Bricks
+item.contenttweaker.dry_fitted_coade_stone.name=Dry Fitted Stone
+item.contenttweaker.dry_fitted_mixed_stone.name=Dry Fitted Mixed Stone
+item.contenttweaker.rammed_earth_loamy_dirt.name=Rammed Loamy Earth
+item.contenttweaker.rammed_earth_sandy_dirt.name=Rammed Sandy Earth
+item.contenttweaker.rammed_earth_silty_dirt.name=Rammed Silty Earth
+item.contenttweaker.rammed_earth_vanilla_dirt.name=Rammed Earth
+
+#------------------------------------------------------------------------------
 # Dunamis
 #------------------------------------------------------------------------------
 

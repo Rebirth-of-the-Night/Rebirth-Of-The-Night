@@ -171,13 +171,13 @@ recipes.addShaped("pyro_wooden_bucket", <pyrotech:bucket_wood>,
  [[<ore:plankWood>,<ore:twine>,<ore:plankWood>],
   [null,<ore:logWood>,null]]);
 recipes.addShaped("pyro_stone_door", <pyrotech:stone_door>*3,
- [[<pyrotech:stone_bricks>,<pyrotech:stone_bricks>],
-  [<pyrotech:stone_bricks>,<pyrotech:stone_bricks>],
-  [<pyrotech:stone_bricks>,<pyrotech:stone_bricks>]]);
+ [[<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:brick_pyrotech_masonry>],
+  [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:brick_pyrotech_masonry>],
+  [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:brick_pyrotech_masonry>]]);
 recipes.addShaped("pyro_refractory_door", <pyrotech:refractory_door>*3,
- [[<pyrotech:refractory_brick_block>,<pyrotech:refractory_brick_block>],
-  [<pyrotech:refractory_brick_block>,<pyrotech:refractory_brick_block>],
-  [<pyrotech:refractory_brick_block>,<pyrotech:refractory_brick_block>]]);  
+ [[<contenttweaker:brick_pyrotech_refractory>,<contenttweaker:brick_pyrotech_refractory>],
+  [<contenttweaker:brick_pyrotech_refractory>,<contenttweaker:brick_pyrotech_refractory>],
+  [<contenttweaker:brick_pyrotech_refractory>,<contenttweaker:brick_pyrotech_refractory>]]);  
 recipes.addShaped("pyro_shelf", <pyrotech:shelf>,
  [[<ore:plankWood>,<ore:slabWood>,<ore:plankWood>],
   [<ore:plankWood>,<ore:slabWood>,<ore:plankWood>],
@@ -214,10 +214,9 @@ recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
   [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro_refracotrymaterial_slag", refractoryMaterial, [<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
 recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[refractoryMaterial]);
-furnace.addRecipe(<minecraft:stonebrick>, <minecraft:stonebrick:2>, 0.0);
-recipes.addShaped("masonry_refractoryBricks", <pyrotech:refractory_brick_block>, 
-[[refractoryBrick, refractoryBrick],
-[refractoryBrick, refractoryBrick]]);
+furnace.remove(<minecraft:stonebrick:2>);
+furnace.addRecipe(<contenttweaker:brick_minecraft_stone>, <minecraft:stonebrick:2>, 0.0);
+furnace.addRecipe(<minecraft:stonebrick:2>, <contenttweaker:brick_minecraft_stone>, 0.0);
 recipes.addShaped("refractoryBlock", <contenttweaker:unfiredrefractory>, 
 [[refractoryMaterial, refractoryMaterial],
 [refractoryMaterial, refractoryMaterial]]);

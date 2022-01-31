@@ -64,6 +64,7 @@ item.dungeontactics:master_cestus_pummel.name=Master Cestus "Pummel"
 
 item.dungeontactics:wooden_hammer.name=Wooden Hammer
 item.dungeontactics:bone_hammer.name=Bone Club
+item.dungeontactics:golden_club.name=Sasutcher
 item.dungeontactics:stone_hammer.name=Stone Hammer
 item.dungeontactics:iron_hammer.name=Iron Hammer
 item.dungeontactics:silver_hammer.name=Silver Hammer
@@ -77,7 +78,7 @@ item.dungeontactics:bone_battleaxe.name=Bone Battleaxe
 item.dungeontactics:stone_battleaxe.name=Stone Battleaxe
 item.dungeontactics:iron_battleaxe.name=Iron Battleaxe
 item.dungeontactics:silver_battleaxe.name=Silver Battleaxe
-item.dungeontactics:golden_battleaxe.name=Golden Battleaxe
+item.dungeontactics:golden_battleaxe.name=Golden Executioner Sword
 item.dungeontactics:steel_battleaxe.name=Steel Battleaxe
 item.dungeontactics:diamond_battleaxe.name=Diamond Battleaxe
 item.dungeontactics:mithril_battleaxe.name=Mithril Battleaxe

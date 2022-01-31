@@ -36,12 +36,12 @@ lvl 9 = 108
 lvl 10(9) = 108
 	dragonsteel
 */
-GraniteAnvil.addRecipe("break_clay_brick", <minecraft:brick>*4, <minecraft:brick_block>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("break_coade_brick", <contenttweaker:brick_coade>*4, <minecraft:stonebrick>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("break_masonry_brick", <contenttweaker:masonry_brick>*4, <pyrotech:stone_bricks>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("break_nether_brick", <minecraft:netherbrick>*4, <minecraft:nether_brick>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("break_fiery_nether_brick", <netherex:fiery_netherbrick>*4, <netherex:fiery_nether_brick>, 4, "pickaxe", true);
-GraniteAnvil.addRecipe("break_mud_brick", <biomesoplenty:mud_brick>*4, <biomesoplenty:mud_brick_block>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_clay_brick", <minecraft:brick>*4, <contenttweaker:brick_minecraft_clay>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_coade_brick", <contenttweaker:brick_coade>*4, <contenttweaker:brick_minecraft_stone>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_masonry_brick", <contenttweaker:masonry_brick>*4, <contenttweaker:brick_pyrotech_masonry>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_nether_brick", <minecraft:netherbrick>*4, <contenttweaker:brick_minecraft_nether>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_fiery_nether_brick", <netherex:fiery_netherbrick>*4, <contenttweaker:brick_netherex_fiery>, 4, "pickaxe", true);
+GraniteAnvil.addRecipe("break_mud_brick", <biomesoplenty:mud_brick>*4, <contenttweaker:brick_biomesoplenty_mud>, 4, "pickaxe", true);
 GraniteAnvil.addRecipe("white_stone_recycling", <betterwithmods:material:39>, <betterwithaddons:whitebrick:2>,4, "hammer", true);
 GraniteAnvil.addRecipe("prismarine_to_prismshard", <minecraft:prismarine_shard>*3, <minecraft:prismarine>, 18, "pickaxe", true);
 GraniteAnvil.addRecipe("prism_brick_to_prismshard_to", <minecraft:prismarine_shard>*8, <minecraft:prismarine:1>, 18, "pickaxe", true);

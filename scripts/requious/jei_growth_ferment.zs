@@ -26,7 +26,7 @@ var cider_a = AssemblyRecipe.create(function(container) {
 .requireFluid("input",<liquid:fluid_booze_apple_juice>)
 .requireItem("added",<ore:yeastBrewers>)
 .requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
-.requireItem("rawInput",<minecraft:glass_bottle>)
+.requireItem("rawInput",<growthcraft_apples:applecider>)
 .requireItem("product",<growthcraft_apples:applecider:1>)
 .requireDuration("duration", 24000);
 growth_ferment.addJEIRecipe(cider_a);
@@ -37,7 +37,7 @@ var cider_b = AssemblyRecipe.create(function(container) {
 .requireFluid("input",<liquid:fluid_booze_apple_juice>)
 .requireItem("added",<minecraft:nether_wart>)
 .requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
-.requireItem("rawInput",<minecraft:glass_bottle>)
+.requireItem("rawInput",<growthcraft_apples:applecider>)
 .requireItem("product",<growthcraft_apples:applecider:1>)
 .requireDuration("duration", 15840);
 growth_ferment.addJEIRecipe(cider_b);

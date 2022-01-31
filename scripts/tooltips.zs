@@ -104,6 +104,8 @@
 
 // Unsorted
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
+<dungeontactics:golden_club>.addTooltip("Has a chance to disarm the enemy.");
+<dungeontactics:golden_battleaxe>.addTooltip("Beheading weapon.");
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
 <minecraft:crafting_table>.addTooltip("Static version.");
 <minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + format.gray(" Mat is better for long journeys."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

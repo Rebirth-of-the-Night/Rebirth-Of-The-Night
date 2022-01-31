@@ -1,0 +1,423 @@
+{
+  "default": {
+    "Awareness Radius": 16,
+    "Xray Distance": 8,
+    "Attack Everything": false,
+    "Attack Pets": true,
+    "Attack Villagers": false,
+    "Neutral Mob": false,
+    "Strafe Evade": true,
+    "Animal Retaliate": false,
+    "Ranged Atk Dist": 32,
+    "Ranged Atk Error": 5,
+    "Arrow Tips": [
+      "minecraft:slowness:60:0"
+    ],
+    "Thrown Potions": [
+      "minecraft:harming:1:0",
+      "minecraft:slowness:300:0",
+      "minecraft:blindness:300:0",
+      "minecraft:poison:300:0",
+      "minecraft:weakness:300:1",
+      "minecraft:mining_fatigue:300:2"
+    ],
+    "Pillaring": false,
+    "Pillar Block": "contenttweaker:scaffolding",
+    "Digging": false,
+    "Digging Blacklist": [
+      "iceandfire:venerable_stump"
+    ],
+    "Invert Blacklist": false,
+    "Requires Tools": true,
+    "Griefing": false,
+    "Grief Targets": [
+      "minecraft:chest",
+      "minecraft:furnace",
+      "minecraft:crafting_table",
+      "minecraft:melon_stem",
+      "minecraft:pumpkin_stem",
+      "minecraft:fence_gate",
+      "minecraft:melon_block",
+      "minecraft:pumpkin",
+      "minecraft:glass",
+      "minecraft:glass_pane",
+      "minecraft:stained_glass",
+      "minecraft:stained_glass_pane",
+      "minecraft:carrots",
+      "minecraft:potatoes",
+      "minecraft:brewing_stand",
+      "minecraft:enchanting_table",
+      "minecraft:cake",
+      "minecraft:ladder",
+      "minecraft:wooden_door",
+      "minecraft:farmland",
+      "minecraft:bookshelf",
+      "minecraft:sapling",
+      "minecraft:bed",
+      "minecraft:fence",
+      "minecraft:planks"
+    ],
+    "Demolition": 0.1,
+    "Spider Webbing": 25.0,
+    "Ender-Tele-Target": false,
+    "Infectious": false,
+    "Wither Skeletons": 0.0,
+    "Jockey": 0.02,
+    "Powered": 0.01,
+    "Walking Fuse": true,
+    "Napalm": false,
+    "Breaching": false,
+    "Cena": 0.0,
+    "Health": 1.0,
+    "Damage": 1.0,
+    "Speed": 1.0,
+    "Knockback": 1.0,
+    "Boss Mod Health": false,
+    "Boss Mod Damage": false,
+    "Boss Mod Speed": false,
+    "Boss Mod Knockback": false,
+    "Debug Targets": false
+  },
+  "entities": {
+    "specialmobs:sniperwitherskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "rats:illager_piper": {
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "minecraft:vindication_illager": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "specialmobs:brutewitherskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "twilightforest:giant_miner": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "minecraft:zombie_pigman": {
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "minecraft:wither_skeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "specialmobs:toughsilverfish": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "betteranimalsplus:kermodebear": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "minecraft:zombie_villager": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "minecraft:silverfish": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "specialmobs:brutezombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "twilightforest:redcap_sapper": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "mod_lavacow:zombiefrozen": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "minecraft:husk": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "specialmobs:plaguezombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "specialmobs:ninjawitherskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "specialmobs:knightpigzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "specialmobs:vampirepigzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "specialmobs:bruteskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "specialmobs:brutepigzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "minecraft:spider": {
+      "Spider Webbing": 0.0
+    },
+    "specialmobs:poisonsilverfish": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "twilightforest:loyal_zombie": {
+      "Pillaring": true
+    },
+    "twilightforest:kobold": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "betteranimalsplus:blackbear": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "minecraft:polar_bear": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "twilightforest:yeti": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "specialmobs:spitfirewitherskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "mod_lavacow:zombiemushroom": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "specialmobs:giantpigzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "specialmobs:hungryzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "specialmobs:fishingpigzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "specialmobs:knightwitherskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "minecraft:cave_spider": {
+      "Spider Webbing": 0.0
+    },
+    "specialmobs:gatlingwitherskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "twilightforest:minotaur": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "twilightforest:lich_minion": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "betteranimalsplus:brownbear": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "twilightforest:redcap": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "specialmobs:giantwitherskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "twilightforest:skeleton_druid": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "minecraft:zombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Infectious": false,
+      "Requires Tools": true
+    },
+    "specialmobs:knightskeleton": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "twilightforest:minoshroom": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "quark:dweller": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "specialmobs:blindingsilverfish": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "specialmobs:firezombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "twilightforest:armored_giant": {
+      "Digging": true,
+      "Griefing": true,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "specialmobs:fishingsilverfish": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "primitivemobs:mimic": {
+      "Digging": false,
+      "Griefing": true
+    },
+    "primitivemobs:goblin": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "specialmobs:specialzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "specialmobs:plaguepigzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "quark:pirate": {
+      "Pillaring": true,
+      "Griefing": true,
+      "Requires Tools": true
+    },
+    "primitivemobs:skeleton_warrior": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "twilightforest:snow_guardian": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "specialmobs:flyingsilverfish": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "twilightforest:troll": {
+      "Digging": true,
+      "Griefing": true
+    },
+    "specialmobs:giantzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Requires Tools": true
+    },
+    "netherex:wight": {
+      "Digging": true,
+      "Griefing": false
+    },
+    "minecraft:enderman": {
+      "Pillaring": true
+    },
+    "specialmobs:fishingzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Demolition": 0.01,
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
+      "Requires Tools": true
+    },
+    "specialmobs:hungrypigzombie": {
+      "Digging": true,
+      "Griefing": true,
+      "Requires Tools": true
+    }
+  }
+}

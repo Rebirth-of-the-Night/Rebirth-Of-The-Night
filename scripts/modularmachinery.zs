@@ -115,7 +115,7 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 ]);
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pizzaoven"}), [
     [null, <ore:genericMetalBars>, null],
-    [<minecraft:brick_block>, <minecraft:writable_book>, <minecraft:brick_block>], 
+    [<contenttweaker:brick_minecraft_clay>, <minecraft:writable_book>, <contenttweaker:brick_minecraft_clay>], 
     [null, <ore:netherrack>, null]
 ]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [

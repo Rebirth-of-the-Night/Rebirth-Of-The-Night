@@ -23,10 +23,10 @@ CompactingBin.removeAllRecipes();
 MechanicalCompactor.removeAllRecipes();
 
 CompactingBin.addRecipe("dirt_from_pile", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4, true);
-CompactingBin.addRecipe("rammed_from_dirt", <earthworks:block_rammed_earth>, <minecraft:dirt>, 3, true);
-CompactingBin.addRecipe("rammed_from_loamy", <quark:world_stone_bricks:2>, <biomesoplenty:dirt:0>, 3, true);
-CompactingBin.addRecipe("rammed_from_sandy", <quark:world_stone_bricks:1>, <biomesoplenty:dirt:1>, 3, true);
-CompactingBin.addRecipe("rammed_from_silty", <quark:world_stone_bricks>, <biomesoplenty:dirt:2>, 3, true);
+CompactingBin.addRecipe("rammed_from_dirt", <contenttweaker:rammed_earth_vanilla_dirt>, <minecraft:dirt>, 3, true);
+CompactingBin.addRecipe("rammed_from_loamy", <contenttweaker:rammed_earth_loamy_dirt>, <biomesoplenty:dirt:0>, 3, true);
+CompactingBin.addRecipe("rammed_from_sandy", <contenttweaker:rammed_earth_sandy_dirt>, <biomesoplenty:dirt:1>, 3, true);
+CompactingBin.addRecipe("rammed_from_silty", <contenttweaker:rammed_earth_silty_dirt>, <biomesoplenty:dirt:2>, 3, true);
 CompactingBin.addRecipe("chips_pile_from_chips", <pyrotech:pile_wood_chips>, <pyrotech:rock:7>, 8, true);
 CompactingBin.addRecipe("ash_pile_from_ash", <biomesoplenty:ash_block>, <biomesoplenty:ash>, 9, true);
 CompactingBin.addRecipe("ash_pile_from_big_ash", <biomesoplenty:ash_block>, <pyrotech:material>, 3, true);
@@ -58,6 +58,8 @@ SoakingPot.removeRecipes(<minecraft:coal_block>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
+SoakingPot.removeRecipes(<minecraft:stonebrick:1>);
+SoakingPot.addRecipe("mossy_stone_bricks", <minecraft:stonebrick:1>, <liquid:water>*500, <contenttweaker:brick_minecraft_stone>, 7 * 60 * 20);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
 SoakingPot.addRecipe("carmin_vinegar", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <mod_lavacow:intestine>, 2 * 60 * 20);
 SoakingPot.addRecipe("carmin_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <ore:agedMold>, 30 * 20);
@@ -74,7 +76,7 @@ SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <
 SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:lifeblood>*950, <contenttweaker:masonry_brick>, 10 * 75 * 30);
 SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 12 * 60 * 20);
 SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
-SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <betterwithaddons:whitebrick:0>, 7 * 60 * 20);
+SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <contenttweaker:brick_betterwithaddons_whitebrick>, 7 * 60 * 20);
 SoakingPot.addRecipe("wet_soap", <betterwithaddons:wet_soap>, <liquid:water>*250, <betterwithmods:aesthetic:10>, 20 * 20);
 
 // Campfire recipes

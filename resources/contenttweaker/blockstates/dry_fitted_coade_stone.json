@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {},
+    "model": "earthworks:dry_stone0",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [
+      { "model": "earthworks:dry_stone0" },
+      { "model": "earthworks:dry_stone1" },
+      { "model": "earthworks:dry_stone2" },
+      { "model": "earthworks:dry_stone3" }
+    ],
+    "inventory": {
+      "model": "earthworks:dry_stone0"
+    }
+  }
+}

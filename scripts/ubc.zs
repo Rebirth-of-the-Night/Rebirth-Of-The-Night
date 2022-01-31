@@ -39,7 +39,7 @@ RecipeBuilder.get("mage")
   .create();
 
 // barbed wire
-val brick_block as IItemStack = <minecraft:brick_block>;
+val brick_block as IItemStack = <contenttweaker:brick_minecraft_clay>;
 brick_block.hardness = 10;
 val brick_slab as IItemStack = <minecraft:stone_slab:4>;
 brick_slab.hardness = 2;

@@ -217,7 +217,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunk-chance": 10,
+			"chunk-chance": 15,
 			"center-height": 70,
 			"spread": 10,
 			"retrogen": true,

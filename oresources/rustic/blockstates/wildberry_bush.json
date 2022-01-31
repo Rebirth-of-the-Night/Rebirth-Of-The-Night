@@ -12,7 +12,7 @@
                 { 
 					"model": "biomesoplenty:berrybush",
 					"textures": {
-						"all": "rustic:blocks/berrybush"
+						"colored": "rustic:blocks/berrybush"
 						}
 					}
                 ] } },

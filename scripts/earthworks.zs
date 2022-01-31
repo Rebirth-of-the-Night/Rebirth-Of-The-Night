@@ -82,19 +82,22 @@ JEI.removeAndHide(<earthworks:tool_iron_hammer>);
 JEI.removeAndHide(<earthworks:tool_gold_hammer>);
 JEI.removeAndHide(<earthworks:tool_diamond_hammer>);
 
+recipes.remove(<quark:world_stone_bricks:2>);
+recipes.remove(<quark:world_stone_bricks:1>);
+recipes.remove(<quark:world_stone_bricks>);
 
 val clay = <minecraft:clay_ball>;
 val cob = <earthworks:block_cob>;
 val cob_item = <earthworks:item_cob>;
 val log = <ore:logWood>;
-val rammed = <earthworks:block_rammed_earth>;
-val rammed_loamy = <quark:world_stone_bricks:2>;
+val rammed = <contenttweaker:rammed_earth_vanilla_dirt>;
+val rammed_loamy = <contenttweaker:rammed_earth_loamy_dirt>;
 val loamy_stairs = <quark:stone_andesite_bricks_stairs>;
 val loamy_slab = <quark:stone_andesite_bricks_slab>;
-val rammed_sandy = <quark:world_stone_bricks:1>;
+val rammed_sandy = <contenttweaker:rammed_earth_sandy_dirt>;
 val sandy_stairs = <quark:stone_diorite_bricks_stairs>;
 val sandy_slab = <quark:stone_diorite_bricks_slab>;
-val rammed_silty = <quark:world_stone_bricks:0>;
+val rammed_silty = <contenttweaker:rammed_earth_silty_dirt>;
 val silty_stairs = <quark:stone_granite_bricks_stairs>;
 val silty_slab = <quark:stone_granite_bricks_slab>;
 val sandPile = <ore:pileSand>;
@@ -234,9 +237,34 @@ recipes.addShapeless("lime_plaster_binder",<earthworks:item_lime_plaster>*10,[mu
 
 // adove
 recipes.remove(<earthworks:item_adobe>);
-recipes.remove(<earthworks:block_adobe>);
 recipes.addShapeless("adobe_unfired_a",<contenttweaker:unfired_adobe_brick>*2,[mud, binder]);
 recipes.addShapeless("adobe_unfired_b",<contenttweaker:unfired_adobe_brick>*2,[<contenttweaker:unfired_mud_brick>, binder]);
+// temporary recipes for harder blocks
+recipes.remove(<earthworks:block_adobe>);
+recipes.removeShapeless(<earthworks:block_adobe>*3, [<earthworks:stair_adobe>, <earthworks:stair_adobe>, <earthworks:stair_adobe>, <earthworks:stair_adobe>]);
+recipes.removeShapeless(<earthworks:block_adobe>, [<earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>]);
+recipes.remove(<earthworks:wall_adobe>);
+recipes.remove(<earthworks:stair_adobe>);
+recipes.remove(<earthworks:itemslab_adobe>);
+recipes.addShaped("adobe_brick_wall", <earthworks:wall_adobe>*6,[
+    [<contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>],
+	[<contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>]
+]);
+recipes.addShapeless("adobe_brick_stair_block", <contenttweaker:brick_earthworks_adobe>*3, [<earthworks:stair_adobe>, <earthworks:stair_adobe>, <earthworks:stair_adobe>, <earthworks:stair_adobe>]);
+recipes.addShapeless("adobe_brick_slab_block", <contenttweaker:brick_earthworks_adobe>, [<earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>]);
+recipes.addShaped("adobe_brick_stairs", <earthworks:stair_adobe>*8,[
+    [<contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>],
+	[<contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>],
+	[<contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>]
+]);
+recipes.addShaped("adobe_brick_stairs_b", <earthworks:stair_adobe>*4,[
+    [<earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>],
+	[<earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>],
+	[<earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>, <earthworks:itemslab_adobe>]
+]);
+recipes.addShaped("adobe_brick_brick_slab", <earthworks:itemslab_adobe>*6,[
+    [<contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>, <contenttweaker:brick_earthworks_adobe>]
+]);
 
 // cob ball
 JEI.removeAndHide(<earthworks:item_mud>);
@@ -257,8 +285,34 @@ JEI.removeAndHide(<earthworks:wall_chalk>);
 
 // dry fitted stone
 recipes.remove(<earthworks:block_dry_stone>);
-recipes.addShaped("dry_fit_stone",<earthworks:block_dry_stone>,[
+recipes.remove(<earthworks:itemslab_dry_stone>);
+recipes.remove(<earthworks:stair_dry_stone>);
+recipes.remove(<earthworks:wall_dry_stone>);
+recipes.removeShapeless(<earthworks:block_dry_stone>, [<earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>]);
+recipes.removeShapeless(<earthworks:block_dry_stone>, [<earthworks:itemslab_dry_stone>, <earthworks:itemslab_dry_stone>]);
+
+recipes.addShaped("dry_fit_stone",<contenttweaker:dry_fitted_coade_stone>,[
     [<ore:rock>,<ore:rock>,<ore:rock>],
 	[<ore:rock>,<ore:rock>,<ore:rock>],
 	[<ore:rock>,<ore:rock>,<ore:rock>]
 ]);
+recipes.addShaped("earthworks_dry_stone_slab", <earthworks:itemslab_dry_stone>*6,[
+    [<contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>]
+]);
+recipes.addShaped("earthworks_dry_stone_stairs", <earthworks:stair_dry_stone>*8,[
+    [<contenttweaker:dry_fitted_coade_stone>, null, null],
+	[<contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>, null],
+	[<contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>]
+]);
+recipes.addShaped("earthworks_dry_stone_stairs_b", <earthworks:stair_dry_stone>*4,[
+    [<earthworks:itemslab_dry_stone>, null, null],
+	[<earthworks:itemslab_dry_stone>, <earthworks:itemslab_dry_stone>, null],
+	[<earthworks:itemslab_dry_stone>, <earthworks:itemslab_dry_stone>, <earthworks:itemslab_dry_stone>]
+]);
+recipes.addShaped("earthworks_dry_stone_wall", <earthworks:wall_dry_stone>*6,[
+    [<contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>],
+	[<contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>, <contenttweaker:dry_fitted_coade_stone>]
+]);
+recipes.addShapeless("dry_fit_stone_slab_block",<contenttweaker:dry_fitted_coade_stone>,[<earthworks:itemslab_dry_stone>, <earthworks:itemslab_dry_stone>]);
+recipes.addShapeless("dry_fit_stone_stair_block",<contenttweaker:dry_fitted_coade_stone>,[ <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>, <earthworks:stair_dry_stone>]);
+

@@ -53,7 +53,7 @@ BurnerHeater.addFuel(<betterwithmods:aesthetic:13>, 2800, 1800*100);
 BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2500*100);
 
 //recipes
-val porcelain_bricks = <ceramics:clay_hard>;
+val porcelain_bricks = <contenttweaker:brick_ceramics_porcelain>;
 
 recipes.removeByRecipeName("ceramics:tools/cake");
 recipes.removeByRecipeName("ceramics:decoration/bricks_slab");
@@ -89,8 +89,8 @@ recipes.remove(<foundry:burner_heater>);
 
 recipes.addShaped("melting_crucible_standard", <foundry:machine:7>,[ //Melting Crucible Refractory
 	[<betterwithmods:aesthetic:7>, <pyrotech:material:5>, <betterwithmods:aesthetic:7>],
-    [<pyrotech:refractory_brick_block>, <betterwithmods:cooking_pot>, <pyrotech:refractory_brick_block>],
-    [<betterwithmods:aesthetic:7>, <pyrotech:refractory_brick_block>, <betterwithmods:aesthetic:7>]
+    [<contenttweaker:brick_pyrotech_refractory>, <betterwithmods:cooking_pot>, <contenttweaker:brick_pyrotech_refractory>],
+    [<betterwithmods:aesthetic:7>, <contenttweaker:brick_pyrotech_refractory>, <betterwithmods:aesthetic:7>]
 ]);
 recipes.addShaped("melting_crucible_advanced", <foundry:machine:6>,[ //Melting Crucible Porcelain
 	[<betterwithmods:aesthetic:7>, <ceramics:unfired_clay:5>, <betterwithmods:aesthetic:7>],
@@ -814,8 +814,8 @@ Casting.removeRecipe(<liquid:iron>*576, <foundry:mold:2>);
 
 val lava_bricks = <ceramics:clay_hard:5>;
 recipes.removeByRecipeName("ceramics:decoration/lava_bricks/block");
-Casting.addRecipe(lava_bricks*1, <liquid:lava>*100, <foundry:mold:4>,<pyrotech:refractory_brick_block>|porcelain_bricks);
-Casting.addRecipe(lava_bricks*1, <liquid:coade_stone>*144, <foundry:mold:4>,<pyrotech:refractory_brick_block>|porcelain_bricks);
+Casting.addRecipe(lava_bricks*1, <liquid:lava>*100, <foundry:mold:4>,<contenttweaker:brick_pyrotech_refractory>|porcelain_bricks);
+Casting.addRecipe(lava_bricks*1, <liquid:coade_stone>*144, <foundry:mold:4>,<contenttweaker:brick_pyrotech_refractory>|porcelain_bricks);
 Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:mythril>*16, <foundry:mold:7>);
 Casting.addRecipe(<contenttweaker:material_part:8>, <liquid:residual_mythril>*1000, <foundry:mold:7>);
 

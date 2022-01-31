@@ -34,7 +34,7 @@ for s in recipesToRemove {
     recipes.removeByRecipeName("charset:simplelogic/gates/gate_"~s);
 }
 
-val holystoneBrick = <aether_legacy:holystone_brick>;
+val holystoneBrick = <contenttweaker:brick_aether_legacy_holystone>;
 // val redstonePaste = <redstonepaste:redstonepaste>;
 val redstonePaste = <ore:dustRedstone>; // Temporary
 val redstoneDust = <ore:dustRedstone>;

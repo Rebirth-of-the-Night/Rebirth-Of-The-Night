@@ -191,8 +191,6 @@ JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
 furnace.remove(<betterwithaddons:food_cooked_rice>);
 LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
-JEI.removeAndHide(<betterwithaddons:wrought_lamp>);
-
 recipes.remove(<betterwithaddons:material:3>);
 recipes.remove(<betterwithaddons:thorn_rose:0>);
 
@@ -284,20 +282,20 @@ recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [
 ]);
 recipes.addShaped(<betterwithaddons:aqueduct> * 6, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>], 
+    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
     [<ore:StoneHugeBrick>, <ore:StoneHugeBrick>, <ore:StoneHugeBrick>]
 ]);
 recipes.addShaped(<betterwithaddons:aqueduct:1> * 6, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>], 
-    [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]
+    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 
 //Misc.
 recipes.addShapeless(<betterwithaddons:lattice> * 4, [<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>]);
 recipes.addShaped(<betterwithaddons:wrought_bars> * 6, [
     [null, null, null],
-    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], 
+    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
     [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]
 ]);
 
@@ -305,14 +303,14 @@ recipes.addShaped(<betterwithaddons:wrought_bars> * 6, [
 
 recipes.addShaped(<betterwithaddons:ancestry_bottle>, [
     [null, null, null],
-    [null, <minecraft:glass_bottle>, null], 
+    [null, <minecraft:glass_bottle>, null],
     [<nyx:fallen_star>, <quark:soul_powder>, <contenttweaker:vis_sliver>]
 ]);
 
 //INFUSER
 recipes.addShaped(<betterwithaddons:ancestry_infuser>, [
     [<contenttweaker:vis_speck>, <betterwithaddons:ancestry_bottle>, <contenttweaker:vis_speck>],
-    [<minecraft:gold_ingot>, <minecraft:carpet:10>, <minecraft:gold_ingot>], 
+    [<minecraft:gold_ingot>, <minecraft:carpet:10>, <minecraft:gold_ingot>],
     [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
 ]);
 
@@ -325,8 +323,4 @@ Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
 Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 24);
 
 //White stone
-/* recipes.addShaped(<betterwithaddons:whitebrick> * 4, [
-    [<betterwithmods:aesthetic:6>,<betterwithmods:aesthetic:6>],
-    [<betterwithmods:aesthetic:6>,<betterwithmods:aesthetic:6>]
-]); */
-furnace.addRecipe(<betterwithaddons:whitebrick>, <betterwithaddons:whitebrick:2>);
+furnace.addRecipe(<contenttweaker:brick_betterwithaddons_whitebrick>, <betterwithaddons:whitebrick:2>);

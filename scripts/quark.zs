@@ -39,7 +39,7 @@ recipes.removeByRecipeName("quark:iron_ladder");
 recipes.removeByRecipeName("quark:hopper");
 recipes.removeByRecipeName("quark:stone_slab");
 recipes.removeByRecipeName("quark:sandy_bricks");
-recipes.addShapeless("sandy_bricks",<quark:sandy_bricks>,[<minecraft:brick_block>,<ore:sand>]);
+//recipes.addShapeless("sandy_bricks",<quark:sandy_bricks>,[<contenttweaker:brick_minecraft_clay>,<ore:sand>]); Brick replacement
 
 recipes.remove(<quark:backpack>);
 recipes.remove(<quark:pipe>);

@@ -47,7 +47,7 @@ interaction.addJEIRecipe(turf);
 
 var lavaBrick = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<ceramics:clay_hard:5>);
-}).requireItem("input",<pyrotech:refractory_brick_block>).requireItem("catalyst1",<minecraft:magma_cream>).requireItem("catalyst2",<artisanworktables:artisans_carver_gold>);
+}).requireItem("input",<contenttweaker:brick_pyrotech_refractory>).requireItem("catalyst1",<minecraft:magma_cream>).requireItem("catalyst2",<artisanworktables:artisans_carver_gold>);
 interaction.addJEIRecipe(lavaBrick);
 
 var goldNugget = AssemblyRecipe.create(function(container) {

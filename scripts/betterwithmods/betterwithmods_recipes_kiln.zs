@@ -5,7 +5,10 @@ import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
 import mods.jei.JEI;
 
-mods.betterwithmods.Kiln.registerBlock(<pyrotech:refractory_brick_block>);
+mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_minecraft_clay>);
+mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_minecraft_nether>);
+mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_pyrotech_refractory>);
+mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_ceramics_porcelain>);
 
 mods.betterwithmods.Kiln.removeAll();
 
@@ -19,9 +22,17 @@ mods.betterwithmods.Kiln.add(
 );
 //Salt
 mods.betterwithmods.Kiln.add(
-	<ore:sandstone>,
+	<contenttweaker:salty_crust>,
 	[
 	<animania:salt>
+	]
+
+);
+// Brimstone
+mods.betterwithmods.Kiln.add(
+	<quark:biome_cobblestone>,
+	[
+	<betterwithmods:material:25>
 	]
 
 );
