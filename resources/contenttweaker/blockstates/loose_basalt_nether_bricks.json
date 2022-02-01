@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "brick": "netherex:blocks/basalt_brick",
-	  "overlay": "contenttweaker:blocks/loose_bricks/netherex_brick_overlay_basalt"
+	  "overlay": "contenttweaker:blocks/loose_bricks/big_brick_overlay_blueish"
     },
     "model": "contenttweaker:loose_bricks",
     "uvlock": true,

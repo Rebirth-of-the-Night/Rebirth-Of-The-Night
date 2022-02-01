@@ -132,13 +132,21 @@ var ctr as IItemStack[IItemStack] = {
   <undergroundbiomes:metamorphic_cobble:6> : <pyrotech_compat:rock_metamorphic:6>,
   <undergroundbiomes:metamorphic_cobble:7> : <pyrotech_compat:rock_metamorphic:7>,
   <contenttweaker:limestone_cobble> : <pyrotech:rock:8>,
+  <undergroundbiomes:sedimentary_sandstone> : <pyrotech_compat:rock_sedimentary_sand:8>,
   <contenttweaker:chalk_cobble> : <pyrotech_compat:rock_sedimentary>,
   <contenttweaker:shale_cobble> : <pyrotech_compat:rock_sedimentary:1>,
+  <undergroundbiomes:sedimentary_sandstone:2> : <pyrotech_compat:rock_sedimentary_sand:10>,
   <contenttweaker:siltstone_cobble> : <pyrotech_compat:rock_sedimentary:2>,
   <contenttweaker:lignite_cobble> : <pyrotech_compat:rock_igneous_sand:9>,
   <contenttweaker:dolomite_cobble> : <pyrotech_compat:rock_sedimentary:3>,
   <contenttweaker:greywacke_cobble> : <pyrotech_compat:rock_sedimentary:4>,
-  <contenttweaker:chert_cobble> : <pyrotech_compat:rock_sedimentary:5>
+  <pyrotech_compat:rock_sedimentary_sand:14> : <undergroundbiomes:sedimentary_sandstone:6>,
+  <contenttweaker:chert_cobble> : <pyrotech_compat:rock_sedimentary:5>,
+  <aether_legacy:holystone> : <pyrotech_compat:rock_sedimentary_sand:15>,
+  <minecraft:netherrack> : <pyrotech:rock_netherrack>,
+  <defiledlands:stone_defiled> : <pyrotech_compat:rock_sedimentary_sand:13>,
+  <defiledlands:sandstone_defiled> : <pyrotech_compat:rock_sedimentary_sand:9>,
+  
 } as IItemStack[IItemStack];
 
 for cobble, rock in ctr {
