@@ -1,4 +1,15 @@
 [
+	[
+	{ "select" : { "name": "biomesoplenty:flower_island"	}, "apply" : { "blacklist": true } },
+	{ "select" : { "name": "biomesoplenty:sacred_springs"	}, "apply" : { "blacklist": true } },
+	{ "select" : { "name": "biomesoplenty:origin_island"	}, "apply" : { "blacklist": true } },
+	{
+		"__comment" : "cancels all vanilla generation except for those blacklisted above",
+		"select" : { "name": "biomesoplenty:.*" },
+		"apply" : {
+			"cancelvanilla": true
+		}
+	},
 	{
 		"__comment" : "Arid Desert has a chance to generate dead trees. But dead trees don't grow in white sand or salty crust so occurence is very rare",
 		"select": { "name": "biometweaker:atacamian_desert" },
