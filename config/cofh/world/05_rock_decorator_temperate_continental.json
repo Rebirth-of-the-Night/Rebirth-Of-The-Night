@@ -58,6 +58,46 @@
       				"biomesoplenty:seasonal_forest"
 				]
 			}
+		},
+		"redwood_moss_clumps": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "pyrotech:rock_grass",
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 12
+			},
+			"material": [
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+      				"biomesoplenty:redwood_forest",
+					"biomesoplenty:redwood_forest_edge"
+				]
+			}
 		}
 	}
 }
