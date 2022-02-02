@@ -143,7 +143,7 @@ var ctr as IItemStack[IItemStack] = {
   <pyrotech_compat:rock_sedimentary_sand:14> : <undergroundbiomes:sedimentary_sandstone:6>,
   <contenttweaker:chert_cobble> : <pyrotech_compat:rock_sedimentary:5>,
   <aether_legacy:holystone> : <pyrotech_compat:rock_sedimentary_sand:15>,
-  <minecraft:netherrack> : <pyrotech:rock_netherrack>,
+  <minecraft:netherrack> : <pyrotech_compat:rock_netherrack>,
   <defiledlands:stone_defiled> : <pyrotech_compat:rock_sedimentary_sand:13>,
   <defiledlands:sandstone_defiled> : <pyrotech_compat:rock_sedimentary_sand:9>,
   
