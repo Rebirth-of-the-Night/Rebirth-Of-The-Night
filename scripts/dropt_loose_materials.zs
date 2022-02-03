@@ -460,6 +460,7 @@ Dropt.list("rock_netherrack")
 Dropt.list("rock_holystone")
 
   .add(Dropt.rule()
+	  .debug()
       .matchBlocks(["aether_legacy:holystone"])
       .replaceStrategy("REPLACE_ALL")
 	  .matchHarvester(Dropt.harvester()
