@@ -1,0 +1,2309 @@
+{
+	"populate": {
+		"generic_limestone": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"minecraft:hardened_clay"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"minecraft:hardened_clay"
+			],
+			"cluster-count": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:lush_desert",
+					"minecraft:plains",
+					"minecraft:savanna",
+					"minecraft:savanna_rock",
+					"biomesoplenty:shrubland",
+					"minecraft:mutated_plains",
+					"biomesoplenty:lavender_fields",
+					"biomesoplenty:flower_field",
+					"biomesoplenty:grassland",
+					"biomesoplenty:grove",
+					"minecraft:forest",
+					"minecraft:birch_forest",
+					"minecraft:birch_forest_hills",
+					"minecraft:roofed_forest",
+					"minecraft:mutated_forest",
+					"minecraft:mutated_birch_forest",
+					"minecraft:mutated_birch_forest_hills",
+					"minecraft:mutated_roofed_forest",
+					"minecraft:mutated_extreme_hills_with_trees",
+					"biomesoplenty:bamboo_forest",
+					"biomesoplenty:cherry_blossom_grove",
+					"biomesoplenty:maple_woods",
+					"biomesoplenty:meadow",
+					"biomesoplenty:orchard",
+					"biomesoplenty:woodland"
+				]
+			}
+		},
+		"generic_dolomite": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_dolomite"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"minecraft:hardened_clay"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"minecraft:hardened_clay"
+			],
+			"cluster-count": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:mountain_foothills",
+					"minecraft:forest_hills",
+					"minecraft:mutated_extreme_hills"
+				]
+			}
+		},
+		"generic_green_schist": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_green_schist"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_dolomite"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"minecraft:hardened_clay"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"minecraft:hardened_clay"
+			],
+			"cluster-count": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:extreme_hills",
+					"minecraft:extreme_hills_with_trees",
+					"minecraft:mutated_savanna",
+					"minecraft:mutated_savanna_rock",
+					"biomesoplenty:mountain"
+				]
+			}
+		},
+		"generic_beach": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:beaches"
+				]
+			}
+		},
+		"basaltic": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_dolomite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 5,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_rhyolite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:smaller_extreme_hills",
+					"minecraft:jungle",
+					"minecraft:jungle_hills",
+					"minecraft:jungle_edge",
+					"minecraft:mutated_jungle",
+					"minecraft:mutated_jungle_edge",
+					"biomesoplenty:eucalyptus_forest",
+					"biomesoplenty:tropical_rainforest"
+				]
+			}
+		},
+		"basaltic_rainforest": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 5,
+						"properties": {
+							"variant" : "rock_dolomite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_rhyolite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:rainforest"
+				]
+			}
+		},
+		"cold": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_chalk"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 5,
+						"properties": {
+							"variant" : "rock_soapstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_dacite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:mossy_cobblestone",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"minecraft:snow"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:mossy_cobblestone",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"minecraft:snow"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:taiga",
+					"minecraft:taiga_hills",
+					"minecraft:taiga_cold",
+					"minecraft:taiga_cold_hills",
+					"minecraft:redwood_taiga",
+					"minecraft:redwood_taiga_hills",
+					"minecraft:mutated_taiga",
+					"minecraft:mutated_taiga_cold",
+					"minecraft:mutated_redwood_taiga",
+					"minecraft:mutated_redwood_taiga_hills",
+					"biomesoplenty:alps",
+					"biomesoplenty:coniferous_forest",
+					"biomesoplenty:snowy_coniferous_forest",
+					"biomesoplenty:snowy_forest",
+					"biomesoplenty:dead_forest",
+					"biomesoplenty:boreal_forest"
+				]
+			}
+		},
+		"defiled_rocks": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 8,
+						"properties": {
+							"variant" : "rock_dolomite_sandstone"
+						}
+					}
+				],
+				"surface": [
+					"defiledlands:stone_defiled",
+					"defiledlands:sandstone_defiled",
+					"defiledlands:sand_defiled",
+					"defiledlands:dirt_defiled",
+					"defiledlands:grass_defiled",
+					"defiledlands:gravel_defiled",
+					"rotn_blocks:scuttling_block"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"defiledlands:stone_defiled",
+				"defiledlands:sandstone_defiled",
+				"defiledlands:sand_defiled",
+				"defiledlands:dirt_defiled",
+				"defiledlands:grass_defiled",
+				"defiledlands:gravel_defiled",
+				"rotn_blocks:scuttling_block"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"defiledlands:forest_tenebra",
+					"defiledlands:forest_vilespine",
+					"defiledlands:hills_defiled",
+					"defiledlands:plains_defiled",
+					"defiledlands:swamp_defiled",
+					"defiledlands:ice_plains_defiled"
+				]
+			}
+		},
+		"defiled_sand_rocks": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_chalk_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 8,
+						"properties": {
+							"variant" : "rock_dolomite_sandstone"
+						}
+					}
+				],
+				"surface": [
+					"defiledlands:stone_defiled",
+					"defiledlands:sandstone_defiled",
+					"defiledlands:sand_defiled",
+					"defiledlands:dirt_defiled",
+					"defiledlands:grass_defiled",
+					"defiledlands:gravel_defiled"
+				],
+				"cluster-size": 10
+			},
+			"material": [
+				"defiledlands:stone_defiled",
+				"defiledlands:sandstone_defiled",
+				"defiledlands:sand_defiled",
+				"defiledlands:dirt_defiled",
+				"defiledlands:grass_defiled",
+				"defiledlands:gravel_defiled"
+			],
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"defiledlands:desert_defiled"
+				]
+			}
+		},
+		"desert": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sandstone",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 10
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:desert",
+					"minecraft:desert_hills",
+					"minecraft:mutated_desert",
+					"biomesoplenty:oasis"
+				]
+			}
+		},
+		"atacamian_desert": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"biomesoplenty:white_sand",
+					"biomesoplenty:dirt",
+					"contenttweaker:salty_crust",
+					"contenttweaker:weathered_dirt",
+					"biomesoplenty:dried_sand"
+				],
+				"cluster-size": 14
+			},
+			"material": [
+				"minecraft:sand",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"biomesoplenty:white_sand",
+				"biomesoplenty:dirt",
+				"contenttweaker:salty_crust",
+				"contenttweaker:weathered_dirt",
+				"biomesoplenty:dried_sand"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biometweaker:atacamian_desert"
+				]
+			}
+		},
+		"frozen": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:snow",
+					"minecraft:sand",
+					"minecraft:snow_layer",
+					"minecraft:packed_ice",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"biomesoplenty:hard_ice",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:snow",
+				"minecraft:sand",
+				"minecraft:snow_layer",
+				"minecraft:packed_ice",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"biomesoplenty:hard_ice",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:ice_flats",
+					"minecraft:ice_mountains",
+					"minecraft:frozen_ocean",
+					"minecraft:frozen_river",
+					"minecraft:mutated_ice_flats",
+					"biomesoplenty:snowy_tundra",
+					"biomesoplenty:tundra"
+				]
+			}
+		},
+		"frozen_cold_beach": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 5,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:snow",
+					"minecraft:sand",
+					"minecraft:snow_layer",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"biomesoplenty:hard_ice",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:cold_beach"
+				]
+			}
+		},
+		"frozen_cold_desert": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_stone"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:snow",
+					"minecraft:sand",
+					"minecraft:packed_ice",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"biomesoplenty:hard_ice",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:cold_desert"
+				]
+			}
+		},
+		"crag": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_stone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_quartzite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_shale_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"undergroundbiomes:sedimentary_sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:metamorphic_overgrown",
+					"undergroundbiomes:sedimentary_overgrown",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 25
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"biomesoplenty:grass",
+				"undergroundbiomes:sedimentary_sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:metamorphic_overgrown",
+				"undergroundbiomes:sedimentary_overgrown",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 6,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:crag"
+				]
+			}
+		},
+		"overgrown_cliffs": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_quartzite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_shale_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_limestone_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"undergroundbiomes:sedimentary_sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:metamorphic_overgrown",
+					"undergroundbiomes:sedimentary_overgrown",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"biomesoplenty:grass",
+				"undergroundbiomes:sedimentary_sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:metamorphic_overgrown",
+				"undergroundbiomes:sedimentary_overgrown",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:overgrown_cliffs"
+				]
+			}
+		},
+		"overworld_highland": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "contenttweaker:masonry_brick",
+						"weight": 12
+					},
+					{
+						"name": "contenttweaker:masonry_brick_two",
+						"weight": 16
+					},
+					{
+						"name": "contenttweaker:loose_stone_bricks",
+						"weight": 2
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 12,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_sandstone",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:highland"
+				]
+			}
+		},
+		"mesa": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"minecraft:hardened_clay",
+					"minecraft:stained_hardened_clay",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 15
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"minecraft:hardened_clay",
+				"minecraft:stained_hardened_clay",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:mesa",
+					"minecraft:mesa_rock",
+					"minecraft:mesa_clear_rock"
+				]
+			}
+		},
+		"mudstones": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_soapstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_rhyolite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"biomesoplenty:mud",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"biomesoplenty:mud",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:swampland",
+					"minecraft:mutated_swampland",
+					"minecraft:river",
+					"biomesoplenty:bayou",
+					"biomesoplenty:bog",
+					"biomesoplenty:lush_swamp",
+					"biomesoplenty:mangrove",
+					"biomesoplenty:wetland",
+					"biomesoplenty:dead_swamp",
+					"biomesoplenty:fen",
+					"biomesoplenty:quagmire",
+					"biomesoplenty:land_of_lakes",
+					"biomesoplenty:marsh",
+					"biomesoplenty:moor"
+				]
+			}
+		},
+		"mudstones_chaparral": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_siltstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_soapstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_rhyolite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"biomesoplenty:mud",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:chaparral"
+				]
+			}
+		},
+		"ocean_rocks": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_gabbro"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:white_sand",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:white_sand",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:gravel_beach",
+					"biomesoplenty:white_beach"
+				]
+			}
+		},
+		"ocean_coral_reef": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_gabbro"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 13
+			},
+			"material": [
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:coral_reef"
+				]
+			}
+		},
+		"oceanic_landmass_brushland": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_metamorphic_sand",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_gneiss_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"undergroundbiomes:metamorphic_sandstone",
+					"contenttweaker:salty_crust"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"undergroundbiomes:metamorphic_sandstone",
+				"contenttweaker:salty_crust"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:brushland"
+				]
+			}
+		},
+		"oceanic_landmass_outback": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_sandstone_red"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic_sand",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_gneiss_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_shale"
+						}
+					},
+					{
+						"name": "pyrotech:rock",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_limestone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:red_sandstone",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"undergroundbiomes:metamorphic_sandstone",
+					"contenttweaker:n_copper_sandstone_red"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:sand",
+				"minecraft:red_sandstone",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"undergroundbiomes:metamorphic_sandstone",
+				"contenttweaker:n_copper_sandstone_red"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:outback"
+				]
+			}
+		},
+		"ominous_woods": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_chalk"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_eclogite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"iceandfire:chared_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_sandstone",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"iceandfire:chared_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:ominous_woods"
+				]
+			}
+		},
+		"stone_beach": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 8,
+						"properties": {
+							"variant" : "rock_chalk"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_soapstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_dacite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 30
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 7,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:stone_beach"
+				]
+			}
+		},
+		"temperate_continental": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 5,
+						"properties": {
+							"variant" : "rock_gneiss"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_red_granite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+      				"biomesoplenty:temperate_rainforest",
+      				"biomesoplenty:redwood_forest",
+					"biomesoplenty:redwood_forest_edge",
+      				"biomesoplenty:seasonal_forest"
+				]
+			}
+		},
+		"redwood_moss_clumps": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "pyrotech:rock_grass",
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 12
+			},
+			"material": [
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+      				"biomesoplenty:redwood_forest",
+					"biomesoplenty:redwood_forest_edge"
+				]
+			}
+		},
+		"unnatural": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_greywacke"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 6,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+      				"biomesoplenty:mystic_grove"
+				]
+			}
+		},
+		"volcanic": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_dolomite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_rhyolite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"minecraft:mycelium",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"biomesoplenty:white_sand",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"minecraft:mycelium",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"biomesoplenty:white_sand",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"minecraft:mushroom_island",
+					"minecraft:mushroom_island_shore",
+					"biomesoplenty:shield",
+					"biomesoplenty:tropical_island",
+					"biomesoplenty:flower_island"
+				]
+			}
+		},
+		"volcanic_island": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_dolomite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 7,
+						"properties": {
+							"variant" : "rock_basalt"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_komatiite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_rhyolite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:stone",
+					"biomesoplenty:ash_block"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:stone",
+				"biomesoplenty:ash_block"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:volcanic_island"
+				]
+			}
+		},
+		"wastes": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_greywacke"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_eclogite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"minecraft:sandstone",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"biomesoplenty:dried_sand",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"minecraft:sandstone",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"biomesoplenty:dried_sand",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:wasteland",
+					"biomesoplenty:prairie"
+				]
+			}
+		},
+		"wastes_steppe": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech_compat:rock_sedimentary_sand",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_greywacke_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_greywacke"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_eclogite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:steppe"
+				]
+			}
+		},
+		"wastes_xeric_shrubland": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"weight": 1,
+						"properties": {
+							"variant" : "rock_sandstone"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_sedimentary",
+						"weight": 4,
+						"properties": {
+							"variant" : "rock_greywacke"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_metamorphic",
+						"weight": 3,
+						"properties": {
+							"variant" : "rock_eclogite"
+						}
+					},
+					{
+						"name": "pyrotech_compat:rock_igneous",
+						"weight": 2,
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"minecraft:grass",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone",
+					"minecraft:sand",
+					"minecraft:sandstone",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt",
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone",
+					"contenttweaker:n_copper_sandstone"
+				],
+				"cluster-size": 18
+			},
+			"material": [
+				"minecraft:grass",
+				"minecraft:dirt",
+				"minecraft:gravel",
+				"minecraft:stone",
+				"minecraft:sand",
+				"minecraft:sandstone",
+				"biomesoplenty:grass",
+				"biomesoplenty:dirt",
+				"undergroundbiomes:sedimentary_stone",
+				"undergroundbiomes:metamorphic_stone",
+				"undergroundbiomes:igneous_stone",
+				"contenttweaker:n_copper_sandstone"
+			],
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:xeric_shrubland"
+				]
+			}
+		}
+	}
+}
