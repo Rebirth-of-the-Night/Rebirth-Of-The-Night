@@ -365,6 +365,7 @@ val wheat = <minecraft:wheat>;
 val peanutButter = <harvestcraft:peanutbutteritem>;
 val hops = <ore:cropHops>;
 val slimeball = <ore:slimeball>;
+val meatball = <mod_lavacow:meatball>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
@@ -429,7 +430,7 @@ ExSartagine.addKettleRecipe([bread,butter],null,null,[<harvestcraft:toastitem>],
 recipes.removeByRecipeName("harvestcraft:icecreamitem");
 recipes.removeByRecipeName("harvestcraft:icecreamitem_dustsalt");
 RecipeBuilder.get("chef")
-  .setShapeless([milkBottle, snowball, salt])
+  .setShapeless([milkBottle * 3, snowball, salt])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:icecreamitem>*3)
   .create();
@@ -487,7 +488,7 @@ recipes.removeByRecipeName("harvestcraft:pastaitem_x5");
 RecipeBuilder.get("chef")
   .setShapeless([dough,butter])
   .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:pastaitem>*5)
+  .addOutput(<harvestcraft:pastaitem>*6)
   .create();
 //Heavy Cream
 recipes.removeByRecipeName("harvestcraft:heavycreamitem");
@@ -1273,7 +1274,7 @@ recipes.removeByRecipeName("harvestcraft:cocoapowderitem");
 Mortar.addRecipe(["stone"], <harvestcraft:cocoapowderitem>, 4, [cocoa]);
 // Chocolate bar
 recipes.removeByRecipeName("harvestcraft:chocolatebaritem");
-ExSartagine.addKettleRecipe([<harvestcraft:cocoapowderitem>,butter,milkBottle],null,null,[<harvestcraft:chocolatebaritem>*4],80);
+ExSartagine.addKettleRecipe([<harvestcraft:cocoapowderitem>*4,butter,milkBottle*2],null,null,[<harvestcraft:chocolatebaritem>*4],80);
 //Hot chocolate
 recipes.removeByRecipeName("harvestcraft:hotchocolateitem");
 ExSartagine.addKettleRecipe([<harvestcraft:cocoapowderitem>,milkBottle],null,waterBottle,[<harvestcraft:hotchocolateitem>*2],80);
@@ -1302,7 +1303,7 @@ recipes.removeByRecipeName("harvestcraft:spagettiitem");
 ExSartagine.addKettleRecipe([tomato,pasta,pasta,spice],null,null,[<harvestcraft:spagettiitem>],80);
 //Spaghetti and meatballs
 recipes.removeByRecipeName("harvestcraft:spagettiandmeatballsitem");
-ExSartagine.addKettleRecipe([tomato,pasta,pasta,spice,<contenttweaker:ground_beef>],null,null,[<harvestcraft:spagettiitem>],80);
+ExSartagine.addKettleRecipe([tomato,pasta,pasta,spice,meatball*4],null,null,[<harvestcraft:spagettiandmeatballsitem>],80);
 //Tomato soup
 recipes.removeByRecipeName("harvestcraft:tomatosoupitem");
 RecipeBuilder.get("chef")
