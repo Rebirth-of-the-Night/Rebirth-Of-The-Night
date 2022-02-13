@@ -1375,7 +1375,7 @@ RecipeBuilder.get("chef")
 recipes.removeByRecipeName("harvestcraft:potatocakesitem");
 ExSartagine.addKettleRecipe([onion,potato,butter],cookKitKettle,null,[<harvestcraft:potatocakesitem>],80);
 //Hash
-recipes.removeByRecipeName("harvestcraft:potatocakesitem");
+recipes.removeByRecipeName("harvestcraft:hashitem");
 ExSartagine.addKettleRecipe([onion,potato,<contenttweaker:ground_beef>|<mod_lavacow:mousse>],cookKitKettle,null,[<harvestcraft:hashitem>],80);
 //Braised onions
 recipes.removeByRecipeName("harvestcraft:braisedonionsitem");
@@ -1496,7 +1496,7 @@ RecipeBuilder.get("chef")
   .create();
 //Raisin cookies
 recipes.removeByRecipeName("harvestcraft:raisincookiesitem");
-ExSartagine.addKettleRecipe([batter,sugar,<harvestcraft:raisinsitem>],null,null,[<harvestcraft:raisincookiesitem>],80);
+ExSartagine.addKettleRecipe([batter,sugar,<harvestcraft:raisinsitem>],null,null,[<harvestcraft:raisincookiesitem>*2],80);
 //Pickles
 recipes.removeByRecipeName("harvestcraft:picklesitem_dustsalt");
 ExSartagine.addKettleRecipe([cucumber,salt,vinegar],null,null,[<harvestcraft:picklesitem>],80);
@@ -1563,16 +1563,16 @@ RecipeBuilder.get("chef")
 recipes.removeByRecipeName("harvestcraft:chiliitem_croponion");
 recipes.removeByRecipeName("harvestcraft:chiliitem_cropchilipepper");
 recipes.removeByRecipeName("harvestcraft:chiliitem_cropbellpepper");
-ExSartagine.addKettleRecipe([beans,stewCondiment,rawPork],cookKitKettle,null,[<harvestcraft:chiliitem>],80);
+ExSartagine.addKettleRecipe([beans,stewCondiment,rawPork,chili],cookKitKettle,null,[<harvestcraft:chiliitem>],80);
 RecipeBuilder.get("chef")
   .setName("chili")
-  .setShapeless([beans,stewCondiment,cookedPork])
+  .setShapeless([beans,stewCondiment,cookedPork,chili])
   .addOutput(<harvestcraft:chiliitem>)
   .create();
-ExSartagine.addKettleRecipe([beans,stewCondiment,rawBacon],cookKitKettle,null,[<harvestcraft:chiliitem>],80);
+ExSartagine.addKettleRecipe([beans,stewCondiment,rawBacon,chili],cookKitKettle,null,[<harvestcraft:chiliitem>],80);
 RecipeBuilder.get("chef")
   .setName("chili_1")
-  .setShapeless([beans,stewCondiment,cookedBacon])
+  .setShapeless([beans,stewCondiment,cookedBacon,chili])
   .addOutput(<harvestcraft:chiliitem>)
   .create();
 //Bean burrito
@@ -1604,9 +1604,10 @@ RecipeBuilder.get("chef")
 recipes.removeByRecipeName("harvestcraft:chilipoppersitem");
 ExSartagine.addKettleRecipe([chili,batter,cheese],cookKitKettle,null,[<harvestcraft:chilipoppersitem>],80);
 //Extreme chili -&C
+recipes.removeByRecipeName("harvestcraft:extremechiliitem");
 RecipeBuilder.get("chef")
   .setName("extreme_chili")
-  .setShapeless([<harvestcraft:chiliitem>,chili])
+  .setShapeless([<harvestcraft:chiliitem>,chili,<betterwithmods:material:16>*8])
   .addOutput(<harvestcraft:extremechiliitem>)
   .create();
 RecipeBuilder.get("chef")
