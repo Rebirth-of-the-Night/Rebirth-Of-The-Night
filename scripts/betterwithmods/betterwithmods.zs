@@ -175,6 +175,7 @@ var durable_fiber = <ore:durableFiber>;
 var tanned_hide = <ore:hideTanned>;
 var paper = <ore:paper>;
 var spring = <betterwithmods:material:49>;
+val bark_strips = <primallib:bark_strips_generic>;
 // guide
 recipes.remove(<betterwithmods:manual>);
 recipes.addShaped("the_book_of_single", <betterwithmods:manual>, [
@@ -316,18 +317,22 @@ recipes.addShaped("well_bucket", <betterwithmods:bucket>,
   [<ore:genericMetal>,<pyrotech:bucket_stone>,<ore:genericMetal>],
   [<ore:genericMetal>]]);
 
-recipes.addShaped("wicker1", wicker*2,
-  [[cattail,cattail],
-  [cattail,cattail]]);
+recipes.addShaped("wicker1", wicker*4,
+  [[bark_strips, bark_strips, bark_strips],
+  [bark_strips, bark_strips, bark_strips]]);
+
+recipes.addShaped("wicker2", wicker*4,
+  [[cattail,cattail,cattail],
+  [cattail,cattail,cattail]]);
   
-recipes.addShaped("wicker2", wicker*2,
+recipes.addShaped("wicker3", wicker*3,
   [[driedf,driedf,driedf],
   [driedf,driedf,driedf]]);
   
-recipes.addShaped("wicker3", wicker*3,
+recipes.addShaped("wicker4", wicker*3,
   [[rice,rice,rice],
   [rice,rice,rice]]);
-    	
+	
 recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers");
 recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
 [<betterwithmods:rope>]);
