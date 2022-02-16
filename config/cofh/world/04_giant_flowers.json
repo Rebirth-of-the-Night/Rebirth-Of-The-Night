@@ -1,7 +1,7 @@
 {
 	"populate": 
 	{
-		"flower_bumblebee_hive": {
+		"red_flower_bumblebee_hive": {
 			"distribution": "surface",
 			"generator": {
 				"type": "structure",
@@ -24,6 +24,29 @@
 					{"type": "id","entry": ["minecraft:forest"]},
 					{"type": "id","entry": ["minecraft:jungle"]},
 					{"type": "id","entry": ["minecraft:desert"]}
+				]
+			}
+		},
+		"blue_flower_lunar_water": {
+			"distribution": "surface",
+			"generator": {
+				"type": "structure",
+				"structure": "/structures/blue_flower_lunar.nbt",
+				"ignored-block": "air"
+			},
+			"material": [
+				"biomesoplenty:grass",
+				"minecraft:grass"
+			],
+			"cluster-count": 1,
+			"chunk-chance": 120,
+			"min-height": 64,
+			"max-height": 100,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "id","entry": ["biomesoplenty:flower_island"]}
 				]
 			}
 		}

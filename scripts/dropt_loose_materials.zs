@@ -598,6 +598,38 @@ Dropt.list("cobblestone_chert")
       )
   );
   
+// Petals
+Dropt.list("red_petal")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:leaves_6:8"])
+	  .matchHarvester(Dropt.harvester()
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:giant_red_flower_petal>], Dropt.range(4))
+      )
+  );
+Dropt.list("yellow_petal")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:leaves_6:9"])
+	  .matchHarvester(Dropt.harvester()
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:giant_yellow_flower_petal>], Dropt.range(4))
+      )
+  );
+Dropt.list("blue_petal")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:petal_blue_big_flower"])
+	  .matchHarvester(Dropt.harvester()
+	  )
+  	  .addDrop(Dropt.drop()
+          .items([<contenttweaker:giant_blue_flower_petal>], Dropt.range(4))
+      )
+  );
+  
 // Raw Ore 
 Dropt.list("raw_tin")
 

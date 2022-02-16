@@ -134,3 +134,18 @@ recipes.addShaped("ashblock_compression",<minecraft:coal>,[
     [<biomesoplenty:ash_block>,<biomesoplenty:ash_block>,<biomesoplenty:ash_block>],
     [<biomesoplenty:ash_block>,<biomesoplenty:ash_block>,<biomesoplenty:ash_block>]
 ]);
+
+recipes.addShaped("red_giant_petal", <biomesoplenty:leaves_6:8>, [
+    [<contenttweaker:giant_red_flower_petal>,<contenttweaker:giant_red_flower_petal>],
+    [<contenttweaker:giant_red_flower_petal>,<contenttweaker:giant_red_flower_petal>]
+]);
+
+recipes.addShaped("yellow_giant_petal", <biomesoplenty:leaves_6:9>, [
+    [<contenttweaker:giant_yellow_flower_petal>,<contenttweaker:giant_yellow_flower_petal>],
+    [<contenttweaker:giant_yellow_flower_petal>,<contenttweaker:giant_yellow_flower_petal>]
+]);
+
+recipes.addShaped("blue_giant_petal", <contenttweaker:petal_blue_big_flower>, [
+    [<contenttweaker:giant_blue_flower_petal>,<contenttweaker:giant_blue_flower_petal>],
+    [<contenttweaker:giant_blue_flower_petal>,<contenttweaker:giant_blue_flower_petal>]
+]);

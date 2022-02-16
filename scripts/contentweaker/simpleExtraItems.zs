@@ -311,3 +311,12 @@ wroughtcore.register();
 
 val voidscall = VanillaFactory.createItem("voids_call");
 voidscall.register();
+
+val giant_red_flower_petal = VanillaFactory.createItem("giant_red_flower_petal");
+giant_red_flower_petal.register();
+
+val giant_yellow_flower_petal = VanillaFactory.createItem("giant_yellow_flower_petal");
+giant_yellow_flower_petal.register();
+
+val giant_blue_flower_petal = VanillaFactory.createItem("giant_blue_flower_petal");
+giant_blue_flower_petal.register();
