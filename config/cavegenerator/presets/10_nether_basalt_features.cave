@@ -1,0 +1,63 @@
+{
+  enabled: true
+  dimensions: [ -1 ]
+  biomes: {
+    names: [ "netherex:torrid_wasteland" ]
+  }
+  structures: [
+    {
+      name: basalt_stalactite_x4
+      matchers: [ "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      directions: down
+      chance: 1
+      count: 2
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 5, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+    {
+      name: basalt_stalactite_x6
+      matchers: [ "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      directions: down
+      chance: 0.8
+      count: 2
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 7, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+    {
+      name: basalt_stalactite_x8
+      matchers: [ "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      directions: down
+      chance: 0.7
+      count: 2
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 9, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+    {
+      name: basalt_stalactite_x17
+      matchers: [ "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      directions: down
+      chance: 0.6
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 18, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+    {
+      name: basalt_pillar_x15
+      matchers: [ "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      directions: down
+      rotateRandomly: true
+      chance: 0.6
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 16, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+  ]
+}

@@ -9,16 +9,6 @@ vtt:shady
 iceandfire:fisherman
 iceandfire:craftsman
 iceandfire:shaman
-iceandfire:desertmyrmexworker
-iceandfire:junglemyrmexworker
-iceandfire:desertmyrmexsoldier
-iceandfire:junglemyrmexsoldier
-iceandfire:desertmyrmexsentinel
-iceandfire:junglemyrmexsentinel
-iceandfire:desertmyrmexroyal
-iceandfire:junglemyrmexroyal
-iceandfire:desertmyrmexqueen
-iceandfire:junglemyrmexqueen
 primitivemobs:miner
 primitivemobs:merchant
 primitivemobs:fakemerchant

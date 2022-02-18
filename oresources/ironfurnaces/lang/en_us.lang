@@ -1,0 +1,18 @@
+tile.iron_furnace_idle.name=Mud Furnace
+tile.iron_furnace_active.name=Mud Furnace
+tile.gold_furnace_idle.name=Brick Furnace
+tile.gold_furnace_active.name=Brick Furnace
+tile.diamond_furnace_idle.name=Masonry Furnace
+tile.diamond_furnace_active.name=Masonry Furnace
+tile.glass_furnace_idle.name=Glass Furnace
+tile.glass_furnace_active.name=Glass Furnace
+tile.obsidian_furnace_idle.name=Obsidian Furnace
+tile.obsidian_furnace_active.name=Obsidian Furnace
+
+itemGroup.ironfurnaces=Alternative Furnaces
+
+container.furnace_0=Mud Furnace
+container.furnace_1=Brick Furnace
+container.furnace_2=Masonry Furnace
+container.furnace_3=Glass Furnace
+container.furnace_4=Obsidian Furnace

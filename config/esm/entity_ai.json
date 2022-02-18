@@ -65,7 +65,7 @@
       "minecraft:fence",
       "minecraft:planks"
     ],
-    "Demolition": 0.1,
+    "Demolition": 0.0,
     "Spider Webbing": 25.0,
     "Ender-Tele-Target": false,
     "Infectious": false,

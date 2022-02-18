@@ -37,6 +37,7 @@
 				"cluster-size": 5,
 				"see-sky": false
 				},
+			"material": "minecraft:soul_sand",
 			"cluster-count": 15,
 			"ground-level": 125,
 			"chunk-chance": 1,
