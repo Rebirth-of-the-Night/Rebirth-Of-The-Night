@@ -168,7 +168,37 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
      
         <harvestcraft:hotwingsitem>.foodValues.hunger = 1;
         <harvestcraft:hotwingsitem>.foodValues.saturationModifier = 1;
-
+   
+        <harvestcraft:fishdinneritem>.foodValues.hunger = 6;
+            //Fish 1 + Lemon 0.5 + Batter 1.5 = 3
+        <harvestcraft:fishdinneritem>.foodValues.saturationModifier = 0.23;
+            //(Fish 0.6 + Lemon 0.6 + Batter)(1.05^2) = 1.38915
+            //6x = 1.4, x ~= 0.23
+   
+        <harvestcraft:lemonchickenitem>.foodValues.hunger = 3;
+            //Chicken 1 + Lemon 0.5 = 1.5
+        <harvestcraft:lemonchickenitem>.foodValues.saturationModifier = 0.46;
+            //(Chicken 0.6 + Lemon 0.6 + Butter)(1.05^3) = 1.38915
+            //3x = 1.4, x ~= 0.46
+   
+        <harvestcraft:pineapplehamitem>.foodValues.hunger = 4;
+            //Pork 1 + Pineapple 0.5 + Cherry 0.5 = 2
+        <harvestcraft:pineapplehamitem>.foodValues.saturationModifier = 0.55;
+            //(Pork 0.6 + Pineapple 0.6 + Cherry 0.6 + Sugar)(1.05^4) = 2.18791125
+            //4x = 2.2, x = 0.55
+   
+        <harvestcraft:spicymustardporkitem>.foodValues.hunger = 3;
+            //Pork 1 + Spice 0.5 = 1.5
+        <harvestcraft:spicymustardporkitem>.foodValues.saturationModifier = 0.5;
+            //(Pork 0.6 + Spice 0.6 + Mustard + Salt)(1.05^4) = 1.4586075
+            //3x = 1.5, x = 0.5
+    
+        <harvestcraft:garlicchickenitem>.foodValues.hunger = 5;
+            //Chicken 1 + (3(garlic 0.5)) = 2.5
+        <harvestcraft:garlicchickenitem>.foodValues.saturationModifier = 0.62;
+            //(Chicken 0.6 + 3(garlic 0.6) + CookingOil)(1.05^5) = 3.06307575
+            //5x = 3.1, x = 0.62
+ 
     //Breaded Meats treat batter, as 1 hunger and 1n
 
         <betteranimalsplus:turkey_leg_cooked>.foodValues.hunger = 2;
@@ -324,11 +354,22 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Porkchop 0.2 + Cheese 2.5)(1.05^2) + (ButteredPotato 0.6615)(1.025)= 3.6547875
             //7x = 3.7, x ~= 0.53
  
+        <harvestcraft:mashedpotatoesitem>.foodValues.hunger = 2;
+        <harvestcraft:mashedpotatoesitem>.foodValues.saturationModifier = 0.66;
+            //(Potato 0.6 + Salt)(1.05^2)= 0.6615
+            //1x = 0.66, x = 0.66
+  
+        <harvestcraft:garlicmashedpotatoesitem>.foodValues.hunger = 3;
+            //(MashedPotato 1 + Garlic 0.5) = 1.5
+        <harvestcraft:garlicmashedpotatoesitem>.foodValues.saturationModifier = 0.43;
+            //(Garlic 0.6)(1.05) + (MashedPotato 0.6615)(1.025)= 1.3080375
+            //3x = 1.3, x ~= 0.43
+ 
         <harvestcraft:mashedpotatoesitem>.foodValues.hunger = 1;
         <harvestcraft:mashedpotatoesitem>.foodValues.saturationModifier = 0.66;
             //(Potato 0.6 + Salt)(1.05^2)= 0.6615
             //1x = 0.66, x = 0.66
- 
+    
         <harvestcraft:potatosaladitem>.foodValues.hunger = 1;
         <harvestcraft:potatosaladitem>.foodValues.saturationModifier = 0.66;
             //(Potato 0.6 + Mayo)(1.05^2)= 0.6615
@@ -409,6 +450,54 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:chilipoppersitem>.foodValues.saturationModifier = 0.72;
             //( Chili 0.6 + Cheese 2.5 + Batter)(1.05^3) = 3.5886375
             //5x = 3.6, x = 0.72
+   
+        <harvestcraft:stuffedeggplantitem>.foodValues.hunger = 3;
+            //( Eggplant 0.5 + Onion 0.5 + Bellpepper 0.5) = 1.5
+        <harvestcraft:stuffedeggplantitem>.foodValues.saturationModifier = 0.77;
+            //( Eggplant 0.6 + Bellpepper 0.6 + Onion 0.6 + Egg + Butter)(1.05^5) = 2.29730681
+            //3x = 2.3, x ~= 0.77
+   
+        <harvestcraft:bakedbeetsitem>.foodValues.hunger = 1;
+            //( Beet 0.5) = 0.5
+        <harvestcraft:bakedbeetsitem>.foodValues.saturationModifier = 0.7;
+            //( Beet 0.6 + Butter + Pepper)(1.05^3) = 0.694575
+            //1x = 0.7, x = 0.7
+   
+        <harvestcraft:bakedbeetsitem>.foodValues.hunger = 1;
+            //( Beet 0.5) = 0.5
+        <harvestcraft:bakedbeetsitem>.foodValues.saturationModifier = 0.7;
+            //( Beet 0.6 + Butter + Pepper)(1.05^3) = 0.694575
+            //1x = 0.7, x = 0.7
+   
+        <harvestcraft:broccolindipitem>.foodValues.hunger = 2;
+            //(Broccoli 0.5 + Onion 0.5 ) = 1
+        <harvestcraft:broccolindipitem>.foodValues.saturationModifier = 0.7;
+            //( Broccoli 0.6 + Onion 0.6 + HEavyCream)(1.05^3) = 1.38915
+            //2x = 1.4, x = 0.7
+
+        <harvestcraft:mashedsweetpotatoesitem>.foodValues.hunger = 1;
+        <harvestcraft:mashedsweetpotatoesitem>.foodValues.saturationModifier = 0.7;
+
+        <harvestcraft:steamedpeasitem>.foodValues.hunger = 1;
+        <harvestcraft:steamedpeasitem>.foodValues.saturationModifier = 0.7;
+   
+        <harvestcraft:roastedrootveggiemedleyitem>.foodValues.hunger = 4;
+            //(4(veggie 0.5)) = 2
+        <harvestcraft:roastedrootveggiemedleyitem>.foodValues.saturationModifier = 0.73;
+            //(4(veggie 0.6))(1.05^4) = 2.917215
+            //4x = 2.9, x ~= 0.73
+   
+        <harvestcraft:bakedturnipsitem>.foodValues.hunger = 1;
+            //( Beet 0.5) = 0.5
+        <harvestcraft:bakedturnipsitem>.foodValues.saturationModifier = 0.7;
+            //( Beet 0.6 + Butter + Pepper)(1.05^3) = 0.694575
+            //1x = 0.7, x = 0.7
+   
+        <harvestcraft:spicygreensitem>.foodValues.hunger = 3;
+            //(3(veggie 0.5)) = 1.5
+        <harvestcraft:spicygreensitem>.foodValues.saturationModifier = 0.77;
+            //(3(veggie 0.6) + Mustard + Cooking Oil)(1.05^5) = 2.29730681
+            //3x = 2.3, x ~= 0.77
 
     //Grain-related
 
@@ -481,6 +570,18 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:extremechiliitem>.foodValues.saturationModifier = 0.49;
             //( Chili 0.6 + 8(Hellfiredust))(1.05^9) + (ChiliItem 2.917215) = 3.9209423
             //8x = 3.9, x ~= 0.49 
+    
+        <harvestcraft:eggplantparmitem>.foodValues.hunger = 6;
+            //( Eggplant 0.5 + Tomato 0.5 + Cheese 1.5 + Pasta 0.5) = 3
+        <harvestcraft:eggplantparmitem>.foodValues.saturationModifier = 0.78;
+            //( Eggplant 0.6 + Tomato 0.6 + Cheese 2.5 + Pasta 0.2)(1.05^4) = 4.74047437
+            //6x = 4.7, x ~= 0.78 
+    
+        <harvestcraft:broccolimacitem>.foodValues.hunger = 5;
+            //( Broccoli 0.5 + Cheese 1.5 + Pasta 0.5) = 2.5
+        <harvestcraft:broccolimacitem>.foodValues.saturationModifier = 0.46;
+            //( Broccoli 0.6 + Cheese 2.5 + Pasta 0.2)(1.05^3) = 2.31525
+            //5x = 2.3, x = 0.46
 
     //Butters
         <harvestcraft:peanutbutteritem>.foodValues.hunger = 1;
@@ -507,6 +608,7 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:cashewbutteritem>.foodValues.saturationModifier = 0.7;
             //(Cashew 0.6 + Cooking Oil)(1.05^2) = 0.6615
             //1x = 0.7, x = 0.7
+
     //Juices
         //Excemption to food rule, kept as is valuewise
     //Smoothies
@@ -653,12 +755,29 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Tea 0.6)(1.05)= 0.63
             //1x = 0.6, x = 0.6
 
-
     //Candies
 
         <harvestcraft:taffyitem>.foodValues.hunger = 1;
         <harvestcraft:taffyitem>.foodValues.saturationModifier = 0.2;
-            //0.2
+
+        <harvestcraft:candiedlemonitem>.foodValues.hunger = 1;
+        <harvestcraft:candiedlemonitem>.foodValues.saturationModifier = 0.2;
+        
+        <harvestcraft:marshmellowsitem>.foodValues.hunger = 0.1;
+        <harvestcraft:marshmellowsitem>.foodValues.saturationModifier = 0.1;
+
+        <harvestcraft:gingersnapsitem>.foodValues.hunger = 1;
+        <harvestcraft:gingersnapsitem>.foodValues.saturationModifier = 0.7;
+            //(SweetPotato 0.6 + Sugar + Cinnamon)(1.05^3)= 0.694575
+            //1x = 0.7, x = 0.7
+
+        <harvestcraft:candiedsweetpotatoesitem>.foodValues.hunger = 1;
+        <harvestcraft:candiedsweetpotatoesitem>.foodValues.saturationModifier = 0.7;
+            //(Ginger 0.6 + Sugar + Flour)(1.05^3)= 0.694575
+            //1x = 0.7, x = 0.7
+
+        <harvestcraft:candiedgingeritem>.foodValues.hunger = 1;
+        <harvestcraft:candiedgingeritem>.foodValues.saturationModifier = 0.7;
 
     //Jellies
         <harvestcraft:grapejellyitem>.foodValues.hunger = 1;
@@ -958,7 +1077,40 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:fishtacoitem>.foodValues.saturationModifier = 0.57;
             //(Tortilla 0.6 + Cheese 2.5 + Steak 0.6 + Lettuce 0.6)(1.05^4) = 5.22667687
             //9x = 5.2, x ~= 0.57
+  
+        <harvestcraft:lemonbaritem>.foodValues.hunger = 4;
+            //(Dough 1.5 + Lemon 0.5) = 2
+        <harvestcraft:lemonbaritem>.foodValues.saturationModifier = 0.35;
+            //(Dough 0.6 + Lemon 0.6 + Sugar)(1.05^3) = 1.38915
+            //4x = 1.4, x = 0.35
+  
+        <harvestcraft:blueberrymuffinitem>.foodValues.hunger = 4;
+            //(Batter 1.5 + Blueberry 0.5) = 2
+        <harvestcraft:blueberrymuffinitem>.foodValues.saturationModifier = 0.33;
+            //(Batter 0.6 + Blueberry 0.6)(1.05^2) = 1.323
+            //4x = 1.3, x ~= 0.33
+  
+        <harvestcraft:pancakesitem>.foodValues.hunger = 5;
+            //(Batter 1.5 + Milk 1) = 2.5
+        <harvestcraft:pancakesitem>.foodValues.saturationModifier = 0.28;
+            //(Batter 0.6 + Milk 0.6 + Water)(1.05^3) = 1.38915
+            //5x = 1.4, x = 0.28
+  
+        <harvestcraft:pancakesitem>.foodValues.hunger = 6;
+            //(Pancake 2.5 + Blueberry 0.5) = 3
+        <harvestcraft:pancakesitem>.foodValues.saturationModifier = 0.35;
+            //(Blueberry 0.6)(1.05) + (Pancake 1.38915)(1.025) = 2.05387875
+            //6x = 2.1, x = 0.35
+   
+        <harvestcraft:softpretzelitem>.foodValues.hunger = 3;
+            //(Dough 1.5) = 1.5
+        <harvestcraft:softpretzelitem>.foodValues.saturationModifier = 0.23;
+            //(Dough 0.6 + water + salt + butter)(1.05^4) = 0.72930375
+            //3x = 0.7, x ~= 0.23
     
+        <harvestcraft:softpretzelandmustarditem>.foodValues.hunger = 3;
+        <harvestcraft:softpretzelandmustarditem>.foodValues.saturationModifier = 0.4;
+
     //Cookies
  
         <harvestcraft:peanutbuttercookiesitem>.foodValues.hunger = 1;
@@ -985,6 +1137,30 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Strawberry 0.5 + Dough 1.5) = 2
         <harvestcraft:strawberrypieitem>.foodValues.saturationModifier = 0.38;
             //(Strawberry 0.6 + Dough 0.6)(1.05^4)= 1.4586075
+            //4x = 1.5, x ~= 0.38
+ 
+        <harvestcraft:lemonmeringueitem>.foodValues.hunger = 4;
+            //(Lemon 0.5 + Dough 1.5) = 2
+        <harvestcraft:lemonmeringueitem>.foodValues.saturationModifier = 0.38;
+            //(Lemon 0.6 + Dough 0.6 + Sugar + Meringue)(1.05^4)= 1.4586075
+            //4x = 1.5, x ~= 0.38
+ 
+        <harvestcraft:blueberrypieitem>.foodValues.hunger = 4;
+            //(Blueberry 0.5 + Dough 1.5) = 2
+        <harvestcraft:blueberrypieitem>.foodValues.saturationModifier = 0.35;
+            //(Blueberry 0.6 + Dough 0.6 + Sugar)(1.05^3)= 1.38915
+            //4x = 1.4, x = 0.35
+ 
+        <harvestcraft:cherrypieitem>.foodValues.hunger = 4;
+            //(cherry 0.5 + Dough 1.5) = 2
+        <harvestcraft:cherrypieitem>.foodValues.saturationModifier = 0.35;
+            //(cherry 0.6 + Dough 0.6 + Sugar)(1.05^3)= 1.38915
+            //4x = 1.4, x = 0.35
+ 
+        <harvestcraft:sweetpotatopieitem>.foodValues.hunger = 4;
+            //(SweetPotato 0.5 + Dough 1.5) = 2
+        <harvestcraft:sweetpotatopieitem>.foodValues.saturationModifier = 0.38;
+            //(SweetPotato 0.6 + Dough 0.6 + Marshmallow + Cinnamon)(1.05^4)= 1.4586075            //4x = 1.4, x = 0.35
             //4x = 1.5, x ~= 0.38
 
     //Sandwiches
@@ -1484,6 +1660,20 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Rice 0.6 + Mushroom 0.6 + Onion 0.6 + Cheese 2.5)(1.05^4)= 5.22667687
             //6x = 5.2, x ~= 0.87
 
+        <harvestcraft:creamedbroccolisoupitem>.foodValues.hunger = 4;
+            //Broccoli 0.5 + Carrot 0.5 + Flour 0.5 + Stock 0.5 = 2;
+        <harvestcraft:creamedbroccolisoupitem>.foodValues.saturationModifier = 0.6;
+            //(Broccoli 0.6 + Carrot 0.6 + Flour 0.6 + Stock 0.2)(1.05^4)= 2.4310125
+            //4x = 2.4, x = 0.6
+
+        <harvestcraft:plainyogurtitem>.foodValues.hunger = 1;
+        <harvestcraft:plainyogurtitem>.foodValues.saturationModifier = 0.1;
+
+        <harvestcraft:pineappleyogurtitem>.foodValues.hunger = 2;
+            //Yogurt 0.5 + Pineapple 0.5= 1;
+        <harvestcraft:pineappleyogurtitem>.foodValues.saturationModifier = 0.45;
+            //(Yongurt 0.2 + Pineapple 0.6)(1.05^2)= 0.882
+            //2x = 0.9, x = 0.45
 
 // Copy Paste
 /*

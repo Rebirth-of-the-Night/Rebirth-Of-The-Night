@@ -338,6 +338,7 @@ val vegemite = <harvestcraft:vegemiteitem>;
 val porkSausage = <harvestcraft:porksausageitem>;
 val cabbage = <ore:cropCabbage>;
 val grain = <ore:listAllgrain>;
+val bakedpotato = <minecraft:baked_potato>;
 val curryPowder = <harvestcraft:currypowderitem>;
 val lemonaide = <harvestcraft:lemonaideitem>;
 val almond = <ore:cropAlmond>;
@@ -1131,7 +1132,7 @@ recipes.removeByRecipeName("harvestcraft:glazedcarrotsitem");
 ExSartagine.addKettleRecipe([carrot,butter,sugar],cookKitKettle,null,[<harvestcraft:glazedcarrotsitem>],80);
 //Mashed potato
 recipes.remove(<harvestcraft:mashedpotatoesitem>);
-Mortar.addRecipe(["stone"], <harvestcraft:mashedpotatoesitem>, 4, [potato,salt]);
+Mortar.addRecipe(["stone"], <harvestcraft:mashedpotatoesitem>, 4, [bakedpotato,salt]);
 //Potato salad
 recipes.removeByRecipeName("harvestcraft:potatosaladitem");
 recipes.addShapeless("potatosaladitem",<harvestcraft:potatosaladitem>,[potato,cookKitBad,mayo]);
@@ -1765,7 +1766,7 @@ recipes.removeByRecipeName("harvestcraft:gingerbreaditem");
 ExSartagine.addKettleRecipe([ginger,batter,butter,groundCinnamon],cookKitKettle,null,[<harvestcraft:gingerbreaditem>],80);
 //Ginger snaps
 recipes.removeByRecipeName("harvestcraft:gingersnapsitem");
-ExSartagine.addKettleRecipe([ginger,flour,sugar],cookKitKettle,null,[<harvestcraft:gingersnapsitem>],80);
+ExSartagine.addKettleRecipe([ginger,flour,sugar],cookKitKettle,null,[<harvestcraft:gingersnapsitem> * 2],80);
 // Candied ginger
 recipes.removeByRecipeName("harvestcraft:candiedgingeritem");
 ExSartagine.addKettleRecipe([ginger,sugar],cookKitKettle,null,[<harvestcraft:candiedgingeritem>],80);
@@ -1783,12 +1784,14 @@ recipes.removeByRecipeName("harvestcraft:spicymustardporkitem_foodblackpepper");
 recipes.removeByRecipeName("harvestcraft:spicymustardporkitem_dustsalt");
 recipes.removeByRecipeName("harvestcraft:spicymustardporkitem_cropgarlic");
 ExSartagine.addKettleRecipe([mustard,rawPork,spice,salt],cookKitKettle,null,[<harvestcraft:spicymustardporkitem>],80);
+/*
 RecipeBuilder.get("chef")
   .setName("spicy_mustard_pork")
   .setShapeless([mustard,rawPork,spice,salt])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:spicymustardporkitem>)
   .create();
+  */
 //Spicy greens
 recipes.removeByRecipeName("harvestcraft:spicygreensitem_cropspinach");
 recipes.removeByRecipeName("harvestcraft:spicygreensitem_croppeas");
