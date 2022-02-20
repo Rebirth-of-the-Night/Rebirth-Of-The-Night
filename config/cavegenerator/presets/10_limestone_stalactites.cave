@@ -1,4 +1,6 @@
 {
+  enabled: true
+  dimensions: [ 0 ]
   structures: [
     # Stalactites
     {

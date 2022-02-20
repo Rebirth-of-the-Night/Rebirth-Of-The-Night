@@ -12,7 +12,10 @@
       chance: 1
       count: 2
       offset: [ 0, 0, 0 ]
-      airChecks: [ 0, 5, 0 ]
+      airChecks: 
+	    [ 0, 4, 0 ]
+	    [ 0, 5, 0 ]
+		[ 0, 6, 0 ]
       solidChecks: [ 0, -1, 0 ]
       debugSpawns: false
     }
@@ -23,7 +26,9 @@
       chance: 0.8
       count: 2
       offset: [ 0, 0, 0 ]
-      airChecks: [ 0, 7, 0 ]
+      airChecks: 
+	    [ 0, 6, 0 ]
+		[ 0, 7, 0 ]
       solidChecks: [ 0, -1, 0 ]
       debugSpawns: false
     }
@@ -34,7 +39,9 @@
       chance: 0.7
       count: 2
       offset: [ 0, 0, 0 ]
-      airChecks: [ 0, 9, 0 ]
+      airChecks: 
+	    [ 0, 5, 0 ]
+		[ 0, 6, 0 ]
       solidChecks: [ 0, -1, 0 ]
       debugSpawns: false
     }
@@ -44,8 +51,15 @@
       directions: down
       chance: 0.6
       offset: [ 0, 0, 0 ]
-      airChecks: [ 0, 18, 0 ]
-      solidChecks: [ 0, -1, 0 ]
+      airChecks: 
+	    [ 0, 16, 0 ]
+		[ 0, 17, 0 ]
+		[ 0, 18, 0 ]
+      solidChecks: 
+	    [ -2, 0, -2 ]
+        [ -2, 0, 2 ]
+        [ 2, 0, -2 ]
+        [ 2, 0, 2 ]
       debugSpawns: false
     }
     {
@@ -56,7 +70,12 @@
       chance: 0.6
       offset: [ 0, 0, 0 ]
       airChecks: [ 0, 16, 0 ]
-      solidChecks: [ 0, -1, 0 ]
+      solidChecks: [
+        [ -3, 0, -3 ]
+        [ -3, 0, 3 ]
+        [ 3, 0, -3 ]
+        [ 3, 0, 3 ]
+      ]
       debugSpawns: false
     }
   ]

@@ -4,6 +4,23 @@
 	"trades": [
 		{
 			"output": {
+				"item": "contenttweaker:nethercoin",
+				"meta": 0,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			"minTradeCount": 1,
+			"maxTradeCount": 1,
+			"inputOne": {
+				"item": "contenttweaker:phosphophyllite",
+				"meta": 0,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			"tradeLevel": 1
+		},
+		{
+			"output": {
 				"item": "contenttweaker:phosphophyllite",
 				"meta": 0,
 				"minCount": 1,
@@ -15,27 +32,10 @@
 				"item": "netherex:amethyst_crystal",
 				"meta": 0,
 				"minCount": 5,
-				"maxCount": 12
+				"maxCount": 6
 			},
 			"tradeLevel": 1
 		},
-		{
-			"output": {
-				"item": "netherex:amethyst_crystal",
-				"meta": 0,
-				"minCount": 3,
-				"maxCount": 6
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 9,
-			"inputOne": {
-				"item": "contenttweaker:phosphophyllite",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 1
-			},
-			"tradeLevel": 1
-		}, 
 		{
 			"output": {
 				"item": "betterwithaddons:rotten_food",
@@ -101,23 +101,6 @@
 				"meta": 0,
 				"minCount": 2,
 				"maxCount": 3
-			},
-			"tradeLevel": 3
-		},
-		{
-			"output": {
-				"item": "contenttweaker:nethercoin",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 3
-			},
-			"minTradeCount": 2,
-			"maxTradeCount": 4,
-			"inputOne": {
-				"item": "contenttweaker:phosphophyllite",
-				"meta": 0,
-				"minCount": 1,
-				"maxCount": 2
 			},
 			"tradeLevel": 3
 		}
