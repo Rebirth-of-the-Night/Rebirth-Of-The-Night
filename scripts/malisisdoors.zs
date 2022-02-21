@@ -59,9 +59,9 @@ recipes.addShaped("Rampart Trapdoor", <malisisdoors:sliding_trapdoor> * 3,[
 	  [<ore:latchRedstone>, <ore:ingotTin>, <ore:ingotTin>]
 ]);
 recipes.addShaped("Rampart Door", <malisisdoors:laboratory_door> * 3,[
-	  [<ore:latchRedstone>, <ore:latchRedstone>],
-    [<ore:ingotTin>, <ore:ingotTin>],
-    [<ore:ingotTin>, <ore:ingotTin>]
+	  [<betternether:cincinnasite_forged>, <ore:latchRedstone>],
+    [<betternether:nether_brick_tile_large>, <betternether:nether_brick_tile_large>],
+    [<ore:latchRedstone>, <betternether:cincinnasite_forged>]
 ]);
 recipes.addShaped("Reinforced Door", <malisisdoors:jail_door> * 3,[
 	  [<minecraft:iron_bars>, <minecraft:iron_bars>],
