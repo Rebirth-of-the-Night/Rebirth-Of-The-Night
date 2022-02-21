@@ -42,8 +42,8 @@
       count: 2
       offset: [ 0, 0, 0 ]
       airChecks: [
-         [ 0, 5, 0 ]
-         [ 0, 6, 0 ]
+        [ 0, 5, 0 ]
+        [ 0, 6, 0 ]
       ]
       solidChecks: [ 0, -1, 0 ]
       debugSpawns: false
