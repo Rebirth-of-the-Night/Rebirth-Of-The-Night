@@ -5,8 +5,9 @@ body:
 - type: markdown
   attributes:
     value: |
-      ## ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
-      ## Issues regarding Davinci's Vessels will also be closed!
+      ## Note
+      ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
+      Issues regarding Davinci's Vessels will also be closed!
 - type: markdown
   attributes:
     value: "# Bug Info"
