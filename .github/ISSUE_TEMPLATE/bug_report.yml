@@ -53,9 +53,9 @@ body:
     label: Modpack Version
     multiple: true
     options:
-      - label: 2.77.5
-      - label: 3.0 BETA 5
-      - label: Other
+      - 2.77.5
+      - 3.0 BETA 5
+      - Other
   validations:
     required: true
 - type: dropdown
@@ -64,8 +64,8 @@ body:
     label: Server or singleplayer
     multiple: true
     options:
-      - label: Server
-      - label: Singleplayer
+      - Server
+      - Singleplayer
   validations:
     required: true
 - type: dropdown
@@ -74,9 +74,9 @@ body:
     label: "Version the world was created on:"
     multiple: true
     options:
-      - label: 2.77.5
-      - label: 3.0 BETA 5
-      - label: Other
+      - 2.77.5
+      - 3.0 BETA 5
+      - Other
   validations:
     required: true
 - type: textarea
