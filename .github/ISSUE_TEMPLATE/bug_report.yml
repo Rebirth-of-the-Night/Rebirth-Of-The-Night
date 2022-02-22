@@ -47,32 +47,38 @@ body:
     value: |
       # Game Info
       Please complete the following information!
-- type: checkboxes
+- type: dropdown
   id: game-version
   attributes:
     label: Modpack Version
+    multiple: true
     options:
       - label: 2.77.5
       - label: 3.0 BETA 5
       - label: Other
-        required: true
-- type: checkboxes
+  validations:
+    required: true
+- type: dropdown
   id: client-or-server
   attributes:
     label: Server or singleplayer
+    multiple: true
     options:
       - label: Server
       - label: Singleplayer
-        required: true
-- type: checkboxes
+  validations:
+    required: true
+- type: dropdown
   id: world-version
   attributes:
     label: "Version the world was created on:"
+    multiple: true
     options:
       - label: 2.77.5
       - label: 3.0 BETA 5
       - label: Other
-        required: true
+  validations:
+    required: true
 - type: textarea
   id: other-clarification
   attributes:
