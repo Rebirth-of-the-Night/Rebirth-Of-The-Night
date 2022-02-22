@@ -92,4 +92,4 @@ body:
     label: Additional context
     description: Add any other context about the problem here and your thoughts about what could have caused it.
   validations:
-    requied: false
+    required: false
