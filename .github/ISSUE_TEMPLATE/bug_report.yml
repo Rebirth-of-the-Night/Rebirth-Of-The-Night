@@ -34,15 +34,6 @@ body:
       Tip: You can attach images by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
-- type: textarea
-  attributes:
-    label: Screenshots
-    description: |
-      If applicable, add screenshots to help explain your problem.
-
-      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
-  validations:
-    required: false
 - type: markdown
   attributes:
     value: |
