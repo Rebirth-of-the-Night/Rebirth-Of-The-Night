@@ -8,24 +8,28 @@ body:
       ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
       Issues regarding Davinci's Vessels will also be closed!
 - type: textarea
+  id: description
   attributes:
     label: Describe the bug
     description: A clear and concise description of what the bug is.
   validations:
     required: false
 - type: textarea
+  id: steps
   attributes:
     label: To Reproduce
     description: "Steps to reproduce the behavior:"
   validations:
     required: false
 - type: textarea
+  id: expected-behavior
   attributes:
     label: Expected behavior
     description: A clear and concise description of what you expected to happen.
   validations:
     required: false
 - type: textarea
+  id: screenshots
   attributes:
     label: Screenshots
     description: |
@@ -41,6 +45,7 @@ body:
       Please complete the following information!
       Issues regarding Davinci's Vessels will also be closed!
 - type: checkboxes
+  id: game-version
   attributes:
     label: Modpack Version
     options:
@@ -49,6 +54,7 @@ body:
       - label: Other
         required: true
 - type: checkboxes
+  id: client-or-server
   attributes:
     label: Server or singleplayer
     options:
@@ -56,6 +62,7 @@ body:
       - label: Singleplayer
         required: true
 - type: checkboxes
+  id: world-version
   attributes:
     label: "Version the world was created on:"
     options:
@@ -64,12 +71,14 @@ body:
       - label: Other
         required: true
 - type: textarea
+  id: other-clarification
   attributes:
     label: Other...
     description: If you answered Other to any of the above, please clarify below.
   validations:
     required: false
 - type: textarea
+  id: context
   attributes:
     label: Additional context
     description: Add any other context about the problem here and your thoughts about what could have caused it.
