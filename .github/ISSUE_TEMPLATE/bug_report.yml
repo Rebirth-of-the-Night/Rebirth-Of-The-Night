@@ -1,0 +1,86 @@
+name: Bug Report
+description: Create a report to help us fix bugs
+title: "[BUG]"
+body:
+- type: markdown
+  attributes:
+    value: |
+      ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
+      Issues regarding Davinci's Vessels will also be closed!
+- type: textarea
+  attributes:
+    label: Describe the bug
+    description: A clear and concise description of what the bug is.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: To Reproduce
+    description: Steps to reproduce the behavior:
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Expected behavior
+    description: A clear and concise description of what you expected to happen.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Screenshots
+    description: |
+      If applicable, add screenshots to help explain your problem.
+
+      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Screenshots
+    description: |
+      If applicable, add screenshots to help explain your problem.
+
+      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: |
+      **Game Info**
+      Please complete the following information!
+      Issues regarding Davinci's Vessels will also be closed!
+- type: checkboxes
+  attributes:
+    label: Modpack Version
+    options:
+      - label: 2.77.5
+      - label: 3.0 BETA 5
+      - label: Other
+        required: true
+- type: checkboxes
+  attributes:
+    label: Server or singleplayer
+    options:
+      - label: Server
+      - label: Singleplayer
+        required: true
+- type: checkboxes
+  attributes:
+    label: Version the world was created on:
+    options:
+      - label: 2.77.5
+      - label: 3.0 BETA 5
+      - label: Other
+        required: true
+- type: textarea
+  attributes:
+    label: Other...
+    description: If you answered Other to any of the above, please clarify below.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Additional context
+    description: Add any other context about the problem here and your thoughts about what could have caused it.
+  validations:
+    requied: false
