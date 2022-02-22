@@ -1,0 +1,89 @@
+name: Crash Report
+description: Create a report to help us fix crashes
+title: "[CRASH]"
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## Note
+      ISSUES NOT USING OUR TEMPLATE WILL NOT BE CONSIDERED AND WILL BE CLOSED!
+      Crashes on worlds using Davinci's Vessels will also be closed!
+- type: markdown
+  attributes:
+    value: "# Bug Info"
+- type: textarea
+  id: description
+  attributes:
+    label: Describe the crash
+    description: A clear and concise description of what happened when you crash. Also, tell us if it continues to crash on world join or if it was a one time thing.
+  validations:
+    required: false
+- type: textarea
+  id: steps
+  attributes:
+    label: To Reproduce
+    description: "Steps to reproduce the behavior:"
+  validations:
+    required: false
+- type: textarea
+  id: logs
+  attributes:
+    label: Crash Logs
+    description: |
+      Click "Get Link" from the crash and paste it here. Or post the log if it's a server.
+      If "Get Link" fails, go to the crash-reports folder and attach the most recent file here.
+
+      Tip: You can attach files by clicking this area to highlight it and then dragging the files in.
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: |
+      # Game Info
+      Please complete the following information!
+- type: dropdown
+  id: game-version
+  attributes:
+    label: Modpack Version
+    multiple: true
+    options:
+      - 2.77.5
+      - 3.0 BETA 5
+      - Other
+  validations:
+    required: true
+- type: dropdown
+  id: client-or-server
+  attributes:
+    label: Server or singleplayer
+    multiple: true
+    options:
+      - Server
+      - Singleplayer
+  validations:
+    required: true
+- type: dropdown
+  id: world-version
+  attributes:
+    label: "Version the world was created on:"
+    multiple: true
+    options:
+      - 2.77.5
+      - 3.0 BETA 5
+      - Other
+  validations:
+    required: true
+- type: textarea
+  id: other-clarification
+  attributes:
+    label: Other...
+    description: If you answered Other to any of the above, please clarify below.
+  validations:
+    required: false
+- type: textarea
+  id: context
+  attributes:
+    label: Additional context
+    description: Add any other context about the problem here and your thoughts about what could have caused it.
+  validations:
+    required: false
