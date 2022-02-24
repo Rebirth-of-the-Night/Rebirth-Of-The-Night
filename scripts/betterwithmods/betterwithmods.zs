@@ -334,8 +334,6 @@ recipes.addShaped("wicker4", wicker*3,
   [rice,rice,rice]]);
 	
 recipes.removeByRecipeName("betterwithmods:items/material/material.hemp_fibers");
-recipes.addShapeless("bwm_fiber_return", <betterwithmods:material:3>*3,
-[<betterwithmods:rope>]);
 
 // fitting mill stone
 recipes.remove(<betterwithmods:single_machine>);
