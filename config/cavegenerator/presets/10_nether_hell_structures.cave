@@ -1,0 +1,69 @@
+{
+  enabled: true
+  dimensions: [ -1 ]
+  biomes: {
+    names: [ "minecraft:hell", "netherex:torrid_wasteland" ]
+  }
+  structures: [
+    {
+      name: pigtificate_village_tiny
+      matchers: [ "minecraft:soul_sand", "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      height: [ 70, 120 ]
+      directions: down
+      chance: 0.65
+      count: 1
+      offset: [ 0, -3, 0 ]
+      airChecks: [
+        [ -4, 6, -4 ]
+        [ -4, 6, 4 ]
+        [ 4, 6, -4 ]
+        [ 4, 6, 4 ]
+        [ -9, 0, -9 ]
+        [ -9, 0, 9 ]
+        [ 9, 0, -9 ]
+        [ 9, 0, 9 ]
+      ]
+      solidChecks: [
+        [ -4, 0, -4 ]
+        [ -4, 0, 4 ]
+        [ 4, 0, -4 ]
+        [ 4, 0, 4 ]
+        [ -9, 0, -9 ]
+        [ -9, 0, 9 ]
+        [ 9, 0, -9 ]
+        [ 9, 0, 9 ]
+      ]
+      debugSpawns: true
+    }
+    {
+      name: pigtificate_village_hanging
+      matchers: [ "minecraft:soul_sand", "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      height: [ 70, 120 ]
+      directions: up
+      chance: 0.55
+      count: 1
+      offset: [ 0, -12, 0 ]
+      airChecks: [
+        [ -5, -13, -5 ]
+        [ -5, -13, 5 ]
+        [ 5, -13, -5 ]
+        [ 5, -13, 5 ]
+        [ -11, -13, -11 ]
+        [ -11, -13, 11 ]
+        [ 11, -13, -11 ]
+        [ 11, -13, 11 ]
+      ]
+      solidChecks: [
+        [ -5, 1, -5 ]
+        [ -5, 1, 5 ]
+        [ 5, 1, -5 ]
+        [ 5, 1, 5 ]
+        [ -11, 1, -11 ]
+        [ -11, 1, 11 ]
+        [ 11, 1, -11 ]
+        [ 11, 1, 11 ]
+      ]
+      debugSpawns: true
+    }
+  ]
+}

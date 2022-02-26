@@ -1,0 +1,42 @@
+{
+  enabled: true
+  dimensions: [ -1 ]
+  biomes: {
+    names: [ "biomesoplenty:corrupted_sands" ]
+  }
+  structures: [
+    {
+      name: thornstalk_x1
+      matchers: [ "minecraft:soul_sand" ]
+      directions: down
+      chance: 1
+      count: 3
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 2, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+    {
+      name: thornstalk_x2
+      matchers: [ "minecraft:soul_sand" ]
+      directions: down
+      chance: 1
+      count: 5
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 3, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+    {
+      name: thornstalk_x3
+      matchers: [ "minecraft:soul_sand" ]
+      directions: down
+      chance: 1
+      count: 7
+      offset: [ 0, 0, 0 ]
+      airChecks: [ 0, 4, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+  ]
+}

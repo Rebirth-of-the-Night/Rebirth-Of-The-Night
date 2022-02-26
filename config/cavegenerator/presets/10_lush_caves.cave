@@ -2,6 +2,7 @@
   imports: common_values.cave::NATURAL_STONE
   replaceableBlocks: $NATURAL_STONE
   replaceDecorators: true
+  dimensions: [ 0 ]
   biomes: {
     names: [
       minecraft:forest

@@ -1,5 +1,6 @@
 {
   imports: common_values.cave::NATURAL_STONE
+  dimensions: [ 0 ]
   biomes: {
     names: [
       minecraft:forest

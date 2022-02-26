@@ -1,5 +1,10 @@
 # Credits for this preset to teksturepako, who provided the orignal 30___volcanic_tunnels.hjson preset modified to make this one
 {
+  biomes: {
+    names: [
+      beneath:the_beneath
+    ]
+  }
   replaceableBlocks: contenttweaker:voided_rock
   enabled: true
   tunnels: [

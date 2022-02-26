@@ -1513,6 +1513,7 @@ spartanweaponry:crossbow_load
 spartanweaponry:crossbow_fire
 spartanweaponry:throwing_weapon_throw
 spartanweaponry:throwing_weapon_hit
+spartanweaponry:throwing_weapon_return
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
 arcaneworld:ritual_out
