@@ -98,7 +98,6 @@ val bwaArray = [
     <betterwithaddons:bamboo>,
     <betterwithaddons:slat>,
     <betterwithaddons:netted_screen>,
-    <betterwithaddons:iron_sand>,
     <betterwithaddons:kera>,
     <betterwithaddons:tatara>,
     <betterwithaddons:cherrybox>,
