@@ -7,7 +7,7 @@
   structures: [
     {
       name: pigtificate_village_tiny
-      matchers: [ "minecraft:soul_sand", "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      matchers: [ "soul_sand", "netherrack", "netherex:fiery_netherrack" ]
       height: [ 70, 120 ]
       directions: down
       chance: 0.65
@@ -37,21 +37,25 @@
     }
     {
       name: pigtificate_village_hanging
-      matchers: [ "minecraft:soul_sand", "stone", "netherrack", "gravel", "netherex:fiery_netherrack" ]
+      matchers: [ "soul_sand", "netherrack", "netherex:fiery_netherrack" ]
       height: [ 70, 120 ]
       directions: up
-      chance: 0.55
+      chance: 0.68
       count: 1
-      offset: [ 0, -12, 0 ]
+      offset: [ 0, -29, 0 ]
       airChecks: [
-        [ -5, -13, -5 ]
-        [ -5, -13, 5 ]
-        [ 5, -13, -5 ]
-        [ 5, -13, 5 ]
-        [ -11, -13, -11 ]
-        [ -11, -13, 11 ]
-        [ 11, -13, -11 ]
-        [ 11, -13, 11 ]
+        [ -5, -30, -5 ]
+        [ -5, -30, 5 ]
+        [ 5, -30, -5 ]
+        [ 5, -30, 5 ]
+        [ -11, -30, -11 ]
+        [ -11, -30, 11 ]
+        [ 11, -30, -11 ]
+        [ 11, -30, 11 ]
+        [ -28, -30, -28 ]
+        [ -28, -30, 28 ]
+        [ 28, -30, -28 ]
+        [ 28, -30, 28 ]
       ]
       solidChecks: [
         [ -5, 1, -5 ]
@@ -62,6 +66,10 @@
         [ -11, 1, 11 ]
         [ 11, 1, -11 ]
         [ 11, 1, 11 ]
+        [ -28, 1, -28 ]
+        [ -28, 1, 28 ]
+        [ 28, 1, -28 ]
+        [ 28, 1, 28 ]
       ]
       debugSpawns: true
     }
