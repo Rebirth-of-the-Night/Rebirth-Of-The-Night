@@ -40,7 +40,7 @@
       matchers: [ "soul_sand", "netherrack", "netherex:fiery_netherrack" ]
       height: [ 70, 120 ]
       directions: up
-      chance: 0.68
+      chance: 0.45
       count: 1
       offset: [ 0, -29, 0 ]
       airChecks: [
