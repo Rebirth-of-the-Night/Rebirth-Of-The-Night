@@ -17,6 +17,13 @@ recipes.addShaped("Training Treat", <doggytalents:training_treat>,[
     [wheat, wheat, wheat]
 ]);
 
+recipes.remove(<doggytalents:food_bowl>);
+recipes.addShaped("Food Bowl", <doggytalents:training_treat>,[
+	[null, null, null],
+    [<ore:genericMetal>, bone, <ore:genericMetal>],
+    [null, <ore:genericMetal>, null]
+]);
+
 recipes.remove(<doggytalents:wool_collar>);
 recipes.addShaped("Collar", <doggytalents:wool_collar>,[
 	[null, <minecraft:string>, null],

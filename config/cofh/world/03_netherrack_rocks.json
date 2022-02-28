@@ -18,10 +18,10 @@
 					"betternether:cincinnasite_ore"
 				],
 				"material": "air",
-				"cluster-size": 25,
+				"cluster-size": 20,
 				"see-sky": false
 				},
-			"cluster-count": 10,
+			"cluster-count": 7,
 			"ground-level": 250,
 			"chunk-chance": 1,
 			"retrogen": "true",

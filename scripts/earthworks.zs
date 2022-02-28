@@ -68,6 +68,7 @@ JEI.removeAndHide(<earthworks:wall_wood_shingle_birch>);
 JEI.removeAndHide(<earthworks:wall_wood_shingle_jungle>);
 JEI.removeAndHide(<earthworks:wall_wood_shingle_acacia>);
 JEI.removeAndHide(<earthworks:wall_wood_shingle_dark_oak>);
+JEI.removeAndHide(<earthworks:block_wicker>);
 JEI.removeAndHide(<earthworks:tool_square>);
 JEI.removeAndHide(<earthworks:tool_hand_axe>);
 JEI.removeAndHide(<earthworks:tool_adz>);
