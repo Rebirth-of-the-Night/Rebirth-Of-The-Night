@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/block_electrum1",
+      "all": "contenttweaker:blocks/block_electrum1",
       "particle": "contenttweaker:blocks/block_electrum1"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/bronze_plate",
+      "all": "contenttweaker:blocks/bronze_plate",
       "particle": "contenttweaker:blocks/bronze_plate"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

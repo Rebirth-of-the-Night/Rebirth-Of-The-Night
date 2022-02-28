@@ -2,7 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/salty_crust"
+      "all": "contenttweaker:blocks/salty_crust",
+      "particle": "earthworks:blocks/salty_crust"
     },
     "model": "contenttweaker:base_block",
     "uvlock": true,

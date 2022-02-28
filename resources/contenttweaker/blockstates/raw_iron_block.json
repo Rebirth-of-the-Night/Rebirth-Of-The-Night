@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/raw_iron_block",
+      "all": "contenttweaker:blocks/raw_iron_block",
       "particle": "contenttweaker:blocks/raw_iron_block"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },

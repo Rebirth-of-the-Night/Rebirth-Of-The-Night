@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/charcoal_pile",
+      "all": "contenttweaker:blocks/charcoal_pile",
       "particle": "contenttweaker:blocks/charcoal_pile"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:base_block",
     "uvlock": true,
     "transform": "forge:default-block"
   },
