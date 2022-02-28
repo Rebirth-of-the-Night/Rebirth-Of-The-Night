@@ -19,6 +19,11 @@ import mods.jei.JEI;
 // Better With Mods
 <betterwithmods:axle_generator>.displayName = "Horizontal Windmill";
 
+// Baskets
+<basketcase:basket_small_generic>.displayName = "Small Wicker Basket";
+<basketcase:basket_medium_generic>.displayName = "Medium Wicker Basket";
+<basketcase:basket_large_generic>.displayName = "Large Wicker Basket";
+
 // Guidebook
 <solcarrot:food_book>.addTooltip(format.aqua("Guidebook"));
 <solcarrot:food_book>.addTooltip("Max health improvement via food information");

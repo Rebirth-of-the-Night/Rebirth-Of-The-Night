@@ -239,7 +239,7 @@ tile.contenttweaker.unfired_refractory_brick.name=Unfired Refractory Brick
 tile.contenttweaker.unfired_porcelain_brick.name=Unfired Porcelain Brick
 
 tile.contenttweaker.loose_adobe_bricks.name=Loose Adobe Bricks
-tile.contenttweaker.loose_basalt_nether_bricks.name=Loose Black Basalt Bricks
+tile.contenttweaker.loose_basalt_nether_bricks.name=Loose Nether Basalt Bricks
 tile.contenttweaker.loose_big_andesite_bricks.name=Loose Andesite Bricks
 tile.contenttweaker.loose_big_basalt_bricks.name=Loose Basalt Bricks
 tile.contenttweaker.loose_big_black_granite_bricks.name=Loose Black Granite Bricks
@@ -335,7 +335,7 @@ item.contenttweaker.brick_holystone.name=Holystone Brick
 item.contenttweaker.brick_sandstone.name=Sandstone Brick   
 item.contenttweaker.brick_red_sandstone.name=Red Sandstone Brick   
 item.contenttweaker.brick_soul_sandstone.name=Soul Sandstone Brick   
-item.contenttweaker.brick_black_basalt.name=Black Basalt Brick   
+item.contenttweaker.brick_black_basalt.name=Nether Basalt Brick   
 item.contenttweaker.brick_end.name=End Stone Brick   
 item.contenttweaker.brick_white.name=White Brick
 

@@ -53,18 +53,18 @@ RecipeBuilder.get("mage")
 // small
 recipes.addShaped("glare_small", small, [
 	[null, ncoal, null],
-	[lumres, latch, lumres], 
-	[null, gmetal, null]
+	[null, latch, null], 
+	[null, gshaft, null]
 ]);
-recipes.addShaped("glareshaft_small",gshaft*8, [
-	[gnugget, gnugget, gnugget],
-	[gnugget, small.reuse(), gnugget],
-	[gnugget, gnugget, gnugget]
+recipes.addShaped("glareshaft_small",gshaft*2, [
+	[null, <quark:chain>, null],
+	[null, <earthworks:item_timber>, null],
+	[null, <betterwithaddons:wrought_bars>, null]
 ]);
 
 // ultimate
 recipes.addShaped("glare_ultimate", ultimate,[
 	[electrum, lightEssence, electrum],
-    [null, filament, null], 
+  [null, filament, null], 
 	[null, quartz, null]
 ]);

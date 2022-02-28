@@ -4,7 +4,6 @@ import mods.jei.JEI;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-JEI.removeAndHide(<betternether:netherrack_furnace>);
 JEI.removeAndHide(<betternether:bone_mushroom>);
 JEI.removeAndHide(<betternether:wart_seed>);
 JEI.removeAndHide(<betternether:egg_plant>);
@@ -23,10 +22,17 @@ recipes.remove(<betternether:stalagnate_bowl_mushroom>);
 recipes.addShapeless("betternether_stalagnate_bowl_mushroom", <betternether:stalagnate_bowl_mushroom>, 
 [<ore:mushroomAny>, <ore:mushroomAny>, <betternether:stalagnate_bowl>]);
 
+recipes.remove(<betternether:netherrack_furnace>);
+recipes.addShaped("netherrack_furnace", <betternether:netherrack_furnace>, [
+    [<pyrotech_compat:rock_netherrack>, <pyrotech_compat:rock_netherrack>, <pyrotech_compat:rock_netherrack>],
+    [<pyrotech_compat:rock_netherrack>,null,<pyrotech_compat:rock_netherrack>],
+    [<pyrotech_compat:rock_netherrack>,<pyrotech_compat:rock_netherrack>,<pyrotech_compat:rock_netherrack>]
+]);
+
 recipes.addShaped("cincinnasite_frame", <betternether:cincinnasite_frame>*4, [
-    [<betternether:cincinnasite_forged>, null, <betternether:cincinnasite_forged>],
+    [<betternether:cincinnasite_forged>,null,<betternether:cincinnasite_forged>],
     [null,null,null],
-    [<betternether:cincinnasite_forged>, null, <betternether:cincinnasite_forged>]
+    [<betternether:cincinnasite_forged>,null,<betternether:cincinnasite_forged>]
 ]);
 
 recipes.remove(<betternether:quartz_glass_framed>);

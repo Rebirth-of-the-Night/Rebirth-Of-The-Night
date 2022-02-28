@@ -77,7 +77,7 @@ furnace.setFuel(<contenttweaker:charmpeat>, 4800);
 <ore:sourceBrass>.addAll(<ore:ingotBrass>);
 
 val rock_dictionary = <ore:rock>;
-rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:8>, <pyrotech_compat:rock_sedimentary_sand:9>, <pyrotech_compat:rock_sedimentary_sand:10>, <pyrotech_compat:rock_sedimentary_sand:11>, <pyrotech_compat:rock_sedimentary_sand:12>, <pyrotech_compat:rock_sedimentary_sand:13>, <pyrotech_compat:rock_sedimentary_sand:14>, <pyrotech_compat:rock_sedimentary_sand:15>, <pyrotech_compat:rock_metamorphic_sand:15>, <pyrotech_compat:rock_metamorphic_sand:14>, <pyrotech_compat:rock_metamorphic_sand:13>, <pyrotech_compat:rock_metamorphic_sand:12>, <pyrotech_compat:rock_metamorphic_sand:11>, <pyrotech_compat:rock_metamorphic_sand:10>, <pyrotech_compat:rock_metamorphic_sand:9>, <pyrotech_compat:rock_metamorphic_sand:8>, <pyrotech_compat:rock_igneous_sand:15>, <pyrotech_compat:rock_igneous_sand:14>, <pyrotech_compat:rock_igneous_sand:13>, <pyrotech_compat:rock_igneous_sand:12>, <pyrotech_compat:rock_igneous_sand:11>, <pyrotech_compat:rock_igneous_sand:10>, <pyrotech_compat:rock_igneous_sand:8>,<pyrotech_compat:rock_netherrack>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>]);
+rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:11>,<pyrotech_compat:rock_sedimentary_sand:12>,<pyrotech_compat:rock_metamorphic_sand:15>,<pyrotech_compat:rock_metamorphic_sand:14>,<pyrotech_compat:rock_metamorphic_sand:13>,<pyrotech_compat:rock_metamorphic_sand:12>,<pyrotech_compat:rock_metamorphic_sand:11>,<pyrotech_compat:rock_metamorphic_sand:10>,<pyrotech_compat:rock_metamorphic_sand:9>,<pyrotech_compat:rock_igneous_sand:15>,<pyrotech_compat:rock_igneous_sand:14>,<pyrotech_compat:rock_igneous_sand:13>,<pyrotech_compat:rock_igneous_sand:12>,<pyrotech_compat:rock_igneous_sand:11>,<pyrotech_compat:rock_igneous_sand:10>,<pyrotech_compat:rock_igneous_sand:8>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>,<pyrotech_compat:rock_netherrack>]);
 
 // raw ores
 furnace.addRecipe(<simpleores:tin_ingot>, <contenttweaker:raw_tin>);
@@ -140,7 +140,8 @@ var ctr as IItemStack[IItemStack] = {
   <contenttweaker:lignite_cobble> : <pyrotech_compat:rock_igneous_sand:9>,
   <contenttweaker:dolomite_cobble> : <pyrotech_compat:rock_sedimentary:3>,
   <contenttweaker:greywacke_cobble> : <pyrotech_compat:rock_sedimentary:4>,
-  <pyrotech_compat:rock_sedimentary_sand:14> : <undergroundbiomes:sedimentary_sandstone:6>,
+  <undergroundbiomes:sedimentary_sandstone:6> : <pyrotech_compat:rock_sedimentary_sand:14>,
+  <undergroundbiomes:metamorphic_sandstone> : <pyrotech_compat:rock_metamorphic_sand:8>,
   <contenttweaker:chert_cobble> : <pyrotech_compat:rock_sedimentary:5>,
   <aether_legacy:holystone> : <pyrotech_compat:rock_sedimentary_sand:15>,
   <minecraft:netherrack> : <pyrotech_compat:rock_netherrack>,
@@ -844,6 +845,131 @@ JEI.removeAndHide(<quark:custom_chest_trap:1>);
 JEI.removeAndHide(<quark:custom_chest_trap:2>);
 JEI.removeAndHide(<quark:custom_chest_trap:3>);
 JEI.removeAndHide(<quark:custom_chest_trap:4>);
+
+// Basket Case hiding
+JEI.removeAndHide(<basketcase:twig_acacia>);
+JEI.removeAndHide(<basketcase:bark_strips_acacia>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_acacia>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_acacia>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_acacia>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_acacia>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_acacia>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_acacia>);
+JEI.removeAndHide(<basketcase:twig_birch>);
+JEI.removeAndHide(<basketcase:bark_strips_birch>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_birch>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_birch>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_birch>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_birch>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_birch>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_birch>);
+JEI.removeAndHide(<basketcase:twig_dark_oak>);
+JEI.removeAndHide(<basketcase:bark_strips_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:twig_jungle>);
+JEI.removeAndHide(<basketcase:bark_strips_jungle>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_jungle>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_jungle>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_jungle>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_jungle>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_jungle>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_jungle>);
+JEI.removeAndHide(<basketcase:twig_oak>);
+JEI.removeAndHide(<basketcase:bark_strips_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_oak>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_oak>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_oak>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_oak>);
+JEI.removeAndHide(<basketcase:twig_spruce>);
+JEI.removeAndHide(<basketcase:bark_strips_spruce>);
+JEI.removeAndHide(<basketcase:wicker_small_bark_spruce>);
+JEI.removeAndHide(<basketcase:wicker_medium_bark_spruce>);
+JEI.removeAndHide(<basketcase:wicker_large_bark_spruce>);
+JEI.removeAndHide(<basketcase:wicker_small_twig_spruce>);
+JEI.removeAndHide(<basketcase:wicker_medium_twig_spruce>);
+JEI.removeAndHide(<basketcase:wicker_large_twig_spruce>);
+JEI.removeAndHide(<basketcase:wicker_small_generic>);
+JEI.removeAndHide(<basketcase:wicker_medium_generic>);
+JEI.removeAndHide(<basketcase:wicker_large_generic>);
+JEI.removeAndHide(<basketcase:basket_small_bark_acacia>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_acacia>);
+JEI.removeAndHide(<basketcase:basket_large_bark_acacia>);
+JEI.removeAndHide(<basketcase:basket_small_bark_birch>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_birch>);
+JEI.removeAndHide(<basketcase:basket_large_bark_birch>);
+JEI.removeAndHide(<basketcase:basket_small_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_large_bark_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_small_bark_jungle>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_jungle>);
+JEI.removeAndHide(<basketcase:basket_large_bark_jungle>);
+JEI.removeAndHide(<basketcase:basket_small_bark_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_oak>);
+JEI.removeAndHide(<basketcase:basket_large_bark_oak>);
+JEI.removeAndHide(<basketcase:basket_small_bark_spruce>);
+JEI.removeAndHide(<basketcase:basket_medium_bark_spruce>);
+JEI.removeAndHide(<basketcase:basket_large_bark_spruce>);
+JEI.removeAndHide(<basketcase:basket_small_twig_acacia>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_acacia>);
+JEI.removeAndHide(<basketcase:basket_large_twig_acacia>);
+JEI.removeAndHide(<basketcase:basket_small_twig_birch>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_birch>);
+JEI.removeAndHide(<basketcase:basket_large_twig_birch>);
+JEI.removeAndHide(<basketcase:basket_small_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_large_twig_dark_oak>);
+JEI.removeAndHide(<basketcase:basket_small_twig_jungle>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_jungle>);
+JEI.removeAndHide(<basketcase:basket_large_twig_jungle>);
+JEI.removeAndHide(<basketcase:basket_small_twig_oak>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_oak>);
+JEI.removeAndHide(<basketcase:basket_large_twig_oak>);
+JEI.removeAndHide(<basketcase:basket_small_twig_spruce>);
+JEI.removeAndHide(<basketcase:basket_medium_twig_spruce>);
+JEI.removeAndHide(<basketcase:basket_large_twig_spruce>);
+
+// PrimalLib Hiding
+JEI.removeAndHide(<primallib:plant_fiber>);
+JEI.removeAndHide(<primallib:twine>);
+JEI.removeAndHide(<primallib:bark_oak>);
+JEI.removeAndHide(<primallib:bark_spruce>);
+JEI.removeAndHide(<primallib:bark_birch>);
+JEI.removeAndHide(<primallib:bark_jungle>);
+JEI.removeAndHide(<primallib:bark_acacia>);
+JEI.removeAndHide(<primallib:bark_dark_oak>);
+JEI.removeAndHide(<primallib:wooden_shaft>);
+JEI.removeAndHide(<primallib:twig_generic>);
+JEI.removeAndHide(<primallib:branch>);
+JEI.removeAndHide(<primallib:log_stripped_oak>);
+JEI.removeAndHide(<primallib:log_stripped_spruce>);
+JEI.removeAndHide(<primallib:log_stripped_birch>);
+JEI.removeAndHide(<primallib:log_stripped_jungle>);
+JEI.removeAndHide(<primallib:log_stripped_acacia>);
+JEI.removeAndHide(<primallib:log_stripped_dark_oak>);
+JEI.removeAndHide(<primallib:twine>);
+
+// Iron Furnaces Hiding
+JEI.removeAndHide(<ironfurnaces:iron_furnace_active>);
+JEI.removeAndHide(<ironfurnaces:gold_furnace_active>);
+JEI.removeAndHide(<ironfurnaces:diamond_furnace_active>);
+JEI.removeAndHide(<ironfurnaces:glass_furnace_active>);
+JEI.removeAndHide(<ironfurnaces:obsidian_furnace_active>);
+JEI.removeAndHide(<ironfurnaces:obsidian_furnace_idle>);
+JEI.removeAndHide(<ironfurnaces:glass_furnace_idle>);
+
+// Elenai Dodge Hiding
+JEI.removeAndHide(<elenaidodge:golden_feather>);
+JEI.removeAndHide(<elenaidodge:iron_feather>);
+
+recipes.remove(<elenaidodge:iron_feather>);
+recipes.remove(<elenaidodge:golden_feather>);
 
 var chestMat = <biomesoplenty:planks_0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:15>|<rustic:planks>|<rustic:planks:1>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>;
 

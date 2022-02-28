@@ -244,28 +244,28 @@
 				"block": [
 					{
 						"name": "pyrotech:rock",
-						"weight": 1,
+						"weight": 4,
 						"properties": {
 							"variant" : "rock_sandstone"
 						}
 					},
 					{
 						"name": "pyrotech:rock",
-						"weight": 3,
+						"weight": 1,
 						"properties": {
 							"variant" : "rock_limestone"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_metamorphic",
-						"weight": 3,
+						"weight": 1,
 						"properties": {
 							"variant" : "rock_gneiss"
 						}
 					},
 					{
 						"name": "pyrotech_compat:rock_igneous",
-						"weight": 2,
+						"weight": 1,
 						"properties": {
 							"variant" : "rock_red_granite"
 						}
@@ -282,7 +282,7 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-				"cluster-size": 18
+				"cluster-size": 10
 			},
 			"material": [
 				"minecraft:grass",
@@ -295,7 +295,7 @@
 				"undergroundbiomes:metamorphic_stone",
 				"undergroundbiomes:igneous_stone"
 			],
-			"cluster-count": 3,
+			"cluster-count": 2,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -613,7 +613,7 @@
 				"block": [
 					{
 						"name": "pyrotech:rock",
-						"weight": 4,
+						"weight": 5,
 						"properties": {
 							"variant" : "rock_sandstone"
 						}

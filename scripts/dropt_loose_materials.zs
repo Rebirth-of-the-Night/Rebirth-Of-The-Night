@@ -431,6 +431,19 @@ Dropt.list("rock_greywacke_sandstone")
        	   .items([<pyrotech_compat:rock_sedimentary_sand:14>], Dropt.range(4))
       )
   );
+Dropt.list("rock_gneiss_sandstone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:metamorphic_sandstone_smooth", "undergroundbiomes:metamorphic_sandstone_chiseled"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "pickaxe;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<pyrotech_compat:rock_metamorphic_sand:8>], Dropt.range(4))
+      )
+  );
 Dropt.list("rock_chert")
 
   .add(Dropt.rule()

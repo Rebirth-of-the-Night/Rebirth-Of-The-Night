@@ -186,6 +186,24 @@
 		"iceandfire:dread_stone_slab_double": "brickstone",
 		"iceandfire:dreadwood_planks_lock": "wood",
 		"iceandfire:dread_spawner": "metalbar",
-		"iceandfire:venerable_stump": "log"
+		"iceandfire:venerable_stump": "log",
+		"doggytalents:food_bowl": "hardmetal,dirt",
+		"betterwithmods:cooking_pot[type=cauldron]": "metalbar",
+		"betterwithmods:cooking_pot[type=crucible]": "sandstone",
+		"betterwithmods:aesthetic[blocktype=wicker]": "bluntwood",
+		"earthworks:slab_wicker": "bluntwood",
+		"earthworks:doubleslab_wicker": "bluntwood",
+		"earthworks:stair_wicker": "bluntwood",
+		"earthworks:wall_wicker+bigger": "bluntwood",
+		"betterwithaddons:scaffold": "bluntwood",
+		"basketcase:basket_small_generic": "bluntwood",
+		"basketcase:basket_medium_generic": "bluntwood",
+		"basketcase:basket_large_generic": "bluntwood",
+		"ironfurnaces:iron_furnace_idle": "sandstone",
+		"ironfurnaces:gold_furnace_idle": "brickstone",
+		"ironfurnaces:diamond_furnace_idle": "brickstone",
+		"futuremc:blast_furnace": "brickstone,hardmetal",
+		"futuremc:smoker": "brickstone,wood",
+		"malisisdoors:laboratory_door": "hardmetal"
 	}
 }
