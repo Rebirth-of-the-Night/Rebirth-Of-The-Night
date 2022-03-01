@@ -12,7 +12,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 
-//vanilla
+// vanilla
 val irongolem = LootTweaker.getTable("minecraft:entities/iron_golem");
 irongolem.clear(); 
 
@@ -46,16 +46,16 @@ LootTable.removeGlobalItem("msmlegacy:relic_pie");
 
 <entity:iceandfire:if_troll>.addPlayerOnlyDrop(<behgameon:accessory_1> % 35, 1, 1);
 
-//QoL drops
-//ghast tears
+// QoL drops
+// ghast tears
 <entity:minecraft:ghast>.addPlayerOnlyDrop(<minecraft:ghast_tear> % 80, 1, 2);
 
-//skulls used for crafting
+// skulls used for crafting
 <entity:iceandfire:if_troll>.addPlayerOnlyDrop(<iceandfire:troll_skull>, 1, 1);
 <entity:iceandfire:cyclops>.addPlayerOnlyDrop(<iceandfire:cyclops_skull>, 1, 1);
 
-//Mowzies
-//skydrake
+// Mowzies
+// skydrake
 <entity:mowziesmobs:naga>.addPlayerOnlyDrop(<mowziesmobs:naga_fang>, 1, 1);
 
 <entity:mowziesmobs:grottol>.addDrop(<arcanearchives:radiant_dust>,2,5);
@@ -83,17 +83,28 @@ val grapeSlime = LootTweaker.getTable("specialmobs:entities/slime/grape");
 grapeSlime.clear();
 
 
-//BetterAnimals+
+// BetterAnimals+
 <entity:betteranimalsplus:zotzpyre>.addDrop(<contenttweaker:monster_hide>,1,2);
 
-//DungeonTactics
+// Animania
+// Sheep Intestines
+val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
+val sheepPrimeMeat = sheepPrimeTable.getPool("meat");
+sheepPrimeMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
+
+val sheepTable = LootTweaker.getTable("animania:sheep_regular");
+val sheepMeat = sheepTable.getPool("meat");
+sheepMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
+
+
+// DungeonTactics
 LootTable.removeGlobalItem("dungeontactics:phylactery");
 
 
-//Fishs Undead Rising
+// Fishs Undead Rising
 LootTable.removeGlobalItem("mod_lavacow:hyphae");
 
-//PrimitiveMobs ######################
+// PrimitiveMobs ######################
 <entity:primitivemobs:harpy>.removeDrop(<minecraft:gold_nugget>);
 <entity:primitivemobs:grovesprite>.removeDrop(<primitivemobs:wonder_sap>);
 //<entity:primitivemobs:grovesprite>.addPlayerOnlyDrop(<primitivemobs:wonder_sap>, 0, 1);
@@ -121,7 +132,7 @@ lslimeMain.addItemEntry(<dungeontactics:magic_powder>, 4, 10, [Functions.setCoun
 lslimeMain.addItemEntry(<contenttweaker:4leaf_clover>, 1, 20, [Functions.setCount(1, 1)], []);
 
 
-//Filch Lizard Spawn Items
+// Filch Lizard Spawn Items
 val lootFilch = LootTweaker.getTable("primitivemobs:entities/special/filch_lizard_spawn");
 val filchMain = lootFilch.getPool("filchlizard_spawnitem");
 filchMain.addItemEntry(<simpleores:copper_ingot>, 7, 0, [Functions.setCount(1, 1)], []);
@@ -142,7 +153,7 @@ filchMain.addItemEntry(<harvestcraft:pizzasliceitem>, 1, 5, [Functions.setCount(
 filchMain.addItemEntry(<iceandfire:myrmex_desert_egg>, 1, 5, [Functions.setCount(1, 1)], []);
 filchMain.addItemEntry(<dungeontactics:bag_food>, 1, 5, [Functions.setCount(1, 1)], []);
 
-//Filch Lizard Steal Items
+// Filch Lizard Steal Items
 val stealFilch = LootTweaker.getTable("primitivemobs:entities/special/filch_lizard_steal");
 
 val filchStealItems as IItemStack[] = [
@@ -178,11 +189,11 @@ val filchStealItems as IItemStack[] = [
     <biomesoplenty:gem:1>,
     <biomesoplenty:gem:2>,
     <biomesoplenty:gem:6>,
-    //nuggs
+    // nuggs
     <ore:nuggetElectrum>.firstItem,
     <ore:nuggetViridium>.firstItem,
     <ore:nuggetMythril>.firstItem,
-    //lizard want shiny from arcane archives
+    // lizard want shiny from arcane archives
     <arcanearchives:raw_quartz>,
     <arcanearchives:shaped_quartz>,
     <arcanearchives:containment_field>,
@@ -204,9 +215,9 @@ for i, item in filchStealItems {
         .addItemEntry(item, 1);
 }
 
-//New Haunted Tools
+// New Haunted Tools
 var hauntedTools as int[string] = {
-    //wood
+    // wood
     "spartanweaponry:club_wood" : 10,
     "spartanweaponry:spear_wood" : 10,
     "spartanweaponry:pike_wood" : 10,
@@ -215,7 +226,7 @@ var hauntedTools as int[string] = {
     "spartanweaponry:javelin_wood" : 9,
     "spartanweaponry:staff" : 10,
 
-    //stone
+    // stone
     "spartanweaponry:dagger_stone" : 8,
     "spartanweaponry:club_studded" : 8,
     "spartanweaponry:caestus" : 8,
@@ -238,7 +249,7 @@ var hauntedTools as int[string] = {
     "spartanweaponry:javelin_copper" : 6,
     "spartanweaponry:mace_copper" : 6,
 
-    //iron
+    // iron
     "spartanweaponry:dagger_iron" : 5,
     "spartanweaponry:longsword_iron" : 5,
     "spartanweaponry:katana_iron" : 5,
@@ -261,10 +272,10 @@ var hauntedTools as int[string] = {
     "spartanweaponry:staff_iron" : 5,
     "spartanshields:shield_basic_iron" : 4,
 
-    //tin
+    // tin
     "simpleores:tin_axe" : 4,
 
-    //gold
+    // gold
     "spartanweaponry:dagger_gold" : 3,
     "spartanweaponry:longsword_gold" : 3,
     "spartanweaponry:katana_gold" : 3,
@@ -286,7 +297,7 @@ var hauntedTools as int[string] = {
     "spartanweaponry:staff_gold" : 3,
     "spartanshields:shield_basic_gold" : 2,
 
-    //silver
+    // silver
     "iceandfire:silver_sword" : 2,
     "iceandfire:silver_pickaxe" : 2,
     "iceandfire:silver_shovel" : 2,
@@ -329,7 +340,7 @@ for i in hauntedToolsRemove {
     LootTweaker.getTable("primitivemobs:entities/special/haunted_tool").getPool("hauntedtool_spawnitem").removeEntry(i);
 }
 
-//spider silk
+// spider silk
 val lootSpider = LootTweaker.getTable("minecraft:entities/spider");
 val lspiderMain = lootSpider.getPool("main");
 lspiderMain.removeEntry("minecraft:string");
@@ -351,18 +362,9 @@ lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 100, 0, [Functions.setC
 lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 50, 0, [Functions.setCount(0, 5)], []);
 lscuttlerMain.addItemEntry(<contenttweaker:spider_silk>, 1, 1000, [Functions.setCount(2, 10)], []);
 
-//Sheep Intestines
-val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
-val sheepPrimeMeat = sheepPrimeTable.getPool("meat");
-sheepPrimeMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
+// new loot tables must be assigned to entities via spawn.json, within Incontrol's config folder 
 
-val sheepTable = LootTweaker.getTable("animania:sheep_regular");
-val sheepMeat = sheepTable.getPool("meat");
-sheepMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
-
-//new loot tables must be assigned to entities via spawn.json, within Incontrol's config folder 
-
-//Badger Loot
+// Badger Loot
 val badgerTable = LootTweaker.newTable("rotn:bap_badger");
 val badgerPool1 = badgerTable.addPool("pool1",1,1,0,0);
 badgerPool1.addEmptyEntry(250, 0, "no_drops");
