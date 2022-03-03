@@ -6,8 +6,13 @@
     "pages": [
         {
             "type": "crafting",
-            "recipe": "betterwithmods:blocks/mech/single_machine_1",
-            "text": "A mechanical device which will place ropes directly downward below it, and will reverse its behaviour when mechanically powered. This, in conjunction with an Anchor and some kind of lightweight platform, may be useful for creating rudimentary elevators for vertical traversal...if I can get the timings right."
+            "recipe": "crafttweaker:pulley_block",
+            "text": "A mechanical device which will place ropes directly downward below it, and will reverse its behaviour when mechanically powered."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterwithmods:blocks/mech/anchor",
+            "text": "Used in conjunction with the pulley and some kind of lightweight platform, may be useful for creating rudimentary elevators for vertical traversal...if I can get the timings right."
         },
         {
 			"type": "relations",

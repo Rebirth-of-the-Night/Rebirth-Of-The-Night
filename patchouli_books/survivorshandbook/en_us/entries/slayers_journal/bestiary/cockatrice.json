@@ -1,0 +1,38 @@
+{
+    "name": "Cockatrice",
+    "icon": "iceandfire:rotten_egg",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 2,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:if_cockatrice",
+            "scale": 0.38,
+            "offset": 0.3,
+            "rotate": "true",
+            "default_rotation": -45,
+            "name": "Cockatrice",
+            "text": "$(#734608)A $(thing)cockatrice$()$(#734608) is a hybrid beast with a two-legged dragon or reptilian body and the head of a chicken."
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)It can attack with its razor-sharp beak and talons, but the real threat lies within its lethal gaze.$(br2)Locking sights with a $(thing)cockatrice$()$(#734608) will render the victim incredibly nauseated as their soul withers away.$(br2)Attempting to break eye contact with the $(thing)cockatrice$()$(#734608) will simply make it run directly in front of them and continue draining away their life."
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:blindfold",
+            "text": "$(#734608)Wearing a blindfold will render the cockatrice's stare useless but not its bites and leap kick knockback."
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)One interesting behavior trait is that it will actively protect any chickens within its vicinity and fight off any predators attempting to prey on the chickens. This might be attributed to the chicken-half of its genetic information...$(br2)This beast can indeed be tamed by enduring its withering stare long enough for the cockatrice's will to be broken and start to serve its superior."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:rotten_egg",
+            "text": "$(#734608)Cockatrices can also be hatched from $(item)rotten eggs$()$(#734608), which are rarely laid by normal chickens. When a chicken does lay a rotten egg, it makes a loud shriek as if in pain. Cockatrices hatched from rotten eggs are automatically tamed.$(br2)Cockatrices can not breed."
+        }
+    ]
+}

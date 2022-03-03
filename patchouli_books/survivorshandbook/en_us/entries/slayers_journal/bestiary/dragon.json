@@ -1,0 +1,56 @@
+{
+    "name": "Dragons",
+    "icon": "iceandfire:dragonscales_gray",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#734608)One of the fabled beasts of legend, the $(thing)dragon$()$(#734608) rules both the sky and the land. Its large reptilian body is capable of both flight and a deadly breath capable of ravaging the land and those living on it.$(br)Their roars will also inflict Weakness upon those who hear it and its powerful jaws can seize their prety and shake them to death. Larger $(thing)dragons$()$(#734608) can also"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)fire an exploding elemental burst.$(br2)$(thing)Dragons$()$(#734608) come in various colors and sizes, but usually the smaller variants tend to reside on the overworld while the larger ones reside in caverns underground.$(br2)All $(thing)dragons$()$(#734608) are hostile and will attack almost anything nearby.$(br)There are two types of dragons currently known:$(#f7430c)fire dragons$()$(#734608) & $(#0fbfae)ice dragons$()"
+        },
+        {
+            "type": "text",
+            "text": "$(#f7430c)Fire dragons$()$(#734608), as its name suggests, specialize in fire-based elemental attacks. They live in warm biomes that are not jungles, savannas, or badlands. Their fire-scorched roosts are adorned with gold piles, though the main loot to be found will be the dragon itself. Harvesting a dragon corpse with bare hands will yield $(item)dragon scales$()$(#734608), a $(item)fire dragon heart$()$(#734608), and $(item)fire dragon flesh$()$(#734608), or I may choose to collect $(item)fire dragon blood$()$(#734608) using empty bottles."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:firedragon{AgeTicks:2400000,Gender:0,Variant:0}",
+            "scale": 0.06,
+            "offset": 5,
+            "rotate": "true",
+            "default_rotation": -45,
+            "name": "Fire Dragon",
+            "text": "$(#734608)Larger female dragons may also drop $(item)fire dragon eggs$()$(#734608) which I may be able to hatch my own dragon."
+        },
+        {
+            "type": "text",
+            "text": "$(#0fbfae)Ice dragons$()$(#734608), as its name suggests, specialize in ice-based elemental attacks. They live exclusively in cold biomes.$(br)Their ice-blasted roosts are adorned with silver piles, though the main loot to be found will be the dragon itself. Harvesting a dragon corpse with bare hands will yield $(item)dragon scales$()$(#734608), an $(item)ice dragon heart$()$(#734608), and $(item)ice dragon flesh$()$(#734608), or I may choose to collect $(item)ice dragon blood$()$(#734608) using empty bottles."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:icedragon{AgeTicks:2400000,Gender:0,Variant:0}",
+            "scale": 0.06,
+            "offset": 5,
+            "rotate": "true",
+            "default_rotation": -45,
+            "name": "Ice Dragon",
+            "text": "$(#734608)Larger female dragons may also drop $(item)ice dragon eggs$()$(#734608) which I may be able to hatch my own dragon."
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Dragon bones can be used to create very powerful tools and weapons, and dragon scales similarly for armor.$(br2)However, dragonsteel boasts an even stronger equipment, albeit requiring many many scales and dragon bones to create an appropriate forge for."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "agriculture/taming/dragon",
+                "innovation/metallurgy/dragonsteel"
+            ]
+        }
+    ]
+}
