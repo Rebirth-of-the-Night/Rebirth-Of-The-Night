@@ -1,0 +1,52 @@
+{
+    "name": "Raising Dragons",
+    "icon": "iceandfire:dragonegg_red",
+    "category": "agriculture_taming",
+    "advancement": "triumph:advancements/bosskills/killdragon",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonegg_red",
+            "text": "If by some miracle I manage to acquire one of these dragon eggs from an adult female $(l:slayers_journal/beastiary/dragon)dragon$(), I might think of raising a dragon for myself.$(br2)Fire and ice dragon eggs hatching procedures are different, though they will both take a long time to hatch."
+        },
+        {
+            "type": "text",
+            "text": "Fire dragon eggs need to be placed in a strong consistent heat source in order to hatch properly.$(br2)For ice dragon eggs, these need to be placed submerged in water where it will freeze over before hatching.$(br2)I had read in some manuscripts that young dragons are extremely loyal to their parents because of their strong maternal instincts, so I"
+        },
+        {
+            "type": "text",
+            "text": "need to make sure I take very good care of them by feeding them properly. Older dragons will also hunt nearby livestock if hungry as well.$(br2)Because of the ancient nature of dragons, they take an exceptionally long time to mature.$(br2)Fortunately I found a way to accelerate their growth is by feeding them $(item)dragon meal$() which will increase their growth by one day."
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:dragonmeal_alternate2",
+            "recipe2": "iceandfire:dragonmeal"
+        },
+        {
+            "type": "text",
+            "text": "If the dragon is old enough, it will be able to be mounted and flown around as well as be able to execute attack commands.$(br2)A $(item)dragon command staff$() can be used on a dragon to order it to stay in one place or wander.$(br2)When the tamed dragon is too high up in the air, a $(item)dragon bone flute$() may be used to call it down to the ground."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dragon_command_staff",
+            "recipe2": "iceandfire:dragon_flute"
+        },
+        {
+            "type": "text",
+            "text": "Two adult dragons can also be bred with a certain elemental lily mixture; either a $(item)fire lily mixture$() or a $(item)frost lily mixture$().$(br2)The male dragon should be fed first before feeding the female dragon with the substance; the female will create a nest with a single egg of any color afterwards."
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:fire_lily_mixture",
+            "recipe2": "iceandfire:frost_lily_mixture"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "slayers_journal/bestiary/dragon",
+                "innovation/metallurgy/dragonsteel"
+            ]
+        }
+    ]
+}

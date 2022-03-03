@@ -1,0 +1,7 @@
+{
+    "name": "Bestiary",
+    "description": "$(#734608)These specific creatures are rather unique from the typical monster. Though I may not encounter them as often, I should exercise extreme caution when approaching them.",
+    "icon": "iceandfire:dragon_skull:0",
+    "sortnum": 4,
+    "parent": "slayers_journal"
+  }
