@@ -326,8 +326,9 @@ recipes.addShaped("wicker2", wicker*4,
   [cattail,cattail,cattail]]);
   
 recipes.addShaped("wicker3", wicker*3,
-  [[driedf,driedf,driedf],
-  [driedf,driedf,driedf]]);
+  [[driedf,driedf],
+  [driedf,driedf],
+  [driedf,driedf]]);
   
 recipes.addShaped("wicker4", wicker*3,
   [[rice,rice,rice],

@@ -143,7 +143,6 @@ global disableItem as function(IItemStack)void = function(item as IItemStack) as
     mods.pyrotech.GraniteAnvil.removeRecipes(item);
     mods.pyrotech.IroncladAnvil.removeRecipes(item);
     mods.pyrotech.MechanicalCompactor.removeRecipes(item);
-    mods.pyrotech.PitKiln.removeRecipes(item);
     mods.pyrotech.SoakingPot.removeRecipes(item);
     mods.pyrotech.StoneKiln.removeRecipes(item);
     mods.pyrotech.StoneOven.removeRecipes(item);

@@ -271,7 +271,7 @@ item.pyrotech.gold.hammer.name=Golden Sledgehammer
 item.pyrotech.diamond.hammer.name=Refined Sledgehammer
 item.pyrotech.obsidian.hammer.name=§6Onyx Sledgehammer
 
-tile.pyrotech.thatch.name=Straw Bale
+tile.pyrotech.thatch.name=Hay Bale
 tile.pyrotech.coal_coke_block.name=Block of Coal Coke
 tile.pyrotech.log_pile.name=Log Pile
 tile.pyrotech.refractory_brick_block.name=Refractory Block

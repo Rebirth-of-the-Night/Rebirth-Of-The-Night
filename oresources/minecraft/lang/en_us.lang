@@ -32,6 +32,7 @@ tile.netherWartBlock.name=Block of Nether Wart
 tile.purpurBlock.name=Block of Purpur
 tile.brick.name=Block of Bricks
 tile.netherBrick.name=Block of Nether Bricks
+tile.hayBlock.name=Straw Bale
 
 item.totem.name=§bTotem of Undying
 tile.flower1.dandelion.name=Marigold

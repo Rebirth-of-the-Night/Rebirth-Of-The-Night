@@ -43,7 +43,13 @@ CrudeDryingRack.removeRecipes(<pyrotech:material:13>);
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.removeRecipes(<pyrotech:material:13>);
 
-
+DryingRack.addRecipe("clay_bricks", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 15 * 60 * 20);
+DryingRack.addRecipe("mud_bricks", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 15 * 60 * 20);
+DryingRack.addRecipe("adobe_bricks", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 15 * 60 * 20);
+DryingRack.addRecipe("refractory_bricks", <pyrotech:material:5>, <contenttweaker:unfired_refractory_brick>, 15 * 60 * 20);
+DryingRack.addRecipe("nether_bricks", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 15 * 60 * 20);
+DryingRack.addRecipe("fiery_nether_bricks", <netherex:fiery_netherbrick>, <betterwithmods:unfired_pottery:4>, 15 * 60 * 20);
+DryingRack.addRecipe("porcelain_bricks", <ceramics:unfired_clay:5>, <contenttweaker:unfired_porcelain_brick>, 15 * 60 * 20);
 CrudeDryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <ore:treeSapling>, 5 * 60 * 20, true);
