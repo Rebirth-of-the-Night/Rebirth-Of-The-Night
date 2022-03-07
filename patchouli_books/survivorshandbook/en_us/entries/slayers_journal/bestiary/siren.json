@@ -32,7 +32,7 @@
         {
             "type": "runic_slim",
             "recipe": "mage:1216961044",
-            "text_left": "A powerful flute able to render targets infatuated and unable to attack for 10 seconds",
+            "text_left": "$(#734608)A powerful flute able to render targets infatuated and unable to attack for 10 seconds",
             "text_right": ""
         }
     ]

@@ -22,7 +22,7 @@
         },
         {
             "type": "text",
-            "text": "$(#734608)These beasts can be tamed with rabbits feet by dropping several of them near it. It will soon start feeding and will sit down once tamed.$(br2)Hippogryphs can be saddled, carry chests, and wear $(item)hippogryph armor$()$(#734608). Their current behavior can be altered by commanding it with a stick.$(br2)Two hippogryphs may also be bred with rabbit stews while they are wandering."
+            "text": "$(#734608)These beasts can be tamed with rabbits feet by dropping several of them near it. It will soon start feeding and will sit down once tamed.$(br2)Hippogryphs can be saddled, carry chests, and wear $(item)hippogryph armor$()$(#734608). Their current behavior can be altered by commanding it with a stick.$(br2)Two hippogryphs may also be bred with $(item)rabbit stews$()$(#734608) while they are wandering."
         },
         {
             "type": "crafting",
