@@ -22,8 +22,8 @@
         },
         {
             "type": "crafting",
-            "recipe": "iceandfire:blindfold",
-            "text": "$(#734608)One can protect themselves from sirenWearing a blindfold will render the user immune to the siren's song"
+            "recipe": "crafttweaker:earplugs",
+            "text": "$(#734608)One can protect themselves from siren by wearing earplugs which will render the user immune to the siren's song"
         },
         {
             "type": "text",
