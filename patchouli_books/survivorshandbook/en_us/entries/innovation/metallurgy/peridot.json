@@ -1,5 +1,5 @@
 {
-  "name": "Peridot",
+  "name": "Alexandrite",
   "icon": "biomesoplenty:gem:2",
   "category": "innovation_metallurgy",
   "advancement": "triumph:advancements/ores/peridot",
@@ -7,7 +7,7 @@
     {
       "type": "spotlight",
       "item": "biomesoplenty:gem:2",
-      "text": "$(item)Peridot$() is an intensely curious gem, one whose properties continue to elude me.$(br2)While wearing a set of peridot armor, any sort of violence afflicted upon me seems to $(thing)mellow the attacker$(), giving me an opportunity to get out of harm’s way."
+      "text": "$(item)Alexandrite$() is an intensely curious gem, one whose properties continue to elude me.$(br2)While wearing a set of peridot armor, any sort of violence afflicted upon me seems to $(thing)mellow the attacker$(), giving me an opportunity to get out of harm’s way."
     },
     {
       "type": "text",

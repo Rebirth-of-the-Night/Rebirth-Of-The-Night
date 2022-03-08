@@ -16,7 +16,7 @@
         {
             "type": "crafting",
             "recipe": "iceandfire:dragon_bone_block",
-            "recipe2": "iceandfire:dragonforge_fire_brick"
+            "recipe2": "crafttweaker:iceandfire_fire_brick"
         },
         {
             "type": "crafting",
@@ -26,7 +26,7 @@
         {
             "type": "crafting",
             "recipe": "iceandfire:dragon_bone_block",
-            "recipe2": "iceandfire:dragonforge_ice_brick"
+            "recipe2": "crafttweaker:iceandfire_ice_brick"
         },
         {
             "type": "crafting",

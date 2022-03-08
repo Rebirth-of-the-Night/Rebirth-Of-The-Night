@@ -18,11 +18,11 @@
         },
         {
             "type": "text",
-            "text": "$(#734608)Trolls live in caverns underneath forests, mountains, and tundras.$(br2)They are naturally hostile to humans and villagers, and will emit a loud roar before rushing them while smashing any obstacles in its way.$(br)It deals heavy damage by striking down with its club and heavy knockback by swiping sideways.$(br)Because of its thick hide, it is immune to most projectiles. "
+            "text": "$(#734608)Trolls live in caverns underneath forests, mountains, and tundras.$(br2)They are naturally hostile to humans and villagers, and will emit a loud roar before rushing them while smashing any obstacles in its way.$(br2)It deals heavy damage by striking down with its club and heavy knockback by swiping sideways."
         },
         {
             "type": "text",
-            "text": "$(#734608)Trolls are weak to sunight however, and will immediately turn to stone with which they can be mined down into cobblestone.$(br2)Trolls can drop many things when slain including stone, sticks, bones, $(item)troll leather$()$(#734608), $(item)troll tusks$()$(#734608) and rarely a troll skull."
+            "text": "$(#734608)Because of its thick hide, it is immune to most projectiles.$(br2)Trolls are weak to sunight however, and will immediately turn to stone with which they can be mined down into cobblestone.$(br2)Trolls can drop many things when slain including stone, sticks, bones, $(item)troll leather$()$(#734608), $(item)troll tusks$()$(#734608) and rarely a troll skull."
         },
         {
             "type": "text",
