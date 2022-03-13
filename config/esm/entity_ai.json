@@ -92,7 +92,7 @@
       "Griefing": true,
       "Requires Tools": true,
       "Ranged Atk Dist": 48,
-      "Ranged Atk Error": 3,
+      "Ranged Atk Error": 3
     },
     "rats:illager_piper": {
       "Pillaring": true,

@@ -1768,12 +1768,6 @@ for brickItem, brickBlock in stoneBrickBlockMap{
 }
 
 // Refractory Bricks
-// Ghost recipe for JEI
-recipes.addShaped(<pyrotech:refractory_brick_block>,[
-        [<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>],
-		[<contenttweaker:loose_refractory_bricks>,mortarRefractory,<contenttweaker:loose_refractory_bricks>],
-        [<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>]
-    ]);
 val refractoryBrickBlockMap = {
 	<pyrotech:material:5> : [<contenttweaker:brick_pyrotech_refractory>,<contenttweaker:loose_refractory_bricks>],
 	<ceramics:unfired_clay:5> : [<contenttweaker:brick_ceramics_porcelain>,<contenttweaker:loose_porcelain_bricks>],
@@ -1793,6 +1787,12 @@ for brickItemRefractory, brickBlockRefractory in refractoryBrickBlockMap{
         [brickBlockRefractory[1],brickBlockRefractory[1],brickBlockRefractory[1]]
     ]);
 }
+// Ghost recipe for JEI
+recipes.addShaped(<pyrotech:refractory_brick_block>*8,[
+        [<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>],
+		[<contenttweaker:loose_refractory_bricks>,mortarRefractory,<contenttweaker:loose_refractory_bricks>],
+        [<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>]
+    ]);
 
 // removes block to brick furnace recipes:
 furnace.remove(<minecraft:netherbrick>);
