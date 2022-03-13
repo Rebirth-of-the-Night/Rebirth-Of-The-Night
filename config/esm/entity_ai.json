@@ -9,7 +9,7 @@
     "Strafe Evade": true,
     "Animal Retaliate": false,
     "Ranged Atk Dist": 32,
-    "Ranged Atk Error": 5,
+    "Ranged Atk Error": 6,
     "Arrow Tips": [
       "minecraft:slowness:60:0"
     ],
@@ -217,8 +217,8 @@
       "Griefing": true
     },
     "twilightforest:loyal_zombie": {
-      "Pillaring": true
-      "Pillar Block": "contenttweaker:scaffolding",
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding"
     },
     "twilightforest:kobold": {
       "Digging": true,
@@ -428,8 +428,8 @@
       "Griefing": false
     },
     "minecraft:enderman": {
-      "Pillaring": true
-      "Pillar Block": "contenttweaker:scaffolding",
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding"
     },
     "specialmobs:fishingzombie": {
       "Digging": true,
