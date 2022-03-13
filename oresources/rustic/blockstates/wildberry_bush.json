@@ -1,22 +1,22 @@
 {
-    "forge_marker": 1,
-    "defaults": { 
+	"forge_marker": 1,
+	"defaults": { 
 		"model": "biomesoplenty:bush",
 		"textures": {
 			"all": "rustic:blocks/bush"
-			}
-		},
-    "variants": {
-        "berries": {
-            "true": { "submodel": { "berries": [
-                { 
-					"model": "biomesoplenty:berrybush",
-					"textures": {
-						"colored": "rustic:blocks/berrybush"
-						}
+		}
+	},
+	"variants": {
+	"berries": {
+		"true": { "submodel": { "berries": [
+                	{ 
+				"model": "biomesoplenty:berrybush",
+				"textures": {
+					"colored": "rustic:blocks/berrybush"
 					}
-                ] } },
-            "false": {}
+				}
+		] } },
+	"false": {}
         },
 	"inventory": []
     }
