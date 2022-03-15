@@ -20,12 +20,12 @@
       "item1": "minecraft:log",
       "item2": "hitwithaxe:debarked_oak",
       "item3": "minecraft:planks",
-      "text": "Debarking comes first; with stripped logs, I can make planks, and planks, sticks, if I need to. After, I should gather up more loose rocks and sticks and combine it with my crude axe to make implements for a crafting table:"
+      "text": "Debarking comes first; I can turn stripped logs into planks, and sticks, if I need to. After, I can gather up more loose rocks and sticks and combine them with my crude axe to make implements for a crafting table:"
     },
     {
       "type": "crafting",
       "recipe": "crafttweaker:crafting_tools",
-      "text": "After, I can affix the crafting tools to the plank I just processed earlier, like so:"
+      "text": "After, I can place the crafting tools on the plank I just processed earlier, like so:"
     },
     {
       "type": "crafting",
