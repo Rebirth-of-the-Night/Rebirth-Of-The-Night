@@ -1,4 +1,8 @@
 # Rebirth of the Night
+<p align="center">
+  <a href="https://discord.gg/rotn"><img src="https://img.shields.io/discord/796443640381702145?label=discord&style=flat-square" alt="Discord"></a>
+	<a href="https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night"><img src="http://cf.way2muchnoise.eu/full_240630_downloads.svg" alt="CF"></a><br><br>
+</p>
 
 Inspired by Terraria, 7 Days to Die, and more, Rebirth of the Night is a Minecraft 1.12.2 modpack with its own
 progression system, lore, mechanics, and art. It's built with the idea of remembering the central themes of what made
