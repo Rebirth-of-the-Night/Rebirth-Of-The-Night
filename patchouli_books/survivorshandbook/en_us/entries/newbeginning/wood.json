@@ -45,9 +45,10 @@
     {
       "type": "relations",
       "entries": [
-        "adapt/twine",
-        "gather/sticks",
-        "survival/newbeginning/basic_tools_weapons",
+        "survival/gathering/string",
+        "newbeginning/basic_tools_weapons",
+        "survival/gathering/carminberries",
+        "survival/gathering/hawthorne",
         "innovation/light_machines/saw"
       ]
     }
