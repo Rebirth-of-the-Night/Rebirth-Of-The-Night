@@ -1,6 +1,6 @@
 # Rebirth of the Night
 <p align="center">
-  <a href="https://discord.gg/rotn"><img src="https://img.shields.io/discord/796443640381702145?label=discord&style=flat-square" alt="Discord"></a>
+  <a href="https://discord.gg/rotn"><img src="https://img.shields.io/discord/620840315498004480?label=discord&style=flat-square" alt="Discord"></a>
 	<a href="https://www.curseforge.com/minecraft/modpacks/rebirth-of-the-night"><img src="http://cf.way2muchnoise.eu/full_240630_downloads.svg" alt="CF"></a><br><br>
 </p>
 
