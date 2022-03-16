@@ -163,7 +163,7 @@ recipes.addShapedMirrored("timber",timber*12,[
 ]);
 
 // Rammed Earth
-recipes.remove(rammed); // Gets rammed using compactor in pyrotech_recipes_other.zs
+recipes.remove(<earthworks:block_rammed_earth>); // Gets rammed using compactor in pyrotech_recipes_other.zs
 // Rammed Loamy
 recipes.addShaped("stairs_rammed_loamy",rammed_loamy*3,[
     [loamy_stairs,loamy_stairs],
