@@ -446,6 +446,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <globalxp:xp_block>.addTooltip("Shift + Right click to deposit all XP.");
 <globalxp:xp_block>.addTooltip("Right click to retrieve a level.");
 <aether_legacy:enchanted_blueberry>.addTooltip("Hippogryph treat.");
+<minecraft:torch>.addTooltip("Visible light attracts mobs.");
 
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
