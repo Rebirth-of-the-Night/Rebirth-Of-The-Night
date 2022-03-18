@@ -233,7 +233,7 @@ recipes.addShaped("rammed_silty_slab",silty_slab*6,[
 recipes.remove(<earthworks:item_lime_plaster>);
 JEI.removeAndHide(<earthworks:item_slaked_lime>);
 JEI.removeAndHide(<earthworks:item_quicklime>);
-recipes.addShapeless("lime_plaster",<earthworks:item_lime_plaster>*4,[multilime, sandPile]);
+recipes.addShapeless("lime_plaster",<earthworks:item_lime_plaster>*2,[multilime, sandPile]);
 recipes.addShapeless("lime_plaster_binder",<earthworks:item_lime_plaster>*10,[multilime, multilime, multilime, multilime, twine, sandPile, sandPile, sandPile, sandPile]);
 
 // adove

@@ -1077,6 +1077,12 @@ recipes.addShaped("bookshelf", <minecraft:bookshelf>,[
     [woodenPressurePlateMat, woodenPressurePlateMat, woodenPressurePlateMat]
 ]);
 
+recipes.addShaped("brewing_stand_hcstructures", <minecraft:brewing_stand>,[
+    [null, null, null],
+    [null, <minecraft:blaze_rod>, null],
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+]);
+
 var woodenPodiumMat = <biomesoplenty:planks_0:0>|<biomesoplenty:planks_0:1>|<biomesoplenty:planks_0:2>|<biomesoplenty:planks_0:3>|<biomesoplenty:planks_0:4>|<biomesoplenty:planks_0:5>|<biomesoplenty:planks_0:6>|<biomesoplenty:planks_0:7>|<biomesoplenty:planks_0:8>|<biomesoplenty:planks_0:9>|<biomesoplenty:planks_0:10>|<biomesoplenty:planks_0:11>|<biomesoplenty:planks_0:12>|<biomesoplenty:planks_0:13>|<biomesoplenty:planks_0:14>|<biomesoplenty:planks_0:15>|<betternether:stalagnate_planks>|<betternether:reeds_block>|<rustic:planks>|<rustic:planks:1>|<stygian:endplanks>|<quark:stained_planks:*>|<quark:vertical_planks:*>|<quark:vertical_stained_planks:*>|<twilightforest:tower_wood:*>|<twilightforest:twilight_oak_planks>|<twilightforest:canopy_planks>|<twilightforest:mangrove_planks>|<twilightforest:dark_planks>|<twilightforest:time_planks>|<twilightforest:trans_planks>|<twilightforest:mine_planks>|<twilightforest:sort_planks>|<aether_legacy:skyroot_plank>|<betterwithaddons:planks_sakura>|<betterwithaddons:planks_mulberry>;
 
 recipes.addShaped("wooden_podium",<iceandfire:podium:0>,[
@@ -2411,3 +2417,27 @@ recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecr
 recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweaker:broken_stick>, <contenttweaker:broken_stick>, <ore:glue> | <ore:slimeball>]);
 recipes.addShapeless("crassula_stem", <contenttweaker:greasy_stem>,[<contenttweaker:perforata>]);
 recipes.addShapeless("crassula_stem_to_stick", <minecraft:stick> * 2,[<contenttweaker:greasy_stem>]);
+
+// CoT bricks hiding
+JEI.removeAndHide(<earthworks:block_rammed_earth>);
+JEI.removeAndHide(<quark:world_stone_bricks>);
+JEI.removeAndHide(<quark:world_stone_bricks:1>);
+JEI.removeAndHide(<quark:world_stone_bricks:2>);
+JEI.removeAndHide(<earthworks:block_dry_stone>);
+JEI.removeAndHide(<minecraft:stonebrick>);
+JEI.removeAndHide(<aether_legacy:holystone_brick>);
+JEI.removeAndHide(<quark:sandstone_new:1>);
+JEI.removeAndHide(<quark:sandstone_new:3>);
+JEI.removeAndHide(<quark:sandstone_new:5>);
+JEI.removeAndHide(<biomesoplenty:mud_brick_block>);
+JEI.removeAndHide(<earthworks:block_adobe>);
+JEI.removeAndHide(<quark:biome_brick>);
+JEI.removeAndHide(<quark:biome_brick:1>);
+JEI.removeAndHide(<minecraft:brick_block>);
+JEI.removeAndHide(<quark:sandy_bricks>);
+JEI.removeAndHide(<pyrotech:stone_bricks>);
+JEI.removeAndHide(<minecraft:nether_brick>);
+JEI.removeAndHide(<netherex:fiery_nether_brick>);
+JEI.removeAndHide(<minecraft:end_bricks>);
+JEI.removeAndHide(<betterwithaddons:whitebrick>);
+JEI.removeAndHide(<ceramics:clay_hard>);

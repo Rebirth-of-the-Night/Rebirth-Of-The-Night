@@ -204,6 +204,11 @@
 		"ironfurnaces:diamond_furnace_idle": "brickstone",
 		"futuremc:blast_furnace": "brickstone,hardmetal",
 		"futuremc:smoker": "brickstone,wood",
-		"malisisdoors:laboratory_door": "hardmetal"
+		"malisisdoors:laboratory_door": "hardmetal",
+		"earthworks:block_adobe": "sandstone",
+		"minecraft:lit_furnace": "stoneutility",
+		"ironfurnaces:gold_furnace_active": "brickstone",
+		"ironfurnaces:diamond_furnace_active": "brickstone",
+		"ironfurnaces:iron_furnace_active": "sandstone"
 	}
 }

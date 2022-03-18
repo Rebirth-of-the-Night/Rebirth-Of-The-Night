@@ -32,7 +32,7 @@ recipes.removeByRecipeName("betterwithmods:items/patchouli_manual");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
-recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:wool>,<betterwithmods:material:4>]);
+recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:woolBlock>,<betterwithmods:material:4>]);
 
 JEI.removeAndHide(<betterwithmods:bark:*>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
@@ -107,6 +107,21 @@ recipes.removeByRecipeName("betterwithmods:blocks/redstone/comparator");
 recipes.removeByRecipeName("betterwithmods:decompress/wicker_decompress");
 recipes.remove(<betterwithmods:metal_chime:*>);
 recipes.remove(<betterwithmods:bamboo_chime:*>);
+
+// Table Removal (rustic adds better tables with BOP woods)
+JEI.removeAndHide(<betterwithmods:wood_table>);
+JEI.removeAndHide(<betterwithmods:wood_table:1>);
+JEI.removeAndHide(<betterwithmods:wood_table:2>);
+JEI.removeAndHide(<betterwithmods:wood_table:3>);
+JEI.removeAndHide(<betterwithmods:wood_table:4>);
+JEI.removeAndHide(<betterwithmods:wood_table:5>);
+
+recipes.remove(<betterwithmods:wood_table>);
+recipes.remove(<betterwithmods:wood_table:1>);
+recipes.remove(<betterwithmods:wood_table:2>);
+recipes.remove(<betterwithmods:wood_table:3>);
+recipes.remove(<betterwithmods:wood_table:4>);
+recipes.remove(<betterwithmods:wood_table:5>);
 
 //Turntable
 Turntable.removeAll();

@@ -63,8 +63,8 @@ item.pyrotech.marshmallow.on.stick.burned.name=Burned Traditional Marshmallow on
 
 tile.pyrotech.kiln_pit.name=Pit Kiln
 tile.pyrotech.campfire.name=Campfire
-tile.pyrotech.drying_rack.crude.name=Crude Drying Rack
-tile.pyrotech.drying_rack.normal.name=Drying Rack
+tile.pyrotech.drying_rack.crude.name=Hung Drying Rack
+tile.pyrotech.drying_rack.normal.name=Standing Drying Rack
 tile.pyrotech.chopping_block.name=Chopping Block
 tile.pyrotech.anvil_granite.name=Multipurpose Stone Anvil
 tile.pyrotech.anvil_iron_plated.name=Refined Plating Anvil

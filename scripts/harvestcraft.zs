@@ -284,6 +284,7 @@ recipes.addShaped("Saucepan", <harvestcraft:saucepanitem>,[
 ]);
 
 // bakeware
+recipes.remove(<harvestcraft:bakewareitem>);
 recipes.addShaped("Bakeware", <harvestcraft:bakewareitem> * 3,[
 	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
 	[<ore:ingotCopper>, null, <ore:ingotCopper>],

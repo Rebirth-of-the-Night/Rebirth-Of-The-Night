@@ -190,19 +190,6 @@ RecipeBuilder.get("mage")
 Infuser.addShapeless(<mod_lavacow:sludge_wand>,
 [<mod_lavacow:sludge_wand>.anyDamage(),<contenttweaker:vis_sliver>], 64);
 
-recipes.remove(<mod_lavacow:sludge_wand>);
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_sliver>, <mod_lavacow:silky_sludge>, <mod_lavacow:mossy_stick>],
-    [<ore:vine>, <mod_lavacow:mossy_stick>, <mod_lavacow:silky_sludge>],
-    [<mod_lavacow:mossy_stick>, <ore:vine>, <contenttweaker:vis_sliver>]])
-  .addTool(<contenttweaker:nature_rune>, 1)
-  .addOutput(<mod_lavacow:sludge_wand>)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .create();
-
 // dreamcatcher
 val bFeatherOre = <ore:blackFeather>;
 bFeatherOre.add([<animania:charcoal_peacock_feather>, <twilightforest:raven_feather>, <mod_lavacow:feather_black>]);

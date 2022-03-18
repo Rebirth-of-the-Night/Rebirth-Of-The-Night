@@ -267,7 +267,7 @@ Crucible.addStoked(
         <betterwithmods:material:29>,
         <contenttweaker:vis_shard>,
         <nyx:fallen_star>,
-        <netherex:frost_powder>
+        <minecraft:blaze_powder>
     ],
     [
         <contenttweaker:volatile_magic>

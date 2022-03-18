@@ -30,10 +30,6 @@ JEI.removeAndHide(<aether_legacy:skyroot_sign>);
 LootTable.removeGlobalItem("aether_legacy:skyroot_sign");
 
 recipes.removeByRecipeName("aether_legacy:furnace_from_holystone");
-recipes.removeShaped(<minecraft:stone_pressure_plate>);
-recipes.addShaped("stone_pressure_plate_fixed", <minecraft:stone_pressure_plate>, [
-    [<ore:stoneWithoutHolystone>, <ore:stoneWithoutHolystone>]
-]);
 
 JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 LootTable.removeGlobalItem("aether_legacy:skyroot_double_slab");
@@ -92,7 +88,6 @@ JEI.removeAndHide(<aether_legacy:iron_pendant>);
 JEI.removeAndHide(<aether_legacy:golden_pendant>);
 JEI.removeAndHide(<aether_legacy:zanite_pendant>);
 JEI.removeAndHide(<aether_legacy:ice_pendant>);
-JEI.removeAndHide(<aether_legacy:white_apple>);
 JEI.removeAndHide(<aether_legacy:candy_cane_sword>);
 JEI.removeAndHide(<aether_legacy:candy_cane>);
 JEI.removeAndHide(<aether_legacy:ginger_bread_man>);
@@ -273,3 +268,7 @@ recipes.addShaped("golden_parachute", <aether_legacy:golden_parachute>,[
     [goldcloud, <aether_legacy:swetty_ball>, goldcloud],
     [goldcloud, goldcloud, goldcloud]
 ]);
+
+recipes.remove(<aether_legacy:holystone_pressure_plate>);
+recipes.addShaped("aether_legacy_holystone_pressure_plate", <aether_legacy:holystone_pressure_plate>, [
+    [<aether_legacy:holystone_slab>,<aether_legacy:holystone_slab>]]);

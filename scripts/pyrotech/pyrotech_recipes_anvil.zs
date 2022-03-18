@@ -58,7 +58,6 @@ GraniteAnvil.addRecipe("obsidian_dust", <endreborn:catalyst>*2, <endreborn:item_
 GraniteAnvil.addRecipe("obsidian_shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 64, "pickaxe", true);
 <ore:cobblestone_except_cobblestone>.addAll(<ore:cobblestone>);
 <ore:cobblestone_except_cobblestone>.remove(<minecraft:cobblestone>);
-GraniteAnvil.addRecipe("cobblestone_any_cobblestone", <minecraft:cobblestone>, <ore:cobblestone_except_cobblestone>, 1, "hammer", true);
 GraniteAnvil.addRecipe("cobblestone_to_rocks", <pyrotech:rock:0> * 4, <minecraft:cobblestone>, 3, "hammer", true);
 GraniteAnvil.addRecipe("entropy_cobblestone", <endreborn:block_entropy_end_stone>, <minecraft:end_stone>, 4, "hammer", true);
 GraniteAnvil.addRecipe("cracked_astral_block", <nyx:cracked_star_block>, <nyx:star_block>, 64, "hammer", true);

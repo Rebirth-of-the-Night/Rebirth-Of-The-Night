@@ -53,6 +53,7 @@ import mods.jei.JEI;
 <minecraft:cookie>.displayName = "Chocolate Chip Cookie";
 <minecraft:fish>.displayName = "Raw Cod";
 <minecraft:cooked_fish>.displayName = "Cooked Cod";
+<minecraft:brick>.displayName = "Clay Brick";
 
 // Requious Frakto
 <requious:dryer>.displayName = "Hell Dryer";

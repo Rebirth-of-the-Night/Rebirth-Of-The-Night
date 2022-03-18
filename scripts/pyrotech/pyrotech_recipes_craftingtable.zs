@@ -156,8 +156,8 @@ recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("composting_bin", <pyrotech:compost_bin>,
- [[<ore:fenceWood>,null,<ore:fenceWood>],
-  [<ore:fenceWood>,null,<ore:fenceWood>],
+ [[<earthworks:item_timber>,null,<earthworks:item_timber>],
+  [<earthworks:item_timber>,null,<earthworks:item_timber>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("compacting_bin", <pyrotech:compacting_bin>,
  [[null,<pyrotech:compost_bin>,null],
