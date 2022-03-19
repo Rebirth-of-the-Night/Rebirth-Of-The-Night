@@ -56,7 +56,7 @@ recipes.addShaped("glare_small", small, [
 	[null, latch, null], 
 	[null, gshaft, null]
 ]);
-recipes.addShaped("glareshaft_small",gshaft*2, [
+recipes.addShaped("glareshaft_small",gshaft*4, [
 	[null, <quark:chain>, null],
 	[null, <earthworks:item_timber>, null],
 	[null, <betterwithaddons:wrought_bars>, null]

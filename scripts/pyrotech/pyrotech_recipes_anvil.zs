@@ -52,6 +52,7 @@ GraniteAnvil.addRecipe("dense_redstone", <minecraft:redstone>*2, <pyrotech:mater
 GraniteAnvil.addRecipe("dense_quartz", <minecraft:quartz>*2, <pyrotech:material:37>, 2, "pickaxe", true);
 GraniteAnvil.addRecipe("ambrosium_to_magic_dust", <contenttweaker:magic_blend>*3, <aether_legacy:ambrosium_block>, 16, "hammer", true);
 GraniteAnvil.addRecipe("lignite_to_coal_dust", <betterwithmods:material:18>, <undergroundbiomes:sedimentary_stone:4>, 16, "hammer", true);
+GraniteAnvil.addRecipe("lignite_cobble_to_coal_dust", <betterwithmods:material:18>, <contenttweaker:lignite_cobble>, 16, "hammer", true);
 GraniteAnvil.addRecipe("raw_endorium", <endreborn:item_raw_endorium>, <ore:enderpearl>, 16, "hammer", true);
 GraniteAnvil.addRecipe("lormyte_crystal", <endreborn:item_lormyte_crystal>*2, <endreborn:block_lormyte_crystal>, 8, "hammer", true);
 GraniteAnvil.addRecipe("obsidian_dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);

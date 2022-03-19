@@ -97,6 +97,16 @@ var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>
 } as IItemStack[IItemStack];
 
+// sedimentary cobble to smooth stones (feel like this isn't the best place to put these but idk where else)
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone>, <contenttweaker:limestone_cobble>);
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone:1>, <contenttweaker:chalk_cobble>);
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone:2>, <contenttweaker:shale_cobble>);
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone:3>, <contenttweaker:siltstone_cobble>);
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone:4>, <contenttweaker:lignite_cobble>);
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone:5>, <contenttweaker:dolomite_cobble>);
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone:6>, <contenttweaker:greywacke_cobble>);
+furnace.addRecipe(<undergroundbiomes:sedimentary_stone:7>, <contenttweaker:chert_cobble>);
+
 for rawOreBlock, rawOre in rtb {
   recipes.addShaped(rawOreBlock, [
 	[rawOre,rawOre,rawOre],
