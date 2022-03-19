@@ -22,6 +22,70 @@ JEI.removeAndHide(<pyrotech:quartz_sword>);
 CompactingBin.removeAllRecipes();
 MechanicalCompactor.removeAllRecipes();
 
+// Pyrotech Compat Hiding
+// if you plan to use one of these, please replace the removeandhide line with what it will be used for
+// all of them can be found in the pyrotech creative tab
+
+// Igneous sand piles
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand>); #red granite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:1>); #black granite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:2>); #rhyolite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:3>); #andesite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:4>); #gabbro sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:5>); #basalt sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:6>); #komatiite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:7>); #dacite sand pile
+
+//Metamorphic sand piles
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand>); #gneiss sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:1>); #eclogite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:2>); #marble sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:3>); #quartzite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:4>); #blue schist sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:5>); #green schist sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:6>); #soapstone sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:7>); #migmatite sand pile
+
+//Sedimentary sand piles
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand>); #limestone sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:1>); #chalk sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:2>); #shale sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:3>); #siltstone sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:4>); #lignite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:5>); #dolomite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:6>); #greywacke sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:7>); #chert sand pile
+
+// Igneous sandstone rocks
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:8>); #red granite sandstone rock
+#black granite sandstone: currently lignite rock (it really should use the lignite sandstone rock instead)
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:10>); #rhyolite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:11>); #andesite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:12>); #gabbro sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:13>); #basalt sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:14>); #komatiite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:15>); #dacite sandstone rock
+
+// Metamorphic sandstone rocks
+#gneiss sandstone rock: currently used as itself
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:9>); #eclogite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:10>); #marble sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:11>); #quartzite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:12>); #blue schist sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:13>); #green schist sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:14>); #soapstone sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:15>); #migmatite sandstone rock
+
+// Sedimentary sandstone rocks
+#limestone sandstone rock: currently used as itself
+#chalk sandstone rock: currently used as defiled sandstone rock
+#shale sandstone rock: currently used as itself
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:11>); #siltstone sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:12>); #lignite sandstone rock
+#dolomite sandstone rock: currently used as defiled rock
+#greywacke sandstone rock: currently used as itself
+#chert sandstone rock: currently used as holystone rock
+
 CompactingBin.addRecipe("dirt_from_pile", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4, true);
 CompactingBin.addRecipe("rammed_from_dirt", <contenttweaker:rammed_earth_vanilla_dirt>, <minecraft:dirt>, 3, true);
 CompactingBin.addRecipe("rammed_from_loamy", <contenttweaker:rammed_earth_loamy_dirt>, <biomesoplenty:dirt:0>, 3, true);
