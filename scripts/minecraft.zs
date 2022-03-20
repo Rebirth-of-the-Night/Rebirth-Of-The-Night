@@ -379,7 +379,10 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-recipes.removeShapeless(<antiqueatlas:empty_antique_atlas>, [ <minecraft:book>, <minecraft:compass>]);
+recipes.removeShapeless(<minecraft:writable_book>, [<minecraft:book>,<ore:feather>,<ore:dyeBlack>]);
+recipes.addShapeless(<minecraft:writable_book>, [<minecraft:book>,<ore:feather>,<ore:dye>]);
+
+recipes.removeShapeless(<antiqueatlas:empty_antique_atlas>, [<minecraft:book>,<minecraft:compass>]);
 recipes.addShapeless(<antiqueatlas:empty_antique_atlas>, [<minecraft:writable_book>,<minecraft:compass>]);
 
 recipes.removeByRecipeName("aether_legacy:saddle");

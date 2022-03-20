@@ -1,6 +1,6 @@
 {
   "name": "Getting Food: Foraging",
-  "icon": "minecraft:apple",
+  "icon": "rustic:wildberries",
   "category": "survival_newbeginning",
   "sortnum": 5,
   "pages": [
@@ -21,7 +21,7 @@
       "b_t":"A rock furnace is a solid option for cooking and smelting ores. Not too healthy...",
       "b_i":"book:hover_icon.png",
       "c":"futuremc:smoker",
-      "c_t":"A specialized form of the furnace wich is faster but can only cook food. Tasty and no traces of tin in your meat.",
+      "c_t":"A specialized furnace; faster, but can only cook food. Tasty and no traces of tin in your meat.",
       "c_i":"book:hover_icon.png",
       "d":"ironfurnaces:iron_furnace_idle",
       "d_t":"A prettier counterpart to the rock furnace made of mud bricks.",
@@ -30,12 +30,12 @@
       "e_t":"A 25% more efficient clay brick furnace. Better all-around.",
       "e_i":"book:hover_icon.png",
       "f":"ironfurnaces:diamond_furnace_idle",
-      "f_t":"A 25% more efficient masonry brick furnace. Better all-around.",
+      "f_t":"A 75% more efficient masonry brick furnace. One of the most practical options.",
       "f_i":"book:hover_icon.png",
       "g":"betterwithmods:cooking_pot:1",
       "g_t":"Only requires a lit fire under it and can cook in bulk.",
       "g_i":"book:hover_icon.png",
-      "text2": "Not everything edible I can find needs cooking, but for the things that do, a campfire or rock furnace will be the smartest choices."
+      "text2": "Not everything edible I can find needs cooking, but for the things that do, a campfire or rock furnace will be the most convenient choices."
     },
     {
       "type": "relations",

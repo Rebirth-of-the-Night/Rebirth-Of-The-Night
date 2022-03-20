@@ -218,6 +218,14 @@ recipes.addShaped("ore_locator", ore_locator,[
     [blazerod, null, null]
 ]);
 
+recipes.addShapeless("straight_conveyor_2_corner", <cyclicmagic:plate_push_slowest_corner>, [st_conveyor]);
+
+recipes.addShapeless("straight_conveyor_2_ramp", <cyclicmagic:plate_push_slowest_angle>*2, [st_conveyor,st_conveyor]);
+
+recipes.addShapeless("corner_conveyor_2_straight", st_conveyor, [<cyclicmagic:plate_push_slowest_corner>]);
+
+recipes.addShapeless("ramp_conveyor_2_straight", st_conveyor*2, [<cyclicmagic:plate_push_slowest_angle>,<cyclicmagic:plate_push_slowest_angle>]);
+
 //recipes.addShaped("durable_stirrups", stirrups,[
 //	[null, <betterwithmods:material:9>, null],
 //    [null, <harvestcraft:hardenedleatheritem>, <betterwithmods:material:9>],

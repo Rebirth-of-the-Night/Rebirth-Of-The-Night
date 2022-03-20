@@ -411,7 +411,6 @@ ExSartagine.addKettleRecipe([batter,heavyCream,sugar,pumpkin],null,waterBottle,[
 recipes.removeByRecipeName("harvestcraft:redvelvetcakeitem");
 ExSartagine.addKettleRecipe([batter,heavyCream,milkBottle,sugar,redRose],null,null,[<harvestcraft:redvelvetcakeitem>],200);
 // Cooked Calamari
-furnace.remove(cookedCalamari);
 mods.futuremc.Smoker.addRecipe(calamari, cookedCalamari);
 ExSartagine.addKettleRecipe([calamari],null,null,[cookedCalamari],80);
 //Grilled Asparagus
@@ -3001,7 +3000,7 @@ ExSartagine.addKettleRecipe([rawBeef,bread,onion,garlic,ketchup],cookKitKettle,n
 recipes.remove(<harvestcraft:mushroomlasagnaitem>);
 ExSartagine.addKettleRecipe([pasta,cheese,tomato,garlic,onion,mushroom],cookKitKettle,null,[<harvestcraft:mushroomlasagnaitem>],80);
 //Cooked Mussel
-furnace.remove(<harvestcraft:musselcookeditem>);
+
 //Nether Wings
 recipes.remove(<harvestcraft:netherwingsitem>);
 ExSartagine.addKettleRecipe([cookedChicken,hotSauce,<minecraft:blaze_powder>],cookKitKettle,null,[<harvestcraft:netherwingsitem>],80);
@@ -3331,7 +3330,7 @@ ExSartagine.addKettleRecipe([stock,noodles,spice,groundCinnamon,onion],null,null
 recipes.remove(<harvestcraft:bubbleteaitem>);
 ExSartagine.addKettleRecipe([flour,sugar,teaLeaf],null,waterBottle,[<harvestcraft:bubbleteaitem>],80);
 //Cooked Duck
-furnace.remove(<harvestcraft:duckcookeditem>);
+
 //Wonton Soup
 recipes.remove(<harvestcraft:wontonsoupitem>);
 ExSartagine.addKettleRecipe([stock,dough,scallion,ginger,soySauce],null,null,[<harvestcraft:wontonsoupitem>],80);
