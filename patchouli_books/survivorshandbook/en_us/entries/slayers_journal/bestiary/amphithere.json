@@ -1,0 +1,46 @@
+{
+    "name": "Amphithere",
+    "icon": "iceandfire:amphithere_feather",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 9,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:amphithere",
+            "scale": 0.4,
+            "offset": -0.5,
+            "rotate": "true",
+            "default_rotation": -24,
+            "name": "Amphithere",
+            "text": "$(thing)Amphitheres$()$(#734608) are colorful winged serpents with many feathers adorning its wings and tail"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Unlike other beasts, amphitheres are docile and will not attack unless provoked. They have even been seen to protect nearby villagers.$(br2)When they do attack however, they will do moderate damage with their bites and will knock targets back with their tail.$(br2)Amphitheres can be found flying through jungle biomes."
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Hitting the amphithere with any projectile will be able to disrupt its glide and bring it to the ground to be killed or tamed.$(br2)Killing it will drop their feathers and rarely a skull$(br2)$(item)Amphithere feathers$()$(#734608) are used to craft an $(item)amphithere macuahuitl$()$(#734608) or $(item)amphithere arrows$()$(#734608), both of which have incredible knockback$(br2)The macuahuitl is also capable of disabling shields"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Taming an amphithere requires enduring its relentless bite attacks long enough while mounting it.$(br2)As a tamed beast, the amphithere serves as an incredibly fast aerial mount and fairly competent combat assistance$(br2)Two amphitheres can also be bred with cookies"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Its behavior can be altered by interacting with it while sneaking$(br2)They can be summoned from the air with a $(item)dragon bone flute$()$(#734608)$(br2)Additionally, using a $(item)dragon command staff$()$(#734608) will set its current home position"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dragon_command_staff",
+            "recipe2": "iceandfire:dragon_flute"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:amphithere_macuahuitl",
+            "recipe2": "iceandfire:amphithere_arrow"
+        }
+    ]
+}
