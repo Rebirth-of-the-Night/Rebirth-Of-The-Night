@@ -1,4 +1,4 @@
-import mods.requious.SlotVisual;
+/*import mods.requious.SlotVisual;
 import mods.requious.Color;
 import mods.requious.ComponentFace;
 import mods.requious.AssemblyRecipe;
@@ -28,3 +28,4 @@ var speckToSliverJEI = AssemblyRecipe.create(function(container) {
     container.addItemOutput("JEIoutput",<contenttweaker:vis_sliver>);
 }).requireItem("JEIinput",<contenttweaker:vis_speck>) .requireFluid("JEIliquid", <liquid:lunar_water>) .requireDuration("JEIduration", 200);
 splosher.addJEIRecipe(speckToSliverJEI);
+*/
