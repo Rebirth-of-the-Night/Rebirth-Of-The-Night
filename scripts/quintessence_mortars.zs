@@ -9,11 +9,11 @@ import crafttweaker.item.IItemStack;
 val blendPowder = <ore:blendPowder>;
 blendPowder.add(<minecraft:glowstone_dust>, <arcanearchives:radiant_dust>, <aether_legacy:ambrosium_shard>);
 
-Mortar.addRecipe(["wood"], <contenttweaker:magic_blend>, 8, <contenttweaker:magic_blend> * 1, 0.05, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+Mortar.addRecipe(["wood"], <contenttweaker:magic_blend> * 4, 8, <contenttweaker:magic_blend> * 2, 0.50, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
-Mortar.addRecipe(["iron"], <contenttweaker:magic_blend>, 4, <contenttweaker:magic_blend> * 1, 0.10, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+Mortar.addRecipe(["iron"], <contenttweaker:magic_blend> * 4, 4, <contenttweaker:magic_blend> * 2, 0.55, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
-Mortar.addRecipe(["gold"], <contenttweaker:magic_blend>, 2, <contenttweaker:magic_blend> * 1, 0.15, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+Mortar.addRecipe(["gold"], <contenttweaker:magic_blend> * 4, 2, <contenttweaker:magic_blend> * 2, 0.60, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
 ############
 # Ore Dict #
@@ -25,6 +25,9 @@ Mortar.addRecipe(["gold"], <contenttweaker:magic_blend>, 2, <contenttweaker:magi
 val earthQuintessence = <ore:earthQuintessence>;
 earthQuintessence.addAll(<ore:dirt>);
 earthQuintessence.addAll(<ore:stone>);
+earthQuintessence.addAll(<ore:stoneSedimentary>);
+earthQuintessence.addAll(<ore:stoneIgneous>);
+earthQuintessence.addAll(<ore:stoneMetamorphic>);
 earthQuintessence.addAll(<ore:sand>);
 earthQuintessence.add(
     <defiledlands:dirt_defiled>,
@@ -312,11 +315,17 @@ natureQuintessenceA.add(
     <defiledlands:blastem_fruit>,
     <defiledlands:blastem_fruit_blazing>,
     <defiledlands:vilespine>,
-    <defiledlands:blastem_seed>
+    <defiledlands:blastem_seed>,
+    <minecraft:red_flower:*>,
+    <contenttweaker:giant_red_flower_petal>,
+    <contenttweaker:giant_yellow_flower_petal>,
+    <contenttweaker:giant_blue_flower_petal>,
+    <minecraft:yellow_flower>
 );
 
 // Nature B - Fauna
 val natureQuintessenceB = <ore:natureQuintessenceB>;
+natureQuintessenceB.addAll(<ore:feather>);
 
 natureQuintessenceB.add(
     <betteranimalsplus:antler>,
@@ -327,7 +336,15 @@ natureQuintessenceB.add(
     <betteranimalsplus:wolf_pelt_arctic>,
     <betteranimalsplus:wolf_pelt_brown>,
     <betteranimalsplus:wolf_pelt_red>,
-    <minecraft:leather>
+    <minecraft:leather>,
+    <betterwithmods:material:7>,
+    <betterwithmods:material:6>,
+    <betterwithmods:material:31>,
+    <betterwithmods:material:33>,
+    <betterwithmods:material:32>,
+    <quark:tallow>,
+    <iceandfire:amphithere_feather>,
+    <iceandfire:stymphalian_bird_feather>
 );
 
 // Illusion A - Prismatics - things that shift and change color
@@ -959,6 +976,11 @@ Mortar.addRecipe(["wood"], <contenttweaker:luna_quintessence>, 8, <contenttweake
 
 Mortar.addRecipe(["wood"], <contenttweaker:sol_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:solarQuintessence>]);
 
+// Disintegration and Energy Quintessence (temporary additions to remove Aether softlock for magic bomb, remove these lines when another solution is found)
+
+Mortar.addRecipe(["wood"], <contenttweaker:disint_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:disintegrationQuintessenceA>, <ore:disintegrationQuintessenceB>]);
+
+Mortar.addRecipe(["wood"], <contenttweaker:energy_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:energyQuintessenceA>, <ore:energyQuintessenceB>]);
 
 ##########################
 # Arcane Mortar (iron)   #

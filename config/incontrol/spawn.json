@@ -214,11 +214,11 @@
 	"onjoin": true,
 	"seesky": false,
 	"maxlight": 7,
-	"maxheight": 60,
+	"maxheight": 45,
 	"minheight": 10,
 	"helditem": ["4=spartanweaponry:club_wood", "2=minecraft:iron_pickaxe", "2=mod_lavacow:tooth_dagger", "3=mod_lavacow:vespa_dagger", "1=mod_lavacow:bonesword", "1=spartanweaponry:dagger_bronze", "2=spartanweaponry:dagger_iron", "2=spartanweaponry:dagger_copper", "4=dungeontactics:bone_knife", "2=dungeontactics:sharp_stick", "1=spartanweaponry:throwing_axe_stone", "1=spartanweaponry:throwing_axe_iron"],
 	"maxcount": {
-        "amount": 18,
+        "amount": 14,
         "perplayer": true
     },
 	"result": "allow"
@@ -391,6 +391,14 @@
 // remove piper spawning in Aether
  {
     "mob": "rats:illager_piper",
+    "dimension": 4,
+    "onjoin": true,
+    "result": "deny"
+ },
+
+// Remove Zombie Players spawning in the Aether
+ {
+    "mob": "zombie_players:zombie_player",
     "dimension": 4,
     "onjoin": true,
     "result": "deny"
@@ -1111,22 +1119,6 @@
  {
     "dimension": -1,
     "mob": "specialmobs:infernoblaze",
-    "result": "deny"
- },
- 
-{
-    "dimension": -1,
-    "mob": "specialmobs:joltblaze",
-    "gamestage": "killedWither",
-    "maxcount": {
-        "amount": 2,
-        "perplayer": true
-    },
-    "result": "allow"
- },
- {
-    "dimension": -1,
-    "mob": "specialmobs:joltblaze",
     "result": "deny"
  },
  
@@ -2390,12 +2382,13 @@
     "dimension": 4,
     "mob": "mowziesmobs:naga",
 	"random": 2,
+    "gamestage": "killedHarvester",
 	"damagemultiply": 1.5,
     "healthmultiply": 1.5,
 	"block": ["aether_legacy:quicksoil"],
 	"seesky": true,
     "maxcount": {
-        "amount": 2,
+        "amount": 1,
         "perplayer": true
     },
     "result": "allow"
@@ -2677,7 +2670,7 @@
 	"random": 0.30,
 	"seesky": true,
     "maxcount": {
-        "amount": 8,
+        "amount": 4,
         "perplayer": true
     },
     "result": "allow"
@@ -2687,29 +2680,13 @@
     "mob": "mod_lavacow:ptera",
     "result": "deny"
  },
-{
-    "dimension": 4,
-    "mob": "netherex:wight",
-    "gamestage": "killedQuazar",
-	"random": 0.30,
-	"maxlight": 7,
-    "minlight": 0,
-    "maxcount": {
-        "amount": 3,
-        "perplayer": true
-    },
-    "result": "allow",
-	"potion": "extraalchemy:effect.pacifism,1000000,1"
- },
- {
-    "dimension": 4,
-    "mob": "netherex:wight",
-    "result": "deny"
- },
+
+/////// KILLED SUN SPIRIT
 
 {
     "dimension": 4,
     "mob": "netherex:coolmar_spider",
+    "gamestage": "killedSunSpirit",
 	"random": 0.30,
 	"seesky": false,
 	"maxlight": 7,
@@ -2726,7 +2703,26 @@
     "result": "deny"
  },
 
-/////// KILLED SUN SPIRIT
+{
+    "dimension": 4,
+    "mob": "netherex:wight",
+    "gamestage": "killedSunSpirit",
+	"random": 0.30,
+    "seesky": false,
+	"maxlight": 8,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "allow",
+	"potion": "extraalchemy:effect.pacifism,1000000,1"
+ },
+ {
+    "dimension": 4,
+    "mob": "netherex:wight",
+    "result": "deny"
+ },
 
 {
     "dimension": 4,
@@ -2746,6 +2742,26 @@
  {
     "dimension": 4,
     "mob": "netherex:frost",
+    "result": "deny"
+ },
+
+{
+    "dimension": 4,
+    "mob": "specialmobs:joltblaze",
+    "gamestage": "killedSunSpirit",
+    "random": 0.30,
+	"maxlight": 7,
+    "minlight": 0,
+	"seesky": true,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "specialmobs:joltblaze",
     "result": "deny"
  },
 
@@ -2888,7 +2904,7 @@
     "gamestage": "killedSunSpirit",
 	"random": 0.70,
 	"maxlight": 9,
-	"minheight": 100,
+	"minheight": 35,
     "maxcount": {
         "amount": 7,
         "perplayer": true

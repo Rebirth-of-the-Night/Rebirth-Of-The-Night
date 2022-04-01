@@ -7,19 +7,19 @@
   "pages": [
     {
       "type": "text",
-      "text": "$(#734608)This ugly little book may not seem like much, but it is my life's work. If you're reading this, it's not a good sign for me... but I suspect you don't really care about that. What I offer you now is a warning. $(br2)The research, the sketches, the speculation - everything I have recorded here - were never meant for an audience. $()"
+      "text": "$(#734608)$(italics)To whom it may concern:$()$(br2)$(#734608)This ugly little book may not seem like much, but it is my life's work. If you're reading this, it's not a good sign for me... but I suspect you don't really care about that. What I offer you now is a warning. $(br2)The research, sketches, speculation - everything I have recorded here - were$()"
     },
     {
       "type": "text",
-      "text": "$(#734608)They were never intended to be instructions. $(br2)Understanding the horrors of this world, seeking them out, and then killing them was how I kept my sanity; how I kept myself from slipping away. I can't guarantee you'll feel the same. $(br2)Sometimes I saw and did things I didn't want to remember, and sealed my writings away to keep them out of my mind.$()"
+      "text": "$(#734608)never meant for an audience; never intended to be instructions. $(br2)Understanding the horrors of this world, seeking them out, and killing them was how I kept my sanity; how I kept myself from slipping away. I can't guarantee you'll feel the same. $(br2)Sometimes I saw or did things I didn't want to remember, and sealed my writings away to keep them out of my mind.$()"
     },
 	{
       "type": "text",
-      "text": "$(#734608)Well, this book and all its findings are bound to you now. Congratulations. $(br2)Chances are, you won't be able to read most of my writing until you've followed in my footsteps. If you truly wish to continue along this path, you will put yourself in great danger, facing unreasonable odds. The further you go, the worse the consequences will be, and the more likely you will meet a gruesome end.$()"
+      "text": "$(#734608)Well, this book and all its findings are bound to you now. Congratulations. $(br2)Chances are, you won't be able to read most of my writing until you've followed in my footsteps; a long and arduous journey will face you, just as it faced me. If you truly wish to continue along this path, you will put yourself in great danger, battling unreasonable odds. The further you go, the worse the consequences will be,$()"
     },	
     {
       "type": "text",
-      "text": "$(#734608)You might see that as just another challenge to be conquered. $(br2)I thought that way too, once.$() $()"
+      "text": "$(#734608)and the more likely you will meet a gruesome end.$(br2)You might see that as just another challenge to be conquered; another obstacle towards ever greater power.$(br2)I thought that way too, once.$() $()"
     }
   ]
 }

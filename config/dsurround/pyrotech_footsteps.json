@@ -36,6 +36,7 @@
 		"pyrotech:compost_bin": "bluntwood",
 		"pyrotech:stash": "bluntwood",
 		"pyrotech:shelf": "bluntwood",
-		"pyrotech:drying_rack": "ladder"
+		"pyrotech:drying_rack": "ladder",
+		"pyrotech:kiln_pit": "straw"
 	}
 }

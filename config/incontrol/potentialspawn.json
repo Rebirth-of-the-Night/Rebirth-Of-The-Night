@@ -117,7 +117,7 @@
         "mob": "primitivemobs:goblin",
         "weight": 0.2,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       }
     ]
   },
@@ -129,7 +129,7 @@
     "mobs": [
       {
         "mob": "primitivemobs:goblin",
-        "weight": 5,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -506,7 +506,7 @@
   },
 
    {
-    "dimension": -1,
+    "dimension": 4,
     "mobs": [
       {
         "mob": "specialmobs:joltblaze",
@@ -1328,7 +1328,7 @@
     "mobs": [
       {
         "mob": "mowziesmobs:naga",
-        "weight": 0.5,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

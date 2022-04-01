@@ -187,6 +187,10 @@
 		"iceandfire:dreadwood_planks_lock": "wood",
 		"iceandfire:dread_spawner": "metalbar",
 		"iceandfire:venerable_stump": "log",
+		"iceandfire:myrmex_jungle_biolight[down=true]": "mud,straw",
+		"iceandfire:myrmex_desert_biolight[down=true]": "mud,straw",
+		"iceandfire:myrmex_jungle_biolight[down=false]": "mud,straw",
+		"iceandfire:myrmex_desert_biolight[down=false]": "mud,straw",
 		"doggytalents:food_bowl": "hardmetal,dirt",
 		"betterwithmods:cooking_pot[type=cauldron]": "metalbar",
 		"betterwithmods:cooking_pot[type=crucible]": "sandstone",
@@ -209,6 +213,7 @@
 		"minecraft:lit_furnace": "stoneutility",
 		"ironfurnaces:gold_furnace_active": "brickstone",
 		"ironfurnaces:diamond_furnace_active": "brickstone",
-		"ironfurnaces:iron_furnace_active": "sandstone"
+		"ironfurnaces:iron_furnace_active": "sandstone",
+		"multiblockmobs:soul_chassis": "metalbar"
 	}
 }

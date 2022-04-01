@@ -36,7 +36,6 @@ JEI.removeAndHide(<rats:rat_upgrade_breeder>);
 JEI.removeAndHide(<rats:rat_upgrade_lumberjack>);
 JEI.removeAndHide(<rats:rat_upgrade_disenchanter>);
 JEI.removeAndHide(<rats:rat_upgrade_enchanter>);
-JEI.removeAndHide(<rats:rat_upgrade_fisherman>);
 
 // maybe add these later with magic mods and/or Twilight Forest progression
 JEI.removeAndHide(<rats:rat_upgrade_basic_ratlantean>);

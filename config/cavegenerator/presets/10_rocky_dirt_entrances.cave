@@ -1,10 +1,20 @@
 {
-  enabled: false
-  dimensions: [ 0 ]
-  layers: [
+  biomes: {
+    names: [
+      minecraft:forest_hills
+      minecraft:birch_forest_hills
+      minecraft:redwood_taiga_hills
+      minecraft:mutated_forest
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+    ]
+  }
+  wallDecorators: [
+    # Transition between dirt and stone.
     {
-      state: contenttweaker:rocky_dirt
-      height: [ 60, 255 ]
+      states: contenttweaker:rocky_dirt
+      directions: all
       matchers: [
         stone
         dirt
@@ -33,11 +43,9 @@
         undergroundbiomes:igneous_stone:6
         undergroundbiomes:igneous_stone:7
       ]
-      ceiling: {
-        seed: 1
-        dummy: true
-        cache: true
-      }
+      height: [ 60, 255 ]
+      integrity: 0.65
+      placement: OVERLAY
     }
   ]
 }

@@ -15,6 +15,7 @@ JEI.removeAndHide(<rustic:grape_stem>);
 JEI.removeAndHide(<rustic:grapes>);
 JEI.removeAndHide(<rustic:sapling>);
 JEI.removeAndHide(<rustic:tomato>);
+JEI.removeAndHide(<rustic:tallow>);
 
 JEI.removeAndHide(<rustic:dust_tiny_iron>);
 EvaporatingBasin.removeRecipe(<rustic:dust_tiny_iron>);

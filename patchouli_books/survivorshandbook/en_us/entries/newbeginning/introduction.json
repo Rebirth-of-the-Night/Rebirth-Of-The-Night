@@ -47,7 +47,7 @@
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)If you already have an item or block in your inventory, you can hover your mouse over it and press 'R' on it to see the recipes. Pressing 'U' will show the recipes it's used in.$(br2)Make a habit of doing this whenever you come across new blocks or items! It will make your RotN experience a whole lot easier and more convenient, as well as your time in modded Minecraft generally!$()"
+      "text": "$(italics)$(#a84b0f)If you already have an item or block in your inventory, you can hover your mouse over it and press 'R' on it to see its recipe(s). Pressing 'U' will show the recipes it's used in.$(br2)Make a habit of doing this whenever you come across new blocks or items! It will make your RotN experience a whole lot easier and more convenient, as well as your time in modded Minecraft generally!$()"
     },
     {
       "type": "text",
@@ -80,7 +80,7 @@
     {
       "type": "text",
       "title": "Multiplayer",
-      "text": "$(italics)$(#a84b0f)Playing with a group of people? Press 'T', then type '/teams' in the chat. A list of commands will pop up; follow the desired commands to make teams with the people you're playing with.$(br2)People in the same team can see each others' distance from one another, health, and hunger. They will also share all advancements.$()"
+      "text": "$(italics)$(#a84b0f)Playing with a group of people? Press 'T', then type '/teams' in the chat. A list of commands will pop up; follow the desired commands to make teams with the people you're playing with.$(br2)People in the same team can see each others' distance from one another, health, and hunger. They will also share all achievements.$()"
     },
     {
       "type": "image",
@@ -103,19 +103,27 @@
     {
       "type": "text",
       "title": "The Guidebook",
-      "text": "$(italics)$(#a84b0f)Lastly, we'll cover the guidebook. Hopefully you don't have to be told how to access it, seeing as you're in it right now.$(br2)As mentioned earlier, this guidebook is the only (intended) guidebook in the game; all others are gone, to follow our design principle. The guidebook will be written nearly entirely in the first person perspective, done so to$()"
+      "text": "$(italics)$(#a84b0f)Lastly, we'll cover the guidebook. Hopefully you know how to find it, seeing as you're in it right now.$(br2)The guidebook is, well, the book that guides you through the game. It contains many tips, tricks, and demonstrations on how to do things. As you play throughout the modpack, more entries will unlock, usually coinciding with what point you're at.$()"
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)keep in line with the lore, which there is a LOT of. Keep an eye out and you'll slowly uncover RotN's backstory.$(br2)Any text that is italicized and a brownish color, like what you're currently reading, will be 'tutorial' perspective; this is done very rarely and only when first person cannot convey information adequately (like controls). Text in$()$(thing) green $()$(italics)$(#a84b0f)will be things that are searchable in JEI.$()"
+      "text": "$(italics)$(#a84b0f)As mentioned earlier, this guidebook will be the only (intended) guidebook in the game; all others will be removed, to follow our design principle.$(br2)The guidebook is written nearly entirely in the first person perspective, done so to keep in line with the lore; many fragments of information can be found all over the game. Pay attention and connect clues together to slowly uncover the backstory of the world...$()"
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)That should be everything for now. To get started, go back to the 'A New World' category (press the arrow at the middle bottom of this book) and follow the entries after this one, in order.$(br2)After you finish those, you'll have enough knowledge to go out on your own. More entries will be unlocked in the rest of the guidebook over time, as you progress and play. Good luck!$()"
+      "text": "$(italics)$(#a84b0f)Any text in the guidebook that is italicized and a brownish color, like what you're currently reading, will be 'tutorial' perspective; this is done very rarely and only when the written first person perspective cannot convey information adequately (like controls).$(br2)Text in$()$(thing) green $()$(italics)$(#a84b0f)will be things that are searchable in JEI.$(br2)Hopefully I stay consistent with this theme...$()"
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)Be sure to join our Discord server at$()$(#5662f6) discord.gg/rotn $()$(italics)$(#a84b0f) if you've not already! You can discuss the modpack, the lore, follow development, suggest new features, and get a chance to talk to us!$(br2)We hope you have fun playing Rebirth of the Night, and maybe even get to love Minecraft more than you already do.$(br2)-The RotN Dev Team$(br)12/8/2021"
+      "text": "$(italics)$(#a84b0f)Navigating the guidebook should be mostly self-explanatory; not sure how else you'd be reading all this! To touch base:$(br2)The arrows on the bottom left and right flip through entry pages in their respective directions. The middle arrow will take you out of the entry you're in (shift-clicking takes you to the home page). The little plus on the top right will bookmark the entry you're currently reading.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)That should be everything for now. To get started, go back to the 'A New Beginning' category (press the arrow at the middle bottom of this book) and follow the entries after this one, in order.$(br2)After you finish those, you'll have enough knowledge to go out on your own. More entries will be unlocked in the rest of the guidebook over time, as you progress and play. Good luck!$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)Be sure to join our Discord server at$()$(#5662f6) discord.gg/rotn $()$(italics)$(#a84b0f) if you've not already! You can discuss the modpack, the lore, follow development, suggest new features, and get a chance to talk to us!$(br2)We hope you have fun playing Rebirth of the Night, and maybe even get to love Minecraft more than you already do.$(br2)-The RotN Dev Team$(br)27/3/2022"
     },
     {
       "type": "relations",

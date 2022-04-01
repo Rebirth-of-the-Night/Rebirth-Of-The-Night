@@ -430,6 +430,7 @@ recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<mi
 
 val arrayMoulding = [
     MiniBlocks.getMiniBlock("moulding", <ore:genericPlanks>),
+    MiniBlocks.getMiniBlock("moulding", <minecraft:planks>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:1>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:2>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:3>),

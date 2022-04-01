@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 // Progression and CoT
-<contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this in my book.");
+<contenttweaker:slayers_tattered_journal>.addTooltip("A peculiar old journal... I've copied it into my guidebook.");
 <contenttweaker:scab>.displayName = "Scab";
 
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");

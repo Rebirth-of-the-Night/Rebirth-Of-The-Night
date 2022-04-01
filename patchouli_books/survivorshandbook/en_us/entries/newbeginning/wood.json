@@ -8,12 +8,12 @@
       "type": "spotlight",
       "item": "minecraft:log",
       "title": "Getting Wood",
-      "text": "Well, no use in dillydallying about for too long. If I'm going to be prepared, I need to get to work now.$(br2)I'll start by finding the nearest tree and punching it at the very base until it falls. Then, I'll need to gather up some rocks and sticks for my next move."
+      "text": "Well, no use in lollygagging about for too long. If I'm going to be prepared, I need to get to work now.$(br2)I'll start by finding the nearest tree and punching it at the very base until it falls. Then, I'll need to gather up some rocks and sticks for my next move."
     },
     {
       "type": "crafting",
       "recipe": "crafttweaker:pyro_crude_axe",
-      "text": "I'll eventually need to build a workshop; for now, I need a crafting table, to work smarter and not harder. Until then, I can make a crude axe to get some planks."
+      "text": "I'll eventually need to build a workshop; for now, I need a crafting table, to work smarter and not harder.$(br2)Until then, I can make a crude axe to get some planks."
     },
     {
       "type": "chop_recipe",
@@ -25,7 +25,7 @@
     {
       "type": "crafting",
       "recipe": "crafttweaker:crafting_tools",
-      "text": "After, I can place the crafting tools on the plank I just processed earlier, like so:"
+      "text": "Then, I can place the crafting tools on the plank I just processed earlier, like so:"
     },
     {
       "type": "crafting",

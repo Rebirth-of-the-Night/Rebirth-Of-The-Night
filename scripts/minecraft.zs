@@ -2454,3 +2454,20 @@ JEI.removeAndHide(<netherex:fiery_nether_brick>);
 JEI.removeAndHide(<minecraft:end_bricks>);
 JEI.removeAndHide(<betterwithaddons:whitebrick>);
 JEI.removeAndHide(<ceramics:clay_hard>);
+
+// Untextured CoT items hiding (temporary)
+JEI.removeAndHide(<contenttweaker:masonry_brick_two>);
+JEI.removeAndHide(<contenttweaker:salt_pan>);
+JEI.removeAndHide(<contenttweaker:loose_big_purple_slate_bricks>);
+JEI.removeAndHide(<contenttweaker:loose_big_blue_slate_bricks>);
+JEI.removeAndHide(<contenttweaker:loose_big_green_slate_bricks>);
+JEI.removeAndHide(<contenttweaker:cobblestone_path_black_granite>);
+JEI.removeAndHide(<contenttweaker:cobblestone_path_rhyolite>);
+JEI.removeAndHide(<contenttweaker:cobblestone_path_andesite>);
+JEI.removeAndHide(<contenttweaker:cobblestone_path_gabbro>);
+JEI.removeAndHide(<contenttweaker:cobblestone_path_basalt>);
+JEI.removeAndHide(<contenttweaker:cobblestone_path_komatiite>);
+JEI.removeAndHide(<contenttweaker:cobblestone_path_dacite>);
+JEI.removeAndHide(<contenttweaker:ratatouille>);
+JEI.removeAndHide(<contenttweaker:chicken_pizza_block>);
+JEI.removeAndHide(<contenttweaker:clover_4_block>);

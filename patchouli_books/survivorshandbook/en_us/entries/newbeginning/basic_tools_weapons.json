@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "Now, for weapons. A weapon needs a nice, good grip, so I'll need a handle.$(br2)To get the twine for a handle, I'll have to make a drying rack, which I can fashion out of some ladders made with sticks. The drying rack can hold four items at a time. The environment I put it in can affect how fast it dries, as well as factors like the temperature of the biome I'm in."
+      "text": "Now, for weapons. A weapon needs a nice, good grip, so I'll need a handle.$(br2)To get the twine for a handle, I'll have to make a drying rack, which I can fashion out of some ladders made with sticks.$(br2)The drying rack can hold four items at a time. The environment I put it in can affect how fast it dries, as well as factors like the temperature of the biome I'm in."
     },
     {
       "type": "crafting",

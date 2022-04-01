@@ -9,7 +9,7 @@
     "Strafe Evade": true,
     "Animal Retaliate": false,
     "Ranged Atk Dist": 32,
-    "Ranged Atk Error": 6,
+    "Ranged Atk Error": 5,
     "Arrow Tips": [
       "minecraft:slowness:60:0"
     ],
