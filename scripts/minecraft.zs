@@ -122,6 +122,7 @@ var ctr as IItemStack[IItemStack] = {
   <minecraft:sand> : <betterwithmods:sand_pile>,
   <minecraft:sand:1> : <betterwithmods:red_sand_pile>,
   <minecraft:gravel> : <betterwithmods:gravel_pile>,
+  <minecraft:soul_sand> : <betterwithaddons:soulsand_pile>,
   <minecraft:cobblestone> : <pyrotech:rock>,
   <minecraft:sandstone> : <pyrotech:rock:6>,
   <minecraft:red_sandstone> : <pyrotech:rock:10>,
