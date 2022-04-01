@@ -55,7 +55,7 @@ var goldNugget = AssemblyRecipe.create(function(container) {
 }).requireItem("input",<contenttweaker:rocky_dirt>).requireItem("catalyst1",<artisanworktables:artisans_lens_gold>);
 interaction.addJEIRecipe(goldNugget);
 
-var denseQuartz = AssemblyRecipe.create(function(container) {
-    container.addItemOutput("output",<pyrotech:material:37>);
+var codex = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<villagenames:codex>);
 }).requireItem("input",<contenttweaker:rocky_dirt>).requireItem("catalyst1",<cyclicmagic:tool_spelunker>);
-interaction.addJEIRecipe(denseQuartz);
+interaction.addJEIRecipe(codex);
