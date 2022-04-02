@@ -151,7 +151,7 @@ brick_quark_soul_sandstone.setCreativeTab(<creativetab:rotn_blocks>);
 brick_quark_soul_sandstone.setBlockSoundType(<soundtype:stone>);
 brick_quark_soul_sandstone.setToolLevel(1);
 brick_quark_soul_sandstone.setBlockHardness(45);
-brick_quark_soul.setBlockResistance(35.0);
+brick_quark_soul_sandstone.setBlockResistance(35.0);
 brick_quark_soul_sandstone.register();
 
 var brick_biomesoplenty_mud = VanillaFactory.createBlock("brick_biomesoplenty_mud", <blockmaterial:Rock>);
