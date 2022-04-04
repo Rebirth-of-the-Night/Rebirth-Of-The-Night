@@ -3,7 +3,7 @@
     "icon": "iceandfire:dragonscales_gray",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 1,
+    "sortnum": 4,
     "pages": [
         {
             "type": "text",

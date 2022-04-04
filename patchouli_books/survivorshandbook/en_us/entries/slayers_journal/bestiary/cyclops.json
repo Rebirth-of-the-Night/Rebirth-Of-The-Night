@@ -3,7 +3,7 @@
     "icon": "iceandfire:cyclops_eye",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 5,
+    "sortnum": 2,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 1.0,
             "offset": 0.5,
             "rotate": "true",
-            "default_rotation": -45,
             "name": "Cyclops",
             "text": "$(#734608)A $(thing)cyclops$()$(#734608) is a giant distinguished by its large singular eye and small horn on top of its head"
         },

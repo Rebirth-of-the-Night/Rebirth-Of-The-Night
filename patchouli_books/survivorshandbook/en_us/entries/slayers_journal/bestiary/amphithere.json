@@ -3,7 +3,7 @@
     "icon": "iceandfire:amphithere_feather",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 9,
+    "sortnum": 0,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 0.4,
             "offset": -0.5,
             "rotate": "true",
-            "default_rotation": -24,
             "name": "Amphithere",
             "text": "$(thing)Amphitheres$()$(#734608) are colorful winged serpents with many feathers adorning its wings and tail"
         },

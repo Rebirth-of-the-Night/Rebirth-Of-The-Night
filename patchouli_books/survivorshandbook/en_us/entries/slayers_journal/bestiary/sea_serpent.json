@@ -3,7 +3,7 @@
     "icon": "iceandfire:sea_serpent_fang",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 8,
+    "sortnum": 11,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 1.0,
             "offset": 2.0,
             "rotate": "true",
-            "default_rotation": -24,
             "name": "Sea Serpent",
             "text": "$(thing)Sea serpents$()$(#734608) are the \"dragons of the sea\" having long serpentine bodies and colorful scales"
         },

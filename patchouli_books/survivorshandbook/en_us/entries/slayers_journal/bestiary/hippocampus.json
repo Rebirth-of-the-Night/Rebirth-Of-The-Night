@@ -3,7 +3,7 @@
     "icon": "iceandfire:hippocampus_fin",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 10,
+    "sortnum": 6,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 0.6,
             "offset": 0.2,
             "rotate": "true",
-            "default_rotation": -24,
             "name": "Hippocampus",
             "text": "$(thing)Hippocampi$()$(#734608) are aquatic beasts with the front of a horse and tail of a fish coming in various colors"
         },

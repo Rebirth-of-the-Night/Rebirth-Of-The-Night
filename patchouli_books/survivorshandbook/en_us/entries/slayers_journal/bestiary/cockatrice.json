@@ -3,7 +3,7 @@
     "icon": "iceandfire:rotten_egg",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 2,
+    "sortnum": 1,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 0.38,
             "offset": 0.3,
             "rotate": "true",
-            "default_rotation": -45,
             "name": "Cockatrice",
             "text": "$(#734608)A $(thing)cockatrice$()$(#734608) is a hybrid beast with a two-legged dragon or reptilian body and the head of a chicken."
         },

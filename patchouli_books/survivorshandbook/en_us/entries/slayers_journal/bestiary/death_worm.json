@@ -3,7 +3,7 @@
     "icon": "iceandfire:deathworm_gauntlet_yellow",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 7,
+    "sortnum": 3,
     "read_by_default": "true",
     "pages": [
         {

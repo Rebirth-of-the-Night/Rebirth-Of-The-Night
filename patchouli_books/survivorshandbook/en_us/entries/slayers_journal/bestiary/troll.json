@@ -3,7 +3,7 @@
     "icon": "iceandfire:troll_skull",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 4,
+    "sortnum": 13,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 1.0,
             "offset": 0,
             "rotate": "true",
-            "default_rotation": -45,
             "name": "Troll",
             "text": "$(#734608)$(thing)Trolls$()$(#734608) are hulking humanoid monsters with large tusks and jaw and extraordinarily thick hides"
         },

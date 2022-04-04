@@ -1,0 +1,41 @@
+{
+    "name": "Pixie",
+    "icon": "iceandfire:pixie_wings",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 10,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:if_pixie",
+            "scale": 0.5,
+            "offset": -0.15,
+            "rotate": "true",
+            "name": "Pixie",
+            "text": "$(thing)Pixies$()$(#734608) are mischievous, little human-flyers that live in pixie villages within dark oak forests"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)While pixies will not directly attack humans, they like to steal an item from them instead. They'll often do this when they are not being looked at, but will drop it when attacked$(br2)If there is a hovel nearby, the pixie will occasionally hide in the hovel$(br2)Because of how much of a nuisance these creatures are, it is recommended that they should be either tamed or captured"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Dropping cake near a pixie for it to eat will befriend it, and the pixie will then follow and give buffs according to its color:$(br2)$(#ff66ff)Pink: Strength$(br)$(#cc33ff)Purple: Jump Boost$(br)$(#4db8ff)Blue: Speed$(br)$(#00e600)Green: Luck$(br)$(#f6e530)Yellow: Haste$(br2)$(#734608)Befriended pixies can be healed with sugar"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Pixies can also be captured with a jar and placed to produce $(item)pixie dust$()$(#734608) every 3 days when the pixie sits down. Breaking the jar with a pixie will release it$(br2)Pixie dust can be directly consumed to give Levitation, Glowing, and Luck for a few seconds"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:ambrosia",
+            "text": "$(#734608)Its potency is further increased when crafted into $(item)Ambrosia$()$(#734608), giving Jump Boost, Absorption, Luck, and Strength for a few minutes"
+        },
+        {
+            "type": "runic_slim",
+            "recipe": "mage:366119432",
+            "text_left": "$(#734608)Killing a pixie may drop pixie dust and rarely pixie wings which can then be crafted into a pixie wand"
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "icon": "iceandfire:gorgon_head",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 6,
+    "sortnum": 5,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 0.7,
             "offset": 0.2,
             "rotate": "true",
-            "default_rotation": -45,
             "name": "Gorgon",
             "text": "$(thing)Gorgons$()$(#734608) are hideous lamiae, half-woman and half-snake hybrid, with pale green snakes for hair"
         },

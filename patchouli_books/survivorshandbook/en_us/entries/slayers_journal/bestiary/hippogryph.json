@@ -3,7 +3,7 @@
     "icon": "iceandfire:hippogryph_talon",
     "category": "slayers_journal_bestiary",
     "advancement": "triumph:advancements/progression/slayersjournal",
-    "sortnum": 4,
+    "sortnum": 7,
     "read_by_default": "true",
     "pages": [
         {
@@ -12,7 +12,6 @@
             "scale": 0.5,
             "offset": 0.5,
             "rotate": "true",
-            "default_rotation": -45,
             "name": "Hippogryph",
             "text": "$(#734608)A $(thing)hippogryph$()$(#734608) is a beast appearing with the front of a bird and the hind of a horse."
         },
