@@ -3,6 +3,8 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.inworldcrafting.FluidToItem;
 
+// mud recipe
+FluidToItem.transform(<biomesoplenty:mudball>, <liquid:water>, [<betterwithmods:dirt_pile>], true);
 // ground netherrack to nether sludge
 FluidToItem.transform(<betterwithmods:material:35>, <liquid:water>, [<betterwithmods:material:15>], false);
 FluidToItem.transform(<betterwithmods:material:35>, <liquid:blood>, [<betterwithmods:material:15>], false);

@@ -118,6 +118,7 @@ CrudeDryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:jut
 CrudeDryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <ore:treeSapling>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 5 * 60 * 20, true);
+CrudeDryingRack.addRecipe("mud_dirt", <betterwithmods:dirt_pile>, <biomesoplenty:mudball>, 8 * 60 * 20, true);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);

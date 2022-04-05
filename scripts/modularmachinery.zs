@@ -26,6 +26,11 @@ dryerrecipe3.addItemInput(<ore:cropGrape>);
 dryerrecipe3.addItemOutput(<harvestcraft:raisinsitem>);
 dryerrecipe3.build();
 
+var dryerrecipe4 = RecipeBuilder.newBuilder("dryer_mud_dirt", "dryer", 400);
+dryerrecipe4.addItemInput(<biomesoplenty:mudball>);
+dryerrecipe4.addItemOutput(<betterwithmods:dirt_pile>);
+dryerrecipe4.build();
+
 function dryer(recipeName as string, input as IIngredient, output as IIngredient, ticks as int) {
     addMachineRecipe("dryer", recipeName, input, output, ticks);
 }
