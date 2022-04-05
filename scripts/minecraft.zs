@@ -37,6 +37,7 @@ JEI.removeAndHide(<inspirations:materials:0>);
 JEI.removeAndHide(<rotm:debug_damages>);
 JEI.removeAndHide(<rotm:debug_entities>);
 JEI.removeAndHide(<rotm:debug_potions>);
+JEI.removeAndHide(<redstoneplusplus:dummy_clock>);
 JEI.removeAndHide(<redstoneplusplus:dummy_clock_hover>);
 
 // Contenttweaker icons
