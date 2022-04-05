@@ -498,6 +498,8 @@ for ore, result in moddedBlastFurnaceRecipes {
 
 BlastFurnace.removeRecipe(<rustic:dust_tiny_iron>);
 
+// Brick resistance
+<contenttweaker:brick_red_granite>.asBlock().definition.resistance = <undergroundbiomes:igneous_brick:0>.asBlock().definition.resistance;
 
 /*********************************************************************************
 
