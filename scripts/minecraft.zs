@@ -52,8 +52,10 @@ furnace.remove(<minecraft:coal:1>);
 furnace.remove(<minecraft:leather>);
 furnace.remove(<ore:nuggetIron>);
 furnace.remove(<minecraft:brick>);
+furnace.remove(<quark:tallow>);
 
 furnace.setFuel(<ore:barkWood>, 100);
+furnace.setFuel(<pyrotech_compat:rock_igneous_sand:9>, 400);
 furnace.setFuel(<chutes:chute_wood>, 25);
 furnace.setFuel(<chutes:chute_entry_wood>, 18.75);
 furnace.setFuel(<contenttweaker:peat>, 1600);
@@ -1578,6 +1580,12 @@ cookedMeat.remove([<mod_lavacow:moltenbeef>,<mod_lavacow:ptera_wing_cooked>]);
 
 val BaconEggs = <ore:foodBaconandeggs>;
 BaconEggs.remove(<mod_lavacow:green_bacon_and_eggs>);
+
+val tallow = <ore:tallow>;
+rawBeef.remove(<harvestcraft:groundbeefitem>);
+
+val animal_fat = <ore:burnable_fat>;
+animal_fat.addItems([<quark:tallow>, <betteranimalsplus:blubber>, <rustic:beeswax>]);
 
 val Mushroom = <ore:listAllmushroom>;
 Mushroom.remove([<mod_lavacow:glowshroom>,<mod_lavacow:bloodtooth_shroom>,<mod_lavacow:cordy_shroom>,<mod_lavacow:veil_shroom>,<mod_lavacow:glowshroom_block_stem>,<mod_lavacow:glowshroom_block_cap>]);

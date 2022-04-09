@@ -25,6 +25,7 @@ for r in removeDyeRecipes {
 Cauldron.addFluidTransform(<liquid:tannin>, <ore:dung>, <liquid:water>, 4, true);
 Cauldron.addFluidTransform(<liquid:tannin>, <ore:barkWood>, <liquid:water>, 1, true);
 Cauldron.addFluidTransform(<liquid:tannin>, <biomesoplenty:persimmon>|<harvestcraft:persimmonitem>, <liquid:water>, 2, true);
+Cauldron.addFluidTransform(<liquid:methanol>, <pyrotech:rock:7>, <liquid:water>, 4, true);
 // Lunar Water: Obtainable from cauldrons using bottles / Placeable in cauldrons
 Cauldron.addFluidRecipe(<nyx:lunar_water_bottle>, <minecraft:glass_bottle>, <liquid:lunar_water>, 1);
 Cauldron.addFillRecipe(<nyx:lunar_water_bottle>, <liquid:lunar_water>, 1, <minecraft:glass_bottle>);

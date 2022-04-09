@@ -32,6 +32,7 @@ recipes.removeByRecipeName("betterwithmods:piles/sand_pile");
 recipes.removeByRecipeName("betterwithmods:piles/red_sand_pile");
 recipes.removeByRecipeName("betterwithmods:piles/dirt_0");
 recipes.removeByRecipeName("betterwithmods:items/patchouli_manual");
+recipes.removeByRecipeName("betterwithmods:blocks/candle/candle");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
@@ -151,6 +152,12 @@ recipes.addShaped("fiery_nether_sludge", <contenttweaker:fiery_nether_sludge>, [
 recipes.addShaped("hardened_fiery_nether_block", <contenttweaker:hardened_fiery_nether_sludge>, [
     [<contenttweaker:fiery_nether_sludge>, <contenttweaker:fiery_nether_sludge>],
     [<contenttweaker:fiery_nether_sludge>, <contenttweaker:fiery_nether_sludge>]
+]);
+
+recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
+    [<ore:twine>],
+    [<ore:burnable_fat>],
+	[<ore:burnable_fat>]
 ]);
 
 var latch = <betterwithmods:material:34>;

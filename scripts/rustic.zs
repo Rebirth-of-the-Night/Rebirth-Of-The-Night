@@ -143,9 +143,6 @@ CrushingTub.addRecipe(<liquid:fluid_booze_purple_juice>*160, null, <growthcraft_
 CrushingTub.addRecipe(<liquid:fluid_booze_red_juice>*160, null, <growthcraft_grapes:grape:14>*1);
 CrushingTub.addRecipe(<liquid:fluid_booze_green_juice>*160, null, <growthcraft_grapes:grape:13>*1);
 
-// Misc
-furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);
-
 // Beginnings of Potion Revamp (ping Kilo, there is a trello card)
 
 recipes.remove(<rustic:condenser>);

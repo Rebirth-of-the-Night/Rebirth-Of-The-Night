@@ -1,3 +1,4 @@
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
@@ -13,8 +14,8 @@ recipes.addShaped("antlerThrowbone", <doggytalents:throw_bone>,[
 ]);
 
 recipes.removeByRecipeName("betteranimalsplus:blubber_torch");
-recipes.addShaped("blubber_torch",<minecraft:torch>*4,[
-	[<betteranimalsplus:blubber>],
+recipes.addShaped("fat_torch",<minecraft:torch>*4,[
+	[<ore:burnable_fat>],
 	[<ore:stickWood>]
 ]);
 

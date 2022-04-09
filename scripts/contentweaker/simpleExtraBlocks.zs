@@ -5,8 +5,8 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.Block;
-
 import mods.contenttweaker.AxisAlignedBB;
+import mods.contenttweaker.Color;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script
 /////////////////////////////////////////////////////////////////
@@ -1584,3 +1584,50 @@ glareshaft.setBlockLayer("CUTOUT");
 glareshaft.setCreativeTab(<creativetab:decorations>);
 glareshaft.setToolLevel(0);
 glareshaft.register();
+
+//Liquids
+var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
+ender_slag.density = 1900;
+ender_slag.temperature = 500;
+ender_slag.viscosity = 2000;
+ender_slag.stillLocation = "contenttweaker:fluids/ender_slag_still";
+ender_slag.flowingLocation = "contenttweaker:fluids/ender_slag_flow";
+ender_slag.colorize= true;
+ender_slag.register();
+
+var tannin = VanillaFactory.createFluid("tannin", Color.fromHex("df9232"));
+tannin.density = 1000;
+tannin.temperature = 310;
+tannin.viscosity = 1050;
+tannin.colorize= true;
+tannin.vaporize= true;
+tannin.register();
+
+var lifeblood = VanillaFactory.createFluid("lifeblood", Color.fromHex("1b1e23"));
+lifeblood.density = 1500;
+lifeblood.gaseous = true;
+lifeblood.luminosity = 15;
+lifeblood.temperature = 400;
+lifeblood.viscosity = 800;
+lifeblood.stillLocation = "contenttweaker:fluids/dunamis_still";
+lifeblood.flowingLocation = "contenttweaker:fluids/dunamis_flow";
+lifeblood.colorize= false;
+lifeblood.register();
+
+var residual_mythril = VanillaFactory.createFluid("residual_mythril", Color.fromHex("fffdd0"));
+residual_mythril.density = 528;
+residual_mythril.luminosity = 3;
+residual_mythril.temperature = 2500;
+residual_mythril.viscosity = 5500;
+residual_mythril.stillLocation = "contenttweaker:fluids/residual_mythril_still";
+residual_mythril.flowingLocation = "contenttweaker:fluids/residual_mythril_flow";
+residual_mythril.colorize= true;
+residual_mythril.register();
+
+var methanol = VanillaFactory.createFluid("methanol", Color.fromHex("efdace"));
+methanol.density = 1000;
+methanol.temperature = 310;
+methanol.viscosity = 1100;
+methanol.colorize= true;
+methanol.vaporize= true;
+methanol.register();
