@@ -115,3 +115,4 @@ config/requious/battery.json
 config/requious/fluid_cell.json
 config/requious/fluid_emitter.json
 config/requious/red_emitter.json
+config/jeresources/jeresources.cfg
