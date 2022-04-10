@@ -233,8 +233,8 @@ recipes.addShapeless("refractoryfromblock", refractoryMaterial*4,[<contenttweake
 furnace.addRecipe(<contenttweaker:refracotta>, <contenttweaker:unfiredrefractory>);
 recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
- [[stoneBrick,null,stoneBrick],
-  [<ore:twine>,stoneBrick,<ore:twine>],
+ [[rock,null,rock],
+  [<ore:twine>,rock,<ore:twine>],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
 recipes.addShaped("pyro_crude_axe", <pyrotech:crude_axe>,
  [[rock|<minecraft:flint>,<ore:stickWood>],
