@@ -21,9 +21,9 @@
 						"type" : "rhyolite"
 					}
 				},
-				"cluster-size": 12
+				"cluster-size": 6
 				},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"max-height": 30,
 			"min-height": 2,
 			"chunk-chance": 1,
@@ -57,9 +57,9 @@
 						"type" : "komatiite"
 					}
 				},
-				"cluster-size": 12
+				"cluster-size": 6
 				},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"max-height": 56,
 			"min-height": 34,
 			"chunk-chance": 1,
@@ -93,9 +93,9 @@
 						"type" : "basalt"
 					}
 				},
-				"cluster-size": 12
+				"cluster-size": 6
 				},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"max-height": 62,
 			"min-height": 60,
 			"chunk-chance": 1,
@@ -129,9 +129,9 @@
 						"type" : "dolomite"
 					}
 				},
-				"cluster-size": 12
+				"cluster-size": 6
 				},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"max-height": 82,
 			"min-height": 66,
 			"chunk-chance": 1,
@@ -165,9 +165,9 @@
 						"type" : "shale"
 					}
 				},
-				"cluster-size": 12
+				"cluster-size": 6
 				},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"max-height": 87,
 			"min-height": 85,
 			"chunk-chance": 1,
@@ -201,9 +201,9 @@
 						"type" : "dolomite"
 					}
 				},
-				"cluster-size": 12
+				"cluster-size": 6
 				},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"max-height": 91,
 			"min-height": 89,
 			"chunk-chance": 1,
@@ -237,9 +237,9 @@
 						"type" : "basalt"
 					}
 				},
-				"cluster-size": 12
+				"cluster-size": 6
 				},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"max-height": 255,
 			"min-height": 94,
 			"chunk-chance": 1,

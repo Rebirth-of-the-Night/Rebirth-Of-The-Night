@@ -1,0 +1,51 @@
+{
+  dimensions: [ 0 ]
+  replaceableBlocks: [
+    air
+  ]
+  structures: [
+    {
+      name: dense_redstone_1
+      height: [ 10, 32 ]
+      directions: down
+      offset: [ 0, 1, 0 ]
+      chance: 1
+      matchers: [
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:igneous_stone
+        rotn_blocks:cave_moss
+      ]
+      count: 3
+    }
+    {
+      name: dense_redstone_2
+      height: [ 10, 32 ]
+      directions: down
+      offset: [ 0, 1, 0 ]
+      chance: 1
+      matchers: [
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:igneous_stone
+        rotn_blocks:cave_moss
+      ]
+      count: 2
+    }
+    {
+      name: dense_redstone_3
+      height: [ 10, 32 ]
+      directions: down
+      offset: [ 0, 1, 0 ]
+      chance: 1
+      matchers: [
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:igneous_stone
+        rotn_blocks:cave_moss
+      ]
+      count: 1
+    }
+  ]
+  replaceDecorators: false
+}

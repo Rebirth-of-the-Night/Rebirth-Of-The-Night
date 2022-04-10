@@ -83,6 +83,15 @@ Dropt.list("planarspsp2")
       )
   );
 
+Dropt.list("codex_junk")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:codex_junk"])
+      .addDrop(Dropt.drop()
+          .items([<villagenames:codex>])
+      )
+  );
+
 Dropt.list("bop_honey_block")
 
   .add(Dropt.rule()
@@ -322,7 +331,7 @@ Dropt.list("masonry_brick_two")
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:masonry_brick_two"])
       .addDrop(Dropt.drop()
-          .items([<contenttweaker:masonry_brick>])
+          .items([<contenttweaker:masonry_brick>], Dropt.range(2))
       )
   );
   

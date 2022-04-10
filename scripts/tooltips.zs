@@ -364,7 +364,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <growthcraft_rice:rice>.addTooltip("Staple of civilization, should cook first.");
-<growthcraft_rice:rice>.addShiftTooltip("Raw rice grains is particularly full of harmful bacteria.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Misc.
 <antiqueatlas:empty_antique_atlas>.addTooltip("Antique Map");

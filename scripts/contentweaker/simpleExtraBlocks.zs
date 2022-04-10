@@ -129,6 +129,24 @@ salt_pan.setBlockSoundType(<soundtype:ground>);
 salt_pan.setToolClass("shovel");
 salt_pan.register();
 
+// Codex junk
+var codex_junk = VanillaFactory.createBlock("codex_junk", <blockmaterial:Grass>);
+codex_junk.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    0.1 / 16.0,
+    14.0 / 16.0
+	);
+codex_junk.setBlockHardness(0.5);
+codex_junk.setBlockResistance(1.0);
+codex_junk.setFullBlock(false);
+codex_junk.setLightOpacity(0);
+codex_junk.setBlockLayer("CUTOUT");
+codex_junk.setToolClass("none");
+codex_junk.register();
+
 // Speleothems
 var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
 dolomite_straws.axisAlignedBB = AxisAlignedBB.create(

@@ -230,7 +230,8 @@ JEI.addDescription(<harvestcraft:kenafitem>, "Contains a good amount of fiber...
 JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a very durable 'palm-like' plant native to dry biomes. This plant is a decent source of fiber and string since its leaves are thick and strong.");
 JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles, but it is not the most naturally resilient fiber.  When used to make clothing or padding, however, it's very comfortable.");
 JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, hemp can make very high quality and durable fibers with a variety of uses. It's easily made into sails and different kinds of textiles. Grows two blocks high like Sugar Cane - be sure to only harvest the top one!");
-
+JEI.addDescription(<growthcraft_rice:rice>,"A unique kind of grass that grows on shallow water, ponds where it is planted are known as rice paddies. Raw rice grains are particularly full of harmful bacteria.");
+JEI.addDescription(<growthcraft_hops:hop_seeds>,"Hops used to make ale wort and alcohol; they need a Crop Rope acting as a guide to grow.");
 
 /* Food */
 JEI.addDescription(<animania:friesian_cheese_wheel>,"To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle.");
@@ -356,6 +357,7 @@ JEI.addDescription(<advancedmortars:mortar:3>, 'A conglomerate of leftover mater
 
 /* Mechanical, Defense, and Item Movement */
 JEI.addDescription(<quark:rope>, "A useful tool for traversal. Right click on a rope with more rope to descend downward. It will also pull itself and blocks underneath it upwards if right-clicked while sneaking.");
+JEI.addDescription(<growthcraft:rope>, "Can be attached to fences. Make a horizontal line two blocks above and parallel to farmland for grapes to hang on. Make a line perpendicular to farmland for hops to grow upwards.");
 JEI.addDescription(<quark:chain>, "A small chain such as this can be used to link a series of minecarts or boats, allowing for far more organized journeys.");
 JEI.addDescription(<minecraft:minecart>, "Sneak and right click with dye in hand to color minecarts!");
 JEI.addDescription(<minecraft:lead>, "Besides leading creatures by hand, leads can be tied to a fence or even between two fences to create a connection. Some creatures will never submit to a lead - for that, the use of a refined chain is required.");
