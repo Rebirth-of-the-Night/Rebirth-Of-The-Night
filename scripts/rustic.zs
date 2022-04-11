@@ -84,9 +84,9 @@ var torch = <minecraft:torch>;
 var glass = <minecraft:glass_pane>;
 
 recipes.addShaped("Gold_Lantern", <rustic:golden_lantern>,[
-	[null, gold, null],
+	[gnugg, gnugg, gnugg],
     [glass, torch, glass],
-    [null, gold, null]
+    [gnugg, gnugg, gnugg]
 ]);
 
 recipes.addShaped("Metal_Lantern", <rustic:iron_lantern>,[
@@ -96,9 +96,9 @@ recipes.addShaped("Metal_Lantern", <rustic:iron_lantern>,[
 ]);
 
 recipes.addShaped("Silver_Lantern", <rustic:silver_lantern>,[
-	[null, silver, null],
+	[snugg, snugg, snugg],
     [glass, torch, glass],
-    [null, silver, null]
+    [snugg, snugg, snugg]
 ]);
 
 // Iron and Gold Candles
@@ -196,6 +196,7 @@ var slime = <minecraft:slime_ball>;
 var endpearl = <minecraft:ender_pearl>;
 var butter = <harvestcraft:butteritem>;
 var gnugg = <minecraft:gold_nugget>;
+var snugg = <iceandfire:silver_nugget>;
 var genericNugg = <ore:genericMetalNuggets>;
 var wheatmat = <betterwithaddons:wheatmat>;
 var glowjelly = <mowziesmobs:glowing_jelly>;

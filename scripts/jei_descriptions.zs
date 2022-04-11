@@ -247,6 +247,10 @@ JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount:
 JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}),"Sheep Milk is obtained from sheep.");
 
 JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through an infectious disease. If fed to certain baby animals, their growth will be stunted forever.");
+JEI.addDescription(<mod_lavacow:parasite_item>, "When used as yeast for liquor, it makes it poisonous, yet undetectable...");
+JEI.addDescription(<mod_lavacow:parasite_item>, "These parasites feed off victims of the ancient plague. An opportunistic creature that took refugee in the world's greateast catastrophy.");
+JEI.addDescription(<mod_lavacow:parasite_item:1>, "These parasites feed off mummies in deserts, which decay much slower thanks to ancient rituals.");
+JEI.addDescription(<mod_lavacow:parasite_item:2>, "These parasites feed off rotting matter like if they were fungi, but will latch onto anything alive. Just like how the evolved to feed off undead outside of jungles.");
 JEI.addDescription(<exsartagine:yeast>, "This kind of yeast can be obtained by placing down flour on a surface, right-clicking it with a water bottle and waiting until it changes appearance. Breaking the changed block will yield this item.");
 
 /* Mobs and Drops */

@@ -1454,6 +1454,9 @@ for item in mushroom.items{
 val brewerYeast = <ore:yeastBrewers>;
 brewerYeast.add(<exsartagine:yeast>);
 
+val PoisonYeast = <ore:yeastPoison>;
+PoisonYeast.add(<mod_lavacow:parasite_item>);
+
 val stewCondiment = <ore:listAllStewcondiment>;
 stewCondiment.add(<harvestcraft:onionitem>,<harvestcraft:bellpepperitem>,<minecraft:carrot>,<harvestcraft:cornitem>,<harvestcraft:scallionitem>,<harvestcraft:leekitem>);
 
