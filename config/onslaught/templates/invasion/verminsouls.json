@@ -92,45 +92,6 @@
             ]
           }
         ]
-      },
-      {
-        "delayTicks": [ 1800, 2400 ],
-        "groups": [
-          {
-            "mobs": [
-              {
-                "id": "verminsoul",
-                "count": [ 22, 24 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "delayTicks": [ 1800, 2400 ],
-        "groups": [
-          {
-            "mobs": [
-              {
-                "id": "verminsoul",
-                "count": [ 24, 26 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "delayTicks": [ 1800, 2400 ],
-        "groups": [
-          {
-            "mobs": [
-              {
-                "id": "verminsoul",
-                "count": [ 28, 30 ]
-              }
-            ]
-          }
-        ]
       }
     ]
   }
