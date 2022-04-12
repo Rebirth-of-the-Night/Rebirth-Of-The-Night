@@ -20,7 +20,7 @@
     },
     "name": "Vermin Souls",
     "messages": {
-      "start": "\u00A7cOOPS! Looks like it's all vermin souls, hope you have fire resistance...)",
+      "start": "\u00A7cOOPS! Looks like it's all vermin souls, hope you have fire resistance...",
       "end": "\u00A7aThe floaty bastards are gone, for now.",
       "warn": {
         "ticks": 12000,
@@ -35,59 +35,98 @@
             "mobs": [
               {
                 "id": "verminsoul",
-                "count": [ 12, 14 ]
+                "count": [ 4, 6 ]
               }
             ]
           }
         ]
       },
       {
-        "delayTicks": [ 1800, 2400 ],
+        "delayTicks": [ 600, 800 ],
         "groups": [
           {
             "mobs": [
               {
                 "id": "verminsoul",
-                "count": [ 14, 16 ]
+                "count": [ 4, 6 ]
               }
             ]
           }
         ]
       },
       {
-        "delayTicks": [ 1800, 2400 ],
+        "delayTicks": [ 600, 800 ],
         "groups": [
           {
             "mobs": [
               {
                 "id": "verminsoul",
-                "count": [ 16, 18 ]
+                "count": [ 4, 6 ]
               }
             ]
           }
         ]
       },
       {
-        "delayTicks": [ 1800, 2400 ],
+        "delayTicks": [ 600, 800 ],
         "groups": [
           {
             "mobs": [
               {
                 "id": "verminsoul",
-                "count": [ 18, 20 ]
+                "count": [ 4, 6 ]
               }
             ]
           }
         ]
       },
       {
-        "delayTicks": [ 1800, 2400 ],
+        "delayTicks": [ 600, 800 ],
         "groups": [
           {
             "mobs": [
               {
                 "id": "verminsoul",
-                "count": [ 20, 22 ]
+                "count": [ 6,  8 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 600, 800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 6,  8 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 600, 800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 6,  8 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 600, 800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 6,  8 ]
               }
             ]
           }

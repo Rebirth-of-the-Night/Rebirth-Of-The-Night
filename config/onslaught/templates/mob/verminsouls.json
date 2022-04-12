@@ -7,6 +7,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": true
+      },
+      {
+        "id": "minecraft:fire_resistance",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
       }
     ],
     "nbt": {
