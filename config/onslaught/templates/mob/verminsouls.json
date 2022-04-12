@@ -1,0 +1,16 @@
+{
+  "verminsoul": {
+    "id": "rats:ratlantean_spirit",
+    "effects": [
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Vermin soul"
+    }
+  }
+}

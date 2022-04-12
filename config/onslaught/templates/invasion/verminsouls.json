@@ -1,0 +1,137 @@
+{
+  "verminsouls": {
+    "selector": {
+      "gamestages": {
+        "and": ["minedMythril"]
+      },
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear"
+      ],
+      "end": [
+        "/weather rain"
+      ]
+    },
+    "name": "Vermin Souls",
+    "messages": {
+      "start": "\u00A7cOOPS! Looks like it's all vermin souls, hope you have fire resistance...)",
+      "end": "\u00A7aThe floaty bastards are gone, for now.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eThe air smells a bit  burnt..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 12, 14 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 14, 16 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 16, 18 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 18, 20 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 20, 22 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 22, 24 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 24, 26 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "verminsoul",
+                "count": [ 28, 30 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
