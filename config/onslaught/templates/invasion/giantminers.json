@@ -1,0 +1,113 @@
+{
+  "giantminers": {
+    "selector": {
+      "gamestages": {
+        "and": ["enteredTwilightForest"]
+      },
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather rain"
+      ],
+      "end": [
+        "/weather clear",
+        "/give @p twilightforest:giant_pickaxe",
+        "/xp 500 @p"
+      ]
+    },
+    "name": "Giant Miners",
+    "messages": {
+      "start": "\u00A7cThe ground beneath you begins to shake...",
+      "end": "\u00A7aThe giants stomp off in fury, they'll be back.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eUnusual seismic activity detected..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

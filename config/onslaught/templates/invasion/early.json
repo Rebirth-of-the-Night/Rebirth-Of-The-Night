@@ -15,7 +15,8 @@
         "/weather rain"
       ],
       "end": [
-        "/weather clear"
+        "/weather clear",
+        "/xp 100 @p"
       ]
     },
     "name": "Undead Horde",

@@ -15,7 +15,8 @@
         "/weather clear"
       ],
       "end": [
-        "/weather rain"
+        "/weather rain",
+        "/xp 400 @p"
       ]
     },
     "name": "Vermin Souls",

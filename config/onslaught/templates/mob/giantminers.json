@@ -1,0 +1,29 @@
+{
+  "giantminer": {
+    "id": "twilightforest:giant_miner",
+    "effects": [
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": true
+      },
+      {
+        "id": "minecraft:jump_boost",
+        "duration": 50000,
+        "amplifier": 2,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:slowness",
+        "duration": 50000,
+        "amplifier": 2,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant miner"
+    },
+    "HandDropChances": [ 0.0, 0.0 ]
+  }
+}
