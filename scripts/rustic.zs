@@ -6,6 +6,32 @@ import mods.rustic.Condenser;
 import mods.rustic.EvaporatingBasin;
 import mods.betterwithmods.MiniBlocks;
 
+var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});
+var iron = <ore:ingotIron>;
+var tin = <ore:ingotTin>;
+var silver = <ore:ingotSilver>;
+var gold = <ore:ingotGold>;
+var torch = <minecraft:torch>;
+var glass = <minecraft:glass_pane>;
+var cohosh = <rustic:cohosh>;
+var honeycomb = <rustic:honeycomb>;
+var chamomile = <rustic:chamomile>;
+var root = <rustic:marsh_mallow>;
+var horsetail = <rustic:horsetail>;
+var fourclover = <contenttweaker:4leaf_clover>;
+var amanita = <minecraft:red_mushroom>;
+var slime = <minecraft:slime_ball>;
+var endpearl = <minecraft:ender_pearl>;
+var butter = <harvestcraft:butteritem>;
+var gnugg = <minecraft:gold_nugget>;
+var snugg = <iceandfire:silver_nugget>;
+var genericNugg = <ore:genericMetalNuggets>;
+var wheatmat = <betterwithaddons:wheatmat>;
+var glowjelly = <mowziesmobs:glowing_jelly>;
+var radiantdust = <arcanearchives:radiant_dust>;
+var cutLeather = <betterwithmods:material:31>;
+var ironBerry = <rustic:ironberries>;
+
 JEI.removeAndHide(<rustic:lantern_wood>);
 
 JEI.removeAndHide(<rustic:tomato_seeds>);
@@ -25,7 +51,6 @@ JEI.hideCategory("rustic.brewing");
 
 JEI.hide(<rustic:honey>); // Weird honey item that places fluid
 <ore:materialPressedwax>.add(<rustic:beeswax>);
-var honeyBottle = <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});
 
 <ore:foodHoneydrop>.add(honeyBottle);
 <ore:dropHoney>.add(honeyBottle);
@@ -75,13 +100,6 @@ alcHerb.add(
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<rustic:iron_lantern>);
 recipes.remove(<rustic:silver_lantern>);
-
-var iron = <ore:ingotIron>;
-var tin = <ore:ingotTin>;
-var silver = <ore:ingotSilver>;
-var gold = <ore:ingotGold>;
-var torch = <minecraft:torch>;
-var glass = <minecraft:glass_pane>;
 
 recipes.addShaped("Gold_Lantern", <rustic:golden_lantern>,[
 	[gnugg, gnugg, gnugg],
@@ -184,25 +202,6 @@ val nightvisionObsceneExtendedElixir = <rustic:elixir>.withTag({ElixirEffects: [
 val ironskinElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 3600, Amplifier: 0}]});
 val ironskinElixirLong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 9600, Amplifier: 0}]});
 val ironskinElixirStrong = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "rustic:ironskin", Duration: 1800, Amplifier: 1}]});
-
-var cohosh = <rustic:cohosh>;
-var honeycomb = <rustic:honeycomb>;
-var chamomile = <rustic:chamomile>;
-var root = <rustic:marsh_mallow>;
-var horsetail = <rustic:horsetail>;
-var fourclover = <contenttweaker:4leaf_clover>;
-var amanita = <minecraft:red_mushroom>;
-var slime = <minecraft:slime_ball>;
-var endpearl = <minecraft:ender_pearl>;
-var butter = <harvestcraft:butteritem>;
-var gnugg = <minecraft:gold_nugget>;
-var snugg = <iceandfire:silver_nugget>;
-var genericNugg = <ore:genericMetalNuggets>;
-var wheatmat = <betterwithaddons:wheatmat>;
-var glowjelly = <mowziesmobs:glowing_jelly>;
-var radiantdust = <arcanearchives:radiant_dust>;
-var cutLeather = <betterwithmods:material:31>;
-var ironBerry = <rustic:ironberries>;
 
 Condenser.removeRecipe(regenerationElixir);
 Condenser.removeRecipe(regenerationElixirLong);
