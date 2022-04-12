@@ -16,7 +16,8 @@
       ],
       "end": [
         "/weather clear",
-        "/xp 100 @p"
+        "/xp 100 @p",
+        "/give @p leather 4"
       ]
     },
     "name": "Undead Horde",

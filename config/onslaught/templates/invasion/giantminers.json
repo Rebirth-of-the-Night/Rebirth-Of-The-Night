@@ -17,7 +17,8 @@
       "end": [
         "/weather clear",
         "/give @p twilightforest:giant_pickaxe",
-        "/xp 500 @p"
+        "/give @p twilightforest:giant_sword",
+        "/xp 1000 @p"
       ]
     },
     "name": "Giant Miners",

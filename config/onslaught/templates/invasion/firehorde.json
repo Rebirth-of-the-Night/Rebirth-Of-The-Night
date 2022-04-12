@@ -1,0 +1,208 @@
+{
+  "fireundead": {
+    "selector": {
+      "gamestages": {
+        "and": ["enteredNether"]
+      },
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear"
+      ],
+      "end": [
+        "/weather rain",
+        "/xp 200 @p",
+        "/give @p pyrotech:material 16 4"
+      ]
+    },
+    "name": "Fiery Horde",
+    "messages": {
+      "start": "\u00A7cThe burning undead horde is invading!",
+      "end": "\u00A7aThe blazing horde has been stopped ... for now",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eThe faint smell of burnt flesh hangs in the air..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 2, 3 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie.bomber",
+                "count": [ 1, 3 ]
+              },
+              {
+                "id": "firezombie",
+                "count": [ 3, 7 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 1, 2 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "firezombie.stalker",
+                "count": [ 3, 5 ]
+              },
+              {
+                "id": "firezombie",
+                "count": [ 3, 7 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 1, 2 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "fireskel",
+                "count": [ 3, 5 ]
+              },
+              {
+                "id": "firezombie",
+                "count": [ 3, 7 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 1, 2 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie.boss.huntsman",
+                "count": [ 1 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "firezombie",
+                "count": [ 3, 8 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 1, 2 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie.boss.cook",
+                "count": [ 1 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "firezombie",
+                "count": [ 3, 8 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 1, 2 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie",
+                "count": [ 3, 8 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 1, 2 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 1, 2 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

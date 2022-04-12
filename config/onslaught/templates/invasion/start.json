@@ -2,7 +2,7 @@
   "beasts": {
     "selector": {
       "gamestages": {
-        "not": "slayersjournal"
+        "and": ["start"]
       },
       "weight": 100,
       "dimension": {
@@ -16,7 +16,8 @@
       ],
       "end": [
         "/weather clear",
-        "/xp 100 @p"
+        "/xp 100 @p",
+        "/give @p leather 2"
       ]
     },
     "name": "The Beasts",
