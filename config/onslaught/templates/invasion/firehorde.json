@@ -17,7 +17,7 @@
       "end": [
         "/weather rain",
         "/xp 200 @p",
-        "/give @p pyrotech:material 16 4"
+        "/give @p betterwithmods:urn 2 8"
       ]
     },
     "name": "Fiery Horde",
@@ -25,7 +25,7 @@
       "start": "\u00A7cThe burning undead horde is invading!",
       "end": "\u00A7aThe blazing horde has been stopped ... for now",
       "warn": {
-        "ticks": 12000,
+        "ticks": 48000,
         "message": "\u00A7eThe faint smell of burnt flesh hangs in the air..."
       }
     },
@@ -37,15 +37,15 @@
             "mobs": [
               {
                 "id": "firezombie",
-                "count": [ 8, 10 ]
+                "count": [ 12, 16 ]
               },
               {
                 "id": "firezombie.miner",
-                "count": [ 2, 3 ]
+                "count": [ 4, 5 ]
               },
               {
                 "id": "ember",
-                "count": [ 2, 3 ]
+                "count": [ 3, 4 ]
               }
             ]
           }
@@ -58,19 +58,19 @@
             "mobs": [
               {
                 "id": "firezombie.bomber",
-                "count": [ 1, 3 ]
+                "count": [ 3, 5 ]
               },
               {
                 "id": "firezombie",
-                "count": [ 3, 7 ]
+                "count": [ 8, 12 ]
               },
               {
                 "id": "firezombie.miner",
-                "count": [ 1, 2 ]
+                "count": [ 3, 4 ]
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 2, 3 ]
               }
             ]
           },
@@ -78,19 +78,19 @@
             "mobs": [
               {
                 "id": "firezombie.stalker",
-                "count": [ 3, 5 ]
+                "count": [ 5, 7 ]
               },
               {
                 "id": "firezombie",
-                "count": [ 3, 7 ]
+                "count": [ 8, 12 ]
               },
               {
                 "id": "firezombie.miner",
-                "count": [ 1, 2 ]
+                "count": [ 3, 4 ]
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 2, 3 ]
               }
             ]
           },
@@ -98,19 +98,19 @@
             "mobs": [
               {
                 "id": "fireskel",
-                "count": [ 3, 5 ]
+                "count": [ 10, 12 ]
               },
               {
                 "id": "firezombie",
-                "count": [ 3, 7 ]
+                "count": [ 8, 10 ]
               },
               {
                 "id": "firezombie.miner",
-                "count": [ 1, 2 ]
+                "count": [ 3, 4 ]
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 2, 3 ]
               }
             ]
           }
@@ -127,7 +127,11 @@
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "fireskel",
+                "count": [ 5, 7 ]
               }
             ]
           },
@@ -135,15 +139,15 @@
             "mobs": [
               {
                 "id": "firezombie",
-                "count": [ 3, 8 ]
+                "count": [ 8, 10 ]
               },
               {
                 "id": "firezombie.miner",
-                "count": [ 1, 2 ]
+                "count": [ 3, 4 ]
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 2, 3 ]
               }
             ]
           }
@@ -160,7 +164,11 @@
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "fireskel",
+                "count": [ 5, 7 ]
               }
             ]
           },
@@ -168,15 +176,52 @@
             "mobs": [
               {
                 "id": "firezombie",
-                "count": [ 3, 8 ]
+                "count": [ 8, 10 ]
               },
               {
                 "id": "firezombie.miner",
-                "count": [ 1, 2 ]
+                "count": [ 3, 4 ]
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 2, 3 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "fireghast",
+                "count": [ 3 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "fireskel",
+                "count": [ 5, 7 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "firezombie",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "ember",
+                "count": [ 2, 3 ]
               }
             ]
           }
@@ -189,15 +234,15 @@
             "mobs": [
               {
                 "id": "firezombie",
-                "count": [ 3, 8 ]
+                "count": [ 16, 20 ]
               },
               {
                 "id": "firezombie.miner",
-                "count": [ 1, 2 ]
+                "count": [ 6, 8 ]
               },
               {
                 "id": "ember",
-                "count": [ 1, 2 ]
+                "count": [ 3, 4 ]
               }
             ]
           }

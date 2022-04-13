@@ -26,9 +26,9 @@
     "nbt": {
       "CustomName": "\u00A74Charred Bandit",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 60 }
+        { "Name": "generic.maxHealth", "Base": 80 }
       ],
-      "Health": 60,
+      "Health": 80,
       "HandItems": [
         { "Count": 1, "id": "spartanweaponry:battleaxe_steel" },
         { "Count": 1, "id": "spartanweaponry:dagger_bronze" }
@@ -76,6 +76,20 @@
           }
         }
       }
+    }
+  },
+  "fireghast": {
+    "id": "minecraft:ghast",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Ghastly Musketears"
     }
   },
   "firezombie.farmer": {
@@ -154,8 +168,8 @@
         "Onslaught": {
           "CustomAI": {
             "Mining": {
-              "Range": 4,
-              "SpeedModifier": 1.5
+              "Range": 8,
+              "SpeedModifier": 2
             }
           }
         }
@@ -187,7 +201,7 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "CounterAttack": { "Chance": 0.2 },
+            "CounterAttack": { "Chance": 0.5 },
             "ExplodeWhenStuck": { }
           }
         }
@@ -230,7 +244,7 @@
     "effects": [
       {
         "id": "minecraft:strength",
-        "duration": 4800,
+        "duration": 50000,
         "amplifier": 0,
         "showParticles": false
       },
@@ -243,10 +257,10 @@
     ],
     "nbt": {
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 120 },
-        { "Name": "generic.movementSpeed", "Base": 0.45 }
+        { "Name": "generic.maxHealth", "Base": 150 },
+        { "Name": "generic.movementSpeed", "Base": 0.5 }
       ],
-      "Health": 120,
+      "Health": 150,
       "CustomName": "\u00A74The Fireman",
       "CustomNameVisible": 1,
       "HandItems": [
@@ -265,8 +279,8 @@
         "Onslaught": {
           "CustomAI": {
             "OffscreenTeleport": { },
-            "CounterAttack": { "Chance": 0.2 },
-            "Lunge": { "Range": 6, "SpeedModifier": 0.3 }
+            "CounterAttack": { "Chance": 0.3 },
+            "Lunge": { "Range": 8, "SpeedModifier": 0.5 }
           }
         }
       }
@@ -291,7 +305,7 @@
     "effects": [
       {
         "id": "wards:effect_knockback",
-        "duration": 4800,
+        "duration": 50000,
         "amplifier": 1,
         "showParticles": false
       },
@@ -317,8 +331,8 @@
         { "Count": 1, "id": "rats:chef_toque" }
       ],
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
-      "Attributes": [ { "Name": "generic.maxHealth", "Base": 120 } ],
-      "Health": 120,
+      "Attributes": [ { "Name": "generic.maxHealth", "Base": 150 } ],
+      "Health": 150,
       "CustomName": "\u00A74The OverCook",
       "CustomNameVisible": 127,
       "ForgeData": {
