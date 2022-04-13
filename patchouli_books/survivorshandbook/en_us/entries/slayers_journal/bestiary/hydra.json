@@ -1,0 +1,32 @@
+{
+    "name": "Hydra",
+    "icon": "iceandfire:hydra_fang",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 8,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:if_hydra{HeadCount:5,SeveredHead:-1}",
+            "scale": 0.5,
+            "offset": -0.15,
+            "rotate": "true",
+            "name": "Hydra",
+            "text": "$(#734608)A $(thing)hydra$()$(#734608) is a limb-less beast with many heads that spew streams of poison"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Hydras reside in hydra lairs within swamps$(br2)They can have up to 9 heads that attack everything in sight, even other hydras. Each is capable of firing jets of poison at their target and biting with an even stronger venom$(br2)To support its already incredible strength, its regenerative abilities allow it to regrow its heads in a matter of seconds"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Should one of its heads be cut off, two more heads will replace it unless it is lit on fire where it becomes unable to regenerate itself$(br2)When the hydra's final head is severed, it will drop $(item)hydra fangs$()$(#734608), $(item)rotten flesh$()$(#734608), and rarely a $(item)hydra heart$()$(#734608) and hydra skull$(br2)The $(item)$(t:Only grants regeneration while in the user's hotbar)hydra heart$()$(#734608) is a powerful item that grants the user regeneration over time"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:hydra_arrow",
+            "text": "$(#734608)Hydra fangs can be used to craft $(item)hydra arrows$()$(#734608) which are able to poison and leech life from targets"
+        }
+    ]
+}
