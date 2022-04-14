@@ -17,7 +17,7 @@
       "end": [
         "/weather clear",
         "/xp 100 @p",
-        "/give @p leather 2"
+        "/give @p betterwithmods:material 8 31"
       ]
     },
     "name": "The Beasts",

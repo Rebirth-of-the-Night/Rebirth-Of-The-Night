@@ -297,7 +297,14 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Ember"
+      "CustomName": "\u00A76Ember",
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "OffscreenTeleport": { }
+          }
+        }
+      }
     }
   },
   "firezombie.boss.cook": {

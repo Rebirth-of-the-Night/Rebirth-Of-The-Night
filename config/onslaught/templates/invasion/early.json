@@ -17,7 +17,7 @@
       "end": [
         "/weather clear",
         "/xp 100 @p",
-        "/give @p leather 4"
+        "/give @p betterwithmods:material 12 31"
       ]
     },
     "name": "Undead Horde",

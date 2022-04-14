@@ -17,7 +17,7 @@
       "end": [
         "/weather rain",
         "/xp 200 @p",
-        "/give @p betterwithmods:urn 2 8"
+        "/give @p betterwithmods:urn 4 8"
       ]
     },
     "name": "Fiery Horde",
