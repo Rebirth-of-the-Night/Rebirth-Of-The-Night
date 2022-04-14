@@ -69,7 +69,7 @@
         ]
       },
       {
-        "delayTicks": [ 600, 800 ],
+        "delayTicks": [ 1200, 1600 ],
         "groups": [
           {
             "mobs": [
@@ -82,7 +82,7 @@
         ]
       },
       {
-        "delayTicks": [ 600, 800 ],
+        "delayTicks": [ 2400, 3200 ],
         "groups": [
           {
             "mobs": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "delayTicks": [ 600, 800 ],
+        "delayTicks": [ 3000, 4800 ],
         "groups": [
           {
             "mobs": [
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "delayTicks": [ 600, 800 ],
+        "delayTicks": [ 3600, 5600 ],
         "groups": [
           {
             "mobs": [
@@ -121,7 +121,7 @@
         ]
       },
       {
-        "delayTicks": [ 600, 800 ],
+        "delayTicks": [ 4200, 6400 ],
         "groups": [
           {
             "mobs": [

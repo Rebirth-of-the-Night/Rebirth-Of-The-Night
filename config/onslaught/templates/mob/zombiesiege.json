@@ -1,0 +1,112 @@
+{
+  "zombiesiege.grunt": {
+    "id": "specialmobs:brutezombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Zombie Grunt",
+      "HandItems": [
+        { "Count": 1, "id": "atop:peridot_sword" }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorItems": [
+        {  },
+        {  },
+        {  },
+        { "Count": 1, "id": "dungeontactics:steel_helmet" }
+      ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Lunge": { "Range": 2, "SpeedModifier": 0.5 }
+          }
+        }
+      }
+    }
+  },
+  "zombiesiege.miner": {
+    "id": "specialmobs:brutezombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Zombie Miner",
+      "HandItems": [
+        { "Count": 1, "id": "atop:peridot_pickaxe" },
+        { "Count": 1, "id": "minecraft:torch" }
+      ],
+      "HandDropChances": [ 0.0, 1.0 ],
+      "ArmorItems": [
+        {  },
+        {  },
+        {  },
+        { "Count": 1, "id": "dungeontactics:steel_helmet" }
+      ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 8,
+              "SpeedModifier": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "zombiesiege.bomber": {
+    "id": "specialmobs:brutezombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Zombie Siegebreaker",
+      "HandItems": [
+        { "Count": 1, "id": "minecraft:tnt" },
+        { "Count": 1, "id": "minecraft:tnt" }
+      ],
+      "ArmorItems": [
+        { },
+        { },
+        { },
+        { "Count": 1, "id": "harvestcraft:candledeco13" }
+      ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.5 },
+            "ExplodeWhenStuck": { }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1093 @@
+{
+  "zombiesiege": {
+    "selector": {
+      "gamestages": {
+        "and": ["enteredBeneath"]
+      },
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear"
+      ],
+      "end": [
+        "/xp 600 @p",
+        "/give @p glaretorch:itemglaretorchsmall 128"
+      ],
+      "staged": [
+        {
+          "complete": 0.5,
+          "commands": [
+            "/ostop @p"
+          ]
+        }
+        
+      ]
+    },
+    "name": "Zombie Siege",
+    "messages": {
+      "start": "\u00A7cYou feel as though this siege might last a while...",
+      "end": "\u00A7aThe undead wave slowly tapers off, and all is quiet again.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eYou hear undead moaning in the distance..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 400, 500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 800, 900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1200, 1300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1600, 1700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 2000, 2100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 2400, 2500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 2800, 2900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 3200, 3300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 3600, 3700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 4000, 4100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 4400, 4500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 4800, 4900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 5200, 5300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 5600, 5700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 6000, 6100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 6400, 6500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 6800, 6900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 7200, 7300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 7600, 7700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 8000, 8100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 8400, 8500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 8800, 8900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 9200, 9300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 9600, 9700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 10000, 11000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 10400, 10500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 10800, 10900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 11200, 11300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 11600, 11700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 12000, 12100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 12400, 12500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 12800, 12900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 13200, 13300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 13600, 13700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 14000, 14100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 14400, 14500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 14800, 14900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 15200, 15300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 15600, 15700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 16000, 16100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 16400, 16500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 16800, 16900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 17200, 17300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 17600, 17700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 18000, 18100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 18400, 18500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 18800, 18900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 19200, 19300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 19600, 19700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
