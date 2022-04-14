@@ -1,14 +1,6 @@
 {
   "zombiesiege.grunt": {
-    "id": "specialmobs:brutezombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
+    "id": "minecraft:zombie",
     "nbt": {
       "CustomName": "\u00A76Zombie Grunt",
       "HandItems": [
@@ -22,8 +14,10 @@
         { "Count": 1, "id": "dungeontactics:steel_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.25 }
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.maxHealth", "Base": 40 }
       ],
+      "Health": 40,
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -35,7 +29,7 @@
     }
   },
   "zombiesiege.miner": {
-    "id": "specialmobs:brutezombie",
+    "id": "minecraft:zombie",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -58,8 +52,10 @@
         { "Count": 1, "id": "dungeontactics:steel_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.25 }
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.maxHealth", "Base": 40 }
       ],
+      "Health": 40,
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -74,15 +70,7 @@
     }
   },
   "zombiesiege.bomber": {
-    "id": "specialmobs:brutezombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
+    "id": "minecraft:zombie",
     "nbt": {
       "CustomName": "\u00A76Zombie Siegebreaker",
       "HandItems": [
@@ -96,14 +84,19 @@
         { "Count": 1, "id": "harvestcraft:candledeco13" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.25 }
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.maxHealth", "Base": 40 }
       ],
+      "Health": 40,
       "HandDropChances": [ 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
             "CounterAttack": { "Chance": 0.5 },
-            "ExplodeWhenStuck": { }
+            "ExplodeWhenStuck": { 
+              "RangeMax": 8,
+              "ExplosionStrength": 3      
+            }
           }
         }
       }
