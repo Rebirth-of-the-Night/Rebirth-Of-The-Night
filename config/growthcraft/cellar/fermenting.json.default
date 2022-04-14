@@ -3111,12 +3111,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_fermented",
-        "amount": 1000
+        "amount": 1
       },
       "time": 15840
     },
@@ -3138,12 +3138,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_potent",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3165,12 +3165,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_extended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3192,12 +3192,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_hyperextended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3219,12 +3219,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_potent_extended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3246,12 +3246,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_magical",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3266,12 +3266,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_poisoned",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3286,12 +3286,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_poisoned",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3306,12 +3306,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_poisoned",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3326,12 +3326,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_poisoned",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3346,12 +3346,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_poisoned",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3366,12 +3366,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_poisoned",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -3386,12 +3386,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Sake",
         "name": "fluid_booze_sake_poisoned",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -4591,12 +4591,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Kumis Potent",
         "name": "fluid_booze_kumis_kumis_potent",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -4618,12 +4618,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Kumis Extended",
         "name": "fluid_booze_kumis_kumis_extended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -4645,12 +4645,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Kumis Hyper-Extended",
         "name": "fluid_booze_kumis_kumis_hyperextended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -4672,12 +4672,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Kumis Potent Extended",
         "name": "fluid_booze_kumis_kumis_potent_extended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -4699,12 +4699,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Kumis Potent Extended",
         "name": "fluid_booze_kumis_kumis_potent_extended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -4726,12 +4726,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Kumis Potent Hyper-Extended",
         "name": "fluid_booze_kumis_kumis_potent_hyperextended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     },
@@ -4753,12 +4753,12 @@
         "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
-        "amount": 1000
+        "amount": 1
       },
       "output_fluid": {
         "comment": "Kumis Potent Hyper-Extended",
         "name": "fluid_booze_kumis_kumis_potent_hyperextended",
-        "amount": 1000
+        "amount": 1
       },
       "time": 24000
     }
