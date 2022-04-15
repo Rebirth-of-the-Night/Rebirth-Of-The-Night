@@ -10,7 +10,10 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Fire Skeleton"
+      "CustomName": "\u00A76Invading Fire Skeleton",
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
+      ]
     }
   },
   "fireskel.boss.slimed": {
@@ -26,7 +29,8 @@
     "nbt": {
       "CustomName": "\u00A74Charred Bandit",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 80 }
+        { "Name": "generic.maxHealth", "Base": 80 },
+        { "Name": "generic.movementSpeed", "Base": 0.4 }
       ],
       "Health": 80,
       "HandItems": [
@@ -69,6 +73,9 @@
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Zombie",
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
+      ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -111,6 +118,9 @@
       "HandItems": [
         { "Count": 1, "id": "dungeontactics:steel_hoe" }
       ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
+      ],
       "ArmorItems": [
         {},
         {},
@@ -143,6 +153,9 @@
         { },
         { "Count": 1, "id": "rustic:barrel" }
       ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
+      ],
       "CustomName": "\u00A76Looting Fire Zombie"
     }
   },
@@ -167,6 +180,9 @@
         { "Count": 1, "id": "atop:mud_leggings" },
         { },
         { "Count": 1, "id": "minecraft:iron_helmet" }
+      ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
       ],
       "ForgeData": {
         "Onslaught": {
@@ -342,7 +358,10 @@
         { "Count": 1, "id": "rats:chef_toque" }
       ],
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
-      "Attributes": [ { "Name": "generic.maxHealth", "Base": 150 } ],
+      "Attributes": [ 
+        { "Name": "generic.maxHealth", "Base": 150 },
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
+      ],
       "Health": 150,
       "CustomName": "\u00A74The OverCook",
       "CustomNameVisible": 127,
