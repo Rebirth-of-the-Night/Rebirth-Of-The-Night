@@ -81,6 +81,10 @@ recipes.addShapeless("frog_leg_stirfry", <harvestcraft:froglegstirfryitem>,
 
 recipes.remove(<harvestcraft:wovencottonitem>);
 recipes.addShapeless("wovencottonitem_twine", <harvestcraft:wovencottonitem>, [<ore:twine>,<ore:twine>]);
+//recipes.addShapeless("flimsybucket_freshwater", <harvestcraft:freshwateritem>*8,<pyrotech:bucket_stone.withTag({fluids: {FluidName: "water", Amount: 1000}})>.giveBack(<pyrotech:bucket_stone>));
+//recipes.addShapeless("woodenbucket_freshwater", <harvestcraft:freshwateritem>*8,<pyrotech:bucket_wood.withTag({fluids: {FluidName: "water", Amount: 1000}})>.giveBack(<pyrotech:bucket_wood>));
+//recipes.addShapeless("claybucket_freshwater", <harvestcraft:freshwateritem>*8,<pyrotech:bucket_clay.withTag({fluids: {FluidName: "water", Amount: 1000}})>.giveBack(<pyrotech:bucket_clay>));
+//recipes.addShapeless("skyrootbucket_freshwater", <harvestcraft:freshwateritem>*8,<aether_legacy:skyroot_bucket:1>.giveBack(<aether_legacy:skyroot_bucket>));
 
 // removes duplicate salt recipes
 recipes.removeByRecipeName("harvestcraft:sausageitem_itemsalt");

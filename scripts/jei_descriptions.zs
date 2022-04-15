@@ -526,3 +526,10 @@ JEI.addDescription(<defiledlands:tears_flame>,"Charge to shoot 5 fire balls at y
 
 /* Hit with Axe */
 JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic wood log with an axe.");
+
+/* Yeasts */
+JEI.addDescription(<growthcraft_cellar:yeast>, "A yeast which appears to be basic in nature. It can be cultivated in culture jars with any fermentable liquid in any biome, albeit at a lower rate in biomes where other yeasts might flourish. Placing this in the output slot of a culture jar will ensure only brewer's yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:1>, "A yeast which appears to be capable of making a lovely lager beer. It can be cultivated in culture jars with any fermentable liquid in cold biomes, like a Taiga. Placing this in the output slot of a culture jar will ensure only lager yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:2>, "A yeast which appears to be capable of making a wonderful port wine. It can sometimes be obtained when harvesting grapes. Placing this in the output slot of a culture jar will ensure only bayanus yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:3>, "A yeast which appears to have mystical properties. It can be cultivated in culture jars with any fermentable liquid in magical biomes, like the Mystical Grove. Placing this in the output slot of a culture jar will ensure only ethereal yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:4>, "A yeast which appears to be quite mycelial. It can be cultivated in culture jars with any fermentable liquid in mushroom biomes, like the Mushroom Islands. Placing this in the output slot of a culture jar will ensure only origin yeast is produced, irrespective of the biome.");

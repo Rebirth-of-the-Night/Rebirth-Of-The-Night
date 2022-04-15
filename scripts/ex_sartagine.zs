@@ -2764,13 +2764,14 @@ recipes.remove(<harvestcraft:currypowderitem>);
 Mortar.addRecipe(["stone"], <harvestcraft:currypowderitem>, 4, [<harvestcraft:curryleafitem>]);
 //Mochi
 recipes.remove(<harvestcraft:mochiitem>);
-recipes.addShapeless("mochi", <harvestcraft:mochiitem>,[rice,sugar,waterBottleItem]);
-RecipeBuilder.get("chef")
-  .setName("mochi")
-  .setFluid(waterBottle)
-  .setShapeless([rice,sugar])
-  .addOutput(<harvestcraft:mochiitem>)
-  .create();
+recipes.addShapeless("mochi", <harvestcraft:mochiitem>,[rice,sugar,<harvestcraft:freshwateritem>]);
+//RecipeBuilder.get("chef")
+//  .setName("mochi")
+//  .setFluid(waterBottle)
+//  .setShapeless([rice,sugar])
+//  .addOutput(<harvestcraft:mochiitem>)
+//  .create();
+
 //Museli -&R
 recipes.remove(<harvestcraft:museliitem>);
 ExSartagine.addKettleRecipe([grain,<harvestcraft:raisinsitem>,pecan,sugar,milkBottle],cookKitKettle,null,[<harvestcraft:museliitem>],80);
