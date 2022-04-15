@@ -118,11 +118,11 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
     [<ore:StoneHugeBrick>, <minecraft:writable_book>, <contenttweaker:oak_boards>], 
     [null, <pyrotech:drying_rack:1>, null]
 ]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pizzaoven"}), [
-    [null, <ore:genericMetalBars>, null],
-    [<contenttweaker:brick_minecraft_clay>, <minecraft:writable_book>, <contenttweaker:brick_minecraft_clay>], 
-    [null, <ore:netherrack>, null]
-]);
+//recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pizzaoven"}), [
+//    [null, <ore:genericMetalBars>, null],
+//    [<contenttweaker:brick_minecraft_clay>, <minecraft:writable_book>, <contenttweaker:brick_minecraft_clay>], 
+//    [null, <ore:netherrack>, null]
+//]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [
     [null, null, null],
     [brassIngot, <modularmachinery:blockfluidoutputhatch:1>, brassIngot], 
