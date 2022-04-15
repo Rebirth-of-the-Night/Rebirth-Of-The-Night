@@ -2,7 +2,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.betterwithmods.Anvil;
-import mods.betterwithaddons.Infuser;
 import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
@@ -114,7 +113,6 @@ var destarrow = <betterwithaddons:greatarrow_destruction>;
 var advpearl = <endreborn:item_advanced_ender_pearl>;
 var dice = <cyclicmagic:dice>;
 var stone = <ore:stone>;
-var gcandle = <rustic:candle_gold>;
 var wax = <ore:materialPressedwax>;
 var carbond = <ore:dustCarbon>;
 var carpaper = <cyclicmagic:carbon_paper>;
@@ -147,13 +145,6 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-
-# Spirit charging
-Infuser.addShapeless(<cyclicmagic:wand_hypno>,
-[<cyclicmagic:wand_hypno>.anyDamage(),<contenttweaker:vis_sliver>], 64);
-
-// Water Candle
-Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
 RecipeBuilder.get("mage")
   .setShaped([

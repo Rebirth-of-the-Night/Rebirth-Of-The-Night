@@ -1716,7 +1716,7 @@ val mortarPrimitive = <ore:mortarPrimitive>;
 mortarPrimitive.addItems([<biomesoplenty:mudball>]);
 
 val mortarCommon = <ore:mortarCommon>;
-mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<earthworks:item_cob>]);
+mortarCommon.addItems([<minecraft:clay_ball>,<minecraft:slime_ball>,<betterslimes:blue_slime>,<betterslimes:red_slime>,<betterslimes:yellow_slime>,<betterslimes:purple_slime>,<betterslimes:black_slime>,<earthworks:item_cob>]);
 
 val mortarRefractory = <ore:mortarRefractory>;
 mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyrotech:material:4>,<contenttweaker:fiery_sludge>,<betterwithmods:material:35>]);

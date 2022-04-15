@@ -10,14 +10,14 @@ static growth_fermentPointerVisual as SlotVisual = SlotVisual.createSimple("requ
 static growth_interactionPointerVisual as SlotVisual = SlotVisual.createSimple("requious:textures/gui/assembly_gauges.png",4,7);
  
 // jei structure for ferment barrel and bottle right click
-growth_ferment.setJEIItemSlot(3,3,"input");
+growth_ferment.setJEIItemSlot(3,2,"input");
 growth_ferment.setJEIItemSlot(4,3,"barrel");
-growth_ferment.setJEIItemSlot(5,3,"output");
+growth_ferment.setJEIItemSlot(5,2,"output");
 growth_ferment.setJEIDurationSlot(4,4,"growth_fermentPointer", growth_fermentPointerVisual);
 growth_ferment.setJEIItemSlot(3,4,"added");
-growth_ferment.setJEIFluidSlot(3,2,"inputFluid");
+growth_ferment.setJEIFluidSlot(3,3,"inputFluid");
 growth_ferment.setJEIDecoration(4,2,"interactionPointer", growth_interactionPointerVisual);
-growth_ferment.setJEIFluidSlot(5,2,"outputFluid");
+growth_ferment.setJEIFluidSlot(5,3,"outputFluid");
 
 
 var cider_a = AssemblyRecipe.create(function(container) {
@@ -525,3 +525,498 @@ var wine_1e = AssemblyRecipe.create(function(container) {
 .requireFluid("outputFluid",<liquid:fluid_booze_purple_wine>)
 .requireDuration("duration",24000);
 growth_ferment.addJEIRecipe(wine_1e);
+
+var mead_a = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead>);
+})
+.requireItem("input",<forge:bucketfilled>.withTag({FluidName: "fluid_honey", Amount: 1000}))
+.requireItem("added",<ore:yeastBrewers>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_honey>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_young>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_a);
+
+var mead_b = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:1>);
+})
+.requireItem("input",<growthcraft_bees:mead>)
+.requireItem("added",<ore:yeastBrewers>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_young>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_fermented>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_b);
+
+var mead_c = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:1>);
+})
+.requireItem("input",<growthcraft_bees:mead>)
+.requireItem("added",<minecraft:nether_wart>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_young>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_fermented>)
+.requireDuration("duration",15840);
+growth_ferment.addJEIRecipe(mead_c);
+
+var mead_d = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:3>);
+})
+.requireItem("input",<growthcraft_bees:mead>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_young>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_extended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_d);
+
+var mead_e = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:8>);
+})
+.requireItem("input",<growthcraft_bees:mead:2>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_potentextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_e);
+
+var mead_f = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:7>);
+})
+.requireItem("input",<growthcraft_bees:mead:3>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_f);
+
+var mead_g = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:4>);
+})
+.requireItem("input",<growthcraft_bees:mead:3>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_ethereal>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_g);
+
+var mead_h = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:4>);
+})
+.requireItem("input",<growthcraft_bees:mead:2>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_ethereal>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_h);
+
+var mead_i = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:5>);
+})
+.requireItem("input",<growthcraft_bees:mead:3>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_intoxicated>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_i);
+
+var mead_j = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_bees:mead:5>);
+})
+.requireItem("input",<growthcraft_bees:mead:2>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_mead_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_mead_intoxicated>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(mead_j);
+
+var sake_a = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_rice:sakebottle:2>);
+})
+.requireItem("input",<growthcraft_rice:sakebottle:1>)
+.requireItem("added",<minecraft:nether_wart>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_sake_mash>)
+.requireFluid("outputFluid",<liquid:fluid_booze_sake_fermented>)
+.requireDuration("duration",15840);
+growth_ferment.addJEIRecipe(sake_a);
+
+var sake_b = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_rice:sakebottle:3>);
+})
+.requireItem("input",<growthcraft_rice:sakebottle:2>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_sake_fermented>)
+.requireFluid("outputFluid",<liquid:fluid_booze_sake_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(sake_b);
+
+var sake_c = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_rice:sakebottle:4>);
+})
+.requireItem("input",<growthcraft_rice:sakebottle:2>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_sake_fermented>)
+.requireFluid("outputFluid",<liquid:fluid_booze_sake_extended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(sake_c);
+
+var sake_d = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_rice:sakebottle:5>);
+})
+.requireItem("input",<growthcraft_rice:sakebottle:4>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_sake_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_sake_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(sake_d);
+
+var sake_e = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_rice:sakebottle:6>);
+})
+.requireItem("input",<growthcraft_rice:sakebottle:3>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_sake_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_sake_potent_extended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(sake_e);
+
+var sake_f = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_rice:sakebottle:9>);
+})
+.requireItem("input",<growthcraft_rice:sakebottle:6>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_sake_potent_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_sake_magical>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(sake_f);
+
+var ale_a = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:1>);
+})
+.requireItem("input",<growthcraft_hops:hopale>)
+.requireItem("added",<ore:yeastBrewers>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_unhopped>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_normal>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_a);
+
+var ale_b = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:1>);
+})
+.requireItem("input",<growthcraft_hops:hopale>)
+.requireItem("added",<minecraft:nether_wart>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_unhopped>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_normal>)
+.requireDuration("duration",15840);
+growth_ferment.addJEIRecipe(ale_b);
+
+var ale_c = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:2>);
+})
+.requireItem("input",<growthcraft_hops:hopale:1>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_normal>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_c);
+
+var ale_d = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:2>);
+})
+.requireItem("input",<growthcraft_hops:hopale:3>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_d);
+
+var ale_e = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:2>);
+})
+.requireItem("input",<growthcraft_hops:hopale:3>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_e);
+
+var ale_f = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:3>);
+})
+.requireItem("input",<growthcraft_hops:hopale:1>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_normal>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_extended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_f);
+
+var ale_g = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:3>);
+})
+.requireItem("input",<growthcraft_hops:hopale:2>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_extended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_g);
+
+var ale_h = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:5>);
+})
+.requireItem("input",<growthcraft_hops:hopale:2>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_h);
+
+var ale_i = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:5>);
+})
+.requireItem("input",<growthcraft_hops:hopale:3>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_i);
+
+var ale_j = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:6>);
+})
+.requireItem("input",<growthcraft_hops:hopale:5>)
+.requireItem("added",<ore:yeastLager>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_hyperextended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_lager>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_j);
+
+var ale_k = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:7>);
+})
+.requireItem("input",<growthcraft_hops:hopale:2>)
+.requireItem("added",<ore:yeastOrigin>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_intoxicated>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_k);
+
+var ale_l = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:hopale:7>);
+})
+.requireItem("input",<growthcraft_hops:hopale:3>)
+.requireItem("added",<ore:yeastOrigin>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_hopale_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_hopale_intoxicated>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(ale_l);
+
+var lager_a = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:1>);
+})
+.requireItem("input",<growthcraft_hops:lager>)
+.requireItem("added",<ore:yeastBrewers>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_young>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_normal>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_a);
+
+var lager_b = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:1>);
+})
+.requireItem("input",<growthcraft_hops:lager>)
+.requireItem("added",<minecraft:nether_wart>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_young>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_normal>)
+.requireDuration("duration",15840);
+growth_ferment.addJEIRecipe(lager_b);
+
+var lager_c = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:2>);
+})
+.requireItem("input",<growthcraft_hops:lager:1>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_normal>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_c);
+
+var lager_d = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:2>);
+})
+.requireItem("input",<growthcraft_hops:lager:3>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_d);
+
+var lager_e = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:3>);
+})
+.requireItem("input",<growthcraft_hops:lager:1>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_normal>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_extended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_e);
+
+var lager_f = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:4>);
+})
+.requireItem("input",<growthcraft_hops:lager:3>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_f);
+
+var lager_g = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:8>);
+})
+.requireItem("input",<growthcraft_hops:lager:7>)
+.requireItem("added",<ore:yeastEthereal>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_potentextended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_magical>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_g);
+
+var lager_h = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:5>);
+})
+.requireItem("input",<growthcraft_hops:lager:2>)
+.requireItem("added",<ore:yeastOrigin>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_intoxicated>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_h);
+
+var lager_i = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_hops:lager:5>);
+})
+.requireItem("input",<growthcraft_hops:lager:3>)
+.requireItem("added",<ore:yeastOrigin>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_lager_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_lager_intoxicated>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(lager_i);
+
+var kumis_a = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle>);
+})
+.requireItem("input",<minecraft:milk_bucket>)
+.requireItem("added",<minecraft:nether_wart>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_milk>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_fermented>)
+.requireDuration("duration",15840);
+growth_ferment.addJEIRecipe(kumis_a);
+
+var kumis_b = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle:1>);
+})
+.requireItem("input",<growthcraft_milk:kumisbottle>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_kumis_kumis_fermented>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_potent>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(kumis_b);
+
+var kumis_c = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle:2>);
+})
+.requireItem("input",<growthcraft_milk:kumisbottle>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_kumis_kumis_fermented>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_extended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(kumis_c);
+
+var kumis_d = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle:3>);
+})
+.requireItem("input",<growthcraft_milk:kumisbottle:2>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_kumis_kumis_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(kumis_d);
+
+var kumis_e = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle:3>);
+})
+.requireItem("input",<growthcraft_milk:kumisbottle:1>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_kumis_kumis_potent>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(kumis_e);
+
+var kumis_f = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle:5>);
+})
+.requireItem("input",<growthcraft_milk:kumisbottle:4>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_kumis_kumis_potent_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_potent_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(kumis_f);
+
+var kumis_g = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle:5>);
+})
+.requireItem("input",<growthcraft_milk:kumisbottle:4>)
+.requireItem("added",<ore:dustRedstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_kumis_kumis_potent_extended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_potent_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(kumis_g);
+
+var kumis_h = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<growthcraft_milk:kumisbottle:5>);
+})
+.requireItem("input",<growthcraft_milk:kumisbottle:3>)
+.requireItem("added",<ore:dustGlowstone>)
+.requireItem("barrel",<growthcraft_cellar:ferment_barrel>)
+.requireFluid("inputFluid",<liquid:fluid_booze_kumis_kumis_hyperextended>)
+.requireFluid("outputFluid",<liquid:fluid_booze_kumis_kumis_potent_hyperextended>)
+.requireDuration("duration",24000);
+growth_ferment.addJEIRecipe(kumis_h);

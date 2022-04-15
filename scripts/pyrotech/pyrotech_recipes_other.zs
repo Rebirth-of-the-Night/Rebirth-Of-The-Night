@@ -99,6 +99,7 @@ CompactingBin.addRecipe("rat_cheese_block", <rats:block_of_cheese>, <ore:foodChe
 CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <betterwithaddons:congealed>, 3, true);
 CompactingBin.addRecipe("modeling_refractory", <contenttweaker:modelingrefractory>, <contenttweaker:unfiredrefractory>, 4, true);
 CompactingBin.addRecipe("modeling_refractory1", <contenttweaker:modelingrefractory>, <pyrotech:material:4>, 16, true);
+CompactingBin.addRecipe("slag_heap", <pyrotech:pile_slag>, <pyrotech:slag>, 8, true);
 CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>, 4, true);
 CompactingBin.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9, true);
 

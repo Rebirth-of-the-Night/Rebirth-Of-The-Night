@@ -430,7 +430,7 @@ gui.pyrotech.jei.category.bloomery=Bloomery
 gui.pyrotech.jei.category.wither.forge=Wither Forge
 
 gui.pyrotech.jei.info.campfire=To make a campfire, place dried fibers on the ground, add logs, and light it.
-gui.pyrotech.jei.info.pit.kiln=To use a pit kiln, first dig a hole in the ground and place the pit kiln inside. Next, place the item you want to fire in the pit kiln, place a straw block, and place three logs on top. Finally, light the top of the kiln and be sure to keep it dry while it fires!
+gui.pyrotech.jei.info.pit.kiln=To use a pit kiln, first dig a hole in the ground and place the pit kiln inside. Next, place the item you want to fire in the pit kiln, place a hay bale block, and place three logs on top. Finally, light the top of the kiln and be sure to keep it dry while it fires!
 gui.pyrotech.jei.info.burn=To perform pit burning, place the blocks to burn in a pit and make sure all sides are covered with solid, non-flammable blocks, leaving one hole exposed. Light the blocks and quickly cover the hole. The entire contents must be covered with full, non-flammable blocks to succeed. When contents stop smoking, the burn is complete. To collect fluid from the burn, place collectors under the blocks.
 gui.pyrotech.jei.info.refractory=Refractory burning is similar to pit burning with the exception that the burning blocks must be fully covered with valid refractory blocks. To collect fluid from the burn, place a valid refractory collector under the blocks.
 

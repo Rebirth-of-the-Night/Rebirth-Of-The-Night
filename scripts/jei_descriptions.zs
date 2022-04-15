@@ -461,6 +461,7 @@ JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with the essence of t
 JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an extraterrestrial being. Contains the unstable powder used to concentrate and refine meteorite.");
 JEI.addDescription(<contenttweaker:ardicite>,"A naturally occurring form of pure hellfire that can host Onyx formations. It is a fiery material that can be found in the Nether in pockets of flammable sulfur.");
 JEI.addDescription(<contenttweaker:ofuda>,"An old sheet of paper with indecipherable writing on it. Often found hanging in places believed to have been highly dangerous or cursed, these were likely used as some sort of charm to ward off danger or ailment. Whoever made these are probably no longer around; these ofuda were probably a last ditch attempt at saving themselves from disaster... or a warning for whoever may stumble upon them in the future. It faintly glows by unknown methods.");
+JEI.addDescription(<betterwithaddons:ancestry_bottle>,"Spirits extracted from souls, little remains of the original entity. Keep a bottle in your inventory when killing paranormal undead to snatch the spirit before it returns to the spiritual realm.");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;

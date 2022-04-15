@@ -45,6 +45,26 @@ scab.setBlockSoundType(<soundtype:plant>);
 scab.setToolClass("none");
 scab.register();
 
+var koji_mold = VanillaFactory.createBlock("koji_mold", <blockmaterial:Grass>);
+koji_mold.axisAlignedBB = AxisAlignedBB.create(
+     0.0 / 16.0,
+     0.0 / 16.0,
+     0.0 / 16.0,
+	16.0 / 16.0,
+    0.1 / 16.0,
+    16.0 / 16.0
+	);
+koji_mold.setBlockHardness(3.5);
+koji_mold.setBlockResistance(2.0);
+koji_mold.setFullBlock(false);
+koji_mold.setPassable(true);
+koji_mold.setReplaceable(false);
+koji_mold.setLightOpacity(0);
+koji_mold.setBlockLayer("CUTOUT");
+koji_mold.setBlockSoundType(<soundtype:plant>);
+koji_mold.setToolClass("none");
+koji_mold.register();
+
 var cave_rafflesia = VanillaFactory.createBlock("cave_rafflesia", <blockmaterial:Grass>);
 cave_rafflesia.axisAlignedBB = AxisAlignedBB.create(
      3.0 / 16.0,

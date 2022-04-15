@@ -1,0 +1,34 @@
+{
+	"populate": {
+		"koji_mold": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:koji_mold",
+				"surface": [
+					"minecraft:grass",
+					"biomesoplenty:grass",
+					"minecraft:mycelium",
+					"aether_legacy:aether_grass"
+				],
+				"cluster-size": 6
+			},
+			"material": [
+				"minecraft:grass",
+				"biomesoplenty:grass",
+				"minecraft:mycelium",
+				"aether_legacy:aether_grass"
+			],
+			"cluster-count": 3,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					"biomesoplenty:cherry_blossom_grove",
+					"minecraft:mushroom_island",
+					"aether_legacy:aether_highlands"
+				]
+			}
+		}
+	}
+}

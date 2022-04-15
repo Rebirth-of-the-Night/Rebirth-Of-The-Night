@@ -233,6 +233,7 @@ JEI.addItem(<betterwithaddons:greatarrow>);
 
 val wicker = <betterwithmods:wicker>;
 val cloth = <harvestcraft:wovencottonitem>;
+val gcandle = <rustic:candle_gold>;
 
 //Tatami
 recipes.addShaped(<betterwithaddons:tatami> * 4, [
@@ -240,7 +241,7 @@ recipes.addShaped(<betterwithaddons:tatami> * 4, [
     [wicker, wicker, wicker]
 ]);
 
-var hollowReed = <ore:hollowReed>;
+val hollowReed = <ore:hollowReed>;
 
 recipes.addShaped("bwa_scaffold", <betterwithaddons:scaffold> * 6, [
     [hollowReed, wicker, hollowReed],
@@ -319,7 +320,20 @@ Infuser.addShaped(<betterwithaddons:greatarrow_lightning>*8,[
     [<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>,<betterwithaddons:greatarrow>]
 ], 0);
 
-Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 24);
+// Spirit charging
+Infuser.addShapeless(<cyclicmagic:wand_hypno>,
+[<cyclicmagic:wand_hypno>.anyDamage(),<contenttweaker:vis_sliver>], 64);
+
+Infuser.addShapeless(<spartancompat:katana_onyx>.withTag({"Quark:RuneColor": 0, ench: [{lvl: 5 as short, id: 25 as short}], RepairCost: 1, Quality: {}, display: {Name: "§4Unlabored §o§6Flawlessness"}, "Quark:RuneAttached": 1 as byte}),[<spartanweaponry:katana_wood>, <simpleores:onyx_rod>], 27);
+
+Infuser.removeAllTransmutation();
+Infuser.addTransmutation(<betternether:gray_mold>,<contenttweaker:koji_mold>, 1);
+Infuser.addTransmutation(<dynamictrees:oakseed>,<dynamictreesbop:whitecherryseed>, 1);
+Infuser.addTransmutation(<dynamictreesbop:orangeautumnseed>,<dynamictreesbop:whitecherryseed>, 1);
+Infuser.addTransmutation(<dynamictrees:darkoakseed>,<dynamictreesbop:pinkcherryseed>, 1);
+Infuser.addTransmutation(<dynamictreesbop:floweringoakseed>,<dynamictreesbop:pinkcherryseed>, 1);
+Infuser.addTransmutation(<minecraft:reeds>,<dynamictreesbop:bambooseed>, 1);
+Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
 //White stone
 furnace.addRecipe(<contenttweaker:brick_betterwithaddons_whitebrick>, <betterwithaddons:whitebrick:2>);

@@ -91,6 +91,15 @@ Dropt.list("codex_junk")
           .items([<villagenames:codex>])
       )
   );
+  
+Dropt.list("halite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:halite"])
+      .addDrop(Dropt.drop()
+          .items([<animania:salt>], Dropt.range(1, 3))
+      )
+  );
 
 Dropt.list("bop_honey_block")
 
