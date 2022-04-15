@@ -89,7 +89,11 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Ghastly Musketears"
+      "CustomName": "\u00A76Ghastly Musketears",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 10 }
+      ],
+      "Health": 10
     }
   },
   "firezombie.farmer": {

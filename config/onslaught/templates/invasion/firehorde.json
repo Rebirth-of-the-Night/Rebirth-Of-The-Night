@@ -245,11 +245,7 @@
                   "stepRadius": 4,
                   "sampleDistance": 2
                 }
-              }
-            ]
-          },
-          {
-            "mobs": [
+              },
               {
                 "id": "fireskel",
                 "count": [ 10, 12 ],
@@ -505,11 +501,7 @@
                   "stepRadius": 4,
                   "sampleDistance": 2
                 }
-              }
-            ]
-          },
-          {
-            "mobs": [
+              },
               {
                 "id": "firezombie",
                 "count": [ 8, 10 ],
@@ -575,7 +567,7 @@
             "mobs": [
               {
                 "id": "fireghast",
-                "count": [ 3 ],
+                "count": [ 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -584,9 +576,9 @@
                   ],
                   "rangeXZ": [
                     16,
-                    32
+                    16
                   ],
-                  "rangeY": 16,
+                  "rangeY": 8,
                   "stepRadius": 4,
                   "sampleDistance": 2
                 }
@@ -626,11 +618,7 @@
                   "stepRadius": 4,
                   "sampleDistance": 2
                 }
-              }
-            ]
-          },
-          {
-            "mobs": [
+              },
               {
                 "id": "firezombie",
                 "count": [ 8, 10 ],
@@ -733,6 +721,42 @@
               {
                 "id": "ember",
                 "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "firezombie.boss.cook",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "firezombie.boss.huntsman",
+                "count": [ 1 ],
                 "spawn": {
                   "type": "ground",
                   "light": [

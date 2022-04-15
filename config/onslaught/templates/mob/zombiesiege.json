@@ -1,6 +1,14 @@
 {
   "zombiesiege.grunt": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:strength",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Zombie Grunt",
       "HandItems": [
@@ -14,7 +22,7 @@
         { "Count": 1, "id": "dungeontactics:steel_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.movementSpeed", "Base": 0.35 },
         { "Name": "generic.maxHealth", "Base": 40 }
       ],
       "Health": 40,
@@ -22,7 +30,7 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "Lunge": { "Range": 2, "SpeedModifier": 0.5 }
+            "Lunge": { "Range": 3, "SpeedModifier": 0.5 }
           }
         }
       }
@@ -52,7 +60,7 @@
         { "Count": 1, "id": "dungeontactics:steel_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.movementSpeed", "Base": 0.35 },
         { "Name": "generic.maxHealth", "Base": 40 }
       ],
       "Health": 40,
@@ -84,7 +92,7 @@
         { "Count": 1, "id": "harvestcraft:candledeco13" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.movementSpeed", "Base": 0.35 },
         { "Name": "generic.maxHealth", "Base": 40 }
       ],
       "Health": 40,
@@ -94,7 +102,7 @@
           "CustomAI": {
             "CounterAttack": { "Chance": 0.5 },
             "ExplodeWhenStuck": { 
-              "RangeMax": 8,
+              "RangeMax": 12,
               "ExplosionStrength": 3      
             }
           }
