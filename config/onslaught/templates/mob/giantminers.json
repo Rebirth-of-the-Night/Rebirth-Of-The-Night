@@ -6,7 +6,7 @@
         "id": "minecraft:glowing",
         "duration": 50000,
         "amplifier": 0,
-        "showParticles": true
+        "showParticles": false
       },
       {
         "id": "minecraft:jump_boost",
@@ -17,13 +17,26 @@
       {
         "id": "minecraft:slowness",
         "duration": 50000,
-        "amplifier": 2,
+        "amplifier": 1,
         "showParticles": false
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Giant miner"
+      "CustomName": "\u00A76Giant miner",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 300 }
+      ],
+      "Health": 300
     },
-    "HandDropChances": [ 0.0, 0.0 ]
+    "HandDropChances": [ 0.0, 0.0 ],
+    "ForgeData": {
+      "Onslaught": {
+        "CustomAI": {
+          "OffscreenTeleport": { },
+          "CounterAttack": { "Chance": 0.3 },
+          "Lunge": { "Range": 4, "SpeedModifier": 0.5 }
+        }
+      }
+    }
   }
 }
