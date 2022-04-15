@@ -1,0 +1,100 @@
+{
+  "darkskies.stymph": {
+    "id": "iceandfire:stymphalianbird",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Stymphalian Bird"
+    }
+  },
+  "darkskies.ptera": {
+    "id": "mod_lavacow:ptera",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Ptera"
+    }
+  },
+  "darkskies.harpy": {
+    "id": "primitivemobs:harpy",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Harpy"
+    }
+  },
+  "darkskies.frost": {
+    "id": "netherex:frost",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Frost"
+    }
+  },
+  "darkskies.kelenk": {
+    "id": "aether_legacy:cockatrice",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Kelenk"
+    }
+  },
+  "darkskies.vespa": {
+    "id": "mod_lavacow:vespa",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Vespa"
+    }
+  },
+  "darkskies.bat": {
+    "id": "toroquest:toroquest_vampire_bat",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Invading Vampire Bat"
+    }
+  }
+}
