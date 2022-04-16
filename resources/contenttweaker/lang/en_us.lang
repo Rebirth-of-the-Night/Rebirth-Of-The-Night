@@ -593,3 +593,12 @@ fluid.milk=Milk
 fluid.residual_mythril=Arcane Mythril
 fluid.tannin=Tannin
 fluid.methanol=Wood Alcohol
+fluid.dread_cold=Dread Cold
+fluid.unstable_soulfire=Unstable Soulfire
+
+#------------------------------------------------------------------------------
+# Energy Items/Tiles
+#------------------------------------------------------------------------------
+
+item.contenttweaker.dread_slate.name=Dread Slate
+item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold

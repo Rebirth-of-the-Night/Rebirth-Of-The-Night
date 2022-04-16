@@ -17,3 +17,6 @@ dreadCold.register();
 
 val dreadSlate = VanillaFactory.createItem("dread_slate");
 dreadSlate.register();
+
+val condenseddreadCold = VanillaFactory.createItem("condensed_dread_cold");
+condenseddreadCold.register();

@@ -5,6 +5,8 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
+//Dryer Recipes
+
 val DryerItemInputs = [<pyrotech:material:12>, <minecraft:sponge:1>, <pyrotech:material:25>, <harvestcraft:vanillabeanitem>, <harvestcraft:juteitem>, <betterwithaddons:wet_soap>] as IItemStack[];
 val DryerItemOutputs = [<pyrotech:tinder>, <minecraft:sponge>, <minecraft:paper>, <harvestcraft:vanillaitem>, <pyrotech:material:2>, <betterwithmods:aesthetic:10>]  as IItemStack[];
 val DryerRecipeNames = ["dryer_fibers", "dryer_sponge", "dryer_paper", "dryer_vanilla", "dryer_jute", "dryer_soap"] as string[];
@@ -68,6 +70,7 @@ function addMachineRecipe(machine as string, recipeName as string, input as IIng
     rec.build();
 }
 
+// Mod Recipes
 val brassIngot = <ore:ingotBrass>;
 
 recipes.removeByMod("modularmachinery");
@@ -118,6 +121,11 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
     [<ore:StoneHugeBrick>, <minecraft:writable_book>, <contenttweaker:oak_boards>], 
     [null, <pyrotech:drying_rack:1>, null]
 ]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:powerhammer"}), [
+    [null, <minecraft:sticky_piston>, null],
+    [<aesthetics:iron_brick_stairs>, <minecraft:writable_book>, <aesthetics:iron_brick_stairs>], 
+    [null, <pyrotech:anvil_granite>, null]
+]);
 //recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pizzaoven"}), [
 //    [null, <ore:genericMetalBars>, null],
 //    [<contenttweaker:brick_minecraft_clay>, <minecraft:writable_book>, <contenttweaker:brick_minecraft_clay>], 
@@ -140,3 +148,15 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
     [brassIngot, <modularmachinery:blockfluidinputhatch>, brassIngot], 
     [null, <rustic:liquid_barrel>, null]
 ]);
+
+// Energy System
+var pyroReactor = RecipeBuilder.newBuilder("pyroreactor_power", "pyroreactor", 300);
+pyroReactor.addItemInput(<betterwithmods:urn:8>);
+pyroReactor.addItemOutput(<betterwithmods:urn>);
+pyroReactor.addFluidOutput(<contenttweaker:unstable_soulfire>*1000);
+pyroReactor.build();
+
+var galeChamber = RecipeBuilder.newBuilder("galechamber_power", "galechamber", 300);
+pyroReactor.addItemInput(<contenttweaker:dread_slate>);
+pyroReactor.addFluidOutput(<contenttweaker:dread_cold>*1000);
+pyroReactor.build();

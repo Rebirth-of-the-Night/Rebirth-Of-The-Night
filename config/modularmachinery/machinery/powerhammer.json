@@ -102,5 +102,13 @@
             "elements": [
                 "minecraft:sticky_piston"
             ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
         }
     ]}
