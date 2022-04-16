@@ -22,7 +22,6 @@ val mats as string[] = [
 ] as string[];
 
 var hiddenItems as string[] = [
-    "filter",
     "vacuum_bag",
     "vacuum_tube",
     "respirator"
@@ -33,3 +32,6 @@ for mat in mats {
         JEI.removeAndHide(itemUtils.getItem("adpother:"~mat~"_"~item));
     }
 }
+
+JEI.removeAndHide(<adpother:diamond_filter>);
+JEI.removeAndHide(<adpother:gold_filter>);

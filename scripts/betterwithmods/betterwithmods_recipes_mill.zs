@@ -157,3 +157,10 @@ Mill.builder()
 .buildRecipe([<contenttweaker:limestone_cobble>], [<pyrotech:material:8>*3])
 .setPriority(3)
 .build();
+
+// Dread Slate Processing
+Mill.builder()
+.buildRecipe([<contenttweaker:raw_dread_slate>], [<adpother:mist>])
+.setPriority(8)
+.setGrindType("minecraft:entity.lightning.thunder")
+.build();

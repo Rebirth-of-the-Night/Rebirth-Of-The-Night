@@ -95,5 +95,31 @@
         "netherex:lively_netherrack",
         "netherex:gloomy_netherrack",
         "netherex:fiery_netherrack"
+    ],
+    "refractoryBlock": [
+        "minecraft:nether_brick",
+        "netherex:gloomy_nether_brick",
+        "netherex:lively_nether_brick",
+        "netherex:fiery_nether_brick",
+        "netherex:icy_nether_brick",
+        "netherex:basalt_brick",
+        "contenttweaker:brick_pyrotech_refractory",
+        "contenttweaker:refracotta",
+        "contenttweaker:refracotta_green",
+        "contenttweaker:refracotta_light_gray",
+        "contenttweaker:refracotta_light_blue",
+        "contenttweaker:refracotta_yellow",
+        "contenttweaker:refracotta_cyan",
+        "contenttweaker:refracotta_purple",
+        "contenttweaker:refracotta_pink",
+        "contenttweaker:refracotta_brown",
+        "contenttweaker:refracotta_magenta",
+        "contenttweaker:refracotta_lime",
+        "contenttweaker:refracotta_white",
+        "contenttweaker:refracotta_black",
+        "contenttweaker:refracotta_red",
+        "contenttweaker:refracotta_orange",
+        "contenttweaker:refracotta_blue",
+        "contenttweaker:refracotta_gray"
     ]
 }

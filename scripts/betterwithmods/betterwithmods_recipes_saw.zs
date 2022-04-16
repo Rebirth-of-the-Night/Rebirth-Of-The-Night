@@ -75,4 +75,4 @@ for i, plank in PlanksList {
 }
 
 // Cutting Purple Slate
-Saw.add(<earthworks:block_slate_purple>, <contenttweaker:raw_dread_slate>);
+Saw.add(<earthworks:block_slate>, [<contenttweaker:raw_dread_slate>]);

@@ -157,7 +157,7 @@ pyroReactor.addFluidOutput(<liquid:unstable_soulfire>*1000);
 pyroReactor.build();
 
 var galeChamber1 = RecipeBuilder.newBuilder("galechamber_power1", "galechamber", 300);
-galeChamber1.addItemInput(<contenttweaker:polished_dread_slate>);
+galeChamber1.addItemInput(<adpother:mist>);
 galeChamber1.addFluidOutput(<liquid:dread_cold>*1000);
 galeChamber1.build();
 
@@ -174,7 +174,7 @@ recipes.addShaped(<pollutantpump:pump>, [
     [<ore:genericMetal>, <advancedliftingmethods:rotor>, <ore:genericMetal>]
 ]);
 
-recipes.addShaped(<pollutantpump:pump_pipe>*4, [
+recipes.addShaped(<pollutantpump:pipe>*4, [
     [null, <ore:genericMetal>, null],
     [<ore:genericMetal>, null, <ore:genericMetal>], 
     [null, <ore:genericMetal>, null]

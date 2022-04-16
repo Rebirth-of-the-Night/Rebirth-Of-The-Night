@@ -51,8 +51,9 @@ Enchanter.removeEnchantment(<aether_legacy:gravitite_ore>);
 Enchanter.registerEnchantment(<ore:rawOreGravitite>.firstItem, <ore:ingotGravitite>.firstItem, 200);
 
 //Aether Enchanter
-Enchanter.registerEnchanterFuel(elec,2400);
-Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,480);
+Enchanter.registerEnchanterFuel(elec,1200);
+Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,240);
+Enchanter.registerEnchanterFuel(<contenttweaker:material_part:13>,3000);
 
 //Misc.
 Enchanter.registerEnchantment(<harvestersnight:harvester_scythe>, 8800);

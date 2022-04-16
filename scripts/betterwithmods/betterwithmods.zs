@@ -138,7 +138,6 @@ Turntable.add(<betterwithmods:unfired_pottery:3>, <betterwithmods:unfired_potter
 Turntable.add(<contenttweaker:modelingrefractory>, <contenttweaker:crucible>, [<pyrotech:material:4>*4]);
 Turntable.add(<contenttweaker:crucible>, <ceramics:clay_barrel_unfired>, [<pyrotech:material:4>*4]);
 Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, [<pyrotech:material:4>*4]);
-Turntable.add(<contenttweaker:raw_dread_slate>, null, [<contenttweaker:polished_dread_slate>]);
 
 recipes.addShaped("hardened_nether_sludge", <betterwithmods:aesthetic:2>, [
     [<betterwithmods:nether_clay>, <betterwithmods:nether_clay>],
