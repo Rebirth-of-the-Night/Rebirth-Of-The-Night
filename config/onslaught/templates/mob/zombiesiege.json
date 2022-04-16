@@ -52,7 +52,7 @@
         { "Count": 1, "id": "atop:peridot_pickaxe" },
         { "Count": 1, "id": "minecraft:torch" }
       ],
-      "HandDropChances": [ 0.0, 1.0 ],
+      "HandDropChances": [ 0.0, 0.0 ],
       "ArmorItems": [
         {  },
         {  },

@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["enteredTwilightForest"]
       },
-      "weight": 100,
+      "weight": 128,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
@@ -12,10 +12,10 @@
     },
     "commands": {
       "start": [
-        "/weather rain"
+        "/weather clear"
       ],
       "end": [
-        "/weather clear",
+        "/weather rain",
         "/give @p twilightforest:giant_pickaxe",
         "/give @p twilightforest:giant_sword",
         "/xp 1000 @p"

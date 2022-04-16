@@ -221,17 +221,17 @@
   },
 
 //lantern
-    {
-    "dimension": 10,
-    "mobs": [
-      {
-        "mob": "mowziesmobs:lantern",
-        "weight": 50,
-        "groupcountmin": 1,
-        "groupcountmax": 7
-      }
-    ]
-  },
+//    {
+//    "dimension": 10,
+//    "mobs": [
+//      {
+//        "mob": "mowziesmobs:lantern",
+//        "weight": 50,
+//        "groupcountmin": 1,
+//        "groupcountmax": 7
+//      }
+//    ]
+//  },
   
  //grottol
     {

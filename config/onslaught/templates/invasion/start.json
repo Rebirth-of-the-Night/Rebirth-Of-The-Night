@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["start"]
       },
-      "weight": 100,
+      "weight": 2,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]

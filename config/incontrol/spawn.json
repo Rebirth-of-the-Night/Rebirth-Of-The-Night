@@ -442,7 +442,7 @@
 
 /// MowziesMobs Beneath spawn cap
  // lantern
-{
+ {
    "dimension": 10,
   "mob": "mowziesmobs:lantern",
   "maxlight": 4,
@@ -455,12 +455,12 @@
         "perplayer": true
     },
   "result": "allow"
-},
-{
-  "dimension": 10,
-  "mob": "mowziesmobs:lantern",
-  "result": "deny"
-},
+ },
+ {
+    "dimension": 10,
+    "mob": "mowziesmobs:lantern",
+    "result": "deny"
+ },
 
 {
    "dimension": 10,

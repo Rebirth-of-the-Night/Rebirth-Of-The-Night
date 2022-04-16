@@ -1,10 +1,10 @@
 {
-  "fireundead": {
+  "darkskies": {
     "selector": {
       "gamestages": {
-        "and": ["enteredNether"]
+        "and": ["enteredAether"]
       },
-      "weight": 8,
+      "weight": 16,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
@@ -12,21 +12,22 @@
     },
     "commands": {
       "start": [
-        "/weather clear"
+        "/weather clear",
+        "/gamerule doFireTick false"
       ],
       "end": [
-        "/weather rain",
-        "/xp 200 @p",
-        "/give @p betterwithmods:urn 4 8"
+        "/xp 600 @p",
+        "/give @p spartanweaponry:arrow_diamond 32",
+        "/gamerule doFireTick true"
       ]
     },
-    "name": "Fiery Horde",
+    "name": "Darkened Skies",
     "messages": {
-      "start": "\u00A7cThe burning undead horde is invading!",
-      "end": "\u00A7aThe blazing horde has been stopped ... for now",
+      "start": "\u00A7cHorrid screeches can be heard as terrifying creatures take to the sky!",
+      "end": "\u00A7aThe flying scourges have been beaten back!",
       "warn": {
-        "ticks": 48000,
-        "message": "\u00A7eThe faint smell of burnt flesh hangs in the air..."
+        "ticks": 12000,
+        "message": "\u00A7eThe skies darken, but you smell no rain on the horizon..."
       }
     },
     "waves": [
@@ -36,16 +37,16 @@
           {
             "mobs": [
               {
-                "id": "firezombie",
+                "id": "darkskies.frost",
                 "count": [ 10, 12 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -54,52 +55,16 @@
                 }
               },
               {
-                "id": "firezombie.miner",
-                "count": [ 4, 5 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "ember",
-                "count": [ 3, 4 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.farmer",
+                "id": "darkskies.bat",
                 "count": [ 6, 8 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -108,16 +73,34 @@
                 }
               },
               {
-                "id": "firezombie.loot",
-                "count": [ 3, 4 ],
+                "id": "darkskies.ptera",
+                "count": [ 2, 3 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -135,17 +118,17 @@
           {
             "mobs": [
               {
-                "id": "firezombie.bomber",
-                "count": [ 3, 5 ],
+                "id": "darkskies.bat",
+                "count": [ 16, 18 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
-                    7
+                    15
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    16
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
@@ -153,74 +136,16 @@
                 }
               },
               {
-                "id": "firezombie",
-                "count": [ 8, 12 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.miner",
-                "count": [ 3, 4 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "ember",
+                "id": "darkskies.ptera",
                 "count": [ 2, 3 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              }
-            ]
-          },
-          {
-            "mobs": [
-              {
-                "id": "firezombie.stalker",
-                "count": [ 5, 7 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -229,124 +154,16 @@
                 }
               },
               {
-                "id": "firezombie",
-                "count": [ 8, 12 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.miner",
+                "id": "darkskies.harpy",
                 "count": [ 3, 4 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "ember",
-                "count": [ 2, 3 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "fireskel",
-                "count": [ 10, 12 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.stalker",
-                "count": [ 8, 10 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.bomber",
-                "count": [ 3, 4 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.farmer",
-                "count": [ 2, 3 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -364,10 +181,64 @@
           {
             "mobs": [
               {
-                "id": "firezombie.boss.huntsman",
-                "count": [ 1 ],
+                "id": "darkskies.frost",
+                "count": [ 6, 8 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.bat",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.ptera",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.vespa",
+                "count": [ 3 ],
+                "spawn": {
+                  "type": "air",
                   "light": [
                     0,
                     7
@@ -382,92 +253,16 @@
                 }
               },
               {
-                "id": "ember",
+                "id": "darkskies.harpy",
                 "count": [ 3, 4 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "fireskel",
-                "count": [ 5, 7 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              }
-            ]
-          },
-          {
-            "mobs": [
-              {
-                "id": "firezombie",
-                "count": [ 8, 10 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.miner",
-                "count": [ 3, 4 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.bomber",
-                "count": [ 2, 3 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -485,88 +280,16 @@
           {
             "mobs": [
               {
-                "id": "firezombie.boss.cook",
-                "count": [ 1 ],
+                "id": "darkskies.ptera",
+                "count": [ 12, 14 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "ember",
-                "count": [ 2, 3 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "fireskel",
-                "count": [ 5, 7 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.stalker",
-                "count": [ 8, 10 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.farmer",
-                "count": [ 3, 4 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -584,64 +307,28 @@
           {
             "mobs": [
               {
-                "id": "fireskel.boss.slimed",
-                "count": [ 1 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "ember",
-                "count": [ 2, 3 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "fireskel",
-                "count": [ 5, 7 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie",
+                "id": "darkskies.ptera",
                 "count": [ 8, 10 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.vespa",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "air",
                   "light": [
                     0,
                     7
@@ -656,34 +343,16 @@
                 }
               },
               {
-                "id": "firezombie.miner",
+                "id": "darkskies.harpy",
                 "count": [ 3, 4 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.stalker",
-                "count": [ 3, 4 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -701,8 +370,26 @@
           {
             "mobs": [
               {
-                "id": "fireghast",
-                "count": [ 2 ],
+                "id": "darkskies.ptera",
+                "count": [ 2, 3 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.skydrake",
+                "count": [ 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -711,6 +398,24 @@
                   ],
                   "rangeXZ": [
                     16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.frost",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
                     16
                   ],
                   "rangeY": 8,
@@ -719,82 +424,37 @@
                 }
               },
               {
-                "id": "ember",
-                "count": [ 2, 3 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "fireskel",
-                "count": [ 5, 7 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.loot",
-                "count": [ 8, 10 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
-                "id": "firezombie.miner",
+                "id": "darkskies.harpy",
                 "count": [ 3, 4 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
                   "sampleDistance": 2
                 }
-              },
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 10800, 11100 ],
+        "groups": [
+          {
+            "mobs": [
               {
-                "id": "firezombie.bomber",
-                "count": [ 2, 3 ],
+                "id": "darkskies.skydrake",
+                "count": [ 6 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
@@ -813,21 +473,21 @@
         ]
       },
       {
-        "delayTicks": [ 10800, 11100 ],
+        "delayTicks": [ 12600, 12900 ],
         "groups": [
           {
             "mobs": [
               {
-                "id": "firezombie",
-                "count": [ 16, 20 ],
+                "id": "darkskies.ptera",
+                "count": [ 12, 14 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -836,16 +496,70 @@
                 }
               },
               {
-                "id": "firezombie.miner",
+                "id": "darkskies.bat",
                 "count": [ 6, 8 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 14400, 14700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.ptera",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 16200, 16500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.vespa",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -854,16 +568,61 @@
                 }
               },
               {
-                "id": "ember",
+                "id": "darkskies.bat",
                 "count": [ 3, 4 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 18000, 18300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.vespa",
+                "count": [ 2, 3 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -872,16 +631,34 @@
                 }
               },
               {
-                "id": "firezombie.boss.cook",
-                "count": [ 1 ],
+                "id": "darkskies.bat",
+                "count": [ 3, 4 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -890,16 +667,16 @@
                 }
               },
               {
-                "id": "firezombie.boss.huntsman",
-                "count": [ 1 ],
+                "id": "darkskies.ptera",
+                "count": [ 6, 8 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
                     32
                   ],
                   "rangeY": 8,
@@ -908,16 +685,34 @@
                 }
               },
               {
-                "id": "fireskel.boss.slimed",
-                "count": [ 1 ],
+                "id": "darkskies.frost",
+                "count": [ 4, 5 ],
                 "spawn": {
-                  "type": "ground",
+                  "type": "air",
                   "light": [
                     0,
                     7
                   ],
                   "rangeXZ": [
-                    16,
+                    8,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "darkskies.skydrake",
+                "count": [ 3 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
                     32
                   ],
                   "rangeY": 8,
