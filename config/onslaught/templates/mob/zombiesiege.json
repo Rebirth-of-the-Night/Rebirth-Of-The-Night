@@ -7,6 +7,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -44,6 +50,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -79,6 +91,20 @@
   },
   "zombiesiege.bomber": {
     "id": "minecraft:zombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": true
+      }
+    ],
     "nbt": {
       "CustomName": "\u00A76Zombie Siegebreaker",
       "HandItems": [
@@ -102,8 +128,11 @@
           "CustomAI": {
             "CounterAttack": { "Chance": 0.5 },
             "ExplodeWhenStuck": { 
-              "RangeMax": 12,
-              "ExplosionStrength": 3      
+              "RangeMax": 8,
+              "ExplosionStrength": 4,
+              "Priority": 100,
+              "ExplosionDelayTicks": 1,
+              "ExplosionCausesFire": false   
             }
           }
         }

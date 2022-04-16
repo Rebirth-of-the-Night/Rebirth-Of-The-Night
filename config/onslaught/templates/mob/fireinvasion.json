@@ -204,6 +204,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "minecraft:speed",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -222,7 +228,13 @@
         "Onslaught": {
           "CustomAI": {
             "CounterAttack": { "Chance": 0.5 },
-            "ExplodeWhenStuck": { }
+            "ExplodeWhenStuck": { 
+              "RangeMax": 6,
+              "ExplosionStrength": 2,
+              "Priority": 100,
+              "ExplosionDelayTicks": 1,
+              "ExplosionCausesFire": false  
+            }
           }
         }
       }

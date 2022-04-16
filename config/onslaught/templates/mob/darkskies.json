@@ -55,6 +55,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": true
       }
     ],
     "nbt": {
@@ -69,6 +75,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": true
       }
     ],
     "nbt": {
@@ -97,6 +109,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": true
       }
     ],
     "nbt": {
@@ -111,14 +129,20 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": true
       }
     ],
     "nbt": {
       "CustomName": "\u00A76Beefy Skydrake",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 250 }
+        { "Name": "generic.maxHealth", "Base": 200 }
       ],
-      "Health": 250
+      "Health": 200
     }
   },
   "darkskies.bat": {
@@ -135,6 +159,12 @@
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": true
       }
     ],
     "nbt": {
