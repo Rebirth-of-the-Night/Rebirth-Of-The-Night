@@ -10,7 +10,7 @@ unstableSoulfire.temperature = 1300;
 unstableSoulfire.viscosity = 9999999999999999;
 unstableSoulfire.register();
 
-var dreadCold = VanillaFactory.createFluid("dread_cold", Color.fromHex("7393B3"));
+var dreadCold = VanillaFactory.createFluid("dread_cold", Color.fromHex("C9FFE5"));
 dreadCold.temperature = 100;
 dreadCold.viscosity = 9999999999999999;
 dreadCold.register();

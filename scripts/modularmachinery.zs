@@ -153,10 +153,35 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
 var pyroReactor = RecipeBuilder.newBuilder("pyroreactor_power", "pyroreactor", 300);
 pyroReactor.addItemInput(<betterwithmods:urn:8>);
 pyroReactor.addItemOutput(<betterwithmods:urn>);
-pyroReactor.addFluidOutput(<contenttweaker:unstable_soulfire>*1000);
+pyroReactor.addFluidOutput(<liquid:unstable_soulfire>*1000);
 pyroReactor.build();
 
-var galeChamber = RecipeBuilder.newBuilder("galechamber_power", "galechamber", 300);
-pyroReactor.addItemInput(<contenttweaker:dread_slate>);
-pyroReactor.addFluidOutput(<contenttweaker:dread_cold>*1000);
-pyroReactor.build();
+var galeChamber1 = RecipeBuilder.newBuilder("galechamber_power", "galechamber", 300);
+galeChamber1.addItemInput(<contenttweaker:dread_slate>);
+galeChamber1.addFluidOutput(<liquid:dread_cold>*1000);
+galeChamber1.build();
+
+var galeChamber2 = RecipeBuilder.newBuilder("galechamber_power", "galechamber", 300);
+galeChamber2.addItemInput(<contenttweaker:condensed_dread_cold>);
+galeChamber2.addFluidOutput(<liquid:dread_cold>*4000);
+galeChamber2.build();
+
+recipes.removeByMod("pollutantpump");
+
+recipes.addShaped(<pollutantpump:pump>, [
+    [<ore:genericMetal>, <advancedliftingmethods:rotor>, <ore:genericMetal>],
+    [<ore:genericMetal>, <pyrotech:material:36>, <ore:genericMetal>], 
+    [<ore:genericMetal>, <advancedliftingmethods:rotor>, <ore:genericMetal>]
+]);
+
+recipes.addShaped(<pollutantpump:pump_pipe>*4, [
+    [null, <ore:genericMetal>, null],
+    [<ore:genericMetal>, null, <ore:genericMetal>], 
+    [null, <ore:genericMetal>, null]
+]);
+
+recipes.addShaped(<adpother:iron_filter>, [
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <ore:genericMetalBars>, <minecraft:iron_ingot>], 
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
