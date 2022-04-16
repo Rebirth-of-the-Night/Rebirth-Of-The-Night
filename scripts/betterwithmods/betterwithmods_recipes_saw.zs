@@ -73,3 +73,6 @@ val DebarkedLogsList = [<hitwithaxe:debarked_acacia>, <hitwithaxe:debarked_birch
 for i, plank in PlanksList {
     Saw.add(DebarkedLogsList[i], [PlanksList[i]*5, <pyrotech:rock:7>*2]);
 }
+
+// Cutting Dreadstone
+Saw.add(<iceandfire:dread_stone>, <contenttweaker:raw_dread_slate>);

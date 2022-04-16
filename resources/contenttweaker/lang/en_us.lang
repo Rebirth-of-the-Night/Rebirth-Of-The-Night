@@ -600,5 +600,5 @@ fluid.unstable_soulfire=Unstable Soulfire
 # Energy Items/Tiles
 #------------------------------------------------------------------------------
 
-item.contenttweaker.dread_slate.name=Dread Slate
+item.contenttweaker.polished_dread_slate.name=Polished Dread Slate
 item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
