@@ -1,7 +1,7 @@
 {
     "registryname": "dryer",
     "localizedname": "Dryer",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "modifiers": [
         {
             "elements": "betternether:cincinnasite_bars",

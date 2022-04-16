@@ -1,0 +1,106 @@
+{
+    "registryname": "powerhammer",
+    "localizedname": "Power Hammer",
+    "requires-blueprint": true,
+    "modifiers": [
+        {
+            "elements": "betterwithmods:steel_block",
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "description": "Replace the iron block with a SFS block\nfor 50% faster processing!",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.667
+            }
+        },
+        {
+            "elements": "pyrotech:anvil_iron_plated",
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "description": "Replace the stone anvil with a SFS anvil\nfor 50% faster processing!",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.667
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": [1,-1],
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "pyrotech:anvil_granite"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block"
+            ]
+        },
+        {
+            "x": [-1,1],
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:sticky_piston"
+            ]
+        }
+    ]}
