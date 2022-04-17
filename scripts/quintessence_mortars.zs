@@ -480,6 +480,7 @@ val strengthQuintessenceB = <ore:strengthQuintessenceB>;
 strengthQuintessenceB.add(
     <betterwithmods:material>,
     <dungeontactics:steel_ingot>,
+	<contenttweaker:material_part:49>,
     <iceandfire:dragonsteel_fire_ingot>,
     <iceandfire:dragonsteel_ice_ingot>,
     <simpleores:onyx_gem>,

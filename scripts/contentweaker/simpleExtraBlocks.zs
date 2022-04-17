@@ -279,6 +279,11 @@ var raw_iron = VanillaFactory.createBlock("raw_iron_block", <blockmaterial:Iron>
 raw_iron.setCreativeTab(<creativetab:rotn_blocks>);
 raw_iron.register();
 
+// raw_wrought_iron
+var raw_wrought_iron = VanillaFactory.createBlock("raw_wrought_iron", <blockmaterial:Iron>);
+raw_wrought_iron.setCreativeTab(<creativetab:rotn_blocks>);
+raw_wrought_iron.register();
+
 // raw_silver
 var raw_silver = VanillaFactory.createBlock("raw_silver_block", <blockmaterial:Iron>);
 raw_silver.setCreativeTab(<creativetab:rotn_blocks>);

@@ -27,6 +27,8 @@ var steelGear = <pyrotech:cog_bone>;
 var sfsNugget = <ore:nuggetSoulforgedSteel>;
 var sfsIngot = <ore:ingotSoulforgedSteel>;
 
+Anvil.removeShaped(<betterwithaddons:wrought_bars>);
+
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.addShaped(<betterwithmods:steel_axle>, [
    [null, null, cSteelNugget, steelGear],

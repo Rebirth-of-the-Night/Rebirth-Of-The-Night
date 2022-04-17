@@ -293,10 +293,15 @@ recipes.addShaped(<betterwithaddons:aqueduct:1> * 6, [
 
 //Misc.
 recipes.addShapeless(<betterwithaddons:lattice> * 4, [<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>]);
-recipes.addShaped(<betterwithaddons:wrought_bars> * 6, [
+recipes.addShaped(<betterwithaddons:wrought_bars> * 16, [
     [null, null, null],
-    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
-    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]
+    [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>],
+    [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]
+]);
+recipes.addShaped(<betterwithaddons:wrought_lamp>, [
+    [<ore:nuggetWroughtIron>, <iceandfire:chain_link>, <ore:nuggetWroughtIron>],
+    [<ore:nuggetWroughtIron>, <pyrotech:tinder>, <ore:nuggetWroughtIron>],
+    [<ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>]
 ]);
 
 // Spirit potion. This is TEMPORARY until we can find a way to spawn spirits at night.

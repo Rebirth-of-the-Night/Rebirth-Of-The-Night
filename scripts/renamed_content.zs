@@ -300,7 +300,7 @@ for potion in potionMap{
 <spartanweaponry:crossbow_wood>.addTooltip(format.darkPurple("Epic Weapon"));
 
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<mowziesmobs:wrought_axe:*>.displayName = "§5Wrought Axe";
+<mowziesmobs:wrought_axe:*>.displayName = "§5Ferrought Axe";
 <mowziesmobs:wrought_axe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
 <mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));

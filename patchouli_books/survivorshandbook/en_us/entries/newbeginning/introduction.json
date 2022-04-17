@@ -115,7 +115,7 @@
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)Navigating the guidebook should be mostly self-explanatory; not sure how else you'd be reading all this! To touch base:$(br2)The arrows on the bottom left and right flip through entry pages in their respective directions. The middle arrow will take you out of the entry you're in (shift-clicking takes you to the home page). The little plus on the top right will bookmark the entry you're currently reading.$()"
+      "text": "$(italics)$(#a84b0f)Navigating the guidebook is simple:$(br2)The arrows on the bottom left and right flip through entry pages in their respective directions. The middle arrow will take you out of the entry you're in (shift-clicking takes you to the home page). The little plus on the top right will bookmark the entry you're currently reading. You can search entries by going to the entry index and typing.$()"
     },
     {
       "type": "text",

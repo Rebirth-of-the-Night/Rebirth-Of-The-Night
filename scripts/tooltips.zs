@@ -251,9 +251,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <undergroundbiomes:igneous_stone:*>.addTooltip("Very slow to break.");
 <undergroundbiomes:igneous_cobble:*>.addTooltip("Igneous stone formed from cooled magma.");
 <undergroundbiomes:igneous_cobble:*>.addTooltip("Very slow to break.");
-<minecraft:stone:0>.addTooltip("Igneous stone formed from the interaction of water and lava."); //vanilla (coade) stone
+<minecraft:stone:0>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) stone
 <minecraft:stone:0>.addTooltip("Slow to break.");
-<minecraft:cobblestone>.addTooltip("Igneous stone formed from the interaction of water and lava."); //vanilla (coade) cobblestone
+<minecraft:cobblestone>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) cobblestone
 <minecraft:cobblestone>.addTooltip("Slow to break.");
 // Metamorphic
 <undergroundbiomes:metamorphic_stone:*>.addTooltip("Metamorphic stone formed under high pressures.");
@@ -275,24 +275,38 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <iceandfire:frozen_cobblestone>.addTooltip("Metamorphic stone formed by sustained cold.");
 <iceandfire:frozen_cobblestone>.addTooltip("Slow to break.");
 // Sedimentary
-<undergroundbiomes:sedimentary_stone:*>.addTooltip("Sedimentary stone formed by erosion.");
-<undergroundbiomes:sedimentary_stone:*>.addTooltip("Quick to break.");
-<contenttweaker:dolomite_cobble>.addTooltip("Sedimentary stone formed by erosion.");
-<contenttweaker:dolomite_cobble>.addTooltip("Quick to break.");
-<contenttweaker:greywacke_cobble>.addTooltip("Sedimentary stone formed by erosion.");
-<contenttweaker:greywacke_cobble>.addTooltip("Quick to break.");
-<contenttweaker:chalk_cobble>.addTooltip("Sedimentary stone formed by erosion.");
-<contenttweaker:chalk_cobble>.addTooltip("Quick to break.");
-<contenttweaker:shale_cobble>.addTooltip("Sedimentary stone formed by erosion.");
-<contenttweaker:shale_cobble>.addTooltip("Quick to break.");
-<contenttweaker:chert_cobble>.addTooltip("Sedimentary stone formed by erosion.");
-<contenttweaker:chert_cobble>.addTooltip("Quick to break.");
-<contenttweaker:siltstone_cobble>.addTooltip("Sedimentary stone formed by erosion.");
-<contenttweaker:siltstone_cobble>.addTooltip("Quick to break.");
-<contenttweaker:lignite_cobble>.addTooltip("Sedimentary stone formed by erosion.");
-<contenttweaker:lignite_cobble>.addTooltip("Quick to break.");
 <contenttweaker:limestone_cobble>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:limestone_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone>.addTooltip("Quick to break.");
+<contenttweaker:dolomite_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:dolomite_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:5>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:5>.addTooltip("Quick to break.");
+<contenttweaker:greywacke_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:greywacke_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:6>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:6>.addTooltip("Quick to break.");
+<contenttweaker:chalk_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:chalk_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:1>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:1>.addTooltip("Quick to break.");
+<contenttweaker:shale_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:shale_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:2>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:2>.addTooltip("Quick to break.");
+<contenttweaker:chert_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:chert_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:7>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:7>.addTooltip("Quick to break.");
+<contenttweaker:siltstone_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:siltstone_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:3>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:3>.addTooltip("Quick to break.");
+<contenttweaker:lignite_cobble>.addTooltip("Sedimentary and combustible stone formed by naturally compressed peat.");
+<contenttweaker:lignite_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:4>.addTooltip("Sedimentary and combustible stone formed by naturally compressed peat.");
+<undergroundbiomes:sedimentary_stone:4>.addTooltip("Quick to break.");
 <minecraft:end_stone>.addTooltip("Sedimentary stone formed by end particles.");
 <minecraft:end_stone>.addTooltip("Quick to break.");
 

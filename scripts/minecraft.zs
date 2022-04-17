@@ -90,6 +90,7 @@ furnace.addRecipe(<iceandfire:silver_ingot>, <contenttweaker:raw_silver>);
 furnace.addRecipe(<minecraft:gold_ingot>, <contenttweaker:raw_gold>);
 furnace.addRecipe(<simpleores:adamantium_ingot>, <contenttweaker:raw_viridium>);
 furnace.addRecipe(<simpleores:mythril_ingot>, <contenttweaker:raw_mythril>);
+furnace.addRecipe(<contenttweaker:material_part:49>, <contenttweaker:material_part:52>); //wrought iron
 var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_tin_block> : <contenttweaker:raw_tin>,
   <contenttweaker:raw_copper_block> : <contenttweaker:raw_copper>,
@@ -97,7 +98,8 @@ var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_silver_block> : <contenttweaker:raw_silver>,
   <contenttweaker:raw_gold_block> : <contenttweaker:raw_gold>,
   <contenttweaker:raw_viridium_block> : <contenttweaker:raw_viridium>,
-  <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>
+  <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>,
+  <contenttweaker:material_part:49> : <contenttweaker:material_part:52> //wrought iron
 } as IItemStack[IItemStack];
 
 // sedimentary cobble to smooth stones (feel like this isn't the best place to put these but idk where else)
@@ -305,6 +307,12 @@ rawOreViridium.add(<contenttweaker:raw_viridium>);
 
 val rawOreMythril = <ore:rawOreMythril>;
 rawOreMythril.add(<contenttweaker:raw_mythril>);
+
+val rawOreWrought = <ore:rawOreWrought>;
+rawOreWrought.add(<contenttweaker:material_part:52>);
+
+val ironIngot = <ore:ingotIron>;
+ironIngot.add(<contenttweaker:material_part:49>);
 
 
 val buckets = <ore:bucket>;
@@ -1373,6 +1381,7 @@ genericMetal.addAll(<ore:ingotIron>);
 genericMetal.addAll(<ore:ingotBronze>);
 genericMetal.addAll(<ore:ingotSilver>);
 genericMetal.addAll(<ore:ingotSteel>);
+genericMetal.addAll(<ore:ingotWroughtIron>);
 
 val wolfCape = <ore:wolfCape>;
 wolfCape.addItems([<betteranimalsplus:wolf_cape_classic>,<betteranimalsplus:wolf_cape_timber>,<betteranimalsplus:wolf_cape_black>,<betteranimalsplus:wolf_cape_arctic>,<betteranimalsplus:wolf_cape_red>,<betteranimalsplus:wolf_cape_brown>]);
@@ -1843,15 +1852,6 @@ recipes.addShapeless("lunarin_iron", <villagenames:lunarinironbrick>*24,
 recipes.addShapeless("iron_bricks", <aesthetics:iron_bricks>, 
     [<villagenames:lunarinironbrick>]
 );
-recipes.addShapedMirrored("iron_brick_stairs", <aesthetics:iron_brick_stairs>*8, [
-    [<aesthetics:iron_bricks>, null, null],
-    [<aesthetics:iron_bricks>, <aesthetics:iron_bricks>, null], 
-    [<aesthetics:iron_bricks>, <aesthetics:iron_bricks>, <aesthetics:iron_bricks>]
-]);
-recipes.addShaped("iron_brick_stairs_back", <aesthetics:iron_bricks>*3, [
-    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>],
-    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>]
-]);
 recipes.addShapeless("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*24,
     [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
 );

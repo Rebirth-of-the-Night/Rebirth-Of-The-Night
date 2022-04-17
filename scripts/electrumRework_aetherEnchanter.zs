@@ -53,7 +53,7 @@ Enchanter.registerEnchantment(<ore:rawOreGravitite>.firstItem, <ore:ingotGraviti
 //Aether Enchanter
 Enchanter.registerEnchanterFuel(elec,1200);
 Enchanter.registerEnchanterFuel(<aether_legacy:ambrosium_shard>,240);
-Enchanter.registerEnchanterFuel(<contenttweaker:material_part:13>,3000);
+Enchanter.registerEnchanterFuel(<dungeontactics:ducttape:*>,3000);
 
 //Misc.
 Enchanter.registerEnchantment(<harvestersnight:harvester_scythe>, 8800);

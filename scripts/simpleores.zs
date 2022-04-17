@@ -70,6 +70,15 @@ recipes.addShaped("tin_door",doorTin*3, [
 [ingotTin,ingotTin],
 [ingotTin,ingotTin],
 [ingotTin,ingotTin]]);
+recipes.addShapedMirrored("iron_brick_stairs", <aesthetics:iron_brick_stairs>*4, [
+    [<ore:ingotWroughtIron>, null, null],
+    [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, null], 
+    [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]
+]);
+recipes.addShaped("iron_brick_stairs_back", <ore:ingotWroughtIron>.firstItem*6, [
+    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>],
+    [<aesthetics:iron_brick_stairs>, <aesthetics:iron_brick_stairs>]
+]);
 // Copper Blocks
 var blockCoppA = <rotn_blocks:copper_block>;
 var blockCoppB = <rotn_blocks:slightly_weathered_copper_block>;

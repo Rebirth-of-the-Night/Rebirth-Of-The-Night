@@ -489,7 +489,8 @@ var moddedBlastFurnaceRecipes as IItemStack[IItemStack] = {
 	<contenttweaker:raw_silver> : <iceandfire:silver_ingot>,
 	<contenttweaker:raw_gold> : <minecraft:gold_ingot>,
 	<contenttweaker:raw_viridium> : <simpleores:adamantium_ingot>,
-	<contenttweaker:raw_mythril> : <simpleores:mythril_ingot>
+	<contenttweaker:raw_mythril> : <simpleores:mythril_ingot>,
+	<contenttweaker:material_part:52> : <contenttweaker:material_part:49>
 } as IItemStack[IItemStack];
 
 for ore, result in moddedBlastFurnaceRecipes {

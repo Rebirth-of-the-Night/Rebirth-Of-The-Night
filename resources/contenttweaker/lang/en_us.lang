@@ -73,6 +73,7 @@ tile.contenttweaker.pine_boards.name=Pine Nailed Boards
 tile.contenttweaker.petal_blue_big_flower.name=Giant Blue Flower Petal
 tile.contenttweaker.planarspsp2.name=Earthspine
 tile.contenttweaker.pot_unfired.name=Unfired Pot
+tile.contenttweaker.raw_wrought_iron.name=Ancient Wrought Iron
 tile.contenttweaker.redwood_boards.name=Redwood Nailed Boards
 tile.contenttweaker.refracotta.name=Refracotta
 tile.contenttweaker.refracotta_black.name=Black Refracotta
@@ -601,4 +602,4 @@ fluid.unstable_soulfire=Unstable Soulfire
 #------------------------------------------------------------------------------
 
 item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
-item.contenttweaker.raw_dread_slate.name=Raw Dread Slate
+item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
