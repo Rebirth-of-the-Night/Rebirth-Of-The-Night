@@ -112,5 +112,17 @@
     "netherFramedGlass": [
         "betternether:quartz_glass_framed",
         "betternether:quartz_stained_glass_framed"
+    ],
+    "blueSlate": [
+        "earthworks:block_slate_shingle",
+        "earthworks:block_slate_tile",
+        "earthworks:block_slate",
+        "earthworks:block_slate_slab"
+    ],
+    "blueSlateWall": [
+        "earthworks:wall_slate_shingle", 
+        "earthworks:wall_slate_tile",
+        "earthworks:wall_slate",
+        "earthworks:wall_slate_slab"
     ]
 }

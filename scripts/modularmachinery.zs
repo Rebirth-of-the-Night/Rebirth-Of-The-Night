@@ -117,14 +117,29 @@ recipes.addShaped(<modularmachinery:blockinputbus>, [
     [null, <quark:chute>, null]
 ]);
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:dryer"}), [
-    [null, <ore:genericMetalBars>, null],
-    [<ore:StoneHugeBrick>, <minecraft:writable_book>, <contenttweaker:oak_boards>], 
-    [null, <pyrotech:drying_rack:1>, null]
+    [null, <ore:genericMetalBars>.reuse(), null],
+    [<ore:StoneHugeBrick>.reuse(), <minecraft:writable_book>, <contenttweaker:oak_boards>.reuse()], 
+    [null, <pyrotech:drying_rack:1>.reuse(), null]
+]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pyroreactor"}), [
+    [null, <biomesoplenty:flesh>.reuse(), null],
+    [<contenttweaker:brick_minecraft_nether>.reuse(), <minecraft:writable_book>, <contenttweaker:brick_minecraft_nether>.reuse()], 
+    [null, <biomesoplenty:jar_filled:1>.reuse(), null]
 ]);
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:powerhammer"}), [
-    [null, <minecraft:sticky_piston>, null],
-    [<aesthetics:iron_brick_stairs>, <minecraft:writable_book>, <aesthetics:iron_brick_stairs>], 
-    [null, <pyrotech:anvil_granite>, null]
+    [null, <minecraft:sticky_piston>.reuse(), null],
+    [<aesthetics:iron_brick_stairs>.reuse(), <minecraft:writable_book>, <aesthetics:iron_brick_stairs>.reuse()], 
+    [null, <pyrotech:anvil_granite>.reuse(), null]
+]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:galechamber"}), [
+    [null, <dungeontactics:fan_block>.reuse(), null],
+    [<aether_legacy:dungeon_block>.reuse(), <minecraft:writable_book>, <aether_legacy:dungeon_block>.reuse()], 
+    [null, <ore:genericMetalBars>.reuse(), null]
+]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aetherialmixer"}), [
+    [null, <betterwithmods:steel_axle>.reuse(), null],
+    [<aesthetics:iron_brick_stairs>.reuse(), <minecraft:writable_book>, <aesthetics:iron_brick_stairs>.reuse()], 
+    [null, <betterwithmods:cooking_pot:1>.reuse(), null]
 ]);
 //recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pizzaoven"}), [
 //    [null, <ore:genericMetalBars>, null],
@@ -266,7 +281,7 @@ val PowerHammerItemOutputs = [
     <endreborn:block_entropy_end_stone>, 
     <nyx:cracked_star_block>, 
     <contenttweaker:material_part:36>, 
-    <contenttweaker:material_part:48>, 
+    <contenttweaker:material_part:29>, 
     <nyx:meteor_dust>, 
     <minecraft:coal:1>*6, 
     <quark:crab_shell>*2, 
@@ -401,9 +416,9 @@ val PowerHammerNumModifier = [
 ] as int[];
 
 for i, input in PowerHammerItemInputs {
-    var powerhammerrecipe1 = RecipeBuilder.newBuilder(PowerHammerRecipeNames[i], "powerhammer", PowerHammerNumModifier[i]*40);
+    var powerhammerrecipe1 = RecipeBuilder.newBuilder(PowerHammerRecipeNames[i], "powerhammer", PowerHammerNumModifier[i]*20);
     powerhammerrecipe1.addItemInput(PowerHammerItemInputs[i]);
-    powerhammerrecipe1.addFluidInput(<liquid:unstable_soulfire>*PowerHammerNumModifier[i]*40);
+    powerhammerrecipe1.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier[i]*20));
     powerhammerrecipe1.addItemOutput(PowerHammerItemOutputs[i]);
     powerhammerrecipe1.build();
 }
@@ -459,9 +474,9 @@ val PowerHammerItemOutputs1 = [
     <contenttweaker:material_part:28>, 
     <contenttweaker:material_part:28>, 
     <contenttweaker:material_part:37>, 
-    <contenttweaker:material_part:48>, 
-    <contenttweaker:material_part:48>, 
-    <contenttweaker:material_part:48>, 
+    <contenttweaker:material_part:48>,
+    <contenttweaker:material_part:29>, 
+    <contenttweaker:material_part:29>, 
     <contenttweaker:material_part:30>, 
     <contenttweaker:material_part:30>,
     <contenttweaker:material_part:30>,  
@@ -565,9 +580,9 @@ val PowerHammerNumModifier1 = [
 ] as int[];
 
 for i, input in PowerHammerItemInputs1 {
-    var powerhammerrecipe3 = RecipeBuilder.newBuilder(PowerHammerRecipeNames1[i], "powerhammer", PowerHammerNumModifier1[i]*40);
+    var powerhammerrecipe3 = RecipeBuilder.newBuilder(PowerHammerRecipeNames1[i], "powerhammer", PowerHammerNumModifier1[i]*20);
     powerhammerrecipe3.addItemInput(PowerHammerItemInputs1[i]);
-    powerhammerrecipe3.addFluidInput(<liquid:unstable_soulfire>*PowerHammerNumModifier1[i]*40);
+    powerhammerrecipe3.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier1[i]*20));
     powerhammerrecipe3.addItemOutput(PowerHammerItemOutputs1[i]);
     powerhammerrecipe3.build();
 }
@@ -580,10 +595,25 @@ for i in 0 to 16 {
     powerhammerrecipe2.build();
 }
 
+var electrumPlate = RecipeBuilder.newBuilder("electrum_plate", "powerhammer", 320);
+    electrumPlate.addItemInput(<ore:ingotElectrum>);
+    electrumPlate.addFluidInput(<liquid:unstable_soulfire>*320);
+    electrumPlate.addItemOutput(<contenttweaker:material_part:13>);
+    electrumPlate.build();
+
 // Aether Machines
 var enrichedElectrum = RecipeBuilder.newBuilder("enriched_electrum", "aetherialmixer", 600);
-enrichedElectrum.addItemInput(<ore:ingotElectrum>);
-enrichedElectrum.addItemInput(<ore:ingotElectrum>);
+enrichedElectrum.addItemInput(<ore:gemAmbrosium>);
+enrichedElectrum.addItemInput(<contenttweaker:material_part:13>);
+enrichedElectrum.addItemInput(<ore:durableFiber>);
 enrichedElectrum.addFluidInput(<liquid:dread_cold>*8000);
-enrichedElectrum.addItemOutput(<contenttweaker:material_part:13>);
+enrichedElectrum.addItemOutput(<dungeontactics:ducttape>); 
 enrichedElectrum.build();
+
+var autoElectrum = RecipeBuilder.newBuilder("auto_electrum", "aetherialmixer", 200);
+autoElectrum.addItemInput(<ore:gemAmbrosium>*2);
+autoElectrum.addItemInput(<ore:sourceGold>*4);
+autoElectrum.addItemInput(<ore:sourceSilver>*3);
+autoElectrum.addFluidInput(<liquid:dread_cold>*250);
+autoElectrum.addItemOutput(<ore:ingotElectrum>.firstItem*8); 
+autoElectrum.build();

@@ -2413,7 +2413,7 @@ recipes.remove(<ceramics:clay_hard:3>);
 recipes.addShapedMirrored("rainbow_bb", <ceramics:clay_hard:6>*8,[
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>],
 	[<contenttweaker:brick_ceramics_porcelain>, <primitivemobs:camouflage_dye>, <contenttweaker:brick_ceramics_porcelain>],
-	[<contenttweaker:brick_ceramics_porcelain>, <ceramics:clay_slab>, <ceramics:clay_slab>]
+	[<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
 ]);
 recipes.addShapedMirrored("golden_bb", <ceramics:clay_hard:3>*8,[
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>],
