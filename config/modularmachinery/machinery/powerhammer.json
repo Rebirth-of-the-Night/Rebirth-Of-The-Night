@@ -8,12 +8,12 @@
             "x": 0,
             "y": -2,
             "z": 0,
-            "description": "Replace the iron block with a SFS block\nfor 50% faster processing!",
+            "description": "Replace the iron block with a SFS block\nto process twice as fast!",
             "modifier": {
                 "io": "input",
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.667
+                "multiplier": 0.5
             }
         },
         {
@@ -21,12 +21,12 @@
             "x": 0,
             "y": -3,
             "z": 0,
-            "description": "Replace the stone anvil with a SFS anvil\nfor 50% faster processing!",
+            "description": "Replace the stone anvil with a SFS anvil\nto consume half as much unstable soulfire!",
             "modifier": {
                 "io": "input",
-                "target": "duration",
+                "target": "fluid",
                 "operation": 1,
-                "multiplier": 0.667
+                "multiplier": 0.5
             }
         }
     ],

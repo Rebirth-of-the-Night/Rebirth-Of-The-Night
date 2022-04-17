@@ -121,5 +121,9 @@
         "contenttweaker:refracotta_orange",
         "contenttweaker:refracotta_blue",
         "contenttweaker:refracotta_gray"
+    ],
+    "netherFramedGlass": [
+        "betternether:quartz_glass_framed",
+        "betternether:quartz_stained_glass_framed"
     ]
 }
