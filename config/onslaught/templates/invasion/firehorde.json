@@ -702,7 +702,7 @@
             "mobs": [
               {
                 "id": "fireghast",
-                "count": [ 2 ],
+                "count": [ 3 ],
                 "spawn": {
                   "type": "air",
                   "light": [

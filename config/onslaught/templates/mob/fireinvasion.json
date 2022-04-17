@@ -98,9 +98,9 @@
     "nbt": {
       "CustomName": "\u00A76Ghastly Musketears",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 10 }
+        { "Name": "generic.maxHealth", "Base": 20 }
       ],
-      "Health": 10
+      "Health": 20
     }
   },
   "firezombie.farmer": {
@@ -230,7 +230,7 @@
             "CounterAttack": { "Chance": 0.5 },
             "ExplodeWhenStuck": { 
               "RangeMax": 6,
-              "ExplosionStrength": 2,
+              "ExplosionStrength": 3,
               "Priority": 100,
               "ExplosionDelayTicks": 1,
               "ExplosionCausesFire": false  

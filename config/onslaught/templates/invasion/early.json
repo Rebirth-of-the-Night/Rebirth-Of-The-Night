@@ -135,7 +135,12 @@
                 }
               }
             ]
-          },
+          }
+        ]
+      }, 
+      {
+        "delayTicks": [ 3600, 3900 ],
+        "groups": [
           {
             "mobs": [
               {
@@ -193,7 +198,13 @@
                 }
               }
             ]
-          },{
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 5400, 5700 ],
+        "groups": [
+          {
             "mobs": [
               {
                 "id": "skel",
@@ -254,7 +265,186 @@
         ]
       },
       {
-        "delayTicks": [ 3600, 3900 ],
+        "delayTicks": [ 7200, 7500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed.bomber",
+                "count": [ 1, 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zed",
+                "count": [ 3, 7 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "zed.stalker",
+                "count": [ 3, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zed",
+                "count": [ 3, 7 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "skel",
+                "count": [ 3, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zed",
+                "count": [ 3, 7 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 9000, 9300 ],
         "groups": [
           {
             "mobs": [
@@ -325,7 +515,7 @@
         ]
       },
       {
-        "delayTicks": [ 4000 ],
+        "delayTicks": [ 10800, 11100 ],
         "groups": [
           {
             "mobs": [
