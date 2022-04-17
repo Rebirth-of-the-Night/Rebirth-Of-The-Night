@@ -620,6 +620,14 @@
             ]
         },
         {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "netherFramedGlass"
+            ]
+        },
+        {
             "x": 1,
             "y": 1,
             "z": 1,
