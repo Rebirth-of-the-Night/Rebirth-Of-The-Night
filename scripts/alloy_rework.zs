@@ -65,6 +65,8 @@ JEI.removeAndHide(<spartanweaponry:longbow_tin>);
 JEI.removeAndHide(<spartanweaponry:throwing_knife_tin>);
 JEI.removeAndHide(<spartanweaponry:throwing_axe_tin>);
 JEI.removeAndHide(<spartanweaponry:javelin_tin>);
+//wrought iron
+JEI.removeAndHide(<contenttweaker:sub_block_holder_0:2>);
 //mud
 recipes.remove(<atop:mud_boots>);
 recipes.remove(<atop:mud_chestplate>);
@@ -79,15 +81,18 @@ recipes.remove(<atop:mud_hoe>);
 #ADD RECIPES
 
 val bronze = <ore:ingotBronze>;
-val stick =  <ore:stickWood>;
-val handle = <spartanweaponry:material:0>;
-val bronzeBlock = <contenttweaker:block_bronze>; 
-val plate = <contenttweaker:bronze_plate>;
+val brass = <ore:ingotBrass>;
+val wrought = <ore:ingotWroughtIron>;
 val bronzeNugget = <ore:nuggetBronze>.firstItem;
 val brassNugget = <ore:nuggetBrass>.firstItem;
-val wShield = <spartanshields:shield_basic_wood>;
-val brass = <ore:ingotBrass>;
+val wroughtNugget = <ore:nuggetWroughtIron>.firstItem;
+val bronzeBlock = <contenttweaker:block_bronze>; 
 val brassBlock = <contenttweaker:block_brass>;
+val wroughtBlock = <contenttweaker:sub_block_holder_0:3>;
+val plate = <contenttweaker:bronze_plate>;
+val stick =  <ore:stickWood>;
+val handle = <spartanweaponry:material:0>;
+val wShield = <spartanshields:shield_basic_wood>;
 
 //ARMOR
 recipes.addShaped("bronze_helmet", <atop:mud_helmet>,
@@ -136,22 +141,26 @@ recipes.addShaped("bronze_block", bronzeBlock,
  [[bronze,bronze,bronze],
   [bronze,bronze,bronze],
   [bronze,bronze,bronze]]);
-  
-recipes.addShaped("brass_block", brassBlock,
- [[brass,brass,brass],
-  [brass,brass,brass],
-  [brass,brass,brass]]);
-  
 recipes.addShapeless("block_to_bronze", bronze.firstItem*9,
  [bronzeBlock]);
- 
-recipes.addShapeless("block_to_brass", brass.firstItem*9,
- [brassBlock]);
-  
 recipes.addShaped("bronze_plate", plate*24,
  [[bronze,bronze,bronze],
   [bronze,<minetraps:nails:*>,bronze],
   [bronze,bronze,bronze]]);
+
+recipes.addShaped("brass_block", brassBlock,
+ [[brass,brass,brass],
+  [brass,brass,brass],
+  [brass,brass,brass]]);
+recipes.addShapeless("block_to_brass", brass.firstItem*9,
+ [brassBlock]);
+
+recipes.addShaped("wrought_block", wroughtBlock,
+ [[wrought,wrought,wrought],
+  [wrought,wrought,wrought],
+  [wrought,wrought,wrought]]);
+recipes.addShapeless("block_to_wrought", wrought.firstItem*9,
+ [wroughtBlock]);
   
 // parts
 recipes.addShaped("bronze_to_ingot", bronze.firstItem,
@@ -169,6 +178,14 @@ recipes.addShaped("brass_to_ingot", brass.firstItem,
   
 recipes.addShapeless("brass_to_nugget", brassNugget*9,
  [brass]);
+ 
+recipes.addShaped("wrought_to_ingot", wrought.firstItem,
+ [[wroughtNugget,wroughtNugget,wroughtNugget],
+  [wroughtNugget,wroughtNugget,wroughtNugget],
+  [wroughtNugget,wroughtNugget,wroughtNugget]]);
+  
+recipes.addShapeless("wrought_to_nugget", wroughtNugget*9,
+ [wrought]);
  
 // bronze recipes
 Mortar.addRecipe(["diamond"], <ore:dustBronze>.firstItem * 4, 8, [<ore:ingotTin> * 1, <ore:ingotCopper> * 3]);
