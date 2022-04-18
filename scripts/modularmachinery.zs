@@ -165,22 +165,6 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
 ]);
 
 // Energy System
-var pyroReactor = RecipeBuilder.newBuilder("pyroreactor_power", "pyroreactor", 300);
-pyroReactor.addItemInput(<betterwithmods:urn:8>);
-pyroReactor.addItemOutput(<betterwithmods:urn>);
-pyroReactor.addFluidOutput(<liquid:unstable_soulfire>*1000);
-pyroReactor.build();
-
-var galeChamber1 = RecipeBuilder.newBuilder("galechamber_power1", "galechamber", 300);
-galeChamber1.addItemInput(<adpother:mist>);
-galeChamber1.addFluidOutput(<liquid:dread_cold>*1000);
-galeChamber1.build();
-
-var galeChamber2 = RecipeBuilder.newBuilder("galechamber_power2", "galechamber", 300);
-galeChamber2.addItemInput(<contenttweaker:condensed_dread_cold>);
-galeChamber2.addFluidOutput(<liquid:dread_cold>*1000);
-galeChamber2.build();
-
 recipes.removeByMod("pollutantpump");
 
 recipes.addShaped(<pollutantpump:pump>, [
@@ -611,9 +595,9 @@ enrichedElectrum.addItemOutput(<dungeontactics:ducttape>);
 enrichedElectrum.build();
 
 var autoElectrum = RecipeBuilder.newBuilder("auto_electrum", "aetherialmixer", 200);
-autoElectrum.addItemInput(<ore:gemAmbrosium>*2);
-autoElectrum.addItemInput(<ore:sourceGold>*4);
-autoElectrum.addItemInput(<ore:sourceSilver>*3);
-autoElectrum.addFluidInput(<liquid:dread_cold>*250);
+autoElectrum.addItemInput(<ore:gemAmbrosium>, 2);
+autoElectrum.addItemInput(<ore:sourceGold>, 4);
+autoElectrum.addItemInput(<ore:sourceSilver>, 3);
+autoElectrum.addFluidInput(<liquid:dread_cold>*320);
 autoElectrum.addItemOutput(<ore:ingotElectrum>.firstItem*8); 
 autoElectrum.build();

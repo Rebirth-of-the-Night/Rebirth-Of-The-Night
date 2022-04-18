@@ -127,7 +127,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "nbt": {"power":"50"},
+            "nbt": {"power":"1"},
             "elements": [
                 "betterwithmods:steel_gearbox"
             ]

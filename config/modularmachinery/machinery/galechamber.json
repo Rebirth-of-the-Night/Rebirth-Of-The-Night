@@ -8,7 +8,7 @@
             "y": 4,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -106,13 +106,13 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": -1,
             "y": 2,
-            "z": 5,
+            "z": 1,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -129,7 +129,7 @@
         {
             "x": 0,
             "y": 2,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -139,13 +139,13 @@
             "y": 4,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": 1,
             "y": 2,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -155,7 +155,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -187,7 +187,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -203,7 +203,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -211,7 +211,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -227,7 +227,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "minecraft:glowstone"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -235,7 +235,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -251,7 +251,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -267,7 +267,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -275,7 +275,7 @@
             "y": 3,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -283,7 +283,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -299,13 +299,13 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
             "x": -1,
             "y": 3,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -315,7 +315,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -323,7 +323,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -331,7 +331,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -339,13 +339,13 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": 0,
             "y": 3,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -355,13 +355,13 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": 1,
             "y": 3,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -371,7 +371,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "aether_legacy:zanite_block"
+                "aether_legacy:zanite_block@0"
             ]
         },
         {
@@ -379,7 +379,7 @@
             "y": 3,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -387,7 +387,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -411,7 +411,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -419,7 +419,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -435,7 +435,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -459,7 +459,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -475,7 +475,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -483,7 +483,7 @@
             "y": 4,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -499,7 +499,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -507,13 +507,13 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": -1,
             "y": 4,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -523,7 +523,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -531,13 +531,13 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
             "x": 0,
             "y": 4,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -547,13 +547,13 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": 1,
             "y": 4,
-            "z": 5,
+            "z": 2,
             "elements": [
                 "aether_legacy:aercloud@1"
             ]
@@ -571,7 +571,7 @@
             "y": 4,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -579,7 +579,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -619,7 +619,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -627,7 +627,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -635,7 +635,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -651,7 +651,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -675,7 +675,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -683,7 +683,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -691,7 +691,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -699,7 +699,7 @@
             "y": 3,
             "z": 4,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -707,7 +707,7 @@
             "y": 5,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -715,7 +715,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -723,7 +723,7 @@
             "y": 5,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -731,7 +731,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -739,7 +739,7 @@
             "y": 5,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -747,7 +747,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -755,7 +755,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "aether_legacy:zanite_block"
+                "aether_legacy:zanite_block@0"
             ]
         },
         {
@@ -771,7 +771,7 @@
             "y": 3,
             "z": 4,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -779,7 +779,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -811,7 +811,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -819,7 +819,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -827,7 +827,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -835,7 +835,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -843,7 +843,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "minecraft:glowstone"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -851,7 +851,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -859,7 +859,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -867,7 +867,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -875,7 +875,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -883,7 +883,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -891,7 +891,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -899,7 +899,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -923,7 +923,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -931,7 +931,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -955,7 +955,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -963,7 +963,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -971,7 +971,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -979,7 +979,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "aether_legacy:quicksoil_glass_pane"
+                "aether_legacy:quicksoil_glass_pane@0"
             ]
         },
         {
@@ -987,7 +987,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -995,7 +995,7 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -1003,7 +1003,7 @@
             "y": 5,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1011,7 +1011,7 @@
             "y": 5,
             "z": 4,
             "elements": [
-                "minecraft:glowstone"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -1019,7 +1019,7 @@
             "y": 5,
             "z": 4,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1027,7 +1027,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1035,7 +1035,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "aether_legacy:zanite_block"
+                "aether_legacy:zanite_block@0"
             ]
         },
         {
@@ -1059,7 +1059,7 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -1067,7 +1067,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1075,7 +1075,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1091,7 +1091,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1099,7 +1099,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1115,7 +1115,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1123,7 +1123,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1131,7 +1131,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1139,7 +1139,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1147,14 +1147,13 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": -1,
             "y": 0,
             "z": 1,
-            "nbt": {"id":"ceramics:barrel","tank":{"Empty":""},"baseCapacity":"6000","height":"0"},
             "elements": [
                 "ceramics:porcelain_barrel"
             ]
@@ -1171,7 +1170,6 @@
             "x": 0,
             "y": 0,
             "z": 1,
-            "nbt": {"id":"ceramics:barrel","tank":{"Empty":""},"baseCapacity":"6000","height":"0"},
             "elements": [
                 "ceramics:porcelain_barrel"
             ]
@@ -1189,7 +1187,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1197,7 +1195,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1213,14 +1211,13 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 1,
-            "nbt": {"id":"ceramics:barrel","tank":{"Empty":""},"baseCapacity":"6000","height":"0"},
             "elements": [
                 "ceramics:porcelain_barrel"
             ]
@@ -1273,7 +1270,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1281,7 +1278,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -1289,7 +1286,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1297,7 +1294,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1305,7 +1302,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "minecraft:glowstone"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -1313,7 +1310,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1345,7 +1342,7 @@
             "y": 3,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1353,7 +1350,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "aether_legacy:quicksoil_glass"
+                "aether_legacy:quicksoil_glass@0"
             ]
         },
         {
@@ -1378,7 +1375,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1395,7 +1392,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1420,7 +1417,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1428,7 +1425,7 @@
             "y": 3,
             "z": 6,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1436,7 +1433,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1444,7 +1441,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {
@@ -1452,7 +1449,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "contenttweaker:brick_aether_legacy_holystone"
+                "contenttweaker:brick_aether_legacy_holystone@0"
             ]
         },
         {

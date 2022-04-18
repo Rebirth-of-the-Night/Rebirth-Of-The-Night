@@ -1,0 +1,24 @@
+{
+    "machine": "pyroreactor",
+    "registryName": "pyroreactor_power",
+    "recipeTime": 200,
+    "processingCommands": ["/playsound quark:block.monster_box.growl block @p[r=8]"],
+    "requirements": [ 
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "betterwithmods:urn@8"
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "betterwithmods:urn"
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid:unstable_soulfire",
+            "amount": 1000
+        }
+    ]
+}
