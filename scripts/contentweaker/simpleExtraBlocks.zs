@@ -492,10 +492,11 @@ masonry_brick.setFullBlock(false);
 masonry_brick.setLightOpacity(0);
 masonry_brick.setBlockLayer("TRANSLUCENT");
 masonry_brick.setBlockHardness(1.0);
+masonry_brick.setToolLevel(1);
 masonry_brick.setToolClass("pickaxe");
 masonry_brick.register();
 
-// ruined masonry brick x1
+// ruined masonry brick x2
 var masonry_brick_two = VanillaFactory.createBlock("masonry_brick_two", <blockmaterial:Rock>);
 masonry_brick_two.setDropHandler(function(drops, world, position, state, fortune) {
     drops.clear();
@@ -515,6 +516,7 @@ masonry_brick_two.setFullBlock(false);
 masonry_brick_two.setLightOpacity(0);
 masonry_brick_two.setBlockLayer("TRANSLUCENT");
 masonry_brick_two.setBlockHardness(1.0);
+masonry_brick_two.setToolLevel(1);
 masonry_brick_two.setToolClass("pickaxe");
 masonry_brick_two.register();
 
@@ -532,6 +534,7 @@ unfired_clay_faucet.setBlockSoundType(<soundtype:ground>);
 unfired_clay_faucet.setFullBlock(false);
 unfired_clay_faucet.setLightOpacity(0);
 unfired_clay_faucet.setBlockHardness(1.0);
+unfired_clay_faucet.setToolLevel(0);
 unfired_clay_faucet.setToolClass("shovel");
 unfired_clay_faucet.register();
 
@@ -541,6 +544,7 @@ unfired_clay_collector.setBlockSoundType(<soundtype:ground>);
 unfired_clay_collector.setFullBlock(false);
 unfired_clay_collector.setLightOpacity(0);
 unfired_clay_collector.setBlockHardness(1.0);
+unfired_clay_collector.setToolLevel(0);
 unfired_clay_collector.setToolClass("shovel");
 unfired_clay_collector.register();
 
@@ -548,6 +552,7 @@ unfired_clay_collector.register();
 var unfired_clay_drain = VanillaFactory.createBlock("unfired_clay_drain", <blockmaterial:Ground>);
 unfired_clay_drain.setBlockSoundType(<soundtype:ground>);
 unfired_clay_drain.setBlockHardness(1.0);
+unfired_clay_drain.setToolLevel(0);
 unfired_clay_drain.setToolClass("shovel");
 unfired_clay_drain.register();
 
