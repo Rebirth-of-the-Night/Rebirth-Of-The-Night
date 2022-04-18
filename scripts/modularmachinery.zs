@@ -74,7 +74,7 @@ function addMachineRecipe(machine as string, recipeName as string, input as IIng
 val brassIngot = <ore:ingotBrass>;
 
 recipes.removeByMod("modularmachinery");
-recipes.removeByMod("modulardiversity");
+//recipes.removeByMod("modulardiversity");
 
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [
     [null, <quark:chute>, null],
@@ -165,6 +165,22 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
 ]);
 
 // Energy System
+var unstableSoulfire = RecipeBuilder.newBuilder("unstable_soulfire", "pyroreactor", 300);
+    unstableSoulfire.addItemInput(<betterwithmods:urn:8>);
+    unstableSoulfire.addItemOutput(<betterwithmods:urn>);
+    unstableSoulfire.addFluidOutput(<liquid:unstable_soulfire>*1000);
+    unstableSoulfire.build();
+
+var dreadCold1 = RecipeBuilder.newBuilder("dread_cold1", "galechamber", 300);
+    dreadCold1.addItemInput(<adpother:mist>);
+    dreadCold1.addFluidOutput(<liquid:dread_cold>*1000);
+    dreadCold1.build();
+
+var dreadCold2 = RecipeBuilder.newBuilder("dread_cold2", "galechamber", 300);
+    dreadCold2.addItemInput(<contenttweaker:condensed_dread_cold>);
+    dreadCold2.addFluidOutput(<liquid:dread_cold>*8000);
+    dreadCold2.build();
+
 recipes.removeByMod("pollutantpump");
 
 recipes.addShaped(<pollutantpump:pump>, [
@@ -400,9 +416,9 @@ val PowerHammerNumModifier = [
 ] as int[];
 
 for i, input in PowerHammerItemInputs {
-    var powerhammerrecipe1 = RecipeBuilder.newBuilder(PowerHammerRecipeNames[i], "powerhammer", PowerHammerNumModifier[i]*20);
+    var powerhammerrecipe1 = RecipeBuilder.newBuilder(PowerHammerRecipeNames[i], "powerhammer", PowerHammerNumModifier[i]*10);
     powerhammerrecipe1.addItemInput(PowerHammerItemInputs[i]);
-    powerhammerrecipe1.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier[i]*20));
+    powerhammerrecipe1.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier[i]*10));
     powerhammerrecipe1.addItemOutput(PowerHammerItemOutputs[i]);
     powerhammerrecipe1.build();
 }
@@ -564,17 +580,17 @@ val PowerHammerNumModifier1 = [
 ] as int[];
 
 for i, input in PowerHammerItemInputs1 {
-    var powerhammerrecipe3 = RecipeBuilder.newBuilder(PowerHammerRecipeNames1[i], "powerhammer", PowerHammerNumModifier1[i]*20);
+    var powerhammerrecipe3 = RecipeBuilder.newBuilder(PowerHammerRecipeNames1[i], "powerhammer", PowerHammerNumModifier1[i]*10);
     powerhammerrecipe3.addItemInput(PowerHammerItemInputs1[i]);
-    powerhammerrecipe3.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier1[i]*20));
+    powerhammerrecipe3.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier1[i]*10));
     powerhammerrecipe3.addItemOutput(PowerHammerItemOutputs1[i]);
     powerhammerrecipe3.build();
 }
 
 for i in 0 to 16 {
-	var powerhammerrecipe2 = RecipeBuilder.newBuilder("stained_shards_"~i, "powerhammer", 40);
+	var powerhammerrecipe2 = RecipeBuilder.newBuilder("stained_shards_"~i, "powerhammer", 10);
     powerhammerrecipe2.addItemInput(<minecraft:stained_glass>.definition.makeStack(i));
-    powerhammerrecipe2.addFluidInput(<liquid:unstable_soulfire>*40);
+    powerhammerrecipe2.addFluidInput(<liquid:unstable_soulfire>*10);
     powerhammerrecipe2.addItemOutput(<quark:glass_shards>.definition.makeStack(i+1)*4);
     powerhammerrecipe2.build();
 }

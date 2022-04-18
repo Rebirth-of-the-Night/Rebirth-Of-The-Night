@@ -1,0 +1,1992 @@
+{
+    "registryname": "bioticincubator",
+    "localizedname": "Biotic Incubator",
+    "requires-blueprint": true,
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "nbt": {"isPowered":"1b","id":"dungeontactics:fan_block.tile"},
+            "elements": [
+                "dungeontactics:fan_block"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:magicked_stone"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "betterwithmods:steel_axle"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "nbt": {"power":"1","id":"minecraft:bwm.saw"},
+            "elements": [
+                "betterwithmods:saw"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "stygian:endmagma"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:plague_leech"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:voided_rock"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "durableGlass"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "beneathMetal"
+            ]
+        }
+    ]}

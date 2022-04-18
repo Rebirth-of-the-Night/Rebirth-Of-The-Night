@@ -124,5 +124,24 @@
         "earthworks:wall_slate_tile",
         "earthworks:wall_slate",
         "earthworks:wall_slate_slab"
+    ],
+    "durableGlass": [
+        "quark:framed_glass",
+        "pyrotech:slag_glass",
+        "betternether:quartz_glass",
+        "betternether:quartz_glass_framed",
+        "betternether:quartz_stained_glass",
+        "betternether:quartz_stained_glass_framed",
+        "sereneseasons:greenhouse_glass"
+    ],
+    "beneathMetal": [
+        "contenttweaker:lunarinviridiumbrick",
+        "contenttweaker:lunarinmythrilbrick",
+        "simpleores:adamantium_block",
+        "simpleores:mythril_block"
+    ],
+    "beneathStone": [
+        "contenttweaker:magicked_stone",
+        "contenttweaker:voided_rock"
     ]
 }

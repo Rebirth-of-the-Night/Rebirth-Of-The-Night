@@ -2,10 +2,10 @@
     "machine": "pyroreactor",
     "registryName": "pyroreactor_power",
     "recipeTime": 200,
-    "processingCommands": ["/playsound quark:block.monster_box.growl block @p[r=8]"],
+    //"processingCommands": ["/playsound quark:block.monster_box.growl block @p[r=8]"],
     "requirements": [ 
         {
-            "type": "item",
+            "type": "modularaugment:deferred",
             "io-type": "input",
             "item": "betterwithmods:urn@8"
         },
