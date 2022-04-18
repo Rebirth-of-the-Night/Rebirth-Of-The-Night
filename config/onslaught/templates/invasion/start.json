@@ -18,6 +18,15 @@
         "/weather clear",
         "/xp 100 @p",
         "/give @p betterwithmods:material 8 31"
+      ],
+      "staged": [
+        {
+          "complete": 0.8,
+          "commands": [
+            "/ostop @p"
+          ]
+        }
+        
       ]
     },
     "name": "The Beasts",
@@ -159,7 +168,32 @@
         ]
       },
       {
-        "delayTicks": [ 4000 ],
+        "delayTicks": [ 5400, 5700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 2, 4 ]
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 1, 2 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "bug.locust",
+                "count": [ 8, 14 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 7200, 7500 ],
         "groups": [
           {
             "mobs": [

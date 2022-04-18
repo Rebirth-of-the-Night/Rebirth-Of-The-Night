@@ -27,6 +27,9 @@ condensedDreadCold.register();
 val condensedVileMist = VanillaFactory.createItem("condensed_vilemist");
 condensedVileMist.register();
 
+val writhingBiomass = VanillaFactory.createItem("writhing_biomass");
+writhingBiomass.register();
+
 var plague_leech = VanillaFactory.createBlock("plague_leech", <blockmaterial:Sponge>);
 plague_leech.setGravity(true);
 plague_leech.axisAlignedBB = AxisAlignedBB.create(
@@ -37,7 +40,7 @@ plague_leech.axisAlignedBB = AxisAlignedBB.create(
     6.0 / 16.0,
     14.0 / 16.0
 	);
-plague_leech.setBlockSoundType(<soundtype:sponge>);
+plague_leech.setBlockSoundType(<soundtype:plant>);
 plague_leech.setFullBlock(false);
 plague_leech.setLightOpacity(0);
 plague_leech.setBlockLayer("TRANSLUCENT");

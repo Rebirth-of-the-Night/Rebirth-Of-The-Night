@@ -165,21 +165,26 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
 ]);
 
 // Energy System
-var unstableSoulfire = RecipeBuilder.newBuilder("unstable_soulfire", "pyroreactor", 300);
+var unstableSoulfire = RecipeBuilder.newBuilder("unstable_soulfire", "pyroreactor", 200);
     unstableSoulfire.addItemInput(<betterwithmods:urn:8>);
     unstableSoulfire.addItemOutput(<betterwithmods:urn>);
     unstableSoulfire.addFluidOutput(<liquid:unstable_soulfire>*1000);
     unstableSoulfire.build();
 
-var dreadCold1 = RecipeBuilder.newBuilder("dread_cold1", "galechamber", 300);
+var dreadCold1 = RecipeBuilder.newBuilder("dread_cold1", "galechamber", 200);
     dreadCold1.addItemInput(<adpother:mist>);
     dreadCold1.addFluidOutput(<liquid:dread_cold>*1000);
     dreadCold1.build();
 
-var dreadCold2 = RecipeBuilder.newBuilder("dread_cold2", "galechamber", 300);
+var dreadCold2 = RecipeBuilder.newBuilder("dread_cold2", "galechamber", 200);
     dreadCold2.addItemInput(<contenttweaker:condensed_dread_cold>);
     dreadCold2.addFluidOutput(<liquid:dread_cold>*8000);
     dreadCold2.build();
+
+var writhingBiomass = RecipeBuilder.newBuilder("writhing_biomass", "bioticincubator", 200);
+    writhingBiomass.addItemInput(<adpother:vilemist>);
+    writhingBiomass.addItemOutput(<contenttweaker:writhing_biomass>);
+    writhingBiomass.build();
 
 recipes.removeByMod("pollutantpump");
 
@@ -253,7 +258,8 @@ val PowerHammerRecipeNames = [
     "1refractorylump_limestone_cobble", 
     "1blaze_lantern_to_powder", 
     "1dwarven_measures", 
-    "1glass_shards"
+    "1glass_shards",
+    "1vilemist_production"
 ] as string[];
 
 val PowerHammerItemOutputs = [
@@ -306,7 +312,8 @@ val PowerHammerItemOutputs = [
     <pyrotech:material:8>*3, 
     <minecraft:blaze_powder>*3, 
     <minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}), 
-    <quark:glass_shards:0>*4
+    <quark:glass_shards:0>*4,
+    <adpother:vilemist>*8
 ]  as IItemStack[];
 
 val PowerHammerItemInputs = [
@@ -359,7 +366,8 @@ val PowerHammerItemInputs = [
     <contenttweaker:limestone_cobble>, 
     <quark:blaze_lantern>, 
     <extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}), 
-    <minecraft:glass>
+    <minecraft:glass>,
+    <contenttweaker:condensed_vilemist>
 ] as IItemStack[];
 
 val PowerHammerNumModifier = [
@@ -412,7 +420,8 @@ val PowerHammerNumModifier = [
     8, 
     16, 
     1,
-    1
+    1,
+    8
 ] as int[];
 
 for i, input in PowerHammerItemInputs {
@@ -617,3 +626,9 @@ autoElectrum.addItemInput(<ore:sourceSilver>, 3);
 autoElectrum.addFluidInput(<liquid:dread_cold>*320);
 autoElectrum.addItemOutput(<ore:ingotElectrum>.firstItem*8); 
 autoElectrum.build();
+
+// Beneath Machines
+var efficientQuartz = RecipeBuilder.newBuilder("efficient_quartz", "crystallineaccelerator", 2000);
+efficientQuartz.addItemInput(<contenttweaker:writhing_biomass>, 8);
+efficientQuartz.addItemOutput(<arcanearchives:raw_quartz_cluster>); 
+efficientQuartz.build();

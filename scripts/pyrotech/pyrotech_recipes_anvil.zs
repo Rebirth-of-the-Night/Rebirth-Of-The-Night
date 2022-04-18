@@ -126,6 +126,7 @@ GraniteAnvil.addRecipe("refractorylump_limestone_cobble", <pyrotech:material:8>*
 GraniteAnvil.addRecipe("blaze_lantern_to_powder", <minecraft:blaze_powder>*3, <quark:blaze_lantern>, 16, "hammer", true);
 GraniteAnvil.addRecipe("dwarven_measures", <minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}), <extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}), 1, "hammer", true);
 GraniteAnvil.addRecipe("glass_shards", <quark:glass_shards:0>*4, <minecraft:glass>, 1, "hammer", true);
+GraniteAnvil.addRecipe("vilemist_production", <adpother:vilemist>*8, <contenttweaker:condensed_vilemist>, 8, "hammer", true);
 
 // Stained glass shards
 for i in 0 to 16 {

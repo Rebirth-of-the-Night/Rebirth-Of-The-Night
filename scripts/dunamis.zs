@@ -7,6 +7,19 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 
+// Plague Leech Block Craft
+RecipeBuilder.get("mage")
+  .setName("plague_leeching")
+  .setShaped([
+    [null,<contenttweaker:vis_speck>,null],
+    [<contenttweaker:vis_speck>,<rats:plague_leech>,<contenttweaker:vis_speck>],
+    [null,<contenttweaker:vis_speck>,null]])
+  .setSecondaryIngredients([<contenttweaker:plague_quintessence>*8])
+  .addOutput(<contenttweaker:plague_leech>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
 // Scepters
 #bases
 

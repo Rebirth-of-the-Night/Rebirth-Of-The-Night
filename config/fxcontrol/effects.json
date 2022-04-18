@@ -33,6 +33,18 @@
       "block": "osv:simpleores_onyx_ore_contenttweaker_ardicite"
     },
     "damage": "hotFloor=3"
+  },
+  {
+    "timeout": 10,
+    "helditem": [ "contenttweaker:writhing_biomass" ],
+    "potion": "minecraft:wither,11,1"
+  },
+  {
+    "timeout": 10,
+    "block": {
+		"block": "contenttweaker:plague_leech"
+	  },
+	"damage": "hotFloor=3"
   }
 ]
 
