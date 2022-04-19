@@ -33,12 +33,12 @@ writhingBiomass.register();
 var plague_leech = VanillaFactory.createBlock("plague_leech", <blockmaterial:Sponge>);
 plague_leech.setGravity(true);
 plague_leech.axisAlignedBB = AxisAlignedBB.create(
-     6.0 / 16.0,
+     4.0 / 16.0,
      0.0 / 16.0,
-     2.0 / 16.0,
-	10.0 / 16.0,
+     1.0 / 16.0,
+	12.0 / 16.0,
     6.0 / 16.0,
-    14.0 / 16.0
+    15.0 / 16.0
 	);
 plague_leech.setBlockSoundType(<soundtype:plant>);
 plague_leech.setFullBlock(false);

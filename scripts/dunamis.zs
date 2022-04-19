@@ -14,6 +14,8 @@ RecipeBuilder.get("mage")
     [null,<contenttweaker:vis_speck>,null],
     [<contenttweaker:vis_speck>,<rats:plague_leech>,<contenttweaker:vis_speck>],
     [null,<contenttweaker:vis_speck>,null]])
+  .addTool(<contenttweaker:strength_rune>, 1)
+  .addTool(<contenttweaker:chaos_rune>, 1)
   .setSecondaryIngredients([<contenttweaker:plague_quintessence>*8])
   .addOutput(<contenttweaker:plague_leech>)
   .setMinimumTier(1)

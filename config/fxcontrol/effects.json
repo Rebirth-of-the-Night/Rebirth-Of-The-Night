@@ -35,9 +35,9 @@
     "damage": "hotFloor=3"
   },
   {
-    "timeout": 10,
+    "timeout": 40,
     "helditem": [ "contenttweaker:writhing_biomass" ],
-    "potion": "minecraft:wither,11,1"
+    "potion": "minecraft:wither,41,1"
   },
   {
     "timeout": 10,

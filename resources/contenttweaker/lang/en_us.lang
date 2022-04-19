@@ -603,3 +603,6 @@ fluid.unstable_soulfire=Unstable Soulfire
 
 item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
 item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
+item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
+item.contenttweaker.writhing_biomass.name=Writhing Biomass
+tile.contenttweaker.plague_leech.name=Massive Plague Leech

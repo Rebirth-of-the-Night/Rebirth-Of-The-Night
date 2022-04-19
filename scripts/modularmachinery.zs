@@ -165,23 +165,23 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
 ]);
 
 // Energy System
-var unstableSoulfire = RecipeBuilder.newBuilder("unstable_soulfire", "pyroreactor", 200);
+var unstableSoulfire = RecipeBuilder.newBuilder("unstable_soulfire", "pyroreactor", 100);
     unstableSoulfire.addItemInput(<betterwithmods:urn:8>);
     unstableSoulfire.addItemOutput(<betterwithmods:urn>);
     unstableSoulfire.addFluidOutput(<liquid:unstable_soulfire>*1000);
     unstableSoulfire.build();
 
-var dreadCold1 = RecipeBuilder.newBuilder("dread_cold1", "galechamber", 200);
+var dreadCold1 = RecipeBuilder.newBuilder("dread_cold1", "galechamber", 100);
     dreadCold1.addItemInput(<adpother:mist>);
     dreadCold1.addFluidOutput(<liquid:dread_cold>*1000);
     dreadCold1.build();
 
-var dreadCold2 = RecipeBuilder.newBuilder("dread_cold2", "galechamber", 200);
+var dreadCold2 = RecipeBuilder.newBuilder("dread_cold2", "galechamber", 800);
     dreadCold2.addItemInput(<contenttweaker:condensed_dread_cold>);
     dreadCold2.addFluidOutput(<liquid:dread_cold>*8000);
     dreadCold2.build();
 
-var writhingBiomass = RecipeBuilder.newBuilder("writhing_biomass", "bioticincubator", 200);
+var writhingBiomass = RecipeBuilder.newBuilder("writhing_biomass", "bioticincubator", 100);
     writhingBiomass.addItemInput(<adpother:vilemist>);
     writhingBiomass.addItemOutput(<contenttweaker:writhing_biomass>);
     writhingBiomass.build();
@@ -421,7 +421,7 @@ val PowerHammerNumModifier = [
     16, 
     1,
     1,
-    8
+    4
 ] as int[];
 
 for i, input in PowerHammerItemInputs {
@@ -629,6 +629,6 @@ autoElectrum.build();
 
 // Beneath Machines
 var efficientQuartz = RecipeBuilder.newBuilder("efficient_quartz", "crystallineaccelerator", 2000);
-efficientQuartz.addItemInput(<contenttweaker:writhing_biomass>, 8);
+efficientQuartz.addItemInput(<contenttweaker:writhing_biomass>*8);
 efficientQuartz.addItemOutput(<arcanearchives:raw_quartz_cluster>); 
 efficientQuartz.build();
