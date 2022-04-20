@@ -1,0 +1,14 @@
+# Made in Blockbench 4.2.2
+newmtl m_1
+map_Kd pistontop.png 
+newmtl m_2
+map_Kd piston_side.png 
+newmtl m_3
+map_Kd iron_block.png 
+newmtl m_4
+map_Kd piston_top_sticky.png 
+newmtl m_5
+map_Kd piston_inner.png 
+newmtl m_6
+map_Kd pistonstick.png 
+newmtl none

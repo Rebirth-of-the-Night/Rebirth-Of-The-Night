@@ -1,19 +1,19 @@
 {
   "consumeCatalyst": false,
-  "location": "dimensionalpower:power_hammer_mk2",
+  "location": "multiblocked:power_hammer_mk1",
   "traits": {
     "item": [
       {
         "cIO": 0,
         "gIO": 0,
-        "x": 10,
-        "y": 80,
+        "x": 18,
+        "y": 79,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
-        "x": 139,
+        "x": 141,
         "y": 79,
         "autoIO": false
       }
@@ -22,8 +22,8 @@
       {
         "cIO": 0,
         "gIO": 0,
-        "x": 78,
-        "y": 33,
+        "x": 76,
+        "y": 46,
         "autoIO": false,
         "tC": 1000
       }
@@ -39,71 +39,35 @@
     "type": "blockstate"
   },
   "formedRenderer": {
-    "state": {
-      "id": "minecraft:sticky_piston",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "modelName": "powerhammer1",
+    "type": "geo"
   },
   "workingRenderer": {
-    "state": {
-      "id": "minecraft:sticky_piston",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "modelName": "powerhammer1",
+    "type": "geo"
   },
-  "isOpaqueCube": true,
+  "isOpaqueCube": false,
   "basePattern": {
     "structureDir": [
-      "BACK",
+      "LEFT",
       "UP",
-      "RIGHT"
+      "BACK"
     ],
     "pattern": [
       [
-        " A",
-        "  ",
-        "  ",
-        "  "
+        " A H ",
+        "     ",
+        "     ",
+        "     "
       ],
       [
-        "BC",
-        " A",
-        "  ",
-        "  "
-      ],
-      [
-        " D",
-        " E",
-        " @",
-        " F"
-      ],
-      [
-        "BC",
-        " G",
-        "  ",
-        "  "
-      ],
-      [
-        " G",
-        "  ",
-        "  ",
-        "  "
+        "BCDCE",
+        " BFE ",
+        "  @  ",
+        "  G  "
       ]
     ],
     "aisleRepetitions": [
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
       [
         1,
         1
@@ -115,47 +79,29 @@
     ],
     "predicates": {
       "controller": {
-        "location": "dimensionalpower:power_hammer_mk2",
+        "location": "multiblocked:power_hammer_mk1",
         "type": "component"
-      },
-      "C": {
-        "states": [
-          {
-            "id": "contenttweaker:lunarinsteelbrick",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "D": {
-        "states": [
-          {
-            "id": "pyrotech:anvil_iron_plated",
-            "meta": 0
-          }
-        ],
-        "type": "states"
       },
       "itemoutput": {
         "capability": "item",
         "type": "capability",
         "toolTips": [
-          "Any Capability: item IO: OUT"
-        ]
-      },
-      "E": {
-        "states": [
-          {
-            "id": "betterwithmods:steel_block",
-            "meta": 0
-          }
+          "Any Capability: item IO: BOTH"
         ],
-        "type": "states"
+        "io": "IN"
       },
-      "stairs": {
+      "anvil": {
         "blocks": [
           {
-            "id": "aesthetics:iron_brick_stairs"
+            "id": "pyrotech:anvil_granite"
+          }
+        ],
+        "type": "blocks"
+      },
+      "steelbrick": {
+        "blocks": [
+          {
+            "id": "contenttweaker:lunarinsteelbrick"
           }
         ],
         "type": "blocks"
@@ -170,6 +116,31 @@
       },
       "any": {
         "type": "any"
+      },
+      "iteminput": {
+        "capability": "item",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: item IO: BOTH"
+        ],
+        "io": "OUT"
+      },
+      "wroughtiron": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "smashblock": {
+        "blocks": [
+          {
+            "id": "minecraft:iron_block"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
       }
     },
     "symbolMap": {
@@ -180,25 +151,28 @@
         "any"
       ],
       "A": [
-        "stairs"
-      ],
-      "B": [
         "itemoutput"
       ],
+      "B": [
+        "wroughtiron"
+      ],
       "C": [
-        "C"
+        "steelbrick"
       ],
       "D": [
-        "D"
+        "anvil"
       ],
       "E": [
-        "E"
+        "wroughtiron"
       ],
       "F": [
-        "fluidinput"
+        "smashblock"
       ],
       "G": [
-        "stairs"
+        "fluidinput"
+      ],
+      "H": [
+        "iteminput"
       ]
     }
   },

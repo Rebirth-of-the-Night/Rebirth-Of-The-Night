@@ -1,6 +1,6 @@
 {
   "consumeCatalyst": false,
-  "location": "dimensionalpower:power_hammer_mk1",
+  "location": "multiblocked:power_hammer_mk2",
   "traits": {
     "item": [
       {
@@ -39,20 +39,14 @@
     "type": "blockstate"
   },
   "formedRenderer": {
-    "state": {
-      "id": "minecraft:sticky_piston",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "modelName": "powerhammer2",
+    "type": "geo"
   },
   "workingRenderer": {
-    "state": {
-      "id": "minecraft:sticky_piston",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "modelName": "powerhammer2",
+    "type": "geo"
   },
-  "isOpaqueCube": true,
+  "isOpaqueCube": false,
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -61,7 +55,7 @@
     ],
     "pattern": [
       [
-        " A A ",
+        " A H ",
         "     ",
         "     ",
         "     "
@@ -85,20 +79,21 @@
     ],
     "predicates": {
       "controller": {
-        "location": "dimensionalpower:power_hammer_mk1",
+        "location": "multiblocked:power_hammer_mk2",
         "type": "component"
       },
       "itemoutput": {
         "capability": "item",
         "type": "capability",
         "toolTips": [
-          "Any Capability: item IO: BOTH"
-        ]
+          "Any Capability: item IO: IN"
+        ],
+        "io": "IN"
       },
       "anvil": {
         "blocks": [
           {
-            "id": "pyrotech:anvil_granite"
+            "id": "pyrotech:anvil_iron_plated"
           }
         ],
         "type": "blocks"
@@ -122,6 +117,14 @@
       "any": {
         "type": "any"
       },
+      "iteminput": {
+        "capability": "item",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: item IO: OUT"
+        ],
+        "io": "OUT"
+      },
       "wroughtiron": {
         "blocks": [
           {
@@ -133,10 +136,11 @@
       "smashblock": {
         "blocks": [
           {
-            "id": "minecraft:iron_block"
+            "id": "betterwithmods:steel_block"
           }
         ],
-        "type": "blocks"
+        "type": "blocks",
+        "disableRenderFormed": true
       }
     },
     "symbolMap": {
@@ -166,6 +170,9 @@
       ],
       "G": [
         "fluidinput"
+      ],
+      "H": [
+        "iteminput"
       ]
     }
   },

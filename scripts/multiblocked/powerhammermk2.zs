@@ -14,8 +14,62 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
-var definition as ComponentDefinition = MBDRegistry.getDefinition("dimensionalpower:power_hammer_mk2");
+var definition as ComponentDefinition = MBDRegistry.getDefinition("multiblocked:power_hammer_mk2");
 var pwrhmrmk2 = definition as ControllerDefinition;
+
+val PowerHammerRecipeNames = [
+    "1break_clay_brick", 
+    "1break_coade_brick", 
+    "1break_masonry_brick", 
+    "1break_nether_brick", 
+    "1break_fiery_nether_brick", 
+    "1break_mud_brick", 
+    "1white_stone_recycling", 
+    "1prismarine_to_prismshard", 
+    "1prism_brick_to_prismshard_to", 
+    "1flintblock_to_flint", 
+    "1purpur_to_popped_chorus", 
+    "1halite_to_salt", 
+    "1dense_redstone", 
+    "1dense_quartz", 
+    "1ambrosium_to_magic_dust", 
+    "1lignite_to_coal_dust", 
+    "1lignite_cobble_to_coal_dust", 
+    "1lormyte_crystal", 
+    "1obsidian_dust", 
+    "1obsidian_shard", 
+    "1cobblestone_to_rocks", 
+    "1entropy_cobblestone", 
+    "1cracked_astral_block", 
+    "1zinc_bits_to_dust", 
+    "1gold_raw_to_dust", 
+    "1meteor_shard_to_dust", 
+    "1charcoal_pile_to_charcoal",  
+    "1crab_murder", 
+    "1wither_skull_to_dust", 
+    "1smash_heart_1", 
+    "1smash_heart_2", 
+    "1smash_heart_3", 
+    "1smash_heart_4", 
+    "1sfs_plating", 
+    "1refractorylump_fossil", 
+    "1refractorylump_quartz", 
+    "1refractorylump_radiantquartz",
+    "1refractorylump_chalk",
+    "1refractorylump_quartzite", 
+    "1refractorylump_marble", 
+    "1refractorylump_dolomite", 
+    "1refractorylump_limestone", 
+    "1refractorylump_chalk_cobble", 
+    "1refractorylump_quartzite_cobble", 
+    "1refractorylump_marble_cobble", 
+    "1refractorylump_dolomite_cobble", 
+    "1refractorylump_limestone_cobble", 
+    "1blaze_lantern_to_powder", 
+    "1dwarven_measures", 
+    "1glass_shards",
+    "1vilemist_production"
+] as string[];
 
 val PowerHammerItemOutputs = [
     <minecraft:brick>*4, 
@@ -179,6 +233,45 @@ val PowerHammerNumModifier = [
     4
 ] as int[];
 
+val PowerHammerRecipeNames1 = [
+    "1raw_endorium", 
+    "1copper_to_dust", 
+    "1copper_ore_to_dust", 
+    "1copper_raw_to_dust", 
+    "1tin_to_dust", 
+    "1tin_ore_to_dust", 
+    "1tin_raw_to_dust", 
+    "1iron_to_dust", 
+    "1iron_ore_to_dust", 
+    "1iron_raw_to_dust", 
+    "1bronze_to_dust", 
+    "1brass_to_dust", 
+    "1gold_to_dust", 
+    "1gold_ore_to_dust", 
+    "1silver_to_dust", 
+    "1silver_ore_to_dust", 
+    "1silver_raw_to_dust", 
+    "1gravitite_to_dust", 
+    "1gravitite_ore_to_dust", 
+    "1gravitite_raw_to_dust", 
+    "1electrum_to_dust", 
+    "1steel_to_dust", 
+    "1viridium_to_dust", 
+    "1viridium_ore_to_dust", 
+    "1viridium_raw_to_dust", 
+    "1mythril_to_dust", 
+    "1mythril_ore_to_dust", 
+    "1mythril_raw_to_dust", 
+    "1sfs_to_dust", 
+    "1endorium_to_dust", 
+    "1ambrosium_to_dust", 
+    "1ambrosium_ore_to_dust", 
+    "1log_to_pulp", 
+    "1kenaf_to_pulp",
+    "1refractorylump_ruby", 
+    "1refractorylump_sapphire"
+] as string[];
+
 val PowerHammerItemOutputs1 = [
     <endreborn:item_raw_endorium>, 
     <contenttweaker:material_part:20>, 
@@ -319,9 +412,9 @@ for i, input in PowerHammerItemInputs1 {
 
 for i in 0 to 16 {
     pwrhmrmk2.recipeMap.start()
-    .duration(10)
+    .duration(5)
     .inputItems(<minecraft:stained_glass>.definition.makeStack(i))
-    .inputFluids(<fluid:unstable_soulfire> * 10)
+    .inputFluids(<fluid:unstable_soulfire> * 5)
     .outputItems(<quark:glass_shards>.definition.makeStack(i+1) * 4)
     .buildAndRegister();
 }
