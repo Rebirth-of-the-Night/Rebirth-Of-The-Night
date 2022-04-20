@@ -1,0 +1,173 @@
+{
+  "consumeCatalyst": false,
+  "location": "dimensionalpower:power_hammer_mk1",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 18,
+        "y": 79,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 141,
+        "y": 79,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 76,
+        "y": 46,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "minecraft:sticky_piston",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "minecraft:sticky_piston",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "minecraft:sticky_piston",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        " A A ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "BCDCE",
+        " BFE ",
+        "  @  ",
+        "  G  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "dimensionalpower:power_hammer_mk1",
+        "type": "component"
+      },
+      "itemoutput": {
+        "capability": "item",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: item IO: BOTH"
+        ]
+      },
+      "anvil": {
+        "blocks": [
+          {
+            "id": "pyrotech:anvil_granite"
+          }
+        ],
+        "type": "blocks"
+      },
+      "steelbrick": {
+        "blocks": [
+          {
+            "id": "contenttweaker:lunarinsteelbrick"
+          }
+        ],
+        "type": "blocks"
+      },
+      "fluidinput": {
+        "capability": "fluid",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: fluid IO: IN"
+        ],
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      },
+      "wroughtiron": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "smashblock": {
+        "blocks": [
+          {
+            "id": "minecraft:iron_block"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "itemoutput"
+      ],
+      "B": [
+        "wroughtiron"
+      ],
+      "C": [
+        "steelbrick"
+      ],
+      "D": [
+        "anvil"
+      ],
+      "E": [
+        "wroughtiron"
+      ],
+      "F": [
+        "smashblock"
+      ],
+      "G": [
+        "fluidinput"
+      ]
+    }
+  },
+  "recipeMap": "empty"
+}

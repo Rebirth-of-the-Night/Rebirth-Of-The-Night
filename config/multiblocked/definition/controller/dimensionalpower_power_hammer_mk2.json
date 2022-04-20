@@ -1,0 +1,206 @@
+{
+  "consumeCatalyst": false,
+  "location": "dimensionalpower:power_hammer_mk2",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 10,
+        "y": 80,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 139,
+        "y": 79,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 78,
+        "y": 33,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "minecraft:sticky_piston",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "minecraft:sticky_piston",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "minecraft:sticky_piston",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " A",
+        "  ",
+        "  ",
+        "  "
+      ],
+      [
+        "BC",
+        " A",
+        "  ",
+        "  "
+      ],
+      [
+        " D",
+        " E",
+        " @",
+        " F"
+      ],
+      [
+        "BC",
+        " G",
+        "  ",
+        "  "
+      ],
+      [
+        " G",
+        "  ",
+        "  ",
+        "  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "dimensionalpower:power_hammer_mk2",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "contenttweaker:lunarinsteelbrick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "pyrotech:anvil_iron_plated",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "itemoutput": {
+        "capability": "item",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: item IO: OUT"
+        ]
+      },
+      "E": {
+        "states": [
+          {
+            "id": "betterwithmods:steel_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "stairs": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "fluidinput": {
+        "capability": "fluid",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: fluid IO: IN"
+        ],
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "stairs"
+      ],
+      "B": [
+        "itemoutput"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "fluidinput"
+      ],
+      "G": [
+        "stairs"
+      ]
+    }
+  },
+  "recipeMap": "empty"
+}

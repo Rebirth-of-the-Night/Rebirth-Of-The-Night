@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "multiblocked:blocks/casing/coil",
+        "down": "multiblocked:blocks/casing/coil",
+        "up": "multiblocked:blocks/casing/coil",
+        "north": "multiblocked:blocks/casing/coil",
+        "east": "multiblocked:blocks/casing/coil",
+        "south": "multiblocked:blocks/casing/coil",
+        "west": "multiblocked:blocks/casing/coil"
+    }
+}

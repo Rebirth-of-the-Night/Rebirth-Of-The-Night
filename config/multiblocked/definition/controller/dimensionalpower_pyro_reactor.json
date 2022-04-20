@@ -1,0 +1,259 @@
+{
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:1,Damage:0s}",
+  "consumeCatalyst": true,
+  "location": "dimensionalpower:pyro_reactor",
+  "traits": {
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 136,
+        "y": 61,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 15,
+        "y": 62,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 78,
+        "y": 105,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "biomesoplenty:flesh",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "modelName": "pyroreactor",
+    "type": "geo"
+  },
+  "workingRenderer": {
+    "modelName": "pyroreactor",
+    "type": "geo"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "  ABA  ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  "
+      ],
+      [
+        " A   A ",
+        "  AAA  ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  ",
+        " A   A "
+      ],
+      [
+        "A     A",
+        " AAAAA ",
+        "   C   ",
+        "  C C  ",
+        "   C   ",
+        " AAAAA ",
+        "A     A"
+      ],
+      [
+        "A  A  D",
+        " AAEAA ",
+        "  CFC  ",
+        "   @   ",
+        "  CCC  ",
+        " AAAAA ",
+        "A     A"
+      ],
+      [
+        "A     A",
+        " AAAAA ",
+        "   C   ",
+        "  C C  ",
+        "   C   ",
+        " AAAAA ",
+        "A     A"
+      ],
+      [
+        " A   A ",
+        "  AAA  ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  ",
+        " A   A "
+      ],
+      [
+        "  AGA  ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "  AAA  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "bricks": {
+        "blocks": [
+          {
+            "id": "contenttweaker:brick_minecraft_nether"
+          },
+          {
+            "id": "contenttweaker:brick_netherex_fiery"
+          },
+          {
+            "id": "ceramics:clay_hard"
+          },
+          {
+            "id": "contenttweaker:brick_pyrotech_refractory"
+          }
+        ],
+        "type": "blocks"
+      },
+      "output": {
+        "capability": "item",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: item IO: BOTH"
+        ]
+      },
+      "input": {
+        "capability": "item",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: item IO: BOTH"
+        ]
+      },
+      "controller": {
+        "location": "dimensionalpower:pyro_reactor",
+        "type": "component"
+      },
+      "glass": {
+        "blocks": [
+          {
+            "id": "betternether:quartz_glass_framed"
+          },
+          {
+            "id": "betternether:quartz_stained_glass_framed"
+          }
+        ],
+        "type": "blocks"
+      },
+      "fluidoutput": {
+        "capability": "fluid",
+        "type": "capability",
+        "toolTips": [
+          "Any Capability: fluid IO: BOTH"
+        ]
+      },
+      "fire": {
+        "blocks": [
+          {
+            "id": "biomesoplenty:blue_fire"
+          }
+        ],
+        "type": "blocks"
+      },
+      "witherblock": {
+        "blocks": [
+          {
+            "id": "contenttweaker:witheredblock"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "bricks"
+      ],
+      "B": [
+        "output",
+        "any"
+      ],
+      "C": [
+        "glass"
+      ],
+      "D": [
+        "fluidoutput"
+      ],
+      "E": [
+        "witherblock"
+      ],
+      "F": [
+        "fire"
+      ],
+      "G": [
+        "input",
+        "any"
+      ]
+    }
+  },
+  "recipeMap": "unstable_soulfire"
+}

@@ -1,9 +1,6 @@
 {
   "beasts": {
     "selector": {
-      "gamestages": {
-        "and": ["start"]
-      },
       "weight": 2,
       "dimension": {
         "type": "include",

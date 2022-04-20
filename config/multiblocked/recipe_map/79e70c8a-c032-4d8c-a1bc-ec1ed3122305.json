@@ -1,10 +1,10 @@
 {
-  "name": "soul_fire",
+  "name": "unstable_soulfire",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
       "uid": "6abbf3ee-4fcb-49c0-aafb-3d053451a785",
-      "duration": 250,
+      "duration": 200,
       "inputs": {
         "item": [
           {
