@@ -366,7 +366,7 @@ for potion in potionMap{
 <dungeontactics:silver_sword>.addTooltip("They will suffer as we have.");
 
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
-<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
+<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction.");
 
 <msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
 
@@ -383,4 +383,28 @@ for potion in potionMap{
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
 <msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may wield this weapon.");
 
-
+<spartanweaponry:longsword_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:longsword_electrum>.addTooltip("The call of the Void cannot be ignored.");
+<spartanweaponry:longsword_electrum>.displayName = "§cVoid's Howl";
+<spartanweaponry:saber_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:saber_electrum>.displayName = "§cAnhelare's Tongue";
+<spartanweaponry:rapier_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:rapier_electrum>.displayName = "§cThe Needle";
+<spartanweaponry:rapier_electrum>.addTooltip("Climb to unreachable heights.");
+<spartanweaponry:greatsword_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:greatsword_electrum>.displayName = "§cOnyx Slayer Greatsword";
+<spartanweaponry:hammer_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:hammer_electrum>.displayName = "§cThe Tenderizer";
+<spartanweaponry:hammer_electrum>.addTooltip("Only for the elites meats.");
+<spartanweaponry:warhammer_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:warhammer_electrum>.displayName = "§cThe Handle";
+<spartanweaponry:halberd_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:halberd_electrum>.displayName = "§cWingcutter";
+<spartanweaponry:lance_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:lance_electrum>.displayName = "§cBarako War Lance";
+<spartanweaponry:throwing_knife_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:throwing_knife_electrum>.displayName = "§cForeck";
+<spartanweaponry:boomerang_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:boomerang_electrum>.displayName = "§cThe 4th Whisper";
+<spartanweaponry:staff_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:staff_electrum>.displayName = "§cRuyi Bang";
