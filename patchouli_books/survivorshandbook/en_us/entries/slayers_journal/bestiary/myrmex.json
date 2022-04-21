@@ -8,11 +8,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(#734608)The myrmex are quite different from the other creatures in that they operate in a structured group setting rather than individually$(br2)They have formed a hierarchical caste system that splits its members to these various roles:$(br)worker, soldiers, sentinels, royals, and the queen"
+            "text": "$(#734608)The myrmex are quite different from the other creatures in that they operate in a structured group setting rather than individually$(br2)They form a complex hierarchical caste system that splits its members to these various roles:$(br)worker, soldiers, sentinels, royals, and the queen"
         },
         {
             "type": "text",
-            "text": "$(#734608)These colonies live in hives underground that typically have an opening to the surface for workers to forage$(br2)Each colony is aggressively territorial and will even attack other myrmex of a different hive$(br2)There exists both a desert variant and jungle variant, but there is no difference in their behavior"
+            "text": "$(#734608)These colonies live in hives underground that typically have an opening to the surface for workers to forage$(br2)Each colony is aggressively territorial and will even attack other myrmex of a different hive$(br2)The more common $(#782600)desert$(#734608) variant is described here, but there is also a rarer $(#047d4c)jungle$(#734608) variant.$(br)There is no difference in their behavior"
         },
         {
             "type": "text",
@@ -51,7 +51,7 @@
         {
             "type": "entity",
             "entity": "iceandfire:myrmex_sentinel",
-            "scale": 0.4,
+            "scale": 0.55,
             "offset": 0,
             "rotate": "true",
             "name": "Myrmex Sentinel",
@@ -77,7 +77,7 @@
         {
             "type": "entity",
             "entity": "iceandfire:myrmex_queen",
-            "scale": 0.4,
+            "scale": 0.55,
             "offset": 0,
             "rotate": "true",
             "name": "Myrmex Queen",
@@ -86,6 +86,20 @@
         {
             "type": "text",
             "text": "$(#734608)The Queen is the heart of the colony that brings in new myrmex into the colony. Without the queen, the colony is unable to sustain itself$(br2)But the queen is not defenseless, her bites are powerful and have a sting with incredible knockback$(br2)The Queen will trade various myrmex eggs for resin. The myrmex hatched from these eggs will be bonded with their owner"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Upon death, myrmex will drop their chitin, $(item)resin chunks$()$(#734608), and sometimes their $(item)stinger$()$(#734608)$(br2)The $(item)chitin$()$(#734608) can be used to craft various armor, tools, and weapons:$(br)$(item)Myrmex chitin armor$()$(#734608) provides poison resistance, enables climbing, and slightly boosts movement.$(br)$(item)Myrmex weapons$()$(#734608) inflict poison and deal bonus damage to non-arthropods and deathworms."
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:myrmex_staff_desert",
+            "text": "$(#734608)A $(item)myrmex staff$()$(#734608) can also be made to allow control over a colony's structure and larvae production given that the maximum reputation criterion with the colony is met"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:desert_myrmex_swarm",
+            "text": "$(#734608)The $(item)myrmex swarm staff$()$(#734608) is a unique single-use weapon that summons myrmex swarmers to defend the user for a short time at the cost of a myrmex queen egg"
         }
     ]
 }

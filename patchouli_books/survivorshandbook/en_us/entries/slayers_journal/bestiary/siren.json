@@ -17,7 +17,7 @@
         },
         {
             "type": "text",
-            "text": "$(#734608)Sirens lie on top of small outcroppings in the ocean in groups of two or more. They have been known to lure unsuspecting sailors in with their beautiful singing.$(br2) Once their prey is close enough, the $(thing)sirens$()$(#734608) will convert to their horrific naga forms and tear its prey apart with their razor sharp teeth and claws."
+            "text": "$(#734608)Sirens lie on top of small outcroppings in the ocean in groups of two or more. They have been known to lure unsuspecting sailors in with their beautiful singing$(br2) Once their prey is close enough, the $(thing)sirens$()$(#734608) will convert to their horrific naga forms and tear its prey apart with their razor sharp teeth and claws"
         },
         {
             "type": "crafting",
@@ -26,7 +26,7 @@
         },
         {
             "type": "text",
-            "text": "$(#734608)Sirens will drop prismarine shards, prismarine crystals, $(item)shiny scales$()$(#734608), and rarely a $(item)siren tear$()$(#734608) upon death.$(br2)Shiny scales can be brewed into potions of water breathing, forged into $(item)tide guardian armor$()$(#734608), or crafted into a $(item)siren flute.$()"
+            "text": "$(#734608)Sirens will drop prismarine shards, prismarine crystals, $(item)shiny scales$()$(#734608), and rarely a $(item)siren tear$()$(#734608) upon death$(br2)Shiny scales can be brewed into potions of water breathing, forged into $(item)tide guardian armor$()$(#734608), or crafted into a $(item)siren flute$()"
         },
         {
             "type": "runic_slim",

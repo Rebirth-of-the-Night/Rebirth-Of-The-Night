@@ -24,7 +24,8 @@
             "text": "$(#734608)Dropping cake near a pixie for it to eat will befriend it, and the pixie will then follow and give buffs according to its color:$(br2)$(#ff66ff)Pink: Strength$(br)$(#cc33ff)Purple: Jump Boost$(br)$(#4db8ff)Blue: Speed$(br)$(#00e600)Green: Luck$(br)$(#f6e530)Yellow: Haste$(br2)$(#734608)Befriended pixies can be healed with sugar"
         },
         {
-            "type": "text",
+            "type": "spotlight",
+            "item": "iceandfire:jar_pixie",
             "text": "$(#734608)Pixies can also be captured with a jar and placed to produce $(item)pixie dust$()$(#734608) every 3 days when the pixie sits down. Breaking the jar with a pixie will release it$(br2)Pixie dust can be directly consumed to give Levitation, Glowing, and Luck for a few seconds"
         },
         {

@@ -17,15 +17,15 @@
         },
         {
             "type": "text",
-            "text": "$(#734608)Hippogryphs can be found all across the world in many different biomes typically atop hills.$(br2)It is because of their prevalence across the world that they have a wide array of colors and patterns.$(br2)However, these creatures are aggressive hunters and will hunt anything smaller than itself including livestock and humans.$(br2)It will bite with its hooked"
+            "text": "$(#734608)Hippogryphs can be found all across the world in many different biomes typically atop hills$(br2)It is because of their prevalence across the world that they have a wide array of colors and patterns$(br2)However, these creatures are aggressive hunters and will hunt anything smaller than itself including livestock and humans$(br2)It will bite with its hooked"
         },
         {
             "type": "text",
-            "text": "$(#734608)beak and deliver kicks with incredible knockback.$(br2)These beasts can be tamed with rabbits feet by dropping several of them near it. It will soon start feeding and will sit down once tamed.$(br2)Hippogryphs can be saddled, carry chests, and wear $(item)hippogryph armor$()$(#734608)$(br2)Their current behavior can be altered by commanding it with a stick"
+            "text": "$(#734608)beak and deliver kicks with incredible knockback$(br2)These beasts can be tamed with rabbits feet by dropping several of them near it. It will soon start feeding and will sit down once tamed$(br2)Hippogryphs can be saddled, carry chests, and wear $(item)hippogryph armor$()$(#734608)$(br2)Their current behavior can be altered by commanding it with a stick"
         },
         {
             "type": "text",
-            "text": "$(#734608)Two hippogryphs may also be bred with $(item)rabbit stews$()$(#734608) while they are wandering.$(br2)Upon death, hippogryphs will drop feathers, leather, and rarely a hippogryph talon and skull.$(br2)The talon could be used to craft a $(item)hippogryph talon sword$()"
+            "text": "$(#734608)Two hippogryphs may also be bred with $(item)rabbit stews$()$(#734608) while they are wandering$(br2)Upon death, hippogryphs will drop feathers, leather, and rarely a hippogryph talon and skull$(br2)The talon could be used to craft a $(item)hippogryph talon sword$()"
         },
         {
             "type": "crafting",

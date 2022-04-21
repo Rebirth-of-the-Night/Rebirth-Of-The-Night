@@ -17,15 +17,15 @@
         },
         {
             "type": "text",
-            "text": "$(#734608)Cyclopes are found living in cyclops coves, large stone domes housing sheep pens near beaches. They may also rarely wander plains and savannas.$(br2)They will let out a loud, rumbling roar before rushing their enemy.$(br)It has a powerful stomp and kick, but it will also decaptitate enemies by biting off their heads resulting in almost guaranteed death."
+            "text": "$(#734608)Cyclopes are found living in cyclops coves, large stone domes housing sheep pens near beaches. They may also rarely wander plains and savannas$(br2)They will let out a loud, rumbling roar before rushing their enemy.$(br)It has a powerful stomp and kick, but it will also decaptitate enemies by biting off their heads resulting in almost guaranteed death"
         },
         {
             "type": "text",
-            "text": "$(#734608)Despite attacking almost anything within its sight, it will not attack livestock as they tend to take care of them.$(br)In fact, they are so good at shepherding sheep that any nearby sheep will automatically follow them.$(br2)One should exercise extreme caution that they do not attack a cyclops' flock of sheep."
+            "text": "$(#734608)Despite attacking almost anything within its sight, it will not attack livestock as they tend to raise and take care of them$(br2)In fact, they are so instinctually good at shepherding sheep that any nearby sheep will start to follow them$(br2)One should exercise extreme caution that they do $(o)not$()$(#734608) attack a cyclops' flock of sheep"
         },
         {
             "type": "text",
-            "text": "$(#734608)One can wear a full set of $(item)sheep disguise armor$()$(#734608) while sneaking near it to avoid detection. Wounding the $(item)cyclops' eye$()$(#734608) will also severely reduce its detection range to nearly its melee reach.$(br2)Managing to kill a cyclops will drop raw mutton, leather, wool, occasionally a $(item)cyclops eye$()$(#734608), and rarely its skull. Its eye can be held to inflict weakness to nearby monsters."
+            "text": "$(#734608)One can wear a full set of $(item)sheep disguise armor$()$(#734608) while sneaking near it to avoid detection. Wounding the $(item)cyclops' eye$()$(#734608) will also severely reduce its detection range to nearly its melee reach$(br2)Managing to kill a cyclops will drop mutton, leather, wool, occasionally a $(item)cyclops eye$()$(#734608), and rarely its skull$(br2)Its eye can be held to inflict weakness to nearby monsters"
         }
     ]
 }
