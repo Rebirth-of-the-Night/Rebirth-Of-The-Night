@@ -165,10 +165,10 @@ recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
 ]);
 
 // Energy System
-var unstableSoulfire = RecipeBuilder.newBuilder("unstable_soulfire", "pyroreactor", 100);
+var unstableSoulfire = RecipeBuilder.newBuilder("unstable_spiritfire", "pyroreactor", 100);
     unstableSoulfire.addItemInput(<betterwithmods:urn:8>);
     unstableSoulfire.addItemOutput(<betterwithmods:urn>);
-    unstableSoulfire.addFluidOutput(<liquid:unstable_soulfire>*1000);
+    unstableSoulfire.addFluidOutput(<liquid:unstable_spiritfire>*1000);
     unstableSoulfire.build();
 
 var dreadCold1 = RecipeBuilder.newBuilder("dread_cold1", "galechamber", 100);
@@ -185,26 +185,6 @@ var writhingBiomass = RecipeBuilder.newBuilder("writhing_biomass", "bioticincuba
     writhingBiomass.addItemInput(<adpother:vilemist>);
     writhingBiomass.addItemOutput(<contenttweaker:writhing_biomass>);
     writhingBiomass.build();
-
-recipes.removeByMod("pollutantpump");
-
-recipes.addShaped(<pollutantpump:pump>, [
-    [<ore:genericMetal>, <advancedliftingmethods:rotor>, <ore:genericMetal>],
-    [<ore:genericMetal>, <pyrotech:material:36>, <ore:genericMetal>], 
-    [<ore:genericMetal>, <advancedliftingmethods:rotor>, <ore:genericMetal>]
-]);
-
-recipes.addShaped(<pollutantpump:pipe>*4, [
-    [null, <ore:genericMetal>, null],
-    [<ore:genericMetal>, null, <ore:genericMetal>], 
-    [null, <ore:genericMetal>, null]
-]);
-
-recipes.addShaped(<adpother:iron_filter>, [
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <ore:genericMetalBars>, <minecraft:iron_ingot>], 
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
 
 // Nether Machines
 
@@ -427,7 +407,7 @@ val PowerHammerNumModifier = [
 for i, input in PowerHammerItemInputs {
     var powerhammerrecipe1 = RecipeBuilder.newBuilder(PowerHammerRecipeNames[i], "powerhammer", PowerHammerNumModifier[i]*10);
     powerhammerrecipe1.addItemInput(PowerHammerItemInputs[i]);
-    powerhammerrecipe1.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier[i]*10));
+    powerhammerrecipe1.addFluidInput(<liquid:unstable_spiritfire>*(PowerHammerNumModifier[i]*10));
     powerhammerrecipe1.addItemOutput(PowerHammerItemOutputs[i]);
     powerhammerrecipe1.build();
 }
@@ -591,7 +571,7 @@ val PowerHammerNumModifier1 = [
 for i, input in PowerHammerItemInputs1 {
     var powerhammerrecipe3 = RecipeBuilder.newBuilder(PowerHammerRecipeNames1[i], "powerhammer", PowerHammerNumModifier1[i]*10);
     powerhammerrecipe3.addItemInput(PowerHammerItemInputs1[i]);
-    powerhammerrecipe3.addFluidInput(<liquid:unstable_soulfire>*(PowerHammerNumModifier1[i]*10));
+    powerhammerrecipe3.addFluidInput(<liquid:unstable_spiritfire>*(PowerHammerNumModifier1[i]*10));
     powerhammerrecipe3.addItemOutput(PowerHammerItemOutputs1[i]);
     powerhammerrecipe3.build();
 }
@@ -599,14 +579,14 @@ for i, input in PowerHammerItemInputs1 {
 for i in 0 to 16 {
 	var powerhammerrecipe2 = RecipeBuilder.newBuilder("stained_shards_"~i, "powerhammer", 10);
     powerhammerrecipe2.addItemInput(<minecraft:stained_glass>.definition.makeStack(i));
-    powerhammerrecipe2.addFluidInput(<liquid:unstable_soulfire>*10);
+    powerhammerrecipe2.addFluidInput(<liquid:unstable_spiritfire>*10);
     powerhammerrecipe2.addItemOutput(<quark:glass_shards>.definition.makeStack(i+1)*4);
     powerhammerrecipe2.build();
 }
 
 var electrumPlate = RecipeBuilder.newBuilder("electrum_plate", "powerhammer", 320);
     electrumPlate.addItemInput(<ore:ingotElectrum>);
-    electrumPlate.addFluidInput(<liquid:unstable_soulfire>*320);
+    electrumPlate.addFluidInput(<liquid:unstable_spiritfire>*320);
     electrumPlate.addItemOutput(<contenttweaker:material_part:13>);
     electrumPlate.build();
 

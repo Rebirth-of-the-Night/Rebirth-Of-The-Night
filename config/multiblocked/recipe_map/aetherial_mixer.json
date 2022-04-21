@@ -1,0 +1,108 @@
+{
+  "name": "aetherial_mixer",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "595dd40e-d67f-490c-8cee-bc93d114cde5",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "ore": "gemAmbrosium"
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "ore": "durableFiber"
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:1,Damage:13s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"dread_cold\",Amount:8000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"dungeontactics:ducttape\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "c0ebb2d2-080c-4ea2-8369-b42da8a78e18",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 2,
+              "ore": "gemAmbrosium"
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 4,
+              "ore": "sourceGold"
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 3,
+              "ore": "sourceSilver"
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"dread_cold\",Amount:320}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"contenttweaker:material_part\",Count:8,Damage:12s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

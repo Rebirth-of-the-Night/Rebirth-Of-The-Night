@@ -17,7 +17,7 @@
         {
             "type": "fluid",
             "io-type": "output",
-            "fluid": "liquid:unstable_soulfire",
+            "fluid": "liquid:unstable_spiritfire",
             "amount": 1000
         }
     ]

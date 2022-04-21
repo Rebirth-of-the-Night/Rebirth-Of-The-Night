@@ -936,3 +936,12 @@ Dropt.list("yeast")
        	   .items([<exsartagine:yeast>])
       )
   );  
+
+Dropt.list("animania_seeds")
+
+  .add(Dropt.rule()
+      .matchBlocks(["animania:block_seeds"])
+      .matchDrops([<minecraft:wheat_seeds>])
+      .replaceStrategy("REPLACE_ITEMS")
+        .addDrop(Dropt.drop())
+      );

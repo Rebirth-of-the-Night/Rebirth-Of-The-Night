@@ -25,7 +25,7 @@
         "x": 76,
         "y": 46,
         "autoIO": false,
-        "tC": 1000
+        "tC": 16000
       }
     ]
   },
@@ -40,10 +40,12 @@
   },
   "formedRenderer": {
     "modelName": "powerhammer1",
+    "isGlobal": true,
     "type": "geo"
   },
   "workingRenderer": {
     "modelName": "powerhammer1",
+    "isGlobal": true,
     "type": "geo"
   },
   "isOpaqueCube": false,
@@ -55,7 +57,7 @@
     ],
     "pattern": [
       [
-        " A H ",
+        " AIH ",
         "     ",
         "     ",
         "     "
@@ -85,10 +87,7 @@
       "itemoutput": {
         "capability": "item",
         "type": "capability",
-        "toolTips": [
-          "Any Capability: item IO: BOTH"
-        ],
-        "io": "IN"
+        "io": "OUT"
       },
       "anvil": {
         "blocks": [
@@ -106,24 +105,8 @@
         ],
         "type": "blocks"
       },
-      "fluidinput": {
-        "capability": "fluid",
-        "type": "capability",
-        "toolTips": [
-          "Any Capability: fluid IO: IN"
-        ],
-        "io": "IN"
-      },
       "any": {
         "type": "any"
-      },
-      "iteminput": {
-        "capability": "item",
-        "type": "capability",
-        "toolTips": [
-          "Any Capability: item IO: BOTH"
-        ],
-        "io": "OUT"
       },
       "wroughtiron": {
         "blocks": [
@@ -147,12 +130,8 @@
       "@": [
         "controller"
       ],
-      " ": [
-        "any"
-      ],
-      "A": [
-        "itemoutput"
-      ],
+      " ": [],
+      "A": [],
       "B": [
         "wroughtiron"
       ],
@@ -169,10 +148,11 @@
         "smashblock"
       ],
       "G": [
-        "fluidinput"
+        "any"
       ],
-      "H": [
-        "iteminput"
+      "H": [],
+      "I": [
+        "itemoutput"
       ]
     }
   },

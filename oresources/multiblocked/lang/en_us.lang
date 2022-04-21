@@ -1,4 +1,13 @@
-tile.multiblocked.pyro_reactor=Pyro Reactor
-tile.multiblocked.power_hammer_mk1=Power Hammer Mk. 1
-tile.multiblocked.power_hammer_mk2=Power Hammer Mk. 2
-item.multiblocked.multiblock_builder=Multiblock Constructor
+pyro_reactor.name=Pyro Reactor
+pyro_reactor.description=A hellish structure that concentrates trapped souls into highly energetic Unstable Spiritfire using cursed flames.
+power_hammer_mk1.name=Power Hammer Mk. 1
+power_hammer_mk1.description=A powerful machine that can automatically crush hard materials using the agitation of souls concentrated within Unstable Spiritfire. 
+power_hammer_mk2.name=Power Hammer Mk. 2
+power_hammer_mk2.description=An even more powerful version of the earlier Power Hammer. It appears to be much quicker, and more efficient. Perhaps soulforged steel has a resonant effect on Unstable Spiritfire..?
+item.multiblockedmultiblock_builder.name=Multiblock Constructor
+gale_chamber.name=Gale Chamber
+gale_chamber.description=A drafty structure that concentrates Dread Mist and decompresses Concentrated Dread Cold into very powerful Dread Cold using residual aetherial winds. 
+aetherial_mixer.name=Aetherial Mixer 
+aetherial_mixer.description=A powerful machine that mixes magical materials together using the directed force of gales concentrated within Dread Cold. 
+dryer.name=Dryer 
+dryer.description=A mundane machine that dries out moist materials using the awesome power of... evaporation. 

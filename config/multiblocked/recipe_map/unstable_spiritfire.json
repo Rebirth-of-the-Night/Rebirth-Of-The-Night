@@ -1,5 +1,5 @@
 {
-  "name": "unstable_soulfire",
+  "name": "unstable_spiritfire",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
@@ -32,7 +32,7 @@
         ],
         "fluid": [
           {
-            "content": "{FluidName:\"unstable_soulfire\",Amount:1000}",
+            "content": "{FluidName:\"unstable_spiritfire\",Amount:1000}",
             "chance": 1.0
           }
         ]

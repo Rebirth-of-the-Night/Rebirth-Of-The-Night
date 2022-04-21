@@ -3,7 +3,7 @@
   "defaults": {
     "model": "forge:fluid",
     "custom": {
-      "fluid": "unstable_soulfire"
+      "fluid": "unstable_spiritfire"
     }
   },
   "variants": {

@@ -21,7 +21,7 @@
             "x": 0,
             "y": -3,
             "z": 0,
-            "description": "Replace the stone anvil with a SFS anvil\nto consume half as much unstable soulfire!",
+            "description": "Replace the stone anvil with a SFS anvil\nto consume half as much unstable spiritfire!",
             "modifier": {
                 "io": "input",
                 "target": "fluid",

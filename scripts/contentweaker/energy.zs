@@ -8,14 +8,20 @@ import mods.contenttweaker.Color;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.AxisAlignedBB;
 
-var unstableSoulfire = VanillaFactory.createFluid("unstable_soulfire", Color.fromHex("DC143C"));
-unstableSoulfire.temperature = 1300;
-unstableSoulfire.viscosity = 9999999999999999;
-unstableSoulfire.register();
+var unstableSpiritfire = VanillaFactory.createFluid("unstable_spiritfire", Color.fromHex("62D5E5"));
+unstableSpiritfire.temperature = 1300;
+unstableSpiritfire.viscosity = 9999999999999999;
+unstableSpiritfire.stillLocation = "contenttweaker:fluids/unstable_spiritfire_still";
+unstableSpiritfire.flowingLocation = "contenttweaker:fluids/unstable_spiritfire_flow";
+unstableSpiritfire.colorize= true;
+unstableSpiritfire.register();
 
 var dreadCold = VanillaFactory.createFluid("dread_cold", Color.fromHex("C9FFE5"));
 dreadCold.temperature = 100;
 dreadCold.viscosity = 9999999999999999;
+dreadCold.stillLocation = "contenttweaker:fluids/dread_cold_still";
+dreadCold.flowingLocation = "contenttweaker:fluids/dread_cold_flow";
+dreadCold.colorize= true;
 dreadCold.register();
 
 val rawdreadSlate = VanillaFactory.createItem("raw_dread_slate");

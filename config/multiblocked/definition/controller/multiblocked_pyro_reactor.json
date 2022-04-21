@@ -41,10 +41,12 @@
   },
   "formedRenderer": {
     "modelName": "pyroreactornew",
+    "isGlobal": true,
     "type": "geo"
   },
   "workingRenderer": {
     "modelName": "pyroreactornew",
+    "isGlobal": true,
     "type": "geo"
   },
   "isOpaqueCube": false,
@@ -188,9 +190,6 @@
         ],
         "type": "states"
       },
-      "D": {
-        "type": "any"
-      },
       "E": {
         "states": [
           {
@@ -212,9 +211,6 @@
       "itemin": {
         "capability": "item",
         "type": "capability",
-        "toolTips": [
-          "Any Capability: item IO: IN"
-        ],
         "io": "IN"
       },
       "H": {
@@ -224,7 +220,8 @@
             "meta": 0
           }
         ],
-        "type": "states"
+        "type": "states",
+        "disableRenderFormed": true
       },
       "any": {
         "type": "any"
@@ -232,17 +229,11 @@
       "fluidout": {
         "capability": "fluid",
         "type": "capability",
-        "toolTips": [
-          "Any Capability: fluid IO: OUT"
-        ],
         "io": "OUT"
       },
       "itemout": {
         "capability": "item",
         "type": "capability",
-        "toolTips": [
-          "Any Capability: item IO: OUT"
-        ],
         "io": "OUT"
       }
     },
@@ -264,7 +255,7 @@
         "C"
       ],
       "D": [
-        "D"
+        "bricks"
       ],
       "E": [
         "E"
@@ -283,5 +274,5 @@
       ]
     }
   },
-  "recipeMap": "unstable_soulfire"
+  "recipeMap": "unstable_spiritfire"
 }

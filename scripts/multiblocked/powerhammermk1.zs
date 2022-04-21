@@ -17,6 +17,8 @@ import mods.jei.JEI;
 var definition as ComponentDefinition = MBDRegistry.getDefinition("multiblocked:power_hammer_mk1");
 var pwrhmrmk1 = definition as ControllerDefinition;
 val newRP = RecipeMap("power_hammer_1") as RecipeMap;
+# Recipe.register(newRP);
+RecipeMap.register(newRP);
 pwrhmrmk1.recipeMap = newRP;
 
 val PowerHammerRecipeNames = [
@@ -398,7 +400,7 @@ for i, input in PowerHammerItemInputs {
     newRP.start()
     .duration(PowerHammerNumModifier[i] * 10)
     .inputItems(PowerHammerItemInputs[i])
-    .inputFluids(<fluid:unstable_soulfire> * ((PowerHammerNumModifier[i] * 10) as int))
+    .inputFluids(<fluid:unstable_spiritfire> * ((PowerHammerNumModifier[i] * 10) as int))
     .outputItems(PowerHammerItemOutputs[i])
     .buildAndRegister();
 }
@@ -407,7 +409,7 @@ for i, input in PowerHammerItemInputs1 {
     newRP.start()
     .duration(PowerHammerNumModifier1[i] * 10)
     .inputItems(PowerHammerItemInputs1[i])
-    .inputFluids(<fluid:unstable_soulfire> * ((PowerHammerNumModifier[i] * 10) as int))
+    .inputFluids(<fluid:unstable_spiritfire> * ((PowerHammerNumModifier[i] * 10) as int))
     .outputItems(PowerHammerItemOutputs1[i])
     .buildAndRegister();
 }
@@ -416,7 +418,7 @@ for i in 0 to 16 {
     newRP.start()
     .duration(10)
     .inputItems(<minecraft:stained_glass>.definition.makeStack(i))
-    .inputFluids(<fluid:unstable_soulfire> * 10)
+    .inputFluids(<fluid:unstable_spiritfire> * 10)
     .outputItems(<quark:glass_shards>.definition.makeStack(i+1) * 4)
     .buildAndRegister();
 }

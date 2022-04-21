@@ -1,0 +1,383 @@
+{
+  "consumeCatalyst": false,
+  "location": "multiblocked:dryer",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 15,
+        "y": 76,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 138,
+        "y": 76,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "minecraft:glass",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "minecraft:glass",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "minecraft:glass",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "ACA",
+        "ACA",
+        " A "
+      ],
+      [
+        "BGB",
+        "@EC",
+        "CFC",
+        "ADA"
+      ],
+      [
+        "ABA",
+        "ACA",
+        "ACA",
+        " A "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "bricks": {
+        "blocks": [
+          {
+            "id": "contenttweaker:brick_minecraft_stone"
+          },
+          {
+            "id": "undergroundbiomes:igneous_brick"
+          },
+          {
+            "id": "undergroundbiomes:metamorphic_brick"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks_chiseled"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks_cracked"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks_mossy"
+          },
+          {
+            "id": "contenttweaker:brick_quark_permafrost"
+          },
+          {
+            "id": "quark:polished_netherrack"
+          },
+          {
+            "id": "contenttweaker:brick_biomesoplenty_mud"
+          },
+          {
+            "id": "contenttweaker:brick_earthworks_adobe"
+          },
+          {
+            "id": "contenttweaker:brick_quark_brimstone"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks"
+          },
+          {
+            "id": "contenttweaker:brick_ceramics_porcelain"
+          },
+          {
+            "id": "contenttweaker:brick_betterwithaddons_whitebrick"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_end"
+          },
+          {
+            "id": "contenttweaker:brick_netherex_fiery"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_nether"
+          },
+          {
+            "id": "contenttweaker:brick_pyrotech_refractory"
+          },
+          {
+            "id": "contenttweaker:brick_pyrotech_masonry"
+          },
+          {
+            "id": "contenttweaker:brick_quark_sandy"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_clay"
+          },
+          {
+            "id": "endreborn:chiseled_end_bricks"
+          },
+          {
+            "id": "minecraft:stonebrick"
+          },
+          {
+            "id": "contenttweaker:brick_quark_soul_sandstone"
+          },
+          {
+            "id": "betterwithaddons:whitebrick"
+          },
+          {
+            "id": "betternether:cincinnasite_bricks"
+          },
+          {
+            "id": "ceramics:clay_hard"
+          },
+          {
+            "id": "contenttweaker:big_limestone_bricks"
+          },
+          {
+            "id": "contenttweaker:brick_aether_legacy_holystone"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_stone"
+          },
+          {
+            "id": "contenttweaker:big_chert_bricks"
+          },
+          {
+            "id": "contenttweaker:big_greywacke_bricks"
+          },
+          {
+            "id": "contenttweaker:big_dolomite_bricks"
+          },
+          {
+            "id": "contenttweaker:big_lignite_bricks"
+          },
+          {
+            "id": "contenttweaker:big_siltstone_bricks"
+          },
+          {
+            "id": "contenttweaker:big_shale_bricks"
+          },
+          {
+            "id": "contenttweaker:big_chalk_bricks"
+          },
+          {
+            "id": "contenttweaker:brick_quark_red_sandstone"
+          },
+          {
+            "id": "contenttweaker:brick_quark_sandstone"
+          }
+        ],
+        "type": "blocks"
+      },
+      "input": {
+        "capability": "item",
+        "type": "capability",
+        "io": "IN"
+      },
+      "controller": {
+        "location": "multiblocked:dryer",
+        "type": "component"
+      },
+      "drying": {
+        "blocks": [
+          {
+            "id": "pyrotech:drying_rack"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "quark:chute",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "woods": {
+        "blocks": [
+          {
+            "id": "contenttweaker:hellbark_boards"
+          },
+          {
+            "id": "contenttweaker:oak_boards"
+          },
+          {
+            "id": "contenttweaker:umbran_boards"
+          },
+          {
+            "id": "contenttweaker:acacia_boards"
+          },
+          {
+            "id": "contenttweaker:dreadwood_boards"
+          },
+          {
+            "id": "contenttweaker:ironwood_boards"
+          },
+          {
+            "id": "contenttweaker:jungle_boards"
+          },
+          {
+            "id": "contenttweaker:wyrmwood_boards"
+          },
+          {
+            "id": "contenttweaker:stalagnate_boards"
+          },
+          {
+            "id": "contenttweaker:sacred_oak_boards"
+          },
+          {
+            "id": "contenttweaker:cherry_boards"
+          },
+          {
+            "id": "contenttweaker:spruce_boards"
+          },
+          {
+            "id": "contenttweaker:olive_boards"
+          },
+          {
+            "id": "contenttweaker:palm_boards"
+          },
+          {
+            "id": "contenttweaker:ebony_boards"
+          },
+          {
+            "id": "contenttweaker:tenebra_boards"
+          },
+          {
+            "id": "contenttweaker:pine_boards"
+          },
+          {
+            "id": "contenttweaker:mangrove_boards"
+          },
+          {
+            "id": "contenttweaker:dark_oak_boards"
+          },
+          {
+            "id": "contenttweaker:birch_boards"
+          },
+          {
+            "id": "contenttweaker:magic_boards"
+          },
+          {
+            "id": "contenttweaker:fir_boards"
+          },
+          {
+            "id": "contenttweaker:eucalyptus_boards"
+          },
+          {
+            "id": "contenttweaker:jacaranda_boards"
+          },
+          {
+            "id": "contenttweaker:mahogany_boards"
+          },
+          {
+            "id": "contenttweaker:redwood_boards"
+          },
+          {
+            "id": "contenttweaker:willow_boards"
+          },
+          {
+            "id": "contenttweaker:skywood_boards"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      },
+      "bars": {
+        "blocks": [
+          {
+            "id": "minecraft:iron_bars"
+          },
+          {
+            "id": "aesthetics:copper_bars"
+          },
+          {
+            "id": "aether_legacy:zanite_bars"
+          },
+          {
+            "id": "betterwithaddons:wrought_bars"
+          },
+          {
+            "id": "betternether:cincinnasite_bars"
+          }
+        ],
+        "type": "blocks"
+      },
+      "out": {
+        "capability": "item",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "bricks"
+      ],
+      "B": [
+        "woods"
+      ],
+      "C": [
+        "bars"
+      ],
+      "D": [
+        "input"
+      ],
+      "E": [
+        "drying"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "out"
+      ]
+    }
+  },
+  "recipeMap": "empty"
+}

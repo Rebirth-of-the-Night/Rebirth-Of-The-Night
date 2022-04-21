@@ -1,0 +1,246 @@
+{
+  "consumeCatalyst": false,
+  "location": "multiblocked:aetherial_mixer",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 33,
+        "y": 32,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 33,
+        "y": 78,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 33,
+        "y": 122,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 125,
+        "y": 77,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 78,
+        "y": 12,
+        "autoIO": false,
+        "tC": 16000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "betterwithmods:steel_axle",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "betterwithmods:steel_axle",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "betterwithmods:steel_axle",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABC",
+        " DC",
+        " EC",
+        " C "
+      ],
+      [
+        " F ",
+        " @G",
+        " HG",
+        " I "
+      ],
+      [
+        "ABC",
+        " DC",
+        " EC",
+        " C "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "multiblocked:aetherial_mixer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:block_electrum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "earthworks:wall_slate_shingle",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "slatewalls": {
+        "blocks": [
+          {
+            "id": "earthworks:wall_slate_shingle"
+          },
+          {
+            "id": "earthworks:wall_slate_slab"
+          },
+          {
+            "id": "earthworks:wall_slate_tile"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "betterwithmods:cooking_pot",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "slateblock": {
+        "blocks": [
+          {
+            "id": "earthworks:block_slate_slab"
+          },
+          {
+            "id": "earthworks:block_slate_shingle"
+          },
+          {
+            "id": "earthworks:block_slate_tile"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "earthworks:block_slate_shingle",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "stairs": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "gearbox": {
+        "blocks": [
+          {
+            "id": "betterwithmods:steel_gearbox"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      },
+      "axle": {
+        "blocks": [
+          {
+            "id": "betterwithmods:steel_axle"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true,
+        "nbtParser": "\"power\":\"1\""
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "stairs"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "slatewalls"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "slateblock"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "axle"
+      ],
+      "I": [
+        "gearbox"
+      ]
+    }
+  },
+  "recipeMap": "aetherial_mixer"
+}
