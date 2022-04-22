@@ -5,15 +5,15 @@
   "traits": {
     "item": [
       {
-        "cIO": 0,
-        "gIO": 0,
+        "cIO": 2,
+        "gIO": 2,
         "x": 13,
         "y": 83,
         "autoIO": false
       },
       {
-        "cIO": 1,
-        "gIO": 1,
+        "cIO": 2,
+        "gIO": 2,
         "x": 141,
         "y": 81,
         "autoIO": false
@@ -21,12 +21,12 @@
     ],
     "fluid": [
       {
-        "cIO": 1,
-        "gIO": 1,
-        "x": 82,
-        "y": 107,
+        "cIO": 2,
+        "gIO": 2,
+        "x": 72,
+        "y": 96,
         "autoIO": false,
-        "tC": 16000
+        "tC": 1000
       }
     ]
   },

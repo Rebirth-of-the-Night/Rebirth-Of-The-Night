@@ -4,15 +4,15 @@
   "traits": {
     "item": [
       {
-        "cIO": 0,
-        "gIO": 0,
+        "cIO": 2,
+        "gIO": 2,
         "x": 18,
-        "y": 79,
+        "y": 78,
         "autoIO": false
       },
       {
-        "cIO": 1,
-        "gIO": 1,
+        "cIO": 2,
+        "gIO": 2,
         "x": 141,
         "y": 79,
         "autoIO": false

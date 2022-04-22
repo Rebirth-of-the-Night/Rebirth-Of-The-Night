@@ -5,8 +5,8 @@
   "traits": {
     "item": [
       {
-        "cIO": 0,
-        "gIO": 0,
+        "cIO": 2,
+        "gIO": 2,
         "x": 79,
         "y": 49,
         "autoIO": false
@@ -14,12 +14,12 @@
     ],
     "fluid": [
       {
-        "cIO": 1,
-        "gIO": 1,
-        "x": 77,
-        "y": 109,
+        "cIO": 2,
+        "gIO": 2,
+        "x": 74,
+        "y": 111,
         "autoIO": false,
-        "tC": 16000
+        "tC": 1000
       }
     ]
   },
@@ -33,18 +33,14 @@
     "type": "blockstate"
   },
   "formedRenderer": {
-    "state": {
-      "id": "aether_legacy:enchanted_gravitite",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "modelName": "galechamber",
+    "isGlobal": true,
+    "type": "geo"
   },
   "workingRenderer": {
-    "state": {
-      "id": "aether_legacy:enchanted_gravitite",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "modelName": "galechamber",
+    "isGlobal": true,
+    "type": "geo"
   },
   "isOpaqueCube": false,
   "basePattern": {
@@ -66,9 +62,9 @@
       [
         "  AAA  ",
         " A B A ",
-        "A     A",
-        "A     A",
-        "A     A",
+        "A JJJ A",
+        "A J J A",
+        "A JJJ A",
         " A   A ",
         "  AAA  "
       ],
@@ -231,6 +227,14 @@
           {
             "id": "aether_legacy:dungeon_block",
             "meta": 3
+          },
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 2
+          },
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 4
           }
         ],
         "type": "states"
@@ -265,17 +269,16 @@
         ],
         "type": "states"
       },
-      "any": {
-        "type": "any"
-      },
-      "fan": {
+      "lever": {
         "blocks": [
           {
-            "id": "dungeontactics:fan_block"
+            "id": "minecraft:lever"
           }
         ],
-        "type": "blocks",
-        "nbtParser": "\"isPowered\":\"1b\""
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
       },
       "fluidout": {
         "capability": "fluid",
@@ -286,6 +289,35 @@
         "capability": "item",
         "type": "capability",
         "io": "IN"
+      },
+      "realfans": {
+        "states": [
+          {
+            "id": "dungeontactics:fan_block",
+            "meta": 0
+          },
+          {
+            "id": "dungeontactics:fan_block",
+            "meta": 1
+          },
+          {
+            "id": "dungeontactics:fan_block",
+            "meta": 2
+          },
+          {
+            "id": "dungeontactics:fan_block",
+            "meta": 3
+          },
+          {
+            "id": "dungeontactics:fan_block",
+            "meta": 4
+          },
+          {
+            "id": "dungeontactics:fan_block",
+            "meta": 5
+          }
+        ],
+        "type": "states"
       }
     },
     "symbolMap": {
@@ -306,7 +338,7 @@
         "C"
       ],
       "D": [
-        "fan"
+        "realfans"
       ],
       "E": [
         "E"
@@ -322,6 +354,10 @@
       ],
       "I": [
         "I"
+      ],
+      "J": [
+        "lever",
+        "any"
       ]
     }
   },

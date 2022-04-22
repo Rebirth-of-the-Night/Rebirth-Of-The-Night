@@ -4,29 +4,29 @@
   "traits": {
     "item": [
       {
-        "cIO": 0,
-        "gIO": 0,
+        "cIO": 2,
+        "gIO": 2,
         "x": 33,
         "y": 32,
         "autoIO": false
       },
       {
-        "cIO": 0,
-        "gIO": 0,
-        "x": 33,
+        "cIO": 2,
+        "gIO": 2,
+        "x": 34,
         "y": 78,
         "autoIO": false
       },
       {
-        "cIO": 0,
-        "gIO": 0,
+        "cIO": 2,
+        "gIO": 2,
         "x": 33,
         "y": 122,
         "autoIO": false
       },
       {
-        "cIO": 1,
-        "gIO": 1,
+        "cIO": 2,
+        "gIO": 2,
         "x": 125,
         "y": 77,
         "autoIO": false
@@ -34,10 +34,10 @@
     ],
     "fluid": [
       {
-        "cIO": 0,
-        "gIO": 0,
-        "x": 78,
-        "y": 12,
+        "cIO": 2,
+        "gIO": 2,
+        "x": 77,
+        "y": 37,
         "autoIO": false,
         "tC": 16000
       }
@@ -53,18 +53,14 @@
     "type": "blockstate"
   },
   "formedRenderer": {
-    "state": {
-      "id": "betterwithmods:steel_axle",
-      "meta": 4
-    },
-    "type": "blockstate"
+    "modelName": "aetherialmixer",
+    "isGlobal": true,
+    "type": "geo"
   },
   "workingRenderer": {
-    "state": {
-      "id": "betterwithmods:steel_axle",
-      "meta": 4
-    },
-    "type": "blockstate"
+    "modelName": "aetherialmixer",
+    "isGlobal": true,
+    "type": "geo"
   },
   "isOpaqueCube": false,
   "basePattern": {
@@ -78,19 +74,19 @@
         "ABC",
         " DC",
         " EC",
-        " C "
+        " JJ"
       ],
       [
-        " F ",
+        "KF ",
         " @G",
         " HG",
-        " I "
+        " IJ"
       ],
       [
         "ABC",
         " DC",
         " EC",
-        " C "
+        " JJ"
       ]
     ],
     "aisleRepetitions": [
@@ -108,6 +104,11 @@
       ]
     ],
     "predicates": {
+      "outputs": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
       "controller": {
         "location": "multiblocked:aetherial_mixer",
         "type": "component"
@@ -116,15 +117,6 @@
         "states": [
           {
             "id": "contenttweaker:block_electrum",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "D": {
-        "states": [
-          {
-            "id": "earthworks:wall_slate_shingle",
             "meta": 0
           }
         ],
@@ -167,15 +159,6 @@
         ],
         "type": "blocks"
       },
-      "G": {
-        "states": [
-          {
-            "id": "earthworks:block_slate_shingle",
-            "meta": 3
-          }
-        ],
-        "type": "states"
-      },
       "stairs": {
         "blocks": [
           {
@@ -184,13 +167,10 @@
         ],
         "type": "blocks"
       },
-      "gearbox": {
-        "blocks": [
-          {
-            "id": "betterwithmods:steel_gearbox"
-          }
-        ],
-        "type": "blocks"
+      "fluidin": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
       },
       "any": {
         "type": "any"
@@ -202,8 +182,7 @@
           }
         ],
         "type": "blocks",
-        "disableRenderFormed": true,
-        "nbtParser": "\"power\":\"1\""
+        "disableRenderFormed": true
       }
     },
     "symbolMap": {
@@ -223,7 +202,7 @@
         "slatewalls"
       ],
       "D": [
-        "D"
+        "slatewalls"
       ],
       "E": [
         "slateblock"
@@ -232,13 +211,19 @@
         "F"
       ],
       "G": [
-        "G"
+        "slateblock"
       ],
       "H": [
         "axle"
       ],
       "I": [
-        "gearbox"
+        "fluidin"
+      ],
+      "J": [
+        "stairs"
+      ],
+      "K": [
+        "outputs"
       ]
     }
   },
