@@ -291,33 +291,12 @@
         "io": "IN"
       },
       "realfans": {
-        "states": [
+        "blocks": [
           {
-            "id": "dungeontactics:fan_block",
-            "meta": 0
-          },
-          {
-            "id": "dungeontactics:fan_block",
-            "meta": 1
-          },
-          {
-            "id": "dungeontactics:fan_block",
-            "meta": 2
-          },
-          {
-            "id": "dungeontactics:fan_block",
-            "meta": 3
-          },
-          {
-            "id": "dungeontactics:fan_block",
-            "meta": 4
-          },
-          {
-            "id": "dungeontactics:fan_block",
-            "meta": 5
+            "id": "dungeontactics:fan_block"
           }
         ],
-        "type": "states"
+        "type": "blocks"
       }
     },
     "symbolMap": {
