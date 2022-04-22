@@ -8,6 +8,7 @@ import crafttweaker.oredict.IOreDictEntry;
 JEI.removeAndHide(<multiblocked:blueprint_table>);
 JEI.removeAndHide(<multiblocked:blueprint_table_part>);
 JEI.removeAndHide(<multiblocked:blueprint>);
+JEI.removeAndHide(<multiblocked:controller_tester>);
 recipes.removeByMod("multiblocked");
 val brassIngot = <ore:ingotBrass>;
 

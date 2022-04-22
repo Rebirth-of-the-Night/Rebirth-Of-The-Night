@@ -28,17 +28,12 @@
 							"easing": "linear"
 						},
 						"2.0": {
-							"vector": [0, 0, 0],
+							"vector": [0, 0, 64],
 							"easing": "linear"
 						}
 					},
 					"scale": {
-						"0.0": {
-							"vector": [1, 1, 1]
-						},
-						"2.0": {
-							"vector": [0, 0, 0]
-						}
+						"vector": [1, 1, 1]
 					}
 				},
 				"wind5": {
@@ -64,17 +59,12 @@
 							"easing": "linear"
 						},
 						"2.0833": {
-							"vector": [0, 0, 0],
+							"vector": [0, 0, 64],
 							"easing": "linear"
 						}
 					},
 					"scale": {
-						"0.0833": {
-							"vector": [1, 1, 1]
-						},
-						"2.0833": {
-							"vector": [0, 0, 0]
-						}
+						"vector": [1, 1, 1]
 					}
 				},
 				"lilfella": {
@@ -147,17 +137,12 @@
 							"easing": "linear"
 						},
 						"2.0": {
-							"vector": [0, 0, 0],
+							"vector": [0, 0, 64],
 							"easing": "linear"
 						}
 					},
 					"scale": {
-						"0.0": {
-							"vector": [1, 1, 1]
-						},
-						"2.0": {
-							"vector": [0, 0, 0]
-						}
+						"vector": [1, 1, 1]
 					}
 				},
 				"wind13": {
@@ -183,17 +168,12 @@
 							"easing": "linear"
 						},
 						"2.0833": {
-							"vector": [0, 0, 0],
+							"vector": [0, 0, 64],
 							"easing": "linear"
 						}
 					},
 					"scale": {
-						"0.0833": {
-							"vector": [1, 1, 1]
-						},
-						"2.0833": {
-							"vector": [0, 0, 0]
-						}
+						"vector": [1, 1, 1]
 					}
 				},
 				"wind17": {
@@ -219,17 +199,12 @@
 							"easing": "linear"
 						},
 						"2.0": {
-							"vector": [0, 0, 0],
+							"vector": [0, 0, 64],
 							"easing": "linear"
 						}
 					},
 					"scale": {
-						"0.0": {
-							"vector": [1, 1, 1]
-						},
-						"2.0": {
-							"vector": [0, 0, 0]
-						}
+						"vector": [1, 1, 1]
 					}
 				},
 				"wind21": {
@@ -255,16 +230,24 @@
 							"easing": "linear"
 						},
 						"2.0833": {
-							"vector": [0, 0, 0],
+							"vector": [0, 0, 64],
 							"easing": "linear"
 						}
 					},
 					"scale": {
-						"0.0833": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"supportrs": {
+					"scale": {
+						"0.0": {
 							"vector": [1, 1, 1]
 						},
+						"1.0417": {
+							"vector": [0.99, 0.99, 0.99]
+						},
 						"2.0833": {
-							"vector": [0, 0, 0]
+							"vector": [1, 1, 1]
 						}
 					}
 				}
