@@ -48,9 +48,9 @@ Heating.addStateSource(<blockstate:betterwithmods:creative_generator>, 2500);
 
 // burner heater fuel
 BurnerHeater.clear();
-BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1600*100);
-BurnerHeater.addFuel(<betterwithmods:aesthetic:13>, 2800, 1800*100);
-BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2500*100);
+BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1700*100);
+BurnerHeater.addFuel(<betterwithmods:aesthetic:13>, 2800, 1900*100);
+BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2600*100);
 
 //recipes
 val porcelain_bricks = <contenttweaker:brick_ceramics_porcelain>;
@@ -278,6 +278,8 @@ Melting.addRecipe(<liquid:viridium>*(144*9), <contenttweaker:lunarinviridiumbric
 Melting.addRecipe(<liquid:viridium>*16, <ore:nuggetViridium>, 2500);
 Melting.addRecipe(<liquid:ambrosium>*144, <ore:gemAmbrosium>, 300);
 Melting.addRecipe(<liquid:ambrosium>*(144*9), <aether_legacy:ambrosium_block>, 300);
+Melting.addRecipe(<liquid:mythril>*192, <ore:oreMythril>, 2500);
+Melting.addRecipe(<liquid:viridium>*192, <ore:oreViridium>, 2500);
 
 Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450); // miscellaneous melting
 Melting.addRecipe(<liquid:blood>*48, <charm:rotten_flesh_block>, 1300);

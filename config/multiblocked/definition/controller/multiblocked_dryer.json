@@ -215,14 +215,6 @@
         "location": "multiblocked:dryer",
         "type": "component"
       },
-      "drying": {
-        "blocks": [
-          {
-            "id": "pyrotech:drying_rack"
-          }
-        ],
-        "type": "blocks"
-      },
       "F": {
         "states": [
           {
@@ -344,6 +336,27 @@
         ],
         "type": "blocks"
       },
+      "dryer": {
+        "states": [
+          {
+            "id": "pyrotech:drying_rack",
+            "meta": 5
+          },
+          {
+            "id": "pyrotech:drying_rack",
+            "meta": 6
+          },
+          {
+            "id": "pyrotech:drying_rack",
+            "meta": 7
+          },
+          {
+            "id": "pyrotech:drying_rack",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
       "out": {
         "capability": "item",
         "type": "capability"
@@ -369,7 +382,7 @@
         "input"
       ],
       "E": [
-        "drying"
+        "dryer"
       ],
       "F": [
         "F"

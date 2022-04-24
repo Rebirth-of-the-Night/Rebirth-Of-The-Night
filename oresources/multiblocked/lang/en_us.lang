@@ -1,5 +1,5 @@
 pyro_reactor.name=Pyro Reactor
-pyro_reactor.description=A hellish structure that concentrates trapped souls into highly energetic Unstable Spiritfire using cursed flames.
+pyro_reactor.description=A hellish structure that concentrates trapped souls into highly energetic Unstable Spiritfire using cursed flames. 
 power_hammer_mk1.name=Power Hammer Mk. 1
 power_hammer_mk1.description=A powerful machine that can automatically crush hard materials using the agitation of souls concentrated within Unstable Spiritfire. 
 power_hammer_mk2.name=Power Hammer Mk. 2
@@ -10,4 +10,8 @@ gale_chamber.description=A drafty structure that concentrates Dread Mist and dec
 aetherial_mixer.name=Aetherial Mixer 
 aetherial_mixer.description=A powerful machine that mixes magical materials together using the directed force of gales concentrated within Dread Cold. 
 dryer.name=Dryer 
-dryer.description=A mundane machine that dries out moist materials using the awesome power of... evaporation. 
+dryer.description=A mundane machine that dries out moist materials using the awesome power of evaporation. 
+biotic_incubator.name=Biotic Incubator
+biotic_incubator.description=A sickening structure that perpetually forces a plague leech to grow using Vilemist and sawing off parts of its body for use as the potent Writhing Biomass. 
+crystalline_accelerator.name=Crystalline Accelerator 
+crystalline_accelerator.description=A powerful machine that accelerates the growth rate of radiant crystals using bio-enhanced Arcane Mythril. 
