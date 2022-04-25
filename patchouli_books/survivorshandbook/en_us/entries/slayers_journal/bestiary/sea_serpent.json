@@ -1,0 +1,32 @@
+{
+    "name": "Sea Serpent",
+    "icon": "iceandfire:sea_serpent_fang",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 11,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:seaserpent",
+            "scale": 1.0,
+            "offset": 2.0,
+            "rotate": "true",
+            "name": "Sea Serpent",
+            "text": "$(thing)Sea serpents$()$(#734608) are the \"dragons of the sea\" having long serpentine bodies and colorful scales"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Sea serpents can be found commonly in oceans coming in various colors and sizes. The largest ones are known to be called \"ancient sea serpents\" and are much more powerful$(br2)They are extremely aggressive and will swiftly take a large bite out of their prey or leap high up out of the water to slam their target. If far away, the sea serpent will fire a jet of scalding water that deals damage over time"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Using a fragile boat to maneuver around a sea serpent is $(o)incredibly$()$(#734608) dangerous and reckless. One might only hope to ride an armored hippocampus to traverse the water quickly enough$(br2)Should a sea serpent be felled, it will drop its colored $(item)sea serpent scales$()$(#734608), $(item)sea serpent fangs$()$(#734608), and rarely its skull"
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:tide_trident",
+            "text": "$(#734608)The sea serpent scales can be used to craft powerful $(item)tide guardian armor$()$(#734608) or crafted with fangs to create a strong $(item)tide trident$()$(#734608). They could also be used to craft $(item)tide arrow$()$(#734608) which pierce through the water"
+        }
+    ]
+}

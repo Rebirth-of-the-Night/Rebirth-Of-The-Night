@@ -1,0 +1,38 @@
+{
+    "name": "Siren",
+    "icon": "iceandfire:siren_tear",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 12,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:siren",
+            "scale": 0.5,
+            "offset": 0,
+            "rotate": "true",
+            "name": "Siren",
+            "text": "$(#734608)$(thing)Sirens$()$(#734608) appear to be beautiful women with the tails of a fish at first glance."
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Sirens lie on top of small outcroppings in the ocean in groups of two or more. They have been known to lure unsuspecting sailors in with their beautiful singing$(br2) Once their prey is close enough, the $(thing)sirens$()$(#734608) will convert to their horrific naga forms and tear its prey apart with their razor sharp teeth and claws"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:earplugs",
+            "text": "$(#734608)One can protect themselves from siren by wearing earplugs which will render the user immune to the siren's song"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Sirens will drop prismarine shards, prismarine crystals, $(item)shiny scales$()$(#734608), and rarely a $(item)siren tear$()$(#734608) upon death$(br2)Shiny scales can be brewed into potions of water breathing, forged into $(item)tide guardian armor$()$(#734608), or crafted into a $(item)siren flute$()"
+        },
+        {
+            "type": "runic_slim",
+            "recipe": "mage:1216961044",
+            "text_left": "$(#734608)A powerful flute able to render targets infatuated and unable to attack for 10 seconds",
+            "text_right": ""
+        }
+    ]
+}

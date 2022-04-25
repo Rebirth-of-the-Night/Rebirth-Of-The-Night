@@ -1,0 +1,32 @@
+{
+    "name": "Hippocampus",
+    "icon": "iceandfire:hippocampus_fin",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 6,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippocampus",
+            "scale": 0.6,
+            "offset": 0.2,
+            "rotate": "true",
+            "name": "Hippocampus",
+            "text": "$(thing)Hippocampi$()$(#734608) are aquatic beasts with the front of a horse and tail of a fish coming in various colors"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Hippocampi are the fastest creatures of the sea. They are peaceful and will slowly regenerate health over time.$(br2)Hippocampi can be tamed with sponges, but will continue to wander around when tamed.$(br2)Their behavior can then be altered by interacting with them with a stick.$(br2)Two hippocampi are bred with prismarine crystals"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)A tamed hippocampus's inventory can be accessed by interacting with it while sneaking in order to equip a saddle, armor, and even carry a chest.$(br2)Upon death, a hippocampus will drop $(item)shiny scales$()$(#734608) and rarely a $(item)hippocampus fin$()$(br2)$(#734608)The shiny scales are used as a component for several crafts like water breathing potions and $(item)tide guardian armor$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:hippocampus_slapper",
+            "text": "$(#734608)The hippocampus fin is used to craft a $(item)hippocampus slapper$()$(#734608) that briefly stuns the target"
+        }
+    ]
+}

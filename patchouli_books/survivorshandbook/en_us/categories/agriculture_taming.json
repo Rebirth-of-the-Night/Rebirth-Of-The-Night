@@ -1,0 +1,7 @@
+{
+    "name": "Tamed Beasts",
+    "description": "Wild, potentially dangerous creatures that are not as submissive as livestock, but can still be tamed under certain conditions enabling unique recipes and/or transportation",
+    "icon": "minecraft:lead",
+    "sortnum": 4,
+    "parent": "agriculture"
+  }

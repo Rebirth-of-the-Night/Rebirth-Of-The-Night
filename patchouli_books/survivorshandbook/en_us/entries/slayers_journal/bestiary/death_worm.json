@@ -1,0 +1,37 @@
+{
+    "name": "Death Worm",
+    "icon": "iceandfire:deathworm_gauntlet_yellow",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 3,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:deathworm",
+            "scale": 0.6,
+            "offset": 0.1,
+            "rotate": "false",
+            "default_rotation": -24,
+            "name": "Death Worm",
+            "text": "$(thing)Death worms$()$(#734608) are incredibly long desert worms covered in hard chitin and a lashing tongue and bite"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Death worms come in 3 color variants: $(#968660)tan$()$(#734608), $(#a8a8a8)white$()$(#734608), and $(#872904)red$()$(#734608)$(br2)They can be found burrowing underneath deserts and will eat absolutely anything it comes across$(br2)When attacking, they will leap out of the sand to bite their prey$(br2)$(thing)Giant death worms$()$(#734608) are capable of displacing a large crater of sand"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)It will also eat TNT and explodes shortly after doing so$(br2)When killed, death worms can drop $(item)death worm chitin$()$(#734608), rotten flesh, a death worm egg, and rarely a $(item)death worm tongue$()$(#734608)$(br2)$(item)Death worm chitin$()$(#734608) can be used to form armor or combined with a death worm tongue to make a $(item)deathworm gauntlet$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:deathworm_gauntlet_yellow",
+            "recipe2": "iceandfire:deathworm_gauntlet_white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:deathworm_gauntlet_red"
+        }
+    ]
+}

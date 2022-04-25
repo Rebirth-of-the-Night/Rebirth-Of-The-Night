@@ -7,21 +7,88 @@
         {
             "type": "spotlight",
             "item": "iceandfire:dragonsteel_fire_ingot",
-            "text": "An incredibly strong metal forged from the crude steel iron alloy, infused with dragon blood, and forged through the breath of an active, living dragon in an appropriately constructed dragon forge."
+            "text": "An incredibly strong metal forged from the $(l:innovation/metallurgy/steel)crude steel iron alloy$(), infused with $(item)dragon blood$(), and forged through the breath of an active, living $(l:slayers_journal/beastiary/dragon)dragon$() in an appropriately constructed dragon forge.$(br2)The more common variant is $(item)fire dragonsteel$(), though $(item)ice dragonsteel$() can also be"
         },
         {
             "type": "text",
-            "text": "There are 2 variants of this dragonsteel:$(br)fire dragonsteel and ice dragonsteel.$(br2)Each are appropriately made in their own unique dragon forges which also need to be powered by their corresponding dragon variant."
+            "text": "forged from the ice dragon variation.$(br2)Each are appropriately made in their own unique dragon forges which also need to be powered by their corresponding dragon variant.$(br2) In order to construct this forge, I will need:$(br)• 17 $(item)dragonforge bricks$()$(br)• 1 $(item)dragon forge core$() and$(br)• 1 $(item)dragon aperture$() input"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:dragon_bone_block",
+            "recipe2": "crafttweaker:iceandfire_fire_brick"
         },
         {
             "type": "crafting",
             "recipe": "iceandfire:dragonforge_fire_core",
-            "recipe2": "iceandfire:dragonforge_ice_core"
+            "recipe2": "iceandfire:dragonforge_fire_input"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:dragon_bone_block",
+            "recipe2": "crafttweaker:iceandfire_ice_brick"
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:dragonforge_ice_core",
+            "recipe2": "iceandfire:dragonforge_ice_input"
+        },
+        {
+            "type": "multiblock",
+            "name": "Fire Dragonforge",
+            "multiblock": {
+                "pattern": [
+                    ["BRB", "RRR", "BRB"],
+                    ["RRR", "RCR", "RIR"],
+                    ["BRB","R0R", "BRB"]
+                ],
+                "mapping": {
+                    "B": "iceandfire:dragon_bone_block[axis=y]",
+                    "R": "iceandfire:dragonforge_fire_brick",
+                    "I": "iceandfire:dragonforge_fire_input",
+                    "C": "iceandfire:dragonforge_fire_core",
+                    "0": "iceandfire:dragonforge_fire_brick"
+                },
+                "symmetrical": false,
+                "offset": [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "A structure formed by the scales and bones of $(#f7430c)fire dragons$() with the heart of one as the core",
+            "enable_visualize": true
+        },
+        {
+            "type": "multiblock",
+            "name": "Ice Dragonforge",
+            "multiblock": {
+                "pattern": [
+                    ["BRB", "RRR", "BRB"],
+                    ["RRR", "RCR", "RIR"],
+                    ["BRB","R0R", "BRB"]
+                ],
+                "mapping": {
+                    "B": "iceandfire:dragon_bone_block[axis=y]",
+                    "R": "iceandfire:dragonforge_ice_brick",
+                    "I": "iceandfire:dragonforge_ice_input",
+                    "C": "iceandfire:dragonforge_ice_core",
+                    "0": "iceandfire:dragonforge_ice_brick"
+                },
+                "symmetrical": false,
+                "offset": [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "A structure formed by the scales and bones of $(#0fbfae)ice dragons$() with the heart of one as the core",
+            "enable_visualize": true
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:iceandfire_chain",
+            "text": "Once I've completed the construction of a dragon forge, I can power it by $(item)chaining$() a wild dragon to a dragonbone wall nearby, but this is incredibly dangerous. A better alternative would be to use a tamed dragon instead."
         },
         {
 			"type": "relations",
 			"entries": [
-				
+                "agriculture/taming/dragon",
+				"slayers_journal/bestiary/dragon"
 			]
 		}
     ]

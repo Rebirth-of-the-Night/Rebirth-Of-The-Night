@@ -20,8 +20,27 @@
             "text": "Now with a bellows, I can blow more oxygen into the $(thing)hibachi$() fire in order to have it grow stronger.$(br2)This process must be done continuously so I need to activate it on and off periodically."
         },
         {
-            "type": "text",
-            "text": "A fully flamed stoked flame set-up can be made by firing nine hibachis in a 3x3 area below a cauldron or crucible with a single bellows aimed at the center of the 3x3 hibachi fires."
+            "type": "multiblock",
+            "name": "Stoked Flame Set-Up",
+            "multiblock": {
+                "pattern": [
+                    ["    ","  C ","    "],
+                    [" FFF","BFFF"," FFF"],
+                    [" HHH"," HHH"," H0H"]
+                ],
+                "mapping": {
+                    "H": "betterwithmods:hibachi",
+                    "B": "betterwithmods:bellows[facing=south]",
+                    "F": "betterwithmods:stoked_flame",
+                    "C": "betterwithmods:cooking_pot",
+                    "0": "betterwithmods:hibachi"
+                },
+                "symmetrical": false,
+                "offset": [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "Above is the fully flamed set-up for a stoked crucible not including mechanical power to the bellows",
+            "enable_visualize": false
         },
         {
 			"type": "relations",

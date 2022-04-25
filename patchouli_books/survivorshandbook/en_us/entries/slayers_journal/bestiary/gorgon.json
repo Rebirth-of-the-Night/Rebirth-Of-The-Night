@@ -1,0 +1,33 @@
+{
+    "name": "Gorgon",
+    "icon": "iceandfire:gorgon_head",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 5,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:gorgon",
+            "scale": 0.7,
+            "offset": 0.2,
+            "rotate": "true",
+            "name": "Gorgon",
+            "text": "$(thing)Gorgons$()$(#734608) are hideous lamiae, half-woman and half-snake hybrid, with pale green snakes for hair"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Gorgons are found living in crumbling stone gorgon temples that may be half-submerged near the beach.$(br2)Locking sights with a gorgon directly will immediately turn the person into stone without warning.$(br2)There is nothing that can escape the petrifying gaze of a gorgon aside from death worms, cockatrices, and blinded cyclopes."
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:blindfold",
+            "text": "$(#734608)One can wear a blindfold however to protect themselves from becoming petrified, though it will enrage the gorgon into using its incredibly poisonous fangs to attack."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:gorgon_head",
+            "text": "$(#734608)A gorgon will drop its head when slain, which retains a single-use of the gorgon's petrification gaze.$(br2)Petrified mobs can be broken down into stone with a pickaxe."
+        }
+    ]
+}

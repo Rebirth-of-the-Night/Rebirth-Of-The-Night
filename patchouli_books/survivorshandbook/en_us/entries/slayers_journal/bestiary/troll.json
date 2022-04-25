@@ -1,0 +1,31 @@
+{
+    "name": "Troll",
+    "icon": "iceandfire:troll_skull",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 13,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "iceandfire:if_troll",
+            "scale": 1.0,
+            "offset": 0,
+            "rotate": "true",
+            "name": "Troll",
+            "text": "$(#734608)$(thing)Trolls$()$(#734608) are hulking humanoid monsters with large tusks and jaw and extraordinarily thick hides"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Trolls live in caverns underneath forests, mountains, and tundras$(br2)They are naturally hostile to humans and villagers, and will emit a loud roar before rushing them while smashing any obstacles in its way$(br2)It deals heavy damage by striking down with its club and heavy knockback by swiping sideways"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Because of its thick hide, it is immune to most projectiles$(br2)Trolls are weak to sunight however, and will immediately turn to stone with which they can be mined down into cobblestone$(br2)Trolls can drop many things when slain including stone, sticks, bones, $(item)troll leather$()$(#734608), $(item)troll tusks$()$(#734608) and rarely a troll skull"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Trolls may also drop whatever biome specific material that makes up its weapon in addition to the weapon itself:$(br2)$(#156b15)Forest trolls$()$(#734608) can drop mushrooms and oak wood$(br)$(#452515)Mountain trolls$()$(#734608) can drop emeralds$(br)$(#369188)Frost trolls$()$(#734608) can drop snowballs, spruce wood, and sapphire$(br2)Petrified trolls will only drop stone"
+        }
+    ]
+}

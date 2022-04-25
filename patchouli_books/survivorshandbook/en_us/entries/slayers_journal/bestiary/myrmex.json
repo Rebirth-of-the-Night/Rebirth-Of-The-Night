@@ -1,0 +1,105 @@
+{
+    "name": "Myrmex Colony",
+    "icon": "iceandfire:myrmex_desert_egg",
+    "category": "slayers_journal_bestiary",
+    "advancement": "triumph:advancements/progression/slayersjournal",
+    "sortnum": 9,
+    "read_by_default": "true",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#734608)The myrmex are quite different from the other creatures in that they operate in a structured group setting rather than individually$(br2)They form a complex hierarchical caste system that splits its members to these various roles:$(br)worker, soldiers, sentinels, royals, and the queen"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)These colonies live in hives underground that typically have an opening to the surface for workers to forage$(br2)Each colony is aggressively territorial and will even attack other myrmex of a different hive$(br2)The more common $(#782600)desert$(#734608) variant is described here, but there is also a rarer $(#047d4c)jungle$(#734608) variant.$(br)There is no difference in their behavior"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Despite their terrifying appearance, these creatures are incredibily resourceful and will be open to trading given a high enough reputation. This reputation can be gained by offering $(item)myrmex resin$()$(#734608) for the workers to bring to the hive$(br2)Offering enough resin will prevent myrmex of that hive from attacking on sight; offering even more will convince the myrmex to open up to trade"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Myrmex will offer different trades depending on their caste$(br2)All myrmex have a similar body shape covered in chitinous armor with large mandibles and stinger to inflict poison$(br2)From this basic arthropoda body, the different types of myrmex will begin to differ in appearance and ability..."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:myrmex_worker",
+            "scale": 0.4,
+            "offset": 0,
+            "rotate": "true",
+            "name": "Myrmex Worker",
+            "text": "$(thing)Myrmex workers$()$(#734608) are the weakest and most common of the hive serving as foragers and transport."
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Workers are usually the ones to venture outside the hive in order to forage for food and materials$(br2)They may also be seen carrying eggs, larvae, and pupae around in the hive$(br2)Workers have a basic arthropod body with no extraordinary features$(br2)They will generally trade resin for building materials"
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:myrmex_soldier",
+            "scale": 0.4,
+            "offset": 0,
+            "rotate": "true",
+            "name": "Myrmex Soldier",
+            "text": "$(thing)Myrmex soldiers$()$(#734608) function as the general protectors of the hive to the workers and sometimes the Queen"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Soldiers, as indicative of their title, will serve as bodyguards for the workers and keeping the peace$(br2)As such, they will follow and actively protect the workers while they are out foraging$(br2)They have a bite two times stronger than workers along with a more venomous stinger$(br2)They trade various loot from corpses for resin"
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:myrmex_sentinel",
+            "scale": 0.55,
+            "offset": 0,
+            "rotate": "true",
+            "name": "Myrmex Sentinel",
+            "text": "$(thing)Myrmex sentinels$()$(#734608) have a distinctive curved tail like a scorpion and stand upright unlike other myrmex"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Sentinels are the most lethal in both their ferocious strikes and deadly stings, so they serve to protect the entrance to the hive while camouflaged $(br2)Their stingers make them incredibly dangerous to approach if not for their incredible speed of their slashes and bites$(br2)Sentinels will trade resin in exchange for various meats"
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:myrmex_royal",
+            "scale": 0.4,
+            "offset": 0,
+            "rotate": "true",
+            "name": "Myrmex Royal",
+            "text": "$(#734608)Myrmex royals uniquely have wings capable of flight for leaving the hive to start a new colony"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Royals are the myrmex responsible for starting a new colony elsewhere$(br2)Because of this, they attack others only when provoked to protect their future hive$(br2)When two royals mate, one dies while the other becomes a Queen and begins a new colony$(br2)Royals trade more valuable minerals and materials for resin"
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:myrmex_queen",
+            "scale": 0.55,
+            "offset": 0,
+            "rotate": "true",
+            "name": "Myrmex Queen",
+            "text": "$(#734608)The $(thing)myrmex queen$()$(#734608) is the largest of the myrmex who resides within the colony laying eggs"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)The Queen is the heart of the colony that brings in new myrmex into the colony. Without the queen, the colony is unable to sustain itself$(br2)But the queen is not defenseless, her bites are powerful and have a sting with incredible knockback$(br2)The Queen will trade various myrmex eggs for resin. The myrmex hatched from these eggs will be bonded with their owner"
+        },
+        {
+            "type": "text",
+            "text": "$(#734608)Upon death, myrmex will drop their chitin, $(item)resin chunks$()$(#734608), and sometimes their $(item)stinger$()$(#734608)$(br2)The $(item)chitin$()$(#734608) can be used to craft various armor, tools, and weapons:$(br)$(item)Myrmex chitin armor$()$(#734608) provides poison resistance, enables climbing, and slightly boosts movement.$(br)$(item)Myrmex weapons$()$(#734608) inflict poison and deal bonus damage to non-arthropods and deathworms."
+        },
+        {
+            "type": "crafting",
+            "recipe": "iceandfire:myrmex_staff_desert",
+            "text": "$(#734608)A $(item)myrmex staff$()$(#734608) can also be made to allow control over a colony's structure and larvae production given that the maximum reputation criterion with the colony is met"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:desert_myrmex_swarm",
+            "text": "$(#734608)The $(item)myrmex swarm staff$()$(#734608) is a unique single-use weapon that summons myrmex swarmers to defend the user for a short time at the cost of a myrmex queen egg"
+        }
+    ]
+}
