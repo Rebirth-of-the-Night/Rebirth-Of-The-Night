@@ -87,15 +87,49 @@ grapeSlime.clear();
 <entity:betteranimalsplus:zotzpyre>.addDrop(<contenttweaker:monster_hide>,1,2);
 
 // Animania
-// Sheep Intestines
+// Cows
+val mushroomTable = LootTweaker.getTable("animania:cow_mooshroom");
+val mushroomBeef = mushroomTable.getPool("beef");
+mushroomBeef.setRolls(3, 3);
+
+val cowRegularTable = LootTweaker.getTable("animania:cow_regular");
+val cowRegularBeef = cowRegularTable.getPool("beef");
+cowRegularBeef.setRolls(2.8, 2.8);
+
+val cowPrimeTable = LootTweaker.getTable("animania:cow_prime");
+val cowPrimeBeef = cowPrimeTable.getPool("beef");
+cowPrimeBeef.setRolls(1.8, 1.8);
+
+// Goats
+val goatRegularTable = LootTweaker.getTable("animania:goat_regular");
+val goatRegularBeef = goatRegularTable.getPool("meat");
+goatRegularBeef.setRolls(2.8, 2.8);
+
+val goatPrimeTable = LootTweaker.getTable("animania:goat_prime");
+val goatPrimeBeef = goatPrimeTable.getPool("meat");
+goatPrimeBeef.setRolls(1.8, 1.8);
+
+// Pigs
+val pigRegularTable = LootTweaker.getTable("animania:pig_regular");
+val pigRegularBeef = pigRegularTable.getPool("meat");
+pigRegularBeef.setRolls(2.8, 2.8);
+
+val pigPrimeTable = LootTweaker.getTable("animania:pig_prime");
+val pigPrimeBeef = pigPrimeTable.getPool("meat");
+pigPrimeBeef.setRolls(1.8, 1.8);
+
+// Sheeps
+val sheepRegularTable = LootTweaker.getTable("animania:sheep_regular");
+val sheepRegularBeef = sheepRegularTable.getPool("meat");
+val sheepRegularProduce = sheepRegularTable.addPool("produce", 1, 1, 1, 1);
+sheepRegularBeef.setRolls(2.8, 2.8);
+sheepRegularProduce.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
+
 val sheepPrimeTable = LootTweaker.getTable("animania:sheep_prime");
-val sheepPrimeMeat = sheepPrimeTable.getPool("meat");
-sheepPrimeMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
-
-val sheepTable = LootTweaker.getTable("animania:sheep_regular");
-val sheepMeat = sheepTable.getPool("meat");
-sheepMeat.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
-
+val sheepPrimeBeef = sheepPrimeTable.getPool("meat");
+val sheepPrimeProduce = sheepPrimeTable.addPool("produce", 1, 1, 1, 1);
+sheepPrimeBeef.setRolls(1.8, 1.8);
+sheepPrimeProduce.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functions.setCount(1, 1)], []);
 
 // DungeonTactics
 LootTable.removeGlobalItem("dungeontactics:phylactery");

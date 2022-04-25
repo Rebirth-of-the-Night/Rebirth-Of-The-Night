@@ -118,13 +118,22 @@ val hotglass = <sereneseasons:greenhouse_glass>|<betternether:quartz_glass:*>|<b
 val rock = <ore:rock>;
 val timber = <earthworks:item_timber>;
 val fiber = <pyrotech:material:12>;
+val hay_bale = <pyrotech:thatch>;
+val pit_kiln = <pyrotech:kiln_pit>;
 
 recipes.addShapeless("pyro_matchstick_broken_stick",<pyrotech:matchstick>,
 [<pyrotech:tinder>,<contenttweaker:broken_stick>,<contenttweaker:broken_stick>]);
 recipes.addShapeless("pyro_matchstick_sticks",<pyrotech:matchstick>,
 [<pyrotech:tinder>,<ore:stickWood>,<ore:stickWood>]);
-recipes.addShaped("dryToTwine", twine*3,
+recipes.addShaped("dry_to_twine", twine*3,
 [[dry,dry,dry]]);
+recipes.addShaped("dry_to_hay_bale", hay_bale,
+ [[dry,dry,dry],
+  [dry,dry,dry],
+  [dry,dry,dry]]);
+recipes.addShaped("dry_to_pit_kiln", pit_kiln*4,
+ [[dry,dry,dry],
+  [dry,dry,dry]]);
 recipes.addShapeless("ash_conversion", <biomesoplenty:ash>*3,
 [<pyrotech:material>]);
 recipes.addShapeless("twineToString", <minecraft:string>,[twine,twine,twine]);
