@@ -223,6 +223,7 @@ val coffeeBean = <harvestcraft:coffeebeanitem>;
 val corn = <ore:cropCorn>;
 val grape = <ore:cropGrape>;
 val rice = <ore:cropRice>;
+val koji_mold = <contenttweaker:koji_mold>;
 val coconut = <ore:cropCoconut>;
 val pumpkinSeeds = <minecraft:pumpkin_seeds>;
 val vanillaBean = <ore:cropVanillabean>;
@@ -367,6 +368,7 @@ val peanutButter = <harvestcraft:peanutbutteritem>;
 val hops = <ore:cropHops>;
 val slimeball = <ore:slimeball>;
 val meatball = <mod_lavacow:meatball>;
+val misoPaste = <harvestcraft:misopasteitem>;
 
 //Stock Recipes
 recipes.remove(<harvestcraft:stockitem>);
@@ -411,7 +413,6 @@ ExSartagine.addKettleRecipe([batter,heavyCream,sugar,pumpkin],null,waterBottle,[
 recipes.removeByRecipeName("harvestcraft:redvelvetcakeitem");
 ExSartagine.addKettleRecipe([batter,heavyCream,milkBottle,sugar,redRose],null,null,[<harvestcraft:redvelvetcakeitem>],200);
 // Cooked Calamari
-furnace.remove(cookedCalamari);
 mods.futuremc.Smoker.addRecipe(calamari, cookedCalamari);
 ExSartagine.addKettleRecipe([calamari],null,null,[cookedCalamari],80);
 //Grilled Asparagus
@@ -2763,13 +2764,14 @@ recipes.remove(<harvestcraft:currypowderitem>);
 Mortar.addRecipe(["stone"], <harvestcraft:currypowderitem>, 4, [<harvestcraft:curryleafitem>]);
 //Mochi
 recipes.remove(<harvestcraft:mochiitem>);
-recipes.addShapeless("mochi", <harvestcraft:mochiitem>,[rice,sugar,waterBottleItem]);
-RecipeBuilder.get("chef")
-  .setName("mochi")
-  .setFluid(waterBottle)
-  .setShapeless([rice,sugar])
-  .addOutput(<harvestcraft:mochiitem>)
-  .create();
+recipes.addShapeless("mochi", <harvestcraft:mochiitem>,[rice,sugar,<harvestcraft:freshwateritem>]);
+//RecipeBuilder.get("chef")
+//  .setName("mochi")
+//  .setFluid(waterBottle)
+//  .setShapeless([rice,sugar])
+//  .addOutput(<harvestcraft:mochiitem>)
+//  .create();
+
 //Museli -&R
 recipes.remove(<harvestcraft:museliitem>);
 ExSartagine.addKettleRecipe([grain,<harvestcraft:raisinsitem>,pecan,sugar,milkBottle],cookKitKettle,null,[<harvestcraft:museliitem>],80);
@@ -3001,7 +3003,7 @@ ExSartagine.addKettleRecipe([rawBeef,bread,onion,garlic,ketchup],cookKitKettle,n
 recipes.remove(<harvestcraft:mushroomlasagnaitem>);
 ExSartagine.addKettleRecipe([pasta,cheese,tomato,garlic,onion,mushroom],cookKitKettle,null,[<harvestcraft:mushroomlasagnaitem>],80);
 //Cooked Mussel
-furnace.remove(<harvestcraft:musselcookeditem>);
+
 //Nether Wings
 recipes.remove(<harvestcraft:netherwingsitem>);
 ExSartagine.addKettleRecipe([cookedChicken,hotSauce,<minecraft:blaze_powder>],cookKitKettle,null,[<harvestcraft:netherwingsitem>],80);
@@ -3177,7 +3179,7 @@ recipes.remove(<harvestcraft:ramenitem>);
 ExSartagine.addKettleRecipe([noodles,stock,salt,<ore:stickWood>],null,null,[<harvestcraft:ramenitem>],80);
 //Miso Soup -&R
 recipes.remove(<harvestcraft:misosoupitem>);
-ExSartagine.addKettleRecipe([firmTofu,scallion,<ore:stickWood>],null,waterBottle2,[<harvestcraft:misosoupitem>],80);
+ExSartagine.addKettleRecipe([firmTofu,scallion,misoPaste],null,waterBottle2,[<harvestcraft:misosoupitem>],80);
 //Onigiri
 recipes.remove(<harvestcraft:onigiriitem>);
 recipes.addShapeless("onigiri", <harvestcraft:onigiriitem>,[rice,seaweed,sesameSeeds,cookKitBad]);
@@ -3331,7 +3333,7 @@ ExSartagine.addKettleRecipe([stock,noodles,spice,groundCinnamon,onion],null,null
 recipes.remove(<harvestcraft:bubbleteaitem>);
 ExSartagine.addKettleRecipe([flour,sugar,teaLeaf],null,waterBottle,[<harvestcraft:bubbleteaitem>],80);
 //Cooked Duck
-furnace.remove(<harvestcraft:duckcookeditem>);
+
 //Wonton Soup
 recipes.remove(<harvestcraft:wontonsoupitem>);
 ExSartagine.addKettleRecipe([stock,dough,scallion,ginger,soySauce],null,null,[<harvestcraft:wontonsoupitem>],80);
@@ -3597,6 +3599,9 @@ ExSartagine.addKettleRecipe([rawChicken,<harvestcraft:bbqsauceitem>,veggie,chees
 //Quesadilla
 recipes.remove(<harvestcraft:quesadillaitem>);
 ExSartagine.addKettleRecipe([<harvestcraft:tortillaitem>,cheese],cookKitKettle,null,[<harvestcraft:quesadillaitem>],80);
+//Miso Paste (not organized, move once other items are done)
+recipes.remove(misoPaste);
+ExSartagine.addKettleRecipe([soybean,soybean,soybean,koji_mold,salt],null,waterBottle2,[misoPaste*3],80);
 //hiding of various items not needed
 val hiddenFoods as IItemStack[] = [
   <harvestcraft:raspberrymilkshakeitem>,
@@ -3672,6 +3677,9 @@ ExSartagine.addKettleRecipe([sugar],<growthcraft_milk:bottlefluid_skim_milk>,nul
 //Rice Water
 ExSartagine.addKettleRecipe([rice],null,waterBottle,<liquid:fluid_booze_sake_water>*250,[<growthcraft_rice:rice_cooked>],600);//liquid
 ExSartagine.addKettleRecipe([rice],waterBottleItem,null,[<growthcraft_rice:rice_cooked>,<growthcraft_rice:sakebottle>],600);//item
+//Rice Mash
+ExSartagine.addKettleRecipe([koji_mold],null,<liquid:fluid_booze_sake_water>*250,<liquid:fluid_booze_sake_mash>*250,[null],1200);//liquid
+ExSartagine.addKettleRecipe([koji_mold],<growthcraft_rice:sakebottle>,null,[<growthcraft_rice:sakebottle:1>],1200);//item
 //Ale Wort Young
 ExSartagine.addKettleRecipe([<ore:listAllgrain>],null,waterBottle,<liquid:fluid_booze_hopale_unhopped>*250,[<contenttweaker:draff>],600);//liquid
 ExSartagine.addKettleRecipe([<ore:listAllgrain>],waterBottleItem,null,[<growthcraft_hops:hopale:4>,<contenttweaker:draff>],600);//item

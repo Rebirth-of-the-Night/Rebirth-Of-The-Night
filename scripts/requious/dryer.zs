@@ -252,3 +252,30 @@ var drySoapJEI = AssemblyRecipe.create(function(container) {
 }).requireItem("input",<betterwithaddons:wet_soap>).requireDuration("duration", 200);
 
 dryer.addJEIRecipe(drySoapJEI);
+
+
+// dirt to mud
+var dryMud1 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output1",<betterwithmods:dirt_pile>);
+}).requireItem("input1",<biomesoplenty:mudball>).requireDuration("input1", 200);
+dryer.addRecipe(dryMud1);
+
+var dryMud2 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output2",<betterwithmods:dirt_pile>);
+}).requireItem("input2",<biomesoplenty:mudball>) .requireDuration("input2", 200);
+dryer.addRecipe(dryMud2);
+
+var dryMud3 = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output3",<betterwithmods:dirt_pile>);
+}).requireItem("input3",<biomesoplenty:mudball>) .requireDuration("input3", 200);
+dryer.addRecipe(dryMud3);
+
+dryer.setJEIItemSlot(3,2,"input");
+dryer.setJEIItemSlot(5,2,"output");
+dryer.setJEIDurationSlot(4,2,"duration", dryerProgress);
+ 
+var dryMudJEI = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<betterwithmods:dirt_pile>);
+}).requireItem("input",<biomesoplenty:mudball>).requireDuration("duration", 200);
+
+dryer.addJEIRecipe(dryMudJEI);

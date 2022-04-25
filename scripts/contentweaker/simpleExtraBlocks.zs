@@ -5,8 +5,8 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.Block;
-
 import mods.contenttweaker.AxisAlignedBB;
+import mods.contenttweaker.Color;
 
 /*Recipes for Extra Blocks are handled in the minecraft.zs script
 /////////////////////////////////////////////////////////////////
@@ -128,6 +128,24 @@ salt_pan.setBlockLayer("CUTOUT");
 salt_pan.setBlockSoundType(<soundtype:ground>);
 salt_pan.setToolClass("shovel");
 salt_pan.register();
+
+// Codex junk
+var codex_junk = VanillaFactory.createBlock("codex_junk", <blockmaterial:Grass>);
+codex_junk.axisAlignedBB = AxisAlignedBB.create(
+     2.0 / 16.0,
+     0.0 / 16.0,
+     2.0 / 16.0,
+	14.0 / 16.0,
+    0.1 / 16.0,
+    14.0 / 16.0
+	);
+codex_junk.setBlockHardness(0.5);
+codex_junk.setBlockResistance(1.0);
+codex_junk.setFullBlock(false);
+codex_junk.setLightOpacity(0);
+codex_junk.setBlockLayer("CUTOUT");
+codex_junk.setToolClass("none");
+codex_junk.register();
 
 // Speleothems
 var dolomite_straws = VanillaFactory.createBlock("dolomite_straws", <blockmaterial:Rock>);
@@ -260,6 +278,11 @@ raw_copper.register();
 var raw_iron = VanillaFactory.createBlock("raw_iron_block", <blockmaterial:Iron>);
 raw_iron.setCreativeTab(<creativetab:rotn_blocks>);
 raw_iron.register();
+
+// raw_wrought_iron
+var raw_wrought_iron = VanillaFactory.createBlock("raw_wrought_iron", <blockmaterial:Iron>);
+raw_wrought_iron.setCreativeTab(<creativetab:rotn_blocks>);
+raw_wrought_iron.register();
 
 // raw_silver
 var raw_silver = VanillaFactory.createBlock("raw_silver_block", <blockmaterial:Iron>);
@@ -469,10 +492,11 @@ masonry_brick.setFullBlock(false);
 masonry_brick.setLightOpacity(0);
 masonry_brick.setBlockLayer("TRANSLUCENT");
 masonry_brick.setBlockHardness(1.0);
+masonry_brick.setToolLevel(1);
 masonry_brick.setToolClass("pickaxe");
 masonry_brick.register();
 
-// ruined masonry brick x1
+// ruined masonry brick x2
 var masonry_brick_two = VanillaFactory.createBlock("masonry_brick_two", <blockmaterial:Rock>);
 masonry_brick_two.setDropHandler(function(drops, world, position, state, fortune) {
     drops.clear();
@@ -492,6 +516,7 @@ masonry_brick_two.setFullBlock(false);
 masonry_brick_two.setLightOpacity(0);
 masonry_brick_two.setBlockLayer("TRANSLUCENT");
 masonry_brick_two.setBlockHardness(1.0);
+masonry_brick_two.setToolLevel(1);
 masonry_brick_two.setToolClass("pickaxe");
 masonry_brick_two.register();
 
@@ -509,6 +534,7 @@ unfired_clay_faucet.setBlockSoundType(<soundtype:ground>);
 unfired_clay_faucet.setFullBlock(false);
 unfired_clay_faucet.setLightOpacity(0);
 unfired_clay_faucet.setBlockHardness(1.0);
+unfired_clay_faucet.setToolLevel(0);
 unfired_clay_faucet.setToolClass("shovel");
 unfired_clay_faucet.register();
 
@@ -518,6 +544,7 @@ unfired_clay_collector.setBlockSoundType(<soundtype:ground>);
 unfired_clay_collector.setFullBlock(false);
 unfired_clay_collector.setLightOpacity(0);
 unfired_clay_collector.setBlockHardness(1.0);
+unfired_clay_collector.setToolLevel(0);
 unfired_clay_collector.setToolClass("shovel");
 unfired_clay_collector.register();
 
@@ -525,6 +552,7 @@ unfired_clay_collector.register();
 var unfired_clay_drain = VanillaFactory.createBlock("unfired_clay_drain", <blockmaterial:Ground>);
 unfired_clay_drain.setBlockSoundType(<soundtype:ground>);
 unfired_clay_drain.setBlockHardness(1.0);
+unfired_clay_drain.setToolLevel(0);
 unfired_clay_drain.setToolClass("shovel");
 unfired_clay_drain.register();
 
@@ -1584,3 +1612,50 @@ glareshaft.setBlockLayer("CUTOUT");
 glareshaft.setCreativeTab(<creativetab:decorations>);
 glareshaft.setToolLevel(0);
 glareshaft.register();
+
+//Liquids
+var ender_slag = VanillaFactory.createFluid("ender_slag", Color.fromHex("fffdd0"));
+ender_slag.density = 1900;
+ender_slag.temperature = 500;
+ender_slag.viscosity = 2000;
+ender_slag.stillLocation = "contenttweaker:fluids/ender_slag_still";
+ender_slag.flowingLocation = "contenttweaker:fluids/ender_slag_flow";
+ender_slag.colorize= true;
+ender_slag.register();
+
+var tannin = VanillaFactory.createFluid("tannin", Color.fromHex("df9232"));
+tannin.density = 1000;
+tannin.temperature = 310;
+tannin.viscosity = 1050;
+tannin.colorize= true;
+tannin.vaporize= true;
+tannin.register();
+
+var lifeblood = VanillaFactory.createFluid("lifeblood", Color.fromHex("1b1e23"));
+lifeblood.density = 1500;
+lifeblood.gaseous = true;
+lifeblood.luminosity = 15;
+lifeblood.temperature = 400;
+lifeblood.viscosity = 800;
+lifeblood.stillLocation = "contenttweaker:fluids/dunamis_still";
+lifeblood.flowingLocation = "contenttweaker:fluids/dunamis_flow";
+lifeblood.colorize= false;
+lifeblood.register();
+
+var residual_mythril = VanillaFactory.createFluid("residual_mythril", Color.fromHex("fffdd0"));
+residual_mythril.density = 528;
+residual_mythril.luminosity = 3;
+residual_mythril.temperature = 2500;
+residual_mythril.viscosity = 5500;
+residual_mythril.stillLocation = "contenttweaker:fluids/residual_mythril_still";
+residual_mythril.flowingLocation = "contenttweaker:fluids/residual_mythril_flow";
+residual_mythril.colorize= true;
+residual_mythril.register();
+
+var methanol = VanillaFactory.createFluid("methanol", Color.fromHex("efdace"));
+methanol.density = 1000;
+methanol.temperature = 310;
+methanol.viscosity = 1100;
+methanol.colorize= true;
+methanol.vaporize= true;
+methanol.register();

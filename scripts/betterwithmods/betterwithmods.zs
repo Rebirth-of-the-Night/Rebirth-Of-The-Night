@@ -26,13 +26,17 @@ recipes.removeByRecipeName("betterwithmods:decompress/melon_decompress");
 recipes.removeByRecipeName("betterwithmods:blocks/shaft-back");
 recipes.removeByRecipeName("betterwithmods:piles/sand_0");
 recipes.removeByRecipeName("betterwithmods:piles/gravel");
+recipes.removeByRecipeName("betterwithmods:piles/dirt_pile");
+recipes.removeByRecipeName("betterwithmods:piles/gravel_pile");
+recipes.removeByRecipeName("betterwithmods:piles/sand_pile");
 recipes.removeByRecipeName("betterwithmods:piles/red_sand_pile");
 recipes.removeByRecipeName("betterwithmods:piles/dirt_0");
 recipes.removeByRecipeName("betterwithmods:items/patchouli_manual");
+recipes.removeByRecipeName("betterwithmods:blocks/candle/candle");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding_feather", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);
-recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:wool>,<betterwithmods:material:4>]);
+recipes.addShapeless("betterwithmods_items/material/material_padding_wool", <betterwithmods:material:41>, [<ore:woolBlock>,<betterwithmods:material:4>]);
 
 JEI.removeAndHide(<betterwithmods:bark:*>);
 JEI.removeAndHide(<betterwithmods:nether_growth>);
@@ -108,6 +112,21 @@ recipes.removeByRecipeName("betterwithmods:decompress/wicker_decompress");
 recipes.remove(<betterwithmods:metal_chime:*>);
 recipes.remove(<betterwithmods:bamboo_chime:*>);
 
+// Table Removal (rustic adds better tables with BOP woods)
+JEI.removeAndHide(<betterwithmods:wood_table>);
+JEI.removeAndHide(<betterwithmods:wood_table:1>);
+JEI.removeAndHide(<betterwithmods:wood_table:2>);
+JEI.removeAndHide(<betterwithmods:wood_table:3>);
+JEI.removeAndHide(<betterwithmods:wood_table:4>);
+JEI.removeAndHide(<betterwithmods:wood_table:5>);
+
+recipes.remove(<betterwithmods:wood_table>);
+recipes.remove(<betterwithmods:wood_table:1>);
+recipes.remove(<betterwithmods:wood_table:2>);
+recipes.remove(<betterwithmods:wood_table:3>);
+recipes.remove(<betterwithmods:wood_table:4>);
+recipes.remove(<betterwithmods:wood_table:5>);
+
 //Turntable
 Turntable.removeAll();
 Turntable.add(<minecraft:clay>, <betterwithmods:unfired_pottery:1>, [<minecraft:clay_ball>]);
@@ -135,6 +154,12 @@ recipes.addShaped("hardened_fiery_nether_block", <contenttweaker:hardened_fiery_
     [<contenttweaker:fiery_nether_sludge>, <contenttweaker:fiery_nether_sludge>]
 ]);
 
+recipes.addShaped("fat_candle", <betterwithmods:candle>*2, [
+    [<ore:twine>],
+    [<ore:burnable_fat>],
+	[<ore:burnable_fat>]
+]);
+
 var latch = <betterwithmods:material:34>;
 var copper = <ore:ingotCopper>;
 var gnugg = <minecraft:gold_nugget>;
@@ -144,7 +169,7 @@ var rope = <betterwithmods:rope>;
 var cattail = <biomesoplenty:plant_1:4>; 
 var wicker = <betterwithmods:wicker>;
 var driedf = <pyrotech:tinder>;
-var rice = <harvestcraft:riceitem>;
+var rice = <ore:cropRice>;
 var millstone = <betterwithmods:single_machine>;
 var hellfire = <betterwithmods:material:17>;
 var heating = <betterwithmods:material:27>;
@@ -415,6 +440,7 @@ recipes.addShapeless("oven_ready_pumpkin_pie",<betterwithmods:raw_pastry:1>,[<mi
 
 val arrayMoulding = [
     MiniBlocks.getMiniBlock("moulding", <ore:genericPlanks>),
+    MiniBlocks.getMiniBlock("moulding", <minecraft:planks>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:1>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:2>),
     MiniBlocks.getMiniBlock("moulding", <minecraft:planks:3>),

@@ -263,7 +263,7 @@ item.dungeontactics:fire_starter.name=Fire Starter
 item.dungeontactics:magic_tether.name=Magic Tether
 item.dungeontactics:phylactery.name=Phylactery
 item.dungeontactics:bagofhoarding.name=Bag of Hoarding
-item.dungeontactics:ducttape.name=Duct Tape
+item.dungeontactics:ducttape.name=Electrum Repairing Kit
 item.dungeontactics:heart_drop.name=Heart Drop
 item.dungeontactics:heart_jar.name=Heart Jar
 item.dungeontactics:heart_golden.name=Heart of Gold
@@ -421,7 +421,7 @@ tile.dungeontactics:stonequartz_ore.name=Quartz Ore
 tile.dungeontactics:enddiamond_ore.name=End Diamond Ore
 tile.dungeontactics:endlapis_ore.name=End Lapis Ore
 
-enchantment.dungeontactics:ducttaped=Duct Taped
+enchantment.dungeontactics:ducttaped=Galebound
 enchantment.dungeontactics:sonicboom=Sonic Boom
 enchantment.dungeontactics:clustered=Bonus Package
 enchantment.dungeontactics:explosive=Exploding
@@ -452,7 +452,7 @@ enchantment.dungeontactics:poison_ailment=Ailment
 enchantment.dungeontactics:poison_fade=Fade
 enchantment.dungeontactics:poison_feather=Feather
 
-enchantment.dungeontactics.ducttaped.desc=This item is held together with Duct Tape and will need to be repaired properly at some point.
+enchantment.dungeontactics.ducttaped.desc=This item is held together by an ilusion and will need to be repaired properly at some point.
 
 enchantment.dungeontactics.biggerboom.desc=Increases the explosive power of the Portable Tunnelling Device.
 enchantment.dungeontactics.sonicboom.desc=Causes the Portable Tunnelling Device to create explosions with magic, removing the need for Gunpowder.

@@ -196,7 +196,7 @@ JEI.removeAndHide(<dungeontactics:trap_boom>);
 
 furnace.remove(<dungeontactics:steel_ingot>);
 
-JEI.removeAndHide(<dungeontactics:ducttape>);
+recipes.remove(<dungeontactics:ducttape>);
 LootTable.removeGlobalItem("dungeontactics:ducttape");
 
 JEI.removeAndHide(<dungeontactics:iron_ring>);

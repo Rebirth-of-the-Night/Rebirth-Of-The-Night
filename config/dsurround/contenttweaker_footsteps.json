@@ -69,6 +69,34 @@
 		"contenttweaker:cave_bramble+foliage": "straw",
 		"contenttweaker:cave_rafflesia+foliage": "straw",
 		"contenttweaker:seasoned_stump": "log",
-		"contenttweaker:venerable_stump": "log"
+		"contenttweaker:venerable_stump": "log",
+
+		"contenttweaker:rammed_earth_silty_dirt": "sandstone",
+		"contenttweaker:rammed_earth_sandy_dirt": "sandstone",
+		"contenttweaker:rammed_earth_loamy_dirt": "sandstone",
+		"contenttweaker:rammed_earth_vanilla_dirt": "sandstone",
+		"contenttweaker:dry_fitted_coade_stone": "stoneutility",
+		"contenttweaker:dry_fitted_mixed_stone": "stoneutility",
+		"contenttweaker:brick_minecraft_stone": "brickstone",
+		"contenttweaker:brick_aether_legacy_holystone": "brickstone",
+		"contenttweaker:brick_quark_sandstone": "sandstone",
+		"contenttweaker:brick_quark_red_sandstone": "sandstone",
+		"contenttweaker:brick_quark_soul_sandstone": "sandstone",
+		"contenttweaker:brick_biomesoplenty_mud": "sandstone",
+		"contenttweaker:brick_earthworks_adobe": "sandstone",
+		"contenttweaker:brick_quark_brimstone": "brickstone,fire",
+		"contenttweaker:brick_quark_permafrost": "brickstone,snow",
+		"contenttweaker:brick_minecraft_clay": "brickstone",
+		"contenttweaker:brick_quark_sandy": "sandstone",
+		"contenttweaker:brick_pyrotech_masonry": "brickstone",
+		"contenttweaker:brick_pyrotech_refractory": "brickstone",
+		"contenttweaker:brick_minecraft_nether": "brickstone",
+		"contenttweaker:brick_netherex_fiery": "brickstone",
+		"contenttweaker:brick_minecraft_end": "brickstone",
+		"contenttweaker:brick_betterwithaddons_whitebrick": "brickstone",
+		"contenttweaker:brick_ceramics_porcelain": "marble"
+
+
+
 	}
 }

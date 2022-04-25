@@ -1,0 +1,234 @@
+{
+  "giantminers": {
+    "selector": {
+      "gamestages": {
+        "and": ["enteredTwilightForest"]
+      },
+      "weight": 128,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear"
+      ],
+      "end": [
+        "/weather rain",
+        "/give @p twilightforest:giant_pickaxe",
+        "/give @p twilightforest:giant_sword",
+        "/xp 1000 @p"
+      ],
+      "staged": [
+        {
+          "complete": 0.8,
+          "commands": [
+            "/ostop @p"
+          ]
+        }
+        
+      ]
+    },
+    "name": "Giant Miners",
+    "messages": {
+      "start": "\u00A7cThe ground beneath you begins to shake...",
+      "end": "\u00A7aThe giants stomp off in fury, they'll be back.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eUnusual seismic activity detected..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 3600, 3900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 5400, 5700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 7200, 7500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 9000, 9300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 10800, 11100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

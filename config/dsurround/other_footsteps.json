@@ -14,8 +14,8 @@
 		"minecraft:chorus_flower": "wood",
 		"charm:rotten_flesh_block": "organic",
 		"futuremc:campfire": "fire,stone",
-		"dimstack:bedrock": "ice,obsidian,bedrock",
-		"dimstack:portal": "ice,obsidian,bedrock",
+		"dimstack:bedrock": "obsidian,bedrock",
+		"dimstack:portal": "obsidian,bedrock",
 		"iceandfire:chared_gravel": "gravel,sand",
 		"osv:clay_deposits_dirt": "dirt",
 		"osv:clay_deposits_sand": "dirt,sand",
@@ -187,6 +187,10 @@
 		"iceandfire:dreadwood_planks_lock": "wood",
 		"iceandfire:dread_spawner": "metalbar",
 		"iceandfire:venerable_stump": "log",
+		"iceandfire:myrmex_jungle_biolight[down=true]": "mud,straw",
+		"iceandfire:myrmex_desert_biolight[down=true]": "mud,straw",
+		"iceandfire:myrmex_jungle_biolight[down=false]": "mud,straw",
+		"iceandfire:myrmex_desert_biolight[down=false]": "mud,straw",
 		"doggytalents:food_bowl": "hardmetal,dirt",
 		"betterwithmods:cooking_pot[type=cauldron]": "metalbar",
 		"betterwithmods:cooking_pot[type=crucible]": "sandstone",
@@ -204,6 +208,12 @@
 		"ironfurnaces:diamond_furnace_idle": "brickstone",
 		"futuremc:blast_furnace": "brickstone,hardmetal",
 		"futuremc:smoker": "brickstone,wood",
-		"malisisdoors:laboratory_door": "hardmetal"
+		"malisisdoors:laboratory_door": "hardmetal",
+		"earthworks:block_adobe": "sandstone",
+		"minecraft:lit_furnace": "stoneutility",
+		"ironfurnaces:gold_furnace_active": "brickstone",
+		"ironfurnaces:diamond_furnace_active": "brickstone",
+		"ironfurnaces:iron_furnace_active": "sandstone",
+		"multiblockmobs:soul_chassis": "metalbar"
 	}
 }

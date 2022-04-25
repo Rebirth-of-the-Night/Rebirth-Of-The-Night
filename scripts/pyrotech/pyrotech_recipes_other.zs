@@ -22,6 +22,70 @@ JEI.removeAndHide(<pyrotech:quartz_sword>);
 CompactingBin.removeAllRecipes();
 MechanicalCompactor.removeAllRecipes();
 
+// Pyrotech Compat Hiding
+// if you plan to use one of these, please replace the removeandhide line with what it will be used for
+// all of them can be found in the pyrotech creative tab
+
+// Igneous sand piles
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand>); #red granite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:1>); #black granite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:2>); #rhyolite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:3>); #andesite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:4>); #gabbro sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:5>); #basalt sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:6>); #komatiite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:7>); #dacite sand pile
+
+//Metamorphic sand piles
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand>); #gneiss sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:1>); #eclogite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:2>); #marble sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:3>); #quartzite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:4>); #blue schist sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:5>); #green schist sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:6>); #soapstone sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:7>); #migmatite sand pile
+
+//Sedimentary sand piles
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand>); #limestone sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:1>); #chalk sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:2>); #shale sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:3>); #siltstone sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:4>); #lignite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:5>); #dolomite sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:6>); #greywacke sand pile
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:7>); #chert sand pile
+
+// Igneous sandstone rocks
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:8>); #red granite sandstone rock
+#black granite sandstone: currently lignite rock (it really should use the lignite sandstone rock instead)
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:10>); #rhyolite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:11>); #andesite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:12>); #gabbro sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:13>); #basalt sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:14>); #komatiite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_igneous_sand:15>); #dacite sandstone rock
+
+// Metamorphic sandstone rocks
+#gneiss sandstone rock: currently used as itself
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:9>); #eclogite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:10>); #marble sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:11>); #quartzite sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:12>); #blue schist sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:13>); #green schist sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:14>); #soapstone sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:15>); #migmatite sandstone rock
+
+// Sedimentary sandstone rocks
+#limestone sandstone rock: currently used as itself
+#chalk sandstone rock: currently used as defiled sandstone rock
+#shale sandstone rock: currently used as itself
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:11>); #siltstone sandstone rock
+JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:12>); #lignite sandstone rock
+#dolomite sandstone rock: currently used as defiled rock
+#greywacke sandstone rock: currently used as itself
+#chert sandstone rock: currently used as holystone rock
+
 CompactingBin.addRecipe("dirt_from_pile", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4, true);
 CompactingBin.addRecipe("rammed_from_dirt", <contenttweaker:rammed_earth_vanilla_dirt>, <minecraft:dirt>, 3, true);
 CompactingBin.addRecipe("rammed_from_loamy", <contenttweaker:rammed_earth_loamy_dirt>, <biomesoplenty:dirt:0>, 3, true);
@@ -35,6 +99,7 @@ CompactingBin.addRecipe("rat_cheese_block", <rats:block_of_cheese>, <ore:foodChe
 CompactingBin.addRecipe("congealed_bone_block", <betternether:bone_block>, <betterwithaddons:congealed>, 3, true);
 CompactingBin.addRecipe("modeling_refractory", <contenttweaker:modelingrefractory>, <contenttweaker:unfiredrefractory>, 4, true);
 CompactingBin.addRecipe("modeling_refractory1", <contenttweaker:modelingrefractory>, <pyrotech:material:4>, 16, true);
+CompactingBin.addRecipe("slag_heap", <pyrotech:pile_slag>, <pyrotech:slag>, 8, true);
 CompactingBin.addRecipe("wax_block", <harvestcraft:pressedwax>, <rustic:beeswax>, 4, true);
 CompactingBin.addRecipe("bonemeal_antidupe", <minecraft:bone_block>, <minecraft:dye:15>, 9, true);
 
@@ -43,18 +108,18 @@ CrudeDryingRack.removeRecipes(<pyrotech:material:13>);
 DryingRack.removeRecipes(<pyrotech:material:2>);
 DryingRack.removeRecipes(<pyrotech:material:13>);
 
-DryingRack.addRecipe("clay_bricks", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 15 * 60 * 20);
-DryingRack.addRecipe("mud_bricks", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 15 * 60 * 20);
-DryingRack.addRecipe("adobe_bricks", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 15 * 60 * 20);
-DryingRack.addRecipe("refractory_bricks", <pyrotech:material:5>, <contenttweaker:unfired_refractory_brick>, 15 * 60 * 20);
-DryingRack.addRecipe("nether_bricks", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 15 * 60 * 20);
-DryingRack.addRecipe("fiery_nether_bricks", <netherex:fiery_netherbrick>, <betterwithmods:unfired_pottery:4>, 15 * 60 * 20);
-DryingRack.addRecipe("porcelain_bricks", <ceramics:unfired_clay:5>, <contenttweaker:unfired_porcelain_brick>, 15 * 60 * 20);
+DryingRack.addRecipe("clay_bricks", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 43 * 60 * 20);
+DryingRack.addRecipe("mud_bricks", <biomesoplenty:mud_brick>, <contenttweaker:unfired_mud_brick>, 43 * 60 * 20);
+DryingRack.addRecipe("adobe_bricks", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 43 * 60 * 20);
+DryingRack.addRecipe("refractory_bricks", <pyrotech:material:5>, <contenttweaker:unfired_refractory_brick>, 43 * 60 * 20);
+DryingRack.addRecipe("nether_bricks", <minecraft:netherbrick>, <betterwithmods:unfired_pottery:5>, 43 * 60 * 20);
+DryingRack.addRecipe("fiery_nether_bricks", <netherex:fiery_netherbrick>, <contenttweaker:unfired_fiery_brick>, 43 * 60 * 20);
+DryingRack.addRecipe("porcelain_bricks", <ceramics:unfired_clay:5>, <contenttweaker:unfired_porcelain_brick>, 43 * 60 * 20);
 CrudeDryingRack.addRecipe("dried_jute", <pyrotech:material:2>, <harvestcraft:juteitem>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_fiber_fresh", <pyrotech:tinder>, <pyrotech:material:12>, 5 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_fiber_sapling", <pyrotech:tinder>, <ore:treeSapling>, 5 * 60 * 20, true);
-CrudeDryingRack.addRecipe("dry_adobe", <earthworks:item_adobe>, <contenttweaker:unfired_adobe_brick>, 7 * 60 * 20, true);
 CrudeDryingRack.addRecipe("dried_soap", <betterwithmods:aesthetic:10>, <betterwithaddons:wet_soap>, 5 * 60 * 20, true);
+CrudeDryingRack.addRecipe("mud_dirt", <betterwithmods:dirt_pile>, <biomesoplenty:mudball>, 8 * 60 * 20, true);
 
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<pyrotech:material:31>);
@@ -65,21 +130,23 @@ SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 SoakingPot.removeRecipes(<minecraft:stonebrick:1>);
+furnace.addRecipe(<quark:tallow>, <minecraft:rotten_flesh>);
+SoakingPot.addRecipe("rotten_flesh_dissolve", <quark:tallow>, <liquid:methanol>*1, <ore:meatRotten>, true, 5 * 60 * 20);
 SoakingPot.addRecipe("mossy_stone_bricks", <minecraft:stonebrick:1>, <liquid:water>*500, <contenttweaker:brick_minecraft_stone>, 7 * 60 * 20);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);
-SoakingPot.addRecipe("carmin_vinegar", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <mod_lavacow:intestine>, 2 * 60 * 20);
-SoakingPot.addRecipe("carmin_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <ore:agedMold>, 30 * 20);
-SoakingPot.addRecipe("grape_vinegar", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <mod_lavacow:intestine>, 2 * 60 * 20);
-SoakingPot.addRecipe("grape_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <ore:agedMold>, 30 * 20);
-SoakingPot.addRecipe("apple_vinegar", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <mod_lavacow:intestine>, 2 * 60 * 20);
-SoakingPot.addRecipe("apple_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <ore:agedMold>, 30 * 20);
-SoakingPot.addRecipe("tarred_tar_hay", <pyrotech:wood_tar_block>*5, <liquid:wood_tar>*250, <minecraft:hay_block>, 5 * 60 * 20);
+SoakingPot.addRecipe("carmin_vinegar", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
+SoakingPot.addRecipe("carmin_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:wildberryjuice>*100, <ore:agedMold>, true, 30 * 20);
+SoakingPot.addRecipe("grape_vinegar", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
+SoakingPot.addRecipe("grape_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:grapejuice>*100, <ore:agedMold>, true, 30 * 20);
+SoakingPot.addRecipe("apple_vinegar", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <mod_lavacow:intestine>, true, 2 * 60 * 20);
+SoakingPot.addRecipe("apple_vinegar_fast", <harvestcraft:vinegaritem>, <liquid:applejuice>*100, <ore:agedMold>, true, 30 * 20);
+SoakingPot.addRecipe("tarred_tar_hay", <pyrotech:wood_tar_block>*5, <liquid:wood_tar>*250, <minecraft:hay_block>*5, 5 * 60 * 20);
 SoakingPot.addRecipe("refractory_limerock", <pyrotech:material:8>, <liquid:water>*200, <pyrotech:rock:8>, 8 * 60 * 20);
 SoakingPot.addRecipe("refractory_coke", <pyrotech:material:8>*4, <liquid:wood_tar>*50, <pyrotech:material:32>, 6 * 60 * 20);
 SoakingPot.addRecipe("vis_sliver", <contenttweaker:vis_sliver>, <liquid:lunar_water>*1000, <contenttweaker:vis_speck>, 5 * 60 * 20);
 SoakingPot.addRecipe("vis_shard", <contenttweaker:vis_shard>, <liquid:lunar_water>*2000, <contenttweaker:vis_sliver>, 10 * 60 * 20);
 SoakingPot.addRecipe("blood_moon_spirits", <betterwithaddons:ancestry_bottle>, <liquid:lifeblood>*500, <nyx:lunar_water_bottle>, 8 * 60 * 20);
-SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:lifeblood>*950, <contenttweaker:masonry_brick>, 10 * 75 * 30);
+SoakingPot.addRecipe("mythril_stone_ingots", <simpleores:mythril_ingot>, <liquid:lifeblood>*950, <contenttweaker:masonry_brick>, true, 10 * 75 * 30);
 SoakingPot.addRecipe("unliving_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*2000, <charm:rotten_flesh_block>, 12 * 60 * 20);
 SoakingPot.addRecipe("sloth_tar", <pyrotech:living_tar>*1, <liquid:coal_tar>*500, <biomesoplenty:flesh>, 28 * 60 * 20);
 SoakingPot.addRecipe("mossy_white_stone_bricks", <betterwithaddons:whitebrick:1>, <liquid:water>*250, <contenttweaker:brick_betterwithaddons_whitebrick>, 7 * 60 * 20);
@@ -134,16 +201,26 @@ furnace.remove(<pyrotech:material:22>);
 
 Burn.removeRecipes(<pyrotech:material:23>);
 
-Burn.createBuilder("molten_spirit_vanilla", <contenttweaker:masonry_brick>, "simpleores:mythril_ore")
+Burn.createBuilder("lignite_coke", <pyrotech:material:1>, "contenttweaker:lignite_cobble")
     .setBurnStages(1)
     .setTotalBurnTimeTicks(3 * 60 * 20)
+    .setFluidProduced(<liquid:coal_tar> * 500)
+	.setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material>) // big pile of ash
+    .addFailureItem(<pyrotech:material>*2) // big pile of ash
+    .setRequiresRefractoryBlocks(true)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
+Burn.createBuilder("molten_spirit_vanilla", <contenttweaker:masonry_brick>, "simpleores:mythril_ore")
+    .setBurnStages(1)
+    .setTotalBurnTimeTicks(6 * 60 * 20)
     .setFluidProduced(<liquid:lifeblood> * 1000)
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(false)
     .register();
 Burn.createBuilder("distilled_enderslag", <betterwithmods:material:39>, "endreborn:block_entropy_end_stone")
     .setBurnStages(1)
-    .setTotalBurnTimeTicks(1 * 60 * 20)
+    .setTotalBurnTimeTicks(4 * 60 * 20)
     .setFluidProduced(<liquid:ender_slag> * 250)
 	.setFailureChance(0.33)
     .addFailureItem(<betterwithmods:material:39>) // enderslag

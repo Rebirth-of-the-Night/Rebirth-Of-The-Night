@@ -4,13 +4,13 @@
     "effects": [
       {
         "id": "minecraft:glowing",
-        "duration": 4800,
+        "duration": 50000,
         "amplifier": 0,
         "showParticles": true
       },
       {
         "id": "minecraft:invisibility",
-        "duration": 9999,
+        "duration": 50000,
         "amplifier": 0,
         "showParticles": true
       }

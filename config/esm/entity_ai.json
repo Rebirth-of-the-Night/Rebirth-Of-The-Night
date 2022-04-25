@@ -90,16 +90,20 @@
     "specialmobs:sniperwitherskeleton": {
       "Digging": true,
       "Griefing": true,
-      "Requires Tools": true
+      "Requires Tools": true,
+      "Ranged Atk Dist": 48,
+      "Ranged Atk Error": 3
     },
     "rats:illager_piper": {
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "minecraft:vindication_illager": {
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "specialmobs:brutewitherskeleton": {
@@ -111,6 +115,7 @@
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "minecraft:zombie_pigman": {
@@ -155,6 +160,7 @@
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "mod_lavacow:zombiefrozen": {
@@ -197,6 +203,7 @@
       "Griefing": true,
       "Demolition": 0.01,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "specialmobs:brutepigzombie": {
@@ -212,12 +219,14 @@
       "Griefing": true
     },
     "twilightforest:loyal_zombie": {
-      "Pillaring": true
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding"
     },
     "twilightforest:kobold": {
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "betteranimalsplus:blackbear": {
@@ -283,6 +292,7 @@
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "betteranimalsplus:brownbear": {
@@ -294,6 +304,7 @@
       "Griefing": true,
       "Demolition": 0.01,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "specialmobs:giantwitherskeleton": {
@@ -305,6 +316,7 @@
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "minecraft:zombie": {
@@ -329,6 +341,7 @@
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "specialmobs:blindingsilverfish": {
@@ -346,6 +359,7 @@
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "specialmobs:fishingsilverfish": {
@@ -361,6 +375,7 @@
       "Griefing": true,
       "Demolition": 0.01,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "specialmobs:specialzombie": {
@@ -378,6 +393,7 @@
     },
     "quark:pirate": {
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Griefing": true,
       "Requires Tools": true
     },
@@ -386,6 +402,7 @@
       "Griefing": true,
       "Demolition": 0.01,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "twilightforest:snow_guardian": {
@@ -405,6 +422,7 @@
       "Griefing": true,
       "Demolition": 0.01,
       "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding",
       "Requires Tools": true
     },
     "netherex:wight": {
@@ -412,7 +430,8 @@
       "Griefing": false
     },
     "minecraft:enderman": {
-      "Pillaring": true
+      "Pillaring": true,
+      "Pillar Block": "contenttweaker:scaffolding"
     },
     "specialmobs:fishingzombie": {
       "Digging": true,

@@ -9,13 +9,13 @@ guiScale:3
 particles:1
 bobView:true
 anaglyph3d:false
-maxFps:145
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:true
-ao:2
+ao:1
 renderClouds:true
-resourcePacks:["Refreshed Aether.zip","AntiqueAtlasExtra-v1.2.zip","Better Default 1.12.2.zip","Official ROTN tweaks"]
+resourcePacks:["AntiqueAtlasExtra-v1.2.zip","Refreshed Aether.zip","Modern+Pyrotech+[1.12]+[v1.2].zip","Vanilla_Future_Texture_optifine.zip","Modernity-format3-v3.5.2.zip","AnimEmis_InF_SW.zip","Official ROTN tweaks"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -45,7 +45,7 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:right
-attackIndicator:1
+attackIndicator:2
 showSubtitles:false
 realmsNotifications:false
 enableWeakAttacks:false

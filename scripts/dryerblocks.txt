@@ -1,0 +1,201 @@
+          {
+            "id": "contenttweaker:brick_minecraft_stone"
+          },
+          {
+            "id": "undergroundbiomes:igneous_brick"
+          },
+          {
+            "id": "undergroundbiomes:metamorphic_brick"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks_chiseled"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks_cracked"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks_mossy"
+          },
+          {
+            "id": "contenttweaker:brick_quark_permafrost"
+          },
+          {
+            "id": "quark:polished_netherrack"
+          },
+          {
+            "id": "contenttweaker:brick_biomesoplenty_mud"
+          },
+          {
+            "id": "contenttweaker:brick_earthworks_adobe"
+          },
+          {
+            "id": "contenttweaker:brick_quark_brimstone"
+          },
+          {
+            "id": "iceandfire:dread_stone_bricks"
+          },
+          {
+            "id": "contenttweaker:brick_ceramics_porcelain"
+          },
+          {
+            "id": "contenttweaker:brick_betterwithaddons_whitebrick"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_end"
+          },
+          {
+            "id": "contenttweaker:brick_netherex_fiery"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_nether"
+          },
+          {
+            "id": "contenttweaker:brick_pyrotech_refractory"
+          },
+          {
+            "id": "contenttweaker:brick_pyrotech_masonry"
+          },
+          {
+            "id": "contenttweaker:brick_quark_sandy"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_clay"
+          },
+          {
+            "id": "endreborn:chiseled_end_bricks"
+          },
+          {
+            "id": "minecraft:stonebrick"
+          },
+          {
+            "id": "contenttweaker:brick_quark_soul_sandstone"
+          },
+          {
+            "id": "betterwithaddons:whitebrick"
+          },
+          {
+            "id": "betternether:cincinnasite_bricks"
+          },
+          {
+            "id": "ceramics:clay_hard"
+          },
+          {
+            "id": "contenttweaker:big_limestone_bricks"
+          },
+          {
+            "id": "contenttweaker:brick_aether_legacy_holystone"
+          },
+          {
+            "id": "contenttweaker:brick_minecraft_stone"
+          },
+          {
+            "id": "contenttweaker:big_chert_bricks"
+          },
+          {
+            "id": "contenttweaker:big_greywacke_bricks"
+          },
+          {
+            "id": "contenttweaker:big_dolomite_bricks"
+          },
+          {
+            "id": "contenttweaker:big_lignite_bricks"
+          },
+          {
+            "id": "contenttweaker:big_siltstone_bricks"
+          },
+          {
+            "id": "contenttweaker:big_shale_bricks"
+          },
+          {
+            "id": "contenttweaker:big_chalk_bricks"
+          },
+          {
+            "id": "contenttweaker:brick_quark_red_sandstone"
+          },
+          {
+            "id": "contenttweaker:brick_quark_sandstone"
+          },
+
+{
+  "id": "contenttweaker:hellbark_boards"
+},
+{
+  "id": "contenttweaker:oak_boards"
+},
+{
+  "id": "contenttweaker:umbran_boards"
+},
+{
+  "id": "contenttweaker:acacia_boards"
+},
+{
+  "id": "contenttweaker:dreadwood_boards"
+},
+{
+  "id": "contenttweaker:ironwood_boards"
+},
+{
+  "id": "contenttweaker:jungle_boards"
+},
+{
+  "id": "contenttweaker:wyrmwood_boards"
+},
+{
+  "id": "contenttweaker:stalagnate_boards"
+},
+{
+  "id": "contenttweaker:sacred_oak_boards"
+},
+{
+  "id": "contenttweaker:cherry_boards"
+},
+{
+  "id": "contenttweaker:spruce_boards"
+},
+{
+  "id": "contenttweaker:olive_boards"
+},
+{
+  "id": "contenttweaker:palm_boards"
+},
+{
+  "id": "contenttweaker:ebony_boards"
+},
+{
+  "id": "contenttweaker:tenebra_boards"
+},
+{
+  "id": "contenttweaker:pine_boards"
+},
+{
+  "id": "contenttweaker:mangrove_boards"
+},
+{
+  "id": "contenttweaker:dark_oak_boards"
+},
+{
+  "id": "contenttweaker:birch_boards"
+},
+{
+  "id": "contenttweaker:magic_boards"
+},
+{
+  "id": "contenttweaker:fir_boards"
+},
+{
+  "id": "contenttweaker:eucalyptus_boards"
+},
+{
+  "id": "contenttweaker:jacaranda_boards"
+},
+{
+  "id": "contenttweaker:mahogany_boards"
+},
+{
+  "id": "contenttweaker:redwood_boards"
+},
+{
+  "id": "contenttweaker:willow_boards"
+},
+{
+  "id": "contenttweaker:skywood_boards"

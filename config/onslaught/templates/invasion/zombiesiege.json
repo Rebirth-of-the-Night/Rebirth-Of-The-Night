@@ -1,0 +1,3172 @@
+{
+  "zombiesiege": {
+    "selector": {
+      "gamestages": {
+        "and": ["enteredBeneath"]
+      },
+      "weight": 32,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear"
+      ],
+      "end": [
+        "/xp 600 @p",
+        "/give @p glaretorch:itemglaretorchsmall 128"
+      ],
+      "staged": [
+        {
+          "complete": 0.5,
+          "commands": [
+            "/ostop @p"
+          ]
+        }
+        
+      ]
+    },
+    "name": "Zombie Siege",
+    "messages": {
+      "start": "\u00A7cYou feel as though this siege might last a while...",
+      "end": "\u00A7aThe undead wave slowly tapers off, and all is quiet again.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eYou hear undead moaning in the distance..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 2400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 3600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 4800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 6000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 7200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 8400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 9600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 10800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 12000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 13200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 14400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 15600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 16800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 18000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 19200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 20400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 21600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 22800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 24000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 25200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 26400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 27600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 28800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 30000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 31200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 32400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 33600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 34800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 36000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 37200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 38400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 39600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 40800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 42000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 43200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 44400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 45600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 46800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 48000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 49200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 50400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 51600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 52800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },{
+        "delayTicks": [ 54000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 55200 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 56400 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 57600 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 58800 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 1, 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

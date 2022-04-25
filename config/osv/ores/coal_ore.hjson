@@ -26,7 +26,7 @@ gen: [
 #everywhere Except Beneath and Deserts
   {
     height: [ 0, 128 ]
-    size: 8
+    size: 11
     count: 17
 	blacklistBiomes: true
 	biomes: {
@@ -46,9 +46,9 @@ gen: [
 #jungle frenzy
   {
     height: [ 0, 155 ]
-    size: 16
+    size: 19
     count: 20
-	chance: 0.6
+	chance: 0.7
 	dimensions: [0, 7]
 	biomes: {
 	  types: [
@@ -60,7 +60,7 @@ gen: [
   {
     height: [ 0, 40 ]
     size: 8
-    count: 28
+    count: 30
 	biomes: {
 		names: [
 			minecraft:desert
@@ -77,7 +77,7 @@ gen: [
   {
     height: [ 59, 64 ]
     size: 2
-    count: 20
+    count: 25
 	chance: 0.6
 	dimensions: [0, 7]
 	biomes: {

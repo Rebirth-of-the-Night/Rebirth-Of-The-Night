@@ -63,8 +63,8 @@ item.pyrotech.marshmallow.on.stick.burned.name=Burned Traditional Marshmallow on
 
 tile.pyrotech.kiln_pit.name=Pit Kiln
 tile.pyrotech.campfire.name=Campfire
-tile.pyrotech.drying_rack.crude.name=Crude Drying Rack
-tile.pyrotech.drying_rack.normal.name=Drying Rack
+tile.pyrotech.drying_rack.crude.name=Hung Drying Rack
+tile.pyrotech.drying_rack.normal.name=Standing Drying Rack
 tile.pyrotech.chopping_block.name=Chopping Block
 tile.pyrotech.anvil_granite.name=Multipurpose Stone Anvil
 tile.pyrotech.anvil_iron_plated.name=Refined Plating Anvil
@@ -294,8 +294,8 @@ tile.pyrotech.wool_tarred.name=Tarred Wool
 tile.pyrotech.charcoal_block.name=Block of Charcoal
 tile.pyrotech.wood_tar_block.name=Tar Bale
 tile.pyrotech.living_tar.name=Living Tar
-tile.pyrotech.dense_redstone_ore.name=Dense Redstone Ore
-tile.pyrotech.dense_quartz_ore.name=Dense Quartz Ore
+tile.pyrotech.dense_redstone_ore.name=Dense Redstone Crystal
+tile.pyrotech.dense_quartz_ore.name=Dense Quartz Crystal
 tile.pyrotech.straw_bed.name=Straw Bed
 
 tile.pyrotech.rock_stone.name=Coade Stone Rock
@@ -401,12 +401,12 @@ gui.pyrotech.waila.campfire.required=Campfire required
 
 gui.pyrotech.jei.failure=Failure: %d%%
 
-gui.pyrotech.jei.category.kiln.brick=Brick Kiln
+gui.pyrotech.jei.category.kiln.brick=Refractory Kiln
 gui.pyrotech.jei.category.crucible.brick=Refractory Crucible
 gui.pyrotech.jei.category.sawmill.brick=Refractory Sawmill
 gui.pyrotech.jei.category.oven.brick=Refractory Oven
 
-gui.pyrotech.jei.category.kiln.stone=Stone Kiln
+gui.pyrotech.jei.category.kiln.stone=Brick Kiln
 gui.pyrotech.jei.category.crucible.stone=Stone Crucible
 gui.pyrotech.jei.category.sawmill.stone=Stone Sawmill
 gui.pyrotech.jei.category.oven.stone=Stone Oven
@@ -430,7 +430,7 @@ gui.pyrotech.jei.category.bloomery=Bloomery
 gui.pyrotech.jei.category.wither.forge=Wither Forge
 
 gui.pyrotech.jei.info.campfire=To make a campfire, place dried fibers on the ground, add logs, and light it.
-gui.pyrotech.jei.info.pit.kiln=To use a pit kiln, first dig a hole in the ground and place the pit kiln inside. Next, place the item you want to fire in the pit kiln, place a straw block, and place three logs on top. Finally, light the top of the kiln and be sure to keep it dry while it fires!
+gui.pyrotech.jei.info.pit.kiln=To use a pit kiln, first dig a hole in the ground and place the pit kiln inside. Next, place the item you want to fire in the pit kiln, place a hay bale block, and place three logs on top. Finally, light the top of the kiln and be sure to keep it dry while it fires!
 gui.pyrotech.jei.info.burn=To perform pit burning, place the blocks to burn in a pit and make sure all sides are covered with solid, non-flammable blocks, leaving one hole exposed. Light the blocks and quickly cover the hole. The entire contents must be covered with full, non-flammable blocks to succeed. When contents stop smoking, the burn is complete. To collect fluid from the burn, place collectors under the blocks.
 gui.pyrotech.jei.info.refractory=Refractory burning is similar to pit burning with the exception that the burning blocks must be fully covered with valid refractory blocks. To collect fluid from the burn, place a valid refractory collector under the blocks.
 

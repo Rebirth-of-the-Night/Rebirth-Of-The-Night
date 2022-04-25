@@ -1,10 +1,7 @@
 {
   "beasts": {
     "selector": {
-      "gamestages": {
-        "not": "slayersjournal"
-      },
-      "weight": 100,
+      "weight": 2,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
@@ -15,7 +12,18 @@
         "/weather rain"
       ],
       "end": [
-        "/weather clear"
+        "/weather clear",
+        "/xp 100 @p",
+        "/give @p betterwithmods:material 8 31"
+      ],
+      "staged": [
+        {
+          "complete": 0.8,
+          "commands": [
+            "/ostop @p"
+          ]
+        }
+        
       ]
     },
     "name": "The Beasts",
@@ -71,7 +79,7 @@
         ]
       },
       {
-        "delayTicks": [ 1800, 2400 ],
+        "delayTicks": [ 1800, 2100 ],
         "groups": [
           {
             "mobs": [
@@ -120,7 +128,7 @@
         ]
       },
       {
-        "delayTicks": [ 1800, 2400 ],
+        "delayTicks": [ 3600, 3900 ],
         "groups": [
           {
             "mobs": [
@@ -157,7 +165,32 @@
         ]
       },
       {
-        "delayTicks": [ 100 ],
+        "delayTicks": [ 5400, 5700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zed",
+                "count": [ 2, 4 ]
+              },
+              {
+                "id": "zed.miner",
+                "count": [ 1, 2 ]
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "bug.locust",
+                "count": [ 8, 14 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 7200, 7500 ],
         "groups": [
           {
             "mobs": [

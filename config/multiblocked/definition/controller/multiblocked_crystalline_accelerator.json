@@ -1,0 +1,201 @@
+{
+  "consumeCatalyst": false,
+  "location": "multiblocked:crystalline_accelerator",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 32,
+        "y": 77,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 118,
+        "y": 76,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "aesthetics:mythril_bars",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "modelName": "crystallineaccelerator",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "workingRenderer": {
+    "modelName": "crystallineaccelerator",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "   ",
+        "A A",
+        "   ",
+        "   ",
+        "BBB",
+        "   "
+      ],
+      [
+        " C ",
+        "DED",
+        " F ",
+        " @ ",
+        "GHI",
+        " J "
+      ],
+      [
+        "   ",
+        "DDD",
+        "KDK",
+        "KDK",
+        "DDD",
+        "   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "res": {
+        "blocks": [
+          {
+            "id": "arcanearchives:radiant_resonator"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "multiblocked:crystalline_accelerator",
+        "type": "component"
+      },
+      "stair": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "contenttweaker:magicked_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "contenttweaker:residual_mythril",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "quartz": {
+        "blocks": [
+          {
+            "id": "arcanearchives:raw_quartz_cluster"
+          }
+        ],
+        "type": "blocks"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "betterwithaddons:wrought_bars",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "output": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "input": {
+        "capability": "item",
+        "type": "capability",
+        "io": "IN"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "stair"
+      ],
+      "B": [
+        "stair"
+      ],
+      "C": [
+        "output"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "res"
+      ],
+      "F": [
+        "quartz"
+      ],
+      "G": [
+        "stair"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "stair"
+      ],
+      "J": [
+        "input"
+      ],
+      "K": [
+        "K"
+      ]
+    }
+  },
+  "recipeMap": "accelerator"
+}

@@ -104,9 +104,9 @@ GCT.addRecipe("poisonetched_emerald", <contenttweaker:poisonetched_emerald>, [<m
 
 GCT.addRecipe("overgrown_emerald", <contenttweaker:overgrown_emerald>, [<minecraft:emerald>, <ore:treeLeaves>*4, <ore:treeSapling>*6, <betterwithmods:fertilizer>*8]);
 
-GCT.addRecipe("waterlogged_sapphire", <contenttweaker:waterlogged_sapphire>, [<biomesoplenty:gem:6>, <minecraft:snowball>*8, <pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <mod_lavacow:shattered_ice>*6]);
+GCT.addRecipe("waterlogged_sapphire", <contenttweaker:waterlogged_sapphire>, [<biomesoplenty:gem:6>, <minecraft:snowball>*8, <contenttweaker:water_quintessence>*4, <minecraft:ice>*6]);
 
-GCT.addRecipe("abyssal_sapphire", <contenttweaker:abyssal_sapphire>, [<biomesoplenty:gem:6>, <betterwithaddons:wheatmat>*8, <betterslimes:black_slime>*6, <pyrotech:bucket_clay>.withTag({fluids: {FluidName: "lunar_water", Amount: 1000}})]);
+GCT.addRecipe("abyssal_sapphire", <contenttweaker:abyssal_sapphire>, [<biomesoplenty:gem:6>, <betterwithaddons:wheatmat>*8, <betterslimes:black_slime>*6, <nyx:lunar_water_bottle>]);
 
 GCT.addRecipe("lucky_peridot", <contenttweaker:lucky_peridot>, [<biomesoplenty:gem:2>, <contenttweaker:4leaf_clover>*4, <minecraft:dye:4>*8, <minecraft:rabbit_foot>*6]);
 

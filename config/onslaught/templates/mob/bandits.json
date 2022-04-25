@@ -1,0 +1,38 @@
+{
+  "bandits.miner": {
+    "id": "toroquest:toroquest_bandit_lord",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Bandit Miner",
+      "HandItems": [
+        { "Count": 1, "id": "aether_legacy:lightning_sword" },
+        { "Count": 1, "id": "minecraft:torch" }
+      ],
+      "ArmorItems": [
+        { },
+        { "Count": 1, "id": "atop:sapphire_leggings" },
+        { },
+        { "Count": 1, "id": "dungeontactics:steel_helmet" }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 8,
+              "SpeedModifier": 2
+            }
+          }
+        }
+      }
+    }
+  }
+}

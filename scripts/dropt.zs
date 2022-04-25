@@ -83,6 +83,24 @@ Dropt.list("planarspsp2")
       )
   );
 
+Dropt.list("codex_junk")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:codex_junk"])
+      .addDrop(Dropt.drop()
+          .items([<villagenames:codex>])
+      )
+  );
+  
+Dropt.list("halite")
+
+  .add(Dropt.rule()
+      .matchBlocks(["contenttweaker:halite"])
+      .addDrop(Dropt.drop()
+          .items([<animania:salt>], Dropt.range(1, 3))
+      )
+  );
+
 Dropt.list("bop_honey_block")
 
   .add(Dropt.rule()
@@ -293,7 +311,7 @@ Dropt.list("Well_Worth")
       )
       .addDrop(Dropt.drop()
           .force()
-          .items([<minecraft:bucket>])
+          .items([<betterwithmods:bucket>])
       )
       .addDrop(Dropt.drop()
           .force()
@@ -322,7 +340,7 @@ Dropt.list("masonry_brick_two")
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:masonry_brick_two"])
       .addDrop(Dropt.drop()
-          .items([<contenttweaker:masonry_brick>])
+          .items([<contenttweaker:masonry_brick>], Dropt.range(2))
       )
   );
   
@@ -918,3 +936,12 @@ Dropt.list("yeast")
        	   .items([<exsartagine:yeast>])
       )
   );  
+
+Dropt.list("animania_seeds")
+
+  .add(Dropt.rule()
+      .matchBlocks(["animania:block_seeds"])
+      .matchDrops([<minecraft:wheat_seeds>])
+      .replaceStrategy("REPLACE_ITEMS")
+        .addDrop(Dropt.drop())
+      );

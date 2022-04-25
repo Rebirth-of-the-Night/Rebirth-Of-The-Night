@@ -265,6 +265,7 @@ quark:ashen
 quark:pirate
 quark:crab
 quark:wraith
+quark:totem_of_holding
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -275,7 +276,6 @@ quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
-quark:totem_of_holding
 betterwithaddons:greatarrow
 betterwithaddons:ya
 betterwithaddons:artifactframe

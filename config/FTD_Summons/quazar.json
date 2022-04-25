@@ -49,7 +49,7 @@
         "item": "nyx:meteor_shard"
       },
 		  "f": {
-        "item": "netherex:fiery_netherrack"
+        "item": "contenttweaker:fire_quintessence"
       },
 	  	"b": {
         "item": "minecraft:blaze_powder"
@@ -62,11 +62,8 @@
       }
     },
     "result": {
-      "item": "from_the_depths:item_totem_of_summoning",
+      "item": "from_the_depths:totem_quazar",
       "data": 0,
-      "nbt": {
-        "spawn_info": "Quazar"
-      },
       "count": 1
     }
   }

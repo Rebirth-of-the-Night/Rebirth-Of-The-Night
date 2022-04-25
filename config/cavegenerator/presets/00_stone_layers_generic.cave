@@ -107,7 +107,7 @@
     {
       #green schist
       state: undergroundbiomes:metamorphic_stone:5
-      height: [ 0, 204 ]
+      height: [ 0, 190 ]
       ceiling: {
         frequency: 0.3
         range: [ 0, 8 ]

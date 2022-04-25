@@ -86,6 +86,7 @@ JEI.removeAndHide(<earthworks:tool_diamond_hammer>);
 recipes.remove(<quark:world_stone_bricks:2>);
 recipes.remove(<quark:world_stone_bricks:1>);
 recipes.remove(<quark:world_stone_bricks>);
+recipes.removeByRecipeName("earthworks:block_sand");
 
 val clay = <minecraft:clay_ball>;
 val cob = <earthworks:block_cob>;
@@ -163,7 +164,7 @@ recipes.addShapedMirrored("timber",timber*12,[
 ]);
 
 // Rammed Earth
-recipes.remove(rammed); // Gets rammed using compactor in pyrotech_recipes_other.zs
+recipes.remove(<earthworks:block_rammed_earth>); // Gets rammed using compactor in pyrotech_recipes_other.zs
 // Rammed Loamy
 recipes.addShaped("stairs_rammed_loamy",rammed_loamy*3,[
     [loamy_stairs,loamy_stairs],
@@ -233,7 +234,7 @@ recipes.addShaped("rammed_silty_slab",silty_slab*6,[
 recipes.remove(<earthworks:item_lime_plaster>);
 JEI.removeAndHide(<earthworks:item_slaked_lime>);
 JEI.removeAndHide(<earthworks:item_quicklime>);
-recipes.addShapeless("lime_plaster",<earthworks:item_lime_plaster>*4,[multilime, sandPile]);
+recipes.addShapeless("lime_plaster",<earthworks:item_lime_plaster>*2,[multilime, sandPile]);
 recipes.addShapeless("lime_plaster_binder",<earthworks:item_lime_plaster>*10,[multilime, multilime, multilime, multilime, twine, sandPile, sandPile, sandPile, sandPile]);
 
 // adove

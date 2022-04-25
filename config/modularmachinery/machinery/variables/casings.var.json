@@ -27,6 +27,8 @@
         "minecraft:stonebrick",
         "quark:world_stone_bricks",
         "quark:biome_brick",
+        "contenttweaker:brick_minecraft_nether",
+        "contenttweaker:brick_netherex_fiery",
         "undergroundbiomes:igneous_brick",
         "undergroundbiomes:metamorphic_brick",
         "betterwithaddons:whitebrick",
@@ -95,5 +97,51 @@
         "netherex:lively_netherrack",
         "netherex:gloomy_netherrack",
         "netherex:fiery_netherrack"
+    ],
+    "refractoryBlock": [
+        "contenttweaker:brick_minecraft_nether",
+        "contenttweaker:brick_netherex_fiery",
+        "ceramics:clay_hard@2",
+        "ceramics:clay_hard@5",
+        "ceramics:clay_hard@6",
+        "ceramics:clay_hard@7",
+        "ceramics:rainbow_clay",
+        "contenttweaker:brick_pyrotech_refractory",
+        "contenttweaker:brick_ceramics_porcelain"
+    ],
+    "netherFramedGlass": [
+        "betternether:quartz_glass_framed",
+        "betternether:quartz_stained_glass_framed"
+    ],
+    "blueSlate": [
+        "earthworks:block_slate_shingle",
+        "earthworks:block_slate_tile",
+        "earthworks:block_slate",
+        "earthworks:block_slate_slab"
+    ],
+    "blueSlateWall": [
+        "earthworks:wall_slate_shingle", 
+        "earthworks:wall_slate_tile",
+        "earthworks:wall_slate",
+        "earthworks:wall_slate_slab"
+    ],
+    "durableGlass": [
+        "quark:framed_glass",
+        "pyrotech:slag_glass",
+        "betternether:quartz_glass",
+        "betternether:quartz_glass_framed",
+        "betternether:quartz_stained_glass",
+        "betternether:quartz_stained_glass_framed",
+        "sereneseasons:greenhouse_glass"
+    ],
+    "beneathMetal": [
+        "contenttweaker:lunarinviridiumbrick",
+        "contenttweaker:lunarinmythrilbrick",
+        "simpleores:adamantium_block",
+        "simpleores:mythril_block"
+    ],
+    "beneathStone": [
+        "contenttweaker:magicked_stone",
+        "contenttweaker:voided_rock"
     ]
 }

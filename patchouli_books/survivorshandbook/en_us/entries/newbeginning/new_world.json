@@ -1,20 +1,24 @@
 {
   "name": "A New World",
-  "icon": "minecraft:log:0",
+  "icon": "harvestcraft:artichokeseeditem",
   "category": "survival_newbeginning",
   "sortnum": 2,
   "pages": [
     {
       "type": "text",
-      "text": "I know I can survive in this world, but it won't be easy. My first priority should be to find some wood to make tools and a weapon.$(br2)Next, I should gather whatever resources I can and prepare to make a shelter before the sun sets.$(br2)Whatever the night brings, it won't be pleasant."
+      "text": "I'm not quite sure what happened... but all I know is that I'm here now; the open world in front of me. Sights, sounds, smells... it's almost overwhelming. But I need to gather myself.$(br2)I have a few things in my hands: a scroll of paper tied with a green ribbon, and some bread. The scroll... I'm not quite sure what it does, but I sense it's no ordinary"
     },
     {
       "type": "text",
-      "text": "Oddly enough, I feel like the daytime and nighttime lasts much longer than usual.$(br2)My intuition tells me the day and night cycle is 2 times longer than what it should be...$(br2)$(italics)$(#a84b0f)One day/night cycle in Rebirth of the Night lasts 40 minutes in real-time, twice as long as in vanilla Minecraft.$()"
+      "text": "piece of paper. I better hang onto this; it may be useful later. The bread... good for a snack if I'm hungry later.$(br2)$(italics)$(#a84b0f)The Scroll of New Life can be used to set your spawnpoint, in lieu of a bed. It is a one-time use item, so be wise with where you choose to anchor yourself.$(br2)It can be overridden later on with other spawn setters like a bed.$()"
     },
     {
       "type": "text",
-      "text": "Surviving in this world alone may prove to be a daunting task. I might try and look for others like me to take on this world together as a team.$(br2)$(#a84b0f)$(italics)You can find the Teams tab on the top left corner while accessing the inventory. Here you can create a team and invite other players to your team. You can also do the /teams command and follow the prompts there.$()"
+      "text": "Something tells me that nightfall won't be very pleasant; I can't quite place my finger on it, though.$(br2)I should take note of my surroundings and begin to gather materials, to anticipate whatever may come when the sun sets. A shelter and some basic tools are in line.$(br2)I feel as though I have some time to prepare, though that shouldn't make me complacent."
+    },
+    {
+      "type": "text",
+      "text": "$(br2) $(br2) $(br2)$(italics)$(#a84b0f)The day/night cycle in RotN is 40 minutes in real-time; 20 minutes of night and day, twice as long as vanilla Minecraft.$()"
     },
     {
       "type": "relations",

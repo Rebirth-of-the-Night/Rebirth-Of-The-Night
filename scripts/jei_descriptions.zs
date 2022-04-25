@@ -118,6 +118,7 @@ JEI.addDescription(<endreborn:item_end_essence>, "As their civilization collapse
 JEI.addDescription(<biomesoplenty:biome_essence>,"Residual energy of that which was extinguished by the Void. Can be found at the bottom of the Ender Dragon island.");
 JEI.addDescription(<ore:ingotSilver>,"A material known to be effective when used against undead monsters. Silver is strong in damage and mining speed, but weak in other aspects.");
 JEI.addDescription(<ore:ingotIron>,"Although bronze and steel are tougher and more durable than iron, iron will always be useful for all sorts of tools and utilities.");
+JEI.addDescription(<contenttweaker:material_part:49>,"Iron with very little carbon content and traces of slag is called wrought iron. Strong but somewhat brittle, it finds application in machinery and ornamentation.",'Most peculiar are the tremendous amounts of this metal that are found buried underground, for it does not form "naturally".');
 JEI.addDescription(crudeSteelIngot,["Steel made in a crucible is not the most pure, strong or durable alloy of steel, but it manages to easily outclass bronze. Steel is widely used in mechanisms for it's durability.",'Although smiths have discovered alloys of steel that are much harder and flexible, the complex process has been lost to the ages while others have been deemed too "disturbing" to make. Yet there are rumors that a craftsperson skilled enough could make a steel alloy better than anything discovered before.']);
 JEI.addDescription(sfsSteelIngot,"Used as a late-game crafting material. It can craft a Mattock - the best mining tool available! It is also needed for some advanced contraptions.");
 JEI.addDescription(<ore:ingotBronze>,"Definitely better than iron, not quite as good as steel.");
@@ -230,7 +231,8 @@ JEI.addDescription(<harvestcraft:kenafitem>, "Contains a good amount of fiber...
 JEI.addDescription(<harvestcraft:sisalitem>, "Also known as henequen, a very durable 'palm-like' plant native to dry biomes. This plant is a decent source of fiber and string since its leaves are thick and strong.");
 JEI.addDescription(<harvestcraft:cottonitem>, "Cotton can be used in various textiles, but it is not the most naturally resilient fiber.  When used to make clothing or padding, however, it's very comfortable.");
 JEI.addDescription(<betterwithmods:hemp>,"An extremely useful plant, hemp can make very high quality and durable fibers with a variety of uses. It's easily made into sails and different kinds of textiles. Grows two blocks high like Sugar Cane - be sure to only harvest the top one!");
-
+JEI.addDescription(<growthcraft_rice:rice>,"A unique kind of grass that grows on shallow water, ponds where it is planted are known as rice paddies. Raw rice grains are particularly full of harmful bacteria.");
+JEI.addDescription(<growthcraft_hops:hop_seeds>,"Hops used to make ale wort and alcohol; they need a Crop Rope acting as a guide to grow.");
 
 /* Food */
 JEI.addDescription(<animania:friesian_cheese_wheel>,"To form a cheese wheel, place milk from a goat, a sheep, or from certain breeds of cow in a cheese mold and wait several minutes for it to curdle.");
@@ -246,6 +248,10 @@ JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount:
 JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}),"Sheep Milk is obtained from sheep.");
 
 JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through an infectious disease. If fed to certain baby animals, their growth will be stunted forever.");
+JEI.addDescription(<mod_lavacow:parasite_item>, "When used as yeast for liquor, it makes it poisonous, yet undetectable...");
+JEI.addDescription(<mod_lavacow:parasite_item>, "These parasites feed off victims of the ancient plague; an opportunistic creature that took refuge in a grand catastrophe.");
+JEI.addDescription(<mod_lavacow:parasite_item:1>, "These parasites feed off mummies in deserts, which decay much slower thanks to ancient rituals.");
+JEI.addDescription(<mod_lavacow:parasite_item:2>, "These parasites feed off rotting matter like if they were fungi, but will latch onto anything alive. Just like how the evolved to feed off undead outside of jungles.");
 JEI.addDescription(<exsartagine:yeast>, "This kind of yeast can be obtained by placing down flour on a surface, right-clicking it with a water bottle and waiting until it changes appearance. Breaking the changed block will yield this item.");
 
 /* Mobs and Drops */
@@ -356,6 +362,7 @@ JEI.addDescription(<advancedmortars:mortar:3>, 'A conglomerate of leftover mater
 
 /* Mechanical, Defense, and Item Movement */
 JEI.addDescription(<quark:rope>, "A useful tool for traversal. Right click on a rope with more rope to descend downward. It will also pull itself and blocks underneath it upwards if right-clicked while sneaking.");
+JEI.addDescription(<growthcraft:rope>, "Can be attached to fences. Make a horizontal line two blocks above and parallel to farmland for grapes to hang on. Make a line perpendicular to farmland for hops to grow upwards.");
 JEI.addDescription(<quark:chain>, "A small chain such as this can be used to link a series of minecarts or boats, allowing for far more organized journeys.");
 JEI.addDescription(<minecraft:minecart>, "Sneak and right click with dye in hand to color minecarts!");
 JEI.addDescription(<minecraft:lead>, "Besides leading creatures by hand, leads can be tied to a fence or even between two fences to create a connection. Some creatures will never submit to a lead - for that, the use of a refined chain is required.");
@@ -455,6 +462,7 @@ JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with the essence of t
 JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an extraterrestrial being. Contains the unstable powder used to concentrate and refine meteorite.");
 JEI.addDescription(<contenttweaker:ardicite>,"A naturally occurring form of pure hellfire that can host Onyx formations. It is a fiery material that can be found in the Nether in pockets of flammable sulfur.");
 JEI.addDescription(<contenttweaker:ofuda>,"An old sheet of paper with indecipherable writing on it. Often found hanging in places believed to have been highly dangerous or cursed, these were likely used as some sort of charm to ward off danger or ailment. Whoever made these are probably no longer around; these ofuda were probably a last ditch attempt at saving themselves from disaster... or a warning for whoever may stumble upon them in the future. It faintly glows by unknown methods.");
+JEI.addDescription(<betterwithaddons:ancestry_bottle>,"Spirits extracted from souls, little remains of the original entity. Keep a bottle in your inventory when killing paranormal undead to snatch the spirit before it returns to the spiritual realm.");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;
@@ -519,3 +527,10 @@ JEI.addDescription(<defiledlands:tears_flame>,"Charge to shoot 5 fire balls at y
 
 /* Hit with Axe */
 JEI.addDescription(<hitwithaxe:debarked_magic>, "Hit a magic wood log with an axe.");
+
+/* Yeasts */
+JEI.addDescription(<growthcraft_cellar:yeast>, "A yeast which appears to be basic in nature. It can be cultivated in culture jars with any fermentable liquid in any biome, albeit at a lower rate in biomes where other yeasts might flourish. Placing this in the output slot of a culture jar will ensure only brewer's yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:1>, "A yeast which appears to be capable of making a lovely lager beer. It can be cultivated in culture jars with any fermentable liquid in cold biomes, like a Taiga. Placing this in the output slot of a culture jar will ensure only lager yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:2>, "A yeast which appears to be capable of making a wonderful port wine. It can sometimes be obtained when harvesting grapes. Placing this in the output slot of a culture jar will ensure only bayanus yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:3>, "A yeast which appears to have mystical properties. It can be cultivated in culture jars with any fermentable liquid in magical biomes, like the Mystical Grove. Placing this in the output slot of a culture jar will ensure only ethereal yeast is produced, irrespective of the biome.");
+JEI.addDescription(<growthcraft_cellar:yeast:4>, "A yeast which appears to be quite mycelial. It can be cultivated in culture jars with any fermentable liquid in mushroom biomes, like the Mushroom Islands. Placing this in the output slot of a culture jar will ensure only origin yeast is produced, irrespective of the biome.");

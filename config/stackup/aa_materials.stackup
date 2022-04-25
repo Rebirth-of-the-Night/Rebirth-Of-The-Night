@@ -66,6 +66,7 @@ id="minecraft:feather" -> 256
 id="minecraft:gunpowder" -> 256
 id="minecraft:wheat" -> 256
 id="minecraft:clay_ball" -> 256
+id="biomesoplenty:mudball" -> 256
 id="minecraft:paper" -> 256
 id="minecraft:slime_ball" -> 256
 id="minecraft:bone" -> 256
@@ -172,4 +173,6 @@ id="quark:parrot_egg" -> 64
 id~="toroquest:scroll*" -> 64
 id="toroquest:recruitment_papers" -> 64
 id="extraalchemy:vial_break" -> 64
-
+id="aether_legacy:blue_berry" -> 64
+id="contenttweaker:cooking_kit" -> 1
+id="dynamictrees:dirtbucket" -> 1

@@ -191,7 +191,7 @@ recipes.addShapeless("light_blue_from_blue",<minecraft:dye:12>*2,
 recipes.addShapeless("red_from_pink",<minecraft:dye:1>*2,
  [<ore:dyePink>,<ore:dyeBlack>]);
 recipes.addShapeless("pink_from_red",<minecraft:dye:9>*2,
- [<ore:dyeRed>,<ore:dyeBlack>]);
+ [<ore:dyeRed>,<ore:dyeWhite>]);
 recipes.addShapeless("orange_dye",<minecraft:dye:14>*2,
  [<ore:dyeRed>,<ore:dyeYellow>]);
 recipes.addShaped("gray_from_black",<minecraft:dye:8>*2,

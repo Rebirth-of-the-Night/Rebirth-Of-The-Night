@@ -7,4 +7,4 @@ Loose Adobe bricks // resources\contenttweaker\textures\blocks\loose_bricks // l
 Furnace // oresources\minecraft\textures\block // furnace_dry_fitted furnace_front_on furnace_front_off // Alsender  - Earthworks - dry fitted stone
 Fire // oresources\minecraft\textures\block // fire_layer_0 // PureBDCraft 16x
 Weathered Dirt // resources\contenttweaker\textures\blocks // weathered_dirt // https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis
-
+Plague Leech // resources\contenttweaker\textures\items // plague_leech.png // Alexthe1666 - Rats - Plague Effect

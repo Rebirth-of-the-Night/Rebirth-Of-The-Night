@@ -1,19 +1,19 @@
 {
     "registryname": "dryer",
     "localizedname": "Dryer",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "modifiers": [
         {
             "elements": "betternether:cincinnasite_bars",
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "Replace the metal bars with cincinnasite bars\nfor 50% faster processing!",
+            "description": "Replace the metal bars with cincinnasite bars\nto process twice as fast!",
             "modifier": {
                 "io": "input",
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.667
+                "multiplier": 0.5
             }
         }
     ],

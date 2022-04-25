@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 // Progression and CoT
-<contenttweaker:slayers_tattered_journal>.addTooltip("I've made a copy of this in my book.");
+<contenttweaker:slayers_tattered_journal>.addTooltip("A peculiar old journal... I've copied it into my guidebook.");
 <contenttweaker:scab>.displayName = "Scab";
 
 <multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
@@ -53,6 +53,8 @@ import mods.jei.JEI;
 <minecraft:cookie>.displayName = "Chocolate Chip Cookie";
 <minecraft:fish>.displayName = "Raw Cod";
 <minecraft:cooked_fish>.displayName = "Cooked Cod";
+<minecraft:brick>.displayName = "Clay Brick";
+<minecraft:furnace>.displayName = "Rock Furnace";
 
 // Requious Frakto
 <requious:dryer>.displayName = "Hell Dryer";
@@ -92,6 +94,9 @@ import mods.jei.JEI;
 
 // Quark
 <quark:chain>.addTooltip("Can be used to link minecarts or boats");
+
+// Earthworks
+<earthworks:block_dry_stone>.displayName = "Coade Dry Fitted Stone"; 
 
 // Cyclic
 <cyclicmagic:tool_spelunker>.displayName = "Prospecting Set";
@@ -295,7 +300,7 @@ for potion in potionMap{
 <spartanweaponry:crossbow_wood>.addTooltip(format.darkPurple("Epic Weapon"));
 
 <iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<mowziesmobs:wrought_axe:*>.displayName = "§5Wrought Axe";
+<mowziesmobs:wrought_axe:*>.displayName = "§5Ferrought Axe";
 <mowziesmobs:wrought_axe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
 <mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));
@@ -361,7 +366,7 @@ for potion in potionMap{
 <dungeontactics:silver_sword>.addTooltip("They will suffer as we have.");
 
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
-<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
+<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction.");
 
 <msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
 
@@ -378,4 +383,28 @@ for potion in potionMap{
 <msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
 <msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may wield this weapon.");
 
-
+<spartanweaponry:longsword_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:longsword_electrum>.addTooltip("The call of the Void cannot be ignored.");
+<spartanweaponry:longsword_electrum>.displayName = "§cVoid's Howl";
+<spartanweaponry:saber_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:saber_electrum>.displayName = "§cAnhelare's Tongue";
+<spartanweaponry:rapier_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:rapier_electrum>.displayName = "§cThe Needle";
+<spartanweaponry:rapier_electrum>.addTooltip("Climb to unreachable heights.");
+<spartanweaponry:greatsword_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:greatsword_electrum>.displayName = "§cOnyx Slayer Greatsword";
+<spartanweaponry:hammer_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:hammer_electrum>.displayName = "§cThe Tenderizer";
+<spartanweaponry:hammer_electrum>.addTooltip("Only for the elites meats.");
+<spartanweaponry:warhammer_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:warhammer_electrum>.displayName = "§cThe Handle";
+<spartanweaponry:halberd_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:halberd_electrum>.displayName = "§cWingcutter";
+<spartanweaponry:lance_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:lance_electrum>.displayName = "§cBarako War Lance";
+<spartanweaponry:throwing_knife_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:throwing_knife_electrum>.displayName = "§cForeck";
+<spartanweaponry:boomerang_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:boomerang_electrum>.displayName = "§cThe 4th Whisper";
+<spartanweaponry:staff_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:staff_electrum>.displayName = "§cRuyi Bang";

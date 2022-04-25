@@ -73,3 +73,6 @@ val DebarkedLogsList = [<hitwithaxe:debarked_acacia>, <hitwithaxe:debarked_birch
 for i, plank in PlanksList {
     Saw.add(DebarkedLogsList[i], [PlanksList[i]*5, <pyrotech:rock:7>*2]);
 }
+
+// Cutting Purple Slate
+Saw.add(<earthworks:block_slate>, [<contenttweaker:raw_dread_slate>]);

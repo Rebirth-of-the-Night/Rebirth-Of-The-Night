@@ -1,6 +1,6 @@
 {
   "name": "Getting Food: Foraging",
-  "icon": "minecraft:apple",
+  "icon": "rustic:wildberries",
   "category": "survival_newbeginning",
   "sortnum": 5,
   "pages": [
@@ -10,10 +10,32 @@
       "title": "Getting Food",
       "text": "Doing all that gathering and crafting sure has made me hungry. I'll need to rely on the land for now to provide me with a meal; I can worry about farming up my own grub later, once I've got a base of operations set up.$(br2)I should start moving about to see what's on the menu."
     },
-    {
-      "type": "crafting",
-      "recipe": "minecraft:furnace",
-      "text": "First things first; I'll need something to cook with. Not everything edible I can find needs cooking, but for the things that do, I can fashion a quick and easy furnace out of rocks I got from before. Anything burnable will heat it."
+	{
+      "type": "item_list_spotlight",
+      "title": "Cooking",
+      "text": "Most food is better cooked than raw. In order of complexity, places to cook would go like this:",
+      "a":"pyrotech:campfire",
+      "a_t":"Campfires can cook food and provide buffs when resting by their side.",
+      "a_i":"book:hover_icon.png",
+      "b":"minecraft:furnace",
+      "b_t":"A rock furnace is a solid option for cooking and smelting ores. Not too healthy...",
+      "b_i":"book:hover_icon.png",
+      "c":"futuremc:smoker",
+      "c_t":"A specialized furnace; faster, but can only cook food. Tasty and no traces of tin in your meat.",
+      "c_i":"book:hover_icon.png",
+      "d":"ironfurnaces:iron_furnace_idle",
+      "d_t":"A prettier counterpart to the rock furnace made of mud bricks.",
+      "d_i":"book:hover_icon.png",
+      "e":"ironfurnaces:gold_furnace_idle",
+      "e_t":"A 25% more efficient clay brick furnace. Better all-around.",
+      "e_i":"book:hover_icon.png",
+      "f":"ironfurnaces:diamond_furnace_idle",
+      "f_t":"A 75% more efficient masonry brick furnace. One of the most practical options.",
+      "f_i":"book:hover_icon.png",
+      "g":"betterwithmods:cooking_pot:1",
+      "g_t":"Only requires a lit fire under it and can cook in bulk.",
+      "g_i":"book:hover_icon.png",
+      "text2": "Not everything edible I can find needs cooking, but for the things that do, a campfire or rock furnace will be the most convenient choices."
     },
     {
       "type": "relations",

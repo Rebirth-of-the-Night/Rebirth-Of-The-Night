@@ -1,0 +1,114 @@
+{
+    "registryname": "powerhammer",
+    "localizedname": "Power Hammer",
+    "requires-blueprint": true,
+    "modifiers": [
+        {
+            "elements": "betterwithmods:steel_block@0",
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "description": "Replace the iron block with a SFS block\nto process twice as fast!",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "pyrotech:anvil_iron_plated",
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "description": "Replace the stone anvil with a SFS anvil\nto consume half as much unstable spiritfire!",
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "pyrotech:anvil_granite"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "aesthetics:iron_brick_stairs"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:sticky_piston"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        }
+    ]}

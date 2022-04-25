@@ -1,0 +1,401 @@
+{
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:4,Damage:0s}",
+  "consumeCatalyst": true,
+  "location": "multiblocked:biotic_incubator",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 32,
+        "y": 76,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 124,
+        "y": 75,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "quark:ender_watcher",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "         ",
+        "         "
+      ],
+      [
+        " BCCCCCD ",
+        "         ",
+        "         ",
+        "         ",
+        "  AAAAA  ",
+        " A     A ",
+        " A     A ",
+        " A     A ",
+        "  AAAAA  ",
+        "         "
+      ],
+      [
+        " BE   ED ",
+        "  E   E  ",
+        "  E   E  ",
+        "  EEEEE  ",
+        " A     A ",
+        "A       A",
+        "A       A",
+        "A       A",
+        " A     A ",
+        "  AAAAA  "
+      ],
+      [
+        " B     D ",
+        "         ",
+        "         ",
+        "  EFFFE  ",
+        " A     A ",
+        "A       A",
+        "A       A",
+        "A       A",
+        " A     A ",
+        "  AGGGA  "
+      ],
+      [
+        " B     D ",
+        "         ",
+        "         ",
+        "  EFFFE  ",
+        " A     A ",
+        "A       A",
+        "A       A",
+        "A       A",
+        " A     A ",
+        "  AGGGA  "
+      ],
+      [
+        " B     @ ",
+        "         ",
+        "    H    ",
+        "  EIAFE  ",
+        " JKL   A ",
+        "A       A",
+        "A       A",
+        "A       A",
+        " A MN  A ",
+        "  AGOGA  "
+      ],
+      [
+        " B     D ",
+        "         ",
+        "         ",
+        "  EFFFE  ",
+        " A     A ",
+        "A       A",
+        "A       A",
+        "A       A",
+        " A     A ",
+        "  AGGGA  "
+      ],
+      [
+        " B     D ",
+        "         ",
+        "         ",
+        "  EFFFE  ",
+        " A     A ",
+        "A       A",
+        "A       A",
+        "A       A",
+        " A     A ",
+        "  AGGGA  "
+      ],
+      [
+        " BE   ED ",
+        "  E   E  ",
+        "  E   E  ",
+        "  EEEEE  ",
+        " A     A ",
+        "A       A",
+        "A       A",
+        "A       A",
+        " A     A ",
+        "  AAAAA  "
+      ],
+      [
+        " BPPPPPP ",
+        "         ",
+        "         ",
+        "         ",
+        "  AAAAA  ",
+        " A     A ",
+        " A     A ",
+        " A     A ",
+        "  AAAAA  ",
+        "         "
+      ],
+      [
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "         ",
+        "         "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "multiblocked:biotic_incubator",
+        "type": "component"
+      },
+      "glass": {
+        "blocks": [
+          {
+            "id": "pyrotech:refractory_glass"
+          },
+          {
+            "id": "betternether:quartz_glass_framed"
+          },
+          {
+            "id": "betternether:quartz_stained_glass_framed"
+          },
+          {
+            "id": "quark:framed_glass"
+          },
+          {
+            "id": "pyrotech:slag_glass"
+          },
+          {
+            "id": "nyx:meteor_glass"
+          },
+          {
+            "id": "sereneseasons:greenhouse_glass"
+          },
+          {
+            "id": "twilightforest:auroralized_glass"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "contenttweaker:magicked_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "stairs": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "saw": {
+        "blocks": [
+          {
+            "id": "betterwithmods:saw"
+          }
+        ],
+        "type": "blocks",
+        "nbtParser": "power:1"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "stygian:endmagma",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "output": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "leech": {
+        "blocks": [
+          {
+            "id": "contenttweaker:plague_leech"
+          }
+        ],
+        "type": "blocks"
+      },
+      "input": {
+        "capability": "item",
+        "type": "capability",
+        "io": "IN"
+      },
+      "fan": {
+        "blocks": [
+          {
+            "id": "dungeontactics:fan_block"
+          }
+        ],
+        "type": "blocks",
+        "nbtParser": "1b"
+      },
+      "voidrock": {
+        "blocks": [
+          {
+            "id": "contenttweaker:voided_rock"
+          }
+        ],
+        "type": "blocks"
+      },
+      "viridiumbrick": {
+        "blocks": [
+          {
+            "id": "contenttweaker:lunarinviridiumbrick"
+          }
+        ],
+        "type": "blocks"
+      },
+      "axle": {
+        "blocks": [
+          {
+            "id": "betterwithmods:steel_axle"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "glass"
+      ],
+      "B": [
+        "stairs"
+      ],
+      "C": [
+        "stairs"
+      ],
+      "D": [
+        "stairs"
+      ],
+      "E": [
+        "viridiumbrick"
+      ],
+      "F": [
+        "voidrock"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "output"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "axle"
+      ],
+      "K": [
+        "saw"
+      ],
+      "L": [
+        "leech"
+      ],
+      "M": [
+        "any"
+      ],
+      "N": [
+        "fan"
+      ],
+      "O": [
+        "input"
+      ],
+      "P": [
+        "stairs"
+      ]
+    }
+  },
+  "recipeMap": "writhing_biomass"
+}

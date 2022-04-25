@@ -189,7 +189,4 @@ JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "gold", Amo
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "silver", Amount: 1000}}));
 JEI.removeAndHide(<requious:cell>.withTag({fluidContent: {FluidName: "steel", Amount: 1000}}));
 
-// Removed until all of the recipes have been added
-JEI.removeAndHide(<requious:growth_ferment>);
-
 GCT.addRecipe("dryer", <requious:dryer>, [<ore:blockGlassColorless>, <chutes:chute_wood>, <pyrotech:drying_rack:1>, <betterwithmods:material:17>*2,<betterwithmods:material:27>]);

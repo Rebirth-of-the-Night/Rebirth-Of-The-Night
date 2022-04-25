@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "variants": {
+	"normal": [
+      {
+        "model": "contenttweaker:codex_junk"
+      },
+      {
+        "model": "contenttweaker:codex_junk",
+        "y": 90
+      },
+      {
+        "model": "contenttweaker:codex_junk",
+        "y": 180
+      },
+      {
+        "model": "contenttweaker:codex_junk",
+        "y": 270
+      },
+      {
+        "model": "contenttweaker:codex_junk_1"
+      },
+      {
+        "model": "contenttweaker:codex_junk_1",
+        "y": 90
+      },
+      {
+        "model": "contenttweaker:codex_junk_1",
+        "y": 180
+      },
+      {
+        "model": "contenttweaker:codex_junk_1",
+        "y": 270
+      }
+    ],
+	"inventory": [
+		{"model": "villagenames:item/codex", "textures": {
+			"layer0": "villagenames:items/codex"
+			}
+		}
+	]
+  }
+}

@@ -2,7 +2,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 import mods.betterwithmods.Anvil;
-import mods.betterwithaddons.Infuser;
 import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDict;
@@ -114,7 +113,6 @@ var destarrow = <betterwithaddons:greatarrow_destruction>;
 var advpearl = <endreborn:item_advanced_ender_pearl>;
 var dice = <cyclicmagic:dice>;
 var stone = <ore:stone>;
-var gcandle = <rustic:candle_gold>;
 var wax = <ore:materialPressedwax>;
 var carbond = <ore:dustCarbon>;
 var carpaper = <cyclicmagic:carbon_paper>;
@@ -147,13 +145,6 @@ RecipeBuilder.get("mage")
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();
-
-# Spirit charging
-Infuser.addShapeless(<cyclicmagic:wand_hypno>,
-[<cyclicmagic:wand_hypno>.anyDamage(),<contenttweaker:vis_sliver>], 64);
-
-// Water Candle
-Infuser.addTransmutation(<cyclicmagic:water_candle>, gcandle, 44);
 
 RecipeBuilder.get("mage")
   .setShaped([
@@ -217,6 +208,14 @@ recipes.addShaped("ore_locator", ore_locator,[
     [null, blazerod, <cyclicmagic:tool_spelunker>],
     [blazerod, null, null]
 ]);
+
+recipes.addShapeless("straight_conveyor_2_corner", <cyclicmagic:plate_push_slowest_corner>, [st_conveyor]);
+
+recipes.addShapeless("straight_conveyor_2_ramp", <cyclicmagic:plate_push_slowest_angle>*2, [st_conveyor,st_conveyor]);
+
+recipes.addShapeless("corner_conveyor_2_straight", st_conveyor, [<cyclicmagic:plate_push_slowest_corner>]);
+
+recipes.addShapeless("ramp_conveyor_2_straight", st_conveyor*2, [<cyclicmagic:plate_push_slowest_angle>,<cyclicmagic:plate_push_slowest_angle>]);
 
 //recipes.addShaped("durable_stirrups", stirrups,[
 //	[null, <betterwithmods:material:9>, null],

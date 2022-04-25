@@ -119,7 +119,7 @@
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
 <arcanearchives:radiant_resonator>.addTooltip("Grows raw radiant quartz from natural quintessence in the air.");
-<arcanearchives:radiant_resonator>.addShiftTooltip("Takes 5 minutes per quartz, can have up to 3.");
+<arcanearchives:radiant_resonator>.addTooltip("Only three resonators can be placed per person.");
 <arcanearchives:radiant_resonator>.addShiftTooltip("Recipe consumes bucket.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // BWM BWA
@@ -135,6 +135,7 @@
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:steel_gearbox>.addTooltip("Won't break from weather!");
 <betterwithmods:steel_axle>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3.");
+<betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln or dried out on a rack.");
 
 <ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
 
@@ -246,53 +247,67 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 // Underground Biomes Construct (and other stone types). Based on the tooltips of the modpack Homestead for 1.10.2
 // Igneous
-<undergroundbiomes:igneous_stone:*>.addTooltip("Igneous rock formed from cooled magma.");
+<undergroundbiomes:igneous_stone:*>.addTooltip("Igneous stone formed from cooled magma.");
 <undergroundbiomes:igneous_stone:*>.addTooltip("Very slow to break.");
-<undergroundbiomes:igneous_cobble:*>.addTooltip("Igneous rock formed from cooled magma.");
+<undergroundbiomes:igneous_cobble:*>.addTooltip("Igneous stone formed from cooled magma.");
 <undergroundbiomes:igneous_cobble:*>.addTooltip("Very slow to break.");
-<minecraft:stone:0>.addTooltip("Igneous rock formed from the interaction of water and lava."); //vanilla (coade) stone
+<minecraft:stone:0>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) stone
 <minecraft:stone:0>.addTooltip("Slow to break.");
-<minecraft:cobblestone>.addTooltip("Igneous rock formed from the interaction of water and lava."); //vanilla (coade) cobblestone
+<minecraft:cobblestone>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) cobblestone
 <minecraft:cobblestone>.addTooltip("Slow to break.");
 // Metamorphic
-<undergroundbiomes:metamorphic_stone:*>.addTooltip("Metamorphic rock formed under high pressures.");
+<undergroundbiomes:metamorphic_stone:*>.addTooltip("Metamorphic stone formed under high pressures.");
 <undergroundbiomes:metamorphic_stone:*>.addTooltip("Slow to break.");
-<undergroundbiomes:metamorphic_cobble:*>.addTooltip("Metamorphic rock formed under high pressures.");
+<undergroundbiomes:metamorphic_cobble:*>.addTooltip("Metamorphic stone formed under high pressures.");
 <undergroundbiomes:metamorphic_cobble:*>.addTooltip("Slow to break.");
-<betterwithmods:aesthetic:6>.addTooltip("Metamorphic rock formed from heated endstone."); //white stone
+<betterwithmods:aesthetic:6>.addTooltip("Metamorphic stone formed from heated endstone."); //white stone
 <betterwithmods:aesthetic:6>.addTooltip("Slow to break.");
-<betterwithmods:aesthetic:7>.addTooltip("Metamorphic rock formed from heated endstone."); //white cobblestone
+<betterwithmods:aesthetic:7>.addTooltip("Metamorphic stone formed from heated endstone."); //white cobblestone
 <betterwithmods:aesthetic:7>.addTooltip("Slow to break.");
-<defiledlands:stone_defiled>.addTooltip("Metamorphic rock formed by defilement.");
+<defiledlands:stone_defiled>.addTooltip("Metamorphic stone formed by defilement.");
 <defiledlands:stone_defiled>.addTooltip("Slow to break.");
-<iceandfire:chared_stone>.addTooltip("Metamorphic rock formed by sustained heat.");
+<iceandfire:chared_stone>.addTooltip("Metamorphic stone formed by sustained heat.");
 <iceandfire:chared_stone>.addTooltip("Slow to break.");
-<iceandfire:chared_cobblestone>.addTooltip("Metamorphic rock formed by sustained heat.");
+<iceandfire:chared_cobblestone>.addTooltip("Metamorphic stone formed by sustained heat.");
 <iceandfire:chared_cobblestone>.addTooltip("Slow to break.");
-<iceandfire:frozen_stone>.addTooltip("Metamorphic rock formed by sustained cold.");
+<iceandfire:frozen_stone>.addTooltip("Metamorphic stone formed by sustained cold.");
 <iceandfire:frozen_stone>.addTooltip("Slow to break.");
-<iceandfire:frozen_cobblestone>.addTooltip("Metamorphic rock formed by sustained cold.");
+<iceandfire:frozen_cobblestone>.addTooltip("Metamorphic stone formed by sustained cold.");
 <iceandfire:frozen_cobblestone>.addTooltip("Slow to break.");
 // Sedimentary
-<undergroundbiomes:sedimentary_stone:*>.addTooltip("Sedimentary rock formed by erosion.");
-<undergroundbiomes:sedimentary_stone:*>.addTooltip("Quick to break.");
-<contenttweaker:dolomite_cobble>.addTooltip("Sedimentary rock formed by erosion.");
-<contenttweaker:dolomite_cobble>.addTooltip("Quick to break.");
-<contenttweaker:greywacke_cobble>.addTooltip("Sedimentary rock formed by erosion.");
-<contenttweaker:greywacke_cobble>.addTooltip("Quick to break.");
-<contenttweaker:chalk_cobble>.addTooltip("Sedimentary rock formed by erosion.");
-<contenttweaker:chalk_cobble>.addTooltip("Quick to break.");
-<contenttweaker:shale_cobble>.addTooltip("Sedimentary rock formed by erosion.");
-<contenttweaker:shale_cobble>.addTooltip("Quick to break.");
-<contenttweaker:chert_cobble>.addTooltip("Sedimentary rock formed by erosion.");
-<contenttweaker:chert_cobble>.addTooltip("Quick to break.");
-<contenttweaker:siltstone_cobble>.addTooltip("Sedimentary rock formed by erosion.");
-<contenttweaker:siltstone_cobble>.addTooltip("Quick to break.");
-<contenttweaker:lignite_cobble>.addTooltip("Sedimentary rock formed by erosion.");
-<contenttweaker:lignite_cobble>.addTooltip("Quick to break.");
-<contenttweaker:limestone_cobble>.addTooltip("Sedimentary rock formed by erosion.");
+<contenttweaker:limestone_cobble>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:limestone_cobble>.addTooltip("Quick to break.");
-<minecraft:end_stone>.addTooltip("Sedimentary rock formed by end particles.");
+<undergroundbiomes:sedimentary_stone>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone>.addTooltip("Quick to break.");
+<contenttweaker:dolomite_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:dolomite_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:5>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:5>.addTooltip("Quick to break.");
+<contenttweaker:greywacke_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:greywacke_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:6>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:6>.addTooltip("Quick to break.");
+<contenttweaker:chalk_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:chalk_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:1>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:1>.addTooltip("Quick to break.");
+<contenttweaker:shale_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:shale_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:2>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:2>.addTooltip("Quick to break.");
+<contenttweaker:chert_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:chert_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:7>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:7>.addTooltip("Quick to break.");
+<contenttweaker:siltstone_cobble>.addTooltip("Sedimentary stone formed by erosion.");
+<contenttweaker:siltstone_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:3>.addTooltip("Sedimentary stone formed by erosion.");
+<undergroundbiomes:sedimentary_stone:3>.addTooltip("Quick to break.");
+<contenttweaker:lignite_cobble>.addTooltip("Sedimentary and combustible stone formed by naturally compressed peat.");
+<contenttweaker:lignite_cobble>.addTooltip("Quick to break.");
+<undergroundbiomes:sedimentary_stone:4>.addTooltip("Sedimentary and combustible stone formed by naturally compressed peat.");
+<undergroundbiomes:sedimentary_stone:4>.addTooltip("Quick to break.");
+<minecraft:end_stone>.addTooltip("Sedimentary stone formed by end particles.");
 <minecraft:end_stone>.addTooltip("Quick to break.");
 
 // Pyrotech
@@ -363,7 +378,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <growthcraft_rice:rice>.addTooltip("Staple of civilization, should cook first.");
-<growthcraft_rice:rice>.addShiftTooltip("Raw rice grains is particularly full of harmful bacteria.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Misc.
 <antiqueatlas:empty_antique_atlas>.addTooltip("Antique Map");
@@ -403,7 +418,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 <ironfurnaces:diamond_furnace_idle>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <ironfurnaces:diamond_furnace_idle>.addShiftTooltip(format.gold("Fuel Capacity:") + format.yellow(" full stack; 1 at a time."));
-<ironfurnaces:diamond_furnace_idle>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 125%"));
+<ironfurnaces:diamond_furnace_idle>.addShiftTooltip(format.gold("Fuel Modifier:") + format.yellow(" 175%"));
 
 <exsartagine:pan>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <exsartagine:pot>.addShiftTooltip(format.white("Can be heated by:") + "" + format.yellow(" CAMPFIRE, FURNACE, SMOKER, BLAST FURNACE, COOKING RANGE, STOKED FLAME"), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
@@ -446,6 +461,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <globalxp:xp_block>.addTooltip("Shift + Right click to deposit all XP.");
 <globalxp:xp_block>.addTooltip("Right click to retrieve a level.");
 <aether_legacy:enchanted_blueberry>.addTooltip("Hippogryph treat.");
+<minecraft:torch>.addTooltip("Visible light attracts mobs.");
 
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");

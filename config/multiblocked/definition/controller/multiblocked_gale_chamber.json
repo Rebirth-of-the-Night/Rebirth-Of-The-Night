@@ -1,0 +1,344 @@
+{
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:4,Damage:0s}",
+  "consumeCatalyst": false,
+  "location": "multiblocked:gale_chamber",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 79,
+        "y": 49,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 74,
+        "y": 111,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "aether_legacy:enchanted_gravitite",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "modelName": "galechamber",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "workingRenderer": {
+    "modelName": "galechamber",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "  AAA  ",
+        " A   A ",
+        "A     A",
+        "A     A",
+        "A     A",
+        " A   A ",
+        "  AAA  "
+      ],
+      [
+        "  AAA  ",
+        " A B A ",
+        "A JJJ A",
+        "A J J A",
+        "A JJJ A",
+        " A   A ",
+        "  AAA  "
+      ],
+      [
+        "       ",
+        "  CCC  ",
+        " CDDDC ",
+        " CD@DC ",
+        " CDDDC ",
+        "  CCC  ",
+        "       "
+      ],
+      [
+        "       ",
+        "  CCC  ",
+        " C   C ",
+        " E   E ",
+        " C   C ",
+        "  CCC  ",
+        "       "
+      ],
+      [
+        "       ",
+        "  CCC  ",
+        " C   C ",
+        " E   E ",
+        " C   C ",
+        "  CCC  ",
+        "       "
+      ],
+      [
+        "       ",
+        "  CCC  ",
+        " C   C ",
+        " E   E ",
+        " C   C ",
+        "  CCC  ",
+        "       "
+      ],
+      [
+        "       ",
+        "  CCC  ",
+        " CFFFC ",
+        " CFFFC ",
+        " CFFFC ",
+        "  CCC  ",
+        "       "
+      ],
+      [
+        "  CGC  ",
+        " CHHHC ",
+        "CHHHHHC",
+        "CHHHHHC",
+        "CHHHHHC",
+        " CHHHC ",
+        "  CCC  "
+      ],
+      [
+        "  CCC  ",
+        " CIIIC ",
+        "CIIIIIC",
+        "CIIIIIC",
+        "CIIIIIC",
+        " CIIIC ",
+        "  CCC  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "dungeonblocks": {
+        "blocks": [
+          {
+            "id": "aether_legacy:dungeon_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "multiblocked:gale_chamber",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "contenttweaker:brick_aether_legacy_holystone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "aether_legacy:quicksoil_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "aether_legacy:aercloud",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "dungeon2": {
+        "states": [
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 0
+          },
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 1
+          },
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 5
+          },
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 3
+          },
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 2
+          },
+          {
+            "id": "aether_legacy:dungeon_block",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "minecraft:iron_bars",
+            "meta": 0
+          },
+          {
+            "id": "aesthetics:copper_bars",
+            "meta": 0
+          },
+          {
+            "id": "aether_legacy:zanite_bars",
+            "meta": 0
+          },
+          {
+            "id": "betterwithaddons:wrought_bars",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "aether_legacy:quicksoil_glass_pane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "lever": {
+        "blocks": [
+          {
+            "id": "minecraft:lever"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      },
+      "fluidout": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "iteminput": {
+        "capability": "item",
+        "type": "capability",
+        "io": "IN"
+      },
+      "realfans": {
+        "blocks": [
+          {
+            "id": "dungeontactics:fan_block"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "dungeonblocks",
+        "dungeon2"
+      ],
+      "B": [
+        "iteminput"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "realfans"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "fluidout"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "lever",
+        "any"
+      ]
+    }
+  },
+  "recipeMap": "dread_cold"
+}

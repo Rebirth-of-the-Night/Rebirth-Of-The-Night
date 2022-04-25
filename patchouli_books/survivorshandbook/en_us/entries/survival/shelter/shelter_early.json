@@ -10,7 +10,7 @@
     },
     {
       "type": "text",
-      "text": "A structure or wall made of cobblestone from all sides should be enough to get me through the first few nights. I have noticed creatures that hold pickaxes can break hard materials like stone. Those seem to be pretty rare, so I should be mostly safe. If I want to be extra safe, I could try building with $(item)dry stone$() for increased protection."
+      "text": "A structure or wall made of cobblestone from all sides should be enough to get me through the first few nights. I have noticed creatures that hold pickaxes can break hard materials like stone. Those seem to be pretty rare, so I should be mostly safe. If I want to be extra safe, I could build with $(item)dry fitted stone$() for increased protection."
     },
     {
       "type": "text",

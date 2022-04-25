@@ -52,13 +52,13 @@ GraniteAnvil.addRecipe("dense_redstone", <minecraft:redstone>*2, <pyrotech:mater
 GraniteAnvil.addRecipe("dense_quartz", <minecraft:quartz>*2, <pyrotech:material:37>, 2, "pickaxe", true);
 GraniteAnvil.addRecipe("ambrosium_to_magic_dust", <contenttweaker:magic_blend>*3, <aether_legacy:ambrosium_block>, 16, "hammer", true);
 GraniteAnvil.addRecipe("lignite_to_coal_dust", <betterwithmods:material:18>, <undergroundbiomes:sedimentary_stone:4>, 16, "hammer", true);
+GraniteAnvil.addRecipe("lignite_cobble_to_coal_dust", <betterwithmods:material:18>, <contenttweaker:lignite_cobble>, 16, "hammer", true);
 GraniteAnvil.addRecipe("raw_endorium", <endreborn:item_raw_endorium>, <ore:enderpearl>, 16, "hammer", true);
 GraniteAnvil.addRecipe("lormyte_crystal", <endreborn:item_lormyte_crystal>*2, <endreborn:block_lormyte_crystal>, 8, "hammer", true);
 GraniteAnvil.addRecipe("obsidian_dust", <endreborn:catalyst>*2, <endreborn:item_shard_obsidian>, 16, "hammer", true);
 GraniteAnvil.addRecipe("obsidian_shard", <endreborn:item_shard_obsidian>, <minecraft:obsidian>, 64, "pickaxe", true);
 <ore:cobblestone_except_cobblestone>.addAll(<ore:cobblestone>);
 <ore:cobblestone_except_cobblestone>.remove(<minecraft:cobblestone>);
-GraniteAnvil.addRecipe("cobblestone_any_cobblestone", <minecraft:cobblestone>, <ore:cobblestone_except_cobblestone>, 1, "hammer", true);
 GraniteAnvil.addRecipe("cobblestone_to_rocks", <pyrotech:rock:0> * 4, <minecraft:cobblestone>, 3, "hammer", true);
 GraniteAnvil.addRecipe("entropy_cobblestone", <endreborn:block_entropy_end_stone>, <minecraft:end_stone>, 4, "hammer", true);
 GraniteAnvil.addRecipe("cracked_astral_block", <nyx:cracked_star_block>, <nyx:star_block>, 64, "hammer", true);
@@ -126,6 +126,7 @@ GraniteAnvil.addRecipe("refractorylump_limestone_cobble", <pyrotech:material:8>*
 GraniteAnvil.addRecipe("blaze_lantern_to_powder", <minecraft:blaze_powder>*3, <quark:blaze_lantern>, 16, "hammer", true);
 GraniteAnvil.addRecipe("dwarven_measures", <minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}), <extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}), 1, "hammer", true);
 GraniteAnvil.addRecipe("glass_shards", <quark:glass_shards:0>*4, <minecraft:glass>, 1, "hammer", true);
+GraniteAnvil.addRecipe("vilemist_production", <adpother:vilemist>*8, <contenttweaker:condensed_vilemist>, 8, "hammer", true);
 
 // Stained glass shards
 for i in 0 to 16 {

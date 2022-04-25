@@ -1,0 +1,19 @@
+{
+    "machine": "galechamber",
+    "registryName": "galechamber_power1",
+    "recipeTime": 200,
+    //"processingCommands": ["/playsound twilightforest:mob.ice.death block @p[r=8]"],
+    "requirements": [ 
+        {
+            "type": "modularaugment:deferred",
+            "io-type": "input",
+            "item": "adpother:mist"
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquid:dread_cold",
+            "amount": 1000
+        }
+    ]
+}

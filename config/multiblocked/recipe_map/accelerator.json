@@ -1,0 +1,38 @@
+{
+  "name": "accelerator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "2b3de67c-8960-40a9-827e-a7f372cee97e",
+      "duration": 2000,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"contenttweaker:writhing_biomass\",Count:8,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"arcanearchives:raw_quartz_cluster\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    }
+  ]
+}

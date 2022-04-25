@@ -65,6 +65,27 @@ Crucible.addStoked(
     ]
 );
 
+// Normal Wrought Iron 
+Crucible.addUnstoked(
+    [
+        <ore:ingotIron>|<ore:dustIron>,
+        <pyrotech_compat:rock_igneous_sand:9>
+    ],
+    [
+        <contenttweaker:material_part:49>
+    ]
+);
+// Stoked Wrought Iron
+Crucible.addStoked(
+    [
+        <ore:rawOreIron>|<ore:ingotIron>|<ore:dustIron>,
+        <pyrotech_compat:rock_igneous_sand:9>
+    ],
+    [
+        <contenttweaker:material_part:49>
+    ]
+);
+
 // Overworld gems are alloyed with steel, while Exorite is alloyed with Endorium
 // Stoked Gem Ingots
 Crucible.addStoked(
@@ -267,7 +288,7 @@ Crucible.addStoked(
         <betterwithmods:material:29>,
         <contenttweaker:vis_shard>,
         <nyx:fallen_star>,
-        <netherex:frost_powder>
+        <minecraft:blaze_powder>
     ],
     [
         <contenttweaker:volatile_magic>

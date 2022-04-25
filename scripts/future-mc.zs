@@ -483,6 +483,14 @@ var moddedBlastFurnaceRecipes as IItemStack[IItemStack] = {
 	<simpleores:mythril_ore> : <simpleores:mythril_ingot>,
 	<simpleores:adamantium_ore> : <simpleores:adamantium_ingot>,
 	<simpleores:onyx_ore> : <simpleores:onyx_gem>,
+	<contenttweaker:raw_tin> : <simpleores:tin_ingot>,
+	<contenttweaker:raw_copper> : <simpleores:copper_ingot>,
+	<contenttweaker:raw_iron> : <minecraft:iron_ingot>,
+	<contenttweaker:raw_silver> : <iceandfire:silver_ingot>,
+	<contenttweaker:raw_gold> : <minecraft:gold_ingot>,
+	<contenttweaker:raw_viridium> : <simpleores:adamantium_ingot>,
+	<contenttweaker:raw_mythril> : <simpleores:mythril_ingot>,
+	<contenttweaker:material_part:52> : <contenttweaker:material_part:49>
 } as IItemStack[IItemStack];
 
 for ore, result in moddedBlastFurnaceRecipes {
@@ -491,6 +499,8 @@ for ore, result in moddedBlastFurnaceRecipes {
 
 BlastFurnace.removeRecipe(<rustic:dust_tiny_iron>);
 
+// Brick resistance
+<contenttweaker:brick_red_granite>.asBlock().definition.resistance = <undergroundbiomes:igneous_brick:0>.asBlock().definition.resistance;
 
 /*********************************************************************************
 
@@ -570,6 +580,7 @@ var smokerRecipes as IItemStack[IItemStack] = {
 	<betteranimalsplus:crab_meat_raw> : <betteranimalsplus:crab_meat_cooked>,
 	<betteranimalsplus:turkey_raw> : <betteranimalsplus:turkey_cooked>,
 	<betteranimalsplus:turkey_leg_raw> : <betteranimalsplus:turkey_leg_cooked>,
+	<betteranimalsplus:eel_meat_raw> : <betteranimalsplus:eel_meat_cooked>,
 	<betterwithmods:wolf_chop> : <betterwithmods:cooked_wolf_chop>,
 	<betterwithmods:bat_wing> : <betterwithmods:cooked_bat_wing>,
 	<minecraft:fish:2> : <betterwithaddons:food_clownfish_cooked>,
@@ -688,6 +699,7 @@ var campfireRecipes600 as IItemStack[IItemStack] = {
 	<betteranimalsplus:crab_meat_raw> : <betteranimalsplus:crab_meat_cooked>,
 	<betteranimalsplus:turkey_raw> : <betteranimalsplus:turkey_cooked>,
 	<betteranimalsplus:turkey_leg_raw> : <betteranimalsplus:turkey_leg_cooked>,
+	<betteranimalsplus:eel_meat_raw> : <betteranimalsplus:eel_meat_cooked>,
 	<betterwithmods:wolf_chop> : <betterwithmods:cooked_wolf_chop>,
 	<betterwithmods:bat_wing> : <betterwithmods:cooked_bat_wing>,
 	<betterwithmods:mystery_meat> : <betterwithmods:cooked_mystery_meat>,

@@ -45,6 +45,10 @@
 		"quark:midori_block_wall+bigger": "brickstone",
 		"quark:midori_pillar": "brickstone",
 		"quark:sturdy_stone": "stoneutility",
-		"quark:monster_box": "metalbar"
+		"quark:monster_box": "metalbar",
+		"quark:biome_brick[variant=fire_stone_brick]": "brickstone,fire",
+		"quark:biome_brick[variant=icy_stone_brick]": "brickstone,snow",
+		"quark:sandy_bricks": "sandstone",
+		"quark:iron_rod": "metalbar"
 	}
 }

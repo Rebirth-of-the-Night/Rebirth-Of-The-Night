@@ -6,6 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanintegrations.requirement.GameStages;
 
+JEI.removeAndHide(<from_the_depths:totem>);
 
 RecipeBuilder.get("mage")
   .setShaped([

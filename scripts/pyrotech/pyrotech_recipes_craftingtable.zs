@@ -156,8 +156,8 @@ recipes.addShaped("pyro_log_pile", <pyrotech:log_pile>,
   [<ore:logWood>,<ore:logWood>,<ore:logWood>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("composting_bin", <pyrotech:compost_bin>,
- [[<ore:fenceWood>,null,<ore:fenceWood>],
-  [<ore:fenceWood>,null,<ore:fenceWood>],
+ [[<earthworks:item_timber>,null,<earthworks:item_timber>],
+  [<earthworks:item_timber>,null,<earthworks:item_timber>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("compacting_bin", <pyrotech:compacting_bin>,
  [[null,<pyrotech:compost_bin>,null],
@@ -221,7 +221,7 @@ recipes.addShaped("pyro_refractory_faucet", <pyrotech:faucet_brick>*2,
 recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
   [null,<minecraft:clay_ball>,null]]);
-recipes.addShapeless("pyro_refracotrymaterial_slag", refractoryMaterial, [<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
+recipes.addShapeless("pyro_refracotrymaterial_slag", refractoryMaterial*2, [<pyrotech:material:8>,<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
 recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[refractoryMaterial]);
 furnace.remove(<minecraft:stonebrick:2>);
 furnace.addRecipe(<contenttweaker:brick_minecraft_stone>, <minecraft:stonebrick:2>, 0.0);
@@ -233,8 +233,8 @@ recipes.addShapeless("refractoryfromblock", refractoryMaterial*4,[<contenttweake
 furnace.addRecipe(<contenttweaker:refracotta>, <contenttweaker:unfiredrefractory>);
 recipes.remove(<pyrotech:soaking_pot>);
 recipes.addShaped("soaking_pot", <pyrotech:soaking_pot>,
- [[stoneBrick,null,stoneBrick],
-  [<ore:twine>,stoneBrick,<ore:twine>],
+ [[rock,null,rock],
+  [<ore:twine>,rock,<ore:twine>],
   [<ore:plankWood>,twine,<ore:plankWood>]]);
 recipes.addShaped("pyro_crude_axe", <pyrotech:crude_axe>,
  [[rock|<minecraft:flint>,<ore:stickWood>],

@@ -155,8 +155,8 @@ tile.bwm:unfired_pottery.0.name=Unfired Crucible
 tile.bwm:unfired_pottery.1.name=Unfired Planter
 tile.bwm:unfired_pottery.2.name=Unfired Urn
 tile.bwm:unfired_pottery.3.name=Unfired Vase
-tile.bwm:unfired_pottery.4.name=Unfired Brick
-tile.bwm:unfired_pottery.5.name=Unfired Netherbrick
+tile.bwm:unfired_pottery.4.name=Unfired Clay Brick
+tile.bwm:unfired_pottery.5.name=Unfired Nether Brick
 
 tile.bwm:anchor.name=Anchor
 tile.bwm:rope.name=Rope Cord

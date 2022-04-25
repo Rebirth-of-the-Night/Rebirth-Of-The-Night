@@ -1,0 +1,68 @@
+{
+	"dependencies": [
+		"cavegenerator",
+		"bettermineshafts",
+		"rotn_blocks"
+		],
+	"populate": 
+	{
+		"wonder_geode": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": "rotn_blocks:wonder_geode",
+				"cluster-size": 7
+				},
+			"cluster-count": 2,
+			"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+			"ground-level": 60,
+			"chunk-chance": 2,
+			"retrogen": "true"
+		}
+		"ancient_slag": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "geode",
+				"block": "contenttweaker:raw_wrought_iron",
+				"crust": "pyrotech:pile_slag",
+				"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				]
+			},
+			"cluster-count": 1,
+			"material": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+			"center-height": 60,
+			"spread": 20,
+			"chunk-chance": 15,
+			"retrogen": "true"
+		},
+		"arid_desert_halite": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": "contenttweaker:halite",
+				"surface": "contenttweaker:salty_crust",
+				"see-sky": true,
+				"cluster-size": 9
+			},
+			"material": "contenttweaker:salty_crust",
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:atacamian_desert"
+			}
+		}
+	}
+}

@@ -7,8 +7,6 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-
-//#########randomthings:endermailbox -> need new recipe
 //#########randomthings:blockofsticks
 //#########randomthings:diaphanousblock   -> FOR RECURRENT COMPLEX USE ONLY
 //#########randomthings:spectresapling   -> need to remove vanilla saplings from loot
@@ -17,12 +15,20 @@ import mods.artisanworktables.builder.RecipeBuilder;
 //#########randomthings:spectreanchor-> for expert
 //#########randomthings:spectresword -> new recipe
 
+// ENDER MAILBOX AND LETTER
+// Ender Letter has use for sending items to other players,
+// but can be essentially used as a 9 slot shulker box as well. Needless 
+// to say this is grossly OP, a new recipe is needed before it can be re-enabled.
+JEI.removeAndHide(<randomthings:endermailbox>);
+JEI.removeAndHide(<randomthings:enderletter>);
 
-//Removed items
+// Removed items
 JEI.removeAndHide(<randomthings:diaphanousblock>);
 JEI.removeAndHide(<randomthings:enderanchor>);
-//EVENTUAL UPGRADE TO EVER-FERTILE SOIL FOR DRUIDS N SHIT (some serious magic goin in here) - IT IS IDENTICAL TO EVER FERTILE SOIL BUT ALSO INCREASES CROP GROWTH 3X
+
+// EVENTUAL UPGRADE TO EVER-FERTILE SOIL FOR DRUIDS N SHIT (some serious magic goin in here) - IT IS IDENTICAL TO EVER FERTILE SOIL BUT ALSO INCREASES CROP GROWTH 3X
 JEI.removeAndHide(<randomthings:fertilizeddirt>);  
+
 JEI.removeAndHide(<randomthings:dungeonchestgenerator>);  
 JEI.removeAndHide(<randomthings:fertilizeddirttilled>); 
 JEI.removeAndHide(<randomthings:playerinterface>); 
@@ -143,7 +149,8 @@ JEI.removeAndHide(<randomthings:spectreshovel>);
 JEI.removeAndHide(<randomthings:spectreanchor>);
 JEI.removeAndHide(<randomthings:obsidianskull>);
 JEI.removeAndHide(<randomthings:redstonetool>);
-///cool bedrock equivalent
+
+/// cool bedrock equivalent
 JEI.removeAndHide(<randomthings:spectreblock>);
 
 /// these will require some hefty magical item investment and crafting in the future

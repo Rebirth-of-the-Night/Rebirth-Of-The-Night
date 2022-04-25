@@ -1,1 +1,1 @@
-MOTD: 3.0.1 hotfix will be released soon! Many bugs fixed!
+MOTD: The server pack for 3.0.1 has been released!
