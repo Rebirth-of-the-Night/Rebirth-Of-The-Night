@@ -63,7 +63,7 @@ RecipeBuilder.get("mage")
 // Brazier
 recipes.remove(<futuremc:campfire>);
 recipes.addShaped("brazier", <futuremc:campfire>*4,[
-   [null, <minecraft:fire_charge> | <minecraft:flint_and_steel>.transformDamage() | <pyrotech:matchstick>, null],
+   [null, <minecraft:fire_charge> | <minecraft:flint_and_steel>.anyDamage().transformDamage() | <pyrotech:matchstick>, null],
    [<ore:genericMetalNuggets>, <ore:dustNetherrack>, <ore:genericMetalNuggets>],
    [<ore:genericMetalNuggets>,<ore:genericMetal>, <ore:genericMetalNuggets>]
 ]);
