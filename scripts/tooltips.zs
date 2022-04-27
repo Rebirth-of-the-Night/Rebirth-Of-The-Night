@@ -9,7 +9,8 @@
 
 // Random Things
 <randomthings:magichood>.addTooltip(format.gold("Soft to the touch with a pleasant smell!"));
-
+<randomthings:magichood>.addTooltip(format.white("Don't worry..."));
+<randomthings:magichood>.addTooltip(format.white("Everything is going to be okay..."));
 
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+25% Attack Speed"));
@@ -146,8 +147,8 @@
 <nyx:meteor_finder>.addTooltip("Points to the closest meteor impact zone (if any)");
 <nyx:meteor_hammer:*>.addTooltip("Mines in a 3x3 area (disable by sneaking)");
 <nyx:meteor_hammer:*>.addTooltip("Hold right-click then let go while looking towards the sky to leap");
-<nyx:meteor_hammer:*>.addTooltip("Creatures near the impact zone takes damage");
-<nyx:meteor_sword:*>.addTooltip("Stuns creatures when hit by a critical hit");
+<nyx:meteor_hammer:*>.addTooltip("Creatures near the impact zone take damage");
+<nyx:meteor_sword:*>.addTooltip("Stuns creatures on critical hits");
 <nyx:crystal:*>.addTooltip("Passively boosts crop growth when placed near crops");
 <nyx:meteor_pickaxe:*>.addTooltip("Mines obsidian and meteoric rock much faster");
 <nyx:meteor_axe:*>.addTooltip("Deals extra damage to shields");
@@ -307,16 +308,16 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <contenttweaker:lignite_cobble>.addTooltip("Quick to break.");
 <undergroundbiomes:sedimentary_stone:4>.addTooltip("Sedimentary and combustible stone formed by naturally compressed peat.");
 <undergroundbiomes:sedimentary_stone:4>.addTooltip("Quick to break.");
-<minecraft:end_stone>.addTooltip("Sedimentary stone formed by end particles.");
-<minecraft:end_stone>.addTooltip("Quick to break.");
+<minecraft:end_stone>.addTooltip("Sedimentary stone formed by particulates suspended in the Void.");
+<minecraft:end_stone>.addTooltip("Slow to break.");
 
 // Pyrotech
 <pyrotech:tinder>.addTooltip("Place on the ground and add logs to create a campfire.");
-<pyrotech:flint_and_tinder:*>.addTooltip("Hold right-click for a second to light. Can't light a kiln without fuel.");
-<pyrotech:flint_and_tinder:*>.addTooltip("Not as convenient as a flint and steel.");
+<pyrotech:matchstick>.addTooltip("Right-click to light. Can't light a kiln without fuel.");
+<pyrotech:matchstick>.addTooltip("Single use. Not as practical a flint and steel.");
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
 <contenttweaker:refracotta>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
-<contenttweaker:modelingrefractory>.addTooltip("Malleable and Homogeneous, ready for modeling.");
+<contenttweaker:modelingrefractory>.addTooltip("Malleable and homogeneous, ready for modeling.");
 <pyrotech:cog_wood>.removeTooltip("Indestructible");
 <pyrotech:cog_wood>.addTooltip("Can power a Mechanical Compactor");
 <pyrotech:cog_bone>.removeTooltip("Indestructible");
@@ -330,7 +331,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <pyrotech:coal_coke_block>.removeTooltip("Efficiency:");
 <pyrotech:coal_coke_block>.removeTooltip("Bloomery:");
 <pyrotech:coal_coke_block>.removeTooltip("Wither Forge:");
-<pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; Hotter may kill them..."));
+<pyrotech:bucket_stone>.addTooltip(format.red("Hot fluids may burn the carrier; hotter may kill them..."));
 
 <pyrotech:sawmill_blade_iron>.removeTooltip("Indestructible");
 <pyrotech:sawmill_blade_iron>.addTooltip("Can power a Mechanical Compactor");
@@ -352,7 +353,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <doggytalents:sunglasses>.addTooltip("Cool as they are, wolves refuse to wear them.");
 <doggytalents:leather_jacket>.addTooltip("Dog accessory");
 
-<mod_lavacow:ptera_wing_cooked>.addTooltip("Has a rough, leathery texture. Extraordinarily chewy.");
+<mod_lavacow:ptera_wing_cooked>.addTooltip("Has a rough, leathery texture. Incredibly chewy.");
 
 // Rustic
 <rustic:vase>.addTooltip("Storage container. While in hand, sneak and scroll with mouse wheel to cycle between patterns.");
@@ -373,11 +374,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <harvestcraft:raspberryicedteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:chaiteaitem>.addTooltip("So aromatic it gets you going.");
 <harvestcraft:chaiteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:coffeeitem>.addTooltip("Some good coffee, the one that gets you going.");
+<harvestcraft:coffeeitem>.addTooltip("Some good coffee, the stuff that gets you going.");
 <harvestcraft:coffeeitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<growthcraft_rice:rice>.addTooltip("Staple of civilization, should cook first.");
+<growthcraft_rice:rice>.addTooltip("Staple of civilization; should be cooked first.");
 <growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // Misc.
