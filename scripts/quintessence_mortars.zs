@@ -983,9 +983,9 @@ Mortar.addRecipe(["wood"], <contenttweaker:disint_quintessence>, 8, <contenttwea
 
 Mortar.addRecipe(["wood"], <contenttweaker:energy_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:energyQuintessenceA>, <ore:energyQuintessenceB>]);
 
-// Knowledge Quintessence
+// Knowledge Quintessence temp fix
 
-Mortar.addRecipe(["wood"], <contenttweaker:knowledge_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.25, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
+Mortar.addRecipe(["wood"], <contenttweaker:knowledge_quintessence>, 8, <contenttweaker:vis_speck> * 2, 0.25, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
 
 ##########################
 # Arcane Mortar (iron)   #
@@ -1028,6 +1028,10 @@ Mortar.addRecipe(["iron"], <contenttweaker:chaos_quintessence>, 4, <contenttweak
 // Mind Quintessence
 
 Mortar.addRecipe(["iron"], <contenttweaker:mind_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.25, [<ore:mindQuintessenceA>, <ore:mindQuintessenceB>]);
+
+// Knowledge Quintessence 
+
+Mortar.addRecipe(["iron"], <contenttweaker:knowledge_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.25, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
 
 // Creation Quintessence
 
