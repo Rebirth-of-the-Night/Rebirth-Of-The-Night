@@ -155,6 +155,42 @@
       "tickOutputs": {}
     },
     {
+      "uid": "d6e84b5d-0783-4c44-92b6-06837ff796f3",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 8,
+              "ore": "cobblestone"
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"dread_cold\",Amount:125}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"aether_legacy:holystone\",Count:8,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
       "uid": "c0ebb2d2-080c-4ea2-8369-b42da8a78e18",
       "duration": 200,
       "inputs": {
