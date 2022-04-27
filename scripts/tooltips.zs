@@ -314,7 +314,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 // Pyrotech
 <pyrotech:tinder>.addTooltip("Place on the ground and add logs to create a campfire.");
 <pyrotech:matchstick>.addTooltip("Right-click to light. Can't light a kiln without fuel.");
-<pyrotech:matchstick>.addTooltip("Single use. Not as practical a flint and steel.");
+<pyrotech:matchstick>.addTooltip("Single use. Not as practical as flint and steel.");
 <pyrotech:stash>.addTooltip("When a barrel just won't do.");
 <contenttweaker:refracotta>.addTooltip("Not as good at keeping heat. Invalid for refractory structure.");
 <contenttweaker:modelingrefractory>.addTooltip("Malleable and homogeneous, ready for modeling.");
