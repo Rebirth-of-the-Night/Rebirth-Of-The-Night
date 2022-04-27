@@ -2484,3 +2484,6 @@ JEI.removeAndHide(<contenttweaker:cobblestone_path_dacite>);
 JEI.removeAndHide(<contenttweaker:ratatouille>);
 JEI.removeAndHide(<contenttweaker:chicken_pizza_block>);
 JEI.removeAndHide(<contenttweaker:clover_4_block>);
+
+recipes.addShapeless("dragon_scale_convert1", <endreborn:dragon_scales>, [<quark:enderdragon_scale>]);
+recipes.addShapeless("dragon_scale_convert2", <quark:enderdragon_scale>, [<endreborn:dragon_scales>]);
