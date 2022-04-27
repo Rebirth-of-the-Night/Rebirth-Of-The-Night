@@ -102,7 +102,7 @@ recipes.remove(<rustic:iron_lantern>);
 recipes.remove(<rustic:silver_lantern>);
 
 recipes.addShaped("Gold_Lantern", <rustic:golden_lantern>,[
-	[gnugg, gnugg, gnugg],
+	[null, gold, null],
     [glass, torch, glass],
     [gnugg, gnugg, gnugg]
 ]);
@@ -110,11 +110,11 @@ recipes.addShaped("Gold_Lantern", <rustic:golden_lantern>,[
 recipes.addShaped("Metal_Lantern", <rustic:iron_lantern>,[
 	[null, <ore:genericMetal>, null],
     [glass, torch, glass],
-    [null, <ore:genericMetal>, null]
+    [genericNugg, genericNugg, genericNugg]
 ]);
 
 recipes.addShaped("Silver_Lantern", <rustic:silver_lantern>,[
-	[snugg, snugg, snugg],
+	[null, silver, null],
     [glass, torch, glass],
     [snugg, snugg, snugg]
 ]);

@@ -9,11 +9,11 @@ import crafttweaker.item.IItemStack;
 val blendPowder = <ore:blendPowder>;
 blendPowder.add(<minecraft:glowstone_dust>, <arcanearchives:radiant_dust>, <aether_legacy:ambrosium_shard>);
 
-Mortar.addRecipe(["wood"], <contenttweaker:magic_blend> * 4, 8, <contenttweaker:magic_blend> * 2, 0.50, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+Mortar.addRecipe(["wood"], <contenttweaker:magic_blend> * 8, 8, <contenttweaker:magic_blend> * 4, 0.50, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
-Mortar.addRecipe(["iron"], <contenttweaker:magic_blend> * 4, 4, <contenttweaker:magic_blend> * 2, 0.55, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+Mortar.addRecipe(["iron"], <contenttweaker:magic_blend> * 8, 4, <contenttweaker:magic_blend> * 6, 0.55, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
-Mortar.addRecipe(["gold"], <contenttweaker:magic_blend> * 4, 2, <contenttweaker:magic_blend> * 2, 0.60, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
+Mortar.addRecipe(["gold"], <contenttweaker:magic_blend> * 8, 2, <contenttweaker:magic_blend> * 8, 0.60, [<ore:blendPowder>, <ore:mushroomAny>, <contenttweaker:vis_speck>, <ore:anyQuintessence>]);
 
 ############
 # Ore Dict #
@@ -985,7 +985,7 @@ Mortar.addRecipe(["wood"], <contenttweaker:energy_quintessence>, 8, <contenttwea
 
 // Knowledge Quintessence temp fix
 
-Mortar.addRecipe(["wood"], <contenttweaker:knowledge_quintessence>, 8, <contenttweaker:vis_speck> * 2, 0.25, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
+Mortar.addRecipe(["wood"], <contenttweaker:knowledge_quintessence>, 8, <contenttweaker:vis_speck> * 2, 0.15, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
 
 ##########################
 # Arcane Mortar (iron)   #
