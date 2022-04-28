@@ -29,6 +29,16 @@
     },
     "type": "blockstate"
   },
+  "formedRenderer": {
+    "modelName": "bioticincubator",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "workingRenderer": {
+    "modelName": "bioticincubator",
+    "isGlobal": true,
+    "type": "geo"
+  },
   "isOpaqueCube": false,
   "basePattern": {
     "structureDir": [
@@ -100,13 +110,13 @@
       [
         " B     @ ",
         "         ",
-        "    H    ",
-        "  EIAFE  ",
-        " JKL   A ",
+        "   H     ",
+        "  EIRFE  ",
+        " JKLN  A ",
         "Q       A",
         "A       A",
         "A       A",
-        " A MN  A ",
+        " A M   A ",
         "  AGOGA  "
       ],
       [
@@ -363,7 +373,7 @@
         "output"
       ],
       "I": [
-        "soil"
+        "glass"
       ],
       "J": [
         "axle"
@@ -371,14 +381,12 @@
       "K": [
         "saw"
       ],
-      "L": [
-        "viridea"
-      ],
+      "L": [],
       "M": [
         "any"
       ],
       "N": [
-        "any"
+        "viridea"
       ],
       "O": [
         "fan"
@@ -388,6 +396,9 @@
       ],
       "Q": [
         "input"
+      ],
+      "R": [
+        "soil"
       ]
     }
   },
