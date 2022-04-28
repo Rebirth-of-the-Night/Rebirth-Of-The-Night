@@ -71,8 +71,7 @@ val PowerHammerRecipeNames = [
     "1refractorylump_limestone_cobble", 
     "1blaze_lantern_to_powder", 
     "1dwarven_measures", 
-    "1glass_shards",
-    "1vilemist_production"
+    "1glass_shards"
 ] as string[];
 
 val PowerHammerItemOutputs = [
@@ -125,8 +124,7 @@ val PowerHammerItemOutputs = [
     <pyrotech:material:8>*3, 
     <minecraft:blaze_powder>*3, 
     <minecraft:written_book>.withTag({pages: ["{\"text\":\"And so, the Fellowship lived happily ever after.\\nThe End\"}"], author: "Foreck", title: "Dwarven Measures"}), 
-    <quark:glass_shards:0>*4,
-    <adpother:vilemist>*8
+    <quark:glass_shards:0>*4
 ]  as IItemStack[];
 
 val PowerHammerItemInputs = [
@@ -179,8 +177,7 @@ val PowerHammerItemInputs = [
     <contenttweaker:limestone_cobble>, 
     <quark:blaze_lantern>, 
     <extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}), 
-    <minecraft:glass>,
-    <contenttweaker:condensed_vilemist>
+    <minecraft:glass>
 ] as IItemStack[];
 
 val PowerHammerNumModifier = [
@@ -233,8 +230,7 @@ val PowerHammerNumModifier = [
     8, 
     16, 
     1,
-    1,
-    4
+    1
 ] as int[];
 
 val PowerHammerRecipeNames1 = [

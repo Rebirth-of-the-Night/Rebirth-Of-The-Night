@@ -66,3 +66,4 @@ recipes.addShaped((<multiblocked:aetherial_mixer>), [
     [<aesthetics:iron_brick_stairs>, <betterwithmods:steel_axle>, <aesthetics:iron_brick_stairs>], 
     [null, <betterwithmods:cooking_pot:1>, null]
 ]);
+recipes.addShapeless("seed_to_viridium", <contenttweaker:viridea_seed>, [<contenttweaker:raw_viridium>*3]);
