@@ -13,7 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
-        "/effect @p teleport_spawn"
+        "/effect @p potioncore:teleport_spawn"
       ],
       "end": [
         "/weather rain",
