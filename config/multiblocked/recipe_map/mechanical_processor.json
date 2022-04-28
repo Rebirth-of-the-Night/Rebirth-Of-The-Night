@@ -1,24 +1,11 @@
 {
-  "name": "viridea_biomatter",
+  "name": "mechanical_processor",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
-      "uid": "6f4db3be-2d9b-4dc7-a0db-9b48b55008d3",
+      "uid": "1662eae9-42e7-4f65-9c44-6faf03b6e462",
       "duration": 100,
       "inputs": {
-        "item": [
-          {
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:raw_viridium\",Count:1,Damage:0s}"
-              ]
-            },
-            "chance": 1.0
-          }
-        ]
-      },
-      "outputs": {
         "item": [
           {
             "content": {
@@ -27,6 +14,14 @@
                 "{id:\"contenttweaker:viridea_biomatter\",Count:1,Damage:0s}"
               ]
             },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"refined_lifeblood\",Amount:2000}",
             "chance": 1.0
           }
         ]

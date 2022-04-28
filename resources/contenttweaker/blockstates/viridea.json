@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "texture": "contenttweaker:items/viridea",
-      "particle": "contenttweaker:blocks/viridea"
+      "particle": "contenttweaker:blocks/raw_viridium_block"
     },
     "model": "contenttweaker:viridea",
     "uvlock": true,

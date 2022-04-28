@@ -14,12 +14,14 @@
       "start": [
         "/weather clear",
         "/gamerule doFireTick false",
-        "/effect @p potioncore:teleport_spawn"
+        "/effect @p potioncore:teleport_spawn",
+        "/gamestage add @p invasionongoing"
       ],
       "end": [
         "/xp 600 @p",
         "/give @p spartanweaponry:arrow_diamond 32",
-        "/gamerule doFireTick true"
+        "/gamerule doFireTick true",
+        "/gamestage remove @p invasionongoing"
       ],
       "staged": [
         {

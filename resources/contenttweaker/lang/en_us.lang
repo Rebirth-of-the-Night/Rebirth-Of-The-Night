@@ -219,6 +219,7 @@ item.contenttweaker.wrought_animation_core.name=Wrought Animation Core
 
 item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
 item.contenttweaker.sfs_masonpick.name=Soul Forged Steel Mason Pick
+item.contenttweaker.mythril_mattock.name=Mythril Mattock
 
 #------------------------------------------------------------------------------
 # Bricks
@@ -607,7 +608,7 @@ fluid.tannin=Tannin
 fluid.methanol=Wood Alcohol
 fluid.dread_cold=Dread Cold
 fluid.unstable_spiritfire=Unstable Spiritfire
-fluid.refined_lifeblood.name=Refined Lifeblood
+fluid.refined_lifeblood=Refined Lifeblood
 
 #------------------------------------------------------------------------------
 # Energy Items/Tiles

@@ -1,0 +1,233 @@
+{
+  "consumeCatalyst": false,
+  "location": "multiblocked:mechanical_processor",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 28,
+        "y": 74,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 125,
+        "y": 73,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 28,
+        "y": 37,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 28,
+        "y": 114,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 36,
+        "y": 77,
+        "autoIO": false,
+        "tC": 1000
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 120,
+        "y": 78,
+        "autoIO": false,
+        "tC": 1000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "betterwithmods:wooden_axle",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "modelName": "mechanicalprocessor",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "workingRenderer": {
+    "modelName": "mechanicalprocessor",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "   ",
+        " AB",
+        "  B",
+        "  B",
+        " BB"
+      ],
+      [
+        "JCI",
+        "DE ",
+        " @B",
+        " FB",
+        " GB"
+      ],
+      [
+        "   ",
+        " HB",
+        "  B",
+        "  B",
+        " BB"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "outfluid": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "controller": {
+        "location": "multiblocked:mechanical_processor",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "betterwithaddons:wrought_bars",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "stair": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "betterwithmods:cooking_pot",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "itemout": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
+      },
+      "gearbox": {
+        "blocks": [
+          {
+            "id": "betterwithmods:wooden_gearbox"
+          }
+        ],
+        "type": "blocks"
+      },
+      "flame": {
+        "blocks": [
+          {
+            "id": "betterwithmods:stoked_flame"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      },
+      "axle": {
+        "blocks": [
+          {
+            "id": "betterwithmods:wooden_axle"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true,
+        "nbtParser": "power:1"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "stair"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "flame"
+      ],
+      "D": [
+        "itemout"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "axle"
+      ],
+      "G": [
+        "gearbox"
+      ],
+      "H": [
+        "stair"
+      ],
+      "I": [
+        "fluid"
+      ],
+      "J": [
+        "outfluid"
+      ]
+    }
+  },
+  "recipeMap": "mechanical_processor"
+}

@@ -13,13 +13,15 @@
     "commands": {
       "start": [
         "/weather clear",
-        "/effect @p potioncore:teleport_spawn"
+        "/effect @p potioncore:teleport_spawn",
+        "/gamestage add @p invasionongoing"
       ],
       "end": [
         "/weather rain",
         "/give @p twilightforest:giant_pickaxe",
         "/give @p twilightforest:giant_sword",
-        "/xp 1000 @p"
+        "/xp 1000 @p",
+        "/gamestage remove @p invasionongoing"
       ],
       "staged": [
         {

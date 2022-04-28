@@ -276,14 +276,6 @@
         "type": "blocks",
         "nbtParser": "power:1"
       },
-      "glowbulb": {
-        "blocks": [
-          {
-            "id": "contenttweaker:stabilized_glowbulb"
-          }
-        ],
-        "type": "blocks"
-      },
       "soil": {
         "blocks": [
           {
@@ -304,6 +296,14 @@
         "capability": "item",
         "type": "capability",
         "io": "IN"
+      },
+      "viridea": {
+        "blocks": [
+          {
+            "id": "contenttweaker:viridea"
+          }
+        ],
+        "type": "blocks"
       },
       "viridiumbrick": {
         "blocks": [
@@ -363,7 +363,7 @@
         "saw"
       ],
       "L": [
-        "glowbulb"
+        "viridea"
       ],
       "M": [
         "any"

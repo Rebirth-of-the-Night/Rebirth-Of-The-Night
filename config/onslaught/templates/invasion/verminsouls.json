@@ -13,11 +13,13 @@
     "commands": {
       "start": [
         "/weather clear",
-        "/effect @p potioncore:teleport_spawn"
+        "/effect @p potioncore:teleport_spawn",
+        "/gamestage add @p invasionongoing"
       ],
       "end": [
         "/weather rain",
-        "/xp 800 @p"
+        "/xp 800 @p",
+        "/gamestage remove @p invasionongoing"
       ]
     },
     "name": "Vermin Souls",

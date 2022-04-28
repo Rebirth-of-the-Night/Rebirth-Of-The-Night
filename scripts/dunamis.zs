@@ -7,17 +7,17 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 
-// Plague Leech Block Craft
+// Viridea Block Craft
 RecipeBuilder.get("mage")
-  .setName("stabilized_glowbulg")
+  .setName("viridea")
   .setShaped([
     [null,<contenttweaker:vis_speck>,null],
-    [<contenttweaker:vis_speck>,<mowziesmobs:glowing_jelly>,<contenttweaker:vis_speck>],
+    [<contenttweaker:vis_speck>,<contenttweaker:viridea_seed>,<contenttweaker:vis_speck>],
     [null,<contenttweaker:vis_speck>,null]])
   .addTool(<contenttweaker:strength_rune>, 1)
   .addTool(<contenttweaker:life_rune>, 1)
-  .setSecondaryIngredients([<contenttweaker:life_quintessence>*8])
-  .addOutput(<contenttweaker:stabilized_glowbulb>)
+  .setSecondaryIngredients([<contenttweaker:nature_quintessence>*8])
+  .addOutput(<contenttweaker:viridea>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();

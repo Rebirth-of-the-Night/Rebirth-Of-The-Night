@@ -13,10 +13,12 @@
     "commands": {
       "start": [
         "/weather clear",
-        "/effect @p potioncore:teleport_spawn"
+        "/effect @p potioncore:teleport_spawn",
+        "/gamestage add @p invasionongoing"
       ],
       "end": [
-        "/xp 600 @p"
+        "/xp 600 @p",
+        "/gamestage remove @p invasionongoing"
       ]
     },
     "name": "Bandit Army",

@@ -7,6 +7,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -26,6 +32,12 @@
         "id": "minecraft:speed",
         "duration": 50000,
         "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
         "showParticles": false
       }
     ],
@@ -60,7 +72,13 @@
         "id": "wards:effect_blast_protection",
         "duration": 50000,
         "amplifier": 9,
-        "showParticles": true
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -80,7 +98,13 @@
         "id": "wards:effect_blast_protection",
         "duration": 50000,
         "amplifier": 9,
-        "showParticles": true
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -92,6 +116,12 @@
     "effects":[
       {
         "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
@@ -114,7 +144,13 @@
         "id": "wards:effect_blast_protection",
         "duration": 50000,
         "amplifier": 9,
-        "showParticles": true
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -134,7 +170,13 @@
         "id": "wards:effect_blast_protection",
         "duration": 50000,
         "amplifier": 9,
-        "showParticles": true
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -164,7 +206,13 @@
         "id": "wards:effect_blast_protection",
         "duration": 50000,
         "amplifier": 9,
-        "showParticles": true
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {

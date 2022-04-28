@@ -594,10 +594,10 @@ balanceYingQuintessenceB.addAll(
     <ore:solarQuintessence>
 );
 
-val balanceYingQuintessenceC = <ore:balanceYingQuintessenceC>; //holy items
-balanceYingQuintessenceC.addAll(
-    <ore:soulQuintessenceA>
-);
+#val balanceYingQuintessenceC = <ore:balanceYingQuintessenceC>; //holy items
+#balanceYingQuintessenceC.addAll(
+#    <ore:soulQuintessenceA>
+#);
 
 val balanceYingQuintessenceD = <ore:balanceYingQuintessenceD>; //order items
 balanceYingQuintessenceD.addAll(<ore:orderQuintessenceA>);
@@ -622,8 +622,8 @@ balanceYangQuintessenceA.add(
 val balanceYangQuintessenceB = <ore:balanceYangQuintessenceB>; // night items
 balanceYangQuintessenceB.addAll(<ore:lunarQuintessence>);
 
-val balanceYangQuintessenceC = <ore:balanceYangQuintessenceC>; // evil/unholy items
-balanceYangQuintessenceC.addAll(<ore:soulQuintessenceB>);
+#val balanceYangQuintessenceC = <ore:balanceYangQuintessenceC>; // evil/unholy items
+#balanceYangQuintessenceC.addAll(<ore:soulQuintessenceB>);
 
 val balanceYangQuintessenceD = <ore:balanceYangQuintessenceD>; // chaos items
 balanceYangQuintessenceD.addAll(<ore:chaosQuintessenceA>);
@@ -1087,7 +1087,7 @@ Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttwe
 
 Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.25, [<ore:balanceYingQuintessenceB>, <ore:balanceYangQuintessenceB>]);
 
-Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.25, [<ore:balanceYingQuintessenceC>, <ore:balanceYangQuintessenceC>]);
+#Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.25, [<ore:balanceYingQuintessenceC>, <ore:balanceYangQuintessenceC>]);
 
 Mortar.addRecipe(["iron"], <contenttweaker:balance_quintessence>, 4, <contenttweaker:vis_speck> * 2, 0.25, [<ore:balanceYingQuintessenceD>, <ore:balanceYangQuintessenceD>]);
 

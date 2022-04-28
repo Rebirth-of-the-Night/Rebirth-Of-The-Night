@@ -17,6 +17,16 @@
         "y": 76,
         "autoIO": false
       }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 70,
+        "y": 74,
+        "autoIO": false,
+        "tC": 1000
+      }
     ]
   },
   "allowRotate": true,
@@ -86,6 +96,19 @@
       ]
     ],
     "predicates": {
+      "output": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "mythril": {
+        "blocks": [
+          {
+            "id": "contenttweaker:residual_mythril"
+          }
+        ],
+        "type": "blocks"
+      },
       "res": {
         "blocks": [
           {
@@ -115,15 +138,6 @@
         ],
         "type": "states"
       },
-      "H": {
-        "states": [
-          {
-            "id": "contenttweaker:residual_mythril",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "quartz": {
         "blocks": [
           {
@@ -131,6 +145,11 @@
           }
         ],
         "type": "blocks"
+      },
+      "fluid": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
       },
       "K": {
         "states": [
@@ -143,16 +162,6 @@
       },
       "any": {
         "type": "any"
-      },
-      "output": {
-        "capability": "item",
-        "type": "capability",
-        "io": "OUT"
-      },
-      "input": {
-        "capability": "item",
-        "type": "capability",
-        "io": "IN"
       }
     },
     "symbolMap": {
@@ -184,13 +193,13 @@
         "stair"
       ],
       "H": [
-        "H"
+        "mythril"
       ],
       "I": [
         "stair"
       ],
       "J": [
-        "input"
+        "fluid"
       ],
       "K": [
         "K"

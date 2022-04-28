@@ -33,6 +33,44 @@
       "block": "osv:simpleores_onyx_ore_contenttweaker_ardicite"
     },
     "damage": "hotFloor=3"
+  },
+  {
+    "timeout": 10,
+    "block": {
+      "block": "contenttweaker:viridea"
+    },
+    "damage": "magic=2"
+  },
+  {
+    "timeout": 100,
+    "minheight": 128,
+    "gamestage": "invasionongoing",
+	"damage": "magic=4",
+	"message": "Get below y = 128!"
+  },
+  {
+    "timeout": 100,
+	"potion": "wards:effect_knockback,101,3",
+	"playerhelditem": [
+		"twilightforest:knightmetal_sword",
+		"iceandfire:troll_weapon.axe",
+		"iceandfire:troll_weapon.column",
+		"iceandfire:troll_weapon.column_forest",
+		"iceandfire:troll_weapon.column_frost",
+		"iceandfire:troll_weapon.hammer",
+		"iceandfire:troll_weapon.trunk",
+		"iceandfire:troll_weapon.trunk_frost"
+	]
+  },
+  {
+    "timeout": 100,
+	"potion": "wards:effect_knockback,101,4",
+	"playerhelditem": [
+		"spartanweaponry:caestus_studded"
+	],
+	"offhanditem": [
+		"spartanweaponry:caestus_studded"
+	]
   }
 ]
 
