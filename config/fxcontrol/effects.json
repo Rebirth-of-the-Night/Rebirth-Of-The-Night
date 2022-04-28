@@ -47,7 +47,7 @@
     "gamestage": "invasionongoing",
 	"damage": "magic=4",
 	"message": "Get below y = 128!"
-  },
+  }/*,
   {
     "timeout": 100,
 	"potion": "wards:effect_knockback,101,3",
@@ -71,7 +71,7 @@
 	"offhanditem": [
 		"spartanweaponry:caestus_studded"
 	]
-  }
+  }*/
 ]
 
   
