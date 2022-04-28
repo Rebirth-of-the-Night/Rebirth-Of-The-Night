@@ -26,3 +26,4 @@ mods.contenttweaker.VanillaFactory.createItem("mace_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("glaive_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("staff_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("mattock_mold").register();
+mods.contenttweaker.VanillaFactory.createItem("mason_pick_mold").register();

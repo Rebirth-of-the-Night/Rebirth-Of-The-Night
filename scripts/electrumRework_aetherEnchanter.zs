@@ -302,7 +302,6 @@ Enchanter.registerEnchantment(<betterwithaddons:steel_matchpick>, 14400);
 Enchanter.registerEnchantment(<betterwithaddons:steel_machete>, 14400);
 Enchanter.registerEnchantment(<betterwithaddons:steel_kukri>, 14400);
 Enchanter.registerEnchantment(<betterwithaddons:steel_carpentersaw>, 14400);
-Enchanter.registerEnchantment(<betterwithaddons:steel_masonpick>, 14400);
 Enchanter.registerEnchantment(<pyrotech:diamond_hammer>, 14400);
 
 Enchanter.registerEnchantment(<spartancompat:dagger_soulforged_steel>, 14400);

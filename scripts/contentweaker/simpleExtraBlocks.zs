@@ -1324,6 +1324,14 @@ big_chert_bricks.setToolLevel(1);
 big_chert_bricks.setBlockHardness(18);
 big_chert_bricks.register();
 
+// Other Bricks
+// Serpentinite
+var big_serpentinite_bricks = VanillaFactory.createBlock("big_serpentinite_bricks", <blockmaterial:Rock>);
+big_serpentinite_bricks.setCreativeTab(<creativetab:rotn_blocks>);
+big_serpentinite_bricks.setToolLevel(2);
+big_serpentinite_bricks.setBlockHardness(35);
+big_serpentinite_bricks.register();
+
 // Tapestry Wool
 var tapestry_purple = VanillaFactory.createBlock("tapestry_purple", <blockmaterial:Ground>);
 tapestry_purple.setCreativeTab(<creativetab:rotn_blocks>);
@@ -1430,6 +1438,22 @@ ofuda.setBlockLayer("CUTOUT");
 ofuda.setBlockSoundType(<soundtype:plant>);
 ofuda.setToolClass("none");
 ofuda.register();
+
+var serpentinite = VanillaFactory.createBlock("serpentinite", <blockmaterial:Rock>);
+serpentinite.setCreativeTab(<creativetab:rotn_blocks>);
+serpentinite.setBlockSoundType(<soundtype:stone>);
+serpentinite.setBlockHardness(25.0);
+serpentinite.setBlockResistance(20.0);
+serpentinite.setToolLevel(2);
+serpentinite.register();
+
+var serpentinite_cobblestone = VanillaFactory.createBlock("serpentinite_cobblestone", <blockmaterial:Rock>);
+serpentinite_cobblestone.setCreativeTab(<creativetab:rotn_blocks>);
+serpentinite_cobblestone.setBlockSoundType(<soundtype:stone>);
+serpentinite_cobblestone.setBlockHardness(18.0);
+serpentinite_cobblestone.setBlockResistance(20.0);
+serpentinite_cobblestone.setToolLevel(2);
+serpentinite_cobblestone.register();
 
 // sandstone native copper
 var n_copper_sandstone = VanillaFactory.createBlock("n_copper_sandstone", <blockmaterial:Rock>);

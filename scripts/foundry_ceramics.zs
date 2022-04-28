@@ -602,6 +602,10 @@ Casting.addRecipe(<pyrotech:diamond_hammer>, <liquid:soulforged_steel>*((144*4)-
 // MATTOCK //
 Casting.addRecipe(<betterwithmods:steel_mattock>, <liquid:soulforged_steel>*((144*4)-(16*2*4)), <contenttweaker:mattock_mold>, <betterwithmods:material:36>*3);//SFS
 
+// MASON PICK //
+Casting.addRecipe(<contenttweaker:mythril_masonpick>, <liquid:mythril>*((144*8)-(16*2*8)), <contenttweaker:mason_pick_mold>, <betterwithmods:material:36>*3);//SFS
+Casting.addRecipe(<contenttweaker:sfs_masonpick>, <liquid:soulforged_steel>*((144*8)-(16*2*8)), <contenttweaker:mason_pick_mold>, <betterwithmods:material:36>*3);//SFS
+
 // AXE //
 Casting.removeRecipe(<liquid:iron>*432, <foundry:mold:9>, <minecraft:stick>*2);//iron
 Casting.addRecipe(<minecraft:iron_axe>, <liquid:iron>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);

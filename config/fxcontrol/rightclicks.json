@@ -13,15 +13,5 @@
 		"block": "randomthings:voxelprojector",
 		"message": "I have no idea how to operate this thing...",
 		"result": "deny"
-	},
-	{
-		"playerhelditem": "betterwithmods:steel_mattock",
-		"block": "minecraft:cobblestone",
-		"setblock":  { 'block': 'contenttweaker:cobblestone_path_coade'}
-	},
-	{
-		"playerhelditem": "betterwithmods:steel_mattock",
-		"block": "undergroundbiomes:igneous_cobble",
-		"setblock":  { 'block': 'contenttweaker:cobblestone_path_red_granite'}
 	}
 ]

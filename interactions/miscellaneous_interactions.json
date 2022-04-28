@@ -103,5 +103,59 @@
     "heldItem": "contenttweaker:masonry_brick",
     "replacementBlock": "contenttweaker:masonry_brick_two",
     "damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:dirt:0",
+    "heldItem": "contenttweaker:mythril_mattock",
+    "replacementBlock": "minecraft:farmland",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "minecraft:grass:0",
+    "heldItem": "contenttweaker:mythril_mattock",
+    "replacementBlock": "minecraft:farmland",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "biomesoplenty:dirt:0",
+    "heldItem": "contenttweaker:mythril_mattock",
+    "replacementBlock": "biomesoplenty:farmland_0",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "biomesoplenty:grass:2",
+    "heldItem": "contenttweaker:mythril_mattock",
+    "replacementBlock": "biomesoplenty:farmland_0",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "biomesoplenty:dirt:2",
+    "heldItem": "contenttweaker:mythril_mattock",
+    "replacementBlock": "biomesoplenty:farmland_1",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "biomesoplenty:grass:4",
+    "heldItem": "contenttweaker:mythril_mattock",
+    "replacementBlock": "biomesoplenty:farmland_1",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
   }
 ]

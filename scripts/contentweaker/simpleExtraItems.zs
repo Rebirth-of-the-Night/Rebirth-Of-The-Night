@@ -6,6 +6,33 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Commands;
 
+// tools
+var mythril_mattock = VanillaFactory.createItem("mythril_mattock");
+mythril_mattock.maxStackSize = 1;
+mythril_mattock.maxDamage = 6969;
+mythril_mattock.rarity = "rare";
+mythril_mattock.toolClass = "pickaxe";
+mythril_mattock.toolLevel = 4;
+mythril_mattock.register();
+
+var mythril_masonpick = VanillaFactory.createItem("mythril_masonpick");
+mythril_masonpick.maxStackSize = 1;
+mythril_masonpick.maxDamage = 2633;
+mythril_masonpick.rarity = "rare";
+mythril_masonpick.toolClass = "pickaxe";
+mythril_masonpick.toolLevel = 4;
+//mythril_masonpick.itemDestroySpeed = 12;
+mythril_masonpick.register();
+
+var sfs_masonpick = VanillaFactory.createItem("sfs_masonpick");
+sfs_masonpick.maxStackSize = 1;
+sfs_masonpick.maxDamage = 8988;
+sfs_masonpick.rarity = "rare";
+sfs_masonpick.toolClass = "pickaxe";
+sfs_masonpick.toolLevel = 4;
+//sfs_masonpick.itemDestroySpeed = 18;
+sfs_masonpick.register();
+
 // misc.
 val four_gems = VanillaFactory.createItem("four_gems");
 four_gems.register();
@@ -62,7 +89,7 @@ sfs9.register();
 val sa1 = VanillaFactory.createItem("steel_artifact");
 sa1.register();
 
-//non-ingot ingots
+// non-ingot ingots
 val sapphire = VanillaFactory.createItem("sapphire_ingot");
 sapphire.register();
 val ruby = VanillaFactory.createItem("ruby_ingot");
@@ -72,7 +99,7 @@ peridot.register();
 val exorite = VanillaFactory.createItem("exorite_ingot");
 exorite.register();
 
-//Balancing ingredients
+// Balancing ingredients
 val rags_l = VanillaFactory.createItem("tattered_hide");
 rags_l.register();
 val hide_m = VanillaFactory.createItem("monster_hide");

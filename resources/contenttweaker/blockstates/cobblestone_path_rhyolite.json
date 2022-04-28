@@ -2,10 +2,11 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/cobblestone_path_rhyolite",
-      "particle": "contenttweaker:blocks/cobblestone_path_rhyolite"
+      "0": "undergroundbiomes:blocks/rhyolite_cobble",
+	  "1": "contenttweaker:blocks/cobbled_path/cobblestone_path_rhyolite",
+	  "particle": "undergroundbiomes:blocks/rhyolite_cobble"
     },
-    "model": "contenttweaker:base_block",
+    "model": "contenttweaker:cobblestone_path",
     "uvlock": true,
     "transform": "forge:default-block"
   },

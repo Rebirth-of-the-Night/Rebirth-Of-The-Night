@@ -28,6 +28,7 @@ var sfsNugget = <ore:nuggetSoulforgedSteel>;
 var sfsIngot = <ore:ingotSoulforgedSteel>;
 
 Anvil.removeShaped(<betterwithaddons:wrought_bars>);
+Anvil.removeShaped(<betterwithaddons:steel_masonpick>); // replaced with content tweaker items for removal of building blocks (craftable only at foundry)
 
 Anvil.removeShaped(<betterwithmods:steel_axle>);
 Anvil.addShaped(<betterwithmods:steel_axle>, [

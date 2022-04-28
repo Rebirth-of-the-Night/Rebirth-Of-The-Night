@@ -136,6 +136,9 @@
 <betterwithaddons:ancestry_infuser>.addShiftTooltip("Soulsand containing spirits must be placed below this block in a dark area. Soulsand and infuser must be floating and away from any block", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:steel_gearbox>.addTooltip("Won't break from weather!");
 <betterwithmods:steel_axle>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3.");
+<contenttweaker:mythril_masonpick>.addTooltip("Can instantly remove resistant blocks for 30 durability.");
+<contenttweaker:sfs_masonpick>.addTooltip("Can instantly remove resistant blocks for 30 durability.");
+<betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln or dried out on a rack.");
 <betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln or dried out on a rack.");
 
 <ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");

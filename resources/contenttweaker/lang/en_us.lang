@@ -168,6 +168,7 @@ item.contenttweaker.longsword_mold.name=Longsword Mold
 item.contenttweaker.lucky_peridot.name=Lucky Alexandrite
 item.contenttweaker.mace_mold.name=Mace Mold
 item.contenttweaker.mattock_mold.name=Mattock Mold
+item.contenttweaker.mason_pick_mold.name=Mason Pick Mold
 item.contenttweaker.mercurial_ooze.name=§5Mercurial Ooze
 item.contenttweaker.monster_hide.name=Monster Hide
 item.contenttweaker.necromantic_brain.name=Necromantic Brain
@@ -211,6 +212,13 @@ item.contenttweaker.voidseen_exorite.name=Voidseen Exorite
 item.contenttweaker.warhammer_mold.name=Warhammer Mold
 item.contenttweaker.waterlogged_sapphire.name=Waterlogged Sapphire
 item.contenttweaker.wrought_animation_core.name=Wrought Animation Core
+
+#------------------------------------------------------------------------------
+# Tools
+#------------------------------------------------------------------------------
+
+item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
+item.contenttweaker.sfs_masonpick.name=Soul Forged Steel Mason Pick
 
 #------------------------------------------------------------------------------
 # Bricks
@@ -300,6 +308,7 @@ tile.contenttweaker.big_shale_bricks.name=Shale Bricks
 tile.contenttweaker.big_chert_bricks.name=Chert Bricks
 tile.contenttweaker.big_dolomite_bricks.name=Dolomite Bricks
 tile.contenttweaker.big_lignite_bricks.name=Lignite Bricks
+tile.contenttweaker.big_serpentinite_bricks.name=Lignite Bricks
 
 item.contenttweaker.brick_coade.name=Coade Brick   
 item.contenttweaker.brick_red_granite.name=Red Granite Brick   
@@ -535,7 +544,6 @@ tile.contenttweaker.raw_mythril_block.name=Block of Raw Mythril
 tile.contenttweaker.raw_silver_block.name=Block of Raw Silver
 tile.contenttweaker.raw_tin_block.name=Block of Raw Tin
 tile.contenttweaker.raw_viridium_block.name=Block of Raw Viridium
-tile.contenttweaker.rocky_dirt.name=Rocky Dirt
 
 tile.contenttweaker.chalk_cobble.name=Chalk Cobblestone
 tile.contenttweaker.chert_cobble.name=Chert Cobblestone
@@ -544,8 +552,11 @@ tile.contenttweaker.greywacke_cobble.name=Greywacke Cobblestone
 tile.contenttweaker.lignite_cobble.name=Lignite Cobblestone
 tile.contenttweaker.limestone_cobble.name=Limestone Cobblestone
 tile.contenttweaker.shale_cobble.name=Shale Cobblestone
+tile.contenttweaker.serpentinite_cobblestone.name=Serpentinite Cobblestone
 tile.contenttweaker.siltstone_cobble.name=Siltstone Cobblestone
 
+tile.contenttweaker.rocky_dirt.name=Rocky Dirt
+tile.contenttweaker.serpentinite.name=Serpentinite
 tile.contenttweaker.weathered_dirt.name=Weathered Dirt
 
 item.contenttweaker.phosphophyllite.name=§6Phosphophyllite
