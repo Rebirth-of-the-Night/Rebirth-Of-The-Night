@@ -9,7 +9,8 @@
     },
     "commands": {
       "start": [
-        "/weather rain"
+        "/weather rain",
+        "/effect @p teleport_spawn"
       ],
       "end": [
         "/weather clear",

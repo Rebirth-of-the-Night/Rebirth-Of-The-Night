@@ -13,7 +13,8 @@
     "commands": {
       "start": [
         "/weather clear",
-        "/gamerule doFireTick false"
+        "/gamerule doFireTick false",
+        "/effect @p teleport_spawn"
       ],
       "end": [
         "/xp 600 @p",

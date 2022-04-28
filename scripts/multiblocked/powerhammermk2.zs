@@ -90,7 +90,7 @@ val PowerHammerItemOutputs = [
     <animania:salt>*3, 
     <minecraft:redstone>*2,
     <minecraft:quartz>*2, 
-    <contenttweaker:magic_blend>*3, 
+    <contenttweaker:magic_blend>*18, 
     <betterwithmods:material:18>, 
     <betterwithmods:material:18>, 
     <endreborn:item_lormyte_crystal>*2, 
