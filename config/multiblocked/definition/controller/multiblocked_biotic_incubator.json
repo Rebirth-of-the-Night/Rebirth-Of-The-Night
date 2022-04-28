@@ -24,7 +24,7 @@
   "showInJei": true,
   "baseRenderer": {
     "state": {
-      "id": "quark:ender_watcher",
+      "id": "simpleores:adamantium_block",
       "meta": 0
     },
     "type": "blockstate"
@@ -103,7 +103,7 @@
         "    H    ",
         "  EIAFE  ",
         " JKL   A ",
-        "A       A",
+        "Q       A",
         "A       A",
         "A       A",
         " A MN  A ",
@@ -276,14 +276,21 @@
         "type": "blocks",
         "nbtParser": "power:1"
       },
-      "I": {
-        "states": [
+      "glowbulb": {
+        "blocks": [
           {
-            "id": "stygian:endmagma",
-            "meta": 0
+            "id": "contenttweaker:stabilized_glowbulb"
           }
         ],
-        "type": "states"
+        "type": "blocks"
+      },
+      "soil": {
+        "blocks": [
+          {
+            "id": "rustic:fertile_soil"
+          }
+        ],
+        "type": "blocks"
       },
       "any": {
         "type": "any"
@@ -293,35 +300,10 @@
         "type": "capability",
         "io": "OUT"
       },
-      "leech": {
-        "blocks": [
-          {
-            "id": "contenttweaker:plague_leech"
-          }
-        ],
-        "type": "blocks"
-      },
       "input": {
         "capability": "item",
         "type": "capability",
         "io": "IN"
-      },
-      "fan": {
-        "blocks": [
-          {
-            "id": "dungeontactics:fan_block"
-          }
-        ],
-        "type": "blocks",
-        "nbtParser": "1b"
-      },
-      "voidrock": {
-        "blocks": [
-          {
-            "id": "contenttweaker:voided_rock"
-          }
-        ],
-        "type": "blocks"
       },
       "viridiumbrick": {
         "blocks": [
@@ -363,7 +345,7 @@
         "viridiumbrick"
       ],
       "F": [
-        "voidrock"
+        "viridiumbrick"
       ],
       "G": [
         "G"
@@ -372,7 +354,7 @@
         "output"
       ],
       "I": [
-        "I"
+        "soil"
       ],
       "J": [
         "axle"
@@ -381,21 +363,24 @@
         "saw"
       ],
       "L": [
-        "leech"
+        "glowbulb"
       ],
       "M": [
         "any"
       ],
       "N": [
-        "fan"
+        "any"
       ],
       "O": [
-        "input"
+        "G"
       ],
       "P": [
         "stairs"
+      ],
+      "Q": [
+        "input"
       ]
     }
   },
-  "recipeMap": "writhing_biomass"
+  "recipeMap": "illuminant_biomatter"
 }

@@ -607,6 +607,7 @@ fluid.tannin=Tannin
 fluid.methanol=Wood Alcohol
 fluid.dread_cold=Dread Cold
 fluid.unstable_spiritfire=Unstable Spiritfire
+fluid.refined_lifeblood.name=Refined Lifeblood
 
 #------------------------------------------------------------------------------
 # Energy Items/Tiles
@@ -615,5 +616,6 @@ fluid.unstable_spiritfire=Unstable Spiritfire
 item.contenttweaker.condensed_dread_cold.name=Condensed Dread Cold
 item.contenttweaker.raw_dread_slate.name=Dread Slate Figurine
 item.contenttweaker.condensed_vilemist.name=Condensed Vilemist
-item.contenttweaker.writhing_biomass.name=Writhing Biomass
-tile.contenttweaker.plague_leech.name=Massive Plague Leech
+item.contenttweaker.viridea_biomatter.name=Viridea Biomatter
+item.contenttweaker.viridea_seed.name=Viridea Seed
+tile.contenttweaker.viridea.name=Viridea

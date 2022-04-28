@@ -16,6 +16,7 @@ unstableSpiritfire.luminosity = 15;
 unstableSpiritfire.stillLocation = "contenttweaker:fluids/unstable_spiritfire_still";
 unstableSpiritfire.flowingLocation = "contenttweaker:fluids/unstable_spiritfire_flow";
 unstableSpiritfire.colorize= true;
+unstableSpiritfire.vaporize= true;
 unstableSpiritfire.register();
 
 var dreadCold = VanillaFactory.createFluid("dread_cold", Color.fromHex("C9FFE5"));
@@ -26,7 +27,19 @@ dreadCold.luminosity = 15;
 dreadCold.stillLocation = "contenttweaker:fluids/dread_cold_still";
 dreadCold.flowingLocation = "contenttweaker:fluids/dread_cold_flow";
 dreadCold.colorize= true;
+dreadCold.vaporize= true;
 dreadCold.register();
+
+var refinedLifeblood = VanillaFactory.createFluid("refined_lifeblood", Color.fromHex("90EE90"));
+refinedLifeblood.temperature = 100;
+refinedLifeblood.viscosity = 9999999999999999;
+refinedLifeblood.density = 300;
+refinedLifeblood.luminosity = 15;
+# refinedLifeblood.stillLocation = "contenttweaker:fluids/dread_cold_still";
+# refinedLifeblood.flowingLocation = "contenttweaker:fluids/dread_cold_flow";
+refinedLifeblood.colorize= true;
+refinedLifeblood.vaporize= true;
+refinedLifeblood.register();
 
 val rawdreadSlate = VanillaFactory.createItem("raw_dread_slate");
 rawdreadSlate.register();
@@ -34,26 +47,28 @@ rawdreadSlate.register();
 val condensedDreadCold = VanillaFactory.createItem("condensed_dread_cold");
 condensedDreadCold.register();
 
-val condensedVileMist = VanillaFactory.createItem("condensed_vilemist");
-condensedVileMist.register();
+val virideaBiomatter = VanillaFactory.createItem("viridea_biomatter");
+virideaBiomatter.register();
 
-val writhingBiomass = VanillaFactory.createItem("writhing_biomass");
-writhingBiomass.register();
+val virideaSeed = VanillaFactory.createItem("viridea_seed");
+virideaSeed.register();
 
-var plague_leech = VanillaFactory.createBlock("plague_leech", <blockmaterial:Sponge>);
-plague_leech.setGravity(true);
-plague_leech.axisAlignedBB = AxisAlignedBB.create(
+var viridea = VanillaFactory.createBlock("viridea", <blockmaterial:Plants>);
+viridea.axisAlignedBB = AxisAlignedBB.create(
      4.0 / 16.0,
      0.0 / 16.0,
-     1.0 / 16.0,
+     4.0 / 16.0,
 	12.0 / 16.0,
-    6.0 / 16.0,
-    15.0 / 16.0
+    16.0 / 16.0,
+    12.0 / 16.0
 	);
-plague_leech.setBlockSoundType(<soundtype:plant>);
-plague_leech.setFullBlock(false);
-plague_leech.setLightOpacity(0);
-plague_leech.setBlockLayer("TRANSLUCENT");
-plague_leech.setBlockHardness(1.0);
-plague_leech.setToolClass("shovel");
-plague_leech.register();
+viridea.setBlockHardness(0.0);
+viridea.setBlockResistance(2.0);
+viridea.setFullBlock(false);
+viridea.setPassable(false);
+viridea.setReplaceable(false);
+viridea.setLightOpacity(0);
+viridea.setBlockLayer("CUTOUT");
+viridea.setBlockSoundType(<soundtype:plant>);
+viridea.setToolClass("none");
+viridea.register();

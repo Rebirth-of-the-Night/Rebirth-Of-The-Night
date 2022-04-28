@@ -280,6 +280,8 @@ Melting.addRecipe(<liquid:ambrosium>*144, <ore:gemAmbrosium>, 300);
 Melting.addRecipe(<liquid:ambrosium>*(144*9), <aether_legacy:ambrosium_block>, 300);
 Melting.addRecipe(<liquid:mythril>*192, <ore:oreMythril>, 2500);
 Melting.addRecipe(<liquid:viridium>*192, <ore:oreViridium>, 2500);
+Melting.addRecipe(<liquid:mythril>*192, <ore:rawOreMythril>, 2500);
+Melting.addRecipe(<liquid:viridium>*192, <ore:rawOreViridium>, 2500);
 
 Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450); // miscellaneous melting
 Melting.addRecipe(<liquid:blood>*48, <charm:rotten_flesh_block>, 1300);

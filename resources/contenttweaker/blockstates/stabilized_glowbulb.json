@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/stabilized_glowbulb",
+      "particle": "contenttweaker:blocks/stabilized_glowbulb"
+    },
+    "model": "betterwithmods:brick",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

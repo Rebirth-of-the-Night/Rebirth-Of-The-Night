@@ -6,14 +6,9 @@
       "uid": "2b3de67c-8960-40a9-827e-a7f372cee97e",
       "duration": 2000,
       "inputs": {
-        "item": [
+        "fluid": [
           {
-            "content": {
-              "amount": 8,
-              "matches": [
-                "{id:\"contenttweaker:writhing_biomass\",Count:8,Damage:0s}"
-              ]
-            },
+            "content": "{FluidName:\"refined_lifeblood\",Amount:125}",
             "chance": 1.0
           }
         ]

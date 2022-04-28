@@ -811,6 +811,10 @@ Dropt.list("raw_viridium")
           .items([<contenttweaker:raw_viridium>], Dropt.range(2))
 		  .xp("REPLACE", Dropt.range(4,5))
       )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50))
+          .items([<contenttweaker:viridea_seed>])
+      )
   );
 Dropt.list("raw_mythril")
 

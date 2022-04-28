@@ -9,15 +9,15 @@ import mods.betterwithaddons.Infuser;
 
 // Plague Leech Block Craft
 RecipeBuilder.get("mage")
-  .setName("plague_leeching")
+  .setName("stabilized_glowbulg")
   .setShaped([
     [null,<contenttweaker:vis_speck>,null],
-    [<contenttweaker:vis_speck>,<rats:plague_leech>,<contenttweaker:vis_speck>],
+    [<contenttweaker:vis_speck>,<mowziesmobs:glowing_jelly>,<contenttweaker:vis_speck>],
     [null,<contenttweaker:vis_speck>,null]])
   .addTool(<contenttweaker:strength_rune>, 1)
-  .addTool(<contenttweaker:chaos_rune>, 1)
-  .setSecondaryIngredients([<contenttweaker:plague_quintessence>*8])
-  .addOutput(<contenttweaker:plague_leech>)
+  .addTool(<contenttweaker:life_rune>, 1)
+  .setSecondaryIngredients([<contenttweaker:life_quintessence>*8])
+  .addOutput(<contenttweaker:stabilized_glowbulb>)
   .setMinimumTier(1)
   .setMaximumTier(1)
   .create();

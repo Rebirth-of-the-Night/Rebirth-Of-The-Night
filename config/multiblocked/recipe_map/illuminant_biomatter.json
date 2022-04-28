@@ -1,5 +1,5 @@
 {
-  "name": "writhing_biomass",
+  "name": "illuminant_biomatter",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
@@ -11,7 +11,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"adpother:vilemist\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:raw_viridium\",Count:1,Damage:0s}"
               ]
             },
             "chance": 1.0
@@ -24,7 +24,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:writhing_biomass\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:illuminant_biomatter\",Count:1,Damage:0s}"
               ]
             },
             "chance": 1.0
