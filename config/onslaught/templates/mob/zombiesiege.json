@@ -31,7 +31,7 @@
         {  },
         {  },
         {  },
-        { "Count": 1, "id": "dungeontactics:steel_helmet" }
+        { "Count": 1, "id": "dungeontactics:steel_helmet", "tag": { "Enchantments":  [{ "id": "minecraft:blast_protection", "lvl": 6 }]}}
       ],
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.35 },
@@ -81,7 +81,7 @@
         {  },
         {  },
         {  },
-        { "Count": 1, "id": "dungeontactics:steel_helmet" }
+        { "Count": 1, "id": "dungeontactics:steel_helmet", "tag": { "Enchantments":  [{ "id": "minecraft:blast_protection", "lvl": 6 }]}}
       ],
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.35 },
@@ -133,7 +133,7 @@
         { },
         { },
         { },
-        { "Count": 1, "id": "harvestcraft:candledeco13" }
+        { "Count": 1, "id": "harvestcraft:candledeco13", "tag": { "Enchantments":  [{ "id": "minecraft:blast_protection", "lvl": 6 }]}}
       ],
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.35 },

@@ -249,6 +249,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <simpleores:adamantium_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
 <simpleores:onyx_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
 <contenttweaker:mythril_mattock>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<atop:peridot_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<atop:ruby_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<atop:sapphire_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<dungeontactics:steel_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<nyx:meteor_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
 
 // Underground Biomes Construct (and other stone types). Based on the tooltips of the modpack Homestead for 1.10.2
 // Igneous

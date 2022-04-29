@@ -50,7 +50,7 @@
             "mobs": [
               {
                 "id": "darkskies.frost",
-                "count": [ 10, 12 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -194,7 +194,7 @@
             "mobs": [
               {
                 "id": "darkskies.frost",
-                "count": [ 6, 8 ],
+                "count": [ 4, 5 ],
                 "spawn": {
                   "type": "air",
                   "light": [
