@@ -359,7 +359,8 @@
       },
       "out": {
         "capability": "item",
-        "type": "capability"
+        "type": "capability",
+        "io": "OUT"
       }
     },
     "symbolMap": {
