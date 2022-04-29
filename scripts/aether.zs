@@ -242,6 +242,14 @@ recipes.addShapedMirrored("gravitite_axe", <atop:amber_axe>,[
     [null, stick]
 ]);
 
+recipes.remove(<spartancompat:hammer_gravitite>);
+recipes.addShaped("gravitite_war_hammer", <spartancompat:hammer_gravitite>,
+[
+    [gravitite_ingot],[gravitite_ingot],[gravitite_ingot]
+    [gravitite_ingot],[gravitite_ingot],[gravitite_ingot]
+    [null],[<spartanweaponry:material:1>],[null]
+]);
+
 recipes.remove(<atop:amber_shovel>);
 recipes.addShaped("gravitite_shovel", <atop:amber_shovel>,[
     [egrav],
