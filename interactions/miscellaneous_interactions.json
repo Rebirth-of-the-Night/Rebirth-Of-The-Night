@@ -159,7 +159,7 @@
     "particleCount": "5"
   },
   {
-    "targetBlock": "dimstack:portal",
+    "targetBlock": "dimstack:bedrock",
     "heldItem": "contenttweaker:arcane_focus",
     "replacementBlock": "minecraft:air",
     "damage": "1",
