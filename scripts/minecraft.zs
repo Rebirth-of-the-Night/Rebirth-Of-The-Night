@@ -1928,7 +1928,7 @@ recipes.addShaped("futuremc_stone_brick_wall", <futuremc:stone_brick_wall>*6,[
 ]);
 recipes.addShaped("iceandfire_ice_brick", <iceandfire:dragonforge_ice_brick>*4,[
     [<ore:iceDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:iceDragonScaleBlock>],
-    [<ore:StoneHugeBrick>, <ore:fireDragonScaleBlock>, <ore:StoneHugeBrick>],
+    [<ore:StoneHugeBrick>, <ore:iceDragonScaleBlock>, <ore:StoneHugeBrick>],
 	[<ore:iceDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:iceDragonScaleBlock>]
 ]);
 recipes.addShaped("iceandfire_fire_brick", <iceandfire:dragonforge_fire_brick>*4,[
