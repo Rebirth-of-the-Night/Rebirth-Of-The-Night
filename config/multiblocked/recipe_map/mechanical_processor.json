@@ -21,7 +21,7 @@
       "outputs": {
         "fluid": [
           {
-            "content": "{FluidName:\"refined_lifeblood\",Amount:2000}",
+            "content": "{FluidName:\"concentrated_bioflow\",Amount:2000}",
             "chance": 1.0
           }
         ]

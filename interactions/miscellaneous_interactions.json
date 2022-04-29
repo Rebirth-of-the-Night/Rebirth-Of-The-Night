@@ -162,14 +162,7 @@
     "targetBlock": "dimstack:bedrock",
     "heldItem": "contenttweaker:arcane_focus",
     "replacementBlock": "minecraft:air",
-    "particleType": "witchMagic",
-    "particleArea": "out",
-    "particleCount": "20"
-  },
-  {
-    "targetBlock": "dimstack:portal",
-    "heldItem": "contenttweaker:arcane_focus",
-    "replacementBlock": "minecraft:air",
+    "damage": "-1",
     "particleType": "witchMagic",
     "particleArea": "out",
     "particleCount": "20"

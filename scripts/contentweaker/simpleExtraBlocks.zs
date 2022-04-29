@@ -1663,7 +1663,7 @@ lifeblood.temperature = 400;
 lifeblood.viscosity = 800;
 lifeblood.stillLocation = "contenttweaker:fluids/dunamis_still";
 lifeblood.flowingLocation = "contenttweaker:fluids/dunamis_flow";
-lifeblood.colorize= false;
+lifeblood.colorize= true;
 lifeblood.register();
 
 var residual_mythril = VanillaFactory.createFluid("residual_mythril", Color.fromHex("fffdd0"));

@@ -30,7 +30,7 @@ dreadCold.colorize= true;
 dreadCold.vaporize= true;
 dreadCold.register();
 
-var refinedLifeblood = VanillaFactory.createFluid("refined_lifeblood", Color.fromHex("8CFF8C"));
+var refinedLifeblood = VanillaFactory.createFluid("concentrated_bioflow", Color.fromHex("8CFF8C"));
 refinedLifeblood.temperature = 100;
 refinedLifeblood.viscosity = 9999999999999999;
 refinedLifeblood.density = 300;

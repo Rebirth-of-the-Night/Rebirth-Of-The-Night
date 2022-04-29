@@ -75,7 +75,7 @@ JEI.removeAndHide(<dynamictreesphc:dragonfruitbranch>);
 
 recipes.remove(<dynamictrees:dirtbucket>);
 recipes.addShapeless("dirt_bucket_stone", <dynamictrees:dirtbucket>,
-	[<pyrotech:bucket_stone>, <ore:dirt>]
+	[<pyrotech:bucket_stone>.noReturn(), <ore:dirt>]
 );
 // bamboo to bamboo shoot for greater yield
 recipes.addShaped("bamboo_to_bamboo_shoot", <dynamictreesbop:bambooseed>,

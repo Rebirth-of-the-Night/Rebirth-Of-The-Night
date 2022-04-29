@@ -608,7 +608,7 @@ fluid.tannin=Tannin
 fluid.methanol=Wood Alcohol
 fluid.dread_cold=Dread Cold
 fluid.unstable_spiritfire=Unstable Spiritfire
-fluid.refined_lifeblood=Refined Lifeblood
+fluid.concentrated_bioflow=Concentrated Bioflow
 
 #------------------------------------------------------------------------------
 # Energy Items/Tiles
