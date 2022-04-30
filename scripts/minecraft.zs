@@ -1846,25 +1846,29 @@ recipes.remove(<villagenames:lunarinironbrick>);
 recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
 recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 
-recipes.addShaped("lunarin_iron", <villagenames:lunarinironbrick>*24,
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
-);
+recipes.addShapedMirrored("lunarin_iron", <villagenames:lunarinironbrick>*24,
+	[[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [null, null, null]
+]);
 recipes.addShapeless("iron_bricks", <aesthetics:iron_bricks>, 
     [<villagenames:lunarinironbrick>]
 );
-recipes.addShaped("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*24,
-	[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
-);
-recipes.addShaped("lunarin_silver", <contenttweaker:lunarinsilverbrick>*24,
-	[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
-    [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]
-);
-recipes.addShaped("lunarin_gold", <villagenames:lunaringoldbrick>*24,
-	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
-);
+recipes.addShapedMirrored("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*24,
+	[[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+    [null, null, null]
+]);
+recipes.addShapedMirrored("lunarin_silver", <contenttweaker:lunarinsilverbrick>*24,
+	[[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+    [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+    [null, null, null]
+]);
+recipes.addShapedMirrored("lunarin_gold", <villagenames:lunaringoldbrick>*24,
+	[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+    [null, null, null]
+]);
 recipes.addShapeless("lunarin_viridium", <contenttweaker:lunarinviridiumbrick>*24,
 	[<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>,<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>]
 );
@@ -1874,10 +1878,10 @@ recipes.addShapeless("lunarin_mythril", <contenttweaker:lunarinmythrilbrick>*24,
 recipes.addShapeless("lunarin_endorium", <contenttweaker:lunarinendoriumbrick>*24,
 	[<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>]
 );
-recipes.addShaped("lunarin_steel", <contenttweaker:lunarinsteelbrick>*24,
-	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+recipes.addShapedMirrored("lunarin_steel", <contenttweaker:lunarinsteelbrick>*24,
+	[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
-);
+]);
 mods.betterwithmods.Anvil.addShapeless(<contenttweaker:lunarinsfsbrick>*24, 
 [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>]
 );

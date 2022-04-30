@@ -502,6 +502,15 @@ recipes.removeByRecipeName("harvestcraft:toastedsesameseedsitem");
 ExSartagine.addKettleRecipe([salt,heavyCream],null,null,[<harvestcraft:butteritem>],80);
 
 //Juices
+//Fruit Punch -&R
+recipes.remove(<harvestcraft:fruitpunchitem>);
+RecipeBuilder.get("chef")
+  .setName("fruitpunch")
+  .setShapeless([fruit,sugar])
+  .setFluid(waterBottle2)
+  .addTool(cookKit, 1)
+  .addOutput(<harvestcraft:fruitpunchitem>*2)
+  .create();
 recipes.removeByRecipeName("harvestcraft:applejuiceitem");
 RecipeBuilder.get("chef")
   .setShapeless([apple, sugar])
@@ -2086,15 +2095,6 @@ RecipeBuilder.get("chef")
   .setShapeless([sugar,dyeRed,dyeGreen])
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:gummybearsitem>)
-  .create();
-//Fruit Punch -&R
-recipes.remove(<harvestcraft:fruitpunchitem>);
-RecipeBuilder.get("chef")
-  .setName("fruitpunch")
-  .setShapeless([fruit,sugar])
-  .setFluid(waterBottle2)
-  .addTool(cookKit, 1)
-  .addOutput(<harvestcraft:fruitpunchitem>*2)
   .create();
 //Meaty Stew  -&R
 recipes.remove(<harvestcraft:meatystewitem>);

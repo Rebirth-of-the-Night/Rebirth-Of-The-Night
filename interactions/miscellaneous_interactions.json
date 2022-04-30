@@ -172,34 +172,39 @@
     "heldItem": "minecraft:glass_bottle",
     "replacementBlock": "minecraft:air",
     "damage": "1",
-    "dropItem": "animania:milk_bottle"
+    "dropItem": "animania:milk_bottle",
+    "dropCount": "1"
   },
   {
     "targetBlock": "animania:milk_sheep",
     "heldItem": "minecraft:glass_bottle",
     "replacementBlock": "minecraft:air",
     "damage": "1",
-    "dropItem": "animania:milk_bottle"
+    "dropItem": "animania:milk_bottle",
+    "dropCount": "1"
   },
   {
     "targetBlock": "animania:milk_jersey",
     "heldItem": "minecraft:glass_bottle",
     "replacementBlock": "minecraft:air",
     "damage": "1",
-    "dropItem": "animania:milk_bottle"
+    "dropItem": "animania:milk_bottle",
+    "dropCount": "1"
   },
   {
     "targetBlock": "animania:milk_holstein",
     "heldItem": "minecraft:glass_bottle",
     "replacementBlock": "minecraft:air",
     "damage": "1",
-    "dropItem": "animania:milk_bottle"
+    "dropItem": "animania:milk_bottle",
+    "dropCount": "1"
   },
   {
     "targetBlock": "animania:milk_goat",
     "heldItem": "minecraft:glass_bottle",
     "replacementBlock": "minecraft:air",
     "damage": "1",
-    "dropItem": "animania:milk_bottle"
+    "dropItem": "animania:milk_bottle",
+    "dropCount": "1"
   }
 ]
