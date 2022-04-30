@@ -33,6 +33,38 @@
       },
       "tickInputs": {},
       "tickOutputs": {}
+    },
+    {
+      "uid": "familyguyfunnymoments43",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"simpleores:adamantium_ingot\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:viridea_biomatter\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
     }
   ]
 }

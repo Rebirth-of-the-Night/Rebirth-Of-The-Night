@@ -3,6 +3,109 @@
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
+      "uid": "fc4b4843-1b2b-4fde-a464-ac9cb8914099",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"aether_legacy:zanite_gemstone\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:glowstone\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:glass_bottle\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"concentrated_bioflow\",Amount:500}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:potion\",Count:1,Damage:0s,tag:{Potion:\"potioncore:strong_bless\"}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "608ce6d1-e18e-4009-888f-ccce8384e10a",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"aether_legacy:zanite_gemstone\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:glass_bottle\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"concentrated_bioflow\",Amount:500}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:potion\",Count:1,Damage:0s,tag:{Potion:\"potioncore:bless\"}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
       "uid": "1662eae9-42e7-4f65-9c44-6faf03b6e462",
       "duration": 100,
       "inputs": {
@@ -28,6 +131,53 @@
       },
       "tickInputs": {},
       "tickOutputs": {}
-    }
+    }/*,
+    {
+      "uid": "73e09e2d-f83d-4f2e-8c21-49c81cb8b51e",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"simpleores:adamantium_ingot\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:glass_bottle\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"concentrated_bioflow\",Amount:500}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:potion\",Count:1,Damage:0s,tag:{Potion:\"potioncore:bless\"}}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {} /give @p minecraft:potion 1 0 {CustomPotionEffects:[{Id:1,Amplifier:2,Duration:100},{Id:6},{Id:8,Amplifier:1,Duration:100},{Id:10,Amplifier:3,Duration:100},{Id:11,Amplifier:1,Duration:100},{Id:18,Amplifier:19,Duration:200}],CustomPotionColor:720683,display:{Name:"Potion of Withdrawing",Lore:["A handy brew that extends your life for just a bit longer."]}}
+    }*/
   ]
 }
