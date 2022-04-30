@@ -625,7 +625,7 @@ Dropt.list("plants_basic_dead")
 Dropt.list("tall_grass_base_drops")
 
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:3","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","minecraft:tallgrass:1","minecraft:tallgrass:2","aether_legacy:aether_grass","aether_legacy:enchanted_aether_grass"])
       .matchHarvester(Dropt.harvester()
           .type("PLAYER")
 	  )
