@@ -11,13 +11,13 @@
       "start": [
         "/weather rain",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage add @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing"
       ],
       "end": [
         "/weather clear",
         "/xp 100 @p",
         "/give @p betterwithmods:material 8 31",
-        "/gamestage remove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing"
       ],
       "staged": [
         {

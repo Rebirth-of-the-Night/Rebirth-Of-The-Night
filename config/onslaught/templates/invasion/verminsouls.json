@@ -14,12 +14,12 @@
       "start": [
         "/weather clear",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage add @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing"
       ],
       "end": [
         "/weather rain",
         "/xp 800 @p",
-        "/gamestage remove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing"
       ]
     },
     "name": "Vermin Souls",

@@ -14,14 +14,14 @@
       "start": [
         "/weather clear",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage add @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing"
       ],
       "end": [
         "/weather rain",
         "/give @p twilightforest:giant_pickaxe",
         "/give @p twilightforest:giant_sword",
         "/xp 1000 @p",
-        "/gamestage remove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing"
       ],
       "staged": [
         {
