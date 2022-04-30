@@ -114,9 +114,9 @@ furnace.addRecipe(<undergroundbiomes:sedimentary_stone:7>, <contenttweaker:chert
 
 for rawOreBlock, rawOre in rtb {
   recipes.addShaped(rawOreBlock, [
-	[rawOre,rawOre,rawOre],
-	[rawOre,rawOre,rawOre],
-	[rawOre,rawOre,rawOre]]);
+    [rawOre,rawOre,rawOre],
+    [rawOre,rawOre,rawOre],
+    [rawOre,rawOre,rawOre]]);
   recipes.addShapeless(rawOre*9, [rawOreBlock]);
 }
 
@@ -205,16 +205,16 @@ for i, entry in hammerList.entrySet {
 }
 
 val oreHammering as IItemStack[IIngredient] = {
-  <ore:sourceCopper>			:	<ore:dustCopper>.firstItem,
-  <ore:sourceZinc>				:	<ore:dustZinc>.firstItem,
-  <ore:sourceTin>				:	<ore:dustTin>.firstItem,
-  <ore:sourceBronze>			:	<ore:dustBronze>.firstItem,
-  <ore:sourceBrass>				:	<ore:dustBrass>.firstItem,
-  <ore:sourceIron>				:	<ore:dustIron>.firstItem,
-  <ore:sourceGold>				:	<ore:dustGold>.firstItem,
-  <ore:sourceSilver>			:	<ore:dustSilver>.firstItem,
-  <ore:sourceGravitite>			:	<ore:dustGravitite>.firstItem,
-  <ore:sourceEndorium>			:	<ore:dustEndorium>.firstItem
+  <ore:sourceCopper>            :    <ore:dustCopper>.firstItem,
+  <ore:sourceZinc>              :    <ore:dustZinc>.firstItem,
+  <ore:sourceTin>               :    <ore:dustTin>.firstItem,
+  <ore:sourceBronze>            :    <ore:dustBronze>.firstItem,
+  <ore:sourceBrass>             :    <ore:dustBrass>.firstItem,
+  <ore:sourceIron>              :    <ore:dustIron>.firstItem,
+  <ore:sourceGold>              :    <ore:dustGold>.firstItem,
+  <ore:sourceSilver>            :    <ore:dustSilver>.firstItem,
+  <ore:sourceGravitite>         :    <ore:dustGravitite>.firstItem,
+  <ore:sourceEndorium>          :    <ore:dustEndorium>.firstItem
 } as IItemStack[IIngredient];
 
 for i, entry in oreHammering.entrySet {
@@ -372,8 +372,8 @@ RecipeBuilder.get("mage")
   .setName("botanic_glass_x4")
   .setShaped([
     [null,<quark:framed_glass>,null],
-	[<quark:framed_glass>,<contenttweaker:vis_speck>,<quark:framed_glass>],
-	[null,<quark:framed_glass>,null]])
+    [<quark:framed_glass>,<contenttweaker:vis_speck>,<quark:framed_glass>],
+    [null,<quark:framed_glass>,null]])
   .addOutput(<sereneseasons:greenhouse_glass>*4)
   .addTool(<contenttweaker:nature_rune>, 1)
   .setMinimumTier(1)
@@ -383,8 +383,8 @@ RecipeBuilder.get("mage")
   .setName("botanic_glass_x8")
   .setShaped([
     [<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>],
-	[<quark:framed_glass>,<contenttweaker:vis_sliver>,<quark:framed_glass>],
-	[<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>]])
+    [<quark:framed_glass>,<contenttweaker:vis_sliver>,<quark:framed_glass>],
+    [<quark:framed_glass>,<quark:framed_glass>,<quark:framed_glass>]])
   .addOutput(<sereneseasons:greenhouse_glass>*8)
   .addTool(<contenttweaker:nature_rune>, 1)
   .setMinimumTier(1)
@@ -471,15 +471,15 @@ var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>
 recipes.removeByRecipeName("minecraft:cauldron");
 recipes.addShaped("cauldron",<minecraft:cauldron>,[
     [<ore:genericMetal>, null, <ore:genericMetal>],
-	[<ore:genericMetal>,null,<ore:genericMetal>],
-	[<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
+    [<ore:genericMetal>,null,<ore:genericMetal>],
+    [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
 ]);
 
 recipes.removeByRecipeName("rustic:crushing_tub");
 recipes.addShaped("crushing_tub",<rustic:crushing_tub>,[
     [<ore:plankWood>, null, <ore:plankWood>],
-	[<ore:genericMetal>,null,<ore:genericMetal>],
-	[<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]
+    [<ore:genericMetal>,null,<ore:genericMetal>],
+    [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>]
 ]);
 
 recipes.removeByRecipeName("biomesoplenty:sand_from_dried_sand");
@@ -710,39 +710,39 @@ recipes.addShaped("silverboosterrail",<minecraft:golden_rail>*4,[
 recipes.remove(<sereneseasons:season_clock>);
 
 recipes.addShaped("tintripwirehook", <minecraft:tripwire_hook> * 2,[
-	[null, <ore:ingotTin>, null],
-	[null, <ore:stickWood>, null],
-	[null, <ore:plankWood>, null]
+    [null, <ore:ingotTin>, null],
+    [null, <ore:stickWood>, null],
+    [null, <ore:plankWood>, null]
 ]);
 
 recipes.addShaped("tincompass", <minecraft:compass>,[
-	[null, <ore:ingotTin>, null],
-	[<ore:ingotTin>, <minecraft:redstone>, <ore:ingotTin>],
-	[null, <ore:ingotTin>, null]
+    [null, <ore:ingotTin>, null],
+    [<ore:ingotTin>, <minecraft:redstone>, <ore:ingotTin>],
+    [null, <ore:ingotTin>, null]
 ]);
 
 recipes.addShaped("seasonclock1", <sereneseasons:season_clock>, [
-	[<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>],
-	[<ore:ingotTin>, <minecraft:redstone>, <ore:ingotTin>],
-	[<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>]
+    [<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>],
+    [<ore:ingotTin>, <minecraft:redstone>, <ore:ingotTin>],
+    [<minecraft:quartz>, <ore:ingotTin>, <minecraft:quartz>]
 ]);
 
 // new bucket recipe
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped("iron_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
-	[null, null, null],
+    [null, null, null],
     [<ore:ingotIron>, null, <ore:ingotIron>],
     [null, <ore:ingotIron>, null]
 ]);
 recipes.addShaped("bronze_bucket", <pyrotech:bucket_stone>.withTag({Unbreakable: 1,HideFlags: 36}),[
-	[null, null, null],
+    [null, null, null],
     [<ore:ingotBronze>, null, <ore:ingotBronze>],
     [null, <ore:ingotBronze>, null]
 ]);
 
 recipes.addShaped("quality_bucket", <minecraft:bucket>,[
-	[<pyrotech:material:4>, <pyrotech:bucket_stone>, <pyrotech:material:4>],
-	[<ore:glue>,<ore:glue>,<ore:glue>],
+    [<pyrotech:material:4>, <pyrotech:bucket_stone>, <pyrotech:material:4>],
+    [<ore:glue>,<ore:glue>,<ore:glue>],
     [<pyrotech:material:4>, <contenttweaker:crucible>, <pyrotech:material:4>]
 ]);
 
@@ -785,7 +785,7 @@ recipes.remove(<quark:chain>);
 recipes.remove(<iceandfire:chain_link>);
 
 recipes.addShaped("Chainlinks", chainlink*2,[
-	[null, <ore:genericMetalNuggets>, null],
+    [null, <ore:genericMetalNuggets>, null],
     [<ore:genericMetalNuggets>, null, <ore:genericMetalNuggets>],
     [null, <ore:genericMetalNuggets>, null]
 ]);
@@ -794,38 +794,38 @@ recipes.addShapeless("Quark_chain", <quark:chain>,
 [chainlink, chainlink]);
 
 recipes.addShaped("iceandfire_chain", bigchain,[
-	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>],
-	[chain, chainlink, chain],
-	[<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>]
+    [<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>],
+    [chain, chainlink, chain],
+    [<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>,<ore:nuggetSoulforgedSteel>]
 ]);
 
 recipes.addShaped("rustic_chain", decochain*16,[
-	[chainlink, chainlink, chainlink],
+    [chainlink, chainlink, chainlink],
     [chainlink, null, chainlink],
     [chainlink, chainlink, chainlink]
 ]);
 
 
 recipes.addShaped("Chainmail Helmet", <minecraft:chainmail_helmet>,[
-	[chain, chain, chain],
+    [chain, chain, chain],
     [chain, null, chain],
     [null, null, null]
 ]);
 
 recipes.addShaped("Chainmail Chestplate", <minecraft:chainmail_chestplate>,[
-	[chain, null, chain],
+    [chain, null, chain],
     [chain, chain, chain],
     [chain, chain, chain]
 ]);
 
 recipes.addShaped("Chainmail Leggings", <minecraft:chainmail_leggings>,[
-	[chain, chain, chain],
+    [chain, chain, chain],
     [chain, null, chain],
     [chain, null, chain]
 ]);
 
 recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
-	[null, null, null],
+    [null, null, null],
     [chain, null, chain],
     [chain, null, chain]
 ]);
@@ -835,25 +835,25 @@ val flint = <minecraft:flint>;
 val stick = <ore:stickWood>;
 
 recipes.addShapedMirrored("flintstone_axe", <minecraft:stone_axe>,[
-	[flint, flint, null],
+    [flint, flint, null],
     [flint, stick, null],
     [null, stick, null]
 ]);
 
 recipes.addShapedMirrored("flintstone_hoe", <minecraft:stone_hoe>,[
-	[flint, flint, null],
+    [flint, flint, null],
     [null, stick, null],
     [null, stick, null]
 ]);
 
 recipes.addShaped("flintstone_shovel", <minecraft:stone_shovel>,[
-	[null, flint, null],
+    [null, flint, null],
     [null, stick, null],
     [null, stick, null]
 ]);
 
 recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
-	[flint, flint, flint],
+    [flint, flint, flint],
     [null, stick, null],
     [null, stick, null]
 ]);
@@ -1733,8 +1733,8 @@ mortarRefractory.addItems([<ceramics:unfired_clay:4>,<pyrotech:material:8>,<pyro
 // Brick Rework
 // Primitive Bricks
 val primitiveBrickBlockMap = {
-	<biomesoplenty:mud_brick> : [<contenttweaker:brick_biomesoplenty_mud>,<contenttweaker:loose_mud_bricks>],
-	<earthworks:item_adobe> : [<contenttweaker:brick_earthworks_adobe>,<contenttweaker:loose_adobe_bricks>],
+    <biomesoplenty:mud_brick> : [<contenttweaker:brick_biomesoplenty_mud>,<contenttweaker:loose_mud_bricks>],
+    <earthworks:item_adobe> : [<contenttweaker:brick_earthworks_adobe>,<contenttweaker:loose_adobe_bricks>],
 } as IItemStack[][IItemStack];
 
 for brickItemPrimitive, brickBlockPrimitive in primitiveBrickBlockMap{
@@ -1743,56 +1743,56 @@ for brickItemPrimitive, brickBlockPrimitive in primitiveBrickBlockMap{
         [brickItemPrimitive,brickItemPrimitive],
         [brickItemPrimitive,brickItemPrimitive]
     ]);
-	recipes.addShaped(brickBlockPrimitive[0]*8,[
+    recipes.addShaped(brickBlockPrimitive[0]*8,[
         [brickBlockPrimitive[1],brickBlockPrimitive[1],brickBlockPrimitive[1]],
-		[brickBlockPrimitive[1],mortarPrimitive,brickBlockPrimitive[1]],
+        [brickBlockPrimitive[1],mortarPrimitive,brickBlockPrimitive[1]],
         [brickBlockPrimitive[1],brickBlockPrimitive[1],brickBlockPrimitive[1]]
     ]);
 }
 
 // Generic Bricks
 val stoneBrickBlockMap = {
-	<minecraft:brick> : [<contenttweaker:brick_minecraft_clay>,<contenttweaker:loose_clay_bricks>],
-	<contenttweaker:brick_end> : [<minecraft:end_bricks>,<contenttweaker:loose_big_end_bricks>],
-	<contenttweaker:brick_white> : [<contenttweaker:brick_betterwithaddons_whitebrick>,<contenttweaker:loose_big_white_bricks>],
-	<contenttweaker:brick_dreadstone> : [<iceandfire:dread_stone_bricks>,<contenttweaker:loose_big_dreadstone_bricks>],
-	<contenttweaker:brick_black_basalt> : [<netherex:basalt_brick>,<contenttweaker:loose_basalt_nether_bricks>],
-	<contenttweaker:brick_brimstone> : [<contenttweaker:brick_quark_brimstone>,<contenttweaker:loose_big_brimstone_bricks>],
-	<contenttweaker:brick_permafrost> : [<contenttweaker:brick_quark_permafrost>,<contenttweaker:loose_big_permafrost_bricks>],
-	<contenttweaker:brick_sandstone> : [<contenttweaker:brick_quark_sandstone>,<contenttweaker:loose_sandstone_bricks>],
-	<contenttweaker:brick_red_sandstone> : [<contenttweaker:brick_quark_red_sandstone>,<contenttweaker:loose_red_sandstone_bricks>],
-	<contenttweaker:brick_soul_sandstone> : [<contenttweaker:brick_quark_soul_sandstone>,<contenttweaker:loose_soulsandstone_bricks>],
-	<contenttweaker:brick_holystone> : [<contenttweaker:brick_aether_legacy_holystone>,<contenttweaker:loose_holystone_bricks>],
-	<contenttweaker:brick_coade> : [<contenttweaker:brick_minecraft_stone>,<contenttweaker:loose_big_coade_bricks>],
-	<contenttweaker:brick_red_granite> : [<undergroundbiomes:igneous_brick>,<contenttweaker:loose_big_red_granite_bricks>],
-	<contenttweaker:brick_black_granite> : [<undergroundbiomes:igneous_brick:1>,<contenttweaker:loose_big_black_granite_bricks>],
-	<contenttweaker:brick_rhyolite> : [<undergroundbiomes:igneous_brick:2>,<contenttweaker:loose_big_rhyolite_bricks>],
-	<contenttweaker:brick_andesite> : [<undergroundbiomes:igneous_brick:3>,<contenttweaker:loose_big_andesite_bricks>],
-	<contenttweaker:brick_gabbro> : [<undergroundbiomes:igneous_brick:4>,<contenttweaker:loose_big_gabbro_bricks>],
-	<contenttweaker:brick_basalt> : [<undergroundbiomes:igneous_brick:5>,<contenttweaker:loose_big_basalt_bricks>],
-	<contenttweaker:brick_komatiite> : [<undergroundbiomes:igneous_brick:6>,<contenttweaker:loose_big_komatiite_bricks>],
-	<contenttweaker:brick_dacite> : [<undergroundbiomes:igneous_brick:7>,<contenttweaker:loose_big_dacite_bricks>],
-	<contenttweaker:brick_gneiss> : [<undergroundbiomes:metamorphic_brick>,<contenttweaker:loose_big_gneiss_bricks>],
-	<contenttweaker:brick_eclogite> : [<undergroundbiomes:metamorphic_brick:1>,<contenttweaker:loose_big_eclogite_bricks>],
-	<contenttweaker:brick_marble> : [<undergroundbiomes:metamorphic_brick:2>,<contenttweaker:loose_big_marble_bricks>],
-	<contenttweaker:brick_quartzite> : [<undergroundbiomes:metamorphic_brick:3>,<contenttweaker:loose_big_quartzite_bricks>],
-	<contenttweaker:brick_blue_schist> : [<undergroundbiomes:metamorphic_brick:4>,<contenttweaker:loose_big_blueschist_bricks>],
-	<contenttweaker:brick_green_schist> : [<undergroundbiomes:metamorphic_brick:5>,<contenttweaker:loose_big_greenschist_bricks>],
-	<contenttweaker:brick_soapstone> : [<undergroundbiomes:metamorphic_brick:6>,<contenttweaker:loose_big_soapstone_bricks>],
-	<contenttweaker:brick_migmatite> : [<undergroundbiomes:metamorphic_brick:7>,<contenttweaker:loose_big_migmatite_bricks>],
-	<contenttweaker:brick_limestone> : [<contenttweaker:big_limestone_bricks>,<contenttweaker:loose_big_limestone_bricks>],
-	<contenttweaker:brick_chalk> : [<contenttweaker:big_chalk_bricks>,<contenttweaker:loose_big_chalk_bricks>],
-	<contenttweaker:brick_shale> : [<contenttweaker:big_shale_bricks>,<contenttweaker:loose_big_shale_bricks>],
-	<contenttweaker:brick_siltstone> : [<contenttweaker:big_siltstone_bricks>,<contenttweaker:loose_big_siltstone_bricks>],
-	<contenttweaker:brick_lignite> : [<contenttweaker:big_lignite_bricks>,<contenttweaker:loose_big_lignite_bricks>],
-	<contenttweaker:brick_dolomite> : [<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
-	<contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
-	<contenttweaker:brick_chert> : [<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
-	<contenttweaker:masonry_brick> : [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>]
-//	serpentinite : [,],
-//	<contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
-//	<contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
-//	<contenttweaker:brick_green_slate> : [<contenttweaker:loose_big_green_slate_bricks>,]
+    <minecraft:brick> : [<contenttweaker:brick_minecraft_clay>,<contenttweaker:loose_clay_bricks>],
+    <contenttweaker:brick_end> : [<minecraft:end_bricks>,<contenttweaker:loose_big_end_bricks>],
+    <contenttweaker:brick_white> : [<contenttweaker:brick_betterwithaddons_whitebrick>,<contenttweaker:loose_big_white_bricks>],
+    <contenttweaker:brick_dreadstone> : [<iceandfire:dread_stone_bricks>,<contenttweaker:loose_big_dreadstone_bricks>],
+    <contenttweaker:brick_black_basalt> : [<netherex:basalt_brick>,<contenttweaker:loose_basalt_nether_bricks>],
+    <contenttweaker:brick_brimstone> : [<contenttweaker:brick_quark_brimstone>,<contenttweaker:loose_big_brimstone_bricks>],
+    <contenttweaker:brick_permafrost> : [<contenttweaker:brick_quark_permafrost>,<contenttweaker:loose_big_permafrost_bricks>],
+    <contenttweaker:brick_sandstone> : [<contenttweaker:brick_quark_sandstone>,<contenttweaker:loose_sandstone_bricks>],
+    <contenttweaker:brick_red_sandstone> : [<contenttweaker:brick_quark_red_sandstone>,<contenttweaker:loose_red_sandstone_bricks>],
+    <contenttweaker:brick_soul_sandstone> : [<contenttweaker:brick_quark_soul_sandstone>,<contenttweaker:loose_soulsandstone_bricks>],
+    <contenttweaker:brick_holystone> : [<contenttweaker:brick_aether_legacy_holystone>,<contenttweaker:loose_holystone_bricks>],
+    <contenttweaker:brick_coade> : [<contenttweaker:brick_minecraft_stone>,<contenttweaker:loose_big_coade_bricks>],
+    <contenttweaker:brick_red_granite> : [<undergroundbiomes:igneous_brick>,<contenttweaker:loose_big_red_granite_bricks>],
+    <contenttweaker:brick_black_granite> : [<undergroundbiomes:igneous_brick:1>,<contenttweaker:loose_big_black_granite_bricks>],
+    <contenttweaker:brick_rhyolite> : [<undergroundbiomes:igneous_brick:2>,<contenttweaker:loose_big_rhyolite_bricks>],
+    <contenttweaker:brick_andesite> : [<undergroundbiomes:igneous_brick:3>,<contenttweaker:loose_big_andesite_bricks>],
+    <contenttweaker:brick_gabbro> : [<undergroundbiomes:igneous_brick:4>,<contenttweaker:loose_big_gabbro_bricks>],
+    <contenttweaker:brick_basalt> : [<undergroundbiomes:igneous_brick:5>,<contenttweaker:loose_big_basalt_bricks>],
+    <contenttweaker:brick_komatiite> : [<undergroundbiomes:igneous_brick:6>,<contenttweaker:loose_big_komatiite_bricks>],
+    <contenttweaker:brick_dacite> : [<undergroundbiomes:igneous_brick:7>,<contenttweaker:loose_big_dacite_bricks>],
+    <contenttweaker:brick_gneiss> : [<undergroundbiomes:metamorphic_brick>,<contenttweaker:loose_big_gneiss_bricks>],
+    <contenttweaker:brick_eclogite> : [<undergroundbiomes:metamorphic_brick:1>,<contenttweaker:loose_big_eclogite_bricks>],
+    <contenttweaker:brick_marble> : [<undergroundbiomes:metamorphic_brick:2>,<contenttweaker:loose_big_marble_bricks>],
+    <contenttweaker:brick_quartzite> : [<undergroundbiomes:metamorphic_brick:3>,<contenttweaker:loose_big_quartzite_bricks>],
+    <contenttweaker:brick_blue_schist> : [<undergroundbiomes:metamorphic_brick:4>,<contenttweaker:loose_big_blueschist_bricks>],
+    <contenttweaker:brick_green_schist> : [<undergroundbiomes:metamorphic_brick:5>,<contenttweaker:loose_big_greenschist_bricks>],
+    <contenttweaker:brick_soapstone> : [<undergroundbiomes:metamorphic_brick:6>,<contenttweaker:loose_big_soapstone_bricks>],
+    <contenttweaker:brick_migmatite> : [<undergroundbiomes:metamorphic_brick:7>,<contenttweaker:loose_big_migmatite_bricks>],
+    <contenttweaker:brick_limestone> : [<contenttweaker:big_limestone_bricks>,<contenttweaker:loose_big_limestone_bricks>],
+    <contenttweaker:brick_chalk> : [<contenttweaker:big_chalk_bricks>,<contenttweaker:loose_big_chalk_bricks>],
+    <contenttweaker:brick_shale> : [<contenttweaker:big_shale_bricks>,<contenttweaker:loose_big_shale_bricks>],
+    <contenttweaker:brick_siltstone> : [<contenttweaker:big_siltstone_bricks>,<contenttweaker:loose_big_siltstone_bricks>],
+    <contenttweaker:brick_lignite> : [<contenttweaker:big_lignite_bricks>,<contenttweaker:loose_big_lignite_bricks>],
+    <contenttweaker:brick_dolomite> : [<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
+    <contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
+    <contenttweaker:brick_chert> : [<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
+    <contenttweaker:masonry_brick> : [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>]
+//    serpentinite : [,],
+//    <contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
+//    <contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
+//    <contenttweaker:brick_green_slate> : [<contenttweaker:loose_big_green_slate_bricks>,]
 } as IItemStack[][IItemStack];
 
 for brickItem, brickBlock in stoneBrickBlockMap{
@@ -1801,19 +1801,19 @@ for brickItem, brickBlock in stoneBrickBlockMap{
         [brickItem,brickItem],
         [brickItem,brickItem]
     ]);
-	recipes.addShaped(brickBlock[0]*8,[
+    recipes.addShaped(brickBlock[0]*8,[
         [brickBlock[1],brickBlock[1],brickBlock[1]],
-		[brickBlock[1],mortarCommon,brickBlock[1]],
+        [brickBlock[1],mortarCommon,brickBlock[1]],
         [brickBlock[1],brickBlock[1],brickBlock[1]]
     ]);
 }
 
 // Refractory Bricks
 val refractoryBrickBlockMap = {
-	<pyrotech:material:5> : [<contenttweaker:brick_pyrotech_refractory>,<contenttweaker:loose_refractory_bricks>],
-	<ceramics:unfired_clay:5> : [<contenttweaker:brick_ceramics_porcelain>,<contenttweaker:loose_porcelain_bricks>],
-	<minecraft:netherbrick> : [<contenttweaker:brick_minecraft_nether>,<contenttweaker:loose_nether_bricks>],
-	<netherex:fiery_netherbrick> : [<contenttweaker:brick_netherex_fiery>,<contenttweaker:loose_fiery_nether_bricks>]
+    <pyrotech:material:5> : [<contenttweaker:brick_pyrotech_refractory>,<contenttweaker:loose_refractory_bricks>],
+    <ceramics:unfired_clay:5> : [<contenttweaker:brick_ceramics_porcelain>,<contenttweaker:loose_porcelain_bricks>],
+    <minecraft:netherbrick> : [<contenttweaker:brick_minecraft_nether>,<contenttweaker:loose_nether_bricks>],
+    <netherex:fiery_netherbrick> : [<contenttweaker:brick_netherex_fiery>,<contenttweaker:loose_fiery_nether_bricks>]
 } as IItemStack[][IItemStack];
 
 for brickItemRefractory, brickBlockRefractory in refractoryBrickBlockMap{
@@ -1822,16 +1822,16 @@ for brickItemRefractory, brickBlockRefractory in refractoryBrickBlockMap{
         [brickItemRefractory,brickItemRefractory],
         [brickItemRefractory,brickItemRefractory]
     ]);
-	recipes.addShaped(brickBlockRefractory[0]*8,[
+    recipes.addShaped(brickBlockRefractory[0]*8,[
         [brickBlockRefractory[1],brickBlockRefractory[1],brickBlockRefractory[1]],
-		[brickBlockRefractory[1],mortarRefractory,brickBlockRefractory[1]],
+        [brickBlockRefractory[1],mortarRefractory,brickBlockRefractory[1]],
         [brickBlockRefractory[1],brickBlockRefractory[1],brickBlockRefractory[1]]
     ]);
 }
 // Ghost recipe for JEI
 recipes.addShaped(<pyrotech:refractory_brick_block>*8,[
         [<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>],
-		[<contenttweaker:loose_refractory_bricks>,mortarRefractory,<contenttweaker:loose_refractory_bricks>],
+        [<contenttweaker:loose_refractory_bricks>,mortarRefractory,<contenttweaker:loose_refractory_bricks>],
         [<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>,<contenttweaker:loose_refractory_bricks>]
     ]);
 
@@ -1846,80 +1846,84 @@ recipes.remove(<villagenames:lunarinironbrick>);
 recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
 recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 
-recipes.addShapedMirrored("lunarin_iron", <villagenames:lunarinironbrick>*24,
-	[[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+recipes.addShaped("lunarin_iron", <villagenames:lunarinironbrick>*24, [
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-    [null, null, null]
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
-recipes.addShapeless("iron_bricks", <aesthetics:iron_bricks>, 
+recipes.addShapeless("ae_iron_bricks", <aesthetics:iron_bricks>, 
     [<villagenames:lunarinironbrick>]
 );
-recipes.addShapedMirrored("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*24,
-	[[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+recipes.addShaped("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*24, [
     [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-    [null, null, null]
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
 ]);
-recipes.addShapedMirrored("lunarin_silver", <contenttweaker:lunarinsilverbrick>*24,
-	[[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
+recipes.addShaped("lunarin_silver", <contenttweaker:lunarinsilverbrick>*24, [
     [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
-    [null, null, null]
+    [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]
 ]);
-recipes.addShapedMirrored("lunarin_gold", <villagenames:lunaringoldbrick>*24,
-	[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+recipes.addShaped("lunarin_gold", <villagenames:lunaringoldbrick>*24, [
     [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [null, null, null]
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 ]);
-recipes.addShapeless("lunarin_viridium", <contenttweaker:lunarinviridiumbrick>*24,
-	[<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>,<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>]
-);
-recipes.addShapeless("lunarin_mythril", <contenttweaker:lunarinmythrilbrick>*24,
-	[<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>]
-);
-recipes.addShapeless("lunarin_endorium", <contenttweaker:lunarinendoriumbrick>*24,
-	[<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>]
-);
-recipes.addShapedMirrored("lunarin_steel", <contenttweaker:lunarinsteelbrick>*24,
-	[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+recipes.addShaped("lunarin_viridium", <contenttweaker:lunarinviridiumbrick>*24, [
+    [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>],
+    [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>]
+]);
+recipes.addShaped("lunarin_mythril", <contenttweaker:lunarinmythrilbrick>*24, [
+    [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>],
+    [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>]
+]);
+recipes.addShaped("lunarin_endorium", <contenttweaker:lunarinendoriumbrick>*24, [
+    [<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>],
+    [<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>]
+]);
+recipes.addShaped("lunarin_steel", <contenttweaker:lunarinsteelbrick>*24, [
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
-mods.betterwithmods.Anvil.addShapeless(<contenttweaker:lunarinsfsbrick>*24, 
-[<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>]
-);
-
-recipes.addShapeless("lunarin_crystal_heart", <contenttweaker:lunarinheartbrick>*24,
-	[<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>]
-);
-recipes.addShapeless("lunarin_fiery", <contenttweaker:lunarinfierybrick>*24,
-	[<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
-);
+mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:lunarinsfsbrick>*24, [
+    [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>], 
+    [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>]
+]);
+recipes.addShaped("lunarin_crystal_heart", <contenttweaker:lunarinheartbrick>*24, [
+    [<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>], 
+    [<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>]
+]);
+recipes.addShaped("lunarin_fiery", <contenttweaker:lunarinfierybrick>*24, [
+    [<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>], 
+    [<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
+]);
 // Farlander
-recipes.addShapeless("farlander_exorite", <contenttweaker:farlanderexoritebrick>*24,
-	[<rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>]
-);
-recipes.addShapeless("farlander_zanite", <contenttweaker:farlanderzanitebrick>*24,
-	[<ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>]
-);
-recipes.addShapeless("farlander_diamond", <contenttweaker:farlanderdiamondbrick>*24,
-	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
-);
+recipes.addShaped("farlander_exorite", <contenttweaker:farlanderexoritebrick>*24, [
+    [<rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>], 
+    [<rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>]
+]);
+recipes.addShaped("farlander_zanite", <contenttweaker:farlanderzanitebrick>*24, [
+    [<ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>], 
+    [<ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>]
+]);
+recipes.addShaped("farlander_diamond", <contenttweaker:farlanderdiamondbrick>*24, [
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
+]);
 // Other
 recipes.addShapeless("witheredblock_to_dust>", <quark:black_ash>*9, 
    [<contenttweaker:witheredblock>]
 );
 recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
-	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
-    	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
-    	[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
+    [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
+    [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
+    [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
 ]);
 recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
-	[<dungeontactics:toast>, <dungeontactics:toast>],
+    [<dungeontactics:toast>, <dungeontactics:toast>],
     [<dungeontactics:toast>, <dungeontactics:toast>]
 ]);
 
 recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[
-	[null, <contenttweaker:masonry_brick>, null],
+    [null, <contenttweaker:masonry_brick>, null],
     [<contenttweaker:masonry_brick>, null, <contenttweaker:masonry_brick>],
-	[null, <contenttweaker:masonry_brick>, null],
+    [null, <contenttweaker:masonry_brick>, null],
 ]);
 
 ////////////////////////////////////// Default brick block replacements for practical base defense
@@ -1933,24 +1937,24 @@ recipes.removeByRecipeName("inspirations:building/path/tiles");
 recipes.removeByRecipeName("quark:magma_bricks");
 recipes.addShaped("futuremc_stone_brick_wall", <futuremc:stone_brick_wall>*6,[
     [<contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>],
-	[<contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>]
+    [<contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>, <contenttweaker:brick_minecraft_stone>]
 ]);
 recipes.addShaped("iceandfire_ice_brick", <iceandfire:dragonforge_ice_brick>*4,[
     [<ore:iceDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:iceDragonScaleBlock>],
     [<ore:StoneHugeBrick>, <ore:iceDragonScaleBlock>, <ore:StoneHugeBrick>],
-	[<ore:iceDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:iceDragonScaleBlock>]
+    [<ore:iceDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:iceDragonScaleBlock>]
 ]);
 recipes.addShaped("iceandfire_fire_brick", <iceandfire:dragonforge_fire_brick>*4,[
     [<ore:fireDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:fireDragonScaleBlock>],
     [<ore:StoneHugeBrick>, <ore:fireDragonScaleBlock>, <ore:StoneHugeBrick>],
-	[<ore:fireDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:fireDragonScaleBlock>]
+    [<ore:fireDragonScaleBlock>, <ore:StoneHugeBrick>, <ore:fireDragonScaleBlock>]
 ]);
 recipes.addShaped("inspirations_path_tile", <inspirations:path:2>*3,[
-	[<ore:StoneHugeBrick>,<ore:StoneHugeBrick>]
+    [<ore:StoneHugeBrick>,<ore:StoneHugeBrick>]
 ]);
 recipes.addShaped("quark_magma_brick", <quark:magma_bricks>*4,[
-	[<ore:StoneHugeBrick>,<ore:StoneHugeBrick>],
-	[<minecraft:magma>,<minecraft:magma>]
+    [<ore:StoneHugeBrick>,<ore:StoneHugeBrick>],
+    [<minecraft:magma>,<minecraft:magma>]
 ]);
 // holystone brick
 recipes.remove(<aether_legacy:holystone_brick>);
@@ -1959,17 +1963,17 @@ recipes.remove(<aether_legacy:holystone_brick_stairs>);
 recipes.remove(<aether_legacy:holystone_brick_slab>);
 recipes.addShaped("aether_holy_brick_wall", <aether_legacy:holystone_brick_wall>*6,[
     [<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>],
-	[<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>]
+    [<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>]
 ]);
 recipes.addShapedMirrored("aether_holy_brick_stairs", <aether_legacy:holystone_brick_stairs>*8,[
     [<contenttweaker:brick_aether_legacy_holystone>, null, null],
-	[<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, null],
-	[<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>]
+    [<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, null],
+    [<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>]
 ]);
 recipes.addShapedMirrored("aether_holy_brick_stairs_b", <aether_legacy:holystone_brick_stairs>*4,[
     [<aether_legacy:holystone_brick_slab>, null, null],
-	[<aether_legacy:holystone_brick_slab>, <aether_legacy:holystone_brick_slab>, null],
-	[<aether_legacy:holystone_brick_slab>, <aether_legacy:holystone_brick_slab>, <aether_legacy:holystone_brick_slab>]
+    [<aether_legacy:holystone_brick_slab>, <aether_legacy:holystone_brick_slab>, null],
+    [<aether_legacy:holystone_brick_slab>, <aether_legacy:holystone_brick_slab>, <aether_legacy:holystone_brick_slab>]
 ]);
 recipes.addShaped("aether_holy_brick_slab", <aether_legacy:holystone_brick_slab>*6,[
     [<contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>, <contenttweaker:brick_aether_legacy_holystone>]
@@ -1984,13 +1988,13 @@ recipes.addShapeless("sandstone_brick_stair_block", <contenttweaker:brick_quark_
 recipes.addShapeless("sandstone_brick_slab_block", <contenttweaker:brick_quark_sandstone>, [<quark:sandstone_bricks_slab>, <quark:sandstone_bricks_slab>]);
 recipes.addShapedMirrored("sandstone_brick_stairs", <quark:sandstone_bricks_stairs>*8,[
     [<contenttweaker:brick_quark_sandstone>, null, null],
-	[<contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>, null],
-	[<contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>]
+    [<contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>, null],
+    [<contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>]
 ]);
 recipes.addShapedMirrored("sandstone_brick_stairs_b", <quark:sandstone_bricks_stairs>*4,[
     [<quark:sandstone_bricks_slab>, null, null],
-	[<quark:sandstone_bricks_slab>, <quark:sandstone_bricks_slab>, null],
-	[<quark:sandstone_bricks_slab>, <quark:sandstone_bricks_slab>, <quark:sandstone_bricks_slab>]
+    [<quark:sandstone_bricks_slab>, <quark:sandstone_bricks_slab>, null],
+    [<quark:sandstone_bricks_slab>, <quark:sandstone_bricks_slab>, <quark:sandstone_bricks_slab>]
 ]);
 recipes.addShaped("sandstone_brick_slab", <quark:sandstone_bricks_slab>*6,[
     [<contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>, <contenttweaker:brick_quark_sandstone>]
@@ -2005,13 +2009,13 @@ recipes.addShapeless("red_sandstone_brick_stair_block", <contenttweaker:brick_qu
 recipes.addShapeless("red_sandstone_brick_slab_block", <contenttweaker:brick_quark_red_sandstone>, [<quark:red_sandstone_bricks_slab>, <quark:red_sandstone_bricks_slab>]);
 recipes.addShapedMirrored("red_sandstone_brick_stairs", <quark:red_sandstone_bricks_stairs>*8,[
     [<contenttweaker:brick_quark_red_sandstone>, null, null],
-	[<contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>, null],
-	[<contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>]
+    [<contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>, null],
+    [<contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>]
 ]);
 recipes.addShapedMirrored("red_sandstone_brick_stairs_b", <quark:red_sandstone_bricks_stairs>*4,[
     [<quark:red_sandstone_bricks_slab>, null, null],
-	[<quark:red_sandstone_bricks_slab>, <quark:red_sandstone_bricks_slab>, null],
-	[<quark:red_sandstone_bricks_slab>, <quark:red_sandstone_bricks_slab>, <quark:red_sandstone_bricks_slab>]
+    [<quark:red_sandstone_bricks_slab>, <quark:red_sandstone_bricks_slab>, null],
+    [<quark:red_sandstone_bricks_slab>, <quark:red_sandstone_bricks_slab>, <quark:red_sandstone_bricks_slab>]
 ]);
 recipes.addShaped("red_sandstone_brick_slab", <quark:red_sandstone_bricks_slab>*6,[
     [<contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>, <contenttweaker:brick_quark_red_sandstone>]
@@ -2026,13 +2030,13 @@ recipes.addShapeless("soul_sandstone_brick_stair_block", <contenttweaker:brick_q
 recipes.addShapeless("soul_sandstone_brick_slab_block", <contenttweaker:brick_quark_soul_sandstone>, [<quark:soul_sandstone_bricks_slab>, <quark:soul_sandstone_bricks_slab>]);
 recipes.addShapedMirrored("soul_sandstone_brick_stairs", <quark:soul_sandstone_bricks_stairs>*8,[
     [<contenttweaker:brick_quark_soul_sandstone>, null, null],
-	[<contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>, null],
-	[<contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>]
+    [<contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>, null],
+    [<contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>]
 ]);
 recipes.addShapedMirrored("soul_sandstone_brick_stairs_b", <quark:soul_sandstone_bricks_stairs>*4,[
     [<quark:soul_sandstone_bricks_slab>, null, null],
-	[<quark:soul_sandstone_bricks_slab>, <quark:soul_sandstone_bricks_slab>, null],
-	[<quark:soul_sandstone_bricks_slab>, <quark:soul_sandstone_bricks_slab>, <quark:soul_sandstone_bricks_slab>]
+    [<quark:soul_sandstone_bricks_slab>, <quark:soul_sandstone_bricks_slab>, null],
+    [<quark:soul_sandstone_bricks_slab>, <quark:soul_sandstone_bricks_slab>, <quark:soul_sandstone_bricks_slab>]
 ]);
 recipes.addShaped("soul_sandstone_brick_slab", <quark:soul_sandstone_bricks_slab>*6,[
     [<contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>, <contenttweaker:brick_quark_soul_sandstone>]
@@ -2047,13 +2051,13 @@ recipes.addShapeless("mud_brick_stair_block", <contenttweaker:brick_biomesoplent
 recipes.addShapeless("mud_brick_slab_block", <contenttweaker:brick_biomesoplenty_mud>, [<biomesoplenty:other_slab>, <biomesoplenty:other_slab>]);
 recipes.addShapedMirrored("mud_brick_stairs", <biomesoplenty:mud_brick_stairs>*8,[
     [<contenttweaker:brick_biomesoplenty_mud>, null, null],
-	[<contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>, null],
-	[<contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>]
+    [<contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>, null],
+    [<contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>]
 ]);
 recipes.addShapedMirrored("mud_brick_stairs_b", <biomesoplenty:mud_brick_stairs>*4,[
     [<biomesoplenty:other_slab>, null, null],
-	[<biomesoplenty:other_slab>, <biomesoplenty:other_slab>, null],
-	[<biomesoplenty:other_slab>, <biomesoplenty:other_slab>, <biomesoplenty:other_slab>]
+    [<biomesoplenty:other_slab>, <biomesoplenty:other_slab>, null],
+    [<biomesoplenty:other_slab>, <biomesoplenty:other_slab>, <biomesoplenty:other_slab>]
 ]);
 recipes.addShaped("mud_brick_slab", <biomesoplenty:other_slab>*6,[
     [<contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>, <contenttweaker:brick_biomesoplenty_mud>]
@@ -2068,19 +2072,19 @@ recipes.remove(<quark:fire_stone_brick_stairs>);
 recipes.remove(<quark:fire_stone_brick_slab>);
 recipes.addShaped("brimstone_brick_wall", <quark:fire_stone_brick_wall>*6,[
     [<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>],
-	[<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>]
+    [<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>]
 ]);
 recipes.addShapeless("brimstone_brick_stair_block", <contenttweaker:brick_quark_brimstone>*3, [<quark:fire_stone_brick_stairs>, <quark:fire_stone_brick_stairs>, <quark:fire_stone_brick_stairs>, <quark:fire_stone_brick_stairs>]);
 recipes.addShapeless("brimstone_brick_slab_block", <contenttweaker:brick_quark_brimstone>, [<quark:fire_stone_brick_slab>, <quark:fire_stone_brick_slab>]);
 recipes.addShapedMirrored("brimstone_brick_stairs", <quark:fire_stone_brick_stairs>*8,[
     [<contenttweaker:brick_quark_brimstone>, null, null],
-	[<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, null],
-	[<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>]
+    [<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, null],
+    [<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>]
 ]);
 recipes.addShapedMirrored("brimstone_brick_stairs_b", <quark:fire_stone_brick_stairs>*4,[
     [<quark:fire_stone_brick_slab>, null, null],
-	[<quark:fire_stone_brick_slab>, <quark:fire_stone_brick_slab>, null],
-	[<quark:fire_stone_brick_slab>, <quark:fire_stone_brick_slab>, <quark:fire_stone_brick_slab>]
+    [<quark:fire_stone_brick_slab>, <quark:fire_stone_brick_slab>, null],
+    [<quark:fire_stone_brick_slab>, <quark:fire_stone_brick_slab>, <quark:fire_stone_brick_slab>]
 ]);
 recipes.addShaped("brimstone_brick_slab", <quark:fire_stone_brick_slab>*6,[
     [<contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>, <contenttweaker:brick_quark_brimstone>]
@@ -2094,19 +2098,19 @@ recipes.remove(<quark:icy_stone_brick_stairs>);
 recipes.remove(<quark:icy_stone_brick_slab>);
 recipes.addShaped("permafrost_brick_wall", <quark:icy_stone_brick_wall>*6,[
     [<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>],
-	[<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>]
+    [<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>]
 ]);
 recipes.addShapeless("permafrost_brick_stair_block", <contenttweaker:brick_quark_permafrost>*3, [<quark:icy_stone_brick_stairs>, <quark:icy_stone_brick_stairs>, <quark:icy_stone_brick_stairs>, <quark:icy_stone_brick_stairs>]);
 recipes.addShapeless("permafrost_brick_slab_block", <contenttweaker:brick_quark_permafrost>, [<quark:icy_stone_brick_slab>, <quark:icy_stone_brick_slab>]);
 recipes.addShapedMirrored("permafrost_brick_stairs", <quark:icy_stone_brick_stairs>*8,[
     [<contenttweaker:brick_quark_permafrost>, null, null],
-	[<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, null],
-	[<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>]
+    [<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, null],
+    [<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>]
 ]);
 recipes.addShapedMirrored("permafrost_brick_stairs_b", <quark:icy_stone_brick_stairs>*4,[
     [<quark:icy_stone_brick_slab>, null, null],
-	[<quark:icy_stone_brick_slab>, <quark:icy_stone_brick_slab>, null],
-	[<quark:icy_stone_brick_slab>, <quark:icy_stone_brick_slab>, <quark:icy_stone_brick_slab>]
+    [<quark:icy_stone_brick_slab>, <quark:icy_stone_brick_slab>, null],
+    [<quark:icy_stone_brick_slab>, <quark:icy_stone_brick_slab>, <quark:icy_stone_brick_slab>]
 ]);
 recipes.addShaped("permafrost_brick_slab", <quark:icy_stone_brick_slab>*6,[
     [<contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>, <contenttweaker:brick_quark_permafrost>]
@@ -2120,19 +2124,19 @@ recipes.remove(<minecraft:stone_slab:4>);
 recipes.remove(<ceramics:clay_wall>);
 recipes.addShaped("clay_brick_wall", <ceramics:clay_wall>*6,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShapeless("clay_brick_stair_block", <contenttweaker:brick_minecraft_clay>*3, [<minecraft:brick_stairs>, <minecraft:brick_stairs>, <minecraft:brick_stairs>, <minecraft:brick_stairs>]);
 recipes.addShapeless("clay_brick_slab_block", <contenttweaker:brick_minecraft_clay>, [<minecraft:stone_slab:4>, <minecraft:stone_slab:4>]);
 recipes.addShapedMirrored("clay_brick_stairs", <minecraft:brick_stairs>*8,[
     [<contenttweaker:brick_minecraft_clay>, null, null],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, null],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, null],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShapedMirrored("clay_brick_stairs_b", <minecraft:brick_stairs>*4,[
     [<minecraft:stone_slab:4>, null, null],
-	[<minecraft:stone_slab:4>, <minecraft:stone_slab:4>, null],
-	[<minecraft:stone_slab:4>, <minecraft:stone_slab:4>, <minecraft:stone_slab:4>]
+    [<minecraft:stone_slab:4>, <minecraft:stone_slab:4>, null],
+    [<minecraft:stone_slab:4>, <minecraft:stone_slab:4>, <minecraft:stone_slab:4>]
 ]);
 recipes.addShaped("clay_brick_slab", <minecraft:stone_slab:4>*6,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
@@ -2159,86 +2163,86 @@ recipes.remove(<randomthings:stainedbrick:15>);
 recipes.remove(<inspirations:path:3>);
 recipes.addShaped("ravaging_bb", <defiledlands:ravaging_decoration:1>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <defiledlands:essence_destroyer>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <defiledlands:essence_destroyer>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("orange_bb", <randomthings:stainedbrick:1>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeOrange>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeOrange>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("magenta_bb", <randomthings:stainedbrick:2>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeMagenta>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeMagenta>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("light_blue_bb", <randomthings:stainedbrick:3>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeLightBlue>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeLightBlue>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("yellow_bb", <randomthings:stainedbrick:4>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeYellow>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeYellow>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("lime_bb", <randomthings:stainedbrick:5>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeLime>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeLime>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("pink_bb", <randomthings:stainedbrick:6>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyePink>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyePink>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("gray_bb", <randomthings:stainedbrick:7>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeGray>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeGray>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("light_gray_bb", <randomthings:stainedbrick:8>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeLightGray>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeLightGray>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("cyan_bb", <randomthings:stainedbrick:9>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeCyan>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeCyan>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("purple_bb", <randomthings:stainedbrick:10>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyePurple>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyePurple>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("blue_bb", <randomthings:stainedbrick:11>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeBlue>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeBlue>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("brown_bb", <randomthings:stainedbrick:12>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeBrown>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeBrown>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("green_bb", <randomthings:stainedbrick:13>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeGreen>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeGreen>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("red_bb", <randomthings:stainedbrick:14>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeRed>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeRed>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("black_bb", <randomthings:stainedbrick:15>*8,[
     [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <ore:dyeBlack>, <contenttweaker:brick_minecraft_clay>],
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <ore:dyeBlack>, <contenttweaker:brick_minecraft_clay>],
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 recipes.addShaped("path_bb", <inspirations:path:3>*4,[
-	[<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
+    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
 ]);
 // sandy brick
 recipes.remove(<quark:sandy_bricks>);
@@ -2250,19 +2254,19 @@ recipes.remove(<quark:sandy_bricks_slab>);
 recipes.addShapeless("sandy_bb", <contenttweaker:brick_quark_sandy>, [<contenttweaker:brick_minecraft_clay>, <minecraft:sand>|<biomesoplenty:dirt:1>|<biomesoplenty:dried_sand>]);
 recipes.addShaped("sandy_brick_wall", <quark:sandy_bricks_wall>*6,[
     [<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>],
-	[<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>]
+    [<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>]
 ]);
 recipes.addShapeless("sandy_brick_stair_block", <contenttweaker:brick_quark_sandy>*3, [<quark:sandy_bricks_stairs>, <quark:sandy_bricks_stairs>, <quark:sandy_bricks_stairs>, <quark:sandy_bricks_stairs>]);
 recipes.addShapeless("sandy_brick_slab_block", <contenttweaker:brick_quark_sandy>, [<quark:sandy_bricks_slab>, <quark:sandy_bricks_slab>]);
 recipes.addShapedMirrored("sandy_brick_stairs", <quark:sandy_bricks_stairs>*8,[
     [<contenttweaker:brick_quark_sandy>, null, null],
-	[<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, null],
-	[<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>]
+    [<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, null],
+    [<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>]
 ]);
 recipes.addShapedMirrored("sandy_brick_stairs_b", <quark:sandy_bricks_stairs>*4,[
     [<quark:sandy_bricks_slab>, null, null],
-	[<quark:sandy_bricks_slab>, <quark:sandy_bricks_slab>, null],
-	[<quark:sandy_bricks_slab>, <quark:sandy_bricks_slab>, <quark:sandy_bricks_slab>]
+    [<quark:sandy_bricks_slab>, <quark:sandy_bricks_slab>, null],
+    [<quark:sandy_bricks_slab>, <quark:sandy_bricks_slab>, <quark:sandy_bricks_slab>]
 ]);
 recipes.addShaped("sandy_brick_slab", <quark:sandy_bricks_slab>*6,[
     [<contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>, <contenttweaker:brick_quark_sandy>]
@@ -2278,30 +2282,30 @@ recipes.remove(<minecraft:nether_brick_stairs>);
 recipes.remove(<minecraft:stone_slab:6>);
 recipes.addShaped("nether_brick_wall", <futuremc:nether_brick_wall>*6,[
     [<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>],
-	[<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>]
+    [<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>]
 ]);
 recipes.addShapeless("nether_brick_stair_block", <contenttweaker:brick_minecraft_nether>*3, [<minecraft:nether_brick_stairs>, <minecraft:nether_brick_stairs>, <minecraft:nether_brick_stairs>, <minecraft:nether_brick_stairs>]);
 recipes.addShapeless("nether_brick_slab_block", <contenttweaker:brick_minecraft_nether>, [<minecraft:stone_slab:6>, <minecraft:stone_slab:6>]);
 recipes.addShapedMirrored("nether_brick_stairs", <minecraft:nether_brick_stairs>*8,[
     [<contenttweaker:brick_minecraft_nether>, null, null],
-	[<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, null],
-	[<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>]
+    [<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, null],
+    [<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>]
 ]);
 recipes.addShapedMirrored("nether_brick_stairs_b", <minecraft:nether_brick_stairs>*4,[
     [<minecraft:stone_slab:6>, null, null],
-	[<minecraft:stone_slab:6>, <minecraft:stone_slab:6>, null],
-	[<minecraft:stone_slab:6>, <minecraft:stone_slab:6>, <minecraft:stone_slab:6>]
+    [<minecraft:stone_slab:6>, <minecraft:stone_slab:6>, null],
+    [<minecraft:stone_slab:6>, <minecraft:stone_slab:6>, <minecraft:stone_slab:6>]
 ]);
 recipes.addShaped("nether_brick_slab", <minecraft:stone_slab:6>*6,[
     [<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>]
 ]);
 recipes.addShaped("nether_brick_fence", <minecraft:nether_brick_fence>*6,[
     [<contenttweaker:brick_minecraft_nether>, <minecraft:stone_slab:6>, <contenttweaker:brick_minecraft_nether>],
-	[<contenttweaker:brick_minecraft_nether>, <minecraft:stone_slab:6>, <contenttweaker:brick_minecraft_nether>]
+    [<contenttweaker:brick_minecraft_nether>, <minecraft:stone_slab:6>, <contenttweaker:brick_minecraft_nether>]
 ]);
 recipes.addShaped("nether_brick_fence_gate", <netherex:nether_brick_fence_gate>*6,[
     [<minecraft:stone_slab:6>, <contenttweaker:brick_minecraft_nether>, <minecraft:stone_slab:6>],
-	[<minecraft:stone_slab:6>, <contenttweaker:brick_minecraft_nether>, <minecraft:stone_slab:6>]
+    [<minecraft:stone_slab:6>, <contenttweaker:brick_minecraft_nether>, <minecraft:stone_slab:6>]
 ]);
 recipes.remove(<betternether:cincinnasite_forge>);
 recipes.remove(<betternether:cincinnasite_bricks>);
@@ -2310,23 +2314,23 @@ recipes.remove(<quark:charred_nether_bricks>);
 recipes.remove(<netherchest:nether_chest>);
 recipes.addShaped("cincinnasite_forge", <betternether:cincinnasite_forge>,[
     [<contenttweaker:brick_minecraft_nether>, <betternether:cincinnasite_forged>, <contenttweaker:brick_minecraft_nether>],
-	[<betternether:cincinnasite_forged>, <minecraft:fire_charge>, <betternether:cincinnasite_forged>],
-	[<contenttweaker:brick_minecraft_nether>, <betternether:cincinnasite_forged>, <contenttweaker:brick_minecraft_nether>]
+    [<betternether:cincinnasite_forged>, <minecraft:fire_charge>, <betternether:cincinnasite_forged>],
+    [<contenttweaker:brick_minecraft_nether>, <betternether:cincinnasite_forged>, <contenttweaker:brick_minecraft_nether>]
 ]);
 recipes.addShaped("cincinnasite_bricks", <betternether:cincinnasite_bricks>*4,[
     [<betternether:cincinnasite_forged>, <contenttweaker:brick_minecraft_nether>],
-	[<contenttweaker:brick_minecraft_nether>, <betternether:cincinnasite_forged>]
+    [<contenttweaker:brick_minecraft_nether>, <betternether:cincinnasite_forged>]
 ]);
 recipes.addShaped("cincinnasite_brick_plate", <betternether:cincinnasite_brick_plate>*5,[
     [null, <betternether:cincinnasite_forged>, null],
-	[<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>],
-	[null, <betternether:cincinnasite_forged>, null]
+    [<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>],
+    [null, <betternether:cincinnasite_forged>, null]
 ]);
 recipes.addShapeless("charred_nether_bricks", <quark:charred_nether_bricks>*3, [<contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <contenttweaker:brick_minecraft_nether>, <minecraft:fire_charge>]);
 recipes.addShaped("nether_chest", <netherchest:nether_chest>,[
     [<dungeontactics:steel_ingot>, <contenttweaker:brick_minecraft_nether>, <dungeontactics:steel_ingot>],
-	[<contenttweaker:brick_minecraft_nether>, <ore:shardObsidian>, <contenttweaker:brick_minecraft_nether>],
-	[<dungeontactics:steel_ingot>, <contenttweaker:brick_minecraft_nether>, <dungeontactics:steel_ingot>]
+    [<contenttweaker:brick_minecraft_nether>, <ore:shardObsidian>, <contenttweaker:brick_minecraft_nether>],
+    [<dungeontactics:steel_ingot>, <contenttweaker:brick_minecraft_nether>, <dungeontactics:steel_ingot>]
 ]);
 // fiery brick
 recipes.remove(<netherex:fiery_nether_brick>);
@@ -2339,30 +2343,30 @@ recipes.remove(<netherex:fiery_nether_brick_stairs>);
 recipes.remove(<netherex:fiery_nether_brick_slab>);
 recipes.addShaped("fiery_brick_wall", <netherex:fiery_nether_brick_wall>*6,[
     [<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>],
-	[<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>]
+    [<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>]
 ]);
 recipes.addShapeless("fiery_brick_stair_block", <contenttweaker:brick_netherex_fiery>*3, [<netherex:fiery_nether_brick_stairs>, <netherex:fiery_nether_brick_stairs>, <netherex:fiery_nether_brick_stairs>, <netherex:fiery_nether_brick_stairs>]);
 recipes.addShapeless("fiery_brick_slab_block", <contenttweaker:brick_netherex_fiery>, [<netherex:fiery_nether_brick_slab>, <netherex:fiery_nether_brick_slab>]);
 recipes.addShapedMirrored("fiery_brick_stairs", <netherex:fiery_nether_brick_stairs>*8,[
     [<contenttweaker:brick_netherex_fiery>, null, null],
-	[<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, null],
-	[<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>]
+    [<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, null],
+    [<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>]
 ]);
 recipes.addShapedMirrored("fiery_brick_stairs_b", <netherex:fiery_nether_brick_stairs>*4,[
     [<netherex:fiery_nether_brick_slab>, null, null],
-	[<netherex:fiery_nether_brick_slab>, <netherex:fiery_nether_brick_slab>, null],
-	[<netherex:fiery_nether_brick_slab>, <netherex:fiery_nether_brick_slab>, <netherex:fiery_nether_brick_slab>]
+    [<netherex:fiery_nether_brick_slab>, <netherex:fiery_nether_brick_slab>, null],
+    [<netherex:fiery_nether_brick_slab>, <netherex:fiery_nether_brick_slab>, <netherex:fiery_nether_brick_slab>]
 ]);
 recipes.addShaped("fiery_brick_slab", <netherex:fiery_nether_brick_slab>*6,[
     [<contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>, <contenttweaker:brick_netherex_fiery>]
 ]);
 recipes.addShaped("fiery_brick_fence", <netherex:fiery_nether_brick_fence>*6,[
     [<contenttweaker:brick_netherex_fiery>, <netherex:fiery_nether_brick_slab>, <contenttweaker:brick_netherex_fiery>],
-	[<contenttweaker:brick_netherex_fiery>, <netherex:fiery_nether_brick_slab>, <contenttweaker:brick_netherex_fiery>]
+    [<contenttweaker:brick_netherex_fiery>, <netherex:fiery_nether_brick_slab>, <contenttweaker:brick_netherex_fiery>]
 ]);
 recipes.addShaped("fiery_brick_fence_gate", <netherex:fiery_nether_brick_fence_gate>*6,[
     [<netherex:fiery_nether_brick_slab>, <contenttweaker:brick_netherex_fiery>, <netherex:fiery_nether_brick_slab>],
-	[<netherex:fiery_nether_brick_slab>, <contenttweaker:brick_netherex_fiery>, <netherex:fiery_nether_brick_slab>]
+    [<netherex:fiery_nether_brick_slab>, <contenttweaker:brick_netherex_fiery>, <netherex:fiery_nether_brick_slab>]
 ]);
 // end brick
 recipes.remove(<minecraft:end_bricks>);
@@ -2373,19 +2377,19 @@ recipes.remove(<endreborn:e_end_bricks_stairs>);
 recipes.remove(<quark:end_bricks_slab>);
 recipes.addShaped("end_brick_wall", <futuremc:end_stone_brick_wall>*6,[
     [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>],
-	[<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
+    [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
 ]);
 recipes.addShapeless("end_brick_stair_block", <contenttweaker:brick_minecraft_end>*3, [<endreborn:e_end_bricks_stairs>, <endreborn:e_end_bricks_stairs>, <endreborn:e_end_bricks_stairs>, <endreborn:e_end_bricks_stairs>]);
 recipes.addShapeless("end_brick_slab_block", <contenttweaker:brick_minecraft_end>, [<ceramics:clay_slab>, <ceramics:clay_slab>]);
 recipes.addShapedMirrored("end_brick_stairs", <endreborn:e_end_bricks_stairs>*8,[
     [<contenttweaker:brick_minecraft_end>, null, null],
-	[<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, null],
-	[<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
+    [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, null],
+    [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
 ]);
 recipes.addShapedMirrored("end_brick_stairs_b", <endreborn:e_end_bricks_stairs>*4,[
     [<ceramics:clay_slab>, null, null],
-	[<ceramics:clay_slab>, <ceramics:clay_slab>, null],
-	[<ceramics:clay_slab>, <ceramics:clay_slab>, <ceramics:clay_slab>]
+    [<ceramics:clay_slab>, <ceramics:clay_slab>, null],
+    [<ceramics:clay_slab>, <ceramics:clay_slab>, <ceramics:clay_slab>]
 ]);
 recipes.addShaped("end_brick_brick_slab", <ceramics:clay_slab>*6,[
     [<contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>, <contenttweaker:brick_minecraft_end>]
@@ -2400,19 +2404,19 @@ recipes.remove(<ceramics:porcelain_bricks_stairs>);
 recipes.remove(<ceramics:clay_slab>);
 recipes.addShaped("porcelain_brick_wall", <ceramics:clay_wall:1>*6,[
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>],
-	[<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
+    [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
 ]);
 recipes.addShapeless("porcelain_brick_stair_block", <contenttweaker:brick_ceramics_porcelain>*3, [<ceramics:porcelain_bricks_stairs>, <ceramics:porcelain_bricks_stairs>, <ceramics:porcelain_bricks_stairs>, <ceramics:porcelain_bricks_stairs>]);
 recipes.addShapeless("porcelain_brick_slab_block", <contenttweaker:brick_ceramics_porcelain>, [<ceramics:clay_slab>, <ceramics:clay_slab>]);
 recipes.addShapedMirrored("porcelain_brick_stairs", <ceramics:porcelain_bricks_stairs>*8,[
     [<contenttweaker:brick_ceramics_porcelain>, null, null],
-	[<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, null],
-	[<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
+    [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, null],
+    [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
 ]);
 recipes.addShapedMirrored("porcelain_brick_stairs_b", <ceramics:porcelain_bricks_stairs>*4,[
     [<ceramics:clay_slab>, null, null],
-	[<ceramics:clay_slab>, <ceramics:clay_slab>, null],
-	[<ceramics:clay_slab>, <ceramics:clay_slab>, <ceramics:clay_slab>]
+    [<ceramics:clay_slab>, <ceramics:clay_slab>, null],
+    [<ceramics:clay_slab>, <ceramics:clay_slab>, <ceramics:clay_slab>]
 ]);
 recipes.addShaped("porcelain_brick_brick_slab", <ceramics:clay_slab>*6,[
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
@@ -2421,13 +2425,13 @@ recipes.remove(<ceramics:clay_hard:6>);
 recipes.remove(<ceramics:clay_hard:3>);
 recipes.addShapedMirrored("rainbow_bb", <ceramics:clay_hard:6>*8,[
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>],
-	[<contenttweaker:brick_ceramics_porcelain>, <primitivemobs:camouflage_dye>, <contenttweaker:brick_ceramics_porcelain>],
-	[<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
+    [<contenttweaker:brick_ceramics_porcelain>, <primitivemobs:camouflage_dye>, <contenttweaker:brick_ceramics_porcelain>],
+    [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
 ]);
 recipes.addShapedMirrored("golden_bb", <ceramics:clay_hard:3>*8,[
     [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>],
-	[<contenttweaker:brick_ceramics_porcelain>, <ore:nuggetGold>, <contenttweaker:brick_ceramics_porcelain>],
-	[<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
+    [<contenttweaker:brick_ceramics_porcelain>, <ore:nuggetGold>, <contenttweaker:brick_ceramics_porcelain>],
+    [<contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>, <contenttweaker:brick_ceramics_porcelain>]
 ]);
 ////////////////////////////////////// End of the temporary brick recipes.
 

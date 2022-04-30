@@ -17,7 +17,7 @@
         rotn_blocks:cave_moss
       ]
       count: 3
-      chance: 0.50
+      chance: 0.5
     }
     {
       name: dense_redstone_2
