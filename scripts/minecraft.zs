@@ -13,6 +13,17 @@ import mods.betterwithmods.MiniBlocks;
 // brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 // brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
+// Explosive stuff
+
+recipes.remove(<minecraft:tnt>);
+recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>]);
+recipes.addShapeless("dynamite_tnt",<betterwithmods:dynamite_bundle>*4,[<minecraft:tnt>]);
+recipes.remove(<quark:arrow_explosive>);
+recipes.addShapeless("explosive_arrows",<quark:arrow_explosive>*8,[<minecraft:arrow>*8,<betterwithmods:mining_charge>]);
+
+recipes.remove(<spartanweaponry:arrow_explosive>);
+JEI.removeAndHide(<spartanweaponry:arrow_explosive>);
+
 recipes.remove(<minecraft:minecart>);
 recipes.addShaped("minecart", <minecraft:minecart>, [
     [null, null, null],
@@ -429,9 +440,6 @@ recipes.removeByRecipeName("minecraft:bone_meal_from_block");
 recipes.removeByRecipeName("minecraft:granite");
 recipes.removeByRecipeName("minecraft:diorite");
 recipes.removeByRecipeName("minecraft:andesite");
-
-recipes.remove(<minecraft:tnt>);
-recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <ore:glue> ]);
 
 recipes.removeByRecipeName("quark:color_slime_1");
 recipes.removeByRecipeName("quark:color_slime");
