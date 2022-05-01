@@ -77,7 +77,7 @@
         " JJ"
       ],
       [
-        "KF ",
+        "KFL",
         " @G",
         " HG",
         " IJ"
@@ -172,6 +172,14 @@
         "type": "capability",
         "io": "IN"
       },
+      "pipe": {
+        "blocks": [
+          {
+            "id": "quark:pipe"
+          }
+        ],
+        "type": "blocks"
+      },
       "any": {
         "type": "any"
       },
@@ -224,6 +232,9 @@
       ],
       "K": [
         "outputs"
+      ],
+      "L": [
+        "pipe"
       ]
     }
   },

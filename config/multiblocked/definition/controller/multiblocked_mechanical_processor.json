@@ -87,7 +87,7 @@
       ],
       [
         "JCI",
-        "DE ",
+        "DEK",
         " @B",
         " FB",
         " GB"
@@ -150,6 +150,9 @@
         ],
         "type": "states"
       },
+      "any": {
+        "type": "any"
+      },
       "itemout": {
         "capability": "item",
         "type": "capability",
@@ -159,6 +162,14 @@
         "capability": "fluid",
         "type": "capability",
         "io": "IN"
+      },
+      "pipe": {
+        "blocks": [
+          {
+            "id": "quark:pipe"
+          }
+        ],
+        "type": "blocks"
       },
       "gearbox": {
         "blocks": [
@@ -175,9 +186,6 @@
           }
         ],
         "type": "blocks"
-      },
-      "any": {
-        "type": "any"
       },
       "axle": {
         "blocks": [
@@ -226,6 +234,9 @@
       ],
       "J": [
         "outfluid"
+      ],
+      "K": [
+        "pipe"
       ]
     }
   },

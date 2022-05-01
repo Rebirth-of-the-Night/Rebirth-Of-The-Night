@@ -269,14 +269,6 @@
         ],
         "type": "states"
       },
-      "lever": {
-        "blocks": [
-          {
-            "id": "minecraft:lever"
-          }
-        ],
-        "type": "blocks"
-      },
       "any": {
         "type": "any"
       },
@@ -296,7 +288,8 @@
             "id": "dungeontactics:fan_block"
           }
         ],
-        "type": "blocks"
+        "type": "blocks",
+        "nbtParser": "1b"
       }
     },
     "symbolMap": {
@@ -335,7 +328,6 @@
         "I"
       ],
       "J": [
-        "lever",
         "any"
       ]
     }

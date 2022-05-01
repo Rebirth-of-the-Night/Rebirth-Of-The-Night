@@ -322,7 +322,8 @@
             "id": "contenttweaker:viridea"
           }
         ],
-        "type": "blocks"
+        "type": "blocks",
+        "disableRenderFormed": true
       },
       "viridiumbrick": {
         "blocks": [
