@@ -119,7 +119,7 @@ Dropt.list("bop_honeycomb_block")
       )
   );
 
-Dropt.list("bop_filled_honeycomb_block")
+/*Dropt.list("bop_filled_honeycomb_block")
 
   .add(Dropt.rule()
       .matchBlocks(["biomesoplenty:hive:3"])
@@ -127,7 +127,7 @@ Dropt.list("bop_filled_honeycomb_block")
           .items([<rustic:honeycomb>], Dropt.range(4, 6))
       )
   );
-
+*/
 Dropt.list("magic_lantern")
 
   .add(Dropt.rule()
