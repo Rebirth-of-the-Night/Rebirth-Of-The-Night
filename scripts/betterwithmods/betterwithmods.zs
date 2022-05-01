@@ -572,11 +572,6 @@ Cauldron.remove([<betterwithmods:material:32>]); // remove default BWM bark-cut 
 Cauldron.addUnstoked([<ore:barkWood>*4,<betterwithmods:material:33>*2],[<betterwithmods:material:32>*2]); // tanned cut leather
 Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmods:material:32>*2]);
 
-JEI.removeAndHide(<betterwithmods:wool_boots>);
-JEI.removeAndHide(<betterwithmods:wool_chest>);
-JEI.removeAndHide(<betterwithmods:wool_helmet>);
-JEI.removeAndHide(<betterwithmods:wool_pants>);
-
 recipes.remove(<betterwithmods:material:45>); // diamond ingot
 
 

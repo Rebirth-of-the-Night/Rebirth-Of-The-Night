@@ -21,6 +21,9 @@ recipes.addShapeless("dynamite_tnt",<betterwithmods:dynamite_bundle>*4,[<minecra
 recipes.remove(<quark:arrow_explosive>);
 recipes.addShapeless("explosive_arrows",<quark:arrow_explosive>*8,[<minecraft:arrow>*8,<betterwithmods:mining_charge>]);
 
+// COSMETICS WOO!!!
+
+
 recipes.remove(<spartanweaponry:arrow_explosive>);
 JEI.removeAndHide(<spartanweaponry:arrow_explosive>);
 

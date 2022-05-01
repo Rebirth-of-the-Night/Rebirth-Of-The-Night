@@ -141,3 +141,14 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 [<endreborn:item_angel_feather>, <contenttweaker:soul_rune>, <endreborn:item_angel_feather>],
 [<endreborn:item_angel_feather>, <contenttweaker:life_rune>, <endreborn:item_angel_feather>]
 ]);
+
+//Dev armor
+<betterwithmods:wool_helmet>.addTooltip(format.aqua("Rename to a developer's IGN to get their headpiece item!"));
+<betterwithmods:wool_chest>.addTooltip(format.aqua("Rename to a developer's IGN to get their chestpiece item!"));
+<betterwithmods:wool_pants>.addTooltip(format.aqua("Rename to a developer's IGN to get their legpiece item!"));
+<betterwithmods:wool_boots>.addTooltip(format.aqua("Rename to a developer's IGN to get their footpiece item!"));
+
+<betterwithmods:wool_helmet>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.orange("WARNING: Severe brain damage detected."));
+<betterwithmods:wool_chest>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.orange("Hello everyone, this is TheNelston, welcome back to another video..."));
+<betterwithmods:wool_pants>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.orange("Why is there a brown stain on the back?"));
+<betterwithmods:wool_boots>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.orange("动态网自由门 天安門 天安门 法輪功 李洪志 Free Tibet 六四天安門事件 The Tiananmen Square protests of 1989 天安門大屠殺 The Tiananmen Square [REDACTED]"));
