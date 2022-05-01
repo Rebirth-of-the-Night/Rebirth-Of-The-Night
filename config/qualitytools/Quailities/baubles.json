@@ -150,7 +150,7 @@
     "attributes": [
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       }
     ]
@@ -635,7 +635,7 @@
     "attributes": [
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       },
       {
@@ -652,7 +652,7 @@
     "attributes": [
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       },
       {
@@ -669,7 +669,7 @@
     "attributes": [
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       },
       {
@@ -686,7 +686,7 @@
     "attributes": [
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       },
       {
@@ -832,7 +832,7 @@
       },
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       },
       {
@@ -969,7 +969,7 @@
       },
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       }
     ]
@@ -1255,7 +1255,7 @@
       },
       {
         "name": "potioncore.stepHeight",
-        "amount": 0.1,
+        "amount": 0.25,
         "operation": 0
       }
     ]

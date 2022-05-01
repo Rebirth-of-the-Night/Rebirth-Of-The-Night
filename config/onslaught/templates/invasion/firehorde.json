@@ -66,6 +66,24 @@
                 }
               },
               {
+                "id": "fireskel",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              },
+              {
                 "id": "firezombie.miner",
                 "count": [ 4, 5 ],
                 "spawn": {
@@ -313,24 +331,6 @@
                 }
               },
               {
-                "id": "firezombie.stalker",
-                "count": [ 8, 10 ],
-                "spawn": {
-                  "type": "ground",
-                  "light": [
-                    0,
-                    7
-                  ],
-                  "rangeXZ": [
-                    16,
-                    32
-                  ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
-                  "sampleDistance": 2
-                }
-              },
-              {
                 "id": "firezombie.bomber",
                 "count": [ 3, 4 ],
                 "spawn": {
@@ -413,7 +413,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 5, 7 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -534,7 +534,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 5, 7 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -633,7 +633,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 5, 7 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -750,7 +750,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 5, 7 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -984,7 +984,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 5, 7 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
