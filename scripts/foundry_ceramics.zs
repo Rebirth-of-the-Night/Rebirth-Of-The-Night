@@ -48,9 +48,9 @@ Heating.addStateSource(<blockstate:betterwithmods:creative_generator>, 2500);
 
 // burner heater fuel
 BurnerHeater.clear();
-BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1600*100);
-BurnerHeater.addFuel(<betterwithmods:aesthetic:13>, 2800, 1800*100);
-BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2500*100);
+BurnerHeater.addFuel(<pyrotech:coal_coke_block>, 3200, 1700*100);
+BurnerHeater.addFuel(<betterwithmods:aesthetic:13>, 2800, 1900*100);
+BurnerHeater.addFuel(<contenttweaker:charmpeat>, 800, 2600*100);
 
 //recipes
 val porcelain_bricks = <contenttweaker:brick_ceramics_porcelain>;
@@ -278,10 +278,32 @@ Melting.addRecipe(<liquid:viridium>*(144*9), <contenttweaker:lunarinviridiumbric
 Melting.addRecipe(<liquid:viridium>*16, <ore:nuggetViridium>, 2500);
 Melting.addRecipe(<liquid:ambrosium>*144, <ore:gemAmbrosium>, 300);
 Melting.addRecipe(<liquid:ambrosium>*(144*9), <aether_legacy:ambrosium_block>, 300);
-Melting.addRecipe(<liquid:mythril>*192, <ore:oreMythril>, 2500);
-Melting.addRecipe(<liquid:viridium>*192, <ore:oreViridium>, 2500);
 Melting.addRecipe(<liquid:mythril>*192, <ore:rawOreMythril>, 2500);
 Melting.addRecipe(<liquid:viridium>*192, <ore:rawOreViridium>, 2500);
+Melting.addRecipe(<liquid:iron>*192, <ore:rawOreIron>, 1550);
+Melting.addRecipe(<liquid:tin>*192, <ore:rawOreTin>, 1550);
+Melting.addRecipe(<liquid:zinc>*192, <pyrotech:rock:3>, 1550);
+Melting.addRecipe(<liquid:copper>*192, <ore:rawOreCopper>, 1550);
+Melting.addRecipe(<liquid:gold>*192, <ore:rawOreGold>, 1750);
+Melting.addRecipe(<liquid:silver>*192, <ore:rawOreSilver>, 1750);
+Melting.addRecipe(<liquid:gravitite>*192, <ore:rawOreGravitite>, 1750);
+
+Melting.addRecipe(<liquid:iron>*144, <ore:ingotIron>, 1550);
+Melting.addRecipe(<liquid:tin>*144, <ore:ingotTin>, 1550);
+Melting.addRecipe(<liquid:zinc>*144, <ore:ingotZinc>, 1550);
+Melting.addRecipe(<liquid:copper>*144, <ore:ingotCopper>, 1550);
+Melting.addRecipe(<liquid:gold>*144, <ore:ingotGold>, 1750);
+Melting.addRecipe(<liquid:silver>*144, <ore:ingotSilver>, 1750);
+Melting.addRecipe(<liquid:gravitite>*144, <ore:ingotGravitite>, 1750);
+
+Melting.addRecipe(<liquid:iron>*16, <ore:nuggetIron>, 1550);
+Melting.addRecipe(<liquid:tin>*16, <ore:nuggetTin>, 1550);
+Melting.addRecipe(<liquid:zinc>*16, <ore:nuggetZinc>, 1550);
+Melting.addRecipe(<liquid:copper>*16, <ore:nuggetCopper>, 1550);
+Melting.addRecipe(<liquid:gold>*16, <ore:nuggetGold>, 1750);
+Melting.addRecipe(<liquid:silver>*16, <ore:nuggetSilver>, 1750);
+Melting.addRecipe(<liquid:gravitite>*16, <ore:nuggetGravitite>, 1750);
+
 
 Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450); // miscellaneous melting
 Melting.addRecipe(<liquid:blood>*48, <charm:rotten_flesh_block>, 1300);
@@ -295,6 +317,12 @@ Melting.addRecipe(<liquid:steel>*144, <ore:dustCrucibleSteel>, 1800);
 Melting.addRecipe(<liquid:mythril>*144, <ore:dustMythril>, 2500);
 Melting.addRecipe(<liquid:viridium>*144, <ore:dustViridium>, 2500);
 Melting.addRecipe(<liquid:ambrosium>*144, <ore:dustAmbrosium>, 300);
+
+// Deprecated
+/*Melting.addRecipe(<liquid:mythril>*192, <ore:oreMythril>, 2500);
+Melting.addRecipe(<liquid:viridium>*192, <ore:oreViridium>, 2500);
+
+*/
 
 Melting.removeRecipe(<dungeontactics:steel_dust>);
 Melting.removeRecipe(<dungeontactics:steel_tinydust>);
@@ -861,6 +889,7 @@ CastingTable.addBlockRecipe(<aether_legacy:ambrosium_block>, <liquid:ambrosium>*
 CastingTable.addIngotRecipe(<simpleores:adamantium_ingot>, <liquid:viridium>*144);
 CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:mythril>*144);
 CastingTable.addIngotRecipe(<simpleores:mythril_ingot>, <liquid:residual_mythril>*9000);
+CastingTable.addIngotRecipe(<ore:ingotZinc>.firstItem, <liquid:zinc>*144);
 CastingTable.addIngotRecipe(<ore:ingotElectrum>.firstItem, <liquid:electrum>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soulforged_steel>*144);
 CastingTable.addIngotRecipe(<contenttweaker:masonry_brick>, <liquid:coade_stone>*144);
