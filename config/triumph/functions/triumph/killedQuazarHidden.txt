@@ -7,3 +7,4 @@ gamestage silentadd @p killedQuazar
 gamestage silentremove @a start
 give @p scalinghealth:crystalshard 4
 playsound minecraft:ambient.cave ambient @p ~ ~ ~ 100 0.5
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

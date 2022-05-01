@@ -2,3 +2,4 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p killedUndertaker
 tellraw @p ["",{"text":"A font of soulful magick releases from the undertaker.","color":"blue","italic":true}]
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

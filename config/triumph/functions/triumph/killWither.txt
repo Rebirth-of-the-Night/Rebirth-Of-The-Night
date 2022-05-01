@@ -5,3 +5,4 @@ title @a[r=50] subtitle {"text":"Voices of lost souls scream in fury...", "color
 title @a[r=50] title {"text":"Rebirth of the Nether", "bold":false, "italic":true, "color":"red"}
 playsound minecraft:entity.wither.hurt ambient @a[r=50] ~ ~ ~ 0.8 0.5
 gamestage silentadd @a[r=50] killedWither
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

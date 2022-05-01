@@ -8,3 +8,4 @@ gamestage silentadd @p killedHarvester
 nyxforce harvest_moon
 tellraw @p ["",{"text":"The next night will bring a bountiful harvest.","color":"blue","italic":true}]
 give @p scalinghealth:crystalshard 2
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

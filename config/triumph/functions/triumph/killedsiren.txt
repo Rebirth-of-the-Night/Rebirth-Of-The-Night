@@ -2,3 +2,4 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p killedSiren
 tellraw @p ["",{"text":"A font of illusionary magick releases from the siren.","color":"blue","italic":true}]
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

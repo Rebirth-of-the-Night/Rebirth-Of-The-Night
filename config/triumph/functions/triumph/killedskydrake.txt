@@ -2,3 +2,4 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p killedSkydrake
 tellraw @p ["",{"text":"A font of poisonous magick releases from the skydrake.","color":"blue","italic":true}]
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

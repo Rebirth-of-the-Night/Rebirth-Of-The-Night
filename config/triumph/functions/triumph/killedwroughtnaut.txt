@@ -2,3 +2,4 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p killedWroughtnaut
 tellraw @p ["",{"text":"A font of mind-touching magick releases from the wraughtnaut.","color":"blue","italic":true}]
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

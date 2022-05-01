@@ -2,3 +2,4 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p killedMyrmexQueen
 tellraw @p ["",{"text":"A font of ordered magick releases from the myrmex queen.","color":"blue","italic":true}]
+tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}
