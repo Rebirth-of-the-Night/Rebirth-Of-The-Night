@@ -151,4 +151,4 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 <betterwithmods:wool_helmet:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("WARNING: Severe brain damage detected."));
 <betterwithmods:wool_chest:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("Hello everyone, this is TheNelston, welcome back to another video..."));
 <betterwithmods:wool_pants:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("Why is there a brown stain on the back?"));
-<betterwithmods:wool_boots:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("动态网自由门 天安門 天安门 法輪功 李洪志 Free Tibet 六四天安門事件 The Tiananmen Square protests of 1989 天安門大屠殺 The Tiananmen Square [REDACTED]"));
+<betterwithmods:wool_boots:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("动态网自由门 天安門 天安门 法輪功 李洪志 free bobby shmurda 六四天安門事件 The Tiananmen [REDACTED]"));

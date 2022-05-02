@@ -58,6 +58,9 @@ JEI.removeAndHide(<rotm:debug_potions>);
 JEI.removeAndHide(<redstoneplusplus:dummy_clock>);
 JEI.removeAndHide(<redstoneplusplus:dummy_clock_hover>);
 
+// Glass Conversion
+recipes.addShapeless("glass_conversion",<minecraft:glass>, [<ore:blockGlass>]);
+
 // Contenttweaker icons
 JEI.removeAndHide(<contenttweaker:info>);
 JEI.removeAndHide(<contenttweaker:four_gem_ingots>);
