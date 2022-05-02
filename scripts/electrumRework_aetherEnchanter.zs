@@ -528,7 +528,7 @@ Enchanter.registerEnchantment(<endreborn:tool_magnifier>, 12000);
 Enchanter.registerEnchantment(<endreborn:ender_bow>, 12000);
 Enchanter.registerEnchantment(<endreborn:entropy_wand>, 12000);
 
-//Wither bone and Frosted Amedian
+//Wither bone, Molten, and Frosted Amedian
 Enchanter.registerEnchantment(<netherex:wither_bone_helmet>, 7700);
 Enchanter.registerEnchantment(<netherex:wither_bone_chestplate>, 7700);
 Enchanter.registerEnchantment(<netherex:wither_bone_leggings>, 7700);
@@ -539,6 +539,11 @@ Enchanter.registerEnchantment(<netherex:frosted_amedian_axe>, 9600);
 Enchanter.registerEnchantment(<netherex:frosted_amedian_shovel>, 9600);
 Enchanter.registerEnchantment(<netherex:frosted_amedian_hoe>, 9600);
 Enchanter.registerEnchantment(<netherex:frosted_amedian_sword>, 9600);
+
+Enchanter.registerEnchantment(<mod_lavacow:felarmor_helmet>, 7700);
+Enchanter.registerEnchantment(<mod_lavacow:felarmor_chestplate>, 7700);
+Enchanter.registerEnchantment(<mod_lavacow:felarmor_leggings>, 7700);
+Enchanter.registerEnchantment(<mod_lavacow:felarmor_boots>, 7700);
 
 //Ironroot
 Enchanter.registerEnchantment(<twilightforest:ironwood_helmet>, 5300);
