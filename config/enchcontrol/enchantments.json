@@ -2533,7 +2533,7 @@
   {
     "id": "minecraft:sharpness",
     "name": "enchantment.damage.all",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "COMMON",
