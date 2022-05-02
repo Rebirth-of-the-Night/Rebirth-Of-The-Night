@@ -574,11 +574,6 @@ Cauldron.addUnstoked([<ore:dung>,<betterwithmods:material:33>*2],[<betterwithmod
 
 recipes.remove(<betterwithmods:material:45>); // diamond ingot
 
-JEI.removeAndHide(<betterwithmods:wool_helmet>);
-JEI.removeAndHide(<betterwithmods:wool_chest>);
-JEI.removeAndHide(<betterwithmods:wool_pants>);
-JEI.removeAndHide(<betterwithmods:wool_boots>);
-
 recipes.addShapeless("Hemp Fibers", <betterwithmods:material:3>*3,[<betterwithmods:material:2>,<betterwithmods:material:2>]);
 recipes.addShapeless("Hemp Seeds", <betterwithmods:hemp>,[<ore:cropHemp>]);
 

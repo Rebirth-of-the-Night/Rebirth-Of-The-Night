@@ -18,44 +18,28 @@
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra"],
 		"player": false,
-		"item": "minecraft:leather_helmet",
-		"nbt": {
-			"Lore": ["Rename to a developer's IGN to get their headwear item!"], 
-			"Name": "Developer Helmet"
-			},
+		"item": "betterwithmods:wool_helmet",
 		"itemcount": "1",
 		"random": "0.25"
 	},
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra"],
 		"player": false,
-		"item": "minecraft:leather_chestplate",
-		"nbt": {
-			"Lore": ["Rename to a developer's IGN to get their bodywear item!"], 
-			"Name": "Developer Chestplate"
-			},
+		"item": "betterwithmods:wool_chest",
 		"itemcount": "1",
 		"random": "0.25"
 	},
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra"],
 		"player": false,
-		"item": "minecraft:leather_leggings",
-		"nbt": {
-			"Lore": ["Rename to a developer's IGN to get their legwear item!"], 
-			"Name": "Developer Leggings"
-			},
+		"item": "betterwithmods:wool_pants",
 		"itemcount": "1",
 		"random": "0.25"
 	},
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra"],
 		"player": false,
-		"item": "minecraft:leather_boots",
-		"nbt": {
-			"Lore": ["Rename to a developer's IGN to get their footwear item!"], 
-			"Name": "Developer Boots"
-			},
+		"item": "betterwithmods:wool_boots",
 		"itemcount": "1",
 		"random": "0.25"
 	},

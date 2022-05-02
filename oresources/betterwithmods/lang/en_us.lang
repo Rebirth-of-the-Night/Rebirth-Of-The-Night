@@ -10,10 +10,10 @@ tile.bwm:bucket.name=Robust Fluid Container
 item.bwm:material.hemp_fibers.name=Durable Fibers
 item.bwm:material.hemp_cloth.name=Durable Cloth
 
-item.bwm:wool_helmet.name=Wool Helmet
-item.bwm:wool_chest.name=Wool Chestplate
-item.bwm:wool_pants.name=Wool Leggings
-item.bwm:wool_boots.name=Wool Boots
+item.bwm:wool_helmet.name=Incomplete Developer Helmet
+item.bwm:wool_chest.name=Incomplete Developer Chestplate
+item.bwm:wool_pants.name=Incomplete Developer Leggings
+item.bwm:wool_boots.name=Incomplete Developer Boots
 
 tile.bwm:aesthetic.0.name=Stone Chopping Block
 tile.bwm:aesthetic.1.name=Bloodied Stone Chopping Block
