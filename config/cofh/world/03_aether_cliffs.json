@@ -92,6 +92,12 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": "biometweaker:aether_cliffs"
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4
+				]
 			}
 		}
 	}
