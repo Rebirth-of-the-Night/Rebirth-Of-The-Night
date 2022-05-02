@@ -61,6 +61,13 @@ JEI.removeAndHide(<redstoneplusplus:dummy_clock_hover>);
 // Glass Conversion
 recipes.addShapeless("glass_conversion",<minecraft:glass>, [<ore:blockGlass>]);
 
+// Invis potion shenanigans
+recipes.remove(<minecraft:potion>.withTag({Potion: "minecraft:invisibility"}));
+recipes.remove(<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}));
+JEI.removeAndHide(<minecraft:potion>.withTag({Potion: "minecraft:invisibility"}));
+JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisibility"}));
+
+
 // Contenttweaker icons
 JEI.removeAndHide(<contenttweaker:info>);
 JEI.removeAndHide(<contenttweaker:four_gem_ingots>);
