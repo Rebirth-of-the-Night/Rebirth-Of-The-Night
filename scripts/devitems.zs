@@ -143,12 +143,7 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 ]);
 
 //Dev armor
-<betterwithmods:wool_helmet:*>.addTooltip(format.aqua("Rename to a developer's IGN to get their headpiece item!"));
-<betterwithmods:wool_chest:*>.addTooltip(format.aqua("Rename to a developer's IGN to get their chestpiece item!"));
-<betterwithmods:wool_pants:*>.addTooltip(format.aqua("Rename to a developer's IGN to get their legpiece item!"));
-<betterwithmods:wool_boots:*>.addTooltip(format.aqua("Rename to a developer's IGN to get their footpiece item!"));
-
-<betterwithmods:wool_helmet:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("WARNING: Severe brain damage detected."));
-<betterwithmods:wool_chest:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("Hello everyone, this is TheNelston, welcome back to another video..."));
-<betterwithmods:wool_pants:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("Why is there a brown stain on the back?"));
-<betterwithmods:wool_boots:*>.withTag({display: {Name: "TheNelston"}}).addTooltip(format.gold("动态网自由门 天安門 天安门 法輪功 李洪志 free bobby shmurda 六四天安門事件 The Tiananmen [REDACTED]"));
+<minecraft:leather_helmet:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their headwear item!"], Name: "TheNelston"}}).addTooltip(format.gold("WARNING: Severe brain damage detected."));
+<minecraft:leather_chestplate:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their bodywear item!"], Name: "TheNelston"}}).addTooltip(format.gold("Hello everyone, this is TheNelston, welcome back to another video..."));
+<minecraft:leather_leggings:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their legwear item!"], Name: "TheNelston"}}).addTooltip(format.gold("Why is there a brown stain on the back?"));
+<minecraft:leather_boots:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their footwear item!"], Name: "TheNelston"}}).addTooltip(format.gold("动态网自由门 天安門 天安门 法輪功 李洪志 free bobby shmurda 六四天安門事件 The Tiananmen [REDACTED]"));
