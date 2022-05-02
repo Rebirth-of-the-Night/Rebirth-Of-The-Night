@@ -126,6 +126,7 @@ potioncore:magic_focus
 potioncore:cure
 potioncore:step_up
 potioncore:drown
+potioncore:teleport_spawn
 potioncore:disorganization
 potioncore:climb
 potioncore:perplexity
