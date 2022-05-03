@@ -18,8 +18,10 @@
       ],
       "end": [
         "/weather rain",
-        "/xp 200 @p",
-        "/give @p betterwithmods:urn 4 8",
+        "/xp 400 @p",
+        "/gamerule doFireTick true",
+        "/give @p betterwithmods:urn 8 8",
+        "/give @p betterwithmods:material 16 17",
         "/gamestage silentremove @p invasionongoing"
       ],
       "staged": [

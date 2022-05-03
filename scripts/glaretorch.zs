@@ -51,7 +51,7 @@ RecipeBuilder.get("mage")
   .create();
 
 // small
-recipes.addShaped("glare_small", small, [
+recipes.addShaped("glare_small", small*2, [
 	[null, ncoal, null],
 	[null, latch, null], 
 	[null, gshaft, null]

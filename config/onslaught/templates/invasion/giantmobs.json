@@ -1,0 +1,48 @@
+{
+  "giantminers": {
+    "selector": {
+      "gamestages": {
+        "and": ["enteredEnd"]
+      },
+      "weight": 64,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear",
+        "/effect @p potioncore:teleport_spawn",
+        "/gamestage silentadd @p invasionongoing"
+      ],
+      "end": [
+        "/give @p betterwithmods:material 16 14",
+        "/give @p betterwithmods:material 16 39",
+        "/xp 800 @p",
+        "/gamestage silentremove @p invasionongoing"
+      ],
+      "staged": [
+        {
+          "complete": 0.8,
+          "commands": [
+            "/ostop @p"
+          ]
+        }
+        
+      ]
+    },
+    "name": "Supersized Horde",
+    "messages": {
+      "start": "\u00A7cThe oversized horde of mobs begins its assault...",
+      "end": "\u00A7aThe massive creatures back off, for the time being.",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eThey're coming, and they're huge!"
+      }
+    },
+    "waves": [
+      
+    ]
+  }
+}

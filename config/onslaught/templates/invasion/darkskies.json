@@ -19,7 +19,9 @@
       ],
       "end": [
         "/xp 600 @p",
-        "/give @p spartanweaponry:arrow_diamond 32",
+        "/weather rain",
+        "/give @p contenttweaker:material_part 24 12",
+        "/give @p contenttweaker:condensed_dread_cold",
         "/gamerule doFireTick true",
         "/gamestage silentremove @p invasionongoing"
       ],

@@ -18,7 +18,9 @@
       ],
       "end": [
         "/xp 600 @p",
-        "/give @p glaretorch:itemglaretorchsmall 128",
+        "/give @p glaretorch:itemglaretorchsmall 32",
+        "/give @p contenttweaker:raw_viridium 12", 
+        "/give @p mowziesmobs:glowing_jelly 2",
         "/gamestage silentremove @p invasionongoing"
       ],
       "staged": [

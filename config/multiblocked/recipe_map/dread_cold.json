@@ -48,7 +48,7 @@
       "outputs": {
         "fluid": [
           {
-            "content": "{FluidName:\"dread_cold\",Amount:1000}",
+            "content": "{FluidName:\"dread_cold\",Amount:8000}",
             "chance": 1.0
           }
         ]

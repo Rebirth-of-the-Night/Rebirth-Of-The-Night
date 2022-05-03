@@ -1,6 +1,6 @@
 {
-  "fireskel": {
-    "id": "specialmobs:fireskeleton",
+  "giantmobs.skeleton": {
+    "id": "specialmobs:giantskeleton",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -15,15 +15,16 @@
         "showParticles": false
       }
     ],
+    "Attributes": [
+      { "Name": "generic.maxHealth", "Base": 80 }
+    ],
+    "Health": 80,
     "nbt": {
-      "CustomName": "\u00A76Invading Fire Skeleton",
-      "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 }
-      ]
+      "CustomName": "\u00A76Invading Giant Skeleton"
     }
   },
-  "fireskel.boss.slimed": {
-    "id": "specialmobs:fireskeleton",
+  "giantmobs.skeleletonboss": {
+    "id": "specialmobs:giantskeleton",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -39,21 +40,20 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A74Charred Bandit",
+      "CustomName": "\u00A74Dissolved Bandit Lord",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 80 },
-        { "Name": "generic.movementSpeed", "Base": 0.4 }
+        { "Name": "generic.maxHealth", "Base": 200 }
       ],
-      "Health": 80,
+      "Health": 200,
       "HandItems": [
-        { "Count": 1, "id": "spartanweaponry:battleaxe_steel" },
-        { "Count": 1, "id": "spartanweaponry:dagger_bronze" }
+        { "Count": 1, "id": "spartanweaponry:battleaxe_iron" },
+        { "Count": 1, "id": "spartanweaponry:dagger_copper" }
       ],
       "ArmorItems": [
-        { "Count": 1, "id": "minecraft:iron_boots" },
-        { "Count": 1, "id": "dungeontactics:steel_leggings"},
-        { "Count": 1, "id": "atop:mud_chestplate" },
-        { "Count": 1, "id": "contenttweaker:fire_block" }
+        { "Count": 1, "id": "minecraft:leather_boots" },
+        { "Count": 1, "id": "minecraft:chainmail_leggings"},
+        { "Count": 1, "id": "simpleores:copper_chestplate" },
+        { "Count": 1, "id": "minecraft:slime" }
       ],
       "HandDropChances": [ 1.0, 1.0 ],
       "ForgeData": {
@@ -73,8 +73,8 @@
       }
     }
   },
-  "firezombie": {
-    "id": "specialmobs:firezombie",
+  "zed": {
+    "id": "minecraft:zombie",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -90,10 +90,7 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Fire Zombie",
-      "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 }
-      ],
+      "CustomName": "\u00A76Invading Zombie",
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -103,8 +100,8 @@
       }
     }
   },
-  "fireghast": {
-    "id": "minecraft:ghast",
+  "zed.farmer": {
+    "id": "minecraft:zombie",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -120,36 +117,9 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Ghastly Musketears",
-      "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 20 }
-      ],
-      "Health": 20
-    }
-  },
-  "firezombie.farmer": {
-    "id": "specialmobs:firezombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "CustomName": "\u00A76Invading Fire Farmer",
+      "CustomName": "\u00A76Invading Farmer",
       "HandItems": [
-        { "Count": 1, "id": "dungeontactics:steel_hoe" }
-      ],
-      "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 }
+        { "Count": 1, "id": "minecraft:iron_hoe" }
       ],
       "ArmorItems": [
         {},
@@ -166,8 +136,8 @@
       }
     }
   },
-  "firezombie.loot": {
-    "id": "specialmobs:firezombie",
+  "zed.loot": {
+    "id": "minecraft:zombie",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -189,14 +159,11 @@
         { },
         { "Count": 1, "id": "rustic:barrel" }
       ],
-      "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 }
-      ],
-      "CustomName": "\u00A76Looting Fire Zombie"
+      "CustomName": "\u00A76Looting Zombie"
     }
   },
-  "firezombie.miner": {
-    "id": "specialmobs:firezombie",
+  "zed.miner": {
+    "id": "minecraft:zombie",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -212,25 +179,22 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Fire Miner",
+      "CustomName": "\u00A76Invading Miner",
       "HandItems": [
-        { "Count": 1, "id": "dungeontactics:steel_pickaxe" },
+        { "Count": 1, "id": "minecraft:stone_pickaxe" },
         { "Count": 1, "id": "minecraft:torch" }
       ],
       "ArmorItems": [
         { },
-        { "Count": 1, "id": "atop:mud_leggings" },
+        { "Count": 1, "id": "minecraft:leather_leggings" },
         { },
-        { "Count": 1, "id": "minecraft:iron_helmet" }
-      ],
-      "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 }
+        { "Count": 1, "id": "minecraft:leather_helmet", "tag": { "display": { "color": 16776960 } } }
       ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
             "Mining": {
-              "Range": 8,
+              "Range": 4,
               "SpeedModifier": 1.5
             }
           }
@@ -238,17 +202,11 @@
       }
     }
   },
-  "firezombie.bomber": {
-    "id": "specialmobs:firezombie",
+  "zed.bomber": {
+    "id": "minecraft:zombie",
     "effects":[
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "minecraft:speed",
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
@@ -269,27 +227,25 @@
         { },
         { },
         { },
-        { "Count": 1, "id": "harvestcraft:candledeco13" }
+        { "Count": 1, "id": "harvestcraft:candledeco15" }
       ],
       "HandDropChances": [ 0.0, 0.0 ],
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            "CounterAttack": { "Chance": 0.5 },
-            "ExplodeWhenStuck": { 
-              "RangeMax": 6,
-              "ExplosionStrength": 3,
-              "Priority": 100,
-              "ExplosionDelayTicks": 1,
-              "ExplosionCausesFire": false  
-            }
+      "Onslaught": {
+        "CustomAI": {
+          "CounterAttack": { "Chance": 0.5 },
+          "ExplodeWhenStuck": { 
+            "RangeMax": 6,
+            "ExplosionStrength": 2,
+            "Priority": 100,
+            "ExplosionDelayTicks": 1,
+            "ExplosionCausesFire": false  
           }
         }
       }
     }
   },
-  "firezombie.stalker": {
-    "id": "specialmobs:firezombie",
+  "zed.stalker": {
+    "id": "minecraft:zombie",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -305,10 +261,10 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Fire Stalker",
+      "CustomName": "\u00A76Invading Stalker",
       "ArmorItems": [
-        { "Count": 1, "id": "minecraft:iron_boots" },
-        { "Count": 1, "id": "minecraft:iron_leggings" }
+        { "Count": 1, "id": "minecraft:leather_boots", "tag": { "display": { "color": 0 } } },
+        { "Count": 1, "id": "minecraft:leather_leggings", "tag": { "display": { "color": 0 } } }
       ],
       "ArmorDropChances": [ 0.1, 0.05, 0.0, 0.0 ],
       "ForgeData": {
@@ -325,12 +281,12 @@
       }
     }
   },
-  "firezombie.boss.huntsman": {
-    "id": "specialmobs:firezombie",
+  "zed.boss.huntsman": {
+    "id": "minecraft:husk",
     "effects": [
       {
         "id": "minecraft:strength",
-        "duration": 50000,
+        "duration": 4800,
         "amplifier": 0,
         "showParticles": false
       },
@@ -349,21 +305,21 @@
     ],
     "nbt": {
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 150 },
-        { "Name": "generic.movementSpeed", "Base": 0.5 }
+        { "Name": "generic.maxHealth", "Base": 100 },
+        { "Name": "generic.movementSpeed", "Base": 0.45 }
       ],
-      "Health": 150,
-      "CustomName": "\u00A74The Fireman",
+      "Health": 100,
+      "CustomName": "\u00A74The Huntsman",
       "CustomNameVisible": 1,
       "HandItems": [
-        { "Count": 1, "id": "atop:mud_axe" },
+        { "Count": 1, "id": "simpleores:copper_axe" },
         { "Count": 1, "id": "minecraft:skull", "tag": { "Damage": 3 } }
       ],
       "HandDropChances": [ 0.0, 0.0 ],
       "ArmorItems": [
-        { "Count": 1, "id": "minecraft:iron_boots" },
-        { "Count": 1, "id": "minecraft:iron_leggings" },
-        { "Count": 1, "id": "atop:mud_chestplate" },
+        { "Count": 1, "id": "minecraft:leather_boots" },
+        { "Count": 1, "id": "minecraft:leather_leggings" },
+        { "Count": 1, "id": "dungeontactics:studded_chestplate" },
         { "Count": 1, "id": "atop:mud_helmet" }
       ],
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
@@ -371,16 +327,22 @@
         "Onslaught": {
           "CustomAI": {
             /*"OffscreenTeleport": { },*/
-            "CounterAttack": { "Chance": 0.3 },
-            "Lunge": { "Range": 8, "SpeedModifier": 0.5 }
+            "CounterAttack": { "Chance": 0.2 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 }
           }
         }
       }
     }
   },
-  "ember": {
-    "id": "netherex:ember",
-    "effects":[
+  "zed.boss.wasman": {
+    "id": "minecraft:zombie_villager",
+    "effects": [
+      {
+        "id": "minecraft:strength",
+        "duration": 4800,
+        "amplifier": 0,
+        "showParticles": false
+      },
       {
         "id": "minecraft:glowing",
         "duration": 50000,
@@ -395,22 +357,31 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Ember",
+      "ArmorItems": [
+        { "Count": 1, "id": "atop:mud_boots" }
+      ],
+      "Attributes": [ { "Name": "generic.maxHealth", "Base": 100 } ],
+      "Health": 100,
+      "CustomName": "\u00A74The Was Man",
+      "CustomNameVisible": 1,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "OffscreenTeleport": { }
+            /*"OffscreenTeleport": { },*/
+            "CounterAttack": { "Chance": 0.3 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
+            "Mining": { "Range": 4, "SpeedModifier": 2 }
           }
         }
       }
     }
   },
-  "firezombie.boss.cook": {
-    "id": "specialmobs:firezombie",
+  "zed.boss.cook": {
+    "id": "minecraft:zombie",
     "effects": [
       {
         "id": "wards:effect_knockback",
-        "duration": 50000,
+        "duration": 4800,
         "amplifier": 1,
         "showParticles": false
       },
@@ -442,18 +413,62 @@
         { "Count": 1, "id": "rats:chef_toque" }
       ],
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
-      "Attributes": [ 
-        { "Name": "generic.maxHealth", "Base": 150 },
-        { "Name": "generic.movementSpeed", "Base": 0.35 }
-      ],
-      "Health": 150,
-      "CustomName": "\u00A74The OverCook",
+      "Attributes": [ { "Name": "generic.maxHealth", "Base": 100 } ],
+      "Health": 100,
+      "CustomName": "\u00A74The Cook",
       "CustomNameVisible": 127,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
             "CounterAttack": { "Chance": 0.1 },
             "Lunge": { "Range": 6, "SpeedModifier": 0.5 }
+          }
+        }
+      }
+    }
+  },
+  "zed.boss.unweller": {
+    "id": "specialmobs:fishingzombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A74The Unwellerman",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 60 },
+        { "Name": "generic.attackDamage", "Base":  1 }
+      ],
+      "Health": 60,
+      "HandDropChances": [ 1.0, 0.0 ],
+      "ArmorItems": [
+        { "Count": 1, "id":  "minecraft:leather_boots", "tag": { "display": { "color": 16777045 } } },
+        { },
+        { },
+        { "Count": 1, "id": "rats:fisherman_hat" }
+      ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            /*"OffscreenTeleport": { },*/
+            "CounterAttack": {
+              "Priority": -2,
+              "LeapMotionXZ": -1.2,
+              "LeapMotionY": 0.4,
+              "Chance": 1,
+              "RangeMin": 0,
+              "RangeMax": 4
+            }
           }
         }
       }
