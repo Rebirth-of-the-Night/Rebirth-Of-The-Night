@@ -147,10 +147,10 @@ JEI.addDescription(<betterwithmods:wool_helmet>,"Has a 25% chance to drop from b
 JEI.addDescription(<betterwithmods:wool_chest>,"Has a 25% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer chestplate, or recycle it into cut leather.");
 JEI.addDescription(<betterwithmods:wool_pants>,"Has a 25% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer leggings, or recycle it into cut leather.");
 JEI.addDescription(<betterwithmods:wool_boots>,"Has a 25% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer boots, or recycle it into cut leather.");
-<betterwithmods:wool_helmet>.addTooltip(format.aqua("Has a 25% chance to drop from bosses and minibosses!"));
-<betterwithmods:wool_chest>.addTooltip(format.aqua("Has a 25% chance to drop from bosses and minibosses!"));
-<betterwithmods:wool_pants>.addTooltip(format.aqua("Has a 25% chance to drop from bosses and minibosses!"));
-<betterwithmods:wool_boots>.addTooltip(format.aqua("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_helmet>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_chest>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_pants>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_boots>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
 
 recipes.addShapeless("recycle_devhelm",<betterwithmods:material:31>,[<betterwithmods:wool_helmet>.anyDamage()]);
 recipes.addShapeless("recycle_devchest",<betterwithmods:material:31>,[<betterwithmods:wool_chest>.anyDamage()]);
@@ -161,6 +161,11 @@ recipes.addShapeless("devhelm",<minecraft:chainmail_helmet>.withTag({display: {L
 recipes.addShapeless("devchest",<minecraft:chainmail_chestplate>.withTag({display: {Lore: ["Rename to a developer's IGN to get their bodywear item!"], Name: "Developer Chestplate"}}),[<betterwithmods:wool_chest>.anyDamage(),<betterwithmods:material:32>]);
 recipes.addShapeless("devlegs",<minecraft:chainmail_leggings>.withTag({display: {Lore: ["Rename to a developer's IGN to get their legwear item!"], Name: "Developer Leggings"}}),[<betterwithmods:wool_pants>.anyDamage(),<betterwithmods:material:32>]);
 recipes.addShapeless("devboots",<minecraft:chainmail_boots>.withTag({display: {Lore: ["Rename to a developer's IGN to get their footwear item!"], Name: "Developer Boots"}}),[<betterwithmods:wool_boots>.anyDamage(),<betterwithmods:material:32>]);
+
+<minecraft:chainmail_helmet:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their headwear item!"], Name: "Foreck"}}).addTooltip(format.aqua("No way! I want something cooler."));
+<minecraft:chainmail_chestplate:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their bodywear item!"], Name: "Foreck"}}).addTooltip(format.aqua("Just don't say you're going to the moon, okay?!"));
+<minecraft:chainmail_leggings:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their legwear item!"], Name: "Foreck"}}).addTooltip(format.aqua("The past me... so stupid, so pathetic, so foolish..."));
+<minecraft:chainmail_boots:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their footwear item!"], Name: "Foreck"}}).addTooltip(format.aqua("Once I crush all gems into dust, I can be free."));
 
 <minecraft:chainmail_helmet:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their headwear item!"], Name: "TheNelston"}}).addTooltip(format.gold("WARNING: Severe brain damage detected."));
 <minecraft:chainmail_chestplate:*>.withTag({display: {Lore: ["Rename to a developer's IGN to get their bodywear item!"], Name: "TheNelston"}}).addTooltip(format.gold("Hello everyone, this is TheNelston, welcome back to another video..."));
