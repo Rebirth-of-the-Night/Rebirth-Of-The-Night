@@ -256,9 +256,9 @@ Anvil.addShaped(<cyclicmagic:fluid_drain>,[
 */
 
 recipes.addShaped("Codex anchor", gps,[
-	[advpearl],
+	[<minecraft:ender_pearl>],
     [codex],
-    [ord_run.anyDamage().transformDamage()]
+    [<contenttweaker:order_quintessence>]
 ]);
 
 RecipeBuilder.get("mage")

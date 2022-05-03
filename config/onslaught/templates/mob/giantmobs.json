@@ -23,58 +23,8 @@
       "CustomName": "\u00A76Invading Giant Skeleton"
     }
   },
-  "giantmobs.skeleletonboss": {
-    "id": "specialmobs:giantskeleton",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "CustomName": "\u00A74Dissolved Bandit Lord",
-      "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 200 }
-      ],
-      "Health": 200,
-      "HandItems": [
-        { "Count": 1, "id": "spartanweaponry:battleaxe_iron" },
-        { "Count": 1, "id": "spartanweaponry:dagger_copper" }
-      ],
-      "ArmorItems": [
-        { "Count": 1, "id": "minecraft:leather_boots" },
-        { "Count": 1, "id": "minecraft:chainmail_leggings"},
-        { "Count": 1, "id": "simpleores:copper_chestplate" },
-        { "Count": 1, "id": "minecraft:slime" }
-      ],
-      "HandDropChances": [ 1.0, 1.0 ],
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            /*"OffscreenTeleport": { },*/
-            "CounterAttack": {
-              "Priority": -2,
-              "LeapMotionXZ": -1.4,
-              "LeapMotionY": 0.6,
-              "Chance": 0.25,
-              "RangeMin": 0,
-              "RangeMax": 4
-            }
-          }
-        }
-      }
-    }
-  },
   "zed": {
-    "id": "minecraft:zombie",
+    "id": "specialmobs:giantzombie",
     "effects":[
       {
         "id": "minecraft:glowing",
@@ -90,11 +40,11 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Zombie",
+      "CustomName": "\u00A76Invading Giant Zombie",
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "OffscreenTeleport": { }
+            /*"OffscreenTeleport": { }*/
           }
         }
       }
@@ -130,7 +80,7 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "OffscreenTeleport": { }
+            /*"OffscreenTeleport": { }*/
           }
         }
       }
