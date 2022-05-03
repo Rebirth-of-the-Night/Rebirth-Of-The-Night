@@ -147,10 +147,10 @@ JEI.addDescription(<betterwithmods:wool_helmet>,"Has a 25% chance to drop from b
 JEI.addDescription(<betterwithmods:wool_chest>,"Has a 25% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer chestplate, or recycle it into cut leather.");
 JEI.addDescription(<betterwithmods:wool_pants>,"Has a 25% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer leggings, or recycle it into cut leather.");
 JEI.addDescription(<betterwithmods:wool_boots>,"Has a 25% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer boots, or recycle it into cut leather.");
-<betterwithmods:wool_helmet>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
-<betterwithmods:wool_chest>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
-<betterwithmods:wool_pants>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
-<betterwithmods:wool_boots>.addTooltip(format.pink("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_helmet>.addTooltip(format.light_purple("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_chest>.addTooltip(format.light_purple("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_pants>.addTooltip(format.light_purple("Has a 25% chance to drop from bosses and minibosses!"));
+<betterwithmods:wool_boots>.addTooltip(format.light_purple("Has a 25% chance to drop from bosses and minibosses!"));
 
 recipes.addShapeless("recycle_devhelm",<betterwithmods:material:31>,[<betterwithmods:wool_helmet>.anyDamage()]);
 recipes.addShapeless("recycle_devchest",<betterwithmods:material:31>,[<betterwithmods:wool_chest>.anyDamage()]);
