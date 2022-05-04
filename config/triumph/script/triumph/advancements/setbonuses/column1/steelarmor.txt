@@ -30,6 +30,21 @@ criteria.addItem("spartanweaponry:warhammer_steel")
 criteria = addCriteria("Steel Battleaxe", "minecraft:inventory_changed")
 criteria.addItem("spartanweaponry:battleaxe_steel")
 
+criteria = addCriteria("Steel Katana", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:katana_steel")
+
+criteria = addCriteria("Steel Halberd", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:halberd_steel")
+
+criteria = addCriteria("Steel Pike", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:pike_steel")
+
+criteria = addCriteria("Steel Glaive", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:glaive_steel")
+
+criteria = addCriteria("Steel Quarterstaff", "minecraft:inventory_changed")
+criteria.addItem("spartanweaponry:staff_steel")
+
 setRequirements("any", ["Steel Helmet", "Steel Chestplate", "Steel Leggings", "Steel Boots"])
 
 

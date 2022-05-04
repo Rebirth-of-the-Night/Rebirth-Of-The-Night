@@ -24,6 +24,10 @@ criteria = addCriteria("Battleaxe", "minecraft:inventory_changed")
 criteria.addItem("spartancompat:battleaxe_onyx")
 criteria = addCriteria("Warhammer", "minecraft:inventory_changed")
 criteria.addItem("spartancompat:warhammer_onyx")
+criteria = addCriteria("Unlabored Flawlessness", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:katana_onyx")
+criteria = addCriteria("Pike", "minecraft:inventory_changed")
+criteria.addItem("spartancompat:pike_onyx")
 
 setRequirements("any", ["Onyx Helmet", "Onyx Chestplate", "Onyx Leggings", "Onyx Boots"])
 

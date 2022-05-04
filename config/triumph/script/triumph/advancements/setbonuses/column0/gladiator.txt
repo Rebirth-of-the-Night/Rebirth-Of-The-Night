@@ -26,6 +26,21 @@ criteria.addItem(<spartanweaponry:javelin_bronze>)
 criteria = addCriteria("Bronze Spear", "minecraft:inventory_changed")
 criteria.addItem(<spartanweaponry:spear_bronze>)
 
+criteria = addCriteria("Bronze Saber", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:saber_bronze>)
+
+criteria = addCriteria("Bronze Rapier", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:rapier_bronze>)
+
+criteria = addCriteria("Bronze War Mallet", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:hammer_bronze>)
+
+criteria = addCriteria("Bronze Lance", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:lance_bronze>)
+
+criteria = addCriteria("Bronze Flanged Mace", "minecraft:inventory_changed")
+criteria.addItem(<spartanweaponry:mace_bronze>)
+
 criteria = addCriteria("Bronze Shield", "minecraft:inventory_changed")
 criteria.addItem(<spartanshields:shield_basic_bronze>)
 
