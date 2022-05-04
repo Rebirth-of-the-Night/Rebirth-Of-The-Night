@@ -185,7 +185,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["2=simpleores:mythril_pickaxe","2=primitivemobs:goblin_mace"],
-    "gamestage": "enteredBeneath"
+    "gamestage": "minedMythril"
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
@@ -194,14 +194,24 @@
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
-    "helditem": "1=minecraft:diamond_pickaxe",
-    "gamestage": "minedMythril"
+    "helditem": ["3=minecraft:diamond_pickaxe","3=atop:ruby_pickaxe","3=atop:sapphire_pickaxe","3=atop:peridot_pickaxe","2=simpleores:adamantium_pickaxe"],
+    "gamestage": "enteredBeneath"
 },
+{
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": ["3=atop:steel_pickaxe", "2=atop:mud_pickaxe"],
+    "gamestage": "enteredNether"
+},
+{
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": "3=atop:amethyst_pickaxe",
+    "gamestage": "enteredEnd"
+},/*
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["1=minecraft:iron_pickaxe", "2=atop:mud_pickaxe"],
     "gamestage": "killedQuazar"
-},
+},*/
 
 
 
