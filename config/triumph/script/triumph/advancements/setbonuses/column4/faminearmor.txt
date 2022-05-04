@@ -1,6 +1,6 @@
 setIcon("mod_lavacow:faminearmor_chestplate")
-setTitle("[WIP] Famine")
-setDescription("Complete the [WIP] Famine set.")
+setTitle("Famine")
+setDescription("Complete the Famine set.")
 
 addParent("triumph:advancements/setbonuses/root")
 

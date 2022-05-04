@@ -3338,7 +3338,8 @@
 		"minecraft:sharpness",
 		"minecraft:bane_of_arthropods",
 		"minecraft:smite",
-		"endreborn:ender_killer"
+		"endreborn:ender_killer",
+    "nyx:lunar_edge"
 	],
     "applicability_mode": 0,
     "items_list_mode": 0,
