@@ -1,4 +1,162 @@
 {
+  "giantmobs.fighter": {
+    "id": "specialmobs:giantzombie",
+    "effects":[
+      {
+        "id": "minecraft:strength",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Zombie Fighter",
+      "HandItems": [
+        { "Count": 1, "id": "simpleores:mythril_sword" }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorItems": [
+        { "Count": 1, "id": "simpleores:adamantium_boots" },
+        {  },
+        {  },
+        { "Count": 1, "id": "simpleores:adamantium_helmet" }
+      ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 },
+        { "Name": "generic.maxHealth", "Base": 80 }
+      ],
+      "Health": 80,
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Lunge": { "Range": 3, "SpeedModifier": 0.5 }
+          }
+        }
+      }
+    }
+  },
+  "giantmobs.miner": {
+    "id": "specialmobs:giantzombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Zombie Miner",
+      "HandItems": [
+        { "Count": 1, "id": "simpleores:onyx_pickaxe" },
+        { "Count": 1, "id": "minecraft:torch" }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorItems": [
+        { "Count": 1, "id": "simpleores:adamantium_boots" },
+        {  },
+        {  },
+        { "Count": 1, "id": "simpleores:adamantium_helmet" }
+      ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 },
+        { "Name": "generic.maxHealth", "Base": 80 }
+      ],
+      "Health": 80,
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 8,
+              "SpeedModifier": 1.75
+            }
+          }
+        }
+      }
+    }
+  },
+  "giantmobs.bomber": {
+    "id": "specialmobs:giantzombie",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Zombie Bomberman",
+      "HandItems": [
+        { "Count": 1, "id": "minecraft:tnt" },
+        { "Count": 1, "id": "minecraft:tnt" }
+      ],
+      "ArmorItems": [
+        { "Count": 1, "id": "simpleores:adamantium_boots"},
+        { },
+        { },
+        { "Count": 1, "id": "harvestcraft:candledeco13"}
+      ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.35 },
+        { "Name": "generic.maxHealth", "Base": 60 }
+      ],
+      "Health": 60,
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.5 },
+            "ExplodeWhenStuck": { 
+              "RangeMax": 8,
+              "ExplosionStrength": 8,
+              "Priority": 100,
+              "ExplosionDelayTicks": 1,
+              "ExplosionCausesFire": false   
+            }
+          }
+        }
+      }
+    }
+  },
   "giantmobs.skeleton": {
     "id": "specialmobs:giantskeleton",
     "effects":[
@@ -9,27 +167,9 @@
         "showParticles": false
       },
       {
-        "id": "wards:effect_frost_walker",
+        "id": "wards:effect_blast_protection",
         "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "Attributes": [
-      { "Name": "generic.maxHealth", "Base": 80 }
-    ],
-    "Health": 80,
-    "nbt": {
-      "CustomName": "\u00A76Invading Giant Skeleton"
-    }
-  },
-  "zed": {
-    "id": "specialmobs:giantzombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
+        "amplifier": 9,
         "showParticles": false
       },
       {
@@ -40,305 +180,105 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Giant Zombie",
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            /*"OffscreenTeleport": { }*/
-          }
-        }
-      }
-    }
-  },
-  "zed.farmer": {
-    "id": "minecraft:zombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "CustomName": "\u00A76Invading Farmer",
-      "HandItems": [
-        { "Count": 1, "id": "minecraft:iron_hoe" }
-      ],
+      "CustomName": "\u00A76Giant Longbow Skeleton",
       "ArmorItems": [
-        {},
-        {},
-        {},
-        { "Count": 1, "id": "rats:farmer_hat" }
+        { "Count": 1, "id": "simpleores:adamantium_boots"},
+        { },
+        { },
+        { "Count": 1, "id": "simpleores:adamantium_helmet"}
       ],
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            /*"OffscreenTeleport": { }*/
-          }
-        }
-      }
-    }
-  },
-  "zed.loot": {
-    "id": "minecraft:zombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "ArmorItems": [
-        { },
-        { },
-        { },
-        { "Count": 1, "id": "rustic:barrel" }
-      ],
-      "CustomName": "\u00A76Looting Zombie"
-    }
-  },
-  "zed.miner": {
-    "id": "minecraft:zombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "CustomName": "\u00A76Invading Miner",
-      "HandItems": [
-        { "Count": 1, "id": "minecraft:stone_pickaxe" },
-        { "Count": 1, "id": "minecraft:torch" }
-      ],
-      "ArmorItems": [
-        { },
-        { "Count": 1, "id": "minecraft:leather_leggings" },
-        { },
-        { "Count": 1, "id": "minecraft:leather_helmet", "tag": { "display": { "color": 16776960 } } }
-      ],
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            "Mining": {
-              "Range": 4,
-              "SpeedModifier": 1.5
-            }
-          }
-        }
-      }
-    }
-  },
-  "zed.bomber": {
-    "id": "minecraft:zombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "CustomName": "\u00A76Invading Bomber",
-      "HandItems": [
-        { "Count": 1, "id": "minecraft:tnt" }
-      ],
-      "ArmorItems": [
-        { },
-        { },
-        { },
-        { "Count": 1, "id": "harvestcraft:candledeco15" }
-      ],
-      "HandDropChances": [ 0.0, 0.0 ],
-      "Onslaught": {
-        "CustomAI": {
-          "CounterAttack": { "Chance": 0.5 },
-          "ExplodeWhenStuck": { 
-            "RangeMax": 6,
-            "ExplosionStrength": 2,
-            "Priority": 100,
-            "ExplosionDelayTicks": 1,
-            "ExplosionCausesFire": false  
-          }
-        }
-      }
-    }
-  },
-  "zed.stalker": {
-    "id": "minecraft:zombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "CustomName": "\u00A76Invading Stalker",
-      "ArmorItems": [
-        { "Count": 1, "id": "minecraft:leather_boots", "tag": { "display": { "color": 0 } } },
-        { "Count": 1, "id": "minecraft:leather_leggings", "tag": { "display": { "color": 0 } } }
-      ],
-      "ArmorDropChances": [ 0.1, 0.05, 0.0, 0.0 ],
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            "OffscreenTeleport": {
-              "TeleportDistance": 16,
-              "TeleportFactor": 1.5,
-              "DimensionHopping": true
-            }
-          },
-          "Lunge": { }
-        }
-      }
-    }
-  },
-  "zed.boss.huntsman": {
-    "id": "minecraft:husk",
-    "effects": [
-      {
-        "id": "minecraft:strength",
-        "duration": 4800,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 100 },
-        { "Name": "generic.movementSpeed", "Base": 0.45 }
+        { "Name": "generic.movementSpeed", "Base": 0.4 },
+        { "Name": "generic.maxHealth", "Base": 60 }
       ],
-      "Health": 100,
-      "CustomName": "\u00A74The Huntsman",
-      "CustomNameVisible": 1,
-      "HandItems": [
-        { "Count": 1, "id": "simpleores:copper_axe" },
-        { "Count": 1, "id": "minecraft:skull", "tag": { "Damage": 3 } }
-      ],
-      "HandDropChances": [ 0.0, 0.0 ],
+      "Health": 60,
+      "HandDropChances": [ 0.0, 0.0 ]
+    }
+  },
+  "giantmobs.spitfireskeleton": {
+    "id": "specialmobs:spitfireskeleton",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Spitfire Skeleton",
       "ArmorItems": [
-        { "Count": 1, "id": "minecraft:leather_boots" },
-        { "Count": 1, "id": "minecraft:leather_leggings" },
-        { "Count": 1, "id": "dungeontactics:studded_chestplate" },
-        { "Count": 1, "id": "atop:mud_helmet" }
+        { "Count": 1, "id": "simpleores:adamantium_boots"},
+        { },
+        { },
+        { "Count": 1, "id": "simpleores:adamantium_helmet"}
       ],
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.4 },
+        { "Name": "generic.maxHealth", "Base": 50 }
+      ],
+      "Health": 50,
+      "HandDropChances": [ 0.0, 0.0 ]
+    }
+  },
+  "giantmobs.spider": {
+    "id": "specialmobs:giantspider",
+    "effects":[
+      {
+        "id": "wards:effect_blast_protection",
+        "duration": 50000,
+        "amplifier": 9,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Spider",
+      "Attributes": [
+        { "Name": "generic.movementSpeed", "Base": 0.4 },
+        { "Name": "generic.maxHealth", "Base": 40 }
+      ],
+      "Health": 40,
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            /*"OffscreenTeleport": { },*/
-            "CounterAttack": { "Chance": 0.2 },
-            "Lunge": { "Range": 6, "SpeedModifier": 0.3 }
+            "Lunge": { "Range": 4, "SpeedModifier": 0.5 }
           }
         }
       }
     }
   },
-  "zed.boss.wasman": {
-    "id": "minecraft:zombie_villager",
-    "effects": [
+  "giantmobs.boss": {
+    "id": "specialmobs:giantzombie",
+    "effects":[
       {
         "id": "minecraft:strength",
-        "duration": 4800,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "minecraft:glowing",
         "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "ArmorItems": [
-        { "Count": 1, "id": "atop:mud_boots" }
-      ],
-      "Attributes": [ { "Name": "generic.maxHealth", "Base": 100 } ],
-      "Health": 100,
-      "CustomName": "\u00A74The Was Man",
-      "CustomNameVisible": 1,
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            /*"OffscreenTeleport": { },*/
-            "CounterAttack": { "Chance": 0.3 },
-            "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
-            "Mining": { "Range": 4, "SpeedModifier": 2 }
-          }
-        }
-      }
-    }
-  },
-  "zed.boss.cook": {
-    "id": "minecraft:zombie",
-    "effects": [
-      {
-        "id": "wards:effect_knockback",
-        "duration": 4800,
         "amplifier": 1,
         "showParticles": false
       },
       {
-        "id": "minecraft:glowing",
+        "id": "wards:effect_blast_protection",
         "duration": 50000,
-        "amplifier": 0,
+        "amplifier": 9,
         "showParticles": false
       },
       {
@@ -349,76 +289,30 @@
       }
     ],
     "nbt": {
+      "CustomName": "\u00A76Giant Zombie Overseer",
       "HandItems": [
-        { },
-        {
-          "Count": 1, "id": "harvestcraft:saucepanitem", "tag": { "Enchantments":  [{ "id": "minecraft:knockback", "lvl": 5 }]}
-        }
+        { "Count": 1, "id": "simpleores:onyx_sword" },
+        { "Count": 1, "id": "minecraft:shield" }
       ],
-      "HandDropChances": [ 1.0, 1.0 ],
+      "HandDropChances": [ 0.0, 0.0 ],
       "ArmorItems": [
-        { },
-        { },
-        { },
-        { "Count": 1, "id": "rats:chef_toque" }
+        { "Count": 1, "id": "simpleores:adamantium_boots" },
+        { "Count": 1, "id": "simpleores:onyx_leggings" },
+        { "Count": 1, "id": "simpleores:onyx_chestplate" },
+        { "Count": 1, "id": "simpleores:adamantium_helmet" }
       ],
-      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
-      "Attributes": [ { "Name": "generic.maxHealth", "Base": 100 } ],
-      "Health": 100,
-      "CustomName": "\u00A74The Cook",
-      "CustomNameVisible": 127,
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            "CounterAttack": { "Chance": 0.1 },
-            "Lunge": { "Range": 6, "SpeedModifier": 0.5 }
-          }
-        }
-      }
-    }
-  },
-  "zed.boss.unweller": {
-    "id": "specialmobs:fishingzombie",
-    "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
-    ],
-    "nbt": {
-      "CustomName": "\u00A74The Unwellerman",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 60 },
-        { "Name": "generic.attackDamage", "Base":  1 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 },
+        { "Name": "generic.maxHealth", "Base": 400 }
       ],
-      "Health": 60,
-      "HandDropChances": [ 1.0, 0.0 ],
-      "ArmorItems": [
-        { "Count": 1, "id":  "minecraft:leather_boots", "tag": { "display": { "color": 16777045 } } },
-        { },
-        { },
-        { "Count": 1, "id": "rats:fisherman_hat" }
-      ],
+      "Health": 400,
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            /*"OffscreenTeleport": { },*/
-            "CounterAttack": {
-              "Priority": -2,
-              "LeapMotionXZ": -1.2,
-              "LeapMotionY": 0.4,
-              "Chance": 1,
-              "RangeMin": 0,
-              "RangeMax": 4
-            }
+            "Lunge": { "Range": 4, "SpeedModifier": 0.5 },
+            "CounterAttack": { "Chance": 0.5 },
+            "OffscreenTeleport": { }
           }
         }
       }

@@ -12,12 +12,11 @@
     },
     "commands": {
       "start": [
-        "/weather rain",
+        "/weather clear",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing"
       ],
       "end": [
-        "/weather clear",
         "/xp 200 @p",
         "/give @p betterwithmods:material 12 31",
         "/give @p pyrotech:material 32 4",

@@ -22,7 +22,11 @@
         "/give @p twilightforest:giant_sword",
         "/give @p iceandfire:fire_dragon_blood",
         "/give @p iceandfire:ice_dragon_blood",
-        "/give @p iceandfire:dragonbone",
+        "/give @p iceandfire:dragonbone 8",
+        "/give @p betterwithmods:wool_helmet",
+        "/give @p betterwithmods:wool_chest",
+        "/give @p betterwithmods:wool_pants",
+        "/give @p betterwithmods:wool_boots",
         "/xp 1000 @p",
         "/gamestage silentremove @p invasionongoing"
       ],

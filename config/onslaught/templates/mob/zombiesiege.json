@@ -28,7 +28,7 @@
       ],
       "HandDropChances": [ 0.0, 0.0 ],
       "ArmorItems": [
-        {  },
+        { "Count": 1, "id": "dungeontactics:steel_boots" },
         {  },
         {  },
         { "Count": 1, "id": "dungeontactics:steel_helmet", "tag": { "Enchantments":  [{ "id": "minecraft:blast_protection", "lvl": 6 }]}}
@@ -78,7 +78,7 @@
       ],
       "HandDropChances": [ 0.0, 0.0 ],
       "ArmorItems": [
-        {  },
+        { "Count": 1, "id": "dungeontactics:steel_boots" },
         {  },
         {  },
         { "Count": 1, "id": "dungeontactics:steel_helmet", "tag": { "Enchantments":  [{ "id": "minecraft:blast_protection", "lvl": 6 }]}}
@@ -130,16 +130,16 @@
         { "Count": 1, "id": "minecraft:tnt" }
       ],
       "ArmorItems": [
-        { },
+        { "Count": 1, "id": "dungeontactics:steel_boots" },
         { },
         { },
         { "Count": 1, "id": "harvestcraft:candledeco13", "tag": { "Enchantments":  [{ "id": "minecraft:blast_protection", "lvl": 6 }]}}
       ],
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.35 },
-        { "Name": "generic.maxHealth", "Base": 40 }
+        { "Name": "generic.maxHealth", "Base": 30 }
       ],
-      "Health": 40,
+      "Health": 30,
       "HandDropChances": [ 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {

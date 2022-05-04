@@ -14,14 +14,16 @@
       "start": [
         "/weather clear",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule doMobDrops false"
       ],
       "end": [
         "/xp 600 @p",
-        "/give @p glaretorch:itemglaretorchsmall 32",
+        "/give @p glaretorch:itemglaretorchsmall 64",
         "/give @p contenttweaker:raw_viridium 12", 
         "/give @p mowziesmobs:glowing_jelly 2",
-        "/gamestage silentremove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing",
+        "/gamerule doMobDrops true"
       ],
       "staged": [
         {

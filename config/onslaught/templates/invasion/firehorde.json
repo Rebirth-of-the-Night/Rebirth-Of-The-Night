@@ -14,7 +14,8 @@
       "start": [
         "/weather clear",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule doFireTick false"
       ],
       "end": [
         "/weather rain",

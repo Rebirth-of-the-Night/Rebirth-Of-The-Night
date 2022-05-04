@@ -184,8 +184,13 @@
 ////////////////// TOOL GAME STAGES //////////////////////////
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
-    "helditem": ["2=simpleores:mythril_pickaxe","3=simpleores:onyx_pickaxe","2=primitivemobs:goblin_mace"],
+    "helditem": ["2=simpleores:mythril_pickaxe","2=primitivemobs:goblin_mace"],
     "gamestage": "enteredBeneath"
+},
+{
+    "mob": ["minecraft:zombie","primitivemobs:goblin"],
+    "helditem": ["3=simpleores:onyx_pickaxe"],
+    "gamestage": "killedWither"
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
