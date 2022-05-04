@@ -18,6 +18,10 @@ JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalchemy:leec
 
 JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalchemy:leech_strong"}));
 
+JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalchemy:magnetism_normal"}));
+
+JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "extraalchemy:magnetism_strong"}));
+
 recipes.remove(<extraalchemy:empty_ring>);
 
 recipes.removeByRecipeName("extraalchemy:minecraft_strong_regeneration");
