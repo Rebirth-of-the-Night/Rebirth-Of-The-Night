@@ -509,7 +509,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [<nyx:fallen_star>, <netherex:ghast_queen_tear>, <nyx:fallen_star>],
     [<contenttweaker:vis_shard>, <randomthings:quartzlamp>, <contenttweaker:vis_shard>], 
-    [<nyx:fallen_star>, <endreborn:tool_magnifier>.withTag({mekData: {mode: 1}}), <nyx:fallen_star>]])
+    [<nyx:fallen_star>, <endreborn:tool_magnifier>, <nyx:fallen_star>]])
   .addTool(<contenttweaker:luna_rune>, 1)
   .addOutput(<dungeontactics:lantern_magic>)
   .setMinimumTier(1)

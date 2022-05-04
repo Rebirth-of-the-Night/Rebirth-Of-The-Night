@@ -581,7 +581,7 @@ var enchantmentMapMythrilBow as IData = {};
 
 enchantmentMapMythrilBow += enchantmentsMythrilBow[0].makeEnchantment(2).makeTag();
 
-Anvil.addShaped(<simpleores:mythril_bow>.withTag(enchantmentMapMythrilBow), [
+Anvil.addShaped(<simpleores:mythril_bow>/*.withTag(enchantmentMapMythrilBow)*/, [   
    [null, null, null, mrod],
    [null, brod, myth, strings],
    [null, myth, strings, null],

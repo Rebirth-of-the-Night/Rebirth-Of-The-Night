@@ -42,10 +42,10 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 	}
 	
 	// Mushroom stew bowl fix
-	if (event.food.definition.id == <minecraft:mushroom_stew>.definition.id) {
+	/*if (event.food.definition.id == <minecraft:mushroom_stew>.definition.id) {
 		event.player.give(<minecraft:bowl>);
 		return;
-	}
+	}*/
 });
 
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
