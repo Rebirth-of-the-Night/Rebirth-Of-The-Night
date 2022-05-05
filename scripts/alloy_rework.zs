@@ -66,7 +66,7 @@ JEI.removeAndHide(<spartanweaponry:throwing_knife_tin>);
 JEI.removeAndHide(<spartanweaponry:throwing_axe_tin>);
 JEI.removeAndHide(<spartanweaponry:javelin_tin>);
 //wrought iron
-JEI.removeAndHide(<contenttweaker:sub_block_holder_0:2>);
+JEI.removeAndHide(<contenttweaker:sub_block_holder_0:3>);
 //mud
 recipes.remove(<atop:mud_boots>);
 recipes.remove(<atop:mud_chestplate>);
@@ -88,7 +88,7 @@ val brassNugget = <ore:nuggetBrass>.firstItem;
 val wroughtNugget = <ore:nuggetWroughtIron>.firstItem;
 val bronzeBlock = <contenttweaker:block_bronze>; 
 val brassBlock = <contenttweaker:block_brass>;
-val wroughtBlock = <contenttweaker:sub_block_holder_0:3>;
+val wroughtBlock = <contenttweaker:sub_block_holder_0:2>;
 val plate = <contenttweaker:bronze_plate>;
 val stick =  <ore:stickWood>;
 val handle = <spartanweaponry:material:0>;
