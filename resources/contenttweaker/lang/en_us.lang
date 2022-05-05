@@ -212,6 +212,9 @@ item.contenttweaker.voidseen_exorite.name=Voidseen Exorite
 item.contenttweaker.warhammer_mold.name=Warhammer Mold
 item.contenttweaker.waterlogged_sapphire.name=Waterlogged Sapphire
 item.contenttweaker.wrought_animation_core.name=Wrought Animation Core
+item.contenttweaker.electrum_core.name=Electrum Core
+item.contenttweaker.valkyrien_plate.name=Valkyrien Plate
+
 
 #------------------------------------------------------------------------------
 # Tools
