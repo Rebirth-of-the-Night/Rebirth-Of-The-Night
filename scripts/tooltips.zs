@@ -528,4 +528,4 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <defiledlands:tears_flame>.removeTooltip("Fires fireballs");
 
 // BUGS
-<aether_legacy:enchanted_blueberry>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
+#<aether_legacy:enchanted_blueberry>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));

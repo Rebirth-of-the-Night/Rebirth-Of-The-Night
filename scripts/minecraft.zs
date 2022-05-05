@@ -260,6 +260,9 @@ recipes.addShapeless("gravel_to_flint", <minecraft:flint>*2, [<ore:gravel>, <ore
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
 
+val ingotEndorium = <ore:ingotEndorium>;
+ingotEndorium.add(<endreborn:item_ingot_endorium>);
+
 // the oredict for recipes where there are only vanilla variants
 // use this for oak, default other non-vanilla variants to this as well
 val genericPlanks = <ore:genericPlanks>;
