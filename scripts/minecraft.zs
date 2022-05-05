@@ -127,7 +127,7 @@ var rtb as IItemStack[IItemStack] = {
   <contenttweaker:raw_gold_block> : <contenttweaker:raw_gold>,
   <contenttweaker:raw_viridium_block> : <contenttweaker:raw_viridium>,
   <contenttweaker:raw_mythril_block> : <contenttweaker:raw_mythril>,
-  <contenttweaker:material_part:49> : <contenttweaker:material_part:52> //wrought iron
+  <contenttweaker:raw_wrought_iron> : <contenttweaker:material_part:52> //wrought iron
 } as IItemStack[IItemStack];
 
 // sedimentary cobble to smooth stones (feel like this isn't the best place to put these but idk where else)
