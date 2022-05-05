@@ -269,7 +269,7 @@
 {
     "mob": "minecraft:wither",
 	"onjoin": true,
-    "potion": ["extraalchemy:effect.dislocation,380,0"],
+    "potion": ["extraalchemy:effect.dislocation,200,0"],
     "damagemultiply": 2
   },
 
@@ -297,7 +297,7 @@
 {
     "mob": "betteranimalsplus:hirschgeist",
 	"onjoin": true,
-    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "extraalchemy:effect.dislocation,60,2", "potioncore:teleport_surface,10,1"]
+    "potion": ["minecraft:fire_resistance,1000000,1", "wards:effect_projectile_protection,1000000,14", "potioncore:purity,1000000,2", "minecraft:regeneration,1000000,1", "extraalchemy:effect.dislocation,60,2"]
   },
 
 {
