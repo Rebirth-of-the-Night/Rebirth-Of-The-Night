@@ -88,6 +88,7 @@
   },
   "entities": {
     "specialmobs:sniperwitherskeleton": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true,
       "Requires Tools": true,
@@ -107,6 +108,7 @@
       "Requires Tools": true
     },
     "specialmobs:brutewitherskeleton": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true,
       "Requires Tools": true
@@ -133,6 +135,7 @@
       "Griefing": true
     },
     "betteranimalsplus:kermodebear": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true
     },
@@ -199,6 +202,7 @@
       "Requires Tools": true
     },
     "specialmobs:bruteskeleton": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true,
       "Demolition": 0.01,
@@ -212,6 +216,7 @@
       "Requires Tools": true
     },
     "minecraft:spider": {
+      "Xray Distance": 0,
       "Spider Webbing": 0.0
     },
     "specialmobs:poisonsilverfish": {
@@ -230,10 +235,12 @@
       "Requires Tools": true
     },
     "betteranimalsplus:blackbear": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true
     },
     "minecraft:polar_bear": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true
     },
@@ -242,6 +249,7 @@
       "Griefing": true
     },
     "specialmobs:spitfirewitherskeleton": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true,
       "Requires Tools": true
@@ -296,6 +304,7 @@
       "Requires Tools": true
     },
     "betteranimalsplus:brownbear": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true
     },
@@ -329,6 +338,7 @@
       "Requires Tools": true
     },
     "specialmobs:knightskeleton": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true,
       "Requires Tools": true
@@ -338,6 +348,7 @@
       "Griefing": true
     },
     "quark:dweller": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true,
       "Pillaring": true,
@@ -367,6 +378,7 @@
       "Griefing": true
     },
     "primitivemobs:mimic": {
+      "Xray Distance": 0,
       "Digging": false,
       "Griefing": true
     },
@@ -398,6 +410,7 @@
       "Requires Tools": true
     },
     "primitivemobs:skeleton_warrior": {
+      "Xray Distance": 0,
       "Digging": true,
       "Griefing": true,
       "Demolition": 0.01,
