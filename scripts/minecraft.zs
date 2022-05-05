@@ -263,6 +263,9 @@ stone.add(<aether_legacy:holystone>);
 val ingotEndorium = <ore:ingotEndorium>;
 ingotEndorium.add(<endreborn:item_ingot_endorium>);
 
+val ingotSoulforgedSteel = <ore:ingotSoulforgedSteel>;
+ingotSoulforgedSteel.add(<betterwithmods:material:14>);
+
 // the oredict for recipes where there are only vanilla variants
 // use this for oak, default other non-vanilla variants to this as well
 val genericPlanks = <ore:genericPlanks>;

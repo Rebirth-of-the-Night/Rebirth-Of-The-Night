@@ -73,10 +73,10 @@ Anvil.addShaped(<aether_legacy:valkyrie_boots>,[
 ]);
 
 Anvil.addShaped(<aether_legacy:valkyrie_lance>,[
-    [<ore:ingotElectrum>, <ore:ingotElectrum>, null, null],
-    [<ore:ingotElectrum>, <spartanfire:witherbone_handle>, <ore:ingotElectrum>, null],
-    [null, <ore:ingotElectrum>, <spartanfire:witherbone_handle>, null],
-    [null, null, null, <contenttweaker:electrum_core>]
+    [null, null, <ore:ingotElectrum>, <ore:ingotElectrum>],
+    [null, <ore:ingotElectrum>, <spartanfire:witherbone_handle>, <ore:ingotElectrum>],
+    [null, <spartanfire:witherbone_handle>, <ore:ingotElectrum>, null],
+    [<contenttweaker:electrum_core>, null, null, null]
 ]);
 
 Anvil.removeShaped(<betterwithmods:steel_helmet>);

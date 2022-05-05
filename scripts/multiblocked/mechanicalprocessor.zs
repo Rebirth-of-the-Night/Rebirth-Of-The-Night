@@ -75,5 +75,5 @@ newRP.start()
 .inputItems(<betternether:reeds_block>)
 .inputItems(<minecraft:glass_bottle>)
 .inputFluids(<fluid:concentrated_bioflow> * 500)
-.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 8115192, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 30, Amplifier: 0 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 1800, Id: 206, Amplifier: 0 as byte}], display: {Lore: ["A handy brew that increases dodging distance"], Name: "Potion of Dodging"}}))
+.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 8115192, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 30, Amplifier: 0 as byte}], display: {Lore: ["A handy brew that increases dodging distance"], Name: "Potion of Dodging"}}))
 .buildAndRegister();
