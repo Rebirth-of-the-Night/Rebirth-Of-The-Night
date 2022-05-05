@@ -44,6 +44,41 @@ var anvilArmorMap = {
 var plateArmor = <betterwithmods:material:42>;
 var counter = 0;
 
+Anvil.addShaped(<aether_legacy:valkyrie_helmet>,[
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, <contenttweaker:valkyrien_plate>],
+    [<ore:ingotElectrum>, null, null, null],
+    [<ore:ingotElectrum>, null, null, null],
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, <contenttweaker:valkyrien_plate>]
+]);
+
+Anvil.addShaped(<aether_legacy:valkyrie_chestplate>,[
+    [<contenttweaker:valkyrien_plate>, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>],
+    [null, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>],
+    [null, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>],
+    [<contenttweaker:valkyrien_plate>, <ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>]
+]);
+
+Anvil.addShaped(<aether_legacy:valkyrie_leggings>,[
+    [<ore:ingotElectrum>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>],
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, null, null],
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, null, null],
+    [<ore:ingotElectrum>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>]
+]);
+
+Anvil.addShaped(<aether_legacy:valkyrie_boots>,[
+    [null, null, <ore:ingotElectrum>],
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, <contenttweaker:valkyrien_plate>],
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, <contenttweaker:valkyrien_plate>],
+    [null, null, <ore:ingotElectrum>]
+]);
+
+Anvil.addShaped(<aether_legacy:valkyrie_lance>,[
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, null, null],
+    [<ore:ingotElectrum>, <spartanfire:witherbone_handle>, <ore:ingotElectrum>, null],
+    [null, <ore:ingotElectrum>, <spartanfire:witherbone_handle>, null],
+    [null, null, null, <contenttweaker:electrum_core>]
+]);
+
 Anvil.removeShaped(<betterwithmods:steel_helmet>);
 Anvil.removeShaped(<betterwithmods:steel_chest>);
 Anvil.removeShaped(<betterwithmods:steel_pants>);

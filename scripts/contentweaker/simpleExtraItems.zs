@@ -6,6 +6,13 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Commands;
 
+// valkyrie rework
+val valkyrien_plate = VanillaFactory.createItem("valkyrien_plate");
+valkyrien_plate.register();
+
+val electrum_core = VanillaFactory.createItem("electrum_core");
+electrum_core.register();
+
 // tools
 var mythril_mattock = VanillaFactory.createItem("mythril_mattock");
 mythril_mattock.maxStackSize = 1;

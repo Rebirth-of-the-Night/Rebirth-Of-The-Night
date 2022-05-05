@@ -279,3 +279,10 @@ recipes.addShaped("golden_parachute", <aether_legacy:golden_parachute>,[
 recipes.remove(<aether_legacy:holystone_pressure_plate>);
 recipes.addShaped("aether_legacy_holystone_pressure_plate", <aether_legacy:holystone_pressure_plate>, [
     [<aether_legacy:holystone_slab>,<aether_legacy:holystone_slab>]]);
+
+recipes.remove(<arcaneworld:molten_core>)
+
+recipes.addShaped(<aether_legacy:phoenix_boots>, [[null, null, null],[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>], [<arcaneworld:molten_core>, null, <arcaneworld:molten_core>]]);
+recipes.addShaped(<aether_legacy:phoenix_leggings>, [[<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>],[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>], [<arcaneworld:molten_core>, null, <arcaneworld:molten_core>]]);
+recipes.addShaped(<aether_legacy:phoenix_chestplate>, [[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>],[<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>], [<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>]]);
+recipes.addShaped(<aether_legacy:phoenix_helmet>, [[<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>],[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>], [null, null, null]]);

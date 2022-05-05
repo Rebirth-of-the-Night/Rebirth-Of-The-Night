@@ -167,7 +167,27 @@
 		"mob": "aether_legacy:sun_spirit",
 		"remove": "aether_legacy:sun_altar"
 	},
+	{
+		"mob": "aether_legacy:sun_spirit",
+		"player": false,
+		"item": "arcaneworld:molten_core",
+		"itemcount": "13-15"
+	},
 	
+	// Valkyrie Queen
+	{
+		"mob": "aether_legacy:valkyrie_queen",
+		"player": false,
+		"item": "contenttweaker:electrum_core",
+		"itemcount": "1"
+	},
+	{
+		"mob": "aether_legacy:valkyrie_queen",
+		"player": false,
+		"item": "contenttweaker:valkyrien_plate",
+		"itemcount": "4-5"
+	},
+
 	// End Guard
 	{
 		"mob": "endreborn:endguard",

@@ -1172,7 +1172,7 @@
   {
     "id": "randomenchantments:back_to_the_chamber",
     "name": "enchantment.back_to_the_chamber",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
