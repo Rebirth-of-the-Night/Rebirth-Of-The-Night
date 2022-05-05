@@ -1,2 +1,3 @@
 # healing items
-id="scalinghealth:healingitem:*" *=2
+id~="scalinghealth:healingitem:*" *=2
+id="minecraft:mushroom_stew" -> 16

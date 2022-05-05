@@ -5,4 +5,5 @@ tooltip.spartanweaponry:damage_absorb.desc=%d%% of damage taken is absorbed in d
 tooltip.spartanweaponry:reach.desc=Increased melee damage range exponentially.
 item.spartanweaponry:crossbow_wood.name=Crossbow
 item.spartanweaponry:arrow_diamond.name=High Grade Arrow
+item.spartanweaponry:bolt_diamond.name=High Grade Bolt
 material.spartanweaponry:invar=§eHeaven's

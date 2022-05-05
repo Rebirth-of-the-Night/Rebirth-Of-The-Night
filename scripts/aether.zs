@@ -272,7 +272,7 @@ recipes.addShaped("cold_parachute", <aether_legacy:cold_parachute>,[
 
 recipes.addShaped("golden_parachute", <aether_legacy:golden_parachute>,[
     [<betterwithmods:material:8>, null, <betterwithmods:material:8>],
-    [goldcloud, <aether_legacy:swetty_ball>, goldcloud],
+    [goldcloud, <ore:slimeball>, goldcloud],
     [goldcloud, goldcloud, goldcloud]
 ]);
 

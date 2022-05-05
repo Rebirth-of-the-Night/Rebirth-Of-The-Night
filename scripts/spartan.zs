@@ -139,6 +139,12 @@ recipes.addShaped("high_grade_arrow",<spartanweaponry:arrow_diamond>*4,[
     [<ore:feather>]
 ]);
 
+recipes.addShapedMirrored("high_grade_bolt", <spartanweaponry:bolt_diamond> * 4, [
+    [null, null, <ore:gemAny>],
+    [null, <ore:genericMetalNuggets>, null], 
+    [<ore:feather>, null, null]
+]);
+
 // Shapeless handle and pole recipes
 recipes.removeByRecipeName("spartanweaponry:handle_string");
 recipes.addShapeless("string_twine_handle",<spartanweaponry:material:0>,[<ore:stickWood>,<minecraft:string>|<pyrotech:material:14>]);

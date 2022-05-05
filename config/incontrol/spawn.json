@@ -771,7 +771,8 @@
         "amount": 2,
         "perplayer": true
     },
-    "result": "allow"
+    "result": "allow",
+    "potion": "slowness,1000000,1"
  },
  {
     "dimension": 10,

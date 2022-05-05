@@ -698,6 +698,7 @@ animania:kidhurt1
 animania:kidhurt2
 animania:hitch
 animania:unhitch
+betterinvisibility:discovered
 betternether:mob.firefly.fly
 betternether:mob.firefly.hurt_one
 betternether:mob.firefly.hurt_two
