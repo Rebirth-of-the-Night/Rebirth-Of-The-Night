@@ -108,6 +108,8 @@ for mat in dustMat {
 
 StoneKiln.addRecipe("StoneKiln_dustEndorium", <contenttweaker:material_part:26>, <endreborn:item_ingot_endorium>, 20*320, true);
 
+StoneKiln.addRecipe("StoneKiln_dustSFS", <ore:dustSoulforgedSteel>, <betterwithmods:material:14>, 20*320, true);
+
 var rawOre as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril"];
 for mat in rawOre {
     StoneKiln.addRecipe("StoneKiln_rawOre"~mat, oreDict["ingot"~mat].firstItem, oreDict["rawOre"~mat], 20*320, true);
