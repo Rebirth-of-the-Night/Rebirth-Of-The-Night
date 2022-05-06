@@ -43,10 +43,10 @@
   },
   {
     "timeout": 100,
-    "minheight": 128,
+    "minheight": 100,
     "gamestage": "invasionongoing",
 	"damage": "magic=4",
-	"message": "Get below y = 128!"
+	"message": "Get below y = 100!"
   }/*,
   {
     "timeout": 100,

@@ -188,7 +188,7 @@
     }
   },
   "darkskies.bat": {
-    "id": "toroquest:toroquest_vampire_bat",
+    "id": "roughmobsrevamped:hostilebat",
     "effects":[
       {
         "id": "minecraft:glowing",

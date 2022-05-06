@@ -1,10 +1,23 @@
 [
- {
+/* {
     "mob": "aether_legacy:sentry",
     "onjoin": true,
     "healthmultiply": 0.9
-},
-  
+}, */
+
+/////////////////// ANTI SKY BASE ///////////////////
+{
+    "dimension": 4,
+    "mob": "roughmobsrevamped:hostilebat",
+    "minheight": 100,
+	"random": 0.3,
+    "maxcount": {
+        "amount": 3,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+
   // Zombies
 
   //////////////// DEFAULT //////////////////////////
