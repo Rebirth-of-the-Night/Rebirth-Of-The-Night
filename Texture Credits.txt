@@ -9,3 +9,5 @@ Fire // oresources\minecraft\textures\block // fire_layer_0 // PureBDCraft 16x
 Weathered Dirt // resources\contenttweaker\textures\blocks // weathered_dirt // https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis
 Valkyrien Plate // resources\contenttweaker\textures\items // valkyrien_plate // Japes#8538
 Electrum Core // resources\contenttweaker\textures\items // electrum_core // Japes#8538
+Animated Brain // resources\contenttweaker\textures\items //animated_brain // ozymandias#6988 (texture) & Japes#8538 (animation)
+Inventory Food // oresources\cyclicmagic\textures\items // inventory_food // SoulRacer65#3745

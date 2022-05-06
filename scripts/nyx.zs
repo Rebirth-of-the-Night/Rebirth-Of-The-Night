@@ -49,6 +49,8 @@ var ice = <minecraft:ice>;
 var meteorshard = <nyx:meteor_shard>;
 var exorite = <contenttweaker:voidseen_exorite>;
 
+recipes.addShapeless("ooze_to_meteor", <nyx:meteor_shard> * 4, [<contenttweaker:mercurial_ooze>]);
+
 recipes.remove(<nyx:star_block>);
 recipes.addShaped("astral_block", <nyx:star_block> * 4, [
     [lightdust, star, rock],
@@ -86,3 +88,5 @@ Crucible.addStoked(
         <nyx:meteor_ingot>*12
     ]
 );
+
+JEI.addDescription(<contenttweaker:mercurial_ooze>,"A non-euclidean substance of unknown origin. This substance seems capable of slipping in and out of normal 3D space, defies logic, and capable of warping and bending known-space.");

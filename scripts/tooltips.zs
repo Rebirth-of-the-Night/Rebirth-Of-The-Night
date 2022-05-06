@@ -102,6 +102,14 @@
 <atop:amethyst_sword:*>.addTooltip("+1 Reach Distance");
 <atop:amethyst_sword:*>.addTooltip("+5% Attack Speed");
 
+<iceandfire:troll_weapon.axe>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.column>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.column_forest>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.column_frost>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.hammer>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.trunk>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.darkRed("+4 Attack Damage"));
+
 
 // Unsorted
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");

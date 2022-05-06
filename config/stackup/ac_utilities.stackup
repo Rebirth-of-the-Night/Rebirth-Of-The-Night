@@ -1,3 +1,4 @@
 # healing items
 id~="scalinghealth:healingitem:*" *=2
 id="minecraft:mushroom_stew" -> 16
+id="cyclicmagic:inventory_food" -> 1

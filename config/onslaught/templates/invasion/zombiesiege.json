@@ -2,7 +2,7 @@
   "zombiesiege": {
     "selector": {
       "gamestages": {
-        "and": ["enteredBeneath"]
+        "and": ["siegeevent"]
       },
       "weight": 32,
       "dimension": {
@@ -18,11 +18,13 @@
         "/gamerule doMobDrops false"
       ],
       "end": [
-        "/xp 600 @p",
-        "/give @p glaretorch:itemglaretorchsmall 64",
-        "/give @p contenttweaker:raw_viridium 12", 
-        "/give @p mowziesmobs:glowing_jelly 2",
+        "/xp 700 @p",
+        "/give @p glaretorch:itemglaretorchsmall 96",
+        "/give @p contenttweaker:raw_viridium 16", 
+        "/give @p mowziesmobs:glowing_jelly 4",
+        "/give @p minecraft:rotten_flesh 64",
         "/gamestage silentremove @p invasionongoing",
+        "/gamestage silentremove @p siegeevent",
         "/gamerule doMobDrops true"
       ],
       "staged": [
@@ -88,7 +90,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -151,7 +153,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -214,7 +216,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -277,7 +279,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -340,7 +342,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -402,7 +404,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -465,7 +467,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -527,7 +529,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -590,7 +592,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -652,7 +654,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -715,7 +717,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -777,7 +779,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -840,7 +842,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -902,7 +904,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -965,7 +967,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1027,7 +1029,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1090,7 +1092,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1152,7 +1154,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1215,7 +1217,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1277,7 +1279,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1340,7 +1342,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1402,7 +1404,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1465,7 +1467,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1527,7 +1529,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1590,7 +1592,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1652,7 +1654,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1715,7 +1717,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1777,7 +1779,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1840,7 +1842,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1902,7 +1904,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1965,7 +1967,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2027,7 +2029,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2090,7 +2092,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2152,7 +2154,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2215,7 +2217,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2277,7 +2279,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2340,7 +2342,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2402,7 +2404,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2465,7 +2467,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2527,7 +2529,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2590,7 +2592,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2652,7 +2654,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2715,7 +2717,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2777,7 +2779,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2840,7 +2842,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2902,7 +2904,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2965,7 +2967,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -3028,7 +3030,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -3091,7 +3093,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -3154,7 +3156,7 @@
               },
               {
                 "id": "zombiesiege.bomber",
-                "count": [ 1, 2 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [

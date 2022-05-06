@@ -48,6 +48,26 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 	}*/
 });
 
+HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEvent) {
+	if (event.player.world.isRemote()) {
+		return;
+	}
+	
+	//  Gives nausea and poison on eating inventory expander
+	if (event.food.definition.id == <cyclicmagic:inventory_food>.definition.id) {
+		var poison = <potion:minecraft:poison>.makePotionEffect(100, 1, false, true);
+		event.player.addPotionEffect(poison);
+		var nausea = <potion:minecraft:nausea>.makePotionEffect(100, 0, false, true);
+		event.player.addPotionEffect(nausea);
+	}
+});
+
+<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}).itemRightClick = function(stack, world, player, hand) {
+	Commands.call("gamestage silentadd @p siegeevent", player, world);
+	Commands.call("ostart @p zombiesiege", player, world);
+    return "Pass";
+};
+
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
 		if (event.player.world.isRemote()) {

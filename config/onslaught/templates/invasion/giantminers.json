@@ -27,7 +27,7 @@
         "/give @p betterwithmods:wool_chest",
         "/give @p betterwithmods:wool_pants",
         "/give @p betterwithmods:wool_boots",
-        "/xp 1000 @p",
+        "/xp 1200 @p",
         "/gamestage silentremove @p invasionongoing"
       ],
       "staged": [

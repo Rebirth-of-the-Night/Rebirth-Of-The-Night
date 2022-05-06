@@ -6,6 +6,10 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Commands;
 
+// animated brain
+val animated_brain = VanillaFactory.createItem("animated_brain");
+animated_brain.register();
+
 // valkyrie rework
 val valkyrien_plate = VanillaFactory.createItem("valkyrien_plate");
 valkyrien_plate.register();

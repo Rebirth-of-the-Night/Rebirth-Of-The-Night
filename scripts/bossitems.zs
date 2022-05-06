@@ -18,3 +18,34 @@ RecipeBuilder.get("mage")
 .setMinimumTier(1)
 .setMaximumTier(1)
 .create();
+
+// Inventory Expander
+recipes.remove(<cyclicmagic:inventory_food>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:volatile_core>, <contenttweaker:mercurial_ooze>, <contenttweaker:volatile_core>],
+    [<contenttweaker:mercurial_ooze>, <ore:chestEnder>, <contenttweaker:mercurial_ooze>],
+    [<nyx:meteor_dust>, <contenttweaker:volatile_core>, <nyx:meteor_dust>]])
+  .addTool(<contenttweaker:mind_rune>, 1)
+  .addTool(<contenttweaker:creation_rune>, 1)
+  .addOutput(<cyclicmagic:inventory_food>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+// Animated Brain & Rocket
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:vis_speck>, <contenttweaker:raw_viridium>, <contenttweaker:vis_speck>],
+    [<contenttweaker:raw_viridium>, <contenttweaker:brain>, <contenttweaker:raw_viridium>],
+    [<contenttweaker:vis_speck>, <contenttweaker:raw_viridium>, <contenttweaker:vis_speck>]])
+  .addTool(<contenttweaker:mind_rune>, 1)
+  .addTool(<contenttweaker:nature_rune>, 1)
+  .addOutput(<contenttweaker:animated_brain>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
+
+recipes.addShapeless("brain_rocket", <minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}), [<minecraft:fireworks>, <contenttweaker:animated_brain>]);
+<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}).addTooltip(format.darkPurple("Are you sure setting this off is a good idea..?"));
+<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}).displayName = "§cAnimated Brain Dispersion Rocket";
