@@ -394,7 +394,7 @@ for potion in potionMap{
 <spartanweaponry:greatsword_electrum>.displayName = "§cOnyx Slayer Greatsword";
 <spartanweaponry:hammer_electrum>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:hammer_electrum>.displayName = "§cThe Tenderizer";
-<spartanweaponry:hammer_electrum>.addTooltip("Only for the elites meats.");
+<spartanweaponry:hammer_electrum>.addTooltip("Only for the most elite meats.");
 <spartanweaponry:warhammer_electrum>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:warhammer_electrum>.displayName = "§cThe Handle";
 <spartanweaponry:halberd_electrum>.addTooltip(format.red("Godly Weapon"));
@@ -406,4 +406,5 @@ for potion in potionMap{
 <spartanweaponry:boomerang_electrum>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:boomerang_electrum>.displayName = "§cThe 4th Whisper";
 <spartanweaponry:staff_electrum>.addTooltip(format.red("Godly Weapon"));
-<spartanweaponry:staff_electrum>.displayName = "§cRuyi Bang";
+<spartanweaponry:staff_electrum>.addTooltip("Unbreakable will, oh how fragile you are.");
+<spartanweaponry:staff_electrum>.displayName = "§4Ru Yi§6Jin Gu Bang";
