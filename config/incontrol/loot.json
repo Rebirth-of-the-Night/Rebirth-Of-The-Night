@@ -826,7 +826,7 @@
 		"player": false,
 		"item": "contenttweaker:steel_artifact",
 		"itemcount": "1",
-		"random": "0.03"
+		"random": "0.02"
 	},
 	{
 		"mob": ["mod_lavacow:undertaker"],
