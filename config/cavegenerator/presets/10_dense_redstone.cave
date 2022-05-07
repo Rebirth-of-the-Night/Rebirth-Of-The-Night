@@ -12,11 +12,42 @@
       chance: 1
       matchers: [
         undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
         undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
         undergroundbiomes:igneous_stone
+        undergroundbiomes:igneous_stone:1
+        undergroundbiomes:igneous_stone:2
+        undergroundbiomes:igneous_stone:3
+        undergroundbiomes:igneous_stone:4
+        undergroundbiomes:igneous_stone:5
+        undergroundbiomes:igneous_stone:6
+        undergroundbiomes:igneous_stone:7
         rotn_blocks:cave_moss
+        minecraft:cobblestone
+        quark:biome_cobblestone
+        quark:biome_cobblestone:2
+        quark:biome_cobblestone:1
+        quark:elder_prismarine
+        minecraft:packed_ice
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:3
+        minecraft:mossy_cobblestone
+        minecraft:dirt:1
       ]
-      count: 3
+      count: 1
       chance: 0.5
     }
     {
@@ -27,12 +58,43 @@
       chance: 1
       matchers: [
         undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
         undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
         undergroundbiomes:igneous_stone
+        undergroundbiomes:igneous_stone:1
+        undergroundbiomes:igneous_stone:2
+        undergroundbiomes:igneous_stone:3
+        undergroundbiomes:igneous_stone:4
+        undergroundbiomes:igneous_stone:5
+        undergroundbiomes:igneous_stone:6
+        undergroundbiomes:igneous_stone:7
         rotn_blocks:cave_moss
+        minecraft:cobblestone
+        quark:biome_cobblestone
+        quark:biome_cobblestone:2
+        quark:biome_cobblestone:1
+        quark:elder_prismarine
+        minecraft:packed_ice
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:3
+        minecraft:mossy_cobblestone
+        minecraft:dirt:1
       ]
-      count: 2
-      chance: 0.55
+      count: 1
+      chance: 0.5
     }
     {
       name: dense_redstone_3
@@ -42,12 +104,43 @@
       chance: 1
       matchers: [
         undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
         undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
         undergroundbiomes:igneous_stone
+        undergroundbiomes:igneous_stone:1
+        undergroundbiomes:igneous_stone:2
+        undergroundbiomes:igneous_stone:3
+        undergroundbiomes:igneous_stone:4
+        undergroundbiomes:igneous_stone:5
+        undergroundbiomes:igneous_stone:6
+        undergroundbiomes:igneous_stone:7
         rotn_blocks:cave_moss
+        minecraft:cobblestone
+        quark:biome_cobblestone
+        quark:biome_cobblestone:2
+        quark:biome_cobblestone:1
+        quark:elder_prismarine
+        minecraft:packed_ice
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:3
+        minecraft:mossy_cobblestone
+        minecraft:dirt:1
       ]
       count: 1
-      chance: 0.55
+      chance: 0.5
     }
   ]
   replaceDecorators: false

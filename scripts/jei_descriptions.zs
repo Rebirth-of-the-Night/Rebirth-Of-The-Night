@@ -219,7 +219,7 @@ JEI.addDescription(<minecraft:furnace>, "A versatile machine for smelting ores a
 JEI.addDescription(<rustic:wildberries>,"A strong-flavored pome-like fruit that can be prepared or distilled. Carminberries have a highly staining red pigment which make them a perfect red dye.");
 JEI.addDescription(<rustic:wildberry_bush>,"Carminberry bushes are a harmless source of food and they can be multiplied using bone meal. Carminberry bushes grow naturally in most warm and moderate biomes.");
 JEI.addDescription(<rustic:mooncap_mushroom>, "Found in Jungle biomes and caves.");
-JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is only found in mountainous biomes.");
+JEI.addDescription(<rustic:cloudsbluff>,"This puffy white flower is found at high altitudes.");
 JEI.addDescription(<betterwithaddons:thorn_rose>, "A mysterious plant that rapidly grows on sand and will wander towards structures like walls. Causes significant damage and can be harvested for Midori and Thorny Roses.");
 JEI.addDescription(<biomesoplenty:berries>, "A berry extracted from an unwilling hawthorn. Although they are unfulfilling and sour, some animals like them, but they are too hard to get. Horses, especially, may surprise their owners when presented with a prepared hawthorn dish.");
 JEI.addDescription(<biomesoplenty:plant_0:5>, "The common hawthorn bush produces a sour berry and has soft leaves. When under stress or pressure from an external force trying to grab its fruit, its branches will harden and poke any unwanted visitors. The berry itself presents particular properties when prepared and fed to horses.");
@@ -249,10 +249,9 @@ JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount:
 JEI.addDescription(<forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000}),"Sheep Milk is obtained from sheep.");
 
 JEI.addDescription(<minecraft:poisonous_potato>, "Turned rotten through an infectious disease. If fed to certain baby animals, their growth will be stunted forever.");
-JEI.addDescription(<mod_lavacow:parasite_item>, "When used as yeast for liquor, it makes it poisonous, yet undetectable...");
-JEI.addDescription(<mod_lavacow:parasite_item>, "These parasites feed off victims of the ancient plague; an opportunistic creature that took refuge in a grand catastrophe.");
+JEI.addDescription(<mod_lavacow:parasite_item>, "These parasites feed off victims of the ancient plague; an opportunistic creature that took refuge in a grand catastrophe. When used as yeast for liquor, it makes it poisonous, yet undetectable...");
 JEI.addDescription(<mod_lavacow:parasite_item:1>, "These parasites feed off mummies in deserts, which decay much slower thanks to ancient rituals.");
-JEI.addDescription(<mod_lavacow:parasite_item:2>, "These parasites feed off rotting matter like if they were fungi, but will latch onto anything alive. Just like how the evolved to feed off undead outside of jungles.");
+JEI.addDescription(<mod_lavacow:parasite_item:2>, "These parasites feed off rotting matter in the same manner as fungi, but still latch onto anything alive.");
 JEI.addDescription(<exsartagine:yeast>, "This kind of yeast can be obtained by placing down flour on a surface, right-clicking it with a water bottle and waiting until it changes appearance. Breaking the changed block will yield this item.");
 
 /* Mobs and Drops */
@@ -263,7 +262,7 @@ JEI.addDescription(<minecraft:gunpowder>, "The central ingredient of most explos
 JEI.addDescription(<minecraft:skull:3>, "An old village legend claims that a golem named after a specific person carries a sliver of that person's soul… and those who practice forbidden arts can bring forth an echo of that soul to the physical realm. Named Snow Golems equipped with a pumpkin will drop a copy of that person's head if killed by a witch.");
 JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the accursed beast, infused with the energy of a plane outside all else. Its lingering aura can even affect stone.");
 JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
-JEI.addDescription(<quark:tallow>,"Used for making candles or repairing basic gear in an iron anvil. Pigs are a good source of tallow; or you can melt down rotten flesh in a cooking cauldron for a crude source.");
+JEI.addDescription(<quark:tallow>,"Used for making candles or repairing basic gear in an iron anvil. Pigs are a good source of tallow; it can also be obtained by soaking rotten flesh in hot wood alcohol.");
 JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
 JEI.addDescription(<mowziesmobs:glowing_jelly>,"Puffbulbs are particularly fragile creatures that sustain themselves by absorbing energy from a living mineral, surviving against all odds amidst the horrors of the Beneath.");
 JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken...");
@@ -368,7 +367,7 @@ JEI.addDescription(<quark:chain>, "A small chain such as this can be used to lin
 JEI.addDescription(<minecraft:minecart>, "Sneak and right click with dye in hand to color minecarts!");
 JEI.addDescription(<minecraft:lead>, "Besides leading creatures by hand, leads can be tied to a fence or even between two fences to create a connection. Some creatures will never submit to a lead - for that, the use of a refined chain is required.");
 
-JEI.addDescription(<quark:chute>, "A glorified funnel. Items deposited in a chute by a hopper will be expelled directly beneath it.");
+JEI.addDescription(<quark:chute>, "A glorified funnel. Items fed into an item chute by a hopper will be expelled directly beneath it.");
 JEI.addDescription(<quark:grate>, "Most animals will never attempt to walk over the precarious-looking surface of a grate. Items, however, will fall right through.");
 
 JEI.addDescription(<quark:iron_rod>, "Useful for structural support, but most prized as a powerful mining tool. When pushed by a piston, it can pierce through almost anything.");

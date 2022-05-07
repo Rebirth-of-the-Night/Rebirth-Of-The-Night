@@ -95,7 +95,7 @@ tile.contenttweaker.refracotta_yellow.name=Yellow Refracotta
 tile.contenttweaker.sacred_oak_boards.name=Sacred Oak Nailed Boards
 tile.contenttweaker.salt_pan.name=Salt Pan
 tile.contenttweaker.salty_crust.name=Arid Tuff
-tile.contenttweaker.scab.name=Scab
+tile.contenttweaker.scab.name=Scab Layer
 tile.contenttweaker.scaffolding.name=Decaying Scaffolding
 tile.contenttweaker.seasoned_stump.name=Seasoned Stump
 tile.contenttweaker.skywood_boards.name=Skyroot Nailed Boards
@@ -115,6 +115,7 @@ tile.contenttweaker.voided_rock.name=Voided Rock
 tile.contenttweaker.willow_boards.name=Willow Nailed Boards
 tile.contenttweaker.witheredblock.name=Block of Wither Ashes
 tile.contenttweaker.wyrmwood_boards.name=Wyrmwood Nailed Boards
+tile.contenttweaker.codex_junk.name=Discarded Codex
 
 #------------------------------------------------------------------------------
 # Unorganized items

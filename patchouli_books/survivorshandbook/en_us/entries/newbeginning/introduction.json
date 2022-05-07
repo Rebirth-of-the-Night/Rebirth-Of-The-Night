@@ -36,7 +36,7 @@
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)To see the crafting recipe of something, left click on it. To see what recipes it can be used in, right click on it.$(br2)Be sure to view all the tabs above (circled red), as stuff can be used in more than just the standard crafting table. To the top left of the recipe window, there will be an icon that will show the station(s) that recipe is done in (circled green). Clicking on the icon(s) will tell you how to craft the station itself.$()"
+      "text": "$(italics)$(#a84b0f)To see the crafting recipe of something, left click on it. To see what recipes it can be used in, right click on it.$(br2)Be sure to view all the tabs above (circled red), as stuff can be used in more than just the standard crafting table. To the top left of the recipe window, there will be an icon that will show the station(s) that recipe is done in (circled green). Left clicking on the icon(s) will tell you how to craft the station itself.$()"
     },
     {
       "type": "image",
@@ -47,7 +47,7 @@
     },
     {
       "type": "text",
-      "text": "$(italics)$(#a84b0f)If you already have an item or block in your inventory, you can hover your mouse over it and press 'R' on it to see its recipe(s). Pressing 'U' will show the recipes it's used in.$(br2)Make a habit of doing this whenever you come across new blocks or items! It will make your RotN experience a whole lot easier and more convenient, as well as your time in modded Minecraft generally!$()"
+      "text": "$(italics)$(#a84b0f)If you already have an item or block in your inventory, you can hover your mouse over it and press 'R' on it to see its recipe(s). Pressing 'U' will show the recipes it's used in.$(br2)Make a habit of doing this whenever you come across new blocks or items! Slowly learning recipes and tricks to make your resources stretch further is crucial if you want to thrive in RotN. It'll make playing other modpacks easier, too.$()"
     },
     {
       "type": "text",

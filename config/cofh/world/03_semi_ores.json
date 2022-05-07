@@ -22,7 +22,7 @@
 			"ground-level": 60,
 			"chunk-chance": 2,
 			"retrogen": "true"
-		}
+		},
 		"ancient_slag": {
 			"distribution": "gaussian",
 			"generator": {

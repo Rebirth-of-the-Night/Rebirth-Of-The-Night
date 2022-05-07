@@ -1,5 +1,5 @@
 {
-  "name": "Getting Food: Foraging",
+  "name": "Food: Foraging",
   "icon": "rustic:wildberries",
   "category": "survival_newbeginning",
   "sortnum": 5,
@@ -8,34 +8,33 @@
       "type": "spotlight",
       "item": "minecraft:apple",
       "title": "Getting Food",
-      "text": "Doing all that gathering and crafting sure has made me hungry. I'll need to rely on the land for now to provide me with a meal; I can worry about farming up my own grub later, once I've got a base of operations set up.$(br2)I should start moving about to see what's on the menu."
+      "text": "Doing all that gathering and crafting sure has made me hungry.$(br2)I'll need to rely on the land for now to provide me with a meal; I can worry about farming up my own grub later, once I've got a base of operations established. $(br2)Being thrown in the wild"
     },
-	{
-      "type": "item_list_spotlight",
-      "title": "Cooking",
-      "text": "Most food is better cooked than raw. In order of complexity, places to cook would go like this:",
-      "a":"pyrotech:campfire",
-      "a_t":"Campfires can cook food and provide buffs when resting by their side.",
-      "a_i":"book:hover_icon.png",
-      "b":"minecraft:furnace",
-      "b_t":"A rock furnace is a solid option for cooking and smelting ores. Not too healthy...",
-      "b_i":"book:hover_icon.png",
-      "c":"futuremc:smoker",
-      "c_t":"A specialized furnace; faster, but can only cook food. Tasty and no traces of tin in your meat.",
-      "c_i":"book:hover_icon.png",
-      "d":"ironfurnaces:iron_furnace_idle",
-      "d_t":"A prettier counterpart to the rock furnace made of mud bricks.",
-      "d_i":"book:hover_icon.png",
-      "e":"ironfurnaces:gold_furnace_idle",
-      "e_t":"A 25% more efficient clay brick furnace. Better all-around.",
-      "e_i":"book:hover_icon.png",
-      "f":"ironfurnaces:diamond_furnace_idle",
-      "f_t":"A 75% more efficient masonry brick furnace. One of the most practical options.",
-      "f_i":"book:hover_icon.png",
-      "g":"betterwithmods:cooking_pot:1",
-      "g_t":"Only requires a lit fire under it and can cook in bulk.",
-      "g_i":"book:hover_icon.png",
-      "text2": "Not everything edible I can find needs cooking, but for the things that do, a campfire or rock furnace will be the most convenient choices."
+    {
+      "type": "text",
+      "text": "like this... I'd better get good at learning how to forage for edible plants. While wild food might not be the most palatable, it's plentiful, easy to grow, and will keep me full at the end of the day.$(br2)Recognizing what's safe to eat is crucial to making sure I'm well nourished; it would do me good to keep track of those plants.$(br2)I should start moving about to see what's on the menu."
+    },
+    {
+      "type": "spotlight",
+      "item": "rustic:ginseng",
+      "text": "Ginseng is a common tuber root that can be found in temperate biomes like forests or plains. Its fully grown appearance is similar to a poppy flower - I should pay close attention if I want to spot it. While not very filling, they make up for it by being very unfussy to cultivate; no tilled soil or water"
+    },
+    {
+      "type": "image",
+      "images": ["book:images/1foraging.png"],
+      "border": "true",
+      "text": "is required to plant and grow them, just good ol' dirt or grass."
+    },
+    {
+      "type": "spotlight",
+      "item": "rustic:marsh_mallow",
+      "text": "Marsh mallow is a dense tuber that grows in swampy, marshy, or boggy areas. "
+    },
+    {
+      "type": "image",
+      "images": ["book:images/1foraging.png"],
+      "border": "true",
+      "text": "is required to plant and grow them, just good ol' dirt or grass."
     },
     {
       "type": "relations",

@@ -550,8 +550,8 @@ Cauldron.builder()
 .setPriority(3)
 .build();
 
-Cauldron.addUnstoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
-Cauldron.addStoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
+Cauldron.addStoked([<betterwithmods:material:16>,<quark:tallow>],[<betterwithmods:material:29>]);
+Cauldron.addUnstoked([<betterwithmods:material:21>,<quark:tallow>],[<betterwithmods:material:50>]);
 
 // Cyclic Apple
 FilteredHopper.addFilter("modtweaker:livingSoul", <pyrotech:living_tar>);
