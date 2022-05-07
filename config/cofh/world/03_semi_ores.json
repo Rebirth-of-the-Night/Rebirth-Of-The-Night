@@ -41,9 +41,9 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-			"center-height": 60,
-			"spread": 20,
-			"chunk-chance": 15,
+			"center-height": 50,
+			"spread": 25,
+			"chunk-chance": 11,
 			"retrogen": "true"
 		},
 		"arid_desert_halite": {
