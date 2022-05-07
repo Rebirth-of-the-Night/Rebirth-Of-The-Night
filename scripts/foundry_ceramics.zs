@@ -306,7 +306,7 @@ Melting.addRecipe(<liquid:gravitite>*16, <ore:nuggetGravitite>, 1750);
 
 Melting.addRecipe(<liquid:knightmetal>*144, <ore:ingotKnightmetal>, 2350);
 Melting.addRecipe(<liquid:ironwood>*144, <ore:ingotIronwood>, 2350);
-Melting.addRecipe(<liquid:steeleaf>*144, <<ore:ingotSteeleaf>>, 2350);
+Melting.addRecipe(<liquid:steeleaf>*144, <ore:ingotSteeleaf>, 2350);
 Melting.addRecipe(<liquid:fiery>*144, <ore:ingotFiery>, 2350);
 
 Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450); // miscellaneous melting
