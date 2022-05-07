@@ -1,0 +1,25 @@
+setIcon("twilightforest:fiery_chestplate")
+setTitle("On Fire")
+setDescription("Complete the On Fire set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Fiery Helmet", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:fiery_helmet")
+
+criteria = addCriteria("Fiery Chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:fiery_chestplate")
+
+criteria = addCriteria("Fiery Leggings", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:fiery_leggings")
+
+criteria = addCriteria("Fiery Boots", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:fiery_boots")
+
+criteria = addCriteria("Fiery Pickaxe", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:fiery_pickaxe")
+
+
+hideLines()
+alwaysVisible()
+setPos(360,15)
