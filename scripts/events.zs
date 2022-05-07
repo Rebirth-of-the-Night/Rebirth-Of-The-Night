@@ -21,6 +21,10 @@ import crafttweaker.event.PlayerInteractEntityEvent;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.PlayerSleepInBedEvent;
 import crafttweaker.event.PlayerTickEvent;
+import crafttweaker.command.ICommandManager;
+import crafttweaker.command.ICommand;
+import crafttweaker.command.ICommandSender;
+import mods.contenttweaker.IItemRightClick;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.WeightedItemStack;
@@ -55,18 +59,12 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 	
 	//  Gives nausea and poison on eating inventory expander
 	if (event.food.definition.id == <cyclicmagic:inventory_food>.definition.id) {
-		var poison = <potion:minecraft:poison>.makePotionEffect(100, 1, false, true);
+		var poison = <potion:minecraft:poison>.makePotionEffect(100, 2, false, true);
 		event.player.addPotionEffect(poison);
-		var nausea = <potion:minecraft:nausea>.makePotionEffect(100, 0, false, true);
+		var nausea = <potion:minecraft:nausea>.makePotionEffect(200, 0, false, true);
 		event.player.addPotionEffect(nausea);
 	}
 });
-
-<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}).itemRightClick = function(stack, world, player, hand) {
-	Commands.call("gamestage silentadd @p siegeevent", player, world);
-	Commands.call("ostart @p zombiesiege", player, world);
-    return "Pass";
-};
 
 events.onEntityLivingUseItemFinish(function(event as crafttweaker.event.EntityLivingUseItemEvent.Finish) {
 	if (event.isPlayer) {
@@ -128,6 +126,22 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		return;
 	}
 	
+	// zombie siege invasion
+	/*if (event.block.definition.id == "minecraft:fire" || event.block.definition.id == "minecraft:grass") {
+		var mhItem = event.player.getEntityEquipmentSlot(IEntityEquipmentSlot.mainHand());
+		var ohItem = event.player.getEntityEquipmentSlot(IEntityEquipmentSlot.offhand());
+
+		if (!isNull(mhItem) && mhItem.matches(<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}))) {
+			event.player.addGameStage("siegeevent");
+			event.player.sendChat("The rancid smell of burnt gray matter rains down on you; the next invasion is gonna be rough...");
+		} else {
+			if (!isNull(ohItem) && ohItem.matches(<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}))) {
+				event.player.addGameStage("siegeevent");
+				event.player.sendChat("The rancid smell of burnt gray matter rains down on you; the next invasion is gonna be rough...");
+			}
+		}
+	}*/
+
 	// Fix flimsy bucket on hc well
 	if (event.block.definition.id == "harvestcraft:well") {
 		var mhItem = event.player.mainHandHeldItem;
@@ -146,6 +160,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		}
 		return;
 	}
+
 
 	// Wet pastry
 	if (event.block.definition.id == "betterwithmods:raw_pastry" && event.block.meta == 3) {
@@ -533,3 +548,26 @@ events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedE
 		event.result = "OTHER_PROBLEM";
 	}
 });
+/*
+events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent) {
+    var player as IPlayer = event.player as IPlayer;
+    if (player.activePotionEffects.length != 0){
+        for p in player.activePotionEffects {
+            if (p.effectName.matches("extraalchemy:effect.leech")) {
+				var mhItem = event.player.getItemInSlot(IEntityEquipmentSlot.mainHand());
+				var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
+				if (!isNull(mhItem) && <mowziesmobs:ice_crystal:*>.matches(mhItem)) {
+					player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
+    				return "Pass";
+				} else {
+					if (!isNull(ohItem) && <mowziesmobs:ice_crystal:*>.matches(ohItem)) {
+						player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
+						return "Pass";
+					}
+				}
+            }
+        }
+    }
+}); 
+*/
+

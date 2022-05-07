@@ -110,6 +110,8 @@
 <iceandfire:troll_weapon.trunk>.addTooltip(format.darkRed("+4 Attack Damage"));
 <iceandfire:troll_weapon.trunk_frost>.addTooltip(format.darkRed("+4 Attack Damage"));
 
+/*<mowziesmobs:ice_crystal>.addTooltip(format.darkRed("Using this while you have the Leech effect active will severely drain your health!"));*/
+
 
 // Unsorted
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");

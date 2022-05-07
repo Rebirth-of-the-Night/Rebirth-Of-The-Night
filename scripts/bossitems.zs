@@ -24,7 +24,7 @@ recipes.remove(<cyclicmagic:inventory_food>);
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:volatile_core>, <contenttweaker:mercurial_ooze>, <contenttweaker:volatile_core>],
-    [<contenttweaker:mercurial_ooze>, <ore:chestEnder>, <contenttweaker:mercurial_ooze>],
+    [<contenttweaker:mercurial_ooze>, <deadmanssatchel:deadmanssatchel>, <contenttweaker:mercurial_ooze>],
     [<nyx:meteor_dust>, <contenttweaker:volatile_core>, <nyx:meteor_dust>]])
   .addTool(<contenttweaker:mind_rune>, 1)
   .addTool(<contenttweaker:creation_rune>, 1)
@@ -46,6 +46,5 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
-recipes.addShapeless("brain_rocket", <minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}), [<minecraft:fireworks>, <contenttweaker:animated_brain>]);
-<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}).addTooltip(format.darkPurple("Are you sure setting this off is a good idea..?"));
-<minecraft:fireworks>.withTag({display: {Name: "Animated Brain Dispersion Rocket"}, Fireworks: {Flight: 3, Explosions: [{Type: 1, Trail: 1 as byte, Colors: [14188952] as int[], Flicker: 1 as byte, FadeColors: [11743532] as int[]}]}}).displayName = "§cAnimated Brain Dispersion Rocket";
+recipes.addShapeless("brain_rocket", <contenttweaker:brain_rocket>, [<minecraft:fireworks>, <contenttweaker:animated_brain>]);
+<contenttweaker:brain_rocket>.addTooltip(format.darkPurple("Are you sure setting this off is a good idea..?"));

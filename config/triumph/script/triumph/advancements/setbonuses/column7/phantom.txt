@@ -1,0 +1,15 @@
+setIcon("twilightforest:phantom_chestplate")
+setTitle("Ethereal Form")
+setDescription("Complete the Ethereal Form set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Phantom Helmet", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:phantom_helmet")
+
+criteria = addCriteria("Phantom Chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:phantom_chestplate")
+
+hideLines()
+alwaysVisible()
+setPos(360,45)

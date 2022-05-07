@@ -18,4 +18,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/column0/ferrousgiant/bo
 
 hideLines()
 alwaysVisible()
-setPos(0,0)
+setPos(0,-15)

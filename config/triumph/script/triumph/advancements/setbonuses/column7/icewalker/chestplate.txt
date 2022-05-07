@@ -1,0 +1,19 @@
+setIcon("twilightforest:yeti_chestplate")
+setTitle("Ice Walker")
+setDescription("Complete the Ice Walker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Yeti chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:yeti_chestplate")
+
+criteria = addCriteria("Arctic chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:arctic_chestplate")
+
+setRequirements("any")
+
+alwaysHidden()
+setPos(-113,145)

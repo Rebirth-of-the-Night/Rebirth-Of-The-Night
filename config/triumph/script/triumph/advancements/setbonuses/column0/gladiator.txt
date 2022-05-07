@@ -48,4 +48,4 @@ setRequirements("any", ["Bronze Shield", "Bronze Boots", "Bronze Leggings", "Bro
 
 hideLines()
 alwaysVisible()
-setPos(0,90)
+setPos(0,75)

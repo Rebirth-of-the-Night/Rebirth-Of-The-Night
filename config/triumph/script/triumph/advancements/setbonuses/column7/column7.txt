@@ -13,4 +13,22 @@ criteria.setAdvancement("triumph:advancements/setbonuses/column7/dragonsteelFire
 criteria = addCriteria("dragonsteelIce", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column7/dragonsteelIce")
 
+criteria = addCriteria("steeleaf", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/steeleaf")
+
+criteria = addCriteria("phantom", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/phantom")
+
+criteria = addCriteria("fiery", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/fiery")
+
+criteria = addCriteria("knightly", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/knightly")
+
+criteria = addCriteria("ironroot", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/ironroot")
+
+criteria = addCriteria("icewalker", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/icewalker")
+
 alwaysHidden()

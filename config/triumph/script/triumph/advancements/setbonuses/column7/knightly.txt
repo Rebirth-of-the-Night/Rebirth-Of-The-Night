@@ -1,0 +1,24 @@
+setIcon("twilightforest:knightmetal_chestplate")
+setTitle("The Behemoth")
+setDescription("Complete the The Behemoth set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Knightly Helmet", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:knightmetal_helmet")
+
+criteria = addCriteria("Knightly Chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:knightmetal_chestplate")
+
+criteria = addCriteria("Knightly Leggings", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:knightmetal_leggings")
+
+criteria = addCriteria("Knightly Boots", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:knightmetal_boots")
+
+criteria = addCriteria("Knightly Sword", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:knightmetal_sword")
+
+hideLines()
+alwaysVisible()
+setPos(360,75)

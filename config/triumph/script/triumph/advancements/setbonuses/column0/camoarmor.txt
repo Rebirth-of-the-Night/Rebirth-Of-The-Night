@@ -1,0 +1,23 @@
+setIcon("primitivemobs:camouflage_chestplate")
+setTitle("Impercetible Step")
+setDescription("Complete the Impercetible Step set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+// addRewardFunction("triumph:fullEarlyArmor")
+
+criteria = addCriteria("Camo Helmet", "minecraft:inventory_changed")
+criteria.addItem("primitivemobs:camouflage_helmet")
+
+criteria = addCriteria("Camo Chestplate", "minecraft:inventory_changed")
+criteria.addItem("primitivemobs:camouflage_chestplate")
+
+criteria = addCriteria("Camo Leggings", "minecraft:inventory_changed")
+criteria.addItem("primitivemobs:camouflage_leggings")
+
+criteria = addCriteria("Camo Boots", "minecraft:inventory_changed")
+criteria.addItem("primitivemobs:camouflage_boots")
+
+hideLines()
+alwaysVisible()
+setPos(0,165)

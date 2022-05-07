@@ -14,6 +14,10 @@ addMaterial("Mythril", "4390F5", ["nugget","molten","dust"], [2500, 4750, 10, 55
 addMaterial("Viridium", "4CEF5A", ["nugget","molten","dust"], [2500, 3860, 9, 3200], ["nugget"]);
 addMaterial("Soulforged Steel", "535052", ["molten","dust"], [2350, 8050, 10, 1800], [""]);
 addMaterial("Onyx Alloy", "280606", ["molten"], [2650, 6125, 9, 5700], [""]);
+addMaterial("Knightmetal", "A7B893", ["molten"], [2350, 8050, 10, 1800], [""]);
+addMaterial("Ironwood", "72635B", ["molten"], [2350, 8050, 10, 1800], [""]);
+addMaterial("Fiery", "312024", ["molten"], [2350, 8050, 10, 1800], [""]);
+addMaterial("Steeleaf", "51883A", ["molten"], [2350, 8050, 10, 1800], [""]);
 addMaterial("Coade Stone", "301807", ["molten"], [1375, 3100, 8, 4900], [""]);
 addMaterial("Endorium", "219484", ["dust"], [0], [""]);
 addMaterial("Crucible Steel", "3E3E3E", ["dust"], [0], [""]);

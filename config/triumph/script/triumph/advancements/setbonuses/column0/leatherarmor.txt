@@ -21,4 +21,4 @@ criteria.addItem("atop:mud_axe")
 
 hideLines()
 alwaysVisible()
-setPos(0,-30)
+setPos(0,-45)

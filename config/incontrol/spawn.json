@@ -544,7 +544,7 @@
     "result": "deny"
  },
  
-  {
+  /*{
     "mob": "minecraft:sheep",
     "onjoin": true,
     "result": "deny"
@@ -554,7 +554,7 @@
     "mob": "minecraft:cow",
     "onjoin": true,
     "result": "deny"
- },
+ },*/
  
   {
     "mob": "minecraft:chicken",

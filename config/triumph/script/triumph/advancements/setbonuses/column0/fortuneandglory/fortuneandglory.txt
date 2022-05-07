@@ -18,4 +18,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/column0/fortuneandglory
 
 hideLines()
 alwaysVisible()
-setPos(0,150)
+setPos(0,135)

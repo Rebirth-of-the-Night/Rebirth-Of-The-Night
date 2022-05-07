@@ -1,0 +1,24 @@
+setIcon("twilightforest:steeleaf_chestplate")
+setTitle("Verdant Swiftness")
+setDescription("Complete the Verdant Swiftness set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Steeleaf Helmet", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:steeleaf_helmet")
+
+criteria = addCriteria("Steeleaf Chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:steeleaf_chestplate")
+
+criteria = addCriteria("Steeleaf Leggings", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:steeleaf_leggings")
+
+criteria = addCriteria("Steeleaf Boots", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:steeleaf_boots")
+
+criteria = addCriteria("Steeleaf Sword", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:steeleaf_sword")
+
+hideLines()
+alwaysVisible()
+setPos(360,107)

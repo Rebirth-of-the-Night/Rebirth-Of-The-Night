@@ -28,4 +28,10 @@ criteria.setAdvancement("triumph:advancements/setbonuses/column0/powerfulPunches
 criteria = addCriteria("silverarmor", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column0/silverarmor")
 
+criteria = addCriteria("clayarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/clayarmor")
+
+criteria = addCriteria("camoarmor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column0/camoarmor")
+
 alwaysHidden()

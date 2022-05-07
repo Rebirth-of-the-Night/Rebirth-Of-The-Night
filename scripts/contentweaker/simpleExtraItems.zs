@@ -5,6 +5,24 @@ import mods.contenttweaker.ItemFood;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Commands;
+import mods.contenttweaker.IItemRightClick;
+
+
+// brain firework
+var brainfirework = VanillaFactory.createItem("brain_rocket");
+
+brainfirework.maxStackSize = 1;
+brainfirework.itemRightClick = function(stack, world, player, hand) {
+	# Return early in the function if the world is on the client side. Prevents serious desyncs.
+    if(world.isRemote()) { return "PASS"; }
+
+    Commands.call("gamestage silentadd @p siegeevent", player, world, false, true);
+    Commands.call("summon fireworks_rocket ~ ~+1 ~ {LifeTime:30,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11743532,3887386,14188952]}]}}}}", player, world, false, true);
+    Commands.call('tellraw @p ["",{"text":"Burnt brain matter scatters down across the area as your rocket sets off; you have an uneasy feeling about the next invasion...","color":"red","italic":true}]', player, world, false, true);
+    stack.shrink(1);
+    return "SUCCESS";
+};
+brainfirework.register();
 
 // animated brain
 val animated_brain = VanillaFactory.createItem("animated_brain");

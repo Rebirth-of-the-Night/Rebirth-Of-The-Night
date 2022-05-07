@@ -1,0 +1,22 @@
+setIcon("twilightforest:yeti_chestplate")
+setTitle("Ice Walker")
+setDescription("Complete the Ice Walker set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+
+criteria = addCriteria("TF Leather Helmet", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/icewalker/helmet")
+
+criteria = addCriteria("TF Leather Chestplate", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/icewalker/chestplate")
+
+criteria = addCriteria("TF Leather Leggings", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/icewalker/leggings")
+
+criteria = addCriteria("TF Leather Boots", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/icewalker/boots")
+
+hideLines()
+alwaysVisible()
+setPos(360,-45)

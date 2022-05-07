@@ -1,0 +1,23 @@
+setIcon("ceramics:clay_chestplate")
+setTitle("Clay Soldier")
+setDescription("Complete the Clay Soldier set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+// addRewardFunction("triumph:fullEarlyArmor")
+
+criteria = addCriteria("Clay Helmet", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_helmet")
+
+criteria = addCriteria("Clay Chestplate", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_chestplate")
+
+criteria = addCriteria("Clay Leggings", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_leggings")
+
+criteria = addCriteria("Clay Boots", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_boots")
+
+hideLines()
+alwaysVisible()
+setPos(0,195)

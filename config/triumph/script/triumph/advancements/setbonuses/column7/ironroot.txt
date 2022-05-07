@@ -1,0 +1,24 @@
+setIcon("twilightforest:ironwood_chestplate")
+setTitle("Natural Wrath")
+setDescription("Complete the Natural Wrath set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Ironroot Helmet", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:ironwood_helmet")
+
+criteria = addCriteria("Ironroot Chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:ironwood_chestplate")
+
+criteria = addCriteria("Ironroot Leggings", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:ironwood_leggings")
+
+criteria = addCriteria("Ironroot Boots", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:ironwood_boots")
+
+criteria = addCriteria("Ironroot Sword", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:ironwood_sword")
+
+hideLines()
+alwaysVisible()
+setPos(360,-15)

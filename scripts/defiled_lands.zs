@@ -108,13 +108,20 @@ recipes.addShaped("ravaging_shovel",<defiledlands:ravaging_shovel>,[
 
 recipes.remove(<defiledlands:the_ravager>);
 recipes.addShaped("the_ravager",<defiledlands:the_ravager>,[
-[<quark:pipe>, <defiledlands:black_heart>, <betterwithmods:material:27>],
-[<ore:genericMetal>, <ore:genericMetal>, <minecraft:repeater>],
-[null, null, <ore:genericMetal>]
+[<quark:pipe>, <defiledlands:black_heart>, <arcaneworld:molten_core>],
+[<simpleores:mythril_ingot>, <simpleores:mythril_ingot>, <quark:redstone_inductor>],
+[null, null, <simpleores:mythril_ingot>]
+]);
+
+recipes.remove(<defiledlands:umbra_blaster>);
+recipes.addShaped(<defiledlands:umbra_blaster>,[
+[<quark:pipe>, <mod_lavacow:mootenheart>, <arcaneworld:molten_core>],
+[<simpleores:mythril_ingot>, <simpleores:mythril_ingot>, <quark:redstone_inductor>],
+[null, null, <simpleores:mythril_ingot>]
 ]);
 
 recipes.remove(<defiledlands:pellet_umbrium>);
-Casting.addRecipe(<defiledlands:pellet_umbrium>*4, <liquid:soulforged_steel>*144, <foundry:mold:21>, <ore:gemZanite>);
+Casting.addRecipe(<defiledlands:pellet_umbrium>*16, <liquid:soulforged_steel>*72, <foundry:mold:21>, <ore:gemZanite>);
 
 recipes.removeByRecipeName("defiledlands:misc/pellet_ravaging");
 
