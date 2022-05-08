@@ -22,6 +22,9 @@ var dragonScaleSapphireArmor = itemUtils.getItemsByRegexRegistryName("iceandfire
 var dragonScaleSilverArmor = itemUtils.getItemsByRegexRegistryName("iceandfire:armor_silver_(helmet|chestplate|leggings|boots)") as IItemStack[];
 var soulforgedSteelArmor = itemUtils.getItemsByRegexRegistryName("betterwithmods:steel_(helmet|chest|pants|boots)") as IItemStack[];
 var meteorArmor = itemUtils.getItemsByRegexRegistryName("nyx:meteor_(helm|chest|pants|boots)") as IItemStack[];
+var knightlyArmor = itemUtils.getItemsByRegexRegistryName("twilightforest:knightmetal_(helmet|chestplate|leggings|boots)") as IItemStack[];
+var fieryArmor = itemUtils.getItemsByRegexRegistryName("twilightforest:fiery_(helmet|chestplate|leggings|boots)") as IItemStack[];
+var arcticArmor = itemUtils.getItemsByRegexRegistryName("twilightforest:arctic_(helmet|chestplate|leggings|boots)") as IItemStack[];
 
 var anvilArmorMap = {
     <ore:ingotMythril> : mythrilArmor,
@@ -38,11 +41,42 @@ var anvilArmorMap = {
     <iceandfire:dragonscales_sapphire> : dragonScaleSapphireArmor,
     <iceandfire:dragonscales_silver> : dragonScaleSilverArmor,
     <betterwithmods:material:14> : soulforgedSteelArmor,
-    <nyx:meteor_ingot> : meteorArmor
+    <ore:ingotKnightmetal> : knightlyArmor,
+    <ore:ingotFiery> : fieryArmor,
+    <ore:furArctic> : arcticArmor
+
 } as IItemStack[][IIngredient];
 
 var plateArmor = <betterwithmods:material:42>;
 var counter = 0;
+
+Anvil.addShaped(<aether_legacy:phoenix_helmet>,[
+    [<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>, <contenttweaker:valkyrien_plate>],
+    [<arcaneworld:molten_core>, null, null, null],
+    [<arcaneworld:molten_core>, null, null, null],
+    [<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>, <contenttweaker:valkyrien_plate>]
+]);
+
+Anvil.addShaped(<aether_legacy:phoenix_chestplate>,[
+    [<contenttweaker:valkyrien_plate>, <arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>],
+    [null, <arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>],
+    [null, <arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>],
+    [<contenttweaker:valkyrien_plate>, <arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>]
+]);
+
+Anvil.addShaped(<aether_legacy:phoenix_leggings>,[
+    [<arcaneworld:molten_core>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>],
+    [<arcaneworld:molten_core>, <arcaneworld:molten_core>, null, null],
+    [<arcaneworld:molten_core>, <arcaneworld:molten_core>, null, null],
+    [<arcaneworld:molten_core>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>, <contenttweaker:valkyrien_plate>]
+]);
+
+Anvil.addShaped(<aether_legacy:phoenix_boots>,[
+    [null, null, <arcaneworld:molten_core>],
+    [<arcaneworld:molten_core>, <arcaneworld:molten_core>, <contenttweaker:valkyrien_plate>],
+    [<arcaneworld:molten_core>, <arcaneworld:molten_core>, <contenttweaker:valkyrien_plate>],
+    [null, null, <arcaneworld:molten_core>]
+]);
 
 Anvil.addShaped(<aether_legacy:valkyrie_helmet>,[
     [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>, <contenttweaker:valkyrien_plate>],
@@ -73,11 +107,123 @@ Anvil.addShaped(<aether_legacy:valkyrie_boots>,[
 ]);
 
 Anvil.addShaped(<aether_legacy:valkyrie_lance>,[
-    [null, null, <ore:ingotElectrum>, <ore:ingotElectrum>],
-    [null, <ore:ingotElectrum>, <spartanfire:witherbone_handle>, <ore:ingotElectrum>],
-    [null, <spartanfire:witherbone_handle>, <ore:ingotElectrum>, null],
-    [<contenttweaker:electrum_core>, null, null, null]
+    [null, null, null, <contenttweaker:electrum_core>],
+    [null, <ore:ingotElectrum>, <spartanfire:witherbone_handle>, null],
+    [<ore:ingotElectrum>, <spartanfire:witherbone_handle>, <ore:ingotElectrum>, null],
+    [<ore:ingotElectrum>, <ore:ingotElectrum>, null, null]
 ]);
+
+recipes.remove(<twilightforest:steeleaf_boots>);
+Anvil.addShaped(<twilightforest:steeleaf_boots>.withTag({ench: [{lvl: 2 as short, id: 2 as short}]}),[
+    [null, null, <ore:ingotSteeleaf>],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor],
+    [null, null, <ore:ingotSteeleaf>]
+    ]);
+
+recipes.remove(<twilightforest:steeleaf_chestplate>);
+Anvil.addShaped(<twilightforest:steeleaf_chestplate>.withTag({ench: [{lvl: 2 as short, id: 1 as short}]}),[
+    [plateArmor, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>],
+    [null, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>],
+    [null, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>],
+    [plateArmor, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>]
+    ]);
+
+recipes.remove(<twilightforest:steeleaf_helmet>);
+Anvil.addShaped(<twilightforest:steeleaf_helmet>.withTag({ench: [{lvl: 2 as short, id: 3 as short}]}),[
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor],
+    [<ore:ingotSteeleaf>, null, null, null],
+    [<ore:ingotSteeleaf>, null, null, null],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor]
+    ]);
+
+recipes.remove(<twilightforest:steeleaf_leggings>);
+Anvil.addShaped(<twilightforest:steeleaf_leggings>.withTag({ench: [{lvl: 2 as short, id: 4 as short}]}),[
+    [<ore:ingotSteeleaf>, plateArmor, plateArmor, plateArmor],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, null, null],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, null, null],
+    [<ore:ingotSteeleaf>, plateArmor, plateArmor, plateArmor]
+    ]);
+
+recipes.remove(<twilightforest:ironwood_boots>);
+Anvil.addShaped(<twilightforest:ironwood_boots>.withTag({ench: [{lvl: 1 as short, id: 2 as short}]}),[
+    [null, null, <ore:ingotIronwood>],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor],
+    [null, null, <ore:ingotIronwood>]
+    ]);
+
+recipes.remove(<twilightforest:ironwood_chestplate>);
+Anvil.addShaped(<twilightforest:ironwood_chestplate>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}),[
+    [plateArmor, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>],
+    [null, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>],
+    [null, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>],
+    [plateArmor, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>]
+    ]);
+
+recipes.remove(<twilightforest:ironwood_helmet>);
+Anvil.addShaped(<twilightforest:ironwood_helmet>.withTag({ench: [{lvl: 1 as short, id: 6 as short}]}),[
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor],
+    [<ore:ingotIronwood>, null, null, null],
+    [<ore:ingotIronwood>, null, null, null],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor]
+    ]);
+
+recipes.remove(<twilightforest:ironwood_leggings>);
+Anvil.addShaped(<twilightforest:ironwood_leggings>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}),[
+    [<ore:ingotIronwood>, plateArmor, plateArmor, plateArmor],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, null, null],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, null, null],
+    [<ore:ingotIronwood>, plateArmor, plateArmor, plateArmor]
+    ]);
+
+recipes.remove(<twilightforest:yeti_boots>);
+Anvil.addShaped(<twilightforest:yeti_boots>.withTag({ench: [{lvl: 2 as short, id: 0 as short}, {lvl: 4 as short, id: 2 as short}]}),[
+    [null, null, <twilightforest:alpha_fur>],
+    [<twilightforest:alpha_fur>, <twilightforest:alpha_fur>, plateArmor],
+    [<twilightforest:alpha_fur>, <twilightforest:alpha_fur>, plateArmor],
+    [null, null, <twilightforest:alpha_fur>]
+    ]);
+
+recipes.remove(<twilightforest:yeti_chestplate>);
+Anvil.addShaped(<twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0 as short}]}),[
+    [plateArmor, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>],
+    [null, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>],
+    [null, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>],
+    [plateArmor, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>]
+    ]);
+
+recipes.remove(<twilightforest:yeti_helmet>);
+Anvil.addShaped(<twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0 as short}]}),[
+    [<twilightforest:alpha_fur>, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>, plateArmor],
+    [<twilightforest:alpha_fur>, null, null, null],
+    [<twilightforest:alpha_fur>, null, null, null],
+    [<twilightforest:alpha_fur>, <twilightforest:alpha_fur>, <twilightforest:alpha_fur>, plateArmor]
+    ]);
+
+recipes.remove(<twilightforest:yeti_leggings>);
+Anvil.addShaped(<twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0 as short}]}),[
+    [<twilightforest:alpha_fur>, plateArmor, plateArmor, plateArmor],
+    [<twilightforest:alpha_fur>, <twilightforest:alpha_fur>, null, null],
+    [<twilightforest:alpha_fur>, <twilightforest:alpha_fur>, null, null],
+    [<twilightforest:alpha_fur>, plateArmor, plateArmor, plateArmor]
+    ]);
+
+recipes.remove(<twilightforest:naga_leggings>);
+Anvil.addShaped(<twilightforest:naga_leggings>.withTag({ench: [{lvl: 3 as short, id: 0}]}),[
+    [<twilightforest:naga_scale>, plateArmor, plateArmor, plateArmor],
+    [<twilightforest:naga_scale>, <twilightforest:naga_scale>, null, null],
+    [<twilightforest:naga_scale>, <twilightforest:naga_scale>, null, null],
+    [<twilightforest:naga_scale>, plateArmor, plateArmor, plateArmor]
+    ]);
+
+recipes.remove(<twilightforest:naga_chestplate>);
+Anvil.addShaped(<twilightforest:naga_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0 as short}]}),[
+    [plateArmor, <twilightforest:naga_scale>, <twilightforest:naga_scale>, <twilightforest:naga_scale>],
+    [null, <twilightforest:naga_scale>, <twilightforest:naga_scale>, <twilightforest:naga_scale>],
+    [null, <twilightforest:naga_scale>, <twilightforest:naga_scale>, <twilightforest:naga_scale>],
+    [plateArmor, <twilightforest:naga_scale>, <twilightforest:naga_scale>, <twilightforest:naga_scale>]
+    ]);
 
 Anvil.removeShaped(<betterwithmods:steel_helmet>);
 Anvil.removeShaped(<betterwithmods:steel_chest>);
@@ -469,6 +615,126 @@ var anvilToolMap = {
     [<betterwithmods:material:14>, <betterwithmods:material:36>] : soulforgedSteelTool,
     [<nyx:meteor_ingot>, <betterwithmods:material:36>] : meteorTool
 } as IItemStack[][IItemStack[]];
+    
+    recipes.remove(<twilightforest:ironwood_axe>);
+    Anvil.addShaped(<twilightforest:ironwood_axe>.withTag({ench: [{lvl: 1 as short, id: 35 as short}]}),[
+        [null, null, null, <iceandfire:witherbone>],
+        [<ore:ingotIronwood>, <ore:ingotIronwood>, <iceandfire:witherbone>, null],
+        [<ore:ingotIronwood>, <iceandfire:witherbone>, null,null],
+        [<ore:ingotIronwood>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:ironwood_hoe>);
+    Anvil.addShaped(<twilightforest:ironwood_hoe>.withTag({ench: [{lvl: 1 as short, id: 34}]}),[
+        [null, null, null, <iceandfire:witherbone>],
+        [<ore:ingotIronwood>, null, <iceandfire:witherbone>, null],
+        [<ore:ingotIronwood>, <iceandfire:witherbone>, null, null],
+        [<iceandfire:witherbone>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:ironwood_pickaxe>);
+    Anvil.addShaped(<twilightforest:ironwood_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 32 as short}]}),[
+        [null,null, null, <iceandfire:witherbone>],
+        [<ore:ingotIronwood>, null, <iceandfire:witherbone>, null],
+        [<ore:ingotIronwood>, <ore:ingotIronwood>, null, null],
+        [null, <ore:ingotIronwood>, <ore:ingotIronwood>, null]
+    ]);
+    
+    recipes.remove(<twilightforest:ironwood_shovel>);
+    Anvil.addShaped(<twilightforest:ironwood_shovel>.withTag({ench: [{lvl: 1 as short, id: 34 as short}]}),[
+        [null, null, null, <iceandfire:witherbone>],
+        [null, null, <iceandfire:witherbone>, null],
+        [<ore:ingotIronwood>, <iceandfire:witherbone>, null, null],
+        [<ore:ingotIronwood>, <ore:ingotIronwood>, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:ironwood_sword>);
+    Anvil.addShaped(<twilightforest:ironwood_sword>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}),[
+        [null, null, <ore:ingotIronwood>, <spartanfire:witherbone_handle>],
+        [null, null, <ore:ingotIronwood>, null],
+        [null, <ore:ingotIronwood>, null, null],
+        [<ore:ingotIronwood>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:steeleaf_axe>);
+    Anvil.addShaped(<twilightforest:steeleaf_axe>.withTag({ench: [{lvl: 2 as short, id: 32 as short}]}),[
+        [null, null, null, <iceandfire:witherbone>],
+        [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <iceandfire:witherbone>, null],
+        [<ore:ingotSteeleaf>, <iceandfire:witherbone>, null,null],
+        [<ore:ingotSteeleaf>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:steeleaf_hoe>);
+    Anvil.addShaped(<twilightforest:steeleaf_hoe>.withTag({ench: [{lvl: 2 as short, id: 34}]}),[
+        [null, null, null, <iceandfire:witherbone>],
+        [<ore:ingotSteeleaf>, null, <iceandfire:witherbone>, null],
+        [<ore:ingotSteeleaf>, <iceandfire:witherbone>, null, null],
+        [<iceandfire:witherbone>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:steeleaf_pickaxe>);
+    Anvil.addShaped(<twilightforest:steeleaf_pickaxe>.withTag({ench: [{lvl: 2 as short, id: 35 as short}]}),[
+        [null,null, null, <iceandfire:witherbone>],
+        [<ore:ingotSteeleaf>, null, <iceandfire:witherbone>, null],
+        [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, null, null],
+        [null, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, null]
+    ]);
+    
+    recipes.remove(<twilightforest:steeleaf_shovel>);
+    Anvil.addShaped(<twilightforest:steeleaf_shovel>.withTag({ench: [{lvl: 2 as short, id: 32 as short}]}),[
+        [null, null, null, <iceandfire:witherbone>],
+        [null, null, <iceandfire:witherbone>, null],
+        [<ore:ingotSteeleaf>, <iceandfire:witherbone>, null, null],
+        [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:steeleaf_sword>);
+    Anvil.addShaped(<twilightforest:steeleaf_sword>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}),[
+        [null, null, <ore:ingotSteeleaf>, <spartanfire:witherbone_handle>],
+        [null, null, <ore:ingotSteeleaf>, null],
+        [null, <ore:ingotSteeleaf>, null, null],
+        [<ore:ingotSteeleaf>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:fiery_sword>);
+    Anvil.addShaped(<twilightforest:fiery_sword>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}),[
+        [null, null, <ore:ingotFiery>, <spartanfire:witherbone_handle>],
+        [null, null, <ore:ingotFiery>, null],
+        [null, <ore:ingotFiery>, null, null],
+        [<ore:ingotFiery>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:knightmetal_sword>);
+    Anvil.addShaped(<twilightforest:knightmetal_sword>,[
+        [null, null, <ore:ingotKnightmetal>, <spartanfire:witherbone_handle>],
+        [null, null, <ore:ingotKnightmetal>, null],
+        [null, <ore:ingotKnightmetal>, null, null],
+        [<ore:ingotKnightmetal>, null, null, null]
+    ]);
+
+    recipes.remove(<twilightforest:fiery_pickaxe>);
+    Anvil.addShaped(<twilightforest:fiery_pickaxe>,[
+        [null,null, null, <iceandfire:witherbone>],
+        [<ore:ingotFiery>, null, <iceandfire:witherbone>, null],
+        [<ore:ingotFiery>, <ore:ingotFiery>, null, null],
+        [null, <ore:ingotFiery>, <ore:ingotFiery>, null]
+    ]);
+
+    recipes.remove(<twilightforest:knightmetal_pickaxe>);
+    Anvil.addShaped(<twilightforest:knightmetal_pickaxe>,[
+        [null,null, null, <iceandfire:witherbone>],
+        [<ore:ingotKnightmetal>, null, <iceandfire:witherbone>, null],
+        [<ore:ingotKnightmetal>, <ore:ingotKnightmetal>, null, null],
+        [null, <ore:ingotKnightmetal>, <ore:ingotKnightmetal>, null]
+    ]);
+
+    recipes.remove(<twilightforest:knightmetal_axe>);
+    Anvil.addShaped(<twilightforest:knightmetal_axe>,[
+        [null, null, null, <iceandfire:witherbone>],
+        [<ore:ingotKnightmetal>, <ore:ingotKnightmetal>, <iceandfire:witherbone>, null],
+        [<ore:ingotKnightmetal>, <iceandfire:witherbone>, null,null],
+        [<ore:ingotKnightmetal>, null, null, null]
+    ]);
 
 for mat, tool in anvilToolMap{
     if(mat has <betterwithmods:material:14>){

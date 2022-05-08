@@ -553,6 +553,12 @@ recipes.addShaped("iron_plate_2_1",<quark:iron_plate:1>*8,[
     [<quark:iron_plate>,<quark:iron_plate>,<quark:iron_plate>]
 ]);
 
+recipes.addShaped("brass_plate", <contenttweaker:brass_plate>*24, [
+	[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>],
+	[<ore:ingotBrass>,<minetraps:nails:*>,<ore:ingotBrass>],
+	[<ore:ingotBrass>,<ore:ingotBrass>,<ore:ingotBrass>]
+]);
+
 recipes.removeByRecipeName("cyclicmagic:item.bucketfilled");
 recipes.addShapeless("bucket_poison_0",<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "poison", Amount: 1000}}),[
     flimsywaterbucket,<ore:poisonQuintessenceA>,<ore:poisonQuintessenceB>,<ore:listAllsugar>

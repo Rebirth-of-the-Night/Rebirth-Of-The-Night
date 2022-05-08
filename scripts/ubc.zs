@@ -38,6 +38,9 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .create();
 
+recipes.removeByRecipeName("undergroundbiomes:bone_fossil_bone_meal");
+recipes.addShapeless("bone_fossil_to_bone_meal", <minecraft:flint>*2, [<undergroundbiomes:fossil_piece:0>|<undergroundbiomes:fossil_piece:1>|<undergroundbiomes:fossil_piece:2>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:4>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:6>|<undergroundbiomes:fossil_piece:7>]);
+
 // barbed wire
 val brick_block as IItemStack = <contenttweaker:brick_minecraft_clay>;
 brick_block.hardness = 10;

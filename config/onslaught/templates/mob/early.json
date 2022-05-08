@@ -331,7 +331,7 @@
     }
   },
   "zed.boss.wasman": {
-    "id": "minecraft:zombie_villager",
+    "id": "minecraft:zombie",
     "effects": [
       {
         "id": "minecraft:strength",

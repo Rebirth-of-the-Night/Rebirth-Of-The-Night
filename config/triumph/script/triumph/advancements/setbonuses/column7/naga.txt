@@ -1,0 +1,15 @@
+setIcon("twilightforest:naga_chestplate")
+setTitle("Naga-nna Make It")
+setDescription("Complete the Naga-nna Make It set.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+criteria = addCriteria("Naga Leggings", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:naga_leggings")
+
+criteria = addCriteria("Naga Chestplate", "minecraft:inventory_changed")
+criteria.addItem("twilightforest:naga_chestplate")
+
+hideLines()
+alwaysVisible()
+setPos(360,120)

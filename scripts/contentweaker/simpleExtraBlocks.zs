@@ -566,6 +566,11 @@ var bronze_plate = VanillaFactory.createBlock("bronze_plate", <blockmaterial:Iro
 bronze_plate.setCreativeTab(<creativetab:buildingBlocks>);
 bronze_plate.register();
 
+//Brass Plate
+var brass_plate = VanillaFactory.createBlock("brass_plate", <blockmaterial:Iron>);
+brass_plate.setCreativeTab(<creativetab:buildingBlocks>);
+brass_plate.register();
+
 // Lunarin blocks
 // Bronze
 var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);

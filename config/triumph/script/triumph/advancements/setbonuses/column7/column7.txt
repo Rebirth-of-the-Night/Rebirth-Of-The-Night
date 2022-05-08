@@ -31,4 +31,7 @@ criteria.setAdvancement("triumph:advancements/setbonuses/column7/ironroot")
 criteria = addCriteria("icewalker", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/column7/icewalker")
 
+criteria = addCriteria("naga", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/column7/naga")
+
 alwaysHidden()

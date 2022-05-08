@@ -22,4 +22,4 @@ criteria.addItem("twilightforest:fiery_pickaxe")
 
 hideLines()
 alwaysVisible()
-setPos(360,15)
+setPos(360,0)

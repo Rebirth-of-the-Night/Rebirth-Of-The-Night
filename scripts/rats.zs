@@ -82,7 +82,7 @@ JEI.removeAndHide(<rats:pirat_hat>);
 JEI.removeAndHide(<rats:pirat_cutlass>);
 JEI.removeAndHide(<rats:rat_nugget>);
 JEI.removeAndHide(<rats:rat_nugget_ore>);
-JEI.removeAndHide(<rats:ratlantean_flame>);
+/*JEI.removeAndHide(<rats:ratlantean_flame>);*/
 JEI.removeAndHide(<rats:cheese_cannonball>);
 JEI.removeAndHide(<rats:feral_rat_claw>);
 JEI.removeAndHide(<rats:centipede>);

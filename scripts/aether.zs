@@ -282,7 +282,5 @@ recipes.addShaped("aether_legacy_holystone_pressure_plate", <aether_legacy:holys
 
 recipes.remove(<arcaneworld:molten_core>);
 
-recipes.addShaped(<aether_legacy:phoenix_boots>, [[null, null, null],[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>], [<arcaneworld:molten_core>, null, <arcaneworld:molten_core>]]);
-recipes.addShaped(<aether_legacy:phoenix_leggings>, [[<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>],[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>], [<arcaneworld:molten_core>, null, <arcaneworld:molten_core>]]);
-recipes.addShaped(<aether_legacy:phoenix_chestplate>, [[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>],[<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>], [<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>]]);
-recipes.addShaped(<aether_legacy:phoenix_helmet>, [[<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>],[<arcaneworld:molten_core>, null, <arcaneworld:molten_core>], [null, null, null]]);
+recipes.addShapeless("plate_to_electrum", <ore:ingotElectrum>.firstItem, [<contenttweaker:valkyrien_plate>]);
+recipes.addShapeless("core_to_electrum", <ore:ingotElectrum>.firstItem*2, [<contenttweaker:electrum_core>]);

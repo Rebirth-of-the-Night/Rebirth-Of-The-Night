@@ -11,7 +11,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"adpother:mist\",Count:1,Damage:0s}"
+                "{id:\"adpother:dreadmist\",Count:1,Damage:0s}"
               ]
             },
             "chance": 1.0

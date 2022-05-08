@@ -21,4 +21,4 @@ criteria.addItem("twilightforest:ironwood_sword")
 
 hideLines()
 alwaysVisible()
-setPos(360,-15)
+setPos(360,-30)

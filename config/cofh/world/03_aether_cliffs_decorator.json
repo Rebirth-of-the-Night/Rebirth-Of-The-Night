@@ -40,6 +40,40 @@
 				"restriction": "whitelist",
 				"value": "biometweaker:aether_cliffs"
 			}
+		},
+		"dread_clouds": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": {
+					"name":"adpother:dreadmist",
+					"properties": {
+							"density" : "heavy"
+						}
+				},
+				"material": "minecraft:air",
+				"hollow": true,
+				"filler": {
+					"name":"adpother:dreadmist",
+					"properties": {
+							"density" : "heavy"
+						}
+				},
+				"crust": {
+					"name":"adpother:dreadmist",
+					"properties": {
+							"density" : "heavy"
+						}
+				}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"min-height": 219,
+			"max-height": 220,
+			"biome": {
+				"restriction": "whitelist",
+				"value": "biometweaker:aether_cliffs"
+			}
 		}
 	}
 }
