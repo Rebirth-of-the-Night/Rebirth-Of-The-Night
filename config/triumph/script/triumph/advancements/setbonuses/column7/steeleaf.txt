@@ -21,4 +21,4 @@ criteria.addItem("twilightforest:steeleaf_sword")
 
 hideLines()
 alwaysVisible()
-setPos(360,107)
+setPos(360,90)

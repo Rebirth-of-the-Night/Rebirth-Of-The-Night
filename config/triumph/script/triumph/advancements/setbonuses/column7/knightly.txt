@@ -21,4 +21,4 @@ criteria.addItem("twilightforest:knightmetal_sword")
 
 hideLines()
 alwaysVisible()
-setPos(360,75)
+setPos(360,60)

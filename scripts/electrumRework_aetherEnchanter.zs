@@ -578,6 +578,46 @@ Enchanter.registerEnchantment(<twilightforest:fiery_boots>, 7700);
 Enchanter.registerEnchantment(<twilightforest:fiery_pickaxe>, 9600);
 Enchanter.registerEnchantment(<twilightforest:fiery_sword>, 9600);
 
+//Knightly
+Enchanter.registerEnchantment(<twilightforest:knightmetal_helmet>, 7700);
+Enchanter.registerEnchantment(<twilightforest:knightmetal_chestplate>, 7700);
+Enchanter.registerEnchantment(<twilightforest:knightmetal_leggings>, 7700);
+Enchanter.registerEnchantment(<twilightforest:knightmetal_boots>, 7700);
+
+Enchanter.registerEnchantment(<twilightforest:knightmetal_pickaxe>, 9600);
+Enchanter.registerEnchantment(<twilightforest:knightmetal_sword>, 9600);
+Enchanter.registerEnchantment(<twilightforest:knightmetal_axe>, 9600);
+
+//Phantom & Naga
+Enchanter.registerEnchantment(<twilightforest:phantom_helmet>, 7700);
+Enchanter.registerEnchantment(<twilightforest:phantom_chestplate>, 7700);
+Enchanter.registerEnchantment(<twilightforest:naga_chestplate>, 7700);
+Enchanter.registerEnchantment(<twilightforest:naga_leggings>, 7700);
+
+//Arctic & Yeti
+Enchanter.registerEnchantment(<twilightforest:arctic_helmet>, 7700);
+Enchanter.registerEnchantment(<twilightforest:arctic_chestplate>, 7700);
+Enchanter.registerEnchantment(<twilightforest:arctic_leggings>, 7700);
+Enchanter.registerEnchantment(<twilightforest:arctic_boots>, 7700);
+Enchanter.registerEnchantment(<twilightforest:yeti_helmet>, 7700);
+Enchanter.registerEnchantment(<twilightforest:yeti_chestplate>, 7700);
+Enchanter.registerEnchantment(<twilightforest:yeti_leggings>, 7700);
+Enchanter.registerEnchantment(<twilightforest:yeti_boots>, 7700);
+
+//Misc TF Items
+Enchanter.registerEnchantment(<twilightforest:minotaur_axe>, 9600);
+Enchanter.registerEnchantment(<twilightforest:minotaur_axe_gold>, 9600);
+Enchanter.registerEnchantment(<twilightforest:ice_sword>, 9600);
+Enchanter.registerEnchantment(<twilightforest:ender_bow>, 9600);
+Enchanter.registerEnchantment(<twilightforest:triple_bow>, 9600);
+Enchanter.registerEnchantment(<twilightforest:seeker_bow>, 9600);
+Enchanter.registerEnchantment(<twilightforest:ice_bow>, 9600);
+Enchanter.registerEnchantment(<twilightforest:giant_pickaxe>, 9600);
+Enchanter.registerEnchantment(<twilightforest:giant_sword>, 9600);
+Enchanter.registerEnchantment(<twilightforest:knightmetal_shield>, 9600);
+Enchanter.registerEnchantment(<twilightforest:block_and_chain>, 9600);
+Enchanter.registerEnchantment(<twilightforest:mazebreaker_pickaxe>, 9600);
+
 //Rare Quality
 Enchanter.registerEnchantment(<msmlegacy:vampiric_blade>, 7700);
 Enchanter.registerEnchantment(<spartanshields:shield_basic_diamond>, 7700);

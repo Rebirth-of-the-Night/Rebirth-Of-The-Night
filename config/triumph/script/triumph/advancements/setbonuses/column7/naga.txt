@@ -12,4 +12,4 @@ criteria.addItem("twilightforest:naga_chestplate")
 
 hideLines()
 alwaysVisible()
-setPos(360,45)
+setPos(360,120)

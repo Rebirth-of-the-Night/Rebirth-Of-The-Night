@@ -22,6 +22,7 @@ LootTable.removeGlobalItem("twilightforest:uncrafting_table");
 JEI.removeAndHide(<twilightforest:uncrafting_table>);
 JEI.removeAndHide(<patchouli:guide_book>.withTag({"patchouli:book": "twilightforest:guide"}));
 
+
 recipes.remove(<twilightforest:castle_pillar:1>);
 recipes.addShaped("encased_castle_brick_tile",<twilightforest:castle_pillar:1>,[
     [<twilightforest:castle_pillar:0>,<twilightforest:castle_pillar:0>,null],
@@ -58,7 +59,7 @@ for i,stair in stairArray{
 
 // Adding enchantments to hoes from enchanted materials
 
-var enchantments as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>];
+/* var enchantments as IEnchantmentDefinition[] = [<enchantment:minecraft:unbreaking>];
 var enchantmentMap as IData = {};
 
 enchantmentMap += enchantments[0].makeEnchantment(1).makeTag();
@@ -69,7 +70,7 @@ recipes.addShapedMirrored("ironwood_hoe",<twilightforest:ironwood_hoe>.withTag(e
    [<twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, null],
    [null, <ore:stickWood>, null],
    [null, <ore:stickWood>, null]
-]);
+]); 
 
 var enchantmentMap2 as IData = {};
 enchantmentMap2 += enchantments[0].makeEnchantment(2).makeTag();
@@ -79,7 +80,7 @@ recipes.addShapedMirrored("steeleaf_hoe",<twilightforest:steeleaf_hoe>.withTag(e
   [<twilightforest:steeleaf_ingot>,<twilightforest:steeleaf_ingot>],
   [null,<ore:stickWood>],
   [null,<ore:stickWood>]
-]);
+]); */
 
 // Scepters
 

@@ -19,4 +19,4 @@ criteria.setAdvancement("triumph:advancements/setbonuses/column7/icewalker/boots
 
 hideLines()
 alwaysVisible()
-setPos(360,-45)
+setPos(360,-60)
