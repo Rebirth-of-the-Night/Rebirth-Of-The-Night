@@ -1,3 +1,7 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
 // Dummy items
 // Removed any tooltip including ID to avoid confussion
 <requious:interaction>.clearTooltip();
@@ -542,6 +546,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <mowziesmobs:wrought_axe>.addTooltip(format.red("- Two-Handed I"));
 <mowziesmobs:wrought_axe>.addTooltip(format.green("- Reach I"));
 
+<aether_legacy:valkyrie_lance>.addTooltip(format.darkRed("+4 Attack Damage"));
 <aether_legacy:valkyrie_lance>.addTooltip(format.gold("Properties:"));
 <aether_legacy:valkyrie_lance>.addTooltip(format.red("- Two-Handed I"));
 <aether_legacy:valkyrie_lance>.addTooltip(format.green("- Reach I"));
