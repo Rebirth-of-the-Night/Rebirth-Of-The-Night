@@ -102,13 +102,13 @@
 <atop:amethyst_sword:*>.addTooltip("+1 Reach Distance");
 <atop:amethyst_sword:*>.addTooltip("+5% Attack Speed");
 
-<iceandfire:troll_weapon.axe>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.column>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.column_forest>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.column_frost>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.hammer>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.trunk>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.axe>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.column>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.column_forest>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.column_frost>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.hammer>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.trunk>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.darkRed("+8 Attack Damage"));
 
 /*<mowziesmobs:ice_crystal>.addTooltip(format.darkRed("Using this while you have the Leech effect active will severely drain your health!"));*/
 
