@@ -115,98 +115,98 @@ Anvil.addShaped(<aether_legacy:valkyrie_lance>,[
 
 recipes.remove(<twilightforest:steeleaf_boots>);
 Anvil.addShaped(<twilightforest:steeleaf_boots>.withTag({ench: [{lvl: 2 as short, id: 2 as short}]}),[
-    [null, null, mat],
-    [mat, mat, plateArmor],
-    [mat, mat, plateArmor],
-    [null, null, mat]
+    [null, null, <ore:ingotSteeleaf>],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor],
+    [null, null, <ore:ingotSteeleaf>]
     ]);
 
 recipes.remove(<twilightforest:steeleaf_chestplate>);
 Anvil.addShaped(<twilightforest:steeleaf_chestplate>.withTag({ench: [{lvl: 2 as short, id: 1 as short}]}),[
-    [plateArmor, mat, mat, mat],
-    [null, mat, mat, mat],
-    [null, mat, mat, mat],
-    [plateArmor, mat, mat, mat]
+    [plateArmor, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>],
+    [null, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>],
+    [null, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>],
+    [plateArmor, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>]
     ]);
 
 recipes.remove(<twilightforest:steeleaf_helmet>);
 Anvil.addShaped(<twilightforest:steeleaf_helmet>.withTag({ench: [{lvl: 2 as short, id: 3 as short}]}),[
-    [mat, mat, mat, plateArmor],
-    [mat, null, null, null],
-    [mat, null, null, null],
-    [mat, mat, mat, plateArmor]
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor],
+    [<ore:ingotSteeleaf>, null, null, null],
+    [<ore:ingotSteeleaf>, null, null, null],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, <ore:ingotSteeleaf>, plateArmor]
     ]);
 
 recipes.remove(<twilightforest:steeleaf_leggings>);
 Anvil.addShaped(<twilightforest:steeleaf_leggings>.withTag({ench: [{lvl: 2 as short, id: 4 as short}]}),[
-    [mat, plateArmor, plateArmor, plateArmor],
-    [mat, mat, null, null],
-    [mat, mat, null, null],
-    [mat, plateArmor, plateArmor, plateArmor]
+    [<ore:ingotSteeleaf>, plateArmor, plateArmor, plateArmor],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, null, null],
+    [<ore:ingotSteeleaf>, <ore:ingotSteeleaf>, null, null],
+    [<ore:ingotSteeleaf>, plateArmor, plateArmor, plateArmor]
     ]);
 
 recipes.remove(<twilightforest:ironwood_boots>);
 Anvil.addShaped(<twilightforest:ironwood_boots>.withTag({ench: [{lvl: 1 as short, id: 2 as short}]}),[
-    [null, null, mat],
-    [mat, mat, plateArmor],
-    [mat, mat, plateArmor],
-    [null, null, mat]
+    [null, null, <ore:ingotIronwood>],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor],
+    [null, null, <ore:ingotIronwood>]
     ]);
 
 recipes.remove(<twilightforest:ironwood_chestplate>);
 Anvil.addShaped(<twilightforest:ironwood_chestplate>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}),[
-    [plateArmor, mat, mat, mat],
-    [null, mat, mat, mat],
-    [null, mat, mat, mat],
-    [plateArmor, mat, mat, mat]
+    [plateArmor, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>],
+    [null, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>],
+    [null, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>],
+    [plateArmor, <ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>]
     ]);
 
 recipes.remove(<twilightforest:ironwood_helmet>);
 Anvil.addShaped(<twilightforest:ironwood_helmet>.withTag({ench: [{lvl: 1 as short, id: 6 as short}]}),[
-    [mat, mat, mat, plateArmor],
-    [mat, null, null, null],
-    [mat, null, null, null],
-    [mat, mat, mat, plateArmor]
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor],
+    [<ore:ingotIronwood>, null, null, null],
+    [<ore:ingotIronwood>, null, null, null],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, <ore:ingotIronwood>, plateArmor]
     ]);
 
 recipes.remove(<twilightforest:ironwood_leggings>);
 Anvil.addShaped(<twilightforest:ironwood_leggings>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}),[
-    [mat, plateArmor, plateArmor, plateArmor],
-    [mat, mat, null, null],
-    [mat, mat, null, null],
-    [mat, plateArmor, plateArmor, plateArmor]
+    [<ore:ingotIronwood>, plateArmor, plateArmor, plateArmor],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, null, null],
+    [<ore:ingotIronwood>, <ore:ingotIronwood>, null, null],
+    [<ore:ingotIronwood>, plateArmor, plateArmor, plateArmor]
     ]);
 
 recipes.remove(<twilightforest:yeti_boots>);
 Anvil.addShaped(<twilightforest:yeti_boots>.withTag({ench: [{lvl: 2 as short, id: 0 as short}, {lvl: 4 as short, id: 2 as short}]}),[
-    [null, null, mat],
-    [mat, mat, plateArmor],
-    [mat, mat, plateArmor],
-    [null, null, mat]
+    [null, null, <ore:furYeti>],
+    [<ore:furYeti>, <ore:furYeti>, plateArmor],
+    [<ore:furYeti>, <ore:furYeti>, plateArmor],
+    [null, null, <ore:furYeti>]
     ]);
 
 recipes.remove(<twilightforest:yeti_chestplate>);
 Anvil.addShaped(<twilightforest:yeti_chestplate>.withTag({ench: [{lvl: 2 as short, id: 0 as short}]}),[
-    [plateArmor, mat, mat, mat],
-    [null, mat, mat, mat],
-    [null, mat, mat, mat],
-    [plateArmor, mat, mat, mat]
+    [plateArmor, <ore:furYeti>, <ore:furYeti>, <ore:furYeti>],
+    [null, <ore:furYeti>, <ore:furYeti>, <ore:furYeti>],
+    [null, <ore:furYeti>, <ore:furYeti>, <ore:furYeti>],
+    [plateArmor, <ore:furYeti>, <ore:furYeti>, <ore:furYeti>]
     ]);
 
 recipes.remove(<twilightforest:yeti_helmet>);
 Anvil.addShaped(<twilightforest:yeti_helmet>.withTag({ench: [{lvl: 2 as short, id: 0 as short}]}),[
-    [mat, mat, mat, plateArmor],
-    [mat, null, null, null],
-    [mat, null, null, null],
-    [mat, mat, mat, plateArmor]
+    [<ore:furYeti>, <ore:furYeti>, <ore:furYeti>, plateArmor],
+    [<ore:furYeti>, null, null, null],
+    [<ore:furYeti>, null, null, null],
+    [<ore:furYeti>, <ore:furYeti>, <ore:furYeti>, plateArmor]
     ]);
 
 recipes.remove(<twilightforest:yeti_leggings>);
 Anvil.addShaped(<twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0 as short}]}),[
-    [mat, plateArmor, plateArmor, plateArmor],
-    [mat, mat, null, null],
-    [mat, mat, null, null],
-    [mat, plateArmor, plateArmor, plateArmor]
+    [<ore:furYeti>, plateArmor, plateArmor, plateArmor],
+    [<ore:furYeti>, <ore:furYeti>, null, null],
+    [<ore:furYeti>, <ore:furYeti>, null, null],
+    [<ore:furYeti>, plateArmor, plateArmor, plateArmor]
     ]);
 
 Anvil.removeShaped(<betterwithmods:steel_helmet>);
