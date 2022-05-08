@@ -1,0 +1,54 @@
+name: pyrotech_fossil_ore
+mod: pyrotech
+block: {
+  location: pyrotech:fossil_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: minecraft:dye:15
+    count: [ 1, 2 ]
+    xp: [ 0, 1 ]
+    chance: 0.5
+  },
+  {
+    item: minecraft:bone
+    count: [ 1, 1 ]
+    xp: [ 0, 1 ]
+    chance: 0.5
+  }
+]
+texture: {
+  shade: false
+  original: pyrotech:blocks/fossil_ore
+}
+recipe: {
+  result: betterwithaddons:congealed
+  xp: 0.10000000149011612
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 1
+    count: 13
+  },
+  {
+    height: [ 58, 64 ]
+    size: 2
+    count: 4
+	biomes: {
+	  names: 
+	    minecraft:swampland
+	    minecraft:mutated_swampland
+	    biomesoplenty:bayou
+	    biomesoplenty:bog
+	    biomesoplenty:marsh
+	    biomesoplenty:quagmire
+	    biomesoplenty:moor
+	    biomesoplenty:lush_swamp
+	    biomesoplenty:wetland
+	}
+  }
+]
