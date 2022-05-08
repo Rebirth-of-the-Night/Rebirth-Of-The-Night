@@ -47,6 +47,30 @@
     "gamestage": "invasionongoing",
 	"damage": "magic=4",
 	"message": "Get below y = 100!"
+  },
+  {
+    "timeout": 60,
+	"block": {
+		"block": "contenttweaker:unstable_spiritfire"
+	},
+	"damage": "magic=6",
+	"effect": "potioncore:fire,61,1"
+  },
+  {
+    "timeout": 60,
+	"block": {
+		"block": "contenttweaker:dread_cold"
+	},
+	"damage": "magic=6",
+	"effect": "twilightforest:frosted,61,1"
+  },
+  {
+    "timeout": 60,
+	"block": {
+		"block": "contenttweaker:concentrated_bioflow"
+	},
+	"damage": "magic=6",
+	"effect": "minecraft:nausea,61,1"
   }/*,
   {
     "timeout": 100,
