@@ -14,6 +14,7 @@ JEI.removeAndHide(<spartanshields:shield_riot_rftools>);
 JEI.removeAndHide(<spartanshields:shield_flux_ra>);
 
 
+
 //Remove diamond spartan weaponry temporarily until we split them with the other gems
 JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
 JEI.removeAndHide(<spartanweaponry:longsword_diamond>);
