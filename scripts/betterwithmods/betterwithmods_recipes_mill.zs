@@ -160,7 +160,7 @@ Mill.builder()
 
 // Dread Slate Processing
 Mill.builder()
-.buildRecipe([<contenttweaker:raw_dread_slate>], [<adpother:mist>])
+.buildRecipe([<contenttweaker:raw_dread_slate>], [<adpother:vilemist>])
 .setPriority(8)
 .setGrindType("minecraft:entity.lightning.thunder")
 .build();

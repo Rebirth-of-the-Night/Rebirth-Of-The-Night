@@ -102,13 +102,13 @@
 <atop:amethyst_sword:*>.addTooltip("+1 Reach Distance");
 <atop:amethyst_sword:*>.addTooltip("+5% Attack Speed");
 
-<iceandfire:troll_weapon.axe>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.column>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.column_forest>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.column_frost>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.hammer>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.trunk>.addTooltip(format.darkRed("+4 Attack Damage"));
-<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.darkRed("+4 Attack Damage"));
+<iceandfire:troll_weapon.axe>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.column>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.column_forest>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.column_frost>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.hammer>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.trunk>.addTooltip(format.darkRed("+8 Attack Damage"));
+<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.darkRed("+8 Attack Damage"));
 
 /*<mowziesmobs:ice_crystal>.addTooltip(format.darkRed("Using this while you have the Leech effect active will severely drain your health!"));*/
 
@@ -536,6 +536,43 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 // Scepters
 <defiledlands:tears_flame>.removeTooltip("Fires fireballs");
+
+// Misc. Weapons
+<mowziesmobs:wrought_axe>.addTooltip(format.gold("Properties:"));
+<mowziesmobs:wrought_axe>.addTooltip(format.red("- Two-Handed I"));
+<mowziesmobs:wrought_axe>.addTooltip(format.green("- Reach I"));
+
+<aether_legacy:valkyrie_lance>.addTooltip(format.gold("Properties:"));
+<aether_legacy:valkyrie_lance>.addTooltip(format.red("- Two-Handed I"));
+<aether_legacy:valkyrie_lance>.addTooltip(format.green("- Reach I"));
+
+<iceandfire:troll_weapon.column>.addTooltip(format.gold("Properties:"));
+<iceandfire:troll_weapon.column>.addTooltip(format.red("- Two-Handed I"));
+<iceandfire:troll_weapon.column>.addTooltip(format.green("- Reach I"));
+
+<iceandfire:troll_weapon.axe>.addTooltip(format.gold("Properties:"));
+<iceandfire:troll_weapon.axe>.addTooltip(format.red("- Two-Handed I"));
+<iceandfire:troll_weapon.axe>.addTooltip(format.green("- Reach I"));
+
+<iceandfire:troll_weapon.column_forest>.addTooltip(format.gold("Properties:"));
+<iceandfire:troll_weapon.column_forest>.addTooltip(format.red("- Two-Handed I"));
+<iceandfire:troll_weapon.column_forest>.addTooltip(format.green("- Reach I"));
+
+<iceandfire:troll_weapon.column_frost>.addTooltip(format.gold("Properties:"));
+<iceandfire:troll_weapon.column_frost>.addTooltip(format.red("- Two-Handed I"));
+<iceandfire:troll_weapon.column_frost>.addTooltip(format.green("- Reach I"));
+
+<iceandfire:troll_weapon.hammer>.addTooltip(format.gold("Properties:"));
+<iceandfire:troll_weapon.hammer>.addTooltip(format.red("- Two-Handed I"));
+<iceandfire:troll_weapon.hammer>.addTooltip(format.green("- Reach I"));
+
+<iceandfire:troll_weapon.trunk>.addTooltip(format.gold("Properties:"));
+<iceandfire:troll_weapon.trunk>.addTooltip(format.red("- Two-Handed I"));
+<iceandfire:troll_weapon.trunk>.addTooltip(format.green("- Reach I"));
+
+<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.gold("Properties:"));
+<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.red("- Two-Handed I"));
+<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.green("- Reach I"));
 
 // BUGS
 #<aether_legacy:enchanted_blueberry>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));

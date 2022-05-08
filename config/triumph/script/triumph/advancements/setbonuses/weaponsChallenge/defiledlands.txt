@@ -1,0 +1,18 @@
+setIcon("defiledlands:umbra_blaster")
+setTitle("Defiled Lands Guns")
+setDescription("Craft both defiled lands guns.")
+
+addParent("triumph:advancements/setbonuses/root")
+
+addRewardFunction("triumph:defiledlands")
+
+criteria = addCriteria("The Ravager", "minecraft:inventory_changed")
+criteria.addItem("defiledlands:the_ravager")
+
+criteria = addCriteria("Umbra Blaster", "minecraft:inventory_changed")
+criteria.addItem("defiledlands:umbra_blaster")
+
+setFrameType("CHALLENGE")
+hideLines()
+alwaysVisible()
+setPos(270,235)

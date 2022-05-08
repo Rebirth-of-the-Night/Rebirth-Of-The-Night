@@ -17,6 +17,11 @@ import mods.foundry.Melting;
 import mods.foundry.MoldStation;
 import mods.betterwithmods.Anvil;
 
+JEI.removeAndHide(<contenttweaker:throwing_knife_mold>); // TEMP DISABLE
+JEI.removeAndHide(<contenttweaker:throwing_axe_mold>); // TEMP DISABLE
+<contenttweaker:throwing_knife_mold>.addTooltip(format.red("CURRENTLY DISABLED! DO NOT USE!"));
+<contenttweaker:throwing_axe_mold>.addTooltip(format.red("CURRENTLY DISABLED! DO NOT USE!"));
+
 /*
 mB means miniBucket, forge's liquid metric unit
 16  mB = 1 nugget
@@ -709,8 +714,8 @@ Casting.addRecipe(<simpleores:adamantium_hoe>, <liquid:viridium>*((144*3*4)-(16*
 Casting.addRecipe(<simpleores:mythril_hoe>, <liquid:mythril>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_hoe>, <liquid:onyx_alloy>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<betterwithmods:steel_hoe>, <liquid:soulforged_steel>*((144*2)-(16*2*2)), <foundry:mold:12>, <betterwithmods:material:36>*3);//SFS
-Casting.addRecipe(<twilightforest:ironwood_hoe>, <liquid:ironwood>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//ironwood
-Casting.addRecipe(<twilightforest:steeleaf_hoe>, <liquid:steeleaf>*((144*3*4)-(16*2*3*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//steeleaf
+Casting.addRecipe(<twilightforest:ironwood_hoe>.withTag({ench: [{lvl: 1 as short, id: 34}]}), <liquid:ironwood>*((144*2)-(16*2*2)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//ironwood
+Casting.addRecipe(<twilightforest:steeleaf_hoe>.withTag({ench: [{lvl: 2 as short, id: 34}]}), <liquid:steeleaf>*((144*2)-(16*2*2)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//steeleaf
 
 // DAGGER //
 Casting.addRecipe(<spartanweaponry:dagger_copper>, <liquid:copper>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>);//copper
@@ -920,6 +925,10 @@ CastingTable.addBlockRecipe(<betterwithmods:steel_block>, <liquid:soulforged_ste
 CastingTable.addBlockRecipe(<minecraft:stone>, <liquid:coade_stone>*576);
 CastingTable.addBlockRecipe(<endreborn:block_end_stone_smooth>, <liquid:ender_slag>*1000);
 CastingTable.addBlockRecipe(<aether_legacy:ambrosium_block>, <liquid:ambrosium>*1296);
+CastingTable.addBlockRecipe(<twilightforest:block_storage>, <liquid:ironwood>*1296);
+CastingTable.addBlockRecipe(<twilightforest:block_storage:1>, <liquid:fiery>*1296);
+CastingTable.addBlockRecipe(<twilightforest:block_storage:2>, <liquid:steeleaf>*1296);
+CastingTable.addBlockRecipe(<twilightforest:knightmetal_block>, <liquid:knightmetal>*1296);
 
 //Missing Ingot Casting Recipes
 // addIngotRecipe(IItemStack output, ILiquidStack input)
@@ -931,3 +940,7 @@ CastingTable.addIngotRecipe(<ore:ingotElectrum>.firstItem, <liquid:electrum>*144
 CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soulforged_steel>*144);
 CastingTable.addIngotRecipe(<contenttweaker:masonry_brick>, <liquid:coade_stone>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:39>, <liquid:ender_slag>*250);
+CastingTable.addIngotRecipe(<twilightforest:ironwood_ingot>, <liquid:ironwood>*144);
+CastingTable.addIngotRecipe(<twilightforest:fiery_ingot>, <liquid:fiery>*144);
+CastingTable.addIngotRecipe(<twilightforest:knightmetal_ingot>, <liquid:knightmetal>*144);
+CastingTable.addIngotRecipe(<twilightforest:steeleaf_ingot>, <liquid:steeleaf>*144);

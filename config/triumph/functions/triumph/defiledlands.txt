@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+give @p defiledlands:blasterm_fruit 4
+give @p defiledlands:pellet_umbrium 8
+tellraw @p ["",{"text":"It's time to rain death upon your enemies.","color":"dark_red","italic":true}]

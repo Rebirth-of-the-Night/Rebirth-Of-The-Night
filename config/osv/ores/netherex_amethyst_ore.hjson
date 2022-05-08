@@ -1,0 +1,33 @@
+name: netherex_amethyst_ore
+mod: netherex
+block: {
+  location: netherex:amethyst_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: netherex:amethyst_crystal
+    count: [ 1, 1 ]
+    xp: [ 0, 13 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: true
+  original: netherex:blocks/amethyst_ore
+}
+recipe: {
+  result: netherex:amethyst_crystal
+  xp: 0.2
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 1, 30 ]
+    size: 1
+    count: 1
+	chance: 0.1
+	dimensions: [-1]
+  }
+]
