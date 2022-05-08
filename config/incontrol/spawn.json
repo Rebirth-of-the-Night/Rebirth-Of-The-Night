@@ -424,6 +424,14 @@
     "result": "deny"
  },
 
+//Remove lammergeiers from spawning in the Aether
+{
+    "mob": "betteranimalsplus:lammergeier",
+    "dimension": 4,
+    "onjoin": true,
+    "result": "deny"
+ },
+
 // Remove Zombie Players spawning in the Aether
  {
     "mob": "zombie_players:zombie_player",
