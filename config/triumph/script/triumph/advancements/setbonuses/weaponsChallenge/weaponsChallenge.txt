@@ -25,4 +25,7 @@ criteria.setAdvancement("triumph:advancements/setbonuses/weapons/truedarksedge")
 criteria = addCriteria("truelightsedge", "triumph:completed_advancement")
 criteria.setAdvancement("triumph:advancements/setbonuses/weapons/truelightsedge")
 
+criteria = addCriteria("defiledlands", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:advancements/setbonuses/weapons/defiledlands")
+
 alwaysHidden()

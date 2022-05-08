@@ -920,6 +920,10 @@ CastingTable.addBlockRecipe(<betterwithmods:steel_block>, <liquid:soulforged_ste
 CastingTable.addBlockRecipe(<minecraft:stone>, <liquid:coade_stone>*576);
 CastingTable.addBlockRecipe(<endreborn:block_end_stone_smooth>, <liquid:ender_slag>*1000);
 CastingTable.addBlockRecipe(<aether_legacy:ambrosium_block>, <liquid:ambrosium>*1296);
+CastingTable.addBlockRecipe(<twilightforest:block_storage>, <liquid:ironwood>*1296);
+CastingTable.addBlockRecipe(<twilightforest:block_storage:1>, <liquid:fiery>*1296);
+CastingTable.addBlockRecipe(<twilightforest:block_storage:2>, <liquid:steeleaf>*1296);
+CastingTable.addBlockRecipe(<twilightforest:knightmetal_block>, <liquid:knightmetal>*1296);
 
 //Missing Ingot Casting Recipes
 // addIngotRecipe(IItemStack output, ILiquidStack input)
@@ -931,3 +935,7 @@ CastingTable.addIngotRecipe(<ore:ingotElectrum>.firstItem, <liquid:electrum>*144
 CastingTable.addIngotRecipe(<betterwithmods:material:14>, <liquid:soulforged_steel>*144);
 CastingTable.addIngotRecipe(<contenttweaker:masonry_brick>, <liquid:coade_stone>*144);
 CastingTable.addIngotRecipe(<betterwithmods:material:39>, <liquid:ender_slag>*250);
+CastingTable.addIngotRecipe(<twilightforest:ironwood_ingot>, <liquid:ironwood>*144);
+CastingTable.addIngotRecipe(<twilightforest:fiery_ingot>, <liquid:fiery>*144);
+CastingTable.addIngotRecipe(<twilightforest:knightmetal_ingot>, <liquid:knightmetal>*144);
+CastingTable.addIngotRecipe(<twilightforest:steeleaf_ingot>, <liquid:steeleaf>*144);

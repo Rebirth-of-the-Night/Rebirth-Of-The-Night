@@ -613,7 +613,7 @@
 		"mob": "minecraft:wither",
 		"player": false,
 		"item": "simpleores:onyx_gem",
-		"itemcount": "10-15"
+		"itemcount": "5-7"
  	},
  	{
 		"mob": "minecraft:wither",
