@@ -1,6 +1,6 @@
 setIcon("defiledlands:umbra_blaster")
-setTitle("Defiled Lands Guns")
-setDescription("Craft both defiled lands guns.")
+setTitle("Defiled Ranger")
+setDescription("Craft both Defiled Lands guns.")
 
 addParent("triumph:advancements/setbonuses/root")
 
@@ -15,4 +15,4 @@ criteria.addItem("defiledlands:umbra_blaster")
 setFrameType("CHALLENGE")
 hideLines()
 alwaysVisible()
-setPos(270,235)
+setPos(180,235)

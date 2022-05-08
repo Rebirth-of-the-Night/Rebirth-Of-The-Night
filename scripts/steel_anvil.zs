@@ -386,6 +386,39 @@ JEI.removeAndHide(<spartancompat:staff_onyx>);
 JEI.removeAndHide(<spartancompat:spear_onyx>);
 JEI.removeAndHide(<spartancompat:dagger_onyx>);
 
+var mythrilThrow = itemUtils.getItemsByRegexRegistryName("spartancompat:(throwing_axe_|throwing_knife_)mythril") as IItemStack[];
+var dragonsteelFireThrow = itemUtils.getItemsByRegexRegistryName("spartanfire:(throwing_axe_|throwing_knife_)fire_dragonsteel") as IItemStack[];
+var dragonsteelIceThrow = itemUtils.getItemsByRegexRegistryName("spartanfire:(throwing_axe_|throwing_knife_)ice_dragonsteel") as IItemStack[];
+var dragonBoneThrow = itemUtils.getItemsByRegexRegistryName("spartanfire:(throwing_axe_|throwing_knife_)dragonbone") as IItemStack[];
+
+var anvilThrowMap = {
+    [<ore:ingotMythril>, <minecraft:blaze_rod>] : mythrilThrow,
+    [<iceandfire:dragonsteel_fire_ingot>, <spartanfire:witherbone_handle>] : dragonsteelFireThrow,
+    [<iceandfire:dragonsteel_ice_ingot>, <spartanfire:witherbone_handle>] : dragonsteelIceThrow,
+    [<iceandfire:dragonbone>, <spartanfire:witherbone_handle>] : dragonBoneThrow
+} as IItemStack[][IIngredient[]];
+
+var throwcounter = 0;
+
+for mat, spart in anvilThrowMap{  
+    recipes.remove(spart[throwcounter]);// throwing axe 0
+    Anvil.addShaped(spart[throwcounter],[
+        [mat[1], null, null, null],
+        [mat[0], mat[0], null, null],
+        [null, null, null, null],
+        [null, null, null, null]
+    ]);
+    throwcounter += 1;
+
+    recipes.remove(spart[throwcounter]);// throwing knife 1
+    Anvil.addShaped(spart[throwcounter],[
+        [mat[1], null, null, null],
+        [mat[0], null, null, null],
+        [null, null, null, null],
+        [null, null, null, null]
+    ]);
+    throwcounter = 0;
+}
 var mythrilSpart = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)mythril") as IItemStack[];
 var onyxSpart  = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)onyx") as IItemStack[];
 var viridiumSpart = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)adamantium") as IItemStack[];

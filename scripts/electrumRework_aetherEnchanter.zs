@@ -432,8 +432,8 @@ Enchanter.registerEnchantment(<spartanfire:halberd_fire_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:pike_fire_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:lance_fire_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:longbow_fire_dragonsteel>, 28800);
-//Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonsteel>, 28800);
-//Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonsteel>, 28800);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonsteel>, 28800);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:javelin_fire_dragonsteel>, 28800);
 
 //Ice Dragon Steel
@@ -466,8 +466,8 @@ Enchanter.registerEnchantment(<spartanfire:halberd_ice_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:pike_ice_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:lance_ice_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:longbow_ice_dragonsteel>, 28800);
-//Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonsteel>, 28800);
-//Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonsteel>, 28800);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonsteel>, 28800);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonsteel>, 28800);
 Enchanter.registerEnchantment(<spartanfire:javelin_ice_dragonsteel>, 28800);
 
 //Iced and Flamed Dragonbone Weapons
@@ -490,8 +490,8 @@ Enchanter.registerEnchantment(<spartanfire:halberd_ice_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:pike_ice_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:lance_ice_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:longbow_ice_dragonbone>, 14400);
-//Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonbone>, 14400);
-//Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonbone>, 14400);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_ice_dragonbone>, 14400);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_ice_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:javelin_ice_dragonbone>, 14400);
 
 Enchanter.registerEnchantment(<iceandfire:dragonbone_sword_fire>, 14400);
@@ -513,8 +513,8 @@ Enchanter.registerEnchantment(<spartanfire:halberd_fire_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:pike_fire_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:lance_fire_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:longbow_fire_dragonbone>, 14400);
-//Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonbone>, 14400);
-//Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonbone>, 14400);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_fire_dragonbone>, 14400);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_fire_dragonbone>, 14400);
 Enchanter.registerEnchantment(<spartanfire:javelin_fire_dragonbone>, 14400);
 
 //Endorium
@@ -544,6 +544,19 @@ Enchanter.registerEnchantment(<mod_lavacow:felarmor_helmet>, 7700);
 Enchanter.registerEnchantment(<mod_lavacow:felarmor_chestplate>, 7700);
 Enchanter.registerEnchantment(<mod_lavacow:felarmor_leggings>, 7700);
 Enchanter.registerEnchantment(<mod_lavacow:felarmor_boots>, 7700);
+
+//Exorite
+Enchanter.registerEnchantment(<atop:amethyst_helmet>, 5300);
+Enchanter.registerEnchantment(<atop:amethyst_chestplate>, 5300);
+Enchanter.registerEnchantment(<atop:amethyst_leggings>, 5300);
+Enchanter.registerEnchantment(<atop:amethyst_boots>, 5300);
+
+Enchanter.registerEnchantment(<atop:amethyst_pickaxe>, 6000);
+Enchanter.registerEnchantment(<atop:amethyst_axe>, 6000);
+Enchanter.registerEnchantment(<atop:amethyst_shovel>, 6000);
+Enchanter.registerEnchantment(<atop:amethyst_hoe>, 6000);
+Enchanter.registerEnchantment(<atop:amethyst_sword>, 6000);
+Enchanter.registerEnchantment(<atop:topaz_sword>, 6000);
 
 //Ironroot
 Enchanter.registerEnchantment(<twilightforest:ironwood_helmet>, 5300);
