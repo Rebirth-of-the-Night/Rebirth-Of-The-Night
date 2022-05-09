@@ -1,5 +1,5 @@
 {
-  "name": "aetherial_mixer",
+  "name": "alchemical_mixer",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
@@ -231,6 +231,53 @@
               "amount": 8,
               "matches": [
                 "{id:\"contenttweaker:material_part\",Count:8,Damage:12s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {},
+      "tickOutputs": {}
+    },
+    {
+      "uid": "cursedflames",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:disint_quintessence\",Count:1,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:blaze_powder\",Count:4,Damage:0s}"
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": "{FluidName:\"unstable_spiritfire\",Amount:1000}",
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"biomesoplenty:blue_fire\",Count:1,Damage:0s}"
               ]
             },
             "chance": 1.0

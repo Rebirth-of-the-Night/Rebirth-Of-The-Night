@@ -6,8 +6,8 @@
 }, */
 
 /////////////////// ANTI SKY BASE ///////////////////
-{
-    "dimension": 4,
+/*{
+    "dimension": 0,
     "mob": "roughmobsrevamped:hostilebat",
     "minheight": 100,
 	"random": 0.3,
@@ -16,7 +16,7 @@
         "perplayer": true
     },
     "result": "default"
- },
+ },*/
 
   // Zombies
 

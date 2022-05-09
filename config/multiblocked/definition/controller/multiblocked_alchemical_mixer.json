@@ -1,6 +1,6 @@
 {
   "consumeCatalyst": false,
-  "location": "multiblocked:aetherial_mixer",
+  "location": "multiblocked:alchemical_mixer",
   "traits": {
     "item": [
       {
@@ -110,7 +110,7 @@
         "io": "OUT"
       },
       "controller": {
-        "location": "multiblocked:aetherial_mixer",
+        "location": "multiblocked:alchemical_mixer",
         "type": "component"
       },
       "B": {
@@ -238,5 +238,5 @@
       ]
     }
   },
-  "recipeMap": "aetherial_mixer"
+  "recipeMap": "alchemical_mixer"
 }

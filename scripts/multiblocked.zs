@@ -62,7 +62,7 @@ recipes.addShaped((<multiblocked:gale_chamber>), [
     [<aether_legacy:dungeon_block>.reuse(), <ore:blockEnchantedGravitite>, <aether_legacy:dungeon_block>.reuse()], 
     [null, <ore:genericMetalBars>.reuse(), null]
 ]);
-recipes.addShaped((<multiblocked:aetherial_mixer>), [
+recipes.addShaped((<multiblocked:alchemical_mixer>), [
     [null, <earthworks:block_slate>.reuse(), null],
     [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:steel_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
     [null, <betterwithmods:cooking_pot:1>.reuse(), null]
