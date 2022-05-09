@@ -1821,7 +1821,7 @@
   {
     "id": "dungeontactics:ducttaped",
     "name": "enchantment.dungeontactics:ducttaped",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": true,
     "hide_on_book": true,
     "rarity": "VERY_RARE",

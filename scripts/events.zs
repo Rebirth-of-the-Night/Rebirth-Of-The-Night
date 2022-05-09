@@ -52,12 +52,12 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 	}*/
 });
 
-events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start) {
-    if (event.item.matches(<mowziesmobs:ice_crystal>) && 
+/* events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start) {
+    if (event.item.matches(<mowziesmobs:ice_crystal> || event.item.matches(<iceandfire:cockatrice_scepter>)) && 
         event.player.isPotionActive(<potion:extraalchemy:effect.leech>)) {
-        event.player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
+        event.cancel();
     }
-});
+}); */
 
 HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEvent) {
 	if (event.player.world.isRemote()) {

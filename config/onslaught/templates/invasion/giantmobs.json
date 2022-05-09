@@ -1,5 +1,5 @@
 {
-  "giantminers": {
+  "giantmobs": {
     "selector": {
       "gamestages": {
         "and": ["enteredEnd"]

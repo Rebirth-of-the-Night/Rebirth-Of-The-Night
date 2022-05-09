@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["siegeevent"]
       },
-      "weight": 9999999999999999,
+      "weight": 128,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
