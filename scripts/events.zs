@@ -514,15 +514,9 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 	}
 
 	var player = event.player;
-
-		// checking if the worldtime is divisible by 20, so it only checks all the stuff below 
-		// every second instead of every 20th of a second (to save on resources)
-	if (player.world.getWorldTime() % secondInTicks != 0) {
-		return;
-	}
 		// the actual bit that checks for conditions
 		// i fucking hate this entire block of code, you can barely even read this shit
-	else if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:unstable_spiritfire") {
+	if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:unstable_spiritfire") {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:potioncore:fire>.makePotionEffect(10, 1));
 	} 
