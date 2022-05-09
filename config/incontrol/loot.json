@@ -2,7 +2,7 @@
 	// Slayer's Journal
 	{
 		"mob": ["minecraft:zombie","minecraft:skeleton","minecraft:zombie_villager","primitivemobs:skeleton_warrior","primitivemobs:goblin","quark:ashen","minecraft:witch","quark:dweller","primitivemobs:lost_miner","toroquest:toroquest_sentry","zombie_players:zombie_player"],
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:slayers_tattered_journal",
 		"itemcount": "1",
 		"random": "0.1",
@@ -17,28 +17,28 @@
 	// Developer gear
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
-		"player": false,
+		"player": true,
 		"item": "betterwithmods:wool_helmet",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
-		"player": false,
+		"player": true,
 		"item": "betterwithmods:wool_chest",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
-		"player": false,
+		"player": true,
 		"item": "betterwithmods:wool_pants",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": ["harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","aether_legacy:valkyrie_queen","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
-		"player": false,
+		"player": true,
 		"item": "betterwithmods:wool_boots",
 		"itemcount": "1",
 		"random": "0.1"
@@ -47,14 +47,14 @@
 	// Witch hat
 	{
 		"mob": ["specialmobs:witchspider", "specialmobs:witchcavespider"],
-		"player": false,
+		"player": true,
 		"item": "quark:witch_hat",
 		"itemcount": "1",
 		"random": "0.02"
 	},
 	{
 		"mob": ["specialmobs:windwitch", "specialmobs:wildswitch", "specialmobs:undeadwitch", "specialmobs:shadowswitch", "specialmobs:dominationwitch"],
-		"player": false,
+		"player": true,
 		"item": "quark:witch_hat",
 		"itemcount": "1",
 		"random": "0.4"
@@ -63,13 +63,13 @@
 	// Harvester
 	{
 		"mob": "harvestersnight:harvester",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:shard_of_night",
 		"itemcount": "1"
 	},
 	{
 		"mob": "harvestersnight:harvester",
-		"player": false,
+		"player": true,
 		"item": "golems:golem_head",
 		"itemcount": "1",
 		"random": "0.4"
@@ -131,7 +131,7 @@
 	// Slider
 	{
 		"mob": "aether_legacy:slider",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:slider_eye",
 		"itemcount": "1"
 	},
@@ -139,25 +139,25 @@
 	// Quazar
 	{
 		"mob": "betterslimes:quazar",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:volatile_core",
 		"itemcount": "1"
 	},
 	{
 		"mob": "betterslimes:quazar",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:mercurial_ooze",
 		"itemcount": "1"
 	},
 	{
 		"mob": "betterslimes:quazar",
-		"player": false,
+		"player": true,
 		"item": "nyx:meteor_shard",
 		"itemcount": "5-10"
 	},
 	{
 		"mob": "betterslimes:quazar",
-		"player": false,
+		"player": true,
 		"item": "minecraft:fire_charge",
 		"itemcount": "1-5"
 	},
@@ -169,7 +169,7 @@
 	},
 	{
 		"mob": "aether_legacy:sun_spirit",
-		"player": false,
+		"player": true,
 		"item": "arcaneworld:molten_core",
 		"itemcount": "20-24"
 	},
@@ -177,13 +177,13 @@
 	// Valkyrie Queen
 	{
 		"mob": "aether_legacy:valkyrie_queen",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:electrum_core",
 		"itemcount": "1"
 	},
 	{
 		"mob": "aether_legacy:valkyrie_queen",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:valkyrien_plate",
 		"itemcount": "4-5"
 	},
@@ -191,7 +191,7 @@
 	// End Guard
 	{
 		"mob": "endreborn:endguard",
-		"player": false,
+		"player": true,
 		"item": "endreborn:sword_shard",
 		"itemcount": "1",
 		"random": "0.1"
@@ -200,40 +200,40 @@
 	// Ghast
 	{
 		"mob": "minecraft:ghast",
-		"player": false,
+		"player": true,
 		"item": "minecraft:ghast_tear",
 		"itemcount": "1"
 	},
 	{
 		"mob": "netherex:ghastling",
-		"player": false,
+		"player": true,
 		"item": "minecraft:ghast_tear",
 		"itemcount": "1",
 		"random": "0.7"
 	},
 	{
 		"mob": "specialmobs:babyghast",
-		"player": false,
+		"player": true,
 		"item": "minecraft:ghast_tear",
 		"itemcount": "1",
 		"random": "0.25"
 	},
 	{
 		"mob": "specialmobs:fighterghast",
-		"player": false,
+		"player": true,
 		"item": "minecraft:ghast_tear",
 		"itemcount": "1",
 		"random": "0.7"
 	},
 	{
 		"mob": "specialmobs:unholyghast",
-		"player": false,
+		"player": true,
 		"item": "minecraft:ghast_tear",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:kingghast",
-		"player": false,
+		"player": true,
 		"item": "minecraft:ghast_tear",
 		"itemcount": "2-5"
 	},
@@ -241,14 +241,14 @@
 	// Plague Beast
 	{
 		"mob": "rats:plague_beast",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:pigboarhide",
 		"itemcount": "2-4",
 		"random": "0.7"
 	},
 	{
 		"mob": "rats:plague_beast",
-		"player": false,
+		"player": true,
 		"item": "rats:feral_rat_claw",
 		"itemcount": "1-2",
 		"random": "0.25"
@@ -257,21 +257,21 @@
 	// Vermin Soul
 	{
 		"mob": "rats:ratlantean_spirit",
-		"player": false,
+		"player": true,
 		"item": "rats:plague_essence",
 		"itemcount": "1",
 		"random": "0.2"
 	},
 	{
 		"mob": "rats:ratlantean_spirit",
-		"player": false,
+		"player": true,
 		"item": "biomesoplenty:ash",
 		"itemcount": "1-3",
 		"random": "0.7"
 	},
 	{
 		"mob": "rats:ratlantean_spirit",
-		"player": false,
+		"player": true,
 		"item": "betterwithmods:material@25",
 		"itemcount": "1-3",
 		"random": "0.3"
@@ -280,14 +280,14 @@
 	// Ithaqua
 	{
 		"mob": "mod_lavacow:ithaqua",
-		"player": false,
+		"player": true,
 		"item": "rats:plague_essence",
 		"itemcount": "1-3",
 		"random": "0.75"
 	},
 	{
 		"mob": "mod_lavacow:ithaqua",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:pigboarhide",
 		"itemcount": "3-5",
 		"random": "0.8"
@@ -297,14 +297,14 @@
 	// Dread Swine
 	{
 		"mob": "mod_lavacow:undeadswine",
-		"player": false,
+		"player": true,
 		"item": "rats:plague_essence",
 		"itemcount": "1-2",
 		"random": "0.2"
 	},
 	{
 		"mob": "mod_lavacow:undeadswine",
-		"player": false,
+		"player": true,
 		"item": "rats:plague_leech",
 		"itemcount": "1-2",
 		"random": "0.2"
@@ -313,7 +313,7 @@
 	// Zombie Piranha
 	{
 		"mob": "mod_lavacow:zombiepiranha",
-		"player": false,
+		"player": true,
 		"item": "rats:plague_leech",
 		"itemcount": "1",
 		"random": "0.4"
@@ -323,68 +323,68 @@
 	// Mimics
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"remove": "primitivemobs:mimic_orb"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:whoopie_cushion",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:bottled_cloud",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:drinking_hat",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:magma_stone",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:power_glove",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:shock_pendant",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:star_cloak",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:pocket_piston",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "primitivemobs:mimic",
-		"player": false,
+		"player": true,
 		"item": "artifacts:feral_claws",
 		"itemcount": "1",
 		"random": "0.1"
@@ -394,7 +394,7 @@
 	// Brain Slime
 	{
 		"mob": "primitivemobs:brain_slime",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:brain",
 		"itemcount": "1",
 		"random": "0.1"
@@ -403,26 +403,26 @@
 	// Lemon Slime
 	{
 		"mob": "specialmobs:lemonslime",
-		"player": false,
+		"player": true,
 		"item": "betterslimes:yellow_slime",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:lemonslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:lemonitem",
 		"random": "0.1"
 	},
 	{
 		"mob": "specialmobs:lemonslime",
-		"player": false,
+		"player": true,
 		"item": "quark:rune@4",
 		"itemcount": "1",
 		"random": "0.005"
 	},
 	{
 		"mob": "specialmobs:lemonslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:slimegummiesitem",
 		"itemcount": "1",
 		"random": "0.02"
@@ -433,26 +433,26 @@
 	// Grape Slime
 	{
 		"mob": "specialmobs:grapeslime",
-		"player": false,
+		"player": true,
 		"item": "betterslimes:purple_slime",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:grapeslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:grapeitem",
 		"random": "0.1"
 	},
 	{
 		"mob": "specialmobs:grapeslime",
-		"player": false,
+		"player": true,
 		"item": "quark:rune@10",
 		"itemcount": "1",
 		"random": "0.005"
 	},
 	{
 		"mob": "specialmobs:grapeslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:slimegummiesitem",
 		"itemcount": "1",
 		"random": "0.02"
@@ -461,26 +461,26 @@
 	// Blueberry Slime
 	{
 		"mob": "specialmobs:blueberryslime",
-		"player": false,
+		"player": true,
 		"item": "betterslimes:blue_slime",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:blueberryslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:blueberryitem",
 		"random": "0.1"
 	},
 	{
 		"mob": "specialmobs:blueberryslime",
-		"player": false,
+		"player": true,
 		"item": "quark:rune@11",
 		"itemcount": "1",
 		"random": "0.005"
 	},
 	{
 		"mob": "specialmobs:blueberryslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:slimegummiesitem",
 		"itemcount": "1",
 		"random": "0.02"
@@ -489,26 +489,26 @@
 	// Blackberry Slime
 	{
 		"mob": "specialmobs:blackberryslime",
-		"player": false,
+		"player": true,
 		"item": "betterslimes:black_slime",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:blackberryslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:blackberryitem",
 		"random": "0.1"
 	},
 	{
 		"mob": "specialmobs:blackberryslime",
-		"player": false,
+		"player": true,
 		"item": "quark:rune@15",
 		"itemcount": "1",
 		"random": "0.005"
 	},
 	{
 		"mob": "specialmobs:blackberryslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:slimegummiesitem",
 		"itemcount": "1",
 		"random": "0.02"
@@ -519,27 +519,27 @@
 	// Strawberry Slime
 	{
 		"mob": "specialmobs:strawberryslime",
-		"player": false,
+		"player": true,
 		"item": "betterslimes:red_slime",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:strawberryslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:strawberryitem",
 		"itemcount": "1",
 		"random": "0.1"
 	},
 	{
 		"mob": "specialmobs:strawberryslime",
-		"player": false,
+		"player": true,
 		"item": "quark:rune@14",
 		"itemcount": "1",
 		"random": "0.005"
 	},
 	{
 		"mob": "specialmobs:strawberryslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:slimegummiesitem",
 		"itemcount": "1",
 		"random": "0.02"
@@ -549,26 +549,26 @@
 	// Watermelon Slime
 	{
 		"mob": "specialmobs:watermelonslime",
-		"player": false,
+		"player": true,
 		"item": "betterslimes:red_slime",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:watermelonslime",
-		"player": false,
+		"player": true,
 		"item": "minecraft:slime_ball",
 		"itemcount": "1"
 	},
 	{
 		"mob": "specialmobs:watermelonslime",
-		"player": false,
+		"player": true,
 		"item": "quark:rune@16",
 		"itemcount": "1",
 		"random": "0.005"
 	},
 	{
 		"mob": "specialmobs:watermelonslime",
-		"player": false,
+		"player": true,
 		"item": "harvestcraft:slimegummiesitem",
 		"itemcount": "1",
 		"random": "0.02"
@@ -579,30 +579,30 @@
 	// Ghast Queen Drops
  	{
 		"mob": "netherex:ghast_queen",
-		"player": false,
+		"player": true,
 		"item": "minecraft:ghast_tear",
 		"itemcount": "12-15"
  	},
  	{
 		"mob": "netherex:ghast_queen",
-		"player": false,
+		"player": true,
 		"item": "simpleores:onyx_gem",
 		"itemcount": "20-40"
  	},
  	{
 		"mob": "netherex:ghast_queen",
-		"player": false,
+		"player": true,
 		"item": "bountifulbaubles:crowngold"
  	},
     {
 		"mob": "netherex:ghast_queen",
-		"player": false,
+		"player": true,
 		"item": "minecraft:fire_charge",
 		"itemcount": "45-59"
     },
     {
 		"mob": "minecraft:wither",
-		"player": false,
+		"player": true,
 		"item": "dungeontactics:magic_powder",
 		"itemcount": "40-59"
     },
@@ -611,24 +611,24 @@
  	// Wither Drops
  	{
 		"mob": "minecraft:wither",
-		"player": false,
+		"player": true,
 		"item": "simpleores:onyx_gem",
 		"itemcount": "5-7"
  	},
  	{
 		"mob": "minecraft:wither",
-		"player": false,
+		"player": true,
 		"item": "iceandfire:witherbone",
 		"itemcount": "7-14"
  	},
  	{
 		"mob": "minecraft:wither",
-		"player": false,
+		"player": true,
 		"item": "dungeontactics:charm_barren"
  	},
     {
 		"mob": "minecraft:wither",
-		"player": false,
+		"player": true,
 		"item": "dungeontactics:magic_powder",
 		"itemcount": "40-59"
     },
@@ -640,7 +640,7 @@
 	},
 	{
 		"mob": "mowziesmobs:lantern",
-		"player": false,
+		"player": true,
 		"item": "mowziesmobs:glowing_jelly",
 		"itemcount": "1",
 		"random": "0.25"
@@ -649,80 +649,80 @@
 	// Hirschgeist Drops
  	{
 		"mob": "betteranimalsplus:hirschgeist",
-		"player": false,
+		"player": true,
 		"item": "quark:soul_bead",
 		"itemcount": "1-3"
  	},
  	{
 		"mob": "betteranimalsplus:hirschgeist",
-		"player": false,
+		"player": true,
 		"item": "iceandfire:witherbone",
 		"itemcount": "7-14"
  	},
  	{
 		"mob": "betteranimalsplus:hirschgeist",
-		"player": false,
+		"player": true,
 		"item": "minecraft:bone",
 		"itemcount": "5-10"
  	},
     {
 		"mob": "betteranimalsplus:hirschgeist",
-		"player": false,
+		"player": true,
 		"item": "rats:ratlantean_flame",
 		"itemcount": "3-5"
     },
     {
 		"mob": "betteranimalsplus:hirschgeist",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:undyingheart"
     },
 
 	// Teeth / Teefs
  	{
 		"mob": "iceandfire:firedragon",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:sharptooth",
 		"itemcount": "5-9"
  	},
 	
  	{
 		"mob": "iceandfire:icedragon",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:sharptooth",
 		"itemcount": "5-9"
  	},
 	
  	{
 		"mob": "iceandfire:deathworm",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:sharptooth",
 		"itemcount": "1-4"
  	},
 
  	{
 		"mob": "mowziesmobs:naga",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:sharptooth",
 		"itemcount": "3-6"
  	},
 
  	{
 		"mob": "iceandfire:seaserpent",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:sharptooth",
 		"itemcount": "2-5"
  	},
 
  	{
 		"mob": "mowziesmobs:frostmaw",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:sharptooth",
 		"itemcount": "1-4"
  	},
 
  	{
 		"mob": "betteranimalsplus:feralwolf",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:sharptooth",
 		"itemcount": "1-2"
  	},
@@ -730,49 +730,49 @@
  	// Ender Dragon
  	{
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "endreborn:item_advanced_ender_pearl",
 		"itemcount": "8-13"
  	},
     {
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "dungeontactics:magic_powder",
 		"itemcount": "40-59"
     },
     {
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "endreborn:item_raw_endorium",
 		"itemcount": "200-300"
     },
     {
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "spartanweaponry:arrow_diamond",
 		"itemcount": "100-150"
     },
     {
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "endreborn:item_end_shard",
 		"itemcount": "5-10"
     },
     {
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "endreborn:item_end_essence",
 		"itemcount": "5-10"
     },
     {
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "quark:biotite",
 		"itemcount": "5-7"
     },
 	{
 		"mob": "minecraft:ender_dragon",
-		"player": false,
+		"player": true,
 		"item": "endreborn:dragon_scales",
 		"itemcount": "9-15"
 	},
@@ -780,7 +780,7 @@
 	// Voidwracked Ascendant
 	{
 		"mob": "toroquest:toroquest_mage",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:voids_call",
 		"itemcount": "1"
 	},
@@ -788,26 +788,26 @@
 	// Wroughnaut
 	{
 		"mob": "mowziesmobs:ferrous_wroughtnaut",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:wrought_animation_core",
 		"itemcount": "1"
 	},
 	{
 		"mob": "mowziesmobs:ferrous_wroughtnaut",
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:sfs_artifact4",
 		"itemcount": "1",
 		"random": "0.01"
 	},
 	{
 		"mob": "mowziesmobs:ferrous_wroughtnaut",
-		"player": false,
+		"player": true,
 		"item": "minecraft:iron_ingot",
 		"itemcount": "1-5/3-10/5-15/7-20"
 	},
 	{
 		"mob": "mowziesmobs:ferrous_wroughtnaut",
-		"player": false,
+		"player": true,
 		"item": "minecraft:iron_block",
 		"itemcount": "1-2/2-5/5-7/7-10"
 	},
@@ -815,7 +815,7 @@
 	// total eclipse of the heart
 	{
 		"mob": "primitivemobs:trollager",
-		"player": false,
+		"player": true,
 		"item": "scalinghealth:crystalshard",
 		"itemcount": "1"
 	},
@@ -823,14 +823,14 @@
 	// Ancient Steel
 	{
 		"mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior","quark:ashen","quark:dweller","mod_lavacow:unburied","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom","mod_lavacow:zombiepiranha"],
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:steel_artifact",
 		"itemcount": "1",
 		"random": "0.02"
 	},
 	{
 		"mob": ["mod_lavacow:undertaker"],
-		"player": false,
+		"player": true,
 		"item": "contenttweaker:steel_artifact",
 		"itemcount": "1",
 		"random": "0.5"
@@ -839,14 +839,14 @@
 	// Ender Creeper
 	{
 		"mob": "specialmobs:endercreeper",
-		"player": false,
+		"player": true,
 		"item": "endreborn:food_ender_flesh",
 		"itemcount": "1-2"
 	},
 	
 	{
 		"mob": "mod_lavacow:undeadswine",
-		"player": false,
+		"player": true,
 		"item": "mod_lavacow:undyingheart",
 		"itemcount": "1",
 		"random": "0.1"
@@ -855,7 +855,7 @@
 	// Chronologist
 	{
 		"mob": "endreborn:chronologist",
-		"player": false,
+		"player": true,
 		"item": "villagenames:codex",
 		"random": "0.1",
 		"nbt": {
@@ -867,7 +867,7 @@
 	},
 	{
 		"mob": "endreborn:chronologist",
-		"player": false,
+		"player": true,
 		"item": "villagenames:codex",
 		"random": "0.1",
 		"nbt": {

@@ -3315,7 +3315,7 @@
   {
     "id": "dungeontactics:runed",
     "name": "enchantment.dungeontactics:runed",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",

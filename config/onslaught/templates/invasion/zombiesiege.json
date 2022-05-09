@@ -62,11 +62,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -80,11 +80,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -98,11 +98,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -125,11 +125,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -143,11 +143,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -161,11 +161,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -188,11 +188,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -206,11 +206,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -224,11 +224,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -251,11 +251,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -269,11 +269,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -287,11 +287,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -314,11 +314,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -332,11 +332,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -350,11 +350,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -376,11 +376,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -394,11 +394,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -412,11 +412,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -439,11 +439,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -457,11 +457,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -475,11 +475,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -501,11 +501,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -519,11 +519,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -537,11 +537,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -564,11 +564,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -582,11 +582,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -600,11 +600,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -626,11 +626,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -644,11 +644,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -662,11 +662,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -689,11 +689,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -707,11 +707,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -725,11 +725,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -751,11 +751,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -769,11 +769,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -787,11 +787,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -814,11 +814,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -832,11 +832,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -850,11 +850,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -876,11 +876,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -894,11 +894,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -912,11 +912,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -939,11 +939,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -957,11 +957,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -975,11 +975,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1001,11 +1001,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1019,11 +1019,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1037,11 +1037,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1064,11 +1064,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1082,11 +1082,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1100,11 +1100,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1126,11 +1126,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1144,11 +1144,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1162,11 +1162,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1189,11 +1189,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1207,11 +1207,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1225,11 +1225,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1251,11 +1251,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1269,11 +1269,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1287,11 +1287,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1314,11 +1314,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1332,11 +1332,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1350,11 +1350,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1376,11 +1376,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1394,11 +1394,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1412,11 +1412,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1439,11 +1439,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1457,11 +1457,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1475,11 +1475,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1501,11 +1501,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1519,11 +1519,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1537,11 +1537,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1564,11 +1564,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1582,11 +1582,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1600,11 +1600,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1626,11 +1626,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1644,11 +1644,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1662,11 +1662,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1689,11 +1689,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1707,11 +1707,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1725,11 +1725,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1751,11 +1751,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1769,11 +1769,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1787,11 +1787,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1814,11 +1814,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1832,11 +1832,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1850,11 +1850,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1876,11 +1876,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1894,11 +1894,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1912,11 +1912,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -1939,11 +1939,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1957,11 +1957,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -1975,11 +1975,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2001,11 +2001,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2019,11 +2019,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2037,11 +2037,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2064,11 +2064,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2082,11 +2082,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2100,11 +2100,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2126,11 +2126,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2144,11 +2144,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2162,11 +2162,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2189,11 +2189,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2207,11 +2207,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2225,11 +2225,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2251,11 +2251,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2269,11 +2269,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2287,11 +2287,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2314,11 +2314,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2332,11 +2332,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2350,11 +2350,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2376,11 +2376,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2394,11 +2394,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2412,11 +2412,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2439,11 +2439,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2457,11 +2457,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2475,11 +2475,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2501,11 +2501,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2519,11 +2519,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2537,11 +2537,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2564,11 +2564,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2582,11 +2582,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2600,11 +2600,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2626,11 +2626,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2644,11 +2644,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2662,11 +2662,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2689,11 +2689,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2707,11 +2707,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2725,11 +2725,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2751,11 +2751,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2769,11 +2769,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2787,11 +2787,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2814,11 +2814,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2832,11 +2832,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2850,11 +2850,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2876,11 +2876,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2894,11 +2894,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2912,11 +2912,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -2939,11 +2939,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2957,11 +2957,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -2975,11 +2975,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -3002,11 +3002,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -3020,11 +3020,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -3038,11 +3038,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -3065,11 +3065,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -3083,11 +3083,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -3101,11 +3101,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -3128,11 +3128,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -3146,11 +3146,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               },
@@ -3164,11 +3164,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
