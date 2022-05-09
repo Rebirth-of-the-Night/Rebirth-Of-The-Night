@@ -512,6 +512,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <minecraft:wooden_shovel>.addShiftTooltip('"Sorcery is the sauce fools spoon over failure to hide the flavor of their own incompetence." -G.R.R.M.');
 <minecraft:wooden_shovel>.addShiftTooltip("Well, a wooden spoon can unlock a great deal of sorceries.");
 
+<dungeontactics:ducttape>.addTooltip("Right click with a damaged item in your off-hand to restore some durability.");
+
 // Wands
 
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
