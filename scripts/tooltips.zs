@@ -581,5 +581,15 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <iceandfire:troll_weapon.trunk_frost>.addTooltip(format.red("- Two-Handed I"));
 <iceandfire:troll_weapon.trunk_frost>.addTooltip(format.green("- Reach I"));
 
+<aether_legacy:holy_sword>.addTooltip(format.gold("Properties:"));
+<aether_legacy:holy_sword>.addTooltip(format.green("- Alchemized Conversion I"));
+
+<aether_legacy:flaming_sword>.addTooltip(format.gold("Properties:"));
+<aether_legacy:flaming_sword>.addTooltip(format.green("- Smite IV"));
+<aether_legacy:flaming_sword>.addTooltip(format.green("- 10% Attack Speed Buff"));
+
+<aether_legacy:pig_slayer>.addTooltip(format.gold("Properties:"));
+<aether_legacy:pig_slayer>.addTooltip(format.green("- Stealthy Strike I"));
+
 // BUGS
 #<aether_legacy:enchanted_blueberry>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));

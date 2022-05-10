@@ -135,7 +135,14 @@
 		"item": "contenttweaker:slider_eye",
 		"itemcount": "1"
 	},
-	
+	{
+		"mob": "aether_legacy:slider",
+		"player": true,
+		"item": "aether_legacy:holy_sword",
+		"itemcount": "1",
+		"random": "0.5"
+	},
+
 	// Quazar
 	{
 		"mob": "betterslimes:quazar",
@@ -186,6 +193,59 @@
 		"player": true,
 		"item": "contenttweaker:valkyrien_plate",
 		"itemcount": "4-5"
+	},
+	{
+		"mob": "aether_legacy:valkyrie_queen",
+		"player": true,
+		"item": "aether_legacy:lightning_sword",
+		"itemcount": "1",
+		"random": "0.5"
+	},
+
+	// Special Aether Weapons
+	{
+		"mob": ["aether_legacy:slider", "aether_legacy:valkyrie_queen", "aether_legacy:sun_spirit"],
+		"player": true,
+		"item": "aether_legacy:pig_slayer",
+		"itemcount": "1",
+		"random": "0.25"
+	},
+	{
+		"mob": ["aether_legacy:slider", "aether_legacy:valkyrie_queen", "aether_legacy:sun_spirit"],
+		"player": true,
+		"item": "aether_legacy:notch_hammer",
+		"itemcount": "1",
+		"random": "0.05"
+	},
+	
+	// Neptune Armor
+	{
+		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
+		"player": true,
+		"item": "aether_legacy:neptune_helmet",
+		"itemcount": "1",
+		"random": "0.1"
+	},
+	{
+		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
+		"player": true,
+		"item": "aether_legacy:neptune_chestplate",
+		"itemcount": "1",
+		"random": "0.1"
+	},
+	{
+		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
+		"player": true,
+		"item": "aether_legacy:neptune_leggings",
+		"itemcount": "1",
+		"random": "0.1"
+	},
+	{
+		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
+		"player": true,
+		"item": "aether_legacy:neptune_boots",
+		"itemcount": "1",
+		"random": "0.1"
 	},
 
 	// End Guard
