@@ -275,7 +275,7 @@
         "item": [
           {
             "content": {
-              "amount": 8,
+              "amount": 1,
               "matches": [
                 "{id:\"biomesoplenty:blue_fire\",Count:1,Damage:0s}"
               ]
