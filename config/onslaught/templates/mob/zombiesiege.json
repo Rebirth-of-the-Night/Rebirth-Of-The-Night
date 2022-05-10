@@ -141,6 +141,7 @@
       ],
       "Health": 30,
       "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {

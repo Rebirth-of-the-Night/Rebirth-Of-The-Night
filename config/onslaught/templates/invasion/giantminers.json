@@ -14,21 +14,23 @@
       "start": [
         "/weather clear",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule doMobLoot false"
       ],
       "end": [
         "/weather rain",
         "/give @p twilightforest:giant_pickaxe",
         "/give @p twilightforest:giant_sword",
-        "/give @p iceandfire:fire_dragon_blood",
-        "/give @p iceandfire:ice_dragon_blood",
+        "/give @p iceandfire:fire_dragon_blood 2",
+        "/give @p iceandfire:ice_dragon_blood 2",
         "/give @p iceandfire:dragonbone 8",
         "/give @p betterwithmods:wool_helmet",
         "/give @p betterwithmods:wool_chest",
         "/give @p betterwithmods:wool_pants",
         "/give @p betterwithmods:wool_boots",
-        "/xp 1200 @p",
-        "/gamestage silentremove @p invasionongoing"
+        "/xp 2400 @p",
+        "/gamestage silentremove @p invasionongoing",
+        "/gamerule doMobLoot true"
       ],
       "staged": [
         {
@@ -57,7 +59,25 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 5, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -84,7 +104,25 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 5, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -111,7 +149,25 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 5, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -138,7 +194,25 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 8, 10 ],
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 7, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -165,7 +239,43 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 8, 10 ],
+                "count": [ 2, 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "giantboss",
+                "count": [ 1 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -192,7 +302,25 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 8, 10 ],
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 7, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -219,7 +347,25 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 8, 10 ],
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 2
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 7, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [

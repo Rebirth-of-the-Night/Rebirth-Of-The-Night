@@ -843,6 +843,8 @@ Anvil.addShaped(<iceandfire:dragonbone_bow>,[
     [<iceandfire:dragonbone>, <minecraft:string>, null, null]
 ]);
 
+recipes.remove(<nyx:meteor_bow>);
+
 recipes.remove(<simpleores:mythril_bow>);
 recipes.remove(<simpleores:mythril_sword>);
 recipes.remove(<simpleores:mythril_pickaxe>);
@@ -914,6 +916,13 @@ val enchantmentsMythrilBow as IEnchantmentDefinition[] = [<enchantment:randomenc
 var enchantmentMapMythrilBow as IData = {};
 
 enchantmentMapMythrilBow += enchantmentsMythrilBow[0].makeEnchantment(2).makeTag();
+
+Anvil.addShaped(<nyx:meteor_bow>/*.withTag(enchantmentMapMythrilBow)*/, [   
+   [null, null, null, <nyx:meteor_ingot>],
+   [null, brod, <nyx:meteor_ingot>, strings],
+   [null, <nyx:meteor_ingot>, strings, null],
+   [<nyx:meteor_ingot>, strings, null, null]
+]);
 
 Anvil.addShaped(<simpleores:mythril_bow>/*.withTag(enchantmentMapMythrilBow)*/, [   
    [null, null, null, mrod],

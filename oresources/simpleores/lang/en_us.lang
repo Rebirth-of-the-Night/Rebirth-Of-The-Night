@@ -114,7 +114,7 @@ advancements.onyxBowAch=Firebug
 advancements.onyxBowAch.desc=Scorch your enemies with this onyx bow straight from the Hells
 
 //Bow Tooltips
-tips.damageTooltip=+Damage
+/tips.damageTooltip=
 tips.flameTooltip=+Flame
 tips.knockbackTooltip=+Knockback
 tips.zoomTooltip=+Zoom

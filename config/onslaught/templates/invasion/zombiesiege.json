@@ -15,17 +15,17 @@
         "/weather clear",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
-        "/gamerule doMobDrops false"
+        "/gamerule doMobLoot false"
       ],
       "end": [
-        "/xp 700 @p",
+        "/xp 3000 @p",
         "/give @p glaretorch:itemglaretorchsmall 96",
         "/give @p contenttweaker:raw_viridium 16", 
         "/give @p mowziesmobs:glowing_jelly 4",
         "/give @p minecraft:rotten_flesh 64",
         "/gamestage silentremove @p invasionongoing",
         "/gamestage silentremove @p siegeevent",
-        "/gamerule doMobDrops true"
+        "/gamerule doMobLoot true"
       ],
       "staged": [
         {

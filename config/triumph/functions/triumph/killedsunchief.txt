@@ -1,5 +1,6 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p killedSunChief
+give @p scalinghealth:crystalshard 4
 tellraw @p ["",{"text":"A font of disintegrating magick releases from the sun chief.","color":"blue","italic":true}]
 tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}
