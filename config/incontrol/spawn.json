@@ -1122,6 +1122,19 @@
  {
     "dimension": [0,1,10],
     "mob": "primitivemobs:void_eye",
+    "gamestage": "killedEnderDragon",
+    "maxlight": 5,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "difficulty": "peaceful",
+    "result": "deny"
+ },
+ {
+    "dimension": [0,1,10],
+    "mob": "primitivemobs:void_eye",
     "result": "deny"
  },
 
