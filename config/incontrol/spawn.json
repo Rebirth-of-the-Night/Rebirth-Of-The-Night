@@ -6,8 +6,8 @@
 }, */
 
 /////////////////// ANTI SKY BASE ///////////////////
-{
-    "dimension": 4,
+/*{
+    "dimension": 0,
     "mob": "roughmobsrevamped:hostilebat",
     "minheight": 100,
 	"random": 0.3,
@@ -16,7 +16,7 @@
         "perplayer": true
     },
     "result": "default"
- },
+ },*/
 
   // Zombies
 
@@ -74,7 +74,13 @@
     "gamestage": "killedHarvester"
 },
 
+////////// HARVESTER BUFF YEAHHHHHHHHH ///////////
+{  
+    "mob": ["harvestersnight:harvester"],
+    "onjoin": true,
+    "healthmultiply": 1.5
 
+},
 /////////// NETHER GAMESTAGE //////////////
 
 {
@@ -1112,6 +1118,19 @@
         "perplayer": true
     },
     "result": "default"
+ },
+ {
+    "dimension": [0,1,10],
+    "mob": "primitivemobs:void_eye",
+    "gamestage": "killedEnderDragon",
+    "maxlight": 5,
+    "minlight": 0,
+    "maxcount": {
+        "amount": 1,
+        "perplayer": true
+    },
+    "difficulty": "peaceful",
+    "result": "deny"
  },
  {
     "dimension": [0,1,10],

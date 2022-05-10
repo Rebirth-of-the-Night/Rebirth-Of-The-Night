@@ -1,11 +1,11 @@
-setIcon(<advancedmortars:mortar:2>)
+setIcon(<advancedmortars:mortar:4>)
 setTitle("Mystical Mortar")
 setDescription("Craft a mystical mortar")
 
 addParent("triumph:advancements/magick/sygaldry/arcanemortar")
 
 criteria = addCriteria("Mystical Mortar", "triumph:player_crafted_item")
-criteria.setItem(<advancedmortars:mortar:2>)
+criteria.setItem(<advancedmortars:mortar:4>)
 
 alwaysVisible()
 // (horizontal, vertical)

@@ -1,6 +1,6 @@
 {
-    "registryname": "aetherialmixer",
-    "localizedname": "Aetherial Mixer",
+    "registryname": "alchemicalmixer",
+    "localizedname": "Alchemical Mixer",
     "requires-blueprint": true,
     "parts": [
         {

@@ -1,0 +1,242 @@
+{
+  "consumeCatalyst": false,
+  "location": "multiblocked:alchemical_mixer",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 33,
+        "y": 32,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 34,
+        "y": 78,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 33,
+        "y": 122,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 125,
+        "y": 77,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 77,
+        "y": 37,
+        "autoIO": false,
+        "tC": 16000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "betterwithmods:steel_axle",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "modelName": "aetherialmixer",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "workingRenderer": {
+    "modelName": "aetherialmixer",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABC",
+        " DC",
+        " EC",
+        " JJ"
+      ],
+      [
+        "KFL",
+        " @G",
+        " HG",
+        " IJ"
+      ],
+      [
+        "ABC",
+        " DC",
+        " EC",
+        " JJ"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "outputs": {
+        "capability": "item",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "controller": {
+        "location": "multiblocked:alchemical_mixer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "contenttweaker:block_electrum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "slatewalls": {
+        "blocks": [
+          {
+            "id": "earthworks:wall_slate_shingle"
+          },
+          {
+            "id": "earthworks:wall_slate_slab"
+          },
+          {
+            "id": "earthworks:wall_slate_tile"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "betterwithmods:cooking_pot",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "slateblock": {
+        "blocks": [
+          {
+            "id": "earthworks:block_slate_slab"
+          },
+          {
+            "id": "earthworks:block_slate_shingle"
+          },
+          {
+            "id": "earthworks:block_slate_tile"
+          }
+        ],
+        "type": "blocks"
+      },
+      "stairs": {
+        "blocks": [
+          {
+            "id": "aesthetics:iron_brick_stairs"
+          }
+        ],
+        "type": "blocks"
+      },
+      "fluidin": {
+        "capability": "fluid",
+        "type": "capability",
+        "io": "IN"
+      },
+      "pipe": {
+        "blocks": [
+          {
+            "id": "quark:pipe"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      },
+      "axle": {
+        "blocks": [
+          {
+            "id": "betterwithmods:steel_axle"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "stairs"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "slatewalls"
+      ],
+      "D": [
+        "slatewalls"
+      ],
+      "E": [
+        "slateblock"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "slateblock"
+      ],
+      "H": [
+        "axle"
+      ],
+      "I": [
+        "fluidin"
+      ],
+      "J": [
+        "stairs"
+      ],
+      "K": [
+        "outputs"
+      ],
+      "L": [
+        "pipe"
+      ]
+    }
+  },
+  "recipeMap": "alchemical_mixer"
+}

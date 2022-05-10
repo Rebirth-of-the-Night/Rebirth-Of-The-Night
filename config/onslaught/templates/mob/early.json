@@ -55,7 +55,7 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            /*"OffscreenTeleport": { },*/
+            
             "CounterAttack": {
               "Priority": -2,
               "LeapMotionXZ": -1.4,
@@ -90,7 +90,6 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "OffscreenTeleport": { }
           }
         }
       }
@@ -126,7 +125,6 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "OffscreenTeleport": { }
           }
         }
       }
@@ -266,13 +264,8 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "OffscreenTeleport": {
-              "TeleportDistance": 16,
-              "TeleportFactor": 1.5,
-              "DimensionHopping": true
-            }
-          },
-          "Lunge": { }
+            "Lunge": { }
+          }
         }
       }
     }
@@ -322,7 +315,6 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            /*"OffscreenTeleport": { },*/
             "CounterAttack": { "Chance": 0.2 },
             "Lunge": { "Range": 6, "SpeedModifier": 0.3 }
           }
@@ -363,7 +355,6 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            /*"OffscreenTeleport": { },*/
             "CounterAttack": { "Chance": 0.3 },
             "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
             "Mining": { "Range": 4, "SpeedModifier": 2 }
@@ -456,7 +447,6 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            /*"OffscreenTeleport": { },*/
             "CounterAttack": {
               "Priority": -2,
               "LeapMotionXZ": -1.2,

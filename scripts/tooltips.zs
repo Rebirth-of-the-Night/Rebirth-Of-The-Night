@@ -93,7 +93,7 @@ import crafttweaker.item.IIngredient;
 <dungeontactics:mithril_sword:*>.addTooltip("+10% Attack Damage");
 <dungeontactics:mithril_sword:*>.addTooltip("+5% Damage Resistance");
 
-<dungeontactics:steel_sword>.addTooltip("§d+15% Attack Damage");
+#<dungeontactics:steel_sword>.addTooltip("§d+15% Attack Damage");
 <dungeontactics:steel_sword>.addTooltip("§aReincarnation I for 10 seconds every 60 seconds");
 <dungeontactics:steel_sword>.addTooltip("§eResilience I for 10 seconds every 30 seconds");
 
@@ -512,6 +512,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <minecraft:wooden_shovel>.addShiftTooltip('"Sorcery is the sauce fools spoon over failure to hide the flavor of their own incompetence." -G.R.R.M.');
 <minecraft:wooden_shovel>.addShiftTooltip("Well, a wooden spoon can unlock a great deal of sorceries.");
 
+<dungeontactics:ducttape>.addTooltip("Right click with a damaged item in your off-hand to restore some durability.");
+
 // Wands
 
 <dungeontactics:magic_scroll>.removeTooltip("^Restoration( \\d+)?");
@@ -578,6 +580,16 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <iceandfire:troll_weapon.trunk_frost>.addTooltip(format.gold("Properties:"));
 <iceandfire:troll_weapon.trunk_frost>.addTooltip(format.red("- Two-Handed I"));
 <iceandfire:troll_weapon.trunk_frost>.addTooltip(format.green("- Reach I"));
+
+<aether_legacy:holy_sword>.addTooltip(format.gold("Properties:"));
+<aether_legacy:holy_sword>.addTooltip(format.green("- Alchemized Conversion I"));
+
+<aether_legacy:flaming_sword>.addTooltip(format.gold("Properties:"));
+<aether_legacy:flaming_sword>.addTooltip(format.green("- Smite IV"));
+<aether_legacy:flaming_sword>.addTooltip(format.green("- 10% Attack Speed Buff"));
+
+<aether_legacy:pig_slayer>.addTooltip(format.gold("Properties:"));
+<aether_legacy:pig_slayer>.addTooltip(format.green("- Stealthy Strike I"));
 
 // BUGS
 #<aether_legacy:enchanted_blueberry>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));

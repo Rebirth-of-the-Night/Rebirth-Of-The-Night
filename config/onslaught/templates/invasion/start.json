@@ -51,8 +51,8 @@
                   "type": "ground",
                   "light": [ 0, 15 ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ]
                 }
               }
@@ -72,8 +72,8 @@
                   "type": "ground",
                   "light": [ 0, 15 ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ]
                 }
               }
@@ -93,8 +93,8 @@
                   "type": "ground",
                   "light": [ 0, 15 ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ]
                 }
               },
@@ -142,8 +142,8 @@
                   "type": "ground",
                   "light": [ 0, 15 ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ]
                 }
               }

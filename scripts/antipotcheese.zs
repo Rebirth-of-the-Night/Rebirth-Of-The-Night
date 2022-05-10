@@ -17,7 +17,7 @@ import crafttweaker.block.IBlock;
 static secondInTicks as long = 20;
 
 val armorSets = {
-	"swineArmor" : [null, <mod_lavacow:swinearmor_chestplate>, <mod_lavacow:swinearmor_leggings>, <mod_lavacow:swinearmor_boots>],
+	"swineArmor" : [<mod_lavacow:swinemask>, <mod_lavacow:swinearmor_chestplate>, <mod_lavacow:swinearmor_leggings>, <mod_lavacow:swinearmor_boots>],
 	"exoriteArmor" : [<atop:amethyst_helmet>, <atop:amethyst_chestplate>, <atop:amethyst_leggings>, <atop:amethyst_boots>]
 } as IItemStack[][string];
 

@@ -218,9 +218,19 @@
     "nbt": {
       "CustomName": "\u00A76Annoying Bat",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 16 }
+        { "Name": "generic.maxHealth", "Base": 10 }
       ],
-      "Health": 16
+      "Health": 10,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 4,
+              "SpeedModifier": 2
+            }
+          }
+        }
+      }
     }
   }
 }

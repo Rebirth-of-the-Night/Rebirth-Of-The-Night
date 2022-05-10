@@ -57,7 +57,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 3, 4 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -65,11 +65,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -84,7 +84,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 3, 4 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -92,11 +92,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -111,7 +111,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 3, 4 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -119,11 +119,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -138,7 +138,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 4, 5 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -146,11 +146,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -165,7 +165,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 4, 5 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -173,11 +173,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -192,7 +192,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 4, 5 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -200,11 +200,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }
@@ -219,7 +219,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 4, 5 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -227,11 +227,11 @@
                     7
                   ],
                   "rangeXZ": [
-                    16,
-                    32
+                    8,
+                    64
                   ],
-                  "rangeY": 8,
-                  "stepRadius": 4,
+                  "rangeY": 4,
+                  "stepRadius": 2,
                   "sampleDistance": 2
                 }
               }

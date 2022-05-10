@@ -52,12 +52,12 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 	}*/
 });
 
-events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start) {
-    if (event.item.matches(<mowziesmobs:ice_crystal>) && 
+/* events.onEntityLivingUseItemStart(function(event as crafttweaker.event.EntityLivingUseItemEvent.Start) {
+    if (event.item.matches(<mowziesmobs:ice_crystal> || event.item.matches(<iceandfire:cockatrice_scepter>)) && 
         event.player.isPotionActive(<potion:extraalchemy:effect.leech>)) {
-        event.player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
+        event.cancel();
     }
-});
+}); */
 
 HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEvent) {
 	if (event.player.world.isRemote()) {
@@ -512,6 +512,22 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 			}
 		}
 	}
+
+	var player = event.player;
+		// the actual bit that checks for conditions
+		// i fucking hate this entire block of code, you can barely even read this shit
+	if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:unstable_spiritfire") {
+		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
+		player.addPotionEffect(<potion:potioncore:fire>.makePotionEffect(10, 1));
+	} 
+	else if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:dread_cold") {
+		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
+		player.addPotionEffect(<potion:twilightforest:frosted>.makePotionEffect(10, 1));
+	} 
+	else if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:concentrated_bioflow") {
+		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
+		player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(10, 1));
+	} 
 });
 
 
