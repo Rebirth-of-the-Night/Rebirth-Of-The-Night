@@ -74,7 +74,13 @@
     "gamestage": "killedHarvester"
 },
 
+////////// HARVESTER BUFF YEAHHHHHHHHH ///////////
+{  
+    "mob": ["harvestersnight:harvester"],
+    "onjoin": true,
+    "healthmultiply": 1.5
 
+},
 /////////// NETHER GAMESTAGE //////////////
 
 {

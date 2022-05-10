@@ -239,8 +239,8 @@ Enchanter.registerEnchantment(<spartancompat:halberd_mythril>, 14400);
 Enchanter.registerEnchantment(<spartancompat:pike_mythril>, 14400);
 Enchanter.registerEnchantment(<spartancompat:lance_mythril>, 14400);
 Enchanter.registerEnchantment(<spartancompat:longbow_mythril>, 14400);
-//Enchanter.registerEnchantment(<spartancompat:throwing_knife_mythril>, 14400);
-//Enchanter.registerEnchantment(<spartancompat:throwing_axe_mythril>, 14400);
+Enchanter.registerEnchantment(<spartancompat:throwing_knife_mythril>, 14400);
+Enchanter.registerEnchantment(<spartancompat:throwing_axe_mythril>, 14400);
 Enchanter.registerEnchantment(<spartancompat:javelin_mythril>, 14400);
 
 //Viridium
@@ -351,8 +351,8 @@ Enchanter.registerEnchantment(<spartanfire:halberd_dragonbone>, 12000);
 Enchanter.registerEnchantment(<spartanfire:pike_dragonbone>, 12000);
 Enchanter.registerEnchantment(<spartanfire:lance_dragonbone>, 12000);
 Enchanter.registerEnchantment(<spartanfire:longbow_dragonbone>, 12000);
-//Enchanter.registerEnchantment(<spartanfire:throwing_knife_dragonbone>, 12000);
-//Enchanter.registerEnchantment(<spartanfire:throwing_axe_dragonbone>, 12000);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_dragonbone>, 12000);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_dragonbone>, 12000);
 Enchanter.registerEnchantment(<spartanfire:javelin_dragonbone>, 12000);
 
 //Dragon Scale Armor
@@ -528,6 +528,189 @@ Enchanter.registerEnchantment(<endreborn:tool_magnifier>, 12000);
 Enchanter.registerEnchantment(<endreborn:ender_bow>, 12000);
 Enchanter.registerEnchantment(<endreborn:entropy_wand>, 12000);
 
+//Plague armor
+Enchanter.registerEnchantment(<mod_lavacow:swinemask>, 7700);
+Enchanter.registerEnchantment(<mod_lavacow:swinearmor_chestplate>, 7700);
+Enchanter.registerEnchantment(<mod_lavacow:swinearmor_leggings>, 7700);
+Enchanter.registerEnchantment(<mod_lavacow:swinearmor_boots>, 7700);
+
+//Meteor armor
+Enchanter.registerEnchantment(<nyx:meteor_helm>, 8800);
+Enchanter.registerEnchantment(<nyx:meteor_chest>, 8800);
+Enchanter.registerEnchantment(<nyx:meteor_pants>, 8800);
+Enchanter.registerEnchantment(<nyx:meteor_boots>, 8800);
+
+Enchanter.registerEnchantment(<nyx:meteor_pickaxe>, 8800);
+Enchanter.registerEnchantment(<nyx:meteor_axe>, 8800);
+Enchanter.registerEnchantment(<nyx:meteor_shovel>, 8800);
+Enchanter.registerEnchantment(<nyx:meteor_hoe>, 8800);
+
+//Myrmex armor & tools
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_helmet>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_chestplate>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_leggings>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_boots>, 7700);
+
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_helmet>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_chestplate>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_leggings>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_boots>, 7700);
+
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_pickaxe>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_axe>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_shovel>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_desert_hoe>, 7700);
+
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_pickaxe>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_axe>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_shovel>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_hoe>, 7700);
+
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_sword>, 7700);
+Enchanter.registerEnchantment(<iceandfire:myrmex_jungle_sword>, 7700);
+
+Enchanter.registerEnchantment(<spartanfire:dagger_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:longsword_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:katana_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:saber_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:rapier_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:greatsword_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:hammer_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:warhammer_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:boomeran_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:battleaxe_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:mace_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:glaive_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:staff_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:spear_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:halberd_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:pike_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:lance_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_desert>, 7700);
+Enchanter.registerEnchantment(<spartanfire:javelin_desert>, 7700);
+
+Enchanter.registerEnchantment(<spartanfire:dagger_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:longsword_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:katana_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:saber_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:rapier_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:greatsword_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:hammer_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:warhammer_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:boomeran_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:battleaxe_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:mace_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:glaive_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:staff_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:spear_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:halberd_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:pike_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:lance_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_desert_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:javelin_desert_venom>, 7700);
+
+Enchanter.registerEnchantment(<spartanfire:dagger_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:longsword_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:katana_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:saber_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:rapier_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:greatsword_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:hammer_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:warhammer_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:boomeran_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:battleaxe_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:mace_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:glaive_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:staff_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:spear_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:halberd_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:pike_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:lance_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_jungle>, 7700);
+Enchanter.registerEnchantment(<spartanfire:javelin_jungle>, 7700);
+
+Enchanter.registerEnchantment(<spartanfire:dagger_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:longsword_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:katana_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:saber_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:rapier_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:greatsword_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:hammer_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:warhammer_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:boomeran_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:battleaxe_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:mace_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:glaive_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:staff_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:spear_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:halberd_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:pike_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:lance_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_knife_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:throwing_axe_jungle_venom>, 7700);
+Enchanter.registerEnchantment(<spartanfire:javelin_jungle_venom>, 7700);
+
+//Sea serpent armor
+Enchanter.registerEnchantment(<iceandfire:tide_blue_helmet>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_purple_helmet>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_red_helmet>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_teal_helmet>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_deepblue_helmet>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_green_helmet>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_bronze_helmet>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_blue_chestplate>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_purple_chestplate>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_red_chestplate>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_teal_chestplate>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_deepblue_chestplate>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_green_chestplate>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_bronze_chestplate>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_blue_leggings>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_purple_leggings>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_red_leggings>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_teal_leggings>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_deepblue_leggings>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_green_leggings>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_bronze_leggings>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_blue_boots>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_purple_boots>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_red_boots>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_teal_boots>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_deepblue_boots>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_green_boots>, 12000);
+Enchanter.registerEnchantment(<iceandfire:tide_bronze_boots>, 12000);
+
+//Troll armor
+Enchanter.registerEnchantment(<iceandfire:forest_troll_helmet>, 8800);
+Enchanter.registerEnchantment(<iceandfire:frost_troll_helmet>, 8800);
+Enchanter.registerEnchantment(<iceandfire:mountain_troll_helmet>, 8800);
+Enchanter.registerEnchantment(<iceandfire:forest_troll_chestplate>, 8800);
+Enchanter.registerEnchantment(<iceandfire:frost_troll_chestplate>, 8800);
+Enchanter.registerEnchantment(<iceandfire:mountain_troll_chestplate>, 8800);
+Enchanter.registerEnchantment(<iceandfire:forest_troll_leggings>, 8800);
+Enchanter.registerEnchantment(<iceandfire:frost_troll_leggings>, 8800);
+Enchanter.registerEnchantment(<iceandfire:mountain_troll_leggings>, 8800);
+Enchanter.registerEnchantment(<iceandfire:forest_troll_boots>, 8800);
+Enchanter.registerEnchantment(<iceandfire:frost_troll_boots>, 8800);
+Enchanter.registerEnchantment(<iceandfire:mountain_troll_boots>, 8800);
+
+//Deathworm armor
+Enchanter.registerEnchantment(<iceandfire:deathworm_yellow_helmet>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_white_helmet>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_red_helmet>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_yellow_chestplate>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_white_chestplate>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_red_chestplate>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_yellow_leggings>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_white_leggings>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_red_leggings>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_yellow_boots>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_white_boots>, 8800);
+Enchanter.registerEnchantment(<iceandfire:deathworm_red_boots>, 8800);
+
 //Wither bone, Molten, and Frosted Amedian
 Enchanter.registerEnchantment(<netherex:wither_bone_helmet>, 7700);
 Enchanter.registerEnchantment(<netherex:wither_bone_chestplate>, 7700);
@@ -546,17 +729,17 @@ Enchanter.registerEnchantment(<mod_lavacow:felarmor_leggings>, 7700);
 Enchanter.registerEnchantment(<mod_lavacow:felarmor_boots>, 7700);
 
 //Exorite
-Enchanter.registerEnchantment(<atop:amethyst_helmet>, 5300);
-Enchanter.registerEnchantment(<atop:amethyst_chestplate>, 5300);
-Enchanter.registerEnchantment(<atop:amethyst_leggings>, 5300);
-Enchanter.registerEnchantment(<atop:amethyst_boots>, 5300);
+Enchanter.registerEnchantment(<atop:amethyst_helmet>, 14400);
+Enchanter.registerEnchantment(<atop:amethyst_chestplate>, 14400);
+Enchanter.registerEnchantment(<atop:amethyst_leggings>, 14400);
+Enchanter.registerEnchantment(<atop:amethyst_boots>, 14400);
 
-Enchanter.registerEnchantment(<atop:amethyst_pickaxe>, 6000);
-Enchanter.registerEnchantment(<atop:amethyst_axe>, 6000);
-Enchanter.registerEnchantment(<atop:amethyst_shovel>, 6000);
-Enchanter.registerEnchantment(<atop:amethyst_hoe>, 6000);
-Enchanter.registerEnchantment(<atop:amethyst_sword>, 6000);
-Enchanter.registerEnchantment(<atop:topaz_sword>, 6000);
+Enchanter.registerEnchantment(<atop:amethyst_pickaxe>, 14400);
+Enchanter.registerEnchantment(<atop:amethyst_axe>, 14400);
+Enchanter.registerEnchantment(<atop:amethyst_shovel>, 14400);
+Enchanter.registerEnchantment(<atop:amethyst_hoe>, 14400);
+Enchanter.registerEnchantment(<atop:amethyst_sword>, 14400);
+Enchanter.registerEnchantment(<atop:topaz_sword>, 14400);
 
 //Ironroot
 Enchanter.registerEnchantment(<twilightforest:ironwood_helmet>, 5300);

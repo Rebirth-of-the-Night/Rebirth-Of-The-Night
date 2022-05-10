@@ -93,7 +93,7 @@ import crafttweaker.item.IIngredient;
 <dungeontactics:mithril_sword:*>.addTooltip("+10% Attack Damage");
 <dungeontactics:mithril_sword:*>.addTooltip("+5% Damage Resistance");
 
-<dungeontactics:steel_sword>.addTooltip("§d+15% Attack Damage");
+#<dungeontactics:steel_sword>.addTooltip("§d+15% Attack Damage");
 <dungeontactics:steel_sword>.addTooltip("§aReincarnation I for 10 seconds every 60 seconds");
 <dungeontactics:steel_sword>.addTooltip("§eResilience I for 10 seconds every 30 seconds");
 
