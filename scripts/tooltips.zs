@@ -544,6 +544,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <defiledlands:tears_flame>.removeTooltip("Fires fireballs");
 
 // Misc. Weapons
+<twilightforest:giant_sword>.addTooltip(format.gold("Properties:"));
+<twilightforest:giant_sword>.addTooltip(format.red("- Knockback IV"));
+
 <mowziesmobs:wrought_axe>.addTooltip(format.gold("Properties:"));
 <mowziesmobs:wrought_axe>.addTooltip(format.red("- Two-Handed I"));
 <mowziesmobs:wrought_axe>.addTooltip(format.green("- Reach I"));
@@ -590,6 +593,33 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 <aether_legacy:pig_slayer>.addTooltip(format.gold("Properties:"));
 <aether_legacy:pig_slayer>.addTooltip(format.green("- Stealthy Strike I"));
+
+// Longbows
+<spartanweaponry:longbow_wood:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.0"));
+<spartanweaponry:longbow_leather:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.0"));
+<spartancompat:longbow_zanite:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<spartanweaponry:longbow_bronze:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<spartanweaponry:longbow_iron:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<spartanweaponry:longbow_silver:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<spartanfire:longbow_dragonbone:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<spartanweaponry:longbow_steel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.2"));
+<spartanfire:longbow_jungle:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.2"));
+<spartanfire:longbow_desert:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.2"));
+<spartanfire:longbow_jungle_venom:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.2"));
+<spartanfire:longbow_desert_venom:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.2"));
+<spartancompat:longbow_gravitite:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<spartanfire:longbow_fire_dragonbone:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<spartanfire:longbow_ice_dragonbone:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<spartanfire:longbow_ice_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
+<spartanfire:longbow_fire_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.1"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1.5s"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1.3"));
+<nyx:meteor_bow:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.5"));
 
 // BUGS
 #<aether_legacy:enchanted_blueberry>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));

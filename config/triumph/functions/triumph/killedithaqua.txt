@@ -1,5 +1,6 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamestage silentadd @p killedIthaqua
+give @p scalinghealth:crystalshard 2
 tellraw @p ["",{"text":"A font of natural magick releases from the ithaqua.","color":"blue","italic":true}]
 tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}

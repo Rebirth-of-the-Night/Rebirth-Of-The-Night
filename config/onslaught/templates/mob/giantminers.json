@@ -28,21 +28,164 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Giant miner",
+      "CustomName": "\u00A76Giant Miner",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 300 }
+        { "Name": "generic.maxHealth", "Base": 200 }
       ],
-      "Health": 300
-    },
-    "HandDropChances": [ 0.0, 0.0 ],
-    "ForgeData": {
-      "Onslaught": {
-        "CustomAI": {
-          "CounterAttack": { "Chance": 0.3 },
-          "Lunge": { "Range": 4, "SpeedModifier": 0.5 },
-          "Mining": {
-            "Range": 12,
-            "SpeedModifier": 2
+      "Health": 200,
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 12,
+              "SpeedModifier": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "giantbomber": {
+    "id": "twilightforest:giant_miner",
+    "effects": [
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:jump_boost",
+        "duration": 50000,
+        "amplifier": 2,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:slowness",
+        "duration": 50000,
+        "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Bomber",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 100 }
+      ],
+      "Health": 100,
+      "HandItems": [
+        { "Count": 1, "id": "minecraft:tnt" },
+        { "Count": 1, "id": "minecraft:tnt" }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "ExplodeWhenStuck": { 
+              "RangeMax": 12,
+              "ExplosionStrength": 8,
+              "Priority": 100,
+              "ExplosionDelayTicks": 1,
+              "ExplosionCausesFire": false   
+            }
+          }
+        }
+      }
+    }
+  },
+  "armoredgiant": {
+    "id": "twilightforest:armored_giant",
+    "effects": [
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:jump_boost",
+        "duration": 50000,
+        "amplifier": 2,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:slowness",
+        "duration": 50000,
+        "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Protector",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 200 }
+      ],
+      "Health": 200,
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.3 },
+            "Lunge": { "Range": 4, "SpeedModifier": 0.5 }
+          }
+        }
+      }
+    }
+  },
+  "giantboss": {
+    "id": "twilightforest:armored_giant",
+    "effects": [
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:jump_boost",
+        "duration": 50000,
+        "amplifier": 2,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:slowness",
+        "duration": 50000,
+        "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "wards:effect_frost_walker",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Giant Overlord",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 800 }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "Health": 800,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.3 },
+            "Lunge": { "Range": 4, "SpeedModifier": 0.5 },
+            "OffscreenTeleport": { }
           }
         }
       }

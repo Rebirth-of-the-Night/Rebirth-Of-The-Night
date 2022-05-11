@@ -92,14 +92,7 @@
       "CustomName": "\u00A76Invading Fire Zombie",
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.35 }
-      ],
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            "OffscreenTeleport": { }
-          }
-        }
-      }
+      ]
     }
   },
   "fireghast": {
@@ -155,14 +148,7 @@
         {},
         {},
         { "Count": 1, "id": "rats:farmer_hat" }
-      ],
-      "ForgeData": {
-        "Onslaught": {
-          "CustomAI": {
-            "OffscreenTeleport": { }
-          }
-        }
-      }
+      ]
     }
   },
   "firezombie.loot": {
@@ -432,7 +418,7 @@
           "Count": 1, "id": "harvestcraft:saucepanitem", "tag": { "Enchantments":  [{ "id": "minecraft:knockback", "lvl": 5 }]}
         }
       ],
-      "HandDropChances": [ 1.0, 1.0 ],
+      "HandDropChances": [ 2.0, 2.0 ],
       "ArmorItems": [
         { },
         { },
