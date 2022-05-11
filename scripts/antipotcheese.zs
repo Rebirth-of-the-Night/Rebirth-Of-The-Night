@@ -38,7 +38,8 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 	else if (player.isPotionActive(<potion:wards:effect_vanishing_curse>) &&
 		(isPlayerWearing(armorSets["swineArmor"], player, armorSlots) |
 		isPlayerWearing(armorSets["exoriteArmor"], player, armorSlots) |
-		player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "simplyhotsprings:hot_spring_water" |
+		player.world.getBlock(event.player.x+-1, event.player.y, event.player.z+-1).definition.id == "simplyhotsprings:hot_spring_water" |
+		player.world.getBlock(event.player.x+-1, event.player.y+1, event.player.z+-1).definition.id == "simplyhotsprings:hot_spring_water" |
 		(player.hasItemInSlot(IEntityEquipmentSlot.mainHand()) &&
 		player.currentItem.matches(<nyx:lunar_water_bottle>)))) {
 			player.addPotionEffect(dispel.makePotionEffect(1, 1));

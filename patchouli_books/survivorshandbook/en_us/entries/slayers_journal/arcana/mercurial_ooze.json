@@ -1,0 +1,15 @@
+{
+  "name": "Mercurial Ooze",
+  "icon": "contenttweaker:mercurial_ooze",
+  "category": "slayers_journal_arcana",
+  "advancement": "triumph:advancements/progression/nether/killedQuazar",
+
+  "pages": [
+  	{
+			"type": "spotlight",
+			"title": "Mercurial Ooze",
+			"item": "contenttweaker:mercurial_ooze",
+			"text": "$(#734608)The $(item)Mercurial Ooze$() $(#734608)is dropped by Quazar. It holds powerful space bending properties, and can thus be used to make a $(item)Mercurial Delight$()$(#734608) to unlock new abilities.$()"
+    }
+  ]
+}

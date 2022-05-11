@@ -25,6 +25,7 @@ import crafttweaker.command.ICommandManager;
 import crafttweaker.command.ICommand;
 import crafttweaker.command.ICommandSender;
 import mods.contenttweaker.IItemRightClick;
+import crafttweaker.world.IWorld;
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.WeightedItemStack;
@@ -516,20 +517,22 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 	var player = event.player;
 		// the actual bit that checks for conditions
 		// i fucking hate this entire block of code, you can barely even read this shit
-	if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:unstable_spiritfire") {
+	if (player.world.getBlock(event.player.x+-1, event.player.y, event.player.z+-1).definition.id == "contenttweaker:unstable_spiritfire" |
+	player.world.getBlock(event.player.x+-1, event.player.y+1, event.player.z+-1).definition.id == "contenttweaker:unstable_spiritfire") {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:potioncore:fire>.makePotionEffect(10, 1));
 	} 
-	else if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:dread_cold") {
+	else if (player.world.getBlock(event.player.x+-1, event.player.y, event.player.z+-1).definition.id == "contenttweaker:dread_cold" |
+	player.world.getBlock(event.player.x+-1, event.player.y+1, event.player.z+-1).definition.id == "contenttweaker:dread_cold") {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:twilightforest:frosted>.makePotionEffect(10, 1));
 	} 
-	else if (player.world.getBlock(event.player.x, event.player.y, event.player.z).definition.id == "contenttweaker:concentrated_bioflow") {
+	else if (player.world.getBlock(event.player.x+-1, event.player.y, event.player.z+-1).definition.id == "contenttweaker:concentrated_bioflow" |
+	player.world.getBlock(event.player.x+-1, event.player.y+1, event.player.z+-1).definition.id == "contenttweaker:concentrated_bioflow") {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(10, 1));
 	} 
 });
-
 
 events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketEvent) {
 	if (isNull(event.block) || isNull(event.block.fluid)) {

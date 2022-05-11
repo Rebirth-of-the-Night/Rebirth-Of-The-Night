@@ -1,0 +1,11 @@
+{
+  "name": "Base Defense Entry",
+  "icon": "minecraft:iron_door",
+  "category": "construction_basedefense",
+  "pages": [
+  {
+      "type": "text",
+      "text": "Simple doors are quite useful for getting in and out of my base, but there seem to  be more options. Maybe if I were to search for a special category of doors, known as 'Malisis Doors' after their eccentric inventory, perhaps I could find something beyond the ordinary?"
+    }
+  ]
+}
