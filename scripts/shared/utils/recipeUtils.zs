@@ -1,3 +1,5 @@
+#priority 9999
+
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IItemStack;
@@ -32,6 +34,12 @@ function removeRecipeArray(array as IItemStack[], hide as bool = true) {
 	}
 }
 
+function removeRecipeNameArray(array as string[]) {
+	for i in 0 to array.length {
+		recipes.removeByRecipeName(array[i]);
+	}
+}
+
 	// removes and hides all items found via regex. setting "hide" to false means that it only removes, and doesn't also hide
 function removeRecipeArrayRegex(regex as string, hide as bool = true) {
 	var array = itemUtils.getItemsByRegexRegistryName(regex);
@@ -58,17 +66,6 @@ function uniformArrayOD(oreDict as IOreDictEntry, length as int) as IOreDictEntr
 	}
 	
 	return array;
-}
-
-	// this one does the same thing, BUT IN 3D woOOaaAAhh so RADICAL
-function uniform3DArrayIS(item as IItemStack, x as int, y as int) as IItemStack[][] {
-	var array3d = [[]] as IItemStack[][];
-	
-	for i in 0 to y {
-		array[] += uniformArrayIS(item, x);
-	}
-	
-	return array3d;
 }
 
 // SPECIFIC STUFF

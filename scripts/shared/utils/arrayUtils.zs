@@ -1,3 +1,9 @@
+#priority 9999
+
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.item.IItemStack;
+
 // functions for dealing with arrays, for both in and outside of recipes. most of these deal with string arrays
 
 	// joins together two string arrays
