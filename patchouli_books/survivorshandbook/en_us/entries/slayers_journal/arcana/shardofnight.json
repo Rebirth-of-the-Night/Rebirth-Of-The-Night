@@ -9,7 +9,7 @@
 			"type": "spotlight",
 			"title": "Shard of Night",
 			"item": "contenttweaker:shard_of_night",
-			"text": "$(#734608)The $(item)Shard of Night$() $(#734608)is spooky uwu$()"
+			"text": "$(#734608)The $(item)Shard of Night$() $(#734608)is a physical manifestation of the power of the night.$()"
     }
   ]
 }

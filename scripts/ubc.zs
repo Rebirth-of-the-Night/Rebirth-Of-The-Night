@@ -40,12 +40,3 @@ RecipeBuilder.get("mage")
 
 recipes.removeByRecipeName("undergroundbiomes:bone_fossil_bone_meal");
 recipes.addShapeless("bone_fossil_to_bone_meal", <minecraft:flint>*2, [<undergroundbiomes:fossil_piece:0>|<undergroundbiomes:fossil_piece:1>|<undergroundbiomes:fossil_piece:2>|<undergroundbiomes:fossil_piece:3>|<undergroundbiomes:fossil_piece:4>|<undergroundbiomes:fossil_piece:5>|<undergroundbiomes:fossil_piece:6>|<undergroundbiomes:fossil_piece:7>]);
-
-// barbed wire
-val brick_block as IItemStack = <contenttweaker:brick_minecraft_clay>;
-brick_block.hardness = 10;
-val brick_slab as IItemStack = <minecraft:stone_slab:4>;
-brick_slab.hardness = 2;
-val brick_stairs as IItemStack = <minecraft:brick_stairs>;
-brick_stairs.hardness = 6;
-
