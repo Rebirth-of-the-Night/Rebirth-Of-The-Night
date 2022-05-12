@@ -6,30 +6,33 @@ import crafttweaker.item.IItemStack;
 import mods.betterwithmods.Anvil;
 import mods.jei.JEI;
 
+import scripts.shared.utils.arrayUtils.concatString;
+
 //	GENERAL STUFF
 //	things that fuck with pretty much any recipes/items go here
 
 	// gets an itemstack array based on a string and a range of numbers
 	// example: metaArray("minecraft:dye", 0, 5) would get an array of dyes with meta 0 through 5
-function metaArray(item as string, min as int = 0, max as int = 32) as IItemStack[] {
+function metaArray(item as string, min as int = 0, max as int = 15) as IItemStack[] {
 	var a = [] as IItemStack[];
 	
 	for i in min to max + 1 {
 		var it = itemUtils.getItem(item, i);
-		if (a.length > 1 && (!isNull(it) || it.name == a[0].name)) break;
+		if (isNull(it)) break;
 		a += it;
 	}
 	
 	return a;
 }
 
-function concatMetas(a as string[], b as string[], c as string[], min as int = 0, max as int = 32) as IItemStack[] {
-	var ar = concatString(a, b, c);
+function conMeta(a as string[], b as string[], c as string[], min as int = 0, max as int = 15) as IItemStack[] {
+	var ar = concatString(a, b, c) as string[];
 	var new = [] as IItemStack[];
 	
 	for h in ar {
 		var m = metaArray(h, min, max);
 		for i in m {
+			print(i.name);
 			new += i;
 		}
 	}
