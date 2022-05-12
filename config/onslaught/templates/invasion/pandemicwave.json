@@ -43,8 +43,263 @@
           {
             "mobs": [
               {
-                "id": "giantminer",
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 10, 12 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 1800, 2100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 10, 12 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.archer",
                 "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 3600, 3900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 10, 12 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 5400, 5700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 14, 16 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 7200, 7500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.archer",
+                "count": [ 10, 12 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 9000, 9300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 10800, 11100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 5, 6 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 12600, 12900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 6, 8 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 14400, 14700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 4, 5 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 16200, 16500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.blackdeath",
+                "count": [ 1 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 5, 6 ]
+              },
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 2, 3 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 18000, 18300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.blackdeath",
+                "count": [ 1 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 5, 6 ]
+              },
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 2, 3 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 19800, 20100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 1 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 10, 12 ]
               }
             ]
           }
