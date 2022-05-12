@@ -67,10 +67,15 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 	
 	//  Gives nausea and poison on eating inventory expander
 	if (event.food.definition.id == <cyclicmagic:inventory_food>.definition.id) {
-		var poison = <potion:minecraft:poison>.makePotionEffect(100, 2, false, true);
+		var poison = <potion:minecraft:poison>.makePotionEffect(200, 2, false, true);
 		event.player.addPotionEffect(poison);
-		var nausea = <potion:minecraft:nausea>.makePotionEffect(200, 0, false, true);
+		var nausea = <potion:minecraft:nausea>.makePotionEffect(400, 0, false, true);
 		event.player.addPotionEffect(nausea);
+	}
+
+	if (event.food.definition.id == <iceandfire:pixie_dust>.definition.id) {
+		var high = <potion:rats:synesthesia>.makePotionEffect(100, 2, false, true);
+		event.player.addPotionEffect(high);
 	}
 });
 

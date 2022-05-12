@@ -1,5 +1,6 @@
 #priority 600
 #ikwid
+#nowarn
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
