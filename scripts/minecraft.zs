@@ -13,6 +13,10 @@ import mods.betterwithmods.MiniBlocks;
 // brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 // brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
+// Misc. removal
+JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
+JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
+
 // Explosive stuff
 
 recipes.remove(<minecraft:tnt>);

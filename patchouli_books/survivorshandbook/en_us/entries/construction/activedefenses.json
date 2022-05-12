@@ -5,7 +5,19 @@
   "pages": [
   {
       "type": "text",
-      "text": "While traps and walls are great, I feel like I could be much better protected if I were to take advantage of active defenses. Dwarven golems I summon with a $(item)Golem Head$() can fight off invaders one by one, while a powered $(item)Ward$() with an enchanted book on it can buff me and also hit large groups of mobs."
+      "text": "While traps and walls are great, I feel like I could be much better protected if I were to take advantage of active defenses."
+    },
+    {
+      "type": "text",
+      "text": "Dwarven golems I summon with a $(item)Golem Head$() can fight off invaders one by one. These bad boys can take a beating, and some even have special effects! If they do somehow get damaged, I think that giving them some of the material they were constructed with should patch them up nicely."
+    },
+    {
+      "type": "text",
+      "text": "Available golems: Bone, Bookshelf (can buff itself), Clay, Concrete (takes reduced damage), Crafting Table (can be used to access crafting), Diamond, Dispenser (shoots supplied arrows), Emerald, Furnace (powered by fuel), Gold, Hardened Clay, Ice (freezes water/cools lava nearby), Magma (lights mobs on fire, slowly  melts nearby cobblestone, splits into two mini-golems on death, and takes water damage), Obsidian, Prismarine, Quartz, Red Sandstone, Redstone (emits redstone power), Redstone Lamp (lights up the area), Sandstone, Sea Lantern (lights up the area), Slime (deals greater knockback, splits into two upon death), Stained Clay, Straw (boosts nearby crop growth), TNT (blows up mobs)"
+    },
+    {
+      "type": "text",
+      "text": "A $(item)Ward$() powered by enchanted paper or lapis lazuli, equipped with an enchanted book, can both buff me and also hit large groups of mobs. What is there not to love?"
     },
     {
       "type": "crafting",

@@ -1,0 +1,22 @@
+{
+  "pandemic.zombiegrunt": {
+    "id": "rats:ratlantean_spirit",
+    "effects": [
+      {
+        "id": "minecraft:glowing",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "rats:plague",
+        "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Plague Zombie Grunt"
+    }
+  }
+}

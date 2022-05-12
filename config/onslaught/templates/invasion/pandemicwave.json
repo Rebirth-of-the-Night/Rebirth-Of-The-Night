@@ -1,0 +1,55 @@
+{
+  "pandemicwave": {
+    "selector": {
+      "gamestages": {
+        "and": ["disabled"]
+      },
+      "weight": 100,
+      "dimension": {
+        "type": "include",
+        "dimensions": [ 0 ]
+      }
+    },
+    "commands": {
+      "start": [
+        "/weather clear",
+        "/effect @p potioncore:teleport_spawn",
+        "/gamestage silentadd @p invasionongoing"
+      ],
+      "end": [
+        "/xp 800 @p",
+        "/gamestage silentremove @p invasionongoing",
+        "/give @p rats:plague_doctorate",
+        "/give @p rats:plague_stew 12",
+        "/give @p rats:purifying_liquid 4",
+        "/give @p rats:plague_essence 4",
+        "/give @p animania:sheep_cheese_wheel 3",
+        "/give @p contenttweaker:raw_mythril 12"
+      ]
+    },
+    "name": "Pandemic Wave",
+    "messages": {
+      "start": "\u00A7cRing around the grasses, plague'll kick our asses.",
+      "end": "\u00A7aThe diseased creatures' ranks are eventually thinned out...",
+      "warn": {
+        "ticks": 12000,
+        "message": "\u00A7eA horrid and sickly stench fills the air..."
+      }
+    },
+    "waves": [
+      {
+        "delayTicks": [ 0 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
