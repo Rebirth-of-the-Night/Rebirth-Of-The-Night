@@ -1,0 +1,16 @@
+{
+  "name": "Active Defenses",
+  "icon": "golems:golem_head",
+  "category": "construction",
+  "pages": [
+  {
+      "type": "text",
+      "text": "While traps and walls are great, I feel like I could be much better protected if I were to take advantage of active defenses. Dwarven golems I summon with a $(item)Golem Head$() can fight off invaders one by one, while a powered $(item)Ward$() with an enchanted book on it can buff me and also hit large groups of mobs."
+    },
+    {
+      "type": "crafting",
+      "recipe": "golems:golem_head_recipe",
+      "recipe2": "crafttweaker:wards_ward"
+    }
+  ]
+}

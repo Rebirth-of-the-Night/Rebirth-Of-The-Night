@@ -57,6 +57,10 @@ Saw.add(<twilightforest:magic_log:0>,[<twilightforest:time_planks>*5,<hitwithaxe
 Saw.add(<twilightforest:magic_log:1>,[<twilightforest:trans_planks>*5,<hitwithaxe:bark:15>*5,<pyrotech:rock:7>*2]);
 Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
 Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:giant_log>, [<minecraft:planks>*106,<hitwithaxe:bark:15>*60,<pyrotech:rock:7>*40]);
+Saw.add(<betterwithmods:blood_log>,[<minecraft:planks:3>*5,<hitwithaxe:bark:12>*3,<pyrotech:rock:7>*2]);
+Saw.add(<aether_legacy:aether_log:*>, [<aether_legacy:skyroot_plank>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
+Saw.add(<defiledlands:tenebra_log>, [<defiledlands:tenebra_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*4,<minecraft:redstone>,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:jukebox>,[<cyclicmagic:doorbell_simple>*4,<ore:ingotBrass>.firstItem,<pyrotech:rock:7>*2]);
 

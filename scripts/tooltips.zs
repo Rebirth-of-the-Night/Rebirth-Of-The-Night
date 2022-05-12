@@ -118,6 +118,7 @@ import crafttweaker.item.IIngredient;
 
 
 // Unsorted
+<betterwithaddons:sapling_luretree>.addTooltip("Can be fed with rotten flesh to attract animals.")
 <dungeontactics:flower_sanguine>.addTooltip("Gives regeneration when walking through it.");
 <dungeontactics:golden_club>.addTooltip("Has a chance to disarm the enemy.");
 <dungeontactics:golden_battleaxe>.addTooltip("Beheading weapon.");
@@ -544,8 +545,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <defiledlands:tears_flame>.removeTooltip("Fires fireballs");
 
 // Misc. Weapons
+<twilightforest:giant_sword>.addTooltip(format.darkRed("+18 Attack Damage"));
 <twilightforest:giant_sword>.addTooltip(format.gold("Properties:"));
-<twilightforest:giant_sword>.addTooltip(format.red("- Knockback IV"));
+<twilightforest:giant_sword>.addTooltip(format.red("- Two-Handed II"));
+<twilightforest:giant_sword>.addTooltip(format.green("- Knockback IV"));
+<twilightforest:giant_sword>.addTooltip(format.green("- Reach III"));
 
 <mowziesmobs:wrought_axe>.addTooltip(format.gold("Properties:"));
 <mowziesmobs:wrought_axe>.addTooltip(format.red("- Two-Handed I"));
