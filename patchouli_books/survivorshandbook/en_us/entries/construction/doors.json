@@ -1,7 +1,7 @@
 {
-  "name": "Base Defense Entry",
-  "icon": "minecraft:iron_door",
-  "category": "construction_basedefense",
+  "name": "Better Entryways",
+  "icon": "malisisdoors:big_door_rusty_3x3",
+  "category": "construction",
   "pages": [
   {
       "type": "text",

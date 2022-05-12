@@ -34,7 +34,7 @@
         { "Count": 1, "id": "simpleores:adamantium_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 },
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
         { "Name": "generic.maxHealth", "Base": 80 }
       ],
       "Health": 80,
@@ -84,7 +84,7 @@
         { "Count": 1, "id": "simpleores:adamantium_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 },
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
         { "Name": "generic.maxHealth", "Base": 80 }
       ],
       "Health": 80,
@@ -94,7 +94,7 @@
           "CustomAI": {
             "Mining": {
               "Range": 8,
-              "SpeedModifier": 1.75
+              "SpeedModifier": 1.1
             }
           }
         }
@@ -136,7 +136,7 @@
         { "Count": 1, "id": "harvestcraft:candledeco13"}
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.35 },
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
         { "Name": "generic.maxHealth", "Base": 60 }
       ],
       "Health": 60,
