@@ -11,14 +11,30 @@ import mods.jei.JEI;
 
 	// gets an itemstack array based on a string and a range of numbers
 	// example: metaArray("minecraft:dye", 0, 5) would get an array of dyes with meta 0 through 5
-function metaArray(item as string, metaMin as int, metaMax as int) as IItemStack[] {
-	var array = [] as IItemStack[];
-
-	for i in metaMin to metaMax {
-		array += itemUtils.getItem(item, i);
+function metaArray(item as string, min as int = 0, max as int = 32) as IItemStack[] {
+	var a = [] as IItemStack[];
+	
+	for i in min to max + 1 {
+		var it = itemUtils.getItem(item, i);
+		if (a.length > 1 && (!isNull(it) || it.name == a[0].name)) break;
+		a += it;
 	}
 	
-	return array;
+	return a;
+}
+
+function concatMetas(a as string[], b as string[], c as string[], min as int = 0, max as int = 32) as IItemStack[] {
+	var ar = concatString(a, b, c);
+	var new = [] as IItemStack[];
+	
+	for h in ar {
+		var m = metaArray(h, min, max);
+		for i in m {
+			new += i;
+		}
+	}
+	
+	return new;
 }
 
 	// removes and hides a whole array. setting "hide" to false means that it only removes, and doesn't also hide
