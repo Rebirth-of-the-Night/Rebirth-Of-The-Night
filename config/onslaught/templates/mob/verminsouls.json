@@ -2,20 +2,9 @@
   "verminsoul": {
     "id": "rats:ratlantean_spirit",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "minecraft:fire_resistance",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false

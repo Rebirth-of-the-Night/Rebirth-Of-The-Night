@@ -65,7 +65,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -83,7 +83,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -101,7 +101,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -119,7 +119,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -146,7 +146,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -164,7 +164,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -182,7 +182,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -209,7 +209,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -227,7 +227,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -245,7 +245,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -263,7 +263,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -281,7 +281,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -308,7 +308,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -335,7 +335,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -353,7 +353,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -371,7 +371,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -398,7 +398,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -416,7 +416,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -434,7 +434,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -452,7 +452,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -479,7 +479,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -506,7 +506,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -524,7 +524,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -551,7 +551,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -578,7 +578,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -596,7 +596,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -614,7 +614,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -641,7 +641,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -659,7 +659,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -677,7 +677,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -695,7 +695,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -713,7 +713,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -731,7 +731,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]
@@ -758,7 +758,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -776,7 +776,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -794,7 +794,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -812,7 +812,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -830,7 +830,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               },
               {
@@ -848,7 +848,7 @@
                   ],
                   "rangeY": 8,
                   "stepRadius": 4,
-                  "sampleDistance": 2
+                  "sampleDistance": 4
                 }
               }
             ]

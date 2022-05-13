@@ -13,19 +13,9 @@
         "duration": 9999,
         "amplifier": 0,
         "showParticles": false
-      },
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Locust",
@@ -49,12 +39,7 @@
   "worm": {
     "id": "mod_lavacow:parasite",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Parasite",
@@ -79,19 +64,9 @@
         "duration": 9999,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Sickly Wolf",
@@ -121,19 +96,9 @@
         "duration": 9999,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Sickly Boar",
@@ -166,16 +131,11 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A74Motherless",

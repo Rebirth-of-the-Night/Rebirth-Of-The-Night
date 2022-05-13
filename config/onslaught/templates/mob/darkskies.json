@@ -2,18 +2,8 @@
   "darkskies.stymph": {
     "id": "iceandfire:stymphalianbird",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Angry Stymphalian Bird"
@@ -22,24 +12,14 @@
   "darkskies.ptera": {
     "id": "mod_lavacow:ptera",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "minecraft:speed",
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Kamikaze Ptera",
@@ -62,24 +42,9 @@
   "darkskies.harpy": {
     "id": "primitivemobs:harpy",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Snatching Harpy"
@@ -88,24 +53,9 @@
   "darkskies.frost": {
     "id": "netherex:frost",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Blizzard Casters"
@@ -114,18 +64,8 @@
   "darkskies.kelenk": {
     "id": "aether_legacy:cockatrice",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Kelenk"
@@ -134,24 +74,9 @@
   "darkskies.vespa": {
     "id": "mod_lavacow:vespa",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Swarming Vespa"
@@ -162,22 +87,12 @@
     "effects":[
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Beefy Skydrake",
@@ -190,30 +105,15 @@
   "darkskies.bat": {
     "id": "roughmobsrevamped:hostilebat",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "minecraft:speed",
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Annoying Bat",

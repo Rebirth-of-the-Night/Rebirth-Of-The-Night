@@ -7,19 +7,8 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Zombie Fighter",
@@ -51,24 +40,7 @@
   "giantmobs.miner": {
     "id": "specialmobs:giantzombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Zombie Miner",
@@ -104,24 +76,7 @@
   "giantmobs.bomber": {
     "id": "specialmobs:giantzombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Zombie Bomberman",
@@ -160,24 +115,7 @@
   "giantmobs.skeleton": {
     "id": "specialmobs:giantskeleton",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Longbow Skeleton",
@@ -198,24 +136,7 @@
   "giantmobs.spitfireskeleton": {
     "id": "specialmobs:spitfireskeleton",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Spitfire Skeleton",
@@ -236,18 +157,7 @@
   "giantmobs.spider": {
     "id": "specialmobs:giantspider",
     "effects":[
-      {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Spider",
@@ -276,17 +186,12 @@
         "showParticles": false
       },
       {
-        "id": "wards:effect_blast_protection",
-        "duration": 50000,
-        "amplifier": 9,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "id": "minecraft:glowing",
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Zombie Overseer",

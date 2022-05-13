@@ -40,12 +40,12 @@
     "type": "blockstate"
   },
   "formedRenderer": {
-    "modelName": "pyroreactornew",
+    "modelName": "pyroreactorv2",
     "isGlobal": true,
     "type": "geo"
   },
   "workingRenderer": {
-    "modelName": "pyroreactornew",
+    "modelName": "pyroreactorv2",
     "isGlobal": true,
     "type": "geo"
   },

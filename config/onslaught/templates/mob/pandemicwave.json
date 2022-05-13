@@ -2,12 +2,7 @@
   "pandemic.miner": {
     "id": "specialmobs:plaguezombie",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "rats:plague",
         "duration": 50000,
@@ -68,12 +63,7 @@
   "pandemic.grunt": {
     "id": "specialmobs:plaguezombie",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "rats:plague",
         "duration": 50000,
@@ -113,12 +103,7 @@
   "pandemic.plaguebeast": {
     "id": "rats:plague_beast",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Plague Beast",
@@ -140,12 +125,7 @@
   "pandemic.dreadswine": {
     "id": "mod_lavacow:dreadswine",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "rats:plague",
         "duration": 50000,
@@ -174,7 +154,7 @@
     "effects": [
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }

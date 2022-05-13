@@ -2,18 +2,8 @@
   "skel": {
     "id": "minecraft:skeleton",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Skeleton"
@@ -24,16 +14,11 @@
     "effects":[
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A74Dissolved Bandit",
@@ -72,18 +57,8 @@
   "zed": {
     "id": "minecraft:zombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Zombie",
@@ -98,18 +73,8 @@
   "zed.farmer": {
     "id": "minecraft:zombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Farmer",
@@ -133,18 +98,8 @@
   "zed.loot": {
     "id": "minecraft:zombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "ArmorItems": [
@@ -159,18 +114,8 @@
   "zed.miner": {
     "id": "minecraft:zombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Miner",
@@ -199,18 +144,8 @@
   "zed.bomber": {
     "id": "minecraft:zombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Bomber",
@@ -241,18 +176,8 @@
   "zed.stalker": {
     "id": "minecraft:zombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Stalker",
@@ -281,16 +206,11 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "Attributes": [
@@ -334,16 +254,11 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "ArmorItems": [
@@ -376,16 +291,11 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "HandItems": [
@@ -422,16 +332,11 @@
     "effects":[
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A74The Unwellerman",
