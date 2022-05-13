@@ -2,18 +2,8 @@
   "fireskel": {
     "id": "specialmobs:fireskeleton",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Skeleton",
@@ -27,16 +17,11 @@
     "effects":[
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A74Charred Bandit",
@@ -75,18 +60,8 @@
   "firezombie": {
     "id": "specialmobs:firezombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Zombie",
@@ -98,18 +73,8 @@
   "fireghast": {
     "id": "minecraft:ghast",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Ghastly Musketears",
@@ -122,18 +87,8 @@
   "firezombie.farmer": {
     "id": "specialmobs:firezombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Farmer",
@@ -154,18 +109,8 @@
   "firezombie.loot": {
     "id": "specialmobs:firezombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "ArmorItems": [
@@ -183,18 +128,8 @@
   "firezombie.miner": {
     "id": "specialmobs:firezombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Miner",
@@ -226,24 +161,14 @@
   "firezombie.bomber": {
     "id": "specialmobs:firezombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "minecraft:speed",
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Bomber",
@@ -276,18 +201,8 @@
   "firezombie.stalker": {
     "id": "specialmobs:firezombie",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Stalker",
@@ -321,16 +236,11 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "Attributes": [
@@ -365,18 +275,8 @@
   "ember": {
     "id": "netherex:ember",
     "effects":[
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      }
+      
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Ember",
@@ -400,16 +300,11 @@
       },
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
+      
     ],
     "nbt": {
       "HandItems": [

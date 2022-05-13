@@ -2,12 +2,7 @@
   "giantminer": {
     "id": "twilightforest:giant_miner",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "minecraft:jump_boost",
         "duration": 50000,
@@ -19,13 +14,8 @@
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Miner",
@@ -49,12 +39,7 @@
   "giantbomber": {
     "id": "twilightforest:giant_miner",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "minecraft:jump_boost",
         "duration": 50000,
@@ -66,13 +51,8 @@
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Bomber",
@@ -103,12 +83,7 @@
   "armoredgiant": {
     "id": "twilightforest:armored_giant",
     "effects": [
-      {
-        "id": "minecraft:glowing",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
-      },
+      
       {
         "id": "minecraft:jump_boost",
         "duration": 50000,
@@ -120,13 +95,8 @@
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Protector",
@@ -150,7 +120,7 @@
     "effects": [
       {
         "id": "minecraft:glowing",
-        "duration": 50000,
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       },
@@ -165,13 +135,8 @@
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
-      },
-      {
-        "id": "wards:effect_frost_walker",
-        "duration": 50000,
-        "amplifier": 0,
-        "showParticles": false
       }
+      
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Overlord",
