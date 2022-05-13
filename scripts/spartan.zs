@@ -13,9 +13,7 @@ JEI.removeAndHide(<spartanshields:shield_riot_enderio>);
 JEI.removeAndHide(<spartanshields:shield_riot_rftools>);
 JEI.removeAndHide(<spartanshields:shield_flux_ra>);
 
-
-
-//Remove diamond spartan weaponry temporarily until we split them with the other gems
+// Hide stock diamond weapons
 JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
 JEI.removeAndHide(<spartanweaponry:longsword_diamond>);
 JEI.removeAndHide(<spartanweaponry:saber_diamond>);
@@ -30,7 +28,6 @@ JEI.removeAndHide(<spartanweaponry:throwing_knife_diamond>);
 JEI.removeAndHide(<spartanweaponry:throwing_axe_diamond>);
 JEI.removeAndHide(<spartanweaponry:battleaxe_diamond>);
 JEI.removeAndHide(<spartanweaponry:glaive_diamond>);
-JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
 JEI.removeAndHide(<spartanweaponry:longbow_diamond>);
 JEI.removeAndHide(<spartanweaponry:boomerang_diamond>);
 JEI.removeAndHide(<spartanweaponry:mace_diamond>);
@@ -460,3 +457,101 @@ for aetherMat, weapon in craftSpartMap {
 
     counter = 0;
 }
+recipes.removeByRegex("spartanweaponry:.*diamond");
+
+var gem = [<contenttweaker:ruby_ingot>,<contenttweaker:sapphire_ingot>,<contenttweaker:peridot_ingot>,<betterwithmods:material:45>] as IItemStack[];
+var weps = [] as IItemStack[<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "Alexandrite Chakram"}}),<spartanweaponry:greatsword_diamond>.withTag({display: {Name: "Ruby Zhanmajian"}}),<spartanweaponry:halberd_diamond>.withTag({display: {Name: "Diamond Lucerne"}}),<spartanweaponry:hammer_diamond>.withTag({display: {Name: "Sapphire Oar"}}),<spartanweaponry:javelin_diamond>.withTag({display: {Name: "Sapphire Azcona"}}),<spartanweaponry:longsword_diamond>.withTag({display: {Name: "Sapphire Claymore"}}),<spartanweaponry:mace_diamond>.withTag({display: {Name: "Ruby Morgenstern"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "Alexandrite Estoc"}}),<spartanweaponry:saber_diamond>.withTag({display: {Name: "Diamond Unbroken Blade"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "Alexandrite Double-Bladed Reaper"}}),<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "Diamond Bo-Shuriken"}}),<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "Ruby Trumbash"}})];
+var counter = 0;
+
+recipes.addShaped(weps[counter],[
+    [gem[2],<ore:plankWood>,<ore:plankWood>],
+    [<ore:plankWood>,null,null],
+    [<ore:plankWood>,null,null]
+]);//boomerang 1
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [null,gem[0],null],
+    [gem[0],gem[0],gem[0]],
+    [gem[0],handle,gem[0]]
+]);//greatsword 4
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [null,gem[3]],
+    [gem[3],gem[3]],
+    [gem[3],pole]
+]);//halberd 5
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [gem[1],gem[1],gem[1]],
+    [gem[1],gem[1],gem[1]],
+    [null,handle,null]
+]);//hammer 6
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [pole,gem[1]]
+]);//javelin 7
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [null,gem[1],null],
+    [null,gem[1],null],
+    [gem[1],handle,gem[1]]
+]);//longsword 11
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [null,gem[0],gem[0]],
+    [null,<ore:stickWood>,],
+    [handle,null,null]
+]);//mace 12
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [null,null,gem[2]],
+    [gem[2],gem[2],null],
+    [handle,gem[2],null]
+]);//rapier 14
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [null,gem[3]],
+    [null,gem[3]],
+    [gem[3],handle]
+]);//saber 15
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [gem[3]],
+    [pole],
+    [gem[3]]
+]);//staff 17
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [handle, gem[3]]
+]);//throwing knife 19
+counter += 1;
+
+recipes.addShaped(weps[counter],[
+    [handle, gem[0]],
+    [null, gem[0]],
+]);//throwing axe 20
+counter = 0;
+
+for w, weapon in weps {
+    JEI.addItem(weapon);
+}
+
+JEI.removeAndHide(<spartanweaponry:warhammer_diamond>);
+JEI.removeAndHide(<spartanweaponry:spear_diamond>);
+JEI.removeAndHide(<spartanweaponry:pike_diamond>);
+JEI.removeAndHide(<spartanweaponry:longbow_diamond>);
+JEI.removeAndHide(<spartanweaponry:lance_diamond>);
+JEI.removeAndHide(<spartanweaponry:katana_diamond>);
+JEI.removeAndHide(<spartanweaponry:glaive_diamond>);
+JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
+JEI.removeAndHide(<spartanweaponry:battleaxe_diamond>);

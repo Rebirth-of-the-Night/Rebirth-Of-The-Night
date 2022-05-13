@@ -46,7 +46,7 @@ item.peridot_shovel.name=Alexandrite Shovel
 item.peridot_pickaxe.name=Alexandrite Pickaxe
 item.peridot_axe.name=Alexandrite Axe
 item.peridot_hoe.name=Alexandrite Hoe
-item.peridot_sword.name=Alexandrite Arming Sword
+item.peridot_sword.name=Alexandrite Scimitar
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
@@ -56,7 +56,7 @@ item.ruby_shovel.name=Ruby Shovel
 item.ruby_pickaxe.name=Ruby Pickaxe
 item.ruby_axe.name=Ruby Axe
 item.ruby_hoe.name=Ruby Hoe
-item.ruby_sword.name=Ruby Zhanmajian
+item.ruby_sword.name=Ruby Rondel
 
 item.sapphire_helmet.name=Sapphire Helmet
 item.sapphire_chestplate.name=Sapphire Chestplate

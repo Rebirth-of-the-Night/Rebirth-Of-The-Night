@@ -132,6 +132,7 @@ import crafttweaker.item.IIngredient;
 <dungeontactics:trap_ailment>.addTooltip("Blinds its victim. Must be reset with an Engineer's Wrench after use.");
 <dungeontactics:trap_spectral>.addTooltip("Makes its victim glow, allowing it to be seen through walls. Must be reset with an Engineer's Wrench after use.");
 <iceandfire:pixie_dust>.addTooltip("Hmm... why do I feel funny?");
+<contenttweaker:invasion_debug_tool>.addTooltip(format.red("Immediately stops invasions. Please only use this if your invasion is bugged! Or use it to cheat if you want, I'm not your dad."));
 
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");

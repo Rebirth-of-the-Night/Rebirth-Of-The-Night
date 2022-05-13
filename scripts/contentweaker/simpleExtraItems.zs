@@ -24,6 +24,18 @@ brainfirework.itemRightClick = function(stack, world, player, hand) {
 };
 brainfirework.register();
 
+// invasion debugger
+var invasiondebug = VanillaFactory.createItem("invasion_debug_tool");
+
+invasiondebug.maxStackSize = 1;
+invasiondebug.itemRightClick = function(stack, world, player, hand) {
+	# Return early in the function if the world is on the client side. Prevents serious desyncs.
+    if(world.isRemote()) { return "PASS"; }
+    Commands.call("ostop @p");
+    return "SUCCESS";
+};
+invasiondebug.register();
+
 // animated brain
 val animated_brain = VanillaFactory.createItem("animated_brain");
 animated_brain.register();
