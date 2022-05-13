@@ -13,7 +13,7 @@ JEI.removeAndHide(<spartanshields:shield_riot_enderio>);
 JEI.removeAndHide(<spartanshields:shield_riot_rftools>);
 JEI.removeAndHide(<spartanshields:shield_flux_ra>);
 
-// Hide stock diamond weapons
+// Hide stock §fDiamond weapons
 JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
 JEI.removeAndHide(<spartanweaponry:longsword_diamond>);
 JEI.removeAndHide(<spartanweaponry:saber_diamond>);
@@ -129,7 +129,7 @@ recipes.addShaped("wooden_longbow",<spartanweaponry:longbow_wood>,[
     [bowMat,<minecraft:string>,<minecraft:string>]
 ]);
 
-// Diamond/High Grade Arrow
+// §fDiamond/High Grade Arrow
 recipes.remove(<spartanweaponry:arrow_diamond>);
 recipes.addShaped("high_grade_arrow",<spartanweaponry:arrow_diamond>*4,[
     [<ore:ingotableGem>],
@@ -459,8 +459,7 @@ for aetherMat, weapon in craftSpartMap {
 }
 
 var gem = [<contenttweaker:ruby_ingot>,<contenttweaker:sapphire_ingot>,<contenttweaker:peridot_ingot>,<betterwithmods:material:45>] as IItemStack[];
-var weps = [<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "Alexandrite Chakram"}}),<spartanweaponry:greatsword_diamond>.withTag({display: {Name: "Ruby Zhanmajian"}}),<spartanweaponry:halberd_diamond>.withTag({display: {Name: "Diamond Lucerne"}}),<spartanweaponry:hammer_diamond>.withTag({display: {Name: "Sapphire Oar"}}),<spartanweaponry:javelin_diamond>.withTag({display: {Name: "Sapphire Azcona"}}),<spartanweaponry:longsword_diamond>.withTag({display: {Name: "Sapphire Claymore"}}),<spartanweaponry:mace_diamond>.withTag({display: {Name: "Ruby Morgenstern"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "Alexandrite Estoc"}}),<spartanweaponry:saber_diamond>.withTag({display: {Name: "Diamond Unbroken Blade"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "Alexandrite Double-Bladed Reaper"}}),<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "Diamond Bo-Shuriken"}}),<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "Ruby Trumbash"}})] as IItemStack[];
-var counter = 0;
+var weps = [<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "§fAlexandrite Chakram"}}),<spartanweaponry:greatsword_diamond>.withTag({display: {Name: "§fRuby Zhanmajian"}}),<spartanweaponry:halberd_diamond>.withTag({display: {Name: "§fDiamond Lucerne"}}),<spartanweaponry:hammer_diamond>.withTag({display: {Name: "§fSapphire Oar"}}),<spartanweaponry:javelin_diamond>.withTag({display: {Name: "§fSapphire Azcona"}}),<spartanweaponry:longsword_diamond>.withTag({display: {Name: "§fSapphire Claymore"}}),<spartanweaponry:mace_diamond>.withTag({display: {Name: "§fRuby Morgenstern"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "§fAlexandrite Estoc"}}),<spartanweaponry:saber_diamond>.withTag({display: {Name: "§fDiamond Unbroken Blade"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "§fAlexandrite Double-Bladed Reaper"}}),<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "§fDiamond Bo-Shuriken"}}),<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "§fRuby Trumbash"}})] as IItemStack[];
 
 recipes.addShaped(weps[counter],[
     [gem[2],<ore:plankWood>,<ore:plankWood>],
