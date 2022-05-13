@@ -31,7 +31,7 @@ invasiondebug.maxStackSize = 1;
 invasiondebug.itemRightClick = function(stack, world, player, hand) {
 	# Return early in the function if the world is on the client side. Prevents serious desyncs.
     if(world.isRemote()) { return "PASS"; }
-    Commands.call("ostop @p");
+    Commands.call("ostop @p", player, world, false, true);
     return "SUCCESS";
 };
 invasiondebug.register();

@@ -61,6 +61,10 @@ recipes.addShaped("glareshaft_small",gshaft*4, [
 	[null, <earthworks:item_timber>, null],
 	[null, <betterwithaddons:wrought_bars>, null]
 ]);
+recipes.addShaped("glare_small_boss",small*2, [
+	[null, <rats:ratlantean_flame>, null],
+	[null, gshaft, null]
+]);
 
 // ultimate
 recipes.addShaped("glare_ultimate", ultimate,[

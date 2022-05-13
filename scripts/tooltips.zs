@@ -17,69 +17,94 @@ import crafttweaker.item.IIngredient;
 <randomthings:magichood>.addTooltip(format.white("Everything is going to be okay..."));
 
 // Single item set bonuses
-<minecraft:diamond_sword:*>.addTooltip(format.blue("+25% Attack Speed"));
-<minecraft:diamond_sword:*>.addTooltip(format.blue("+2 Armor Toughness"));
-<minecraft:diamond_sword:*>.addTooltip(format.blue("+15% Magic Shielding"));
-<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+25% Attack Speed"));
-<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+2 Armor Toughness"));
-<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+15% Magic Shielding"));
-<minecraft:diamond_axe:*>.addTooltip(format.blue("+25% Attack Speed"));
-<minecraft:diamond_axe:*>.addTooltip(format.blue("+2 Armor Toughness"));
-<minecraft:diamond_axe:*>.addTooltip(format.blue("+15% Magic Shielding"));
-<minecraft:diamond_shovel:*>.addTooltip(format.blue("+25% Attack Speed"));
-<minecraft:diamond_shovel:*>.addTooltip(format.blue("+2 Armor Toughness"));
-<minecraft:diamond_shovel:*>.addTooltip(format.blue("+15% Magic Shielding"));
-<minecraft:diamond_hoe:*>.addTooltip(format.blue("+25% Attack Speed"));
-<minecraft:diamond_hoe:*>.addTooltip(format.blue("+2 Armor Toughness"));
-<minecraft:diamond_hoe:*>.addTooltip(format.blue("+15% Magic Shielding"));
+<minecraft:diamond_sword:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_sword:*>.addTooltip(format.blue("+1 Armor Toughness"));
+<minecraft:diamond_sword:*>.addTooltip(format.blue("+10% Magic Shielding"));
+<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+1 Armor Toughness"));
+<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+10% Magic Shielding"));
+<minecraft:diamond_axe:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_axe:*>.addTooltip(format.blue("+1 Armor Toughness"));
+<minecraft:diamond_axe:*>.addTooltip(format.blue("+10% Magic Shielding"));
+<minecraft:diamond_shovel:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_shovel:*>.addTooltip(format.blue("+1 Armor Toughness"));
+<minecraft:diamond_shovel:*>.addTooltip(format.blue("+10% Magic Shielding"));
+<minecraft:diamond_hoe:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_hoe:*>.addTooltip(format.blue("+1 Armor Toughness"));
+<minecraft:diamond_hoe:*>.addTooltip(format.blue("+10% Magic Shielding"));
+var diamondweps = [<spartanweaponry:halberd_diamond>.withTag({display: {Name: "Diamond Lucerne"}}),<spartanweaponry:saber_diamond>.withTag({display: {Name: "Diamond Unbroken Blade"}}),<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "Diamond Bo-Shuriken"}})] as IItemStack[];
+for w, weapon in diamondweps{
+    weapon.addTooltip(format.blue("+10% Attack Speed"));
+    weapon.addTooltip(format.blue("+1 Armor Toughness"));
+    weapon.addTooltip(format.blue("+10% Magic Shielding"));
+}
 
 <atop:ruby_sword:*>.addTooltip(format.darkRed("+2 Max Health"));
-<atop:ruby_sword:*>.addTooltip(format.darkRed("+2 Attack Damage"));
-<atop:ruby_sword:*>.addTooltip(format.darkRed("+2 Armor"));
+<atop:ruby_sword:*>.addTooltip(format.darkRed("+1 Attack Damage"));
+<atop:ruby_sword:*>.addTooltip(format.darkRed("+1 Armor"));
 <atop:ruby_pickaxe:*>.addTooltip(format.darkRed("+2 Max Health"));
-<atop:ruby_pickaxe:*>.addTooltip(format.darkRed("+2 Attack Damage"));
-<atop:ruby_pickaxe:*>.addTooltip(format.darkRed("+2 Armor"));
+<atop:ruby_pickaxe:*>.addTooltip(format.darkRed("+1 Attack Damage"));
+<atop:ruby_pickaxe:*>.addTooltip(format.darkRed("+1 Armor"));
 <atop:ruby_axe:*>.addTooltip(format.darkRed("+2 Max Health"));
-<atop:ruby_axe:*>.addTooltip(format.darkRed("+2 Attack Damage"));
-<atop:ruby_axe:*>.addTooltip(format.darkRed("+2 Armor"));
+<atop:ruby_axe:*>.addTooltip(format.darkRed("+1 Attack Damage"));
+<atop:ruby_axe:*>.addTooltip(format.darkRed("+1 Armor"));
 <atop:ruby_shovel:*>.addTooltip(format.darkRed("+2 Max Health"));
-<atop:ruby_shovel:*>.addTooltip(format.darkRed("+2 Attack Damage"));
-<atop:ruby_shovel:*>.addTooltip(format.darkRed("+2 Armor"));
+<atop:ruby_shovel:*>.addTooltip(format.darkRed("+1 Attack Damage"));
+<atop:ruby_shovel:*>.addTooltip(format.darkRed("+1 Armor"));
 <atop:ruby_hoe:*>.addTooltip(format.darkRed("+2 Max Health"));
-<atop:ruby_hoe:*>.addTooltip(format.darkRed("+2 Attack Damage"));
-<atop:ruby_hoe:*>.addTooltip(format.darkRed("+2 Armor"));
+<atop:ruby_hoe:*>.addTooltip(format.darkRed("+1 Attack Damage"));
+<atop:ruby_hoe:*>.addTooltip(format.darkRed("+1 Armor"));
+var rubyweps = [<spartanweaponry:greatsword_diamond>.withTag({display: {Name: "Ruby Zhanmajian"}}),<spartanweaponry:mace_diamond>.withTag({display: {Name: "Ruby Morgenstern"}}),<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "Ruby Trumbash"}})] as IItemStack[];
+for w, weapon in rubyweps{
+    weapon.addTooltip(format.blue("+2 Max Health"));
+    weapon.addTooltip(format.blue("+1 Attack Damage"));
+    weapon.addTooltip(format.blue("+1 Armor"));
+}
 
 <atop:peridot_sword:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_sword:*>.addTooltip(format.darkGreen("+20% Move Speed"));
-<atop:peridot_sword:*>.addTooltip(format.darkGreen("+10% Damage Resistance"));
+<atop:peridot_sword:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_sword:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+20% Move Speed"));
-<atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+10% Damage Resistance"));
+<atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_axe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_axe:*>.addTooltip(format.darkGreen("+20% Move Speed"));
-<atop:peridot_axe:*>.addTooltip(format.darkGreen("+10% Damage Resistance"));
+<atop:peridot_axe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_axe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_shovel:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_shovel:*>.addTooltip(format.darkGreen("+20% Move Speed"));
-<atop:peridot_shovel:*>.addTooltip(format.darkGreen("+10% Damage Resistance"));
+<atop:peridot_shovel:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_shovel:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_hoe:*>.addTooltip(format.darkGreen("+20% Move Speed"));
-<atop:peridot_hoe:*>.addTooltip(format.darkGreen("+10% Damage Resistance"));
+<atop:peridot_hoe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_hoe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
+var peridotweps = [<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "Alexandrite Chakram"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "Alexandrite Estoc"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "Alexandrite Double-Bladed Reaper"}})] as IItemStack[];
+for w, weapon in peridotweps{
+    weapon.addTooltip(format.blue("+25% Dig Speed"));
+    weapon.addTooltip(format.blue("+15% Move Speed"));
+    weapon.addTooltip(format.blue("+5% Damage Resistance"));
+}
 
-<atop:sapphire_sword:*>.addTooltip(format.darkAqua("+1 Step Height"));
+<atop:sapphire_sword:*>.addTooltip(format.darkAqua("+0.5 Step Height"));
 <atop:sapphire_sword:*>.addTooltip(format.darkAqua("+1 Jump Height"));
-<atop:sapphire_sword:*>.addTooltip(format.darkAqua("+2 Reach Distance"));
-<atop:sapphire_pickaxe:*>.addTooltip(format.darkAqua("+1 Step Height"));
+<atop:sapphire_sword:*>.addTooltip(format.darkAqua("+1 Reach Distance"));
+<atop:sapphire_pickaxe:*>.addTooltip(format.darkAqua("+0.5 Step Height"));
 <atop:sapphire_pickaxe:*>.addTooltip(format.darkAqua("+1 Jump Height"));
-<atop:sapphire_pickaxe:*>.addTooltip(format.darkAqua("+2 Reach Distance"));
-<atop:sapphire_axe:*>.addTooltip(format.darkAqua("+1 Step Height"));
+<atop:sapphire_pickaxe:*>.addTooltip(format.darkAqua("+1 Reach Distance"));
+<atop:sapphire_axe:*>.addTooltip(format.darkAqua("+0.5 Step Height"));
 <atop:sapphire_axe:*>.addTooltip(format.darkAqua("+1 Jump Height"));
-<atop:sapphire_axe:*>.addTooltip(format.darkAqua("+2 Reach Distance"));
-<atop:sapphire_shovel:*>.addTooltip(format.darkAqua("+1 Step Height"));
+<atop:sapphire_axe:*>.addTooltip(format.darkAqua("+1 Reach Distance"));
+<atop:sapphire_shovel:*>.addTooltip(format.darkAqua("+0.5 Step Height"));
 <atop:sapphire_shovel:*>.addTooltip(format.darkAqua("+1 Jump Height"));
-<atop:sapphire_shovel:*>.addTooltip(format.darkAqua("+2 Reach Distance"));
-<atop:sapphire_hoe:*>.addTooltip(format.darkAqua("+1 Step Height"));
+<atop:sapphire_shovel:*>.addTooltip(format.darkAqua("+1 Reach Distance"));
+<atop:sapphire_hoe:*>.addTooltip(format.darkAqua("+0.5 Step Height"));
 <atop:sapphire_hoe:*>.addTooltip(format.darkAqua("+1 Jump Height"));
-<atop:sapphire_hoe:*>.addTooltip(format.darkAqua("+2 Reach Distance"));
+<atop:sapphire_hoe:*>.addTooltip(format.darkAqua("+1 Reach Distance"));
+
+var sapphireweps = [<spartanweaponry:hammer_diamond>.withTag({display: {Name: "Sapphire Oar"}}),<spartanweaponry:javelin_diamond>.withTag({display: {Name: "Sapphire Azcona"}}),<spartanweaponry:longsword_diamond>.withTag({display: {Name: "Sapphire Claymore"}})] as IItemStack[];
+for w, weapon in sapphireweps{
+    weapon.addTooltip(format.blue("+0.5 Step Height"));
+    weapon.addTooltip(format.blue("+1 Jump Height"));
+    weapon.addTooltip(format.blue("+1 Reach Distance"));
+}
 
 <behgameon:accessory_1>.addTooltip("+1 Max Health");
 <behgameon:accessory_1>.addTooltip("+5% Attack Damage");
@@ -136,7 +161,7 @@ import crafttweaker.item.IIngredient;
 
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
-<arcanearchives:radiant_resonator>.addTooltip("Grows raw radiant quartz from natural quintessence in the air.");
+<arcanearchives:radiant_resonator>.addTooltip("Grows raw radiant quartz from natural quintessence in the air. Can be augmented with a special setup to grow quartz faster.");
 <arcanearchives:radiant_resonator>.addTooltip("Only three resonators can be placed per person.");
 <arcanearchives:radiant_resonator>.addShiftTooltip("Recipe consumes bucket.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
