@@ -41,6 +41,67 @@ import mods.ctutils.utils.Math;
 
 import mods.hungertweaker.events.HungerEvents;
 
+import scripts.shared.sharedArrays.stoneArray;
+import scripts.shared.utils.eventFuncs.nearbyBlockCheck;
+
+	// ~~~~~~~~~~~~ EVENT MAPS ~~~~~~~~~~~~
+	// initializing them here because making large maps like this
+	// every time an event fires is a very bad idea!!
+
+// INTERACTABLE
+	// Map of quickly-dissapearing-spirit spawning mobs. (These live for 200 ticks)
+	// Format is:
+	// entity id : spirit count
+static flashSpiritSpawningMobs as int[string] = {
+	"minecraft:wither_skeleton" : 1,
+	"minecraft:skeleton" : 1,
+	"betterslimes:spectral_slime" : 1,
+	"mod_lavacow:mimic" : 4,
+	"primitivemobs:skeleton_warrior" : 1,
+	"twilightforest:skeleton_druid" : 1,
+	"mod_lavacow:skeletonking" : 1,
+	"mod_lavacow:scarecrow" : 1,
+	"trumpetskeleton:trumpet_skeleton" : 1,
+	"specialmobs:specialskeleton" : 1,
+	"specialmobs:bruteskeleton" : 1,
+	"specialmobs:fireskeleton" : 1,
+	"specialmobs:gatlingskeleton" : 1,
+	"specialmobs:giantskeleton" : 1,
+	"specialmobs:knightskeleton" : 1,
+	"specialmobs:ninjaskeleton" : 1,
+	"specialmobs:poisonskeleton" : 1,
+	"specialmobs:sniperskeleton" : 1,
+	"specialmobs:spitfireskeleton" : 1,
+	"specialmobs:strayskeleton" : 1,
+	"specialmobs:specialwitherskelet" : 1,
+	"specialmobs:brutewitherskeleton" : 1,
+	"specialmobs:gatlingwitherskeleton" : 1,
+	"specialmobs:giantwitherskeleton" : 1,
+	"specialmobs:knightwitherskeleton" : 1,
+	"specialmobs:ninjawitherskeleton" : 1,
+	"specialmobs:sniperwitherskeleton" : 1,
+	"specialmobs:spitfirewitherskeleton" : 1
+};
+
+// INTERACTABLE
+	// Map of blocks to be transformed upon breaking them
+	// Format is:
+	// broken state : replacing state
+static blockBreakTransforms as IBlockState[IBlockState] = {
+	<blockstate:osv:magma_deposits_hardened_clay:dense=false> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_hardened_clay:dense=true> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_pyrotech_limestone:dense=false> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_pyrotech_limestone:dense=true> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_red_sandstone:dense=false> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_red_sandstone:dense=true> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_sandstone:dense=false> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_sandstone:dense=true> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_stained_hardened_clay:dense=false> : <blockstate:minecraft:lava:level=11>,
+	<blockstate:osv:magma_deposits_stained_hardened_clay:dense=true> : <blockstate:minecraft:lava:level=11>,
+};
+
+addBlockTransformSet(stoneArray, <blockstate:minecraft:lava:level=11>);
+
 HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEvent) {
 	if (event.player.world.isRemote()) {
 		return;
@@ -229,7 +290,6 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 			"twilightforest:wraith" : 1,
 			"mod_lavacow:banshee" : 1,
 			"mod_lavacow:avaton" : 1
-			
 		} as int[string];
 
 		// Strong spirit spawning
@@ -239,41 +299,7 @@ events.onEntityLivingDeath(function(event as crafttweaker.event.EntityLivingDeat
 		}
 	}
 	
-	{ // INTERACTABLE
-		// Map of quickly-dissapearing-spirit spawning mobs. (These live for 200 ticks)
-		// Format is:
-		// entity id : spirit count
-		val flashSpiritSpawningMobs as int[string] = {
-			"minecraft:wither_skeleton" : 1,
-			"minecraft:skeleton" : 1,
-			"betterslimes:spectral_slime" : 1,
-			"mod_lavacow:mimic" : 4,
-			"primitivemobs:skeleton_warrior" : 1,
-			"twilightforest:skeleton_druid" : 1,
-			"mod_lavacow:skeletonking" : 1,
-			"mod_lavacow:scarecrow" : 1,
-			"trumpetskeleton:trumpet_skeleton" : 1,
-			"specialmobs:specialskeleton" : 1,
-			"specialmobs:bruteskeleton" : 1,
-			"specialmobs:fireskeleton" : 1,
-			"specialmobs:gatlingskeleton" : 1,
-			"specialmobs:giantskeleton" : 1,
-			"specialmobs:knightskeleton" : 1,
-			"specialmobs:ninjaskeleton" : 1,
-			"specialmobs:poisonskeleton" : 1,
-			"specialmobs:sniperskeleton" : 1,
-			"specialmobs:spitfireskeleton" : 1,
-			"specialmobs:strayskeleton" : 1,
-			"specialmobs:specialwitherskelet" : 1,
-			"specialmobs:brutewitherskeleton" : 1,
-			"specialmobs:gatlingwitherskeleton" : 1,
-			"specialmobs:giantwitherskeleton" : 1,
-			"specialmobs:knightwitherskeleton" : 1,
-			"specialmobs:ninjawitherskeleton" : 1,
-			"specialmobs:sniperwitherskeleton" : 1,
-			"specialmobs:spitfirewitherskeleton" : 1
-		} as int[string];
-
+	{	// calls back to the "flashSpiritSpawningMobs" map established earlier
 		// Weak spirit spawning
 		if (flashSpiritSpawningMobs.keySet has event.entityLivingBase.definition.id) {
 			server.commandManager.executeCommand(event.entityLivingBase, "summon betterwithaddons:spirit ~ ~ ~ {Health:100,Age:10400,Value:"~flashSpiritSpawningMobs[event.entityLivingBase.definition.id]~"}");
@@ -382,69 +408,7 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
 		return;
 	}
 
-	{ // INTERACTABLE
-		// Map of blocks to be transformed upon breaking them
-		// Format is:
-		// broken state : replacing state
-		val blockBreakTransforms as IBlockState[IBlockState] = {
-			<blockstate:osv:magma_deposits_hardened_clay:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_hardened_clay:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_pyrotech_limestone:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_pyrotech_limestone:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_red_sandstone:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_red_sandstone:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_sandstone:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_sandstone:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_stained_hardened_clay:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_stained_hardened_clay:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_1:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_1:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_2:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_2:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_3:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_3:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_4:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_4:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_5:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_5:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_6:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_6:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_7:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_igneous_stone_7:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_1:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_1:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_2:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_2:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_3:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_3:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_4:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_4:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_5:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_5:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_6:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_6:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_7:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_metamorphic_stone_7:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_1:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_1:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_2:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_2:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_3:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_3:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_5:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_5:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_6:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_6:dense=true> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_7:dense=false> : <blockstate:minecraft:lava:level=11>,
-			<blockstate:osv:magma_deposits_undergroundbiomes_sedimentary_stone_7:dense=true> : <blockstate:minecraft:lava:level=11>
-		} as IBlockState[IBlockState];
-
+	{
 		// Checking block
 		if (blockBreakTransforms.keySet has event.blockState) {
 			event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
@@ -522,18 +486,15 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 	var player = event.player;
 		// the actual bit that checks for conditions
 		// i fucking hate this entire block of code, you can barely even read this shit
-	if (player.world.getBlock(event.player.x+-1, event.player.y, event.player.z+-1).definition.id == "contenttweaker:unstable_spiritfire" |
-	player.world.getBlock(event.player.x+-1, event.player.y+1, event.player.z+-1).definition.id == "contenttweaker:unstable_spiritfire") {
+	if (nearbyBlockCheck(player, "contenttweaker:unstable_spiritfire")) {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:potioncore:fire>.makePotionEffect(10, 1));
 	} 
-	else if (player.world.getBlock(event.player.x+-1, event.player.y, event.player.z+-1).definition.id == "contenttweaker:dread_cold" |
-	player.world.getBlock(event.player.x+-1, event.player.y+1, event.player.z+-1).definition.id == "contenttweaker:dread_cold") {
+	else if (nearbyBlockCheck(player, "contenttweaker:dread_cold")) {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:twilightforest:frosted>.makePotionEffect(10, 1));
 	} 
-	else if (player.world.getBlock(event.player.x+-1, event.player.y, event.player.z+-1).definition.id == "contenttweaker:concentrated_bioflow" |
-	player.world.getBlock(event.player.x+-1, event.player.y+1, event.player.z+-1).definition.id == "contenttweaker:concentrated_bioflow") {
+	else if (nearbyBlockCheck(player, "contenttweaker:concentrated_bioflow")) {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(10, 1));
 	} 
@@ -602,3 +563,20 @@ events.onPlayerInteract(function(event as crafttweaker.event.PlayerInteractEvent
 }); 
 */
 
+function addBlockTransformSet(ar as string[], bState as IBlockState) {
+	var ibsAr = [] as IBlockState[]; // heh, ibs
+	
+	for i in 0 to ar.length {
+		if(ar[i] != "osv:magma_deposits_undergroundbiomes_sedimentary_stone_4") {
+			var dense = getBlockState(ar[i], "dense=true") as IBlockState;
+			var notDense = getBlockState(ar[i], "dense=false") as IBlockState;
+			ibsAr += dense;
+			ibsAr += notDense;
+		}
+	}
+	
+	for i in 0 to ibsAr.length {
+		var bs = ibsAr[i] as IBlockState;
+		blockBreakTransforms[bs] = bState;
+	}
+}
