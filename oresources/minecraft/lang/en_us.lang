@@ -44,7 +44,11 @@ item.arrow.name=Flint Arrow
 item.swordIron.name=Iron Arming Sword
 item.swordStone.name=Stone Arming Sword
 item.swordGold.name=Gold Arming Sword
-item.swordDiamond.name=Diamond Arming Sword
+item.swordDiamond.name=§bDiamond Arming Sword
+item.helmetDiamond.name=§bDiamond Helmet
+item.chestplateDiamond.name=§bDiamond Chestplate
+item.leggingsDiamond.name=§bDiamond Leggings
+item.bootsDiamond.name=§bDiamond Boots
 
 tile.stone.andesite.name=Gray Andesite
 tile.stone.andesiteSmooth.name=Polished Gray Andesite
