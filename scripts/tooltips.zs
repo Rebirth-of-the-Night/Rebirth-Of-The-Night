@@ -76,7 +76,7 @@ for w, weapon in rubyweps{
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
-var peridotweps = [<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "§fAlexandrite Chakram"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "§fAlexandrite Estoc"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "§fAlexandrite Double-Bladed Reaper"}})] as IItemStack[];
+var peridotweps = [<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "§aAlexandrite Chakram"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "§aAlexandrite Estoc"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "§aAlexandrite Double-Bladed Reaper"}})] as IItemStack[];
 for w, weapon in peridotweps{
     weapon.addTooltip(format.darkGreen("+25% Dig Speed"));
     weapon.addTooltip(format.darkGreen("+15% Move Speed"));
