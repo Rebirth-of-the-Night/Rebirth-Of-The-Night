@@ -41,41 +41,26 @@ invasiondebug.register();
 // ancient cache
 var ancientcache = VanillaFactory.createItem("ancient_cache");
 
+static ancientCacheWeapons as string[] = [
+	"saber_electrum",
+	"throwing_knife_electrum",
+	"halberd_electrum",
+	"warhammer_electrum",
+	"hammer_electrum",
+	"lance_electrum",
+	"rapier_electrum",
+	"greatsword_electrum",
+	"longsword_electrum",
+	"staff_electrum"
+];
+
 ancientcache.maxStackSize = 1;
 ancientcache.itemRightClick = function(stack, world, player, hand) {
 	# Return early in the function if the world is on the client side. Prevents serious desyncs.
-    if(world.isRemote()) { return "PASS"; }
-    var determinant = world.random;
-    var randomfac = determinant.nextInt(11) as int;
-    if randomfac == 0 {
-        Commands.call("give @p spartanweaponry:saber_electrum", player, world, false, true);
-    }
-    if randomfac == 1 {
-        Commands.call("give @p spartanweaponry:throwing_knife_electrum", player, world, false, true);
-    }
-    if randomfac == 2 {
-        Commands.call("give @p spartanweaponry:halberd_electrum", player, world, false, true);
-    }
-    if randomfac == 3 {
-        Commands.call("give @p spartanweaponry:warhammer_electrum", player, world, false, true);
-    }
-    if randomfac == 4 {
-        Commands.call("give @p spartanweaponry:hammer_electrum", player, world, false, true);
-    }
-    if randomfac == 5 {
-        Commands.call("give @p spartanweaponry:lance_electrum", player, world, false, true);
-    }
-    if randomfac == 6 {
-        Commands.call("give @p spartanweaponry:rapier_electrum", player, world, false, true);
-    }
-    if randomfac == 7 {
-        Commands.call("give @p spartanweaponry:greatsword_electrum", player, world, false, true);
-    }
-    if randomfac == 8 {
-        Commands.call("give @p spartanweaponry:longsword_electrum", player, world, false, true);
-    }
-    if randomfac == 9 {
-        Commands.call("give @p spartanweaponry:staff_electrum", player, world, false, true);
+    if (world.isRemote()) { return "PASS"; }
+    var randomfac = world.random.nextInt(ancientCacheWeapons.length+1) as int;
+    if randomfac < ancientCacheWeapons.length {
+    	Commands.call("give @p spartanweaponry:"~ancientCacheWeapons[randomfac], player, world, false, true);
     }
     stack.shrink(1);
     return "SUCCESS";
