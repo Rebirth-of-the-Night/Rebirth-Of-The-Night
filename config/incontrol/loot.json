@@ -217,36 +217,6 @@
 		"itemcount": "1",
 		"random": "0.05"
 	},
-	
-	// Neptune Armor
-	{
-		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
-		"player": true,
-		"item": "aether_legacy:neptune_helmet",
-		"itemcount": "1",
-		"random": "0.1"
-	},
-	{
-		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
-		"player": true,
-		"item": "aether_legacy:neptune_chestplate",
-		"itemcount": "1",
-		"random": "0.1"
-	},
-	{
-		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
-		"player": true,
-		"item": "aether_legacy:neptune_leggings",
-		"itemcount": "1",
-		"random": "0.1"
-	},
-	{
-		"mob": ["iceandfire:dread_lich", "iceandfire:dread_knight", "iceandfire:dread_thrall", "iceandfire:dread_ghoul", "iceandfire:dread_scuttler", "iceandfire:dread_beast"],
-		"player": true,
-		"item": "aether_legacy:neptune_boots",
-		"itemcount": "1",
-		"random": "0.1"
-	},
 
 	// End Guard
 	{

@@ -1,0 +1,109 @@
+{
+  "midgame.early.zombie": {
+    "id": "toroquest:toroquest_bandit_lord",
+    "effects":[
+
+    ],
+    "nbt": {
+      "CustomName": "\u00A76Bandit Miner",
+      "HandItems": [
+        { "Count": 1, "id": "aether_legacy:lightning_sword" },
+        { "Count": 1, "id": "minecraft:torch" }
+      ],
+      "ArmorItems": [
+        { },
+        { "Count": 1, "id": "atop:sapphire_leggings" },
+        { },
+        { "Count": 1, "id": "dungeontactics:steel_helmet" }
+      ],
+      "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorDropChances": [ 0.0, 0.0 ],
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "Mining": {
+              "Range": 8,
+              "SpeedModifier": 1.2
+            }
+          }
+        }
+      }
+    }
+  },
+  "midgame.hirschgeist": {
+    "id": "betteranimalsplus:hirschgeist",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:strength",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:resistance",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76The Hirschgeist",
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.2 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
+            "OffscreenTeleport": { }
+          }
+        }
+      }
+    }
+  },
+  "midgame.harvester": {
+    "id": "harvestersnight:harvester",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:strength",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "minecraft:resistance",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:magicfocus",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76The Harvester",
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.2 },
+            "Lunge": { "Range": 6, "SpeedModifier": 0.3 },
+            "OffscreenTeleport": { }
+          }
+        }
+      }
+    }
+  }
+}

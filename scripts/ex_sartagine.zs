@@ -481,7 +481,7 @@ recipes.removeByRecipeName("harvestcraft:doughitem");
 recipes.removeByRecipeName("harvestcraft:doughitem_dustsalt");
 RecipeBuilder.get("chef")
   .setShapeless([flour,salt])
-  .setFluid(waterBucket)
+  .setFluid(waterBottle)
   .addTool(cookKit, 1)
   .addOutput(<harvestcraft:doughitem>)
   .create();
@@ -2291,7 +2291,7 @@ for key, value in jellyFruitAndSandwich {
 
 //Bubbly water
 recipes.remove(bubblyWater);
-recipes.addShapeless("bubbly_water",bubblyWater,[cookKitBad,waterBottleItem,waterBottleItem]);
+recipes.addShapeless("bubbly_water",bubblyWater,[cookKitBad,/*waterBottleItem*/<harvestcraft:freshwateritem>,/*waterBottleItem*/<harvestcraft:freshwateritem>]);
 
 // Carbonated Sparkling Drinks
 var sodas as IItemStack[IItemStack] = {
@@ -2764,13 +2764,13 @@ recipes.remove(<harvestcraft:currypowderitem>);
 Mortar.addRecipe(["stone"], <harvestcraft:currypowderitem>, 4, [<harvestcraft:curryleafitem>]);
 //Mochi
 recipes.remove(<harvestcraft:mochiitem>);
-recipes.addShapeless("mochi", <harvestcraft:mochiitem>,[rice,sugar,<harvestcraft:freshwateritem>]);
-//RecipeBuilder.get("chef")
-//  .setName("mochi")
-//  .setFluid(waterBottle)
-//  .setShapeless([rice,sugar])
-//  .addOutput(<harvestcraft:mochiitem>)
-//  .create();
+recipes.addShapeless("mochi", <harvestcraft:mochiitem>,[rice,sugar,/*waterBottleItem*/<harvestcraft:freshwateritem>]);
+RecipeBuilder.get("chef")
+  .setName("mochi")
+  .setFluid(waterBottle)
+  .setShapeless([rice,sugar])
+  .addOutput(<harvestcraft:mochiitem>)
+  .create();
 
 //Museli -&R
 recipes.remove(<harvestcraft:museliitem>);
@@ -3662,27 +3662,27 @@ Here goes every reworked brewing kettle recipe from Growthcraft translated to Ex
 */
 //Rennet
 ExSartagine.addKettleRecipe([<rustic:wind_thistle>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
-ExSartagine.addKettleRecipe([<rustic:wind_thistle>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([<rustic:wind_thistle>],/*waterBottleItem*/<harvestcraft:freshwateritem>,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
 ExSartagine.addKettleRecipe([<growthcraft_milk:thistle>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
-ExSartagine.addKettleRecipe([<growthcraft_milk:thistle>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([<growthcraft_milk:thistle>],/*waterBottleItem*/<harvestcraft:freshwateritem>,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
 ExSartagine.addKettleRecipe([<growthcraft_milk:stomach>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
-ExSartagine.addKettleRecipe([<growthcraft_milk:stomach>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([<growthcraft_milk:stomach>],/*waterBottleItem*/<harvestcraft:freshwateritem>,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
 ExSartagine.addKettleRecipe([fig],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
-ExSartagine.addKettleRecipe([fig],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([fig],/*waterBottleItem*/<harvestcraft:freshwateritem>,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
 ExSartagine.addKettleRecipe([<ore:agedMold>],null,waterBottle,<liquid:fluid_rennet>*250,[null],600);//liquid
-ExSartagine.addKettleRecipe([<ore:agedMold>],waterBottleItem,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
+ExSartagine.addKettleRecipe([<ore:agedMold>],/*waterBottleItem*/<harvestcraft:freshwateritem>,null,[<growthcraft_milk:bottlefluid_rennet>],600);//item
 //Skim Milk
 ExSartagine.addKettleRecipe([sugar],null,<liquid:fluid_skim_milk>*250,<liquid:fluid_condensed_milk>*250,[null],600);//liquid
 ExSartagine.addKettleRecipe([sugar],<growthcraft_milk:bottlefluid_skim_milk>,null,[<growthcraft_milk:bottlefluid_condensed_milk>],600);//item
 //Rice Water
 ExSartagine.addKettleRecipe([rice],null,waterBottle,<liquid:fluid_booze_sake_water>*250,[<growthcraft_rice:rice_cooked>],600);//liquid
-ExSartagine.addKettleRecipe([rice],waterBottleItem,null,[<growthcraft_rice:rice_cooked>,<growthcraft_rice:sakebottle>],600);//item
+ExSartagine.addKettleRecipe([rice],/*waterBottleItem*/<harvestcraft:freshwateritem>,null,[<growthcraft_rice:rice_cooked>,<growthcraft_rice:sakebottle>],600);//item
 //Rice Mash
 ExSartagine.addKettleRecipe([koji_mold],null,<liquid:fluid_booze_sake_water>*250,<liquid:fluid_booze_sake_mash>*250,[null],1200);//liquid
 ExSartagine.addKettleRecipe([koji_mold],<growthcraft_rice:sakebottle>,null,[<growthcraft_rice:sakebottle:1>],1200);//item
 //Ale Wort Young
 ExSartagine.addKettleRecipe([<ore:listAllgrain>],null,waterBottle,<liquid:fluid_booze_hopale_unhopped>*250,[<contenttweaker:draff>],600);//liquid
-ExSartagine.addKettleRecipe([<ore:listAllgrain>],waterBottleItem,null,[<growthcraft_hops:hopale:4>,<contenttweaker:draff>],600);//item
+ExSartagine.addKettleRecipe([<ore:listAllgrain>],/*waterBottleItem*/<harvestcraft:freshwateritem>,null,[<growthcraft_hops:hopale:4>,<contenttweaker:draff>],600);//item
 //Ale Wort Hopped
 ExSartagine.addKettleRecipe([hops],null,<liquid:fluid_booze_hopale_unhopped>*250,<liquid:fluid_booze_hopale_young>*250,[sugar.firstItem],600);//liquid
 ExSartagine.addKettleRecipe([hops],<growthcraft_hops:hopale:4>,null,[<growthcraft_hops:hopale:0>,sugar.firstItem],600);//item

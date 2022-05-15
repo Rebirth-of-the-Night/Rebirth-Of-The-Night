@@ -618,7 +618,7 @@
     "mob": "betteranimalsplus:eel_freshwater",
     "biometype": ["RIVER"],
     "maxcount": {
-      		"amount": 10,
+      		"amount": 5,
       		"perplayer": true
       	},
     "result": "allow"

@@ -519,6 +519,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <aether_legacy:enchanted_blueberry>.addTooltip("Hippogryph treat.");
 <minecraft:torch>.addTooltip("Visible light attracts mobs.");
 
+<contenttweaker:ancient_cache>.addTooltip(format.darkRed("What, at long last, can be freed once more?"));
+
 // Bombs
 <dungeontactics:bomb_frag>.addTooltip("Explodes in an area");
 <dungeontactics:bomb_frag>.addShiftTooltip("Letting the fuse burn for a bit before throwing will reduce the amount of time before it explodes, so don't hold it for too long. Can be fired from dispensers.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));

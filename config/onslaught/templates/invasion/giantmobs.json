@@ -14,8 +14,7 @@
       "start": [
         "/weather clear",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing",
-        "/gamerule doMobLoot false"
+        "/gamestage silentadd @p invasionongoing"
       ],
       "end": [
         "/give @p betterwithmods:material 24 14",
@@ -25,8 +24,7 @@
         "/give @p betterwithmods:wool_pants",
         "/give @p betterwithmods:wool_boots",
         "/xp 2000 @p",
-        "/gamestage silentremove @p invasionongoing",
-        "/gamerule doMobLoot true"
+        "/gamestage silentremove @p invasionongoing"
       ],
       "staged": [
         {

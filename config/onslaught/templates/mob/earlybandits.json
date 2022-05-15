@@ -1,6 +1,6 @@
 {
-  "bandits.miner": {
-    "id": "toroquest:toroquest_bandit_lord",
+  "earlybandits.miner": {
+    "id": "toroquest:toroquest_sentry",
     "effects":[
       
       

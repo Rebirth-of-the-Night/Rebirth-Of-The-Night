@@ -13,9 +13,9 @@ JEI.removeAndHide(<spartanshields:shield_riot_enderio>);
 JEI.removeAndHide(<spartanshields:shield_riot_rftools>);
 JEI.removeAndHide(<spartanshields:shield_flux_ra>);
 
-// Hide stock §bDiamond weapons
+// Hide stock Diamond weapons
 // *JEI.removeAndHide(<spartanweaponry:dagger_diamond>);
-JEI.removeAndHide(<spartanweaponry:longsword_diamond>);
+/* JEI.removeAndHide(<spartanweaponry:longsword_diamond>);
 JEI.removeAndHide(<spartanweaponry:saber_diamond>);
 JEI.removeAndHide(<spartanweaponry:rapier_diamond>);
 JEI.removeAndHide(<spartanweaponry:greatsword_diamond>);
@@ -34,7 +34,7 @@ JEI.removeAndHide(<spartanweaponry:mace_diamond>);
 JEI.removeAndHide(<spartanweaponry:javelin_diamond>);
 JEI.removeAndHide(<spartanweaponry:hammer_diamond>);
 JEI.removeAndHide(<spartanweaponry:katana_diamond>);
-JEI.removeAndHide(<spartanweaponry:staff_diamond>);
+JEI.removeAndHide(<spartanweaponry:staff_diamond>); */
 
 //Remove soulforged/refined weapoons (sfs is only used for tools and armor, a defensive material)
 JEI.removeAndHide(<spartancompat:dagger_soulforged_steel>);
@@ -129,7 +129,7 @@ recipes.addShaped("wooden_longbow",<spartanweaponry:longbow_wood>,[
     [bowMat,<minecraft:string>,<minecraft:string>]
 ]);
 
-// §bDiamond/High Grade Arrow
+// Diamond/High Grade Arrow
 recipes.remove(<spartanweaponry:arrow_diamond>);
 recipes.addShaped("high_grade_arrow",<spartanweaponry:arrow_diamond>*4,[
     [<ore:ingotableGem>],
@@ -203,6 +203,7 @@ JEI.removeAndHide(<spartanweaponry:javelin_electrum>);
 JEI.removeAndHide(<spartanweaponry:hammer_electrum>);
 JEI.removeAndHide(<spartanweaponry:katana_electrum>);
 JEI.removeAndHide(<spartanweaponry:staff_electrum>);
+JEI.removeAndHide(<contenttweaker:ancient_cache>);
 
 JEI.removeAndHide(<spartanweaponry:parrying_dagger_electrum>);
 JEI.removeAndHide(<spartanweaponry:parrying_dagger_diamond>);
@@ -458,8 +459,26 @@ for aetherMat, weapon in craftSpartMap {
     counter = 0;
 }
 
-var gem = [<contenttweaker:ruby_ingot>,<contenttweaker:sapphire_ingot>,<contenttweaker:peridot_ingot>,<betterwithmods:material:45>] as IItemStack[];
-var weps = [<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "§aAlexandrite Chakram"}}),<spartanweaponry:greatsword_diamond>.withTag({display: {Name: "§cRuby Zhanmajian"}}),<spartanweaponry:halberd_diamond>.withTag({display: {Name: "§bDiamond Lucerne"}}),<spartanweaponry:hammer_diamond>.withTag({display: {Name: "§9Sapphire Oar"}}),<spartanweaponry:javelin_diamond>.withTag({display: {Name: "§9Sapphire Azcona"}}),<spartanweaponry:longsword_diamond>.withTag({display: {Name: "§9Sapphire Claymore"}}),<spartanweaponry:mace_diamond>.withTag({display: {Name: "§cRuby Morgenstern"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "§aAlexandrite Estoc"}}),<spartanweaponry:saber_diamond>.withTag({display: {Name: "§bDiamond Unbroken Blade"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "§aAlexandrite Double-Bladed Reaper"}}),<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "§bDiamond Bo-Shuriken"}}),<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "§cRuby Trumbash"}})] as IItemStack[];
+var gem = [
+    <contenttweaker:ruby_ingot>,
+    <contenttweaker:sapphire_ingot>,
+    <contenttweaker:peridot_ingot>,
+    <betterwithmods:material:45>
+] as IItemStack[];
+var weps = [
+    <spartanweaponry:boomerang_diamond>.withTag({display: {Name: "§aAlexandrite Chakram"}}),
+    <spartanweaponry:greatsword_diamond>.withTag({display: {Name: "§cRuby Zhanmajian"}}),
+    <spartanweaponry:halberd_diamond>.withTag({display: {Name: "§bDiamond Lucerne"}}),
+    <spartanweaponry:hammer_diamond>.withTag({display: {Name: "§9Sapphire Oar"}}),
+    <spartanweaponry:javelin_diamond>.withTag({display: {Name: "§9Sapphire Azcona"}}),
+    <spartanweaponry:longsword_diamond>.withTag({display: {Name: "§9Sapphire Claymore"}}),
+    <spartanweaponry:mace_diamond>.withTag({display: {Name: "§cRuby Morgenstern"}}),
+    <spartanweaponry:rapier_diamond>.withTag({display: {Name: "§aAlexandrite Estoc"}}),
+    <spartanweaponry:saber_diamond>.withTag({display: {Name: "§bDiamond Unbroken Blade"}}),
+    <spartanweaponry:staff_diamond>.withTag({display: {Name: "§aAlexandrite Double-Bladed Reaper"}}),
+    <spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "§bDiamond Bo-Shuriken"}}),
+    <spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "§cRuby Trumbash"}})
+] as IItemStack[];
 
 recipes.addShaped(weps[counter],[
     [gem[2],<ore:plankWood>,<ore:plankWood>],
@@ -540,10 +559,18 @@ recipes.addShaped(weps[counter],[
 ]);//throwing axe 20
 counter = 0;
 
-for w, weapon in weps {
-    JEI.addItem(weps[counter]);
-    counter += 1;
-}
+JEI.addItem(<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "§aAlexandrite Chakram"}}));
+JEI.addItem(<spartanweaponry:greatsword_diamond>.withTag({display: {Name: "§cRuby Zhanmajian"}}));
+JEI.addItem(<spartanweaponry:halberd_diamond>.withTag({display: {Name: "§bDiamond Lucerne"}}));
+JEI.addItem(<spartanweaponry:hammer_diamond>.withTag({display: {Name: "§9Sapphire Oar"}}));
+JEI.addItem(<spartanweaponry:javelin_diamond>.withTag({display: {Name: "§9Sapphire Azcona"}}));
+JEI.addItem(<spartanweaponry:longsword_diamond>.withTag({display: {Name: "§9Sapphire Claymore"}}));
+JEI.addItem(<spartanweaponry:mace_diamond>.withTag({display: {Name: "§cRuby Morgenstern"}}));
+JEI.addItem(<spartanweaponry:rapier_diamond>.withTag({display: {Name: "§aAlexandrite Estoc"}}));
+JEI.addItem(<spartanweaponry:saber_diamond>.withTag({display: {Name: "§bDiamond Unbroken Blade"}}));
+JEI.addItem(<spartanweaponry:staff_diamond>.withTag({display: {Name: "§aAlexandrite Double-Bladed Reaper"}}));
+JEI.addItem(<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "§bDiamond Bo-Shuriken"}}));
+JEI.addItem(<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "§cRuby Trumbash"}})); 
 
 JEI.removeAndHide(<spartanweaponry:warhammer_diamond>);
 JEI.removeAndHide(<spartanweaponry:spear_diamond>);
