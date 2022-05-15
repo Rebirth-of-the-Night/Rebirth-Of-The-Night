@@ -69,9 +69,7 @@ ancientcache.maxStackSize = 1;
 ancientcache.itemRightClick = function(stack, world, player, hand) {
     if (world.isRemote()) { return "PASS"; }
     var randomfac = world.random.nextInt(ancientCacheWeapons.length+1) as int;
-    if randomfac < ancientCacheWeapons.length {
-    	Commands.call("give @p spartanweaponry:"~ancientCacheWeapons[randomfac], player, world, false, true);
-    }
+    Commands.call("give @p spartanweaponry:"~ancientCacheWeapons[randomfac], player, world, false, true);
     stack.shrink(1);
     return "SUCCESS";
 };
