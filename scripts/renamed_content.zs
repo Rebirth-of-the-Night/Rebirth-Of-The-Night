@@ -406,5 +406,5 @@ for potion in potionMap{
 <spartanweaponry:boomerang_electrum>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:boomerang_electrum>.displayName = "§cThe 4th Whisper";
 <spartanweaponry:staff_electrum>.addTooltip(format.red("Godly Weapon"));
-<spartanweaponry:staff_electrum>.addTooltip("Unbreakable will, oh how fragile you are.");
+<spartanweaponry:staff_electrum>.addTooltip("Impossibly heavy, but it bends to your will easily.");
 <spartanweaponry:staff_electrum>.displayName = "§4Ru Yi§6Jin Gu Bang";

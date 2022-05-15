@@ -537,7 +537,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 		player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1));
 		player.addPotionEffect(<potion:minecraft:nausea>.makePotionEffect(10, 1));
 	} 
-
+	/*
 	var saber = <spartanweaponry:saber_electrum>;
 	var halberd = <spartanweaponry:halberd_electrum>;
 	var throwingknife = <spartanweaponry:throwing_knife_electrum>;
@@ -553,7 +553,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 	var ohItem = event.player.getItemInSlot(IEntityEquipmentSlot.offhand());
 	if (!isNull(mhItem) && (mhItem.matches(saber) || mhItem.matches(halberd) || mhItem.matches(throwingknife) || mhItem.matches(warhammer) || mhItem.matches(warmallet) || mhItem.matches(lance) || mhItem.matches(rapier) || mhItem.matches(greatsword) || mhItem.matches(longsword) || mhItem.matches(staff))) {
 		server.commandManager.executeCommand(event.player, "playsound arcanearchives:resonator.complete ambient "~event.player.uuid~" ~ ~ ~ 0.25 0.25");
-	}
+	} */
 });
 
 events.onPlayerFillBucket(function(event as crafttweaker.event.PlayerFillBucketEvent) {

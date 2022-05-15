@@ -48,34 +48,37 @@ ancientcache.itemRightClick = function(stack, world, player, hand) {
     var determinant = world.random;
     var randomfac = determinant.nextInt(11) as int;
     if randomfac == 0 {
-        Commands.call("give @p spartanweaponry:saber_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:saber_electrum 1 0 {display:{Name:'§cAnhelare's Tongue'}}", player, world, false, true);
     }
     if randomfac == 1 {
-        Commands.call("give @p spartanweaponry:throwing_knife_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:throwing_knife_electrum 1 0 {display:{Name:'§cForeck'}}", player, world, false, true);
     }
     if randomfac == 2 {
-        Commands.call("give @p spartanweaponry:halberd_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:halberd_electrum 1 0 {display:{Name:'§cWingcutter'}}", player, world, false, true);
     }
     if randomfac == 3 {
-        Commands.call("give @p spartanweaponry:warhammer_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:warhammer_electrum 1 0 {display:{Name:'§cThe Handle'}}", player, world, false, true);
     }
     if randomfac == 4 {
-        Commands.call("give @p spartanweaponry:hammer_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:hammer_electrum 1 0 {display:{Name:'§cThe Tenderizer'}}", player, world, false, true);
     }
     if randomfac == 5 {
-        Commands.call("give @p spartanweaponry:lance_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:lance_electrum 1 0 {display:{Name:'§cBarako War Lance'}}", player, world, false, true);
     }
     if randomfac == 6 {
-        Commands.call("give @p spartanweaponry:rapier_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:rapier_electrum 1 0 {display:{Name:'§cThe Needle'}}", player, world, false, true);
     }
     if randomfac == 7 {
-        Commands.call("give @p spartanweaponry:greatsword_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:greatsword_electrum 1 0 {display:{Name:'§cOnyx Slayer Greatsword'}}", player, world, false, true);
     }
     if randomfac == 8 {
-        Commands.call("give @p spartanweaponry:longsword_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:longsword_electrum 1 0 {display:{Name:'§cVoid's Howl'}}", player, world, false, true);
     }
     if randomfac == 9 {
-        Commands.call("give @p spartanweaponry:staff_electrum", player, world, false, true);
+        Commands.call("give @p spartanweaponry:staff_electrum 1 0 {display:{Name:'§cRu Yi Jin Gu Bang'}}", player, world, false, true);
+    }
+    if randomfac == 10 {
+        Commands.call("give @p spartanweaponry:boomerang_electrum 1 0 {display:{Name:'§cThe 4th Whisper'}}", player, world, false, true);
     }
     stack.shrink(1);
     return "SUCCESS";

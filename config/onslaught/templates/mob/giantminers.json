@@ -108,8 +108,7 @@
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
-            "CounterAttack": { "Chance": 0.3 },
-            "Lunge": { "Range": 4, "SpeedModifier": 0.5 }
+            "CounterAttack": { "Chance": 0.3 }
           }
         }
       }
@@ -149,7 +148,6 @@
         "Onslaught": {
           "CustomAI": {
             "CounterAttack": { "Chance": 0.3 },
-            "Lunge": { "Range": 4, "SpeedModifier": 0.5 },
             "OffscreenTeleport": { }
           }
         }

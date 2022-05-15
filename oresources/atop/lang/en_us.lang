@@ -58,15 +58,15 @@ item.ruby_axe.name=§cRuby Axe
 item.ruby_hoe.name=§cRuby Hoe
 item.ruby_sword.name=§cRuby Rondel
 
-item.sapphire_helmet.name=Sapphire Helmet
-item.sapphire_chestplate.name=Sapphire Chestplate
-item.sapphire_leggings.name=Sapphire Leggings
-item.sapphire_boots.name=Sapphire Boots
-item.sapphire_shovel.name=Sapphire Shovel
-item.sapphire_pickaxe.name=Sapphire Pickaxe
-item.sapphire_axe.name=Sapphire Axe
-item.sapphire_hoe.name=Sapphire Hoe
-item.sapphire_sword.name=Sapphire Longsword
+item.sapphire_helmet.name=§9Sapphire Helmet
+item.sapphire_chestplate.name=§9Sapphire Chestplate
+item.sapphire_leggings.name=§9Sapphire Leggings
+item.sapphire_boots.name=§9Sapphire Boots
+item.sapphire_shovel.name=§9Sapphire Shovel
+item.sapphire_pickaxe.name=§9Sapphire Pickaxe
+item.sapphire_axe.name=§9Sapphire Axe
+item.sapphire_hoe.name=§9Sapphire Hoe
+item.sapphire_sword.name=§9Sapphire Messer
 
 item.tanzanite_helmet.name=Tanzanite Helmet
 item.tanzanite_chestplate.name=Tanzanite Chestplate
