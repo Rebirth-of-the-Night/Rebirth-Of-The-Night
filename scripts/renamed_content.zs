@@ -408,3 +408,27 @@ for potion in potionMap{
 <spartanweaponry:staff_electrum>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:staff_electrum>.addTooltip("Impossibly heavy, but it bends to your will easily.");
 <spartanweaponry:staff_electrum>.displayName = "§4Ru Yi§6Jin Gu Bang";
+
+/*     static ancientCacheWeapons as string[] = [
+	"saber_electrum 1 0 {display:{Name:'§cAnhelare's Tongue'}}",
+	"throwing_knife_electrum 1 0 {display:{Name:'§cForeck'}}",
+	"halberd_electrum 1 0 {display:{Name:'§cWingcutter'}}",
+	"warhammer_electrum 1 0 {display:{Name:'§cThe Handle'}}",
+	"hammer_electrum 1 0 {display:{Name:'§cThe Tenderizer'}}",
+	"lance_electrum 1 0 {display:{Name:'§cBarako War Lance'}}",
+	"rapier_electrum 1 0 {display:{Name:'§cThe Needle'}}",
+	"greatsword_electrum 1 0 {display:{Name:'§cOnyx Slayer Greatsword'}}",
+	"longsword_electrum 1 0 {display:{Name:'§cVoid's Howl'}}",
+	"staff_electrum 1 0 {display:{Name:'§cRu Yi Jin Gu Bang'}}",
+    "boomerang_electrum 1 0 {display:{Name:'§cThe 4th Whisper'}}",
+    "dagger_electrum 1 0 {display:{Name:'§cForbidden Dagger'}}",
+    "spear_electrum 1 0 {display:{Name:'§cForbidden Spear'}}",
+    "pike_electrum 1 0 {display:{Name:'§cForbidden Pike'}}",
+    "throwing_axe_electrum 1 0 {display:{Name:'§cForbidden Throwing Axe'}}",
+    "battleaxe_electrum 1 0 {display:{Name:'§cForbidden Battleaxe'}}",
+    "glaive_electrum 1 0 {display:{Name:'§cForbidden Glaive'}}",
+    "longbow_electrum 1 0 {display:{Name:'§cForbidden Longbow'}}",
+    "mace_electrum 1 0 {display:{Name:'§cForbidden Flanged Mace'}}",
+    "javelin_electrum 1 0 {display:{Name:'§cForbidden Javelin'}}",
+    "katana_electrum 1 0 {display:{Name:'§cForbidden Katana'}}"
+]; */
