@@ -23,7 +23,11 @@ for i in ltArray {
 }
 
 // Removing magic scrolls from known sources
-var scrollSrc = ["minecraft:chests/stronghold_crossing", "minecraft:entities/witch", "minecraft:entities/evocation_illager"] as string[];
+var scrollSrc = [
+	"minecraft:chests/stronghold_crossing", 
+	"minecraft:entities/witch", 
+	"minecraft:entities/evocation_illager"
+] as string[];
 
 for i in scrollSrc {
 	val magicScroll = LootTweaker.getTable(i);
