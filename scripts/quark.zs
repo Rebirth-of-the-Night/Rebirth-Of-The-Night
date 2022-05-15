@@ -16,7 +16,18 @@ import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 	// removes various types of stone walls
-var sWalls = ["brick", "sandstone", "stone_granite", "stone_diorite", "stone_andesite", "red_sandstone", "stonebrick", "stonebrick_mossy", "prismarine_rough", "purpur_block"] as string[];
+var sWalls = [
+	"brick", 
+	"sandstone", 
+	"stone_granite", 
+	"stone_diorite", 
+	"stone_andesite", 
+	"red_sandstone", 
+	"stonebrick", 
+	"stonebrick_mossy", 
+	"prismarine_rough", 
+	"purpur_block"
+] as string[];
 removeRecipeArray(concatIS(["quark:"], sWalls, ["_wall"]));
 
 for i in 0 to 16 {
