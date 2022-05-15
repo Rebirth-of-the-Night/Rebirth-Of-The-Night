@@ -6,6 +6,8 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.Commands;
 import mods.contenttweaker.IItemRightClick;
+import crafttweaker.world.IWorld;
+import crafttweaker.util.IRandom;
 
 
 // brain firework
@@ -35,6 +37,50 @@ invasiondebug.itemRightClick = function(stack, world, player, hand) {
     return "SUCCESS";
 };
 invasiondebug.register();
+
+// ancient cache
+var ancientcache = VanillaFactory.createItem("ancient_cache");
+
+ancientcache.maxStackSize = 1;
+ancientcache.itemRightClick = function(stack, world, player, hand) {
+	# Return early in the function if the world is on the client side. Prevents serious desyncs.
+    if(world.isRemote()) { return "PASS"; }
+    var determinant = world.random;
+    var randomfac = determinant.nextInt(11) as int;
+    if randomfac == 0 {
+        Commands.call("give @p spartanweaponry:saber_electrum", player, world, false, true);
+    }
+    if randomfac == 1 {
+        Commands.call("give @p spartanweaponry:throwing_knife_electrum", player, world, false, true);
+    }
+    if randomfac == 2 {
+        Commands.call("give @p spartanweaponry:halberd_electrum", player, world, false, true);
+    }
+    if randomfac == 3 {
+        Commands.call("give @p spartanweaponry:warhammer_electrum", player, world, false, true);
+    }
+    if randomfac == 4 {
+        Commands.call("give @p spartanweaponry:hammer_electrum", player, world, false, true);
+    }
+    if randomfac == 5 {
+        Commands.call("give @p spartanweaponry:lance_electrum", player, world, false, true);
+    }
+    if randomfac == 6 {
+        Commands.call("give @p spartanweaponry:rapier_electrum", player, world, false, true);
+    }
+    if randomfac == 7 {
+        Commands.call("give @p spartanweaponry:greatsword_electrum", player, world, false, true);
+    }
+    if randomfac == 8 {
+        Commands.call("give @p spartanweaponry:longsword_electrum", player, world, false, true);
+    }
+    if randomfac == 9 {
+        Commands.call("give @p spartanweaponry:staff_electrum", player, world, false, true);
+    }
+    stack.shrink(1);
+    return "SUCCESS";
+};
+ancientcache.register();
 
 // animated brain
 val animated_brain = VanillaFactory.createItem("animated_brain");

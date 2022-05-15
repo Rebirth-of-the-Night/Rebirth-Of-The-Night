@@ -100,31 +100,15 @@
               },
               {
                 "id": "zed",
-                "count": [ 1, 3 ]
-              }
-            ]
-          },
-          {
-            "mobs": [
-              {
-                "id": "zed",
-                "count": [ 2, 3 ]
+                "count": [ 4, 5 ]
               },
               {
                 "id": "zed.miner",
                 "count": [ 2, 3 ]
-              }
-            ]
-          },
-          {
-            "mobs": [
+              },
               {
                 "id": "skel",
                 "count": [ 1, 3 ]
-              },
-              {
-                "id": "zed.miner",
-                "count": [ 1, 2 ]
               }
             ]
           }

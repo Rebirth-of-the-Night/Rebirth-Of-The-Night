@@ -2,7 +2,6 @@
   "pandemic.miner": {
     "id": "specialmobs:plaguezombie",
     "effects": [
-      
       {
         "id": "rats:plague",
         "duration": 50000,
