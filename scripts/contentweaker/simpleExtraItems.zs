@@ -41,44 +41,25 @@ invasiondebug.register();
 // ancient cache
 var ancientcache = VanillaFactory.createItem("ancient_cache");
 
+static ancientCacheWeapons as string[] = [
+	"saber_electrum",
+	"throwing_knife_electrum",
+	"halberd_electrum",
+	"warhammer_electrum",
+	"hammer_electrum",
+	"lance_electrum",
+	"rapier_electrum",
+	"greatsword_electrum",
+	"longsword_electrum",
+	"staff_electrum"
+];
+
 ancientcache.maxStackSize = 1;
 ancientcache.itemRightClick = function(stack, world, player, hand) {
-	# Return early in the function if the world is on the client side. Prevents serious desyncs.
-    if(world.isRemote()) { return "PASS"; }
-    var determinant = world.random;
-    var randomfac = determinant.nextInt(11) as int;
-    if randomfac == 0 {
-        Commands.call("give @p spartanweaponry:saber_electrum 1 0 {display:{Name:'§cAnhelare's Tongue'}}", player, world, false, true);
-    }
-    if randomfac == 1 {
-        Commands.call("give @p spartanweaponry:throwing_knife_electrum 1 0 {display:{Name:'§cForeck'}}", player, world, false, true);
-    }
-    if randomfac == 2 {
-        Commands.call("give @p spartanweaponry:halberd_electrum 1 0 {display:{Name:'§cWingcutter'}}", player, world, false, true);
-    }
-    if randomfac == 3 {
-        Commands.call("give @p spartanweaponry:warhammer_electrum 1 0 {display:{Name:'§cThe Handle'}}", player, world, false, true);
-    }
-    if randomfac == 4 {
-        Commands.call("give @p spartanweaponry:hammer_electrum 1 0 {display:{Name:'§cThe Tenderizer'}}", player, world, false, true);
-    }
-    if randomfac == 5 {
-        Commands.call("give @p spartanweaponry:lance_electrum 1 0 {display:{Name:'§cBarako War Lance'}}", player, world, false, true);
-    }
-    if randomfac == 6 {
-        Commands.call("give @p spartanweaponry:rapier_electrum 1 0 {display:{Name:'§cThe Needle'}}", player, world, false, true);
-    }
-    if randomfac == 7 {
-        Commands.call("give @p spartanweaponry:greatsword_electrum 1 0 {display:{Name:'§cOnyx Slayer Greatsword'}}", player, world, false, true);
-    }
-    if randomfac == 8 {
-        Commands.call("give @p spartanweaponry:longsword_electrum 1 0 {display:{Name:'§cVoid's Howl'}}", player, world, false, true);
-    }
-    if randomfac == 9 {
-        Commands.call("give @p spartanweaponry:staff_electrum 1 0 {display:{Name:'§cRu Yi Jin Gu Bang'}}", player, world, false, true);
-    }
-    if randomfac == 10 {
-        Commands.call("give @p spartanweaponry:boomerang_electrum 1 0 {display:{Name:'§cThe 4th Whisper'}}", player, world, false, true);
+    if (world.isRemote()) { return "PASS"; }
+    var randomfac = world.random.nextInt(ancientCacheWeapons.length+1) as int;
+    if randomfac < ancientCacheWeapons.length {
+    	Commands.call("give @p spartanweaponry:"~ancientCacheWeapons[randomfac], player, world, false, true);
     }
     stack.shrink(1);
     return "SUCCESS";
