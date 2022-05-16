@@ -15,5 +15,3 @@ function nearbyBlockCheck(p as IPlayer, it as string) as bool {
 	}
 	return false;
 }
-
-	// goes through armor arrays that contain armor that the player may be currently wearing
