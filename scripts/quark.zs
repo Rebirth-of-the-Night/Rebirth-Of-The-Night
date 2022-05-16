@@ -156,19 +156,18 @@ var slm = ["red", "blue", "black", "purple", "yellow"] as string[];
 	// loops until all colors have been done
 for i in 0 to slm.length {
 	var qs = itemUtils.getItem("quark:color_slime", i);
-	var bs = bluSlm(slm[i]);
+	var bs;
+	
+	if(slm[i]=="blue") {
+		bs = <betterslimes:blue_slime>|<mod_lavacow:silky_sludge>;
+	} else { bs = itemUtils.getItem("betterslimes:" + slm[i] + "_slime"); }
+	
 	var bsa = [bs,bs,bs] as IIngredient[];
 
 	if(slm[i] != "black") {
 		recipes.addShaped(slm[i] + "_slime_block",qs,[bsa,bsa,bsa]);
 	}
 	recipes.addShapeless(slm[i] + "_slimeball",(bs.items[0])*9,[qs]);
-}
-
-function bluSlm(x as string) as IIngredient {
-	if(x=="blue") {
-		return <betterslimes:blue_slime>|<mod_lavacow:silky_sludge>;
-	} else { return itemUtils.getItem("betterslimes:" + x + "_slime"); }
 }
 
 recipes.remove(<quark:redstone_randomizer>);
