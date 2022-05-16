@@ -18,6 +18,14 @@
     "result": "default"
  },*/
 
+
+/////////////// WORLD INVASION /////////////////
+{
+    "gamestage": "worldinvasion",
+    "onjoin": true,
+    "healthmultiply": 2.0
+},
+
   // Zombies
 
   //////////////// DEFAULT //////////////////////////

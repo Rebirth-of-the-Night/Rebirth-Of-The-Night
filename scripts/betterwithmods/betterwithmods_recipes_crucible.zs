@@ -299,8 +299,8 @@ Crucible.addStoked(
 furnace.remove(<minecraft:iron_nugget>);
 furnace.remove(<minecraft:gold_nugget>);
 
-// 2/3 * 9 = 6
-// Rule of thumb is for every salvageable metal to return 66.6666666% of material in nuggets, truncated
+// 1 nugget per ingot (for 9 mat/ingot)
+// Rule of thumb is for every salvageable metal to return 1/9 (0.11) of material in nuggets
 val iron = <minecraft:iron_nugget>;
 val gold = <minecraft:gold_nugget>;
 val copper = <ore:nuggetCopper>.firstItem;
@@ -311,9 +311,8 @@ val knightmetal = <twilightforest:armor_shard>;
 val soulforgedSteel = <betterwithmods:material:30>; // Steel Anvil
 val mythril = <ore:nuggetMythril>.firstItem; // Steel Anvil
 // Irregulars
-val chain = <minecraft:iron_nugget>; // 2/3 * 4 = 8/3
-val endorium = <endreborn:item_raw_endorium>; // 2/3 * 4 = 8/3
-val ironwood = <twilightforest:ironwood_raw>; // 2/3 * 1/2 = 1/3
+val chain = <minecraft:iron_nugget>; // 4 mat/ingot
+val endorium = <endreborn:item_raw_endorium>; // 4 mat/ingot
 val viridium = <ore:nuggetViridium>.firstItem; // Steel Anvil
 
 // 1 ingot
@@ -366,14 +365,13 @@ val sixMap = {
 	<spartanweaponry:lance_steel:*> : steel,
 	<spartanweaponry:javelin_steel:*> : steel,
 	<spartanweaponry:boomerang_steel:*> : steel,
-    <endreborn:tool_magnifier:*> : endorium,
-    <endreborn:tool_sword_endorium:*> : endorium,
     <spartancompat:dagger_adamantium:*> : viridium,
-    <spartancompat:throwing_knife_adamantium:*> : viridium
+    <spartancompat:throwing_knife_adamantium:*> : viridium,
+    <spartancompat:boomerang_mythril:*> : mythril
 } as IItemStack[IItemStack];
 
 for input, output in sixMap{
-    Crucible.addStoked([input],[output*6]);
+    Crucible.addStoked([input],[output*1]);
 }
 
 // 2 ingots
@@ -414,7 +412,7 @@ val twelveMap = {
 } as IItemStack[IItemStack];
 
 for input, output in twelveMap{
-    Crucible.addStoked([input],[output*12]);
+    Crucible.addStoked([input],[output*2]);
 }
 
 // 3 ingots
@@ -456,11 +454,15 @@ val eighteenMap = {
     <twilightforest:knightmetal_pickaxe:*> : knightmetal,
     <twilightforest:knightmetal_axe:*> : knightmetal,
     <simpleores:adamantium_shovel:*> : viridium,
-    <spartancompat:katana_adamantium:*> : viridium
+    <simpleores:mythril_shovel:*> : mythril,
+    <spartancompat:katana_adamantium:*> : viridium,
+    <spartancompat:lance_mythril:*> : mythril,
+    <betterwithaddons:steel_matchpick:*> : soulforgedSteel,
+    <betterwithaddons:steel_machete:*> : soulforgedSteel
 } as IItemStack[IItemStack];
 
 for input, output in eighteenMap{
-    Crucible.addStoked([input],[output*18]);
+    Crucible.addStoked([input],[output*3]);
 }
 
 // 4 ingots
@@ -506,7 +508,7 @@ val twentyFourMap = {
 } as IItemStack[IItemStack];
 
 for input, output in twentyFourMap{
-    Crucible.addStoked([input],[output*24]);
+    Crucible.addStoked([input],[output*4]);
 }
 
 // 5 ingots
@@ -524,11 +526,18 @@ val thirtyMap = {
 	<spartanweaponry:battleaxe_steel:*> : steel,
     <twilightforest:knightmetal_helmet:*> : knightmetal,
     <simpleores:adamantium_pickaxe:*> : viridium,
-    <simpleores:adamantium_axe:*> : viridium
+    <simpleores:adamantium_axe:*> : viridium,
+    <simpleores:mythril_pickaxe:*> : mythril,
+    <simpleores:mythril_axe:*> : mythril,
+    <spartancompat:longsword_mythril:*> : mythril,
+    <spartancompat:rapier_mythril:*> : mythril,
+    <betterwithmods:steel_pickaxe:*> : soulforgedSteel,
+    <betterwithaddons:steel_kukri:*> : soulforgedSteel,
+    <betterwithaddons:steel_carpentersaw:*> : soulforgedSteel
 } as IItemStack[IItemStack];
 
 for input, output in thirtyMap{
-    Crucible.addStoked([input],[output*30]);
+    Crucible.addStoked([input],[output*5]);
 }
 
 // 6 ingots
@@ -545,11 +554,16 @@ val thirtySixMap = {
 	<spartanweaponry:greatsword_steel:*> : steel,
 	<spartanweaponry:hammer_steel:*> : steel,
     <simpleores:adamantium_leggings:*> : viridium,
-    <simpleores:adamantium_boots:*> : viridium
+    <simpleores:adamantium_boots:*> : viridium,
+    <simpleores:mythril_leggings:*> : mythril,
+    <simpleores:mythril_boots:*> : mythril,
+    <simpleores:mythril_bow:*> : mythril,
+    <betterwithmods:steel_pants:*> : soulforgedSteel,
+    <betterwithmods:steel_boots:*> : soulforgedSteel
 } as IItemStack[IItemStack];
 
 for input, output in thirtySixMap{
-    Crucible.addStoked([input],[output*30]);
+    Crucible.addStoked([input],[output*6]);
 }
 
 // 7 ingots
@@ -563,11 +577,12 @@ val fortyTwoMap = {
     <iceandfire:armor_silver_metal_leggings:*> : silver,
     <atop:mud_leggings:*> : bronze,
 	<dungeontactics:steel_leggings:*> : steel,
-    <twilightforest:knightmetal_leggings:*> : knightmetal
+    <twilightforest:knightmetal_leggings:*> : knightmetal,
+    <spartancompat:mace_mythril:*> : mythril
 } as IItemStack[IItemStack];
 
 for input, output in fortyTwoMap{
-    Crucible.addStoked([input],[output*42]);
+    Crucible.addStoked([input],[output*7]);
 }
 
 // 8 ingots
@@ -578,64 +593,41 @@ val fortyEightMap = {
     <atop:mud_chestplate:*> : bronze,
 	<dungeontactics:steel_chestplate:*> : steel,
     <twilightforest:knightmetal_chestplate:*> : knightmetal,
-    <simpleores:adamantium_helmet:*> : viridium
+    <simpleores:adamantium_helmet:*> : viridium,
+    <simpleores:mythril_helmet:*> : mythril,
+    <betterwithmods:steel_helmet:*> : soulforgedSteel
 } as IItemStack[IItemStack];
 
 for input, output in fortyEightMap{
-    Crucible.addStoked([input],[output*48]);
+    Crucible.addStoked([input],[output*8]);
 }
 
 // other
-Crucible.addStoked([<iceandfire:dragonarmor_iron:3>],[iron*162]);
-Crucible.addStoked([<iceandfire:dragonarmor_gold:3>],[gold*162]);
-Crucible.addStoked([<iceandfire:dragonarmor_silver:3>],[silver*162]);
+Crucible.addStoked([<iceandfire:dragonarmor_iron:3>],[iron*27]); // 243/9
+Crucible.addStoked([<iceandfire:dragonarmor_gold:3>],[gold*27]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:3>],[silver*27]);
 
-Crucible.addStoked([<iceandfire:dragonarmor_iron:0>],[iron*270]);
-Crucible.addStoked([<iceandfire:dragonarmor_iron:1>],[iron*270]);
-Crucible.addStoked([<iceandfire:dragonarmor_gold:0>],[gold*270]);
-Crucible.addStoked([<iceandfire:dragonarmor_gold:1>],[gold*270]);
-Crucible.addStoked([<iceandfire:dragonarmor_silver:0>],[silver*270]);
-Crucible.addStoked([<iceandfire:dragonarmor_silver:1>],[silver*270]);
+Crucible.addStoked([<iceandfire:dragonarmor_iron:0>],[iron*45]); // 405/9
+Crucible.addStoked([<iceandfire:dragonarmor_iron:1>],[iron*45]);
+Crucible.addStoked([<iceandfire:dragonarmor_gold:0>],[gold*45]);
+Crucible.addStoked([<iceandfire:dragonarmor_gold:1>],[gold*45]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:0>],[silver*45]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:1>],[silver*45]);
 
-Crucible.addStoked([<iceandfire:dragonarmor_iron:2>],[iron*432]);
-Crucible.addStoked([<iceandfire:dragonarmor_gold:2>],[gold*432]);
-Crucible.addStoked([<iceandfire:dragonarmor_silver:2>],[silver*432]);
+Crucible.addStoked([<iceandfire:dragonarmor_iron:2>],[iron*72]); // 648/9
+Crucible.addStoked([<iceandfire:dragonarmor_gold:2>],[gold*72]);
+Crucible.addStoked([<iceandfire:dragonarmor_silver:2>],[silver*72]);
 
-Crucible.addStoked([<twilightforest:knightmetal_shield:*>],[knightmetal*45]);
-Crucible.addStoked([<twilightforest:block_and_chain:*>],[knightmetal*99]);
-Crucible.addStoked([<minecraft:chainmail_helmet:*>],[chain*14]);
-Crucible.addStoked([<minecraft:chainmail_chestplate:*>],[chain*22]);
-Crucible.addStoked([<minecraft:chainmail_leggings:*>],[chain*19]);
-Crucible.addStoked([<minecraft:chainmail_boots:*>],[chain*11]);
-Crucible.addStoked([<endreborn:ender_bow:*>],[endorium*3]);
-Crucible.addStoked([<twilightforest:ironwood_chestplate:*>],[ironwood*3]);
-Crucible.addStoked([<twilightforest:ironwood_helmet:*>],[ironwood*2]);
-Crucible.addStoked([<twilightforest:ironwood_leggings:*>],[ironwood*2]);
-Crucible.addStoked([<twilightforest:ironwood_boots:*>],[ironwood*1]);
-Crucible.addStoked([<twilightforest:ironwood_axe:*>],[ironwood*1]);
-Crucible.addStoked([<twilightforest:ironwood_pickaxe:*>],[ironwood*1]);
-Crucible.addStoked([<simpleores:adamantium_chestplate:*>],[viridium*72]);
-Crucible.addStoked([<betterwithmods:steel_helmet:*>],[soulforgedSteel*48]);
-Crucible.addStoked([<betterwithmods:steel_chest:*>],[soulforgedSteel*72]);
-Crucible.addStoked([<betterwithmods:steel_pants:*>],[soulforgedSteel*36]);
-Crucible.addStoked([<betterwithmods:steel_boots:*>],[soulforgedSteel*36]);
-Crucible.addStoked([<betterwithmods:steel_pickaxe:*>],[soulforgedSteel*30]);
-Crucible.addStoked([<betterwithmods:steel_hacksaw:*>],[soulforgedSteel*3]);
-Crucible.addStoked([<betterwithaddons:steel_matchpick:*>],[soulforgedSteel*18]);
-Crucible.addStoked([<betterwithaddons:steel_machete:*>],[soulforgedSteel*18]);
-Crucible.addStoked([<betterwithaddons:steel_kukri:*>],[soulforgedSteel*39]);
-Crucible.addStoked([<betterwithaddons:steel_carpentersaw:*>],[soulforgedSteel*39]);
-Crucible.addStoked([<simpleores:mythril_helmet:*>],[mythril*48]);
-Crucible.addStoked([<simpleores:mythril_chestplate:*>],[mythril*72]);
-Crucible.addStoked([<simpleores:mythril_leggings:*>],[mythril*36]);
-Crucible.addStoked([<simpleores:mythril_boots:*>],[mythril*36]);
-Crucible.addStoked([<simpleores:mythril_bow:*>],[mythril*36]);
-Crucible.addStoked([<simpleores:mythril_pickaxe:*>],[mythril*30]);
-Crucible.addStoked([<simpleores:mythril_axe:*>],[mythril*30]);
-Crucible.addStoked([<simpleores:mythril_shovel:*>],[mythril*18]);
-Crucible.addStoked([<spartancompat:lance_mythril:*>],[mythril*18]);
-Crucible.addStoked([<spartancompat:longsword_mythril:*>],[mythril*30]);
-Crucible.addStoked([<spartancompat:rapier_mythril:*>],[mythril*30]);
-Crucible.addStoked([<spartancompat:boomerang_mythril:*>],[mythril*6]);
-Crucible.addStoked([<spartancompat:mace_mythril:*>],[mythril*42]);
-Crucible.addStoked([<spartanshields:shield_basic_lead:*>],[mythril*66]); //mythril shield
+Crucible.addStoked([<twilightforest:knightmetal_shield:*>],[knightmetal*7]); // 63/9
+Crucible.addStoked([<twilightforest:block_and_chain:*>],[knightmetal*16]); // 144/9
+Crucible.addStoked([<minecraft:chainmail_helmet:*>],[chain*2]); // 20/9
+Crucible.addStoked([<minecraft:chainmail_chestplate:*>],[chain*3]); // 32/9
+Crucible.addStoked([<minecraft:chainmail_leggings:*>],[chain*3]); // 28/9
+Crucible.addStoked([<minecraft:chainmail_boots:*>],[chain*1]); // 16/9
+//Crucible.addStoked([<endreborn:ender_bow:*>],[endorium*1]); // 4/9 <1
+//Crucible.addStoked([<endreborn:tool_sword_endorium:*>],[endorium*1]); // 8/9 <1
+Crucible.addStoked([<betterwithmods:steel_chest:*>],[soulforgedSteel*12]);
+//Crucible.addStoked([<betterwithmods:steel_hacksaw:*>],[soulforgedSteel*1]); // 4/9 <1
+Crucible.addStoked([<simpleores:adamantium_chestplate:*>],[viridium*12]);
+Crucible.addStoked([<simpleores:mythril_chestplate:*>],[mythril*12]);
+Crucible.addStoked([<spartanshields:shield_basic_lead:*>],[mythril*10]); //mythril shield
