@@ -24,7 +24,7 @@ function trimStrArray(array as string, start as int, end as int) as string[] {
 	return newArray;
 }
 
-	// these functions take a string (or two) and adds it onto each member of an array, spitting back out an array of either oredict entries of itemstacks. 
+	// these functions take a string (or two) and adds it onto each member of an array, spitting back out an array of either oredict entries or itemstacks.
 	// this way i (and you, if i let others use this) don't have to manually modify each and every entry of similarly named items.
 	// it used to be a lot longer in terms of code, but i realized that arrays could be passed instead of strings and it'd work just fine :)
 	// in fact, it's more flexible now - it can concatenate multiple arrays of strings!
