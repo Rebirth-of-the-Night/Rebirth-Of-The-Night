@@ -1,4 +1,3 @@
-
 .curseclient
 minecraftinstance.json
 crafttweaker.log
@@ -118,21 +117,3 @@ config/requious/red_emitter.json
 config/jeresources/jeresources.cfg
 
 resourcepacks/Modernity-format*
-config/acronym/saved/material_parts_contenttweaker-original.json
-config/acronym/saved/material_parts_contenttweaker-original.json
-config/acronym/saved/material_parts_contenttweaker.json
-config/acronym/saved/saved_sub_blocks_contenttweaker-original.json
-config/acronym/saved/saved_sub_blocks_contenttweaker.json
-config/multimob/modInformation/allBiomeTypes.txt
-config/multimob/modInformation/allBlocks.txt
-config/multimob/modInformation/allBlockStates.txt
-config/multimob/modInformation/allEnchantments.txt
-config/multimob/modInformation/allEntities.txt
-config/multimob/modInformation/allItems.txt
-config/multimob/modInformation/allPotionTypes.txt
-config/cd4017be/compiled.dat
-config/deadmanssatchel/DIM\#.example.json
-config/fantasticlib/reference/oredict.txt
-config/fantasticlib/reference/recipes.txt
-config/InvTweaks.cfg
-config/itlt.cfg
