@@ -1,3 +1,13 @@
+#priority 9000
+
+import scripts.shared.utils.recipeUtils.metaArray;
+import scripts.shared.utils.recipeUtils.removeRecipeArray;
+import scripts.shared.utils.recipeUtils.removeRecipeNameArray;
+import scripts.shared.utils.arrayUtils.concatOD;
+import scripts.shared.utils.arrayUtils.concatIS;
+import scripts.shared.utils.arrayUtils.concatString;
+import scripts.shared.sharedArrays.colors;
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
@@ -5,40 +15,35 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
+	// removes various types of stone walls
+var sWalls = [
+	"brick", 
+	"sandstone", 
+	"stone_granite", 
+	"stone_diorite", 
+	"stone_andesite", 
+	"red_sandstone", 
+	"stonebrick", 
+	"stonebrick_mossy", 
+	"prismarine_rough", 
+	"purpur_block"
+] as string[];
+removeRecipeArray(concatIS(["quark:"], sWalls, ["_wall"]));
+
 for i in 0 to 16 {
 	JEI.removeAndHide(<quark:candle>.definition.makeStack(i));
 }
 
-JEI.removeAndHide(<quark:brick_wall>);
-JEI.removeAndHide(<quark:stone_granite_wall>);
-JEI.removeAndHide(<quark:stone_diorite_wall>);
-JEI.removeAndHide(<quark:stone_andesite_wall>);
-JEI.removeAndHide(<quark:sandstone_wall>);
-JEI.removeAndHide(<quark:red_sandstone_wall>);
-JEI.removeAndHide(<quark:stonebrick_wall>);
-JEI.removeAndHide(<quark:stonebrick_mossy_wall>);
-JEI.removeAndHide(<quark:prismarine_rough_wall>);
 JEI.removeAndHide(<quark:red_nether_brick_slab>);
-JEI.removeAndHide(<quark:purpur_block_wall>);
 JEI.removeAndHide(<quark:red_nether_brick_stairs>);
 JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 JEI.removeAndHide(<quark:smoker>);
 JEI.removeAndHide(<quark:polished_stone>);
 
-<quark:rune:*>.addTooltip("Colors enchanted items in an anvil."); // Because so many people dunno its use.
+removeRecipeNameArray(concatString(["quark:iron_"], ["button", "ladder", "plate_1"], [""]));
+removeRecipeNameArray(concatString(["quark:stone_"], ["shovel", "pickaxe", "axe", "hoe", "slab"], [""]));
+removeRecipeNameArray(["quark:chest_minecart", "quark:gold_button", "quark:hopper", "quark:sandy_bricks"]);
 
-recipes.removeByRecipeName("quark:chest_minecart");
-recipes.removeByRecipeName("quark:stone_shovel");
-recipes.removeByRecipeName("quark:stone_pickaxe");
-recipes.removeByRecipeName("quark:stone_axe");
-recipes.removeByRecipeName("quark:stone_hoe");
-recipes.removeByRecipeName("quark:iron_button");
-recipes.removeByRecipeName("quark:gold_button");
-recipes.removeByRecipeName("quark:iron_plate_1");
-recipes.removeByRecipeName("quark:iron_ladder");
-recipes.removeByRecipeName("quark:hopper");
-recipes.removeByRecipeName("quark:stone_slab");
-recipes.removeByRecipeName("quark:sandy_bricks");
 //recipes.addShapeless("sandy_bricks",<quark:sandy_bricks>,[<contenttweaker:brick_minecraft_clay>,<ore:sand>]); Brick replacement
 
 recipes.remove(<quark:backpack>);
@@ -106,7 +111,6 @@ val crystalMats as IIngredient[][] = [
 	[<rotn_blocks:exorite_crystal>],
 	[<ore:gemOnyx>, <endreborn:dragon_scales>]
 ] as IIngredient[][];
-
 // Easier Crystals 
 for i, crystalArr in crystalMats {
 	for j, mat in crystalArr {
@@ -140,40 +144,31 @@ RecipeBuilder.get("mage")
   .addOutput(<quark:soul_bead>)
   .create();
 
-// Slime Blocks
 recipes.removeByRecipeName("quark:color_slime_4");
 recipes.removeByRecipeName("quark:slime");
 
-recipes.addShaped("red_slime_block",<quark:color_slime:0>,[
-	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>],
-	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>],
-	[<betterslimes:red_slime>,<betterslimes:red_slime>,<betterslimes:red_slime>]
-]);
-recipes.addShapeless("red_slimeball",<betterslimes:red_slime>*9,[<quark:color_slime:0>]);
+	// slimeballs into slimeblocks and vice versa
+	
+	// slime color array
+var slm = ["red", "blue", "black", "purple", "yellow"] as string[];
 
-var blueSlimeList = <betterslimes:blue_slime>|<mod_lavacow:silky_sludge>;
-recipes.addShaped("blue_slime_block",<quark:color_slime:1>,[
-	[blueSlimeList,blueSlimeList,blueSlimeList],
-	[blueSlimeList,blueSlimeList,blueSlimeList],
-	[blueSlimeList,blueSlimeList,blueSlimeList]
-]);
-recipes.addShapeless("blue_slimeball",<betterslimes:blue_slime>*9,[<quark:color_slime:1>]);
+	// combines strings, then turns them into ingredients and arranges them in a crafting table.
+	// loops until all colors have been done
+for i in 0 to slm.length {
+	var qs = itemUtils.getItem("quark:color_slime", i);
+	var bs;
+	
+	if(slm[i]=="blue") {
+		bs = <betterslimes:blue_slime>|<mod_lavacow:silky_sludge>;
+	} else { bs = itemUtils.getItem("betterslimes:" + slm[i] + "_slime"); }
+	
+	var bsa = [bs,bs,bs] as IIngredient[];
 
-recipes.addShaped("magenta_slime_block",<quark:color_slime:3>,[
-	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>],
-	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>],
-	[<betterslimes:purple_slime>,<betterslimes:purple_slime>,<betterslimes:purple_slime>]
-]);
-recipes.addShapeless("purple_slimeball",<betterslimes:purple_slime>*9,[<quark:color_slime:3>]);
-
-recipes.addShaped("yellow_slime_block",<quark:color_slime:4>,[
-	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>],
-	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>],
-	[<betterslimes:yellow_slime>,<betterslimes:yellow_slime>,<betterslimes:yellow_slime>]
-]);
-recipes.addShapeless("yellow_slimeball",<betterslimes:yellow_slime>*9,[<quark:color_slime:4>]);
-
-recipes.addShapeless("black_slimeball",<betterslimes:black_slime>*9,[<quark:color_slime:2>]);
+	if(slm[i] != "black") {
+		recipes.addShaped(slm[i] + "_slime_block",qs,[bsa,bsa,bsa]);
+	}
+	recipes.addShapeless(slm[i] + "_slimeball",(bs.items[0])*9,[qs]);
+}
 
 recipes.remove(<quark:redstone_randomizer>);
 recipes.addShaped("quark_randomizer", <quark:redstone_randomizer>, [
@@ -183,191 +178,33 @@ recipes.addShaped("quark_randomizer", <quark:redstone_randomizer>, [
 ]);
 
 // runes
+val qrune = <quark:rune:*>;
+
+// Because so many people dunno its use.
+qrune.addTooltip("Colors enchanted items in an anvil.");
 
 # remove all original quark rune recipes
-recipes.remove(<quark:rune:*>);
+recipes.remove(qrune);
 
 # make quark runes non stackable
-val quarkrune = (<quark:rune:*>);
-quarkrune.maxStackSize = 1;
+qrune.maxStackSize = 1;
 
 # recipes for quark runes
+var runes = metaArray("quark:rune", 0, 15) as IItemStack[];
+var dyes = concatOD(["ore:dye"], colors, [""]) as IOreDictEntry[];
 
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeWhite>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:0>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeOrange>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:1>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeMagenta>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:2>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeLightBlue>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:3>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeYellow>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:4>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeLime>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:5>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyePink>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:6>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeGray>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:7>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeLightGray>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:8>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeCyan>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:9>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyePurple>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:10>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeBlue>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:11>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeBrown>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:12>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeGreen>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:13>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeRed>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:14>)
-  .create();
-
-  RecipeBuilder.get("mage")
-  .setShaped([
-    [<contenttweaker:vis_speck>],
-    [<contenttweaker:blank_rune>],
-    [<ore:dyeBlack>]])
-  .addTool(<contenttweaker:illusion_rune>, 1)
-  .setMinimumTier(1)
-  .setMaximumTier(1)
-  .addOutput(<quark:rune:15>)
-  .create();
+for i in 0 to runes.length {
+	RecipeBuilder.get("mage")
+	  .setShaped([
+		[<contenttweaker:vis_speck>],
+		[<contenttweaker:blank_rune>],
+		[dyes[i]]])
+	  .addTool(<contenttweaker:illusion_rune>, 1)
+	  .setMinimumTier(1)
+	  .setMaximumTier(1)
+	  .addOutput(runes[i])
+	  .create();
+}
 
   RecipeBuilder.get("mage")
   .setShapeless([
@@ -396,14 +233,8 @@ recipes.addShaped("dark_quartz_wall", <quark:quartz_wall> * 6, [
 // oredict magicite
 
 val oreMagicite = <ore:magicite>;
-oreMagicite.add(
-  <quark:crystal:0>,
-  <quark:crystal:1>,
-  <quark:crystal:2>,
-  <quark:crystal:3>,
-  <quark:crystal:4>,
-  <quark:crystal:5>,
-  <quark:crystal:6>,
-  <quark:crystal:7>,
-  <quark:crystal:8>
-);
+var crystals = metaArray("quark:crystal", 0, 8) as IItemStack[];
+
+for i in crystals {
+	oreMagicite.add(i);
+}

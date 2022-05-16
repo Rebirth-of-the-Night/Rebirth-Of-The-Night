@@ -1,39 +1,30 @@
+#priority 9999
+
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IItemStack;
-import mods.jei.JEI;
 
-	// gets an itemstack array based on a string and a range of numbers
-	// example: metaArray("minecraft:dye", 0, 5) would get an array of dyes with meta 0 through 5
-function metaArray(item as string, metaMin as int, metaMax as int) as IItemStack[] {
-	var array = [] as IItemStack[];
+// functions for dealing with arrays, for both in and outside of recipes. most of these deal with string arrays
 
-	for i in metaMin to metaMax {
-		array += itemUtils.getItem(item, i);
+	// joins together two string arrays
+function joinStrArrays(array1 as string[], array2 as string[]) as string[] {
+	var newArray = array1 as string[];
+	for i in 0 to array2.length {
+		newArray += array2[i];
 	}
-	
-	return array;
-}
-
-	// trims a string array
-function trimArray(array as string, start as int, end as int) as string[] {
-	var newArray = [] as string[];
-
-	for i in start to end {
-		newArray += array[i];
-	}
-	
 	return newArray;
 }
 
-	// removes and hides a whole array
-function removeAndHideArray(array as IItemStack[]) {
-	for i in 0 to array.length {
-		JEI.removeAndHide(array[i]);
+	// trims a string array
+function trimStrArray(array as string, start as int, end as int) as string[] {
+	var newArray = [] as string[];
+	for i in start to end {
+		newArray += array[i];
 	}
+	return newArray;
 }
-	
-	// these functions take a string (or two) and adds it onto each member of an array, spitting back out an array of either oredict entries of itemstacks. 
+
+	// these functions take a string (or two) and adds it onto each member of an array, spitting back out an array of either oredict entries or itemstacks.
 	// this way i (and you, if i let others use this) don't have to manually modify each and every entry of similarly named items.
 	// it used to be a lot longer in terms of code, but i realized that arrays could be passed instead of strings and it'd work just fine :)
 	// in fact, it's more flexible now - it can concatenate multiple arrays of strings!
