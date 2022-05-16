@@ -175,6 +175,7 @@ id="pyrotech:marshmallow_roasted" -> 256
 # edge-cases
 id="minecraft:ender_pearl" -> 64
 id="minecraft:snowball" -> 64
+id="minecraft:egg" -> 64
 id="quark:parrot_egg" -> 64
 id~="toroquest:scroll*" -> 64
 id="toroquest:recruitment_papers" -> 64
