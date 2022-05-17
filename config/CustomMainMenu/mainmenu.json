@@ -114,7 +114,7 @@
         },
         "blm":
         {
-            "text" : "Support Black Lives Matter",
+            "text" : "Support Racial Justice Now!",
             "normalTextColor" : 6710886,
             "hoverTextColor" : 3125670,
             "texture" : "rotn:textures/btn.png",
@@ -271,7 +271,7 @@
     "labels":
     {
         "packName": {
-            "text": "Version 3.0.1",
+            "text": "Version 3.1",
             "posX": 2,
             "posY": -10,
             "color": 16737380,

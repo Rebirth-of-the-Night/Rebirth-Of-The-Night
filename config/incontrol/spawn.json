@@ -2901,6 +2901,7 @@
     "dimension": 0,
     "mob": "iceandfire:dread_scuttler",
     "gamestage": "killedSunSpirit",
+    "healthmultiply": 0.5,
 	"random": 0.80,
 	"maxlight": 9,
 	"minheight": 65,

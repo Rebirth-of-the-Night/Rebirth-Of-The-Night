@@ -523,7 +523,7 @@ counter += 1;
 
 recipes.addShaped(weps[counter],[
     [null,gem[0],gem[0]],
-    [null,<ore:stickWood>,],
+    [null,<ore:stickWood>,gem[0]],
     [handle,null,null]
 ]);//mace 12
 counter += 1;

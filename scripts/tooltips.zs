@@ -76,7 +76,7 @@ for w, weapon in rubyweps{
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
-var peridotweps = [<spartanweaponry:boomerang_diamond>.withTag({display: {Name: "§aAlexandrite Chakram"}}),<spartanweaponry:rapier_diamond>.withTag({display: {Name: "§aAlexandrite Estoc"}}),<spartanweaponry:staff_diamond>.withTag({display: {Name: "§aAlexandrite Double-Bladed Reaper"}})] as IItemStack[];
+var peridotweps = [<spartanweaponry:boomerang_diamond:*>,<spartanweaponry:rapier_diamond:*>,<spartanweaponry:staff_diamond:*>] as IItemStack[];
 for w, weapon in peridotweps{
     weapon.addTooltip(format.darkGreen("+25% Dig Speed"));
     weapon.addTooltip(format.darkGreen("+15% Move Speed"));
@@ -99,7 +99,7 @@ for w, weapon in peridotweps{
 <atop:sapphire_hoe:*>.addTooltip(format.darkAqua("+1 Jump Height"));
 <atop:sapphire_hoe:*>.addTooltip(format.darkAqua("+1 Reach Distance"));
 
-var sapphireweps = [<spartanweaponry:hammer_diamond>.withTag({display: {Name: "§fSapphire Oar"}}),<spartanweaponry:javelin_diamond>.withTag({display: {Name: "§fSapphire Azcona"}}),<spartanweaponry:longsword_diamond>.withTag({display: {Name: "§fSapphire Claymore"}})] as IItemStack[];
+var sapphireweps = [<spartanweaponry:hammer_diamond:*>,<spartanweaponry:javelin_diamond:*>,<spartanweaponry:longsword_diamond:*>] as IItemStack[];
 for w, weapon in sapphireweps{
     weapon.addTooltip(format.darkAqua("+0.5 Step Height"));
     weapon.addTooltip(format.darkAqua("+1 Jump Height"));

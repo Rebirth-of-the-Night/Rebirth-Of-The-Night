@@ -1017,6 +1017,874 @@
             ]
           }
         ]
+      },
+      {
+        "delayTicks": [ 27000, 27300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie",
+                "count": [ 12, 16 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.farmer",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.loot",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 28800, 29100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie.bomber",
+                "count": [ 5, 7 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          },
+          {
+            "mobs": [
+              {
+                "id": "firezombie.stalker",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 10, 12 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.bomber",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.farmer",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 30600, 30900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie.boss.huntsman",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 32400, 32700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie.boss.cook",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 2, 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.stalker",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.farmer",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 34200, 34500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "fireskel.boss.slimed",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 2, 3 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.stalker",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 36000, 36300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "fireghast",
+                "count": [ 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    16
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 10, 12 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.loot",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.bomber",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 37800, 38100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "firezombie",
+                "count": [ 16, 20 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "ember",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.boss.cook",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "firezombie.boss.huntsman",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel.boss.slimed",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    64
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 39600, 39900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "fireghast",
+                "count": [ 16 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    16
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   }
