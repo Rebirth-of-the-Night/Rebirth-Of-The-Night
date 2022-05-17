@@ -645,6 +645,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <spartanfire:longbow_ice_dragonbone:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
 <spartanfire:longbow_ice_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
 <spartanfire:longbow_fire_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
+<spartanweaponry:longbow_electrum:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.6"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Ammo Type: ") + format.gray("Arrows"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Draw Time: ") + format.gray("1s"));
 <simpleores:mythril_bow:*>.addTooltip(format.darkAqua("Arrow Speed: ") + format.gray("x1"));
