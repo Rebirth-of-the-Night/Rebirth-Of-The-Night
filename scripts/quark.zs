@@ -156,7 +156,7 @@ var slm = ["red", "blue", "black", "purple", "yellow"] as string[];
 	// loops until all colors have been done
 for i in 0 to slm.length {
 	var qs = itemUtils.getItem("quark:color_slime", i);
-	var bs;
+	var bs as IIngredient;
 	
 	if(slm[i]=="blue") {
 		bs = <betterslimes:blue_slime>|<mod_lavacow:silky_sludge>;
