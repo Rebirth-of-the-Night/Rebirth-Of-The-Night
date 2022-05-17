@@ -16,7 +16,7 @@ JEI.removeAndHide(<msmlegacy:relic_molten>);
 JEI.removeAndHide(<msmlegacy:relic_pie>);
 
 recipes.remove(<msmlegacy:gladiolus>);
-recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag({ench: [{lvl: 1 as short, id: 92}]}),[
+recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag({ench: [{lvl: 3 as short, id: 92}]}),[
    [null, <ore:treeLeaves>, <ore:vine>],
    [<ore:treeSapling>, <minecraft:red_flower:1>, <ore:treeSapling>],
    [<ore:stickWood>, <ore:treeSapling>, null]

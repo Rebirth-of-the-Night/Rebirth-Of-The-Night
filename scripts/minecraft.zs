@@ -16,6 +16,7 @@ import mods.betterwithmods.MiniBlocks;
 // Misc. removal
 JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
 JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
+JEI.removeAndHide(<customdisc:sussy>);
 
 // Explosive stuff
 

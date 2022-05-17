@@ -861,6 +861,7 @@ betterslimes:entity.quazar.death
 customdisc:dunockstreet_titleedit
 customdisc:alvae
 customdisc:alpha
+customdisc:sussy
 customdisc:aceltictale
 defiledlands:book_wyrm.idle
 defiledlands:book_wyrm.hurt

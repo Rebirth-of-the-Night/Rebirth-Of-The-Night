@@ -548,6 +548,10 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 	if ("490a8ee7-ae3e-40b0-a9c7-653024832c67" == event.player.uuid) {
 		event.player.sendChat("you have to be ready for it");
 	}
+
+	if ("5c9db434-4d18-495f-be46-8b39c00b685f" == event.player.uuid) {
+		server.commandManager.executeCommand('playsound customdisc:sussy ambient Nyagi');
+	}
 });
 
 events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedEvent) {

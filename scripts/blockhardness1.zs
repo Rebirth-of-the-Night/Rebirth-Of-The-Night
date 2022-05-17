@@ -11,6 +11,8 @@ val brick_slab as IItemStack = <minecraft:stone_slab:4>;
 brick_slab.hardness = 2;
 val brick_stairs as IItemStack = <minecraft:brick_stairs>;
 brick_stairs.hardness = 6;
+val obj as IItemStack = <aether_legacy:holystone>;
+obj.hardness = 4;
 val obj0 as IItemStack = <minecraft:redstone_ore:0>;
 if (isNull(obj0)) print("Block doesn't exist!");
 else obj0.hardness = 1;
