@@ -1,5 +1,5 @@
 {
-  "catalyst": "{id:\"contenttweaker:block_brass\",Count:4,Damage:0s}",
+  "catalyst": "{id:\"contenttweaker:block_brass\",Count:2,Damage:0s}",
   "consumeCatalyst": true,
   "location": "multiblocked:pyro_reactor",
   "traits": {
