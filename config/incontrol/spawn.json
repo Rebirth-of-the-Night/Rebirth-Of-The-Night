@@ -17,7 +17,11 @@
     },
     "result": "default"
  },*/
-
+ {
+    "mob": ["hunterillager:hunter_illager"],
+    "onjoin": true,
+    "healthmultiply": 2.0
+},
 
 /////////////// WORLD INVASION /////////////////
 {

@@ -1675,6 +1675,10 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
             //(Yongurt 0.2 + Pineapple 0.6)(1.05^2)= 0.882
             //2x = 0.9, x = 0.45
 
+// Dungeontactics
+<dungeontactics:toast>.foodValues.hunger = 0;
+<dungeontactics:toast>.foodValues.saturationModifier = 0;
+
 // Copy Paste
 /*
 .foodValues.hunger = ;

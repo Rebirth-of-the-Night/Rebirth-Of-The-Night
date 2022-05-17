@@ -8,7 +8,6 @@ import crafttweaker.data.IData;
 import mods.jei.JEI;
 import mods.ltt.LootTable;
 
-JEI.removeAndHide(<dungeontactics:toast>);
 JEI.removeAndHide(<dungeontactics:cherry_bomb>);
 JEI.removeAndHide(<dungeontactics:brazier>);
 JEI.removeAndHide(<dungeontactics:iron_dust>);
@@ -152,8 +151,6 @@ LootTable.removeGlobalItem("dungeontactics:wither_web");
 // this removes the regular magic scroll recipe, and hides it from JEI. Added back as wands further down
 //recipes.remove(<dungeontactics:magic_scroll>);
 JEI.removeAndHide(<dungeontactics:magic_scroll>);
-
-recipes.remove(<dungeontactics:toast>);
 
 val woodMoulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 recipes.addShaped("potshot",<dungeontactics:potshot>,[
