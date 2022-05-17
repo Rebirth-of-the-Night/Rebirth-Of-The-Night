@@ -13,6 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
+        "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing"
       ],
@@ -28,7 +29,7 @@
       "end": "\u00A7aThe floaty bastards are gone, for now.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eThe air smells a bit  burnt..."
+        "message": "\u00A7eThe air smells a bit  burnt... (YOU WILL BE TP'D TO THE OVERWORLD!)"
       }
     },
     "waves": [

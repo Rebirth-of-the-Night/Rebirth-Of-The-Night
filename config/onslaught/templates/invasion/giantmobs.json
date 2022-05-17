@@ -13,6 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
+        "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing"
       ],
@@ -42,7 +43,7 @@
       "end": "\u00A7aThe massive creatures back off, for the time being.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eThey're coming, and they're huge!"
+        "message": "\u00A7eThey're coming, and they're huge! (YOU WILL BE TP'D TO THE OVERWORLD!)"
       }
     },
     "waves": [

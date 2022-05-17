@@ -13,6 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
+        "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
         "/gamestage silentadd @p worldinvasion",
@@ -33,7 +34,7 @@
       "end": "\u00A72Was it worth it? Desecrating the land to your pleasure, wreaking havoc nonchalantly, just so you could obtain more power. Do you consider yourself a hero? You are a monster.",
       "warn": {
         "ticks": 24000,
-        "message": "\u00A74\u00A7kThey approach, and you will die."
+        "message": "\u00A74\u00A7kThey approach, and you will die. (YOU WILL BE TP'D TO THE OVERWORLD!)"
       }
     },
     "waves": [

@@ -551,6 +551,7 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 
 	if ("5c9db434-4d18-495f-be46-8b39c00b685f" == event.player.uuid) {
 		server.commandManager.executeCommand('playsound customdisc:sussy ambient Nyagi');
+		event.player.sendChat("there are goblins living in my walls");
 	}
 });
 

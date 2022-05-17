@@ -13,6 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
+        "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing"
       ],
@@ -41,7 +42,7 @@
       "end": "\u00A7aThe undead wave slowly tapers off, and all is quiet again.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eYou hear undead moaning in the distance..."
+        "message": "\u00A7eYou hear undead moaning in the distance... (YOU WILL BE TP'D TO THE OVERWORLD!)"
       }
     },
     "waves": [

@@ -13,6 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
+        "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
         "/gamerule doMobLoot false"
@@ -48,7 +49,7 @@
       "end": "\u00A7aThe giants stomp off in fury, they'll be back.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eUnusual seismic activity detected..."
+        "message": "\u00A7eUnusual seismic activity detected... (YOU WILL BE TP'D TO THE OVERWORLD!)"
       }
     },
     "waves": [
