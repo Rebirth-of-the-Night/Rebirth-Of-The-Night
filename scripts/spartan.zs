@@ -277,6 +277,7 @@ recipes.removeByRegex("spartancompat:.*(?<!handle_|pole_)skyroot");
 recipes.removeByRegex("spartancompat:.*holystone");
 recipes.removeByRegex("spartancompat:.*zanite");
 recipes.removeByRegex("spartancompat:.*gravitite");
+recipes.removeByRegex("spartanweaponry:.*diamond");
 
 /* var stoneThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_stone") as IItemStack[];
 var copperThrows = itemUtils.getItemsByRegexRegistryName("spartan*:(throwing_axe|throwing_knife)_copper") as IItemStack[];
@@ -542,9 +543,9 @@ recipes.addShaped(weps[counter],[
 counter += 1;
 
 recipes.addShaped(weps[counter],[
-    [gem[3]],
+    [gem[2]],
     [pole],
-    [gem[3]]
+    [gem[2]]
 ]);//staff 17
 counter += 1;
 
