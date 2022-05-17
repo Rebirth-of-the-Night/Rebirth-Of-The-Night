@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "spartanweaponry:items/rapier_diamond"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [33, 90, 0],
+			"translation": [0, 14.75, -1.25],
+			"scale": [2, 2, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [34.5, -90, 0],
+			"translation": [0, 14.75, -0.5],
+			"scale": [2, 2, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-15, 90, 0],
+			"translation": [1.13, 4.75, 1.13],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-15, -90, 0],
+			"translation": [1.13, 4.75, 1.13],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"gui": {
+			"translation": [3.25, 3, 0],
+			"scale": [1.3, 1.3, 1]
+		},
+		"fixed": {
+			"translation": [3.75, 3.5, 0],
+			"scale": [1.6, 1.6, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "rapier_wood",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}

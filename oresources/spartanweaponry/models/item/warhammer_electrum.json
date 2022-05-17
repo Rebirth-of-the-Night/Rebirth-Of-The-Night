@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "spartanweaponry:items/hammer_electrum"
+		"layer0": "spartanweaponry:items/warhammer_electrum"
 	},
 	"display": {
 		"thirdperson_righthand": {

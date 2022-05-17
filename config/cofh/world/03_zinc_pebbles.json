@@ -30,9 +30,10 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
-					"biomesoplenty:glacier",
-					"iceandfire:glacier",
-					"twilightforest:twilight_glacier"
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
 				]
 			}
 		}
