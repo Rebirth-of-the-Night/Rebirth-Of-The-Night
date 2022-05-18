@@ -360,7 +360,7 @@
           }
         ]
       },
-      /*{
+      {
         "name": "magichood",
         "entries": [
           {
@@ -378,7 +378,7 @@
           }
         ],
         "rolls": 1.0
-      },*/
+      },
       {
         "name": "manuscript",
         "entries": [

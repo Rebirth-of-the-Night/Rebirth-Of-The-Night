@@ -40,10 +40,10 @@ JEI.removeAndHide(<atop:topaz_shovel>);
 JEI.removeAndHide(<atop:topaz_axe>);
 JEI.removeAndHide(<atop:topaz_hoe>);
 
-JEI.removeAndHide(<atop:tanzanite_boots>);
+/* JEI.removeAndHide(<atop:tanzanite_boots>);
 JEI.removeAndHide(<atop:tanzanite_chestplate>);
 JEI.removeAndHide(<atop:tanzanite_leggings>);
-JEI.removeAndHide(<atop:tanzanite_helmet>);
+JEI.removeAndHide(<atop:tanzanite_helmet>); */
 JEI.removeAndHide(<atop:tanzanite_sword>);
 JEI.removeAndHide(<atop:tanzanite_pickaxe>);
 JEI.removeAndHide(<atop:tanzanite_shovel>);
@@ -59,3 +59,24 @@ JEI.removeAndHide(<atop:malachite_pickaxe>);
 JEI.removeAndHide(<atop:malachite_shovel>);
 JEI.removeAndHide(<atop:malachite_axe>);
 JEI.removeAndHide(<atop:malachite_hoe>);
+
+
+// flower armor
+recipes.addShaped("flower_crown", <atop:tanzanite_helmet>, [
+  [<ore:flower>, <ore:flower>, <ore:flower>],
+  [<pyrotech:material:12>, <ore:stickWood>, <pyrotech:material:12>]
+]);
+recipes.addShaped("flower_chestplate", <atop:tanzanite_chestplate>, [
+    [<ore:flower>, null, <ore:flower>],
+    [<pyrotech:material:12>, <ore:stickWood>, <pyrotech:material:12>],
+    [<ore:flower>, <pyrotech:material:12>, <ore:flower>]
+]);
+recipes.addShaped("flower_leggings", <atop:tanzanite_leggings>, [
+    [<ore:flower>, <ore:stickWood>, <ore:flower>],
+    [<pyrotech:material:12>, <ore:flower>, <pyrotech:material:12>],
+    [<ore:flower>, null, <ore:flower>]
+]);
+recipes.addShaped("flower_boots", <atop:tanzanite_boots>, [
+    [<pyrotech:material:12>, <ore:flower>, <pyrotech:material:12>],
+    [<ore:flower>, <ore:stickWood>, <ore:flower>]
+]);

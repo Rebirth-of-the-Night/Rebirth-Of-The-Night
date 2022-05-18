@@ -12,9 +12,9 @@ import crafttweaker.item.IIngredient;
 <contenttweaker:rice_paddy_dummy>.addTooltip(format.white("Rice Paddy"));
 
 // Random Things
-<randomthings:magichood>.addTooltip(format.gold("Soft to the touch with a pleasant smell!"));
-<randomthings:magichood>.addTooltip(format.white("Don't worry..."));
-<randomthings:magichood>.addTooltip(format.white("Everything is going to be okay..."));
+<atop:tanzanite_helmet>.addTooltip(format.gold("Soft to the touch with a pleasant smell!"));
+<atop:tanzanite_helmet>.addTooltip(format.white("Don't worry..."));
+<atop:tanzanite_helmet>.addTooltip(format.white("Everything is going to be okay..."));
 
 // Single item set bonuses
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+10% Attack Speed"));

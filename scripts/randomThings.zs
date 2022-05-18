@@ -262,9 +262,3 @@ recipes.addShaped("spectre_lens",<randomthings:spectrelens>, [
   [<ore:ingotableGem>,<ore:blockGlass>,<ore:ingotableGem>],
   [<randomthings:ingredient:3>,<minecraft:emerald>,<randomthings:ingredient:3>]
 ]);
-
-// magic hood/flower crown
-recipes.addShaped("flower_crown", <randomthings:magichood>, [
-  [<ore:flower>, <ore:flower>, <ore:flower>],
-  [<pyrotech:material:12>, <ore:stickWood>, <pyrotech:material:12>]
-]);
