@@ -28,13 +28,6 @@
     "speedmultiply": 0.75
 },
 
-/////////////// WORLD INVASION /////////////////
-{
-    "gamestage": "worldinvasion",
-    "onjoin": true,
-    "healthmultiply": 1.5
-},
-
   // Zombies
 
   //////////////// DEFAULT //////////////////////////

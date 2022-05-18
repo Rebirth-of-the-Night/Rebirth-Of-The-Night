@@ -906,5 +906,13 @@
 				]
 			}
 		}
+	},
+
+	// Among us
+	{
+		"mob": ["iceandfire:dread_scuttler"],
+		"player": true,
+		"item": "iceandfire:dread_shard",
+		"itemcount": "2"
 	}
 ]

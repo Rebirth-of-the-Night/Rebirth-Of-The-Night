@@ -18,7 +18,6 @@
         "/gamestage silentadd @p invasionongoing",
         "/gamestage silentadd @p worldinvasion",
         "/difficulty hard",
-        "/gamerule doMobSpawning false",
         "/gamerule doFireTick false",
         "/gamerule maxEntityCramming 50"
       ],
@@ -30,7 +29,6 @@
         "/gamestage silentremove @p legendaryForger",
         "/playsound minecraft:ui.toast.challenge_complete ambient @p",
         "/give @p contenttweaker:ancient_cache",
-        "/gamerule doMobSpawning true",
         "/gamerule doFireTick true",
         "/gamerule maxEntityCramming 24"
       ]
