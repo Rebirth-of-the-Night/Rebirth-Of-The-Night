@@ -2894,16 +2894,10 @@
 	"block": ["minecraft:grass", "biomesoplenty:grass:2", "biomesoplenty:grass:3", "biomesoplenty:grass:4", "minecraft:snow", "minecraft:packed_ice", "biomesoplenty:hard_ice", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:sedimentary_stone"],
 	"winter": true,
     "maxcount": {
-        "amount": 2,
+        "amount": 1,
         "perplayer": true
     },
     "result": "allow"
- },
-
- {
-    "mob": "iceandfire:dread_scuttler",
-    "healthmultiply": 0.5,
-    "onjoin": true
  },
 
  {
