@@ -30,7 +30,7 @@
             "ExplodeWhenStuck": {
               "Priority": 100,
               "RangeMax": 6,
-              "ExplosionStrength": 3,
+              "ExplosionStrength": 4,
               "ExplosionDelayTicks": 1,
               "ExplosionCausesFire": false
             }

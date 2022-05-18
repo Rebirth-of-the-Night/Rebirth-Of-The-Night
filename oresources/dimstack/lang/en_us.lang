@@ -15,7 +15,7 @@ commands.ds_regen.inprogress=Command execution still in progress! Use "/ds_regen
 commands.ds_regen.invalid_dim=Dimension doesn't exist!
 
 #Blocks
-tile.dimstack.portal.name=Arcane Barrier
+tile.dimstack.portal.name=Block on the Other Side
 tile.dimstack.portal.tip=§4Not craftable, automatically generated in the world!\\nFalling or jumping into it will teleport you to the other side.\\nHitting this block with a tool or right-clicking it with a block in hand will break / place blocks on the other side.\n§8§oWhich dimensions being connected is defined in this mod's configuration file.
 tile.dimstack.dim_pipe.name=Interdimensional Pipe
 tile.dimstack.dim_pipe.tip=Allows adjacent inventories, fluid tanks and energy devices to be accessed through the portal.\n§asneak-right-click§7 on portal to attach.\n§asneak-right-click§7 with §aempty hand§7 to detach again.

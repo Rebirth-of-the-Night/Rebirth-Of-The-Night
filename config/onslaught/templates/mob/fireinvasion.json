@@ -189,8 +189,6 @@
             "ExplodeWhenStuck": { 
               "RangeMax": 6,
               "ExplosionStrength": 3,
-              "Priority": 100,
-              "ExplosionDelayTicks": 1,
               "ExplosionCausesFire": false  
             }
           }

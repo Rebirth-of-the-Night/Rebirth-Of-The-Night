@@ -15,7 +15,8 @@
         "/weather clear",
         "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule maxEntityCramming 50"
       ],
       "end": [
         "/give @p betterwithmods:material 24 14",
@@ -25,7 +26,8 @@
         "/give @p betterwithmods:wool_pants",
         "/give @p betterwithmods:wool_boots",
         "/xp 2000 @p",
-        "/gamestage silentremove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing",
+        "/gamerule maxEntityCramming 24"
       ],
       "staged": [
         {

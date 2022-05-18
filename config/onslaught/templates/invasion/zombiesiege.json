@@ -15,7 +15,8 @@
         "/weather clear",
         "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule maxEntityCramming 50"
       ],
       "end": [
         "/xp 3000 @p",
@@ -24,7 +25,8 @@
         "/give @p mowziesmobs:glowing_jelly 4",
         "/give @p minecraft:rotten_flesh 64",
         "/gamestage silentremove @p invasionongoing",
-        "/gamestage silentremove @p siegeevent"
+        "/gamestage silentremove @p siegeevent",
+        "/gamerule maxEntityCramming 24"
       ],
       "staged": [
         {

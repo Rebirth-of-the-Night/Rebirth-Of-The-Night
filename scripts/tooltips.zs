@@ -32,7 +32,7 @@ import crafttweaker.item.IIngredient;
 <minecraft:diamond_hoe:*>.addTooltip(format.blue("+10% Attack Speed"));
 <minecraft:diamond_hoe:*>.addTooltip(format.blue("+1 Armor Toughness"));
 <minecraft:diamond_hoe:*>.addTooltip(format.blue("+10% Magic Shielding"));
-var diamondweps = [<spartanweaponry:halberd_diamond>.withTag({display: {Name: "§fDiamond Lucerne"}}),<spartanweaponry:saber_diamond>.withTag({display: {Name: "§fDiamond Unbroken Blade"}}),<spartanweaponry:throwing_knife_diamond>.withTag({display: {Name: "§fDiamond Bo-Shuriken"}})] as IItemStack[];
+var diamondweps = [<spartanweaponry:halberd_diamond:*>,<spartanweaponry:saber_diamond:*>,<spartanweaponry:throwing_knife_diamond:*>] as IItemStack[];
 for w, weapon in diamondweps{
     weapon.addTooltip(format.blue("+10% Attack Speed"));
     weapon.addTooltip(format.blue("+1 Armor Toughness"));
@@ -54,7 +54,7 @@ for w, weapon in diamondweps{
 <atop:ruby_hoe:*>.addTooltip(format.darkRed("+2 Max Health"));
 <atop:ruby_hoe:*>.addTooltip(format.darkRed("+1 Attack Damage"));
 <atop:ruby_hoe:*>.addTooltip(format.darkRed("+1 Armor"));
-var rubyweps = [<spartanweaponry:greatsword_diamond>.withTag({display: {Name: "§fRuby Zhanmajian"}}),<spartanweaponry:mace_diamond>.withTag({display: {Name: "§fRuby Morgenstern"}}),<spartanweaponry:throwing_axe_diamond>.withTag({display: {Name: "§fRuby Trumbash"}})] as IItemStack[];
+var rubyweps = [<spartanweaponry:greatsword_diamond:*>,<spartanweaponry:mace_diamond:*>,<spartanweaponry:throwing_axe_diamond:*>] as IItemStack[];
 for w, weapon in rubyweps{
     weapon.addTooltip(format.darkRed("+2 Max Health"));
     weapon.addTooltip(format.darkRed("+1 Attack Damage"));

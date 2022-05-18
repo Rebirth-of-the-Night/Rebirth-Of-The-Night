@@ -549,10 +549,10 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 		event.player.sendChat("you have to be ready for it");
 	}
 
-	if ("5c9db434-4d18-495f-be46-8b39c00b685f" == event.player.uuid) {
-		server.commandManager.executeCommand(event.player, "playsound customdisc:sussy ambient Nyagi");
+	/*if ("5c9db434-4d18-495f-be46-8b39c00b685f" == event.player.uuid) {
+		server.commandManager.executeCommand(event.player, "playsound customdisc:sussy ambient @p ~ ~ ~");
 		event.player.sendChat("there are goblins living in my walls");
-	}
+	}*/
 });
 
 events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedEvent) {

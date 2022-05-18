@@ -16,7 +16,8 @@
         "/tpp @p 0",
         "/gamerule doFireTick false",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule maxEntityCramming 50"
       ],
       "end": [
         "/xp 600 @p",
@@ -24,7 +25,8 @@
         "/give @p contenttweaker:material_part 24 12",
         "/give @p contenttweaker:condensed_dread_cold",
         "/gamerule doFireTick true",
-        "/gamestage silentremove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing",
+        "/gamerule maxEntityCramming 24"
       ],
       "staged": [
         {

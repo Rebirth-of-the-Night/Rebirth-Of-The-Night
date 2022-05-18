@@ -17,6 +17,10 @@
     ],
     "nbt": {
       "CustomName": "\u00A76The Hirschgeist",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 500 }
+      ],
+      "Health": 500,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -52,6 +56,10 @@
     ],
     "nbt": {
       "CustomName": "\u00A76The Harvester",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 400 }
+      ],
+      "Health": 400,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {

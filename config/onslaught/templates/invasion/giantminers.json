@@ -16,7 +16,8 @@
         "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
-        "/gamerule doMobLoot false"
+        "/gamerule doMobLoot false",
+        "/gamerule maxEntityCramming 50"
       ],
       "end": [
         "/weather rain",
@@ -31,7 +32,8 @@
         "/give @p betterwithmods:wool_boots",
         "/xp 2400 @p",
         "/gamestage silentremove @p invasionongoing",
-        "/gamerule doMobLoot true"
+        "/gamerule doMobLoot true",
+        "/gamerule maxEntityCramming 24"
       ],
       "staged": [
         {

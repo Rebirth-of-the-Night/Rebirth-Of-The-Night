@@ -17,7 +17,9 @@
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
         "/gamestage silentadd @p worldinvasion",
-        "/difficulty hard"
+        "/difficulty hard",
+        "/gamerule doMobSpawning false",
+        "/gamerule maxEntityCramming 50"
       ],
       "end": [
         "/xp 8000 @p",
@@ -25,7 +27,9 @@
         "/gamestage silentremove @p worldinvasion",
         "/gamestage silentremove @p legendaryForger",
         "/playsound minecraft:ui.toast.challenge_complete ambient @p",
-        "/give @p contenttweaker:ancient_cache"
+        "/give @p contenttweaker:ancient_cache",
+        "/gamerule doMobSpawning true",
+        "/gamerule maxEntityCramming 24"
       ]
     },
     "name": "Bandit Army",
@@ -1876,6 +1880,123 @@
                   "rangeXZ": [
                     16,
                     16
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 39600, 39900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "fireghast",
+                "count": [ 16 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    16
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 41400, 41700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.hirschgeist",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 43200, 43500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.hirschgeist",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireskel",
+                "count": [ 14, 16 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
                   ],
                   "rangeY": 4,
                   "stepRadius": 2,

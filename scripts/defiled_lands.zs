@@ -35,6 +35,9 @@ JEI.removeAndHide(<defiledlands:essence_mourner>);
 JEI.removeAndHide(<defiledlands:remorseful_gem>);
 JEI.hideCategory("dldefilement");
 
+recipes.remove(<defiledlands:pellet_ravaging>);
+recipes.addShapeless("ravaging_pellet", <defiledlands:pellet_ravaging>, [<defiledlands:pellet_umbrium>,<defiledlands:essence_destroyer>]);
+
 recipes.remove(<defiledlands:healing_pad>);
 recipes.addShaped("healing_pad",<defiledlands:healing_pad>,[
     [<dungeontactics:flower_sanguine>,<biomesoplenty:gem:1>,<dungeontactics:flower_sanguine>],
@@ -121,9 +124,7 @@ recipes.addShaped(<defiledlands:umbra_blaster>,[
 ]);
 
 recipes.remove(<defiledlands:pellet_umbrium>);
-Casting.addRecipe(<defiledlands:pellet_umbrium>*16, <liquid:soulforged_steel>*72, <foundry:mold:21>, <ore:gemZanite>);
-
-recipes.removeByRecipeName("defiledlands:misc/pellet_ravaging");
+Casting.addRecipe(<defiledlands:pellet_umbrium>*8, <liquid:soulforged_steel>*72, <foundry:mold:21>, <ore:gemZanite>);
 
 recipes.remove(<defiledlands:idol_sorrow>);
 recipes.addShapeless("idol_sorrow",<defiledlands:idol_sorrow>,

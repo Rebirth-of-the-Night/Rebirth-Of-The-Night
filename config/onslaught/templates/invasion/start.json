@@ -12,13 +12,15 @@
         "/weather rain",
         "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
-        "/gamestage silentadd @p invasionongoing"
+        "/gamestage silentadd @p invasionongoing",
+        "/gamerule maxEntityCramming 50"
       ],
       "end": [
         "/weather clear",
         "/xp 100 @p",
         "/give @p betterwithmods:material 8 31",
-        "/gamestage silentremove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing",
+        "/gamerule maxEntityCramming 24"
       ],
       "staged": [
         {

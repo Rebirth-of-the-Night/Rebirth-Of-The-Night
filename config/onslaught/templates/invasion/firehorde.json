@@ -16,7 +16,8 @@
         "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
-        "/gamerule doFireTick false"
+        "/gamerule doFireTick false",
+        "/gamerule maxEntityCramming 50"
       ],
       "end": [
         "/weather rain",
@@ -24,7 +25,8 @@
         "/gamerule doFireTick true",
         "/give @p betterwithmods:urn 8 8",
         "/give @p betterwithmods:material 16 17",
-        "/gamestage silentremove @p invasionongoing"
+        "/gamestage silentremove @p invasionongoing",
+        "/gamerule maxEntityCramming 24"
       ],
       "staged": [
         {
