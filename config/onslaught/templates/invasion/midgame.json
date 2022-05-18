@@ -12,16 +12,18 @@
     },
     "commands": {
       "start": [
-        "/weather clear",
+        "/weather thunder",
         "/tpp @p 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
         "/gamestage silentadd @p worldinvasion",
         "/difficulty hard",
         "/gamerule doMobSpawning false",
+        "/gamerule doFireTick false",
         "/gamerule maxEntityCramming 50"
       ],
       "end": [
+        "/weather clear",
         "/xp 8000 @p",
         "/gamestage silentremove @p invasionongoing",
         "/gamestage silentremove @p worldinvasion",
@@ -29,6 +31,7 @@
         "/playsound minecraft:ui.toast.challenge_complete ambient @p",
         "/give @p contenttweaker:ancient_cache",
         "/gamerule doMobSpawning true",
+        "/gamerule doFireTick true",
         "/gamerule maxEntityCramming 24"
       ]
     },
@@ -2001,6 +2004,924 @@
                   "rangeY": 4,
                   "stepRadius": 2,
                   "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 45000, 45300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.frost",
+                "count": [ 10, 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.bat",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.ptera",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 46800, 47100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.bat",
+                "count": [ 22, 24 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.ptera",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 48600, 48900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.frost",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.bat",
+                "count": [ 12, 16 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.ptera",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.vespa",
+                "count": [ 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 50400, 50700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.ptera",
+                "count": [ 20, 24 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 52200, 52500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.ptera",
+                "count": [ 14, 16 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.vespa",
+                "count": [ 4 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 54000, 54300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.ptera",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.skydrake",
+                "count": [ 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.frost",
+                "count": [ 10, 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 55800, 56100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.skydrake",
+                "count": [ 10 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    16,
+                    32
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 57600, 57900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.ptera",
+                "count": [ 18, 20 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.bat",
+                "count": [ 10, 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 59400, 59700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.ptera",
+                "count": [ 20, 24 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 61200, 61500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.vespa",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.bat",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 63000, 63300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.vespa",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.bat",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.ptera",
+                "count": [ 10, 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.frost",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.skydrake",
+                "count": [ 5 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 64800, 65100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "darkskies.vespa",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.bat",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    15
+                  ],
+                  "rangeXZ": [
+                    8,
+                    16
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.harpy",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.ptera",
+                "count": [ 10, 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.frost",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "darkskies.skydrake",
+                "count": [ 6 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 8,
+                  "stepRadius": 4,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 64800, 65100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.quazar",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 66600, 66900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.quazar",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 68400, 68700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.valkqueen",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 70200, 70500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.valkqueen",
+                "count": [ 2 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 4,
+                  "sampleDistance": 2
                 }
               }
             ]

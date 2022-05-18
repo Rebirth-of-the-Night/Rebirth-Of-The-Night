@@ -194,7 +194,7 @@ qrune.maxStackSize = 1;
 
 # recipes for quark runes
 var runes = metaArray("quark:rune", 0, 15) as IItemStack[];
-var dyes = concatOD(["ore:dye"], colors, [""]) as IOreDictEntry[];
+var dyes = concatOD(["dye"], colors, [""]) as IOreDictEntry[];
 
 for i in 0 to runes.length {
 	RecipeBuilder.get("mage")
