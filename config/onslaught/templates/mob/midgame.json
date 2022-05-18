@@ -13,6 +13,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -49,6 +55,12 @@
       },
       {
         "id": "potioncore:magicfocus",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

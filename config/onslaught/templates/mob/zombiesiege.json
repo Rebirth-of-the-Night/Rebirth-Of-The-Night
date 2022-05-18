@@ -7,6 +7,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
       
       
@@ -41,6 +47,12 @@
   "zombiesiege.miner": {
     "id": "minecraft:zombie",
     "effects":[
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Zombie Miner",
@@ -77,7 +89,12 @@
     "id": "minecraft:zombie",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {

@@ -13,7 +13,7 @@
     "id": "primitivemobs:skeleton_warrior",
     "effects":[
       {
-        "id": "minecraft:glowing",
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -57,7 +57,12 @@
   "zed": {
     "id": "minecraft:zombie",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -74,6 +79,12 @@
     "id": "minecraft:zombie",
     "effects":[
       
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -99,6 +110,12 @@
     "id": "minecraft:zombie",
     "effects":[
       
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -115,6 +132,12 @@
     "id": "minecraft:zombie",
     "effects":[
       
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -144,7 +167,12 @@
   "zed.bomber": {
     "id": "minecraft:zombie",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -175,7 +203,12 @@
     "id": "minecraft:zombie",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Stalker",
@@ -204,6 +237,12 @@
       },
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -255,6 +294,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
       
     ],
@@ -289,6 +334,12 @@
       },
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -330,6 +381,12 @@
     "effects":[
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

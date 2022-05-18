@@ -13,8 +13,13 @@
         "duration": 9999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
-      
       
     ],
     "nbt": {
@@ -39,7 +44,12 @@
   "worm": {
     "id": "mod_lavacow:parasite",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Parasite",
@@ -63,6 +73,12 @@
         "id": "minecraft:slowness",
         "duration": 9999,
         "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
         "showParticles": false
       }
       
@@ -95,6 +111,12 @@
         "id": "minecraft:slowness",
         "duration": 9999,
         "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
         "showParticles": false
       }
       
@@ -131,6 +153,12 @@
       },
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

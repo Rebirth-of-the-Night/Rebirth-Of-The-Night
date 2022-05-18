@@ -2,7 +2,12 @@
   "giantminer": {
     "id": "twilightforest:giant_miner",
     "effects": [
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
       {
         "id": "minecraft:jump_boost",
         "duration": 50000,
@@ -39,7 +44,12 @@
   "giantbomber": {
     "id": "twilightforest:giant_miner",
     "effects": [
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
       {
         "id": "minecraft:jump_boost",
         "duration": 50000,
@@ -81,7 +91,12 @@
   "armoredgiant": {
     "id": "twilightforest:armored_giant",
     "effects": [
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
       {
         "id": "minecraft:jump_boost",
         "duration": 50000,
@@ -115,6 +130,12 @@
   "giantboss": {
     "id": "twilightforest:armored_giant",
     "effects": [
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
       {
         "id": "minecraft:glowing",
         "duration": 999999,

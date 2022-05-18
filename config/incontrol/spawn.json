@@ -22,6 +22,11 @@
     "onjoin": true,
     "healthmultiply": 2.0
 },
+{
+    "mob": ["betteranimalsplus:boar"],
+    "onjoin": true,
+    "speedmultiply": 0.75
+},
 
 /////////////// WORLD INVASION /////////////////
 {
@@ -2883,7 +2888,6 @@
     "dimension": 0,
     "mob": "iceandfire:dread_scuttler",
     "gamestage": "killedSunSpirit",
-    "healthmultiply": 0.5,
 	"random": 0.80,
 	"maxlight": 9,
 	"minheight": 65,
@@ -2895,6 +2899,13 @@
     },
     "result": "allow"
  },
+
+ {
+    "mob": "iceandfire:dread_scuttler",
+    "healthmultiply": 0.5,
+    "onjoin": true
+ },
+
  {
     "dimension": 0,
     "mob": "iceandfire:dread_scuttler",

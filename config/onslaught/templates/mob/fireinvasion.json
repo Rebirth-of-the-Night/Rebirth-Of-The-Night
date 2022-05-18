@@ -3,7 +3,12 @@
     "id": "specialmobs:fireskeleton",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Skeleton",
@@ -17,6 +22,12 @@
     "effects":[
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -61,7 +72,12 @@
     "id": "specialmobs:firezombie",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Zombie",
@@ -74,7 +90,12 @@
     "id": "minecraft:ghast",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Ghastly Musketears",
@@ -87,7 +108,12 @@
   "firezombie.farmer": {
     "id": "specialmobs:firezombie",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -110,7 +136,12 @@
     "id": "specialmobs:firezombie",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "ArmorItems": [
@@ -129,7 +160,12 @@
     "id": "specialmobs:firezombie",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Invading Fire Miner",
@@ -167,6 +203,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
       
     ],
@@ -199,7 +241,12 @@
   "firezombie.stalker": {
     "id": "specialmobs:firezombie",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -234,6 +281,12 @@
       },
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -274,7 +327,12 @@
     "id": "netherex:ember",
     "effects":[
       
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Ember",
@@ -298,6 +356,12 @@
       },
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

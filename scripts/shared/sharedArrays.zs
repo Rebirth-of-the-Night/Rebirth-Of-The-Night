@@ -10,7 +10,7 @@ static tools as string[] = ["pickaxe", "shovel", "axe", "hoe", "sword"];
 
 static armor as string[] = ["helmet", "chestplate", "leggings", "boots"];
 
-static colors as string[] = ["White", "Orange", "Magenta", "LightBlue", "Yellow", "Lime", "pink", "Gray", "LightGray", "Cyan", "Purple", "Blue", "Brown", "Green", "Red", "Black"];
+static colors as string[] = ["White", "Orange", "Magenta", "LightBlue", "Yellow", "Lime", "Pink", "Gray", "LightGray", "Cyan", "Purple", "Blue", "Brown", "Green", "Red", "Black"];
 
 static oreDyes as string[] = concatString(["ore:dye"], colors, [""]);
 

@@ -61,22 +61,27 @@ JEI.removeAndHide(<atop:malachite_axe>);
 JEI.removeAndHide(<atop:malachite_hoe>);
 
 
+recipes.remove(<atop:tanzanite_helmet>);
+recipes.remove(<atop:tanzanite_chestplate>);
+recipes.remove(<atop:tanzanite_leggings>);
+recipes.remove(<atop:tanzanite_boots>);
+
 // flower armor
-recipes.addShaped("flower_crown", <atop:tanzanite_helmet>, [
+recipes.addShaped("flower_crown", <atop:tanzanite_helmet>.withTag({ench: [{lvl: 1 as short, id: 70}]}), [
   [<ore:flower>, <ore:flower>, <ore:flower>],
   [<pyrotech:material:12>, <ore:stickWood>, <pyrotech:material:12>]
 ]);
-recipes.addShaped("flower_chestplate", <atop:tanzanite_chestplate>, [
+recipes.addShaped("flower_chestplate", <atop:tanzanite_chestplate>.withTag({ench: [{lvl: 1 as short, id: 70}]}), [
     [<ore:flower>, null, <ore:flower>],
     [<pyrotech:material:12>, <ore:stickWood>, <pyrotech:material:12>],
     [<ore:flower>, <pyrotech:material:12>, <ore:flower>]
 ]);
-recipes.addShaped("flower_leggings", <atop:tanzanite_leggings>, [
+recipes.addShaped("flower_leggings", <atop:tanzanite_leggings>.withTag({ench: [{lvl: 1 as short, id: 70}]}), [
     [<ore:flower>, <ore:stickWood>, <ore:flower>],
     [<pyrotech:material:12>, <ore:flower>, <pyrotech:material:12>],
     [<ore:flower>, null, <ore:flower>]
 ]);
-recipes.addShaped("flower_boots", <atop:tanzanite_boots>, [
+recipes.addShaped("flower_boots", <atop:tanzanite_boots>.withTag({ench: [{lvl: 1 as short, id: 70}]}), [
     [<pyrotech:material:12>, <ore:flower>, <pyrotech:material:12>],
     [<ore:flower>, <ore:stickWood>, <ore:flower>]
 ]);

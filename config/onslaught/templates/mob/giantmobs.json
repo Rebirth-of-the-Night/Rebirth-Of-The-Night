@@ -7,6 +7,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
       
     ],
@@ -40,7 +46,12 @@
   "giantmobs.miner": {
     "id": "specialmobs:giantzombie",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Zombie Miner",
@@ -76,7 +87,12 @@
   "giantmobs.bomber": {
     "id": "specialmobs:giantzombie",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Zombie Bomberman",
@@ -113,7 +129,12 @@
   "giantmobs.skeleton": {
     "id": "specialmobs:giantskeleton",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Longbow Skeleton",
@@ -134,7 +155,12 @@
   "giantmobs.spitfireskeleton": {
     "id": "specialmobs:spitfireskeleton",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Spitfire Skeleton",
@@ -155,7 +181,12 @@
   "giantmobs.spider": {
     "id": "specialmobs:giantspider",
     "effects":[
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Giant Spider",
@@ -185,6 +216,12 @@
       },
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

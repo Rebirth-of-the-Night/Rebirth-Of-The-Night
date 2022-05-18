@@ -249,7 +249,17 @@ recipes.addShapeless(<randomthings:ingredient:5> * 4, [<minecraft:glowstone_dust
 
 //dyeing machine / Prismatic Infuser
 recipes.remove(<randomthings:dyeingmachine>);
-recipes.addShaped(<randomthings:dyeingmachine>, [[<arcanearchives:shaped_quartz>, <quark:rune:16>, <arcanearchives:shaped_quartz>],[<quark:rune:16>, <arcanearchives:storage_shaped_quartz>, <quark:rune:16>], [<arcanearchives:shaped_quartz>, <quark:rune:16>, <arcanearchives:shaped_quartz>]]);
+/* recipes.addShaped(<randomthings:dyeingmachine>, [
+  [<arcanearchives:shaped_quartz>, <quark:rune:16>, <arcanearchives:shaped_quartz>],
+  [<quark:rune:16>, <arcanearchives:storage_shaped_quartz>, <quark:rune:16>], 
+  [<arcanearchives:shaped_quartz>, <quark:rune:16>, <arcanearchives:shaped_quartz>]
+]); */
+
+recipes.addShaped(<randomthings:dyeingmachine>, [
+  [<ore:runeNoRainbow>, <quark:rune:16>, <ore:runeNoRainbow>],
+  [<quark:rune:16>, <minecraft:anvil>, <quark:rune:16>], 
+  [<ore:runeNoRainbow>, <quark:rune:16>, <ore:runeNoRainbow>]
+]);
 
 //redstone activator
 recipes.remove(<randomthings:redstoneactivator>);

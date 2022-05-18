@@ -7,6 +7,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -48,6 +54,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -66,6 +78,12 @@
       {
         "id": "rats:plague",
         "duration": 50000,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
         "amplifier": 0,
         "showParticles": false
       }
@@ -102,7 +120,12 @@
   "pandemic.plaguebeast": {
     "id": "rats:plague_beast",
     "effects": [
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
       "CustomName": "\u00A76Plague Beast",
@@ -124,7 +147,12 @@
   "pandemic.dreadswine": {
     "id": "mod_lavacow:dreadswine",
     "effects": [
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
       {
         "id": "rats:plague",
         "duration": 50000,
@@ -153,6 +181,12 @@
     "effects": [
       {
         "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

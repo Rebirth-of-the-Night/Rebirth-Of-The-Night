@@ -90,6 +90,8 @@ recipes.addShaped("iDidItImACTUALLYFiberNow", <quark:rope>*6,[
 	[durableFiber, durableFiber, durableFiber]
 ]);
 
+recipes.addShapeless("tome_to_enchanted_paper", <wards:enchanted_paper>*9,[<quark:ancient_tome:*>]);
+
 recipes.remove(<quark:bark:*>);
 val logs as IItemStack[] = [<minecraft:log:0>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2:0>, <minecraft:log2:1>] as IItemStack[];
 
@@ -181,7 +183,8 @@ recipes.addShaped("quark_randomizer", <quark:redstone_randomizer>, [
 val qrune = <quark:rune:*>;
 
 // Because so many people dunno its use.
-qrune.addTooltip("Colors enchanted items in an anvil.");
+# qrune.addTooltip("Colors enchanted items in an anvil.");
+qrune.addTooltip("Currently bugged, sorry :(");
 
 # remove all original quark rune recipes
 recipes.remove(qrune);

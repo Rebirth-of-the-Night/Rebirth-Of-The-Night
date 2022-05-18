@@ -269,7 +269,8 @@ val PowerHammerRecipeNames1 = [
     "1log_to_pulp", 
     "1kenaf_to_pulp",
     "1refractorylump_ruby", 
-    "1refractorylump_sapphire"
+    "1refractorylump_sapphire",
+    "1rune_to_vis"
 ] as string[];
 
 val PowerHammerItemOutputs1 = [
@@ -309,7 +310,8 @@ val PowerHammerItemOutputs1 = [
     <pyrotech:material:25>*4, 
     <pyrotech:material:8>*4, 
     <pyrotech:material:8>*4,
-    <contenttweaker:material_part:13>
+    <contenttweaker:material_part:13>,
+    <contenttweaker:vis_speck>
 ]  as IItemStack[];
 
 val PowerHammerItemInputs1 = [
@@ -349,7 +351,8 @@ val PowerHammerItemInputs1 = [
     <ore:cropKenaf>, 
     <ore:gemRuby>, 
     <ore:gemSapphire>,
-    <ore:ingotElectrum>
+    <ore:ingotElectrum>,
+    <ore:runeNoRainbow>
 ] as IOreDictEntry[];
 
 val PowerHammerNumModifier1 = [
@@ -389,7 +392,8 @@ val PowerHammerNumModifier1 = [
     8,
     64, 
     64,
-    32
+    32,
+    4
 ] as int[];
 
 for i, input in PowerHammerItemInputs {
