@@ -130,7 +130,7 @@ JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in 
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
 JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the center island after killing the Ender Dragon.");
 JEI.addDescription(<ore:dustCopper>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustZinc>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustZinc>,"Can be extracted from zinc pebbles found in frozen biomes or from marmatite found everywhere near wonder geodes. Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustTin>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustBronze>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustIron>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");

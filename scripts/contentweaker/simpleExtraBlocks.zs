@@ -129,6 +129,13 @@ salt_pan.setBlockSoundType(<soundtype:ground>);
 salt_pan.setToolClass("shovel");
 salt_pan.register();
 
+// Marmatite
+var marmatite = VanillaFactory.createBlock("marmatite", <blockmaterial:Rock>);
+marmatite.setCreativeTab(<creativetab:rotn_blocks>);
+marmatite.setBlockSoundType(<soundtype:stone>);
+marmatite.setToolLevel(1);
+marmatite.register();
+
 // Codex junk
 var codex_junk = VanillaFactory.createBlock("codex_junk", <blockmaterial:Grass>);
 codex_junk.axisAlignedBB = AxisAlignedBB.create(

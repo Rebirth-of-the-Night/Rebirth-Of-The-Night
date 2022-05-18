@@ -10,10 +10,19 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "cluster",
-				"block": "rotn_blocks:wonder_geode",
+				"block": [
+					{
+						"name": "rotn_blocks:wonder_geode",
+						"weight": 6
+					},
+					{
+						"name": "contenttweaker:marmatite",
+						"weight": 1
+					}
+				],
 				"cluster-size": 7
 				},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"material": [
 					"undergroundbiomes:sedimentary_stone",
 					"undergroundbiomes:metamorphic_stone",
@@ -24,7 +33,7 @@
 			"retrogen": "true"
 		},
 		"ancient_slag": {
-			"distribution": "gaussian",
+			"distribution": "cave",
 			"generator": {
 				"type": "geode",
 				"block": "contenttweaker:raw_wrought_iron",
@@ -41,9 +50,8 @@
 					"undergroundbiomes:metamorphic_stone",
 					"undergroundbiomes:igneous_stone"
 				],
-			"center-height": 50,
-			"spread": 25,
-			"chunk-chance": 11,
+			"ground-level": 60,
+			"chunk-chance": 9,
 			"retrogen": "true"
 		},
 		"arid_desert_halite": {
@@ -62,6 +70,41 @@
 			"biome": {
 				"restriction": "whitelist",
 				"value": "biometweaker:atacamian_desert"
+			}
+		},
+		"zinc_pebbles": {
+			"distribution": "cave",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "pyrotech:rock",
+						"properties": {
+							"variant" : "rock_andesite"
+						}
+					}
+				],
+				"surface": [
+					"undergroundbiomes:sedimentary_stone",
+					"undergroundbiomes:metamorphic_stone",
+					"undergroundbiomes:igneous_stone"
+				],
+				"material": "air",
+				"cluster-size": 64,
+				"see-sky": false
+				},
+			"cluster-count": 48,
+			"ground-level": 64,
+			"chunk-chance": 8,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+				]
 			}
 		}
 	}
