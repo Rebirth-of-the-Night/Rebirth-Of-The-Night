@@ -42,7 +42,6 @@ potionChestMain.addItemEntry(<scalinghealth:healingitem:1>, 4, 1, [{"count": {"m
 // Mimics fix
 val mimic = LootTweaker.getTable("aether_legacy:entities/chest_mimic");
 val mimicMain = mimic.getPool("chest");
-mimicMain.removeEntry("minecraft:chest");
-mimicMain.addItemEntry(<aether_legacy:ambrosium_torch>, 10, 1, [{"count": {"min": 8.0, "max": 16.0}, "function": "minecraft:set_count"}], []);
+mimicMain.addItemEntry(<aether_legacy:ambrosium_torch>, 10, 1, [{"count": {"min": 8.0, "max": 12.0}, "function": "minecraft:set_count"}], []);
 mimicMain.addItemEntry(<aether_legacy:ambrosium_shard>, 8, 1, [{"count": {"min": 4.0, "max": 6.0}, "function": "minecraft:set_count"}], []);
-mimicMain.addItemEntry(<aether_legacy:zanite>, 4, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+mimicMain.addItemEntry(<aether_legacy:zanite_gemstone>, 6, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
