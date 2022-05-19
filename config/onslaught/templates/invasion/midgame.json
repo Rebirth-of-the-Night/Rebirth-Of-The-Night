@@ -23,7 +23,7 @@
       ],
       "end": [
         "/weather clear",
-        "/xp 8000 @p",
+        "/xp 10000 @p",
         "/gamestage silentremove @p invasionongoing",
         "/gamestage silentremove @p worldinvasion",
         "/gamestage silentremove @p legendaryForger",

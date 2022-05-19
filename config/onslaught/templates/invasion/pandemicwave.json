@@ -19,7 +19,7 @@
         "/gamerule maxEntityCramming 50"
       ],
       "end": [
-        "/xp 800 @p",
+        "/xp 2000 @p",
         "/gamestage silentremove @p invasionongoing",
         "/give @p rats:plague_doctorate",
         "/give @p rats:plague_stew 12",

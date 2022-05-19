@@ -30,7 +30,7 @@
         "/give @p betterwithmods:wool_chest",
         "/give @p betterwithmods:wool_pants",
         "/give @p betterwithmods:wool_boots",
-        "/xp 2400 @p",
+        "/xp 5000 @p",
         "/gamestage silentremove @p invasionongoing",
         "/gamerule doMobLoot true",
         "/gamerule maxEntityCramming 24"

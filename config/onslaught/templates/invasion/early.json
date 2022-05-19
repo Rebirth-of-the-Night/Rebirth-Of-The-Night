@@ -19,7 +19,7 @@
         "/gamerule maxEntityCramming 50"
       ],
       "end": [
-        "/xp 200 @p",
+        "/xp 400 @p",
         "/give @p betterwithmods:material 12 31",
         "/give @p pyrotech:material 32 4",
         "/gamestage silentremove @p invasionongoing",
