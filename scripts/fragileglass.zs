@@ -1,4 +1,4 @@
-import crafttweaker.item.IItemStack;
+/*import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
@@ -15,4 +15,4 @@ recipes.addShaped("fragile_glass", <fragileglassft:fragileglass> * 8, [
     [glass, glass, glass],
     [glass, weakness, glass],
     [glass, glass, glass]
-]);
+]);*/

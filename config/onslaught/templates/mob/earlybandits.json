@@ -3,7 +3,7 @@
     "id": "toroquest:toroquest_sentry",
     "effects":[
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

@@ -3,7 +3,7 @@
     "id": "twilightforest:giant_miner",
     "effects": [
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -45,7 +45,7 @@
     "id": "twilightforest:giant_miner",
     "effects": [
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -92,7 +92,7 @@
     "id": "twilightforest:armored_giant",
     "effects": [
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -131,7 +131,7 @@
     "id": "twilightforest:armored_giant",
     "effects": [
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

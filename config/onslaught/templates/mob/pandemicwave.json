@@ -9,7 +9,7 @@
         "showParticles": false
       },
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -56,7 +56,7 @@
         "showParticles": false
       },
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -82,7 +82,7 @@
         "showParticles": false
       },
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -121,7 +121,7 @@
     "id": "rats:plague_beast",
     "effects": [
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -148,7 +148,7 @@
     "id": "mod_lavacow:dreadswine",
     "effects": [
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -186,7 +186,7 @@
         "showParticles": false
       },
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

@@ -9,7 +9,7 @@
         "showParticles": false
       },
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -47,7 +47,7 @@
     "id": "specialmobs:giantzombie",
     "effects":[
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -88,7 +88,7 @@
     "id": "specialmobs:giantzombie",
     "effects":[
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -130,7 +130,7 @@
     "id": "specialmobs:giantskeleton",
     "effects":[
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -156,7 +156,7 @@
     "id": "specialmobs:spitfireskeleton",
     "effects":[
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -182,7 +182,7 @@
     "id": "specialmobs:giantspider",
     "effects":[
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
@@ -221,7 +221,7 @@
         "showParticles": false
       },
       {
-        "id": "cyclic:potion.swimspeed",
+        "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false

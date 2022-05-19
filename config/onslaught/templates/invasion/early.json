@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["slayersjournal"]
       },
-      "weight": 3.24,
+      "weight": 3,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]

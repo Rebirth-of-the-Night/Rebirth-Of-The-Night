@@ -18,6 +18,13 @@
     "result": "default"
  },*/
  {
+    "dimension": 4,
+    "block": ["aether_legacy:aercloud"],
+    "onjoin": true,
+    "result": "deny"
+
+ },
+ {
     "mob": ["hunterillager:hunter_illager"],
     "onjoin": true,
     "healthmultiply": 2.0
@@ -2737,7 +2744,7 @@
 	"biome": ["Jungle", "JungleHills", "JungleEdge", "Jungle M", "JungleEdge M", "Lush Swamp", "Tropical Rainforest", "Tropical Island", "Mangrove", "Oasis", "Desert", "DesertHills", "Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Beach", "Ocean", "Deep Ocean", "Stone Beach", "Cold Beach", "Gravel Beach", "White Beach", "Volcanic Island", "Flower Island", "Xeric Shrubland", "Coral Reef", "Kelp Forest"],  
     "gamestage": "killedHarvester",
 	"minheight": 60,
-	"block": ["minecraft:grass", "minecraft:sand", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
+	"block": ["minecraft:grass", "minecraft:sand", "minecraft:hardened_clay", "minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "biomesoplenty:grass", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aether_leaves"],
 	"random": 0.05,
 	"seesky": true,
 	"maxlight": 11,
@@ -2757,7 +2764,7 @@
     "dimension": 4,
     "mob": "mod_lavacow:ptera",
 	"minheight": 60,
-	"block": ["minecraft:grass", "minecraft:sand", "minecraft:leaves", "minecraft:hardened_clay", "minecraft:sandstone", "biomesoplenty:grass", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aercloud", "aether_legacy:aether_leaves"],
+	"block": ["minecraft:grass", "minecraft:sand", "minecraft:leaves", "minecraft:hardened_clay", "minecraft:sandstone", "biomesoplenty:grass", "biomesoplenty:white_sand", "biomesoplenty:white_sandstone", "biomesoplenty:dried_sand", "biomesoplenty:leaves_0", "biomesoplenty:leaves_1", "biomesoplenty:leaves_2", "biomesoplenty:leaves_3", "biomesoplenty:leaves_4", "biomesoplenty:leaves_5", "biomesoplenty:leaves_6", "dynamictrees:leaves0", "dynamictrees:leaves1", "dynamictreesbop:leaves0", "dynamictreesbop:leaves1", "dynamictreesbop:leaves2", "dynamictreesbop:leaves3", "dynamictreesbop:leaves4", "dynamictreesbop:leaves5", "dynamictreesbop:leaves6", "dynamictreesbop:leaves7", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass", "aether_legacy:holystone", "aether_legacy:mossy_holystone", "aether_legacy:aether_leaves"],
 	"random": 0.30,
 	"seesky": true,
     "maxcount": {
@@ -2957,6 +2964,21 @@
     },
     "result": "allow"
  },*/
+ {
+    "dimension": 4,
+    "mob": "iceandfire:dread_thrall",
+    "gamestage": "killedSunSpirit",
+	"seesky": true,
+	"random": 0.70,
+	"maxlight": 7,
+	"block": ["netherex:frostburn_ice"],
+	"winter": true,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
  {
     "dimension": 0,
     "mob": "iceandfire:dread_thrall",

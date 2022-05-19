@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["legendaryForger"]
       },
-      "weight": 10.4976,
+      "weight": 10,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]

@@ -1667,7 +1667,7 @@ tannin.colorize= true;
 tannin.vaporize= true;
 tannin.register();
 
-var lifeblood = VanillaFactory.createFluid("lifeblood", Color.fromHex("1b1e23"));
+var lifeblood = VanillaFactory.createFluid("lifeblood", Color.fromHex("1ab5eb"));
 lifeblood.density = 1500;
 lifeblood.gaseous = true;
 lifeblood.luminosity = 15;

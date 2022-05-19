@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["enteredEnd"]
       },
-      "weight": 41.9904,
+      "weight": 42,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]

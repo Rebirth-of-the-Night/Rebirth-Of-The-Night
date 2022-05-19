@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["disabled"]
       },
-      "weight": 20.9952,
+      "weight": 21,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]

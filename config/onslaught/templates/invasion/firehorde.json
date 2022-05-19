@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["enteredNether"]
       },
-      "weight": 5.832,
+      "weight": 6,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
