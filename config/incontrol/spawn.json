@@ -2857,6 +2857,26 @@
  },
 
  {
+    "dimension": 4,
+    "mob": "specialmobs:joltblaze",
+    "gamestage": "killedSunSpirit",
+    "random": 0.30,
+	"maxlight": 7,
+    "minlight": 0,
+	"seesky": true,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "allow"
+ },
+ {
+    "dimension": 4,
+    "mob": "specialmobs:joltblaze",
+    "result": "deny"
+ },
+
+ /*{
     "dimension": 0,
     "mob": "iceandfire:dread_beast",
     "gamestage": "killedSunSpirit",
@@ -2870,14 +2890,14 @@
         "perplayer": true
     },
     "result": "allow"
- },
+ }, */
  {
     "dimension": 0,
     "mob": "iceandfire:dread_beast",
     "result": "deny"
  },
 
- {
+ /*{
     "dimension": 0,
     "mob": "iceandfire:dread_scuttler",
     "gamestage": "killedSunSpirit",
@@ -2891,7 +2911,7 @@
         "perplayer": true
     },
     "result": "allow"
- },
+ },*/
 
  {
     "dimension": 0,
@@ -2899,7 +2919,7 @@
     "result": "deny"
  },
 
- {
+ /*{
     "dimension": 0,
     "mob": "iceandfire:dread_ghoul",
     "gamestage": "killedSunSpirit",
@@ -2914,14 +2934,14 @@
         "perplayer": true
     },
     "result": "allow"
- },
+ },*/
  {
     "dimension": 0,
     "mob": "iceandfire:dread_ghoul",
     "result": "deny"
  },
 
- {
+ /*{
     "dimension": 0,
     "mob": "iceandfire:dread_thrall",
     "gamestage": "killedSunSpirit",
@@ -2936,14 +2956,14 @@
         "perplayer": true
     },
     "result": "allow"
- },
+ },*/
  {
     "dimension": 0,
     "mob": "iceandfire:dread_thrall",
     "result": "deny"
  },
 
- {
+ /*{
     "dimension": 0,
     "mob": "iceandfire:dread_lich",
     "gamestage": "killedSunSpirit",
@@ -2960,14 +2980,14 @@
     },
     "result": "allow",
 	"potion": "extraalchemy:effect.pacifism,1000000,1"
- },
+ },*/
  {
     "dimension": 0,
     "mob": "iceandfire:dread_lich",
     "result": "deny"
  },
 
- {
+ /*{
     "dimension": 0,
     "mob": "iceandfire:dread_knight",
     "gamestage": "killedSunSpirit",
@@ -2983,7 +3003,7 @@
         "perplayer": true
     },
     "result": "allow"
- },
+ },*/
  {
     "dimension": 0,
     "mob": "iceandfire:dread_knight",

@@ -2,11 +2,22 @@
   "skel": {
     "id": "minecraft:skeleton",
     "effects":[
-      
-      
+      {
+        "id": "cyclic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
     ],
     "nbt": {
-      "CustomName": "\u00A76Invading Skeleton"
+      "CustomName": "\u00A76Invading Skeleton",
+      "ArmorItems": [
+        {},
+        {},
+        {},
+        { "Count": 1, "id": "minecraft:leather_helmet" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ]
     }
   },
   "skel.boss.slimed": {
@@ -36,6 +47,7 @@
         { "Count": 1, "id": "simpleores:copper_chestplate" },
         { "Count": 1, "id": "minecraft:slime" }
       ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "HandDropChances": [ 1.0, 1.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -66,6 +78,13 @@
       
     ],
     "nbt": {
+      "ArmorItems": [
+        {},
+        {},
+        {},
+        { "Count": 1, "id": "minecraft:leather_helmet" }
+      ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "CustomName": "\u00A76Invading Zombie",
       "ForgeData": {
         "Onslaught": {
@@ -98,6 +117,7 @@
         {},
         { "Count": 1, "id": "rats:farmer_hat" }
       ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -125,6 +145,7 @@
         { },
         { "Count": 1, "id": "rustic:barrel" }
       ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "CustomName": "\u00A76Looting Zombie"
     }
   },
@@ -152,6 +173,7 @@
         { },
         { "Count": 1, "id": "minecraft:leather_helmet", "tag": { "display": { "color": 16776960 } } }
       ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -187,6 +209,7 @@
         { "Count": 1, "id": "harvestcraft:candledeco15" }
       ],
       "HandDropChances": [ 0.0, 0.0 ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "Onslaught": {
         "CustomAI": {
           "CounterAttack": { "Chance": 0.5 },
@@ -214,7 +237,9 @@
       "CustomName": "\u00A76Invading Stalker",
       "ArmorItems": [
         { "Count": 1, "id": "minecraft:leather_boots", "tag": { "display": { "color": 0 } } },
-        { "Count": 1, "id": "minecraft:leather_leggings", "tag": { "display": { "color": 0 } } }
+        { "Count": 1, "id": "minecraft:leather_leggings", "tag": { "display": { "color": 0 } } },
+        {},
+        { "Count": 1, "id": "minecraft:leather_helmet" }
       ],
       "ArmorDropChances": [ 0.1, 0.05, 0.0, 0.0 ],
       "ForgeData": {
@@ -305,8 +330,12 @@
     ],
     "nbt": {
       "ArmorItems": [
-        { "Count": 1, "id": "atop:mud_boots" }
+        { "Count": 1, "id": "atop:mud_boots" },
+        {},
+        {},
+        { "Count": 1, "id": "minecraft:leather_helmet" }
       ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "Attributes": [ { "Name": "generic.maxHealth", "Base": 100 } ],
       "Health": 100,
       "CustomName": "\u00A74The Was Man",
@@ -407,6 +436,7 @@
         { },
         { "Count": 1, "id": "rats:fisherman_hat" }
       ],
+      "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {

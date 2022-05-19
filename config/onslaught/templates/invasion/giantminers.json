@@ -1,10 +1,10 @@
 {
-  "giantminers": {
+  "colossalminers": {
     "selector": {
       "gamestages": {
         "and": ["enteredTwilightForest"]
       },
-      "weight": 128,
+      "weight": 41.9904,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
@@ -45,10 +45,10 @@
         
       ]
     },
-    "name": "Giant Miners",
+    "name": "Colossal Miners",
     "messages": {
       "start": "\u00A7cThe ground beneath you begins to shake...",
-      "end": "\u00A7aThe giants stomp off in fury, they'll be back.",
+      "end": "\u00A7aThe colossussies stomp off in fury, they'll be back.",
       "warn": {
         "ticks": 12000,
         "message": "\u00A7eUnusual seismic activity detected... (YOU WILL BE TP'D TO THE OVERWORLD!)"
@@ -62,7 +62,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 3, 4 ],
+                "count": [ 5, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -80,7 +80,7 @@
               },
               {
                 "id": "armoredgiant",
-                "count": [ 5, 6 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -107,7 +107,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 3, 4 ],
+                "count": [ 5, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -125,7 +125,7 @@
               },
               {
                 "id": "armoredgiant",
-                "count": [ 5, 6 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -152,7 +152,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 3, 4 ],
+                "count": [ 5, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -170,7 +170,7 @@
               },
               {
                 "id": "armoredgiant",
-                "count": [ 5, 6 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -197,7 +197,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 4, 5 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -215,7 +215,7 @@
               },
               {
                 "id": "armoredgiant",
-                "count": [ 7, 8 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -242,7 +242,7 @@
             "mobs": [
               {
                 "id": "giantminer",
-                "count": [ 2, 3 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -260,7 +260,7 @@
               },
               {
                 "id": "armoredgiant",
-                "count": [ 3, 4 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
