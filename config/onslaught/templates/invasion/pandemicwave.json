@@ -13,7 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
-        "/tpp @p 0",
+        "/tpp @p 0 0 1000 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
         "/gamerule maxEntityCramming 50"

@@ -640,10 +640,10 @@ Casting.addRecipe(<aether_legacy:gravitite_sword>, <liquid:gravitite>*((144*2)-(
 Casting.addRecipe(<simpleores:adamantium_sword>, <liquid:viridium>*((144*4)-(16*2*4)), <foundry:mold:10>, <minecraft:blaze_rod>);//viridium
 Casting.addRecipe(<simpleores:mythril_sword>, <liquid:mythril>*((144*4)-(16*2*4)), <foundry:mold:10>, <minecraft:blaze_rod>);//mythril
 Casting.addRecipe(<simpleores:onyx_sword>, <liquid:onyx_alloy>*((144*4)-(16*2*6)), <foundry:mold:10>, <minecraft:blaze_rod>);//onyx
-Casting.addRecipe(<twilightforest:knightmetal_sword>, <liquid:knightmetal>*((144*4)-(16*2*6)), <foundry:mold:10>, <minecraft:blaze_rod>);//knightly
-Casting.addRecipe(<twilightforest:ironwood_sword>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}), <liquid:ironwood>*((144*4)-(16*2*6)), <foundry:mold:10>, <minecraft:blaze_rod>);//ironroot
-Casting.addRecipe(<twilightforest:fiery_sword>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}), <liquid:fiery>*((144*4)-(16*2*6)), <foundry:mold:10>, <minecraft:blaze_rod>);//fiery
-Casting.addRecipe(<twilightforest:steeleaf_sword>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}), <liquid:steeleaf>*((144*4)-(16*2*6)), <foundry:mold:10>, <minecraft:blaze_rod>);//steeleaf
+Casting.addRecipe(<twilightforest:knightmetal_sword>, <liquid:knightmetal>*((144*4)-(16*2*6)), <foundry:mold:10>, <spartanfire:witherbone_handle>);//knightly
+Casting.addRecipe(<twilightforest:ironwood_sword>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}), <liquid:ironwood>*((144*4)-(16*2*6)), <foundry:mold:10>, <spartanfire:witherbone_handle>);//ironroot
+Casting.addRecipe(<twilightforest:fiery_sword>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}), <liquid:fiery>*((144*4)-(16*2*6)), <foundry:mold:10>, <spartanfire:witherbone_handle>);//fiery
+Casting.addRecipe(<twilightforest:steeleaf_sword>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}), <liquid:steeleaf>*((144*4)-(16*2*6)), <foundry:mold:10>, <spartanfire:witherbone_handle>);//steeleaf
 
 // PICKAXE //
 Casting.removeRecipe(<liquid:iron>*432, <foundry:mold:8>, <minecraft:stick>*2);//iron
@@ -659,10 +659,10 @@ Casting.addRecipe(<simpleores:mythril_pickaxe>, <liquid:mythril>*((144*5)-(16*2*
 Casting.addRecipe(<simpleores:onyx_pickaxe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<betterwithmods:steel_pickaxe>, <liquid:soulforged_steel>*((144*3)-(16*2*3)), <foundry:mold:8>, <betterwithmods:material:36>*3);//SFS
 Casting.addRecipe(<pyrotech:diamond_hammer>, <liquid:soulforged_steel>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <betterwithmods:material:36>*4);
-Casting.addRecipe(<twilightforest:knightmetal_pickaxe>, <liquid:knightmetal>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//knightly
-Casting.addRecipe(<twilightforest:ironwood_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 32 as short}]}), <liquid:ironwood>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//ironroot
+Casting.addRecipe(<twilightforest:knightmetal_pickaxe>, <liquid:knightmetal>*((144*5)-(16*2*5)), <foundry:mold:8>, <iceandfire:witherbone>*2);//knightly
+Casting.addRecipe(<twilightforest:ironwood_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 32 as short}]}), <liquid:ironwood>*((144*5)-(16*2*5)), <foundry:mold:8>, <iceandfire:witherbone>*2);//ironroot
 Casting.addRecipe(<twilightforest:fiery_pickaxe>, <liquid:fiery>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//fiery
-Casting.addRecipe(<twilightforest:steeleaf_pickaxe>.withTag({ench: [{lvl: 2 as short, id: 35 as short}]}), <liquid:steeleaf>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//steeleaf
+Casting.addRecipe(<twilightforest:steeleaf_pickaxe>.withTag({ench: [{lvl: 2 as short, id: 35 as short}]}), <liquid:steeleaf>*((144*5)-(16*2*5)), <foundry:mold:8>, <iceandfire:witherbone>*2);//steeleaf
 
 
 // MATTOCK //
@@ -685,7 +685,7 @@ Casting.addRecipe(<simpleores:adamantium_axe>, <liquid:viridium>*((144*5)-(16*2*
 Casting.addRecipe(<simpleores:mythril_axe>, <liquid:mythril>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_axe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<betterwithmods:steel_axe>, <liquid:soulforged_steel>*((144*3)-(16*2*3)), <foundry:mold:9>, <betterwithmods:material:36>*3);//SFS
-Casting.addRecipe(<twilightforest:knightmetal_axe>, <liquid:knightmetal>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//knightly
+Casting.addRecipe(<twilightforest:knightmetal_axe>, <liquid:knightmetal>*((144*5)-(16*2*5)), <foundry:mold:9>, <iceandfire:witherbone>*2);//knightly
 Casting.addRecipe(<twilightforest:ironwood_axe>.withTag({ench: [{lvl: 1 as short, id: 35 as short}]}), <liquid:ironwood>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//ironwood
 Casting.addRecipe(<twilightforest:steeleaf_axe>.withTag({ench: [{lvl: 2 as short, id: 32 as short}]}), <liquid:steeleaf>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//steeleaf
 
@@ -702,8 +702,8 @@ Casting.addRecipe(<simpleores:adamantium_shovel>, <liquid:viridium>*((144*3)-(16
 Casting.addRecipe(<simpleores:mythril_shovel>, <liquid:mythril>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_shovel>, <liquid:onyx_alloy>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<betterwithmods:steel_shovel>, <liquid:soulforged_steel>*((144)-(16*2)), <foundry:mold:11>, <betterwithmods:material:36>*3);//SFS
-Casting.addRecipe(<twilightforest:ironwood_shovel>.withTag({ench: [{lvl: 1 as short, id: 34 as short}]}), <liquid:ironwood>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//ironwood
-Casting.addRecipe(<twilightforest:steeleaf_shovel>.withTag({ench: [{lvl: 2 as short, id: 32 as short}]}), <liquid:steeleaf>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//steeleaf
+Casting.addRecipe(<twilightforest:ironwood_shovel>.withTag({ench: [{lvl: 1 as short, id: 34 as short}]}), <liquid:ironwood>*((144*3)-(16*2*3)), <foundry:mold:11>, <iceandfire:witherbone>*2);//ironwood
+Casting.addRecipe(<twilightforest:steeleaf_shovel>.withTag({ench: [{lvl: 2 as short, id: 32 as short}]}), <liquid:steeleaf>*((144*3)-(16*2*3)), <foundry:mold:11>, <iceandfire:witherbone>*2);//steeleaf
 
 // HOE //
 Casting.removeRecipe(<liquid:iron>*288, <foundry:mold:12>, <minecraft:stick>*2);//iron
@@ -717,8 +717,8 @@ Casting.addRecipe(<simpleores:adamantium_hoe>, <liquid:viridium>*((144*4)-(16*2*
 Casting.addRecipe(<simpleores:mythril_hoe>, <liquid:mythril>*((144*4)-(16*2*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_hoe>, <liquid:onyx_alloy>*((144*4)-(16*2*4)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<betterwithmods:steel_hoe>, <liquid:soulforged_steel>*((144*2)-(16*2*2)), <foundry:mold:12>, <betterwithmods:material:36>*3);//SFS
-Casting.addRecipe(<twilightforest:ironwood_hoe>.withTag({ench: [{lvl: 1 as short, id: 34}]}), <liquid:ironwood>*((144*2)-(16*2*2)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//ironwood
-Casting.addRecipe(<twilightforest:steeleaf_hoe>.withTag({ench: [{lvl: 2 as short, id: 34}]}), <liquid:steeleaf>*((144*2)-(16*2*2)), <foundry:mold:12>, <minecraft:blaze_rod>*2);//steeleaf
+Casting.addRecipe(<twilightforest:ironwood_hoe>.withTag({ench: [{lvl: 1 as short, id: 34}]}), <liquid:ironwood>*((144*2)-(16*2*2)), <foundry:mold:12>, <iceandfire:witherbone>*2);//ironwood
+Casting.addRecipe(<twilightforest:steeleaf_hoe>.withTag({ench: [{lvl: 2 as short, id: 34}]}), <liquid:steeleaf>*((144*2)-(16*2*2)), <foundry:mold:12>, <iceandfire:witherbone>*2);//steeleaf
 
 // DAGGER //
 Casting.addRecipe(<spartanweaponry:dagger_copper>, <liquid:copper>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>);//copper

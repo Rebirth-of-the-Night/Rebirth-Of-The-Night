@@ -132,11 +132,13 @@ HungerEvents.onFoodEaten(function(event as mods.hungertweaker.events.FoodEatenEv
 		event.player.addPotionEffect(poison);
 		var nausea = <potion:minecraft:nausea>.makePotionEffect(400, 0, false, true);
 		event.player.addPotionEffect(nausea);
+		var blind = <potion:minecraft:blindness>.makePotionEffect(400, 0, false, true);
+		event.player.addPotionEffect(blind);
 	}
 
 	if (event.food.definition.id == <iceandfire:pixie_dust>.definition.id) {
-		var high = <potion:rats:synesthesia>.makePotionEffect(100, 2, false, true);
-		event.player.addPotionEffect(high);
+		var nausea = <potion:minecraft:nausea>.makePotionEffect(100, 0, false, true);
+		event.player.addPotionEffect(nausea);
 	}
 });
 

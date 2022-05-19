@@ -618,7 +618,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <iceandfire:troll_weapon.trunk_frost>.addTooltip(format.green("- Reach I"));
 
 <aether_legacy:holy_sword>.addTooltip(format.gold("Properties:"));
-<aether_legacy:holy_sword>.addTooltip(format.green("- Alchemized Conversion I"));
+<aether_legacy:holy_sword>.addTooltip(format.green("- Arcanic Conversion I"));
 
 <aether_legacy:flaming_sword>.addTooltip(format.gold("Properties:"));
 <aether_legacy:flaming_sword>.addTooltip(format.green("- Smite IV"));

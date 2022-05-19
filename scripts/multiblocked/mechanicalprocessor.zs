@@ -37,18 +37,18 @@ newRP.start()
 
 newRP.start()
 .duration(300)
-.inputItems(<aether_legacy:zanite_gemstone>)
+.inputItems(<contenttweaker:electrified_zanite>)
 .inputItems(<minecraft:glass_bottle>)
-.inputFluids(<fluid:concentrated_bioflow> * 500)
+.inputFluids(<fluid:concentrated_bioflow> * 1000)
 .outputItems(<minecraft:potion>.withTag({Potion: "potioncore:bless"}))
 .buildAndRegister();
 
 newRP.start()
 .duration(600)
-.inputItems(<aether_legacy:zanite_gemstone>)
+.inputItems(<contenttweaker:electrified_zanite> * 2)
 .inputItems(<minecraft:glowstone>)
 .inputItems(<minecraft:glass_bottle>)
-.inputFluids(<fluid:concentrated_bioflow> * 500)
+.inputFluids(<fluid:concentrated_bioflow> * 1000)
 .outputItems(<minecraft:potion>.withTag({Potion: "potioncore:strong_bless"}))
 .buildAndRegister();
 

@@ -99,6 +99,7 @@ item.holystone_slab.name=Holystone Slab
 item.mossy_holystone_slab.name=Mossy Holystone Slab
 item.holystone_brick_slab.name=Holystone Brick Slab
 item.aerogel_slab.name=Aerogel Slab
+item.dart_shooter.name=Dartgun
 
 tile.aether_legacy:skyroot_slab.name=Skyroot Slab
 tile.aether_legacy:carved_slab.name=Carved Slab

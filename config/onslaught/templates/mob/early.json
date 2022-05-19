@@ -277,7 +277,7 @@
     "nbt": {
       "Attributes": [
         { "Name": "generic.maxHealth", "Base": 100 },
-        { "Name": "generic.movementSpeed", "Base": 0.45 }
+        { "Name": "generic.movementSpeed", "Base": 0.35 }
       ],
       "Health": 100,
       "CustomName": "\u00A74The Huntsman",

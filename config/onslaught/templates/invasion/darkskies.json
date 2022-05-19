@@ -13,7 +13,7 @@
     "commands": {
       "start": [
         "/weather clear",
-        "/tpp @p 0",
+        "/tpp @p 0 0 1000 0",
         "/gamerule doFireTick false",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
@@ -55,7 +55,7 @@
             "mobs": [
               {
                 "id": "darkskies.frost",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -141,7 +141,7 @@
                   "type": "air",
                   "light": [
                     0,
-                    15
+                    7
                   ],
                   "rangeXZ": [
                     8,
@@ -199,7 +199,7 @@
             "mobs": [
               {
                 "id": "darkskies.frost",
-                "count": [ 4, 5 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -406,7 +406,7 @@
               },
               {
                 "id": "darkskies.skydrake",
-                "count": [ 3 ],
+                "count": [ 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -424,7 +424,7 @@
               },
               {
                 "id": "darkskies.frost",
-                "count": [ 6, 8 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -469,7 +469,7 @@
             "mobs": [
               {
                 "id": "darkskies.skydrake",
-                "count": [ 6 ],
+                "count": [ 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -519,7 +519,7 @@
                   "type": "air",
                   "light": [
                     0,
-                    15
+                    7
                   ],
                   "rangeXZ": [
                     8,
@@ -591,7 +591,7 @@
                   "type": "air",
                   "light": [
                     0,
-                    15
+                    7
                   ],
                   "rangeXZ": [
                     8,
@@ -654,7 +654,7 @@
                   "type": "air",
                   "light": [
                     0,
-                    15
+                    7
                   ],
                   "rangeXZ": [
                     8,
@@ -703,7 +703,7 @@
               },
               {
                 "id": "darkskies.frost",
-                "count": [ 4, 5 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -771,7 +771,7 @@
                   "type": "air",
                   "light": [
                     0,
-                    15
+                    7
                   ],
                   "rangeXZ": [
                     8,
@@ -820,7 +820,7 @@
               },
               {
                 "id": "darkskies.frost",
-                "count": [ 4, 5 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "air",
                   "light": [

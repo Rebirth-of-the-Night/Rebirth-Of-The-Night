@@ -38,7 +38,7 @@
               "RangeMax": 6,
               "ExplosionStrength": 4,
               "ExplosionDelayTicks": 1,
-              "ExplosionCausesFire": false
+              "ExplosionCausesFire": true
             }
           }
         }
@@ -65,8 +65,6 @@
   "darkskies.frost": {
     "id": "netherex:frost",
     "effects":[
-      
-      
       {
         "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
@@ -76,7 +74,7 @@
       
     ],
     "nbt": {
-      "CustomName": "\u00A76Blizzard Casters"
+      "CustomName": "\u00A76Blizz Caster"
     }
   },
   "darkskies.kelenk": {
@@ -133,15 +131,8 @@
     }
   },
   "darkskies.bat": {
-    "id": "roughmobsrevamped:hostilebat",
+    "id": "toroquest:toroquest_vampire_bat",
     "effects":[
-      
-      {
-        "id": "minecraft:speed",
-        "duration": 50000,
-        "amplifier": 1,
-        "showParticles": false
-      },
       {
         "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,

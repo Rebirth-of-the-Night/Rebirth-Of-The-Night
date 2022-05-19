@@ -29,7 +29,7 @@
         { "Count": 1, "id": "minecraft:leather_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.25 },
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
         { "Name": "generic.maxHealth", "Base": 40 }
       ],
       "Health": 40,
@@ -62,6 +62,13 @@
         "showParticles": false
       }
     ],
+    "ArmorItems": [
+      {  },
+      {  },
+      {  },
+      { "Count": 1, "id": "minecraft:leather_helmet" }
+    ],
+    "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
     "nbt": {
       "CustomName": "\u00A76Plague Archer",
       "Attributes": [
@@ -102,7 +109,7 @@
         { "Count": 1, "id": "minecraft:leather_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.25 },
+        { "Name": "generic.movementSpeed", "Base": 0.3 },
         { "Name": "generic.maxHealth", "Base": 50 }
       ],
       "Health": 50,
@@ -130,7 +137,7 @@
     "nbt": {
       "CustomName": "\u00A76Plague Beast",
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.2 },
+        { "Name": "generic.movementSpeed", "Base": 0.25 },
         { "Name": "generic.maxHealth", "Base": 100 }
       ],
       "Health": 100,
