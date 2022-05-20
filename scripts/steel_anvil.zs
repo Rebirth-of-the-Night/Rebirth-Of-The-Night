@@ -50,16 +50,14 @@ var anvilArmorMap = {
 var plateArmor = <betterwithmods:material:42>;
 var counter = 0;
 
-recipes.remove(<atop:amethyst_boots:4>);
-Anvil.addShaped(<atop:amethyst_boots:4>,[
+Anvil.addShaped(<atop:amethyst_boots>,[
     [null, null, <contenttweaker:exorite_ingot>],
     [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor],
     [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor],
     [null, null, <contenttweaker:exorite_ingot>]
     ]);
 
-recipes.remove(<atop:amethyst_chestplate:4>);
-Anvil.addShaped(<atop:amethyst_chestplate:4>,[
+Anvil.addShaped(<atop:amethyst_chestplate>,[
     [plateArmor, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>],
     [null, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>],
     [null, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>],
@@ -74,8 +72,8 @@ Anvil.addShaped(<atop:amethyst_helmet>,[
     [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor]
     ]);
 
-recipes.remove(<atop:amethyst_leggings:4>);
-Anvil.addShaped(<atop:amethyst_leggings:4>,[
+
+Anvil.addShaped(<atop:amethyst_leggings>,[
     [<contenttweaker:exorite_ingot>, plateArmor, plateArmor, plateArmor],
     [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null, null],
     [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null, null],
@@ -681,7 +679,6 @@ var anvilToolMap = {
     [<nyx:meteor_ingot>, <betterwithmods:material:36>] : meteorTool
 } as IItemStack[][IItemStack[]];
 
-    recipes.remove(<atop:amethyst_axe>);
     Anvil.addShaped(<atop:amethyst_axe>,[
         [null, null, null, <minecraft:blaze_rod>],
         [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <minecraft:blaze_rod>, null],
@@ -689,7 +686,6 @@ var anvilToolMap = {
         [<contenttweaker:exorite_ingot>, null, null, null]
     ]);
 
-    recipes.remove(<atop:amethyst_hoe>);
     Anvil.addShaped(<atop:amethyst_hoe>,[
         [null, null, null, <minecraft:blaze_rod>],
         [<contenttweaker:exorite_ingot>, null, <minecraft:blaze_rod>, null],
@@ -697,7 +693,6 @@ var anvilToolMap = {
         [<minecraft:blaze_rod>, null, null, null]
     ]);
 
-    recipes.remove(<atop:amethyst_pickaxe>);
     Anvil.addShaped(<atop:amethyst_pickaxe>,[
         [null,null, null, <minecraft:blaze_rod>],
         [<contenttweaker:exorite_ingot>, null, <minecraft:blaze_rod>, null],
@@ -705,7 +700,6 @@ var anvilToolMap = {
         [null, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null]
     ]);
     
-    recipes.remove(<atop:amethyst_shovel>);
     Anvil.addShaped(<atop:amethyst_shovel>,[
         [null, null, null, <minecraft:blaze_rod>],
         [null, null, <minecraft:blaze_rod>, null],
