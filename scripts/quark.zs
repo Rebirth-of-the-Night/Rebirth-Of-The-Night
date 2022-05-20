@@ -108,8 +108,6 @@ for i, log in logs {
 // Arrows
 recipes.remove(<quark:arrow_explosive>);
 recipes.addShapeless("explosive_arrows",<quark:arrow_explosive>*4,[<minecraft:arrow>,<minecraft:arrow>,<minecraft:arrow>,<minecraft:arrow>,<betterwithmods:mining_charge>]);
-recipes.remove(<quark:arrow_ender>);
-recipes.addShapeless("ender_arrows",<quark:arrow_ender>*4,[<minecraft:arrow>,<minecraft:arrow>,<minecraft:arrow>,<minecraft:arrow>,<minecraft:ender_pearl>]);
 
 /*
 val crystalMats as IIngredient[][] = [

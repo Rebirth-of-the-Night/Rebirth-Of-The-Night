@@ -377,7 +377,7 @@ ExSartagine.addPotRecipe(veggie, stock*2);
 ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
 
 //Wormhold Potion
-ExSartagine.addKettleRecipe([<endreborn:item_raw_endorium>,<minecraft:glass_bottle>],null,waterBottle,[<bountifulbaubles:potionwormhole>],300);
+ExSartagine.addKettleRecipe([<quark:arrow_ender>,<minecraft:glass_bottle>],null,waterBottle,[<bountifulbaubles:potionwormhole>],300);
 
 // Carrot Cake
 recipes.removeByRecipeName("harvestcraft:carrotcakeitem");
