@@ -38,7 +38,7 @@
       "end": "\u00A7aThe horde has been stopped... for now",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eA pack of wild animals make disturbing noises in the distance... (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A7eA pack of wild animals make disturbing noises in the distance... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

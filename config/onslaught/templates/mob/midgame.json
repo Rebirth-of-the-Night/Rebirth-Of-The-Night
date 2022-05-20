@@ -24,9 +24,9 @@
     "nbt": {
       "CustomName": "\u00A76The Hirschgeist",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 500 }
+        { "Name": "generic.maxHealth", "Base": 250 }
       ],
-      "Health": 500,
+      "Health": 250,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -69,9 +69,9 @@
     "nbt": {
       "CustomName": "\u00A76The Harvester",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 400 }
+        { "Name": "generic.maxHealth", "Base": 300 }
       ],
-      "Health": 400,
+      "Health": 300,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -112,7 +112,7 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76Quazar",
+      "CustomName": "\u00A76The Quazar",
       "Attributes": [
         { "Name": "generic.maxHealth", "Base": 600 }
       ],
@@ -157,12 +157,117 @@
       }
     ],
     "nbt": {
-      "CustomName": "\u00A76The Quazar",
+      "CustomName": "\u00A76The Valkyrie Queen",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 800 }
+      ],
+      "Health": 800,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.2 },
+            "Lunge": { "Range": 3, "SpeedModifier": 0.3 },
+            "OffscreenTeleport": { }
+          }
+        }
+      }
+    }
+  },
+  "midgame.wither": {
+    "id": "minecraft:wither",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:magicfocus",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclicmagic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76The Wither",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 500 }
+      ],
+      "Health": 500,
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+            "CounterAttack": { "Chance": 0.2 }
+          }
+        }
+      }
+    }
+  },
+  "midgame.ghastqueen": {
+    "id": "netherex:ghast_queen",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:magicfocus",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclicmagic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76The Ghast Queen",
       "Attributes": [
         { "Name": "generic.maxHealth", "Base": 1000 }
       ],
-      "Health": 1000,
-      "Size": 4,
+      "Health": 1000
+    }
+  },
+  "midgame.snowqueen": {
+    "id": "twilightforest:snow_queen",
+    "effects":[
+      {
+        "id": "minecraft:glowing",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:magicfocus",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "cyclicmagic:potion.swimspeed",
+        "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      }
+    ],
+    "nbt": {
+      "CustomName": "\u00A76The Snow Queen",
+      "Attributes": [
+        { "Name": "generic.maxHealth", "Base": 800 }
+      ],
+      "Health": 800,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {

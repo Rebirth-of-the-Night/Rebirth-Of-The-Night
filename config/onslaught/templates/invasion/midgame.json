@@ -19,7 +19,8 @@
         "/gamestage silentadd @p worldinvasion",
         "/difficulty hard",
         "/gamerule doFireTick false",
-        "/gamerule maxEntityCramming 50"
+        "/gamerule maxEntityCramming 50",
+        "/gamerule doMobSpawning false"
       ],
       "end": [
         "/weather clear",
@@ -30,7 +31,8 @@
         "/playsound minecraft:ui.toast.challenge_complete ambient @p",
         "/give @p contenttweaker:ancient_cache",
         "/gamerule doFireTick true",
-        "/gamerule maxEntityCramming 24"
+        "/gamerule maxEntityCramming 24",
+        "/gamerule doMobSpawning true"
       ]
     },
     "name": "Bandit Army",
@@ -39,7 +41,7 @@
       "end": "\u00A72Was it worth it? Desecrating the land to your pleasure, wreaking havoc nonchalantly, just so you could obtain more power. Do you consider yourself a hero? You are a monster.",
       "warn": {
         "ticks": 24000,
-        "message": "\u00A74\u00A7kThey approach, and you will die. (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A74\u00A7kThey approach, and you will die. (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [
@@ -1970,7 +1972,7 @@
             "mobs": [
               {
                 "id": "midgame.hirschgeist",
-                "count": [ 2 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1988,7 +1990,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 14, 16 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2852,7 +2854,7 @@
             "mobs": [
               {
                 "id": "midgame.quazar",
-                "count": [ 2 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -2878,7 +2880,7 @@
           {
             "mobs": [
               {
-                "id": "midgame.valkqueen",
+                "id": "midgame.harvester",
                 "count": [ 1 ],
                 "spawn": {
                   "type": "ground",
@@ -2905,7 +2907,7 @@
           {
             "mobs": [
               {
-                "id": "midgame.valkqueen",
+                "id": "midgame.harvester",
                 "count": [ 2 ],
                 "spawn": {
                   "type": "ground",
@@ -2920,6 +2922,2676 @@
                   "rangeY": 4,
                   "stepRadius": 4,
                   "sampleDistance": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 72000, 72300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 73800, 74100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 75600, 75900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 77400, 77700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 79200, 79500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 81000, 81300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 82800, 83100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 84600, 84900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 86400, 86700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 88200, 88500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 90000, 93000 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 91800, 92100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 93600, 93900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 95400, 95700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 97200, 97500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 99000, 99300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "zombiesiege.grunt",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "zombiesiege.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 100800, 101100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 10, 12 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 102600, 102900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 10, 12 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 104400, 104700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 10, 12 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 106200, 106500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 14, 16 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 108000, 108300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.archer",
+                "count": [ 10, 12 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 109800, 110100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 3, 4 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 111600, 111900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 5, 6 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 113400, 113700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 8, 10 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 6, 8 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 115200, 115500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2, 3 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 4, 5 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 3, 4 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 4, 5 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 117000, 117300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.blackdeath",
+                "count": [ 1 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 5, 6 ]
+              },
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 2, 3 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 118800, 119100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.blackdeath",
+                "count": [ 1 ]
+              },
+              {
+                "id": "pandemic.miner",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 5, 6 ]
+              },
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 2, 3 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 120600, 120900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "pandemic.miner",
+                "count": [ 12, 14 ]
+              },
+              {
+                "id": "pandemic.archer",
+                "count": [ 6, 8 ]
+              },
+              {
+                "id": "pandemic.plaguebeast",
+                "count": [ 1 ]
+              },
+              {
+                "id": "pandemic.dreadswine",
+                "count": [ 2 ]
+              },
+              {
+                "id": "pandemic.grunt",
+                "count": [ 10, 12 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 122400, 122700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.wither",
+                "count": [ 1 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 124200, 124500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.wither",
+                "count": [ 1 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 126000, 126300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.fighter",
+                "count": [ 14, 16 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.miner",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.bomber",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spider",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 127800, 128100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.fighter",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.miner",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.bomber",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 129600, 129900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.spitfireskeleton",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spider",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 131400, 131700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.spider",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.fighter",
+                "count": [ 14, 16 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.bomber",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 133200, 133500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.fighter",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.miner",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.bomber",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spider",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 135000, 135300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.spitfireskeleton",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 14, 16 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spider",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 136800, 137100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.spider",
+                "count": [ 16, 18 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 138600, 138900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.fighter",
+                "count": [ 14, 16 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.miner",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.bomber",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spider",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 140400, 140700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.spitfireskeleton",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.miner",
+                "count": [ 14, 16 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.bomber",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spider",
+                "count": [ 3, 4 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 142200, 142500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantmobs.boss",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.skeleton",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spitfireskeleton",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.fighter",
+                "count": [ 12, 14 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantmobs.spider",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 144000, 144300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.ghastqueen",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireghast",
+                "count": [ 8 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 145800, 146100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.ghastqueen",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "fireghast",
+                "count": [ 12 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 147600, 147900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 149400, 149700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 151200, 151500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 5, 6 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 153000, 153300 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 154800, 155100 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 6, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 8, 10 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "giantboss",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 156600, 156900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 7, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 158400, 158700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "giantminer",
+                "count": [ 4, 5 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "armoredgiant",
+                "count": [ 7, 8 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 160200, 160500 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.snowqueen",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 167400, 167700 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.snowqueen",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "delayTicks": [ 174600, 174900 ],
+        "groups": [
+          {
+            "mobs": [
+              {
+                "id": "midgame.harvester",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "midgame.hirschgeist",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "midgame.wither",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "midgame.snowqueen",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "air",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "midgame.quazar",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
+                }
+              },
+              {
+                "id": "midgame.harvester",
+                "count": [ 1 ],
+                "spawn": {
+                  "type": "ground",
+                  "light": [
+                    0,
+                    7
+                  ],
+                  "rangeXZ": [
+                    8,
+                    48
+                  ],
+                  "rangeY": 4,
+                  "stepRadius": 2,
+                  "sampleDistance": 4
                 }
               }
             ]
