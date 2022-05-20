@@ -25,15 +25,15 @@ recipe: {
 gen: [
   {
     height: [ 0, 16 ]
-    size: 8
-    count: 2
-	chance: 0.8
+    size: 6
+    count: 1
+	chance: 0.7
   },
   {
     height: [ 16, 155 ]
     size: 3
-    count: 30
-	chance: 0.7
+    count: 24
+	chance: 0.8
 	biomes: {
 		names: [
 		  biomesoplenty:volcanic_island
@@ -43,7 +43,7 @@ gen: [
   {
     height: [ 0, 48 ]
     size: 8
-    count: 6
+    count: 4
 	biomes: {
 		names: biomesoplenty:outback
 	}

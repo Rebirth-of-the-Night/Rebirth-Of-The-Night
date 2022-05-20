@@ -24,9 +24,9 @@ recipe: {
 }
 gen: [
   {
-    height: [ 10, 48 ]
+    height: [ 5, 38 ]
     size: 6
-    count: 11
+    count: 10
   },
   {
     height: [ 10, 155 ]

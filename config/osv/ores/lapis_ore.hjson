@@ -27,23 +27,12 @@ gen: [
     height: [ 0, 32 ]
     size: 7
     count: 2
+	chance: 0.8
   }
   {
-	height : [250, 255]
+	height : [50, 255]
 	size: 4
-	count: 5 
-	dimensions: [10]
-  }
-  {
-	height : [150, 155]
-	size: 4
-	count: 5 
-	dimensions: [10]
-  }
-  {
-	height : [50, 55]
-	size: 4
-	count: 5 
+	count: 15 
 	dimensions: [10]
   }
 ]

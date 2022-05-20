@@ -24,9 +24,9 @@ recipe: {
 gen: [
   {
     height: [ 0, 16 ]
-    size: 8
+    size: 6
     count: 1
-	chance: 0.8
+	chance: 0.7
   },
   {
     height: [ 0, 16 ]
