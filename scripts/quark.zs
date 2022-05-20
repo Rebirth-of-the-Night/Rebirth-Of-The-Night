@@ -28,7 +28,7 @@ var sWalls = [
 	"prismarine_rough", 
 	"purpur_block"
 ] as string[];
-removeRecipeArray(concatIS(["quark:"], sWalls, ["_wall"]));
+removeRecipeArray(concatIS([["quark:"], sWalls, ["_wall"]]));
 
 for i in 0 to 16 {
 	JEI.removeAndHide(<quark:candle>.definition.makeStack(i));
@@ -40,8 +40,12 @@ JEI.removeAndHide(<quark:nether_brick_fence_gate>);
 JEI.removeAndHide(<quark:smoker>);
 JEI.removeAndHide(<quark:polished_stone>);
 
-removeRecipeNameArray(concatString(["quark:iron_"], ["button", "ladder", "plate_1"], [""]));
-removeRecipeNameArray(concatString(["quark:stone_"], ["shovel", "pickaxe", "axe", "hoe", "slab"], [""]));
+removeRecipeNameArray(
+	concatString([["quark:iron_"], ["button", "ladder", "plate_1"]]));
+
+removeRecipeNameArray(
+	concatString([["quark:stone_"], ["shovel", "pickaxe", "axe", "hoe", "slab"]]));
+
 removeRecipeNameArray(["quark:chest_minecart", "quark:gold_button", "quark:hopper", "quark:sandy_bricks"]);
 
 //recipes.addShapeless("sandy_bricks",<quark:sandy_bricks>,[<contenttweaker:brick_minecraft_clay>,<ore:sand>]); Brick replacement
@@ -183,8 +187,8 @@ recipes.addShaped("quark_randomizer", <quark:redstone_randomizer>, [
 val qrune = <quark:rune:*>;
 
 // Because so many people dunno its use.
-# qrune.addTooltip("Colors enchanted items in an anvil.");
-qrune.addTooltip("Currently bugged, sorry :(");
+qrune.addTooltip("Colors enchanted items in an anvil.");
+// qrune.addTooltip("Currently bugged, sorry :(");
 
 # remove all original quark rune recipes
 recipes.remove(qrune);
@@ -194,7 +198,7 @@ qrune.maxStackSize = 1;
 
 # recipes for quark runes
 var runes = metaArray("quark:rune", 0, 15) as IItemStack[];
-var dyes = concatOD(["dye"], colors, [""]) as IOreDictEntry[];
+var dyes = concatOD([["dye"], colors]);
 
 for i in 0 to runes.length {
 	RecipeBuilder.get("mage")
