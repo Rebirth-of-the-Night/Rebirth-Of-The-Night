@@ -380,6 +380,7 @@ mods.betterwithmods.Anvil.addShaped(<atop:topaz_sword>,
    [null, exorite, null, null]
 ]);
 
+/*
 recipes.remove(<atop:amethyst_hoe>);
 recipes.addShapedMirrored("exorite_hoe", <atop:amethyst_hoe>,
  [[exorite,exorite,null],
@@ -425,4 +426,4 @@ recipes.addShaped("exorite_leggings", <atop:amethyst_leggings>,
 recipes.remove(<atop:amethyst_boots>); 
 recipes.addShaped("exorite_boots", <atop:amethyst_boots>,
  [[exorite,null,exorite],
-  [exorite,null,exorite]]);
+  [exorite,null,exorite]]);*/

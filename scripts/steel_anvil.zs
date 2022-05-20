@@ -64,7 +64,6 @@ Anvil.addShaped(<atop:amethyst_chestplate>,[
     [plateArmor, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>]
     ]);
 
-recipes.remove(<atop:amethyst_helmet>);
 Anvil.addShaped(<atop:amethyst_helmet>,[
     [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor],
     [<contenttweaker:exorite_ingot>, null, null, null],
