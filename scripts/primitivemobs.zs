@@ -8,7 +8,7 @@ import crafttweaker.item.IIngredient;
 //Mob Loot Tweaks
 <entity:primitivemobs:goblin>.removeDrop(<minecraft:iron_ingot>);
 
-val camoGear = concatString(["primitivemobs:camouflage_"], armor, ["toggle"]);
+val camoGear = concatString([["primitivemobs:camouflage_"], armor, ["toggle"]]);
 val ws = [<primitivemobs:wonder_sap>] as IIngredient[];
 val ws8 = uniformArrayIS(<primitivemobs:wonder_sap>, 8) as IIngredient[];
 val ODGlu = <ore:glue>.firstItem;

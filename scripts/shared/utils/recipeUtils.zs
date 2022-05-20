@@ -1,4 +1,4 @@
-#priority 9999
+#priority 9998
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
@@ -25,8 +25,8 @@ function metaArray(item as string, min as int = 0, max as int = 15) as IItemStac
 	return a;
 }
 
-function conMeta(a as string[], b as string[], c as string[], min as int = 0, max as int = 15) as IItemStack[] {
-	var ar = concatString(a, b, c) as string[];
+function conMeta(a as string[][], min as int = 0, max as int = 15) as IItemStack[] {
+	var ar = concatString(a) as string[];
 	var new = [] as IItemStack[];
 	
 	for h in ar {
@@ -45,6 +45,7 @@ function removeRecipeArray(array as IItemStack[], hide as bool = true) {
 	if (hide) {
 		for i in 0 to array.length {
 			JEI.removeAndHide(array[i]);
+			recipes.remove(array[i]);
 		}
 	} else {
 		for i in 0 to array.length {
