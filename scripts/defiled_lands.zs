@@ -55,11 +55,11 @@ Infuser.addShaped(<defiledlands:scarlite_razor>,[
 
 val woodMoulding = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 recipes.remove(<defiledlands:umbra_blaster>);
-recipes.addShaped("umbra_blaster",<defiledlands:umbra_blaster>,[
+/*recipes.addShaped("umbra_blaster",<defiledlands:umbra_blaster>,[
     [<dungpipe:sewer_pipe>,<ore:genericMetal>,<defiledlands:scuttler_eye>],
     [<ore:genericMetal>,<minecraft:repeater>,woodMoulding],
 	[null,null,<ore:genericMetal>]
-]);
+]);*/
 
 recipes.remove(<defiledlands:concussion_smasher>);
 RecipeBuilder.get("mage")
@@ -116,7 +116,6 @@ recipes.addShaped("the_ravager",<defiledlands:the_ravager>,[
 [null, null, <simpleores:mythril_ingot>]
 ]);
 
-recipes.remove(<defiledlands:umbra_blaster>);
 recipes.addShaped(<defiledlands:umbra_blaster>,[
 [<quark:pipe>, <mod_lavacow:mootenheart>, <arcaneworld:molten_core>],
 [<simpleores:mythril_ingot>, <simpleores:mythril_ingot>, <quark:redstone_inductor>],

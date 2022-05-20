@@ -65,7 +65,10 @@ val potionRemoval as string[] = [
     "extraalchemy:freezing",
     "extraalchemy:magnetism_normal",
     "extraalchemy:magnetism_strong",
-    "extraalchemy:magnetism_long"
+    "extraalchemy:magnetism_long",
+    "minecraft:regeneration",
+    "minecraft:long_regeneration",
+    "minecraft:strong_regeneration"
 ];
 
 for potion in potionRemoval {

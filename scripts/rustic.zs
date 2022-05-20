@@ -212,11 +212,15 @@ Condenser.removeRecipe(ironskinElixir);
 Condenser.removeRecipe(ironskinElixirLong);
 Condenser.removeRecipe(ironskinElixirStrong);
 
+JEI.removeAndHide(regenerationElixir);
+JEI.removeAndHide(regenerationElixirLong);
+JEI.removeAndHide(regenerationElixirStrong);
+
 // Condenser.addRecipe(output, itemstack[] inputs, modifier, bottle, fluid, time);
 Condenser.addRecipe(luckElixir, fourclover, amanita);
-Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
+/*Condenser.addRecipe(regenerationElixir, cohosh, honeycomb);
 Condenser.addRecipe(regenerationElixirLong, [cohosh, honeycomb], horsetail);
-Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);
+Condenser.addRecipe(regenerationElixirStrong, [cohosh, honeycomb], root);*/
 Condenser.addRecipe(butterElixir, butter, gnugg);	
 Condenser.addRecipe(bouncyElixir, slime, endpearl);	
 Condenser.addRecipe(bouncyElixirLong, [slime, endpearl, butter], horsetail);

@@ -17,24 +17,24 @@ import crafttweaker.item.IIngredient;
 <atop:tanzanite_helmet>.addTooltip(format.white("Everything is going to be okay..."));
 
 // Single item set bonuses
-<minecraft:diamond_sword:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_sword:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+1 Armor Toughness"));
 <minecraft:diamond_sword:*>.addTooltip(format.blue("+10% Magic Shielding"));
-<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+1 Armor Toughness"));
 <minecraft:diamond_pickaxe:*>.addTooltip(format.blue("+10% Magic Shielding"));
-<minecraft:diamond_axe:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_axe:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_axe:*>.addTooltip(format.blue("+1 Armor Toughness"));
 <minecraft:diamond_axe:*>.addTooltip(format.blue("+10% Magic Shielding"));
-<minecraft:diamond_shovel:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_shovel:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_shovel:*>.addTooltip(format.blue("+1 Armor Toughness"));
 <minecraft:diamond_shovel:*>.addTooltip(format.blue("+10% Magic Shielding"));
-<minecraft:diamond_hoe:*>.addTooltip(format.blue("+10% Attack Speed"));
+<minecraft:diamond_hoe:*>.addTooltip(format.blue("+15% Attack Speed"));
 <minecraft:diamond_hoe:*>.addTooltip(format.blue("+1 Armor Toughness"));
 <minecraft:diamond_hoe:*>.addTooltip(format.blue("+10% Magic Shielding"));
 var diamondweps = [<spartanweaponry:halberd_diamond:*>,<spartanweaponry:saber_diamond:*>,<spartanweaponry:throwing_knife_diamond:*>] as IItemStack[];
 for w, weapon in diamondweps{
-    weapon.addTooltip(format.blue("+10% Attack Speed"));
+    weapon.addTooltip(format.blue("+15% Attack Speed"));
     weapon.addTooltip(format.blue("+1 Armor Toughness"));
     weapon.addTooltip(format.blue("+10% Magic Shielding"));
 }
@@ -62,24 +62,24 @@ for w, weapon in rubyweps{
 }
 
 <atop:peridot_sword:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_sword:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_sword:*>.addTooltip(format.darkGreen("+1015% Move Speed"));
 <atop:peridot_sword:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+10% Move Speed"));
 <atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_axe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_axe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_axe:*>.addTooltip(format.darkGreen("+10% Move Speed"));
 <atop:peridot_axe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_shovel:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_shovel:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_shovel:*>.addTooltip(format.darkGreen("+10% Move Speed"));
 <atop:peridot_shovel:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_hoe:*>.addTooltip(format.darkGreen("+15% Move Speed"));
+<atop:peridot_hoe:*>.addTooltip(format.darkGreen("+10% Move Speed"));
 <atop:peridot_hoe:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 var peridotweps = [<spartanweaponry:boomerang_diamond:*>,<spartanweaponry:rapier_diamond:*>,<spartanweaponry:staff_diamond:*>] as IItemStack[];
 for w, weapon in peridotweps{
     weapon.addTooltip(format.darkGreen("+25% Dig Speed"));
-    weapon.addTooltip(format.darkGreen("+15% Move Speed"));
+    weapon.addTooltip(format.darkGreen("+10% Move Speed"));
     weapon.addTooltip(format.darkGreen("+5% Damage Resistance"));
 }
 

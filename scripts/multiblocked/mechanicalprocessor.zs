@@ -86,3 +86,11 @@ newRP.start()
 .inputFluids(<fluid:concentrated_bioflow> * 1000)
 .outputItems(<minecraft:potion>.withTag({CustomPotionColor: 16777153, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 1800, Id: 206, Amplifier: 0 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 114, Amplifier: 0 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 145, Amplifier: 100 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 1800, Id: 138, Amplifier: 100 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 1800, Id: 117, Amplifier: 100 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 1800, Id: 18, Amplifier: 100 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 147, Amplifier: 100 as byte}], display: {Lore: ["A handy brew that gives you short flight."], Name: "Potion of Flight"}}))
 .buildAndRegister();
+
+newRP.start()
+.duration(1200)
+.inputItems(<minecraft:netherrack>)
+.inputItems(<betternether:nether_mycelium>)
+.inputFluids(<fluid:concentrated_bioflow> * 4000)
+.outputItems(<betternether:nether_mycelium>*2)
+.buildAndRegister();
