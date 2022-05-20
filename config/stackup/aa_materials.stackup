@@ -109,6 +109,7 @@ id="aether_legacy:dart" -> 256
 id~="*:pellet*" -> 512
 id~="*:blastem_fruit*" -> 128
 id="contenttweaker:*", !isBlock -> 256
+id~="contenttweaker:*rune" -> 1
 id="quark:chain" -> 256
 id="animania:hamster_food" -> 256
 id="animania:blue_peacock_feather" -> 256
