@@ -51,7 +51,7 @@
       "end": "\u00A7aThe colossussies stomp off in fury, they'll be back.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eUnusual seismic activity detected... (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A7eUnusual seismic activity detected... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

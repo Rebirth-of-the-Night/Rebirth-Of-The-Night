@@ -38,7 +38,7 @@
       "end": "\u00A7aThe diseased creatures' ranks are eventually thinned out...",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eA horrid and sickly stench fills the air... (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A7eA horrid and sickly stench fills the air... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

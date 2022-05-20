@@ -24,9 +24,9 @@
     "nbt": {
       "CustomName": "\u00A76The Hirschgeist",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 500 }
+        { "Name": "generic.maxHealth", "Base": 250 }
       ],
-      "Health": 500,
+      "Health": 250,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -69,9 +69,9 @@
     "nbt": {
       "CustomName": "\u00A76The Harvester",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 400 }
+        { "Name": "generic.maxHealth", "Base": 300 }
       ],
-      "Health": 400,
+      "Health": 300,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -159,9 +159,9 @@
     "nbt": {
       "CustomName": "\u00A76The Valkyrie Queen",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 1000 }
+        { "Name": "generic.maxHealth", "Base": 800 }
       ],
-      "Health": 1000,
+      "Health": 800,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -198,9 +198,9 @@
     "nbt": {
       "CustomName": "\u00A76The Wither",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 1200 }
+        { "Name": "generic.maxHealth", "Base": 500 }
       ],
-      "Health": 1200,
+      "Health": 500,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {
@@ -235,9 +235,9 @@
     "nbt": {
       "CustomName": "\u00A76The Ghast Queen",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 1600 }
+        { "Name": "generic.maxHealth", "Base": 1000 }
       ],
-      "Health": 1600
+      "Health": 1000
     }
   },
   "midgame.snowqueen": {
@@ -265,9 +265,9 @@
     "nbt": {
       "CustomName": "\u00A76The Snow Queen",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 2000 }
+        { "Name": "generic.maxHealth", "Base": 800 }
       ],
-      "Health": 2000,
+      "Health": 800,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {

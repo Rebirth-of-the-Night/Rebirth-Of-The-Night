@@ -19,7 +19,8 @@
         "/gamestage silentadd @p worldinvasion",
         "/difficulty hard",
         "/gamerule doFireTick false",
-        "/gamerule maxEntityCramming 50"
+        "/gamerule maxEntityCramming 50",
+        "/gamerule doMobSpawning false"
       ],
       "end": [
         "/weather clear",
@@ -30,7 +31,8 @@
         "/playsound minecraft:ui.toast.challenge_complete ambient @p",
         "/give @p contenttweaker:ancient_cache",
         "/gamerule doFireTick true",
-        "/gamerule maxEntityCramming 24"
+        "/gamerule maxEntityCramming 24",
+        "/gamerule doMobSpawning true"
       ]
     },
     "name": "Bandit Army",
@@ -39,7 +41,7 @@
       "end": "\u00A72Was it worth it? Desecrating the land to your pleasure, wreaking havoc nonchalantly, just so you could obtain more power. Do you consider yourself a hero? You are a monster.",
       "warn": {
         "ticks": 24000,
-        "message": "\u00A74\u00A7kThey approach, and you will die. (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A74\u00A7kThey approach, and you will die. (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [
@@ -2878,7 +2880,7 @@
           {
             "mobs": [
               {
-                "id": "midgame.valkqueen",
+                "id": "midgame.harvester",
                 "count": [ 1 ],
                 "spawn": {
                   "type": "ground",
@@ -2905,7 +2907,7 @@
           {
             "mobs": [
               {
-                "id": "midgame.valkqueen",
+                "id": "midgame.harvester",
                 "count": [ 2 ],
                 "spawn": {
                   "type": "ground",
@@ -5575,7 +5577,7 @@
                 }
               },
               {
-                "id": "midgame.valkyriequeen",
+                "id": "midgame.harvester",
                 "count": [ 1 ],
                 "spawn": {
                   "type": "ground",

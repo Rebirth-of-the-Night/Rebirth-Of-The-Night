@@ -44,7 +44,7 @@
       "end": "\u00A7aThe undead wave slowly tapers off, and all is quiet again.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eYou hear undead moaning in the distance... (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A7eYou hear undead moaning in the distance... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

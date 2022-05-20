@@ -17,6 +17,8 @@
     },
     "result": "default"
  },*/
+ 
+ 
  {
     "dimension": 4,
     "block": ["aether_legacy:aercloud"],
@@ -1620,12 +1622,21 @@
 	"block": ["minecraft:sandstone", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "undergroundbiomes:igneous_sandstone", "undergroundbiomes:metamorphic_sandstone", "undergroundbiomes:sedimentary_sandstone", "biomesoplenty:white_sandstone", "minecraft:stone", "undergroundbiomes:igneous_stone", "undergroundbiomes:metamorphic_stone", "undergroundbiomes:igneous_overgrown", "undergroundbiomes:metamorphic_overgrown", "undergroundbiomes:sedimentary_stone", "undergroundbiomes:sedimentary_overgrown"],	
 	"seesky": false,
     "maxcount": {
-        "amount": 16,
+        "amount": 4,
         "perplayer": true
     },
     "result": "allow"
  },
-
+ {
+    "dimension": [0, 10],
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 4,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
     {
     "dimension": [0,10],
     "mob": "minecraft:silverfish",
