@@ -112,14 +112,14 @@ recipes.addShaped("ravaging_shovel",<defiledlands:ravaging_shovel>,[
 recipes.remove(<defiledlands:the_ravager>);
 recipes.addShaped("the_ravager",<defiledlands:the_ravager>,[
 [<quark:pipe>, <defiledlands:black_heart>, <arcaneworld:molten_core>],
-[<simpleores:mythril_ingot>, <simpleores:mythril_ingot>, <quark:redstone_inductor>],
-[null, null, <simpleores:mythril_ingot>]
+[<betterwithmods:material:14>, <betterwithmods:material:14>, <quark:redstone_inductor>],
+[null, null, <betterwithmods:material:14>]
 ]);
 
 recipes.addShaped(<defiledlands:umbra_blaster>,[
 [<quark:pipe>, <mod_lavacow:mootenheart>, <arcaneworld:molten_core>],
-[<simpleores:mythril_ingot>, <simpleores:mythril_ingot>, <quark:redstone_inductor>],
-[null, null, <simpleores:mythril_ingot>]
+[<betterwithmods:material:14>, <betterwithmods:material:14>, <quark:redstone_inductor>],
+[null, null, <betterwithmods:material:14>]
 ]);
 
 recipes.remove(<defiledlands:pellet_umbrium>);

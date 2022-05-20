@@ -35,7 +35,11 @@ brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:re
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <minecraft:glowstone_dust>);
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"}), <randomthings:glowingmushroom>);
 
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
 
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
 
 // Misc. stuff
 JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
