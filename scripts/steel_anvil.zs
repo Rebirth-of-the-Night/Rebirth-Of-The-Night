@@ -50,6 +50,38 @@ var anvilArmorMap = {
 var plateArmor = <betterwithmods:material:42>;
 var counter = 0;
 
+recipes.remove(<atop:amethyst_boots:4>);
+Anvil.addShaped(<atop:amethyst_boots:4>,[
+    [null, null, <contenttweaker:exorite_ingot>],
+    [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor],
+    [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor],
+    [null, null, <contenttweaker:exorite_ingot>]
+    ]);
+
+recipes.remove(<atop:amethyst_chestplate:4>);
+Anvil.addShaped(<atop:amethyst_chestplate:4>,[
+    [plateArmor, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>],
+    [null, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>],
+    [null, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>],
+    [plateArmor, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>]
+    ]);
+
+recipes.remove(<atop:amethyst_helmet>);
+Anvil.addShaped(<atop:amethyst_helmet>,[
+    [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor],
+    [<contenttweaker:exorite_ingot>, null, null, null],
+    [<contenttweaker:exorite_ingot>, null, null, null],
+    [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, plateArmor]
+    ]);
+
+recipes.remove(<atop:amethyst_leggings:4>);
+Anvil.addShaped(<atop:amethyst_leggings:4>,[
+    [<contenttweaker:exorite_ingot>, plateArmor, plateArmor, plateArmor],
+    [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null, null],
+    [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null, null],
+    [<contenttweaker:exorite_ingot>, plateArmor, plateArmor, plateArmor]
+    ]);
+
 Anvil.addShaped(<aether_legacy:phoenix_helmet>,[
     [<arcaneworld:molten_core>, <arcaneworld:molten_core>, <arcaneworld:molten_core>, <contenttweaker:valkyrien_plate>],
     [<arcaneworld:molten_core>, null, null, null],
@@ -648,7 +680,39 @@ var anvilToolMap = {
     [<betterwithmods:material:14>, <betterwithmods:material:36>] : soulforgedSteelTool,
     [<nyx:meteor_ingot>, <betterwithmods:material:36>] : meteorTool
 } as IItemStack[][IItemStack[]];
+
+    recipes.remove(<atop:amethyst_axe>);
+    Anvil.addShaped(<atop:amethyst_axe>,[
+        [null, null, null, <minecraft:blaze_rod>],
+        [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, <minecraft:blaze_rod>, null],
+        [<contenttweaker:exorite_ingot>, <minecraft:blaze_rod>, null,null],
+        [<contenttweaker:exorite_ingot>, null, null, null]
+    ]);
+
+    recipes.remove(<atop:amethyst_hoe>);
+    Anvil.addShaped(<atop:amethyst_hoe>,[
+        [null, null, null, <minecraft:blaze_rod>],
+        [<contenttweaker:exorite_ingot>, null, <minecraft:blaze_rod>, null],
+        [<contenttweaker:exorite_ingot>, <minecraft:blaze_rod>, null, null],
+        [<minecraft:blaze_rod>, null, null, null]
+    ]);
+
+    recipes.remove(<atop:amethyst_pickaxe>);
+    Anvil.addShaped(<atop:amethyst_pickaxe>,[
+        [null,null, null, <minecraft:blaze_rod>],
+        [<contenttweaker:exorite_ingot>, null, <minecraft:blaze_rod>, null],
+        [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null, null],
+        [null, <contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null]
+    ]);
     
+    recipes.remove(<atop:amethyst_shovel>);
+    Anvil.addShaped(<atop:amethyst_shovel>,[
+        [null, null, null, <minecraft:blaze_rod>],
+        [null, null, <minecraft:blaze_rod>, null],
+        [<contenttweaker:exorite_ingot>, <minecraft:blaze_rod>, null, null],
+        [<contenttweaker:exorite_ingot>, <contenttweaker:exorite_ingot>, null, null]
+    ]);
+
     recipes.remove(<twilightforest:ironwood_axe>);
     Anvil.addShaped(<twilightforest:ironwood_axe>.withTag({ench: [{lvl: 1 as short, id: 35 as short}]}),[
         [null, null, null, <iceandfire:witherbone>],
