@@ -1,3 +1,5 @@
+#priority 1000
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
@@ -9,41 +11,15 @@ import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Saw;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-recipes.removeByMod("betterwithaddons");
-Infuser.removeAll();
+import scripts.shared.utils.recipeUtils.metaArray;
+import scripts.shared.utils.recipeUtils.removeRecipeArrayRegex;
 
+	// original array, has been shortened a bit
 val bwaArray = [
     <betterwithaddons:pcb_block>,
-    <betterwithaddons:planks_mulberry>,
-    <betterwithaddons:planks_sakura>,
     <betterwithaddons:chandelier>,
-    <betterwithaddons:iron_spade>,
-    <betterwithaddons:iron_matchpick>,
-    <betterwithaddons:diamond_spade>,
-    <betterwithaddons:diamond_matchpick>,
-    <betterwithaddons:diamond_machete>,
-    <betterwithaddons:diamond_carpentersaw>,
-    <betterwithaddons:diamond_masonpick>,
     <betterwithaddons:material:4>,
     <betterwithaddons:material:5>,
-    <betterwithaddons:food_mushroom_baked>,
-    <betterwithaddons:iron_kukri>,
-    <betterwithaddons:iron_carpentersaw>,
-    <betterwithaddons:iron_masonpick>,
-    <betterwithaddons:gold_spade>,
-    <betterwithaddons:gold_matchpick>,
-    <betterwithaddons:gold_machete>,
-    <betterwithaddons:gold_kukri>,
-    <betterwithaddons:food_amanita_baked>,
-    <betterwithaddons:food_potato_cooked>,
-    <betterwithaddons:food_egg_cooked>,
-    <betterwithaddons:food_meatballs>,
-    <betterwithaddons:food_ground_meat>,
-    <betterwithaddons:food_pie_mushroom>,
-    <betterwithaddons:food_pie_amanita>,
-    <betterwithaddons:food_pie_meat>,
-    <betterwithaddons:food_pie_melon>,
-    <betterwithaddons:food_cooked_rice>,
     <betterwithaddons:laxative>,
     <betterwithaddons:brick_stained>,
     <betterwithaddons:shinai>,
@@ -52,28 +28,9 @@ val bwaArray = [
     <betterwithaddons:japanmat>,
     <betterwithaddons:japanmat:35>,
     <betterwithaddons:japanmat:36>,
-    <betterwithaddons:helmet_samurai>,
-    <betterwithaddons:chest_samurai>,
-    <betterwithaddons:legs_samurai>,
-    <betterwithaddons:boots_samurai>,
-    <betterwithaddons:helmet_paper>,
-    <betterwithaddons:chest_paper>,
-    <betterwithaddons:legs_paper>,
-    <betterwithaddons:boots_paper>,
     <betterwithaddons:decomat:*>,
     <betterwithaddons:tweakmat>,
-    <betterwithaddons:unbaked>,
-    <betterwithaddons:unbaked:1>,
-    <betterwithaddons:unbaked:2>,
-    <betterwithaddons:unbaked:3>,
     <betterwithaddons:rotten_food>,
-    <betterwithaddons:food_sashimi>,
-    <betterwithaddons:food_bowl_rice>,
-    <betterwithaddons:food_fugu_sac>,
-    <betterwithaddons:iron_machete>,
-    <betterwithaddons:gold_carpentersaw>,
-    <betterwithaddons:gold_masonpick>,
-    <betterwithaddons:diamond_kukri>,
     <betterwithaddons:katana>,
     <betterwithaddons:tanto>,
     <betterwithaddons:yumi>,
@@ -88,13 +45,6 @@ val bwaArray = [
     <betterwithaddons:weight_stone>,
     <betterwithaddons:spindle>,
     <betterwithaddons:loom>,
-    <betterwithaddons:sapling_mulberry>,
-    <betterwithaddons:log_mulberry>,
-    <betterwithaddons:sapling_sakura>,
-    <betterwithaddons:log_sakura>,
-    <betterwithaddons:crop_rush>,
-    <betterwithaddons:crop_rice>,
-    <betterwithaddons:crop_tea>,
     <betterwithaddons:bamboo>,
     <betterwithaddons:slat>,
     <betterwithaddons:netted_screen>,
@@ -115,16 +65,6 @@ val bwaArray = [
     <betterwithaddons:japanmat:*>,
     <betterwithaddons:teacup>,
     <betterwithaddons:ya>,
-    <betterwithaddons:food_carrot_cooked>,
-    <betterwithaddons:food_beetroot_cooked>,
-    <betterwithaddons:food_pufferfish_prepared>,
-    <betterwithaddons:food_pufferfish_cooked>,
-    <betterwithaddons:world_scale_ore:*>,
-    <betterwithaddons:leaves_mulberry>,
-    <betterwithaddons:leaves_sakura>,
-    <betterwithaddons:worldshard>,
-    <betterwithaddons:world_scale:*>,
-    <betterwithaddons:world_scale_active:*>,
     <betterwithaddons:leafpile_sakura>,
     <betterwithaddons:bag:*>,
     <betterwithaddons:legendarium>,
@@ -154,74 +94,93 @@ val bwaArray = [
     <betterwithaddons:aqueduct:10>
 ] as IItemStack[];
 
+var bwa = "betterwithaddons";
+recipes.removeByMod(bwa);
+Infuser.removeAll();
+
 for item in bwaArray {
     JEI.removeAndHide(item);
 }
 
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "sencha"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "assam"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "nether"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "ceylon"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "white"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "bancha"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "end"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "tencha"}));
-JEI.removeAndHide(<betterwithaddons:tea_leaves>.withTag({type: "gyokuro"}));
-JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "sencha"}));
-JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "bancha"}));
-JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "tencha"}));
-JEI.removeAndHide(<betterwithaddons:tea_soaked>.withTag({type: "gyokuro"}));
-JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "assam"}));
-JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "nether"}));
-JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "ceylon"}));
-JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "white"}));
-JEI.removeAndHide(<betterwithaddons:tea_wilted>.withTag({type: "end"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "sencha"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "assam"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "nether"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "ceylon"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "white"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "bancha"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "end"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "tencha"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "gyokuro"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "matcha"}));
-JEI.removeAndHide(<betterwithaddons:tea_powder>.withTag({type: "houjicha"}));
+	// explanation for below, cuz i know regex is hard to read
+	// (a|b|c) gets anything that matches one of those three
+	// (?!a|b|c).* gets everything except items matching those three
+val regexArray = [
+	"(iron|diamond|gold).*",
+	".*(paper|samurai)",
+	"food_(?!carrot_baked|beetroot_baked|clownfish_cooked|pufferfish_baked|mulberry).*",
+	"crop.*",
+	"(log|sapling|planks|leaves)_(?!luretree).*",
+	"world.*",
+] as string[];
+
+for i in regexArray {
+	removeRecipeArrayRegex(bwa~":"~i);
+}
+
+var unbak = metaArray(bwa~":unbaked",0,5) as IItemStack[];
+for i in unbak {
+	JEI.removeAndHide(i);
+}
+
+val teaTypes = [
+	"sencha",
+	"assam",
+	"nether",
+	"ceylon",
+	"white",
+	"bancha",
+	"end",
+	"tencha",
+	"gyokuro",
+	"matcha",
+	"houjicha"
+] as string[];
+
+val teaItems = [
+	<betterwithaddons:tea_leaves>,
+	<betterwithaddons:tea_soaked>,
+	<betterwithaddons:tea_wilted>,
+	<betterwithaddons:tea_powder>
+] as IItemStack[];
+
+
+for t in teaTypes {
+	for it in teaItems {
+		JEI.removeAndHide(it.withTag({type: t}));
+	}
+}
+
 furnace.remove(<betterwithaddons:food_cooked_rice>);
 LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 recipes.remove(<betterwithaddons:material:3>);
 recipes.remove(<betterwithaddons:thorn_rose:0>);
 
-JEI.hideCategory("bwa.tatara");
-JEI.hideCategory("bwa.firenet");
-JEI.hideCategory("bwa.waternet");
-JEI.hideCategory("bwa.sandnet");
-JEI.hideCategory("bwa.soakingbox");
-JEI.hideCategory("bwa.dryingbox");
+var cat = [
+	"tatara",
+	"firenet",
+	"sandnet",
+	"soakingbox",
+	"dryingbox"
+] as string[];
+
+for i in cat {
+	JEI.hideCategory("bwa."~i);
+}
 
 Mill.remove([<betterwithaddons:food_ground_meat>]);
 Cauldron.remove([<betterwithaddons:food_meatballs>]);
 Cauldron.remove([<betterwithaddons:pcb_block>]);
-Cauldron.remove([<betterwithaddons:wool:0>]);
-Cauldron.remove([<betterwithaddons:wool:1>]);
-Cauldron.remove([<betterwithaddons:wool:2>]);
-Cauldron.remove([<betterwithaddons:wool:3>]);
-Cauldron.remove([<betterwithaddons:wool:4>]);
-Cauldron.remove([<betterwithaddons:wool:5>]);
-Cauldron.remove([<betterwithaddons:wool:6>]);
-Cauldron.remove([<betterwithaddons:wool:7>]);
-Cauldron.remove([<betterwithaddons:wool:8>]);
-Cauldron.remove([<betterwithaddons:wool:9>]);
-Cauldron.remove([<betterwithaddons:wool:10>]);
-Cauldron.remove([<betterwithaddons:wool:11>]);
-Cauldron.remove([<betterwithaddons:wool:12>]);
-Cauldron.remove([<betterwithaddons:wool:13>]);
-Cauldron.remove([<betterwithaddons:wool:14>]);
-Cauldron.remove([<betterwithaddons:wool:15>]);
 Cauldron.remove([<betterwithaddons:decomat:1>]);
 Cauldron.remove([<betterwithaddons:decomat:2>]);
 Cauldron.remove([<betterwithaddons:pavement:0>]);
+
+var wool = metaArray("betterwithaddons:wool");
+for i in wool {
+	Cauldron.remove([i]);
+}
+
 Saw.remove(<betterwithaddons:planks_sakura>);
 Saw.remove(MiniBlocks.getMiniBlock("moulding", <betterwithaddons:planks_sakura>).items[0]);
 Saw.remove(MiniBlocks.getMiniBlock("siding", <betterwithaddons:planks_sakura>).items[0]);
@@ -242,6 +201,7 @@ recipes.addShaped(<betterwithaddons:tatami> * 4, [
 ]);
 
 val hollowReed = <ore:hollowReed>;
+var stone3 = [<ore:stone>, <ore:stone>, <ore:stone>] as IIngredient[];
 
 recipes.addShaped("bwa_scaffold", <betterwithaddons:scaffold> * 6, [
     [hollowReed, wicker, hollowReed],
@@ -250,16 +210,16 @@ recipes.addShaped("bwa_scaffold", <betterwithaddons:scaffold> * 6, [
 ]);
 
 recipes.addShaped("bwa_banner_detector", <betterwithaddons:banner_detector>, [
-    [<ore:stone>, <ore:stone>, <ore:stone>],
+    stone3,
     [<minecraft:item_frame>, <betterwithaddons:block_matcher>, <minecraft:ender_eye>],
-    [<ore:stone>, <minecraft:banner:*>, <ore:stone>]
+    stone3
 ]);
 
 RecipeBuilder.get("mage")
   .setShaped([
-    [<ore:stone>, <ore:stone>, <ore:stone>],
+    stone3,
     [<minecraft:comparator>, <minecraft:redstone>, <minecraft:comparator>],
-    [<ore:stone>, <ore:stone>, <ore:stone>]])
+    stone3])
   .addTool(<contenttweaker:balance_rune>, 1)
   .addOutput(<betterwithaddons:block_matcher>)
   .setMinimumTier(1)
@@ -275,21 +235,21 @@ recipes.addShaped(<betterwithaddons:slat> * 8, [
 
 
 //Aqueducts
-recipes.addShaped(<betterwithaddons:aqueduct:4> * 6, [
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<ore:sandstone>, <ore:sandstone>, <ore:sandstone>]
-]);
-recipes.addShaped(<betterwithaddons:aqueduct> * 6, [
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<ore:StoneHugeBrick>, <ore:StoneHugeBrick>, <ore:StoneHugeBrick>]
-]);
-recipes.addShaped(<betterwithaddons:aqueduct:1> * 6, [
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-    [<contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>, <contenttweaker:brick_minecraft_clay>]
-]);
+var aq as IIngredient[IItemStack] = {
+	<betterwithaddons:aqueduct> : <ore:StoneHugeBrick>,
+	<betterwithaddons:aqueduct:1> : <contenttweaker:brick_minecraft_clay>,
+	<betterwithaddons:aqueduct:4> : <ore:sandstone>
+};
+
+var clay = <minecraft:clay_ball> as IIngredient;
+
+for k,v in aq {
+	recipes.addShaped(k * 6, [
+		[clay, clay, clay],
+		[clay, clay, clay],
+		[v, v, v]
+	]);
+}
 
 //Misc.
 recipes.addShapeless(<betterwithaddons:lattice> * 4, [<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>]);
