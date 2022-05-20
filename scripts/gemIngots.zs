@@ -380,50 +380,49 @@ mods.betterwithmods.Anvil.addShaped(<atop:topaz_sword>,
    [null, exorite, null, null]
 ]);
 
-/*
 recipes.remove(<atop:amethyst_hoe>);
-recipes.addShapedMirrored("exorite_hoe", <atop:amethyst_hoe>,
- [[exorite,exorite,null],
-  [null,stick,null],
-  [null,stick,null]]); 
+//recipes.addShapedMirrored("exorite_hoe", <atop:amethyst_hoe>,
+// [[exorite,exorite,null],
+//  [null,stick,null],
+//  [null,stick,null]]); 
 
   recipes.remove(<atop:amethyst_shovel>);
-recipes.addShapedMirrored("exorite_shovel", <atop:amethyst_shovel>,
- [[null,exorite,null],
-  [null,stick,null],
-  [null,stick,null]]); 
+// recipes.addShapedMirrored("exorite_shovel", <atop:amethyst_shovel>,
+//  [[null,exorite,null],
+//   [null,stick,null],
+//   [null,stick,null]]); 
 
 recipes.remove(<atop:amethyst_axe>);
-recipes.addShapedMirrored("exorite_axe", <atop:amethyst_axe>,
- [[exorite,exorite],
-  [exorite,stick],
-  [null,stick]]); 
+// recipes.addShapedMirrored("exorite_axe", <atop:amethyst_axe>,
+//  [[exorite,exorite],
+//   [exorite,stick],
+//   [null,stick]]); 
 
 recipes.remove(<atop:amethyst_pickaxe>);
-recipes.addShaped("exorite_pickaxe", <atop:amethyst_pickaxe>,
- [[exorite,exorite,exorite],
-  [null,stick,null],
-  [null,stick,null]]);
+// recipes.addShaped("exorite_pickaxe", <atop:amethyst_pickaxe>,
+//  [[exorite,exorite,exorite],
+//   [null,stick,null],
+// //   [null,stick,null]]);
 
   
 recipes.remove(<atop:amethyst_helmet>);
-recipes.addShaped("exorite_helmet", <atop:amethyst_helmet>,
- [[exorite,exorite,exorite],
-  [exorite,null,exorite]]);  
+// recipes.addShaped("exorite_helmet", <atop:amethyst_helmet>,
+//  [[exorite,exorite,exorite],
+//   [exorite,null,exorite]]);  
 
 recipes.remove(<atop:amethyst_chestplate>);
-recipes.addShaped("exorite_chestplate", <atop:amethyst_chestplate>,
- [[exorite,null,exorite],
-  [exorite,exorite,exorite],
-  [exorite,exorite,exorite]]);  
+// recipes.addShaped("exorite_chestplate", <atop:amethyst_chestplate>,
+//  [[exorite,null,exorite],
+//   [exorite,exorite,exorite],
+//   [exorite,exorite,exorite]]);  
 
 recipes.remove(<atop:amethyst_leggings>); 
-recipes.addShaped("exorite_leggings", <atop:amethyst_leggings>,
- [[exorite,exorite,exorite],
-  [exorite,null,exorite],
-  [exorite,null,exorite]]);   
+// recipes.addShaped("exorite_leggings", <atop:amethyst_leggings>,
+//  [[exorite,exorite,exorite],
+//   [exorite,null,exorite],
+//   [exorite,null,exorite]]);   
 
 recipes.remove(<atop:amethyst_boots>); 
-recipes.addShaped("exorite_boots", <atop:amethyst_boots>,
- [[exorite,null,exorite],
-  [exorite,null,exorite]]);*/
+// recipes.addShaped("exorite_boots", <atop:amethyst_boots>,
+//  [[exorite,null,exorite],
+//   [exorite,null,exorite]]);*/
