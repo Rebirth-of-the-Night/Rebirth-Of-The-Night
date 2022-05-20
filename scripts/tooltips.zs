@@ -657,3 +657,4 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 // BUGS
 #<aether_legacy:enchanted_blueberry>.addTooltip(format.red("DO NOT FEED TO HYPPOGRYPHS; CURRENTLY BUGGED AND UNTAMABLE."));
+<iceandfire:dragon_horn>.addTooltip(format.red("DO NOT USE ON YOUR DRAGONS, IT WILL DELETE THEM!"));

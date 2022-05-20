@@ -26,11 +26,11 @@ recipes.remove(<iceandfire:earplugs>);
 recipes.addShapeless("earplugs", <iceandfire:earplugs>, [<ore:buttonWood>, <ore:buttonWood>, <betterwithmods:material:4>, <betterwithmods:material:4>]);
 
 recipes.remove(<iceandfire:dragon_horn>);
-recipes.addShaped("dragon_horn",<iceandfire:dragon_horn>,[
+/*recipes.addShaped("dragon_horn",<iceandfire:dragon_horn>,[
   [null,null,<iceandfire:dragonbone>],
   [null,<iceandfire:dragonbone>,<iceandfire:dragonbone>],
   [<ore:stickWood>,<iceandfire:dragonbone>,null]
-]);
+]);*/
 
 recipes.remove(<iceandfire:tide_trident>);
 recipes.addShaped("tide_trident",<iceandfire:tide_trident>,[
@@ -118,3 +118,17 @@ RecipeBuilder.get("mage")
 # Spirit charging
 Infuser.addShapeless(<iceandfire:lich_staff>,
 [<iceandfire:lich_staff>.anyDamage(),<contenttweaker:vis_speck>], 32);
+
+# Apertures
+recipes.remove(<iceandfire:dragonforge_fire_input>);
+recipes.remove(<iceandfire:dragonforge_ice_input>);
+recipes.addShaped("dragonforge_fire_input", <iceandfire:dragonforge_fire_input>,[
+  [<iceandfire:dragonforge_fire_brick>, <ore:ingotSteel>, <iceandfire:dragonforge_fire_brick>],
+  [<ore:ingotSteel>, null, <ore:ingotSteel>],
+  [<iceandfire:dragonforge_fire_brick>, <ore:ingotSteel>, <iceandfire:dragonforge_fire_brick>]
+]);
+recipes.addShaped("dragonforge_ice_input", <iceandfire:dragonforge_ice_input>,[
+  [<iceandfire:dragonforge_ice_brick>, <ore:ingotSteel>, <iceandfire:dragonforge_ice_brick>],
+  [<ore:ingotSteel>, null, <ore:ingotSteel>],
+  [<iceandfire:dragonforge_ice_brick>, <ore:ingotSteel>, <iceandfire:dragonforge_ice_brick>]
+]);

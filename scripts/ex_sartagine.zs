@@ -376,6 +376,9 @@ ExSartagine.addPotRecipe(<minecraft:bone>|<undergroundbiomes:fossil_piece:2>|<un
 ExSartagine.addPotRecipe(veggie, stock*2);
 ExSartagine.addPotRecipe(<ore:listAllmeatraw>|<betterwithaddons:congealed>, stock*3);
 
+//Wormhold Potion
+ExSartagine.addKettleRecipe([<endreborn:item_raw_endorium>,<minecraft:glass_bottle>],null,waterBottle,[<bountifulbaubles:potionwormhole>],300);
+
 // Carrot Cake
 recipes.removeByRecipeName("harvestcraft:carrotcakeitem");
 ExSartagine.addKettleRecipe([dough,carrot,sugar],null,waterBottle,[<harvestcraft:carrotcakeitem>],200);

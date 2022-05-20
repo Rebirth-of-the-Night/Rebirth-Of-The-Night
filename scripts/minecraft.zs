@@ -19,13 +19,11 @@ JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
 JEI.removeAndHide(<customdisc:sussy>);
 <ore:blockMossy>.addItems([<minecraft:mossy_cobblestone>]);
 
-// Explosive stuff
+// Explodey stuff
 
 recipes.remove(<minecraft:tnt>);
 recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>]);
 recipes.addShapeless("dynamite_tnt",<betterwithmods:dynamite_bundle>*4,[<minecraft:tnt>]);
-recipes.remove(<quark:arrow_explosive>);
-recipes.addShapeless("explosive_arrows",<quark:arrow_explosive>*8,[<minecraft:arrow>*8,<betterwithmods:mining_charge>]);
 
 // Weapon changes
 recipes.remove(<rats:feral_bagh_nakhs>);
