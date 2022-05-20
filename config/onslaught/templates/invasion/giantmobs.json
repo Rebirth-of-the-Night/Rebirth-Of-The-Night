@@ -45,7 +45,7 @@
       "end": "\u00A7aThe massive creatures back off, for the time being.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eThey're coming, and they're huge! (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A7eThey're coming, and they're huge! (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

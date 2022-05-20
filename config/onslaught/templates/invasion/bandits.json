@@ -28,7 +28,7 @@
       "end": "\u00A7aThe bandit army retreats, letting out enough curses to make a sailor cry.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eYou see red-scarfed scouts surveying the area... (YOU WILL BE TP'D TO THE OVERWORLD!)"
+        "message": "\u00A7eYou see red-scarfed scouts surveying the area... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [
