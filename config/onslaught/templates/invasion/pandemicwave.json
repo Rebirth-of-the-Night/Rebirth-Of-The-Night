@@ -16,7 +16,8 @@
         "/tpp @p 0 0 1000 0",
         "/effect @p potioncore:teleport_spawn",
         "/gamestage silentadd @p invasionongoing",
-        "/gamerule maxEntityCramming 50"
+        "/gamerule maxEntityCramming 50",
+        "/gamerule doFireTick false"
       ],
       "end": [
         "/xp 2000 @p",
@@ -27,7 +28,8 @@
         "/give @p rats:plague_essence 4",
         "/give @p animania:sheep_cheese_wheel 3",
         "/give @p contenttweaker:raw_mythril 12",
-        "/gamerule maxEntityCramming 24"
+        "/gamerule maxEntityCramming 24",
+        "/gamerule doFireTick true"
       ]
     },
     "name": "Pandemic Wave",
