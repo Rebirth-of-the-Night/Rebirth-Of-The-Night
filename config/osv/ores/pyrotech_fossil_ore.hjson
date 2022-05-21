@@ -18,6 +18,12 @@ loot: [
     xp: [ 0, 1 ]
     chance: 0.5
   }
+  {
+    item: pyrotech_compat:rock_igneous_sand:9
+    count: [ 2, 3 ]
+    xp: [ 0, 2 ]
+    chance: 0.4
+  }
 ]
 texture: {
   shade: false

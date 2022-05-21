@@ -142,3 +142,15 @@ Anvil.addShaped(<futuremc:campfire>*4,
    [<ore:genericMetalNuggets>, <ore:genericMetalNuggets>, null, null]
 ]);
 */
+
+Anvil.addShaped(<contenttweaker:steel_crowbar>,
+[
+   [<dungeontactics:steel_ingot>, <contenttweaker:material_part:49>, null, null],
+   [<contenttweaker:material_part:49>, <dungeontactics:steel_ingot>, <contenttweaker:material_part:49>, null],
+   [<dungeontactics:steel_ingot>, <contenttweaker:material_part:49>, <dungeontactics:steel_ingot>, <contenttweaker:material_part:49>],
+   [null, null, <contenttweaker:material_part:49>, <dungeontactics:steel_ingot>]
+]);
+recipes.addShaped(, [
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
