@@ -33,7 +33,7 @@
       },
       "tickInputs": {},
       "tickOutputs": {}
-    },
+    }/*,
     {
       "uid": "familyguyfunnymoments43",
       "duration": 100,
@@ -65,6 +65,6 @@
       },
       "tickInputs": {},
       "tickOutputs": {}
-    }
+    }*/
   ]
 }

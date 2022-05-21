@@ -47,9 +47,6 @@ JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
 JEI.removeAndHide(<customdisc:sussy>);
 <ore:blockMossy>.addItems([<minecraft:mossy_cobblestone>]);
 JEI.removeAndHide(<forge:bucketfilled:*>);
-JEI.removeAndHide(<minecraft:milk_bucket>);
-JEI.removeAndHide(<minecraft:lava_bucket>);
-JEI.removeAndHide(<minecraft:water_bucket>);
 JEI.removeAndHide(<aether_legacy:skyroot_bucket:1>);
 JEI.removeAndHide(<aether_legacy:skyroot_bucket:4>);
 
