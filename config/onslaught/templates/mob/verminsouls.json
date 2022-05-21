@@ -8,6 +8,12 @@
         "duration": 50000,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {

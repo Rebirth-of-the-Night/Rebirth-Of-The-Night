@@ -19,6 +19,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -62,6 +68,12 @@
       {
         "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
         "amplifier": 0,
         "showParticles": false
       }
@@ -109,6 +121,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -154,6 +172,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -193,6 +217,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -230,6 +260,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
     ],
     "nbt": {
@@ -258,6 +294,12 @@
       {
         "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
         "amplifier": 0,
         "showParticles": false
       }

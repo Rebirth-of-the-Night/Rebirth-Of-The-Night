@@ -19,6 +19,12 @@
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
       
     ],
@@ -60,6 +66,12 @@
         "id": "minecraft:slowness",
         "duration": 50000,
         "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
         "showParticles": false
       }
       
@@ -108,6 +120,12 @@
         "duration": 50000,
         "amplifier": 1,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
       
     ],
@@ -152,6 +170,12 @@
         "id": "minecraft:slowness",
         "duration": 50000,
         "amplifier": 1,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
         "showParticles": false
       }
       

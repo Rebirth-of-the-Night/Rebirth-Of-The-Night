@@ -302,7 +302,7 @@
 {
     "mob": "minecraft:wither",
 	"onjoin": true,
-    "potion": ["potioncore:teleport_surface,1000000,1"],
+    "potion": ["potioncore:teleport_surface,60,1"],
     "damagemultiply": 2
   },
 

@@ -3,6 +3,12 @@
     "id": "iceandfire:stymphalianbird",
     "effects":[
       
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
     ],
     "nbt": {
@@ -22,6 +28,12 @@
       {
         "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
         "amplifier": 0,
         "showParticles": false
       }
@@ -54,6 +66,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
       
       
@@ -70,6 +88,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
       
     ],
@@ -81,7 +105,12 @@
     "id": "aether_legacy:cockatrice",
     "effects":[
       
-      
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
+      },
       {
         "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
@@ -97,6 +126,12 @@
     "id": "mod_lavacow:vespa",
     "effects":[
       
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
+      }
       
       
     ],
@@ -118,6 +153,12 @@
         "duration": 999999,
         "amplifier": 0,
         "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
+        "amplifier": 0,
+        "showParticles": false
       }
       
       
@@ -136,6 +177,12 @@
       {
         "id": "cyclicmagic:potion.swimspeed",
         "duration": 999999,
+        "amplifier": 0,
+        "showParticles": false
+      },
+      {
+        "id": "potioncore:teleport_surface",
+        "duration": 1,
         "amplifier": 0,
         "showParticles": false
       }
