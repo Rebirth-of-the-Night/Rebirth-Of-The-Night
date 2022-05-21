@@ -181,8 +181,9 @@ for w, weapon in sapphireweps{
 <contenttweaker:mythril_masonpick>.addTooltip("Can instantly remove resistant blocks for 30 durability.");
 <contenttweaker:sfs_masonpick>.addTooltip("Can instantly remove resistant blocks for 40 durability.");
 <contenttweaker:steel_crowbar>.addTooltip("Can instantly remove resistant blocks for 60 durability.");
-<betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln or dried out on a rack.");
-<betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln or dried out on a rack.");
+<betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln.");
+<contenttweaker:unfired_mud_brick>.addTooltip("Can be baked in a pit kiln.");
+<contenttweaker:unfired_adobe_brick>.addTooltip("Can be baked in a pit kiln.");
 
 <ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
 
