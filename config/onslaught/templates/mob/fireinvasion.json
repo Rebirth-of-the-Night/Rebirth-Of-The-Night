@@ -19,7 +19,7 @@
     "nbt": {
       "CustomName": "\u00A76Invading Fire Skeleton",
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
       ]
     }
   },
@@ -100,7 +100,7 @@
     "nbt": {
       "CustomName": "\u00A76Invading Fire Zombie",
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
       ]
     }
   },
@@ -152,7 +152,7 @@
         { "Count": 1, "id": "dungeontactics:steel_hoe" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
       ],
       "ArmorItems": [
         {},
@@ -187,7 +187,7 @@
         { "Count": 1, "id": "rustic:barrel" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
       ],
       "CustomName": "\u00A76Looting Fire Zombie"
     }
@@ -222,7 +222,7 @@
         { "Count": 1, "id": "minecraft:iron_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
       ],
       "ForgeData": {
         "Onslaught": {
@@ -457,7 +457,7 @@
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "Attributes": [ 
         { "Name": "generic.maxHealth", "Base": 150 },
-        { "Name": "generic.movementSpeed", "Base": 0.3 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 }
       ],
       "Health": 150,
       "CustomName": "\u00A74The OverCook",

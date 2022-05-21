@@ -1350,7 +1350,7 @@
     "curse": false,
     "allowed_on_books": true,
     "min_lvl": 1,
-    "max_lvl": 1,
+    "max_lvl": 2,
     "custom_evaluations": false,
     "min_ench_eval": "1+LVL*10",
     "max_ench_eval": "MIN+5",
@@ -1369,7 +1369,7 @@
   {
     "id": "spartanweaponry:propulsion",
     "name": "enchantment.spartanweaponry:propulsion",
-    "enabled": false,
+    "enabled": true,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",

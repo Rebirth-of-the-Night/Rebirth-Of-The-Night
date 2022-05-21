@@ -35,7 +35,7 @@
         { "Count": 1, "id": "minecraft:leather_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.movementSpeed", "Base": 0.25 },
         { "Name": "generic.maxHealth", "Base": 40 }
       ],
       "Health": 40,
@@ -127,7 +127,7 @@
         { "Count": 1, "id": "minecraft:leather_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
+        { "Name": "generic.movementSpeed", "Base": 0.25 },
         { "Name": "generic.maxHealth", "Base": 50 }
       ],
       "Health": 50,

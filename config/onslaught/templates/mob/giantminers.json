@@ -31,9 +31,9 @@
     "nbt": {
       "CustomName": "\u00A76Giant Miner",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 200 }
+        { "Name": "generic.maxHealth", "Base": 100 }
       ],
-      "Health": 200,
+      "Health": 100,
       "HandDropChances": [ 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -79,9 +79,9 @@
     "nbt": {
       "CustomName": "\u00A76Giant Bomber",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 100 }
+        { "Name": "generic.maxHealth", "Base": 0 }
       ],
-      "Health": 100,
+      "Health": 0,
       "HandItems": [
         { "Count": 1, "id": "minecraft:tnt" },
         { "Count": 1, "id": "minecraft:tnt" }
@@ -132,9 +132,9 @@
     "nbt": {
       "CustomName": "\u00A76Giant Protector",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 200 }
+        { "Name": "generic.maxHealth", "Base": 100 }
       ],
-      "Health": 200,
+      "Health": 100,
       "HandDropChances": [ 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -183,10 +183,10 @@
     "nbt": {
       "CustomName": "\u00A76Giant Overlord",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 800 }
+        { "Name": "generic.maxHealth", "Base": 700 }
       ],
       "HandDropChances": [ 0.0, 0.0 ],
-      "Health": 800,
+      "Health": 700,
       "ForgeData": {
         "Onslaught": {
           "CustomAI": {

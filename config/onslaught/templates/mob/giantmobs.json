@@ -35,10 +35,10 @@
         { "Count": 1, "id": "simpleores:adamantium_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
-        { "Name": "generic.maxHealth", "Base": 80 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 },
+        { "Name": "generic.maxHealth", "Base": 68 }
       ],
-      "Health": 80,
+      "Health": 68,
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -68,7 +68,7 @@
     "nbt": {
       "CustomName": "\u00A76Giant Zombie Miner",
       "HandItems": [
-        { "Count": 1, "id": "simpleores:onyx_pickaxe" },
+        { "Count": 1, "id": "atop:amethyst_pickaxe" },
         { "Count": 1, "id": "minecraft:torch" }
       ],
       "HandDropChances": [ 0.0, 0.0 ],
@@ -79,10 +79,10 @@
         { "Count": 1, "id": "simpleores:adamantium_helmet" }
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
-        { "Name": "generic.maxHealth", "Base": 80 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 },
+        { "Name": "generic.maxHealth", "Base": 68 }
       ],
-      "Health": 80,
+      "Health": 68,
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -125,10 +125,10 @@
         { "Count": 1, "id": "harvestcraft:candledeco13"}
       ],
       "Attributes": [
-        { "Name": "generic.movementSpeed", "Base": 0.3 },
-        { "Name": "generic.maxHealth", "Base": 60 }
+        { "Name": "generic.movementSpeed", "Base": 0.25 },
+        { "Name": "generic.maxHealth", "Base": 48 }
       ],
-      "Health": 60,
+      "Health": 48,
       "HandDropChances": [ 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -170,9 +170,9 @@
       ],
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.4 },
-        { "Name": "generic.maxHealth", "Base": 60 }
+        { "Name": "generic.maxHealth", "Base": 48 }
       ],
-      "Health": 60,
+      "Health": 48,
       "HandDropChances": [ 0.0, 0.0 ]
     }
   },
@@ -228,9 +228,9 @@
       "CustomName": "\u00A76Giant Spider",
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.4 },
-        { "Name": "generic.maxHealth", "Base": 40 }
+        { "Name": "generic.maxHealth", "Base": 20 }
       ],
-      "Health": 40,
+      "Health": 20,
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
@@ -285,9 +285,9 @@
       ],
       "Attributes": [
         { "Name": "generic.movementSpeed", "Base": 0.25 },
-        { "Name": "generic.maxHealth", "Base": 400 }
+        { "Name": "generic.maxHealth", "Base": 388 }
       ],
-      "Health": 400,
+      "Health": 388,
       "ArmorDropChances": [ 0.0, 0.0, 0.0, 0.0 ],
       "ForgeData": {
         "Onslaught": {
