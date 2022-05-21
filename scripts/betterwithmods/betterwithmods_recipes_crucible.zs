@@ -269,6 +269,15 @@ Crucible.addUnstoked(
         <ore:ingotBrass>.firstItem*2
     ]
 );
+Crucible.addUnstoked(
+    [
+        <ore:dustBrass>
+    ],
+    [
+        <ore:ingotBrass>.firstItem
+    ]
+);
+
 // Stoked Brass Production
 Crucible.addStoked(
     [
@@ -278,6 +287,14 @@ Crucible.addStoked(
     ],
     [
         <ore:ingotBrass>.firstItem*2
+    ]
+);
+Crucible.addStoked(
+    [
+        <ore:dustBrass>
+    ],
+    [
+        <ore:ingotBrass>.firstItem
     ]
 );
 

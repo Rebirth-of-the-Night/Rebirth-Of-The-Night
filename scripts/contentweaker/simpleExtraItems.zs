@@ -97,6 +97,14 @@ mythril_mattock.toolClass = "pickaxe";
 mythril_mattock.toolLevel = 4;
 mythril_mattock.register();
 
+var steel_crowbar = VanillaFactory.createItem("steel_crowbar");
+steel_crowbar.maxStackSize = 1;
+steel_crowbar.maxDamage = 1795;
+steel_crowbar.toolClass = "pickaxe";
+steel_crowbar.toolLevel = 2;
+//steel_crowbar.itemDestroySpeed = 12;
+steel_crowbar.register();
+
 var mythril_masonpick = VanillaFactory.createItem("mythril_masonpick");
 mythril_masonpick.maxStackSize = 1;
 mythril_masonpick.maxDamage = 2633;

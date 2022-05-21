@@ -227,8 +227,9 @@ item.contenttweaker.ancient_cache.name=§6Ancient Cache
 #------------------------------------------------------------------------------
 
 item.contenttweaker.mythril_masonpick.name=Mythril Mason Pick
-item.contenttweaker.sfs_masonpick.name=Soul Forged Steel Mason Pick
 item.contenttweaker.mythril_mattock.name=Mythril Mattock
+item.contenttweaker.sfs_masonpick.name=Soul Forged Steel Mason Pick
+item.contenttweaker.steel_crowbar.name=Steel Crowbar
 
 #------------------------------------------------------------------------------
 # Bricks

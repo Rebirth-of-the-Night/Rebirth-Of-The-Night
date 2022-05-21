@@ -254,7 +254,6 @@ for k,v in aq {
 //Misc.
 recipes.addShapeless(<betterwithaddons:lattice> * 4, [<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>,<rustic:iron_lattice>]);
 recipes.addShaped(<betterwithaddons:wrought_bars> * 16, [
-    [null, null, null],
     [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>],
     [<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]
 ]);

@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "defiledlands:items/the_ravager"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-23.5, -90, 0],
+			"translation": [0, 5, -5.25],
+			"scale": [1.8, 1.8, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-22.75, 90, 0],
+			"translation": [0, 5, -5.25],
+			"scale": [1.8, 1.8, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.38],
+			"scale": [1.2, 1.2, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [1.2, 1.2, 0.68]
+		},
+		"ground": {
+			"scale": [1.5, 1.5, 1]
+		},
+		"gui": {
+			"scale": [1.1, 1.1, 1]
+		},
+		"fixed": {
+			"scale": [1.4, 1.4, 1]
+		}
+	}
+}

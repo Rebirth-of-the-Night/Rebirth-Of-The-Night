@@ -261,6 +261,7 @@ Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact5>, 
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact6>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact7>, 2350);
 Melting.addRecipe(<liquid:soulforged_steel>*16, <contenttweaker:sfs_artifact8>, 2350);
+Melting.addRecipe(<liquid:soulforged_steel>*144, <ore:dustSoulforgedSteel>, 2350);
 Melting.addRecipe(<liquid:coade_stone>*144, <contenttweaker:masonry_brick>, 1373); // stone
 Melting.addRecipe(<liquid:coade_stone>*144, <pyrotech:rock>, 1373);
 Melting.addRecipe(<liquid:coade_stone>*(144*4), <ore:stone>, 1373);
@@ -273,41 +274,43 @@ Melting.addRecipe(<liquid:electrum>*16, <ore:nuggetElectrum>, 1400);
 Melting.addRecipe(<liquid:mythril>*144, <simpleores:mythril_ingot>, 2500); // mythril
 Melting.addRecipe(<liquid:mythril>*(144*9), <simpleores:mythril_block>, 2500);
 Melting.addRecipe(<liquid:mythril>*16, <ore:nuggetMythril>, 2500);
-Melting.addRecipe(<liquid:viridium>*144, <simpleores:adamantium_ingot>, 2500); // iridium
-Melting.addRecipe(<liquid:viridium>*(144*9), <contenttweaker:lunarinviridiumbrick>, 2500);
-Melting.addRecipe(<liquid:viridium>*16, <ore:nuggetViridium>, 2500);
-Melting.addRecipe(<liquid:ambrosium>*144, <ore:gemAmbrosium>, 300);
-Melting.addRecipe(<liquid:ambrosium>*(144*9), <aether_legacy:ambrosium_block>, 300);
 Melting.addRecipe(<liquid:mythril>*192, <ore:rawOreMythril>, 2500);
+Melting.addRecipe(<liquid:mythril>*144, <ore:dustMythril>, 2500);
+Melting.addRecipe(<liquid:viridium>*144, <simpleores:adamantium_ingot>, 2500); // viridium
+Melting.addRecipe(<liquid:viridium>*(144*9), <simpleores:adamantium_block>, 2500);
+Melting.addRecipe(<liquid:viridium>*16, <ore:nuggetViridium>, 2500);
 Melting.addRecipe(<liquid:viridium>*192, <ore:rawOreViridium>, 2500);
-Melting.addRecipe(<liquid:iron>*192, <ore:rawOreIron>, 1550);
-Melting.addRecipe(<liquid:tin>*192, <ore:rawOreTin>, 1550);
-Melting.addRecipe(<liquid:zinc>*192, <pyrotech:rock:3>, 1550);
-Melting.addRecipe(<liquid:copper>*192, <ore:rawOreCopper>, 1550);
-Melting.addRecipe(<liquid:gold>*192, <ore:rawOreGold>, 1750);
-Melting.addRecipe(<liquid:silver>*192, <ore:rawOreSilver>, 1750);
-Melting.addRecipe(<liquid:gravitite>*192, <ore:rawOreGravitite>, 1750);
-
-Melting.addRecipe(<liquid:iron>*144, <ore:ingotIron>, 1550);
-Melting.addRecipe(<liquid:tin>*144, <ore:ingotTin>, 1550);
-Melting.addRecipe(<liquid:zinc>*144, <ore:ingotZinc>, 1550);
-Melting.addRecipe(<liquid:copper>*144, <ore:ingotCopper>, 1550);
-Melting.addRecipe(<liquid:gold>*144, <ore:ingotGold>, 1750);
-Melting.addRecipe(<liquid:silver>*144, <ore:ingotSilver>, 1750);
-Melting.addRecipe(<liquid:gravitite>*144, <ore:ingotGravitite>, 1750);
-
+Melting.addRecipe(<liquid:viridium>*144, <ore:dustViridium>, 2500);
+Melting.addRecipe(<liquid:ambrosium>*144, <ore:gemAmbrosium>, 300); // ambrosium
+Melting.addRecipe(<liquid:ambrosium>*(144*9), <aether_legacy:ambrosium_block>, 300);
+Melting.addRecipe(<liquid:ambrosium>*144, <ore:dustAmbrosium>, 300);
+Melting.addRecipe(<liquid:iron>*144, <ore:ingotIron>, 1550); // iron
 Melting.addRecipe(<liquid:iron>*16, <ore:nuggetIron>, 1550);
+Melting.addRecipe(<liquid:iron>*192, <ore:rawOreIron>, 1550);
+Melting.addRecipe(<liquid:tin>*144, <ore:ingotTin>, 1550); // tin
 Melting.addRecipe(<liquid:tin>*16, <ore:nuggetTin>, 1550);
-Melting.addRecipe(<liquid:zinc>*16, <ore:nuggetZinc>, 1550);
+Melting.addRecipe(<liquid:tin>*192, <ore:rawOreTin>, 1550);
+Melting.addRecipe(<liquid:zinc>*144, <ore:ingotZinc>, 692); // zinc
+Melting.addRecipe(<liquid:zinc>*16, <ore:nuggetZinc>, 692);
+Melting.addRecipe(<liquid:zinc>*192, <pyrotech:rock:3>, 692);
+Melting.addRecipe(<liquid:zinc>*144, <ore:dustZinc>, 692);
+Melting.addRecipe(<liquid:brass>*144, <ore:dustBrass>, 1200); // brass
+Melting.addRecipe(<liquid:copper>*144, <ore:ingotCopper>, 1550); // copper
 Melting.addRecipe(<liquid:copper>*16, <ore:nuggetCopper>, 1550);
-Melting.addRecipe(<liquid:gold>*16, <ore:nuggetGold>, 1750);
+Melting.addRecipe(<liquid:copper>*192, <ore:rawOreCopper>, 1550);
+Melting.addRecipe(<liquid:gold>*144, <ore:ingotGold>, 1750); // gold
+Melting.addRecipe(<liquid:gold>*192, <ore:rawOreGold>, 1750);
+Melting.addRecipe(<liquid:gold>*16, <ore:nuggetGold>, 1750); 
+Melting.addRecipe(<liquid:silver>*144, <ore:ingotSilver>, 1750); // silver
+Melting.addRecipe(<liquid:silver>*192, <ore:rawOreSilver>, 1750);
 Melting.addRecipe(<liquid:silver>*16, <ore:nuggetSilver>, 1750);
-Melting.addRecipe(<liquid:gravitite>*16, <ore:nuggetGravitite>, 1750);
-
-Melting.addRecipe(<liquid:knightmetal>*144, <ore:ingotKnightmetal>, 2350);
-Melting.addRecipe(<liquid:ironwood>*144, <ore:ingotIronwood>, 2350);
-Melting.addRecipe(<liquid:steeleaf>*144, <ore:ingotSteeleaf>, 2350);
-Melting.addRecipe(<liquid:fiery>*144, <ore:ingotFiery>, 2350);
+Melting.addRecipe(<liquid:gravitite>*144, <ore:ingotGravitite>, 392); // gravitite
+Melting.addRecipe(<liquid:gravitite>*192, <ore:rawOreGravitite>, 392);
+Melting.addRecipe(<liquid:gravitite>*16, <ore:nuggetGravitite>, 392);
+Melting.addRecipe(<liquid:knightmetal>*144, <ore:ingotKnightmetal>, 2350); // knightmetal
+Melting.addRecipe(<liquid:ironwood>*144, <ore:ingotIronwood>, 2350); // ironwood
+Melting.addRecipe(<liquid:steeleaf>*144, <ore:ingotSteeleaf>, 2350); // steeleaf
+Melting.addRecipe(<liquid:fiery>*144, <ore:ingotFiery>, 2350); // fiery
 
 Melting.addRecipe(<liquid:blood>*288, <aether_legacy:vampire_blade>, 1450); // miscellaneous melting
 Melting.addRecipe(<liquid:blood>*48, <charm:rotten_flesh_block>, 1300);
@@ -316,11 +319,7 @@ Melting.addRecipe(<liquid:blood>*10, <biomesoplenty:flesh>, 600);
 Melting.addRecipe(<liquid:blood>*16, <betterwithmods:blood_log>, 800);
 Melting.addRecipe(<liquid:ender_slag>*1000, <ore:endstone>, 1200);
 
-Melting.addRecipe(<liquid:soulforged_steel>*144, <ore:dustSoulforgedSteel>, 2350); // dusts
 Melting.addRecipe(<liquid:steel>*144, <ore:dustCrucibleSteel>, 1800);
-Melting.addRecipe(<liquid:mythril>*144, <ore:dustMythril>, 2500);
-Melting.addRecipe(<liquid:viridium>*144, <ore:dustViridium>, 2500);
-Melting.addRecipe(<liquid:ambrosium>*144, <ore:dustAmbrosium>, 300);
 
 // Deprecated
 /*Melting.addRecipe(<liquid:mythril>*192, <ore:oreMythril>, 2500);

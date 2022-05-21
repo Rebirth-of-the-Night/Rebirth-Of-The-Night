@@ -101,7 +101,7 @@ for mat in stringMat {
     StoneKiln.addRecipe("StoneKiln"~mat, oreDict["ingot"~mat].firstItem, oreDict["ore"~mat], 20*250, true);
 }
 
-var dustMat as string[] = ["Iron", "Copper", "Tin", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum"];
+var dustMat as string[] = ["Iron", "Copper", "Tin", "Brass", "Silver", "Gold", "Viridium", "Mythril", "SoulforgedSteel", "CrucibleSteel", "Endorium", "Bronze", "Electrum"];
 for mat in dustMat {
     StoneKiln.addRecipe("StoneKiln_dust"~mat, oreDict["ingot"~mat].firstItem, oreDict["dust"~mat], 20*320, true);
 }

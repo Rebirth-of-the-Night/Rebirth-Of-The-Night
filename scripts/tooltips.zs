@@ -179,7 +179,8 @@ for w, weapon in sapphireweps{
 <betterwithmods:steel_gearbox>.addTooltip("Won't break from weather!");
 <betterwithmods:steel_axle>.addTooltip("Won't break from weather! Can also go up to 5 blocks, instead of the usual 3.");
 <contenttweaker:mythril_masonpick>.addTooltip("Can instantly remove resistant blocks for 30 durability.");
-<contenttweaker:sfs_masonpick>.addTooltip("Can instantly remove resistant blocks for 30 durability.");
+<contenttweaker:sfs_masonpick>.addTooltip("Can instantly remove resistant blocks for 40 durability.");
+<contenttweaker:steel_crowbar>.addTooltip("Can instantly remove resistant blocks for 60 durability.");
 <betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln or dried out on a rack.");
 <betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln or dried out on a rack.");
 
@@ -543,6 +544,11 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <minecraft:wooden_shovel>.addShiftTooltip("Well, a wooden spoon can unlock a great deal of sorceries.");
 
 <dungeontactics:ducttape>.addTooltip("Right click with a damaged item in your off-hand to restore some durability.");
+
+// Plants
+<betterwithmods:hemp>.addTooltip("Fertile Seasons:");
+<betterwithmods:hemp>.addTooltip(format.lightPurple("Year-Round"));
+<betterwithmods:hemp>.addTooltip('Only grows directly below the open sky or a "Light Block"');
 
 // Wands
 
