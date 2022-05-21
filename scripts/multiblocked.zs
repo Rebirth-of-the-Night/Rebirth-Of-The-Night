@@ -82,7 +82,7 @@ recipes.addShaped((<multiblocked:mechanical_processor>), [
     [<aesthetics:iron_brick_stairs>.reuse(), <betterwithmods:wooden_axle>, <aesthetics:iron_brick_stairs>.reuse()], 
     [null, <betterwithmods:cooking_pot:1>.reuse(), null]
 ]);
-recipes.addShapeless("seed_to_viridium", <contenttweaker:raw_viridium>*3, [<contenttweaker:viridea_seed>]);
+recipes.addShapeless("seed_to_viridium", <contenttweaker:raw_viridium>*2, [<contenttweaker:viridea_seed>]);
 
 JEI.addItem(<minecraft:potion>.withTag({CustomPotionEffects:[{Id:1,Amplifier:2,Duration:100},{Id:6},{Id:8,Amplifier:1,Duration:100},{Id:10,Amplifier:3,Duration:100},{Id:11,Amplifier:1,Duration:100},{Id:18,Amplifier:99,Duration:200},{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 0 as byte, Duration: 200, Id: 206, Amplifier: 0 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 200, Id: 145, Amplifier: 100 as byte}, {Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 200, Id: 138, Amplifier: 100 as byte}],CustomPotionColor:720683,display:{Name:"Potion of Withdrawing",Lore:["A handy brew that extends your life for just a bit longer."]}}));
 JEI.addItem(<minecraft:potion>.withTag({Potion: "potioncore:bless"}));

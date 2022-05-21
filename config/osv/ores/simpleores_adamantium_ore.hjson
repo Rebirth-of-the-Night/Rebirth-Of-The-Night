@@ -9,9 +9,9 @@ block: {
 }
 loot: [
   {
-    item: contenttweaker:raw_viridium
-    count: [ 1, 2 ]
-    xp: [ 3, 5 ]
+    item: contenttweaker:material_part:10
+    count: [ 1, 3 ]
+    xp: [ 1, 3 ]
     chance: 1
   },
   {

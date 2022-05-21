@@ -36,9 +36,9 @@ RecipeBuilder.get("mage")
 // Animated Brain & Rocket
 RecipeBuilder.get("mage")
   .setShaped([
-    [<contenttweaker:vis_speck>, <contenttweaker:raw_viridium>, <contenttweaker:vis_speck>],
-    [<contenttweaker:raw_viridium>, <contenttweaker:brain>, <contenttweaker:raw_viridium>],
-    [<contenttweaker:vis_speck>, <contenttweaker:raw_viridium>, <contenttweaker:vis_speck>]])
+    [<contenttweaker:vis_speck>, <simpleores:adamantium_ingot>, <contenttweaker:vis_speck>],
+    [<simpleores:adamantium_ingot>, <contenttweaker:brain>, <simpleores:adamantium_ingot>],
+    [<contenttweaker:vis_speck>, <simpleores:adamantium_ingot>, <contenttweaker:vis_speck>]])
   .addTool(<contenttweaker:mind_rune>, 1)
   .addTool(<contenttweaker:nature_rune>, 1)
   .addOutput(<contenttweaker:animated_brain>)
