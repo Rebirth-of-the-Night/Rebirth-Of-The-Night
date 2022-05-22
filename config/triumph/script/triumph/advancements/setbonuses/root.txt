@@ -7,7 +7,7 @@ setIcon(<dungeontactics:silver_sword>)
 //Set title String
 setTitle("Perfectly Ready")
 
-setDescription("Perfectly Ready")
+setDescription("The world is a dangerous place- you'll need to prepare for the fight of your life.")
 
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
@@ -24,5 +24,5 @@ setAnnounceToChat(false)
 addCriteria("impossible", "minecraft:impossible")
 
 setHidden(true)
-setPos(-1,0)
+setPos(-84,135)
 hideLines()
