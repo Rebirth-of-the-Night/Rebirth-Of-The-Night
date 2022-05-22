@@ -46,7 +46,7 @@
     "minheight": 128,
     "gamestage": "invasionongoing",
 	"damage": "magic=4",
-	"message": "§cYou should get below y= 128... NOW!"
+	"message": "§cYou should get below y = 128... NOW!"
   },
   {
     "timeout": 60,

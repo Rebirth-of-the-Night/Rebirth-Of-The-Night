@@ -156,6 +156,7 @@ LootTable.removeGlobalItem("betterwithaddons:food_mulberry");
 
 recipes.remove(<betterwithaddons:material:3>);
 recipes.remove(<betterwithaddons:thorn_rose:0>);
+JEI.removeAndHide(<betterwithaddons:steel_masonpick>);
 
 var cat = [
 	"tatara",

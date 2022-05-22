@@ -51,7 +51,6 @@ JEI.removeAndHide(<aether_legacy:skyroot_bucket:1>);
 JEI.removeAndHide(<aether_legacy:skyroot_bucket:4>);
 
 // Explodey stuff
-
 recipes.remove(<minecraft:tnt>);
 recipes.addShapeless("tnt_dynamite",<minecraft:tnt>,[ <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>, <betterwithmods:dynamite_bundle>]);
 recipes.addShapeless("dynamite_tnt",<betterwithmods:dynamite_bundle>*4,[<minecraft:tnt>]);
@@ -107,7 +106,6 @@ JEI.removeAndHide(<extraalchemy:potion_ring>.withTag({Potion: "minecraft:invisib
 JEI.removeAndHide(<contenttweaker:info>);
 JEI.removeAndHide(<contenttweaker:four_gem_ingots>);
 JEI.removeAndHide(<contenttweaker:four_gems>);
-JEI.removeAndHide(<contenttweaker:scaffolding>);
 
 // For charcoal see pyrotech_recipes_kiln.zs
 furnace.remove(<minecraft:coal:1>);

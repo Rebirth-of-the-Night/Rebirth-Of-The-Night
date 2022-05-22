@@ -134,10 +134,6 @@ sheepPrimeProduce.addItemEntry(<contenttweaker:sheep_intestines>, 1, 0, [Functio
 // DungeonTactics
 LootTable.removeGlobalItem("dungeontactics:phylactery");
 
-
-// Fishs Undead Rising
-LootTable.removeGlobalItem("mod_lavacow:hyphae");
-
 // PrimitiveMobs ######################
 <entity:primitivemobs:harpy>.removeDrop(<minecraft:gold_nugget>);
 <entity:primitivemobs:grovesprite>.removeDrop(<primitivemobs:wonder_sap>);

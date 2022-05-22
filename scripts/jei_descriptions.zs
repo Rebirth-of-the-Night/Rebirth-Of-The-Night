@@ -60,6 +60,8 @@ JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfort
 JEI.addDescription(<atop:mud_sword>,"A standard bronze sword.");
 JEI.addDescription(<spartanshields:shield_basic_bronze>, "Also known as hoplon. Provides excellent cover without sacrificing offensive capacity.");
 
+JEI.addDescription(<atop:tanzanite_helmet>,"In the heart of a vast forest...");
+
 JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but can only be enchanted in the True Enchanting Table.");
 JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but can only be enchanted in the True Enchanting Table.");
@@ -131,7 +133,7 @@ JEI.addDescription(<ore:gemDiamond>,'Diamond! The hardest material available in 
 JEI.addDescription(charcoal,"The process to obtaining quality charcoal requires either a proper kiln or pit burning. A simple furnace's direct fire is too strong and would just burn the wood...");
 JEI.addDescription(<quark:biotite>,"An otherworldly crystal made of tough organic matter. Can be found on the center island after killing the Ender Dragon.");
 JEI.addDescription(<ore:dustCopper>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
-JEI.addDescription(<ore:dustZinc>,"Can be extracted from zinc pebbles found in frozen biomes or from marmatite found everywhere near wonder geodes. Crumblier metals can be bashed into workable dusts without the need of an anvil.");
+JEI.addDescription(<ore:dustZinc>,"Can be extracted from zinc pebbles found in frozen biomes or from marmatite found near wonder geodes. Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustTin>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustBronze>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
 JEI.addDescription(<ore:dustIron>,"Crumblier metals can be bashed into workable dusts without the need of an anvil.");
@@ -317,6 +319,7 @@ JEI.addDescription(<minecraft:torch>, "An adventurer's best friend. Most will ra
 JEI.addDescription(<arcanearchives:quartz_sliver>, "A cheap alternative to torches obtained by punching blocks with radiant quartz.");
 JEI.addDescription(<simpleores:copper_block>, "Blocks of copper have the particularity of developing a crust or patina of a beautiful color similar to diamond; this natural feature can be prevented by coating it in wax.");
 
+JEI.addDescription(<contenttweaker:baguettebrick>, "'this shit look like ancient debris with poop smeared on it' -elite meats");
 
 /* Redstone, Automation and Functional Blocks */
 JEI.addDescription(<quark:ender_watcher>, "Redstone technology combined with the unblinking will of an Eye of Ender. Emits a redstone signal when looked at.");
@@ -459,11 +462,11 @@ JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the P
 JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
 JEI.addDescription(<quark:soul_bead>,"Warped bead formed from the cursed core of a wraith. Ingesting it releases the trapped spirits within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
 JEI.addDescription(<villagenames:codex>,"The codex was an ancient index of information used long time ago by advanced civilizations. Using it while holding a book in the off-hand will register data of the structure its holder is inside.");
-JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with the essence of the night. Can be obtained from the harvester.");
+JEI.addDescription(<contenttweaker:shard_of_night>,"Imbued with the essence of the night. Can be obtained from the Harvester.");
 JEI.addDescription(<contenttweaker:volatile_core>,"The turbulent essence of an extraterrestrial being. Contains the unstable powder used to concentrate and refine meteorite.");
 JEI.addDescription(<contenttweaker:ardicite>,"A naturally occurring form of pure hellfire that can host Onyx formations. It is a fiery material that can be found in the Nether in pockets of flammable sulfur.");
 JEI.addDescription(<contenttweaker:ofuda>,"An old sheet of paper with indecipherable writing on it. Often found hanging in places believed to have been highly dangerous or cursed, these were likely used as some sort of charm to ward off danger or ailment. Whoever made these are probably no longer around; these ofuda were probably a last ditch attempt at saving themselves from disaster... or a warning for whoever may stumble upon them in the future. It faintly glows by unknown methods.");
-JEI.addDescription(<betterwithaddons:ancestry_bottle>,"Spirits extracted from souls, little remains of the original entity. Keep a bottle in your inventory when killing paranormal undead to snatch the spirit before it returns to the spiritual realm.");
+JEI.addDescription(<betterwithaddons:ancestry_bottle>,"Spirits extracted from souls; little remains of the original entity. Keep a bottle in your inventory when killing paranormal undead to snatch the spirit before it returns to the spiritual realm.");
 
 /* Miscellaneous (and I mean TRUE miscellaneous) */
 val arcaneBarrier = <dimstack:bedrock:0>;
@@ -473,8 +476,9 @@ val lodestone = <dungeontactics:mithril_block>;
 
 JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
-JEI.addDescription(dummy_fire,"Fire! Once common knowledge, now there is no certainty that humanity was the first civilization to conquer this force of nature, but they are still as good making the most out of it. Ignite a surface using a hand drill, a flint and steel, a firecharge or more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
+JEI.addDescription(dummy_fire,"Fire! Once thought to be the case, there is now no certainty that humans were the first civilization to conquer this force of nature; but they are still just as good making the most out of it as ever. Ignite a surface using a hand drill, a flint and steel, a fire charge or more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
 JEI.addDescription(lodestone, "Mysterious stones with magnetic properties buried in cold long ago. Mining it makes you feel funny...");
+JEI.addDescription(<contenttweaker:scaffolding>, "A rickety building material thrown together by monsters who are smarter than they seem. Easily cleared away. Breaks down over time.");
 
 /* Runes and Magic */
 JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item to change the item's glow color.");

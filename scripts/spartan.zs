@@ -205,22 +205,6 @@ JEI.removeAndHide(<spartanweaponry:katana_electrum>);
 JEI.removeAndHide(<spartanweaponry:staff_electrum>);
 JEI.removeAndHide(<contenttweaker:ancient_cache>);
 
-JEI.removeAndHide(<spartanweaponry:parrying_dagger_electrum>);
-JEI.removeAndHide(<spartanweaponry:parrying_dagger_diamond>);
-JEI.removeAndHide(<spartanweaponry:parrying_dagger_copper>);
-JEI.removeAndHide(<spartanweaponry:parrying_dagger_tin>);
-JEI.removeAndHide(<spartanweaponry:parrying_dagger_invar>);
-JEI.removeAndHide(<spartanweaponry:parrying_dagger_wood>);
-JEI.removeAndHide(<spartanweaponry:parrying_dagger_stone>);
-
-recipes.remove(<spartanweaponry:parrying_dagger_electrum>);
-recipes.remove(<spartanweaponry:parrying_dagger_diamond>);
-recipes.remove(<spartanweaponry:parrying_dagger_copper>);
-recipes.remove(<spartanweaponry:parrying_dagger_tin>);
-recipes.remove(<spartanweaponry:parrying_dagger_invar>);
-recipes.remove(<spartanweaponry:parrying_dagger_wood>);
-recipes.remove(<spartanweaponry:parrying_dagger_stone>);
-
 // JEI.removeAndHide(<spartancompat:handle_skyroot>); skyroot_replacement.zs
 // JEI.removeAndHide(<spartancompat:pole_skyroot>);
 // JEI.removeAndHide(<spartancompat:crossbow_skyroot>);

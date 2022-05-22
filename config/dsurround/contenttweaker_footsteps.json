@@ -94,9 +94,7 @@
 		"contenttweaker:brick_netherex_fiery": "brickstone",
 		"contenttweaker:brick_minecraft_end": "brickstone",
 		"contenttweaker:brick_betterwithaddons_whitebrick": "brickstone",
-		"contenttweaker:brick_ceramics_porcelain": "marble"
-
-
-
+		"contenttweaker:brick_ceramics_porcelain": "marble",
+		"contenttweaker:marmatite": "ore,obsidian"
 	}
 }

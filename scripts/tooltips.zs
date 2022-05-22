@@ -434,6 +434,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <growthcraft_rice:rice>.addTooltip("Staple of civilization; should be cooked first.");
 <growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
+<dungeontactics:toast>.addTooltip("Why did you make this?");
+
 // Misc.
 <antiqueatlas:empty_antique_atlas>.addTooltip("Antique Map");
 <golems:golem_head>.addTooltip("Used for summoning Golems");

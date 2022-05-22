@@ -1,0 +1,20 @@
+{
+  "baseUrl": "https://raw.githubusercontent.com/mobends/mobends-resources/master/assets/",
+  "assets": [
+    {
+      "id": 1,
+      "version": 0,
+      "path": "models/accessory_rulers_crown.json"
+    },
+    {
+      "id": 2,
+      "version": 0,
+      "path": "textures/accessory_rulers_crown_diffuse.png"
+    },
+    {
+      "id": 3,
+      "version": 0,
+      "path": "textures/accessory_rulers_crown_inked.png"
+    }
+  ]
+}
