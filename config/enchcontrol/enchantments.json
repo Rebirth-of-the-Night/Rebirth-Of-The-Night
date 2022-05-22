@@ -1369,7 +1369,7 @@
   {
     "id": "spartanweaponry:propulsion",
     "name": "enchantment.spartanweaponry:propulsion",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "RARE",
