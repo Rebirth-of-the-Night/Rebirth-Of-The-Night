@@ -178,14 +178,14 @@ for i in 0 .. 8 {
 								igBrickWall.makeStack(i));
 
 	Stonecutter.addOutputs(igCobble.makeStack(i),
-								igCobbleSlab.makeStack(i),
+								igCobbleSlab.makeStack(i)*2,
 								igCobbleStairs.makeStack(i),
 								igCobbleWall.makeStack(i));
 
 	Stonecutter.addOutputs(igStone.makeStack(i),
-								igStoneSlab.makeStack(i),
+								igStoneSlab.makeStack(i)*2,
 								/* igBrick.makeStack(i), */
-								/* igBrickSlab.makeStack(i), */
+								/* igBrickSlab.makeStack(i)*2, */
 								igStairs.makeStack(i),
 								/* igBrickStairs.makeStack(i),											 */
 								igWall.makeStack(i),
@@ -199,14 +199,14 @@ for i in 0 .. 8 {
 								metaBrickWall.makeStack(i));
 
 	Stonecutter.addOutputs(metaCobble.makeStack(i),
-								metaCobbleSlab.makeStack(i),
+								metaCobbleSlab.makeStack(i)*2,
 								metaCobbleStairs.makeStack(i),
 								metaCobbleWall.makeStack(i));
 
 	Stonecutter.addOutputs(metaStone.makeStack(i),
-								metaStoneSlab.makeStack(i),
+								metaStoneSlab.makeStack(i)*2,
 								/* metaBrick.makeStack(i), */
-								/* metaBrickSlab.makeStack(i), */
+								/* metaBrickSlab.makeStack(i)*2, */
 								metaStairs.makeStack(i),
 								/* metaBrickStairs.makeStack(i),									 */
 								metaWall.makeStack(i),
@@ -216,7 +216,7 @@ for i in 0 .. 8 {
 	// Sedimentary stone recipes
 
 	Stonecutter.addOutputs(sediStone.makeStack(i),
-								sediStoneSlab.makeStack(i),
+								sediStoneSlab.makeStack(i)*2,
 								sediStairs.makeStack(i),
 								sediWall.makeStack(i));
 	
@@ -255,7 +255,7 @@ Stonecutter.addOutputs(<biomesoplenty:white_sandstone>,				// White Sandstone
 							<biomesoplenty:white_sandstone:2>,		// Smooth White Sandstone
 							<biomesoplenty:white_sandstone:1>,		// Chiseled White Sandstone
 							<biomesoplenty:white_sandstone_stairs>,	// White Sandstone Stairs
-							<biomesoplenty:other_slab:1>);			// White Sandstone Slab
+							<biomesoplenty:other_slab:1>*2);			// White Sandstone Slab
 
 Stonecutter.addOutputs(<biomesoplenty:white_sandstone:2>,			// Smooth White Sandstone
 							<biomesoplenty:white_sandstone:1>);		// Chiseled White Sandstone
