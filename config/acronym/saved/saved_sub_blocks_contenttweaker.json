@@ -3,7 +3,8 @@
     "0": {
       "0": "zinc_ore",
       "1": "zinc_block",
-      "2": "wrought_iron_block"
+      "2": "wrought_iron_block",
+      "3": "wrought_iron_ore"
     }
   }
 }
