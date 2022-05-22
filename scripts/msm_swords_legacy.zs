@@ -225,7 +225,7 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heartofthefallen>,
 ]);
 
 
-val enchantments5 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:absorb>, <enchantment:msmlegacy:decay>, <enchantment:msmlegacy:vitality>, <enchantment:dungeontactics:runed>];
+val enchantments5 as IEnchantmentDefinition[] = [<enchantment:livingenchantment:enchantment.living>, <enchantment:msmlegacy:absorb>, <enchantment:msmlegacy:decay>, <enchantment:msmlegacy:vitality>, <enchantment:msmlegacy:consuming_shadows>];
 var enchantmentMap5 as IData = {};
 
 
