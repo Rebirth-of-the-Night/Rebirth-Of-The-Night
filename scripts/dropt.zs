@@ -611,7 +611,7 @@ Dropt.list("plants_basic_dead")
 
   .add(Dropt.rule()
       .matchBiomes(["biomesoplenty:wasteland","biomesoplenty:xeric_shrubland"])
-      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy:","biomesoplenty:willow_vine:"])])
+      .matchBlocks(["biomesoplenty:plant_0:*","biomesoplenty:plant_1:0","biomesoplenty:plant_1:1","biomesoplenty:plant_1:2","biomesoplenty:plant_1:7","biomesoplenty:plant_1:11","biomesoplenty:double_plant:0","biomesoplenty:double_plant:1","biomesoplenty:ivy:","biomesoplenty:willow_vine:"])])
       .replaceStrategy("ADD")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(4200)) // drops nothing if selected
