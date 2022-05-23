@@ -1,7 +1,7 @@
 {
   "beasts": {
     "selector": {
-      "weight": 2, // should be powers of 1.8 actually
+      "weight": 2, // should be powers of 1.9 actually
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
