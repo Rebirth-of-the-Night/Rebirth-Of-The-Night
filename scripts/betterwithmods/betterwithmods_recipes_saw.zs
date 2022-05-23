@@ -64,6 +64,14 @@ Saw.add(<defiledlands:tenebra_log>, [<defiledlands:tenebra_planks>*5,<hitwithaxe
 Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*4,<minecraft:redstone>,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:jukebox>,[<cyclicmagic:doorbell_simple>*4,<ore:ingotBrass>.firstItem,<pyrotech:rock:7>*2]);
 
+Saw.add(<betterwithmods:nether_clay>,[<betterwithmods:unfired_pottery:5>*4]);
+Saw.add(<contenttweaker:fiery_nether_sludge>,[<contenttweaker:unfired_fiery_brick>*4]);
+Saw.add(<minecraft:clay>,[<betterwithmods:unfired_pottery:4>*4]);
+//Saw.add(<contenttweaker:loose_adobe_bricks>,[<contenttweaker:unfired_adobe_brick>*4]); there's no raw adobe
+Saw.add(<biomesoplenty:mud>,[<contenttweaker:unfired_mud_brick>*4]);
+Saw.add(<contenttweaker:unfiredrefractory>,[<contenttweaker:unfired_refractory_brick>*4]);
+Saw.add(<ceramics:porcelain>,[<contenttweaker:unfired_porcelain_brick>*4]);
+
 for corner in MiniBlocks.getMiniBlock("corner", <ore:plankWood>).items {
     Saw.remove(corner);
 }

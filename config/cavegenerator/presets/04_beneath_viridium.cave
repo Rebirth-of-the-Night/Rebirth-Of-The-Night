@@ -1,0 +1,51 @@
+{
+  imports: common_values.cave::NATURAL_STONE
+  enabled: true
+  biomes: {
+    names: [ "beneath:the_beneath" ]
+    IDs: []
+    types: []
+  }
+  burrows: {
+    // This makes them tall
+    stretch: 2
+    height: [ 180, 245 ]
+    // This makes them flat
+    offset: {
+      range: [ 180, 245 ]
+      frequency: 0.02
+    }
+    target: 0.5
+    replaceableBlocks: $NATURAL_STONE
+    replaceDecorators: true
+    caveBlocks: [
+      {
+        states: contenttweaker:serpentinite
+        height: [ 160, 245 ]
+        integrity: 0.7
+      }
+      {
+        states: contenttweaker:raw_viridium_vein
+        height: [ 160, 245 ]
+        integrity: 0.3
+      }
+      {
+        states: contenttweaker:serpentinite_cobblestone
+        height: [ 160, 245 ]
+      }
+    ]
+    map: {
+      perturb: true
+      perturbAmp: 0.2
+      perturbFreq: 2.5
+      frequency: 0.05
+    }
+    floor: {
+      dummy: true
+    }
+    ceiling: {
+      dummy: true
+      dummyOutput: 240
+    }
+  }
+}

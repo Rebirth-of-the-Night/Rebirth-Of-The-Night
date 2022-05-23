@@ -3,7 +3,7 @@ mod: simpleores
 block: {
   location: simpleores:mythril_ore
   light: 7
-  hardness: 4
+  hardness: 10
   level: 3
 }
 loot: [

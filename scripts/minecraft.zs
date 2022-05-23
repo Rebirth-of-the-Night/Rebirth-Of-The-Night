@@ -172,6 +172,7 @@ furnace.addRecipe(<undergroundbiomes:sedimentary_stone:4>, <contenttweaker:ligni
 furnace.addRecipe(<undergroundbiomes:sedimentary_stone:5>, <contenttweaker:dolomite_cobble>);
 furnace.addRecipe(<undergroundbiomes:sedimentary_stone:6>, <contenttweaker:greywacke_cobble>);
 furnace.addRecipe(<undergroundbiomes:sedimentary_stone:7>, <contenttweaker:chert_cobble>);
+furnace.addRecipe(<contenttweaker:serpentinite>, <contenttweaker:serpentinite_cobblestone>);
 
 for rawOreBlock, rawOre in rtb {
   recipes.addShaped(rawOreBlock, [
@@ -208,6 +209,7 @@ var ctr as IItemStack[IItemStack] = {
   <undergroundbiomes:metamorphic_cobble:5> : <pyrotech_compat:rock_metamorphic:5>,
   <undergroundbiomes:metamorphic_cobble:6> : <pyrotech_compat:rock_metamorphic:6>,
   <undergroundbiomes:metamorphic_cobble:7> : <pyrotech_compat:rock_metamorphic:7>,
+  <contenttweaker:serpentinite_cobblestone> : <pyrotech_compat:rock_sedimentary_sand:11>,
   <contenttweaker:limestone_cobble> : <pyrotech:rock:8>,
   <undergroundbiomes:sedimentary_sandstone> : <pyrotech_compat:rock_sedimentary_sand:8>,
   <contenttweaker:chalk_cobble> : <pyrotech_compat:rock_sedimentary>,
@@ -1419,7 +1421,7 @@ val StoneHugeBrick = <ore:StoneHugeBrick>;
 StoneHugeBrick.addItems([<undergroundbiomes:igneous_brick:2>,<undergroundbiomes:igneous_brick:3>,<undergroundbiomes:igneous_brick:4>,<undergroundbiomes:igneous_brick:5>,<undergroundbiomes:igneous_brick:6>,<undergroundbiomes:igneous_brick:7>,<undergroundbiomes:metamorphic_brick>,<undergroundbiomes:metamorphic_brick:2>,<undergroundbiomes:metamorphic_brick:3>,<undergroundbiomes:metamorphic_brick:5>,<undergroundbiomes:metamorphic_brick:6>,<contenttweaker:brick_minecraft_stone>,<quark:biome_brick>,<undergroundbiomes:metamorphic_brick:7>,<quark:biome_brick:1>,<undergroundbiomes:igneous_brick:1>,<undergroundbiomes:metamorphic_brick:1>,<undergroundbiomes:igneous_brick>,<undergroundbiomes:metamorphic_brick:4>]);
 
 val cobblestoneOre = <ore:cobblestone>;
-cobblestoneOre.addItems([<contenttweaker:limestone_cobble>,<contenttweaker:siltstone_cobble>,<contenttweaker:chert_cobble>,<contenttweaker:shale_cobble>,<contenttweaker:chalk_cobble>,<contenttweaker:greywacke_cobble>,<contenttweaker:dolomite_cobble>,<contenttweaker:lignite_cobble>]);
+cobblestoneOre.addItems([<contenttweaker:limestone_cobble>,<contenttweaker:siltstone_cobble>,<contenttweaker:chert_cobble>,<contenttweaker:shale_cobble>,<contenttweaker:chalk_cobble>,<contenttweaker:greywacke_cobble>,<contenttweaker:dolomite_cobble>,<contenttweaker:lignite_cobble>,<contenttweaker:serpentinite_cobblestone>]);
 
 val toolAxe = <ore:toolAxe>;
 toolAxe.addItems([<minecraft:wooden_axe:*>,<aether_legacy:holystone_axe:*>,<aether_legacy:zanite_axe:*>,<aether_legacy:gravitite_axe:*>,<aether_legacy:valkyrie_axe:*>,<atop:mud_axe:*>,<betterwithmods:steel_axe:*>,<mowziesmobs:wrought_axe:*>,<netherex:frosted_amedian_axe:*>,<simpleores:copper_axe:*>,<simpleores:mythril_axe:*>,<simpleores:adamantium_axe:*>,<simpleores:onyx_axe:*>,<twilightforest:ironwood_axe:*>,<twilightforest:steeleaf_axe:*>,<twilightforest:minotaur_axe_gold:*>,<twilightforest:minotaur_axe:*>,<twilightforest:knightmetal_axe:*>,<spartancompat:battleaxe_onyx:*>,<spartancompat:battleaxe_holystone:*>,<spartancompat:battleaxe_zanite:*>,<spartancompat:battleaxe_gravitite:*>,<spartancompat:battleaxe_soulforged_steel:*>,<spartanfire:battleaxe_dragonbone:*>,<spartanfire:battleaxe_fire_dragonbone:*>,<spartanfire:battleaxe_ice_dragonbone:*>,<spartanfire:battleaxe_jungle:*>,<spartanfire:battleaxe_desert:*>,<spartanfire:battleaxe_jungle_venom:*>,<spartanfire:battleaxe_desert_venom:*>,<spartanfire:battleaxe_ice_dragonsteel:*>,<spartanfire:battleaxe_fire_dragonsteel:*>,<spartanweaponry:battleaxe_stone:*>,<spartanweaponry:battleaxe_iron:*>,<spartanweaponry:battleaxe_gold:*>,<spartanweaponry:battleaxe_diamond:*>,<spartanweaponry:battleaxe_bronze:*>,<spartanweaponry:battleaxe_silver:*>]);
@@ -1863,8 +1865,8 @@ val stoneBrickBlockMap = {
     <contenttweaker:brick_dolomite> : [<contenttweaker:big_dolomite_bricks>,<contenttweaker:loose_big_dolomite_bricks>],
     <contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
     <contenttweaker:brick_chert> : [<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
-    <contenttweaker:masonry_brick> : [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>]
-//    serpentinite : [,],
+    <contenttweaker:masonry_brick> : [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>],
+	<contenttweaker:brick_serpentinite> : [<contenttweaker:big_serpentinite_bricks>,<contenttweaker:brick_serpentinite>]
 //    <contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
 //    <contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
 //    <contenttweaker:brick_green_slate> : [<contenttweaker:loose_big_green_slate_bricks>,]

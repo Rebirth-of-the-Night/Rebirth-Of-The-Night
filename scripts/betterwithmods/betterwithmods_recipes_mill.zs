@@ -12,6 +12,23 @@ Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*3]);
 Mill.remove([<minecraft:gold_ingot>*2,<minecraft:gold_nugget>*6]);
 Mill.remove([<betterwithmods:material:44>]);
 Mill.remove([<betterwithmods:material:15>]);
+Mill.remove([<minecraft:brick>]);
+Mill.remove([<betterwithaddons:brick_stained>]);
+Mill.remove([<betterwithaddons:brick_stained:1>]);
+Mill.remove([<betterwithaddons:brick_stained:2>]);
+Mill.remove([<betterwithaddons:brick_stained:3>]);
+Mill.remove([<betterwithaddons:brick_stained:4>]);
+Mill.remove([<betterwithaddons:brick_stained:5>]);
+Mill.remove([<betterwithaddons:brick_stained:6>]);
+Mill.remove([<betterwithaddons:brick_stained:7>]);
+Mill.remove([<betterwithaddons:brick_stained:8>]);
+Mill.remove([<betterwithaddons:brick_stained:9>]);
+Mill.remove([<betterwithaddons:brick_stained:10>]);
+Mill.remove([<betterwithaddons:brick_stained:11>]);
+Mill.remove([<betterwithaddons:brick_stained:12>]);
+Mill.remove([<betterwithaddons:brick_stained:13>]);
+Mill.remove([<betterwithaddons:brick_stained:14>]);
+Mill.remove([<betterwithaddons:brick_stained:15>]);
 
 // Extra ground netherrack
 Mill.builder()

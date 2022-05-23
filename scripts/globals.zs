@@ -29,6 +29,7 @@ global mapCobbleToStone as IItemStack[IItemStack] = {
     <undergroundbiomes:metamorphic_cobble:5> : <undergroundbiomes:metamorphic_stone:5>, 
     <undergroundbiomes:metamorphic_cobble:6> : <undergroundbiomes:metamorphic_stone:6>, 
     <undergroundbiomes:metamorphic_cobble:7> : <undergroundbiomes:metamorphic_stone:7>, 
+	<contenttweaker:serpentinite_cobblestone> : <contenttweaker:serpentinite>, 
     <minecraft:cobblestone> : <minecraft:stone>
 } as IItemStack[IItemStack];
 

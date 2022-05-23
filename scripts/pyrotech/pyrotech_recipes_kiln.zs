@@ -85,6 +85,7 @@ StoneKiln.addRecipe("sedimentary_cobble_to_stone4", <undergroundbiomes:sedimenta
 StoneKiln.addRecipe("sedimentary_cobble_to_stone5", <undergroundbiomes:sedimentary_stone:5>, <contenttweaker:dolomite_cobble>, 20*320, true);
 StoneKiln.addRecipe("sedimentary_cobble_to_stone6", <undergroundbiomes:sedimentary_stone:6>, <contenttweaker:greywacke_cobble>, 20*320, true);
 StoneKiln.addRecipe("sedimentary_cobble_to_stone7", <undergroundbiomes:sedimentary_stone:7>, <contenttweaker:chert_cobble>, 20*320, true);
+StoneKiln.addRecipe("metamorphic_cobble_to_stone_extra0", <contenttweaker:serpentinite>, <contenttweaker:serpentinite_cobblestone>, 20*320, true);
 
 StoneKiln.addRecipe("sand_to_glass", <minecraft:glass>, <ore:sand>, 20*320, true);
 

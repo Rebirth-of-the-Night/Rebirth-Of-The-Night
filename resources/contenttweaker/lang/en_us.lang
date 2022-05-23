@@ -555,7 +555,7 @@ tile.contenttweaker.raw_mythril_block.name=Block of Raw Mythril
 tile.contenttweaker.raw_silver_block.name=Block of Raw Silver
 tile.contenttweaker.raw_tin_block.name=Block of Raw Tin
 tile.contenttweaker.raw_viridium_block.name=Block of Raw Viridium
-
+tile.contenttweaker.raw_viridium_vein.name=Raw Viridium Vein
 tile.contenttweaker.chalk_cobble.name=Chalk Cobblestone
 tile.contenttweaker.chert_cobble.name=Chert Cobblestone
 tile.contenttweaker.dolomite_cobble.name=Dolomite Cobblestone

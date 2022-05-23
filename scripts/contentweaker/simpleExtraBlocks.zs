@@ -306,10 +306,18 @@ var raw_gravitite = VanillaFactory.createBlock("raw_gravitite_block", <blockmate
 raw_gravitite.setCreativeTab(<creativetab:rotn_blocks>);
 raw_gravitite.register();
 
-// raw_viridium
-var raw_viridium = VanillaFactory.createBlock("raw_viridium_block", <blockmaterial:Iron>);
-raw_viridium.setCreativeTab(<creativetab:rotn_blocks>);
-raw_viridium.register();
+// raw_viridium_block
+var raw_viridium_block = VanillaFactory.createBlock("raw_viridium_block", <blockmaterial:Iron>);
+raw_viridium_block.setCreativeTab(<creativetab:rotn_blocks>);
+raw_viridium_block.register();
+
+// raw_viridium_vein
+var raw_viridium_vein = VanillaFactory.createBlock("raw_viridium_vein", <blockmaterial:Iron>);
+raw_viridium_vein.setCreativeTab(<creativetab:rotn_blocks>);
+raw_viridium_vein.setToolLevel(3);
+raw_viridium_vein.setBlockHardness(10.0);
+raw_viridium_vein.setLightValue(0.5);
+raw_viridium_vein.register();
 
 // raw_mythril
 var raw_mythril = VanillaFactory.createBlock("raw_mythril_block", <blockmaterial:Iron>);
@@ -1454,7 +1462,7 @@ ofuda.register();
 var serpentinite = VanillaFactory.createBlock("serpentinite", <blockmaterial:Rock>);
 serpentinite.setCreativeTab(<creativetab:rotn_blocks>);
 serpentinite.setBlockSoundType(<soundtype:stone>);
-serpentinite.setBlockHardness(25.0);
+serpentinite.setBlockHardness(20.0);
 serpentinite.setBlockResistance(20.0);
 serpentinite.setToolLevel(2);
 serpentinite.register();
@@ -1462,7 +1470,7 @@ serpentinite.register();
 var serpentinite_cobblestone = VanillaFactory.createBlock("serpentinite_cobblestone", <blockmaterial:Rock>);
 serpentinite_cobblestone.setCreativeTab(<creativetab:rotn_blocks>);
 serpentinite_cobblestone.setBlockSoundType(<soundtype:stone>);
-serpentinite_cobblestone.setBlockHardness(18.0);
+serpentinite_cobblestone.setBlockHardness(15.0);
 serpentinite_cobblestone.setBlockResistance(20.0);
 serpentinite_cobblestone.setToolLevel(2);
 serpentinite_cobblestone.register();

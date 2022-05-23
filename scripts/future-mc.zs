@@ -370,7 +370,8 @@ var bricks as IItemStack[][] = [
 	[ <contenttweaker:brick_lignite>		,	<contenttweaker:big_lignite_bricks>					,	<contenttweaker:loose_big_lignite_bricks>			,	<undergroundbiomes:sedimentary_stone:4> 	,	<pyrotech_compat:rock_igneous_sand:9> ],
 	[ <contenttweaker:brick_dolomite>		,	<contenttweaker:big_dolomite_bricks>				,	<contenttweaker:loose_big_dolomite_bricks>			,	<undergroundbiomes:sedimentary_stone:5> 	,	<pyrotech_compat:rock_sedimentary:3> ],
 	[ <contenttweaker:brick_greywacke>		,	<contenttweaker:big_greywacke_bricks>				,	<contenttweaker:loose_big_greywacke_bricks> 		,	<undergroundbiomes:sedimentary_stone:6> 	,	<pyrotech_compat:rock_sedimentary:4> ],
-	[ <contenttweaker:brick_chert>			,	<contenttweaker:big_chert_bricks>					,	<contenttweaker:loose_big_chert_bricks> 			,	<undergroundbiomes:sedimentary_stone:7> 	,	<pyrotech_compat:rock_sedimentary:5> ]
+	[ <contenttweaker:brick_chert>			,	<contenttweaker:big_chert_bricks>					,	<contenttweaker:loose_big_chert_bricks> 			,	<undergroundbiomes:sedimentary_stone:7> 	,	<pyrotech_compat:rock_sedimentary:5> ],
+	[ <contenttweaker:brick_serpentinite>	,	<contenttweaker:big_serpentinite_bricks>			,	<contenttweaker:loose_big_serpentinite_bricks>		,	<contenttweaker:serpentinite>				,	<pyrotech_compat:rock_sedimentary_sand:11>]
 ] as IItemStack[][];
 
 // Dropt list

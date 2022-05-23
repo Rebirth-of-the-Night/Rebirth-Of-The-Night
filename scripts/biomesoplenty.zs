@@ -66,9 +66,8 @@ RecipeBuilder.get("mage")
 
 recipes.remove(<biomesoplenty:mud>);
 recipes.addShaped("mudblock", <biomesoplenty:mud>, [
-    [<biomesoplenty:mudball>,<biomesoplenty:mudball>,<biomesoplenty:mudball>],
-    [<biomesoplenty:mudball>,<biomesoplenty:mudball>,<biomesoplenty:mudball>],
-    [<biomesoplenty:mudball>,<biomesoplenty:mudball>,<biomesoplenty:mudball>]
+    [<biomesoplenty:mudball>,<biomesoplenty:mudball>],
+    [<biomesoplenty:mudball>,<biomesoplenty:mudball>]
 ]);
 
 recipes.removeByRecipeName("biomesoplenty:biome_finder");

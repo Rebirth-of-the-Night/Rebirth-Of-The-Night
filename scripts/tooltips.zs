@@ -314,6 +314,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <undergroundbiomes:metamorphic_stone:*>.addTooltip("Slow to break.");
 <undergroundbiomes:metamorphic_cobble:*>.addTooltip("Metamorphic stone formed under high pressures.");
 <undergroundbiomes:metamorphic_cobble:*>.addTooltip("Slow to break.");
+<contenttweaker:serpentinite>.addTooltip("Metamorphic stone formed where the earth tries to heal itself.");
+<contenttweaker:serpentinite>.addTooltip("Slow to break.");
+<contenttweaker:serpentinite_cobblestone>.addTooltip("Metamorphic stone formed where the earth tries to heal itself.");
+<contenttweaker:serpentinite_cobblestone>.addTooltip("Slow to break.");
 <betterwithmods:aesthetic:6>.addTooltip("Metamorphic stone formed from heated endstone."); //white stone
 <betterwithmods:aesthetic:6>.addTooltip("Slow to break.");
 <betterwithmods:aesthetic:7>.addTooltip("Metamorphic stone formed from heated endstone."); //white cobblestone
