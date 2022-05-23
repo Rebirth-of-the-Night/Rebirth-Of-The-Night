@@ -7,3 +7,4 @@ mods.orestages.OreStages.addNonDefaultingReplacement("killedWither", <simpleores
 mods.orestages.OreStages.addNonDefaultingReplacement("killedWither", <osv:simpleores_onyx_ore_contenttweaker_ardicite:*>, <contenttweaker:dormant_ardicite_onyx:*>);
 
 mods.DimensionStages.addDimensionStage("killedHarvester", -1);
+mods.DimensionStages.addDimensionStage("minedMythril", 1);
