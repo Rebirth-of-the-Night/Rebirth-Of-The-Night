@@ -55,7 +55,7 @@
                 "count": [ 14, 16 ],
                 "spawn": {
                   "type": "ground",
-                  "light": [ 0, 15 ],
+                  "light": [ 0, 7 ],
                   "rangeXZ": [
                     8,
                     64
@@ -76,7 +76,7 @@
                 "count": [ 16, 18 ],
                 "spawn": {
                   "type": "ground",
-                  "light": [ 0, 15 ],
+                  "light": [ 0, 7 ],
                   "rangeXZ": [
                     8,
                     64
@@ -97,7 +97,7 @@
                 "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
-                  "light": [ 0, 15 ],
+                  "light": [ 0, 7 ],
                   "rangeXZ": [
                     8,
                     64
@@ -130,7 +130,7 @@
                 "count": [ 4 ],
                 "spawn": {
                   "type": "ground",
-                  "light": [ 0, 15 ],
+                  "light": [ 0, 7 ],
                   "rangeXZ": [
                     8,
                     64
