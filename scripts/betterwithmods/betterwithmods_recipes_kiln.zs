@@ -1,3 +1,4 @@
+import mods.betterwithmods.Kiln;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -5,111 +6,45 @@ import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
 import mods.jei.JEI;
 
-mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_minecraft_clay>);
-mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_minecraft_nether>);
-mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_pyrotech_refractory>);
-mods.betterwithmods.Kiln.registerBlock(<contenttweaker:brick_ceramics_porcelain>);
+Kiln.registerBlock(<contenttweaker:brick_minecraft_clay>);
+Kiln.registerBlock(<contenttweaker:brick_minecraft_nether>);
+Kiln.registerBlock(<contenttweaker:brick_pyrotech_refractory>);
+Kiln.registerBlock(<contenttweaker:brick_ceramics_porcelain>);
 
-mods.betterwithmods.Kiln.removeAll();
+Kiln.removeAll();
 
-//Fence Destroyer
-mods.betterwithmods.Kiln.add(
-	<minecraft:fence>,
-	[
-	<minecraft:stick>,
-	<minecraft:stick>
-	]
-);
-//Salt
-mods.betterwithmods.Kiln.add(
-	<contenttweaker:salty_crust>,
-	[
-	<animania:salt>
-	]
+var kilnFood as IItemStack[][IIngredient] = {
+	<minecraft:fence> : [<minecraft:stick>,<minecraft:stick>],		//Fence Destroyer
+	<contenttweaker:salty_crust> : [<animania:salt>],		//Salt
+	<quark:biome_cobblestone> : [<betterwithmods:material:25>],			// Brimstone
+	<contenttweaker:plain_pizza_block> : [<harvestcraft:pizzaitem>],		 //Plain Pizza
+	<contenttweaker:abyss_pizza_block> : [<contenttweaker:abyss_pizza>],		//Abyss Pizza
+	<iceandfire:ash> : [<aether_legacy:dungeon_block:4>]		// Cosmetic
+};
 
-);
-// Brimstone
-mods.betterwithmods.Kiln.add(
-	<quark:biome_cobblestone>,
-	[
-	<betterwithmods:material:25>
-	]
+var kilnPottery as IItemStack[IIngredient] = {
+	<betterwithmods:raw_pastry:3> : <minecraft:bread>*2,
+	<contenttweaker:crucible> : <betterwithmods:cooking_pot>,
+	<betterwithmods:unfired_pottery:1> : <betterwithmods:planter>,
+	<contenttweaker:pot_unfired> : <rustic:vase>,
+	<betterwithmods:unfired_pottery:2> : <betterwithmods:urn>,
+	<betterwithmods:unfired_pottery:3> : <betterwithmods:vase>,
+	<ceramics:clay_barrel_unfired> : <ceramics:clay_barrel>,
+	<ceramics:clay_barrel_unfired:1> : <ceramics:clay_barrel:1>,
+	<ceramics:clay_barrel_unfired:2> : <ceramics:porcelain_barrel>,
+	<ceramics:clay_barrel_unfired:3> : <ceramics:porcelain_barrel_extension>,
+	<contenttweaker:unfired_clay_faucet> : <pyrotech:faucet_stone>,
+	<contenttweaker:unfired_clay_collector> : <pyrotech:tar_collector>,
+	<contenttweaker:unfired_clay_drain> : <pyrotech:tar_drain>
+};
 
-);
-//Plain Pizza
-mods.betterwithmods.Kiln.add(
-	<contenttweaker:plain_pizza_block>,
-	[
-	<harvestcraft:pizzaitem>
-	]
+for k,v in kilnFood {
+	Kiln.add(k,v);
+}
 
-);
-//Abyss Pizza
-mods.betterwithmods.Kiln.add(
-	<contenttweaker:abyss_pizza_block>,
-	[
-	<contenttweaker:abyss_pizza>
-	]
-
-);
-// Cosmetic
-mods.betterwithmods.Kiln.add(
-	<iceandfire:ash>,
-	[
-	<aether_legacy:dungeon_block:4>
-	]
-);
-
-
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<betterwithmods:raw_pastry:3>, [<minecraft:bread>*2])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<contenttweaker:crucible>, [<betterwithmods:cooking_pot>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<betterwithmods:unfired_pottery:1>, [<betterwithmods:planter>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<contenttweaker:pot_unfired>, [<rustic:vase>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<betterwithmods:unfired_pottery:2>, [<betterwithmods:urn>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<betterwithmods:unfired_pottery:3>, [<betterwithmods:vase>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<ceramics:clay_barrel_unfired>, [<ceramics:clay_barrel>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<ceramics:clay_barrel_unfired:1>, [<ceramics:clay_barrel:1>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<ceramics:clay_barrel_unfired:2>, [<ceramics:porcelain_barrel>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<ceramics:clay_barrel_unfired:3>, [<ceramics:porcelain_barrel_extension>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<contenttweaker:unfired_clay_faucet>, [<pyrotech:faucet_stone>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<contenttweaker:unfired_clay_collector>, [<pyrotech:tar_collector>])
-.setHeat(1)
-.build();
-mods.betterwithmods.Kiln.builder()
-.buildRecipe(<contenttweaker:unfired_clay_drain>, [<pyrotech:tar_drain>])
-.setHeat(1)
-.build();
+for k,v in kilnPottery {
+	Kiln.builder()
+		.buildRecipe(k,[v])
+		.setHeat(1)
+		.build();
+}
