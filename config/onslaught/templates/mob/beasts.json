@@ -76,12 +76,6 @@
     "id": "minecraft:wolf",
     "effects": [
       {
-        "id": "minecraft:poison",
-        "duration": 300,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
         "id": "minecraft:slowness",
         "duration": 9999,
         "amplifier": 1,
@@ -120,12 +114,6 @@
     "id": "betteranimalsplus:boar",
     "effects": [
       {
-        "id": "minecraft:poison",
-        "duration": 300,
-        "amplifier": 0,
-        "showParticles": false
-      },
-      {
         "id": "minecraft:slowness",
         "duration": 9999,
         "amplifier": 1,
@@ -163,12 +151,6 @@
   "bear.boss.sick": {
     "id": "betteranimalsplus:blackbear",
     "effects": [
-      {
-        "id": "minecraft:poison",
-        "duration": 9999,
-        "amplifier": 0,
-        "showParticles": false
-      },
       {
         "id": "minecraft:slowness",
         "duration": 9999,
