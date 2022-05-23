@@ -1,7 +1,7 @@
 {
   "name": "Music",
   "description": "Tunes, notes and sounds!",
-  "icon": "trumpetskeleton:trumpet",
+  "icon": "ambience:soundnizer",
   "sortnum": 1,
   "parent": "miscellanea"
 }

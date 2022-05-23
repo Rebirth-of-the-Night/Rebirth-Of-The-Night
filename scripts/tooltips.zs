@@ -439,6 +439,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <growthcraft_rice:rice>.addShiftTooltip("Plant on a Rice Paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 <dungeontactics:toast>.addTooltip("Why did you make this?");
+<contenttweaker:baguettebrick>.addShiftTooltip("'this shit look like ancient debris with poop smeared on it' -elite meats");
 
 // Misc.
 <antiqueatlas:empty_antique_atlas>.addTooltip("Antique Map");

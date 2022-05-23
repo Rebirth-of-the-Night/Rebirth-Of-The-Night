@@ -23,18 +23,112 @@
       "type": "image",
       "images": ["book:images/1foraging.png"],
       "border": "true",
+      "title": "Mature Ginseng Root",
       "text": "is required to plant and grow them, just good ol' dirt or grass."
     },
     {
       "type": "spotlight",
       "item": "rustic:marsh_mallow",
-      "text": "Marsh mallow is a dense tuber that grows in swampy, marshy, or boggy areas. "
+      "text": "Marsh mallow is a dense root that grows in swampy, marshy, or boggy areas. Its distinctive lilac-colored flowers make it easy to spot amongst the brown and green landscape.$(br2)Like ginseng, it can be easily replanted on plain dirt or grass without water.$(br2)"
     },
     {
       "type": "image",
-      "images": ["book:images/1foraging.png"],
+      "images": ["book:images/2foraging.png"],
       "border": "true",
-      "text": "is required to plant and grow them, just good ol' dirt or grass."
+      "title": "Mature Marsh Mallow Root",
+      "text": "It has a slightly sweet taste, so it's a bit more palatable than most roots."
+    },
+    {
+      "type": "spotlight",
+      "item": "rustic:cloudsbluff",
+      "text": "A puffy white flower that most commonly blooms in elevated areas. It has a slightly pale pink tint; the cause of this color, I can't figure out. Even more puzzling is what happens when it's eaten; it lightens my whole body... literally. As if it defies gravity, it makes me slowly float upwards, like a cloud."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/3foraging.png"],
+      "border": "true",
+      "title": "Mature Cloudsbluff",
+      "text": "A bizarre property... it could be used cleverly. Maybe its color is related to that?"
+    },
+    {
+      "type": "spotlight",
+      "item": "rustic:core_root",
+      "text": "Core roots are a tough plant found sparsely in the cavernous underside of the surface. Less-than-ideal conditions for plant life down there have made them very resilient as a result; being plantable on many surfaces, even stone. Similar to ginseng, they can easily be harvested and replanted."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/4foraging.png"],
+      "border": "true",
+      "title": "Mature Core Root",
+      "text": "These would be a great food source in areas without much soil."
+    },
+    {
+      "type": "spotlight",
+      "item": "rustic:wildberries",
+      "title": "Carminberries",
+      "text": "Carminberry bushes grow plentifully in temperate areas such as forests; they bear plump red berries that are juicy and sweet. Unfortunately, these bushes don't replant so easily, and they will die if I try to uproot them too hastily. For now, I can just strip them of their berries as I pass along."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/5foraging.png"],
+      "border": "true",
+      "title": "Carminberry Bush",
+      "text": "The berries' bright red juices may have some uses for dyeing or staining."
+    },
+    {
+      "type": "spotlight",
+      "item": "biomesoplenty:berries",
+      "title": "Hawberries",
+      "text": "Hawthorn bushes grow in similar conditions to their carminberry siblings; however, the fruit they produce is a striking blue color... and not nearly as tasty, being hard and a bit sour. Additionally, the bushes have poisonous thorns that prick my hand! Ouch. I shouldn't mess with these too much. However..."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/6foraging.png"],
+      "border": "true",
+      "title": "Hawthorn Bush",
+      "text": "...other hoofed, maned four-legged friends may enjoy them."
+    },
+    {
+      "type": "spotlight",
+      "item": "dynamictrees:appleseed",
+      "title": "Fruit Trees",
+      "text": "Fruit trees can be found occasionally throughout the world; usually commonly in warmer or more tropical areas.$(br2)As well as being a great source of delicious food, fruits also have seeds which can be used to plant new fruit trees."
+    },
+    {
+      "type": "image",
+      "images": ["book:images/7foraging.png"],
+      "border": "true",
+      "title": "Apple Tree",
+      "text": "$(italics)$(#a84b0f)Right click fruits on a tree to harvest them instantly. They regrow after a while.$()"
+    },
+    {
+      "type": "item_list_spotlight",
+      "title": "Gardens",
+      "text": "Aside from the various roots and fruits I can find and munch on, gardens can also be found on occasion throughout the surface:",
+      "a":"harvestcraft:aridgarden",
+      "a_t":"Found in arid and hot regions, like deserts.",
+      "a_i":"book:hover_icon.png",
+      "b":"harvestcraft:frostgarden",
+      "b_t":"Found in cold and snowy areas.",
+      "b_i":"book:hover_icon.png",
+      "c":"harvestcraft:shadedgarden",
+      "c_t":"Found in forested and dense biomes.",
+      "c_i":"book:hover_icon.png",
+      "d":"harvestcraft:soggygarden",
+      "d_t":"Found in swampy and wet biomes, like bogs.",
+      "d_i":"book:hover_icon.png",
+      "e":"harvestcraft:tropicalgarden",
+      "e_t":"Found in humid and tropical climates, like jungles.",
+      "e_i":"book:hover_icon.png",
+      "f":"harvestcraft:windygarden",
+      "f_t":"Found in sparser and more clear areas, like plains.",
+      "f_i":"book:hover_icon.png",
+      "g_i":"book:empty.png",
+      "text2": "Breaking these gardens give me a variety of fruits and vegetables, which can either be eaten right away or turned into seeds for planting later."
+    },
+    {
+      "type": "text",
+      "text": "Each garden has fruits and vegetables that are acclimated to the conditions of the region in which it is found; so something like $(thing)winter squash$() would only be found in a frost garden. Something to keep in mind when setting up farms later.$(br2)$(italics)$(#a84b0f)Tip: Breaking a garden while sneaking drops the garden itself, which can be replanted and broken later. Great for preventing inventory clutter.$()"
     },
     {
       "type": "relations",

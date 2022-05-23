@@ -91,35 +91,6 @@
       "text": "After the fish bites the hook, I should reel in fast before it can escape.$(br2)I shouldn't expect something so hastily cobbled together to last; it may unexpectedly break after reeling something in."
     },
     {
-      "type": "item_list_spotlight",
-      "title": "Gardens",
-      "text": "Aside from the various roots and seeds I can find and munch on, gardens can also be found on occasion throughout the surface:",
-      "a":"harvestcraft:aridgarden",
-      "a_t":"Found in arid and hot regions, like deserts.",
-      "a_i":"book:hover_icon.png",
-      "b":"harvestcraft:frostgarden",
-      "b_t":"Found in cold and snowy areas.",
-      "b_i":"book:hover_icon.png",
-      "c":"harvestcraft:shadedgarden",
-      "c_t":"Found in forested and dense biomes.",
-      "c_i":"book:hover_icon.png",
-      "d":"harvestcraft:soggygarden",
-      "d_t":"Found in swampy and wet biomes, like bogs.",
-      "d_i":"book:hover_icon.png",
-      "e":"harvestcraft:tropicalgarden",
-      "e_t":"Found in humid and tropical climates, like jungles.",
-      "e_i":"book:hover_icon.png",
-      "f":"harvestcraft:windygarden",
-      "f_t":"Found in sparser and more clear areas, like plains.",
-      "f_i":"book:hover_icon.png",
-      "g_i":"book:empty.png",
-      "text2": "Breaking these gardens give me a variety of fruits and vegetables, which can either be eaten right away or turned into seeds for planting later."
-    },
-    {
-      "type": "text",
-      "text": "Each garden has fruits and vegetables that are acclimated to the conditions of the region in which it is found; so something like $(thing)winter squash$() wound only be found in a frost garden. Something to keep in mind when setting up farms later.$(br2)$(italics)$(#a84b0f)Tip: Breaking a garden while sneaking drops the garden itself, which can be replanted and broken later. Great for preventing inventory clutter.$()"
-    },
-    {
       "type": "relations",
       "entries": [
       ]

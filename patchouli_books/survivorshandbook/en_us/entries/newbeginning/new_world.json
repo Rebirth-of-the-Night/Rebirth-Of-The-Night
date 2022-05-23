@@ -18,10 +18,6 @@
     },
     {
       "type": "text",
-      "text": "I might want to be careful about getting wounded... mobs might be attracted to the smell of my blood. They also seem to be attracted to loud sounds, so I should also block off noise-making blocks and creatures."
-    },
-    {
-      "type": "text",
       "text": "$(br2) $(br2) $(br2)$(italics)$(#a84b0f)The day/night cycle in RotN is 40 minutes in real-time; 20 minutes of night and day, twice as long as vanilla Minecraft.$()"
     },
     {

@@ -45,7 +45,7 @@
     },
     {
       "type": "text",
-      "text": "After, I'll need to break the grass around me to get some plant fibers. I can then place the plant fibers on the drying rack to dry them out after a short time, making dried fibers, which I can then turn into some twine.$(br2)Combining one twine with a stick gets me a handle, ready to be fashioned into a weapon. On the next few pages are some of my choices for weapons."
+      "text": "After, I'll need to break the tall grass and foliage around me to get some plant fibers. I can then place the plant fibers on the drying rack to dry them out after a short time, making dried fibers, which I can then turn into some twine.$(br2)Combining one twine with a stick gets me a handle, ready to be fashioned into a weapon. On the next few pages are some of my choices for weapons:"
     },
     {
       "type": "crafting",
@@ -90,7 +90,7 @@
     {
       "type": "crafting",
       "recipe": "spartanweaponry:quarterstaff_stone",
-      "text": "A pole with blunt stone on both ends. Great against a group of monsters, with its wide seeping attack. Similar to the warhammer, I'll need both hands to swing at full speed."
+      "text": "A swift pole with blunt stone on both ends. Great against a group of monsters, with its wide seeping attack. Similar to the warhammer, I'll need both hands to swing at full speed."
     },
     {
       "type": "relations",
