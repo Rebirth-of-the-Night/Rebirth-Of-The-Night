@@ -4,7 +4,7 @@
       "gamestages": {
         "and": ["enteredAether"]
       },
-      "weight": 10,
+      "weight": 13,
       "dimension": {
         "type": "include",
         "dimensions": [ 0 ]
