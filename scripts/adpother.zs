@@ -24,7 +24,6 @@ val mats as string[] = [
 var hiddenItems as string[] = [
     "vacuum_bag",
     "vacuum_tube",
-    "respirator"
 ] as string[];
 
 for mat in mats {
@@ -35,3 +34,16 @@ for mat in mats {
 
 JEI.removeAndHide(<adpother:diamond_filter>);
 JEI.removeAndHide(<adpother:gold_filter>);
+JEI.removeAndHide(<adpother:diamond_respirator>);
+JEI.removeAndHide(<adpother:gold_respirator>);
+
+recipes.addShaped(<adpother:iron_filter>, [
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <ore:genericMetalBars>, <minecraft:iron_ingot>], 
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
+recipes.addShaped(<adpother:iron_respirator>.withTag({FULLNESS: {CAPACITY: 30, degassing: 0, nitrogen: 0, dreadmist: 0, sulfur: 0, dust: 0, vilemist: 0}}), [
+    [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],
+    [<harvestcraft:hardenedleatheritem>, <ore:paneGlass>, <harvestcraft:hardenedleatheritem>], 
+    [<betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>]
+]);

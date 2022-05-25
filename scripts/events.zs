@@ -381,7 +381,7 @@ events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivin
 				var enchantmentMap1 as IData = {};
 				
 				enchantmentMap1 += enchantments1[0].makeEnchantment(2).makeTag();
-				enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
+				enchantmentMap1 += enchantments1[1].makeEnchantment(2).makeTag();
 				enchantmentMap1 += enchantments1[2].makeEnchantment(1).makeTag();
 				
 				drops[i] = <harvestersnight:harvester_scythe>.withTag(enchantmentMap1).createEntityItem(drops[i].world, drops[i].position);

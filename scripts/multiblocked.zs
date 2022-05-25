@@ -25,11 +25,6 @@ recipes.addShaped(<pollutantpump:pipe>*4, [
     [<ore:genericMetal>, null, <ore:genericMetal>], 
     [null, <ore:genericMetal>, null]
 ]);
-recipes.addShaped(<adpother:iron_filter>, [
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <ore:genericMetalBars>, <minecraft:iron_ingot>], 
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
 
 // multiblock controller recipes + assembler
 recipes.addShaped((<multiblocked:multiblock_builder>), [

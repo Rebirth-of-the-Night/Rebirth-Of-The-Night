@@ -812,8 +812,10 @@
         "amount": 2,
         "perplayer": true
     },
-    "result": "allow",
-    "potion": "slowness,1000000,0"
+    "speedmultiply": 0.75,
+    "onjoin": true,
+    "result": "allow"
+    
  },
  {
     "dimension": 10,
@@ -1845,6 +1847,8 @@
         "amount": 5,
         "perplayer": true
     },
+    "speedmultiply": 0.75,
+    "onjoin": true,
     "result": "default"
  },
  {
