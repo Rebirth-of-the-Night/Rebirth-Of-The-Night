@@ -214,6 +214,8 @@
 		"ironfurnaces:gold_furnace_active": "brickstone",
 		"ironfurnaces:diamond_furnace_active": "brickstone",
 		"ironfurnaces:iron_furnace_active": "sandstone",
-		"multiblockmobs:soul_chassis": "metalbar"
+		"multiblockmobs:soul_chassis": "metalbar",
+		"adpother:iron_filter": "metalbar",
+		"pollutantpump:pipe": "metalbar"
 	}
 }

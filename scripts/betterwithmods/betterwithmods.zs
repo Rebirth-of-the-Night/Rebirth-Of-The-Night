@@ -50,6 +50,7 @@ JEI.removeAndHide(<betterwithmods:leather_tanned_chest>);
 JEI.removeAndHide(<betterwithmods:leather_tanned_helmet>);
 JEI.removeAndHide(<betterwithmods:leather_tanned_pants>);
 
+JEI.removeAndHide(<betterwithmods:creative_generator>);
 
 JEI.removeAndHide(<betterwithmods:shaft>);
 JEI.removeAndHide(<betterwithmods:material>);

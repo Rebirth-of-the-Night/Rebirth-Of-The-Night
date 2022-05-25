@@ -95,6 +95,12 @@
 		"contenttweaker:brick_minecraft_end": "brickstone",
 		"contenttweaker:brick_betterwithaddons_whitebrick": "brickstone",
 		"contenttweaker:brick_ceramics_porcelain": "marble",
-		"contenttweaker:marmatite": "ore,obsidian"
+		"contenttweaker:marmatite": "ore,obsidian",
+		"contenttweaker:serpentinite": "obsidian",
+		"contenttweaker:serpentinite_cobblestone": "obsidian",
+		"contenttweaker:raw_viridium_vein": "ore",
+		"contenttweaker:loose_big_serpentinite_bricks": "obsidian,brickstone",
+		"contenttweaker:big_serpentinite_bricks": "obsidian,brickstone"
+
 	}
 }

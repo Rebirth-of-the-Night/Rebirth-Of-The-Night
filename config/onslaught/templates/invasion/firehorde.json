@@ -40,11 +40,11 @@
     },
     "name": "Fiery Horde",
     "messages": {
-      "start": "\u00A7cThe burning undead horde is invading!",
-      "end": "\u00A7aThe blazing horde has been stopped ... for now.",
+      "start": "\u00A7cFire burns on the horizon!",
+      "end": "\u00A7aThe flames have been put out... for now.",
       "warn": {
         "ticks": 48000,
-        "message": "\u00A7eThe faint smell of burnt flesh hangs in the air... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
+        "message": "\u00A7eThe faint smell of charred flesh hangs in the air... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

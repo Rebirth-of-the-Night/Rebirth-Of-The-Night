@@ -38,13 +38,13 @@
         
       ]
     },
-    "name": "Zombie Siege",
+    "name": "Rise of the Undead",
     "messages": {
-      "start": "\u00A7cYou feel as though this siege might last a while...",
-      "end": "\u00A7aThe undead wave slowly tapers off, and all is quiet again.",
+      "start": "\u00A7cThe moon has risen; so too do the corpses...",
+      "end": "\u00A7aThe undead wave sinks back into the ground... and all is quiet again.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eYou hear undead moaning in the distance... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
+        "message": "\u00A7eYou hear groans in the distance... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

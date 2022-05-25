@@ -32,10 +32,10 @@
         "/gamerule doFireTick true"
       ]
     },
-    "name": "Pandemic Wave",
+    "name": "Pandemic",
     "messages": {
-      "start": "\u00A7cRing around the grasses, plague'll kick our asses.",
-      "end": "\u00A7aThe diseased creatures' ranks are eventually thinned out...",
+      "start": "\u00A7cRing around the grass, plague'll kick your ass.",
+      "end": "\u00A7aThe virulent creatures have been inoculated for now...",
       "warn": {
         "ticks": 12000,
         "message": "\u00A7eA horrid and sickly stench fills the air... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"

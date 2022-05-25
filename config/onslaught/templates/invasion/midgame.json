@@ -35,13 +35,13 @@
         "/gamerule doMobSpawning true"
       ]
     },
-    "name": "Bandit Army",
+    "name": "World's End",
     "messages": {
-      "start": "\u00A7cYou feel the world tremoring with uncontainable rage...",
-      "end": "\u00A72Was it worth it? Desecrating the land to your pleasure, wreaking havoc nonchalantly, just so you could obtain more power. Do you consider yourself a hero? You are a monster.",
+      "start": "\u00A7cTHE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS.",
+      "end": "\u00A72Was it worth it? Desecrating the land to your desire, wreaking havoc nonchalantly, solely for the sake of of power. Do you consider yourself a hero? ...You are a monster.",
       "warn": {
         "ticks": 24000,
-        "message": "\u00A74\u00A7kThey approach, and you will die. (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
+        "message": "\u00A74\u00A7kYou feel the world tremoring with uncontainable rage... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

@@ -91,6 +91,23 @@ JEI.removeAndHide(<rotm:debug_entities>);
 JEI.removeAndHide(<rotm:debug_potions>);
 JEI.removeAndHide(<redstoneplusplus:dummy_clock>);
 JEI.removeAndHide(<redstoneplusplus:dummy_clock_hover>);
+JEI.removeAndHide(<beneath:teleporterbeneath>);
+JEI.removeAndHide(<dimstack:bedrock:7>);
+JEI.removeAndHide(<dimstack:bedrock:12>);
+JEI.removeAndHide(<dimstack:bedrock:8>);
+JEI.removeAndHide(<dimstack:bedrock:9>);
+JEI.removeAndHide(<dimstack:bedrock:3>);
+JEI.removeAndHide(<dimstack:bedrock:4>);
+JEI.removeAndHide(<dimstack:bedrock:5>);
+JEI.removeAndHide(<dimstack:bedrock:10>);
+JEI.removeAndHide(<dimstack:bedrock:14>);
+JEI.removeAndHide(<dimstack:bedrock:11>);
+JEI.removeAndHide(<dimstack:bedrock:6>);
+JEI.removeAndHide(<dimstack:bedrock:15>);
+JEI.removeAndHide(<dimstack:bedrock:2>);
+JEI.removeAndHide(<dimstack:bedrock:13>);
+JEI.removeAndHide(<dimstack:bedrock:1>);
+
 
 // Glass Conversion
 recipes.addShapeless("glass_conversion",<minecraft:glass>, [<ore:blockGlass>]);

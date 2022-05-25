@@ -262,7 +262,7 @@ recipes.addShaped("Codex anchor", gps,[
 ]);
 
 RecipeBuilder.get("mage")
-  .setShapeless([<ore:stoneWithoutHolystone>])
+  .setShapeless([<ore:stone>])
   .addTool(<contenttweaker:chaos_rune>, 1)
   .addOutput(dice)
   .setMinimumTier(1)

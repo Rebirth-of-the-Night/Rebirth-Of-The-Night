@@ -38,7 +38,7 @@
     "name": "Undead Horde",
     "messages": {
       "start": "\u00A7cThe undead horde is invading!",
-      "end": "\u00A7aThe horde has been stopped... for now",
+      "end": "\u00A7aThe necrotic beasts have been driven away... for now.",
       "warn": {
         "ticks": 12000,
         "message": "\u00A7eThe faint smell of flesh hangs in the air... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"

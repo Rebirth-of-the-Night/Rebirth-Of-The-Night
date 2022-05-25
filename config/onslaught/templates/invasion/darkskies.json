@@ -44,7 +44,7 @@
       "end": "\u00A7aThe flying scourges have been beaten back!",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eThe skies darken, but you smell no rain on the horizon... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
+        "message": "\u00A7eThe skies darken, but you sense no rain on the horizon... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

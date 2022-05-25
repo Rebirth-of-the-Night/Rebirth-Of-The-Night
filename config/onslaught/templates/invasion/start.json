@@ -32,13 +32,13 @@
         
       ]
     },
-    "name": "The Beasts",
+    "name": "Beast Stampede",
     "messages": {
       "start": "\u00A7cA pack of sickly creatures are stampeding!",
-      "end": "\u00A7aThe horde has been stopped... for now",
+      "end": "\u00A7aThe stampede has abated... for now",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eA pack of wild animals make disturbing noises in the distance... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
+        "message": "\u00A7eA pack of feral animals make disturbing noises in the distance... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

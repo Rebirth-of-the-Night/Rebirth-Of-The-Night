@@ -41,11 +41,11 @@
     },
     "name": "Supersized Horde",
     "messages": {
-      "start": "\u00A7cThe oversized horde of mobs begins its assault...",
-      "end": "\u00A7aThe massive creatures back off, for the time being.",
+      "start": "\u00A7cThey're coming, and they're huge!",
+      "end": "\u00A7aThe larger-than-average creatures back off, for the time being.",
       "warn": {
         "ticks": 12000,
-        "message": "\u00A7eThey're coming, and they're huge! (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
+        "message": "\u00A7eBig-boned invaders are looming... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"
       }
     },
     "waves": [

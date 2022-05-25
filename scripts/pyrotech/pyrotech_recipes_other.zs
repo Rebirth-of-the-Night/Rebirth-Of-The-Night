@@ -80,7 +80,7 @@ JEI.removeAndHide(<pyrotech_compat:rock_metamorphic_sand:15>); #migmatite sandst
 #limestone sandstone rock: currently used as itself
 #chalk sandstone rock: currently used as defiled sandstone rock
 #shale sandstone rock: currently used as itself
-JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:11>); #siltstone sandstone rock
+#siltstone sandstone rock: currently serpentinite rock
 JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:12>); #lignite sandstone rock
 #dolomite sandstone rock: currently used as defiled rock
 #greywacke sandstone rock: currently used as itself

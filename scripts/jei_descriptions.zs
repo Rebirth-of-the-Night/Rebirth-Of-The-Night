@@ -479,7 +479,7 @@ JEI.addDescription(lodestone, "Mysterious stones with magnetic properties buried
 JEI.addDescription(<contenttweaker:scaffolding>, "A rickety building material thrown together by monsters who are smarter than they seem. Easily cleared away. Breaks down over time.");
 
 /* Runes and Magic */
-JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item to change the item's glow color.");
+JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item in an iron anvil to change the item's glow color.");
 
 JEI.addDescription(<dungeontactics:magic_scroll>,"Wands contain potent magic, ready to be released on a mage's command. A magical powder is required to power the wand. Scholars can find more knowledge in the 'Magic' section of the guidebook.");
 JEI.addItem(<contenttweaker:spectral_shard>);

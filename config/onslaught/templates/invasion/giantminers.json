@@ -48,7 +48,7 @@
     "name": "Colossal Miners",
     "messages": {
       "start": "\u00A7cThe ground beneath you begins to shake...",
-      "end": "\u00A7aThe colossussies stomp off in fury, they'll be back.",
+      "end": "\u00A7aThe titans stomp off in fury... but they'll be back.",
       "warn": {
         "ticks": 12000,
         "message": "\u00A7eUnusual seismic activity detected... (YOU WILL BE TP'D TO YOUR OVERWORLD SPAWN!)"

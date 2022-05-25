@@ -11,7 +11,7 @@ import crafttweaker.item.IIngredient;
 <contenttweaker:rice_paddy_dummy>.clearTooltip();
 <contenttweaker:rice_paddy_dummy>.addTooltip(format.white("Rice Paddy"));
 
-// Random Things
+// Floral Armor
 <atop:tanzanite_helmet>.addTooltip(format.gold("Soft to the touch with a pleasant smell!"));
 <atop:tanzanite_helmet>.addTooltip(format.white("Don't worry..."));
 <atop:tanzanite_helmet>.addTooltip(format.white("Everything is going to be okay..."));
@@ -156,7 +156,7 @@ for w, weapon in sapphireweps{
 <dungeontactics:trap_foul>.addTooltip("Nauseates its victim. Must be reset with an Engineer's Wrench after use.");
 <dungeontactics:trap_ailment>.addTooltip("Blinds its victim. Must be reset with an Engineer's Wrench after use.");
 <dungeontactics:trap_spectral>.addTooltip("Makes its victim glow, allowing it to be seen through walls. Must be reset with an Engineer's Wrench after use.");
-<iceandfire:pixie_dust>.addTooltip("Hmm... why do I feel funny?");
+<iceandfire:pixie_dust>.addTooltip("What would happen if I had a taste...?");
 <contenttweaker:invasion_debug_tool>.addTooltip(format.red("Immediately stops invasions. Please only use this if your invasion is bugged! Or use it to cheat if you want, I'm not your dad."));
 
 // Arcane Archives
@@ -193,7 +193,7 @@ for w, weapon in sapphireweps{
 <nyx:scythe:*>.addTooltip("Has a chance to double, triple, or quadruple crop and plant drops");
 <nyx:meteor_finder>.addTooltip("Points to the closest meteor impact zone (if any)");
 <nyx:meteor_hammer:*>.addTooltip("Mines in a 3x3 area (disable by sneaking)");
-<nyx:meteor_hammer:*>.addTooltip("Hold right-click then let go while looking towards the sky to leap");
+<nyx:meteor_hammer:*>.addTooltip("Hold right-click then let go while looking up to the sky to leap");
 <nyx:meteor_hammer:*>.addTooltip("Creatures near the impact zone take damage");
 <nyx:meteor_sword:*>.addTooltip("Stuns creatures on critical hits");
 <nyx:crystal:*>.addTooltip("Passively boosts crop growth when placed near crops");
@@ -258,7 +258,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:bag_magic>.addTooltip("The bag is stained with a faint purple powder. What could be inside?");
 <dungeontactics:bag_potion>.addTooltip("Seems to contain some forgotten potion or reagent.");
 <dungeontactics:bag_record>.addTooltip("Contains a music disc carefully wrapped for safe transport.");
-<dungeontactics:trickortreat_bag>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on candy.");
+<dungeontactics:trickortreat_bag>.addTooltip("The boundary of the spirit world grows thin. Take this opportunity to gorge yourself on sweets.");
 <dungeontactics:solstice_gift>.addTooltip("Was this gift really meant for you? Well... finders' keepers!");
 <sereneseasons:greenhouse_glass>.addTooltip("Lets crops grow out of their normal growing seasons. If the glass is placed more than 7 blocks above a crop, the crop won't gain this benefit.");
 <netherex:ghast_meat_cooked>.addTooltip("Slimy, yet satisfying!");
@@ -314,9 +314,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <undergroundbiomes:metamorphic_stone:*>.addTooltip("Slow to break.");
 <undergroundbiomes:metamorphic_cobble:*>.addTooltip("Metamorphic stone formed under high pressures.");
 <undergroundbiomes:metamorphic_cobble:*>.addTooltip("Slow to break.");
-<contenttweaker:serpentinite>.addTooltip("Metamorphic stone formed where the earth tries to heal itself.");
+<contenttweaker:serpentinite>.addTooltip("Metamorphic stone formed as scar tissue.");
 <contenttweaker:serpentinite>.addTooltip("Slow to break.");
-<contenttweaker:serpentinite_cobblestone>.addTooltip("Metamorphic stone formed where the earth tries to heal itself.");
+<contenttweaker:serpentinite_cobblestone>.addTooltip("Metamorphic stone formed as scar tissue.");
 <contenttweaker:serpentinite_cobblestone>.addTooltip("Slow to break.");
 <betterwithmods:aesthetic:6>.addTooltip("Metamorphic stone formed from heated endstone."); //white stone
 <betterwithmods:aesthetic:6>.addTooltip("Slow to break.");
@@ -400,7 +400,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <endreborn:block_essence_ore>.removeTooltip("Substance");
 
 // Progression
-<netherex:ghast_queen_tear>.addTooltip("The tears show glimmers of a beautiful forest...");
+<netherex:ghast_queen_tear>.addTooltip("The tears reflect glimmers of a beautiful forest...");
 
 // Doggy Talents
 <doggytalents:training_treat>.addTooltip("Feed to a tamed wolf to begin training it. Used to advance a dog's initial training.");
@@ -420,18 +420,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 // Weapons
 
 // Doors
-<malisisdoors:jail_door>.addTooltip("slidin into ur DMs");
+<malisisdoors:jail_door>.addShiftTooltip("slidin into ur DMs");
 
 // Particular Eatables (Wildly Eat)
 <contenttweaker:sprinkles>.addTooltip("Zero nutritional value, but it gets you going.");
 <contenttweaker:sprinkles>.addShiftTooltip("Can be consumed for a short speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:teaitem>.addTooltip("Calming, but it gets you going.");
 <harvestcraft:teaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:raspberryicedteaitem>.addTooltip("Sweet, refreshing and it gets you going.");
+<harvestcraft:raspberryicedteaitem>.addTooltip("Sweet, refreshing, and it gets you going.");
 <harvestcraft:raspberryicedteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:chaiteaitem>.addTooltip("So aromatic it gets you going.");
 <harvestcraft:chaiteaitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<harvestcraft:coffeeitem>.addTooltip("Some good coffee, the stuff that gets you going.");
+<harvestcraft:coffeeitem>.addTooltip("Some good coffee; the stuff that gets you going.");
 <harvestcraft:coffeeitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <harvestcraft:coffeeconlecheitem>.addTooltip("Smooth, soft. This gets you going.");
 <harvestcraft:coffeeconlecheitem>.addShiftTooltip("Can be consumed for a speed boost", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
@@ -446,9 +446,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <golems:golem_head>.addTooltip("Used for summoning Golems");
 <ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
-<wards:enchanted_paper>.addTooltip("Used to power Wards");
+<wards:enchanted_paper>.addTooltip("Used to power Wards.");
 <aether_legacy:notch_hammer:*>.addTooltip("From the // 1 princess in the world.");
-<aether_legacy:healing_stone>.addTooltip("Restores max HP lost from dying from the plague");
+<aether_legacy:healing_stone>.addTooltip("Restores max HP lost from dying to the Plague.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");
 <minecraft:enchanting_table>.addTooltip("Only usable at night.");
@@ -498,7 +498,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Chute Compat.:") + format.red(" NO."));
 <dungeontactics:fan_block>.addShiftTooltip(format.gold("Fueled:") + format.red(" NO"));
 <dungeontactics:fan_block>.addShiftTooltip("Can be rotated.");
-<netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8, up to 1024.");
+<netherchest:nether_chest>.addTooltip("Multiplies stack size of items inside by 8, up to 512.");
 <dungeontactics:flight_goggles>.addTooltip("Allows for more controllable flight when paired with the Rocket Pants.");
 <dungeontactics:rocket_pants>.addTooltip("Rocket man burning out his fuse.");
 <dungeontactics:bounce_boots>.addTooltip("Minimizes fall damage with bounciness!");
@@ -516,7 +516,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <artisanworkstumps:workstump_potter>.addTooltip("Enables hand-building pottery.");
 <exsartagine:yeast>.addTooltip("Can be used as Brewer's Yeast.");
 <contenttweaker:steel_artifact>.addTooltip("Can be used to craft flint & steel");
-<contenttweaker:steel_artifact>.addShiftTooltip('A relic of the old days. Can be rarely dropped from "older" undead."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:steel_artifact>.addShiftTooltip('Relic of the olden days. Rarely drops from "older" undead.', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack>.addTooltip("Turns into sludge if it touches water.");
@@ -556,7 +556,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 // Plants
 <betterwithmods:hemp>.addTooltip("Fertile Seasons:");
 <betterwithmods:hemp>.addTooltip(format.lightPurple("Year-Round"));
-<betterwithmods:hemp>.addTooltip('Only grows directly below the open sky or a "Light Block"');
+<betterwithmods:hemp>.addTooltip('Only grows directly below the open sky or under a "Light Block".');
 
 // Wands
 
@@ -585,7 +585,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <deadmanssatchel:deadmanssatchel>.removeTooltip("^Owner( \\d+)?");
 
 // Scepters
-<defiledlands:tears_flame>.removeTooltip("Fires fireballs");
+<defiledlands:tears_flame>.removeTooltip("Shoots fireballs");
 
 // Misc. Weapons
 <twilightforest:giant_sword>.addTooltip(format.darkRed("+18 Attack Damage"));

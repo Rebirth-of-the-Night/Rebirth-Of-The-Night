@@ -8,3 +8,4 @@ mods.orestages.OreStages.addNonDefaultingReplacement("killedWither", <osv:simple
 
 mods.DimensionStages.addDimensionStage("killedHarvester", -1);
 mods.DimensionStages.addDimensionStage("minedMythril", 1);
+mods.DimensionStages.addDimensionStage("enteredNether", 4);

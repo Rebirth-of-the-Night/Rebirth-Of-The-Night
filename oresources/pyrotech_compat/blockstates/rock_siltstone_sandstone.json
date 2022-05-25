@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "all": "contenttweaker:blocks/serpentinite",
-      "particle": "defiledlands:blocks/serpentinite"
+      "particle": "contenttweaker:blocks/serpentinite"
     }
   },
   "variants": {

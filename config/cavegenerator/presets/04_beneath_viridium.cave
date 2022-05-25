@@ -9,10 +9,10 @@
   burrows: {
     // This makes them tall
     stretch: 2
-    height: [ 180, 245 ]
+    height: [ 128, 245 ]
     // This makes them flat
     offset: {
-      range: [ 180, 245 ]
+      range: [ 128, 245 ]
       frequency: 0.02
     }
     target: 0.5
@@ -21,17 +21,17 @@
     caveBlocks: [
       {
         states: contenttweaker:serpentinite
-        height: [ 160, 245 ]
+        height: [ 128, 245 ]
         integrity: 0.7
       }
       {
         states: contenttweaker:raw_viridium_vein
-        height: [ 160, 245 ]
+        height: [ 128, 245 ]
         integrity: 0.3
       }
       {
         states: contenttweaker:serpentinite_cobblestone
-        height: [ 160, 245 ]
+        height: [ 128, 245 ]
       }
     ]
     map: {

@@ -1330,8 +1330,8 @@ gui.signs.save=Save
 gui.signs.cancel=Cancel 
 
 tile.dice.name=Dice
-tile.dice.tooltip=Randomize on placement and interaction
-tile.dice.guide=Will randomly change its appearance to display a number from 1 to 6. The number can be detected by a redstone comparator
+tile.dice.tooltip=Randomizes on placement and right-click
+tile.dice.guide=Will randomly change its appearance to display a number from 1 to 6. The number can be detected by a redstone comparator.
 
 item.laser_cannon.name=Rainbow Cannon
 item.laser_cannon.tooltip=Fire a randomly coloured beam
