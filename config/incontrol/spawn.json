@@ -95,6 +95,13 @@
     "potion": ["potioncore:magic_shield,1000000,1"]
 
 },
+{  
+    "mob": ["iceandfire:seaserpent"],
+    "onjoin": true,
+    "speedmultiply": 0.5
+
+},
+
 /////////// NETHER GAMESTAGE //////////////
 
 {
@@ -2990,7 +2997,7 @@
     "result": "allow"
  },
  {
-    "dimension": 0,
+    "dimension": [0, 4],
     "mob": "iceandfire:dread_thrall",
     "result": "deny"
  },
