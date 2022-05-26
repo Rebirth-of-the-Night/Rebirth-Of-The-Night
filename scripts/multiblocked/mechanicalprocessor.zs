@@ -93,7 +93,7 @@ newRP.start()
 .inputItems(<minecraft:glass_bottle>)
 .inputItems(<minecraft:redstone>)
 .inputFluids(<fluid:dread_cold> * 2000)
-.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 5500122, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 9600, Id: 251, Amplifier: 1 as byte}], display: {Lore: ["Converts physical damage to magical damage."], Name: "Potion of Arcanic Conversion I"}}))
+.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 5500122, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 9600, Id: 251, Amplifier: 1 as byte}], display: {Lore: ["A handy brew that converts physical damage", "to magical damage."], Name: "Potion of Arcanic Conversion I"}}))
 .buildAndRegister();
 
 newRP.start()
@@ -102,7 +102,7 @@ newRP.start()
 .inputItems(<minecraft:glass_bottle>)
 .inputItems(<minecraft:glowstone_dust>)
 .inputFluids(<fluid:dread_cold> * 2000)
-.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 5500122, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 251, Amplifier: 3 as byte}], display: {Lore: ["Converts more physical damage to magical damage."], Name: "Potion of Arcanic Conversion II"}}))
+.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 5500122, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 251, Amplifier: 3 as byte}], display: {Lore: ["A handy brew that converts physical damage", "to magical damage."], Name: "Potion of Arcanic Conversion II"}}))
 .buildAndRegister();
 
 newRP.start()
