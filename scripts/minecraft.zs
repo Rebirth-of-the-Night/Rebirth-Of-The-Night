@@ -10,6 +10,16 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.ltt.LootTable;
 import mods.betterwithmods.MiniBlocks;
 
+// Leggings of Euphoria
+recipes.addShapedMirrored("transsocks1", <owo:owolegsbw>, [
+    [<ore:twine>, <ore:dyeBlack>, <ore:twine>], 
+    [<ore:twine>, null, <ore:twine>]
+]);
+recipes.addShapedMirrored("transsocks2", <owo:owolegs>, [
+    [<ore:twine>, <ore:dyePink>, <ore:twine>],
+    [<ore:twine>, <ore:dyeCyan>, <ore:twine>]
+]);
+
 // brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
 // brewing.addBrew(<minecraft:splash_potion>, <minecraft:emerald>, <minecraft:experience_bottle>);
 
