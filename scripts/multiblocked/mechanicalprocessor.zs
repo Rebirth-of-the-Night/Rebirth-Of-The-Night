@@ -88,6 +88,24 @@ newRP.start()
 .buildAndRegister();
 
 newRP.start()
+.duration(300)
+.inputItems(<contenttweaker:vis_sliver>)
+.inputItems(<minecraft:glass_bottle>)
+.inputItems(<minecraft:redstone>)
+.inputFluids(<fluid:dread_cold> * 2000)
+.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 5500122, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 9600, Id: 251, Amplifier: 1 as byte}], display: {Lore: ["A handy brew that converts physical damage to", "magical damage."], Name: "Potion of Arcanic Conversion I"}}))
+.buildAndRegister();
+
+newRP.start()
+.duration(300)
+.inputItems(<contenttweaker:vis_sliver>)
+.inputItems(<minecraft:glass_bottle>)
+.inputItems(<minecraft:glowstone>)
+.inputFluids(<fluid:dread_cold> * 2000)
+.outputItems(<minecraft:potion>.withTag({CustomPotionColor: 5500122, CustomPotionEffects: [{Ambient: 0 as byte, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1, Damage: 0 as short}], ShowParticles: 1 as byte, Duration: 1800, Id: 251, Amplifier: 3 as byte}], display: {Lore: ["A handy brew that converts physical damage to", "magical damage."], Name: "Potion of Arcanic Conversion II"}}))
+.buildAndRegister();
+
+newRP.start()
 .duration(1200)
 .inputItems(<minecraft:netherrack>)
 .inputItems(<betternether:nether_mycelium>)

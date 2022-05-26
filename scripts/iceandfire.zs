@@ -132,8 +132,3 @@ recipes.addShaped("dragonforge_ice_input", <iceandfire:dragonforge_ice_input>,[
   [<ore:ingotSteel>, null, <ore:ingotSteel>],
   [<iceandfire:dragonforge_ice_brick>, <ore:ingotSteel>, <iceandfire:dragonforge_ice_brick>]
 ]);
-recipes.addShaped("fishing_spear", <iceandfire:fishing_spear>,[
-  [null, <ore:rock>, null],
-  [<ore:rock>, <ore:stickWood>, <ore:rock>],
-  [null, <ore:stickWood>, null]
-]);
