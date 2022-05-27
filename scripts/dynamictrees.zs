@@ -79,6 +79,7 @@ recipes.addShapeless("dirt_bucket_stone", <dynamictrees:dirtbucket>,
 );
 // bamboo to bamboo shoot for greater yield
 recipes.addShaped("bamboo_to_bamboo_shoot", <dynamictreesbop:bambooseed>,
- [[null,null,null],
-  [null,<ore:shears>,null],
+ [[null,<ore:shears>,null],
   [<biomesoplenty:bamboo>,<biomesoplenty:bamboo>,<biomesoplenty:bamboo>]]);
+
+recipes.addShapeless("dyntree_guide", <patchouli:guide_book>.withTag({"patchouli:book": "dynamictrees:guide"}),[<minecraft:book>, <ore:treeSapling>]);

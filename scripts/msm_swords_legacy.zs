@@ -109,15 +109,15 @@ var ruby = <ore:gemRuby>;
 var chili = <rustic:chili_pepper>;
 var blaze = <betterwithmods:material:27>;
 
-val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:scorn>, <enchantment:minecraft:fire_aspect>];
+/*val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:scorn>, <enchantment:minecraft:fire_aspect>];
 
 var enchantmentMap1 as IData = {};
 
 enchantmentMap1 += enchantments1[0].makeEnchantment(1).makeTag();
-enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
+enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();*/
 
 recipes.remove(<msmlegacy:relic_aqueous>);
-recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTag(enchantmentMap1),[
+recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTag({ench: [{lvl: 1 as short, id: 94}, {lvl: 1 as short, id: 20}]}),[
 	[null, blaze, ruby],
     [chili, ruby, blaze],
     [handle, chili, null]

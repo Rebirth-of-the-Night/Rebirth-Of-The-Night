@@ -18,8 +18,7 @@ recipes.addShaped("Training Treat", <doggytalents:training_treat>,[
 ]);
 
 recipes.remove(<doggytalents:food_bowl>);
-recipes.addShaped("Food Bowl", <doggytalents:training_treat>,[
-	[null, null, null],
+recipes.addShaped("Food Bowl", <doggytalents:food_bowl>,[
     [<ore:genericMetal>, bone, <ore:genericMetal>],
     [null, <ore:genericMetal>, null]
 ]);
