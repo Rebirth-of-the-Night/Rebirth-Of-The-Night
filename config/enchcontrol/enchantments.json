@@ -3450,8 +3450,13 @@
       "MAINHAND",
       "OFFHAND"
     ],
-    "incompat_mode": 0,
-    "incompatible": [],
+    "incompat_mode": 1,
+    "incompatible": [
+      "minecraft:sharpness",
+      "minecraft:bane_of_arthropods",
+      "minecraft:smite",
+      "nyx:lunar_edge"
+	  ],
     "applicability_mode": 1,
     "items_list_mode": 1,
     "items_list": [
