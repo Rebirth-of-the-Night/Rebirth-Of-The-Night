@@ -26,6 +26,13 @@ JEI.removeAndHide(<arcaneworld:ethereal_sword>);
 JEI.removeAndHide(<arcaneworld:growth_powder>);
 JEI.removeAndHide(<arcaneworld:glowing_chorus>);
 
+JEI.removeAndHide(<arcaneworld:molten_pickaxe>);
+JEI.removeAndHide(<arcaneworld:molten_shovel>);
+JEI.removeAndHide(<arcaneworld:molten_axe>);
+recipes.remove(<arcaneworld:molten_pickaxe>);
+recipes.remove(<arcaneworld:molten_shovel>);
+recipes.remove(<arcaneworld:molten_axe>);
+
 furnace.setFuel(<arcaneworld:levitator>, 0);
 
 LootTable.removeGlobalItem("arcaneworld:sapphire");

@@ -283,4 +283,3 @@ cyclicmagic:ender
 cyclicmagic:butter
 cyclicmagic:butter2
 cyclicmagic:bounce
-cyclicmagic:frostwalker

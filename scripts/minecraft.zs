@@ -12,12 +12,12 @@ import mods.betterwithmods.MiniBlocks;
 
 // Leggings of Euphoria
 recipes.addShapedMirrored("transsocks1", <owo:owolegsbw>, [
-    [<ore:twine>, <ore:dyeBlack>, <ore:twine>], 
-    [<ore:twine>, null, <ore:twine>]
+    [<harvestcraft:wovencottonitem>, <ore:dyeBlack>, <harvestcraft:wovencottonitem>], 
+    [<harvestcraft:wovencottonitem>, null, <harvestcraft:wovencottonitem>]
 ]);
 recipes.addShapedMirrored("transsocks2", <owo:owolegs>, [
-    [<ore:twine>, <ore:dyePink>, <ore:twine>],
-    [<ore:twine>, <ore:dyeCyan>, <ore:twine>]
+    [<harvestcraft:wovencottonitem>, <ore:dyePink>, <harvestcraft:wovencottonitem>],
+    [<harvestcraft:wovencottonitem>, <ore:dyeCyan>, <harvestcraft:wovencottonitem>]
 ]);
 
 // brewing.addBrew(IIngredient input, IIngredient ingredient, IItemStack output, @Optional boolean hidden);
@@ -50,6 +50,22 @@ brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkwa
 
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:ghast_tear>);
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <inspirations:edibles>);
+
+// Vanilla MC hiding
+JEI.removeAndHide(<minecraft:end_portal>);
+JEI.removeAndHide(<minecraft:end_gateway>);
+JEI.removeAndHide(<minecraft:portal>);
+JEI.removeAndHide(<minecraft:barrier>);
+JEI.removeAndHide(<minecraft:command_block>);
+JEI.removeAndHide(<minecraft:command_block_minecart>);
+JEI.removeAndHide(<minecraft:repeating_command_block>);
+JEI.removeAndHide(<minecraft:chain_command_block>);
+JEI.removeAndHide(<minecraft:structure_void>);
+JEI.removeAndHide(<minecraft:structure_block>);
+JEI.removeAndHide(<minecraft:end_portal_frame>);
+JEI.removeAndHide(<minecraft:anvil:2>);
+JEI.removeAndHide(<minecraft:anvil:1>);
+JEI.removeAndHide(<minecraft:chorus_plant>);
 
 // Misc. stuff
 JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
@@ -2561,7 +2577,44 @@ recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweake
 recipes.addShapeless("crassula_stem", <contenttweaker:greasy_stem>,[<contenttweaker:perforata>]);
 recipes.addShapeless("crassula_stem_to_stick", <minecraft:stick> * 2,[<contenttweaker:greasy_stem>]);
 
-// CoT bricks hiding
+// Random Portals hiding
+JEI.removeAndHide(<randomportals:vertical_end_portal_frame>);
+JEI.removeAndHide(<randomportals:upside_down_end_portal_frame>);
+JEI.removeAndHide(<randomportals:vertical_end_portal>);
+JEI.removeAndHide(<randomportals:upside_down_end_portal>);
+JEI.removeAndHide(<randomportals:white_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:white_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:orange_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:orange_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:magenta_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:magenta_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:light_blue_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:light_blue_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:yellow_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:yellow_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:lime_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:lime_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:pink_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:pink_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:gray_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:gray_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:silver_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:silver_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:cyan_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:cyan_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:purple_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:blue_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:blue_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:brown_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:brown_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:green_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:green_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:red_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:red_lateral_nether_portal>);
+JEI.removeAndHide(<randomportals:black_vertical_nether_portal>);
+JEI.removeAndHide(<randomportals:black_lateral_nether_portal>);
+
+// CoT bricks hiding (temporary)
 JEI.removeAndHide(<earthworks:block_rammed_earth>);
 JEI.removeAndHide(<quark:world_stone_bricks>);
 JEI.removeAndHide(<quark:world_stone_bricks:1>);

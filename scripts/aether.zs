@@ -9,13 +9,29 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 
+JEI.removeAndHide(<aether_legacy:locked_dungeon_block>);
+JEI.removeAndHide(<aether_legacy:locked_dungeon_block:1>);
+JEI.removeAndHide(<aether_legacy:dungeon_trap>);
+JEI.removeAndHide(<aether_legacy:dungeon_trap:1>);
+JEI.removeAndHide(<aether_legacy:locked_dungeon_block:2>);
+JEI.removeAndHide(<aether_legacy:locked_dungeon_block:3>);
+JEI.removeAndHide(<aether_legacy:dungeon_trap:2>);
+JEI.removeAndHide(<aether_legacy:dungeon_trap:3>);
+JEI.removeAndHide(<aether_legacy:locked_dungeon_block:4>);
+JEI.removeAndHide(<aether_legacy:locked_dungeon_block:5>);
+JEI.removeAndHide(<aether_legacy:dungeon_trap:4>);
+JEI.removeAndHide(<aether_legacy:dungeon_trap:5>);
+JEI.removeAndHide(<aether_legacy:developer_stick>);
+JEI.removeAndHide(<aether_legacy:aether_portal>);
+JEI.removeAndHide(<aether_legacy:present>);
+
 JEI.removeAndHide(<aether_legacy:holystone_brick_double_slab>);
 JEI.removeAndHide(<aether_legacy:carved_double_slab>);
 JEI.removeAndHide(<aether_legacy:angelic_double_slab>);
 JEI.removeAndHide(<aether_legacy:hellfire_double_slab>);
 JEI.removeAndHide(<aether_legacy:holystone_double_slab>);
 JEI.removeAndHide(<aether_legacy:mossy_holystone_double_slab>);
-JEI.removeAndHide(<aether_legacy:aerogel_double_slab>);
+JEI.removeAndHide(<aether_legacy:aerogel_double_slab>); 
 
 JEI.removeAndHide(<aether_legacy:life_shard>);
 LootTable.removeGlobalItem("aether_legacy:life_shard");

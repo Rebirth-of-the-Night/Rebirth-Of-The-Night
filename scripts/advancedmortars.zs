@@ -32,9 +32,9 @@ recipes.addShaped("mundane_mortar", <advancedmortars:mortar:0>, [
 ]);
 
 recipes.addShaped("cooking_mortar", <advancedmortars:mortar:1>, [
-    [null, <contenttweaker:broken_stick>, null],
-    [<ore:plankWood>, <minecraft:flint>, <ore:plankWood>],
-    [null, <ore:plankWood>, null]
+    [null, <spartanweaponry:material>, null],
+    [<simpleores:copper_ingot>, <ore:genericMetalNuggets>, <simpleores:copper_ingot>],
+    [null, <simpleores:copper_ingot>, null]
 ]);
 
 recipes.addShaped("arcane_mortar", <advancedmortars:mortar:2>, [

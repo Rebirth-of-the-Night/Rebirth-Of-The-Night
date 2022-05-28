@@ -18,8 +18,8 @@ item.stalagnate_bowl_wart.name=Wart Soup
 
 itemGroup.better_nether=Better Nether
 
-message.spawn_help=§c§lYou must hold Glowstone Dust to set your spawn point here
-message.spawn_set=§2§lYour spawn point was set here
+message.spawn_help=§c§lYou must hold Glowstone Dust to anchor yourself.
+message.spawn_set=§2§lYour spirit has been bound here.
 
 tile.agave.name=Agave
 
@@ -28,8 +28,8 @@ tile.barrel_cactus.name=Barrel Cactus
 tile.black_apple_seed.name=Black Apple Seed
 tile.black_bush.name=Black Bush
 
-tile.block_eyeball.name=Eyeball Block
-tile.block_eyeball_small.name=Small Eyeball Block
+tile.block_eyeball.name=Eyeball
+tile.block_eyeball_small.name=Small Eyeball
 
 tile.bone_block.name=Hardened Bone Block
 tile.bone_button.name=Hardened Bone Button

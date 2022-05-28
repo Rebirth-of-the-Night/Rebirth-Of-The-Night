@@ -150,24 +150,33 @@ for w, weapon in sapphireweps{
 <contenttweaker:fire_block>.addTooltip('"Huh, weird..."');
 <minecraft:crafting_table>.addTooltip("Static version."); 
 <minecraft:crafting_table>.addShiftTooltip(("A") + format.yellow(" Portable Crafting") + format.gray(" Mat is better for long journeys."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<dungeontactics:trap_clamp>.addTooltip("Snaps and crushes its victim, inflicting great slowness. Must be reset with an Engineer's Wrench after use.");
-<dungeontactics:trap_piston>.addTooltip("Launches its victim into the air. Must be reset with an Engineer's Wrench after use.");
-<dungeontactics:trap_fire>.addTooltip("Lights its victim ablaze. Must be reset with an Engineer's Wrench after use.");
-<dungeontactics:trap_foul>.addTooltip("Nauseates its victim. Must be reset with an Engineer's Wrench after use.");
-<dungeontactics:trap_ailment>.addTooltip("Blinds its victim. Must be reset with an Engineer's Wrench after use.");
-<dungeontactics:trap_spectral>.addTooltip("Makes its victim glow, allowing it to be seen through walls. Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_clamp>.addTooltip("Snaps and crushes its victim, inflicting great slowness.");
+<dungeontactics:trap_clamp>.addTooltip("Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_piston>.addTooltip("Launches its victim into the air.");
+<dungeontactics:trap_piston>.addTooltip("Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_fire>.addTooltip("Lights its victim ablaze.");
+<dungeontactics:trap_fire>.addTooltip("Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_foul>.addTooltip("Nauseates its victim.");
+<dungeontactics:trap_foul>.addTooltip("Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_ailment>.addTooltip("Blinds its victim.");
+<dungeontactics:trap_ailment>.addTooltip("Must be reset with an Engineer's Wrench after use.");
+<dungeontactics:trap_spectral>.addTooltip("Makes its victim glow, allowing it to be seen through walls.");
+<dungeontactics:trap_spectral>.addTooltip("Must be reset with an Engineer's Wrench after use.");
 <iceandfire:pixie_dust>.addTooltip("What would happen if I had a taste...?");
-<contenttweaker:invasion_debug_tool>.addTooltip(format.red("Immediately stops invasions. Please only use this if your invasion is bugged! Or use it to cheat if you want, I'm not your dad."));
+<contenttweaker:invasion_debug_tool>.addTooltip(format.red("Immediately stops invasions. Only use this if your invasion is bugged!"));
+<contenttweaker:invasion_debug_tool>.addTooltip(format.red("Or use it to cheat if you want, I'm not your parents."));
+
 
 // Arcane Archives
 <arcanearchives:raw_quartz>.addTooltip("Right-click on any chest to convert it to a Radiant Chest.");
-<arcanearchives:radiant_resonator>.addTooltip("Grows raw radiant quartz from natural quintessence in the air. Can be augmented with a special setup to grow quartz faster.");
+<arcanearchives:radiant_resonator>.addTooltip("Grows raw radiant quartz from natural quintessence in the air.");
+<arcanearchives:radiant_resonator>.addTooltip("Can be augmented with a special setup to grow quartz faster.");
 <arcanearchives:radiant_resonator>.addTooltip("Only three resonators can be placed per person.");
 <arcanearchives:radiant_resonator>.addShiftTooltip("Recipe consumes bucket.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // BWM BWA
 <betterwithmods:material:12>.addTooltip("Just a crafting material.");
-<betterwithmods:material:12>.addShiftTooltip('Can be consumed, but if it had a label, it would read "DO NOT CONSUME."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<betterwithmods:material:12>.addShiftTooltip('Can be eaten, but if it had a label, it would read "DO NOT EAT."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:hibachi>.addTooltip("Powered by redstone");
 <betterwithaddons:ancestry_bottle>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
 <betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
@@ -205,29 +214,29 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <eplus:decorative_book>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table");
 
 // Boat tooltips
-<minecraft:boat>.addTooltip("Place a banner on the boat to increase speed");
-<minecraft:spruce_boat>.addTooltip("Place a banner on the boat to increase speed");
-<minecraft:birch_boat>.addTooltip("Place a banner on the boat to increase speed");
-<minecraft:jungle_boat>.addTooltip("Place a banner on the boat to increase speed");
-<minecraft:acacia_boat>.addTooltip("Place a banner on the boat to increase speed");
-<minecraft:dark_oak_boat>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_sacred_oak>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_cherry>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_umbran>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_fir>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_ethereal>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_magic>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_mangrove>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_palm>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_redwood>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_willow>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_pine>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_hellbark>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_jacaranda>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_mahogany>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_ebony>.addTooltip("Place a banner on the boat to increase speed");
-<biomesoplenty:boat_eucalyptus>.addTooltip("Place a banner on the boat to increase speed");
-<netherex:obsidian_boat>.addTooltip("Place a banner on the boat to increase speed");
+<minecraft:boat>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<minecraft:spruce_boat>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<minecraft:birch_boat>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<minecraft:jungle_boat>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<minecraft:acacia_boat>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<minecraft:dark_oak_boat>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_sacred_oak>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_cherry>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_umbran>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_fir>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_ethereal>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_magic>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_mangrove>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_palm>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_redwood>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_willow>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_pine>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_hellbark>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_jacaranda>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_mahogany>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_ebony>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<biomesoplenty:boat_eucalyptus>.addTooltip("Place a banner on the boat to increase sailing speed.");
+<netherex:obsidian_boat>.addTooltip("Place a banner on the boat to increase sailing speed.");
 
 // bed
 <minecraft:bed>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
@@ -447,7 +456,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <ore:plankWood>.addShiftTooltip("Can only be crafted in a crafting table, saw, or by chopping logs with an axe", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betternether:cincinnasite_forge>.addTooltip("Smelts everything much faster than a regular furnace.");
 <wards:enchanted_paper>.addTooltip("Used to power Wards.");
-<aether_legacy:notch_hammer:*>.addTooltip("From the // 1 princess in the world.");
+<aether_legacy:notch_hammer:*>.addTooltip("From the #1 princess in the world.");
 <aether_legacy:healing_stone>.addTooltip("Restores max HP lost from dying to the Plague.");
 <mowziesmobs:wrought_axe:*>.removeTooltip("Never breaks");
 <mowziesmobs:wrought_axe:*>.addTooltip("Only damaged by dying");

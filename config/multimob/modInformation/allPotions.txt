@@ -100,6 +100,9 @@ mod_lavacow:soiled
 mod_lavacow:infested
 mod_lavacow:fragile
 growthcraft_cellar:potion.tipsy
+bettercombatmod:aetherealized
+bettercombatmod:precision
+bettercombatmod:brutality
 mowziesmobs:suns_blessing
 mowziesmobs:geomancy
 mowziesmobs:frozen

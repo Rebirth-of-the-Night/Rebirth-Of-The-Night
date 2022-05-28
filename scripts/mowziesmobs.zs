@@ -6,6 +6,8 @@ import mods.ltt.LootTable;
 JEI.removeAndHide(<mowziesmobs:logo>);
 JEI.removeAndHide(<mowziesmobs:grant_suns_blessing>);
 JEI.removeAndHide(<mowziesmobs:mob_remover>);
+JEI.removeAndHide(<mowziesmobs:test_structure>);
+JEI.removeAndHide(<mowziesmobs:captured_grottol>);
 
 //Mob Loot Tweaks
 //

@@ -524,9 +524,9 @@ item.tool_warp_spawn.tooltip=Teleport to world-spawn
 item.turret_minecart.guide=This has no inventory.  When it hits a powered activator rail, it shoots out a slowness-tipped arrow in both directions.  These arrows cannot be picked up by survival players.  If it stops moving on a powered activator rail, it will fire repeatedly.
 item.turret_minecart.name=Turret Minecart
 item.turret_minecart.tooltip=Shoots skeleton-arrows when it hits an activator rail
-item.wand_hypno.guide=Confuse nearby hostiles so they attack each other
+item.wand_hypno.guide=Suddenly I don't like my friends anymore...
 item.wand_hypno.name=Chaos Reaper
-item.wand_hypno.tooltip=Confuse nearby hostiles so they attack each other
+item.wand_hypno.tooltip=Makes enemies turn against their own.
 item.wand_missile.guide=Summon the vengeful manifestations in arcane missile form of long forgotten spirits at the closest enemy.
 item.wand_missile.name=Spirit Seeker
 item.wand_missile.tooltip=Spawns homing missiles at nearby hostile targets
@@ -1291,12 +1291,12 @@ item.robot_spawner.guide=Spawn a Target Dummy Spawner that measures damage done 
 entity.robot.name=Target Dummy
 
 tile.button_large.name=Large Button
-tile.button_large.tooltip=A pressure plate sized button
-tile.button_large.guide=A pressure plate sized button
+tile.button_large.tooltip=A pressure plate sized button.
+tile.button_large.guide=For those who like to go big.
 
 tile.doorbell_simple.name=Doorbell
-tile.doorbell_simple.tooltip=Makes sound
-tile.doorbell_simple.guide=Plays single sound on click
+tile.doorbell_simple.tooltip=Ding dong!
+tile.doorbell_simple.guide=The alerter-of-new-guests.
 
 tile.fire_starter.name=Fire Starter
 tile.fire_starter.tooltip=Use flint to start a fire on signal

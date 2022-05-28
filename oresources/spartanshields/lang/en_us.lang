@@ -3,7 +3,7 @@
 item.spartanshields:shield_basic_wood.name=Crude Wooden Shield
 item.spartanshields:shield_basic_stone.name=Stone Braced Shield
 item.spartanshields:shield_basic_iron.name=Iron Plated Shield
-item.spartanshields:shield_basic_gold.name=Gold Gilded Shield
+item.spartanshields:shield_basic_gold.name=Gilded Shield
 item.spartanshields:shield_basic_diamond.name=§2Gem Forged Shield
 
 item.spartanshields:shield_basic_bronze.name=Bronze Plated Shield
@@ -12,7 +12,7 @@ item.spartanshields:shield_riot_enderio.name=Dark Steel Riot Shield
 
 item.spartanshields:shield_basic_copper.name=Copper Braced Shield
 item.spartanshields:shield_basic_tin.name=Tin Braced Shield
-item.spartanshields:shield_basic_silver.name=Silver Gilded Shield
+item.spartanshields:shield_basic_silver.name=Silver Plated Shield
 item.spartanshields:shield_basic_obsidian.name=Bulky Obsidian Shield
 item.spartanshields:shield_riot_rftools.name=Infused Riot Shield
 
@@ -100,7 +100,7 @@ tooltip.spartanshields:protection=Max Protection: %d
 tooltip.spartanshields:shieldBash=Block and [%s] to Shield Bash
 tooltip.spartanshields:onBlock=On Block: %s
 tooltip.spartanshields:buttonShieldBash=Left-Click
-tooltip.spartanshields:shieldSilver.desc=Damages Undead mobs
+tooltip.spartanshields:shieldSilver.desc=Hurts undead monsters on block
 tooltip.spartanshields:shieldSignalum.desc=Inflicts Weakness (%ds) on enemies
 tooltip.spartanshields:shieldLumium.desc=Inflicts Glowing (%ds) on enemies
 tooltip.spartanshields:shieldEnderium.desc=Inflicts Slowness (%ds) on enemies
@@ -133,7 +133,7 @@ config.spartanshields:category.moddedPowered=RF & FE Powered Shields
 config.spartanshields:durabilityWoodShield=Crude Wooden Shield Durability
 config.spartanshields:durabilityStoneShield=Stone Braced Shield Durability
 config.spartanshields:durabilityIronShield=Iron Plated Shield Durability
-config.spartanshields:durabilityGoldShield=Gold Gilded Shield Durability
+config.spartanshields:durabilityGoldShield=Gilded Shield Durability
 config.spartanshields:durabilityDiamondShield=Diamond Reinforced Shield Durability
 config.spartanshields:durabilityBronzeShield=Bronze Plated Shield Durability
 config.spartanshields:enableBronzeShield=Bronze Plated Shield Enabled
@@ -143,8 +143,8 @@ config.spartanshields:durabilityCopperShield=Copper Braced Shield Durability
 config.spartanshields:enableCopperShield=Copper Braced Shield Enabled
 config.spartanshields:durabilityTinShield=Tin Braced Shield Durability
 config.spartanshields:enableTinShield=Tin Braced Shield Enabled
-config.spartanshields:durabilitySilverShield=Silver Gilded Shield Durability
-config.spartanshields:enableSilverShield=Silver Gilded Shield Enabled
+config.spartanshields:durabilitySilverShield=Silver Plated Shield Durability
+config.spartanshields:enableSilverShield=Silver Plated Shield Enabled
 config.spartanshields:durabilityObsidianShield=Bulky Obsidian Shield Durability
 config.spartanshields:enableObsidianShield=Bulky Obsidian Shield Enabled
 config.spartanshields:durabilityEnderiumShield=Enderium Strengthened Shield Durability
