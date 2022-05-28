@@ -106,7 +106,7 @@ mods.betterwithmods.Anvil.addShaped(<spartanweaponry:halberd_invar>,
 
 
 var ruby = <ore:gemRuby>;
-var chili = <rustic:chili_pepper>;
+var chili = <ore:cropChilipepper>;
 var blaze = <betterwithmods:material:27>;
 
 /*val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:scorn>, <enchantment:minecraft:fire_aspect>];

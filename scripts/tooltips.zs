@@ -283,30 +283,31 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <quark:iron_ladder>.addTooltip("Right click on a tin ladder to place another ladder below which doesn't require a standing block.");
 
 // Quark Hoes
-<minecraft:stone_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
-<minecraft:iron_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
-<minecraft:diamond_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
-<minecraft:golden_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
-<twilightforest:ironwood_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
-<twilightforest:steeleaf_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
-<betterwithmods:steel_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
-<atop:mud_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
-<iceandfire:silver_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
-<iceandfire:dragonbone_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
-<iceandfire:myrmex_desert_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
-<iceandfire:myrmex_jungle_hoe>.addTooltip("Breaks grass and crops in a 3x3 area.");
-<iceandfire:dragonsteel_fire_hoe>.addTooltip("Breaks grass and crops in a 9x9 area.");
-<iceandfire:dragonsteel_ice_hoe>.addTooltip("Breaks grass and crops in a 9x9 area.");
-<netherex:frosted_amedian_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
-<simpleores:mythril_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
-<simpleores:adamantium_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
-<simpleores:onyx_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
-<contenttweaker:mythril_mattock>.addTooltip("Breaks grass and crops in a 7x7 area.");
-<atop:peridot_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
-<atop:ruby_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
-<atop:sapphire_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
-<dungeontactics:steel_hoe>.addTooltip("Breaks grass and crops in a 5x5 area.");
-<nyx:meteor_hoe>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<minecraft:stone_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<minecraft:iron_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<minecraft:diamond_hoe:*>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<minecraft:golden_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<twilightforest:ironwood_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<twilightforest:steeleaf_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<betterwithmods:steel_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<atop:mud_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:silver_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonbone_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<iceandfire:myrmex_desert_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:myrmex_jungle_hoe:*>.addTooltip("Breaks grass and crops in a 3x3 area.");
+<iceandfire:dragonsteel_fire_hoe:*>.addTooltip("Breaks grass and crops in a 9x9 area.");
+<iceandfire:dragonsteel_ice_hoe:*>.addTooltip("Breaks grass and crops in a 9x9 area.");
+<netherex:frosted_amedian_hoe:*>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<simpleores:mythril_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<simpleores:adamantium_hoe:*>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<simpleores:onyx_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<contenttweaker:mythril_mattock:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<atop:peridot_hoe:*>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<atop:ruby_hoe:*>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<atop:sapphire_hoe:*>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<dungeontactics:steel_hoe:*>.addTooltip("Breaks grass and crops in a 5x5 area.");
+<nyx:meteor_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
+<atop:amethyst_hoe:*>.addTooltip("Breaks grass and crops in a 7x7 area.");
 
 // Underground Biomes Construct (and other stone types). Based on the tooltips of the modpack Homestead for 1.10.2
 // Igneous

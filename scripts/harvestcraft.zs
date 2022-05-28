@@ -47,8 +47,6 @@ recipes.remove(<harvestcraft:saltitem>);
 
 # replaced these with Rustic's 
 JEI.removeAndHide(<harvestcraft:apple_sapling>);
-JEI.removeAndHide(<harvestcraft:chilipepperitem>);
-JEI.removeAndHide(<harvestcraft:chilipepperseeditem>);
 JEI.removeAndHide(<harvestcraft:oliveitem>);
 JEI.removeAndHide(<harvestcraft:olive_sapling>);
 
