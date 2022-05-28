@@ -29,7 +29,7 @@
 {
     "mob": ["betteranimalsplus:boar"],
     "onjoin": true,
-    "speedmultiply": 0.75
+    "speedmultiply": 0.9
 },
 
   // Zombies
@@ -93,12 +93,6 @@
     "mob": ["mod_lavacow:sludgelord", "harvestersnight:harvester","betterslimes:quazar","minecraft:wither","minecraft:ender_dragon","rats:black_death","betteranimalsplus:hirschgeist","aether_legacy:sun_spirit","aether_legacy:slider","iceandfire:icedragon","iceandfire:firedragon","twilightforest:naga","twilightforest:lich","twilightforest:minoshroom","twilightforest:hydra","twilightforest:knight_phantom","twilightforest:ur_ghast","twilightforest:yeti_alpha","twilightforest:snow_queen","iceandfire:seaserpent","iceandfire:cyclops","iceandfire:if_hydra","mowziesmobs:ferrous_wroughtnaught","mowziesmobs:frostmaw","mowziesmobs:barako"],
     "onjoin": true,
     "potion": ["potioncore:magic_shield,1000000,1"]
-
-},
-{  
-    "mob": ["iceandfire:seaserpent"],
-    "onjoin": true,
-    "speedmultiply": 0.5
 
 },
 
