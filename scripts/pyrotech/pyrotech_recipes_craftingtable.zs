@@ -160,8 +160,7 @@ recipes.addShaped("composting_bin", <pyrotech:compost_bin>,
   [<earthworks:item_timber>,null,<earthworks:item_timber>],
   [<ore:logWood>,<ore:logWood>,<ore:logWood>]]);
 recipes.addShaped("compacting_bin", <pyrotech:compacting_bin>,
- [[null,<pyrotech:compost_bin>,null],
-  [<ore:stoneSlab>,<pyrotech:compost_bin>,<ore:stoneSlab>],
+ [[<ore:stoneSlab>,<pyrotech:compost_bin>,<ore:stoneSlab>],
   [<ore:stoneSlab>,<ore:slabWood>,<ore:stoneSlab>]]);
 recipes.addShaped("mechanical_compacting_bin", <pyrotech:mechanical_compacting_bin>,
  [[null,null,null],
@@ -218,9 +217,6 @@ recipes.addShaped("pyro_refractory_igniter", <pyrotech:igniter:1> ,
 recipes.addShaped("pyro_refractory_faucet", <pyrotech:faucet_brick>*2,
  [[refractoryBrick,null,refractoryBrick],
   [refractoryMaterial,refractoryBrick,refractoryMaterial]]);
-recipes.addShaped("pyro_clay_bucket", <pyrotech:bucket_clay_unfired>,
- [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
-  [null,<minecraft:clay_ball>,null]]);
 recipes.addShapeless("pyro_refracotrymaterial_slag", refractoryMaterial*2, [<pyrotech:material:8>,<pyrotech:material:8>,<pyrotech:material:8>,<minecraft:clay_ball>]);
 recipes.addShapeless("pyro_unfiredlime_lime", <contenttweaker:unfired_refractory_brick>,[refractoryMaterial]);
 furnace.remove(<minecraft:stonebrick:2>);
@@ -243,9 +239,9 @@ recipes.addShaped("crude_fishing_pole", <pyrotech:crude_fishing_rod>,
  [[null,<ore:stickWood>],
   [<ore:stickWood>,<ore:twine>]]);
 recipes.addShaped("quilting_sail", <betterwithmods:material:4>,
- [[<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>],
-  [<minecraft:carpet:*>,<pyrotech:material:26>,<minecraft:carpet:*>],
-  [<pyrotech:material:26>,<minecraft:carpet:*>,<pyrotech:material:26>]]);
+ [[<pyrotech:material:26>,null,<pyrotech:material:26>],
+  [null,<pyrotech:material:26>,null],
+  [<pyrotech:material:26>,null,<pyrotech:material:26>]]);
 recipes.addShaped("steel_sawblade", <pyrotech:sawmill_blade_iron>,
  [[<dungeontactics:steel_nugget>,<dungeontactics:steel_ingot>,<dungeontactics:steel_nugget>],
   [<dungeontactics:steel_ingot>,null,<dungeontactics:steel_ingot>],

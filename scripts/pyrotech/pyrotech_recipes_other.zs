@@ -131,6 +131,8 @@ SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 SoakingPot.removeRecipes(<minecraft:stonebrick:1>);
+SoakingPot.removeRecipes(<pyrotech:material:26>);
+SoakingPot.addRecipe("easy_durable_twine", <pyrotech:material:26>*3, <liquid:wood_tar>*125, <pyrotech:material:14>, false, 1);
 SoakingPot.addRecipe("rotten_flesh_dissolve", <quark:tallow>, <liquid:methanol>*1, <ore:meatRotten>, true, 5 * 60 * 20);
 SoakingPot.addRecipe("mossy_stone_bricks", <minecraft:stonebrick:1>, <liquid:water>*500, <contenttweaker:brick_minecraft_stone>, 7 * 60 * 20);
 SoakingPot.addRecipe("yute_fiber", <betterwithmods:material:3>*5, <liquid:water>*500, <pyrotech:material:2>, 5 * 60 * 20);

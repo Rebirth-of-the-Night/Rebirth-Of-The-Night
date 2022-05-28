@@ -172,6 +172,7 @@ JEI.addDescription(<pyrotech:chopping_block>, "A chopping block enables the harv
 JEI.addDescription(<pyrotech:stone_kiln>,"A primitive machine that can smelt certain items like clay, bronze alloy, and charcoal in batches of 64. Needs to be ignited with a hand drill or a better igniter with fuel placed inside. Use and hold the igniter until the kiln is lit.");
 JEI.addDescription(<pyrotech:brick_kiln>,"Upgraded version of the brick kiln, the refractory kiln! Can smelt certain items like clay, bronze alloy, and charcoal in batches of 64 similar to the brick kiln, but faster and more effectively! Ignited the same way as a brick kiln.");
 JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break items into smaller pieces. Can turn tin and copper into pebbles suitable for making bronze.");
+JEI.addDescription(<pyrotech:compacting_bin>,"Remove finished product using a shovel.");
 
 JEI.addDescription(woodChips, "This byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
 JEI.addDescription(bark,"Woof! Obtained from chopping up logs, these are most useful for tanning leather.");

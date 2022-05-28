@@ -1,11 +1,24 @@
 {
   "list": [
-{
-      "name": "gold",
+	{
+      "name": "stone",
       "harvestLevel": 0,
       "maxUses": 32,
       "efficiency": 12.0,
-      "damage": 0.0,
+      "damage": 1.0,
+      "enchantability": 5,
+      "color": "7F7F7F",
+      "shiny": false,
+      "ingredient": "ore:rock",
+      "langKey": "material.athenaeum.stone",
+      "oreDictKey": "artisansToolStone"
+    },
+	{
+      "name": "gold",
+      "harvestLevel": 0,
+      "maxUses": 256,
+      "efficiency": 18.0,
+      "damage": 2.0,
       "enchantability": 22,
       "color": "ffe947",
       "shiny": false,

@@ -2019,9 +2019,9 @@ recipes.addShaped("dust_to_witheredblock", <contenttweaker:witheredblock>,[
     [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
     [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]
 ]);
-recipes.addShaped("HBBB", <contenttweaker:baguettebrick>,[
-    [<dungeontactics:toast>, <dungeontactics:toast>],
-    [<dungeontactics:toast>, <dungeontactics:toast>]
+recipes.addShaped("HBBB", <contenttweaker:baguettebrick>*24,[
+    [<dungeontactics:toast>, <dungeontactics:toast>, <dungeontactics:toast>],
+    [<dungeontactics:toast>, <dungeontactics:toast>, <dungeontactics:toast>]
 ]);
 
 recipes.addShaped("grass_paver", <contenttweaker:grass_paver>*8,[

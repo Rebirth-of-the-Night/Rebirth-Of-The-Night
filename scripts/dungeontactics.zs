@@ -241,7 +241,6 @@ JEI.removeAndHide(<dungeontactics:copper_cluster>);
 furnace.remove(<simpleores:copper_ore>, <dungeontactics:iron_cluster>);
 
 JEI.removeAndHide(<dungeontactics:bottled_milk>);
-JEI.removeAndHide(<dungeontactics:toast>);
 JEI.removeAndHide(<dungeontactics:bread_slice>);
 JEI.removeAndHide(<dungeontactics:toast_slice>);
 JEI.removeAndHide(<dungeontactics:jam_on_toast>);
@@ -301,7 +300,7 @@ JEI.removeAndHide(<dungeontactics:mithril_plate_greaves>);
 JEI.removeAndHide(<dungeontactics:mithril_plate_chestpiece>);
 JEI.removeAndHide(<dungeontactics:mithril_plate_faceplate>);
 
-
+recipes.remove(<dungeontactics:toast>);
 
 JEI.removeAndHide(<dungeontactics:ironlinks>);
 LootTable.removeGlobalItem("ironlinks");
