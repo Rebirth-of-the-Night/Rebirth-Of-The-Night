@@ -589,56 +589,15 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 // Misc. Weapons
 <twilightforest:giant_sword>.addTooltip(format.darkRed("+18 Attack Damage"));
-<twilightforest:giant_sword>.addTooltip(format.gold("Properties:"));
-<twilightforest:giant_sword>.addTooltip(format.red("- Two-Handed II"));
 <twilightforest:giant_sword>.addTooltip(format.green("- Knockback IV"));
-<twilightforest:giant_sword>.addTooltip(format.green("- Reach III"));
-
-<mowziesmobs:wrought_axe>.addTooltip(format.gold("Properties:"));
-<mowziesmobs:wrought_axe>.addTooltip(format.red("- Two-Handed I"));
-<mowziesmobs:wrought_axe>.addTooltip(format.green("- Reach I"));
 
 <aether_legacy:valkyrie_lance>.addTooltip(format.darkRed("+4 Attack Damage"));
-<aether_legacy:valkyrie_lance>.addTooltip(format.gold("Properties:"));
-<aether_legacy:valkyrie_lance>.addTooltip(format.red("- Two-Handed I"));
-<aether_legacy:valkyrie_lance>.addTooltip(format.green("- Reach I"));
 
-<iceandfire:troll_weapon.column>.addTooltip(format.gold("Properties:"));
-<iceandfire:troll_weapon.column>.addTooltip(format.red("- Two-Handed I"));
-<iceandfire:troll_weapon.column>.addTooltip(format.green("- Reach I"));
-
-<iceandfire:troll_weapon.axe>.addTooltip(format.gold("Properties:"));
-<iceandfire:troll_weapon.axe>.addTooltip(format.red("- Two-Handed I"));
-<iceandfire:troll_weapon.axe>.addTooltip(format.green("- Reach I"));
-
-<iceandfire:troll_weapon.column_forest>.addTooltip(format.gold("Properties:"));
-<iceandfire:troll_weapon.column_forest>.addTooltip(format.red("- Two-Handed I"));
-<iceandfire:troll_weapon.column_forest>.addTooltip(format.green("- Reach I"));
-
-<iceandfire:troll_weapon.column_frost>.addTooltip(format.gold("Properties:"));
-<iceandfire:troll_weapon.column_frost>.addTooltip(format.red("- Two-Handed I"));
-<iceandfire:troll_weapon.column_frost>.addTooltip(format.green("- Reach I"));
-
-<iceandfire:troll_weapon.hammer>.addTooltip(format.gold("Properties:"));
-<iceandfire:troll_weapon.hammer>.addTooltip(format.red("- Two-Handed I"));
-<iceandfire:troll_weapon.hammer>.addTooltip(format.green("- Reach I"));
-
-<iceandfire:troll_weapon.trunk>.addTooltip(format.gold("Properties:"));
-<iceandfire:troll_weapon.trunk>.addTooltip(format.red("- Two-Handed I"));
-<iceandfire:troll_weapon.trunk>.addTooltip(format.green("- Reach I"));
-
-<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.gold("Properties:"));
-<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.red("- Two-Handed I"));
-<iceandfire:troll_weapon.trunk_frost>.addTooltip(format.green("- Reach I"));
-
-<aether_legacy:holy_sword>.addTooltip(format.gold("Properties:"));
 <aether_legacy:holy_sword>.addTooltip(format.green("- Arcanic Conversion III"));
 
-<aether_legacy:flaming_sword>.addTooltip(format.gold("Properties:"));
 <aether_legacy:flaming_sword>.addTooltip(format.green("- Smite IV"));
 <aether_legacy:flaming_sword>.addTooltip(format.green("- 10% Attack Speed Buff"));
 
-<aether_legacy:pig_slayer>.addTooltip(format.gold("Properties:"));
 <aether_legacy:pig_slayer>.addTooltip(format.green("- Stealthy Strike I"));
 
 // Longbows

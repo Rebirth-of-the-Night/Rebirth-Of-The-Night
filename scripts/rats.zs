@@ -97,6 +97,7 @@ JEI.removeAndHide(<rats:rat_burger>); // Dunno what we want to do with it, but r
 
 // other removed recipes
 recipes.remove(<rats:rat_upgrade_voodoo>);
+JEI.removeAndHide(<rats:rat_upgrade_voodoo>);
 recipes.remove(<rats:rat_upgrade_tnt_survivor>);
 recipes.remove(<rats:feathery_wing>);
 recipes.remove(<rats:cheese>);
@@ -149,11 +150,11 @@ recipes.addShaped("rat_toga", <rats:rat_toga>,[
     [null, <harvestcraft:wovencottonitem>, null]
 ]);
 
-recipes.addShaped("rat_voodoo", <rats:rat_upgrade_voodoo>,[
+/*recipes.addShaped("rat_voodoo", <rats:rat_upgrade_voodoo>,[
 	[<rats:plague_essence>, <rats:top_hat>, <rats:plague_essence>],
     [<minecraft:totem_of_undying>, <rats:rat_upgrade_damage_protection>, <minecraft:totem_of_undying>],
     [<rats:plague_essence>, <minecraft:totem_of_undying>, <rats:plague_essence>]
-]);
+]);*/
 
 recipes.addShaped("feathery_wing", <rats:feathery_wing>,[
 	[null, null, null],
