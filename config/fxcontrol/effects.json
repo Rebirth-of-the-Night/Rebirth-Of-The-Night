@@ -46,7 +46,7 @@
     "minheight": 128,
     "gamestage": "invasionongoing",
 	"damage": "magic=6",
-	"message": "§cThe strain of the invasion is overwhelming, I should descend a bit..."
+	"message": "§cThe air up here is getting thin, I should descend a bit..."
   },
   {
     "timeout": 60,
