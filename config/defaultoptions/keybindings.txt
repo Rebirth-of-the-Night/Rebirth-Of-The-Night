@@ -140,7 +140,7 @@ key_teamsmod.keyhud.desc:47
 key_teamsmod.keycompass.desc:50
 key_teamsmod.keyaccept.desc:27
 key_teamsmod.keyswitch.desc:19
-key_key.toolbelt.open:19
+key_key.toolbelt.open:41
 key_key.toolbelt.cycle.left:0
 key_key.toolbelt.cycle.right:0
 key_key.trashslot.toggle:20
@@ -150,3 +150,6 @@ key_Eatkey:19
 key_Spitkey:0
 key_key.craftingcraft.back_to_inventory:0
 key_key.fullscreenwindowed.unused:0
+key_Mo' Bends Menu:0
+key_Refresh Animations:0
+key_key.keyExtraInvo:21

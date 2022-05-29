@@ -2606,10 +2606,10 @@
     "equipment_slots": [
       "MAINHAND"
     ],
-    "incompat_mode": 0,
+    "incompat_mode": 1,
     "incompatible": [
-		"endreborn:ender_killer",
-		"dungeontactics:runed"
+      "endreborn:ender_killer",
+      "dungeontactics:runed"
 	],
     "applicability_mode": 1,
     "items_list_mode": 0,

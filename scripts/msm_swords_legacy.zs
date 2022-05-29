@@ -8,6 +8,11 @@ import mods.ltt.LootTable;
 // LootTable.removeGlobalItem("minecraft:enchanted_book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 99 as short}]})");
 recipes.remove(<msmlegacy:adminium_ark>);
 
+val enchantments0 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:absorb>];
+
+var enchantmentMap0 as IData = {};
+
+enchantmentMap0 += enchantments0[0].makeEnchantment(1).makeTag();
 
 JEI.removeAndHide(<msmlegacy:relic_infinity>);
 JEI.removeAndHide(<msmlegacy:relic_keyblade>);
@@ -16,7 +21,7 @@ JEI.removeAndHide(<msmlegacy:relic_molten>);
 JEI.removeAndHide(<msmlegacy:relic_pie>);
 
 recipes.remove(<msmlegacy:gladiolus>);
-recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag({ench: [{lvl: 1 as short, id: 92}]}),[
+recipes.addShaped("Gladiolus", <msmlegacy:gladiolus>.withTag(enchantmentMap0),[
    [null, <ore:treeLeaves>, <ore:vine>],
    [<ore:treeSapling>, <ore:blockMossy>, <ore:treeLeaves>],
    [<spartanweaponry:material>, <ore:treeSapling>, null]
@@ -109,15 +114,15 @@ var ruby = <ore:gemRuby>;
 var chili = <ore:cropChilipepper>;
 var blaze = <betterwithmods:material:27>;
 
-/*val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:scorn>, <enchantment:minecraft:fire_aspect>];
+val enchantments1 as IEnchantmentDefinition[] = [<enchantment:msmlegacy:scorn>, <enchantment:minecraft:fire_aspect>];
 
 var enchantmentMap1 as IData = {};
 
 enchantmentMap1 += enchantments1[0].makeEnchantment(1).makeTag();
-enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();*/
+enchantmentMap1 += enchantments1[1].makeEnchantment(1).makeTag();
 
 recipes.remove(<msmlegacy:relic_aqueous>);
-recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTag({ench: [{lvl: 1 as short, id: 94}, {lvl: 1 as short, id: 20}]}),[
+recipes.addShaped("Red Hot Chili Pepper Sword", <msmlegacy:relic_aqueous>.withTag(enchantmentMap1),[
 	[null, blaze, ruby],
     [chili, ruby, blaze],
     [handle, chili, null]
