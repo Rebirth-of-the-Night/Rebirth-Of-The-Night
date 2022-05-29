@@ -45,8 +45,8 @@
     "timeout": 100,
     "minheight": 128,
     "gamestage": "invasionongoing",
-	"damage": "magic=4",
-	"message": "§cYou should get below y = 128... NOW!"
+	"damage": "magic=6",
+	"message": "§cThe strain of the invasion is overwhelming, I should descend a bit..."
   },
   {
     "timeout": 60,
