@@ -36,8 +36,6 @@ JEI.removeAndHide(<rustic:lantern_wood>);
 
 JEI.removeAndHide(<rustic:tomato_seeds>);
 JEI.removeAndHide(<rustic:tomato>);
-JEI.removeAndHide(<rustic:chili_pepper_seeds>);
-JEI.removeAndHide(<rustic:chili_pepper>);
 
 JEI.removeAndHide(<rustic:grape_stem>);
 JEI.removeAndHide(<rustic:grapes>);

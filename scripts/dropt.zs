@@ -660,6 +660,10 @@ Dropt.list("double_tall_grass_base_drops")
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
 	  )
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(210))
+          .items([<rustic:chili_pepper_seeds>]) // chili pepper seeds
+      )
   );
 
 Dropt.list("slaked_lime")
@@ -945,6 +949,15 @@ Dropt.list("animania_seeds")
   .add(Dropt.rule()
       .matchBlocks(["animania:block_seeds"])
       .matchDrops([<minecraft:wheat_seeds>])
+      .replaceStrategy("REPLACE_ITEMS")
+        .addDrop(Dropt.drop())
+      );
+
+Dropt.list("harvestcraft_chili")
+
+  .add(Dropt.rule()
+      .matchBlocks(["harvestcraft:garden"])
+      .matchDrops([<harvestcraft:chilipepperitem>])
       .replaceStrategy("REPLACE_ITEMS")
         .addDrop(Dropt.drop())
       );
