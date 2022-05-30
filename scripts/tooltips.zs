@@ -598,17 +598,20 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <defiledlands:tears_flame>.removeTooltip("Shoots fireballs");
 
 // Misc. Weapons
-<twilightforest:giant_sword>.addTooltip(format.darkRed("+18 Attack Damage"));
-<twilightforest:giant_sword>.addTooltip(format.green("- Knockback IV"));
+<twilightforest:giant_sword:*>.addTooltip(format.darkRed("+18 Attack Damage"));
+<twilightforest:giant_sword:*>.addTooltip(format.green("- Knockback IV"));
 
-<aether_legacy:valkyrie_lance>.addTooltip(format.darkRed("+4 Attack Damage"));
+<aether_legacy:valkyrie_lance:*>.addTooltip(format.darkRed("+4 Attack Damage"));
 
-<aether_legacy:holy_sword>.addTooltip(format.green("- Arcanic Conversion III"));
+<aether_legacy:holy_sword:*>.addTooltip(format.green("- Arcanic Conversion III"));
 
-<aether_legacy:flaming_sword>.addTooltip(format.green("- Smite IV"));
-<aether_legacy:flaming_sword>.addTooltip(format.green("- 10% Attack Speed Buff"));
+<aether_legacy:flaming_sword:*>.addTooltip(format.green("- Smite IV"));
+<aether_legacy:flaming_sword:*>.addTooltip(format.green("- 10% Attack Speed Buff"));
 
-<aether_legacy:pig_slayer>.addTooltip(format.green("- Stealthy Strike I"));
+<aether_legacy:pig_slayer:*>.addTooltip(format.green("- Stealthy Strike I"));
+
+<demonic_scythe:demonic_scythe:*:*>.addTooltip("You feel your lifeforce corrupt as you hold this demonic weapon. Right click to perform a special AOE attack!");
+<demonic_scythe:awakened_demonic_scythe:*>.addTooltip("You feel your lifeforce corrupt as you hold this empowered weapon. Right click to perform a special AOE attack which heals you!");
 
 // Longbows
 <spartanweaponry:longbow_wood:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.0"));

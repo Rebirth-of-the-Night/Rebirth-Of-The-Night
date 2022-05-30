@@ -90,6 +90,15 @@ Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgehammer
    [null, null, null, null]
 ]);
 
+// Demonic Scythe
+Anvil.addShaped(<demonic_scythe:demonic_scythe>,
+[
+   [null, <contenttweaker:corrupted_cincinnasite>, null, null],
+   [<contenttweaker:corrupted_cincinnasite>, null, null, null],
+   [<contenttweaker:ruby_ingot>, null, <contenttweaker:ruby_ingot>, <spartanfire:witherbone_handle>],
+   [<contenttweaker:corrupted_cincinnasite>, <contenttweaker:ruby_ingot>, null, null]
+]);
+
 // Broadhead
 Anvil.removeShaped(<betterwithmods:material:43>);
 Anvil.addShaped(<betterwithmods:material:43>,

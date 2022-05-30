@@ -846,6 +846,7 @@ Enchanter.registerEnchantment(<nyx:scythe>, 12000);
 Enchanter.registerEnchantment(<nyx:meteor_sword>, 12000);
 Enchanter.registerEnchantment(<nyx:meteor_bow>, 12000);
 Enchanter.registerEnchantment(<nyx:meteor_hammer>, 12000);
+Enchanter.registerEnchantment(<demonic_scythe:demonic_scythe>, 12000);
 
 //Legendary Quality
 Enchanter.registerEnchantment(<betteranimalsplus:hirschgeistskullwearable>, 32200);
@@ -876,6 +877,7 @@ Enchanter.registerEnchantment(<rats:plague_scythe>, 32200);
 Enchanter.registerEnchantment(<msmlegacy:wither_bane>, 32200);
 Enchanter.registerEnchantment(<msmlegacy:crystaline_blade>, 32200);
 Enchanter.registerEnchantment(<mod_lavacow:piranhalauncher>, 32200);
+Enchanter.registerEnchantment(<demonic_scythe:awakened_demonic_scythe>, 12000);
 
 //Relics-Godly
 Enchanter.registerEnchantment(<msmlegacy:relic_aqueous>, 28800);
