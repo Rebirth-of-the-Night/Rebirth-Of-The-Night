@@ -194,7 +194,7 @@ for w, weapon in sapphireweps{
 <contenttweaker:unfired_mud_brick:*>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_adobe_brick:*>.addTooltip("Can be baked in a pit kiln.");
 
-<ore:listAllExplosives:*>.addTooltip("This feels a little too volatile for high temperatures...");
+<ore:listAllExplosives>.addTooltip("This feels a little too volatile for high temperatures...");
 
 // Nyx
 <nyx:lunar_water_bottle:*>.addTooltip("Removes most negative potion effects");
