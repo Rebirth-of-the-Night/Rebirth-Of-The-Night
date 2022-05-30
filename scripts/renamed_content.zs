@@ -4,9 +4,9 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 // Progression and CoT
-<contenttweaker:slayers_tattered_journal>.addTooltip("A peculiar old journal... I've copied it into my guidebook.");
+<contenttweaker:slayers_tattered_journal:*>.addTooltip("A peculiar old journal... I've copied it into my guidebook.");
 
-<multiblockmobs:soul_chassis>.addTooltip("Used for summoning bosses");
+<multiblockmobs:soul_chassis:*>.addTooltip("Used for summoning bosses");
 
 // Biomes o Plenty
 <biomesoplenty:hive>.displayName = "Giant Hive Block";
@@ -24,26 +24,26 @@ import mods.jei.JEI;
 <basketcase:basket_large_generic>.displayName = "Large Wicker Basket";
 
 // Guidebook
-<solcarrot:food_book>.addTooltip(format.aqua("Guidebook"));
-<solcarrot:food_book>.addTooltip("Max health improvement via food information");
+<solcarrot:food_book:*>.addTooltip(format.aqua("Guidebook"));
+<solcarrot:food_book:*>.addTooltip("Max health improvement via food information");
 
-<animania:animania_manual>.addTooltip(format.aqua("Guidebook"));
-<animania:animania_manual>.addTooltip("All you need to know about keeping livestock.");
+<animania:animania_manual:*>.addTooltip(format.aqua("Guidebook"));
+<animania:animania_manual:*>.addTooltip("All you need to know about keeping livestock.");
 
 <betterwithmods:manual>.removeTooltip("Book of Single");
-<betterwithmods:manual>.addTooltip(format.aqua("Guidebook"));
-<betterwithmods:manual>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
+<betterwithmods:manual:*>.addTooltip(format.aqua("Guidebook"));
+<betterwithmods:manual:*>.addTooltip("How to construct and operate millstones, saws, windmills, and more.");
 
 <arcanearchives:tome_arcana>.removeTooltip("documentation");
-<arcanearchives:tome_arcana>.addTooltip(format.aqua("Guidebook"));
-<arcanearchives:tome_arcana>.addTooltip("How to store your items efficiently.");
+<arcanearchives:tome_arcana:*>.addTooltip(format.aqua("Guidebook"));
+<arcanearchives:tome_arcana:*>.addTooltip("How to store your items efficiently.");
 
-<rustic:book>.addTooltip(format.aqua("Guidebook"));
-<rustic:book>.addTooltip("How to farm, brew elixirs, and decorate your home.");
+<rustic:book:*>.addTooltip(format.aqua("Guidebook"));
+<rustic:book:*>.addTooltip("How to farm, brew elixirs, and decorate your home.");
 
 // removed these, leaving the following for now
-// <golems:info_book>.addTooltip(format.aqua("Guidebook"));
-// <golems:info_book>.addTooltip("Fantastic golems and how to build them.");
+// <golems:info_book:*>.addTooltip(format.aqua("Guidebook"));
+// <golems:info_book:*>.addTooltip("Fantastic golems and how to build them.");
 
 // Minecraft
 <minecraft:chest>.displayName = "Varnished Chest";
@@ -92,7 +92,7 @@ import mods.jei.JEI;
 <twilightforest:cooked_venison>.displayName = "Roast Prime Venison"; 
 
 // Quark
-<quark:chain>.addTooltip("Can be used to link minecarts or boats");
+<quark:chain:*>.addTooltip("Can be used to link minecarts or boats");
 
 // Earthworks
 <earthworks:block_dry_stone>.displayName = "Coade Dry Fitted Stone"; 
@@ -173,52 +173,52 @@ for potion in potionMap{
 }
 
 // Magic items
-<bountifulbaubles:amuletsinempty>.addTooltip(format.gray("Inert"));
-<artifacts:whoopie_cushion>.addTooltip(format.gray("Inert"));
+<bountifulbaubles:amuletsinempty:*>.addTooltip(format.gray("Inert"));
+<artifacts:whoopie_cushion:*>.addTooltip(format.gray("Inert"));
 
-<artifacts:shiny_red_balloon>.addTooltip(format.darkGreen("Mundane"));
-<artifacts:drinking_hat>.addTooltip(format.darkGreen("Mundane"));
-<artifacts:obsidian_skull>.addTooltip(format.darkGreen("Mundane"));
-<iceandfire:lich_staff>.addTooltip(format.darkGreen("Mundane"));
-<aether_legacy:cloud_staff>.addTooltip(format.darkGreen("Mundane"));
-<defiledlands:tears_flame>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:shiny_red_balloon:*>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:drinking_hat:*>.addTooltip(format.darkGreen("Mundane"));
+<artifacts:obsidian_skull:*>.addTooltip(format.darkGreen("Mundane"));
+<iceandfire:lich_staff:*>.addTooltip(format.darkGreen("Mundane"));
+<aether_legacy:cloud_staff:*>.addTooltip(format.darkGreen("Mundane"));
+<defiledlands:tears_flame:*>.addTooltip(format.darkGreen("Mundane"));
 
-<bountifulbaubles:amuletsingluttony>.addTooltip(format.aqua("Arcane"));
-<bountifulbaubles:amuletsinpride>.addTooltip(format.aqua("Arcane"));
-<bountifulbaubles:amuletsinwrath>.addTooltip(format.aqua("Arcane"));
-<bountifulbaubles:amuletcross>.addTooltip(format.aqua("Arcane"));
-<artifacts:snorkel>.addTooltip(format.aqua("Arcane"));
-<artifacts:shock_pendant>.addTooltip(format.aqua("Arcane"));
-<artifacts:flame_pendant>.addTooltip(format.aqua("Arcane"));
-<artifacts:thorn_pendant>.addTooltip(format.aqua("Arcane"));
-<artifacts:bottled_cloud>.addTooltip(format.aqua("Arcane"));
-<artifacts:bottled_fart>.addTooltip(format.aqua("Arcane"));
-<artifacts:feral_claws>.addTooltip(format.aqua("Arcane"));
-<artifacts:power_glove>.addTooltip(format.aqua("Arcane"));
-<artifacts:star_cloak>.addTooltip(format.aqua("Arcane"));
-<artifacts:pocket_piston>.addTooltip(format.aqua("Arcane"));
-<artifacts:panic_necklace>.addTooltip(format.aqua("Arcane"));
-<deadmanssatchel:deadmanssatchel>.addTooltip(format.aqua("Arcane"));
-<artifacts:magma_stone>.addTooltip(format.aqua("Arcane"));
-<randomthings:obsidianskullring>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsingluttony:*>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsinpride:*>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletsinwrath:*>.addTooltip(format.aqua("Arcane"));
+<bountifulbaubles:amuletcross:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:snorkel:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:shock_pendant:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:flame_pendant:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:thorn_pendant:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:bottled_cloud:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:bottled_fart:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:feral_claws:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:power_glove:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:star_cloak:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:pocket_piston:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:panic_necklace:*>.addTooltip(format.aqua("Arcane"));
+<deadmanssatchel:deadmanssatchel:*>.addTooltip(format.aqua("Arcane"));
+<artifacts:magma_stone:*>.addTooltip(format.aqua("Arcane"));
+<randomthings:obsidianskullring:*>.addTooltip(format.aqua("Arcane"));
 
-<bountifulbaubles:trinketobsidianskull>.addTooltip(format.darkPurple("Mystical"));
-<artifacts:cobalt_shield>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketmagiclenses>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:ringoverclocking>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketshulkerheart>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketbezoar>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketblackdragonscale>.addTooltip(format.darkPurple("Mystical"));
-<artifacts:lucky_horseshoe>.addTooltip(format.darkPurple("Mystical"));
-<bountifulbaubles:trinketbrokenheart>.addTooltip(format.darkPurple("Mystical"));
-<artifacts:ultimate_pendant>.addTooltip(format.darkPurple("Mystical"));
-<artifacts:fire_gauntlet>.addTooltip(format.darkPurple("Mystical"));
-<randomthings:lavacharm>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketobsidianskull:*>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:cobalt_shield:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketmagiclenses:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:ringoverclocking:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketshulkerheart:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketbezoar:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketblackdragonscale:*>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:lucky_horseshoe:*>.addTooltip(format.darkPurple("Mystical"));
+<bountifulbaubles:trinketbrokenheart:*>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:ultimate_pendant:*>.addTooltip(format.darkPurple("Mystical"));
+<artifacts:fire_gauntlet:*>.addTooltip(format.darkPurple("Mystical"));
+<randomthings:lavacharm:*>.addTooltip(format.darkPurple("Mystical"));
 
-<bountifulbaubles:trinketapple>.addTooltip(format.gold("Ascended"));
-<bountifulbaubles:trinketvitamins>.addTooltip(format.gold("Ascended"));
-<bountifulbaubles:ringfreeaction>.addTooltip(format.gold("Ascended"));
-<artifacts:night_vision_goggles>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:trinketapple:*>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:trinketvitamins:*>.addTooltip(format.gold("Ascended"));
+<bountifulbaubles:ringfreeaction:*>.addTooltip(format.gold("Ascended"));
+<artifacts:night_vision_goggles:*>.addTooltip(format.gold("Ascended"));
 
 <bountifulbaubles:trinketobsidianskull>.displayName = "§bDraconic Skull";
 <randomthings:lavacharm>.displayName = "§bLava Ring";
@@ -226,43 +226,43 @@ for potion in potionMap{
 
 
 // Better Animals Plus
-<betteranimalsplus:wolfhead_2>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:wolfhead_3>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:wolfhead_4>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:wolfhead_5>.addTooltip(format.darkGreen("Rare Trophy"));
-<betteranimalsplus:wolfhead_6>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_2:*>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_3:*>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_4:*>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_5:*>.addTooltip(format.darkGreen("Rare Trophy"));
+<betteranimalsplus:wolfhead_6:*>.addTooltip(format.darkGreen("Rare Trophy"));
 
 // Rare
-<dungeontactics:high_striker>.addTooltip(format.darkGreen("Rare Weapon"));
-<dungeontactics:wackerjab>.addTooltip(format.darkGreen("Rare Weapon"));
-<dungeontactics:taser>.addTooltip(format.darkGreen("Rare Weapon"));
-<dungeontactics:claws>.addTooltip(format.darkGreen("Rare Weapon"));
-<dungeontactics:pirate_hook>.addTooltip(format.darkGreen("Rare Weapon"));
-<dungeontactics:coin_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
-<dungeontactics:backfire_cannon>.addTooltip(format.darkGreen("Rare Weapon"));
+<dungeontactics:high_striker:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<dungeontactics:wackerjab:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<dungeontactics:taser:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<dungeontactics:claws:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<dungeontactics:pirate_hook:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<dungeontactics:coin_cannon:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<dungeontactics:backfire_cannon:*>.addTooltip(format.darkGreen("Rare Weapon"));
 
-<simpleores:adamantium_sword>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartancompat:saber_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartancompat:katana_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartancompat:staff_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartancompat:spear_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartancompat:dagger_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartancompat:throwing_knife_adamantium>.addTooltip(format.darkGreen("Rare Weapon"));
-<spartanshields:shield_basic_diamond>.addTooltip(format.darkGreen("Rare Shield"));
+<simpleores:adamantium_sword:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:saber_adamantium:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:katana_adamantium:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:staff_adamantium:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:spear_adamantium:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:dagger_adamantium:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartancompat:throwing_knife_adamantium:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<spartanshields:shield_basic_diamond:*>.addTooltip(format.darkGreen("Rare Shield"));
 
-<iceandfire:myrmex_desert_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
-<iceandfire:myrmex_jungle_sword_venom>.addTooltip(format.darkGreen("Rare Weapon"));
-<msmlegacy:vampiric_blade>.addTooltip(format.darkGreen("Rare Weapon"));
-<msmlegacy:draconic_blade>.addTooltip(format.darkGreen("Rare Weapon"));
-<pyrotech:redstone_sword>.addTooltip(format.darkGreen("Rare Weapon"));
+<iceandfire:myrmex_desert_sword_venom:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<iceandfire:myrmex_jungle_sword_venom:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<msmlegacy:vampiric_blade:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<msmlegacy:draconic_blade:*>.addTooltip(format.darkGreen("Rare Weapon"));
+<pyrotech:redstone_sword:*>.addTooltip(format.darkGreen("Rare Weapon"));
 
-<mod_lavacow:famine>.addTooltip(format.darkGreen("Rare Weapon"));
+<mod_lavacow:famine:*>.addTooltip(format.darkGreen("Rare Weapon"));
 
-<simpleores:adamantium_chestplate>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_leggings>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_helmet>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_boots>.addTooltip(format.darkGreen("Rare Armor"));
-<simpleores:adamantium_ingot>.addTooltip(format.darkGreen("Rare Material"));
+<simpleores:adamantium_chestplate:*>.addTooltip(format.darkGreen("Rare Armor"));
+<simpleores:adamantium_leggings:*>.addTooltip(format.darkGreen("Rare Armor"));
+<simpleores:adamantium_helmet:*>.addTooltip(format.darkGreen("Rare Armor"));
+<simpleores:adamantium_boots:*>.addTooltip(format.darkGreen("Rare Armor"));
+<simpleores:adamantium_ingot:*>.addTooltip(format.darkGreen("Rare Material"));
 
 <naturescompass:naturescompass>.displayName = "§aBiome Compass";
 
@@ -272,141 +272,141 @@ for potion in potionMap{
 /* <nyx:meteor_bow:*>.addTooltip("x1.2 arrow damage");
 <nyx:meteor_bow:*>.addTooltip("x1.3 arrow speed");
 <nyx:meteor_bow:*>.addTooltip("Slightly slower draw speed"); */
-<nyx:meteor_hammer>.addTooltip(format.darkPurple("Epic Weapon"));
-<nyx:scythe>.addTooltip(format.darkPurple("Epic Weapon"));
-<nyx:meteor_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<nyx:meteor_bow>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:meteor_hammer:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:scythe:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:meteor_sword:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<nyx:meteor_bow:*>.addTooltip(format.darkPurple("Epic Weapon"));
 
-<endreborn:tool_magnifier>.addTooltip(format.darkPurple("Epic Weapon"));
+<endreborn:tool_magnifier:*>.addTooltip(format.darkPurple("Epic Weapon"));
 
-<msmlegacy:aethers_guard>.addTooltip(format.darkPurple("Epic Weapon"));
+<msmlegacy:aethers_guard:*>.addTooltip(format.darkPurple("Epic Weapon"));
 
-<simpleores:mythril_bow>.addTooltip(format.darkPurple("Epic Weapon"));
-<simpleores:mythril_sword>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartancompat:rapier_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartancompat:longsword_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartancompat:glaive_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartancompat:lance_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartancompat:mace_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartancompat:boomerang_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartancompat:javelin_mythril>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartanshields:shield_basic_lead>.addTooltip(format.darkPurple("Epic Shield"));
+<simpleores:mythril_bow:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<simpleores:mythril_sword:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:rapier_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:longsword_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:glaive_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:lance_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:mace_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:boomerang_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartancompat:javelin_mythril:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartanshields:shield_basic_lead:*>.addTooltip(format.darkPurple("Epic Shield"));
 
 
-<mod_lavacow:war>.addTooltip(format.darkPurple("Epic Weapon"));
-<mod_lavacow:sludge_wand>.addTooltip(format.darkPurple("Epic Weapon"));
-<mod_lavacow:bonesword>.addTooltip(format.darkPurple("Epic Weapon"));
-<spartanweaponry:crossbow_wood>.addTooltip(format.darkPurple("Epic Weapon"));
+<mod_lavacow:war:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<mod_lavacow:sludge_wand:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<mod_lavacow:bonesword:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<spartanweaponry:crossbow_wood:*>.addTooltip(format.darkPurple("Epic Weapon"));
 
-<iceandfire:dragonbone_sword>.addTooltip(format.darkPurple("Epic Weapon"));
+<iceandfire:dragonbone_sword:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:wrought_axe:*>.displayName = "§5Ferrought Axe";
 <mowziesmobs:wrought_axe:*>.addTooltip(format.darkPurple("Epic Weapon"));
 <mowziesmobs:barako_mask>.displayName = "§5Sol Visage";
-<mowziesmobs:barako_mask>.addTooltip(format.darkPurple("Epic Artifact"));
+<mowziesmobs:barako_mask:*>.addTooltip(format.darkPurple("Epic Artifact"));
 <mowziesmobs:ice_crystal>.displayName = "§5Ice Crystal";
-<mowziesmobs:ice_crystal>.addTooltip(format.darkPurple("Epic Weapon"));
-<iceandfire:myrmex_desert_staff>.addTooltip(format.darkPurple("Epic Weapon"));
-<iceandfire:myrmex_jungle_staff>.addTooltip(format.darkPurple("Epic Weapon"));
+<mowziesmobs:ice_crystal:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<iceandfire:myrmex_desert_staff:*>.addTooltip(format.darkPurple("Epic Weapon"));
+<iceandfire:myrmex_jungle_staff:*>.addTooltip(format.darkPurple("Epic Weapon"));
 
 // Legendary
 
-<msmlegacy:wither_bane>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:wither_bane>.addTooltip("Darkness consumes the fallen.");
+<msmlegacy:wither_bane:*>.addTooltip(format.gold("Legendary Weapon"));
+<msmlegacy:wither_bane:*>.addTooltip("Darkness consumes the fallen.");
 
-<msmlegacy:crystaline_blade>.addTooltip(format.gold("Legendary Weapon"));
-<msmlegacy:crystaline_blade>.addTooltip("Light purifies all.");
+<msmlegacy:crystaline_blade:*>.addTooltip(format.gold("Legendary Weapon"));
+<msmlegacy:crystaline_blade:*>.addTooltip("Light purifies all.");
 
-<simpleores:onyx_sword>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:halberd_onyx>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:greatsword_onyx>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:warhammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:pike_onyx>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:battleaxe_onyx>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:hammer_onyx>.addTooltip(format.gold("Legendary Weapon"));
-<spartancompat:throwing_axe_onyx>.addTooltip(format.gold("Legendary Weapon"));
+<simpleores:onyx_sword:*>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:halberd_onyx:*>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:greatsword_onyx:*>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:warhammer_onyx:*>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:pike_onyx:*>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:battleaxe_onyx:*>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:hammer_onyx:*>.addTooltip(format.gold("Legendary Weapon"));
+<spartancompat:throwing_axe_onyx:*>.addTooltip(format.gold("Legendary Weapon"));
 
-<simpleores:onyx_chestplate>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_leggings>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_helmet>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_boots>.addTooltip(format.gold("Legendary Armor"));
-<simpleores:onyx_gem>.addTooltip(format.gold("Legendary Material"));
-<contenttweaker:phosphophyllite>.addTooltip(format.gold("Legendary Material"));
-<contenttweaker:phosphophyllite>.addTooltip("Extremely rare gem. Valuable to the Nether natives.");
+<simpleores:onyx_chestplate:*>.addTooltip(format.gold("Legendary Armor"));
+<simpleores:onyx_leggings:*>.addTooltip(format.gold("Legendary Armor"));
+<simpleores:onyx_helmet:*>.addTooltip(format.gold("Legendary Armor"));
+<simpleores:onyx_boots:*>.addTooltip(format.gold("Legendary Armor"));
+<simpleores:onyx_gem:*>.addTooltip(format.gold("Legendary Material"));
+<contenttweaker:phosphophyllite:*>.addTooltip(format.gold("Legendary Material"));
+<contenttweaker:phosphophyllite:*>.addTooltip("Extremely rare gem. Valuable to the Nether natives.");
 
 <contenttweaker:material_part:12>.displayName = "Aetherial Electrum Ingot";
 <contenttweaker:material_part:16>.displayName = "Aetherial Electrum Nugget";
 <contenttweaker:material_part:38>.displayName = "Aetherial Electrum Dust";
 
-<dungeontactics:lantern_magic>.addTooltip(format.gold("Legendary Artifact"));
+<dungeontactics:lantern_magic:*>.addTooltip(format.gold("Legendary Artifact"));
 
-<aether_legacy:notch_hammer>.addTooltip(format.gold("Legendary Weapon"));
-<endreborn:ender_sword>.addTooltip(format.gold("Legendary Weapon"));
+<aether_legacy:notch_hammer:*>.addTooltip(format.gold("Legendary Weapon"));
+<endreborn:ender_sword:*>.addTooltip(format.gold("Legendary Weapon"));
 
-<iceandfire:dragonsteel_fire_sword>.addTooltip(format.gold("Legendary Weapon"));
-<iceandfire:dragonsteel_ice_sword>.addTooltip(format.gold("Legendary Weapon"));
-<iceandfire:dragonsteel_fire_chestplate>.addTooltip(format.gold("Legendary Armor"));
-<iceandfire:dragonsteel_fire_helmet>.addTooltip(format.gold("Legendary Armor"));
-<iceandfire:dragonsteel_fire_leggings>.addTooltip(format.gold("Legendary Armor"));
-<iceandfire:dragonsteel_fire_boots>.addTooltip(format.gold("Legendary Armor"));
-<iceandfire:dragonsteel_ice_chestplate>.addTooltip(format.gold("Legendary Armor"));
-<iceandfire:dragonsteel_ice_helmet>.addTooltip(format.gold("Legendary Armor"));
-<iceandfire:dragonsteel_ice_leggings>.addTooltip(format.gold("Legendary Armor"));
-<iceandfire:dragonsteel_ice_boots>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_fire_sword:*>.addTooltip(format.gold("Legendary Weapon"));
+<iceandfire:dragonsteel_ice_sword:*>.addTooltip(format.gold("Legendary Weapon"));
+<iceandfire:dragonsteel_fire_chestplate:*>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_fire_helmet:*>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_fire_leggings:*>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_fire_boots:*>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_ice_chestplate:*>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_ice_helmet:*>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_ice_leggings:*>.addTooltip(format.gold("Legendary Armor"));
+<iceandfire:dragonsteel_ice_boots:*>.addTooltip(format.gold("Legendary Armor"));
 
-<mod_lavacow:piranhalauncher>.addTooltip(format.gold("Legendary Weapon"));
+<mod_lavacow:piranhalauncher:*>.addTooltip(format.gold("Legendary Weapon"));
 
 
 //  Godly
 
-<msmlegacy:dawn_star>.addTooltip(format.red("Godly Weapon"));
-<msmlegacy:dawn_star>.addTooltip("I am truth. I am majesty. I am justice.");
+<msmlegacy:dawn_star:*>.addTooltip(format.red("Godly Weapon"));
+<msmlegacy:dawn_star:*>.addTooltip("I am truth. I am majesty. I am justice.");
 
-<dungeontactics:silver_sword>.addTooltip(format.red("Godly Weapon"));
-<dungeontactics:silver_sword>.addTooltip("They will suffer as we have.");
+<dungeontactics:silver_sword:*>.addTooltip(format.red("Godly Weapon"));
+<dungeontactics:silver_sword:*>.addTooltip("They will suffer as we have.");
 
-<betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
-<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction.");
+<betterwithaddons:greatbow:*>.addTooltip(format.red("Godly Weapon"));
+<betterwithaddons:greatbow:*>.addTooltip("The weight of worldly destruction.");
 
-<msmlegacy:eye_end_blade>.addTooltip(format.red("Godly Weapon"));
+<msmlegacy:eye_end_blade:*>.addTooltip(format.red("Godly Weapon"));
 
-<msmlegacy:glacial_blade>.addTooltip(format.red("Godly Weapon"));
+<msmlegacy:glacial_blade:*>.addTooltip(format.red("Godly Weapon"));
 
 
 <mowziesmobs:earth_talisman>.displayName = "§cEarth Talisman";
-<mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Artifact"));
+<mowziesmobs:earth_talisman:*>.addTooltip(format.red("Godly Artifact"));
 
-<msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
+<msmlegacy:glacial_blade:*>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
 
-<msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
+<msmlegacy:eye_end_blade:*>.addTooltip(format.obfuscated("Ender of Worlds"));
 
-<msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
-<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may wield this weapon.");
+<msmlegacy:adminium_ark:*>.addTooltip(format.darkRed("Forbidden Weapon"));
+<msmlegacy:adminium_ark:*>.addTooltip("Only one with the power to control the world may wield this weapon.");
 
-<spartanweaponry:longsword_electrum>.addTooltip(format.red("Godly Weapon"));
-<spartanweaponry:longsword_electrum>.addTooltip("The call of the Void cannot be ignored.");
+<spartanweaponry:longsword_electrum:*>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:longsword_electrum:*>.addTooltip("The call of the Void cannot be ignored.");
 <spartanweaponry:longsword_electrum>.displayName = "§cVoid's Howl";
-<spartanweaponry:saber_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:saber_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:saber_electrum>.displayName = "§cAnhelare's Tongue";
-<spartanweaponry:rapier_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:rapier_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:rapier_electrum>.displayName = "§cThe Needle";
-<spartanweaponry:rapier_electrum>.addTooltip("Climb to unreachable heights.");
-<spartanweaponry:greatsword_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:rapier_electrum:*>.addTooltip("Climb to unreachable heights.");
+<spartanweaponry:greatsword_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:greatsword_electrum>.displayName = "§cOnyx Slayer Greatsword";
-<spartanweaponry:hammer_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:hammer_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:hammer_electrum>.displayName = "§cThe Tenderizer";
-<spartanweaponry:hammer_electrum>.addTooltip("Only for the most elite meats.");
-<spartanweaponry:warhammer_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:hammer_electrum:*>.addTooltip("Only for the most elite meats.");
+<spartanweaponry:warhammer_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:warhammer_electrum>.displayName = "§cThe Handle";
-<spartanweaponry:halberd_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:halberd_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:halberd_electrum>.displayName = "§cWingcutter";
-<spartanweaponry:lance_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:lance_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:lance_electrum>.displayName = "§cBarako War Lance";
-<spartanweaponry:throwing_knife_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:throwing_knife_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:throwing_knife_electrum>.displayName = "§cForeck";
-<spartanweaponry:boomerang_electrum>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:boomerang_electrum:*>.addTooltip(format.red("Godly Weapon"));
 <spartanweaponry:boomerang_electrum>.displayName = "§cThe 4th Whisper";
-<spartanweaponry:staff_electrum>.addTooltip(format.red("Godly Weapon"));
-<spartanweaponry:staff_electrum>.addTooltip("Impossibly heavy, but it bends to your will easily.");
+<spartanweaponry:staff_electrum:*>.addTooltip(format.red("Godly Weapon"));
+<spartanweaponry:staff_electrum:*>.addTooltip("Impossibly heavy, but it bends to your will easily.");
 <spartanweaponry:staff_electrum>.displayName = "§4Ru Yi§6Jin Gu Bang";
 
 /*     static ancientCacheWeapons as string[] = [

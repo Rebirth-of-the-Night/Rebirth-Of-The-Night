@@ -1101,22 +1101,6 @@
     "result": "deny"
  },
 
-
-// Spore creeper
-{
-    "dimension": [0,10,-1],
-    "mob": "netherex:spore_creeper",
-    "gamestage": "enteredNether",
-    "maxlight": 7,
-    "minlight": 0,
-    "random": 0.05,
-    "maxcount": {
-        "amount": 1,
-        "perplayer": true
-    },
-    "result": "default"
- },
-
 // Ember
  {
     "dimension": [0,10],
