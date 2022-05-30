@@ -175,12 +175,12 @@ for w, weapon in sapphireweps{
 <arcanearchives:radiant_resonator>.addShiftTooltip("Recipe consumes bucket.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 
 // BWM BWA
-<betterwithmods:material:12:*>.addTooltip("Just a crafting material.");
+<betterwithmods:material:12>.addTooltip("Just a crafting material.");
 <betterwithmods:material:12>.addShiftTooltip('Can be eaten, but if it had a label, it would read "DO NOT EAT."', "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:hibachi:*>.addTooltip("Powered by redstone");
 <betterwithaddons:ancestry_bottle:*>.addTooltip("Spirits found throughout the world can be bottled up or manually crafted");
-<betterwithmods:material:29:*>.addTooltip(format.red("Extremely volatile."));
-<betterwithmods:material:29:*>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
+<betterwithmods:material:29>.addTooltip(format.red("Extremely volatile."));
+<betterwithmods:material:29>.addTooltip(format.red("Taking damage while transporting this will result in irreparable loss of life... and everything on you."));
 <betterwithaddons:slat:*>.addTooltip("Perfect for being covered with tatami mats!");
 <betterwithaddons:slat>.addShiftTooltip("Place a tatami mat on top, then use a hoe to fit it perfectly to floor level.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithaddons:tatami>.addShiftTooltip('Tatami should not be arranged forming a "+" shape at the junctions, lest it bring an inauspicious future.');
@@ -190,7 +190,7 @@ for w, weapon in sapphireweps{
 <contenttweaker:mythril_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 30 durability.");
 <contenttweaker:sfs_masonpick:*>.addTooltip("Can instantly remove resistant blocks for 40 durability.");
 <contenttweaker:steel_crowbar:*>.addTooltip("Can instantly remove resistant blocks for 60 durability.");
-<betterwithmods:unfired_pottery:4:*>.addTooltip("Can be baked in a pit kiln.");
+<betterwithmods:unfired_pottery:4>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_mud_brick:*>.addTooltip("Can be baked in a pit kiln.");
 <contenttweaker:unfired_adobe_brick:*>.addTooltip("Can be baked in a pit kiln.");
 
@@ -240,21 +240,6 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 // bed
 <minecraft:bed:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:1:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:2:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:3:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:4:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:5:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:6:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:7:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:8:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:9:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:10:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:11:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:12:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:13:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:14:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
-<minecraft:bed:15:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 <aether_legacy:skyroot_bed_item:*>.addTooltip("Be sure to sleep in a secure and well-lit area, or your rest may be interrupted...");
 
 // lootbags
@@ -315,8 +300,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <undergroundbiomes:igneous_stone:*>.addTooltip("Very slow to break.");
 <undergroundbiomes:igneous_cobble:*>.addTooltip("Igneous stone formed from cooled magma.");
 <undergroundbiomes:igneous_cobble:*>.addTooltip("Very slow to break.");
-<minecraft:stone:0:*>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) stone
-<minecraft:stone:0:*>.addTooltip("Slow to break.");
+<minecraft:stone:0>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) stone
+<minecraft:stone:0>.addTooltip("Slow to break.");
 <minecraft:cobblestone:*>.addTooltip("Igneous stone formed from cooled down molten stone."); //vanilla (coade) cobblestone
 <minecraft:cobblestone:*>.addTooltip("Slow to break.");
 // Metamorphic
@@ -328,10 +313,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <contenttweaker:serpentinite:*>.addTooltip("Slow to break.");
 <contenttweaker:serpentinite_cobblestone:*>.addTooltip("Metamorphic stone formed as scar tissue.");
 <contenttweaker:serpentinite_cobblestone:*>.addTooltip("Slow to break.");
-<betterwithmods:aesthetic:6:*>.addTooltip("Metamorphic stone formed from heated endstone."); //white stone
-<betterwithmods:aesthetic:6:*>.addTooltip("Slow to break.");
-<betterwithmods:aesthetic:7:*>.addTooltip("Metamorphic stone formed from heated endstone."); //white cobblestone
-<betterwithmods:aesthetic:7:*>.addTooltip("Slow to break.");
+<betterwithmods:aesthetic:6>.addTooltip("Metamorphic stone formed from heated endstone."); //white stone
+<betterwithmods:aesthetic:6>.addTooltip("Slow to break.");
+<betterwithmods:aesthetic:7>.addTooltip("Metamorphic stone formed from heated endstone."); //white cobblestone
+<betterwithmods:aesthetic:7>.addTooltip("Slow to break.");
 <defiledlands:stone_defiled:*>.addTooltip("Metamorphic stone formed by defilement.");
 <defiledlands:stone_defiled:*>.addTooltip("Slow to break.");
 <iceandfire:chared_stone:*>.addTooltip("Metamorphic stone formed by sustained heat.");
@@ -349,32 +334,18 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <undergroundbiomes:sedimentary_stone:*>.addTooltip("Quick to break.");
 <contenttweaker:dolomite_cobble:*>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:dolomite_cobble:*>.addTooltip("Quick to break.");
-<undergroundbiomes:sedimentary_stone:5:*>.addTooltip("Sedimentary stone formed by erosion.");
-<undergroundbiomes:sedimentary_stone:5:*>.addTooltip("Quick to break.");
 <contenttweaker:greywacke_cobble:*>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:greywacke_cobble:*>.addTooltip("Quick to break.");
-<undergroundbiomes:sedimentary_stone:6:*>.addTooltip("Sedimentary stone formed by erosion.");
-<undergroundbiomes:sedimentary_stone:6:*>.addTooltip("Quick to break.");
 <contenttweaker:chalk_cobble:*>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:chalk_cobble:*>.addTooltip("Quick to break.");
-<undergroundbiomes:sedimentary_stone:1:*>.addTooltip("Sedimentary stone formed by erosion.");
-<undergroundbiomes:sedimentary_stone:1:*>.addTooltip("Quick to break.");
 <contenttweaker:shale_cobble:*>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:shale_cobble:*>.addTooltip("Quick to break.");
-<undergroundbiomes:sedimentary_stone:2:*>.addTooltip("Sedimentary stone formed by erosion.");
-<undergroundbiomes:sedimentary_stone:2:*>.addTooltip("Quick to break.");
 <contenttweaker:chert_cobble:*>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:chert_cobble:*>.addTooltip("Quick to break.");
-<undergroundbiomes:sedimentary_stone:7:*>.addTooltip("Sedimentary stone formed by erosion.");
-<undergroundbiomes:sedimentary_stone:7:*>.addTooltip("Quick to break.");
 <contenttweaker:siltstone_cobble:*>.addTooltip("Sedimentary stone formed by erosion.");
 <contenttweaker:siltstone_cobble:*>.addTooltip("Quick to break.");
-<undergroundbiomes:sedimentary_stone:3:*>.addTooltip("Sedimentary stone formed by erosion.");
-<undergroundbiomes:sedimentary_stone:3:*>.addTooltip("Quick to break.");
 <contenttweaker:lignite_cobble:*>.addTooltip("Sedimentary and combustible stone formed by naturally compressed peat.");
 <contenttweaker:lignite_cobble:*>.addTooltip("Quick to break.");
-<undergroundbiomes:sedimentary_stone:4:*>.addTooltip("Sedimentary and combustible stone formed by naturally compressed peat.");
-<undergroundbiomes:sedimentary_stone:4:*>.addTooltip("Quick to break.");
 <minecraft:end_stone:*>.addTooltip("Sedimentary stone formed by particulates suspended in the Void.");
 <minecraft:end_stone:*>.addTooltip("Slow to break.");
 
@@ -470,9 +441,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <scalinghealth:healingitem:1>.removeTooltip("Use for 5 seconds to apply.");
 <scalinghealth:healingitem:1>.addShiftTooltip("Use and hold for 5 seconds to apply. Letting go before applying won't consume the item", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <foundry:machine:2>.removeTooltip("Requires RF, FE, or Tesla to operate.");
-<foundry:machine:2:*>.addTooltip("Requires a Redstone signal to operate.");
+<foundry:machine:2>.addTooltip("Requires a Redstone signal to operate.");
 <foundry:machine:3>.removeTooltip("Requires RF, FE, or Tesla to operate.");
-<foundry:machine:3:*>.addTooltip("Requires a Redstone signal to operate.");
+<foundry:machine:3>.addTooltip("Requires a Redstone signal to operate.");
 <harvestcraft:well:*>.addTooltip("Infinite water source.");
 <harvestcraft:well>.addShiftTooltip("One-time installation. Breaking will result in some of the components being returned.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:furnace>.addShiftTooltip(format.gold("Input Capacity:") + "" + format.yellow(" full stack; 1 at a time."), "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
@@ -518,7 +489,7 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <dungeontactics:lantern_magic:*>.addTooltip(format.red("DOES NOT DROP WHEN BROKEN!"));
 <extraalchemy:potion_ring:*>.addTooltip("Consumes 5 or 8 xp every 30 seconds while active, depending on potion strength.");
 <dungeontactics:magic_pouch:*>.addTooltip("Right-click to open.");
-<pyrotech:material:12:*>.addTooltip("Used for dried fiber.");
+<pyrotech:material:12>.addTooltip("Used for dried fiber.");
 <pyrotech:material:12>.addShiftTooltip("Obtained from breaking grass or as a byproduct of fibrous plants", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
@@ -530,9 +501,9 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <vials:vial_288>.addShiftTooltip("Pick those annoying drops of 1 mb liquid off your machines and into a tank.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <minecraft:chest>.addShiftTooltip("An old looking chest. It's been varnished to withstand the passage of time.");
 <contenttweaker:ground_fiery_netherrack:*>.addTooltip("Turns into sludge if it touches water.");
-<betterwithmods:material:15:*>.addTooltip("Turns into sludge if it touches water.");
+<betterwithmods:material:15>.addTooltip("Turns into sludge if it touches water.");
 <iceandfire:venerable_stump:*>.addTooltip("Can be used on a mysterious vessel.");
-<betterwithmods:cooking_pot:2:*>.addTooltip("Can be used on a venerable stump.");
+<betterwithmods:cooking_pot:2>.addTooltip("Can be used on a venerable stump.");
 <globalxp:xp_block:*>.addTooltip("Shift + Right click to deposit all XP.");
 <globalxp:xp_block:*>.addTooltip("Right click to retrieve a level.");
 <aether_legacy:enchanted_blueberry:*>.addTooltip("Hippogryph treat.");
