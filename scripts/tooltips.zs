@@ -538,6 +538,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <betterwithmods:hemp:*>.addTooltip("Fertile Seasons:");
 <betterwithmods:hemp:*>.addTooltip(format.lightPurple("Year-Round"));
 <betterwithmods:hemp:*>.addTooltip('Only grows directly below the open sky or under a "Light Block".');
+<rustic:tomato_seeds>.addTooltip("Fertile Seasons:");
+<rustic:tomato_seeds>.addTooltip(format.yellow("Summer"));
+<rustic:chili_pepper_seeds>.addTooltip("Fertile Seasons:");
+<rustic:chili_pepper_seeds>.addTooltip(format.yellow("Summer"));
+<rustic:tomato>.addTooltip("Fertile Seasons:");
+<rustic:tomato>.addTooltip(format.yellow("Summer"));
+<rustic:chili_pepper>.addTooltip("Fertile Seasons:");
+<rustic:chili_pepper>.addTooltip(format.yellow("Summer"));
 
 // Wands
 

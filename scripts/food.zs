@@ -1681,9 +1681,9 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
 
 // Rustic Foods
 <rustic:tomato>.foodValues.hunger = 1;
-<rustic:tomato>.foodValues.saturationModifier = 0;
+<rustic:tomato>.foodValues.saturationModifier = 1;
 <rustic:chili_pepper>.foodValues.hunger = 1;
-<rustic:chili_pepper>.foodValues.saturationModifier = 0;
+<rustic:chili_pepper>.foodValues.saturationModifier = 1;
 
 // Copy Paste
 /*
