@@ -1679,6 +1679,12 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
 <dungeontactics:toast>.foodValues.hunger = 0;
 <dungeontactics:toast>.foodValues.saturationModifier = 0;
 
+// Rustic Foods
+<rustic:tomato>.foodValues.hunger = 1;
+<rustic:tomato>.foodValues.saturationModifier = 0;
+<rustic:chili_pepper>.foodValues.hunger = 1;
+<rustic:chili_pepper>.foodValues.saturationModifier = 0;
+
 // Copy Paste
 /*
 .foodValues.hunger = ;

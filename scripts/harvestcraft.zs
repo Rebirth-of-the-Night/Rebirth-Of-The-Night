@@ -51,7 +51,10 @@ JEI.removeAndHide(<harvestcraft:oliveitem>);
 JEI.removeAndHide(<harvestcraft:olive_sapling>);
 JEI.removeAndHide(<harvestcraft:chilipepperitem>);
 JEI.removeAndHide(<harvestcraft:chilipepperseeditem>);
+JEI.removeAndHide(<harvestcraft:tomatoitem>);
+JEI.removeAndHide(<harvestcraft:tomatoseeditem>);
 recipes.remove(<harvestcraft:chilipepperseeditem>);
+recipes.remove(<harvestcraft:tomatoseeditem>);
 
 JEI.removeAndHide(<harvestcraft:hardenedleatherhelmitem>);
 JEI.removeAndHide(<harvestcraft:hardenedleatherchestitem>);

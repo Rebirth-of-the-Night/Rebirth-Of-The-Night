@@ -34,9 +34,6 @@ var ironBerry = <rustic:ironberries>;
 
 JEI.removeAndHide(<rustic:lantern_wood>);
 
-JEI.removeAndHide(<rustic:tomato_seeds>);
-JEI.removeAndHide(<rustic:tomato>);
-
 JEI.removeAndHide(<rustic:grape_stem>);
 JEI.removeAndHide(<rustic:grapes>);
 JEI.removeAndHide(<rustic:sapling>);

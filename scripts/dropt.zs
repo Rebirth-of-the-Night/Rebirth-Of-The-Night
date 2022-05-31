@@ -660,10 +660,6 @@ Dropt.list("double_tall_grass_base_drops")
           .selector(Dropt.weight(8)) // Strange flower
           .items([<dungeontactics:flower_ailment>])
 	  )
-      .addDrop(Dropt.drop()
-          .selector(Dropt.weight(210))
-          .items([<rustic:chili_pepper_seeds>]) // chili pepper seeds
-      )
   );
 
 Dropt.list("slaked_lime")
@@ -840,7 +836,7 @@ Dropt.list("lignite")
       )
   ); 
 
-Dropt.list("fuit_silk")
+Dropt.list("fruit_silk")
 
   .add(Dropt.rule()
       .matchBlocks(["dynamictreesphc:fruitspiderweb:3"])
@@ -961,3 +957,12 @@ Dropt.list("harvestcraft_chili")
       .replaceStrategy("REPLACE_ITEMS")
         .addDrop(Dropt.drop())
       );
+
+Dropt.list("grape_seed_begone")
+
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:vine"])
+      .matchDrops([<rustic:grape_stem>])
+      .replaceStrategy("REPLACE_ITEMS")
+        .addDrop(Dropt.drop())
+  );
