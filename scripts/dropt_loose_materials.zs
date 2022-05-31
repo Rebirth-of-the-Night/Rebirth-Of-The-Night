@@ -4,7 +4,7 @@ import mods.dropt.Dropt;
 Dropt.list("pile_dirt")
 
   .add(Dropt.rule()
-      .matchBlocks(["minecraft:dirt", "minecraft:grass", "minecraft:mycelium", "minecraft:dirt:1", "minecraft:dirt:2", "minecraft:farmland", "minecraft:grass_path", "betterwithmods:fertile_farmland", "pyrotech:farmland_mulched"])
+      .matchBlocks(["growthcraft_rice:ricepaddy", "minecraft:dirt", "minecraft:grass", "minecraft:mycelium", "minecraft:dirt:1", "minecraft:dirt:2", "minecraft:farmland", "minecraft:grass_path", "betterwithmods:fertile_farmland", "pyrotech:farmland_mulched"])
 	  .matchHarvester(Dropt.harvester()
           .type("PLAYER")
 		  .mainHand("BLACKLIST", [], "shovel;1;-1")
