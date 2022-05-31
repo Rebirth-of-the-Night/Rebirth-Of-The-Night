@@ -123,6 +123,11 @@ tile.contenttweaker.codex_junk.name=Discarded Codex
 # Unorganized items
 #------------------------------------------------------------------------------
 
+item.contenttweaker.silty_dirt_pile.name=Pile of Silty Dirt
+item.contenttweaker.sandy_dirt_pile.name=Pile of Sandy Dirt
+item.contenttweaker.loamy_dirt_pile.name=Pile of Loamy Dirt
+item.contenttweaker.aether_dirt_pile.name=Pile of Aether Dirt
+item.contenttweaker.defiled_dirt_pile.name=Pile of Defiled Dirt
 item.contenttweaker.4leaf_clover.name=Four Leaf Clover
 item.contenttweaker.5leaf_clover.name=Five Leaf Clover
 item.contenttweaker.abyssal_sapphire.name=Abyssal Sapphire

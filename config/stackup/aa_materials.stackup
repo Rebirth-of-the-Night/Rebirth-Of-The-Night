@@ -29,7 +29,7 @@ id="contenttweaker:raw_gold" -> 256
 id="contenttweaker:raw_viridium" -> 256
 id="contenttweaker:raw_mythril" -> 256
 # piles & dusts & rocks
-id="betterwithmods:dirt_pile" -> 256
+id~="*dirt_pile" -> 256
 id="betterwithmods:sand_pile" -> 256
 id="betterwithmods:red_sand_pile" -> 256
 id="betterwithmods:gravel_pile" -> 256

@@ -9,6 +9,26 @@ import mods.contenttweaker.IItemRightClick;
 import crafttweaker.world.IWorld;
 import crafttweaker.util.IRandom;
 
+// Dirt piles
+var siltydirtpile = VanillaFactory.createItem("silty_dirt_pile");
+siltydirtpile.maxStackSize = 256;
+siltydirtpile.register();
+
+var loamydirtpile = VanillaFactory.createItem("loamy_dirt_pile");
+loamydirtpile.maxStackSize = 256;
+loamydirtpile.register();
+
+var sandydirtpile = VanillaFactory.createItem("sandy_dirt_pile");
+sandydirtpile.maxStackSize = 256;
+sandydirtpile.register();
+
+var defileddirtpile = VanillaFactory.createItem("defiled_dirt_pile");
+defileddirtpile.maxStackSize = 256;
+defileddirtpile.register();
+
+var aetherdirtpile = VanillaFactory.createItem("aether_dirt_pile");
+aetherdirtpile.maxStackSize = 256;
+aetherdirtpile.register();
 
 // brain firework
 var brainfirework = VanillaFactory.createItem("brain_rocket");

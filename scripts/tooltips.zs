@@ -494,6 +494,16 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <pyrotech:refractory_door>.addShiftTooltip("Needs to be facing the inside of the structure.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <betterwithmods:dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
 <betterwithmods:dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:silty_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
+<contenttweaker:silty_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:loamy_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
+<contenttweaker:loamy_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:sandy_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
+<contenttweaker:sandy_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:defiled_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
+<contenttweaker:defiled_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:aether_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
+<contenttweaker:aether_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <artisanworkstumps:workstump_potter:*>.addTooltip("Enables hand-building pottery.");
 <exsartagine:yeast:*>.addTooltip("Can be used as Brewer's Yeast.");
 <contenttweaker:steel_artifact:*>.addTooltip("Can be used to craft flint & steel");

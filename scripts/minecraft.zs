@@ -229,6 +229,11 @@ for rawOreBlock, rawOre in rtb {
 // rocks/piles to cobble/blocks and viceversa 
 var ctr as IItemStack[IItemStack] = {
   <minecraft:dirt> : <betterwithmods:dirt_pile>,
+  <biomesoplenty:dirt:2> : <contenttweaker:silty_dirt_pile>,
+  <biomesoplenty:dirt> : <contenttweaker:loamy_dirt_pile>,
+  <biomesoplenty:dirt:1> : <contenttweaker:sandy_dirt_pile>,
+  <defiledlands:dirt_defiled> : <contenttweaker:defiled_dirt_pile>,
+  <aether_legacy:aether_dirt> : <contenttweaker:aether_dirt_pile>,
   <minecraft:sand> : <betterwithmods:sand_pile>,
   <minecraft:sand:1> : <betterwithmods:red_sand_pile>,
   <minecraft:gravel> : <betterwithmods:gravel_pile>,

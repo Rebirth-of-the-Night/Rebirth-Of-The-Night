@@ -14,6 +14,76 @@ Dropt.list("pile_dirt")
        	   .items([<betterwithmods:dirt_pile>], Dropt.range(4))
       )
   );
+Dropt.list("pile_silty_dirt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:dirt:2", "biomesoplenty:dirt:10", "biomesoplenty:grass:4", "biomesoplenty:farmland_1"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "shovel;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<contenttweaker:silty_dirt_pile>], Dropt.range(4))
+      )
+  );
+
+Dropt.list("pile_loamy_dirt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:dirt", "biomesoplenty:dirt:8", "biomesoplenty:grass:2", "biomesoplenty:farmland_0:0", "biomesoplenty:farmland_0:2", "biomesoplenty:farmland_0:4", "biomesoplenty:farmland_0:6", "biomesoplenty:farmland_0:8", "biomesoplenty:farmland_0:10", "biomesoplenty:farmland_0:12", "biomesoplenty:farmland_0:14", "biomesoplenty:grass_path"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "shovel;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<contenttweaker:loamy_dirt_pile>], Dropt.range(4))
+      )
+  );
+
+Dropt.list("pile_sandy_dirt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["biomesoplenty:dirt:1", "biomesoplenty:dirt:9", "biomesoplenty:farmland_0:1", "biomesoplenty:farmland_0:3", "biomesoplenty:farmland_0:5", "biomesoplenty:farmland_0:7", "biomesoplenty:farmland_0:9", "biomesoplenty:farmland_0:11", "biomesoplenty:farmland_0:13", "biomesoplenty:farmland_0:15", "biomesoplenty:grass:3"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "shovel;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<contenttweaker:sandy_dirt_pile>], Dropt.range(4))
+      )
+  );
+
+Dropt.list("pile_defiled_dirt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["defiledlands:dirt_defiled", "defiledlands:grass_defiled"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "shovel;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<contenttweaker:defiled_dirt_pile>], Dropt.range(4))
+      )
+  );
+
+Dropt.list("pile_aether_dirt")
+
+  .add(Dropt.rule()
+      .matchBlocks(["aether_legacy:aether_dirt", "aether_legacy:aether_grass", "aether_legacy:enchanted_aether_grass"])
+	  .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+		  .mainHand("BLACKLIST", [], "shovel;1;-1")
+	  )
+  	  .addDrop(Dropt.drop()
+          .selector(Dropt.weight(1))
+       	   .items([<contenttweaker:aether_dirt_pile>], Dropt.range(4))
+      )
+  );
+
 Dropt.list("pile_dirt_slab")
 
   .add(Dropt.rule()
