@@ -93,10 +93,10 @@ Anvil.addShaped(<pyrotech:diamond_hammer>, #Refined Sledgehammer
 // Demonic Scythe
 Anvil.addShaped(<demonic_scythe:demonic_scythe>,
 [
-   [null, <contenttweaker:corrupted_cincinnasite>, null, null],
-   [<contenttweaker:corrupted_cincinnasite>, null, null, null],
-   [<contenttweaker:ruby_ingot>, null, <contenttweaker:ruby_ingot>, <spartanfire:witherbone_handle>],
-   [<contenttweaker:corrupted_cincinnasite>, <contenttweaker:ruby_ingot>, null, null]
+   [null, <ore:ingotSteel>,	null, null],
+   [<ore:ingotSteel>, null, null, null],
+   [<netherex:wither_bone>, null, <aether_legacy:dungeon_block:4>, <spartanweaponry:material:1>],
+   [<ore:ingotSteel>, <aether_legacy:dungeon_block:4>,null, null]
 ]);
 
 // Broadhead

@@ -68,5 +68,6 @@ ArcaneWorld.createRitualSummon("mogus", "Mogus Calling", "netherex:mogus", [<con
 //ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
 ArcaneWorld.createRitualCreateItem("undying_heart", "Heart Curse", <mod_lavacow:undyingheart>, [<contenttweaker:plague_rune>.anyDamage().transformDamage(),<defiledlands:black_heart>]).build();
 ArcaneWorld.createRitualCreateItem("black_heart", "Heart Defilement", <defiledlands:black_heart>, [<defiledlands:defilement_powder>,<mod_lavacow:undyingheart>]).build();
+ArcaneWorld.createRitualCreateItem("demon_eye", "Eye Possesion", <netherex:wither_dust>, [<minecraft:ender_pearl>,<contenttweaker:shard_of_night>]).build();
 ArcaneWorld.createRitualCreateItem("arcane_focus", "Arcanic Intent", <contenttweaker:arcane_focus>.withDamage(16), [<contenttweaker:unattuned_focus>,<contenttweaker:arcane_rune>,<contenttweaker:vis_shard>]).build();
 ArcaneWorld.createRitualCreateItem("demonic_scythe_awakened", "Awakened Demonic Scythe", <demonic_scythe:awakened_demonic_scythe>, [<demonic_scythe:demonic_scythe>, <contenttweaker:nether_rune>, <contenttweaker:strength_rune>, <contenttweaker:death_rune>, <contenttweaker:disint_rune>]).build();

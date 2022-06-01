@@ -184,7 +184,7 @@ furnace.setFuel(<contenttweaker:charmpeat>, 4800);
 <ore:sourceBrass>.addAll(<ore:ingotBrass>);
 
 val rock_dictionary = <ore:rock>;
-rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:11>,<pyrotech_compat:rock_sedimentary_sand:12>,<pyrotech_compat:rock_metamorphic_sand:15>,<pyrotech_compat:rock_metamorphic_sand:14>,<pyrotech_compat:rock_metamorphic_sand:13>,<pyrotech_compat:rock_metamorphic_sand:12>,<pyrotech_compat:rock_metamorphic_sand:11>,<pyrotech_compat:rock_metamorphic_sand:10>,<pyrotech_compat:rock_metamorphic_sand:9>,<pyrotech_compat:rock_igneous_sand:15>,<pyrotech_compat:rock_igneous_sand:14>,<pyrotech_compat:rock_igneous_sand:13>,<pyrotech_compat:rock_igneous_sand:12>,<pyrotech_compat:rock_igneous_sand:11>,<pyrotech_compat:rock_igneous_sand:10>,<pyrotech_compat:rock_igneous_sand:8>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>,<pyrotech_compat:rock_netherrack>]);
+rock_dictionary.remove([<pyrotech_compat:rock_sedimentary_sand:11>,<pyrotech_compat:rock_sedimentary_sand:12>,<pyrotech_compat:rock_metamorphic_sand:15>,<pyrotech_compat:rock_metamorphic_sand:14>,<pyrotech_compat:rock_metamorphic_sand:13>,<pyrotech_compat:rock_metamorphic_sand:12>,<pyrotech_compat:rock_metamorphic_sand:11>,<pyrotech_compat:rock_metamorphic_sand:10>,<pyrotech_compat:rock_metamorphic_sand:9>,<pyrotech_compat:rock_igneous_sand:15>,<pyrotech_compat:rock_igneous_sand:14>,<pyrotech_compat:rock_igneous_sand:13>,<pyrotech_compat:rock_igneous_sand:12>,<pyrotech_compat:rock_igneous_sand:11>,<pyrotech_compat:rock_igneous_sand:10>,<pyrotech_compat:rock_igneous_sand:8>,<pyrotech:rock:1>,<pyrotech:rock:2>,<pyrotech:rock:3>,<pyrotech_compat:rock_netherrack>,<pyrotech_compat:rock_sedimentary_sand:15>]);
 
 // raw ores
 furnace.addRecipe(<simpleores:tin_ingot>, <contenttweaker:raw_tin>);
@@ -948,34 +948,6 @@ recipes.addShaped("Chainmail Boots", <minecraft:chainmail_boots>,[
     [null, null, null],
     [chain, null, chain],
     [chain, null, chain]
-]);
-
-
-val flint = <minecraft:flint>;
-val stick = <ore:stickWood>;
-
-recipes.addShapedMirrored("flintstone_axe", <minecraft:stone_axe>,[
-    [flint, flint, null],
-    [flint, stick, null],
-    [null, stick, null]
-]);
-
-recipes.addShapedMirrored("flintstone_hoe", <minecraft:stone_hoe>,[
-    [flint, flint, null],
-    [null, stick, null],
-    [null, stick, null]
-]);
-
-recipes.addShaped("flintstone_shovel", <minecraft:stone_shovel>,[
-    [null, flint, null],
-    [null, stick, null],
-    [null, stick, null]
-]);
-
-recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
-    [flint, flint, flint],
-    [null, stick, null],
-    [null, stick, null]
 ]);
 
 JEI.removeAndHide(<aether_legacy:skyroot_chest>);
@@ -2581,6 +2553,7 @@ recipes.addShapeless("broken_stick", <contenttweaker:broken_stick> * 2, [<minecr
 recipes.addShapeless("broken_stick_to_stick", <minecraft:stick>, [<contenttweaker:broken_stick>, <contenttweaker:broken_stick>, <ore:glue> | <ore:slimeball>]);
 recipes.addShapeless("crassula_stem", <contenttweaker:greasy_stem>,[<contenttweaker:perforata>]);
 recipes.addShapeless("crassula_stem_to_stick", <minecraft:stick> * 2,[<contenttweaker:greasy_stem>]);
+recipes.addShapeless("bloodied_demonic_eye", <netherex:wither_bone>,[<aether_legacy:vampire_blade>, <netherex:wither_dust>]);
 
 // Random Portals hiding
 JEI.removeAndHide(<randomportals:vertical_end_portal_frame>);

@@ -8,6 +8,7 @@ JEI.removeAndHide(<artisanworktables:design_pattern>);
 JEI.removeAndHide(<artisanworkstumps:log_basin>);
 JEI.removeAndHide(<artisanworkstumps:stone_basin>);
 
+recipes.remove(<artisanworktables:artisans_lens_stone>);
 recipes.remove(<artisanworktables:artisans_lens_gold>);
 recipes.addShaped("artisans_lens_gold", <artisanworktables:artisans_lens_gold>, [
     [null, null, null],
@@ -77,6 +78,7 @@ recipes.addShaped("mage_workstation", <artisanworktables:workstation:7>, [
 recipes.addShapeless("free_upgrade", <artisanworktables:worktable:5>, [<minecraft:crafting_table>]);
 
 // Quill (One quill fits all! Using 'gold' since it has the lowest durability)
+recipes.remove(<artisanworktables:artisans_quill_stone>);
 recipes.remove(<artisanworktables:artisans_quill_gold>);
 recipes.addShapeless("artisan_quill", <artisanworktables:artisans_quill_gold>, [<ore:feather>,<ore:dye>,<ore:nuggetGold>,<minecraft:glass_bottle>]);
 

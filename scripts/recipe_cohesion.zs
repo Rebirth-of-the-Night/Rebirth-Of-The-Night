@@ -32,7 +32,7 @@ val steel = <ore:ingotSteel>;
 val wool = <ore:wool>;
 val wheel = <ore:componentWheel>;
 val log = <ore:log>;
-val stone = <ore:cobblestone>;
+val stone = <ore:rock>;
 val gold = <ore:ingotGold>;
 val skyroot = <aether_legacy:skyroot_plank>;
 val holystone = <aether_legacy:holystone>;
@@ -69,6 +69,71 @@ val junglemyrmexstingersword = <iceandfire:myrmex_jungle_sword_venom>;
 val amphitheremacuahuitl = <iceandfire:amphithere_macuahuitl>;
 val giantsword = <twilightforest:giant_sword>;
 val fiber = <ore:durableFiber>;
+val flint = <minecraft:flint>;
+val stick = <ore:stickWood>;
+val pole = <spartanweaponry:material:1>;
+
+
+recipes.remove(<minecraft:stone_axe>);
+recipes.addShapedMirrored("stone_axe", <minecraft:stone_axe>,[
+    [stone, stone, null],
+    [stone, stick, null],
+    [null, stick, null]
+]);
+recipes.addShapedMirrored("flintstone_axe", <minecraft:stone_axe>,[
+    [flint, flint, null],
+    [flint, stick, null],
+    [null, stick, null]
+]);
+
+recipes.remove(<minecraft:stone_hoe>);
+recipes.addShapedMirrored("stone_hoe", <minecraft:stone_hoe>,[
+    [stone, stone, null],
+    [null, stick, null],
+    [null, stick, null]
+]);
+recipes.addShapedMirrored("flintstone_hoe", <minecraft:stone_hoe>,[
+    [flint, flint, null],
+    [null, stick, null],
+    [null, stick, null]
+]);
+
+recipes.remove(<minecraft:stone_shovel>);
+recipes.addShaped("stone_shovel", <minecraft:stone_shovel>,[
+    [null, stone, null],
+    [null, stick, null],
+    [null, stick, null]
+]);
+recipes.addShaped("flintstone_shovel", <minecraft:stone_shovel>,[
+    [null, flint, null],
+    [null, stick, null],
+    [null, stick, null]
+]);
+
+recipes.remove(<minecraft:stone_pickaxe>);
+recipes.addShaped("stone_pickaxe", <minecraft:stone_pickaxe>,[
+    [stone, stone, stone],
+    [null, stick, null],
+    [null, stick, null]
+]);
+recipes.addShaped("flintstone_pickaxe", <minecraft:stone_pickaxe>,[
+    [flint, flint, flint],
+    [null, stick, null],
+    [null, stick, null]
+]);
+
+recipes.remove(<pyrotech:stone_hammer>);
+recipes.addShaped("stone_sledgehammer", <pyrotech:stone_hammer>,
+ [[stone,stick,stone],
+  [stone,stick,stone],
+  [null,stick,null]]);
+recipes.addShaped("flintstone_sledgehammer", <pyrotech:stone_hammer>,
+ [[flint,stick,flint],
+  [flint,stick,flint],
+  [null,stick,null]]);
+
+recipes.remove(<minecraft:stone_button>);
+recipes.addShapeless("stone_button",<minecraft:stone_button>,[stone]);
 
 // Crossbow Tweaks
 recipes.remove(<spartanweaponry:crossbow_wood>);
@@ -94,10 +159,96 @@ recipes.addShaped("Golden_Sword", goldensword,
  [[null,gold,null],
   [null,gold,null],
   [null,handle,null]]);
-recipes.addShaped("Stone_Sword", stonesword,
+recipes.addShaped("stone_sword", stonesword,
+ [[stone],
+  [stone],
+  [handle]]);
+recipes.addShaped("flint_sword", stonesword,
+ [[flint],
+  [flint],
+  [handle]]);
+recipes.addShaped("stone_dagger", <spartanweaponry:dagger_stone>,
+ [[stone],
+  [handle]]);
+recipes.addShaped("flint_dagger", <spartanweaponry:dagger_stone>,
+ [[flint],
+  [handle]]);
+recipes.addShaped("stone_longsword", <spartanweaponry:longsword_stone>,
  [[null,stone,null],
   [null,stone,null],
+  [stone,handle,stone]]);
+recipes.addShaped("flint_longsword", <spartanweaponry:longsword_stone>,
+ [[null,flint,null],
+  [null,flint,null],
+  [flint,handle,flint]]);
+recipes.addShaped("stone_greatsword", <spartanweaponry:greatsword_stone>,
+ [[null,stone,null],
+  [stone,stone,stone],
+  [stone,handle,stone]]);
+recipes.addShaped("flint_greatsword", <spartanweaponry:greatsword_stone>,
+ [[null,flint,null],
+  [flint,flint,flint],
+  [flint,handle,flint]]);
+recipes.addShaped("stone_mallet", <spartanweaponry:hammer_stone>,
+ [[stone,stone,stone],
+  [stone,stone,stone],
   [null,handle,null]]);
+recipes.addShaped("flint_mallet", <spartanweaponry:hammer_stone>,
+ [[flint,flint,flint],
+  [flint,flint,flint],
+  [null,handle,null]]);
+recipes.addShapedMirrored("stone_warhammer",<spartanweaponry:warhammer_stone>,
+ [[null,stone],
+  [stone,stone],
+  [null,handle]]);
+recipes.addShapedMirrored("flint_warhammer",<spartanweaponry:warhammer_stone>,
+ [[null,flint],
+  [flint,flint],
+  [null,handle]]);
+recipes.addShaped("stone_spear",<spartanweaponry:spear_stone>,
+ [[stone],
+  [pole]]);
+recipes.addShaped("flint_spear",<spartanweaponry:spear_stone>,
+ [[flint],
+  [pole]]);
+recipes.addShapedMirrored("stone_throwing_knife", <spartanweaponry:throwing_knife_stone>,
+ [[handle,stone]]);
+recipes.addShapedMirrored("flint_throwing_knife", <spartanweaponry:throwing_knife_stone>,
+ [[handle,flint]]);
+recipes.addShapedMirrored("stone_tomahawk", <spartanweaponry:throwing_axe_stone>,
+ [[handle,stone],
+  [null,stone]]);
+recipes.addShapedMirrored("flint_tomahawk", <spartanweaponry:throwing_axe_stone>,
+ [[handle,flint],
+  [null,flint]]);
+recipes.addShapedMirrored("stone_javelin", <spartanweaponry:javelin_stone>,
+ [[pole,stone]]);
+recipes.addShapedMirrored("flint_javelin", <spartanweaponry:javelin_stone>,
+ [[pole,flint]]);
+recipes.addShapedMirrored("stoner_boomer", <spartanweaponry:boomerang_stone>,
+ [[stone,wood,wood],
+  [wood,null,null],
+  [wood,null,null]]);
+recipes.addShapedMirrored("flint_boomerang", <spartanweaponry:boomerang_stone>,
+ [[flint,wood,wood],
+  [wood,null,null],
+  [wood,null,null]]);
+recipes.addShapedMirrored("stone_mace", <spartanweaponry:mace_stone>,
+ [[null,stone,stone],
+  [null,stick,stone],
+  [handle,null,null]]);
+recipes.addShapedMirrored("flint_mace", <spartanweaponry:mace_stone>,
+ [[null,flint,flint],
+  [null,stick,flint],
+  [handle,null,null]]);
+recipes.addShaped("stone_quarterstaff", <spartanweaponry:staff_stone>,
+ [[null,null,stone],
+  [null,pole,null],
+  [stone,null,null]]);
+recipes.addShaped("flint_quarterstaff", <spartanweaponry:staff_stone>,
+ [[null,null,flint],
+  [null,pole,null],
+  [flint,null,null]]);
 recipes.addShaped("Iron_Sword", ironsword,
  [[null,iron,null],
   [null,iron,null],

@@ -14,7 +14,8 @@ for cobble, stone in mapCobbleToStone {
 }
 
 Crucible.addUnstoked([<betterwithmods:aesthetic:7>],[<betterwithmods:aesthetic:6>]);
-Crucible.addUnstoked([<betterwithmods:material:16>, <ore:stone>],[<aether_legacy:dungeon_block:4>]);
+Crucible.addUnstoked([<pyrotech:material:36>, <aether_legacy:dungeon_block>],[<aether_legacy:dungeon_block:4>]);
+Crucible.addUnstoked([<betterwithmods:material:16>, <ore:stone>, <ore:stone>, <ore:stone>],[<aether_legacy:dungeon_block:4>*3]);
 
 // Automation for stick
 Crucible.addUnstoked(

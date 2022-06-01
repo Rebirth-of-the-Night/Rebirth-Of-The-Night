@@ -37,10 +37,15 @@ recipes.addShaped("cooking_mortar", <advancedmortars:mortar:1>, [
     [null, <simpleores:copper_ingot>, null]
 ]);
 
-recipes.addShaped("arcane_mortar", <advancedmortars:mortar:2>, [
+recipes.addShaped("arcane_mortar_cincinnasite", <advancedmortars:mortar:2>, [
     [<contenttweaker:vis_speck>, <aether_legacy:skyroot_stick>, <contenttweaker:vis_speck>],
     [<ore:ingotGravitite>, <minecraft:diamond>, <ore:ingotGravitite>], 
     [<betternether:cincinnasite>, <ore:ingotGravitite>, <betternether:cincinnasite>]
+]);
+recipes.addShaped("arcane_mortar_gravitite", <advancedmortars:mortar:2>, [
+    [<contenttweaker:vis_speck>, <aether_legacy:skyroot_stick>, <contenttweaker:vis_speck>],
+    [<ore:ingotGravitite>, <minecraft:diamond>, <ore:ingotGravitite>], 
+    [<aether_legacy:zanite_gemstone>, <ore:ingotGravitite>, <aether_legacy:zanite_gemstone>]
 ]);
 
 recipes.addShaped("rudimentary_mortar", <advancedmortars:mortar:3>, [

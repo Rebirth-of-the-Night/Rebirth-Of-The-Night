@@ -6,7 +6,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 recipes.removeByMod("pyrotech");
 recipes.removeByMod("pyrotech_compat");
-recipes.remove(<pyrotech:stone_hammer>);
 recipes.remove(<pyrotech:crude_hammer>);
 recipes.remove(<pyrotech:bone_hammer>);
 recipes.remove(<pyrotech:flint_hammer>);
@@ -266,10 +265,7 @@ recipes.addShaped("coalcoke_block", <pyrotech:coal_coke_block>,
 recipes.addShapeless("coalcoke_from_block", <pyrotech:material:1>*9,[<pyrotech:coal_coke_block>]);
   
 //hammers
-recipes.addShaped("stone_sledgehammer", <pyrotech:stone_hammer>,
- [[<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
-  [<ore:cobblestone>,<ore:stickWood>,<ore:cobblestone>],
-  [null,<ore:stickWood>,null]]);
+// Stone hammer in minecraft.zs along other stone tools
 recipes.addShaped("iron_sledgehammer", <pyrotech:iron_hammer>,
  [[<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
   [<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],

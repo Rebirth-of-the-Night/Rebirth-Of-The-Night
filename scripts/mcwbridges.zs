@@ -43,18 +43,18 @@ recipes.addShaped("iron_bridge", <mcwbridges:most1>*3,[
 	[<ore:nuggetIron>, null, <ore:nuggetIron>],
 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
-recipes.addShaped("steel_bridge", <mcwbridges:brick_bridge>*8,[
+recipes.addShaped("steel_bridge", <mcwbridges:most1>*8,[
 	[<ore:nuggetSteel>, null, <ore:nuggetSteel>],
 	[<ore:nuggetSteel>, null, <ore:nuggetSteel>],
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 
-// Wrought Iron recipe
-recipes.remove(<mcwbridges:most1>);
-recipes.addShaped("wrought_iron_bridge", <mcwbridges:most1>*3,[
-	[<ore:nuggetIron>, null, <ore:nuggetIron>],
-	[<ore:nuggetIron>, null, <ore:nuggetIron>],
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+recipes.removeByRecipeName("mcwbridges:brick_bridge");
+recipes.remove(<mcwbridges:brick_bridge>);
+recipes.addShaped("wrought_iron_bridge", <mcwbridges:brick_bridge>*8,[
+	[<ore:nuggetWroughtIron>, null, <ore:nuggetWroughtIron>],
+	[<ore:nuggetWroughtIron>, null, <ore:nuggetWroughtIron>],
+	[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>]
 ]);
 
 // rope bridges

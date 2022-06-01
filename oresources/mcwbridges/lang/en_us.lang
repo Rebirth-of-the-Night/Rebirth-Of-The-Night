@@ -35,8 +35,8 @@ tile.rope_acacia_bridge_end.name=Acacia Rope Bridge End
 tile.rope_dark_oak_bridge.name=Dark Oak Rope Bridge
 tile.rope_dark_oak_bridge_end.name=Dark Oak Rope Bridge End
 
-tile.brick_bridge.name=Brick Bridge
-tile.brick_bridge_end.name=Brick Bridge End
+tile.brick_bridge.name=Wrought Iron Bridge
+tile.brick_bridge_end.name=Wrought Iron Bridge End
 tile.stone_brick_bridge.name=Stone Brick Bridge
 tile.stone_brick_bridge_end.name=Stone Brick Bridge End
 tile.sandstone_bridge.name=Sandstone Bridge
