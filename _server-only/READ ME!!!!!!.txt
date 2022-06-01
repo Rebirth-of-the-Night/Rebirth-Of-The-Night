@@ -19,7 +19,7 @@ If you are still having trouble, ask in our Discord: https://discord.gg/rotn
 
 Only increase RAM if you plan to play with many people!
 If you want to increase the server RAM, edit your Start Server file with a text editor and replace the line starting with "java" with:
-java -Xmx6048M -Xms6048M -jar forge-1.12.2-14.23.5.2838-universal.jar nogui
+java -Xmx6048M -Xms6048M -jar forge-1.12.2-14.23.5.2860.jar nogui
 
 
 The server has 4GB by default, which should be plenty, but if you plan to have more than 4-5 people play, change it to 6GB+
