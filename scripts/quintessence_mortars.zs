@@ -977,15 +977,15 @@ Mortar.addRecipe(["wood"], <contenttweaker:luna_quintessence>, 8, <contenttweake
 
 Mortar.addRecipe(["wood"], <contenttweaker:sol_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:solarQuintessence>]);
 
-// Disintegration and Energy Quintessence (temporary additions to remove Aether softlock for magic bomb, remove these lines when another solution is found)
+// Disintegration, Energy, Knowledge Quintessence 
+// (temporary additions to remove Aether softlock for magic bomb, 
+// remove these lines when another solution is found)
 
 Mortar.addRecipe(["wood"], <contenttweaker:disint_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:disintegrationQuintessenceA>, <ore:disintegrationQuintessenceB>]);
 
 Mortar.addRecipe(["wood"], <contenttweaker:energy_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:energyQuintessenceA>, <ore:energyQuintessenceB>]);
 
-// Knowledge Quintessence temp fix
-
-Mortar.addRecipe(["wood"], <contenttweaker:knowledge_quintessence>, 8, <contenttweaker:vis_speck> * 2, 0.15, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
+Mortar.addRecipe(["wood"], <contenttweaker:knowledge_quintessence>, 8, <contenttweaker:vis_speck> * 1, 0.15, [<ore:knowledgeQuintessenceA>, <ore:knowledgeQuintessenceB>]);
 
 ##########################
 # Arcane Mortar (iron)   #
@@ -1195,7 +1195,7 @@ Mortar.addRecipe(["gold"], <contenttweaker:balance_quintessence>, 2, <contenttwe
 
 Mortar.addRecipe(["gold"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.35, [<ore:balanceYingQuintessenceB>, <ore:balanceYangQuintessenceB>]);
 
-Mortar.addRecipe(["gold"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.35, [<ore:balanceYingQuintessenceC>, <ore:balanceYangQuintessenceC>]);
+#Mortar.addRecipe(["gold"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.35, [<ore:balanceYingQuintessenceC>, <ore:balanceYangQuintessenceC>]);
 
 Mortar.addRecipe(["gold"], <contenttweaker:balance_quintessence>, 2, <contenttweaker:vis_speck> * 2, 0.35, [<ore:balanceYingQuintessenceD>, <ore:balanceYangQuintessenceD>]);
 

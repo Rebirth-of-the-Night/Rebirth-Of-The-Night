@@ -3,5 +3,12 @@ gamerule sendCommandFeedback false
 title @p times 40 120 60
 title @p subtitle {"text":"Shadows squirm and writhe around you...", "color":"gray"}
 title @p title {"text":"The Beneath", "bold":false, "italic":false, "color":"gray"}
-tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}
+tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
+playsound minecraft:entity.spider.step ambient @p ~ ~ ~ 1.2 0.8
+playsound minecraft:entity.spider.step ambient @p ~ ~ ~ 0.7 0.7
+playsound minecraft:entity.spider.step ambient @p ~ ~ ~ 1.1 0.6
+playsound minecraft:entity.spider.step ambient @p ~ ~ ~ 0.9 0.5
+playsound rats:rat_plague ambient @p ~ ~ ~ 0.04 0.5
+playsound minecraft:entity.endermen.ambient ambient @a ~ ~ ~ 0.2 0.7
+playsound minecraft:entity.endermen.scream ambient @a ~ ~ ~ 0.08 0.4
 gamestage silentadd @a enteredBeneath

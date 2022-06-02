@@ -342,6 +342,7 @@ recipes.addShapeless("gravel_to_flint", <minecraft:flint>*2, [<ore:gravel>, <ore
 
 val stone = <ore:stone>;
 stone.add(<aether_legacy:holystone>);
+stone.add(<contenttweaker:serpentinite>);
 
 val ingotEndorium = <ore:ingotEndorium>;
 ingotEndorium.add(<endreborn:item_ingot_endorium>);
@@ -1886,7 +1887,7 @@ val stoneBrickBlockMap = {
     <contenttweaker:brick_greywacke> : [<contenttweaker:big_greywacke_bricks>,<contenttweaker:loose_big_greywacke_bricks>],
     <contenttweaker:brick_chert> : [<contenttweaker:big_chert_bricks>,<contenttweaker:loose_big_chert_bricks>],
     <contenttweaker:masonry_brick> : [<contenttweaker:brick_pyrotech_masonry>,<contenttweaker:loose_stone_bricks>],
-	<contenttweaker:brick_serpentinite> : [<contenttweaker:big_serpentinite_bricks>,<contenttweaker:brick_serpentinite>]
+	<contenttweaker:brick_serpentinite> : [<contenttweaker:big_serpentinite_bricks>,<contenttweaker:loose_big_serpentinite_bricks>]
 //    <contenttweaker:brick_blue_slate> : [<contenttweaker:loose_big_blue_slate_bricks>,],
 //    <contenttweaker:brick_purple_slate> : [<contenttweaker:loose_big_purple_slate_bricks>,],
 //    <contenttweaker:brick_green_slate> : [<contenttweaker:loose_big_green_slate_bricks>,]

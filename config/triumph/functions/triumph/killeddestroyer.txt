@@ -3,4 +3,4 @@ gamerule sendCommandFeedback false
 gamestage silentadd @p killedDestroyer
 give @p scalinghealth:crystalshard 2
 tellraw @p ["",{"text":"A font of chaotic magick releases from the destroyer.","color":"blue","italic":true}]
-tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}
+tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}

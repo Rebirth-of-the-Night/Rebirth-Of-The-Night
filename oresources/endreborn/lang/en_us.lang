@@ -56,7 +56,7 @@ tile.block_end_forge.name=Void Forge
 tile.dragon_essence.name=Xorcite Cluster
 tile.entropy_user.name=Materializer
 tile.broken_ender_flower.name=Broken Ender Flower
-tile.chiseled_end_bricks.name=Chiseled End Bricks
+tile.chiseled_end_bricks.name=Chiseled End Stone Bricks
 
 # Tools -
 item.tool_axe_endorium.name=Endorium Axe

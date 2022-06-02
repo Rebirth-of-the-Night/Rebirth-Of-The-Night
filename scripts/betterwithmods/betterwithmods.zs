@@ -267,15 +267,15 @@ recipes.addShaped("stone_cutter", <futuremc:stonecutter>,[
 recipes.remove(<betterwithmods:hand_crank>);
 recipes.addShaped("hand_crank", <betterwithmods:hand_crank>,[
 	[null, null, stick],
-    [null, stick, null],
+    [null, <spartanweaponry:material>, null],
 	[cobblestone, gear_wood, cobblestone]
 ]);
 // gearboxes
 recipes.remove(<betterwithmods:wooden_gearbox>);
-recipes.addShaped("gearbox_wood_block", <betterwithmods:wooden_gearbox>, [
-    [plank_wood, gear_wood, plank_wood],
+recipes.addShaped("gearbox_wood_slab", <betterwithmods:wooden_gearbox>, [
+    [slab_wood, gear_wood, slab_wood],
     [gear_wood, latch, gear_wood],
-	[plank_wood, gear_wood, plank_wood]
+	[slab_wood, gear_wood, slab_wood]
 ]);
 recipes.addShaped("gearbox_wood_siding", <betterwithmods:wooden_gearbox>, [
     [siding_wood, gear_wood, siding_wood],
@@ -385,7 +385,6 @@ recipes.addShaped("archimedes_screw", archimedes*3,
   
 // dynamite
 recipes.removeShapeless(<betterwithmods:dynamite>);
-
 recipes.addShapeless("betterwithmodsDynamite", <betterwithmods:dynamite>*64, 
 [<ore:paper>, <ore:paper>, <ore:paper>, 
 <betterwithmods:material:28>, <betterwithmods:material:29>, <spartanweaponry:material:2>]);

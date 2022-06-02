@@ -863,6 +863,7 @@ customdisc:alvae
 customdisc:alpha
 customdisc:sussy
 customdisc:aceltictale
+customdisc:signal
 defiledlands:book_wyrm.idle
 defiledlands:book_wyrm.hurt
 defiledlands:book_wyrm.death
@@ -1200,6 +1201,9 @@ iceandfire:hydra_regen_head
 iceandfire:pixie_wand
 iceandfire:dread_lich_summon
 iceandfire:dread_ghoul_idle
+magma_monsters:magma_monster_living
+magma_monsters:magma_monster_hurt
+magma_monsters:magma_monster_death
 bettercombatmod:player.swordslash
 bettercombatmod:player.criticalstrike
 bettercombatmod:player.sword_sweep_left0
@@ -1250,9 +1254,6 @@ bettercombatmod:player.normal_swing_right3
 bettercombatmod:player.normal_swing_right4
 bettercombatmod:player.quick_swing_right0
 bettercombatmod:player.quick_swing_right1
-magma_monsters:magma_monster_living
-magma_monsters:magma_monster_hurt
-magma_monsters:magma_monster_death
 mowziesmobs:laser
 mowziesmobs:sunstrike
 mowziesmobs:wroughtnaut.preswing1
@@ -1518,6 +1519,14 @@ spartanweaponry:throwing_weapon_hit
 spartanweaponry:throwing_weapon_return
 spartanweaponry:boomerang_throw
 spartanweaponry:boomerang_flight
+trident:item.trident.hit
+trident:item.trident.hit_ground
+trident:item.trident.return
+trident:item.trident.riptide_1
+trident:item.trident.riptide_2
+trident:item.trident.riptide_3
+trident:item.trident.throw
+trident:item.trident.thunder
 arcaneworld:ritual_out
 arcaneworld:ritual_item
 arcaneworld:ritual_charge

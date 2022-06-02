@@ -118,7 +118,7 @@ GCT.addRecipe("earthen_ruby", <contenttweaker:earthen_ruby>, [<biomesoplenty:gem
 
 GCT.addRecipe("flashfired_cincinnasite", <contenttweaker:flashfired_cincinnasite>, [<betternether:cincinnasite>, <minecraft:fire_charge>*4, <minecraft:blaze_powder>*6, <minecraft:gunpowder>*8]);
 
-GCT.addRecipe("corrupted_cincinnasite", <contenttweaker:corrupted_cincinnasite>, [<betternether:cincinnasite>, <quark:black_ash>*6, <netherex:spore>*4, <betterwithmods:material:37>*8]);
+GCT.addRecipe("corrupted_cincinnasite", <contenttweaker:corrupted_cincinnasite>, [<betternether:cincinnasite>, <quark:black_ash>*6, <contenttweaker:death_quintessence>*3, <betterwithmods:material:37>*8]);
 
 GCT.addRecipe("fireetched_onyx", <contenttweaker:fireetched_onyx>, [<simpleores:onyx_gem>, <minecraft:magma_cream>*6, <minecraft:blaze_powder>*4, <betterwithmods:material:16>*8]);
 

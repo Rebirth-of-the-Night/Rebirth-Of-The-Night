@@ -1,5 +1,5 @@
 setIcon(<dungeontactics:magic_pouch>)
-setTitle("Wand powder pouch")
+setTitle("Wand Powder Pouch")
 setDescription("Craft a wand powder pouch.")
 
 addParent("triumph:advancements/magick/wandlore/wandlore")

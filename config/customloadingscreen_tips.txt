@@ -15,7 +15,7 @@ Monsters lead invasions every 7-10 nights!
 The Arcane Barrier separates the Beneath and the Overworld.
 Breaking the Arcane Barrier will unleash new monsters upon the Overworld.
 Onyx and Dragonsteel are some of the sturdiest materials for armor in the game.
-Mythril is known for its magical properties.
+Mythril is known for its arcane properties.
 Viridium is known for its life-like and regenerative properties.
 Exorite is an alien-like crystal with characteristics that defy logic.
 The Beneath contains very large dungeons with lots of loot.
@@ -46,7 +46,7 @@ Every second you are not awake, invasions are getting closer.
 Silver is slightly better than iron, but it is softer and can't mine most ores.
 Join our Discord at discord.gg/rotn and discuss base defense strategies!
 You can change any bauble's modifier with a Reforging Station and a vis sliver.
-Getting a cauldron is easier than getting a brewing stand for making early potions.
+Getting a fluid cauldron is easier than getting a brewing stand for making early potions.
 Only baubles can have modifiers.
 Bones can be turned into stock: a great base for soup... definitely not with bones from that skeleton you just killed.
 Craft or find a backpack to haul more junk along with you. It stays with you on death!
@@ -63,7 +63,7 @@ Female livestock need to give birth before they can be milked.
 Use the trashcan slot in your inventory to conveniently destroy unwanted items.
 Livestock will be stressed if too many of them are in a small pen.
 Ancient Tomes can be used to upgrade enchanted books beyond their normal enchantment limit.
-Each attack has a 20 percent chance to be a critical hit.
+Each attack has a 5% chance to be a critical hit.
 Many mobs have unique variants; some are more common in certain biomes.
 Each season lasts 9 days.
 Tamed wolves will sometimes leave dung behind.
@@ -77,7 +77,7 @@ Chickens and peacocks occasionally leave feathers behind.
 You can grow summer crops year-round in tropical biomes.
 Far below the surface are the veins of the world's core...
 Your mainhand, armor, and baubles stay with you even after you die, but they lose durability on Normal and Hard difficulty.
-Shift + right click to throw a glaretorch.
+Shift & right click to throw a glaretorch.
 Craft a season clock to keep track of the seasons.
 Use a Weather Sensor or a Wind Chime to prevent windmills from breaking during harsh weather.
 Prepare to spelunk! Ore is rare outside of caves.
@@ -125,7 +125,7 @@ Plague Doctor villagers might look scary, but they can be very helpful when it c
 Dragons have been extinct in the Overworld for centuries, but they can still be found in a dimension shrouded by twilight...
 Runes of Disintegration are used to blow up magical items, leaving vis behind.
 Runes of Disintegration can turn stone into cobblestone.
-Runes of Creation can turn cobblestone into stone.
+Runes of Creation can turn cobblestone into smooth stone.
 Runes of Soul can call souls to this world and create new soulsand via right-clicking sand.
 Nether and end stone bricks are some of the sturdiest in the game.
 It is never enough refractory material!

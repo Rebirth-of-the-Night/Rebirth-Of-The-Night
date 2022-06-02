@@ -1,7 +1,9 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 title @p times 40 120 60
-title @p subtitle {"text":"A cool breeze fills the air...", "color":"yellow"}
+title @p subtitle {"text":"A chill fills the air...", "color":"yellow"}
 title @p title {"text":"The Aether", "bold":false, "italic":false, "color":"white"}
-tellraw @p {"text":"New quintessence can drop from magicite now!","color":"gold"}
+tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
+playsound mowziesmobs:frostmaw.icebreathstart ambient @p ~ ~ ~ 1 0.6
+playsound mowziesmobs:frostmaw.icebreath ambient @p ~ ~ ~ 0.1 1
 gamestage silentadd @a enteredAether

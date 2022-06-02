@@ -67,6 +67,7 @@ betterwithaddons:tarred
 defiledlands:vulnerability
 defiledlands:grounded
 defiledlands:bleeding
+demonic_scythe:demonic_corruption
 extraalchemy:effect.fuse
 extraalchemy:effect.recall
 extraalchemy:effect.sinking
