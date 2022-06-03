@@ -617,7 +617,7 @@
 		"mob": "netherex:ghast_queen",
 		"player": true,
 		"item": "simpleores:onyx_gem",
-		"itemcount": "20-40"
+		"itemcount": "10-20"
  	},
  	{
 		"mob": "netherex:ghast_queen",
@@ -642,8 +642,8 @@
  	{
 		"mob": "minecraft:wither",
 		"player": true,
-		"item": "simpleores:onyx_gem",
-		"itemcount": "5-7"
+		"item": "simpleores:onyx_ore",
+		"itemcount": "2-3"
  	},
  	{
 		"mob": "minecraft:wither",
