@@ -5,6 +5,11 @@ import mods.inworldcrafting.FluidToItem;
 
 // mud recipe
 FluidToItem.transform(<biomesoplenty:mudball>, <liquid:water>, [<betterwithmods:dirt_pile>], true);
+FluidToItem.transform(<biomesoplenty:mudball>, <liquid:water>, [<contenttweaker:silty_dirt_pile>], true);
+FluidToItem.transform(<biomesoplenty:mudball>, <liquid:water>, [<contenttweaker:loamy_dirt_pile>], true);
+FluidToItem.transform(<biomesoplenty:mudball>, <liquid:water>, [<contenttweaker:sandy_dirt_pile>], true);
+//FluidToItem.transform(<something related to scuttling blocks>, <liquid:water>, [<contenttweaker:defiled_dirt_pile>], true); //not yet
+//FluidToItem.transform(<something related to silky sludge>, <liquid:water>, [<contenttweaker:defiled_dirt_pile>], true); // not yet
 // best durable twine deal
 FluidToItem.transform(<pyrotech:material:26>*24, <liquid:wood_tar>, [<pyrotech:material:14>*8], true);
 // ground netherrack to nether sludge

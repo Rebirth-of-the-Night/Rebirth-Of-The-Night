@@ -35,6 +35,13 @@ recipes.addShaped("hamster_wheel",<animania:block_hamster_wheel>,[
 	[<ore:stoneSlab>,<ore:ingotIron>,<ore:stoneSlab>]
 ]);
 
+recipes.remove(<animania:carving_knife>);
+recipes.addShapedMirrored("carving_knife",<animania:carving_knife>,[
+	[<ore:genericMetal>,<ore:genericMetal>],
+	[<ore:genericMetal>,<ore:genericMetal>],
+	[<ore:stickWood>,null]
+]);
+
 // Hamster balls craftable with stained glass
 
 for i in 0 to 16 {

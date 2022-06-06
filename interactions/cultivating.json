@@ -28,5 +28,35 @@
     "heldItem": "*dirt_pile*",
     "replacementBlock": "growthcraft_rice:ricepaddy",
     "damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:farmland",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:farmland*",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:dirt*",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:dirt*",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "growthcraft_rice:ricepaddy",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
   }
 ]
