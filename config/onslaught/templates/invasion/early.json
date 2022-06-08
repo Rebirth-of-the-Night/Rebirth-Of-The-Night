@@ -70,7 +70,7 @@
               },
               {
                 "id": "zed.miner",
-                "count": [ 5, 6 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -97,7 +97,7 @@
             "mobs": [
               {
                 "id": "zed.bomber",
-                "count": [ 4, 5 ],
+                "count": [ 1, 2 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -133,7 +133,7 @@
               },
               {
                 "id": "zed.miner",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -160,7 +160,7 @@
             "mobs": [
               {
                 "id": "zed.stalker",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -196,7 +196,7 @@
               },
               {
                 "id": "zed.miner",
-                "count": [ 5, 6 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -223,7 +223,7 @@
             "mobs": [
               {
                 "id": "skel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -241,7 +241,7 @@
               },
               {
                 "id": "zed",
-                "count": [ 8, 10 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -259,7 +259,7 @@
               },
               {
                 "id": "zed.miner",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -286,7 +286,7 @@
             "mobs": [
               {
                 "id": "zed.bomber",
-                "count": [ 5, 6 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -304,7 +304,7 @@
               },
               {
                 "id": "zed",
-                "count": [ 3, 4 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -322,7 +322,7 @@
               },
               {
                 "id": "zed.miner",
-                "count": [ 5, 6 ],
+                "count": [ 2, 3 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -340,7 +340,7 @@
               },
               {
                 "id": "zed.stalker",
-                "count": [ 4, 5 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -394,7 +394,7 @@
               },
               {
                 "id": "skel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -515,7 +515,7 @@
               },
               {
                 "id": "zed.miner",
-                "count": [ 5, 6 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -654,7 +654,7 @@
               },
               {
                 "id": "skel",
-                "count": [ 8, 10 ],
+                "count": [ 3, 4 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -672,7 +672,7 @@
               },
               {
                 "id": "zed.miner",
-                "count": [ 6, 8 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -735,7 +735,7 @@
               },
               {
                 "id": "zed.bomber",
-                "count": [ 5, 6 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -753,7 +753,7 @@
               },
               {
                 "id": "skel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [

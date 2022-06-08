@@ -198,7 +198,7 @@
             "mobs": [
               {
                 "id": "bug.locust",
-                "count": [ 10, 14 ]
+                "count": [ 10, 12 ]
               }
             ]
           }

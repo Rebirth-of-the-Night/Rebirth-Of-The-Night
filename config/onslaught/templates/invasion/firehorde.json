@@ -55,7 +55,7 @@
             "mobs": [
               {
                 "id": "firezombie",
-                "count": [ 10, 12 ],
+                "count": [ 8, 10 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -73,7 +73,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -320,7 +320,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 10, 12 ],
+                "count": [ 6, 8 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -419,7 +419,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -441,7 +441,7 @@
             "mobs": [
               {
                 "id": "firezombie",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -540,7 +540,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -558,7 +558,7 @@
               },
               {
                 "id": "firezombie.stalker",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -639,7 +639,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -657,7 +657,7 @@
               },
               {
                 "id": "firezombie",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -756,7 +756,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -774,7 +774,7 @@
               },
               {
                 "id": "firezombie.loot",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -990,7 +990,7 @@
               },
               {
                 "id": "fireskel",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [
@@ -1008,7 +1008,7 @@
               },
               {
                 "id": "firezombie.loot",
-                "count": [ 8, 10 ],
+                "count": [ 4, 6 ],
                 "spawn": {
                   "type": "ground",
                   "light": [

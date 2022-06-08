@@ -53,7 +53,7 @@
               },
               {
                 "id": "pandemic.grunt",
-                "count": [ 10, 12 ]
+                "count": [ 8, 10 ]
               },
               {
                 "id": "pandemic.archer",
@@ -70,7 +70,7 @@
             "mobs": [
               {
                 "id": "pandemic.miner",
-                "count": [ 10, 12 ]
+                "count": [ 8, 10 ]
               },
               {
                 "id": "pandemic.grunt",
@@ -95,7 +95,7 @@
               },
               {
                 "id": "pandemic.grunt",
-                "count": [ 10, 12 ]
+                "count": [ 8, 10 ]
               },
               {
                 "id": "pandemic.archer",
@@ -125,7 +125,7 @@
             "mobs": [
               {
                 "id": "pandemic.archer",
-                "count": [ 10, 12 ]
+                "count": [ 8, 10 ]
               }
             ]
           }
@@ -288,11 +288,11 @@
             "mobs": [
               {
                 "id": "pandemic.miner",
-                "count": [ 12, 14 ]
+                "count": [ 8, 10 ]
               },
               {
                 "id": "pandemic.archer",
-                "count": [ 6, 8 ]
+                "count": [ 4, 6 ]
               },
               {
                 "id": "pandemic.plaguebeast",
@@ -304,7 +304,7 @@
               },
               {
                 "id": "pandemic.grunt",
-                "count": [ 10, 12 ]
+                "count": [ 8, 10 ]
               }
             ]
           }
