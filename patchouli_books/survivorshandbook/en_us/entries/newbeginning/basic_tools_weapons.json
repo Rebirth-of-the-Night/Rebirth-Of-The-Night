@@ -14,7 +14,7 @@
       "type": "crafting",
       "recipe": "ct_shapeless-1591466075",
       "title": "Cobblestone",
-      "text": "Compressing some rocks together should yield me some nice, solid cobblestone to make tools with."
+      "text": "While I can use rocks to craft stone tools, some may require a more sturdy base; compressing some rocks into a solid bit of cobblestone should help with that."
     },
     {
       "type": "text",
@@ -22,8 +22,8 @@
     },
     {
       "type": "crafting",
-      "recipe": "minecraft:stone_pickaxe",
-      "recipe2": "minecraft:stone_axe"
+      "recipe": "crafttweaker:stone_pickaxe",
+      "recipe2": "crafttweaker:stone_axe"
     },
     {
       "type": "text",
@@ -59,22 +59,22 @@
     },
     {
       "type": "crafting",
-      "recipe": "spartanweaponry:hammer_stone",
+      "recipe": "crafttweaker:stone_mallet",
       "text": "A blunt, heavy mallet. Fairly weighty and not the swiftest weapon, but it sure does pack a punch. Can knock back whatever enemies dare to mess with me."
     },
     {
       "type": "crafting",
-      "recipe": "spartanweaponry:mace_stone",
+      "recipe": "crafttweaker:stone_mace",
       "text": "A good hearty mace to bludgeon monsters with. Comparable to the arming sword, but it swings slightly slower. The mace seems to hurt undead monsters a bit extra, however, which might come in handy."
     },
     {
       "type": "crafting",
-      "recipe": "spartanweaponry:dagger_stone",
+      "recipe": "crafttweaker:stone_dagger",
       "text": "Like the arming sword, but smaller. Not very deadly, but its ease of movement makes up for it. Can be very quickly swung for some cheap hits. Its lightness also makes it throwable, though I'll need to fetch it back myself."
     },
     {
       "type": "crafting",
-      "recipe": "spartanweaponry:warhammer_stone",
+      "recipe": "crafttweaker:stone_warhammer",
       "text": "A weapon with a sharpened spike at one end, great for piercing armor. It requires quite some force when swinging, so having something like a shield in my other hand might make it a lot slower to swing."
     },
     {
@@ -84,13 +84,37 @@
     },
     {
       "type": "crafting",
-      "recipe": "spartanweaponry:spear_stone",
+      "recipe": "crafttweaker:stone_spear",
       "text": "A nicely sharpened, pokey spear. The pole provides extra reach, pairing excellently with a shield for both good offense and defense."
     },
     {
       "type": "crafting",
-      "recipe": "spartanweaponry:quarterstaff_stone",
-      "text": "A swift pole with blunt stone on both ends. Great against a group of monsters, with its wide seeping attack. Similar to the warhammer, I'll need both hands to swing at full speed."
+      "recipe": "crafttweaker:stone_quarterstaff",
+      "text": "A swift pole with blunt stone on both ends. Great against a group of monsters, with its wide sweeping attack. Similar to the warhammer, I'll need both hands to swing at full speed."
+    },
+    {
+      "type": "text",
+      "text": "Now for some throwable weapons. As I mentioned earlier with the dagger, these provide a ranged alternative to combat.$(br2)$(italics)$(#a84b0f)Except for the boomerang, these next weapons have 'ammo'; meaning how many times you can throw them before they must be picked up again. Some throwing weapons have more 'ammo' than others. They can still be used as melee weapons.$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_throwing_knife",
+      "text": "A sharp stone knife, light and throwable. Fast to wind up and throw, and equally as fast in hand to hand combat, like the dagger. Can be thrown a moderate distance."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_tomahawk",
+      "text": "A heavier, more lethal throwing weapon. While it can deal more damage than the throwing knife, it comes at the sacrifice of wind up time and is sluggish in melee combat. Can't be thrown as far as the knife."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_javelin",
+      "text": "A spear specially designed for throwing. Takes the longest to wind up, but deals the most damage. It can be thrown the furthest out of the three, and with the most accuracy. Moderate as a melee weapon."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stoner_boomer",
+      "text": "A quaint little boomerang. Has the neat advantage of coming back after being thrown, meaning I won't need to come running after it all the time. Packs quite a punch, though the javelin is still the most damaging out of the four."
     },
     {
       "type": "relations",

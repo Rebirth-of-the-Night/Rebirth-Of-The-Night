@@ -1,0 +1,48 @@
+{
+  "name": "Sunset",
+  "icon": "minecraft:torch",
+  "category": "survival_newbeginning",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:brick_minecraft_clay",
+      "title": "Sunset",
+      "text": "It looks like the sun is finally setting. I should begin preparing to hunker down for the night... that uneasy feeling is coming up again.$(br2)My dwelling for tonight won't be pretty, and could very well be vulnerable anyways, but something is always better than nothing."
+    },
+    {
+      "type": "text",
+      "text": "I should begin considering some places I can hole up in for tonight. Each location or environment I choose will have its upsides and downsides; I should keep these in mind.$(br2)I can always move elsewhere later; but leaving in the middle of the night sounds like a great way to get my ass handed to me.$(br2)So long as I have a place to put my things, it's home."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Option #1: Surface shack$()$(br2)Depending on how many materials I have on hand for building, this could be workable. A small shack built out of wood or stone is as good of a living space I can build with my own two hands as any other.$(br2)Of course, I can't expect such a rudimentary structure to last very long; it is something, at the very least. "
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Pros:$()$(br)-In reach of surface materials like food, wood and water$(br)-Can be easily expanded$(br)-Quicker to set up$(br)-Easier to keep track of$(br2)$(bold)Cons:$()$(br)-Requires a decent amount of building materials on hand$(br)-More vulnerable$(br)-Must be actively maintained or fall into disrepair$(br)"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Option #2: Cave hole$()$(br2)While caves are full of darkness, unpleasant monsters and creepy crawlies, a properly fortified and lit area carved out of the solid stone might actually not be a bad idea.$(br2)Using the cave to my full advantage means I won't even need to build walls.$(br2)Though, I do wonder if monsters can mine..."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Pros:$()$(br)-Requires few materials, other than a pickaxe$(br)-Hollowing out an area gives me plenty of stone to use$(br)-Can be set up pretty much anywhere underground$(br2)$(bold)Cons:$()$(br)-Takes longer to build; mining stone takes time$(br)-Uglier$(br)-Requires a lot of torches$(br)-Monsters are a constant, rather than nightly"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Option #3: Mountain base$()$(br2)Traversing a mountain might be tough, but the same will apply to whatever is trying to get to me. I can build a base in the hills either on top of a mountain's plateau, or inside the mountains itself. A mountain base might also serve as a good 'watchtower' of sorts - really useful for looking out further if I plan to move somewhere else later."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Pros:$()$(br)-Very defensible and hard to reach$(br)-Mountains stand out in the landscape, making my base easier to spot$(br)-High leverage makes keeping watch of surrounding areas easier$(br2)$(bold)Cons:$()$(br)-Harder to reach... for me$(br)-May come with its own unique threats in the higher altitudes$(br)-Long falls can be dangerous if I'm not careful"
+    },
+  
+    {
+      "type": "relations",
+      "entries": [
+      ]
+    }
+  ]
+}

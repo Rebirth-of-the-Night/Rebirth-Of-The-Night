@@ -2413,6 +2413,40 @@
     "result": "deny"
  },
 
+ {
+    "dimension": [0,10,1],
+    "mob": "endreborn:watcher",
+    "gamestage": "killedEnderDragon",
+    "random": 0.01,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10,1],
+    "mob": "endreborn:watcher",
+    "result": "deny"
+ },
+ 
+ {
+    "dimension": [0,10,1],
+    "mob": "endreborn:chronologist",
+    "gamestage": "killedEnderDragon",
+    "random": 0.01,
+    "maxcount": {
+        "amount": 2,
+        "perplayer": true
+    },
+    "result": "default"
+ },
+ {
+    "dimension": [0,10,1],
+    "mob": "endreborn:chronologist",
+    "result": "deny"
+ },
+
 // rats
  {
     "dimension": 0,

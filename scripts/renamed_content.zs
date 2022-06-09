@@ -23,6 +23,8 @@ import mods.jei.JEI;
 <basketcase:basket_medium_generic>.displayName = "Medium Wicker Basket";
 <basketcase:basket_large_generic>.displayName = "Large Wicker Basket";
 
+// Artisan Worktables
+
 // Guidebook
 <solcarrot:food_book:*>.addTooltip(format.aqua("Guidebook"));
 <solcarrot:food_book:*>.addTooltip("Max health improvement via food information");
@@ -74,17 +76,6 @@ import mods.jei.JEI;
 <twilightforest:steeleaf_sword>.displayName = "Steeleaf Arming Sword";
 <twilightforest:knightmetal_sword>.displayName = "Knightly Arming Sword";
 <twilightforest:raw_venison>.displayName = "Raw Venison Steak";
-<twilightforest:mangrove_door>.displayName = "Twilight Mangrove Door";
-<twilightforest:mangrove_planks>.displayName = "Twilight Mangrove Planks";
-<twilightforest:twilight_log:2>.displayName = "Twilight Mangrove Wood";
-<twilightforest:twilight_leaves:2>.displayName = "Twilight Mangrove Leaves";
-<twilightforest:mangrove_stairs>.displayName = "Twilight Mangrove Stairs";
-<twilightforest:mangrove_slab:*>.displayName = "Twilight Mangrove Slab";
-<twilightforest:mangrove_button>.displayName = "Twilight Mangrove Button";
-<twilightforest:mangrove_trapdoor>.displayName = "Twilight Mangrove Trapdoor";
-<twilightforest:mangrove_fence>.displayName = "Twilight Mangrove Fence";
-<twilightforest:mangrove_gate>.displayName = "Twilight Mangrove Gate";
-<twilightforest:mangrove_plate>.displayName = "Twilight Mangrove Pressure Plate";
 <twilightforest:stone_twist>.displayName = "Twisted Stone Pillar";
 <twilightforest:stone_twist_thin>.displayName = "Thin Twisted Stone Pillar";
 <twilightforest:boss_spawner:9>.displayName = "Final Boss Spawner";

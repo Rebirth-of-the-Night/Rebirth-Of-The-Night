@@ -185,6 +185,25 @@ recipes.addShaped("quicksoil", quicks*8,[
     [sand, sand, sand]
 ]);
 
+// Consistency with stone tools for holystone tools
+recipes.remove(<aether_legacy:holystone_axe>);
+recipes.addShapedMirrored("holystone_axe", <aether_legacy:holystone_axe>,
+ [[<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>,null],
+  [<pyrotech_compat:rock_sedimentary_sand:15>,<aether_legacy:skyroot_stick>,null],
+  [null,<aether_legacy:skyroot_stick>,null]]);
+
+recipes.remove(<aether_legacy:holystone_pickaxe>);
+recipes.addShaped("holystone_pickaxe", <aether_legacy:holystone_pickaxe>,
+ [[<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>,<pyrotech_compat:rock_sedimentary_sand:15>],
+  [null,<aether_legacy:skyroot_stick>,null],
+  [null,<aether_legacy:skyroot_stick>,null]]);
+
+recipes.remove(<aether_legacy:holystone_shovel>);
+recipes.addShaped("holystone_shovel", <aether_legacy:holystone_shovel>,
+ [[null,<pyrotech_compat:rock_sedimentary_sand:15>,null],
+  [null,<aether_legacy:skyroot_stick>,null],
+  [null,<aether_legacy:skyroot_stick>,null]]);
+
 // Gravitite ingot rework
 
 var gravitite_ingot = <ore:ingotGravitite>;

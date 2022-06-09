@@ -129,50 +129,62 @@ Mill.builder()
 Mill.builder()
 .buildRecipe([<minecraft:quartz>], [<pyrotech:material:8>])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<arcanearchives:raw_quartz>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:sedimentary_stone:1>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:metamorphic_stone:3>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:metamorphic_stone:2>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:sedimentary_stone:5>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:sedimentary_stone:0>], [<pyrotech:material:8>*3])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<contenttweaker:chalk_cobble>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:metamorphic_cobble:3>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<undergroundbiomes:metamorphic_cobble:2>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<contenttweaker:dolomite_cobble>], [<pyrotech:material:8>*2])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 Mill.builder()
 .buildRecipe([<contenttweaker:limestone_cobble>], [<pyrotech:material:8>*3])
 .setPriority(3)
+.setGrindType("mowziesmobs:geomancy.breakmedium3")
 .build();
 
 // Dread Slate Processing

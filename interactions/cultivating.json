@@ -58,5 +58,95 @@
     "heldItem": "contenttweaker:defiled_dirt_pile",
     "replacementBlock": "defiledlands:dirt_defiled",
     "damage": "1"
+  },
+  {
+    "targetBlock": "aether_legacy:aether_dirt",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:grass",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:grass:2",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },  
+  {
+    "targetBlock": "biomesoplenty:grass:3",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },  
+  {
+    "targetBlock": "biomesoplenty:grass:4",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "aether_legacy:aether_grass",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:grass:7",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:dirt:1",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:dirt:8",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:dirt:9",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:dirt:10",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:dirt_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "minecraft:grass_path",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },
+  {
+    "targetBlock": "biomesoplenty:grass_path",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },  
+  {
+    "targetBlock": "biomesoplenty:grass_path:1",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
+  },  
+  {
+    "targetBlock": "biomesoplenty:grass_path:2",
+    "heldItem": "contenttweaker:defiled_dirt_pile",
+    "replacementBlock": "defiledlands:grass_defiled",
+    "damage": "1"
   }
 ]

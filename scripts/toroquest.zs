@@ -8,6 +8,13 @@ import mods.jei.JEI;
 // dupe bug with corpse complex
 JEI.removeAndHide(<toroquest:ender_idol>);
 
+// hiding unused armor
+JEI.removeAndHide(<toroquest:toro_armor_helmet>);
+JEI.removeAndHide(<toroquest:toro_armor_chestplate>);
+JEI.removeAndHide(<toroquest:toro_armor_leggings>);
+JEI.removeAndHide(<toroquest:toro_armor_boots>);
+
+
 val removedScrolls as string[] = [
     "earth",
     "water",

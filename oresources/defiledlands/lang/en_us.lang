@@ -31,7 +31,7 @@ tile.defiledlands.ravaging_decoration.bricks.name=Ravaging Bricks
 tile.defiledlands.glass_obscure.name=Obscure Glass
 tile.defiledlands.glass_obscure.tooltip=Blocks light
 
-tile.defiledlands.tenebra_log.name=Tenebra Wood
+tile.defiledlands.tenebra_log.name=Tenebra Log
 tile.defiledlands.tenebra_leaves.name=Tenebra Leaves
 tile.defiledlands.tenebra_sapling.name=Tenebra Sapling
 tile.defiledlands.tenebra_planks.name=Tenebra Wood Planks
@@ -76,8 +76,8 @@ item.defiledlands.foul_slime.name=Foul Slime
 item.defiledlands.foul_candy.name=Foul Candy
 item.defiledlands.book_wyrm_raw.name=Raw Book Wyrm
 item.defiledlands.book_wyrm_cooked.name=Cooked Book Wyrm
-item.defiledlands.book_wyrm_scale.name=Monster Scale
-item.defiledlands.book_wyrm_scale_golden.name=Golden Monster Scale
+item.defiledlands.book_wyrm_scale.name=Book Wyrm Scale
+item.defiledlands.book_wyrm_scale_golden.name=Golden Book Wyrm Scale
 
 item.defiledlands.umbrium_axe.name=Umbrium Axe
 item.defiledlands.umbrium_hoe.name=Umbrium Hoe
@@ -100,14 +100,14 @@ item.defiledlands.umbrium_chestplate.name=Umbrium Chestplate
 item.defiledlands.umbrium_leggings.name=Umbrium Leggings
 item.defiledlands.umbrium_boots.name=Umbrium Boots
 
-item.defiledlands.scale_helmet.name=Monster Scale Helmet
-item.defiledlands.scale_chestplate.name=Monster Scale Chestplate
-item.defiledlands.scale_leggings.name=Monster Scale Leggings
-item.defiledlands.scale_boots.name=Monster Scale Boots
-item.defiledlands.scale_golden_helmet.name=Golden Monster Scale Helmet
-item.defiledlands.scale_golden_chestplate.name=Golden Monster Scale Chestplate
-item.defiledlands.scale_golden_leggings.name=Golden Monster Scale Leggings
-item.defiledlands.scale_golden_boots.name=Golden Monster Scale Boots
+item.defiledlands.scale_helmet.name=Book Wyrm Scale Helmet
+item.defiledlands.scale_chestplate.name=Book Wyrm Scale Chestplate
+item.defiledlands.scale_leggings.name=Book Wyrm Scale Leggings
+item.defiledlands.scale_boots.name=Book Wyrm Scale Boots
+item.defiledlands.scale_golden_helmet.name=Golden Book Wyrm Scale Helmet
+item.defiledlands.scale_golden_chestplate.name=Golden Book Wyrm Scale Chestplate
+item.defiledlands.scale_golden_leggings.name=Golden Book Wyrm Scale Leggings
+item.defiledlands.scale_golden_boots.name=Golden Book Wyrm Scale Boots
 
 item.defiledlands.book_wyrm_analyzer.name=Book Wyrm Analyzer
 item.defiledlands.book_wyrm_analyzer.tooltip=Right click a Book Wyrm\nto know various stats

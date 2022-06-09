@@ -208,7 +208,7 @@ for w, weapon in sapphireweps{
 <nyx:crystal:*>.addTooltip("Passively boosts crop growth when placed near crops");
 <nyx:meteor_pickaxe:*>.addTooltip("Mines obsidian and meteoric rock much faster");
 <nyx:meteor_axe:*>.addTooltip("Deals extra damage to shields");
-mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
+mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero energy, it loses its crop growth ability. Recharges automatically during harvest moons.");
 
 // Eplus
 <eplus:decorative_book:*>.addTooltip("Outputs more power than bookshelves for the True Enchanting Table");
@@ -395,8 +395,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 
 // Rustic
 <rustic:vase:*>.addTooltip("Storage container. While in hand, sneak and scroll with mouse wheel to cycle between patterns.");
-<rustic:apiary:*>.addTooltip("Place bees inside to produce honeycombs overtime.");
-<rustic:bee:*>.addTooltip("Place inside an apiary to produce honeycombs.");
+<rustic:apiary:*>.addTooltip("Place bees inside to produce honeycomb over time.");
+<rustic:bee:*>.addTooltip("Place inside an apiary to produce honeycomb.");
 
 // Weapons
 
@@ -500,8 +500,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy overtime. When at zero e
 <contenttweaker:loamy_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <contenttweaker:sandy_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
 <contenttweaker:sandy_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
-<contenttweaker:defiled_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
-<contenttweaker:defiled_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
+<contenttweaker:defiled_dirt_pile:*>.addTooltip("Additive. Can defile other kinds of dirt and grass");
+<contenttweaker:defiled_dirt_pile>.addShiftTooltip("Right click on dirt, grass, or farmland to turn it into its defiled version.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <contenttweaker:aether_dirt_pile:*>.addTooltip("Additive. Can create a rice paddy");
 <contenttweaker:aether_dirt_pile>.addShiftTooltip("Right click on farmland to create a rice paddy.", "Hold" + format.gold(" <SHIFT>") + "" + format.gray(" for info."));
 <artisanworkstumps:workstump_potter:*>.addTooltip("Enables hand-building pottery.");

@@ -103,6 +103,7 @@ furnace.remove(<betterwithmods:cooking_pot>);
 recipes.remove(<betterwithmods:donut>);
 JEI.removeAndHide(<betterwithmods:donut>);
 Cauldron.remove([<betterwithmods:donut>]);
+recipes.removeByRecipeName("betterwithmods:blocks/blood_plank");
 
 recipes.removeByRecipeName("betterwithmods:piles/dirt_slab_0");
 JEI.removeAndHide(<betterwithmods:infernal_enchanter>);
@@ -210,7 +211,7 @@ recipes.addShaped("the_book_of_single", <betterwithmods:manual>, [
 ]);
 // gear wood
 recipes.remove(gear_wood);
-recipes.addShaped("gear_wood_block", gear_wood*4, [
+recipes.addShaped("gear_wood_block", gear_wood*6, [
     [stick, plank_wood, stick],
     [plank_wood, null, plank_wood],
 	[stick, plank_wood, stick]

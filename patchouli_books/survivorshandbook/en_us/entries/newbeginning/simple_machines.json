@@ -1,0 +1,51 @@
+{
+  "name": "Analog Machines",
+  "icon": "pyrotech:cog_wood",
+  "category": "survival_newbeginning",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "pyrotech:cog_wood",
+      "title": "Analog Machines",
+      "text": "Just because it's night time doesn't mean I can't be productive. Being holed up in a temporary dwelling is the perfect opportunity to further work at crafting and making useful things. Making some simple, analog machines would help me refine and process some of the materials I've gathered earlier today."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:gear_wood_block",
+      "text": "These simple wooden gears will allow me to create more compact and functional machinery; not every machine I make will need gears, though."
+    },
+    {
+      "type": "text",
+      "text": "A millstone and handcrank are great for crushing and milling raw materials into finer components. I'll need to set down the millstone first, then place the hand crank on top of it. Then, I can put in whatever I want to mill, and work away at the crank. It's quite strenous though; I might get hungry if I mill by hand for too long.$(br2)$(italics)$(#a84b0f)To place the hand crank, shift & right click on top of the millstone.$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:millstone",
+      "recipe2": "crafttweaker:hand_crank"
+    },
+		{
+			"type": "text",
+			"text": "A better alternative to the furnace, a kiln can slowly cook materials in bulk all at the same time for relatively low amounts of fuel compared to the furnace. I'll need to ignite the bottom after putting in fuel; I can use a hand drill for that.$(br2)$(italics)$(#a84b0f)To operate the kiln, place fuel in the bottom slot and a valid material in the top slot, after that, use an igniter on the fuel and let it cook.$()"
+		},
+		{
+			"type": "crafting",
+			"recipe": "crafttweaker:pyro_stone_kiln",
+			"text": "$(italics)$(#a84b0f)By default, putting items in either slot will put the entire stack in your hand; either separate the stack or shift and mouse wheel to fine tune what you put in. The duration of the recipe displays in the bottom left corner of the screen.$()"
+		},
+    {
+      "type": "text",
+      "text": "Smashing raw resources will be necessary for some things I want to craft; a stone anvil and sledgehammer will be perfect for making things like ore dusts.$(br2)Like the hand crank and millstone, smashing things will take a lot of energy and leave me hungry later. The anvil and hammer will slowly wear down over time, and I'll need to replace them every so often. " 
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:stone_sledgehammer",
+      "recipe2": "crafttweaker:pyro_stone_anvil"
+    },
+    {
+      "type": "relations",
+      "entries": [
+      ]
+    }
+  ]
+}

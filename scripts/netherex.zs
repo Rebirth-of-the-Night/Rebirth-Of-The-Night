@@ -163,34 +163,34 @@ var bone = <minecraft:bone>;
 
 
 // Armors
-recipes.addShaped("Wither Bone Helmet", <netherex:wither_bone_helmet>,[
-    [witherbone, witherbone, witherbone],
-    [witherbone, <minecraft:skull:1>, witherbone]
+recipes.addShaped("wither_bone_helmet", <netherex:wither_bone_helmet>,[
+    [null, witherbone, null],
+    [null, <minecraft:skull:1>, null]
 ]);
-recipes.addShaped("Wither Bone Chestplate", <netherex:wither_bone_chestplate>,[
+recipes.addShaped("wither_bone_chestplate", <netherex:wither_bone_chestplate>,[
     [witherbone, null, witherbone],
     [witherbone, witherbone, witherbone],
     [witherbone, witherbone, witherbone]
 ]);
-recipes.addShaped("Wither Bone Leggings", <netherex:wither_bone_leggings>,[
+recipes.addShaped("wither_bone_leggings", <netherex:wither_bone_leggings>,[
     [witherbone, witherbone, witherbone],
     [witherbone, null, witherbone],
     [witherbone, null, witherbone]
 ]);
-recipes.addShaped("Wither Bone Boots", <netherex:wither_bone_boots>,[
+recipes.addShaped("wither_bone_boots", <netherex:wither_bone_boots>,[
     [witherbone, null, witherbone],
     [witherbone, null, witherbone]
 ]);
 
 
 
-recipes.addShaped("Frosted Wither Bone", <netherex:frosted_wither_bone> * 3,[
+recipes.addShaped("frosted_wither_bone", <netherex:frosted_wither_bone> * 3,[
     [null, frostrod, null],
     [frostrod, witherbone, frostrod],
     [null, frostrod, null]
 ]);
 
-recipes.addShaped("Wither Bone", <iceandfire:witherbone>,[
+recipes.addShaped("wither_bone", <iceandfire:witherbone>,[
     [witherash, witherash, witherash],
     [witherash, bone, witherash],
     [witherash, witherash, witherash]

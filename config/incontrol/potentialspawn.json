@@ -1184,6 +1184,30 @@
     ]
   },
 
+  {
+    "dimension": [0,10,1],
+    "mobs": [
+      {
+        "mob": "endreborn:watcher",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
+  {
+    "dimension": [0,10,1],
+    "mobs": [
+      {
+        "mob": "endreborn:chronologist",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+
  // Witches
 
   // removed from TF

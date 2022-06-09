@@ -1,3 +1,3 @@
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
-tellraw @p ["",{"text":"This is a lot to take in... I better write down what I'm doing and organize my thoughts. (Open your guidebook in the inventory after pressing E.)","color":"gray","italic":true}]
+tellraw @p ["",{"text":"Crafting is going to be harder than expected... I better write down what I'm doing and organize my thoughts. (Your guidebook can be found in the inventory [press E].)","color":"gray","italic":true}]

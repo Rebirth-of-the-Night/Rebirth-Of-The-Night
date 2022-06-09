@@ -17,8 +17,18 @@ interaction.setJEIItemSlot(4,4,"catalyst2");
 
 var ricePaddy = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<contenttweaker:rice_paddy_dummy>);
-}).requireItem("input",<minecraft:farmland>).requireItem("catalyst1",<betterwithmods:dirt_pile>);
+}).requireItem("input",<ore:farmland>).requireItem("catalyst1",<ore:pileDirt>);
 interaction.addJEIRecipe(ricePaddy);
+
+var defiledDirt = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<defiledlands:dirt_defiled>);
+}).requireItem("input",<ore:dirt>).requireItem("catalyst1",<contenttweaker:defiled_dirt_pile>);
+interaction.addJEIRecipe(defiledDirt);
+
+var defiledGrass = AssemblyRecipe.create(function(container) {
+    container.addItemOutput("output",<defiledlands:grass_defiled>);
+}).requireItem("input",<ore:defileableGrass>).requireItem("catalyst1",<contenttweaker:defiled_dirt_pile>);
+interaction.addJEIRecipe(defiledGrass);
 
 var botanicGlass = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<sereneseasons:greenhouse_glass>);

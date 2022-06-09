@@ -24,7 +24,10 @@ import mods.jei.JEI;
 
 JEI.removeAndHide(<bountifulbaubles:reforger>);
 JEI.removeAndHide(<bountifulbaubles:ringiron>);
+JEI.removeAndHide(<bountifulbaubles:phantomprism>);
+LootTable.removeGlobalItem("bountifulbaubles:phantomprism");
 LootTable.removeGlobalItem("bountifulbaubles:reforger");
+LootTable.removeGlobalItem("bountifulbaubles:ringiron");
 
 // Remove everlasting food
 LootTable.removeGlobalItem("artifacts:everlasting_porkchop");

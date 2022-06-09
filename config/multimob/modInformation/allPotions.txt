@@ -216,7 +216,6 @@ wards:effect_explosive
 wards:effect_debilitating
 wards:effect_smelting
 wards:effect_berserking
-wards:effect_runed
 wards:effect_mage_affinity
 wards:effect_restoration
 wards:effect_satiate

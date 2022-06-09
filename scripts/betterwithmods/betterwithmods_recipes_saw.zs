@@ -19,55 +19,54 @@ for i in removeArray{
     Saw.remove(i);
 }
 
-// Saw.add(<betterwithmods:blood_log>,[<betterwithmods:bark:6>*5,<pyrotech:rock:7>*2]);
-Saw.add(<minecraft:log:0>,[<minecraft:planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<minecraft:log:1>,[<minecraft:planks:1>*5,<hitwithaxe:bark:20>*3,<pyrotech:rock:7>*2]);
-Saw.add(<minecraft:log:2>,[<minecraft:planks:2>*5,<hitwithaxe:bark:2>*8,<pyrotech:rock:7>*2]);
-Saw.add(<minecraft:log:3>,[<minecraft:planks:3>*5,<hitwithaxe:bark:12>*3,<pyrotech:rock:7>*2]);
-Saw.add(<minecraft:log2:0>,[<minecraft:planks:4>*5,<hitwithaxe:bark:0>*3,<pyrotech:rock:7>*2]);
-Saw.add(<minecraft:log2:1>,[<minecraft:planks:5>*5,<hitwithaxe:bark:8>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_0:4>,[<biomesoplenty:planks_0>*5,<hitwithaxe:bark:47>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_0:5>,[<biomesoplenty:planks_0:1>*5,<hitwithaxe:bark:33>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_0:6>,[<biomesoplenty:planks_0:2>*5,<hitwithaxe:bark:48>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_0:7>,[<biomesoplenty:planks_0:3>*5,<hitwithaxe:bark:38>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_1:4>,[<biomesoplenty:planks_0:4>*5,<hitwithaxe:bark:36>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_1:5>,[<biomesoplenty:planks_0:5>*5,<hitwithaxe:bark:41>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_1:6>,[<biomesoplenty:planks_0:6>*5,<hitwithaxe:bark:43>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_1:7>,[<biomesoplenty:planks_0:7>*5,<hitwithaxe:bark:44>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_2:4>,[<biomesoplenty:planks_0:8>*5,<hitwithaxe:bark:46>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_2:5>,[<biomesoplenty:planks_0:9>*5,<hitwithaxe:bark:49>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_2:6>,[<biomesoplenty:planks_0:10>*5,<hitwithaxe:bark:45>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_2:7>,[<biomesoplenty:planks_0:11>*5,<hitwithaxe:bark:39>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_3:4>,[<biomesoplenty:planks_0:12>*5,<hitwithaxe:bark:40>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_3:5>,[<biomesoplenty:planks_0:13>*5,<hitwithaxe:bark:42>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_3:6>,[<biomesoplenty:planks_0:14>*5,<hitwithaxe:bark:35>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_3:7>,[<biomesoplenty:planks_0:15>*5,<hitwithaxe:bark:37>*3,<pyrotech:rock:7>*2]);
-Saw.add(<biomesoplenty:log_4:5>,[<hitwithaxe:bark:34>*3,<pyrotech:rock:7>*12]);
-Saw.add(<rustic:log:0>,[<rustic:planks:0>*5,<hitwithaxe:bark:27>*3,<pyrotech:rock:7>*2]);
-Saw.add(<rustic:log:1>,[<rustic:planks:1>*5,<hitwithaxe:bark:25>*3,<pyrotech:rock:7>*2]);
-Saw.add(<stygian:endlog>,[<stygian:endplanks>*5]);
-Saw.add(<harvestcraft:pammaple>,[<minecraft:planks:1>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<harvestcraft:pampaperbark>,[<minecraft:planks:3>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<harvestcraft:pamcinnamon>,[<minecraft:planks:3>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:twilight_log:0>,[<twilightforest:twilight_oak_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:twilight_log:1>,[<twilightforest:canopy_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:twilight_log:2>,[<twilightforest:mangrove_planks>*5,<hitwithaxe:bark:15>*8,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:twilight_log:3>,[<twilightforest:dark_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:magic_log:0>,[<twilightforest:time_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:magic_log:1>,[<twilightforest:trans_planks>*5,<hitwithaxe:bark:15>*5,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<twilightforest:giant_log>, [<minecraft:planks>*106,<hitwithaxe:bark:15>*60,<pyrotech:rock:7>*40]);
-Saw.add(<betterwithmods:blood_log>,[<minecraft:planks:3>*5,<hitwithaxe:bark:12>*3,<pyrotech:rock:7>*2]);
-Saw.add(<aether_legacy:aether_log:*>, [<aether_legacy:skyroot_plank>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
-Saw.add(<defiledlands:tenebra_log>, [<defiledlands:tenebra_planks>*5,<hitwithaxe:bark:15>*3,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:log:0>,[<minecraft:planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:log:1>,[<minecraft:planks:1>*5,<hitwithaxe:bark:20>*4,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:log:2>,[<minecraft:planks:2>*5,<hitwithaxe:bark:2>*4,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:log:3>,[<minecraft:planks:3>*5,<hitwithaxe:bark:12>*4,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:log2:0>,[<minecraft:planks:4>*5,<hitwithaxe:bark:0>*4,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:log2:1>,[<minecraft:planks:5>*5,<hitwithaxe:bark:8>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_0:4>,[<biomesoplenty:planks_0>*5,<hitwithaxe:bark:47>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_0:5>,[<biomesoplenty:planks_0:1>*5,<hitwithaxe:bark:33>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_0:6>,[<biomesoplenty:planks_0:2>*5,<hitwithaxe:bark:48>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_0:7>,[<biomesoplenty:planks_0:3>*5,<hitwithaxe:bark:38>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_1:4>,[<biomesoplenty:planks_0:4>*5,<hitwithaxe:bark:36>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_1:5>,[<biomesoplenty:planks_0:5>*5,<hitwithaxe:bark:41>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_1:6>,[<biomesoplenty:planks_0:6>*5,<hitwithaxe:bark:43>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_1:7>,[<biomesoplenty:planks_0:7>*5,<hitwithaxe:bark:44>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_2:4>,[<biomesoplenty:planks_0:8>*5,<hitwithaxe:bark:46>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_2:5>,[<biomesoplenty:planks_0:9>*5,<hitwithaxe:bark:49>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_2:6>,[<biomesoplenty:planks_0:10>*5,<hitwithaxe:bark:45>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_2:7>,[<biomesoplenty:planks_0:11>*5,<hitwithaxe:bark:39>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_3:4>,[<biomesoplenty:planks_0:12>*5,<hitwithaxe:bark:40>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_3:5>,[<biomesoplenty:planks_0:13>*5,<hitwithaxe:bark:42>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_3:6>,[<biomesoplenty:planks_0:14>*5,<hitwithaxe:bark:35>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_3:7>,[<biomesoplenty:planks_0:15>*5,<hitwithaxe:bark:37>*4,<pyrotech:rock:7>*2]);
+Saw.add(<biomesoplenty:log_4:5>,[<hitwithaxe:bark:34>*4,<pyrotech:rock:7>*12]);
+Saw.add(<rustic:log:0>,[<rustic:planks:0>*5,<hitwithaxe:bark:27>*4,<pyrotech:rock:7>*2]);
+Saw.add(<rustic:log:1>,[<rustic:planks:1>*5,<hitwithaxe:bark:25>*4,<pyrotech:rock:7>*2]);
+Saw.add(<stygian:endlog>,[<stygian:endplanks>*5,<hitwithaxe:bark:15>*6,<pyrotech:rock:7>*2]);
+Saw.add(<harvestcraft:pammaple>,[<minecraft:planks:1>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<harvestcraft:pampaperbark>,[<minecraft:planks:3>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<harvestcraft:pamcinnamon>,[<minecraft:planks:3>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:twilight_log:0>,[<twilightforest:twilight_oak_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:twilight_log:1>,[<twilightforest:canopy_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:twilight_log:2>,[<twilightforest:mangrove_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:twilight_log:3>,[<twilightforest:dark_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:magic_log:0>,[<twilightforest:time_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:magic_log:1>,[<twilightforest:trans_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:magic_log:2>,[<twilightforest:mine_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:magic_log:3>,[<twilightforest:sort_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<twilightforest:giant_log>, [<minecraft:planks>*320,<hitwithaxe:bark:15>*256,<pyrotech:rock:7>*128]);
+Saw.add(<betterwithmods:blood_log>,[<biomesoplenty:fleshchunk>*8,<betterwithmods:bark:6>*4,<netherex:bone_sliver>]);
+Saw.add(<aether_legacy:aether_log:*>,[<aether_legacy:skyroot_plank>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
+Saw.add(<defiledlands:tenebra_log>,[<defiledlands:tenebra_planks>*5,<hitwithaxe:bark:15>*4,<pyrotech:rock:7>*2]);
 Saw.add(<minecraft:noteblock>,[<cyclicmagic:doorbell_simple>*4,<minecraft:redstone>,<pyrotech:rock:7>*2]);
-Saw.add(<minecraft:jukebox>,[<cyclicmagic:doorbell_simple>*4,<ore:ingotBrass>.firstItem,<pyrotech:rock:7>*2]);
+Saw.add(<minecraft:jukebox>,[<cyclicmagic:doorbell_simple>*4,<contenttweaker:material_part:45>,<pyrotech:rock:7>*2]);
 
 Saw.add(<betterwithmods:nether_clay>,[<betterwithmods:unfired_pottery:5>*4]);
 Saw.add(<contenttweaker:fiery_nether_sludge>,[<contenttweaker:unfired_fiery_brick>*4]);
 Saw.add(<minecraft:clay>,[<betterwithmods:unfired_pottery:4>*4]);
-//Saw.add(<contenttweaker:loose_adobe_bricks>,[<contenttweaker:unfired_adobe_brick>*4]); there's no raw adobe
+//Saw.add(<contenttweaker:loose_adobe_bricks>,[<contenttweaker:unfired_adobe_brick>*4]); there's no raw adobe yet
 Saw.add(<biomesoplenty:mud>,[<contenttweaker:unfired_mud_brick>*4]);
 Saw.add(<contenttweaker:unfiredrefractory>,[<contenttweaker:unfired_refractory_brick>*4]);
 Saw.add(<ceramics:porcelain>,[<contenttweaker:unfired_porcelain_brick>*4]);
@@ -86,5 +85,5 @@ for i, plank in PlanksList {
     Saw.add(DebarkedLogsList[i], [PlanksList[i]*5, <pyrotech:rock:7>*2]);
 }
 
-// Cutting Purple Slate
+// Cutting Blue Slate
 Saw.add(<earthworks:block_slate>, [<contenttweaker:raw_dread_slate>]);

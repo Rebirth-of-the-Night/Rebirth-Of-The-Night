@@ -112,9 +112,24 @@ JEI.removeAndHide(<spartanweaponry:pike_stone>);
 JEI.removeAndHide(<spartanweaponry:lance_stone>);
 JEI.removeAndHide(<spartanweaponry:battleaxe_stone>);
 JEI.removeAndHide(<spartanweaponry:glaive_stone>);
+JEI.removeAndHide(<spartanweaponry:longsword_stone>);
+JEI.removeAndHide(<spartanweaponry:greatsword_stone>);
 
 recipes.removeByRecipeName("spartanshields:shield_mod_bronze");
 
+// Remove default stone spartan weapon recipes (now uses rocks instead of cobble blocks)
+recipes.remove(<spartanweaponry:dagger_stone>);
+recipes.remove(<spartanweaponry:longsword_stone>);
+recipes.remove(<spartanweaponry:greatsword_stone>);
+recipes.remove(<spartanweaponry:hammer_stone>);
+recipes.remove(<spartanweaponry:warhammer_stone>);
+recipes.remove(<spartanweaponry:spear_stone>);
+recipes.remove(<spartanweaponry:throwing_knife_stone>);
+recipes.remove(<spartanweaponry:throwing_axe_stone>);
+recipes.remove(<spartanweaponry:javelin_stone>);
+recipes.remove(<spartanweaponry:boomerang_stone>);
+recipes.remove(<spartanweaponry:mace_stone>);
+recipes.remove(<spartanweaponry:staff_stone>);
 
 recipes.remove(<spartanshields:shield_basic_lead>);
 recipes.remove(<spartanshields:shield_basic_diamond>);

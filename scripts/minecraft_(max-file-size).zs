@@ -66,6 +66,7 @@ JEI.removeAndHide(<minecraft:end_portal_frame>);
 JEI.removeAndHide(<minecraft:anvil:2>);
 JEI.removeAndHide(<minecraft:anvil:1>);
 JEI.removeAndHide(<minecraft:chorus_plant>);
+JEI.removeAndHide(<bountiful:bounty>);
 
 // Misc. stuff
 JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
@@ -228,14 +229,12 @@ for rawOreBlock, rawOre in rtb {
 
 // rocks/piles to cobble/blocks and viceversa 
 var ctr as IItemStack[IItemStack] = {
-  <minecraft:dirt> : <betterwithmods:dirt_pile>,
   <biomesoplenty:dirt:2> : <contenttweaker:silty_dirt_pile>,
   <biomesoplenty:dirt> : <contenttweaker:loamy_dirt_pile>,
   <biomesoplenty:dirt:1> : <contenttweaker:sandy_dirt_pile>,
   <defiledlands:dirt_defiled> : <contenttweaker:defiled_dirt_pile>,
   <aether_legacy:aether_dirt> : <contenttweaker:aether_dirt_pile>,
   <minecraft:sand> : <betterwithmods:sand_pile>,
-  <minecraft:sand:1> : <betterwithmods:red_sand_pile>,
   <minecraft:gravel> : <betterwithmods:gravel_pile>,
   <minecraft:soul_sand> : <betterwithaddons:soulsand_pile>,
   <minecraft:cobblestone> : <pyrotech:rock>,
@@ -582,6 +581,8 @@ for i, dirt in coarseDirtArray {
 // Bucket Recipes
 var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
 var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
+var claybucket = <pyrotech:bucket_clay>.withTag({durability: 52, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_clay>);
+var woodbucket = <pyrotech:bucket_wood>.withTag({durability: 12, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_wood>);
 
 recipes.removeByRecipeName("minecraft:cauldron");
 recipes.addShaped("cauldron",<minecraft:cauldron>,[
@@ -603,6 +604,12 @@ recipes.addShapeless("sand_from_dried_sand_quality",<minecraft:sand>,[
 ]);
 recipes.addShapeless("sand_from_dried_sand_flimsy",<minecraft:sand>,[
     <biomesoplenty:dried_sand>, qualitybucket
+]);
+recipes.addShapeless("sand_from_dried_sand_clay",<minecraft:sand>,[
+    <biomesoplenty:dried_sand>, claybucket
+]);
+recipes.addShapeless("sand_from_dried_sand_wooden",<minecraft:sand>,[
+    <biomesoplenty:dried_sand>, woodbucket
 ]);
 
 recipes.removeByRecipeName("animania:salt_lick_0");
@@ -1388,6 +1395,32 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 
+
+val defileableGrass = <ore:defileableGrass>;
+defileableGrass.add(
+  <minecraft:grass>,
+  <biomesoplenty:grass:3>,
+  <biomesoplenty:grass:4>,
+  <biomesoplenty:grass:2>,
+  <biomesoplenty:grass:7>,
+  <aether_legacy:aether_grass>,
+  <minecraft:grass_path>,
+  <biomesoplenty:grass_path:2>,
+  <biomesoplenty:grass_path:1>,
+  <biomesoplenty:grass_path>
+);
+
+val farmland = <ore:farmland>;
+farmland.add(
+  <minecraft:farmland>,
+  <biomesoplenty:farmland_0:1>,
+  <biomesoplenty:farmland_0>,
+  <biomesoplenty:farmland_1>
+);
+
+<ore:pileDirt>.addItems([<contenttweaker:silty_dirt_pile>,<contenttweaker:loamy_dirt_pile>,<contenttweaker:sandy_dirt_pile>,<contenttweaker:aether_dirt_pile>]);
+
+
 <ore:blockGlass>.addItems([<iceandfire:myrmex_desert_resin_glass>,<iceandfire:myrmex_jungle_resin_glass>,<betternether:quartz_glass>,<betternether:quartz_glass_framed>,<betternether:quartz_stained_glass:*>,<betternether:quartz_stained_glass_framed:*>,<dungeontactics:dungeon_glass>,<quark:framed_glass>,<sereneseasons:greenhouse_glass>,<twilightforest:auroralized_glass>]);
 
 <ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
@@ -1404,7 +1437,7 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 <ore:refractoryBlock>.addItems([<contenttweaker:brick_pyrotech_refractory>,<ceramics:clay_barrel:*>,<ceramics:clay_barrel_stained:*>,<ceramics:clay_barrel_stained_extension:*>,<contenttweaker:refracotta>,<contenttweaker:refracotta_green>,<contenttweaker:refracotta_light_gray>,<contenttweaker:refracotta_light_blue>,<contenttweaker:refracotta_yellow>,<contenttweaker:refracotta_cyan>,<contenttweaker:refracotta_purple>,<contenttweaker:refracotta_pink>,<contenttweaker:refracotta_brown>,<contenttweaker:refracotta_magenta>,<contenttweaker:refracotta_lime>,<contenttweaker:refracotta_white>,<contenttweaker:refracotta_black>,<contenttweaker:refracotta_red>,<contenttweaker:refracotta_orange>,<contenttweaker:refracotta_blue>,<contenttweaker:refracotta_gray>,<pyrotech:refractory_door>,<pyrotech:refractory_glass>,<pyrotech:igniter:1>,<pyrotech:brick_tank>,<pyrotech:faucet_brick>,<pyrotech:tar_collector:1>,<pyrotech:tar_drain:1>]);
 
 val dirt = <ore:dirt>;
-dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>]);
+dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>,<minecraft:dirt:1>,<biomesoplenty:dirt:8>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>]);
 
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);

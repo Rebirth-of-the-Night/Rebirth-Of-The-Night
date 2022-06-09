@@ -30,12 +30,12 @@ JEI.removeAndHide(<netherex:black_salamander_hide_boots>);
 
 //removed or modified food
 JEI.removeAndHide(<mod_lavacow:netherstew>);
-JEI.removeAndHide(<mod_lavacow:canepork>);
 JEI.removeAndHide(<mod_lavacow:parasite_item_cooked>);
 JEI.removeAndHide(<mod_lavacow:mousse>);
 JEI.removeAndHide(<mod_lavacow:meatball>);
 JEI.removeAndHide(<mod_lavacow:moltenpan>);
 recipes.remove(<mod_lavacow:canebeef>);
+recipes.remove(<mod_lavacow:canepork>);
 recipes.remove(<mod_lavacow:sausage_roll>);
 recipes.remove(<mod_lavacow:canerottenmeat>);
 recipes.remove(<mod_lavacow:green_bacon_and_eggs>);
@@ -54,9 +54,11 @@ recipes.remove(<mod_lavacow:tooth_dagger>);
 JEI.removeAndHide(<mod_lavacow:holy_sludge>);
 JEI.removeAndHide(<mod_lavacow:potion_of_mooten_lava>);
 JEI.removeAndHide(<mod_lavacow:fissionpotion>);
+JEI.removeAndHide(<mod_lavacow:emblem_of_king>);
 recipes.remove(<mod_lavacow:halo_necklace>);
 recipes.remove(<mod_lavacow:dreamcatcher>);
 recipes.removeByRecipeName("mod_lavacow:leather");
+
 // THIS WOULD MAKE COOL ENDGAME LOOT OK I DON'T WANT TO JUST TRASH IT COMPLETELY
 JEI.removeAndHide(<mod_lavacow:goldenheart>);
 
@@ -90,6 +92,11 @@ oreMonsterTooth.addItems([<iceandfire:sea_serpent_fang>, <mowziesmobs:naga_fang>
 recipes.addShaped("canerotten", <mod_lavacow:canerottenmeat>,[
 	[<minecraft:reeds>, <harvestcraft:zombiejerkyitem>, null],
     [<harvestcraft:zombiejerkyitem>, <rats:herb_bundle>, null],
+]);
+
+recipes.addShaped("canepork", <mod_lavacow:canepork>,[
+	[<minecraft:bone>, <minecraft:cooked_porkchop>, null],
+    [<minecraft:cooked_porkchop>, <rats:herb_bundle>, null],
 ]);
 
 recipes.addShapeless("greeneggsham", <mod_lavacow:green_bacon_and_eggs>,[<mod_lavacow:plagued_porkchop>, <harvestcraft:friedeggitem>, <harvestcraft:friedeggitem>, <rats:herb_bundle>, <ore:listAllsugar>]);
@@ -204,7 +211,6 @@ RecipeBuilder.get("mage")
   .create();
 
 // halo necklace
-
 RecipeBuilder.get("mage")
   .setShaped([
     [<contenttweaker:vis_shard>, <bountifulbaubles:amuletcross>, <contenttweaker:vis_shard>],

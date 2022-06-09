@@ -163,9 +163,6 @@ waterQ.setCreativeTab(<creativetab:Dunamis>);
 waterQ.register();
 
 // arcane
-val spectralShard = VanillaFactory.createItem("spectral_shard");
-spectralShard.setCreativeTab(<creativetab:Dunamis>);
-spectralShard.register();
 
 // runes
 val balanceRune = VanillaFactory.createItem("balance_rune");

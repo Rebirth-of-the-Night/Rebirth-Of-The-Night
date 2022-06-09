@@ -38,6 +38,11 @@
       "text": "3. Lighting defensive fires around my dwelling as a monster deterrent. Some monsters may not be harmed by fire, so this shouldn't be relied upon all the time.$(br2)4. Starting a fire to clear out brush and foliage. I would have to be very careful however, as I can easily end up accidentally decimating the terrain and thus depriving myself of its natural resources."
     },
     {
+      "type": "crafting",
+      "recipe": "minecraft:torch",
+      "text": "Torches are also a great way of using fire - as a controlled environment for flames, they're the most practical way to light up dark spaces. And I'll probably be needing them soon..."
+    },
+    {
       "type": "relations",
       "entries": [
         "innovation/burn/cauldron",

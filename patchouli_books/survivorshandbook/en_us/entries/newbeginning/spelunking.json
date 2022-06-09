@@ -1,0 +1,63 @@
+{
+  "name": "Spelunking",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "survival_newbeginning",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:iron_pickaxe",
+      "title": "Spelunking & Mining",
+      "text": "The day is climbing by fast. I've gotten my basics covered at this point: food, crafting, and fire. Now, I need to start gathering more raw materials to arm myself with - these dinky stone tools won't last me very long.$(br2)It's time to head underground."
+    },
+    {
+      "type": "text",
+      "text": "Going beneath the surface isn't an exciting prospect. But, it's either face whatever dangers lurk underneath in the presence of daytime, or face the night practically naked. If I want to go down, I'll need my shield and weapon, pickaxe ready, and an ample supply of torches to light the way.$(br2)Dangers abound, but great reward awaits as well. I'll take note of important things."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:raw_copper",
+      "text": "Flimsy but plentiful, found often on exposed stone surfaces like cliffs or in the shallower levels of caves. Not much can be done with it; some basic tools and weapons, possibly. Perhaps I can refine or process it in some way? Regardless, I should collect all that I can find, in case it ends up being useful later."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:raw_tin",
+      "text": "A brittle, yet soft metal. Can be found in extremely packed amounts in certain areas. Even then, tin is probably even less useful than copper for making... any tools, really. But like with copper, tin may just need to be combined with the right processes..."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:raw_iron",
+      "text": "The crown jewel of any mining expedition (not literally). Extremely useful for both metalworking, general crafting, and making armor, tools, and weaponry. Can be further refined to extend its utility even more. It's so useful, in fact, that it can allow me to mine the ores on the next pages."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:raw_silver",
+      "text": "Shiny! Though it may look similar to iron, it is quite different from it in usage. Silver is reputed to have harmful qualities against the undead, making it perfect to fashion weapons with. Other than that, it's not quite as effective as iron for tools. I could also use it as a general metal for crafting."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:raw_gold",
+      "text": "All that glitters is not gold... but this certainly is. Gold is quite soft, so it's not the best material for making tools or armor. However, it likely has some conductive applications I can use for simple machinery and the like. It could also be used ornamentally."
+    },
+    {
+      "type": "spotlight",
+      "item": "rotn_blocks:wonder_geode",
+      "text": "A hard but porous stone that can drop an assortment of goodies when mined, found randomly in clusters within most caves. I'm not sure why these contain the things they do, but free resources are free resources."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:redstone",
+      "text": "This is a strange red material that powderizes upon mining. It seems to almost be 'alive', as it can light up and crackle when I step on its ore. I may be able to use this as an unusual source of power, or use it in more complex crafting. Peculiar stuff."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:dye:4",
+      "text": "A soft and deep blue stone. Hardly as practical as the previously listed metals, but I can see this being used as a colorful blue dyeing agent. I could probably find a few more niche purposes for it, but dyeing would seem to be the main one."
+    },
+    {
+      "type": "relations",
+      "entries": [
+      ]
+    }
+  ]
+}

@@ -173,22 +173,6 @@ recipes.addShaped("stone_dagger", <spartanweaponry:dagger_stone>,
 recipes.addShaped("flint_dagger", <spartanweaponry:dagger_stone>,
  [[flint],
   [handle]]);
-recipes.addShaped("stone_longsword", <spartanweaponry:longsword_stone>,
- [[null,stone,null],
-  [null,stone,null],
-  [stone,handle,stone]]);
-recipes.addShaped("flint_longsword", <spartanweaponry:longsword_stone>,
- [[null,flint,null],
-  [null,flint,null],
-  [flint,handle,flint]]);
-recipes.addShaped("stone_greatsword", <spartanweaponry:greatsword_stone>,
- [[null,stone,null],
-  [stone,stone,stone],
-  [stone,handle,stone]]);
-recipes.addShaped("flint_greatsword", <spartanweaponry:greatsword_stone>,
- [[null,flint,null],
-  [flint,flint,flint],
-  [flint,handle,flint]]);
 recipes.addShaped("stone_mallet", <spartanweaponry:hammer_stone>,
  [[stone,stone,stone],
   [stone,stone,stone],

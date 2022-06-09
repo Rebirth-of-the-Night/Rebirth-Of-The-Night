@@ -60,7 +60,7 @@ recipes.addHiddenShapeless("Kompy's Precursor", <contenttweaker:kompy_kott>,
 #Kantrip
 mods.betterwithaddons.Infuser.addShaped(<contenttweaker:kompy_kantrip>,[
 [null,<contenttweaker:creation_rune>.anyDamage().transformDamage(),null],
-[<contenttweaker:kompy_essence>,<contenttweaker:spectral_shard>,<contenttweaker:kompy_kott>],
+[<contenttweaker:kompy_essence>,<contenttweaker:vis_shard>,<contenttweaker:kompy_kott>],
 [null,<contenttweaker:fae_rune>.anyDamage().transformDamage(),null]], 210);
 
 recipes.addShapeless("Kantrip Effect", <biomesoplenty:flower_0:13>,
@@ -143,10 +143,10 @@ recipes.addHiddenShaped("tickywicky", <dungeontactics:terrible_feather>.withTag(
 ]);
 
 //Dev armor
-JEI.addDescription(<betterwithmods:wool_helmet>,"Has a 10% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer helmet, or recycle it into cut leather.");
-JEI.addDescription(<betterwithmods:wool_chest>,"Has a 10% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer chestplate, or recycle it into cut leather.");
-JEI.addDescription(<betterwithmods:wool_pants>,"Has a 10% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer leggings, or recycle it into cut leather.");
-JEI.addDescription(<betterwithmods:wool_boots>,"Has a 10% chance to drop from bosses and minibosses! Craft with cut tanned leather to get a blank developer boots, or recycle it into cut leather.");
+JEI.addDescription(<betterwithmods:wool_helmet>,"Has a 10% chance to drop from bosses and minibosses! Craft with tanned cut leather to get a blank developer helmet, or recycle it into cut leather.");
+JEI.addDescription(<betterwithmods:wool_chest>,"Has a 10% chance to drop from bosses and minibosses! Craft with tanned cut leather to get a blank developer chestplate, or recycle it into cut leather.");
+JEI.addDescription(<betterwithmods:wool_pants>,"Has a 10% chance to drop from bosses and minibosses! Craft with tanned cut leather to get blank developer leggings, or recycle it into cut leather.");
+JEI.addDescription(<betterwithmods:wool_boots>,"Has a 10% chance to drop from bosses and minibosses! Craft with tanned cut leather to get blank developer boots, or recycle it into cut leather.");
 <betterwithmods:wool_helmet>.addTooltip(format.red("Has a 10% chance to drop from bosses and minibosses!"));
 <betterwithmods:wool_chest>.addTooltip(format.red("Has a 10% chance to drop from bosses and minibosses!"));
 <betterwithmods:wool_pants>.addTooltip(format.red("Has a 10% chance to drop from bosses and minibosses!"));

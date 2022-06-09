@@ -18,7 +18,15 @@
     },
     {
       "type": "text",
-      "text": "$(br2) $(br2) $(br2)$(italics)$(#a84b0f)The day/night cycle in RotN is 40 minutes in real-time; 20 minutes of night and day, twice as long as vanilla Minecraft.$()"
+      "text": "$(italics)$(#a84b0f)The day/night cycle in RotN is 40 minutes in real-time; 20 minutes of night and day, twice as long as vanilla Minecraft.$()$(br2)It's time to get a move on. I don't have any means of transportation other than my own body: running, swimming and jumping will be necessary to navigate through this vast world.$(br2)$(italics)$(#a84b0f)You can sprint by double tapping W or doing Ctrl + W.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)Swim by pressing the same buttons as sprinting while underwater - this swimming is the same as in newer versions of Minecraft!$(br2)Go prone by pressing Z; press it again to stand up.$(br2)Sneak/crouch by pressing the left shift key; this will prevent you from falling off the edge of blocks.$(br2)Go into third person perspective with F5 and F6.$()"
+    },
+    {
+      "type": "text",
+      "text": "$(italics)$(#a84b0f)Dash by pressing ALT and the direction you want to go in. Dashing will be more or less effective depending on what armor you're wearing, and very slightly deplete your hunger. Dodge cooldown is indicated by the XP bar above your hotbar.$(br2)Do reacharound placement by crouching near a block's edge, and looking at the space under that block. Brackets [] will appear around your crosshair.$()"
     },
     {
       "type": "relations",

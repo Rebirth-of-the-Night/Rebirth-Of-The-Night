@@ -7,6 +7,8 @@ JEI.removeAndHide(<artisanworktables:toolbox>);
 JEI.removeAndHide(<artisanworktables:design_pattern>);
 JEI.removeAndHide(<artisanworkstumps:log_basin>);
 JEI.removeAndHide(<artisanworkstumps:stone_basin>);
+JEI.removeAndHide(<artisanworktables:artisans_lens_stone>);
+JEI.removeAndHide(<artisanworktables:artisans_quill_stone>);
 
 recipes.remove(<artisanworktables:artisans_lens_stone>);
 recipes.remove(<artisanworktables:artisans_lens_gold>);

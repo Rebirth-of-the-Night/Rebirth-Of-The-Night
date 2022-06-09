@@ -1201,9 +1201,6 @@ iceandfire:hydra_regen_head
 iceandfire:pixie_wand
 iceandfire:dread_lich_summon
 iceandfire:dread_ghoul_idle
-magma_monsters:magma_monster_living
-magma_monsters:magma_monster_hurt
-magma_monsters:magma_monster_death
 bettercombatmod:player.swordslash
 bettercombatmod:player.criticalstrike
 bettercombatmod:player.sword_sweep_left0
@@ -1254,6 +1251,9 @@ bettercombatmod:player.normal_swing_right3
 bettercombatmod:player.normal_swing_right4
 bettercombatmod:player.quick_swing_right0
 bettercombatmod:player.quick_swing_right1
+magma_monsters:magma_monster_living
+magma_monsters:magma_monster_hurt
+magma_monsters:magma_monster_death
 mowziesmobs:laser
 mowziesmobs:sunstrike
 mowziesmobs:wroughtnaut.preswing1

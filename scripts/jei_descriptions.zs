@@ -53,7 +53,7 @@ val pole = <spartanweaponry:material:1>;
 JEI.addDescription(handle,"Provides a good grip for more advanced weapons.");
 JEI.addDescription(pole,"A long stick that provides good grip.");
 
-JEI.addDescription(<atop:mud_helmet>,"Harder than iron, also... much cooler.");
+JEI.addDescription(<atop:mud_helmet>,"Harder than iron; also... much cooler.");
 JEI.addDescription(<atop:mud_chestplate>,"Much better than running around in a loincloth and a cape.");
 JEI.addDescription(<atop:mud_leggings>,"Harder than iron, with good ventilation.");
 JEI.addDescription(<atop:mud_boots>,"Not the most protective, but pretty comfortable and durable.");
@@ -175,7 +175,7 @@ JEI.addDescription(<pyrotech:anvil_granite>,"Pretty useful to bash or break item
 JEI.addDescription(<pyrotech:compacting_bin>,"Remove finished product using a shovel.");
 
 JEI.addDescription(woodChips, "This byproduct of wood can be just as useful as the base material in the hands of a resourceful carpenter.");
-JEI.addDescription(bark,"Woof! Obtained from chopping up logs, these are most useful for tanning leather.");
+JEI.addDescription(bark,"Woof! Obtained from stripping or sawing up logs, bark is most useful for tanning leather; however, it has plenty of other utility in resourceful hands.");
 JEI.addDescription(driedPlantFiber, "Small strands of dried fiber. Can be tied together for some string or better quality fiber.");
 JEI.addDescription(plantFiber, "Various high-quality plant material found by breaking different kinds of grass.");
 JEI.addDescription(hempFiber,"High quality fiber used in advanced recipes where string falls short; can be made by interlacing some plants.");
@@ -190,6 +190,7 @@ JEI.addDescription(ground_nether_dust, "The dust of dried, flesh-like rock. It i
 JEI.addDescription(<rustic:rope>, "Used for supporting various plants so that they can grow. Used with Crop Stakes. Refer to your Almanac for details.");
 JEI.addDescription(<rustic:crop_stake>, "Used for supporting various plants so that they can grow. Used with Agricultural Rope. Refer to your Almanac for details.");
 JEI.addDescription(expertly_crafted_arrow_head, "This arrow head is of an exquisite quality and was clearly made by the hand of someone who has dedicated their whole life to their profession. It may be used by an equally talented fletcher to make high grade arrows.");
+JEI.addDescription(<pyrotech:compost_bin>,"Composting is simple; fill up the composter with food you don't need, pour in a bit of water, and let time take care of the rest.");
 
 JEI.addDescription(<dungeontactics:engineers_wrench_iron>,"Used to rotate blocks, such as pistons or fans, and to reset triggered traps. Good for picking up redstone stuff and rails. Sneak & use on a trap plate to hide it.");
 JEI.removeAndHide(<base:wrench>);
@@ -266,7 +267,7 @@ JEI.addDescription(<minecraft:gunpowder>, "The central ingredient of most explos
 JEI.addDescription(<minecraft:skull:3>, "An old village legend claims that a golem named after a specific person carries a sliver of that person's soul… and those who practice forbidden arts can bring forth an echo of that soul to the physical realm. Named Snow Golems equipped with a pumpkin will drop a copy of that person's head if killed by a witch.");
 JEI.addDescription(<minecraft:dragon_breath>, "Acidic breath of the accursed beast, infused with the energy of a plane outside all else. Its lingering aura can even affect stone.");
 JEI.addDescription(<minecraft:blaze_rod>, "These stabilizing rods are used to neutralize the explosive elemental energy of a blaze. Even after being separated from their constructs, blaze rods are warm to the touch and make for a bizarre decoration if placed.");
-JEI.addDescription(<quark:tallow>,"Used for making candles or repairing basic gear in an iron anvil. Pigs are a good source of tallow; it can also be obtained by soaking rotten flesh in hot wood alcohol.");
+JEI.addDescription(<quark:tallow>,"Used for making candles or repairing basic gear in an iron anvil. Pigs are a good source of tallow; it can also be obtained by soaking rotten flesh in hot wood alcohol (aka methanol).");
 JEI.addDescription(<mod_lavacow:moltenbeef>,"Young Netherdrakes' first instinct is always to run, in order to keep out of their predators' reach. Adult Netherdrakes have no such instinct... because nothing messes with them.");
 JEI.addDescription(<mowziesmobs:glowing_jelly>,"Puffbulbs are particularly fragile creatures that sustain themselves by absorbing energy from a living mineral, surviving against all odds amidst the horrors of the Beneath.");
 JEI.addDescription(<mod_lavacow:dreamcatcher>,"If you sleep through the night with a dreamcatcher equipped or in your hand, there's a chance that a physical manifestation of your nightmares will be summoned when you awaken...");
@@ -317,14 +318,14 @@ JEI.addDescription(<aether_legacy:aerogel>, "Formed by attempting to pour lava b
 JEI.addDescription(<quark:black_ash>, "Foul essence! Decay can be felt being constantly expelled from these remains. A single layer of this dust under a solid material will prevent any living creature from appearing on top of that surface.");
 JEI.addDescription(<ore:blockCandle>, "An aesthetic alternative to torches. Will fall if their support is removed.");
 JEI.addDescription(<minecraft:torch>, "An adventurer's best friend. Most will rather delve into caves looking for mineral coal than assemble a charcoal production operation, especially those in dire situations. Other more powerful light sources include Glaretorches, Hanging Lights or Lanterns.");
-JEI.addDescription(<arcanearchives:quartz_sliver>, "A cheap alternative to torches obtained by punching blocks with radiant quartz.");
+JEI.addDescription(<arcanearchives:quartz_sliver>, "A cheap alternative to torches obtained by smashing radiant quartz against a hard surface.");
 JEI.addDescription(<simpleores:copper_block>, "Blocks of copper have the particularity of developing a crust or patina of a beautiful color similar to diamond; this natural feature can be prevented by coating it in wax.");
 
 /* Redstone, Automation and Functional Blocks */
 JEI.addDescription(<quark:ender_watcher>, "Redstone technology combined with the unblinking will of an Eye of Ender. Emits a redstone signal when looked at.");
 JEI.addDescription(<quark:gravisand>, "A peculiar substance with properties not even heard in tales of the fabled Aether. Will only fall when activated with redstone. If it is already in contact with the ground, the sand will instead float as if falling up.");
 JEI.addDescription(<quark:gold_button>, "Emits a signal for 2 ticks.");
-JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 seconds.");
+JEI.addDescription(<quark:iron_button>, "Emits a signal for 6 seconds, or 120 ticks.");
 JEI.addDescription(<quark:obsidian_pressure_plate>, "Will only trigger if a human walks over it. Perhaps humanity indeed carries the heaviest burden.");
 JEI.addDescription(<quark:redstone_inductor>, "Outputs a signal equal to the sum of its inputs. Can be locked with a comparator.");
 JEI.addDescription(<quark:redstone_randomizer>, "Outputs a signal to either the left or right.");
@@ -332,7 +333,7 @@ JEI.addDescription(<minecraft:compass>, "Sneak and right-click on a bed, beacon,
 JEI.addDescription(<betterwithmods:rope>, "A tough cord used in the construction of various components, or for pulling up Platforms in conjunction with a Pulley.");
 
 JEI.addDescription(<ceramics:unfired_clay:9>, "Clay plates are used as the base for all logic components.");
-JEI.addDescription(<contenttweaker:redstuff>, "A local blacksmith took some iron and mixed it with some copper. Failing to produce anything of use, they accidentally knocked over the container into their beloved redstone wiring. Shocked but amazed, the blacksmith discovered a potent alloy and trademarked it, RedStuff™. Still, no one knows how it works, but it's commonplace to see some laying around in one's home.");
+JEI.addDescription(<contenttweaker:redstuff>, "On a day long forgotten, a local blacksmith took some iron and mixed it with some copper. Failing to produce anything of use, they accidentally knocked over the container into their beloved redstone wiring. Shocked but amazed, the blacksmith discovered a potent alloy and trademarked it: RedStuff™. No one really knows how it works, but it's commonplace to see some laying around in one's home.");
 JEI.addDescription(<charset:stopwatch>, "A tool used to measure the time (in seconds) between two block updates. Use the stopwatch on the first block to be updated, then use the stopwatch on the second block to be updated. When the second block is updated, a display will appear above the second block showing the time difference between the block updates.");
 JEI.addDescription(<charset:signal_meter>, "A tool used to measure the power of signals in cables and gates. Hold the signal meter and look at the power source to display the power level. The meter also works on the individual parts of gates!");
 JEI.addDescription(<charset:logic_gate>.withTag({logic: "simplelogic:nor", li: 1 as byte}), "A simple component that outputs a signal if any of its inputs are on. It has 3 inputs and 1 output.");
@@ -475,15 +476,14 @@ val lodestone = <dungeontactics:mithril_block>;
 
 JEI.addDescription(arcanePortal,"Getting past these will take you to places...");
 JEI.addDescription(arcaneBarrier,"Getting past these will take you to dark places...");
-JEI.addDescription(dummy_fire,"Fire! Once thought to be the case, there is now no certainty that humans were the first civilization to conquer this force of nature; but they are still just as good making the most out of it as ever. Ignite a surface using a hand drill, a flint and steel, a fire charge or more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
+JEI.addDescription(dummy_fire,"Fire! Once thought to be the case, there is now no certainty that humans were the first civilization to conquer this force of nature, but they are still just as good making the most out of it as ever. Ignite a flame using a hand drill, a flint and steel, a fire charge... or more obscure methods. More often than not, fire is best used in controlled environments, like torches, campfires and furnaces.");
 JEI.addDescription(lodestone, "Mysterious stones with magnetic properties buried in cold long ago. Mining it makes you feel funny...");
 JEI.addDescription(<contenttweaker:scaffolding>, "A rickety building material thrown together by monsters who are smarter than they seem. Easily cleared away. Breaks down over time.");
 
 /* Runes and Magic */
-JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item in an iron anvil to change the item's glow color.");
+JEI.addDescription(<quark:rune:*>, "An aesthetic rune used to color items. Combine with an enchanted item in an iron anvil to change the item's glint color.");
 
 JEI.addDescription(<dungeontactics:magic_scroll>,"Wands contain potent magic, ready to be released on a mage's command. A magical powder is required to power the wand. Scholars can find more knowledge in the 'Magic' section of the guidebook.");
-JEI.addItem(<contenttweaker:spectral_shard>);
 
 JEI.addDescription(<dungeontactics:magic_powder>, "Powder containing magic obtained from various sources. This magical material is needed to cast powerful spells from wands.");
 
