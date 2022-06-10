@@ -104,6 +104,7 @@ recipes.remove(<betterwithmods:donut>);
 JEI.removeAndHide(<betterwithmods:donut>);
 Cauldron.remove([<betterwithmods:donut>]);
 recipes.removeByRecipeName("betterwithmods:blocks/blood_plank");
+recipes.removeByRecipeName("betterwithmods:piles/sand_1");
 
 recipes.removeByRecipeName("betterwithmods:piles/dirt_slab_0");
 JEI.removeAndHide(<betterwithmods:infernal_enchanter>);
@@ -203,6 +204,7 @@ var tanned_hide = <ore:hideTanned>;
 var paper = <ore:paper>;
 var spring = <betterwithmods:material:49>;
 val bark_strips = <primallib:bark_strips_generic>;
+
 // guide
 recipes.remove(<betterwithmods:manual>);
 recipes.addShaped("the_book_of_single", <betterwithmods:manual>, [

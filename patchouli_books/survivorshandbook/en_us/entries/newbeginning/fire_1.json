@@ -1,5 +1,5 @@
 {
-  "name": "Fire",
+  "name": "Fire: Igniting",
   "icon": "contenttweaker:fire_block",
   "category": "survival_newbeginning",
   "sortnum": 7,
@@ -7,6 +7,7 @@
     {
       "type": "spotlight",
       "item": "contenttweaker:fire_block",
+      "title": "Fire: Igniting",
       "text": "Fire, the jumpstarter of civilization.$(br2)There is no end to the utility of fire, so I must also have many ways to go about starting fires as well if I am to survive in any environment.$(br2)Here, I have noted a few methods of creating fire:"
     },
     {

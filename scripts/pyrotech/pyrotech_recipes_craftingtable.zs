@@ -271,7 +271,7 @@ recipes.addShaped("iron_sledgehammer", <pyrotech:iron_hammer>,
   [<ore:ingotIron>,<ore:stickWood>,<ore:ingotIron>],
   [null,<ore:stickWood>,null]]);
 recipes.addShaped("steel_sledgehammer", <pyrotech:flint_hammer>,
- [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+ [[<ore:ingotSteel>,<ore:stickWood>,<ore:ingotSteel>],
   [<ore:ingotSteel>,<ore:stickWood>,<ore:ingotSteel>],
   [null,<ore:stickWood>,null]]);
 recipes.addShaped("mythril_sledgehammer", <pyrotech:bone_hammer>,

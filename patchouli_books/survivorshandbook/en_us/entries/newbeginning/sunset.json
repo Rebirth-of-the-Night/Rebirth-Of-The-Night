@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "spotlight",
-      "item": "contenttweaker:brick_minecraft_clay",
+      "item": "minecraft:torch",
       "title": "Sunset",
       "text": "It looks like the sun is finally setting. I should begin preparing to hunker down for the night... that uneasy feeling is coming up again.$(br2)My dwelling for tonight won't be pretty, and could very well be vulnerable anyways, but something is always better than nothing."
     },

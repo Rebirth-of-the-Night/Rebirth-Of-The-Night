@@ -9,7 +9,6 @@ Explosions from Fire Creepers cause much fire and may result in item loss.
 Breaking or placing blocks and making loud noises can attract monsters. Look out for blood stains too.
 Many monsters investigate or even break light sources if they are close enough.
 Take time to stash your food. Most crops won't grow during the winter!
-Are your trees are giving few seeds? Seasons affect their droprate!
 Blood moons are rare, but very dangerous!
 Monsters lead invasions every 7-10 nights!
 The Arcane Barrier separates the Beneath and the Overworld.
@@ -138,7 +137,6 @@ If you are having difficulty with the modpack, try getting better at the game!
 Many elixirs and potions can be made before entering the Nether!
 When you die, dropped items won't despawn!
 Ancestral spirits can be obtained by using bottles of spirits on soul sand.
-Many items have information tabs that display lore, extra details, or hints on how to use them.
 Revenant-like and ghost-like undead drops spirits on death. The latter's spirits last much longer in the world.
 Beware of the huge axe-wielding wroughtnaught underground, he WILL one shot you.
 Did You Know? You can move using the WASD keys.

@@ -72,6 +72,10 @@ JEI.removeAndHide(<bountiful:bounty>);
 JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
 JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
 JEI.removeAndHide(<customdisc:sussy>);
+JEI.removeAndHide(<customdisc:alvae>);
+JEI.removeAndHide(<customdisc:alpha>);
+JEI.removeAndHide(<customdisc:aceltictale>);
+JEI.removeAndHide(<customdisc:signal>);
 <ore:blockMossy>.addItems([<minecraft:mossy_cobblestone>]);
 JEI.removeAndHide(<forge:bucketfilled:*>);
 JEI.removeAndHide(<aether_legacy:skyroot_bucket:1>);
@@ -229,12 +233,14 @@ for rawOreBlock, rawOre in rtb {
 
 // rocks/piles to cobble/blocks and viceversa 
 var ctr as IItemStack[IItemStack] = {
+  <minecraft:dirt> : <betterwithmods:dirt_pile>,
   <biomesoplenty:dirt:2> : <contenttweaker:silty_dirt_pile>,
   <biomesoplenty:dirt> : <contenttweaker:loamy_dirt_pile>,
   <biomesoplenty:dirt:1> : <contenttweaker:sandy_dirt_pile>,
   <defiledlands:dirt_defiled> : <contenttweaker:defiled_dirt_pile>,
   <aether_legacy:aether_dirt> : <contenttweaker:aether_dirt_pile>,
   <minecraft:sand> : <betterwithmods:sand_pile>,
+  <minecraft:sand:1> : <betterwithmods:red_sand_pile>,
   <minecraft:gravel> : <betterwithmods:gravel_pile>,
   <minecraft:soul_sand> : <betterwithaddons:soulsand_pile>,
   <minecraft:cobblestone> : <pyrotech:rock>,

@@ -87,6 +87,7 @@ recipes.remove(<quark:world_stone_bricks:2>);
 recipes.remove(<quark:world_stone_bricks:1>);
 recipes.remove(<quark:world_stone_bricks>);
 recipes.removeByRecipeName("earthworks:block_sand");
+recipes.removeByRecipeName("earthworks:block_dirt");
 
 val clay = <minecraft:clay_ball>;
 val cob = <earthworks:block_cob>;

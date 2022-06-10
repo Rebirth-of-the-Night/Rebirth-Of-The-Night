@@ -6,7 +6,7 @@
   "pages": [
 	{
       "type": "text",
-      "text": "The pied piper is an unusual illager who has found a way to tame, control, and weaponize... rats?$(br2)Strangely, yes. But it's no joke. The pied piper's flute sends their rats into a vicious frenzy towards their target; the piper must die for the rats to disperse. Luckily, pipers don't make their flute very subtle."
+      "text": "The pied piper is an unusual illager who has found a way to tame, control, and weaponize... rats?$(br2)Strangely, yes. But it's no joke. The pied piper's flute sends their rats into a vicious frenzy towards their target; the piper must die for the rats to disperse. Luckily, pipers don't play the flute very quietly."
     },
     {
       "type": "entity",

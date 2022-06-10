@@ -86,7 +86,12 @@ JEI.removeAndHide(<pyrotech_compat:rock_sedimentary_sand:12>); #lignite sandston
 #greywacke sandstone rock: currently used as itself
 #chert sandstone rock: currently used as holystone rock
 
-CompactingBin.addRecipe("dirt_from_pile", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4, true);
+CompactingBin.addRecipe("dirt_from_clump", <minecraft:dirt>, <betterwithmods:dirt_pile>, 4, true);
+CompactingBin.addRecipe("sandy_dirt_from_clump", <biomesoplenty:dirt:1>, <contenttweaker:sandy_dirt_pile>, 4, true);
+CompactingBin.addRecipe("silty_dirt_from_clump", <biomesoplenty:dirt:2>, <contenttweaker:silty_dirt_pile>, 4, true);
+CompactingBin.addRecipe("loamy_dirt_from_clump", <biomesoplenty:dirt>, <contenttweaker:loamy_dirt_pile>, 4, true);
+CompactingBin.addRecipe("defiled_dirt_from_clump", <defiledlands:dirt_defiled>, <contenttweaker:defiled_dirt_pile>, 4, true);
+CompactingBin.addRecipe("aether_dirt_from_clump", <aether_legacy:aether_dirt>, <contenttweaker:aether_dirt_pile>, 4, true);
 CompactingBin.addRecipe("rammed_from_dirt", <contenttweaker:rammed_earth_vanilla_dirt>, <minecraft:dirt>, 3, true);
 CompactingBin.addRecipe("rammed_from_loamy", <contenttweaker:rammed_earth_loamy_dirt>, <biomesoplenty:dirt:0>, 3, true);
 CompactingBin.addRecipe("rammed_from_sandy", <contenttweaker:rammed_earth_sandy_dirt>, <biomesoplenty:dirt:1>, 3, true);

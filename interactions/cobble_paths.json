@@ -160,5 +160,86 @@
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "5"
+  },
+  {
+    "targetBlock": "pyrotech:cobblestone:0",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_coade",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:0",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_red_granite",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:1",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_black_granite",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:2",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_rhyolite",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:3",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_andesite",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:4",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_gabbro",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:5",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_basalt",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:6",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_komatiite",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
+  },
+  {
+    "targetBlock": "undergroundbiomes:igneous_cobble:7",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "contenttweaker:cobblestone_path_dacite",
+    "damage": "1",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "5"
   }
 ]
