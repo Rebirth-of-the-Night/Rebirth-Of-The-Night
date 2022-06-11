@@ -66,11 +66,16 @@ JEI.removeAndHide(<minecraft:end_portal_frame>);
 JEI.removeAndHide(<minecraft:anvil:2>);
 JEI.removeAndHide(<minecraft:anvil:1>);
 JEI.removeAndHide(<minecraft:chorus_plant>);
+JEI.removeAndHide(<bountiful:bounty>);
 
 // Misc. stuff
 JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
 JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
 JEI.removeAndHide(<customdisc:sussy>);
+JEI.removeAndHide(<customdisc:alvae>);
+JEI.removeAndHide(<customdisc:alpha>);
+JEI.removeAndHide(<customdisc:aceltictale>);
+JEI.removeAndHide(<customdisc:signal>);
 <ore:blockMossy>.addItems([<minecraft:mossy_cobblestone>]);
 JEI.removeAndHide(<forge:bucketfilled:*>);
 JEI.removeAndHide(<aether_legacy:skyroot_bucket:1>);
@@ -582,6 +587,8 @@ for i, dirt in coarseDirtArray {
 // Bucket Recipes
 var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
 var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
+var claybucket = <pyrotech:bucket_clay>.withTag({durability: 52, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_clay>);
+var woodbucket = <pyrotech:bucket_wood>.withTag({durability: 12, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_wood>);
 
 recipes.removeByRecipeName("minecraft:cauldron");
 recipes.addShaped("cauldron",<minecraft:cauldron>,[
@@ -603,6 +610,12 @@ recipes.addShapeless("sand_from_dried_sand_quality",<minecraft:sand>,[
 ]);
 recipes.addShapeless("sand_from_dried_sand_flimsy",<minecraft:sand>,[
     <biomesoplenty:dried_sand>, qualitybucket
+]);
+recipes.addShapeless("sand_from_dried_sand_clay",<minecraft:sand>,[
+    <biomesoplenty:dried_sand>, claybucket
+]);
+recipes.addShapeless("sand_from_dried_sand_wooden",<minecraft:sand>,[
+    <biomesoplenty:dried_sand>, woodbucket
 ]);
 
 recipes.removeByRecipeName("animania:salt_lick_0");
@@ -1388,6 +1401,32 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
 
+
+val defileableGrass = <ore:defileableGrass>;
+defileableGrass.add(
+  <minecraft:grass>,
+  <biomesoplenty:grass:3>,
+  <biomesoplenty:grass:4>,
+  <biomesoplenty:grass:2>,
+  <biomesoplenty:grass:7>,
+  <aether_legacy:aether_grass>,
+  <minecraft:grass_path>,
+  <biomesoplenty:grass_path:2>,
+  <biomesoplenty:grass_path:1>,
+  <biomesoplenty:grass_path>
+);
+
+val farmland = <ore:farmland>;
+farmland.add(
+  <minecraft:farmland>,
+  <biomesoplenty:farmland_0:1>,
+  <biomesoplenty:farmland_0>,
+  <biomesoplenty:farmland_1>
+);
+
+<ore:pileDirt>.addItems([<contenttweaker:silty_dirt_pile>,<contenttweaker:loamy_dirt_pile>,<contenttweaker:sandy_dirt_pile>,<contenttweaker:aether_dirt_pile>]);
+
+
 <ore:blockGlass>.addItems([<iceandfire:myrmex_desert_resin_glass>,<iceandfire:myrmex_jungle_resin_glass>,<betternether:quartz_glass>,<betternether:quartz_glass_framed>,<betternether:quartz_stained_glass:*>,<betternether:quartz_stained_glass_framed:*>,<dungeontactics:dungeon_glass>,<quark:framed_glass>,<sereneseasons:greenhouse_glass>,<twilightforest:auroralized_glass>]);
 
 <ore:grass>.addItems([<minecraft:grass_path>,<aether_legacy:aether_grass>,<aether_legacy:enchanted_aether_grass>,<betterwithaddons:extra_grass:0>,<betterwithaddons:extra_grass:1>,<betterwithaddons:extra_grass:2>,<betterwithaddons:extra_grass:3>,<biomesoplenty:grass:1>,<biomesoplenty:grass:2>,<biomesoplenty:grass:3>,<biomesoplenty:grass:4>,<biomesoplenty:grass:5>,<biomesoplenty:grass:6>,<biomesoplenty:grass:7>,<biomesoplenty:grass:8>,<biomesoplenty:grass_path:0>,<stygian:endgrass>]);
@@ -1404,7 +1443,7 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 <ore:refractoryBlock>.addItems([<contenttweaker:brick_pyrotech_refractory>,<ceramics:clay_barrel:*>,<ceramics:clay_barrel_stained:*>,<ceramics:clay_barrel_stained_extension:*>,<contenttweaker:refracotta>,<contenttweaker:refracotta_green>,<contenttweaker:refracotta_light_gray>,<contenttweaker:refracotta_light_blue>,<contenttweaker:refracotta_yellow>,<contenttweaker:refracotta_cyan>,<contenttweaker:refracotta_purple>,<contenttweaker:refracotta_pink>,<contenttweaker:refracotta_brown>,<contenttweaker:refracotta_magenta>,<contenttweaker:refracotta_lime>,<contenttweaker:refracotta_white>,<contenttweaker:refracotta_black>,<contenttweaker:refracotta_red>,<contenttweaker:refracotta_orange>,<contenttweaker:refracotta_blue>,<contenttweaker:refracotta_gray>,<pyrotech:refractory_door>,<pyrotech:refractory_glass>,<pyrotech:igniter:1>,<pyrotech:brick_tank>,<pyrotech:faucet_brick>,<pyrotech:tar_collector:1>,<pyrotech:tar_drain:1>]);
 
 val dirt = <ore:dirt>;
-dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>]);
+dirt.addItems([<biomesoplenty:dirt:1>,<biomesoplenty:dirt:2>,<aether_legacy:aether_dirt>,<minecraft:dirt:1>,<biomesoplenty:dirt:8>,<biomesoplenty:dirt:10>,<biomesoplenty:dirt:9>]);
 
 val wool = <ore:wool>;
 wool.remove(<minecraft:wool>);
@@ -1936,12 +1975,6 @@ recipes.addShaped(<pyrotech:refractory_brick_block>*8,[
 // removes block to brick furnace recipes:
 furnace.remove(<minecraft:netherbrick>);
 
-// solve wrought iron bar recipe conflict
-recipes.remove(<minecraft:iron_bars>);
-recipes.addShaped(<minecraft:iron_bars> * 16, [
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
 
 // ContentTweaker extra blocks recipes
 // All Lunarin bricks
@@ -1950,52 +1983,52 @@ recipes.remove(<villagenames:lunarinironbrick>);
 recipes.removeByRecipeName("villagenames:lunaringoldbrick_toingots");
 recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 
-recipes.addShaped("lunarin_iron", <villagenames:lunarinironbrick>*20, [
+recipes.addShaped("lunarin_iron", <villagenames:lunarinironbrick>*24, [
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-    [<ore:ingotIron>, null, <ore:ingotIron>]
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
 recipes.addShapeless("ae_iron_bricks", <aesthetics:iron_bricks>, 
     [<villagenames:lunarinironbrick>]
 );
-recipes.addShaped("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*20, [
+recipes.addShaped("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*24, [
     [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-    [<ore:ingotBronze>, null, <ore:ingotBronze>]
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
 ]);
-recipes.addShaped("lunarin_silver", <contenttweaker:lunarinsilverbrick>*20, [
+recipes.addShaped("lunarin_silver", <contenttweaker:lunarinsilverbrick>*24, [
     [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
-    [<ore:ingotSilver>, null, <ore:ingotSilver>]
+    [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]
 ]);
-recipes.addShaped("lunarin_gold", <villagenames:lunaringoldbrick>*20, [
+recipes.addShaped("lunarin_gold", <villagenames:lunaringoldbrick>*24, [
     [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [<ore:ingotGold>, null, <ore:ingotGold>]
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 ]);
-recipes.addShaped("lunarin_viridium", <contenttweaker:lunarinviridiumbrick>*20, [
+recipes.addShaped("lunarin_viridium", <contenttweaker:lunarinviridiumbrick>*24, [
     [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>],
-    [<ore:ingotViridium>, null, <ore:ingotViridium>]
+    [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>]
 ]);
-recipes.addShaped("lunarin_mythril", <contenttweaker:lunarinmythrilbrick>*20, [
+recipes.addShaped("lunarin_mythril", <contenttweaker:lunarinmythrilbrick>*24, [
     [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>],
-    [<ore:ingotMythril>, null, <ore:ingotMythril>]
+    [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>]
 ]);
-recipes.addShaped("lunarin_endorium", <contenttweaker:lunarinendoriumbrick>*20, [
+recipes.addShaped("lunarin_endorium", <contenttweaker:lunarinendoriumbrick>*24, [
     [<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>],
-    [<ore:ingotEndorium>, null, <ore:ingotEndorium>]
+    [<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>]
 ]);
-recipes.addShaped("lunarin_steel", <contenttweaker:lunarinsteelbrick>*20, [
+recipes.addShaped("lunarin_steel", <contenttweaker:lunarinsteelbrick>*24, [
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:ingotSteel>, null, <ore:ingotSteel>]
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
-mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:lunarinsfsbrick>*20, [
-    [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>], 
-    [<ore:ingotSoulforgedSteel>, null, <ore:ingotSoulforgedSteel>]
+mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:lunarinsfsbrick>*24, [
+    [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>], 
+    [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>]
 ]);
-recipes.addShaped("lunarin_crystal_heart", <contenttweaker:lunarinheartbrick>*20, [
+recipes.addShaped("lunarin_crystal_heart", <contenttweaker:lunarinheartbrick>*24, [
     [<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>], 
-    [<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>]
+    [<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>]
 ]);
-recipes.addShaped("lunarin_fiery", <contenttweaker:lunarinfierybrick>*20, [
+recipes.addShaped("lunarin_fiery", <contenttweaker:lunarinfierybrick>*24, [
     [<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>], 
-    [<ore:ingotFiery>, null, <ore:ingotFiery>]
+    [<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
 ]);
 // Farlander
 recipes.addShaped("farlander_exorite", <contenttweaker:farlanderexoritebrick>*24, [
@@ -2642,3 +2675,10 @@ JEI.removeAndHide(<contenttweaker:clover_4_block>);
 
 recipes.addShapeless("dragon_scale_convert1", <endreborn:dragon_scales>, [<quark:enderdragon_scale>]);
 recipes.addShapeless("dragon_scale_convert2", <quark:enderdragon_scale>, [<endreborn:dragon_scales>]);
+
+// solve wrought iron bar recipe conflict
+recipes.remove(<minecraft:iron_bars>);
+recipes.addShaped(<minecraft:iron_bars> * 16, [
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
