@@ -69,7 +69,7 @@ Crucible.addStoked(
 // Normal Wrought Iron 
 Crucible.addUnstoked(
     [
-        <ore:ingotIron>|<ore:dustIron>,
+        <minecraft:iron_ingot>|<ore:dustIron>,
         <pyrotech_compat:rock_igneous_sand:9>
     ],
     [
@@ -79,7 +79,7 @@ Crucible.addUnstoked(
 // Stoked Wrought Iron
 Crucible.addStoked(
     [
-        <ore:rawOreIron>|<ore:ingotIron>|<ore:dustIron>,
+        <ore:rawOreIron>|<minecraft:iron_ingot>|<ore:dustIron>,
         <pyrotech_compat:rock_igneous_sand:9>
     ],
     [
