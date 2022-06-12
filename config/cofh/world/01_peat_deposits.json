@@ -23,9 +23,9 @@
 					"name": "biomesoplenty:dirt"
 					}
 				],
-				"cluster-size": 18
+				"cluster-size": 26
 			},
-			"cluster-count": 3,
+			"cluster-count": 2,
 			"chunk-chance": 6,
 			"biome": {
 				"restriction": "whitelist",
