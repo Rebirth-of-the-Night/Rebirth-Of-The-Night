@@ -166,7 +166,7 @@
     "nbt": {
       "CustomName": "\u00A76Beefy Skydrake",
       "Attributes": [
-        { "Name": "generic.maxHealth", "Base": 200 }
+        { "Name": "generic.maxHealth", "Base": 100 }
       ],
       "Health": 200
     }
