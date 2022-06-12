@@ -62,7 +62,7 @@ for w, weapon in rubyweps{
 }
 
 <atop:peridot_sword:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
-<atop:peridot_sword:*>.addTooltip(format.darkGreen("+1015% Move Speed"));
+<atop:peridot_sword:*>.addTooltip(format.darkGreen("+10% Move Speed"));
 <atop:peridot_sword:*>.addTooltip(format.darkGreen("+5% Damage Resistance"));
 <atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+25% Dig Speed"));
 <atop:peridot_pickaxe:*>.addTooltip(format.darkGreen("+10% Move Speed"));
