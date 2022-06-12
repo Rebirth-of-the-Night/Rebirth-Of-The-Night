@@ -544,6 +544,14 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 
 <dungeontactics:ducttape:*>.addTooltip("Right click with a damaged item in your off-hand to restore some durability.");
 
+// Category: ware
+<minecraft:compass>.addShiftTooltip(format.yellow("Item Category:") + format.gray(" Informational"));
+<naturescompass:naturescompass>.addShiftTooltip(format.yellow("Item Category:") + format.gray(" Informational"));
+<quark:soul_compass>.addShiftTooltip(format.yellow("Item Category:") + format.gray(" Informational"));
+<minecraft:clock>.addShiftTooltip(format.yellow("Item Category:") + format.gray(" Informational"));
+<sereneseasons:season_clock>.addShiftTooltip(format.yellow("Item Category:") + format.gray(" Informational"));
+<antiqueatlas:empty_antique_atlas>.addShiftTooltip(format.yellow("Item Category:") + format.gray(" Informational"));
+
 // Plants
 <betterwithmods:hemp:*>.addTooltip("Fertile Seasons:");
 <betterwithmods:hemp:*>.addTooltip(format.lightPurple("Year-Round"));
