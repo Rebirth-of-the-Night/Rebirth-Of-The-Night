@@ -406,7 +406,7 @@
               },
               {
                 "id": "darkskies.skydrake",
-                "count": [ 2 ],
+                "count": [ 1 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -469,7 +469,7 @@
             "mobs": [
               {
                 "id": "darkskies.skydrake",
-                "count": [ 4 ],
+                "count": [ 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -721,7 +721,7 @@
               },
               {
                 "id": "darkskies.skydrake",
-                "count": [ 3 ],
+                "count": [ 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
@@ -838,7 +838,7 @@
               },
               {
                 "id": "darkskies.skydrake",
-                "count": [ 3 ],
+                "count": [ 2 ],
                 "spawn": {
                   "type": "air",
                   "light": [
