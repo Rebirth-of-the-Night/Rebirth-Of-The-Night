@@ -3,7 +3,8 @@
   "defaults": {
     "textures": {
       "brick": "aether_legacy:blocks/holystone_brick",
-	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_grayish2"
+	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_grayish2",
+	  "particle": "aether_legacy:blocks/holystone_brick"
     },
     "model": "contenttweaker:loose_bricks",
     "uvlock": true,

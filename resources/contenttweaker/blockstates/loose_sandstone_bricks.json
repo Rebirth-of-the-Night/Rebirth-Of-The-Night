@@ -3,7 +3,8 @@
   "defaults": {
     "textures": {
       "brick": "quark:blocks/sandstone_bricks",
-	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_yellowish"
+	  "overlay": "contenttweaker:blocks/loose_bricks/brick_overlay_yellowish",
+	  "particle": "quark:blocks/sandstone_bricks"
     },
     "model": "contenttweaker:loose_bricks",
     "uvlock": true,

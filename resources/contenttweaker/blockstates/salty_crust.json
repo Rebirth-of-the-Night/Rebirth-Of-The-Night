@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "all": "contenttweaker:blocks/salty_crust",
-      "particle": "earthworks:blocks/salty_crust"
+      "particle": "contenttweaker:blocks/salty_crust"
     },
     "model": "contenttweaker:base_block",
     "uvlock": true,
