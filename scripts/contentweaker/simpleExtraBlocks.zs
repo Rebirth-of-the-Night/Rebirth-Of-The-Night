@@ -590,58 +590,71 @@ brass_plate.register();
 // Bronze
 var lunarin = VanillaFactory.createBlock("lunarinbronzebrick", <blockmaterial:Iron>);
 lunarin.setCreativeTab(<creativetab:buildingBlocks>);
+lunarin.setBlockHardness(15);
 lunarin.register();
 // Silver
 var silverlunarin = VanillaFactory.createBlock("lunarinsilverbrick", <blockmaterial:Iron>);
 silverlunarin.setCreativeTab(<creativetab:rotn_blocks>);
+silverlunarin.setBlockHardness(15);
 silverlunarin.register();
 // Viridium
 var viridiumlunarin = VanillaFactory.createBlock("lunarinviridiumbrick", <blockmaterial:Iron>);
 viridiumlunarin.setCreativeTab(<creativetab:rotn_blocks>);
+viridiumlunarin.setBlockHardness(20);
 viridiumlunarin.setToolLevel(1);
 viridiumlunarin.register();
 // Mythril
 var mythrillunarin = VanillaFactory.createBlock("lunarinmythrilbrick", <blockmaterial:Iron>);
 mythrillunarin.setCreativeTab(<creativetab:rotn_blocks>);
+mythrillunarin.setBlockHardness(25);
 mythrillunarin.setToolLevel(2);
 mythrillunarin.register();
 // Endorium
 var endoriumlunarin = VanillaFactory.createBlock("lunarinendoriumbrick", <blockmaterial:Iron>);
 endoriumlunarin.setCreativeTab(<creativetab:rotn_blocks>);
+endoriumlunarin.setBlockHardness(15);
 endoriumlunarin.register();
 // Hearth
 var heartlunarin = VanillaFactory.createBlock("lunarinheartbrick", <blockmaterial:Iron>);
 heartlunarin.setCreativeTab(<creativetab:rotn_blocks>);
+heartlunarin.setBlockHardness(15);
 heartlunarin.register();
 // Ice Dragon Steel
 var icelunarin = VanillaFactory.createBlock("lunarinicebrick", <blockmaterial:Iron>);
 icelunarin.setCreativeTab(<creativetab:rotn_blocks>);
+icelunarin.setBlockHardness(40);
 icelunarin.register();
 // Fire Dragon Steel
 var firelunarin = VanillaFactory.createBlock("lunarinfirebrick", <blockmaterial:Iron>);
 firelunarin.setCreativeTab(<creativetab:rotn_blocks>);
+fierylunarin.setBlockHardness(40);
 firelunarin.register();
 // Fiery Metal
 var fierylunarin = VanillaFactory.createBlock("lunarinfierybrick", <blockmaterial:Iron>);
 fierylunarin.setCreativeTab(<creativetab:rotn_blocks>);
+fierylunarin.setBlockHardness(15);
 fierylunarin.register();
 // Knight Metal
 var knightlunarin = VanillaFactory.createBlock("lunarinknightbrick", <blockmaterial:Iron>);
 knightlunarin.setCreativeTab(<creativetab:rotn_blocks>);
+knightlunarin.setBlockHardness(15);
 knightlunarin.register();
 // Steel
 var steellunarin = VanillaFactory.createBlock("lunarinsteelbrick", <blockmaterial:Iron>);
 steellunarin.setCreativeTab(<creativetab:rotn_blocks>);
 steellunarin.setToolLevel(2);
+steellunarin.setBlockHardness(25);
 steellunarin.register();
 // Sfs
 var sfslunarin = VanillaFactory.createBlock("lunarinsfsbrick", <blockmaterial:Iron>);
 sfslunarin.setCreativeTab(<creativetab:rotn_blocks>);
-sfslunarin.register();
 sfslunarin.setToolLevel(3);
+sfslunarin.setBlockHardness(40);
+sfslunarin.register();
 // Mediterranean lunarin mama mia brick block
 var BBlunarin = VanillaFactory.createBlock("baguettebrick", <blockmaterial:Rock>);
 BBlunarin.setCreativeTab(<creativetab:rotn_blocks>);
+BBlunarin.setBlockHardness(25);
 BBlunarin.register();
 
 // Farlander Style
@@ -649,16 +662,19 @@ BBlunarin.register();
 var exoritefarlander = VanillaFactory.createBlock("farlanderexoritebrick", <blockmaterial:Iron>);
 exoritefarlander.setCreativeTab(<creativetab:rotn_blocks>);
 exoritefarlander.setBlockSoundType(<soundtype:glass>);
+exorite.setBlockHardness(40);
 exoritefarlander.register();
 // zanite
 var zanitefarlander = VanillaFactory.createBlock("farlanderzanitebrick", <blockmaterial:Iron>);
 zanitefarlander.setCreativeTab(<creativetab:rotn_blocks>);
 zanitefarlander.setBlockSoundType(<soundtype:glass>);
+zanitefarlander.setBlockHardness(20);
 zanitefarlander.register();
 // diamond
 var diamondfarlander = VanillaFactory.createBlock("farlanderdiamondbrick", <blockmaterial:Iron>);
 diamondfarlander.setCreativeTab(<creativetab:rotn_blocks>);
 diamondfarlander.setBlockSoundType(<soundtype:glass>);
+diamondfarlander.setBlockHardness(20);
 diamondfarlander.register();
 
 // Storage blocks

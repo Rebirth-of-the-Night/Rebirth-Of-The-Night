@@ -482,6 +482,8 @@ recipes.addShaped("season_sensor",<sereneseasons:season_sensor_spring>,[
     [<ore:stoneSlab>,<ore:stoneSlab>,<ore:stoneSlab>]
 ]);
 
+val visSpeck = <contenttweaker:vis_speck>;
+
 recipes.remove(<sereneseasons:greenhouse_glass>);
 RecipeBuilder.get("mage")
   .setName("botanic_glass")
@@ -495,7 +497,7 @@ RecipeBuilder.get("mage")
   .setName("botanic_glass_x4")
   .setShaped([
     [null,<quark:framed_glass>,null],
-    [<quark:framed_glass>,<contenttweaker:vis_speck>,<quark:framed_glass>],
+    [<quark:framed_glass>,visSpeck,<quark:framed_glass>],
     [null,<quark:framed_glass>,null]])
   .addOutput(<sereneseasons:greenhouse_glass>*4)
   .addTool(<contenttweaker:nature_rune>, 1)
@@ -1991,63 +1993,77 @@ recipes.removeByRecipeName("villagenames:lunarinironbrick_toingots");
 
 recipes.addShaped("lunarin_iron", <villagenames:lunarinironbrick>*20, [
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-    [<ore:ingotIron>, null, <ore:ingotIron>]
+    [<ore:ingotIron>, visSpeck, <ore:ingotIron>]
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
-recipes.addShapeless("ae_iron_bricks", <aesthetics:iron_bricks>, 
+recipes.addShapeless("ae_iron_bricks", <aesthetics:iron_bricks>
     [<villagenames:lunarinironbrick>]
 );
 recipes.addShaped("lunarin_bronze", <contenttweaker:lunarinbronzebrick>*20, [
     [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-    [<ore:ingotBronze>, null, <ore:ingotBronze>]
+    [<ore:ingotBronze>, visSpeck, <ore:ingotBronze>]
+    [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
 ]);
 recipes.addShaped("lunarin_silver", <contenttweaker:lunarinsilverbrick>*20, [
     [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],
-    [<ore:ingotSilver>, null, <ore:ingotSilver>]
+    [<ore:ingotSilver>, visSpeck, <ore:ingotSilver>]
+    [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]
 ]);
 recipes.addShaped("lunarin_gold", <villagenames:lunaringoldbrick>*20, [
     [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [<ore:ingotGold>, null, <ore:ingotGold>]
+    [<ore:ingotGold>, visSpeck, <ore:ingotGold>]
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 ]);
 recipes.addShaped("lunarin_viridium", <contenttweaker:lunarinviridiumbrick>*20, [
     [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>],
-    [<ore:ingotViridium>, null, <ore:ingotViridium>]
+    [<ore:ingotViridium>, visSpeck, <ore:ingotViridium>]
+    [<ore:ingotViridium>, <ore:ingotViridium>, <ore:ingotViridium>]
 ]);
 recipes.addShaped("lunarin_mythril", <contenttweaker:lunarinmythrilbrick>*20, [
     [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>],
-    [<ore:ingotMythril>, null, <ore:ingotMythril>]
+    [<ore:ingotMythril>, visSpeck, <ore:ingotMythril>]
+    [<ore:ingotMythril>, <ore:ingotMythril>, <ore:ingotMythril>]
 ]);
 recipes.addShaped("lunarin_endorium", <contenttweaker:lunarinendoriumbrick>*20, [
     [<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>],
-    [<ore:ingotEndorium>, null, <ore:ingotEndorium>]
+    [<ore:ingotEndorium>, visSpeck, <ore:ingotEndorium>]
+    [<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>]
 ]);
 recipes.addShaped("lunarin_steel", <contenttweaker:lunarinsteelbrick>*20, [
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-    [<ore:ingotSteel>, null, <ore:ingotSteel>]
+    [<ore:ingotSteel>, visSpeck, <ore:ingotSteel>]
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 mods.betterwithmods.Anvil.addShapedFixed(<contenttweaker:lunarinsfsbrick>*20, [
     [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>], 
-    [<ore:ingotSoulforgedSteel>, null, <ore:ingotSoulforgedSteel>]
+    [<ore:ingotSoulforgedSteel>, visSpeck, <ore:ingotSoulforgedSteel>]
+    [<ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>, <ore:ingotSoulforgedSteel>
 ]);
 recipes.addShaped("lunarin_crystal_heart", <contenttweaker:lunarinheartbrick>*20, [
     [<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>], 
-    [<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>]
+    [<scalinghealth:crystalshard>, visSpeck, <scalinghealth:crystalshard>]
+    [<scalinghealth:crystalshard>, <scalinghealth:crystalshard>, <scalinghealth:crystalshard>]
 ]);
 recipes.addShaped("lunarin_fiery", <contenttweaker:lunarinfierybrick>*20, [
     [<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>], 
-    [<ore:ingotFiery>, null, <ore:ingotFiery>]
+    [<ore:ingotFiery>, visSpeck, <ore:ingotFiery>]
+    [<ore:ingotFiery>, <ore:ingotFiery>, <ore:ingotFiery>]
 ]);
 // Farlander
 recipes.addShaped("farlander_exorite", <contenttweaker:farlanderexoritebrick>*20, [
     [<rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>], 
-    [<rotn_blocks:exorite_crystal>, null, <rotn_blocks:exorite_crystal>]
+    [<rotn_blocks:exorite_crystal>, visSpeck, <rotn_blocks:exorite_crystal>]
+    [<rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>, <rotn_blocks:exorite_crystal>]
 ]);
 recipes.addShaped("farlander_zanite", <contenttweaker:farlanderzanitebrick>*20, [
     [<ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>], 
-    [<ore:gemZanite>, null, <ore:gemZanite>]
+    [<ore:gemZanite>, visSpeck, <ore:gemZanite>]
+    [<ore:gemZanite>, <ore:gemZanite>, <ore:gemZanite>]
 ]);
 recipes.addShaped("farlander_diamond", <contenttweaker:farlanderdiamondbrick>*20, [
     [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
-    [<ore:gemDiamond>, null, <ore:gemDiamond>]
+    [<ore:gemDiamond>, visSpeck, <ore:gemDiamond>]
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
 ]);
 // Other
 recipes.addShapeless("witheredblock_to_dust>", <quark:black_ash>*9, 
@@ -2586,7 +2602,7 @@ recipes.remove(<minecraft:enchanting_table>);
 RecipeBuilder.get("mage")
   .setName("enchanting_table")
   .setShaped([
-    [<contenttweaker:vis_speck>, <minecraft:book>, <contenttweaker:vis_speck>],
+    [visSpeck, <minecraft:book>, visSpeck],
     [<ore:gemDiamond>, <nyx:fallen_star>, <ore:gemDiamond>], 
     [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]])
   .addOutput(<minecraft:enchanting_table>)

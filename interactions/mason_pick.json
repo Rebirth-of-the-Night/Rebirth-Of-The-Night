@@ -4,7 +4,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:0",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -14,7 +14,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:1",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -24,7 +24,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:2",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -34,7 +34,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:3",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -44,7 +44,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:4",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -54,7 +54,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:5",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -64,7 +64,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:6",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -74,7 +74,7 @@
     "dropItem": "undergroundbiomes:igneous_brick:7",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -84,7 +84,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:0",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -94,7 +94,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:1",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -104,7 +104,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:2",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -114,7 +114,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:3",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -124,7 +124,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:4",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -134,7 +134,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:5",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -144,7 +144,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:6",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -154,7 +154,7 @@
     "dropItem": "undergroundbiomes:metamorphic_brick:7",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -164,7 +164,7 @@
     "dropItem": "contenttweaker:big_limestone_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -174,7 +174,7 @@
     "dropItem": "contenttweaker:big_chalk_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -184,7 +184,7 @@
     "dropItem": "contenttweaker:big_shale_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -194,7 +194,7 @@
     "dropItem": "",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -204,7 +204,7 @@
     "dropItem": "contenttweaker:big_siltstone_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -214,7 +214,7 @@
     "dropItem": "contenttweaker:big_lignite_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -224,7 +224,7 @@
     "dropItem": "contenttweaker:big_dolomite_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -234,7 +234,7 @@
     "dropItem": "contenttweaker:big_greywacke_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -244,7 +244,7 @@
     "dropItem": "contenttweaker:big_chert_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -254,7 +254,7 @@
     "dropItem": "contenttweaker:big_serpentinite_bricks",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -264,7 +264,7 @@
     "dropItem": "contenttweaker:brick_minecraft_stone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -274,7 +274,7 @@
     "dropItem": "contenttweaker:brick_aether_legacy_holystone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -284,7 +284,7 @@
     "dropItem": "contenttweaker:brick_quark_sandstone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -294,7 +294,7 @@
     "dropItem": "contenttweaker:brick_quark_red_sandstone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -304,7 +304,7 @@
     "dropItem": "contenttweaker:brick_quark_soul_sandstone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -314,7 +314,7 @@
     "dropItem": "contenttweaker:brick_biomesoplenty_mud",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -324,7 +324,7 @@
     "dropItem": "contenttweaker:brick_earthworks_adobe",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -334,7 +334,7 @@
     "dropItem": "contenttweaker:brick_quark_brimstone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -344,7 +344,7 @@
     "dropItem": "contenttweaker:brick_quark_permafrost",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -354,7 +354,7 @@
     "dropItem": "contenttweaker:brick_minecraft_clay",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -364,7 +364,7 @@
     "dropItem": "contenttweaker:brick_quark_sandy",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -374,7 +374,7 @@
     "dropItem": "contenttweaker:brick_pyrotech_masonry",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -384,7 +384,7 @@
     "dropItem": "contenttweaker:brick_pyrotech_refractory",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -394,7 +394,7 @@
     "dropItem": "contenttweaker:brick_minecraft_nether",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -404,7 +404,7 @@
     "dropItem": "contenttweaker:brick_netherex_fiery",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -414,7 +414,7 @@
     "dropItem": "contenttweaker:brick_minecraft_end",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -424,7 +424,7 @@
     "dropItem": "contenttweaker:brick_minecraft_end",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -434,7 +434,7 @@
     "dropItem": "contenttweaker:brick_ceramics_porcelain",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -444,7 +444,7 @@
     "dropItem": "contenttweaker:dry_fitted_coade_stone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -454,7 +454,7 @@
     "dropItem": "contenttweaker:dry_fitted_mixed_stone",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -464,7 +464,7 @@
     "dropItem": "contenttweaker:rammed_earth_sandy_dirt",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -474,7 +474,7 @@
     "dropItem": "contenttweaker:rammed_earth_vanilla_dirt",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -484,7 +484,7 @@
     "dropItem": "contenttweaker:rammed_earth_loamy_dirt",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -494,7 +494,197 @@
     "dropItem": "contenttweaker:rammed_earth_silty_dirt",
     "heldItem": "contenttweaker:steel_crowbar",
     "replacementBlock": "minecraft:air",
-    "damage": "40",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinbronzebrick",
+    "dropItem": "contenttweaker:lunarinbronzebrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsilverbrick",
+    "dropItem": "contenttweaker:lunarinsilverbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinviridiumbrick",
+    "dropItem": "contenttweaker:lunarinviridiumbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinmythrilbrick",
+    "dropItem": "contenttweaker:lunarinmythrilbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinendoriumbrick",
+    "dropItem": "contenttweaker:lunarinendoriumbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinheartbrick",
+    "dropItem": "contenttweaker:lunarinheartbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinicebrick",
+    "dropItem": "contenttweaker:lunarinicebrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinfirebrick",
+    "dropItem": "contenttweaker:lunarinfirebrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:rammed_earth_silty_dirt",
+    "dropItem": "contenttweaker:rammed_earth_silty_dirt",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinfierybrick",
+    "dropItem": "contenttweaker:lunarinfierybrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinknightbrick",
+    "dropItem": "contenttweaker:lunarinknightbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsteelbrick",
+    "dropItem": "contenttweaker:lunarinsteelbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsfsbrick",
+    "dropItem": "contenttweaker:lunarinsfsbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:baguettebrick",
+    "dropItem": "contenttweaker:baguettebrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderexoritebrick",
+    "dropItem": "contenttweaker:farlanderexoritebrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderzanitebrick",
+    "dropItem": "contenttweaker:farlanderzanitebrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderdiamondbrick",
+    "dropItem": "contenttweaker:farlanderdiamondbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "villagenames:lunaringoldbrick",
+    "dropItem": "villagenames:lunaringoldbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "villagenames:lunarinironbrick",
+    "dropItem": "villagenames:lunarinironbrick",
+    "heldItem": "contenttweaker:steel_crowbar",
+    "replacementBlock": "minecraft:air",
+    "damage": "60",
     "particleType": "fallingdust",
     "particleArea": "out",
     "particleCount": "100"
@@ -1000,6 +1190,196 @@
     "particleCount": "100"
   },
   {
+    "targetBlock": "contenttweaker:lunarinbronzebrick",
+    "dropItem": "contenttweaker:lunarinbronzebrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsilverbrick",
+    "dropItem": "contenttweaker:lunarinsilverbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinviridiumbrick",
+    "dropItem": "contenttweaker:lunarinviridiumbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinmythrilbrick",
+    "dropItem": "contenttweaker:lunarinmythrilbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinendoriumbrick",
+    "dropItem": "contenttweaker:lunarinendoriumbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinheartbrick",
+    "dropItem": "contenttweaker:lunarinheartbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinicebrick",
+    "dropItem": "contenttweaker:lunarinicebrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinfirebrick",
+    "dropItem": "contenttweaker:lunarinfirebrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:rammed_earth_silty_dirt",
+    "dropItem": "contenttweaker:rammed_earth_silty_dirt",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinfierybrick",
+    "dropItem": "contenttweaker:lunarinfierybrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinknightbrick",
+    "dropItem": "contenttweaker:lunarinknightbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsteelbrick",
+    "dropItem": "contenttweaker:lunarinsteelbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsfsbrick",
+    "dropItem": "contenttweaker:lunarinsfsbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:baguettebrick",
+    "dropItem": "contenttweaker:baguettebrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderexoritebrick",
+    "dropItem": "contenttweaker:farlanderexoritebrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderzanitebrick",
+    "dropItem": "contenttweaker:farlanderzanitebrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderdiamondbrick",
+    "dropItem": "contenttweaker:farlanderdiamondbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "villagenames:lunaringoldbrick",
+    "dropItem": "villagenames:lunaringoldbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "villagenames:lunarinironbrick",
+    "dropItem": "villagenames:lunarinironbrick",
+    "heldItem": "contenttweaker:sfs_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
     "targetBlock": "undergroundbiomes:igneous_brick:0",
     "dropItem": "undergroundbiomes:igneous_brick:0",
     "heldItem": "contenttweaker:mythril_masonpick",
@@ -1492,6 +1872,196 @@
   {
     "targetBlock": "contenttweaker:rammed_earth_silty_dirt",
     "dropItem": "contenttweaker:rammed_earth_silty_dirt",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinbronzebrick",
+    "dropItem": "contenttweaker:lunarinbronzebrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsilverbrick",
+    "dropItem": "contenttweaker:lunarinsilverbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinviridiumbrick",
+    "dropItem": "contenttweaker:lunarinviridiumbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinmythrilbrick",
+    "dropItem": "contenttweaker:lunarinmythrilbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinendoriumbrick",
+    "dropItem": "contenttweaker:lunarinendoriumbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinheartbrick",
+    "dropItem": "contenttweaker:lunarinheartbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinicebrick",
+    "dropItem": "contenttweaker:lunarinicebrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinfirebrick",
+    "dropItem": "contenttweaker:lunarinfirebrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:rammed_earth_silty_dirt",
+    "dropItem": "contenttweaker:rammed_earth_silty_dirt",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinfierybrick",
+    "dropItem": "contenttweaker:lunarinfierybrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinknightbrick",
+    "dropItem": "contenttweaker:lunarinknightbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsteelbrick",
+    "dropItem": "contenttweaker:lunarinsteelbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:lunarinsfsbrick",
+    "dropItem": "contenttweaker:lunarinsfsbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:baguettebrick",
+    "dropItem": "contenttweaker:baguettebrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderexoritebrick",
+    "dropItem": "contenttweaker:farlanderexoritebrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderzanitebrick",
+    "dropItem": "contenttweaker:farlanderzanitebrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "contenttweaker:farlanderdiamondbrick",
+    "dropItem": "contenttweaker:farlanderdiamondbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "villagenames:lunaringoldbrick",
+    "dropItem": "villagenames:lunaringoldbrick",
+    "heldItem": "contenttweaker:mythril_masonpick",
+    "replacementBlock": "minecraft:air",
+    "damage": "40",
+    "particleType": "fallingdust",
+    "particleArea": "out",
+    "particleCount": "100"
+  },
+  {
+    "targetBlock": "villagenames:lunarinironbrick",
+    "dropItem": "villagenames:lunarinironbrick",
     "heldItem": "contenttweaker:mythril_masonpick",
     "replacementBlock": "minecraft:air",
     "damage": "40",
