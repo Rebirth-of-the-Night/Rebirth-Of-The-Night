@@ -31,7 +31,10 @@ JEI.removeAndHide(<aether_legacy:angelic_double_slab>);
 JEI.removeAndHide(<aether_legacy:hellfire_double_slab>);
 JEI.removeAndHide(<aether_legacy:holystone_double_slab>);
 JEI.removeAndHide(<aether_legacy:mossy_holystone_double_slab>);
-JEI.removeAndHide(<aether_legacy:aerogel_double_slab>); 
+JEI.removeAndHide(<aether_legacy:aerogel_double_slab>);
+
+JEI.removeAndHide(<aether_legacy:skyroot_bucket:1>);
+JEI.removeAndHide(<aether_legacy:skyroot_bucket:4>);
 
 JEI.removeAndHide(<aether_legacy:life_shard>);
 LootTable.removeGlobalItem("aether_legacy:life_shard");

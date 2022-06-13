@@ -73,3 +73,15 @@ recipes.addShaped("dog_sunglasses",<doggytalents:sunglasses>,[
 
 recipes.remove(<doggytalents:master_treat>);
 recipes.addShapeless("master_treat",<doggytalents:master_treat>,[<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<ore:ingotableGem>]);
+
+recipes.removeByRecipeName("doggytalents:dog_bath");
+recipes.addShaped("dog_bath_0",<doggytalents:dog_bath>,[
+   [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
+    [<ore:genericMetal>,flimsywaterbucket,<ore:genericMetal>],
+    [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
+]);
+recipes.addShaped("dog_bath_1",<doggytalents:dog_bath>,[
+   [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
+    [<ore:genericMetal>,qualitybucket,<ore:genericMetal>],
+    [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>]
+]);

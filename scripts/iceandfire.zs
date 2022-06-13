@@ -6,19 +6,23 @@ import loottweaker.vanilla.loot.LootPool;
 import crafttweaker.item.IItemCondition;
 import mods.betterwithaddons.Infuser;
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI;
 
 recipes.removeByRecipeName("iceandfire:dragonmeal_alternate");
 
-mods.jei.JEI.removeAndHide(<iceandfire:sapphire_ore>);
-mods.jei.JEI.removeAndHide(<iceandfire:sapphire_block>);
-mods.jei.JEI.removeAndHide(<iceandfire:sapphire_gem>);
-mods.jei.JEI.removeAndHide(<iceandfire:egginice>);
-mods.jei.JEI.removeAndHide(<iceandfire:dread_portal>);
-mods.jei.JEI.removeAndHide(<iceandfire:dragonforge_ice_core>);
-mods.jei.JEI.removeAndHide(<iceandfire:dragonforge_fire_core>);
-mods.jei.JEI.removeAndHide(<iceandfire:dread_stone_slab_double>);
-mods.jei.JEI.removeAndHide(<iceandfire:dragon_debug_stick>);
-mods.jei.JEI.removeAndHide(<iceandfire:stone_statue>);
+JEI.removeAndHide(<iceandfire:sapphire_ore>);
+JEI.removeAndHide(<iceandfire:sapphire_block>);
+JEI.removeAndHide(<iceandfire:sapphire_gem>);
+JEI.removeAndHide(<iceandfire:egginice>);
+JEI.removeAndHide(<iceandfire:dread_portal>);
+JEI.removeAndHide(<iceandfire:dragonforge_ice_core>);
+JEI.removeAndHide(<iceandfire:dragonforge_fire_core>);
+JEI.removeAndHide(<iceandfire:dread_stone_slab_double>);
+JEI.removeAndHide(<iceandfire:dragon_debug_stick>);
+JEI.removeAndHide(<iceandfire:stone_statue>);
+
+JEI.removeAndHide(<iceandfire:dragon_horn_ice>);
+JEI.removeAndHide(<iceandfire:dragon_horn_fire>);
 
 LootTweaker.getTable("iceandfire:mausoleum_chest").getPool("mausoleum_chest").removeEntry("iceandfire:sapphire_gem");
 

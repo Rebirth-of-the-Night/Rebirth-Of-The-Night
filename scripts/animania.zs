@@ -42,6 +42,14 @@ recipes.addShapedMirrored("carving_knife",<animania:carving_knife>,[
 	[<ore:stickWood>,null]
 ]);
 
+recipes.removeByRecipeName("animania:salt_lick_0");
+recipes.addShapeless("salt_lick_0",<animania:salt_lick>,[
+    <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, flimsywaterbucket
+]);
+recipes.addShapeless("salt_lick_1",<animania:salt_lick>,[
+    <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, qualitybucket
+]);
+
 // Hamster balls craftable with stained glass
 
 for i in 0 to 16 {
