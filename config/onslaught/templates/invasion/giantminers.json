@@ -2,7 +2,7 @@
   "colossalminers": {
     "selector": {
       "gamestages": {
-        "and": ["enteredTwilightForest"]
+        "or": ["enteredTwilightForest"]
       },
       "weight": 47,
       "dimension": {

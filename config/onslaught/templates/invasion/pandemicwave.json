@@ -2,7 +2,7 @@
   "pandemicwave": {
     "selector": {
       "gamestages": {
-        "and": ["disabled"]
+        "or": ["minedMythril", "enteredEnd", "enteredTwilightForest"]
       },
       "weight": 25,
       "dimension": {
