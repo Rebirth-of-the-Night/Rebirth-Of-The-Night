@@ -627,7 +627,7 @@ icelunarin.register();
 // Fire Dragon Steel
 var firelunarin = VanillaFactory.createBlock("lunarinfirebrick", <blockmaterial:Iron>);
 firelunarin.setCreativeTab(<creativetab:rotn_blocks>);
-fierylunarin.setBlockHardness(40);
+firelunarin.setBlockHardness(40);
 firelunarin.register();
 // Fiery Metal
 var fierylunarin = VanillaFactory.createBlock("lunarinfierybrick", <blockmaterial:Iron>);
