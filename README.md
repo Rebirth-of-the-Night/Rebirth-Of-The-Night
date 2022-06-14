@@ -12,7 +12,7 @@ Fear the dark. Defy the odds. Embrace the night. In an ever-changing world, brav
 
 ## Getting Started
 
-Head over to the [How To](docs/how-to.md) to get up and running, and guidance on contributing.
+Head over to the [How To](docs/how-to.md) to get up and running, and guidance on contributing. edit june 2022: need to publish new howto contribute guide
 
 ## Community
 
