@@ -662,7 +662,7 @@ BBlunarin.register();
 var exoritefarlander = VanillaFactory.createBlock("farlanderexoritebrick", <blockmaterial:Iron>);
 exoritefarlander.setCreativeTab(<creativetab:rotn_blocks>);
 exoritefarlander.setBlockSoundType(<soundtype:glass>);
-exorite.setBlockHardness(40);
+exoritefarlander.setBlockHardness(40);
 exoritefarlander.register();
 // zanite
 var zanitefarlander = VanillaFactory.createBlock("farlanderzanitebrick", <blockmaterial:Iron>);
