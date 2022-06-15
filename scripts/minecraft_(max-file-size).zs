@@ -1973,7 +1973,7 @@ val lunarinlikeBricks = {
 for lunarinBrick, lunarinIngot in lunarinlikeBricks {
     recipes.addShaped(lunarinBrick.definition.id.replace(":", "_"), lunarinBrick*32, [
         [lunarinIngot, lunarinIngot, lunarinIngot],
-        [lunairnIngot, <contenttweaker:vis_speck>, lunarinIngot],
+        [lunarinIngot, <contenttweaker:vis_speck>, lunarinIngot],
         [lunarinIngot, lunarinIngot, lunarinIngot]
     ]);
 }
