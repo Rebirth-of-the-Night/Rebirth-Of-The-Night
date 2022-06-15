@@ -6,4 +6,3 @@ title @p title {"text":"The Twilight Forest", "bold":false, "italic":false, "col
 playsound iceandfire:firedragon_adult_roar ambient @p ~ ~ ~ 0.5 0.7
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
 gamestage silentadd @a enteredTwilightForest
-gamestage silentremove @a killedEnderDragon

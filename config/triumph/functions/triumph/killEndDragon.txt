@@ -8,4 +8,4 @@ give @p scalinghealth:crystalshard 6
 gamestage silentadd @a killedEnderDragon
 gamestage silentadd @a killedHarvester
 gamestage silentadd @a killedQuazar
-gamestage silentremove @a enteredEnd
+gamestage silentadd @a minedMythril

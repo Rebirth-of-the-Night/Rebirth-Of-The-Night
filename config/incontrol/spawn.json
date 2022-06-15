@@ -162,27 +162,27 @@
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorhelmet": ["minecraft:diamond_helmet","endreborn:armour_helmet_helmet"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"]
+    "gamestage": "minedMythril"
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorchest": ["minecraft:diamond_chestplate","endreborn:armour_chestplate_obsidian"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"]
+    "gamestage": "minedMythril"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorlegs": ["minecraft:diamond_leggings","endreborn:armour_leggings_obsidian"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"]
+    "gamestage": "minedMythril"
 
 },
 {
     "mob": ["minecraft:zombie","minecraft:skeleton","primitivemobs:skeleton_warrior"],
     "random": 0.1,
     "armorboots": ["minecraft:diamond_boots","endreborn:armour_boots_obsidian"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"]
+    "gamestage": "minedMythril"
 },
 
 
@@ -219,7 +219,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["2=simpleores:mythril_pickaxe","2=primitivemobs:goblin_mace"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"]
+    "gamestage": "minedMythril"
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
@@ -229,7 +229,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": ["3=minecraft:diamond_pickaxe","3=atop:ruby_pickaxe","3=atop:sapphire_pickaxe","3=atop:peridot_pickaxe","2=simpleores:adamantium_pickaxe"],
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"]
+    "gamestage": "enteredBeneath"
 },
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
@@ -239,7 +239,7 @@
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
     "helditem": "3=atop:amethyst_pickaxe",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"]
+    "gamestage": "enteredEnd"
 },/*
 {
     "mob": ["minecraft:zombie","primitivemobs:goblin"],
@@ -484,7 +484,7 @@
     "maxlight": 7,
     "minlight": 0,
     "random": 0.00001,
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
     "maxcount": {
         "amount": 1,
         "perplayer": true
@@ -549,7 +549,7 @@
   "mob": "mowziesmobs:grottol",
   "maxlight": 1,
   "minlight": 0,
-  "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+  "gamestage": "minedMythril",
   "maxheight": 200,
     "maxcount": {
         "amount": 1,
@@ -865,7 +865,7 @@
     "mob": "mod_lavacow:undertaker",
     "maxlight": 7,
 	"random": 0.5,
-	"gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+	"gamestage": "enteredBeneath",
 	"biome": ["Ominous Woods", "Wasteland", "Dead Forest"],
     "maxcount": {
         "amount": 1,
@@ -889,7 +889,7 @@
 	"maxheight": 100,
 	"random": 0.3,
 	"seesky": false,
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -1126,7 +1126,7 @@
  {
     "dimension": [0,1,10],
     "mob": "primitivemobs:void_eye",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxlight": 5,
     "minlight": 0,
     "maxcount": {
@@ -1138,7 +1138,7 @@
  {
     "dimension": [0,1,10],
     "mob": "primitivemobs:void_eye",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxlight": 5,
     "minlight": 0,
     "maxcount": {
@@ -1378,7 +1378,7 @@
     "mob": "specialmobs:deathcreeper",
     "maxlight": 7,
     "minlight": 0,
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1443,7 +1443,7 @@
  {
     "dimension": [10],
     "mob": "specialmobs:darkcreeper",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1459,7 +1459,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:lightningcreeper",
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1491,7 +1491,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:endercreeper",
-    "gamestage": ["killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1558,7 +1558,7 @@
   {
     "dimension": [0,10],
     "mob": "specialmobs:undeadwitch",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"random": 0.12,
     "maxcount": {
         "amount": 3,
@@ -1575,7 +1575,7 @@
    {
     "dimension": [0,10],
     "mob": "specialmobs:shadowswitch",
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
 	"random": 0.12,
     "maxcount": {
         "amount": 3,
@@ -1592,7 +1592,7 @@
     {
     "dimension": [0,10],
     "mob": "specialmobs:dominationwitch",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
 	"random": 0.12,
     "maxcount": {
         "amount": 3,
@@ -1666,7 +1666,7 @@
   {
     "dimension": [0,10],
     "mob": "specialmobs:blindingsilverfish",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"maxlight": 5,
     "minlight": 0,
 	"random": 0.3,
@@ -1689,7 +1689,7 @@
   {
     "dimension": [0,10],
     "mob": "specialmobs:poisonsilverfish",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"maxlight": 5,
     "minlight": 0,
 	"random": 0.3,
@@ -1711,7 +1711,7 @@
    {
     "dimension": [0,10],
     "mob": "specialmobs:toughsilverfish",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
 	"maxlight": 5,
     "minlight": 0,
 	"random": 0.3,
@@ -1773,7 +1773,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:plaguezombie",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1790,7 +1790,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:fishingzombie",
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
 	"armorhelmet": "rats:fisherman_hat",
 	"armorchest": "minecraft:leather_chestplate",
     "maxcount": {
@@ -1824,7 +1824,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:giantzombie",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1861,7 +1861,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:poisonskeleton",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1877,7 +1877,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:ninjaskeleton",
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1909,7 +1909,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:giantskeleton",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1925,7 +1925,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:spitfireskeleton",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -1957,7 +1957,7 @@
 {
 	"dimension" : [0, 10],
 	"mob": "specialmobs:knightskeleton",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"maxlight": 7,
 	"armorhelmet": "iceandfire:armor_silver_metal_helmet",
 	"armorchest": ["12=minecraft:iron_chestplate", "5=minecraft:chainmail_chestplate", "2=dungeontactics:steel_chestplate"],
@@ -2071,7 +2071,7 @@
  {
     "dimension": 0,
     "mob": "specialmobs:poisonspider",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -2087,7 +2087,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:webspider",
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -2103,7 +2103,7 @@
  {
     "dimension": [0,10],
     "mob": "specialmobs:giantspider",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -2119,7 +2119,7 @@
 {
     "dimension": [0,10],
     "mob": "specialmobs:flyingspider",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 5,
         "perplayer": true
@@ -2280,7 +2280,7 @@
     "random": 0.003,
     "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "seesky": true,
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -2325,7 +2325,7 @@
     "random": 0.003,
     "block": ["minecraft:grass","biomesoplenty:grass:2","biomesoplenty:grass:3","biomesoplenty:grass:4"],
     "seesky": true,
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -2342,7 +2342,7 @@
  {
     "dimension": [0,10,1,-1],
     "mob": "specialmobs:blindingenderman",
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
     "random": 0.0225,
     "maxlight": 7,
     "minlight": 0,
@@ -2365,7 +2365,7 @@
     "mob": "specialmobs:icyenderman",
     "biometype": "COLD",
     "random": 0.01,
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -2383,7 +2383,7 @@
     "mob": "specialmobs:lightningenderman",
     "biometype": "MOUNTAIN",
     "random": 0.01,
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "maxcount": {
         "amount": 2,
         "perplayer": true
@@ -2399,7 +2399,7 @@
   {
     "dimension": [0,10,1],
     "mob": "specialmobs:mirageenderman",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "random": 0.01,
     "maxcount": {
         "amount": 2,
@@ -2416,7 +2416,7 @@
  {
     "dimension": [0,10,1],
     "mob": "endreborn:watcher",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "random": 0.01,
     "maxcount": {
         "amount": 2,
@@ -2433,7 +2433,7 @@
  {
     "dimension": [0,10,1],
     "mob": "endreborn:chronologist",
-    "gamestage": ["enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "killedEnderDragon",
     "random": 0.01,
     "maxcount": {
         "amount": 2,
@@ -2451,7 +2451,7 @@
  {
     "dimension": 0,
     "mob": "rats:rat",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"random": 0.45,
 	"maxlight": 7,
     "minlight": 0,
@@ -2469,7 +2469,7 @@
  {
     "dimension": 10,
     "mob": "rats:ratlantean_spirit",
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"random": 0.2,
 	"maxheight": 120,
     "maxcount": {
@@ -2489,7 +2489,7 @@
  {
     "dimension": [0,10],
     "mob": "rats:plague_beast",
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
 	"random": 0.01,
 	"maxlight": 7,
     "minlight": 0,
@@ -2506,7 +2506,7 @@
  },
  {
     "dimension": 0,
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
     "mob": "rats:black_death",
     "onjoin": "true",
     "result": "default"
@@ -2574,7 +2574,7 @@
     "dimension": [0,10],
     "mob": "mod_lavacow:ithaqua",
 	"biome": ["Forest", "Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "ForestHills", "TaigaHills", "Extreme Hills Edge", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Cold Taiga", "Cold Taiga Hills", "Mega Taiga", "Mega Taiga Hills", "Extreme Hills+", "Extreme Hills M", "Flower Forest", "Taiga M", "Ice Plains Spikes", "Birch Forest M", "Birch Forest Hills M", "Roofed Forest M", "Cold Taiga M", "Mega Spruce Taiga", "Redwood Taiga Hills M", "Extreme Hills+ M", "Alps", "Boreal Forest", "Cold Desert", "Crag", "Dead Forest", "Mountain", "Ominous Woods", "Seasonal Forest", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "SnowyTundra", "Glacier", "AlpsFoothills", "MountainFoothills", "The Beneath"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
 	"random": 0.25,
 	"maxlight": 7,
     "minlight": 0,
@@ -2595,7 +2595,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:boneworm",
 	"biome": ["Mesa", "Mesa Plateau F", "Mesa Plateau", "Desert M", "Mesa (Bryce)", "Mesa Plateau F M", "Mesa Plateau M", "Desert", "DesertHills", "Xeric Shrubland", "Marsh", "Bayou", "Bog", "Dead Swamp", "Quagmire", "Fen", "Ominous Woods", "Dead Forest"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
 	"block": ["minecraft:grass", "minecraft:sand", "minecraft:gravel", "undergroundbiomes:metamorphic_gravel", "undergroundbiomes:sedimentary_gravel", "undergroundbiomes:igneous_sand", "undergroundbiomes:metamorphic_sand", "undergroundbiomes:sedimentary_sand", "biomesoplenty:grass", "biomesoplenty:white_sand", "biomesoplenty:dried_sand", "biomesoplenty:dirt"],
 	"random": 0.20,
 	"maxlight": 7,
@@ -2616,7 +2616,7 @@
     "dimension": -1,
     "mob": "mod_lavacow:boneworm",
 	"biome": ["Phantasmagoric Inferno", "Visceral Heap"],
-    "gamestage": ["minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "minedMythril",
 	"block": ["minecraft:soul_sand", "biomesoplenty:flesh", "biomesoplenty:ash_block"],
 	"random": 0.20,
 	"maxlight": 7,
@@ -2683,7 +2683,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:undeadswine",
 	"biome": ["Plains", "Jungle", "JungleHills", "JungleEdge", "Roofed Forest", "Sunflower Plains", "Jungle M", "JungleEdge M", "Rainforest", "Tropical Rainforest", "Forest", "ForestHills", "Birch Forest", "Birch Forest Hills", "Roofed Forest", "Extreme Hills+", "Extreme Hills M", "Flower Forest", "Bayou", "Bog", "Brushland", "Chaparral", "Cherry Blossom Grove", "Dead Forest", "Grassland", "Grove", "Lavender Fields", "Maple Woods", "Ominous Woods", "Orchard", "Overgrown Cliffs", "Prairie", "Seasonal Forest", "Shrubland", "Temperate Rainforest", "Pasture", "Wasteland", "Woodland", "Tropical Island"],
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"maxlight": 7,
     "minlight": 0,
 	"random": 0.10,
@@ -2704,7 +2704,7 @@
     "dimension": 0,
     "mob": "mod_lavacow:zombiefrozen",
 	"biome": ["Taiga", "FrozenRiver", "Ice Plains", "Ice Mountains", "TaigaHills", "Cold Taiga", "Cold Taiga Hills", "Taiga M", "Ice Plains Spikes", "Cold Taiga M", "Mega Spruce Taiga", "Alps", "Boreal Forest", "Cold Desert", "Snowy Coniferous Forest", "Snowy Forest", "Tundra", "Glacier", "SnowyTundra", "AlpsFoothills"],
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"maxlight": 7,
     "minlight": 0,
     "maxcount": {
@@ -2745,7 +2745,7 @@
     "dimension": [0,10],
     "mob": "mod_lavacow:zombiemushroom",
 	"biome": ["Jungle", "JungleHills", "JungleEdge", "Swampland", "Swampland M", "Jungle M", "JungleEdge M", "Bayou", "Bog", "Dead Swamp", "Lush Swamp", "Rainforest", "Tropical Rainforest", "Tropical Island", "Quagmire", "MushroomIsland", "MushroomIslandShore", "Roofed Forest M", "Fen", "Flower Field", "Mangrove", "Marsh", "Moor", "Wetland", "Oasis", "Flower Island", "The Beneath"],  
-    "gamestage": ["enteredBeneath","minedMythril","enteredEnd","killedEnderDragon","enteredTwilightForest"],
+    "gamestage": "enteredBeneath",
 	"maxlight": 7,
     "minlight": 0,
     "maxcount": {

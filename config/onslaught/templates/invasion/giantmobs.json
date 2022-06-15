@@ -2,7 +2,7 @@
   "giantmobs": {
     "selector": {
       "gamestages": {
-        "or": ["enteredEnd", "enteredTwilightForest"]
+        "and": ["enteredEnd"]
       },
       "weight": 47,
       "dimension": {

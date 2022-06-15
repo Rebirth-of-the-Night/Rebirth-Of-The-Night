@@ -5,4 +5,3 @@ title @p subtitle {"text":"If you stare at the Void long enough, it stares back 
 title @p title {"text":"The End", "bold":false, "italic":false, "color":"white"}
 tellraw @p {"text":"More ley lines have opened; magicite has been infused with new quintessences...","color":"gold"}
 gamestage silentadd @a enteredEnd
-gamestage silentremove @a minedMythril
