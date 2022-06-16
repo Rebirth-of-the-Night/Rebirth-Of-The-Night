@@ -74,6 +74,9 @@ recipes.addShaped("dog_sunglasses",<doggytalents:sunglasses>,[
 recipes.remove(<doggytalents:master_treat>);
 recipes.addShapeless("master_treat",<doggytalents:master_treat>,[<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<doggytalents:super_treat>,<ore:ingotableGem>]);
 
+var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
+var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
+
 recipes.removeByRecipeName("doggytalents:dog_bath");
 recipes.addShaped("dog_bath_0",<doggytalents:dog_bath>,[
    [<ore:genericMetal>,<ore:genericMetal>,<ore:genericMetal>],
