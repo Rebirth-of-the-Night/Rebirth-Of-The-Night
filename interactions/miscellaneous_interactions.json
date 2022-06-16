@@ -17,13 +17,13 @@
     "particleCount": "8:80"
   },
   {
-    "targetBlock": "betterwithaddons:scaffold",
+    "targetBlock": "futuremc:scaffolding",
     "heldItem": "minecraft:wheat",
     "replacementBlock": "quark:thatch",
     "damage": "1"
   },
   {
-    "targetBlock": "betterwithaddons:scaffold",
+    "targetBlock": "futuremc:scaffolding",
     "heldItem": "minecraft:tallgrass:1",
     "replacementBlock": "quark:turf",
     "damage": "1"
@@ -49,7 +49,7 @@
     "particleCount": "5"
   },
   {
-    "targetBlock": "betterwithaddons:scaffold",
+    "targetBlock": "futuremc:scaffolding",
     "heldItem": "contenttweaker:masonry_brick",
     "offhandItem": "artisanworktables:artisans_carver_gold",
     "replacementBlock": "minecraft:stonebrick:2",

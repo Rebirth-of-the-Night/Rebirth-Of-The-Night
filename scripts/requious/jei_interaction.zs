@@ -47,12 +47,12 @@ interaction.addJEIRecipe(soulSand);
 
 var thatch = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<quark:thatch>);
-}).requireItem("input",<betterwithaddons:scaffold>).requireItem("catalyst1",<minecraft:wheat>);
+}).requireItem("input",<futuremc:scaffolding>).requireItem("catalyst1",<minecraft:wheat>);
 interaction.addJEIRecipe(thatch);
 
 var turf = AssemblyRecipe.create(function(container) {
     container.addItemOutput("output",<quark:turf>);
-}).requireItem("input",<betterwithaddons:scaffold>).requireItem("catalyst1",<minecraft:tallgrass:1>);
+}).requireItem("input",<futuremc:scaffolding>).requireItem("catalyst1",<minecraft:tallgrass:1>);
 interaction.addJEIRecipe(turf);
 
 var lavaBrick = AssemblyRecipe.create(function(container) {

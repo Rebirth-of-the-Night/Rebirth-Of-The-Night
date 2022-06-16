@@ -204,10 +204,9 @@ recipes.addShaped(<betterwithaddons:tatami> * 4, [
 val hollowReed = <ore:hollowReed>;
 var stone3 = [<ore:stone>, <ore:stone>, <ore:stone>] as IIngredient[];
 
-recipes.addShaped("bwa_scaffold", <betterwithaddons:scaffold> * 6, [
-    [hollowReed, wicker, hollowReed],
-    [hollowReed, null, hollowReed],
-    [hollowReed, <randomthings:blockofsticks:0>, hollowReed]
+recipes.addShaped("bwa_scaffold", <futuremc:scaffolding> * 8, [
+    [wicker],
+    [<randomthings:blockofsticks:0>]
 ]);
 
 recipes.addShaped("bwa_banner_detector", <betterwithaddons:banner_detector>, [

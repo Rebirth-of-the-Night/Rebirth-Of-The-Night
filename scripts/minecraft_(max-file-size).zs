@@ -1357,7 +1357,7 @@ stoneWOHolystone.remove(<aether_legacy:holystone>);
 <ore:sand>.add(<minecraft:sand:1>);
 <ore:ingotCrucibleSteel>.add(<dungeontactics:steel_ingot>);
 <ore:hardReed>.addItems([<biomesoplenty:bamboo>,<minecraft:reeds>,<betternether:nether_reed>]);
-<ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<rustic:horsetail>,<futuremc:bamboo>]);
+<ore:hollowReed>.addItems([<biomesoplenty:bamboo>,<biomesoplenty:plant_1:8>,<futuremc:bamboo>]);
 <ore:listAllmilk>.addItems([<aether_legacy:skyroot_bucket:4>]);
 <ore:listAllmilk>.remove(<aether_legacy:skyroot_bucket>);
 <ore:milkBucket>.remove(<aether_legacy:skyroot_bucket>);
