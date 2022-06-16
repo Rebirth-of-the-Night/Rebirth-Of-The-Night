@@ -1,0 +1,12 @@
+setIcon(<pyrotech_compat:rock_igneous_sand, meta:9, count:1>)
+setTitle("Boom! Not Quite Coal")
+setDescription("Mine lignite (hopefully without blowing out)")
+
+addParent("triumph:advancements/ores/root")
+
+criteria = addCriteria("Lignite", "triumph:player_harvest_block")
+criteria.setBlock(<undergroundbiomes:sedimentary_stone, meta:4, count:1>)
+
+alwaysVisible()
+setPos(-362,57)
+hideLines()
