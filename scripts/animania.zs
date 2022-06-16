@@ -42,6 +42,9 @@ recipes.addShapedMirrored("carving_knife",<animania:carving_knife>,[
 	[<ore:stickWood>,null]
 ]);
 
+var flimsywaterbucket = <pyrotech:bucket_stone>.withTag({durability: 32767, fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<pyrotech:bucket_stone>);
+var qualitybucket = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
+
 recipes.removeByRecipeName("animania:salt_lick_0");
 recipes.addShapeless("salt_lick_0",<animania:salt_lick>,[
     <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, <ore:itemSalt>, flimsywaterbucket
