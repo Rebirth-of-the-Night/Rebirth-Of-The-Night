@@ -5,7 +5,7 @@ setDescription("Mine coal ore")
 addParent("triumph:advancements/ores/root")
 
 criteria = addCriteria("Lapis", "triumph:player_harvest_block")
-criteria.setBlock(<ore:gemCoal>)
+criteria.setBlock(<ore:oreCoal>)
 
 alwaysVisible()
 setPos(-456,39)
