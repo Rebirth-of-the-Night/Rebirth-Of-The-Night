@@ -662,6 +662,213 @@ for mat, spart in anvilSpartMap{
     counter = 0;
 }
 
+//TF Spartan weapons
+recipes.removeByMod("spartantwilight");
+JEI.removeAndHide(<spartantwilight:blaze_pole>);
+
+//Fiery removal
+JEI.removeAndHide(<spartantwilight:greatsword_fiery>);
+JEI.removeAndHide(<spartantwilight:longsword_fiery>);
+JEI.removeAndHide(<spartantwilight:saber_fiery>);
+JEI.removeAndHide(<spartantwilight:rapier_fiery>);
+JEI.removeAndHide(<spartantwilight:dagger_fiery>);
+JEI.removeAndHide(<spartantwilight:spear_fiery>);
+JEI.removeAndHide(<spartantwilight:pike_fiery>);
+JEI.removeAndHide(<spartantwilight:lance_fiery>);
+JEI.removeAndHide(<spartantwilight:warhammer_fiery>);
+JEI.removeAndHide(<spartantwilight:throwing_knife_fiery>);
+JEI.removeAndHide(<spartantwilight:javelin_fiery>);
+JEI.removeAndHide(<spartantwilight:battleaxe_fiery>);
+JEI.removeAndHide(<spartantwilight:boomerang_fiery>);
+JEI.removeAndHide(<spartantwilight:mace_fiery>);
+JEI.removeAndHide(<spartantwilight:staff_fiery>);
+JEI.removeAndHide(<spartantwilight:glaive_fiery>);
+
+//Steeleaf removal
+JEI.removeAndHide(<spartantwilight:katana_steeleaf>);
+JEI.removeAndHide(<spartantwilight:greatsword_steeleaf>);
+JEI.removeAndHide(<spartantwilight:longsword_steeleaf>);
+JEI.removeAndHide(<spartantwilight:spear_steeleaf>);
+JEI.removeAndHide(<spartantwilight:pike_steeleaf>);
+JEI.removeAndHide(<spartantwilight:lance_steeleaf>);
+JEI.removeAndHide(<spartantwilight:halberd_steeleaf>);
+JEI.removeAndHide(<spartantwilight:warhammer_steeleaf>);
+JEI.removeAndHide(<spartantwilight:hammer_steeleaf>);
+JEI.removeAndHide(<spartantwilight:throwing_axe_steeleaf>);
+JEI.removeAndHide(<spartantwilight:javelin_steeleaf>);
+JEI.removeAndHide(<spartantwilight:battleaxe_steeleaf>);
+JEI.removeAndHide(<spartantwilight:boomerang_steeleaf>);
+JEI.removeAndHide(<spartantwilight:mace_steeleaf>);
+JEI.removeAndHide(<spartantwilight:staff_steeleaf>);
+JEI.removeAndHide(<spartantwilight:glaive_steeleaf>);
+
+//Ironroot removal
+JEI.removeAndHide(<spartantwilight:katana_ironwood>);
+JEI.removeAndHide(<spartantwilight:greatsword_ironwood>);
+JEI.removeAndHide(<spartantwilight:longsword_ironwood>);
+JEI.removeAndHide(<spartantwilight:saber_ironwood>);
+JEI.removeAndHide(<spartantwilight:rapier_ironwood>);
+JEI.removeAndHide(<spartantwilight:dagger_ironwood>);
+JEI.removeAndHide(<spartantwilight:spear_ironwood>);
+JEI.removeAndHide(<spartantwilight:pike_ironwood>);
+JEI.removeAndHide(<spartantwilight:lance_ironwood>);
+JEI.removeAndHide(<spartantwilight:halberd_ironwood>);
+JEI.removeAndHide(<spartantwilight:hammer_ironwood>);
+JEI.removeAndHide(<spartantwilight:throwing_axe_ironwood>);
+JEI.removeAndHide(<spartantwilight:throwing_knife_ironwood>);
+JEI.removeAndHide(<spartantwilight:javelin_ironwood>);
+JEI.removeAndHide(<spartantwilight:mace_ironwood>);
+JEI.removeAndHide(<spartantwilight:glaive_ironwood>);
+
+//Knightmetal removal
+JEI.removeAndHide(<spartantwilight:katana_knightly>);
+JEI.removeAndHide(<spartantwilight:saber_knightly>);
+JEI.removeAndHide(<spartantwilight:rapier_knightly>);
+JEI.removeAndHide(<spartantwilight:dagger_knightly>);
+JEI.removeAndHide(<spartantwilight:spear_knightly>);
+JEI.removeAndHide(<spartantwilight:pike_knightly>);
+JEI.removeAndHide(<spartantwilight:lance_knightly>);
+JEI.removeAndHide(<spartantwilight:halberd_knightly>);
+JEI.removeAndHide(<spartantwilight:warhammer_knightly>);
+JEI.removeAndHide(<spartantwilight:hammer_knightly>);
+JEI.removeAndHide(<spartantwilight:throwing_axe_knightly>);
+JEI.removeAndHide(<spartantwilight:throwing_knife_knightly>);
+JEI.removeAndHide(<spartantwilight:battleaxe_knightly>);
+JEI.removeAndHide(<spartantwilight:boomerang_knightly>);
+JEI.removeAndHide(<spartantwilight:mace_knightly>);
+JEI.removeAndHide(<spartantwilight:staff_knightly>);
+
+var fieryIngot = <ore:ingotFiery>;
+var steeleaf = <ore:ingotSteeleaf>;
+var ironroot = <ore:ingotIronwood>;
+var knightIngot = <ore:ingotKnightmetal>;
+var witherHandle = <spartanfire:witherbone_handle>;
+var stick = <ore:stickWood>;
+
+//Fiery
+Anvil.addShapedFixed(<spartantwilight:katana_fiery>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}),[
+[null, null, null, fieryIngot],
+[null, null, fieryIngot, null],
+[null, fieryIngot, null, null],
+[witherHandle, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:hammer_fiery>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}),[
+[fieryIngot, fieryIngot, fieryIngot, fieryIngot],
+[fieryIngot, fieryIngot, fieryIngot, fieryIngot],
+[null, witherHandle, witherHandle, null],
+[null, witherHandle, witherHandle, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:halberd_fiery>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}),[
+[null, null, fieryIngot, fieryIngot],
+[null, fieryIngot, witherHandle, null],
+[null, witherHandle, null, null],
+[fieryIngot, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:throwing_axe_fiery>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}),[
+[witherHandle, fieryIngot, null, null],
+[null, fieryIngot, null, null],
+[null, null, null, null],
+[null, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:longbow_fiery>,[
+[witherHandle,stick,fieryIngot,fieryIngot],
+[stick,null,null,<betterwithmods:material:3>],
+[fieryIngot,null,null,<betterwithmods:material:3>],
+[fieryIngot,<betterwithmods:material:3>,<betterwithmods:material:3>,null]]);
+
+//Steeleaf
+Anvil.addShapedFixed(<spartantwilight:saber_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+[null, steeleaf, null, null],
+[null, steeleaf, null, null],
+[null, steeleaf, null, null],
+[steeleaf, witherHandle, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:dagger_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+[steeleaf, null, null, null],
+[witherHandle, null, null, null],
+[null, null, null, null],
+[null, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:rapier_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+[null, null, null, steeleaf],
+[null, null, steeleaf, null],
+[steeleaf, steeleaf, null, null],
+[witherHandle, steeleaf, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:throwing_knife_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+[witherHandle, steeleaf, null, null],
+[null, null, null, null],
+[null, null, null, null],
+[null, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:longbow_steeleaf>,[
+[witherHandle,stick,steeleaf,steeleaf],
+[stick,null,null,<betterwithmods:material:3>],
+[steeleaf,null,null,<betterwithmods:material:3>],
+[steeleaf,<betterwithmods:material:3>,<betterwithmods:material:3>,null]]);
+
+//Ironroot
+Anvil.addShapedFixed(<spartantwilight:staff_ironwood>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}),[
+[null, ironroot, null, null],
+[null, witherHandle, null, null],
+[null, witherHandle, null, null],
+[null ,ironroot, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:warhammer_ironwood>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}),[
+[null, ironroot, ironroot, ironroot],
+[null, ironroot, ironroot, ironroot],
+[null, null, witherHandle, null],
+[null, null, ironroot, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:battleaxe_ironwood>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}),[
+[ironroot, null, null, ironroot],
+[ironroot, ironroot, ironroot, ironroot],
+[ironroot, witherHandle, null, ironroot],
+[null, witherHandle, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:boomerang_ironwood>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}),[
+[ironroot, witherHandle, witherHandle, null],
+[witherHandle, null, null, null],
+[witherHandle, null, null, null],
+[null, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:longbow_ironwood>,[
+[witherHandle,stick,ironroot,ironroot],
+[stick,null,null,<betterwithmods:material:3>],
+[ironroot,null,null,<betterwithmods:material:3>],
+[ironroot,<betterwithmods:material:3>,<betterwithmods:material:3>,null]]);
+
+//Knightmetal
+Anvil.addShapedFixed(<spartantwilight:greatsword_knightly>,[
+[null, knightIngot, null, null],
+[knightIngot, knightIngot, knightIngot, null],
+[knightIngot, knightIngot, knightIngot, null],
+[knightIngot, witherHandle, knightIngot, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:longsword_knightly>,[
+[null, knightIngot, null, null],
+[null, knightIngot, null, null],
+[null, knightIngot, null, null],
+[knightIngot, witherHandle, knightIngot, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:glaive_knightly>,[
+[null, null, knightIngot, knightIngot],
+[null, null, witherHandle, knightIngot],
+[knightIngot, witherHandle, null, null],
+[witherHandle, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:javelin_knightly>,[
+[knightIngot, null, null, null],
+[knightIngot, null, null, null],
+[witherHandle, null, null, null],
+[null, null, null, null]]);
+
+Anvil.addShapedFixed(<spartantwilight:longbow_knightly>,[
+[witherHandle,stick,knightIngot,knightIngot],
+[stick,null,null,<betterwithmods:material:3>],
+[knightIngot,null,null,<betterwithmods:material:3>],
+[knightIngot,<betterwithmods:material:3>,<betterwithmods:material:3>,null]]);
+
 // Tools + Sword + Bow
 
 var dragonsteelFireTool = itemUtils.getItemsByRegexRegistryName("iceandfire:dragonsteel_fire_(axe|hoe|pickaxe|shovel|sword)") as IItemStack[];

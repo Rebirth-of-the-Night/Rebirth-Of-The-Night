@@ -10,6 +10,7 @@ mods.contenttweaker.VanillaFactory.createItem("dagger_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("longsword_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("saber_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("rapier_mold").register();
+mods.contenttweaker.VanillaFactory.createItem("katana_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("greatsword_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("hammer_mold").register();
 mods.contenttweaker.VanillaFactory.createItem("warhammer_mold").register();
