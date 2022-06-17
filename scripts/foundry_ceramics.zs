@@ -608,7 +608,7 @@ Casting.addRecipe(<minecraft:golden_leggings>, <liquid:gold>*((144*7)-(16*2*7)),
 Casting.addRecipe(<atop:mud_leggings>, <liquid:bronze>*((144*7)-(16*2*7)), <foundry:mold:16>);//bronze
 Casting.addRecipe(<iceandfire:armor_silver_metal_leggings>, <liquid:silver>*((144*7)-(16*2*7)), <foundry:mold:16>);//silver
 Casting.addRecipe(<dungeontactics:steel_leggings>, <liquid:steel>*((144*7)-(16*2*7)), <foundry:mold:16>);//steel
-Casting.addRecipe(<aether_legacy:gravitite_leggings>, <liquid:gravitite>*((144*7)-(16*2*7)), <foundry:mold:16>);//steel
+Casting.addRecipe(<aether_legacy:gravitite_leggings>, <liquid:gravitite>*((144*7)-(16*2*7)), <foundry:mold:16>);//gravitite
 Casting.addRecipe(<simpleores:adamantium_leggings>, <liquid:viridium>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//viridium
 Casting.addRecipe(<simpleores:mythril_leggings>, <liquid:mythril>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//mythril
 Casting.addRecipe(<simpleores:onyx_leggings>, <liquid:onyx_alloy>*((144*6)-(16*2*6)), <foundry:mold:16>, <betterwithmods:material:42>*6);//onyx
@@ -644,7 +644,7 @@ Casting.addRecipe(<minecraft:golden_sword>, <liquid:gold>*((144*2)-(16*2*2)), <f
 Casting.addRecipe(<atop:mud_sword>, <liquid:bronze>*((144*2)-(16*2*2)), <foundry:mold:10>, <spartanweaponry:material>);//bronze
 Casting.addRecipe(<iceandfire:silver_sword>, <liquid:silver>*((144*2)-(16*2*2)), <foundry:mold:10>, <spartanweaponry:material>);//silver
 Casting.addRecipe(<dungeontactics:steel_cutlass>, <liquid:steel>*((144*2)-(16*2*2)), <foundry:mold:10>, <spartanweaponry:material>);//steel
-Casting.addRecipe(<aether_legacy:gravitite_sword>, <liquid:gravitite>*((144*2)-(16*2*2)), <foundry:mold:10>, <spartanweaponry:material>);//steel
+Casting.addRecipe(<aether_legacy:gravitite_sword>, <liquid:gravitite>*((144*2)-(16*2*2)), <foundry:mold:10>, <spartanweaponry:material>);//gravitite
 Casting.addRecipe(<simpleores:adamantium_sword>, <liquid:viridium>*((144*4)-(16*2*4)), <foundry:mold:10>, <minecraft:blaze_rod>);//viridium
 Casting.addRecipe(<simpleores:mythril_sword>, <liquid:mythril>*((144*4)-(16*2*4)), <foundry:mold:10>, <minecraft:blaze_rod>);//mythril
 Casting.addRecipe(<simpleores:onyx_sword>, <liquid:onyx_alloy>*((144*4)-(16*2*6)), <foundry:mold:10>, <minecraft:blaze_rod>);//onyx
@@ -661,7 +661,7 @@ Casting.addRecipe(<minecraft:golden_pickaxe>, <liquid:gold>*((144*3)-(16*2*3)), 
 Casting.addRecipe(<atop:mud_pickaxe>, <liquid:bronze>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//bronze
 Casting.addRecipe(<iceandfire:silver_pickaxe>, <liquid:silver>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//silver
 Casting.addRecipe(<dungeontactics:steel_pickaxe>, <liquid:steel>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//steel
-Casting.addRecipe(<aether_legacy:gravitite_pickaxe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//steel
+Casting.addRecipe(<aether_legacy:gravitite_pickaxe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:8>, <ore:stickWood>*2);//gravitite
 Casting.addRecipe(<simpleores:adamantium_pickaxe>, <liquid:viridium>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//viridium
 Casting.addRecipe(<simpleores:mythril_pickaxe>, <liquid:mythril>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_pickaxe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:8>, <minecraft:blaze_rod>*2);//onyx
@@ -688,7 +688,7 @@ Casting.addRecipe(<minecraft:golden_axe>, <liquid:gold>*((144*3)-(16*2*3)), <fou
 Casting.addRecipe(<atop:mud_axe>, <liquid:bronze>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//bronze
 Casting.addRecipe(<iceandfire:silver_axe>, <liquid:silver>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//silver
 Casting.addRecipe(<dungeontactics:steel_axe>, <liquid:steel>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//steel
-Casting.addRecipe(<aether_legacy:gravitite_axe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);
+Casting.addRecipe(<aether_legacy:gravitite_axe>, <liquid:gravitite>*((144*3)-(16*2*3)), <foundry:mold:9>, <ore:stickWood>*2);//gravitite
 Casting.addRecipe(<simpleores:adamantium_axe>, <liquid:viridium>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//viridium
 Casting.addRecipe(<simpleores:mythril_axe>, <liquid:mythril>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_axe>, <liquid:onyx_alloy>*((144*5)-(16*2*5)), <foundry:mold:9>, <minecraft:blaze_rod>*2);//onyx
@@ -704,8 +704,8 @@ Casting.removeRecipe(<liquid:gold>*144, <foundry:mold:11>, <minecraft:stick>*2);
 Casting.addRecipe(<minecraft:golden_shovel>, <liquid:gold>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);
 Casting.addRecipe(<atop:mud_shovel>, <liquid:bronze>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//bronze
 Casting.addRecipe(<iceandfire:silver_shovel>, <liquid:silver>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//silver
-Casting.addRecipe(<aether_legacy:gravitite_shovel>, <liquid:gravitite>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//silver
 Casting.addRecipe(<dungeontactics:steel_shovel>, <liquid:steel>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//steel
+Casting.addRecipe(<aether_legacy:gravitite_shovel>, <liquid:gravitite>*((144)-(16*2)), <foundry:mold:11>, <ore:stickWood>*2);//gravitite
 Casting.addRecipe(<simpleores:adamantium_shovel>, <liquid:viridium>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//viridium
 Casting.addRecipe(<simpleores:mythril_shovel>, <liquid:mythril>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//mythril
 Casting.addRecipe(<simpleores:onyx_shovel>, <liquid:onyx_alloy>*((144*3)-(16*2*3)), <foundry:mold:11>, <minecraft:blaze_rod>*2);//onyx
@@ -735,7 +735,7 @@ Casting.addRecipe(<spartanweaponry:dagger_gold>, <liquid:gold>*(144-(16*2)), <co
 Casting.addRecipe(<spartanweaponry:dagger_bronze>, <liquid:bronze>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>);//bronze
 Casting.addRecipe(<spartanweaponry:dagger_silver>, <liquid:silver>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>);//silver
 Casting.addRecipe(<spartanweaponry:dagger_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>); //steel
-Casting.addRecipe(<spartancompat:dagger_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>); //steel
+Casting.addRecipe(<spartancompat:dagger_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:dagger_adamantium>, <liquid:viridium>*(144-(16*2)), <contenttweaker:dagger_mold>, <minecraft:blaze_rod>);//viridium
 Casting.addRecipe(<spartantwilight:dagger_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}), <liquid:steeleaf>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanfire:witherbone_handle>);//steeleaf
 
@@ -745,7 +745,7 @@ Casting.addRecipe(<spartanweaponry:longsword_gold>, <liquid:gold>*((144*4)-(16*2
 Casting.addRecipe(<spartanweaponry:longsword_bronze>, <liquid:bronze>*((144*4)-(16*2*4)), <contenttweaker:longsword_mold>, <spartanweaponry:material>);//bronze
 Casting.addRecipe(<spartanweaponry:longsword_silver>, <liquid:silver>*((144*4)-(16*2*4)), <contenttweaker:longsword_mold>, <spartanweaponry:material>);//silver
 Casting.addRecipe(<spartanweaponry:longsword_steel>, <liquid:steel>*((144*4)-(16*2*4)), <contenttweaker:longsword_mold>, <spartanweaponry:material>); //steel
-Casting.addRecipe(<spartancompat:longsword_gravitite>, <liquid:gravitite>*((144*4)-(16*2*4)), <contenttweaker:longsword_mold>, <spartanweaponry:material>); //steel
+Casting.addRecipe(<spartancompat:longsword_gravitite>, <liquid:gravitite>*((144*4)-(16*2*4)), <contenttweaker:longsword_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:longsword_mythril>, <liquid:mythril>*((144*5)-(16*2*5)), <contenttweaker:longsword_mold>, <minecraft:blaze_rod>);//mythril
 Casting.addRecipe(<spartantwilight:longsword_knightly>, <liquid:knightmetal>*((144*5)-(16*2*5)), <contenttweaker:longsword_mold>, <spartanfire:witherbone_handle>);//knightmetal
 
@@ -755,7 +755,7 @@ Casting.addRecipe(<spartanweaponry:saber_gold>, <liquid:gold>*((144*3)-(16*2*3))
 Casting.addRecipe(<spartanweaponry:saber_bronze>, <liquid:bronze>*((144*3)-(16*2*3)), <contenttweaker:saber_mold>, <spartanweaponry:material>);//bronze
 Casting.addRecipe(<spartanweaponry:saber_silver>, <liquid:silver>*((144*3)-(16*2*3)), <contenttweaker:saber_mold>, <spartanweaponry:material>);//silver
 Casting.addRecipe(<spartanweaponry:saber_steel>, <liquid:steel>*((144*3)-(16*2*3)), <contenttweaker:saber_mold>, <spartanweaponry:material>); //steel
-Casting.addRecipe(<spartancompat:saber_gravitite>, <liquid:gravitite>*((144*3)-(16*2*3)), <contenttweaker:saber_mold>, <spartanweaponry:material>); //steel
+Casting.addRecipe(<spartancompat:saber_gravitite>, <liquid:gravitite>*((144*3)-(16*2*3)), <contenttweaker:saber_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:saber_adamantium>, <liquid:viridium>*((144*4)-(16*2*4)), <contenttweaker:saber_mold>, <minecraft:blaze_rod>);//viridium
 Casting.addRecipe(<spartantwilight:saber_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}), <liquid:steeleaf>*((144*4)-(16*2*4)), <contenttweaker:saber_mold>, <spartanfire:witherbone_handle>);//steeleaf
 
@@ -785,7 +785,7 @@ Casting.addRecipe(<spartanweaponry:greatsword_gold>, <liquid:gold>*((144*6)-(16*
 Casting.addRecipe(<spartanweaponry:greatsword_bronze>, <liquid:bronze>*((144*6)-(16*2*6)), <contenttweaker:greatsword_mold>, <spartanweaponry:material>);//bronze
 Casting.addRecipe(<spartanweaponry:greatsword_silver>, <liquid:silver>*((144*6)-(16*2*6)), <contenttweaker:greatsword_mold>, <spartanweaponry:material>);//silver
 Casting.addRecipe(<spartanweaponry:greatsword_steel>, <liquid:steel>*((144*6)-(16*2*6)), <contenttweaker:greatsword_mold>, <spartanweaponry:material>); //steel
-Casting.addRecipe(<spartancompat:greatsword_gravitite>, <liquid:gravitite>*((144*6)-(16*2*6)), <contenttweaker:greatsword_mold>, <spartanweaponry:material>); //steel
+Casting.addRecipe(<spartancompat:greatsword_gravitite>, <liquid:gravitite>*((144*6)-(16*2*6)), <contenttweaker:greatsword_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:greatsword_onyx>, <liquid:onyx_alloy>*((144*9)-(16*2*9)), <contenttweaker:greatsword_mold>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<spartantwilight:greatsword_knightly>, <liquid:knightmetal>*((144*9)-(16*2*9)), <contenttweaker:greatsword_mold>, <spartanfire:witherbone_handle>*2);//knightmetal
 
@@ -796,7 +796,7 @@ Casting.addRecipe(<spartanweaponry:hammer_gold>, <liquid:gold>*((144*4)-(16*2*4)
 Casting.addRecipe(<spartanweaponry:hammer_bronze>, <liquid:bronze>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <spartanweaponry:material>);//bronze
 Casting.addRecipe(<spartanweaponry:hammer_silver>, <liquid:silver>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <spartanweaponry:material>);//silver
 Casting.addRecipe(<spartanweaponry:hammer_steel>, <liquid:steel>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <spartanweaponry:material>); //steel
-Casting.addRecipe(<spartancompat:hammer_gravitite>, <liquid:gravitite>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <spartanweaponry:material>); //steel
+Casting.addRecipe(<spartancompat:hammer_gravitite>, <liquid:gravitite>*((144*4)-(16*2*4)), <contenttweaker:hammer_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:hammer_onyx>, <liquid:onyx_alloy>*((144*8)-(16*2*8)), <contenttweaker:hammer_mold>, <minecraft:blaze_rod>*4);//onyx
 Casting.addRecipe(<spartantwilight:hammer_fiery>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}), <liquid:fiery>*((144*8)-(16*2*8)), <contenttweaker:hammer_mold>, <spartanfire:witherbone_handle>*4);//fiery
 
@@ -806,7 +806,7 @@ Casting.addRecipe(<spartanweaponry:warhammer_gold>, <liquid:gold>*((144*3)-(16*2
 Casting.addRecipe(<spartanweaponry:warhammer_bronze>, <liquid:bronze>*((144*3)-(16*2*3)), <contenttweaker:warhammer_mold>, <spartanweaponry:material>);//bronze
 Casting.addRecipe(<spartanweaponry:warhammer_silver>, <liquid:silver>*((144*3)-(16*2*3)), <contenttweaker:warhammer_mold>, <spartanweaponry:material>);//silver
 Casting.addRecipe(<spartanweaponry:warhammer_steel>, <liquid:steel>*((144*3)-(16*2*3)), <contenttweaker:warhammer_mold>, <spartanweaponry:material>); //steel
-Casting.addRecipe(<spartancompat:warhammer_gravitite>, <liquid:gravitite>*((144*3)-(16*2*3)), <contenttweaker:warhammer_mold>, <spartanweaponry:material>); //steel
+Casting.addRecipe(<spartancompat:warhammer_gravitite>, <liquid:gravitite>*((144*3)-(16*2*3)), <contenttweaker:warhammer_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:warhammer_onyx>, <liquid:onyx_alloy>*((144*6)-(16*2*6)), <contenttweaker:warhammer_mold>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<spartantwilight:warhammer_ironwood>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}), <liquid:ironwood>*((144*6)-(16*2*6)), <contenttweaker:warhammer_mold>, <spartanfire:witherbone_handle>*2);//ironroot
 
@@ -817,7 +817,7 @@ Casting.addRecipe(<spartanweaponry:spear_gold>, <liquid:gold>*(144-(16*2)), <con
 Casting.addRecipe(<spartanweaponry:spear_bronze>, <liquid:bronze>*(144-(16*2)), <contenttweaker:spear_mold>, <spartanweaponry:material:1>);//bronze
 Casting.addRecipe(<spartanweaponry:spear_silver>, <liquid:silver>*(144-(16*2)), <contenttweaker:spear_mold>, <spartanweaponry:material:1>);//silver
 Casting.addRecipe(<spartanweaponry:spear_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:spear_mold>, <spartanweaponry:material:1>);//steel
-Casting.addRecipe(<spartancompat:spear_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:spear_mold>, <spartanweaponry:material:1>);//steel
+Casting.addRecipe(<spartancompat:spear_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:spear_mold>, <spartanweaponry:material:1>);//gravitite
 Casting.addRecipe(<spartancompat:spear_adamantium>, <liquid:viridium>*((144*2)-(16*2*2)), <contenttweaker:spear_mold>, <minecraft:blaze_rod>*2);//viridium
 
 // HALBERD //
@@ -826,7 +826,7 @@ Casting.addRecipe(<spartanweaponry:halberd_gold>, <liquid:gold>*((144*4)-(16*2*4
 Casting.addRecipe(<spartanweaponry:halberd_bronze>, <liquid:bronze>*((144*4)-(16*2*4)), <contenttweaker:halberd_mold>, <spartanweaponry:material:1>);//bronze
 Casting.addRecipe(<spartanweaponry:halberd_silver>, <liquid:silver>*((144*4)-(16*2*4)), <contenttweaker:halberd_mold>, <spartanweaponry:material:1>);//silver
 Casting.addRecipe(<spartanweaponry:halberd_steel>, <liquid:steel>*((144*4)-(16*2*4)), <contenttweaker:halberd_mold>, <spartanweaponry:material:1>);//steel
-Casting.addRecipe(<spartancompat:halberd_gravitite>, <liquid:gravitite>*((144*4)-(16*2*4)), <contenttweaker:halberd_mold>, <spartanweaponry:material:1>);//steel
+Casting.addRecipe(<spartancompat:halberd_gravitite>, <liquid:gravitite>*((144*4)-(16*2*4)), <contenttweaker:halberd_mold>, <spartanweaponry:material:1>);//gravitite
 Casting.addRecipe(<spartancompat:halberd_onyx>, <liquid:onyx_alloy>*((144*4)-(16*2*4)), <contenttweaker:halberd_mold>, <minecraft:blaze_rod>*2);//onyx
 Casting.addRecipe(<spartantwilight:halberd_fiery>.withTag({ench: [{lvl: 2 as short, id: 20 as short}]}), <liquid:fiery>*((144*4)-(16*2*4)), <contenttweaker:halberd_mold>, <spartanfire:witherbone_handle>*2);//fiery
 
@@ -837,7 +837,7 @@ Casting.addRecipe(<spartanweaponry:pike_gold>, <liquid:gold>*(144-(16*2)), <cont
 Casting.addRecipe(<spartanweaponry:pike_bronze>, <liquid:bronze>*(144-(16*2)), <contenttweaker:pike_mold>, <spartanweaponry:material:1>*2);//bronze
 Casting.addRecipe(<spartanweaponry:pike_silver>, <liquid:silver>*(144-(16*2)), <contenttweaker:pike_mold>, <spartanweaponry:material:1>*2);//silver
 Casting.addRecipe(<spartanweaponry:pike_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:pike_mold>, <spartanweaponry:material:1>*2);//steel
-Casting.addRecipe(<spartancompat:pike_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:pike_mold>, <spartanweaponry:material:1>*2);//steel
+Casting.addRecipe(<spartancompat:pike_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:pike_mold>, <spartanweaponry:material:1>*2);//gravitite
 Casting.addRecipe(<spartancompat:spear_onyx>, <liquid:onyx_alloy>*((144*2)-(16*2*2)), <contenttweaker:pike_mold>, <minecraft:blaze_rod>*2);//onyx
 
 // LANCE //
@@ -846,7 +846,7 @@ Casting.addRecipe(<spartanweaponry:lance_gold>, <liquid:gold>*(144-(16*2)), <con
 Casting.addRecipe(<spartanweaponry:lance_bronze>, <liquid:bronze>*(144-(16*2)), <contenttweaker:lance_mold>, <spartanweaponry:material>*3);//bronze
 Casting.addRecipe(<spartanweaponry:lance_silver>, <liquid:silver>*(144-(16*2)), <contenttweaker:lance_mold>, <spartanweaponry:material>*3);//silver
 Casting.addRecipe(<spartanweaponry:lance_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:lance_mold>, <spartanweaponry:material>*3);//steel
-Casting.addRecipe(<spartancompat:lance_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:lance_mold>, <spartanweaponry:material>*3);//steel
+Casting.addRecipe(<spartancompat:lance_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:lance_mold>, <spartanweaponry:material>*3);//gravitite
 Casting.addRecipe(<spartancompat:lance_mythril>, <liquid:mythril>*((144*3)-(16*2*3)), <contenttweaker:lance_mold>, <minecraft:blaze_rod>*3);//mythril
 
 // THROWING KNIFE //
@@ -889,7 +889,7 @@ Casting.addRecipe(<spartanweaponry:boomerang_gold>, <liquid:gold>*(144-(16*2)), 
 Casting.addRecipe(<spartanweaponry:boomerang_bronze>, <liquid:bronze>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//bronze
 Casting.addRecipe(<spartanweaponry:boomerang_silver>, <liquid:silver>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//silver
 Casting.addRecipe(<spartanweaponry:boomerang_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//steel
-Casting.addRecipe(<spartancompat:boomerang_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//steel
+Casting.addRecipe(<spartancompat:boomerang_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:boomerang_mold>, <ore:plankWood>*4);//gravitite
 Casting.addRecipe(<spartancompat:boomerang_mythril>, <liquid:mythril>*(144-(16*2)), <contenttweaker:boomerang_mold>, <minecraft:blaze_rod>*4);//mythril
 Casting.addRecipe(<spartantwilight:boomerang_ironwood>.withTag({ench: [{lvl: 1 as short, id: 19 as short}]}), <liquid:ironwood>*(144-(16*2)), <contenttweaker:boomerang_mold>, <spartanfire:witherbone_handle>*4);//ironroot
 
