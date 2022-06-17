@@ -98,6 +98,8 @@ stall-reports/
 
 *.nps
 
+/asm_dump*
+
 .ReAuth.cfg
 config/acronym/saved/
 config/antiqueatlas/markers.json
