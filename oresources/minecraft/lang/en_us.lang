@@ -1,3 +1,7 @@
+selectWorld.cheats=Commands (recommended)
+selectWorld.allowCommands=Allow Commands (recommended):
+selectWorld.allowCommands.info=Commands are used for invasions
+
 tile.anvil.name=Iron Anvil
 tile.anvil.intact.name=Iron Anvil
 tile.anvil.slightlyDamaged.name=Damaged Iron Anvil
