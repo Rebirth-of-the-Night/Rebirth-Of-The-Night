@@ -1,0 +1,24 @@
+setIcon(<rustic:book>)
+setTitle("Farmer's Tattered Almanac")
+setDescription("Find the Farmer's Tattered Almanac.")
+
+
+addParent("triumph:advancements/progression/root")
+
+addRewardFunction("triumph:rusticAlmanac")
+
+
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(true)
+
+criteria = addCriteria("Farmer's Tattered Almanac", "minecraft:inventory_changed")
+criteria.addItem("rustic:book")
+
+hideLines()
+
+alwaysVisible()
+setPos(-55, 0)
