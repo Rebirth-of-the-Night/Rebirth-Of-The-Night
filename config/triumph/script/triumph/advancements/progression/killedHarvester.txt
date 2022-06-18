@@ -1,6 +1,6 @@
 setIcon(<harvestersnight:harvester_scythe>)
 setTitle("A Bountiful Harvest")
-setDescription("Kill The Harvester.")
+setDescription("Kill The Harvester. Required for entering the Nether!")
 
 addRewardFunction("triumph:killedHarvester")
 

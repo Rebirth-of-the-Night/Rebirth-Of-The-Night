@@ -777,25 +777,25 @@ Anvil.addShapedFixed(<spartantwilight:longbow_fiery>,[
 [fieryIngot,<betterwithmods:material:3>,<betterwithmods:material:3>,null]]);
 
 //Steeleaf
-Anvil.addShapedFixed(<spartantwilight:saber_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+Anvil.addShapedFixed(<spartantwilight:saber_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}),[
 [null, steeleaf, null, null],
 [null, steeleaf, null, null],
 [null, steeleaf, null, null],
 [steeleaf, witherHandle, null, null]]);
 
-Anvil.addShapedFixed(<spartantwilight:dagger_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+Anvil.addShapedFixed(<spartantwilight:dagger_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}),[
 [steeleaf, null, null, null],
 [witherHandle, null, null, null],
 [null, null, null, null],
 [null, null, null, null]]);
 
-Anvil.addShapedFixed(<spartantwilight:rapier_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+Anvil.addShapedFixed(<spartantwilight:rapier_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}),[
 [null, null, null, steeleaf],
 [null, null, steeleaf, null],
 [steeleaf, steeleaf, null, null],
 [witherHandle, steeleaf, null, null]]);
 
-Anvil.addShapedFixed(<spartantwilight:throwing_knife_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}),[
+Anvil.addShapedFixed(<spartantwilight:throwing_knife_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}),[
 [witherHandle, steeleaf, null, null],
 [null, null, null, null],
 [null, null, null, null],

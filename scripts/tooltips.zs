@@ -628,6 +628,10 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <spartancompat:longbow_gravitite:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
 <spartanfire:longbow_fire_dragonbone:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
 <spartanfire:longbow_ice_dragonbone:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<spartantwilight:longbow_steeleaf:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<spartantwilight:longbow_ironwood:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<spartantwilight:longbow_fiery:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
+<spartantwilight:longbow_knightly:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.3"));
 <spartanfire:longbow_ice_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
 <spartanfire:longbow_fire_dragonsteel:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.4"));
 <spartanweaponry:longbow_electrum:*>.addTooltip(format.darkAqua("Damage Multiplier: ") + format.gray("x1.6"));

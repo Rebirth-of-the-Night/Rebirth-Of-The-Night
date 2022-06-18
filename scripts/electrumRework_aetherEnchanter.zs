@@ -753,6 +753,11 @@ Enchanter.registerEnchantment(<twilightforest:ironwood_axe>, 6000);
 Enchanter.registerEnchantment(<twilightforest:ironwood_shovel>, 6000);
 Enchanter.registerEnchantment(<twilightforest:ironwood_hoe>, 6000);
 Enchanter.registerEnchantment(<twilightforest:ironwood_sword>, 6000);
+Enchanter.registerEnchantment(<spartantwilight:warhammer_ironwood>, 6000);
+Enchanter.registerEnchantment(<spartantwilight:longbow_ironwood>, 6000);
+Enchanter.registerEnchantment(<spartantwilight:battleaxe_ironwood>, 6000);
+Enchanter.registerEnchantment(<spartantwilight:boomerang_ironwood>, 6000);
+Enchanter.registerEnchantment(<spartantwilight:staff_ironwood>, 6000);
 
 //Steeleaf
 Enchanter.registerEnchantment(<twilightforest:steeleaf_helmet>, 6000);
@@ -765,6 +770,11 @@ Enchanter.registerEnchantment(<twilightforest:steeleaf_axe>, 7700);
 Enchanter.registerEnchantment(<twilightforest:steeleaf_shovel>, 7700);
 Enchanter.registerEnchantment(<twilightforest:steeleaf_hoe>, 7700);
 Enchanter.registerEnchantment(<twilightforest:steeleaf_sword>, 7700);
+Enchanter.registerEnchantment(<spartantwilight:saber_steeleaf>, 7700);
+Enchanter.registerEnchantment(<spartantwilight:rapier_steeleaf>, 7700);
+Enchanter.registerEnchantment(<spartantwilight:dagger_steeleaf>, 7700);
+Enchanter.registerEnchantment(<spartantwilight:throwing_knife_steeleaf>, 7700);
+Enchanter.registerEnchantment(<spartantwilight:longbow_steeleaf>, 7700);
 
 //Fiery Iron
 Enchanter.registerEnchantment(<twilightforest:fiery_helmet>, 7700);
@@ -774,6 +784,11 @@ Enchanter.registerEnchantment(<twilightforest:fiery_boots>, 7700);
 
 Enchanter.registerEnchantment(<twilightforest:fiery_pickaxe>, 9600);
 Enchanter.registerEnchantment(<twilightforest:fiery_sword>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:katana_fiery>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:halberd_fiery>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:hammer_fiery>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:throwing_axe_fiery>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:longbow_fiery>, 9600);
 
 //Knightly
 Enchanter.registerEnchantment(<twilightforest:knightmetal_helmet>, 7700);
@@ -784,6 +799,11 @@ Enchanter.registerEnchantment(<twilightforest:knightmetal_boots>, 7700);
 Enchanter.registerEnchantment(<twilightforest:knightmetal_pickaxe>, 9600);
 Enchanter.registerEnchantment(<twilightforest:knightmetal_sword>, 9600);
 Enchanter.registerEnchantment(<twilightforest:knightmetal_axe>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:greatsword_knightly>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:longsword_knightly>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:longbow_knightly>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:javelin_knightly>, 9600);
+Enchanter.registerEnchantment(<spartantwilight:glaive_knightly>, 9600);
 
 //Phantom & Naga
 Enchanter.registerEnchantment(<twilightforest:phantom_helmet>, 7700);

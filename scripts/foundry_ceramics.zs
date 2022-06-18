@@ -737,7 +737,7 @@ Casting.addRecipe(<spartanweaponry:dagger_silver>, <liquid:silver>*(144-(16*2)),
 Casting.addRecipe(<spartanweaponry:dagger_steel>, <liquid:steel>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>); //steel
 Casting.addRecipe(<spartancompat:dagger_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:dagger_adamantium>, <liquid:viridium>*(144-(16*2)), <contenttweaker:dagger_mold>, <minecraft:blaze_rod>);//viridium
-Casting.addRecipe(<spartantwilight:dagger_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}), <liquid:steeleaf>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanfire:witherbone_handle>);//steeleaf
+Casting.addRecipe(<spartantwilight:dagger_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}), <liquid:steeleaf>*(144-(16*2)), <contenttweaker:dagger_mold>, <spartanfire:witherbone_handle>);//steeleaf
 
 // LONGSWORD //
 Casting.addRecipe(<spartanweaponry:longsword_iron>, <liquid:iron>*((144*4)-(16*2*4)), <contenttweaker:longsword_mold>, <spartanweaponry:material>);//iron
@@ -757,7 +757,7 @@ Casting.addRecipe(<spartanweaponry:saber_silver>, <liquid:silver>*((144*3)-(16*2
 Casting.addRecipe(<spartanweaponry:saber_steel>, <liquid:steel>*((144*3)-(16*2*3)), <contenttweaker:saber_mold>, <spartanweaponry:material>); //steel
 Casting.addRecipe(<spartancompat:saber_gravitite>, <liquid:gravitite>*((144*3)-(16*2*3)), <contenttweaker:saber_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:saber_adamantium>, <liquid:viridium>*((144*4)-(16*2*4)), <contenttweaker:saber_mold>, <minecraft:blaze_rod>);//viridium
-Casting.addRecipe(<spartantwilight:saber_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}), <liquid:steeleaf>*((144*4)-(16*2*4)), <contenttweaker:saber_mold>, <spartanfire:witherbone_handle>);//steeleaf
+Casting.addRecipe(<spartantwilight:saber_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}), <liquid:steeleaf>*((144*4)-(16*2*4)), <contenttweaker:saber_mold>, <spartanfire:witherbone_handle>);//steeleaf
 
 // RAPIER //
 Casting.addRecipe(<spartanweaponry:rapier_iron>, <liquid:iron>*((144*4)-(16*2*4)), <contenttweaker:rapier_mold>, <spartanweaponry:material>);//iron
@@ -767,7 +767,7 @@ Casting.addRecipe(<spartanweaponry:rapier_silver>, <liquid:silver>*((144*4)-(16*
 Casting.addRecipe(<spartanweaponry:rapier_steel>, <liquid:steel>*((144*4)-(16*2*4)), <contenttweaker:rapier_mold>, <spartanweaponry:material>); //steel
 Casting.addRecipe(<spartancompat:rapier_gravitite>, <liquid:gravitite>*((144*4)-(16*2*4)), <contenttweaker:rapier_mold>, <spartanweaponry:material>); //gravitite
 Casting.addRecipe(<spartancompat:rapier_mythril>, <liquid:mythril>*((144*5)-(16*2*5)), <contenttweaker:rapier_mold>, <minecraft:blaze_rod>);//mythril
-Casting.addRecipe(<spartantwilight:rapier_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}), <liquid:steeleaf>*((144*5)-(16*2*5)), <contenttweaker:rapier_mold>, <spartanfire:witherbone_handle>);//steeleaf
+Casting.addRecipe(<spartantwilight:rapier_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}), <liquid:steeleaf>*((144*5)-(16*2*5)), <contenttweaker:rapier_mold>, <spartanfire:witherbone_handle>);//steeleaf
 
 //KATANA //
 Casting.addRecipe(<spartanweaponry:katana_iron>, <liquid:iron>*((144*2)-(16*2*2)), <contenttweaker:katana_mold>, <spartanweaponry:material>);//iron
@@ -858,7 +858,7 @@ Casting.addRecipe(<spartanweaponry:throwing_knife_steel>, <liquid:steel>*(144-(1
 Casting.addRecipe(<spartancompat:throwing_knife_gravitite>, <liquid:gravitite>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanweaponry:material>);//gravitite
 Casting.addRecipe(<spartancompat:throwing_knife_mythril>, <liquid:mythril>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <minecraft:blaze_rod>);//mythril
 // Casting.addRecipe(<spartancompat:throwing_knife_adamantium>, <liquid:viridium>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <minecraft:blaze_rod>);//viridium
-Casting.addRecipe(<spartantwilight:throwing_knife_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 162 as short}]}), <liquid:steeleaf>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanfire:witherbone_handle>);//steeleaf
+Casting.addRecipe(<spartantwilight:throwing_knife_steeleaf>.withTag({ench: [{lvl: 2 as short, id: 21 as short}]}), <liquid:steeleaf>*(144-(16*2)), <contenttweaker:throwing_knife_mold>, <spartanfire:witherbone_handle>);//steeleaf
 
 // THROWING AXE //
 Casting.addRecipe(<spartanweaponry:throwing_axe_copper>, <liquid:copper>*((144*2)-(16*2*2)), <contenttweaker:throwing_axe_mold>, <spartanweaponry:material>);//copper
