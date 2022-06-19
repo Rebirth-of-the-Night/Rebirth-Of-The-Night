@@ -519,6 +519,8 @@ mods.jei.JEI.addDescription(<nyx:crystal>,"Loses energy over time. When at zero 
 <aether_legacy:enchanted_blueberry:*>.addTooltip("Hippogryph treat.");
 <minecraft:torch:*>.addTooltip("Visible light attracts mobs.");
 
+<iceandfire:sapphire_gem>.addTooltip("This sapphire seems too polished to use in many recipes.");
+
 <contenttweaker:ancient_cache:*>.addTooltip(format.darkRed("What, at long last, can be freed once more?"));
 
 // Bombs
