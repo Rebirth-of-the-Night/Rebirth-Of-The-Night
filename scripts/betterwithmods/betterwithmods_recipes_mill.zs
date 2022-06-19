@@ -30,6 +30,13 @@ Mill.remove([<betterwithaddons:brick_stained:13>]);
 Mill.remove([<betterwithaddons:brick_stained:14>]);
 Mill.remove([<betterwithaddons:brick_stained:15>]);
 
+// Dread Slate Processing
+Mill.builder()
+.buildRecipe([<contenttweaker:raw_dread_slate>], [<adpother:dreadmist>])
+.setPriority(8)
+.setGrindType("minecraft:entity.lightning.thunder")
+.build();
+
 // Extra ground netherrack
 Mill.builder()
 .buildRecipe([<minecraft:netherrack>], [<betterwithmods:material:15>*4])
@@ -185,11 +192,4 @@ Mill.builder()
 .buildRecipe([<contenttweaker:limestone_cobble>], [<pyrotech:material:8>*3])
 .setPriority(3)
 .setGrindType("mowziesmobs:geomancy.breakmedium3")
-.build();
-
-// Dread Slate Processing
-Mill.builder()
-.buildRecipe([<contenttweaker:raw_dread_slate>], [<adpother:dreadmist>])
-.setPriority(8)
-.setGrindType("minecraft:entity.lightning.thunder")
 .build();
