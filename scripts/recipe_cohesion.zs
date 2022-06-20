@@ -21,6 +21,10 @@ recipes.remove(<iceandfire:myrmex_jungle_sword_venom>);
 recipes.remove(<iceandfire:amphithere_macuahuitl>);
 recipes.remove(<twilightforest:giant_sword>);
 
+recipes.addShaped("Bronze_Dagger_Stymph", <spartanweaponry:dagger_bronze>,
+ [[symphalianbirdfeather],
+  [handle]]);
+
 //Addition of weapon recipes that involve stick > handle + crossbow
 
 val wood = <ore:plankWood>;
@@ -150,10 +154,6 @@ recipes.addShaped("Silver_Sword", <iceandfire:silver_sword>,
 recipes.addShaped("Hippogryph_Sword", hippogryph_sword,
  [[null,hippogryphtalon,null],
   [feather,iron,feather],
-  [null,handle,null]]);
-recipes.addShaped("Stymphalian_Bird_Dagger", stymphalian_bird_dagger,
- [[null,symphalianbirdfeather,null],
-  [null,symphalianbirdfeather,null],
   [null,handle,null]]);
 recipes.addShaped("Golden_Sword", goldensword,
  [[null,gold,null],

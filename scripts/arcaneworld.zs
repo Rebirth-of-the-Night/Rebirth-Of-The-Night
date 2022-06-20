@@ -64,6 +64,7 @@ RecipeBuilder.get("mage")
 //ArcaneWorld.createRitualSummon(String name, String displayName, String entity, IIngredient... inputs)
 ArcaneWorld.createRitualSummon("pixie", "Pixie Calling", "iceandfire:if_pixie", [<contenttweaker:fae_rune>.anyDamage().transformDamage(),<ore:Gem_highQuality>]).build();
 ArcaneWorld.createRitualSummon("mogus", "Mogus Calling", "netherex:mogus", [<contenttweaker:nature_quintessence>,<ore:mushroomAny>]).build();
+ArcaneWorld.createRitualSummon("grovesprite", "Grove Sprite Calling", "primitivemobs:grovesprite", [<contenttweaker:life_quintessence>,<ore:mundaneSapling>]).build();
 //Item summoning
 //ArcaneWorld.createRitualCreateItem(String name, String displayName, IItemStack result, IIngredient... inputs)
 ArcaneWorld.createRitualCreateItem("undying_heart", "Heart Curse", <mod_lavacow:undyingheart>, [<contenttweaker:plague_rune>.anyDamage().transformDamage(),<defiledlands:black_heart>]).build();

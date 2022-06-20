@@ -69,7 +69,6 @@ recipes.addShapeless("dynamite_tnt",<betterwithmods:dynamite_bundle>*4,[<minecra
 recipes.remove(<rats:feral_bagh_nakhs>);
 JEI.removeAndHide(<rats:feral_bagh_nakhs>);
 
-recipes.remove(<iceandfire:stymphalian_bird_dagger>);
 JEI.removeAndHide(<iceandfire:stymphalian_bird_dagger>);
 
 recipes.remove(<spartanweaponry:arrow_explosive>);
