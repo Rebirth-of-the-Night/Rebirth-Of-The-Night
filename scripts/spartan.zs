@@ -316,11 +316,11 @@ for x, weapon in throwingWeapons {
 /* var skyrootWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!handle_|pole_|crossbow_|throwing_axe_|throwing_knife_)skyroot") as IItemStack[];
 var holystoneWeapon = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)holystone") as IItemStack[]; */
 var gravititeSpart = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)gravitite") as IItemStack[];
-var zaniteSpart  = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)zanite") as IItemStack[];
+// var zaniteSpart  = itemUtils.getItemsByRegexRegistryName("spartancompat:.*(?<!crossbow_|throwing_axe_|throwing_knife_)zanite") as IItemStack[];
 
 var craftSpartMap = {
     [<ore:ingotGravitite>] : gravititeSpart,
-    [<contenttweaker:zanite_ingot>] : zaniteSpart,
+    // [<contenttweaker:zanite_ingot>] : zaniteSpart,
 } as IItemStack[][IIngredient[]];
 
 var counter = 0;
@@ -328,129 +328,129 @@ var handle = <spartanweaponry:material:0>;
 var pole = <spartanweaponry:material:1>;
 
 for aetherMat, weapon in craftSpartMap {
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0],aetherMat[0],aetherMat[0]],
         [aetherMat[0],<ore:stickWood>,aetherMat[0]],
         [null,handle,null]
     ]);//battleaxe 0
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0],<ore:plankWood>,<ore:plankWood>],
         [<ore:plankWood>,null,null],
         [<ore:plankWood>,null,null]
     ]);//boomerang 1
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0]],
         [handle]
     ]);//dagger 2
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,aetherMat[0]],
         [null,aetherMat[0]],
         [aetherMat[0],pole]
     ]);//glaive 3
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,aetherMat[0],null],
         [aetherMat[0],aetherMat[0],aetherMat[0]],
         [aetherMat[0],handle,aetherMat[0]]
     ]);//greatsword 4
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,aetherMat[0]],
         [aetherMat[0],aetherMat[0]],
         [aetherMat[0],pole]
     ]);//halberd 5
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0],aetherMat[0],aetherMat[0]],
         [aetherMat[0],aetherMat[0],aetherMat[0]],
         [null,handle,null]
     ]);//hammer 6
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [pole,aetherMat[0]]
     ]);//javelin 7
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,null,aetherMat[0]],
         [null,aetherMat[0],null],
         [handle,null,null]
     ]);//katana 8
     
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0]],
         [pole],
         [handle]
     ]);//lance 9
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [handle,<ore:stickWood>,aetherMat[0]],
         [<ore:stickWood>,null,<minecraft:string>],
         [aetherMat[0],<minecraft:string>,<minecraft:string>]
     ]);//longbow 10
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,aetherMat[0],null],
         [null,aetherMat[0],null],
         [aetherMat[0],handle,aetherMat[0]]
     ]);//longsword 11
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,aetherMat[0],aetherMat[0]],
         [null,<ore:stickWood>,aetherMat[0]],
         [handle,null,null]
     ]);//mace 12
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0]],
         [pole],
         [pole]
     ]);//pike 13
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,null,aetherMat[0]],
         [aetherMat[0],aetherMat[0],null],
         [handle,aetherMat[0],null]
     ]);//rapier 14
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,aetherMat[0]],
         [null,aetherMat[0]],
         [aetherMat[0],handle]
     ]);//saber 15
     
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0]],
         [pole]
     ]);//spear 16
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [aetherMat[0]],
         [pole],
         [aetherMat[0]]
     ]);//staff 17
 
     counter += 1;
-    recipes.addShaped("spartangen_"~weapon[counter].id.split(":")[1], weapon[counter], [
+    recipes.addShaped("spartangen_"~weapon[counter].definition.id.split(":")[1], weapon[counter], [
         [null,aetherMat[0]],
         [aetherMat[0],aetherMat[0]],
         [null,handle]
