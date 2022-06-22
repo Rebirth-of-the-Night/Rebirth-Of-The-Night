@@ -227,15 +227,20 @@ recipes.addShapeless("brown_dye_purple",<biomesoplenty:brown_dye>*2,
  
 //Other plant recipes
 
-recipes.addShapeless("cut_rose",<biomesoplenty:flower_1:5>*3, //Recipe for classic (BoP-1.5) rose
+recipes.addShapeless("cut_rose",<biomesoplenty:flower_1:5>*3, // Recipe for classic (BoP-1.5) rose
  [<simpleores:onyx_shears>|<simpleores:adamantium_shears>|<simpleores:mythril_shears>|<minecraft:shears>.anyDamage().transformDamage(),<minecraft:double_plant:4>]);
  
-recipes.addShaped("wither_rose",<futuremc:wither_rose>, //Recipe for wither rose
+recipes.addShaped("wither_rose",<futuremc:wither_rose>, // Recipe for wither rose
 [[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],
 [<quark:black_ash>, <biomesoplenty:flower_1:5>, <quark:black_ash>],
 [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]]);
 
-recipes.addShaped("regeneration_garden",<dungeontactics:flower_sanguine>, //Recipe for sanguine rose
+recipes.addShaped("thorn_rose",<twilightforest:thorn_rose>, // Recipe for thorn rose
+[[<netherex:thornstalk>, <netherex:thornstalk>, <netherex:thornstalk>],
+[<netherex:thornstalk>, <betterwithaddons:material:3>, <netherex:thornstalk>],
+[<netherex:thornstalk>, <netherex:thornstalk>, <netherex:thornstalk>]]);
+
+recipes.addShaped("regeneration_garden",<dungeontactics:flower_sanguine>, // Recipe for sanguine rose
 [[<scalinghealth:crystalshard>, <futuremc:wither_rose>, <scalinghealth:crystalshard>],
-[<futuremc:wither_rose>, <betterwithaddons:material:3>, <futuremc:wither_rose>],
+[<futuremc:wither_rose>, <twilightforest:thorn_rose>, <futuremc:wither_rose>],
 [<scalinghealth:crystalshard>, <futuremc:wither_rose>, <scalinghealth:crystalshard>]]);

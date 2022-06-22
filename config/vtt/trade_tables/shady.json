@@ -121,6 +121,13 @@
 				Count:{min:5,max:8}}
 		},
 		{
+			action:"add", CareerLevel:4, maxUses:1, rewardExp:true, chance:0.5,
+				buy:{id:"contenttweaker:nethercoin",
+				Count:{min:15,max:25}},
+				sell:{id:"dynamictreesttf:darkwoodseed",
+				Count:1}
+		},
+		{
 			action:"add", CareerLevel:4, maxUses:1, rewardExp:true, chance:0.25,
 				buy:{id:"contenttweaker:nethercoin",
 				Count:{min:48,max:56}},

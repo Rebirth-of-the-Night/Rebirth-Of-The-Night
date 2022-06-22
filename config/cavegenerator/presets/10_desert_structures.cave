@@ -1,0 +1,32 @@
+{
+  enabled: true
+  biomes: {
+    names: [ "minecraft:desert", "minecraft:desert_hills", "biomesoplenty:xeric_shrubland" ]
+  }
+  structures: [
+    {
+      name: thorny_vine_x2
+      matchers: [ "sand", "stone", "undergroundbiomes:igneous_sand", "pyrotech:limestone", "minecraft:sandstone" ]
+      height: [ 40, 60 ]
+      directions: down
+      chance: 1
+      count: 1
+      offset: [ 0, -1, 0 ]
+      airChecks: [ 0, 3, 0 ]
+      solidChecks: [ 0, -1, 0 ]
+      debugSpawns: false
+    }
+    {
+      name: thorny_vine_x-1
+      matchers: [ "sand", "stone", "undergroundbiomes:igneous_sand", "pyrotech:limestone", "minecraft:sandstone" ]
+      height: [ 35, 60 ]
+      directions: up
+      chance: 1
+      count: 3
+      offset: [ 0, -1, 0 ]
+      airChecks: [ 0, -1, 0 ]
+      solidChecks: [ 0, 1, 0 ]
+      debugSpawns: false
+    }
+  ]
+}
